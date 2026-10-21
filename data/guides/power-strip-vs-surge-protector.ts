@@ -12,7 +12,7 @@ export const powerStripVsSurgeProtectorGuide: Guide = {
     "is my power strip a surge protector",
     "power strip surge protection difference",
     "do i need surge protector for computer",
-    "basic power strip vs protected",
+    "basic power strip vs protected"
   ],
   heroImage: "https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const powerStripVsSurgeProtectorGuide: Guide = {
     "surge-protector-joule-rating-explained",
     "ups-runtime-explained",
     "cable-management-types-explained",
-    "usb-c-power-delivery-explained",
+    "usb-c-power-delivery-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const powerStripVsSurgeProtectorGuide: Guide = {
       question: "Should every device at my desk be plugged into a surge protector?",
       answer:
         "For sensitive electronics like computers, monitors, and networking equipment, yes, less sensitive devices like simple desk lamps don't necessarily need the same protection, though using a surge protector for the whole desk setup is a simple, low-cost habit.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const powerStripVsSurgeProtectorGuide: Guide = {
     {
       heading: "Why the Cost Difference Is Worth Paying for Desk Electronics",
       body: `The price premium for a genuine surge protector over a basic power strip is typically modest, often just a few dollars difference, a small cost relative to the potential expense of replacing a damaged computer, monitor, or other electronics following an unprotected surge event. Given this asymmetry, defaulting to a surge protector rather than a basic power strip for any desk setup with meaningful electronics investment is a low-cost precaution worth taking as standard practice.`,
-    },
+    }
   ],
 };

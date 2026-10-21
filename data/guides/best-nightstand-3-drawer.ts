@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "3 drawer nightstand";
 export const introParagraphs = [
   "A 3-drawer nightstand gives you more sorting space than a single-drawer table, but drawer count alone doesn't tell you whether a unit is safe to plug a phone charger into overnight, tall enough for your mattress, or sturdy enough for a stack of real books. Height, weight capacity, and electrical certification vary more between these picks than the drawer count does.",
-  "Below are 8 3-drawer nightstands we evaluated on height range, drawer and shelf capacity, charging port quality, and build material, ranging from a $39.99 budget pick to a $249.99 set of two with a premium paint finish.",
+  "Below are 8 3-drawer nightstands we evaluated on height range, drawer and shelf capacity, charging port quality, and build material, ranging from an under-$40 budget pick to an under-$250 set of two with a premium paint finish."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -70,18 +70,18 @@ export const products: GuideProduct[] = [
       "P2 particleboard + powder-coated steel",
       "3 fabric drawers + 1 open shelf",
       "2 AC outlets + 1 USB-A + 1 USB-C",
-      "Stain-resistant top, patent-pending drawer slide",
+      "Stain-resistant top, patent-pending drawer slide"
     ],
     pros: [
       "Balanced 27.6\" height fits most standard beds",
       "USB-C port alongside USB-A and AC outlets",
       "Stain-resistant top surface",
-      "Smooth patent-pending drawer slides",
+      "Smooth patent-pending drawer slides"
     ],
     cons: [
       "No electrical safety certification listed",
       "Particleboard construction, not solid wood",
-      "Open shelf adds dust-collecting surface",
+      "Open shelf adds dust-collecting surface"
     ],
     bestFor: "Buyers who want the most broadly proven all-around 3-drawer pick",
   },
@@ -102,18 +102,18 @@ export const products: GuideProduct[] = [
       "Wood board + metal frame + fabric drawers",
       "FCC & ETL certified electrical components",
       "16 RGB colors, 22 modes, app/remote control",
-      "2 AC outlets + 2 USB, X-bar support frame, adjustable feet",
+      "2 AC outlets + 2 USB, X-bar support frame, adjustable feet"
     ],
     pros: [
       "Only FCC & ETL certified pick in this list",
       "16 RGB colors and 22 lighting modes",
       "X-bar frame adds structural stability",
-      "Adjustable feet for uneven floors",
+      "Adjustable feet for uneven floors"
     ],
     cons: [
       "Smaller review sample than the best-selling pick",
       "25.6\" height suits lower beds, not raised ones",
-      "Wood board is not solid hardwood",
+      "Wood board is not solid hardwood"
     ],
     bestFor: "Buyers who want a certified, tested electrical charging nightstand",
   },
@@ -134,18 +134,18 @@ export const products: GuideProduct[] = [
       "Particleboard + metal frame",
       "3 fabric drawers",
       "2 AC outlets + 2 USB, 3-way charging unit install",
-      "Anti-toppling device included",
+      "Anti-toppling device included"
     ],
     pros: [
       "Only pick with 3 install options for the charging unit",
       "Tallest budget-tier pick at 28.3\"",
       "Anti-toppling device included",
-      "Strong 1,906-rating track record",
+      "Strong 1,906-rating track record"
     ],
     cons: [
       "No electrical safety certification listed",
       "Particleboard build, not solid wood",
-      "Rustic brown finish only, no alternate colors",
+      "Rustic brown finish only, no alternate colors"
     ],
     bestFor: "Buyers who need flexible charging-unit placement around an awkward outlet",
   },
@@ -166,18 +166,18 @@ export const products: GuideProduct[] = [
       "Particleboard + steel + PVC leather",
       "3 drawers + 1 open shelf",
       "2 AC + 2 USB-A + 1 USB-C (5 ports, most in this list)",
-      "App-controlled LED music sync, anti-tip kit, 66 lb capacity",
+      "App-controlled LED music sync, anti-tip kit, 66 lb capacity"
     ],
     pros: [
       "Tallest pick in this list at 29.9\"",
       "Most charging ports at 5 total, including USB-C",
       "66 lb capacity higher than plain particleboard units",
-      "App-controlled LED with music sync",
+      "App-controlled LED with music sync"
     ],
     cons: [
       "No electrical safety certification listed",
       "Too tall for low platform beds",
-      "PVC leather finish shows wear differently than wood",
+      "PVC leather finish shows wear differently than wood"
     ],
     bestFor: "Buyers with a raised bed who need the most charging ports available",
   },
@@ -198,18 +198,18 @@ export const products: GuideProduct[] = [
       "Particleboard + metal frame",
       "3 fabric drawers",
       "2 AC + 2 USB, LED voice/app/timer/music sync",
-      "Water-resistant top, rounded corners, 50 lb capacity",
+      "Water-resistant top, rounded corners, 50 lb capacity"
     ],
     pros: [
       "Most capable LED control (voice, app, timer, music sync)",
       "50 lb capacity, highest among standard-width picks",
       "Rounded corners for safety",
-      "Tall 29.4\" height suits raised beds",
+      "Tall 29.4\" height suits raised beds"
     ],
     cons: [
       "No electrical safety certification listed",
       "Black finish shows dust more visibly",
-      "Same price point as certified alternatives",
+      "Same price point as certified alternatives"
     ],
     bestFor: "Buyers who want the most advanced LED lighting controls",
   },
@@ -230,18 +230,18 @@ export const products: GuideProduct[] = [
       "Particleboard + metal frame",
       "3 fabric drawers",
       "2 AC + 2 USB, LED voice/app/timer/music sync",
-      "Water-resistant top, rounded corners, 50 lb capacity",
+      "Water-resistant top, rounded corners, 50 lb capacity"
     ],
     pros: [
       "Same advanced LED control as the black Lazzanto",
       "50 lb capacity",
       "White finish matches lighter bedroom sets",
-      "Water-resistant tabletop",
+      "Water-resistant tabletop"
     ],
     cons: [
       "Priced higher than the black version for the same specs",
       "No electrical safety certification listed",
-      "White finish shows scuffs more than dark finishes",
+      "White finish shows scuffs more than dark finishes"
     ],
     bestFor: "Buyers who want the Lazzanto's smart LED features in white",
   },
@@ -262,18 +262,18 @@ export const products: GuideProduct[] = [
       "Engineered wood",
       "3 drawers, 13.78\" drawer depth (deepest in this list)",
       "2 AC + 2 USB, waterproof top",
-      "110 lb capacity (highest in this list), smooth metal glides",
+      "110 lb capacity (highest in this list), smooth metal glides"
     ],
     pros: [
       "Highest weight capacity in this list at 110 lbs",
       "Widest footprint and deepest drawers for more storage",
       "Waterproof top surface",
-      "Smooth metal drawer glides",
+      "Smooth metal drawer glides"
     ],
     cons: [
       "Most expensive single-unit pick in this list",
       "Wide footprint needs more bedroom floor space",
-      "Smaller review sample than the top sellers",
+      "Smaller review sample than the top sellers"
     ],
     bestFor: "Buyers who want maximum drawer capacity and don't mind a larger footprint",
   },
@@ -294,21 +294,21 @@ export const products: GuideProduct[] = [
       "Engineered wood, smooth paint finish",
       "SET OF 2, 3 deep drawers per table",
       "2 AC + 1 USB-A + 1 USB-C per table",
-      "Reinforced panels, most premium finish in this list",
+      "Reinforced panels, most premium finish in this list"
     ],
     pros: [
       "Only matched set-of-2 pick in this list",
       "Most premium paint finish and reinforced panels",
       "Identical charging setup on both sides of the bed",
-      "Deep drawers on both tables",
+      "Deep drawers on both tables"
     ],
     cons: [
       "Most expensive pick in this list by a wide margin",
       "23.62\" height suits lower to mid-height beds only",
-      "No electrical safety certification listed",
+      "No electrical safety certification listed"
     ],
     bestFor: "Buyers who want a matching pair with a more premium finish",
-  },
+  }
 ];
 
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
@@ -336,7 +336,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Value for price",
     description:
       "Weighed height, capacity, certification, and included features against price, from the budget picks to the matched set.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -482,11 +482,11 @@ export const faq: FaqItem[] = [
   {
     q: "Why does drawer depth matter beyond drawer count?",
     a: "A 3-drawer nightstand with shallow drawers can hold less than a 2-drawer unit with deep drawers. The WLIVE Tall has the deepest drawers in this list at 13.78\", noticeably more usable space per drawer than the standard 15-16\" wide, shallower picks.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-nightstand-2-drawer", title: "Best 2-Drawer Nightstands (2026)" },
   { href: "/guide/best-nightstand-white", title: "Best White Nightstands (2026)" },
-  { href: "/guide/best-charging-stations-for-bedside-table", title: "Best Charging Stations for a Bedside Table (2026)" },
+  { href: "/guide/best-charging-stations-for-bedside-table", title: "Best Charging Stations for a Bedside Table (2026)" }
 ];

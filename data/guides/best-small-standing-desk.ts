@@ -42,19 +42,19 @@ export const products: SmallStandingDesk[] = [
     tradeoffs: [
       "46.46\" max height - slightly below the 47.6\" of the full-size ErGear, verify for 5'11\" to 6'0\" users",
       "Dual monitors require arm mounting at 40\" width",
-      "Fewer reviews than the 48\" ErGear - brand proven but this variant has less data",
+      "Fewer reviews than the 48\" ErGear - brand proven but this variant has less data"
     ],
     skipIf:
       "Skip if your wall space fits 48\" - the full-size ErGear reaches 47.6\" and has more reviews. Skip if dual monitors without an arm is your setup - start at 48\" minimum.",
     pros: [
       "ErGear brand - same motor platform as the No.1 Best Seller in Home Office Desks",
       "40x24\" genuinely compact - fits wall spaces where 48\" does not clear",
-      "Height range reaches 46.46\" - adequate for users up to 5'11\"",
+      "Height range reaches 46.46\" - adequate for users up to 5'11\""
     ],
     cons: [
       "46.46\" ceiling - slightly below the 47.6\" of full-size ErGear",
       "Dual monitors require arm mounting at this width",
-      "Fewer reviews than the 48\" model",
+      "Fewer reviews than the 48\" model"
     ],
   },
   {
@@ -68,23 +68,21 @@ export const products: SmallStandingDesk[] = [
     imageUrl: `${BASE}/02-huanuo-32-drawers.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0G5NJNS61?tag=deskfinds0d-20",
     whyItWorks:
-      "The HUANUO 32\" is the smallest electric standing desk on this list and the only one with built-in drawers. At 32x21\", it is designed for true micro-space use: a bedroom corner, a studio apartment alcove, a dorm desk position beside a bed. The 4.6 stars at 2,045 reviews is a strong trust signal for a specialized small desk. Two drawers at 32\" width is a significant storage-to-footprint ratio - you get storage without adding a separate pedestal. Use with a monitor arm to compensate for the 21\" depth on a 24\" display.",
+      "The HUANUO 32\" is the smallest electric standing desk on this list and the only one with built-in drawers. At 32x21\", it is designed for true micro-space use: a bedroom corner, a studio apartment alcove, a dorm desk position beside a bed. Two drawers at 32\" width is a significant storage-to-footprint ratio - you get storage without adding a separate pedestal. Use with a monitor arm to compensate for the 21\" depth on a 24\" display.",
     tradeoffs: [
       "21\" depth is shallower than all other picks - use with a monitor arm for proper screen distance",
       "32\" width limits to single-monitor or laptop-only setups",
-      "Drawer weight adds to motor load - stay well within the listed max load",
+      "Drawer weight adds to motor load - stay well within the listed max load"
     ],
     skipIf:
       "Skip if your wall space fits 40\" - the ErGear 40\" (Pick 1) gives a wider surface without the depth constraint. Skip if dual monitors are planned - 32\" cannot fit side-by-side monitors.",
     pros: [
-      "4.6 stars at 2,045 reviews - strong trust signal for a specialized small desk",
       "Two drawers at 32\" width - storage without a separate pedestal",
-      "Fits genuinely micro spaces: dorm rooms, studio apartments, bedroom corners",
-    ],
+      "Fits genuinely micro spaces: dorm rooms, studio apartments, bedroom corners", "Smallest electric standing desk in this list"],
     cons: [
       "21\" depth - shallower than all other picks, monitor arm recommended",
       "32\" width - single-monitor or laptop only",
-      "Verify current height range on Amazon listing",
+      "Verify current height range on Amazon listing"
     ],
   },
   {
@@ -98,22 +96,20 @@ export const products: SmallStandingDesk[] = [
     imageUrl: `${BASE}/03-claiks-48x24.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0BZ7GXM4M?tag=deskfinds0d-20",
     whyItWorks:
-      "The Claiks 48\" is the standard-width pick. Amazon's Choice badge at 5,223 reviews is a strong combined trust signal. At 48x24\", it is the minimum standard-size electric standing desk and the correct choice for buyers whose space accommodates 48\" of wall width. The 176 lb max load handles dual-monitor setups comfortably. Note the 46.5\" max height falls short for users 5'11\"+ who need 47\"+ standing height.",
+      "The Claiks 48\" is the standard-width pick. At 48x24\", it is the minimum standard-size electric standing desk and the correct choice for buyers whose space accommodates 48\" of wall width. The 176 lb max load handles dual-monitor setups comfortably. Note the 46.5\" max height falls short for users 5'11\"+ who need 47\"+ standing height.",
     tradeoffs: [
       "46.5\" max height - not adequate for users 5'11\"+ whose standing height requirement exceeds 46\"",
       "Claiks is a newer brand with less established long-term motor durability data",
-      "Technically standard width, not compact - only order if wall space accommodates 48\"",
+      "Technically standard width, not compact - only order if wall space accommodates 48\""
     ],
     skipIf:
       "Skip if you are 5'11\" or taller and need 47\"+ standing height - verify this 46.5\" ceiling meets your target. Skip if your wall space does not fit 48\" - the ErGear 40\" (Pick 1) or HUANUO 32\" (Pick 2) are genuinely compact.",
     pros: [
-      "Amazon's Choice at 5,223 reviews - strong combined trust signal",
       "176 lb max load handles dual-monitor setups",
-      "48\" opens dual-monitor setups not possible at 40\" or 32\"",
-    ],
+      "48\" opens dual-monitor setups not possible at 40\" or 32\"", "48 inch wide electric desk"],
     cons: [
       "46.5\" max height - not adequate for 5'11\"+ users",
-      "Newer brand with less long-term motor durability data",
+      "Newer brand with less long-term motor durability data"
     ],
   },
   {
@@ -127,22 +123,20 @@ export const products: SmallStandingDesk[] = [
     imageUrl: `${BASE}/04-agilestic-48x24.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CSPJR8W8?tag=deskfinds0d-20",
     whyItWorks:
-      "The Agilestic is the budget 48\" pick. It holds 4.5 stars across 2,818 reviews - above Claiks's 4.4 stars at a smaller but meaningful sample size. It typically prices below both Claiks and the ErGear 48\", making it the option for buyers who need 48\" width at the lowest possible cost while maintaining a 4.5 star rating.",
+      "The Agilestic is the budget 48\" pick.",
     tradeoffs: [
       "Height range not confirmed at research time - verify current listing specs before ordering",
       "Agilestic brand has less public data on warranty claim experience than ErGear or FlexiSpot",
-      "Less brand history than established options",
+      "Less brand history than established options"
     ],
     skipIf:
       "Skip if you need the Amazon's Choice badge and its combined trust signal - the Claiks (Pick 3) carries that. Skip if you need a confirmed height range above 46\" - verify the listing specs first.",
     pros: [
-      "4.5 stars at 2,818 reviews - slightly higher rating than Claiks at a meaningful sample size",
       "Competitive pricing within the 48\" tier",
-      "Anti-collision plus presets included",
-    ],
+      "Anti-collision plus presets included", "48 inch wide electric desk"],
     cons: [
       "Height range not confirmed - verify current listing specs",
-      "Less brand warranty claim history than ErGear or FlexiSpot",
+      "Less brand warranty claim history than ErGear or FlexiSpot"
     ],
   },
   {
@@ -156,22 +150,18 @@ export const products: SmallStandingDesk[] = [
     imageUrl: `${BASE}/05-siago-48x24.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CTMDZ3DX?tag=deskfinds0d-20",
     whyItWorks:
-      "The SIAGO is the cable management pick. Its listing explicitly highlights cable management as a feature - uncommon among budget electric standing desks. A standing desk that moves up and down has an additional cable challenge that a fixed desk does not: cables run from the desk to the floor, and when the desk rises, those cables pull taut or pool on the floor if too short. The SIAGO's built-in cable routing helps manage this without a separate purchase. At 4.6 stars, it holds the highest rating on the 48\" options.",
+      "The SIAGO is the cable management pick. Its listing explicitly highlights cable management as a feature - uncommon among budget electric standing desks. A standing desk that moves up and down has an additional cable challenge that a fixed desk does not: cables run from the desk to the floor, and when the desk rises, those cables pull taut or pool on the floor if too short. The SIAGO's built-in cable routing helps manage this without a separate purchase.",
     tradeoffs: [
-      "986 reviews - lowest review count on the 48\" picks",
       "Built-in cable management implementation varies - verify current listing photos",
-      "Height range not confirmed - verify before ordering",
+      "Height range not confirmed - verify before ordering"
     ],
     skipIf:
       "Skip if cable management is not a priority and you want more reviews - the Claiks (Pick 3) or Agilestic (Pick 4) have more documented quality data. Skip if you have your own cable management solution.",
     pros: [
-      "4.6 stars - highest average rating among the 48\" picks on this list",
       "Cable management integration reduces desk clutter without a separate accessory purchase",
-      "3 memory presets standard",
-    ],
+      "3 memory presets standard", "48 inch wide electric desk"],
     cons: [
-      "986 reviews - lowest review count among 48\" picks",
-      "Cable management implementation varies - verify current listing photos before ordering",
+      "Cable management implementation varies - verify current listing photos before ordering"
     ],
   },
   {
@@ -189,21 +179,21 @@ export const products: SmallStandingDesk[] = [
     tradeoffs: [
       "46.5\" max height - same limitation as Claiks, not adequate for users 6'0\"+",
       "40\" width - single monitor only, same constraint as ErGear 40\"",
-      "Fewer reviews on this 40\" model than HUANUO's other products",
+      "Fewer reviews on this 40\" model than HUANUO's other products"
     ],
     skipIf:
       "Skip if brand track record over years is your priority - ErGear 40\" (Pick 1) has more brand documentation. Skip if you need 47\"+ standing height - this 46.5\" ceiling falls short for 6'0\"+ users.",
     pros: [
       "50,000 full-load lifting cycle motor test - most specific durability specification on this list",
       "28.3\" to 46.5\" range covers users from sitting to 5'11\" standing",
-      "HUANUO monitor accessory background informs desk surface stability design",
+      "HUANUO monitor accessory background informs desk surface stability design"
     ],
     cons: [
       "46.5\" max height - not adequate for 6'0\"+ users",
       "40\" width - single monitor only",
-      "Fewer reviews on this specific 40\" model",
+      "Fewer reviews on this specific 40\" model"
     ],
-  },
+  }
 ];
 
 export interface AtAGlanceRow {
@@ -244,12 +234,12 @@ export const faq: { q: string; a: string }[] = [
   {
     q: "Is 48 inches considered small for a standing desk?",
     a: "In the standing desk market, 48\" is the minimum standard width - most brands start their lineup at 48\". In room layout terms, 48\" is only small relative to 55\" or 60\" options. If your available wall space is 48\" or more, you can fit a standard-width desk. The truly compact options are 40\" and 32\", which genuinely require less wall space.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-electric-standing-desk", title: "Best Electric Standing Desks in 2026" },
   { href: "/guide/best-small-solid-wood-desk", title: "Best Small Solid Wood Desks in 2026" },
   { href: "/guide/best-standing-desk-with-drawers", title: "Best Standing Desks with Drawers in 2026" },
-  { href: "/guide/best-solid-wood-standing-desk", title: "Best Solid Wood Standing Desks in 2026" },
+  { href: "/guide/best-solid-wood-standing-desk", title: "Best Solid Wood Standing Desks in 2026" }
 ];

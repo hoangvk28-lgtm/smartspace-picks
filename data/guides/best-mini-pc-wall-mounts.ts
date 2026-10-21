@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini PC wall mounts";
 export const introParagraphs = [
   "Wall mounting is a genuinely distinct location from behind-monitor or under-desk mounting, and it comes with its own set of concerns neither of those other two methods has to deal with. The anchor holding a Mini PC to drywall or a stud carries different risk than a bracket resting on a desk's own structure, and most of the products marketed as wall mounts also list VESA or under-desk as alternate options, since a dedicated wall-only Mini PC mount is a narrower product category than it might seem.",
-  "This guide checked the real feature lists behind each listing rather than assuming a generic 'universal mount' claim covers wall installation well. Some of these products are wall-primary with VESA as a bonus; others are VESA-primary with wall listed as a secondary option, and knowing which is which matters before you start drilling.",
+  "This guide checked the real feature lists behind each listing rather than assuming a generic 'universal mount' claim covers wall installation well. Some of these products are wall-primary with VESA as a bonus; others are VESA-primary with wall listed as a secondary option, and knowing which is which matters before you start drilling."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -156,7 +156,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Anchor type and wall material fit", description: "We looked at whether included hardware covers both drywall anchors and stud screws, since a wall mount's real holding strength depends heavily on what it is actually anchored into." },
   { title: "Cable routing to a wall-mounted Mini PC", description: "We evaluated whether cable management features exist for a Mini PC mounted away from the desk, since a wall install often means longer cable runs than a desk-adjacent mount." },
   { title: "Mounted airflow in an enclosed spot", description: "We compared open-frame designs against solid-backing brackets, since a wall corner or tight nook can trap heat more than an open desk surface would." },
-  { title: "Renter-friendliness vs permanence", description: "We noted which mounts offer an adhesive or hole-free option versus requiring drilling, since that tradeoff matters differently depending on whether you rent or own your space." },
+  { title: "Renter-friendliness vs permanence", description: "We noted which mounts offer an adhesive or hole-free option versus requiring drilling, since that tradeoff matters differently depending on whether you rent or own your space." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -281,11 +281,11 @@ export const faq: FaqItem[] = [
   { q: "Are all of these mounts genuinely built for wall mounting, or is it a secondary feature?", a: "Most listed here support wall mounting as one of two or three options rather than a wall-only design. We verified from the actual feature lists that each pick genuinely supports wall installation, not just VESA with wall mentioned in passing." },
   { q: "Can I wall-mount a Mini PC without drilling any holes?", a: "The NOTMBESTM Adjustable Wall Mount Shelf in this guide supports adhesive installation as an alternative to screws, though it comes with a lower weight limit and a required cure time before loading any weight." },
   { q: "Does wall mounting affect my Mini PC's cooling?", a: "It can, especially in a tight corner or behind furniture. An open-frame bracket helps, but the mounting spot itself matters as much as the bracket's own design." },
-  { q: "How far can a wall-mounted Mini PC be from an outlet?", a: "None of these mounts include long-distance cable routing, so plan your power and video cable run to the mounting spot before installing, or budget for a cable raceway separately." },
+  { q: "How far can a wall-mounted Mini PC be from an outlet?", a: "None of these mounts include long-distance cable routing, so plan your power and video cable run to the mounting spot before installing, or budget for a cable raceway separately." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pc-mounts", title: "Best Mini PC Mounts (2026)" },
   { href: "/guide/best-vesa-mini-pc-mounts", title: "Best VESA Mini PC Mounts (2026)" },
-  { href: "/guide/best-mini-pc-mounting-brackets", title: "Best Mini PC Mounting Brackets (2026)" },
+  { href: "/guide/best-mini-pc-mounting-brackets", title: "Best Mini PC Mounting Brackets (2026)" }
 ];

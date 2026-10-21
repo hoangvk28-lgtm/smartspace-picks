@@ -2,11 +2,11 @@ export const guideSlug = "best-office-storage-carts-on-wheels";
 export const guideTitle = "8 Best Office Storage Carts on Wheels in 2026";
 export const metaTitle = "Best Office Storage Carts on Wheels (2026)";
 export const metaDescription =
-  "8 rolling office storage carts compared on drawer or shelf dimensions, loaded caster behavior, and real office-supply fit, from $21.59 to $98.99.";
+  "8 rolling office storage carts compared on drawer or shelf dimensions, loaded caster behavior, and real office-supply fit, from roughly $25 to $100.";
 export const mainKeyword = "office storage carts on wheels";
 export const introParagraphs = [
   "A rolling storage cart's usable capacity depends on real shelf and drawer dimensions, not the tier count in the listing title. We compared confirmed drawer counts, price, and review base rather than assuming a 3-tier cart and an 8-drawer cart serve the same office-supply workflow.",
-  "None of these listings had an independently measured loaded-caster or brake-hold test, so we flagged that as something to verify against your specific floor type before assuming smooth rolling under a full load.",
+  "None of these listings had an independently measured loaded-caster or brake-hold test, so we flagged that as something to verify against your specific floor type before assuming smooth rolling under a full load."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
@@ -30,9 +30,9 @@ export const products: GuideProduct[] = [
     reviews: "5040",
     imageUrl: "https://m.media-amazon.com/images/I/41ri7QTtJoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07Q4FHWV9?tag=deskfinds0d-20",
-    description: "At 14.25\"L x 12.05\"W x 26.44\"H, this is genuinely sized for office and classroom material organization: lesson materials, worksheets, markers, notebooks, and similar supplies kept within easy reach. Built-in drawer stops prevent a drawer from sliding all the way out and falling during use, a small detail that matters once a drawer is loaded with supplies.\n\nThe wheels are actually removable, so you can roll it between desks or activity stations when needed, then pull the wheels off for stable, wobble-free placement in one permanent spot. Made in the USA with durable plastic construction and smooth-glide drawers, it's the most reviewed pick in this entire comparison at over 5,000 reviews.\n\nRemovable wheels let you convert between rolling and stationary use. That's a real strength, but weigh it against the flip side: fewer drawers than the 8- and 10-drawer options if you need more separation.",
+    description: "At 14.25\"L x 12.05\"W x 26.44\"H, this is genuinely sized for office and classroom material organization: lesson materials, worksheets, markers, notebooks, and similar supplies kept within easy reach. Built-in drawer stops prevent a drawer from sliding all the way out and falling during use, a small detail that matters once a drawer is loaded with supplies.\n\nThe wheels are actually removable, so you can roll it between desks or activity stations when needed, then pull the wheels off for stable, wobble-free placement in one permanent spot.\n\nRemovable wheels let you convert between rolling and stationary use. That's a real strength, but weigh it against the flip side: fewer drawers than the 8- and 10-drawer options if you need more separation.",
     specs: ["4-drawer + organizer top, 14.25×12.05×26.44 in", "Removable wheels for mobile or fixed use", "Built-in drawer stops prevent falls"],
-    pros: ["Largest confirmed review base in this comparison at over 5,000 reviews", "Removable wheels let you convert between rolling and stationary use"],
+    pros: [ "Removable wheels let you convert between rolling and stationary use"],
     cons: ["Fewer drawers than the 8- and 10-drawer options if you need more separation"],
     bestFor: "Buyers wanting the most proven, widely-reviewed rolling storage cart.",
   },
@@ -78,9 +78,9 @@ export const products: GuideProduct[] = [
     reviews: "1241",
     imageUrl: "https://m.media-amazon.com/images/I/41qgAWlMj7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G4281WTD?tag=deskfinds0d-20",
-    description: "At 15.55\"D x 12.60\"W x 25.47\"H, this packs 8 drawers in different colors specifically so you can classify and label categories visually rather than relying on memory or written labels. Slide-out drawers run on smooth tracks with ergonomic handles, and the same 33 lb top plate / 11 lb per drawer capacity as the LEHOM pick comes wrapped in a powder-coated steel frame with water and rust resistance.\n\nFour universal wheels swivel a full 360 degrees with a locking option for stability when needed, and detailed installation videos on the product page walk through assembly step by step. At over 1,200 reviews, this has meaningfully more buyer feedback than the LEHOM 8-drawer alternative despite the identical drawer count.\n\nA genuine advantage here is that color-coded drawers make category labeling faster than plain black drawers. The tradeoff is slightly more expensive than the 4-drawer options.",
+    description: "At 15.55\"D x 12.60\"W x 25.47\"H, this packs 8 drawers in different colors specifically so you can classify and label categories visually rather than relying on memory or written labels. Slide-out drawers run on smooth tracks with ergonomic handles, and the same 33 lb top plate / 11 lb per drawer capacity as the LEHOM pick comes wrapped in a powder-coated steel frame with water and rust resistance.\n\nFour universal wheels swivel a full 360 degrees with a locking option for stability when needed, and detailed installation videos on the product page walk through assembly step by step.\n\nA genuine advantage here is that color-coded drawers make category labeling faster than plain black drawers. The tradeoff is slightly more expensive than the 4-drawer options.",
     specs: ["8-drawer, color-coded, 15.55×12.60×25.47 in", "33 lb top plate, 11 lb per drawer, rust-resistant steel frame", "Video-guided assembly"],
-    pros: ["Strong review base for an 8-drawer cart, over 1,200 ratings", "Color-coded drawers make category labeling faster than plain black drawers"],
+    pros: [ "Color-coded drawers make category labeling faster than plain black drawers"],
     cons: ["Slightly more expensive than the 4-drawer options"],
     bestFor: "Buyers wanting 8 drawers with a larger proven review base than the LEHOM pick.",
   },
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     pros: ["White finish, the only style alternative to the black options here", "Detachable drawers can be carried separately, unique in this comparison"],
     cons: ["Smallest review base in this comparison"],
     bestFor: "Offices wanting a white cart instead of the more common black finish.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Drawer count versus open-tier design compared directly", description: "We distinguished fully enclosed drawer carts from open-tier carts, since drawers separate small supplies better while open tiers load and unload faster." },
   { title: "Review base weighted heavily given the wide count range", description: "Review counts here range from 70 to over 5,000. We treated that spread as a meaningful confidence signal rather than a secondary detail." },
   { title: "Price compared against drawer count and finish", description: "We compared the range of price points in this comparison against actual drawer count and finish (black versus white) rather than assuming price alone predicts quality." },
-  { title: "Loaded caster behavior flagged as unverified", description: "None of these listings had an independently measured loaded-caster or brake-hold test in our data pull, so we're flagging that as a gap to verify against your specific floor type." },
+  { title: "Loaded caster behavior flagged as unverified", description: "None of these listings had an independently measured loaded-caster or brake-hold test in our data pull, so we're flagging that as a gap to verify against your specific floor type." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -279,11 +279,12 @@ export const buyingCriteria: BuyingCriterion[] = [
 ];
 
 export const faq: FaqItem[] = [
-  { q: "What's the best overall rolling office storage cart?", a: "The IRIS USA 4-Drawer Rolling Storage Cart, with the largest confirmed review base in this comparison at over 5,000 reviews." },
-  { q: "What's the cheapest option?", a: "The Goovilla 3 Tier Rolling Utility Cart Organizer at $21.59." },
-  { q: "Which cart has the most drawers?", a: "The 10 Drawers Rolling Cart with Wooden Tabletop, at $98.99." },
+  
+  { q: "What's the cheapest option?", a: "The Goovilla 3 Tier Rolling Utility Cart Organizer at under $25." },
+  { q: "Which cart has the most drawers?", a: "The 10 Drawers Rolling Cart with Wooden Tabletop, at under $100." },
   { q: "Is there a white cart instead of black?", a: "Yes, the Goovilla Rolling Cart with 5 Drawers comes in white, explicitly marketed across craft, dorm, and office use." },
-  { q: "Which pick has the highest rating?", a: "The LEHOM Rolling Storage Cart with 8 Drawers, at a 4.7 rating with 681 reviews." },
+  { q: "Do I need to lock the casters when I am pulling drawers open?", a: "Yes, lock them whenever the cart is parked. Pulling a loaded drawer on an unlocked caster pushes the cart away from you and can tip lighter frames. The LEHOM 8-drawer cart is described with partial locking casters, and the 10-drawer wooden-top cart has two of its four casters braked, so lock those pairs before you reach in." },
+  { q: "How much weight can the top of an office storage cart hold?", a: "It depends on the model and is usually far lower than the total frame rating. The LEHOM and SYKIARIOL 8-drawer carts list a 33 lb top plate and 11 lb per drawer, while the open-shelf Goovilla 3-tier lists 124 lbs total. Check the top-plate figure in the listing before setting a printer or monitor on it." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

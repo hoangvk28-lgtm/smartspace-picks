@@ -100,7 +100,7 @@ export const howToChoose = [
         ["802.3af 15.4W (basic camera, VoIP phone)", "Gigabit POE Injector 48V 15.4W"],
         ["802.3at 30W (PTZ camera, Wi-Fi 6 AP)", "Omada PoE+ Injector 30W"],
         ["Either, without knowing the exact spec", "ULTRAPOE Gigabit PoE+ Injector 30W"],
-        ["A single basic device on a tight budget", "Gigabit PoE Injector 48V with 3ft Cable"],
+        ["A single basic device on a tight budget", "Gigabit PoE Injector 48V with 3ft Cable"]
       ],
     },
   },
@@ -109,9 +109,9 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $9", "Gigabit PoE Injector 48V with 3ft Cable ($8.97)"],
-        ["Under $14", "Gigabit POE Injector 48V 15.4W ($13.99)"],
-        ["Under $20", "Omada PoE+ Injector 30W or ULTRAPOE 30W (both $19.99)"],
+        ["Under $9", "Gigabit PoE Injector 48V with 3ft Cable (under $9)"],
+        ["Under $14", "Gigabit POE Injector 48V 15.4W (under $15)"],
+        ["Under $20", "Omada PoE+ Injector 30W or ULTRAPOE 30W (both under $20)"]
       ],
     },
   },
@@ -119,7 +119,7 @@ export const howToChoose = [
     subheading: "802.3af 15.4W vs 802.3at 30W",
     cards: [
       { label: "802.3af (15.4W)", text: "Suits standard IP cameras, VoIP phones, and basic access points that don't draw heavy power, at a lower unit cost, as offered by the TL-POE150S-compatible pick." },
-      { label: "802.3at (30W)", text: "Required for PTZ cameras, Wi-Fi 6/6E access points, and other higher-draw devices, as offered by the Omada and ULTRAPOE picks." },
+      { label: "802.3at (30W)", text: "Required for PTZ cameras, Wi-Fi 6/6E access points, and other higher-draw devices, as offered by the Omada and ULTRAPOE picks." }
     ],
     note: "Most buyers with a modern Wi-Fi access point or PTZ camera should default to a 30W 802.3at injector unless their device's spec sheet explicitly confirms 15.4W is sufficient.",
   },
@@ -130,7 +130,7 @@ export const howToChoose = [
       rows: [
         ["UL certification specifically stated", "Omada PoE+ Injector 30W"],
         ["Flame retardant housing specifically stated", "ULTRAPOE Gigabit PoE+ Injector 30W"],
-        ["Multiple named electrical protections", "Gigabit POE Injector 48V 15.4W"],
+        ["Multiple named electrical protections", "Gigabit POE Injector 48V 15.4W"]
       ],
     },
   },
@@ -138,16 +138,16 @@ export const howToChoose = [
     subheading: "For a First IP Camera Installation Specifically",
     cards: [
       { label: "Look for", text: "A stated power budget matching your camera's exact wattage requirement from its own spec sheet, plus a bundled Ethernet cable if you don't already have one on hand." },
-      { label: "In this comparison", text: "The budget pick with the included 3ft Cat 6 cable removes one shopping step for a first-time single-camera installation." },
+      { label: "In this comparison", text: "The budget pick with the included 3ft Cat 6 cable removes one shopping step for a first-time single-camera installation." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "Your device draws 802.3at power or you want a UL-certified unit, where the Omada pick's $19.99 price buys documented safety certification and a wider power range." },
-      { label: "Save if", text: "You have one standard 15.4W device and just need reliable power and data delivery, where the $8.97 budget pick with its included cable covers that need." },
+      { label: "Spend more if", text: "Your device draws 802.3at power or you want a UL-certified unit, where the Omada pick's under $20 price buys documented safety certification and a wider power range." },
+      { label: "Save if", text: "You have one standard 15.4W device and just need reliable power and data delivery, where the under $9 budget pick with its included cable covers that need." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

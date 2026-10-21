@@ -11,7 +11,7 @@ export const vesaMountPatternExplainedGuide: Guide = {
   subKeywords: [
     "vesa 75x75 vs 100x100",
     "how to find monitor vesa pattern",
-    "vesa mount adapter",
+    "vesa mount adapter"
   ],
   heroImage: "https://images.unsplash.com/photo-1632064824547-e77c36851495?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1632064824547-e77c36851495?q=80&w=800&auto=format&fit=crop",
@@ -23,7 +23,7 @@ export const vesaMountPatternExplainedGuide: Guide = {
     "best-portable-monitors-with-vesa-mounts",
     "best-mini-pcs-with-vesa-mounts",
     "best-vesa-mini-pc-mounts",
-    "under-desk-charging-station",
+    "under-desk-charging-station"
   ],
   faq: [
     {
@@ -50,7 +50,7 @@ export const vesaMountPatternExplainedGuide: Guide = {
       question: "Can I use a 100x100 arm on a monitor with 75x75 holes?",
       answer:
         "Only if the arm's mounting plate has slotted holes covering both patterns (many do, marked as '75/100mm compatible') or you use a separate VESA adapter plate. Check the specific arm's listing for explicit dual-pattern support before assuming it works with both.",
-    },
+    }
   ],
   sections: [
     {
@@ -78,6 +78,6 @@ export const vesaMountPatternExplainedGuide: Guide = {
       body: `A VESA adapter plate bridges the gap between a mount built for one pattern and a monitor with a different one, typically adding a secondary plate with both hole patterns pre-drilled. These are widely available separately and are the standard solution rather than needing to buy a different mount entirely.
 
 For monitors with no VESA holes at all, a universal strap-on or clip-on adapter kit can work, but check the specific kit's weight rating and monitor shape compatibility carefully, since these solutions are less secure than a native VESA connection and generally aren't rated for heavier or larger monitors.`,
-    },
+    }
   ],
 };

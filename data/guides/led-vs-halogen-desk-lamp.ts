@@ -12,7 +12,7 @@ export const ledVsHalogenDeskLampGuide: Guide = {
     "led desk lamp vs halogen",
     "halogen lamp heat issue",
     "led lamp energy savings",
-    "desk lamp bulb lifespan comparison",
+    "desk lamp bulb lifespan comparison"
   ],
   heroImage: "https://images.unsplash.com/photo-1560890264-4b92305ee66e?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1560890264-4b92305ee66e?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const ledVsHalogenDeskLampGuide: Guide = {
     "dimmable-vs-fixed-brightness-desk-lamp",
     "desk-lamp-lumens-guide",
     "desk-lamp-kelvin-color-temperature",
-    "clamp-lamp-vs-base-lamp",
+    "clamp-lamp-vs-base-lamp"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const ledVsHalogenDeskLampGuide: Guide = {
       question: "Are LED desk lamps more expensive to buy initially?",
       answer:
         "LED lamps can carry a modest upfront cost premium over halogen equivalents, but this is typically offset by lower energy costs and far less frequent bulb replacement over the lamp's actual usage lifetime.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const ledVsHalogenDeskLampGuide: Guide = {
     {
       heading: "Why LED Has Become the Practical Default Choice",
       body: `Between lower energy costs, dramatically longer bulb lifespan reducing replacement frequency and cost, cooler operation, and largely closed light quality gaps compared to halogen's historical advantages, LED desk lamps represent the more practical choice for the overwhelming majority of buyers today. Halogen lamps still exist in the market, but the specific scenarios where they offer a genuine advantage over modern LED alternatives have become increasingly narrow.`,
-    },
+    }
   ],
 };

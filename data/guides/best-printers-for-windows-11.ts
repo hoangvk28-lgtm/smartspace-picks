@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "best printer for windows 11";
 export const introParagraphs = [
   "Windows 11 can usually detect and install a basic driver for a new printer automatically, but that built-in driver often lacks scan tools, ink-level monitoring, and maintenance utilities that come with the full driver package from the manufacturer's own installer. Many connectivity complaints blamed on the printer are actually Windows-side Print Spooler service crashes, a background process that can hang or fail independently of the printer hardware, and knowing that distinction before buying a replacement printer can save an unnecessary purchase.",
-  "Below are 7 wireless printers we evaluated for Windows 11 compatibility, covering driver completeness, setup reliability, and how well each avoids the offline and spooler errors that generate the most troubleshooting complaints, ranging from a compact $69 inkjet to a $209.99 monochrome laser.",
+  "Below are 7 wireless printers we evaluated for Windows 11 compatibility, covering driver completeness, setup reliability, and how well each avoids the offline and spooler errors that generate the most troubleshooting complaints, ranging from a compact $69 inkjet to an under-$250 monochrome laser."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Automatic duplex printing",
       "Full Windows 11 driver with scan and maintenance tools",
       "Wireless connectivity",
-      "Compact laser footprint",
+      "Compact laser footprint"
     ],
     pros: [
       "Full driver package, not just the Windows built-in basic driver",
       "Laser reliability with fewer reported connectivity issues",
       "Automatic duplex printing",
-      "Handles higher document volume than inkjet picks",
+      "Handles higher document volume than inkjet picks"
     ],
     cons: [
       "Highest price in this list",
       "Monochrome only, no color printing",
-      "Toner replacement costs more upfront than ink cartridges",
+      "Toner replacement costs more upfront than ink cartridges"
     ],
     bestFor: "Home office buyers who print high document volume and want laser reliability on Windows 11",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Full Canon Windows 11 driver package",
       "Wireless network printing",
       "Built-in fax",
-      "Compact footprint",
+      "Compact footprint"
     ],
     pros: [
       "Lowest price in this list",
       "Auto document feeder for multi-page scans",
       "Full driver with scan and quality settings",
-      "Compact enough for tight desk space",
+      "Compact enough for tight desk space"
     ],
     cons: [
       "Cartridge-based ink costs more per page over time",
       "No color display",
-      "Fax feature is unnecessary for most buyers",
+      "Fax feature is unnecessary for most buyers"
     ],
     bestFor: "Buyers who want an inexpensive Windows 11 printer with a document feeder",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Full Epson Windows 11 driver with Scan 2 utility",
       "Wireless network printing",
       "Flatbed scanner, no ADF",
-      "Included startup ink bottles",
+      "Included startup ink bottles"
     ],
     pros: [
       "Lowest long-run cost per page in this list",
       "Full driver package with scan utility",
       "No cartridges to run out of",
-      "Reliable for high print volume",
+      "Reliable for high print volume"
     ],
     cons: [
       "Higher upfront price than cartridge models",
       "No auto document feeder",
-      "Tank refills require occasional manual top-off",
+      "Tank refills require occasional manual top-off"
     ],
     bestFor: "Windows 11 home offices that print frequently and want low ongoing ink cost",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Ethernet and wireless connectivity",
       "Cartridge-free refillable ink tanks",
       "Full Epson Windows 11 driver package",
-      "Built-in fax",
+      "Built-in fax"
     ],
     pros: [
       "Ethernet option reduces wireless offline errors",
       "Auto document feeder for multi-page scans",
       "Low cost per page from refillable tanks",
-      "Full driver with scan and maintenance tools",
+      "Full driver with scan and maintenance tools"
     ],
     cons: [
       "Highest price in this list alongside the ET-2800",
       "Larger footprint than compact single-purpose picks",
-      "Fax feature is unnecessary for most home buyers",
+      "Fax feature is unnecessary for most home buyers"
     ],
     bestFor: "Shared Windows 11 home offices that want a stable Ethernet connection and document feeder",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "HP Smart app for setup and monitoring",
       "3-month Instant Ink trial included",
       "Flatbed scanner, no ADF",
-      "AI-capable HP Smart features",
+      "AI-capable HP Smart features"
     ],
     pros: [
       "Lowest price alongside the Canon TR4720",
       "HP Smart app simplifies setup",
       "Compact for tight desk space",
-      "Instant Ink trial included",
+      "Instant Ink trial included"
     ],
     cons: [
       "Instant Ink trial auto-converts to paid unless canceled",
       "More reported offline/spooler-related complaints than Canon or Epson on forums",
-      "No auto document feeder",
+      "No auto document feeder"
     ],
     bestFor: "Budget shoppers who want simple setup and will remember to cancel the ink trial",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "1.8 inch color display",
       "Full Brother Windows 11 driver package",
       "Wireless network printing",
-      "Refresh Subscription ink trial included",
+      "Refresh Subscription ink trial included"
     ],
     pros: [
       "Automatic duplex printing saves paper",
       "Color display for easy status checks",
       "Full driver with duplex and status controls",
-      "Mid-range price with solid feature set",
+      "Mid-range price with solid feature set"
     ],
     cons: [
       "Refresh Subscription trial auto-converts unless canceled",
       "No auto document feeder",
-      "Larger footprint than the compact Canon and HP picks",
+      "Larger footprint than the compact Canon and HP picks"
     ],
     bestFor: "Windows 11 users who print longer documents and want automatic duplex printing",
   },
@@ -249,21 +249,21 @@ export const products: GuideProduct[] = [
       "Full Canon Windows 11 driver package",
       "Wireless network printing",
       "Flatbed scanner, no ADF",
-      "Compact all-in-one body",
+      "Compact all-in-one body"
     ],
     pros: [
       "Full driver exposes print quality and tray settings",
       "Individual ink tanks reduce waste",
       "Compact all-in-one design",
-      "Reliable Canon Windows connectivity",
+      "Reliable Canon Windows connectivity"
     ],
     cons: [
       "No auto document feeder",
       "Higher price than the entry Canon TR4720",
-      "Flatbed-only scanning is slower for bulk jobs",
+      "Flatbed-only scanning is slower for bulk jobs"
     ],
     bestFor: "Buyers who want Canon's full driver feature set in a compact everyday printer",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -296,7 +296,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Value for price",
     description:
       "Weighed driver completeness, connectivity reliability, and included features against price across the range of price points in this comparison in this list.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -450,11 +450,11 @@ export const faq: FaqItem[] = [
   {
     q: "Will an ink subscription trial start billing me automatically?",
     a: "Yes, in most cases. HP Instant Ink and Brother's Refresh Subscription trials both convert to paid billing automatically once the trial period ends unless you cancel through the account settings beforehand. Set a reminder if you don't want the ongoing charge.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-iphone-and-ipad", title: "Best Printers for iPhone and iPad (2026)" },
   { href: "/guide/best-portable-printers", title: "Best Portable Printers (2026)" },
-  { href: "/guide/best-mini-printers-for-small-spaces", title: "Best Mini Printers for Small Spaces (2026)" },
+  { href: "/guide/best-mini-printers-for-small-spaces", title: "Best Mini Printers for Small Spaces (2026)" }
 ];

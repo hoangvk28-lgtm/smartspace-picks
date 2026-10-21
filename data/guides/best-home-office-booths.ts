@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "home office booths";
 export const introParagraphs = [
   "Installing an enclosed office structure in a home is a different logistics problem than a commercial installation, doorway clearance for a residential entryway, standard home electrical circuits rather than commercial wiring, and floor loading in an apartment or upper-floor room all need direct verification before you order.",
-  "These are large, heavy freight items, not standard furniture, expect a freight delivery appointment, a multi-person assembly crew, and in many buildings a floor-load check before you commit, none of which resembles a typical Amazon furniture purchase.",
+  "These are large, heavy freight items, not standard furniture, expect a freight delivery appointment, a multi-person assembly crew, and in many buildings a floor-load check before you commit, none of which resembles a typical Amazon furniture purchase."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -87,7 +87,7 @@ export const products: GuideProduct[] = [
     pros: ["Explicit 1-2 person occupancy range disclosed in the title", "Exact exterior dimensions disclosed (W55 x D48 x H92in)", "Mid-range price relative to the rest of this pool", "No star rating or review count to independently verify against the marketing copy"],
     cons: ["No star rating or review count available from Amazon", "No formal STC/NRC sound-isolation data disclosed", "No ventilation specs disclosed for two-occupant use"],
     bestFor: "Home offices with limited floor space needing a smaller footprint.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -95,7 +95,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Residential doorway clearance flagged for each pick", description: "Noted that every pick in this pool ships as a large crated structure and requires confirming doorway and hallway clearance for a residential entryway before ordering." },
   { title: "Home electrical compatibility flagged, not assumed", description: "Flagged that home circuits differ from commercial wiring and that no listing specifies electrical load requirements, worth confirming with the seller or an electrician." },
   { title: "Floor loading called out for apartment and upper-floor installs", description: "Weighted floor-load verification as a real concern for apartment or upper-floor installations given the weight of these structures." },
-  { title: "Verified listing data only", description: "Used only prices, dimensions, and features actually printed in each Amazon listing, no invented ratings or review counts." },
+  { title: "Verified listing data only", description: "Used only prices, dimensions, and features actually printed in each Amazon listing, no invented ratings or review counts." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -211,11 +211,11 @@ export const faq: FaqItem[] = [
   { q: "Will an office pod fit through a standard residential doorway?", a: "It depends on the specific model, measure your doorway and hallway clearance and compare against the crated shipping dimensions, which the seller can typically provide on request." },
   { q: "Do these booths need special electrical wiring?", a: "No listing in this niche specifies electrical requirements, confirm with an electrician if your pod includes lighting or power outlets, but most residential circuits should suffice for basic features." },
   { q: "Can an apartment floor support an office pod?", a: "Check with your building or a structural professional, these are heavy structures concentrated in a small footprint, and floor loading is a genuine concern on upper floors." },
-  { q: "Should I check my lease before installing a home office booth?", a: "Yes, a large semi-permanent structure may violate lease terms or HOA rules, confirm with your landlord or association before ordering." },
+  { q: "Should I check my lease before installing a home office booth?", a: "Yes, a large semi-permanent structure may violate lease terms or HOA rules, confirm with your landlord or association before ordering." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-soundproof-home-office-booths", title: "Best Soundproof Home Office Booths (2026)" },
   { href: "/guide/best-office-pods-for-small-apartments", title: "Best Office Pods for Small Apartments (2026)" },
-  { href: "/guide/best-office-pods-for-remote-work", title: "Best Office Pods for Remote Work (2026)" },
+  { href: "/guide/best-office-pods-for-remote-work", title: "Best Office Pods for Remote Work (2026)" }
 ];

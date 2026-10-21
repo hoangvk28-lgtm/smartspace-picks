@@ -12,7 +12,7 @@ export const dualCameraSetupVideoCallsGuide: Guide = {
     "second camera angle for presentations",
     "switching cameras during video call",
     "overhead camera for demos",
-    "multiple camera zoom setup",
+    "multiple camera zoom setup"
   ],
   heroImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const dualCameraSetupVideoCallsGuide: Guide = {
     "webcam-mount-types-explained",
     "webcam-fov-explained",
     "streaming-desk-layout-explained",
-    "kvm-switch-explained",
+    "kvm-switch-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const dualCameraSetupVideoCallsGuide: Guide = {
       question: "What's a common practical use case for an overhead second camera?",
       answer:
         "Teachers, tutors, or anyone demonstrating handwriting, drawing, or physical materials on a desk surface commonly use an overhead-angled second camera to show this desk-level activity clearly, something a standard face-level webcam can't capture well.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const dualCameraSetupVideoCallsGuide: Guide = {
     {
       heading: "Why Added Complexity Isn't Justified Without a Specific Need",
       body: `Setting up and managing two cameras, positioning both appropriately, configuring software to switch between them, and remembering to actually switch at the right moments during a live call, introduces genuine setup and operational complexity, for standard conversational calls where you're simply talking with someone face to face, this complexity doesn't translate into a proportional benefit, a single well-positioned camera handles this use case completely, reserve the dual-camera investment specifically for situations with an identified need for an alternative viewing angle.`,
-    },
+    }
   ],
 };

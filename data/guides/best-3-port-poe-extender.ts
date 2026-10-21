@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "This switch's listing specifically describes a genuinely three-in-one design: it functions as a PoE extender, a network extender, or a PoE switch depending entirely on what power source you connect, DC 12V for network extension, DC 37-57V for PoE switch mode, or standard PoE input for extension. Its 12Gbps switching bandwidth and full Gigabit auto-adaptive speed across all ports outpace some competing extenders.\n\nCompared to the NICGIGA and BV-Tech picks above, this one's port isolation dial switch and genuine multi-mode flexibility make it the most adaptable pick in this comparison for changing network needs over time.\n\nBest for buyers who want a single device that can adapt between PoE extension, network extension, and PoE switch roles.",
     specs: ["Three-in-one: PoE extender, network extender, or PoE switch", "12Gbps bandwidth, full Gigabit auto-adaptive", "Port isolation dial switch, metal case with LED indicator"],
     pros: ["Genuinely adapts between three different device roles based on power source", "12Gbps switching bandwidth is higher than the other picks in this comparison", "Port isolation dial switch improves network security when needed"],
-    cons: ["Highest price in this comparison at $29.78", "Power supply is not included, requiring a separate purchase for non-PoE modes"],
+    cons: ["Highest price in this comparison at under $30", "Power supply is not included, requiring a separate purchase for non-PoE modes"],
     bestFor: "buyers who want a single device that can adapt between PoE extension, network extension, and PoE switch roles",
   },
   {
@@ -77,7 +77,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0H32QFSBZ?tag=deskfinds0d-20",
     description: "This extender's listing specifically states a One Key VLAN mode controlled by a dipswitch, letting its two output ports isolate from each other to improve network security when enabled, a genuinely useful toggle feature at the lowest price in this comparison. Its LED port status display helps with quick troubleshooting during installation.\n\nCompared to the NICGIGA, BV-Tech, and MokerLink picks above, this one's ABS polymer casing is specifically described as durable and dustproof for desktop indoor use, and its lowest price makes it the most accessible entry point for a basic two-device PoE extension.\n\nBest for buyers who want the lowest price with an optional VLAN isolation toggle for basic network security.",
     specs: ["1 in 2 out, 30W input, 24W max output", "One Key VLAN mode via dipswitch", "LED port status display, ABS polymer casing"],
-    pros: ["Lowest price in this comparison at $13.99", "Optional VLAN isolation toggle improves security when needed", "LED port status display simplifies installation troubleshooting"],
+    pros: ["Lowest price in this comparison at under $15", "Optional VLAN isolation toggle improves security when needed", "LED port status display simplifies installation troubleshooting"],
     cons: ["No stated warranty length or ongoing support commitment", "Casing is designed for indoor desktop use, not outdoor exposure"],
     bestFor: "buyers who want the lowest price with an optional VLAN isolation toggle",
   }
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["The strongest warranty and support commitment", "NICGIGA 1 in 3 Out Gigabit PoE Extender"],
         ["A small business deployment with dedicated uplink", "BV-Tech 3-Port PoE Extender"],
         ["Flexibility to adapt between extender and switch roles", "MokerLink 3 Ports Gigabit PoE Passthrough Switch"],
-        ["The lowest price with optional VLAN isolation", "Ztyuav 3 Port Gigabit PoE Extender"],
+        ["The lowest price with optional VLAN isolation", "Ztyuav 3 Port Gigabit PoE Extender"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $14", "Ztyuav 3 Port Gigabit PoE Extender ($13.99)"],
-        ["Under $22", "BV-Tech 3-Port PoE Extender ($21.99)"],
-        ["Under $27", "NICGIGA 1 in 3 Out Extender ($26.99)"],
-        ["Under $30", "MokerLink 3 Ports Passthrough Switch ($29.78)"],
+        ["Under $14", "Ztyuav 3 Port Gigabit PoE Extender (under $15)"],
+        ["Under $22", "BV-Tech 3-Port PoE Extender (under $25)"],
+        ["Under $27", "NICGIGA 1 in 3 Out Extender (under $30)"],
+        ["Under $30", "MokerLink 3 Ports Passthrough Switch (under $30)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Single-Purpose Extension vs Multi-Mode Flexibility",
     cards: [
       { label: "Single-purpose extension (NICGIGA, BV-Tech, Ztyuav)", text: "All three are purpose-built PoE extenders that draw power exclusively from the upstream PoE source, simple and predictable for a straightforward extension need." },
-      { label: "Multi-mode flexibility (MokerLink)", text: "This pick genuinely functions as a PoE extender, network extender, or PoE switch depending on the power source connected, adaptable if your network needs might change over time." },
+      { label: "Multi-mode flexibility (MokerLink)", text: "This pick genuinely functions as a PoE extender, network extender, or PoE switch depending on the power source connected, adaptable if your network needs might change over time." }
     ],
     note: "If you have a straightforward, unchanging PoE extension need, the simpler single-purpose picks are more cost-effective. If you want one device that can adapt as your network setup evolves, the MokerLink's genuine multi-mode flexibility is worth its slightly higher price.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["Longest stated warranty and lifetime support", "NICGIGA 1 in 3 Out Gigabit PoE Extender"],
         ["Comfortable without an extended warranty commitment", "BV-Tech or Ztyuav picks"],
-        ["Business deployment wanting documented reliability", "NICGIGA 1 in 3 Out Gigabit PoE Extender"],
+        ["Business deployment wanting documented reliability", "NICGIGA 1 in 3 Out Gigabit PoE Extender"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For a Basic Two-Camera Home Setup Specifically",
     cards: [
       { label: "Look for", text: "A straightforward 1-in-2-out extender at the lowest price, since a basic home camera setup typically doesn't need multi-mode flexibility or business-oriented uplink architecture." },
-      { label: "In this comparison", text: "The Ztyuav pick's low price and optional VLAN toggle make it a strong, uncomplicated fit for a basic two-camera home installation." },
+      { label: "In this comparison", text: "The Ztyuav pick's low price and optional VLAN toggle make it a strong, uncomplicated fit for a basic two-camera home installation." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want genuine flexibility to adapt the device between PoE extension, network extension, and PoE switch roles, where the MokerLink's $29.78 price is justified by that versatility." },
-      { label: "Save if", text: "You have a simple, unchanging two-device PoE extension need, where the Ztyuav pick delivers that for $13.99, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You want genuine flexibility to adapt the device between PoE extension, network extension, and PoE switch roles, where the MokerLink's under $30 price is justified by that versatility." },
+      { label: "Save if", text: "You have a simple, unchanging two-device PoE extension need, where the Ztyuav pick delivers that for under $15, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

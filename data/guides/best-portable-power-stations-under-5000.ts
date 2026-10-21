@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     description: "OUPES Mega 1 Portable Power Station 1024Wh 2000W (4500W Surge) and is built around revolutionary fast-charging technology, positioning it for under 5000 buyers specifically.\n\nMODULAR EXPANSION CAPABILITY is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 5000, though as with any backup power purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["REVOLUTIONARY FAST-CHARGING TECHNOLOGY","MODULAR EXPANSION CAPABILITY","PROFESSIONAL-GRADE POWER DELIVERY"],
     pros: ["REVOLUTIONARY FAST-CHARGING TECHNOLOGY, confirmed directly in the listing's own spec details","MODULAR EXPANSION CAPABILITY, confirmed directly in the listing's own spec details","PROFESSIONAL-GRADE POWER DELIVERY, confirmed directly in the listing's own spec details"],
-    cons: ["At $549.00, worth comparing against similarly specced portable power stations before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $550, worth comparing against similarly specced portable power stations before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 5000",
   },
   {
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "ABOK Ark3600 Portable Power Station 3600W, 3840Wh LiFePO4 Battery and is built around high capacity & long lifespan, positioning it for under 5000 buyers specifically.\n\nStrong Output & Versatile Charging is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 5000, though as with any backup power purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["High Capacity & Long Lifespan","Strong Output & Versatile Charging","Multiple Output Ports"],
     pros: ["High Capacity & Long Lifespan, confirmed directly in the listing's own spec details","Strong Output & Versatile Charging, confirmed directly in the listing's own spec details","Multiple Output Ports, confirmed directly in the listing's own spec details"],
-    cons: ["At $1,199.00, worth comparing against similarly specced portable power stations before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $1,200, worth comparing against similarly specced portable power stations before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 5000",
   },
   {
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "AFERIY 3840Wh Portable Power Station,Expandable Solar Generator to 11520Wh and is built around up to 30% tax credit, positioning it for under 5000 buyers specifically.\n\n3840Wh LiFePO4, Expandable to 11.5kWh is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 5000, though as with any backup power purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Up to 30% Tax Credit","3840Wh LiFePO4, Expandable to 11.5kWh","UPS <10ms Seamless Backup"],
     pros: ["Up to 30% Tax Credit, confirmed directly in the listing's own spec details","3840Wh LiFePO4, Expandable to 11.5kWh, confirmed directly in the listing's own spec details","UPS <10ms Seamless Backup, confirmed directly in the listing's own spec details"],
-    cons: ["At $1,299.00, worth comparing against similarly specced portable power stations before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $1,300, worth comparing against similarly specced portable power stations before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 5000",
   },
   {
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     description: "P5000 Pro 5120Wh Portable Power Station, 3600W Solar Generator and is built around 5120wh giant capacity, 3600w power, positioning it for under 5000 buyers specifically.\n\nCharge in a Flash 0 100% in Just 2.2 Hours is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 5000, though as with any backup power purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["5120Wh Giant Capacity, 3600W Power","Charge in a Flash 0 100% in Just 2.2 Hours","20-Year Lifespan with Premium LiFePO4 Battery Cells"],
     pros: ["5120Wh Giant Capacity, 3600W Power, confirmed directly in the listing's own spec details","Charge in a Flash 0 100% in Just 2.2 Hours, confirmed directly in the listing's own spec details","20-Year Lifespan with Premium LiFePO4 Battery Cells, confirmed directly in the listing's own spec details"],
-    cons: ["At $1,499.00, worth comparing against similarly specced portable power stations before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $1,500, worth comparing against similarly specced portable power stations before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 5000",
   },
   {
@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "OUKITEL Portable Power Station P5000 Pro, 5120Wh Large Capacity Solar Generator, 5x3600W AC measures 5x3600W and is built around latest ultra ac charging, positioning it for under 5000 buyers specifically.\n\nLong Lasting Lifespan is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 5000, though as with any backup power purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["5x3600W dimensions","Latest Ultra AC Charging","Long Lasting Lifespan"],
     pros: ["Latest Ultra AC Charging, confirmed directly in the listing's own spec details","Long Lasting Lifespan, confirmed directly in the listing's own spec details","Seamless UPS Backup, confirmed directly in the listing's own spec details"],
-    cons: ["At $1,499.00, worth comparing against similarly specced portable power stations before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $1,500, worth comparing against similarly specced portable power stations before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 5000",
   },
   {

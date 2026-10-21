@@ -5,7 +5,7 @@ export const metaDescription = "5 plug-in outlet surge protectors we evaluated, 
 export const mainKeyword = "outlet surge protector";
 export const introParagraphs = [
   "This title is generically ambiguous between wall-outlet-replacement devices (in-wall surge protection receptacles installed by an electrician) and plug-in surge protector strips, this guide covers plug-in strips specifically, since that's the most common consumer product in this category.",
-  "In-wall surge-protective receptacles are a real, distinct product category requiring professional electrical installation, providing point-of-entry whole-circuit protection rather than protecting only devices plugged into a specific strip, a different value proposition worth understanding if that's actually what you need.",
+  "In-wall surge-protective receptacles are a real, distinct product category requiring professional electrical installation, providing point-of-entry whole-circuit protection rather than protecting only devices plugged into a specific strip, a different value proposition worth understanding if that's actually what you need."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Outlet Surge Protector Overall",
     name: "Addtam Surge Protector Outlet Extender, 6-Outlet Splitter with 4 USB Wall Charger(2 USB-C Ports), Multi Plug Wall Outlet 1800J Power Strip for Home Office Dorm Room Essentials",
     price: "$9.49",
-    rating: "4.7 stars from 3,103 Amazon ratings",
-    reviews: "3,103 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21HaugNcqfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F83KL8LV?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Outlet Pick",
     name: "Power Strip, ALESTOR Surge Protector with 12 Outlets and 4 USB Ports, 6 Feet Extension Cord, 2700 Joules, ETL Listed, Black",
     price: "$21.98",
-    rating: "4.8 stars from 50,501 Amazon ratings",
-    reviews: "50,501 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41PsJYHqW7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08P5LRY37?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Proven Outlet Surge Protector",
     name: "HANYCONY Surge Protector Power Strip, 1080J, 5 Ft Braided Extension Cord",
     price: "$11.99",
-    rating: "4.8 stars from 67,972 Amazon ratings",
-    reviews: "67,972 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41w1NL7yU4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B092J8LPWR?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Joule Outlet Pick",
     name: "Anker Power Strip with 2000J Surge Protector, 5ft Outlet Extender, 20W, 8AC",
     price: "$27.99",
-    rating: "4.8 stars from 2,685 Amazon ratings",
-    reviews: "2,685 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31+9526RvLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXPRK65X?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Maximum-Joule Outlet Pick",
     name: "Amazon Basics 12-Outlet Surge Protector Power Strip, 4000 Joules, 8ft Extension Cord, Rectangle, for Home, Office, Gaming Room, Black",
     price: "$19.83",
-    rating: "4.8 stars from 535 Amazon ratings",
-    reviews: "535 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/3148JhvbR6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1XH8NJP?tag=deskfinds0d-20",
     description:
@@ -110,7 +110,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Scope disambiguation between plug-in strips and in-wall or whole-panel devices", description: "Explicitly clarified this guide covers plug-in outlet surge protector strips specifically, distinct from in-wall receptacle-level or whole-panel-level surge protection, which are professionally-installed alternatives serving a different scope." },
   { title: "Basic outlet-count sizing addressed alongside technical surge specs", description: "Recognized buyers searching this ambiguous term may want basic 'how many outlets do I need' guidance as much as surge-protection technical depth, and addressed both." },
-  { title: "Core surge-protection technical gaps carried forward for plug-in strips", description: "Applied the same joule-rating-as-cumulative-capacity and UL 1449 verification considerations relevant to any plug-in surge protector strip." },
+  { title: "Core surge-protection technical gaps carried forward for plug-in strips", description: "Applied the same joule-rating-as-cumulative-capacity and UL 1449 verification considerations relevant to any plug-in surge protector strip." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -247,11 +247,11 @@ export const faq: FaqItem[] = [
   { q: "How many outlets do I need in a surge protector?", a: "Size to your realistic device count, a basic setup needs 6 outlets, a full desk or entertainment setup benefits from 8-12 outlets, then compare joule ratings within that outlet-count tier." },
   { q: "What's the difference between plug-in, in-wall, and whole-panel surge protection?", a: "A plug-in strip protects only its own connected devices. An in-wall receptacle protects a specific circuit. A whole-panel device, installed at the electrical panel, protects the entire house from external surges. These are three genuinely different products and scopes." },
   { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want a genuine multi-outlet extender with real surge protection and USB charging" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want a genuine multi-outlet extender with real surge protection and USB charging At $9.49, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want a genuine multi-outlet extender with real surge protection and USB charging At under $10, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-surge-protector-power-strips", title: "Best Surge Protector Power Strips (2026)" },
   { href: "/guide/best-6-outlet-surge-protectors", title: "Best 6-Outlet Surge Protectors (2026)" },
-  { href: "/guide/best-12-outlet-surge-protectors", title: "Best 12-Outlet Surge Protectors (2026)" },
+  { href: "/guide/best-12-outlet-surge-protectors", title: "Best 12-Outlet Surge Protectors (2026)" }
 ];

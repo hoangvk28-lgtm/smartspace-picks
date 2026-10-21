@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "under desk pc mount";
 export const introParagraphs = [
   "Weight capacity numbers on most under-desk PC mounts are calculated against a generic mid-tower assumption, worth checking your actual tower's weight with drives, a full-size power supply, and any extra cards installed before trusting a rated figure, since a case that looks mid-tower-sized can weigh well beyond what a budget mount is rated to hold.",
-  "Rear-IO and cable access matters far more once the PC is actually mounted and in daily use than a mount's static weight rating ever reflects, worth checking whether a mount lets you reach the ports to plug in a new peripheral or troubleshoot a cable without fully unmounting the tower first, since under-desk placement also traps warm air near the floor with limited airflow compared to open desk-side placement.",
+  "Rear-IO and cable access matters far more once the PC is actually mounted and in daily use than a mount's static weight rating ever reflects, worth checking whether a mount lets you reach the ports to plug in a new peripheral or troubleshoot a cable without fully unmounting the tower first, since under-desk placement also traps warm air near the floor with limited airflow compared to open desk-side placement."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Under-Desk PC Mount Overall",
     name: "VIVO Black Under Desk and Wall Office PC Mount, MOUNT-PC01",
     price: "$34.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "2,617 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41GmNtILiJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01MEDE9WO?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity Pick",
     name: "VIVO Heavy Duty Adjustable Under-Desk PC Mount, Supports up to 66 lbs, MOUNT-PC04B",
     price: "$59.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "222 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31t8nBX+HEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBB2W47P?tag=deskfinds0d-20",
     description:
@@ -60,14 +60,14 @@ export const products: GuideProduct[] = [
     badge: "Best Value Heavy-Capacity Pick",
     name: "Heavy Duty Under Desk PC Holder, Up to 77 lbs Load Capacity, Adjustable Computer Tower Holder",
     price: "$49.90",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "433 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31DzC4Wn1JL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGQR4DNJ?tag=deskfinds0d-20",
     description:
-      "A 77-pound rated capacity at a mid-range price gives genuine room above what most mid-tower cases weigh even when fully loaded with drives and a full-size power supply.\\n\\nThe adjustable design accommodates a range of case widths, and the strong rating across a sizable review base is worth weighing against the more basic budget picks that carry lower disclosed capacities.\n\nRelative to the VIVO Heavy Duty Adjustable Under, this pick leans toward a different priority, whether that's a higher capacity rating, a lower price, or a mounting method suited to a different install situation.\n\nWorth knowing before you decide: Strong 4.6-star rating across a sizable review base. On the other side, Verify rear-IO reach with your specific case orientation once mounted. That's the main tradeoff to weigh against your specific case and desk setup.",
+      "A 77-pound rated capacity at a mid-range price gives genuine room above what most mid-tower cases weigh even when fully loaded with drives and a full-size power supply.\\n\\nThe adjustable design accommodates a range of case widths, and the strong rating across a sizable review base is worth weighing against the more basic budget picks that carry lower disclosed capacities.\n\nRelative to the VIVO Heavy Duty Adjustable Under, this pick leans toward a different priority, whether that's a higher capacity rating, a lower price, or a mounting method suited to a different install situation.\n\nOn the other side, Verify rear-IO reach with your specific case orientation once mounted. That's the main tradeoff to weigh against your specific case and desk setup.",
     specs: ["Up to 77 lbs capacity","Adjustable width design","Strong review rating","Mid-range price"],
-    pros: ["77lb capacity is the highest disclosed rating in this guide","Strong 4.6-star rating across a sizable review base","Adjustable fit for varied case widths","Reasonable price for the stated capacity"],
+    pros: ["77lb capacity is the highest disclosed rating in this guide","Adjustable fit for varied case widths","Reasonable price for the stated capacity"],
     cons: ["Verify rear-IO reach with your specific case orientation once mounted","Steel construction adds meaningful weight to the desk underside","Adjustment mechanism should be checked for holding position under full load"],
     bestFor: "Buyers wanting the highest disclosed weight capacity at a reasonable price",
   },
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Heavy-Duty Pick",
     name: "Heavy Duty Under Desk PC Mount, Height Adjustable, Max Load 66 lbs, Black",
     price: "$45.58",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "49 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41uzdCGRrbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G6YWLKQH?tag=deskfinds0d-20",
     description:
@@ -95,7 +95,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Weight capacity checked against realistic loaded tower weight", description: "Cross-checked disclosed capacity ratings against what a genuinely loaded modern tower, with drives, a full-size power supply, and extra cards, actually weighs, not the generic mid-tower assumption most spec sheets use." },
   { title: "Rear-IO and cable access considered post-installation", description: "Weighed how reachable rear ports are once the PC is actually mounted and in daily use, not just how easy the initial mounting process looks." },
   { title: "Under-desk airflow and thermal impact noted", description: "Noted that under-desk placement traps warm air near the floor with more limited airflow than open desk-side placement, a consideration a mount's weight-capacity spec never addresses." },
-  { title: "Mount material and desk-load impact weighed", description: "Weighed steel versus lighter-gauge material construction, since a heavier mount bracket itself adds real load to the desk underside beyond the PC's own weight." },
+  { title: "Mount material and desk-load impact weighed", description: "Weighed steel versus lighter-gauge material construction, since a heavier mount bracket itself adds real load to the desk underside beyond the PC's own weight." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -230,11 +230,11 @@ export const faq: FaqItem[] = [
   { q: "Is my mid-tower case actually within a mount's rated weight capacity?", a: "Don't assume so from the case size category alone, weigh or estimate your tower's real loaded weight including drives and power supply, then compare it against the mount's disclosed rating." },
   { q: "Can I still reach the rear ports once my PC is mounted under the desk?", a: "It depends on the mount and orientation, plan where the rear panel will face relative to your seated position before installing, since access gets meaningfully harder once mounted." },
   { q: "Does mounting a PC under the desk affect its temperatures?", a: "It can, under-desk placement traps warm air near the floor with more limited airflow than open desk-side placement, which matters most for towers generating meaningful heat under load." },
-  { q: "Does the mount itself add noticeable weight to my desk?", a: "Yes, especially steel-construction mounts, worth factoring into your desk's total load alongside the PC's own weight." },
+  { q: "Does the mount itself add noticeable weight to my desk?", a: "Yes, especially steel-construction mounts, worth factoring into your desk's total load alongside the PC's own weight." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-heavy-duty-under-desk-pc-mounts", title: "Best Heavy-Duty Under-Desk PC Mounts (2026)" },
   { href: "/guide/best-adjustable-under-desk-pc-mounts", title: "Best Adjustable Under-Desk PC Mounts (2026)" },
-  { href: "/guide/best-under-desk-pc-mount-brackets", title: "Best Under-Desk PC Mount Brackets (2026)" },
+  { href: "/guide/best-under-desk-pc-mount-brackets", title: "Best Under-Desk PC Mount Brackets (2026)" }
 ];

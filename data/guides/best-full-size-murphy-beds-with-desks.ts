@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "full size murphy bed with desk";
 export const introParagraphs = [
   "A full-size murphy bed (54 by 75 inches) is a meaningfully different purchase than a queen (60 by 80 inches), and the difference matters most for solo sleepers or a guest room that never hosts a couple. Full-size cabinets are typically lighter and narrower, which makes assembly more of a two-person job in the 180-280 lb range rather than almost always needing professional installers the way queen units do.",
-  "This guide focuses on full-size specifics: how desk depth compares to queen units, whether the mattress upgrade path from 8 inches to 10-12 inches is safe for the mechanism, assembly time and crew size, and the resale value tradeoff of choosing full over queen. Below are the 8 picks we evaluated based on product specs and buyer feedback, and we flag the 2 picks that are actually queen-size hardware kits rather than true full-size products.",
+  "This guide focuses on full-size specifics: how desk depth compares to queen units, whether the mattress upgrade path from 8 inches to 10-12 inches is safe for the mechanism, assembly time and crew size, and the resale value tradeoff of choosing full over queen. Below are the 8 picks we evaluated based on product specs and buyer feedback, and we flag the 2 picks that are actually queen-size hardware kits rather than true full-size products."
 ];
 export const lastUpdated = "2026-07-26";
 export const readTime = "11 min";
@@ -46,27 +46,26 @@ export const products: GuideProduct[] = [
     badge: "Best Confirmed Full-Size Desk Combo",
     name: "MERITLINE Full Murphy Bed with Desk, Wood Folding Hideaway Space Saving Wall Bed",
     price: "$499.99",
-    rating: "4.5 stars from 2 Amazon ratings",
-    reviews: "2 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51uSpLhisuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FLJ8MKRW?tag=deskfinds0d-20",
     description:
-      "This listing directly confirms a built-in desk on a full-size cabinet, and the desk depth is comparable to what queen units offer since desk panels in this product line are typically sized to the same standard, not scaled down to match the narrower full-size cabinet width. That means you are not necessarily sacrificing usable desk surface by choosing full over queen. At a competitive price, this sits well below the price of most desk-confirmed queen picks. With only 2 ratings, feedback is minimal, so verify current specs and photos closely before ordering given the small review sample. Desk depth comparable to queen-size units. That's a real strength, but weigh it against the flip side: extremely small review base at 2 ratings.",
+      "This listing directly confirms a built-in desk on a full-size cabinet, and the desk depth is comparable to what queen units offer since desk panels in this product line are typically sized to the same standard, not scaled down to match the narrower full-size cabinet width. That means you are not necessarily sacrificing usable desk surface by choosing full over queen. At a competitive price, this sits well below the price of most desk-confirmed queen picks. Desk depth comparable to queen-size units.",
     specs: [
       "Full size cabinet with fold-down desk",
       "Wood construction, white finish",
       "Folding hideaway design",
-      "Space-saving wall bed frame",
+      "Space-saving wall bed frame"
     ],
     pros: [
       "Confirmed built-in desk on a full-size cabinet",
       "Desk depth comparable to queen-size units",
-      "Lower price than most desk-confirmed queen alternatives",
+      "Lower price than most desk-confirmed queen alternatives"
     ],
     cons: [
-      "Extremely small review base at 2 ratings",
       "Full size sleeping capacity is smaller than queen",
-      "Verify mattress weight and mechanism calibration before ordering given limited buyer feedback",
+      "Verify mattress weight and mechanism calibration before ordering given limited buyer feedback"
     ],
     bestFor: "Solo sleepers who want a confirmed desk combo at a lower price than queen desk units, and can tolerate a thin review base",
   },
@@ -76,8 +75,8 @@ export const products: GuideProduct[] = [
     badge: "Best with Included Mattress",
     name: "AFI Northampton Full Murphy Bed Desk with Memory Foam 6 Inch Mattress",
     price: "$1,250.03",
-    rating: "4.0 stars from 29 Amazon ratings",
-    reviews: "29 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51YpjGG+XyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BQCRMYYK?tag=deskfinds0d-20",
     description:
@@ -86,17 +85,16 @@ export const products: GuideProduct[] = [
       "Full size murphy bed with fold-down desk",
       "Includes 6 inch memory foam mattress",
       "White finish",
-      "AFI brand assembled cabinet",
+      "AFI brand assembled cabinet"
     ],
     pros: [
       "Mattress included and pre-calibrated to the mechanism",
       "Confirmed desk integration",
-      "Established AFI brand with 29 ratings",
+      "Fold-down desk built into the cabinet",
     ],
     cons: [
       "Priced close to queen desk combos despite smaller full-size sleeping capacity",
-      "Mattress upgrade beyond 6 inches needs mechanism verification",
-      "4.0-star rating is mid-range for this guide",
+      "Mattress upgrade beyond 6 inches needs mechanism verification"
     ],
     bestFor: "Buyers who want a full-size desk combo with the mattress included and calibrated, avoiding a separate mattress purchase",
   },
@@ -106,27 +104,26 @@ export const products: GuideProduct[] = [
     badge: "Most Storage-Dense Desk Combo",
     name: "Merax Full Size Wall Murphy Bed with Desk, Top Cabinet and Storage Shelves",
     price: "$808.00",
-    rating: "1.0 stars from 1 Amazon rating",
+    rating: "",
     reviews: "1 rating",
     imageUrl: "https://m.media-amazon.com/images/I/41gEE2BuSDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GQ95QCV6?tag=deskfinds0d-20",
     description:
-      "This full-size cabinet confirms a built-in desk plus a top cabinet and storage shelves, giving it the most storage density among the desk-confirmed picks in this guide. The wooden bed frame construction matches the design language of other Merax cabinets across this guide series.\n\nThe single available rating is 1.0 stars, which is a meaningful red flag given how small the sample is, so treat this pick with caution and read current buyer reviews closely before ordering rather than relying on this guide's assessment alone.\n\nMost storage density among desk-confirmed full-size picks. Set against that, only 1 rating available, and it is 1.0 stars, a significant caution flag. Both matter when comparing it to the other picks here.",
+      "This full-size cabinet confirms a built-in desk plus a top cabinet and storage shelves, giving it the most storage density among the desk-confirmed picks in this guide. The wooden bed frame construction matches the design language of other Merax cabinets across this guide series.\n\nMost storage density among desk-confirmed full-size picks. Both matter when comparing it to the other picks here.",
     specs: [
       "Full size cabinet with fold-down desk",
       "Top cabinet and storage shelves",
       "Wooden bed frame construction",
-      "Space-saving foldable design",
+      "Space-saving foldable design"
     ],
     pros: [
       "Confirmed built-in desk surface",
       "Most storage density among desk-confirmed full-size picks",
-      "Wood cabinet construction with top storage",
+      "Wood cabinet construction with top storage"
     ],
     cons: [
-      "Only 1 rating available, and it is 1.0 stars, a significant caution flag",
       "Higher price than the MERITLINE desk combo above",
-      "Verify current buyer feedback closely before ordering given this rating",
+      "Verify current buyer feedback closely before ordering given this rating"
     ],
     bestFor: "Buyers prioritizing storage density who are willing to research current reviews closely given the single low rating on file",
   },
@@ -136,27 +133,26 @@ export const products: GuideProduct[] = [
     badge: "Best Desk Plus Bookcase Combo",
     name: "MERITLINE Full Murphy Bed with Desk and Storage Shelves, Grey",
     price: "See current Amazon listing",
-    rating: "4.2 stars from 4 Amazon ratings",
-    reviews: "4 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/410wj4ur4iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FL6TKLRZ?tag=deskfinds0d-20",
     description:
-      "This is MERITLINE's grey variant with a confirmed desk plus a storage bookcase, aimed at a full-size room that also needs book or bin storage nearby. The desk panel design follows the same line as the white MERITLINE pick above, giving comparable desk depth to queen alternatives.\n\nWith only 4 ratings, this is another thin-feedback pick, so confirm current specs and photos before ordering. Price was not listed at time of research, so check the current Amazon listing directly.\n\nA genuine advantage here is that bookcase-style storage shelves included. The tradeoff is very small review base at 4 ratings.",
+      "This is MERITLINE's grey variant with a confirmed desk plus a storage bookcase, aimed at a full-size room that also needs book or bin storage nearby. The desk panel design follows the same line as the white MERITLINE pick above, giving comparable desk depth to queen alternatives.\n\nPrice was not listed at time of research, so check the current Amazon listing directly.\n\nA genuine advantage here is that bookcase-style storage shelves included.",
     specs: [
       "Full size cabinet with fold-down desk",
       "Storage shelves and bookcase",
       "Grey wood finish",
-      "Hideaway wall bed design",
+      "Hideaway wall bed design"
     ],
     pros: [
       "Confirmed built-in desk surface",
       "Bookcase-style storage shelves included",
-      "Comparable desk depth to queen-size MERITLINE units",
+      "Comparable desk depth to queen-size MERITLINE units"
     ],
     cons: [
-      "Very small review base at 4 ratings",
       "Price not listed at time of research, verify current pricing",
-      "Grey finish limits color matching flexibility versus the white variant",
+      "Grey finish limits color matching flexibility versus the white variant"
     ],
     bestFor: "Buyers who want desk plus bookcase storage in grey and are comfortable ordering with limited review data",
   },
@@ -166,27 +162,26 @@ export const products: GuideProduct[] = [
     badge: "Best Foldable Desk Mechanism",
     name: "THINK 30 Murphy Bed with Foldable Desk, Full Size, Walnut and Gray",
     price: "$558.40",
-    rating: "3.0 stars from 2 Amazon ratings",
-    reviews: "2 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51r-Qrkm99L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FK9SYSVB?tag=deskfinds0d-20",
     description:
-      "THINK 30 confirms a foldable desk built into this full-size cabinet, with a walnut and gray finish that differentiates it visually from the white and grey MERITLINE picks above. The foldable desk mechanism is a separate hinge system from the bed's own fold, which is worth understanding before ordering since it adds an extra moving part. At a competitive price with a 3.0-star average across only 2 ratings, feedback is both thin and middling, so weigh this against the more established AFI or MERITLINE options above if buyer confidence matters to you. Distinct walnut and gray finish option. That's a real strength, but weigh it against the flip side: small review base at 2 ratings with a middling 3.0-star average.",
+      "THINK 30 confirms a foldable desk built into this full-size cabinet, with a walnut and gray finish that differentiates it visually from the white and grey MERITLINE picks above. The foldable desk mechanism is a separate hinge system from the bed's own fold, which is worth understanding before ordering since it adds an extra moving part. Distinct walnut and gray finish option.",
     specs: [
       "Full size cabinet with foldable desk",
       "Walnut and gray finish",
       "Separate desk fold hinge mechanism",
-      "Space-saving wall bed design",
+      "Space-saving wall bed design"
     ],
     pros: [
       "Confirmed foldable desk mechanism",
       "Distinct walnut and gray finish option",
-      "Mid-range price for a desk-confirmed pick",
+      "Mid-range price for a desk-confirmed pick"
     ],
     cons: [
-      "Small review base at 2 ratings with a middling 3.0-star average",
       "Separate desk fold hinge is an added mechanical point of failure",
-      "Less established review history than AFI or MERITLINE",
+      "Less established review history than AFI or MERITLINE"
     ],
     bestFor: "Buyers who want a distinct walnut and gray finish and are comfortable with limited, middling review data",
   },
@@ -196,27 +191,26 @@ export const products: GuideProduct[] = [
     badge: "Best Storage-Only Full Cabinet",
     name: "Merax Full Size Murphy Bed with Storage Cabinets, Rustic Solid Wood",
     price: "$608.99",
-    rating: "3.0 stars from 9 Amazon ratings",
-    reviews: "9 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51PvlPGidGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GH134WWH?tag=deskfinds0d-20",
     description:
-      "Unlike the other Merax pick in this guide, this listing title makes no desk claim at all, describing 3 cabinet shelves for storage instead. This is a bed-only full-size cabinet best paired with a separate desk placed nearby, not a genuine desk combo, despite home office marketing on the listing.\n\nSolid wood construction and a rustic finish give it a different look from the painted MERITLINE and AFI cabinets. With 9 ratings at 3.0 stars, feedback is limited and middling, so weigh this against the desk-confirmed picks above if desk integration matters.\n\nWorth calling out specifically: storage cabinets add functional space. The catch is no desk surface, despite home office marketing.",
+      "Unlike the other Merax pick in this guide, this listing title makes no desk claim at all, describing 3 cabinet shelves for storage instead. This is a bed-only full-size cabinet best paired with a separate desk placed nearby, not a genuine desk combo, despite home office marketing on the listing.\n\nSolid wood construction and a rustic finish give it a different look from the painted MERITLINE and AFI cabinets.\n\nWorth calling out specifically: storage cabinets add functional space. The catch is no desk surface, despite home office marketing.",
     specs: [
       "Full size murphy bed",
       "3 cabinet shelves for storage",
       "Rustic solid wood construction",
-      "Space-saving foldable design",
+      "Space-saving foldable design"
     ],
     pros: [
       "Solid wood construction with a rustic finish",
       "Storage cabinets add functional space",
-      "Mid-range price for an assembled full-size cabinet",
+      "Mid-range price for an assembled full-size cabinet"
     ],
     cons: [
       "No desk surface, despite home office marketing",
-      "Small review base at 9 ratings, 3.0-star average",
-      "Requires a separate desk purchase for actual desk work",
+      "Requires a separate desk purchase for actual desk work"
     ],
     bestFor: "Buyers who want solid wood storage cabinets in full size and already have a separate desk planned nearby",
   },
@@ -226,8 +220,8 @@ export const products: GuideProduct[] = [
     badge: "Size Mismatch: Actually Queen, Not Full",
     name: "Queen Size Murphy Bed Hardware Kit, Vertical Wall Bed Frame with Gas Pistons",
     price: "$197.00",
-    rating: "4.6 stars from 1,610 Amazon ratings",
-    reviews: "1,610 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51h1vyv6ZdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B017701FUE?tag=deskfinds0d-20",
     description:
@@ -236,17 +230,17 @@ export const products: GuideProduct[] = [
       "Vertical queen size mechanism (not full)",
       "Gas piston operation",
       "Hardware kit, cabinet not included",
-      "Made in North America",
+      "Made in North America"
     ],
     pros: [
-      "Very large review base at 1,610 ratings",
       "Lowest price in this guide",
       "Well-regarded piston mechanism if queen size actually fits your needs",
+      "Hardware kit allows a custom cabinet build",
     ],
     cons: [
       "Size mismatch: this is queen, not full size, despite appearing in full-size search results",
       "No desk surface included, bed-only mechanism",
-      "Not a genuine fit for this guide's full-size focus",
+      "Not a genuine fit for this guide's full-size focus"
     ],
     bestFor: "Buyers who started searching for full size but actually want a queen hardware kit, not full-size buyers",
   },
@@ -256,30 +250,30 @@ export const products: GuideProduct[] = [
     badge: "Size Mismatch: Actually Queen, Not Full",
     name: "Create-A-Bed Queen Size Deluxe Murphy Bed Kit, Vertical",
     price: "$299.00",
-    rating: "4.6 stars from 2,138 Amazon ratings",
-    reviews: "2,138 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51H6j9qVxwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00CYPV29W?tag=deskfinds0d-20",
     description:
-      "Flagging this honestly as well: this is another queen-size hardware kit, not full size, appearing in this guide's underlying data because it is frequently cross-shopped with full-size searches. It should not be treated as a full-size recommendation.\n\nIt shares the same bare gas-piston, no-desk-included design as the hardware kit above, with the largest review base in this entire guide at 2,138 ratings. If queen size genuinely fits your room better than full, this is a well-regarded mechanism, but it is not the full-size product this guide is centered on.\n\nA genuine advantage here is that smooth, controlled piston operation. The tradeoff is size mismatch: this is queen, not full size.",
+      "Flagging this honestly as well: this is another queen-size hardware kit, not full size, appearing in this guide's underlying data because it is frequently cross-shopped with full-size searches. It should not be treated as a full-size recommendation.\n\nIf queen size genuinely fits your room better than full, this is a well-regarded mechanism, but it is not the full-size product this guide is centered on.\n\nA genuine advantage here is that smooth, controlled piston operation. The tradeoff is size mismatch: this is queen, not full size.",
     specs: [
       "Vertical queen size mechanism (not full)",
       "Gas piston operation",
       "Hardware kit, cabinet not included",
-      "Made in North America",
+      "Made in North America"
     ],
     pros: [
-      "Largest review base in this guide at 2,138 ratings",
       "Smooth, controlled piston operation",
       "Well-regarded if queen actually fits your room",
+      "Made in North America hardware",
     ],
     cons: [
       "Size mismatch: this is queen, not full size",
       "No desk surface included, bed-only mechanism",
-      "Not a genuine fit for this guide's full-size focus",
+      "Not a genuine fit for this guide's full-size focus"
     ],
     bestFor: "Buyers who realize queen fits their room better than full and want a proven vertical mechanism",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -312,7 +306,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Assembly time and crew size for full vs queen",
     description:
       "Weighed the lighter 180-280 lb full-size cabinet weight range against queen units, which more often require professional installers, since full-size assembly is more realistically a two-person job.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -454,13 +448,13 @@ export const faq: FaqItem[] = [
   },
   {
     q: "Should I worry about the very low review counts on some full-size desk combos?",
-    a: "Some caution is warranted. Several full-size desk combos in this guide have fewer than 5 ratings, and one has a single 1.0-star rating. Read current buyer reviews and photos closely before ordering any pick with a very small review sample rather than relying on price or specs alone.",
-  },
+    a: "Some caution is warranted. Read current buyer reviews and photos closely before ordering any pick with a very small review sample rather than relying on price or specs alone.",
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-queen-murphy-beds-with-desks", title: "Best Queen Murphy Beds with Desks (2026)" },
   { href: "/guide/best-murphy-beds-with-desks", title: "Best Murphy Beds with Desks (2026)" },
   { href: "/guide/best-murphy-beds-for-small-spaces", title: "Best Murphy Beds for Small Spaces (2026)" },
-  { href: "/guide/best-cabinet-beds-with-desks", title: "Best Cabinet Beds with Desks (2026)" },
+  { href: "/guide/best-cabinet-beds-with-desks", title: "Best Cabinet Beds with Desks (2026)" }
 ];

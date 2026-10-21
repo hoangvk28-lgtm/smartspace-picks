@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "wired ergonomic keyboard";
 export const introParagraphs = [
   "A wired ergonomic keyboard removes battery anxiety entirely, but on a genuinely split design the cable connecting the two halves is often a fixed, non-standard length, which limits how far apart you can actually place them, a real flexibility constraint that rarely shows up in product photos. Worth checking cable exit direction too, since a rear-exiting cable tucks away more cleanly on most desks than one exiting from the side.",
-  "We also looked at whether any listed USB pass-through hub port actually delivers full-speed data rather than just charging power, since that distinction matters if you plan to plug a mouse or flash drive directly into the keyboard rather than the computer.",
+  "We also looked at whether any listed USB pass-through hub port actually delivers full-speed data rather than just charging power, since that distinction matters if you plan to plug a mouse or flash drive directly into the keyboard rather than the computer."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Wired Pick",
     name: "Perixx PERIBOARD-512B Wired Ergonomic Keyboard - Split Keyboard with Wrist Rest",
     price: "$44.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "9,553 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41MgdS5CMFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075GZVD4T?tag=deskfinds0d-20",
     description: "A genuinely split, fixed-angle keyboard with a padded wrist rest, plugging in over a single USB cable with no battery to manage. It carries the largest verified review base in this guide, a strong signal for wired reliability across many desks.\n\nIt earns the top spot in this comparison over X9 Wired Ergonomic Keyboard for one main reason. No battery to charge or replace. On price, it's actually priced above X9 Wired Ergonomic Keyboard, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Largest review base of any wired pick. On the other side, Basic build materials at this price. That's the main tradeoff to weigh against everything above.",
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget One-Piece Wired Pick",
     name: "X9 Wired Ergonomic Keyboard - Comfortable Typing, Ergonomic Full Size",
     price: "$29.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "1,141 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41LVGOn5JLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08G1WNS6F?tag=deskfinds0d-20",
     description: "A one-piece curved keyboard at a low price point, plugging in over a single standard USB cable. As a one-piece design it avoids the inter-half cable question entirely, since there's only one cable to manage on the desk.\n\nOne spot below Perixx PERIBOARD-512B Wired Ergonomic Keyboard in this ranking, it's priced lower than Perixx PERIBOARD-512B Wired Ergonomic Keyboard. The compromise here is straightforward: Less ergonomic benefit than a true split design. What you gain in return: No inter-half cable to manage. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Lowest price in this guide. On the other side, No wrist rest included. That's the main tradeoff to weigh against everything above.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best Backlit Wired Split Pick",
     name: "Arteck Split Ergonomic Keyboard with Palm Rest, USB Wired Backlit Keyboard",
     price: "$53.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "1,166 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51mIgAEAexL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CGL8X4H6?tag=deskfinds0d-20",
     description: "A split, backlit keyboard connecting over USB, combining the wired reliability of this guide's other picks with illuminated keys. It ships with a built-in cushioned palm rest, avoiding a separate accessory purchase.\n\nSitting just under X9 Wired Ergonomic Keyboard, it costs more than X9 Wired Ergonomic Keyboard. Here's the honest tradeoff: Verify inter-half cable length on current listing. And here's what it gets you instead: Backlighting with no battery-life tradeoff since it's wired. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Built-in palm rest. On the other side, Backlighting has limited value for touch typists. That's the main tradeoff to weigh against everything above.",
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     badge: "Best Premium Wired Mechanical Pick",
     name: "Cloud Nine C989M Ergonomic Mechanical Keyboard for PC, Kailh Tactile Switches",
     price: "$199.00",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "675 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51J8PEUgcWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B084BP8T18?tag=deskfinds0d-20",
     description: "A premium mechanical ergonomic keyboard using Kailh tactile switches, wired for a consistent, low-latency connection appropriate for buyers who want mechanical feel alongside an ergonomic layout. Wired mechanical keyboards avoid any Bluetooth or 2.4G connection variability entirely.\n\nRanked just behind Arteck Split Ergonomic Keyboard with Palm Rest, it costs more than Arteck Split Ergonomic Keyboard with Palm Rest. The real tradeoff against that pick: Highest price in this guide. In exchange, it offers this instead: Wired mechanical feel with no connection lag. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Kailh tactile switches for tactile feedback. On the other side, Larger desk footprint than a compact wired keyboard. That's the main tradeoff to weigh against everything above.",
@@ -90,8 +90,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Wired Pick with Wrist Rest",
     name: "RECCAZR Ergonomic Keyboard, Wired Computer USB Keyboard with Wrist Rest",
     price: "$29.98",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "280 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419u8a5c96L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DMDJB6G2?tag=deskfinds0d-20",
     description: "A low-cost wired keyboard that includes an attached wrist rest out of the box, plugging in over a single standard USB cable with no battery or pairing to configure. Its lower price puts it near the X9 pick in this guide, but the included wrist rest is a small added value the X9 doesn't offer.\n\nOne spot below Cloud Nine C989M Ergonomic Mechanical Keyboard for PC in this ranking, it's priced lower than Cloud Nine C989M Ergonomic Mechanical Keyboard for PC. The compromise here is straightforward: Smaller verified review base than other picks here. What you gain in return: Lowest price in this guide. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Attached wrist rest included. On the other side, No backlighting. That's the main tradeoff to weigh against everything above.",
@@ -106,8 +106,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wired Backlit Pick with Wrist Rest",
     name: "MEETION Wired Ergonomic Keyboard with Backlit Keys and Wrist Rest",
     price: "$35.99",
-    rating: "3.4 stars from Amazon ratings",
-    reviews: "21 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41kuxYbya+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GXKJWH2H?tag=deskfinds0d-20",
     description: "A wired keyboard combining backlit keys with a built-in wrist rest at a low price point, drawing power directly from the USB port so backlighting carries no battery-life tradeoff. Its review base is considerably smaller than the other wired picks in this guide, so treat the rating as a lighter-weight signal until more buyer feedback accumulates.\n\nSitting just under RECCAZR Ergonomic Keyboard, it costs more than RECCAZR Ergonomic Keyboard. Here's the honest tradeoff: Smallest verified review base in this guide. And here's what it gets you instead: Backlighting with no battery-life tradeoff since it's wired. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Attached wrist rest included. On the other side, Basic build materials at this price. That's the main tradeoff to weigh against everything above.",
@@ -122,8 +122,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wired Compact RGB Pick",
     name: "Wired RGB Gaming Membrane Keyboard, 100 Percent Mini Creamy LED",
     price: "$22.90",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "53 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41yeJ-XPp7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F66LFC8Q?tag=deskfinds0d-20",
     description: "A compact wired membrane keyboard with RGB lighting at the lowest price in this guide, plugging in over a single USB cable. It's a standard flat layout rather than a curved or split ergonomic frame, so buyers specifically seeking wrist-angle relief should treat this as a budget compact option rather than a true ergonomic pick.\n\nRanked just behind MEETION Wired Ergonomic Keyboard with Backlit Keys and Wrist Rest, it's priced lower than MEETION Wired Ergonomic Keyboard with Backlit Keys and Wrist Rest. The real tradeoff against that pick: Flat layout, not curved or split for ergonomic relief. In exchange, it offers this instead: Lowest price in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Compact footprint for tight desks. On the other side, Membrane switches rather than mechanical. That's the main tradeoff to weigh against everything above.",
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Inter-half cable flexibility on split designs", description: "Noted that a fixed, non-standard inter-half cable limits how far apart the two halves can be placed, a real constraint on desk layout." },
   { title: "Cable exit direction and desk cable management", description: "Considered whether the main USB cable exits from the rear or side, since rear-exiting cables tend to tuck away more cleanly." },
   { title: "USB pass-through port speed where disclosed", description: "Verified whether any pass-through hub port on a keyboard actually carries full-speed data versus charging power alone, rather than assuming full speed by default." },
-  { title: "Build quality and review consistency", description: "Weighed verified buyer feedback on build quality and long-term reliability across each wired keyboard's review history." },
+  { title: "Build quality and review consistency", description: "Weighed verified buyer feedback on build quality and long-term reliability across each wired keyboard's review history." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -273,11 +273,11 @@ export const faq: FaqItem[] = [
   { q: "Can I position a split wired keyboard's halves far apart?", a: "It depends on the inter-half cable length, which is often fixed and proprietary, check the current listing before assuming you can position the halves shoulder-width or further apart." },
   { q: "Does a wired ergonomic keyboard need any cable management?", a: "Yes, especially a split model with both a main USB cable and an inter-half cable, worth planning cable routing before you buy if your desk setup is tight." },
   { q: "Are USB pass-through ports on ergonomic keyboards full-speed?", a: "Not always, verify the specific listing since some pass-through ports only carry charging power rather than full data speed." },
-  { q: "Is a wired keyboard more reliable than wireless for typing speed?", a: "Wired connections avoid any Bluetooth or 2.4G latency variability, which can matter for very fast touch typists, though most casual typists won't notice a difference." },
+  { q: "Is a wired keyboard more reliable than wireless for typing speed?", a: "Wired connections avoid any Bluetooth or 2.4G latency variability, which can matter for very fast touch typists, though most casual typists won't notice a difference." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-wireless-ergonomic-keyboards", title: "Best Wireless Ergonomic Keyboards (2026)" },
   { href: "/guide/best-mechanical-ergonomic-keyboards", title: "Best Mechanical Ergonomic Keyboards (2026)" },
-  { href: "/guide/best-budget-ergonomic-keyboards", title: "Best Budget Ergonomic Keyboards (2026)" },
+  { href: "/guide/best-budget-ergonomic-keyboards", title: "Best Budget Ergonomic Keyboards (2026)" }
 ];

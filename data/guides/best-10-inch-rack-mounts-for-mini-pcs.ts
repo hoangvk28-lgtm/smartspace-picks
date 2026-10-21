@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini PC 10-inch rack mount";
 export const introParagraphs = [
   "Our original candidate ASINs weren't accessible, so we researched the current real product pool. Ten-inch server racks are a genuine home-lab standard (smaller than the 19-inch racks used in commercial data centers), and we required actual rack-shelf products designed for that format, not generic desk mounts repurposed for the category.",
-  "Several picks here specifically confirm compatibility with Dell OptiPlex Micro, Lenovo ThinkCentre, and HP Desktop Mini systems, alongside Mac mini-specific options.",
+  "Several picks here specifically confirm compatibility with Dell OptiPlex Micro, Lenovo ThinkCentre, and HP Desktop Mini systems, alongside Mac mini-specific options."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -63,7 +63,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31qkrJ347eL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTWYJTR8?tag=deskfinds0d-20",
     description: "A half-width shelf bracket, useful for a rack setup where you want to leave room for another device alongside the mini PC in the same rack unit.\n\nSitting just under SplashNColor 10\" 1U Rack Mount for Mac mini 2010-2023, it costs more than SplashNColor 10\" 1U Rack Mount for Mac mini 2010-2023. Here's the honest tradeoff: Half-width sizing may not suit larger mini PC chassis. And here's what it gets you instead: Half-width design frees space for another device in the same rack unit. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Half-width design frees space for another device in the same rack unit. On the other side, Half-width sizing may not suit larger mini PC chassis. That's the main tradeoff to weigh against everything above.",
-    specs: ["Half-width, 10 inch rack shelf","Secure screw-in installation","4.4 stars"],
+    specs: ["Half-width, 10 inch rack shelf","Secure screw-in installation"],
     pros: ["Half-width design frees space for another device in the same rack unit"],
     cons: ["Half-width sizing may not suit larger mini PC chassis"],
     bestFor: "Home-lab builders who want to share a rack unit between a mini PC and another device.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed genuine 10-inch rack-format products", description: "We required actual rack-shelf products designed for the 10-inch home-lab rack standard, distinct from ordinary desk or wall mounts." },
   { title: "Brand compatibility verified per listing", description: "We checked which products explicitly confirm Dell, Lenovo, HP, or Mac mini compatibility versus generic rack shelves." },
   { title: "Rack-unit sizing and half-width options", description: "We noted where a shelf is half-width, useful for sharing a single rack unit with another device." },
-  { title: "Honest disclosure of a non-rack alternative", description: "We included one wall-mount product as an honest alternative for buyers without a dedicated rack, clearly labeled as a different category." },
+  { title: "Honest disclosure of a non-rack alternative", description: "We included one wall-mount product as an honest alternative for buyers without a dedicated rack, clearly labeled as a different category." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Which shelf works with the most mini PC brands?", a: "The Freejia 10inch 1U Mini PC Rack Mount Shelf, which explicitly confirms Dell, Lenovo, and HP compatibility." },
   { q: "Is there a Mac mini-specific option?", a: "Yes, both SplashNColor options and the M1/M2-specific bracket with front-accessible I/O are built for Mac mini models." },
   { q: "What if I don't have a 10-inch rack?", a: "The NOTMBESTM Adjustable Wall Mount Shelf is a non-rack alternative for mounting a mini PC directly to a wall." },
-  { q: "Can I share a rack unit between two devices?", a: "Yes, the SplashNColor half-width shelf bracket is designed for exactly this, leaving room for another device in the same unit." },
+  { q: "Can I share a rack unit between two devices?", a: "Yes, the SplashNColor half-width shelf bracket is designed for exactly this, leaving room for another device in the same unit." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pc-mounts-for-home-labs", title: "Best Mini PC Mounts for Home Labs (2026)" },
   { href: "/guide/best-mini-pc-desk-mounts", title: "Best Mini PC Desk Mounts (2026)" },
-  { href: "/guide/best-mini-pc-mounts", title: "Best Mini PC Mounts (2026)" },
+  { href: "/guide/best-mini-pc-mounts", title: "Best Mini PC Mounts (2026)" }
 ];

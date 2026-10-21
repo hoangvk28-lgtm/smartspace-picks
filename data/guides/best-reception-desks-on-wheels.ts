@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "DUMOS Mobile Rolling Desk with Wheels Adjustable Height and is built around sit stand desk, positioning it for on wheels buyers specifically.\n\nLockable Mobile Desk is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for on wheels, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Sit Stand Desk","Lockable Mobile Desk","Ergonomic Design"],
     pros: ["Sit Stand Desk, confirmed directly in the listing's own spec details","Lockable Mobile Desk, confirmed directly in the listing's own spec details","Ergonomic Design, confirmed directly in the listing's own spec details"],
-    cons: ["At $46.99, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $50, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for on wheels",
   },
   {
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     description: "WINAZ Small Portable Rolling Desk Adjustable Height, 24 Inch Mobile Laptop Desk with Wheels measures 24 Inch and is built around space-saving dorm hero, positioning it for on wheels buyers specifically.\n\nErgonomic Sitting Comfort is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for on wheels, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["24 Inch dimensions","Space-Saving Dorm Hero","Ergonomic Sitting Comfort"],
     pros: ["Space-Saving Dorm Hero, confirmed directly in the listing's own spec details","Ergonomic Sitting Comfort, confirmed directly in the listing's own spec details","360 Gliding Mobility: Equipped with 4 silent, confirmed directly in the listing's own spec details"],
-    cons: ["At $39.99, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $40, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for on wheels",
   },
   {
@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $39.99",
+          "Under $40",
           "WINAZ Small Portable Rolling Desk Adjustable Height"
         ],
         [
-          "Around $46.99",
+          "Under $50",
           "DUMOS Mobile Rolling Desk with Wheels Adjustable Height"
         ],
         [
-          "Around $52.99",
+          "Under $60",
           "HUANUO Small Rolling Laptop Standing Desk"
         ],
         [
-          "Around $84.99",
+          "Under $90",
           "Small Portable Standing Rolling Desk"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "DUMOS Mobile Rolling Desk with Wheels Adjustable Height is aimed at buyers looking for on wheels." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "DUMOS Mobile Rolling Desk with Wheels Adjustable Height is aimed at buyers looking for on wheels." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-mobile-reception-desks","title":"4 Best Mobile Reception Desks in 2026"},{"href":"/guide/best-portable-reception-desks","title":"4 Best Portable Reception Desks in 2026"},{"href":"/guide/best-compact-reception-desks","title":"best-compact-reception-desks"}];

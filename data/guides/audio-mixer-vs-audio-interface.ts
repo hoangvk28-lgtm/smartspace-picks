@@ -12,7 +12,7 @@ export const audioMixerVsAudioInterfaceGuide: Guide = {
     "do i need a mixer for streaming",
     "audio interface vs mixer difference",
     "physical mixer knobs streaming",
-    "solo streamer audio setup",
+    "solo streamer audio setup"
   ],
   heroImage: "https://images.unsplash.com/photo-1634041323797-b9fdef9d18f7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1634041323797-b9fdef9d18f7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const audioMixerVsAudioInterfaceGuide: Guide = {
     "audio-interface-channels-chart",
     "xlr-vs-usb-microphone",
     "green-screen-vs-virtual-background",
-    "latency-explained",
+    "latency-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const audioMixerVsAudioInterfaceGuide: Guide = {
       question: "Is a mixer overkill for someone just starting to stream?",
       answer:
         "For a beginner with a simple single-microphone setup, yes, a straightforward audio interface or even a quality USB microphone alone is sufficient starting point, a mixer's added complexity and cost makes more sense once your setup genuinely grows to need it.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const audioMixerVsAudioInterfaceGuide: Guide = {
     {
       heading: "Why Most Solo Streamers Genuinely Don't Need a Mixer to Start",
       body: `A single microphone plus perhaps game or system audio represents a relatively simple audio setup that a basic audio interface and its accompanying software handle perfectly well, without needing the additional cost, desk space, and complexity of a physical mixer. The point at which a mixer becomes genuinely valuable is when your setup grows to include multiple microphones, guests, or audio sources needing frequent independent real-time adjustment, a stage many beginning streamers haven't reached yet.`,
-    },
+    }
   ],
 };

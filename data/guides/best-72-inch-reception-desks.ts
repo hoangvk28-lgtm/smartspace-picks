@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $436.99",
+          "Under $450",
           "L-Shaped Reception Desk with Keyboard Tray"
         ],
         [
-          "Around $479.00",
+          "Under $500",
           "L-Shaped Wooden Commercial Reception Desk"
         ],
         [
-          "Around $699.99",
+          "Under $700",
           "87-Inch Two People L-Shaped Reception Desk"
         ],
         [
-          "Around $1,192.84",
+          "Under $1,200",
           "Romig Marque Curved Single-Unit Reception Workstation"
         ],
         [
-          "Around $1,259.99",
+          "Under $1,300",
           "78.7\" 2-Person Reception Desk with Counter"
         ],
         [
-          "Around $1,469.00",
+          "Under $1,500",
           "Fully Assembled Curved Reception Desk"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "Romig Marque Curved Single-Unit Reception Workstation is aimed at buyers prioritizing 72\"w x 32\"d curved single-unit desk." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Romig Marque Curved Single-Unit Reception Workstation is aimed at buyers prioritizing 72\"w x 32\"d curved single-unit desk." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-6ft-reception-desks","title":"6 Best 6ft Reception Desks in 2026"},{"href":"/guide/best-70-inch-reception-desks","title":"5 Best 70-Inch Reception Desks in 2026"},{"href":"/guide/best-63-inch-reception-desks","title":"6 Best 63-Inch Reception Desks in 2026"}];

@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This extender's listing specifically states it adopts a hardware IEEE 802.3af/at/bt PoE chipset following a PD Detection, Classification Type, and Power On procedure to prevent standard PD devices from damage, a more rigorous approach than software-emulated PoE found on some cheaper extenders. Its 90W BT-rated input splits into an 80W total output budget across 4 Gigabit ports.\n\nCompared to the MokerLink and VIMIN picks below, this one's specifically stated 6KV surge protection and lifetime 24/7 US local and global technical support give it the most comprehensive protection and support package in this comparison.\n\nBest for buyers who want hardware-based PoE chip safety with surge protection and lifetime technical support.",
     specs: ["4 Gigabit ports, 90W PoE++ input, 80W output budget", "Hardware IEEE 802.3af/at/bt chipset with PD detection", "6KV surge protection, lifetime 24/7 support"],
     pros: ["Hardware PoE chipset with device detection prevents damage to connected PDs", "6KV surge protection guards against electrical damage", "Lifetime 24/7 US local and global technical support included"],
-    cons: ["Highest price in this comparison at $59.00", "80W total output budget is shared across all 4 ports, not independent"],
+    cons: ["Highest price in this comparison at under $60", "80W total output budget is shared across all 4 ports, not independent"],
     bestFor: "buyers who want hardware-based PoE chip safety with surge protection and lifetime support",
   },
   {
@@ -61,7 +61,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0GX3G8SQS?tag=deskfinds0d-20",
     description: "This extender's listing specifically states an IP65 waterproof rating alongside full Gigabit 1000Mbps speed, powering three devices from a single input at up to 30W max, a genuinely outdoor-capable 4-port option at a meaningfully lower price than the industrial-grade picks above. Its compact, durable construction is built to withstand tight installation spaces.\n\nCompared to the LINOVISION and industrial picks above, this one trades surge protection and extreme temperature tolerance for a much lower price while still offering real outdoor water resistance and full Gigabit throughput.\n\nBest for buyers who want genuine outdoor waterproofing and Gigabit speed at a budget-friendly price.",
     specs: ["IP65 waterproof, full Gigabit 1000Mbps", "1 in 3 out, 30W max, VLAN support", "100m (328ft) extension, plug-and-play"],
-    pros: ["Lowest price in this comparison at $21.59", "IP65 waterproof rating suits outdoor installation", "Maintains full Gigabit speed unlike some budget alternatives"],
+    pros: ["Lowest price in this comparison at under $25", "IP65 waterproof rating suits outdoor installation", "Maintains full Gigabit speed unlike some budget alternatives"],
     cons: ["No surge protection disclosed unlike the LINOVISION or industrial picks", "Lower temperature tolerance than the industrial-rated pick above"],
     bestFor: "buyers who want genuine outdoor waterproofing and Gigabit speed at a budget-friendly price",
   },
@@ -77,7 +77,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0B5QWT3R1?tag=deskfinds0d-20",
     description: "This extender's listing specifically states an unmanaged plug-and-play design with automatic power detection, requiring no configuration and no additional power adapter since it draws entirely from the PoE network. Its 3-level cascading support increases PoE coverage at a genuinely low cost for a basic multi-device installation.\n\nCompared to the LINOVISION, industrial, and VIMIN picks above, this one's lowest price in this comparison makes it the most accessible entry point for a simple indoor 4-port PoE extension need without industrial or outdoor requirements.\n\nBest for buyers who want the lowest possible price for a basic indoor 4-port PoE extension.",
     specs: ["1 PoE in, 3 PoE out, 100Mbps speed", "IEEE 802.3af/at, average 8W per port", "3-level cascading, wall and DIN-rail mount"],
-    pros: ["Lowest price in this comparison at $16.98", "No local power adapter needed, powered entirely by PoE network", "3-level cascading increases coverage at low cost"],
+    pros: ["Lowest price in this comparison at under $20", "No local power adapter needed, powered entirely by PoE network", "3-level cascading increases coverage at low cost"],
     cons: ["100Mbps speed is lower than the Gigabit-rated picks in this comparison", "No outdoor waterproofing or industrial temperature rating"],
     bestFor: "buyers who want the lowest possible price for a basic indoor 4-port PoE extension",
   }
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Hardware PoE safety with surge protection and lifetime support", "LINOVISION 4 Ports Gigabit PoE Passthrough Switch"],
         ["Genuine industrial-grade temperature tolerance", "PoE Extender Industrial 4 Port Gigabit Ethernet"],
         ["Outdoor waterproofing with Gigabit speed at a low price", "VIMIN 4-Port Outdoor PoE Gigabit Extender"],
-        ["The lowest possible price for basic indoor use", "MokerLink 4 Port PoE Extender"],
+        ["The lowest possible price for basic indoor use", "MokerLink 4 Port PoE Extender"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $17", "MokerLink 4 Port PoE Extender ($16.98)"],
-        ["Under $22", "VIMIN 4-Port Outdoor Gigabit Extender ($21.59)"],
-        ["Under $49", "PoE Extender Industrial 4 Port ($48.99)"],
-        ["Under $60", "LINOVISION 4 Ports Passthrough Switch ($59.00)"],
+        ["Under $17", "MokerLink 4 Port PoE Extender (under $20)"],
+        ["Under $22", "VIMIN 4-Port Outdoor Gigabit Extender (under $25)"],
+        ["Under $49", "PoE Extender Industrial 4 Port (under $50)"],
+        ["Under $60", "LINOVISION 4 Ports Passthrough Switch (under $60)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Industrial Durability vs Budget Simplicity",
     cards: [
       { label: "Industrial durability (LINOVISION, Industrial pick)", text: "Both offer 6KV surge protection and, for the Industrial pick, a wide -40F to 167F temperature range, suited for genuinely harsh or unstable electrical environments." },
-      { label: "Budget simplicity (VIMIN, MokerLink)", text: "Both deliver core PoE extension functionality at a much lower price without surge protection or extreme temperature tolerance, suited for a standard indoor or moderately protected outdoor installation." },
+      { label: "Budget simplicity (VIMIN, MokerLink)", text: "Both deliver core PoE extension functionality at a much lower price without surge protection or extreme temperature tolerance, suited for a standard indoor or moderately protected outdoor installation." }
     ],
     note: "If your installation faces real electrical surge risk or temperature extremes, the LINOVISION or Industrial picks are worth their higher price. For a standard home or office installation, the VIMIN or MokerLink picks deliver solid core functionality at a much lower cost.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["Up to 80W total across 4 devices", "LINOVISION 4 Ports Gigabit PoE Passthrough Switch"],
         ["Standard 30W per port, 4 devices", "PoE Extender Industrial 4 Port or VIMIN Outdoor"],
-        ["Modest 8W average per port, basic devices", "MokerLink 4 Port PoE Extender"],
+        ["Modest 8W average per port, basic devices", "MokerLink 4 Port PoE Extender"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For a Small Business Network Closet Specifically",
     cards: [
       { label: "Look for", text: "A 4-port extender with genuine surge protection if your building's electrical infrastructure has a history of power fluctuations, alongside enough total wattage budget for your specific mix of connected devices." },
-      { label: "In this comparison", text: "The LINOVISION pick's combination of 6KV surge protection and 80W total output budget makes it the strongest fit for a small business network closet with real power stability concerns." },
+      { label: "In this comparison", text: "The LINOVISION pick's combination of 6KV surge protection and 80W total output budget makes it the strongest fit for a small business network closet with real power stability concerns." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want hardware-based PoE chip safety with surge protection and lifetime technical support, where the LINOVISION pick's $59.00 price is justified by that comprehensive package." },
-      { label: "Save if", text: "You need a basic indoor 4-port extension without surge protection or outdoor requirements, where the MokerLink pick delivers that for $16.98, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You want hardware-based PoE chip safety with surge protection and lifetime technical support, where the LINOVISION pick's under $60 price is justified by that comprehensive package." },
+      { label: "Save if", text: "You need a basic indoor 4-port extension without surge protection or outdoor requirements, where the MokerLink pick delivers that for under $20, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

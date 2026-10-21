@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41pK7n3UtDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00P1RJ9LS?tag=deskfinds0d-20",
-    description: "A compact 12U 4-post rack from StarTech, standing just 25 inches tall, purpose-built for utility closets and narrow spaces where a full-size server rack won't fit.\n\nIt still carries the full StarTech feature set: EIA/ECA-310-E compliance, cage nuts, cable hooks, and the same 2-year warranty backing the larger racks in their lineup.\n\nThe strongest case for this pick comes down to only 25\" tall, fits narrow utility closets easily as well as 1200 lb rating despite the compact size. The compromise here is that small size limits it to a handful of devices, so factor that in alongside the $249.99 asking price.",
+    description: "A compact 12U 4-post rack from StarTech, standing just 25 inches tall, purpose-built for utility closets and narrow spaces where a full-size server rack won't fit.\n\nIt still carries the full StarTech feature set: EIA/ECA-310-E compliance, cage nuts, cable hooks, and the same 2-year warranty backing the larger racks in their lineup.\n\nThe strongest case for this pick comes down to only 25\" tall, fits narrow utility closets easily as well as 1200 lb rating despite the compact size. The compromise here is that small size limits it to a handful of devices, so factor that in alongside the under $250 asking price.",
     specs: ["12U, 25\" tall, 22-40\" adjustable depth","1200 lb stationary weight capacity","Backed by 2-year warranty and lifetime support"],
     pros: ["Only 25\" tall, fits narrow utility closets easily","1200 lb rating despite the compact size","Same warranty and support as StarTech's larger racks"],
     cons: ["Small size limits it to a handful of devices","Still needs flat-pack assembly on delivery"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41+goJVNtmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00O6GNLQE?tag=deskfinds0d-20",
-    description: "The 25U version of StarTech's 4-post open frame family carries the same EIA/ECA-310-E compliance and 2-year warranty as its 42U sibling, just in a shorter footprint that fits smaller server rooms.\n\nAt 1200 lbs stationary capacity it's rated slightly lower than the 42U model, which tracks since it's a shorter, lighter structure overall.\n\nWhere this one earns its spot is shorter 25U height fits rooms with limited ceiling space, and same 2-year warranty and lifetime support as larger models. Worth noting before buying: 1200 lb rating is lower than the taller 42U version, which matters more at $334.99 than it would on a cheaper pick.",
+    description: "The 25U version of StarTech's 4-post open frame family carries the same EIA/ECA-310-E compliance and 2-year warranty as its 42U sibling, just in a shorter footprint that fits smaller server rooms.\n\nAt 1200 lbs stationary capacity it's rated slightly lower than the 42U model, which tracks since it's a shorter, lighter structure overall.\n\nWhere this one earns its spot is shorter 25U height fits rooms with limited ceiling space, and same 2-year warranty and lifetime support as larger models. Worth noting before buying: 1200 lb rating is lower than the taller 42U version, which matters more at under $350 than it would on a cheaper pick.",
     specs: ["25U, 22-40\" adjustable depth, 48-51\" tall","1200 lb stationary weight capacity","Casters, levelers, and cable hooks included"],
     pros: ["Shorter 25U height fits rooms with limited ceiling space","Same 2-year warranty and lifetime support as larger models","Cage nuts and cable hooks included in the kit"],
     cons: ["1200 lb rating is lower than the taller 42U version","Still needs flat-pack assembly on arrival"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41YBKtX0S4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B084PB7GL8?tag=deskfinds0d-20",
-    description: "The 15U entry in StarTech's open frame lineup, standing 30 inches tall and offering the same 40-inch max mounting depth as their larger 18U and 42U models.\n\nIt's positioned as ideal for utility and server closets specifically, a size that splits the difference between the very compact 8U and 12U options and taller full-height racks.\n\nThis pick is best for buyers who value 30\" height fits utility closets other sizes can't along with 40\" max depth matches StarTech's larger rack models. The catch is that flat-pack build still needs real assembly time, so decide if that's worth it at $322.99.",
+    description: "The 15U entry in StarTech's open frame lineup, standing 30 inches tall and offering the same 40-inch max mounting depth as their larger 18U and 42U models.\n\nIt's positioned as ideal for utility and server closets specifically, a size that splits the difference between the very compact 8U and 12U options and taller full-height racks.\n\nThis pick is best for buyers who value 30\" height fits utility closets other sizes can't along with 40\" max depth matches StarTech's larger rack models. The catch is that flat-pack build still needs real assembly time, so decide if that's worth it at under $350.",
     specs: ["15U, 30\" tall, 22-40\" adjustable depth","1200 lb stationary weight capacity","Cage nuts and cable hooks included"],
     pros: ["30\" height fits utility closets other sizes can't","40\" max depth matches StarTech's larger rack models","Backed by the same 2-year warranty across StarTech's line"],
     cons: ["Flat-pack build still needs real assembly time","1200 lb rating trails the heaviest-duty enclosed cabinets"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31JM9wq8g1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B084NXSLTG?tag=deskfinds0d-20",
-    description: "StarTech's 18U open frame rack stands just 35 inches tall, a genuinely manageable size for utility and server closets that can't fit a full 42U cabinet.\n\nThe 40-inch maximum mounting depth is deeper than most racks this size, letting it accommodate longer server chassis that a shallower 18U rack might not fit.\n\nWhat stands out here is 35\" height fits narrow closets other racks can't, plus 40\" max depth handles longer server chassis. The main tradeoff: flat-pack shipping still needs real assembly time, so weigh that against the $329.99 price before buying.",
+    description: "StarTech's 18U open frame rack stands just 35 inches tall, a genuinely manageable size for utility and server closets that can't fit a full 42U cabinet.\n\nThe 40-inch maximum mounting depth is deeper than most racks this size, letting it accommodate longer server chassis that a shallower 18U rack might not fit.\n\nWhat stands out here is 35\" height fits narrow closets other racks can't, plus 40\" max depth handles longer server chassis. The main tradeoff: flat-pack shipping still needs real assembly time, so weigh that against the under $350 price before buying.",
     specs: ["18U, 35\" tall, 22-40\" adjustable depth","1200 lb stationary weight capacity","Cable management hooks, cage nuts included"],
     pros: ["35\" height fits narrow closets other racks can't","40\" max depth handles longer server chassis","Backed by StarTech's 2-year warranty"],
     cons: ["Flat-pack shipping still needs real assembly time","1200 lb rating trails the taller 4-post models"],
@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41Dc0as8yhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B071KW98RM?tag=deskfinds0d-20",
-    description: "The taller 24U sibling to StarTech's 18U cabinet, carrying the same pre-assembled delivery, 5-year warranty, and 992 lb rating just with more room to grow.\n\nAt 48.9 inches tall it starts to approach the size where you'll want to confirm doorway and ceiling clearance before ordering, but it still fits most standard rooms.\n\nThe strongest case for this pick comes down to more headroom than the 18U model at the same weight rating as well as ships pre-assembled with wheels and levelers installed. The compromise here is that 48.9\" height needs a genuine equipment room, so factor that in alongside the $949.99 asking price.",
+    description: "The taller 24U sibling to StarTech's 18U cabinet, carrying the same pre-assembled delivery, 5-year warranty, and 992 lb rating just with more room to grow.\n\nAt 48.9 inches tall it starts to approach the size where you'll want to confirm doorway and ceiling clearance before ordering, but it still fits most standard rooms.\n\nThe strongest case for this pick comes down to more headroom than the 18U model at the same weight rating as well as ships pre-assembled with wheels and levelers installed. The compromise here is that 48.9\" height needs a genuine equipment room, so factor that in alongside the under $950 asking price.",
     specs: ["24U, 48.9\" tall, 29in adjustable depth","992 lb stationary weight capacity","5-year warranty, 1U fixed shelf included"],
     pros: ["More headroom than the 18U model at the same weight rating","Ships pre-assembled with wheels and levelers installed","Includes a 1U fixed shelf out of the box"],
     cons: ["48.9\" height needs a genuine equipment room","Same 992 lb cap as the shorter 18U version"],
@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $249.99",
+          "Under $250",
           "StarTech.com 12U Adjustable Depth Open Frame 4 Post Server Rack"
         ],
         [
-          "Around $322.99",
+          "Under $350",
           "StarTech 15U 4-Post Server Rack"
         ],
         [
-          "Around $329.99",
+          "Under $350",
           "StarTech 18U 4-Post Server Rack"
         ],
         [
-          "Around $334.99",
+          "Under $350",
           "StarTech.com 25U Open Frame Server Rack"
         ],
         [
-          "Around $357.99",
+          "Under $400",
           "StarTech 42U 4-Post Open Frame Rack"
         ],
         [
-          "Around $731.99",
+          "Under $750",
           "StarTech 18U 4-Post Server Cabinet"
         ],
         [
-          "Around $876.99",
+          "Under $900",
           "StarTech 22U 4-Post Server Cabinet"
         ],
         [
-          "Around $949.99",
+          "Under $950",
           "StarTech 24U 4-Post Server Cabinet"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "StarTech 42U 4-Post Open Frame Rack is aimed at buyers prioritizing 42u, 22-40\" adjustable depth." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "StarTech 42U 4-Post Open Frame Rack is aimed at buyers prioritizing 42u, 22-40\" adjustable depth." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

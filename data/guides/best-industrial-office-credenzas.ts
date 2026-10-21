@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $95.39",
+          "Under $100",
           "Vrullu Modern Storage Cabinet"
         ],
         [
-          "Around $119.99",
+          "Under $120",
           "Homieasy Vertical Filing Cabinet with Bookshelf"
         ],
         [
-          "Around $127.99",
+          "Under $130",
           "2-Drawer File Cabinet"
         ],
         [
-          "Around $149.99",
+          "Under $150",
           "Buffet Cabinet"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "44\" File Cabinet"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "44\" File Cabinet with 2 Drawers"
         ],
         [
-          "Around $189.99",
+          "Under $190",
           "44\" File Cabinet with Lock"
         ],
         [
-          "Around $193.99",
+          "Under $200",
           "44\" File Cabinet with Lock"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Homieasy Vertical Filing Cabinet with Bookshelf is aimed at buyers prioritizing 2-tier open shelves + drawer cabinet." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Homieasy Vertical Filing Cabinet with Bookshelf is aimed at buyers prioritizing 2-tier open shelves + drawer cabinet." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-contemporary-office-credenzas","title":"Best Contemporary Office Credenzas in 2026"},{"href":"/guide/best-modern-office-credenzas","title":"Best Modern Office Credenzas in 2026"},{"href":"/guide/best-mid-century-modern-office-credenzas","title":"Best Mid-Century Modern Office Credenzas in 2026"}];

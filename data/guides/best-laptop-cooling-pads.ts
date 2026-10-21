@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop cooling pads";
 export const introParagraphs = [
   "A laptop cooling pad only earns its desk space if it changes something measurable, either the sustained CPU temperature under a long workload or the comfort of your typing angle. Most listings lean on vague phrases like 'keeps your laptop cool,' but a pad's actual benefit depends on whether its fan placement lines up with your specific laptop's real intake and exhaust vents, which vary by brand and are not determined by screen size alone.",
-  "This is the flagship, broad guide for the laptop cooling pad cluster on DeskFinds. We compare five pads based on documented sustained-load thermal claims where the listing provides them, fan-to-vent alignment, USB power draw, fan speed versus noise, and elevation angle. Narrower guides in this cluster cover gaming laptops, MacBooks, specific screen sizes, silent and fanless designs, and budget picks, so use this page as the starting point and the others as the deep dive for your specific situation.",
+  "This is the flagship, broad guide for the laptop cooling pad cluster on DeskFinds. We compare five pads based on documented sustained-load thermal claims where the listing provides them, fan-to-vent alignment, USB power draw, fan speed versus noise, and elevation angle. Narrower guides in this cluster cover gaming laptops, MacBooks, specific screen sizes, silent and fanless designs, and budget picks, so use this page as the starting point and the others as the deep dive for your specific situation."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "10 min";
@@ -108,7 +108,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Fan-to-vent alignment", description: "We compared each pad's fan placement and airflow direction against typical bottom-vented and side-vented laptop layouts, since screen size alone does not determine whether a pad's airflow actually reaches the intake." },
   { title: "USB power draw and port cost", description: "We noted whether each pad draws power from the laptop's own USB port or an external adapter, and whether a pass-through port avoids losing a connection." },
   { title: "Noise versus fan speed tradeoff", description: "We compared documented or stated noise levels against fan speed and airflow claims rather than assuming louder automatically means better cooling." },
-  { title: "Elevation and ergonomics", description: "We weighed how many height settings each pad offers and whether a steep airflow-optimized angle comes at the cost of comfortable extended typing." },
+  { title: "Elevation and ergonomics", description: "We weighed how many height settings each pad offers and whether a steep airflow-optimized angle comes at the cost of comfortable extended typing." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -244,11 +244,11 @@ export const faq: FaqItem[] = [
   { q: "Do cooling pads work on any laptop size?", a: "Most pads state a compatible size range, like 12 to 17 inches, but that describes the platform's fit, not whether the fan lines up with your laptop's specific vent location. Check your laptop's vent placement, not just its screen size." },
   { q: "Will a cooling pad drain my laptop's battery faster?", a: "Yes, slightly, since most pads draw power from the laptop's own USB port rather than an external source. A pad with an external power adapter, like the llano V12, avoids this tradeoff at the cost of an extra cable." },
   { q: "Is a louder cooling pad always cooling better?", a: "No. Fan speed and noise do not automatically correlate with real thermal benefit. Compare stated RPM, dBA figures, or documented temperature results instead of assuming volume equals performance." },
-  { q: "What's the difference between this guide and the gaming or MacBook cooling pad guides?", a: "This is the broad, general-purpose guide across all laptop types. Our gaming laptop cooling pad guide focuses on sustained heavy loads and multi-zone venting, and our MacBook guides address the different internal cooling designs of Apple's fanless and active-fan laptops." },
+  { q: "What's the difference between this guide and the gaming or MacBook cooling pad guides?", a: "This is the broad, general-purpose guide across all laptop types. Our gaming laptop cooling pad guide focuses on sustained heavy loads and multi-zone venting, and our MacBook guides address the different internal cooling designs of Apple's fanless and active-fan laptops." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-gaming-laptop-cooling-pads", title: "Best Gaming Laptop Cooling Pads (2026)" },
   { href: "/guide/best-silent-laptop-cooling-pads", title: "Best Silent Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-15-6-inch-laptop-cooling-pads", title: "Best 15.6-Inch Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-15-6-inch-laptop-cooling-pads", title: "Best 15.6-Inch Laptop Cooling Pads (2026)" }
 ];

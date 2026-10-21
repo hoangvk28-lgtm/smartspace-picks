@@ -5,7 +5,7 @@ export const metaDescription = "5 speakerphones we evaluated for Google Meet, in
 export const mainKeyword = "speakerphone for Google Meet";
 export const introParagraphs = [
   "Google Meet hardware certification confirms a device has been specifically tested against Google's audio pipeline, general USB or Bluetooth compatibility works for most calls too, but a certified device has a stronger tested guarantee for consistent call quality.",
-  "Browser-based Google Meet (used directly in Chrome) and the dedicated Google Meet Hardware program for conference rooms are different contexts, most speakerphones aimed at individuals or small teams are tested for the browser experience, not the stricter dedicated-hardware tier.",
+  "Browser-based Google Meet (used directly in Chrome) and the dedicated Google Meet Hardware program for conference rooms are different contexts, most speakerphones aimed at individuals or small teams are tested for the browser experience, not the stricter dedicated-hardware tier."
 ];
 export const lastUpdated = "2026-07-30";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Google Meet Certified Pick",
     name: "Jabra Speak2 40 Portable Speakerphone - 4 Noise-Cancelling Mics, Full-Range 50mm Portable Speaker, Wideband Audio and USB-A and USB-C Connections - Certified for Zoom and Google Meet - Dark Grey",
     price: "$146.99",
-    rating: "4.3 stars from 68 Amazon ratings",
-    reviews: "68 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31oHJerSTwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BWKTR73Y?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Proven Google Meet Pick",
     name: "Jabra Speak 510 UC Wireless Bluetooth Speakerphone, Outstanding Sound Quality, Portable Conference Speaker for Holding Meetings Anywhere - Certified for Zoom & Google Meet",
     price: "$119.49",
-    rating: "4.7 stars from 5,905 Amazon ratings",
-    reviews: "5,905 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Hwa9J+9XL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00AQUO5RI?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best 6-Mic Pick for Google Meet",
     name: "Anker PowerConf Speakerphone, Zoom Certified Conference Speaker with 6 Mics",
     price: "$149.99",
-    rating: "4.4 stars from 5,801 Amazon ratings",
-    reviews: "5,801 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41x468UYHLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08CV6MGJH?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick for Google Meet",
     name: "EMEET M0 Plus Conference Speaker and Microphone, 4 Mics 360 degrees Voice Pickup",
     price: "$52.23",
-    rating: "4.3 stars from 1,596 Amazon ratings",
-    reviews: "1,596 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51zfICZQrEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVZLS5GZ?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Simplest Plug-and-Play Pick",
     name: "EMEET M1A USB Speakerphone, Built-in Mics, 360 degrees Voice Pickup, Plug&Play",
     price: "$63.99",
-    rating: "4.4 stars from 435 Amazon ratings",
-    reviews: "435 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51Iv2SVmQfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09WWYKP42?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Simple USB plug-and-play setup", "Solid rating base for the price", "Compact, easy to store", "Works reliably with Google Meet's browser audio"],
     cons: ["No specific Google Meet certification", "Fewer premium features than the certified picks", "360 degrees pickup less directional for narrow tables"],
     bestFor: "Buyers who want a simple, affordable USB speakerphone for occasional Google Meet calls",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine Google Meet certification vs. general USB/Bluetooth compatibility", description: "Distinguished picks specifically tested against Google's audio pipeline from those offering general plug-and-play compatibility that works but isn't formally certified." },
   { title: "Browser-based Meet vs. the dedicated Google Meet Hardware program", description: "Noted that most picks here are suited to browser-based individual or small-team Google Meet use, not the stricter dedicated Google Meet Hardware certification for conference rooms." },
-  { title: "Review base and mic count as real-world reliability signals", description: "Weighed larger review bases and physical mic count alongside certification status, since both affect actual call performance on Google Meet." },
+  { title: "Review base and mic count as real-world reliability signals", description: "Weighed larger review bases and physical mic count alongside certification status, since both affect actual call performance on Google Meet." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -239,11 +239,11 @@ export const faq: FaqItem[] = [
   { q: "Can I use a non-certified speakerphone with Google Meet?", a: "Yes, most speakerphones work with Google Meet's browser-based audio over standard USB or Bluetooth without formal certification. It's fine for casual use, though a certified device offers more tested reliability for daily calls." },
   { q: "Do I need a Google Meet certified speakerphone if my team also uses Zoom?", a: "Consider a dual-certified pick like the Jabra Speak2 40, which is certified for both Google Meet and Zoom, rather than choosing a single-platform-certified device if your team switches between the two." },
   { q: "Does Google Meet certification mean better audio quality than an uncertified device?", a: "Certification verifies tested compatibility with Google Meet's specific software behavior, not necessarily superior raw audio hardware, an uncertified device can still have excellent microphone and speaker quality." },
-  { q: "Can I use a Google Meet certified speakerphone on a laptop without the Chrome browser?", a: "Yes, certification applies to the device's hardware and driver behavior with Google Meet generally, not to a specific browser, it works the same way across supported browsers running Google Meet." },
+  { q: "Can I use a Google Meet certified speakerphone on a laptop without the Chrome browser?", a: "Yes, certification applies to the device's hardware and driver behavior with Google Meet generally, not to a specific browser, it works the same way across supported browsers running Google Meet." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-speakerphones-for-zoom", title: "Best Speakerphones for Zoom (2026)" },
   { href: "/guide/best-noise-canceling-speakerphones", title: "Best Noise-Canceling Speakerphones (2026)" },
-  { href: "/guide/best-speakerphones-for-two-person-offices", title: "Best Speakerphones for Two-Person Offices (2026)" },
+  { href: "/guide/best-speakerphones-for-two-person-offices", title: "Best Speakerphones for Two-Person Offices (2026)" }
 ];

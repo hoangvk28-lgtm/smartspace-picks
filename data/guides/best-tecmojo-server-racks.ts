@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31t+0aeG+DL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CR5GS5X2?tag=deskfinds0d-20",
-    description: "At 30U this is one of the taller open-frame rolling racks in the AxcessAbles line, giving you real headroom for a growing home lab or studio rack without going to a fully enclosed cabinet.\n\nThe same 18-inch depth and removable side panel design carries over from the smaller models, so airflow and access stay consistent as you scale up in height.\n\nThe strongest case for this pick comes down to tall 30U build fits a growing equipment stack as well as removable panels switch between open and closed setups. The compromise here is that tall and narrow footprint needs a stable floor, so factor that in alongside the $299.99 asking price.",
+    description: "At 30U this is one of the taller open-frame rolling racks in the AxcessAbles line, giving you real headroom for a growing home lab or studio rack without going to a fully enclosed cabinet.\n\nThe same 18-inch depth and removable side panel design carries over from the smaller models, so airflow and access stay consistent as you scale up in height.\n\nThe strongest case for this pick comes down to tall 30U build fits a growing equipment stack as well as removable panels switch between open and closed setups. The compromise here is that tall and narrow footprint needs a stable floor, so factor that in alongside the under $300 asking price.",
     specs: ["30U height, 18\" depth","550 lb static / 440 lb rolling capacity","Removable vented side panels"],
     pros: ["Tall 30U build fits a growing equipment stack","Removable panels switch between open and closed setups","Includes both screw standards for mixed-brand gear"],
     cons: ["Tall and narrow footprint needs a stable floor","No lockable door for equipment security"],
@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31vbfmcEwKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D99FX253?tag=deskfinds0d-20",
-    description: "GlobalRack's 27U model brings the same adjustable 22-35 inch depth and quick-lock assembly as their 42U rack, just in a mid-height footprint that suits smaller server rooms.\n\nAt 1200 lbs it's rated lower than the 42U model, consistent with the shorter, lighter structure, but still handles a substantial equipment load for its size.\n\nWhere this one earns its spot is under-20-minute assembly claim, genuinely quick to set up, and 1200 lb capacity suits a real mid-size server load. Worth noting before buying: shorter than the 42U model if you outgrow it, which matters more at $178.99 than it would on a cheaper pick.",
+    description: "GlobalRack's 27U model brings the same adjustable 22-35 inch depth and quick-lock assembly as their 42U rack, just in a mid-height footprint that suits smaller server rooms.\n\nAt 1200 lbs it's rated lower than the 42U model, consistent with the shorter, lighter structure, but still handles a substantial equipment load for its size.\n\nWhere this one earns its spot is under-20-minute assembly claim, genuinely quick to set up, and 1200 lb capacity suits a real mid-size server load. Worth noting before buying: shorter than the 42U model if you outgrow it, which matters more at under $180 than it would on a cheaper pick.",
     specs: ["27U, 43.5\"H, 22-35\" adjustable depth","1200 lb weight capacity","Pre-installed square holes, M6 hardware included"],
     pros: ["Under-20-minute assembly claim, genuinely quick to set up","1200 lb capacity suits a real mid-size server load","Depth adjustment covers a wide equipment range"],
     cons: ["Shorter than the 42U model if you outgrow it","Open frame offers no dust or security protection"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31YAeSy9C2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D9B577G8?tag=deskfinds0d-20",
-    description: "A 4-post open frame rack rated for 1900 lbs, built from 2mm cold rolled steel for extra rigidity compared to the thinner-gauge racks in this category.\n\nDepth adjusts across a 22-35 inch range, and the listing specifically calls out compatibility with data centers, broadcast studios, and home lab setups alike, giving it a fairly broad use case.\n\nWhat stands out here is 2mm steel gauge is thicker than most in this class, plus 1900 lb rating handles a dense full-height stack. The main tradeoff: full 80\" height needs a tall dedicated room, so weigh that against the $251.99 price before buying.",
+    description: "A 4-post open frame rack rated for 1900 lbs, built from 2mm cold rolled steel for extra rigidity compared to the thinner-gauge racks in this category.\n\nDepth adjusts across a 22-35 inch range, and the listing specifically calls out compatibility with data centers, broadcast studios, and home lab setups alike, giving it a fairly broad use case.\n\nWhat stands out here is 2mm steel gauge is thicker than most in this class, plus 1900 lb rating handles a dense full-height stack. The main tradeoff: full 80\" height needs a tall dedicated room, so weigh that against the under $300 price before buying.",
     specs: ["42U, 22-35\" adjustable depth, 2mm steel","1900 lb weight capacity","Pre-installed square holes, cage nuts included"],
     pros: ["2mm steel gauge is thicker than most in this class","1900 lb rating handles a dense full-height stack","Assembly is genuinely quick, under 20 minutes claimed"],
     cons: ["Full 80\" height needs a tall dedicated room","Open frame means no dust or access control"],
@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $159.99",
+          "Under $160",
           "AxcessAbles 12U Network Rack with Wheels"
         ],
         [
-          "Around $178.99",
+          "Under $180",
           "GlobalRack 27U Open Frame Server Rack"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "AxcessAbles 22U Rolling IT Server Rack"
         ],
         [
-          "Around $251.99",
+          "Under $300",
           "GlobalRack 42U Open Frame Server Rack"
         ],
         [
-          "Around $278.16",
+          "Under $300",
           "RIVECO 25U Server Rack Adjustable Depth"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "AxcessAbles 30U Rolling Network Server Rack"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "AxcessAbles 30U Rolling Network Server Rack is aimed at buyers prioritizing 30u height, 18\" depth." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "AxcessAbles 30U Rolling Network Server Rack is aimed at buyers prioritizing 30u height, 18\" depth." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

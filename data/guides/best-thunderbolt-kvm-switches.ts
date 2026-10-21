@@ -5,7 +5,7 @@ export const metaDescription = "5 Thunderbolt KVM switches we evaluated, with a 
 export const mainKeyword = "thunderbolt kvm switch";
 export const introParagraphs = [
   "Thunderbolt ports look physically identical to standard USB-C ports, but a switch only performs at full Thunderbolt speed with a genuinely Thunderbolt-certified cable and a laptop port that actually supports the Thunderbolt protocol, not just USB-C's base data and power spec.",
-  "Thunderbolt's higher price over standard USB-C KVM switches is justified specifically by demanding multi-monitor, high-refresh-rate setups, worth confirming your actual use case needs this bandwidth rather than paying a Thunderbolt premium for a simple single-monitor setup.",
+  "Thunderbolt's higher price over standard USB-C KVM switches is justified specifically by demanding multi-monitor, high-refresh-rate setups, worth confirming your actual use case needs this bandwidth rather than paying a Thunderbolt premium for a simple single-monitor setup."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     badge: "Best Thunderbolt KVM Switch Overall",
     name: "Thunderbolt 4 KVM Switch 3 Monitors 2 Laptops 4K@60Hz, Displaylink USB C Docking Station 3 Monitor",
     price: "$295.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/419nisVPE2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVMKWZRP?tag=deskfinds0d-20",
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     badge: "Best Alternative for High Bandwidth Without Thunderbolt Pricing",
     name: "KVM Switch 3 Monitors 2 Computers 4K@120Hz Displayport and 4K@60Hz HDMI USB C KVM Switch Dock",
     price: "$229.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/414CqbIpl1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GX1D9MCB?tag=deskfinds0d-20",
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     badge: "Best Standard USB-C Alternative for Lighter Needs",
     name: "AV Access iDock P10 KVM Docking Station 2 Monitors 2 PC, GbE, EDID, 65W PD",
     price: "$179.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41Du+XSAPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCXN5P3T?tag=deskfinds0d-20",
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Laptop Pick Without Thunderbolt Premium",
     name: "AV Access KVM Switch Dock 2 Monitors 2 Laptops, 4K KVM Switch Dual Monitor",
     price: "$233.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41e02xrYlyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP4PD3SM?tag=deskfinds0d-20",
@@ -89,7 +89,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Alternative for Laptop and Desktop",
     name: "AV Access Dual Monitor KVM Docking Station for Laptop & Desktop (iDock C10)",
     price: "$225.61",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31KfwfvqAqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CW2JGRN4?tag=deskfinds0d-20",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine Thunderbolt certification distinguished from standard USB-C", description: "Distinguished genuine Thunderbolt-certified products from standard USB-C alternatives that look similar but don't offer the same certified bandwidth." },
   { title: "Cable and port requirements for full Thunderbolt speed flagged", description: "Flagged that Thunderbolt ports look physically identical to standard USB-C but require a genuinely certified cable and laptop port to perform at full speed." },
   { title: "Thunderbolt price premium justified only for demanding use cases", description: "Assessed whether Thunderbolt's higher price is genuinely justified by a buyer's actual multi-monitor, high-refresh-rate needs rather than assumed necessary by default." },
-  { title: "Standard USB-C alternatives referenced for lighter bandwidth needs", description: "Referenced standard USB-C alternatives for buyers whose actual needs don't justify paying a Thunderbolt premium." },
+  { title: "Standard USB-C alternatives referenced for lighter bandwidth needs", description: "Referenced standard USB-C alternatives for buyers whose actual needs don't justify paying a Thunderbolt premium." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -223,11 +223,11 @@ export const faq: FaqItem[] = [
   { q: "Is Thunderbolt worth the extra price for a simple setup?", a: "Usually not, the premium is justified for demanding multi-monitor, high-refresh-rate setups, a simple single-monitor need doesn't require it." },
   { q: "What happens if I use a Thunderbolt switch with a non-Thunderbolt laptop?", a: "It may still work at reduced USB-C speeds, but you won't get the full Thunderbolt bandwidth benefit you're paying for." },
   { q: "Which pick in this comparison is the best overall choice?", a: "Buyers with Thunderbolt-capable laptops needing maximum three-monitor docking bandwidth" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers whose two-monitor, moderate needs don't justify Thunderbolt pricing At $179.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers whose two-monitor, moderate needs don't justify Thunderbolt pricing At under $180, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-usb-c-kvm-switches", title: "Best USB-C KVM Switches (2026)" },
   { href: "/guide/best-kvm-docking-stations", title: "Best KVM Docking Stations (2026)" },
-  { href: "/guide/best-displayport-kvm-switches", title: "Best DisplayPort KVM Switches (2026)" },
+  { href: "/guide/best-displayport-kvm-switches", title: "Best DisplayPort KVM Switches (2026)" }
 ];

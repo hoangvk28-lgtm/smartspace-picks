@@ -5,7 +5,7 @@ export const metaDescription = "5 BE6500 Wi-Fi 7 routers we evaluated, with the 
 export const mainKeyword = "BE6500 Wi-Fi 7 router";
 export const introParagraphs = [
   "BE6500 doesn't automatically confirm a genuine 6GHz radio, numbering alone doesn't guarantee tri-band presence at this mid-tier, some BE6500-labeled routers remain dual-band, worth verifying per product rather than assuming from the number.",
-  "Where a 6GHz radio is present, its channel width is often capped below the 320MHz available on flagship tiers, commonly limited to 160MHz, meaningfully reducing peak 6GHz throughput versus BE9300+ products, a spec worth checking before buying.",
+  "Where a 6GHz radio is present, its channel width is often capped below the 320MHz available on flagship tiers, commonly limited to 160MHz, meaningfully reducing peak 6GHz throughput versus BE9300+ products, a spec worth checking before buying."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best BE6500 Wi-Fi 7 Router Overall",
     name: "TP-Link BE6500 Dual-Band WiFi 7 Router (BE400), Dual 2.5Gbps Ports, USB 3.0, Covers up to 2,400 sq. ft., 90 Devices, Quad-Core CPU, HomeShield, Private IoT",
     price: "$114.99",
-    rating: "4.4 stars from 1,325 Amazon ratings",
-    reviews: "1,325 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41kg9-1bsvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DVBP5L6Y?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value BE6500 Pick",
     name: "Cudy BE6500 WiFi 7 Router Dual Band Gigabit Gaming Router, 6500Mbps, VPN Client and Server, Cudy Mesh and APP Compatible, Broadcom 2 GHz Quad-Core CPU, WR6500",
     price: "$109.99",
-    rating: "4.2 stars from 124 Amazon ratings",
-    reviews: "124 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41+YB6u0MUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DR8TJSSY?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Gaming-Focused BE6500 Pick",
     name: "TP-Link Dual-Band BE6500 WiFi 7 Gaming Router Archer GE400 | 6-Stream 6.5 Gbps | 2 x 2.5G + 3 x 1G | Game Acceleration, Dedicated Gaming Port & Panel, RGB Lighting | No 6 GHz",
     price: "$169.99",
-    rating: "4.3 stars from 58 Amazon ratings",
-    reviews: "58 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41---i6ECYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FTTPB4MQ?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Router-Only BE6500 Pick with VPN Focus",
     name: "GL.iNet GL-BE6500 Flint 3e Wi-Fi 7 Router with VPN for Home and Gaming",
     price: "$179.99",
-    rating: "4.2 stars from 361 Amazon ratings",
-    reviews: "361 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31afKNh9uUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FX9C5QVJ?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Premium BE6500 Pick",
     name: "ASUS TUF Gaming BE6500 WiFi 7 Router - Dual-Band, Up to 6.5 Gbps Wireless, Game Accelerator, Multi-Link Operation (MLO), (x4) 2.5GbE Ports, Mesh + VPN Compatible",
     price: "$219.99",
-    rating: "4.1 stars from 39 Amazon ratings",
-    reviews: "39 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31s79KgGhCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVB76FH2?tag=deskfinds0d-20",
     description:
@@ -103,7 +103,7 @@ export const products: GuideProduct[] = [
     pros: ["Four 2.5GbE ports, more than typical for this tier", "ASUS TUF Gaming brand reliability", "Game Accelerator feature for gaming priority", "Mesh and VPN compatible"],
     cons: ["Highest price in this guide", "Smallest review base of any pick here", "Dual-band limitation still applies despite premium pricing"],
     bestFor: "Buyers with multiple wired multi-gig devices wanting four 2.5GbE ports",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -111,7 +111,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine 6GHz radio presence verified per product", description: "Checked whether each BE6500-labeled router actually includes a genuine 6GHz radio or represents another dual-band unit, since numbering alone doesn't confirm tri-band presence at this mid-tier." },
   { title: "6GHz channel width cap disclosed where applicable", description: "Noted that where a 6GHz radio is present, its channel width is likely capped below the 320MHz available on flagship tiers, meaningfully reducing peak 6GHz throughput versus BE9300+ products." },
   { title: "Decoded '6500' number into realistic per-device speed", description: "Decoded the '6500' number into its per-band theoretical split and translated that into realistic achievable single-device speed, consistent with the decoding approach used across this research." },
-  { title: "Value-tier comparison against BE9300 considered", description: "Assessed whether BE6500 represents a genuine value sweet spot or whether stepping up to BE9300 offers disproportionately more real capability for a modest price increase." },
+  { title: "Value-tier comparison against BE9300 considered", description: "Assessed whether BE6500 represents a genuine value sweet spot or whether stepping up to BE9300 offers disproportionately more real capability for a modest price increase." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -240,11 +240,11 @@ export const faq: FaqItem[] = [
   { q: "Is BE6500 a good value tier, or should I just get BE9300?", a: "BE6500 is often a genuine value sweet spot, but BE9300 can offer disproportionately more real capability for a modest price increase, compare the specific price gap against your needs." },
   { q: "Does MLO work well on a dual-band BE6500 router?", a: "Its cross-band benefit is limited the same way as entry-tier BE3600 routers, since dual-band units lack the second high-speed band MLO is designed to aggregate with." },
   { q: "Is BE6500 fast enough for a gigabit internet connection?", a: "Yes, comfortably, a BE6500's wired and wireless throughput ceiling sits well above a standard gigabit internet plan's actual speed, so your connection itself becomes the bottleneck before the router does." },
-  { q: "Should I buy BE6500 or wait for prices to drop on BE9300?", a: "Depends on your actual bandwidth needs, BE6500 already covers most home use cases well, so paying extra for BE9300's higher ceiling only makes sense if you have genuinely bandwidth-intensive, multi-gigabit needs today." },
+  { q: "Should I buy BE6500 or wait for prices to drop on BE9300?", a: "Depends on your actual bandwidth needs, BE6500 already covers most home use cases well, so paying extra for BE9300's higher ceiling only makes sense if you have genuinely bandwidth-intensive, multi-gigabit needs today." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-be3600-wifi-7-routers", title: "Best BE3600 Wi-Fi 7 Routers (2026)" },
   { href: "/guide/best-be9300-wifi-7-routers", title: "Best BE9300 Wi-Fi 7 Routers (2026)" },
-  { href: "/guide/best-multi-gig-wifi-7-routers", title: "Best Multi-Gig Wi-Fi 7 Routers (2026)" },
+  { href: "/guide/best-multi-gig-wifi-7-routers", title: "Best Multi-Gig Wi-Fi 7 Routers (2026)" }
 ];

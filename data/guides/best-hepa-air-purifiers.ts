@@ -5,7 +5,7 @@ export const metaDescription = "5 HEPA air purifiers we evaluated, with the dist
 export const mainKeyword = "HEPA air purifier";
 export const introParagraphs = [
   "HEPA-type or HEPA-like is materially different from certified True HEPA (99.97% at 0.3 microns), a marketing-language distinction that determines real filtration performance and is frequently blurred in product titles.",
-  "True HEPA filtration doesn't address gases, VOCs, or odors at all, only activated carbon media addresses those, a HEPA purifier without a substantial carbon layer won't meaningfully reduce smoke smell or chemical odors despite marketing overlap.",
+  "True HEPA filtration doesn't address gases, VOCs, or odors at all, only activated carbon media addresses those, a HEPA purifier without a substantial carbon layer won't meaningfully reduce smoke smell or chemical odors despite marketing overlap."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Certified True HEPA Pick Overall",
     name: "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom, H13 True HEPA Filter, 24db Filtration System Cleaner Odor Eliminators, Remove 99.97% Dust Smoke Mold Pollen, Core 300, White",
     price: "$89.99",
-    rating: "4.7 stars from 108,251 Amazon ratings",
-    reviews: "108,251 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Established Brand HEPA Pick",
     name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
-    rating: "4.6 stars from 28,866 Amazon ratings",
-    reviews: "28,866 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419pAe7T0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTKAPUU?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget HEPA Pick",
     name: "Membrane Solutions MSA3 Air Purifier for Home",
     price: "$99.39",
-    rating: "4.5 stars from 10,110 Amazon ratings",
-    reviews: "10,110 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31CcBFzC6wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08ND7C7P4?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Certified HEPA Pick",
     name: "Air Purifiers for Bedroom, FULMINARE H13 True HEPA Air Filter, Quiet Air Cleaner With Night Light, Portable Small Air Purifier for Home, Office, Living Room",
     price: "$24.99",
-    rating: "4.4 stars from 5,517 Amazon ratings",
-    reviews: "5,517 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/414NIpA+xLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B4ZSKPNL?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best HEPA Pick with Washable Pre-Filter",
     name: "LEVOIT Air Purifier for Home Pets Bedroom Up to 1073Ft2 Washable Pre-Filter",
     price: "$119.99",
-    rating: "4.7 stars from 11,367 Amazon ratings",
-    reviews: "11,367 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/415AbiHqgpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BNDM2RNG?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Washable pre-filter genuinely reduces some ongoing cost", "Solid, well-established review base", "Up to 1073 sq ft rated coverage", "HEPA filtration for particulates"],
     cons: ["Main HEPA filter still requires periodic replacement", "Higher price than basic HEPA-only picks", "Verify HEPA certification level"],
     bestFor: "Buyers who want a washable pre-filter to reduce some ongoing maintenance cost",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Certified True HEPA vs. 'HEPA-type' verification per pick", description: "Prioritized picks explicitly disclosing certified True HEPA (99.97% at 0.3 microns) rather than assuming any HEPA-adjacent marketing language reflects the same certified performance." },
   { title: "Activated carbon layer presence disclosed alongside HEPA claims", description: "Noted that True HEPA filtration doesn't address gases, VOCs, or odors at all, only a substantial activated carbon layer does, a HEPA-only unit won't meaningfully reduce smoke smell or chemical odors." },
-  { title: "Mid-life CADR degradation and whole-unit seal quality considered", description: "Flagged that HEPA filter effectiveness degrades as it loads with captured particulate, reducing actual CADR before the replacement indicator triggers, and that a certified filter in a poorly sealed housing underperforms its own rating." },
+  { title: "Mid-life CADR degradation and whole-unit seal quality considered", description: "Flagged that HEPA filter effectiveness degrades as it loads with captured particulate, reducing actual CADR before the replacement indicator triggers, and that a certified filter in a poorly sealed housing underperforms its own rating." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Does a HEPA filter lose effectiveness before it needs replacing?", a: "Yes, gradually. HEPA filter effectiveness degrades as it loads with captured particulate, reducing actual CADR well before the manufacturer's 'replace every X months' indicator triggers, this is normal wear." },
   { q: "Can a certified HEPA filter still underperform in a real unit?", a: "Yes, if the housing isn't well sealed. A genuinely certified HEPA filter installed in a poorly sealed unit, with air bypassing the filter through gaps, delivers meaningfully worse real-world performance than the filter media's own rating suggests." },
   { q: "Is True HEPA the same as HEPA-type or HEPA-like?", a: "No, True HEPA meets a verified 99.97% capture rate at 0.3 microns under a tested standard, while HEPA-type or HEPA-like filters aren't held to that same independently verified threshold despite the similar name." },
-  { q: "How long does a HEPA filter actually last before replacement?", a: "Check the specific manufacturer's stated interval, typically 6-12 months under normal use, though continuous operation or a dustier environment can shorten that real-world lifespan meaningfully." },
+  { q: "How long does a HEPA filter actually last before replacement?", a: "Check the specific manufacturer's stated interval, typically 6-12 months under normal use, though continuous operation or a dustier environment can shorten that real-world lifespan meaningfully." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-hepa-and-carbon-air-purifiers", title: "Best HEPA and Carbon Air Purifiers (2026)" },
   { href: "/guide/best-air-purifiers-with-washable-filters", title: "Best Air Purifiers with Washable Filters (2026)" },
-  { href: "/guide/best-air-purifiers-for-allergies", title: "Best Air Purifiers for Allergies (2026)" },
+  { href: "/guide/best-air-purifiers-for-allergies", title: "Best Air Purifiers for Allergies (2026)" }
 ];

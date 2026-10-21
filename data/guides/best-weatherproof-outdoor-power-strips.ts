@@ -5,7 +5,7 @@ export const metaDescription = "3 weatherproof outdoor power strips we evaluated
 export const mainKeyword = "outdoor power strip weatherproof";
 export const introParagraphs = [
   "Fully sealed weatherproof strips still have cord entry and exit points that are the most common failure point for water ingress, a strip's main body may be well-sealed while the cord grommet or entry seal is the actual weak point over time.",
-  "Submersion resistance, if claimed, is a materially different and higher standard than splash or rain resistance, confusing the two creates real safety risk for buyers in genuinely wet locations like near pools expecting more protection than a splash-rated product provides.",
+  "Submersion resistance, if claimed, is a materially different and higher standard than splash or rain resistance, confusing the two creates real safety risk for buyers in genuinely wet locations like near pools expecting more protection than a splash-rated product provides."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Weatherproof Outdoor Power Strip Overall",
     name: "IPX6 Outdoor Power Strip Weatherproof, Waterproof Overload Protector with 6 Wide Outlet 3 USB Ports, 6FT Long Extension Cord, Wall Mountable for Outside Decorations and More UL Listed, Black",
     price: "$26.99",
-    rating: "4.6 stars from 2,224 Amazon ratings",
-    reviews: "2,224 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41by4E3zbML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09YYDSGLK?tag=deskfinds0d-20",
     description: "An explicit IPX6 rating genuinely substantiates a stronger weatherproof claim than a generic label, this is a rating for strong water-jet resistance, not full submersion. UL listed with overload protection, wall mountable.\n\nIt earns the top spot in this comparison over Iwister Outdoor Power Strip Weatherproof for one main reason. Explicit IPX6 rating substantiates the weatherproof claim. On price, it's actually priced above Iwister Outdoor Power Strip Weatherproof, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: UL listed for verified safety. On the other side, GFCI still required at the source outlet separately. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Weatherproof Pick",
     name: "Iwister Outdoor Power Strip Weatherproof, 3 AC Outlets, 5FT Extension Cord",
     price: "$17.99",
-    rating: "4.6 stars from 255 Amazon ratings",
-    reviews: "255 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51TaI4FfoCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G8GN8PMS?tag=deskfinds0d-20",
     description: "A more affordable weatherproof option with 3 outlets, appropriate for lighter outdoor decoration needs. Weatherproof housing without an explicit IP rating disclosed on this listing.\n\nOne spot below IPX6 Outdoor Power Strip Weatherproof in this ranking, it's priced lower than IPX6 Outdoor Power Strip Weatherproof. The compromise here is straightforward: No explicit IP rating number disclosed. What you gain in return: More affordable than the top pick. Whether that trade is worth it depends on which side matters more for your needs.\n\nWorth knowing before you decide: Compact for lighter outdoor decoration needs. On the other side, Verify cord entry sealing quality independently. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Weatherproof Connection Box Pick",
     name: "Flemoon Large Outdoor Electrical Box Waterproof, for Outdoor Plug",
     price: "$23.78",
-    rating: "4.6 stars from 5,517 Amazon ratings",
-    reviews: "5,517 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/516J9Te+EVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09NLW5HMX?tag=deskfinds0d-20",
     description: "Genuinely addresses the cord-entry vulnerability directly, this is a waterproof box specifically designed to seal an existing plug connection point, the exact weak spot that a 'fully sealed' strip housing alone doesn't solve. Large, well-established review base.\n\nSitting just under Iwister Outdoor Power Strip Weatherproof, it costs more than Iwister Outdoor Power Strip Weatherproof. Here's the honest tradeoff: Doesn't add outlets itself. And here's what it gets you instead: Directly addresses the cord-entry water-ingress vulnerability. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Large, well-established review base. On the other side, Verify it fits your specific plug and cord dimensions. That's the main tradeoff to weigh against everything above.",
@@ -73,7 +73,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Rigorous IP rating verification over adjective-only marketing claims", description: "Distinguished picks with a genuinely disclosed, verifiable IP rating like IPX6 from those using stronger adjectives (weatherproof, fully sealed) without any underlying certification data." },
   { title: "Cord entry point vulnerability considered as the real weak spot", description: "Noted that a weatherproof strip's main body may be well-sealed while the cord grommet or entry seal is the actual weak point for water intrusion over time, a component-level concern most marketing claims don't address." },
-  { title: "Splash resistance vs. submersion resistance explicitly distinguished", description: "Clarified that IP ratings distinguish splash resistance (lower IPX4-5 range) from actual submersion resistance (IPX7+), avoiding the assumption that any weatherproof label implies full submersion protection." },
+  { title: "Splash resistance vs. submersion resistance explicitly distinguished", description: "Clarified that IP ratings distinguish splash resistance (lower IPX4-5 range) from actual submersion resistance (IPX7+), avoiding the assumption that any weatherproof label implies full submersion protection." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -190,11 +190,11 @@ export const faq: FaqItem[] = [
   { q: "Do I need UV-resistant housing for an outdoor power strip?", a: "If it's a permanent outdoor installation, yes, it helps. Standard plastic housing can become brittle and crack from sustained sun exposure over a season, UV-stabilized material holds up better long-term." },
   { q: "Does a weatherproof power strip eliminate the need for a GFCI outlet?", a: "No. Local electrical code typically still requires GFCI protection at the source outlet for outdoor circuits regardless of the power strip's own weatherproofing, verify this separately." },
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers who want a verifiably rated weatherproof strip for splash-exposed outdoor locations" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with light, occasional outdoor decoration needs At $17.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with light, occasional outdoor decoration needs At under $20, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-outdoor-power-strips", title: "Best Outdoor Power Strips (2026)" },
   { href: "/guide/best-wall-mounted-power-strips", title: "Best Wall-Mounted Power Strips (2026)" },
-  { href: "/guide/best-heavy-duty-power-strips", title: "Best Heavy-Duty Power Strips (2026)" },
+  { href: "/guide/best-heavy-duty-power-strips", title: "Best Heavy-Duty Power Strips (2026)" }
 ];

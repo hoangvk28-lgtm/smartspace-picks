@@ -12,7 +12,7 @@ export const chairMatTroubleshootingGuide: Guide = {
     "chair mat sliding fix",
     "chair mat edges curling up",
     "chair mat cracking fix",
-    "chair mat not staying flat",
+    "chair mat not staying flat"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const chairMatTroubleshootingGuide: Guide = {
     "chair-mat-types-explained",
     "chair-mat-material-comparison",
     "chair-mat-vs-caster-upgrade",
-    "carpet-vs-hardwood-desk-setup",
+    "carpet-vs-hardwood-desk-setup"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const chairMatTroubleshootingGuide: Guide = {
       question: "Can a cracked or grooved chair mat be repaired, or does it need replacement?",
       answer:
         "Minor surface wear generally isn't repairable in a meaningful way, once a mat shows significant cracking or permanent deep grooves, replacement is typically the more practical solution rather than attempting a repair.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const chairMatTroubleshootingGuide: Guide = {
     {
       heading: "Why Curling Edges Are a Temporary, Not Permanent, Issue",
       body: `A chair mat shipped rolled for compact packaging retains some physical memory of that rolled shape initially, causing edges to curl upward when first unrolled, this is a normal, temporary condition rather than a defect, and most mats flatten out naturally within several days as the material relaxes, especially when weighted down by furniture legs or consistent foot and chair traffic across the surface during that adjustment period.`,
-    },
+    }
   ],
 };

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "computer desk cup holders";
 export const introParagraphs = [
   "A spill next to a keyboard, PC tower, or cable run carries higher stakes than a spill on a general desk, since electronics are directly at risk. We carried forward our general desk cup holder research here with that elevated context specifically in mind.",
-  "All five picks below use a covered or deep cavity design and clamp securely to a desk edge without drilling, positioned with cable-run clearance in mind.",
+  "All five picks below use a covered or deep cavity design and clamp securely to a desk edge without drilling, positioned with cable-run clearance in mind."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Elevated spill-proximity-to-electronics risk", description: "We weighed the higher stakes of a spill specifically near a keyboard, PC tower, or cable run more heavily than for a general desk holder." },
   { title: "Cable-run-clear placement", description: "We considered whether each holder's clamp position can be set clear of typical monitor and peripheral cable paths." },
   { title: "Spill and tip resistance", description: "We favored deep, covered cavity designs given the elevated consequences of a spill in this specific context." },
-  { title: "Desk-edge clamp compatibility", description: "We compared clamp opening ranges against common computer desk edge types, including corner and L-shaped desks." },
+  { title: "Desk-edge clamp compatibility", description: "We compared clamp opening ranges against common computer desk edge types, including corner and L-shaped desks." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -244,11 +244,11 @@ export const faq: FaqItem[] = [
   { q: "Where should I mount the cup holder on my computer desk?", a: "Position the clamp away from monitor, keyboard, and peripheral cable runs, both to reduce spill risk to your electronics and to avoid physical interference with your existing cable management." },
   { q: "Should I get a rotating cup holder for my PC desk?", a: "It's a worthwhile extra safety margin, letting you swing the cup away from your keyboard and tower when you're not actively drinking, though not strictly necessary if your cavity design is already spill-resistant." },
   { q: "Can a combined cup holder and accessory hub reduce desk clutter?", a: "Yes, the KDD 5-in-1 pick consolidates a cup holder, headphone hanger, and storage onto one clamp, reducing the number of separate accessories competing for desk-edge space." },
-  { q: "Will these holders fit an L-shaped or corner computer desk?", a: "Most clamp mechanisms work on standard desk edges, but verify the clamp opening range against your specific desk's edge thickness and shape before ordering." },
+  { q: "Will these holders fit an L-shaped or corner computer desk?", a: "Most clamp mechanisms work on standard desk edges, but verify the clamp opening range against your specific desk's edge thickness and shape before ordering." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-cup-holders", title: "Best Desk Cup Holders (2026)" },
   { href: "/guide/best-gaming-desk-cup-holders", title: "Best Gaming Desk Cup Holders (2026)" },
-  { href: "/guide/best-anti-spill-desk-cup-holders", title: "Best Anti-Spill Desk Cup Holders (2026)" },
+  { href: "/guide/best-anti-spill-desk-cup-holders", title: "Best Anti-Spill Desk Cup Holders (2026)" }
 ];

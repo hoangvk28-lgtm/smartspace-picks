@@ -123,7 +123,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The lowest price with standard voltage coverage", "Luqeeg 10400mAh Mini UPS Battery Backup"],
         ["A stated hours-of-runtime figure", "Mini UPS Battery Backup, 6000mAh (5-hour rated)"],
         ["The most raw battery capacity", "VISLONE Mini UPS Battery Backup 13500mAh"],
-        ["Flexible charging via DC or USB", "Mini UPS Battery Backup 10400mAh (dual input)"],
+        ["Flexible charging via DC or USB", "Mini UPS Battery Backup 10400mAh (dual input)"]
       ],
     },
   },
@@ -132,8 +132,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $30", "Luqeeg ($27.61) or Mini UPS 6000mAh ($29.99)"],
-        ["Up to $40", "VISLONE ($31.99) or Mini UPS 10400mAh dual-input ($35.13)"],
+        ["Under $30", "Luqeeg (under $30) or Mini UPS 6000mAh (under $30)"],
+        ["Up to $40", "VISLONE (under $35) or Mini UPS 10400mAh dual-input (under $40)"]
       ],
     },
   },
@@ -147,7 +147,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "Raw mAh capacity only (Luqeeg, VISLONE, dual-input pick)",
         text: "Larger numbers on paper, but without a stated runtime you're estimating based on your router's actual watt draw, which most router power bricks list on a label.",
-      },
+      }
     ],
     note: "If your router's power label lists its wattage, you can roughly estimate runtime yourself; if you'd rather not do that math, the 6000mAh pick's stated 5-hour figure is the more direct answer.",
   },
@@ -157,7 +157,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Priority", "Recommended pick"],
       rows: [
         ["Single DC charging method is fine", "Luqeeg, Mini UPS 6000mAh, or VISLONE"],
-        ["Want the option of USB charging as a backup", "Mini UPS Battery Backup 10400mAh (dual input)"],
+        ["Want the option of USB charging as a backup", "Mini UPS Battery Backup 10400mAh (dual input)"]
       ],
     },
   },
@@ -171,7 +171,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "All four picks here output 12V, so the deciding factor for a basic home router comes down to capacity and price rather than voltage compatibility.",
-      },
+      }
     ],
   },
   {
@@ -179,14 +179,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You want the largest available capacity in this tier: VISLONE's 13500mAh ($31.99) outlasts the cheaper Luqeeg pick by roughly 30 percent for a few dollars more.",
+        text: "You want the largest available capacity in this tier: VISLONE's 13500mAh (under $35) outlasts the cheaper Luqeeg pick by roughly 30 percent for a few dollars more.",
       },
       {
         label: "Save if",
-        text: "You only need to bridge short power blips, not extended outages: Luqeeg's 10400mAh unit ($27.61) covers the same core voltages as pricier picks here.",
-      },
+        text: "You only need to bridge short power blips, not extended outages: Luqeeg's 10400mAh unit (under $30) covers the same core voltages as pricier picks here.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -241,5 +241,5 @@ export const faq = [
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-dc-ups-for-wifi-routers-under-90", title: "Best Mini DC UPS for WiFi Routers Under $90" },
-  { href: "/guide/best-usb-c-to-2-5gbe-ethernet-adapters-under-30", title: "Best USB-C to 2.5GbE Ethernet Adapters Under $30" },
+  { href: "/guide/best-usb-c-to-2-5gbe-ethernet-adapters-under-30", title: "Best USB-C to 2.5GbE Ethernet Adapters Under $30" }
 ];

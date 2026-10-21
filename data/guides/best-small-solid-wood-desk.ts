@@ -43,25 +43,24 @@ export const products: SmallSolidWoodDesk[] = [
     imageUrl: `${BASE}/02-cozy_minimalist_home_office_corner.webp`,
     amazonUrl: "https://www.amazon.com/dp/B08G449V3V?tag=deskfinds0d-20",
     whyItWorks:
-      "The IOTXY is the strongest affiliate pick on this list: 600+ reviews, consistent purchase volume, and well-documented real-world performance. For a small desk category where many products have thin review histories, this is a meaningful advantage. The material is worth understanding: solid wood frame and beechwood legs with a veneer-finish desktop. The surface is not a fully solid wood top - it is a veneer face over a substrate. In practice, this affects long-term refinishing ability more than day-to-day use. The single drawer adds practical daily storage in a small-space context.",
+      "For a small desk category where many products have thin review histories, this is a meaningful advantage. The material is worth understanding: solid wood frame and beechwood legs with a veneer-finish desktop. The surface is not a fully solid wood top - it is a veneer face over a substrate. In practice, this affects long-term refinishing ability more than day-to-day use. The single drawer adds practical daily storage in a small-space context.",
     tradeoffs: [
       "Veneer desktop - cannot be deeply sanded or refinished",
       "20\" depth is borderline for monitor use without a monitor arm",
-      "Title says solid wood but the top surface is veneer, not fully solid throughout",
+      "Title says solid wood but the top surface is veneer, not fully solid throughout"
     ],
     skipIf:
       "Skip if you specifically need a fully solid wood top surface - the Max and Lily 47\" (Rank 2) has solid wood throughout. Skip if 20\" depth feels too shallow for your monitor - pair this desk with a monitor arm.",
     pros: [
-      "600+ reviews - highest social proof on this list",
       "Single drawer for compact daily storage",
       "Clean design works in bedroom and apartment contexts",
       "Solid wood frame and legs with real wood veneer surface",
-      "Competitive price with good review history",
+      "Competitive price with good review history"
     ],
     cons: [
       "Veneer desktop - cannot be deeply sanded or refinished",
       "20\" depth is borderline for monitor use without a monitor arm",
-      "Surface is not fully solid wood throughout",
+      "Surface is not fully solid wood throughout"
     ],
   },
   {
@@ -81,7 +80,7 @@ export const products: SmallSolidWoodDesk[] = [
     tradeoffs: [
       "No drawers - requires a separate storage solution for accessories",
       "No hutch or built-in storage",
-      "Slightly higher price than budget alternatives for the same width",
+      "Slightly higher price than budget alternatives for the same width"
     ],
     skipIf:
       "Skip if you need drawer storage - the ODCVKRT (Rank 5) combines solid wood with drawers at a budget price. Skip if 47\" is too wide for your space - the Max and Lily 40\" (Rank 3) gives the same quality at a smaller footprint.",
@@ -89,12 +88,12 @@ export const products: SmallSolidWoodDesk[] = [
       "Genuine solid wood - not veneer, can be refinished",
       "24\" depth gives comfortable monitor viewing distance",
       "Max and Lily brand has established solid wood track record",
-      "Clean design works in modern and transitional bedroom aesthetics",
+      "Clean design works in modern and transitional bedroom aesthetics"
     ],
     cons: [
       "No drawers",
       "No hutch or built-in storage",
-      "Slightly higher price than budget alternatives",
+      "Slightly higher price than budget alternatives"
     ],
   },
   {
@@ -114,7 +113,7 @@ export const products: SmallSolidWoodDesk[] = [
     tradeoffs: [
       "40\" limits dual-monitor setups",
       "No drawers",
-      "Less surface area than 47\" alternatives",
+      "Less surface area than 47\" alternatives"
     ],
     skipIf:
       "Skip if you need 47\" or more surface width - the Max and Lily 47\" (Rank 2) gives a more practical single-monitor setup. Skip if you need drawers - the ODCVKRT (Rank 5) has drawer storage in solid wood.",
@@ -122,12 +121,12 @@ export const products: SmallSolidWoodDesk[] = [
       "40\" is genuinely compact - fits most room configurations",
       "Same solid wood quality as the 47\" at a smaller footprint",
       "Adequate 24\" depth for monitor ergonomics",
-      "Proven brand track record",
+      "Proven brand track record"
     ],
     cons: [
       "40\" limits dual-monitor setups",
       "No drawers",
-      "Less surface area than 47\" alternatives",
+      "Less surface area than 47\" alternatives"
     ],
   },
   {
@@ -148,7 +147,7 @@ export const products: SmallSolidWoodDesk[] = [
       "Solid pine plus MDF - not fully solid wood throughout",
       "36.2\" width limits surface area for monitor plus keyboard simultaneously",
       "18\" depth is shallow - monitor arm strongly recommended",
-      "Verify current stock before purchasing",
+      "Verify current stock before purchasing"
     ],
     skipIf:
       "Skip if you need more than 36.2\" of width for your monitor setup. Skip if you need fully solid wood construction - the Max and Lily or ODCVKRT options give genuine solid wood.",
@@ -156,13 +155,13 @@ export const products: SmallSolidWoodDesk[] = [
       "5 drawers in a 36.2\" footprint - exceptional storage density",
       "Narrowest desk on this list - fits the tightest rooms",
       "SAFAVIEH is an established furniture brand",
-      "Complete small office storage without additional furniture",
+      "Complete small office storage without additional furniture"
     ],
     cons: [
       "Solid pine plus MDF - not fully solid wood",
       "36.2\" width limits surface area",
       "18\" depth requires a monitor arm for comfortable viewing",
-      "Verify current stock before purchasing",
+      "Verify current stock before purchasing"
     ],
   },
   {
@@ -181,7 +180,7 @@ export const products: SmallSolidWoodDesk[] = [
       "The ODCVKRT at 47\" combines solid wood construction with built-in drawers at a competitive price. For buyers who want genuine solid wood material over veneer and need drawer storage in a small desk, this is the most affordable option meeting both criteria on this list. The listing consistently describes solid wood construction throughout - not just the frame or legs. At 47\" wide, it gives a usable single-monitor work surface.",
     tradeoffs: [
       "Newer brand with fewer reviews than Max and Lily",
-      "Verify depth before ordering if ergonomics are a priority",
+      "Verify depth before ordering if ergonomics are a priority"
     ],
     skipIf:
       "Skip if brand trust with a long review history is important - the IOTXY (Rank 1) and Max and Lily (Rank 2) have more established reviews. Skip if depth is critical - confirm the spec before purchasing.",
@@ -189,11 +188,11 @@ export const products: SmallSolidWoodDesk[] = [
       "Solid wood construction at a budget price",
       "Drawers included - practical small-room storage",
       "47\" width covers most single-monitor setups",
-      "Competitive price for solid wood with storage",
+      "Competitive price for solid wood with storage"
     ],
     cons: [
       "Newer brand - fewer verified long-term reviews",
-      "Verify depth before ordering",
+      "Verify depth before ordering"
     ],
   },
   {
@@ -213,19 +212,19 @@ export const products: SmallSolidWoodDesk[] = [
     tradeoffs: [
       "Lower review count than Max and Lily options",
       "39\" is limiting without a monitor arm for larger screens",
-      "Newer brand",
+      "Newer brand"
     ],
     skipIf:
       "Skip if you need 40\" or more width - the Max and Lily 40\" (Rank 3) gives 40\" with deeper depth. Skip if you need drawer storage with an established brand - the IOTXY (Rank 1) has more reviews.",
     pros: [
       "39\" is genuinely compact - fits tight corner and alcove placements",
       "Solid wood construction",
-      "Single drawer for compact daily storage",
+      "Single drawer for compact daily storage"
     ],
     cons: [
       "Lower review count than Max and Lily options",
       "39\" limits larger screen setups without a monitor arm",
-      "Newer brand",
+      "Newer brand"
     ],
   },
   {
@@ -244,18 +243,18 @@ export const products: SmallSolidWoodDesk[] = [
       "The 47\" Votred gives more surface area than the 39\" version while maintaining the same solid wood construction and single-drawer storage. For buyers who want Votred's minimal aesthetic but need a bit more desk width, the 47\" variant is the more practical daily work surface. The minimal design suits modern bedroom and apartment setups where a heavy or ornate desk would feel out of place.",
     tradeoffs: [
       "Lower review count - newer listing",
-      "Verify current stock and rating before purchasing",
+      "Verify current stock and rating before purchasing"
     ],
     skipIf:
       "Skip if brand trust with extensive reviews is important - the Max and Lily 47\" (Rank 2) is the established solid wood option at 47\". Skip if depth spec is critical - confirm before purchasing.",
     pros: [
       "Solid wood at 47\" gives comfortable single-monitor surface",
       "Minimal aesthetic suits modern bedroom and apartment setups",
-      "Single drawer for basic storage",
+      "Single drawer for basic storage"
     ],
     cons: [
       "Lower review count - newer listing",
-      "Verify current stock and rating before purchasing",
+      "Verify current stock and rating before purchasing"
     ],
   },
   {
@@ -275,19 +274,19 @@ export const products: SmallSolidWoodDesk[] = [
     tradeoffs: [
       "Lower review count - use as an option if higher-ranked picks are out of stock",
       "35.4\" limits surface area significantly",
-      "Depth (~20\") requires a monitor arm for comfortable viewing",
+      "Depth (~20\") requires a monitor arm for comfortable viewing"
     ],
     skipIf:
       "Skip if higher-ranked picks are available - the IOTXY, Max and Lily, and ODCVKRT are all better-established options. Use this as a backup if those are out of stock.",
     pros: [
       "Solid wood at 35.4\" - genuinely compact",
       "Drawers included at this narrow width",
-      "Suits dorm and very small apartment setups",
+      "Suits dorm and very small apartment setups"
     ],
     cons: [
       "Lower review count",
       "35.4\" limits surface area significantly",
-      "Depth requires monitor arm for comfortable viewing",
+      "Depth requires monitor arm for comfortable viewing"
     ],
   },
   {
@@ -306,21 +305,21 @@ export const products: SmallSolidWoodDesk[] = [
       "The 39.4\" Cttasty writing desk offers a slightly wider surface than the 35.4\" variant while maintaining drawers and solid wood construction. At 21.7\" deep, this has the best depth-to-width ratio of the Cttasty options - the extra inch of depth relative to the 35.4\" model meaningfully improves monitor ergonomics. Use this as a backup if the smaller Cttasty or the Votred 39\" options are out of stock.",
     tradeoffs: [
       "Lowest review count on this list",
-      "Use as backup only - verify availability and rating",
+      "Use as backup only - verify availability and rating"
     ],
     skipIf:
       "Skip if higher-ranked alternatives are available. This is a backup pick for when the primary compact options are out of stock.",
     pros: [
       "39.4\" by 21.7\" is a solid compact-desk footprint",
       "Drawers included",
-      "Better depth than the 35.4\" Cttasty",
+      "Better depth than the 35.4\" Cttasty"
     ],
     cons: [
       "Lowest review count on this list",
       "Use as backup only",
-      "Verify availability and rating before purchasing",
+      "Verify availability and rating before purchasing"
     ],
-  },
+  }
 ];
 
 export interface AtAGlanceRow {
@@ -363,7 +362,7 @@ export const faq: { q: string; a: string }[] = [
   {
     q: "Is rubberwood or pine better for a small desk?",
     a: "Both are adequate for light daily use. Rubberwood (parawood) is harder (~980 lbf Janka) and more moisture-resistant. Pine is softer (~870 lbf) and shows dents more easily but is often less expensive. For a bedroom desk with normal light use, both are acceptable.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
@@ -382,5 +381,5 @@ export const relatedGuides: { href: string; title: string }[] = [
   {
     href: "/guide/best-wood-executive-desk",
     title: "Best Wood Executive Desks in 2026",
-  },
+  }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desk clock with temperature display";
 export const introParagraphs = [
   "A desk clock with a temperature display adds a room-temperature reading alongside the time, useful for a quick glance without checking your phone or a separate thermometer. All five picks here genuinely show temperature per their listings, though most also bundle in date and humidity, so there's real overlap with our best desk clocks with dates guide if date display matters just as much to you.",
-  "We focused this list specifically on the temperature feature: how it's displayed, whether it's paired with humidity, and what power type each unit uses, since a corded clock and a battery clock serve different desk setups.",
+  "We focused this list specifically on the temperature feature: how it's displayed, whether it's paired with humidity, and what power type each unit uses, since a corded clock and a battery clock serve different desk setups."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "8 min";
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified temperature display was explicitly stated in each listing", description: "Confirmed temperature readout was a named feature in the product title or bullet points, not assumed from general \"digital clock\" descriptions." },
   { title: "Checked whether humidity was bundled alongside temperature", description: "Noted which picks pair humidity with temperature versus temperature alone, since that combination adds more room-comfort context." },
   { title: "Weighed power type against desk placement flexibility", description: "Considered battery versus corded power for how it affects where the clock can realistically sit on a desk." },
-  { title: "Set realistic expectations for built-in sensor accuracy", description: "Treated temperature readouts as general indicators rather than lab-calibrated instruments when scoring each pick." },
+  { title: "Set realistic expectations for built-in sensor accuracy", description: "Treated temperature readouts as general indicators rather than lab-calibrated instruments when scoring each pick." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -229,11 +229,11 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "How accurate are the temperature readings on these clocks?", a: "They're general indicators suitable for a quick glance, not precisely calibrated instruments. Expect reasonable accuracy but not lab-grade precision." },
   { q: "Do all these clocks also show humidity?", a: "Most do, based on their listings, but check the specific product since not every pick pairs humidity with temperature." },
-  { q: "What's the difference between this guide and the desk clocks with dates guide?", a: "Heavy overlap, since most temperature-display clocks also show the date. This guide leads with the temperature feature; the dates guide leads with the date feature, covering much of the same product pool." },
+  { q: "What's the difference between this guide and the desk clocks with dates guide?", a: "Heavy overlap, since most temperature-display clocks also show the date. This guide leads with the temperature feature; the dates guide leads with the date feature, covering much of the same product pool." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-clocks-with-dates", title: "Best Desk Clocks with Dates (2026)" },
   { href: "/guide/best-led-desk-clocks", title: "Best LED Desk Clocks (2026)" },
-  { href: "/guide/best-wireless-charging-desk-clocks", title: "Best Wireless Charging Desk Clock (2026)" },
+  { href: "/guide/best-wireless-charging-desk-clocks", title: "Best Wireless Charging Desk Clock (2026)" }
 ];

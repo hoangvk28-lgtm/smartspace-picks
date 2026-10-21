@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $99.99",
+          "Under $100",
           "Mitlvge 3.2 Cu Ft Fireproof Safe Box with Digital Keypad"
         ],
         [
-          "Around $107.99",
+          "Under $110",
           "3.4 Cu Ft Digital Home Safe with Programmable Keypad"
         ],
         [
-          "Around $112.99",
+          "Under $120",
           "3.3 Cu Ft Home Safe Fireproof & Waterproof with Programmable Keypad"
         ],
         [
-          "Around $129.98",
+          "Under $130",
           "Mitlvge 23.62\" Tall 5.0 Cu Ft Extra Large Home Safe"
         ],
         [
-          "Around $142.99",
+          "Under $150",
           "Omethey 5.0 Cu Ft Extra Large Safe with Deposit Slot"
         ],
         [
-          "Around $186.98",
+          "Under $190",
           "DAYI 3.0 Cu Ft Home Safe with Fireproof/Waterproof Bag"
         ],
         [
-          "Around $189.97",
+          "Under $190",
           "3.6 Cu Ft Real Fireproof Safe"
         ],
         [
-          "Around $239.99",
+          "Under $250",
           "Mitlvge 35-Min Real Fireproof Safe"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", "a": "DAYI 3.0 Cu Ft Home Safe with Fireproof/Waterproof Bag is aimed at buyers prioritizing 3.0 cu ft, 6x 1.2in live-locking bolts" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", "a": "DAYI 3.0 Cu Ft Home Safe with Fireproof/Waterproof Bag is aimed at buyers prioritizing 3.0 cu ft, 6x 1.2in live-locking bolts" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-2-cu-ft-fireproof-safes","title":"Best 2 Cu ft Fireproof Safes in 2026"},{"href":"/guide/best-2-cubic-feet-fireproof-safes","title":"Best 2 Cubic Feet Fireproof Safes in 2026"},{"href":"/guide/best-4-cu-ft-fireproof-safes","title":"Best 4 Cu ft Fireproof Safes in 2026"}];

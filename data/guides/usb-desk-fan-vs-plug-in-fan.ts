@@ -12,7 +12,7 @@ export const usbDeskFanVsPlugInFanGuide: Guide = {
     "usb fan power limitation",
     "portable desk fan comparison",
     "plug in fan vs usb powered",
-    "small personal fan for desk",
+    "small personal fan for desk"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const usbDeskFanVsPlugInFanGuide: Guide = {
     "tower-fan-vs-desk-fan",
     "desk-fan-cfm-explained",
     "how-many-outlets-do-you-need-desk-setup",
-    "usb-c-power-delivery-explained",
+    "usb-c-power-delivery-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const usbDeskFanVsPlugInFanGuide: Guide = {
       question: "Which is better for a desk with very limited outlet availability?",
       answer:
         "A USB fan is the more practical choice in this specific scenario, since it can draw power from an already-connected device like your laptop rather than requiring its own dedicated outlet or power strip slot.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const usbDeskFanVsPlugInFanGuide: Guide = {
     {
       heading: "Why Outlet Availability Can Be the Deciding Practical Factor",
       body: `On a desk already stretched thin on available power outlets or power strip slots between a computer, monitors, chargers, and other devices, adding yet another device competing for that limited outlet capacity represents a genuine practical constraint, a USB fan sidesteps this entirely by drawing power from an already-connected device like a laptop or a USB hub, making it the more practical choice specifically in outlet-constrained situations, even if a plug-in fan's stronger airflow would otherwise be preferred.`,
-    },
+    }
   ],
 };

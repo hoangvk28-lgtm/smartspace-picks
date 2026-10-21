@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "10W (0.874mW, Class 2) UV Laser Marking Machine Water Cooling UV Laser Engraver for Glass, measures 200x200 and is built around laser class ii, 0.874mw output power, fda, positioning it for uv for glass buyers specifically.\n\nLaser Source Power is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for uv for glass, though as with any equipment purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["200x200 dimensions","Laser Class II, 0.874mW Output Power, FDA","Laser Source Power"],
     pros: ["Laser Class II, 0.874mW Output Power, FDA, confirmed directly in the listing's own spec details","Laser Source Power, confirmed directly in the listing's own spec details","Efficient Cooling, confirmed directly in the listing's own spec details"],
-    cons: ["At $5,299.00, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $5,300, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for uv for glass",
   },
   {
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     description: "A1 Pro 12W Mini Laser Engraver with Camera, App Control, Portable Laser Engraver and Cutter and is built around hd camera, 4k precision, memory & offline, positioning it for uv for glass buyers specifically.\n\nSmart Software, AI-Powered & Free Carverall is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for uv for glass, though as with any equipment purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["HD Camera, 4K Precision, Memory & Offline","Smart Software, AI-Powered & Free Carverall","Trusted by 500,000+ Creators Carverall A1 Pro"],
     pros: ["HD Camera, 4K Precision, Memory & Offline, confirmed directly in the listing's own spec details","Smart Software, AI-Powered & Free Carverall, confirmed directly in the listing's own spec details","Trusted by 500,000+ Creators Carverall A1 Pro, confirmed directly in the listing's own spec details"],
-    cons: ["At $329.99, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $350, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for uv for glass",
   }
 

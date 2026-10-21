@@ -11,7 +11,7 @@ export const grommetMountVsClampMountGuide: Guide = {
   subKeywords: [
     "grommet mount monitor arm",
     "clamp mount vs grommet monitor stand",
-    "monitor arm no drilling",
+    "monitor arm no drilling"
   ],
   heroImage: "https://images.unsplash.com/photo-1632064824547-e77c36851495?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1632064824547-e77c36851495?q=80&w=800&auto=format&fit=crop",
@@ -23,7 +23,7 @@ export const grommetMountVsClampMountGuide: Guide = {
     "best-clamp-on-under-desk-pc-mounts",
     "best-ring-lights-with-desk-clamp-mount",
     "best-monitor-arm-desk-mounts",
-    "best-monitor-arm-mounts-under-50",
+    "best-monitor-arm-mounts-under-50"
   ],
   faq: [
     {
@@ -45,7 +45,7 @@ export const grommetMountVsClampMountGuide: Guide = {
       question: "Can I use a clamp mount on a desk with no accessible edge?",
       answer:
         "No, a clamp mount requires an exposed desk edge (typically 0.4-3.5 inches thick) to grip. Desks with a raised back lip, a hutch, or built-in cable channels along the back edge may not have a clampable surface, making a grommet mount the more viable option if a hole exists or can be added.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ The main limitation is desks with an unusual edge shape (rounded, beveled, or bl
       body: `A grommet mount makes sense specifically if your desk already has a cable grommet hole in a usable position, since you gain the stability benefit without needing to drill anything new. It's also the fallback option when a desk's edge shape genuinely can't accept a clamp, assuming you're willing to drill a hole or the desk already has one.
 
 Before choosing to drill a new hole specifically to use a grommet mount, weigh that against simply finding a clamp-compatible mounting spot elsewhere on the same desk, since drilling is a permanent decision that affects the desk's resale value and can't be undone if you change your mind about the arm's exact position later.`,
-    },
+    }
   ],
 };

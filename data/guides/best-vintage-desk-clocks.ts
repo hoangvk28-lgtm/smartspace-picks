@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "vintage desk clock";
 export const introParagraphs = [
   "Vintage, retro, and antique are used almost interchangeably in desk clock listings, which makes shopping by style name alone unreliable. We're treating vintage specifically as clocks that recreate an older mechanical feel, primarily gear-driven flip clocks with a mid-century flip-card look, plus one gold analog piece with an aged aesthetic. If you're after a throwback pop design instead, see our retro desk clocks guide, which covers the same flip-clock pool with a different framing and different top picks.",
-  "None of the products below are literal antiques or antique reproductions, they are new manufacture designed to evoke an older look and mechanism. See our antique-style desk clocks guide for an honest note on why that narrower aesthetic is harder to find in verified listings.",
+  "None of the products below are literal antiques or antique reproductions, they are new manufacture designed to evoke an older look and mechanism. See our antique-style desk clocks guide for an honest note on why that narrower aesthetic is harder to find in verified listings."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "7 min";
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine mechanism weighted over printed vintage styling", description: "Prioritized clocks with a real gear-driven flip mechanism over clocks that simply print a retro-looking face on a standard quartz movement." },
   { title: "Explicitly avoided calling anything a literal antique", description: "Confirmed no product in this pool is a true antique or antique reproduction, all are new manufacture designed to evoke an older look." },
   { title: "Color and material variety assessed for desk fit", description: "Compared black, white, and gold finishes against typical desk tones rather than assuming one finish suits every setup." },
-  { title: "Cross-checked against the retro and antique-style guides to avoid duplicate framing", description: "Selected a distinct top-pick order and prose angle from our retro desk clocks guide, which covers an overlapping product pool with a different emphasis." },
+  { title: "Cross-checked against the retro and antique-style guides to avoid duplicate framing", description: "Selected a distinct top-pick order and prose angle from our retro desk clocks guide, which covers an overlapping product pool with a different emphasis." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -230,11 +230,11 @@ export const faq: FaqItem[] = [
   { q: "What's the difference between this guide and the retro desk clocks guide?", a: "Both cover an overlapping pool of flip clocks, but this guide frames vintage around the flip mechanism as an aged design cue, while the retro guide leans into throwback pop styling with a different top pick order." },
   { q: "Are any of these clocks actual antiques?", a: "No, all are new manufacture designed to evoke an older look and mechanism, not genuine antiques or antique reproductions." },
   { q: "Do flip clocks make noise?", a: "Yes, the gear mechanism produces an audible click each time a number flips. If that bothers you, the silent gold analog pick in this guide avoids it." },
-  { q: "Why is the gold analog clock included in a vintage flip clock guide?", a: "It represents a different route to a vintage aesthetic through color and material rather than mechanism, included as an alternative for buyers who don't want a flip clock specifically." },
+  { q: "Why is the gold analog clock included in a vintage flip clock guide?", a: "It represents a different route to a vintage aesthetic through color and material rather than mechanism, included as an alternative for buyers who don't want a flip clock specifically." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-retro-desk-clocks", title: "Best Retro Desk Clocks (2026)" },
   { href: "/guide/best-antique-style-desk-clocks", title: "Best Antique-Style Desk Clocks (2026)" },
-  { href: "/guide/best-flip-desk-clocks", title: "Best Flip Desk Clocks (2026)" },
+  { href: "/guide/best-flip-desk-clocks", title: "Best Flip Desk Clocks (2026)" }
 ];

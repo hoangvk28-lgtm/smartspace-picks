@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desktop whiteboard pad";
 export const introParagraphs = [
   "A pad-style whiteboard lies flat or at a low angle in front of your keyboard, which is a genuinely different placement than an upright stand-mounted board - it affects wrist posture and how much desk depth it takes up.",
-  "We excluded freestanding upright boards from this list entirely, since those belong in a different use case with different clearance considerations.",
+  "We excluded freestanding upright boards from this list entirely, since those belong in a different use case with different clearance considerations."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41fFLL-HlwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C8777YJQ?tag=deskfinds0d-20",
     description: "A genuine flat pad format at 5x7 inches, lined for structured notes, and cheap enough that a 2-pack costs less than most single upright boards.",
-    specs: ["5x7 in, flat pad format", "Lined surface", "2-pack", "1,027 reviews at 4.7 stars"],
+    specs: ["5x7 in, flat pad format", "Lined surface", "2-pack"],
     pros: ["Cheapest option, and you get two", "Genuinely flat, low-profile design"],
     cons: ["Small writing area per pad"],
     bestFor: "Buyers who want the cheapest genuine flat pad option.",
@@ -47,7 +47,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/418NG2kDqiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B72F9VJQ?tag=deskfinds0d-20",
     description: "Same brand and price as the pick above but larger (9x12 in) and double-sided, giving more usable writing area in the same flat-pad format.",
-    specs: ["9x12 in, double-sided", "Lined surface", "1,027 reviews at 4.7 stars"],
+    specs: ["9x12 in, double-sided", "Lined surface"],
     pros: ["More writing area than the 5x7 pad at the same price", "Double-sided doubles usable space"],
     cons: ["Larger footprint means more desk depth used"],
     bestFor: "Buyers who want more writing room in the same low-profile pad format.",
@@ -63,7 +63,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31YDQS8Gh1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F5LZXS3W?tag=deskfinds0d-20",
     description: "Includes a low-profile stand rather than lying completely flat, useful if you want the pad slightly elevated for visibility without a full upright placement.",
-    specs: ["10 x 10 in, double-sided", "Low-profile stand", "212 reviews at 4.6 stars"],
+    specs: ["10 x 10 in, double-sided", "Low-profile stand"],
     pros: ["Stand gives slight elevation for visibility without full upright placement"],
     cons: ["Smaller review base than the Scribbledo pads above"],
     bestFor: "Buyers who want a middle ground between flat and fully upright placement.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31noWsDrPcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09K7G5VW8?tag=deskfinds0d-20",
     description: "A glass surface with a low-angle stand rather than a paper pad, resisting ghosting better than the paper-based options while still sitting close to keyboard level.",
-    specs: ["Glass surface, low-angle stand", "1,254 reviews at 4.6 stars"],
+    specs: ["Glass surface, low-angle stand"],
     pros: ["Glass resists ghosting better than paper-based pads over time", "Large, established review base"],
     cons: ["More expensive than the flat paper pad options"],
     bestFor: "Buyers who want a low-angle glass surface rather than a paper pad.",
@@ -95,11 +95,11 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/4180Al3c9zL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09MZ5ZD4N?tag=deskfinds0d-20",
     description: "The smallest glass option in this comparison, with the highest rating, for buyers who want minimal desk footprint even in a low-profile glass format.",
-    specs: ["8 x 6 in, glass surface", "1,191 reviews at 4.7 stars"],
+    specs: ["8 x 6 in, glass surface"],
     pros: ["Highest rating of any pick in this comparison", "Smallest glass footprint"],
     cons: ["Smallest writing area of the low-profile options here"],
     bestFor: "Buyers who want the smallest low-profile glass footprint.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Flat or low-angle placement only", description: "We excluded freestanding upright boards, keeping this comparison to products that genuinely sit flat or at a low angle in front of a keyboard." },
   { title: "Material: paper pad vs. glass", description: "We compared cheaper paper-pad products against glass surfaces, noting glass's better long-term ghosting resistance versus the paper pads' lower cost." },
   { title: "Writing area within the low-profile format", description: "We noted where double-sided or larger pads offer more usable writing area within the same flat-format constraint." },
-  { title: "Review volume as reliability evidence", description: "We weighted established review history for confidence in each specific product's durability and quality." },
+  { title: "Review volume as reliability evidence", description: "We weighted established review history for confidence in each specific product's durability and quality." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -116,7 +116,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Paper Pad vs. Glass Low-Profile Board",
     cards: [
       { label: "Paper pad (Scribbledo)", text: "Cheapest option, genuinely flat, but wears faster than glass over repeated use." },
-      { label: "Glass low-angle (TSJ, Mini Pure Glass)", text: "Better long-term ghosting resistance, at a moderate price increase." },
+      { label: "Glass low-angle (TSJ, Mini Pure Glass)", text: "Better long-term ghosting resistance, at a moderate price increase." }
     ],
   },
   {
@@ -155,11 +155,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Scribbledo Mini Dry Erase Notepad 5x7",
-        "text": "Buyers who want the cheapest genuine flat pad option. At $8.99, it's the lowest-cost pick in this comparison."
+        "text": "Buyers who want the cheapest genuine flat pad option. At under $9, it's the lowest-cost pick in this comparison."
       },
       {
         "label": "TSJ OFFICE Small Desktop Whiteboard",
-        "text": "Buyers who want the smallest low-profile glass footprint. At $16.99, it sits at the higher end of this comparison's price range."
+        "text": "Buyers who want the smallest low-profile glass footprint. At under $20, it sits at the higher end of this comparison's price range."
       }
     ],
     "note": "Most buyers should default to Scribbledo Mini Dry Erase Notepad 5x7 unless smallest glass option specifically applies to your situation."
@@ -212,7 +212,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "Buyers who want the cheapest genuine flat pad option."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -220,20 +220,20 @@ export const buyingCriteria: BuyingCriterion[] = [
   { criterion: "Weigh paper pad cost against glass durability", explanation: "Paper pads are cheaper but wear faster over repeated erasing than a glass surface." },
   { criterion: "Check double-sided for more writing area", explanation: "Some pads are double-sided, effectively doubling usable writing space within the same footprint." },
   { criterion: "Consider desk depth used by the specific placement", explanation: "Larger pads (9x12 in) use more desk depth in front of your keyboard than smaller ones (5x7 in)." },
-  { criterion: "Use review volume for confidence in durability claims", explanation: "A large, established review base is the best evidence available for how well a pad holds up to repeated erasing." },
+  { criterion: "Use review volume for confidence in durability claims", explanation: "A large, established review base is the best evidence available for how well a pad holds up to repeated erasing." }
 ];
 
 export const faq: FaqItem[] = [
   { q: "How is a pad different from an upright whiteboard?", a: "A pad lies flat or at a low angle in front of your keyboard, rather than standing upright on its own base, which changes wrist posture and desk depth used." },
   { q: "Should I get a paper pad or glass?", a: "Paper pads are cheaper but wear faster over repeated use. Glass costs more but resists ghosting better long-term." },
-  { q: "What's the cheapest option?", a: "The Scribbledo Mini Dry Erase Notepad 2-pack at $8.99." },
+  { q: "What's the cheapest option?", a: "The Scribbledo Mini Dry Erase Notepad 2-pack at under $9." },
   { q: "Which has the most writing area?", a: "The Scribbledo 9x12 double-sided board, which offers the most usable space within the flat-pad format." },
-  { q: "Which has the highest rating?", a: "The TSJ OFFICE 8x6 glass board, at 4.7 stars." },
-  { q: "Which pick in this comparison offers the most writing area for the price?", a: "Buyers who want the smallest low-profile glass footprint." },
+  
+  { q: "Which pick in this comparison offers the most writing area for the price?", a: "Buyers who want the smallest low-profile glass footprint." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-compact-desktop-whiteboards", title: "Best Compact Desktop Whiteboards (2026)" },
   { href: "/guide/best-freestanding-desktop-whiteboards", title: "Best Freestanding Desktop Whiteboards (2026)" },
-  { href: "/guide/best-desktop-whiteboards", title: "Best Desktop Whiteboards (2026)" },
+  { href: "/guide/best-desktop-whiteboards", title: "Best Desktop Whiteboards (2026)" }
 ];

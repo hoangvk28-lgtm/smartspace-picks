@@ -145,20 +145,20 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $34.99",
+          "Under $35",
           "Parblo Graphic Drawing Tablet with Drawing Glove"
         ],
         [
-          "Around $41.99",
+          "Under $45",
           "Parblo PR 100 Universal Drawing Tablet Stand"
         ],
         [
-          "Around $54.99",
+          "Under $60",
           "Parblo Intangbo X7 Drawing Tablet 7x4 inch"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -206,7 +206,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Parblo Intangbo X7 Drawing Tablet 7x4 inch is aimed at buyers prioritizing 7.2x4.5in area, 8192 pressure." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Parblo Intangbo X7 Drawing Tablet 7x4 inch is aimed at buyers prioritizing 7.2x4.5in area, 8192 pressure." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"},{"href":"/guide/best-wacom-drawing-tablets","title":"Best Wacom Drawing Tablets in 2026"},{"href":"/guide/best-drawing-tablets-with-screens","title":"Best Drawing Tablets With Screens in 2026"}];

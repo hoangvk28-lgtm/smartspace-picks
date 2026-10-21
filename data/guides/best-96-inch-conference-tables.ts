@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 8ft Conference Table measures 8ft and is built around spacious 8-10 person capacity, positioning it for 96 inch buyers specifically.\n\nElegant Walnut & Black Aesthetic is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 96 inch, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["8ft table dimensions","Spacious 8-10 Person Capacity","Elegant Walnut & Black Aesthetic"],
     pros: ["Spacious 8-10 Person Capacity, confirmed directly in the listing's own spec details","Elegant Walnut & Black Aesthetic, confirmed directly in the listing's own spec details","Integrated Cable Management, confirmed directly in the listing's own spec details"],
-    cons: ["At $389.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $400, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 96 inch",
   },
   {
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 14-16 People Conference Table measures 12 FT and is built around all wood construction, positioning it for 96 inch buyers specifically.\n\nAmple Space for Success is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 96 inch, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["12 FT table dimensions","All Wood Construction","Ample Space for Success"],
     pros: ["All Wood Construction, confirmed directly in the listing's own spec details","Ample Space for Success, confirmed directly in the listing's own spec details","Business Office Furniture, confirmed directly in the listing's own spec details"],
-    cons: ["At $889.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $900, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 96 inch",
   },
   {
@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $329.99",
+          "Under $350",
           "Tribesigns 8FT Conference Table for 10"
         ],
         [
-          "Around $350.00",
+          "Under $400",
           "Tribesigns 8FT Conference Table for 10"
         ],
         [
-          "Around $379.99",
+          "Under $400",
           "Tribesigns 8FT Conference Table for 10"
         ],
         [
-          "Around $389.99",
+          "Under $400",
           "Tribesigns 10ft Conference Table for 8-12"
         ],
         [
-          "Around $389.99",
+          "Under $400",
           "Tribesigns 8ft Conference Table"
         ],
         [
-          "Around $389.99",
+          "Under $400",
           "Tribesigns 8ft Conference Table for 8-10"
         ],
         [
-          "Around $889.99",
+          "Under $900",
           "Tribesigns 14-16 People Conference Table"
         ],
         [
-          "Around $1,499.00",
+          "Under $1,500",
           "OfficeSimpli 8ft Conference Table"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "OfficeSimpli 8ft Conference Table is aimed at buyers prioritizing 96\"x48\" (8ft) table, seats 8-10." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "OfficeSimpli 8ft Conference Table is aimed at buyers prioritizing 96\"x48\" (8ft) table, seats 8-10." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-10-ft-conference-tables","title":"Best 10 ft Conference Tables in 2026"},{"href":"/guide/best-6-ft-conference-tables","title":"Best 6 ft Conference Tables in 2026"},{"href":"/guide/best-8ft-conference-tables","title":"Best 8ft Conference Tables in 2026"}];

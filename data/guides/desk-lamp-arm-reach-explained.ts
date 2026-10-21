@@ -12,7 +12,7 @@ export const deskLampArmReachExplainedGuide: Guide = {
     "articulating desk lamp arm",
     "desk lamp reach for large desk",
     "adjustable arm lamp joints",
-    "desk lamp positioning flexibility",
+    "desk lamp positioning flexibility"
   ],
   heroImage: "https://images.unsplash.com/photo-1560890264-4b92305ee66e?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1560890264-4b92305ee66e?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskLampArmReachExplainedGuide: Guide = {
     "clamp-lamp-vs-base-lamp",
     "task-lighting-vs-ambient-lighting",
     "desk-lamp-lumens-guide",
-    "desk-size-chart",
+    "desk-size-chart"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskLampArmReachExplainedGuide: Guide = {
       question: "Does arm flexibility affect how stable the lamp feels?",
       answer:
         "Generally, more joints and a longer extended arm can introduce slightly more wobble at the light head compared to a simpler, shorter design, quality construction and joint tension matter more than joint count alone for actual stability.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const deskLampArmReachExplainedGuide: Guide = {
     {
       heading: "Avoiding an Oversized Arm on a Small Desk",
       body: `It's tempting to assume more reach is unconditionally better, but an unnecessarily long arm on a small desk can feel visually imposing and physically awkward, extending well past where it's actually needed and potentially interfering with other desk items or your natural range of motion. Match the lamp's arm reach to your actual desk dimensions and typical seating position rather than defaulting to the longest available option.`,
-    },
+    }
   ],
 };

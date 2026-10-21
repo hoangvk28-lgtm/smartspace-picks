@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41ACP2gkV1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GWPQ3X2H?tag=deskfinds0d-20",
-    description: "At three tablets for under $10, this pack delivers the lowest effective per-unit price in this comparison, roughly $3.33 per tablet, making it a practical choice if you want to place a writing tablet in multiple rooms or share them among family members.\n\nLike the other TIQUS picks in this comparison, it includes a lock button to preserve handwriting and works with either the included stylus or a bare finger, keeping the core functionality consistent across TIQUS's different pack sizes and configurations.\n\nBest for buyers who want the lowest per-unit cost and plan to use multiple tablets across different rooms or family members.",
+    description: "At three tablets for under $10, this pack delivers the lowest effective per-unit price in this comparison, under $4 per tablet, making it a practical choice if you want to place a writing tablet in multiple rooms or share them among family members.\n\nLike the other TIQUS picks in this comparison, it includes a lock button to preserve handwriting and works with either the included stylus or a bare finger, keeping the core functionality consistent across TIQUS's different pack sizes and configurations.\n\nBest for buyers who want the lowest per-unit cost and plan to use multiple tablets across different rooms or family members.",
     specs: ["8.5\" LCD screen, 3-pack included", "Lowest per-unit price in this comparison", "Lock button, works with stylus or finger"],
     pros: ["Lowest effective per-unit price in this comparison", "Three tablets cover multiple rooms or family members", "Consistent lock-button and finger-writing functionality"],
     cons: ["Same 8.5\" screen size as the base TIQUS lineup, not the larger 9.25\" option", "Not intended for children under 15 per the listing"],
@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["The largest screen for note-taking", "TIQUS 9.25 Inch LCD Writing Tablet (2-Pack)"],
         ["A fridge-mounted family message board", "TIQUS 8.5 Inch Magnetic LCD Writing Tablet (2-Pack)"],
-        ["The lowest cost per tablet across multiple units", "TIQUS 8.5 Inch LCD Writing Tablet (3-Pack)"],
+        ["The lowest cost per tablet across multiple units", "TIQUS 8.5 Inch LCD Writing Tablet (3-Pack)"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $7 for a single tablet", "Mafiti LCD Writing Tablet 8.5 Inch ($6.99)"],
-        ["Under $10 for a multi-pack", "Any of the three TIQUS packs, all at $9.98-$9.99"],
+        ["Under $7 for a single tablet", "Mafiti LCD Writing Tablet 8.5 Inch (under $7)"],
+        ["Under $10 for a multi-pack", "Any of the three TIQUS packs, all at under $10-under $10"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Single Tablet vs Multi-Pack",
     cards: [
       { label: "Single Tablet (Mafiti)", text: "Lower total cost if you only need one tablet, with a bonus kickstand feature for display, but no backup unit if it's lost or fails." },
-      { label: "Multi-Pack (TIQUS 2-Pack or 3-Pack)", text: "Slightly higher total cost but a much lower per-unit price, plus a spare or a second tablet for a different room or family member." },
+      { label: "Multi-Pack (TIQUS 2-Pack or 3-Pack)", text: "Slightly higher total cost but a much lower per-unit price, plus a spare or a second tablet for a different room or family member." }
     ],
     note: "If you're buying for a single desk or bag, the Mafiti single tablet saves the most. If you want tablets in multiple locations, a TIQUS pack delivers better per-unit value.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Feature you want", "Recommended pick"],
       rows: [
         ["Magnetic fridge mounting", "TIQUS 8.5 Inch Magnetic LCD Writing Tablet"],
-        ["A kickstand to display written notes", "Mafiti LCD Writing Tablet 8.5 Inch"],
+        ["A kickstand to display written notes", "Mafiti LCD Writing Tablet 8.5 Inch"]
       ],
     },
   },
@@ -143,22 +143,22 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Households With Multiple Family Members Specifically",
     cards: [
       { label: "Look for", text: "A multi-pack that gives each family member or room its own tablet, rather than sharing a single unit." },
-      { label: "In this comparison", text: "The TIQUS 8.5 Inch 3-Pack delivers the lowest per-unit cost specifically for spreading tablets across multiple people or rooms." },
+      { label: "In this comparison", text: "The TIQUS 8.5 Inch 3-Pack delivers the lowest per-unit cost specifically for spreading tablets across multiple people or rooms." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a magnetic mounting option for a kitchen or office, where the TIQUS Magnetic 2-Pack is the only pick here with this specific feature." },
-      { label: "Save if", text: "A single basic tablet covers your needs, where the Mafiti LCD Writing Tablet delivers the lowest total price in this comparison." },
+      { label: "Save if", text: "A single basic tablet covers your needs, where the Mafiti LCD Writing Tablet delivers the lowest total price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Calculate the Real Per-Unit Price, Not Just the Listed Total",
-    "explanation": "At this price point, a 2-pack or 3-pack listed at roughly the same total price as a single tablet elsewhere is a meaningfully better deal per unit, but it's easy to compare listings by total price alone without dividing by pack count. Before buying, divide the listed price by the number of tablets included to get an honest per-unit cost, since a $9.99 3-pack and a $9.99 single tablet are very different values despite the identical sticker price."
+    "explanation": "At this price point, a 2-pack or 3-pack listed at roughly the same total price as a single tablet elsewhere is a meaningfully better deal per unit, but it's easy to compare listings by total price alone without dividing by pack count. Before buying, divide the listed price by the number of tablets included to get an honest per-unit cost, since an under-$10 3-pack and an under-$10 single tablet are very different values despite the identical sticker price."
   },
   {
     "criterion": "A Lock Button Prevents a Genuinely Common Frustration",

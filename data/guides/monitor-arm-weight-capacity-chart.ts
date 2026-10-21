@@ -12,7 +12,7 @@ export const monitorArmWeightCapacityChartGuide: Guide = {
     "how much weight can a monitor arm hold",
     "monitor weight by screen size",
     "monitor arm load rating",
-    "ultrawide monitor arm weight",
+    "ultrawide monitor arm weight"
   ],
   heroImage: "https://images.unsplash.com/photo-1632064824547-e77c36851495?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1632064824547-e77c36851495?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const monitorArmWeightCapacityChartGuide: Guide = {
     "best-monitor-arm-desk-mounts",
     "best-gaming-chair-350-lb",
     "best-ultrawide-monitor-arm",
-    "best-monitor-arms",
+    "best-monitor-arms"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const monitorArmWeightCapacityChartGuide: Guide = {
       question: "Do dual-monitor arms need double the weight capacity of a single arm?",
       answer:
         "Each arm in a dual-monitor setup typically supports its own monitor independently, so each individual arm needs to be rated for one monitor's weight, not the combined total of both. Check the specific product's per-arm rating rather than assuming a dual-arm mount's total stated capacity applies to each side.",
-    },
+    }
   ],
   sections: [
     {
@@ -81,6 +81,6 @@ VESA mount pattern compatibility is a separate spec from weight capacity, so con
       body: `1. **Check the manufacturer's spec sheet** for your exact monitor model, searching the model number plus "specifications" or "weight" rather than guessing from screen size alone.
 2. **Look for "monitor only" weight, not "with stand" weight**, since some spec sheets list the packaged weight including the original stand, which you won't be using once mounted on an arm.
 3. **Add a small buffer** (10-15%) above the stated weight when comparing against an arm's capacity range, accounting for real-world manufacturing variance between units.`,
-    },
+    }
   ],
 };

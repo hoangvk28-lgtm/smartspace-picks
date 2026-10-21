@@ -5,7 +5,7 @@ export const metaDescription = "Seven desk gifts under $25 that people actually 
 export const mainKeyword = "desk gifts under $25";
 export const introParagraphs = [
   "Under $25 is a tricky price ceiling for a desk gift: it is enough to avoid a joke-shop feeling, and not enough to cover anything with real electronics. The best buys at this level are either small and useful, like a phone stand, or small and personal, like a custom name plate.",
-  "Every pick here is $24.99 or less, with the cheapest at $4.99. We compared them on listed dimensions, materials and what job they do on the desk, and we flag which ones are better as a main gift and which are better as an add-on. Prices change, so check the current price before ordering."
+  "Every pick here is under $25 or less, with the cheapest at under $5. We compared them on listed dimensions, materials and what job they do on the desk, and we flag which ones are better as a main gift and which are better as an add-on. Prices change, so check the current price before ordering."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51-Kn2qq6lL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GXWJY49Y?tag=deskfinds0d-20",
-    "description": "A palm-sized crochet toaster with stitched toast details, about 4 by 3.2 by 2 inches, and a card that wishes the new employee strong coffee and few emails. The listing positions it for new jobs, farewells and promotions.\n\nIt costs $12.99, a few dollars more than the name plate, and has a clearer occasion. Compared with the stress cube, it is a keepsake and not a tool.\n\nBest for a coworker starting or leaving a job. The caveat is that it is a one-occasion gift, so it fits less well for a birthday.",
+    "description": "A palm-sized crochet toaster with stitched toast details, about 4 by 3.2 by 2 inches, and a card that wishes the new employee strong coffee and few emails. The listing positions it for new jobs, farewells and promotions.\n\nIt costs under $15, a few dollars more than the name plate, and has a clearer occasion. Compared with the stress cube, it is a keepsake and not a tool.\n\nBest for a coworker starting or leaving a job. The caveat is that it is a one-occasion gift, so it fits less well for a birthday.",
     "specs": [
       "About 4 x 3.2 x 2 inches",
       "Crochet with stitched toast",
@@ -139,14 +139,14 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51uTw+UuUXL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FQNZSM8V?tag=deskfinds0d-20",
-    "description": "A set of 16 rubber figures, each about 1.57 inches tall, holding different motivational messages. The listing says to keep them away from children who might swallow them and suggests them for team recognition.\n\nIt costs $18.99, so each figure runs about $1.19, which is why it beats single-item gifts for a group. Compared with the succulent, it spreads across many people instead of one.\n\nBest for a manager thanking a team or a teacher thanking a class. The caveat is that the pieces are tiny and are a choking hazard for young children.",
+    "description": "A set of 16 rubber figures, each about 1.57 inches tall, holding different motivational messages. The listing says to keep them away from children who might swallow them and suggests them for team recognition.\n\nIt costs under $20, so each figure runs under $2, which is why it beats single-item gifts for a group. Compared with the succulent, it spreads across many people instead of one.\n\nBest for a manager thanking a team or a teacher thanking a class. The caveat is that the pieces are tiny and are a choking hazard for young children.",
     "specs": [
       "16 rubber figures",
       "About 1.57 inches each",
       "Different messages"
     ],
     "pros": [
-      "About $1.19 per figure",
+      "Under $2 per figure",
       "Different message on each",
       "Tiny, easy to hand out",
       "Works for team recognition"
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51Q83ZsENEL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B08JSFGNPT?tag=deskfinds0d-20",
-    "description": "A rustic brown wood desktop shelf in two parts whose spacing can be adjusted, measuring 12.59 inches long, expandable to 24.01 inches, by 6.69 deep and 13.77 high. The listing says screws are included and that it is easy to assemble.\n\nIt is the most expensive pick here at $24.99, and the most functional organizer, giving a desk vertical storage that the phone stand cannot. Compared with the succulent, it takes up more room and needs assembly.\n\nBest for a desk with piles of books, supplies and keepsakes. The caveat is size: it needs about a foot of desk width and assembly with screws.",
+    "description": "A rustic brown wood desktop shelf in two parts whose spacing can be adjusted, measuring 12.59 inches long, expandable to 24.01 inches, by 6.69 deep and 13.77 high. The listing says screws are included and that it is easy to assemble.\n\nIt is the most expensive pick here at under $25, and the most functional organizer, giving a desk vertical storage that the phone stand cannot. Compared with the succulent, it takes up more room and needs assembly.\n\nBest for a desk with piles of books, supplies and keepsakes. The caveat is size: it needs about a foot of desk width and assembly with screws.",
     "specs": [
       "12.59 inches, expands to 24.01",
       "6.69 inches deep, 13.77 high",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51uli5qcEHL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HFSKMX7J?tag=deskfinds0d-20",
-    "description": "A 2.2 inch food-grade silicone squeeze cube with a flowing color design that slowly returns to shape after each squeeze. The listing sells it as a fidget and sensory toy for adults.\n\nAt $4.99 it is the cheapest pick here, and the best add-on to a card or another gift. Compared with the Lamicall stand, it is a fidget with no practical desk job.\n\nBest for a stocking stuffer or a party favor. The caveat is that it is a small gift and works best paired with something else.",
+    "description": "A 2.2 inch food-grade silicone squeeze cube with a flowing color design that slowly returns to shape after each squeeze. The listing sells it as a fidget and sensory toy for adults.\n\nAt under $5 it is the cheapest pick here, and the best add-on to a card or another gift. Compared with the Lamicall stand, it is a fidget with no practical desk job.\n\nBest for a stocking stuffer or a party favor. The caveat is that it is a small gift and works best paired with something else.",
     "specs": [
       "2.2 inch silicone cube",
       "Food grade silicone",
@@ -219,7 +219,7 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Real price at checkout",
-    "explanation": "A gift listed at $24.99 can climb with shipping or a variant upgrade, and prices change often. A personalized item can add cost for larger sizes. Confirm the total, including tax and shipping, stays under your ceiling before you click buy."
+    "explanation": "A gift listed at under $25 can climb with shipping or a variant upgrade, and prices change often. A personalized item can add cost for larger sizes. Confirm the total, including tax and shipping, stays under your ceiling before you click buy."
   },
   {
     "criterion": "Useful on day thirty",
@@ -243,7 +243,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     "title": "Price ceiling",
-    "description": "Every pick is $24.99 or less, and we ranked by how much real value it gives under that ceiling."
+    "description": "Every pick is under $25 or less, and we ranked by how much real value it gives under that ceiling."
   },
   {
     "title": "Daily usefulness",

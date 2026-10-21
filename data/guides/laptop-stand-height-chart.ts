@@ -12,7 +12,7 @@ export const laptopStandHeightChartGuide: Guide = {
     "laptop stand height for eye level",
     "correct laptop stand height",
     "laptop stand angle guide",
-    "how tall should laptop stand be",
+    "how tall should laptop stand be"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const laptopStandHeightChartGuide: Guide = {
     "laptop-stand-vs-external-monitor",
     "external-keyboard-mouse-with-laptop-stand",
     "how-to-measure-office-chair-fit",
-    "standard-desk-height",
+    "standard-desk-height"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const laptopStandHeightChartGuide: Guide = {
       question: "Does laptop stand height matter if I only use it occasionally?",
       answer:
         "It matters less for brief use, but for regular daily work, incorrect height contributes to neck strain over time, even occasional users benefit from checking that the height doesn't force an uncomfortable neck angle during longer sessions.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ Exact height also depends on your desk height and chair height, an adjustable st
     {
       heading: "Fine-Tuning Height for Your Specific Setup",
       body: `Since correct height depends on your unique combination of chair height, desk height, and torso length, a fixed-height stand is a guess that may or may not match your body, while an adjustable stand lets you dial in the exact height where your eye level meets the top third of the screen without straining your neck up or down.`,
-    },
+    }
   ],
 };

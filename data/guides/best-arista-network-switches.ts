@@ -132,11 +132,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed)",
-        "text": "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) is aimed at buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed At $119.00, it's the lowest-cost pick in this comparison."
+        "text": "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) is aimed at buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed At under $120, it's the lowest-cost pick in this comparison."
       },
       {
         "label": "Arista DCS-7280SE-64 48-Port 10G Switch (Renewed)",
-        "text": "Arista DCS-7280SE-64 48-Port 10G Switch (Renewed) is aimed at buyers prioritizing 48x 10g sfp+ ports, renewed At $299.90, it sits at the higher end of this comparison's price range."
+        "text": "Arista DCS-7280SE-64 48-Port 10G Switch (Renewed) is aimed at buyers prioritizing 48x 10g sfp+ ports, renewed At under $300, it sits at the higher end of this comparison's price range."
       }
     ],
     "note": "Most buyers should default to Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) unless the pricier pick's specific advantage applies to your situation."
@@ -180,7 +180,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) Buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed. Arista DCS-7280SE-64 48-Port 10G Switch (Renewed) Buyers prioritizing 48x 10g sfp+ ports, renewed."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -217,10 +217,10 @@ export const faq = [
   }
 ,
   { "q": "Which product in this roundup earns the top overall recommendation?", "a": "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) is aimed at buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed" },
-  { q: "Which pick offers the best value for a tight budget?", "a": "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) is aimed at buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed At $119.00, it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $119.00 to $299.90, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Which pick offers the best value for a tight budget?", "a": "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) is aimed at buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed At under $120, it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $120 to $300, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
   { q: "Is the most expensive pick in this comparison worth the extra cost?", "a": "Arista DCS-7280SE-64 48-Port 10G Switch (Renewed) is aimed at buyers prioritizing 48x 10g sfp+ ports, renewed Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
-  { q: "How did you narrow down the picks in this comparison?", a: "We compared real specs, stated features, and price against the actual use case each product claims to serve, rather than ranking by price or rating alone." },
+  { q: "How did you narrow down the picks in this comparison?", a: "We compared real specs, stated features, and price against the actual use case each product claims to serve, rather than ranking by price or rating alone." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-cisco-network-switches","title":"5 Best Cisco Network Switches in 2026"},{"href":"/guide/best-juniper-network-switches","title":"5 Best Juniper Network Switches in 2026"},{"href":"/guide/best-10gbe-network-switches","title":"7 Best 10GbE Network Switches in 2026"}];

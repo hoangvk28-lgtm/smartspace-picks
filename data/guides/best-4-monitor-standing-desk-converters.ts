@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "4-monitor standing desk converter";
 export const introParagraphs = [
   "We need to be direct here: dedicated four-monitor converter systems are a genuinely thin current category. We could not confirm several distinct, well-reviewed four-monitor products the way we could for dual or triple-monitor setups.",
-  "Rather than manufacture a roundup from a single specialist system repeated across retailers, we're presenting the strongest genuinely large platforms available, with honest disclosure that a true dedicated four-monitor mount is rare in current listings.",
+  "Rather than manufacture a roundup from a single specialist system repeated across retailers, we're presenting the strongest genuinely large platforms available, with honest disclosure that a true dedicated four-monitor mount is rare in current listings."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
@@ -75,7 +75,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Disclosed the thin current four-monitor product pool honestly", description: "We confirmed we could not find several distinct, well-reviewed dedicated four-monitor converter systems, and said so directly rather than padding this list." },
   { title: "Selected the strongest large-format alternatives available", description: "We chose wide open platforms and a triple-monitor specialist system as the most realistic current options, disclosing that none are true dedicated four-monitor mounts." },
   { title: "Flagged where a triple-monitor mount might work for a three-plus-laptop setup", description: "We noted this as a practical alternative for buyers whose fourth device is a laptop rather than a full monitor." },
-  { title: "Weighed electric lift for the significant combined weight four monitors would add", description: "We noted this as a genuine consideration given how much weight a true four-monitor setup would add to an open platform." },
+  { title: "Weighed electric lift for the significant combined weight four monitors would add", description: "We noted this as a genuine consideration given how much weight a true four-monitor setup would add to an open platform." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -206,7 +206,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
@@ -215,11 +215,11 @@ export const faq: FaqItem[] = [
   { q: "What's the best current alternative for four monitors?", a: "The VIVO Black 48 in Standing Desk Converter offers the widest confirmed open platform, though it requires careful measurement and your own monitor stands." },
   { q: "Should I consider a full standing desk instead?", a: "Possibly. Dedicated four-monitor arm mount systems are more commonly designed for fixed desk surfaces than converter platforms." },
   { q: "Is there a triple-monitor option that could work for three monitors plus a laptop?", a: "Yes, the Rocelco 46 inch Large Standing Desk Converter is purpose-built for three monitors and could accommodate a laptop alongside." },
-  { q: "Do I need electric lift for a four-monitor setup?", a: "It's worth considering given the substantial combined weight; electric adjustment handles heavier loads more predictably than manual mechanisms." },
+  { q: "Do I need electric lift for a four-monitor setup?", a: "It's worth considering given the substantial combined weight; electric adjustment handles heavier loads more predictably than manual mechanisms." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-3-monitor-standing-desk-converters", title: "Best 3-Monitor Standing Desk Converters (2026)" },
   { href: "/guide/best-large-standing-desk-converters", title: "Best Large Standing Desk Converters (2026)" },
-  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
+  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" }
 ];

@@ -12,7 +12,7 @@ export const officeChairWeightCapacityExplainedGuide: Guide = {
     "what does chair weight capacity mean",
     "office chair rated weight limit",
     "big and tall chair weight rating",
-    "how chair weight capacity is tested",
+    "how chair weight capacity is tested"
   ],
   heroImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const officeChairWeightCapacityExplainedGuide: Guide = {
     "office-chair-size-chart",
     "mesh-vs-fabric-office-chair",
     "how-to-measure-office-chair-fit",
-    "ergonomic-chair-vs-gaming-chair",
+    "ergonomic-chair-vs-gaming-chair"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const officeChairWeightCapacityExplainedGuide: Guide = {
       question: "What is considered a 'big and tall' rated chair?",
       answer:
         "Big and tall chairs are generally rated 300-500+ pounds with reinforced frames, wider seats, and often a taller backrest and higher seat height range, specifically engineered rather than a standard chair with just a higher number attached.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const officeChairWeightCapacityExplainedGuide: Guide = {
     {
       heading: "Buying With Headroom, Not Just Meeting the Minimum",
       body: `A chair used daily near its maximum rated weight puts continuous stress on its gas cylinder and frame welds, which accelerates wear compared to a chair with real headroom above your body weight. Buying a chair rated 25-50 pounds above your actual weight is a simple way to extend the chair's usable lifespan, even if you never come close to testing its stated limit.`,
-    },
+    }
   ],
 };

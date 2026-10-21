@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini pc with dual ethernet ports";
 export const introParagraphs = [
   "Each Ethernet port's actual chipset and speed rating should be verified individually, since two dual-NIC mini PCs can have very different real-world networking capability depending on whether both ports are genuinely 2.5GbE or one is a slower legacy port, worth checking specific chipset details rather than trusting port count alone.",
-  "Dual NIC ports genuinely enable network bonding, VLAN segmentation, or router and firewall duties, worth confirming your specific software (like pfSense or OPNsense style routing) is actually compatible with the exact NIC chipsets used rather than assuming universal driver support.",
+  "Dual NIC ports genuinely enable network bonding, VLAN segmentation, or router and firewall duties, worth confirming your specific software (like pfSense or OPNsense style routing) is actually compatible with the exact NIC chipsets used rather than assuming universal driver support."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Dual Ethernet Pick Overall",
     name: "MeLE Quieter DL Fanless Mini PC N150 8GB 256GB Dual Intel I226-V 2.5GbE LAN",
     price: "$413.99",
-    rating: "5.0 stars from Amazon ratings",
-    reviews: "3 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51F4SpyR+4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H1V7B63Z?tag=deskfinds0d-20",
     description: "Dual genuine Intel I226-V 2.5GbE chipsets explicitly named, giving real confidence in matched, well-supported port speeds rather than a vague 'dual LAN' claim.\n\nIt earns the top spot in this comparison over BOSGAME P4 Ultra Mini PC Gaming for one main reason. Explicit Intel I226-V chipset naming gives genuine confidence in matched port speeds. On price, it comes in below BOSGAME P4 Ultra Mini PC Gaming, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Fanless for silent router or firewall operation. On the other side, 256GB storage is modest if you need extensive local logging. That's the main tradeoff to weigh against everything above.",
@@ -42,13 +42,13 @@ export const products: GuideProduct[] = [
     badge: "Best Well-Reviewed General-Purpose Dual NIC Pick",
     name: "BOSGAME P4 Ultra Mini PC Gaming, Ryzen 7 7730U, 16GB RAM 1TB PCIe3.0 SSD",
     price: "$418.98",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "199 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51I+6dQFNyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GCH917SW?tag=deskfinds0d-20",
-    description: "A genuinely well-reviewed general-purpose build appropriate for buyers wanting reliable dual-NIC networking capability alongside broader everyday use.\n\nOne spot below MeLE Quieter DL Fanless Mini PC N150 8GB 256GB Dual Intel I226-V 2.5GbE LAN in this ranking, it costs more than MeLE Quieter DL Fanless Mini PC N150 8GB 256GB Dual Intel I226-V 2.5GbE LAN. The compromise here is straightforward: Verify the specific dual NIC chipset details and speed matching. What you gain in return: High 4.7-star rating with a large review base. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: 1TB fast storage for combined general use and networking duties. On the other side, Not explicitly marketed as a networking appliance. That's the main tradeoff to weigh against everything above.",
+    description: "A genuinely well-reviewed general-purpose build appropriate for buyers wanting reliable dual-NIC networking capability alongside broader everyday use.\n\nOne spot below MeLE Quieter DL Fanless Mini PC N150 8GB 256GB Dual Intel I226-V 2.5GbE LAN in this ranking, it costs more than MeLE Quieter DL Fanless Mini PC N150 8GB 256GB Dual Intel I226-V 2.5GbE LAN. The compromise here is straightforward: Verify the specific dual NIC chipset details and speed matching. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: 1TB fast storage for combined general use and networking duties. On the other side, Not explicitly marketed as a networking appliance. That's the main tradeoff to weigh against everything above.",
     specs: ["AMD Ryzen 7 7730U","16GB RAM","1TB PCIe SSD","High review rating"],
-    pros: ["High 4.7-star rating with a large review base","1TB fast storage for combined general use and networking duties","Efficient U-class chip for always-on operation","Good value for general-purpose plus networking use"],
+    pros: ["1TB fast storage for combined general use and networking duties","Efficient U-class chip for always-on operation","Good value for general-purpose plus networking use"],
     cons: ["Verify the specific dual NIC chipset details and speed matching","Gaming branding suggests general use rather than purpose-built networking","Not explicitly marketed as a networking appliance"],
     bestFor: "Buyers wanting reliable dual-NIC capability alongside general-purpose everyday use",
   },
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best Always-On Efficient Dual NIC Pick",
     name: "GMKtec G11 Mini PC Ryzen Embedded R2514 16GB DDR4 RAM 256GB PCIe M.2 SSD (Alt Listing)",
     price: "$309.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "435 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41y2SJA4I2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CXSRR796?tag=deskfinds0d-20",
     description: "A solid, larger review base for this efficient embedded chip appropriate for buyers wanting minimal 24/7 idle power draw for an always-on router or network appliance.\n\nSitting just under BOSGAME P4 Ultra Mini PC Gaming, it's priced lower than BOSGAME P4 Ultra Mini PC Gaming. Here's the honest tradeoff: Verify the specific NIC chipset details and speed matching. And here's what it gets you instead: Solid, larger review base for confidence in reliability. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Genuinely low-power embedded chip for always-on network appliance use. On the other side, 256GB storage is modest for extensive network logging. That's the main tradeoff to weigh against everything above.",
@@ -74,14 +74,14 @@ export const products: GuideProduct[] = [
     badge: "Best Purpose-Built Firewall Hardware Pick",
     name: "UDPTCP Mini PC N150 Firewall Hardware Inter 82599ES 2 x 10GbE SFP+, 3 x i226V 2.5GbE LAN",
     price: "$319.99",
-    rating: "3.9 stars from Amazon ratings",
-    reviews: "8 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41-3LskCbOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F4WXKZRB?tag=deskfinds0d-20",
-    description: "Explicitly purpose-built firewall hardware with genuinely high-end networking, 2x 10GbE SFP+ ports alongside 3x i226V 2.5GbE ports for demanding network segmentation needs.\n\nRanked just behind GMKtec G11 Mini PC Ryzen Embedded R2514 16GB DDR4 RAM 256GB PCIe M.2 SSD, it costs more than GMKtec G11 Mini PC Ryzen Embedded R2514 16GB DDR4 RAM 256GB PCIe M.2 SSD. The real tradeoff against that pick: More moderate 3.9-star rating, verify current reviews for reliability reports. In exchange, it offers this instead: Explicitly purpose-built for firewall and router use with high-end networking. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Genuine 10GbE SFP+ ports for demanding network segmentation. On the other side, Overkill for buyers not building a genuine multi-port firewall. That's the main tradeoff to weigh against everything above.",
+    description: "Explicitly purpose-built firewall hardware with genuinely high-end networking, 2x 10GbE SFP+ ports alongside 3x i226V 2.5GbE ports for demanding network segmentation needs.\n\nRanked just behind GMKtec G11 Mini PC Ryzen Embedded R2514 16GB DDR4 RAM 256GB PCIe M.2 SSD, it costs more than GMKtec G11 Mini PC Ryzen Embedded R2514 16GB DDR4 RAM 256GB PCIe M.2 SSD. In exchange, it offers this instead: Explicitly purpose-built for firewall and router use with high-end networking. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Genuine 10GbE SFP+ ports for demanding network segmentation. On the other side, Overkill for buyers not building a genuine multi-port firewall. That's the main tradeoff to weigh against everything above.",
     specs: ["2x 10GbE SFP+ (Intel 82599ES)","3x Intel i226V 2.5GbE LAN","Purpose-built firewall hardware","Intel N150 processor"],
     pros: ["Explicitly purpose-built for firewall and router use with high-end networking","Genuine 10GbE SFP+ ports for demanding network segmentation","5 total network ports for extensive VLAN and bonding flexibility","Named Intel chipsets for confidence in driver maturity"],
-    cons: ["More moderate 3.9-star rating, verify current reviews for reliability reports","Small review base, verify current reviews before purchase","Overkill for buyers not building a genuine multi-port firewall"],
+    cons: ["Small review base, verify current reviews before purchase","Overkill for buyers not building a genuine multi-port firewall"],
     bestFor: "Buyers building a genuine pfSense or OPNsense-style firewall needing extensive networking capability",
   }
 ];
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Actual NIC chipset and speed verified per port", description: "Verified each Ethernet port's actual chipset and speed rating individually, rather than trusting a generic 'dual LAN' port count claim." },
   { title: "Router and firewall software compatibility flagged for specific chipsets", description: "Flagged that network appliance software compatibility should be verified against the exact NIC chipsets used, not assumed universal." },
   { title: "Intel versus AMD networking chipset driver maturity considered", description: "Considered that Intel networking chipsets generally have more mature, well-maintained driver support in some cases compared to AMD alternatives." },
-  { title: "Purpose-built networking hardware distinguished from general dual-NIC mini PCs", description: "Distinguished explicitly purpose-built firewall/router hardware from general-purpose mini PCs that happen to include dual NIC ports." },
+  { title: "Purpose-built networking hardware distinguished from general dual-NIC mini PCs", description: "Distinguished explicitly purpose-built firewall/router hardware from general-purpose mini PCs that happen to include dual NIC ports." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -189,7 +189,7 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want what BOSGAME P4 Ultra Mini PC Gaming offers: High 4.7-star rating with a large review base. That's a real functional upgrade over the budget picks here, not just a brand markup."
+        "text": "That's a real functional upgrade over the budget picks here, not just a brand markup."
       },
       {
         "label": "Save if",
@@ -226,11 +226,11 @@ export const faq: FaqItem[] = [
   { q: "Does dual Ethernet mean both ports are the same speed?", a: "Not necessarily, verify each port's actual chipset and speed rating individually rather than trusting a generic port count claim." },
   { q: "Does my router software support any dual-NIC mini PC?", a: "Not automatically, verify your specific software (pfSense, OPNsense, etc.) is compatible with the exact NIC chipsets used." },
   { q: "Are Intel or AMD network chipsets better for router use?", a: "Intel networking chipsets generally have more mature, well-maintained driver support in some cases, particularly relevant for routing software." },
-  { q: "Should I buy purpose-built firewall hardware or a general dual-NIC mini PC?", a: "For a genuine multi-port firewall build with demanding needs, purpose-built hardware offers more networking capability and flexibility." },
+  { q: "Should I buy purpose-built firewall hardware or a general dual-NIC mini PC?", a: "For a genuine multi-port firewall build with demanding needs, purpose-built hardware offers more networking capability and flexibility." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pcs-for-home-servers", title: "Best Mini PCs for Home Servers (2026)" },
   { href: "/guide/best-mini-pcs-for-nas-builds", title: "Best Mini PCs for NAS Builds (2026)" },
-  { href: "/guide/best-fanless-mini-pcs", title: "Best Fanless Mini PCs (2026)" },
+  { href: "/guide/best-fanless-mini-pcs", title: "Best Fanless Mini PCs (2026)" }
 ];

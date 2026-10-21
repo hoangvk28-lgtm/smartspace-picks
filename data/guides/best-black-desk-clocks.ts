@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "black desk clock";
 export const introParagraphs = [
   "Black desk clocks span genuinely different display technologies, auto-flip mechanical displays, LED digital screens, and traditional analog dials, so we compared them by actual legibility and contrast rather than assuming color alone makes them equivalent.",
-  "This overlaps with our small digital desk clocks guide for the digital picks specifically, since black is a common housing color in that category.",
+  "This overlaps with our small digital desk clocks guide for the digital picks specifically, since black is a common housing color in that category."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41zup4v0gaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYST53T6?tag=deskfinds0d-20",
     description: "The largest review base and highest rating in this comparison by a wide margin, large numbers for strong legibility from a normal desk distance.\n\nIt earns the top spot in this comparison over mooas Flip Desk Clock (Black) for one main reason. Largest review base and highest rating by a wide margin. On price, it comes in below mooas Flip Desk Clock (Black) on price, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Large numbers for strong desk-distance readability. On the other side, Wooden body, verify black colorway on current listing. That's the main tradeoff to weigh against everything above.",
-    specs: ["Digital display, large numbers","6,039 reviews at 4.6 stars"],
+    specs: ["Digital display, large numbers"],
     pros: ["Largest review base and highest rating by a wide margin","Large numbers for strong desk-distance readability"],
     cons: ["Wooden body, verify black colorway on current listing"],
     bestFor: "Buyers who want the most proven, legible digital option.",
@@ -47,7 +47,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41c1kZ9IKNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07PYN9YZN?tag=deskfinds0d-20",
     description: "A genuinely different auto-flip mechanical display, confirmed black colorway, with a solid review base for its category.\n\nOne spot below DreamSky Wooden Digital Alarm Clock for Bedroom Living Room in this ranking, it costs more than DreamSky Wooden Digital Alarm Clock for Bedroom Living Room. The compromise here is straightforward: Highest price in this comparison. What you gain in return: Distinctive flip mechanism, not just another digital or analog dial. Whether that trade is worth it depends on which side matters more to you.\n\nWorth knowing before you decide: Confirmed black colorway. On the other side, Highest price in this comparison. That's the main tradeoff to weigh against everything above.",
-    specs: ["Auto-flip mechanism, black","822 reviews at 4.4 stars"],
+    specs: ["Auto-flip mechanism, black"],
     pros: ["Distinctive flip mechanism, not just another digital or analog dial","Confirmed black colorway"],
     cons: ["Highest price in this comparison"],
     bestFor: "Buyers who want a genuinely different retro flip-clock mechanism.",
@@ -63,7 +63,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41RTGQppK1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CCYBV2WX?tag=deskfinds0d-20",
     description: "A traditional analog dial with a silent, non-ticking movement, useful for buyers who want a classic clock face rather than digital numbers.\n\nSitting just under mooas Flip Desk Clock (Black), it's priced lower than mooas Flip Desk Clock (Black). Here's the honest tradeoff: Smaller review base and lower rating than the top picks. And here's what it gets you instead: Classic analog dial rather than digital display. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Silent, non-ticking movement. On the other side, Smaller review base and lower rating than the top picks. That's the main tradeoff to weigh against everything above.",
-    specs: ["4 inch analog dial","Non-ticking movement","274 reviews at 4.2 stars"],
+    specs: ["4 inch analog dial","Non-ticking movement"],
     pros: ["Classic analog dial rather than digital display","Silent, non-ticking movement"],
     cons: ["Smaller review base and lower rating than the top picks"],
     bestFor: "Buyers who specifically want a quiet traditional analog black clock.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41D7sGB-aQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GCFGS5QJ?tag=deskfinds0d-20",
     description: "At 3.5 inches this is the smallest black clock in this comparison, battery-powered, at the lowest price alongside the AMIR pick below.\n\nRanked just behind JALL Analog Alarm Clock, it's priced lower than JALL Analog Alarm Clock. The real tradeoff against that pick: Smallest review base among the digital picks. In exchange, it offers this instead: Smallest footprint in this comparison. That's the swap that decides whether this pick or the one above it is the better fit for a given buyer.\n\nWorth knowing before you decide: Cheapest, tied with the AMIR pick. On the other side, Smallest review base among the digital picks. That's the main tradeoff to weigh against everything above.",
-    specs: ["3.5 inch, battery-powered","68 reviews at 4.5 stars"],
+    specs: ["3.5 inch, battery-powered"],
     pros: ["Smallest footprint in this comparison","Cheapest, tied with the AMIR pick"],
     cons: ["Smallest review base among the digital picks"],
     bestFor: "Buyers who want the smallest possible black clock for minimal desk footprint.",
@@ -95,7 +95,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31lCkRe812L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B093FJ45JJ?tag=deskfinds0d-20",
     description: "By far the largest review base in this comparison at 11,246, though a noticeably lower rating (3.8) than the other picks, worth reading current reviews carefully for common complaints before buying at this scale of adoption.\n\nOne spot below Lamisola 3.5 Inch Small Desk Battery Clock in this ranking, it costs more than Lamisola 3.5 Inch Small Desk Battery Clock. The compromise here is straightforward: Noticeably lower rating than the other picks, check current reviews for common complaints. What you gain in return: Largest review base in this entire comparison, showing widespread adoption. Whether that trade is worth it depends on which side matters more to you.\n\nWorth knowing before you decide: Cheapest option, tied with the Lamisola pick. On the other side, Noticeably lower rating than the other picks, check current reviews for common complaints. That's the main tradeoff to weigh against everything above.",
-    specs: ["LED digital display","Battery-powered","11,246 reviews at 3.8 stars"],
+    specs: ["LED digital display","Battery-powered"],
     pros: ["Largest review base in this entire comparison, showing widespread adoption","Cheapest option, tied with the Lamisola pick"],
     cons: ["Noticeably lower rating than the other picks, check current reviews for common complaints"],
     bestFor: "Buyers who want the most widely-purchased budget option and are comfortable weighing its lower rating.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Compared genuinely different display technologies", description: "We distinguished flip-mechanism, LED digital, and analog dial products rather than treating all black clocks as interchangeable." },
   { title: "Confirmed black colorway where relevant", description: "For products available in multiple colors, we verified black is a real option on the current listing." },
   { title: "Review volume weighed against rating honestly", description: "We flagged where the largest review base (AMIR) also has a notably lower rating than smaller-volume competitors, rather than assuming size alone means quality." },
-  { title: "Legibility and display contrast", description: "We favored products with large numbers or high-contrast displays for real desk-distance readability." },
+  { title: "Legibility and display contrast", description: "We favored products with large numbers or high-contrast displays for real desk-distance readability." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,15 +243,17 @@ export const buyingCriteria: BuyingCriterion[] = [
 ];
 
 export const faq: FaqItem[] = [
-  { q: "Which has the most reviews?", a: "The AMIR Digital Alarm Clock, with 11,246 reviews, though at a noticeably lower rating (3.8) than the other picks." },
-  { q: "Which is the highest-rated?", a: "The DreamSky Wooden Digital Alarm Clock, at 4.6 stars with 6,039 reviews." },
+  
+  
   { q: "Is there a non-digital option?", a: "Yes, the JALL Analog Alarm Clock uses a traditional dial with a silent, non-ticking movement." },
   { q: "What's the most distinctive design?", a: "The mooas Flip Desk Clock, with a genuinely different auto-flip mechanical display." },
-  { q: "What's the cheapest option?", a: "The Lamisola and AMIR clocks are tied at $9.99, though they differ significantly in rating and review count." },
+  { q: "What's the cheapest option?", a: "The Lamisola and AMIR clocks are tied at under $10, though they differ significantly in rating and review count." },
+  { q: "Are black clocks harder to read in a dark room?", a: "A dark case can blend into a dim room, but the display or hands are what you actually read. A digital clock with a lit display is easy to see at night, while an analog dial is easier in daylight. Pick based on when you check the time most." },
+  { q: "Does a black finish show dust more than other colors?", a: "Matte black surfaces show dust and fingerprints fairly quickly, which is especially visible on a clock that sits in one place. A weekly wipe with a dry microfiber cloth keeps it looking clean. A textured finish hides marks better than a smooth gloss." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-white-desk-clocks", title: "Best White Desk Clocks (2026)" },
   { href: "/guide/best-small-digital-desk-clocks", title: "Best Small Digital Desk Clocks (2026)" },
-  { href: "/guide/best-desk-clocks", title: "Best Desk Clocks (2026)" },
+  { href: "/guide/best-desk-clocks", title: "Best Desk Clocks (2026)" }
 ];

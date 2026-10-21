@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "compact printer";
 export const introParagraphs = [
   "A compact printer for a small desk needs to solve a math problem most listings never show you: a printer footprint of roughly 17 inches wide can eat well over half of a 30-inch-wide desk before you even open the paper tray. Compact inkjets, all-in-ones, and mono laser printers all measure compact differently, and a printer marketed as small can still be the wrong fit once the tray extends forward or the scanner lid needs headroom.",
-  "Below are 8 compact printers we evaluated on footprint against common small-desk widths, paper tray capacity, print technology, and how straightforward wireless setup actually is out of the box, ranging from a $53.97 inkless travel printer to a $199.99 ink-tank all-in-one.",
+  "Below are 8 compact printers we evaluated on footprint against common small-desk widths, paper tray capacity, print technology, and how straightforward wireless setup actually is out of the box, ranging from an under-$60 inkless travel printer to an under-$200 ink-tank all-in-one."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "9 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Auto duplex (2-sided) printing",
       "Wireless with Canon PRINT mobile app",
       "Print, copy, scan",
-      "Letter/A4 only, no legal or tabloid",
+      "Letter/A4 only, no legal or tabloid"
     ],
     pros: [
       "Genuinely compact footprint for a full AIO",
       "Auto duplex printing built in",
       "Straightforward Canon PRINT app pairing",
-      "Lowest price in this list",
+      "Lowest price in this list"
     ],
     cons: [
       "Small paper tray needs frequent refills",
       "No legal or tabloid paper size support",
-      "Inkjet cartridges can dry out with infrequent use",
+      "Inkjet cartridges can dry out with infrequent use"
     ],
     bestFor: "Buyers who want the smallest reasonable footprint for a full print/copy/scan AIO",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "1.42\" OLED display",
       "Auto duplex printing",
       "Wireless setup via Canon PRINT app",
-      "Print, copy, scan",
+      "Print, copy, scan"
     ],
     pros: [
       "Built-in OLED screen for quick status checks",
       "Intuitive control panel layout",
       "Auto duplex printing included",
-      "Compact footprint suits a small desk",
+      "Compact footprint suits a small desk"
     ],
     cons: [
       "Still a small tray relative to a full ream",
       "No legal or tabloid support",
-      "Slightly pricier than the base PIXMA TS4320",
+      "Slightly pricier than the base PIXMA TS4320"
     ],
     bestFor: "Buyers who want on-printer status checks without opening a mobile app",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "3-month HP Instant Ink trial included",
       "HP Smart app pairing",
       "Print, scan, copy",
-      "AI-assisted print management features",
+      "AI-assisted print management features"
     ],
     pros: [
       "Includes a 3-month Instant Ink trial",
       "Compact body fits small desks easily",
       "HP Smart app guides first-time setup",
-      "Competitive price for a full AIO",
+      "Competitive price for a full AIO"
     ],
     cons: [
       "Small paper tray by full-size printer standards",
       "Instant Ink subscription cost kicks in after the trial",
-      "First-time app pairing can trip up non-tech users",
+      "First-time app pairing can trip up non-tech users"
     ],
     bestFor: "Buyers who want a low upfront cost softened by a starter ink trial",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Wireless print, scan, copy",
       "Larger footprint than cartridge-based compact printers",
       "Higher upfront cost, lower cost per page",
-      "Letter/A4 support",
+      "Letter/A4 support"
     ],
     pros: [
       "Cartridge-free ink tanks cut long-term ink cost",
       "No cartridges drying out from infrequent printing",
       "Full print/scan/copy functionality",
-      "Tanks hold enough for months of typical home use",
+      "Tanks hold enough for months of typical home use"
     ],
     cons: [
       "Largest footprint among the picks in this list",
       "Highest upfront price in this list",
-      "Ink tank refills take longer than a cartridge swap",
+      "Ink tank refills take longer than a cartridge swap"
     ],
     bestFor: "Buyers who print often enough that ink-tank economics beat cartridge cost, and have desk room to spare",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Built-in fax",
       "Wireless with Canon PRINT app",
       "Compact all-in-one body",
-      "Mobile printing supported",
+      "Mobile printing supported"
     ],
     pros: [
       "Rare compact pick with an auto document feeder",
       "Built-in fax for occasional home-office use",
       "Compact footprint despite the added ADF hardware",
-      "Same easy Canon PRINT app setup as other PIXMA models",
+      "Same easy Canon PRINT app setup as other PIXMA models"
     ],
     cons: [
       "ADF adds bulk versus the simplest flatbed-only models",
       "Fax is a feature few buyers actually use in 2026",
-      "Small paper tray typical of compact inkjets",
+      "Small paper tray typical of compact inkjets"
     ],
     bestFor: "Buyers who regularly scan or fax multi-page documents",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Print, copy, scan",
       "Wireless via Canon PRINT app",
       "No auto duplex printing",
-      "Small, no-frills footprint",
+      "Small, no-frills footprint"
     ],
     pros: [
       "Cheapest full all-in-one in this list",
       "One of the smallest footprints here",
       "Simple setup with no extra features to configure",
-      "Covers the print/copy/scan basics reliably",
+      "Covers the print/copy/scan basics reliably"
     ],
     cons: [
       "No automatic duplex printing",
       "No display screen for status checks",
-      "Basic feature set won't suit heavier document needs",
+      "Basic feature set won't suit heavier document needs"
     ],
     bestFor: "Buyers who print occasionally and want the lowest-cost, smallest-footprint AIO",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Wireless with mobile printing",
       "Alexa compatible",
       "No scan or copy function",
-      "Toner does not dry out between uses",
+      "Toner does not dry out between uses"
     ],
     pros: [
       "Smaller footprint than most compact inkjet AIOs",
       "Toner never dries out from infrequent printing",
       "Fast mono laser output for text documents",
-      "Alexa voice print support",
+      "Alexa voice print support"
     ],
     cons: [
       "No scanning or copying capability",
       "Monochrome only, no color printing",
-      "Higher upfront price than the compact inkjets here",
+      "Higher upfront price than the compact inkjets here"
     ],
     bestFor: "Buyers who mainly print text and want the smallest true footprint plus toner that never dries out",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Supports 8.5 x 11\" Letter and A4",
       "Bluetooth pairing with iOS/Android/laptop",
       "Smallest, lightest device in this list",
-      "Requires special thermal paper, not standard copy paper",
+      "Requires special thermal paper, not standard copy paper"
     ],
     pros: [
       "By far the smallest footprint of any pick here",
       "Genuinely portable for travel or car use",
       "No ink or toner cartridges required",
-      "Simple Bluetooth pairing",
+      "Simple Bluetooth pairing"
     ],
     cons: [
       "Requires proprietary thermal paper, not standard copy paper",
       "Print quality trails inkjet or laser output",
-      "Not a realistic primary printer for daily home-office volume",
+      "Not a realistic primary printer for daily home-office volume"
     ],
     bestFor: "Buyers who need occasional printing in a space with zero room for a standard printer",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed upfront price against paper size support, duplex printing, and added hardware like an ADF or display screen to judge whether the extra cost buys real function.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,11 +477,11 @@ export const faq: FaqItem[] = [
   {
     q: "Are ink-tank printers worth the larger footprint on a small desk?",
     a: "If you print regularly, yes, the Epson EcoTank ET-2800's refillable ink tanks meaningfully lower cost per page compared to cartridge-based printers, and tanks don't dry out the way idle cartridges can. But it is honestly the largest printer in this list due to the tank housing, so it's only the right tradeoff if you have a bit of extra desk width to spare.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-printers-for-home-offices", title: "Best Small Printers for Home Offices (2026)" },
   { href: "/guide/best-printers-for-small-spaces", title: "Best Printers for Small Spaces (2026)" },
-  { href: "/guide/best-small-printer-stands", title: "Best Small Printer Stands (2026)" },
+  { href: "/guide/best-small-printer-stands", title: "Best Small Printer Stands (2026)" }
 ];

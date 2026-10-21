@@ -12,7 +12,7 @@ export const spaceHeaterSafetyExplainedGuide: Guide = {
     "space heater tip over shutoff",
     "space heater overheat protection",
     "is my space heater safe",
-    "space heater fire risk",
+    "space heater fire risk"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const spaceHeaterSafetyExplainedGuide: Guide = {
     "space-heater-room-size-chart",
     "ceramic-vs-infrared-space-heater",
     "desk-fan-cfm-explained",
-    "desk-lamp-lumens-guide",
+    "desk-lamp-lumens-guide"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const spaceHeaterSafetyExplainedGuide: Guide = {
       question: "Should I plug a space heater into a power strip?",
       answer:
         "No, most space heater manufacturers explicitly warn against using a power strip or extension cord, since a heater's high wattage draw can overheat a power strip not rated for that continuous load, plug directly into a wall outlet instead.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ export const spaceHeaterSafetyExplainedGuide: Guide = {
     {
       heading: "Placement Matters as Much as the Heater Itself",
       body: `Even a heater with every safety feature still needs proper placement to be genuinely safe, keep it away from curtains, paper stacks, upholstered furniture, and cables, on a stable, flat, non-flammable surface. Under a desk, next to a trash can full of paper, or near loose cables are all common but risky placements worth reconsidering when setting up a heater in a home office.`,
-    },
+    }
   ],
 };

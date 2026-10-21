@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31RO8odb2RL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DPZRT726?tag=deskfinds0d-20",
-    description: "This is a locking storage drawer for a rack rather than an enclosure, giving 3U of secure space for accessories, tools, or sensitive small items inside a larger cabinet.\n\nIt arrives mostly assembled with just the side panels needing attachment, and cable holes at the rear with protective rubber rings let you route power through it if needed.\n\nWhere this one earns its spot is lockable design secures small accessories inside the rack, and ships mostly assembled, just the sides need attaching. Worth noting before buying: 22 lb capacity limits it to lighter items only, which matters more at $65.99 than it would on a cheaper pick.",
+    description: "This is a locking storage drawer for a rack rather than an enclosure, giving 3U of secure space for accessories, tools, or sensitive small items inside a larger cabinet.\n\nIt arrives mostly assembled with just the side panels needing attachment, and cable holes at the rear with protective rubber rings let you route power through it if needed.\n\nWhere this one earns its spot is lockable design secures small accessories inside the rack, and ships mostly assembled, just the sides need attaching. Worth noting before buying: 22 lb capacity limits it to lighter items only, which matters more at under $70 than it would on a cheaper pick.",
     specs: ["3U, 19\"W x 12.69\"D x 5.2\"H","22 lb weight capacity","Lockable with included key"],
     pros: ["Lockable design secures small accessories inside the rack","Ships mostly assembled, just the sides need attaching","Rubber-ringed cable holes protect cords from damage"],
     cons: ["22 lb capacity limits it to lighter items only","Takes up 3U that could otherwise hold active equipment"],
@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $65.99",
+          "Under $70",
           "QiaoYoubang 3U Server Cabinet Case"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "AxcessAbles 12U Network Rack with Wheels"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "AxcessAbles 22U Rolling IT Server Rack"
         ],
         [
-          "Around $357.99",
+          "Under $400",
           "StarTech 42U 4-Post Open Frame Rack"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "QiaoYoubang 3U Server Cabinet Case is aimed at buyers prioritizing 3u, 19\"w x 12.69\"d x 5.2\"h." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "QiaoYoubang 3U Server Cabinet Case is aimed at buyers prioritizing 3u, 19\"w x 12.69\"d x 5.2\"h." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-42u-server-racks","title":"Best 42U Server Racks in 2026"},{"href":"/guide/best-2u-server-racks","title":"Best 2U Server Racks in 2026"},{"href":"/guide/best-1u-server-racks","title":"Best 1U Server Racks in 2026"}];

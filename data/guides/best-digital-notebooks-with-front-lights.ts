@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook with front light";
 export const introParagraphs = [
   "A front light illuminates the E Ink display from the front edge, the same technology used in Kindle e-readers, letting you write and read in dim rooms without an external lamp. Not every device in this category has one.",
-  "We prioritized confirmed front-light hardware and flagged where a device's low-light usability is less certain, rather than assuming every E Ink notebook has this feature.",
+  "We prioritized confirmed front-light hardware and flagged where a device's low-light usability is less certain, rather than assuming every E Ink notebook has this feature."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -63,7 +63,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41BunSeRP3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR4KXMKF?tag=deskfinds0d-20",
     description: "BOOX's Note Air lineup includes adjustable front lighting with warm/cool tone control on most models, verify the current listing's exact lighting spec before buying if this is a priority.\n\nSitting just under Amazon Kindle Scribe, it costs more than Amazon Kindle Scribe. Here's the honest tradeoff: Verify exact front-light spec on the current listing before purchase. And here's what it gets you instead: Warm/cool light adjustment typical of the BOOX Note Air lineup. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Color E Ink display. On the other side, Verify exact front-light spec on the current listing before purchase. That's the main tradeoff to weigh against everything above.",
-    specs: ["Front light with warm/cool adjustment, verify current spec","Color E Ink display","310 reviews at 4.3 stars"],
+    specs: ["Front light with warm/cool adjustment, verify current spec","Color E Ink display"],
     pros: ["Warm/cool light adjustment typical of the BOOX Note Air lineup","Color E Ink display"],
     cons: ["Verify exact front-light spec on the current listing before purchase"],
     bestFor: "Buyers who want adjustable warm/cool lighting alongside color E Ink.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HDL3XJR?tag=deskfinds0d-20",
     description: "Being direct here: the reMarkable 2 does not have a front light, and needs external lighting in dim rooms. Included as the honest \"no\" case for buyers assuming every premium E Ink device has one.\n\nRanked just behind BOOX Note Air 5 C, it's priced lower than BOOX Note Air 5 C. The real tradeoff against that pick: No front light, requires external lighting for low-light use. In exchange, it offers this instead: Largest, most proven review base in this comparison. That's the swap that decides whether this pick or the one above it is the better fit for your note-taking needs.\n\nWorth knowing before you decide: Largest, most proven review base in this comparison. On the other side, No front light, requires external lighting for low-light use. That's the main tradeoff to weigh against everything above.",
-    specs: ["No front light","Marker Plus stylus included","1,354 reviews at 4.4 stars"],
+    specs: ["No front light","Marker Plus stylus included"],
     pros: ["Largest, most proven review base in this comparison"],
     cons: ["No front light, requires external lighting for low-light use"],
     bestFor: "Buyers who prioritize the reMarkable ecosystem and will always use it with adequate room lighting.",
@@ -95,7 +95,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41StVO0JWOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DX234NWP?tag=deskfinds0d-20",
     description: "As an LCD-based color display rather than E Ink, this uses backlighting technology (like a normal tablet) rather than a front light specifically, verify current specs if front-light-style E Ink lighting is important to your use case.\n\nOne spot below reMarkable 2 with Marker Plus in this ranking, it's priced lower than reMarkable 2 with Marker Plus. The compromise here is straightforward: Different lighting technology than a true E Ink front light, verify this matches your expectations. What you gain in return: Lowest price in this comparison. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Standard tablet-style backlighting works in low light too. On the other side, Different lighting technology than a true E Ink front light, verify this matches your expectations. That's the main tradeoff to weigh against everything above.",
-    specs: ["LCD backlight, not E Ink front light","Color display","329 reviews at 4.3 stars"],
+    specs: ["LCD backlight, not E Ink front light","Color display"],
     pros: ["Lowest price in this comparison","Standard tablet-style backlighting works in low light too"],
     cons: ["Different lighting technology than a true E Ink front light, verify this matches your expectations"],
     bestFor: "Buyers who want low-light usability but don't need E Ink-specific front-light technology.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed front-light hardware, not assumed", description: "We checked whether front-light technology is confirmed for each product line rather than assuming every E Ink device has one." },
   { title: "Honest disclosure where a device lacks a front light", description: "We stated directly that the reMarkable 2 has no front light, rather than omitting that limitation." },
   { title: "Warm/cool adjustment where available", description: "We noted where a device offers adjustable light temperature, a real usability feature beyond basic brightness." },
-  { title: "Distinguished E Ink front lights from LCD backlighting", description: "We separated true E Ink front-light technology from standard LCD backlighting on the XPPen, since they're different technologies with different low-light characteristics." },
+  { title: "Distinguished E Ink front lights from LCD backlighting", description: "We separated true E Ink front-light technology from standard LCD backlighting on the XPPen, since they're different technologies with different low-light characteristics." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Which devices confirm front-light hardware?", a: "The Kindle Scribe (both base and Colorsoft) and the BOOX Note Air 5 C, which typically includes warm/cool adjustment." },
   { q: "Is the XPPen's lighting the same as an E Ink front light?", a: "No, it uses standard LCD backlighting technology, different from E Ink front-light hardware, though it still works in low light." },
   { q: "Can I adjust the light color temperature?", a: "Typically yes on the BOOX Note Air lineup, verify the current listing's exact spec before purchase." },
-  { q: "Which is the best value with a confirmed front light?", a: "The base Kindle Scribe (16GB) at $399.99, which shares the same front-light technology as the pricier Colorsoft model." },
+  { q: "Which is the best value with a confirmed front light?", a: "The base Kindle Scribe (16GB) at under $400, which shares the same front-light technology as the pricier Colorsoft model." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks-that-feel-like-paper", title: "Best Digital Notebooks That Feel Like Paper (2026)" },
   { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" },
-  { href: "/guide/best-digital-notebooks-for-handwriting", title: "Best Digital Notebooks for Handwriting (2026)" },
+  { href: "/guide/best-digital-notebooks-for-handwriting", title: "Best Digital Notebooks for Handwriting (2026)" }
 ];

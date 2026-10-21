@@ -161,23 +161,23 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $127.71",
+          "Under $130",
           "Cisco Meraki MS120-8 (Unclaimed"
         ],
         [
-          "Around $139.00",
+          "Under $140",
           "Cisco Meraki MS120-24P (Unclaimed"
         ],
         [
-          "Around $149.00",
+          "Under $150",
           "Cisco Meraki MS225-48LP (Unclaimed"
         ],
         [
-          "Around $441.00",
+          "Under $450",
           "Cisco Meraki MS120-24P (5-Yr License Included)"
         ],
         [
-          "Around $555.00",
+          "Under $600",
           "Cisco Meraki MS210-48FP Switch (Hardware Only)"
         ]
       ]
@@ -232,10 +232,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "Cisco Meraki MS120-8 (Unclaimed is aimed at buyers prioritizing 8-port gigabit + 2 sfp switch hardware, at $127.71."
+        "text": "Cisco Meraki MS120-8 (Unclaimed is aimed at buyers prioritizing 8-port gigabit + 2 sfp switch hardware, at under $130."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -276,9 +276,9 @@ export const faq = [
   }
 ,
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "Cisco Meraki MS120-24P (5-Yr License Included) is aimed at buyers prioritizing 24-port poe+, 5-year license included." },
-  { q: "Which pick offers the best value for a tight budget?", a: "Cisco Meraki MS120-8 (Unclaimed is aimed at buyers prioritizing 8-port gigabit + 2 sfp switch hardware, and at $127.71 it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $127.71 to $555.00, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
-  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Cisco Meraki MS210-48FP Switch (Hardware Only) is aimed at buyers prioritizing 48 gigabit poe ports, 740w (fp model). Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Cisco Meraki MS120-8 (Unclaimed is aimed at buyers prioritizing 8-port gigabit + 2 sfp switch hardware, and at under $130 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $130 to $600, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Cisco Meraki MS210-48FP Switch (Hardware Only) is aimed at buyers prioritizing 48 gigabit poe ports, 740w (fp model). Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-cisco-network-switches","title":"5 Best Cisco Network Switches in 2026"},{"href":"/guide/best-managed-network-switches","title":"8 Best Managed Network Switches in 2026"},{"href":"/guide/best-ubiquiti-network-switches","title":"6 Best Ubiquiti Network Switches in 2026"}];

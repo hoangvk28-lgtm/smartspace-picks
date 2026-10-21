@@ -12,7 +12,7 @@ export const standingDeskConverterVsFullStandingDeskGuide: Guide = {
     "desk converter vs electric standing desk",
     "is a standing desk converter worth it",
     "standing desk riser vs full desk",
-    "best way to add standing desk",
+    "best way to add standing desk"
   ],
   heroImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const standingDeskConverterVsFullStandingDeskGuide: Guide = {
     "standing-desk-weight-capacity-explained",
     "standing-desk-height-chart",
     "anti-fatigue-mat-explained",
-    "standard-desk-height",
+    "standard-desk-height"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const standingDeskConverterVsFullStandingDeskGuide: Guide = {
       question: "Which is better for someone unsure if they'll actually use a standing desk?",
       answer:
         "A converter is the lower-risk option for testing whether standing desk use fits your work habits, since it's a smaller investment than a full standing desk and can be resold or repurposed more easily if you decide it's not for you.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ export const standingDeskConverterVsFullStandingDeskGuide: Guide = {
     {
       heading: "When the Full Standing Desk's Stability Advantage Matters More",
       body: `If you plan to use standing mode regularly and for extended periods, a full standing desk's typically more stable frame becomes more valuable, since a wobbly work surface is a bigger daily annoyance under regular heavy use, like typing, drawing, or using a mouse, compared to occasional standing sessions. Converters vary significantly in quality and stability between models, so if choosing one, check specifically for reviews addressing wobble at full height under typical desk loads.`,
-    },
+    }
   ],
 };

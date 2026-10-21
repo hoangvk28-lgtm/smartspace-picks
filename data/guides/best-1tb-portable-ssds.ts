@@ -5,7 +5,7 @@ export const metaDescription = "4 genuinely 1TB portable SSDs we evaluated on re
 export const mainKeyword = "best 1tb portable ssd";
 export const introParagraphs = [
   "A 1TB portable SSD never actually shows up as a full 1000GB in your operating system, expect roughly 7 percent less after formatting overhead plus the gap between decimal and binary gigabyte reporting, so plan storage around closer to 930GB of real usable space.",
-  "At the 1TB tier, NAND type also varies between otherwise similar-priced drives, and TLC NAND generally holds sustained speed and endurance better than QLC once you factor in how quickly a smaller cache gets exhausted during large transfers.",
+  "At the 1TB tier, NAND type also varies between otherwise similar-priced drives, and TLC NAND generally holds sustained speed and endurance better than QLC once you factor in how quickly a smaller cache gets exhausted during large transfers."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall 1TB Pick",
     name: "Samsung T7 Shield Portable SSD 1TB, USB 3.2 Gen 2, Up to 1,050 MB/s",
     price: "$286.88",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "16,380 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21mARCvUWxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VLK9W3S?tag=deskfinds0d-20",
     description: "Samsung's T7 Shield delivers a genuine 1TB of NAND behind a rugged shell, rated up to 1050MB/s over USB 3.2 Gen 2.\n\nIt earns the top spot in this comparison over Samsung T7 Portable SSD 1TB Titan Gray for one main reason. Genuine 1TB capacity with rugged protection. On price, it's actually priced above Samsung T7 Portable SSD 1TB Titan Gray, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Reliable, well-reviewed platform. On the other side, Sustained speed can dip once cache fills. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Slim 1TB Pick",
     name: "Samsung T7 Portable SSD 1TB Titan Gray, USB 3.2 Gen 2, Up to 1,050MB/s",
     price: "$216.36",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "21,124 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LdvAbumfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874XN4D8?tag=deskfinds0d-20",
     description: "The standard Samsung T7 offers the same genuine 1TB capacity and 1050MB/s rating without the Shield's extra bulk.\n\nOne spot below Samsung T7 Shield Portable SSD 1TB in this ranking, it's priced lower than Samsung T7 Shield Portable SSD 1TB. The compromise here is straightforward: No official IP rating. What you gain in return: Slimmer, lighter than shielded alternatives. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Reliable platform with a large review base. On the other side, 1050MB/s ceiling is not the fastest available. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Speed 1TB Pick",
     name: "SANDISK 1TB Extreme Portable SSD (New Model) - up to 2000MB/s Transfer speeds, USB Type-C connectivity - Black - SDSSDE70-1T00-G25",
     price: "$239.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "91 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41UpTn5oveL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GMWYYRQL?tag=deskfinds0d-20",
     description: "SanDisk's newer Extreme model rates up to 2000MB/s at the 1TB capacity, a genuine step up in speed tier for buyers with a compatible USB-C port.\n\nSitting just under Samsung T7 Portable SSD 1TB Titan Gray, it costs more than Samsung T7 Portable SSD 1TB Titan Gray. Here's the honest tradeoff: Needs a matching high-speed port to hit rated speed. And here's what it gets you instead: Higher rated speed ceiling than Gen 2 drives. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Genuine 1TB capacity. On the other side, Sustained speed after cache exhaustion needs verification. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget 1TB Pick",
     name: "SANDISK 1TB Portable SSD - Up to 800MB/s, USB-C, USB 3.2 Gen 2, Updated Firmware - SDSSDE30-1T00-G26",
     price: "$164.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "10,968 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41-T4nAAufL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5JQ68FY?tag=deskfinds0d-20",
     description: "SanDisk's standard Portable SSD offers a genuine 1TB of storage at a noticeably lower price, rated up to 800MB/s.\n\nRanked just behind SANDISK 1TB Extreme Portable SSD, it's priced lower than SANDISK 1TB Extreme Portable SSD. The real tradeoff against that pick: Lowest speed ceiling of this group. In exchange, it offers this instead: Best price per gigabyte at 1TB in this group. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Still USB 3.2 Gen 2 rated. On the other side, Best suited to everyday files, not large video work. That's the main tradeoff to weigh against everything above.",

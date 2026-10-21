@@ -188,7 +188,7 @@ export default async function BestStandingDeskUnder200Page() {
     about: [
       { "@type": "Thing", name: "Standing Desks Under $200" },
       { "@type": "Thing", name: "Electric Height-Adjustable Desks" },
-      { "@type": "Thing", name: "Home Office Desks" },
+      { "@type": "Thing", name: "Home Office Desks" }
     ],
   };
 
@@ -208,7 +208,7 @@ export default async function BestStandingDeskUnder200Page() {
         position: 3,
         name: "Best Electric Standing Desk Under $200",
         item: `${SITE_URL}/guide/best-standing-desk-under-200`,
-      },
+      }
     ],
   };
 
@@ -494,7 +494,7 @@ export default async function BestStandingDeskUnder200Page() {
                     factor: "Price",
                     under200: "$100-200",
                     under300: "$200-300",
-                  },
+                  }
                 ].map((row, i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                     <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -667,7 +667,7 @@ export default async function BestStandingDeskUnder200Page() {
                     situation: "Standing 4+ hours daily",
                     under200: "Acceptable",
                     upgrade: "Dual motor reduces wobble fatigue",
-                  },
+                  }
                 ].map((row, i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                     <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -738,7 +738,7 @@ export default async function BestStandingDeskUnder200Page() {
                     seated: "~30-31\"",
                     standing: "~46-48\"",
                     fits: "Under $200 may be insufficient - check $300 tier",
-                  },
+                  }
                 ].map((row, i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                     <td className="px-4 py-3 font-medium text-ink text-xs">

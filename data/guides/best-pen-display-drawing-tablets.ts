@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $132.90",
+          "Under $140",
           "UGEE UE12 11.6 inch Drawing Tablet with Screen"
         ],
         [
-          "Around $142.49",
+          "Under $150",
           "VEIKK VK1200 V2 Drawing Tablet with Screen"
         ],
         [
-          "Around $149.99",
+          "Under $150",
           "GAOMON PD1161 Drawing Tablet with Screen"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "XP-PEN Artist12 11.6 Inch FHD Drawing Monitor Pen Display"
         ],
         [
-          "Around $209.99",
+          "Under $250",
           "HUION Kamvas 13 (Gen 3) Drawing Tablet with Screen 16K Pressure PenTech 4.0"
         ],
         [
-          "Around $209.99",
+          "Under $250",
           "XPPen Artist 13.3 Pro 13.3\" Drawing Tablet with Screen"
         ],
         [
-          "Around $209.99",
+          "Under $250",
           "XPPen Artist 12 3rd 11.9\" Drawing Tablet with Screen"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "XPPen Artist 13.3 Pro V2 Drawing Tablet with Screen"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "HUION Kamvas 13 (Gen 3) Drawing Tablet with Screen 16K Pressure PenTech 4.0 is aimed at buyers prioritizing 16,384 pressure levels, Delta E<1.5 factory calibrated." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "HUION Kamvas 13 (Gen 3) Drawing Tablet with Screen 16K Pressure PenTech 4.0 is aimed at buyers prioritizing 16,384 pressure levels, Delta E<1.5 factory calibrated." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"},{"href":"/guide/best-wacom-drawing-tablets","title":"Best Wacom Drawing Tablets in 2026"},{"href":"/guide/best-drawing-tablets-with-screens","title":"Best Drawing Tablets With Screens in 2026"}];

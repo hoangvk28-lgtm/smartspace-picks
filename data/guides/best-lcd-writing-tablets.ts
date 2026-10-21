@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "lcd writing tablet";
 export const introParagraphs = [
   "An LCD writing tablet is a pressure-sensitive screen that displays your stylus strokes and erases the entire screen with one button press, not a touchscreen tablet running apps, worth understanding before buying since the category name causes real confusion with digital notebooks and tablet computers.",
-  "Almost none of these devices save what you write once you erase it, only a small number of Bluetooth-sync models genuinely capture notes to an app, so if archiving matters more to you than a quick scratchpad, check for explicit sync capability rather than assuming any 'digital' writing tablet saves your work.",
+  "Almost none of these devices save what you write once you erase it, only a small number of Bluetooth-sync models genuinely capture notes to an app, so if archiving matters more to you than a quick scratchpad, check for explicit sync capability rather than assuming any 'digital' writing tablet saves your work."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "10 min";
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Screen size matched to realistic use case", description: "Weighted screen size against portability, checking whether a given size suits brief notes, sketching, or shared household use rather than assuming bigger is always better." },
   { title: "Save-versus-erase capability verified from listing details", description: "Verified whether each model can actually save or sync notes versus simply erase, since this distinction is not obvious from product photos alone." },
   { title: "Battery type checked against long-term convenience", description: "Noted whether a model uses a replaceable coin-cell battery or requires USB recharging, a real ownership difference buyers often overlook." },
-  { title: "Mounting and portability features assessed for genuine utility", description: "Evaluated whether included accessories like cases, kickstands, or magnets add real functionality versus marketing padding." },
+  { title: "Mounting and portability features assessed for genuine utility", description: "Evaluated whether included accessories like cases, kickstands, or magnets add real functionality versus marketing padding." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -271,11 +271,11 @@ export const faq: FaqItem[] = [
   { q: "What is the difference between a memory lock and saving notes?", a: "A memory lock is a physical switch that prevents the screen from accidentally erasing, it does not save your notes to a file or app. Only genuine sync-capable models save data." },
   { q: "Do kids' LCD writing tablets work differently than adult ones?", a: "Usually not. The underlying writing technology is often the same, with kids' versions adding bright colors and character branding rather than different functionality." },
   { q: "What size LCD writing tablet should I buy?", a: "An 8.5 to 9.5 inch screen suits brief notes and reminders, while 11.5 inches or larger works better for sketching or longer lists." },
-  { q: "Do these tablets need batteries?", a: "Most use a small replaceable coin-cell battery that lasts a long time. A smaller number of models charge via USB instead." },
+  { q: "Do these tablets need batteries?", a: "Most use a small replaceable coin-cell battery that lasts a long time. A smaller number of models charge via USB instead." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-lcd-writing-tablets-for-adults", title: "Best LCD Writing Tablets for Adults (2026)" },
   { href: "/guide/best-lcd-writing-tablets-for-note-taking", title: "Best LCD Writing Tablets for Note-Taking (2026)" },
-  { href: "/guide/best-reusable-lcd-writing-tablets", title: "Best Reusable LCD Writing Tablets (2026)" },
+  { href: "/guide/best-reusable-lcd-writing-tablets", title: "Best Reusable LCD Writing Tablets (2026)" }
 ];

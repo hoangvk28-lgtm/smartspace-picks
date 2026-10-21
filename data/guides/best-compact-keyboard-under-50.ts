@@ -51,7 +51,7 @@ export const products: CompactKeyboard[] = [
     tradeoffs: [
       "No dedicated arrow keys or function row, both accessed via Fn layers",
       "60% layout requires relearning muscle memory for arrow keys",
-      "ABS keycaps develop shine faster than PBT over time",
+      "ABS keycaps develop shine faster than PBT over time"
     ],
     skipIf:
       "You use arrow keys frequently in spreadsheets, text editing, or navigation. Move to the RK68 Plus for dedicated arrows.",
@@ -60,12 +60,12 @@ export const products: CompactKeyboard[] = [
       "Hot-swappable switches",
       "QMK/VIA programmable",
       "RGB backlight",
-      "Under $45",
+      "Under $45"
     ],
     cons: [
       "No dedicated arrow keys",
       "No dedicated function row",
-      "ABS keycaps",
+      "ABS keycaps"
     ],
   },
   {
@@ -86,7 +86,7 @@ export const products: CompactKeyboard[] = [
       "Gasket mounting at this price delivers noticeably reduced typing vibration and a premium sound profile that plastic-plate keyboards cannot match. QMK/VIA programmability, hot-swappable switches, and double-shot PBT keycaps at $35 to $40. TKL layout keeps all arrow keys, function row, and navigation cluster. Mac and Windows both supported with included keycap sets.",
     tradeoffs: [
       "Wired only, no Bluetooth or 2.4 GHz wireless",
-      "TKL is the widest layout in this roundup at ~36 cm",
+      "TKL is the widest layout in this roundup at ~36 cm"
     ],
     skipIf:
       "You need wireless. The Keychron C3 Pro is wired-only, which rules it out for cable-free setups.",
@@ -95,7 +95,7 @@ export const products: CompactKeyboard[] = [
       "QMK/VIA programmable",
       "Hot-swappable switches",
       "Double-shot PBT keycaps",
-      "Mac and Windows compatible",
+      "Mac and Windows compatible"
     ],
     cons: ["Wired only", "Widest layout at ~36 cm", "No wireless option"],
   },
@@ -118,7 +118,7 @@ export const products: CompactKeyboard[] = [
     tradeoffs: [
       "No dedicated function row (Fn layer required)",
       "Software occasionally inconsistent on Mac",
-      "No QMK/VIA support",
+      "No QMK/VIA support"
     ],
     skipIf:
       "You rely heavily on the function row for F-keys. Consider the Epomaker TH80 SE for a 75% layout with F-row.",
@@ -126,12 +126,12 @@ export const products: CompactKeyboard[] = [
       "Dedicated arrow keys in 65% footprint",
       "Tri-mode wireless",
       "Hot-swappable",
-      "USB passthrough on some versions",
+      "USB passthrough on some versions"
     ],
     cons: [
       "No QMK/VIA",
       "No dedicated function row",
-      "Mac software can be inconsistent",
+      "Mac software can be inconsistent"
     ],
   },
   {
@@ -153,7 +153,7 @@ export const products: CompactKeyboard[] = [
     tradeoffs: [
       "Not mechanical (scissor switches)",
       "No RGB backlight",
-      "No hot-swap or QMK/VIA programmability",
+      "No hot-swap or QMK/VIA programmability"
     ],
     skipIf:
       "You want mechanical switch feedback or RGB. The K380s is built for quiet multi-device productivity, not typist customization.",
@@ -162,12 +162,12 @@ export const products: CompactKeyboard[] = [
       "Narrowest footprint at ~27 cm",
       "36-month battery",
       "Quiet scissor switches",
-      "Designed for Mac and iOS",
+      "Designed for Mac and iOS"
     ],
     cons: [
       "Not mechanical",
       "No RGB",
-      "Bluetooth only, no 2.4 GHz for primary device",
+      "Bluetooth only, no 2.4 GHz for primary device"
     ],
   },
   {
@@ -190,7 +190,7 @@ export const products: CompactKeyboard[] = [
       "Wired only",
       "Windows-optimized layout with limited Mac support",
       "Outemu switches are functional but not premium",
-      "No QMK/VIA",
+      "No QMK/VIA"
     ],
     skipIf:
       "You need wireless or Mac support. The Redragon K552P is primarily a Windows wired keyboard.",
@@ -199,7 +199,7 @@ export const products: CompactKeyboard[] = [
       "Hot-swappable switches",
       "N-key rollover",
       "RGB backlight",
-      "Most affordable in roundup",
+      "Most affordable in roundup"
     ],
     cons: ["Wired only", "Windows-optimized", "Outemu switches", "No QMK/VIA"],
   },
@@ -222,7 +222,7 @@ export const products: CompactKeyboard[] = [
     tradeoffs: [
       "Price can exceed $50 at non-sale pricing, verify before buying",
       "No QMK/VIA support",
-      "Software can be inconsistent",
+      "Software can be inconsistent"
     ],
     skipIf:
       "Current price is above $50. Check before purchasing as pricing varies week to week.",
@@ -231,12 +231,12 @@ export const products: CompactKeyboard[] = [
       "Metal rotary volume knob",
       "Tri-mode wireless",
       "4000 mAh battery",
-      "75% keeps function row and arrow keys",
+      "75% keeps function row and arrow keys"
     ],
     cons: [
       "No QMK/VIA",
       "Price fluctuates above $50",
-      "Software inconsistency reported",
+      "Software inconsistency reported"
     ],
   },
   {
@@ -258,7 +258,7 @@ export const products: CompactKeyboard[] = [
     tradeoffs: [
       "Near or slightly above $50 depending on current pricing",
       "Wraith switches are proprietary and less widely reviewed",
-      "No QMK/VIA",
+      "No QMK/VIA"
     ],
     skipIf:
       "Budget is strictly $50 or less. The Tecware may push slightly over depending on the listing. Verify current price.",
@@ -267,10 +267,10 @@ export const products: CompactKeyboard[] = [
       "5-pin hot-swap",
       "Double-shot PBT keycaps",
       "Thocky dampened case",
-      "Tri-mode connectivity",
+      "Tri-mode connectivity"
     ],
     cons: ["Can exceed $50", "Proprietary Wraith switches", "No QMK/VIA"],
-  },
+  }
 ];
 
 export const atAGlanceRows = products.map((p) => ({
@@ -307,7 +307,7 @@ export const faq = [
   {
     q: "Which compact keyboard under $50 works best for Mac?",
     a: "The Logitech K380s is designed explicitly for macOS and iPadOS with correct key labeling, proper Fn mapping, and 3-device Bluetooth for switching between Mac, iPad, and iPhone. The Keychron C3 Pro also includes Mac keycaps and a system toggle but is wired-only.",
-  },
+  }
 ];
 
 export const relatedGuides = [
@@ -319,5 +319,5 @@ export const relatedGuides = [
   {
     href: "/guide/best-small-desk-accessories",
     title: "Best Small Desk Accessories",
-  },
+  }
 ];

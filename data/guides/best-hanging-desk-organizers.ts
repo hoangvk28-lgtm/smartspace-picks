@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "hanging desk organizers";
 export const introParagraphs = [
   "Honesty note upfront: most of the strongest-reviewed products for this exact search are actually wall-mounted file organizers rather than desk-edge-clamped ones. We include both types here and clearly label the attachment method for each pick, since a wall-mount requires drilling while a desk-edge or under-desk clamp does not.",
-  "We weighted weight capacity against realistic hung file folder loads, which can be substantial when fully loaded with paper documents, rather than an empty demonstration.",
+  "We weighted weight capacity against realistic hung file folder loads, which can be substantial when fully loaded with paper documents, rather than an empty demonstration."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "9 min";
@@ -146,7 +146,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Attachment method honesty", description: "We clearly disclosed whether each pick is wall-mounted (requires drilling), desk-edge hanging, or a freestanding desktop design, since these represent genuinely different installation commitments." },
   { title: "Weight capacity for realistic file loads", description: "We considered capacity against a realistically loaded set of hanging file folders, which can be substantial with paper documents, not an empty demonstration." },
   { title: "Desk edge and wall compatibility", description: "We checked mounting requirements against common desk types and wall materials." },
-  { title: "Accessibility across tiers", description: "For multi-tier designs, we noted whether top and bottom tiers remain comfortably reachable or require extra reach on taller designs." },
+  { title: "Accessibility across tiers", description: "For multi-tier designs, we noted whether top and bottom tiers remain comfortably reachable or require extra reach on taller designs." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -259,11 +259,11 @@ export const faq: FaqItem[] = [
   { q: "How much weight can these organizers hold?", a: "This varies significantly by design. Metal wall-mounted organizers with multiple tiers generally handle a full load of hanging file folders well; verify the specific product's rated capacity for your realistic document volume." },
   { q: "Can I use these organizers without damaging my walls or desk?", a: "Yes, if you choose a desk-edge or under-desk hanging design instead of a wall-mounted one. The Safco Onyx and Mind Reader Slide-On picks require no drilling or permanent modification." },
   { q: "How many tiers do I actually need?", a: "Count your distinct document categories first. A 3-4 tier organizer suits most home offices; 5-7 tiers make sense if you're separating many distinct categories, but require more space and reach." },
-  { q: "Do these organizers fit both letter and legal size folders?", a: "It varies by product. Check the specific listing for folder size compatibility before ordering if you regularly use legal size documents." },
+  { q: "Do these organizers fit both letter and legal size folders?", a: "It varies by product. Check the specific listing for folder size compatibility before ordering if you regularly use legal size documents." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-wall-hanging-desk-organizers", title: "Best Wall-Hanging Desk Organizers (2026)" },
   { href: "/guide/best-hanging-file-organizers-for-desks", title: "Best Hanging File Organizers for Desks (2026)" },
-  { href: "/guide/best-under-desk-hanging-organizers", title: "Best Under-Desk Hanging Organizers (2026)" },
+  { href: "/guide/best-under-desk-hanging-organizers", title: "Best Under-Desk Hanging Organizers (2026)" }
 ];

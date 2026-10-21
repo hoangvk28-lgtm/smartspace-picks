@@ -12,7 +12,7 @@ export const multiMonitorTroubleshootingGuide: Guide = {
     "second monitor not detected fix",
     "monitor arrangement wrong order fix",
     "mismatched refresh rate monitors",
-    "multi monitor display settings issues",
+    "multi monitor display settings issues"
   ],
   heroImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const multiMonitorTroubleshootingGuide: Guide = {
     "triple-monitor-setup-explained",
     "monitor-daisy-chaining-explained",
     "matching-monitors-vs-mixed-monitors",
-    "monitor-troubleshooting",
+    "monitor-troubleshooting"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const multiMonitorTroubleshootingGuide: Guide = {
       question: "Why does my taskbar or dock only appear on one monitor?",
       answer:
         "This is often a setting choice rather than a malfunction, most operating systems include an option to extend the taskbar or dock across all monitors versus keeping it on a single primary display, check your display or taskbar settings for this specific option.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const multiMonitorTroubleshootingGuide: Guide = {
     {
       heading: "Why Bandwidth Limits Manifest as Confusing Intermittent Issues",
       body: `When a multi-monitor setup pushes close to your GPU's or connection's total available bandwidth, particularly with multiple high-resolution or high-refresh-rate displays, or in a daisy-chained configuration sharing bandwidth across monitors, the resulting problems can appear as seemingly unrelated issues, flickering, an inability to set the refresh rate you expect, or a monitor that works fine alone but causes problems when a certain combination of other monitors is also active, recognizing bandwidth as the potential common underlying cause helps you troubleshoot by testing resolution or refresh rate reductions, rather than assuming a defective monitor or cable.`,
-    },
+    }
   ],
 };

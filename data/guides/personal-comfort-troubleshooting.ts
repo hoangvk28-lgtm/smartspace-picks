@@ -12,7 +12,7 @@ export const personalComfortTroubleshootingGuide: Guide = {
     "desk fan not oscillating fix",
     "heated blanket uneven heat fix",
     "space heater keeps shutting off",
-    "usb fan weak airflow fix",
+    "usb fan weak airflow fix"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const personalComfortTroubleshootingGuide: Guide = {
     "tower-fan-vs-desk-fan",
     "usb-desk-fan-vs-plug-in-fan",
     "desk-heated-blanket-vs-space-heater",
-    "space-heater-safety-explained",
+    "space-heater-safety-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const personalComfortTroubleshootingGuide: Guide = {
       question: "Should I attempt to repair a comfort device myself, or is replacement more practical?",
       answer:
         "For mechanical failures like a broken oscillation gear or a damaged heating element, replacement is generally more practical and safer than attempting a repair, given the relatively low cost of these devices relative to the complexity of a proper internal repair.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const personalComfortTroubleshootingGuide: Guide = {
     {
       heading: "Why Space Heater Safety Shutoffs Are Working as Intended, Not Malfunctioning",
       body: `When a space heater shuts off unexpectedly, it's worth recognizing this as the safety system functioning exactly as designed, rather than a malfunction to override or work around, a tip-over shutoff triggering means the heater sensed it wasn't sitting level and stably, and an overheat shutoff means internal temperatures exceeded a safe threshold, both scenarios call for addressing the underlying placement or clearance issue causing the trigger, ensuring stable, level placement and adequate clearance from walls and obstructions, rather than viewing the safety shutoff itself as the problem needing a workaround.`,
-    },
+    }
   ],
 };

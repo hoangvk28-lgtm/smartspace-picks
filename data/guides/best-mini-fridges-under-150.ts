@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/21ecLQI7VAL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DDCTGB8P?tag=deskfinds0d-20",
-    "description": "Frigidaire is a 3.2 cubic foot mini fridge with a compact chiller compartment that comes with an ice tray, an adjustable thermostat, glass shelves, a 2 liter door basket and a built-in can dispenser. It has a reversible door and a flush back design.\n\nIt costs $149, about $1 less than the Igloo, but holds more at 3.2 cubic feet than Igloo's 2.6. The chiller compartment is not described as a true freezer.\n\nBest for a shared room or a small office that needs more space. The caveat is that 3.2 cubic feet may exceed a dorm's size cap, so check the rules.",
+    "description": "Frigidaire is a 3.2 cubic foot mini fridge with a compact chiller compartment that comes with an ice tray, an adjustable thermostat, glass shelves, a 2 liter door basket and a built-in can dispenser. It has a reversible door and a flush back design.\n\nIt costs under $150, about $1 less than the Igloo, but holds more at 3.2 cubic feet than Igloo's 2.6. The chiller compartment is not described as a true freezer.\n\nBest for a shared room or a small office that needs more space. The caveat is that 3.2 cubic feet may exceed a dorm's size cap, so check the rules.",
     "specs": [
       "3.2 cu ft, chiller section",
       "Flush back, reversible door",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31VyQsFm7NL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HHLNZTNB?tag=deskfinds0d-20",
-    "description": "Igloo is a 2.6 cubic foot single door fridge with a freezer compartment, two glass shelves with spill guards, an 8 can dispenser and room for a 2 liter bottle. The listing gives a cooling range of 32 to 50 degrees and a reversible door.\n\nIt is the priciest pick at $149.99, and it has a real freezer compartment unlike the Frigidaire. It is smaller than the Frigidaire at 2.6 cubic feet.\n\nGood for a student who wants frozen items. The caveat is that a single door fridge freezer compartment is not as cold as a true freezer.",
+    "description": "Igloo is a 2.6 cubic foot single door fridge with a freezer compartment, two glass shelves with spill guards, an 8 can dispenser and room for a 2 liter bottle. The listing gives a cooling range of 32 to 50 degrees and a reversible door.\n\nIt is the priciest pick at under $150, and it has a real freezer compartment unlike the Frigidaire. It is smaller than the Frigidaire at 2.6 cubic feet.\n\nGood for a student who wants frozen items. The caveat is that a single door fridge freezer compartment is not as cold as a true freezer.",
     "specs": [
       "2.6 cu ft with freezer",
       "32F to 50F range",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/411Alh5MkYL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CPY23Y4F?tag=deskfinds0d-20",
-    "description": "Upstreman is a 1.7 cubic foot fridge measuring 18.9 by 17.7 by 19.3 inches with a 33.8 to 46.4 degree range across five settings and a compact freezer. The listing says it runs at 38 decibels and notes it is not for storing ice cream. It carries a one year service promise.\n\nIt costs $99.97, about $10 more than Frestec, but its listing gives specifics such as noise and temperature. It is cheaper than Midea.\n\nPick it for a dorm student on a budget. The caveat is the 46.4 degree top, which is not the coldest, and the freezer is small.",
+    "description": "Upstreman is a 1.7 cubic foot fridge measuring 18.9 by 17.7 by 19.3 inches with a 33.8 to 46.4 degree range across five settings and a compact freezer. The listing says it runs at 38 decibels and notes it is not for storing ice cream. It carries a one year service promise.\n\nIt costs under $100, about $10 more than Frestec, but its listing gives specifics such as noise and temperature. It is cheaper than Midea.\n\nPick it for a dorm student on a budget. The caveat is the 46.4 degree top, which is not the coldest, and the freezer is small.",
     "specs": [
       "1.7 cu ft, 38 dB",
       "33.8F to 46.4F, 5 settings",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/21SnLK4g7wL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GG32KWQB?tag=deskfinds0d-20",
-    "description": "Frestec is a 1.7 cubic foot fridge measuring 17.83 by 18.05 by 19.8 inches, with a 37 decibel noise rating, a one-touch defrost button and six temperature modes from 28.4 to 50 degrees. The door seal is removable for cleaning.\n\nIt is the lowest priced fridge-freezer here at $89.99, tied with the Erivess beverage model. It is quieter than Upstreman by one decibel.\n\nGreat for a student on a tight budget. The caveat is the top temperature of 50 degrees, which is above the 40 degree food safe line.",
+    "description": "Frestec is a 1.7 cubic foot fridge measuring 17.83 by 18.05 by 19.8 inches, with a 37 decibel noise rating, a one-touch defrost button and six temperature modes from 28.4 to 50 degrees. The door seal is removable for cleaning.\n\nIt is the lowest priced fridge-freezer here at under $90, tied with the Erivess beverage model. It is quieter than Upstreman by one decibel.\n\nGreat for a student on a tight budget. The caveat is the top temperature of 50 degrees, which is above the 40 degree food safe line.",
     "specs": [
       "1.7 cu ft, 37 dB",
       "28.4F to 50F, 6 modes",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41sUER+w3aL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H94BM5BX?tag=deskfinds0d-20",
-    "description": "Clickoods is a 3.3 cubic foot beverage fridge with a double layer tempered glass door, a compressor, an air circulation system and digital control from 39 to 61 degrees. It holds up to 126 cans on four removable shelves and runs below 36 decibels.\n\nIt is the largest unit here and costs $129.99, more than Erivess, and has a lower noise rating than any other listed in this guide.\n\nBest for a shared lounge or office where you need lots of cans. The caveat is size and a lack of freezer, and it is not for groceries.",
+    "description": "Clickoods is a 3.3 cubic foot beverage fridge with a double layer tempered glass door, a compressor, an air circulation system and digital control from 39 to 61 degrees. It holds up to 126 cans on four removable shelves and runs below 36 decibels.\n\nIt is the largest unit here and costs under $130, more than Erivess, and has a lower noise rating than any other listed in this guide.\n\nBest for a shared lounge or office where you need lots of cans. The caveat is size and a lack of freezer, and it is not for groceries.",
     "specs": [
       "3.3 cu ft, 126 cans",
       "39F to 61F, compressor",
@@ -395,7 +395,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Save if",
-        "text": "You want a basic dorm fridge. Frestec 1.7 Cu Ft Mini Fridge with Freezer is $89.99 with a freezer box."
+        "text": "You want a basic dorm fridge. Frestec 1.7 Cu Ft Mini Fridge with Freezer is under $90 with a freezer box."
       }
     ]
   }

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "under-desk hanging organizers";
 export const introParagraphs = [
   "Mounting underneath the desk is a genuinely distinct location from the desk edge or wall, keeping items completely out of sight but requiring you to check knee clearance and desk underside construction (cross-bracing, drawers) before committing to a mount point.",
-  "All five picks below clamp to the underside of your desk without drilling, differing in capacity, drawer function, and rolling versus fixed design.",
+  "All five picks below clamp to the underside of your desk without drilling, differing in capacity, drawer function, and rolling versus fixed design."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -104,7 +104,7 @@ export const products: GuideProduct[] = [
     pros: ["Adjustable dividers for custom layout", "Rolls for flexible positioning", "Good rating", "Vertical design saves floor footprint"],
     cons: ["Not a genuine hanging clamp organizer", "Mid-range price for a rolling cabinet", "Larger footprint than under-desk clamp designs"],
     bestFor: "Buyers who want a customizable rolling vertical filing cabinet as an under-desk alternative.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Knee clearance impact", description: "We noted that under-desk mounting can interfere with legroom, and favored compact designs that minimize this impact." },
   { title: "Desk underside construction compatibility", description: "We considered cross-bracing and drawer interference that could limit available mounting surface underneath a specific desk." },
   { title: "No-drill clamp verification", description: "We confirmed each clamp-on pick attaches without drilling, and clearly disclosed which alternatives are actually freestanding rolling carts instead." },
-  { title: "Capacity vs. clamp-on convenience tradeoff", description: "We weighed the substantially higher capacity of freestanding rolling carts against the simpler no-drill convenience of a clamp-on drawer." },
+  { title: "Capacity vs. clamp-on convenience tradeoff", description: "We weighed the substantially higher capacity of freestanding rolling carts against the simpler no-drill convenience of a clamp-on drawer." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -240,11 +240,11 @@ export const faq: FaqItem[] = [
   { q: "Do all these organizers attach without drilling?", a: "The clamp-on drawer picks (INLDY, Homeify, SB Simpli Better) attach without drilling. The rolling cart picks are freestanding furniture, not clamp-on, and don't require any desk attachment at all." },
   { q: "How much can these organizers actually hold?", a: "Clamp-on drawers suit small supplies and occasional documents. If you need to store a substantial filing volume, a rolling cart with full drawers offers meaningfully more capacity." },
   { q: "Will a clamp-on organizer fit under any desk?", a: "Check your desk's underside construction first. Cross-bracing or existing drawers can limit available mounting surface for some desk designs." },
-  { q: "Is a rolling file cart the same as an under-desk hanging organizer?", a: "No, a rolling cart is freestanding furniture that sits under or beside your desk, distinct from a clamp-on organizer that hangs from the desk's underside without drilling." },
+  { q: "Is a rolling file cart the same as an under-desk hanging organizer?", a: "No, a rolling cart is freestanding furniture that sits under or beside your desk, distinct from a clamp-on organizer that hangs from the desk's underside without drilling." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-under-desk-hanging-file-organizers", title: "Best Under-Desk Hanging File Organizers (2026)" },
   { href: "/guide/best-hanging-desk-drawer-organizers", title: "Best Hanging Desk Drawer Organizers (2026)" },
-  { href: "/guide/best-hanging-desk-organizers", title: "Best Hanging Desk Organizers (2026)" },
+  { href: "/guide/best-hanging-desk-organizers", title: "Best Hanging Desk Organizers (2026)" }
 ];

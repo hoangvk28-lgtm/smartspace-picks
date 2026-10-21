@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "bookshelf for bedroom";
 export const introParagraphs = [
   "A bedroom bookshelf has to work harder than one in a living room. It needs to fit into a narrow gap, a corner, or a wall without eating into walking space, while still holding a real book collection, a plant, or a nightstand's worth of overflow.",
-  "Below are 8 bedroom bookshelves we evaluated on footprint, weight capacity, and how well they tuck into tight corners, ranging from ultra-slim tree-shaped towers to a fully enclosed unit for buyers who want their storage hidden behind doors.",
+  "Below are 8 bedroom bookshelves we evaluated on footprint, weight capacity, and how well they tuck into tight corners, ranging from ultra-slim tree-shaped towers to a fully enclosed unit for buyers who want their storage hidden behind doors."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "MDF construction",
       "6 open tiers + 2 joinable cabinets",
       "Tree-shaped silhouette",
-      "Backboard + anti-tip kit",
+      "Backboard + anti-tip kit"
     ],
     pros: [
       "Slimmest footprint in this list at just 7.9 inches wide",
       "Two small drawers hide clutter",
       "Distinctive tree-shaped design",
-      "Saves the most floor space in a bedroom corner",
+      "Saves the most floor space in a bedroom corner"
     ],
     cons: [
       "Narrow shelves limit how large your books or decor can be",
       "Lower total capacity than wider units",
-      "Assembly involves many small branch pieces",
+      "Assembly involves many small branch pieces"
     ],
     bestFor: "Tight bedrooms where every inch of floor space matters",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Engineered wood + metal frame",
       "16+ color RGB LED with adjustable switch",
       "Thinnest depth in this list at 7.1\"",
-      "Anti-tip kit + non-slip pads",
+      "Anti-tip kit + non-slip pads"
     ],
     pros: [
       "Built-in 16+ color RGB LED lighting",
       "Thinnest depth of any pick at 7.1 inches",
       "Vintage tree-shaped design adds visual interest",
-      "Budget-friendly at under $35",
+      "Budget-friendly at under $35"
     ],
     cons: [
       "LED strip needs periodic charging or a power source",
       "Shorter overall height than most picks here",
-      "Fewer reviews than other options on this list",
+      "Fewer reviews than other options on this list"
     ],
     bestFor: "Bedrooms where you want ambient lighting built into your storage",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Wood + metal frame",
       "Built-in LED light strip",
       "180 lb weight capacity (highest among corner picks)",
-      "Anti-toppling device, ~20-minute assembly",
+      "Anti-toppling device, ~20-minute assembly"
     ],
     pros: [
       "Highest capacity among corner-fit picks at 180 lbs",
       "Built-in LED strip doubles as a nightlight",
       "Clean white finish suits small bedrooms",
-      "Quick roughly 20-minute assembly",
+      "Quick roughly 20-minute assembly"
     ],
     cons: [
       "Corner-only shape limits placement flexibility",
       "Triangular shelves hold less than rectangular ones of the same width",
-      "LED strip is a separate feature to wire up during setup",
+      "LED strip is a separate feature to wire up during setup"
     ],
     bestFor: "Making use of an empty bedroom corner without sacrificing capacity",
   },
@@ -147,24 +147,24 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41p8nGWmCmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08DR542S9?tag=deskfinds0d-20",
     description:
-      "The NUMENN is the best-selling pick in this list, with over 4,000 ratings backing a strong 4.7-star average, and it works equally well in a bedroom or a home office. An X-shaped back rod eliminates the wobble that plagues cheaper metal-frame shelves, while a 150 lb total capacity across premium metal and teak particle board shelves handles a real book collection with room to spare.\n\nBoth waterproof and anti-scratch coatings help it hold up over years of daily use, and an included anti-tilt kit is worth using in any bedroom.\n\nWorth calling out specifically: x-back rod eliminates wobble common in metal shelves. The catch is not the slimmest option for tight bedroom corners.",
+      "An X-shaped back rod eliminates the wobble that plagues cheaper metal-frame shelves, while a 150 lb total capacity across premium metal and teak particle board shelves handles a real book collection with room to spare.\n\nBoth waterproof and anti-scratch coatings help it hold up over years of daily use, and an included anti-tilt kit is worth using in any bedroom.\n\nWorth calling out specifically: x-back rod eliminates wobble common in metal shelves. The catch is not the slimmest option for tight bedroom corners.",
     specs: [
       "23.6\"L x 11.8\"W x 62.2\"H",
       "Premium metal + teak particle board",
       "X-shaped back rod for stability",
       "30 lb/shelf (150 lb total)",
-      "Waterproof + anti-scratch, anti-tilt kit included",
+      "Waterproof + anti-scratch, anti-tilt kit included"
     ],
     pros: [
       "Best-selling and highest-rated all-rounder in this list",
       "X-back rod eliminates wobble common in metal shelves",
       "Waterproof and scratch-resistant finish",
-      "Versatile enough for a bedroom or office",
+      "Versatile enough for a bedroom or office"
     ],
     cons: [
       "Not the slimmest option for tight bedroom corners",
       "Open-shelf design offers no hidden storage",
-      "Vintage tone won't suit every bedroom decor",
+      "Vintage tone won't suit every bedroom decor"
     ],
     bestFor: "Buyers who want the most trusted, well-rounded bedroom bookshelf",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Metal + wood construction",
       "1 removable fabric drawer + backboard",
       "150 lb total capacity",
-      "4 adjustable feet, waterproof finish",
+      "4 adjustable feet, waterproof finish"
     ],
     pros: [
       "Removable fabric drawer for hidden small-item storage",
       "Compact 10.6-inch depth suits tight bedroom walls",
       "Most storage-efficient slim pick in this list",
-      "Adjustable feet handle uneven floors",
+      "Adjustable feet handle uneven floors"
     ],
     cons: [
       "Slightly lower rating than other picks here",
       "Fabric drawer isn't rated for heavy items",
-      "Narrower shelves than the full-width picks",
+      "Narrower shelves than the full-width picks"
     ],
     bestFor: "Buyers who want a slim bookshelf with a bit of hidden drawer storage",
   },
@@ -211,24 +211,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41BOY-DYb9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CWVBV886?tag=deskfinds0d-20",
     description:
-      "Yoobure's triangular structure adds real stability to a corner-fit design, and curved shelves with rounded edges give it a softer, more finished look than the boxier corner units on this list. Premium wood paired with thick steel supports a 33 lb per-shelf rating for a 165 lb total, plenty for a bedroom book and decor collection.\n\nA clean white finish and no-tool assembly make it one of the easiest and best-looking corner picks here, backed by a strong 4.7-star average and an included anti-tip kit.\n\nA genuine advantage here is that curved, rounded-edge shelves look more refined. The tradeoff is corner-only footprint limits where it can go.",
+      "Yoobure's triangular structure adds real stability to a corner-fit design, and curved shelves with rounded edges give it a softer, more finished look than the boxier corner units on this list. Premium wood paired with thick steel supports a 33 lb per-shelf rating for a 165 lb total, plenty for a bedroom book and decor collection.\n\nA genuine advantage here is that curved, rounded-edge shelves look more refined. The tradeoff is corner-only footprint limits where it can go.",
     specs: [
       "12.2\"W x 12.2\"D x 65.3\"H",
       "Premium wood + thick steel",
       "33 lb/shelf (165 lb total)",
       "Triangular structure + curved, rounded-edge shelves",
-      "Anti-tip kit, no-tool assembly",
+      "Anti-tip kit, no-tool assembly"
     ],
     pros: [
       "Triangular structure adds noticeable stability",
       "Curved, rounded-edge shelves look more refined",
-      "No-tool assembly is fast and simple",
-      "Strong 4.7-star rating",
+      "No-tool assembly is fast and simple"
     ],
     cons: [
       "Corner-only footprint limits where it can go",
       "White finish shows scuffs more than darker woods",
-      "Fewer reviews than the top-selling picks",
+      "Fewer reviews than the top-selling picks"
     ],
     bestFor: "A bedroom corner that needs both stability and good looks",
   },
@@ -249,18 +248,17 @@ export const products: GuideProduct[] = [
       "FSC-certified wood + metal",
       "40 lb/shelf (200 lb total, highest among standard 5-tier picks)",
       "X-shaped back rod",
-      "Waterproof + anti-scratch finish",
+      "Waterproof + anti-scratch finish"
     ],
     pros: [
       "Highest per-shelf capacity among standard bedroom bookshelves",
       "FSC-certified sustainable wood",
-      "X-back rod reinforcement prevents wobble",
-      "Strong 4.7-star rating",
+      "X-back rod reinforcement prevents wobble"
     ],
     cons: [
       "Wider 23.6-inch footprint needs more wall space than slim picks",
       "No enclosed storage",
-      "Industrial look may not suit every bedroom",
+      "Industrial look may not suit every bedroom"
     ],
     bestFor: "Buyers who want maximum per-shelf load capacity in a standard bookshelf",
   },
@@ -281,21 +279,21 @@ export const products: GuideProduct[] = [
       "P2 grade MDF + steel",
       "4 open shelves + 2 concealing doors",
       "300 lb total capacity (highest in this list)",
-      "Fixed rod, no-wobble construction",
+      "Fixed rod, no-wobble construction"
     ],
     pros: [
       "Only pick with 2 concealing doors for hidden storage",
       "Highest total capacity in this list at 300 lbs",
       "Fixed rod construction eliminates wobble",
-      "Tallest unit here at 70.9 inches",
+      "Tallest unit here at 70.9 inches"
     ],
     cons: [
       "Most expensive pick in this list",
       "Lowest rating among the 8 bedroom picks",
-      "Takes up more wall space than the slim or corner options",
+      "Takes up more wall space than the slim or corner options"
     ],
     bestFor: "A bedroom that needs a mix of open display shelves and fully hidden storage",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -345,11 +343,11 @@ export const faq: FaqItem[] = [
   {
     q: "What's the easiest bedroom bookshelf to assemble?",
     a: "The Yoobure 5-Tier Corner Bookshelf uses no-tool assembly, making it one of the fastest picks in this list to set up.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-bookshelf-5-tier", title: "Best 5-Tier Bookshelves (2026)" },
   { href: "/guide/best-bookshelf-with-doors", title: "Best Bookshelves with Doors (2026)" },
-  { href: "/guide/best-bookshelf-for-office", title: "Best Bookshelves for Office (2026)" },
+  { href: "/guide/best-bookshelf-for-office", title: "Best Bookshelves for Office (2026)" }
 ];

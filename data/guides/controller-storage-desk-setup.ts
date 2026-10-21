@@ -12,7 +12,7 @@ export const controllerStorageDeskSetupGuide: Guide = {
     "headset hook desk mount",
     "controller charging stand worth it",
     "gaming desk accessory storage",
-    "wall mount for game controllers",
+    "wall mount for game controllers"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const controllerStorageDeskSetupGuide: Guide = {
     "gaming-desk-vs-office-desk",
     "pc-tower-placement-desk-setup",
     "desk-organizer-types-explained",
-    "wireless-charging-stand-explained",
+    "wireless-charging-stand-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const controllerStorageDeskSetupGuide: Guide = {
       question: "Does leaving a controller on a charging stand constantly damage its battery over time?",
       answer:
         "Modern charging stands and controllers generally include charge management to prevent overcharging damage, though as with most rechargeable devices, occasionally letting the battery drain and recharge rather than leaving it perpetually topped off is a reasonable general battery health practice.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const controllerStorageDeskSetupGuide: Guide = {
     {
       heading: "Why Charging Stands Reduce a Common Small Daily Friction",
       body: `The habit of remembering to plug in a controller after a gaming session, only to discover next time that it wasn't actually charging properly or the cable came loose, is a small but recurring frustration a dedicated charging stand directly addresses by making the charging action as simple as setting the controller down in its designated spot. This behavioral simplicity, more than any dramatic time savings, is the actual practical value a charging stand provides over a standard charging cable.`,
-    },
+    }
   ],
 };

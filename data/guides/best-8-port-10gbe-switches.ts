@@ -129,20 +129,20 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $156.98",
+          "Under $160",
           "5-Port 10Gb RJ45 Web Managed Ethernet Switch"
         ],
         [
-          "Around $175.99",
+          "Under $180",
           "Ztyuav 8-Port Unmanaged 10Gbe Ethernet Switch"
         ],
         [
-          "Around $251.98",
+          "Under $300",
           "8-Port 10G Ethernet Switch Unmanaged"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -190,7 +190,7 @@ export const faq = [
     "a": "No. The total PoE budget is shared across all active PoE ports, so if you power several high-draw devices simultaneously, the switch may not be able to deliver every port's maximum rated wattage at the same time. Check the total budget against your actual device count and power needs."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "8-Port 10G Ethernet Switch Unmanaged is aimed at buyers prioritizing 8x true 10g rj45 ports, 160gbps capacity." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "8-Port 10G Ethernet Switch Unmanaged is aimed at buyers prioritizing 8x true 10g rj45 ports, 160gbps capacity." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-24-port-10gbe-switches","title":"Best 24-Port 10GbE Switches in 2026"},{"href":"/guide/best-16-port-10gbe-switches","title":"Best 16-Port 10GbE Switches in 2026"},{"href":"/guide/best-4-port-10gbe-switches","title":"Best 4-Port 10GbE Switches in 2026"}];

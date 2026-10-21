@@ -193,36 +193,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $259.00",
+          "Under $300",
           "Jackery Explorer 300 Portable Power Station"
         ],
         [
-          "Around $359.00",
+          "Under $400",
           "PECRON F1000LFP Power Station"
         ],
         [
-          "Around $399.99",
+          "Under $400",
           "UDPOWER S1200 Portable Power Station"
         ],
         [
-          "Around $448.99",
+          "Under $450",
           "BLUETTI Elite 100 V2 Portable Power Station"
         ],
         [
-          "Around $499.00",
+          "Under $500",
           "EcoFlow DELTA 3 Classic Portable Power Station"
         ],
         [
-          "Around $499.00",
+          "Under $500",
           "Jackery Explorer 1000 v2 Portable Power Station"
         ],
         [
-          "Around $669.00",
+          "Under $700",
           "AFERIY P210 Solar Generator"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -270,7 +270,7 @@ export const faq = [
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "PECRON F1000LFP Power Station is aimed at buyers prioritizing 960wh, 1500w ac, 23.9 lbs." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "PECRON F1000LFP Power Station is aimed at buyers prioritizing 960wh, 1500w ac, 23.9 lbs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

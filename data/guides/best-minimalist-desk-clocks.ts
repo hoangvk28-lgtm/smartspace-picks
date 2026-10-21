@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "minimalist desk clock";
 export const introParagraphs = [
   "A minimalist desk clock is defined here by restraint: a plain case, a legible face, and no clutter of extra buttons, colors, or decorative elements competing for attention. This is an aesthetic judgment rather than a spec, so we picked from our verified pool based on genuinely clean product photos and simple layouts, not marketing language alone.",
-  "We're covering one analog pick and two LED digital clocks whose black cases and simple digit layouts read as clean rather than busy, even though digital displays inherently show more information than a bare analog dial.",
+  "We're covering one analog pick and two LED digital clocks whose black cases and simple digit layouts read as clean rather than busy, even though digital displays inherently show more information than a bare analog dial."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "6 min";
@@ -75,7 +75,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Judged visual clutter from actual listing photos", description: "Assessed each clock's case design and button layout from its real product photos rather than assuming a plain description implies a clean look." },
   { title: "Weighed extra readouts against visual simplicity", description: "Considered whether temperature, date, or humidity displays disrupt a clean look or integrate into a single cohesive digit block." },
   { title: "Checked whether remote controls reduce visible clutter", description: "Noted that a remote-operated clock can keep its own face free of buttons, a genuine minimalist advantage over button-heavy alternatives." },
-  { title: "Prioritized black and neutral cases over bright or busy finishes", description: "Favored picks with restrained color palettes that fit a minimalist desk aesthetic over colorful or pattern-heavy alternatives." },
+  { title: "Prioritized black and neutral cases over bright or busy finishes", description: "Favored picks with restrained color palettes that fit a minimalist desk aesthetic over colorful or pattern-heavy alternatives." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -209,11 +209,11 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "What makes a desk clock minimalist?", a: "A plain case, simple digit or dial layout, and neutral colors with no unnecessary buttons or decorative elements, judged from the actual product photos rather than marketing language." },
   { q: "Is an analog or digital clock more minimalist?", a: "A bare analog dial is typically the cleanest option since it shows only the time. A well-designed digital clock can still look clean if its extra readouts integrate into a cohesive display." },
-  { q: "Do minimalist clocks cost more?", a: "Not necessarily. Minimalism here is a design choice, not a premium feature, and the picks in this guide span a range of prices." },
+  { q: "Do minimalist clocks cost more?", a: "Not necessarily. Minimalism here is a design choice, not a premium feature, and the picks in this guide span a range of prices." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-silent-desk-clocks", title: "Best Silent Desk Clocks (2026)" },
   { href: "/guide/best-non-ticking-desk-clocks", title: "Best Non-Ticking Desk Clocks (2026)" },
-  { href: "/guide/best-led-desk-clocks", title: "Best LED Desk Clocks (2026)" },
+  { href: "/guide/best-led-desk-clocks", title: "Best LED Desk Clocks (2026)" }
 ];

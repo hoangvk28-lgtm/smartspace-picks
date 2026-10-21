@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop charging carts for schools";
 export const introParagraphs = [
   "A school deployment is broader than one classroom: it needs a cart design a district can standardize across multiple rooms, with predictable service and replacement parts. We compared confirmed capacity, mixed-device compatibility, and review base rather than treating every classroom cart as automatically school-ready.",
-  "None of these listings had independently verified district-level compatibility data across multiple device models, so we're flagging that as something to confirm directly with the seller before a multi-room rollout.",
+  "None of these listings had independently verified district-level compatibility data across multiple device models, so we're flagging that as something to confirm directly with the seller before a multi-room rollout."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -62,9 +62,9 @@ export const products: GuideProduct[] = [
     reviews: "78",
     imageUrl: "https://m.media-amazon.com/images/I/41gKt63zFUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B57QJ8QC?tag=deskfinds0d-20",
-    description: "Standardizing across several classrooms means the setup labor multiplies with every cart, and this ships 95% assembled, attach the wheels, cord wrap, and handle, so a school deploying five or ten of these isn't losing a day to assembly. Both front and back doors lock independently, and the American-style ventilated steel frame is built specifically to avoid heat buildup when all 20 slots are charging at once.\n\nAt 78 reviews, this has the deepest track record of any 20-device cart in this whole research pool, a meaningful signal when a school is committing budget to multiple identical units rather than testing one.\n\nDeepest review base of any 20-device cart in this research (78 reviews). That said, lower capacity than the 30-device options. Neither should be a surprise once you know to look for it.",
+    description: "Standardizing across several classrooms means the setup labor multiplies with every cart, and this ships 95% assembled, attach the wheels, cord wrap, and handle, so a school deploying five or ten of these isn't losing a day to assembly. Both front and back doors lock independently, and the American-style ventilated steel frame is built specifically to avoid heat buildup when all 20 slots are charging at once.\n\nThat said, lower capacity than the 30-device options. Neither should be a surprise once you know to look for it.",
     specs: ["95% pre-assembled, minimal per-unit setup labor", "20-device capacity, independently locking front/back doors", "Ventilated steel frame, American-style airflow design"],
-    pros: ["95% pre-assembled, minimizes labor when deploying multiple carts for standardization", "Deepest review base of any 20-device cart in this research (78 reviews)"],
+    pros: ["95% pre-assembled, minimizes labor when deploying multiple carts for standardization"],
     cons: ["Lower capacity than the 30-device options"],
     bestFor: "Standardizing across multiple classrooms without added assembly labor.",
   },
@@ -147,15 +147,15 @@ export const products: GuideProduct[] = [
     pros: ["Lowest price in this comparison, with UL-listed power strips despite the low cost"],
     cons: ["No review history or confirmed rating available yet", "Open design, no locking storage"],
     bestFor: "A small pilot classroom set before a larger, more expensive commitment.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Standardization potential across multiple rooms", description: "We weighed whether a manufacturer offers matching capacity tiers (like Meteteel's 18- and 20-device siblings) that let a school mix class sizes without abandoning one brand for parts and service." },
   { title: "Mixed-device compatibility disclosure", description: "Where a listing explicitly claims Chromebook, iPad, and laptop compatibility, we noted it as a real school-relevant feature rather than assuming any 30-device cart handles a mixed fleet identically." },
-  { title: "Review base relative to fleet-wide commitment risk", description: "A cart with 0-1 reviews carries more real risk when a district is ordering ten units for a building than when one classroom orders a single cart." },
-  { title: "Price scaled against district versus single-classroom budgets", description: "We separated enterprise-tier pricing (Tripp Lite) from single-classroom budgets (Kraftgen, POCHAR) since these serve genuinely different procurement scales." },
+  
+  { title: "Price scaled against district versus single-classroom budgets", description: "We separated enterprise-tier pricing (Tripp Lite) from single-classroom budgets (Kraftgen, POCHAR) since these serve genuinely different procurement scales." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -286,12 +286,12 @@ export const faq: FaqItem[] = [
   { q: "What's the best cart for a full district deployment?", a: "The Tripp Lite 42-Port AC Mobile Charging Cart, from a brand with an established institutional support channel, though pilot one unit first given the thin review base." },
   { q: "Is there an option built specifically for K-12 classrooms?", a: "Yes, the POCHAR 30 Devices Laptop Charging Cart for K-12 Classrooms is explicitly marketed for that use case." },
   { q: "Can one cart handle Chromebooks, iPads, and laptops together?", a: "The POCHAR 30 Unit Device Charging Station explicitly claims mixed-fleet compatibility, though we could not independently confirm slot behavior with all three device types loaded simultaneously." },
-  { q: "What's the cheapest option for a small pilot classroom?", a: "The Kraftgen 16-Bay Open Charging Cart at $129.99, though it has no review history in our data yet." },
-  { q: "Should I standardize on one manufacturer across a building?", a: "It can simplify parts and service. The Meteteel 18- and 20-device carts share a manufacturer and review base, letting you match cart size to class roster without switching brands." },
+  { q: "What's the cheapest option for a small pilot classroom?", a: "The Kraftgen 16-Bay Open Charging Cart at under $130, though it has no review history in our data yet." },
+  { q: "Should I standardize on one manufacturer across a building?", a: "It can simplify parts and service. The Meteteel 18- and 20-device carts share a manufacturer and review base, letting you match cart size to class roster without switching brands." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-charging-carts", title: "Best Laptop Charging Carts (2026)" },
   { href: "/guide/best-laptop-charging-carts-for-classrooms", title: "Best Laptop Charging Carts for Classrooms (2026)" },
-  { href: "/guide/best-30-laptop-charging-carts", title: "Best 30-Laptop Charging Carts (2026)" },
+  { href: "/guide/best-30-laptop-charging-carts", title: "Best 30-Laptop Charging Carts (2026)" }
 ];

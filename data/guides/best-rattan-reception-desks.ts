@@ -145,20 +145,20 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $1,559.00",
+          "Under $1,600",
           "Fully Assembled Rattan Reception Desk"
         ],
         [
-          "Around $1,659.00",
+          "Under $1,700",
           "Fully Assembled Rattan Reception Desk"
         ],
         [
-          "Around $1,749.99",
+          "Under $1,800",
           "Anzhap 55\" Fully Assembled Reception Desk with Rattan Weaving"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -206,7 +206,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Tov Furniture Amara Natural Rattan Desk is aimed at buyers prioritizing handmade construction, glass desktop over rattan base." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Tov Furniture Amara Natural Rattan Desk is aimed at buyers prioritizing handmade construction, glass desktop over rattan base." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks-for-spa","title":"best-reception-desks-for-spa"},{"href":"/guide/best-modern-reception-desks","title":"best-modern-reception-desks"},{"href":"/guide/best-reception-desks-for-lobby","title":"best-reception-desks-for-lobby"}];

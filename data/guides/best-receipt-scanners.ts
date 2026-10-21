@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "receipt scanner";
 export const introParagraphs = [
   "Thermal receipt paper, the vast majority of retail receipts, begins fading within months due to heat, light, and friction exposure. A receipt scanner purchased for 'someday' batch scanning does nothing to prevent fading that's already occurred before the receipt reaches the scanner, scan promptly rather than letting receipts pile up.",
-  "Also worth knowing: crumpled, folded, or curled receipts jam more frequently in narrow-width receipt scanners than in standard-width ADF scanners, since the narrow paper path has less mechanical tolerance for the physical deformities common to pocket-stored receipts.",
+  "Also worth knowing: crumpled, folded, or curled receipts jam more frequently in narrow-width receipt scanners than in standard-width ADF scanners, since the narrow paper path has less mechanical tolerance for the physical deformities common to pocket-stored receipts."
 ];
 export const lastUpdated = "2026-07-29";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall for Receipts",
     name: "Brother DS-640 Compact Mobile Document Scanner",
     price: "$134.99",
-    rating: "4.3 stars from 6,522 Amazon ratings",
-    reviews: "6,522 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Bx7Z39uKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B083R36CY4?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best Dedicated Portable Sheetfed Pick",
     name: "HP Small USB Document & Photo Scanner for Portable 1-Sided Sheetfed Digital Scanning",
     price: "$139.99",
-    rating: "4.3 stars from 385 Amazon ratings",
-    reviews: "385 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/4143ozv-CML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6NL3HFX?tag=deskfinds0d-20",
     description:
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best ADF Hopper for Receipt Batches",
     name: "Canon imageFORMULA R10 Portable Document Scanner, USB Powered, Duplex",
     price: "$184.00",
-    rating: "4.1 stars from 2,338 Amazon ratings",
-    reviews: "2,338 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/218Q14ube6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08FBHTD9B?tag=deskfinds0d-20",
     description:
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Auto-Crop and Cloud Expense Filing",
     name: "ScanSnap iX1300 Wireless or USB Double-Sided Color Document Scanner, White",
     price: "$279.99",
-    rating: "4.2 stars from 1,768 Amazon ratings",
-    reviews: "1,768 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41yWYf2uT0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FX5DWBK?tag=deskfinds0d-20",
     description:
@@ -94,8 +94,8 @@ export const products: GuideProduct[] = [
     badge: "Same Receipt Capability, Black Finish",
     name: "ScanSnap iX1300 Wireless or USB Double-Sided Color Document Scanner, Black",
     price: "$279.99",
-    rating: "4.2 stars from 1,768 Amazon ratings",
-    reviews: "1,768 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41VnXqJ86dL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FX5SRQT?tag=deskfinds0d-20",
     description:
@@ -111,8 +111,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Long Receipts",
     name: "Epson Workforce ES-50 Compact & Lightweight Mobile Document Scanner",
     price: "$129.99",
-    rating: "4.3 stars from 5,857 Amazon ratings",
-    reviews: "5,857 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21YnTPRESJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KQZWPYN?tag=deskfinds0d-20",
     description:
@@ -121,14 +121,14 @@ export const products: GuideProduct[] = [
     pros: ["Handles unusually long receipts up to 72 inches", "Fast per-page scan time for quick individual jobs", "Includes OCR for searchable receipt PDFs", "Lowest price in this guide"],
     cons: ["Single-sheet feed, no batch hopper for multiple receipts at once", "Largest review base but still single-sheet limited", "No explicit expense-software data extraction beyond OCR"],
     bestFor: "Buyers who deal with unusually long receipts and want fast individual scanning",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Thermal receipt fading urgency framing", description: "Emphasized that thermal receipts fade within months regardless of scanner quality, a scanner purchased for 'someday' batch scanning does nothing to recover data that's already faded before it reaches the machine." },
   { title: "Crumpled/curled receipt jam tolerance", description: "Noted that narrow-path dedicated receipt scanners generally have less mechanical tolerance for the physical deformities common to pocket-stored receipts than a standard-width ADF scanner." },
-  { title: "Expense software integration depth disclosure", description: "Distinguished basic image/OCR export from deeper structured-data extraction (merchant, date, total, category) directly into expense platforms, none of the picks here confirm the deeper structured extraction." },
+  { title: "Expense software integration depth disclosure", description: "Distinguished basic image/OCR export from deeper structured-data extraction (merchant, date, total, category) directly into expense platforms, none of the picks here confirm the deeper structured extraction." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -259,11 +259,11 @@ export const faq: FaqItem[] = [
   { q: "Will scanning old receipts recover data that's already faded?", a: "No. Thermal receipt paper fades within months due to heat, light, and friction exposure regardless of when you eventually scan it. Digitize receipts promptly rather than letting a pile accumulate for later." },
   { q: "Do dedicated receipt scanners jam less than general document scanners on crumpled receipts?", a: "Not necessarily. Narrow-path receipt scanners actually have less mechanical tolerance for curled or folded receipts than standard-width ADF document scanners, which can accommodate more physical deformity." },
   { q: "Can these scanners automatically extract the total and date into my expense app?", a: "Not confirmed for any pick in this guide. Basic OCR export is standard, but genuine structured data extraction (merchant, date, total, category) directly into expense platforms is a deeper, separately-verified capability." },
-  { q: "Should I use a single-sheet feed or ADF hopper scanner for receipts?", a: "Depends on volume. Single-sheet feed works fine for occasional receipts; an ADF hopper (like the Canon R10 or ScanSnap iX1300) lets you batch several receipts at once for a regular expense-tracking routine." },
+  { q: "Should I use a single-sheet feed or ADF hopper scanner for receipts?", a: "Depends on volume. Single-sheet feed works fine for occasional receipts; an ADF hopper (like the Canon R10 or ScanSnap iX1300) lets you batch several receipts at once for a regular expense-tracking routine." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-document-scanners-for-accountants", title: "Best Document Scanners for Accountants (2026)" },
   { href: "/guide/best-document-scanners-for-invoices", title: "Best Document Scanners for Invoices (2026)" },
-  { href: "/guide/best-document-scanners-for-tax-documents", title: "Best Document Scanners for Tax Documents (2026)" },
+  { href: "/guide/best-document-scanners-for-tax-documents", title: "Best Document Scanners for Tax Documents (2026)" }
 ];

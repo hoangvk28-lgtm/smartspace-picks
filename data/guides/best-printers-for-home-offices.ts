@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "home office printer";
 export const introParagraphs = [
   "A home office printer has to handle more than an occasional home printer: multiple family members or roommates sharing it over wifi, scanning contracts and receipts that need to stay readable, and enough duty cycle headroom to not choke during a busy week. Most listings quote a rated duty cycle without explaining that it's a maximum ceiling, not a healthy day-to-day volume.",
-  "Below are 8 printers we evaluated on duty cycle versus realistic monthly volume, scan resolution, and genuinely useful features versus legacy ones like fax that most 2026 home offices don't need. We also include one Bluetooth label maker, called out honestly as a specialty accessory rather than a primary home-office printer.",
+  "Below are 8 printers we evaluated on duty cycle versus realistic monthly volume, scan resolution, and genuinely useful features versus legacy ones like fax that most 2026 home offices don't need. We also include one Bluetooth label maker, called out honestly as a specialty accessory rather than a primary home-office printer."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Built-in fax",
       "Mobile printing support",
       "Wireless all-in-one",
-      "Lowest price in this list",
+      "Lowest price in this list"
     ],
     pros: [
       "Lowest price in this list",
       "Auto document feeder for multi-page scans",
       "Straightforward wireless setup",
-      "Fax included if you happen to need it",
+      "Fax included if you happen to need it"
     ],
     cons: [
       "Fax is unused by most home offices in 2026",
       "Standard cartridges, higher cost per page than ink-tank models",
-      "Lighter-duty duty cycle than the higher-end picks",
+      "Lighter-duty duty cycle than the higher-end picks"
     ],
     bestFor: "A single-user home office on a tight budget",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Duplex printing",
       "Wireless connectivity for multi-device use",
       "Compact design",
-      "Intuitive control panel",
+      "Intuitive control panel"
     ],
     pros: [
       "Clear display simplifies shared, multi-user setups",
       "Duplex printing standard",
       "Handles a printer queue from multiple devices",
-      "Compact enough for most home offices",
+      "Compact enough for most home offices"
     ],
     cons: [
       "Standard cartridge inkjet, higher cost per page at volume",
       "Not built for simultaneous heavy print jobs from multiple users",
-      "No fax if that's a requirement",
+      "No fax if that's a requirement"
     ],
     bestFor: "A home office shared by 2-3 people over the same wifi network",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Duplex printing",
       "Highest duty cycle ceiling in this list",
       "Wireless + mobile printing",
-      "Works with Alexa",
+      "Works with Alexa"
     ],
     pros: [
       "Highest duty cycle headroom in this list",
       "Lower cost per page at real high-volume use",
       "Fast, sharp text output for documents",
-      "No idle-ink drying risk like inkjet cartridges",
+      "No idle-ink drying risk like inkjet cartridges"
     ],
     cons: [
       "Highest upfront price in this list",
       "Monochrome only, no color printing",
-      "Duty cycle rating should not be read as a recommended volume",
+      "Duty cycle rating should not be read as a recommended volume"
     ],
     bestFor: "A home office with genuinely high, sustained text-document volume",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Duplex printing",
       "3-month Instant Ink trial included",
       "AI-capable setup",
-      "Best-for-Home Office rated",
+      "Best-for-Home Office rated"
     ],
     pros: [
       "Handles a multi-device wifi print queue well",
       "Auto document feeder for scanning multi-page paperwork",
       "Higher-capacity cartridges than budget inkjets",
-      "AI-capable setup tools",
+      "AI-capable setup tools"
     ],
     cons: [
       "Pricier than the basic PIXMA picks",
       "Instant Ink subscription cost after the trial needs budgeting",
-      "Not as fast per page as the laser pick",
+      "Not as fast per page as the laser pick"
     ],
     bestFor: "A home office where 2-3 people print from different devices over wifi",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Duplex printing",
       "3-month Instant Ink trial",
       "AI-enabled setup",
-      "Best-for-Home Office rated",
+      "Best-for-Home Office rated"
     ],
     pros: [
       "Sized for frequent, regular home-office printing",
       "Auto document feeder built in",
       "Instant Ink trial reduces early cartridge cost",
-      "Reasonable price for the feature set",
+      "Reasonable price for the feature set"
     ],
     cons: [
       "Ties into HP's Instant Ink enrollment by default",
       "Larger footprint than the compact PIXMA models",
-      "Overkill for very light, occasional home offices",
+      "Overkill for very light, occasional home offices"
     ],
     bestFor: "A home office with regular, frequent daily printing",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "3-month Instant Ink trial included",
       "Standard cartridge inkjet",
       "AI-capable setup features",
-      "Lowest price in this list",
+      "Lowest price in this list"
     ],
     pros: [
       "Lowest price for a genuine home-office starter setup",
       "Instant Ink trial softens initial cartridge cost",
       "Compact wireless all-in-one",
-      "Simple setup for a single desk",
+      "Simple setup for a single desk"
     ],
     cons: [
       "Not built for multi-user wifi sharing at volume",
       "Scan resolution is basic, not ideal for dense text documents",
-      "Standard cartridges carry idle-ink drying risk",
+      "Standard cartridges carry idle-ink drying risk"
     ],
     bestFor: "A brand-new single-desk home office on a tight startup budget",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Duplex printing",
       "Copier/scanner built in",
       "1-year limited warranty",
-      "Easy setup",
+      "Easy setup"
     ],
     pros: [
       "Smallest footprint in this list",
       "Duplex printing included",
       "1-year warranty",
-      "Easy setup for a small home office",
+      "Easy setup for a small home office"
     ],
     cons: [
       "Lower duty cycle than the office-grade picks",
       "Standard cartridges, same idle-ink risk as other inkjets",
-      "Basic scan resolution for dense documents",
+      "Basic scan resolution for dense documents"
     ],
     bestFor: "A home office squeezed into a small room or corner desk",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Mobile app with multiple templates",
       "Compact, portable design",
       "Includes starter label tape",
-      "Not a document printer substitute",
+      "Not a document printer substitute"
     ],
     pros: [
       "Very affordable, genuinely useful for office filing systems",
       "Compact, no desk space required",
       "Easy setup via mobile app",
-      "Good for labeling folders, bins, and cables",
+      "Good for labeling folders, bins, and cables"
     ],
     cons: [
       "Cannot print documents or full pages",
       "Not a substitute for any of the printers in this list",
-      "Ongoing tape cost for heavy labeling use",
+      "Ongoing tape cost for heavy labeling use"
     ],
     bestFor: "A home-office filing and organization accessory, paired with a real printer",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Honest product category",
     description: "Confirmed each pick is a genuine home-office printer or clearly flagged it as a specialty accessory, like the Bluetooth label maker, rather than blurring the two together.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -466,11 +466,11 @@ export const faq: FaqItem[] = [
   {
     q: "Should I pick a laser or inkjet printer for a home office?",
     a: "A laser printer like the Brother DCP-L2640DW makes sense if your home office prints mostly black-and-white text at real sustained volume, since it has a lower cost per page over time. If you need color printing or your volume is lighter, one of the inkjet all-in-ones in this list is the better fit.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-home-use", title: "Best Printers for Home Use (2026)" },
   { href: "/guide/best-printer-stands-for-two-printers", title: "Best Printer Stands for Two Printers (2026)" },
-  { href: "/guide/best-printer-stands-with-storage", title: "Best Printer Stands with Storage (2026)" },
+  { href: "/guide/best-printer-stands-with-storage", title: "Best Printer Stands with Storage (2026)" }
 ];

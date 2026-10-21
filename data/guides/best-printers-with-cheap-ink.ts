@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "printer with cheap ink";
 export const introParagraphs = [
   "Manufacturer cost-per-page figures are based on an ISO standard of roughly 5 percent page coverage, plain text with wide margins, while real home printing, forms, graphs, colorful worksheets, often runs 10 to 20 percent coverage. That means actual cost per page can run 2 to 4 times higher than the number printed on the box, which is exactly why ink-tank printers pull so far ahead of cartridge models once real usage is factored in.",
-  "Below are 8 printers we evaluated on real-world cost per page rather than advertised figures, all ink-tank models from Epson, Canon, and HP, ranging from a $169.89 compact refillable printer to a $457.00 model built for sustained office volume.",
+  "Below are 8 printers we evaluated on real-world cost per page rather than advertised figures, all ink-tank models from Epson, Canon, and HP, ranging from an under-$170 compact refillable printer to an under-$500 model built for sustained office volume."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Color print, scan, and copy",
       "Wireless printing",
       "Includes ink bottles for setup",
-      "Compact all-in-one design",
+      "Compact all-in-one design"
     ],
     pros: [
       "Strong balance of upfront price and ongoing ink cost",
       "Bottled ink holds its cost advantage even at heavy coverage",
       "Simple setup",
-      "Scan and copy included",
+      "Scan and copy included"
     ],
     cons: [
       "No automatic document feeder",
       "Higher upfront cost than a basic cartridge inkjet",
-      "Integrated printhead limits long-term repairability",
+      "Integrated printhead limits long-term repairability"
     ],
     bestFor: "Households wanting the best balance of upfront cost and ongoing ink savings",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Color print, scan, and copy",
       "Wireless printing",
       "White finish",
-      "Compact all-in-one design",
+      "Compact all-in-one design"
     ],
     pros: [
       "Same cheap ink economics as the black ET-2800",
       "White finish suits a lighter desk aesthetic",
       "Simple setup",
-      "Scan and copy included",
+      "Scan and copy included"
     ],
     cons: [
       "No automatic document feeder",
       "Higher upfront cost than a basic cartridge inkjet",
-      "No functional difference from the cheaper-looking black version",
+      "No functional difference from the cheaper-looking black version"
     ],
     bestFor: "Buyers who want EcoTank ink economics with a lighter-colored finish",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Color print, scan, and copy",
       "Wireless printing",
       "Built for everyday home printing",
-      "Compact design",
+      "Compact design"
     ],
     pros: [
       "Lowest price of any ink-tank pick in this list",
       "Cheap ink cost per page even at this entry price",
       "Simple setup and controls",
-      "Scan and copy included",
+      "Scan and copy included"
     ],
     cons: [
       "No automatic document feeder",
       "Not built for sustained high-volume office printing",
-      "Integrated printhead limits repairability",
+      "Integrated printhead limits repairability"
     ],
     bestFor: "Budget buyers who still want ink-tank cost-per-page savings",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Automatic document feeder",
       "Fax and Ethernet",
       "Scanner and copier",
-      "Wireless and wired connectivity",
+      "Wireless and wired connectivity"
     ],
     pros: [
       "More features than the ET-2400 at nearly the same price",
       "Automatic document feeder included",
       "Ethernet option for stable networking",
-      "Same cheap ink cost per page as smaller EcoTank models",
+      "Same cheap ink cost per page as smaller EcoTank models"
     ],
     cons: [
       "Larger footprint than the entry EcoTank models",
       "Fax is unnecessary for most households",
-      "Not the cheapest upfront option in this list",
+      "Not the cheapest upfront option in this list"
     ],
     bestFor: "Home offices wanting document feeding and Ethernet without paying more for ink",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Print, scan, and copy",
       "Wireless printing (2.4GHz only)",
       "Compact footprint versus larger ink-tank models",
-      "No automatic document feeder",
+      "No automatic document feeder"
     ],
     pros: [
       "Lowest upfront price of any pick in this list",
       "2 years of included ink offsets early cost-per-page math",
       "Compact footprint",
-      "Ink-tank economics for high-volume printing",
+      "Ink-tank economics for high-volume printing"
     ],
     cons: [
       "2.4GHz-only wireless can complicate setup on some routers",
       "No automatic document feeder",
-      "HP has a history of restricting non-HP ink via firmware",
+      "HP has a history of restricting non-HP ink via firmware"
     ],
     bestFor: "Buyers who want the cheapest possible entry into ink-tank printing",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Photo-focused color output",
       "Print, copy, scan",
       "Works with Alexa",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     pros: [
       "Cheap ink cost comparable to Epson EcoTank",
       "Stronger photo quality than most ink-tank AIOs",
       "Alexa voice command support",
-      "Mid-range price for the feature set",
+      "Mid-range price for the feature set"
     ],
     cons: [
       "No automatic document feeder",
       "Canon-specific ink bottles, not interchangeable with Epson",
-      "Pricier upfront than the HP Smart Tank 5101",
+      "Pricier upfront than the HP Smart Tank 5101"
     ],
     bestFor: "Buyers who want cheap ink alongside stronger photo output",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Automatic document feeder",
       "2.4-inch color touchscreen",
       "Up to 3 years of ink refills rated",
-      "18 ppm print speed",
+      "18 ppm print speed"
     ],
     pros: [
       "Best cost-per-page performance at high, heavy-coverage volume",
       "Touchscreen simplifies status and troubleshooting",
       "Automatic document feeder included",
-      "Long-rated ink refill window",
+      "Long-rated ink refill window"
     ],
     cons: [
       "Highest upfront price among the Epson picks besides the ET-4850",
       "Larger footprint",
-      "More printer than a light user needs",
+      "More printer than a light user needs"
     ],
     bestFor: "Households or offices with heavy, high-coverage printing needs",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Fax and Ethernet included",
       "Automatic document feeder",
       "Scanner and copier",
-      "White finish, office-oriented design",
+      "White finish, office-oriented design"
     ],
     pros: [
       "Predictable low cost per page at sustained office volume",
       "Fax and Ethernet cover legacy small-office needs",
       "Automatic document feeder for multi-page scans",
-      "Stable wired networking option",
+      "Stable wired networking option"
     ],
     cons: [
       "Highest price in this list",
       "Fax is unnecessary for most households",
-      "Large footprint needs real desk or cabinet space",
+      "Large footprint needs real desk or cabinet space"
     ],
     bestFor: "Small offices prioritizing predictable low ink cost over years of use",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Feature fit relative to price",
     description: "Checked whether added features like automatic document feeders, fax, and Ethernet were priced fairly relative to the base cheap-ink models in the same lineup.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,12 +477,12 @@ export const faq: FaqItem[] = [
   {
     q: "Are Epson EcoTank and Canon MegaTank ink bottles interchangeable?",
     a: "No. Each brand uses its own bottle design and tank layout, so you can't substitute one brand's ink bottles for the other's printer. Factor local retail availability of your specific brand's ink into your decision if convenient restocking matters to you.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-cartridge-free-printers", title: "Best Cartridge-Free Printers (2026)" },
   { href: "/guide/best-printers-for-high-volume-printing", title: "Best Printers for High-Volume Printing (2026)" },
   { href: "/guide/best-printers-for-home-use", title: "Best All-in-One Printers for Home Use (2026)" },
-  { href: "/guide/best-printers-for-homeschooling", title: "Best Printers for Homeschooling (2026)" },
+  { href: "/guide/best-printers-for-homeschooling", title: "Best Printers for Homeschooling (2026)" }
 ];

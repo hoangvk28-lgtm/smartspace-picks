@@ -143,7 +143,7 @@ export default async function Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best 10 Inch LCD Writing Tablets", item: `${SITE_URL}/guide/best-10-inch-lcd-writing-tablets` },
+      { "@type": "ListItem", position: 3, name: "Best 10 Inch LCD Writing Tablets", item: `${SITE_URL}/guide/best-10-inch-lcd-writing-tablets` }
     ],
   };
 

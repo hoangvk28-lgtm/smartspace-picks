@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This dock's combination of native USB-C Alt Mode video output and DisplayLink graphics technology specifically bypasses native single-display limitations on Apple M1/M2/M3/M4/M5 MacBooks, delivering up to 3 extended HDMI displays where a purely native-video dock would cap Apple Silicon Macs at one screen. Its listing specifically confirms compatibility across Dell XPS and Latitude, HP EliteBook and ProBook, Lenovo ThinkPad, and MacBook M series laptops.\n\nCompared to the Acer and HoDo picks below, this one is specifically positioned for enterprise hybrid-team deployments, backed by North American technical support and a compatibility guarantee that promises resolution if something doesn't work. Its 100W USB-C Power Delivery ensures continuous host charging specifically validated for enterprise environments.\n\nBest for buyers who want genuine triple-display support on Apple Silicon Macs plus enterprise-grade support and compatibility guarantees.",
     specs: ["Triple display: 1x 4K@30Hz Alt Mode + 2x 1080p@60Hz DisplayLink", "Bypasses native single-display limits on Apple M1-M5 Macs", "100W Power Delivery, lifetime North American support"],
     pros: ["Specifically bypasses Apple Silicon's native single-display limitation", "Confirmed compatibility across Dell, HP, Lenovo, and Mac laptop brands", "Backed by a compatibility guarantee and lifetime technical support"],
-    cons: ["Highest price in this comparison at $159.95", "Not compatible with Linux, and HDCP is not supported"],
+    cons: ["Highest price in this comparison at under $160", "Not compatible with Linux, and HDCP is not supported"],
     bestFor: "buyers who want genuine triple-display support on Apple Silicon Macs with enterprise support",
   },
   {
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Genuine triple-display support on Apple Silicon Macs", "Plugable USB C Triple Display Docking Station"],
         ["Triple independent displays on Windows with robust power", "Acer 13-in-1 Laptop Docking Station"],
         ["Dual 4K displays with a device-lock feature at the lowest price", "Acer USB-C Docking Station, 9-in-1"],
-        ["VGA legacy support with a detailed compatibility list", "HoDo USB C Docking Station, 8-in-1"],
+        ["VGA legacy support with a detailed compatibility list", "HoDo USB C Docking Station, 8-in-1"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $35", "Acer 9-in-1 Dual Monitor ($34.97)"],
-        ["Under $38", "HoDo 8-in-1 ($37.99)"],
-        ["Under $110", "Acer 13-in-1 Triple Display ($109.99)"],
-        ["Under $160", "Plugable Triple Display Docking Station ($159.95)"],
+        ["Under $35", "Acer 9-in-1 Dual Monitor (under $35)"],
+        ["Under $38", "HoDo 8-in-1 (under $40)"],
+        ["Under $110", "Acer 13-in-1 Triple Display (under $110)"],
+        ["Under $160", "Plugable Triple Display Docking Station (under $160)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Native Alt Mode vs DisplayLink-Assisted Multi-Display",
     cards: [
       { label: "Native Alt Mode only (Acer picks, HoDo)", text: "Relies purely on your laptop's own DisplayPort Alt Mode output, meaning Apple Silicon Macs are limited to mirroring or a single extended display." },
-      { label: "DisplayLink-assisted (Plugable)", text: "Combines native Alt Mode with DisplayLink graphics technology to bypass Apple Silicon's native single-display limitation, unlocking genuine multi-display extension on Mac." },
+      { label: "DisplayLink-assisted (Plugable)", text: "Combines native Alt Mode with DisplayLink graphics technology to bypass Apple Silicon's native single-display limitation, unlocking genuine multi-display extension on Mac." }
     ],
     note: "If you're on a Mac and want genuine extended multi-display support rather than mirroring, the Plugable pick's DisplayLink assistance is essential. If you're exclusively on Windows, any of the native Alt Mode picks work well.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your situation", "Recommended pick"],
       rows: [
         ["Own a ThinkPad X1 Carbon Gen 7/8 or Dell Latitude 3440/3340", "None of these picks are compatible; verify your exact port supports video output"],
-        ["Own a mainstream Dell XPS, HP EliteBook, or MacBook M-series", "Plugable pick specifically confirms these brands"],
+        ["Own a mainstream Dell XPS, HP EliteBook, or MacBook M-series", "Plugable pick specifically confirms these brands"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Buyers Uncertain About Their Laptop's USB-C Video Support Specifically",
     cards: [
       { label: "Look for", text: "A listing that explicitly names incompatible laptop models, not just a generic 'requires DisplayPort Alt Mode' disclaimer, since many buyers don't know whether their specific laptop's USB-C port supports video output." },
-      { label: "In this comparison", text: "The HoDo pick specifically names ThinkPad X1 Carbon Gen 7/8, certain Dell Latitude models, and HP EliteBook 855 G7/G8 as explicitly incompatible, a genuinely useful checklist." },
+      { label: "In this comparison", text: "The HoDo pick specifically names ThinkPad X1 Carbon Gen 7/8, certain Dell Latitude models, and HP EliteBook 855 G7/G8 as explicitly incompatible, a genuinely useful checklist." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You're on a Mac and want genuine extended triple-display support rather than mirroring, where the Plugable pick's DisplayLink technology justifies its $159.95 price." },
-      { label: "Save if", text: "You want dual 4K displays with a security lock feature, where the Acer 9-in-1 delivers that for $34.97, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You're on a Mac and want genuine extended triple-display support rather than mirroring, where the Plugable pick's DisplayLink technology justifies its under $160 price." },
+      { label: "Save if", text: "You want dual 4K displays with a security lock feature, where the Acer 9-in-1 delivers that for under $35, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

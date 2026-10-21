@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $487.20",
+          "Under $500",
           "Genmitsu 3020-PRO Ultra CNC Router Machine"
         ],
         [
-          "Around $599.00",
+          "Under $600",
           "AnoleX CNC Router Machine 3030-Evo Max"
         ],
         [
-          "Around $729.00",
+          "Under $750",
           "AnoleX CNC Router Machine 3060-Evo Max"
         ],
         [
-          "Around $944.19",
+          "Under $950",
           "AnoleX CNC Router Machine 4030-Evo Ultra 2"
         ],
         [
-          "Around $1,063.18",
+          "Under $1,100",
           "Genmitsu 3030-PROVer Ultra CNC Router Machine for Metal + 1.5KW Water-Cooled Spindle"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "AnoleX CNC Router Machine 3030-Evo Max is aimed at buyers prioritizing +/-0.01mm repeatability, +/-0.05mm on 6061 aluminum." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "AnoleX CNC Router Machine 3030-Evo Max is aimed at buyers prioritizing +/-0.01mm repeatability, +/-0.05mm on 6061 aluminum." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-steel-desktop-cnc-machines","title":"Best Steel Desktop CNC Machines in 2026"},{"href":"/guide/best-desktop-cnc-machines-for-stainless-steel","title":"Best Desktop CNC Machines for Stainless Steel in 2026"},{"href":"/guide/best-desktop-cnc-machines","title":"Best Desktop CNC Machines in 2026"}];

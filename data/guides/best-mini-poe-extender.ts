@@ -100,7 +100,7 @@ export const howToChoose = [
         ["A compact footprint with high wattage and auto-recovery", "CONETCH 3-Port Mini PoE Extender"],
         ["Extreme distance over existing spare wiring", "Mini 2-Wire Ethernet PoE Converter & Extender Kit"],
         ["The simplest possible passive 2-device splitter", "EmpireTech PoE Extender Mini Passive 2 Port"],
-        ["A multi-pack for extending several camera runs at once", "CENTROPOWER 5-Pack PoE Extender Kit"],
+        ["A multi-pack for extending several camera runs at once", "CENTROPOWER 5-Pack PoE Extender Kit"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $21", "CONETCH 3-Port Mini PoE Extender ($20.99)"],
-        ["Under $32", "EmpireTech PoE Extender Mini Passive ($31.99)"],
-        ["Under $61", "CENTROPOWER 5-Pack Kit ($60.99, covers 5 units)"],
-        ["Under $260", "Mini 2-Wire Converter Kit ($259.00)"],
+        ["Under $21", "CONETCH 3-Port Mini PoE Extender (under $25)"],
+        ["Under $32", "EmpireTech PoE Extender Mini Passive (under $35)"],
+        ["Under $61", "CENTROPOWER 5-Pack Kit (under $70, covers 5 units)"],
+        ["Under $260", "Mini 2-Wire Converter Kit (under $300)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Extreme Distance Specialty vs Compact Multi-Port Value",
     cards: [
       { label: "Extreme distance specialty (2-Wire Kit)", text: "Reaches distances no other pick in this comparison comes close to, using existing spare wiring and requiring zero local power at the remote end, at a premium price for that unique capability." },
-      { label: "Compact multi-port value (CONETCH, EmpireTech, CENTROPOWER)", text: "All three cover standard 100-400m ranges at a fraction of the 2-Wire kit's price, suited to typical installation distances." },
+      { label: "Compact multi-port value (CONETCH, EmpireTech, CENTROPOWER)", text: "All three cover standard 100-400m ranges at a fraction of the 2-Wire kit's price, suited to typical installation distances." }
     ],
     note: "If your installation genuinely requires reaching a device thousands of feet away over existing wiring, the 2-Wire kit's unique technology justifies its price. For standard installation distances under 400m, the compact multi-port picks deliver better value.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["Need the remote end to require zero local power", "Mini 2-Wire Ethernet PoE Converter & Extender Kit"],
         ["Standard passive splitting from one PoE source", "EmpireTech PoE Extender Mini Passive 2 Port"],
-        ["Higher wattage support up to 60W", "CONETCH 3-Port Mini PoE Extender"],
+        ["Higher wattage support up to 60W", "CONETCH 3-Port Mini PoE Extender"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For a Multi-Camera Installation on a Budget Specifically",
     cards: [
       { label: "Look for", text: "A multi-pack format that reduces per-unit cost when you need to extend several separate camera runs rather than just one device." },
-      { label: "In this comparison", text: "The CENTROPOWER 5-Pack Kit specifically delivers five extender units in one purchase, a genuine value play for a multi-camera deployment." },
+      { label: "In this comparison", text: "The CENTROPOWER 5-Pack Kit specifically delivers five extender units in one purchase, a genuine value play for a multi-camera deployment." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You need to reach an extreme distance over existing spare wiring with zero local power at the remote end, where the 2-Wire Kit's $259.00 price is justified by that unique capability." },
-      { label: "Save if", text: "You need a compact, high-wattage extender for a standard installation distance, where the CONETCH pick delivers that for $20.99, the lowest single-unit price in this comparison." },
+      { label: "Spend more if", text: "You need to reach an extreme distance over existing spare wiring with zero local power at the remote end, where the 2-Wire Kit's under $300 price is justified by that unique capability." },
+      { label: "Save if", text: "You need a compact, high-wattage extender for a standard installation distance, where the CONETCH pick delivers that for under $25, the lowest single-unit price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "budget mini pc";
 export const introParagraphs = [
   "A lower price often means a smaller SSD and less RAM, verify these specs actually cover your real day-to-day usage before assuming any cheap mini PC is automatically a good value, since a 128GB or 256GB drive fills up faster than buyers expect.",
-  "Budget mini PCs frequently use older or lower-tier processors, worth checking whether the specific chip handles your actual software needs, like web browsing and office work versus more demanding creative or multitasking workloads, before assuming the lowest price meets your needs.",
+  "Budget mini PCs frequently use older or lower-tier processors, worth checking whether the specific chip handles your actual software needs, like web browsing and office work versus more demanding creative or multitasking workloads, before assuming the lowest price meets your needs."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -26,7 +26,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Mini PC Overall",
     name: "Beelink SER5 Pro Mini PC, AMD Ryzen 5 5625U(Up to 4.3GHz) 6C/12T",
     price: "$319.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41NGsh2eXOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C7437S8H?tag=deskfinds0d-20",
@@ -42,7 +42,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick with Windows 11 Pro",
     name: "ACEMAGIC Mini PC Windows 11 Pro, AMD Ryzen R2544 16GB DDR4 RAM 256 SSD 28W",
     price: "$339.00",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41C5eN3lttL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DMCRSBNT?tag=deskfinds0d-20",
@@ -58,7 +58,7 @@ export const products: GuideProduct[] = [
     badge: "Best Ultra-Budget Intel Pick",
     name: "GMKtec Mini PC Computers Intel N95 Processor (Turbo 3.4GHz)",
     price: "$249.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41C8DZtap0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GFCMGHJT?tag=deskfinds0d-20",
@@ -74,7 +74,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick with More Storage",
     name: "GMKtec Mini PC Intel Core i3-10110U Processor 8GB DDR4 256GB SSD",
     price: "$246.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41sKXJEffSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CQ4C9ZY1?tag=deskfinds0d-20",
@@ -90,7 +90,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget N100/N150-Class Pick",
     name: "QAZIPO Mini PC, 13th Twin Lake N150 (up to 3.6GHz), 16GB RAM 512GB SSD",
     price: "$309.00",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41WgxeHNYYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT68M444?tag=deskfinds0d-20",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "SSD and RAM capacity verified against realistic everyday usage", description: "Verified SSD and RAM capacity against realistic everyday usage, since a lower price often means a smaller drive that fills up faster than buyers expect." },
   { title: "Processor tier matched honestly to actual software needs", description: "Matched each processor tier honestly to realistic software needs, from basic web browsing to genuine multitasking capability, rather than assuming any budget chip suffices universally." },
   { title: "Windows license inclusion valued where genuinely offered", description: "Valued Windows 11 Pro inclusion where genuinely offered at a budget price, since this avoids a separate OS license purchase." },
-  { title: "Upgradability checked as a factor in long-term budget value", description: "Checked whether RAM and storage are user-upgradable, factoring this into genuine long-term value beyond just the initial purchase price." },
+  { title: "Upgradability checked as a factor in long-term budget value", description: "Checked whether RAM and storage are user-upgradable, factoring this into genuine long-term value beyond just the initial purchase price." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Is a 256GB SSD enough for a budget mini PC?", a: "It depends on your usage, verify this matches your actual storage needs, since it fills up faster than many buyers expect." },
   { q: "Can a budget mini PC's processor handle everyday tasks?", a: "Most handle basic web browsing and office work well, verify the specific chip tier matches your actual software needs before buying." },
   { q: "Do budget mini PCs come with Windows included?", a: "Some do, including Windows 11 Pro at a budget price is genuine value that avoids a separate license purchase." },
-  { q: "Can I upgrade RAM and storage on a budget mini PC later?", a: "Not always, check whether these components are user-upgradable, this affects the long-term value of a budget purchase." },
+  { q: "Can I upgrade RAM and storage on a budget mini PC later?", a: "Not always, check whether these components are user-upgradable, this affects the long-term value of a budget purchase." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-cheap-mini-pcs", title: "Best Cheap Mini PCs (2026)" },
   { href: "/guide/best-n100-mini-pcs", title: "Best N100 Mini PCs (2026)" },
-  { href: "/guide/best-mini-pcs-with-16gb-ram", title: "Best Mini PCs with 16GB RAM (2026)" },
+  { href: "/guide/best-mini-pcs-with-16gb-ram", title: "Best Mini PCs with 16GB RAM (2026)" }
 ];

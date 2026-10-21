@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "under-desk hanging file organizers";
 export const introParagraphs = [
   "This combines the file-specific compatibility concerns from our hanging file organizer research with the knee-clearance and low-visibility concerns from our under-desk placement research. Weight capacity becomes especially critical here, since files are heavy when fully loaded and a failure means falling documents landing on your legs or feet, a more consequential outcome than a desk-surface organizer.",
-  "We prioritized file retrieval accessibility from this hidden, low-visibility position as the most rigorous test in this specific combination.",
+  "We prioritized file retrieval accessibility from this hidden, low-visibility position as the most rigorous test in this specific combination."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -104,7 +104,7 @@ export const products: GuideProduct[] = [
     pros: ["Adjustable dividers for custom file organization", "Rolls for flexible positioning", "Good rating", "Vertical design saves floor footprint"],
     cons: ["Not a genuine hanging clamp organizer", "Mid-range price for a rolling cabinet", "Larger footprint than under-desk clamp designs"],
     bestFor: "Buyers who want a customizable rolling vertical filing cabinet with adjustable compartments.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Heightened weight-capacity stakes", description: "We treated weight capacity as more critical here than a general under-desk organizer, given the more consequential failure mode of falling files landing on the user's legs or feet." },
   { title: "File retrieval accessibility from a low-visibility position", description: "We prioritized this as the most rigorous test in this specific combination, given the compounded challenge of finding a specific file in a hidden, hard-to-see location." },
   { title: "Genuine clamp-on vs. freestanding disclosure", description: "We clearly distinguished true under-desk clamp organizers from freestanding rolling carts that happen to serve a similar storage need." },
-  { title: "Knee clearance impact", description: "We carried forward the knee-clearance consideration from our broader under-desk organizer research, applied specifically to file-loaded weight." },
+  { title: "Knee clearance impact", description: "We carried forward the knee-clearance consideration from our broader under-desk organizer research, applied specifically to file-loaded weight." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -240,11 +240,11 @@ export const faq: FaqItem[] = [
   { q: "How do I find a specific file without looking under my desk constantly?", a: "Mount the organizer consistently in the same spot to build muscle memory, and label folders clearly so you can identify them partly by feel in a dim, low-visibility location." },
   { q: "Will this interfere with my legroom?", a: "A fully loaded file organizer can be bulkier than it appears empty. Measure your knee clearance against the realistic loaded size before mounting." },
   { q: "Should I get a clamp-on organizer or a rolling file cart?", a: "A clamp-on organizer requires no drilling but has more limited capacity. If your file volume is substantial, a rolling cart offers meaningfully more storage as a different product type." },
-  { q: "Do these organizers fit both letter and legal size folders?", a: "This varies by product. Check the specific organizer's internal dimensions against your folder sizes before ordering." },
+  { q: "Do these organizers fit both letter and legal size folders?", a: "This varies by product. Check the specific organizer's internal dimensions against your folder sizes before ordering." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-under-desk-hanging-organizers", title: "Best Under-Desk Hanging Organizers (2026)" },
   { href: "/guide/best-hanging-file-organizers-for-desks", title: "Best Hanging File Organizers for Desks (2026)" },
-  { href: "/guide/best-hanging-desk-drawer-organizers", title: "Best Hanging Desk Drawer Organizers (2026)" },
+  { href: "/guide/best-hanging-desk-drawer-organizers", title: "Best Hanging Desk Drawer Organizers (2026)" }
 ];

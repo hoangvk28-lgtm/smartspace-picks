@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mechanical keyboard layout";
 export const introParagraphs = [
   "Picking a mechanical keyboard layout starts with a question almost no buying guide actually asks you: what keys do you use every single day. Someone doing daily spreadsheet work needs a numpad, so a 65% layout is the wrong call. A developer who leans on F-keys for debugging needs those keys accessible, so a 60% layout with no dedicated F-row is the wrong call. The layout name on the box matters less than whether it matches your actual workflow.",
-  "Below we explain what each major layout size actually gives up as it shrinks, then map 8 real mechanical keyboards we evaluated to their true layout size based on their real listings, from a 108-key full-size board with extra macro keys down to a tenkeyless 80% option, so you can match a layout to your workflow and then buy the matching pick immediately.",
+  "Below we explain what each major layout size actually gives up as it shrinks, then map 8 real mechanical keyboards we evaluated to their true layout size based on their real listings, from a 108-key full-size board with extra macro keys down to a tenkeyless 80% option, so you can match a layout to your workflow and then buy the matching pick immediately."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "11 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Full F-row, dedicated arrow and navigation cluster",
       "Wired mechanical switches",
       "Aluminum-alloy top case",
-      "Logitech G HUB software support",
+      "Logitech G HUB software support"
     ],
     pros: [
       "No numpad-dependent relearning, everything else stays in place",
       "Pulls the mouse noticeably closer to center than full-size",
       "Full F-row and dedicated navigation keys retained",
-      "Standard keycap compatibility, no oddly placed keys",
+      "Standard keycap compatibility, no oddly placed keys"
     ],
     cons: [
       "No numpad for spreadsheet-heavy workflows",
       "Still wider than a 75% or 65% board",
-      "Wired only, no wireless option",
+      "Wired only, no wireless option"
     ],
     bestFor: "Buyers who want the easiest transition away from full-size without losing navigation keys",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Hot-swappable, pre-lubed switches",
       "2.4GHz / USB-C / Bluetooth 5.0",
       "RGB backlighting, rotary volume knob",
-      "PBT side-printed keycaps",
+      "PBT side-printed keycaps"
     ],
     pros: [
       "Keeps F-row and navigation cluster in a smaller footprint than TKL",
       "Hot-swap sockets with pre-lubed switches out of the box",
       "3 wireless connection modes",
-      "Rotary knob adds physical volume control",
+      "Rotary knob adds physical volume control"
     ],
     cons: [
       "Compressed right-side cluster limits aftermarket keycap set compatibility",
       "Moderate transition curve if used to full-size key spacing",
-      "Above the strict $60 budget line",
+      "Above the strict $60 budget line"
     ],
     bestFor: "Buyers who want F-row and navigation keys in a smaller, hot-swappable wireless board",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Blue switch, wired USB connection",
       "Anti-ghosting, spill-resistant",
       "ABS keycaps",
-      "RGB backlighting",
+      "RGB backlighting"
     ],
     pros: [
       "Cheapest full-size pick in this list",
       "Complete numpad for daily numeric entry",
       "Standard 104-key layout, wide keycap set compatibility",
-      "Anti-ghosting and spill resistance at a budget price",
+      "Anti-ghosting and spill resistance at a budget price"
     ],
     cons: [
       "Full-size footprint pushes the mouse furthest right of any pick here",
       "ABS keycaps wear faster than PBT",
-      "Wired only",
+      "Wired only"
     ],
     bestFor: "Numpad-dependent daily workflows on a tight budget",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Hot-swappable socket, red switch",
       "2 sets of mixed color PBT keycaps included",
       "Sound-absorbing foam inside the case",
-      "Wired USB connection",
+      "Wired USB connection"
     ],
     pros: [
       "Full numpad plus 4 extra dedicated hotkeys",
       "Hot-swappable at a budget price point",
       "2 keycap sets included in the box",
-      "Sound-absorbing foam reduces case ping",
+      "Sound-absorbing foam reduces case ping"
     ],
     cons: [
       "The 4 extra hotkeys won't be covered by most aftermarket keycap sets",
       "Widest footprint of any pick in this list",
-      "Wired only",
+      "Wired only"
     ],
     bestFor: "Numpad users who also want a few extra dedicated macro keys",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "QMK/VIA open-source firmware",
       "Hot-swappable Keychron K Pro Brown switches",
       "Wired USB-C connection",
-      "Mac and Windows compatible",
+      "Mac and Windows compatible"
     ],
     pros: [
       "Open-source QMK/VIA firmware won't be abandoned by the brand",
       "Hot-swappable despite full-size footprint",
       "Rotary knob for volume without losing a key",
-      "Cross-platform Mac and Windows support",
+      "Cross-platform Mac and Windows support"
     ],
     cons: [
       "Full-size footprint pushes the mouse further right",
       "Wired only, no wireless option",
-      "Pricier than the RisoPhy or Redragon full-size picks",
+      "Pricier than the RisoPhy or Redragon full-size picks"
     ],
     bestFor: "Numpad users who want long-term remappable firmware and hot-swap in one board",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Gateron Banana linear switch, hot-swappable",
       "2.4GHz / Bluetooth 5.1",
       "QMK/VIA open-source firmware",
-      "RGB backlight",
+      "RGB backlight"
     ],
     pros: [
       "Full-size layout without a wired tether",
       "Linear Gateron Banana switch feel, smooth keypresses",
       "Open-source QMK/VIA firmware",
-      "Hot-swappable despite wireless build",
+      "Hot-swappable despite wireless build"
     ],
     cons: [
       "Most expensive pick in this list",
       "Full-size footprint pushes the mouse further right",
-      "Linear feel may not suit buyers who prefer tactile feedback",
+      "Linear feel may not suit buyers who prefer tactile feedback"
     ],
     bestFor: "Buyers who want a wireless full-size board with a smooth linear switch feel",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Gateron Brown tactile switch, hot-swappable",
       "2.4GHz / Bluetooth 5.1",
       "QMK/VIA open-source firmware",
-      "RGB backlight",
+      "RGB backlight"
     ],
     pros: [
       "Full-size layout without a wired tether",
       "Tactile Gateron Brown switch feel for keystroke confirmation",
       "Open-source QMK/VIA firmware",
-      "Hot-swappable despite wireless build",
+      "Hot-swappable despite wireless build"
     ],
     cons: [
       "Same high price as the linear version",
       "Full-size footprint pushes the mouse further right",
-      "Tactile bump may feel unnecessary to linear-switch typists",
+      "Tactile bump may feel unnecessary to linear-switch typists"
     ],
     bestFor: "Buyers who want a wireless full-size board with tactile switch feedback",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Hot-swappable Keychron K Pro Brown switches",
       "QMK/VIA open-source firmware",
       "Wired USB-C connection",
-      "Frosted black-translucent case",
+      "Frosted black-translucent case"
     ],
     pros: [
       "Cheapest wired full-size Keychron pick in this list",
       "Same hot-swap sockets and firmware as the pricier knob version",
       "Frosted translucent case adds visual distinction",
-      "Cross-platform Mac and Windows support",
+      "Cross-platform Mac and Windows support"
     ],
     cons: [
       "No rotary knob for physical volume control",
       "Full-size footprint pushes the mouse further right",
-      "Wired only",
+      "Wired only"
     ],
     bestFor: "Buyers who want the Keychron V6 hot-swap experience without paying for a knob",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed layout, hot-swap capability, wireless connectivity, and firmware openness against price, from the budget full-size pick to the wireless V6 Max.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -466,7 +466,7 @@ export const faq: FaqItem[] = [
   {
     q: "What are Alice and ortholinear layouts?",
     a: "An Alice layout splits and angles the key columns outward from a single connected frame for a more natural wrist angle, while an ortholinear layout arranges keys in a straight grid instead of the staggered rows on nearly every standard keyboard. Both are growing in availability but remain a smaller niche than standard full-size, TKL, 75%, 65%, and 60% layouts.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
@@ -474,5 +474,5 @@ export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mechanical-keyboards-under-60-100-budget", title: "Best Mechanical Keyboards Under $60/$100 Budget (2026)" },
   { href: "/guide/60-vs-65-vs-75-keyboard", title: "60% vs 65% vs 75% Keyboard (2026)" },
   { href: "/guide/tkl-vs-full-size-keyboard", title: "TKL vs Full-Size Keyboard (2026)" },
-  { href: "/guide/keyboard-size-chart", title: "Keyboard Size Chart (2026)" },
+  { href: "/guide/keyboard-size-chart", title: "Keyboard Size Chart (2026)" }
 ];

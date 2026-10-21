@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "48 inch standing desk converter";
 export const introParagraphs = [
   "We required an actual confirmed 48 inch platform width for this comparison, since nearby sizes (46 and 47 inches) are sometimes rounded up in marketing copy despite being genuinely different dimensions.",
-  "48 inch converters typically support serious multi-monitor setups, and we compared them on price, review history, and mechanism type within this specific size tier.",
+  "48 inch converters typically support serious multi-monitor setups, and we compared them on price, review history, and mechanism type within this specific size tier."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required confirmed 48 inch platform width, not rounded nearby sizes", description: "We verified every pick here is genuinely 48 inches rather than including 46 or 47 inch models rounded up in marketing copy." },
   { title: "Compared value across the premium and standard price tiers within this size", description: "We noted where the VariDesk premium pick's price reflects its precise fixed-setting mechanism against the more affordable continuous-adjustment VIVO alternatives." },
   { title: "Compared multiple VIVO listings at the same confirmed size", description: "We flagged where VIVO sells this size across different listings at different prices, useful for buyers comparing current stock." },
-  { title: "Included a confirmed color-specific variant", description: "We noted the white finish 48 inch option specifically confirmed in the listing, distinct from color-unconfirmed alternatives." },
+  { title: "Included a confirmed color-specific variant", description: "We noted the white finish 48 inch option specifically confirmed in the listing, distinct from color-unconfirmed alternatives." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -234,7 +234,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
@@ -242,12 +242,12 @@ export const faq: FaqItem[] = [
   { q: "Which 48 inch converter has the most reviews?", a: "The VIVO Black 48 in Standing Desk Converter, DESK-V048KB, sharing VIVO's massive K Series review pool of 15,583." },
   { q: "What's the most premium 48 inch option?", a: "The Vari VariDesk Pro Plus 48, with 11 fixed height settings, at the highest price in this comparison." },
   { q: "Is there a white 48 inch converter?", a: "Yes, the VIVO White 48 in Standing Desk Converter, DESK-V048VW." },
-  { q: "What's the cheapest confirmed 48 inch option?", a: "The VIVO Black 48 in Standing Desk Converter, DESK-V048KB, at $197.99." },
-  { q: "Is 48 inches different from 47 inches?", a: "Yes, these are distinct sizes; we only included products with confirmed 48 inch dimensions rather than nearby sizes rounded up." },
+  { q: "What's the cheapest confirmed 48 inch option?", a: "The VIVO Black 48 in Standing Desk Converter, DESK-V048KB, at under $200." },
+  { q: "Is 48 inches different from 47 inches?", a: "Yes, these are distinct sizes; we only included products with confirmed 48 inch dimensions rather than nearby sizes rounded up." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-large-standing-desk-converters", title: "Best Large Standing Desk Converters (2026)" },
   { href: "/guide/best-42-inch-standing-desk-converters", title: "Best 42-Inch Standing Desk Converters (2026)" },
-  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
+  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" }
 ];

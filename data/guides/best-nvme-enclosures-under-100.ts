@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41XTFRnwSNL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FZJQD14R?tag=deskfinds0d-20",
-    "description": "ORICO 20Gbps Dual Bay NVMe Enclosure Tool-Free M.2 NVMe Enclosure leads with 20gbps ultra-speed for pros :high-speed, backed by pc-free same-protocol offline clone :one-key, a combination aimed at as an enclosure built around a specific interface speed rather than a universal fit.\n\nAt $98.55, it's the most expensive pick in this comparison, and that premium needs to be justified by genuinely using the extra features it carries over the cheaper options here.\n\nThis pick best suits buyers who already have a spare NVMe drive and want to turn it into fast external storage. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "ORICO 20Gbps Dual Bay NVMe Enclosure Tool-Free M.2 NVMe Enclosure leads with 20gbps ultra-speed for pros :high-speed, backed by pc-free same-protocol offline clone :one-key, a combination aimed at as an enclosure built around a specific interface speed rather than a universal fit.\n\nAt under $100, it's the most expensive pick in this comparison, and that premium needs to be justified by genuinely using the extra features it carries over the cheaper options here.\n\nThis pick best suits buyers who already have a spare NVMe drive and want to turn it into fast external storage. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "20Gbps Ultra-Speed for Pros :High-Speed",
       "PC-Free Same-Protocol Offline Clone :One-Key",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41a7EtTEe+L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0BP2ZRPKJ?tag=deskfinds0d-20",
-    "description": "SABRENT USB-C M.2 NVMe & SATA SSD/HDD Dock is built around connect, clone, and go: supports, paired with everything included, positioning it as an enclosure built around a specific interface speed rather than a universal fit.\n\nIt lands between ANYOYO 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan's $51.43 price floor and ORICO 20Gbps Dual Bay NVMe Enclosure Tool-Free M.2 NVMe Enclosure's $98.55 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nSABRENT USB-C M.2 NVMe & SATA SSD/HDD Dock is the right call for buyers who already have a spare NVMe drive and want to turn it into fast external storage. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "SABRENT USB-C M.2 NVMe & SATA SSD/HDD Dock is built around connect, clone, and go: supports, paired with everything included, positioning it as an enclosure built around a specific interface speed rather than a universal fit.\n\nIt lands between ANYOYO 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan's under $60 price floor and ORICO 20Gbps Dual Bay NVMe Enclosure Tool-Free M.2 NVMe Enclosure's under $100 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nSABRENT USB-C M.2 NVMe & SATA SSD/HDD Dock is the right call for buyers who already have a spare NVMe drive and want to turn it into fast external storage. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "CONNECT, CLONE, AND Go: Supports",
       "Everything Included",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41JHbCBZxkL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0F62NG7K3?tag=deskfinds0d-20",
-    "description": "UGREEN 40Gbps M.2 NVMe Enclosure (SSD Not Included) leads with transmission files in seconds, backed by unique heat dissipation design, a combination aimed at as an enclosure built around a specific interface speed rather than a universal fit.\n\nCompared to ANYOYO 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan at $51.43, it costs more for real added capability, while sitting well below ORICO 20Gbps Dual Bay NVMe Enclosure Tool-Free M.2 NVMe Enclosure at $98.55 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who already have a spare NVMe drive and want to turn it into fast external storage. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "UGREEN 40Gbps M.2 NVMe Enclosure (SSD Not Included) leads with transmission files in seconds, backed by unique heat dissipation design, a combination aimed at as an enclosure built around a specific interface speed rather than a universal fit.\n\nCompared to ANYOYO 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan at under $60, it costs more for real added capability, while sitting well below ORICO 20Gbps Dual Bay NVMe Enclosure Tool-Free M.2 NVMe Enclosure at under $100 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who already have a spare NVMe drive and want to turn it into fast external storage. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Transmission files in seconds",
       "Unique heat dissipation design",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41YG5WeijaL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H2GY451Y?tag=deskfinds0d-20",
-    "description": "What stands out on Yottamaster M.2 NVMe SSD Enclosure 40Gbps is tool-free installation with clear design, alongside wide compatibility, which is the main reason it earns a spot in this NVMe enclosures comparison.\n\nIt lands between ANYOYO 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan's $51.43 price floor and ORICO 20Gbps Dual Bay NVMe Enclosure Tool-Free M.2 NVMe Enclosure's $98.55 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nYottamaster M.2 NVMe SSD Enclosure 40Gbps is the right call for buyers who already have a spare NVMe drive and want to turn it into fast external storage. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on Yottamaster M.2 NVMe SSD Enclosure 40Gbps is tool-free installation with clear design, alongside wide compatibility, which is the main reason it earns a spot in this NVMe enclosures comparison.\n\nIt lands between ANYOYO 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan's under $60 price floor and ORICO 20Gbps Dual Bay NVMe Enclosure Tool-Free M.2 NVMe Enclosure's under $100 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nYottamaster M.2 NVMe SSD Enclosure 40Gbps is the right call for buyers who already have a spare NVMe drive and want to turn it into fast external storage. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Tool-Free Installation with Clear Design",
       "Wide Compatibility",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51QlP2ZtMJL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CQWXD2QT?tag=deskfinds0d-20",
-    "description": "ORICO 40Gbps M.2 NVMe SSD Enclosure with Built-in Cooling Fan is built around 40gbps breakneck speed, paired with multiple heat dissipation, positioning it as an enclosure built around a specific interface speed rather than a universal fit.\n\nCompared to ANYOYO 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan at $51.43, it costs more for real added capability, while sitting well below ORICO 20Gbps Dual Bay NVMe Enclosure Tool-Free M.2 NVMe Enclosure at $98.55 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who already have a spare NVMe drive and want to turn it into fast external storage. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "ORICO 40Gbps M.2 NVMe SSD Enclosure with Built-in Cooling Fan is built around 40gbps breakneck speed, paired with multiple heat dissipation, positioning it as an enclosure built around a specific interface speed rather than a universal fit.\n\nCompared to ANYOYO 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan at under $60, it costs more for real added capability, while sitting well below ORICO 20Gbps Dual Bay NVMe Enclosure Tool-Free M.2 NVMe Enclosure at under $100 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who already have a spare NVMe drive and want to turn it into fast external storage. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "40Gbps Breakneck Speed",
       "Multiple Heat Dissipation",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41gSQy7ZGNL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07ZKB4SLK?tag=deskfinds0d-20",
-    "description": "ASUS ROG Strix Arion Aluminum Alloy M.2 NVMe SSD Enclosure Case Adapter leads with usb type-c 3 2 gen, backed by supports m 2 pcie nvm, a combination aimed at as an enclosure built around a specific interface speed rather than a universal fit.\n\nCompared to ANYOYO 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan at $51.43, it costs more for real added capability, while sitting well below ORICO 20Gbps Dual Bay NVMe Enclosure Tool-Free M.2 NVMe Enclosure at $98.55 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who already have a spare NVMe drive and want to turn it into fast external storage. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "ASUS ROG Strix Arion Aluminum Alloy M.2 NVMe SSD Enclosure Case Adapter leads with usb type-c 3 2 gen, backed by supports m 2 pcie nvm, a combination aimed at as an enclosure built around a specific interface speed rather than a universal fit.\n\nCompared to ANYOYO 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan at under $60, it costs more for real added capability, while sitting well below ORICO 20Gbps Dual Bay NVMe Enclosure Tool-Free M.2 NVMe Enclosure at under $100 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who already have a spare NVMe drive and want to turn it into fast external storage. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "USB Type-C 3 2 Gen",
       "Supports M 2 PCIe NVM",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41KL1zEHAKL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DRX4X7VD?tag=deskfinds0d-20",
-    "description": "What stands out on ACASIS 10Gbps Magnetic M.2 NVMe SSD Enclosure with 4K ProRes Recording is excellent heat dissipation---cooling fan, alongside 4k@60 ultra hd storage, which is the main reason it earns a spot in this NVMe enclosures comparison.\n\nIt lands between ANYOYO 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan's $51.43 price floor and ORICO 20Gbps Dual Bay NVMe Enclosure Tool-Free M.2 NVMe Enclosure's $98.55 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nACASIS 10Gbps Magnetic M.2 NVMe SSD Enclosure with 4K ProRes Recording is the right call for buyers who already have a spare NVMe drive and want to turn it into fast external storage. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on ACASIS 10Gbps Magnetic M.2 NVMe SSD Enclosure with 4K ProRes Recording is excellent heat dissipation---cooling fan, alongside 4k@60 ultra hd storage, which is the main reason it earns a spot in this NVMe enclosures comparison.\n\nIt lands between ANYOYO 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan's under $60 price floor and ORICO 20Gbps Dual Bay NVMe Enclosure Tool-Free M.2 NVMe Enclosure's under $100 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nACASIS 10Gbps Magnetic M.2 NVMe SSD Enclosure with 4K ProRes Recording is the right call for buyers who already have a spare NVMe drive and want to turn it into fast external storage. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Excellent heat dissipation---Cooling Fan",
       "4K@60 Ultra HD Storage",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/411cQUWSx3L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CR7BY3Y3?tag=deskfinds0d-20",
-    "description": "What stands out on ANYOYO 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan is 40gbps lightning-fast transfer, alongside dual-chip reliability, which is the main reason it earns a spot in this NVMe enclosures comparison.\n\nAt $51.43, it's the most affordable pick in this comparison, so expect fewer extras than the pricier options here, but the core function holds up for buyers who don't need the added features those carry.\n\nThis pick best suits buyers who already have a spare NVMe drive and want to turn it into fast external storage. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "What stands out on ANYOYO 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan is 40gbps lightning-fast transfer, alongside dual-chip reliability, which is the main reason it earns a spot in this NVMe enclosures comparison.\n\nAt under $60, it's the most affordable pick in this comparison, so expect fewer extras than the pricier options here, but the core function holds up for buyers who don't need the added features those carry.\n\nThis pick best suits buyers who already have a spare NVMe drive and want to turn it into fast external storage. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "40Gbps Lightning-fast Transfer",
       "Dual-Chip Reliability",
@@ -325,35 +325,35 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $51.43",
+          "Under $60",
           "ANYOYO 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan"
         ],
         [
-          "Around $51.99",
+          "Under $60",
           "ACASIS 10Gbps Magnetic M.2 NVMe SSD Enclosure with 4K ProRes Recording"
         ],
         [
-          "Around $52.64",
+          "Under $60",
           "ASUS ROG Strix Arion Aluminum Alloy M.2 NVMe SSD Enclosure Case Adapter"
         ],
         [
-          "Around $59.55",
+          "Under $60",
           "ORICO 40Gbps M.2 NVMe SSD Enclosure with Built-in Cooling Fan"
         ],
         [
-          "Around $62.99",
+          "Under $70",
           "Yottamaster M.2 NVMe SSD Enclosure 40Gbps"
         ],
         [
-          "Around $69.98",
+          "Under $70",
           "UGREEN 40Gbps M.2 NVMe Enclosure (SSD Not Included)"
         ],
         [
-          "Around $79.99",
+          "Under $80",
           "SABRENT USB-C M.2 NVMe & SATA SSD/HDD Dock"
         ],
         [
-          "Around $98.55",
+          "Under $100",
           "ORICO 20Gbps Dual Bay NVMe Enclosure Tool-Free M.2 NVMe Enclosure"
         ]
       ]
@@ -364,11 +364,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "ANYOYO 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan",
-        "text": "The lowest-priced pick in this comparison at $51.43, a solid choice if you don't need the extras the pricier picks carry."
+        "text": "The lowest-priced pick in this comparison at under $60, a solid choice if you don't need the extras the pricier picks carry."
       },
       {
         "label": "ORICO 20Gbps Dual Bay NVMe Enclosure Tool-Free M.2 NVMe Enclosure",
-        "text": "The highest-priced pick at $98.55, worth it only if you'll actually use what that premium buys."
+        "text": "The highest-priced pick at under $100, worth it only if you'll actually use what that premium buys."
       }
     ],
     "note": "Default to ANYOYO 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan unless the pricier pick's specific advantage genuinely applies to your situation."
@@ -428,7 +428,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "What's the real difference between the cheapest and most expensive pick here?",
-    "a": "ANYOYO 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan at $51.43 covers the basics, while ORICO 20Gbps Dual Bay NVMe Enclosure Tool-Free M.2 NVMe Enclosure at $98.55 adds higher interface speed and dual-bay RAID support. Whether that's worth the difference depends on whether your drive and host port can actually use the higher interface speed, and whether you need RAID redundancy or combined capacity."
+    "a": "ANYOYO 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan at under $60 covers the basics, while ORICO 20Gbps Dual Bay NVMe Enclosure Tool-Free M.2 NVMe Enclosure at under $100 adds higher interface speed and dual-bay RAID support. Whether that's worth the difference depends on whether your drive and host port can actually use the higher interface speed, and whether you need RAID redundancy or combined capacity."
   },
   {
     "q": "Will any NVMe drive fit any enclosure?",
@@ -440,7 +440,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "Is there a solid middle-ground pick in this price range?",
-    "a": "Yottamaster M.2 NVMe SSD Enclosure 40Gbps at $62.99 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
+    "a": "Yottamaster M.2 NVMe SSD Enclosure 40Gbps at under $70 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
   },
   {
     "q": "What's the most common mistake buyers make shopping NVMe enclosures under $100?",

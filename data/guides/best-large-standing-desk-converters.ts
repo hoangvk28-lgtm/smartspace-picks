@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "large standing desk converter";
 export const introParagraphs = [
   "We defined \"large\" as 40 inches or wider, since this is where a converter genuinely moves beyond single or dual-monitor use into serious multi-device territory, and it's also where base footprint and underlying desk load become real considerations.",
-  "A wider platform needs a correspondingly larger base and a desk that can handle the added weight; we flagged this directly rather than only comparing surface area.",
+  "A wider platform needs a correspondingly larger base and a desk that can handle the added weight; we flagged this directly rather than only comparing surface area."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "9 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Defined \"large\" as 40 inches or wider", description: "This is where a converter genuinely moves beyond single or dual-monitor use, and we used this threshold consistently for inclusion." },
   { title: "Flagged desk load and base footprint as real considerations at this size", description: "Wider platforms need larger bases and handle more device weight; we noted this rather than only comparing surface area." },
   { title: "Distinguished purpose-built triple-monitor designs from general large open platforms", description: "We separated the Rocelco's dedicated triple-monitor mount from general wide platforms that simply offer more open surface area." },
-  { title: "Weighed electric lift's advantage for heavier fully-loaded large platforms", description: "We noted where push-button adjustment offers a genuine benefit given the increased weight a large, fully equipped platform carries." },
+  { title: "Weighed electric lift's advantage for heavier fully-loaded large platforms", description: "We noted where push-button adjustment offers a genuine benefit given the increased weight a large, fully equipped platform carries." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -254,7 +254,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
@@ -263,11 +263,11 @@ export const faq: FaqItem[] = [
   { q: "Which large converter has the most reviews?", a: "The VIVO Black 48 in Standing Desk Converter, DESK-V048KB, sharing VIVO's massive K Series review pool." },
   { q: "Is there a large converter for triple monitors specifically?", a: "Yes, the Rocelco 46 inch Large Standing Desk Converter is purpose-built with a triple-monitor mount." },
   { q: "Does my desk need to be reinforced for a large converter?", a: "Verify your desk's stated weight capacity against the converter's loaded weight (platform plus devices), since a large setup adds significant load." },
-  { q: "What's the best value large converter?", a: "The VIVO Black 48 in Standing Desk Converter, DESK-V048KB, at less than half the price of the comparable VariDesk Pro Plus 48." },
+  { q: "What's the best value large converter?", a: "The VIVO Black 48 in Standing Desk Converter, DESK-V048KB, at less than half the price of the comparable VariDesk Pro Plus 48." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-heavy-duty-standing-desk-converters", title: "Best Heavy-Duty Standing Desk Converters (2026)" },
   { href: "/guide/best-3-monitor-standing-desk-converters", title: "Best 3-Monitor Standing Desk Converters (2026)" },
-  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
+  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" }
 ];

@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The most complete power setup and highest capacity", "45.3in Desktop Bookshelf with Outlet, 3-Tier Adjustable Desk Hutch"],
         ["Power and lighting on a narrower desk", "Aetheris Desktop Organizer Shelf, 5-Tier"],
         ["Power and lighting at the lowest price", "HOOBRO Desktop Bookcase, 2-Tier"],
-        ["Maximum shelf storage without power features", "Tangkula Desktop Bookshelf, 6-Shelf Countertop Hutch"],
+        ["Maximum shelf storage without power features", "Tangkula Desktop Bookshelf, 6-Shelf Countertop Hutch"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Around $56", "Tangkula ($55.99) or HOOBRO ($56.99)"],
-        ["Around $70", "Aetheris ($69.99)"],
-        ["Up to $100", "SANYOUNG Desktop Bookshelf with Outlet ($99.99)"],
+        ["Around $56", "Tangkula (under $60) or HOOBRO (under $60)"],
+        ["Around $70", "Aetheris (under $70)"],
+        ["Up to $100", "SANYOUNG Desktop Bookshelf with Outlet (under $100)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Powered Hutches vs the Non-Powered Tangkula Pick",
     cards: [
       { label: "Powered (SANYOUNG, Aetheris, HOOBRO)", text: "Adds outlets, USB or USB-C ports, and often a light strip, worth the added cost if you need to charge devices or light your desk area at shelf level." },
-      { label: "Non-powered (Tangkula)", text: "Delivers the most raw shelf storage for the price by skipping power features entirely, better if your desk's power needs are already solved elsewhere." },
+      { label: "Non-powered (Tangkula)", text: "Delivers the most raw shelf storage for the price by skipping power features entirely, better if your desk's power needs are already solved elsewhere." }
     ],
     note: "Most buyers who specifically want power access at shelf height should default to the HOOBRO or Aetheris pick depending on desk width, unless the SANYOUNG pick's higher weight capacity and adjustable height genuinely matter for a large monitor setup.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Narrow desks (under 30 inches of hutch space)", "HOOBRO (29.9in wide)"],
         ["Medium desks (around 30-37 inches)", "Aetheris (30in) or Tangkula (37in)"],
-        ["Wide desks (47.3 inches or more)", "SANYOUNG (45.3in, requires 47.3in minimum desk width)"],
+        ["Wide desks (47.3 inches or more)", "SANYOUNG (45.3in, requires 47.3in minimum desk width)"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Large Gaming Monitor Setup Specifically",
     cards: [
       { label: "Look for", text: "Height-adjustable clearance and a high stated weight capacity, since large gaming monitors and their stands are heavier and need ergonomic eye-level positioning." },
-      { label: "In this comparison", text: "The SANYOUNG pick's 3-level height adjustment and 100 lb steel-frame capacity specifically support monitors up to 32 inches at ergonomic height." },
+      { label: "In this comparison", text: "The SANYOUNG pick's 3-level height adjustment and 100 lb steel-frame capacity specifically support monitors up to 32 inches at ergonomic height." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You need the highest weight capacity, adjustable monitor height, and the most complete outlet setup, where the SANYOUNG pick covers all three at the top of this tier." },
-      { label: "Save if", text: "You just want built-in power and lighting without needing height adjustment, where the HOOBRO pick delivers that for about $43 less." },
+      { label: "Save if", text: "You just want built-in power and lighting without needing height adjustment, where the HOOBRO pick delivers that for about $43 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

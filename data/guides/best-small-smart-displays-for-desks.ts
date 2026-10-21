@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small smart display for desk";
 export const introParagraphs = [
   "\"Small\" is doing real work in this search term, so we're only including displays that are genuinely compact, not simply the smallest option in a lineup of large ones. Out of our verified research pool, exactly two models qualify as genuinely small: the roughly 5.5 inch Echo Show 5 and the 7 inch Google Nest Hub.",
-  "We looked for additional verified compact options, including a Lenovo Smart Clock-style device, but could not confirm pricing or imagery for one this research pass, so we kept this guide honest at two picks rather than padding it with an unverified product.",
+  "We looked for additional verified compact options, including a Lenovo Smart Clock-style device, but could not confirm pricing or imagery for one this research pass, so we kept this guide honest at two picks rather than padding it with an unverified product."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "6 min";

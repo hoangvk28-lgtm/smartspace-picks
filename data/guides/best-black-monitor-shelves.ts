@@ -5,7 +5,7 @@ export const metaDescription = "5 black monitor shelves we evaluated, with the f
 export const mainKeyword = "black monitor shelf";
 export const introParagraphs = [
   "Color choice should be evaluated for whether it's purely a coating or finish over the same base material and construction covered in material-specific research, worth cross-referencing rather than treating 'black' as its own structural product category.",
-  "Matte versus glossy black finish affects fingerprint and dust visibility very differently, a glossy black surface shows dust and fingerprints far more visibly than a matte finish, worth knowing before buying based on photos alone.",
+  "Matte versus glossy black finish affects fingerprint and dust visibility very differently, a glossy black surface shows dust and fingerprints far more visibly than a matte finish, worth knowing before buying based on photos alone."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Black Monitor Shelf Overall",
     name: "OPNICE Desk Organizers and Accessories, Dual Monitor Stand Riser with Drawer and 2 Pen Holders, Desk Shelf Computer Racks for Office Workspace Organizers, Desktop Organization (Black)",
     price: "$25.19",
-    rating: "4.7 stars from 1,004 Amazon ratings",
-    reviews: "1,004 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Ja9BAK1RL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F5PPDTVR?tag=deskfinds0d-20",
     description: "The highest average rating in this guide with a matte black finish, a genuine metal base construction rather than color-specific engineering, this shelf's core structure matches the general metal-shelf category already covered elsewhere.\n\nIt earns the top spot in this comparison over gianotter Dual Monitor Stand Riser With Drawer and 2 Pen Holders for one main reason. Highest average rating of any pick in this guide. On price, it comes in below gianotter Dual Monitor Stand Riser With Drawer and 2 Pen Holders, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Matte finish minimizes visible fingerprints and dust. On the other side, Basic design without additional accessory storage. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Established Black Pick",
     name: "gianotter Dual Monitor Stand Riser With Drawer and 2 Pen Holders",
     price: "$25.99",
-    rating: "4.6 stars from 3,096 Amazon ratings",
-    reviews: "3,096 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41gO3CCIg1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJKSMV2T?tag=deskfinds0d-20",
     description: "The largest review base of any pick in this guide, this black finish carries the same metal shelf-with-drawer construction as its sibling color variants, verified as a coating choice rather than a different structural product.\n\nOne spot below OPNICE Desk Organizers and Accessories in this ranking, it costs more than OPNICE Desk Organizers and Accessories. The compromise here is straightforward: Scratches and wear marks show more visibly on black than lighter finishes. What you gain in return: Largest review base of any pick in this guide. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Same proven metal construction as lighter-colored variants. On the other side, Basic design without premium finish options. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Black Pick with Pegboard Storage",
     name: "Snughome Desk Shelf, 38.6\" Desktop Organizer Shelf, Desk Hutch for Computer Monitor, 4 Tier Desk Display Rack with Pegboard Hooks Set, Wood Desktop Bookshelf for Home Office Dorm, Black",
     price: "$65.99",
-    rating: "4.5 stars from 330 Amazon ratings",
-    reviews: "330 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51y3uAmYlhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D9882DJK?tag=deskfinds0d-20",
     description: "A wood-based black-stained finish rather than a metal powder coating, this shelf's underlying construction matches the wood-shelf material category with a black stain applied over the base wood.\n\nSitting just under gianotter Dual Monitor Stand Riser With Drawer and 2 Pen Holders, it costs more than gianotter Dual Monitor Stand Riser With Drawer and 2 Pen Holders. Here's the honest tradeoff: Higher price than the metal-based black picks. And here's what it gets you instead: Genuine 4-tier design with integrated pegboard hooks. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Solid review base for this larger, pricier category. On the other side, Verify chip/wear resistance for a wood-stained black finish specifically. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Black Bookshelf Pick",
     name: "Homiflex Desk Shelf with Computer Monitor Stand, 37.4''W Desktop Bookshelf",
     price: "$57.58",
-    rating: "3.7 stars from 5 Amazon ratings",
-    reviews: "5 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51yJX2JrnlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G722M14P?tag=deskfinds0d-20",
     description: "A very small review base with a lower average rating, included here as an honest budget option among black desktop bookshelf designs rather than a top recommendation.\n\nRanked just behind Snughome Desk Shelf, it's priced lower than Snughome Desk Shelf. The real tradeoff against that pick: Very small review base, weigh the rating with caution. In exchange, it offers this instead: More affordable than the premium black picks in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Reasonable width for a desktop bookshelf. On the other side, Limited real-world evidence of black-finish durability. That's the main tradeoff to weigh against everything above.",
@@ -89,8 +89,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Black Clamp-On Pick",
     name: "Metal Clamp On Desk Shelf, Storage Shelves with Pegboard and Pencil Holder",
     price: "$37.99",
-    rating: "4.3 stars from 54 Amazon ratings",
-    reviews: "54 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41oUaLqsLtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G4R17HMV?tag=deskfinds0d-20",
     description: "A genuinely different mounting style, clamp-on rather than freestanding, this black metal design shares the same powder-coating durability profile as other metal picks in this guide.\n\nOne spot below Homiflex Desk Shelf with Computer Monitor Stand in this ranking, it's priced lower than Homiflex Desk Shelf with Computer Monitor Stand. The compromise here is straightforward: Clamp mounting isn't suitable for every desk edge type. What you gain in return: Genuinely distinct clamp-on mounting for space-saving setups. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Includes integrated pegboard and pencil holder. On the other side, Verify chip resistance for the specific clamp mechanism's black coating. That's the main tradeoff to weigh against everything above.",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Color evaluated as a finish, not an independent structural category", description: "Evaluated whether black is purely a coating or finish over the same base material and construction already covered in material-specific research, cross-referencing those findings rather than treating black as independent." },
   { title: "Matte versus glossy finish disclosed for fingerprint/dust visibility", description: "Tested and disclosed finish type since a glossy black surface shows dust and fingerprints far more visibly than a matte finish." },
   { title: "Chip and wear resistance verified specifically for black finishes", description: "Verified black powder coating or black-stained/painted finish durability for chip/wear resistance, since dark finishes can show scratches and wear marks more visibly than lighter colors." },
-  { title: "Price premium for black verified against other colors", description: "Verified whether black-colored options carry any price premium over the same base product in other colors rather than assuming color choice is cost-neutral." },
+  { title: "Price premium for black verified against other colors", description: "Verified whether black-colored options carry any price premium over the same base product in other colors rather than assuming color choice is cost-neutral." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Do black monitor shelves show scratches more than lighter colors?", a: "Often yes. Dark finishes can show scratches and wear marks more visibly than lighter colors, a genuine tradeoff of choosing black for long-term appearance." },
   { q: "Does black cost more than other colors for the same monitor shelf?", a: "Generally no meaningful premium was found, verify this for the specific product line you're considering, but color choice appears largely cost-neutral in this category." },
   { q: "Is black a bad choice for a desk in direct sunlight or a high-traffic area?", a: "It can show wear faster in those conditions, since black reveals dust and scratches more visibly, a mid-tone or textured finish sometimes hides daily wear better while still looking intentional." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the highest-rated matte black pick with practical drawer storage" },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the highest-rated matte black pick with practical drawer storage" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-white-monitor-shelves", title: "Best White Monitor Shelves (2026)" },
   { href: "/guide/best-bamboo-monitor-shelves", title: "Best Bamboo Monitor Shelves (2026)" },
-  { href: "/guide/best-two-tier-monitor-shelves", title: "Best Two-Tier Monitor Shelves (2026)" },
+  { href: "/guide/best-two-tier-monitor-shelves", title: "Best Two-Tier Monitor Shelves (2026)" }
 ];

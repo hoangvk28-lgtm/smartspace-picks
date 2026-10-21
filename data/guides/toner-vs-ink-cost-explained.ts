@@ -12,7 +12,7 @@ export const tonerVsInkCostExplainedGuide: Guide = {
     "cost per page calculation printer",
     "is toner cheaper than ink",
     "printer running cost comparison",
-    "cheapest printer to run long term",
+    "cheapest printer to run long term"
   ],
   heroImage: "https://images.unsplash.com/photo-1613395450289-e560907d9308?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1613395450289-e560907d9308?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const tonerVsInkCostExplainedGuide: Guide = {
     "inkjet-vs-laser-printer",
     "printer-page-yield-explained",
     "printer-troubleshooting",
-    "wifi-vs-usb-printer",
+    "wifi-vs-usb-printer"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const tonerVsInkCostExplainedGuide: Guide = {
       question: "Does color printing cost more per page than black and white?",
       answer:
         "Yes, color printing draws from multiple ink or toner cartridges simultaneously, increasing cost per page substantially compared to black and white text, factor in how much color printing you actually do when calculating overall running cost.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const tonerVsInkCostExplainedGuide: Guide = {
     {
       heading: "Doing the Math Before You Buy",
       body: `Before buying a printer, look up the price and page yield for its actual replacement cartridges, not just the starter cartridges included in the box, which are often lower-capacity than what you'll buy going forward. Multiply your expected monthly page count by the cost-per-page figure to estimate a realistic annual running cost, then compare that total across the printer models you're considering rather than comparing purchase price in isolation.`,
-    },
+    }
   ],
 };

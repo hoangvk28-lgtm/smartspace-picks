@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "nas for small business";
 export const introParagraphs = [
   "A NAS for a small business has to hold up under several people pulling files at once, not just a single home user, which puts real weight on network speed, directory integration, and warranty tier that a personal NAS review rarely covers. It's also easy to forget that the NAS itself needs backing up, ransomware targets NAS devices specifically, and a power outage mid-write can corrupt a RAID array without a UPS in the loop.",
-  "Below are 8 NAS options for small businesses we evaluated on concurrent-user network throughput, bay count, directory and backup integration, and warranty tier, ranging from a 2-bay entry point to a 4-bay unit built for a growing team's file and media library.",
+  "Below are 8 NAS options for small businesses we evaluated on concurrent-user network throughput, bay count, directory and backup integration, and warranty tier, ranging from a 2-bay entry point to a 4-bay unit built for a growing team's file and media library."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "11 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Plus-tier business support eligibility",
       "Synology DSM software with directory sync support",
       "Multi-bay RAID for redundancy",
-      "Expandable storage as the business grows",
+      "Expandable storage as the business grows"
     ],
     pros: [
       "4 bays give real room to grow with a small business",
       "Plus-tier warranty and enterprise support option",
       "Synology DSM includes directory sync tools for centralized accounts",
-      "Strong RAID redundancy options",
+      "Strong RAID redundancy options"
     ],
     cons: [
       "Diskless, drives are an additional cost",
       "Most expensive pick in this list",
-      "Needs a faster-than-gigabit switch to avoid becoming a bottleneck with several concurrent users",
+      "Needs a faster-than-gigabit switch to avoid becoming a bottleneck with several concurrent users"
     ],
     bestFor: "Small businesses that want the most headroom for team growth and enterprise support",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Intel Pentium Gold 8505 5-Core CPU",
       "Supports cloud backup integration",
       "RAID support across all bays",
-      "Value-tier pricing versus premium 4-bay competitors",
+      "Value-tier pricing versus premium 4-bay competitors"
     ],
     pros: [
       "Strong 5-core CPU for the price",
       "4 bays at a lower price than the Synology equivalent",
       "Supports cloud backup of the NAS itself",
-      "Good balance of performance and cost",
+      "Good balance of performance and cost"
     ],
     cons: [
       "Diskless, drives are an additional cost",
       "Value-tier warranty and support versus Synology's Plus-tier enterprise add-on",
-      "Newer platform than Synology's more established DSM ecosystem",
+      "Newer platform than Synology's more established DSM ecosystem"
     ],
     bestFor: "Businesses that want 4-bay capacity and strong CPU performance without the Synology premium",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Aimed at content creators and small teams",
       "Standard gigabit networking",
       "RAID 1 mirroring support",
-      "Entry-level price point",
+      "Entry-level price point"
     ],
     pros: [
       "Cheapest 2-bay pick in this list",
       "Solid entry point for a small, growing team",
       "Simple 2-bay RAID 1 setup for basic redundancy",
-      "Good value for content-creator workflows",
+      "Good value for content-creator workflows"
     ],
     cons: [
       "Only 2 bays, less expansion room than the 4-bay picks",
       "Standard gigabit networking may bottleneck once the team grows past 5 users",
-      "Value-tier support versus a Plus-tier model",
+      "Value-tier support versus a Plus-tier model"
     ],
     bestFor: "A small team or solo business just starting to centralize file storage on a budget",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Plus-tier Synology support eligibility",
       "Private cloud storage for home and small business",
       "Directory sync support via DSM",
-      "Expansion path without full replacement",
+      "Expansion path without full replacement"
     ],
     pros: [
       "Expandable path avoids a full NAS replacement later",
       "Plus-tier Synology warranty and support option",
       "Strong DSM software ecosystem",
-      "Solid choice for a business planning to scale",
+      "Solid choice for a business planning to scale"
     ],
     cons: [
       "Pricier than the UGREEN 2-bay for the same starting bay count",
       "Directory integration setup usually needs IT assistance",
-      "Expansion unit is a separate purchase",
+      "Expansion unit is a separate purchase"
     ],
     bestFor: "A small business that wants to start at 2 bays with a clear path to expand later",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Intel CPU with hardware transcoding",
       "Photo backup and file sharing tools",
       "Private cloud media server functions",
-      "Value-tier warranty",
+      "Value-tier warranty"
     ],
     pros: [
       "Hardware transcoding useful for media-heavy small teams",
       "Solid photo backup and sharing features",
       "Competitive price for the transcoding CPU included",
-      "Good fit for agencies or content-focused offices",
+      "Good fit for agencies or content-focused offices"
     ],
     cons: [
       "Value-tier warranty, no enterprise support option",
       "Only 2 bays",
-      "Less suited to pure business file storage than the Plus-tier models",
+      "Less suited to pure business file storage than the Plus-tier models"
     ],
     bestFor: "Small teams that regularly stream or review video and photo content internally",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Value-tier Synology model",
       "Video surveillance storage support",
       "Photo vault and secure file sharing",
-      "Family and small business backup focus",
+      "Family and small business backup focus"
     ],
     pros: [
       "Cheapest 4-bay pick in this list",
       "Built-in support for video surveillance storage",
       "Solid photo vault and file sharing tools",
-      "Good entry point into 4-bay Synology hardware",
+      "Good entry point into 4-bay Synology hardware"
     ],
     cons: [
       "Value-tier warranty and support, not Plus-tier",
       "Weaker CPU than the Plus-tier 4-bay picks",
-      "Best suited to backup and surveillance rather than heavy concurrent file access",
+      "Best suited to backup and surveillance rather than heavy concurrent file access"
     ],
     bestFor: "Small businesses that want a combined surveillance and backup NAS on a budget",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "8GB RAM included",
       "QNAP QTS software ecosystem",
       "Supports directory sync and cloud backup",
-      "Desktop form factor",
+      "Desktop form factor"
     ],
     pros: [
       "8GB RAM included out of the box",
       "Solid alternative for businesses preferring QNAP's software",
       "Supports centralized directory integration",
-      "Good multitasking headroom for a 2-bay unit",
+      "Good multitasking headroom for a 2-bay unit"
     ],
     cons: [
       "Pricier than the UGREEN or Synology DS423 2/4-bay options",
       "QNAP's ecosystem has a learning curve for teams used to Synology",
-      "Only 2 bays despite the higher price than some 4-bay picks",
+      "Only 2 bays despite the higher price than some 4-bay picks"
     ],
     bestFor: "Small businesses that prefer QNAP's software ecosystem over Synology DSM",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "5640 RPM, SATA 6 Gb/s",
       "CMR recording, 256MB cache",
       "3.5\" form factor built for NAS enclosures",
-      "Rated for continuous multi-bay NAS operation",
+      "Rated for continuous multi-bay NAS operation"
     ],
     pros: [
       "Purpose-built for NAS vibration and always-on workloads",
       "CMR recording, not the less NAS-friendly SMR type",
       "256MB cache supports smoother multi-user access",
-      "Needed to actually populate any of the diskless NAS units above",
+      "Needed to actually populate any of the diskless NAS units above"
     ],
     cons: [
       "This is a drive, not a NAS enclosure, buy alongside a diskless unit above",
       "8TB may need to be purchased in pairs or more for full RAID capacity",
-      "Higher RPM competitors exist at a premium if raw speed matters most",
+      "Higher RPM competitors exist at a premium if raw speed matters most"
     ],
     bestFor: "Populating any of the diskless NAS units in this list with drives built for 24/7 business use",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Warranty and business support tier",
     description: "Compared Value-tier versus Plus/Pro-tier warranty length and enterprise support availability, since business-critical data justifies a different tier than personal use.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -466,11 +466,11 @@ export const faq: FaqItem[] = [
   {
     q: "Should a small business start with a 2-bay or 4-bay NAS?",
     a: "If the team is small and unlikely to grow much, a 2-bay unit like the UGREEN DXP2800 covers the basics affordably. If growth is likely, either start with an expandable 2-bay unit like the Synology DS725+ or go straight to a 4-bay model like the DS925+ or UGREEN DXP4800 Plus to avoid a second purchase within a year or two.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-nas-storage-for-home-office", title: "Best NAS Storage for Home Office (2026)" },
   { href: "/guide/best-nas-storage-devices", title: "Best NAS Storage Devices (2026)" },
-  { href: "/guide/best-nas-for-plex-media-servers", title: "Best NAS for Plex Media Servers (2026)" },
+  { href: "/guide/best-nas-for-plex-media-servers", title: "Best NAS for Plex Media Servers (2026)" }
 ];

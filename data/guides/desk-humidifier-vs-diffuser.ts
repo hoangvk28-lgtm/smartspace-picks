@@ -12,7 +12,7 @@ export const deskHumidifierVsDiffuserGuide: Guide = {
     "humidifier vs diffuser difference",
     "combo humidifier diffuser worth it",
     "desk essential oil diffuser",
-    "small desk humidifier options",
+    "small desk humidifier options"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskHumidifierVsDiffuserGuide: Guide = {
     "humidifier-room-size-chart",
     "air-purifier-cadr-explained",
     "desk-plant-lighting-requirements",
-    "desk-fan-cfm-explained",
+    "desk-fan-cfm-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskHumidifierVsDiffuserGuide: Guide = {
       question: "Which is more useful for a desk primarily concerned with dry air, not scent?",
       answer:
         "A dedicated humidifier, since addressing actual air dryness requires meaningful moisture output that a diffuser's smaller reservoir and lower output typically can't provide at a level that makes a genuine difference to room humidity.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const deskHumidifierVsDiffuserGuide: Guide = {
     {
       heading: "Why Adding Oils to an Unintended Device Carries Real Risk",
       body: `Standard humidifiers not designed for essential oil use typically lack the specific internal components, oil-resistant seals, a separate oil reservoir or diffusion chamber, that dedicated diffusers or combo devices include specifically to handle oils safely, adding essential oils directly into a standard humidifier's water tank can damage internal plastic components, clog the ultrasonic mechanism, or void the manufacturer's warranty, if you want both humidity and scent functions, choosing a product explicitly designed and marketed for both, rather than improvising with a standard humidifier, avoids this genuine risk of damage.`,
-    },
+    }
   ],
 };

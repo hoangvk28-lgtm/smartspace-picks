@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "Anker SOLIX S2000 Portable Power Station, 2,010Wh, 3,000W Peak, Home Backup and is built around - : with 6w idle power draw, positioning it for under 2000 buyers specifically.\n\n, - : Powered by 314Ah LFP is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 2000, though as with any backup power purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["- : With 6W idle power draw",", - : Powered by 314Ah LFP",": 30% smaller and 25% lighter than"],
     pros: ["- : With 6W idle power draw, confirmed directly in the listing's own spec details",", - : Powered by 314Ah LFP, confirmed directly in the listing's own spec details",": 30% smaller and 25% lighter than, confirmed directly in the listing's own spec details"],
-    cons: ["At $649.99, worth comparing against similarly specced portable power stations before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $650, worth comparing against similarly specced portable power stations before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 2000",
   },
   {

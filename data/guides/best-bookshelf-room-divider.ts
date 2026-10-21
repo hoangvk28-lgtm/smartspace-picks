@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "bookshelf room divider";
 export const introParagraphs = [
   "A bookshelf room divider does double duty, splitting an open floor plan into distinct zones while still holding books, plants, or decor. Two design approaches dominate the category: S-shaped freestanding units that curve gently in the middle of a room, and tall open-back bookshelves that work as partitions when placed between two spaces.",
-  "Below are 7 bookshelf room dividers we evaluated on height, per-shelf weight capacity, and how well each design lets light pass through rather than blocking a room off completely, useful for studio apartments, shared bedrooms, or open-concept living areas that need a soft visual boundary.",
+  "Below are 7 bookshelf room dividers we evaluated on height, per-shelf weight capacity, and how well each design lets light pass through rather than blocking a room off completely, useful for studio apartments, shared bedrooms, or open-concept living areas that need a soft visual boundary."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -58,18 +58,18 @@ export const products: GuideProduct[] = [
       "S-shaped, 6 shelves x 2 sections = 12 compartments",
       "30 lb per shelf, 180 lb total",
       "Anti-tip kit + non-slip pads included",
-      "Waterproof and scratch-resistant",
+      "Waterproof and scratch-resistant"
     ],
     pros: [
       "S-shaped design works as a room divider, wine rack, or TV stand",
       "Looks good from both sides, ideal for open floor plans",
       "Waterproof and scratch-resistant finish",
-      "Includes anti-tip kit and non-slip pads",
+      "Includes anti-tip kit and non-slip pads"
     ],
     cons: [
       "180 lb total capacity is modest next to taller straight bookshelves",
       "12 smaller compartments rather than a few large shelves",
-      "Rustic brown tone may not match every decor style",
+      "Rustic brown tone may not match every decor style"
     ],
     bestFor: "Buyers who want a true freestanding room divider that looks finished from both sides",
   },
@@ -91,18 +91,18 @@ export const products: GuideProduct[] = [
       "S-shaped, vertical or horizontal orientation",
       "6 shelves x 2 sections, 30 lb per shelf",
       "150 lb total capacity",
-      "Anti-tip kit included",
+      "Anti-tip kit included"
     ],
     pros: [
       "Cleaner finish with sealed edges and covered screw holes",
       "Can be installed vertically or laid horizontally",
       "Industrial Black Oak tone suits modern spaces",
-      "Same versatile S-shaped divider design as Pick 1",
+      "Same versatile S-shaped divider design as Pick 1"
     ],
     cons: [
       "Slightly lower total capacity than the Rustic Brown version",
       "Same compact per-shelf compartments as Pick 1",
-      "S-shape uses more floor footprint than a straight bookcase",
+      "S-shape uses more floor footprint than a straight bookcase"
     ],
     bestFor: "Buyers who want the same S-shaped divider format in a more industrial black oak finish",
   },
@@ -124,18 +124,18 @@ export const products: GuideProduct[] = [
       "S-shaped geometric divider, 5-6 shelves",
       "44 lb per shelf (highest among S-shaped picks)",
       "1-year warranty",
-      "24/7 customer service",
+      "24/7 customer service"
     ],
     pros: [
       "Highest per-shelf capacity among S-shaped dividers at 44 lbs",
       "Wider 27.6-inch footprint holds more per section",
       "Clean modern white finish",
-      "Backed by a 1-year warranty and 24/7 support",
+      "Backed by a 1-year warranty and 24/7 support"
     ],
     cons: [
       "Larger footprint takes up more floor space than the Furologee",
       "More expensive than either Furologee option",
-      "White finish shows scuffs more visibly than darker tones",
+      "White finish shows scuffs more visibly than darker tones"
     ],
     bestFor: "Buyers who want the sturdiest S-shaped divider with the most per-shelf capacity",
   },
@@ -150,25 +150,24 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51JOxRZSvmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09X2N5PXG?tag=deskfinds0d-20",
     description:
-      "At 79 inches, the Tribesigns is the tallest solid bookshelf in this guide, and its 8-tier staggered layout is deliberately open-backed so it functions as a room divider without fully blocking light or sightlines the way a solid wall unit would. E1 particle board shelves sit in a heavy-duty metal frame rated for 200 lbs total, and the piece ships with a wall anchor kit for extra stability given its height.\n\nIt also carries the highest customer rating in this entire guide at 4.7 stars. For anyone who wants a divider that reads more like a traditional bookshelf than a curved sculptural piece, but still lets light filter through, this is the strongest option here.\n\nA genuine advantage here is that staggered open-back design lets light pass through. The tradeoff is bulkier footprint than the S-shaped picks.",
+      "At 79 inches, the Tribesigns is the tallest solid bookshelf in this guide, and its 8-tier staggered layout is deliberately open-backed so it functions as a room divider without fully blocking light or sightlines the way a solid wall unit would. E1 particle board shelves sit in a heavy-duty metal frame rated for 200 lbs total, and the piece ships with a wall anchor kit for extra stability given its height.\n\nFor anyone who wants a divider that reads more like a traditional bookshelf than a curved sculptural piece, but still lets light filter through, this is the strongest option here.\n\nA genuine advantage here is that staggered open-back design lets light pass through. The tradeoff is bulkier footprint than the S-shaped picks.",
     specs: [
       "39.3\"W x 11.8\"D x 79\"H",
       "E1 particle board + heavy-duty metal frame",
       "8-tier staggered open-back design",
       "200 lb total weight capacity",
-      "Wall anchor kit included",
-      "Highest rating in this guide (4.7 stars)",
+      "Wall anchor kit included"
     ],
     pros: [
       "Tallest solid bookshelf in this guide at 79 inches",
       "Staggered open-back design lets light pass through",
       "Highest customer rating in this list",
-      "200 lb capacity with included wall anchor kit",
+      "200 lb capacity with included wall anchor kit"
     ],
     cons: [
       "Bulkier footprint than the S-shaped picks",
       "Needs to be anchored to a wall given its height",
-      "Not as visually distinctive as the curved S-shaped designs",
+      "Not as visually distinctive as the curved S-shaped designs"
     ],
     bestFor: "Buyers who want a tall open-back bookshelf that divides a room without blocking light",
   },
@@ -190,18 +189,18 @@ export const products: GuideProduct[] = [
       "4 metal frames with X-bracing",
       "220 lb per shelf, 1,320 lb total",
       "Adjustable levelers + anti-tip kits",
-      "Highest review count in this guide (2,231)",
+      "Highest review count in this guide (2,231)"
     ],
     pros: [
       "Tallest bookshelf in this entire guide at 84.4 inches",
       "Enormous 1,320 lb total weight capacity",
       "4 reinforced metal frames with X-bracing",
-      "Highest rating and review count in this guide",
+      "Highest rating and review count in this guide"
     ],
     cons: [
       "Most expensive pick in this guide besides the widest option",
       "Height requires careful anchoring in open spaces",
-      "Large footprint may overwhelm smaller rooms",
+      "Large footprint may overwhelm smaller rooms"
     ],
     bestFor: "Buyers who want the tallest, strongest bookshelf divider with maximum weight capacity",
   },
@@ -223,18 +222,18 @@ export const products: GuideProduct[] = [
       "4 metal frames + upright fence panels",
       "220 lb per shelf, 1,320 lb total",
       "2 anti-toppling brackets included",
-      "6-tier open shelving",
+      "6-tier open shelving"
     ],
     pros: [
       "Widest bookshelf in this guide at 70.9 inches",
       "Unique fence panels stop items from falling off",
       "1,320 lb total capacity matches the tallest pick",
-      "Spans a large room divide in a single piece",
+      "Spans a large room divide in a single piece"
     ],
     cons: [
       "Most expensive pick in this guide",
       "Wide footprint needs a large open area to work well",
-      "Not as tall as the HSH, so less floor-to-ceiling coverage",
+      "Not as tall as the HSH, so less floor-to-ceiling coverage"
     ],
     bestFor: "Buyers who need to divide a wide open room with a single continuous bookshelf",
   },
@@ -249,28 +248,27 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/5173Dik0hvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCGH38DZ?tag=deskfinds0d-20",
     description:
-      "The Keyluv is the only pick in this guide with 2 enclosed cabinet doors, giving it a mix of open display shelves and private, dust-free storage that the other tall bookshelves here don't offer. It's built around a notably thick 1.1-inch alloy steel frame paired with 0.6-inch particle board shelving, and the brand specifically designed it to be combined with additional units side by side to form a longer room divider.\n\nSix open tiers plus the enclosed cabinet section give 45 lbs of capacity per shelf, for 150 lbs total, and an anti-tip kit keeps the 76-inch frame stable. If you want to close off a portion of your storage while still dividing a room, this is the pick built for that specific use case.\n\nThickest 1.1-inch alloy steel frame in this guide. Set against that, smallest review count in this guide (79 ratings). Both matter when comparing it to the other picks here.",
+      "The Keyluv is the only pick in this guide with 2 enclosed cabinet doors, giving it a mix of open display shelves and private, dust-free storage that the other tall bookshelves here don't offer. It's built around a notably thick 1.1-inch alloy steel frame paired with 0.6-inch particle board shelving, and the brand specifically designed it to be combined with additional units side by side to form a longer room divider.\n\nSix open tiers plus the enclosed cabinet section give 45 lbs of capacity per shelf, for 150 lbs total, and an anti-tip kit keeps the 76-inch frame stable. If you want to close off a portion of your storage while still dividing a room, this is the pick built for that specific use case.\n\nThickest 1.1-inch alloy steel frame in this guide. Both matter when comparing it to the other picks here.",
     specs: [
       "39\"W x 12\"D x 76\"H",
       "1.1\" alloy steel frame + 0.6\" particle board",
       "6-tier open shelving + 2 enclosed cabinet doors",
       "45 lb per shelf, 150 lb total",
       "Anti-tip kit included",
-      "Designed to combine multiple units into one divider",
+      "Designed to combine multiple units into one divider"
     ],
     pros: [
       "Only pick with 2 enclosed cabinet doors for private storage",
       "Thickest 1.1-inch alloy steel frame in this guide",
       "Designed to combine multiple units side by side",
-      "Mixes open display shelves with hidden storage",
+      "Mixes open display shelves with hidden storage"
     ],
     cons: [
-      "Smallest review count in this guide (79 ratings)",
       "Lower total capacity than the taller straight bookshelves",
-      "Cabinet doors add cost versus fully open designs",
+      "Cabinet doors add cost versus fully open designs"
     ],
     bestFor: "Buyers who want part of their room divider enclosed behind doors, especially when combining multiple units",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -319,7 +317,7 @@ export const faq: FaqItem[] = [
   },
   {
     q: "What is the most affordable bookshelf room divider in this list?",
-    a: "The Furologee Rustic Brown S-Shaped Bookshelf (Pick 1) is the most affordable at $59.99, followed closely by the Light Black Oak version (Pick 2) at $62.99.",
+    a: "The Furologee Rustic Brown S-Shaped Bookshelf (Pick 1) is the most affordable at under $60, followed closely by the Light Black Oak version (Pick 2) at under $70.",
   },
   {
     q: "How tall should a bookshelf room divider be?",
@@ -328,11 +326,11 @@ export const faq: FaqItem[] = [
   {
     q: "Do room dividers need to be anchored like a wall bookshelf?",
     a: "Yes, if anything they need more attention to stability, not less. A true room divider is walked around on both sides, so it often can't be strapped to a wall the way a normal bookshelf can. That makes a wide, heavy base and included anti-tip or anti-toppling hardware, present on every pick in this guide, especially important for keeping a tall freestanding piece from tipping.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-bookshelf-with-doors", title: "Best Bookshelves with Doors in 2026" },
   { href: "/guide/best-bookshelf-desk", title: "Best Bookshelf Desks in 2026" },
-  { href: "/guide/best-bookshelf-with-drawers", title: "Best Bookshelves with Drawers in 2026" },
+  { href: "/guide/best-bookshelf-with-drawers", title: "Best Bookshelves with Drawers in 2026" }
 ];

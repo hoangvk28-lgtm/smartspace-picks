@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41r02N0dAkS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B079KTKXBP?tag=deskfinds0d-20",
-    description: "The 15U version of Sysracks' soundproof line, with the same claimed 36% noise reduction and dual-fan cooling as the 12U model, just with more room to grow into.\n\nA hexagon-perforated glass door helps air circulation without sacrificing the acoustic dampening that's the whole point of this cabinet, and it ships with a PDU and shelf included.\n\nWhat stands out here is hexagon-perforated door balances airflow with sound dampening, plus comes with PDU, shelf, and casters included. The main tradeoff: larger 15U size takes more room than the 12U model, so weigh that against the $1,320.00 price before buying.",
+    description: "The 15U version of Sysracks' soundproof line, with the same claimed 36% noise reduction and dual-fan cooling as the 12U model, just with more room to grow into.\n\nA hexagon-perforated glass door helps air circulation without sacrificing the acoustic dampening that's the whole point of this cabinet, and it ships with a PDU and shelf included.\n\nWhat stands out here is hexagon-perforated door balances airflow with sound dampening, plus comes with PDU, shelf, and casters included. The main tradeoff: larger 15U size takes more room than the 12U model, so weigh that against the under $1,400 price before buying.",
     specs: ["15U, 26\"W x 35\"D x 36\"H","Up to 36% noise reduction claimed","PDU, shelf, and 4 casters included"],
     pros: ["Hexagon-perforated door balances airflow with sound dampening","Comes with PDU, shelf, and casters included","2-year manufacturer warranty backs the purchase"],
     cons: ["Larger 15U size takes more room than the 12U model","Locking system adds a step versus open racks"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/412RNnKO5iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GPK1Y4N5?tag=deskfinds0d-20",
-    description: "This 18U soundproof cabinet uses a thermostat-controlled dual exhaust fan system to automatically regulate temperature, taking the guesswork out of manual fan speed adjustment.\n\nSealed foam cable entry points specifically target dust intake reduction alongside the noise dampening, a detail worth noting if your install location tends to be dusty.\n\nThe strongest case for this pick comes down to automatic thermostat control removes manual fan adjustment as well as sealed foam cable entry reduces dust intake too. The compromise here is that 18U size needs more floor space than smaller soundproof models, so factor that in alongside the $1,978.00 asking price.",
+    description: "This 18U soundproof cabinet uses a thermostat-controlled dual exhaust fan system to automatically regulate temperature, taking the guesswork out of manual fan speed adjustment.\n\nSealed foam cable entry points specifically target dust intake reduction alongside the noise dampening, a detail worth noting if your install location tends to be dusty.\n\nThe strongest case for this pick comes down to automatic thermostat control removes manual fan adjustment as well as sealed foam cable entry reduces dust intake too. The compromise here is that 18U size needs more floor space than smaller soundproof models, so factor that in alongside the under $2,000 asking price.",
     specs: ["18U","Up to 36% noise reduction claimed","Thermostat-controlled dual exhaust fans"],
     pros: ["Automatic thermostat control removes manual fan adjustment","Sealed foam cable entry reduces dust intake too","Locking glass door still allows easy visual monitoring"],
     cons: ["18U size needs more floor space than smaller soundproof models","Acoustic foam adds bulk versus a standard open cabinet"],
@@ -129,20 +129,20 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $1,027.17",
+          "Under $1,100",
           "Sysracks 12U Soundproof Server Rack Cabinet"
         ],
         [
-          "Around $1,320.00",
+          "Under $1,400",
           "Sysracks Soundproof Server Rack Cabinet"
         ],
         [
-          "Around $1,978.00",
+          "Under $2,000",
           "Soundproof Server Rack Cabinet"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -190,7 +190,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Sysracks 12U Soundproof Server Rack Cabinet is aimed at buyers prioritizing 12u, 35\" depth." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Sysracks 12U Soundproof Server Rack Cabinet is aimed at buyers prioritizing 12u, 35\" depth." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-quiet-server-racks","title":"Best Quiet Server Racks in 2026"},{"href":"/guide/best-quiet-home-server-racks","title":"Best Quiet Home Server Racks in 2026"},{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"}];

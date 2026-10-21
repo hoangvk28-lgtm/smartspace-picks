@@ -12,7 +12,7 @@ export const cornerDeskVsStraightDeskSmallRoomGuide: Guide = {
     "corner desk small bedroom",
     "l shaped desk vs straight desk",
     "best desk shape for small room",
-    "corner desk floor space",
+    "corner desk floor space"
   ],
   heroImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const cornerDeskVsStraightDeskSmallRoomGuide: Guide = {
     "dorm-desk-size-restrictions-explained",
     "what-size-desk-do-i-need",
     "desk-size-chart",
-    "ladder-shelf-vs-corner-shelf",
+    "ladder-shelf-vs-corner-shelf"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const cornerDeskVsStraightDeskSmallRoomGuide: Guide = {
       question: "Which is easier to move or reposition later?",
       answer:
         "A straight desk is generally easier to reposition to a different wall or room since it doesn't require a matching corner configuration, a corner desk is more specifically tied to fitting a particular room's corner layout, making future rearrangement less flexible.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const cornerDeskVsStraightDeskSmallRoomGuide: Guide = {
     {
       heading: "Why Room Shape and Existing Furniture Placement Should Drive the Final Decision",
       body: `The theoretical space efficiency of a corner desk only materializes if your specific room actually has a usable open corner, an irregular room shape, an existing radiator or fixture occupying the corner, or a door swing path crossing that area, can all make a corner desk impractical despite its general space-efficiency advantage. Walk through your room's actual layout and existing furniture placement before deciding, since the right choice genuinely depends on your specific room's constraints rather than a universal rule favoring one shape over the other.`,
-    },
+    }
   ],
 };

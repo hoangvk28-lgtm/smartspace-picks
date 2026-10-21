@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Gasket-mount sound quality with wireless flexibility", "Kisnt KN85 Wireless Mechanical Keyboard, 75% Layout"],
         ["Gasket-mount sound quality at a lower price", "HUO JI E-Yooso Creamy Mechanical Keyboard"],
         ["Genuine Mac and Windows dual compatibility", "Keychron C2 Full Size Wired Mechanical Keyboard, Brown Switch"],
-        ["The lowest price with software remapping", "Redragon K552 Mechanical Keyboard, Red Switches"],
+        ["The lowest price with software remapping", "Redragon K552 Mechanical Keyboard, Red Switches"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $37", "Redragon K552 ($36.99)"],
-        ["Under $44", "Keychron C2 ($43.30)"],
-        ["Under $45", "HUO JI E-Yooso ($44.99)"],
-        ["Under $50", "Kisnt KN85 ($49.99)"],
+        ["Under $37", "Redragon K552 (under $40)"],
+        ["Under $44", "Keychron C2 (under $45)"],
+        ["Under $45", "HUO JI E-Yooso (under $45)"],
+        ["Under $50", "Kisnt KN85 (under $50)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Gasket-Mounted vs Standard Construction",
     cards: [
       { label: "Gasket-mounted (Kisnt, HUO JI)", text: "Uses layered foam and silicone dampening to produce a deeper, quieter 'thock' sound and softer keystroke feel, a genuine upgrade over standard cases." },
-      { label: "Standard construction (Keychron C2, Redragon)", text: "Uses a more traditional case design without dedicated sound dampening, typically producing a louder, hollower sound but often at a lower price." },
+      { label: "Standard construction (Keychron C2, Redragon)", text: "Uses a more traditional case design without dedicated sound dampening, typically producing a louder, hollower sound but often at a lower price." }
     ],
     note: "If typing sound and feel matter to you, especially in a shared space, the gasket-mounted Kisnt or HUO JI picks are worth prioritizing. If sound isn't a concern, the Keychron C2 or Redragon picks deliver solid mechanical typing for less.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["True wireless with multi-device switching", "Kisnt KN85 (tri-mode)"],
         ["Simple, reliable wired connection", "HUO JI E-Yooso or Redragon K552"],
-        ["Wired with strong Mac optimization", "Keychron C2"],
+        ["Wired with strong Mac optimization", "Keychron C2"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Small Desk With Limited USB Ports Specifically",
     cards: [
       { label: "Look for", text: "True wireless connectivity via Bluetooth or a 2.4GHz dongle, freeing up a physical USB port for other peripherals rather than a permanent wired connection." },
-      { label: "In this comparison", text: "The Kisnt KN85's tri-mode connectivity specifically supports Bluetooth pairing, freeing up a USB port that a wired-only pick would otherwise occupy." },
+      { label: "In this comparison", text: "The Kisnt KN85's tri-mode connectivity specifically supports Bluetooth pairing, freeing up a USB port that a wired-only pick would otherwise occupy." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want genuine gasket-mount sound quality combined with true wireless flexibility, where the Kisnt KN85 delivers both at the top of this tier." },
-      { label: "Save if", text: "You just want reliable wired mechanical typing with software remapping, where the Redragon K552 covers that for about $13 less." },
+      { label: "Save if", text: "You just want reliable wired mechanical typing with software remapping, where the Redragon K552 covers that for about $13 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

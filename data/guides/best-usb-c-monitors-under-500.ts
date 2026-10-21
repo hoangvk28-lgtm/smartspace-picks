@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Built-in KVM switching for two computers", "BenQ PD2706U Mac-Ready 27 Inch 4K Monitor"],
         ["A straightforward 4K USB-C hub monitor", "Dell Pro Plus 27 Inch 4K USB-C Hub Monitor"],
-        ["Maximum USB-C power delivery with DCI-P3 color", "LG 27U730A 27 Inch 4K Ultrafine Monitor"],
+        ["Maximum USB-C power delivery with DCI-P3 color", "LG 27U730A 27 Inch 4K Ultrafine Monitor"]
       ],
     },
   },
@@ -116,9 +116,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $365", "ASUS VA34VCPSR 34 Inch Ultrawide ($359.99)"],
-        ["$395-$400", "BenQ PD2706U ($399.99) or LG 27U730A ($399.00)"],
-        ["Under $500", "Dell Pro Plus 27 Inch 4K USB-C Hub Monitor ($409.95)"],
+        ["Under $365", "ASUS VA34VCPSR 34 Inch Ultrawide (under $400)"],
+        ["$395-$400", "BenQ PD2706U (under $400) or LG 27U730A (under $400)"],
+        ["Under $500", "Dell Pro Plus 27 Inch 4K USB-C Hub Monitor (under $450)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Hardware KVM vs Software Device Switching",
     cards: [
       { label: "Hardware KVM (BenQ PD2706U)", text: "A dedicated switch built into the monitor lets you control two separate PC systems with one keyboard and mouse, independent of either computer's own software or operating system." },
-      { label: "Software Switching (LG 27U730A's Switch feature)", text: "Relies on the monitor's companion software running alongside your operating system to toggle between connected devices, generally simpler to set up but slightly less independent of the connected computers." },
+      { label: "Software Switching (LG 27U730A's Switch feature)", text: "Relies on the monitor's companion software running alongside your operating system to toggle between connected devices, generally simpler to set up but slightly less independent of the connected computers." }
     ],
     note: "If you need to switch between two genuinely separate work and personal computers regularly, the BenQ's hardware KVM is the more robust, OS-independent solution.",
   },
@@ -136,7 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your laptop's charging needs", "Recommended pick"],
       rows: [
         ["96W (highest-demand creator or gaming laptops)", "ASUS VA34VCPSR 34 Inch Curved Ultrawide Monitor"],
-        ["90W (most creator laptops)", "BenQ PD2706U or LG 27U730A"],
+        ["90W (most creator laptops)", "BenQ PD2706U or LG 27U730A"]
       ],
     },
   },
@@ -144,16 +144,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Two-Computer Home Office Specifically",
     cards: [
       { label: "Look for", text: "A monitor with a dedicated hardware KVM switch and clear documentation of how many devices it supports switching between." },
-      { label: "In this comparison", text: "The BenQ PD2706U's built-in KVM switch is purpose-built for exactly this two-computer workflow, saving the cost of a separate KVM device." },
+      { label: "In this comparison", text: "The BenQ PD2706U's built-in KVM switch is purpose-built for exactly this two-computer workflow, saving the cost of a separate KVM device." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You need built-in KVM switching or a straightforward branded hub solution, where the BenQ PD2706U and Dell Pro Plus monitor both deliver genuine workflow features." },
-      { label: "Save if", text: "A wide ultrawide screen covers your multitasking needs without requiring KVM or 4K resolution, where the ASUS VA34VCPSR saves $40-50 versus the standard 4K picks here." },
+      { label: "Save if", text: "A wide ultrawide screen covers your multitasking needs without requiring KVM or 4K resolution, where the ASUS VA34VCPSR saves $40-50 versus the standard 4K picks here." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

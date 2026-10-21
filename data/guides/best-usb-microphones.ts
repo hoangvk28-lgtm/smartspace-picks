@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "usb microphone";
 export const introParagraphs = [
   "A USB microphone has to work for whatever room it ends up in, a treated podcast corner, a noisy shared apartment, or a desk two feet from a mechanical keyboard, and the right pick depends more on room type than on price alone. Condenser mics capture more detail but also pick up everything else in the room, while dynamic mics reject background noise better and tend to suit untreated spaces.",
-  "Below are 8 USB microphones we evaluated on room-noise handling, mute button design, desk vibration pickup, and long-term upgrade path, ranging from a $29.99 budget condenser to a full XLR/USB kit with a boom arm included.",
+  "Below are 8 USB microphones we evaluated on room-noise handling, mute button design, desk vibration pickup, and long-term upgrade path, ranging from an under-$30 budget condenser to a full XLR/USB kit with a boom arm included."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Condenser capsule design",
       "Blue VO!CE real-time voice effects software",
       "Plug and play for PC and Mac",
-      "Built-in headphone monitoring jack",
+      "Built-in headphone monitoring jack"
     ],
     pros: [
       "4 pickup patterns cover solo, interview, and room recording",
       "Blue VO!CE software adds real-time voice shaping",
       "True plug and play, no drivers needed",
-      "Headphone jack for zero-latency monitoring",
+      "Headphone jack for zero-latency monitoring"
     ],
     cons: [
       "Condenser sensitivity means it picks up room and desk noise easily",
       "Software mute has slight lag versus a hardware mute button",
-      "Bulkier desktop footprint than smaller USB mics",
+      "Bulkier desktop footprint than smaller USB mics"
     ],
     bestFor: "Buyers in a reasonably quiet room who want the most established all-around USB mic",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Condenser capsule design",
       "Compact desktop footprint",
       "Plug and play for PC and Mac",
-      "Built-in headphone monitoring jack",
+      "Built-in headphone monitoring jack"
     ],
     pros: [
       "Smaller footprint than a full-size Yeti",
       "Simple 2-pattern selection, easy for beginners",
       "True plug and play setup",
-      "Headphone jack for real-time monitoring",
+      "Headphone jack for real-time monitoring"
     ],
     cons: [
       "Fewer pickup pattern options than the full Yeti",
       "Still a condenser, so room noise is picked up readily",
-      "No XLR output for a future upgrade path",
+      "No XLR output for a future upgrade path"
     ],
     bestFor: "Small desks that need a compact condenser without giving up plug and play simplicity",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Dual USB and XLR output",
       "Hardware mute button (instant, zero-latency)",
       "RGB lighting with adjustable modes",
-      "Includes basic desktop stand",
+      "Includes basic desktop stand"
     ],
     pros: [
       "Dynamic capsule rejects room noise better than a condenser",
       "Hardware mute button has no lag, unlike software mute",
       "USB and XLR output supports a future interface upgrade",
-      "Headphone jack for direct monitoring",
+      "Headphone jack for direct monitoring"
     ],
     cons: [
       "Less detailed capture than a condenser for treated-room use",
       "Included stand is basic compared to a real boom arm",
-      "RGB lighting adds visual bulk some buyers won't want",
+      "RGB lighting adds visual bulk some buyers won't want"
     ],
     bestFor: "Untreated rooms, shared spaces, or buyers who want a hardware mute button",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Dual USB and XLR output",
       "Included boom arm stand",
       "Hardware mute button",
-      "Headphone monitoring jack",
+      "Headphone monitoring jack"
     ],
     pros: [
       "Boom arm included, avoids desk vibration and keyboard noise pickup",
       "Dynamic capsule suits untreated rooms",
       "Hardware mute button with no lag",
-      "USB and XLR output for a future interface upgrade",
+      "USB and XLR output for a future interface upgrade"
     ],
     cons: [
       "Bulkier full kit takes up more desk space when deployed",
       "Dynamic capsule captures less detail than a condenser in a treated room",
-      "Boom arm needs a clamp point on the desk edge",
+      "Boom arm needs a clamp point on the desk edge"
     ],
     bestFor: "Buyers on a desk with a mechanical keyboard who need the mic off the desk surface",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Dual USB and XLR output",
       "Included boom arm",
       "Hardware mute button",
-      "Headphone jack for monitoring",
+      "Headphone jack for monitoring"
     ],
     pros: [
       "Complete kit with boom arm included",
       "Dynamic capsule suits podcast and voice-over recording in untreated rooms",
       "Zero-latency hardware mute",
-      "USB and XLR flexibility for future setups",
+      "USB and XLR flexibility for future setups"
     ],
     cons: [
       "Single fixed cardioid-style pattern, no pattern switching",
       "Less natural room ambience capture than a condenser",
-      "Boom arm clamp needs a compatible desk edge",
+      "Boom arm clamp needs a compatible desk edge"
     ],
     bestFor: "Solo podcasters who want a dedicated boom-mounted mic without extra pattern options",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Metal body construction",
       "Cardioid pickup pattern",
       "Mac and Windows compatible",
-      "USB plug and play",
+      "USB plug and play"
     ],
     pros: [
       "Lowest price of any true condenser in this list",
       "Metal body feels sturdier than its price suggests",
       "Simple plug and play, no drivers needed",
-      "Reasonable starter mic for meetings or casual recording",
+      "Reasonable starter mic for meetings or casual recording"
     ],
     cons: [
       "No hardware mute button",
       "No headphone monitoring jack",
-      "Condenser sensitivity still picks up room and desk noise",
+      "Condenser sensitivity still picks up room and desk noise"
     ],
     bestFor: "Budget buyers testing whether a USB mic upgrade is worth it before spending more",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Included boom arm",
       "Tap-to-mute button with RGB indicator",
       "Onboard gain control",
-      "USB plug and play",
+      "USB plug and play"
     ],
     pros: [
       "Boom arm included at a budget price",
       "Tap mute button with visual RGB status indicator",
       "Onboard gain control for quick level adjustment",
-      "Complete kit, nothing extra to buy for basic streaming",
+      "Complete kit, nothing extra to buy for basic streaming"
     ],
     cons: [
       "Condenser capsule still picks up more room noise than a dynamic mic",
       "RGB lighting adds visual clutter some buyers won't want",
-      "No XLR output for a future interface upgrade",
+      "No XLR output for a future interface upgrade"
     ],
     bestFor: "Streamers who want a complete boom-mounted mic kit without piecing parts together",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Condenser capsule design",
       "Renewed/refurbished condition",
       "Plug and play for PC and Mac",
-      "Built-in headphone monitoring jack",
+      "Built-in headphone monitoring jack"
     ],
     pros: [
       "Lower price than a new Blue Yeti",
       "Same 4-pattern flexibility as the full-price model",
       "Headphone jack for zero-latency monitoring",
-      "True plug and play setup",
+      "True plug and play setup"
     ],
     cons: [
       "Renewed condition means checking the seller's return policy closely",
       "Condenser sensitivity still applies, best in a quieter room",
-      "No hardware mute button",
+      "No hardware mute button"
     ],
     bestFor: "Budget-conscious buyers who want full Yeti pattern flexibility for less",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed included accessories, boom arms, stands, RGB, mute buttons, against price, from the budget picks up through the full-size Blue Yeti.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,11 +477,11 @@ export const faq: FaqItem[] = [
   {
     q: "Is a renewed USB microphone worth buying to save money?",
     a: "It can be, as long as you check the seller's return policy before purchasing. The renewed Blue Yeti in this list offers the same 4-pattern condenser flexibility as the new version at a lower price, which is a reasonable trade-off for budget-conscious buyers comfortable with refurbished electronics.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-usb-condenser-microphones", title: "Best USB Condenser Microphones (2026)" },
   { href: "/guide/best-4k-webcams", title: "Best 4K Webcams (2026)" },
-  { href: "/guide/best-webcam-for-video-calls", title: "Best Webcams for Video Calls (2026)" },
+  { href: "/guide/best-webcam-for-video-calls", title: "Best Webcams for Video Calls (2026)" }
 ];

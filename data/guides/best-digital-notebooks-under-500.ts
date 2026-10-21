@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook under 500";
 export const introParagraphs = [
   "Under $500 is where this category gets genuinely interesting: it's wide enough to include an entry-level true e-ink hardware device like the reMarkable 2, alongside the same affordable reusable paper notebooks and smart pen sets from our under-$300 guide.",
-  "Every price below was checked against verified current listing data, if you're weighing whether to step up from paper or a smart pen to real e-ink hardware, this ceiling is where that decision becomes realistic.",
+  "Every price below was checked against verified current listing data, if you're weighing whether to step up from paper or a smart pen to real e-ink hardware, this ceiling is where that decision becomes realistic."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Every price checked against verified current data before inclusion", description: "Confirmed each product's actual listed price is genuinely at a budget-friendly price using verified pricing data, excluding anything unconfirmed or over the ceiling." },
   { title: "The e-ink hardware step-up explicitly highlighted", description: "Flagged the reMarkable 2 as the meaningful category upgrade available at this price ceiling, distinct from the paper and smart pen options that dominate the under-a competitive tier." },
   { title: "Feature richness weighed within the wider price ceiling", description: "Compared real-time sync, structured layouts, and screen-based writing across this broader budget range rather than assuming higher price always means better value." },
-  { title: "Ecosystem maturity noted for smaller brands", description: "Flagged where a smart pen brand is less established than Rocketbook or reMarkable, worth checking current reviews before buying." },
+  { title: "Ecosystem maturity noted for smaller brands", description: "Flagged where a smart pen brand is less established than Rocketbook or reMarkable, worth checking current reviews before buying." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -286,11 +286,11 @@ export const faq: FaqItem[] = [
   { q: "What's the best digital notebook under $500?", a: "The reMarkable 2 is the standout pick if you want genuine e-ink hardware, the Rocketbook Core remains the best value if you'd rather stay with paper-based notebooks." },
   { q: "Is a reMarkable 2 worth it compared to a Rocketbook?", a: "It costs meaningfully more but delivers a genuinely digital writing experience with no scanning step, worth it if you'll use it heavily, otherwise a Rocketbook covers most practical needs at a lower price." },
   { q: "Can I get real-time sync under $500 without buying an e-ink device?", a: "Yes, smart pen sets like SyncPen and the Ophayapen offer real-time handwriting sync well under this price ceiling as a paper-based alternative." },
-  { q: "Does the reMarkable require a subscription?", a: "Verify current cloud subscription requirements directly with the manufacturer, some premium e-ink devices have historically required one for full cloud sync features." },
+  { q: "Does the reMarkable require a subscription?", a: "Verify current cloud subscription requirements directly with the manufacturer, some premium e-ink devices have historically required one for full cloud sync features." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks-under-300", title: "Best Digital Notebooks Under $300 (2026)" },
   { href: "/guide/best-e-ink-digital-notebooks", title: "Best E-Ink Digital Notebooks (2026)" },
-  { href: "/guide/best-digital-notebooks-for-professionals", title: "Best Digital Notebooks for Professionals (2026)" },
+  { href: "/guide/best-digital-notebooks-for-professionals", title: "Best Digital Notebooks for Professionals (2026)" }
 ];

@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51k2TKAKpxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVWQ6KZS?tag=deskfinds0d-20",
-    description: "This is KEFEYA's base 14 inch model, distinct from the brand's pricier $119.99 version also on the market, sharing the same 1080P IPS panel with 300 nits brightness and 75% sRGB, plus 180 degree rotation and built-in speakers for video calls. It ships with all three cable types (Type-C, USB-C to USB-A, and HDMI) in the box.\n\nAt the same $89.99 price as the Miesebe pick, the choice between them mostly comes down to rotation range, 180 degrees here versus 226 on Miesebe, since the core panel specs are otherwise very close. KEFEYA's listing is explicit that using the HDMI cable requires an additional USB-A power connection, the same caveat ROYY states, a detail worth knowing before assuming HDMI alone powers the screen.\n\nBest for buyers who want KEFEYA's base model at the lower end of its lineup rather than the pricier $119.99 version, and don't need Miesebe's wider rotation range.",
+    description: "This is KEFEYA's base 14 inch model, distinct from the brand's pricier under $120 version also on the market, sharing the same 1080P IPS panel with 300 nits brightness and 75% sRGB, plus 180 degree rotation and built-in speakers for video calls. It ships with all three cable types (Type-C, USB-C to USB-A, and HDMI) in the box.\n\nAt the same under $90 price as the Miesebe pick, the choice between them mostly comes down to rotation range, 180 degrees here versus 226 on Miesebe, since the core panel specs are otherwise very close. KEFEYA's listing is explicit that using the HDMI cable requires an additional USB-A power connection, the same caveat ROYY states, a detail worth knowing before assuming HDMI alone powers the screen.\n\nBest for buyers who want KEFEYA's base model at the lower end of its lineup rather than the pricier under $120 version, and don't need Miesebe's wider rotation range.",
     specs: ["14\" FHD IPS, 300 nits, 75% sRGB", "180 degree rotation, built-in speakers", "All three cable types included"],
     pros: ["Same core panel specs as pricier extenders at a lower price point", "Built-in speakers for video calls without external audio", "All three cable types included in the box"],
     cons: ["Narrower rotation range than the Miesebe pick at the same price", "HDMI connection requires an additional USB-A power cable"],
@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Documented display specs to compare against", "ROYY Laptop Screen Extender 14\""],
         ["The lowest price with real build quality", "VueForge Laptop Screen Extender 14\""],
-        ["The widest rotation range for presentations", "Miesebe Laptop Screen Extender 14\""],
+        ["The widest rotation range for presentations", "Miesebe Laptop Screen Extender 14\""]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $85", "VueForge Laptop Screen Extender 14\" ($79.98)"],
-        ["$85-$90", "ROYY Laptop Screen Extender 14\" ($89.09), Miesebe Laptop Screen Extender 14\" ($89.99), or KEFEYA Laptop Screen Extender 14\" ($89.99)"],
+        ["Under $85", "VueForge Laptop Screen Extender 14\" (under $80)"],
+        ["$85-$90", "ROYY Laptop Screen Extender 14\" (under $90), Miesebe Laptop Screen Extender 14\" (under $90), or KEFEYA Laptop Screen Extender 14\" (under $90)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "180 vs 226 Degree Rotation",
     cards: [
       { label: "180 Degrees (ROYY, KEFEYA)", text: "Covers standard landscape and portrait switching plus basic angle adjustment for personal viewing. Sufficient for solo desk use where you're not regularly showing the screen to someone else." },
-      { label: "226 Degrees (Miesebe)", text: "Allows fully turning the display toward a colleague or client without repositioning the laptop itself. Best if you regularly share your screen in person during meetings or presentations." },
+      { label: "226 Degrees (Miesebe)", text: "Allows fully turning the display toward a colleague or client without repositioning the laptop itself. Best if you regularly share your screen in person during meetings or presentations." }
     ],
     note: "Most solo desk users don't need the extra rotation range, but it's a genuine convenience for anyone regularly presenting to someone sitting across from them.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your laptop has", "Recommended setup"],
       rows: [
         ["A full-featured Thunderbolt/USB-C port", "Any pick here works with a single USB-C to USB-C cable"],
-        ["Only HDMI and USB-A ports", "Any pick works, but budget for the extra USB-A power cable needed alongside HDMI"],
+        ["Only HDMI and USB-A ports", "Any pick works, but budget for the extra USB-A power cable needed alongside HDMI"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Video Calls Specifically",
     cards: [
       { label: "Look for", text: "A stated built-in speaker, since not every extender includes one, and relying on your laptop's speakers while the video call window is on the extended screen can create an awkward audio-visual mismatch." },
-      { label: "In this comparison", text: "Both the Miesebe Laptop Screen Extender 14\" and KEFEYA Laptop Screen Extender 14\" include built-in speakers, while the ROYY and VueForge picks don't mention this feature." },
+      { label: "In this comparison", text: "Both the Miesebe Laptop Screen Extender 14\" and KEFEYA Laptop Screen Extender 14\" include built-in speakers, while the ROYY and VueForge picks don't mention this feature." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You need a 15.6\" or larger screen, or a triple-monitor setup, which requires stepping up to the next price tier rather than staying under $100." },
-      { label: "Save if", text: "A 14\" screen with basic rotation covers your needs, where the VueForge Laptop Screen Extender 14\" delivers real build quality for under $80." },
+      { label: "Save if", text: "A 14\" screen with basic rotation covers your needs, where the VueForge Laptop Screen Extender 14\" delivers real build quality for under $80." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

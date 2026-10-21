@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable file organizer box";
 export const introParagraphs = [
   "Our original candidate ASINs were mostly no longer accessible, so we researched the current real product pool from scratch. We required genuine hanging-folder rail support or meaningful internal organization sections, plus a real carrying handle, to distinguish these from plain stationary archive boxes.",
-  "Prices span a wide range, from an $18.99 basic transparent box to a $107.89 8-pack of latching-lid organizers, so we compared per-unit value carefully.",
+  "Prices span a wide range, from an under $20 basic transparent box to an under-$110 8-pack of latching-lid organizers, so we compared per-unit value carefully."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41JQsGWn0tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HXBX5RJ?tag=deskfinds0d-20",
     description: "An 8-pack from Sterilite, an established storage-products brand, working out to roughly a competitive price per box, genuinely competitive per-unit pricing if you need multiple boxes.",
-    specs: ["8-pack", "Latching lids", "~$13.50 per box"],
+    specs: ["8-pack", "Latching lids", "~under $15 per box"],
     pros: ["Competitive per-unit price for buyers who need multiple boxes", "From an established storage brand"],
     cons: ["High total upfront cost if you only need one or two boxes"],
     bestFor: "Buyers who need multiple file boxes at once, like a home office overhaul or classroom setup.",
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     pros: ["Genuine internal organizer compartments in the lid", "Comfort-grip handle"],
     cons: ["No review history or confirmed current price available yet"],
     bestFor: "Buyers who want internal compartments for small supplies alongside hanging folders.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required genuine hanging-folder rail support or real compartments", description: "We only included products with confirmed slide rails or genuine organizer compartments, not plain stationary archive cartons." },
   { title: "Required a real carrying handle", description: "We verified each product has an actual carrying handle described in the listing, not just a lid you'd have to grip awkwardly." },
   { title: "Corrected a data error transparently", description: "One original candidate ASIN turned out to be a digital notebook, not a file box, we disclosed this correction directly rather than silently omitting it." },
-  { title: "Per-unit price comparison for multi-packs", description: "We calculated the effective per-box cost of the Sterilite 8-pack against single-unit alternatives." },
+  { title: "Per-unit price comparison for multi-packs", description: "We calculated the effective per-box cost of the Sterilite 8-pack against single-unit alternatives." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -232,14 +232,14 @@ export const buyingCriteria: BuyingCriterion[] = [
 
 export const faq: FaqItem[] = [
   { q: "Which has genuine hanging-folder support?", a: "The DSDCDJ File Box with Lock, with confirmed slide rails supporting both letter and legal size folders." },
-  { q: "What's the cheapest option?", a: "The Lemical Portable Plastic Transparent File Box at $18.99." },
-  { q: "Is there a multi-pack option?", a: "Yes, the Sterilite 8-Pack, which works out to roughly $13.50 per box." },
+  { q: "What's the cheapest option?", a: "The Lemical Portable Plastic Transparent File Box at under $20." },
+  { q: "Is there a multi-pack option?", a: "Yes, the Sterilite 8-Pack, which works out to under $15 per box." },
   { q: "Was there an error in the original research for this article?", a: "Yes, one original candidate ASIN was actually a digital notebook, not a file box. We corrected this and excluded it from our recommendations." },
-  { q: "Is there an option with internal compartments for small supplies?", a: "Yes, the Black Portable File Box includes organizer compartments built into the lid." },
+  { q: "Is there an option with internal compartments for small supplies?", a: "Yes, the Black Portable File Box includes organizer compartments built into the lid." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-plastic-file-boxes-with-handles", title: "Best Portable Plastic File Boxes with Handles (2026)" },
   { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" },
-  { href: "/guide/best-portable-file-totes-on-wheels", title: "Best Portable File Totes on Wheels (2026)" },
+  { href: "/guide/best-portable-file-totes-on-wheels", title: "Best Portable File Totes on Wheels (2026)" }
 ];

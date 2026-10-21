@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 8ft Conference Table measures 8ft and is built around spacious 8-10 person capacity, positioning it for trapezoid buyers specifically.\n\nElegant Walnut & Black Aesthetic is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for trapezoid, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["8ft table dimensions","Spacious 8-10 Person Capacity","Elegant Walnut & Black Aesthetic"],
     pros: ["Spacious 8-10 Person Capacity, confirmed directly in the listing's own spec details","Elegant Walnut & Black Aesthetic, confirmed directly in the listing's own spec details","Integrated Cable Management, confirmed directly in the listing's own spec details"],
-    cons: ["At $389.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $400, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for trapezoid",
   },
   {
@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $289.88",
+          "Under $300",
           "Okeysen Flip-Top Mobile Conference Table"
         ],
         [
-          "Around $389.99",
+          "Under $400",
           "Tribesigns 8ft Conference Table"
         ],
         [
-          "Around $509.99",
+          "Under $550",
           "Folding Conference Table"
         ],
         [
-          "Around $579.99",
+          "Under $600",
           "2-20 Person Folding Conference Table with Wheels"
         ],
         [
-          "Around $639.00",
+          "Under $650",
           "Folding Conference Table with Wheels"
         ],
         [
-          "Around $1,499.00",
+          "Under $1,500",
           "robwibw 4-Pack Trapezoid Folding Conference Table"
         ],
         [
-          "Around $1,899.00",
+          "Under $1,900",
           "robwibw 6-Pack Trapezoid Folding Conference Table"
         ],
         [
-          "Around $1,999.00",
+          "Under $2,000",
           "robwibw 6-Pack Trapezoid Folding Conference Table"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "robwibw 6-Pack Trapezoid Folding Conference Table is aimed at buyers prioritizing 4ft trapezoid tables, 6-pack." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "robwibw 6-Pack Trapezoid Folding Conference Table is aimed at buyers prioritizing 4ft trapezoid tables, 6-pack." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-rectangular-conference-tables","title":"Best Rectangular Conference Tables in 2026"},{"href":"/guide/best-oval-conference-tables","title":"Best Oval Conference Tables in 2026"},{"href":"/guide/best-boat-shaped-conference-tables","title":"Best Boat Shaped Conference Tables in 2026"}];

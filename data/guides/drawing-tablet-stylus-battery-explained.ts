@@ -12,7 +12,7 @@ export const drawingTabletStylusBatteryExplainedGuide: Guide = {
     "battery free stylus vs battery",
     "drawing pen charging worth it",
     "stylus dies during drawing session",
-    "electromagnetic resonance pen technology",
+    "electromagnetic resonance pen technology"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const drawingTabletStylusBatteryExplainedGuide: Guide = {
     "drawing-tablet-vs-display-tablet",
     "drawing-tablet-pressure-sensitivity-explained",
     "wireless-charging-stand-explained",
-    "wired-vs-wireless-mouse",
+    "wired-vs-wireless-mouse"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const drawingTabletStylusBatteryExplainedGuide: Guide = {
       question: "How do I know which type my tablet uses?",
       answer:
         "Check your specific tablet's product specifications, this is a defining characteristic of the tablet and pen system, not something you can freely switch between, since the tablet's internal technology needs to match the pen type it's designed for.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const drawingTabletStylusBatteryExplainedGuide: Guide = {
     {
       heading: "Why This Choice Is Determined by Your Tablet, Not a Separate Decision",
       body: `Unlike choosing a mouse or keyboard connection type independently of other hardware, a stylus's battery-free or battery-powered nature is fundamentally tied to the specific drawing tablet's underlying technology, a tablet designed for electromagnetic resonance pens generally can't be used with a battery-powered pen designed for a different system, and vice versa, this means the decision effectively happens when you choose your drawing tablet itself, rather than being a separate accessory choice you can freely make afterward.`,
-    },
+    }
   ],
 };

@@ -12,7 +12,7 @@ export const multiPurposeRoomDeskSetupGuide: Guide = {
     "desk in bedroom small space",
     "home office in guest room",
     "desk setup shared living space",
-    "workspace in multi function room",
+    "workspace in multi function room"
   ],
   heroImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const multiPurposeRoomDeskSetupGuide: Guide = {
     "corner-desk-vs-straight-desk-small-room",
     "wall-mounted-fold-down-desk-explained",
     "desk-declutter-checklist",
-    "under-desk-storage-options-explained",
+    "under-desk-storage-options-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const multiPurposeRoomDeskSetupGuide: Guide = {
       question: "How do I keep work stress from spilling into a room's other relaxing function?",
       answer:
         "Establishing a consistent end-of-day routine, closing a laptop, clearing visible clutter, dimming task lighting, helps create a psychological transition away from work mode, particularly important when work and rest or leisure activities share the same physical space.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const multiPurposeRoomDeskSetupGuide: Guide = {
     {
       heading: "Why an End-of-Day Reset Routine Genuinely Helps",
       body: `Without a physical commute or separate office to leave behind, it's easy for work materials, and the associated mental state, to linger into a room's other intended use, disrupting the rest or leisure function that space also needs to serve. Establishing a consistent, deliberate end-of-day routine, closing the laptop, clearing visible papers into a drawer, turning off the desk lamp, creates a repeatable ritual that signals the transition out of work mode, helping the room and your mind both shift back to its other function more effectively than simply stopping work without any clear transition marker.`,
-    },
+    }
   ],
 };

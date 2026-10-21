@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/414I8Ev3WZL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0G2RWQR2F?tag=deskfinds0d-20",
-    "description": "Trisomy is the only pick listed at 450 lb, on a reinforced steel frame with a 3.5HP motor, a 15% auto incline in 12 levels, a Bluetooth speaker, a remote and an RGB display. It folds for storage.\n\nAt about $190 it undercuts MERACH and KALWOL, which are rated 50 lb lower and cost $60 to $107 more. The trade is that part of the feature list is screen and lighting extras rather than structure.\n\nChoose it if you are near 350 lb or want the most headroom per dollar. The caveat is that a 3.5HP figure may be a peak rating, so check the listing for continuous power.",
+    "description": "Trisomy is the only pick listed at 450 lb, on a reinforced steel frame with a 3.5HP motor, a 15% auto incline in 12 levels, a Bluetooth speaker, a remote and an RGB display. It folds for storage.\n\nAt about $190 it undercuts MERACH and KALWOL, which are rated 50 lb lower and cost under $110 more. The trade is that part of the feature list is screen and lighting extras rather than structure.\n\nChoose it if you are near 350 lb or want the most headroom per dollar. The caveat is that a 3.5HP figure may be a peak rating, so check the listing for continuous power.",
     "specs": [
       "450 lb, reinforced steel frame",
       "3.5HP, 15% auto incline",

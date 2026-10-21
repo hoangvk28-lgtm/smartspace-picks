@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41HYwMDu-KL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GY7T11DH?tag=deskfinds0d-20",
-    description: "Plugable's entry runs the Realtek RTL8156BG chipset, the same chip that shows up across nearly every adapter in this comparison, but it's the cheapest listing that carries it at $17.99. It's also the only pick here with both a USB-A and a USB-C connector built into one adapter, so it works whether your laptop still has a USB-A port or has moved to USB-C only.\n\nAgainst the UGREEN and Cable Matters picks below, the chipset and top speed are identical on paper. The real difference is that dual connector: if you're mixing an older USB-A desktop with a newer USB-C laptop, this is the only adapter here that covers both without buying two separate cables.\n\nBest for anyone who isn't fully committed to USB-C yet, or who wants a single adapter that moves between an older USB-A dock and a newer USB-C laptop. The tradeoff is no power delivery passthrough, so it won't double as a charger.",
+    description: "Plugable's entry runs the Realtek RTL8156BG chipset, the same chip that shows up across nearly every adapter in this comparison, but it's the cheapest listing that carries it at under $20. It's also the only pick here with both a USB-A and a USB-C connector built into one adapter, so it works whether your laptop still has a USB-A port or has moved to USB-C only.\n\nAgainst the UGREEN and Cable Matters picks below, the chipset and top speed are identical on paper. The real difference is that dual connector: if you're mixing an older USB-A desktop with a newer USB-C laptop, this is the only adapter here that covers both without buying two separate cables.\n\nBest for anyone who isn't fully committed to USB-C yet, or who wants a single adapter that moves between an older USB-A dock and a newer USB-C laptop. The tradeoff is no power delivery passthrough, so it won't double as a charger.",
     specs: ["Realtek RTL8156BG chipset", "USB-A and USB-C dual connector", "Aluminum housing, braided cable"],
     pros: ["Works with both USB-A and USB-C ports", "Cheapest 2.5GbE pick with a name-brand chipset", "Aluminum shell stays cool under sustained transfers"],
     cons: ["No power delivery passthrough", "Requires a 2.5GbE-capable router to hit full speed"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/11g1HMNYHSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CWPKWRS4?tag=deskfinds0d-20",
-    description: "This is Dell's own first-party adapter, sold and shipped as a Dell-branded accessory rather than a third-party listing. For anyone already running a Dell laptop through Dell's support and warranty ecosystem, that first-party sourcing carries real weight even though Dell's own listing is thinner on chipset and feature detail than the third-party options here.\n\nThe tradeoff against the UGREEN and Cable Matters picks is transparency: those listings spell out the exact Realtek chip, driver behavior, and OS compatibility list, while Dell's listing only confirms basic plug-and-play connectivity. You're paying the same $24.99 for less documented detail, in exchange for first-party brand assurance.\n\nBest for Dell-specific fleets or IT buyers who prioritize a matching first-party accessory over the deeper spec sheet a third-party adapter provides.",
+    description: "This is Dell's own first-party adapter, sold and shipped as a Dell-branded accessory rather than a third-party listing. For anyone already running a Dell laptop through Dell's support and warranty ecosystem, that first-party sourcing carries real weight even though Dell's own listing is thinner on chipset and feature detail than the third-party options here.\n\nThe tradeoff against the UGREEN and Cable Matters picks is transparency: those listings spell out the exact Realtek chip, driver behavior, and OS compatibility list, while Dell's listing only confirms basic plug-and-play connectivity. You're paying the same under $25 for less documented detail, in exchange for first-party brand assurance.\n\nBest for Dell-specific fleets or IT buyers who prioritize a matching first-party accessory over the deeper spec sheet a third-party adapter provides.",
     specs: ["Dell first-party branded accessory", "USB-C to RJ45, plug-and-play", "2.5G rated ethernet connection"],
     pros: ["First-party Dell accessory, easier warranty/support path", "Simple plug-and-play setup", "Matches Dell laptop aesthetics for fleet deployments"],
     cons: ["Thinner spec sheet than third-party alternatives", "No stated Linux or ChromeOS compatibility"],
@@ -156,7 +156,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A USB-A port on an older desktop or dock", "Plugable 2.5Gbps USB C to Ethernet Adapter"],
         ["A Dell laptop under an active Dell warranty", "Dell Adapter USB-C to 2.5G Ethernet"],
         ["A MacBook, iPad, or recent iPhone", "UGREEN USB C to Ethernet Adapter 2.5G"],
-        ["A Linux workstation or Chromebook", "Cable Matters USB C to 2.5Gb Ethernet Adapter"],
+        ["A Linux workstation or Chromebook", "Cable Matters USB C to 2.5Gb Ethernet Adapter"]
       ],
     },
   },
@@ -165,9 +165,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $20", "Plugable 2.5Gbps USB C to Ethernet Adapter ($17.99)"],
-        ["$20 to $26", "UGREEN USB C to Ethernet Adapter 2.5G ($25.99) or Cable Matters ($24.99)"],
-        ["Up to $30", "Plugable USB C to Ethernet Adapter with 100W PD ($29.95)"],
+        ["Under $20", "Plugable 2.5Gbps USB C to Ethernet Adapter (under $20)"],
+        ["$20 to $26", "UGREEN USB C to Ethernet Adapter 2.5G (under $30) or Cable Matters (under $25)"],
+        ["Up to $30", "Plugable USB C to Ethernet Adapter with 100W PD (under $30)"]
       ],
     },
   },
@@ -181,7 +181,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "USB-C only (UGREEN, Cable Matters, Dell, TP-Link)",
         text: "Assumes every device you'll plug it into already has USB-C, which is now true for most laptops from the last three to four years but not for older USB-A-only desktops.",
-      },
+      }
     ],
     note: "If every device on your desk already has USB-C, the connector choice doesn't matter and you should pick based on OS compatibility or price instead.",
   },
@@ -192,7 +192,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Windows and macOS only", "Any pick in this list works equally well"],
         ["Linux or ChromeOS as a daily driver", "Cable Matters USB C to 2.5Gb Ethernet Adapter"],
-        ["A mix of Apple laptops, tablets, and phones", "UGREEN USB C to Ethernet Adapter 2.5G"],
+        ["A mix of Apple laptops, tablets, and phones", "UGREEN USB C to Ethernet Adapter 2.5G"]
       ],
     },
   },
@@ -206,7 +206,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "TP-Link's UE302C is the only pick here built around a folding hinge specifically for bag and pocket use.",
-      },
+      }
     ],
   },
   {
@@ -214,14 +214,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You want to cut a cable from your desk setup: the Plugable 100W PD model ($29.95) charges your laptop and carries ethernet through one cable, worth the extra $12 over the base Plugable model if you're tired of two separate cords.",
+        text: "You want to cut a cable from your desk setup: the Plugable 100W PD model (under $30) charges your laptop and carries ethernet through one cable, worth the extra $12 over the base Plugable model if you're tired of two separate cords.",
       },
       {
         label: "Save if",
-        text: "You just need a reliable wired backup for when Wi-Fi drops: the base Plugable adapter at $17.99 uses the same chipset as every pricier option here and skips only the charging feature.",
-      },
+        text: "You just need a reliable wired backup for when Wi-Fi drops: the base Plugable adapter at under $20 uses the same chipset as every pricier option here and skips only the charging feature.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -277,5 +277,5 @@ export const faq = [
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-usb-c-to-2-5gbe-ethernet-adapters-under-50", title: "Best USB-C to 2.5GbE Ethernet Adapters Under $50" },
   { href: "/guide/best-usb-c-ethernet-adapters-under-50", title: "Best USB-C Ethernet Adapters Under $50" },
-  { href: "/guide/best-thunderbolt-4-docking-stations", title: "Best Thunderbolt 4 Docking Stations" },
+  { href: "/guide/best-thunderbolt-4-docking-stations", title: "Best Thunderbolt 4 Docking Stations" }
 ];

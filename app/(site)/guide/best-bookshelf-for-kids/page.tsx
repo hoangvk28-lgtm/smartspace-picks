@@ -140,7 +140,7 @@ export default async function Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Bookshelves for Kids", item: `${SITE_URL}/guide/best-bookshelf-for-kids` },
+      { "@type": "ListItem", position: 3, name: "Best Bookshelves for Kids", item: `${SITE_URL}/guide/best-bookshelf-for-kids` }
     ],
   };
 

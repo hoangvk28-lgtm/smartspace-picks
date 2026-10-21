@@ -232,11 +232,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "ORICO 4-Bay RAID Hard Drive Enclosure (88TB",
-        "text": "ORICO 4-Bay RAID Hard Drive Enclosure (88TB is aimed at buyers prioritizing 4-bay raid, 8 modes, up to 88tb At $179.95, it's the lowest-cost pick in this comparison."
+        "text": "ORICO 4-Bay RAID Hard Drive Enclosure (88TB is aimed at buyers prioritizing 4-bay raid, 8 modes, up to 88tb At under $180, it's the lowest-cost pick in this comparison."
       },
       {
         "label": "QNAP TL-D810TC4-US 8-Bay Desktop DAS/JBOD Expansion",
-        "text": "QNAP TL-D810TC4-US 8-Bay Desktop DAS/JBOD Expansion is aimed at buyers prioritizing 8-bay desktop, up to 10gbps At $799.00, it sits at the higher end of this comparison's price range."
+        "text": "QNAP TL-D810TC4-US 8-Bay Desktop DAS/JBOD Expansion is aimed at buyers prioritizing 8-bay desktop, up to 10gbps At under $800, it sits at the higher end of this comparison's price range."
       }
     ],
     "note": "Most buyers should default to ORICO 4-Bay RAID Hard Drive Enclosure (88TB unless the pricier pick's specific advantage applies to your situation."
@@ -280,7 +280,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "CENMATE Aluminum 8-Bay Hard Drive Enclosure (5Gbps) Buyers prioritizing 8-bay, up to 160tb total. IO CREST 8-Bay USB Hard Drive Enclosure Buyers prioritizing 8-bay, 2.5/3.5in, up to 24tb/drive."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -332,7 +332,7 @@ export const faq = [
     "a": "Only if the specific enclosure documents hot-swap support, which most tool-free tray designs in this category do. Always check your specific product's hot-swap capability before removing a drive live, since not every budget enclosure supports it, especially some fixed-RAID-mode units."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", "a": "CENMATE Aluminum 8-Bay Hard Drive Enclosure (5Gbps) is aimed at buyers prioritizing 8-bay, up to 160tb total" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", "a": "CENMATE Aluminum 8-Bay Hard Drive Enclosure (5Gbps) is aimed at buyers prioritizing 8-bay, up to 160tb total" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-8-bay-das-storage","title":"6 Best 8-Bay DAS Storage Options"},{"href":"/guide/best-12-bay-direct-attached-storage","title":"5 Best 12-Bay Direct-Attached Storage"},{"href":"/guide/best-multi-bay-das-storage","title":"8 Best Multi-Bay DAS Storage Options"}];

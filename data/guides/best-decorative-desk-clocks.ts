@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "decorative desk clock";
 export const introParagraphs = [
   "This overlaps substantially with our aesthetic desk clocks guide, since both draw from the same style-focused product pool. We're keeping style subcategories distinct here, vintage metal, crystal-accented, and mirror-finish, rather than repeating an undifferentiated list.",
-  "Prices span from under $10 to nearly $40, tracking real differences in materials and design complexity.",
+  "Prices span from under $10 to nearly $40, tracking real differences in materials and design complexity."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51Ee1NBJrWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07WMVHP2J?tag=deskfinds0d-20",
     description: "A genuine metal-bodied vintage clock with the largest review base and highest rating among the decorative vintage-styled options here.\n\nIt earns the top spot in this comparison over HZDHCLH Vintage Table Clock Battery Operated for one main reason. Largest review base among the vintage-styled picks. On price, it comes in below HZDHCLH Vintage Table Clock Battery Operated on price, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Genuine metal construction. On the other side, Verify current listing for exact finish. That's the main tradeoff to weigh against everything above.",
-    specs: ["Metal body, gold-toned vintage design","1,700 reviews at 4.4 stars"],
+    specs: ["Metal body, gold-toned vintage design"],
     pros: ["Largest review base among the vintage-styled picks","Genuine metal construction"],
     cons: ["Verify current listing for exact finish"],
     bestFor: "Buyers who want the most proven vintage metal decorative clock.",
@@ -47,7 +47,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51vOzTtxG9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFDWS9R8?tag=deskfinds0d-20",
     description: "A more substantial mantel-style vintage piece for a stronger decorative presence, at a higher price with a smaller review base.\n\nOne spot below Maxspace Metal Golden Table Clock in this ranking, it costs more than Maxspace Metal Golden Table Clock. The compromise here is straightforward: Much smaller review base than the top pick. What you gain in return: More substantial decorative presence than basic table clocks. Whether that trade is worth it depends on which side matters more to you.\n\nWorth knowing before you decide: More substantial decorative presence than basic table clocks. On the other side, Much smaller review base than the top pick. That's the main tradeoff to weigh against everything above.",
-    specs: ["Mantel-style, vintage design","Battery operated","62 reviews at 4.3 stars"],
+    specs: ["Mantel-style, vintage design","Battery operated"],
     pros: ["More substantial decorative presence than basic table clocks"],
     cons: ["Much smaller review base than the top pick"],
     bestFor: "Buyers who want a more substantial decorative mantel-style piece.",
@@ -63,7 +63,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41HXEjNzdTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D4DJ5TYP?tag=deskfinds0d-20",
     description: "The highest rating and largest review base of any pick in this comparison, a modern mirror-finish design rather than traditional vintage styling.\n\nSitting just under HZDHCLH Vintage Table Clock Battery Operated, it's priced lower than HZDHCLH Vintage Table Clock Battery Operated. Here's the honest tradeoff: Modern mirror aesthetic rather than vintage styling, if that's specifically what you want. And here's what it gets you instead: Highest rating and largest review base in this comparison. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Highest rating and largest review base in this comparison. On the other side, Modern mirror aesthetic rather than vintage styling, if that's specifically what you want. That's the main tradeoff to weigh against everything above.",
-    specs: ["Slim mirror-surface design","2,643 reviews at 4.6 stars"],
+    specs: ["Slim mirror-surface design"],
     pros: ["Highest rating and largest review base in this comparison"],
     cons: ["Modern mirror aesthetic rather than vintage styling, if that's specifically what you want"],
     bestFor: "Buyers who want the most proven decorative clock and are open to a modern aesthetic.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41bV8TgkNlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B092D5PZ23?tag=deskfinds0d-20",
     description: "A distinctly ornamental crystal-accented mirrored design, the most decorative-forward option in this comparison, with a silent movement.\n\nRanked just behind Peakeep Slim Digital Mirror Aesthetic Alarm Clock for Bedrooms Desk Decor, it costs more than Peakeep Slim Digital Mirror Aesthetic Alarm Clock for Bedrooms Desk Decor. The real tradeoff against that pick: Smaller review base than the top picks. In exchange, it offers this instead: Most distinctly ornamental design in this comparison. That's the swap that decides whether this pick or the one above it is the better fit for a given buyer.\n\nWorth knowing before you decide: Silent movement. On the other side, Smaller review base than the top picks. That's the main tradeoff to weigh against everything above.",
-    specs: ["8x8x2 in, mirrored with crystal accents","Silent movement","342 reviews at 4.5 stars"],
+    specs: ["8x8x2 in, mirrored with crystal accents","Silent movement"],
     pros: ["Most distinctly ornamental design in this comparison","Silent movement"],
     cons: ["Smaller review base than the top picks"],
     bestFor: "Buyers who want a distinctly ornamental, sparkle-accented decorative clock.",
@@ -95,7 +95,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51nkvcknNtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXCKLRCQ?tag=deskfinds0d-20",
     description: "A large, well-reviewed mirror-surface digital clock with dimming, tied for the highest rating in this comparison.\n\nOne spot below Silent Desk Clocks 8x8x2 Inch Crystal Sparkle Twinkle Bling Square Mirrored in this ranking, it's priced lower than Silent Desk Clocks 8x8x2 Inch Crystal Sparkle Twinkle Bling Square Mirrored. The compromise here is straightforward: Same modern mirror aesthetic as the Peakeep pick, less traditional decor style. What you gain in return: Tied for highest rating in this comparison. Whether that trade is worth it depends on which side matters more to you.\n\nWorth knowing before you decide: Dimming for adjustable brightness. On the other side, Same modern mirror aesthetic as the Peakeep pick, less traditional decor style. That's the main tradeoff to weigh against everything above.",
-    specs: ["Mirror-surface LED display","Dimming function","2,514 reviews at 4.6 stars"],
+    specs: ["Mirror-surface LED display","Dimming function"],
     pros: ["Tied for highest rating in this comparison","Dimming for adjustable brightness"],
     cons: ["Same modern mirror aesthetic as the Peakeep pick, less traditional decor style"],
     bestFor: "Buyers who want a proven modern decorative clock with functional dimming.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Distinct style subcategories, not a repeated list", description: "We organized this comparison by vintage metal, mantel-style, mirror-finish, and ornamental design, rather than presenting an undifferentiated decorative list." },
   { title: "Overlap disclosure with aesthetic desk clocks", description: "We flagged the substantial product overlap with our aesthetic desk clocks guide, since both draw from the same style-focused pool." },
   { title: "Review volume across style categories", description: "We compared review evidence within each style subcategory rather than assuming a vintage piece and a modern mirror clock are directly comparable." },
-  { title: "Price against design complexity", description: "We noted where more substantial pieces (mantel-style, crystal-accented) command a real price premium over basic table clocks." },
+  { title: "Price against design complexity", description: "We noted where more substantial pieces (mantel-style, crystal-accented) command a real price premium over basic table clocks." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -244,14 +244,15 @@ export const buyingCriteria: BuyingCriterion[] = [
 
 export const faq: FaqItem[] = [
   { q: "How is this different from your aesthetic desk clocks guide?", a: "The product pool overlaps substantially, check both guides for the fullest range of style options, since we've organized each around slightly different style subcategories." },
-  { q: "Which is the most proven overall?", a: "The Peakeep Slim Digital Mirror Alarm Clock, with 2,643 reviews at 4.6 stars." },
+  
   { q: "Is there a vintage-style option?", a: "Yes, the Maxspace Metal Golden Table Clock and the HZDHCLH mantel-style clock both offer genuine vintage metal aesthetics." },
   { q: "What's the most ornamental option?", a: "The crystal-accented Silent Desk Clock, the most distinctly decorative-forward design in this comparison." },
   { q: "Is there a silent option?", a: "Yes, both the Maxspace vintage clock and the crystal-accented pick specifically advertise silent movements." },
+  { q: "Where should I place a decorative clock so it looks right?", a: "Choose a spot at eye level, such as a shelf or the corner of a desk, with some empty space around it. Keep it away from heat sources and direct sun, which can fade finishes. A clock with a stable base sits better on a crowded surface." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-aesthetic-desk-clocks", title: "Best Aesthetic Desk Clocks (2026)" },
   { href: "/guide/best-cute-desk-clocks", title: "Best Cute Desk Clocks (2026)" },
-  { href: "/guide/best-desk-clocks", title: "Best Desk Clocks (2026)" },
+  { href: "/guide/best-desk-clocks", title: "Best Desk Clocks (2026)" }
 ];

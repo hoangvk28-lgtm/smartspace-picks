@@ -12,7 +12,7 @@ export const adjustableTabletArmExplainedGuide: Guide = {
     "tablet arm mount vs stand",
     "articulating tablet holder desk",
     "tablet mount for video calls",
-    "tablet arm clamp desk",
+    "tablet arm clamp desk"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const adjustableTabletArmExplainedGuide: Guide = {
     "tablet-stand-vs-phone-stand",
     "microphone-arm-reach-chart",
     "monitor-arm-vs-monitor-stand",
-    "wireless-charging-stand-explained",
+    "wireless-charging-stand-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const adjustableTabletArmExplainedGuide: Guide = {
       question: "Does a tablet arm work the same as a monitor arm?",
       answer:
         "The clamping and articulating mechanism is similar in concept to a monitor arm, but tablet arms use a different mounting cradle designed for a tablet's size and weight rather than a monitor's VESA mounting pattern.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const adjustableTabletArmExplainedGuide: Guide = {
     {
       heading: "Checking Stability Before Committing to a Tablet Arm",
       body: `Since a tablet arm's extended, articulated design inherently has more potential for wobble than a low, stable stand sitting directly on the desk, checking specifically for stability during active touch use, not just when the tablet is idle, matters more for an arm than it typically does for a basic stand. Reviews mentioning wobble or instability during typing or drawing are a useful signal to weigh before choosing a specific tablet arm model.`,
-    },
+    }
   ],
 };

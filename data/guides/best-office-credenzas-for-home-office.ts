@@ -212,7 +212,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "43\" Wood File Cabinet with Power Outlet is aimed at buyers prioritizing 43.3in wide desktop, 2 file drawers."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -260,7 +260,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "ModernMate 60\" File Cabinet with Drawers & Door is aimed at buyers prioritizing 60in wide, 6 open compartments, 3 drawers." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "ModernMate 60\" File Cabinet with Drawers & Door is aimed at buyers prioritizing 60in wide, 6 open compartments, 3 drawers." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"},{"href":"/guide/best-office-credenzas-with-storage","title":"Best Office Credenzas With Storage in 2026"}];

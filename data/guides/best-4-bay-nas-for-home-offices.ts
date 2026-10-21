@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "4 bay nas home office";
 export const introParagraphs = [
   "A 4-bay NAS is the point where a home office storage setup graduates from a simple 2-drive mirror into real RAID flexibility, RAID 5, hybrid RAID, or RAID 10 all become options, each with a different balance of usable capacity, speed, and rebuild risk. That flexibility is also where the true cost of ownership stops being obvious, since the enclosure price is only part of what you'll actually spend.",
-  "Below are 8 4-bay NAS and storage enclosures we evaluated on RAID support, true total cost including drives, network speed, and processor capability, ranging from a $151.99 diskless direct-attached enclosure to a $700 diskless Synology Plus-series NAS.",
+  "Below are 8 4-bay NAS and storage enclosures we evaluated on RAID support, true total cost including drives, network speed, and processor capability, ranging from an under-$160 diskless direct-attached enclosure to a $700 diskless Synology Plus-series NAS."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Intel Pentium Gold 8505, 5-core CPU",
       "Supports RAID 0/1/5/10/hybrid",
       "Docker and virtualization capable",
-      "Expandable RAM",
+      "Expandable RAM"
     ],
     pros: [
       "Genuinely capable Intel CPU for transcoding and multitasking",
       "Full RAID flexibility including RAID 5 and RAID 10",
       "Expandable RAM for future workloads",
-      "Docker/container support for advanced home office use",
+      "Docker/container support for advanced home office use"
     ],
     cons: [
       "Diskless, drives are a significant added cost",
       "Overkill CPU if you only need basic file backup",
-      "Setup complexity higher than a simpler 2-bay unit",
+      "Setup complexity higher than a simpler 2-bay unit"
     ],
     bestFor: "Home offices wanting Intel-level performance headroom in a 4-bay unit",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Hybrid RAID (SHR) support",
       "DSM software ecosystem",
       "2024+ drive compatibility warnings for non-Synology drives",
-      "Expandable via Synology add-on units",
+      "Expandable via Synology add-on units"
     ],
     pros: [
       "Hybrid RAID allows gradual drive size upgrades",
       "Mature, polished DSM software",
       "Strong app ecosystem for backup and file sharing",
-      "Long track record of firmware support",
+      "Long track record of firmware support"
     ],
     cons: [
       "Most expensive pick in this list before drives",
       "Third-party drives trigger compatibility warnings on this generation",
-      "Synology-branded drives cost more than equivalent third-party drives",
+      "Synology-branded drives cost more than equivalent third-party drives"
     ],
     bestFor: "Buyers who want Synology's software polish and are prepared for the drive compatibility tradeoff",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "DSM software",
       "File sharing, backup, and surveillance apps",
       "More lenient third-party drive compatibility than 2024+ Plus models",
-      "Compact desktop form factor",
+      "Compact desktop form factor"
     ],
     pros: [
       "Lower cost than the DS925+ while keeping DSM software",
       "More relaxed third-party drive compatibility",
       "Good fit for family and small office backup",
-      "Compact footprint for a home office desk or shelf",
+      "Compact footprint for a home office desk or shelf"
     ],
     cons: [
       "Less CPU headroom than the Intel-based DXP4800 Plus",
       "No SHR/hybrid RAID drive-size mixing on this model line",
-      "Diskless price still requires 4 drives on top",
+      "Diskless price still requires 4 drives on top"
     ],
     bestFor: "Budget-conscious buyers who still want Synology's DSM software",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "USB Type-C direct attached storage",
       "Hardware RAID support",
       "Single-computer connection, not network storage",
-      "Can serve as expansion for a QNAP NAS",
+      "Can serve as expansion for a QNAP NAS"
     ],
     pros: [
       "Lower cost than a full network NAS enclosure",
       "Hardware RAID redundancy despite USB connection",
       "Simple single-computer setup, no network configuration",
-      "Useful as expansion storage for an existing QNAP NAS",
+      "Useful as expansion storage for an existing QNAP NAS"
     ],
     cons: [
       "Not network-attached, only one computer connects at a time",
       "No remote access or multi-user file sharing without a host NAS",
-      "Requires the host computer to be on for other devices to see it",
+      "Requires the host computer to be on for other devices to see it"
     ],
     bestFor: "Single-computer setups that want 4-bay RAID without full NAS networking",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "USB 3.2 Gen2, 10Gbps",
       "Hot-swappable drive bays",
       "Plug and play, no NAS OS required",
-      "Direct-attached, single computer only",
+      "Direct-attached, single computer only"
     ],
     pros: [
       "Lowest price in this list",
       "10Gbps USB connection, fast for a direct-attached unit",
       "Hot-swap bays for easy drive maintenance",
-      "No NAS software setup required",
+      "No NAS software setup required"
     ],
     cons: [
       "Not network-attached storage",
       "No RAID management software beyond basic modes",
-      "Requires the host computer to be powered on to access it",
+      "Requires the host computer to be powered on to access it"
     ],
     bestFor: "Buyers who want the cheapest 4-bay storage expansion for one workstation",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "RAID 1 mirroring support",
       "Aimed at content creators and enthusiasts",
       "Lower entry cost than any 4-bay pick here",
-      "Compact desktop footprint",
+      "Compact desktop footprint"
     ],
     pros: [
       "Lower total cost than any true 4-bay option in this list",
       "Sufficient RAID 1 redundancy for smaller storage needs",
       "Good starting point if 4 bays turns out to be more than you need",
-      "Compact footprint",
+      "Compact footprint"
     ],
     cons: [
       "Only 2 bays, no RAID 5 or RAID 10 flexibility",
       "Less total capacity ceiling than the true 4-bay picks",
-      "Not a direct substitute if you specifically need 4-bay expansion room",
+      "Not a direct substitute if you specifically need 4-bay expansion room"
     ],
     bestFor: "Buyers reconsidering whether they actually need 4 bays versus 2",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Supports up to 64TB total capacity",
       "RAID 1 mirroring",
       "Lowest price NAS-branded pick in this list",
-      "Basic backup and file-sharing focus",
+      "Basic backup and file-sharing focus"
     ],
     pros: [
       "Cheapest true networked NAS in this list",
       "Supports large per-bay drive capacity up to 64TB total",
       "Simple setup for basic backup use cases",
-      "Good stepping stone before committing to 4-bay costs",
+      "Good stepping stone before committing to 4-bay costs"
     ],
     cons: [
       "Only 2 bays, no RAID 5/10 option",
       "Less capable CPU than the Intel-based 4-bay picks",
-      "Not suitable if you specifically need 4-bay expansion",
+      "Not suitable if you specifically need 4-bay expansion"
     ],
     bestFor: "First-time NAS buyers deciding between 2-bay and 4-bay before committing",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "DSM software",
       "RAID 1 mirroring",
       "Home and small office backup focus",
-      "Video surveillance app support",
+      "Video surveillance app support"
     ],
     pros: [
       "Approachable DSM setup for less technical users",
       "Reliable RAID 1 backup redundancy",
       "Lower cost than any true 4-bay pick in this list",
-      "Includes surveillance app support",
+      "Includes surveillance app support"
     ],
     cons: [
       "Only 2 bays, not a substitute for genuine 4-bay expansion needs",
       "No hybrid RAID or RAID 5/10 options",
-      "Lower CPU capability than the Intel-based 4-bay picks",
+      "Lower CPU capability than the Intel-based 4-bay picks"
     ],
     bestFor: "Buyers who conclude a simple 2-bay backup NAS covers their actual needs",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Drive compatibility policy",
     description: "Checked whether each brand's 2024+ models show compatibility warnings for third-party drives, and what that means for real-world cost and setup friction.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -466,11 +466,11 @@ export const faq: FaqItem[] = [
   {
     q: "How risky is a RAID rebuild after a drive failure in a 4-bay NAS?",
     a: "A 4-bay RAID 5 array with 8TB drives typically takes 12 to 48 hours to rebuild after a single drive failure. During that window, NAS performance degrades and a second drive failure would cause total data loss, which is why some buyers prefer RAID 10 or hybrid RAID for a less risky rebuild profile.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-nas-for-plex-media-servers", title: "Best NAS for Plex Media Servers (2026)" },
   { href: "/guide/best-nas-storage-for-home-office", title: "Best NAS Storage for Home Office (2026)" },
-  { href: "/guide/best-nas-storage-devices", title: "Best NAS Storage Devices (2026)" },
+  { href: "/guide/best-nas-storage-devices", title: "Best NAS Storage Devices (2026)" }
 ];

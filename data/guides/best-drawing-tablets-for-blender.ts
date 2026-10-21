@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $44.99",
+          "Under $45",
           "XPPen Deco 01 V3 10x6 Drawing Tablet"
         ],
         [
-          "Around $79.99",
+          "Under $80",
           "XPPen Deco LW Wireless Drawing Tablet"
         ],
         [
-          "Around $149.99",
+          "Under $150",
           "GAOMON PD1161 Drawing Tablet with Screen"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "XP-PEN Artist12 11.6 Inch FHD Drawing Monitor Pen Display"
         ],
         [
-          "Around $209.99",
+          "Under $250",
           "XPPen Artist 13.3 Pro 13.3\" Drawing Tablet with Screen"
         ],
         [
-          "Around $209.99",
+          "Under $250",
           "HUION Kamvas 13 (Gen 3) Drawing Tablet with Screen 16K Pressure PenTech 4.0"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "XPPen Deco 01 V3 10x6 Drawing Tablet is aimed at buyers prioritizing 16,384 pressure levels, 60-degree tilt." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "XPPen Deco 01 V3 10x6 Drawing Tablet is aimed at buyers prioritizing 16,384 pressure levels, 60-degree tilt." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets-for-animation","title":"Best Drawing Tablets for Animation in 2026"},{"href":"/guide/best-drawing-tablets-for-3d-modeling","title":"Best Drawing Tablets for 3d Modeling in 2026"},{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"}];

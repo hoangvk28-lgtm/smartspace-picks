@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "filing cabinet with printer stand";
 export const introParagraphs = [
   "A filing cabinet marketed as a printer stand needs a top surface that can actually hold a printer without flexing, and that spec rarely gets the attention it deserves. Inkjet printers typically weigh 12 to 20 pounds, while laser printers commonly run 20 to 40 pounds or more once loaded with paper, so the same cabinet top that comfortably holds one may sag under the other. Footprint matters just as much: a printer that overhangs a narrow cabinet top is an accident waiting to happen if a paper tray gets bumped or a corner takes an unexpected knock.",
-  "This guide compares 6 cabinets we evaluated based on product specs and buyer feedback, and we verified from each listing whether it is genuinely marketed as a printer stand rather than a general filing cabinet that happens to have a flat top. Printer vibration during operation is another detail worth planning for, since ongoing vibration can loosen drawer slides over time, and an anti-vibration mat is a cheap fix most buyers never think to add. Prices range from $56.99 for a compact rolling model to $139.99 for a five-drawer wood cabinet.",
+  "This guide compares 6 cabinets we evaluated based on product specs and buyer feedback, and we verified from each listing whether it is genuinely marketed as a printer stand rather than a general filing cabinet that happens to have a flat top. Printer vibration during operation is another detail worth planning for, since ongoing vibration can loosen drawer slides over time, and an anti-vibration mat is a cheap fix most buyers never think to add. Prices range from under $60 for a compact rolling model to under $140 for a five-drawer wood cabinet."
 ];
 export const lastUpdated = "2026-07-26";
 export const readTime = "9 min";
@@ -46,27 +46,27 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity Printer Stand Combo",
     name: "DEVAISE 5-Drawer Wood Drawer Cabinet, Printer Stand for Home Office",
     price: "$139.99",
-    rating: "4.4 stars from 2,071 Amazon ratings",
-    reviews: "2,071 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31cx80Jq7-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0832D9S62?tag=deskfinds0d-20",
     description:
-      "This listing explicitly markets its flat top as a printer stand, and with five drawers it also carries the most filing capacity in this list. Wheels make it repositionable, useful if you want to move the printer closer to your desk during heavy print jobs and roll it back afterward to free up floor space.\n\nAt 4.4 stars across 2,071 ratings, it has the strongest feedback record here. The listing does not state a specific top surface weight limit, so for a heavier laser printer over 30 pounds, check buyer photos and reviews for any mention of surface flex before loading it.\n\nA genuine advantage here is that highest filing capacity in this list at 5 drawers. The tradeoff is that top surface weight limit not stated.",
+      "This listing explicitly markets its flat top as a printer stand, and with five drawers it also carries the most filing capacity in this list. Wheels make it repositionable, useful if you want to move the printer closer to your desk during heavy print jobs and roll it back afterward to free up floor space.\n\nThe listing does not state a specific top surface weight limit, so for a heavier laser printer over 30 pounds, check buyer photos and reviews for any mention of surface flex before loading it.\n\nA genuine advantage here is that highest filing capacity in this list at 5 drawers. The tradeoff is that top surface weight limit not stated.",
     specs: [
       "5 drawers, wood construction",
       "Marketed as printer stand",
       "Adjustable shelf",
-      "Wheels for mobility",
+      "Wheels for mobility"
     ],
     pros: [
       "Genuinely marketed as a printer stand",
       "Highest filing capacity in this list at 5 drawers",
-      "Strongest review base at 2,071 ratings",
+      "Five drawers plus an adjustable shelf",
     ],
     cons: [
       "Top surface weight limit not stated",
       "Wood construction sensitive to humid environments",
-      "Wheels add convenience but may reduce stability under a heavy printer",
+      "Wheels add convenience but may reduce stability under a heavy printer"
     ],
     bestFor: "Buyers who want maximum filing capacity alongside a genuine printer stand top",
   },
@@ -76,27 +76,27 @@ export const products: GuideProduct[] = [
     badge: "Best Rolling Printer Stand with Shelf",
     name: "DEVAISE Mobile File Cabinet, Rolling Printer Stand with Open Storage Shelf",
     price: "Check price on Amazon",
-    rating: "4.3 stars from 1,947 Amazon ratings",
-    reviews: "1,947 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419tPkjAfvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09KT9RG1M?tag=deskfinds0d-20",
     description:
-      "This model is explicitly named a rolling printer stand and adds an open storage shelf below its fabric filing drawer, a useful spot for paper reams or ink cartridges within reach of the printer above. It fits A4 or letter-size hanging files, and the rolling casters make it easy to reposition near an outlet or desk edge.\n\nAt 4.3 stars across 1,947 ratings, feedback is strong and consistent. Fabric drawer fronts are lighter than steel, which keeps the overall unit easier to roll, but check the top surface dimensions against your printer's footprint since overhang on a narrow rolling cabinet raises tip risk more than it would on a wider, heavier stationary cabinet.\n\nOpen shelf adds storage for paper and ink. That said, fabric drawer less durable than steel. Neither should be a surprise once you know to look for it.",
+      "This model is explicitly named a rolling printer stand and adds an open storage shelf below its fabric filing drawer, a useful spot for paper reams or ink cartridges within reach of the printer above. It fits A4 or letter-size hanging files, and the rolling casters make it easy to reposition near an outlet or desk edge.\n\nFabric drawer fronts are lighter than steel, which keeps the overall unit easier to roll, but check the top surface dimensions against your printer's footprint since overhang on a narrow rolling cabinet raises tip risk more than it would on a wider, heavier stationary cabinet.\n\nOpen shelf adds storage for paper and ink. That said, fabric drawer less durable than steel. Neither should be a surprise once you know to look for it.",
     specs: [
       "Fabric drawer, fits A4 or letter files",
       "Explicitly marketed as printer stand",
       "Open storage shelf below drawer",
-      "Rolling casters",
+      "Rolling casters"
     ],
     pros: [
       "Genuinely marketed as a rolling printer stand",
       "Open shelf adds storage for paper and ink",
-      "Strong 4.3-star rating across 1,947 reviews",
+      "Rolling casters move the stand to your printer spot",
     ],
     cons: [
       "Fabric drawer less durable than steel",
       "Top surface load capacity not specified",
-      "Rolling design raises overhang tip risk versus a stationary cabinet",
+      "Rolling design raises overhang tip risk versus a stationary cabinet"
     ],
     bestFor: "Buyers who want a mobile printer stand they can reposition near an outlet or desk",
   },
@@ -106,27 +106,27 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity Stationary Printer Stand",
     name: "Letaya 4 Drawer File Cabinets with Lock, Metal Lateral, Printer Stand",
     price: "$189.99",
-    rating: "4.2 stars from 1,671 Amazon ratings",
-    reviews: "1,671 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31fVDAPJeCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTN96T9J?tag=deskfinds0d-20",
     description:
-      "This lateral cabinet's listing calls out printer stand use directly, and its all-metal build and stationary four-drawer design make it a sturdier top surface option than the rolling picks in this list, an advantage for a heavier laser printer. It fits letter, legal, and A4 hanging files across its drawers.\n\nAt 4.2 stars across 1,671 ratings, feedback is solid. Its lateral footprint is wider than most vertical cabinets, which is worth double-checking against your printer's exact base dimensions so the printer sits fully supported rather than overhanging any edge of the top.\n\nWorth calling out specifically: highest filing capacity among stationary picks. The catch is highest price in this list.",
+      "This lateral cabinet's listing calls out printer stand use directly, and its all-metal build and stationary four-drawer design make it a sturdier top surface option than the rolling picks in this list, an advantage for a heavier laser printer. It fits letter, legal, and A4 hanging files across its drawers.\n\nIts lateral footprint is wider than most vertical cabinets, which is worth double-checking against your printer's exact base dimensions so the printer sits fully supported rather than overhanging any edge of the top.\n\nWorth calling out specifically: highest filing capacity among stationary picks. The catch is highest price in this list.",
     specs: [
       "4 drawers, lateral orientation",
       "Marketed as printer stand",
       "Metal construction with lock",
-      "Fits letter, legal, A4 files",
+      "Fits letter, legal, A4 files"
     ],
     pros: [
       "Stationary, all-metal build suits heavier printers",
       "Highest filing capacity among stationary picks",
-      "Fits letter, legal, and A4 hanging files",
+      "Fits letter, legal, and A4 hanging files"
     ],
     cons: [
       "Highest price in this list",
       "Top surface weight limit not stated",
-      "Needs more side clearance as a lateral cabinet",
+      "Needs more side clearance as a lateral cabinet"
     ],
     bestFor: "Buyers with a heavier laser printer who want a stationary, all-metal stand",
   },
@@ -136,27 +136,27 @@ export const products: GuideProduct[] = [
     badge: "Best Extended Desktop Printer Stand",
     name: "GYIIYUO 2 Drawer File Cabinet with 24 Inch Extended Desktop, Printer Stand",
     price: "$56.99",
-    rating: "4.2 stars from 1,425 Amazon ratings",
-    reviews: "1,425 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Aix6uWuJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBZ98D94?tag=deskfinds0d-20",
     description:
-      "This cabinet's 24-inch extended desktop gives more surface area than a standard cabinet top, useful footprint headroom for a printer with a wider base or one that needs extra clearance for paper tray extension. It is explicitly marketed for printer stand use in a home office and fits A4 and letter size files. It is the most affordable pick in this list, with a 4.2-star rating across 1,425 reviews. Fabric drawer fronts are lighter duty than steel, so this is a better match for a lighter inkjet printer than a heavy laser unit, and cable routing from the desktop surface down to a wall outlet is worth planning before setup. Most affordable pick in this list. Set against that, fabric drawers less durable than steel. Both matter when comparing it to the other picks here.",
+      "This cabinet's 24-inch extended desktop gives more surface area than a standard cabinet top, useful footprint headroom for a printer with a wider base or one that needs extra clearance for paper tray extension. It is explicitly marketed for printer stand use in a home office and fits A4 and letter size files. Fabric drawer fronts are lighter duty than steel, so this is a better match for a lighter inkjet printer than a heavy laser unit, and cable routing from the desktop surface down to a wall outlet is worth planning before setup. Most affordable pick in this list. Set against that, fabric drawers less durable than steel. Both matter when comparing it to the other picks here.",
     specs: [
       "2 drawers, fabric drawer fronts",
       "24-inch extended desktop surface",
       "Explicitly marketed as printer stand",
-      "Mobile casters with side bag",
+      "Mobile casters with side bag"
     ],
     pros: [
       "Extended desktop gives more room for printer footprint and paper trays",
       "Most affordable pick in this list",
-      "Solid 4.2-star rating across 1,425 reviews",
+      "Fabric drawer fronts with mobile casters",
     ],
     cons: [
       "Fabric drawers less durable than steel",
       "Better suited to lighter inkjet printers than heavy laser units",
-      "Top surface weight limit not specified",
+      "Top surface weight limit not specified"
     ],
     bestFor: "Buyers with a lighter inkjet printer who want extra desktop surface on a budget",
   },
@@ -166,27 +166,27 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Wood Printer Stand",
     name: "DUMOS File Cabinet with 3 Drawers, Wood Under Desk Storage Printer Stand",
     price: "$59.90",
-    rating: "4.1 stars from 499 Amazon ratings",
-    reviews: "499 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41RwvBmm-PL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FKMZ1M3W?tag=deskfinds0d-20",
     description:
-      "DUMOS explicitly markets this three-drawer wood cabinet as a printer stand, sized for under-desk placement where a compact footprint matters more than a wide top surface. Three drawers give reasonable filing capacity for the price, and the wood finish suits a home office that wants a softer look than an all-metal cabinet.\n\nAt 4.1 stars across 499 ratings, it has a smaller review base than the top picks in this list. Its compact top surface is best matched to a smaller inkjet printer rather than a wide-body laser unit, so measure your printer's footprint against the stated top dimensions before buying.\n\nThe standout detail is that reasonable 3-drawer filing capacity for the price. Balancing that out, smaller review base than the top picks.",
+      "DUMOS explicitly markets this three-drawer wood cabinet as a printer stand, sized for under-desk placement where a compact footprint matters more than a wide top surface. Three drawers give reasonable filing capacity for the price, and the wood finish suits a home office that wants a softer look than an all-metal cabinet.\n\nIts compact top surface is best matched to a smaller inkjet printer rather than a wide-body laser unit, so measure your printer's footprint against the stated top dimensions before buying.\n\nThe standout detail is that reasonable 3-drawer filing capacity for the price. Balancing that out, smaller review base than the top picks.",
     specs: [
       "3 drawers, wood construction",
       "Explicitly marketed as printer stand",
       "Under-desk sizing",
-      "Compact footprint",
+      "Compact footprint"
     ],
     pros: [
       "Genuinely marketed as a printer stand",
       "Reasonable 3-drawer filing capacity for the price",
-      "Compact footprint suits under-desk placement",
+      "Compact footprint suits under-desk placement"
     ],
     cons: [
       "Smaller review base than the top picks",
       "Compact top better suited to smaller printers",
-      "Wood construction sensitive to humid environments",
+      "Wood construction sensitive to humid environments"
     ],
     bestFor: "Buyers who want a compact under-desk printer stand with a softer wood finish",
   },
@@ -196,30 +196,30 @@ export const products: GuideProduct[] = [
     badge: "Best Alternative, Printer Stand Not Confirmed",
     name: "SISESOL 2 Drawer File Cabinet with Lock and Shelf, Metal Filing Cabinet",
     price: "$129.99",
-    rating: "4.4 stars from 214 Amazon ratings",
-    reviews: "214 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41JQBAeHeUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP4YY751?tag=deskfinds0d-20",
     description:
-      "Honesty check: this listing does not explicitly market itself as a printer stand, so it is included here as a sturdy flat-top alternative rather than a confirmed printer stand pick. Its open storage shelf and locking drawers fit legal, letter, and A4 files, and its solid metal construction gives it a stable, flat top surface that could reasonably support a lighter printer even without the marketing claim.\n\nAt 4.4 stars across 214 ratings, feedback is positive. If you want a confirmed printer stand claim in the listing itself, choose one of the picks above instead, but if a sturdy metal flat top with an open shelf underneath fits your setup, this is a reasonable option.\n\nOpen shelf adds storage for supplies. That's a real strength, but weigh it against the flip side: not explicitly marketed as a printer stand.",
+      "Honesty check: this listing does not explicitly market itself as a printer stand, so it is included here as a sturdy flat-top alternative rather than a confirmed printer stand pick. Its open storage shelf and locking drawers fit legal, letter, and A4 files, and its solid metal construction gives it a stable, flat top surface that could reasonably support a lighter printer even without the marketing claim.\n\nIf you want a confirmed printer stand claim in the listing itself, choose one of the picks above instead, but if a sturdy metal flat top with an open shelf underneath fits your setup, this is a reasonable option.\n\nOpen shelf adds storage for supplies. That's a real strength, but weigh it against the flip side: not explicitly marketed as a printer stand.",
     specs: [
       "2 drawers with lock",
       "Open storage shelf",
       "Metal construction",
-      "Printer stand use not explicitly marketed",
+      "Printer stand use not explicitly marketed"
     ],
     pros: [
       "Solid metal flat top surface",
       "Open shelf adds storage for supplies",
-      "Strong 4.4-star rating across 214 reviews",
+      "Two locking drawers for supplies",
     ],
     cons: [
       "Not explicitly marketed as a printer stand",
       "Top surface load capacity not stated",
-      "Smaller review base than the confirmed printer stand picks",
+      "Smaller review base than the confirmed printer stand picks"
     ],
     bestFor: "Buyers who want a sturdy metal flat-top alternative even without a confirmed printer stand claim",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -252,7 +252,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Value for price across confirmed printer stand claims and filing capacity",
     description:
       "Weighed price against both a confirmed printer stand claim and total drawer count, flagging the one pick in this list where printer stand use is not explicitly stated.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -395,12 +395,12 @@ export const faq: FaqItem[] = [
   {
     q: "Do I need to plan cable routing before setting up a printer stand cabinet?",
     a: "Yes. Raising the printer to cabinet-top height means power and USB cables need a path down the side or back of the cabinet to reach an outlet or computer. Planning this before setup avoids cables draped awkwardly across drawer fronts or blocking drawer access.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-under-desk-filing-cabinets", title: "Best Under-Desk Filing Cabinets (2026)" },
   { href: "/guide/best-rolling-filing-cabinets", title: "Best Rolling Filing Cabinets (2026)" },
   { href: "/guide/best-filing-cabinets-with-bookshelves", title: "Best Filing Cabinets with Bookshelves (2026)" },
-  { href: "/guide/best-filing-cabinets-for-home-offices", title: "Best Filing Cabinets for Home Offices (2026)" },
+  { href: "/guide/best-filing-cabinets-for-home-offices", title: "Best Filing Cabinets for Home Offices (2026)" }
 ];

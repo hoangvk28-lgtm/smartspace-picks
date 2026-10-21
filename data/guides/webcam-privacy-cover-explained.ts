@@ -12,7 +12,7 @@ export const webcamPrivacyCoverExplainedGuide: Guide = {
     "do i need a webcam cover",
     "webcam privacy shutter",
     "external webcam privacy cover",
-    "laptop camera cover slide",
+    "laptop camera cover slide"
   ],
   heroImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const webcamPrivacyCoverExplainedGuide: Guide = {
     "webcam-mount-types-explained",
     "webcam-resolution-explained",
     "webcam-fov-explained",
-    "webcam-lighting-explained",
+    "webcam-lighting-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const webcamPrivacyCoverExplainedGuide: Guide = {
       question: "Does closing a laptop lid work as well as a webcam cover?",
       answer:
         "For a laptop, yes, a fully closed lid physically blocks the camera, but this obviously isn't an option while actively using the laptop open, which is when a slide cover or accessory cover remains useful.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const webcamPrivacyCoverExplainedGuide: Guide = {
     {
       heading: "Choosing Between Built-In and Add-On Covers",
       body: `If you're buying a new webcam, look for one with a built-in slide shutter, which offers a clean, reliable solution without added hardware. If you already own a webcam or laptop camera without this feature, an inexpensive adhesive slide cover accomplishes the same physical blocking function and can be applied directly to the existing lens.`,
-    },
+    }
   ],
 };

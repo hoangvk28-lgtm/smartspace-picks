@@ -125,7 +125,7 @@ export default async function BestSolidWoodStandingDeskPage() {
     about: [
       { "@type": "Thing", name: "Solid Wood Standing Desk" },
       { "@type": "Thing", name: "Height Adjustable Desk" },
-      { "@type": "Thing", name: "Standing Desk" },
+      { "@type": "Thing", name: "Standing Desk" }
     ],
   };
 
@@ -135,7 +135,7 @@ export default async function BestSolidWoodStandingDeskPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Solid Wood Standing Desks", item: `${SITE_URL}/guide/best-solid-wood-standing-desk` },
+      { "@type": "ListItem", position: 3, name: "Best Solid Wood Standing Desks", item: `${SITE_URL}/guide/best-solid-wood-standing-desk` }
     ],
   };
 

@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31pNF5k+Q9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FH7NJXH7?tag=deskfinds0d-20",
-    description: "The smallest outdoor cabinet in the STURDX weatherproof line, this 7U model is sized for a single switch or small NVR system rather than a full equipment stack.\n\nIt keeps the same IP66 rating and fan-ready ventilation as the larger 16U outdoor models, just scaled down for point-of-use installs like a single outdoor camera hub.\n\nWhat stands out here is IP66 rating matches the larger 16U outdoor models, plus compact 7U size suits a single-device outdoor install. The main tradeoff: 7U ceiling only fits a small handful of devices, so weigh that against the $799.99 price before buying.",
+    description: "The smallest outdoor cabinet in the STURDX weatherproof line, this 7U model is sized for a single switch or small NVR system rather than a full equipment stack.\n\nIt keeps the same IP66 rating and fan-ready ventilation as the larger 16U outdoor models, just scaled down for point-of-use installs like a single outdoor camera hub.\n\nWhat stands out here is IP66 rating matches the larger 16U outdoor models, plus compact 7U size suits a single-device outdoor install. The main tradeoff: 7U ceiling only fits a small handful of devices, so weigh that against the under $800 price before buying.",
     specs: ["7U, 19\" mount, 600mm depth","IP66-rated waterproof design","Fan-ready ventilation, lockable access"],
     pros: ["IP66 rating matches the larger 16U outdoor models","Compact 7U size suits a single-device outdoor install","Fan-ready design supports adding cooling later"],
     cons: ["7U ceiling only fits a small handful of devices","Smaller size still carries an outdoor-rated price premium"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31t+0aeG+DL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CR5GS5X2?tag=deskfinds0d-20",
-    description: "At 30U this is one of the taller open-frame rolling racks in the AxcessAbles line, giving you real headroom for a growing home lab or studio rack without going to a fully enclosed cabinet.\n\nThe same 18-inch depth and removable side panel design carries over from the smaller models, so airflow and access stay consistent as you scale up in height.\n\nWhere this one earns its spot is tall 30U build fits a growing equipment stack, and removable panels switch between open and closed setups. Worth noting before buying: tall and narrow footprint needs a stable floor, which matters more at $299.99 than it would on a cheaper pick.",
+    description: "At 30U this is one of the taller open-frame rolling racks in the AxcessAbles line, giving you real headroom for a growing home lab or studio rack without going to a fully enclosed cabinet.\n\nThe same 18-inch depth and removable side panel design carries over from the smaller models, so airflow and access stay consistent as you scale up in height.\n\nWhere this one earns its spot is tall 30U build fits a growing equipment stack, and removable panels switch between open and closed setups. Worth noting before buying: tall and narrow footprint needs a stable floor, which matters more at under $300 than it would on a cheaper pick.",
     specs: ["30U height, 18\" depth","550 lb static / 440 lb rolling capacity","Removable vented side panels"],
     pros: ["Tall 30U build fits a growing equipment stack","Removable panels switch between open and closed setups","Includes both screw standards for mixed-brand gear"],
     cons: ["Tall and narrow footprint needs a stable floor","No lockable door for equipment security"],
@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $179.99",
+          "Under $180",
           "Raising Electronics 27U 4-Post Open Rack Frame"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "AxcessAbles 30U Rolling Network Server Rack"
         ],
         [
-          "Around $799.99",
+          "Under $800",
           "7U 19in 600mm Outdoor Rack Cabinet"
         ],
         [
-          "Around $1,599.00",
+          "Under $1,600",
           "16U 19in 600mm Outdoor Rack Cabinet"
         ],
         [
-          "Around $2,600.00",
+          "Under $2,700",
           "16U Outdoor Server Rack Cabinet with Integrated A/C"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "16U 19in 600mm Outdoor Rack Cabinet is aimed at buyers prioritizing 16u, 19\" mount, 600mm depth." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "16U 19in 600mm Outdoor Rack Cabinet is aimed at buyers prioritizing 16u, 19\" mount, 600mm depth." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

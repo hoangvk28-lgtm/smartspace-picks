@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The highest fire-resistance rating available", "ENGPOW 5200 degrees F Fireproof Document Box with Lock"],
         ["Wheeled mobility to avoid heavy lifting", "Oterri Lockable File Box with Wheels"],
         ["Certified fireproofing at the lowest price", "Fireproof File Box with Lock, Document Storage Organizer"],
-        ["Anti-static, easy-clean fireproof protection", "ENGPOW File Box with Lock, Zipper & Pockets"],
+        ["Anti-static, easy-clean fireproof protection", "ENGPOW File Box with Lock, Zipper & Pockets"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $30", "Fireproof File Box, Document Storage ($29.99)"],
-        ["Under $32", "Oterri with Wheels ($31.99) or ENGPOW Zipper ($31.99)"],
-        ["Under $38", "ENGPOW 5200 degrees F ($37.99)"],
+        ["Under $30", "Fireproof File Box, Document Storage (under $30)"],
+        ["Under $32", "Oterri with Wheels (under $35) or ENGPOW Zipper (under $35)"],
+        ["Under $38", "ENGPOW 5200 degrees F (under $40)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Fireproof Rating vs Wheeled Mobility",
     cards: [
       { label: "Fireproof rated (ENGPOW picks, Fireproof File Box)", text: "Withstands temperatures from 2000 degrees F to 5200 degrees F, prioritizing document protection during a fire over ease of movement." },
-      { label: "Wheeled mobility (Oterri)", text: "Trades fireproof rating for smooth-rolling casters, prioritizing everyday convenience over disaster protection." },
+      { label: "Wheeled mobility (Oterri)", text: "Trades fireproof rating for smooth-rolling casters, prioritizing everyday convenience over disaster protection." }
     ],
     note: "If protecting irreplaceable documents from fire is the priority, choose a fireproof-rated pick. If everyday mobility around an office or home matters more, the Oterri's wheels offer real convenience the fireproof picks lack.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Maximum available protection", "ENGPOW 5200 degrees F Fireproof Document Box"],
         ["Solid certified protection at lower cost", "Fireproof File Box, Document Storage Organizer"],
-        ["Comparable protection with anti-static exterior", "ENGPOW File Box with Zipper & Pockets"],
+        ["Comparable protection with anti-static exterior", "ENGPOW File Box with Zipper & Pockets"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Storing Irreplaceable Documents Like Passports or Birth Certificates Specifically",
     cards: [
       { label: "Look for", text: "A fireproof rating backed by independent certification like SGS or UL94, plus dedicated small pockets sized for passports and cards." },
-      { label: "In this comparison", text: "The SGS-certified Fireproof File Box and both ENGPOW picks include dedicated passport and card pockets alongside their fire ratings." },
+      { label: "In this comparison", text: "The SGS-certified Fireproof File Box and both ENGPOW picks include dedicated passport and card pockets alongside their fire ratings." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the maximum available fire-resistance rating, where the ENGPOW 5200 degrees F pick withstands significantly higher temperatures than the 2000 degrees F-rated alternatives." },
-      { label: "Save if", text: "You want solid certified fireproofing without paying for the highest rating, where the Fireproof File Box delivers SGS-certified 2000 degrees F protection for about $8 less." },
+      { label: "Save if", text: "You want solid certified fireproofing without paying for the highest rating, where the Fireproof File Box delivers SGS-certified 2000 degrees F protection for about $8 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -165,7 +165,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "UL94 and SGS Certifications Test Different Aspects of Fire Safety and Product Quality",
-    "explanation": "UL94 -V0/5VA and VTM-0 ratings specifically test a material's flame-retardant behavior, including how quickly it self-extinguishes and whether it drips flaming material, while an SGS certification more broadly verifies safety and quality claims through independent third-party testing. The Fireproof File Box pick in this comparison cites both certifications together, providing more comprehensive documented verification than a pick citing only one or neither. Check which specific certifications a listing names and understand that citing multiple independent testing standards together generally reflects more thorough verification than a single certification alone."
+    "explanation": "The Fireproof File Box pick in this comparison cites both certifications together, providing more comprehensive documented verification than a pick citing only one or neither. Check which specific certifications a listing names and understand that citing multiple independent testing standards together generally reflects more thorough verification than a single certification alone."
   },
   {
     "criterion": "Wheeled Mobility and Fireproof Rating Represent a Genuine Tradeoff, Not a Feature You Can Expect in Combination at This Price",

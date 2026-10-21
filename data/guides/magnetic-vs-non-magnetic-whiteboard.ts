@@ -12,7 +12,7 @@ export const magneticVsNonMagneticWhiteboardGuide: Guide = {
     "magnetic whiteboard worth it",
     "non magnetic whiteboard cheaper",
     "whiteboard with magnets for papers",
-    "magnetic dry erase board features",
+    "magnetic dry erase board features"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const magneticVsNonMagneticWhiteboardGuide: Guide = {
     "whiteboard-vs-corkboard",
     "pegboard-desk-organization-explained",
     "desk-organizer-types-explained",
-    "desk-declutter-checklist",
+    "desk-declutter-checklist"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const magneticVsNonMagneticWhiteboardGuide: Guide = {
       question: "Can I add magnets to a non-magnetic whiteboard later?",
       answer:
         "No, a non-magnetic whiteboard's backing material simply isn't receptive to magnets regardless of accessories, if magnetic functionality matters to you, this needs to be a purchasing decision made upfront rather than something addressable afterward.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const magneticVsNonMagneticWhiteboardGuide: Guide = {
     {
       heading: "Deciding Based on How You'll Actually Use the Board",
       body: `If your primary use is writing notes, task lists, or brainstorming content that you'll erase and rewrite, the magnetic feature adds cost without much practical benefit to that specific use case. If you also want to display a printed calendar, reference photos, or organize papers directly on the board's surface alongside your written content, the magnetic version's added functionality justifies its higher price for that combined use case.`,
-    },
+    }
   ],
 };

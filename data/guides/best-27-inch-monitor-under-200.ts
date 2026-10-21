@@ -50,7 +50,7 @@ export const products: Monitor27Under200[] = [
     tradeoffs: [
       "1500R curve is a preference, not a universal upgrade - flat-panel loyalists may not want it",
       "No USB-C - separate cables needed for power and video",
-      "Fixed stand with no listed height adjustment, unlike the MSI and KTC picks",
+      "Fixed stand with no listed height adjustment, unlike the MSI and KTC picks"
     ],
     skipIf:
       "You do color-critical or text-heavy work where a curved panel's edge distortion is a distraction. The MSI G274QPF-QD or Acer VG271U M3 above are flat and better suited to office use.",
@@ -59,12 +59,12 @@ export const products: Monitor27Under200[] = [
       "Dual DP 1.4 - connect two PCs at full 1440p resolution",
       "165Hz at 1440p for a competitive price point",
       "Frameless bezel design",
-      "Priced below the MSI G274QPF-QD for similar 1440p/165Hz specs",
+      "Priced below the MSI G274QPF-QD for similar 1440p/165Hz specs"
     ],
     cons: [
       "No USB-C connectivity",
       "Curved panel is a preference, not for every desk setup",
-      "No listed height-adjustable stand",
+      "No listed height-adjustable stand"
     ],
   },
   {
@@ -86,7 +86,7 @@ export const products: Monitor27Under200[] = [
     tradeoffs: [
       "Priced roughly $60-140 above every other pick in this guide - not an under-$200 option",
       "1920x1080 resolution at 27 inches is the same 82 PPI softness noted on the LG and Samsung picks above",
-      "Not marketed or rated as a gaming panel - no listed high refresh rate or FreeSync/G-Sync support",
+      "Not marketed or rated as a gaming panel - no listed high refresh rate or FreeSync/G-Sync support"
     ],
     skipIf:
       "Your budget is firmly under $200. Every other monitor in this guide costs less and several match or beat this panel's resolution and features. Choose this only if Dell's business support and full cable bundle specifically matter to your setup.",
@@ -94,12 +94,12 @@ export const products: Monitor27Under200[] = [
       "USB 3.0 upstream connectivity, useful for docking a laptop",
       "Full cable bundle included: DisplayPort, HDMI, and power",
       "Dell business-line build and support reputation",
-      "IPS panel for consistent viewing angles",
+      "IPS panel for consistent viewing angles"
     ],
     cons: [
       "Priced at ~$260, well above this guide's under-$200 theme",
       "1080p at 27 inches - same text-sharpness tradeoff as the LG and Samsung budget picks",
-      "No gaming-focused specs like high refresh rate or adaptive sync",
+      "No gaming-focused specs like high refresh rate or adaptive sync"
     ],
   },
   {
@@ -121,7 +121,7 @@ export const products: Monitor27Under200[] = [
     tradeoffs: [
       "Highest price in guide at $170-200",
       "170Hz vs 180-210Hz on competing 1440p options",
-      "USB-C power delivery may vary by batch - verify before purchasing for primary MacBook charging",
+      "USB-C power delivery may vary by batch - verify before purchasing for primary MacBook charging"
     ],
     skipIf:
       "Budget is strictly under $160. The Acer VG271U M3 at $150-180 delivers 1440p 180Hz at similar quality without USB-C.",
@@ -130,12 +130,12 @@ export const products: Monitor27Under200[] = [
       "USB-C single-cable for MacBook Pro/Air",
       "Height-adjustable stand - rare at this price",
       "FreeSync Premium + G-Sync Compatible",
-      "Rapid IPS - fast response for gaming and productivity",
+      "Rapid IPS - fast response for gaming and productivity"
     ],
     cons: [
       "Highest price at $170-200",
       "170Hz vs 180Hz on Acer",
-      "USB-C PD wattage varies - verify for MacBook charging",
+      "USB-C PD wattage varies - verify for MacBook charging"
     ],
   },
   {
@@ -158,7 +158,7 @@ export const products: Monitor27Under200[] = [
       "No USB-C - dedicated cable for each device",
       "Tilt-only stand - no height adjustment without a monitor arm",
       "180Hz requires DisplayPort, not HDMI",
-      "No built-in speakers",
+      "No built-in speakers"
     ],
     skipIf:
       "You use a MacBook and need USB-C connectivity. The MSI G274QPF-QD adds USB-C for $20-30 more.",
@@ -167,13 +167,13 @@ export const products: Monitor27Under200[] = [
       "95% DCI-P3 at $150-180",
       "180Hz over DisplayPort for competitive gaming",
       "FreeSync Premium",
-      "Best 1440p value per dollar in guide",
+      "Best 1440p value per dollar in guide"
     ],
     cons: [
       "No USB-C",
       "Tilt-only stand",
       "180Hz requires DP (HDMI limited to 144Hz)",
-      "No speakers",
+      "No speakers"
     ],
   },
   {
@@ -195,7 +195,7 @@ export const products: Monitor27Under200[] = [
     tradeoffs: [
       "130% sRGB is wide but not DCI-P3 - less precise for color-critical work vs MSI/Acer",
       "KTC is a newer brand with a shorter track record than MSI or LG",
-      "210Hz is overclocked - stable at 200Hz rated",
+      "210Hz is overclocked - stable at 200Hz rated"
     ],
     skipIf:
       "Color accuracy is the primary concern. The MSI G274QPF-QD with 95% DCI-P3 is more precise for photo and video work.",
@@ -204,12 +204,12 @@ export const products: Monitor27Under200[] = [
       "Dual DP 1.4 - connect two PCs at full resolution",
       "Height adjustable + pivot stand",
       "Shielding hood included",
-      "Built-in speakers",
+      "Built-in speakers"
     ],
     cons: [
       "130% sRGB not as precise as DCI-P3 for color work",
       "Newer brand - shorter track record",
-      "OC at 210Hz - rated 200Hz stable",
+      "OC at 210Hz - rated 200Hz stable"
     ],
   },
   {
@@ -232,7 +232,7 @@ export const products: Monitor27Under200[] = [
       '1080p at 27" is 82 PPI - softer text than 1440p at 109 PPI',
       "No DisplayPort - HDMI and VGA only",
       "Tilt-only stand",
-      "5ms GTG vs 0.5-1ms on gaming monitors",
+      "5ms GTG vs 0.5-1ms on gaming monitors"
     ],
     skipIf:
       "You do text-heavy work for 6+ hours daily. The softer 82 PPI at 1080p / 27 inches causes more eye fatigue on text than 1440p. Consider the Acer VG271U M3 at $150-180.",
@@ -241,13 +241,13 @@ export const products: Monitor27Under200[] = [
       "LG Reader Mode + OnScreen Control productivity features",
       "LG brand reliability",
       "100Hz refresh for smooth scrolling",
-      "Good value for office-only use at $120-150",
+      "Good value for office-only use at $120-150"
     ],
     cons: [
       '1080p at 27" is noticeably softer than 1440p',
       "No DisplayPort",
       "5ms response time for gaming",
-      "Tilt-only stand",
+      "Tilt-only stand"
     ],
   },
   {
@@ -269,7 +269,7 @@ export const products: Monitor27Under200[] = [
     tradeoffs: [
       '1080p at 27" - softer text and image than 1440p panels',
       "Tilt-only stand",
-      "Higher price than the LG 27MR400-B for the same resolution",
+      "Higher price than the LG 27MR400-B for the same resolution"
     ],
     skipIf:
       "Your GPU is RTX 3060 or newer. You can handle 1440p and the Acer VG271U M3 at $150-180 provides a sharper image for similar cost.",
@@ -278,12 +278,12 @@ export const products: Monitor27Under200[] = [
       "1ms GTG response time",
       "DisplayPort included",
       "FreeSync Premium + G-Sync Compatible",
-      "Samsung reliability",
+      "Samsung reliability"
     ],
     cons: [
       '1080p at 27" softer than 1440p',
       "Tilt-only stand",
-      "Costs more than LG 27MR400-B for same resolution",
+      "Costs more than LG 27MR400-B for same resolution"
     ],
   },
   {
@@ -306,7 +306,7 @@ export const products: Monitor27Under200[] = [
       "75Hz - visible difference from 100Hz+ for web browsing and video",
       '1080p at 27" softer than 1440p',
       "No DisplayPort",
-      "Tilt-only stand",
+      "Tilt-only stand"
     ],
     skipIf:
       "This is your primary monitor and you can afford $20-30 more. The LG 27MR400-B at $120-150 adds 100Hz for noticeably smoother scrolling.",
@@ -315,15 +315,15 @@ export const products: Monitor27Under200[] = [
       "LG 99% sRGB color accuracy",
       "Reader Mode + OnScreen Control",
       "Good second-monitor option",
-      "LG reliability at minimum cost",
+      "LG reliability at minimum cost"
     ],
     cons: [
       "75Hz only",
       '1080p at 27" not sharp for text',
       "No DisplayPort",
-      "Tilt-only stand",
+      "Tilt-only stand"
     ],
-  },
+  }
 ];
 
 export interface AtAGlanceRow {
@@ -371,7 +371,7 @@ export const faq: FaqItem[] = [
   {
     q: "Is 27 inches too big for a small desk?",
     a: "No - 27 inches is comfortable at 60-80cm viewing distance on desks 40 inches or wider. The more relevant dimension is stand depth: standard monitor stands occupy 8-10 inches of desk depth. A monitor arm eliminates this footprint entirely. See the Best Monitor Arm Under $100 guide for options starting at $29.",
-  },
+  }
 ];
 
 export const relatedGuides = [
@@ -390,5 +390,5 @@ export const relatedGuides = [
   {
     href: "/guide/best-standing-desk-under-200",
     title: "Best Standing Desk Under $200",
-  },
+  }
 ];

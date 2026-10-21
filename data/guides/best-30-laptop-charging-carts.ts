@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "30 laptop charging carts";
 export const introParagraphs = [
   "Thirty devices is a common classroom or department deployment size, but the stated count doesn't always match usable slot geometry once chargers and thicker laptops are loaded. We compared confirmed capacity claims, open versus locking design, and price per bay across the current 30-device product pool.",
-  "One pick here (ARTMAN) had no confirmed rating in our data pull, and one (the storage cart rated for up to 36 units) exceeds 30-device capacity, which we're noting directly rather than glossing over the mismatch with the search term.",
+  "One pick here (ARTMAN) had no confirmed rating in our data pull, and one (the storage cart rated for up to 36 units) exceeds 30-device capacity, which we're noting directly rather than glossing over the mismatch with the search term."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -147,16 +147,15 @@ export const products: GuideProduct[] = [
     pros: ["Small buffer above the exact 30-device target"],
     cons: ["No review history or confirmed rating available yet", "Highest price among the near-30-device options"],
     bestFor: "Buyers wanting a small buffer above 30 devices who are comfortable with no review history yet.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "True 30-device carts separated from near-30 alternatives", description: "We clearly distinguished carts confirmed at exactly 30 devices from those rated for 30+2, up to 36, or 42, so buyers searching specifically for 30-device capacity aren't misled by a larger unit." },
   { title: "Price per bay compared across the true 30-device tier", description: "We compared the range of price points in this comparison of confirmed 30-device carts directly, since price varied significantly for the same stated capacity." },
-  { title: "Open versus locking design noted as a workflow factor", description: "Where a listing confirms open (non-locking) construction, we flagged it as generally faster for daily access rather than a downside by default." },
-  { title: "Review base weighted against a 30-device financial commitment", description: "A 30-device cart is a meaningful purchase; we flagged picks with fewer than 15 reviews or no rating at all so buyers can weigh that risk against price." },
-];
+  { title: "Open versus locking design noted as a workflow factor", description: "Where a listing confirms open (non-locking) construction, we flagged it as generally faster for daily access rather than a downside by default." }
+  ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
@@ -280,14 +279,14 @@ export const buyingCriteria: BuyingCriterion[] = [
 
 export const faq: FaqItem[] = [
   { q: "What's the best-rated true 30-device cart?", a: "The Pearington 30 Device Mobile Charging/Storage Cart, with the highest rating among confirmed 30-device carts in this comparison." },
-  { q: "What's the cheapest confirmed 30-device cart?", a: "The POCHAR 30 Unit Device Charging Station at $299.99, also explicitly rated for mixed Chromebook, iPad, and laptop fleets." },
+  { q: "What's the cheapest confirmed 30-device cart?", a: "The POCHAR 30 Unit Device Charging Station at under $300, also explicitly rated for mixed Chromebook, iPad, and laptop fleets." },
   { q: "Are any of these actually larger than 30 devices?", a: "Yes, the ARTMAN pick is rated for 30+2 bays, one storage cart is rated for up to 36 units, and the Tripp Lite pick is a 42-port enterprise unit." },
   { q: "Is there an open-access option for faster daily handout?", a: "Yes, the POCHAR 30 Devices Open Laptop Charging Cart uses an open, non-locking design." },
-  { q: "Which pick has the least review history?", a: "The ARTMAN 30+2 Bay Storage Cabinet has no confirmed rating or review history in our data pull." },
+  { q: "Which pick has the least review history?", a: "The ARTMAN 30+2 Bay Storage Cabinet has no confirmed rating or review history in our data pull." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-20-laptop-charging-carts", title: "Best 20-Laptop Charging Carts (2026)" },
   { href: "/guide/best-laptop-charging-carts-for-schools", title: "Best Laptop Charging Carts for Schools (2026)" },
-  { href: "/guide/best-laptop-charging-carts", title: "Best Laptop Charging Carts (2026)" },
+  { href: "/guide/best-laptop-charging-carts", title: "Best Laptop Charging Carts (2026)" }
 ];

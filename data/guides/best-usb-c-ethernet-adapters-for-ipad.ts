@@ -186,31 +186,31 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $12.99",
+          "Under $15",
           "UGREEN USB-C to Ethernet Adapter (1Gbps)"
         ],
         [
-          "Around $14.99",
+          "Under $15",
           "1STCHAMP MFi Certified 2-in-1 Adapter"
         ],
         [
-          "Around $15.53",
+          "Under $20",
           "Anker USB-C to Ethernet Adapter"
         ],
         [
-          "Around $15.99",
+          "Under $20",
           "uni USB-C to Ethernet Adapter 1Gbps"
         ],
         [
-          "Around $17.98",
+          "Under $20",
           "UGREEN Revodok 6-in-1 USB-C Hub"
         ],
         [
-          "Around $21.99",
+          "Under $25",
           "uni USB-C to Ethernet Adapter with 100W PD"
         ],
         [
-          "Around $34.99",
+          "Under $35",
           "Belkin USB-C Ethernet + Charge Adapter 100W"
         ]
       ]
@@ -265,10 +265,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "UGREEN USB-C to Ethernet Adapter (1Gbps) is aimed at buyers prioritizing 1gbps, driver-free on most oses, at $12.99."
+        "text": "UGREEN USB-C to Ethernet Adapter (1Gbps) is aimed at buyers prioritizing 1gbps, driver-free on most oses, at under $15."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -309,9 +309,9 @@ export const faq = [
   }
 ,
   { q: "Which pick in this comparison is the best overall choice?", a: "Anker USB-C to Ethernet Adapter is aimed at buyers prioritizing 1gbps, usb-c 3.0." },
-  { q: "Which pick offers the best value for a tight budget?", a: "UGREEN USB-C to Ethernet Adapter (1Gbps) is aimed at buyers prioritizing 1gbps, driver-free on most oses, and at $12.99 it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $12.99 to $34.99, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
-  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Belkin USB-C Ethernet + Charge Adapter 100W is aimed at buyers prioritizing gigabit ethernet + 100w power delivery passthrough. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
+  { q: "Which pick offers the best value for a tight budget?", a: "UGREEN USB-C to Ethernet Adapter (1Gbps) is aimed at buyers prioritizing 1gbps, driver-free on most oses, and at under $15 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $15 to $35, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Belkin USB-C Ethernet + Charge Adapter 100W is aimed at buyers prioritizing gigabit ethernet + 100w power delivery passthrough. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-usb-c-ethernet-adapters-for-iphone","title":"7 Best USB-C Ethernet Adapters for iPhone"},{"href":"/guide/best-usb-c-ethernet-adapters-with-power-delivery","title":"7 Best USB-C Ethernet Adapters With Power Delivery"},{"href":"/guide/best-usb-c-ethernet-adapters-for-mac","title":"8 Best USB-C Ethernet Adapters for Mac"}];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "monitor with built-in privacy filter";
 export const introParagraphs = [
   "We need to be direct here: built-in electronic privacy technology (like HP Sure View, Lenovo PrivacyGuard, or Dell e-Privacy) is almost entirely a business-laptop feature, not a standalone desktop monitor feature. In our research, we confirmed exactly one standalone monitor with a genuine built-in, toggleable privacy panel.",
-  "Rather than pad this list with attachable filters mislabeled as \"built-in,\" we're presenting the one confirmed built-in option honestly, alongside the strongest attachable filters for buyers whose real need is privacy on a standard monitor they already own.",
+  "Rather than pad this list with attachable filters mislabeled as \"built-in,\" we're presenting the one confirmed built-in option honestly, alongside the strongest attachable filters for buyers whose real need is privacy on a standard monitor they already own."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     pros: ["From an established brand with decades of privacy-filter history"],
     cons: ["Manual attachment and removal, not a built-in toggle"],
     bestFor: "Buyers who want an established-brand attachable filter rather than a built-in electronic panel.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed the standalone-monitor built-in privacy product pool honestly", description: "We found exactly one genuine standalone monitor with a built-in privacy panel and disclosed this directly rather than relabeling attachable filters as \"built-in.\"" },
   { title: "Distinguished built-in electronic privacy from removable optical filters", description: "A toggleable built-in panel and a physical attachable filter are fundamentally different technologies, and we kept them clearly separated throughout." },
   { title: "Included the strongest attachable alternatives for the realistic buyer need", description: "Most buyers searching this term actually want fast, convenient privacy toggling on a monitor they already own, so we included the best magnetic and tool-free options for that use case." },
-  { title: "Used HP Sure View and Lenovo PrivacyGuard as technology examples only", description: "These built-in privacy technologies exist mainly on business laptops, not standalone monitors, and we referenced them for context rather than treating them as products in this comparison." },
+  { title: "Used HP Sure View and Lenovo PrivacyGuard as technology examples only", description: "These built-in privacy technologies exist mainly on business laptops, not standalone monitors, and we referenced them for context rather than treating them as products in this comparison." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -219,11 +219,11 @@ export const faq: FaqItem[] = [
   { q: "What's the fastest attachable alternative to a built-in toggle?", a: "A magnetic-mount filter, like the 2 Pack 24 Inch Magnetic Computer Privacy Screen, removes and reattaches faster than an adhesive-strip filter." },
   { q: "What are HP Sure View, Lenovo PrivacyGuard, and Dell e-Privacy?", a: "Built-in electronic privacy technologies found on selected business laptops from these manufacturers, not standalone desktop monitors." },
   { q: "Is a built-in privacy monitor worth the cost over an attachable filter?", a: "Only if you need a new monitor anyway. If you already have a good monitor, an attachable filter is far cheaper and nearly as convenient with a magnetic mount." },
-  { q: "Is there an option for a frameless monitor?", a: "Yes, the Verponity 2 Pack 27 Inch Magnetic Privacy Screen uses a tool-free hanging design built for frameless monitors." },
+  { q: "Is there an option for a frameless monitor?", a: "Yes, the Verponity 2 Pack 27 Inch Magnetic Privacy Screen uses a tool-free hanging design built for frameless monitors." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-monitor-privacy-screens", title: "Best Monitor Privacy Screens (2026)" },
   { href: "/guide/best-magnetic-monitor-privacy-screens", title: "Best Magnetic Monitor Privacy Screens (2026)" },
-  { href: "/guide/best-3m-monitor-privacy-screens", title: "Best 3M Monitor Privacy Screens (2026)" },
+  { href: "/guide/best-3m-monitor-privacy-screens", title: "Best 3M Monitor Privacy Screens (2026)" }
 ];

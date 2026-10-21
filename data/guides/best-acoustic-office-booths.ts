@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "acoustic office booths";
 export const introParagraphs = [
   "\"Acoustic\" and \"soundproof\" are used almost interchangeably across these listings rather than describing genuinely different performance tiers, worth knowing before you assume an \"acoustic\" pod is meaningfully different from a \"soundproof\" one. This guide overlaps with our soundproof home office booths guide for that reason, cross-reference both rather than expecting distinct product sets.",
-  "As with the soundproof-labeled listings in this niche, none of the acoustic-labeled ones publish formal STC or NRC test data either, the terminology difference is marketing phrasing, not a documented performance distinction.",
+  "As with the soundproof-labeled listings in this niche, none of the acoustic-labeled ones publish formal STC or NRC test data either, the terminology difference is marketing phrasing, not a documented performance distinction."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
       "The largest and most expensive pod in this research pool, sized for 4 to 6 people at H92in W91in D70in exterior dimensions and shipping with a desk included. Amazon's listing does not include a star rating or review count, so group-size claims and build quality are unverified beyond the manufacturer's own description.\n\nA structure this large means real freight delivery logistics, multi-person assembly, and floor-loading verification are not optional, budget for professional installation and confirm ceiling height and doorway clearance well before delivery. Ventilation for a 4-6 person enclosed space over a multi-hour meeting is not addressed in the listing, worth asking the seller about directly.\n\nShips with a desk included. That's a real strength, but weigh it against the flip side: no star rating or review count available from Amazon.",
     specs: ["4 to 6 person capacity", "Exterior dimensions H92in W91in D70in", "Ships with a desk", "Largest and highest-priced pod in this pool"],
     pros: ["Largest stated capacity in this pool at 4 to 6 people", "Ships with a desk included", "Exact exterior dimensions disclosed (H92 x W91 x D70in)", "No star rating or review count to independently verify against the marketing copy"],
-    cons: ["No star rating or review count available from Amazon", "Highest price in this pool at $7,999", "No ventilation data disclosed for a multi-person enclosed space"],
+    cons: ["No star rating or review count available from Amazon", "Highest price in this pool at under $8,000", "No ventilation data disclosed for a multi-person enclosed space"],
     bestFor: "Teams needing a 4-6 person acoustic-panel structure.",
   },
   {
@@ -87,7 +87,7 @@ export const products: GuideProduct[] = [
     pros: ["Largest stated occupancy in this pool at 5 to 7 people", "Positioned for group meeting and focus-room use cases", "No star rating or review count to independently verify against the marketing copy"],
     cons: ["No star rating or review count available from Amazon", "No exterior dimensions disclosed in the listing title", "Price not returned by the listing data, check current Amazon price directly"],
     bestFor: "Larger teams needing a 5-7 person acoustic-panel structure.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -95,7 +95,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "\"Acoustic\" vs \"soundproof\" terminology compared directly", description: "Compared how \"acoustic\" and \"soundproof\" are used across listings in this niche and confirmed they describe the same interior panel construction, not distinct performance tiers." },
   { title: "Cross-referenced the soundproof guide rather than duplicating", description: "Confirmed substantial product overlap with our soundproof home office booths guide and cross-linked rather than presenting this as an unrelated comparison." },
   { title: "STC/NRC data checked and confirmed absent", description: "Checked every listing in this pool for formal acoustic test data, found none disclosed for any \"acoustic\"-labeled listing either." },
-  { title: "Verified listing data only", description: "Used only prices, dimensions, and features actually printed in each Amazon listing, no invented ratings or review counts." },
+  { title: "Verified listing data only", description: "Used only prices, dimensions, and features actually printed in each Amazon listing, no invented ratings or review counts." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -211,11 +211,11 @@ export const faq: FaqItem[] = [
   { q: "Is an \"acoustic\" office booth better than a \"soundproof\" one?", a: "Not necessarily, in this niche the two terms describe the same panel construction and neither is backed by published STC or NRC test data." },
   { q: "Should I read the soundproof home office booths guide too?", a: "Yes, the product pools substantially overlap, reading both gives you the fuller comparison rather than a partial one." },
   { q: "Do any acoustic-labeled listings publish real test data?", a: "No, we checked every listing in this niche and found no formal acoustic test data disclosed regardless of whether the listing uses \"acoustic\" or \"soundproof.\"" },
-  { q: "What's the largest acoustic office booth available?", a: "The largest verified listing in this pool states 5 to 7 person capacity, though it does not disclose exterior dimensions in its title." },
+  { q: "What's the largest acoustic office booth available?", a: "The largest verified listing in this pool states 5 to 7 person capacity, though it does not disclose exterior dimensions in its title." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-soundproof-home-office-booths", title: "Best Soundproof Home Office Booths (2026)" },
   { href: "/guide/best-portable-office-booths", title: "Best Portable Office Booths (2026)" },
-  { href: "/guide/best-home-office-booths", title: "Best Home Office Booths (2026)" },
+  { href: "/guide/best-home-office-booths", title: "Best Home Office Booths (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "soundproof home office booths";
 export const introParagraphs = [
   "\"Soundproof\" appears in most of these listings' titles, but none of them publish a formal STC or NRC test number to back that claim, this is a real disclosure gap worth flagging to readers rather than repeating the marketing language uncritically.",
-  "\"Soundproof\" in a listing title is marketing language, not a test result, none of the verified listings in this niche publish an STC or NRC number, and real sound leakage most often comes through door seals, floor gaps, or ventilation openings rather than the wall panels the marketing photos highlight.",
+  "\"Soundproof\" in a listing title is marketing language, not a test result, none of the verified listings in this niche publish an STC or NRC number, and real sound leakage most often comes through door seals, floor gaps, or ventilation openings rather than the wall panels the marketing photos highlight."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -68,7 +68,7 @@ export const products: GuideProduct[] = [
       "The largest and most expensive pod in this research pool, sized for 4 to 6 people at H92in W91in D70in exterior dimensions and shipping with a desk included. Amazon's listing does not include a star rating or review count, so group-size claims and build quality are unverified beyond the manufacturer's own description.\n\nA structure this large means real freight delivery logistics, multi-person assembly, and floor-loading verification are not optional, budget for professional installation and confirm ceiling height and doorway clearance well before delivery. Ventilation for a 4-6 person enclosed space over a multi-hour meeting is not addressed in the listing, worth asking the seller about directly.\n\nThe standout detail is that ships with a desk included. Balancing that out, no star rating or review count available from Amazon.",
     specs: ["4 to 6 person capacity", "Exterior dimensions H92in W91in D70in", "Ships with a desk", "Largest and highest-priced pod in this pool"],
     pros: ["Largest stated capacity in this pool at 4 to 6 people", "Ships with a desk included", "Exact exterior dimensions disclosed (H92 x W91 x D70in)", "No star rating or review count to independently verify against the marketing copy"],
-    cons: ["No star rating or review count available from Amazon", "Highest price in this pool at $7,999", "No ventilation data disclosed for a multi-person enclosed space"],
+    cons: ["No star rating or review count available from Amazon", "Highest price in this pool at under $8,000", "No ventilation data disclosed for a multi-person enclosed space"],
     bestFor: "Teams needing a 4-6 person soundproof-marketed structure for private meetings.",
   },
   {
@@ -87,7 +87,7 @@ export const products: GuideProduct[] = [
     pros: ["Explicit 1-2 person occupancy range disclosed in the title", "Exact exterior dimensions disclosed (W55 x D48 x H92in)", "Mid-range price relative to the rest of this pool", "No star rating or review count to independently verify against the marketing copy"],
     cons: ["No star rating or review count available from Amazon", "No formal STC/NRC sound-isolation data disclosed", "No ventilation specs disclosed for two-occupant use"],
     bestFor: "Buyers wanting a smaller-footprint soundproof-marketed pod for 1-2 occupants.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -95,7 +95,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "STC/NRC data checked and confirmed absent", description: "Checked every listing in this pool for formal STC or NRC sound-isolation test data, found none disclosed, and flagged this gap explicitly rather than repeating \"soundproof\" as a verified spec." },
   { title: "Common leak points named, not glossed over", description: "Identified door seals, floor-level gaps, and ventilation openings as the most common real-world sound leakage points that a headline soundproof claim doesn't account for." },
   { title: "Household decibel testing framed as unverifiable from listing data", description: "Noted that real-world decibel testing against common household noise can't be independently verified from Amazon listing data, and phrased this as buyer advisory rather than a tested claim." },
-  { title: "Verified listing data only", description: "Used only prices, dimensions, and features actually printed in each Amazon listing, no invented ratings or review counts." },
+  { title: "Verified listing data only", description: "Used only prices, dimensions, and features actually printed in each Amazon listing, no invented ratings or review counts." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -211,11 +211,11 @@ export const faq: FaqItem[] = [
   { q: "Do any of these soundproof home office booths have STC or NRC ratings?", a: "No, none of the verified listings in this niche publish formal STC or NRC sound test data despite using \"soundproof\" in their titles." },
   { q: "Where does sound actually leak in an enclosed pod?", a: "Most commonly through door seals and floor-level gaps rather than the wall panels marketing photos emphasize, none of these listings detail seal quality." },
   { q: "Can I verify real sound isolation before buying?", a: "Not from the Amazon listing alone, check the seller's return policy so you can test sound isolation in your own home after delivery if it doesn't meet your needs." },
-  { q: "Should I get a group pod or a single-person pod for privacy?", a: "Match it to your actual use, single-occupant pods suit private calls, group-sized pods suit private team meetings, soundproofing claims don't differ meaningfully by size in these listings." },
+  { q: "Should I get a group pod or a single-person pod for privacy?", a: "Match it to your actual use, single-occupant pods suit private calls, group-sized pods suit private team meetings, soundproofing claims don't differ meaningfully by size in these listings." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-acoustic-office-booths", title: "Best Acoustic Office Booths (2026)" },
   { href: "/guide/best-home-office-booths", title: "Best Home Office Booths (2026)" },
-  { href: "/guide/best-portable-office-booths", title: "Best Portable Office Booths (2026)" },
+  { href: "/guide/best-portable-office-booths", title: "Best Portable Office Booths (2026)" }
 ];

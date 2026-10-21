@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "best ergonomic vertical mice";
 export const introParagraphs = [
   "The word 'ergonomic' has no certification or regulated standard behind it, so any mouse can carry the label regardless of actual design quality. What matters is whether specific, measurable features back up the claim: a disclosed tilt angle, more than one size option, and a button layout that lets your thumb rest naturally rather than reach. This guide holds each pick to that higher bar rather than accepting the label at face value.",
-  "Because these products are marketed more explicitly as ergonomic, we also looked at whether any price premium over generically labeled alternatives is justified by measurable differences in build or adjustability, and we flagged return policy or trial period generosity as a genuinely useful safety net, since fit varies a lot from person to person and no amount of research fully substitutes for trying a mouse in your own hand.",
+  "Because these products are marketed more explicitly as ergonomic, we also looked at whether any price premium over generically labeled alternatives is justified by measurable differences in build or adjustability, and we flagged return policy or trial period generosity as a genuinely useful safety net, since fit varies a lot from person to person and no amount of research fully substitutes for trying a mouse in your own hand."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Most Measurable Ergonomic Design",
     name: "Logitech MX Vertical Wireless Mouse Ergonomic Design",
     price: "Check current price on Amazon",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "14,970 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Ig2YzI5iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07FNJB8TT?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best Ergonomic Fit for Smaller Hands",
     name: "Logitech Lift Vertical Ergonomic Wireless Mouse",
     price: "$57.40",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "13,635 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31nb5ALnDvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09J1TB35S?tag=deskfinds0d-20",
     description:
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Ergonomic Pick",
     name: "Lekvey Ergonomic Mouse, Rechargeable Vertical Wireless Mouse",
     price: "$24.98",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "15,431 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31rCoH07kzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07BFCVJZC?tag=deskfinds0d-20",
     description:
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Entry-Level Ergonomic Pick",
     name: "Anker 2.4G Wireless Ergonomic Mouse, Right Hand Vertical Mouse",
     price: "$19.98",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "53,313 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31z5JT0yL+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BIFNTMC?tag=deskfinds0d-20",
     description:
@@ -94,14 +94,14 @@ export const products: GuideProduct[] = [
     badge: "Best Established Ergonomic Wired Design",
     name: "Evoluent - World's Original Vertical Mouse, Wired Ergonomic Mouse",
     price: "$89.95",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "2,295 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31o5C5jFQAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00427TAIK?tag=deskfinds0d-20",
     description:
       "One of the longest-running ergonomic designs in the category, with a fixed, well-documented tilt angle that has years of buyer feedback behind it rather than a newer, unproven claim.\n\nGoing wired eliminates battery weight entirely, a genuine ergonomic upside some buyers find meaningfully changes the feel of an already unusual grip angle, though it means giving up wireless freedom.\n\nA genuine advantage here is that no battery weight, a genuine ergonomic upside. The tradeoff is that premium price for a wired-only mouse.",
     specs: ["Fixed, well-documented tilt angle", "Wired USB connection", "No battery, lighter body", "Premium price point"],
-    pros: ["Long track record of disclosed angle and design feedback", "No battery weight, a genuine ergonomic upside", "Strong 4.4-star rating across a meaningful sample", "Consistent, fixed design"],
+    pros: ["Long track record of disclosed angle and design feedback", "No battery weight, a genuine ergonomic upside", "Consistent, fixed design"],
     cons: ["Premium price for a wired-only mouse", "No wireless option", "Angle is fixed, no size or angle variants offered"],
     bestFor: "Buyers who want a long-established ergonomic design with real disclosed specs and don't need wireless.",
   },
@@ -111,8 +111,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Ergonomic Value Pick",
     name: "ProtoArc EM11 NL Wireless Ergonomic Vertical Mouse, Rechargeable",
     price: "$22.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "5,670 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31PGrLfkUxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CX18LHWS?tag=deskfinds0d-20",
     description:
@@ -128,8 +128,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wired Ergonomic Value Pick",
     name: "Anker USB Wired Vertical Mouse, Ergonomic Mouse for Computer and Laptop",
     price: "$25.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "9,039 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41h3oxMYtPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00FPAVUHC?tag=deskfinds0d-20",
     description:
@@ -145,8 +145,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Wired Ergonomic Pick",
     name: "TECKNET Wired Mouse, Comfortable Ergonomic Mouse with 6400 DPI",
     price: "$19.19",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "3,694 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31vAjZuq+pL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CMC1F5WB?tag=deskfinds0d-20",
     description:
@@ -155,7 +155,7 @@ export const products: GuideProduct[] = [
     pros: ["Lowest price in this guide", "Adjustable DPI sensor", "No battery weight", "Strong review rating for the price"],
     cons: ["Less precisely disclosed angle specs than premium picks", "No wireless option", "Fewer established years on the market than the Evoluent design"],
     bestFor: "Budget-conscious buyers who want the lowest-cost entry point into this ergonomic category.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -163,7 +163,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Ergonomic claims checked against disclosed features", description: "We looked for a stated tilt angle, size options, or shaped button placement rather than accepting the word 'ergonomic' on its own." },
   { title: "Price premium weighed against measurable differences", description: "We considered whether a higher price reflects genuine design differences like angle precision and materials, or mainly branding." },
   { title: "Size options treated as a real ergonomic differentiator", description: "We noted where a brand offers more than one body size, since that is a genuine accommodation of different hand sizes rather than a one-size claim." },
-  { title: "Return policy noted as a practical safety net", description: "We flagged generous return or trial windows given how much individual fit varies from person to person." },
+  { title: "Return policy noted as a practical safety net", description: "We flagged generous return or trial windows given how much individual fit varies from person to person." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -290,11 +290,11 @@ export const faq: FaqItem[] = [
   { q: "Is 'ergonomic' a certified or regulated term for mice?", a: "No, there is no certification standard behind the term. Look for disclosed features like tilt angle and size options instead of trusting the label alone." },
   { q: "Are more expensive ergonomic mice actually better?", a: "Sometimes. A higher price is justified when it reflects a genuinely steeper or more adjustable angle, better materials, or added connectivity, not just branding." },
   { q: "Do ergonomic vertical mice come in different sizes?", a: "Some brands offer more than one size within their ergonomic line, which is a genuine accommodation for different hand sizes. Check the specific product line before buying." },
-  { q: "Should I check the return policy before buying an ergonomic mouse?", a: "Yes, since fit varies significantly by person, a generous return or exchange window is a genuinely useful safety net." },
+  { q: "Should I check the return policy before buying an ergonomic mouse?", a: "Yes, since fit varies significantly by person, a generous return or exchange window is a genuinely useful safety net." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-vertical-mice", title: "Best Vertical Mice in 2026" },
   { href: "/guide/best-vertical-mice-for-small-hands", title: "Best Vertical Mice for Small Hands in 2026" },
-  { href: "/guide/best-vertical-mice-for-large-hands", title: "Best Vertical Mice for Large Hands in 2026" },
+  { href: "/guide/best-vertical-mice-for-large-hands", title: "Best Vertical Mice for Large Hands in 2026" }
 ];

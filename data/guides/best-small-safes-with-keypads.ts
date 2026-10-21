@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small safes with keypads";
 export const introParagraphs = [
   "Digital, electronic, and keypad all describe the same underlying mechanism: a programmable numeric code replacing a physical key. We compared the details that actually differentiate keypad safes day to day, battery type and access, what happens when the battery dies, and lockout behavior after repeated wrong entries.",
-  "We also checked whether each pick confirms a backup key alongside the keypad, since a keypad-only design with no physical backup risks a full lockout if the electronics fail.",
+  "We also checked whether each pick confirms a backup key alongside the keypad, since a keypad-only design with no physical backup risks a full lockout if the electronics fail."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     pros: ["Most flexible password length in this comparison, from 3 to 8 digits"],
     cons: ["Smallest confirmed capacity among these keypad picks"],
     bestFor: "Buyers wanting to set a longer, more secure custom password than a fixed-digit keypad allows.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified battery access and backup power options for each keypad", description: "We checked whether each pick confirms standard AA batteries, a specific battery compartment location, or a genuine backup power method like USB-C, since dead-battery lockout is the most common keypad failure mode." },
   { title: "Compared lockout behavior after repeated wrong entries", description: "Several picks confirm a specific wrong-entry lockout duration (commonly 5 minutes after 3 attempts), a real deterrent feature we verified rather than assumed universal." },
   { title: "Checked for physical key backup on every keypad pick", description: "All eight picks here confirm at least one physical emergency key alongside the keypad, ensuring access even if the electronics fail entirely." },
-  { title: "Noted genuine feature differentiators between otherwise similar keypads", description: "Multi-code support, interior lighting, and reconfigurable shelving are real differences between these keypad safes beyond the code-entry mechanism itself." },
+  { title: "Noted genuine feature differentiators between otherwise similar keypads", description: "Multi-code support, interior lighting, and reconfigurable shelving are real differences between these keypad safes beyond the code-entry mechanism itself." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -282,7 +282,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review count and rating together, not rating alone",
-    "explanation": "A 4.8-star rating from 12 reviews carries far less evaluation confidence than a 4.5-star rating from several thousand, since a small sample can be skewed by a handful of early, enthusiastic buyers before any long-term reliability issues would show up in later reviews.\n\nThis matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
+    "explanation": "This matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
   }
 ];
 
@@ -291,11 +291,11 @@ export const faq: FaqItem[] = [
   { q: "What happens if the keypad battery dies?", a: "Two picks confirm USB-C external power backup. The rest rely on a physical emergency key, included with every pick here as a fallback." },
   { q: "Is there a keypad that supports two different codes?", a: "Yes, the Digital Electronic Money Safe supports two independent access codes simultaneously." },
   { q: "Which keypad gives the most feedback about entry status?", a: "The Voncabay Money Safe Box, with a correct-entry indicator light and a separate low-battery warning light." },
-  { q: "Can I set a longer password than the standard 3-4 digits?", a: "Yes, the MAESTON Mini Electronic Safe Box supports a customizable 3-8 digit password." },
+  { q: "Can I set a longer password than the standard 3-4 digits?", a: "Yes, the MAESTON Mini Electronic Safe Box supports a customizable 3-8 digit password." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-combination-small-safes", title: "Best Combination Small Safes (2026)" },
   { href: "/guide/best-small-safes-with-keys", title: "Best Small Safes With Keys (2026)" },
-  { href: "/guide/best-biometric-small-safes", title: "Best Biometric Small Safes (2026)" },
+  { href: "/guide/best-biometric-small-safes", title: "Best Biometric Small Safes (2026)" }
 ];

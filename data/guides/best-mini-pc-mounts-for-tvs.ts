@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mount mini PC to back of TV";
 export const introParagraphs = [
   "Our original candidate ASINs for this article were no longer valid, so we researched the current real product pool. Mounting a mini PC behind a TV means either sharing the TV's VESA mounting holes with the mount bracket, or mounting nearby to a pole or the wall itself.",
-  "We prioritized mounts that explicitly support behind-monitor/behind-display placement, since that's the closest documented use case to behind-TV mounting.",
+  "We prioritized mounts that explicitly support behind-monitor/behind-display placement, since that's the closest documented use case to behind-TV mounting."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -47,7 +47,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41nWvL8pqlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KY3LHVG?tag=deskfinds0d-20",
     description: "The largest review base in this comparison, supports both major VESA patterns and multiple mounting locations including pole mounting, which can help route around a wall-mounted TV setup.\n\nOne spot below Yimaut Adjustable Mini PC Vesa Mount Bracket Behind Monitor in this ranking, it costs more than Yimaut Adjustable Mini PC Vesa Mount Bracket Behind Monitor. The compromise here is straightforward: Higher price than the budget options. What you gain in return: Largest, most proven review base in this comparison. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Pole-mounting option for flexible placement near a wall-mounted TV. On the other side, Higher price than the budget options. That's the main tradeoff to weigh against everything above.",
-    specs: ["Fits 0.65-2.55 in device depth","75x75 and 100x100mm VESA","702 reviews at 4.4 stars"],
+    specs: ["Fits 0.65-2.55 in device depth","75x75 and 100x100mm VESA"],
     pros: ["Largest, most proven review base in this comparison","Pole-mounting option for flexible placement near a wall-mounted TV"],
     cons: ["Higher price than the budget options"],
     bestFor: "Buyers who want the most proven bracket for a behind-TV setup.",
@@ -63,7 +63,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31l-EL12D-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJ7BK9CM?tag=deskfinds0d-20",
     description: "Explicitly supports both wall mounting and behind-monitor VESA mounting, the highest rating in this comparison, useful for buyers who want to mount directly to the wall near a TV rather than sharing VESA holes.\n\nSitting just under HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm, it's priced lower than HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm. Here's the honest tradeoff: Smaller review base than the HumanCentric pick. And here's what it gets you instead: Highest rating in this comparison. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Explicit wall-mounting option, useful if you don't want to share TV VESA holes. On the other side, Smaller review base than the HumanCentric pick. That's the main tradeoff to weigh against everything above.",
-    specs: ["Wall mount or VESA behind-monitor mount","190 reviews at 4.6 stars"],
+    specs: ["Wall mount or VESA behind-monitor mount"],
     pros: ["Highest rating in this comparison","Explicit wall-mounting option, useful if you don't want to share TV VESA holes"],
     cons: ["Smaller review base than the HumanCentric pick"],
     bestFor: "Buyers who prefer mounting to the wall directly rather than sharing the TV's VESA holes.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Re-verified the actual current product pool", description: "Our original candidate ASINs were no longer accessible, so we confirmed real, currently listed products before ranking anything." },
   { title: "Behind-display mounting explicitly confirmed", description: "We prioritized mounts specifically described for behind-monitor or behind-display placement, the closest documented use case to behind-TV mounting." },
   { title: "Wall-mounting alternative noted", description: "We flagged where a bracket supports direct wall mounting, useful if a buyer doesn't want to share the TV's own VESA holes." },
-  { title: "Weight capacity and device compatibility", description: "We compared stated weight limits and device depth ranges against typical mini PC dimensions." },
+  { title: "Weight capacity and device compatibility", description: "We compared stated weight limits and device depth ranges against typical mini PC dimensions." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -230,13 +230,14 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "Will this share my TV's existing wall mount?", a: "Several picks here explicitly support behind-monitor/display VESA mounting, which would share the TV's mount holes, verify weight capacity before combining them." },
   { q: "Is there an option that mounts separately from the TV?", a: "Yes, the Monzlteck pick supports direct wall mounting as an alternative to sharing the TV's VESA holes." },
-  { q: "Which has the most reviews?", a: "The HumanCentric Thin Client Mount Bracket, with 702 reviews at 4.4 stars." },
+  
   { q: "What's the best option for tight clearance behind the TV?", a: "The compact VESA bracket from the Mini PC Thin Client listing, designed for tight wall/desk spaces." },
   { q: "Do I need to worry about my mini PC's weight?", a: "Yes, verify the bracket's stated weight capacity against your specific mini PC and check that your TV mount (if sharing VESA holes) can handle the added weight too." },
+  { q: "Should I worry about heat behind a wall-mounted TV?", a: "Leave an air gap and keep the mini PC's vents clear of the TV panel and the wall. A compact bracket helps in tight spots, but it should not press the case against a warm surface. The Monzlteck wall mount gives you the option of placing the PC beside the TV rather than directly behind it." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pc-desk-mounts", title: "Best Mini PC Desk Mounts (2026)" },
   { href: "/guide/best-mini-pc-mounts-behind-monitors", title: "Best Mini PC Mounts Behind Monitors (2026)" },
-  { href: "/guide/best-mini-pc-mounts", title: "Best Mini PC Mounts (2026)" },
+  { href: "/guide/best-mini-pc-mounts", title: "Best Mini PC Mounts (2026)" }
 ];

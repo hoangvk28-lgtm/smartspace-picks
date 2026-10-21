@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "ergonomic split keyboard";
 export const introParagraphs = [
   "A split ergonomic keyboard separates the keys into two independent halves that can be positioned shoulder-width apart, which reduces the inward shoulder rotation a standard keyboard forces on most typists. The category spans a wide difficulty range though, from a row-staggered board that still looks familiar to a fully column-staggered, programmable layout that requires relearning where every key sits.",
-  "Below are 8 split ergonomic keyboards we evaluated on layout type, tenting range, learning curve, and how each fits into a realistic buying path from entry-level to premium, ranging from a $49.99 entry-level split board to a $479 fully programmable Bluetooth split keyboard.",
+  "Below are 8 split ergonomic keyboards we evaluated on layout type, tenting range, learning curve, and how each fits into a realistic buying path from entry-level to premium, ranging from an under-$50 entry-level split board to a $479 fully programmable Bluetooth split keyboard."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "11 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Fixed domed shape with negative tilt",
       "Attached cushioned palm rest",
       "Bluetooth + USB receiver",
-      "Multi-device pairing",
+      "Multi-device pairing"
     ],
     pros: [
       "Row-staggered layout keeps the learning curve short",
       "Built-in negative tilt reduces wrist extension",
       "Attached palm rest needs no separate purchase",
-      "Reliable multi-device pairing",
+      "Reliable multi-device pairing"
     ],
     cons: [
       "Split angle is fixed, not adjustable",
       "Halves don't fully separate shoulder-width",
-      "No adjustable tenting beyond the built-in tilt",
+      "No adjustable tenting beyond the built-in tilt"
     ],
     bestFor: "Touch typists who want real split ergonomics with minimal relearning",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Contoured key wells",
       "Quiet mechanical switches",
       "Fully programmable, open-source firmware",
-      "Adjustable tenting, Bluetooth",
+      "Adjustable tenting, Bluetooth"
     ],
     pros: [
       "Most advanced ergonomic contouring in this list",
       "Fully programmable open-source firmware",
       "Adjustable tenting",
-      "Quiet mechanical switches",
+      "Quiet mechanical switches"
     ],
     cons: [
       "Most expensive pick in this list by a wide margin",
       "Column-staggered layout has the steepest learning curve",
-      "Programmable firmware requires a real time investment to configure",
+      "Programmable firmware requires a real time investment to configure"
     ],
     bestFor: "Buyers ready to commit to the deepest ergonomic and programmable split keyboard available",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Up to 9\" of halves separation",
       "Wired USB connectivity",
       "No software required",
-      "Compact, low-profile halves",
+      "Compact, low-profile halves"
     ],
     pros: [
       "True independent separation up to 9 inches",
       "Familiar row-staggered layout, easier relearning",
       "No battery or pairing setup",
-      "Reasonable entry price for true separation",
+      "Reasonable entry price for true separation"
     ],
     cons: [
       "Wired only",
       "No tenting adjustment",
-      "Basic build compared to premium picks",
+      "Basic build compared to premium picks"
     ],
     bestFor: "Buyers testing true split separation before committing to a premium contoured board",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Built-in cushioned palm rest",
       "Wireless, AAA battery powered",
       "Bluetooth or USB receiver",
-      "Compact footprint",
+      "Compact footprint"
     ],
     pros: [
       "Shortest adjustment period of any pick in this list",
       "Lowest price entry point",
       "Built-in cushioned rest",
-      "Reasonable first step before a true split",
+      "Reasonable first step before a true split"
     ],
     cons: [
       "Not a true split, halves are fixed together",
       "Far less forearm relief than the split picks in this list",
-      "No tenting adjustment",
+      "No tenting adjustment"
     ],
     bestFor: "Buyers who want to test ergonomic typing before committing to a true split keyboard",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Cushioned wrist rest",
       "Bluetooth and USB-C wireless",
       "USB-C rechargeable",
-      "Windows/Mac compatible",
+      "Windows/Mac compatible"
     ],
     pros: [
       "Lowest price for a true split keyboard in this list",
       "USB-C rechargeable, no disposable batteries",
       "Row-staggered layout, manageable relearning",
-      "Cushioned wrist rest included",
+      "Cushioned wrist rest included"
     ],
     cons: [
       "Hinged design limits separation vs. a cable-connected split",
       "Smaller brand with less established support",
-      "No adjustable tenting beyond the hinge",
+      "No adjustable tenting beyond the hinge"
     ],
     bestFor: "Budget buyers who want a genuine true split rather than just a wave keyboard",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Adjustable tenting angle",
       "Cushioned wrist and palm rest",
       "2.4GHz USB wireless",
-      "Windows desktop and laptop compatible",
+      "Windows desktop and laptop compatible"
     ],
     pros: [
       "Adjustable tenting angle at a mid-range price",
       "True split shape for real forearm relief",
       "Full-width cushioned rest included",
-      "Row-staggered layout, manageable relearning",
+      "Row-staggered layout, manageable relearning"
     ],
     cons: [
       "Windows-focused compatibility",
       "Bulkier than a fixed hinge design",
-      "Tenting hinge adds moving parts to maintain",
+      "Tenting hinge adds moving parts to maintain"
     ],
     bestFor: "Buyers who want adjustable tenting without paying for a fully contoured board",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "VIP3 tenting lifters included",
       "Wired USB-A connectivity",
       "Adjustable tenting angle via lifters",
-      "No software required",
+      "No software required"
     ],
     pros: [
       "Adjustable tenting via included VIP3 lifters",
       "Familiar row-staggered layout",
       "No battery or pairing setup",
-      "Meaningful upgrade over the base Freestyle2",
+      "Meaningful upgrade over the base Freestyle2"
     ],
     cons: [
       "Pricier than the base Freestyle2 without lifters",
       "Wired only",
-      "Lifters add setup steps versus a built-in tenting hinge",
+      "Lifters add setup steps versus a built-in tenting hinge"
     ],
     bestFor: "Buyers who want the Freestyle2's familiar layout with real tenting adjustment",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Hot-swappable linear mechanical switches",
       "RGB lighting, fully programmable",
       "Detachable palm support",
-      "Mac keycaps and lift kit included",
+      "Mac keycaps and lift kit included"
     ],
     pros: [
       "Mechanical switches with hot-swap support",
       "Lift kit included for tenting adjustment",
       "Fully programmable",
-      "Mac keycaps included for cross-platform use",
+      "Mac keycaps included for cross-platform use"
     ],
     cons: [
       "Pricier than the non-mechanical split picks",
       "RGB and gaming features add cost some buyers won't use",
-      "Row-staggered only, not column-staggered like the Advantage360",
+      "Row-staggered only, not column-staggered like the Advantage360"
     ],
     bestFor: "Buyers who want a mechanical typing feel alongside split ergonomics",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value across the entry-to-premium path",
     description: "Weighed price against separation, tenting, and build quality across the full range in this list, from the entry-level split to the fully programmable premium board.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -466,11 +466,11 @@ export const faq: FaqItem[] = [
   {
     q: "How much desk space do I need for a split keyboard?",
     a: "Placing two halves shoulder-width apart typically needs at least 80cm of desktop width plus room for the mouse to the side. Measure your desk before buying a fully separable board like the Freestyle2 or Advantage360, a hinged split like the Arteck or Nulea needs less width since the halves stay closer together.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-ergonomic-keyboards", title: "Best Ergonomic Keyboards (2026)" },
   { href: "/guide/best-ergonomic-keyboard-and-mouse-combos", title: "Best Ergonomic Keyboard and Mouse Combos (2026)" },
-  { href: "/guide/best-small-keyboards", title: "Best Small Keyboards for Small Desks (2026)" },
+  { href: "/guide/best-small-keyboards", title: "Best Small Keyboards for Small Desks (2026)" }
 ];

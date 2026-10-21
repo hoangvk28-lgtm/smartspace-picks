@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $189.50",
+          "Under $190",
           "TREBLEET 80Gbps eGPU Enclosure"
         ],
         [
-          "Around $239.90",
+          "Under $250",
           "MINISFORUM DEG2 USB4 V2 (TBT5 Compatible) & OCuLink eGPU Dock"
         ],
         [
-          "Around $591.93",
+          "Under $600",
           "Razer Core X V2"
         ],
         [
-          "Around $599.99",
+          "Under $600",
           "Sonnet Breakaway Box 850 T5 eGPU Enclosure"
         ],
         [
-          "Around $629.99",
+          "Under $650",
           "Plugable Thunderbolt 5 AI eGPU Enclosure & Dock"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "Thunderbolt and USB4 tunnel PCIe over a general-purpose port shared with other data, while OCuLink provides a more direct PCIe connection with typically lower overhead, but neither hot-plugs as easily and OCuLink support is far less common on laptops. Match the choice to what your specific host actually exposes."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Sonnet Breakaway Box 850 T5 eGPU Enclosure is aimed at buyers prioritizing 850w psu, triple-wide card support." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Sonnet Breakaway Box 850 T5 eGPU Enclosure is aimed at buyers prioritizing 850w psu, triple-wide card support." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-egpu-enclosures","title":"Best eGPU Enclosures in 2026"},{"href":"/guide/best-thunderbolt-3-egpu-enclosures","title":"Best Thunderbolt 3 eGPU Enclosures in 2026"},{"href":"/guide/best-thunderbolt-egpu-enclosures","title":"Best Thunderbolt eGPU Enclosures in 2026"}];

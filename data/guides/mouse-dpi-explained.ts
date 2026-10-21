@@ -12,7 +12,7 @@ export const mouseDpiExplainedGuide: Guide = {
     "what is mouse dpi",
     "best dpi for gaming",
     "best dpi for productivity work",
-    "high dpi vs low dpi mouse",
+    "high dpi vs low dpi mouse"
   ],
   heroImage: "https://images.unsplash.com/photo-1598662779094-110c2bad80b5?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1598662779094-110c2bad80b5?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const mouseDpiExplainedGuide: Guide = {
     "wired-vs-wireless-mouse",
     "mouse-grip-styles-explained",
     "mechanical-switch-types-explained",
-    "monitor-resolution-explained",
+    "monitor-resolution-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const mouseDpiExplainedGuide: Guide = {
       question: "Does higher screen resolution require higher DPI?",
       answer:
         "Somewhat, a higher resolution monitor has more pixels to traverse, so a slightly higher DPI can help maintain comfortable cursor speed across a large or high-resolution display, though operating system sensitivity settings can also compensate without changing the mouse's DPI.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const mouseDpiExplainedGuide: Guide = {
     {
       heading: "Finding Your Actual Comfortable Setting",
       body: `Rather than picking a DPI based on a mouse's marketed maximum, start around 800-1600 DPI (a comfortable middle ground for most tasks) and adjust up or down based on how it actually feels during real use, most gaming mice and many productivity mice include software to adjust and save DPI settings, letting you fine-tune based on personal preference rather than a manufacturer's suggested number.`,
-    },
+    }
   ],
 };

@@ -12,7 +12,7 @@ export const shelfWeightCapacityExplainedGuide: Guide = {
     "how much weight can a shelf hold",
     "floating shelf weight rating",
     "wall anchor strength for shelves",
-    "shelf bracket weight limit",
+    "shelf bracket weight limit"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const shelfWeightCapacityExplainedGuide: Guide = {
     "floating-shelf-vs-bookcase",
     "pegboard-desk-organization-explained",
     "monitor-arm-weight-capacity-chart",
-    "office-chair-weight-capacity-explained",
+    "office-chair-weight-capacity-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const shelfWeightCapacityExplainedGuide: Guide = {
       question: "Does weight distribution across a shelf matter, or just total weight?",
       answer:
         "Both matter, concentrating heavy items at one end of a shelf, particularly the end farthest from a wall mounting point, creates more leverage stress than the same total weight distributed evenly, spread heavier items across the shelf's width where possible.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const shelfWeightCapacityExplainedGuide: Guide = {
     {
       heading: "Why Staying Below Maximum Rated Capacity Is Good Practice",
       body: `Manufacturer weight ratings are typically determined under controlled, ideal conditions that may not perfectly match your specific installation, wall material, mounting precision, and item distribution. Building in a reasonable safety margin, loading a shelf to meaningfully less than its stated maximum rather than right up to that limit, accounts for these real-world variables and reduces the risk of an unexpected failure from a combination of factors the idealized rating didn't fully anticipate.`,
-    },
+    }
   ],
 };

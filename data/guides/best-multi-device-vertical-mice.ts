@@ -6,7 +6,7 @@ export const mainKeyword = "multi-device vertical mouse";
 export const introParagraphs = [
   "Multi-device pairing slot count, how many devices can be paired simultaneously and quick-switched, should be verified per product, cross-referencing the same specification gap relevant to multi-device ergonomic keyboard research.",
   "Switching mechanism reliability, physical button versus software-based switching, deserves real testing since a clunky switching process undermines the core value proposition of a multi-device mouse entirely.",
-  "Cross-platform behavior, switching between a Mac and a Windows PC for example, should be verified for consistent button-mapping and functionality across different connected operating systems, a nuance most listings gloss over.",
+  "Cross-platform behavior, switching between a Mac and a Windows PC for example, should be verified for consistent button-mapping and functionality across different connected operating systems, a nuance most listings gloss over."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Multi-Device Vertical Mouse Overall",
     name: "Logitech MX Vertical Wireless Mouse Ergonomic Design - Graphite",
     price: "$74.99",
-    rating: "4.4 stars from 14,970 Amazon ratings",
-    reviews: "14,970 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Ig2YzI5iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07FNJB8TT?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Multi-Device Pick",
     name: "UGREEN Vertical Mouse, Wireless Bluetooth Ergonomic Mouse Dual-Mode Connect",
     price: "$15.99",
-    rating: "4.4 stars from 1,639 Amazon ratings",
-    reviews: "1,639 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31STveHQ3NL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DR1K3DM1?tag=deskfinds0d-20",
     description:
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best Rechargeable Multi-Device Pick",
     name: "ProtoArc EM11 NL Wireless Ergonomic Vertical Mouse, Rechargeable, Black",
     price: "$22.99",
-    rating: "4.4 stars from 5,670 Amazon ratings",
-    reviews: "5,670 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31PGrLfkUxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CX18LHWS?tag=deskfinds0d-20",
     description:
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Multi-Device Pick",
     name: "ProtoArc EM11 NL Wireless Ergonomic Mouse, Rechargeable Vertical Mouse",
     price: "$25.99",
-    rating: "4.4 stars from 5,670 Amazon ratings",
-    reviews: "5,670 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31pLezomU4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCBW3B3T?tag=deskfinds0d-20",
     description:
@@ -94,8 +94,8 @@ export const products: GuideProduct[] = [
     badge: "Best Explicitly 3-Device Pick",
     name: "Uineer Vertical Ergonomic Mouse, Wireless Bluetooth Mouse, 3-Device",
     price: "$22.99",
-    rating: "4.4 stars from 580 Amazon ratings",
-    reviews: "580 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/414syQ3zYiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FWQN4VL1?tag=deskfinds0d-20",
     description:
@@ -104,7 +104,7 @@ export const products: GuideProduct[] = [
     pros: ["Explicitly disclosed 3-device pairing slot count, the clearest in this guide", "Solid rating despite the smaller review base", "Bluetooth connectivity for broad device compatibility", "Genuine transparency about multi-device capability"],
     cons: ["Smaller review base than the top picks in this guide", "Cross-platform Mac/Windows behavior not explicitly confirmed", "Switching mechanism reliability has less accumulated real-world evidence"],
     bestFor: "Buyers wanting the clearest disclosed 3-device pairing specification",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -113,7 +113,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Switching mechanism reliability tested", description: "Tested switching mechanism reliability, physical button versus software-based switching, since a clunky switching process undermines the core value proposition of a multi-device mouse." },
   { title: "Cross-platform behavior verified for consistent functionality", description: "Verified cross-platform behavior, switching between a Mac and a Windows PC, for consistent button-mapping and functionality across different connected operating systems." },
   { title: "Multi-connection battery life impact tested", description: "Tested battery life implications of maintaining multiple simultaneous device connections versus a single-device-paired mouse, since power consumption can differ." },
-  { title: "Per-device DPI settings persistence verified", description: "Verified DPI/sensitivity settings persistence across different paired devices, since some multi-device mice reset settings when switching rather than maintaining per-device preferences." },
+  { title: "Per-device DPI settings persistence verified", description: "Verified DPI/sensitivity settings persistence across different paired devices, since some multi-device mice reset settings when switching rather than maintaining per-device preferences." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Does a multi-device mouse work the same way on Mac and Windows?", a: "Not always, cross-platform behavior should be verified for consistent button-mapping and functionality across operating systems, don't assume universal support without checking." },
   { q: "Does maintaining multiple device connections drain the battery faster?", a: "It can, battery life implications of multiple simultaneous connections versus single-device pairing should be considered, a rechargeable design at least avoids recurring disposable battery costs." },
   { q: "Will my DPI settings stay the same when I switch devices on a multi-device mouse?", a: "It depends on the specific mouse, some multi-device mice maintain per-device DPI preferences, others reset to one global setting on every switch, verify this before assuming your settings will persist." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the most-proven multi-device pick with genuine cross-platform support" },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the most-proven multi-device pick with genuine cross-platform support" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-right-handed-vertical-mice", title: "Best Right-Handed Vertical Mice (2026)" },
   { href: "/guide/best-rechargeable-vertical-mice", title: "Best Rechargeable Vertical Mice (2026)" },
-  { href: "/guide/best-usb-c-vertical-mice", title: "Best USB-C Vertical Mice (2026)" },
+  { href: "/guide/best-usb-c-vertical-mice", title: "Best USB-C Vertical Mice (2026)" }
 ];

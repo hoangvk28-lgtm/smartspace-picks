@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook tablet";
 export const introParagraphs = [
   "\"Digital notebook tablet\" specifically points to standalone hardware with an e-ink or e-paper screen, the kind you write on directly with a stylus, as opposed to a Rocketbook-style paper notebook you scan with your phone or a smart pen set used with special paper. If you're picturing a device with a screen, this is the right category to compare.",
-  "Every pick below is genuine hardware with a display, files are stored and synced digitally rather than requiring any camera scanning step. We evaluated stated screen type, battery claims, and pen inclusion rather than claiming hands-on testing.",
+  "Every pick below is genuine hardware with a display, files are stored and synced digitally rather than requiring any camera scanning step. We evaluated stated screen type, battery claims, and pen inclusion rather than claiming hands-on testing."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed genuine screen-based hardware only", description: "Excluded reusable paper notebooks and smart pen sets from this guide, every pick here is a standalone device with an e-ink or e-paper display." },
   { title: "Screen type and resolution class noted per listing", description: "Distinguished black-and-white e-paper panels from color ePaper panels based only on what each specific listing states." },
   { title: "Pen inclusion and ecosystem noted", description: "Checked whether a stylus ships in the box and whether the device runs Android (broader app support) or a closed single-purpose interface." },
-  { title: "Price weighed against total cost of ownership", description: "Considered whether a cloud subscription is required for full feature access on premium models, rather than comparing sticker price alone." },
+  { title: "Price weighed against total cost of ownership", description: "Considered whether a cloud subscription is required for full feature access on premium models, rather than comparing sticker price alone." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -290,11 +290,11 @@ export const faq: FaqItem[] = [
   { q: "Is a digital notebook tablet the same as a Rocketbook?", a: "No, a digital notebook tablet is standalone hardware with a screen you write on directly, while a Rocketbook is a reusable paper notebook you scan with your phone." },
   { q: "Do digital notebook tablets need a subscription?", a: "Some premium models have historically required a subscription for full cloud sync features, verify current requirements on the specific product listing." },
   { q: "Are color e-ink tablets worth the extra cost?", a: "If you rely on color-coded notes or document markup, yes, otherwise a black-and-white model like the reMarkable 2 offers a lower entry price with the same core writing feel." },
-  { q: "Which digital notebook tablet has the best battery life?", a: "E-ink tablets generally last weeks per charge since the screen only draws power when it changes, verify the specific battery claim on each listing." },
+  { q: "Which digital notebook tablet has the best battery life?", a: "E-ink tablets generally last weeks per charge since the screen only draws power when it changes, verify the specific battery claim on each listing." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-e-ink-digital-notebooks", title: "Best E-Ink Digital Notebooks (2026)" },
   { href: "/guide/best-color-digital-notebooks", title: "Best Color Digital Notebooks (2026)" },
-  { href: "/guide/best-digital-notebooks-with-pens", title: "Best Digital Notebooks with Pens (2026)" },
+  { href: "/guide/best-digital-notebooks-with-pens", title: "Best Digital Notebooks with Pens (2026)" }
 ];

@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0FBVHYFYK?tag=deskfinds0d-20",
     description: "This extender's listing specifically states industrial-grade waterproof shell protection suitable for outdoor use as well as complex indoor environments like warehouses and garages, at the lowest price in this comparison. Its 3-level cascading support extends coverage to 250 meters at a reduced 10Mbps speed when needed.\n\nCompared to the 90W PoE++ pick above, this one's more modest 30W max input with 24W max output per port covers standard PoE devices like IP cameras and access points without the premium price of high-wattage support most installations don't actually need.\n\nBest for buyers who want a genuinely low-cost outdoor 4-port extender for standard-wattage devices.",
     specs: ["1 in 3 out, 30W max input, 24W max output per port", "Industrial-grade waterproof shell", "3-level cascading, extend to 250m at reduced speed"],
-    pros: ["Lowest price in this comparison at $15.86", "Industrial-grade waterproofing suits both outdoor and harsh indoor use", "3-level cascading extends coverage at low cost"],
+    pros: ["Lowest price in this comparison at under $20", "Industrial-grade waterproofing suits both outdoor and harsh indoor use", "3-level cascading extends coverage at low cost"],
     cons: ["10/100Mbps speed only, not Gigabit", "No specific IP rating number disclosed, unlike the IP66/IP67 picks"],
     bestFor: "buyers who want a genuinely low-cost outdoor 4-port extender for standard-wattage devices",
   },
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["To power high-wattage devices like heated PTZ cameras", "Outdoor PoE Extender, 4-Port, 90W PoE++"],
         ["The lowest price for standard-wattage devices", "YuLinca Outdoor 4 Port PoE Extender"],
         ["Extended distance to one device while powering others normally", "YuanLey 4 Port Outdoor PoE Extender (250m)"],
-        ["Stable HD video for a multi-camera CCTV system", "4 Port Outdoor PoE Extender with VLAN Function"],
+        ["Stable HD video for a multi-camera CCTV system", "4 Port Outdoor PoE Extender with VLAN Function"]
       ],
     },
   },
@@ -109,9 +109,9 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $16", "YuLinca ($15.86) or VLAN Function pick ($15.99)"],
-        ["Under $22", "YuanLey 4 Port Outdoor (250m) ($21.99)"],
-        ["Under $150", "Outdoor PoE Extender 90W PoE++ ($149.00)"],
+        ["Under $16", "YuLinca (under $20) or VLAN Function pick (under $20)"],
+        ["Under $22", "YuanLey 4 Port Outdoor (250m) (under $25)"],
+        ["Under $150", "Outdoor PoE Extender 90W PoE++ (under $150)"]
       ],
     },
   },
@@ -119,7 +119,7 @@ export const howToChoose = [
     subheading: "High-Power PoE++ vs Standard-Wattage Value",
     cards: [
       { label: "High-power PoE++ (90W pick)", text: "Delivers up to 90W per port for genuinely demanding devices, at a price point roughly 7 to 9 times higher than the budget alternatives in this comparison." },
-      { label: "Standard-wattage value (YuLinca, YuanLey, VLAN pick)", text: "All three cover typical IP cameras and access points at 24-30W per port for a fraction of the premium pick's price." },
+      { label: "Standard-wattage value (YuLinca, YuanLey, VLAN pick)", text: "All three cover typical IP cameras and access points at 24-30W per port for a fraction of the premium pick's price." }
     ],
     note: "Check your actual connected devices' wattage requirements before paying for PoE++ support most standard cameras and access points don't need. If none of your devices exceed roughly 25-30W, the budget picks deliver the same practical outcome for far less.",
   },
@@ -130,7 +130,7 @@ export const howToChoose = [
       rows: [
         ["Standard 100m (328ft) for all four ports", "YuLinca, VLAN Function pick, or 90W PoE++ pick"],
         ["One port extended to 250m at reduced speed", "YuanLey 4 Port Outdoor PoE Extender (250m)"],
-        ["Cascading multiple units for greater total distance", "YuLinca (3-level) or VLAN Function pick (3-level)"],
+        ["Cascading multiple units for greater total distance", "YuLinca (3-level) or VLAN Function pick (3-level)"]
       ],
     },
   },
@@ -138,16 +138,16 @@ export const howToChoose = [
     subheading: "For a Multi-Camera Perimeter Security Installation Specifically",
     cards: [
       { label: "Look for", text: "VLAN isolation to prevent one malfunctioning camera's broadcast traffic from disrupting the other connected cameras, plus a genuine outdoor IP rating for weather exposure." },
-      { label: "In this comparison", text: "The 4 Port Outdoor PoE Extender with VLAN Function is specifically marketed around stable HD video surveillance playback with broadcast storm isolation." },
+      { label: "In this comparison", text: "The 4 Port Outdoor PoE Extender with VLAN Function is specifically marketed around stable HD video surveillance playback with broadcast storm isolation." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You're powering at least one high-wattage device like a heated PTZ camera, where the 90W PoE++ pick's $149.00 price is justified by power delivery the budget picks simply can't provide." },
-      { label: "Save if", text: "Your devices are standard IP cameras or access points under 30W, where the YuLinca pick delivers that for $15.86, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You're powering at least one high-wattage device like a heated PTZ camera, where the 90W PoE++ pick's under $150 price is justified by power delivery the budget picks simply can't provide." },
+      { label: "Save if", text: "Your devices are standard IP cameras or access points under 30W, where the YuLinca pick delivers that for under $20, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

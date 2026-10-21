@@ -5,7 +5,7 @@ export const metaDescription = "5 portable SSDs we evaluated for iPad, with the 
 export const mainKeyword = "portable SSD for iPad";
 export const introParagraphs = [
   "USB-C iPad models vary in whether they support full external drive read/write or read-only access within certain apps, worth verifying actual read/write capability per iPad model and OS version rather than assuming universal full access.",
-  "Power draw from a bus-powered SSD affects an iPad's own battery more noticeably than a laptop given the iPad's smaller battery capacity, a real battery-impact consideration worth testing rather than assuming negligible drain.",
+  "Power draw from a bus-powered SSD affects an iPad's own battery more noticeably than a laptop given the iPad's smaller battery capacity, a real battery-impact consideration worth testing rather than assuming negligible drain."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Portable SSD for iPad Overall",
     name: "Transcend ESD310 1TB External SSD, Up to 1,050MB/s, Dual USB Drive for iPhone/iPad/Mac/Pixel/Tesla/Steam Deck/ROG Ally/MSI Claw/Android/PS5, 2-in-1 Type C & A, USB 3.2 Gen2 Portable SSD",
     price: "$239.99",
-    rating: "4.6 stars from 2,340 Amazon ratings",
-    reviews: "2,340 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31HBU-HAxoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C3B32H9M?tag=deskfinds0d-20",
     description: "Explicitly marketed for iPad compatibility with a dual USB Type-C and Type-A connector, a solid review base backing this as a proven pick specifically for Apple's iPadOS Files app ecosystem.\n\nIt earns the top spot in this comparison over Samsung T7 Portable SSD 1TB Titan Gray for one main reason. Explicitly marketed and tested for iPad compatibility. On price, it's actually priced above Samsung T7 Portable SSD 1TB Titan Gray, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Dual connector design suits various iPad generations. On the other side, Power draw impact on iPad battery not independently benchmarked here. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Established Brand iPad Pick",
     name: "Samsung T7 Portable SSD 1TB Titan Gray, USB 3.2 Gen 2, Up to 1,050MB/s",
     price: "$219.98",
-    rating: "4.7 stars from 21,124 Amazon ratings",
-    reviews: "21,124 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LdvAbumfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874XN4D8?tag=deskfinds0d-20",
     description: "A large, well-established review base from an established SSD brand, genuinely broad USB-C compatibility across many iPad generations and other devices.\n\nOne spot below Transcend ESD310 1TB External SSD in this ranking, it's priced lower than Transcend ESD310 1TB External SSD. The compromise here is straightforward: Not explicitly marketed for iPad specifically like the top pick. What you gain in return: Large, well-established review base. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Established Samsung SSD brand reliability. On the other side, Power draw impact on iPad battery not independently benchmarked. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget iPad Pick",
     name: "SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s",
     price: "$143.99",
-    rating: "4.5 stars from 3,542 Amazon ratings",
-    reviews: "3,542 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31PngdJb7FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGL4SHY8?tag=deskfinds0d-20",
     description: "The most affordable pick in this guide with a solid review base, appropriate for an iPad user wanting basic file storage and Files app access rather than demanding direct video editing workflows.\n\nSitting just under Samsung T7 Portable SSD 1TB Titan Gray, it's priced lower than Samsung T7 Portable SSD 1TB Titan Gray. Here's the honest tradeoff: Smaller review base than the top established picks. And here's what it gets you instead: Most affordable pick in this guide. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Solid review base for the price point. On the other side, Not explicitly tested for direct video-editing workflows. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Rugged iPad Pick",
     name: "SANDISK 2TB Extreme Portable SSD (Old Model) - Up to 1050MB/s, USB-C, USB 3.2 Gen 2, IP65 Water and Dust Resistance, Updated Firmware",
     price: "$308.99",
-    rating: "4.6 stars from 91,365 Amazon ratings",
-    reviews: "91,365 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41eTFK7clfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HN37XC1?tag=deskfinds0d-20",
     description: "The single largest review base of any pick in this guide by a wide margin, IP65 dust and water resistance genuinely useful for an iPad user working on location or outdoors.\n\nRanked just behind SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s, it costs more than SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s. The real tradeoff against that pick: Higher price than the budget picks in this guide. In exchange, it offers this instead: Massive review base, the most-proven iPad-compatible drive available. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: IP65 rating suits location work and outdoor use. On the other side, Power draw impact on iPad battery not independently benchmarked. That's the main tradeoff to weigh against everything above.",
@@ -89,8 +89,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value iPad Pick",
     name: "SANDISK 1TB Portable SSD - Up to 800MB/s, USB-C, USB 3.2 Gen 2, Updated Firmware - External Solid State Drive",
     price: "$164.99",
-    rating: "4.5 stars from 10,968 Amazon ratings",
-    reviews: "10,968 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41-T4nAAufL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5JQ68FY?tag=deskfinds0d-20",
     description: "A large review base at a genuinely more accessible price than the Extreme line, appropriate for an iPad user with typical file storage and moderate transfer needs.\n\nOne spot below SANDISK 2TB Extreme Portable SSD in this ranking, it's priced lower than SANDISK 2TB Extreme Portable SSD. The compromise here is straightforward: Lower rated speed than the Extreme line. What you gain in return: Large, well-established review base. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Genuinely more accessible price than the Extreme line. On the other side, Verify read/write vs. read-only access for your specific iPadOS version. That's the main tradeoff to weigh against everything above.",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "iPadOS Files app external-drive support verified", description: "Verified current iPadOS version's actual external SSD support capability and limitations, since iPadOS file management has historically had more limited external drive support than macOS." },
   { title: "Read/write vs. read-only access checked per model", description: "Verified actual read/write capability per iPad model and OS version, since USB-C iPad models vary in whether they support full external drive access or read-only access within certain apps." },
   { title: "iPad battery-impact from bus-powered draw tested", description: "Tested the real battery-impact scenario, since power draw from a bus-powered SSD affects an iPad's own battery more noticeably than a laptop given the iPad's smaller battery capacity." },
-  { title: "Video-editing-app external-drive compatibility verified", description: "Verified iPad video-editing-app external-drive-project compatibility, since not all iPad video apps support external drive project files equally well." },
+  { title: "Video-editing-app external-drive compatibility verified", description: "Verified iPad video-editing-app external-drive-project compatibility, since not all iPad video apps support external drive project files equally well." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -249,11 +249,11 @@ export const faq: FaqItem[] = [
   { q: "Can I edit video directly from an external SSD on my iPad?", a: "It depends on the app. Not all iPad video apps support external drive project files equally well, verify your specific app's documentation like LumaFusion or Final Cut for iPad before planning that workflow." },
   { q: "Does my iPad's chip generation affect external SSD performance?", a: "Yes. An iPad's underlying chip generation affects real-world file transfer and multitasking performance with an external drive connected, not just the drive's own rated speed." },
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers wanting a drive explicitly marketed and tested for iPad compatibility" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious iPad users wanting basic Files app storage At $143.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious iPad users wanting basic Files app storage At under $150, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-ssds-for-steam-deck", title: "Best Portable SSDs for Steam Deck (2026)" },
   { href: "/guide/best-usb4-portable-ssds", title: "Best USB4 Portable SSDs (2026)" },
-  { href: "/guide/best-portable-ssds-for-backups", title: "Best Portable SSDs for Backups (2026)" },
+  { href: "/guide/best-portable-ssds-for-backups", title: "Best Portable SSDs for Backups (2026)" }
 ];

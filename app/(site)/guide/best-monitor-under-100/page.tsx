@@ -197,7 +197,7 @@ export default async function BestMonitorUnder100Page() {
     about: [
       { "@type": "Thing", name: "Budget Monitor" },
       { "@type": "Thing", name: "Monitor Under $100" },
-      { "@type": "Thing", name: "IPS Monitor" },
+      { "@type": "Thing", name: "IPS Monitor" }
     ],
   };
 
@@ -217,7 +217,7 @@ export default async function BestMonitorUnder100Page() {
         position: 3,
         name: "Best Monitors Under $100",
         item: `${SITE_URL}/guide/best-monitor-under-100`,
-      },
+      }
     ],
   };
 
@@ -519,7 +519,7 @@ export default async function BestMonitorUnder100Page() {
                       feature: "Best for",
                       ips: "Studying, productivity, gaming",
                       va: "Movies, dark scenes, immersive gaming",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr
                       key={i}
@@ -580,7 +580,7 @@ export default async function BestMonitorUnder100Page() {
                       width: "~54 cm",
                       depth: "~60 cm recommended",
                       best: "Standard dorm and home office desks",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr
                       key={i}
@@ -675,7 +675,7 @@ export default async function BestMonitorUnder100Page() {
               {
                 label: "Meaningful HDR brightness",
                 note: "HDR10 support on the KTC H24T27 is present but limited to 300 nits. True HDR performance requires 600+ nits.",
-              },
+              }
             ].map((item, i) => (
               <div
                 key={i}
@@ -796,7 +796,7 @@ No speakers elsewhere on desk?
                 id: "lg-24mr400-b",
                 name: "LG 24MR400-B",
                 verdict:
-                  ": LG's proven IPS panel with 99% sRGB, 100Hz FreeSync, and OnScreen Control software at $85 to $100.",
+                  ": LG's proven IPS panel with 99% sRGB, 100Hz FreeSync, and OnScreen Control software at under $90 to $100.",
               },
               {
                 context: "Best for movies",
@@ -818,7 +818,7 @@ No speakers elsewhere on desk?
                 name: "KTC H24T27",
                 verdict:
                   ": 2560x1440 at 24 inches for under $100 when the price is right. Verify before buying.",
-              },
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

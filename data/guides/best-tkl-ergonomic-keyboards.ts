@@ -6,7 +6,7 @@ export const mainKeyword = "TKL ergonomic keyboard";
 export const introParagraphs = [
   "Tenkeyless, TKL, meaning no number pad, is a form factor distinct from a vaguer 'compact' descriptor, worth clarifying whether TKL ergonomic keyboards retain the navigation cluster, arrow keys, Home and End, that some more aggressively compact designs remove entirely.",
   "TKL ergonomic keyboards' split and tenting adjustability should be verified independently, since removing the number pad doesn't necessarily mean the remaining keyboard also includes genuine split or tenting ergonomic features.",
-  "Buyers who rely on numeric entry, accounting or data entry work, should be warned this form factor removes that functionality entirely, unlike some compact designs with Fn-layer numpad emulation, a real use-case mismatch worth flagging clearly upfront.",
+  "Buyers who rely on numeric entry, accounting or data entry work, should be warned this form factor removes that functionality entirely, unlike some compact designs with Fn-layer numpad emulation, a real use-case mismatch worth flagging clearly upfront."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best TKL Ergonomic Keyboard Overall",
     name: "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest",
     price: "$129.99",
-    rating: "4.5 stars from 7,992 Amazon ratings",
-    reviews: "7,992 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41EsewSK2nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZWK2TQT?tag=deskfinds0d-20",
     description: "A very large review base and the highest rating in this guide, this genuinely tenkeyless design retains its full navigation cluster, arrow keys and Home/End, a real functional distinction from more aggressively compact designs that remove navigation keys alongside the number pad.\n\nIt earns the top spot in this comparison over Perixx PERIBOARD-512B Wired Ergonomic Keyboard for one main reason. Very large, well-established review base. On price, it's actually priced above Perixx PERIBOARD-512B Wired Ergonomic Keyboard, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Retains full navigation cluster, not an aggressively stripped-down design. On the other side, Larger footprint than the most compact TKL alternatives due to the split design. That's the main tradeoff to weigh against everything above.",
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value TKL Ergonomic Pick",
     name: "Perixx PERIBOARD-512B Wired Ergonomic Keyboard - Split Keyboard, Wrist Rest, Natural Typing - Wired USB Connectivity - US English - Black",
     price: "$44.99",
-    rating: "4.4 stars from 9,553 Amazon ratings",
-    reviews: "9,553 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41MgdS5CMFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075GZVD4T?tag=deskfinds0d-20",
     description: "A very large review base at a fraction of the premium pick's price, this wired split ergonomic design retains a genuine navigation cluster within its tenkeyless footprint, giving buyers the core TKL and split benefits without the premium price tag.\n\nOne spot below Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest in this ranking, it's priced lower than Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest. The compromise here is straightforward: No numeric entry at all, unsuitable for heavy data entry work. What you gain in return: Very large, well-established review base at a budget-friendly price. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Retains navigation cluster within the TKL footprint. On the other side, Not as premium a build as the top pick's ecosystem support. That's the main tradeoff to weigh against everything above.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best Gaming-Focused TKL Pick",
     name: "SteelSeries Apex 3 TKL RGB Gaming Keyboard, Tenkeyless Compact Form Factor - 8-Zone RGB Illumination, IP32 Water & Dust Resistant, Whisper Quiet Gaming Switch, Gaming Grade Anti-Ghosting, Black",
     price: "$49.97",
-    rating: "4.6 stars from 2,585 Amazon ratings",
-    reviews: "2,585 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41tJtjMmKCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FTNMT84?tag=deskfinds0d-20",
     description: "The highest average rating in this guide, explicitly marketed as a TKL compact form factor for gaming, verify this retains a functional navigation cluster since gaming-focused TKL designs sometimes prioritize compactness in ways that compress or remove dedicated navigation keys.\n\nSitting just under Perixx PERIBOARD-512B Wired Ergonomic Keyboard, it costs more than Perixx PERIBOARD-512B Wired Ergonomic Keyboard. Here's the honest tradeoff: No split or tenting ergonomic features, this is TKL-compact rather than ergonomically split. And here's what it gets you instead: Highest average rating of any pick in this guide. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Explicitly gaming-grade anti-ghosting and whisper-quiet switches. On the other side, No numeric entry at all. That's the main tradeoff to weigh against everything above.",
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     badge: "Best Mechanical Gaming TKL Pick",
     name: "Logitech G413 TKL SE Mechanical Gaming Keyboard - Black",
     price: "$69.99",
-    rating: "4.6 stars from 1,047 Amazon ratings",
-    reviews: "1,047 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31hUfgJWI9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08Z7J4KV3?tag=deskfinds0d-20",
     description: "A genuinely mechanical TKL design tied with the top rating in this guide, appropriate for a buyer wanting real mechanical switch feedback in a tenkeyless footprint without the compromise of a membrane-based compact keyboard.\n\nRanked just behind SteelSeries Apex 3 TKL RGB Gaming Keyboard, Tenkeyless Compact Form Factor, it costs more than SteelSeries Apex 3 TKL RGB Gaming Keyboard, Tenkeyless Compact Form Factor. The real tradeoff against that pick: No split or tenting ergonomic features. In exchange, it offers this instead: Highest average rating of any pick in this guide, tied with the SteelSeries option. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Genuine mechanical switch feedback in a compact TKL footprint. On the other side, Gaming-oriented styling may not suit every office aesthetic. That's the main tradeoff to weigh against everything above.",
@@ -90,8 +90,8 @@ export const products: GuideProduct[] = [
     badge: "Best Simple Budget TKL Pick",
     name: "Cherry Stream Wired Keyboard Without Number Pad, Compact TKL",
     price: "$19.99",
-    rating: "4.3 stars from 677 Amazon ratings",
-    reviews: "677 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31JeP36QFCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09N9CPX34?tag=deskfinds0d-20",
     description: "The lowest price in this guide from an established keyboard brand, explicitly marketed as 'without number pad, compact TKL,' a straightforward, honestly labeled option for a buyer wanting the simplest, most affordable TKL entry point.\n\nOne spot below Logitech G413 TKL SE Mechanical Gaming Keyboard in this ranking, it's priced lower than Logitech G413 TKL SE Mechanical Gaming Keyboard. The compromise here is straightforward: Membrane rather than mechanical switches. What you gain in return: Lowest price in this guide. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Explicitly and honestly labeled TKL without number pad. On the other side, No numeric entry at all, unsuitable for heavy data entry work. That's the main tradeoff to weigh against everything above.",
@@ -108,7 +108,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Cross-referenced with general compact ergonomic keyboard research where overlap exists", description: "Cross-referenced broader compact ergonomic keyboard research where overlap exists, while noting TKL specifically as a defined, standardized form factor rather than an ambiguous 'compact' descriptor." },
   { title: "Split/tenting adjustability verified independently of number-pad removal", description: "Verified TKL ergonomic keyboards' split/tenting adjustability independently, since removing the number pad doesn't necessarily mean the remaining keyboard also includes genuine split/tenting ergonomic features." },
   { title: "Desk space savings quantified with concrete figures", description: "Quantified desk space savings from TKL specifically, giving buyers concrete depth/width reduction figures rather than a vague 'saves space' claim." },
-  { title: "Numeric-entry-loss warning flagged explicitly for the right audience", description: "Explicitly warned that buyers who rely on numeric entry, accounting or data entry, lose that functionality entirely with this form factor, distinguishing from Fn-layer numpad emulation designs." },
+  { title: "Numeric-entry-loss warning flagged explicitly for the right audience", description: "Explicitly warned that buyers who rely on numeric entry, accounting or data entry, lose that functionality entirely with this form factor, distinguishing from Fn-layer numpad emulation designs." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -229,11 +229,11 @@ export const faq: FaqItem[] = [
   { q: "How much desk space does a TKL keyboard actually save?", a: "Typically several inches of width compared to a full-size keyboard, a concrete and meaningful savings for a smaller desk, though it shouldn't be your only reason for choosing this form factor." },
   { q: "Can I still type numbers on a TKL keyboard?", a: "You'll use the number row above the letter keys, but the dedicated number pad is gone entirely, unlike some compact designs with Fn-layer numpad emulation that let you type numbers through a key combination." },
   { q: "Is a TKL keyboard a good choice for accounting or data entry work?", a: "Generally not ideal, this form factor removes dedicated numeric entry functionality entirely, a full-size keyboard or a compact design with Fn-layer numpad emulation will likely serve that specific workflow better." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting genuine split/tenting ergonomics alongside TKL space savings with full navigation retained" },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting genuine split/tenting ergonomics alongside TKL space savings with full navigation retained" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-low-profile-ergonomic-keyboards", title: "Best Low-Profile Ergonomic Keyboards (2026)" },
   { href: "/guide/best-tenkeyless-split-keyboards", title: "Best Tenkeyless Split Keyboards (2026)" },
-  { href: "/guide/best-ergonomic-keyboards-for-typing", title: "Best Ergonomic Keyboards for Typing (2026)" },
+  { href: "/guide/best-ergonomic-keyboards-for-typing", title: "Best Ergonomic Keyboards for Typing (2026)" }
 ];

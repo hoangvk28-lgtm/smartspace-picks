@@ -12,7 +12,7 @@ export const taskLightingVsAmbientLightingGuide: Guide = {
     "desk lamp vs room lighting",
     "layering light for office",
     "task light versus overhead light",
-    "best lighting setup for desk work",
+    "best lighting setup for desk work"
   ],
   heroImage: "https://images.unsplash.com/photo-1560890264-4b92305ee66e?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1560890264-4b92305ee66e?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const taskLightingVsAmbientLightingGuide: Guide = {
     "desk-lamp-lumens-guide",
     "desk-lamp-kelvin-color-temperature",
     "monitor-brightness-and-eye-strain",
-    "screen-glare-reduction-explained",
+    "screen-glare-reduction-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const taskLightingVsAmbientLightingGuide: Guide = {
       question: "Does natural light count as ambient lighting?",
       answer:
         "Yes, daylight through a window is a form of ambient lighting, though it changes throughout the day, supplementing with artificial ambient lighting for evening hours or overcast days keeps the room's overall brightness more consistent alongside your task lighting.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const taskLightingVsAmbientLightingGuide: Guide = {
     {
       heading: "Layering Both for a Genuinely Comfortable Workspace",
       body: `The most comfortable desk lighting setups treat task and ambient lighting as complementary layers rather than either-or choices, ambient lighting establishes a comfortable overall room brightness, while task lighting adds focused illumination specifically where detailed work, reading, or writing happens. Adjusting each independently, dimming ambient lighting in the evening while keeping task lighting consistent, for example, gives more control over comfort throughout different times of day than a single light source ever could.`,
-    },
+    }
   ],
 };

@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/3172xcdFNxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07XWL296H?tag=deskfinds0d-20",
-    description: "This 16U case splits the difference between a fully open frame and an enclosed cabinet, with optional side panels you can install only if you don't need the extra airflow of an open design.\n\nIt's aimed squarely at studio and DJ setups as much as server gear, with removable 3-inch casters that add weight capacity flexibility once removed.\n\nWhere this one earns its spot is side panels are optional, letting you choose open or closed, and removing casters bumps capacity for heavier gear. Worth noting before buying: side panels don't bear weight if you rely on them, which matters more at $194.99 than it would on a cheaper pick.",
+    description: "This 16U case splits the difference between a fully open frame and an enclosed cabinet, with optional side panels you can install only if you don't need the extra airflow of an open design.\n\nIt's aimed squarely at studio and DJ setups as much as server gear, with removable 3-inch casters that add weight capacity flexibility once removed.\n\nWhere this one earns its spot is side panels are optional, letting you choose open or closed, and removing casters bumps capacity for heavier gear. Worth noting before buying: side panels don't bear weight if you rely on them, which matters more at under $200 than it would on a cheaper pick.",
     specs: ["16U, 18\" depth, 34.5\" assembled height","550 lb static / 440 lb rolling","Optional non-weight-bearing side panels"],
     pros: ["Side panels are optional, letting you choose open or closed","Removing casters bumps capacity for heavier gear","Works well for AV and studio rack duty, not just servers"],
     cons: ["Side panels don't bear weight if you rely on them","Assembly required before it's ready to load"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41NIp+MF1bL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CY2113VD?tag=deskfinds0d-20",
-    description: "Tecmojo's 16U open frame rack ships with two vented 1U shelves included, the same generous accessory approach found across their smaller 12U model.\n\nCapacity again splits between 130 lbs wall-mounted and 260 lbs ground-mounted, so the same planning consideration applies here as with their other dual-mount racks.\n\nWhat stands out here is two vented shelves included rather than sold separately, plus anti-slip shelf stops keep gear from shifting. The main tradeoff: wall-mount rating is half the floor-standing capacity, so weigh that against the $139.90 price before buying.",
+    description: "Tecmojo's 16U open frame rack ships with two vented 1U shelves included, the same generous accessory approach found across their smaller 12U model.\n\nCapacity again splits between 130 lbs wall-mounted and 260 lbs ground-mounted, so the same planning consideration applies here as with their other dual-mount racks.\n\nWhat stands out here is two vented shelves included rather than sold separately, plus anti-slip shelf stops keep gear from shifting. The main tradeoff: wall-mount rating is half the floor-standing capacity, so weigh that against the under $140 price before buying.",
     specs: ["16U, cold rolled steel","260 lb floor / 130 lb wall capacity","2 vented shelves, mounting hardware included"],
     pros: ["Two vented shelves included rather than sold separately","Anti-slip shelf stops keep gear from shifting","Stackable design supports future expansion"],
     cons: ["Wall-mount rating is half the floor-standing capacity","Open frame leaves cables and gear exposed"],
@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $117.08",
+          "Under $120",
           "VEVOR 16U AV Rack"
         ],
         [
-          "Around $139.90",
+          "Under $140",
           "TECMOJO 16U Open Frame Network Rack"
         ],
         [
-          "Around $194.99",
+          "Under $200",
           "AxcessAbles 16U AV Case with Wheels"
         ],
         [
-          "Around $220.99",
+          "Under $250",
           "OCEANHUG 16U Server Rack Cabinet with Drawer"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "AxcessAbles 16U AV Case with Wheels is aimed at buyers prioritizing 16u, 18\" depth, 34.5\" assembled height." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "AxcessAbles 16U AV Case with Wheels is aimed at buyers prioritizing 16u, 18\" depth, 34.5\" assembled height." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-42u-server-racks","title":"Best 42U Server Racks in 2026"},{"href":"/guide/best-2u-server-racks","title":"Best 2U Server Racks in 2026"},{"href":"/guide/best-1u-server-racks","title":"Best 1U Server Racks in 2026"}];

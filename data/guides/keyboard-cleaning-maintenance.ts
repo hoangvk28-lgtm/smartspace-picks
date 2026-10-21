@@ -12,7 +12,7 @@ export const keyboardCleaningMaintenanceGuide: Guide = {
     "how to clean a mechanical keyboard",
     "keyboard crumbs under keys",
     "how to clean keycaps",
-    "keyboard maintenance tips",
+    "keyboard maintenance tips"
   ],
   heroImage: "https://images.unsplash.com/photo-1598662779094-110c2bad80b5?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1598662779094-110c2bad80b5?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const keyboardCleaningMaintenanceGuide: Guide = {
     "mechanical-switch-types-explained",
     "wrist-rest-explained",
     "keyboard-size-chart",
-    "mouse-pad-size-guide",
+    "mouse-pad-size-guide"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const keyboardCleaningMaintenanceGuide: Guide = {
       question: "Should I wash removed keycaps in water?",
       answer:
         "Yes, removed keycaps can typically be washed with mild soap and water, then thoroughly dried before reattaching, this is often the most effective way to remove built-up oils and grime that accumulate on keycap surfaces over time.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const keyboardCleaningMaintenanceGuide: Guide = {
     {
       heading: "Why Debris Buildup Is More Common Than People Realize",
       body: `Even careful users accumulate dust, skin cells, and crumbs (from eating near the desk) between and under keys over time, this buildup can eventually cause sticky or unresponsive keys, not from a hardware fault but from actual physical obstruction. A periodic thorough cleaning, especially for anyone who eats at their desk regularly, prevents this gradual buildup from becoming a functional problem rather than just a cosmetic one.`,
-    },
+    }
   ],
 };

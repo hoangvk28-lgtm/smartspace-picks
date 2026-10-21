@@ -49,11 +49,11 @@ export const trays: CableTray[] = [
     whyItWorks: [
       "No-drill installation across both trays in the pack -- fully reversible for renters",
       "Medium sizing splits the difference between the slim adhesive drawer and the deeper VIVO trays",
-      "Two trays let you separate power cables from data cables on the same desk",
+      "Two trays let you separate power cables from data cables on the same desk"
     ],
     tradeoffs: [
       "Based on specs, adhesive-only mounts carry the same long-term hold risk as other adhesive picks in this guide",
-      "Medium depth will not fully swallow large power bricks the way the VIVO Extra Deep does",
+      "Medium depth will not fully swallow large power bricks the way the VIVO Extra Deep does"
     ],
   },
   {
@@ -73,11 +73,11 @@ export const trays: CableTray[] = [
     whyItWorks: [
       "45 pieces of sticky-back Velcro ties plus 2 rolls of extension straps cover multiple cable runs at the lowest price in this guide",
       "Works alongside any tray in this guide to bundle cables before they enter it, reducing tangling",
-      "No drilling, fully reversible, and cheap enough to use across an entire desk setup",
+      "No drilling, fully reversible, and cheap enough to use across an entire desk setup"
     ],
     tradeoffs: [
       "This is a bundling kit, not a tray -- it does not conceal cables from view the way an enclosed tray does",
-      "Best paired with one of the trays above rather than used as a standalone cable-management solution",
+      "Best paired with one of the trays above rather than used as a standalone cable-management solution"
     ],
   },
   {
@@ -97,11 +97,11 @@ export const trays: CableTray[] = [
     whyItWorks: [
       "Clamp mounting avoids both adhesive failure and drilling, at a lower price than the Scandinavian Hub clamp tray above",
       "Black finish blends with dark desks and PC setups",
-      "Solid tray bottom keeps cables out of view from below",
+      "Solid tray bottom keeps cables out of view from below"
     ],
     tradeoffs: [
       "Based on specs, this is a smaller-capacity clamp tray than the Scandinavian Hub -- check desk edge thickness compatibility before buying",
-      "Lower cable capacity than the mid-range and premium trays in this guide",
+      "Lower cable capacity than the mid-range and premium trays in this guide"
     ],
   },
   {
@@ -121,11 +121,11 @@ export const trays: CableTray[] = [
     whyItWorks: [
       "Two trays cover most desks at the cheapest entry point",
       "Open mesh design routes cables easily and ventilates power supplies",
-      "Works with adhesive (reversible) or screws (permanent)",
+      "Works with adhesive (reversible) or screws (permanent)"
     ],
     tradeoffs: [
       "Cables partially visible through mesh from below",
-      "Adhesive can fail on textured surfaces after 6–12 months",
+      "Adhesive can fail on textured surfaces after 6–12 months"
     ],
   },
   {
@@ -144,12 +144,12 @@ export const trays: CableTray[] = [
     whyItWorks: [
       "Solid bottom means no cable visibility from below",
       "Clean white metal blends with modern desks",
-      "Lightweight and easy to mount",
+      "Lightweight and easy to mount"
     ],
     tradeoffs: [
       "Only available in white — no black or silver option",
       "Solid bottom means less ventilation than mesh",
-      "Narrower than some competitors — check power strip width first",
+      "Narrower than some competitors — check power strip width first"
     ],
   },
   {
@@ -169,12 +169,12 @@ export const trays: CableTray[] = [
     whyItWorks: [
       "C-clamp works on glass, hybrid, and thick laminate — no drilling",
       "Powder-coated steel supports 20+ lbs without sagging",
-      "Modular sections link together for custom lengths up to 50+ inches",
+      "Modular sections link together for custom lengths up to 50+ inches"
     ],
     tradeoffs: [
       "Requires desk edge thickness between 0.75–2 inches",
       "Does not work with pedestal desks or desks thinner than 0.75 inches",
-      "Additional modular sections add cost if you need more length",
+      "Additional modular sections add cost if you need more length"
     ],
   },
   {
@@ -194,12 +194,12 @@ export const trays: CableTray[] = [
     whyItWorks: [
       "4+ inch depth swallows power bricks and monitor surge protectors",
       "Open-top wire mesh design provides full access for cable routing",
-      "Two trays in each pack cover most desk widths",
+      "Two trays in each pack cover most desk widths"
     ],
     tradeoffs: [
       "Extra depth means more under-desk space consumed (less leg room)",
       "Requires drilling four holes per tray",
-      "Cables still visible through mesh — not fully concealed",
+      "Cables still visible through mesh — not fully concealed"
     ],
   },
   {
@@ -219,12 +219,12 @@ export const trays: CableTray[] = [
     whyItWorks: [
       "Strong adhesive strips hold the tray while you optionally add screws for permanent security",
       "Supports 15+ lbs of cables without deflection",
-      "Clean design hides cables effectively without over-engineering",
+      "Clean design hides cables effectively without over-engineering"
     ],
     tradeoffs: [
       "Plastic construction — not as rigid as steel options",
       "Not for glass desks — adhesive will not hold on smooth glass",
-      "Requires 24-hour adhesive cure time before loading cables",
+      "Requires 24-hour adhesive cure time before loading cables"
     ],
   },
   {
@@ -243,12 +243,12 @@ export const trays: CableTray[] = [
     whyItWorks: [
       "Clamps to the desk frame and moves with it during height adjustment",
       "40-inch length covers most desks without additional pieces",
-      "Dual Velcro rows prevent power strip from sliding during movement",
+      "Dual Velcro rows prevent power strip from sliding during movement"
     ],
     tradeoffs: [
       "Cables visible through netting — not fully hidden",
       "Does not work with pedestal desks or very thin desks",
-      "Heavier than shallow trays — harder to adjust once installed",
+      "Heavier than shallow trays — harder to adjust once installed"
     ],
   },
   {
@@ -266,12 +266,12 @@ export const trays: CableTray[] = [
     whyItWorks: [
       "Fastest installation: 2 double-clips instead of 4 separate screws",
       "Drop-down access door fully conceals cables when closed",
-      "Premium mesh material rated for long-term use",
+      "Premium mesh material rated for long-term use"
     ],
     tradeoffs: [
       "Significant price jump from mid-range options ($100+ more)",
       "Fits average-size desks only (48–60 inches wide)",
-      "Less room than open-top trays — requires careful cable bundling",
+      "Less room than open-top trays — requires careful cable bundling"
     ],
   },
   {
@@ -290,12 +290,12 @@ export const trays: CableTray[] = [
     whyItWorks: [
       "Heavy metal enclosure makes cables completely invisible from all angles",
       "Available in four widths (30, 36, 42, 48 inches)",
-      "Eight cable portals for clean routing, supports 50 lbs",
+      "Eight cable portals for clean routing, supports 50 lbs"
     ],
     tradeoffs: [
       "Bulkiest option — extends further from desk than open trays",
       "Significant price ($240–$310)",
-      "Complex installation (6 screws, careful alignment required)",
+      "Complex installation (6 screws, careful alignment required)"
     ],
   },
   {
@@ -314,12 +314,12 @@ export const trays: CableTray[] = [
     whyItWorks: [
       "Pure adhesive — no drilling at all, fully reversible",
       "Slim 1.5-inch profile takes virtually no floor space",
-      "Works on most desk materials including coated wood",
+      "Works on most desk materials including coated wood"
     ],
     tradeoffs: [
       "Shallow depth — will not fit power strips or large bricks",
       "Weight limit of 3–5 lbs — not for primary cable management",
-      "Adhesive can fail on textured surfaces over time",
+      "Adhesive can fail on textured surfaces over time"
     ],
   },
   {
@@ -338,14 +338,14 @@ export const trays: CableTray[] = [
     whyItWorks: [
       "No drilling required — strong adhesive pad installation",
       "Solid tray bottom provides clean cable concealment from below",
-      "Compatible with most desk materials without surface damage",
+      "Compatible with most desk materials without surface damage"
     ],
     tradeoffs: [
       "Adhesive strength varies on different desk surface finishes",
       "Not suitable for heavy power strips (over 3 lbs)",
-      "Limited adjustability once adhered in position",
+      "Limited adjustability once adhered in position"
     ],
-  },
+  }
 ];
 
 export const quickPicks = [
@@ -354,7 +354,7 @@ export const quickPicks = [
   { situation: "Maximum cable capacity", name: "VIVO Extra Deep Tray", score: 9.0, price: "$35–$45", id: "vivo-extra-deep" },
   { situation: "Standing desk (movement tolerance)", name: "Stand Up Desk Store Clamp Tray", score: 8.9, price: "$32–$42", id: "stand-up-desk-store-clamp" },
   { situation: "Premium + easy install", name: "No-Drill Adhesive Cable Tray", score: 9.2, price: "$34–$44", id: "no-drill-adhesive-cable-tray" },
-  { situation: "Most cables hidden", name: "BTOD Ultimate Cable Box", score: 9.3, price: "$240–$310", id: "btod-ultimate-cable-box" },
+  { situation: "Most cables hidden", name: "BTOD Ultimate Cable Box", score: 9.3, price: "$240–$310", id: "btod-ultimate-cable-box" }
 ];
 
 export const tierMeta: Record<string, { label: string; range: string }> = {
@@ -369,7 +369,7 @@ export const mountMethods = [
   { method: "Adhesive strips", time: "5 min", reversible: "Yes", bestFor: "Renters, testing", tradeoff: "Can fail on textured surfaces" },
   { method: "Screws (wood desk)", time: "15 min", reversible: "No", bestFor: "Permanent setups", tradeoff: "Leaves screw holes" },
   { method: "Clamp (C-clamp)", time: "10 min", reversible: "Yes", bestFor: "Glass desks, standing desks", tradeoff: "Requires proper edge thickness" },
-  { method: "Adhesive + screws", time: "20 min", reversible: "Mostly", bestFor: "Best stability", tradeoff: "More complex installation" },
+  { method: "Adhesive + screws", time: "20 min", reversible: "Mostly", bestFor: "Best stability", tradeoff: "More complex installation" }
 ];
 
 export const scoringCriteria = [
@@ -377,13 +377,13 @@ export const scoringCriteria = [
   { label: "Installation ease", weight: "20%", desc: "How long, how many tools required, how reversible if you change desks?" },
   { label: "Material durability", weight: "20%", desc: "Will it rust, sag, or crack after 12 months? Metal scores higher than plastic." },
   { label: "Cable capacity", weight: "20%", desc: "How much weight and volume can it hold without sagging or shifting?" },
-  { label: "Desk compatibility", weight: "15%", desc: "How many desk types — wood, glass, metal, adjustable — does it work with?" },
+  { label: "Desk compatibility", weight: "15%", desc: "How many desk types — wood, glass, metal, adjustable — does it work with?" }
 ];
 
 export const faq: Array<{ q: string; a: string }> = [
   {
     q: "What is the best under desk cable tray without drilling?",
-    a: "Two main paths: adhesive-only (QiaoYoubang at $18–$25 or Slim Adhesive Drawer at $12–$22) for most wood desks, or clamp-on (Scandinavian Hub at $28–$38 or Stand Up Desk Store at $32–$42) for glass and standing desks. Clamp options are more durable long-term; adhesive is more reversible but can fail on textured surfaces after 6–12 months.",
+    a: "Two main paths: adhesive-only (QiaoYoubang at under $20–$25 or Slim Adhesive Drawer at under $15–$22) for most wood desks, or clamp-on (Scandinavian Hub at under $30–$38 or Stand Up Desk Store at under $35–$42) for glass and standing desks. Clamp options are more durable long-term; adhesive is more reversible but can fail on textured surfaces after 6–12 months.",
   },
   {
     q: "Can I use a cable tray with a glass desk?",
@@ -408,5 +408,5 @@ export const faq: Array<{ q: string; a: string }> = [
   {
     q: "How do I keep cables from tangling in a tray?",
     a: "Bundle cables by destination using Velcro straps (monitor group, power group, peripheral group). Zip-tie bundles to the tray so they stay put. Label each bundle. Limit each bundle to 4–5 cables maximum. Routing all cables toward the same exit point of the tray prevents cross-tangling.",
-  },
+  }
 ];

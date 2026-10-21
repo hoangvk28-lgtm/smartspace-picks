@@ -138,7 +138,7 @@ export default async function BestAdjustableUnderDeskFootrestsPage() {
     about: [
       { "@type": "Thing", name: "Adjustable Footrest" },
       { "@type": "Thing", name: "Ergonomics" },
-      { "@type": "Thing", name: "Height Adjustment" },
+      { "@type": "Thing", name: "Height Adjustment" }
     ],
   };
 
@@ -148,7 +148,7 @@ export default async function BestAdjustableUnderDeskFootrestsPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Adjustable Under-Desk Footrests", item: `${SITE_URL}/guide/best-adjustable-under-desk-footrests` },
+      { "@type": "ListItem", position: 3, name: "Best Adjustable Under-Desk Footrests", item: `${SITE_URL}/guide/best-adjustable-under-desk-footrests` }
     ],
   };
 
@@ -295,7 +295,7 @@ export default async function BestAdjustableUnderDeskFootrestsPage() {
               <p className="text-sm text-ink-secondary">
                 <strong className="text-ink">best adjustable pick:</strong>{" "}
                 <a href="#huanuo-adjustable" className="font-bold text-ink hover:text-brand transition-colors">HUANUO Under Desk Footrest</a>
-                 - 10,825 reviews at 4.4 stars, two height settings with massage surface.
+                 - Two height settings with massage surface.
               </p>
             </div>
             <p className="text-sm text-ink-secondary pl-5">See the full rankings above for all eight picks with pros, cons, and best-for summaries.</p>

@@ -12,7 +12,7 @@ export const balanceBoardVsAntiFatigueMatGuide: Guide = {
     "standing desk balance board worth it",
     "active standing accessory comparison",
     "balance board while working",
-    "anti fatigue mat vs balance board",
+    "anti fatigue mat vs balance board"
   ],
   heroImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const balanceBoardVsAntiFatigueMatGuide: Guide = {
     "anti-fatigue-mat-explained",
     "standing-desk-height-chart",
     "standing-desk-converter-vs-full-standing-desk",
-    "how-to-measure-office-chair-fit",
+    "how-to-measure-office-chair-fit"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const balanceBoardVsAntiFatigueMatGuide: Guide = {
       question: "Can I use both a balance board and an anti-fatigue mat, alternating between them?",
       answer:
         "Yes, some people keep both, using the anti-fatigue mat during focused typing-heavy work and switching to the balance board during calls, reading, or less precision-demanding moments, getting benefits from each depending on the task at hand.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const balanceBoardVsAntiFatigueMatGuide: Guide = {
     {
       heading: "Why the Learning Curve Deserves Realistic Expectations",
       body: `Unlike an anti-fatigue mat, which requires no adjustment period since it simply sits underfoot passively, a balance board genuinely requires building comfort and skill over time, attempting extended use immediately without building up gradually can lead to fatigue or frustration that might incorrectly suggest the tool isn't right for you, starting with short periods, ideally during lower-stakes tasks, and gradually increasing both duration and the complexity of tasks attempted while using it gives a more accurate sense of whether a balance board genuinely fits your standing desk routine long term.`,
-    },
+    }
   ],
 };

@@ -5,7 +5,7 @@ export const metaDescription = "4 portable SSDs we evaluated for iPhone use, inc
 export const mainKeyword = "best portable ssd for iphone";
 export const introParagraphs = [
   "iPhone Pro models that support ProRes recording directly to an external drive require the drive to meet Apple's specific minimum sustained write speed, not every 'for iPhone' marketed drive actually meets this consistently, worth checking verified reviews for confirmed ProRes recording success.",
-  "Older iPhones with a Lightning port, anything before iPhone 15, are not directly compatible with a USB-C drive without an adapter, a real compatibility gap worth checking before buying if you have not yet upgraded to a USB-C iPhone.",
+  "Older iPhones with a Lightning port, anything before iPhone 15, are not directly compatible with a USB-C drive without an adapter, a real compatibility gap worth checking before buying if you have not yet upgraded to a USB-C iPhone."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best MagSafe Pick for iPhone",
     name: "Corsair EX400U 2TB USB4 Portable External Type-C SSD - Up to 4,000MB/s Read, 3,600MB/s Write, Thunderbolt 4, MagSafe, Includes 40Gbps Cable - Gray",
     price: "$399.99",
-    rating: "4.1 stars from Amazon ratings",
-    reviews: "382 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21F-0rmbcOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DR381N86?tag=deskfinds0d-20",
     description: "Corsair's EX400U 2TB offers genuine MagSafe magnetic compatibility for hands-free attachment to a MagSafe-equipped iPhone, alongside USB4 and Thunderbolt 4 compatible speed up to 4000MB/s.\n\nIt earns the top spot in this comparison over Transcend ESD310 1TB External SSD for one main reason. Genuine MagSafe magnetic compatibility for iPhone. On price, it's actually priced above Transcend ESD310 1TB External SSD, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Strong sustained speed tier for demanding recording use. On the other side, Requires USB-C, not compatible with older Lightning iPhones without an adapter. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Connector Pick for iPhone",
     name: "Transcend ESD310 1TB External SSD, Up to 1,050MB/s, Dual USB Drive, 2-in-1 Type C & A, USB 3.2 Gen2 Portable SSD",
     price: "$239.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "2,340 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31HBU-HAxoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C3B32H9M?tag=deskfinds0d-20",
     description: "Transcend's ESD310 includes both USB-C and USB-A connectors in one drive, useful for buyers who move files between an iPhone, a USB-C laptop, and an older USB-A accessory.\n\nOne spot below Corsair EX400U 2TB USB4 Portable External Type-C SSD in this ranking, it's priced lower than Corsair EX400U 2TB USB4 Portable External Type-C SSD. The compromise here is straightforward: Not explicitly confirmed for ProRes direct recording. What you gain in return: Dual connector design adds real flexibility across devices. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Solid everyday speed for iPhone photo and video backups. On the other side, Smaller review base than mainstream single-connector drives. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Rugged Pick for iPhone Photographers",
     name: "SANDISK 2TB Extreme Portable SSD (Old Model) - Up to 1050MB/s, USB-C, USB 3.2 Gen 2, IP65 Water and Dust Resistance, Updated Firmware - SDSSDE61-2T00-G25",
     price: "$299.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "91,365 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41eTFK7clfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HN37XC1?tag=deskfinds0d-20",
     description: "SanDisk's Extreme pairs IP65 water and dust resistance with 1050MB/s USB-C speed, a sensible choice for iPhone photographers backing up shoots in the field.\n\nSitting just under Transcend ESD310 1TB External SSD, it costs more than Transcend ESD310 1TB External SSD. Here's the honest tradeoff: Requires USB-C, older Lightning iPhones need an adapter. And here's what it gets you instead: IP65 rating suits field use for iPhone photographers. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Large 2TB capacity for extensive photo libraries. On the other side, Older model, verify current firmware. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Slim Everyday Pick for iPhone",
     name: "Samsung T7 Portable SSD 1TB Titan Gray, USB 3.2 Gen 2, Up to 1,050MB/s",
     price: "$216.36",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "21,124 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LdvAbumfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874XN4D8?tag=deskfinds0d-20",
     description: "Samsung's T7 offers a slim, lightweight USB-C drive rated up to 1050MB/s, a straightforward everyday backup companion for an iPhone's photo and video library.\n\nRanked just behind SANDISK 2TB Extreme Portable SSD, it's priced lower than SANDISK 2TB Extreme Portable SSD. The real tradeoff against that pick: Requires USB-C, older Lightning iPhones need an adapter. In exchange, it offers this instead: Slim, lightweight design pairs well with an iPhone on the go. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Reliable, widely reviewed platform. On the other side, No official IP rating. That's the main tradeoff to weigh against everything above.",

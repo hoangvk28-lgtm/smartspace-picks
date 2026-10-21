@@ -5,7 +5,7 @@ export const metaDescription = "5 air purifiers under $100 we evaluated, with th
 export const mainKeyword = "air purifier under $100";
 export const introParagraphs = [
   "The sticker price is only part of the true cost, ongoing filter replacement cost over a year of regular use can rival or exceed the unit's original purchase price, a real factor competitors rarely mention when comparing budget units.",
-  "A budget unit under $100 can still be genuinely capable for a small-to-medium room, the price cut is more often in smart features and app control than in core filtration quality, worth knowing before assuming cheaper means meaningfully worse performance.",
+  "A budget unit under $100 can still be genuinely capable for a small-to-medium room, the price cut is more often in smart features and app control than in core filtration quality, worth knowing before assuming cheaper means meaningfully worse performance."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,12 +25,12 @@ export const products: GuideProduct[] = [
     badge: "Best Air Purifier Under $100 Overall",
     name: "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom, H13 True HEPA Filter, 24db Filtration System Cleaner Odor Eliminators, Remove 99.97% Dust Smoke Mold Pollen, Core 300, White",
     price: "$89.99",
-    rating: "4.7 stars from 108,251 Amazon ratings",
-    reviews: "108,251 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
-      "By far the largest review base of any pick here at a budget-friendly price, genuine True HEPA H13 filtration that doesn't cut corners on the core filtration quality despite the budget price. The price cut here is in smart features and app control, not core filtration, factor in the replacement filter cost over a year when comparing this to pricier alternatives. Genuine True HEPA H13 filtration despite budget price. Set against that, no smart app control. Both matter when comparing it to the other picks here.\n\nWhat stands out here is by far the largest review base of any pick here, plus genuine True HEPA H13 filtration despite budget price. The main tradeoff: no smart app control, so weigh that against the $89.99 price before buying.",
+      "By far the largest review base of any pick here at a budget-friendly price, genuine True HEPA H13 filtration that doesn't cut corners on the core filtration quality despite the budget price. The price cut here is in smart features and app control, not core filtration, factor in the replacement filter cost over a year when comparing this to pricier alternatives. Genuine True HEPA H13 filtration despite budget price. Set against that, no smart app control. Both matter when comparing it to the other picks here.\n\nWhat stands out here is by far the largest review base of any pick here, plus genuine True HEPA H13 filtration despite budget price. The main tradeoff: no smart app control, so weigh that against the under $90 price before buying.",
     specs: ["True HEPA H13, 99.97% particulate removal", "24dB quoted noise level", "Largest review base in this guide", "Under $90 at time of writing"],
     pros: ["By far the largest review base of any pick here", "Genuine True HEPA H13 filtration despite budget price", "Very quiet at 24dB", "Affordable replacement filters"],
     cons: ["No smart app control", "No air quality sensor", "Standard CADR, not the highest airflow pick"],
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Pick Under $100",
     name: "Germ Guardian True HEPA Filter Air Purifier for Home",
     price: "$80.74",
-    rating: "4.6 stars from 63,485 Amazon ratings",
-    reviews: "63,485 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/316AtkHoSdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004VGIGVY?tag=deskfinds0d-20",
     description:
@@ -59,12 +59,12 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick for a Larger Room",
     name: "MOOKA Air Purifiers for Home Large Room, PR1 HEPA Air Purifier",
     price: "$79.99",
-    rating: "4.6 stars from 4,454 Amazon ratings",
-    reviews: "4,454 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51nlbgobV2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCBC8KKV?tag=deskfinds0d-20",
     description:
-      "An affordable option with a solid review base, marketed for a larger room than a typical budget desktop unit while staying at a budget-friendly price. A budget unit at a budget-friendly price can still be genuinely capable for a small-to-medium room, this pick's disclosed coverage rating supports that at its price point. Solid review base. That's a real strength, but weigh it against the flip side: no smart app control.\n\nWhere this one earns its spot is affordable price for a larger-room-marketed unit, and solid review base. Worth noting before buying: no smart app control, which matters more at $79.99 than it would on a cheaper pick.",
+      "An affordable option with a solid review base, marketed for a larger room than a typical budget desktop unit while staying at a budget-friendly price. A budget unit at a budget-friendly price can still be genuinely capable for a small-to-medium room, this pick's disclosed coverage rating supports that at its price point. Solid review base. That's a real strength, but weigh it against the flip side: no smart app control.\n\nWhere this one earns its spot is affordable price for a larger-room-marketed unit, and solid review base. Worth noting before buying: no smart app control, which matters more at under $80 than it would on a cheaper pick.",
     specs: ["HEPA filtration", "Solid review base", "Larger-room marketing at a budget price", "Under $80 at time of writing"],
     pros: ["Affordable price for a larger-room-marketed unit", "Solid review base", "Genuine HEPA filtration", "Good value for the coverage claimed"],
     cons: ["No smart app control", "No air quality sensor", "No filter indicator"],
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Budget Pick",
     name: "Afloia Air Purifiers for Home Large Room Up to 900 Sq Ft, H13 True HEPA Air Purifier PM2.5",
     price: "$79.99",
-    rating: "4.6 stars from 1,384 Amazon ratings",
-    reviews: "1,384 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31MxpE4keLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CHW2LLSJ?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Ultra-Budget Pick",
     name: "MOOKA Small Air Purifier for Bedroom",
     price: "$45.30",
-    rating: "4.5 stars from 9,252 Amazon ratings",
-    reviews: "9,252 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41zOBElZS-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08PJQ3MWB?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Lowest price in this guide by a wide margin", "Large, well-established review base", "Good value for a desk-zone unit", "Very compact footprint"],
     cons: ["Lower CADR appropriate only for a desk zone, not a full room", "No smart features", "Basic filtration compared to premium picks"],
     bestFor: "Tightest-budget buyers wanting a desk zone or personal-space unit",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "True cost of ownership beyond the sticker price", description: "Considered that ongoing filter replacement cost over a year of regular use can rival or exceed the unit's original purchase price, not just the upfront number." },
   { title: "What the budget price cut actually sacrifices", description: "Weighed that the price cut on a budget unit is more often in smart features and app control than in core filtration quality, evaluating each pick's actual HEPA and carbon filtration honestly." },
-  { title: "Coverage claims verified against price point", description: "Checked whether each pick's disclosed coverage rating was reasonable for its price, rather than assuming a low price automatically means reduced coverage." },
+  { title: "Coverage claims verified against price point", description: "Checked whether each pick's disclosed coverage rating was reasonable for its price, rather than assuming a low price automatically means reduced coverage." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "How do I know if a budget air purifier can cover my room?", a: "Check for a specific disclosed square-footage or CADR rating rather than trusting vague 'large room' marketing language, which doesn't tell you much about actual capacity." },
   { q: "Is the cheapest air purifier under $50 good enough for a bedroom?", a: "It's best matched to a desk zone or small personal space rather than a full bedroom, expect a lower CADR at that price point." },
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers wanting the most-proven budget pick with genuine HEPA filtration" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Tightest-budget buyers wanting a desk zone or personal-space unit At $45.30, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Tightest-budget buyers wanting a desk zone or personal-space unit At under $50, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-air-purifiers-under-200", title: "Best Air Purifiers Under $200 (2026)" },
   { href: "/guide/best-small-air-purifiers", title: "Best Small Air Purifiers (2026)" },
-  { href: "/guide/best-hepa-air-purifiers", title: "Best HEPA Air Purifiers (2026)" },
+  { href: "/guide/best-hepa-air-purifiers", title: "Best HEPA Air Purifiers (2026)" }
 ];

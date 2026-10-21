@@ -12,7 +12,7 @@ export const deskMatVsChairMatExplainedGuide: Guide = {
     "desk mat and chair mat difference",
     "do i need both desk mat and chair mat",
     "confused desk mat chair mat",
-    "desk surface protection vs floor protection",
+    "desk surface protection vs floor protection"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskMatVsChairMatExplainedGuide: Guide = {
     "desk-mat-vs-desk-pad",
     "chair-mat-types-explained",
     "chair-mat-size-guide",
-    "mouse-pad-size-guide",
+    "mouse-pad-size-guide"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskMatVsChairMatExplainedGuide: Guide = {
       question: "Which should I buy first if I can only afford one right now?",
       answer:
         "This depends on your more pressing need, if your floor is at risk of caster scratching, prioritize the chair mat, if your desk surface itself needs protection or you want a better mousing/writing surface, prioritize the desk mat.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const deskMatVsChairMatExplainedGuide: Guide = {
     {
       heading: "Why Many Desk Setups Benefit From Having Both",
       body: `These two products solve genuinely separate, non-overlapping problems, a desk mat improves your desk surface's feel and protects it from scratches, spills, and wear from daily typing and mousing, while a chair mat protects your actual flooring from caster damage and improves chair rolling smoothness. A complete desk setup addressing both surface concerns, the desk itself and the floor beneath it, often benefits from having both products working together rather than treating them as interchangeable or redundant.`,
-    },
+    }
   ],
 };

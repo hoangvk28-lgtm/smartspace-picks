@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41ErlCSjFbL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DXS1BVCB?tag=deskfinds0d-20",
-    "description": "What stands out on Razer Iskur V2 X Ergonomic Gaming Chair is built-in lumbar support - designed, alongside widened seat base with reduced, which is the main reason it earns a spot in this gaming chairs comparison.\n\nSitting at $299.99, the top of this comparison's price range, it asks buyers to confirm the added capability is actually worth it over the more affordable picks here before paying the premium.\n\nRazer Iskur V2 X Ergonomic Gaming Chair is the right call for buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on Razer Iskur V2 X Ergonomic Gaming Chair is built-in lumbar support - designed, alongside widened seat base with reduced, which is the main reason it earns a spot in this gaming chairs comparison.\n\nSitting at under $300, the top of this comparison's price range, it asks buyers to confirm the added capability is actually worth it over the more affordable picks here before paying the premium.\n\nRazer Iskur V2 X Ergonomic Gaming Chair is the right call for buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "BUILT-IN LUMBAR SUPPORT - Designed",
       "WIDENED SEAT BASE WITH REDUCED",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31HgFTFfUeL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0F8QP5SDM?tag=deskfinds0d-20",
-    "description": "DXRacer Formula L Ergonomic Gaming Chair with Lumbar Support leads with ergonomic & comfy gaming chair, backed by adjustable & functional gaming office chair, a combination aimed at as a chair built for long sitting sessions rather than short-term use.\n\nCompared to VENTUVIBE Gaming Chair at $218.49, it costs more for real added capability, while sitting well below Razer Iskur V2 X Ergonomic Gaming Chair at $299.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "DXRacer Formula L Ergonomic Gaming Chair with Lumbar Support leads with ergonomic & comfy gaming chair, backed by adjustable & functional gaming office chair, a combination aimed at as a chair built for long sitting sessions rather than short-term use.\n\nCompared to VENTUVIBE Gaming Chair at under $250, it costs more for real added capability, while sitting well below Razer Iskur V2 X Ergonomic Gaming Chair at under $300 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Ergonomic & Comfy Gaming Chair",
       "Adjustable & Functional Gaming Office Chair",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41gtgoJcTDL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GWH5MVTZ?tag=deskfinds0d-20",
-    "description": "What stands out on RESPAWN 900 Gaming Recliner Chair with Footrest is designed for console gamers and relaxed play, alongside console gaming comfort, which is the main reason it earns a spot in this gaming chairs comparison.\n\nCompared to VENTUVIBE Gaming Chair at $218.49, it costs more for real added capability, while sitting well below Razer Iskur V2 X Ergonomic Gaming Chair at $299.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "What stands out on RESPAWN 900 Gaming Recliner Chair with Footrest is designed for console gamers and relaxed play, alongside console gaming comfort, which is the main reason it earns a spot in this gaming chairs comparison.\n\nCompared to VENTUVIBE Gaming Chair at under $250, it costs more for real added capability, while sitting well below Razer Iskur V2 X Ergonomic Gaming Chair at under $300 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Designed For Console Gamers And Relaxed Play",
       "Console Gaming Comfort",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/319mMqMuC4L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0BN7FDFVP?tag=deskfinds0d-20",
-    "description": "Corsair TC100 Relaxed Fabric Gaming Chair - Gray and Black is built around racing-inspired design with relaxed bolstering, paired with comfortable fabric exterior, positioning it as a chair built for long sitting sessions rather than short-term use.\n\nIt lands between VENTUVIBE Gaming Chair's $218.49 price floor and Razer Iskur V2 X Ergonomic Gaming Chair's $299.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nCorsair TC100 Relaxed Fabric Gaming Chair - Gray and Black is the right call for buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "Corsair TC100 Relaxed Fabric Gaming Chair - Gray and Black is built around racing-inspired design with relaxed bolstering, paired with comfortable fabric exterior, positioning it as a chair built for long sitting sessions rather than short-term use.\n\nIt lands between VENTUVIBE Gaming Chair's under $250 price floor and Razer Iskur V2 X Ergonomic Gaming Chair's under $300 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nCorsair TC100 Relaxed Fabric Gaming Chair - Gray and Black is the right call for buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Racing-Inspired Design with Relaxed Bolstering",
       "Comfortable Fabric Exterior",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41hptX-gA3L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B08C9W19YL?tag=deskfinds0d-20",
-    "description": "What stands out on Dowinx Big & Tall Vintage Gaming Chair for Adults is big & tall ergonomic support, alongside all-day comfort & functions, which is the main reason it earns a spot in this gaming chairs comparison.\n\nCompared to VENTUVIBE Gaming Chair at $218.49, it costs more for real added capability, while sitting well below Razer Iskur V2 X Ergonomic Gaming Chair at $299.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "What stands out on Dowinx Big & Tall Vintage Gaming Chair for Adults is big & tall ergonomic support, alongside all-day comfort & functions, which is the main reason it earns a spot in this gaming chairs comparison.\n\nCompared to VENTUVIBE Gaming Chair at under $250, it costs more for real added capability, while sitting well below Razer Iskur V2 X Ergonomic Gaming Chair at under $300 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Big & Tall Ergonomic Support",
       "All-day Comfort & Functions",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/314GlIR5ylL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FB84TD79?tag=deskfinds0d-20",
-    "description": "DXRacer Prince Series L Gaming Chair is built around ergonomically comfort design, paired with winged seat base, positioning it as a chair built for long sitting sessions rather than short-term use.\n\nCompared to VENTUVIBE Gaming Chair at $218.49, it costs more for real added capability, while sitting well below Razer Iskur V2 X Ergonomic Gaming Chair at $299.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "DXRacer Prince Series L Gaming Chair is built around ergonomically comfort design, paired with winged seat base, positioning it as a chair built for long sitting sessions rather than short-term use.\n\nCompared to VENTUVIBE Gaming Chair at under $250, it costs more for real added capability, while sitting well below Razer Iskur V2 X Ergonomic Gaming Chair at under $300 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Ergonomically Comfort Design",
       "Winged Seat Base",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41c1-gDe9NL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DGKVGH8X?tag=deskfinds0d-20",
-    "description": "Respawn 110 Pro Ergonomic Gaming Chair with Footrest and Recline leads with for pc gamers, console players, backed by enhanced comfort for any setup, a combination aimed at as a chair built for long sitting sessions rather than short-term use.\n\nIt lands between VENTUVIBE Gaming Chair's $218.49 price floor and Razer Iskur V2 X Ergonomic Gaming Chair's $299.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nRespawn 110 Pro Ergonomic Gaming Chair with Footrest and Recline is the right call for buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "Respawn 110 Pro Ergonomic Gaming Chair with Footrest and Recline leads with for pc gamers, console players, backed by enhanced comfort for any setup, a combination aimed at as a chair built for long sitting sessions rather than short-term use.\n\nIt lands between VENTUVIBE Gaming Chair's under $250 price floor and Razer Iskur V2 X Ergonomic Gaming Chair's under $300 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nRespawn 110 Pro Ergonomic Gaming Chair with Footrest and Recline is the right call for buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "FOR PC GAMERS, CONSOLE PLAYERS",
       "Enhanced Comfort For Any Setup",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/415ArNJjgfL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0G2BPN56M?tag=deskfinds0d-20",
-    "description": "What stands out on VENTUVIBE Gaming Chair is 4d adjustable armrests - experience, alongside infinite adjustment lumbar support, which is the main reason it earns a spot in this gaming chairs comparison.\n\nPriced at $218.49, the lowest in this lineup, it trades some of the extras found on pricier picks here for a lower upfront cost, a reasonable tradeoff if your needs are basic.\n\nVENTUVIBE Gaming Chair is the right call for buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on VENTUVIBE Gaming Chair is 4d adjustable armrests - experience, alongside infinite adjustment lumbar support, which is the main reason it earns a spot in this gaming chairs comparison.\n\nPriced at under $250, the lowest in this lineup, it trades some of the extras found on pricier picks here for a lower upfront cost, a reasonable tradeoff if your needs are basic.\n\nVENTUVIBE Gaming Chair is the right call for buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "4D ADJUSTABLE ARMRESTS - Experience",
       "Infinite Adjustment Lumbar Support",
@@ -247,7 +247,7 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Weight capacity vs your actual weight",
-    "explanation": "At the $300 ceiling for a gaming chair, this detail is easy to skip past but shouldn't be. A chair's stated weight capacity is a maximum, not a comfortable working load, and sitting at or near that limit shortens the lifespan of the gas lift cylinder and frame welds faster than sitting well under it. Picks in this comparison range from $218 to $300, and the weight rating doesn't scale predictably with price, some cheaper chairs rate higher than pricier ones. Check the stated capacity against your actual weight with real margin, not just whether you technically fit under the number."
+    "explanation": "At the $300 ceiling for a gaming chair, this detail is easy to skip past but shouldn't be. A chair's stated weight capacity is a maximum, not a comfortable working load, and sitting at or near that limit shortens the lifespan of the gas lift cylinder and frame welds faster than sitting well under it. Picks in this comparison range from under $350, and the weight rating doesn't scale predictably with price, some cheaper chairs rate higher than pricier ones. Check the stated capacity against your actual weight with real margin, not just whether you technically fit under the number."
   },
   {
     "criterion": "Recline angle and locking positions",
@@ -325,11 +325,11 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $218.49",
+          "Under $250",
           "VENTUVIBE Gaming Chair"
         ],
         [
-          "Around $227.81",
+          "Under $250",
           "Respawn 110 Pro Ergonomic Gaming Chair with Footrest and Recline"
         ],
         [
@@ -337,15 +337,15 @@ export const howToChoose: HowToChooseSection[] = [
           "DXRacer Prince Series L Gaming Chair"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "Dowinx Big & Tall Vintage Gaming Chair for Adults"
         ],
         [
-          "Around $269.99",
+          "Under $300",
           "Corsair TC100 Relaxed Fabric Gaming Chair - Gray and Black"
         ],
         [
-          "Around $283.99",
+          "Under $300",
           "RESPAWN 900 Gaming Recliner Chair with Footrest"
         ],
         [
@@ -353,7 +353,7 @@ export const howToChoose: HowToChooseSection[] = [
           "DXRacer Formula L Ergonomic Gaming Chair with Lumbar Support"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "Razer Iskur V2 X Ergonomic Gaming Chair"
         ]
       ]
@@ -364,11 +364,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "VENTUVIBE Gaming Chair",
-        "text": "The lowest-priced pick in this comparison at $218.49, a solid choice if you don't need the extras the pricier picks carry."
+        "text": "The lowest-priced pick in this comparison at under $250, a solid choice if you don't need the extras the pricier picks carry."
       },
       {
         "label": "Razer Iskur V2 X Ergonomic Gaming Chair",
-        "text": "The highest-priced pick at $299.99, worth it only if you'll actually use what that premium buys."
+        "text": "The highest-priced pick at under $300, worth it only if you'll actually use what that premium buys."
       }
     ],
     "note": "Default to VENTUVIBE Gaming Chair unless the pricier pick's specific advantage genuinely applies to your situation."
@@ -428,7 +428,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "What's the real difference between the cheapest and most expensive pick here?",
-    "a": "VENTUVIBE Gaming Chair at $218.49 covers the basics, while Razer Iskur V2 X Ergonomic Gaming Chair at $299.99 adds 4D armrests and a wider recline range. Whether that's worth the difference depends on whether you actually use the full recline range and finer armrest adjustment day to day, or mainly need a comfortable, supportive seat."
+    "a": "VENTUVIBE Gaming Chair at under $250 covers the basics, while Razer Iskur V2 X Ergonomic Gaming Chair at under $300 adds 4D armrests and a wider recline range. Whether that's worth the difference depends on whether you actually use the full recline range and finer armrest adjustment day to day, or mainly need a comfortable, supportive seat."
   },
   {
     "q": "Do I need a 4D armrest or is 2D enough?",
@@ -440,7 +440,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "Is there a solid middle-ground pick in this price range?",
-    "a": "Corsair TC100 Relaxed Fabric Gaming Chair - Gray and Black at $269.99 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
+    "a": "Corsair TC100 Relaxed Fabric Gaming Chair - Gray and Black at under $300 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
   },
   {
     "q": "What's the most common mistake buyers make shopping gaming chairs under $300?",

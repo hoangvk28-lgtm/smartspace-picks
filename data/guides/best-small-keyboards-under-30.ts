@@ -155,7 +155,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A documented switch mechanism and certified safety", "Cherry Stream Wired Keyboard Without Number Pad"],
         ["Rechargeable battery, no disposables", "Arteck 2.4G Wireless Keyboard"],
         ["A matched keyboard and mouse combo", "Macally Small Wireless Keyboard and Mouse Combo"],
-        ["The lowest possible price", "Rii RK907 Ultra-Slim Compact USB Wired Keyboard"],
+        ["The lowest possible price", "Rii RK907 Ultra-Slim Compact USB Wired Keyboard"]
       ],
     },
   },
@@ -164,8 +164,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $16", "Rii RK907 ($9.99), Lumsburry ($12.99), or TECKNET ($15.99)"],
-        ["Up to $30", "Arteck ($21.84), Cherry Stream ($24.83), or Macally combo ($29.98)"],
+        ["Under $16", "Rii RK907 (under $10), Lumsburry (under $15), or TECKNET (under $20)"],
+        ["Up to $30", "Arteck (under $25), Cherry Stream (under $25), or Macally combo (under $30)"]
       ],
     },
   },
@@ -179,7 +179,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "Wireless (TECKNET, Arteck, Macally)",
         text: "Cleaner desk setup with no cable, but requires either battery swaps or periodic recharging depending on the specific model.",
-      },
+      }
     ],
     note: "If a completely clutter-free desk matters more than avoiding battery management, Arteck's rechargeable design splits the difference well.",
   },
@@ -190,7 +190,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Backlit keys for low-light typing", "Lumsburry Computer Keyboard"],
         ["Longest stated warranty", "TECKNET (36 months) or Macally (up to 2 years)"],
-        ["Certified switch technology", "Cherry Stream Wired Keyboard"],
+        ["Certified switch technology", "Cherry Stream Wired Keyboard"]
       ],
     },
   },
@@ -204,7 +204,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "The Macally combo is the only pick here that bundles a matching mouse using one shared dongle.",
-      },
+      }
     ],
   },
   {
@@ -212,14 +212,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You type for hours daily and want a documented switch mechanism and certified safety testing: Cherry Stream ($24.83) is the only pick here with named switch technology.",
+        text: "You type for hours daily and want a documented switch mechanism and certified safety testing: Cherry Stream (under $25) is the only pick here with named switch technology.",
       },
       {
         label: "Save if",
-        text: "You just need basic compact typing without extra features: Rii RK907 ($9.99) covers the core function at the lowest price in this comparison.",
-      },
+        text: "You just need basic compact typing without extra features: Rii RK907 (under $10) covers the core function at the lowest price in this comparison.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -274,5 +274,5 @@ export const faq = [
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-keyboard-with-numpad", title: "Best Small Keyboards with Numpad" },
-  { href: "/guide/best-ergonomic-keyboards", title: "Best Ergonomic Keyboards" },
+  { href: "/guide/best-ergonomic-keyboards", title: "Best Ergonomic Keyboards" }
 ];

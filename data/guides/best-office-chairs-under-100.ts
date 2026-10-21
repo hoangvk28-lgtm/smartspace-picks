@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Highest weight capacity and full adjustments", "Office Chair Ergonomic Desk Chair, 330LBS Capacity"],
         ["A lockable recline with footrest for breaks", "Sweetcrispy Ergonomic Office Chair with Footrest"],
         ["A certified gas lift and space-saving armrests", "NEO CHAIR High Back Mesh, Adjustable Lumbar"],
-        ["The lowest price with a certified gas lift", "DUMOS Home Office Chair"],
+        ["The lowest price with a certified gas lift", "DUMOS Home Office Chair"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $34", "DUMOS ($33.99)"],
-        ["Under $68", "NEO CHAIR ($67.80)"],
-        ["Under $100", "Sweetcrispy ($97.98) or 330LBS Capacity chair ($99.99)"],
+        ["Under $34", "DUMOS (under $35)"],
+        ["Under $68", "NEO CHAIR (under $70)"],
+        ["Under $100", "Sweetcrispy (under $100) or 330LBS Capacity chair (under $100)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Fixed Armrests vs Flip-Up Armrests",
     cards: [
       { label: "Fixed armrests (DUMOS)", text: "Adds structural stability and durability at a lower price, but doesn't fully tuck under a desk when not in use." },
-      { label: "Flip-up armrests (330LBS chair, Sweetcrispy, NEO CHAIR)", text: "Lets the chair slide fully under a desk for a cleaner room look, useful in smaller spaces." },
+      { label: "Flip-up armrests (330LBS chair, Sweetcrispy, NEO CHAIR)", text: "Lets the chair slide fully under a desk for a cleaner room look, useful in smaller spaces." }
     ],
     note: "If desk space is tight, prioritize a flip-up armrest design. If budget is the top concern, fixed armrests still deliver solid comfort for less.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Under 250 lbs", "DUMOS or NEO CHAIR"],
         ["Under 275 lbs", "Sweetcrispy Ergonomic Office Chair"],
-        ["Up to 330 lbs", "330LBS Capacity Office Chair"],
+        ["Up to 330 lbs", "330LBS Capacity Office Chair"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Small Home Office With Limited Space Specifically",
     cards: [
       { label: "Look for", text: "Flip-up armrests and a compact frame that can slide fully under a desk when not in active use." },
-      { label: "In this comparison", text: "The NEO CHAIR's flip-up armrests and compact mesh design suit a small-space setup particularly well." },
+      { label: "In this comparison", text: "The NEO CHAIR's flip-up armrests and compact mesh design suit a small-space setup particularly well." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You need the highest weight capacity or a lockable recline with footrest, where the 330LBS chair or Sweetcrispy pick each deliver a genuine capability upgrade over the budget options." },
-      { label: "Save if", text: "You want a certified gas lift without paying full price, where the DUMOS pick delivers BIFMA certification for under $34." },
+      { label: "Save if", text: "You want a certified gas lift without paying full price, where the DUMOS pick delivers BIFMA certification for under $34." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

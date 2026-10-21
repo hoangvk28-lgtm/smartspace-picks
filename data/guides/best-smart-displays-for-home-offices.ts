@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "smart display for home office";
 export const introParagraphs = [
   "A home office smart display has slightly different priorities than a general desk display: video call quality genuinely matters if you take work calls from it, and calendar visibility matters more than kitchen-oriented features like recipe widgets. This guide reorders and reframes the same verified product pool from our broader desk-display guide around those home-office priorities specifically.",
-  "If you want the general desk-display overview, see our best smart displays for desks guide covering the same five verified models with a broader lens.",
+  "If you want the general desk-display overview, see our best smart displays for desks guide covering the same five verified models with a broader lens."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "8 min";

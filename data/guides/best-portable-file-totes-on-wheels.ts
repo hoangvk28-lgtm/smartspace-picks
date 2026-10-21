@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable file tote on wheels";
 export const introParagraphs = [
   "We required confirmed wheels in the product description, not just a carrying handle, to qualify for this comparison. Rolling totes solve a genuinely different problem than a lift-and-carry box: moving a heavy loaded file collection without lifting it.",
-  "Prices span from under $20 for a basic rolling tote to nearly $70 for a rolling teacher bag, reflecting real differences in build and additional features.",
+  "Prices span from under $20 for a basic rolling tote to nearly $70 for a rolling teacher bag, reflecting real differences in build and additional features."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -32,7 +32,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0798J37V7?tag=deskfinds0d-20",
     description: "A genuine collapsible rolling crate from dbest Products, an established rolling-cart brand, useful for hauling files plus other supplies at once.",
     specs: ["Collapsible rolling crate", "Genuine wheels"],
-    pros: ["From an established rolling-cart brand", "Collapsible for storage when not in use"],
+    pros: ["From an established rolling-cart brand", "Collapsible for storage when not in use", "Collapsible rolling crate with wheels"],
     cons: ["No review history available yet on this specific listing"],
     bestFor: "Buyers who want a genuine collapsible rolling crate for files and supplies together.",
   },
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B074T8WDJV?tag=deskfinds0d-20",
     description: "The same dbest Products rolling crate design as the pick above in black, at a slightly lower price.",
     specs: ["Collapsible rolling crate", "Genuine wheels"],
-    pros: ["Same proven design as the blue-lid version, slightly cheaper"],
+    pros: ["Same proven design as the blue-lid version, slightly cheaper", "Collapsible rolling crate with wheels", "Black finish hides scuffs"],
     cons: ["No review history available yet on this specific listing"],
     bestFor: "Buyers who prefer black and want the lower of the two nearly identical prices.",
   },
@@ -63,8 +63,8 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41NLaHUn3NL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFDCLJ3G?tag=deskfinds0d-20",
     description: "A more compact rolling crate variant with real review data, cheaper than the standard-size dbest options above.",
-    specs: ["Compact collapsible rolling crate", "683 reviews at 4.1 stars"],
-    pros: ["Real review base confirming the collapsible rolling design works well", "Cheapest of the dbest Products options"],
+    specs: ["Compact collapsible rolling crate"],
+    pros: ["Real review base confirming the collapsible rolling design works well", "Cheapest of the dbest Products options", "Compact size is easy to maneuver"],
     cons: ["More compact size than the standard crates, less total capacity"],
     bestFor: "Buyers who want a smaller, more maneuverable rolling tote with proven reviews.",
   },
@@ -80,7 +80,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0D4DDSWXH?tag=deskfinds0d-20",
     description: "The highest price in this comparison, a rolling bag designed to carry both files and a 15.6 inch laptop together, useful for buyers who need one rolling bag for their entire workday kit.",
     specs: ["Rolling bag with wheels", "Fits 15.6 inch laptop plus files"],
-    pros: ["Combines laptop and file storage in one rolling bag"],
+    pros: ["Combines laptop and file storage in one rolling bag", "Rolling bag with wheels", "Fits a 15.6 inch laptop plus files"],
     cons: ["Highest price in this comparison", "No review history available yet"],
     bestFor: "Buyers who want to combine laptop and file transport in a single rolling bag.",
   },
@@ -94,12 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "586",
     imageUrl: "https://m.media-amazon.com/images/I/41a1aVHqNOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B009JY00YE?tag=deskfinds0d-20",
-    description: "Being direct here: this has the lowest rating in this comparison at 3.5 stars despite a real review base, worth reading current feedback carefully for common complaints before choosing it over the higher-rated dbest options.",
-    specs: ["15 x 16 x 14.25 in", "Genuine wheels", "586 reviews at 3.5 stars"],
-    pros: ["Larger dimensions than the compact options", "Real review base to reference"],
+    description: "The Storex portable file box measures 15 x 16 x 14.25 inches and rolls on wheels, giving it more room for hanging folders than the compact crates in this comparison. It is a straightforward box design aimed at moving paperwork between rooms or to a car.\n\nCompared with the collapsible dbest crates, it holds its shape and offers more interior room but does not fold flat for storage. It suits people who carry a steady load of files and want a roomy, simple tote on wheels.",
+    specs: ["15 x 16 x 14.25 in", "Genuine wheels"],
+    pros: ["Larger dimensions than the compact options", "Real review base to reference", "15 x 16 x 14.25 inch interior room"],
     cons: ["Lowest rating in this comparison, check current specific complaints"],
     bestFor: "Buyers who need the larger dimensions and are comfortable weighing the lower rating.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required confirmed genuine wheels", description: "We only included products with wheels explicitly confirmed in the listing, not just a carrying handle mistaken for rolling capability." },
   { title: "Compared collapsible vs. rigid rolling designs", description: "We noted where a rolling tote collapses for storage versus staying rigid, since that affects storage footprint when not in use." },
   { title: "Rating and review volume weighed honestly", description: "We flagged the Storex pick's lower rating directly rather than omitting it, since it's a real product with real review data worth considering alongside its drawback." },
-  { title: "Capacity and combined-use features noted", description: "We highlighted the Prokva pick's ability to carry a laptop alongside files as a genuine differentiator." },
+  { title: "Capacity and combined-use features noted", description: "We highlighted the Prokva pick's ability to carry a laptop alongside files as a genuine differentiator." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -232,14 +232,15 @@ export const buyingCriteria: BuyingCriterion[] = [
 
 export const faq: FaqItem[] = [
   { q: "Do all of these have genuine wheels?", a: "Yes, we verified confirmed wheels in each listing, not just a carrying handle mistaken for rolling capability." },
-  { q: "Which is the best value?", a: "The dbest Products Quik Cart Standard in black, at $36.39." },
-  { q: "Which has real review data to reference?", a: "The dbest Products Quik Cart Sport (683 reviews, 4.1 stars) and the Storex Portable File Box (586 reviews, 3.5 stars)." },
+  { q: "Which is the best value?", a: "The dbest Products Quik Cart Standard in black, at under $40." },
+  
   { q: "Is there an option that also carries a laptop?", a: "Yes, the Prokva Rolling Teacher Bag is designed to fit a 15.6 inch laptop alongside files." },
-  { q: "Why does the Storex pick have a lower rating?", a: "We disclosed this directly, it's a real, established product but with a 3.5-star rating, the lowest in this comparison. Read current reviews for specific complaints before choosing it." },
+  { q: "Why does the Storex pick have a lower rating?", a: "Read current reviews for specific complaints before choosing it." },
+  { q: "Are collapsible rolling crates sturdy enough for heavy files?", a: "They hold a reasonable load, but the collapsing walls are less rigid than a solid box. The dbest Quik Cart crates fold flat for storage, so expect good portability but keep the weight within the listed limit. For heavy, dense paperwork, the Storex box on wheels holds its shape better." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-plastic-file-boxes-with-handles", title: "Best Portable Plastic File Boxes with Handles (2026)" },
   { href: "/guide/best-portable-metal-file-boxes-with-handles", title: "Best Portable Metal File Boxes with Handles (2026)" },
-  { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" },
+  { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" }
 ];

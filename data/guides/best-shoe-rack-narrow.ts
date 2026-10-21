@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "shoe rack narrow";
 export const introParagraphs = [
   "A narrow shoe rack has to solve a floor-space problem, so most of the picks in this list trade width for height, going 8 to 10 tiers tall instead of spreading wide. That tradeoff comes with two catches worth knowing before you buy: the \"pairs\" number on the listing is almost always optimistic, and a tall, narrow tower is inherently less stable than a short, wide one.",
-  "Below are 8 narrow shoe racks we evaluated on footprint, real-world pair capacity versus advertised capacity, and stability at height, ranging from a $7.99 stackable 3-tier unit to a 78.7-inch tower with a 100 lb load rating.",
+  "Below are 8 narrow shoe racks we evaluated on footprint, real-world pair capacity versus advertised capacity, and stability at height, ranging from an under-$8 stackable 3-tier unit to a 78.7-inch tower with a 100 lb load rating."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Metal frame + non-woven fabric",
       "3 tiers",
       "Stackable vertically or side-by-side",
-      "Corrosion-resistant",
+      "Corrosion-resistant"
     ],
     pros: [
       "Narrowest pick in this list at 16.3\" wide",
-      "Cheapest pick in this list at $7.99",
+      "Cheapest pick in this list at under $8",
       "Stacks vertically or side-by-side to scale up later",
-      "Corrosion-resistant frame",
+      "Corrosion-resistant frame"
     ],
     cons: [
       "Only 3 tiers, low overall capacity as a standalone unit",
       "Fabric shelf surface less durable than solid metal",
-      "Short height means it won't hold much on its own",
+      "Short height means it won't hold much on its own"
     ],
     bestFor: "The tightest entryway corners and budget-first buyers",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Metal frame + non-woven fabric",
       "4 tiers",
       "22 lb capacity",
-      "Stackable, corrosion-resistant",
+      "Stackable, corrosion-resistant"
     ],
     pros: [
       "Same 16.3\" narrow footprint as the 3-tier model with more capacity",
-      "Cheapest tall pick in this list at $8.99",
+      "Cheapest tall pick in this list at under $9",
       "Stackable for future expansion",
-      "Corrosion-resistant frame",
+      "Corrosion-resistant frame"
     ],
     cons: [
       "22 lb capacity is on the low side",
       "Fabric shelves show wear faster than metal ones",
-      "Still limited to light everyday shoes rather than boots",
+      "Still limited to light everyday shoes rather than boots"
     ],
     bestFor: "Buyers who want a little more capacity than the 3-tier without giving up width",
   },
@@ -115,24 +115,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GrZFMJEeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DNQ8VPT7?tag=deskfinds0d-20",
     description:
-      "The ENJOYBASICS is the only pick in this list with an adjustable width, sliding from 17.8 inches up to 32.7 inches so it can fit an odd-shaped nook now and expand later if you move to a wider hallway. Tool-free assembly means it snaps together without a screwdriver.\n\nWith a 4.7-star rating across 1,843 reviews, it's also the highest-rated pick in this entire list. The metal frame holds around 12 pairs across its 3 tiers, and the fold-flat width adjustment is genuinely useful for renters who don't know their next entryway's exact dimensions.\n\nA genuine advantage here is that only pick with adjustable width, 17.8\" to 32.7\". The tradeoff is short 17.05\" height limits it to a single low tier of visibility.",
+      "The ENJOYBASICS is the only pick in this list with an adjustable width, sliding from 17.8 inches up to 32.7 inches so it can fit an odd-shaped nook now and expand later if you move to a wider hallway. Tool-free assembly means it snaps together without a screwdriver.\n\nThe metal frame holds around 12 pairs across its 3 tiers, and the fold-flat width adjustment is genuinely useful for renters who don't know their next entryway's exact dimensions.\n\nA genuine advantage here is that only pick with adjustable width, 17.8\" to 32.7\". The tradeoff is short 17.05\" height limits it to a single low tier of visibility.",
     specs: [
       "Expandable 17.8\"-32.7\"W x 8.9\"D x 17.05\"H",
       "Metal frame",
       "3 tiers",
       "Tool-free assembly",
-      "Holds 12 pairs",
+      "Holds 12 pairs"
     ],
     pros: [
-      "Highest-rated pick in this list at 4.7 stars",
       "Only pick with adjustable width, 17.8\" to 32.7\"",
       "Tool-free assembly",
-      "Flexible for renters with unknown future floor plans",
+      "Flexible for renters with unknown future floor plans"
     ],
     cons: [
       "Short 17.05\" height limits it to a single low tier of visibility",
       "12-pair capacity is modest at full width",
-      "Expandable joints add a bit of wobble versus a fixed frame",
+      "Expandable joints add a bit of wobble versus a fixed frame"
     ],
     bestFor: "Renters or buyers unsure of their exact entryway width",
   },
@@ -153,18 +152,18 @@ export const products: GuideProduct[] = [
       "Metal frame + non-woven fabric",
       "10 tiers, splits into two 5-tier racks",
       "5 side hooks",
-      "Corner-fit design",
+      "Corner-fit design"
     ],
     pros: [
       "Narrowest tall tower in this list at 11.5\" wide",
       "Splits into two separate 5-tier racks for flexibility",
       "Corner-fit design suits awkward entryway shapes",
-      "5 side hooks for accessories",
+      "5 side hooks for accessories"
     ],
     cons: [
       "66.93\" height on an 11.5\" base is top-heavy without extra support",
       "Fabric-and-connector build sways more than solid metal at full height",
-      "No stated weight capacity per shelf",
+      "No stated weight capacity per shelf"
     ],
     bestFor: "Corner placements where every inch of width counts",
   },
@@ -179,24 +178,21 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41WPjwLYDKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BTHQH9S8?tag=deskfinds0d-20",
     description:
-      "The 17.7-inch-wide version of the LANTEFUL 10-Tier is the most-reviewed pick in this entire list by a wide margin, with over 17,500 ratings behind its 10-tier metal-and-fabric build. It's rated to hold 20-25 pairs and up to 55 lbs, and it splits into two 5-tier racks the same way the narrower version does.\n\nRemember that the 20-25 pair claim assumes small or narrow shoes stacked close together; buyers with men's size 10+ shoes or boots should plan on fewer actual pairs fitting per tier. At 68 inches tall, it's another pick where an anti-tip kit and wall anchor matter, particularly with kids or pets in the house.\n\n55 lb capacity, higher than most narrow fabric racks. That's a real strength, but weigh it against the flip side: advertised 20-25 pair capacity assumes small, closely stacked shoes.",
+      "It's rated to hold 20-25 pairs and up to 55 lbs, and it splits into two 5-tier racks the same way the narrower version does.\n\nRemember that the 20-25 pair claim assumes small or narrow shoes stacked close together; buyers with men's size 10+ shoes or boots should plan on fewer actual pairs fitting per tier. At 68 inches tall, it's another pick where an anti-tip kit and wall anchor matter, particularly with kids or pets in the house.\n\n55 lb capacity, higher than most narrow fabric racks. That's a real strength, but weigh it against the flip side: advertised 20-25 pair capacity assumes small, closely stacked shoes.",
     specs: [
       "17\"W x 10\"D x 68\"H",
       "Metal frame + non-woven fabric",
       "10 tiers, splits into two 5-tier racks",
       "Holds 20-25 pairs, 55 lb capacity",
-      "5 hooks",
+      "5 hooks"
     ],
     pros: [
-      "Most-reviewed pick in this entire list at 17,535 reviews",
       "55 lb capacity, higher than most narrow fabric racks",
-      "Splits into two 5-tier racks",
-      "Strong 4.6-star rating at this scale of reviews",
-    ],
+      "Splits into two 5-tier racks", "Hooks included for bags and accessories"],
     cons: [
       "Advertised 20-25 pair capacity assumes small, closely stacked shoes",
       "68\" height needs anti-tip hardware and wall anchoring for safety",
-      "Fabric tiers wear faster than solid metal shelving",
+      "Fabric tiers wear faster than solid metal shelving"
     ],
     bestFor: "Buyers who want the most battle-tested narrow tower on the market",
   },
@@ -217,18 +213,17 @@ export const products: GuideProduct[] = [
       "Metal frame + plastic",
       "10 tiers",
       "100 lb capacity (highest in this list)",
-      "5 hooks",
+      "5 hooks"
     ],
     pros: [
       "Tallest pick in this list at 78.7\"",
       "Highest weight capacity in this list at 100 lbs",
-      "Deeper 17.1\" base than most narrow towers, adding some stability",
-      "Strong review base at 6,129 ratings",
+      "Deeper 17.1\" base than most narrow towers, adding some stability"
     ],
     cons: [
       "Height demands anti-tip kit and wall anchoring, not optional here",
       "Heaviest shoes should stay on the bottom tiers only",
-      "Bulkier depth than the slimmer 10\"-11.5\" deep picks",
+      "Bulkier depth than the slimmer 10\"-11.5\" deep picks"
     ],
     bestFor: "Buyers who need maximum capacity and are willing to anchor it properly",
   },
@@ -249,18 +244,18 @@ export const products: GuideProduct[] = [
       "Powder-coated steel + dense wire",
       "8 tiers",
       "30 lb/shelf (highest among narrow metal picks)",
-      "1.47 sq ft footprint, 4 adjustable feet, 2 anti-tip kits included",
+      "1.47 sq ft footprint, 4 adjustable feet, 2 anti-tip kits included"
     ],
     pros: [
       "Highest per-shelf load rating among the metal picks in this list",
       "Smallest floor footprint in this list at 1.47 sq ft",
       "Ships with 2 anti-tip kits included",
-      "Open wire shelving improves airflow and reduces odor",
+      "Open wire shelving improves airflow and reduces odor"
     ],
     cons: [
       "Pricier than the fabric-tier picks in this list",
       "50.6\" height still benefits from wall anchoring with kids or pets",
-      "Wire shelving shows less visually finished than solid shelves",
+      "Wire shelving shows less visually finished than solid shelves"
     ],
     bestFor: "Buyers who want a sturdier all-metal build over fabric-and-connector towers",
   },
@@ -281,21 +276,21 @@ export const products: GuideProduct[] = [
       "Particleboard + engineered wood",
       "7 tiers",
       "22 lb/shelf",
-      "Left/right adjustable hooks, raised back panel, anti-tip hardware",
+      "Left/right adjustable hooks, raised back panel, anti-tip hardware"
     ],
     pros: [
       "Narrowest wood-construction pick in this list at 10.4\" wide",
       "22 lb per-shelf rating across all 7 tiers",
       "Adjustable hooks and raised back panel for a finished look",
-      "Anti-tip hardware included",
+      "Anti-tip hardware included"
     ],
     cons: [
       "Wood construction is heavier to move than metal-and-fabric towers",
       "Narrower shelves hold fewer wide shoes per tier",
-      "Pricier than the fabric-based narrow picks",
+      "Pricier than the fabric-based narrow picks"
     ],
     bestFor: "Buyers who want a narrow footprint with a wood-look finish",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +318,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed capacity, height, and included hardware against price, from the Autonomier 3-tier up to the SONGMICS all-metal build.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -473,11 +468,11 @@ export const faq: FaqItem[] = [
   {
     q: "What's the narrowest shoe rack that still holds a real amount?",
     a: "The LANTEFUL 10-Tier at 11.5 inches wide is the narrowest tall option in this list and splits into two 5-tier racks if you'd rather run two shorter units. For a slightly wider but still narrow option, the Autonomier 4-Tier at 16.3 inches wide offers more per-tier surface without much added footprint.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-shoe-rack-on-wheels", title: "Best Shoe Racks on Wheels (2026)" },
   { href: "/guide/best-shoe-rack-5-tier", title: "Best 5-Tier Shoe Racks (2026)" },
-  { href: "/guide/best-shoe-rack-entryway", title: "Best Entryway Shoe Racks (2026)" },
+  { href: "/guide/best-shoe-rack-entryway", title: "Best Entryway Shoe Racks (2026)" }
 ];

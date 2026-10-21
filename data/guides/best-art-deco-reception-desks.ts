@@ -129,20 +129,20 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $159.99",
+          "Under $160",
           "42.1\" Fluted Round-Corner Reception Desk"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "LEEMTORIG Vintage Solid Wood Writing Desk with Drawers"
         ],
         [
-          "Around $1,192.84",
+          "Under $1,200",
           "Romig Marque Curved Single-Unit Reception Workstation"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -190,7 +190,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "LEEMTORIG Vintage Solid Wood Writing Desk with Drawers is aimed at buyers prioritizing 46\"w x 21.6\"d solid rubber wood top." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "LEEMTORIG Vintage Solid Wood Writing Desk with Drawers is aimed at buyers prioritizing 46\"w x 21.6\"d solid rubber wood top." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-antique-reception-desks","title":"best-antique-reception-desks"},{"href":"/guide/best-vintage-reception-desks","title":"best-vintage-reception-desks"},{"href":"/guide/best-modern-reception-desks","title":"best-modern-reception-desks"}];

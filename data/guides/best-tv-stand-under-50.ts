@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["The fastest, simplest assembly", "Furinno Turn-N-Tube 3-Tier Entertainment TV Stand"],
         ["The highest weight capacity for a heavier TV", "Luplom 50 Inch TV Stand"],
-        ["The lowest price with a larger TV rating", "Furinno Turn-S-Tube Wide TV Entertainment Center"],
+        ["The lowest price with a larger TV rating", "Furinno Turn-S-Tube Wide TV Entertainment Center"]
       ],
     },
   },
@@ -116,9 +116,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $33", "Furinno Turn-S-Tube Wide ($32.94)"],
-        ["$37-$39", "Luplom 50 Inch ($37.99) or Furinno Turn-N-Tube ($38.73)"],
-        ["Just above $50", "YGEOMER with Charging Station ($54.99)"],
+        ["Under $33", "Furinno Turn-S-Tube Wide (under $35)"],
+        ["$37-$39", "Luplom 50 Inch (under $40) or Furinno Turn-N-Tube (under $40)"],
+        ["Just above $50", "YGEOMER with Charging Station (under $60)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Round-Tube Frame vs Metal-and-MDF Hybrid",
     cards: [
       { label: "Round-Tube Frame (Furinno picks)", text: "Lighter, faster to assemble, and sufficient for standard TV weights, though with a somewhat lower stated weight capacity than metal-hybrid alternatives." },
-      { label: "Metal-and-MDF Hybrid (Luplom)", text: "Meaningfully higher weight capacity at 150+ lbs, worth prioritizing if you have a heavier TV or just want more peace of mind about long-term stability." },
+      { label: "Metal-and-MDF Hybrid (Luplom)", text: "Meaningfully higher weight capacity at 150+ lbs, worth prioritizing if you have a heavier TV or just want more peace of mind about long-term stability." }
     ],
     note: "For a standard flat-panel TV under 50 lbs, either frame type works fine. For a heavier or older, bulkier TV, the metal-hybrid Luplom pick is the safer choice.",
   },
@@ -136,7 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your TV size", "Recommended pick"],
       rows: [
         ["Up to 50\"", "Furinno Turn-N-Tube or Luplom 50 Inch"],
-        ["Up to 55\"", "Furinno Turn-S-Tube Wide or YGEOMER with Charging Station"],
+        ["Up to 55\"", "Furinno Turn-S-Tube Wide or YGEOMER with Charging Station"]
       ],
     },
   },
@@ -144,16 +144,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Charging-Heavy Entertainment Setup Specifically",
     cards: [
       { label: "Look for", text: "A built-in charging station with multiple AC and USB ports, eliminating the need for a separate power strip near your TV setup." },
-      { label: "In this comparison", text: "The YGEOMER Entertainment Center is the only pick here with an integrated charging station, worth its slight premium above this guide's $50 ceiling." },
+      { label: "In this comparison", text: "The YGEOMER Entertainment Center is the only pick here with an integrated charging station, worth its slight premium above this guide's $50 ceiling." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a built-in charging station and customizable LED lighting, where the YGEOMER pick is the only option offering both, just above this guide's ceiling." },
-      { label: "Save if", text: "A simple, sturdy stand covers your needs, where the Furinno Turn-S-Tube Wide delivers the lowest price with a larger 55\" TV rating." },
+      { label: "Save if", text: "A simple, sturdy stand covers your needs, where the Furinno Turn-S-Tube Wide delivers the lowest price with a larger 55\" TV rating." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

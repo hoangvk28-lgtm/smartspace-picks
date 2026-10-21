@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $153.90",
+          "Under $160",
           "Genmitsu CNC 3018-PRO Router Kit"
         ],
         [
-          "Around $184.99",
+          "Under $190",
           "Carverall K15 Pro Laser Engraver 10W"
         ],
         [
-          "Around $242.10",
+          "Under $250",
           "SainSmart Genmitsu 3018-PROVer V2 CNC Router Machine for Beginners"
         ],
         [
-          "Around $399.20",
+          "Under $400",
           "Genmitsu Cubiko Desktop CNC Router Machine with Enclosure for Beginners"
         ],
         [
-          "Around $437.89",
+          "Under $450",
           "Genmitsu Cubiko Desktop CNC Router Machine with Enclosure for Beginners"
         ],
         [
-          "Around $519.99",
+          "Under $550",
           "Artsian 01 CNC Router Machine"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Genmitsu Cubiko Desktop CNC Router Machine with Enclosure for Beginners is aimed at buyers prioritizing pre-assembled, enclosed, +/-0.1mm accuracy." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Genmitsu Cubiko Desktop CNC Router Machine with Enclosure for Beginners is aimed at buyers prioritizing pre-assembled, enclosed, +/-0.1mm accuracy." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desktop-cnc-machines","title":"Best Desktop CNC Machines in 2026"},{"href":"/guide/best-desktop-cnc-mills","title":"Best Desktop CNC Mills in 2026"},{"href":"/guide/best-cutter-desktop-cnc-machines","title":"Best Cutter Desktop CNC Machines in 2026"}];

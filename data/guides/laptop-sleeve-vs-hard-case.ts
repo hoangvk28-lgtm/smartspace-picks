@@ -12,7 +12,7 @@ export const laptopSleeveVsHardCaseGuide: Guide = {
     "laptop sleeve vs hard shell case",
     "best laptop protection for travel",
     "laptop case drop protection",
-    "laptop sleeve everyday carry",
+    "laptop sleeve everyday carry"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const laptopSleeveVsHardCaseGuide: Guide = {
     "laptop-stand-vs-laptop-riser",
     "cable-sleeve-size-chart",
     "laptop-stand-height-chart",
-    "desk-mat-vs-desk-pad",
+    "desk-mat-vs-desk-pad"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const laptopSleeveVsHardCaseGuide: Guide = {
       question: "Which is better for checked airline luggage?",
       answer:
         "A hard case is strongly recommended for checked luggage specifically, since checked bags experience significantly rougher handling than carry-on items, a sleeve alone offers minimal protection against the impacts common during checked baggage handling.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const laptopSleeveVsHardCaseGuide: Guide = {
     {
       heading: "Matching Protection Level to Actual Risk",
       body: `For a laptop carried carefully inside a padded backpack compartment between home and office, a slim sleeve offers sufficient protection without unnecessary bulk. For air travel, especially any scenario involving checked luggage, a hard case is worth the added weight and bulk given the significantly rougher handling checked bags typically experience compared to careful daily carrying.`,
-    },
+    }
   ],
 };

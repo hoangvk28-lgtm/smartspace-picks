@@ -224,7 +224,7 @@ export default async function BestDeskOrganizersPage() {
               { href: "#best-compact", label: "Best Compact" },
               { href: "#best-budget", label: "Best Budget" },
               { href: "#what-to-look-for", label: "What to look for" },
-              { href: "#faq", label: "FAQ" },
+              { href: "#faq", label: "FAQ" }
             ].map((item) => (
               <a key={item.href} href={item.href} className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors">{item.label}</a>
             ))}
@@ -292,7 +292,7 @@ export default async function BestDeskOrganizersPage() {
               {[
                 { label: "Choose wireless (Qi/Qi2) if", items: ["Your phone charges wirelessly and you want zero cables to the device", "Aesthetics matter -- no cable running from charger to phone is visibly cleaner", "You're in an Apple ecosystem where Qi2/MagSafe delivers full speed"] },
                 { label: "Choose USB if", items: ["You charge Android and Apple devices -- USB-C PD charges any device at full speed", "You need to charge tablets or laptops (USB-C PD handles this, wireless does not)", "You charge 4+ devices simultaneously -- USB hubs scale better than wireless pads"] },
-                { label: "Choose both (like Satechi) if", items: ["Your phone goes wireless while tablets and accessories stay wired", "You want one hub for the whole desk, not two separate charging zones"] },
+                { label: "Choose both (like Satechi) if", items: ["Your phone goes wireless while tablets and accessories stay wired", "You want one hub for the whole desk, not two separate charging zones"] }
               ].map((col, i) => (
                 <div key={i} className="p-4 rounded-xl border border-border bg-white">
                   <p className="text-xs font-bold text-brand uppercase tracking-widest mb-2">{col.label}</p>
@@ -320,7 +320,7 @@ export default async function BestDeskOrganizersPage() {
               {[
                 "The wireless pad is on the top or front face -- not buried under slots",
                 "The pad area is large enough for your specific phone size",
-                "If using MagSafe (Qi2), the pad has the magnetic ring alignment",
+                "If using MagSafe (Qi2), the pad has the magnetic ring alignment"
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3 p-3 rounded-xl border border-border bg-white">
                   <span className="w-5 h-5 rounded-full bg-brand text-white flex items-center justify-center shrink-0 font-bold text-xs">{i + 1}</span>
@@ -340,7 +340,7 @@ export default async function BestDeskOrganizersPage() {
               {[
                 { label: "Hollow base / cable channel (Satechi)", desc: "Cables thread inside the unit body and exit at the back" },
                 { label: "Back-exit cable routing (most units)", desc: "At minimum, cables should exit from the rear, not the sides or front" },
-                { label: "Short cables", desc: "Always use 30 cm cables between devices and the organizer -- available on Amazon for under $5 each, dramatically reduces cable mess" },
+                { label: "Short cables", desc: "Always use 30 cm cables between devices and the organizer -- available on Amazon for under $5 each, dramatically reduces cable mess" }
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3 p-3 rounded-xl border border-border bg-white">
                   <span className="font-bold text-brand text-xs shrink-0 mt-0.5">{item.label}</span>
@@ -388,7 +388,7 @@ export default async function BestDeskOrganizersPage() {
               { label: "Both jobs, genuinely", note: "Every pick had to deliver real charging function AND real organizer function -- not just a token slot bolted onto a charger." },
               { label: "Wireless pad accessibility", note: "Tested whether the wireless charging zone was actually usable or blocked/awkward due to organizer compartment placement." },
               { label: "Cable management built in", note: "Does the unit help keep charging cables tidy, or does it create a second source of clutter?" },
-              { label: "Value at price point", note: "Combo products carry a premium over standalone chargers. Evaluated whether the organizer function justified the added cost." },
+              { label: "Value at price point", note: "Combo products carry a premium over standalone chargers. Evaluated whether the organizer function justified the added cost." }
             ].map((c, i) => (
               <div key={i} className="flex items-start gap-2">
                 <span className="w-5 h-5 rounded-full bg-brand-muted text-brand flex items-center justify-center shrink-0 font-bold text-[10px] mt-0.5">{i + 1}</span>
@@ -424,7 +424,7 @@ export default async function BestDeskOrganizersPage() {
             {[
               { product: "Satechi 7-Port with Velcro dividers", verdict: "is the best all-rounder -- aluminum build, genuine cable management, wireless pad on top, and adjustable device slots that fit anything from a slim phone to a tablet.", href: "#best-overall" },
               { product: "TopMade 4-Slot Wireless Organizer", verdict: "packs surprising function into its compact footprint -- four real compartments, velvet lining, and an upright phone stand that makes it both a charger and the most useful organizer in this price range.", href: "#best-compact" },
-              { product: "POUT H3 SplitMax charging mat", verdict: "hides the charging function in the mat itself and adds a magnetic tray organizer -- ideal if you want the wireless charging integrated into your desk surface without any standalone unit.", href: "#best-desk-mat" },
+              { product: "POUT H3 SplitMax charging mat", verdict: "hides the charging function in the mat itself and adds a magnetic tray organizer -- ideal if you want the wireless charging integrated into your desk surface without any standalone unit.", href: "#best-desk-mat" }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
@@ -455,7 +455,7 @@ export default async function BestDeskOrganizersPage() {
               { href: "/guide/best-charging-stations-for-desk", title: "Best Charging Stations for Desk", desc: "Full roundup including non-organizer picks" },
               { href: "/guide/best-small-desk-charging-stations", title: "Best Small Desk Charging Stations", desc: "Compact picks for tight spaces" },
               { href: "/guide/best-wireless-charging-stations-for-desk", title: "Best Wireless Charging Stations for Desk", desc: "Wireless-first setups" },
-              { href: "/guide/small-desk-organization-ideas", title: "Small Desk Organization Ideas", desc: "Practical organization tips for compact workspaces" },
+              { href: "/guide/small-desk-organization-ideas", title: "Small Desk Organization Ideas", desc: "Practical organization tips for compact workspaces" }
             ].map((g) => (
               <Link prefetch={false} key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
                 <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">

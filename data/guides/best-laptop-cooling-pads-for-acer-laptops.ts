@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop cooling pads for Acer laptops";
 export const introParagraphs = [
   "Acer's lineup spans two very different thermal profiles. Slim ultrabooks like the Swift and Aspire run cool and light, while the Predator and Nitro gaming lines push far more heat under sustained load and weigh noticeably more. A cooling pad that suits one does not automatically suit the other, so this guide separates the picks by which side of that line your laptop falls on.",
-  "None of these pads are built exclusively for Acer hardware. They are universal-fit multi-fan cooling pads, so fit depends on matching your laptop's actual footprint, weight, and vent locations against each pad's stated size and weight range rather than assuming the Acer name alone guarantees compatibility. If you own a Predator or Nitro, also check our dedicated best-gaming-laptop-cooling-pads guide for picks built around heavier sustained-load cooling.",
+  "None of these pads are built exclusively for Acer hardware. They are universal-fit multi-fan cooling pads, so fit depends on matching your laptop's actual footprint, weight, and vent locations against each pad's stated size and weight range rather than assuming the Acer name alone guarantees compatibility. If you own a Predator or Nitro, also check our dedicated best-gaming-laptop-cooling-pads guide for picks built around heavier sustained-load cooling."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -156,7 +156,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Ultrabook vs gaming chassis fit", description: "We evaluated each pad separately for Acer's light Swift and Aspire ultrabooks versus the heavier, hotter Predator and Nitro gaming lines rather than treating Acer as one uniform category." },
   { title: "Fan count and speed relative to stated heat load", description: "We compared fan count, RPM, and stated dB ratings against the kind of sustained heat output a gaming chassis produces versus an everyday ultrabook workload." },
   { title: "Universal-fit honesty", description: "We flagged that none of these pads are Acer-exclusive hardware, and weighed each pad's stated size and weight range against typical Acer chassis dimensions rather than assuming brand-name fit." },
-  { title: "Port and power tradeoffs", description: "We checked whether each pad's USB pass-through or hub genuinely frees a port versus being limited to peripherals only, and noted power draw considerations." },
+  { title: "Port and power tradeoffs", description: "We checked whether each pad's USB pass-through or hub genuinely frees a port versus being limited to peripherals only, and noted power draw considerations." }
 ];
 
 export const howToChoose: HowToChooseSection[] = [
@@ -291,11 +291,11 @@ export const faq: FaqItem[] = [
   { q: "Will any universal cooling pad fit my Acer laptop?", a: "Most cooling pads are universal-fit rather than Acer-exclusive hardware. Check the pad's stated footprint, weight range, and vent alignment against your specific model rather than assuming the brand name guarantees compatibility." },
   { q: "Does a higher fan count always mean better cooling for Acer laptops?", a: "Not automatically. Fan count matters only if it addresses your laptop's actual heat load, and airflow needs to align with the vent locations on your specific chassis to be effective." },
   { q: "Is a cooling pad necessary for an Acer Swift or Aspire?", a: "These ultrabooks generally run cooler than gaming laptops, so a cooling pad is more about comfort and quieter fan noise under moderate use than solving a thermal throttling problem." },
-  { q: "What should Predator and Nitro owners check before buying a cooling pad?", a: "Look for a documented sustained-load temperature drop, a fan count and RPM suited to gaming heat, and a stated size and weight capacity that matches your specific Predator or Nitro chassis, which tends to run larger and heavier than other Acer models." },
+  { q: "What should Predator and Nitro owners check before buying a cooling pad?", a: "Look for a documented sustained-load temperature drop, a fan count and RPM suited to gaming heat, and a stated size and weight capacity that matches your specific Predator or Nitro chassis, which tends to run larger and heavier than other Acer models." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-gaming-laptop-cooling-pads", title: "Best Gaming Laptop Cooling Pads (2026)" },
   { href: "/guide/best-budget-laptop-cooling-pads", title: "Best Budget Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" }
 ];

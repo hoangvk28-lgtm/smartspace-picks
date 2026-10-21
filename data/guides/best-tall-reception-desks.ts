@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $99.82",
+          "Under $100",
           "IGERI Small Black Reception Desk with Lock"
         ],
         [
-          "Around $109.82",
+          "Under $110",
           "IGERI Small Black Reception Desk"
         ],
         [
-          "Around $169.99",
+          "Under $170",
           "Tribesigns Reception Desk with Counter"
         ],
         [
-          "Around $199.99",
+          "Under $200",
           "Luxitero 47\" Reception Desk"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "AIEGLE L-Shaped Reception Desk Counter with Lockable Drawers"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-standing-reception-desks","title":"5 Best Standing Reception Desks in 2026"},{"href":"/guide/best-reception-desks-with-counter","title":"8 Best Reception Desks with Counter in 2026"},{"href":"/guide/best-transaction-counter-reception-desks","title":"best-transaction-counter-reception-desks"}];

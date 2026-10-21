@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["The tallest, most spacious open bookcase at the lowest price", "IRONCK Industrial 6-Shelf Bookcase, 70 Inch Tall"],
         ["The most flexible shelf height adjustability", "VASAGLE 5-Tier Bookshelf, Storage Organizer"],
-        ["Both open display and enclosed dust-protected storage", "Shintenchi Industrial Bookshelf with Doors"],
+        ["Both open display and enclosed dust-protected storage", "Shintenchi Industrial Bookshelf with Doors"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["$66-$70", "IRONCK ($66.59) or VASAGLE 5-Tier ($69.99)"],
-        ["$75-$80", "Shintenchi with Doors ($74.99) or VASAGLE Floor Cabinet ($79.99)"],
+        ["$66-$70", "IRONCK (under $70) or VASAGLE 5-Tier (under $70)"],
+        ["$75-$80", "Shintenchi with Doors (under $80) or VASAGLE Floor Cabinet (under $80)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Open Display vs Enclosed Storage",
     cards: [
       { label: "Fully Open (IRONCK, VASAGLE 5-Tier)", text: "Maximum display visibility for books and decor, but items collect dust over time and everything stays visible, tidy or not." },
-      { label: "Enclosed or Mixed (Shintenchi, VASAGLE Floor Cabinet)", text: "Protects contents from dust and hides clutter behind doors, at the cost of reduced open display space." },
+      { label: "Enclosed or Mixed (Shintenchi, VASAGLE Floor Cabinet)", text: "Protects contents from dust and hides clutter behind doors, at the cost of reduced open display space." }
     ],
     note: "If you want to showcase a curated book collection, open shelving works best. If you're storing items you'd rather keep out of sight and dust-free, an enclosed or mixed design serves that need better.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your space", "Recommended pick"],
       rows: [
         ["Tall ceiling, want maximum vertical storage", "IRONCK (70.8\") or Shintenchi (70.9\")"],
-        ["Standard room, moderate height preferred", "VASAGLE 5-Tier (52.8\") or VASAGLE Floor Cabinet (42.7\")"],
+        ["Standard room, moderate height preferred", "VASAGLE 5-Tier (52.8\") or VASAGLE Floor Cabinet (42.7\")"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Documents or Clutter You Want Hidden Specifically",
     cards: [
       { label: "Look for", text: "A bookshelf or cabinet with genuine enclosed doors, rather than relying on open shelving alone to keep a space looking tidy." },
-      { label: "In this comparison", text: "The VASAGLE Floor Storage Cabinet is the only fully enclosed pick here, ideal for keeping all contents completely out of sight." },
+      { label: "In this comparison", text: "The VASAGLE Floor Storage Cabinet is the only fully enclosed pick here, ideal for keeping all contents completely out of sight." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want both open display and enclosed dust-protected storage in one unit, where the Shintenchi pick combines both at the top of this comparison." },
-      { label: "Save if", text: "A tall, open bookcase covers your needs, where the IRONCK pick delivers the most height and tiers at the lowest price here." },
+      { label: "Save if", text: "A tall, open bookcase covers your needs, where the IRONCK pick delivers the most height and tiers at the lowest price here." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

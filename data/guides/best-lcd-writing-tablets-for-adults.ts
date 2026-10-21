@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "lcd writing tablet for adults";
 export const introParagraphs = [
   "Many LCD writing tablets on the market are marketed toward kids with bright colors and cartoon branding, but the underlying writing technology is frequently identical to adult-styled versions at a similar price, so this list focuses specifically on models with plain, adult-oriented design and features suited to office or home use.",
-  "For adults, useful differentiators include screen size for real note-taking, a durable Hall switch erase mechanism over a basic button, and in one case genuine Bluetooth save capability, worth checking each of these specifically rather than assuming any 'for adults' label reflects a meaningful functional upgrade.",
+  "For adults, useful differentiators include screen size for real note-taking, a durable Hall switch erase mechanism over a basic button, and in one case genuine Bluetooth save capability, worth checking each of these specifically rather than assuming any 'for adults' label reflects a meaningful functional upgrade."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "10 min";
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Adult-oriented styling verified beyond marketing labels", description: "Checked actual product photos and descriptions for plain design over cartoon branding, since a 'for adults' label alone doesn't always reflect the actual design." },
   { title: "Screen size weighted against professional use cases", description: "Evaluated whether a given size suits meeting notes, desk reminders, or sketching, the realistic use cases for adult buyers." },
   { title: "Save capability flagged as a distinct tier", description: "Separated the single genuinely save-capable model from the rest, since this is the biggest functional difference among adult-marketed options." },
-  { title: "Durability of erase mechanism considered for daily office use", description: "Weighted Hall switch mechanisms favorably for buyers expecting frequent daily use in an office setting." },
+  { title: "Durability of erase mechanism considered for daily office use", description: "Weighted Hall switch mechanisms favorably for buyers expecting frequent daily use in an office setting." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -270,11 +270,11 @@ export const faq: FaqItem[] = [
   { q: "Are adult LCD writing tablets functionally different from kids' versions?", a: "Usually not much. The core writing and erase technology is often the same, with the main difference being plain styling versus cartoon branding." },
   { q: "Can an adult LCD writing tablet save my notes?", a: "Only if it has explicit Bluetooth sync capability. Plain LCD writing tablets erase permanently with no way to recover what you wrote." },
   { q: "What size should a professional buy for meeting notes?", a: "A compact 6.5 to 9.5 inch screen is usually enough for quick meeting notes, while 11.5 inches suits more detailed planning." },
-  { q: "Is a rechargeable LCD writing tablet better than a battery-powered one?", a: "Neither is strictly better, it's a preference. Rechargeable models avoid battery swaps but need periodic charging, while coin-cell models run a long time without any maintenance." },
+  { q: "Is a rechargeable LCD writing tablet better than a battery-powered one?", a: "Neither is strictly better, it's a preference. Rechargeable models avoid battery swaps but need periodic charging, while coin-cell models run a long time without any maintenance." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-lcd-writing-tablets-for-work", title: "Best LCD Writing Tablets for Work (2026)" },
   { href: "/guide/best-lcd-writing-tablets-for-note-taking", title: "Best LCD Writing Tablets for Note-Taking (2026)" },
-  { href: "/guide/best-smart-lcd-writing-tablets", title: "Best Smart LCD Writing Tablets (2026)" },
+  { href: "/guide/best-smart-lcd-writing-tablets", title: "Best Smart LCD Writing Tablets (2026)" }
 ];

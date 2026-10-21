@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41Szlhl10ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYPVNBTQ?tag=deskfinds0d-20",
-    description: "Every other enclosure in this comparison tops out at a stated 8TB capacity. Satechi's Pro model is rated for up to 16TB, double the ceiling of anything else here, which matters if you're archiving large video libraries or running a personal NAS-style backup drive rather than a working scratch disk.\n\nAt exactly $99.99, this is the priciest pick in this tier, and it earns that price with a CES award-winning design, a 2-year limited warranty (longer than most competitors here state), and a full accessory bundle including a thermal pad, silicone installation pin, clear case, and USB4 cable in the box.\n\nBest for buyers specifically planning to use a 10TB or larger SSD, where the 8TB ceiling on every cheaper pick in this comparison would actually be a dealbreaker, and who value the longer 2-year warranty over saving $30-50.",
+    description: "Every other enclosure in this comparison tops out at a stated 8TB capacity. Satechi's Pro model is rated for up to 16TB, double the ceiling of anything else here, which matters if you're archiving large video libraries or running a personal NAS-style backup drive rather than a working scratch disk.\n\nAt exactly under $100, this is the priciest pick in this tier, and it earns that price with a CES award-winning design, a 2-year limited warranty (longer than most competitors here state), and a full accessory bundle including a thermal pad, silicone installation pin, clear case, and USB4 cable in the box.\n\nBest for buyers specifically planning to use a 10TB or larger SSD, where the 8TB ceiling on every cheaper pick in this comparison would actually be a dealbreaker, and who value the longer 2-year warranty over saving $30-50.",
     specs: ["Supports up to 16TB, 2230-2280", "PCI-E Gen 4x4, up to 3840MB/s", "2-year limited warranty"],
     pros: ["Only pick here rated for drives past 8TB", "2-year warranty beats most competitors", "Full accessory bundle included in box"],
     cons: ["Priciest pick in this tier", "Polycarbonate casing vs the aluminum bodies elsewhere here"],
@@ -155,7 +155,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The cheapest genuinely 40Gbps-rated option", "Cable Matters 40Gbps USB4 / Thunderbolt 4 SSD Enclosure"],
         ["Silent, fanless operation", "UGREEN 40Gbps M.2 NVMe Enclosure"],
         ["Capacity beyond 8TB", "Satechi USB4 NVMe SSD Pro Enclosure"],
-        ["Hours-long sustained transfer sessions", "Rosewill 40Gbps M.2 NVMe SSD Enclosure"],
+        ["Hours-long sustained transfer sessions", "Rosewill 40Gbps M.2 NVMe SSD Enclosure"]
       ],
     },
   },
@@ -164,9 +164,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $55", "Cable Matters 40Gbps USB4 / Thunderbolt 4 SSD Enclosure ($49.99) or ANYOYO ($54.14)"],
-        ["$55 to $70", "ORICO ($56.99), Rosewill ($59.99), or UGREEN ($69.99)"],
-        ["Up to $100", "Satechi USB4 NVMe SSD Pro Enclosure ($99.99)"],
+        ["Under $55", "Cable Matters 40Gbps USB4 / Thunderbolt 4 SSD Enclosure (under $50) or ANYOYO (under $60)"],
+        ["$55 to $70", "ORICO (under $60), Rosewill (under $60), or UGREEN (under $70)"],
+        ["Up to $100", "Satechi USB4 NVMe SSD Pro Enclosure (under $100)"]
       ],
     },
   },
@@ -180,7 +180,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "Fanless (UGREEN)",
         text: "Completely silent with nothing to wear out over time, but has less thermal headroom for extended high-load sessions than a fan-cooled design.",
-      },
+      }
     ],
     note: "Most buyers doing typical file transfers should default to a fan-cooled pick like Cable Matters unless fan noise is a specific dealbreaker, in which case UGREEN is the only fanless option here.",
   },
@@ -192,7 +192,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Single-sided, up to 4TB", "Cable Matters 40Gbps USB4 / Thunderbolt 4 SSD Enclosure"],
         ["Double-sided or up to 8TB", "ANYOYO or Rosewill"],
         ["Larger than 8TB", "Satechi USB4 NVMe SSD Pro Enclosure"],
-        ["Already has a factory heatsink attached", "Cable Matters, ANYOYO, or Rosewill (not ORICO)"],
+        ["Already has a factory heatsink attached", "Cable Matters, ANYOYO, or Rosewill (not ORICO)"]
       ],
     },
   },
@@ -206,7 +206,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "Rosewill's explicit 4-hour full-speed rating and ORICO's three-layer cooling bundle are the two picks here built with sustained load specifically in mind.",
-      },
+      }
     ],
   },
   {
@@ -214,14 +214,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You're using or planning to use a 10TB or larger SSD: the Satechi USB4 NVMe SSD Pro Enclosure ($99.99) is the only pick here rated past 8TB, and its 2-year warranty is longer than most competitors.",
+        text: "You're using or planning to use a 10TB or larger SSD: the Satechi USB4 NVMe SSD Pro Enclosure (under $100) is the only pick here rated past 8TB, and its 2-year warranty is longer than most competitors.",
       },
       {
         label: "Save if",
-        text: "Your SSD is 4TB or smaller and single-sided: the Cable Matters enclosure ($49.99) uses the same class of 40Gbps controller as pricier picks and skips only the capacity headroom you don't need yet.",
-      },
+        text: "Your SSD is 4TB or smaller and single-sided: the Cable Matters enclosure (under $50) uses the same class of 40Gbps controller as pricier picks and skips only the capacity headroom you don't need yet.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -277,5 +277,5 @@ export const faq = [
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-usb4-nvme-enclosures-under-150", title: "Best USB4 NVMe Enclosures Under $150" },
   { href: "/guide/best-thunderbolt-4-nvme-enclosures", title: "Best Thunderbolt 4 NVMe Enclosures" },
-  { href: "/guide/best-nvme-enclosures-under-500", title: "Best NVMe Enclosures Under $500" },
+  { href: "/guide/best-nvme-enclosures-under-500", title: "Best NVMe Enclosures Under $500" }
 ];

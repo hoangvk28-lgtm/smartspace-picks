@@ -263,7 +263,7 @@ export default async function UnderDeskChargingPage() {
                 label: "Option C -- Screw Mount (Tools Required, 30 Minutes)",
                 steps: ["Plan cable route: where does the power cord exit to the wall?", "Mark drill pilot hole positions (most brackets: 2--3 holes)", "Drill pilot holes -- 3mm bit for wood/MDF", "Screw bracket to underside with included hardware", "Mount power strip into bracket", "Route power cord along underside using cable raceways or clips", "Route peripheral cables up through desk grommet hole or along back edge"],
                 result: null,
-              },
+              }
             ].map((opt, i) => (
               <div key={i} className="p-5 rounded-xl border border-border bg-white">
                 <h3 className="font-bold text-ink text-base mb-3">{opt.label}</h3>
@@ -292,7 +292,7 @@ export default async function UnderDeskChargingPage() {
               { num: "1", title: "Plan cable routes before mounting anything", body: "The biggest under-desk mistake: mounting a strip, then realizing the power cord does not reach the wall without crossing the floor. Measure the cord length first, map the path from strip to wall outlet, then mount." },
               { num: "2", title: "Use cable raceways for the floor run", body: "If the power cord must drop from the desk underside to a floor outlet, a cable raceway (J-channel type, ~$8 on Amazon) mounts against the wall and hides the vertical drop. Looks intentional rather than temporary." },
               { num: "3", title: "Match mount position to cable reach of your devices", body: "A wireless through-desk pad does not help if your phone sits 40cm away from the charging zone. Place the pad directly under where your phone naturally rests during work -- not where you think it should go." },
-              { num: "4", title: "Test before permanent installation", body: "For clamp options: test for one week before committing to a screw-mount. For wireless pads: tape the pad in position for a day before removing the adhesive backing -- verify the phone location works with your actual workflow." },
+              { num: "4", title: "Test before permanent installation", body: "For clamp options: test for one week before committing to a screw-mount. For wireless pads: tape the pad in position for a day before removing the adhesive backing -- verify the phone location works with your actual workflow." }
             ].map((tip) => (
               <div key={tip.num} className="flex items-start gap-4 p-4 rounded-xl border border-border bg-white">
                 <span className="w-7 h-7 rounded-lg bg-brand text-white flex items-center justify-center shrink-0 font-bold text-sm">{tip.num}</span>
@@ -322,7 +322,7 @@ export default async function UnderDeskChargingPage() {
             {[
               { product: "Anker Nano 10-in-1 Clamp", context: "For most desk setups", verdict: "is the cleanest starting point: no permanent modification, above-deck USB access, below-deck hidden AC outlets, and 70W USB-C charging. Install in five minutes, remove in two.", href: "#best-clamp" },
               { product: "i-VALUX Grommet Wireless Charger", context: "If your desk already has an 80mm grommet hole", verdict: "is the most elegant upgrade -- flush, invisible, and no drilling required.", href: "#best-grommet" },
-              { product: "Humanscale NeatCharge", context: "For the ultimate clean setup where no charging hardware is visible from any angle", verdict: "installs under the surface and charges your phone through the desk -- provided the desk is non-metallic and under 30mm thick.", href: "#best-wireless" },
+              { product: "Humanscale NeatCharge", context: "For the ultimate clean setup where no charging hardware is visible from any angle", verdict: "installs under the surface and charges your phone through the desk -- provided the desk is non-metallic and under 30mm thick.", href: "#best-wireless" }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
@@ -351,7 +351,7 @@ export default async function UnderDeskChargingPage() {
               { href: "/guide/best-charging-stations-for-desk", title: "Best Charging Stations for Desk", desc: "On-desk charging options" },
               { href: "/guide/best-small-desk-charging-stations", title: "Best Small Desk Charging Stations", desc: "When the desk is small but stays on-surface" },
               { href: "/guide/best-charging-station-desk-organizers", title: "Best Charging Station Desk Organizers", desc: "Organizer + charging in one footprint" },
-              { href: "/guide/best-docking-stations-for-desk-setup", title: "Best Docking Stations for Desk Setup", desc: "Hide your dock under the desk too" },
+              { href: "/guide/best-docking-stations-for-desk-setup", title: "Best Docking Stations for Desk Setup", desc: "Hide your dock under the desk too" }
             ].map((g) => (
               <Link prefetch={false} key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
                 <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">

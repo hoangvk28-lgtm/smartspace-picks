@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "best wired vertical mice";
 export const introParagraphs = [
   "A wired vertical mouse has one design challenge a standard mouse doesn't face as much: the cable can tug the body slightly out of its resting tilt angle during use, since the mouse already sits at an angle rather than flat on the desk. A braided cable that lies flatter and moves more freely tends to interfere with the angle less than a stiffer standard cable, though this is worth checking through buyer feedback rather than assuming any wired mouse handles it well.",
-  "The genuine upside of going wired is eliminating battery weight and bulk entirely, which some buyers find meaningfully changes the feel of an already-unusual grip angle. We also checked cable length against a range of desk depths, since a mouse that's a comfortable reach on a shallow desk can feel short on a deeper one, and noted USB connector spacing, since a wide connector housing can crowd out neighboring ports on a busy hub.",
+  "The genuine upside of going wired is eliminating battery weight and bulk entirely, which some buyers find meaningfully changes the feel of an already-unusual grip angle. We also checked cable length against a range of desk depths, since a mouse that's a comfortable reach on a shallow desk can feel short on a deeper one, and noted USB connector spacing, since a wide connector housing can crowd out neighboring ports on a busy hub."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -26,14 +26,14 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Wired Pick",
     name: "Evoluent - World's Original Vertical Mouse, Wired Ergonomic Mouse",
     price: "$89.95",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "2,295 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31o5C5jFQAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00427TAIK?tag=deskfinds0d-20",
     description:
       "One of the longest-standing designs in the vertical mouse category, with a solid, consistent review rating across a meaningful sample size for a wired-only pick.\n\nEliminating battery weight entirely gives a lighter overall feel despite the premium price, and the body's angle is a fixed, well-established design rather than a newer untested one. Check the current listing for cable length before buying if your desk is unusually deep.\n\nLong-established, well-reviewed design. That's a real strength, but weigh it against the flip side: premium price for a wired-only mouse.",
     specs: ["Wired USB connection", "Fixed ergonomic tilt angle", "No battery, lighter body", "Premium price point"],
-    pros: ["No battery weight, a genuine ergonomic advantage of going wired", "Long-established, well-reviewed design", "Consistent 4.4-star rating across a meaningful sample", "Fixed angle avoids battery-driven weight changes over time"],
+    pros: ["No battery weight, a genuine ergonomic advantage of going wired", "Long-established, well-reviewed design", "Fixed angle avoids battery-driven weight changes over time"],
     cons: ["Premium price for a wired-only mouse", "Cable drag on the tilted body possible, check buyer feedback", "No wireless option if you later want one"],
     bestFor: "Buyers who want an established, well-reviewed wired design and are comfortable paying a premium for it.",
   },
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Wired Pick",
     name: "TECKNET Wired Mouse, Comfortable Ergonomic Mouse with 6400 DPI",
     price: "$19.19",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "3,694 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31vAjZuq+pL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CMC1F5WB?tag=deskfinds0d-20",
     description:
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best Mid-Range Wired Pick",
     name: "Anker USB Wired Vertical Mouse, Ergonomic Mouse for Computer and Laptop",
     price: "$25.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "9,039 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41h3oxMYtPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00FPAVUHC?tag=deskfinds0d-20",
     description:
@@ -77,14 +77,14 @@ export const products: GuideProduct[] = [
     badge: "Best 6-Button Wired Pick",
     name: "Perixx PERIMICE-513 Wired Ergonomic Vertical Mouse, 6 Buttons",
     price: "$16.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "181 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ebwPVvIjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D14D4P98?tag=deskfinds0d-20",
     description:
-      "A 6-button layout gives more programmable options than most budget wired picks, at a low price with a strong 4.6-star rating, though on a smaller review sample than the more established picks in this guide.\n\nAs with any wired vertical mouse, check buyer feedback for cable stiffness and whether it interferes with the resting tilt angle during use.\n\nStrong 4.6-star rating. That said, smaller review sample than the top wired picks. Neither should be a surprise once you know to look for it.",
+      "As with any wired vertical mouse, check buyer feedback for cable stiffness and whether it interferes with the resting tilt angle during use.\n\nThat said, smaller review sample than the top wired picks. Neither should be a surprise once you know to look for it.",
     specs: ["Wired USB connection", "6 programmable buttons", "Ergonomic vertical design", "Budget price point"],
-    pros: ["More programmable buttons than most budget wired picks", "Strong 4.6-star rating", "No battery weight", "Low price point"],
+    pros: ["More programmable buttons than most budget wired picks", "No battery weight", "Low price point"],
     cons: ["Smaller review sample than the top wired picks", "Cable type and stiffness not independently confirmed", "Less established brand track record"],
     bestFor: "Budget-conscious buyers who want more programmable buttons on a wired mouse.",
   },
@@ -94,15 +94,15 @@ export const products: GuideProduct[] = [
     badge: "Best Ultra-Budget Wired Pick",
     name: "KUNSI Wired Ergonomic Mouse, USB Wired Vertical Mouse with adjustable DPI",
     price: "$9.99",
-    rating: "4.1 stars from Amazon ratings",
-    reviews: "181 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41VQ8m4r1iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F4JNS3PX?tag=deskfinds0d-20",
     description:
-      "The lowest price in this guide for a wired vertical mouse, with adjustable DPI included even at this budget tier, useful for buyers who mainly want to try the wired vertical grip cheaply.\n\nIts 4.1-star rating is more moderate than the other picks here, so weigh the very low price against a smaller review sample and less established brand track record.\n\nWorth calling out specifically: adjustable DPI even at this price tier. The catch is more moderate 4.1-star rating than other wired picks.",
+      "The lowest price in this guide for a wired vertical mouse, with adjustable DPI included even at this budget tier, useful for buyers who mainly want to try the wired vertical grip cheaply.\n\nWorth calling out specifically: adjustable DPI even at this price tier.",
     specs: ["Wired USB connection", "Adjustable DPI", "Ergonomic vertical design", "Ultra-budget price point"],
     pros: ["Lowest price in this guide", "Adjustable DPI even at this price tier", "No battery weight", "Simple plug-and-play setup"],
-    cons: ["More moderate 4.1-star rating than other wired picks", "Smaller review sample size", "Less established brand track record"],
+    cons: [ "Smaller review sample size", "Less established brand track record"],
     bestFor: "Buyers who want the cheapest possible way to try a wired vertical mouse.",
   },
   {
@@ -111,8 +111,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wired Pick With a Joystick Control",
     name: "zelotes Wired Gaming Mouse with Joystick, 10000 DPI, 11 Programmable Buttons",
     price: "$29.99",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "247 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31fim6uc3BL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0894QX7SK?tag=deskfinds0d-20",
     description:
@@ -121,7 +121,7 @@ export const products: GuideProduct[] = [
     pros: ["Far higher DPI ceiling than other wired picks in this guide", "Joystick control is a genuinely unique input option", "11 programmable buttons", "No battery weight"],
     cons: ["Leans more gaming-oriented than purely ergonomic", "Vertical tilt angle less documented than dedicated ergonomic picks", "Smaller review sample than the top picks"],
     bestFor: "Buyers who want extra input options like a joystick and high DPI alongside a wired vertical-leaning design.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -129,7 +129,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Cable drag on the tilted resting angle considered", description: "We weighed whether a stiffer cable is more likely to pull a wired vertical mouse out of its resting tilt during use, a scenario unique to this already-angled body shape." },
   { title: "Cable type checked where disclosed", description: "We noted whether a braided or standard cable was stated, since a braided cable generally moves more freely and interferes less with the resting angle." },
   { title: "Elimination of battery weight treated as a genuine advantage", description: "We weighed the lighter, more consistent body weight of a wired design as a real ergonomic upside over wireless alternatives that carry batteries." },
-  { title: "Cable length and USB connector spacing considered", description: "We checked cable length against a range of desk depths and noted where a wide USB connector housing could crowd a busy hub." },
+  { title: "Cable length and USB connector spacing considered", description: "We checked cable length against a range of desk depths and noted where a wide USB connector housing could crowd a busy hub." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -256,11 +256,11 @@ export const faq: FaqItem[] = [
   { q: "Can a cable pull a wired vertical mouse out of position?", a: "It's possible, since the mouse already rests at an angle. A braided, more flexible cable tends to interfere with the resting angle less than a stiffer standard cable." },
   { q: "Is a wired vertical mouse more ergonomic than a wireless one?", a: "It can be lighter and more consistent in feel since it has no battery weight, though you lose the freedom of movement a wireless mouse offers." },
   { q: "Do wired vertical mice work with laptops that only have USB-C?", a: "Only with a USB-A to USB-C adapter unless the specific model ships with a USB-C cable, so check the connector type in the listing." },
-  { q: "How long is the cable on a typical wired vertical mouse?", a: "It varies by product, so check the specific listing and compare it against your desk depth before assuming it will comfortably reach." },
+  { q: "How long is the cable on a typical wired vertical mouse?", a: "It varies by product, so check the specific listing and compare it against your desk depth before assuming it will comfortably reach." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-wireless-vertical-mice", title: "Best Wireless Vertical Mice in 2026" },
   { href: "/guide/best-usb-c-vertical-mice", title: "Best USB-C Vertical Mice in 2026" },
-  { href: "/guide/best-vertical-mice", title: "Best Vertical Mice in 2026" },
+  { href: "/guide/best-vertical-mice", title: "Best Vertical Mice in 2026" }
 ];

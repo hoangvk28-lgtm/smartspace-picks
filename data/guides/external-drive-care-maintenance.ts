@@ -12,7 +12,7 @@ export const externalDriveCareMaintenanceGuide: Guide = {
     "how to properly eject external drive",
     "external hard drive storage conditions",
     "extend external ssd lifespan",
-    "external drive care tips",
+    "external drive care tips"
   ],
   heroImage: "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const externalDriveCareMaintenanceGuide: Guide = {
     "external-drive-troubleshooting",
     "external-ssd-vs-hdd",
     "backup-strategy-3-2-1-rule-explained",
-    "usb4-nvme-enclosure-explained",
+    "usb4-nvme-enclosure-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const externalDriveCareMaintenanceGuide: Guide = {
       question: "Should I periodically check my external drive's health status?",
       answer:
         "Yes, many operating systems and drive manufacturers offer tools to check a drive's health status (SMART data for HDDs, wear indicators for SSDs), periodically checking this can give early warning of a drive approaching failure before you lose data.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const externalDriveCareMaintenanceGuide: Guide = {
     {
       heading: "Why Periodic Health Checks Catch Problems Before Data Loss",
       body: `Both HDDs and SSDs show measurable warning signs before outright failure, HDDs through SMART diagnostic data tracking things like reallocated sectors, and SSDs through wear-leveling indicators tracking how much of their write endurance has been used. Periodically checking these indicators, through built-in operating system tools or manufacturer utilities, gives you a chance to back up critical data and replace an aging drive proactively, rather than discovering a failure only after data is already lost.`,
-    },
+    }
   ],
 };

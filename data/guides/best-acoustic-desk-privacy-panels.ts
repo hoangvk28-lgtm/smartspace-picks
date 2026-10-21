@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "acoustic desk privacy panel";
 export const introParagraphs = [
   "This is a narrower companion to our full sound-absorbing desk privacy panel guide, the two terms describe largely the same product category, so rather than re-running the same research twice, this guide highlights a smaller, distinct set of three panels and points you to that fuller guide for a wider comparison if these three don't fit your desk.",
-  "As with the rest of this cluster, none of these panels publish a formal NRC rating, and 'acoustic' at this scale means modest absorption of reflected sound near your own desk, not genuine sound blocking, keep that distinction in mind whether you land on this guide or the sound-absorbing one.",
+  "As with the rest of this cluster, none of these panels publish a formal NRC rating, and 'acoustic' at this scale means modest absorption of reflected sound near your own desk, not genuine sound blocking, keep that distinction in mind whether you land on this guide or the sound-absorbing one."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "7 min";
@@ -70,7 +70,7 @@ export const products: GuideProduct[] = [
     pros: ["Affordable compact option", "Easy to reposition given the small size", "Fits tight desk spaces", "Low-commitment way to test panel-based privacy"],
     cons: ["Limited coverage given the small dimensions", "Not a substitute for a full-height panel", "No published NRC rating"],
     bestFor: "Buyers wanting a small, affordable accent panel rather than full desk coverage.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -78,7 +78,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Overlap with the sound-absorbing panel guide checked first", description: "Cross-checked this smaller three-product set against our existing sound-absorbing desk privacy panel guide to avoid duplicating that research, this guide intentionally covers a narrower slice." },
   { title: "NRC disclosure checked, not assumed", description: "Checked each listing for a published Noise Reduction Coefficient rating. None in this set publish one, so absorption claims are treated as directional, not verified." },
   { title: "Mounting method noted for desk fit", description: "Noted freestanding versus flat panel styles so buyers can match the product to their desk without a clamp compatibility surprise." },
-  { title: "Height weighed against seated eye level", description: "Weighed each panel's listed height against typical seated eye level, since shorter panels leave more open sightline and sound path above them." },
+  { title: "Height weighed against seated eye level", description: "Weighed each panel's listed height against typical seated eye level, since shorter panels leave more open sightline and sound path above them." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -194,11 +194,11 @@ export const faq: FaqItem[] = [
   { q: "How is this guide different from the sound-absorbing desk privacy panel guide?", a: "The two terms describe largely the same category, this guide covers a smaller, distinct set of three panels, our sound-absorbing guide has a wider comparison if these don't fit." },
   { q: "Do these panels come with a published NRC rating?", a: "No, none of the three panels here publish a formal Noise Reduction Coefficient, treat absorption claims as directional." },
   { q: "Will a small accent panel like the Icegrey pick give full desk coverage?", a: "Not on its own, its compact size makes it better suited to softening one sightline, pair it with a larger panel for fuller coverage." },
-  { q: "Should I check panel height against my chair?", a: "Yes, a panel shorter than your seated eye level leaves an open sightline and sound path above it." },
+  { q: "Should I check panel height against my chair?", a: "Yes, a panel shorter than your seated eye level leaves an open sightline and sound path above it." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-sound-absorbing-desk-privacy-panels", title: "Best Sound-Absorbing Desk Privacy Panels (2026)" },
   { href: "/guide/best-acoustic-desk-dividers", title: "Best Acoustic Desk Dividers (2026)" },
-  { href: "/guide/best-desk-acoustic-panels", title: "Best Desk Acoustic Panels (2026)" },
+  { href: "/guide/best-desk-acoustic-panels", title: "Best Desk Acoustic Panels (2026)" }
 ];

@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31YAeSy9C2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D9B577G8?tag=deskfinds0d-20",
-    description: "A 4-post open frame rack rated for 1900 lbs, built from 2mm cold rolled steel for extra rigidity compared to the thinner-gauge racks in this category.\n\nDepth adjusts across a 22-35 inch range, and the listing specifically calls out compatibility with data centers, broadcast studios, and home lab setups alike, giving it a fairly broad use case.\n\nThe strongest case for this pick comes down to 2mm steel gauge is thicker than most in this class as well as 1900 lb rating handles a dense full-height stack. The compromise here is that full 80\" height needs a tall dedicated room, so factor that in alongside the $251.99 asking price.",
+    description: "A 4-post open frame rack rated for 1900 lbs, built from 2mm cold rolled steel for extra rigidity compared to the thinner-gauge racks in this category.\n\nDepth adjusts across a 22-35 inch range, and the listing specifically calls out compatibility with data centers, broadcast studios, and home lab setups alike, giving it a fairly broad use case.\n\nThe strongest case for this pick comes down to 2mm steel gauge is thicker than most in this class as well as 1900 lb rating handles a dense full-height stack. The compromise here is that full 80\" height needs a tall dedicated room, so factor that in alongside the under $300 asking price.",
     specs: ["42U, 22-35\" adjustable depth, 2mm steel","1900 lb weight capacity","Pre-installed square holes, cage nuts included"],
     pros: ["2mm steel gauge is thicker than most in this class","1900 lb rating handles a dense full-height stack","Assembly is genuinely quick, under 20 minutes claimed"],
     cons: ["Full 80\" height needs a tall dedicated room","Open frame means no dust or access control"],
@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $179.99",
+          "Under $180",
           "Raising Electronics 27U 4-Post Open Rack Frame"
         ],
         [
-          "Around $251.99",
+          "Under $300",
           "GlobalRack 42U Open Frame Server Rack"
         ],
         [
-          "Around $278.16",
+          "Under $300",
           "RIVECO 25U Server Rack Adjustable Depth"
         ],
         [
-          "Around $357.99",
+          "Under $400",
           "StarTech 42U 4-Post Open Frame Rack"
         ],
         [
-          "Around $428.25",
+          "Under $450",
           "RIVECO 42U Adjustable Depth Server Rack"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "RIVECO 42U Adjustable Depth Server Rack is aimed at buyers prioritizing 42u, 24-38\" adjustable depth." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "RIVECO 42U Adjustable Depth Server Rack is aimed at buyers prioritizing 42u, 24-38\" adjustable depth." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-42u-server-racks","title":"Best 42U Server Racks in 2026"},{"href":"/guide/best-2u-server-racks","title":"Best 2U Server Racks in 2026"},{"href":"/guide/best-1u-server-racks","title":"Best 1U Server Racks in 2026"}];

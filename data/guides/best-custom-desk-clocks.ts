@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "custom desk clock";
 export const introParagraphs = [
   "Custom desk clock and personalized desk clock cover the same underlying product category, but we're framing this guide around the customization choices themselves, engraving style, material, and whether you want text or a photo, rather than matching picks to specific gift occasions. If you already know it's a retirement or corporate gift and want the occasion-first framing, see our personalized desk clocks guide, which covers this same pool ranked around that angle instead.",
-  "Every pick here supports custom engraving or personalization, and we call out exactly what kind, text, photo, or both, so you know what to expect before ordering.",
+  "Every pick here supports custom engraving or personalization, and we call out exactly what kind, text, photo, or both, so you know what to expect before ordering."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "10 min";
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Ranked by customization type and material rather than gift occasion", description: "Ordered picks around what kind of customization each supports, text versus photo, and which material the engraving sits on, a different lens than our occasion-based personalized desk clocks guide." },
   { title: "Distinguished photo-capable customization from text-only", description: "Clearly flagged that only one pick in this list supports photo engraving, the rest are text customization only, to avoid buyers assuming photo capability is standard." },
   { title: "Compared engraving surface material across the pool", description: "Noted how wood, glass, and crystal each render custom text differently, since the visual result varies meaningfully by material even with similar customization processes." },
-  { title: "Cross-checked against our personalized desk clocks guide to avoid duplicate ranking", description: "Deliberately reordered and reframed this list around the customization process itself, distinct from the occasion-first framing in our companion guide." },
+  { title: "Cross-checked against our personalized desk clocks guide to avoid duplicate ranking", description: "Deliberately reordered and reframed this list around the customization process itself, distinct from the occasion-first framing in our companion guide." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -278,11 +278,11 @@ export const faq: FaqItem[] = [
   { q: "Can I put a photo on a custom desk clock?", a: "Only one pick in this guide, the personalized wooden clock, supports genuine photo engraving. The rest support custom text engraving only." },
   { q: "What's the difference between this guide and your personalized desk clocks guide?", a: "This guide ranks the same product pool around customization type and material, text versus photo, glass versus wood, while the personalized guide organizes picks around specific gift occasions like retirement or corporate recognition." },
   { q: "Does custom engraving cost extra?", a: "It varies by listing, some include customization free in the price, others may charge separately, check the individual product listing before comparing costs." },
-  { q: "Which material engraves the most clearly?", a: "Based on typical engraving results, glass and crystal tend to render text crisply and formally, while wood renders text with a warmer, more traditional look." },
+  { q: "Which material engraves the most clearly?", a: "Based on typical engraving results, glass and crystal tend to render text crisply and formally, while wood renders text with a warmer, more traditional look." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-personalized-desk-clocks", title: "Best Personalized Desk Clocks (2026)" },
   { href: "/guide/best-crystal-desk-clocks", title: "Best Crystal Desk Clocks (2026)" },
-  { href: "/guide/best-luxury-desk-clocks", title: "Best Luxury Desk Clocks (2026)" },
+  { href: "/guide/best-luxury-desk-clocks", title: "Best Luxury Desk Clocks (2026)" }
 ];

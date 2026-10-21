@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $329.99",
+          "Under $350",
           "Tribesigns 8FT Conference Table for 10"
         ],
         [
-          "Around $349.99",
+          "Under $350",
           "Tribesigns 8ft Conference Table for 10"
         ],
         [
-          "Around $369.99",
+          "Under $400",
           "Tribesigns 10.5FT Conference Table"
         ],
         [
-          "Around $379.99",
+          "Under $400",
           "Tribesigns 8FT Conference Table for 10"
         ],
         [
-          "Around $389.99",
+          "Under $400",
           "Tribesigns 10ft Conference Table for 8-12"
         ],
         [
-          "Around $389.99",
+          "Under $400",
           "Tribesigns 8ft Conference Table for 8-10"
         ],
         [
-          "Around $489.99",
+          "Under $500",
           "TRIBEWOOD 10FT Solid Wood Conference Table for 10-12"
         ],
         [
-          "Around $1,799.00",
+          "Under $1,800",
           "OfficeSimpli 10ft Conference Table"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "OfficeSimpli 10ft Conference Table is aimed at buyers prioritizing 96\"x48\" (8ft) table, seats 8-10." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "OfficeSimpli 10ft Conference Table is aimed at buyers prioritizing 96\"x48\" (8ft) table, seats 8-10." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-large-conference-tables","title":"Best Large Conference Tables in 2026"},{"href":"/guide/best-conference-tables","title":"Best Conference Tables in 2026"},{"href":"/guide/best-conference-tables-with-chairs","title":"Best Conference Tables With Chairs in 2026"}];

@@ -193,36 +193,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $107.99",
+          "Under $110",
           "3.4 Cu Ft Digital Home Safe with Programmable Keypad"
         ],
         [
-          "Around $127.48",
+          "Under $130",
           "DAYI 2.0 Cu Ft Home Safe with Fireproof/Waterproof Bag"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "2.0 Cu Ft Fireproof Safe Box"
         ],
         [
-          "Around $259.00",
+          "Under $300",
           "SentrySafe 1.23 Cu Ft Digital Push Button Safe"
         ],
         [
-          "Around $268.99",
+          "Under $300",
           "TIGERKING 2.05 Cu Ft Home Safe with Touchscreen Digital Lock"
         ],
         [
-          "Around $286.99",
+          "Under $300",
           "TIGERKING 3.47 Cu Ft Fireproof Safe for Home & Office"
         ],
         [
-          "Around $489.99",
+          "Under $500",
           "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -270,7 +270,7 @@ export const faq = [
     "a": "Not exactly. Fire insulation, shelving, and door hardware all take up interior volume, so the nominal cubic-foot figure is always somewhat larger than what you can actually pack inside. Check interior dimensions and shelf layout, not just the headline capacity number."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe is aimed at buyers prioritizing 2.05 cu ft, ul 1hr at 1700-degreef." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe is aimed at buyers prioritizing 2.05 cu ft, ul 1hr at 1700-degreef." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-brinks-fireproof-safes","title":"Best Brinks Fireproof Safes in 2026"},{"href":"/guide/best-first-alert-fireproof-safes","title":"Best First Alert Fireproof Safes in 2026"},{"href":"/guide/best-honeywell-fireproof-safes","title":"Best Honeywell Fireproof Safes in 2026"}];

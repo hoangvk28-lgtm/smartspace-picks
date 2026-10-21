@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "combination laptop locks";
 export const introParagraphs = [
   "Mechanical combination locks carry distinct reset, readability, and forgotten-code risks that keyed locks don't, so we evaluated that workflow directly instead of treating every combination lock as functionally interchangeable. Whether a code is user-resettable, and what happens if you forget it, varies meaningfully across this lineup.",
-  "We also kept slot compatibility separate from the combination mechanism itself: a well-designed resettable dial does nothing if it's attached to the wrong lock-head standard for your laptop.",
+  "We also kept slot compatibility separate from the combination mechanism itself: a well-designed resettable dial does nothing if it's attached to the wrong lock-head standard for your laptop."
 ];
 export const lastUpdated = "2026-08-11";
 export const readTime = "9 min";
@@ -94,10 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "56",
     imageUrl: "https://m.media-amazon.com/images/I/21wh6b9wJwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CRKFVZ9L?tag=deskfinds0d-20",
-    description: "A 5-foot anti-shearing cable with a 360-degree head pivot and one-handed slider attachment, at the lowest price of any Standard-slot combination lock in this comparison. The resettable 4-wheel mechanism works the same way as the pricier Standard-slot picks, just paired with a shorter cable and a lower-cost build.\n\nOne spot below Kensington NanoSaver Combination Laptop Lock in this ranking, it's priced lower than Kensington NanoSaver Combination Laptop Lock. The compromise here is straightforward: Lowest rating in this comparison at 3.9 stars. What you gain in return: Lowest price of any Standard-slot combination lock in this comparison. Whether that trade is worth it depends on which side matters more for your device.\n\nWorth knowing before you decide: Full head and cable rotation preserves port access. On the other side, Smaller review base than the top Standard-slot picks. That's the main tradeoff to weigh against everything above.",
+    description: "A 5-foot anti-shearing cable with a 360-degree head pivot and one-handed slider attachment, at the lowest price of any Standard-slot combination lock in this comparison. The resettable 4-wheel mechanism works the same way as the pricier Standard-slot picks, just paired with a shorter cable and a lower-cost build.\n\nOne spot below Kensington NanoSaver Combination Laptop Lock in this ranking, it's priced lower than Kensington NanoSaver Combination Laptop Lock. What you gain in return: Lowest price of any Standard-slot combination lock in this comparison. Whether that trade is worth it depends on which side matters more for your device.\n\nWorth knowing before you decide: Full head and cable rotation preserves port access. On the other side, Smaller review base than the top Standard-slot picks. That's the main tradeoff to weigh against everything above.",
     specs: ["Resettable 4-wheel dial, 10,000 combinations","5 ft anti-shearing cable, 360-degree head pivot","Standard slot, one-handed slider attach"],
     pros: ["Lowest price of any Standard-slot combination lock in this comparison","Full head and cable rotation preserves port access"],
-    cons: ["Lowest rating in this comparison at 3.9 stars","Smaller review base than the top Standard-slot picks"],
+    cons: ["Smaller review base than the top Standard-slot picks"],
     bestFor: "Budget buyers on a Standard slot who've weighed the lower rating against the price.",
   },
   {
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Checked resettability and reset process for every pick", description: "All 8 combination locks here use a user-resettable 4-digit or 4-wheel mechanism, and we confirmed none rely on a permanent factory-set code that can't be changed." },
   { title: "Weighed online recovery as a genuine differentiator", description: "Kensington's Register and Retrieve program, offered on select picks here, is a real recovery path for a forgotten code that not every lock in this comparison provides." },
   { title: "Separated slot compatibility from combination-mechanism quality", description: "A well-designed dial is worthless if it's attached to the wrong slot standard. We evaluated slot fit and combination convenience as two separate questions." },
-  { title: "Flagged low review counts on newer or pricier SKUs", description: "Several picks here carry fewer than 5 reviews. We treated that as unproven track record, not equivalent evidence to the more established Kensington locks." },
+  { title: "Flagged low review counts on newer or pricier SKUs", description: "We treated that as unproven track record, not equivalent evidence to the more established Kensington locks." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -290,11 +290,11 @@ export const faq: FaqItem[] = [
   { q: "What happens if I forget my combination?", a: "Some picks here, including the NanoSaver and Universal 3-in-1 locks, support Kensington's Register and Retrieve program for online code lookup. Others have no documented recovery path, so check before buying if this matters to you." },
   { q: "Is there a combination lock for MacBook Air?", a: "Yes, the Compulocks Ledge Adapter with Combination Lock, validated for M2 through M5 13-inch MacBook Air, since Apple's slotless chassis can't accept a direct Kensington-style combination lock." },
   { q: "What's the best combination lock if I'm not sure of my slot type?", a: "The Kensington Universal 3-in-1 Combination Laptop Lock, since its interchangeable tips cover Standard, Nano, and Wedge slots in one purchase with a longer track record than the newer 2.0 version." },
-  { q: "Does a combination lock fully prevent laptop theft?", a: "No. Position any combination lock here as a theft deterrent that slows down or discourages casual theft, not a guarantee against a determined attacker with cutting tools." },
+  { q: "Does a combination lock fully prevent laptop theft?", a: "No. Position any combination lock here as a theft deterrent that slows down or discourages casual theft, not a guarantee against a determined attacker with cutting tools." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-locks", title: "Best Laptop Locks (2026)" },
   { href: "/guide/best-keyed-laptop-locks", title: "Best Keyed Laptop Locks (2026)" },
-  { href: "/guide/best-kensington-laptop-locks", title: "Best Kensington Laptop Locks (2026)" },
+  { href: "/guide/best-kensington-laptop-locks", title: "Best Kensington Laptop Locks (2026)" }
 ];

@@ -5,7 +5,7 @@ export const metaDescription = "Seven desk gifts for men, from a wood phone dock
 export const mainKeyword = "desk gifts for men";
 export const introParagraphs = [
   "The man who already has everything usually has a cluttered desk to match. The gifts that stick are the ones that either tidy up the pile of keys, wallet and phone or give him something to fidget with during a long call. Pure decoration tends to be dusted once and forgotten.",
-  "This list splits roughly into organizers, gadgets and conversation pieces. We compared each pick on listed materials, dimensions, power source and price from about $6 to just under $40. Where a listing stays vague, such as the cable for a charging dock, we say so rather than fill the gap."
+  "This list splits roughly into organizers, gadgets and conversation pieces. We compared each pick on listed materials, dimensions, power source and price from about $6 to under $40. Where a listing stays vague, such as the cable for a charging dock, we say so rather than fill the gap."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -255,7 +255,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     "title": "Price spread",
-    "description": "Picks span about $6 to just under $40, so there is something for a stocking stuffer and for a main present."
+    "description": "Picks span about $6 to under $40, so there is something for a stocking stuffer and for a main present."
   }
 ];
 

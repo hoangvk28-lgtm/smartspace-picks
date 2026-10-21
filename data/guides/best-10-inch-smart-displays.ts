@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "10 inch smart display";
 export const introParagraphs = [
   "The Amazon Echo Show 10, at roughly 10.1 inches, is the only genuinely 10 inch class smart display in our verified research pool. It's a somewhat thin category on its own merits, most competing displays sit either around 7 to 8 inches or jump up to 15 inches, with relatively few landing specifically in the 10 inch range.",
-  "Rather than round up a smaller display or round down a 15 inch one to pad this list, we're giving the Echo Show 10 a thorough single-product review, since its motorized rotating base is genuinely the most distinctive feature in this entire product category regardless of size class.",
+  "Rather than round up a smaller display or round down a 15 inch one to pad this list, we're giving the Echo Show 10 a thorough single-product review, since its motorized rotating base is genuinely the most distinctive feature in this entire product category regardless of size class."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "6 min";

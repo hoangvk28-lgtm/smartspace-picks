@@ -5,7 +5,7 @@ export const metaDescription = "5 compact desk air purifiers we evaluated, with 
 export const mainKeyword = "compact air purifier";
 export const introParagraphs = [
   "Desk-proximity CADR effectiveness is fundamentally different from whole-room CADR, a compact desk unit primarily cleans air in its immediate vicinity rather than achieving genuine whole-room air changes, a distinction competitors blur by quoting whole-room CADR figures for a personal-zone product.",
-  "Desk-mounted purifiers compete for the same limited desk surface area as monitors, lamps, and other accessories, footprint should be weighed against genuine airflow effectiveness, not treated as a pure positive.",
+  "Desk-mounted purifiers compete for the same limited desk surface area as monitors, lamps, and other accessories, footprint should be weighed against genuine airflow effectiveness, not treated as a pure positive."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Desk Air Purifier Overall",
     name: "Levoit Air Purifiers for Bedroom Home Pets Dorm Room, Small Air Purifiers",
     price: "$49.99",
-    rating: "4.6 stars from 44,671 Amazon ratings",
-    reviews: "44,671 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ODC2Uu41L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09GTRVJQM?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Desk Pick with Night Light",
     name: "Air Purifiers for Bedroom, FULMINARE H13 True HEPA Air Filter, Quiet Air Cleaner With Night Light, Portable Small Air Purifier for Home, Office, Living Room",
     price: "$24.99",
-    rating: "4.4 stars from 5,517 Amazon ratings",
-    reviews: "5,517 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/414NIpA+xLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B4ZSKPNL?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Compact Desk Pick",
     name: "VOOPNU Air Purifiers for Home, High Efficiency Filter Up to 1076 Ft2, White",
     price: "$26.99",
-    rating: "4.5 stars from 4,026 Amazon ratings",
-    reviews: "4,026 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41BE3lVftQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DY4S3HP2?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Alternative Compact Desk Pick",
     name: "Purivortex Air Purifiers for Bedroom, Covers Up to 880 Sq Ft, PX500 Black",
     price: "$32.99",
-    rating: "4.5 stars from 2,997 Amazon ratings",
-    reviews: "2,997 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Apo3YcVHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9SL7894?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Quiet Compact Desk Pick",
     name: "Levoit Air Purifiers for Home Bedroom Dorm Room, Small Quiet Air Purifiers",
     price: "$44.99",
-    rating: "4.6 stars from 44,671 Amazon ratings",
-    reviews: "44,671 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31e6d46ZnyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09LMF648R?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Large, well-established review base", "Quiet-focused design appropriate for desk proximity", "Very affordable", "Appropriately scaled for personal-zone use"],
     cons: ["Filter replacement more frequent given compact media size", "No smart features", "Only cleans immediate desk vicinity, not whole-room"],
     bestFor: "Buyers who want a quiet compact purifier for close desk placement",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Personal-zone vs. whole-room CADR distinction explicitly clarified", description: "Distinguished desk-proximity effectiveness from whole-room CADR, since a compact desk unit primarily cleans air in its immediate vicinity rather than achieving genuine whole-room air changes." },
   { title: "Desk footprint vs. airflow effectiveness tradeoff assessed", description: "Weighed each pick's desk surface footprint against its genuine airflow effectiveness, rather than treating a small footprint as a pure positive regardless of performance." },
-  { title: "Filter replacement cost specific to compact filter media", description: "Considered that very compact filter media in desk-sized units has meaningfully shorter replacement intervals than room-sized purifiers, an ongoing cost factor proportionally larger relative to the low purchase price." },
+  { title: "Filter replacement cost specific to compact filter media", description: "Considered that very compact filter media in desk-sized units has meaningfully shorter replacement intervals than room-sized purifiers, an ongoing cost factor proportionally larger relative to the low purchase price." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "How often do compact desk air purifier filters need replacing?", a: "More often than room-sized purifiers. Very compact filter media in desk-sized units has meaningfully shorter replacement intervals, an ongoing cost factor proportionally larger relative to the low purchase price." },
   { q: "Does the exhaust direction on a desk purifier matter?", a: "Yes, at this close range. A desk purifier's exhaust can blow dust it hasn't yet captured across the desk surface toward your monitor and keyboard rather than purely upward or away, check this against your specific desk layout." },
   { q: "Can a compact desk purifier actually clean a whole small room too?", a: "Often it can handle a small enclosed room at a slower pace, though its rated CADR is typically calculated for close-range desk use, check the manufacturer's specific room-size claim before relying on it for whole-room coverage." },
-  { q: "Will a desk purifier's fan noise distract me during focused work?", a: "At its highest speed, often yes since the fan sits close to your ears at desk distance, check the specific listing's noise rating at the speed you'd actually use daily, not just its lowest, quietest setting." },
+  { q: "Will a desk purifier's fan noise distract me during focused work?", a: "At its highest speed, often yes since the fan sits close to your ears at desk distance, check the specific listing's noise rating at the speed you'd actually use daily, not just its lowest, quietest setting." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desktop-air-purifiers", title: "Best Desktop Air Purifiers (2026)" },
   { href: "/guide/best-portable-air-purifiers", title: "Best Portable Air Purifiers (2026)" },
-  { href: "/guide/best-small-air-purifiers", title: "Best Small Air Purifiers (2026)" },
+  { href: "/guide/best-small-air-purifiers", title: "Best Small Air Purifiers (2026)" }
 ];

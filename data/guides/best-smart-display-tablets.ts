@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "smart display tablet";
 export const introParagraphs = [
   "Smart display tablets are dedicated touchscreen devices, built more like a tablet than a wall-mounted hub, meant to sit on a desk or counter for quick calendar, task, and organizer access.",
-  "We compared confirmed screen sizes and subscription requirements directly, since a tablet-style smart display that requires an ongoing paid plan is a materially different purchase than a one-time-cost device.",
+  "We compared confirmed screen sizes and subscription requirements directly, since a tablet-style smart display that requires an ongoing paid plan is a materially different purchase than a one-time-cost device."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     pros: ["From the most established brand in this category", "Larger screen than the 10.1 inch tablets in this comparison"],
     cons: ["Highest price in this comparison", "Verify current subscription requirements on the listing"],
     bestFor: "Buyers who want the most established brand and don't mind the larger footprint and price.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Flagged subscription requirements where explicitly confirmed", description: "We noted which listings explicitly advertise no subscription requirement, since this is a real long-term cost factor beyond the sticker price." },
   { title: "Compared same-size tablets against each other directly", description: "Several picks share a 10.1 inch screen size but differ significantly in price, and we compared what specifically justifies that gap." },
   { title: "Weighed brand hardware track record", description: "We noted where a brand (Dragon Touch, Skylight) has existing experience building tablet or family-calendar hardware versus newer entrants." },
-  { title: "Distinguished a desk tablet from a larger wall-mounted display", description: "We kept this comparison focused on tablet-style, desk or counter-appropriate sizes rather than the largest wall-mounted options." },
+  { title: "Distinguished a desk tablet from a larger wall-mounted display", description: "We kept this comparison focused on tablet-style, desk or counter-appropriate sizes rather than the largest wall-mounted options." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -221,14 +221,14 @@ export const buyingCriteria: BuyingCriterion[] = [
 
 export const faq: FaqItem[] = [
   { q: "Do smart display tablets require a subscription?", a: "It varies by model. The Cotoala and Airzeen 10.1 inch picks explicitly advertise no subscription requirement; verify subscription terms directly for other picks before buying." },
-  { q: "What's the cheapest smart display tablet?", a: "The Cotoala 10.1 inch Smart Digital Calendar at $59.99, also confirmed subscription-free." },
+  { q: "What's the cheapest smart display tablet?", a: "The Cotoala 10.1 inch Smart Digital Calendar at under $60, also confirmed subscription-free." },
   { q: "Which brand has the most tablet hardware experience?", a: "Dragon Touch has an existing track record building budget Android tablets, relevant experience for a touchscreen smart display." },
   { q: "Why do two 10.1 inch tablets have such different prices?", a: "The price difference typically reflects brand support, software polish, and build materials rather than the screen size itself; compare these factors directly." },
-  { q: "Is there an option with a chore chart?", a: "Yes, the Dragon Touch and Skylight picks both include a dedicated chore chart feature." },
+  { q: "Is there an option with a chore chart?", a: "Yes, the Dragon Touch and Skylight picks both include a dedicated chore chart feature." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-home-smart-displays", title: "Best Home Smart Displays (2026)" },
   { href: "/guide/best-large-digital-calendar-displays", title: "Best Large Digital Calendar Displays (2026)" },
-  { href: "/guide/best-day-clocks-with-calendars", title: "Best Day Clocks with Calendars (2026)" },
+  { href: "/guide/best-day-clocks-with-calendars", title: "Best Day Clocks with Calendars (2026)" }
 ];

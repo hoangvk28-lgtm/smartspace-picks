@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $19.99",
+          "Under $20",
           "XPPen G430S OSU"
         ],
         [
-          "Around $27.99",
+          "Under $30",
           "HUION Inspiroy H640P 6x4 inch Drawing Tablet 8192 Pen Pressure"
         ],
         [
-          "Around $28.99",
+          "Under $30",
           "XPPen StarG640 Digital Graphic Tablet 6x4 Inch Art Tablet with Battery-Free Stylus"
         ],
         [
-          "Around $39.95",
+          "Under $40",
           "Wacom Intuos Small"
         ],
         [
-          "Around $41.79",
+          "Under $45",
           "HUION Inspiroy H1060P Graphics Drawing Tablet"
         ],
         [
-          "Around $44.99",
+          "Under $45",
           "XPPen Deco 01 V3 10x6 Drawing Tablet"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Wacom Intuos Small is aimed at buyers prioritizing wired usb, emr battery-free pen." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Wacom Intuos Small is aimed at buyers prioritizing wired usb, emr battery-free pen." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-budget-drawing-tablets","title":"Best Budget Drawing Tablets in 2026"},{"href":"/guide/best-cheap-drawing-tablets","title":"Best Cheap Drawing Tablets in 2026"},{"href":"/guide/best-drawing-tablets-under-100","title":"Best Drawing Tablets Under $100 in 2026"}];

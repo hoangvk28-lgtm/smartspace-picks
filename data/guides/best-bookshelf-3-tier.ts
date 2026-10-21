@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "3 tier bookshelf";
 export const introParagraphs = [
   "A 3-tier bookshelf is the right size for a small collection, a decorative display, or a spot where a full-height bookcase would simply overwhelm the room, think a nightstand, end table, or narrow hallway corner.",
-  "Below are 8 three-tier bookshelves we evaluated on weight capacity, footprint, and construction, ranging from ultra-compact budget picks under $30 to industrial metal-frame designs that double as an end table or nightstand.",
+  "Below are 8 three-tier bookshelves we evaluated on weight capacity, footprint, and construction, ranging from ultra-compact budget picks under $30 to industrial metal-frame designs that double as an end table or nightstand."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -51,24 +51,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Qjs1SwnfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CDFTGTHC?tag=deskfinds0d-20",
     description:
-      "The MNEETRUNG carries the highest rating in this entire list at 4.8 stars, built around an X-shaped metal frame with horizontal cross bars and a backboard that together give it real rigidity for its size. At just 15.7 inches wide and 27.6 inches tall, it's genuinely triple-purpose, working as a small bookshelf, an end table, or a nightstand depending on where you place it.\n\nA mix of metal frame and MDF shelving is rated for 50 lbs total, and adjustable feet keep it level on uneven flooring, a small detail that matters when it's doing double duty as bedside furniture.\n\nWorth calling out specifically: x-frame with cross bars adds real rigidity. The catch is lower capacity than the heavier industrial picks.",
+      "At just 15.7 inches wide and 27.6 inches tall, it's genuinely triple-purpose, working as a small bookshelf, an end table, or a nightstand depending on where you place it.\n\nA mix of metal frame and MDF shelving is rated for 50 lbs total, and adjustable feet keep it level on uneven flooring, a small detail that matters when it's doing double duty as bedside furniture.\n\nWorth calling out specifically: x-frame with cross bars adds real rigidity. The catch is lower capacity than the heavier industrial picks.",
     specs: [
       "15.7\"W x 11.8\"D x 27.6\"H",
       "Metal frame + MDF",
       "X-shaped frame + horizontal cross bars + backboard",
       "50 lb total",
-      "Adjustable feet",
+      "Adjustable feet"
     ],
     pros: [
-      "Highest rating in this list at 4.8 stars",
       "X-frame with cross bars adds real rigidity",
       "Genuinely triple-purpose as bookshelf, end table, or nightstand",
-      "Compact 15.7\" width",
+      "Compact 15.7\" width"
     ],
     cons: [
       "Lower capacity than the heavier industrial picks",
       "No enclosed storage",
-      "MDF shelving, not solid wood",
+      "MDF shelving, not solid wood"
     ],
     bestFor: "Buyers who want the highest-rated, most versatile compact 3-tier shelf for multiple uses",
   },
@@ -89,18 +88,17 @@ export const products: GuideProduct[] = [
       "Particleboard + alloy steel",
       "X-brace reinforcement",
       "16.5 lb/shelf (49.5 lb total)",
-      "Adjustable feet, anti-tip kit",
+      "Adjustable feet, anti-tip kit"
     ],
     pros: [
       "Smallest footprint among VASAGLE picks",
       "X-brace reinforcement for stability",
-      "Cheapest VASAGLE 3-tier option",
-      "Strong 4.7-star rating across 2,206 ratings",
+      "Cheapest VASAGLE 3-tier option"
     ],
     cons: [
       "Lower capacity than the heavier Homeiju pick",
       "No enclosed storage",
-      "Narrow shelves hold fewer books per tier",
+      "Narrow shelves hold fewer books per tier"
     ],
     bestFor: "Buyers who want the smallest possible footprint from a trusted brand at the lowest price",
   },
@@ -122,18 +120,18 @@ export const products: GuideProduct[] = [
       "Side cross tube + edge-protected back panel",
       "44 lb total",
       "Adjustable feet",
-      "~20-minute assembly",
+      "~20-minute assembly"
     ],
     pros: [
       "CARB P2 eco-certified plywood",
       "Edge protection on all sides",
       "One of the fastest assemblies in this list at ~20 minutes",
-      "Waterproof finish",
+      "Waterproof finish"
     ],
     cons: [
       "Lowest total capacity in this list at 44 lbs",
       "Fewer total ratings than the top sellers",
-      "No enclosed storage",
+      "No enclosed storage"
     ],
     bestFor: "Buyers who want the quickest assembly plus a low-emission, eco-certified build",
   },
@@ -155,18 +153,17 @@ export const products: GuideProduct[] = [
       "Back panel + side metal wires",
       "40 lb/shelf (highest in this list)",
       "3 installation methods",
-      "Anti-tip kit",
+      "Anti-tip kit"
     ],
     pros: [
       "Highest per-shelf capacity in this list at 40 lbs",
       "3 different installation configurations",
-      "Back panel plus side wires for extra support",
-      "Strong 4.7-star rating",
+      "Back panel plus side wires for extra support"
     ],
     cons: [
       "Lower total capacity than the heavier Homeiju pick",
       "No enclosed storage",
-      "Fewer total ratings than the top sellers",
+      "Fewer total ratings than the top sellers"
     ],
     bestFor: "Buyers who want the highest per-shelf capacity plus flexible installation options",
   },
@@ -188,18 +185,18 @@ export const products: GuideProduct[] = [
       "X-shaped wire back + side horizontal tube",
       "220 lb total (highest in this list)",
       "Adjustable legs",
-      "Rust-proof + scratch-resistant",
+      "Rust-proof + scratch-resistant"
     ],
     pros: [
       "Highest total capacity in this list at 220 lbs",
       "Genuine carbon steel construction",
       "Most durable vintage industrial pick",
-      "Rust-proof and scratch-resistant coating",
+      "Rust-proof and scratch-resistant coating"
     ],
     cons: [
       "Pricier than most other 3-tier picks in this list",
       "Lower star rating than the MNEETRUNG or VASAGLE",
-      "No enclosed storage",
+      "No enclosed storage"
     ],
     bestFor: "Buyers who want the heaviest-duty, most durable 3-tier bookshelf for years of daily use",
   },
@@ -214,25 +211,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415vIfh-KPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B074NHRZQX?tag=deskfinds0d-20",
     description:
-      "The Furinno LUDER is a best-selling budget pick with over 26,000 ratings, built from FSC-certified composite wood that carries an E1 certification for low, essentially odorless formaldehyde emissions. At just 12 inches wide, it's the most compact footprint in this entire list, small enough for a corner most other shelves couldn't fit.\n\nA closed back panel keeps smaller items from falling through, and the whole unit is rated for 40 lbs total, backed by a 1-year warranty at the lowest price point among the compact picks in this list.\n\nWorth calling out specifically: most compact footprint in this list at 12\" wide. The catch is lowest rating among the top-selling picks at 4.4 stars.",
+      "At just 12 inches wide, it's the most compact footprint in this entire list, small enough for a corner most other shelves couldn't fit.\n\nA closed back panel keeps smaller items from falling through, and the whole unit is rated for 40 lbs total, backed by a 1-year warranty at the lowest price point among the compact picks in this list.\n\nWorth calling out specifically: most compact footprint in this list at 12\" wide.",
     specs: [
       "12\"W x 9.3\"D x 31.5\"H",
       "FSC-certified composite wood",
       "3 open shelves + closed back panel",
       "40 lb total",
       "E1 certified odorless",
-      "1-year warranty",
+      "1-year warranty"
     ],
     pros: [
-      "Best-selling budget pick with over 26,000 ratings",
       "Most compact footprint in this list at 12\" wide",
       "FSC-certified, E1 odorless material",
-      "Cheapest pick in this list at $25.16",
+      "Cheapest pick in this list at under $30"
     ],
     cons: [
-      "Lowest rating among the top-selling picks at 4.4 stars",
       "Lower capacity than the industrial metal-frame picks",
-      "Narrower shelves hold fewer books per tier",
+      "Narrower shelves hold fewer books per tier"
     ],
     bestFor: "Budget buyers who want the most compact, best-selling 3-tier bookshelf on the market",
   },
@@ -247,24 +242,22 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41naGsZeyeS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01BWZWEAK?tag=deskfinds0d-20",
     description:
-      "The Furinno JAYA is another best-seller with over 26,000 ratings, and it stands apart from the compact LUDER by offering an adjustable middle shelf, letting you customize spacing for taller items like binders or decorative pieces. FSC-certified composite wood construction carries over from the LUDER, along with a closed back panel.\n\nAt 24.5 inches wide, it's the widest pick in this list, giving it the highest total capacity among the Furinno picks at 80 lbs, useful if you want more books per tier than the narrower compact options provide.\n\nHighest total capacity among Furinno picks at 80 lbs. Set against that, lowest rating in this list at 4.2 stars. Both matter when comparing it to the other picks here.",
+      "FSC-certified composite wood construction carries over from the LUDER, along with a closed back panel.\n\nAt 24.5 inches wide, it's the widest pick in this list, giving it the highest total capacity among the Furinno picks at 80 lbs, useful if you want more books per tier than the narrower compact options provide.\n\nHighest total capacity among Furinno picks at 80 lbs. Both matter when comparing it to the other picks here.",
     specs: [
       "24.5\"W x 9.5\"D x 40.3\"H",
       "FSC-certified composite wood",
       "3 open shelves + 1 adjustable middle shelf + closed back panel",
       "80 lb total",
-      "1-year warranty",
+      "1-year warranty"
     ],
     pros: [
       "Adjustable middle shelf for customizable spacing",
       "Highest total capacity among Furinno picks at 80 lbs",
-      "Widest pick in this list at 24.5\" for more books per tier",
-      "Best-seller with over 26,000 ratings",
+      "Widest pick in this list at 24.5\" for more books per tier"
     ],
     cons: [
-      "Lowest rating in this list at 4.2 stars",
       "Widest footprint needs more wall space than the compact picks",
-      "No enclosed storage",
+      "No enclosed storage"
     ],
     bestFor: "Buyers who want the widest 3-tier shelf with a customizable adjustable shelf for taller items",
   },
@@ -285,21 +278,21 @@ export const products: GuideProduct[] = [
       "Particleboard + MDF",
       "2nd and 3rd tiers adjustable, 3 positions",
       "22 lb/shelf (88 lb total)",
-      "H-shaped footless design, slot-in back panel",
+      "H-shaped footless design, slot-in back panel"
     ],
     pros: [
       "Most adjustable shelving with 2 movable tiers",
       "Modern footless H-frame design",
       "Slot-in back panel adds rigidity without extra hardware",
-      "Most premium-feeling pick in the CUSTOS collection",
+      "Most premium-feeling pick in the CUSTOS collection"
     ],
     cons: [
-      "Most expensive pick in this list at $52.99",
+      "Most expensive pick in this list at under $60",
       "Fewest total ratings in this list at 230",
-      "Footless design needs level flooring to sit flush",
+      "Footless design needs level flooring to sit flush"
     ],
     bestFor: "Buyers who want the most shelf adjustability and a premium modern look, at a higher price",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -326,10 +319,7 @@ export const buyingCriteria: BuyingCriterion[] = [
 ];
 
 export const faq: FaqItem[] = [
-  {
-    q: "What is the best 3-tier bookshelf overall?",
-    a: "The MNEETRUNG 3-Tier Industrial Shelf (Pick 1) is the best overall choice, with the highest rating in this list at 4.8 stars and genuine triple-purpose use as a bookshelf, end table, or nightstand.",
-  },
+  
   {
     q: "Which 3-tier bookshelf holds the most weight?",
     a: "The Homeiju 3-Tier Industrial Bookshelf (Pick 5) has the highest total capacity in this list at 220 lbs, thanks to genuine carbon steel construction.",
@@ -344,7 +334,7 @@ export const faq: FaqItem[] = [
   },
   {
     q: "What is the cheapest 3-tier bookshelf in this list?",
-    a: "The Furinno LUDER 3-Cube Bookshelf (Pick 6) is the cheapest at $25.16, closely followed by the VASAGLE 3-Tier Bookshelf (Pick 2) at $24.64.",
+    a: "The Furinno LUDER 3-Cube Bookshelf (Pick 6) is the cheapest at under $30, closely followed by the VASAGLE 3-Tier Bookshelf (Pick 2) at under $25.",
   },
   {
     q: "Which 3-tier bookshelf assembles the fastest?",
@@ -353,11 +343,11 @@ export const faq: FaqItem[] = [
   {
     q: "What fits best on a 3-tier bookshelf's deeper, fewer shelves?",
     a: "With only 3 tiers, each shelf tends to be deeper and more open than on a 5-tier frame, making these picks a better fit for oversized books, decorative bins, or a mixed display of books and decor rather than a tightly packed paperback collection. If you specifically need room for coffee-table books, the VASAGLE CUSTOS's adjustable tiers give you the most flexibility to widen the spacing.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-bookshelf-5-tier", title: "Best 5-Tier Bookshelves in 2026" },
   { href: "/guide/best-bookshelf-nightstand", title: "Best Bookshelf Nightstands in 2026" },
-  { href: "/guide/best-bookshelf-small", title: "Best Small Bookshelves in 2026" },
+  { href: "/guide/best-bookshelf-small", title: "Best Small Bookshelves in 2026" }
 ];

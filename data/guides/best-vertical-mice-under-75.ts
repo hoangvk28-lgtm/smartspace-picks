@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Documented ergonomist certification from a recognized brand", "Logitech Lift Vertical Ergonomic Wireless Mouse"],
         ["The highest DPI ceiling for large hands", "ProtoArc EM11 Pro Ergonomic Mouse for Large Hands"],
         ["Maximum connectivity flexibility with programmable buttons", "AOC Ergonomic Mouse, 2.4GHz Wireless Bluetooth Vertical"],
-        ["Dual-mode connectivity and a palm rest at the lowest price", "J-Tech Digital Wireless Vertical Mouse"],
+        ["Dual-mode connectivity and a palm rest at the lowest price", "J-Tech Digital Wireless Vertical Mouse"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $30", "J-Tech Digital ($29.95)"],
-        ["Under $40", "AOC ($39.99)"],
-        ["Under $53", "ProtoArc EM11 Pro ($52.99)"],
-        ["Under $65", "Logitech Lift ($64.99)"],
+        ["Under $30", "J-Tech Digital (under $30)"],
+        ["Under $40", "AOC (under $40)"],
+        ["Under $53", "ProtoArc EM11 Pro (under $60)"],
+        ["Under $65", "Logitech Lift (under $70)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Established Brand Certification vs Feature-Rich Value",
     cards: [
       { label: "Established brand (Logitech Lift)", text: "Documented ergonomist certification and exceptional 2-year battery life from a recognized name in computer peripherals." },
-      { label: "Feature-rich value (AOC, ProtoArc, J-Tech Digital)", text: "Often includes more connectivity modes, higher DPI ceilings, or specialized hand-size fit at a lower price than the established brand pick." },
+      { label: "Feature-rich value (AOC, ProtoArc, J-Tech Digital)", text: "Often includes more connectivity modes, higher DPI ceilings, or specialized hand-size fit at a lower price than the established brand pick." }
     ],
     note: "If documented ergonomist testing and brand reputation matter most, the Logitech Lift is the clear choice. If you want specific features like triple-mode connectivity or large-hand sizing at a lower price, the other picks each deliver a targeted advantage.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Small to medium", "Logitech Lift or AOC"],
         ["Medium to large", "J-Tech Digital"],
-        ["Large (7.5-8.5 in)", "ProtoArc EM11 Pro"],
+        ["Large (7.5-8.5 in)", "ProtoArc EM11 Pro"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Cross-Platform Work Environment Specifically",
     cards: [
       { label: "Look for", text: "The widest documented operating system compatibility, not just Windows and Mac, but iPadOS and Chrome OS as well." },
-      { label: "In this comparison", text: "The Logitech Lift's compatibility spans Windows, macOS, iPadOS, Chrome OS, and Linux, the broadest range here." },
+      { label: "In this comparison", text: "The Logitech Lift's compatibility spans Windows, macOS, iPadOS, Chrome OS, and Linux, the broadest range here." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a documented ergonomist-certified design with exceptional battery life and OS compatibility, where the Logitech Lift leads this comparison across all three." },
-      { label: "Save if", text: "You want dual-mode connectivity and a comfortable palm rest without needing certification or multi-year battery claims, where the J-Tech Digital pick covers that at the lowest price here." },
+      { label: "Save if", text: "You want dual-mode connectivity and a comfortable palm rest without needing certification or multi-year battery claims, where the J-Tech Digital pick covers that at the lowest price here." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -252,7 +252,7 @@ export default async function MinimalistDeskSetupPage() {
               { href: "#minimal-decor", label: "10. Decor" },
               { href: "#what-not", label: "What not to add" },
               { href: "#by-use-case", label: "By use case" },
-              { href: "#faq", label: "FAQ" },
+              { href: "#faq", label: "FAQ" }
             ].map((item) => (
               <a
                 key={item.href}
@@ -327,7 +327,7 @@ export default async function MinimalistDeskSetupPage() {
               { label: "Minimal visual footprint", note: "Does the product reduce or remove visual clutter rather than add to it?" },
               { label: "Single clear purpose", note: "Does it solve one specific problem cleanly, or is it trying to do too many things at once?" },
               { label: "Neutral design", note: "Does it blend into the setup rather than drawing attention to itself?" },
-              { label: "Value at price", note: "Does the improvement in desk cleanliness justify the cost?" },
+              { label: "Value at price", note: "Does the improvement in desk cleanliness justify the cost?" }
             ].map((c, i) => (
               <div key={i} className="flex items-start gap-2">
                 <span className="w-5 h-5 rounded-full bg-brand-muted text-brand flex items-center justify-center shrink-0 font-bold text-[10px] mt-0.5">
@@ -382,7 +382,7 @@ export default async function MinimalistDeskSetupPage() {
               { href: "/guide/small-desk-setup", title: "Small Desk Setup Ideas", desc: "15 practical ideas for any compact workspace" },
               { href: "/guide/desk-setup-essentials", title: "Desk Setup Essentials", desc: "15 must-have items for any desk setup" },
               { href: "/guide/small-desk-organization-ideas", title: "Small Desk Organization Ideas", desc: "How to keep a small desk clutter-free" },
-              { href: "/guide/best-under-desk-cable-trays", title: "Best Under-Desk Cable Trays", desc: "Hide cables and reclaim your desk surface" },
+              { href: "/guide/best-under-desk-cable-trays", title: "Best Under-Desk Cable Trays", desc: "Hide cables and reclaim your desk surface" }
             ].map((g) => (
               <Link prefetch={false}
                 key={g.href}

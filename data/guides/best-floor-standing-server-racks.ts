@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31JM9wq8g1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B084NXSLTG?tag=deskfinds0d-20",
-    description: "StarTech's 18U open frame rack stands just 35 inches tall, a genuinely manageable size for utility and server closets that can't fit a full 42U cabinet.\n\nThe 40-inch maximum mounting depth is deeper than most racks this size, letting it accommodate longer server chassis that a shallower 18U rack might not fit.\n\nWhat stands out here is 35\" height fits narrow closets other racks can't, plus 40\" max depth handles longer server chassis. The main tradeoff: flat-pack shipping still needs real assembly time, so weigh that against the $329.99 price before buying.",
+    description: "StarTech's 18U open frame rack stands just 35 inches tall, a genuinely manageable size for utility and server closets that can't fit a full 42U cabinet.\n\nThe 40-inch maximum mounting depth is deeper than most racks this size, letting it accommodate longer server chassis that a shallower 18U rack might not fit.\n\nWhat stands out here is 35\" height fits narrow closets other racks can't, plus 40\" max depth handles longer server chassis. The main tradeoff: flat-pack shipping still needs real assembly time, so weigh that against the under $350 price before buying.",
     specs: ["18U, 35\" tall, 22-40\" adjustable depth","1200 lb stationary weight capacity","Cable management hooks, cage nuts included"],
     pros: ["35\" height fits narrow closets other racks can't","40\" max depth handles longer server chassis","Backed by StarTech's 2-year warranty"],
     cons: ["Flat-pack shipping still needs real assembly time","1200 lb rating trails the taller 4-post models"],
@@ -123,7 +123,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31vbfmcEwKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D99FX253?tag=deskfinds0d-20",
-    description: "GlobalRack's 27U model brings the same adjustable 22-35 inch depth and quick-lock assembly as their 42U rack, just in a mid-height footprint that suits smaller server rooms.\n\nAt 1200 lbs it's rated lower than the 42U model, consistent with the shorter, lighter structure, but still handles a substantial equipment load for its size.\n\nThe strongest case for this pick comes down to under-20-minute assembly claim, genuinely quick to set up as well as 1200 lb capacity suits a real mid-size server load. The compromise here is that shorter than the 42U model if you outgrow it, so factor that in alongside the $178.99 asking price.",
+    description: "GlobalRack's 27U model brings the same adjustable 22-35 inch depth and quick-lock assembly as their 42U rack, just in a mid-height footprint that suits smaller server rooms.\n\nAt 1200 lbs it's rated lower than the 42U model, consistent with the shorter, lighter structure, but still handles a substantial equipment load for its size.\n\nThe strongest case for this pick comes down to under-20-minute assembly claim, genuinely quick to set up as well as 1200 lb capacity suits a real mid-size server load. The compromise here is that shorter than the 42U model if you outgrow it, so factor that in alongside the under $180 asking price.",
     specs: ["27U, 43.5\"H, 22-35\" adjustable depth","1200 lb weight capacity","Pre-installed square holes, M6 hardware included"],
     pros: ["Under-20-minute assembly claim, genuinely quick to set up","1200 lb capacity suits a real mid-size server load","Depth adjustment covers a wide equipment range"],
     cons: ["Shorter than the 42U model if you outgrow it","Open frame offers no dust or security protection"],
@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $178.99",
+          "Under $180",
           "GlobalRack 27U Open Frame Server Rack"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "Raising Electronics 27U 4-Post Open Rack Frame"
         ],
         [
-          "Around $252.99",
+          "Under $300",
           "StarTech 42U 2-Post Open Frame Server Rack"
         ],
         [
-          "Around $269.30",
+          "Under $300",
           "Raising Electronics Server Rack 4 Post Open Frame"
         ],
         [
-          "Around $278.16",
+          "Under $300",
           "RIVECO 25U Server Rack Adjustable Depth"
         ],
         [
-          "Around $329.99",
+          "Under $350",
           "StarTech 18U 4-Post Server Rack"
         ],
         [
-          "Around $357.99",
+          "Under $400",
           "StarTech 42U 4-Post Open Frame Rack"
         ],
         [
-          "Around $428.25",
+          "Under $450",
           "RIVECO 42U Adjustable Depth Server Rack"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "StarTech 42U 4-Post Open Frame Rack is aimed at buyers prioritizing 42u, 22-40\" adjustable depth." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "StarTech 42U 4-Post Open Frame Rack is aimed at buyers prioritizing 42u, 22-40\" adjustable depth." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

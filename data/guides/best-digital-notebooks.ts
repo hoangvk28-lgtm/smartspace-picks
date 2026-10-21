@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook";
 export const introParagraphs = [
   "\"Digital notebook\" is one of the more confusing searches in this category because it actually covers three genuinely different kinds of products: reusable paper notebooks you scan with a phone app, standalone e-ink hardware devices you write on directly, and smart pen sets that digitize your handwriting in real time. Buying the wrong type for your habits is the single most common mistake in this niche.",
-  "Below we group picks by type first, price second, so you can identify which category fits how you actually want to write before comparing specific models. We evaluated pricing, stated features, and confirmed product details rather than claiming any hands-on testing.",
+  "Below we group picks by type first, price second, so you can identify which category fits how you actually want to write before comparing specific models. We evaluated pricing, stated features, and confirmed product details rather than claiming any hands-on testing."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Product type identified before comparing features", description: "Every pick was categorized as a reusable paper notebook, an e-ink hardware device, or a smart pen set before comparing price or features, since comparing across types directly is misleading." },
   { title: "Stated features weighed against category norms", description: "Features like cloud sync, color display, or handwriting conversion were only credited when explicitly stated in the product listing for that specific item." },
   { title: "Price weighed against total cost of ownership", description: "Considered required accessories, such as a specific erasable pen for paper notebooks or a cloud subscription for some e-ink devices, not just the sticker price." },
-  { title: "Battery and power model considered where relevant", description: "Noted which products have no battery at all (paper notebooks), which have e-ink batteries lasting weeks, and which rely on a rechargeable pen." },
+  { title: "Battery and power model considered where relevant", description: "Noted which products have no battery at all (paper notebooks), which have e-ink batteries lasting weeks, and which rely on a rechargeable pen." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -275,11 +275,11 @@ export const faq: FaqItem[] = [
   { q: "Do I need a special pen for a digital notebook?", a: "Only for reusable paper notebooks like Rocketbook, which typically require an erasable pen such as a Pilot Frixion. E-ink devices and smart pen sets include their own dedicated pen or stylus." },
   { q: "Are digital notebooks worth it compared to a regular notebook?", a: "It depends on the type: reusable paper notebooks are close in price to regular notebooks with the added benefit of cloud scanning, while e-ink hardware is a bigger investment better suited to heavy daily use." },
   { q: "Do digital notebooks require a subscription?", a: "Some premium e-ink devices have historically required a subscription for full cloud features, verify current subscription requirements on the specific product page before buying." },
-  { q: "Which type has the longest battery life?", a: "Paper notebooks need no battery. Among electronic options, e-ink hardware devices typically last weeks per charge since the screen only draws power when it changes." },
+  { q: "Which type has the longest battery life?", a: "Paper notebooks need no battery. Among electronic options, e-ink hardware devices typically last weeks per charge since the screen only draws power when it changes." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebook-tablets", title: "Best Digital Notebook Tablets (2026)" },
   { href: "/guide/best-digital-notebooks-with-pens", title: "Best Digital Notebooks with Pens (2026)" },
-  { href: "/guide/best-budget-digital-notebooks", title: "Best Budget Digital Notebooks (2026)" },
+  { href: "/guide/best-budget-digital-notebooks", title: "Best Budget Digital Notebooks (2026)" }
 ];

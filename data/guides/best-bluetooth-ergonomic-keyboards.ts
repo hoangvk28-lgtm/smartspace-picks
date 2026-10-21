@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "bluetooth ergonomic keyboard";
 export const introParagraphs = [
   "The main reason to pick Bluetooth over 2.4G on an ergonomic keyboard is multi-device convenience, being able to switch between a laptop, tablet, and desktop with a single hotkey rather than swapping a USB receiver. Worth verifying how reliably that switch actually works and how many devices a specific model remembers, since some budget boards support fewer pairing slots than their marketing implies.",
-  "It's also worth knowing that anti-ghosting and key rollover can be less consistent over Bluetooth than over a wired or 2.4G connection on some budget hardware, relevant if you type fast enough to overlap keystrokes. And a successful initial pairing doesn't guarantee a stable connection through hours of continuous use, dropouts during extended sessions matter more than pairing speed on day one.",
+  "It's also worth knowing that anti-ghosting and key rollover can be less consistent over Bluetooth than over a wired or 2.4G connection on some budget hardware, relevant if you type fast enough to overlap keystrokes. And a successful initial pairing doesn't guarantee a stable connection through hours of continuous use, dropouts during extended sessions matter more than pairing speed on day one."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Bluetooth Pick",
     name: "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest",
     price: "$129.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "7,992 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41EsewSK2nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZWK2TQT?tag=deskfinds0d-20",
     description: "A split, negative-tilt keyboard supporting Bluetooth pairing with a dedicated switch key for moving between paired devices. It carries the largest verified review base among Bluetooth-capable picks here, a strong signal for real-world pairing reliability over time.\n\nIt earns the top spot in this comparison over Logitech Wave Keys Wireless Ergonomic Keyboard for one main reason. Largest verified review base among Bluetooth picks. On price, it's actually priced above Logitech Wave Keys Wireless Ergonomic Keyboard, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Dedicated hotkey for device switching. On the other side, Split adjustment period for new users. That's the main tradeoff to weigh against everything above.",
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Low-Commitment Bluetooth Pick",
     name: "Logitech Wave Keys Wireless Ergonomic Keyboard - Graphite",
     price: "$59.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "2,972 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/4114VdW9JcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BTNY72VD?tag=deskfinds0d-20",
     description: "A one-piece wave keyboard with Bluetooth pairing and a lower price point than a true split option. Its single-battery design simplifies the connectivity picture, since there's no second half to independently pair or lose sync with.\n\nOne spot below Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest in this ranking, it's priced lower than Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest. The compromise here is straightforward: Less ergonomic benefit than a true split design. What you gain in return: Lower price than a true split Bluetooth keyboard. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Single battery simplifies connectivity. On the other side, Cannot be positioned shoulder-width apart. That's the main tradeoff to weigh against everything above.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best Bluetooth Pick for Mac Users",
     name: "Logitech Wave Keys for Mac Wireless Ergonomic Keyboard - Off White",
     price: "$69.95",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "343 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ogsiz47VL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BTNZSXLG?tag=deskfinds0d-20",
     description: "A Mac-layout variant of the Wave Keys design, pairing over Bluetooth with macOS-labeled modifier keys rather than requiring manual remapping. This matters for buyers coming from Apple's own keyboard ecosystem who want native-feeling Command and Option key placement.\n\nSitting just under Logitech Wave Keys Wireless Ergonomic Keyboard, it costs more than Logitech Wave Keys Wireless Ergonomic Keyboard. Here's the honest tradeoff: Smaller review base than the standard Windows-oriented model. And here's what it gets you instead: Mac-labeled modifier keys, no manual remapping needed. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Single battery simplifies connectivity. On the other side, Less ergonomic benefit than a true split design. That's the main tradeoff to weigh against everything above.",
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     badge: "Best Premium Bluetooth Pick",
     name: "Microsoft Surface Ergonomic Wireless Keyboard, Gray",
     price: "$229.95",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "1,033 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/515R435nUaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01MFCTRZM?tag=deskfinds0d-20",
     description: "A curved, one-piece ergonomic keyboard pairing over Bluetooth, positioned at a premium price point relative to the other picks here. Its build quality and cushioned palm rest reflect that pricing, appropriate for buyers prioritizing a specific brand ecosystem over budget.\n\nRanked just behind Logitech Wave Keys for Mac Wireless Ergonomic Keyboard, it costs more than Logitech Wave Keys for Mac Wireless Ergonomic Keyboard. The real tradeoff against that pick: Highest price in this guide. In exchange, it offers this instead: Premium build and finish. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Solid review base at this price tier. On the other side, Verify current pairing slot count before buying. That's the main tradeoff to weigh against everything above.",
@@ -90,8 +90,8 @@ export const products: GuideProduct[] = [
     badge: "Best Backlit Bluetooth Pick",
     name: "ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard, White Silver",
     price: "$79.99",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "1,488 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Z1xwT6cFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJ6SJF2V?tag=deskfinds0d-20",
     description: "A curved Bluetooth keyboard with backlit keys, useful for occasional low-light glancing rather than pure touch typing. Backlighting draws more power over Bluetooth than a non-backlit model, so expect somewhat shorter time between charges as a real tradeoff for the illumination.\n\nOne spot below Microsoft Surface Ergonomic Wireless Keyboard in this ranking, it's priced lower than Microsoft Surface Ergonomic Wireless Keyboard. The compromise here is straightforward: Backlighting reduces battery life versus non-backlit models. What you gain in return: Backlighting for low-light glancing. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Mid-range price point. On the other side, Limited value for pure touch typists. That's the main tradeoff to weigh against everything above.",
@@ -106,8 +106,8 @@ export const products: GuideProduct[] = [
     badge: "Best Full-Size Backlit Bluetooth Pick",
     name: "ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard, Full Size, Black",
     price: "$79.99",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "1,488 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41q4ds4LGsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCVVBT3C?tag=deskfinds0d-20",
     description: "The full-size sibling of the white silver EK01 Plus in this guide, keeping the number pad for spreadsheet-heavy work while pairing the same way over Bluetooth. Buyers who need dedicated numeric entry alongside Bluetooth switching should look here rather than a compact layout.\n\nSitting just under ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard, it costs more than ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard. Here's the honest tradeoff: Wider footprint than compact Bluetooth keyboards. And here's what it gets you instead: Number pad for spreadsheet-heavy work. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Bluetooth multi-device pairing. On the other side, Verify current pairing slot count on listing. That's the main tradeoff to weigh against everything above.",
@@ -122,8 +122,8 @@ export const products: GuideProduct[] = [
     badge: "Best Full-Size Bluetooth Pick, Gray",
     name: "ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard, Full Size, Gray",
     price: "$69.99",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "1,488 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41b1vrBnYfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQ4T5M8C?tag=deskfinds0d-20",
     description: "A gray colorway of the full-size EK01 Plus at a slightly lower price than its black counterpart, keeping the same number pad and Bluetooth pairing behavior. For buyers deciding purely on price among the full-size backlit Bluetooth options here, this is the cheaper of the two.\n\nRanked just behind ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard, it's priced lower than ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard. The real tradeoff against that pick: Wider footprint than compact Bluetooth keyboards. In exchange, it offers this instead: Lower price than the black full-size variant. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Number pad included. On the other side, Verify current pairing slot count on listing. That's the main tradeoff to weigh against everything above.",
@@ -138,8 +138,8 @@ export const products: GuideProduct[] = [
     badge: "Best Portable Bluetooth Split Pick",
     name: "MEETION Foldable Ergonomic Bluetooth Keyboard, Split, Portable, Black",
     price: "$28.49",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "45 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41JiJNItp9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GCZNDB69?tag=deskfinds0d-20",
     description: "A folding, split Bluetooth keyboard built for portability rather than all-day desktop use, useful for buyers who want an ergonomic split layout they can pack alongside a laptop or tablet. Its low price and Bluetooth pairing make it a reasonable travel companion rather than a primary desk keyboard.\n\nOne spot below ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard in this ranking, it's priced lower than ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard. The compromise here is straightforward: Smaller verified review base than desktop-oriented picks. What you gain in return: Lowest price in this guide. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Folds for portability. On the other side, Verify current pairing slot count on listing. That's the main tradeoff to weigh against everything above.",
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Multi-device pairing and switching reliability", description: "Weighed how consistently each keyboard's hotkey switching between paired devices actually worked, based on verified buyer feedback, as the primary reason to choose Bluetooth over 2.4G." },
   { title: "Extended-session connection stability", description: "Prioritized dropout-free performance across hours of continuous use over initial pairing speed, since a stable long session matters more day to day." },
   { title: "Anti-ghosting and key rollover over Bluetooth", description: "Noted that budget Bluetooth boards can be less consistent with overlapping keystrokes than wired or 2.4G connections, relevant for fast typists." },
-  { title: "Battery type per half on split designs", description: "Checked, where disclosed, whether each half of a split Bluetooth keyboard uses its own battery, since that affects long-term maintenance." },
+  { title: "Battery type per half on split designs", description: "Checked, where disclosed, whether each half of a split Bluetooth keyboard uses its own battery, since that affects long-term maintenance." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -289,11 +289,11 @@ export const faq: FaqItem[] = [
   { q: "Why choose Bluetooth over a 2.4G receiver for an ergonomic keyboard?", a: "Mainly for multi-device convenience, Bluetooth lets you switch between several paired devices with a hotkey, while a 2.4G receiver typically ties the keyboard to one computer." },
   { q: "Is Bluetooth less reliable than wired for fast typing?", a: "On some budget hardware, anti-ghosting and key rollover can be less consistent over Bluetooth than wired or 2.4G, worth checking buyer feedback if you type very fast." },
   { q: "How many devices can I pair with a Bluetooth ergonomic keyboard?", a: "This varies by model, verify the specific listing rather than assuming unlimited pairing slots, especially on budget boards." },
-  { q: "Does Bluetooth drop connections during long typing sessions?", a: "It can on some hardware, extended-session stability is a better signal to check in buyer feedback than how quickly the keyboard paired initially." },
+  { q: "Does Bluetooth drop connections during long typing sessions?", a: "It can on some hardware, extended-session stability is a better signal to check in buyer feedback than how quickly the keyboard paired initially." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-wireless-ergonomic-keyboards", title: "Best Wireless Ergonomic Keyboards (2026)" },
   { href: "/guide/best-multi-device-ergonomic-keyboards", title: "Best Multi-Device Ergonomic Keyboards (2026)" },
-  { href: "/guide/best-ergonomic-keyboards-for-mac", title: "Best Ergonomic Keyboards for Mac (2026)" },
+  { href: "/guide/best-ergonomic-keyboards-for-mac", title: "Best Ergonomic Keyboards for Mac (2026)" }
 ];

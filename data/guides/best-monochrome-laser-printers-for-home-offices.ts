@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "monochrome laser printer for home office";
 export const introParagraphs = [
   "Laser technology solves a specific home-office problem that inkjet doesn't: toner doesn't dry out sitting idle, print speed and text sharpness hold up at real volume, and cost per page drops the more you print. That makes a laser printer the right call for a home office with genuine, regular document output, not just occasional printing.",
-  "Only two printers in this list are true dedicated monochrome laser engines. We've included two color laser printers that deliver the same crisp toner-based text in B&W mode, since some home offices genuinely need color occasionally. We've also included several inkjet all-in-ones that surface in monochrome laser searches, and we're flagging those honestly as non-laser alternatives rather than mislabeling them, since the toner economics and text quality this guide focuses on simply don't apply to them.",
+  "Only two printers in this list are true dedicated monochrome laser engines. We've included two color laser printers that deliver the same crisp toner-based text in B&W mode, since some home offices genuinely need color occasionally. We've also included several inkjet all-in-ones that surface in monochrome laser searches, and we're flagging those honestly as non-laser alternatives rather than mislabeling them, since the toner economics and text quality this guide focuses on simply don't apply to them."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "11 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Separate drum and toner units",
       "Duplex printing",
       "Wireless + mobile printing",
-      "Generally tolerant of third-party toner",
+      "Generally tolerant of third-party toner"
     ],
     pros: [
       "Separate drum and toner units lower long-term cost",
       "Good third-party toner compatibility",
       "No idle-toner drying risk",
-      "Fast, consistent duplex printing",
+      "Fast, consistent duplex printing"
     ],
     cons: [
       "Starter toner yields far fewer pages than a full cartridge",
       "Monochrome only, no color printing",
-      "Highest upfront price among the true laser picks",
+      "Highest upfront price among the true laser picks"
     ],
     bestFor: "A home office with regular, genuine document volume that wants the lowest long-term cost",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Automatic duplex printing",
       "Wired USB connection only",
       "10-15 second cold-start warm-up",
-      "HP firmware may restrict third-party toner",
+      "HP firmware may restrict third-party toner"
     ],
     pros: [
       "Lowest price among true laser picks in this list",
       "No wifi dropout risk, wired only",
       "Fast cold-start warm-up",
-      "No idle-toner drying risk",
+      "No idle-toner drying risk"
     ],
     cons: [
       "HP has restricted third-party toner via firmware on some models",
       "No wireless connectivity",
-      "Monochrome only",
+      "Monochrome only"
     ],
     bestFor: "Budget-conscious home offices that don't need wireless printing",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "19 ppm print speed",
       "250-sheet paper tray",
       "Duplex printing",
-      "Generally tolerant of third-party toner",
+      "Generally tolerant of third-party toner"
     ],
     pros: [
       "Laser-sharp B&W text when set to mono mode",
       "Color available for occasional use",
       "Good third-party toner compatibility",
-      "Large 250-sheet tray",
+      "Large 250-sheet tray"
     ],
     cons: [
       "Not a true monochrome-only laser, costs more to run for mostly-B&W use",
       "Four toner cartridges to maintain instead of one",
-      "No built-in scanner",
+      "No built-in scanner"
     ],
     bestFor: "A home office that's mostly B&W but genuinely needs color sometimes",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Auto document feeder",
       "35 ppm print speed",
       "Separate drum and toner units",
-      "Mixed third-party toner compatibility",
+      "Mixed third-party toner compatibility"
     ],
     pros: [
       "Fastest print speed in this list",
       "Full all-in-one feature set with ADF and fax",
       "Separate drum and toner units",
-      "Laser-sharp B&W text in mono mode",
+      "Laser-sharp B&W text in mono mode"
     ],
     cons: [
       "Highest price in this list by a wide margin",
       "Overkill and overpriced for mostly-B&W home office use",
-      "Third-party toner compatibility is inconsistent",
+      "Third-party toner compatibility is inconsistent"
     ],
     bestFor: "A home office needing a genuine all-in-one laser with occasional color, not budget-focused",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Auto document feeder",
       "Duplex print and scan",
       "3-month Instant Ink trial",
-      "Best-for-Office rated",
+      "Best-for-Office rated"
     ],
     pros: [
       "Full scan, copy, fax, and ADF feature set",
       "No ozone emission concern, unlike laser",
       "Decent grayscale gradient handling",
-      "Lower upfront price than the color laser picks",
+      "Lower upfront price than the color laser picks"
     ],
     cons: [
       "Not a laser printer, none of this guide's toner-cost math applies",
       "Softer text edges than any true laser pick",
-      "Standard idle-ink drying risk of any cartridge inkjet",
+      "Standard idle-ink drying risk of any cartridge inkjet"
     ],
     bestFor: "A home office that wants ADF and fax but doesn't need laser's economics",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Automatic 2-sided copy and scan",
       "2.7-inch color touchscreen",
       "Wireless color inkjet, not laser",
-      "No ozone emission",
+      "No ozone emission"
     ],
     pros: [
       "High-capacity cartridges reduce replacement frequency",
       "Automatic duplex copy and scan",
       "No ozone emission concern",
-      "Color touchscreen for multi-user offices",
+      "Color touchscreen for multi-user offices"
     ],
     cons: [
       "Not a laser printer despite the price point",
       "Text softer than any true laser pick",
-      "Idle-ink drying risk between uses",
+      "Idle-ink drying risk between uses"
     ],
     bestFor: "A home office that wants fewer cartridge changes but doesn't need laser technology",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Scan, copy, fax built in",
       "Wireless connectivity",
       "Lowest price in this list",
-      "No ozone emission",
+      "No ozone emission"
     ],
     pros: [
       "Lowest price in this list by far",
       "Full scan, copy, fax feature set",
       "No ozone emission concern",
-      "Reasonable for light home office document needs",
+      "Reasonable for light home office document needs"
     ],
     cons: [
       "Not a laser printer, doesn't share this guide's core toner economics",
       "Text softer than any true laser pick",
-      "Idle-ink drying risk between uses",
+      "Idle-ink drying risk between uses"
     ],
     bestFor: "A home office with light document needs on the smallest possible budget",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Duplex printing",
       "Compact design",
       "No ozone emission",
-      "Not a monochrome laser despite appearing in related searches",
+      "Not a monochrome laser despite appearing in related searches"
     ],
     pros: [
       "Strong photo and grayscale gradient quality",
       "No ozone emission concern",
       "Compact footprint",
-      "Reasonable price for occasional photo needs",
+      "Reasonable price for occasional photo needs"
     ],
     cons: [
       "Not a laser printer, doesn't fit this guide's core use case",
       "Text softer than any true laser pick here",
-      "Idle-ink drying risk between uses",
+      "Idle-ink drying risk between uses"
     ],
     bestFor: "A home office that occasionally wants photo-quality output alongside documents",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Third-party toner compatibility by brand",
     description: "Weighed each brand's track record on accepting third-party toner cartridges, since this materially affects long-term running cost.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -466,11 +466,11 @@ export const faq: FaqItem[] = [
   {
     q: "Why are inkjet printers included in a monochrome laser printer guide?",
     a: "They show up in the same product searches due to overlapping Best-for-Office marketing and duplex printing features, but they use ink cartridges, not toner, and don't share this guide's core laser-specific considerations like starter toner yield, drum life, or ozone emission. We've labeled each one clearly as a non-laser alternative rather than mislabeling it as a laser printer.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-black-and-white-documents", title: "Best Printers for Black-and-White Documents (2026)" },
   { href: "/guide/best-printers-for-documents", title: "Best Printers for Documents (2026)" },
-  { href: "/guide/best-printers-for-home-offices", title: "Best Printers for Home Offices (2026)" },
+  { href: "/guide/best-printers-for-home-offices", title: "Best Printers for Home Offices (2026)" }
 ];

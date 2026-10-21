@@ -190,31 +190,31 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $12.99",
+          "Under $15",
           "UGREEN USB-C to Ethernet Adapter (1Gbps)"
         ],
         [
-          "Around $14.99",
+          "Under $15",
           "1STCHAMP MFi Certified 2-in-1 Adapter"
         ],
         [
-          "Around $15.53",
+          "Under $20",
           "Anker USB-C to Ethernet Adapter"
         ],
         [
-          "Around $15.99",
+          "Under $20",
           "uni USB-C to Ethernet Adapter 1Gbps"
         ],
         [
-          "Around $15.99",
+          "Under $20",
           "Lightning and USB-C to Ethernet Adapter (2-in-1)"
         ],
         [
-          "Around $24.95",
+          "Under $25",
           "Plugable 2.5G Dual-Connector USB-C/USB-A Adapter"
         ],
         [
-          "Around $25.99",
+          "Under $30",
           "UGREEN USB-C to Ethernet Adapter 2.5G"
         ]
       ]
@@ -259,7 +259,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "Anker USB-C to Ethernet Adapter is aimed at buyers prioritizing 1gbps, usb-c 3.0; uni USB-C to Ethernet Adapter 1Gbps is aimed at buyers prioritizing 1gbps, driver-free on most oses."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -300,9 +300,9 @@ export const faq = [
   }
 ,
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "Anker USB-C to Ethernet Adapter is aimed at buyers prioritizing 1gbps, usb-c 3.0." },
-  { q: "Which pick offers the best value for a tight budget?", a: "UGREEN USB-C to Ethernet Adapter (1Gbps) is aimed at buyers prioritizing 1gbps, driver-free on most oses, and at $12.99 it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $12.99 to $25.99, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
-  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "UGREEN USB-C to Ethernet Adapter 2.5G is aimed at buyers prioritizing 2.5gb via rtl8156bg chip. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
+  { q: "Which pick offers the best value for a tight budget?", a: "UGREEN USB-C to Ethernet Adapter (1Gbps) is aimed at buyers prioritizing 1gbps, driver-free on most oses, and at under $15 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $15 to $30, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "UGREEN USB-C to Ethernet Adapter 2.5G is aimed at buyers prioritizing 2.5gb via rtl8156bg chip. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-usb-c-ethernet-adapters-for-ipad","title":"7 Best USB-C Ethernet Adapters for iPad"},{"href":"/guide/best-usb-c-to-2-5gbe-ethernet-adapters","title":"8 Best USB-C to 2.5GbE Ethernet Adapters"},{"href":"/guide/best-usb-c-ethernet-adapters-for-android-phones","title":"7 Best USB-C Ethernet Adapters for Android Phones"}];

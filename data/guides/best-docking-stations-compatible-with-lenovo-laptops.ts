@@ -5,7 +5,7 @@ export const metaDescription =
   "8 best docking stations for Lenovo ThinkPad laptops in 2026, from official Lenovo docks to third-party Thunderbolt alternatives. Compare ports, power, and price.";
 export const mainKeyword = "lenovo docking station";
 export const introParagraphs = [
-  "Finding a docking station compatible with Lenovo laptops means sorting through more variety than most buyers expect, since Lenovo has shipped multiple physically distinct ThinkPad dock generations that aren't interchangeable, older slide-in mechanical docks, then the ThinkPad USB-C Dock Gen 2 era, and now the current ThinkPad Universal USB-C Dock and Universal Thunderbolt 4 Dock. Matching the dock generation to your specific ThinkPad model year matters more than just looking for the Lenovo name.\n\nBelow are 8 docking stations we evaluated on official Lenovo compatibility, third-party alternative value, port count, and power delivery, ranging from a renewed official Lenovo dock at $59.99 to a 14-port third-party Thunderbolt option built for buyers who want more flexibility than Lenovo's own docks offer.",
+  "Finding a docking station compatible with Lenovo laptops means sorting through more variety than most buyers expect, since Lenovo has shipped multiple physically distinct ThinkPad dock generations that aren't interchangeable, older slide-in mechanical docks, then the ThinkPad USB-C Dock Gen 2 era, and now the current ThinkPad Universal USB-C Dock and Universal Thunderbolt 4 Dock. Matching the dock generation to your specific ThinkPad model year matters more than just looking for the Lenovo name.\n\nBelow are 8 docking stations we evaluated on official Lenovo compatibility, third-party alternative value, port count, and power delivery, ranging from a renewed official Lenovo dock at under $60 to a 14-port third-party Thunderbolt option built for buyers who want more flexibility than Lenovo's own docks offer."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -56,18 +56,18 @@ export const products: GuideProduct[] = [
       "Validated against Lenovo power management firmware",
       "Current dock generation (post Gen 2)",
       "Multiple display outputs",
-      "USB-C connection to laptop",
+      "USB-C connection to laptop"
     ],
     pros: [
       "Official Lenovo dock tuned for ThinkPad sleep/wake behavior",
       "Current generation, broad compatibility across recent ThinkPad models",
       "Reliable power management integration",
-      "Straightforward setup with Lenovo firmware",
+      "Straightforward setup with Lenovo firmware"
     ],
     cons: [
       "Pricier than the third-party budget alternatives",
       "Must confirm generation match with your specific ThinkPad model",
-      "Fewer total ports than some third-party competitors",
+      "Fewer total ports than some third-party competitors"
     ],
     bestFor: "ThinkPad owners who want the official dock tuned to Lenovo's exact power management",
   },
@@ -88,18 +88,18 @@ export const products: GuideProduct[] = [
       "Earlier dock generation than the current Universal Dock",
       "USB-C connection",
       "Multiple display and data ports",
-      "Compact desktop form factor",
+      "Compact desktop form factor"
     ],
     pros: [
       "Most affordable official Lenovo dock in this guide",
       "Genuine Lenovo firmware and power management support",
       "Compact footprint",
-      "Reliable for its matched ThinkPad generation",
+      "Reliable for its matched ThinkPad generation"
     ],
     cons: [
       "Older generation, not compatible with every current ThinkPad model",
       "Fewer ports than the Universal Dock or third-party alternatives",
-      "Buyers must verify generation match carefully",
+      "Buyers must verify generation match carefully"
     ],
     bestFor: "Budget-conscious ThinkPad owners with a model year matching the Gen 2 dock era",
   },
@@ -120,18 +120,18 @@ export const products: GuideProduct[] = [
       "Dual display support",
       "Compact, travel-friendly size",
       "USB-C connection",
-      "Lightweight design",
+      "Lightweight design"
     ],
     pros: [
       "Cheapest new official Lenovo dock in this guide",
       "Compact and travel-friendly",
       "Official Lenovo firmware support",
-      "Dual display output covers most travel setups",
+      "Dual display output covers most travel setups"
     ],
     cons: [
       "Fewer ports than the full-size Universal Dock",
       "Lower power output than desktop-class docks",
-      "Not built for a permanent multi-monitor desk setup",
+      "Not built for a permanent multi-monitor desk setup"
     ],
     bestFor: "ThinkPad owners who need an official, portable dual-display dock for travel",
   },
@@ -152,18 +152,18 @@ export const products: GuideProduct[] = [
       "Dual monitor support",
       "Validated against Lenovo power management firmware",
       "USB-C connection",
-      "Renewed/refurbished condition",
+      "Renewed/refurbished condition"
     ],
     pros: [
       "Same official Lenovo firmware validation as the new Universal Dock",
       "Renewed condition offers a legitimate way to buy official Lenovo hardware",
       "Dual monitor support",
-      "Reliable ThinkPad sleep/wake behavior",
+      "Reliable ThinkPad sleep/wake behavior"
     ],
     cons: [
       "Confirm the listing includes the original power brick before buying",
       "Renewed units may show light cosmetic wear",
-      "Priced close to some new third-party alternatives",
+      "Priced close to some new third-party alternatives"
     ],
     bestFor: "Buyers who want an official Lenovo dock and are comfortable with a renewed unit",
   },
@@ -184,18 +184,18 @@ export const products: GuideProduct[] = [
       "Up to 160W max output",
       "Dual 4K display support",
       "10Gbps data transfer",
-      "USB-C connection",
+      "USB-C connection"
     ],
     pros: [
       "Highest port count of any pick in this guide",
       "Strong 160W max output",
       "Dual 4K display support",
-      "Works with any USB-C-equipped ThinkPad regardless of dock generation",
+      "Works with any USB-C-equipped ThinkPad regardless of dock generation"
     ],
     cons: [
       "Not tuned to Lenovo's exact sleep/wake power management",
       "Larger footprint than Lenovo's own compact docks",
-      "Priced similarly to official Lenovo options",
+      "Priced similarly to official Lenovo options"
     ],
     bestFor: "ThinkPad owners who want more ports than Lenovo's own docks offer",
   },
@@ -216,18 +216,18 @@ export const products: GuideProduct[] = [
       "Dual 4K HDMI or single 6K display",
       "100W charging",
       "Driverless setup",
-      "USB-C/Thunderbolt connection",
+      "USB-C/Thunderbolt connection"
     ],
     pros: [
       "Certified Thunderbolt 4, not just broadly USB4 compatible",
       "Flexible display output options",
       "100W charging",
-      "No driver installation required",
+      "No driver installation required"
     ],
     cons: [
       "Only worth the Thunderbolt premium if your ThinkPad has a true TB4/USB4 port",
       "Not tuned to Lenovo's exact power management firmware",
-      "Pricier than the Universal Dock renewed option",
+      "Pricier than the Universal Dock renewed option"
     ],
     bestFor: "ThinkPad owners with true Thunderbolt/USB4 ports who want certified reliability",
   },
@@ -248,18 +248,18 @@ export const products: GuideProduct[] = [
       "Dual 4K@60Hz HDMI",
       "10Gbps data transfer",
       "100W PD passthrough",
-      "Compact form factor",
+      "Compact form factor"
     ],
     pros: [
       "Cheapest pick in this entire guide",
       "Dual 4K@60Hz HDMI support",
       "Fast 10Gbps data transfer",
-      "Compact and easy to travel with",
+      "Compact and easy to travel with"
     ],
     cons: [
       "Not Thunderbolt certified",
       "No Lenovo-specific power management tuning",
-      "Real charging output runs below the rated 100W after dock overhead",
+      "Real charging output runs below the rated 100W after dock overhead"
     ],
     bestFor: "Budget-conscious ThinkPad owners who just need basic dual-display support",
   },
@@ -280,21 +280,21 @@ export const products: GuideProduct[] = [
       "Supports 3 displays at once",
       "10Gbps USB-C data transfer",
       "Up to 100W max PD",
-      "Modular detachable design",
+      "Modular detachable design"
     ],
     pros: [
       "Supports 3 simultaneous displays at a mid-tier price",
       "Detachable hub adds flexibility",
       "Fast 10Gbps data transfer",
-      "Strong port count for the price",
+      "Strong port count for the price"
     ],
     cons: [
       "Not Thunderbolt certified",
       "No Lenovo-specific power management tuning",
-      "Detachable design adds a small learning curve",
+      "Detachable design adds a small learning curve"
     ],
     bestFor: "ThinkPad owners who want triple-display support without paying Thunderbolt prices",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -322,7 +322,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value across official and third-party tiers",
     description: "Weighed price against features across both official Lenovo docks and third-party alternatives, since the best value pick isn't always the official one.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -465,11 +465,11 @@ export const faq: FaqItem[] = [
   {
     q: "My ThinkPad's external display keeps flickering or dropping the USB connection through the dock. What should I check first?",
     a: "Check for a dock firmware update first, Lenovo regularly releases fixes for exactly these display flicker and USB dropout issues. Also check whether you're running dual displays plus a fast file transfer plus a USB drive simultaneously, which can saturate the dock's USB bus and cause disconnects that look like a hardware fault but are really a bandwidth issue.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-docking-stations-compatible-with-hp-dell-laptops", title: "Best Docking Stations for HP & Dell Laptops (2026)" },
   { href: "/guide/best-docking-stations-for-surface-pro-laptop", title: "Best Docking Stations for Surface Pro & Surface Laptop (2026)" },
-  { href: "/guide/best-docking-station-for-laptop", title: "Best Docking Stations for Laptops (2026)" },
+  { href: "/guide/best-docking-station-for-laptop", title: "Best Docking Stations for Laptops (2026)" }
 ];

@@ -12,7 +12,7 @@ export const latencyExplainedGuide: Guide = {
     "what causes audio latency",
     "how to reduce microphone latency",
     "audio interface buffer size latency",
-    "usb microphone delay fix",
+    "usb microphone delay fix"
   ],
   heroImage: "https://images.unsplash.com/photo-1634041323797-b9fdef9d18f7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1634041323797-b9fdef9d18f7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const latencyExplainedGuide: Guide = {
     "sample-rate-bit-depth-explained",
     "audio-interface-channels-chart",
     "xlr-vs-usb-microphone",
-    "best-audio-interfaces-for-microphones",
+    "best-audio-interfaces-for-microphones"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const latencyExplainedGuide: Guide = {
       question: "How much latency is noticeable to a listener?",
       answer:
         "Most people start noticing a distracting delay somewhere around 10-20 milliseconds when monitoring their own voice while speaking or singing, which is why reducing buffer size or using direct hardware monitoring matters specifically for real-time self-monitoring.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const latencyExplainedGuide: Guide = {
     {
       heading: "Using Direct Monitoring to Sidestep the Problem Entirely",
       body: `Many audio interfaces include a direct monitoring feature that routes your microphone signal straight to your headphone output through the interface's own hardware, completely bypassing your computer's software processing chain. This means you hear yourself with effectively zero latency regardless of your buffer size setting, making it the most reliable fix for anyone who finds software monitoring delay distracting while recording or streaming.`,
-    },
+    }
   ],
 };

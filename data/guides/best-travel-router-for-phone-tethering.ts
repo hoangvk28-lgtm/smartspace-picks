@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Highest device count, newest Wi-Fi", "TP-Link Roam 7 BE3600"],
         ["Fast 2.5G port at a lower price", "TP-Link Roam 6 AX3000"],
         ["Lowest price with tethering support", "TP-Link Roam 6 AX1500"],
-        ["OpenWrt customization with tethering", "GL.iNet GL-A1300 Pocket VPN"],
+        ["OpenWrt customization with tethering", "GL.iNet GL-A1300 Pocket VPN"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $40", "TP-Link Roam 6 AX1500 ($39.99)"],
-        ["Under $56", "TP-Link Roam 6 AX3000 ($55.99)"],
-        ["Under $70", "GL.iNet GL-A1300 Pocket VPN ($69.99)"],
-        ["Under $90", "TP-Link Roam 7 BE3600 ($89.98)"],
+        ["Under $40", "TP-Link Roam 6 AX1500 (under $40)"],
+        ["Under $56", "TP-Link Roam 6 AX3000 (under $60)"],
+        ["Under $70", "GL.iNet GL-A1300 Pocket VPN (under $70)"],
+        ["Under $90", "TP-Link Roam 7 BE3600 (under $90)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "TP-Link Roam Simplicity vs GL.iNet OpenWrt Depth",
     cards: [
       { label: "TP-Link Roam lineup", text: "A straightforward 3-mode setup (Router, Hotspot, AP/RE) that's quick to configure for tethering without OpenWrt's added complexity." },
-      { label: "GL.iNet GL-A1300", text: "Adds OpenWrt customization, a VPN kill switch, and per-site routing policies for buyers who want tethering plus deeper network control." },
+      { label: "GL.iNet GL-A1300", text: "Adds OpenWrt customization, a VPN kill switch, and per-site routing policies for buyers who want tethering plus deeper network control." }
     ],
     note: "Most buyers who primarily need reliable tethering should default to the simpler TP-Link Roam lineup; choose the GL.iNet pick specifically if OpenWrt customization or advanced VPN policies matter to you too.",
   },
@@ -130,7 +130,7 @@ export const howToChoose = [
       headers: ["Your cellular connection speed", "Recommended pick"],
       rows: [
         ["Standard 4G/5G speeds, budget priority", "TP-Link Roam 6 AX1500"],
-        ["Faster 5G speeds, multiple devices", "TP-Link Roam 6 AX3000 or Roam 7"],
+        ["Faster 5G speeds, multiple devices", "TP-Link Roam 6 AX3000 or Roam 7"]
       ],
     },
   },
@@ -138,16 +138,16 @@ export const howToChoose = [
     subheading: "For Working Remotely From a Phone's Cellular Connection Specifically",
     cards: [
       { label: "Look for", text: "Explicit USB tethering mode support named in the listing, since not every travel router clearly documents this capability, and confirm your phone's data plan allows tethering without additional carrier fees." },
-      { label: "In this comparison", text: "All four picks specifically name tethering or router mode compatibility, removing uncertainty about whether the connection method actually works before purchase." },
+      { label: "In this comparison", text: "All four picks specifically name tethering or router mode compatibility, removing uncertainty about whether the connection method actually works before purchase." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You need the highest device count and newest Wi-Fi standard, or want OpenWrt customization alongside tethering, where the Roam 7 or GL-A1300 justify their price with those specific capabilities." },
-      { label: "Save if", text: "You just need reliable USB tethering support for a handful of devices, where the Roam 6 AX1500 at $39.99 covers that need at the lowest price in this comparison." },
+      { label: "Save if", text: "You just need reliable USB tethering support for a handful of devices, where the Roam 6 AX1500 at under $40 covers that need at the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

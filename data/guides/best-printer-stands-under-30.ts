@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     description: "This stand's storage drawer includes internal dividers specifically for office supplies and accessories, a more organized approach than an open shelf alone. Its adjustable 14.1 inch maximum height configuration lets you use fewer extensions for a shorter setup, genuinely customizable to your desk or table clearance.\n\nCompared to the VYUOL pick above, this one adds locking caster wheels that swivel 360 degrees for mobility, though the wheels are explicitly optional if you'd rather use it on a desktop or shelf. The top platform's 17.2 x 13.2 inch size accommodates both standard paper printers and larger 3D printers.\n\nBest for buyers who want adjustable height and optional rolling mobility with organized drawer dividers.",
     specs: ["Adjustable height up to 14.1in, 38.5 lb capacity", "Storage drawer with dividers", "Optional locking caster wheels"],
     pros: ["Adjustable height configuration fits different desk clearances", "Drawer dividers keep office supplies organized", "Locking caster wheels are optional for flexible use"],
-    cons: ["Slightly over this tier's stated ceiling at $33.99", "38.5 lb capacity is lower than some picks in the tier below"],
+    cons: ["Slightly over this tier's stated ceiling at under $35", "38.5 lb capacity is lower than some picks in the tier below"],
     bestFor: "buyers who want adjustable height with organized drawer storage",
   },
   {
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["To store two printers with dual-rod stability", "VYUOL Printer Stand with Storage, Fabric Drawer"],
         ["Adjustable height with organized drawer storage", "HUANUO Printer Stand with Cable Management and Storage Drawer"],
         ["An enclosed drawer to keep contents hidden", "YATINEY Desktop Printer Stand, Non-Woven Drawer"],
-        ["Tested rolling wheels at a lower price", "YUFAM 2 Tier Under Desk Printer Stand with Storage"],
+        ["Tested rolling wheels at a lower price", "YUFAM 2 Tier Under Desk Printer Stand with Storage"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $26", "YUFAM ($25.26)"],
-        ["Under $27", "YATINEY ($26.59)"],
-        ["Under $30", "VYUOL ($29.99)"],
-        ["Under $34", "HUANUO ($33.99)"],
+        ["Under $26", "YUFAM (under $30)"],
+        ["Under $27", "YATINEY (under $30)"],
+        ["Under $30", "VYUOL (under $30)"],
+        ["Under $34", "HUANUO (under $35)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Enclosed Drawer vs Open Shelf Storage",
     cards: [
       { label: "Enclosed drawer (YATINEY, VYUOL, HUANUO)", text: "Hides contents from view, protecting private documents and keeping small supplies from spilling out." },
-      { label: "Open shelf only (YUFAM)", text: "Provides simpler, quicker access to items without needing to open a drawer, but leaves contents visible." },
+      { label: "Open shelf only (YUFAM)", text: "Provides simpler, quicker access to items without needing to open a drawer, but leaves contents visible." }
     ],
     note: "If you're storing sensitive documents or want a tidier visual appearance, an enclosed drawer pick like the YATINEY is worth prioritizing. If quick visual access matters more than privacy, the open-shelf YUFAM works fine.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your printer setup", "Recommended pick"],
       rows: [
         ["Single printer with storage below", "YATINEY, HUANUO, or YUFAM"],
-        ["Two printers simultaneously", "VYUOL (3-tier design)"],
+        ["Two printers simultaneously", "VYUOL (3-tier design)"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Home Office With Multiple Printing Devices Specifically",
     cards: [
       { label: "Look for", text: "A genuine 3-tier layout specifically designed to hold two printers on separate shelves, not just a taller single-printer stand with extra storage below." },
-      { label: "In this comparison", text: "The VYUOL pick's 3-tier design specifically accommodates two printers on the upper and middle shelves simultaneously, a capacity none of the 2-tier picks in this comparison offer." },
+      { label: "In this comparison", text: "The VYUOL pick's 3-tier design specifically accommodates two printers on the upper and middle shelves simultaneously, a capacity none of the 2-tier picks in this comparison offer." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want to store two printers with dual-rod stability and a foldable fabric drawer, where the VYUOL pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You just want tested rolling wheels without an enclosed drawer, where the YUFAM pick covers that for about $5 less." },
+      { label: "Save if", text: "You just want tested rolling wheels without an enclosed drawer, where the YUFAM pick covers that for about $5 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

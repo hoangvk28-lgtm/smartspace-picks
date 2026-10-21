@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop cooling pads for Lenovo laptops";
 export const introParagraphs = [
   "Lenovo covers three distinct laptop categories: business-focused ThinkPad, budget-oriented IdeaPad, and gaming-focused Legion and LOQ. Each line has a different weight and heat profile, so the cooling pad that suits a slim ThinkPad is rarely the right choice for a heavier Legion gaming chassis, and vice versa.",
-  "Most pads in this guide are universal-fit multi-fan designs rather than Lenovo-exclusive hardware, so we evaluated each one by its stated size range, weight rating, and airflow output against typical ThinkPad, IdeaPad, and Legion or LOQ footprints rather than assuming the Lenovo name on a listing guarantees a good fit. If you own a Legion or LOQ gaming laptop specifically, our narrower Legion and LOQ cooling pad guides go deeper on those sub-lines.",
+  "Most pads in this guide are universal-fit multi-fan designs rather than Lenovo-exclusive hardware, so we evaluated each one by its stated size range, weight rating, and airflow output against typical ThinkPad, IdeaPad, and Legion or LOQ footprints rather than assuming the Lenovo name on a listing guarantees a good fit. If you own a Legion or LOQ gaming laptop specifically, our narrower Legion and LOQ cooling pad guides go deeper on those sub-lines."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Chassis size and weight match", description: "We compared each pad's stated size range and load capacity against typical ThinkPad, IdeaPad, and Legion or LOQ dimensions rather than assuming Lenovo-branded compatibility claims applied evenly across every Lenovo line." },
   { title: "Airflow output for the workload", description: "We weighed multi-fan arrays and directed-airflow designs based on which Lenovo line they suit, since a slim ThinkPad and a loaded Legion chassis have very different cooling needs." },
   { title: "Noise level for the use case", description: "We factored in stated noise figures, since a ThinkPad used in an open office or an IdeaPad used for calls benefits from a quieter pad than a Legion gaming laptop used for evening sessions." },
-  { title: "Port and build practicality", description: "We evaluated USB-C versus USB-A passthrough support, height adjustment range, and material quality as everyday ownership factors relevant to how Lenovo laptops are actually used." },
+  { title: "Port and build practicality", description: "We evaluated USB-C versus USB-A passthrough support, height adjustment range, and material quality as everyday ownership factors relevant to how Lenovo laptops are actually used." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -292,11 +292,11 @@ export const faq: FaqItem[] = [
   { q: "How much cooler will a pad actually make my Lenovo laptop run?", a: "This depends on how well the pad's airflow lines up with your laptop's real vents. Manufacturer-stated temperature figures are a helpful reference point, but based on product specs alone they should be treated as best-case figures rather than guarantees." },
   { q: "Is a cooling pad necessary for a Legion or LOQ laptop specifically?", a: "It depends on your workload. Light or moderate use rarely needs one, but extended gaming sessions can benefit from added airflow. Our dedicated Legion and LOQ cooling pad guides cover these sub-lines in more depth." },
   { q: "Will a cooling pad void my Lenovo warranty?", a: "External cooling pads that simply sit under the laptop do not open or modify the device, so they do not typically affect a Lenovo warranty. Always check your specific warranty terms if you are uncertain." },
-  { q: "Should I use a mesh pad or a lap-focused chill mat?", a: "That depends on how you use your laptop. A mesh multi-fan pad works well at a desk, while a neoprene-based chill mat like the Targus pick is built specifically for comfortable, stable lap use." },
+  { q: "Should I use a mesh pad or a lap-focused chill mat?", a: "That depends on how you use your laptop. A mesh multi-fan pad works well at a desk, while a neoprene-based chill mat like the Targus pick is built specifically for comfortable, stable lap use." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-cooling-pads-for-lenovo-legion-laptops", title: "Best Laptop Cooling Pads for Lenovo Legion Laptops" },
   { href: "/guide/best-laptop-cooling-pads-for-lenovo-loq-laptops", title: "Best Laptop Cooling Pads for Lenovo LOQ Laptops" },
-  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads" },
+  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads" }
 ];

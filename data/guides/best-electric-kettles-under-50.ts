@@ -5,7 +5,7 @@ export const metaDescription = "Seven electric kettles at or under $50, covering
 export const mainKeyword = "electric kettle under $50";
 export const introParagraphs = [
   "Fifty dollars opens up features that cheaper kettles skip: adjustable temperature, keep-warm, gooseneck spouts and steel from lid to base. That is also where listing language gets slippery, so it pays to read what each model really specifies.",
-  "Each of these seven picks costs $49.99 or less. We compared listed specs: preset temperatures, capacity, wattage, materials and how each listing describes protections. The set splits into everyday family-size kettles, pour-over gooseneck models and a dual-voltage traveler."
+  "Each of these seven picks costs under $50 or less. We compared listed specs: preset temperatures, capacity, wattage, materials and how each listing describes protections. The set splits into everyday family-size kettles, pour-over gooseneck models and a dual-voltage traveler."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";

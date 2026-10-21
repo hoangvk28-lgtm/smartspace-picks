@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook for professionals";
 export const introParagraphs = [
   "Professionals using a digital notebook daily are better served by picks with genuine build quality, sustained battery life, and organization features, even if that means a higher price than a casual buyer would spend.",
-  "This guide leans premium across e-ink hardware and smart pen sets, since a device used every working day justifies a bigger upfront investment than an occasional-use notebook.",
+  "This guide leans premium across e-ink hardware and smart pen sets, since a device used every working day justifies a bigger upfront investment than an occasional-use notebook."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Sustained daily use weighted over occasional-use value", description: "Prioritized build quality, battery life, and organization features appropriate for a device used every working day, rather than optimizing purely for lowest price." },
   { title: "App and platform flexibility considered for professional workflows", description: "Noted where Android access or cross-platform compatibility genuinely extends a device's usefulness beyond basic note-taking for professional tasks." },
   { title: "Document review and annotation capability assessed", description: "Weighed color display and screen size as genuine factors for professionals who mark up documents or reports regularly." },
-  { title: "Total investment weighed against daily professional use", description: "Considered premium pricing justified specifically for daily use, not recommended as a default for occasional note-takers." },
+  { title: "Total investment weighed against daily professional use", description: "Considered premium pricing justified specifically for daily use, not recommended as a default for occasional note-takers." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -274,11 +274,11 @@ export const faq: FaqItem[] = [
   { q: "Is a premium digital notebook worth it for professionals?", a: "Yes, if you'll use it daily, the build quality, battery life, and organization features genuinely pay off, for occasional use a cheaper pick makes more sense." },
   { q: "Should professionals choose an Android e-ink tablet or a focused device?", a: "Choose Android if you want broader productivity app access, choose a focused device like the reMarkable if you specifically want to avoid app distractions." },
   { q: "Do premium digital notebooks require a subscription?", a: "Some have historically required a subscription for full cloud features, verify current requirements on the specific listing before committing." },
-  { q: "Which digital notebook is best for reviewing documents as a professional?", a: "Devices with a larger color display, such as the reMarkable Paper Pro or Kindle Scribe Colorsoft, genuinely help with document review and annotation." },
+  { q: "Which digital notebook is best for reviewing documents as a professional?", a: "Devices with a larger color display, such as the reMarkable Paper Pro or Kindle Scribe Colorsoft, genuinely help with document review and annotation." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks-for-work", title: "Best Digital Notebooks for Work (2026)" },
   { href: "/guide/best-digital-notebooks-under-500", title: "Best Digital Notebooks Under $500 (2026)" },
-  { href: "/guide/best-digital-notebooks-for-writers", title: "Best Digital Notebooks for Writers (2026)" },
+  { href: "/guide/best-digital-notebooks-for-writers", title: "Best Digital Notebooks for Writers (2026)" }
 ];

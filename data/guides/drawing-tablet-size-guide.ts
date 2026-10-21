@@ -12,7 +12,7 @@ export const drawingTabletSizeGuideGuide: Guide = {
     "what size drawing tablet to buy",
     "small vs large drawing tablet",
     "active area drawing tablet meaning",
-    "drawing tablet desk space",
+    "drawing tablet desk space"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const drawingTabletSizeGuideGuide: Guide = {
     "drawing-tablet-vs-display-tablet",
     "drawing-tablet-pressure-sensitivity-explained",
     "what-size-desk-do-i-need",
-    "mouse-pad-size-guide",
+    "mouse-pad-size-guide"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const drawingTabletSizeGuideGuide: Guide = {
       question: "Should professional or highly detailed work use a larger tablet?",
       answer:
         "Not automatically, many professional illustrators work efficiently on small to medium tablets, since detailed work often benefits more from precision at a smaller scale than from a large physical drawing area, size preference varies more by individual habit than professional necessity.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const drawingTabletSizeGuideGuide: Guide = {
     {
       heading: "Why Checking Active Area Specifically Prevents a Common Buying Mistake",
       body: `Tablet product listings sometimes emphasize overall physical dimensions, which include bezels, buttons, and other non-drawing surface areas, rather than clearly highlighting the actual active drawing area, a tablet that looks appropriately sized based on its total footprint might have a meaningfully smaller active drawing area than expected, always locate and compare the specific active area dimensions, usually listed separately in the technical specifications, rather than assuming the tablet's overall size directly reflects its usable drawing space.`,
-    },
+    }
   ],
 };

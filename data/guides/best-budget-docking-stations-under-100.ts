@@ -2,11 +2,11 @@ export const guideSlug = "best-budget-docking-stations-under-100";
 export const guideTitle = "7 Best Budget Docking Stations Under $100 in 2026";
 export const metaTitle = "Best Budget Docking Stations Under $100 in 2026";
 export const metaDescription =
-  "7 best budget docking stations under $100 in 2026, from a $26.96 hub-style dock to a $97.99 self-powered business dock. Compare ports, power, and heat.";
+  "7 best budget docking stations under $100 in 2026, from an under-$30 hub-style dock to an under-$100 self-powered business dock. Compare ports, power, and heat.";
 export const mainKeyword = "budget docking station under 100";
 export const introParagraphs = [
   "A docking station under $100 can genuinely replace a desk full of loose cables, but the price tier comes with real tradeoffs that a spec list alone won't show you. The internal chipset, the difference between advertised 4K support and actual 4K@60Hz output, and whether the unit is bus-powered or has its own power supply all matter more at this price point than they do once you're spending $150 or more.",
-  "Below are 7 docking stations under $100 we evaluated on port mix, power delivery, and real-world reliability signals, ranging from a $26.96 compact 7-in-1 hub to a $97.99 self-powered business-style dock, so you can match the wattage and build quality to what your laptop actually needs rather than buying on port count alone.",
+  "Below are 7 docking stations under $100 we evaluated on port mix, power delivery, and real-world reliability signals, ranging from an under-$30 compact 7-in-1 hub to an under-$100 self-powered business-style dock, so you can match the wattage and build quality to what your laptop actually needs rather than buying on port count alone."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Single external display output",
       "Compact aluminum housing",
       "Bus-powered from host laptop",
-      "USB-C connection to laptop",
+      "USB-C connection to laptop"
     ],
     pros: [
-      "Lowest price in this list at $26.96",
+      "Lowest price in this list at under $30",
       "Compact aluminum build resists heat buildup better than plastic hubs",
       "Simple single-cable setup",
-      "Good fit for single-monitor home offices",
+      "Good fit for single-monitor home offices"
     ],
     cons: [
       "Single display output only, no dual-monitor support",
       "Bus-powered, no dedicated power supply",
-      "Basic port selection compared to pricier picks",
+      "Basic port selection compared to pricier picks"
     ],
     bestFor: "Buyers who only need single-monitor output at the lowest price in this list",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Dual monitor output support",
       "Compact, portable form factor",
       "USB-A and card reader ports included",
-      "Bus-powered from host laptop",
+      "Bus-powered from host laptop"
     ],
     pros: [
       "Very compact and portable for daily carry",
       "Dual monitor output at a sub-$30 price",
       "Anker's typical build consistency",
-      "Card reader included",
+      "Card reader included"
     ],
     cons: [
       "Small size limits passive heat dissipation on long sessions",
       "Bus-powered, relies on the laptop for power",
-      "Fewer USB-A ports than the larger docks in this list",
+      "Fewer USB-A ports than the larger docks in this list"
     ],
     bestFor: "Buyers who want a dual-monitor dock small enough to carry between desk and bag",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Dual HDMI, both at 4K@60Hz",
       "USB-A ports and SD/TF card reader",
       "Bus-powered from host laptop",
-      "USB-C connection to laptop",
+      "USB-C connection to laptop"
     ],
     pros: [
       "Confirmed dual HDMI at true 4K@60Hz, not the common 30Hz downgrade",
       "Wide 10-port mix for the price",
       "Good value for dual-monitor home office setups",
-      "Card reader included",
+      "Card reader included"
     ],
     cons: [
       "Bus-powered, no independent power supply",
       "Plastic housing runs warmer under sustained dual-4K output",
-      "No Ethernet port",
+      "No Ethernet port"
     ],
     bestFor: "Buyers who need real dual 4K@60Hz output without paying for a business-tier dock",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Dual monitor HDMI output",
       "Broad Dell / Lenovo / HP compatibility",
       "Bus-powered from host laptop",
-      "USB-C connection to laptop",
+      "USB-C connection to laptop"
     ],
     pros: [
       "Widest port count under $50 in this list",
       "Dual monitor support out of the box",
       "Marketed compatibility across the 3 most common business laptop brands",
-      "Reasonable $44.99 price for the port count",
+      "Reasonable under $45 price for the port count"
     ],
     cons: [
       "Bus-powered, no dedicated power brick",
       "Generic branding means less established support history than Anker or UGREEN",
-      "Heat can build up with all 14 ports active at once",
+      "Heat can build up with all 14 ports active at once"
     ],
     bestFor: "Buyers who need dual monitors and want confirmed compatibility across Dell, Lenovo, and HP laptops",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Dual monitor output",
       "Reinforced housing for better heat handling",
       "Bus-powered from host laptop",
-      "USB-C connection to laptop",
+      "USB-C connection to laptop"
     ],
     pros: [
       "Sturdier build than cheaper hub-style docks",
       "Better sustained thermal performance",
       "Established brand reliability track record",
-      "Dual monitor support",
+      "Dual monitor support"
     ],
     cons: [
       "Fewer ports than the 14-in-1 pick at a higher price",
       "Bus-powered, no independent power supply",
-      "Not the cheapest option if budget is the only priority",
+      "Not the cheapest option if budget is the only priority"
     ],
     bestFor: "Buyers who want sturdier daily-use reliability over squeezing in the most ports",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "USB-C single-cable connection",
       "USB-A ports included",
       "Bus-powered from host laptop",
-      "Compact multi-port housing",
+      "Compact multi-port housing"
     ],
     pros: [
       "Triple 4K output at less than half the price of most business-tier docks",
       "Single-cable setup for a 3-monitor desk",
       "Good value for buyers who specifically need 3 displays",
-      "Compact for the display output it supports",
+      "Compact for the display output it supports"
     ],
     cons: [
       "Requires your laptop to actually support triple external displays",
       "Bus-powered, adds no independent charging power",
-      "Running all 3 displays at once increases heat and bandwidth demand",
+      "Running all 3 displays at once increases heat and bandwidth demand"
     ],
     bestFor: "Buyers who need 3 external 4K monitors without paying business-tier dock prices",
   },
@@ -249,21 +249,21 @@ export const products: GuideProduct[] = [
       "Dedicated external power adapter (self-powered)",
       "Enterprise-oriented HP build",
       "USB-C connection to laptop",
-      "Larger footprint than hub-style docks",
+      "Larger footprint than hub-style docks"
     ],
     pros: [
       "Genuinely self-powered with its own adapter, not bus-powered",
       "Enterprise-grade HP build quality",
       "Charges the laptop independently of data throughput",
-      "Best pick for a dock that stays permanently on the desk",
+      "Best pick for a dock that stays permanently on the desk"
     ],
     cons: [
       "Highest price in this list, right at the $100 ceiling",
       "Bulkier than the compact hub-style docks",
-      "Overkill if you only need basic single-monitor output",
+      "Overkill if you only need basic single-monitor output"
     ],
     bestFor: "Buyers who want a genuine self-powered dock rather than a bus-powered hub",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -291,7 +291,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed port count, display capability, and power design against price across the full range of price points in this comparison covered in this list.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -434,11 +434,11 @@ export const faq: FaqItem[] = [
   {
     q: "Can a budget dock under $100 fully charge my laptop?",
     a: "Most docks under $100 are bus-powered hubs, meaning they draw all their power from the laptop's own battery or charger rather than supplying independent power, so they won't add charging capacity on top of what your laptop already provides. The HP Dock G5 is the exception in this list, since it ships with its own dedicated power adapter and can genuinely contribute to charging rather than just passing through what the laptop already has.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-usb-c-docking-stations", title: "Best USB-C Docking Stations (2026)" },
   { href: "/guide/usb-c-hub-vs-docking-station", title: "USB-C Hub vs. Docking Station" },
-  { href: "/guide/best-docking-stations-for-desk-setup", title: "Best Docking Stations for Desk Setup (2026)" },
+  { href: "/guide/best-docking-stations-for-desk-setup", title: "Best Docking Stations for Desk Setup (2026)" }
 ];

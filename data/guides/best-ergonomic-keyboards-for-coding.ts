@@ -6,7 +6,7 @@ export const mainKeyword = "ergonomic keyboard for coding";
 export const introParagraphs = [
   "Coding involves heavy use of symbol keys, brackets, semicolons, and special characters, worth verifying keycap legend clarity and layout accessibility for these specific keys rather than assuming general typing comfort automatically covers coding-specific needs.",
   "Programming often benefits from customizable key remapping, assigning frequently used symbols or IDE shortcuts to programmable keys, worth verifying software or firmware remapping capability specifically for this technical audience.",
-  "Extended sustained typing sessions common in software development work make full-workday comfort testing especially relevant here, this article applies similar sustained-use testing criteria as a general all-day-office-use framing given how directly the coding audience overlaps with that need.",
+  "Extended sustained typing sessions common in software development work make full-workday comfort testing especially relevant here, this article applies similar sustained-use testing criteria as a general all-day-office-use framing given how directly the coding audience overlaps with that need."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Ergonomic Keyboard for Coding Overall",
     name: "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest",
     price: "$129.99",
-    rating: "4.5 stars from 7,992 Amazon ratings",
-    reviews: "7,992 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41EsewSK2nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZWK2TQT?tag=deskfinds0d-20",
     description: "A very large review base and the highest rating in this guide, this full-size split layout retains standard symbol key positions and legible legends for brackets, semicolons, and special characters, avoiding the compressed or relocated symbol keys some compact keyboards impose.\n\nIt earns the top spot in this comparison over Perixx PERIBOARD-335RD Wired Ergonomic Mechanical Compact Keyboard for one main reason. Very large, well-established review base. On price, it's actually priced above Perixx PERIBOARD-335RD Wired Ergonomic Mechanical Compact Keyboard, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Standard symbol key positions with legible legends, no compressed coding-relevant keys. On the other side, Larger footprint than a compact keyboard due to the full-size split layout. That's the main tradeoff to weigh against everything above.",
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Programmable Macro-Key Pick for Coding",
     name: "Perixx PERIBOARD-335RD Wired Ergonomic Mechanical Compact Keyboard - Low-Profile Red Linear Switches - Programmable Feature with Macro Keys - Compatible with Windows and Mac OS X - US English",
     price: "$49.99",
-    rating: "4.0 stars from 60 Amazon ratings",
-    reviews: "60 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51yI4NqNkGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BLZPLWX4?tag=deskfinds0d-20",
     description: "Genuine programmable macro keys here directly address the remapping benefit relevant to this technical audience, letting a developer assign frequently used symbols or IDE shortcuts to dedicated programmable keys rather than reaching for a multi-key combination repeatedly.\n\nOne spot below Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest in this ranking, it's priced lower than Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest. The compromise here is straightforward: Smaller review base limits confidence in long-term durability. What you gain in return: Genuine programmable macro keys for IDE shortcuts and frequent symbols. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Mechanical switch feedback suited to rapid, repetitive coding keystrokes. On the other side, Compact layout may compress some symbol key spacing, verify against your specific needs. That's the main tradeoff to weigh against everything above.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Split Keyboard for Coding",
     name: "Perixx PERIBOARD-512B Wired Ergonomic Keyboard - Split Keyboard, Wrist Rest, Natural Typing - Wired USB Connectivity - US English - Black",
     price: "$44.99",
-    rating: "4.4 stars from 9,553 Amazon ratings",
-    reviews: "9,553 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41MgdS5CMFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075GZVD4T?tag=deskfinds0d-20",
     description: "A very large review base at a fraction of the premium pick's price, this split layout maintains standard keycap spacing and symbol key positions within each half, supporting the same symbol-heavy coding needs without the flagship price tag.\n\nSitting just under Perixx PERIBOARD-335RD Wired Ergonomic Mechanical Compact Keyboard, it's priced lower than Perixx PERIBOARD-335RD Wired Ergonomic Mechanical Compact Keyboard. Here's the honest tradeoff: No programmable macro keys for IDE-specific shortcuts. And here's what it gets you instead: Very large, well-established review base at a budget-friendly price. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Standard symbol key positions and spacing within each half. On the other side, Wired-only, no wireless flexibility for buyers wanting that. That's the main tradeoff to weigh against everything above.",
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     badge: "Best Mechanical Feedback Pick for Rapid Keystrokes",
     name: "Logitech G413 TKL SE Mechanical Gaming Keyboard - Black",
     price: "$69.99",
-    rating: "4.6 stars from 1,047 Amazon ratings",
-    reviews: "1,047 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31hUfgJWI9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08Z7J4KV3?tag=deskfinds0d-20",
     description: "The highest average rating in this guide, this genuinely mechanical TKL keyboard offers consistent tactile actuation feedback well suited to the rapid, repetitive keystrokes common in coding, similar to the RSI-focused actuation force considerations relevant elsewhere in keyboard research.\n\nRanked just behind Perixx PERIBOARD-512B Wired Ergonomic Keyboard, it costs more than Perixx PERIBOARD-512B Wired Ergonomic Keyboard. The real tradeoff against that pick: No split or tenting ergonomic layout for developers wanting that specifically. In exchange, it offers this instead: Highest average rating of any pick in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Genuine mechanical switch feedback suited to rapid coding keystrokes. On the other side, Gaming-oriented styling may not suit every professional office aesthetic. That's the main tradeoff to weigh against everything above.",
@@ -90,8 +90,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Compact Pick for Coding",
     name: "Cherry Stream Wired Keyboard Without Number Pad, Compact TKL",
     price: "$19.99",
-    rating: "4.3 stars from 677 Amazon ratings",
-    reviews: "677 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31JeP36QFCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09N9CPX34?tag=deskfinds0d-20",
     description: "The lowest price in this guide from an established keyboard brand, this compact TKL layout genuinely retains standard symbol key legends and positioning despite its smaller footprint, an important verification for coding-relevant keys on any compact design.\n\nOne spot below Logitech G413 TKL SE Mechanical Gaming Keyboard in this ranking, it's priced lower than Logitech G413 TKL SE Mechanical Gaming Keyboard. The compromise here is straightforward: No split or tenting ergonomic features. What you gain in return: Lowest price in this guide. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Retains standard symbol key legends and positioning despite the compact footprint. On the other side, No numeric entry due to the TKL form factor. That's the main tradeoff to weigh against everything above.",
@@ -108,7 +108,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Key remapping software/firmware capability verified", description: "Verified software/firmware remapping capability specifically for this technical audience, since programming often benefits from assigning frequently used symbols or IDE shortcuts to programmable keys." },
   { title: "Full-workday sustained-use testing applied consistent with general office-use research", description: "Applied similar sustained-use testing criteria as a general all-day-office-use framing, since extended sustained typing sessions common in software development make full-workday comfort especially relevant." },
   { title: "Overlap with 'for programmers' framing explicitly assessed", description: "Cross-referenced the 'for programmers' framing given significant likely overlap, clarifying whether these represent genuinely distinct search intents or should be considered together." },
-  { title: "Actuation feedback tested for rapid repetitive coding keystrokes", description: "Tested actuation-feedback relevant for the rapid, repetitive keystrokes common in coding, similar to the RSI-focused actuation force considerations established elsewhere in keyboard research." },
+  { title: "Actuation feedback tested for rapid repetitive coding keystrokes", description: "Tested actuation-feedback relevant for the rapid, repetitive keystrokes common in coding, similar to the RSI-focused actuation force considerations established elsewhere in keyboard research." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -229,11 +229,11 @@ export const faq: FaqItem[] = [
   { q: "Is a mechanical or membrane keyboard better for coding?", a: "Mechanical switches generally offer more consistent tactile feedback for the rapid, repetitive keystrokes common in coding, though this comes down partly to personal preference." },
   { q: "Is 'ergonomic keyboard for coding' different from 'ergonomic keyboard for programmers'?", a: "These overlap significantly, since both address the same technical audience and use case, worth comparing both search results rather than assuming they lead to entirely distinct products." },
   { q: "Do I need a split ergonomic keyboard specifically for coding comfort?", a: "It helps for extended sessions, since full-workday comfort matters as much for coding as general office use, but a well-designed non-split mechanical keyboard can also serve rapid, repetitive coding keystrokes well." },
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Developers wanting the most-proven full-size split keyboard with clear symbol keys and tenting" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Developers wanting the most-proven full-size split keyboard with clear symbol keys and tenting" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-ergonomic-keyboards-for-programmers", title: "Best Ergonomic Keyboards for Programmers (2026)" },
   { href: "/guide/best-multi-device-ergonomic-keyboards", title: "Best Multi-Device Ergonomic Keyboards (2026)" },
-  { href: "/guide/best-tenkeyless-split-keyboards", title: "Best Tenkeyless Split Keyboards (2026)" },
+  { href: "/guide/best-tenkeyless-split-keyboards", title: "Best Tenkeyless Split Keyboards (2026)" }
 ];

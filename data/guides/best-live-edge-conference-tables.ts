@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 8FT Conference Table measures 94.49 L x 47.24 W x 29.53 H and is built around 10 people conference table, positioning it for live edge buyers specifically.\n\nSUPER STURDY CONSTRUCTION is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for live edge, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["94.49 L x 47.24 W x 29.53 H table dimensions","10 PEOPLE CONFERENCE TABLE","SUPER STURDY CONSTRUCTION"],
     pros: ["10 PEOPLE CONFERENCE TABLE, confirmed directly in the listing's own spec details","SUPER STURDY CONSTRUCTION, confirmed directly in the listing's own spec details","GROMMET HOLES & ADJUSTABLE FOOT PADS, confirmed directly in the listing's own spec details"],
-    cons: ["At $379.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $400, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for live edge",
   },
   {
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 8ft Conference Table measures 8ft and is built around spacious 8-10 person capacity, positioning it for live edge buyers specifically.\n\nElegant Walnut & Black Aesthetic is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for live edge, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["8ft table dimensions","Spacious 8-10 Person Capacity","Elegant Walnut & Black Aesthetic"],
     pros: ["Spacious 8-10 Person Capacity, confirmed directly in the listing's own spec details","Elegant Walnut & Black Aesthetic, confirmed directly in the listing's own spec details","Integrated Cable Management, confirmed directly in the listing's own spec details"],
-    cons: ["At $389.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $400, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for live edge",
   },
   {
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 8FT Conference Table measures 94.48L x 47.24W x 29.52H and is built around modern & natural style, positioning it for live edge buyers specifically.\n\nAssemble the Team is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for live edge, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["94.48L x 47.24W x 29.52H table dimensions","Modern & Natural Style","Assemble the Team"],
     pros: ["Modern & Natural Style, confirmed directly in the listing's own spec details","Assemble the Team, confirmed directly in the listing's own spec details","Tabletop Cable Grommets, confirmed directly in the listing's own spec details"],
-    cons: ["At $254.73, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $300, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for live edge",
   },
   {
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 63-inch Executive Desk and is built around durable & sturdy construction, positioning it for live edge buyers specifically.\n\nPerfect Size for Brainstorming is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for live edge, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Durable & Sturdy Construction","Perfect Size for Brainstorming","Versatile Usage"],
     pros: ["Durable & Sturdy Construction, confirmed directly in the listing's own spec details","Perfect Size for Brainstorming, confirmed directly in the listing's own spec details","Versatile Usage, confirmed directly in the listing's own spec details"],
-    cons: ["At $189.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $190, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for live edge",
   },
   {
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 47-Inch Round Conference Table for 4-6 People and is built around - spacious & comfortable: the generously sized, positioning it for live edge buyers specifically.\n\n- Superior Quality and Durability: This meeting is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for live edge, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["- Spacious & Comfortable: The generously sized","- Superior Quality and Durability: This meeting","- Stable & Robust Design: The conference"],
     pros: ["- Spacious & Comfortable: The generously sized, confirmed directly in the listing's own spec details","- Superior Quality and Durability: This meeting, confirmed directly in the listing's own spec details","- Stable & Robust Design: The conference, confirmed directly in the listing's own spec details"],
-    cons: ["At $189.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $190, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for live edge",
   },
   {
@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $189.99",
+          "Under $190",
           "Tribesigns 63-inch Executive Desk"
         ],
         [
-          "Around $189.99",
+          "Under $190",
           "Tribesigns 47-Inch Round Conference Table for 4-6 People"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "TRIBEWOOD 63\" Live Edge Solid Wood Desk (Alt Listing)"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "TRIBEWOOD 63\" Live Edge Solid Wood Desk"
         ],
         [
-          "Around $254.73",
+          "Under $300",
           "Tribesigns 8FT Conference Table"
         ],
         [
-          "Around $369.99",
+          "Under $400",
           "OOIKVCC Industrial Solid Wood Live-Edge Table"
         ],
         [
-          "Around $379.99",
+          "Under $400",
           "Tribesigns 8FT Conference Table"
         ],
         [
-          "Around $389.99",
+          "Under $400",
           "Tribesigns 8ft Conference Table"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Tribesigns 8FT Conference Table is aimed at buyers looking for live edge." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Tribesigns 8FT Conference Table is aimed at buyers looking for live edge." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-wood-conference-tables","title":"Best Wood Conference Tables in 2026"},{"href":"/guide/best-solid-wood-conference-tables","title":"Best Solid Wood Conference Tables in 2026"},{"href":"/guide/best-walnut-conference-tables","title":"Best Walnut Conference Tables in 2026"}];

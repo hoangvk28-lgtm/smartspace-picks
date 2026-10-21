@@ -12,7 +12,7 @@ export const blueLightGlassesExplainedGuide: Guide = {
     "do blue light glasses work",
     "blue light glasses eye strain",
     "blue light glasses for sleep",
-    "screen eye strain relief",
+    "screen eye strain relief"
   ],
   heroImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const blueLightGlassesExplainedGuide: Guide = {
     "20-20-20-rule-explained",
     "monitor-brightness-and-eye-strain",
     "desk-lamp-kelvin-color-temperature",
-    "monitor-resolution-explained",
+    "monitor-resolution-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const blueLightGlassesExplainedGuide: Guide = {
       question: "What's more effective than blue light glasses for reducing eye strain?",
       answer:
         "Following the 20-20-20 rule (looking at something 20 feet away for 20 seconds every 20 minutes), ensuring proper screen brightness and viewing distance, and getting regular eye exams to rule out uncorrected vision issues are generally considered more evidence-supported approaches.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const blueLightGlassesExplainedGuide: Guide = {
     {
       heading: "Why the Sleep-Related Benefit Has Different Support",
       body: `Blue light's effect on melatonin production and the body's sleep-wake cycle is a more established area of research than its effect on eye strain specifically, evening exposure to blue light can suppress melatonin and delay sleep onset for some people, filtering blue light in the hours before bed, whether through glasses, screen settings, or simply reducing screen use, has more consistent supporting evidence for this particular concern than for daytime eye strain relief.`,
-    },
+    }
   ],
 };

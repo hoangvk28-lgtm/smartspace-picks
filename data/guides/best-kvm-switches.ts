@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "kvm switch";
 export const introParagraphs = [
   "EDID emulation is a small but genuinely important feature to look for, without it your monitor can lose its resolution and color settings every time you switch between connected computers, forcing a re-detection delay or manual reconfiguration each time.",
-  "Not every KVM switch handles USB peripherals the same way, some only switch a keyboard and mouse while others pass through a full USB hub for external drives and webcams, worth confirming exactly what gets switched before assuming full peripheral support.",
+  "Not every KVM switch handles USB peripherals the same way, some only switch a keyboard and mouse while others pass through a full USB hub for external drives and webcams, worth confirming exactly what gets switched before assuming full peripheral support."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "10 min";
@@ -26,7 +26,7 @@ export const products: GuideProduct[] = [
     badge: "Best KVM Switch Overall",
     name: "UGREEN HDMI KVM Switch 1 Monitor 2 Computers, 8K@60Hz, Aluminum",
     price: "$64.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41K5Wvne7oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFFCPL26?tag=deskfinds0d-20",
@@ -42,7 +42,7 @@ export const products: GuideProduct[] = [
     badge: "Best Multi-Monitor KVM Switch Pick",
     name: "UGREEN 8K@60Hz HDMI Displayport KVM Switch 3 Monitors 2 Computers, Aluminum",
     price: "$92.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41r-g4mzwpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G34NJ11Y?tag=deskfinds0d-20",
@@ -58,7 +58,7 @@ export const products: GuideProduct[] = [
     badge: "Best Value Dual-Monitor KVM Pick",
     name: "UGREEN HDMI KVM Switch 2 Monitors 2 Computers 4K@60Hz, with 4 USB 3.0 Ports",
     price: "$69.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41ZrB2w7oOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXF66SWR?tag=deskfinds0d-20",
@@ -74,7 +74,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget KVM Switch Pick",
     name: "USB3.0 KVM Switch 2 Port HDMI, 4K@60Hz KVM Switch 1 Monitors 2 Computers with 3 USB3.0 Ports",
     price: "$32.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41uSOQO2ILL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFVBK4XQ?tag=deskfinds0d-20",
@@ -90,7 +90,7 @@ export const products: GuideProduct[] = [
     badge: "Best Ultra-Budget KVM Switch Pick",
     name: "Hearvo USB 3.0 HDMI KVM Switch for 2 Computers 1 Monitor, 4K@60Hz, S7232H",
     price: "$26.23",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41ll9M3dnWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5D4FK1H?tag=deskfinds0d-20",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "EDID emulation checked as a real switching-quality signal", description: "Checked whether EDID emulation is documented or reported in reviews, since without it a monitor can lose its resolution and color settings on every switch." },
   { title: "USB peripheral switching scope verified, not assumed universal", description: "Verified exactly which peripherals a switch handles, since some only switch keyboard and mouse while others pass through a full USB hub for drives and webcams." },
   { title: "Resolution ceiling matched against realistic monitor needs", description: "Matched a switch's resolution ceiling against realistic current and near-future monitor needs, from 4K to genuinely future-proof 8K support." },
-  { title: "Monitor count support weighed against typical desk setups", description: "Weighed single, dual, and triple-monitor switching support against typical desk setup complexity." },
+  { title: "Monitor count support weighed against typical desk setups", description: "Weighed single, dual, and triple-monitor switching support against typical desk setup complexity." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -226,11 +226,11 @@ export const faq: FaqItem[] = [
   { q: "Why does my monitor's resolution reset every time I switch computers?", a: "This usually means the KVM switch lacks EDID emulation, without it a monitor can lose its resolution and color settings on every switch." },
   { q: "Do all KVM switches support external hard drives and webcams?", a: "Not always, some only switch keyboard and mouse while others pass through a full USB hub, verify this matches your peripheral needs." },
   { q: "Do I need an 8K-capable KVM switch?", a: "Only if you have or plan to have an 8K monitor, a 4K@60Hz switch covers the vast majority of current monitor setups." },
-  { q: "Can a KVM switch handle three monitors at once?", a: "Some models do, verify the specific monitor count support matches your actual desk setup before buying." },
+  { q: "Can a KVM switch handle three monitors at once?", a: "Some models do, verify the specific monitor count support matches your actual desk setup before buying." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-hdmi-kvm-switches", title: "Best HDMI KVM Switches (2026)" },
   { href: "/guide/best-dual-monitor-kvm-switches", title: "Best Dual-Monitor KVM Switches (2026)" },
-  { href: "/guide/best-kvm-switches-for-two-computers", title: "Best KVM Switches for Two Computers (2026)" },
+  { href: "/guide/best-kvm-switches-for-two-computers", title: "Best KVM Switches for Two Computers (2026)" }
 ];

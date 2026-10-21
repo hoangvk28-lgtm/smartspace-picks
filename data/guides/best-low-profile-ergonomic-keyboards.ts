@@ -6,7 +6,7 @@ export const mainKeyword = "low-profile ergonomic keyboard";
 export const introParagraphs = [
   "Low-profile mechanical switches, shorter travel distance, are a distinct category from standard-height mechanical switches, worth verifying whether 'low-profile' refers to switch height, overall keyboard case thickness, or both, since these are related but genuinely distinct specs.",
   "Low-profile switches typically have different actuation characteristics, shorter travel and a different force curve, than standard switches, worth testing typing feel specifically rather than assuming low-profile switches feel identical to standard-height switches at the same actuation force rating.",
-  "Split and tenting adjustability compatibility with a low-profile case design deserves verification, since a thinner case may have genuinely less internal room for the mechanisms needed for tenting adjustment than a standard-height ergonomic keyboard.",
+  "Split and tenting adjustability compatibility with a low-profile case design deserves verification, since a thinner case may have genuinely less internal room for the mechanisms needed for tenting adjustment than a standard-height ergonomic keyboard."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Low-Profile Ergonomic Keyboard Overall",
     name: "Perixx PERIBOARD-335RD Wired Ergonomic Mechanical Compact Keyboard - Low-Profile Red Linear Switches - Programmable Feature with Macro Keys - Compatible with Windows and Mac OS X - US English",
     price: "$49.99",
-    rating: "4.0 stars from 60 Amazon ratings",
-    reviews: "60 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51yI4NqNkGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BLZPLWX4?tag=deskfinds0d-20",
     description: "This explicitly discloses 'low-profile red linear switches' in its title, clarifying that low-profile refers to switch height specifically rather than an ambiguous overall case description, a genuine transparency advantage over vaguer marketing.\n\nIt earns the top spot in this comparison over Arteck Split Ergonomic Keyboard with Palm Rest for one main reason. Explicitly disclosed switch type and profile, not vague marketing. On price, it comes in below Arteck Split Ergonomic Keyboard with Palm Rest, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Genuine mechanical switches at the low-profile height. On the other side, Split/tenting adjustability not included in this compact design. That's the main tradeoff to weigh against everything above.",
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Split Low-Profile Pick",
     name: "Arteck Split Ergonomic Keyboard with Palm Rest, 2.4G USB Wireless Keyboard",
     price: "$54.99",
-    rating: "4.3 stars from 1,624 Amazon ratings",
-    reviews: "1,624 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41O4m5cUOVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BKKYRQ31?tag=deskfinds0d-20",
     description: "A large review base confirming this split ergonomic design maintains genuine low-profile case thickness while still accommodating the split-key layout, addressing the internal-room concern that thinner cases can face for split mechanisms.\n\nOne spot below Perixx PERIBOARD-335RD Wired Ergonomic Mechanical Compact Keyboard in this ranking, it costs more than Perixx PERIBOARD-335RD Wired Ergonomic Mechanical Compact Keyboard. The compromise here is straightforward: Membrane rather than mechanical switches, different actuation feel. What you gain in return: Large, well-established review base. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Genuine split layout within a low-profile case thickness. On the other side, Verify low-profile switch hot-swappability isn't applicable since this uses membrane keys. That's the main tradeoff to weigh against everything above.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wired Split Low-Profile Pick",
     name: "Arteck Split Ergonomic Keyboard with Palm Rest, USB Wired Backlit Keyboard",
     price: "$53.99",
-    rating: "4.3 stars from 1,166 Amazon ratings",
-    reviews: "1,166 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51mIgAEAexL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CGL8X4H6?tag=deskfinds0d-20",
     description: "The wired sibling of the wireless split pick, backlit for visibility in dim lighting, a solid review base confirms the same low-profile case thickness and proportioned palm rest without needing to manage a wireless receiver or battery.\n\nSitting just under Arteck Split Ergonomic Keyboard with Palm Rest, it's priced lower than Arteck Split Ergonomic Keyboard with Palm Rest. Here's the honest tradeoff: Membrane rather than mechanical switches. And here's what it gets you instead: Solid review base and rating. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Backlit keys for visibility in low-light conditions. On the other side, Tenting adjustability more limited than a taller split keyboard. That's the main tradeoff to weigh against everything above.",
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     badge: "Best Low-Profile Pick with Phone Holder",
     name: "JOYACCESS Ergonomic Wireless Keyboard with Wrist Rest, Low-Profile, Phone Holder, 2.4GHz Full Size Silent Cordless USB Computer Keyboard for Windows, Mac OS Desktop/Laptop/PC-Black Grey",
     price: "$27.89",
-    rating: "4.3 stars from 147 Amazon ratings",
-    reviews: "147 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41AHyk+btpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGTKJV5M?tag=deskfinds0d-20",
     description: "Explicitly disclosed as low-profile with a genuinely useful integrated phone holder, this full-size layout suits buyers wanting complete key coverage rather than a compact form factor alongside their thin case design.\n\nRanked just behind Arteck Split Ergonomic Keyboard with Palm Rest, it's priced lower than Arteck Split Ergonomic Keyboard with Palm Rest. The real tradeoff against that pick: Smaller review base limits confidence in long-term evidence. In exchange, it offers this instead: Full-size layout for complete key coverage. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Genuinely useful integrated phone holder. On the other side, No split or tenting adjustability in this full-size layout. That's the main tradeoff to weigh against everything above.",
@@ -90,8 +90,8 @@ export const products: GuideProduct[] = [
     badge: "Best Premium Split Ergonomic Pick",
     name: "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest",
     price: "$129.99",
-    rating: "4.5 stars from 7,992 Amazon ratings",
-    reviews: "7,992 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41EsewSK2nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZWK2TQT?tag=deskfinds0d-20",
     description: "A very large review base and the highest average rating in this guide, this premium ergonomic split design includes genuine tenting adjustability, a real feature the more compact low-profile picks in this guide can't match given their thinner case constraints.\n\nOne spot below JOYACCESS Ergonomic Wireless Keyboard with Wrist Rest in this ranking, it costs more than JOYACCESS Ergonomic Wireless Keyboard with Wrist Rest. The compromise here is straightforward: Highest price in this guide by a significant margin. What you gain in return: Very large, well-established review base. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Highest average rating of any pick in this guide. On the other side, The added tenting mechanism trades against the thinnest possible case. That's the main tradeoff to weigh against everything above.",
@@ -108,7 +108,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Typing feel tested specific to low-profile actuation characteristics", description: "Tested typing feel specifically rather than assuming low-profile switches feel identical to standard-height switches at the same actuation force rating, given the shorter travel and different force curve." },
   { title: "Split/tenting mechanism compatibility verified within thinner cases", description: "Verified split/tenting adjustability compatibility with a low-profile case design, since a thinner case may have genuinely less internal room for tenting mechanisms." },
   { title: "Wrist rest height interaction addressed for lower-profile bodies", description: "Addressed wrist elevation needs changing with a lower-profile keyboard, since a thinner keyboard body may require less wrist rest height for proper positioning." },
-  { title: "Hot-swappability verified for genuine low-profile mechanical switches", description: "Verified low-profile mechanical switch hot-swappability, whether low-profile switches can be replaced as easily as standard switches given the different physical format." },
+  { title: "Hot-swappability verified for genuine low-profile mechanical switches", description: "Verified low-profile mechanical switch hot-swappability, whether low-profile switches can be replaced as easily as standard switches given the different physical format." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -229,11 +229,11 @@ export const faq: FaqItem[] = [
   { q: "Can a low-profile ergonomic keyboard have tenting adjustability?", a: "It's possible but less common, a thinner case may have genuinely less internal room for tenting mechanisms, verify this specifically if tenting matters to you." },
   { q: "Do I need a different wrist rest for a low-profile keyboard?", a: "Often yes, a lower-profile keyboard body needs less wrist rest height for proper positioning than a taller standard keyboard, look for a rest proportioned to the actual keyboard height." },
   { q: "Can I replace the switches on a low-profile mechanical keyboard myself?", a: "Verify this specifically, low-profile switches use a different physical format than standard switches, so hot-swap compatibility isn't guaranteed the same way it is for standard-height mechanical keyboards." },
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers wanting explicitly disclosed low-profile mechanical switches with programmable macros" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers wanting explicitly disclosed low-profile mechanical switches with programmable macros" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-tkl-ergonomic-keyboards", title: "Best TKL Ergonomic Keyboards (2026)" },
   { href: "/guide/best-ergonomic-keyboards-for-typing", title: "Best Ergonomic Keyboards for Typing (2026)" },
-  { href: "/guide/best-tenkeyless-split-keyboards", title: "Best Tenkeyless Split Keyboards (2026)" },
+  { href: "/guide/best-tenkeyless-split-keyboards", title: "Best Tenkeyless Split Keyboards (2026)" }
 ];

@@ -12,7 +12,7 @@ export const filingCabinetVsFileBoxGuide: Guide = {
     "portable file box vs cabinet",
     "home office document storage options",
     "filing cabinet worth it small office",
-    "lockable file storage home",
+    "lockable file storage home"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const filingCabinetVsFileBoxGuide: Guide = {
     "desk-organizer-types-explained",
     "under-desk-storage-options-explained",
     "shelf-weight-capacity-explained",
-    "open-shelving-vs-closed-cabinet",
+    "open-shelving-vs-closed-cabinet"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const filingCabinetVsFileBoxGuide: Guide = {
       question: "Can I start with a file box and upgrade to a cabinet later as documents accumulate?",
       answer:
         "Yes, this is a reasonable approach, starting with a portable file box for modest current needs and upgrading to a filing cabinet once document volume genuinely justifies the larger capacity and floor space commitment, rather than over-investing in cabinet capacity before it's actually needed.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const filingCabinetVsFileBoxGuide: Guide = {
     {
       heading: "Why Security Considerations Should Factor Into the Decision for Sensitive Documents",
       body: `If your document storage includes genuinely sensitive materials, financial records, legal documents, personal identification information, a filing cabinet's more commonly available and more robust locking mechanism provides real security benefit that most portable file boxes don't match, this security consideration is worth weighing independently of pure capacity needs, since even a modest volume of highly sensitive documents may justify a lockable cabinet specifically for that security benefit, regardless of whether the actual document volume alone would otherwise suggest a smaller file box is sufficient.`,
-    },
+    }
   ],
 };

@@ -216,35 +216,35 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $73.99",
+          "Under $80",
           "UGREEN 40Gbps M.2 NVMe Enclosure (SSD Not Included)"
         ],
         [
-          "Around $219.00",
+          "Under $250",
           "QNAP TR-004 4-Bay USB-C DAS with Hardware RAID (Diskless)"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "Sabrent 4-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC4B)"
         ],
         [
-          "Around $239.99",
+          "Under $250",
           "TerraMaster D6-320 6-Bay USB DAS Enclosure (Diskless)"
         ],
         [
-          "Around $239.99",
+          "Under $250",
           "LaCie Rugged USB-C 5TB Portable Hard Drive"
         ],
         [
-          "Around $248.99",
+          "Under $250",
           "WD My Passport Ultra for Mac 5TB"
         ],
         [
-          "Around $699.99",
+          "Under $700",
           "OWC Envoy Ultra 2TB Thunderbolt 5 Portable NVMe SSD"
         ],
         [
-          "Around $879.99",
+          "Under $900",
           "SanDisk Professional PRO-G40 SSD 4TB (Thunderbolt 3"
         ]
       ]
@@ -289,7 +289,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "Sabrent 4-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC4B) is aimed at buyers prioritizing 4x 3.5in bays, 10gbps usb-c; QNAP TR-004 4-Bay USB-C DAS with Hardware RAID (Diskless) is aimed at buyers prioritizing 4x 3.5in bays, hardware raid 0/1/5/jbod."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -341,7 +341,7 @@ export const faq = [
     "a": "Only if the specific enclosure documents hot-swap support, which most tool-free tray designs in this category do. Always check your specific product's hot-swap capability before removing a drive live, since not every budget enclosure supports it, especially some fixed-RAID-mode units."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Sabrent 4-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC4B) is aimed at buyers prioritizing 4x 3.5in bays, 10gbps usb-c." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Sabrent 4-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC4B) is aimed at buyers prioritizing 4x 3.5in bays, 10gbps usb-c." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-das-storage-for-mac-mini","title":"8 Best DAS Storage for Mac Mini"},{"href":"/guide/best-thunderbolt-direct-attached-storage","title":"8 Best Thunderbolt Direct-Attached Storage"},{"href":"/guide/best-nvme-direct-attached-storage","title":"8 Best NVMe Direct-Attached Storage"}];

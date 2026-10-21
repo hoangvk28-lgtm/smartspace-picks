@@ -145,23 +145,23 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $79.99",
+          "Under $80",
           "TRENDnet TI-PGLC50 5-Port Industrial PoE+ Switch"
         ],
         [
-          "Around $92.00",
+          "Under $100",
           "Moxa EDS-205 5-Port Entry-Level Switch"
         ],
         [
-          "Around $102.00",
+          "Under $110",
           "Moxa EDS-205A 5-Port Aluminum Switch"
         ],
         [
-          "Around $150.00",
+          "Under $160",
           "Moxa EDS-208A 8-Port Aluminum Switch"
         ],
         [
-          "Around $800.00",
+          "Under $850",
           "Moxa EDS-308-SS-SC Industrial Switch"
         ]
       ]
@@ -216,10 +216,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "TRENDnet TI-PGLC50 5-Port Industrial PoE+ Switch is aimed at buyers prioritizing 4x gigabit poe+ + 1 uplink, industrial, at $79.99."
+        "text": "TRENDnet TI-PGLC50 5-Port Industrial PoE+ Switch is aimed at buyers prioritizing 4x gigabit poe+ + 1 uplink, industrial, at under $80."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -256,10 +256,10 @@ export const faq = [
   }
 ,
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "Moxa EDS-205 5-Port Entry-Level Switch is aimed at buyers prioritizing 5x 10/100btx ports." },
-  { q: "Which pick offers the best value for a tight budget?", a: "TRENDnet TI-PGLC50 5-Port Industrial PoE+ Switch is aimed at buyers prioritizing 4x gigabit poe+ + 1 uplink, industrial, and at $79.99 it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $79.99 to $800.00, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Which pick offers the best value for a tight budget?", a: "TRENDnet TI-PGLC50 5-Port Industrial PoE+ Switch is aimed at buyers prioritizing 4x gigabit poe+ + 1 uplink, industrial, and at under $80 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $80 to $850, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
   { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Moxa EDS-308-SS-SC Industrial Switch is aimed at buyers prioritizing 6 copper + 2 single-mode sc fiber ports. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
-  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "Moxa EDS-205A 5-Port Aluminum Switch is aimed at buyers prioritizing 5 ports, ip30 aluminum housing." },
+  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "Moxa EDS-205A 5-Port Aluminum Switch is aimed at buyers prioritizing 5 ports, ip30 aluminum housing." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-industrial-network-switches","title":"5 Best Industrial Network Switches in 2026"},{"href":"/guide/best-din-rail-network-switches","title":"8 Best DIN-Rail Network Switches in 2026"},{"href":"/guide/best-rugged-network-switches","title":"5 Best Rugged Network Switches in 2026"}];

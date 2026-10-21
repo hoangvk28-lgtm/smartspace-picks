@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook for drawing";
 export const introParagraphs = [
   "Not every digital notebook is built for sketching. We required real pressure sensitivity and, ideally, color support before including a device here, rather than assuming any note-taking tablet works equally well for drawing.",
-  "The XPPen devices stand out specifically because pressure sensitivity is their core design focus, not an add-on feature bolted onto a reading device.",
+  "The XPPen devices stand out specifically because pressure sensitivity is their core design focus, not an add-on feature bolted onto a reading device."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41StVO0JWOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DX234NWP?tag=deskfinds0d-20",
     description: "16384 pressure levels and full color, at a lower price than the E Ink options, purpose-built for drawing rather than adapted from a reading device.\n\nIt earns the top spot in this comparison over XPPen 3 in 1 Color Digital Notebook 10.95\" for one main reason. Highest pressure sensitivity in this comparison. On price, it comes in below XPPen 3 in 1 Color Digital Notebook 10.95\", which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Full color, not the muted color of E Ink alternatives. On the other side, Smaller review base than Kindle Scribe or reMarkable. That's the main tradeoff to weigh against everything above.",
-    specs: ["16384 pressure levels","Full color display","329 reviews at 4.3 stars"],
+    specs: ["16384 pressure levels","Full color display"],
     pros: ["Highest pressure sensitivity in this comparison","Full color, not the muted color of E Ink alternatives"],
     cons: ["Smaller review base than Kindle Scribe or reMarkable"],
     bestFor: "Buyers who want real drawing capability at a lower price than E Ink tablets.",
@@ -47,7 +47,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31dwpvU+C7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2SHL3DH?tag=deskfinds0d-20",
     description: "Same pressure-sensitive drawing hardware as the pick above at a higher price, verify accessory differences on the current listing.\n\nOne spot below XPPen 3 in 1 Color Digital Notebook 10.95\" in this ranking, it costs more than XPPen 3 in 1 Color Digital Notebook 10.95\". The compromise here is straightforward: Costs more with a slightly lower rating. What you gain in return: Same core sketching hardware as the cheaper XPPen listing. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Same core sketching hardware as the cheaper XPPen listing. On the other side, Costs more with a slightly lower rating. That's the main tradeoff to weigh against everything above.",
-    specs: ["16384 pressure levels","Full color display","180 reviews at 4.2 stars"],
+    specs: ["16384 pressure levels","Full color display"],
     pros: ["Same core sketching hardware as the cheaper XPPen listing"],
     cons: ["Costs more with a slightly lower rating"],
     bestFor: "Buyers comparing XPPen bundles for extra included accessories.",
@@ -63,7 +63,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41BunSeRP3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR4KXMKF?tag=deskfinds0d-20",
     description: "The only genuine color E Ink option for sketching in this comparison, though color E Ink still looks less saturated than the XPPen's LCD-based color display.\n\nSitting just under XPPen 3 in 1 Color Digital Notebook 10.95\", it costs more than XPPen 3 in 1 Color Digital Notebook 10.95\". Here's the honest tradeoff: Color E Ink is visibly less saturated than the XPPen's LCD color display. And here's what it gets you instead: Only color E Ink option here for a paper-like sketching feel. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Android support for third-party drawing apps. On the other side, More expensive than the XPPen options. That's the main tradeoff to weigh against everything above.",
-    specs: ["Color E Ink display","Runs Android for third-party drawing apps","310 reviews at 4.3 stars"],
+    specs: ["Color E Ink display","Runs Android for third-party drawing apps"],
     pros: ["Only color E Ink option here for a paper-like sketching feel","Android support for third-party drawing apps"],
     cons: ["Color E Ink is visibly less saturated than the XPPen's LCD color display","More expensive than the XPPen options"],
     bestFor: "Buyers who want a paper-like sketching feel with color, and accept E Ink's muted color tradeoff.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41yKUd9lhbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGBDR2PM?tag=deskfinds0d-20",
     description: "reMarkable's flagship color device, bundling an upgraded pen and folio, at the highest price in this comparison.\n\nRanked just behind BOOX Note Air 5 C, it costs more than BOOX Note Air 5 C. The real tradeoff against that pick: Highest price in this comparison, nearly double the XPPen options. In exchange, it offers this instead: Bundles accessories sold separately for other reMarkable models. That's the swap that decides whether this pick or the one above it is the better fit for your note-taking needs.\n\nWorth knowing before you decide: Bundles accessories sold separately for other reMarkable models. On the other side, Highest price in this comparison, nearly double the XPPen options. That's the main tradeoff to weigh against everything above.",
-    specs: ["Color E Ink display","Marker Plus stylus and folio included","540 reviews at 4.2 stars"],
+    specs: ["Color E Ink display","Marker Plus stylus and folio included"],
     pros: ["Bundles accessories sold separately for other reMarkable models"],
     cons: ["Highest price in this comparison, nearly double the XPPen options"],
     bestFor: "Buyers who specifically want the reMarkable ecosystem in color and don't mind the premium.",
@@ -95,7 +95,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HDL3XJR?tag=deskfinds0d-20",
     description: "The largest, highest-rated review base of any device here, though it's monochrome only, included for sketchers who prioritize the writing/drawing feel over color.\n\nOne spot below reMarkable Paper Pro with Marker Plus and Basalt Book Folio in this ranking, it's priced lower than reMarkable Paper Pro with Marker Plus and Basalt Book Folio. The compromise here is straightforward: No color at all, a real limitation for many sketching use cases. What you gain in return: Largest, most proven review base in this comparison. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Largest, most proven review base in this comparison. On the other side, No color at all, a real limitation for many sketching use cases. That's the main tradeoff to weigh against everything above.",
-    specs: ["Monochrome E Ink display","Marker Plus stylus included","1,354 reviews at 4.4 stars"],
+    specs: ["Monochrome E Ink display","Marker Plus stylus included"],
     pros: ["Largest, most proven review base in this comparison"],
     cons: ["No color at all, a real limitation for many sketching use cases"],
     bestFor: "Buyers who prioritize the most field-tested drawing feel and don't need color.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Real pressure sensitivity required", description: "We only prioritized devices with confirmed pressure-level specs, not devices where drawing is a secondary, unconfirmed feature." },
   { title: "Color as a real sketching factor", description: "We distinguished full-color LCD-based displays (XPPen) from color E Ink (BOOX, reMarkable Paper Pro), since they look meaningfully different for colored sketches." },
   { title: "Price against sketching capability", description: "We noted that the highest pressure sensitivity in this comparison comes at the lowest price, not the highest." },
-  { title: "Review volume for drawing-feel confidence", description: "We weighted established review history for evidence on how the stylus actually performs during sustained drawing use." },
+  { title: "Review volume for drawing-feel confidence", description: "We weighted established review history for evidence on how the stylus actually performs during sustained drawing use." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,12 +242,13 @@ export const faq: FaqItem[] = [
   { q: "Which device has the best pressure sensitivity?", a: "The XPPen 3 in 1 Color Digital Notebook, with 16384 pressure levels, the highest in this comparison, at the lowest price." },
   { q: "Is E Ink color as vibrant as a normal screen?", a: "No. Color E Ink (BOOX Note Air 5 C, reMarkable Paper Pro) is visibly less saturated than the XPPen's LCD-based color display." },
   { q: "Can I use third-party drawing apps?", a: "Yes, on the BOOX Note Air 5 C, since it runs Android." },
-  { q: "Which is the most proven device for sketching?", a: "The reMarkable 2, with 1,354 reviews, though it's monochrome only." },
-  { q: "What's the most affordable good sketching option?", a: "The XPPen 3 in 1 Color Digital Notebook at $299.98, which also has the highest pressure sensitivity in this comparison." },
+  
+  { q: "What's the most affordable good sketching option?", a: "The XPPen 3 in 1 Color Digital Notebook at under $300, which also has the highest pressure sensitivity in this comparison." },
+  { q: "Is a color E Ink screen fast enough for sketching?", a: "Color E Ink refreshes more slowly than a standard tablet screen, so rapid strokes can lag slightly. Light line work and notes feel fine, while detailed painting is better on an LCD. Expect a different feel from a normal drawing tablet." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks-with-styluses", title: "Best Digital Notebooks with Styluses (2026)" },
   { href: "/guide/best-digital-notebooks-for-handwriting", title: "Best Digital Notebooks for Handwriting (2026)" },
-  { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" },
+  { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" }
 ];

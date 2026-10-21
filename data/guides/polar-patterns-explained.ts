@@ -12,7 +12,7 @@ export const polarPatternsExplainedGuide: Guide = {
     "cardioid vs omnidirectional microphone",
     "microphone pickup pattern guide",
     "bidirectional microphone pattern",
-    "best polar pattern for podcast",
+    "best polar pattern for podcast"
   ],
   heroImage: "https://images.unsplash.com/photo-1634041323797-b9fdef9d18f7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1634041323797-b9fdef9d18f7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const polarPatternsExplainedGuide: Guide = {
     "best-usb-condenser-microphones",
     "best-usb-microphones",
     "dynamic-vs-condenser-microphone",
-    "best-usb-microphone-kits",
+    "best-usb-microphone-kits"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const polarPatternsExplainedGuide: Guide = {
       question: "Does polar pattern affect background noise pickup?",
       answer:
         "Yes significantly. A cardioid pattern rejects far more off-axis background noise than an omnidirectional pattern, which is why cardioid is the default recommendation for most home recording setups without acoustic treatment.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const polarPatternsExplainedGuide: Guide = {
     {
       heading: "Choosing a Pattern for Your Specific Setup",
       body: `If you're recording solo, cardioid is almost always the right call. If you're recording two people facing each other across a table sharing one microphone, bidirectional captures both voices while rejecting side noise from the room. If you're capturing a small group seated around a single central mic, omnidirectional avoids the awkwardness of angling a cardioid mic toward whoever's speaking, though it does trade away background noise rejection to do so.`,
-    },
+    }
   ],
 };

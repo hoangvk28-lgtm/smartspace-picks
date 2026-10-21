@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small desktop whiteboard";
 export const introParagraphs = [
   "\"Small\" is a relative word that different listings use loosely, so instead of ranking by marketing labels, we pulled the actual stated dimensions for each pick below, ranging from 8x6 inches up to 9.5x6.7 and 9x11 inches, so you can judge real writing capacity rather than guessing from a product photo.",
-  "If you want the absolute smallest option, see our dedicated guide to mini desktop whiteboards, which covers the smallest tier within this small category with an explicit dimension comparison against the picks here. This guide covers the broader small category suited to genuine note-taking, not just single reminders.",
+  "If you want the absolute smallest option, see our dedicated guide to mini desktop whiteboards, which covers the smallest tier within this small category with an explicit dimension comparison against the picks here. This guide covers the broader small category suited to genuine note-taking, not just single reminders."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "8 min";
@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31xK08Bp9kL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B3QDBPQH?tag=deskfinds0d-20",
     description:
-      "At 9.5x6.7 inches, this genuinely glass board sits at the larger end of what we're calling small, enough surface for a short list of tasks rather than only a single line.\n\nThe reversible wood stand and black glass finish give it a distinct look, and marker and eraser are included per the listing so it's ready to use immediately.\n\nWhat stands out here is largest writing area among our small picks, fits a short list, plus genuine glass surface for ghosting resistance. The main tradeoff: largest of our small picks means less pocket-sized than the mini tier, so weigh that against the $23.99 price before buying.",
+      "At 9.5x6.7 inches, this genuinely glass board sits at the larger end of what we're calling small, enough surface for a short list of tasks rather than only a single line.\n\nThe reversible wood stand and black glass finish give it a distinct look, and marker and eraser are included per the listing so it's ready to use immediately.\n\nWhat stands out here is largest writing area among our small picks, fits a short list, plus genuine glass surface for ghosting resistance. The main tradeoff: largest of our small picks means less pocket-sized than the mini tier, so weigh that against the under $25 price before buying.",
     specs: ["9.5\" x 6.7\" glass writing surface", "Reversible wood stand", "Marker and eraser included", "Black glass finish"],
     pros: ["Largest writing area among our small picks, fits a short list", "Genuine glass surface for ghosting resistance", "Marker and eraser included per listing", "Reversible stand adds positioning flexibility"],
     cons: ["Largest of our small picks means less pocket-sized than the mini tier", "Glass adds fragility versus melamine", "Black glass may show more glare under bright lighting"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21DN1-VtYsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01MFGICQT?tag=deskfinds0d-20",
     description:
-      "At 9x11 inches, this is actually taller than it is wide, genuinely glass, from established brand Quartet, with a removable clip for holding a sheet of paper alongside the writing surface.\n\nThe vertical orientation gives more room for a running list than a wide, short board of similar total area, worth considering if you write in a list format.\n\nWhere this one earns its spot is vertical 9x11 orientation suits list-style writing, and genuine glass surface for ghosting resistance. Worth noting before buying: no stand included based on listing title, which matters more at $25.62 than it would on a cheaper pick.",
+      "At 9x11 inches, this is actually taller than it is wide, genuinely glass, from established brand Quartet, with a removable clip for holding a sheet of paper alongside the writing surface.\n\nThe vertical orientation gives more room for a running list than a wide, short board of similar total area, worth considering if you write in a list format.\n\nWhere this one earns its spot is vertical 9x11 orientation suits list-style writing, and genuine glass surface for ghosting resistance. Worth noting before buying: no stand included based on listing title, which matters more at under $30 than it would on a cheaper pick.",
     specs: ["9\" x 11\" glass writing surface", "Removable paper clip", "Includes marker", "Established Quartet brand"],
     pros: ["Vertical 9x11 orientation suits list-style writing", "Genuine glass surface for ghosting resistance", "Removable clip adds paper-holding flexibility", "Recognized Quartet brand quality"],
     cons: ["No stand included based on listing title", "No storage features unlike some competing picks", "Taller footprint may not suit very shallow desk space"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41aTFk156tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09C1VT7X8?tag=deskfinds0d-20",
     description:
-      "Explicitly labeled small in the listing, this genuinely glass board with a built-in drawer and keyboard stand is offered in a grey finish as an alternate style to our storage pick above.\n\nFunctionally the same small-plus-storage combination, so choose based on which finish fits your desk's look.\n\nThis pick is best for buyers who value explicitly labeled small, matches this category directly along with genuine glass surface for ghosting resistance. The catch is that exact writing surface dimensions aren't broken out in the listing, so decide if that's worth it at $27.99.",
+      "Explicitly labeled small in the listing, this genuinely glass board with a built-in drawer and keyboard stand is offered in a grey finish as an alternate style to our storage pick above.\n\nFunctionally the same small-plus-storage combination, so choose based on which finish fits your desk's look.\n\nThis pick is best for buyers who value explicitly labeled small, matches this category directly along with genuine glass surface for ghosting resistance. The catch is that exact writing surface dimensions aren't broken out in the listing, so decide if that's worth it at under $30.",
     specs: ["Compact glass writing surface", "Built-in drawer for storage", "Doubles as keyboard stand", "Grey finish, explicitly labeled small"],
     pros: ["Explicitly labeled small, matches this category directly", "Genuine glass surface for ghosting resistance", "Built-in drawer adds storage", "Grey finish for a different desk look"],
     cons: ["Exact writing surface dimensions aren't broken out in the listing", "Realistic content capacity is limited at this size", "Functionally overlaps with our other storage pick"],
@@ -104,7 +104,7 @@ export const products: GuideProduct[] = [
     pros: ["Smallest, most portable option in this guide", "5 markers included, no separate purchase needed", "Lowest price in this guide", "Genuine glass surface for durability"],
     cons: ["Smallest writing area here, single reminders only", "No stand mentioned in the listing", "Realistic capacity doesn't suit general planning, see our mini guide for this use case"],
     bestFor: "Buyers wanting the smallest option here, best suited to single reminders rather than lists; see our mini whiteboard guide for more in this size tier.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Ranked by actual stated dimensions, not marketing labels", description: "Pulled the real inches from each listing rather than trusting a generic \"small\" label, since sellers use that word inconsistently." },
   { title: "Assessed realistic writing capacity at each size", description: "Considered whether a size suits a short task list versus only a single reminder, based on the actual dimensions rather than assuming all small boards serve the same purpose." },
   { title: "Cross-referenced the mini tier explicitly", description: "Identified which pick also qualifies as mini (the smallest within small) and pointed to our dedicated mini guide rather than blending the two categories together." },
-  { title: "Verified glass surface claims per listing", description: "Only credited genuine glass material where the listing explicitly states it, since that affects long-term ghosting resistance regardless of size." },
+  { title: "Verified glass surface claims per listing", description: "Only credited genuine glass material where the listing explicitly states it, since that affects long-term ghosting resistance regardless of size." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Small size plus storage", "TSJ OFFICE Glass Board with Drawer"],
         ["Vertical orientation for list-style writing", "Quartet GDE119 9\"x11\" Glass Pad"],
         ["Small size plus storage in grey", "Glass Board with Drawer, Grey"],
-        ["Smallest, cheapest option with markers included", "Mini Pure Glass Whiteboard 8\"x6\""],
+        ["Smallest, cheapest option with markers included", "Mini Pure Glass Whiteboard 8\"x6\""]
       ],
     },
   },
@@ -151,23 +151,23 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $15.18",
+          "Under $20",
           "Black Mini Desktop Pure Glass Whiteboard"
         ],
         [
-          "Around $23.99",
+          "Under $25",
           "Desktop Black Glass Dry Erase Whiteboard with Reversible Wood Stand"
         ],
         [
-          "Around $25.62",
+          "Under $30",
           "Quartet Dry Erase White Board 9\"W x 11\"H Desktop Glass Pad with Removable Clip and Marker (GDE119)"
         ],
         [
-          "Around $25.99",
+          "Under $30",
           "TSJ OFFICE Small Desktop Whiteboard"
         ],
         [
-          "Around $27.99",
+          "Under $30",
           "Small Desktop Glass Whiteboard Dry-Erase Board"
         ]
       ]
@@ -185,14 +185,14 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "Black Mini Desktop Pure Glass Whiteboard is aimed at Buyers wanting the smallest option here, best suited to single reminders rather than lists; see our mini whiteboard guide for more in this size tier."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
   { criterion: "Check actual stated dimensions, not the word \"small\"", explanation: "Listings use \"small\" inconsistently. The picks in this guide range from 8x6 to 9x11 inches, a real difference in usable space. Across this comparison's $15 to $28 range, actual stated dimensions word is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check actual stated dimensions word against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out." },
   { criterion: "Match size to realistic writing capacity", explanation: "A 8x6 board suits single reminders; a 9x11 board suits a short list. Don't buy the smallest option if you actually need to write more than one or two lines. Given the real spread here, from about $15 up to $28, two products can look nearly identical on the surface while differing exactly on size realistic writing capacity, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on size realistic writing capacity, since it's often left out of the main bullet points entirely." },
   { criterion: "Consider orientation, not just total area", explanation: "A 9x11 vertical board suits list-style writing differently than a wide, short board of similar area. Think about how you'll actually write on it. With prices in this roundup ranging roughly $15 to $28, orientation total area is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify orientation total area directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone." },
-  { criterion: "Decide if you need the mini tier instead", explanation: "If portability matters more than writing capacity, check our dedicated mini whiteboard guide for the smallest options within this category. This matters in practice because the picks in this comparison span from about $15 to $28, and skipping a real check on need mini tier instead is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on need mini tier instead, since a generic product photo or title alone won't confirm it." },
+  { criterion: "Decide if you need the mini tier instead", explanation: "If portability matters more than writing capacity, check our dedicated mini whiteboard guide for the smallest options within this category. This matters in practice because the picks in this comparison span from about $15 to $28, and skipping a real check on need mini tier instead is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on need mini tier instead, since a generic product photo or title alone won't confirm it." }
 ];
 
 export const faq: FaqItem[] = [
@@ -201,11 +201,11 @@ export const faq: FaqItem[] = [
   { q: "Can I fit a running task list on a small whiteboard?", a: "At the larger end of this guide's size range (9.5x6.7 or 9x11 inches), yes for a short list. At the smallest end (8x6 inches), expect capacity for single reminders only." },
   { q: "Are small whiteboards usually glass?", a: "Not always, but most picks in this guide are genuinely glass per their listings, which resists ghosting better than melamine over time." },
   { "q": "What's the single best pick to come out of this comparison?", a: "Desktop Black Glass Dry Erase Whiteboard with Reversible Wood Stand is aimed at Buyers wanting the most writing room within the small category for short task lists." },
-  { q: "Which pick offers the best value for a tight budget?", a: "Black Mini Desktop Pure Glass Whiteboard is aimed at Buyers wanting the smallest option here, best suited to single reminders rather than lists; see our mini whiteboard guide for more in this size tier, and at $15.18 it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Black Mini Desktop Pure Glass Whiteboard is aimed at Buyers wanting the smallest option here, best suited to single reminders rather than lists; see our mini whiteboard guide for more in this size tier, and at under $20 it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-desktop-whiteboards", title: "Best Mini Desktop Whiteboards (2026)" },
   { href: "/guide/best-glass-desktop-whiteboards", title: "Best Glass Desktop Whiteboards (2026)" },
-  { href: "/guide/best-desktop-whiteboards", title: "Best Desktop Whiteboards (2026)" },
+  { href: "/guide/best-desktop-whiteboards", title: "Best Desktop Whiteboards (2026)" }
 ];

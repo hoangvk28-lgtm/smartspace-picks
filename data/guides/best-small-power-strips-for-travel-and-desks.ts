@@ -5,7 +5,7 @@ export const metaDescription = "5 dual-use power strips we evaluated, with the h
 export const mainKeyword = "small power strip";
 export const introParagraphs = [
   "A genuinely dual-purpose travel-and-desk strip involves compromises on both ends, lighter weight for travel typically means a less stable base for stationary desk use, and vice versa, products marketed as suitable for both use cases rarely excel at either.",
-  "Travel-oriented compact strips often have lower surge protection ratings or none at all, a safety-relevant tradeoff for the 'also use it as your everyday desk strip' framing, fine for occasional travel but a meaningful downgrade as a daily desk surge protector.",
+  "Travel-oriented compact strips often have lower surge protection ratings or none at all, a safety-relevant tradeoff for the 'also use it as your everyday desk strip' framing, fine for occasional travel but a meaningful downgrade as a daily desk surge protector."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Use Pick Overall",
     name: "TESSAN Small Flat Plug Power Strip, Ultra Thin Extension Cord 5 ft, Grey",
     price: "$16.99",
-    rating: "4.8 stars from 3,879 Amazon ratings",
-    reviews: "3,879 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31mZFgA530L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BJ1G18T3?tag=deskfinds0d-20",
     description: "A genuinely compact, ultra-thin design that packs easily for travel while remaining stable enough for daily desk use, a reasonable middle ground rather than an extreme compromise toward either use case. Strong rating base.\n\nIt earns the top spot in this comparison over Travel Essentials for one main reason. Genuine middle ground between travel-light and desk-stable. On price, it's actually priced above Travel Essentials, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Strong rating base. On the other side, Not the lightest option for pure travel use. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Lightweight Travel-First Pick",
     name: "Travel Essentials, 22.5W/4.5A Flat Plug Power Strip, 6 Ft Extension Cord",
     price: "$11.99",
-    rating: "4.7 stars from 10,415 Amazon ratings",
-    reviews: "10,415 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/318aKVnZqgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BMF7PJ4X?tag=deskfinds0d-20",
     description: "Explicitly marketed as travel-focused, genuinely lightweight and packable, a large review base gives real confidence in its travel durability. 22.5W USB output for charging on the go.\n\nOne spot below TESSAN Small Flat Plug Power Strip in this ranking, it's priced lower than TESSAN Small Flat Plug Power Strip. The compromise here is straightforward: Travel-first design may be less stable for daily desk use. What you gain in return: Explicitly travel-optimized with real packability. Whether that trade is worth it depends on which side matters more for your needs.\n\nWorth knowing before you decide: Large, well-established review base. On the other side, 6ft cord longer than needed for pure travel. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Cruise-Compatible Dual-Use Pick",
     name: "ORICO Purple Cruise Approved Travel Power Strip with 4FT Extension Cord",
     price: "$19.99",
-    rating: "4.8 stars from 3,060 Amazon ratings",
-    reviews: "3,060 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31iBWghoXML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKBZ28T4?tag=deskfinds0d-20",
     description: "Marketed as cruise approved, meaning it's designed without the surge-protection circuitry most cruise lines prohibit, genuinely useful if travel occasionally includes cruises alongside desk use. Strong rating base.\n\nSitting just under Travel Essentials, it costs more than Travel Essentials. Here's the honest tradeoff: No surge protection at all, by design. And here's what it gets you instead: Cruise-approved design avoids confiscation risk. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Strong rating base. On the other side, Less ideal as a primary daily desk surge protector. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Cruise-Compatible Alternative",
     name: "Cruise Essentials - Flat Plug Power Strip, Addtam 5 ft Ultra Flat Extension Cord with 6 Outlets Extender, No Surge Protector for Cruise Ship, Travel, Dorm, Home Office, ETL Listed",
     price: "$8.99",
-    rating: "4.8 stars from 7,912 Amazon ratings",
-    reviews: "7,912 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31NwD9wXW2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BWY8FBFP?tag=deskfinds0d-20",
     description: "Explicitly no surge protector by design for cruise compliance, at a genuinely lower price than the ORICO alternative, with 6 outlets for more capacity. ETL listed for basic electrical safety.\n\nRanked just behind ORICO Purple Cruise Approved Travel Power Strip with 4FT Extension Cord, it's priced lower than ORICO Purple Cruise Approved Travel Power Strip with 4FT Extension Cord. The real tradeoff against that pick: No surge protection at all, by design. In exchange, it offers this instead: Most affordable pick in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: 6 outlets, more capacity than the ORICO alternative. On the other side, Verify current cruise line policy before travel. That's the main tradeoff to weigh against everything above.",
@@ -89,8 +89,8 @@ export const products: GuideProduct[] = [
     badge: "Best Desk-First Dual-Use Pick",
     name: "Olcorife Flat Plug Power Strip with 10 FT Extension Cord, 8 Outlets 4 USB Ports(1 USB C), 3 Sided Outlet Extender for Home Office Travel Dorm Room Essentials, White",
     price: "$13.99",
-    rating: "4.8 stars from 1,477 Amazon ratings",
-    reviews: "1,477 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31xcdMajEFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DPKKMPBD?tag=deskfinds0d-20",
     description: "8 outlets and 4 USB ports (including USB-C) with a genuinely long 10ft cord, more desk-first capacity than the travel-optimized picks in this guide, still packable if needed occasionally. Strong rating base.\n\nOne spot below Cruise Essentials in this ranking, it costs more than Cruise Essentials. The compromise here is straightforward: Bulkier than the dedicated travel-first picks. What you gain in return: Genuine desk-first capacity with 8 outlets. Whether that trade is worth it depends on which side matters more for your needs.\n\nWorth knowing before you decide: 10ft cord for placement flexibility. On the other side, Higher price relative to travel-only alternatives. That's the main tradeoff to weigh against everything above.",
@@ -105,7 +105,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Honest dual-use tradeoff disclosed, not a seamless win-win claim", description: "Distinguished lighter, travel-optimized picks from more stable, desk-optimized picks explicitly, rather than presenting any single product as excelling equally at both use cases." },
   { title: "Surge protection presence verified for daily desk reliance", description: "Checked whether each travel-oriented pick retains genuine surge protection, since a strip designed primarily for size/weight savings may cut this component entirely." },
-  { title: "Cruise-line compliance verified where explicitly marketed", description: "Noted which picks are explicitly designed without surge protection for cruise-line compliance, a real design tradeoff distinct from a basic manufacturing cost-cut." },
+  { title: "Cruise-line compliance verified where explicitly marketed", description: "Noted which picks are explicitly designed without surge protection for cruise-line compliance, a real design tradeoff distinct from a basic manufacturing cost-cut." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -237,11 +237,11 @@ export const faq: FaqItem[] = [
   { q: "Why don't some travel power strips have surge protection?", a: "Some are explicitly designed this way for cruise-line compliance, most cruise lines prohibit surge protectors and traditional power strips with internal circuitry, cruise-approved picks omit this component by policy." },
   { q: "Can I use a US travel power strip internationally?", a: "Only if it's explicitly voltage-compatible. Many power strips are voltage-locked to 120V and are not safe or functional on 230V international circuits, even with a simple plug-shape adapter, verify voltage compatibility before international travel." },
   { "q": "What's the single best pick to come out of this comparison?", a: "Buyers who genuinely need one strip for both occasional travel and daily desk use" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers who need a cruise-compliant dual-use strip with more outlets At $8.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers who need a cruise-compliant dual-use strip with more outlets At under $9, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-travel-power-strips", title: "Best Travel Power Strips (2026)" },
   { href: "/guide/best-cruise-approved-power-strips", title: "Best Cruise-Approved Power Strips (2026)" },
-  { href: "/guide/best-compact-power-strips-for-small-desks", title: "Best Compact Power Strips for Small Desks (2026)" },
+  { href: "/guide/best-compact-power-strips-for-small-desks", title: "Best Compact Power Strips for Small Desks (2026)" }
 ];

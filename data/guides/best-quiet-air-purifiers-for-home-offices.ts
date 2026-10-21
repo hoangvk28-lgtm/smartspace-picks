@@ -5,7 +5,7 @@ export const metaDescription = "5 quiet air purifiers we evaluated for home offi
 export const mainKeyword = "quiet air purifier";
 export const introParagraphs = [
   "Decibel ratings are almost universally quoted at the lowest fan speed, which also delivers the lowest, often inadequate, CADR, the genuinely relevant spec is noise at the speed needed for real air cleaning, rarely disclosed.",
-  "Microphone pickup sensitivity on video calls can pick up purifier fan noise even when it's subjectively unnoticeable to the room's occupants, quiet enough for me doesn't guarantee inaudible to call participants.",
+  "Microphone pickup sensitivity on video calls can pick up purifier fan noise even when it's subjectively unnoticeable to the room's occupants, quiet enough for me doesn't guarantee inaudible to call participants."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Quiet Air Purifier for Home Offices Overall",
     name: "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom, H13 True HEPA Filter, 24db Filtration System Cleaner Odor Eliminators, Remove 99.97% Dust Smoke Mold Pollen, Core 300, White",
     price: "$89.99",
-    rating: "4.7 stars from 108,251 Amazon ratings",
-    reviews: "108,251 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Quiet Pick",
     name: "Levoit Air Purifiers for Home Bedroom Dorm Room, Small Quiet Air Purifiers",
     price: "$44.99",
-    rating: "4.6 stars from 44,671 Amazon ratings",
-    reviews: "44,671 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31e6d46ZnyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09LMF648R?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Established Brand Quiet Pick",
     name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
-    rating: "4.6 stars from 28,866 Amazon ratings",
-    reviews: "28,866 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419pAe7T0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTKAPUU?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Quiet Pick",
     name: "Membrane Solutions MSA3 Air Purifier for Home",
     price: "$99.39",
-    rating: "4.5 stars from 10,110 Amazon ratings",
-    reviews: "10,110 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31CcBFzC6wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08ND7C7P4?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Quiet Pick for Larger Home Offices",
     name: "LEVOIT Smart Air Purifier for Home Large Room up to 1875 ft Vital 200S-P",
     price: "$174.99",
-    rating: "4.7 stars from 14,571 Amazon ratings",
-    reviews: "14,571 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Large rated coverage allows quieter operation at effective speed", "Smart app control for monitoring", "Large, well-established review base", "Genuine headroom for the noise-vs-CADR tradeoff"],
     cons: ["Higher price than compact alternatives", "Larger footprint for a small office", "Video-call microphone pickup not independently verified"],
     bestFor: "Buyers who want headroom to run quieter while still hitting adequate air changes",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Full-speed-range noise disclosure matched to effective CADR speed", description: "Flagged that decibel ratings are almost universally quoted at the lowest fan speed, which also delivers the lowest CADR, the genuinely relevant spec is noise at the speed needed for real air cleaning." },
   { title: "Video-call microphone pickup considered beyond in-room perception", description: "Noted that microphone pickup sensitivity on video calls can pick up purifier fan noise even when subjectively unnoticeable to the room's occupants, a distinction generic 'quiet' claims don't address." },
-  { title: "Size-to-achievable-quietness relationship and lifespan noise increase noted", description: "Explained the size/quietness relationship (larger units can more credibly claim quiet-at-effective-speed) and that noise can increase over a unit's lifespan as bearings wear or the filter clogs." },
+  { title: "Size-to-achievable-quietness relationship and lifespan noise increase noted", description: "Explained the size/quietness relationship (larger units can more credibly claim quiet-at-effective-speed) and that noise can increase over a unit's lifespan as bearings wear or the filter clogs." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Are compact air purifiers as quiet as larger ones?", a: "Not necessarily. Some quiet claims are achieved through a larger, slower-spinning fan design rather than genuinely superior engineering, be skeptical of ultra-compact 'whisper quiet' claims specifically." },
   { q: "Does an air purifier get louder as it ages?", a: "It can. Noise level can increase measurably over the unit's lifespan as bearings wear or the filter clogs, forcing the fan to work harder for the same airflow, a longevity dimension rarely tested in initial reviews." },
   { q: "What decibel level counts as genuinely quiet for a home office purifier?", a: "Roughly 30-40 dB at its lowest running speed is comparable to a quiet library, check the specific listed decibel rating at the speed you'll actually use daily, not just its lowest, least-effective setting." },
-  { q: "Does a quiet-rated air purifier sacrifice filtration performance for lower noise?", a: "Not inherently, quiet operation at low speed is achievable without reducing filter quality, though reaching the unit's full rated CADR does typically require a higher, louder fan speed regardless of how quiet its lowest setting is." },
+  { q: "Does a quiet-rated air purifier sacrifice filtration performance for lower noise?", a: "Not inherently, quiet operation at low speed is achievable without reducing filter quality, though reaching the unit's full rated CADR does typically require a higher, louder fan speed regardless of how quiet its lowest setting is." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-air-purifiers-for-home-offices", title: "Best Air Purifiers for Home Offices (2026)" },
   { href: "/guide/best-air-purifiers-for-bedrooms-and-home-offices", title: "Best Air Purifiers for Bedrooms and Home Offices (2026)" },
-  { href: "/guide/best-desktop-air-purifiers", title: "Best Desktop Air Purifiers (2026)" },
+  { href: "/guide/best-desktop-air-purifiers", title: "Best Desktop Air Purifiers (2026)" }
 ];

@@ -129,19 +129,19 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $57.99",
+          "Under $60",
           "TRENDnet TEG-S562 6-Port Multi-Gig Switch"
         ],
         [
-          "Around $58.49",
+          "Under $60",
           "NICGIGA 10-Port 2.5G Switch (8x2.5G + 2x10G SFP+)"
         ],
         [
-          "Around $141.40",
+          "Under $150",
           "MikroTik CRS305-1G-4S+IN Managed Switch"
         ],
         [
-          "Around $245.50",
+          "Under $250",
           "MikroTik CRS305-1G-4S+IN Switch"
         ]
       ]
@@ -196,10 +196,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "TRENDnet TEG-S562 6-Port Multi-Gig Switch is aimed at buyers prioritizing 4x 2.5g + 2x 10g sfp+ ports, at $57.99."
+        "text": "TRENDnet TEG-S562 6-Port Multi-Gig Switch is aimed at buyers prioritizing 4x 2.5g + 2x 10g sfp+ ports, at under $60."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -236,10 +236,10 @@ export const faq = [
   }
 ,
   { q: "Which pick in this comparison is the best overall choice?", a: "TRENDnet TEG-S562 6-Port Multi-Gig Switch is aimed at buyers prioritizing 4x 2.5g + 2x 10g sfp+ ports." },
-  { q: "Which pick offers the best value for a tight budget?", a: "TRENDnet TEG-S562 6-Port Multi-Gig Switch is aimed at buyers prioritizing 4x 2.5g + 2x 10g sfp+ ports, and at $57.99 it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $57.99 to $245.50, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Which pick offers the best value for a tight budget?", a: "TRENDnet TEG-S562 6-Port Multi-Gig Switch is aimed at buyers prioritizing 4x 2.5g + 2x 10g sfp+ ports, and at under $60 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $60 to $250, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
   { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "MikroTik CRS305-1G-4S+IN Switch is aimed at buyers prioritizing 4x sfp+ (up to 10gbit each) + 1 gbe mgmt. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
-  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "MikroTik CRS305-1G-4S+IN Managed Switch is aimed at buyers prioritizing 4x sfp+ (10gbit each) + 1 gbe mgmt." },
+  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "MikroTik CRS305-1G-4S+IN Managed Switch is aimed at buyers prioritizing 4x sfp+ (10gbit each) + 1 gbe mgmt." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-network-switches-with-sfp-ports","title":"best-network-switches-with-sfp-ports"},{"href":"/guide/best-10gbe-network-switches","title":"7 Best 10GbE Network Switches in 2026"},{"href":"/guide/best-fiber-network-switches","title":"3 Best Fiber Network Switches in 2026"}];

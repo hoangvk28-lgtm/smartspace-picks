@@ -100,7 +100,7 @@ export const howToChoose = [
         ["DeWalt or Milwaukee cordless tool battery", "Portable Combo PoE Injector"],
         ["Solar panel or battery bank, permanent install", "Gigabit DC PoE+ Injector 12-48V"],
         ["Vehicle 12V system or portable battery pack", "PoE Texas 12-30V to PoE Inline Converter"],
-        ["Variable battery/solar, widest voltage range needed", "PoE Texas DC-Powered Gigabit PoE+ Injector 12-60V"],
+        ["Variable battery/solar, widest voltage range needed", "PoE Texas DC-Powered Gigabit PoE+ Injector 12-60V"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $16", "PoE Texas 12-30V to PoE Inline Converter ($15.99)"],
-        ["Under $20", "PoE Texas DC-Powered Gigabit PoE+ Injector ($19.99)"],
-        ["Under $30", "Gigabit DC PoE+ Injector 12-48V ($29.66)"],
-        ["Under $160", "Portable Combo PoE Injector ($155.00)"],
+        ["Under $16", "PoE Texas 12-30V to PoE Inline Converter (under $20)"],
+        ["Under $20", "PoE Texas DC-Powered Gigabit PoE+ Injector (under $20)"],
+        ["Under $30", "Gigabit DC PoE+ Injector 12-48V (under $30)"],
+        ["Under $160", "Portable Combo PoE Injector (under $160)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Removable Battery vs Continuous DC Power",
     cards: [
       { label: "Removable tool battery (Portable Combo)", text: "Ideal for a mobile field technician who needs to move between job sites and swap a depleted battery for a charged one instantly." },
-      { label: "Continuous DC input (the three other picks)", text: "Better suited to a permanent installation with an ongoing power source like a solar panel, vehicle electrical system, or wired battery bank." },
+      { label: "Continuous DC input (the three other picks)", text: "Better suited to a permanent installation with an ongoing power source like a solar panel, vehicle electrical system, or wired battery bank." }
     ],
     note: "Choose based on whether your use case is mobile and intermittent (favoring removable batteries) or fixed and continuous (favoring a wired DC input design).",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["12-30V (standard battery packs, vehicle)", "PoE Texas 12-30V to PoE Inline Converter"],
         ["12-48V (solar panels, wider range)", "Gigabit DC PoE+ Injector"],
-        ["12-60V (widest range, mixed sources)", "PoE Texas DC-Powered Gigabit PoE+ Injector"],
+        ["12-60V (widest range, mixed sources)", "PoE Texas DC-Powered Gigabit PoE+ Injector"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For a Field Network Testing Kit Specifically",
     cards: [
       { label: "Look for", text: "A design that reuses power sources you're already carrying for other equipment, rather than requiring a dedicated battery pack you need to separately charge and carry." },
-      { label: "In this comparison", text: "The Portable Combo pick specifically works with common DeWalt and Milwaukee cordless drill batteries a field technician likely already carries for other job site tools." },
+      { label: "In this comparison", text: "The Portable Combo pick specifically works with common DeWalt and Milwaukee cordless drill batteries a field technician likely already carries for other job site tools." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You're a field technician who wants to reuse existing cordless tool batteries and needs both passive and active PoE support in one unit, where the Portable Combo's $155 price reflects that specific convenience." },
-      { label: "Save if", text: "You have a stable DC power source like a vehicle or solar panel already in place, where the $15.99 to $29.66 DC-input picks deliver reliable power conversion at a fraction of the cost." },
+      { label: "Save if", text: "You have a stable DC power source like a vehicle or solar panel already in place, where the roughly $20 to $30 DC-input picks deliver reliable power conversion at a fraction of the cost." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

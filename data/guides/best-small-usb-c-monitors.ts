@@ -5,7 +5,7 @@ export const metaDescription = "5 small USB-C monitors we evaluated, with a note
 export const mainKeyword = "small usb-c monitor";
 export const introParagraphs = [
   "A small panel running 1080p or higher resolution can make default text, icons, and UI elements uncomfortably tiny without scaling adjustments, worth planning for a scaling setup step rather than assuming a small high-resolution monitor looks proportionally correct immediately out of the box.",
-  "Small monitors genuinely suit tight desk spaces, secondary reference displays, or travel use, worth being honest that a small panel isn't the right choice for a primary all-day productivity display if extensive multitasking is your main need.",
+  "Small monitors genuinely suit tight desk spaces, secondary reference displays, or travel use, worth being honest that a small panel isn't the right choice for a primary all-day productivity display if extensive multitasking is your main need."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     badge: "Best Small USB-C Monitor Overall",
     name: "Samsung 22\" (S30GD) Essential Monitor with IPS Panel and Tilt Only Stand",
     price: "$79.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41tqJnA68CL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK46JV64?tag=deskfinds0d-20",
@@ -42,7 +42,7 @@ export const products: GuideProduct[] = [
     badge: "Best Small High-Resolution Pick",
     name: "UPERFECT 4K Portable Monitor Touchscreen, 15.6\" 125% sRGB Laptop Monitor",
     price: "$189.98",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51jrQ-g06ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H4DCTPDL?tag=deskfinds0d-20",
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Value Pick",
     name: "Ingnok Portable Monitor for Laptop, 15.6 Inch USB C Screen Extender",
     price: "$69.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51qgAD7WZSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP7XRW9S?tag=deskfinds0d-20",
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Pick with Stand and Sleeve",
     name: "InnoView Portable Monitor 15.6\" 1080P for Laptop with Protective Sleeve, Built-in 90 degrees Adjustable Stand",
     price: "$59.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51qgAD7WZSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09K3FWMPL?tag=deskfinds0d-20",
@@ -93,7 +93,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Entry Small Monitor Pick",
     name: "MNN 15.6\" FHD 60Hz Portable Monitor USB-C HDMI IPS HDR Gaming Laptop",
     price: "$49.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51qgAD7WZSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9NNWXVP?tag=deskfinds0d-20",
@@ -103,7 +103,7 @@ export const products: GuideProduct[] = [
     pros: ["Lowest price in this guide for a full-featured small monitor", "HDR support and IPS panel for reasonable picture quality", "Good entry point for testing the small monitor format", "USB-C and HDMI dual connectivity"],
     cons: ["Lower rating than other picks in this guide, verify current reviews", "Not suited as a primary all-day productivity display", "Build quality less proven than higher-priced alternatives"],
     bestFor: "Budget-conscious buyers wanting to try a compact secondary monitor at the lowest entry price",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -111,7 +111,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Scaling needs weighed against panel resolution and size", description: "Weighed whether a small panel's resolution requires significant display scaling adjustments to avoid uncomfortably tiny text and UI elements." },
   { title: "Honest use case fit assessed rather than universal recommendation", description: "Assessed honestly whether a small monitor genuinely suits a buyer's tight desk space, reference display, or travel need, rather than a primary all-day productivity display." },
   { title: "Included accessories valued for compact and travel-oriented use", description: "Valued genuinely useful included accessories like protective sleeves and adjustable stands for buyers using a small monitor away from a fixed desk." },
-  { title: "Price weighed against feature set for entry-level buyers", description: "Weighed price against genuine feature value for buyers testing whether a small secondary monitor fits their workflow." },
+  { title: "Price weighed against feature set for entry-level buyers", description: "Weighed price against genuine feature value for buyers testing whether a small secondary monitor fits their workflow." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -244,11 +244,11 @@ export const faq: FaqItem[] = [
   { q: "Do small monitors come with a protective case?", a: "Not always, some include a protective sleeve while others require a separate purchase, check the specific listing." },
   { q: "Is a budget small monitor good enough to test the format?", a: "Yes, a budget-friendly small monitor is a reasonable low-cost way to test whether a compact secondary display fits your workflow." },
   { q: "What's the smallest practical monitor size for actual productivity work?", a: "Most buyers find 13 to 15.6 inches the usable floor for sustained reading and typing, below that the display works better as a glanceable secondary screen than a main work surface." },
-  { q: "Can a small USB-C monitor be powered entirely from a laptop port?", a: "Many can, since their lower power draw often fits within a single USB-C port's output, but check the specific listing's power requirement against your laptop's actual port capability first." },
+  { q: "Can a small USB-C monitor be powered entirely from a laptop port?", a: "Many can, since their lower power draw often fits within a single USB-C port's output, but check the specific listing's power requirement against your laptop's actual port capability first." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-usb-c-monitors", title: "Best Portable USB-C Monitors (2026)" },
   { href: "/guide/best-24-inch-usb-c-monitors", title: "Best 24-Inch USB-C Monitors (2026)" },
-  { href: "/guide/best-budget-usb-c-monitors", title: "Best Budget USB-C Monitors (2026)" },
+  { href: "/guide/best-budget-usb-c-monitors", title: "Best Budget USB-C Monitors (2026)" }
 ];

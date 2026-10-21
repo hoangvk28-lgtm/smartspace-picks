@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop charging carts with ethernet";
 export const introParagraphs = [
   "We need to be direct here: none of the listings in our confirmed product pool document an actual wired Ethernet path to stored devices, an internal network switch, or CAT6 cabling. Ethernet-enabled charging and management carts are a real but narrow enterprise niche, and the general-purpose charging carts we could verify in this price range do not claim that feature.",
-  "Rather than imply Ethernet capability that isn't documented, we're presenting the strongest general charging carts from our research and flagging this gap directly. If wired network provisioning while stored is a hard requirement, verify Ethernet switch inclusion directly with the seller or manufacturer before ordering.",
+  "Rather than imply Ethernet capability that isn't documented, we're presenting the strongest general charging carts from our research and flagging this gap directly. If wired network provisioning while stored is a hard requirement, verify Ethernet switch inclusion directly with the seller or manufacturer before ordering."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
@@ -46,9 +46,9 @@ export const products: GuideProduct[] = [
     reviews: "78",
     imageUrl: "https://m.media-amazon.com/images/I/41gKt63zFUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B57QJ8QC?tag=deskfinds0d-20",
-    description: "This charges devices only, with no documented network path of any kind, but it's worth including here because it's the single most-proven cart in our entire research pool at 78 reviews. It ships 95% assembled with independently locking front and back doors, built on a ventilated American-style steel frame specifically for heat management across 20 simultaneous devices.\n\nIf your actual requirement turns out to be reliable charging capacity rather than Ethernet specifically, once you've confirmed no cart in this price range genuinely offers per-device wired networking, this is the strongest fallback by track record.\n\n95% pre-assembled with minimal setup labor. That said, no Ethernet or network feature documented. Neither should be a surprise once you know to look for it.",
+    description: "It ships 95% assembled with independently locking front and back doors, built on a ventilated American-style steel frame specifically for heat management across 20 simultaneous devices.\n\nIf your actual requirement turns out to be reliable charging capacity rather than Ethernet specifically, once you've confirmed no cart in this price range genuinely offers per-device wired networking, this is the strongest fallback by track record.\n\n95% pre-assembled with minimal setup labor. That said, no Ethernet or network feature documented. Neither should be a surprise once you know to look for it.",
     specs: ["20-device capacity, 95% pre-assembled", "No network feature documented", "Independently locking front/back doors"],
-    pros: ["Largest confirmed review base in this comparison at 78 reviews", "95% pre-assembled with minimal setup labor"],
+    pros: [ "95% pre-assembled with minimal setup labor"],
     cons: ["No Ethernet or network feature documented"],
     bestFor: "Buyers who searched for Ethernet but primarily need a proven general charging cart.",
   },
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     pros: ["Cabinet-style storage buffer above 30 devices"],
     cons: ["No review history or confirmed rating available yet", "No Ethernet or network feature documented"],
     bestFor: "Buyers prioritizing cabinet-style storage capacity over the originally searched network feature.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Strict Ethernet eligibility check applied first", description: "We required a documented wired network path, internal switch, or CAT6 cabling before treating any listing as genuinely Ethernet-enabled, rather than accepting management or network-ready language as sufficient." },
   { title: "Honest disclosure when the product pool didn't match the premise", description: "None of the current confirmed listings in this price and category range documented an Ethernet feature, so we disclosed that directly instead of stretching the definition or omitting the mismatch." },
   { title: "Ranked by general charging-cart quality instead", description: "Since Ethernet-specific data is unavailable, we ranked by capacity, review base, and price, the same criteria used in our general charging cart research." },
-  { title: "Directed buyers to verify directly with manufacturers", description: "For genuine network-provisioning carts, we recommend contacting an enterprise IT hardware manufacturer directly rather than assuming any listing in this general price range includes that capability." },
+  { title: "Directed buyers to verify directly with manufacturers", description: "For genuine network-provisioning carts, we recommend contacting an enterprise IT hardware manufacturer directly rather than assuming any listing in this general price range includes that capability." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -287,11 +287,11 @@ export const faq: FaqItem[] = [
   { q: "Where can I find a genuine Ethernet-enabled charging cart?", a: "Contact an enterprise IT hardware vendor or education IT reseller directly and ask about their network-management cart line, since this is typically sold through direct enterprise channels." },
   { q: "What's the best general charging cart if I don't strictly need Ethernet?", a: "The Meteteel Fully Assembled 20 Device Cart, with the largest confirmed review base in our research." },
   { q: "What's the highest-capacity option in this comparison?", a: "The TIOPLY 36 Device Charging Cart, supporting screens up to 16.3 inches." },
-  { q: "Is the Tripp Lite pick Ethernet-enabled since the brand makes network hardware?", a: "Not confirmed on this specific 42-port listing. The brand separately manufactures network equipment, but this listing documents AC charging only." },
+  { q: "Is the Tripp Lite pick Ethernet-enabled since the brand makes network hardware?", a: "Not confirmed on this specific 42-port listing. The brand separately manufactures network equipment, but this listing documents AC charging only." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-charging-carts", title: "Best Laptop Charging Carts (2026)" },
   { href: "/guide/best-laptop-charging-carts-for-schools", title: "Best Laptop Charging Carts for Schools (2026)" },
-  { href: "/guide/best-lockable-laptop-charging-carts", title: "Best Lockable Laptop Charging Carts (2026)" },
+  { href: "/guide/best-lockable-laptop-charging-carts", title: "Best Lockable Laptop Charging Carts (2026)" }
 ];

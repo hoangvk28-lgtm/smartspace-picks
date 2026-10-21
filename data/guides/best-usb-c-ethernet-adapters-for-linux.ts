@@ -180,27 +180,27 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $10.93",
+          "Under $15",
           "TP-Link UE300C USB-C to Ethernet Adapter"
         ],
         [
-          "Around $12.99",
+          "Under $15",
           "UGREEN USB-C to Ethernet Adapter (1Gbps)"
         ],
         [
-          "Around $15.53",
+          "Under $20",
           "Anker USB-C to Ethernet Adapter"
         ],
         [
-          "Around $15.99",
+          "Under $20",
           "uni USB-C to Ethernet Adapter 1Gbps"
         ],
         [
-          "Around $24.99",
+          "Under $25",
           "Cable Matters USB-C to 2.5Gb Ethernet Adapter"
         ],
         [
-          "Around $28.00",
+          "Under $30",
           "Cable Matters USB-C to 5Gb Ethernet Adapter"
         ]
       ]
@@ -255,10 +255,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "TP-Link UE300C USB-C to Ethernet Adapter is aimed at buyers prioritizing 1gbps, driver-free including linux, at $10.93."
+        "text": "TP-Link UE300C USB-C to Ethernet Adapter is aimed at buyers prioritizing 1gbps, driver-free including linux, at under $15."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -299,9 +299,9 @@ export const faq = [
   }
 ,
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "Anker USB-C to Ethernet Adapter is aimed at buyers prioritizing 1gbps, usb-c 3.0." },
-  { q: "Which pick offers the best value for a tight budget?", a: "TP-Link UE300C USB-C to Ethernet Adapter is aimed at buyers prioritizing 1gbps, driver-free including linux, and at $10.93 it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $10.93 to $28.00, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
-  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Cable Matters USB-C to 5Gb Ethernet Adapter is aimed at buyers prioritizing 5000mbps ethernet, requires usb 3.2 gen 2+. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
+  { q: "Which pick offers the best value for a tight budget?", a: "TP-Link UE300C USB-C to Ethernet Adapter is aimed at buyers prioritizing 1gbps, driver-free including linux, and at under $15 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $15 to $30, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Cable Matters USB-C to 5Gb Ethernet Adapter is aimed at buyers prioritizing 5000mbps ethernet, requires usb 3.2 gen 2+. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-usb-c-ethernet-adapters-for-chromebooks","title":"7 Best USB-C Ethernet Adapters for Chromebooks"},{"href":"/guide/best-cable-matters-usb-c-ethernet-adapters","title":"6 Best Cable Matters USB-C Ethernet Adapters"},{"href":"/guide/best-usb-c-to-2-5gbe-ethernet-adapters","title":"8 Best USB-C to 2.5GbE Ethernet Adapters"}];

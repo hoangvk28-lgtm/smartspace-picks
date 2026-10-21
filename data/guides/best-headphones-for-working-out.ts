@@ -50,7 +50,7 @@ export const products: WorkoutHeadphone[] = [
     tradeoffs: [
       "No ANC or Transparency Mode, limits outdoor running safety",
       "Call quality is acceptable but below Jabra standard at higher prices",
-      "IPX7 but no dustproofing, the X in IPX7 means dust resistance is unrated",
+      "IPX7 but no dustproofing, the X in IPX7 means dust resistance is unrated"
     ],
     skipIf:
       "You run outdoors and need ambient awareness. The Shokz OpenRun Pro 2 is the right pick. For gym-only use, these are the best $50 earbuds available.",
@@ -59,12 +59,12 @@ export const products: WorkoutHeadphone[] = [
       "Rotating ear hooks adapt to ear shape",
       "9+27 hrs total, 3+ weeks of daily sessions",
       "Anker warranty and support",
-      "Bass-forward tuning for workout music",
+      "Bass-forward tuning for workout music"
     ],
     cons: [
       "No ANC or transparency mode",
       "IPX7 only, no dustproofing",
-      "Call quality is basic",
+      "Call quality is basic"
     ],
   },
   {
@@ -85,7 +85,7 @@ export const products: WorkoutHeadphone[] = [
     tradeoffs: [
       "No ANC, IP68 sealing blocks passive noise but no active cancellation",
       "Sound signature is bass-heavy, not ideal for neutral or balanced audio preference",
-      "Bulkier than minimal-design earbuds due to ear hook mechanism",
+      "Bulkier than minimal-design earbuds due to ear hook mechanism"
     ],
     skipIf:
       "You need ANC for a loud gym environment. The Jabra Elite 4 Active adds ANC for a moderate price increase.",
@@ -94,12 +94,12 @@ export const products: WorkoutHeadphone[] = [
       "FlexSoft ear hooks hold through high-impact training",
       "10+30 hrs total, 40 hours total",
       "Ambient Aware mode for outdoor safety",
-      "Powerbank mode charges your phone from the case",
+      "Powerbank mode charges your phone from the case"
     ],
     cons: [
       "No active noise cancellation",
       "Bass-heavy sound signature",
-      "Bulkier than minimal earbud designs",
+      "Bulkier than minimal earbud designs"
     ],
   },
   {
@@ -120,7 +120,7 @@ export const products: WorkoutHeadphone[] = [
     tradeoffs: [
       "No wireless charging case, micro-USB in 2026 is behind the competition",
       "ANC performance is good but not as strong as the Jabra Elite 8 Active Gen 2 at a higher price",
-      "IP57 is lower than IP68 picks, fine for workouts but not rated for submersion",
+      "IP57 is lower than IP68 picks, fine for workouts but not rated for submersion"
     ],
     skipIf:
       "You want the best ANC performance and can spend more. The Jabra Elite 8 Active Gen 2 is a significant step up in noise cancellation.",
@@ -129,12 +129,12 @@ export const products: WorkoutHeadphone[] = [
       "IP57 dustproof and weather resistant",
       "Best-in-class out-of-box fit with wing tip options",
       "7+21 hrs total",
-      "Jabra 2-year warranty covers sweat damage",
+      "Jabra 2-year warranty covers sweat damage"
     ],
     cons: [
       "Micro-USB charging, not USB-C",
       "ANC not as strong as Elite 8 Active Gen 2",
-      "Not submersion-rated",
+      "Not submersion-rated"
     ],
   },
   {
@@ -155,7 +155,7 @@ export const products: WorkoutHeadphone[] = [
     tradeoffs: [
       "Bass response is limited compared to earbuds, bone conduction cannot reproduce deep low frequencies as effectively",
       "Audio leaks at high volume, people nearby can hear your music",
-      "Not ideal for gym use where you want noise isolation",
+      "Not ideal for gym use where you want noise isolation"
     ],
     skipIf:
       "You train exclusively indoors and want noise isolation. Bone conduction is a specialized outdoor running tool. For gym-only use, any of the earbuds in this guide give better sound quality for the money.",
@@ -164,12 +164,12 @@ export const products: WorkoutHeadphone[] = [
       "12-hour battery, longest single charge in this roundup",
       "IP55 dust and weather resistant",
       "Compatible with sunglasses, helmets, and headbands",
-      "Zero in-ear pressure or ear canal fatigue",
+      "Zero in-ear pressure or ear canal fatigue"
     ],
     cons: [
       "Limited bass response vs earbuds",
       "Audio leaks at high volume",
-      "Not ideal for indoor training",
+      "Not ideal for indoor training"
     ],
   },
   {
@@ -188,21 +188,21 @@ export const products: WorkoutHeadphone[] = [
     whyItWorks:
       "IP68 plus MIL-STD-810H military durability standard. The only pick in this guide rated for both maximum water resistance and military-grade shock, vibration, and extreme temperature testing. MultiSensor Voice technology uses 6 microphones for noticeably cleaner call quality in wind, noise, and outdoor environments. Best-in-class ANC for workout earbuds that matches or exceeds Sony and Bose at equivalent price points. HearThrough transparency mode with Spatial Audio sounds natural outdoors. 8+32 hrs total with wireless charging case, the case is also IP67 rated.",
     tradeoffs: [
-      "Premium price at $169-$229",
-      "Ear hook design adds bulk compared to minimal earbud designs",
+      "Premium price at under $170-$229",
+      "Ear hook design adds bulk compared to minimal earbud designs"
     ],
     skipIf:
-      "You are on a tight budget. The JBL Endurance Peak 3 at $59-$79 delivers IP68 and a solid workout experience at one-third the price. The Elite 8 Active Gen 2 is the right pick when you want no compromises.",
+      "You are on a tight budget. The JBL Endurance Peak 3 at under $60-$79 delivers IP68 and a solid workout experience at one-third the price. The Elite 8 Active Gen 2 is the right pick when you want no compromises.",
     pros: [
       "IP68 plus MIL-STD-810H military durability",
       "6-mic MultiSensor Voice for clean outdoor calls",
       "Best-in-class ANC for workout earbuds",
       "HearThrough transparency with Spatial Audio",
-      "Wireless charging case also rated IP67",
+      "Wireless charging case also rated IP67"
     ],
     cons: [
-      "Premium price at $169-$229",
-      "Ear hook design adds bulk vs minimal earbuds",
+      "Premium price at under $170-$229",
+      "Ear hook design adds bulk vs minimal earbuds"
     ],
   },
   {
@@ -223,7 +223,7 @@ export const products: WorkoutHeadphone[] = [
     tradeoffs: [
       "IPX4 only, adequate for sweat and light rain but not submersion-rated",
       "Deep Apple ecosystem integration, Android users miss most smart features",
-      "Bulkier than true wireless earbuds due to the ear hook",
+      "Bulkier than true wireless earbuds due to the ear hook"
     ],
     skipIf:
       "You use Android as your primary device. The Jabra Elite 8 Active Gen 2 has comparable stability and better cross-platform support. Also skip if you need IP68 submersion rating.",
@@ -232,12 +232,12 @@ export const products: WorkoutHeadphone[] = [
       "Built-in heart rate sensor, no separate wearable needed",
       "10+40 hrs total, highest battery in this roundup",
       "H2 chip with hands-free Siri and seamless Apple pairing",
-      "ANC designed for high-movement use",
+      "ANC designed for high-movement use"
     ],
     cons: [
       "IPX4 only, not submersion-rated",
       "Most smart features require Apple ecosystem",
-      "Bulkier design due to ear hook",
+      "Bulkier design due to ear hook"
     ],
   },
   {
@@ -258,7 +258,7 @@ export const products: WorkoutHeadphone[] = [
     tradeoffs: [
       "No official IP rating, Sony does not certify the XM5 for sweat or water resistance. Heavy sweat during intense cardio is a real long-term damage risk",
       "Over-ear fit is less stable than earbuds during high-movement exercises",
-      "Heaviest pick in this roundup at ~250g, noticeable compared to sub-10g earbuds",
+      "Heaviest pick in this roundup at ~250g, noticeable compared to sub-10g earbuds"
     ],
     skipIf:
       "You do intense cardio, run outdoors, or sweat heavily during training. The XM5 is best for moderate-intensity gym sessions like weight training, stretching, or stationary bike where movement is controlled and sweat is manageable.",
@@ -267,14 +267,14 @@ export const products: WorkoutHeadphone[] = [
       "30-hour battery, no mid-week charging",
       "LDAC hi-res audio on Android",
       "Speak-to-Chat auto-pauses for conversations",
-      "Excellent 4-mic call quality",
+      "Excellent 4-mic call quality"
     ],
     cons: [
       "No official IP rating for sweat resistance",
       "Less stable than earbuds during high-impact exercise",
-      "Heaviest pick at ~250g",
+      "Heaviest pick at ~250g"
     ],
-  },
+  }
 ];
 
 export const atAGlanceRows = products.map((p) => ({
@@ -307,12 +307,12 @@ export const faq = [
   {
     q: "What is the difference between IPX7 and IP68?",
     a: "IPX7 means water resistant to 1 meter submersion for 30 minutes. The X means dust resistance is unrated. IP68 means fully dustproof (rating 6) plus water resistant beyond 1 meter at a manufacturer-specified depth. IP68 is the stronger rating for both dust and water. At sub-$80, the JBL Endurance Peak 3 achieving IP68 is genuinely unusual.",
-  },
+  }
 ];
 
 export const relatedGuides = [
   { title: "7 Best Headsets for Work: Budget to Premium", href: "/guide/best-headset-for-work" },
   { title: "7 Best Gaming Headsets: Budget to Premium", href: "/guide/best-headphones-for-gaming" },
   { title: "Best Headphone Stands for Your Desk", href: "/guide/best-headphone-stand-desk" },
-  { title: "Best Headphones for Online Classes", href: "/guide/best-headphones-for-online-classes" },
+  { title: "Best Headphones for Online Classes", href: "/guide/best-headphones-for-online-classes" }
 ];

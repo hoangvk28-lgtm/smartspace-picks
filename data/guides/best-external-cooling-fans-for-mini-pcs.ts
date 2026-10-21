@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "external cooling fans for mini PCs";
 export const introParagraphs = [
   "External cooling fans are most relevant when a Mini PC runs hot under sustained load but you don't want to open, modify, or service the sealed chassis, whether that's because it's under warranty, difficult to disassemble, or you just want a reversible setup. The fan still has to work with the Mini PC's existing intake and exhaust path, since airflow aimed at the wrong panel provides little benefit.",
-  "This guide overlaps with our broader Best Mini PC Cooling Fans guide, since most of the same compact USB fans apply here too. This article narrows the framing specifically to sealed or non-serviceable Mini PCs and includes one purpose-built external mount not covered in the general fan guide.",
+  "This guide overlaps with our broader Best Mini PC Cooling Fans guide, since most of the same compact USB fans apply here too. This article narrows the framing specifically to sealed or non-serviceable Mini PCs and includes one purpose-built external mount not covered in the general fan guide."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "9 min";
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "External-only use case", description: "We evaluated whether each product can add useful cooling without opening or modifying the Mini PC chassis." },
   { title: "Airflow path compatibility", description: "We compared fan placement and direction against typical Mini PC vent layouts, favoring documented CFM figures where available." },
   { title: "Noise for shared or quiet spaces", description: "We compared available dBA figures and prioritized listings that publish a specific number over vague quiet claims." },
-  { title: "Placement flexibility", description: "We considered fan size, mounting options, and whether a product needs open desk space or fits tight gaps around a sealed chassis." },
+  { title: "Placement flexibility", description: "We considered fan size, mounting options, and whether a product needs open desk space or fits tight gaps around a sealed chassis." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -260,11 +260,11 @@ export const faq: FaqItem[] = [
   { q: "Is an external fan better than replacing the internal fan?", a: "Not necessarily. External cooling is reversible and requires no disassembly, while an internal repair may address the root cause when the built-in fan or heatsink system is genuinely failing." },
   { q: "Can I point any of these fans anywhere at the Mini PC?", a: "No. Aim airflow at an intake or help exhaust escape. Blowing onto a closed panel can move a lot of air without meaningfully improving internal cooling." },
   { q: "Will an external fan make the setup much louder?", a: "It can, since the Mini PC's own internal fan and the external fan may run at the same time. Picks with a published dBA rating, like the GSCOLER X1 at 18dB, give you a way to estimate the added noise beforehand." },
-  { q: "How is this different from the general Mini PC cooling fans guide?", a: "The general guide covers standalone fan products broadly. This guide specifically addresses external supplemental cooling for sealed or non-serviceable Mini PCs, and includes one purpose-built mount not covered there." },
+  { q: "How is this different from the general Mini PC cooling fans guide?", a: "The general guide covers standalone fan products broadly. This guide specifically addresses external supplemental cooling for sealed or non-serviceable Mini PCs, and includes one purpose-built mount not covered there." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pc-cooling-fans", title: "Best Mini PC Cooling Fans (2026)" },
   { href: "/guide/best-mini-pc-cooling-stands", title: "Best Mini PC Cooling Stands (2026)" },
-  { href: "/guide/best-mini-pc-stands-with-fans", title: "Best Mini PC Stands with Fans (2026)" },
+  { href: "/guide/best-mini-pc-stands-with-fans", title: "Best Mini PC Stands with Fans (2026)" }
 ];

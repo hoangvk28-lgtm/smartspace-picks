@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $369.99",
+          "Under $400",
           "63\" Reception Desk with Dual-Level Counter and LED"
         ],
         [
-          "Around $436.99",
+          "Under $450",
           "L-Shaped Reception Desk with Keyboard Tray"
         ],
         [
-          "Around $599.99",
+          "Under $600",
           "47\" Reception Desk with LED and Power Outlets"
         ],
         [
-          "Around $869.95",
+          "Under $900",
           "Offices To Go L-Shaped Reception Desk with Transaction Top"
         ],
         [
-          "Around $949.99",
+          "Under $950",
           "Romig Marque Curved ADA-Compliant Reception Station"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Romig Marque Curved ADA-Compliant Reception Station is aimed at buyers prioritizing 21.5\" deep work surface, 42\"w x 32\"h interior kneespace." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Romig Marque Curved ADA-Compliant Reception Station is aimed at buyers prioritizing 21.5\" deep work surface, 42\"w x 32\"h interior kneespace." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-ada-compliant-reception-desks","title":"best-ada-compliant-reception-desks"},{"href":"/guide/best-reception-desks-for-hospital","title":"5 Best Reception Desks for Hospital in 2026"},{"href":"/guide/best-reception-desks-for-dental","title":"best-reception-desks-for-dental"}];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "photo printer for home use";
 export const introParagraphs = [
   "Home photo printing looks simple until you factor in the real cost of paper and ink per print, which can rival drugstore or online photo printing once you add it up, and the fact that a general all-in-one's 4-color ink system produces visibly different skin tones and gradients than a dedicated photo printer. The right choice depends on how often you print photos, whether you want archival-quality keepsakes, and how much you value convenience over per-print cost.",
-  "Below are 8 printers we evaluated for home photo printing, from budget inkjet all-in-ones that handle occasional prints well to a dedicated HP Envy Photo model and ink-tank options built for high-volume printing, ranging from $64.00 to $239.89.",
+  "Below are 8 printers we evaluated for home photo printing, from budget inkjet all-in-ones that handle occasional prints well to a dedicated HP Envy Photo model and ink-tank options built for high-volume printing, ranging from roughly $70 to $250."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Print, scan, and copy",
       "3-month Instant Ink trial included",
       "Mobile and AI-enabled printing",
-      "Easy setup for home use",
+      "Easy setup for home use"
     ],
     pros: [
       "Purpose-built for home photo printing, not a general AIO stretched into photo duty",
       "Better gradient and skin tone handling than standard 4-color AIOs",
       "Included Instant Ink trial offsets initial ink cost",
-      "Easy wireless setup",
+      "Easy wireless setup"
     ],
     cons: [
       "Highest price in this list",
       "Ink cost rises meaningfully after the Instant Ink trial",
-      "Dye-based ink is not archival-grade for decades-long keepsake storage",
+      "Dye-based ink is not archival-grade for decades-long keepsake storage"
     ],
     bestFor: "Buyers who want a printer genuinely designed for home photo output",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Color print, scan, and copy",
       "Wireless printing",
       "Bottled ink included",
-      "Designed for frequent, regular-volume printing",
+      "Designed for frequent, regular-volume printing"
     ],
     pros: [
       "Lowest true cost per photo print among ink-tank options here",
       "Good for families printing photos regularly",
       "Scan and copy included",
-      "Refill bottles avoid cartridge cost spirals",
+      "Refill bottles avoid cartridge cost spirals"
     ],
     cons: [
       "General AIO, not a dedicated photo printer",
       "Dye-based ink fades faster than pigment for archival storage",
-      "Gradient handling won't match a true photo printer",
+      "Gradient handling won't match a true photo printer"
     ],
     bestFor: "Families printing photos regularly who want the lowest ongoing cost",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Print, scan, and copy",
       "Wireless printing",
       "Compact for an ink-tank printer",
-      "Home use design",
+      "Home use design"
     ],
     pros: [
       "Lower entry price than EcoTank ink-tank models",
       "Ink-tank economics for regular photo printing",
       "Reasonable photo output for a general AIO",
-      "Compact footprint",
+      "Compact footprint"
     ],
     cons: [
       "4-color system shows more banding than dedicated photo printers",
       "No document feeder or fax",
-      "Dye-based ink, not archival-grade",
+      "Dye-based ink, not archival-grade"
     ],
     bestFor: "Budget-conscious buyers who want ink-tank savings for occasional photo printing",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "1.42-inch OLED display",
       "Copier and scanner included",
       "Compact design with intuitive controls",
-      "Wireless printing",
+      "Wireless printing"
     ],
     pros: [
       "OLED display simplifies switching to photo mode",
       "Affordable upfront price",
       "1-year limited warranty included",
-      "Reasonable for occasional snapshot printing",
+      "Reasonable for occasional snapshot printing"
     ],
     cons: [
       "Cartridge ink raises true cost per photo print",
       "General AIO, not a dedicated photo printer",
-      "4-color engine, more visible banding on complex gradients",
+      "4-color engine, more visible banding on complex gradients"
     ],
     bestFor: "Occasional photo printing on a budget alongside general document use",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Standard paper tray feed",
       "Copier and scanner built in",
       "Compact home printer footprint",
-      "Wireless printing",
+      "Wireless printing"
     ],
     pros: [
       "Lowest price in this list",
       "Fine for occasional, light photo printing",
       "Easy setup",
-      "Compact footprint",
+      "Compact footprint"
     ],
     cons: [
       "Cartridge ink cost adds up fast with regular photo printing",
       "General AIO, not a photo specialist",
-      "4-color engine limits gradient quality",
+      "4-color engine limits gradient quality"
     ],
     bestFor: "Genuinely occasional photo printing on the lowest budget in this list",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "3-month Instant Ink trial included",
       "AI-capable printing features",
       "Standard tray feed",
-      "Compact home design",
+      "Compact home design"
     ],
     pros: [
       "Good for mixed photo and document printing",
       "Included Instant Ink trial offsets initial ink cost",
       "Compact and affordable",
-      "Simple wireless setup",
+      "Simple wireless setup"
     ],
     cons: [
       "Not a dedicated photo printer",
       "Dye-based ink not suited to archival keepsakes",
-      "Ink cost rises after the trial ends",
+      "Ink cost rises after the trial ends"
     ],
     bestFor: "Buyers who mostly print documents but want occasional photo capability",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Mobile printing and built-in fax",
       "Standard tray paper feed",
       "Compact home office design",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     pros: [
       "Affordable entry price",
       "ADF useful for document-heavy households",
       "Fax included",
-      "Adequate for occasional casual photo prints",
+      "Adequate for occasional casual photo prints"
     ],
     cons: [
       "Photo printing is a secondary feature, not the design focus",
       "4-color engine limits gradient quality",
-      "Cartridge ink raises cost for regular photo printing",
+      "Cartridge ink raises cost for regular photo printing"
     ],
     bestFor: "Buyers who mostly need document printing with occasional casual photos",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Automatic document feeder and fax",
       "Ethernet and wireless connectivity",
       "Color print, scan, and copy",
-      "Designed for home office use",
+      "Designed for home office use"
     ],
     pros: [
       "Ink-tank economics lower cost per photo print",
       "ADF and fax useful for a mixed home office workload",
       "Ethernet option for stable wired connection",
-      "Good all-around printer for documents and photos",
+      "Good all-around printer for documents and photos"
     ],
     cons: [
       "Largest footprint in this list",
       "General AIO, not a dedicated photo printer",
-      "Dye-based ink not archival-grade",
+      "Dye-based ink not archival-grade"
     ],
     bestFor: "Home offices wanting one printer for both frequent documents and occasional photos",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Honest fit: dedicated photo printer vs general AIO",
     description: "Flagged which picks are genuinely built around photo output versus general all-in-ones included as reasonable budget alternatives for occasional photo printing.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -466,12 +466,12 @@ export const faq: FaqItem[] = [
   {
     q: "Do I need to change any settings before printing a photo?",
     a: "Yes, always select the correct photo paper type and print mode in the driver before printing. Leaving the default plain paper setting under-saturates colors and can waste an expensive sheet of photo paper, especially on general AIOs that default to document settings.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-cardstock", title: "Best Printers for Cardstock (2026)" },
   { href: "/guide/best-printers-for-home-use", title: "Best Printers for Home Use (2026)" },
   { href: "/guide/best-printers-for-home-offices", title: "Best Printers for Home Offices (2026)" },
-  { href: "/guide/best-easy-to-use-printers", title: "Best Easy-to-Use Printers (2026)" },
+  { href: "/guide/best-easy-to-use-printers", title: "Best Easy-to-Use Printers (2026)" }
 ];

@@ -77,7 +77,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0FG322D4R?tag=deskfinds0d-20",
     description: "This projector's built-in streaming system provides access to over 1.2 million videos across Netflix, YouTube, and Prime Video without any extra equipment, delivering solid content access at the lowest price in this comparison. Its 2x10W built-in speakers support Dolby Audio, providing clear dialogue and rich bass without external speakers required.\n\nCompared to the Magcubic pick above, this one prioritizes a lower price point while still delivering 1500 ANSI lumens brightness and a 300 inch maximum screen size with 50% zoom flexibility. Manual focus paired with auto keystone correction gives you fine control over sharpness while still simplifying initial setup.\n\nBest for buyers who want the lowest price with solid built-in streaming and Dolby Audio support.",
     specs: ["4K decoding, 1500 ANSI lumens", "2x10W speakers, Dolby Audio", "Manual focus, auto keystone correction"],
-    pros: ["Cheapest pick in this comparison at $139.97", "Dolby Audio built-in speakers deliver clear, rich sound", "300 inch maximum screen size with 50% zoom flexibility"],
+    pros: ["Cheapest pick in this comparison at under $140", "Dolby Audio built-in speakers deliver clear, rich sound", "300 inch maximum screen size with 50% zoom flexibility"],
     cons: ["Requires manual focus rather than fully automatic focus", "Ceiling projection specifically requires manual keystone adjustment"],
     bestFor: "buyers who want the lowest price with solid streaming and audio",
   }
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Officially licensed Netflix with the highest brightness", "Outdoor Projector with Netflix Built-in, 3500 Brightness 4K Support"],
         ["The broadest streaming app selection and quietest operation", "X6 Native 1080P Smart Projector, AI Voice Assist"],
         ["More powerful built-in audio without external speakers", "Magcubic 4K Smart Projector, 800 ANSI Native 1080P"],
-        ["The lowest price with solid streaming and audio", "HAPPRUN 1500 ANSI 4K Decoding Outdoor Projector"],
+        ["The lowest price with solid streaming and audio", "HAPPRUN 1500 ANSI 4K Decoding Outdoor Projector"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $140", "HAPPRUN ($139.97)"],
-        ["Under $160", "Magcubic ($159.99)"],
-        ["Under $170", "X6 ($169.00)"],
-        ["Under $180", "Netflix Built-in ($179.99)"],
+        ["Under $140", "HAPPRUN (under $140)"],
+        ["Under $160", "Magcubic (under $160)"],
+        ["Under $170", "X6 (under $170)"],
+        ["Under $180", "Netflix Built-in (under $180)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "High Brightness vs Broad App Selection",
     cards: [
       { label: "High brightness (Netflix Built-in, 3500 ANSI)", text: "Prioritizes visible picture quality in rooms with some ambient light, better for daytime or partially lit viewing." },
-      { label: "Broad app selection (X6, 1000+ apps)", text: "Prioritizes content access variety through a full Android app ecosystem, better if you want apps beyond the standard streaming services." },
+      { label: "Broad app selection (X6, 1000+ apps)", text: "Prioritizes content access variety through a full Android app ecosystem, better if you want apps beyond the standard streaming services." }
     ],
     note: "If your viewing space isn't fully darkened, the higher-brightness Netflix Built-in pick will produce a more visible image. If content variety through a broader app selection matters more, the X6's Android ecosystem delivers that.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Fully darkened room", "HAPPRUN or Magcubic"],
         ["Some ambient light, daytime use", "X6 (800 ANSI, but quiet for late use)"],
-        ["Bright room or outdoor daytime use", "Netflix Built-in (3500 ANSI)"],
+        ["Bright room or outdoor daytime use", "Netflix Built-in (3500 ANSI)"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Buyer Who Prioritizes Genuine Netflix Access Specifically",
     cards: [
       { label: "Look for", text: "An officially licensed Netflix app built directly into the projector's operating system, not just general 'streaming compatible' language that might require an external dongle." },
-      { label: "In this comparison", text: "The Netflix Built-in pick specifically confirms officially licensed Netflix access without needing a Fire Stick or Chromecast dongle." },
+      { label: "In this comparison", text: "The Netflix Built-in pick specifically confirms officially licensed Netflix access without needing a Fire Stick or Chromecast dongle." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want officially licensed Netflix access with the highest stated brightness, where the Netflix Built-in pick delivers both at the top of this tier." },
-      { label: "Save if", text: "You just want solid built-in streaming and Dolby Audio without needing maximum brightness, where the HAPPRUN pick covers that for about $40 less." },
+      { label: "Save if", text: "You just want solid built-in streaming and Dolby Audio without needing maximum brightness, where the HAPPRUN pick covers that for about $40 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

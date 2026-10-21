@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $143.00",
+          "Under $150",
           "RATTMMOTOR Upgrade 3018-PRO CNC Wood Router Machine Kit"
         ],
         [
-          "Around $153.90",
+          "Under $160",
           "Genmitsu CNC 3018-PRO Router Kit"
         ],
         [
-          "Around $242.10",
+          "Under $250",
           "SainSmart Genmitsu 3018-PROVer V2 CNC Router Machine for Beginners"
         ],
         [
-          "Around $341.05",
+          "Under $350",
           "WolfPawn CNC Router Machine 4040-PRO for Metal Acrylic Cutting Milling"
         ],
         [
-          "Around $517.65",
+          "Under $550",
           "Genmitsu 4040-PRO CNC Router Machine for Metal Acrylic Cutting Milling"
         ],
         [
-          "Around $549.00",
+          "Under $550",
           "FoxAlien Masuter Pro 3-Axis CNC Router Machine"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "FoxAlien Masuter Pro 3-Axis CNC Router Machine is aimed at buyers prioritizing 15.75 x 15.75 x 2.36in work area." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "FoxAlien Masuter Pro 3-Axis CNC Router Machine is aimed at buyers prioritizing 15.75 x 15.75 x 2.36in work area." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-carvera-desktop-cnc-machines","title":"Best Carvera Desktop CNC Machines in 2026"},{"href":"/guide/best-bantam-tools-desktop-cnc-machines","title":"Best Bantam Tools Desktop CNC Machines in 2026"},{"href":"/guide/best-makera-desktop-cnc-machines","title":"Best Makera Desktop CNC Machines in 2026"}];

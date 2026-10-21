@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Formal Teams certification and the longest battery life", "Yealink SP92 Conference Speaker with Bluetooth Dongle"],
         ["Richer audio quality for calls and music", "Anker PowerConf S330 USB Speakerphone"],
         ["Broad platform compatibility at a lower price", "EMEET M1A USB Conference Speaker and Microphone"],
-        ["The lowest price without cutting core features", "RayBit USB Speakerphone"],
+        ["The lowest price without cutting core features", "RayBit USB Speakerphone"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $60", "RayBit ($59.99)"],
-        ["Under $63", "EMEET M1A ($62.99)"],
-        ["Under $80", "Yealink SP92 or Anker PowerConf S330 (both $79.99)"],
+        ["Under $60", "RayBit (under $60)"],
+        ["Under $63", "EMEET M1A (under $70)"],
+        ["Under $80", "Yealink SP92 or Anker PowerConf S330 (both under $80)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Wireless Bluetooth vs Wired USB-Only Connection",
     cards: [
       { label: "Bluetooth-capable (Yealink SP92)", text: "Adds wireless flexibility to pair with a phone or laptop without a cable, useful if you move between devices frequently." },
-      { label: "Wired USB-only (Anker, EMEET M1A, RayBit)", text: "Trades wireless flexibility for a simpler, more stable connection that avoids pairing steps and potential Bluetooth interference." },
+      { label: "Wired USB-only (Anker, EMEET M1A, RayBit)", text: "Trades wireless flexibility for a simpler, more stable connection that avoids pairing steps and potential Bluetooth interference." }
     ],
     note: "If you frequently switch between a laptop and a phone for calls, the Yealink SP92's Bluetooth option adds real convenience. If you mostly stay at one desk connected to one computer, a wired USB-only pick works just as reliably for less.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["4-8 person conference room", "Yealink SP92 (13ft radius)"],
         ["Small group, 3m radius", "Anker PowerConf S330 or RayBit"],
-        ["Small to medium group with 360 degree coverage", "EMEET M1A"],
+        ["Small to medium group with 360 degree coverage", "EMEET M1A"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Small Business Requiring IT-Approved Hardware Specifically",
     cards: [
       { label: "Look for", text: "Formal platform certification, like Microsoft Teams certified status, rather than general 'compatible with' language, since IT departments often require certified hardware for approved use." },
-      { label: "In this comparison", text: "The Yealink SP92 pick's Microsoft Teams certification specifically satisfies IT approval requirements that general compatibility claims on the other picks may not." },
+      { label: "In this comparison", text: "The Yealink SP92 pick's Microsoft Teams certification specifically satisfies IT approval requirements that general compatibility claims on the other picks may not." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You need formal Teams certification, the longest battery life, and multiple connectivity options, where the Yealink SP92 delivers all three at the top of this tier." },
-      { label: "Save if", text: "You just need reliable wired call quality without certification requirements, where the RayBit pick covers that for about $20 less." },
+      { label: "Save if", text: "You just need reliable wired call quality without certification requirements, where the RayBit pick covers that for about $20 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

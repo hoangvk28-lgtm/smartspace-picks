@@ -143,7 +143,7 @@ export default async function Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Long-Range Wi-Fi 7 Routers", item: `${SITE_URL}/guide/best-long-range-wifi-7-routers` },
+      { "@type": "ListItem", position: 3, name: "Best Long-Range Wi-Fi 7 Routers", item: `${SITE_URL}/guide/best-long-range-wifi-7-routers` }
     ],
   };
 

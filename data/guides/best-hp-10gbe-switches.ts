@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $69.99",
+          "Under $70",
           "TP-Link TL-SG1024S"
         ],
         [
-          "Around $69.99",
+          "Under $70",
           "NETGEAR 24-Port Gigabit Unmanaged Switch (GS324)"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "NETGEAR 24-Port PoE Gigabit Unmanaged Switch (GS324P)"
         ],
         [
-          "Around $199.99",
+          "Under $200",
           "TP-Link TL-SG1428PE"
         ],
         [
-          "Around $1,450.00",
+          "Under $1,500",
           "Cisco Meraki Cloud Managed MS225-24P"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "No. The total PoE budget is shared across all active PoE ports, so if you power several high-draw devices simultaneously, the switch may not be able to deliver every port's maximum rated wattage at the same time. Check the total budget against your actual device count and power needs."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Cisco Meraki Cloud Managed MS225-24P is aimed at buyers prioritizing 24x 1g ports + 4x sfp 10gbe uplinks." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Cisco Meraki Cloud Managed MS225-24P is aimed at buyers prioritizing 24x 1g ports + 4x sfp 10gbe uplinks." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-netgear-10gbe-switches","title":"Best NETGEAR 10GbE Switches in 2026"},{"href":"/guide/best-mikrotik-10gbe-switches","title":"Best MikroTik 10GbE Switches in 2026"},{"href":"/guide/best-cisco-10gbe-switches","title":"Best Cisco 10GbE Switches in 2026"}];

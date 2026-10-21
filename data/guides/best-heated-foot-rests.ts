@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41mwyHrhmUL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DX6XL95R?tag=deskfinds0d-20",
-    "description": "Comfier gives three height settings on a velcro base, two heat levels at 45C and 55C, programmable 1, 2 and 4 hour timers, and three vibration levels with a 15 minute timer. A full-wrap plush upper layer and memory foam padding finish the design.\n\nIt is the best balanced of the group: Beleduc has more vibration detail but a short auto-off, while HDView costs $16 less but has only two heights. The tradeoff versus the cheapest picks is price, at $49.99.\n\nChoose it if you want height choice and a real timer menu. The caveat is that heat tops at two levels, and wattage is not listed.",
+    "description": "Comfier gives three height settings on a velcro base, two heat levels at 45C and 55C, programmable 1, 2 and 4 hour timers, and three vibration levels with a 15 minute timer. A full-wrap plush upper layer and memory foam padding finish the design.\n\nIt is the best balanced of the group: Beleduc has more vibration detail but a short auto-off, while HDView costs $16 less but has only two heights. The tradeoff versus the cheapest picks is price, at under $50.\n\nChoose it if you want height choice and a real timer menu. The caveat is that heat tops at two levels, and wattage is not listed.",
     "specs": [
       "45C or 55C, 1 to 4 hour timer",
       "3 heights, velcro base",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/417w+JcSH8L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H9RHXVB6?tag=deskfinds0d-20",
-    "description": "Beleduc has two vibration motors with three intensities, two heat levels, a detachable double-layer design offering three heights from 5 to 7 inches and an auto shut-off after 15 minutes. The base is non-slip on carpet, hardwood, tile and laminate.\n\nIt is the priciest pick at $69.99, and the 15 minute shut-off is the shortest of any here, unlike the 1 to 4 hour timers on Comfier. Compared with Cozy Products below, it adds vibration but takes more room.\n\nBest for a posture-focused buyer who values vibration and a stable floor grip. The caveat is the short shut-off and the high price.",
+    "description": "Beleduc has two vibration motors with three intensities, two heat levels, a detachable double-layer design offering three heights from 5 to 7 inches and an auto shut-off after 15 minutes. The base is non-slip on carpet, hardwood, tile and laminate.\n\nIt is the priciest pick at under $70, and the 15 minute shut-off is the shortest of any here, unlike the 1 to 4 hour timers on Comfier. Compared with Cozy Products below, it adds vibration but takes more room.\n\nBest for a posture-focused buyer who values vibration and a stable floor grip. The caveat is the short shut-off and the high price.",
     "specs": [
       "2 heat levels, 2 vibration motors",
       "3 heights, 5 to 7 inches",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/411h19YeK9L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HCTWJ1Z5?tag=deskfinds0d-20",
-    "description": "THERAZZAGGE has two heat levels, several vibration modes with one-touch control, a flexible heat timer, an ergonomic curved support and a two-layer height design. The base is non-slip and the foam is high-density memory type.\n\nIt matches Comfier on price at $49.99, but gives only two heights and does not state timer lengths or temperatures. Against HDView, it adds vibration but is less specific.\n\nGood for a user who likes single-button control. The caveat is the listing's thin numbers: no timer hours, no temperatures and no wattage.",
+    "description": "THERAZZAGGE has two heat levels, several vibration modes with one-touch control, a flexible heat timer, an ergonomic curved support and a two-layer height design. The base is non-slip and the foam is high-density memory type.\n\nIt matches Comfier on price at under $50, but gives only two heights and does not state timer lengths or temperatures. Against HDView, it adds vibration but is less specific.\n\nGood for a user who likes single-button control. The caveat is the listing's thin numbers: no timer hours, no temperatures and no wattage.",
     "specs": [
       "2 heat levels",
       "One-touch vibration modes",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41s32GxMhRL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0013V6PDG?tag=deskfinds0d-20",
-    "description": "Toasty Toes merges a space-heater element with a footrest that has three positions: flat, incline and upright. It has two heat settings and an LED indicator, and the title says 90 watts while the bullets say 105 watts.\n\nThe tilt positions are unique here, so it works as a heated mat when flat or a footstool when angled, unlike the fixed foam blocks from Comfier. It lacks a timer in the listing and costs $54.98.\n\nBest for desks where you want both a mat and an angled rest. The caveat is the conflicting wattage, which you should confirm on the rating label.",
+    "description": "Toasty Toes merges a space-heater element with a footrest that has three positions: flat, incline and upright. It has two heat settings and an LED indicator, and the title says 90 watts while the bullets say 105 watts.\n\nThe tilt positions are unique here, so it works as a heated mat when flat or a footstool when angled, unlike the fixed foam blocks from Comfier. It lacks a timer in the listing and costs under $60.\n\nBest for desks where you want both a mat and an angled rest. The caveat is the conflicting wattage, which you should confirm on the rating label.",
     "specs": [
       "2 heat settings",
       "3 positions, flat to upright",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/410ost0DSBL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FPD4619T?tag=deskfinds0d-20",
-    "description": "HDView has three heat settings, a timer, a two-layer height design, high-density memory foam and a machine-washable cover. The listing admits in plain words that it has only two heights.\n\nAt $33.99 it undercuts every pick above, and its washable cover beats Beleduc and Therazzagge, which describe no care. Against Mind Reader below, it costs $10 more but has fewer heat steps.\n\nChoose it for an affordable, washable footrest. The caveat is the compact height range and the unstated timer lengths.",
+    "description": "HDView has three heat settings, a timer, a two-layer height design, high-density memory foam and a machine-washable cover. The listing admits in plain words that it has only two heights.\n\nAt under $35 it undercuts every pick above, and its washable cover beats Beleduc and Therazzagge, which describe no care. Against Mind Reader below, it costs $10 more but has fewer heat steps.\n\nChoose it for an affordable, washable footrest. The caveat is the compact height range and the unstated timer lengths.",
     "specs": [
       "3 heat levels and timer",
       "2 heights, memory foam",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41HVdBEZtuL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FPZVMP3W?tag=deskfinds0d-20",
-    "description": "Mind Reader offers four heat settings, an adjustable timer, auto shut-off, adjustable height and Air-Cloud memory foam. It measures 16.5 by 10 by 5.75 inches with a removable machine-washable mesh cover.\n\nIt is the cheapest pick at $23.84 and the most compact, but it gives no vibration and fewer details than Comfier. Compared with HDView, it offers four heat steps for $10 less.\n\nBest for a small desk and a tight budget. The caveat is the smaller footprint, and the listing does not state temperatures or timer hours.",
+    "description": "Mind Reader offers four heat settings, an adjustable timer, auto shut-off, adjustable height and Air-Cloud memory foam. It measures 16.5 by 10 by 5.75 inches with a removable machine-washable mesh cover.\n\nIt is the cheapest pick at under $25 and the most compact, but it gives no vibration and fewer details than Comfier. Compared with HDView, it offers four heat steps for $10 less.\n\nBest for a small desk and a tight budget. The caveat is the smaller footprint, and the listing does not state temperatures or timer hours.",
     "specs": [
       "4 heat settings, timer",
       "16.5 x 10 x 5.75 inches",
@@ -235,7 +235,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     "title": "Value for price",
-    "description": "Prices from $23.84 to $69.99 were set against the features documented."
+    "description": "Prices from roughly $25 to $70 were set against the features documented."
   }
 ];
 

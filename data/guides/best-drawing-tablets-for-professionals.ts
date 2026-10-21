@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $129.95",
+          "Under $130",
           "Wacom Intuos Medium"
         ],
         [
-          "Around $209.99",
+          "Under $250",
           "XPPen Artist 13.3 Pro 13.3\" Drawing Tablet with Screen"
         ],
         [
-          "Around $209.99",
+          "Under $250",
           "XP-PEN Artist 13.3 Pro V2"
         ],
         [
-          "Around $209.99",
+          "Under $250",
           "XPPen Artist 12 3rd 11.9\" Drawing Tablet with Screen"
         ],
         [
-          "Around $209.99",
+          "Under $250",
           "HUION Kamvas 13 (Gen 3) Drawing Tablet with Screen 16K Pressure PenTech 4.0"
         ],
         [
-          "Around $319.99",
+          "Under $350",
           "GAOMON PD2200 Drawing Tablet with Screen"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "GAOMON PD2200 Drawing Tablet with Screen is aimed at buyers prioritizing 21.5in full-laminated, 130% srgb." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "GAOMON PD2200 Drawing Tablet with Screen is aimed at buyers prioritizing 21.5in full-laminated, 130% srgb." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets-for-artist","title":"Best Drawing Tablets for Artist in 2026"},{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"},{"href":"/guide/best-wacom-drawing-tablets","title":"Best Wacom Drawing Tablets in 2026"}];

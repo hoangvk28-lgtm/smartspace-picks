@@ -28,12 +28,12 @@ export const products: ProductReviewCardProps[] = [
       { text: "Compact desktop footprint — won't crowd a small desk or dorm setup" },
       { text: "Works with 4–13\" tablets including most iPads, Samsung Tabs, and Kindles" },
       { text: "Stable enough for tapping, swiping, and light screen interaction" },
-      { text: "Good fit for second-screen use, reading, and seated video calls" },
+      { text: "Good fit for second-screen use, reading, and seated video calls" }
     ],
     cons: [
       { text: "Limited height adjustment — not ideal for standing desk or eye-level calls" },
       { text: "Not designed for bed or couch use" },
-      { text: "Check compatibility if using a thick protective case" },
+      { text: "Check compatibility if using a thick protective case" }
     ],
     reviewText:
       "The Lamicall S1 is the safest all-around pick for most small desk setups. It holds tablets from roughly 4 to 13 inches at a comfortable viewing angle without taking over the workspace. The simple design is an advantage here: no complicated joints, no arm to bump into, just a stable base with enough tilt adjustment for reading, lectures, and seated video calls. For students, remote workers, and anyone who wants a reliable stand they never have to think about, it is a strong starting point.",
@@ -51,11 +51,11 @@ export const products: ProductReviewCardProps[] = [
       { text: "Aluminum build — more durable than ABS plastic at a similar price point" },
       { text: "Height-adjustable for better desk ergonomics and screen positioning" },
       { text: "Compact footprint fits tight desks and shared workspaces" },
-      { text: "Works with phones, small tablets, Switch, and Kindle (4–10\")" },
+      { text: "Works with phones, small tablets, Switch, and Kindle (4–10\")" }
     ],
     cons: [
       { text: "Tops out at 10\" — not suitable for full-size iPad Pro or larger tablets" },
-      { text: "Better suited for phones and small tablets than larger iPads" },
+      { text: "Better suited for phones and small tablets than larger iPads" }
     ],
     reviewText:
       "The LISEN aluminum stand is a compact, well-built option for people who use phones or smaller tablets at their desk. The aluminum construction makes it sturdier than most budget plastic stands, and the height-adjustment gives more ergonomic flexibility than fixed-angle options. It is the better pick for someone whose main device is a phone or small tablet rather than a full iPad. If you have a larger device, look at the Lamicall S1 or the Lamicall 360° stand instead.",
@@ -73,11 +73,11 @@ export const products: ProductReviewCardProps[] = [
       { text: "360° base rotation — turn the screen toward others without lifting the tablet" },
       { text: "Ultra-slim foldable design folds flat for easy storage and travel" },
       { text: "Supports 4.7–13\" devices including iPad Pro, Air, mini, Kindle, e-readers" },
-      { text: "Well-suited for video calls, shared viewing, and frequent orientation changes" },
+      { text: "Well-suited for video calls, shared viewing, and frequent orientation changes" }
     ],
     cons: [
       { text: "More moving parts than a basic stand — slightly more to adjust" },
-      { text: "May feel less rigid with larger tablets compared to a fixed-base design" },
+      { text: "May feel less rigid with larger tablets compared to a fixed-base design" }
     ],
     reviewText:
       "The Lamicall 360° stand is the best choice if your tablet changes roles throughout the day. Reading in portrait mode in the morning, a landscape video call in the afternoon, turning the screen toward a classmate or colleague during a session — the rotating base handles all of these without repositioning the stand or picking up the tablet. It is a modest step up from the S1 in price for a meaningful upgrade in flexibility.",
@@ -95,11 +95,11 @@ export const products: ProductReviewCardProps[] = [
       { text: "Supports 4.7\"–15.6\" — handles iPad Pro 12.9\", Surface Pro, and portable monitors" },
       { text: "Gravity-based hold (no clips or clamps) — nothing presses against the screen edges" },
       { text: "Folds to pocket size — portable despite the wide size range it supports" },
-      { text: "Adjustable joint tension via included Allen wrench for firm positioning" },
+      { text: "Adjustable joint tension via included Allen wrench for firm positioning" }
     ],
     cons: [
       { text: "Not recommended for direct tapping or heavy typing while in the stand" },
-      { text: "Joint tension requires manual adjustment — not instant set-and-go" },
+      { text: "Joint tension requires manual adjustment — not instant set-and-go" }
     ],
     reviewText:
       "If you use a large iPad Pro, a Surface Pro, or a 15\" portable monitor at your desk, most compact stands will not hold the weight securely. The LISEN foldable stand handles up to 15.6\" while still folding to pocket size. The gravity-based support system — no clips clamping the edges — works well for viewing and reference use, but means you should not rely on it for heavy tapping or direct typing on the tablet screen.",
@@ -117,15 +117,15 @@ export const products: ProductReviewCardProps[] = [
       { text: "Small 4.7\" × 4.2\" footprint — one of the most compact bases in this guide" },
       { text: "15°–100° angle range covers viewing, reading, and video call positions" },
       { text: "Folds flat for easy packing — good for moving between desk, library, and class" },
-      { text: "Silicone pads protect both the tablet and desk surface from scratches" },
+      { text: "Silicone pads protect both the tablet and desk surface from scratches" }
     ],
     cons: [
       { text: "ABS plastic build — less premium feel than aluminum options" },
       { text: "Maximum case thickness 0.55\" — may not fit thick rugged cases" },
-      { text: "Tops out at 11\" — not suitable for iPad Pro 12.9\" or larger" },
+      { text: "Tops out at 11\" — not suitable for iPad Pro 12.9\" or larger" }
     ],
     reviewText:
-      "The UGREEN stand is a strong pick for students and users who carry their stand between desk, library, and class. The 4.7\" × 4.2\" base is genuinely compact without feeling unstable, the angle range from 15° to 100° covers most use cases, and it folds flat easily. At around $9.99, it is one of the most affordable options in this guide that still feels well-considered rather than throwaway.",
+      "The UGREEN stand is a strong pick for students and users who carry their stand between desk, library, and class. The 4.7\" × 4.2\" base is genuinely compact without feeling unstable, the angle range from 15° to 100° covers most use cases, and it folds flat easily. At under $10, it is one of the most affordable options in this guide that still feels well-considered rather than throwaway.",
     scoreOverall: 8.0,
   },
   {
@@ -140,12 +140,12 @@ export const products: ProductReviewCardProps[] = [
       { text: "Weighted base and clamp attachment — two mounting options in one product" },
       { text: "Adjustable arm positions iPad at proper eye level for calls and desk work" },
       { text: "Designed specifically for all iPad sizes" },
-      { text: "Raises the tablet off the desk surface, keeping the workspace clear" },
+      { text: "Raises the tablet off the desk surface, keeping the workspace clear" }
     ],
     cons: [
       { text: "Significantly more expensive than compact stand alternatives" },
       { text: "Larger physical footprint — takes more visible desk space" },
-      { text: "Clamp attachment may not fit all desk edge thicknesses" },
+      { text: "Clamp attachment may not fit all desk edge thicknesses" }
     ],
     reviewText:
       "The HoverBar Duo is in a different category from every other stand in this guide. It is not a foldable travel stand — it is a weighted arm that positions your iPad at precisely the height, angle, and location you want on or near your desk. For remote workers who use an iPad as a dedicated video call screen, a second monitor, or a fixed reference display alongside a laptop, it justifies the price. For casual or occasional tablet viewing, it is overkill.",
@@ -163,17 +163,17 @@ export const products: ProductReviewCardProps[] = [
       { text: "Foldable and lightweight — fits easily in a bag, drawer, or desk organizer" },
       { text: "Works with tablets, e-readers, and phones" },
       { text: "Non-slip design holds in place on most desk surfaces" },
-      { text: "Good for occasional viewing, lectures, and Kindle or e-reader use" },
+      { text: "Good for occasional viewing, lectures, and Kindle or e-reader use" }
     ],
     cons: [
       { text: "Less stable with large tablets in portrait orientation" },
       { text: "Not the best for drawing, heavy tapping, or typing directly on screen" },
-      { text: "Basic angle adjustment with less range than premium stands" },
+      { text: "Basic angle adjustment with less range than premium stands" }
     ],
     reviewText:
       "The Amazon Basics foldable stand does one thing reliably: it props up a tablet, phone, or e-reader at a hands-free viewing angle on your desk. If you need something portable, affordable, and easy to put away, it works well for that. If you use a full-size iPad, draw, or tap the screen frequently, the limited stability becomes noticeable — the UGREEN or Lamicall S1 are better choices for more active desk use.",
     scoreOverall: 7.8,
-  },
+  }
 ];
 
 export const atAGlanceItems: AtAGlanceItem[] = products.map((p) => ({
@@ -219,5 +219,5 @@ export const faq = [
     question: "What should I check before buying a tablet stand for a desk?",
     answer:
       "Check the supported tablet size range, maximum case thickness, base footprint relative to your desk space, whether it allows charging while upright, and whether it holds the tablet securely in portrait orientation if you use your tablet vertically for reading, notes, or video calls.",
-  },
+  }
 ];

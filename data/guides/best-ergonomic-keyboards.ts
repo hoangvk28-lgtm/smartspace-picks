@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "ergonomic keyboard";
 export const introParagraphs = [
   "An ergonomic keyboard covers a wider range of designs than most buyers expect, from a one-piece wave layout that gently curves the keys apart to a true split keyboard whose two halves separate shoulder-width. That range matters because a wave keyboard and a full split keyboard solve different problems and demand a different adjustment period, so the right pick depends on how much your wrists actually need to change position, not just on price.",
-  "Below are 7 ergonomic keyboards we evaluated on tenting range, wrist support quality, build, and how honestly each one is marketed relative to what it actually does for forearm position, ranging from a $44.99 wired split board to a $229.95 wireless split keyboard built for business use.",
+  "Below are 7 ergonomic keyboards we evaluated on tenting range, wrist support quality, build, and how honestly each one is marketed relative to what it actually does for forearm position, ranging from an under-$45 wired split board to an under-$250 wireless split keyboard built for business use."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -179,7 +179,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed build materials, included rest quality, and tenting adjustability against price, from the wired split board to the premium wave keyboard.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -325,11 +325,11 @@ export const faq: FaqItem[] = [
   {
     q: "Is a wired or wireless ergonomic keyboard better?",
     a: "A wired board like the Perixx PERIBOARD-512B removes battery and pairing concerns entirely, which suits a desk that never moves. A wireless board like the Ergo K860 adds multi-device pairing flexibility if you switch between a laptop and desktop.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-ergonomic-keyboard-and-mouse-combos", title: "Best Ergonomic Keyboard and Mouse Combos (2026)" },
   { href: "/guide/best-split-ergonomic-keyboards", title: "Best Split Ergonomic Keyboards (2026)" },
-  { href: "/guide/best-small-keyboards", title: "Best Small Keyboards for Small Desks (2026)" },
+  { href: "/guide/best-small-keyboards", title: "Best Small Keyboards for Small Desks (2026)" }
 ];

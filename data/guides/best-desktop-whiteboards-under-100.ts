@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["The largest possible writing surface on a wall", "Magnetic Glass Whiteboard for Wall, 48\" x 32\""],
         ["A large freestanding board without wall mounting", "VIVO White Glass 23 x 19 in Tabletop Dry Erase Board"],
-        ["Certified low-VOC materials with desktop privacy", "ECR4Kids MessageStor Glass Dry-Erase Board with Storage Stand"],
+        ["Certified low-VOC materials with desktop privacy", "ECR4Kids MessageStor Glass Dry-Erase Board with Storage Stand"]
       ],
     },
   },
@@ -116,9 +116,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $54", "ZHIDIAN Adjustable Easel ($53.99)"],
-        ["$66-$70", "ECR4Kids ($66.47) or VIVO ($69.99)"],
-        ["Under $86", "48x32 Wall-Mounted Glass Whiteboard ($85.99)"],
+        ["Under $54", "ZHIDIAN Adjustable Easel (under $60)"],
+        ["$66-$70", "ECR4Kids (under $70) or VIVO (under $70)"],
+        ["Under $86", "48x32 Wall-Mounted Glass Whiteboard (under $90)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Wall-Mounted vs Freestanding Desktop",
     cards: [
       { label: "Wall-Mounted (48x32 pick)", text: "Maximum writing surface for a home office, requiring roughly 20 minutes of drilling and mounting, but permanently fixed once installed." },
-      { label: "Freestanding Desktop (VIVO, ECR4Kids, ZHIDIAN)", text: "No wall damage or drilling required, fully repositionable, at a somewhat smaller writing surface than the wall-mounted option." },
+      { label: "Freestanding Desktop (VIVO, ECR4Kids, ZHIDIAN)", text: "No wall damage or drilling required, fully repositionable, at a somewhat smaller writing surface than the wall-mounted option." }
     ],
     note: "If you have dedicated wall space near your desk and want maximum writing area, the wall-mounted pick delivers real value. If you rent, share a space, or want flexibility to move the board, a freestanding pick is the more practical choice.",
   },
@@ -136,7 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your priority", "Recommended pick"],
       rows: [
         ["Verified low-VOC certification", "ECR4Kids MessageStor (UL GREENGUARD Gold Certified)"],
-        ["Longest warranty coverage", "ZHIDIAN Magnetic Glass Whiteboard Desktop Easel (15-year warranty)"],
+        ["Longest warranty coverage", "ZHIDIAN Magnetic Glass Whiteboard Desktop Easel (15-year warranty)"]
       ],
     },
   },
@@ -144,16 +144,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Dedicated Home Office Wall Specifically",
     cards: [
       { label: "Look for", text: "A large-format wall-mounted glass whiteboard rather than a smaller desktop board, since a dedicated wall space can accommodate a genuinely large writing surface." },
-      { label: "In this comparison", text: "The 48\" x 32\" Magnetic Glass Whiteboard is specifically designed for wall installation and delivers the most writing space by a wide margin." },
+      { label: "In this comparison", text: "The 48\" x 32\" Magnetic Glass Whiteboard is specifically designed for wall installation and delivers the most writing space by a wide margin." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You have dedicated wall space and want the largest possible writing surface, where the 48x32 wall-mounted pick delivers significantly more room than any other pick in this comparison." },
-      { label: "Save if", text: "A stable adjustable stand and long warranty cover your needs without requiring maximum size, where the ZHIDIAN pick saves $12-32 versus the larger picks here." },
+      { label: "Save if", text: "A stable adjustable stand and long warranty cover your needs without requiring maximum size, where the ZHIDIAN pick saves $12-32 versus the larger picks here." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "inkjet printer for home use";
 export const introParagraphs = [
   "Inkjet covers a wider range of products than most guides admit, from basic cartridge printers under $70 to ink-tank supertanks built for households that print several hundred pages a month. We evaluated 8 inkjet printers across both categories, since the right one depends heavily on how often you print, not just the sticker price.",
-  "Below, standard cartridge inkjets are separated clearly from ink-tank models, since they have very different running costs and maintenance needs. We also cover the ink-drying prevention routine that most home inkjet owners never hear about until a cartridge already stops working.",
+  "Below, standard cartridge inkjets are separated clearly from ink-tank models, since they have very different running costs and maintenance needs. We also cover the ink-drying prevention routine that most home inkjet owners never hear about until a cartridge already stops working."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Wireless print, scan, copy",
       "3-month Instant Ink trial",
       "AI-capable setup features",
-      "Lowest price in this list",
+      "Lowest price in this list"
     ],
     pros: [
       "Lowest upfront cost in this list",
       "Instant Ink trial reduces early cartridge spend",
       "Compact wireless all-in-one",
-      "Simple setup",
+      "Simple setup"
     ],
     cons: [
       "Nozzles can dry out with infrequent use",
       "Higher long-term ink cost than an ink-tank printer at real volume",
-      "Basic feature set versus pricier all-in-ones",
+      "Basic feature set versus pricier all-in-ones"
     ],
     bestFor: "Light, occasional home printing on the smallest possible budget",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Duplex (double-sided) printing",
       "Copier/scanner built in",
       "1-year limited warranty",
-      "Easy setup",
+      "Easy setup"
     ],
     pros: [
       "Compact footprint fits small spaces",
       "Duplex printing saves paper",
       "1-year warranty included",
-      "Lowest price alongside the DeskJet 4355",
+      "Lowest price alongside the DeskJet 4355"
     ],
     cons: [
       "Best suited to lighter print volumes",
       "Standard cartridges, same idle-ink risk as other inkjets",
-      "Fewer connectivity options than pricier models",
+      "Fewer connectivity options than pricier models"
     ],
     bestFor: "Small spaces and light, occasional home printing needs",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Standard cartridge inkjet",
       "Duplex printing",
       "Compact design",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     pros: [
       "Clear OLED display simplifies multi-user households",
       "Duplex printing built in",
       "Compact footprint",
-      "Reasonable price for the added display",
+      "Reasonable price for the added display"
     ],
     cons: [
       "Standard cartridges, not an ink-tank system",
       "Best value at lower monthly print volumes",
-      "No fax feature",
+      "No fax feature"
     ],
     bestFor: "Households where multiple people share the printer and want a clear display",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Built-in fax",
       "Standard cartridge inkjet",
       "Mobile printing support",
-      "Wireless all-in-one",
+      "Wireless all-in-one"
     ],
     pros: [
       "Auto document feeder for multi-page scanning",
       "Built-in fax, useful for households that still need it",
       "Competitive budget price",
-      "Mobile printing support",
+      "Mobile printing support"
     ],
     cons: [
       "Fax is a feature most households won't use in 2026",
       "Same idle-ink drying risk as any cartridge inkjet",
-      "No ink-tank option for high-volume households",
+      "No ink-tank option for high-volume households"
     ],
     bestFor: "Households that occasionally scan or fax multi-page paperwork",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Wireless print, scan, copy",
       "Bottle refill system",
       "Black finish",
-      "Higher upfront cost, lower cost per page",
+      "Higher upfront cost, lower cost per page"
     ],
     pros: [
       "Meaningfully lower cost per page than any cartridge inkjet here",
       "No cartridges to buy or replace",
       "Full print, scan, copy functionality",
-      "Better fit for regular household printing",
+      "Better fit for regular household printing"
     ],
     cons: [
       "Higher upfront price than the cartridge picks",
       "Ink can still settle if idle 4+ weeks",
-      "Initial ink-charging setup step required",
+      "Initial ink-charging setup step required"
     ],
     bestFor: "Households printing more than occasionally who want lower per-page ink costs",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Wireless print, scan, copy",
       "Bottle refill system",
       "White finish",
-      "Same specs as the black ET-2800",
+      "Same specs as the black ET-2800"
     ],
     pros: [
       "Same low cost per page as the black ET-2800",
       "White finish for a different aesthetic",
       "No cartridges to buy or replace",
-      "Full print, scan, copy functionality",
+      "Full print, scan, copy functionality"
     ],
     cons: [
       "Higher upfront price than the cartridge picks",
       "Ink can still settle if idle 4+ weeks",
-      "Initial ink-charging setup step required",
+      "Initial ink-charging setup step required"
     ],
     bestFor: "Households that want the ET-2800's ink-tank economics in a white finish",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Wireless print, scan, copy",
       "Everyday home printing focus",
       "Bottle refill system",
-      "Slightly lower price than the ET-2800",
+      "Slightly lower price than the ET-2800"
     ],
     pros: [
       "Lower price than the ET-2800 ink-tank models",
       "No cartridges to buy or replace",
       "Good fit for everyday moderate printing",
-      "Avoids cartridge idle-ink risk",
+      "Avoids cartridge idle-ink risk"
     ],
     cons: [
       "Fewer features than the ET-2800",
       "Higher upfront cost than the budget cartridge picks",
-      "Ink can still need a nozzle check after long idle periods",
+      "Ink can still need a nozzle check after long idle periods"
     ],
     bestFor: "A lower-cost way into ink-tank printing for everyday home use",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "2 years of ink included",
       "Wireless (2.4GHz only)",
       "Print, scan, copy",
-      "Lowest price among the ink-tank picks",
+      "Lowest price among the ink-tank picks"
     ],
     pros: [
       "2 years of included ink, longest bundle in this list",
       "Lowest price among the ink-tank options",
       "Avoids cartridge idle-ink drying risk",
-      "Full print, scan, copy functionality",
+      "Full print, scan, copy functionality"
     ],
     cons: [
       "2.4GHz-only wireless, no 5GHz band",
       "Higher upfront cost than the cheapest cartridge picks",
-      "Ink can still need a nozzle check after long idle periods",
+      "Ink can still need a nozzle check after long idle periods"
     ],
     bestFor: "The lowest-cost genuine ink-tank printer with the most included ink upfront",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Paper and dry-time practicality",
     description: "Considered how paper choice and ink dry time affect real-world results, since inkjet output quality varies more with paper than most home printer buyers expect.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -466,11 +466,11 @@ export const faq: FaqItem[] = [
   {
     q: "Is an ink-tank printer worth the higher upfront price for home use?",
     a: "If your household prints more than roughly 20-30 pages a month, yes, the lower per-page ink cost on the Epson EcoTank or HP Smart Tank picks usually pays back the higher upfront price within a year or two. Below that volume, a cheaper cartridge inkjet like the DeskJet 4355 makes more sense.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-home-use", title: "Best Printers for Home Use (2026)" },
   { href: "/guide/best-color-laser-printers-for-home-offices", title: "Best Color Laser Printers for Home Offices (2026)" },
-  { href: "/guide/best-printers-for-small-spaces", title: "Best Printers for Small Spaces (2026)" },
+  { href: "/guide/best-printers-for-small-spaces", title: "Best Printers for Small Spaces (2026)" }
 ];

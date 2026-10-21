@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/412RNnKO5iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GPK1Y4N5?tag=deskfinds0d-20",
-    description: "This 18U soundproof cabinet uses a thermostat-controlled dual exhaust fan system to automatically regulate temperature, taking the guesswork out of manual fan speed adjustment.\n\nSealed foam cable entry points specifically target dust intake reduction alongside the noise dampening, a detail worth noting if your install location tends to be dusty.\n\nThe strongest case for this pick comes down to automatic thermostat control removes manual fan adjustment as well as sealed foam cable entry reduces dust intake too. The compromise here is that 18U size needs more floor space than smaller soundproof models, so factor that in alongside the $1,978.00 asking price.",
+    description: "This 18U soundproof cabinet uses a thermostat-controlled dual exhaust fan system to automatically regulate temperature, taking the guesswork out of manual fan speed adjustment.\n\nSealed foam cable entry points specifically target dust intake reduction alongside the noise dampening, a detail worth noting if your install location tends to be dusty.\n\nThe strongest case for this pick comes down to automatic thermostat control removes manual fan adjustment as well as sealed foam cable entry reduces dust intake too. The compromise here is that 18U size needs more floor space than smaller soundproof models, so factor that in alongside the under $2,000 asking price.",
     specs: ["18U","Up to 36% noise reduction claimed","Thermostat-controlled dual exhaust fans"],
     pros: ["Automatic thermostat control removes manual fan adjustment","Sealed foam cable entry reduces dust intake too","Locking glass door still allows easy visual monitoring"],
     cons: ["18U size needs more floor space than smaller soundproof models","Acoustic foam adds bulk versus a standard open cabinet"],
@@ -129,20 +129,20 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $1,129.90",
+          "Under $1,200",
           "Eaton Tripp Lite Rack Mount Air Conditioner Unit"
         ],
         [
-          "Around $1,339.97",
+          "Under $1,400",
           "42U Server Rack Cabinet"
         ],
         [
-          "Around $1,978.00",
+          "Under $2,000",
           "Soundproof Server Rack Cabinet"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -190,7 +190,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Eaton Tripp Lite Rack Mount Air Conditioner Unit is aimed at buyers prioritizing 8u rack-mount, 9,000 btu (2.7 kw)." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Eaton Tripp Lite Rack Mount Air Conditioner Unit is aimed at buyers prioritizing 8u rack-mount, 9,000 btu (2.7 kw)." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

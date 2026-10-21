@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $153.90",
+          "Under $160",
           "Genmitsu CNC 3018-PRO Router Kit"
         ],
         [
-          "Around $160.00",
+          "Under $170",
           "TTC3018 CNC Router Machine 3-Axis Engraving Machine Metal Engraver"
         ],
         [
-          "Around $242.10",
+          "Under $250",
           "SainSmart Genmitsu 3018-PROVer V2 CNC Router Machine for Beginners"
         ],
         [
-          "Around $269.00",
+          "Under $300",
           "Genmitsu 3018-PROVer V2 CNC Milling Machine for Beginners"
         ],
         [
-          "Around $341.05",
+          "Under $350",
           "WolfPawn CNC Router Machine 4040-PRO for Metal Acrylic Cutting Milling"
         ],
         [
-          "Around $399.20",
+          "Under $400",
           "Genmitsu Cubiko Desktop CNC Router Machine with Enclosure for Beginners"
         ],
         [
-          "Around $437.89",
+          "Under $450",
           "Genmitsu Cubiko Desktop CNC Router Machine with Enclosure for Beginners"
         ],
         [
-          "Around $549.00",
+          "Under $550",
           "FoxAlien Masuter Pro 3-Axis CNC Router Machine"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Genmitsu CNC 3018-PRO Router Kit is aimed at buyers prioritizing 300 x 180 x 45mm working area." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Genmitsu CNC 3018-PRO Router Kit is aimed at buyers prioritizing 300 x 180 x 45mm working area." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-entry-level-desktop-cnc-machines","title":"Best Entry Level Desktop CNC Machines in 2026"},{"href":"/guide/best-desktop-cnc-machines","title":"Best Desktop CNC Machines in 2026"},{"href":"/guide/best-desktop-cnc-mills","title":"Best Desktop CNC Mills in 2026"}];

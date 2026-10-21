@@ -12,7 +12,7 @@ export const streamingPcVsConsoleCaptureGuide: Guide = {
     "do i need a capture card for console streaming",
     "pc streaming performance impact",
     "console streaming setup requirements",
-    "capture card vs built in streaming",
+    "capture card vs built in streaming"
   ],
   heroImage: "https://images.unsplash.com/photo-1634041323797-b9fdef9d18f7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1634041323797-b9fdef9d18f7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const streamingPcVsConsoleCaptureGuide: Guide = {
     "audio-mixer-vs-audio-interface",
     "streaming-desk-layout-explained",
     "webcam-vs-dslr-for-streaming",
-    "kvm-switch-explained",
+    "kvm-switch-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const streamingPcVsConsoleCaptureGuide: Guide = {
       question: "Does a capture card need to match a specific resolution or frame rate?",
       answer:
         "Yes, check that your capture card supports the resolution and frame rate your console or PC actually outputs, an underspecified capture card can create a bottleneck, capping your stream quality below what your actual gaming setup produces.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const streamingPcVsConsoleCaptureGuide: Guide = {
     {
       heading: "Why Beginners Should Start Simpler Before Investing in Complex Setups",
       body: `A two-PC streaming setup or dedicated capture card investment represents real added cost and configuration complexity that makes the most sense once you have an established audience or specific production needs justifying it, a beginner just starting to stream is generally better served starting with either a console's native streaming feature or a single PC setup, then upgrading to more advanced equipment once you've confirmed streaming is a sustained activity worth the additional investment.`,
-    },
+    }
   ],
 };

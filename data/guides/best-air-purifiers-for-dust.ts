@@ -5,7 +5,7 @@ export const metaDescription = "5 air purifiers we evaluated for dust, with the 
 export const mainKeyword = "air purifier for dust";
 export const introParagraphs = [
   "Dust settles on surfaces faster than an air purifier can capture airborne particulate, meaning air purification meaningfully reduces airborne dust but doesn't replace regular surface cleaning or dusting, a scope expectation rarely set correctly.",
-  "Dust-heavy environments load HEPA and pre-filters faster than average use, shortening real filter replacement intervals below the manufacturer's standard estimate, a usage-intensity-adjusted maintenance schedule rarely provided.",
+  "Dust-heavy environments load HEPA and pre-filters faster than average use, shortening real filter replacement intervals below the manufacturer's standard estimate, a usage-intensity-adjusted maintenance schedule rarely provided."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Air Purifier for Dust Overall",
     name: "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom, H13 True HEPA Filter, 24db Filtration System Cleaner Odor Eliminators, Remove 99.97% Dust Smoke Mold Pollen, Core 300, White",
     price: "$89.99",
-    rating: "4.7 stars from 108,251 Amazon ratings",
-    reviews: "108,251 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Established Brand Dust Pick",
     name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
-    rating: "4.6 stars from 28,866 Amazon ratings",
-    reviews: "28,866 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419pAe7T0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTKAPUU?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best White Finish Alternative",
     name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH(W), White",
     price: "$229.99",
-    rating: "4.6 stars from 28,866 Amazon ratings",
-    reviews: "28,866 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31pCHKKqN2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01728NLRG?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Dust Pick",
     name: "Membrane Solutions MSA3 Air Purifier for Home",
     price: "$99.39",
-    rating: "4.5 stars from 10,110 Amazon ratings",
-    reviews: "10,110 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31CcBFzC6wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08ND7C7P4?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity Dust Pick",
     name: "LEVOIT Smart Air Purifier for Home Large Room up to 1875 ft Vital 200S-P",
     price: "$174.99",
-    rating: "4.7 stars from 14,571 Amazon ratings",
-    reviews: "14,571 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Large rated coverage for heavier dust environments", "Smart app control for monitoring", "Large, well-established review base", "Genuine headroom for older homes or outdoor dust sources"],
     cons: ["Higher price than compact alternatives", "Filter replacement schedule not adjusted for dust intensity specifically", "Larger footprint for a small room"],
     bestFor: "Buyers in dustier environments needing extra coverage headroom",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Airborne-vs-settled-dust scope clarification set correctly", description: "Explicitly clarified that air purification meaningfully reduces airborne dust but doesn't replace regular surface cleaning, since dust settles on surfaces faster than any purifier can capture it airborne." },
   { title: "Usage-intensity-adjusted filter replacement schedule", description: "Considered that dust-heavy environments load filters faster than average use, shortening real replacement intervals below the manufacturer's standard estimate." },
-  { title: "Source-intensity-adjusted sizing for construction and outdoor dust", description: "Distinguished routine household dust from construction/renovation-level dust and outdoor sources (agricultural, high-traffic roads), which require heavier-duty consideration than a standard household pick." },
+  { title: "Source-intensity-adjusted sizing for construction and outdoor dust", description: "Distinguished routine household dust from construction/renovation-level dust and outdoor sources (agricultural, high-traffic roads), which require heavier-duty consideration than a standard household pick." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Is a regular air purifier good enough for construction or renovation dust?", a: "Not necessarily. Construction dust is finer and more abrasive than routine household dust and can clog filters faster than a standard household pick is designed for, consider a heavier-duty option." },
   { q: "Why does my room seem dustier right after I turn on my air purifier?", a: "This is a normal, temporary effect. The purifier stirring room air can temporarily increase perceived airborne dust near the intake as settled dust gets re-suspended by the airflow before being captured, not a sign it isn't working." },
   { q: "How often do I need to replace a filter if dust is my main concern?", a: "More often than a typical household, since dust loads a filter faster than lighter airborne particles, check the specific manufacturer's filter-life estimate and watch for a visible gray buildup as an early replacement signal." },
-  { q: "Does a pre-filter help extend the main HEPA filter's life against dust?", a: "Yes, a washable or replaceable pre-filter captures larger dust particles before they reach the HEPA stage, meaningfully extending the more expensive main filter's usable life." },
+  { q: "Does a pre-filter help extend the main HEPA filter's life against dust?", a: "Yes, a washable or replaceable pre-filter captures larger dust particles before they reach the HEPA stage, meaningfully extending the more expensive main filter's usable life." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-air-purifiers-for-dust-and-pet-hair", title: "Best Air Purifiers for Dust and Pet Hair (2026)" },
   { href: "/guide/best-air-purifiers-for-allergies", title: "Best Air Purifiers for Allergies (2026)" },
-  { href: "/guide/best-hepa-air-purifiers", title: "Best HEPA Air Purifiers (2026)" },
+  { href: "/guide/best-hepa-air-purifiers", title: "Best HEPA Air Purifiers (2026)" }
 ];

@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Genuine duplex scanning in a portable body", "Canon imageFORMULA R10 Portable Document Scanner"],
         ["The lightest, fastest single-page scanner", "Epson Workforce ES-50 Compact Mobile Document Scanner"],
         ["The lowest price in this tier", "Brother DS-640 Compact Mobile Document Scanner"],
-        ["Wide paper size support with automatic feeding", "HP HPPS100 Mobile Document & Photo Scanner"],
+        ["Wide paper size support with automatic feeding", "HP HPPS100 Mobile Document & Photo Scanner"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $135", "Brother DS-640 ($134.99)"],
-        ["Under $150", "Epson ES-50 ($146.00) or HP HPPS100 ($139.99)"],
-        ["Under $200", "Canon imageFORMULA R10 ($183.90)"],
+        ["Under $135", "Brother DS-640 (under $140)"],
+        ["Under $150", "Epson ES-50 (under $150) or HP HPPS100 (under $140)"],
+        ["Under $200", "Canon imageFORMULA R10 (under $190)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Duplex vs Simplex Scanning",
     cards: [
       { label: "Duplex (Canon imageFORMULA R10)", text: "Captures both sides of a page in one pass, saving real time on two-sided documents, at a roughly $44-49 premium over the simplex picks." },
-      { label: "Simplex (Epson ES-50, Brother DS-640, HP HPPS100)", text: "Scans one side per pass, requiring a manual flip for two-sided pages, but costs less and in the Epson's case is faster per single page." },
+      { label: "Simplex (Epson ES-50, Brother DS-640, HP HPPS100)", text: "Scans one side per pass, requiring a manual flip for two-sided pages, but costs less and in the Epson's case is faster per single page." }
     ],
     note: "If you regularly scan two-sided paperwork, the Canon R10's duplex feeder pays for itself in saved time. If you mostly scan single-sided pages or receipts, a simplex pick saves money without a real workflow cost.",
   },
@@ -137,7 +137,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your scanning volume", "Recommended pick"],
       rows: [
         ["Occasional single pages", "Epson ES-50 or Brother DS-640"],
-        ["Small stacks needing automatic feeding", "HP HPPS100 or Canon imageFORMULA R10"],
+        ["Small stacks needing automatic feeding", "HP HPPS100 or Canon imageFORMULA R10"]
       ],
     },
   },
@@ -145,16 +145,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Scanning Long Receipts or Extended Pages Specifically",
     cards: [
       { label: "Look for", text: "A stated maximum page length well beyond standard letter size, since many scanners cap out around 14 inches." },
-      { label: "In this comparison", text: "The Epson ES-50 explicitly supports pages up to 72 inches long, far beyond any other pick here." },
+      { label: "In this comparison", text: "The Epson ES-50 explicitly supports pages up to 72 inches long, far beyond any other pick here." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You regularly handle two-sided documents, where the Canon imageFORMULA R10's genuine duplex feeder saves real manual re-scanning time." },
-      { label: "Save if", text: "You mostly scan single-sided pages occasionally, where the Brother DS-640 delivers solid performance at the lowest price in this comparison." },
+      { label: "Save if", text: "You mostly scan single-sided pages occasionally, where the Brother DS-640 delivers solid performance at the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

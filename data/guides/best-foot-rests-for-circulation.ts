@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41gwbOM2AyL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H55VPN5Y?tag=deskfinds0d-20",
-    "description": "RSN is a solid pine footrest with a 14.37 x 9.84 inch platform and three tilt positions of 12.5, 23 and 34.5 degrees. A soft EVA surface covers the stepping area and non-slip pads grip hardwood, tile and carpet. Switching angles during the day is the main way it helps you vary leg position.\n\nIt costs $29.99, about 40 cents less than Drounphi, and the same as Everlasting Comfort. Compared with Drounphi it gives you tilt rather than a wide height range, and it is rigid wood where Everlasting is cushioned foam.\n\nBest for people who want to alternate between a few set angles through the workday. The caveat is a narrow platform and a firm surface that is less forgiving than foam.",
+    "description": "RSN is a solid pine footrest with a 14.37 x 9.84 inch platform and three tilt positions of 12.5, 23 and 34.5 degrees. A soft EVA surface covers the stepping area and non-slip pads grip hardwood, tile and carpet. Switching angles during the day is the main way it helps you vary leg position.\n\nIt costs under $30, about 40 cents less than Drounphi, and the same as Everlasting Comfort. Compared with Drounphi it gives you tilt rather than a wide height range, and it is rigid wood where Everlasting is cushioned foam.\n\nBest for people who want to alternate between a few set angles through the workday. The caveat is a narrow platform and a firm surface that is less forgiving than foam.",
     "specs": [
       "Tilt at 12.5, 23, 34.5 degrees",
       "14.37 x 9.84 inch platform",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31ombA4SNgL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0F53DGSCP?tag=deskfinds0d-20",
-    "description": "Drounphi is built from 25D high-density foam with a short-pile cover and can be configured at 6.3 inches, 11.8 inches or 16 inches. Layers are joined by heavy-duty dual zippers rather than Velcro, and a double-layer non-slip bottom keeps it in place.\n\nIt costs $30.39, about 40 cents more than RSN, and offers a much wider height range that includes a full-height leg rest for couches. Versus HOMELYSTBO it is a soft stack instead of two wooden steps.\n\nBest for people who want one footrest for the desk and a taller leg rest for evenings. The caveat is that the tallest settings are too high for under a desk, and it arrives vacuum-sealed, so it needs 24 hours to expand.",
+    "description": "Drounphi is built from 25D high-density foam with a short-pile cover and can be configured at 6.3 inches, 11.8 inches or 16 inches. Layers are joined by heavy-duty dual zippers rather than Velcro, and a double-layer non-slip bottom keeps it in place.\n\nIt costs under $35, about 40 cents more than RSN, and offers a much wider height range that includes a full-height leg rest for couches. Versus HOMELYSTBO it is a soft stack instead of two wooden steps.\n\nBest for people who want one footrest for the desk and a taller leg rest for evenings. The caveat is that the tallest settings are too high for under a desk, and it arrives vacuum-sealed, so it needs 24 hours to expand.",
     "specs": [
       "6.3, 11.8 and 16 inch modes",
       "Dual zipper connection",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41-frbfptDL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H2FJ2FBG?tag=deskfinds0d-20",
-    "description": "HOMELYSTBO is a solid wood double-step footrest with a soft EVA surface and a stable base for wood, tile and carpet. The two steps let each foot rest at a different height, which gives you a simple way to alternate positions.\n\nAt $36.99 it costs about $6 more than Drounphi and $7 more than RSN. It offers steps instead of tilt, so it is less about rocking and more about shifting from one foot position to another.\n\nBest for sitters who like to alternate positions without adjusting anything. The caveat is that the highlights give no dimensions, and the step heights are fixed.",
+    "description": "HOMELYSTBO is a solid wood double-step footrest with a soft EVA surface and a stable base for wood, tile and carpet. The two steps let each foot rest at a different height, which gives you a simple way to alternate positions.\n\nAt under $40 it costs about $6 more than Drounphi and $7 more than RSN. It offers steps instead of tilt, so it is less about rocking and more about shifting from one foot position to another.\n\nBest for sitters who like to alternate positions without adjusting anything. The caveat is that the highlights give no dimensions, and the step heights are fixed.",
     "specs": [
       "Solid wood double step",
       "Soft EVA surface",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41+5zb1gO5L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GZY5X7RS?tag=deskfinds0d-20",
-    "description": "Everlasting Comfort uses high-density memory foam rated 50 on the Shore 00 scale and can be used flat or angled. It has a non-slip base and a light body that moves easily between desks.\n\nIt costs the same as RSN at $29.99 but gives a softer surface and no wood. Compared with Mind Reader it is cushioned and has no rollers or massage texture.\n\nBest for people who prefer a soft, light rest and like to change the angle by hand. The caveat is that foam can compress with use and the listing gives few height options.",
+    "description": "Everlasting Comfort uses high-density memory foam rated 50 on the Shore 00 scale and can be used flat or angled. It has a non-slip base and a light body that moves easily between desks.\n\nIt costs the same as RSN at under $30 but gives a softer surface and no wood. Compared with Mind Reader it is cushioned and has no rollers or massage texture.\n\nBest for people who prefer a soft, light rest and like to change the angle by hand. The caveat is that foam can compress with use and the listing gives few height options.",
     "specs": [
       "Shore 00 50 memory foam",
       "Flat or angled use",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41c5lYGzW8L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B01MSQDE0U?tag=deskfinds0d-20",
-    "description": "Mind Reader adjusts from 3.25 to 6.25 inches and has a massage-textured surface for grip. It measures 17 x 13 inches, weighs 5.5 lbs and is made of plastic, which keeps it light enough to carry between rooms.\n\nAt $26.99 it costs $3 less than Everlasting Comfort and offers a wider platform than RSN. Versus ZLMHYYM it has fewer height steps but a larger surface.\n\nBest for a simple, wide platform with some height choice. The caveat is plastic construction and no stated tilt options, so it does not encourage much movement.",
+    "description": "Mind Reader adjusts from 3.25 to 6.25 inches and has a massage-textured surface for grip. It measures 17 x 13 inches, weighs 5.5 lbs and is made of plastic, which keeps it light enough to carry between rooms.\n\nAt under $30 it costs $3 less than Everlasting Comfort and offers a wider platform than RSN. Versus ZLMHYYM it has fewer height steps but a larger surface.\n\nBest for a simple, wide platform with some height choice. The caveat is plastic construction and no stated tilt options, so it does not encourage much movement.",
     "specs": [
       "3.25 to 6.25 inch height",
       "17 x 13 inch platform",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41HbEhU0CWL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DPDLSC9H?tag=deskfinds0d-20",
-    "description": "ZLMHYYM offers six heights starting at 3.1 inches, with rows of massage particles and four small rollers on the panel. The ABS stool is detachable, which helps when you carry it.\n\nAt $19.99 it is the cheapest of the multi-height picks, $7 below Mind Reader. It has more height steps than Mind Reader but a plastic body and smaller rollers.\n\nBest for people who want to tune height cheaply and like some foot texture. The caveat is plastic construction and a surface that can feel busy under socks.",
+    "description": "ZLMHYYM offers six heights starting at 3.1 inches, with rows of massage particles and four small rollers on the panel. The ABS stool is detachable, which helps when you carry it.\n\nAt under $20 it is the cheapest of the multi-height picks, $7 below Mind Reader. It has more height steps than Mind Reader but a plastic body and smaller rollers.\n\nBest for people who want to tune height cheaply and like some foot texture. The caveat is plastic construction and a surface that can feel busy under socks.",
     "specs": [
       "Six heights from 3.1 inches",
       "Massage particles and rollers",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/312CHcb931L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DKSBB16N?tag=deskfinds0d-20",
-    "description": "VECELO is a PU and iron rolling footrest with a gas spring that adjusts height from 15 to 18.1 inches and 3.9 inch thick sponge padding. The wheels let you glide it around, and the listing says it can serve as a temporary seat.\n\nAt $69.99 it is the most expensive pick and a different kind of product from the stools above, since it is a rolling ottoman. Versus Drounphi it has a much higher minimum height, so it will not fit under most desks.\n\nBest for people who want a tall, mobile leg rest beside a desk or sofa. The caveat is that its 15 inch minimum is too high for under a standard desk, so it is not a conventional footrest.",
+    "description": "VECELO is a PU and iron rolling footrest with a gas spring that adjusts height from 15 to 18.1 inches and 3.9 inch thick sponge padding. The wheels let you glide it around, and the listing says it can serve as a temporary seat.\n\nAt under $70 it is the most expensive pick and a different kind of product from the stools above, since it is a rolling ottoman. Versus Drounphi it has a much higher minimum height, so it will not fit under most desks.\n\nBest for people who want a tall, mobile leg rest beside a desk or sofa. The caveat is that its 15 inch minimum is too high for under a standard desk, so it is not a conventional footrest.",
     "specs": [
       "Gas spring height, 15 to 18.1 inches",
       "Wheeled base",

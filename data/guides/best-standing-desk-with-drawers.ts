@@ -42,21 +42,20 @@ export const products: DrawerStandingDesk[] = [
     tradeoffs: [
       "28\" to 47.6\" height range limits users taller than 6'2\" - verify your ideal standing height before ordering",
       "Single motor - adequate for this desk's weight, but not as smooth as dual motor at maximum height",
-      "Drawer holds accessories well but is not deep enough for files or large items",
+      "Drawer holds accessories well but is not deep enough for files or large items"
     ],
     skipIf:
       "Skip if you are taller than 6'2\" and need 48\"+ standing height - consider a 3-stage frame instead. Skip if you need the dark walnut aesthetic - Pick 2 is the dark walnut Comhar variant.",
     pros: [
-      "2,600+ reviews - the most reliable quality signal available in this category",
       "Integrated drawer rises and falls with the desk surface - not a floor pedestal",
       "USB charging (2x USB-A + 1x USB-C) built into desk frame",
       "5-year warranty covers motor and frame",
-      "Anti-collision detection standard",
+      "Anti-collision detection standard"
     ],
     cons: [
       "47.6\" ceiling - limits users taller than 6'2\"",
       "Single motor at this weight",
-      "Drawer does not accommodate files or hanging folders - accessories only",
+      "Drawer does not accommodate files or hanging folders - accessories only"
     ],
   },
   {
@@ -70,24 +69,23 @@ export const products: DrawerStandingDesk[] = [
     imageUrl: `${BASE}/02-flexispot-comhar-walnut.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0FHH3T3BH?tag=deskfinds0d-20",
     whyItWorks:
-      "The dark walnut finish variant of the Comhar. Functionally identical to Pick 1 - same drawer design, same motor, same height range, same USB charging ports. The distinction is purely aesthetic: dark walnut surface on a black frame. The black frame conceals cable runs better than white. Dark walnut reads as more premium in a home office context, photographs better, and blends with most room colors. The 2,000+ reviews confirms this is not a new SKU without real-world data.",
+      "The dark walnut finish variant of the Comhar. Functionally identical to Pick 1 - same drawer design, same motor, same height range, same USB charging ports. The distinction is purely aesthetic: dark walnut surface on a black frame. The black frame conceals cable runs better than white. Dark walnut reads as more premium in a home office context, photographs better, and blends with most room colors.",
     tradeoffs: [
       "Walnut is a laminate print, not real wood veneer - if you want natural wood grain, see solid wood standing desk options",
       "Same height ceiling as Pick 1 - not ideal for users over 6'2\"",
-      "Slightly higher price than white variant in some listings",
+      "Slightly higher price than white variant in some listings"
     ],
     skipIf:
       "Skip if you prefer the white and maple aesthetic - Pick 1 is that variant. Skip if natural wood grain is important - walnut here is a laminate print, not a veneer or solid surface.",
     pros: [
       "Dark walnut finish reads as more premium in home office context",
       "Black frame conceals cable runs better than white",
-      "Same proven drawer and motor as Pick 1 - no quality tradeoff for the color choice",
-      "2,000+ reviews confirms well-tested SKU",
+      "Same proven drawer and motor as Pick 1 - no quality tradeoff for the color choice"
     ],
     cons: [
       "Walnut is a laminate print, not real wood",
       "Same single-motor limitation as Pick 1",
-      "Same 47.6\" height ceiling",
+      "Same 47.6\" height ceiling"
     ],
   },
   {
@@ -101,24 +99,21 @@ export const products: DrawerStandingDesk[] = [
     imageUrl: `${BASE}/03-comhoma-48x24.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0FQBR2D3M?tag=deskfinds0d-20",
     whyItWorks:
-      "COMHOMA hits the same 48x24\" footprint as the Comhar variants but typically comes in at a lower price point, making it the practical budget alternative when the FlexiSpot options exceed your budget. At 4.4 stars across 930+ reviews with 100+ bought per month, the quality signal is solid for the price tier. The anti-collision detection is included, which some cheaper standing desks omit. Price is typically $20 to $50 below the FlexiSpot Comhar for near-identical specs on paper.",
+      "COMHOMA hits the same 48x24\" footprint as the Comhar variants but typically comes in at a lower price point, making it the practical budget alternative when the FlexiSpot options exceed your budget. The anti-collision detection is included, which some cheaper standing desks omit. Price is typically $20 to $50 below the FlexiSpot Comhar for near-identical specs on paper.",
     tradeoffs: [
-      "COMHOMA brand is newer and has less long-term reliability data than FlexiSpot - 930 reviews vs 2,635 is a meaningful gap",
       "USB charging port availability varies by color and SKU - verify on the specific listing before ordering",
-      "Drawer internal dimensions are slightly shallower than Comhar",
+      "Drawer internal dimensions are slightly shallower than Comhar"
     ],
     skipIf:
       "Skip if brand reliability data over multiple years is a priority - FlexiSpot Comhar (Pick 1 or 2) is the established option. Skip if USB charging is a must - verify this SKU includes it before ordering.",
     pros: [
       "Price typically $20 to $50 below FlexiSpot Comhar for near-identical specs",
-      "930+ reviews at 4.4 stars - solid confirmation at sample size",
       "Anti-collision detection included",
-      "100+ bought per month indicates active sales",
+      "100+ bought per month indicates active sales"
     ],
     cons: [
-      "Less long-term reliability data than FlexiSpot - 930 vs 2,635 reviews is a meaningful gap",
       "USB charging varies by SKU - verify before ordering",
-      "Drawer slightly shallower than Comhar",
+      "Drawer slightly shallower than Comhar"
     ],
   },
   {
@@ -132,24 +127,23 @@ export const products: DrawerStandingDesk[] = [
     imageUrl: `${BASE}/04-gtplayer-white.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0G1LVMYLZ?tag=deskfinds0d-20",
     whyItWorks:
-      "GTPLAYER is best known for gaming chairs but this desk targets buyers who want a white aesthetic with bonus surface accessories. The distinguishing feature is a bundled monitor riser shelf and laptop stand in addition to the built-in drawer. If you need a monitor riser and laptop stand separately, the bundled package eliminates those purchases. At 4.5 stars, it holds the highest average rating on this list. However, the 47.2\" height ceiling is the lowest on the list - confirm it reaches your standing height before ordering.",
+      "GTPLAYER is best known for gaming chairs but this desk targets buyers who want a white aesthetic with bonus surface accessories. The distinguishing feature is a bundled monitor riser shelf and laptop stand in addition to the built-in drawer. If you need a monitor riser and laptop stand separately, the bundled package eliminates those purchases. However, the 47.2\" height ceiling is the lowest on the list - confirm it reaches your standing height before ordering.",
     tradeoffs: [
       "47.2\" height ceiling - lowest on this list. Confirm against your standing height requirement before purchasing",
       "Bundled monitor riser and laptop stand are redundant if you already have monitor arms",
-      "GTPLAYER primary category is gaming chairs - verify motor warranty terms against FlexiSpot",
+      "GTPLAYER primary category is gaming chairs - verify motor warranty terms against FlexiSpot"
     ],
     skipIf:
       "Skip if you already have monitor arms - the bundled riser and laptop stand become unused clutter. Skip if you are 5'11\"+ and need 47\"+ standing height - this 47.2\" ceiling is the tightest on the list.",
     pros: [
-      "4.5 stars - the highest average rating on this list",
       "Bundled monitor riser and laptop stand add real bundle value if you need them",
       "White finish is the cleanest option for all-white home office setups",
-      "Built-in drawer plus monitor accessories in one purchase",
+      "Built-in drawer plus monitor accessories in one purchase"
     ],
     cons: [
       "47.2\" ceiling - lowest on this list",
       "Bundled accessories are redundant if you use monitor arms",
-      "GTPLAYER desk warranty less established than FlexiSpot",
+      "GTPLAYER desk warranty less established than FlexiSpot"
     ],
   },
   {
@@ -167,7 +161,7 @@ export const products: DrawerStandingDesk[] = [
     tradeoffs: [
       "Large feature set means more components that can fail - LED, power strip, keyboard tray, and drawer are all independent mechanisms",
       "47.2\" height ceiling - same limitation as GTPLAYER. Confirm against your standing height before ordering",
-      "LED strip is not removable if you don't want under-desk lighting",
+      "LED strip is not removable if you don't want under-desk lighting"
     ],
     skipIf:
       "Skip if you already handle cable management and power routing separately - paying for integrated features you don't use. Skip if you are 5'11\"+ and need above 47\" standing height - the 47.2\" ceiling may be too low.",
@@ -175,13 +169,12 @@ export const products: DrawerStandingDesk[] = [
       "55\" width is 7\" wider than 48\" picks - handles dual-monitor setups without requiring careful arm positioning",
       "Keyboard tray separate from drawer - tray slides back when not needed",
       "Integrated power strip eliminates a separate cable block on the surface",
-      "4.6 stars - highest rated pick on this list",
-      "265 lb rated capacity gives more headroom for heavy setups",
+      "265 lb rated capacity gives more headroom for heavy setups"
     ],
     cons: [
       "More components that can fail - LED, power strip, keyboard tray, drawer",
       "47.2\" height ceiling matches GTPLAYER",
-      "LED strip cannot be removed if you prefer clean under-desk look",
+      "LED strip cannot be removed if you prefer clean under-desk look"
     ],
   },
   {
@@ -195,22 +188,18 @@ export const products: DrawerStandingDesk[] = [
     imageUrl: `${BASE}/06-ergear-48x24.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0F28Q3FZJ?tag=deskfinds0d-20",
     whyItWorks:
-      "ErGear applies their core desk frame - the same motor platform used in the No.1 Best Seller in Home Office Desks - to a drawered configuration. At 4.6 stars with around 580 reviews, the quality signal is strong for the price tier. The 28.3\" to 47.6\" range matches FlexiSpot Comhar and is better than the 47.2\" ceiling of GTPLAYER and AODK. ErGear focuses entirely on desks, unlike GTPLAYER (chairs) - more relevant R and D focus on motor and frame design.",
+      "ErGear applies their core desk frame - the same motor platform used in the No.1 Best Seller in Home Office Desks - to a drawered configuration. The 28.3\" to 47.6\" range matches FlexiSpot Comhar and is better than the 47.2\" ceiling of GTPLAYER and AODK. ErGear focuses entirely on desks, unlike GTPLAYER (chairs) - more relevant R and D focus on motor and frame design.",
     tradeoffs: [
-      "580 reviews - smaller sample than FlexiSpot Comhar's 2,600+, less long-term motor durability data",
       "Feature set is the most basic on the list - drawer only, USB charging not confirmed in all variants",
-      "Newer drawered configuration compared to the standard ErGear model",
+      "Newer drawered configuration compared to the standard ErGear model"
     ],
     skipIf:
-      "Skip if maximum sample size and review data is your priority - the FlexiSpot Comhar (Pick 1) has 2,600+ reviews. Skip if USB charging is important - verify this SKU includes it before ordering.",
+      "Skip if USB charging is important - verify this SKU includes it before ordering.",
     pros: [
-      "4.6 stars at this price tier is above average for a drawered standing desk",
       "28.3\" to 47.6\" range - better than GTPLAYER or AODK's 47.2\" ceiling",
-      "ErGear brand focuses entirely on desks - more relevant R and D than gaming chair brands",
-    ],
+      "ErGear brand focuses entirely on desks - more relevant R and D than gaming chair brands", "Includes a built-in drawer"],
     cons: [
-      "580 reviews - smallest sample on the list for a non-L-shaped desk",
-      "Most basic feature set - drawer only, no USB charging confirmed in all variants",
+      "Most basic feature set - drawer only, no USB charging confirmed in all variants"
     ],
   },
   {
@@ -228,21 +217,19 @@ export const products: DrawerStandingDesk[] = [
     tradeoffs: [
       "L-shaped footprint requires a corner space - confirm you have adequate corner dimensions before ordering",
       "Verify motor type (single vs dual) on current listing - L-shaped desks carry more total surface weight",
-      "Fewer reviews than FlexiSpot options - verify return policy before ordering",
+      "Fewer reviews than FlexiSpot options - verify return policy before ordering"
     ],
     skipIf:
       "Skip if you don't have a corner space - all other picks on this list are straight desks that fit against a single wall. Skip if you want the most review data - FlexiSpot Comhar (Picks 1 and 2) have significantly more reviews.",
     pros: [
-      "Only L-shaped pick with a built-in drawer - the combination is rare and this listing has 450+ reviews confirming the product ships as described",
       "500+ bought past month - strong purchase-velocity signal for an L-shaped standing desk",
-      "63\" main surface handles ultrawide plus second monitor, or dual standard monitors",
-    ],
+      "63\" main surface handles ultrawide plus second monitor, or dual standard monitors", "Only L-shaped option with a built-in drawer"],
     cons: [
       "Requires corner space - not for single-wall rooms",
       "Fewer reviews than FlexiSpot options",
-      "Verify motor type and height range on current listing",
+      "Verify motor type and height range on current listing"
     ],
-  },
+  }
 ];
 
 export interface AtAGlanceRow {
@@ -283,12 +270,12 @@ export const faq: { q: string; a: string }[] = [
   {
     q: "What is the difference between a standing desk with a drawer and a standing desk with a mobile pedestal?",
     a: "A built-in drawer is mounted to the desk frame and rises with the surface when you stand. A mobile pedestal is a separate cabinet placed under the desk that stays on the floor regardless of desk height. When you raise the desk, a pedestal stays behind - it may be in an awkward position relative to the now-elevated surface. Built-in drawers are more convenient for daily use; mobile pedestals offer more storage capacity but require positioning after every height change.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-flexispot-standing-desk", title: "Best FlexiSpot Standing Desks in 2026" },
   { href: "/guide/best-electric-standing-desk", title: "Best Electric Standing Desks in 2026" },
   { href: "/guide/best-wooden-desk-with-drawers", title: "Best Wooden Desks with Drawers in 2026" },
-  { href: "/guide/best-solid-wood-standing-desk", title: "Best Solid Wood Standing Desks in 2026" },
+  { href: "/guide/best-solid-wood-standing-desk", title: "Best Solid Wood Standing Desks in 2026" }
 ];

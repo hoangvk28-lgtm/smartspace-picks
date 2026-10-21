@@ -12,7 +12,7 @@ export const ethernetVsWifiForDeskSetupGuide: Guide = {
     "wired vs wireless internet desk",
     "ethernet cable worth it home office",
     "wifi reliability for video calls",
-    "ethernet for gaming and work",
+    "ethernet for gaming and work"
   ],
   heroImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const ethernetVsWifiForDeskSetupGuide: Guide = {
     "wifi-6-vs-wifi-5-explained",
     "mesh-wifi-vs-single-router",
     "usb-c-docking-station-ports-chart",
-    "latency-explained",
+    "latency-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const ethernetVsWifiForDeskSetupGuide: Guide = {
       question: "Does ethernet cable quality matter for speed?",
       answer:
         "Yes, older or lower-category ethernet cables can bottleneck speed below what your internet plan and router are actually capable of, a modern Cat 6 cable is a safe standard choice for most home office needs without overpaying for cable specs you won't use.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const ethernetVsWifiForDeskSetupGuide: Guide = {
     {
       heading: "Deciding If Running a Cable Is Worth the Effort",
       body: `If your desk is conveniently close to your router already receiving strong WiFi signal, the reliability benefit of running an ethernet cable may not justify the effort for casual use. If your desk is in a separate room, especially one with known WiFi weak spots, or your work regularly depends on stable, low-latency connections, video calls, competitive gaming, large file uploads, the one-time effort of running a cable pays off in meaningfully more consistent daily performance than continuing to rely on WiFi alone.`,
-    },
+    }
   ],
 };

@@ -5,7 +5,7 @@ export const metaDescription = "8 monitors under $300 compared by resolution, re
 export const mainKeyword = "monitors under 300";
 export const introParagraphs = [
   "Once you cross from under-$100 territory into the $150 to $300 range, the whole product category changes: 1080p gives way to QHD (1440p) as the baseline, refresh rates climb from 75Hz to as high as 300Hz, and USB-C and 4K both become realistic options instead of a stretch.",
-  "We compared this range on resolution, refresh rate, and real-world adjustability (height, tilt, swivel) rather than ranking by brand name or price alone, since those three specs are what actually separates a genuinely better monitor from one that just costs more.",
+  "We compared this range on resolution, refresh rate, and real-world adjustability (height, tilt, swivel) rather than ranking by brand name or price alone, since those three specs are what actually separates a genuinely better monitor from one that just costs more."
 ];
 export const lastUpdated = "2026-10-20";
 export const readTime = "11 min";
@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41+tO6rTBBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GD1LMWH3?tag=deskfinds0d-20",
-    description: "The cheapest genuine QHD panel in this comparison, at $169.99 for 2560x1440 with a 144Hz refresh rate and a 1500:1 contrast ratio, noticeably deeper than the 1000:1 standard on budget IPS panels. Dell backs this with 4-star TUV certification for blue-light reduction, a step up from the basic flicker-free claims most budget monitors make.\n\nCompared to the ASUS above, this gives up 36Hz of refresh rate and the ELMB Sync blur reduction, but in exchange costs about $28 less and includes the same dual 3W speaker setup. For anyone not specifically chasing competitive-gaming refresh rates, that's a reasonable trade.\n\nThis is best for buyers prioritizing QHD resolution on the tightest budget in this range. Skip it if you specifically want the fastest possible refresh rate, since the ASUS and LG picks both go meaningfully higher.",
+    description: "The cheapest genuine QHD panel in this comparison, at under $170 for 2560x1440 with a 144Hz refresh rate and a 1500:1 contrast ratio, noticeably deeper than the 1000:1 standard on budget IPS panels. Dell backs this with 4-star TUV certification for blue-light reduction, a step up from the basic flicker-free claims most budget monitors make.\n\nCompared to the ASUS above, this gives up 36Hz of refresh rate and the ELMB Sync blur reduction, but in exchange costs about $28 less and includes the same dual 3W speaker setup. For anyone not specifically chasing competitive-gaming refresh rates, that's a reasonable trade.\n\nThis is best for buyers prioritizing QHD resolution on the tightest budget in this range. Skip it if you specifically want the fastest possible refresh rate, since the ASUS and LG picks both go meaningfully higher.",
     specs: ["27\" QHD IPS, 144Hz, 1ms MPRT", "1500:1 contrast, 4-star TUV eye comfort", "Dual 3W speakers, AMD FreeSync"],
     pros: ["Cheapest real QHD panel in this comparison", "1500:1 contrast is deeper than typical budget IPS", "4-star TUV certification for blue-light reduction", "Full height/tilt/pivot/swivel adjustability"],
     cons: ["144Hz is the lowest refresh rate of the QHD gaming picks here", "No USB-C, HDMI and DisplayPort only"],
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "The fastest panel in this comparison at 300Hz, more than double the 144Hz baseline most QHD monitors in this price bracket top out at, paired with VESA DisplayHDR 400 certification and 95% DCI-P3 color coverage for noticeably richer HDR highlights than the non-certified picks here.\n\nIt's also the only monitor in this lineup with both USB-C (15W power delivery) and dual HDMI 2.1 ports, letting a laptop charge over the same cable carrying video, something the Dell and Samsung picks can't do. That connectivity and the 300Hz ceiling are also why it sits at the top of this guide's price range.\n\nThis is best for buyers who specifically want the highest refresh rate available at QHD and some USB-C convenience. If 300Hz doesn't matter for your use case, the ASUS pick above delivers 180Hz, which is still well above standard, for about $100 less.",
     specs: ["27\" QHD IPS, 300Hz, 1ms", "VESA DisplayHDR 400, 95% DCI-P3", "USB-C 15W PD, dual HDMI 2.1, DisplayPort 1.4"],
     pros: ["300Hz is the highest refresh rate in this comparison", "USB-C with 15W power delivery, unique among these picks", "95% DCI-P3 for richer HDR color than competitors", "Dual HDMI 2.1 plus DisplayPort for multiple sources"],
-    cons: ["Highest price in this lineup at $299.99", "300Hz benefit is marginal without a GPU that can drive it"],
+    cons: ["Highest price in this lineup at under $300", "300Hz benefit is marginal without a GPU that can drive it"],
     bestFor: "buyers who specifically want the highest refresh rate this price range offers",
   },
   {
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41TiUqJTsmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F72ZCGWB?tag=deskfinds0d-20",
-    description: "A straightforward 27-inch QHD panel without a gaming-focused refresh rate, running 75Hz instead of the 144Hz-plus of the other picks here, which keeps the price down to $162.95 for buyers who don't need the extra speed. ASUS backs it with a 3-year warranty including advanced replacement, a longer term than typical for this price tier.\n\nFor document-heavy or design work, 99% sRGB color accuracy and a frameless edge-to-edge design matter more than refresh rate, and this panel delivers both while still undercutting every other QHD pick in this guide on price.\n\nThis is best for buyers who want QHD sharpness for productivity or content work and have no real gaming use case, since the 75Hz refresh rate is the clear tradeoff against the gaming-oriented picks above.",
+    description: "A straightforward 27-inch QHD panel without a gaming-focused refresh rate, running 75Hz instead of the 144Hz-plus of the other picks here, which keeps the price down to under $170 for buyers who don't need the extra speed. ASUS backs it with a 3-year warranty including advanced replacement, a longer term than typical for this price tier.\n\nFor document-heavy or design work, 99% sRGB color accuracy and a frameless edge-to-edge design matter more than refresh rate, and this panel delivers both while still undercutting every other QHD pick in this guide on price.\n\nThis is best for buyers who want QHD sharpness for productivity or content work and have no real gaming use case, since the 75Hz refresh rate is the clear tradeoff against the gaming-oriented picks above.",
     specs: ["27\" QHD IPS, 75Hz, 1ms", "99% sRGB, frameless VESA design", "HDMI, DisplayPort, VGA, built-in speakers"],
     pros: ["Lowest price of any QHD pick in this guide", "99% sRGB suits design and photo work", "3-year warranty with advanced replacement", "VGA port included for older equipment"],
     cons: ["75Hz is well below the gaming-oriented picks in this guide", "No USB-C or HDR support"],
@@ -144,7 +144,7 @@ export const products: GuideProduct[] = [
     pros: ["Only true 4K panel in this comparison", "4-year advance replacement warranty, longest in this guide", "USB-C hub functionality doubles as a laptop dock", "MultiView supports two input sources at once"],
     cons: ["No high-refresh-rate option, standard 60Hz only", "4K needs a capable GPU to drive smoothly"],
     bestFor: "buyers who want 4K sharpness and USB-C docking over gaming speed",
-  },
+  }
 ];
 
 export interface BuyingCriterion {
@@ -172,7 +172,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   {
     criterion: "Color accuracy and HDR certification",
     explanation: "Listed color gamut figures (99% sRGB, 130% sRGB, 95% DCI-P3) and HDR certifications (HDR10, VESA DisplayHDR 400) vary meaningfully across this price range, and a higher percentage isn't automatically better for every use: 130% sRGB oversaturates colors relative to the 100% sRGB standard most web and photo content is built for, while 99% sRGB tracks that standard closely. VESA DisplayHDR 400 is a certified, tested standard, while uncertified \"HDR10 support\" just means the panel accepts an HDR signal without guaranteeing the brightness or contrast to render it well. Check for the specific certification name, not just the word \"HDR,\" if HDR quality matters for your use case.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -185,7 +185,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Refresh rate and sync technology", description: "Checked the stated refresh rate alongside FreeSync, G-Sync compatibility, and blur-reduction features like ELMB Sync." },
   { title: "Port and charging capability", description: "Verified USB-C power delivery wattage, HDMI version, and DisplayPort availability against what each panel actually ships with." },
   { title: "Adjustability and build", description: "Checked height, tilt, swivel, and pivot adjustability, plus VESA mount compatibility, against the listed stand specifications." },
-  { title: "Verified listing data only", description: "Used only prices, specs, and features as printed in each current listing, no invented ratings or review counts." },
+  { title: "Verified listing data only", description: "Used only prices, specs, and features as printed in each current listing, no invented ratings or review counts." }
 ];
 
 export interface HowToChooseSection {
@@ -206,7 +206,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Best overall gaming value", "ASUS TUF VG27AQ3A (180Hz)"],
         ["Document and design work, not gaming", "ASUS VA27AQ (99% sRGB, 75Hz)"],
         ["Sharpest text and 4K detail", "Philips 27E1N5900R (4K)"],
-        ["Maximum screen size", "Samsung Odyssey G5 32\" or LG 32G600A-B curved"],
+        ["Maximum screen size", "Samsung Odyssey G5 32\" or LG 32G600A-B curved"]
       ],
     },
   },
@@ -218,7 +218,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Around $163-$170", "ASUS VA27AQ or Dell S2725DSM"],
         ["Around $197-$229", "ASUS TUF VG27AQ3A, Samsung Odyssey G5, or Philips 27E1N5900R"],
         ["Around $230-$250", "LG 32G600A-B curved or Dell S2725DC (USB-C)"],
-        ["Up to $300", "LG 27G640A-B (300Hz, USB-C, DisplayHDR 400)"],
+        ["Up to $300", "LG 27G640A-B (300Hz, USB-C, DisplayHDR 400)"]
       ],
     },
   },
@@ -226,7 +226,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "QHD vs 4K",
     cards: [
       { label: "QHD (2560x1440)", text: "Easier on your GPU, available at every price point in this guide, and the standard choice for gaming at high refresh rates. The ASUS TUF VG27AQ3A and Dell S2725DSM both deliver this at the lower end of the range." },
-      { label: "4K (3840x2160)", text: "Sharper text and finer detail, but needs a more capable GPU to run smoothly and tops out at 60Hz in this price range. The Philips 27E1N5900R is the only 4K option here." },
+      { label: "4K (3840x2160)", text: "Sharper text and finer detail, but needs a more capable GPU to run smoothly and tops out at 60Hz in this price range. The Philips 27E1N5900R is the only 4K option here." }
     ],
     note: "Default to QHD unless sharp text and 4K detail specifically matter more to you than gaming refresh rate.",
   },
@@ -234,7 +234,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Flat vs Curved at 32 Inches",
     cards: [
       { label: "Samsung Odyssey G5 (flat)", text: "Same 32-inch QHD size and 180Hz refresh rate as the LG curved option, without the curve's potential distortion on flat content like spreadsheets or code." },
-      { label: "LG 32G600A-B (curved, 1000R)", text: "Adds gaming and video immersion with a tighter curve than typical budget curved monitors, at a similar price to the flat Samsung alternative." },
+      { label: "LG 32G600A-B (curved, 1000R)", text: "Adds gaming and video immersion with a tighter curve than typical budget curved monitors, at a similar price to the flat Samsung alternative." }
     ],
     note: "Choose curved if gaming and video are your primary use, flat if you spend significant time on spreadsheets, code, or design work.",
   },
@@ -242,16 +242,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Laptop Docking Setup Specifically",
     cards: [
       { label: "Look for", text: "USB-C with at least 65W power delivery, confirmed against your specific laptop's actual charging wattage requirement, not just the monitor's advertised maximum." },
-      { label: "In this comparison", text: "The Dell S2725DC and LG 27G640A-B both offer USB-C power delivery; the Philips 27E1N5900R adds a full USB 3.2 hub on top of charging for connecting peripherals through the monitor." },
+      { label: "In this comparison", text: "The Dell S2725DC and LG 27G640A-B both offer USB-C power delivery; the Philips 27E1N5900R adds a full USB 3.2 hub on top of charging for connecting peripherals through the monitor." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You specifically want 300Hz refresh rate, DisplayHDR 400 certification, and USB-C in one panel, which only the LG 27G640A-B at $299.99 delivers together." },
-      { label: "Save if", text: "QHD at 144Hz-180Hz already covers your gaming needs, since the ASUS TUF VG27AQ3A and Dell S2725DSM deliver most of the same real-world experience for $100+ less." },
+      { label: "Spend more if", text: "You specifically want 300Hz refresh rate, DisplayHDR 400 certification, and USB-C in one panel, which only the LG 27G640A-B at under $300 delivers together." },
+      { label: "Save if", text: "QHD at 144Hz-180Hz already covers your gaming needs, since the ASUS TUF VG27AQ3A and Dell S2725DSM deliver most of the same real-world experience for $100+ less." }
     ],
-  },
+  }
 ];
 
 export interface FaqItem {
@@ -283,12 +283,12 @@ export const faq: FaqItem[] = [
   {
     q: "Do these monitors need a monitor arm, or is the included stand good enough?",
     a: "Every pick in this guide ships with height, tilt, swivel, and pivot adjustability built into the stand, which is a step up from the tilt-only stands common on monitors under $100. A separate monitor arm is still worth considering if you want to free up desk space underneath the monitor or need a mount height outside the stand's adjustment range.",
-  },
+  }
 ];
 
 export const relatedGuides = [
   { href: "/guide/best-monitor-under-100", title: "Best Monitors Under $100" },
   { href: "/guide/best-27-inch-4k-monitors", title: "Best 27-Inch 4K Monitors" },
   { href: "/guide/best-usb-c-monitors", title: "Best USB-C Monitors" },
-  { href: "/guide/best-144hz-4k-monitors", title: "Best 144Hz 4K Monitors" },
+  { href: "/guide/best-144hz-4k-monitors", title: "Best 144Hz 4K Monitors" }
 ];

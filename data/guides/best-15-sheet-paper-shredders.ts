@@ -5,7 +5,7 @@ export const metaDescription = "8 shredders rated for 15 sheets, where auto-feed
 export const mainKeyword = "15-sheet paper shredder";
 export const introParagraphs = [
   "15-sheet capacity is where auto-feed hoppers start appearing more often, but marketing leans harder into 'walk away and shred' framing without the underlying duty-cycle and mixed-paper limitations actually going away. Higher capacity doesn't solve the reliability caveats that apply at every tier below it.",
-  "This tier is also where daily volume ratings start diverging more noticeably between similarly-labeled '15-sheet' shredders, some rated for 60 sheets/day, others for 300+, a distinction rarely surfaced by capacity-based comparisons alone.",
+  "This tier is also where daily volume ratings start diverging more noticeably between similarly-labeled '15-sheet' shredders, some rated for 60 sheets/day, others for 300+, a distinction rarely surfaced by capacity-based comparisons alone."
 ];
 export const lastUpdated = "2026-07-28";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall 15-Sheet Pick",
     name: "Bonsaii 15-Sheet Cross Cut Paper Shredder for Home Office Heavy Duty",
     price: "$79.99",
-    rating: "4.5 stars from 1,517 Amazon ratings",
-    reviews: "1,517 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31sWapqhQCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJR7KXJX?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Widest Paper Entry, Massive Review Base",
     name: "Amazon Basics 15-Sheet Cross Cut Paper Shredder for Home and Office",
     price: "$108.00",
-    rating: "4.3 stars from 77,112 Amazon ratings",
-    reviews: "77,112 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31AP7IG-MYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08NY9W23W?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Auto-Feed at This Tier",
     name: "Bonsaii 100-Sheet Auto Feed Micro-Cut Paper Shredder Heavy Duty",
     price: "$126.99",
-    rating: "4.3 stars from 1,629 Amazon ratings",
-    reviews: "1,629 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31VvTJMBXPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DG2MGVMV?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Good Value Near This Tier",
     name: "Bonsaii 12-Sheet Cross Cut Heavy Duty Paper Shredder for Home Office",
     price: "$79.99",
-    rating: "4.5 stars from 1,685 Amazon ratings",
-    reviews: "1,685 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/310qS+3q87L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5XPJ524?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Most Proven Track Record Near This Tier",
     name: "Aurora AU1210MA Professional Grade High Security 12-Sheet Micro-Cut Shredder",
     price: "$135.78",
-    rating: "4.7 stars from 9,126 Amazon ratings",
-    reviews: "9,126 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/413GY12YKjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CX4DZ4Z?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Higher Capacity Reference",
     name: "Bonsaii 18-Sheet Cross-Cut 60-Min Run Heavy Duty Paper Shredder",
     price: "$179.99",
-    rating: "4.6 stars from 10,748 Amazon ratings",
-    reviews: "10,748 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41FCXr1akDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00IOFD08C?tag=deskfinds0d-20",
     description:
@@ -127,8 +127,8 @@ export const products: GuideProduct[] = [
     badge: "Close Match Just Under Target",
     name: "BONSEN 14-Sheet Cross Cut Heavy Duty Paper Shredder for Home Office",
     price: "$84.99",
-    rating: "4.1 stars from 1,061 Amazon ratings",
-    reviews: "1,061 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LSE9gHSWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DTKBX3D9?tag=deskfinds0d-20",
     description:
@@ -144,8 +144,8 @@ export const products: GuideProduct[] = [
     badge: "Auto-Feed for Bulk Sessions Instead",
     name: "Bonsaii 120-Sheet Autofeed Micro-Cut 30-Min Run Heavy Duty Paper Shredder",
     price: "$179.99",
-    rating: "4.3 stars from 1,048 Amazon ratings",
-    reviews: "1,048 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31lBbbWrCsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSJ3K6T3?tag=deskfinds0d-20",
     description:
@@ -154,14 +154,14 @@ export const products: GuideProduct[] = [
     pros: ["Largest auto-feed hopper in this comparison set", "Separate manual slot for cards/staples", "Bin proportional to hopper output", "Mobile on casters"],
     cons: ["Same auto-feed duty-cycle and mixed-paper caveats as lower tiers apply here", "Highest price tier alongside the rank-6 pick", "Not a direct manual 15-sheet comparison"],
     bestFor: "Buyers who want hands-free bulk capacity rather than a strict manual 15-sheet-per-pass shredder",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Auto-feed's appearance at this tier doesn't remove lower-tier caveats", description: "Noted that auto-feed hoppers starting to appear around this capacity tier still carry the same duty-cycle and mixed-paper limitations seen at every level below, higher capacity doesn't solve those underlying constraints." },
   { title: "Daily volume divergence between similarly-labeled models", description: "Flagged that '15-sheet' shredders can differ significantly in daily volume rating between models, a distinction not visible from the per-pass sheet-count spec alone." },
-  { title: "Genuine capacity substantiation versus marketing language", description: "Prioritized picks that back up their capacity claim with specific run-time or blade-material disclosure (like the rank-1 pick's alloy cutters and 2x-typical run time) over generic marketing." },
+  { title: "Genuine capacity substantiation versus marketing language", description: "Prioritized picks that back up their capacity claim with specific run-time or blade-material disclosure (like the rank-1 pick's alloy cutters and 2x-typical run time) over generic marketing." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -294,11 +294,11 @@ export const faq: FaqItem[] = [
   { q: "Should I buy a true 15-sheet shredder or a close 12-14 sheet alternative?", a: "Compare price and run time directly. Several 12-14 sheet-rated picks in this guide offer similar or better continuous run time at a comparable or lower price than the true 15-sheet options." },
   { q: "Which 15-sheet pick has the most substantiated capacity claim?", a: "The Bonsaii 15-sheet pick (rank 1) explicitly discloses durable alloy cutters and a run time twice as long as typical home shredders, more specific engineering detail than most competing listings provide." },
   { q: "Is 15-sheet capacity enough for a small home office?", a: "For most individual or small-team paperwork, yes, 15 sheets per pass handles routine document disposal well, reserve a higher-capacity model only if you regularly shred in large batches." },
-  { q: "Does a 15-sheet shredder need a cooldown period between uses?", a: "Many do, check the specific listed continuous run time and required cooldown, since repeatedly feeding paper past that limit can trigger an automatic thermal shutoff on most models." },
+  { q: "Does a 15-sheet shredder need a cooldown period between uses?", a: "Many do, check the specific listed continuous run time and required cooldown, since repeatedly feeding paper past that limit can trigger an automatic thermal shutoff on most models." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-10-sheet-paper-shredders", title: "Best 10-Sheet Paper Shredders (2026)" },
   { href: "/guide/best-20-sheet-paper-shredders", title: "Best 20-Sheet Paper Shredders (2026)" },
-  { href: "/guide/best-auto-feed-paper-shredders", title: "Best Auto-Feed Paper Shredders (2026)" },
+  { href: "/guide/best-auto-feed-paper-shredders", title: "Best Auto-Feed Paper Shredders (2026)" }
 ];

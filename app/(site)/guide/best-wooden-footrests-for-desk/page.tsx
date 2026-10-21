@@ -138,7 +138,7 @@ export default async function BestWoodenFootrestsForDeskPage() {
     about: [
       { "@type": "Thing", name: "Wooden Footrest" },
       { "@type": "Thing", name: "Ergonomics" },
-      { "@type": "Thing", name: "Natural Materials" },
+      { "@type": "Thing", name: "Natural Materials" }
     ],
   };
 
@@ -148,7 +148,7 @@ export default async function BestWoodenFootrestsForDeskPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Wooden Footrests for Desk", item: `${SITE_URL}/guide/best-wooden-footrests-for-desk` },
+      { "@type": "ListItem", position: 3, name: "Best Wooden Footrests for Desk", item: `${SITE_URL}/guide/best-wooden-footrests-for-desk` }
     ],
   };
 
@@ -295,7 +295,7 @@ export default async function BestWoodenFootrestsForDeskPage() {
               <p className="text-sm text-ink-secondary">
                 <strong className="text-ink">best wood pick:</strong>{" "}
                 <a href="#strongtek-cherry" className="font-bold text-ink hover:text-brand transition-colors">StrongTek Ergonomic Wood Foot Rest</a>
-                 - 3,135 reviews at 4.7 stars, cherry wood rocker, highest-rated wood footrest.
+                 - Cherry wood rocker, highest-rated wood footrest.
               </p>
             </div>
             <p className="text-sm text-ink-secondary pl-5">See the full rankings above for all eight picks with pros, cons, and best-for summaries.</p>

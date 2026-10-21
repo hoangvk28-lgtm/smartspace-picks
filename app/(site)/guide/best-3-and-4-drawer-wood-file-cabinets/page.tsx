@@ -173,7 +173,7 @@ export default async function Best3And4DrawerWoodFileCabinetsPage() {
     about: [
       { "@type": "Thing", name: "4-Drawer File Cabinet" },
       { "@type": "Thing", name: "3-Drawer File Cabinet" },
-      { "@type": "Thing", name: "Home Office Storage" },
+      { "@type": "Thing", name: "Home Office Storage" }
     ],
   };
 
@@ -193,7 +193,7 @@ export default async function Best3And4DrawerWoodFileCabinetsPage() {
         position: 3,
         name: "Best 3 and 4-Drawer Wood File Cabinets",
         item: `${SITE_URL}/guide/best-3-and-4-drawer-wood-file-cabinets`,
-      },
+      }
     ],
   };
 
@@ -586,7 +586,7 @@ export default async function Best3And4DrawerWoodFileCabinetsPage() {
                       height: "50 to 54 inches",
                       bestFor: "High-volume filing, wall placement, long-term document storage",
                       mobility: "Stationary - not intended to move once placed",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.format}</td>
@@ -624,7 +624,7 @@ export default async function Best3And4DrawerWoodFileCabinetsPage() {
                       drawers: "4-Drawer Vertical",
                       capacity: "200 to 400 hanging folders",
                       notes: "All 4 drawers typically accept hanging files; letter or legal size depends on model",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.drawers}</td>
@@ -678,7 +678,7 @@ export default async function Best3And4DrawerWoodFileCabinetsPage() {
                 context: "Best overall by trust signal",
                 id: "devaise-3-drawer-mobile-rustic-brown",
                 name: "DEVAISE 3-Drawer Mobile, Rustic Brown",
-                verdict: " - 2,800 plus reviews at 4.1 stars, rolling casters, open shelves, printer stand top, under $100.",
+                verdict: " - Rolling casters, open shelves, printer stand top, under $100.",
               },
               {
                 context: "Best 3-drawer farmhouse style",
@@ -690,8 +690,8 @@ export default async function Best3And4DrawerWoodFileCabinetsPage() {
                 context: "Best 4-drawer vertical by reviews",
                 id: "sauder-clifford-4-drawer-grand-walnut",
                 name: "Sauder Clifford Place 4-Drawer, Grand Walnut",
-                verdict: " - 465 reviews at 4.0 stars, maximum filing capacity, traditional home office aesthetic. $303.99 is a premium but justified by brand and review count.",
-              },
+                verdict: " - Maximum filing capacity, traditional home office aesthetic. under $350 is a premium but justified by brand and review count.",
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

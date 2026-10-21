@@ -5,7 +5,7 @@ export const metaDescription = "5 desk privacy panels we evaluated for sound abs
 export const mainKeyword = "sound absorbing desk privacy panel";
 export const introParagraphs = [
   "Felt and acoustic foam desk panels absorb some reflected sound within your immediate area, reducing echo and softening nearby noise, but they don't block sound transmission the way a genuinely soundproof partition does, don't expect a desk panel to stop a neighboring conversation from being audible.",
-  "None of the desk-scale panels in this guide carry a tested NRC (Noise Reduction Coefficient) or STC (Sound Transmission Class) rating, these are genuine acoustic engineering metrics mostly reserved for architectural products, treat 'sound absorbing' and 'noise reducing' marketing claims at this scale as modest, not dramatic.",
+  "None of the desk-scale panels in this guide carry a tested NRC (Noise Reduction Coefficient) or STC (Sound Transmission Class) rating, these are genuine acoustic engineering metrics mostly reserved for architectural products, treat 'sound absorbing' and 'noise reducing' marketing claims at this scale as modest, not dramatic."
 ];
 export const lastUpdated = "2026-07-30";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Felt Sound-Absorbing Pick",
     name: "Poola Voidra Foldable Felt Desk Privacy Panel 16 x 48 Inches, Acoustic Partition, Noise Reducing Desk Divider, Privacy Table Screen with 4 Bases & 8 Mini Crown Clips for Open Workspace Office Home",
     price: "$32.99",
-    rating: "5.0 stars from 2 Amazon ratings",
-    reviews: "2 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51TKKfxMxNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTQM26FB?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Larger Felt Board Pick",
     name: "Dunzoom Large Desk Dividers for Students Acoustic Portable Fold Classroom Table Privacy Felt Boards for Workstation Office Home Furniture Partition Dividers(Retro,47.3 x 15.7 Inch)",
     price: "$43.99",
-    rating: "4.9 stars from 10 Amazon ratings",
-    reviews: "10 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41KEH+uK0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GL8CKJMS?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Multi-Desk Sound-Absorbing Set",
     name: "Eorbow 6 Pack Acoustic Desk Privacy Panel, 24\" x 16\" Freestanding Desk Dividers, Noise Reducing Table Partition with Support Feet, Stand Up Sound Proof Pad for Office Classroom Home",
     price: "$28.37",
-    rating: "3.6 stars from 7 Amazon ratings",
-    reviews: "7 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51bb1Hf-33L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8B7N5K6?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Named Sound-Absorbing Pick",
     name: "KERRAM Desk Privacy Panel Sound Absorbing & Proof Desk Divider for Office",
     price: "$66.49",
-    rating: "4.3 stars from 37 Amazon ratings",
-    reviews: "37 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/3191Pvq11bL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FYPJNB82?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Movable Sound-Softening Pick",
     name: "DECOLAB Desk Divider, Movable Desk Partition 48\"x18\", Midnight",
     price: "$75.99",
-    rating: "4.5 stars from 58 Amazon ratings",
-    reviews: "58 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41mXUjTJozL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DDK7VFNV?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Movable design, easy to reposition between desk configurations", "Solid, well-established review base", "Dark finish option", "Reasonable mid-size coverage"],
     cons: ["Absorption is local, not a substitute for genuine soundproofing", "No tested acoustic rating", "Higher price than the budget felt options"],
     bestFor: "Buyers who want a movable sound-softening panel they can reposition as needed",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Absorption vs. transmission blocking, an honest distinction", description: "Flagged every pick's marketing language against what felt and acoustic foam materials can actually do, absorb some reflected sound locally, not block sound transmission the way a genuine soundproof partition does." },
   { title: "No tested acoustic ratings at this product scale", description: "Noted that none of the desk-scale panels in this guide carry a tested NRC or STC rating, these metrics are mostly reserved for architectural acoustic products, so 'sound absorbing' claims here should be read as modest, not dramatic." },
-  { title: "Surface area and material as the real drivers of local absorption", description: "Weighed felt/foam surface area and material quality as the actual determinants of modest local sound softening, rather than taking 'acoustic' or 'sound proof' marketing labels at face value." },
+  { title: "Surface area and material as the real drivers of local absorption", description: "Weighed felt/foam surface area and material quality as the actual determinants of modest local sound softening, rather than taking 'acoustic' or 'sound proof' marketing labels at face value." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -228,11 +228,11 @@ export const faq: FaqItem[] = [
   { q: "Is felt or foam better for sound absorption on a desk panel?", a: "Both provide modest absorption of reflected sound. Felt panels in this guide (like the Poola Voidra and Dunzoom picks) tend to double as a softer aesthetic material, while foam-based panels may absorb marginally more, but the difference at this scale is modest either way." },
   { q: "What should I buy if I need to actually block sound between spaces?", a: "A desk-scale privacy panel isn't the right product for genuine sound blocking. Look at architectural-scale acoustic room dividers instead, which are designed and sometimes rated for actual sound transmission reduction." },
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers who want modest sound softening alongside visual desk privacy" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers outfitting multiple desks who want budget-friendly sound-absorbing material at each At $28.37, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers outfitting multiple desks who want budget-friendly sound-absorbing material at each At under $30, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-foldable-desk-privacy-panels", title: "Best Foldable Desk Privacy Panels (2026)" },
   { href: "/guide/best-acoustic-room-dividers-on-wheels", title: "Best Acoustic Room Dividers on Wheels (2026)" },
-  { href: "/guide/best-portable-acoustic-room-dividers", title: "Best Portable Acoustic Room Dividers (2026)" },
+  { href: "/guide/best-portable-acoustic-room-dividers", title: "Best Portable Acoustic Room Dividers (2026)" }
 ];

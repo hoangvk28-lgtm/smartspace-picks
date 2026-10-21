@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini pc with dedicated graphics";
 export const introParagraphs = [
   "Every modern mini PC has some graphics processor, the meaningful distinction buyers actually need is between integrated graphics sharing system memory and a genuine discrete mobile GPU with its own dedicated VRAM, worth verifying which category a specific listing actually falls into.",
-  "A discrete mobile GPU's power limit (TGP) and VRAM configuration matter more than the GPU model name alone, the same GPU name can perform meaningfully differently depending on how much power a specific mini PC chassis allows it to draw.",
+  "A discrete mobile GPU's power limit (TGP) and VRAM configuration matter more than the GPU model name alone, the same GPU name can perform meaningfully differently depending on how much power a specific mini PC chassis allows it to draw."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Mini PC with Strong Integrated Graphics Overall",
     name: "GEEKOM [2026 Edition Multitasking Mini PC A7 MAX with AMD Ryzen 9 7940HS",
     price: "$649.00",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "632 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41HfTCupHML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2C2CDR4?tag=deskfinds0d-20",
     description: "A genuinely strong integrated Radeon 780M graphics tier paired with the Ryzen 9 7940HS, appropriate for buyers wanting the strongest integrated-graphics performance before stepping up to a discrete GPU.\n\nIt earns the top spot in this comparison over GEEKOM A9 Max High AI Productivity Mini PC for one main reason. Genuinely strong integrated graphics tier, among the best available without a discrete GPU. On price, it comes in below GEEKOM A9 Max High AI Productivity Mini PC, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Recent 2026 edition hardware for current-generation capability. On the other side, Not suited for buyers specifically wanting discrete GPU performance. That's the main tradeoff to weigh against everything above.",
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Pick with High-End Integrated Graphics",
     name: "GEEKOM A9 Max High AI Productivity Mini PC,AMD Ryzen AI 9 HX 370(80 Tops)",
     price: "$1,299.00",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "397 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41OccK3d-wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLF2KYKN?tag=deskfinds0d-20",
     description: "A top-tier integrated Radeon 890M graphics tier alongside the Ryzen AI 9 HX 370, appropriate for buyers wanting the most capable integrated graphics available in this guide.\n\nOne spot below GEEKOM [2026 Edition Multitasking Mini PC A7 MAX with AMD Ryzen 9 7940HS in this ranking, it costs more than GEEKOM [2026 Edition Multitasking Mini PC A7 MAX with AMD Ryzen 9 7940HS. The compromise here is straightforward: Highest price in this guide. What you gain in return: Top-tier integrated graphics, the most capable in this guide. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: High AI processing capability alongside graphics performance. On the other side, AI processing capability is unnecessary expense if you only need graphics. That's the main tradeoff to weigh against everything above.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best Pick for Buyers Considering an eGPU Path",
     name: "GMKtec AI Mini PC Ultra 9 285H (Turbo 5.4GHz) 32GB DDR5 1TB PCIe 4.0 SSD",
     price: "$1,299.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "910 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41HU4lDWnjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H6988Y89?tag=deskfinds0d-20",
     description: "A powerful Intel Ultra 9 285H processor with 32GB DDR5 RAM, appropriate for buyers whose actual dedicated graphics need is better served by pairing this with an external GPU enclosure rather than a built-in discrete mobile GPU.\n\nSitting just under GEEKOM A9 Max High AI Productivity Mini PC, it costs more than GEEKOM A9 Max High AI Productivity Mini PC. Here's the honest tradeoff: No built-in discrete GPU, requires a separate eGPU enclosure for dedicated graphics. And here's what it gets you instead: Powerful processor well-suited to pairing with an external GPU. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: 32GB DDR5 RAM for strong overall system performance. On the other side, Verify external GPU port availability on this specific chassis. That's the main tradeoff to weigh against everything above.",
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Strong-Integrated-Graphics Pick",
     name: "BOSGAME P6 Ryzen 9 6900HX Mini PC, 24GB RAM 4800MT/s 1TB PCIe4.0 SSD",
     price: "$539.99",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "199 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51wdKUl+ERL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPC1J2L3?tag=deskfinds0d-20",
     description: "A Ryzen 9 6900HX with a solid integrated Radeon 680M graphics tier at a more accessible price than the premium picks in this guide.\n\nRanked just behind GMKtec AI Mini PC Ultra 9 285H, it's priced lower than GMKtec AI Mini PC Ultra 9 285H. The real tradeoff against that pick: Integrated graphics, not a genuine discrete GPU with dedicated VRAM. In exchange, it offers this instead: Solid integrated graphics tier at a more accessible price. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: 24GB fast RAM for strong overall performance. On the other side, Not suited for buyers specifically wanting discrete GPU performance. That's the main tradeoff to weigh against everything above.",
@@ -90,7 +90,7 @@ export const products: GuideProduct[] = [
     badge: "Best Barebone Pick for Strong Integrated Graphics",
     name: "AOOSTAR MACO AMD Ryzen 9 8945HS Mini PC (8C/16T, up to 5.2GHz), Radeon 780M, Barebone",
     price: "$399.00",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31Y4EihkDZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G6JJL7HZ?tag=deskfinds0d-20",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Integrated versus genuine discrete GPU distinguished explicitly", description: "Distinguished integrated graphics sharing system memory from a genuine discrete mobile GPU with dedicated VRAM, since every modern mini PC has some graphics processor." },
   { title: "TGP and VRAM configuration weighted over GPU model name alone", description: "Weighted power limit (TGP) and VRAM configuration more heavily than the GPU model name, since identical GPU names can perform very differently depending on chassis power allowance." },
   { title: "eGPU pairing potential considered for buyers without a built-in discrete GPU", description: "Considered whether a powerful processor genuinely pairs well with an external GPU enclosure for buyers whose dedicated graphics need is better served that way." },
-  { title: "Barebone versus configured system cost differentiated", description: "Differentiated barebone kits requiring separate RAM/SSD purchase from fully configured systems when comparing total cost." },
+  { title: "Barebone versus configured system cost differentiated", description: "Differentiated barebone kits requiring separate RAM/SSD purchase from fully configured systems when comparing total cost." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -244,11 +244,11 @@ export const faq: FaqItem[] = [
   { q: "Can I add a discrete GPU to a mini PC without one built in?", a: "Some mini PCs support external GPU enclosures via OCuLink or Thunderbolt, though this adds significant additional cost." },
   { q: "Is a barebone mini PC cheaper for strong graphics?", a: "The base price is lower, but factor in the cost of RAM and SSD you'll need to add separately for a true total cost comparison." },
   { q: "Does a dedicated-graphics mini PC need extra cooling compared to a standard mini PC?", a: "Yes, generally, a discrete GPU adds real thermal load beyond integrated graphics, check the specific listing's stated cooling design rather than assuming any compact chassis handles the extra heat equally well." },
-  { q: "Can a mini PC with dedicated graphics run at full performance on battery or does it need constant power?", a: "Mini PCs are desktop devices with no battery, they require continuous AC power, this is a different consideration than a gaming laptop with a dedicated GPU." },
+  { q: "Can a mini PC with dedicated graphics run at full performance on battery or does it need constant power?", a: "Mini PCs are desktop devices with no battery, they require continuous AC power, this is a different consideration than a gaming laptop with a dedicated GPU." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pcs-with-external-gpu-support", title: "Best Mini PCs with External GPU Support (2026)" },
   { href: "/guide/best-mini-pcs-for-gaming", title: "Best Mini PCs for Gaming (2026)" },
-  { href: "/guide/best-high-performance-mini-pcs", title: "Best High-Performance Mini PCs (2026)" },
+  { href: "/guide/best-high-performance-mini-pcs", title: "Best High-Performance Mini PCs (2026)" }
 ];

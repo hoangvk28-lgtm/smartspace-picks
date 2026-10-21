@@ -47,7 +47,7 @@ export const products: SolidWoodStandingDesk[] = [
     tradeoffs: [
       "71\" width requires significant room space",
       "Rubberwood is softer than acacia or maple - will show surface dents under heavy impact",
-      "Assembly involves more steps than flat-pack desks - plan 60-90 minutes",
+      "Assembly involves more steps than flat-pack desks - plan 60-90 minutes"
     ],
     skipIf:
       "Skip if you need a compact footprint - the FlexiSpot 55x28\" bamboo (Rank 2) or 48x24\" E6 MAX (Rank 4) are the compact options. Skip if you specifically want acacia grain - the E6 MAX Woodix (Rank 3) has the dramatic acacia surface.",
@@ -56,12 +56,12 @@ export const products: SolidWoodStandingDesk[] = [
       "3-stage frame covers all user heights including 6'2\"+",
       "Dual motor handles wood top weight plus equipment load",
       "71x30\" gives full workstation surface coverage",
-      "FlexiSpot brand with established track record and warranty support",
+      "FlexiSpot brand with established track record and warranty support"
     ],
     cons: [
       "71\" width requires significant room space",
       "Rubberwood is softer than acacia - surface will show dents under heavy impact",
-      "Assembly is 60-90 minutes",
+      "Assembly is 60-90 minutes"
     ],
   },
   {
@@ -81,7 +81,7 @@ export const products: SolidWoodStandingDesk[] = [
     tradeoffs: [
       "Bamboo is not technically wood - it is botanically a grass, though it performs like hardwood",
       "55x28\" limits dual-monitor setups",
-      "Check motor stage type (2-stage vs 3-stage) for this specific model",
+      "Check motor stage type (2-stage vs 3-stage) for this specific model"
     ],
     skipIf:
       "Skip if botanical accuracy matters - bamboo is technically a grass, not wood. The E6 with rubberwood (Rank 1) is the solid wood alternative. Skip if you need more than 55\" of width.",
@@ -90,12 +90,12 @@ export const products: SolidWoodStandingDesk[] = [
       "One-piece bamboo surface with no strip joints",
       "Bamboo is harder than rubberwood and more moisture-resistant",
       "FlexiSpot brand reliability",
-      "Sustainable material - 3-5 year harvest cycle vs slow-growth hardwoods",
+      "Sustainable material - 3-5 year harvest cycle vs slow-growth hardwoods"
     ],
     cons: [
       "Bamboo is not technically wood (botanically a grass)",
       "55x28\" limits dual-monitor setups",
-      "Verify motor stage type before purchasing",
+      "Verify motor stage type before purchasing"
     ],
   },
   {
@@ -115,7 +115,7 @@ export const products: SolidWoodStandingDesk[] = [
     tradeoffs: [
       "Premium price point - highest FlexiSpot option on this list",
       "Acacia grain variation means your desk will look different from product photos",
-      "Newer listing - verify current review count",
+      "Newer listing - verify current review count"
     ],
     skipIf:
       "Skip if budget is a constraint - the E6 rubberwood (Rank 1) delivers 3-stage dual-motor at a lower price. Skip if you want a uniform surface appearance - acacia grain is dramatic and varies per slab.",
@@ -123,12 +123,12 @@ export const products: SolidWoodStandingDesk[] = [
       "Solid acacia top - 1,750 lbf Janka, the hardest on this list",
       "E6 MAX frame with 355 lb capacity handles heavy acacia with room for equipment",
       "3-stage legs - stable at maximum height",
-      "Acacia grain is visually dramatic - every desktop is unique",
+      "Acacia grain is visually dramatic - every desktop is unique"
     ],
     cons: [
       "Premium price - highest FlexiSpot option",
       "Acacia grain varies - your desk looks different from product photos",
-      "Newer listing - verify review count",
+      "Newer listing - verify review count"
     ],
   },
   {
@@ -148,19 +148,19 @@ export const products: SolidWoodStandingDesk[] = [
     tradeoffs: [
       "48x24\" limits dual-monitor setups (possible with monitor arms)",
       "Lower review count than flagship E6 models - newer listing",
-      "Verify exact desktop material (bamboo vs solid wood) in current listing",
+      "Verify exact desktop material (bamboo vs solid wood) in current listing"
     ],
     skipIf:
       "Skip if you need more than 48\" of width - the E6 rubberwood (Rank 1) at 71\" is the full-size option. Skip if you want to confirm solid wood vs bamboo - check the current listing variant before purchasing.",
     pros: [
       "Compact 48x24\" in a 3-stage dual-motor frame",
       "E6 MAX 355 lb capacity on a ~25 lb top gives significant motor headroom for long life",
-      "Fits rooms too small for 71-72\" desks",
+      "Fits rooms too small for 71-72\" desks"
     ],
     cons: [
       "48x24\" limits dual-monitor setups without monitor arms",
       "Lower review count - newer listing",
-      "Verify desktop material (bamboo vs solid wood) in current listing",
+      "Verify desktop material (bamboo vs solid wood) in current listing"
     ],
   },
   {
@@ -180,19 +180,19 @@ export const products: SolidWoodStandingDesk[] = [
     tradeoffs: [
       "Verify motor type (single vs dual) - important for solid wood top weight",
       "Verify 2-stage vs 3-stage for your target standing height",
-      "Fewer desktop size options than FlexiSpot lineup",
+      "Fewer desktop size options than FlexiSpot lineup"
     ],
     skipIf:
       "Skip if you specifically need 3-stage dual motor for tall users or heavy tops - verify the frame spec before purchasing. The FlexiSpot E6 has more documented specifications.",
     pros: [
       "Dedicated standing desk brand - product focus is height-adjustable desks",
       "Solid wood top confirmed in listing",
-      "Established product with review history",
+      "Established product with review history"
     ],
     cons: [
       "Verify motor type (single vs dual)",
       "Verify 2-stage vs 3-stage for your height requirements",
-      "Fewer size options than FlexiSpot",
+      "Fewer size options than FlexiSpot"
     ],
   },
   {
@@ -212,19 +212,19 @@ export const products: SolidWoodStandingDesk[] = [
     tradeoffs: [
       "Premium price for full electric L-shaped",
       "L-shaped footprint requires significant floor clearance on two walls",
-      "Verify motor specs for your height requirements",
+      "Verify motor specs for your height requirements"
     ],
     skipIf:
       "Skip if you don't need an L-shaped configuration - a straight solid wood standing desk at lower cost is more practical. Skip if you need only occasional standing - a fixed L-desk with a solid wood top is significantly cheaper.",
     pros: [
       "Solid wood main surface - only L-shaped standing desk on this list with genuine hardwood top",
       "Full electric - entire L raises and lowers together",
-      "61\" primary surface for dual-monitor or ultrawide",
+      "61\" primary surface for dual-monitor or ultrawide"
     ],
     cons: [
       "Premium price",
       "L-shaped footprint requires significant floor clearance",
-      "Verify motor specs for your height requirements",
+      "Verify motor specs for your height requirements"
     ],
   },
   {
@@ -244,19 +244,19 @@ export const products: SolidWoodStandingDesk[] = [
     tradeoffs: [
       "Walnut is softer than acacia - surface will show scratches over time",
       "Premium price",
-      "L-footprint requires careful room planning",
+      "L-footprint requires careful room planning"
     ],
     skipIf:
       "Skip if hardness is the priority - acacia (Rank 3) at 1,750 lbf Janka is significantly harder than walnut. Skip if you don't need an L-shaped configuration.",
     pros: [
       "Solid walnut top - the most visually premium hardwood on this list",
       "63\" primary surface covers all dual-monitor and ultrawide configurations",
-      "Walnut's dark rich grain communicates desk quality visually",
+      "Walnut's dark rich grain communicates desk quality visually"
     ],
     cons: [
       "Walnut is softer than acacia - scratches over time",
       "Premium price",
-      "L-footprint requires significant room space",
+      "L-footprint requires significant room space"
     ],
   },
   {
@@ -276,19 +276,19 @@ export const products: SolidWoodStandingDesk[] = [
     tradeoffs: [
       "Lower Amazon review count than FlexiSpot - Desky is stronger outside Amazon",
       "Premium price point",
-      "Verify specific wood species and dimensions in current listing",
+      "Verify specific wood species and dimensions in current listing"
     ],
     skipIf:
       "Skip if Amazon review count is a key purchase signal - FlexiSpot has significantly more verified Amazon reviews. Skip if you need specific size options - FlexiSpot offers more size variants.",
     pros: [
       "Desky brand known for frame stability in premium standing desk category",
       "Hardwood desktop - genuine solid wood",
-      "Dual motor frame appropriate for hardwood top weight",
+      "Dual motor frame appropriate for hardwood top weight"
     ],
     cons: [
       "Lower Amazon review count than FlexiSpot",
       "Premium price",
-      "Verify wood species and dimensions in current listing",
+      "Verify wood species and dimensions in current listing"
     ],
   },
   {
@@ -309,7 +309,7 @@ export const products: SolidWoodStandingDesk[] = [
       "Most expensive option on this list",
       "Live edge adds weight - verify frame capacity vs actual slab weight before purchasing",
       "Live edge may have irregular dimensions - verify exact fit to your frame",
-      "Very niche listing - lower review history",
+      "Very niche listing - lower review history"
     ],
     skipIf:
       "Skip if budget is a constraint - this is the premium tier option. Skip if you need documented motor specs - verify frame capacity against the live edge slab weight before purchasing.",
@@ -317,15 +317,15 @@ export const products: SolidWoodStandingDesk[] = [
       "100% solid walnut - live edge, natural grain preserved",
       "No two desks are identical - genuine one-of-a-kind piece",
       "Premium furniture aesthetic in a functional standing desk",
-      "South American walnut has distinctive dark figured grain",
+      "South American walnut has distinctive dark figured grain"
     ],
     cons: [
       "Most expensive option on this list",
       "Live edge adds weight - verify frame capacity",
       "Irregular dimensions may need verification",
-      "Lower review history",
+      "Lower review history"
     ],
-  },
+  }
 ];
 
 export interface AtAGlanceRow {
@@ -368,7 +368,7 @@ export const faq: { q: string; a: string }[] = [
   {
     q: "How long should I stand at my standing desk each day?",
     a: "Research consistently suggests alternating 30 minutes standing per hour of sitting, rather than standing all day. Continuous standing creates its own strain. A standing desk is most valuable when you switch positions regularly, not when you convert to full-time standing.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
@@ -387,5 +387,5 @@ export const relatedGuides: { href: string; title: string }[] = [
   {
     href: "/guide/best-wood-executive-desk",
     title: "Best Wood Executive Desks in 2026",
-  },
+  }
 ];

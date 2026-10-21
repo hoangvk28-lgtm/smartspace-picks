@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $359.00",
+          "Under $400",
           "PECRON F1000LFP Power Station"
         ],
         [
-          "Around $399.00",
+          "Under $400",
           "PECRON E1000LFP Portable Power Station"
         ],
         [
-          "Around $899.00",
+          "Under $900",
           "PECRON F3000LFP Portable Power Station"
         ],
         [
-          "Around $999.00",
+          "Under $1,000",
           "PECRON E3600LFP Portable Power Station"
         ],
         [
-          "Around $1,299.00",
+          "Under $1,300",
           "PECRON E3800LFP Portable Power Station"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "LiFePO4 (LFP) cells are generally considered more thermally stable than standard lithium-ion or lithium-polymer cells, with a lower risk of thermal runaway, and most current portable power stations have shifted to LFP for this reason. Still, verify UL or UL2743 safety certification directly rather than assuming chemistry alone guarantees safety."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "PECRON F1000LFP Power Station is aimed at buyers prioritizing 960wh, 1500w ac, 23.9 lbs." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "PECRON F1000LFP Power Station is aimed at buyers prioritizing 960wh, 1500w ac, 23.9 lbs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

@@ -193,36 +193,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $127.99",
+          "Under $130",
           "2-Drawer File Cabinet"
         ],
         [
-          "Around $143.99",
+          "Under $150",
           "43\" Wood File Cabinet with Power Outlet"
         ],
         [
-          "Around $149.99",
+          "Under $150",
           "DecoFurn Lateral File Cabinet with 2 Drawers"
         ],
         [
-          "Around $149.99",
+          "Under $150",
           "SEDETA Fluted 2 Drawer Filing Cabinet with 2 Sliding Doors for Home Office"
         ],
         [
-          "Around $174.99",
+          "Under $180",
           "Lateral File Cabinet with Charging Station"
         ],
         [
-          "Around $174.99",
+          "Under $180",
           "Lateral File Cabinet with Charging Station"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "Perledesign 3 Drawer File Cabinet"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -270,7 +270,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Perledesign 3 Drawer File Cabinet is aimed at buyers prioritizing 3 drawers, dedicated pull-out printer shelf." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Perledesign 3 Drawer File Cabinet is aimed at buyers prioritizing 3 drawers, dedicated pull-out printer shelf." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas-for-small-office","title":"Best Office Credenzas for Small Office in 2026"},{"href":"/guide/best-small-office-credenzas","title":"Best Small Office Credenzas in 2026"},{"href":"/guide/best-narrow-office-credenzas","title":"Best Narrow Office Credenzas in 2026"}];

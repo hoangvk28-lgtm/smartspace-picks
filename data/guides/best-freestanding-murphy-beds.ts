@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "freestanding murphy bed";
 export const introParagraphs = [
   "Freestanding murphy beds are marketed heavily to renters as a wall-drilling-free alternative, but the honest truth is that freestanding means no wall mount, not no anchor at all. Most freestanding units still require a floor cleat or wall backing anchor for stability, and that anchoring can trigger the same lease restrictions as drilling into a wall, so the renter-friendly claim is often overstated compared to what the listing implies.",
-  "This guide focuses on that reality: what freestanding actually means, whether floor anchoring genuinely avoids lease issues, cabinet base weight as a stability indicator, and the room clearance a freestanding unit still needs. Below are the 8 picks we evaluated based on product specs and buyer feedback, including 4 newer listings with no rating history yet, which we call out honestly rather than treating them the same as established picks.",
+  "This guide focuses on that reality: what freestanding actually means, whether floor anchoring genuinely avoids lease issues, cabinet base weight as a stability indicator, and the room clearance a freestanding unit still needs. Below are the 8 picks we evaluated based on product specs and buyer feedback, including 4 newer listings with no rating history yet, which we call out honestly rather than treating them the same as established picks."
 ];
 export const lastUpdated = "2026-07-26";
 export const readTime = "11 min";
@@ -56,17 +56,17 @@ export const products: GuideProduct[] = [
       "Queen size freestanding bed frame",
       "Gray finish with wooden doors",
       "No wall mount bracket required",
-      "New listing, verify anchor method before ordering",
+      "New listing, verify anchor method before ordering"
     ],
     pros: [
       "Explicitly confirmed freestanding design in the listing title",
       "No wall mount bracket required for basic setup",
-      "Wooden door finish gives a furniture-like appearance when closed",
+      "Wooden door finish gives a furniture-like appearance when closed"
     ],
     cons: [
       "New listing with no rating history to verify real-world stability",
       "Anchor method not specified, verify with the seller before assuming zero anchoring is needed",
-      "No desk surface included",
+      "No desk surface included"
     ],
     bestFor: "Buyers who specifically want a confirmed freestanding queen frame and are comfortable ordering a new, unrated listing after direct seller verification",
   },
@@ -86,17 +86,17 @@ export const products: GuideProduct[] = [
       "Queen size fold-out cabinet bed",
       "Built-in shelf",
       "White finish",
-      "New listing, freestanding claim not explicit, verify before ordering",
+      "New listing, freestanding claim not explicit, verify before ordering"
     ],
     pros: [
       "Built-in shelf adds storage",
       "Similar design language to the confirmed freestanding Peanu frame",
-      "White finish suits a range of room decor",
+      "White finish suits a range of room decor"
     ],
     cons: [
       "Freestanding claim not explicitly stated in this specific listing",
       "New listing with no rating history",
-      "No desk surface included",
+      "No desk surface included"
     ],
     bestFor: "Buyers open to the Peanu cabinet design who will confirm the freestanding claim directly with the seller before ordering",
   },
@@ -116,17 +116,17 @@ export const products: GuideProduct[] = [
       "Queen size freestanding cabinet bed",
       "Large underbed rattan storage drawer",
       "White finish",
-      "New listing, verify anchor method before ordering",
+      "New listing, verify anchor method before ordering"
     ],
     pros: [
       "Explicitly confirmed freestanding in the listing title",
       "Large storage drawer included",
-      "Queen size accommodates most sleepers",
+      "Queen size accommodates most sleepers"
     ],
     cons: [
       "New listing with no rating history",
       "Anchor method not detailed, verify with the seller",
-      "No desk surface included",
+      "No desk surface included"
     ],
     bestFor: "Buyers who want confirmed freestanding design with real storage and are comfortable ordering a new, unrated listing",
   },
@@ -146,17 +146,17 @@ export const products: GuideProduct[] = [
       "Full size freestanding cabinet bed",
       "Large underbed rattan storage drawer",
       "Green finish",
-      "New listing, verify anchor method before ordering",
+      "New listing, verify anchor method before ordering"
     ],
     pros: [
       "Explicitly confirmed freestanding in the listing title",
       "Full size footprint requires less floor clearance than queen",
-      "Large storage drawer included",
+      "Large storage drawer included"
     ],
     cons: [
       "New listing with no rating history",
       "Anchor method not detailed, verify with the seller",
-      "No desk surface included",
+      "No desk surface included"
     ],
     bestFor: "Smaller rooms wanting a confirmed freestanding full-size cabinet, for buyers comfortable ordering a new, unrated listing",
   },
@@ -166,27 +166,27 @@ export const products: GuideProduct[] = [
     badge: "Established Rating, Freestanding Not Confirmed",
     name: "LIVAUVEAD Farmhouse Queen Size Murphy Bed with Charging Station, White",
     price: "$344.99",
-    rating: "4.0 stars from 120 Amazon ratings",
-    reviews: "120 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51jUTZEm-VL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GS52M63V?tag=deskfinds0d-20",
     description:
-      "Flagging this honestly: the listing does not claim freestanding design at all, and based on standard farmhouse-style murphy bed construction, it most likely requires a conventional wall mount. It appears in this guide's underlying data because it is commonly cross-shopped, but it is not a verified freestanding pick.\n\nWith 120 ratings at 4.0 stars, it has the most established review base among freestanding-adjacent searches in this guide, and includes a built-in charging station. If freestanding design specifically matters to you, confirm directly with the seller rather than assuming this qualifies.\n\nBuilt-in charging station. That's a real strength, but weigh it against the flip side: freestanding design not confirmed, likely requires standard wall mounting.",
+      "Flagging this honestly: the listing does not claim freestanding design at all, and based on standard farmhouse-style murphy bed construction, it most likely requires a conventional wall mount. It appears in this guide's underlying data because it is commonly cross-shopped, but it is not a verified freestanding pick.\n\nIf freestanding design specifically matters to you, confirm directly with the seller rather than assuming this qualifies.\n\nBuilt-in charging station. That's a real strength, but weigh it against the flip side: freestanding design not confirmed, likely requires standard wall mounting.",
     specs: [
       "Queen size murphy bed (wall mount likely required)",
       "Built-in charging station",
       "Farmhouse white finish",
-      "Freestanding claim not stated in listing",
+      "Freestanding claim not stated in listing"
     ],
     pros: [
-      "Most established review base among picks in this guide at 120 ratings",
       "Built-in charging station",
       "Lowest price among the queen picks here",
+      "Farmhouse white finish blends with bedroom decor",
     ],
     cons: [
       "Freestanding design not confirmed, likely requires standard wall mounting",
       "No desk surface included",
-      "Verify mounting requirements directly before assuming renter-friendly use",
+      "Verify mounting requirements directly before assuming renter-friendly use"
     ],
     bestFor: "Buyers who want an established, well-reviewed queen cabinet and are fine with standard wall mounting rather than a confirmed freestanding design",
   },
@@ -196,27 +196,26 @@ export const products: GuideProduct[] = [
     badge: "Established Rating, Freestanding Not Confirmed",
     name: "Yoobure Queen Murphy Bed with Charging Station, Rattan Cabinet Bed with Storage Drawers",
     price: "$459.99",
-    rating: "4.5 stars from 19 Amazon ratings",
-    reviews: "19 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51JtI3bjGFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GQM56Y2N?tag=deskfinds0d-20",
     description:
-      "This listing also makes no freestanding claim, so treat it as a standard wall-mounted cabinet bed rather than a verified freestanding option, despite appearing in freestanding-related searches. It includes a charging station and storage drawers in a rattan finish.\n\nWith only 19 ratings, buyer feedback is thin. If avoiding wall mounting for lease reasons is your priority, the confirmed freestanding Peanu or roomfitters picks above are a better fit, provided you also confirm their anchor requirements directly.\n\nWorth calling out specifically: storage drawers add functional space. The catch is freestanding design not confirmed.",
+      "This listing also makes no freestanding claim, so treat it as a standard wall-mounted cabinet bed rather than a verified freestanding option, despite appearing in freestanding-related searches. It includes a charging station and storage drawers in a rattan finish.\n\nIf avoiding wall mounting for lease reasons is your priority, the confirmed freestanding Peanu or roomfitters picks above are a better fit, provided you also confirm their anchor requirements directly.\n\nWorth calling out specifically: storage drawers add functional space. The catch is freestanding design not confirmed.",
     specs: [
       "Queen size foldable platform (wall mount likely required)",
       "Built-in charging station",
       "Storage drawers included",
-      "Freestanding claim not stated in listing",
+      "Freestanding claim not stated in listing"
     ],
     pros: [
       "Built-in charging station",
       "Storage drawers add functional space",
-      "Fully assembled cabinet",
+      "Fully assembled cabinet"
     ],
     cons: [
       "Freestanding design not confirmed",
-      "No desk surface included",
-      "Very small review base at 19 ratings",
+      "No desk surface included"
     ],
     bestFor: "Buyers not specifically requiring freestanding design who want charging convenience in an assembled queen cabinet",
   },
@@ -226,27 +225,27 @@ export const products: GuideProduct[] = [
     badge: "Not Freestanding: Wall-Mounted Hardware Kit",
     name: "Create-A-Bed Queen Size Deluxe Murphy Bed Kit, Vertical",
     price: "$299.00",
-    rating: "4.6 stars from 2,138 Amazon ratings",
-    reviews: "2,138 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51H6j9qVxwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00CYPV29W?tag=deskfinds0d-20",
     description:
-      "Flagging this clearly: this is a wall bed hardware kit explicitly designed to be mounted to a wall, the opposite of freestanding. It appears in this guide's underlying data because it is frequently cross-shopped, but if avoiding wall mounting is your reason for searching freestanding, this pick does not solve that problem.\n\nIt does have the largest review base in this entire guide at 2,138 ratings, and is a well-regarded piston mechanism if you have already decided wall mounting is acceptable in your space.\n\nWell-regarded piston mechanism if wall mounting is acceptable. Set against that, not freestanding, requires standard wall mounting. Both matter when comparing it to the other picks here.",
+      "Flagging this clearly: this is a wall bed hardware kit explicitly designed to be mounted to a wall, the opposite of freestanding. It appears in this guide's underlying data because it is frequently cross-shopped, but if avoiding wall mounting is your reason for searching freestanding, this pick does not solve that problem.\n\nWell-regarded piston mechanism if wall mounting is acceptable. Set against that, not freestanding, requires standard wall mounting. Both matter when comparing it to the other picks here.",
     specs: [
       "Vertical queen size mechanism, wall-mounted design",
       "Gas piston operation",
       "Hardware kit, cabinet not included",
-      "Made in North America",
+      "Made in North America"
     ],
     pros: [
-      "Largest review base in this guide at 2,138 ratings",
       "Well-regarded piston mechanism if wall mounting is acceptable",
       "Lowest price in this guide",
+      "Vertical queen mechanism for a custom cabinet build",
     ],
     cons: [
       "Not freestanding, requires standard wall mounting",
       "No desk surface included",
-      "Does not solve the problem freestanding buyers are typically searching for",
+      "Does not solve the problem freestanding buyers are typically searching for"
     ],
     bestFor: "Buyers who realize wall mounting is fine in their space and want a proven, well-reviewed mechanism instead of a freestanding design",
   },
@@ -256,8 +255,8 @@ export const products: GuideProduct[] = [
     badge: "Not Freestanding: Wall-Mounted Hardware Kit",
     name: "Queen Size Murphy Bed Hardware Kit, Vertical Wall Bed Frame with Gas Pistons",
     price: "$197.00",
-    rating: "4.6 stars from 1,610 Amazon ratings",
-    reviews: "1,610 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51h1vyv6ZdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B017701FUE?tag=deskfinds0d-20",
     description:
@@ -266,20 +265,20 @@ export const products: GuideProduct[] = [
       "Vertical queen size mechanism, wall-mounted design",
       "Gas piston operation",
       "Hardware kit, cabinet not included",
-      "Made in North America",
+      "Made in North America"
     ],
     pros: [
-      "Large review base at 1,610 ratings",
       "Lowest price in this guide",
       "Well-regarded piston mechanism if wall mounting is acceptable",
+      "Hardware only, so cabinet design is up to you",
     ],
     cons: [
       "Not freestanding, requires standard wall mounting",
       "No desk surface included",
-      "Does not solve the problem freestanding buyers are typically searching for",
+      "Does not solve the problem freestanding buyers are typically searching for"
     ],
     bestFor: "Budget-focused buyers who have decided wall mounting is acceptable and do not strictly need a freestanding design",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -312,7 +311,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Rating maturity, especially on new listings",
     description:
       "Distinguished established, rated products from 4 new listings with no rating history at all, treating the newer listings as unverified rather than assigning them the same confidence as rated picks.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -455,12 +454,12 @@ export const faq: FaqItem[] = [
   {
     q: "What mattress thickness works best on a freestanding murphy bed?",
     a: "Freestanding mechanisms are frequently calibrated for mattresses in the 8-10 inch range. A thick 12 inch foam mattress may exceed the mechanism's calibration and cause an unbalanced fold, so verify the manufacturer's recommended mattress thickness before ordering a thicker mattress for any freestanding pick.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-horizontal-murphy-beds-with-desks", title: "Best Horizontal Murphy Beds with Desks (2026)" },
   { href: "/guide/best-murphy-beds-for-small-spaces", title: "Best Murphy Beds for Small Spaces (2026)" },
   { href: "/guide/best-murphy-beds-with-desks", title: "Best Murphy Beds with Desks (2026)" },
-  { href: "/guide/best-cabinet-beds-with-desks", title: "Best Cabinet Beds with Desks (2026)" },
+  { href: "/guide/best-cabinet-beds-with-desks", title: "Best Cabinet Beds with Desks (2026)" }
 ];

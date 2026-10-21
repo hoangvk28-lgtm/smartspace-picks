@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $22.99",
+          "Under $25",
           "UGEE Q6 Drawing Tablet for Android Phone"
         ],
         [
-          "Around $22.99",
+          "Under $25",
           "UGEE Q6 Drawing Tablet for Android Phone"
         ],
         [
-          "Around $39.95",
+          "Under $40",
           "Wacom Intuos Small"
         ],
         [
-          "Around $59.99",
+          "Under $60",
           "XENCELABS Drawing Tablet Small"
         ],
         [
-          "Around $69.95",
+          "Under $70",
           "Wacom Intuos Small"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "UGEE Q6 Drawing Tablet for Android Phone is aimed at buyers prioritizing 6.5x4in, 249g, vertical mobile layout." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "UGEE Q6 Drawing Tablet for Android Phone is aimed at buyers prioritizing 6.5x4in, 249g, vertical mobile layout." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-16-inch-drawing-tablets","title":"Best 16-Inch Drawing Tablets in 2026"},{"href":"/guide/best-24-inch-drawing-tablets","title":"Best 24-Inch Drawing Tablets in 2026"},{"href":"/guide/best-22-inch-drawing-tablets","title":"Best 22-Inch Drawing Tablets in 2026"}];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "slim standing desk converter";
 export const introParagraphs = [
   "\"Slim\" can mean low folded height, narrow width, or shallow depth, and using one term for all three risks duplicating our compact and low-profile guides. We defined slim here specifically as thin vertical profile when lowered, the dimension most directly tied to the word \"slim\" in current product listings.",
-  "If you're looking for narrow width specifically, check our compact or small standing desk converter guides instead, since this page focuses on thinness rather than footprint.",
+  "If you're looking for narrow width specifically, check our compact or small standing desk converter guides instead, since this page focuses on thinness rather than footprint."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Defined \"slim\" as thin folded profile specifically", description: "We interpreted this term as vertical thinness rather than width or depth, to avoid duplicating our compact (width) and low-profile (base height) guides." },
   { title: "Prioritized products explicitly using \"slim\" or \"extra-slim\" language", description: "We favored listings with this exact marketing language as the clearest signal of genuine thin-profile engineering." },
   { title: "Noted single-top construction as generally correlating with a thinner profile", description: "Even without explicit \"slim\" marketing, single-top designs tend to be thinner than dual-tier converters, and we flagged this where relevant." },
-  { title: "Included both color variants of the cheapest confirmed extra-slim option", description: "We noted the black and white versions of the Aconcept extra-slim design share identical specs, differing only in finish." },
+  { title: "Included both color variants of the cheapest confirmed extra-slim option", description: "We noted the black and white versions of the Aconcept extra-slim design share identical specs, differing only in finish." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -238,20 +238,21 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
 export const faq: FaqItem[] = [
   { q: "What does \"slim\" mean for a standing desk converter?", a: "It can mean thin vertical profile, narrow width, or shallow depth; this guide focuses specifically on thinness when lowered." },
-  { q: "Which slim converter has the most reviews?", a: "The VIVO Ultra-Slim Single Top Standing Desk Riser, with 1,243 reviews." },
-  { q: "What's the cheapest slim option?", a: "The Aconcept Extra-Slim 24 x 14 inch Standing Desk Converter at $49.99, available in both black and white." },
+  
+  { q: "What's the cheapest slim option?", a: "The Aconcept Extra-Slim 24 x 14 inch Standing Desk Converter at under $50, available in both black and white." },
   { q: "Should I check a different guide if I want a narrow converter?", a: "Yes, our compact or small standing desk converter guides focus specifically on width rather than thin profile." },
   { q: "Are single-top converters automatically slim?", a: "Not officially marketed as such, but they generally have a thinner profile than dual-tier converters due to fewer structural layers." },
+  { q: "How much desk depth does a slim converter need?", a: "Measure your desk depth first and compare it to the platform depth. The Aconcept 24 by 14 inch top is the most compact here, while the Mount-It 32 by 22 inch platform needs a much deeper surface. Leave room for the keyboard and mouse as well as the laptop." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-low-profile-standing-desk-converters", title: "Best Low-Profile Standing Desk Converters (2026)" },
   { href: "/guide/best-compact-standing-desk-converters", title: "Best Compact Standing Desk Converters (2026)" },
-  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
+  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" }
 ];

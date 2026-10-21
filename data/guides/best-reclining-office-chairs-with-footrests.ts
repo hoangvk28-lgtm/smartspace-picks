@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "reclining office chair with footrest";
 export const introParagraphs = [
   "A reclining office chair with a footrest is meant for more than just leaning back between calls, it's meant to fully support a break or a near-nap position without you needing to leave the desk. The catch is that recline and footrest are two separate features that get marketed together loosely, some chairs recline generously but ship with no footrest at all, while others have a footrest that's too short to actually support your calves at a deep recline angle.",
-  "Below are 8 chairs we evaluated on recline range, footrest presence and extension length, lumbar support through the recline motion, and weight capacity, ranging from a $38.98 basic task chair to a $209.99 big and tall recliner. Three of the picks below do not include an integrated footrest despite competing in this category, and we call that out directly in each review rather than burying it in the specs list.",
+  "Below are 8 chairs we evaluated on recline range, footrest presence and extension length, lumbar support through the recline motion, and weight capacity, ranging from an under-$40 basic task chair to an under-$250 big and tall recliner. Three of the picks below do not include an integrated footrest despite competing in this category, and we call that out directly in each review rather than burying it in the specs list."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -46,8 +46,8 @@ export const products: GuideProduct[] = [
     badge: "Best Big and Tall with Footrest",
     name: "GTPLAYER Big and Tall Gaming Chair 400lbs Heavy Duty Office Chair with Foot Rest & Ergonomic Pocket Spring Lumbar Support",
     price: "$179.47",
-    rating: "4.5 stars from 34,180 Amazon ratings",
-    reviews: "34,180 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41lDR7qjYlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXTWTCWS?tag=deskfinds0d-20",
     description:
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Pull-out footrest, locks extended",
       "Pocket spring lumbar cushion",
       "High-back 3D saddle cushion",
-      "Reclines to a near-flat position",
+      "Reclines to a near-flat position"
     ],
     pros: [
       "Highest weight capacity in this list",
       "Pocket spring lumbar support, more adjustable than flat foam",
       "Footrest locks extended for stable recline support",
-      "Large seat and backrest for bigger users",
+      "Large seat and backrest for bigger users"
     ],
     cons: [
       "Largest footprint in this list, needs more floor clearance",
       "Heaviest chair to assemble",
-      "Premium price relative to the rest of the list",
+      "Premium price relative to the rest of the list"
     ],
     bestFor: "Larger users who need a high weight rating and a genuinely supportive footrest",
   },
@@ -78,8 +78,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value with Footrest",
     name: "N-GEN GAMING Video Gaming Chair with Footrest Lumbar Support for Home Office High Back Recliner",
     price: "$89.98",
-    rating: "4.5 stars from 3,843 Amazon ratings",
-    reviews: "3,843 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/418u8mAj3QL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLX92FFH?tag=deskfinds0d-20",
     description:
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Height-adjustable lumbar support",
       "High-back recliner shape",
       "360-degree swivel base",
-      "Leather-look upholstery",
+      "Leather-look upholstery"
     ],
     pros: [
       "Strong value at under $90 with a genuine footrest",
       "High-back shape supports deeper recline angles",
       "Height-adjustable lumbar support",
-      "Smooth footrest deployment",
+      "Smooth footrest deployment"
     ],
     cons: [
       "Leather-look material runs warmer than mesh over long sessions",
       "Armrests are fixed, not height-adjustable",
-      "No memory recline lock positions, just a lean-back tension mechanism",
+      "No memory recline lock positions, just a lean-back tension mechanism"
     ],
     bestFor: "Buyers who want a real footrest and high-back recline without the premium price",
   },
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best with Adjustable Height",
     name: "GTPLAYER Gaming Chair, Computer Chair with Footrest and Lumbar Support, Height Adjustable with 360-Swivel Seat and Headrest",
     price: "$85.22",
-    rating: "4.4 stars from 16,386 Amazon ratings",
-    reviews: "16,386 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41uXzrx44BL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVXRZJ12?tag=deskfinds0d-20",
     description:
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Adjustable headrest",
       "Standard lumbar cushion",
       "360-degree swivel, gas lift height adjustment",
-      "Reclining backrest",
+      "Reclining backrest"
     ],
     pros: [
       "Adjustable headrest actually reaches the head at recline",
       "Functional pull-out footrest at a lower price than the flagship GTPLAYER",
       "360-degree swivel base",
-      "Gas lift height adjustment",
+      "Gas lift height adjustment"
     ],
     cons: [
       "Lumbar support is a fixed cushion, not height-adjustable",
       "Lower weight rating than the big and tall pick",
-      "Recline tension is a single lean-back setting, not multiple lock positions",
+      "Recline tension is a single lean-back setting, not multiple lock positions"
     ],
     bestFor: "Buyers who want an adjustable headrest along with the footrest",
   },
@@ -142,8 +142,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Wide Seating",
     name: "Big and Tall Office Chair, Flip Armrests for Pets & Cross Legged Sitting, Executive Ergonomic Chair with Foot Rest, Teddy Fleece Wide Seat",
     price: "$209.99",
-    rating: "4.3 stars from 1,143 Amazon ratings",
-    reviews: "1,143 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/413959p7qkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FF3GMW36?tag=deskfinds0d-20",
     description:
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Flip-up armrests",
       "Foot rest included",
       "Reclining backrest",
-      "Executive-style high back",
+      "Executive-style high back"
     ],
     pros: [
       "Flip-up armrests genuinely support cross-legged sitting",
       "Wide seat accommodates cross-legged or side-sitting positions",
       "Includes a real foot rest",
-      "Soft fleece material feels premium",
+      "Soft fleece material feels premium"
     ],
     cons: [
       "Highest price in this list",
       "Fleece material traps more heat than mesh or leather-look options",
-      "Lower review count than most other picks, less long-term feedback available",
+      "Lower review count than most other picks, less long-term feedback available"
     ],
     bestFor: "Buyers who sit cross-legged or side-saddle and want a wide, soft seat with a footrest",
   },
@@ -174,8 +174,8 @@ export const products: GuideProduct[] = [
     badge: "Best with Massage Lumbar",
     name: "Homall Gaming Chair, Video Game Chair with Footrest and Massage Lumbar Support, Height Adjustable with Swivel Seat and Headrest",
     price: "$84.99",
-    rating: "4.3 stars from 3,548 Amazon ratings",
-    reviews: "3,548 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/416C7AvAoJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C4Q7M3VC?tag=deskfinds0d-20",
     description:
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Vibrating massage lumbar cushion",
       "Adjustable headrest",
       "Height-adjustable swivel base",
-      "Reclining backrest",
+      "Reclining backrest"
     ],
     pros: [
       "Only pick in this list with a massage lumbar function",
       "Includes a functional pull-out footrest",
       "Adjustable headrest",
-      "Competitive price for the added massage feature",
+      "Competitive price for the added massage feature"
     ],
     cons: [
       "Massage function requires batteries, an added ongoing cost",
       "Lower weight capacity than the big and tall picks",
-      "Massage motor adds a small amount of noise during use",
+      "Massage motor adds a small amount of noise during use"
     ],
     bestFor: "Buyers who want lumbar massage in addition to recline and footrest",
   },
@@ -206,8 +206,8 @@ export const products: GuideProduct[] = [
     badge: "Budget Mesh Task Chair, No Footrest",
     name: "NEO CHAIR Office Computer Chair Mid Back Desk Ergonomic Mesh Gaming Seat, Rolling Wheels, Adjustable Height",
     price: "$38.98",
-    rating: "4.3 stars from 3,442 Amazon ratings",
-    reviews: "3,442 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41vkBVigJkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GXX75JN5?tag=deskfinds0d-20",
     description:
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Adjustable height, rolling wheels",
       "Basic lumbar support",
       "Swivel base",
-      "No footrest included",
+      "No footrest included"
     ],
     pros: [
       "Lowest price in this list",
       "Breathable mesh reduces heat buildup during a workday",
       "Lightweight and easy to move",
-      "Simple, low-maintenance design",
+      "Simple, low-maintenance design"
     ],
     cons: [
       "No footrest, does not meet this guide's core criteria",
       "No stated recline angle or lock positions",
-      "Fixed armrests, no adjustment",
+      "Fixed armrests, no adjustment"
     ],
     bestFor: "Budget buyers who want a breathable task chair and don't need a footrest",
   },
@@ -238,29 +238,29 @@ export const products: GuideProduct[] = [
     badge: "Budget Ergonomic Chair, No Footrest",
     name: "BestOffice Ergonomic Office Chair, Mid-Back Swivel Desk Chair, Breathable Backrest & Lumbar Support",
     price: "$38.99",
-    rating: "4.3 stars from 64,003 Amazon ratings",
-    reviews: "64,003 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41qkMtzBIdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQDM23S4?tag=deskfinds0d-20",
     description:
-      "Honest note upfront: this listing does not mention a footrest or a specific recline range, so it does not fully match the category this guide covers. It earns a spot here purely on the strength of its review volume and consistent 4.3-star rating at a very low price, making it a fallback option if you decide a footrest isn't actually essential for your setup.\n\nIf recline-with-footrest is the whole point of your search, one of the picks above with a confirmed footrest will serve you better than this chair.\n\nVery low price. Set against that, no footrest, does not meet this guide's core criteria. Both matter when comparing it to the other picks here.",
+      "Honest note upfront: this listing does not mention a footrest or a specific recline range, so it does not fully match the category this guide covers.\n\nIf recline-with-footrest is the whole point of your search, one of the picks above with a confirmed footrest will serve you better than this chair.\n\nVery low price. Set against that, no footrest, does not meet this guide's core criteria. Both matter when comparing it to the other picks here.",
     specs: [
       "Mid-back mesh backrest",
       "Basic lumbar support",
       "Adjustable height, rolling wheels",
       "Swivel base",
-      "No footrest included",
+      "No footrest included"
     ],
     pros: [
       "Highest review count in this list by a wide margin",
       "Very low price",
       "Breathable mesh backrest",
-      "Simple assembly",
+      "Simple assembly"
     ],
     cons: [
       "No footrest, does not meet this guide's core criteria",
       "No specific recline angle stated",
-      "Basic fixed lumbar support only",
+      "Basic fixed lumbar support only"
     ],
     bestFor: "Budget buyers prioritizing proven reliability over a footrest",
   },
@@ -270,8 +270,8 @@ export const products: GuideProduct[] = [
     badge: "Executive Style, No Footrest",
     name: "Furmax Office Executive Chair High Back Adjustable Managerial Home Desk Chair, Swivel PU Leather with Lumbar Support",
     price: "$89.99",
-    rating: "4.3 stars from 5,382 Amazon ratings",
-    reviews: "5,382 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41b4JMojCoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07T291QPJ?tag=deskfinds0d-20",
     description:
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Adjustable lumbar support",
       "Reclining backrest",
       "Swivel base, gas lift height adjustment",
-      "No footrest included",
+      "No footrest included"
     ],
     pros: [
       "Traditional executive styling, distinct from gaming-chair looks",
       "Adjustable lumbar support",
       "PU leather is easy to wipe clean",
-      "Reasonable price for the executive category",
+      "Reasonable price for the executive category"
     ],
     cons: [
       "No footrest, does not meet this guide's core criteria",
       "PU leather runs warmer than mesh over long sessions",
-      "Recline lacks defined lock positions",
+      "Recline lacks defined lock positions"
     ],
     bestFor: "Buyers who want executive styling and are willing to add a separate footrest",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -328,7 +328,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Value relative to feature completeness",
     description:
       "Weighed price against whether a chair actually delivers the full recline-plus-footrest combination this guide is about, not just one of the two features.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -467,11 +467,11 @@ export const faq: FaqItem[] = [
   {
     q: "How much floor space does a reclining chair with a deployed footrest need?",
     a: "The footrest and reclined backrest can extend well beyond the chair's upright footprint, sometimes several feet. Measure the clear space behind your desk chair position before choosing one of the bulkier picks, especially the big and tall or wide-seat models in this list.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-dual-motor-standing-desks", title: "8 Best Dual-Motor Standing Desks (2026)" },
   { href: "/guide/best-standing-desks-for-heavy-setups", title: "Best Standing Desks for Heavy Setups (2026)" },
-  { href: "/guide/best-metal-filing-cabinets", title: "8 Best Metal Filing Cabinets (2026)" },
+  { href: "/guide/best-metal-filing-cabinets", title: "8 Best Metal Filing Cabinets (2026)" }
 ];

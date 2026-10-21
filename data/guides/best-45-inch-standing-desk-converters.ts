@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "45 inch standing desk converter";
 export const introParagraphs = [
   "We need to be direct here: exact 45 inch converter inventory is genuinely thinner than the more populated 42 and 48 inch size tiers. We confirmed fewer distinct products at this specific width than at neighboring sizes.",
-  "We're presenting the strongest genuinely confirmed option at this exact size, alongside honest comparison points from the better-populated nearby tiers.",
+  "We're presenting the strongest genuinely confirmed option at this exact size, alongside honest comparison points from the better-populated nearby tiers."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Disclosed the thin exact 45 inch product pool honestly", description: "We confirmed genuine 45 inch inventory is thinner than the more populated 42 and 48 inch tiers, and presented this directly rather than padding the list with rounded nearby sizes." },
   { title: "Clearly labeled nearby-size alternatives as not exactly 45 inches", description: "Every comparison pick outside the one confirmed 45 inch product is explicitly flagged as a different exact width." },
   { title: "Highlighted the retractable keyboard tray as the genuine 45 inch option's key differentiator", description: "We noted this unique feature as a reason to specifically choose the confirmed 45 inch product over the better-reviewed nearby alternatives." },
-  { title: "Weighed review volume honestly across the confirmed and nearby-size options", description: "We compared the one confirmed 45 inch product's review base against the much larger VIVO 48 inch alternatives." },
+  { title: "Weighed review volume honestly across the confirmed and nearby-size options", description: "We compared the one confirmed 45 inch product's review base against the much larger VIVO 48 inch alternatives." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -238,7 +238,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
@@ -247,11 +247,11 @@ export const faq: FaqItem[] = [
   { q: "Why is 45 inches harder to find than 42 or 48 inches?", a: "Current inventory concentrates more heavily at the 42 and 48 inch tiers; exact 45 inch listings are genuinely less common." },
   { q: "Should I consider 42 or 48 inches instead?", a: "If your desk allows flexibility, both nearby sizes offer a much wider selection with more established review histories." },
   { q: "What's unique about the confirmed 45 inch option?", a: "Its slide-out retractable keyboard tray, a feature not matched by the nearby-size alternatives in this comparison." },
-  { q: "Is there an electric option near 45 inches?", a: "The closest confirmed electric alternative is the VERSADESK PowerPro 40 Inch Electric, though this is 5 inches smaller than 45." },
+  { q: "Is there an electric option near 45 inches?", a: "The closest confirmed electric alternative is the VERSADESK PowerPro 40 Inch Electric, though this is 5 inches smaller than 45." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-42-inch-standing-desk-converters", title: "Best 42-Inch Standing Desk Converters (2026)" },
   { href: "/guide/best-48-inch-standing-desk-converters", title: "Best 48-Inch Standing Desk Converters (2026)" },
-  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
+  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" }
 ];

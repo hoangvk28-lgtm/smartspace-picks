@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Up to 4 devices", "PoE Texas 4-Port Gigabit Passive PoE Injector"],
         ["Up to 8 devices", "PoE Texas 8-Port Passive PoE Injector"],
         ["Up to 12 devices", "PoE Texas 12-Port Gigabit Passive PoE Injector"],
-        ["Up to 24 devices", "PoE Texas 24-Port Gigabit PoE Injector"],
+        ["Up to 24 devices", "PoE Texas 24-Port Gigabit PoE Injector"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $41", "PoE Texas 4-Port Gigabit Passive PoE Injector ($40.99)"],
-        ["Under $48", "PoE Texas 8-Port Passive PoE Injector ($47.99)"],
-        ["Under $175", "PoE Texas 12-Port Gigabit Passive PoE Injector ($174.99)"],
-        ["Under $300", "PoE Texas 24-Port Gigabit PoE Injector ($296.99)"],
+        ["Under $41", "PoE Texas 4-Port Gigabit Passive PoE Injector (under $45)"],
+        ["Under $48", "PoE Texas 8-Port Passive PoE Injector (under $50)"],
+        ["Under $175", "PoE Texas 12-Port Gigabit Passive PoE Injector (under $180)"],
+        ["Under $300", "PoE Texas 24-Port Gigabit PoE Injector (under $300)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Buying a Larger Unit Than You Need vs Right-Sizing",
     cards: [
       { label: "Buying larger for headroom", text: "A 12-port unit for 8 current devices leaves room to add 4 more later without a second purchase, worth it if you expect near-term growth." },
-      { label: "Right-sizing to current needs", text: "Matching the injector exactly to your current device count, like the 8-port pick for 8 devices, avoids paying for capacity you may never use." },
+      { label: "Right-sizing to current needs", text: "Matching the injector exactly to your current device count, like the 8-port pick for 8 devices, avoids paying for capacity you may never use." }
     ],
     note: "Most buyers should right-size to current needs plus a small buffer, since the price jump between tiers (especially 12 to 24 ports) is substantial relative to the extra capacity.",
   },
@@ -130,7 +130,7 @@ export const howToChoose = [
       headers: ["Your devices need", "Recommended pick"],
       rows: [
         ["Gigabit speed", "4-port, 12-port, or 24-port picks (all Gigabit)"],
-        ["Fast Ethernet is sufficient", "8-port pick (10/100Mbps)"],
+        ["Fast Ethernet is sufficient", "8-port pick (10/100Mbps)"]
       ],
     },
   },
@@ -138,16 +138,16 @@ export const howToChoose = [
     subheading: "For a Server Closet or Rack Installation Specifically",
     cards: [
       { label: "Look for", text: "A form factor specifically designed for rack mounting rather than a standalone desktop unit, especially at higher port counts where multiple units might otherwise clutter a shared equipment space." },
-      { label: "In this comparison", text: "The 24-port pick is specifically built as a rack-mountable unit, suited to a server closet or equipment rack rather than an open desk or shelf." },
+      { label: "In this comparison", text: "The 24-port pick is specifically built as a rack-mountable unit, suited to a server closet or equipment rack rather than an open desk or shelf." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You're deploying PoE across a mid-size or large installation, where the 12-port or 24-port picks avoid the much higher cost of upgrading to a comparable full PoE switch." },
-      { label: "Save if", text: "You have a small deployment of 4-8 devices, where the entry-level picks in this comparison deliver reliable multi-port PoE without unnecessary port capacity." },
+      { label: "Save if", text: "You have a small deployment of 4-8 devices, where the entry-level picks in this comparison deliver reliable multi-port PoE without unnecessary port capacity." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

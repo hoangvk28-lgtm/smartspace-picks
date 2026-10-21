@@ -140,7 +140,7 @@ export default async function Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best No-Box-Spring Bed Frames", item: `${SITE_URL}/guide/best-bed-frame-no-box-spring` },
+      { "@type": "ListItem", position: 3, name: "Best No-Box-Spring Bed Frames", item: `${SITE_URL}/guide/best-bed-frame-no-box-spring` }
     ],
   };
 
@@ -245,7 +245,7 @@ export default async function Page() {
 
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>Ditching the box spring is one of the easiest ways to save money and floor-to-mattress height, but it only works if the frame underneath has slats or a solid deck strong enough to support the mattress on its own.</p>
-          <p>Below are 8 bed frames we evaluated on weight capacity, underbed clearance, and noise-free construction, all built to hold a mattress directly without a separate foundation, ranging from $44.96 tool-free metal folders to a 1,000 lb rated solid pine platform.</p>
+          <p>Below are 8 bed frames we evaluated on weight capacity, underbed clearance, and noise-free construction, all built to hold a mattress directly without a separate foundation, ranging from under $45 tool-free metal folders to a 1,000 lb rated solid pine platform.</p>
         </section>
 
         {buyingCriteria.length > 0 && (

@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Transparently tested Mac display limits with sustainable materials", "Kensington SD5000T5 Thunderbolt 5 Docking Station"],
         ["The absolute lowest price for Intel EVO-certified TB5", "WAVLINK Intel EVO Certified Thunderbolt 5 Dock"],
         ["The most comprehensive port count at a budget price", "WAVLINK Thunderbolt 5 Dock, 12-in-1"],
-        ["Flexible independent daisy-chaining with quiet operation", "OWC Thunderbolt 5 Dock, 11-Port"],
+        ["Flexible independent daisy-chaining with quiet operation", "OWC Thunderbolt 5 Dock, 11-Port"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $200", "WAVLINK Intel EVO Certified Dock ($199.99)"],
-        ["Under $220", "WAVLINK 12-in-1 ($219.99)"],
-        ["Under $227", "Kensington SD5000T5 ($226.98)"],
-        ["Under $320", "OWC Thunderbolt 5 Dock, 11-Port ($319.99)"],
+        ["Under $200", "WAVLINK Intel EVO Certified Dock (under $200)"],
+        ["Under $220", "WAVLINK 12-in-1 (under $250)"],
+        ["Under $227", "Kensington SD5000T5 (under $250)"],
+        ["Under $320", "OWC Thunderbolt 5 Dock, 11-Port (under $350)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Lowest Price vs Longest Warranty",
     cards: [
       { label: "Lowest price (WAVLINK EVO)", text: "Delivers genuine Intel EVO-certified Thunderbolt 5 performance at the lowest cost in this comparison, backed by a standard 2-year warranty." },
-      { label: "Longest warranty (Kensington)", text: "Costs slightly more but includes a 3-year manufacturer warranty with lifetime technical support, a meaningfully longer coverage period." },
+      { label: "Longest warranty (Kensington)", text: "Costs slightly more but includes a 3-year manufacturer warranty with lifetime technical support, a meaningfully longer coverage period." }
     ],
     note: "If minimizing upfront cost is your priority, the WAVLINK EVO pick delivers real Thunderbolt 5 performance for less. If long-term warranty peace of mind matters more, the Kensington's extra year of coverage is worth the modest price difference.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your networking priority", "Recommended pick"],
       rows: [
         ["Standard 2.5G Ethernet for general use", "Either WAVLINK pick or Kensington SD5000T5"],
-        ["Maximum flexible daisy-chain expansion", "OWC Thunderbolt 5 Dock, 11-Port"],
+        ["Maximum flexible daisy-chain expansion", "OWC Thunderbolt 5 Dock, 11-Port"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Buyers Who Prioritize Sustainable Materials Specifically",
     cards: [
       { label: "Look for", text: "A dock that specifically discloses recycled material content and certified sustainable packaging, not just generic 'eco-friendly' marketing language." },
-      { label: "In this comparison", text: "The Kensington SD5000T5 specifically states its casing is composed of 100% post-consumer recycled aluminum, delivered in FSC-certified packaging." },
+      { label: "In this comparison", text: "The Kensington SD5000T5 specifically states its casing is composed of 100% post-consumer recycled aluminum, delivered in FSC-certified packaging." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want flexible independent daisy-chaining with quiet fanless operation, where the OWC pick justifies its $319.99 price within this budget tier." },
-      { label: "Save if", text: "You want the absolute lowest price for genuine Intel EVO-certified Thunderbolt 5 performance, where the WAVLINK EVO pick delivers that for $199.99." },
+      { label: "Spend more if", text: "You want flexible independent daisy-chaining with quiet fanless operation, where the OWC pick justifies its under $350 price within this budget tier." },
+      { label: "Save if", text: "You want the absolute lowest price for genuine Intel EVO-certified Thunderbolt 5 performance, where the WAVLINK EVO pick delivers that for under $200." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

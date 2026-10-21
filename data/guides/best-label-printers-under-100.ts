@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41ATM2ZOVXL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0B1KZJXPG?tag=deskfinds0d-20",
-    "description": "Brother P-Touch PT-D610BT Business Professional Connected Label Maker with Bluetooth is built around advanced connectivity, paired with brother p-touch design options, positioning it as a label printer built for a specific volume and label type rather than general-purpose use.\n\nSitting at $94.99, the top of this comparison's price range, it asks buyers to confirm the added capability is actually worth it over the more affordable picks here before paying the premium.\n\nBrother P-Touch PT-D610BT Business Professional Connected Label Maker with Bluetooth is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "Brother P-Touch PT-D610BT Business Professional Connected Label Maker with Bluetooth is built around advanced connectivity, paired with brother p-touch design options, positioning it as a label printer built for a specific volume and label type rather than general-purpose use.\n\nSitting at under $100, the top of this comparison's price range, it asks buyers to confirm the added capability is actually worth it over the more affordable picks here before paying the premium.\n\nBrother P-Touch PT-D610BT Business Professional Connected Label Maker with Bluetooth is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Advanced Connectivity",
       "Brother P-Touch Design Options",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41NVtXAe1vL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FDJLN63V?tag=deskfinds0d-20",
-    "description": "NIIMBOT M2 Label Maker with Tape 2Inch Thermal Transfer Label Printer leads with thermal transfer upgrade technology, backed by wide application, a combination aimed at as a label printer built for a specific volume and label type rather than general-purpose use.\n\nIt lands between DYMO LabelManager 160 Label Maker Bundle with 3 D1 Label Cassettes's $53.90 price floor and Brother P-Touch PT-D610BT Business Professional Connected Label Maker with Bluetooth's $94.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nNIIMBOT M2 Label Maker with Tape 2Inch Thermal Transfer Label Printer is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "NIIMBOT M2 Label Maker with Tape 2Inch Thermal Transfer Label Printer leads with thermal transfer upgrade technology, backed by wide application, a combination aimed at as a label printer built for a specific volume and label type rather than general-purpose use.\n\nIt lands between DYMO LabelManager 160 Label Maker Bundle with 3 D1 Label Cassettes's under $60 price floor and Brother P-Touch PT-D610BT Business Professional Connected Label Maker with Bluetooth's under $100 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nNIIMBOT M2 Label Maker with Tape 2Inch Thermal Transfer Label Printer is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Thermal Transfer Upgrade Technology",
       "Wide Application",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51U+jkiMMiL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DNHMFNRG?tag=deskfinds0d-20",
-    "description": "Phomemo Bluetooth Thermal Shipping Label Printer is built around [print via bluetooth] - phomemo, paired with [multi-platform compatibility] - this shipping, positioning it as a label printer built for a specific volume and label type rather than general-purpose use.\n\nCompared to DYMO LabelManager 160 Label Maker Bundle with 3 D1 Label Cassettes at $53.90, it costs more for real added capability, while sitting well below Brother P-Touch PT-D610BT Business Professional Connected Label Maker with Bluetooth at $94.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "Phomemo Bluetooth Thermal Shipping Label Printer is built around [print via bluetooth] - phomemo, paired with [multi-platform compatibility] - this shipping, positioning it as a label printer built for a specific volume and label type rather than general-purpose use.\n\nCompared to DYMO LabelManager 160 Label Maker Bundle with 3 D1 Label Cassettes at under $60, it costs more for real added capability, while sitting well below Brother P-Touch PT-D610BT Business Professional Connected Label Maker with Bluetooth at under $100 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "[Print Via Bluetooth] - Phomemo",
       "[Multi-Platform Compatibility] - This shipping",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51Cju05pCSL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0C9Q1YRM4?tag=deskfinds0d-20",
-    "description": "What stands out on Phomemo Bluetooth Shipping Label Printer is [print wirelessly] - phomemo bluetooth, alongside [print via usb cable] -, which is the main reason it earns a spot in this label printers comparison.\n\nCompared to DYMO LabelManager 160 Label Maker Bundle with 3 D1 Label Cassettes at $53.90, it costs more for real added capability, while sitting well below Brother P-Touch PT-D610BT Business Professional Connected Label Maker with Bluetooth at $94.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "What stands out on Phomemo Bluetooth Shipping Label Printer is [print wirelessly] - phomemo bluetooth, alongside [print via usb cable] -, which is the main reason it earns a spot in this label printers comparison.\n\nCompared to DYMO LabelManager 160 Label Maker Bundle with 3 D1 Label Cassettes at under $60, it costs more for real added capability, while sitting well below Brother P-Touch PT-D610BT Business Professional Connected Label Maker with Bluetooth at under $100 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "[Print Wirelessly] - Phomemo bluetooth",
       "[Print via USB Cable] -",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41FPHmqZLIL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0BRBY6888?tag=deskfinds0d-20",
-    "description": "Nelko Bluetooth Thermal Shipping Label Printer leads with go wireless by bluetooth, backed by print via usb, a combination aimed at as a label printer built for a specific volume and label type rather than general-purpose use.\n\nIt lands between DYMO LabelManager 160 Label Maker Bundle with 3 D1 Label Cassettes's $53.90 price floor and Brother P-Touch PT-D610BT Business Professional Connected Label Maker with Bluetooth's $94.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nNelko Bluetooth Thermal Shipping Label Printer is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "Nelko Bluetooth Thermal Shipping Label Printer leads with go wireless by bluetooth, backed by print via usb, a combination aimed at as a label printer built for a specific volume and label type rather than general-purpose use.\n\nIt lands between DYMO LabelManager 160 Label Maker Bundle with 3 D1 Label Cassettes's under $60 price floor and Brother P-Touch PT-D610BT Business Professional Connected Label Maker with Bluetooth's under $100 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nNelko Bluetooth Thermal Shipping Label Printer is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Go Wireless by Bluetooth",
       "Print via USB",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41WCjh69WlL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H25MBBPB?tag=deskfinds0d-20",
-    "description": "What stands out on SVANTTO Thermal Label Printer is fast & stable bluetooth 4.0, alongside feeding & universal label compatibility, which is the main reason it earns a spot in this label printers comparison.\n\nCompared to DYMO LabelManager 160 Label Maker Bundle with 3 D1 Label Cassettes at $53.90, it costs more for real added capability, while sitting well below Brother P-Touch PT-D610BT Business Professional Connected Label Maker with Bluetooth at $94.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "What stands out on SVANTTO Thermal Label Printer is fast & stable bluetooth 4.0, alongside feeding & universal label compatibility, which is the main reason it earns a spot in this label printers comparison.\n\nCompared to DYMO LabelManager 160 Label Maker Bundle with 3 D1 Label Cassettes at under $60, it costs more for real added capability, while sitting well below Brother P-Touch PT-D610BT Business Professional Connected Label Maker with Bluetooth at under $100 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Fast & Stable Bluetooth 4.0",
       "Feeding & Universal Label Compatibility",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51-CNJAAiiL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DX6RVJF7?tag=deskfinds0d-20",
-    "description": "What stands out on Thermal Shipping Label Printer 4x6 Bluetooth Label Maker for Small Business is high-quality, energy-efficient thermal printing, alongside bluetooth & usb dual connectivity, which is the main reason it earns a spot in this label printers comparison.\n\nIt lands between DYMO LabelManager 160 Label Maker Bundle with 3 D1 Label Cassettes's $53.90 price floor and Brother P-Touch PT-D610BT Business Professional Connected Label Maker with Bluetooth's $94.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nThermal Shipping Label Printer 4x6 Bluetooth Label Maker for Small Business is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on Thermal Shipping Label Printer 4x6 Bluetooth Label Maker for Small Business is high-quality, energy-efficient thermal printing, alongside bluetooth & usb dual connectivity, which is the main reason it earns a spot in this label printers comparison.\n\nIt lands between DYMO LabelManager 160 Label Maker Bundle with 3 D1 Label Cassettes's under $60 price floor and Brother P-Touch PT-D610BT Business Professional Connected Label Maker with Bluetooth's under $100 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nThermal Shipping Label Printer 4x6 Bluetooth Label Maker for Small Business is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "High-Quality, Energy-Efficient Thermal Printing",
       "Bluetooth & USB Dual Connectivity",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51eOiRIJuTL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09BK3FVLZ?tag=deskfinds0d-20",
-    "description": "What stands out on DYMO LabelManager 160 Label Maker Bundle with 3 D1 Label Cassettes is compact and portable, alongside user-friendly, which is the main reason it earns a spot in this label printers comparison.\n\nPriced at $53.90, the lowest in this lineup, it trades some of the extras found on pricier picks here for a lower upfront cost, a reasonable tradeoff if your needs are basic.\n\nDYMO LabelManager 160 Label Maker Bundle with 3 D1 Label Cassettes is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on DYMO LabelManager 160 Label Maker Bundle with 3 D1 Label Cassettes is compact and portable, alongside user-friendly, which is the main reason it earns a spot in this label printers comparison.\n\nPriced at under $60, the lowest in this lineup, it trades some of the extras found on pricier picks here for a lower upfront cost, a reasonable tradeoff if your needs are basic.\n\nDYMO LabelManager 160 Label Maker Bundle with 3 D1 Label Cassettes is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Compact and Portable",
       "User-Friendly",
@@ -325,35 +325,35 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $53.90",
+          "Under $60",
           "DYMO LabelManager 160 Label Maker Bundle with 3 D1 Label Cassettes"
         ],
         [
-          "Around $56.55",
+          "Under $60",
           "Thermal Shipping Label Printer 4x6 Bluetooth Label Maker for Small Business"
         ],
         [
-          "Around $59.99",
+          "Under $60",
           "SVANTTO Thermal Label Printer"
         ],
         [
-          "Around $66.98",
+          "Under $70",
           "Nelko Bluetooth Thermal Shipping Label Printer"
         ],
         [
-          "Around $69.98",
+          "Under $70",
           "Phomemo Bluetooth Shipping Label Printer"
         ],
         [
-          "Around $73.97",
+          "Under $80",
           "Phomemo Bluetooth Thermal Shipping Label Printer"
         ],
         [
-          "Around $89.99",
+          "Under $90",
           "NIIMBOT M2 Label Maker with Tape 2Inch Thermal Transfer Label Printer"
         ],
         [
-          "Around $94.99",
+          "Under $100",
           "Brother P-Touch PT-D610BT Business Professional Connected Label Maker with Bluetooth"
         ]
       ]
@@ -364,11 +364,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "DYMO LabelManager 160 Label Maker Bundle with 3 D1 Label Cassettes",
-        "text": "The lowest-priced pick in this comparison at $53.90, a solid choice if you don't need the extras the pricier picks carry."
+        "text": "The lowest-priced pick in this comparison at under $60, a solid choice if you don't need the extras the pricier picks carry."
       },
       {
         "label": "Brother P-Touch PT-D610BT Business Professional Connected Label Maker with Bluetooth",
-        "text": "The highest-priced pick at $94.99, worth it only if you'll actually use what that premium buys."
+        "text": "The highest-priced pick at under $100, worth it only if you'll actually use what that premium buys."
       }
     ],
     "note": "Default to DYMO LabelManager 160 Label Maker Bundle with 3 D1 Label Cassettes unless the pricier pick's specific advantage genuinely applies to your situation."
@@ -428,7 +428,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "What's the real difference between the cheapest and most expensive pick here?",
-    "a": "DYMO LabelManager 160 Label Maker Bundle with 3 D1 Label Cassettes at $53.90 covers the basics, while Brother P-Touch PT-D610BT Business Professional Connected Label Maker with Bluetooth at $94.99 adds faster print speed and broader connectivity options. Whether that's worth the difference depends on your actual printing volume, since speed and durability matter far more at business-level volume than for occasional personal use."
+    "a": "DYMO LabelManager 160 Label Maker Bundle with 3 D1 Label Cassettes at under $60 covers the basics, while Brother P-Touch PT-D610BT Business Professional Connected Label Maker with Bluetooth at under $100 adds faster print speed and broader connectivity options. Whether that's worth the difference depends on your actual printing volume, since speed and durability matter far more at business-level volume than for occasional personal use."
   },
   {
     "q": "Do I need thermal transfer, or is direct thermal fine?",
@@ -440,7 +440,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "Is there a solid middle-ground pick in this price range?",
-    "a": "Phomemo Bluetooth Shipping Label Printer at $69.98 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
+    "a": "Phomemo Bluetooth Shipping Label Printer at under $70 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
   },
   {
     "q": "What's the most common mistake buyers make shopping label printers under $100?",

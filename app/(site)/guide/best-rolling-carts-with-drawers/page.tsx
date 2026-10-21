@@ -161,7 +161,7 @@ export default async function BestRollingCartsWithDrawersPage() {
     about: [
       { "@type": "Thing", name: "Rolling Cart" },
       { "@type": "Thing", name: "Desk Organizer" },
-      { "@type": "Thing", name: "Home Office Storage" },
+      { "@type": "Thing", name: "Home Office Storage" }
     ],
   };
 
@@ -181,7 +181,7 @@ export default async function BestRollingCartsWithDrawersPage() {
         position: 3,
         name: "Best Rolling Carts with Drawers",
         item: `${SITE_URL}/guide/best-rolling-carts-with-drawers`,
-      },
+      }
     ],
   };
 
@@ -502,8 +502,8 @@ export default async function BestRollingCartsWithDrawersPage() {
                     {
                       format: "Hybrid open + drawer",
                       bestFor: "Heavy printer support plus basic storage",
-                      notes: "Goovilla 124 lbs at $23.99",
-                    },
+                      notes: "Goovilla 124 lbs at under $25",
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.format}</td>
@@ -545,50 +545,50 @@ export default async function BestRollingCartsWithDrawersPage() {
                 context: "Best overall by reviews",
                 id: "iris-usa-4-drawer",
                 name: "IRIS USA 4-Drawer",
-                verdict: " - 7,851 reviews at 4.6 stars, clear drawers, Made in USA, removable casters.",
+                verdict: " - Clear drawers, Made in USA, removable casters.",
               },
               {
                 context: "Best 360-degree casters with clear drawers",
                 id: "homz-3-tier-clear-360",
                 name: "HOMZ 3-Tier Clear",
-                verdict: " - 7,224 reviews at 4.6 stars, 360-degree casters, removable wheels.",
+                verdict: " - 360-degree casters, removable wheels.",
               },
               {
                 context: "Best for maximum compartmentalization",
                 id: "iris-usa-10-drawer",
                 name: "IRIS USA 10-Drawer",
-                verdict: " - 4,257 reviews at 4.6 stars, 10 drawers, drawer stops, Made in USA.",
+                verdict: " - 10 drawers, drawer stops, Made in USA.",
               },
               {
                 context: "Best value for heavy printers",
                 id: "goovilla-hybrid-124lb",
                 name: "Goovilla 124 lbs",
-                verdict: " - 3,559 reviews at 4.6 stars, $23.99 lowest price, 124-lb capacity.",
+                verdict: " - Under $25 lowest price, 124-lb capacity.",
               },
               {
                 context: "Best waterproof construction",
                 id: "sunally-waterproof-124lb",
                 name: "SUNALLY Waterproof",
-                verdict: " - 1,971 reviews at 4.5 stars, $22.99 lowest price, waterproof PP.",
+                verdict: " - Under $25 lowest price, waterproof PP.",
               },
               {
                 context: "Highest rated (note: open baskets)",
                 id: "yasonic-mesh-baskets",
                 name: "YASONIC Mesh Baskets",
-                verdict: " - 1,773 reviews at 4.7 stars, open mesh not drawers.",
+                verdict: " - Open mesh not drawers.",
               },
               {
                 context: "Best wood top for desk matching",
                 id: "aokitsink-wood-top",
                 name: "Aokitsink Wood Top",
-                verdict: " - 267 reviews at 4.4 stars, wood surface, 150-lb capacity.",
+                verdict: " - Wood surface, 150-lb capacity.",
               },
               {
                 context: "Best for creative spaces with color options",
                 id: "costway-10-drawer-rainbow",
                 name: "COSTWAY Rainbow",
-                verdict: " - 247 reviews at 4.4 stars, rainbow color option, galvanized metal.",
-              },
+                verdict: " - Rainbow color option, galvanized metal.",
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

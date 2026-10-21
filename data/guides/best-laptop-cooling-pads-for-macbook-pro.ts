@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "cooling pads for MacBook Pro";
 export const introParagraphs = [
   "MacBook Pro has a genuinely different internal thermal design than MacBook Air. Every MacBook Pro model has active internal fans that already manage heat under load, which means a cooling pad's job is to supplement an existing airflow system rather than compensate for the complete absence of one, as is the case with the fanless Air. See our MacBook Air cooling pad guide for that distinction in more detail if you're unsure which applies to your machine.",
-  "MacBook Pro's vent locations also vary by generation, some combine rear-hinge and bottom-panel venting depending on the model year, so alignment with a pad's fan placement is not automatic even here. This guide compares six pads with an eye toward video editing, compilation, and other sustained heavy workloads MacBook Pro owners commonly run, and MacBook Pro's larger port selection makes USB compatibility less of a constraint than on a base Air.",
+  "MacBook Pro's vent locations also vary by generation, some combine rear-hinge and bottom-panel venting depending on the model year, so alignment with a pad's fan placement is not automatic even here. This guide compares six pads with an eye toward video editing, compilation, and other sustained heavy workloads MacBook Pro owners commonly run, and MacBook Pro's larger port selection makes USB compatibility less of a constraint than on a base Air."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "10 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Active-fan vs fanless distinction", description: "We evaluated each pick with the understanding that MacBook Pro already has active internal fans, unlike the fanless MacBook Air, so a cooling pad's role here is genuinely supplementary rather than compensatory." },
   { title: "Generation-specific vent alignment", description: "We noted that MacBook Pro vent locations vary by generation between rear-hinge and bottom-panel combinations, and did not assume uniform compatibility across all model years." },
   { title: "Heavy-workload relevance", description: "We weighed each pick's usefulness for sustained video editing, compilation, and export workloads common among MacBook Pro users, not just casual browsing." },
-  { title: "Port compatibility", description: "We noted that MacBook Pro's larger port selection makes USB pass-through compatibility less of a constraint than on a base MacBook Air, though it still matters for keeping ports free." },
+  { title: "Port compatibility", description: "We noted that MacBook Pro's larger port selection makes USB pass-through compatibility less of a constraint than on a base MacBook Air, though it still matters for keeping ports free." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -259,11 +259,11 @@ export const faq: FaqItem[] = [
   { q: "Is a MacBook Pro cooling pad the same as a MacBook Air one?", a: "The category overlaps, but MacBook Pro's active internal fans mean external cooling is generally more effective here than on a fanless Air. Some pads in this guide, like the MacBook-specific semiconductor cooler, work for both." },
   { q: "Do all MacBook Pro generations vent the same way?", a: "No. Vent placement varies between rear-hinge and bottom-panel combinations depending on the specific generation. Check your model year's vent layout before assuming a bottom-mounted pad aligns perfectly." },
   { q: "Which pad is best for 16 inch MacBook Pro video editing?", a: "The llano V12 and Razer Adaptive Smart cover the larger footprint and heavier sustained cooling needs of the 16 inch model, with the llano V12 offering a documented temperature reduction figure." },
-  { q: "Do I need to worry about USB ports with a MacBook Pro cooling pad?", a: "Less than with a base MacBook Air, since MacBook Pro models generally include more native ports. A pass-through port is still convenient for keeping one free during a long editing session." },
+  { q: "Do I need to worry about USB ports with a MacBook Pro cooling pad?", a: "Less than with a base MacBook Air, since MacBook Pro models generally include more native ports. A pass-through port is still convenient for keeping one free during a long editing session." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-cooling-pads-for-macbook-air", title: "Best Laptop Cooling Pads for MacBook Air (2026)" },
   { href: "/guide/best-16-inch-laptop-cooling-pads", title: "Best 16-Inch Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-gaming-laptop-cooling-pads", title: "Best Gaming Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-gaming-laptop-cooling-pads", title: "Best Gaming Laptop Cooling Pads (2026)" }
 ];

@@ -12,7 +12,7 @@ export const deskLampKelvinColorTemperatureGuide: Guide = {
     "desk lamp color temperature explained",
     "best kelvin for desk lamp",
     "warm vs cool light desk lamp",
-    "3000k vs 5000k desk lamp",
+    "3000k vs 5000k desk lamp"
   ],
   heroImage: "https://images.unsplash.com/photo-1560890264-4b92305ee66e?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1560890264-4b92305ee66e?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskLampKelvinColorTemperatureGuide: Guide = {
     "desk-lamps-small-desks",
     "best-desk-lamp-under-30",
     "best-clip-on-desk-lamp",
-    "best-desk-clocks-with-temperature-displays",
+    "best-desk-clocks-with-temperature-displays"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskLampKelvinColorTemperatureGuide: Guide = {
       question: "Is a higher Kelvin number always a brighter light?",
       answer:
         "No. Kelvin measures color temperature (the tint of the light, from warm yellow to cool blue), not brightness, which is measured separately in lumens. A lamp can be rated at a high Kelvin (cool, blue-white light) while still having a low lumen output, or vice versa.",
-    },
+    }
   ],
   sections: [
     {
@@ -78,6 +78,6 @@ Working under a color temperature mismatched to the time of day, like cool 5000K
     {
       heading: "Choosing Between Fixed and Adjustable Color Temperature",
       body: `A fixed-temperature lamp locks you into one color range for all use, which is fine if your desk time happens at a consistent time of day, but limiting if you work both morning and late evening at the same desk. An adjustable-temperature lamp, letting you shift from cool to warm white, covers both use cases without needing a second lamp, generally worth the modest price premium if your work hours vary.`,
-    },
+    }
   ],
 };

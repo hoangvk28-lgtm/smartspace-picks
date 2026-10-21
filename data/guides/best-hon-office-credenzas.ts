@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $240.00",
+          "Under $250",
           "HON HONLCS7224LS1 72 in. Shell Credenza Slate Teak"
         ],
         [
-          "Around $250.00",
+          "Under $300",
           "HON Mod HLPLCS4824 Credenza Shell"
         ],
         [
-          "Around $315.00",
+          "Under $350",
           "HON HONLCS7224LT1 72 in. Shell Credenza Mahogany"
         ],
         [
-          "Around $1,329.48",
+          "Under $1,400",
           "Hon Credenza with Knee Space"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "HON HONLCS7224LT1 72 in. Shell Credenza Mahogany is aimed at buyers prioritizing 72in wide shell, mahogany finish." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "HON HONLCS7224LT1 72 in. Shell Credenza Mahogany is aimed at buyers prioritizing 72in wide shell, mahogany finish." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-sauder-office-credenzas","title":"Best Sauder Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"}];

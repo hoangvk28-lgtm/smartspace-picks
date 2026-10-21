@@ -5,7 +5,7 @@ export const metaDescription = "5 UPS units we evaluated at the 600VA capacity t
 export const mainKeyword = "600VA UPS battery backup";
 export const introParagraphs = [
   "A 600VA rating typically translates to around 330-360W of real usable capacity due to the power factor of most UPS designs, genuinely appropriate for a single low-power PC, router, or NAS device, not a full desktop with a monitor and peripherals.",
-  "At this capacity tier, runtime during an actual outage is measured in minutes, not hours, enough to save your work and shut down cleanly, not to keep working through an extended outage.",
+  "At this capacity tier, runtime during an actual outage is measured in minutes, not hours, enough to save your work and shut down cleanly, not to keep working through an extended outage."
 ];
 export const lastUpdated = "2026-07-30";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best 600VA UPS Overall",
     name: "APC UPS 600VA/330W UPS Battery Backup for Computer, Router, NAS, BE600M1",
     price: "$83.99",
-    rating: "4.5 stars from 29,088 Amazon ratings",
-    reviews: "29,088 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41h0sXfkrSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01FWAZEIU?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Eco-Focused 600VA Pick",
     name: "CyberPower EC650LCD Ecologic UPS Battery Backup and Surge Protector",
     price: "$96.95",
-    rating: "4.5 stars from 2,296 Amazon ratings",
-    reviews: "2,296 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41oXxtOnuAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00DBAAJQ6?tag=deskfinds0d-20",
     description:
@@ -59,12 +59,12 @@ export const products: GuideProduct[] = [
     badge: "Best Warranty-Backed 600VA Pick",
     name: "Eaton Tripp Lite Series INTERNET600U Small UPS Battery Backup & Surge Protector, 600VA / 325W, 10 Outlets, Computer Uninterruptible Power Supply Units for PC, 3-Year Warranty & $100,000 Insurance",
     price: "$88.99",
-    rating: "4.5 stars from 1,824 Amazon ratings",
-    reviews: "1,824 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41JHxO-mGhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0010DF6UK?tag=deskfinds0d-20",
     description:
-      "10 outlets at the 600VA tier, notably more than most competitors offer at this capacity, genuinely useful if you have several low-draw peripherals to plug in. The 3-year warranty with $100,000 connected-equipment insurance adds real peace of mind. 325W real capacity, in line with the typical power factor math for this VA class, size accordingly. 3-year warranty with substantial connected-equipment insurance. On the other hand, 325W real capacity, appropriate only for low-power devices. Both are worth keeping in mind before deciding.\n\nThis pick is best for buyers who value 10 outlets, more than most competitors at this capacity along with 3-year warranty with substantial connected-equipment insurance. The catch is that 325W real capacity, appropriate only for low-power devices, so decide if that's worth it at $88.99.",
+      "10 outlets at the 600VA tier, notably more than most competitors offer at this capacity, genuinely useful if you have several low-draw peripherals to plug in. The 3-year warranty with $100,000 connected-equipment insurance adds real peace of mind. 325W real capacity, in line with the typical power factor math for this VA class, size accordingly. 3-year warranty with substantial connected-equipment insurance. On the other hand, 325W real capacity, appropriate only for low-power devices. Both are worth keeping in mind before deciding.\n\nThis pick is best for buyers who value 10 outlets, more than most competitors at this capacity along with 3-year warranty with substantial connected-equipment insurance. The catch is that 325W real capacity, appropriate only for low-power devices, so decide if that's worth it at under $90.",
     specs: ["600VA/325W", "10 outlets", "3-Year warranty, $100,000 connected equipment insurance", "Compact form factor"],
     pros: ["10 outlets, more than most competitors at this capacity", "3-year warranty with substantial connected-equipment insurance", "Solid rating base", "Reasonable price"],
     cons: ["325W real capacity, appropriate only for low-power devices", "Not pure sine wave", "Short runtime under real load"],
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Standby 600VA Pick",
     name: "CyberPower ST625U Standby UPS Battery Backup and Surge Protector",
     price: "$79.95",
-    rating: "4.5 stars from 2,712 Amazon ratings",
-    reviews: "2,712 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41RpdrMTUFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07GZR9DSK?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best AVR-Equipped 600VA Pick",
     name: "Tripp Lite 550VA UPS Battery Backup Surge Protector, AVR Automatic Voltage Regulation, 8-Outlet Uninterruptible Power Supply, Dataline Protection, 3-Year Warranty & Insurance (AVR550U)",
     price: "$92.99",
-    rating: "4.3 stars from 164 Amazon ratings",
-    reviews: "164 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41LNvUtwb2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000BMBT4I?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["AVR included, a real step up from basic standby designs at this price", "8 outlets, dataline protection included", "Warranty with connected-equipment insurance", "Reasonable price"],
     cons: ["Smaller review base than other picks in this guide", "Lowest capacity among the 600VA-class picks", "Not pure sine wave"],
     bestFor: "Buyers who want AVR brownout correction at the 600VA budget tier",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Real watts, not the 600VA label, as the sizing baseline", description: "Checked the actual watt rating on each pick, since a 600VA rating typically translates to around 325-360W of real usable capacity depending on the specific design's power factor." },
   { title: "Appropriate use-case matching for this capacity tier", description: "Confirmed each pick is genuinely suited to a single low-power device (router, NAS, basic PC) rather than a full desktop, since 600VA is an entry tier, not a general-purpose capacity." },
-  { title: "AVR and outlet count as real differentiators at the budget tier", description: "Distinguished picks offering AVR brownout correction or above-average outlet counts from basic standby-only designs, since these are genuine feature differences even within the same capacity class." },
+  { title: "AVR and outlet count as real differentiators at the budget tier", description: "Distinguished picks offering AVR brownout correction or above-average outlet counts from basic standby-only designs, since these are genuine feature differences even within the same capacity class." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Do 600VA UPS units include AVR?", a: "Not always. Some budget picks are standby-only, while others (like the Tripp Lite AVR550U in this guide) include AVR for in-line brownout correction, check the specific model rather than assuming all 600VA units are equivalent." },
   { q: "What's the difference between 600VA and 850VA UPS units?", a: "The real usable wattage difference is meaningful, roughly 325-360W at 600VA versus 450-510W at 850VA, enough to matter if you're protecting anything beyond a single low-power device." },
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers protecting a single computer, router, or NAS device" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers protecting a single router or basic low-power device At $79.95, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers protecting a single router or basic low-power device At under $80, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-850va-ups-battery-backups", title: "Best 850VA UPS Battery Backups (2026)" },
   { href: "/guide/best-ups-battery-backups-for-nas-devices", title: "Best UPS Battery Backups for NAS Devices (2026)" },
-  { href: "/guide/best-ups-battery-backups-with-replaceable-batteries", title: "Best UPS Battery Backups with Replaceable Batteries (2026)" },
+  { href: "/guide/best-ups-battery-backups-with-replaceable-batteries", title: "Best UPS Battery Backups with Replaceable Batteries (2026)" }
 ];

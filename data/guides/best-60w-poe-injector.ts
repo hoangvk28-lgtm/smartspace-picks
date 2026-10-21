@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Real-time power monitoring and 2.5G speed", "LINOVISION 2.5G BT 60W PoE++ Injector"],
         ["UL certification", "Omada PoE++ Injector 60W"],
         ["Durable metal housing", "Cudy 60W Gigabit PoE++ Injector"],
-        ["Lowest price, multi-unit deployment", "BV-Tech 60W Gigabit PoE++ Injector"],
+        ["Lowest price, multi-unit deployment", "BV-Tech 60W Gigabit PoE++ Injector"]
       ],
     },
   },
@@ -109,9 +109,9 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $23", "BV-Tech 60W Gigabit PoE++ Injector ($22.49)"],
-        ["Under $40", "Cudy 60W Gigabit PoE++ Injector ($39.99)"],
-        ["Under $46", "Omada POE170S or LINOVISION 2.5G (both under $46)"],
+        ["Under $23", "BV-Tech 60W Gigabit PoE++ Injector (under $25)"],
+        ["Under $40", "Cudy 60W Gigabit PoE++ Injector (under $40)"],
+        ["Under $46", "Omada POE170S or LINOVISION 2.5G (both under $46)"]
       ],
     },
   },
@@ -119,7 +119,7 @@ export const howToChoose = [
     subheading: "Gigabit vs 2.5G at the 60W Tier",
     cards: [
       { label: "Gigabit (Omada, Cudy, BV-Tech)", text: "Covers the bandwidth needs of most PTZ cameras and standard access points at this power tier without a price premium for unused speed." },
-      { label: "2.5G (LINOVISION)", text: "Matches newer Wi-Fi 6E and Wi-Fi 7 access points that can exceed Gigabit throughput, worth the modest premium if your network backbone supports it." },
+      { label: "2.5G (LINOVISION)", text: "Matches newer Wi-Fi 6E and Wi-Fi 7 access points that can exceed Gigabit throughput, worth the modest premium if your network backbone supports it." }
     ],
     note: "Check your specific access point or camera's actual data throughput needs before paying extra for 2.5G speed your device or network can't use.",
   },
@@ -129,7 +129,7 @@ export const howToChoose = [
       headers: ["Your deployment", "Recommended pick"],
       rows: [
         ["Single unit, feature-rich", "LINOVISION 2.5G BT 60W PoE++ Injector"],
-        ["Multiple units in one rack or closet", "BV-Tech 60W Gigabit PoE++ Injector"],
+        ["Multiple units in one rack or closet", "BV-Tech 60W Gigabit PoE++ Injector"]
       ],
     },
   },
@@ -137,16 +137,16 @@ export const howToChoose = [
     subheading: "For Wi-Fi 6 or 6E Access Point Deployment Specifically",
     cards: [
       { label: "Look for", text: "802.3bt compliance at the full 60W tier plus port speed matching the access point's actual throughput capability, since some Wi-Fi 6E APs can exceed Gigabit speeds under heavy load." },
-      { label: "In this comparison", text: "The LINOVISION pick's 2.5G port speed specifically accommodates high-bandwidth Wi-Fi 6/6E access points that a Gigabit-capped injector would bottleneck." },
+      { label: "In this comparison", text: "The LINOVISION pick's 2.5G port speed specifically accommodates high-bandwidth Wi-Fi 6/6E access points that a Gigabit-capped injector would bottleneck." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want live power monitoring or UL certification, where the LINOVISION or Omada picks near $45 justify the price with a genuine feature or certification difference." },
-      { label: "Save if", text: "You're deploying several injectors together and just need reliable 60W Gigabit delivery, where the BV-Tech pick's $22.49 price and interlocking design fit that need well." },
+      { label: "Save if", text: "You're deploying several injectors together and just need reliable 60W Gigabit delivery, where the BV-Tech pick's under $25 price and interlocking design fit that need well." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

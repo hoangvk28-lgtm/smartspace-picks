@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $197.99",
+          "Under $200",
           "Tribesigns 63-Inch U-Shaped Reception Desk with Private Panel"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "Tribesigns L-Shaped Reception Desk with Storage Shelves"
         ],
         [
-          "Around $259.99",
+          "Under $300",
           "Tribesigns 63-Inch Reception Desk with LED Lights"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "Kikihouse 63\" Fluted Reception Desk with LED"
         ],
         [
-          "Around $369.99",
+          "Under $400",
           "63\" Reception Desk with Dual-Level Counter and LED"
         ],
         [
-          "Around $559.99",
+          "Under $600",
           "ZIMASYA 63\" Reception Counter with Combination Lock Drawers"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "Kikihouse 63\" Fluted Reception Desk with LED is aimed at buyers prioritizing 63\"w x 22\"d x 42\"h fluted-front desk, maple." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Kikihouse 63\" Fluted Reception Desk with LED is aimed at buyers prioritizing 63\"w x 22\"d x 42\"h fluted-front desk, maple." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-60-inch-reception-desks","title":"5 Best 60-Inch Reception Desks in 2026"},{"href":"/guide/best-70-inch-reception-desks","title":"5 Best 70-Inch Reception Desks in 2026"},{"href":"/guide/best-6ft-reception-desks","title":"6 Best 6ft Reception Desks in 2026"}];

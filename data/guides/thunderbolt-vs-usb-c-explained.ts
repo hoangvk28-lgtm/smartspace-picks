@@ -12,7 +12,7 @@ export const thunderboltVsUsbCExplainedGuide: Guide = {
     "thunderbolt 4 vs usb-c difference",
     "is thunderbolt faster than usb-c",
     "thunderbolt docking station benefits",
-    "usb-c port same as thunderbolt",
+    "usb-c port same as thunderbolt"
   ],
   heroImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const thunderboltVsUsbCExplainedGuide: Guide = {
     "usb-c-power-delivery-explained",
     "usb-c-docking-station-ports-chart",
     "docking-station-vs-usb-hub",
-    "kvm-switch-explained",
+    "kvm-switch-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const thunderboltVsUsbCExplainedGuide: Guide = {
       question: "Are Thunderbolt docks more expensive than USB-C docks?",
       answer:
         "Generally yes, Thunderbolt's higher-bandwidth components add cost, the price difference is worth it primarily if you actually need the additional bandwidth for demanding tasks like multiple high-resolution displays or fast external storage access.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const thunderboltVsUsbCExplainedGuide: Guide = {
     {
       heading: "Deciding If You Actually Need Thunderbolt",
       body: `For everyday tasks like charging a laptop, connecting a keyboard and mouse, and driving a single external monitor, standard USB-C handles this comfortably without needing Thunderbolt's extra bandwidth. Thunderbolt becomes genuinely valuable once you're running multiple high-resolution external displays simultaneously or transferring large files to and from a fast external SSD, where the bandwidth difference translates into a real, noticeable performance gain.`,
-    },
+    }
   ],
 };

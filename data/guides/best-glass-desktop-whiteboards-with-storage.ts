@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desktop glass whiteboard with storage";
 export const introParagraphs = [
   "We required real storage capacity here - a drawer, tray, or organizer section that holds more than a single marker - rather than counting a decorative groove as \"storage.\"",
-  "Every product in this comparison uses a genuine glass writing surface, which resists ghosting better than melamine boards over repeated use, so the real differentiator is how much storage each one actually adds.",
+  "Every product in this comparison uses a genuine glass writing surface, which resists ghosting better than melamine boards over repeated use, so the real differentiator is how much storage each one actually adds."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41KvzD4pxFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B093B83ZSN?tag=deskfinds0d-20",
     description: "Highest rating in this comparison, with genuine organizer compartments and a to-do list section built into the glass board, not just a marker groove.",
-    specs: ["Glass surface with organizer compartments", "To-do list section", "1,020 reviews at 4.8 stars"],
+    specs: ["Glass surface with organizer compartments", "To-do list section"],
     pros: ["Highest rating in this comparison", "Real organizer compartments, not just a marker slot"],
     cons: ["Not the largest review base in this comparison"],
     bestFor: "Buyers who want the highest-rated glass board with genuine storage.",
@@ -47,7 +47,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31W4Q2LBraL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09PHHT8DM?tag=deskfinds0d-20",
     description: "The same core storage design as the top pick, at the same price - check the current listing for any accessory differences between the two.",
-    specs: ["Glass surface with organizer compartments", "723 reviews at 4.7 stars"],
+    specs: ["Glass surface with organizer compartments"],
     pros: ["Same organizer design as the higher-rated Varhomax listing"],
     cons: ["Smaller review base and slightly lower rating"],
     bestFor: "Buyers comparing Varhomax listings for the best current deal.",
@@ -63,7 +63,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41aTFk156tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09C1VT7X8?tag=deskfinds0d-20",
     description: "The largest review base among the glass options here, designed for keyboard-adjacent placement with integrated storage, at the highest price in this comparison.",
-    specs: ["Glass surface, keyboard-stand design with storage", "1,524 reviews at 4.8 stars"],
+    specs: ["Glass surface, keyboard-stand design with storage"],
     pros: ["Largest review base among the glass storage options"],
     cons: ["Highest price in this comparison"],
     bestFor: "Buyers who want the most proven, though most expensive, glass storage whiteboard.",
@@ -78,8 +78,8 @@ export const products: GuideProduct[] = [
     reviews: "2,500",
     imageUrl: "https://m.media-amazon.com/images/I/41+-w5AGGrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B089NL8QMN?tag=deskfinds0d-20",
-    description: "The largest review base in this entire comparison at 2,500 reviews, slightly cheaper than the top-rated keyboard-stand pick with a similar storage design.",
-    specs: ["Glass surface with storage", "2,500 reviews at 4.7 stars"],
+    description: "The TSJ OFFICE board is a small glass dry-erase surface built as a keyboard stand, with storage included in the design. You write on the glass with dry-erase markers and wipe it clean, which keeps quick notes in front of you on a crowded desk.\n\nIt shares the keyboard-stand layout with the Small Desktop Glass Whiteboard in this guide, so the choice between them comes down to current price and availability. It suits people who want a glass board right at the keyboard, though the listing gives few measurements, so check the dimensions against your desk before ordering.",
+    specs: ["Glass surface with storage"],
     pros: ["Largest review base in this entire comparison", "Cheaper than the equivalent keyboard-stand option"],
     cons: ["Slightly lower rating than the top-rated Varhomax pick"],
     bestFor: "Buyers who want the most-reviewed glass storage option at a lower price.",
@@ -95,11 +95,11 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41p7y7rrfnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CL42YP8H?tag=deskfinds0d-20",
     description: "The cheapest glass-with-storage option in this comparison, though with a noticeably lower rating and smaller review base than the other picks - worth reading current feedback before choosing this over the Varhomax or TSJ options.",
-    specs: ["Glass surface with storage", "287 reviews at 4.2 stars"],
+    specs: ["Glass surface with storage"],
     pros: ["Cheapest option in this comparison"],
     cons: ["Meaningfully lower rating and smaller review base than the other picks"],
     bestFor: "Budget-focused buyers comfortable with a lower rating than the more established options.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required genuine storage, not a decorative groove", description: "We only included products with real organizer compartments or trays, not a single marker slot marketed as \"storage.\"" },
   { title: "Glass surface confirmed across every pick", description: "We verified each product uses genuine glass, which resists ghosting better than melamine over repeated use, rather than a glass-look finish." },
   { title: "Review volume and rating together", description: "We weighted both the size of the review base and the actual rating, flagging where a cheaper option has a notably lower rating." },
-  { title: "Near-identical listings distinguished by evidence", description: "For the two Varhomax listings with the same core design, we used review count and rating to differentiate them." },
+  { title: "Near-identical listings distinguished by evidence", description: "For the two Varhomax listings with the same core design, we used review count and rating to differentiate them." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -120,7 +120,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Highest rating with real storage", "Varhomax Glass Desk Whiteboard with Storage, to-do List"],
         ["Most proven overall", "Small Desktop Glass Whiteboard, Keyboard Stand"],
         ["Best value, largest review base", "TSJ OFFICE Small Desktop Whiteboard"],
-        ["Cheapest option", "Desktop Glass Whiteboard with Storage, Black"],
+        ["Cheapest option", "Desktop Glass Whiteboard with Storage, Black"]
       ],
     },
   },
@@ -160,11 +160,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Desktop Glass Whiteboard with Storage",
-        "text": "Budget-focused buyers comfortable with a lower rating than the more established options. At $23.74, it's the lowest-cost pick in this comparison."
+        "text": "Budget-focused buyers comfortable with a lower rating than the more established options. At under $25, it's the lowest-cost pick in this comparison."
       },
       {
         "label": "Small Desktop Glass Whiteboard Dry-Erase-Board",
-        "text": "Buyers who want the most proven, though most expensive, glass storage whiteboard. At $27.99, it sits at the higher end of this comparison's price range."
+        "text": "Buyers who want the most proven, though most expensive, glass storage whiteboard. At under $30, it sits at the higher end of this comparison's price range."
       }
     ],
     "note": "Most buyers should default to Desktop Glass Whiteboard with Storage unless most proven overall specifically applies to your situation."
@@ -217,7 +217,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "Budget-focused buyers comfortable with a lower rating than the more established options."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -225,20 +225,21 @@ export const buyingCriteria: BuyingCriterion[] = [
   { criterion: "Confirm the surface is genuine glass", explanation: "Glass resists ghosting better than melamine over repeated erasing, and every top pick here uses real glass." },
   { criterion: "Weigh price against rating, not just cost", explanation: "The cheapest option here has a noticeably lower rating than the pricier picks - verify current feedback before choosing it for the savings alone." },
   { criterion: "Compare near-identical listings by review data", explanation: "The two Varhomax listings use the same core design - use review count and rating to pick between them." },
-  { criterion: "Check keyboard-adjacent placement fit if relevant", explanation: "Some picks here are specifically designed to sit behind a keyboard - verify dimensions against your desk setup." },
+  { criterion: "Check keyboard-adjacent placement fit if relevant", explanation: "Some picks here are specifically designed to sit behind a keyboard - verify dimensions against your desk setup." }
 ];
 
 export const faq: FaqItem[] = [
   { q: "Do these have real storage or just a marker groove?", a: "We only included products with genuine organizer compartments or trays, verified against the current listing descriptions." },
-  { q: "Which has the highest rating?", a: "The Varhomax Glass Desk Whiteboard with Storage and to-do List, at 4.8 stars." },
-  { q: "Which has the most reviews?", a: "The TSJ OFFICE Small Desktop Whiteboard, with 2,500 reviews." },
-  { q: "What's the cheapest option?", a: "The Desktop Glass Whiteboard with Storage (black) at $23.74, though it has a notably lower rating than the other picks." },
+  
+  
+  { q: "What's the cheapest option?", a: "The Desktop Glass Whiteboard with Storage (black) at under $25, though it has a notably lower rating than the other picks." },
   { q: "Are the two Varhomax listings the same product?", a: "They appear to use the same core storage design at the same price - check the current listing for exact accessory differences." },
   { q: "Which pick in this comparison offers the most writing area for the price?", a: "Buyers who want the most proven, though most expensive, glass storage whiteboard." },
+  { q: "Can I use any marker on a glass desktop whiteboard?", a: "Stick to dry-erase markers made for whiteboards and glass, and avoid permanent markers, which can leave a stubborn film. Wipe notes off soon after writing rather than letting them sit for weeks, since older ink clings harder. The storage compartments on the Varhomax boards are a handy place to keep a spare marker and eraser within reach." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-personal-desktop-whiteboards", title: "Best Personal Desktop Whiteboards (2026)" },
   { href: "/guide/best-compact-desktop-whiteboards", title: "Best Compact Desktop Whiteboards (2026)" },
-  { href: "/guide/best-desktop-whiteboards", title: "Best Desktop Whiteboards (2026)" },
+  { href: "/guide/best-desktop-whiteboards", title: "Best Desktop Whiteboards (2026)" }
 ];

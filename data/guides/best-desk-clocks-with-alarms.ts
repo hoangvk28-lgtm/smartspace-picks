@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desk clock with alarm";
 export const introParagraphs = [
   "Not every desk clock includes an alarm, plenty are purely decorative or display-only, so we checked each listing specifically for confirmed alarm functionality before including it here rather than assuming digital automatically means alarm-equipped. All six picks below explicitly state an alarm feature in their listing.",
-  "If you want a purely decorative desk clock without needing an alarm, our broader desk clocks guide covers a wider style range, including pieces that skip alarm functionality entirely in favor of design.",
+  "If you want a purely decorative desk clock without needing an alarm, our broader desk clocks guide covers a wider style range, including pieces that skip alarm functionality entirely in favor of design."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "8 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed alarm functionality directly from listing titles and details", description: "Included only products whose listings explicitly state an alarm feature, rather than assuming any digital clock includes one by default." },
   { title: "Flagged the one pick with less explicit alarm confirmation", description: "Called out clearly where our confirmed feature set for a pick centers on other functions and recommended buyers verify the exact alarm details on that specific listing before purchase." },
   { title: "Compared corded versus battery power across every alarm pick", description: "Noted which alarm clocks need a wall outlet versus which run cordlessly, a real placement consideration for a device meant to wake you up reliably." },
-  { title: "Balanced feature density against simplicity", description: "Included both a feature-dense alarm clock with remote control and a no-frills travel alarm clock, since buyers have very different priorities for what an alarm clock should do beyond waking them up." },
+  { title: "Balanced feature density against simplicity", description: "Included both a feature-dense alarm clock with remote control and a no-frills travel alarm clock, since buyers have very different priorities for what an alarm clock should do beyond waking them up." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -262,11 +262,11 @@ export const faq: FaqItem[] = [
   { q: "Do all digital desk clocks have alarms?", a: "No, some are display only. Every pick in this guide was chosen specifically because its listing confirms alarm functionality, don't assume a digital clock includes an alarm without checking." },
   { q: "What happens to my alarm during a power outage?", a: "It depends on the clock. Corded alarm clocks with a battery backup, like the JALL pick in this guide, keep your alarm settings through an outage, while fully battery powered clocks aren't affected by outages at all." },
   { q: "Can I get a personalized desk clock with a real alarm?", a: "Yes, the Personalized Clock with Alarm in this guide combines confirmed alarm functionality with custom engraving, suited to both daily use and gifting." },
-  { q: "What's the cheapest confirmed alarm clock in this guide?", a: "The Peakeep Small Battery Operated Analog Travel Alarm Clock at $11.49 is the most affordable confirmed alarm pick in this guide." },
+  { q: "What's the cheapest confirmed alarm clock in this guide?", a: "The Peakeep Small Battery Operated Analog Travel Alarm Clock at under $15 is the most affordable confirmed alarm pick in this guide." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-desk-clocks", title: "Best Digital Desk Clocks (2026)" },
   { href: "/guide/best-personalized-desk-clocks", title: "Best Personalized Desk Clocks (2026)" },
-  { href: "/guide/best-desk-clocks", title: "Best Desk Clocks (2026)" },
+  { href: "/guide/best-desk-clocks", title: "Best Desk Clocks (2026)" }
 ];

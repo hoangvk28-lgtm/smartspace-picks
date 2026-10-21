@@ -12,7 +12,7 @@ export const gamingChairVsErgonomicChairRevisitedGuide: Guide = {
     "gaming chair long term comfort",
     "ergonomic chair vs gaming chair back support",
     "is a gaming chair bad for posture",
-    "best chair for long gaming sessions",
+    "best chair for long gaming sessions"
   ],
   heroImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const gamingChairVsErgonomicChairRevisitedGuide: Guide = {
     "lumbar-support-explained",
     "office-chair-size-chart",
     "mesh-vs-fabric-office-chair",
-    "chair-tilt-mechanisms-explained",
+    "chair-tilt-mechanisms-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const gamingChairVsErgonomicChairRevisitedGuide: Guide = {
       question: "Should I choose based on aesthetic preference if both types offer similar functional quality?",
       answer:
         "Yes, if you've confirmed comparable adjustability and build quality between specific chair options, choosing based on which aesthetic fits your desk setup and personal taste is a perfectly reasonable final deciding factor.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const gamingChairVsErgonomicChairRevisitedGuide: Guide = {
     {
       heading: "Why Proper Adjustment Matters More Than the Chair Itself",
       body: `Even a genuinely well-designed, highly adjustable chair provides poor support if it's not actually adjusted correctly for your body, an ergonomic chair left at factory default settings offers little advantage over a gaming chair used the same way. Taking the time to properly adjust seat height, depth, lumbar position, and armrest height, regardless of which chair type you choose, has more impact on your actual comfort and posture than the underlying category distinction between gaming and ergonomic chairs.`,
-    },
+    }
   ],
 };

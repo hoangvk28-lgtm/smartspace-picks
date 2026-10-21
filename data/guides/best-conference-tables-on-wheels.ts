@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $289.88",
+          "Under $300",
           "Okeysen Flip-Top Mobile Conference Table"
         ],
         [
-          "Around $604.79",
+          "Under $650",
           "Folding Conference Room Tables with Wheels"
         ],
         [
-          "Around $633.34",
+          "Under $650",
           "6-12 Person Folding Conference Table on Wheels"
         ],
         [
-          "Around $648.00",
+          "Under $650",
           "Folding Conference Table with Wheels"
         ],
         [
-          "Around $1,380.00",
+          "Under $1,400",
           "JNMDLAKO Modular Conference Table with Wheels"
         ],
         [
-          "Around $1,520.00",
+          "Under $1,600",
           "Modular Conference Table with Modesty Panel"
         ],
         [
-          "Around $1,568.60",
+          "Under $1,600",
           "8-Pack Modular Folding Conference Tables with Wheels"
         ],
         [
-          "Around $1,800.00",
+          "Under $1,900",
           "robwibw 6-Pack Folding Conference Table on Wheels"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "Folding Conference Room Tables with Wheels is aimed at buyers prioritizing 4 length options: 47.2\" to 70.8\"." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Folding Conference Room Tables with Wheels is aimed at buyers prioritizing 4 length options: 47.2\" to 70.8\"." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-conference-tables","title":"Best Portable Conference Tables in 2026"},{"href":"/guide/best-conference-tables","title":"Best Conference Tables in 2026"},{"href":"/guide/best-conference-tables-with-chairs","title":"Best Conference Tables With Chairs in 2026"}];

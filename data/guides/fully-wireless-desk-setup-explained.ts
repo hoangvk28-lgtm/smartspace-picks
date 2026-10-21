@@ -12,7 +12,7 @@ export const fullyWirelessDeskSetupExplainedGuide: Guide = {
     "wireless desk setup ideas",
     "cable free desk possible",
     "which desk devices should stay wired",
-    "minimalist wireless workspace",
+    "minimalist wireless workspace"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const fullyWirelessDeskSetupExplainedGuide: Guide = {
     "wired-vs-wireless-mouse",
     "wireless-charging-stand-explained",
     "cable-management-types-explained",
-    "ethernet-vs-wifi-for-desk-setup",
+    "ethernet-vs-wifi-for-desk-setup"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const fullyWirelessDeskSetupExplainedGuide: Guide = {
       question: "Does going wireless mean accepting worse performance for peripherals like a mouse?",
       answer:
         "Not with modern quality wireless peripherals, current wireless mice and keyboards using dedicated low-latency connections perform comparably to wired equivalents for the vast majority of users, the historical performance gap has narrowed significantly with improved technology.",
-    },
+    }
   ],
   sections: [
     {
@@ -76,6 +76,6 @@ export const fullyWirelessDeskSetupExplainedGuide: Guide = {
     {
       heading: "Why Modern Wireless Peripherals No Longer Represent a Meaningful Performance Compromise",
       body: `In earlier generations of wireless technology, switching from wired to wireless peripherals genuinely did involve some real performance tradeoff, noticeable latency or connection reliability issues, current wireless mice and keyboards using dedicated, purpose-built low-latency wireless protocols have closed this gap to the point where the vast majority of users, including many competitive gamers, can't meaningfully distinguish wireless from wired performance in practice, this technological maturity is precisely why building a wireless desk setup today no longer requires the functional compromise it once did.`,
-    },
+    }
   ],
 };

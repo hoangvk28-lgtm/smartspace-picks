@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini desktop whiteboard";
 export const introParagraphs = [
   "This guide covers the smallest tier of desktop whiteboard, the mini category, distinct from our broader small desktop whiteboard guide which covers slightly larger boards suited to short lists. The picks here run from 8x6 inches down to boards explicitly labeled \"mini\" by their own listings, and we compare them by actual dimensions rather than assuming mini and small are interchangeable.",
-  "At this size, realistic use shifts from general note-taking toward single-task reminders, since a genuinely mini board doesn't have room for a running list. What you're really buying at this tier is portability and a minimal desk footprint, not writing capacity, worth keeping in mind before comparing prices against larger boards.",
+  "At this size, realistic use shifts from general note-taking toward single-task reminders, since a genuinely mini board doesn't have room for a running list. What you're really buying at this tier is portability and a minimal desk footprint, not writing capacity, worth keeping in mind before comparing prices against larger boards."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "6 min";
@@ -70,7 +70,7 @@ export const products: GuideProduct[] = [
     pros: ["Explicitly labeled mini, matches this category directly", "Only double-sided option in this guide", "Includes a stand per listing", "Magnetic surface adds note-holding flexibility"],
     cons: ["Exact dimensions not stated, compare carefully against our other picks", "Price not listed, check current Amazon pricing", "Material composition not detailed in listing"],
     bestFor: "Buyers wanting two small writing surfaces in one mini-footprint board with a stand.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -78,7 +78,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified each pick as genuinely mini, not just small", description: "Prioritized boards explicitly labeled \"mini\" in their own listings, or with the smallest stated dimensions in our research pool, rather than reusing our broader small whiteboard picks." },
   { title: "Compared actual dimensions against our small whiteboard guide", description: "Cross-referenced stated sizes here against the small category to confirm these picks genuinely sit at the smallest tier rather than overlapping generically." },
   { title: "Weighed realistic use case at this size", description: "Assessed each pick for single-task reminder use rather than general planning capacity, since that's the realistic use case at mini dimensions." },
-  { title: "Noted portability and footprint as the core value proposition", description: "Evaluated each pick primarily on how little desk space it demands, since that's the main reason to choose mini over the broader small category." },
+  { title: "Noted portability and footprint as the core value proposition", description: "Evaluated each pick primarily on how little desk space it demands, since that's the main reason to choose mini over the broader small category." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -102,7 +102,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Smallest, cheapest option with markers included", "Mini Pure Glass Whiteboard 8\"x6\""],
         ["Mini size but with a stand to prop it up", "Black Glass Whiteboard 9.5\"x6.7\" with Stand"],
-        ["Two small writing surfaces in a mini footprint", "NC Magnetic Double-Sided Mini Board"],
+        ["Two small writing surfaces in a mini footprint", "NC Magnetic Double-Sided Mini Board"]
       ],
     },
   },
@@ -115,11 +115,11 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $15.18",
+          "Under $20",
           "Black Mini Desktop Pure Glass Whiteboard"
         ],
         [
-          "Around $23.99",
+          "Under $25",
           "Desktop Black Glass Dry Erase Whiteboard with Reversible Wood Stand"
         ]
       ]
@@ -137,14 +137,14 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "Black Mini Desktop Pure Glass Whiteboard is aimed at Buyers who want the smallest, most portable option and only need single-task reminders."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
   { criterion: "Confirm you actually need mini, not just small", explanation: "Mini boards top out around 9.5x6.7 inches versus up to 9x11 for our small category. If you need more writing room, check our small whiteboard guide instead. With prices in this roundup ranging roughly $15 to $24, actually need mini small is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify actually need mini small directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone." },
   { criterion: "Expect single-reminder capacity, not a task list", explanation: "At mini dimensions, plan to use the board for one reminder at a time rather than a running list of items. This matters in practice because the picks in this comparison span from about $15 to $24, and skipping a real check on expect single-reminder capacity task is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on expect single-reminder capacity task, since a generic product photo or title alone won't confirm it." },
   { criterion: "Decide if you need a stand", explanation: "Not every mini board includes a stand per its listing. Check specs carefully if you want it to stand upright on its own rather than lean against something. Buyers shopping anywhere from $15 to $24 in this category often assume need stand is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on need stand stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number." },
-  { criterion: "Value portability as the main selling point", explanation: "Mini boards aren't necessarily cheaper than small ones, their value is a minimal footprint. If desk space isn't your constraint, the small category gives more usable room for a similar price. At every price point in this comparison's $15 to $24 range, value portability as main varies enough between listings that assuming it scales with price is a real way to get burned. Confirm value portability as main directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best." },
+  { criterion: "Value portability as the main selling point", explanation: "Mini boards aren't necessarily cheaper than small ones, their value is a minimal footprint. If desk space isn't your constraint, the small category gives more usable room for a similar price. At every price point in this comparison's $15 to $24 range, value portability as main varies enough between listings that assuming it scales with price is a real way to get burned. Confirm value portability as main directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best." }
 ];
 
 export const faq: FaqItem[] = [
@@ -153,11 +153,11 @@ export const faq: FaqItem[] = [
   { q: "Do mini whiteboards include a stand?", a: "It varies by listing. Two of the three picks in this guide explicitly include a stand, check the specs for each product before buying." },
   { q: "Is a mini whiteboard cheaper than a small one?", a: "Not necessarily, prices overlap between the two categories. The main advantage of mini is a smaller footprint, not a lower price." },
   { q: "Which pick in this comparison is the best overall choice?", a: "Black Mini Desktop Pure Glass Whiteboard is aimed at Buyers who want the smallest, most portable option and only need single-task reminders." },
-  { q: "Which pick offers the best value for a tight budget?", a: "Black Mini Desktop Pure Glass Whiteboard is aimed at Buyers who want the smallest, most portable option and only need single-task reminders, and at $15.18 it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Black Mini Desktop Pure Glass Whiteboard is aimed at Buyers who want the smallest, most portable option and only need single-task reminders, and at under $20 it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-desktop-whiteboards", title: "Best Small Desktop Whiteboards (2026)" },
   { href: "/guide/best-double-sided-desktop-whiteboards", title: "Best Double-Sided Desktop Whiteboards (2026)" },
-  { href: "/guide/best-desktop-whiteboards-with-stands", title: "Best Desktop Whiteboards with Stands (2026)" },
+  { href: "/guide/best-desktop-whiteboards-with-stands", title: "Best Desktop Whiteboards with Stands (2026)" }
 ];

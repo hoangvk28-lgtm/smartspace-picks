@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "best mini printer for small spaces";
 export const introParagraphs = [
   "A printer marketed as fitting in a drawer or on a tiny desk doesn't always account for the charging dock, power cable, or paper tray extension that add real inches once it's set up for actual use, and that gap between marketing footprint and real footprint matters most in a dorm room or small home office where every inch of surface counts. It's also worth knowing upfront that mini inkless thermal printers trade ink cost for paper cost and limited black-and-white output only, a genuine tradeoff for anyone expecting a small printer to work like a full-size inkjet.",
-  "This guide focuses on footprint and everyday desk or drawer storage at home, not travel durability or battery life, since that's covered separately for buyers who need a printer on the move. Below are 7 printers we evaluated for real stored footprint, cable and dock space, and honest output-quality expectations, ranging from a $39.99 inkless thermal printer to a $199.99 cartridge-free tank printer.",
+  "This guide focuses on footprint and everyday desk or drawer storage at home, not travel durability or battery life, since that's covered separately for buyers who need a printer on the move. Below are 7 printers we evaluated for real stored footprint, cable and dock space, and honest output-quality expectations, ranging from an under-$40 inkless thermal printer to an under-$200 cartridge-free tank printer."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Bluetooth wireless connectivity",
       "Supports Letter and A4 thermal paper",
       "No ink cartridges to store",
-      "Compatible with iOS, Android, laptop",
+      "Compatible with iOS, Android, laptop"
     ],
     pros: [
       "Smallest true stored footprint in this list",
       "Fits easily in a standard desk drawer",
       "No ink cartridges taking up storage space",
-      "Lowest price at $39.99",
+      "Lowest price at under $40"
     ],
     cons: [
       "Black and white output only",
       "Thermal prints fade over time",
-      "Ongoing thermal paper cost replaces ink cost",
+      "Ongoing thermal paper cost replaces ink cost"
     ],
     bestFor: "Buyers who want the smallest possible printer to stash in a drawer between uses",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Bluetooth wireless connectivity",
       "Includes carry case and 3 paper rolls",
       "Supports 8.5 x 11 inch thermal paper",
-      "Compact, lightweight body",
+      "Compact, lightweight body"
     ],
     pros: [
       "Included case keeps printer and supplies together in storage",
       "No ink cartridges to store separately",
       "Starter paper rolls included",
-      "Compact enough for a desk drawer or shelf",
+      "Compact enough for a desk drawer or shelf"
     ],
     cons: [
       "Black and white output only",
       "Thermal prints fade over time",
-      "Higher price than the NDYIN for the added case",
+      "Higher price than the NDYIN for the added case"
     ],
     bestFor: "Buyers who want tidy all-in-one storage for the printer and its supplies",
   },
@@ -121,13 +121,13 @@ export const products: GuideProduct[] = [
       "Duplex printing support",
       "Flatbed scanner and copier",
       "Wireless connectivity",
-      "Easy setup",
+      "Easy setup"
     ],
     pros: [
       "Smallest true color inkjet in this list",
       "Full-color output, unlike the thermal picks",
       "Duplex printing saves paper",
-      "Includes scan and copy functions",
+      "Includes scan and copy functions"
     ],
     cons: [
       "Larger stored footprint than the inkless thermal picks",
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Scan and copy functions",
       "Wireless network printing",
       "3-month Instant Ink trial included",
-      "HP Smart app support",
+      "HP Smart app support"
     ],
     pros: [
       "Adds scan and copy in a still-compact body",
       "Low price for a full-featured AIO",
       "Wireless setup via HP Smart app",
-      "Reasonable shelf footprint",
+      "Reasonable shelf footprint"
     ],
     cons: [
       "Larger stored footprint than the thermal mini printers",
       "Instant Ink trial auto-converts unless canceled",
-      "Needs a stable outlet and surface, not drawer-friendly",
+      "Needs a stable outlet and surface, not drawer-friendly"
     ],
     bestFor: "Small spaces that need scan and copy functions alongside color printing",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Wireless network printing",
       "Compact footprint",
       "Built-in fax",
-      "Easy setup",
+      "Easy setup"
     ],
     pros: [
       "Document feeder in a still-compact body",
-      "Low price at $69.00",
+      "Low price at under $70",
       "Good shelf footprint for a small desk",
-      "Reliable wireless setup",
+      "Reliable wireless setup"
     ],
     cons: [
       "Feeder adds height, check shelf clearance",
       "Larger stored footprint than thermal mini printers",
-      "Fax feature is unnecessary for most small-space buyers",
+      "Fax feature is unnecessary for most small-space buyers"
     ],
     bestFor: "Small spaces that need occasional multi-page scanning alongside compact storage",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "1.44 inch display",
       "50-sheet paper tray",
       "Lightweight, compact design",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     pros: [
       "True color inkjet output",
       "Doubles as a travel printer if needed",
       "Larger paper tray than most compact printers",
-      "Display for status without a phone app",
+      "Display for status without a phone app"
     ],
     cons: [
       "Battery and charging dock add stored footprint you may not need",
       "Highest price in this list",
-      "Cartridges need drawer or shelf space to store",
+      "Cartridges need drawer or shelf space to store"
     ],
     bestFor: "Buyers who want one printer that works both at home and occasionally on trips",
   },
@@ -249,21 +249,21 @@ export const products: GuideProduct[] = [
       "Wireless network printing",
       "Flatbed scanner and copier",
       "Included startup ink bottles",
-      "Full color inkjet output",
+      "Full color inkjet output"
     ],
     pros: [
       "Lowest cost per page for frequent color printing",
       "No cartridge restocking",
       "Full color inkjet output",
-      "Reliable for high print volume in a small office",
+      "Reliable for high print volume in a small office"
     ],
     cons: [
       "Largest stored footprint in this list",
       "Highest price alongside the Canon TR160",
-      "Overkill for occasional black-and-white-only needs",
+      "Overkill for occasional black-and-white-only needs"
     ],
     bestFor: "Small home offices that print often in color and want the lowest ongoing cost",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -296,7 +296,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Value for price",
     description:
       "Weighed stored footprint, output quality, and ongoing consumable cost against price across the range of price points in this comparison in this list.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -450,11 +450,11 @@ export const faq: FaqItem[] = [
   {
     q: "When does a larger printer like the Epson EcoTank ET-2800 make sense for a small space?",
     a: "If you print in color often enough that cost per page matters, the EcoTank's larger footprint is a worthwhile tradeoff since its refillable tanks lower ongoing ink cost significantly compared to cartridge printers. For occasional or black-and-white-only printing, a smaller thermal or compact inkjet pick saves more space without the cost benefit mattering as much.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-printers", title: "Best Portable Printers (2026)" },
   { href: "/guide/best-printers-for-iphone-and-ipad", title: "Best Printers for iPhone and iPad (2026)" },
-  { href: "/guide/best-printers-for-windows-11", title: "Best Printers for Windows 11 (2026)" },
+  { href: "/guide/best-printers-for-windows-11", title: "Best Printers for Windows 11 (2026)" }
 ];

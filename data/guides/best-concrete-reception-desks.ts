@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "Larnavo Reception Desk - Curved Front Desk with Stone Effect Top(78IN) and is built around flowing rounded edge design, positioning it for concrete buyers specifically.\n\nMarble Pattern Surface is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for concrete, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Flowing Rounded Edge Design","Marble Pattern Surface","Sturdy Base Support"],
     pros: ["Flowing Rounded Edge Design, confirmed directly in the listing's own spec details","Marble Pattern Surface, confirmed directly in the listing's own spec details","Sturdy Base Support, confirmed directly in the listing's own spec details"],
-    cons: ["At $3,199.99, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $3,200, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for concrete",
   },
   {
@@ -129,20 +129,20 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $79.86",
+          "Under $80",
           "HNY Small Square Side Table"
         ],
         [
-          "Around $119.99",
+          "Under $120",
           "DSHADE Concrete Tree Stump Side Table"
         ],
         [
-          "Around $3,199.99",
+          "Under $3,200",
           "Larnavo Reception Desk"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -190,7 +190,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Larnavo Reception Desk is aimed at buyers looking for concrete." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Larnavo Reception Desk is aimed at buyers looking for concrete." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-stone-reception-desks","title":"best-stone-reception-desks"},{"href":"/guide/best-industrial-reception-desks","title":"best-industrial-reception-desks"},{"href":"/guide/best-metal-reception-desks","title":"best-metal-reception-desks"}];

@@ -12,7 +12,7 @@ export const shelvingTroubleshootingGuide: Guide = {
     "shelf sagging in the middle fix",
     "bookcase wobbling fix",
     "wall anchor pulled out fix",
-    "shelf bracket loose fix",
+    "shelf bracket loose fix"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const shelvingTroubleshootingGuide: Guide = {
     "shelf-weight-capacity-explained",
     "wall-shelf-installation-explained",
     "adjustable-vs-fixed-shelving",
-    "floating-shelf-vs-bookcase",
+    "floating-shelf-vs-bookcase"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const shelvingTroubleshootingGuide: Guide = {
       question: "Is it safe to keep using a shelf that's showing early signs of sagging or wobbling?",
       answer:
         "Address early signs promptly rather than waiting, since these issues typically worsen under continued load rather than resolving on their own, removing some weight and reinforcing or replacing the shelf's support is safer than continuing to load a compromised shelf.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const shelvingTroubleshootingGuide: Guide = {
     {
       heading: "Why Floor Levelness Is an Overlooked Cause of Bookcase Instability",
       body: `A wobbling bookcase is often mistakenly attributed to poor assembly or a defective unit, when the actual cause is frequently an uneven floor that most furniture assembly instructions don't account for. Checking whether the bookcase has adjustable leveling feet, or using thin shims under the shorter legs to compensate for floor unevenness, resolves this wobble far more directly and simply than disassembling and reassembling a bookcase that was actually built correctly to begin with.`,
-    },
+    }
   ],
 };

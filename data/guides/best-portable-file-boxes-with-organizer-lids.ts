@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable file boxes with organizer lids";
 export const introParagraphs = [
   "This is a genuinely niche hybrid feature: a lid that doubles as a small organizer tray, typically for pens or small supplies, distinct from a standard closure-only lid. We verified organizer lid capacity for genuine small-item storage utility rather than assuming it's a token, minimally-useful feature.",
-  "We also checked whether the organizer function compromises the lid's primary sealing and security role, a potential functional tradeoff between these two combined features.",
+  "We also checked whether the organizer function compromises the lid's primary sealing and security role, a potential functional tradeoff between these two combined features."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine organizer compartment verification", description: "We confirmed organizer lid capacity for real small-item storage utility rather than assuming it's a token, minimally-useful feature." },
   { title: "Sealing-vs-organizer-function tradeoff", description: "We verified whether the organizer lid function compromises the box's primary sealing and security role, a potential functional tradeoff between these combined features." },
   { title: "Comparison against standard closure-only lids", description: "We included non-organizer alternatives directly in this comparison so buyers can honestly weigh whether the organizer premium is worth it." },
-  { title: "Niche feature availability honesty", description: "We noted that this is a genuinely niche hybrid feature, with fewer dedicated products available than for a standard closure-only lid design." },
+  { title: "Niche feature availability honesty", description: "We noted that this is a genuinely niche hybrid feature, with fewer dedicated products available than for a standard closure-only lid design." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -224,11 +224,11 @@ export const faq: FaqItem[] = [
   { q: "Does the organizer feature compromise the lid's sealing?", a: "Well-designed organizer lids, like the Storex pick, keep compartments separate from the main closure mechanism without compromising sealing. Verify this specifically for less-reviewed products." },
   { q: "Is an organizer lid worth the price premium?", a: "It depends on whether you actually need lid-based small-item storage. If not, a standard closure-only lid may be simpler and more affordable." },
   { q: "How big are the organizer compartments?", a: "Typically modest, adequate for pens, paper clips, or sticky notes, but not larger items. Verify this matches your actual storage needs before buying." },
-  { q: "Which pick has the most proven organizer lid?", a: "The Storex Portable Letter/Legal Filebox with Organizer Lid has the highest review count in this comparison, real evidence this hybrid feature works genuinely well." },
+  { q: "Which pick has the most proven organizer lid?", a: "The Storex Portable Letter/Legal Filebox with Organizer Lid has the highest review count in this comparison, real evidence this hybrid feature works genuinely well." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-file-boxes-with-lids", title: "Best Portable File Boxes with Lids (2026)" },
   { href: "/guide/best-portable-file-boxes-with-drawers", title: "Best Portable File Boxes with Drawers (2026)" },
-  { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" },
+  { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "AI digital notebook";
 export const introParagraphs = [
   "We limited this to dedicated notebook hardware, devices actually built for writing and reading, rather than including AI note apps or voice recorders that also surface for this search but aren't standalone notebooks.",
-  "AI features across these devices mean different things: handwriting-to-text conversion, PDF/document summarization, or AI-assisted organization. We noted which each device actually offers rather than assuming \"AI\" means the same feature set across the board.",
+  "AI features across these devices mean different things: handwriting-to-text conversion, PDF/document summarization, or AI-assisted organization. We noted which each device actually offers rather than assuming \"AI\" means the same feature set across the board."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Dedicated hardware only", description: "We excluded software-only AI note apps and generic voice recorders, keeping this list to actual notebook devices with a display and stylus." },
   { title: "What \"AI\" specifically means per device", description: "We distinguished handwriting-to-text conversion from document summarization from AI-branded marketing, since these devices don't all offer the same feature set under the same label." },
   { title: "Subscription dependence", description: "We flagged where AI features require a paid subscription (reMarkable Connect) versus what's included in the purchase price (Kindle Scribe)." },
-  { title: "Review volume against newer AI-branded entrants", description: "We weighted established review history against devices that market AI heavily but have far less real-world feedback to verify the claims." },
+  { title: "Review volume against newer AI-branded entrants", description: "We weighted established review history against devices that market AI heavily but have far less real-world feedback to verify the claims." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,12 +242,12 @@ export const faq: FaqItem[] = [
   { q: "Do I need a subscription for AI features?", a: "Depends on the brand. Kindle Scribe includes its AI note tools in the purchase price. reMarkable devices gate advanced AI features behind the paid Connect subscription." },
   { q: "What does \"AI\" actually mean on these devices?", a: "Typically handwriting-to-text conversion and note or document summarization. It varies by brand, check the specific feature list rather than assuming they all do the same thing." },
   { q: "Are AI voice recorders or note apps included here?", a: "No, this guide is limited to dedicated notebook hardware with a screen and stylus, not software-only tools." },
-  { q: "Which has the most real-world AI feature testing?", a: "The reMarkable 2, with 1,354 reviews, though its AI features are subscription-gated. The Kindle Scribe includes AI tools without a subscription but has less independent review data at time of writing." },
-  { q: "Is the Penstar eNote2 a safe choice for AI note-taking?", a: "It markets AI note-taking as a core feature, but has a much smaller review base than the Kindle Scribe or reMarkable lineup, worth researching current buyer feedback before choosing it over more established options." },
+  { q: "Which has the most real-world AI feature testing?", a: "The Kindle Scribe includes AI tools without a subscription but has less independent review data at time of writing." },
+  { q: "Is the Penstar eNote2 a safe choice for AI note-taking?", a: "It markets AI note-taking as a core feature, but has a much smaller review base than the Kindle Scribe or reMarkable lineup, worth researching current buyer feedback before choosing it over more established options." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-ai-note-taking-digital-notebooks", title: "Best AI Note-Taking Digital Notebooks (2026)" },
   { href: "/guide/best-digital-notebooks-that-feel-like-paper", title: "Best Digital Notebooks That Feel Like Paper (2026)" },
-  { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" },
+  { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" }
 ];

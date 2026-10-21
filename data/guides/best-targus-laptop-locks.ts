@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "Targus laptop locks";
 export const introParagraphs = [
   "Targus's DEFCON lineup spans keyed, resettable combination, permanently serialized, and universal slot-format locks, and these are genuinely different products rather than variations on one design. We mapped the current lineup before ranking rather than treating the Targus brand name as a single compatibility guarantee.",
-  "We're comparing this as a distinct brand alternative to the Kensington-dominated picks in our other laptop-lock guides, useful specifically if you want a documented second-source option.",
+  "We're comparing this as a distinct brand alternative to the Kensington-dominated picks in our other laptop-lock guides, useful specifically if you want a documented second-source option."
 ];
 export const lastUpdated = "2026-08-11";
 export const readTime = "8 min";
@@ -94,10 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "13",
     imageUrl: "https://m.media-amazon.com/images/I/51b7beFtcBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07427J76M?tag=deskfinds0d-20",
-    description: "The lowest price of any Targus lock in this comparison, built for the trapezoid mini-slot standard on some newer 2-in-1s and tablets rather than the classic T-Bar slot. Targus is direct about checking your hardware specification first, since this is not the same slot as the T-Lock picks above.\n\nOne spot below Targus DEFCON T-Lock Serialized Combo Cable Lock in this ranking, it's priced lower than Targus DEFCON T-Lock Serialized Combo Cable Lock. The compromise here is straightforward: Lowest rating in this Targus comparison at 3.4 stars. What you gain in return: Lowest price of any Targus lock in this comparison. Whether that trade is worth it depends on which side matters more for your device.\n\nWorth knowing before you decide: Lowest price of any Targus lock in this comparison. On the other side, Different slot standard than the other four picks here. That's the main tradeoff to weigh against everything above.",
+    description: "The lowest price of any Targus lock in this comparison, built for the trapezoid mini-slot standard on some newer 2-in-1s and tablets rather than the classic T-Bar slot. Targus is direct about checking your hardware specification first, since this is not the same slot as the T-Lock picks above.\n\nOne spot below Targus DEFCON T-Lock Serialized Combo Cable Lock in this ranking, it's priced lower than Targus DEFCON T-Lock Serialized Combo Cable Lock. What you gain in return: Lowest price of any Targus lock in this comparison. Whether that trade is worth it depends on which side matters more for your device.\n\nWorth knowing before you decide: Lowest price of any Targus lock in this comparison. On the other side, Different slot standard than the other four picks here. That's the main tradeoff to weigh against everything above.",
     specs: ["Trapezoid mini-slot standard, not T-Bar","200cm vinyl-coated galvanized steel cable","Key locking mechanism"],
     pros: ["Lowest price of any Targus lock in this comparison"],
-    cons: ["Lowest rating in this Targus comparison at 3.4 stars","Different slot standard than the other four picks here"],
+    cons: ["Different slot standard than the other four picks here"],
     bestFor: "Budget buyers on a confirmed trapezoid mini-slot device, aware of the low rating.",
   }
 ];
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Mapped Targus's current DEFCON lineup before ranking", description: "We separated keyed, resettable combination, permanently serialized, and universal-format products rather than treating the Targus brand as one interchangeable lock type." },
   { title: "Checked which picks include a bundled base plate or anchor", description: "The T-Lock resettable and serialized picks include a PA400P base plate; the universal lock requires a separately purchased anchor. We surfaced that difference directly." },
   { title: "Distinguished resettable from permanently serialized combination mechanisms", description: "These are genuinely different recovery workflows: one lets you change the code yourself, the other requires serial-number-based retrieval for a fixed code." },
-  { title: "Flagged the unconfirmed review count on the universal-format pick", description: "We noted explicitly where a listing had no confirmed rating data rather than presenting it as equivalent to the established T-Lock picks." },
+  { title: "Flagged the unconfirmed review count on the universal-format pick", description: "We noted explicitly where a listing had no confirmed rating data rather than presenting it as equivalent to the established T-Lock picks." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -227,11 +227,11 @@ export const faq: FaqItem[] = [
   { q: "Is there a keyed Targus option?", a: "Yes, the Targus DEFCON T-Lock Keyed Cable Lock, sharing the same cable and slot compatibility as the resettable version but with a much thinner review history." },
   { q: "What's the difference between resettable and serialized Targus combination locks?", a: "The resettable T-Lock lets you change the code yourself anytime. The serialized T-Lock ships with a permanent code but offers documented serial-number-based recovery if forgotten." },
   { q: "Is there a Targus lock for non-T-Bar slots?", a: "The DEFCON Trapezoid Keyed Cable Lock fits the trapezoid mini-slot on some newer 2-in-1s and tablets, though it carries the lowest rating in this Targus comparison." },
-  { q: "Are Targus locks as well-supported as Kensington locks?", a: "Targus locks in this comparison generally carry smaller review bases than the equivalent Kensington picks, though they offer a documented alternative brand at comparable prices." },
+  { q: "Are Targus locks as well-supported as Kensington locks?", a: "Targus locks in this comparison generally carry smaller review bases than the equivalent Kensington picks, though they offer a documented alternative brand at comparable prices." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-locks", title: "Best Laptop Locks (2026)" },
   { href: "/guide/best-keyed-laptop-locks", title: "Best Keyed Laptop Locks (2026)" },
-  { href: "/guide/best-universal-laptop-locks", title: "Best Universal Laptop Locks (2026)" },
+  { href: "/guide/best-universal-laptop-locks", title: "Best Universal Laptop Locks (2026)" }
 ];

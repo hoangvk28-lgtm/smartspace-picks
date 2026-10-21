@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini PC cooling fans";
 export const introParagraphs = [
   "Standalone Mini PC cooling fans are different from cooling stands and pads because the fan is the product, not part of a support platform. Their usefulness depends on where the fan sits, where it points, how it attaches, and whether the directed airflow reaches an actual intake or exhaust instead of simply moving room air around the chassis.",
-  "Worth noting upfront: none of the fans in this guide are marketed exclusively for Mini PCs. They're general-purpose compact USB fans also sold for routers, TV boxes, and game consoles, which is genuinely how most buyers use them since dedicated Mini PC-only fans are rare. This guide compares seven based on attachment method, airflow direction, noise rating, and power source.",
+  "Worth noting upfront: none of the fans in this guide are marketed exclusively for Mini PCs. They're general-purpose compact USB fans also sold for routers, TV boxes, and game consoles, which is genuinely how most buyers use them since dedicated Mini PC-only fans are rare. This guide compares seven based on attachment method, airflow direction, noise rating, and power source."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "9 min";
@@ -46,10 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "73",
     imageUrl: "https://m.media-amazon.com/images/I/41DGdx-u6QL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQMP5ZF8?tag=deskfinds0d-20",
-    description: "This 120mm fan lists an 18dB noise rating, quieter than the Wathai above on paper, alongside a stated 20 percent temperature drop and 55.8 CFM airflow. The listing explicitly names Mini PC among its intended devices, along with routers, PS5, and streaming boxes.\n\nOne spot below Wathai Cooling Case Fan in this ranking, it's priced lower than Wathai Cooling Case Fan. The compromise here is straightforward: Smaller review base (73 ratings) than several other picks. What you gain in return: Lowest stated noise rating in this guide. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Explicitly lists Mini PC as an intended device. On the other side, Shock pads help but the housing is described as ABS plastic, less durable than metal-framed alternatives. That's the main tradeoff to weigh against everything above.",
+    description: "This 120mm fan lists an 18dB noise rating, quieter than the Wathai above on paper, alongside a stated 20 percent temperature drop and 55.8 CFM airflow. The listing explicitly names Mini PC among its intended devices, along with routers, PS5, and streaming boxes.\n\nOne spot below Wathai Cooling Case Fan in this ranking, it's priced lower than Wathai Cooling Case Fan. What you gain in return: Lowest stated noise rating in this guide. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Explicitly lists Mini PC as an intended device. On the other side, Shock pads help but the housing is described as ABS plastic, less durable than metal-framed alternatives. That's the main tradeoff to weigh against everything above.",
     specs: ["130mm x 130mm x 48.6mm","120mm fan, 850 RPM, 55.8 CFM","18dB(A) rated noise","Integrated 20.87in USB cable, 40,000 hour rated life"],
     pros: ["Lowest stated noise rating in this guide","Explicitly lists Mini PC as an intended device","Built-in cable simplifies setup","Withstands up to 11 lbs of weight per the listing"],
-    cons: ["Smaller review base (73 ratings) than several other picks","850 RPM is on the lower end, less airflow than higher-RPM options","Shock pads help but the housing is described as ABS plastic, less durable than metal-framed alternatives"],
+    cons: ["850 RPM is on the lower end, less airflow than higher-RPM options","Shock pads help but the housing is described as ABS plastic, less durable than metal-framed alternatives"],
     bestFor: "Noise-sensitive desks where the lowest possible fan sound matters more than maximum airflow.",
   },
   {
@@ -62,10 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "22",
     imageUrl: "https://m.media-amazon.com/images/I/41B3e-6btEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GJJ6P1FT?tag=deskfinds0d-20",
-    description: "This 120mm fan includes a 3-speed switch (low, medium, high), letting you dial down noise for light use and increase airflow for sustained workloads on the same device. Eight rubber shock-absorbing feet aim to reduce vibration buzz, a detail smaller fans in this list don't mention.\n\nSitting just under GSCOLER X1 USB Cooling Fan, it costs more than GSCOLER X1 USB Cooling Fan. Here's the honest tradeoff: Very small review base (22 ratings), less statistically reliable than the top picks. And here's what it gets you instead: Adjustable 3-speed control on one unit. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Anti-vibration feet reduce buzz and desk noise. On the other side, No stated CFM or dBA figures to compare directly against the Wathai or GSCOLER. That's the main tradeoff to weigh against everything above.",
+    description: "This 120mm fan includes a 3-speed switch (low, medium, high), letting you dial down noise for light use and increase airflow for sustained workloads on the same device. Eight rubber shock-absorbing feet aim to reduce vibration buzz, a detail smaller fans in this list don't mention.\n\nSitting just under GSCOLER X1 USB Cooling Fan, it costs more than GSCOLER X1 USB Cooling Fan. And here's what it gets you instead: Adjustable 3-speed control on one unit. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Anti-vibration feet reduce buzz and desk noise. On the other side, No stated CFM or dBA figures to compare directly against the Wathai or GSCOLER. That's the main tradeoff to weigh against everything above.",
     specs: ["120mm fan","3-speed switch: low/medium/high","8 anti-vibration rubber feet","Metal safety wire grille"],
     pros: ["Adjustable 3-speed control on one unit","Anti-vibration feet reduce buzz and desk noise","Metal grille protects against scratches and finger contact","Highest star rating in this guide"],
-    cons: ["Very small review base (22 ratings), less statistically reliable than the top picks","Long flexible cable can add desk clutter if not routed carefully","No stated CFM or dBA figures to compare directly against the Wathai or GSCOLER"],
+    cons: ["Long flexible cable can add desk clutter if not routed carefully","No stated CFM or dBA figures to compare directly against the Wathai or GSCOLER"],
     bestFor: "Buyers who want to switch between quiet and high-airflow modes on the same fan rather than buying two.",
   },
   {
@@ -78,10 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "225",
     imageUrl: "https://m.media-amazon.com/images/I/41dzDJ+4mTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FJ24T3KM?tag=deskfinds0d-20",
-    description: "This listing includes two 120mm fans for at a budget-friendly price total, useful if you want to cool both intake and exhaust sides of a Mini PC setup, or simply want a spare. Eight anti-vibration feet and a 3-speed controller are included on each unit. Ranked just behind Marame Quiet Router Cooling Fan Stand, it costs more than Marame Quiet Router Cooling Fan Stand. The real tradeoff against that pick: No specific CFM or dBA figures published. In exchange, it offers this instead: Two fans for at a budget-friendly price total. That's the swap that decides whether this pick or the one above it is the better fit for your setup. Worth knowing before you decide: Higher max RPM than several single-fan alternatives. On the other side, 225 ratings is a moderate but not large sample. That's the main tradeoff to weigh against everything above.",
+    description: "This listing includes two 120mm fans for at a budget-friendly price total, useful if you want to cool both intake and exhaust sides of a Mini PC setup, or simply want a spare. Eight anti-vibration feet and a 3-speed controller are included on each unit. Ranked just behind Marame Quiet Router Cooling Fan Stand, it costs more than Marame Quiet Router Cooling Fan Stand. The real tradeoff against that pick: No specific CFM or dBA figures published. In exchange, it offers this instead: Two fans for at a budget-friendly price total. That's the swap that decides whether this pick or the one above it is the better fit for your setup. Worth knowing before you decide: Higher max RPM than several single-fan alternatives. That's the main tradeoff to weigh against everything above.",
     specs: ["120mm fan x2","3-speed controller, up to 2000 RPM","8 anti-vibration feet per fan","Dual-ball bearings"],
     pros: ["Two fans for under $20 total","Higher max RPM than several single-fan alternatives","Anti-vibration feet on each unit","Can be positioned at both intake and exhaust simultaneously"],
-    cons: ["No specific CFM or dBA figures published","Higher top speed likely means more noise at max setting","225 ratings is a moderate but not large sample"],
+    cons: ["No specific CFM or dBA figures published","Higher top speed likely means more noise at max setting"],
     bestFor: "Buyers who want to cool two locations on their setup, or keep a spare, without buying two separate listings.",
   },
   {
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Placement effectiveness", description: "We evaluated whether each fan can be aimed at a real Mini PC intake or exhaust instead of relying on broad desk airflow." },
   { title: "Documented performance figures", description: "We gave more weight to listings that state specific CFM airflow or dBA noise numbers over vague quiet or powerful claims." },
   { title: "Mounting and size flexibility", description: "We compared 40mm compact fans against 120mm larger fans for fit in different desk setups and gap sizes." },
-  { title: "Power and cable setup", description: "We considered USB power draw, cable length, and whether powering the fan from the Mini PC creates an unnecessary port tradeoff." },
+  { title: "Power and cable setup", description: "We considered USB power draw, cable length, and whether powering the fan from the Mini PC creates an unnecessary port tradeoff." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -260,11 +260,11 @@ export const faq: FaqItem[] = [
   { q: "Where should I place a Mini PC cooling fan?", a: "Place it so airflow reaches the Mini PC's real intake or helps hot exhaust move away. Avoid blowing against a closed panel while leaving the intake starved for air." },
   { q: "Is a 120mm fan always better than a 40mm fan?", a: "Not necessarily. A 120mm fan moves more air per the CFM figures in this guide, but a 40mm fan fits tight gaps a larger fan physically cannot, which matters more in a cramped desk setup." },
   { q: "How much fan noise is acceptable?", a: "That depends on your desk environment. Fans with a stated dBA rating, like the GSCOLER X1 at 18dB, give you a number to compare rather than guessing from a vague 'quiet' claim." },
-  { q: "Should I power the fan from the Mini PC?", a: "USB power is convenient but uses a port and draws power from the host. A separate USB adapter or power bank keeps your Mini PC's ports free." },
+  { q: "Should I power the fan from the Mini PC?", a: "USB power is convenient but uses a port and draws power from the host. A separate USB adapter or power bank keeps your Mini PC's ports free." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-external-cooling-fans-for-mini-pcs", title: "Best External Cooling Fans for Mini PCs (2026)" },
   { href: "/guide/best-mini-pc-cooling-stands", title: "Best Mini PC Cooling Stands (2026)" },
-  { href: "/guide/best-mini-pc-stands-with-fans", title: "Best Mini PC Stands with Fans (2026)" },
+  { href: "/guide/best-mini-pc-stands-with-fans", title: "Best Mini PC Stands with Fans (2026)" }
 ];

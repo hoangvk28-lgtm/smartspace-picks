@@ -46,11 +46,11 @@ export const accessories: DeskAccessory[] = [
     whyItWorks: [
       "22-inch width fits desks as narrow as 36 inches",
       "Sliding drawer adds storage without adding footprint",
-      "Bamboo finish looks intentional and hides desk surface scratches",
+      "Bamboo finish looks intentional and hides desk surface scratches"
     ],
     tradeoffs: [
       "Not adjustable in height - measure your monitor first",
-      "Drawer is shallow at 1.5 inches - will not fit thicker items",
+      "Drawer is shallow at 1.5 inches - will not fit thicker items"
     ],
   },
   {
@@ -70,11 +70,11 @@ export const accessories: DeskAccessory[] = [
     whyItWorks: [
       "Sub-$20 entry point with no real downside",
       "Mesh design lets you see what is inside at a glance",
-      "Stackable if you need more storage later",
+      "Stackable if you need more storage later"
     ],
     tradeoffs: [
       "Mesh can shed small items like paper clips through the gaps",
-      "Not the most premium-looking option for aesthetics-focused setups",
+      "Not the most premium-looking option for aesthetics-focused setups"
     ],
   },
   {
@@ -93,11 +93,11 @@ export const accessories: DeskAccessory[] = [
     whyItWorks: [
       "Zero desktop footprint - pure bonus storage",
       "Adhesive mount works on most desk materials (skip glass desktops)",
-      "Closes out of sight for a cleaner visual look",
+      "Closes out of sight for a cleaner visual look"
     ],
     tradeoffs: [
       "Adhesive can fail on textured or rough surfaces over time",
-      "Limited weight capacity at around 3 pounds",
+      "Limited weight capacity at around 3 pounds"
     ],
   },
 
@@ -118,11 +118,11 @@ export const accessories: DeskAccessory[] = [
     whyItWorks: [
       "Removes power strip from desktop entirely",
       "Clamp-on installation - no drilling required",
-      "Supports up to 22 pounds, enough for power strips and chargers",
+      "Supports up to 22 pounds, enough for power strips and chargers"
     ],
     tradeoffs: [
       "Installation takes 15 to 20 minutes",
-      "Does not fit desks thicker than 1.5 inches at the edge",
+      "Does not fit desks thicker than 1.5 inches at the edge"
     ],
   },
   {
@@ -140,11 +140,11 @@ export const accessories: DeskAccessory[] = [
     whyItWorks: [
       "Sub-$15 fix for a daily annoyance",
       "Does not take desktop space - mounts on edges and undersides",
-      "Magnetic clips release cables one-handed",
+      "Magnetic clips release cables one-handed"
     ],
     tradeoffs: [
       "Cheap adhesive on budget versions can fail after 6 months",
-      "Plastic clips can crack if cables are yanked rather than released",
+      "Plastic clips can crack if cables are yanked rather than released"
     ],
   },
   {
@@ -163,11 +163,11 @@ export const accessories: DeskAccessory[] = [
     whyItWorks: [
       "No installation required - just plug in and close the lid",
       "Slim profile fits behind monitors with minimal footprint",
-      "Vented to prevent overheating of power strips inside",
+      "Vented to prevent overheating of power strips inside"
     ],
     tradeoffs: [
       "Still takes 12 x 5 inches of surface space",
-      "Larger power strips or brick adapters may not fit inside",
+      "Larger power strips or brick adapters may not fit inside"
     ],
   },
 
@@ -189,11 +189,11 @@ export const accessories: DeskAccessory[] = [
     whyItWorks: [
       "Mouse rest is compact rather than the oversized gaming-style pad",
       "Non-slip backing means no sliding during fast mouse movements",
-      "Set covers both keyboard and mouse wrist strain in one purchase",
+      "Set covers both keyboard and mouse wrist strain in one purchase"
     ],
     tradeoffs: [
       "Memory foam compresses and flattens after 12 to 18 months of daily use",
-      "Fabric covers can stain from skin contact over time",
+      "Fabric covers can stain from skin contact over time"
     ],
   },
   {
@@ -212,11 +212,11 @@ export const accessories: DeskAccessory[] = [
     whyItWorks: [
       "Felt side feels premium under hands and wrists during extended use",
       "Cork backing prevents any sliding on smooth desk surfaces",
-      "Reversible design extends usable life significantly",
+      "Reversible design extends usable life significantly"
     ],
     tradeoffs: [
       "Felt collects dust and shows pet hair visibly",
-      "Spills can stain the felt side - it is not water-resistant",
+      "Spills can stain the felt side - it is not water-resistant"
     ],
   },
   {
@@ -235,11 +235,11 @@ export const accessories: DeskAccessory[] = [
     whyItWorks: [
       "Stows under the desk - zero impact on small floor space when not needed",
       "Adjustable tilt accommodates different leg lengths and sitting positions",
-      "Textured top surface keeps shoes from sliding during use",
+      "Textured top surface keeps shoes from sliding during use"
     ],
     tradeoffs: [
       "Plastic construction feels less solid than metal alternatives",
-      "Tilt mechanism can develop a squeak after a few months of use",
+      "Tilt mechanism can develop a squeak after a few months of use"
     ],
   },
 
@@ -261,11 +261,11 @@ export const accessories: DeskAccessory[] = [
     whyItWorks: [
       "Vertical orientation reclaims desk surface versus laying headphones flat",
       "4-port USB hub eliminates the need for a separate accessory",
-      "Optional LED accent fits gaming desk aesthetics without extra cables",
+      "Optional LED accent fits gaming desk aesthetics without extra cables"
     ],
     tradeoffs: [
       "USB hub is data-only on most models - no fast charging output",
-      "Base footprint is still 3 x 4 inches and cannot be eliminated",
+      "Base footprint is still 3 x 4 inches and cannot be eliminated"
     ],
   },
   {
@@ -284,11 +284,11 @@ export const accessories: DeskAccessory[] = [
     whyItWorks: [
       "Removes the phone from the desktop entirely",
       "MagSafe-compatible models work with iPhone 12 and newer with zero setup",
-      "Easy to detach when you leave the desk or need to take a call",
+      "Easy to detach when you leave the desk or need to take a call"
     ],
     tradeoffs: [
       "Adhesive mount can leave residue on monitor bezels when removed",
-      "Older phones without MagSafe need a magnetic ring sticker added",
+      "Older phones without MagSafe need a magnetic ring sticker added"
     ],
   },
   {
@@ -306,13 +306,13 @@ export const accessories: DeskAccessory[] = [
     whyItWorks: [
       "Tiny footprint at roughly 3 x 3 inches",
       "Silent countdown with a gentle alarm that does not disturb neighbors",
-      "Pre-set intervals of 5, 15, 25, and 30 minutes cover most focus methods",
+      "Pre-set intervals of 5, 15, 25, and 30 minutes cover most focus methods"
     ],
     tradeoffs: [
       "Limited customization on budget models for non-standard interval lengths",
-      "Battery-dependent - no plug-in option on most units",
+      "Battery-dependent - no plug-in option on most units"
     ],
-  },
+  }
 ];
 
 export const quickPicks = accessories.filter((a) => a.badge !== undefined);
@@ -321,7 +321,7 @@ export const categoryOrder: AccessoryCategory[] = [
   "organization",
   "cables",
   "ergonomics",
-  "tech",
+  "tech"
 ];
 
 export const categoryMeta: Record<
@@ -371,7 +371,7 @@ export const setupCombos = [
     items: [
       { name: "Compact mesh desk organizer", price: "$12" },
       { name: "Magnetic cable clips", price: "$10" },
-      { name: "Compact desk mat", price: "$20" },
+      { name: "Compact desk mat", price: "$20" }
     ],
   },
   {
@@ -382,7 +382,7 @@ export const setupCombos = [
       { name: "Bamboo monitor riser with drawer", price: "$40" },
       { name: "Under-desk cable tray", price: "$28" },
       { name: "Memory foam wrist rest set", price: "$18" },
-      { name: "Magnetic phone mount", price: "$15" },
+      { name: "Magnetic phone mount", price: "$15" }
     ],
   },
   {
@@ -395,9 +395,9 @@ export const setupCombos = [
       { name: "Felt and cork desk mat", price: "$25" },
       { name: "Headphone stand with USB hub", price: "$35" },
       { name: "Adjustable footrest", price: "$30" },
-      { name: "Flip Pomodoro timer", price: "$22" },
+      { name: "Flip Pomodoro timer", price: "$22" }
     ],
-  },
+  }
 ];
 
 export const faq: Array<{ q: string; a: string }> = [
@@ -424,5 +424,5 @@ export const faq: Array<{ q: string; a: string }> = [
   {
     q: "What desk accessories actually save space instead of adding clutter?",
     a: "The footprint-saving accessories are: monitor risers (use vertical space under the screen), under-desk cable trays (use below-desk space), monitor-mounted phone holders (use bezel space), adhesive cable clips (use edge space), and under-desk drawer organizers (use the underside of the desk surface). Anything that sits on the desktop adds to clutter unless it also performs a daily function.",
-  },
+  }
 ];

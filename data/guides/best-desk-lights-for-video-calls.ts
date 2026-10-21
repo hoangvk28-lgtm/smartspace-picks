@@ -5,7 +5,7 @@ export const metaDescription = "6 desk lights we evaluated for video calls, with
 export const mainKeyword = "desk light for video calls";
 export const introParagraphs = [
   "Some budget LED lights use PWM (pulse-width modulation) dimming, which can introduce flicker invisible to the naked eye but visible as banding or strobing on camera, especially at lower brightness settings, a real issue most listings never mention.",
-  "A dedicated video-call desk light differs from a general-purpose desk lamp in beam angle and diffusion, video lights are designed to illuminate your face evenly without harsh shadows, while a standard desk lamp is designed to light a work surface, not a face.",
+  "A dedicated video-call desk light differs from a general-purpose desk lamp in beam angle and diffusion, video lights are designed to illuminate your face evenly without harsh shadows, while a standard desk lamp is designed to light a work surface, not a face."
 ];
 export const lastUpdated = "2026-07-30";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Premium Desk Light for Video Calls",
     name: "Logitech for Creators Litra Glow Premium LED Streaming Light - Graphite",
     price: "$54.31",
-    rating: "4.5 stars from 3,366 Amazon ratings",
-    reviews: "3,366 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21ZCgx+xmkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B097QZGRCQ?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Purpose Desk Lamp and Video Light",
     name: "LitONES LED Desk Lamp for Home Office, Soft Edge-lit Design - Modern Style",
     price: "$64.99",
-    rating: "4.8 stars from 895 Amazon ratings",
-    reviews: "895 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/414WSIzKGyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZMPX2PW?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-CRI Desk Light",
     name: "Zoom Lighting for Computer, Adjustable Desk Lighting for Video Calls, 30 Light Modes Video Conference Light, Desk Ring Light with Stand for Webcam, Meetings, Live Stream, Home Office. CRI 97.8",
     price: "$36.99",
-    rating: "4.5 stars from 719 Amazon ratings",
-    reviews: "719 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Phq+HhoVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D2XMLRL3?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Proven Budget Desk Light",
     name: "Desk Ring Light with Stand for Computer, Desk Light for Video Recording",
     price: "$32.86",
-    rating: "4.3 stars from 3,872 Amazon ratings",
-    reviews: "3,872 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41r5nA1roKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B095741MZS?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Large-Panel Desk Light",
     name: "RALENO 9\" LED Video Light, 2500K-6500K Camera Light with Desk Stand",
     price: "$39.99",
-    rating: "4.5 stars from 2,975 Amazon ratings",
-    reviews: "2,975 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41WMggt9RXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B087CZ85GV?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best Clamp-Mounted Desk Lamp",
     name: "Airlonv LED Desk Lamp with Clamp, 17\" Stepless Dimming Light, Black",
     price: "$20.98",
-    rating: "4.6 stars from 8,121 Amazon ratings",
-    reviews: "8,121 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/415a2-2URFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C4JTPPYY?tag=deskfinds0d-20",
     description:
@@ -120,14 +120,14 @@ export const products: GuideProduct[] = [
     pros: ["Large, well-established review base", "Stepless dimming for fine brightness control", "Very affordable", "Doubles as a genuinely useful task lamp beyond video calls"],
     cons: ["Beam angle designed for desk surface, not face-forward illumination", "No specific CRI or color temperature adjustability disclosed", "Not purpose-built for video call facial lighting"],
     bestFor: "Buyers who want a versatile desk lamp that also provides some video call fill light",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "PWM flicker risk as a real, rarely-disclosed concern", description: "Flagged that budget LED lights using PWM dimming can introduce flicker invisible to the eye but visible as banding on camera, and favored established brands with quality driver design where this risk is generally lower." },
   { title: "Purpose-built video lighting vs. general-purpose desk lamps", description: "Distinguished lights genuinely engineered to illuminate a face evenly (ring lights, streaming panels) from general-purpose desk lamps whose beam angle is designed for a work surface, not a face." },
-  { title: "CRI and color temperature disclosure as real differentiators", description: "Prioritized picks disclosing a specific CRI rating or adjustable Kelvin range, since these matter more for a natural, accurate look on camera than brightness alone." },
+  { title: "CRI and color temperature disclosure as real differentiators", description: "Prioritized picks disclosing a specific CRI rating or adjustable Kelvin range, since these matter more for a natural, accurate look on camera than brightness alone." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -256,11 +256,11 @@ export const faq: FaqItem[] = [
   { q: "Do I need a light with a disclosed CRI rating?", a: "If accurate skin tone and color rendering on camera matters to you, yes, prioritize a disclosed high CRI rating (95+) over raw brightness or a large number of preset modes alone." },
   { q: "Is a dual-purpose desk lamp as good as a dedicated video light for calls?", a: "It can work well as ambient fill light, but won't illuminate your face as directly or evenly as a purpose-built ring light or streaming panel, since its beam angle is designed for general desk tasks, not face-forward video lighting." },
   { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want a premium, purpose-built video call light from an established brand" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want a versatile desk lamp that also provides some video call fill light At $20.98, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want a versatile desk lamp that also provides some video call fill light At under $25, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-adjustable-temperature-video-lighting", title: "Best Adjustable-Temperature Video Lighting (2026)" },
   { href: "/guide/best-clip-on-video-lighting", title: "Best Clip-On Video Lighting (2026)" },
-  { href: "/guide/best-battery-powered-video-lighting", title: "Best Battery-Powered Video Lighting (2026)" },
+  { href: "/guide/best-battery-powered-video-lighting", title: "Best Battery-Powered Video Lighting (2026)" }
 ];

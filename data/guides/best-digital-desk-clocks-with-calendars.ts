@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital desk clock with calendar";
 export const introParagraphs = [
   "This guide is specifically about clock-first devices that also happen to show a calendar date, not calendar-first touchscreen displays that happen to include a small clock. That distinction matters because the products behave very differently day to day.",
-  "The JSJGETYI rechargeable notepad boards genuinely lead with a digital clock, date, and even indoor temperature readout, making them the clearest fit for this specific search. We also include two Skylight touchscreen models for buyers who want a bigger display and are fine with the calendar being the star and the clock a secondary feature, and we say so plainly.",
+  "The JSJGETYI rechargeable notepad boards genuinely lead with a digital clock, date, and even indoor temperature readout, making them the clearest fit for this specific search. We also include two Skylight touchscreen models for buyers who want a bigger display and are fine with the calendar being the star and the clock a secondary feature, and we say so plainly."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "6 min";

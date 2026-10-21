@@ -155,7 +155,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The lowest price with a USB-C/HDMI fallback", "VILVA 15.6\" FHD IPS USB-C HDMI Portable Monitor"],
         ["The thinnest, lightest build for travel", "ForHelp 15.6\" Portable Monitor, Ultra-Thin Zero Frame"],
         ["The largest screen size", "AOC 16\" Portable Monitor FHD"],
-        ["Reverse charging convenience", "InnoView Portable Monitor, Built-in Speaker with Case"],
+        ["Reverse charging convenience", "InnoView Portable Monitor, Built-in Speaker with Case"]
       ],
     },
   },
@@ -164,8 +164,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $50", "VILVA ($44.99), MNN ($49.99), ForHelp ($49.99), or AOC ($49.99)"],
-        ["$60 to $65", "InnoView ($59.99) or KYY ($62.99)"],
+        ["Under $50", "VILVA (under $45), MNN (under $50), ForHelp (under $50), or AOC (under $50)"],
+        ["$60 to $65", "InnoView (under $60) or KYY (under $70)"]
       ],
     },
   },
@@ -179,7 +179,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "USB-C plus HDMI/Mini-HDMI (VILVA, ForHelp, InnoView, KYY)",
         text: "Provides a fallback connection path via HDMI if USB-C video-out isn't supported on your device, at the cost of needing an extra cable and a power source for that connection method.",
-      },
+      }
     ],
     note: "If you haven't confirmed your specific iPad model supports DisplayPort Alt Mode over USB-C, a monitor with an HDMI fallback option is the safer choice.",
   },
@@ -189,7 +189,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Priority", "Recommended pick"],
       rows: [
         ["Lightest and thinnest for frequent travel", "ForHelp (1.52 lbs, 0.3\") or KYY (1.7 lbs, 0.3\")"],
-        ["Largest screen, less concerned with weight", "AOC 16\" Portable Monitor FHD"],
+        ["Largest screen, less concerned with weight", "AOC 16\" Portable Monitor FHD"]
       ],
     },
   },
@@ -203,7 +203,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "VILVA, ForHelp, InnoView, and KYY all provide this dual connection flexibility, while MNN is USB-C only.",
-      },
+      }
     ],
   },
   {
@@ -211,14 +211,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You want reverse charging convenience or a 3.5mm audio input: InnoView ($59.99) or KYY ($62.99) are the two picks here with those specific added features.",
+        text: "You want reverse charging convenience or a 3.5mm audio input: InnoView (under $60) or KYY (under $70) are the two picks here with those specific added features.",
       },
       {
         label: "Save if",
-        text: "You just need a reliable connection with a fallback option: VILVA ($44.99) covers USB-C and HDMI flexibility at the lowest price in this comparison.",
-      },
+        text: "You just need a reliable connection with a fallback option: VILVA (under $45) covers USB-C and HDMI flexibility at the lowest price in this comparison.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -273,5 +273,5 @@ export const faq = [
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-monitors-under-100", title: "Best Portable Monitors Under $100" },
-  { href: "/guide/best-usb-c-monitors", title: "Best USB-C Monitors" },
+  { href: "/guide/best-usb-c-monitors", title: "Best USB-C Monitors" }
 ];

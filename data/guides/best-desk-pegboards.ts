@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desk pegboard";
 export const introParagraphs = [
   "Not every product marketed as a desk pegboard uses the standardized 1-inch hole spacing that real pegboard-style boards rely on. Some branded organizer systems use proprietary hole or peg shapes that won't accept generic hooks or accessories bought separately, a compatibility trap that's rarely disclosed on the listing page. Worth confirming a board's hole pattern is genuinely standard before assuming any hook set will fit it.",
-  "Material quality determines how much weight each hook can actually hold and whether the board sags after months of use, real pegboard-grade hardboard or MDF holds up far better than thin decorative board dressed up with a pegboard pattern. It's also worth thinking about the board loaded, not empty, a pegboard mounted vertically at the back of a desk creates real tipping leverage once it's hung with monitor arms, hooks, and shelves, especially on lighter desks without a wall anchor.",
+  "Material quality determines how much weight each hook can actually hold and whether the board sags after months of use, real pegboard-grade hardboard or MDF holds up far better than thin decorative board dressed up with a pegboard pattern. It's also worth thinking about the board loaded, not empty, a pegboard mounted vertically at the back of a desk creates real tipping leverage once it's hung with monitor arms, hooks, and shelves, especially on lighter desks without a wall anchor."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Desk Pegboard",
     name: "EUREKA ERGONOMIC Desk Pegboard with Dual Monitor Stands, LED Metal Pegboard, 43 x 34 Inch, White",
     price: "$179.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "156 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31ll21hyHHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DYJR7JLB?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Wide Dual-Monitor Setups",
     name: "EUREKA ERGONOMIC Desk Pegboard Dual Monitor Stand 59x34 White",
     price: "$269.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "156 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41i2tZZC1xL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F3TN7G3F?tag=deskfinds0d-20",
     description:
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best with a Built-In Shelf",
     name: "VIVO Steel Triple Clamp Desk Pegboard System with 2 Monitor Mounts and Storage Shelf, 47 x 31 Inch, Black",
     price: "$169.99",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "14 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51v-7P2kqkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DVDSJPL5?tag=deskfinds0d-20",
     description:
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick",
     name: "Sailret Clamp-On Metal Desk Pegboard with Dual Monitor Stand, 59x35 Inch Steel Privacy Panel",
     price: "$79.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "4 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41KLj-p7YnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G6K8HR11?tag=deskfinds0d-20",
     description:
@@ -87,7 +87,7 @@ export const products: GuideProduct[] = [
     pros: ["Large panel size at a budget price point", "No drilling required, clamps directly onto the desk", "Movable partition design adds some layout flexibility", "Steel build over cheaper decorative board"],
     cons: ["Very small review base so far, verify current feedback before buying", "Clamp-only mount means no wall anchor for extra tip resistance", "Verify hole spacing compatibility with any third-party accessories"],
     bestFor: "Budget-conscious buyers wanting a large clamp-on panel without paying for bundled extras.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -95,7 +95,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Hole-spacing and peg-shape compatibility", description: "Checked whether each board uses standardized 1-inch hole spacing versus a proprietary hook system that limits third-party accessory options." },
   { title: "Material quality and sag resistance", description: "Weighed real pegboard-grade metal or hardboard construction against thinner decorative board that sags under sustained hook loads." },
   { title: "Loaded-condition tipping stability", description: "Considered stability once a board is realistically loaded with hooks, shelves, and monitor mounts, not just how it sits empty." },
-  { title: "Surface finish durability under reconfiguration", description: "Weighed how well each panel's finish should hold up to repeated hook removal and repositioning over time based on build materials." },
+  { title: "Surface finish durability under reconfiguration", description: "Weighed how well each panel's finish should hold up to repeated hook removal and repositioning over time based on build materials." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -226,11 +226,11 @@ export const faq: FaqItem[] = [
   { q: "Will any pegboard hook fit any desk pegboard?", a: "Not necessarily, some pegboard-branded organizer systems use proprietary hole or peg shapes rather than the standard 1-inch spacing, check the listing before buying accessories separately." },
   { q: "Can a desk pegboard tip my desk over if fully loaded?", a: "A vertically mounted pegboard adds real tipping leverage once loaded with hooks, shelves, or a monitor mount, this risk is higher on lighter desks without a wall anchor." },
   { q: "Does a metal pegboard sag less than a wood one?", a: "Genuine pegboard-grade metal or hardboard resists sag better than thin decorative board over months of hook use, material quality matters more than price alone." },
-  { q: "Do I need to drill holes to install a desk pegboard?", a: "Most desk pegboards use a clamp-on mount that requires no drilling, though clamp compatibility with your specific desk edge thickness should be verified first." },
+  { q: "Do I need to drill holes to install a desk pegboard?", a: "Most desk pegboards use a clamp-on mount that requires no drilling, though clamp compatibility with your specific desk edge thickness should be verified first." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-clamp-on-desk-pegboards", title: "Best Clamp-On Desk Pegboards (2026)" },
   { href: "/guide/best-desk-pegboard-organizers", title: "Best Desk Pegboard Organizers (2026)" },
-  { href: "/guide/best-desk-pegboards-with-monitor-mounts", title: "Best Desk Pegboards with Monitor Mounts (2026)" },
+  { href: "/guide/best-desk-pegboards-with-monitor-mounts", title: "Best Desk Pegboards with Monitor Mounts (2026)" }
 ];

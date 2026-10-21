@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "lap desks with cup holders and usb ports";
 export const introParagraphs = [
   "This overlaps substantially with our general lap desks with cup holders guide, narrowed to picks that also include USB ports. We verified whether those ports are charging-only power delivery or offer genuine data connectivity, since a lap desk isn't inherently near a wall outlet the way a stationary desk accessory would be.",
-  "We also checked each product's actual power source for the USB function, since some designs draw from a connected laptop while others require their own separate wall plug.",
+  "We also checked each product's actual power source for the USB function, since some designs draw from a connected laptop while others require their own separate wall plug."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -104,7 +104,7 @@ export const products: GuideProduct[] = [
     pros: ["Wide platform for extra stability margin", "Foldable storage", "Good rating", "Solid review count"],
     cons: ["USB port details less prominently disclosed than competitors", "Larger folded size than compact alternatives", "Verify current USB spec before purchase"],
     bestFor: "Buyers who prioritize a wide, stable platform and are comfortable verifying USB specs directly on the listing.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "USB port function: charging vs. data", description: "We checked whether each product's USB ports are charging-only power delivery or offer genuine data connectivity, and disclosed this clearly." },
   { title: "Power source for the USB function", description: "We verified whether ports draw power from a connected laptop or require a separate wall plug, relevant since a lap desk isn't inherently near an outlet." },
   { title: "Combined cable management for lap use", description: "We considered realistic cable routing for both the USB charging function and any other powered features like a fan or light during lap use." },
-  { title: "Overlap with our general lap desk cup holder guide", description: "We confirmed which picks are genuinely differentiated by their USB features versus simply appearing in both guides." },
+  { title: "Overlap with our general lap desk cup holder guide", description: "We confirmed which picks are genuinely differentiated by their USB features versus simply appearing in both guides." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -240,11 +240,11 @@ export const faq: FaqItem[] = [
   { q: "Where does the power for the USB ports come from?", a: "Most picks in this comparison draw power from your connected laptop rather than requiring a separate wall outlet, convenient for use away from a plug but limited by your laptop's own battery." },
   { q: "How many USB ports do these lap desks typically have?", a: "It ranges from a single port up to 4 ports across this comparison. Check the specific product's disclosed count against how many devices you plan to charge at once." },
   { q: "Does using a fan or light drain my laptop's battery faster?", a: "Yes, if those features draw power through the same laptop-connected pass-through as the USB ports, using them simultaneously adds to your laptop's power draw." },
-  { q: "Is this guide different from your general lap desk cup holder guide?", a: "This guide narrows specifically to picks with USB charging features. If USB ports aren't essential to you, our general lap desks with cup holders guide includes additional options." },
+  { q: "Is this guide different from your general lap desk cup holder guide?", a: "This guide narrows specifically to picks with USB charging features. If USB ports aren't essential to you, our general lap desks with cup holders guide includes additional options." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-lap-desks-with-cup-holders", title: "Best Lap Desks with Cup Holders (2026)" },
   { href: "/guide/best-laptop-cooling-pads-for-bed-use", title: "Best Laptop Cooling Pads for Bed Use (2026)" },
-  { href: "/guide/best-laptop-cooling-pads-with-usb-hubs", title: "Best Laptop Cooling Pads with USB Hubs (2026)" },
+  { href: "/guide/best-laptop-cooling-pads-with-usb-hubs", title: "Best Laptop Cooling Pads with USB Hubs (2026)" }
 ];

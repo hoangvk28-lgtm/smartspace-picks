@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A functional cup holder and device ledge", "LAPGEAR Cup Holder Lap Desk, White Oak Woodgrain"],
         ["Dedicated wrist support for extended typing", "HUANUO Laptop Lap Desk with Cushion, Woodgrain"],
         ["A dedicated phone or tablet slot", "GORILLA GRIP Laptop Lap Desk with Phone Holder"],
-        ["A versatile, ready-to-use surface at the lowest price", "SONGMICS Lap Desk, Bed Tray with Carry Handle"],
+        ["A versatile, ready-to-use surface at the lowest price", "SONGMICS Lap Desk, Bed Tray with Carry Handle"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $23", "SONGMICS ($22.79)"],
-        ["Under $23.50", "GORILLA GRIP ($22.99)"],
-        ["Under $25", "LAPGEAR Cup Holder ($24.99)"],
-        ["Under $30", "HUANUO ($27.99)"],
+        ["Under $23", "SONGMICS (under $25)"],
+        ["under $25", "GORILLA GRIP (under $25)"],
+        ["Under $25", "LAPGEAR Cup Holder (under $25)"],
+        ["Under $30", "HUANUO (under $30)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Cup Holder vs Device Slot Priority",
     cards: [
       { label: "Cup holder (LAPGEAR)", text: "Holds a drink securely on the desk surface itself, ideal if you regularly work with coffee or water nearby." },
-      { label: "Device slot (GORILLA GRIP)", text: "Holds a phone or small tablet upright within view, better if checking notifications or a second screen matters more than a drink holder." },
+      { label: "Device slot (GORILLA GRIP)", text: "Holds a phone or small tablet upright within view, better if checking notifications or a second screen matters more than a drink holder." }
     ],
     note: "If you regularly want a drink within reach while working, the LAPGEAR's cup holder is the more practical feature. If keeping your phone visible matters more, the GORILLA GRIP's device slot serves that need instead.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Reducing wrist strain during long typing sessions", "HUANUO (dedicated wrist pad)"],
         ["General lap stability and comfort", "LAPGEAR Cup Holder or GORILLA GRIP"],
-        ["Basic comfort without specialized ergonomic features", "SONGMICS"],
+        ["Basic comfort without specialized ergonomic features", "SONGMICS"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Long Writing or Typing Sessions in Bed Specifically",
     cards: [
       { label: "Look for", text: "A dedicated wrist pad that supports your hands at a comfortable angle during extended keyboard use." },
-      { label: "In this comparison", text: "The HUANUO pick's ergonomic wrist pad is specifically designed to reduce hand fatigue during exactly this kind of extended use." },
+      { label: "In this comparison", text: "The HUANUO pick's ergonomic wrist pad is specifically designed to reduce hand fatigue during exactly this kind of extended use." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want dedicated wrist support for extended typing sessions, where the HUANUO pick's ergonomic wrist pad addresses a genuine comfort need the other picks don't specifically target." },
-      { label: "Save if", text: "You just want a versatile, ready-to-use surface without extra features, where the SONGMICS pick covers that at the lowest price in this comparison." },
+      { label: "Save if", text: "You just want a versatile, ready-to-use surface without extra features, where the SONGMICS pick covers that at the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

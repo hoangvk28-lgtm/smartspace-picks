@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook pad";
 export const introParagraphs = [
   "\"Digital notebook pad\" is a broad phrase that could mean an E Ink tablet, a graphics drawing pad, or a reusable paper notepad. We checked which products actually surface for this exact search, and it's consistently the Rocketbook reusable-paper lineup.",
-  "If you were picturing a device with an actual screen, see our digital notebooks that feel like paper guide instead, that covers the E Ink tablet category, a genuinely different product type from what's ranked here.",
+  "If you were picturing a device with an actual screen, see our digital notebooks that feel like paper guide instead, that covers the E Ink tablet category, a genuinely different product type from what's ranked here."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41DUQEUXetL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHZ82DK?tag=deskfinds0d-20",
     description: "The highest-rated and most-reviewed pad in this comparison by a wide margin, combining note pages with planner templates.\n\nIt earns the top spot in this comparison over Rocketbook Mini Reusable Smart Notepad for one main reason. Largest, highest-rated review base of any pad here. On price, it's actually priced above Rocketbook Mini Reusable Smart Notepad, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Largest, highest-rated review base of any pad here. On the other side, Full letter size, not compact. That's the main tradeoff to weigh against everything above.",
-    specs: ["Letter size","Planner templates plus note pages","26,593 reviews at 4.6 stars"],
+    specs: ["Letter size","Planner templates plus note pages"],
     pros: ["Largest, highest-rated review base of any pad here"],
     cons: ["Full letter size, not compact"],
     bestFor: "Buyers who want the single most proven reusable pad available.",
@@ -47,7 +47,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41uG7qo+QwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DW9JZ1MF?tag=deskfinds0d-20",
     description: "A genuine notepad-format product, the smallest in the entire search, fitting a coat pocket without a folio.\n\nOne spot below Rocketbook Fusion Reusable Undated Productivity Planner in this ranking, it's priced lower than Rocketbook Fusion Reusable Undated Productivity Planner. The compromise here is straightforward: Small page limits notes per page before erasing. What you gain in return: Smallest, most pocket-friendly format here. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Cheapest option in this comparison. On the other side, Small page limits notes per page before erasing. That's the main tradeoff to weigh against everything above.",
-    specs: ["3.5 x 5.5 in","Notepad format","281 reviews at 4.4 stars"],
+    specs: ["3.5 x 5.5 in","Notepad format"],
     pros: ["Smallest, most pocket-friendly format here","Cheapest option in this comparison"],
     cons: ["Small page limits notes per page before erasing"],
     bestFor: "Buyers who want the most compact reusable pad.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41E9SFRPDeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CZF628C?tag=deskfinds0d-20",
     description: "The cheapest option here with a very large proven review base, spiral-bound for lying flat while writing.\n\nRanked just behind Rocketbook Core Reusable Smart Notebook, it's priced lower than Rocketbook Core Reusable Smart Notebook. The real tradeoff against that pick: Small format limits per-page writing area. In exchange, it offers this instead: Cheapest option here. That's the swap that decides whether this pick or the one above it is the better fit for your note-taking needs.\n\nWorth knowing before you decide: Massive proven review base. On the other side, Small format limits per-page writing area. That's the main tradeoff to weigh against everything above.",
-    specs: ["Mini spiral-bound","11,065 reviews at 4.4 stars"],
+    specs: ["Mini spiral-bound"],
     pros: ["Cheapest option here","Massive proven review base"],
     cons: ["Small format limits per-page writing area"],
     bestFor: "Buyers who want the most field-tested budget pad.",
@@ -95,7 +95,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/416XcHl7ssL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLPPZZJL?tag=deskfinds0d-20",
     description: "An updated version of the planning templates at a compact Executive size, with a smaller review base as the newer revision.\n\nOne spot below Rocketbook Smart Reusable Notebook in this ranking, it costs more than Rocketbook Smart Reusable Notebook. The compromise here is straightforward: Smaller review base than the standard Fusion Hybrid at the same size. What you gain in return: Newest template revision available. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Newest template revision available. On the other side, Smaller review base than the standard Fusion Hybrid at the same size. That's the main tradeoff to weigh against everything above.",
-    specs: ["6 x 8.8 in","Updated template set","3,200 reviews at 4.4 stars"],
+    specs: ["6 x 8.8 in","Updated template set"],
     pros: ["Newest template revision available"],
     cons: ["Smaller review base than the standard Fusion Hybrid at the same size"],
     bestFor: "Buyers who want the newest template layout in a compact pad.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified the real product match before ranking", description: "We checked what products actually surface for this search rather than assuming it means E Ink hardware." },
   { title: "Page format and size differences", description: "We compared plain dot-grid pages against planner-template pages, and letter size against the more compact formats." },
   { title: "Review volume as reliability evidence", description: "Since the erase mechanism is shared across this product family, we weighted established review history heavily." },
-  { title: "Price relative to format", description: "We compared cost against page count, size, and whether planning templates are included." },
+  { title: "Price relative to format", description: "We compared cost against page count, size, and whether planning templates are included." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -241,13 +241,14 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "Is a digital notebook pad an E Ink device?", a: "Based on current search results, no, it's consistently a Rocketbook reusable-paper product. For an E Ink screen device, see our feel-like-paper guide." },
   { q: "What's the smallest pad option?", a: "The Rocketbook Mini at 3.5x5.5 inches, which fits a coat pocket." },
-  { q: "Which is the most proven overall?", a: "The letter-size Rocketbook Fusion, with 26,593 reviews at 4.6 stars." },
+  
   { q: "Do I need a special pen?", a: "Yes, Pilot FriXion pens are required for these to erase correctly." },
-  { q: "What's the cheapest option?", a: "The Rocketbook Mini Spiral Notebook at $14.99, backed by over 11,000 reviews." },
-];
+  { q: "How is a digital notebook pad different from a tablet?", a: "A pad is focused on writing and storing handwritten pages, with little or no app ecosystem to distract you. A tablet runs many apps and usually has a glossy screen. If you only need to capture notes, a pad is simpler and lighter." },
+  { q: "How long does a typical pad last on a charge or battery?", a: "Battery life varies a lot between pad formats, so read the listing for the stated runtime. E Ink and simple memo pads tend to last longer than color or backlit screens. Treat any figure as a ceiling and plan on charging more often if you use syncing features heavily." }
+  ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" },
   { href: "/guide/best-small-digital-notebooks", title: "Best Small Digital Notebooks (2026)" },
-  { href: "/guide/best-reusable-digital-notebooks", title: "Best Reusable Digital Notebooks (2026)" },
+  { href: "/guide/best-reusable-digital-notebooks", title: "Best Reusable Digital Notebooks (2026)" }
 ];

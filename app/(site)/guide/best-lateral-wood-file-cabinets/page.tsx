@@ -172,7 +172,7 @@ export default async function BestLateralWoodFileCabinetsPage() {
     about: [
       { "@type": "Thing", name: "Lateral File Cabinet" },
       { "@type": "Thing", name: "Wood File Cabinet" },
-      { "@type": "Thing", name: "Home Office Storage" },
+      { "@type": "Thing", name: "Home Office Storage" }
     ],
   };
 
@@ -192,7 +192,7 @@ export default async function BestLateralWoodFileCabinetsPage() {
         position: 3,
         name: "Best Lateral Wood File Cabinets",
         item: `${SITE_URL}/guide/best-lateral-wood-file-cabinets`,
-      },
+      }
     ],
   };
 
@@ -528,7 +528,7 @@ export default async function BestLateralWoodFileCabinetsPage() {
                       format: "Vertical",
                       bestFor: "Narrow spaces, high-volume filing, compact footprint",
                       notes: "15 to 18 inches wide, 40 to 54 inches tall, smaller top surface",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -592,50 +592,50 @@ export default async function BestLateralWoodFileCabinetsPage() {
                 id: "bush-home-key-west-white-oak",
                 name: "Bush Home Key West Pure White Oak",
                 verdict:
-                  " - 4,283 reviews at 4.4 stars, $130.68, wide flat top, locking drawers, white oak finish.",
+                  " - Under $140, wide flat top, locking drawers, white oak finish.",
               },
               {
                 context: "Best budget farmhouse pick",
                 id: "vasagle-lateral-rustic-brown",
                 name: "VASAGLE Rustic Brown and Ink Black",
                 verdict:
-                  " - $119.99, 1,736 reviews, industrial-rustic style, most affordable in the roundup.",
+                  " - Under $120, industrial-rustic style, most affordable in the roundup.",
               },
               {
                 context: "Best warm mid-range finish",
                 id: "sauder-edge-water-chalked-chestnut",
                 name: "Sauder Edge Water Chalked Chestnut",
                 verdict:
-                  " - $206.35, 979 reviews at 4.3 stars, unique chalked chestnut tone, letter-plus-legal compatible.",
+                  " - Under $250, unique chalked chestnut tone, letter-plus-legal compatible.",
               },
               {
                 context: "Best with integrated charging station",
                 id: "halitaa-charging-dark-walnut",
                 name: "Halitaa Dark Walnut with Charging Station",
                 verdict:
-                  " - $139.99, 4.5 stars (highest in roundup), built-in USB charging for desk-adjacent placement.",
+                  " - Under $140, built-in USB charging for desk-adjacent placement.",
               },
               {
                 context: "Best espresso finish option",
                 id: "realspace-magellan-espresso",
                 name: "Realspace Magellan Espresso",
                 verdict:
-                  " - 4.3 stars, 239 reviews, classic dark espresso tone for traditional office setups. Verify current price.",
+                  " - Classic dark espresso tone for traditional office setups. Verify current price.",
               },
               {
                 context: "Best design-forward pick",
                 id: "t4tream-fluted-natural-oak",
                 name: "T4TREAM Fluted Natural Oak",
                 verdict:
-                  " - $219.99, 4.5 stars, fluted cabinet fronts for mid-century and contemporary offices, large tabletop.",
+                  " - Under $250, fluted cabinet fronts for mid-century and contemporary offices, large tabletop.",
               },
               {
                 context: "Premium fully assembled option",
                 id: "martin-huntington-oxford-oak",
                 name: "Martin Furniture Huntington Oxford Oak",
                 verdict:
-                  " - $499, 143 reviews at 4.2 stars, fully assembled, furniture-quality build. Verify materials on listing.",
-              },
+                  " - $499, fully assembled, furniture-quality build. Verify materials on listing.",
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

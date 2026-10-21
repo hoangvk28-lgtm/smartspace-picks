@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "printer stand for small spaces";
 export const introParagraphs = [
   "Small space printer stands live or die on real footprint, not marketing copy. Small is a meaningless label unless it is tied to actual dimensions, and a stand that looks compact in a photo can still block a tray from opening if it is wedged too far into a corner. Total footprint also matters more than the stand's own dimensions, since most printers overhang their base by 2 to 4 inches per side once you set them on top.",
-  "This list includes dedicated printer stands alongside a few honestly labeled alternatives, including a couple of CPU tower stands and general-purpose utility carts that were originally built for other jobs. Where that is the case, we say so directly rather than calling something a purpose-built printer stand when it is not. Prices range from $9.99 for a small monitor riser to $39.99 for a full rolling printer table.",
+  "This list includes dedicated printer stands alongside a few honestly labeled alternatives, including a couple of CPU tower stands and general-purpose utility carts that were originally built for other jobs. Where that is the case, we say so directly rather than calling something a purpose-built printer stand when it is not. Prices range from under $10 for a small monitor riser to under $40 for a full rolling printer table."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Rear cable management channel",
       "Locking caster wheels",
       "Storage drawer under the top shelf",
-      "Fits compact and mid-size printers",
+      "Fits compact and mid-size printers"
     ],
     pros: [
       "Purpose-built as a printer stand, not a repurposed cart",
       "Slides fully under most desks when not in use",
       "Locking wheels hold position once placed",
-      "Built-in drawer avoids needing separate storage",
+      "Built-in drawer avoids needing separate storage"
     ],
     cons: [
       "Not sized for large business AIO printers",
       "Single drawer limits total storage",
-      "Low height means bending down if used as a standalone floor piece",
+      "Low height means bending down if used as a standalone floor piece"
     ],
     bestFor: "Buyers who want a genuine, dedicated printer stand sized for small rooms",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Built-in charging station shelf",
       "Compact under-desk profile",
       "Rustic brown and black finish",
-      "Suited to compact printers",
+      "Suited to compact printers"
     ],
     pros: [
       "Compact footprint suits small rooms",
       "Charging shelf adds function without extra floor space",
       "Affordable dedicated printer stand",
-      "Furniture-style finish, not a utility-cart look",
+      "Furniture-style finish, not a utility-cart look"
     ],
     cons: [
       "Open shelves offer less dust protection",
       "Smaller tabletop than larger printer tables",
-      "No locking wheels",
+      "No locking wheels"
     ],
     bestFor: "Studio apartments and dorm-size rooms that need a compact under-desk stand",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "2-tier rolling design",
       "Built-in storage drawer",
       "Fits business-class AIO printers",
-      "Casters for repositioning",
+      "Casters for repositioning"
     ],
     pros: [
       "Large enough tabletop for bigger printers",
       "2-tier layout adds real storage",
       "Rolling casters for repositioning in a tight room",
-      "Drawer keeps supplies out of sight",
+      "Drawer keeps supplies out of sight"
     ],
     cons: [
       "Largest footprint in this list, needs more floor space",
       "Not the best fit for the smallest rooms",
-      "Heavier to reposition than the compact picks",
+      "Heavier to reposition than the compact picks"
     ],
     bestFor: "Small rooms where the printer itself, not the room, is the larger constraint",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Rolling casters",
       "Low, compact platform",
       "Originally designed as a CPU tower stand",
-      "$15.99",
+      "Under $20"
     ],
     pros: [
       "Very small footprint, ideal for the tightest spaces",
       "Adjustable width fits narrow gaps beside furniture",
       "Rolling casters for repositioning",
-      "Lowest price in this list",
+      "Lowest price in this list"
     ],
     cons: [
       "Not designed or marketed as a printer stand",
       "No dedicated cable management",
-      "Limited to compact, lightweight printers only",
+      "Limited to compact, lightweight printers only"
     ],
     bestFor: "Buyers who specifically need the smallest possible footprint and are comfortable repurposing a CPU stand",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Underneath storage compartment",
       "Originally designed as a monitor/laptop riser",
       "Compact desktop footprint",
-      "$9.99",
+      "Under $10"
     ],
     pros: [
       "Lowest price in this list",
       "Underneath storage adds a bonus compartment",
       "Works on a desk when there is zero floor space",
-      "Small enough to fit any desk corner",
+      "Small enough to fit any desk corner"
     ],
     cons: [
       "Not designed or marketed as a printer stand",
       "Only suits small, light compact printers",
-      "No cable management or drawer",
+      "No cable management or drawer"
     ],
     bestFor: "Tiny rooms with no floor space, where the printer must sit on the desk itself",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Rolling casters",
       "White finish",
       "Originally a general utility cart",
-      "Narrow footprint for its capacity",
+      "Narrow footprint for its capacity"
     ],
     pros: [
       "Rolls easily between rooms in a small apartment",
       "Higher total weight capacity than most dedicated stands",
       "3 tiers separate printer, paper, and supplies",
-      "Narrow footprint given its capacity",
+      "Narrow footprint given its capacity"
     ],
     cons: [
       "Not designed or marketed as printer furniture",
       "Open wire-shelf look, not furniture-style finish",
-      "No cable management",
+      "No cable management"
     ],
     bestFor: "Buyers who want one flexible rolling cart to handle a printer plus general small-space storage",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Built-in handle for maneuvering",
       "Rolling wheels",
       "White finish",
-      "Originally a general utility cart",
+      "Originally a general utility cart"
     ],
     pros: [
       "Handle makes it easy to wheel in tight spaces",
       "Narrow frame fits between furniture",
       "3 tiers for printer plus supplies",
-      "Affordable at under $30",
+      "Affordable at under $30"
     ],
     cons: [
       "Not designed or marketed as printer furniture",
       "Open wire shelving, not enclosed storage",
-      "No cable management",
+      "No cable management"
     ],
     bestFor: "Buyers who want to store a printer out of sight and wheel it out only when needed",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Rolling wheels",
       "Built-in handle",
       "White finish",
-      "Lightest pick in this list",
+      "Lightest pick in this list"
     ],
     pros: [
       "Cheapest option among the utility cart picks",
       "Lightweight and easy to lift or reposition",
       "3 tiers for printer plus supplies",
-      "Handle aids maneuvering in tight rooms",
+      "Handle aids maneuvering in tight rooms"
     ],
     cons: [
       "Lower weight capacity than metal utility carts",
       "Not designed or marketed as printer furniture",
-      "Plastic construction feels less sturdy long-term",
+      "Plastic construction feels less sturdy long-term"
     ],
     bestFor: "Budget buyers with a lightweight compact printer who want the cheapest flexible cart",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -328,7 +328,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Mobility and repositioning ease",
     description:
       "Scored caster quality and overall weight, since a small-space stand often needs to be wheeled out of the way rather than staying in one fixed spot permanently.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -471,11 +471,11 @@ export const faq: FaqItem[] = [
   {
     q: "Are the utility carts in this list actually good for printers, or just repurposed?",
     a: "They are genuinely repurposed general-purpose carts, not printer-specific furniture, and we say so directly rather than mislabeling them. Their real advantage is flexibility, a metal or plastic rolling cart can hold a printer on one tier and paper or supplies on another, often for less money than dedicated printer stands.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printer-tables-for-home-offices", title: "Best Printer Tables for Home Offices (2026)" },
   { href: "/guide/best-under-desk-printer-stands", title: "Best Under-Desk Printer Stands (2026)" },
-  { href: "/guide/best-printer-stands-with-storage", title: "Best Printer Stands with Storage (2026)" },
+  { href: "/guide/best-printer-stands-with-storage", title: "Best Printer Stands with Storage (2026)" }
 ];

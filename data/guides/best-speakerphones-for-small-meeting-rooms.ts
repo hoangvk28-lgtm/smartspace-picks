@@ -5,7 +5,7 @@ export const metaDescription = "5 speakerphones we evaluated for small meeting r
 export const mainKeyword = "speakerphone for small meeting room";
 export const introParagraphs = [
   "A speakerphone's stated pickup radius (e.g., 13ft) assumes close-to-ideal acoustic conditions, small meeting rooms with hard surfaces, glass walls, or minimal sound absorption will perform worse in practice, buy a device rated for more radius than your room's actual size to build in real margin.",
-  "Mic count matters more than raw pickup radius for a small room with several people spread around a table, since isolating individual voices from each other is a different problem than simply hearing sound from further away.",
+  "Mic count matters more than raw pickup radius for a small room with several people spread around a table, since isolating individual voices from each other is a different problem than simply hearing sound from further away."
 ];
 export const lastUpdated = "2026-07-30";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best 6-Mic Pick for Small Meeting Rooms",
     name: "Anker PowerConf Speakerphone, Zoom Certified Conference Speaker with 6 Mics",
     price: "$149.99",
-    rating: "4.4 stars from 5,801 Amazon ratings",
-    reviews: "5,801 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41x468UYHLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08CV6MGJH?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Pickup Radius for a Small Room",
     name: "Yealink SP92 Conference Speaker and Microphone with AI Noise Cancellation, 20H Call Time, 13ft Pick-up, 360 Omni Mic 50mm Full-Duplex Speaker, Bluetooth 5.3 USB Speakerphone for Teams",
     price: "$60.20",
-    rating: "4.2 stars from 127 Amazon ratings",
-    reviews: "127 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31E89kCEPNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F28HTJP3?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Certified Small Room Pick",
     name: "Jabra Speak2 40 Portable Speakerphone - 4 Noise-Cancelling Mics, Full-Range 50mm Portable Speaker, Wideband Audio and USB-A and USB-C Connections - Certified for Zoom and Google Meet - Dark Grey",
     price: "$146.99",
-    rating: "4.3 stars from 68 Amazon ratings",
-    reviews: "68 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31oHJerSTwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BWKTR73Y?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Small Room Pick",
     name: "EMEET M0 Plus Conference Speaker and Microphone, 4 Mics 360 degrees Voice Pickup",
     price: "$52.23",
-    rating: "4.3 stars from 1,596 Amazon ratings",
-    reviews: "1,596 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51zfICZQrEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVZLS5GZ?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Proven Track Record for Small Rooms",
     name: "Jabra Speak 510 UC Wireless Bluetooth Speakerphone, Outstanding Sound Quality, Portable Conference Speaker for Holding Meetings Anywhere - Certified for Zoom & Google Meet",
     price: "$119.49",
-    rating: "4.7 stars from 5,905 Amazon ratings",
-    reviews: "5,905 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Hwa9J+9XL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00AQUO5RI?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Highest rating of any pick in this guide", "Large, well-established review base", "Certified for both Zoom and Google Meet", "Portable if the room serves multiple purposes"],
     cons: ["Fewer physical mics than the 6-mic Anker pick", "Older design than 2025-edition alternatives", "Wireless-only, no wired USB fallback confirmed"],
     bestFor: "Small meeting rooms that want the most-proven, longest track record option",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Pickup radius as a planning spec, not a guarantee", description: "Noted that stated pickup radius figures assume near-ideal acoustic conditions, and recommended buying with real margin above your room's actual dimensions for rooms with hard surfaces or glass." },
   { title: "Mic count for voice isolation, distinct from raw pickup distance", description: "Weighed physical mic count for handling several people around a small table, a different challenge from simply hearing sound from further away, which pickup radius alone measures." },
-  { title: "Platform certification for whichever software the room actually uses", description: "Checked which picks carry Zoom, Google Meet, or dual certification, relevant to matching a small meeting room's speakerphone to the platform it will actually run." },
+  { title: "Platform certification for whichever software the room actually uses", description: "Checked which picks carry Zoom, Google Meet, or dual certification, relevant to matching a small meeting room's speakerphone to the platform it will actually run." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -239,11 +239,11 @@ export const faq: FaqItem[] = [
   { q: "What pickup pattern works best for a small meeting room?", a: "360 degrees omni pickup suits a small round table, while a more directional pickup pattern can perform better across a narrow rectangular table, match the pattern to your room's actual table shape." },
   { q: "Do I need a platform-certified speakerphone for a small meeting room?", a: "If the room is dedicated to one video platform, a certified device offers a stronger tested guarantee. If it hosts calls on multiple platforms, a dual-certified pick like the Jabra Speak2 40 offers more flexibility." },
   { q: "How many people can a small meeting room speakerphone actually support?", a: "Check the specific listed pickup radius, most small-room models are rated for 4-6 people around a standard table, exceeding that range measurably degrades pickup for people seated farther away." },
-  { q: "Should a small meeting room speakerphone sit on the table or mount on a wall?", a: "Table placement typically gives more even pickup for a seated group, a wall-mounted option suits a room needing the table surface clear, check the specific listing supports your preferred placement." },
+  { q: "Should a small meeting room speakerphone sit on the table or mount on a wall?", a: "Table placement typically gives more even pickup for a seated group, a wall-mounted option suits a room needing the table surface clear, check the specific listing supports your preferred placement." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-speakerphones-for-two-person-offices", title: "Best Speakerphones for Two-Person Offices (2026)" },
   { href: "/guide/best-noise-canceling-speakerphones", title: "Best Noise-Canceling Speakerphones (2026)" },
-  { href: "/guide/best-speakerphones-for-zoom", title: "Best Speakerphones for Zoom (2026)" },
+  { href: "/guide/best-speakerphones-for-zoom", title: "Best Speakerphones for Zoom (2026)" }
 ];

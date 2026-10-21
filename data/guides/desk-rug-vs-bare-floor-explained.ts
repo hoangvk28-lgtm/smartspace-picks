@@ -12,7 +12,7 @@ export const deskRugVsBareFloorExplainedGuide: Guide = {
     "rug under desk worth it",
     "area rug home office acoustics",
     "rug vs chair mat compatibility",
-    "visually define workspace rug",
+    "visually define workspace rug"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskRugVsBareFloorExplainedGuide: Guide = {
     "chair-mat-types-explained",
     "carpet-vs-hardwood-desk-setup",
     "video-call-background-noise-reduction",
-    "desk-decor-clutter-balance",
+    "desk-decor-clutter-balance"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskRugVsBareFloorExplainedGuide: Guide = {
       question: "Does rug material affect suitability for a desk area specifically?",
       answer:
         "Yes, a low-pile rug generally works better under a desk area than a high-pile or shag rug, since a chair rolling across a very thick pile can feel unstable or require more effort to move, a flatter weave provides better chair mobility while still offering the acoustic benefits.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const deskRugVsBareFloorExplainedGuide: Guide = {
     {
       heading: "Why Visual Zoning Matters Specifically for Multi-Purpose Rooms",
       body: `In a room serving multiple functions, a bedroom that also houses a desk, a shared living space with a designated work corner, a rug placed specifically under and around the desk area creates a clear visual boundary that helps distinguish "work zone" from the room's other functions, this visual cue can provide a genuine psychological benefit similar to how dedicated task lighting helps signal a shift into work mode, supporting a clearer mental separation between work and the room's other purposes even without a physical wall dividing the space.`,
-    },
+    }
   ],
 };

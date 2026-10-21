@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital desk clock";
 export const introParagraphs = [
   "A digital desk clock replaces analog hands with an LED or LCD numeric display, and the picks below add genuinely useful extras like date, indoor temperature, humidity, and alarms rather than just displaying the time. We only included clocks with a real digital display in this guide, so if you want a traditional analog face, see our analog desk clocks guide instead.",
-  "Power source varies more than most buyers expect in this category. Some of these are battery powered, one is corded with a mains plug, and one adds a battery backup on top of corded power, we call out each one explicitly below since it affects where you can realistically place the clock.",
+  "Power source varies more than most buyers expect in this category. Some of these are battery powered, one is corded with a mains plug, and one adds a battery backup on top of corded power, we call out each one explicitly below since it affects where you can realistically place the clock."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Power source verified before ranking convenience", description: "Checked whether each clock is corded, battery powered, or battery-backed, since this directly determines where it can realistically sit on a desk." },
   { title: "Feature set weighed against display clutter", description: "Balanced the value of extras like temperature, humidity, and countdown timers against whether the added data made the display harder to read at a glance." },
   { title: "Alarm functionality confirmed from listing details", description: "Verified which models genuinely include an alarm versus displaying time only, rather than assuming digital automatically means alarm-equipped." },
-  { title: "Legibility assessed for realistic desk viewing distance", description: "Considered digit size and display color against how far away a typical desk clock is actually read from during the day." },
+  { title: "Legibility assessed for realistic desk viewing distance", description: "Considered digit size and display color against how far away a typical desk clock is actually read from during the day." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -246,11 +246,11 @@ export const faq: FaqItem[] = [
   { q: "Are digital desk clocks corded or battery powered?", a: "Both exist in this category. Some models here run on batteries for flexible placement, while others are corded and need a wall outlet, check the listing before buying." },
   { q: "Do all digital desk clocks have alarms?", a: "No, some are display-only. Confirm the listing explicitly states an alarm feature if that matters to you." },
   { q: "What does auto DST mean on a digital clock?", a: "It means the clock automatically adjusts for daylight saving time changes, so you don't need to manually reset it twice a year." },
-  { q: "Why would I want temperature and humidity on a desk clock?", a: "It adds a quick environmental readout without a separate device, useful for anyone who wants a general sense of indoor comfort without a dedicated thermometer." },
+  { q: "Why would I want temperature and humidity on a desk clock?", a: "It adds a quick environmental readout without a separate device, useful for anyone who wants a general sense of indoor comfort without a dedicated thermometer." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-clocks", title: "Best Desk Clocks (2026)" },
   { href: "/guide/best-desk-clocks-with-alarms", title: "Best Desk Clocks with Alarms (2026)" },
-  { href: "/guide/best-analog-desk-clocks", title: "Best Analog Desk Clocks (2026)" },
+  { href: "/guide/best-analog-desk-clocks", title: "Best Analog Desk Clocks (2026)" }
 ];

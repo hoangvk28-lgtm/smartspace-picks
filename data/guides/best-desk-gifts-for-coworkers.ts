@@ -235,7 +235,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Cost per person for groups",
-    "explanation": "If you are gifting a whole team, divide the price by the pieces. A 24 pack at $24.98 costs about a dollar per sign, while single items cost $6 to $13 each. Check the quantity in the title and bullets, and confirm whether designs repeat so no one gets a duplicate."
+    "explanation": "If you are gifting a whole team, divide the price by the pieces. A 24 pack at under $25 costs about a dollar per sign, while single items cost under $15 each. Check the quantity in the title and bullets, and confirm whether designs repeat so no one gets a duplicate."
   }
 ];
 

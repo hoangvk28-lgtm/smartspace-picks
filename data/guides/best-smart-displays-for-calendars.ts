@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "smart display for calendar";
 export const introParagraphs = [
   "Beyond voice commands and video calls, every smart display in this guide can also function as an ambient calendar viewer, showing upcoming events from a linked Alexa or Google Assistant account without needing a dedicated calendar-only device. This is a genuine, common feature across both ecosystems, not a stretch of the product's intended use.",
-  "This guide ranks the same verified pool of Echo Show and Nest Hub models specifically around calendar and scheduling visibility, rather than video calls or smart home control, which we cover in separate guides.",
+  "This guide ranks the same verified pool of Echo Show and Nest Hub models specifically around calendar and scheduling visibility, rather than video calls or smart home control, which we cover in separate guides."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "7 min";

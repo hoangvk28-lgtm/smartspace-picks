@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "docking station for dell laptop";
 export const introParagraphs = [
   "Dell laptops negotiate power delivery differently depending on whether the dock plugged into them is Dell-branded or third-party, and Dell's Thunderbolt authorization settings can block a brand-new dock from being recognized on first connection. Both of those quirks trip up buyers who assume any USB-C dock works the same way with a Dell machine, so the model you pick matters more than it does for a generic Windows laptop.",
-  "Below are 8 docking stations for Dell laptops we evaluated on power delivery to Dell hardware specifically, display support, port selection, and price, ranging from Dell's own current-generation Thunderbolt 4 Smart Dock to budget third-party hubs that cover the basics for less.",
+  "Below are 8 docking stations for Dell laptops we evaluated on power delivery to Dell hardware specifically, display support, port selection, and price, ranging from Dell's own current-generation Thunderbolt 4 Smart Dock to budget third-party hubs that cover the basics for less."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "180W power adapter included",
       "HDMI, DisplayPort, Thunderbolt cable included",
       "3-year warranty",
-      "Dell OEM power negotiation with Dell laptops",
+      "Dell OEM power negotiation with Dell laptops"
     ],
     pros: [
       "Full-rated OEM power delivery to Dell laptops",
       "8K display support, the highest resolution ceiling in this list",
       "3-year warranty matches Dell business laptop support windows",
-      "Includes cables and adapter in the box",
+      "Includes cables and adapter in the box"
     ],
     cons: [
       "Most expensive pick in this list",
       "Non-Dell laptops only get standard PD through the same connection",
-      "Overkill for a single-monitor setup",
+      "Overkill for a single-monitor setup"
     ],
     bestFor: "Dell laptop fleets that want matching OEM support windows and full-rated power delivery",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Supports 4 displays, 4K resolution",
       "2x DisplayPort 1.4, HDMI 2.1",
       "Built-in 2.5GbE and Wi-Fi",
-      "Dell OEM power negotiation with Dell laptops",
+      "Dell OEM power negotiation with Dell laptops"
     ],
     pros: [
       "Full OEM power delivery to Dell laptops at a lower price than the Pro model",
       "Built-in 2.5GbE, no separate network adapter needed",
       "Supports up to 4 displays",
-      "Sustainable design materials",
+      "Sustainable design materials"
     ],
     cons: [
       "No 8K support like the Pro model",
       "130W is lower than the Pro model's 180W adapter",
-      "Still carries Dell premium pricing over generic hubs",
+      "Still carries Dell premium pricing over generic hubs"
     ],
     bestFor: "Dell laptop owners who want the OEM power advantage without paying for 8K support",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Previous-generation Dell Smart Dock line",
       "Dell OEM power negotiation with Dell laptops",
       "Multiple display outputs",
-      "Standard Dell business warranty",
+      "Standard Dell business warranty"
     ],
     pros: [
       "Full OEM power delivery to Dell laptops",
       "Lower price than the current SD25TB4 generation",
       "Proven, widely deployed in Dell business fleets",
-      "Thunderbolt 4 bandwidth for multi-display setups",
+      "Thunderbolt 4 bandwidth for multi-display setups"
     ],
     cons: [
       "One generation behind Dell's current Smart Dock line",
       "No built-in 2.5GbE like the newer SD25TB4",
-      "\"Upgradeable\" marketing on this dock family currently has no available upgrade module",
+      "\"Upgradeable\" marketing on this dock family currently has no available upgrade module"
     ],
     bestFor: "Buyers who want a proven, Dell-branded Thunderbolt 4 dock at a lower price than the newest generation",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Entry-level Dell Thunderbolt dock",
       "Dell OEM power negotiation with Dell laptops",
       "Multiple USB and display ports",
-      "Standard Dell business warranty",
+      "Standard Dell business warranty"
     ],
     pros: [
       "Cheapest Dell-branded Thunderbolt dock in this list",
       "Full OEM 130W delivery to Dell laptops",
       "Proven, long-running Dell dock family",
-      "Compact compared to the newer Smart Dock line",
+      "Compact compared to the newer Smart Dock line"
     ],
     cons: [
       "Thunderbolt 3, not Thunderbolt 4 like the newer docks here",
       "May need first-boot Thunderbolt authorization approval",
-      "Fewer ports than the pricier Dell Smart Dock models",
+      "Fewer ports than the pricier Dell Smart Dock models"
     ],
     bestFor: "Budget-conscious Dell laptop owners who still want the OEM power delivery advantage",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "100W charging",
       "4K HDMI dual monitor or single 6K",
       "6x USB, SD card reader, Ethernet",
-      "Works across Dell, Mac, and other Thunderbolt 4 laptops",
+      "Works across Dell, Mac, and other Thunderbolt 4 laptops"
     ],
     pros: [
       "Thunderbolt certified and driverless, simple setup",
       "Works across brands, not locked to Dell",
       "Strong port selection including SD and Ethernet",
-      "Supports single 6K or dual 4K displays",
+      "Supports single 6K or dual 4K displays"
     ],
     cons: [
       "Standard 100W PD to Dell laptops, not Dell's OEM full-rated wattage",
       "No built-in 2.5GbE like Dell's newer Smart Dock",
-      "Fewer displays than the Dell Pro Smart Dock's 4-display support",
+      "Fewer displays than the Dell Pro Smart Dock's 4-display support"
     ],
     bestFor: "Dell laptop owners who also use a Mac or other Thunderbolt laptop and want one dock for both",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "10Gbps fast data transfer",
       "Dual 4K display support",
       "Audio and Ethernet ports",
-      "Marketed compatibility with Dell, HP, Lenovo laptops",
+      "Marketed compatibility with Dell, HP, Lenovo laptops"
     ],
     pros: [
       "Widest port selection in this list at 14 ports",
       "Fast 10Gbps data transfer",
       "Dual 4K display support",
-      "Cross-brand compatibility beyond just Dell",
+      "Cross-brand compatibility beyond just Dell"
     ],
     cons: [
       "Standard USB-C PD to Dell laptops, not Dell's proprietary full-rated wattage",
       "No Thunderbolt certification like the Plugable or Dell docks",
-      "Larger footprint than the more compact budget hubs",
+      "Larger footprint than the more compact budget hubs"
     ],
     bestFor: "Buyers who want the most ports in one dock and use it across multiple laptop brands",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "100W USB-C power delivery",
       "6x USB 5Gbps ports",
       "DisplayLink-based display driving",
-      "Windows, macOS, ChromeOS compatible",
+      "Windows, macOS, ChromeOS compatible"
     ],
     pros: [
       "Drives 3 displays at once, the most of the budget picks here",
       "100W charging over USB-C",
       "Broad OS compatibility including ChromeOS",
-      "Strong port count at this price",
+      "Strong port count at this price"
     ],
     cons: [
       "4K output is capped at 30Hz, not 60Hz",
       "DisplayLink software driver adds a small amount of input lag",
-      "Standard PD to Dell laptops, not OEM full-rated wattage",
+      "Standard PD to Dell laptops, not OEM full-rated wattage"
     ],
     bestFor: "Buyers who need three displays and can accept 30Hz on the 4K output",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Charging, networking, and data transfer",
       "Compact business-dock form factor",
       "Secure and remote-manageable design",
-      "Cross-brand compatibility including Dell",
+      "Cross-brand compatibility including Dell"
     ],
     pros: [
       "Cheapest pick in this list",
       "Works across both USB-C and Thunderbolt laptops",
       "Compact footprint",
-      "Built for secure business deployment",
+      "Built for secure business deployment"
     ],
     cons: [
       "Standard PD to Dell laptops, not Dell's OEM full-rated wattage",
       "Fewer display outputs than the Dell Smart Dock or Anker Prime",
-      "HP branding may confuse buyers expecting Dell-specific optimization",
+      "HP branding may confuse buyers expecting Dell-specific optimization"
     ],
     bestFor: "Mixed-brand offices that want one low-cost universal dock rather than a Dell-specific model",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed price against port count, display support, and OEM power advantage, the Dell SD25TB4 Pro and HP G5 sit at opposite ends of that spectrum.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -481,11 +481,11 @@ export const faq: FaqItem[] = [
   {
     q: "Are Dell's portable USB-C adapters the same as a docking station?",
     a: "No. Dell's portable multiport adapters frequently appear in docking station search results but typically have no power delivery passthrough to charge the laptop while providing video output. If you need to charge your Dell laptop while it's connected to external displays, confirm the product is an actual dock, not a portable adapter.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-docking-stations-compatible-with-hp-dell-laptops", title: "Best Docking Stations Compatible with HP & Dell Laptops (2026)" },
   { href: "/guide/best-docking-stations-for-laptop-and-desktop", title: "Best Docking Stations for Laptop and Desktop (2026)" },
-  { href: "/guide/best-docking-stations-for-desk-setup", title: "Best Docking Stations for Desk Setup (2026)" },
+  { href: "/guide/best-docking-stations-for-desk-setup", title: "Best Docking Stations for Desk Setup (2026)" }
 ];

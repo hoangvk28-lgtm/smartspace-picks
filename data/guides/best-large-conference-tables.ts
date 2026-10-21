@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $299.99",
+          "Under $300",
           "Tribesigns 8FT Boat-Shaped Conference Table"
         ],
         [
-          "Around $329.99",
+          "Under $350",
           "Tribesigns 8FT Conference Table for 10"
         ],
         [
-          "Around $349.99",
+          "Under $350",
           "Tribesigns 8ft Conference Table for 10"
         ],
         [
-          "Around $350.00",
+          "Under $400",
           "Tribesigns 8FT Conference Table for 10"
         ],
         [
-          "Around $369.99",
+          "Under $400",
           "Tribesigns 10.5FT Conference Table"
         ],
         [
-          "Around $379.99",
+          "Under $400",
           "Tribesigns 8FT Conference Table for 10"
         ],
         [
-          "Around $389.99",
+          "Under $400",
           "Tribesigns 8ft Conference Table for 8-10"
         ],
         [
-          "Around $1,899.99",
+          "Under $1,900",
           "Bonzy Home 14FT Conference Table & 16-Chair Set"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Tribesigns 8ft Conference Table for 10 is aimed at buyers prioritizing 94.49\"w x 47.24\"d x 29.53\"h, mdf top." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Tribesigns 8ft Conference Table for 10 is aimed at buyers prioritizing 94.49\"w x 47.24\"d x 29.53\"h, mdf top." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-conference-tables-for-boardroom","title":"Best Conference Tables for Boardroom in 2026"},{"href":"/guide/best-conference-tables","title":"Best Conference Tables in 2026"},{"href":"/guide/best-conference-tables-with-chairs","title":"Best Conference Tables With Chairs in 2026"}];

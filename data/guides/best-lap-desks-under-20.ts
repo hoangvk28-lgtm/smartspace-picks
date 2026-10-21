@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A device ledge and airflow cooling", "LAPGEAR MyDesk Lap Desk"],
         ["A rigid, slim writing surface for laptops or keyboards", "GRIFITI Portable Travel Deck 15 Lap Desk"],
         ["A simple, no-frills cushioned design", "LAPGEAR Basic Lap Desk"],
-        ["The lightest possible lap desk for easy carrying", "LAPGEAR MyStyle Lap Desk"],
+        ["The lightest possible lap desk for easy carrying", "LAPGEAR MyStyle Lap Desk"]
       ],
     },
   },
@@ -117,8 +117,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $20", "LAPGEAR MyDesk ($19.99), Basic ($19.99), or MyStyle ($19.99)"],
-        ["Exactly $20", "GRIFITI Travel Deck ($20.00)"],
+        ["Under $20", "LAPGEAR MyDesk (under $20), Basic (under $20), or MyStyle (under $20)"],
+        ["Exactly $20", "GRIFITI Travel Deck (under $25)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Cushioned Lounging Design vs Rigid Writing Board",
     cards: [
       { label: "Cushioned (LAPGEAR MyDesk, Basic, MyStyle)", text: "Soft microbead cushion rests comfortably on the lap, ideal for casual laptop use on a couch or bed." },
-      { label: "Rigid (GRIFITI Travel Deck)", text: "Uncushioned but slim and sturdy, better suited to writing, drawing, or using a separate keyboard on your lap." },
+      { label: "Rigid (GRIFITI Travel Deck)", text: "Uncushioned but slim and sturdy, better suited to writing, drawing, or using a separate keyboard on your lap." }
     ],
     note: "If you mainly watch videos or browse casually on a couch, a cushioned design like the LAPGEAR picks is more comfortable. If you need a stable, flat surface for writing or a mechanical keyboard, the GRIFITI's rigid design suits that better.",
   },
@@ -137,7 +137,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Preventing laptop slippage", "LAPGEAR MyDesk (device ledge)"],
         ["Minimizing weight for portability", "LAPGEAR MyStyle (1.15 lbs)"],
-        ["Fitting inside a laptop sleeve for travel", "GRIFITI Travel Deck"],
+        ["Fitting inside a laptop sleeve for travel", "GRIFITI Travel Deck"]
       ],
     },
   },
@@ -145,16 +145,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Working in Bed for Extended Periods Specifically",
     cards: [
       { label: "Look for", text: "A dual-bolster cushion design with an airflow channel to prevent overheating during long sessions." },
-      { label: "In this comparison", text: "The LAPGEAR MyDesk's center airflow channel and dual-bolster cushion are specifically designed for this kind of extended comfortable use." },
+      { label: "In this comparison", text: "The LAPGEAR MyDesk's center airflow channel and dual-bolster cushion are specifically designed for this kind of extended comfortable use." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a device ledge and airflow cooling in one package, where the LAPGEAR MyDesk delivers both at the same price as the simpler picks in this comparison." },
-      { label: "Save if", text: "You just need a simple, reliable cushioned surface, where the LAPGEAR Basic covers that without paying for extra features you may not use." },
+      { label: "Save if", text: "You just need a simple, reliable cushioned surface, where the LAPGEAR Basic covers that without paying for extra features you may not use." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

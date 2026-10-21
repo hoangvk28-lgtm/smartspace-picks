@@ -5,7 +5,7 @@ export const metaDescription = "4 portable SSDs we evaluated for laptop use, cov
 export const mainKeyword = "best portable ssd for laptop";
 export const introParagraphs = [
   "Some ultrabooks do not provide sufficient USB-C power delivery for a bus-powered SSD to reach its full rated speed, a real limitation worth checking in your specific laptop's documentation before assuming any drive will perform at its rated ceiling.",
-  "Rear or legacy USB-A ports on many laptops are also often limited to USB 3.0 or 3.1 Gen 1 speeds, roughly 5Gbps, even when the same laptop has a faster USB-C port elsewhere, so which physical port you plug into matters as much as the laptop's overall spec sheet.",
+  "Rear or legacy USB-A ports on many laptops are also often limited to USB 3.0 or 3.1 Gen 1 speeds, roughly 5Gbps, even when the same laptop has a faster USB-C port elsewhere, so which physical port you plug into matters as much as the laptop's overall spec sheet."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Pick for Laptops",
     name: "SANDISK 2TB Extreme Portable SSD (Old Model) - Up to 1050MB/s, USB-C, USB 3.2 Gen 2, IP65 Water and Dust Resistance, Updated Firmware - SDSSDE61-2T00-G25",
     price: "$299.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "91,365 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41eTFK7clfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HN37XC1?tag=deskfinds0d-20",
     description: "SanDisk's Extreme balances 1050MB/s USB-C speed with IP65 water and dust resistance, a dependable everyday laptop companion that performs consistently across most modern laptop USB-C ports.\n\nIt earns the top spot in this comparison over Samsung T7 Portable SSD 1TB Titan Gray for one main reason. Reliable everyday speed across most modern laptop USB-C ports. On price, it's actually priced above Samsung T7 Portable SSD 1TB Titan Gray, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: IP65 rating adds real everyday durability. On the other side, Sustained speed can dip once cache fills. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Slim Pick for Ultrabooks",
     name: "Samsung T7 Portable SSD 1TB Titan Gray, USB 3.2 Gen 2, Up to 1,050MB/s",
     price: "$216.36",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "21,124 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LdvAbumfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874XN4D8?tag=deskfinds0d-20",
     description: "Samsung's T7 offers a slim, lightweight design well suited to ultrabook users who want minimal bulk alongside 1050MB/s USB 3.2 Gen 2 speed.\n\nOne spot below SANDISK 2TB Extreme Portable SSD in this ranking, it's priced lower than SANDISK 2TB Extreme Portable SSD. The compromise here is straightforward: Some ultrabooks may not provide full USB-C power delivery for peak speed. What you gain in return: Slim, lightweight design matches ultrabook portability. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Reliable, widely reviewed platform. On the other side, 1050MB/s ceiling is not the fastest tier available. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Speed Pick for Modern Laptops",
     name: "Crucial X10 1TB Portable SSD, Up to 2,100MB/s, USB 3.2 USB-C, Durable Storage for Games, Photos & Files, Blue",
     price: "$207.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "2,363 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/312gFk3+1CL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F3377JBN?tag=deskfinds0d-20",
     description: "Crucial's X10 rates up to 2100MB/s over USB 3.2, a genuine step up for laptop users with a newer, faster USB-C port.\n\nSitting just under Samsung T7 Portable SSD 1TB Titan Gray, it's priced lower than Samsung T7 Portable SSD 1TB Titan Gray. Here's the honest tradeoff: Needs a genuinely fast laptop USB-C port to hit rated speed. And here's what it gets you instead: Faster rated bridge than standard Gen 2 drives. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Durable casing for laptop travel. On the other side, Not every laptop's USB-C port supports this tier. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Rugged Pick for Travel Laptops",
     name: "Samsung T7 Shield Portable SSD 1TB, USB 3.2 Gen 2, Up to 1,050 MB/s",
     price: "$286.88",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "16,380 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21mARCvUWxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VLK9W3S?tag=deskfinds0d-20",
     description: "Samsung's T7 Shield adds a rugged rubberized shell to reliable 1050MB/s speed, a sensible pairing for a laptop that travels frequently in a bag alongside other gear.\n\nRanked just behind Crucial X10 1TB Portable SSD, it costs more than Crucial X10 1TB Portable SSD. The real tradeoff against that pick: Bulkier than the non-shielded T7. In exchange, it offers this instead: Rugged shell suits a laptop that travels frequently. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Reliable, well-reviewed platform. On the other side, Sustained speed can dip once cache fills. That's the main tradeoff to weigh against everything above.",

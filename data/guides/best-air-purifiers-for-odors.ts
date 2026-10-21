@@ -5,7 +5,7 @@ export const metaDescription = "5 air purifiers we evaluated for household odors
 export const mainKeyword = "air purifier for odors";
 export const introParagraphs = [
   "Activated carbon has a finite absorption capacity, meaning it saturates faster in a small room with a strong odor source (cooking, litter box, mildew) than the standard filter-replacement estimate assumes, a nuance most product listings skip entirely.",
-  "Ionizers and ozone generators marketed as odor solutions carry a genuine air-quality tradeoff, the EPA has flagged ozone as a lung irritant at elevated concentrations, worth knowing before choosing an odor-control technology.",
+  "Ionizers and ozone generators marketed as odor solutions carry a genuine air-quality tradeoff, the EPA has flagged ozone as a lung irritant at elevated concentrations, worth knowing before choosing an odor-control technology."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Air Purifier for Odors Overall",
     name: "WINIX 5520 Air Purifier with PlasmaWave Technology",
     price: "$179.99",
-    rating: "4.6 stars from 31,954 Amazon ratings",
-    reviews: "31,954 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Wb8TGSnPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT4F8T4L?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget-Friendly Odor Pick",
     name: "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom, H13 True HEPA Filter, 24db Filtration System Cleaner Odor Eliminators, Remove 99.97% Dust Smoke Mold Pollen, Core 300, White",
     price: "$89.99",
-    rating: "4.7 stars from 108,251 Amazon ratings",
-    reviews: "108,251 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Small-Room Odor Pick",
     name: "Afloia Air Purifiers for Home Large Room Up to 900 Sq Ft, H13 True HEPA Air Purifier PM2.5",
     price: "$79.99",
-    rating: "4.6 stars from 1,384 Amazon ratings",
-    reviews: "1,384 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31MxpE4keLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CHW2LLSJ?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Established Budget Pick",
     name: "Germ Guardian True HEPA Filter Air Purifier for Home",
     price: "$80.74",
-    rating: "4.6 stars from 63,485 Amazon ratings",
-    reviews: "63,485 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/316AtkHoSdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004VGIGVY?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Coverage Odor Pick",
     name: "LEVOIT Smart Air Purifier for Home Large Room up to 1875 ft Vital 200S-P",
     price: "$174.99",
-    rating: "4.7 stars from 14,571 Amazon ratings",
-    reviews: "14,571 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Large rated coverage dilutes odor concentration, slowing carbon saturation", "Smart app control for monitoring", "Large, well-established review base", "Genuine headroom for an intense odor source"],
     cons: ["Higher price than budget alternatives", "Larger footprint than compact picks", "No added neutralizing technology beyond carbon and HEPA"],
     bestFor: "Larger spaces with an intense odor source needing extra headroom",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Carbon saturation math for strong odor sources", description: "Considered that activated carbon has a finite absorption capacity and saturates faster in a small room with a strong odor source than the standard replacement estimate assumes." },
   { title: "Ionizer and ozone tradeoff disclosed", description: "Weighed that ionizers and ozone generators marketed as odor solutions carry a genuine air-quality tradeoff, the EPA has flagged ozone as a lung irritant at elevated concentrations." },
-  { title: "Odor source intensity matched to pick", description: "Distinguished routine background household odor from an intense single source (cooking, litter box, mildew), matching carbon depth and coverage to the real scenario." },
+  { title: "Odor source intensity matched to pick", description: "Distinguished routine background household odor from an intense single source (cooking, litter box, mildew), matching carbon depth and coverage to the real scenario." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -247,11 +247,11 @@ export const faq: FaqItem[] = [
   { q: "Do I need a bigger air purifier for a strong odor source like a litter box?", a: "It helps. A larger rated coverage dilutes the odor concentration across more air volume, slowing carbon saturation compared to a small standard-capacity unit facing the same intense source." },
   { q: "Is a HEPA-only air purifier enough for household odor?", a: "Not fully. HEPA filtration handles particulate, but a dedicated carbon or odor-neutralizing technology like PlasmaWave is what actually addresses odor at the molecular level." },
   { "q": "What's the single best pick to come out of this comparison?", a: "Buyers wanting the most-proven pick for general household odors" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Smaller rooms with a moderate, general odor source At $79.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Smaller rooms with a moderate, general odor source At under $80, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-air-purifiers-for-smoke", title: "Best Air Purifiers for Smoke (2026)" },
   { href: "/guide/best-air-purifiers-for-vocs", title: "Best Air Purifiers for VOCs (2026)" },
-  { href: "/guide/best-hepa-and-carbon-air-purifiers", title: "Best HEPA and Carbon Air Purifiers (2026)" },
+  { href: "/guide/best-hepa-and-carbon-air-purifiers", title: "Best HEPA and Carbon Air Purifiers (2026)" }
 ];

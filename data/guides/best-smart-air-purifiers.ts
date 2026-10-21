@@ -5,7 +5,7 @@ export const metaDescription = "5 smart air purifiers we evaluated, with the acc
 export const mainKeyword = "smart air purifier";
 export const introParagraphs = [
   "Built-in air quality sensors vary significantly in accuracy and are rarely verified against a reference-grade monitor, a smart purifier's auto-mode decisions are only as good as its underlying sensor accuracy, an unverified assumption in most reviews.",
-  "Auto-mode sensor-based speed adjustment can create inconsistent noise levels throughout the day as it reacts to detected air quality changes, which may conflict with home-office noise-consistency needs during calls.",
+  "Auto-mode sensor-based speed adjustment can create inconsistent noise levels throughout the day as it reacts to detected air quality changes, which may conflict with home-office noise-consistency needs during calls."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Smart Air Purifier Overall",
     name: "LEVOIT Smart Air Purifier for Home Large Room up to 1875 ft Vital 200S-P",
     price: "$174.99",
-    rating: "4.7 stars from 14,571 Amazon ratings",
-    reviews: "14,571 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Air Quality Monitor Pick",
     name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
-    rating: "4.6 stars from 28,866 Amazon ratings",
-    reviews: "28,866 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419pAe7T0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTKAPUU?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best White Finish Alternative",
     name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH(W), White",
     price: "$229.99",
-    rating: "4.6 stars from 28,866 Amazon ratings",
-    reviews: "28,866 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31pCHKKqN2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01728NLRG?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Voice-Control Smart Pick",
     name: "Levoit Air Purifier for Home Pets Bedroom Dorm Room, Smart & Voice Control",
     price: "$74.99",
-    rating: "4.7 stars from 105,576 Amazon ratings",
-    reviews: "105,576 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ezUHfn5wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08FJ678YK?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Pick with Filter Status Monitoring",
     name: "LEVOIT Air Purifier for Home Pets Bedroom Up to 1073Ft2 Washable Pre-Filter",
     price: "$119.99",
-    rating: "4.7 stars from 11,367 Amazon ratings",
-    reviews: "11,367 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/415AbiHqgpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BNDM2RNG?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Solid, well-established review base", "Washable pre-filter reduces some ongoing cost", "Up to 1073 sq ft rated coverage", "Reasonable price for the feature set"],
     cons: ["Verify extent of smart sensor features vs. basic remote control", "Sensor accuracy not independently verified if present", "Main filter still requires periodic replacement"],
     bestFor: "Buyers who want filter status tracking alongside washable pre-filter convenience",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Sensor accuracy scrutiny for auto-mode reliance", description: "Noted that built-in air quality sensors vary significantly in accuracy and are rarely verified against a reference-grade monitor, a smart purifier's auto-mode decisions are only as good as the underlying sensor." },
   { title: "Auto-mode noise consistency for home-office call compatibility", description: "Considered that sensor-based speed adjustment can create inconsistent noise levels throughout the day, which may conflict with home-office noise-consistency needs during calls." },
-  { title: "Complexity-vs-benefit tradeoff against a similar-CADR non-smart equivalent", description: "Weighed that smart features add internal electronic complexity, more potential failure points, without necessarily improving the actual air-cleaning performance compared to a non-smart unit at similar CADR." },
+  { title: "Complexity-vs-benefit tradeoff against a similar-CADR non-smart equivalent", description: "Weighed that smart features add internal electronic complexity, more potential failure points, without necessarily improving the actual air-cleaning performance compared to a non-smart unit at similar CADR." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Is a smart air purifier better at cleaning air than a non-smart one?", a: "Not necessarily. Smart features add complexity, more potential failure points, without necessarily improving actual air-cleaning performance compared to a non-smart unit at similar CADR, the smart features are about convenience, not filtration power." },
   { q: "What happens to smart air purifier features if the manufacturer stops supporting the app?", a: "Remote monitoring and control features can degrade or stop working entirely, a real longevity risk for smart devices generally, worth considering alongside the convenience these features offer." },
   { q: "Does a smart air purifier still work without Wi-Fi connected?", a: "Most still function as a basic purifier using physical controls, you'd just lose the remote app control and air quality data logging that the smart features specifically provide." },
-  { q: "Is voice assistant compatibility worth prioritizing in a smart air purifier?", a: "Only if you'll actually use it, check the specific listing confirms support for your particular assistant, like Alexa or Google Assistant, rather than assuming generic 'smart' branding covers your ecosystem." },
+  { q: "Is voice assistant compatibility worth prioritizing in a smart air purifier?", a: "Only if you'll actually use it, check the specific listing confirms support for your particular assistant, like Alexa or Google Assistant, rather than assuming generic 'smart' branding covers your ecosystem." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-air-purifiers-with-air-quality-sensors", title: "Best Air Purifiers with Air Quality Sensors (2026)" },
   { href: "/guide/best-energy-efficient-air-purifiers", title: "Best Energy-Efficient Air Purifiers (2026)" },
-  { href: "/guide/best-air-purifiers-for-home-offices", title: "Best Air Purifiers for Home Offices (2026)" },
+  { href: "/guide/best-air-purifiers-for-home-offices", title: "Best Air Purifiers for Home Offices (2026)" }
 ];

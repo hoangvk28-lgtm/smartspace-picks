@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable office pods for sale";
 export const introParagraphs = [
   "Buying an office pod is closer to buying appliances or furniture freight than a typical Amazon purchase, the real differentiators are return policy on a large freight item, whether financing is offered, and whether installation labor is actually included in the listed price or an add-on you'll need to arrange separately.",
-  "These are large, heavy freight items, not standard furniture, expect a freight delivery appointment, a multi-person assembly crew, and in many buildings a floor-load check before you commit, none of which resembles a typical Amazon furniture purchase.",
+  "These are large, heavy freight items, not standard furniture, expect a freight delivery appointment, a multi-person assembly crew, and in many buildings a floor-load check before you commit, none of which resembles a typical Amazon furniture purchase."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -85,9 +85,9 @@ export const products: GuideProduct[] = [
       "The largest and most expensive pod in this research pool, sized for 4 to 6 people at H92in W91in D70in exterior dimensions and shipping with a desk included. Amazon's listing does not include a star rating or review count, so group-size claims and build quality are unverified beyond the manufacturer's own description.\n\nA structure this large means real freight delivery logistics, multi-person assembly, and floor-loading verification are not optional, budget for professional installation and confirm ceiling height and doorway clearance well before delivery. Ventilation for a 4-6 person enclosed space over a multi-hour meeting is not addressed in the listing, worth asking the seller about directly.\n\nShips with a desk included. That said, no star rating or review count available from Amazon. Neither should be a surprise once you know to look for it.",
     specs: ["4 to 6 person capacity", "Exterior dimensions H92in W91in D70in", "Ships with a desk", "Largest and highest-priced pod in this pool"],
     pros: ["Largest stated capacity in this pool at 4 to 6 people", "Ships with a desk included", "Exact exterior dimensions disclosed (H92 x W91 x D70in)", "No star rating or review count to independently verify against the marketing copy"],
-    cons: ["No star rating or review count available from Amazon", "Highest price in this pool at $7,999", "No ventilation data disclosed for a multi-person enclosed space"],
+    cons: ["No star rating or review count available from Amazon", "Highest price in this pool at under $8,000", "No ventilation data disclosed for a multi-person enclosed space"],
     bestFor: "Teams budgeting for a 4-6 person group pod and the logistics that come with it.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -95,7 +95,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Return policy checked, not assumed", description: "Checked whether each listing's return window and freight return process is stated, large items often carry different return terms than standard Amazon purchases." },
   { title: "Financing availability noted where offered", description: "Noted whether Amazon's own financing or installment options appear on the listing, since a this comparison's price range purchase is a different budgeting decision than typical desk accessories." },
   { title: "Installation inclusion verified per listing", description: "Checked each listing's description for whether assembly or installation labor is included versus left to the buyer to arrange." },
-  { title: "Price compared across the full pool", description: "Compared list price across all nine verified products in this niche to place each pick's price in honest context rather than in isolation." },
+  { title: "Price compared across the full pool", description: "Compared list price across all nine verified products in this niche to place each pick's price in honest context rather than in isolation." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -211,11 +211,11 @@ export const faq: FaqItem[] = [
   { q: "Do these listings include installation in the price?", a: "Not necessarily, most listings describe the pod itself without detailing an installation service, confirm directly with the seller before assuming assembly labor is included." },
   { q: "Can I return an office pod if it doesn't fit my space?", a: "Check the specific listing's return terms before ordering, large freight items often carry different return policies, restocking fees, or buyer-paid return shipping compared to standard Amazon purchases." },
   { q: "Is financing available for a $4,000+ office pod?", a: "Some listings offer Amazon's installment financing, but not all do, confirm it's available at checkout on the specific listing you're considering." },
-  { q: "How long does delivery take for a freight item like this?", a: "Expect a freight delivery appointment rather than standard shipping timelines, get a firm estimated delivery window from the seller in writing." },
+  { q: "How long does delivery take for a freight item like this?", a: "Expect a freight delivery appointment rather than standard shipping timelines, get a firm estimated delivery window from the seller in writing." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-office-pods", title: "Best Portable Office Pods (2026)" },
   { href: "/guide/best-portable-work-pods", title: "Best Portable Work Pods (2026)" },
-  { href: "/guide/best-portable-office-booths", title: "Best Portable Office Booths (2026)" },
+  { href: "/guide/best-portable-office-booths", title: "Best Portable Office Booths (2026)" }
 ];

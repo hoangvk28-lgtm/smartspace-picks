@@ -5,7 +5,7 @@ export const metaDescription = "7 portable monitors rated 144Hz, with an honest 
 export const mainKeyword = "144Hz portable monitor";
 export const introParagraphs = [
   "A monitor's panel can be rated 144Hz while the actual link delivered by your source device caps at 60Hz. 144Hz over USB-C requires DisplayPort Alt Mode with sufficient bandwidth, not just a spec sheet number, and several picks below only hit 144Hz over USB-C while their HDMI port is limited to 120Hz, a distinction worth knowing before you cable up a console.",
-  "Also worth knowing: handheld gaming PCs like Steam Deck and ROG Ally typically output capped at 60Hz over USB-C regardless of the monitor's rated refresh, making a 144Hz panel spec irrelevant for that specific pairing.",
+  "Also worth knowing: handheld gaming PCs like Steam Deck and ROG Ally typically output capped at 60Hz over USB-C regardless of the monitor's rated refresh, making a 144Hz panel spec irrelevant for that specific pairing."
 ];
 export const lastUpdated = "2026-07-28";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall 144Hz Pick",
     name: "cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C, 120Hz HDMI",
     price: "$164.98",
-    rating: "4.8 stars from 6,301 Amazon ratings",
-    reviews: "6,301 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41taGyfYchL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR8D6BQ3?tag=deskfinds0d-20",
     description: "This is one of the few listings in this guide that discloses per-port refresh honestly: 144Hz over USB-C, 120Hz over HDMI, a genuinely useful distinction since many competing listings quote only the higher USB-C number without clarifying the HDMI ceiling. At 2560x1600, this is comfortably within USB-C DisplayPort Alt Mode bandwidth for 144Hz without needing Display Stream Compression.\n\nIt earns the top spot in this comparison over VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz for one main reason. Honest, explicit per-port refresh rate disclosure. On price, it comes in below VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: 2.5K resolution stays within USB-C bandwidth for full 144Hz. On the other side, Higher price than 1080p-only 144Hz picks. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Brightness at 144Hz",
     name: "VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz, 470 Nits",
     price: "$169.99",
-    rating: "4.8 stars from 3,365 Amazon ratings",
-    reviews: "3,365 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51kORE12J1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHP4MKMP?tag=deskfinds0d-20",
     description: "At 470 nits, this is the brightest 144Hz-rated panel in this guide, genuinely useful if you're gaming near a window. Same 2560x1600 resolution as the top pick, comfortably within USB-C bandwidth for full 144Hz without DSC.\n\nOne spot below cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C in this ranking, it costs more than cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C. The compromise here is straightforward: Source device must support 144Hz for the spec to matter. What you gain in return: Brightest 144Hz panel in this guide. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: 2.5K resolution within USB-C bandwidth for full rate. On the other side, Pricier than budget 1080p 144Hz picks. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget 144Hz Pick",
     name: "ARZOPA 16.1'' 144Hz Portable Gaming Monitor, 106% sRGB",
     price: "$96.99",
-    rating: "4.5 stars from 2,739 Amazon ratings",
-    reviews: "2,739 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51wFOAMcM4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CH9WTW56?tag=deskfinds0d-20",
     description: "At 1080p, 144Hz here is comfortably within both USB-C and HDMI bandwidth, unlike the 2.5K picks above where the HDMI port drops to 120Hz. This is the more straightforward 144Hz guarantee across ports in this guide, provided your source device itself can output 144Hz.\n\nSitting just under VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz, it's priced lower than VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz. Here's the honest tradeoff: Mini-HDMI requires an adapter cable. And here's what it gets you instead: 1080p keeps 144Hz achievable over both USB-C and HDMI. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Budget price for a 144Hz panel. On the other side, Lower resolution than the 2.5K picks. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wide Color Gamut at 144Hz",
     name: "Upperizon Portable Monitor 16 inch 2K QHD 145% sRGB, 144Hz USB-C, 120Hz HDMI",
     price: "$159.98",
-    rating: "4.7 stars from 1,156 Amazon ratings",
-    reviews: "1,156 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/511gL4ZzxdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C8J9VB27?tag=deskfinds0d-20",
     description: "This 145% sRGB (100% DCI-P3) claim is the widest gamut among the 144Hz picks in this guide, useful if you split time between gaming and color-sensitive creative work. Same honest 144Hz-USB-C/120Hz-HDMI split as the top pick.\n\nRanked just behind ARZOPA 16.1'' 144Hz Portable Gaming Monitor, it costs more than ARZOPA 16.1'' 144Hz Portable Gaming Monitor. The real tradeoff against that pick: Smaller review base than the more established picks. In exchange, it offers this instead: Widest color gamut of the 144Hz picks here. That's the swap that decides whether this pick or the one above it is the better fit for your source device.\n\nWorth knowing before you decide: Honest per-port refresh rate disclosure. On the other side, Pricier than the ARZOPA budget pick. That's the main tradeoff to weigh against everything above.",
@@ -89,8 +89,8 @@ export const products: GuideProduct[] = [
     badge: "Best 30W Adapter Included",
     name: "Upperizon Portable Monitor 16 inch 2K QHD 106% sRGB, 144Hz USB-C, 120Hz HDMI",
     price: "$149.99",
-    rating: "4.7 stars from 1,156 Amazon ratings",
-    reviews: "1,156 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41r1U1sCYNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT44HPT3?tag=deskfinds0d-20",
     description: "A close sibling to the rank-4 pick at a lower price and slightly narrower 106% sRGB gamut. Includes a 30W PD adapter in the box, useful if your laptop's own charger is on the lighter side and you'd rather not share power budget with the display.\n\nOne spot below Upperizon Portable Monitor 16 inch 2K QHD 145% sRGB in this ranking, it's priced lower than Upperizon Portable Monitor 16 inch 2K QHD 145% sRGB. The compromise here is straightforward: 106% sRGB narrower than the DCI-P3 sibling pick. What you gain in return: Includes its own 30W power adapter. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Honest per-port refresh rate spec. On the other side, Still only 120Hz over HDMI. That's the main tradeoff to weigh against everything above.",
@@ -105,8 +105,8 @@ export const products: GuideProduct[] = [
     badge: "Widest Adaptive Sync Support",
     name: "acer Nitro Portable Gaming Monitor 15.6\" FHD 165Hz AMD FreeSync",
     price: "$139.99",
-    rating: "4.4 stars from 9 Amazon ratings",
-    reviews: "9 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41yp2kKcd9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F6VHTMGX?tag=deskfinds0d-20",
     description: "Technically rated 165Hz, this Acer panel is included here because it comfortably covers the 144Hz tier too, and it's the only pick in this guide with genuine AMD FreeSync certification, a real benefit if your source GPU is AMD-based. At 1080p, bandwidth isn't a concern at either 144Hz or 165Hz.\n\nSitting just under Upperizon Portable Monitor 16 inch 2K QHD 106% sRGB, it's priced lower than Upperizon Portable Monitor 16 inch 2K QHD 106% sRGB. Here's the honest tradeoff: Very small review count on this listing. And here's what it gets you instead: Genuine AMD FreeSync certification, rare in this guide. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Established Acer brand reputation. On the other side, 6ms GtG is slower than dedicated esports monitors. That's the main tradeoff to weigh against everything above.",
@@ -121,8 +121,8 @@ export const products: GuideProduct[] = [
     badge: "Highest Headroom Above 144Hz",
     name: "ARZOPA 16.1'' 180Hz 2.5K Portable Monitor, 2560x1440 QHD",
     price: "$139.99",
-    rating: "4.4 stars from 386 Amazon ratings",
-    reviews: "386 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41-sCOIkYyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FDL2VR2C?tag=deskfinds0d-20",
     description: "Rated above 144Hz at 180Hz, this panel gives headroom if your PC GPU can actually sustain frame rates that high, though remember the jump from 144Hz to 180Hz is imperceptible unless your source consistently renders well above 144fps. Mini-HDMI here, requiring an adapter cable for console/older-device use.\n\nRanked just behind acer Nitro Portable Gaming Monitor 15.6\" FHD 165Hz AMD FreeSync, it costs more than acer Nitro Portable Gaming Monitor 15.6\" FHD 165Hz AMD FreeSync. The real tradeoff against that pick: 144-to-180Hz jump is imperceptible without a source sustaining 150+fps. In exchange, it offers this instead: Headroom above 144Hz if your GPU can use it. That's the swap that decides whether this pick or the one above it is the better fit for your source device.\n\nWorth knowing before you decide: Sharp 2.5K resolution. On the other side, Smallest review base among the premium picks. That's the main tradeoff to weigh against everything above.",
@@ -137,7 +137,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Per-port refresh rate verification", description: "Checked whether each listing discloses separate USB-C and HDMI refresh rate ceilings, since many panels hit 144Hz only over USB-C while capping at 120Hz over HDMI." },
   { title: "Bandwidth reality at the stated resolution", description: "Confirmed whether 144Hz at the panel's resolution fits within standard USB-C DisplayPort Alt Mode bandwidth without requiring Display Stream Compression (DSC)." },
-  { title: "Source-device compatibility, including handhelds", description: "Noted that handheld gaming PCs like Steam Deck and ROG Ally typically cap at 60Hz over USB-C, making a 144Hz panel spec irrelevant for that specific source." },
+  { title: "Source-device compatibility, including handhelds", description: "Noted that handheld gaming PCs like Steam Deck and ROG Ally typically cap at 60Hz over USB-C, making a 144Hz panel spec irrelevant for that specific source." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -274,11 +274,11 @@ export const faq: FaqItem[] = [
   { q: "Is a 144Hz portable monitor worth it for a Steam Deck or ROG Ally?", a: "Generally not for the refresh rate specifically. Handheld gaming PCs typically output capped at 60Hz over USB-C, making a 144Hz panel's extra spec unused for that pairing." },
   { q: "Should I buy 1080p or 2.5K if I want guaranteed 144Hz everywhere?", a: "1080p is the safer bet. On the picks in this guide, 1080p/144Hz panels reach the full rate over both USB-C and HDMI, while 2.5K panels often cap at 120Hz over HDMI specifically." },
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers who want an honest per-port 144Hz/120Hz spec rather than an inflated single number" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-focused buyers who want a straightforward 1080p/144Hz guarantee across both port types At $96.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-focused buyers who want a straightforward 1080p/144Hz guarantee across both port types At under $100, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-165hz-portable-monitors", title: "Best 165Hz Portable Monitors (2026)" },
   { href: "/guide/best-2k-portable-monitors", title: "Best 2K Portable Monitors (2026)" },
-  { href: "/guide/best-hdmi-portable-monitors", title: "Best HDMI Portable Monitors (2026)" },
+  { href: "/guide/best-hdmi-portable-monitors", title: "Best HDMI Portable Monitors (2026)" }
 ];

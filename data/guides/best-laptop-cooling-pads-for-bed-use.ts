@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop cooling pads for bed use";
 export const introParagraphs = [
   "Bed use changes the cooling-pad environment since mattresses and blankets are soft and uneven, capable of blocking a pad's underside air intake in a way a flat desk surface never would. A rigid base and a fan design that doesn't rely on unobstructed under-pad airflow matter more here than on a normal desk.",
-  "This guide compares four products genuinely designed with bed use in mind, including dedicated lap desks with cooling fans, rather than repeating generic desk cooling pad advice that doesn't account for a soft sleeping surface underneath.",
+  "This guide compares four products genuinely designed with bed use in mind, including dedicated lap desks with cooling fans, rather than repeating generic desk cooling pad advice that doesn't account for a soft sleeping surface underneath."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "6 min";
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine bed-use design verification", description: "We prioritized products whose listings explicitly state bed, sofa, or couch use, rather than a general desk cooling pad that happens to be usable on a mattress." },
   { title: "Rigid base or stable cushion for soft surfaces", description: "We evaluated whether the underside design (rigid platform or stable cushion) avoids sinking into bedding, which could otherwise block airflow or cause instability." },
   { title: "Fan intake obstruction risk", description: "We noted whether the fan, if present, is positioned in a way that avoids being blocked by soft bedding underneath." },
-  { title: "Active vs passive cooling honesty", description: "We were explicit about which picks include a genuine powered fan versus a passive heat-resistant material only." },
+  { title: "Active vs passive cooling honesty", description: "We were explicit about which picks include a genuine powered fan versus a passive heat-resistant material only." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -227,11 +227,11 @@ export const faq: FaqItem[] = [
   { q: "Do all bed-use laptop desks have a fan?", a: "No, two picks in this guide rely on passive heat-resistant cushion material rather than an active fan. Check the specific listing before assuming powered cooling." },
   { q: "Is it safe to use a laptop on a bed for long periods?", a: "Using a rigid platform or actively cooled desk reduces heat buildup risk against bedding. Avoid placing a laptop directly on loose fabric without any barrier during extended sessions." },
   { q: "Which pick is best if I also want a mouse tray?", a: "The MAX SMART Laptop Lap Pad includes both a detachable mouse tray and a genuine USB cooling fan, the most complete option in this guide for that combination." },
-  { q: "What's the most portable option for occasional bed use?", a: "The AboveTEK Portable Laptop Lap Desk is the lightest and thinnest pick in this guide, easy to store when not in use." },
+  { q: "What's the most portable option for occasional bed use?", a: "The AboveTEK Portable Laptop Lap Desk is the lightest and thinnest pick in this guide, easy to store when not in use." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-cooling-pads-for-lap-use", title: "Best Laptop Cooling Pads for Lap Use (2026)" },
   { href: "/guide/best-laptop-cooling-pads-with-mouse-trays", title: "Best Laptop Cooling Pads with Mouse Trays (2026)" },
-  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" }
 ];

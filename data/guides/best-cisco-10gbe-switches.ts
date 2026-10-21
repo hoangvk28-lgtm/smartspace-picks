@@ -129,20 +129,20 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $440.00",
+          "Under $450",
           "Cisco SG350-10P Managed Switch"
         ],
         [
-          "Around $669.90",
+          "Under $700",
           "Cisco Catalyst 1300-12XT-2X Managed Switch"
         ],
         [
-          "Around $1,450.00",
+          "Under $1,500",
           "Cisco Meraki Cloud Managed MS225-24P"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -190,7 +190,7 @@ export const faq = [
     "a": "No. The total PoE budget is shared across all active PoE ports, so if you power several high-draw devices simultaneously, the switch may not be able to deliver every port's maximum rated wattage at the same time. Check the total budget against your actual device count and power needs."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Cisco SG350-10P Managed Switch is aimed at buyers prioritizing 8x 1g + 2x combo sfp, 62w poe." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Cisco SG350-10P Managed Switch is aimed at buyers prioritizing 8x 1g + 2x combo sfp, 62w poe." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-netgear-10gbe-switches","title":"Best NETGEAR 10GbE Switches in 2026"},{"href":"/guide/best-mikrotik-10gbe-switches","title":"Best MikroTik 10GbE Switches in 2026"},{"href":"/guide/best-qnap-10gbe-switches","title":"Best QNAP 10GbE Switches in 2026"}];

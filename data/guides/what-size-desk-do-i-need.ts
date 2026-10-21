@@ -12,7 +12,7 @@ export const whatSizeDeskDoINeedGuide: Guide = {
     "desk size for dorm room",
     "desk size for small bedroom",
     "how big should my desk be",
-    "desk size for laptop vs desktop",
+    "desk size for laptop vs desktop"
   ],
   heroImage: "https://images.unsplash.com/photo-1741466071728-cc5691bfb535?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1741466071728-cc5691bfb535?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const whatSizeDeskDoINeedGuide: Guide = {
     "best-small-keyboards",
     "best-webcam-under-50",
     "best-desk-hutches-for-dorm-rooms",
-    "best-under-desk-drawers-for-dorm-rooms",
+    "best-under-desk-drawers-for-dorm-rooms"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const whatSizeDeskDoINeedGuide: Guide = {
       question: "Should I measure my room or my desk needs first?",
       answer:
         "Measure your room's available space first to establish a hard maximum size, then compare that maximum against your actual equipment needs (laptop-only versus full desktop setup) to find the largest desk that both fits your space and meets your workflow needs.",
-    },
+    }
   ],
   sections: [
     {
@@ -90,6 +90,6 @@ Rather than assuming one large desk works for two people, consider whether two s
 2. **Check the path to get the desk into the room**, since a desk that fits your target wall may not fit through a narrow doorway or hallway if it ships pre-assembled.
 3. **Leave room behind the desk for a chair**, typically 36-42 inches of depth for comfortable sitting and standing.
 4. **Compare your room's maximum against your equipment needs** from the chart above, and choose the largest desk that satisfies both constraints.`,
-    },
+    }
   ],
 };

@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $27.99",
+          "Under $30",
           "GAOMON S620 Graphics Drawing Tablet"
         ],
         [
-          "Around $42.99",
+          "Under $45",
           "GAOMON M10K Drawing Tablet"
         ],
         [
-          "Around $50.99",
+          "Under $60",
           "GAOMON WH851 Bluetooth Graphics Drawing Tablet"
         ],
         [
-          "Around $149.99",
+          "Under $150",
           "GAOMON PD1161 Drawing Tablet with Screen"
         ],
         [
-          "Around $319.99",
+          "Under $350",
           "GAOMON PD2200 Drawing Tablet with Screen"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "GAOMON PD1161 Drawing Tablet with Screen is aimed at buyers prioritizing 11.6in fhd ips, 72% ntsc gamut." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "GAOMON PD1161 Drawing Tablet with Screen is aimed at buyers prioritizing 11.6in fhd ips, 72% ntsc gamut." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"},{"href":"/guide/best-wacom-drawing-tablets","title":"Best Wacom Drawing Tablets in 2026"},{"href":"/guide/best-drawing-tablets-with-screens","title":"Best Drawing Tablets With Screens in 2026"}];

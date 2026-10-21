@@ -29,7 +29,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B014EKQ5AA?tag=deskfinds0d-20",
     description: "This listing includes two complete 6-outlet power strips rather than one, a genuine value proposition for anyone outfitting two separate work areas or wanting a spare unit, at roughly $7 per strip when split across the pair. Each strip offers 200 joules of 3-line surge protection with a red LED indicator confirming active protection, plus a 15 amp circuit breaker for added safety.\n\nIts 15 amp, 125 volt, 1875 watt rating covers typical household electronics, and the back keyhole wall-mount option keeps cords tidy in a fixed location, though the short 2-foot cord limits placement flexibility compared to longer-corded alternatives.\n\nBest for buyers who want two complete surge-protected strips for less than the price of buying two single units elsewhere.",
     specs: ["6 outlets, 200J surge protection, 2-pack", "15A circuit breaker, 2 ft cord", "Wall-mountable, on/off switch"],
-    pros: ["Two complete strips for roughly $7 each", "200J surge protection with LED confirmation light", "15A circuit breaker adds a real safety layer"],
+    pros: ["Two complete strips for under $8 each", "200J surge protection with LED confirmation light", "15A circuit breaker adds a real safety layer"],
     cons: ["Short 2 ft cord limits placement flexibility", "No USB ports on either strip"],
     bestFor: "buyers who want two surge-protected strips for the price of one elsewhere",
   },
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Two strips for the price of a bit more than one", "Amazon Basics 6-Outlet Surge Protector Power Strip, 2-Pack"],
         ["Meaningfully higher joule surge protection", "Yintar 6Ft Surge Protector Power Strip"],
         ["The most compact, travel-friendly design", "Olcorife Flat Plug Power Strip"],
-        ["The most outlets and widest spacing", "YISHU 6Ft Surge Protector Power Strip"],
+        ["The most outlets and widest spacing", "YISHU 6Ft Surge Protector Power Strip"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $10", "Olcorife ($9.99) or YISHU ($9.98)"],
-        ["Under $13", "Yintar ($12.99)"],
-        ["Under $14", "Amazon Basics 2-Pack ($13.99)"],
+        ["Under $10", "Olcorife (under $10) or YISHU (under $10)"],
+        ["Under $13", "Yintar (under $15)"],
+        ["Under $14", "Amazon Basics 2-Pack (under $15)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Linear Strip vs 3-Side Compact Design",
     cards: [
       { label: "Linear strip (Amazon Basics, Yintar)", text: "Traditional shape fits neatly along a baseboard or desk edge, familiar and predictable in how it takes up space." },
-      { label: "3-side compact (Olcorife, YISHU)", text: "Spreads outlets across three sides to prevent large plugs from blocking each other, at the cost of a slightly bulkier footprint." },
+      { label: "3-side compact (Olcorife, YISHU)", text: "Spreads outlets across three sides to prevent large plugs from blocking each other, at the cost of a slightly bulkier footprint." }
     ],
     note: "If you regularly plug in bulky chargers or adapters, the 3-side designs prevent the blocking problem a linear strip can create. If space efficiency along a flat surface matters more, a linear strip is simpler.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Higher joule rating for better protection", "Yintar (1680J) or YISHU (900J)"],
         ["Basic protection at the lowest price", "Amazon Basics 2-Pack (200J per unit)"],
-        ["No stated joule rating, compact priority instead", "Olcorife Flat Plug"],
+        ["No stated joule rating, compact priority instead", "Olcorife Flat Plug"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Cramped Dorm Room Desk Specifically",
     cards: [
       { label: "Look for", text: "A compact 3-side design with an ultra-thin flat plug that can tuck behind furniture without wasting desk space." },
-      { label: "In this comparison", text: "The Olcorife pick's 3-side design and 0.27 inch flat plug are specifically built for this kind of space-constrained setup." },
+      { label: "In this comparison", text: "The Olcorife pick's 3-side design and 0.27 inch flat plug are specifically built for this kind of space-constrained setup." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want meaningfully higher surge protection with a documented joule rating, where the Yintar pick's 1680J rating offers real protection headroom over the basic picks." },
-      { label: "Save if", text: "You just need the most outlets for the lowest price, where the YISHU pick delivers 8 outlets and 4 USB ports for under $10." },
+      { label: "Save if", text: "You just need the most outlets for the lowest price, where the YISHU pick delivers 8 outlets and 4 USB ports for under $10." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

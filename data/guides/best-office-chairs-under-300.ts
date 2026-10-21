@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A recognized ergonomic brand's dual-backrest design", "Autonomous ErgoChair Core"],
         ["A lockable recline with a genuine extendable footrest", "GABRYLLY Ergonomic Office Chair with Footrest"],
         ["The highest weight capacity and longest warranty", "CAPOT Ergonomic Mesh Office Chair, 400lbs"],
-        ["Precise 3D armrests without premium extras", "HUANUO Ergonomic Office Chair with 3D Armrests"],
+        ["Precise 3D armrests without premium extras", "HUANUO Ergonomic Office Chair with 3D Armrests"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $110", "HUANUO ($109.98)"],
-        ["Under $200", "CAPOT ($199.99)"],
-        ["Under $230", "GABRYLLY with Footrest ($228.90)"],
-        ["Under $300", "Autonomous ErgoChair Core ($299.00)"],
+        ["Under $110", "HUANUO (under $110)"],
+        ["Under $200", "CAPOT (under $200)"],
+        ["Under $230", "GABRYLLY with Footrest (under $250)"],
+        ["Under $300", "Autonomous ErgoChair Core (under $300)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Named Ergonomic Brand vs Generic Manufacturer",
     cards: [
       { label: "Named brand (Autonomous)", text: "Backed by a company specializing specifically in ergonomic office furniture, with documented warranty terms and established customer support channels." },
-      { label: "Generic manufacturer (GABRYLLY, CAPOT, HUANUO)", text: "Often offers comparable or even higher weight capacity and certification credentials at a lower price, without the brand recognition." },
+      { label: "Generic manufacturer (GABRYLLY, CAPOT, HUANUO)", text: "Often offers comparable or even higher weight capacity and certification credentials at a lower price, without the brand recognition." }
     ],
     note: "If brand accountability and support channel maturity matter to you, the Autonomous pick offers that. If you prioritize raw capacity and certification per dollar, the CAPOT or GABRYLLY picks deliver strong value without brand-name pricing.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Want to recline and rest feet during breaks", "GABRYLLY Ergonomic Office Chair with Footrest"],
         ["Prefer a dual-backrest design without a footrest", "Autonomous ErgoChair Core"],
-        ["Just need reliable seating without recline extras", "CAPOT or HUANUO"],
+        ["Just need reliable seating without recline extras", "CAPOT or HUANUO"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Long Work-From-Home Days With Frequent Breaks Specifically",
     cards: [
       { label: "Look for", text: "A lockable multi-position recline paired with a genuine extendable footrest, not just a tilt function alone." },
-      { label: "In this comparison", text: "The GABRYLLY pick's retractable 18.1 inch steel footrest combined with its 3-position lockable recline suits this need specifically." },
+      { label: "In this comparison", text: "The GABRYLLY pick's retractable 18.1 inch steel footrest combined with its 3-position lockable recline suits this need specifically." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a recognized ergonomic brand's specific dual-backrest design or a genuine footrest for breaks, where the Autonomous or GABRYLLY picks each deliver a distinct capability the budget options lack." },
-      { label: "Save if", text: "You want the highest weight capacity and longest warranty without paying for a footrest or brand name, where the CAPOT pick delivers both for $100 less than the Autonomous pick." },
+      { label: "Save if", text: "You want the highest weight capacity and longest warranty without paying for a footrest or brand name, where the CAPOT pick delivers both for $100 less than the Autonomous pick." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

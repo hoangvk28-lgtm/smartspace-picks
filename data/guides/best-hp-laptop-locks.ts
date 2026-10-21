@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "HP laptop locks";
 export const introParagraphs = [
   "HP uses different security-slot implementations across its lineup rather than one universal standard, so a lock that fits one HP laptop won't necessarily fit another. We required exact-model slot verification rather than a brand-wide compatibility claim before including any pick here.",
-  "Most HP business and consumer laptops use the Standard T-Bar slot, but select thin HP models, including some Elite X2 tablets and Chromebooks, use Kensington's smaller Nano slot instead. We sorted every pick by which of those two your specific HP model actually needs.",
+  "Most HP business and consumer laptops use the Standard T-Bar slot, but select thin HP models, including some Elite X2 tablets and Chromebooks, use Kensington's smaller Nano slot instead. We sorted every pick by which of those two your specific HP model actually needs."
 ];
 export const lastUpdated = "2026-08-11";
 export const readTime = "8 min";
@@ -126,10 +126,10 @@ export const products: GuideProduct[] = [
     reviews: "56",
     imageUrl: "https://m.media-amazon.com/images/I/21wh6b9wJwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CRKFVZ9L?tag=deskfinds0d-20",
-    description: "The lowest-priced Standard-slot lock in this comparison, with a 5-foot anti-shearing cable and one-handed slider attachment for quick locking on an HP laptop without needing a free hand to steady the head. The resettable 4-wheel dial matches the mechanism of the pricier Standard-slot picks here.\n\nRanked just behind Kensington NanoSaver Keyed Laptop Lock, it's priced lower than Kensington NanoSaver Keyed Laptop Lock. The real tradeoff against that pick: Lowest rating in this comparison at 3.9 stars. In exchange, it offers this instead: Lowest price of any Standard-slot lock in this comparison. That's the swap that decides whether this pick or the one above it is the better fit for your laptop.\n\nWorth knowing before you decide: Full head and cable rotation preserves port access. On the other side, Standard slot only, not compatible with Nano-slot HP models. That's the main tradeoff to weigh against everything above.",
+    description: "The lowest-priced Standard-slot lock in this comparison, with a 5-foot anti-shearing cable and one-handed slider attachment for quick locking on an HP laptop without needing a free hand to steady the head. The resettable 4-wheel dial matches the mechanism of the pricier Standard-slot picks here.\n\nRanked just behind Kensington NanoSaver Keyed Laptop Lock, it's priced lower than Kensington NanoSaver Keyed Laptop Lock. In exchange, it offers this instead: Lowest price of any Standard-slot lock in this comparison. That's the swap that decides whether this pick or the one above it is the better fit for your laptop.\n\nWorth knowing before you decide: Full head and cable rotation preserves port access. On the other side, Standard slot only, not compatible with Nano-slot HP models. That's the main tradeoff to weigh against everything above.",
     specs: ["Standard slot, resettable 4-wheel dial","5 ft anti-shearing cable, one-handed slider attach","360-degree head pivot"],
     pros: ["Lowest price of any Standard-slot lock in this comparison","Full head and cable rotation preserves port access"],
-    cons: ["Lowest rating in this comparison at 3.9 stars","Standard slot only, not compatible with Nano-slot HP models"],
+    cons: ["Standard slot only, not compatible with Nano-slot HP models"],
     bestFor: "Budget-focused HP owners on a confirmed Standard slot.",
   }
 ];
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified slot type per HP model rather than assuming a brand-wide standard", description: "We separated Standard-slot and Nano-slot picks explicitly, since HP uses both across its lineup depending on the specific model." },
   { title: "Cross-checked Kensington's documented brand compatibility", description: "We only included picks where Kensington's own documentation names HP as a supported brand for that specific slot type, rather than assuming generic compatibility." },
   { title: "Weighed keyed against combination access for each slot type", description: "Both Standard and Nano slots have a keyed and combination option in this comparison, letting HP owners choose the access method that fits their recovery preference." },
-  { title: "Flagged review volume differences across the lineup", description: "Review counts here range from 4 to over 1,400. We treated the newest multi-slot lock's thin review history as unproven rather than equivalent to the established picks." },
+  { title: "Flagged review volume differences across the lineup", description: "Review counts here range from 4 to over 1,400. We treated the newest multi-slot lock's thin review history as unproven rather than equivalent to the established picks." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -274,11 +274,11 @@ export const faq: FaqItem[] = [
   { q: "What's the best overall HP laptop lock?", a: "The Kensington Combination Cable T-Bar Standard Lock, for its combination of the largest confirmed review base in this comparison and explicit HP compatibility documentation, provided your HP model uses a Standard slot." },
   { q: "How do I know if my HP laptop uses Standard or Nano?", a: "Check your HP model's specifications page or run it through Kensington's official lock selector tool rather than guessing from appearance, since the two slots look similar." },
   { q: "Is there an HP lock option if I'm not sure of my slot type?", a: "Yes, the Kensington Universal 3-in-1 2.0 Combination Laptop Lock covers both Standard and Nano slots in one purchase with interchangeable tips." },
-  { q: "Are these locks theft-proof?", a: "No. Position any lock here as a theft deterrent that slows down or discourages casual theft, not a guarantee against a determined attacker with cutting tools." },
+  { q: "Are these locks theft-proof?", a: "No. Position any lock here as a theft deterrent that slows down or discourages casual theft, not a guarantee against a determined attacker with cutting tools." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-locks", title: "Best Laptop Locks (2026)" },
   { href: "/guide/best-kensington-laptop-locks", title: "Best Kensington Laptop Locks (2026)" },
-  { href: "/guide/best-nano-slot-laptop-locks", title: "Best Nano-Slot Laptop Locks (2026)" },
+  { href: "/guide/best-nano-slot-laptop-locks", title: "Best Nano-Slot Laptop Locks (2026)" }
 ];

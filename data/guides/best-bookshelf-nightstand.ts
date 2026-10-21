@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "bookshelf nightstand";
 export const introParagraphs = [
   "Bookshelf nightstands generally fall into two groups: simple 3-tier open shelving that maximizes visible storage in a compact footprint, and taller nightstands that combine open bookshelf tiers with drawers, LED lighting, and built-in charging for maximizing vertical storage in a smaller bedroom.",
-  "We evaluated 8 bookshelf nightstands on shelf count, drawer storage, height, and extras like charging ports and LED lighting, ranging from budget-friendly open shelves to feature-packed tall towers.",
+  "We evaluated 8 bookshelf nightstands on shelf count, drawer storage, height, and extras like charging ports and LED lighting, ranging from budget-friendly open shelves to feature-packed tall towers."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -51,24 +51,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51qYnJZpBIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07FL6D1Z8?tag=deskfinds0d-20",
     description:
-      "The Furinno JUST is the best-selling nightstand in this list by a wide margin, with over 59,000 ratings backing its simple 3-tier open shelf design. Made from FSC-certified engineered wood using 95-100% recycled material, it assembles without tools in minutes by one person, and rounded corners keep it safe around kids or in tight bedroom layouts.\n\nAt just 6.2 lbs and a compact 13.4\"W x 11.5\"D x 22.8\"H footprint, it's easy to move and fits beside almost any bed. For anyone who just wants simple, proven open-shelf storage for books, a lamp, and a clock without paying for drawers or electronics, this is the clear default choice.\n\nWorth calling out specifically: tool-less, one-person assembly. The catch is no drawers, all storage is open.",
+      "Made from FSC-certified engineered wood using 95-100% recycled material, it assembles without tools in minutes by one person, and rounded corners keep it safe around kids or in tight bedroom layouts.\n\nAt just 6.2 lbs and a compact 13.4\"W x 11.5\"D x 22.8\"H footprint, it's easy to move and fits beside almost any bed. For anyone who just wants simple, proven open-shelf storage for books, a lamp, and a clock without paying for drawers or electronics, this is the clear default choice.\n\nWorth calling out specifically: tool-less, one-person assembly. The catch is no drawers, all storage is open.",
     specs: [
       "13.4\"W x 11.5\"D x 22.8\"H",
       "FSC-certified 95-100% recycled engineered wood",
       "3 open shelves, 45 lb total capacity",
       "Tool-less one-person assembly",
-      "6.2 lbs, rounded safety corners",
+      "6.2 lbs, rounded safety corners"
     ],
     pros: [
-      "Best-selling nightstand in this list at 59,029 ratings",
       "Tool-less, one-person assembly",
       "FSC-certified sustainable materials",
-      "Lightweight and easy to move",
+      "Lightweight and easy to move"
     ],
     cons: [
       "No drawers, all storage is open",
       "No charging ports or LED lighting",
-      "Lower weight capacity than metal-frame alternatives",
+      "Lower weight capacity than metal-frame alternatives"
     ],
     bestFor: "Buyers who want the most proven, simplest open-shelf nightstand at a low price",
   },
@@ -83,24 +82,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41f2a5EbPoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CM327PZ1?tag=deskfinds0d-20",
     description:
-      "This second Furinno model uses the same tool-less, one-person assembly and rounded safety corners as the bestseller above, but in an industrial Americano/Black two-tone finish that suits darker or more modern bedroom decor. CARB Grade FSC-certified composite wood construction and durable PVC poles give it a slightly different build than the French Oak version, at the same price and the same compact footprint.\n\nWith a 4.6 star rating across over 3,000 reviews, it's nearly as proven as the top pick while offering a different aesthetic for buyers who want a two-tone look instead of a single wood finish.\n\nSame easy tool-less assembly as the bestseller. Set against that, slightly lower weight capacity (30 lb) than the French Oak version. Both matter when comparing it to the other picks here.",
+      "This second Furinno model uses the same tool-less, one-person assembly and rounded safety corners as the bestseller above, but in an industrial Americano/Black two-tone finish that suits darker or more modern bedroom decor. CARB Grade FSC-certified composite wood construction and durable PVC poles give it a slightly different build than the French Oak version, at the same price and the same compact footprint.\n\nSame easy tool-less assembly as the bestseller. Set against that, slightly lower weight capacity (30 lb) than the French Oak version. Both matter when comparing it to the other picks here.",
     specs: [
       "13.4\"W x 11.5\"D x 22.8\"H",
       "CARB Grade FSC-certified composite wood",
       "3 open shelves, 30 lb total capacity",
       "PVC poles, rounded corners",
-      "Tool-less assembly",
+      "Tool-less assembly"
     ],
     pros: [
       "Industrial two-tone Americano/Black finish",
       "Same easy tool-less assembly as the bestseller",
-      "Strong 4.6 star rating",
-      "Same low price as the French Oak version",
+      "Same low price as the French Oak version"
     ],
     cons: [
       "Slightly lower weight capacity (30 lb) than the French Oak version",
       "No drawers or charging",
-      "Fewer total reviews than the top pick",
+      "Fewer total reviews than the top pick"
     ],
     bestFor: "Buyers who want the same simple design in a darker, industrial two-tone finish",
   },
@@ -115,24 +113,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/414Du+8J+yL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSJ16HPP?tag=deskfinds0d-20",
     description:
-      "The Simple Trending has the highest rating among the basic open-shelf nightstands in this list at 4.7 stars, built with thick metal tubing that gives it a sturdier feel than the lighter engineered-wood Furinno models. Three open shelves in a rustic brown finish hold up to 50 lbs total, and adjustable foot pads help protect flooring and keep it level on uneven surfaces.\n\nAt the same low price as the Furinno picks, it's a strong alternative for anyone who prefers a metal-and-wood combination frame over an all-wood build.\n\nA genuine advantage here is that thick metal tubing adds sturdiness. The tradeoff is no drawers, all storage is open.",
+      "Three open shelves in a rustic brown finish hold up to 50 lbs total, and adjustable foot pads help protect flooring and keep it level on uneven surfaces.\n\nAt the same low price as the Furinno picks, it's a strong alternative for anyone who prefers a metal-and-wood combination frame over an all-wood build.\n\nA genuine advantage here is that thick metal tubing adds sturdiness. The tradeoff is no drawers, all storage is open.",
     specs: [
       "13.4\"L x 11.8\"W x 25.5\"H",
       "Wood + thick metal tubing",
       "3 open shelves, 50 lb total capacity",
       "Adjustable foot pads",
-      "Rustic brown finish",
+      "Rustic brown finish"
     ],
     pros: [
-      "Highest rating among simple open-shelf nightstands (4.7 stars)",
       "Thick metal tubing adds sturdiness",
       "50 lb total capacity, highest among the basic shelf picks",
-      "Adjustable foot pads for uneven floors",
+      "Adjustable foot pads for uneven floors"
     ],
     cons: [
       "No drawers, all storage is open",
       "No charging ports or LED lighting",
-      "Smaller review sample than the Furinno picks",
+      "Smaller review sample than the Furinno picks"
     ],
     bestFor: "Buyers who want the sturdiest basic open-shelf nightstand with a metal-frame build",
   },
@@ -147,24 +144,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51kDaacJ99L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CW5LWYMX?tag=deskfinds0d-20",
     description:
-      "The Huuger is the most economical way to outfit both sides of the bed with matching nightstands, selling as a set of 2 for less than many single tall nightstands elsewhere in this list. Each unit combines an industrial open mesh shelf with a fabric drawer for hidden storage, plus a flat desktop surface for a lamp or alarm clock, all on a rustic brown metal frame with adjustable feet.\n\nWith nearly 2,000 reviews and a 4.5 star rating, it's a well-proven pick for anyone furnishing both sides of a shared bed without doubling their nightstand budget.\n\nCombines open mesh shelf with a hidden fabric drawer. On the other hand, taller than the basic 3-tier picks but shorter than the tall nightstands. Neither should be a surprise once you know to look for it.",
+      "The Huuger is the most economical way to outfit both sides of the bed with matching nightstands, selling as a set of 2 for less than many single tall nightstands elsewhere in this list. Each unit combines an industrial open mesh shelf with a fabric drawer for hidden storage, plus a flat desktop surface for a lamp or alarm clock, all on a rustic brown metal frame with adjustable feet.\n\nCombines open mesh shelf with a hidden fabric drawer. On the other hand, taller than the basic 3-tier picks but shorter than the tall nightstands. Neither should be a surprise once you know to look for it.",
     specs: [
       "15.75\"W x 11.8\"D x 23.8\"H each (set of 2)",
       "1 fabric drawer + 1 open mesh shelf + desktop",
       "Metal frame construction",
       "Adjustable feet",
-      "Rustic brown finish",
+      "Rustic brown finish"
     ],
     pros: [
       "Most economical way to get a matching pair",
       "Combines open mesh shelf with a hidden fabric drawer",
-      "Strong 4.5 star rating across nearly 2,000 reviews",
-      "Industrial styling suits modern bedrooms",
+      "Industrial styling suits modern bedrooms"
     ],
     cons: [
       "Taller than the basic 3-tier picks but shorter than the tall nightstands",
       "No charging ports or LED lighting",
-      "Fabric drawer less durable than solid wood alternatives",
+      "Fabric drawer less durable than solid wood alternatives"
     ],
     bestFor: "Buyers furnishing both sides of the bed who want a matching pair at a lower combined price",
   },
@@ -185,18 +181,18 @@ export const products: GuideProduct[] = [
       "Metal frame + wood shelves",
       "4 fabric drawers + 2-tier wood shelves",
       "RGB LED, 6 colors",
-      "2 AC + 2 USB, 6.5 ft cord",
+      "2 AC + 2 USB, 6.5 ft cord"
     ],
     pros: [
       "Most drawers among tall nightstands in this list (4)",
       "2-tier bookshelf combined with drawer storage",
       "Built-in LED and charging",
-      "Long 6.5 ft cord for flexible outlet placement",
+      "Long 6.5 ft cord for flexible outlet placement"
     ],
     cons: [
       "Taller footprint needs more bedside clearance",
       "Fabric drawers less durable than solid wood",
-      "Fewer LED color options than the 60,000+ color picks in other guides",
+      "Fewer LED color options than the 60,000+ color picks in other guides"
     ],
     bestFor: "Buyers who want the most drawers in a tall bookshelf nightstand with LED and charging",
   },
@@ -217,18 +213,18 @@ export const products: GuideProduct[] = [
       "Metal frame + wood shelves",
       "4-tier open shelves + 3 drawers",
       "LED 7 colors, app/button control",
-      "2 AC + 2 USB, 2 S-hooks, anti-tip device",
+      "2 AC + 2 USB, 2 S-hooks, anti-tip device"
     ],
     pros: [
       "Tallest in the tall-nightstand group at 45.3\"",
       "4-tier open bookshelf, most shelf tiers in this group",
       "2 S-hooks for hanging accessories",
-      "Anti-tip device included for safety",
+      "Anti-tip device included for safety"
     ],
     cons: [
       "One fewer drawer than the shorter Furnulem model",
       "Tallest footprint needs the most bedside clearance",
-      "Fabric drawers less durable than solid wood",
+      "Fabric drawers less durable than solid wood"
     ],
     bestFor: "Buyers who want maximum open shelf space over drawer count in a tall nightstand",
   },
@@ -249,18 +245,18 @@ export const products: GuideProduct[] = [
       "Engineered wood + metal frame",
       "4 PU-finished fabric drawers + 2 open shelves",
       "RGB LED, music sync, app/remote control",
-      "2 AC + 2 USB + 1 USB-C, 5 ft cord",
+      "2 AC + 2 USB + 1 USB-C, 5 ft cord"
     ],
     pros: [
       "Tallest in this entire list at 47\"",
       "5 charging ports, most of any pick here",
       "PU-finished drawers for an upscale look",
-      "LED music sync mode",
+      "LED music sync mode"
     ],
     cons: [
       "Most expensive nightstand in this group aside from the IOTXY",
       "Tallest footprint needs the most bedside clearance",
-      "Narrower width (11.8\") than the Furnulem models",
+      "Narrower width (11.8\") than the Furnulem models"
     ],
     bestFor: "Buyers who want the tallest, most charging-packed bookshelf nightstand with an upscale finish",
   },
@@ -281,21 +277,21 @@ export const products: GuideProduct[] = [
       "MDF wood grain + solid wood legs",
       "4 open shelves + 2 metal-rail drawers + 2 side hooks",
       "Unique L-shape design",
-      "50 lb per shelf, 65 lb total capacity",
+      "50 lb per shelf, 65 lb total capacity"
     ],
     pros: [
       "Most striking, tallest design in this entire list at 71\"",
       "Solid wood legs and premium walnut finish",
       "Unique L-shape silhouette doubles as a design piece",
-      "Highest per-shelf capacity in this list at 50 lbs",
+      "Highest per-shelf capacity in this list at 50 lbs"
     ],
     cons: [
       "Most expensive pick in this list by a wide margin",
       "Very tall footprint needs a dedicated bedroom wall",
-      "Smaller review sample than the more established picks",
+      "Smaller review sample than the more established picks"
     ],
     bestFor: "Buyers who want a dramatic, design-forward bookshelf nightstand as a statement piece",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -344,16 +340,16 @@ export const faq: FaqItem[] = [
   },
   {
     q: "What is the most affordable bookshelf nightstand here?",
-    a: "The Furinno JUST (Pick 1) and Furinno Just 3-Tier Turn-N-Tube (Pick 2) are both the most affordable at $19.99, offering simple open-shelf storage with a proven track record.",
+    a: "The Furinno JUST (Pick 1) and Furinno Just 3-Tier Turn-N-Tube (Pick 2) are both the most affordable at under $20, offering simple open-shelf storage with a proven track record.",
   },
   {
     q: "Will a coffee-table book or binder fit on a bookshelf nightstand?",
     a: "Usually not comfortably. Nightstand tiers are shallow and closely spaced, sized for paperbacks, a phone, or a lamp rather than oversized books or binders, which typically need 12-14 inches of shelf clearance. If you regularly keep larger books at your bedside, a nightstand's bottom tier or a dedicated small bookshelf will fit them better than the upper tiers here.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-bookshelf-headboard", title: "Best Bookshelf Headboards in 2026" },
   { href: "/guide/best-bookshelf-bed-frame", title: "Best Bookshelf Bed Frames in 2026" },
-  { href: "/guide/best-bookshelf-5-tier", title: "Best 5-Tier Bookshelves in 2026" },
+  { href: "/guide/best-bookshelf-5-tier", title: "Best 5-Tier Bookshelves in 2026" }
 ];

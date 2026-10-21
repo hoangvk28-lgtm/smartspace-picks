@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $529.99",
+          "Under $550",
           "Anker SOLIX C1000 Gen 2 Portable Power Station"
         ],
         [
-          "Around $649.99",
+          "Under $650",
           "Anker SOLIX S2000 Portable Power Station"
         ],
         [
-          "Around $699.98",
+          "Under $700",
           "AFERIY P280 Portable Power Station"
         ],
         [
-          "Around $799.99",
+          "Under $800",
           "DJI Power 2000 Portable Power Station"
         ],
         [
-          "Around $1,399.00",
+          "Under $1,400",
           "Jackery HomePower 3000 Portable Power Station"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Jackery HomePower 3000 Portable Power Station is aimed at buyers prioritizing 3072wh, 3600w (7200w surge)." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Jackery HomePower 3000 Portable Power Station is aimed at buyers prioritizing 3072wh, 3600w (7200w surge)." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-1000w-portable-power-stations","title":"Best 1000W Portable Power Stations in 2026"},{"href":"/guide/best-2000w-portable-power-stations","title":"Best 2000W Portable Power Stations in 2026"},{"href":"/guide/best-100w-portable-power-stations","title":"Best 100W Portable Power Stations in 2026"}];

@@ -13,7 +13,7 @@ export const ultrawideVsDualMonitorGuide: Guide = {
     "dual monitor vs ultrawide for work",
     "best ultrawide monitor for small desk",
     "34 inch ultrawide vs dual 27 inch",
-    "is ultrawide better than two monitors",
+    "is ultrawide better than two monitors"
   ],
   heroImage:
     "/images/guides/ultrawide-vs-dual-monitor/01-ultrawide-vs-dual-monitor-hero.webp",
@@ -27,7 +27,7 @@ export const ultrawideVsDualMonitorGuide: Guide = {
     "best-standing-desk-under-300",
     "best-standing-desk-under-500",
     "standard-desk-height",
-    "ergonomic-chair-vs-gaming-chair",
+    "ergonomic-chair-vs-gaming-chair"
   ],
   faq: [
     {
@@ -55,7 +55,7 @@ export const ultrawideVsDualMonitorGuide: Guide = {
       question: "Do I need a monitor arm for ultrawide?",
       answer:
         "Not required, but recommended. A monitor arm lets you push the ultrawide back on smaller desks, freeing desk depth that the stand would otherwise occupy. It also makes height and tilt adjustments easier. For desks under 24\" deep, a monitor arm makes an ultrawide significantly more usable.",
-    },
+    }
   ],
   sections: [
     {
@@ -182,6 +182,6 @@ For equivalent visual workspace quality, a 34" 3440x1440 ultrawide at ~$200-280 
 The honest conclusion: For the majority of home office workers, students, and casual gamers on a desk under 55" wide, an ultrawide is the better single investment. Dual monitors are a legitimate upgrade for workflows that genuinely need them, not for most people.
 
 Also see: [Best Standing Desks Under $300](/guide/best-standing-desk-under-300) if desk width is your constraint, and [Standard Desk Height Guide](/guide/standard-desk-height) to get ergonomics right after choosing your display.`,
-    },
+    }
   ],
 };

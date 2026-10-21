@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "glass standing desk converter";
 export const introParagraphs = [
   "We need to be direct here: our research for this specific search term returned two different product types, glass monitor risers (which just elevate a screen, not a full sit-stand converter) and complete glass-top electric standing desks (which replace your entire desk, not sit on top of it). We found no genuine glass-top converter that sits on an existing desk and offers sit-stand adjustment.",
-  "Rather than mislabel a monitor riser or a full standing desk as a \"converter,\" we're presenting both real product types honestly so you can choose the one that actually matches what you need.",
+  "Rather than mislabel a monitor riser or a full standing desk as a \"converter,\" we're presenting both real product types honestly so you can choose the one that actually matches what you need."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Disclosed that no genuine glass converter product exists in current listings", description: "We found only glass monitor risers (fixed height) and full glass standing desks (replace the entire desk), neither of which is a genuine sit-stand converter." },
   { title: "Clearly labeled each pick by its actual product type", description: "We explicitly marked every pick as either a full standing desk or a fixed-height riser, never implying either is a converter." },
   { title: "Compared review volume within each honest category separately", description: "We compared full glass desks against each other and glass risers against each other, since mixing these categories wouldn't be a meaningful comparison." },
-  { title: "Prioritized genuine glass construction claims", description: "We verified tempered glass construction is explicitly stated for every pick rather than assuming from generic \"glass\" branding." },
+  { title: "Prioritized genuine glass construction claims", description: "We verified tempered glass construction is explicitly stated for every pick rather than assuming from generic \"glass\" branding." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -238,7 +238,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
@@ -247,11 +247,11 @@ export const faq: FaqItem[] = [
   { q: "What's the best full glass standing desk?", a: "The HUANUO Glass Standing Desk with Drawers has the highest rating, while the Claiks Glass Standing Desk has a larger confirmed review base." },
   { q: "What's the best glass monitor riser?", a: "The Kantek Glass Monitor Riser has the highest rating, while the Monoprice Multimedia Riser has the largest review base." },
   { q: "Can I get sit-stand adjustment with a glass monitor riser?", a: "No, these are fixed-height products that only elevate your monitor; they don't offer sit-stand functionality." },
-  { q: "What should I buy if I specifically need a true converter?", a: "Check our main standing desk converter guide, since a genuine glass-top converter doesn't currently exist in the market." },
+  { q: "What should I buy if I specifically need a true converter?", a: "Check our main standing desk converter guide, since a genuine glass-top converter doesn't currently exist in the market." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
   { href: "/guide/best-wood-standing-desk-converters", title: "Best Wood Standing Desk Converters (2026)" },
-  { href: "/guide/best-black-standing-desk-converters", title: "Best Black Standing Desk Converters (2026)" },
+  { href: "/guide/best-black-standing-desk-converters", title: "Best Black Standing Desk Converters (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "monitor arm";
 export const introParagraphs = [
   "A monitor arm only works as well as your desk lets it. Before comparing gas spring tension or VESA compatibility, the real first question is whether a clamp or grommet base can actually grip your desk, since a hollow honeycomb-core desktop, a glass top, or a thin office desk under 1 inch thick can rule out an entire category of arms before you even look at weight ratings.",
-  "Below are 8 monitor arms we evaluated on VESA compatibility, real per-arm weight capacity (not the bundled-stand weight printed on most monitor boxes), desk mounting flexibility, and gas spring reliability over time, ranging from a $19.98 tool-free budget mount to a $199 premium Ergotron LX Pro and a 44 lb heavy-duty arm built for 49-inch ultrawides.",
+  "Below are 8 monitor arms we evaluated on VESA compatibility, real per-arm weight capacity (not the bundled-stand weight printed on most monitor boxes), desk mounting flexibility, and gas spring reliability over time, ranging from an under-$20 tool-free budget mount to a $199 premium Ergotron LX Pro and a 44 lb heavy-duty arm built for 49-inch ultrawides."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -47,18 +47,18 @@ export const products: GuideProduct[] = [
       "7 to 25 lb capacity",
       "VESA 75x75mm or 100x100mm",
       "Matte black finish",
-      "Gas spring height and depth adjustment",
+      "Gas spring height and depth adjustment"
     ],
     pros: [
       "Wide 7 to 25 lb capacity band covers most panels",
       "Smooth, reliable gas spring mechanism",
       "Fits curved and ultrawide displays up to 34\"",
-      "Standard dual VESA pattern",
+      "Standard dual VESA pattern"
     ],
     cons: [
       "Most expensive single arm in this list",
       "Requires standard VESA mounting holes",
-      "Clamp needs a solid, flat desk edge to bite",
+      "Clamp needs a solid, flat desk edge to bite"
     ],
     bestFor: "Buyers who want the most proven gas spring arm and are covering a 21-34\" panel",
   },
@@ -79,18 +79,18 @@ export const products: GuideProduct[] = [
       "4 to 22 lb capacity",
       "VESA 75x75mm or 100x100mm",
       "White finish",
-      "Premium upgraded gas spring mechanism",
+      "Premium upgraded gas spring mechanism"
     ],
     pros: [
       "Refined weight range for lighter modern panels",
       "White finish option, uncommon in this category",
       "Fits curved and ultrawide displays up to 34\"",
-      "Premium build intended to hold tension longer",
+      "Premium build intended to hold tension longer"
     ],
     cons: [
       "Highest price in this list",
       "4 lb minimum may be too high for very light panels",
-      "Same VESA-only mounting limitation as the standard LX",
+      "Same VESA-only mounting limitation as the standard LX"
     ],
     bestFor: "Buyers who want a white-finish premium arm built to last through multiple monitor upgrades",
   },
@@ -111,18 +111,18 @@ export const products: GuideProduct[] = [
       "4.4 to 19.8 lb capacity",
       "VESA mount, clamp and grommet base included",
       "Tilt, swivel, rotation",
-      "Under $35",
+      "Under $35"
     ],
     pros: [
       "Both clamp and grommet base included in the box",
       "Strong value at under $35",
       "Full tilt, swivel, and rotation range",
-      "Covers a wide 13-32\" monitor range",
+      "Covers a wide 13-32\" monitor range"
     ],
     cons: [
       "Lighter-duty build than the Ergotron picks",
       "19.8 lb max is tighter than the LX's 25 lb ceiling",
-      "Gas spring may need retensioning sooner under daily height changes",
+      "Gas spring may need retensioning sooner under daily height changes"
     ],
     bestFor: "Budget buyers who want both mounting options in the box for under $35",
   },
@@ -143,18 +143,18 @@ export const products: GuideProduct[] = [
       "Max load 19.8 lbs",
       "Tool-free VESA mount",
       "C-clamp/grommet base included",
-      "Tilt, swivel, rotation",
+      "Tilt, swivel, rotation"
     ],
     pros: [
       "Genuinely tool-free VESA mounting",
       "Under $30, one of the cheapest picks here",
       "Both clamp and grommet base included",
-      "Full adjustment range",
+      "Full adjustment range"
     ],
     cons: [
       "19.8 lb cap limits it to lighter and mid-size panels",
       "Not rated for large 30\"+ ultrawide monitors",
-      "MechaSpring tension may loosen faster than a premium gas spring under heavy daily use",
+      "MechaSpring tension may loosen faster than a premium gas spring under heavy daily use"
     ],
     bestFor: "Buyers who want a fully tool-free setup on a mid-size 20-27\" monitor",
   },
@@ -175,18 +175,18 @@ export const products: GuideProduct[] = [
       "Holds 19.8 lbs",
       "Tool-free VESA mount, max VESA 100x100mm",
       "Built-in cable management",
-      "Under $20",
+      "Under $20"
     ],
     pros: [
-      "Lowest price in this list at $19.98",
+      "Lowest price in this list at under $20",
       "Widest stated screen range, 13-34\"",
       "Built-in cable management clips",
-      "Tool-free installation",
+      "Tool-free installation"
     ],
     cons: [
       "100x100mm VESA cap excludes some larger panels",
       "19.8 lb capacity is on the lighter end for 30\"+ monitors",
-      "Entry-level arm, not built for years of daily height cycling like a premium gas spring",
+      "Entry-level arm, not built for years of daily height cycling like a premium gas spring"
     ],
     bestFor: "First-time monitor arm buyers on the tightest budget",
   },
@@ -207,18 +207,18 @@ export const products: GuideProduct[] = [
       "Holds up to 26.4 lbs",
       "VESA 75/100mm",
       "Black finish",
-      "Under $20",
+      "Under $20"
     ],
     pros: [
       "26.4 lb capacity, highest among the budget picks",
       "Matches the lowest price point in this list",
       "Standard dual VESA pattern",
-      "Wide 13-34\" screen coverage",
+      "Wide 13-34\" screen coverage"
     ],
     cons: [
       "Basic finish and hardware compared to the Ergotron picks",
       "Gas spring quality not on par with premium arms over years of use",
-      "Best suited to a single clampable desk edge, not tight office desk rails",
+      "Best suited to a single clampable desk edge, not tight office desk rails"
     ],
     bestFor: "Budget buyers who want the highest weight ceiling under $20",
   },
@@ -239,18 +239,18 @@ export const products: GuideProduct[] = [
       "Holds up to 44 lbs",
       "Aluminum construction",
       "Dual C-clamp base",
-      "Max VESA 100x100mm",
+      "Max VESA 100x100mm"
     ],
     pros: [
       "44 lb capacity, by far the highest in this list",
       "Purpose-built for 34-49\" ultrawide and curved panels",
       "Aluminum build for real long-term load bearing",
-      "Dual C-clamp adds mounting stability for a large panel",
+      "Dual C-clamp adds mounting stability for a large panel"
     ],
     cons: [
       "Overkill and costlier than needed for a standard 24-27\" monitor",
       "100x100mm VESA cap still needs checking against your specific ultrawide",
-      "Dual clamp footprint needs more clear desk-underside space than a single-clamp arm",
+      "Dual clamp footprint needs more clear desk-underside space than a single-clamp arm"
     ],
     bestFor: "Buyers running a 34\" or larger ultrawide or curved gaming monitor",
   },
@@ -271,21 +271,21 @@ export const products: GuideProduct[] = [
       "Mechanical spring mount",
       "VESA 75/100mm",
       "Black finish",
-      "Model A5",
+      "Model A5"
     ],
     pros: [
       "Simple, proven mechanical spring design",
       "Standard dual VESA pattern",
       "Reasonable mid-budget price",
-      "Compact footprint",
+      "Compact footprint"
     ],
     cons: [
       "No stated weight capacity beyond fitting up to 32\" screens, so confirm your panel's actual weight first",
       "Fewer standout features than the FlowLift or WALI picks at a similar price",
-      "Not positioned for ultrawide or heavy panels",
+      "Not positioned for ultrawide or heavy panels"
     ],
     bestFor: "Buyers who want a simple, no-frills spring arm for a standard-size monitor",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -313,7 +313,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed weight capacity, VESA range, and mounting hardware included against price, from a entry-level arm to a premium Ergotron LX Pro.",
-  },
+  }
 ];
 
 export interface BuyingCriterion {
@@ -485,11 +485,11 @@ export const faq: FaqItem[] = [
   {
     q: "Can I use a monitor arm on a standing desk?",
     a: "Yes, but confirm the cable has enough slack for repeated height changes and that the clamp or grommet base is secure enough to handle the desk moving daily, not just the monitor. A gas spring arm like the Ergotron LX generally handles the added stress of a standing desk's height cycling better than a lighter-duty mechanical spring arm.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-dual-monitor-arms", title: "8 Best Dual Monitor Arms in 2026" },
   { href: "/guide/best-monitor-arm-desk-mounts", title: "8 Best Monitor Arm Desk Mounts in 2026" },
-  { href: "/guide/best-ultrawide-monitor-arm", title: "6 Best Ultrawide Monitor Arms in 2026" },
+  { href: "/guide/best-ultrawide-monitor-arm", title: "6 Best Ultrawide Monitor Arms in 2026" }
 ];

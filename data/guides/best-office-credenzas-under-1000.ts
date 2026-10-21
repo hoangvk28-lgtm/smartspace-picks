@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "ComfyCorner 60\" Buffet Cabinet with Storage, Sideboard Buffet Table Black and is built around ample buffet cabinet with storage, positioning it for under 1000 buyers specifically.\n\nVersatile Credenza Storage Cabinet is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 1000, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Ample Buffet Cabinet with Storage","Versatile Credenza Storage Cabinet","Sturdy Sideboard Buffet Cabinet"],
     pros: ["Ample Buffet Cabinet with Storage, confirmed directly in the listing's own spec details","Versatile Credenza Storage Cabinet, confirmed directly in the listing's own spec details","Sturdy Sideboard Buffet Cabinet, confirmed directly in the listing's own spec details"],
-    cons: ["At $199.99, worth comparing against similarly specced office credenzas before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $200, worth comparing against similarly specced office credenzas before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 1000",
   },
   {
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     description: "ModernMate 60\" File Cabinet with Drawers & Door, Built-in Charging Station and is built around versatile storage design, positioning it for under 1000 buyers specifically.\n\nBuilt-in Power Strip on Desktop is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 1000, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Versatile Storage Design","Built-in Power Strip on Desktop","Adjustable Shelf Height"],
     pros: ["Versatile Storage Design, confirmed directly in the listing's own spec details","Built-in Power Strip on Desktop, confirmed directly in the listing's own spec details","Adjustable Shelf Height, confirmed directly in the listing's own spec details"],
-    cons: ["At $287.99, worth comparing against similarly specced office credenzas before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $300, worth comparing against similarly specced office credenzas before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 1000",
   },
   {
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "ComfyCorner 60\" Buffet Cabinet with Storage, Sideboard Buffet Table Brown and is built around ample buffet cabinet with storage, positioning it for under 1000 buyers specifically.\n\nVersatile Credenza Storage Cabinet is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 1000, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Ample Buffet Cabinet with Storage","Versatile Credenza Storage Cabinet","Sturdy Sideboard Buffet Cabinet"],
     pros: ["Ample Buffet Cabinet with Storage, confirmed directly in the listing's own spec details","Versatile Credenza Storage Cabinet, confirmed directly in the listing's own spec details","Sturdy Sideboard Buffet Cabinet, confirmed directly in the listing's own spec details"],
-    cons: ["At $199.99, worth comparing against similarly specced office credenzas before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $200, worth comparing against similarly specced office credenzas before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 1000",
   },
   {
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "ONBRILL 60\" Buffet Cabinet with Storage, 4 Doors & Adjustable Shelves Black and is built around ample storage space, positioning it for under 1000 buyers specifically.\n\nMULTIPURPOSE CABINET is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 1000, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["AMPLE STORAGE SPACE","MULTIPURPOSE CABINET","SIMPLE AND MODERN DESIGN"],
     pros: ["AMPLE STORAGE SPACE, confirmed directly in the listing's own spec details","MULTIPURPOSE CABINET, confirmed directly in the listing's own spec details","SIMPLE AND MODERN DESIGN, confirmed directly in the listing's own spec details"],
-    cons: ["At $189.99, worth comparing against similarly specced office credenzas before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $190, worth comparing against similarly specced office credenzas before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 1000",
   },
   {
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     description: "ModernMate 63\" Lateral File Cabinet with Lock,2-Drawer Home Office Storage and is built around high-capacity multi-functional storage cabinet - engineered, positioning it for under 1000 buyers specifically.\n\nSturdy & Heavy-Duty Construction - Built from is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 1000, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["High-Capacity Multi-Functional Storage Cabinet - Engineered","Sturdy & Heavy-Duty Construction - Built from","Elegant Home-Integrated Design - Finished in rich"],
     pros: ["High-Capacity Multi-Functional Storage Cabinet - Engineered, confirmed directly in the listing's own spec details","Sturdy & Heavy-Duty Construction - Built from, confirmed directly in the listing's own spec details","Elegant Home-Integrated Design - Finished in rich, confirmed directly in the listing's own spec details"],
-    cons: ["At $359.99, worth comparing against similarly specced office credenzas before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $400, worth comparing against similarly specced office credenzas before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 1000",
   },
   {
@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "ONBRILL 60\" Buffet Cabinet with Storage, 4 Doors & Adjustable Shelves Brown and is built around ample storage space, positioning it for under 1000 buyers specifically.\n\nMULTIPURPOSE CABINET is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 1000, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["AMPLE STORAGE SPACE","MULTIPURPOSE CABINET","SIMPLE & MODERN DESIGN"],
     pros: ["AMPLE STORAGE SPACE, confirmed directly in the listing's own spec details","MULTIPURPOSE CABINET, confirmed directly in the listing's own spec details","SIMPLE & MODERN DESIGN, confirmed directly in the listing's own spec details"],
-    cons: ["At $179.99, worth comparing against similarly specced office credenzas before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $180, worth comparing against similarly specced office credenzas before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 1000",
   },
   {
@@ -126,7 +126,7 @@ export const products: GuideProduct[] = [
     description: "Anystyle 53\" Rustic Brown Buffet Cabinet with Storage, Industrial Kitchen Sideboard with 4 and is built around industrial style & tv console design featuring, positioning it for under 1000 buyers specifically.\n\nLARGE STORAGE CAPACITY WITH 4 DOORS Keep is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 1000, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["INDUSTRIAL STYLE & TV CONSOLE DESIGN Featuring","LARGE STORAGE CAPACITY WITH 4 DOORS Keep","CUSTOMIZABLE SHELVES & ROBUST SUPPORT The internal"],
     pros: ["INDUSTRIAL STYLE & TV CONSOLE DESIGN Featuring, confirmed directly in the listing's own spec details","LARGE STORAGE CAPACITY WITH 4 DOORS Keep, confirmed directly in the listing's own spec details","CUSTOMIZABLE SHELVES & ROBUST SUPPORT The internal, confirmed directly in the listing's own spec details"],
-    cons: ["At $154.99, worth comparing against similarly specced office credenzas before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $160, worth comparing against similarly specced office credenzas before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 1000",
   },
   {
@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     description: "ONBRILL 60\" Sideboard Buffet Cabinet with Adjustable Shelves Storage,Black and is built around black buffet cabinet with adjustable shelves storage, positioning it for under 1000 buyers specifically.\n\nVersatile for Any Space is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 1000, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Black Buffet Cabinet with Adjustable Shelves Storage","Versatile for Any Space","Sideboard Cabinet with Irregular Panel Design"],
     pros: ["Black Buffet Cabinet with Adjustable Shelves Storage, confirmed directly in the listing's own spec details","Versatile for Any Space, confirmed directly in the listing's own spec details","Sideboard Cabinet with Irregular Panel Design, confirmed directly in the listing's own spec details"],
-    cons: ["At $179.99, worth comparing against similarly specced office credenzas before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $180, worth comparing against similarly specced office credenzas before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 1000",
   }
 

@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31BYXt5jpoL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H6LNG9FM?tag=deskfinds0d-20",
-    "description": "The R2 has a deck that folds in half and stands upright against a wall, a one-piece aluminum frame, adjustable handrails and a 2-in-1 mode: walking up to 3.7 mph with the handrail down, and a faster mode with it raised. It is built to stay compact and tidy in a small home.\n\nIt is the most expensive pick at $599, $40 more than the Z3, and the only one that stands upright. It lists less on motor and belt size in the bullets we saw.\n\nBest for a shared space where you want it stored upright. The caveat is the highest price for the least published spec detail.",
+    "description": "The R2 has a deck that folds in half and stands upright against a wall, a one-piece aluminum frame, adjustable handrails and a 2-in-1 mode: walking up to 3.7 mph with the handrail down, and a faster mode with it raised. It is built to stay compact and tidy in a small home.\n\nIt is the most expensive pick at under $600, $40 more than the Z3, and the only one that stands upright. It lists less on motor and belt size in the bullets we saw.\n\nBest for a shared space where you want it stored upright. The caveat is the highest price for the least published spec detail.",
     "specs": [
       "Fold-and-stand design",
       "One-piece aluminum frame",

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable file storage bags";
 export const introParagraphs = [
   "This overlaps significantly with our portable file tote bag research, and we clarified whether 'storage bag' represents a genuine distinction from 'tote bag' or largely redundant terminology for the same soft-sided product category.",
-  "We also addressed long-term storage suitability versus purely transport-focused use, since a soft bag may be less suitable than a rigid box for extended stationary document storage even if adequate for occasional transport.",
+  "We also addressed long-term storage suitability versus purely transport-focused use, since a soft bag may be less suitable than a rigid box for extended stationary document storage even if adequate for occasional transport."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -104,7 +104,7 @@ export const products: GuideProduct[] = [
     pros: ["Strong review count", "Combines lock and fireproof marketing", "Potentially better long-term storage suitability", "Handle included"],
     cons: ["Verify actual construction rigidity on current listing", "Verify fireproof rating documentation directly", "May be a different product category than the soft bags in this comparison"],
     bestFor: "Buyers who want to verify a potentially more rigid, storage-suited alternative to soft tote-style bags.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "\"Storage bag\" vs. \"tote bag\" terminology overlap", description: "We confirmed genuine overlap between these terms, since several products in this comparison use both descriptors in their own product names." },
   { title: "Long-term storage suitability vs. transport-only use", description: "We noted that a soft bag may be less suitable than a rigid box for extended stationary document storage even if adequate for occasional transport." },
   { title: "Carrying method comparison", description: "We compared handle, strap, and lid designs across this soft-sided product category as genuine differentiators." },
-  { title: "SERP/product overlap with our tote bag guide", description: "We disclosed the substantial overlap with our dedicated portable file tote bag guide, since both cover largely the same underlying product category." },
+  { title: "SERP/product overlap with our tote bag guide", description: "We disclosed the substantial overlap with our dedicated portable file tote bag guide, since both cover largely the same underlying product category." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -240,11 +240,11 @@ export const faq: FaqItem[] = [
   { q: "Are these bags good for long-term document storage?", a: "It varies. Open-top or basic soft bags are better suited to occasional transport, while lidded designs, like the Qozary pick, offer meaningfully better long-term storage suitability." },
   { q: "Do these bags support standard hanging folders?", a: "Some do, using a semi-rigid internal frame, like the UNICITII lineup. Verify this specifically if hanging-file compatibility matters to you." },
   { q: "Should I get a rigid box instead of a soft bag?", a: "If long-term stationary storage is your primary need rather than regular transport, yes, a rigid file box offers meaningfully better protection than any soft-sided bag." },
-  { q: "How is this different from your portable file tote bags guide?", a: "There's substantial overlap, since 'storage bag' and 'tote bag' largely describe the same soft-sided product category. Compare both guides for the fullest range of options." },
+  { q: "How is this different from your portable file tote bags guide?", a: "There's substantial overlap, since 'storage bag' and 'tote bag' largely describe the same soft-sided product category. Compare both guides for the fullest range of options." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-file-tote-bags", title: "Best Portable File Tote Bags (2026)" },
   { href: "/guide/best-portable-file-organizer-totes", title: "Best Portable File Organizer Totes (2026)" },
-  { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" },
+  { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" }
 ];

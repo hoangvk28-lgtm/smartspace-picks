@@ -12,7 +12,7 @@ export const underDeskBikeVsEllipticalGuide: Guide = {
     "under desk exercise equipment comparison",
     "mini elliptical desk worth it",
     "pedal exerciser for office",
-    "quiet under desk cardio",
+    "quiet under desk cardio"
   ],
   heroImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const underDeskBikeVsEllipticalGuide: Guide = {
     "balance-board-vs-anti-fatigue-mat",
     "sit-stand-ratio-explained",
     "under-desk-storage-options-explained",
-    "standing-desk-height-chart",
+    "standing-desk-height-chart"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const underDeskBikeVsEllipticalGuide: Guide = {
       question: "Which is better for someone completely new to under-desk exercise equipment?",
       answer:
         "A basic pedal bike is often recommended as a simpler starting point, since its movement pattern is generally more familiar and requires less initial coordination than an elliptical's gliding motion, allowing an easier transition into typing while exercising.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const underDeskBikeVsEllipticalGuide: Guide = {
     {
       heading: "Why Checking Individual Product Specifications Matters More Than Category Assumptions",
       body: `Neither pedal bikes nor ellipticals are inherently and universally quieter or more compact than the other as a broad category, actual noise level and footprint vary significantly based on specific build quality, resistance mechanism design, and manufacturer, rather than assuming one category is automatically the quieter or more space-efficient choice, checking the specific product's actual stated noise level and dimensions against your desk's clearance and your workspace's noise tolerance provides a more reliable basis for choosing the right specific product for your situation.`,
-    },
+    }
   ],
 };

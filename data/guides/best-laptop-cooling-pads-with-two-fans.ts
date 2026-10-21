@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop cooling pad two fans";
 export const introParagraphs = [
   "A two-fan cooling pad sits in a specific spot in this category: fewer moving parts than a five or six fan pad, usually quieter and cheaper, but with less total airflow than a higher fan-count design. We checked the actual listed feature text for every candidate pad in this pool and only kept the ones that genuinely state two fans, not a marketing number that does not match the description underneath it.",
-  "Of the candidates we reviewed for this specific fan-count claim, four genuinely ship with exactly two fans based on their own listed specs. This guide compares those four on fan size, height adjustment range, USB passthrough design, and stated noise level, so you can pick the two-fan pad that fits your desk setup rather than assuming all two-fan pads perform the same.",
+  "Of the candidates we reviewed for this specific fan-count claim, four genuinely ship with exactly two fans based on their own listed specs. This guide compares those four on fan size, height adjustment range, USB passthrough design, and stated noise level, so you can pick the two-fan pad that fits your desk setup rather than assuming all two-fan pads perform the same."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Fan-count verification", description: "We read the actual listed feature text for every candidate pad and only kept ones that genuinely state two fans. Several pads marketed loosely as compact turned out to list a different fan count once we checked the specs." },
   { title: "Fan size and stated speed range", description: "We compared fan diameter (5.1\" versus 110mm) and any stated RPM or dBA range, since two large fans can move more air than two small ones even at the same fan count." },
   { title: "USB passthrough and port design", description: "We checked whether each pad frees up a second USB port for other devices, and whether USB-C support is included for MacBook compatibility." },
-  { title: "Height adjustment and stability", description: "We compared the number of height settings and whether non-slip baffles or pads were included, since a two-fan pad is often chosen partly as an ergonomic stand." },
+  { title: "Height adjustment and stability", description: "We compared the number of height settings and whether non-slip baffles or pads were included, since a two-fan pad is often chosen partly as an ergonomic stand." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -227,11 +227,11 @@ export const faq: FaqItem[] = [
   { q: "Do all pads marketed as compact actually have two fans?", a: "No. We checked the actual feature text of every candidate pad in this pool and found several marketed loosely that turned out to have a different genuine fan count once verified against the listing specs." },
   { q: "Are two big fans better than several small fans?", a: "Not automatically, but fan diameter and RPM matter more than raw fan count. Two large fans can move as much or more air than several small ones depending on their stated speed and size." },
   { q: "Why do these two-fan pads cost less than five or six fan pads?", a: "Fewer motors generally means lower manufacturing cost, which is reflected in the price. It does not necessarily mean lower build quality." },
-  { q: "Will a two-fan pad fit a 17-inch laptop?", a: "Most of the pads in this guide are rated up to 15.6 inches. Check the specific compatibility range on the listing before buying if you have a larger laptop." },
+  { q: "Will a two-fan pad fit a 17-inch laptop?", a: "Most of the pads in this guide are rated up to 15.6 inches. Check the specific compatibility range on the listing before buying if you have a larger laptop." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-cooling-pads-with-three-fans", title: "Best Laptop Cooling Pads with Three Fans (2026)" },
   { href: "/guide/best-laptop-cooling-pads-with-five-fans", title: "Best Laptop Cooling Pads with Five Fans (2026)" },
-  { href: "/guide/best-laptop-cooling-pads-with-six-fans", title: "Best Laptop Cooling Pads with Six Fans (2026)" },
+  { href: "/guide/best-laptop-cooling-pads-with-six-fans", title: "Best Laptop Cooling Pads with Six Fans (2026)" }
 ];

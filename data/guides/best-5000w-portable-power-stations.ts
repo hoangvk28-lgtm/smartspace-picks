@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $899.00",
+          "Under $900",
           "PECRON F3000LFP Portable Power Station"
         ],
         [
-          "Around $999.00",
+          "Under $1,000",
           "PECRON E3600LFP Portable Power Station"
         ],
         [
-          "Around $1,169.00",
+          "Under $1,200",
           "AFERIY 3840Wh Portable Power Station"
         ],
         [
-          "Around $1,299.00",
+          "Under $1,300",
           "PECRON E3800LFP Portable Power Station"
         ],
         [
-          "Around $1,498.99",
+          "Under $1,500",
           "BLUETTI Apex 300 Portable Power Station"
         ],
         [
-          "Around $1,499.00",
+          "Under $1,500",
           "P5000 Pro Portable Power Station"
         ],
         [
-          "Around $1,799.99",
+          "Under $1,800",
           "OUPES Guardian 6000 V2 Portable Power Station"
         ],
         [
-          "Around $1,899.00",
+          "Under $1,900",
           "Jackery HomePower 3600 Plus Portable Power Station"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "P5000 Pro Portable Power Station is aimed at buyers prioritizing 5120wh, 3600w, 112 lbs (39% lighter class)." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "P5000 Pro Portable Power Station is aimed at buyers prioritizing 5120wh, 3600w, 112 lbs (39% lighter class)." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-1000w-portable-power-stations","title":"Best 1000W Portable Power Stations in 2026"},{"href":"/guide/best-2000w-portable-power-stations","title":"Best 2000W Portable Power Stations in 2026"},{"href":"/guide/best-3000w-portable-power-stations","title":"Best 3000W Portable Power Stations in 2026"}];

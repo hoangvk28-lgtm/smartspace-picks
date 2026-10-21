@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41xxDN61aIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C64YY7G7?tag=deskfinds0d-20",
-    description: "The mid-size option in VEVOR's open frame lineup, this 20U rack keeps the same complete accessory kit as their smaller 12U and 15U models, just scaled up.\n\nGround-mounted capacity here is 200 lbs, notably lower than the 12U VEVOR model's 500 lb rating, so it's better suited to lighter networking gear than a dense server stack.\n\nThis pick is best for buyers who value same complete hardware kit as VEVOR's smaller racks along with roller design makes repositioning simple. The catch is that 200 lb ground rating is notably lower than the 12U model, so decide if that's worth it at $112.99.",
+    description: "The mid-size option in VEVOR's open frame lineup, this 20U rack keeps the same complete accessory kit as their smaller 12U and 15U models, just scaled up.\n\nGround-mounted capacity here is 200 lbs, notably lower than the 12U VEVOR model's 500 lb rating, so it's better suited to lighter networking gear than a dense server stack.\n\nThis pick is best for buyers who value same complete hardware kit as VEVOR's smaller racks along with roller design makes repositioning simple. The catch is that 200 lb ground rating is notably lower than the 12U model, so decide if that's worth it at under $120.",
     specs: ["20U, 23-40\" adjustable depth","200 lb ground / 150 lb wall capacity","Grounding wire and full hardware kit included"],
     pros: ["Same complete hardware kit as VEVOR's smaller racks","Roller design makes repositioning simple","Top panel adds extra storage space"],
     cons: ["200 lb ground rating is notably lower than the 12U model","Not suited to a dense heavy server load"],
@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $112.99",
+          "Under $120",
           "VEVOR 20U Open Frame Server Rack"
         ],
         [
-          "Around $357.99",
+          "Under $400",
           "StarTech 42U 4-Post Open Frame Rack"
         ],
         [
-          "Around $469.99",
+          "Under $500",
           "NavePoint 22U Server Cabinet Wall Mount Rack Enclosure"
         ],
         [
-          "Around $731.99",
+          "Under $750",
           "StarTech 18U 4-Post Server Cabinet"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "VEVOR 20U Open Frame Server Rack is aimed at buyers prioritizing 20u, 23-40\" adjustable depth." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "VEVOR 20U Open Frame Server Rack is aimed at buyers prioritizing 20u, 23-40\" adjustable depth." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-42u-server-racks","title":"Best 42U Server Racks in 2026"},{"href":"/guide/best-2u-server-racks","title":"Best 2U Server Racks in 2026"},{"href":"/guide/best-1u-server-racks","title":"Best 1U Server Racks in 2026"}];

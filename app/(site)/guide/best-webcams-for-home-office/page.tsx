@@ -194,7 +194,7 @@ export default async function BestWebcamsForHomeOfficePage() {
     about: [
       { "@type": "Thing", name: "Webcam" },
       { "@type": "Thing", name: "Home Office Webcam" },
-      { "@type": "Thing", name: "Video Conferencing Camera" },
+      { "@type": "Thing", name: "Video Conferencing Camera" }
     ],
   };
 
@@ -214,7 +214,7 @@ export default async function BestWebcamsForHomeOfficePage() {
         position: 3,
         name: "Best Webcams for Home Office",
         item: `${SITE_URL}/guide/best-webcams-for-home-office`,
-      },
+      }
     ],
   };
 
@@ -535,7 +535,7 @@ export default async function BestWebcamsForHomeOfficePage() {
                       teams: "Certified",
                       zoom: "Certified",
                       meet: "Certified",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -705,7 +705,7 @@ export default async function BestWebcamsForHomeOfficePage() {
                 id: "insta360-link-2c",
                 name: "Insta360 Link 2C",
                 verdict: ", 4K, 1/2-inch sensor, motorized AI tracking, certified for all three platforms.",
-              },
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

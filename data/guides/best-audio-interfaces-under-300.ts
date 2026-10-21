@@ -253,7 +253,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Define the 2-preamp mainstream capability floor",
-    "explanation": "Define the 2-preamp mainstream capability floor: Current Scarlett 2i2 at $239.99 fits; 4i4 at $329.99 does not. Auto-gain/loopback and two-preamp workflow are realistic minimums. This matters directly when comparing the picks in this guide, since two products near the same price point often differ meaningfully on this exact point once you look past the headline spec. Check the specific listing for this detail rather than assuming parity across similarly priced options, and weigh it against your actual use case before deciding between two close picks in this price tier."
+    "explanation": "Define the 2-preamp mainstream capability floor: Current Scarlett 2i2 at under $250 fits; 4i4 at under $350 does not. Auto-gain/loopback and two-preamp workflow are realistic minimums. This matters directly when comparing the picks in this guide, since two products near the same price point often differ meaningfully on this exact point once you look past the headline spec. Check the specific listing for this detail rather than assuming parity across similarly priced options, and weigh it against your actual use case before deciding between two close picks in this price tier."
   },
   {
     "criterion": "Make simultaneous analog I/O + preamp gain/EIN the primary",

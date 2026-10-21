@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small drop-slot safes";
 export const introParagraphs = [
   "We need to be direct here: only 3 of our 8 original candidate ASINs actually have a drop slot allowing deposits without opening the main safe door, the defining feature this category requires. The other 5 are general security safes without that capability, which we're disclosing honestly rather than blending into a drop-slot ranking.",
-  "For the 3 genuine drop-slot picks, we compared anti-fishing baffle design and deposit-path geometry specifically, since a poorly designed slot can let a determined thief fish contents back out.",
+  "For the 3 genuine drop-slot picks, we compared anti-fishing baffle design and deposit-path geometry specifically, since a poorly designed slot can let a determined thief fish contents back out."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     pros: ["Multi-code access supports shift-based staff use even without a drop slot"],
     cons: ["No drop slot at all, every deposit requires opening the main door"],
     bestFor: "Businesses needing multi-staff access where opening the main door each time is acceptable.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required an actual drop slot before ranking as drop-slot capable", description: "Only 3 of our 8 candidates have a genuine drop slot for depositing without opening the main door. We disclosed the other 5 honestly as general safes rather than implying drop-slot functionality they don't have." },
   { title: "Compared anti-fishing baffle design specifically for the genuine drop-slot picks", description: "We looked at baffle depth, jagged-teeth design, and door panel thickness to compare how well each genuine drop-slot pick resists someone fishing contents back out through the slot." },
   { title: "Checked multi-code support for shift-based business access", description: "Several picks, both drop-slot and general, confirm two independent codes, relevant for a business where different shift employees need separate access." },
-  { title: "Verified battery backup options given business-hours reliability matters", description: "We noted which picks confirm USB-C or external battery backup, since a business can't afford a full lockout during operating hours." },
+  { title: "Verified battery backup options given business-hours reliability matters", description: "We noted which picks confirm USB-C or external battery backup, since a business can't afford a full lockout during operating hours." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -283,11 +283,11 @@ export const faq: FaqItem[] = [
   { q: "What's the best overall drop-slot safe?", a: "The 2.6 Cub Drop Safe for Business, with a genuine anti-fishing baffle and USB-C battery backup." },
   { q: "Which has the most engineered anti-fishing protection?", a: "The 2.8 Cub Depository Drop Safe, with a dual jagged-teeth baffle design." },
   { q: "Is there a drop-slot safe for multiple shift employees?", a: "Yes, the VEVOR Digital Depository Safe supports two independent programmable codes." },
-  { q: "Why are 5 of the 8 picks not actually drop-slot safes?", a: "They surfaced in our original research pool but don't have a drop slot. We disclosed this honestly rather than implying deposit-without-opening capability they don't have." },
+  { q: "Why are 5 of the 8 picks not actually drop-slot safes?", a: "They surfaced in our original research pool but don't have a drop slot. We disclosed this honestly rather than implying deposit-without-opening capability they don't have." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-safes-for-money", title: "Best Small Safes for Money (2026)" },
   { href: "/guide/best-small-safes-for-offices", title: "Best Small Safes for Offices (2026)" },
-  { href: "/guide/best-small-safes-that-bolt-to-the-floor", title: "Best Small Safes That Bolt to the Floor (2026)" },
+  { href: "/guide/best-small-safes-that-bolt-to-the-floor", title: "Best Small Safes That Bolt to the Floor (2026)" }
 ];

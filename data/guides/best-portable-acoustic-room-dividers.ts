@@ -5,7 +5,7 @@ export const metaDescription = "5 portable acoustic room dividers we evaluated, 
 export const mainKeyword = "portable acoustic room divider";
 export const introParagraphs = [
   "The word 'acoustic' spans a huge price and performance range in this category, a $99 folding privacy screen and a $1,400 architectural partition are both marketed as acoustic, but only genuinely engineered products at the higher end approach real sound-transmission reduction.",
-  "For most home offices, a mid-priced wheeled or foldable divider provides adequate visual separation and modest sound softening, reserve the premium architectural-grade option for situations where you genuinely need to reduce sound crossing between two work areas.",
+  "For most home offices, a mid-priced wheeled or foldable divider provides adequate visual separation and modest sound softening, reserve the premium architectural-grade option for situations where you genuinely need to reduce sound crossing between two work areas."
 ];
 export const lastUpdated = "2026-07-30";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Mid-Priced Portable Divider",
     name: "KERRAM 3 Panel Foldable Office Partitions, Mobile Cubicle Wall with Wheels",
     price: "$399.99",
-    rating: "4.8 stars from 14 Amazon ratings",
-    reviews: "14 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31d7CVpkJCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FYPHYYRV?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Portable Divider",
     name: "SUNALLY Room Divider Privacy Screens, 6 Panels Dividers with Wheels, Black",
     price: "$99.99",
-    rating: "4.2 stars from 562 Amazon ratings",
-    reviews: "562 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LNiAecNOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GG9TW8MK?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Heavy-Duty Portable Pick",
     name: "72in 3-Panel Soundproof Room Divider with Wheels, Heavy-Duty Acoustic",
     price: "$272.99",
-    rating: "5.0 stars from 4 Amazon ratings",
-    reviews: "4 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31N6zWVRQ9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2HC56SD?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Premium Architectural-Grade Pick",
     name: "Versare VersiPanel Acoustical Partition Wall - Sound Panel Classroom Office Room Divider, Flexible Arrangement, Easy Roll-up Storage (Gray, 8'Wide x 6'6\"Tall)",
     price: "$1,411.09",
-    rating: "3.7 stars from 36 Amazon ratings",
-    reviews: "36 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31vCjliZ9AL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZWN92PX?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Alternate Heavy-Duty Pick",
     name: "72in 3-Panel Soundproof Room Divider with Wheels, Heavy-Duty Acoustic",
     price: "$272.99",
-    rating: "5.0 stars from 2 Amazon ratings",
-    reviews: "2 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31QuqUSZuOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2HCQN2H?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Same heavy-duty build as the primary listing", "Reasonable mid-tier price", "Alternative if the primary listing is unavailable", "Standing-height coverage"],
     cons: ["Extremely limited review history", "Essentially a duplicate listing", "No tested acoustic rating"],
     bestFor: "Buyers seeking the heavy-duty design if the primary listing is unavailable",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "'Acoustic' means different things at different price tiers", description: "Evaluated each pick's actual acoustic capability honestly against its marketing, from budget visual-privacy screens with modest sound softening through the one genuinely architectural-grade partition." },
   { title: "Price-to-scale matching for real-world needs", description: "Ranked picks from the most affordable visual screen through the premium architectural option, so buyers can match spending to whether they need visual privacy or genuine sound transmission reduction." },
-  { title: "Review base scrutiny across a wide price range", description: "Weighed review count and rating together at every price tier, including flagging the premium architectural pick's notably lower rating despite its scale and cost." },
+  { title: "Review base scrutiny across a wide price range", description: "Weighed review count and rating together at every price tier, including flagging the premium architectural pick's notably lower rating despite its scale and cost." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Is the most expensive room divider always the best rated?", a: "Not necessarily. The premium architectural-grade pick in this guide actually carries a notably lower rating than several much cheaper alternatives, always check recent reviews rather than assuming price predicts satisfaction." },
   { q: "What should I look for in a portable acoustic room divider?", a: "Match your expectations to price tier (visual privacy vs. genuine sound reduction), check wheel and locking-caster quality for practical daily use, and read recent reviews carefully, especially for newer listings with limited review history." },
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers who want a genuine mobile partition wall at a mid-tier price" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who genuinely need architectural-grade sound reduction and have the budget and space for it At $1,411.09, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who genuinely need architectural-grade sound reduction and have the budget and space for it At under $1,500, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-acoustic-room-dividers-on-wheels", title: "Best Acoustic Room Dividers on Wheels (2026)" },
   { href: "/guide/best-sound-absorbing-desk-privacy-panels", title: "Best Sound-Absorbing Desk Privacy Panels (2026)" },
-  { href: "/guide/best-desk-privacy-panels-clamp-on", title: "Best Clamp-On Desk Privacy Panels (2026)" },
+  { href: "/guide/best-desk-privacy-panels-clamp-on", title: "Best Clamp-On Desk Privacy Panels (2026)" }
 ];

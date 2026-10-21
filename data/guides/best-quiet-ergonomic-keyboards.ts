@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "quiet ergonomic keyboard";
 export const introParagraphs = [
   "Membrane keyboards are typically quieter than even dampened mechanical switches, but that comes with a genuine tactile-feedback tradeoff some ergonomic typists rely on to know a key has registered, this is a real tradeoff to weigh rather than an assumed hierarchy where membrane always wins. What actually matters for a shared home-office or open-office environment is realistic typing noise during active use, not just how quiet the keyboard sounds when idle or with a single isolated keypress.",
-  "Desk surface material also plays a real role, a hollow or resonant desk can amplify typing sound regardless of how quiet the keyboard itself is rated, worth testing on your actual desk before assuming a 'quiet' label solves an open-office noise concern entirely.",
+  "Desk surface material also plays a real role, a hollow or resonant desk can amplify typing sound regardless of how quiet the keyboard itself is rated, worth testing on your actual desk before assuming a 'quiet' label solves an open-office noise concern entirely."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Quiet Pick",
     name: "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest",
     price: "$129.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "7,992 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41EsewSK2nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZWK2TQT?tag=deskfinds0d-20",
     description: "This scissor-switch split keyboard is generally quieter during active typing than a clicky mechanical board, while still offering more tactile feedback than a pure membrane design. It carries the largest verified review base among the picks in this guide.\n\nIt earns the top spot in this comparison over Logitech Wave Keys Wireless Ergonomic Keyboard for one main reason. Quieter typing than mechanical switches while retaining tactile feel. On price, it's actually priced above Logitech Wave Keys Wireless Ergonomic Keyboard, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Largest verified review base in this guide. On the other side, Desk surface can still amplify sound. That's the main tradeoff to weigh against everything above.",
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Quiet One-Piece Pick",
     name: "Logitech Wave Keys Wireless Ergonomic Keyboard - Graphite",
     price: "$59.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "2,972 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/4114VdW9JcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BTNY72VD?tag=deskfinds0d-20",
     description: "A one-piece wave-shaped keyboard using a quiet scissor-switch mechanism, appropriate for open-office or shared home-office use where typing noise during video calls is a real concern. Its lower price makes quieter typing more accessible than the premium split option above.\n\nOne spot below Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest in this ranking, it's priced lower than Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest. The compromise here is straightforward: Less tactile feedback than a mechanical switch. What you gain in return: Quiet typing suited to shared spaces. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Lower price than the split alternative. On the other side, Verify desk surface amplification before assuming total silence. That's the main tradeoff to weigh against everything above.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best Quiet Split Pick",
     name: "Arteck Split Ergonomic Keyboard with Palm Rest, 2.4G USB Wireless",
     price: "$54.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "1,624 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41O4m5cUOVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BKKYRQ31?tag=deskfinds0d-20",
     description: "A split, angled scissor-switch keyboard priced between the two Logitech picks above, offering a real split ergonomic benefit at a lower cost than the premium Ergo K860. Its quiet keypress is generally comparable to other scissor-switch designs in this guide.\n\nSitting just under Logitech Wave Keys Wireless Ergonomic Keyboard, it's priced lower than Logitech Wave Keys Wireless Ergonomic Keyboard. Here's the honest tradeoff: Less tactile feedback than a mechanical switch. And here's what it gets you instead: Quiet typing at a mid-range price. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: True split, angled layout. On the other side, Desk surface can still amplify typing sound. That's the main tradeoff to weigh against everything above.",
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     badge: "Best Quiet Combo Pick",
     name: "SABLUTE MA41 Wireless Keyboard and Mouse Combo, 30dB Quiet Ergonomic",
     price: "$39.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "924 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41E+F4HE3IL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FJQVD15L?tag=deskfinds0d-20",
     description: "This combo advertises a specific quiet rating on both the keyboard and mouse, appropriate for buyers wanting matched quiet peripherals rather than pairing a quiet keyboard with a clicky mouse separately. Treat the specific decibel figure as manufacturer-stated rather than independently verified, and check current buyer feedback for real-world confirmation.\n\nRanked just behind Arteck Split Ergonomic Keyboard with Palm Rest, it's priced lower than Arteck Split Ergonomic Keyboard with Palm Rest. The real tradeoff against that pick: Manufacturer decibel claim not independently verified. In exchange, it offers this instead: Matched quiet keyboard and mouse in one purchase. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Budget-friendly price for a quiet combo. On the other side, Not a split or negative-tilt ergonomic layout. That's the main tradeoff to weigh against everything above.",
@@ -90,8 +90,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Silent Pick",
     name: "COLIKES Wireless Ergonomic Keyboard, Backlit Silent with 15 RGB modes",
     price: "$39.99",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "132 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/4111FGMHFCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G6ZZ95GB?tag=deskfinds0d-20",
     description: "Marketed explicitly as silent, this budget wireless keyboard combines a quiet keypress with RGB backlighting, an unusual pairing since most quiet keyboards skip lighting features to keep the design simple. As with any manufacturer-stated silent claim, treat the marketing label as a starting point and check current buyer feedback for real-world noise confirmation.\n\nOne spot below SABLUTE MA41 Wireless Keyboard and Mouse Combo in this ranking, it costs more than SABLUTE MA41 Wireless Keyboard and Mouse Combo. The compromise here is straightforward: Smaller verified review base than established quiet picks. What you gain in return: Lowest price among quiet picks in this guide. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Silent keypress claim plus RGB customization. On the other side, Less proven long-term reliability data. That's the main tradeoff to weigh against everything above.",
@@ -106,8 +106,8 @@ export const products: GuideProduct[] = [
     badge: "Best Quiet Pick, Rose Colorway",
     name: "Logitech Wave Keys Wireless Ergonomic Keyboard - Rose",
     price: "$59.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "2,972 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/418t+cQnsOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BTNZWYT5?tag=deskfinds0d-20",
     description: "The same quiet scissor-switch mechanism as the Graphite Wave Keys pick in this guide, offered in a Rose colorway for buyers who want quiet typing without the standard gray or black look. Its noise profile and tactile feel are otherwise identical to the Graphite version already covered above.\n\nSitting just under COLIKES Wireless Ergonomic Keyboard, it costs more than COLIKES Wireless Ergonomic Keyboard. Here's the honest tradeoff: Less tactile feedback than a mechanical switch. And here's what it gets you instead: Quiet typing suited to shared spaces. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Distinct colorway option. On the other side, Same tradeoffs as the Graphite colorway, choose based on aesthetics only. That's the main tradeoff to weigh against everything above.",
@@ -122,8 +122,8 @@ export const products: GuideProduct[] = [
     badge: "Best Quiet Pick for Mac Users",
     name: "Logitech Wave Keys for Mac Wireless Ergonomic Keyboard - Off White",
     price: "$69.95",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "343 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ogsiz47VL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BTNZSXLG?tag=deskfinds0d-20",
     description: "A Mac-layout version of the quiet Wave Keys scissor-switch design, useful for Mac users who want both quiet typing and native modifier key labeling in one keyboard. Its noise profile follows the same scissor-switch quiet tier as the other Wave Keys picks in this guide.\n\nRanked just behind Logitech Wave Keys Wireless Ergonomic Keyboard, it costs more than Logitech Wave Keys Wireless Ergonomic Keyboard. The real tradeoff against that pick: Smaller review base than the standard Windows-oriented model. In exchange, it offers this instead: Quiet typing with native Mac key labeling. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: No manual remapping needed. On the other side, Less ergonomic benefit than a true split design. That's the main tradeoff to weigh against everything above.",
@@ -138,8 +138,8 @@ export const products: GuideProduct[] = [
     badge: "Best Quiet Wired Backlit Pick",
     name: "Arteck Split Ergonomic Keyboard with Palm Rest, USB Wired Backlit Keyboard",
     price: "$53.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "1,166 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51mIgAEAexL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CGL8X4H6?tag=deskfinds0d-20",
     description: "A split, backlit scissor-switch keyboard connecting over USB, offering the same quiet-typing tier as the wireless Arteck pick in this guide with the added convenience of backlit keys and no battery to manage. Its wired connection removes any Bluetooth or 2.4G variability from the noise equation entirely.\n\nOne spot below Logitech Wave Keys for Mac Wireless Ergonomic Keyboard in this ranking, it's priced lower than Logitech Wave Keys for Mac Wireless Ergonomic Keyboard. The compromise here is straightforward: Less tactile feedback than a mechanical switch. What you gain in return: Quiet typing with no battery to manage. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Backlit keys with no battery-life tradeoff. On the other side, Desk surface can still amplify typing sound. That's the main tradeoff to weigh against everything above.",
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Real typing noise, not idle keypress sound", description: "Weighed verified buyer feedback describing sound during active typing sessions rather than a single isolated keypress test." },
   { title: "Membrane vs. quiet-mechanical tactile tradeoff", description: "Presented membrane and quiet scissor-switch designs as a genuine tradeoff between noise level and tactile feedback rather than assuming membrane is always the better choice." },
   { title: "Open-office and video-call suitability", description: "Considered relevance to shared home-office and video-call environments specifically, where realistic typing noise output matters more than a lab-quiet spec." },
-  { title: "Desk surface amplification as a confounding factor", description: "Noted that a hollow or resonant desk surface can amplify typing sound regardless of the keyboard's own quietness, a factor outside the keyboard itself." },
+  { title: "Desk surface amplification as a confounding factor", description: "Noted that a hollow or resonant desk surface can amplify typing sound regardless of the keyboard's own quietness, a factor outside the keyboard itself." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -289,11 +289,11 @@ export const faq: FaqItem[] = [
   { q: "Is a membrane keyboard always quieter than a mechanical one?", a: "Generally yes, but it comes with less tactile feedback, a genuine tradeoff rather than membrane being a strictly better choice for every typist." },
   { q: "Will a quiet keyboard eliminate typing noise on video calls?", a: "It helps significantly but your desk surface also affects perceived noise, a hollow or resonant desk can amplify sound regardless of the keyboard's own quiet rating." },
   { q: "Are decibel claims on quiet keyboard listings accurate?", a: "They're manufacturer-stated rather than independently verified, check buyer feedback for real-world confirmation before relying on a specific number." },
-  { q: "Do quiet ergonomic keyboards still feel good to type on?", a: "It depends on the design, scissor-switch and quiet-mechanical options retain more tactile feedback than pure membrane keyboards, decide which matters more to you." },
+  { q: "Do quiet ergonomic keyboards still feel good to type on?", a: "It depends on the design, scissor-switch and quiet-mechanical options retain more tactile feedback than pure membrane keyboards, decide which matters more to you." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-ergonomic-keyboards-for-home-offices", title: "Best Ergonomic Keyboards for Home Offices (2026)" },
   { href: "/guide/best-compact-ergonomic-keyboards", title: "Best Compact Ergonomic Keyboards (2026)" },
-  { href: "/guide/best-ergonomic-keyboards", title: "Best Ergonomic Keyboards (2026)" },
+  { href: "/guide/best-ergonomic-keyboards", title: "Best Ergonomic Keyboards (2026)" }
 ];

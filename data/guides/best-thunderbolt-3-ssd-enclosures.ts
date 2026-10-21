@@ -167,19 +167,19 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $54.14",
+          "Under $60",
           "ANYOYO 40Gbps NVMe Enclosure"
         ],
         [
-          "Around $54.99",
+          "Under $60",
           "ASUS ROG Strix Arion Enclosure"
         ],
         [
-          "Around $59.99",
+          "Under $60",
           "Rosewill RNE-01 40Gbps NVMe Enclosure"
         ],
         [
-          "Around $71.99",
+          "Under $80",
           "ACASIS TBU405 Pro 40Gbps NVMe Enclosure"
         ]
       ]
@@ -221,10 +221,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "ANYOYO 40Gbps NVMe Enclosure is aimed at buyers prioritizing up to 2,700mb/s, dual jhl7440 + rtl9210 chips, at $54.14."
+        "text": "ANYOYO 40Gbps NVMe Enclosure is aimed at buyers prioritizing up to 2,700mb/s, dual jhl7440 + rtl9210 chips, at under $60."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -269,8 +269,8 @@ export const faq = [
   }
 ,
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "ACASIS TBU405 Pro 40Gbps NVMe Enclosure is aimed at buyers prioritizing 40gbps via intel jhl7440, usb4/tb3/tb4." },
-  { q: "Which pick offers the best value for a tight budget?", a: "ANYOYO 40Gbps NVMe Enclosure is aimed at buyers prioritizing up to 2,700mb/s, dual jhl7440 + rtl9210 chips, and at $54.14 it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $54.14 to $71.99, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Which pick offers the best value for a tight budget?", a: "ANYOYO 40Gbps NVMe Enclosure is aimed at buyers prioritizing up to 2,700mb/s, dual jhl7440 + rtl9210 chips, and at under $60 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $60 to $80, so match your choice to both your budget and actual needs rather than defaulting to either extreme." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-thunderbolt-5-ssd-enclosures","title":"6 Best Thunderbolt 5 SSD Enclosures in 2026"},{"href":"/guide/best-thunderbolt-ssd-enclosures-for-mac","title":"7 Best Thunderbolt SSD Enclosures for Mac in 2026"},{"href":"/guide/best-thunderbolt-ssd-raid-enclosures","title":"4 Best Thunderbolt SSD RAID Enclosures in 2026"}];

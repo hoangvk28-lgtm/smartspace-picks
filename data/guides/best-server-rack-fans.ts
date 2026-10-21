@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31rUFp7gIIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07B4MTFC9?tag=deskfinds0d-20",
-    description: "This is AC Infinity's programmable 1U rack fan, with a thermostat controller that automates speed based on temperature rather than requiring manual adjustment.\n\nAirflow scales from 60 to 300 CFM depending on the speed setting, and the premium anodized aluminum housing looks noticeably more finished than typical rack fan trays.\n\nWhat stands out here is programmable thermostat adjusts speed automatically by heat, plus 300 CFM max airflow handles dense equipment loads. The main tradeoff: costs more than basic manual-speed rack fans, so weigh that against the $149.00 price before buying.",
+    description: "This is AC Infinity's programmable 1U rack fan, with a thermostat controller that automates speed based on temperature rather than requiring manual adjustment.\n\nAirflow scales from 60 to 300 CFM depending on the speed setting, and the premium anodized aluminum housing looks noticeably more finished than typical rack fan trays.\n\nWhat stands out here is programmable thermostat adjusts speed automatically by heat, plus 300 CFM max airflow handles dense equipment loads. The main tradeoff: costs more than basic manual-speed rack fans, so weigh that against the under $150 price before buying.",
     specs: ["1U, top exhaust, 60-300 CFM","12-38 dBA noise range","Programmable thermostat controller"],
     pros: ["Programmable thermostat adjusts speed automatically by heat","300 CFM max airflow handles dense equipment loads","Anodized aluminum housing looks genuinely premium"],
     cons: ["Costs more than basic manual-speed rack fans","38 dBA at max speed is audible in quiet rooms"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31k5qGlXIQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07NW127BN?tag=deskfinds0d-20",
-    description: "A budget four-fan cooling tray with a digital temperature display, letting you monitor and set your target temperature directly from the rack front rather than guessing.\n\nTop exhaust design pushes hot air up and out of the cabinet, and the compact 1U footprint means it doesn't eat into your usable rack space significantly.\n\nThe strongest case for this pick comes down to LCD display lets you monitor temperature at a glance as well as four fans provide more airflow than single-fan trays. The compromise here is that louder than premium fan kits at full speed, so factor that in alongside the $98.00 asking price.",
+    description: "A budget four-fan cooling tray with a digital temperature display, letting you monitor and set your target temperature directly from the rack front rather than guessing.\n\nTop exhaust design pushes hot air up and out of the cabinet, and the compact 1U footprint means it doesn't eat into your usable rack space significantly.\n\nThe strongest case for this pick comes down to LCD display lets you monitor temperature at a glance as well as four fans provide more airflow than single-fan trays. The compromise here is that louder than premium fan kits at full speed, so factor that in alongside the under $100 asking price.",
     specs: ["1U, 4 fans, top exhaust","Adjustable temperature control","LCD digital display"],
     pros: ["LCD display lets you monitor temperature at a glance","Four fans provide more airflow than single-fan trays","Only takes up 1U of rack space"],
     cons: ["Louder than premium fan kits at full speed","No programmable thermostat like pricier alternatives"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31cTeDPMnEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B99SVPW9?tag=deskfinds0d-20",
-    description: "The 3-fan sibling to the 4-fan model above, still moving a genuinely strong 225 CFM through three 120mm ball bearing fans in the same compact 1U footprint.\n\nA programmable thermostat sensor triggers the fans based on your set parameters rather than running constantly, which helps keep noise down when the rack isn't running hot.\n\nWhere this one earns its spot is 225 CFM from just three fans is strong airflow, and thermostat trigger avoids constant fan noise. Worth noting before buying: one fan fewer than the 4-fan version above, which matters more at $88.00 than it would on a cheaper pick.",
+    description: "The 3-fan sibling to the 4-fan model above, still moving a genuinely strong 225 CFM through three 120mm ball bearing fans in the same compact 1U footprint.\n\nA programmable thermostat sensor triggers the fans based on your set parameters rather than running constantly, which helps keep noise down when the rack isn't running hot.\n\nWhere this one earns its spot is 225 CFM from just three fans is strong airflow, and thermostat trigger avoids constant fan noise. Worth noting before buying: one fan fewer than the 4-fan version above, which matters more at under $90 than it would on a cheaper pick.",
     specs: ["1U, 3 fans, 225 CFM total","Programmable thermostat sensor","Ball bearing fan construction"],
     pros: ["225 CFM from just three fans is strong airflow","Thermostat trigger avoids constant fan noise","Ball bearing fans last longer than sleeve bearings"],
     cons: ["One fan fewer than the 4-fan version above","Still audible at higher fan speeds"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51DIN09bAgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CNKLP31B?tag=deskfinds0d-20",
-    description: "A dual-voltage 110V-240V fan panel with variable speed control, versatile enough to work internationally or wherever you're sourcing power for the rack.\n\nDual-ball bearing motors are rated for 50,000 hours of continuous use, and the panel can mount flat or upright, giving flexibility beyond just standard rack installs.\n\nThis pick is best for buyers who value dual voltage works internationally without a converter along with 50,000-hour rated motors for long continuous use. The catch is that 42 dBA at full speed is on the louder side, so decide if that's worth it at $56.99.",
+    description: "A dual-voltage 110V-240V fan panel with variable speed control, versatile enough to work internationally or wherever you're sourcing power for the rack.\n\nDual-ball bearing motors are rated for 50,000 hours of continuous use, and the panel can mount flat or upright, giving flexibility beyond just standard rack installs.\n\nThis pick is best for buyers who value dual voltage works internationally without a converter along with 50,000-hour rated motors for long continuous use. The catch is that 42 dBA at full speed is on the louder side, so decide if that's worth it at under $60.",
     specs: ["4x 120mm fans, 108 CFM","110V-240V dual voltage","50,000-hour dual ball bearing motors"],
     pros: ["Dual voltage works internationally without a converter","50,000-hour rated motors for long continuous use","Variable speed control adjusts to actual cooling needs"],
     cons: ["42 dBA at full speed is on the louder side","Marketed broadly for cabinets, not rack-specific mounting"],
@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $56.99",
+          "Under $60",
           "AmRunJe 4X 120mm Server Rack Fan with Speed Control"
         ],
         [
-          "Around $69.99",
+          "Under $70",
           "AC Infinity Rack Roof Fan Kit"
         ],
         [
-          "Around $88.00",
+          "Under $90",
           "Rack Mount Fan"
         ],
         [
-          "Around $98.00",
+          "Under $100",
           "Rack Mount Fan"
         ],
         [
-          "Around $149.00",
+          "Under $150",
           "AC Infinity CLOUDPLATE T2"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "AC Infinity Rack Roof Fan Kit is aimed at buyers prioritizing 2x 120mm fans, 200 cfm total." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "AC Infinity Rack Roof Fan Kit is aimed at buyers prioritizing 2x 120mm fans, 200 cfm total." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks-with-fans","title":"Best Server Racks With Fans in 2026"},{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"}];

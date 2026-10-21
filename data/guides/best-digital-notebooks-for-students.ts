@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook for students";
 export const introParagraphs = [
   "Most students are better served starting with an affordable reusable paper notebook or budget smart pen set rather than jumping straight to a premium e-ink device, unless you know you'll use it heavily every day across a full semester.",
-  "We weighted this guide toward value, with one premium e-ink option included honestly positioned as a bigger investment appropriate only for heavy daily users rather than casual note-takers.",
+  "We weighted this guide toward value, with one premium e-ink option included honestly positioned as a bigger investment appropriate only for heavy daily users rather than casual note-takers."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Price weighted heavily for a student budget", description: "Prioritized picks under roughly a real for most of this guide, with one premium option included and explicitly positioned as a bigger investment rather than the default recommendation." },
   { title: "Reusability across a semester considered", description: "Weighed whether a product can genuinely be used repeatedly across a full semester or course load without needing replacement." },
   { title: "Pen and accessory costs factored into total price", description: "Checked whether a compatible pen is included or needs to be bought separately, since that materially changes the real cost for a student on a budget." },
-  { title: "Honest positioning of premium hardware for students", description: "Explicitly noted that premium e-ink devices are a bigger investment appropriate only for students who will use the device heavily, not a default recommendation for every student." },
+  { title: "Honest positioning of premium hardware for students", description: "Explicitly noted that premium e-ink devices are a bigger investment appropriate only for students who will use the device heavily, not a default recommendation for every student." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -274,11 +274,11 @@ export const faq: FaqItem[] = [
   { q: "What's the best budget digital notebook for students?", a: "The Rocketbook Core is a strong starting point, reusable across a full semester, app-connected for filing notes by class, and budget-friendly upfront." },
   { q: "Is a reMarkable worth it for students?", a: "Only if you'll use it heavily every day, it's a meaningfully bigger investment than a paper notebook or smart pen, most students get comparable practical benefit from cheaper options." },
   { q: "Do I need to buy a special pen for a reusable student notebook?", a: "Yes, Rocketbook-style notebooks require a specific erasable pen, commonly a Pilot Frixion, unless the listing states one is included." },
-  { q: "Can I search my class notes on a digital notebook?", a: "Smart pen sets with stated OCR features can make handwritten notes searchable, verify current accuracy through recent reviews before relying on it for exam prep." },
+  { q: "Can I search my class notes on a digital notebook?", a: "Smart pen sets with stated OCR features can make handwritten notes searchable, verify current accuracy through recent reviews before relying on it for exam prep." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-budget-digital-notebooks", title: "Best Budget Digital Notebooks (2026)" },
   { href: "/guide/best-portable-digital-notebooks", title: "Best Portable Digital Notebooks (2026)" },
-  { href: "/guide/best-digital-notebooks-for-note-taking", title: "Best Digital Notebooks for Note Taking (2026)" },
+  { href: "/guide/best-digital-notebooks-for-note-taking", title: "Best Digital Notebooks for Note Taking (2026)" }
 ];

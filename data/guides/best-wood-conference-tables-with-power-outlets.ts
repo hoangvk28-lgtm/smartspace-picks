@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     description: "Regency Legacy 10 ft Racetrack Laminate Conference Table with 1 Charging Port measures 10 ft and is built around make presentations memorable with legacy's conference collection!, positioning it for wood with power outlets buyers specifically.\n\nSeats 8 to 10 people is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for wood with power outlets, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["10 ft table dimensions","Make presentations memorable with Legacy's Conference collection!","Seats 8 to 10 people"],
     pros: ["Make presentations memorable with Legacy's Conference collection!, confirmed directly in the listing's own spec details","Seats 8 to 10 people, confirmed directly in the listing's own spec details","Power and Data port makes tabletop connectivity, confirmed directly in the listing's own spec details"],
-    cons: ["At $1,158.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $1,200, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for wood with power outlets",
   }
 
@@ -210,40 +210,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $197.99",
+          "Under $200",
           "YITAHOME 94.5\" Boat Shaped Conference Table with Power Outlets"
         ],
         [
-          "Around $236.99",
+          "Under $250",
           "YITAHOME 70.8\" Boat Shaped Conference Table with Power Outlets"
         ],
         [
-          "Around $269.99",
+          "Under $300",
           "TRIBEWOOD 5.24ft Solid Wood Conference Table for 6"
         ],
         [
-          "Around $489.99",
+          "Under $500",
           "TRIBEWOOD 10FT Solid Wood Conference Table for 10-12"
         ],
         [
-          "Around $1,158.99",
+          "Under $1,200",
           "Regency Legacy 10 ft Racetrack Laminate Conference Table with 1 Charging Port"
         ],
         [
-          "Around $1,749.99",
+          "Under $1,800",
           "10ft Conference Table with Built-In Power Outlet"
         ],
         [
-          "Around $1,749.99",
+          "Under $1,800",
           "ZIMASYA Conference Table with Power Outlets & USB"
         ],
         [
-          "Around $1,749.99",
+          "Under $1,800",
           "10FT Conference Table with Charging Stations"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -291,7 +291,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", "a": "10ft Conference Table with Built-In Power Outlet is aimed at buyers prioritizing 118\"l x 52\"w x 30\"h, seats 10" },
+  { "q": "Which product in this roundup earns the top overall recommendation?", "a": "10ft Conference Table with Built-In Power Outlet is aimed at buyers prioritizing 118\"l x 52\"w x 30\"h, seats 10" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-conference-tables-with-built-in-power","title":"Best Conference Tables With Built-In Power in 2026"},{"href":"/guide/best-conference-tables-with-power-outlets","title":"Best Conference Tables With Power Outlets in 2026"},{"href":"/guide/best-conference-tables-with-outlets","title":"Best Conference Tables With Outlets in 2026"}];

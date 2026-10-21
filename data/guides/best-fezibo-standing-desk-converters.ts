@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "fezibo standing desk converter";
 export const introParagraphs = [
   "We need to be direct here: FEZIBO's current shopping experience is centered on full standing desks rather than a dedicated converter product line. We confirmed only a small pool of genuine FEZIBO converter listings rather than the wide selection available from VIVO or FlexiSpot.",
-  "Rather than pad this list with FEZIBO's unrelated full-desk products, we're presenting the confirmed converter listings honestly alongside strong alternatives from brands with a clearer current converter catalog.",
+  "Rather than pad this list with FEZIBO's unrelated full-desk products, we're presenting the confirmed converter listings honestly alongside strong alternatives from brands with a clearer current converter catalog."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
@@ -75,7 +75,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Disclosed FEZIBO's thin current converter product pool honestly", description: "We confirmed FEZIBO's current catalog centers on full standing desks, with only a limited pool of genuine converter listings, and said so directly." },
   { title: "Included the confirmed FEZIBO listing alongside its actual data gaps", description: "We noted where price and full specifications weren't available in our research and recommended verifying directly." },
   { title: "Selected verified alternatives from brands with clearer current converter catalogs", description: "We chose well-reviewed converters from VIVO and FlexiSpot as honest alternatives given FEZIBO's narrower confirmed selection." },
-  { title: "Did not relabel FEZIBO's full standing desks as converters", description: "We kept this comparison focused on genuine converter products, not FEZIBO's broader full standing desk catalog." },
+  { title: "Did not relabel FEZIBO's full standing desks as converters", description: "We kept this comparison focused on genuine converter products, not FEZIBO's broader full standing desk catalog." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -202,7 +202,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
@@ -211,11 +211,11 @@ export const faq: FaqItem[] = [
   { q: "What's a good alternative to a FEZIBO converter?", a: "The VIVO 32 inch Desk Converter, K Series, the most proven converter in our broader research." },
   { q: "Does FEZIBO sell replacement parts for their converters?", a: "Yes, including replacement tension ropes for specific converter models, useful if repairing an existing unit." },
   { q: "Should I check FEZIBO's site directly?", a: "Yes, given the limited data we could confirm, checking FEZIBO's official site directly is worthwhile if you specifically want their brand." },
-  { q: "What's a verified electric alternative to FEZIBO?", a: "The FLEXISPOT 42 Inch Electric Motor Desk Converter, from a brand with a clearer, well-documented current converter catalog." },
+  { q: "What's a verified electric alternative to FEZIBO?", a: "The FLEXISPOT 42 Inch Electric Motor Desk Converter, from a brand with a clearer, well-documented current converter catalog." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-vivo-standing-desk-converters", title: "Best VIVO Standing Desk Converters (2026)" },
   { href: "/guide/best-flexispot-standing-desk-converters", title: "Best FlexiSpot Standing Desk Converters (2026)" },
-  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
+  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" }
 ];

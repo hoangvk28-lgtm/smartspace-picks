@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "printer for remote work";
 export const introParagraphs = [
   "A home office printer for remote work has a smaller job than an office printer, most remote workers print somewhere in the 30-80 page per month range for contracts, onboarding paperwork, and reports, nowhere close to the 500-plus pages a shared office machine handles. That lighter volume changes which features actually matter, and it raises a concern office printers don't have: printing confidential work documents on a machine your family or roommates also use.",
-  "Below are 8 printers for remote workers we evaluated on fit for realistic WFH print volume, noise level during video calls, and confidentiality-friendly features like locking paper trays, ranging from a $99.99 monochrome all-in-one to a $209.99 duplex laser suited to daily home-office use.",
+  "Below are 8 printers for remote workers we evaluated on fit for realistic WFH print volume, noise level during video calls, and confidentiality-friendly features like locking paper trays, ranging from an under-$100 monochrome all-in-one to an under-$250 duplex laser suited to daily home-office use."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Duplex printing, copy, and scan",
       "Includes Refresh Subscription trial",
       "Works with Alexa",
-      "Mobile printing support",
+      "Mobile printing support"
     ],
     pros: [
       "Low cost-per-page for regular contract and report printing",
       "Duplex printing built in",
       "Toner doesn't dry out during slow printing weeks",
-      "Often qualifies for employer equipment reimbursement",
+      "Often qualifies for employer equipment reimbursement"
     ],
     cons: [
       "Highest price in this list",
       "Black and white output only",
-      "No physical locking tray for shared-household confidentiality",
+      "No physical locking tray for shared-household confidentiality"
     ],
     bestFor: "Remote workers with steady daily printing who want the lowest running cost",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "1.42\" OLED display",
       "Duplex printing",
       "Print, copy, scan",
-      "Compact design",
+      "Compact design"
     ],
     pros: [
       "Easy setup with a clear OLED display",
       "Duplex printing for double-sided documents",
       "Compact footprint for a home office desk",
-      "Lower upfront price than the laser picks",
+      "Lower upfront price than the laser picks"
     ],
     cons: [
       "Higher cost-per-page than laser at real WFH volume",
       "Color inkjet ink can dry out during slow weeks",
-      "No confidentiality-specific features",
+      "No confidentiality-specific features"
     ],
     bestFor: "Remote workers with lighter, occasional-color printing needs",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Print, scan, copy, fax",
       "Auto document feeder, duplex printing",
       "1-year Instant Ink trial included",
-      "AI-capable",
+      "AI-capable"
     ],
     pros: [
       "Most complete feature set for business-style documents",
       "Auto document feeder for multi-page scans",
       "Fax support for jobs that still require it",
-      "Strong candidate for employer expense reimbursement",
+      "Strong candidate for employer expense reimbursement"
     ],
     cons: [
       "Pricier than most inkjet picks in this list",
       "Color inkjet running cost is higher than laser at volume",
-      "Larger footprint than compact laser or basic inkjet picks",
+      "Larger footprint than compact laser or basic inkjet picks"
     ],
     bestFor: "Remote workers who need scan, fax, and full office functionality in one printer",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Mobile printing support",
       "Black and white output",
       "Includes Refresh Subscription trial",
-      "Works with Alexa",
+      "Works with Alexa"
     ],
     pros: [
       "Lower price than the full-featured DCP-L2640DW",
       "Low cost-per-page for regular text printing",
       "Laser mechanism tends to run quieter than inkjet",
-      "Toner doesn't dry out over slow weeks",
+      "Toner doesn't dry out over slow weeks"
     ],
     cons: [
       "No copy or scan function",
       "Black and white output only",
-      "No dedicated confidentiality features",
+      "No dedicated confidentiality features"
     ],
     bestFor: "Remote workers who mainly need reliable, quiet text printing without scanning",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Cartridge-free refillable ink tanks",
       "Print, scan, copy",
       "Larger footprint due to ink tanks",
-      "For everyday home printing",
+      "For everyday home printing"
     ],
     pros: [
       "Low per-page cost without giving up color",
       "No disposable cartridges to replace",
       "Print, scan, and copy in one unit",
-      "Ink tanks don't dry out as easily as small cartridges",
+      "Ink tanks don't dry out as easily as small cartridges"
     ],
     cons: [
       "Larger physical footprint than compact inkjets",
       "Higher upfront price than basic inkjet picks",
-      "Not as fast as a laser for high daily text volume",
+      "Not as fast as a laser for high daily text volume"
     ],
     bestFor: "Remote workers who need occasional color output alongside routine printing",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Print, scan, copy, fax",
       "Auto document feeder, duplex printing",
       "1.4\" color display",
-      "Compact design",
+      "Compact design"
     ],
     pros: [
       "Full feature set at the lowest price among comparable picks",
       "Auto document feeder included",
       "Compact footprint for a home office desk",
-      "Duplex printing built in",
+      "Duplex printing built in"
     ],
     cons: [
       "Inkjet cost-per-page is higher than laser at volume",
       "Ink can dry out during slow printing weeks",
-      "No dedicated confidentiality features",
+      "No dedicated confidentiality features"
     ],
     bestFor: "Remote workers on a budget who still want full print, scan, and fax function",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Cartridge-free refillable ink tanks",
       "Print, scan, copy",
       "For everyday home printing",
-      "Larger footprint due to ink tanks",
+      "Larger footprint due to ink tanks"
     ],
     pros: [
       "Low per-page cost without disposable cartridges",
       "Slightly cheaper than the ET-2800 with the same core benefit",
       "Print, scan, and copy in one unit",
-      "Good fit for steady, moderate WFH print volume",
+      "Good fit for steady, moderate WFH print volume"
     ],
     cons: [
       "Larger footprint than compact inkjets",
       "No auto document feeder",
-      "No dedicated confidentiality features",
+      "No dedicated confidentiality features"
     ],
     bestFor: "Remote workers who want low ink cost at a slightly lower price than the ET-2800",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "2 years of ink included",
       "Print, scan, copy",
       "2.4GHz wireless only",
-      "Cartridge-free tank design",
+      "Cartridge-free tank design"
     ],
     pros: [
       "2 years of included ink removes near-term ink cost",
       "Refillable tank design keeps long-term cost low",
       "Print, scan, and copy in one unit",
-      "Good fit for steady daily WFH printing",
+      "Good fit for steady daily WFH printing"
     ],
     cons: [
       "2.4GHz-only wireless can be slower to pair on dual-band routers",
       "No auto document feeder",
-      "No dedicated confidentiality features",
+      "No dedicated confidentiality features"
     ],
     bestFor: "Remote workers who want to avoid thinking about ink cost for the first two years",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Home office feature completeness",
     description: "Compared scan, copy, fax, and duplex printing support against what a genuine WFH workload, not a general household printer, actually needs.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,11 +477,11 @@ export const faq: FaqItem[] = [
   {
     q: "Is a refillable ink tank printer worth it for a remote worker?",
     a: "If you print steadily at the 30-80 page monthly range and occasionally need color output, a tank printer like the Epson EcoTank ET-2400 or HP Smart Tank 5101 brings per-page cost close to laser levels while keeping color capability. For mostly black-and-white printing, a compact monochrome laser like the Brother HL-L2405W is still the cheaper option to run.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-dorm-rooms", title: "Best Printers for Dorm Rooms (2026)" },
   { href: "/guide/best-printers-for-college-students", title: "Best Printers for College Students (2026)" },
-  { href: "/guide/best-small-desk-accessories", title: "Best Small Desk Accessories (2026)" },
+  { href: "/guide/best-small-desk-accessories", title: "Best Small Desk Accessories (2026)" }
 ];

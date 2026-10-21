@@ -12,7 +12,7 @@ export const voiceAssistantDeskIntegrationGuide: Guide = {
     "smart speaker at desk worth it",
     "hands free desk commands",
     "voice control desk lighting",
-    "alexa google home office desk",
+    "alexa google home office desk"
   ],
   heroImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const voiceAssistantDeskIntegrationGuide: Guide = {
     "smart-plug-desk-setup-explained",
     "smart-desk-lamp-features-explained",
     "task-lighting-vs-ambient-lighting",
-    "video-call-etiquette-technical-setup",
+    "video-call-etiquette-technical-setup"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const voiceAssistantDeskIntegrationGuide: Guide = {
       question: "Is voice assistant integration worth it for someone who already has manual controls within easy reach?",
       answer:
         "The added convenience is more modest in this case, voice control provides the most practical benefit when your hands are occupied (typing, holding something) or a manual control isn't conveniently within reach, for controls already easily accessible, the benefit is more marginal.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const voiceAssistantDeskIntegrationGuide: Guide = {
     {
       heading: "Why a Dedicated Speaker Isn't Strictly Necessary for Most Desk Use Cases",
       body: `Since most smartphones include a capable built-in voice assistant accessible via a wake phrase or button press, many of the practical desk-relevant voice commands, adjusting smart devices, setting timers, quick queries, can be accomplished without purchasing a separate dedicated smart speaker at all, a dedicated speaker's main additional value comes from always-listening convenience without needing your phone nearby, and generally better audio output quality for music or calls, weigh whether these specific additional benefits justify a separate purchase versus using a voice assistant you likely already have access to through your phone.`,
-    },
+    }
   ],
 };

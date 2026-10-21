@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "cabinet bed with desk";
 export const introParagraphs = [
   "A cabinet bed with a desk is meant to do two jobs at once, hide a bed inside a cabinet during the day and hand you a fold-down work surface for the hours you're not sleeping. Not every listing marketed in this space actually says so, even when it's positioned as a home office solution. We checked all 8 listings below and only 4 explicitly confirm a fold-down or built-in desk in the title or bullet points.",
-  "This guide separates those two groups clearly rather than blurring them together. Four picks have a confirmed desk feature stated on the listing, and four are murphy beds with storage drawers and charging stations but no stated desk or work surface, useful if you want the space-saving cabinet format without paying for a desk you won't use. Ratings and review counts below are quoted exactly as listed on Amazon, and several of these are new or lightly reviewed listings with as few as 1 to 4 ratings, which is disclosed honestly pick by pick rather than glossed over.",
+  "This guide separates those two groups clearly rather than blurring them together. Four picks have a confirmed desk feature stated on the listing, and four are murphy beds with storage drawers and charging stations but no stated desk or work surface, useful if you want the space-saving cabinet format without paying for a desk you won't use."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -46,29 +46,28 @@ export const products: GuideProduct[] = [
     badge: "Confirmed Desk, Best Overall",
     name: "Merax Queen Size Murphy Bed with Desk and Lights, Power Outlet, Foldable Murphy Cabinet Bed with Open Storage Shelves & Drawers, Wood Space-Saving Hidden Wall Bed for Guest Room Office, Antique White",
     price: "$1,239.99",
-    rating: "4.4 stars from 4 Amazon ratings",
-    reviews: "4 ratings, based on a small number of early ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41WkdwEwOOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H33PY32C?tag=deskfinds0d-20",
     description:
-      "The Merax queen cabinet bed names a desk directly on the listing and pairs it with built-in lights and a power outlet, which covers the two things a home office desk needs beyond a flat surface. Open storage shelves and drawers give it more organized storage than most murphy beds in this guide, useful for a guest room that doubles as an office.\n\nIts 4.4 star rating comes from only 4 Amazon ratings, so treat that as an early signal rather than a large sample size. It's also the most expensive pick here, a tradeoff for the combination of confirmed desk, lighting, power outlet, and storage in one unit.\n\nA genuine advantage here is that built-in lighting and power outlet at the desk. The tradeoff is highest price in this guide.",
+      "The Merax queen cabinet bed names a desk directly on the listing and pairs it with built-in lights and a power outlet, which covers the two things a home office desk needs beyond a flat surface. Open storage shelves and drawers give it more organized storage than most murphy beds in this guide, useful for a guest room that doubles as an office.\n\nIt's also the most expensive pick here, a tradeoff for the combination of confirmed desk, lighting, power outlet, and storage in one unit.\n\nA genuine advantage here is that built-in lighting and power outlet at the desk. The tradeoff is highest price in this guide.",
     specs: [
       "Queen size murphy cabinet bed with fold-down desk",
       "Built-in LED lights and power outlet at the desk",
       "Open storage shelves and drawers",
       "Antique white wood cabinet finish",
-      "Wall bed folds fully closed when not in use",
+      "Wall bed folds fully closed when not in use"
     ],
     pros: [
       "Desk feature confirmed directly on the listing",
       "Built-in lighting and power outlet at the desk",
       "More storage than most cabinet beds in this guide",
-      "Doubles cleanly as a guest room and home office",
+      "Doubles cleanly as a guest room and home office"
     ],
     cons: [
       "Highest price in this guide",
-      "Only 4 Amazon ratings at time of writing",
-      "Queen footprint needs a genuinely spacious room",
+      "Queen footprint needs a genuinely spacious room"
     ],
     bestFor: "Buyers who want a confirmed desk with lighting and power built in and don't mind the higher price",
   },
@@ -78,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Charging Station Integration",
     name: 'LUXOAK Queen Murphy Bed with 6" Tri-Fold Memory Foam Mattress, Storage Drawer & Charging Station, Space-Saving Design for Home Office or Guest Room, White',
     price: "$699.99",
-    rating: "4.2 stars from 42 Amazon ratings",
-    reviews: "42 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41VsjmNEWaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2M8PP28?tag=deskfinds0d-20",
     description:
@@ -89,18 +88,17 @@ export const products: GuideProduct[] = [
       "Built-in charging station",
       "Includes 6-inch tri-fold memory foam mattress",
       "White cabinet finish",
-      "No desk or work surface stated on the listing",
+      "No desk or work surface stated on the listing"
     ],
     pros: [
       "Includes a mattress in the price",
       "Built-in charging station for phones and tablets",
-      "Storage drawer for linens or guest room items",
-      "42 ratings gives a reasonably established track record",
+      "Storage drawer for linens or guest room items"
     ],
     cons: [
       "No desk or work surface confirmed on this listing",
       "6-inch tri-fold mattress is thinner than a standard murphy mattress",
-      "Better suited to occasional guest use than nightly sleeping long-term",
+      "Better suited to occasional guest use than nightly sleeping long-term"
     ],
     bestFor: "Buyers who want storage and charging in a murphy bed but don't specifically need a desk",
   },
@@ -110,29 +108,27 @@ export const products: GuideProduct[] = [
     badge: "Most Affordable Cabinet Bed",
     name: "LUXOAK Full Murphy Cabinet Bed with Storage & Charging Station",
     price: "$429.99",
-    rating: "4.3 stars from 340 Amazon ratings",
-    reviews: "340 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41OSDWSbyZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G1C4H842?tag=deskfinds0d-20",
     description:
-      "The full-size LUXOAK cabinet bed is the least expensive pick in this guide and carries the largest review base at 340 ratings, which makes it a low-risk pick for storage and charging. Its listing states storage and a charging station only, with no mention of a fold-down desk or work surface, so this is not a desk pick despite sitting in the same product category as ones that are.\n\nIf a desk matters to you, choose the Merax, Softa, KEIKI, or MERITLINE picks above and below instead, or verify directly with the seller before buying this one expecting a work surface. As a straightforward space-saving full-size bed with storage, it's a solid budget option for a guest room that doesn't double as an office.\n\nLargest review count, 340 ratings, for buyer confidence. On the other hand, no desk or work surface confirmed on this listing. Neither should be a surprise once you know to look for it.",
+      "Its listing states storage and a charging station only, with no mention of a fold-down desk or work surface, so this is not a desk pick despite sitting in the same product category as ones that are.\n\nIf a desk matters to you, choose the Merax, Softa, KEIKI, or MERITLINE picks above and below instead, or verify directly with the seller before buying this one expecting a work surface. As a straightforward space-saving full-size bed with storage, it's a solid budget option for a guest room that doesn't double as an office.\n\nOn the other hand, no desk or work surface confirmed on this listing. Neither should be a surprise once you know to look for it.",
     specs: [
       "Full size murphy cabinet bed with storage",
       "Built-in charging station",
       "Lowest price in this guide",
-      "340 Amazon ratings",
-      "No desk or work surface stated on the listing",
+      "No desk or work surface stated on the listing"
     ],
     pros: [
       "Lowest price of the 8 picks in this guide",
-      "Largest review count, 340 ratings, for buyer confidence",
       "Charging station included",
-      "Compact full-size footprint fits smaller rooms",
+      "Compact full-size footprint fits smaller rooms"
     ],
     cons: [
       "No desk or work surface confirmed on this listing",
       "Full size sleeps two less comfortably than a queen",
-      "Storage is more limited than the drawer-and-shelf combo on the Merax",
+      "Storage is more limited than the drawer-and-shelf combo on the Merax"
     ],
     bestFor: "Budget buyers who want a well-reviewed murphy bed with storage and don't need a desk",
   },
@@ -142,29 +138,27 @@ export const products: GuideProduct[] = [
     badge: "Best Storage-Focused Murphy Bed",
     name: "AMERLIFE Queen Murphy Bed with Storage & Charging Station",
     price: "$499.99",
-    rating: "4.2 stars from 396 Amazon ratings",
-    reviews: "396 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51Og-FctXuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGL5B76J?tag=deskfinds0d-20",
     description:
-      "This AMERLIFE queen murphy bed lists storage and a charging station as its main features, with no mention of a fold-down desk or work surface anywhere on the listing. With 396 ratings at a solid 4.2 stars, it's one of the more established listings in this guide for buyers who just want a reliable space-saving bed.\n\nIf a desk is a requirement rather than a nice-to-have, this is not the pick, choose the Merax, Softa, KEIKI, or MERITLINE options instead or confirm with the seller directly before ordering. As a queen-size storage bed on its own merits, it's a dependable choice for a guest room that stays a guest room.\n\nCharging station built in. That's a real strength, but weigh it against the flip side: no desk or work surface confirmed on this listing.",
+      "This AMERLIFE queen murphy bed lists storage and a charging station as its main features, with no mention of a fold-down desk or work surface anywhere on the listing.\n\nIf a desk is a requirement rather than a nice-to-have, this is not the pick, choose the Merax, Softa, KEIKI, or MERITLINE options instead or confirm with the seller directly before ordering. As a queen-size storage bed on its own merits, it's a dependable choice for a guest room that stays a guest room.\n\nCharging station built in. That's a real strength, but weigh it against the flip side: no desk or work surface confirmed on this listing.",
     specs: [
       "Queen size murphy bed with storage",
       "Built-in charging station",
-      "396 Amazon ratings at 4.2 stars",
       "Space-saving wall bed design",
-      "No desk or work surface stated on the listing",
+      "No desk or work surface stated on the listing"
     ],
     pros: [
-      "Large, established review base of 396 ratings",
       "Charging station built in",
       "Queen size sleeps two comfortably",
-      "Consistent rating with the other AMERLIFE listing in this guide",
+      "Consistent rating with the other AMERLIFE listing in this guide"
     ],
     cons: [
       "No desk or work surface confirmed on this listing",
       "No mattress included based on listing details",
-      "Not a fit if a desk is a must-have feature",
+      "Not a fit if a desk is a must-have feature"
     ],
     bestFor: "Buyers who want a well-reviewed queen murphy bed with storage and charging, no desk needed",
   },
@@ -174,29 +168,29 @@ export const products: GuideProduct[] = [
     badge: "Alternate Listing, Storage-Focused",
     name: "AMERLIFE Queen Murphy Bed with Storage & Charging Station",
     price: "$469.99",
-    rating: "4.2 stars from 396 Amazon ratings",
-    reviews: "396 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51ThmQNX7fL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJKJQ9SH?tag=deskfinds0d-20",
     description:
-      "This is a second AMERLIFE queen murphy bed listing, sharing the same storage and charging station feature set and the same 4.2 star, 396-rating profile as the other AMERLIFE pick in this guide, just at a slightly lower price. Like its counterpart, the listing does not mention a fold-down desk or work surface.\n\nBuyers who specifically need a desk should look at the Merax, Softa, KEIKI, or MERITLINE picks in this guide instead, or verify with the seller before buying. Between the two AMERLIFE listings, this one is worth checking first purely on price, though stock and exact configuration can vary between duplicate listings from the same seller.\n\nWorth calling out specifically: same established 396-rating track record. The catch is no desk or work surface confirmed on this listing.",
+      "Like its counterpart, the listing does not mention a fold-down desk or work surface.\n\nBuyers who specifically need a desk should look at the Merax, Softa, KEIKI, or MERITLINE picks in this guide instead, or verify with the seller before buying. Between the two AMERLIFE listings, this one is worth checking first purely on price, though stock and exact configuration can vary between duplicate listings from the same seller.\n\nWorth calling out specifically: same established 396-rating track record. The catch is no desk or work surface confirmed on this listing.",
     specs: [
       "Queen size murphy bed with storage",
       "Built-in charging station",
       "Slightly lower price than the other AMERLIFE listing",
       "Space-saving wall bed design",
-      "No desk or work surface stated on the listing",
+      "No desk or work surface stated on the listing"
     ],
     pros: [
       "Lower price than the equivalent AMERLIFE listing above",
       "Same established 396-rating track record",
       "Charging station built in",
-      "Queen size sleeps two comfortably",
+      "Queen size sleeps two comfortably"
     ],
     cons: [
       "No desk or work surface confirmed on this listing",
       "Nearly identical to the other AMERLIFE pick, worth comparing stock and seller before choosing",
-      "Not a fit if a desk is a must-have feature",
+      "Not a fit if a desk is a must-have feature"
     ],
     bestFor: "Price-conscious buyers comparing between the two AMERLIFE storage murphy bed listings",
   },
@@ -217,18 +211,18 @@ export const products: GuideProduct[] = [
       "1200 lb heavy duty wood frame rating",
       "Storage drawer and charging station",
       "No box spring required",
-      "5 stars from only 1 Amazon rating",
+      "5 stars from only 1 Amazon rating"
     ],
     pros: [
       "Desk feature confirmed directly on the listing",
       "High 1200 lb weight rating for frame stability",
       "Charging station and storage drawer included",
-      "No box spring needed, simpler setup",
+      "No box spring needed, simpler setup"
     ],
     cons: [
       "Only 1 Amazon rating at time of writing",
       "Limited real-world feedback to verify desk quality",
-      "5-star rating is not statistically meaningful with this sample size",
+      "5-star rating is not statistically meaningful with this sample size"
     ],
     bestFor: "Buyers who want a confirmed desk and a heavy-duty frame, and are comfortable with a new, lightly reviewed listing",
   },
@@ -249,18 +243,18 @@ export const products: GuideProduct[] = [
       "Gas strut fold mechanism",
       "Space-saving hidden bed frame design",
       "White wood finish",
-      "New listing with no ratings yet",
+      "New listing with no ratings yet"
     ],
     pros: [
       "Desk feature confirmed directly on the listing",
       "Gas struts typically mean a smoother fold-down motion",
       "Compact enough for a small apartment",
-      "Neutral white finish fits most room styles",
+      "Neutral white finish fits most room styles"
     ],
     cons: [
       "No Amazon ratings yet to verify real-world performance",
       "No stated weight capacity to compare against the Softa pick",
-      "Newer listing means less buyer feedback overall",
+      "Newer listing means less buyer feedback overall"
     ],
     bestFor: "Buyers who want a confirmed desk with a gas-strut fold mechanism and don't mind buying a brand-new listing",
   },
@@ -270,32 +264,30 @@ export const products: GuideProduct[] = [
     badge: "Confirmed Desk, Best for Full Size",
     name: "MERITLINE Full Murphy Bed with Desk and Storage Shelves, Wood Hideaway Murphy Wall Bed with Storage Bookcase for Adults (Grey, Full)",
     price: "See price on Amazon",
-    rating: "4.2 stars from 4 Amazon ratings",
-    reviews: "4 ratings, based on a small number of early ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/410wj4ur4iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FL6TKLRZ?tag=deskfinds0d-20",
     description:
-      "MERITLINE's full-size murphy bed states a desk directly on the listing and adds storage shelves built into a bookcase-style cabinet, which gives it more shelving than most desk-equipped cabinet beds in this guide. The grey finish and full-size footprint suit a smaller guest room or home office better than a queen would.\n\nIts 4.2 star rating is based on only 4 Amazon ratings, so treat it as an early signal. Pricing was not consistently listed at the time of research, so confirm the current price directly on Amazon before comparing it against the other picks here.\n\nBookcase-style shelving adds more storage than most desk picks here. On the other hand, price was not consistently listed, confirm on Amazon before buying. Neither should be a surprise once you know to look for it.",
+      "MERITLINE's full-size murphy bed states a desk directly on the listing and adds storage shelves built into a bookcase-style cabinet, which gives it more shelving than most desk-equipped cabinet beds in this guide. The grey finish and full-size footprint suit a smaller guest room or home office better than a queen would.\n\nPricing was not consistently listed at the time of research, so confirm the current price directly on Amazon before comparing it against the other picks here.\n\nBookcase-style shelving adds more storage than most desk picks here. On the other hand, price was not consistently listed, confirm on Amazon before buying. Neither should be a surprise once you know to look for it.",
     specs: [
       "Full size murphy bed with fold-down desk",
       "Storage shelves in a bookcase-style cabinet",
       "Grey wood finish",
-      "Compact footprint versus queen-size picks",
-      "4.2 stars from 4 Amazon ratings",
+      "Compact footprint versus queen-size picks"
     ],
     pros: [
       "Desk feature confirmed directly on the listing",
       "Bookcase-style shelving adds more storage than most desk picks here",
       "Full size suits smaller rooms than a queen",
-      "Grey finish is a distinct look from the other picks",
+      "Grey finish is a distinct look from the other picks"
     ],
     cons: [
       "Price was not consistently listed, confirm on Amazon before buying",
-      "Only 4 Amazon ratings at time of writing",
-      "Full size sleeps two less comfortably than a queen",
+      "Full size sleeps two less comfortably than a queen"
     ],
     bestFor: "Buyers who want a confirmed desk and extra shelving in a smaller full-size footprint",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -319,12 +311,8 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Space efficiency and fold-down clearance",
     description: "Considered how much clear floor space each queen or full-size unit needs when unfolded, since a queen cabinet bed typically needs 80 to 90 inches of open floor in front of it to deploy safely.",
-  },
-  {
-    title: "Value for money and review history",
-    description: "Weighed price against review count and rating, distinguishing well-established listings like the 340 to 396-rating LUXOAK and AMERLIFE picks from newer, lightly reviewed listings with 1 to 4 ratings or none yet.",
-  },
-];
+  }
+  ];
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
@@ -477,11 +465,11 @@ export const faq: FaqItem[] = [
   {
     q: "Why are two of the picks in this guide nearly identical AMERLIFE listings?",
     a: "They're separate Amazon listings for what appears to be the same core product, at slightly different prices. We included both because pricing and stock availability can shift between duplicate listings from the same seller, so it's worth comparing both before ordering.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-murphy-beds-with-desks", title: "Best Murphy Beds with Desks (2026)" },
   { href: "/guide/best-murphy-beds-for-home-offices", title: "Best Murphy Beds for Home Offices (2026)" },
-  { href: "/guide/best-filing-cabinets-for-small-spaces", title: "Best Filing Cabinets for Small Spaces (2026)" },
+  { href: "/guide/best-filing-cabinets-for-small-spaces", title: "Best Filing Cabinets for Small Spaces (2026)" }
 ];

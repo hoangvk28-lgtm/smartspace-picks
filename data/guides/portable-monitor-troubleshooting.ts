@@ -12,7 +12,7 @@ export const portableMonitorTroubleshootingGuide: Guide = {
     "portable monitor not detected fix",
     "portable monitor flickering fix",
     "insufficient power portable monitor",
-    "portable monitor single cable not working",
+    "portable monitor single cable not working"
   ],
   heroImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const portableMonitorTroubleshootingGuide: Guide = {
     "portable-monitor-power-requirements",
     "portable-monitor-vs-laptop-screen-extender",
     "portable-monitor-stand-options",
-    "usb-c-power-delivery-explained",
+    "usb-c-power-delivery-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const portableMonitorTroubleshootingGuide: Guide = {
       question: "Why does my portable monitor's touch function (if equipped) not work reliably?",
       answer:
         "Touch functionality typically requires both video and a separate data connection (sometimes a second cable) to register touch input correctly, confirm both connections are properly made if your specific portable monitor model requires this dual-cable setup for touch support.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ export const portableMonitorTroubleshootingGuide: Guide = {
     {
       heading: "Why Marginal Power Situations Create Confusing Intermittent Behavior",
       body: `When a laptop's USB-C port provides power delivery right at the edge of what a portable monitor needs for combined video and power operation, small fluctuations in the monitor's actual power draw, like brief spikes when adjusting brightness or waking from sleep, can occasionally push the total demand just over what the port can reliably supply, causing intermittent, hard-to-diagnose flickering or disconnection that doesn't happen consistently, this marginal power situation is frustrating specifically because it doesn't fail completely or work perfectly, recognizing this pattern and switching to a separately powered connection for the monitor removes this power ceiling entirely and typically resolves the inconsistent behavior.`,
-    },
+    }
   ],
 };

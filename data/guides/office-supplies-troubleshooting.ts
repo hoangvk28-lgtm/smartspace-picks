@@ -12,7 +12,7 @@ export const officeSuppliesTroubleshootingGuide: Guide = {
     "stapler jammed fix",
     "pen dried out fix",
     "paper shredder jam fix",
-    "label maker not printing fix",
+    "label maker not printing fix"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const officeSuppliesTroubleshootingGuide: Guide = {
     "stapler-types-explained",
     "paper-shredder-security-levels-explained",
     "gel-vs-ballpoint-pen-explained",
-    "label-maker-worth-it-explained",
+    "label-maker-worth-it-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const officeSuppliesTroubleshootingGuide: Guide = {
       question: "Should I try to fix a jammed shredder myself or is it dangerous?",
       answer:
         "Always unplug or power off a shredder before attempting to clear a jam, most manufacturers include a reverse function specifically for clearing jams safely, check your model's manual for this feature rather than attempting to manually pull jammed paper from an active mechanism.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const officeSuppliesTroubleshootingGuide: Guide = {
     {
       heading: "Why a Dried-Out Pen Isn't Always Actually Empty",
       body: `A pen that suddenly stops writing despite feeling like it should still have ink remaining often has simply dried ink at the very tip of the ballpoint or gel mechanism, rather than a genuinely empty cartridge, this can happen from extended periods of non-use or exposure to air, vigorous scribbling on scrap paper frequently dislodges this dried plug and restores normal ink flow, worth trying before assuming the pen needs to be discarded and replaced.`,
-    },
+    }
   ],
 };

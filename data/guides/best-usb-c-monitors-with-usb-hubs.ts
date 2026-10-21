@@ -5,7 +5,7 @@ export const metaDescription = "5 USB-C monitors with built-in USB hubs we evalu
 export const mainKeyword = "usb-c monitor with usb hub";
 export const introParagraphs = [
   "A monitor's built-in USB hub shares total bandwidth across every connected device, worth checking the hub's actual USB standard (USB 3.0 vs 3.2 vs 2.0 ports) since a fast external SSD plugged into a bandwidth-limited hub port won't hit its rated speed.",
-  "Port count matters less than port placement and type, a hub with four ports crammed together can be harder to use with bulky USB dongles than a monitor with fewer but better-spaced ports.",
+  "Port count matters less than port placement and type, a hub with four ports crammed together can be harder to use with bulky USB dongles than a monitor with fewer but better-spaced ports."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     badge: "Best USB-C Docking Monitor with Hub Overall",
     name: "ASUS 24\" USB-C Docking Monitor (BE249CGN) - IPS, 120Hz, Frameless, RJ45, Speakers, Height Adjustable",
     price: "$188.96",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41LA4JXX5oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FWHF97TT?tag=deskfinds0d-20",
@@ -42,7 +42,7 @@ export const products: GuideProduct[] = [
     badge: "Best Value KVM Dock with Monitor Hub Pairing",
     name: "AV Access iDock P10 KVM Docking Station 2 Monitors 2 PC, GbE, EDID, 65W PD",
     price: "$179.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41Du+XSAPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCXN5P3T?tag=deskfinds0d-20",
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     badge: "Best QHD Monitor Pick for Hub-Style Setups",
     name: "Dell 27 Plus QHD USB-C Monitor - S2725DC - 27-inch QHD (2560x1440) 144Hz Display",
     price: "$249.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41uYhQ+-HGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GD21577Z?tag=deskfinds0d-20",
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     badge: "Best Standalone Hub Pairing Pick",
     name: "Anker Laptop Docking Station Dual Monitor, 8-in-1 USB C Hub with 4K HDMI",
     price: "$39.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41jaFGKHJgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874M3KW4?tag=deskfinds0d-20",
@@ -93,7 +93,7 @@ export const products: GuideProduct[] = [
     badge: "Best Docking Hub for Laptop and Desktop Pairing",
     name: "AV Access Dual Monitor KVM Docking Station for Laptop & Desktop (iDock C10)",
     price: "$225.61",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31KfwfvqAqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CW2JGRN4?tag=deskfinds0d-20",
@@ -103,7 +103,7 @@ export const products: GuideProduct[] = [
     pros: ["Dual monitor KVM switching between laptop and desktop", "Robust hub port selection for peripherals", "Works with any monitor pair rather than being locked to one panel", "Genuinely useful for hybrid laptop-desktop workflows"],
     cons: ["Higher price than a simple standalone hub", "Requires separate monitors, not all-in-one", "More complex setup than a monitor with a built-in hub"],
     bestFor: "Buyers running both a laptop and desktop who want dual-monitor hub and KVM switching together",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -111,7 +111,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Actual USB standard on hub ports checked, not assumed", description: "Checked whether hub ports are actually USB 3.0-class or slower, since bandwidth-limited ports can bottleneck a fast external SSD regardless of headline port count." },
   { title: "Port count weighed against real-world spacing and usability", description: "Weighed port count against actual spacing and placement, since crammed ports can be harder to use with bulky USB dongles than fewer, better-spaced ports." },
   { title: "All-in-one docking monitor versus standalone hub pairing considered", description: "Considered both all-in-one docking monitors and standalone hub-plus-monitor pairings as valid approaches depending on a buyer's existing monitor setup." },
-  { title: "Total shared bandwidth across connected devices flagged", description: "Flagged that a hub's total bandwidth is shared across every connected device, which matters when multiple high-bandwidth peripherals are used simultaneously." },
+  { title: "Total shared bandwidth across connected devices flagged", description: "Flagged that a hub's total bandwidth is shared across every connected device, which matters when multiple high-bandwidth peripherals are used simultaneously." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -240,11 +240,11 @@ export const faq: FaqItem[] = [
   { q: "Should I buy an all-in-one docking monitor or a separate hub?", a: "An all-in-one is simpler to set up, a separate hub gives flexibility to pair with any monitor, choose based on whether you already have a monitor you like." },
   { q: "Can I run multiple fast peripherals through one monitor's USB hub at once?", a: "You can, but total bandwidth is shared across all connected devices, which can bottleneck performance if you're running several high-bandwidth peripherals simultaneously." },
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers wanting a genuine docking-station-style monitor with wired Ethernet and USB hub" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting a flexible standalone hub paired with any monitor At $39.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting a flexible standalone hub paired with any monitor At under $40, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-usb-c-docking-monitors", title: "Best USB-C Docking Monitors (2026)" },
   { href: "/guide/best-usb-c-monitors-with-power-delivery", title: "Best USB-C Monitors with Power Delivery (2026)" },
-  { href: "/guide/best-usb-c-monitors-with-kvm-switches", title: "Best USB-C Monitors with KVM Switches (2026)" },
+  { href: "/guide/best-usb-c-monitors-with-kvm-switches", title: "Best USB-C Monitors with KVM Switches (2026)" }
 ];

@@ -29,7 +29,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0GX3K1CBS?tag=deskfinds0d-20",
     description: "This extender's listing specifically states a maximum speed of 1000Mbps for fast and stable data transmission, ensuring smooth video streaming across its 1 in 3 out design that powers three devices from a single PoE source. Its compact size fits into tight installation spaces while supporting both wall and DIN-rail mounting.\n\nCompared to the Davuaz and TRENDnet picks below, this one's ability to power three separate devices at full Gigabit speed from one unit, rather than just one or two, delivers meaningfully more Gigabit-rated connectivity per dollar for a multi-device installation.\n\nBest for buyers who want full Gigabit speed across three powered devices at the lowest price in this comparison.",
     specs: ["1 in 3 out, full 1000Mbps Gigabit speed", "IEEE 802.3af/at, 100m (328ft) extension", "Wall and DIN-rail mount, compact design"],
-    pros: ["Lowest price in this comparison at $22.09", "Powers three devices simultaneously at full Gigabit speed", "Compact design fits into tight installation spaces"],
+    pros: ["Lowest price in this comparison at under $25", "Powers three devices simultaneously at full Gigabit speed", "Compact design fits into tight installation spaces"],
     cons: ["No outdoor waterproof rating unlike some competing extenders", "Standard per-port wattage, no dedicated high-power port"],
     bestFor: "buyers who want full Gigabit speed across three powered devices at the lowest price",
   },
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0GFTLQLVR?tag=deskfinds0d-20",
     description: "This extender's listing specifically states a 90W total input power split across four output ports at full 1000Mbps Gigabit speed, with port 2 reaching a dedicated 60W and ports 3 through 5 delivering 30W each, letting it power one higher-wattage device alongside three standard ones at Gigabit speed throughout. Its worry-free guarantee specifically promises a hassle-free refund or replacement within 24 hours if any problem arises.\n\nCompared to the VIMIN pick above, this one's dedicated 60W high-power port makes it better suited for a PTZ camera or similar demanding device that needs more than standard PoE wattage, all while maintaining full Gigabit throughput.\n\nBest for buyers who need to power one higher-wattage device alongside standard ones, all at full Gigabit speed.",
     specs: ["1 in 4 out, one 60W port + three 30W ports, all Gigabit", "90W total input, IEEE 802.3af/at", "24-hour refund/replacement guarantee"],
-    pros: ["Lowest price in this comparison at $19.99", "Dedicated 60W port maintains Gigabit speed for a higher-power device", "24-hour worry-free guarantee for any product issue"],
+    pros: ["Lowest price in this comparison at under $20", "Dedicated 60W port maintains Gigabit speed for a higher-power device", "24-hour worry-free guarantee for any product issue"],
     cons: ["No outdoor waterproof rating for exposed installations", "Total 90W input is shared across all four ports simultaneously"],
     bestFor: "buyers who need to power one higher-wattage device alongside standard ones at full Gigabit speed",
   },
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Full Gigabit speed across three powered devices at the lowest price", "VIMIN 4-Port Gigabit PoE Extender"],
         ["A dedicated high-power port while maintaining Gigabit speed", "Davuaz PoE Gigabit Extender, 1 in 4 Out"],
         ["The longest warranty and established brand support", "TRENDnet Gigabit PoE+ Extender (TPE-E100)"],
-        ["Zero local power with full Gigabit speed", "Gigabit PoE Passthrough Switch, 1 in 3 Out Extender"],
+        ["Zero local power with full Gigabit speed", "Gigabit PoE Passthrough Switch, 1 in 3 Out Extender"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $20", "Davuaz PoE Gigabit Extender ($19.99)"],
-        ["Under $23", "VIMIN 4-Port Gigabit Extender ($22.09)"],
-        ["Under $30", "Gigabit PoE Passthrough Switch ($29.99)"],
-        ["Under $39", "TRENDnet TPE-E100 ($38.01)"],
+        ["Under $20", "Davuaz PoE Gigabit Extender (under $20)"],
+        ["Under $23", "VIMIN 4-Port Gigabit Extender (under $25)"],
+        ["Under $30", "Gigabit PoE Passthrough Switch (under $30)"],
+        ["Under $39", "TRENDnet TPE-E100 (under $40)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Budget Value vs Established Brand Warranty",
     cards: [
       { label: "Budget value (VIMIN, Davuaz)", text: "Both deliver full Gigabit speed and multi-device power at under $23, ideal for a straightforward home or small-business installation without extended warranty needs." },
-      { label: "Established brand warranty (TRENDnet)", text: "A 3-year manufacturer warranty and NDAA compliance target buyers who want institutional-grade backing, at a meaningfully higher price than the budget picks." },
+      { label: "Established brand warranty (TRENDnet)", text: "A 3-year manufacturer warranty and NDAA compliance target buyers who want institutional-grade backing, at a meaningfully higher price than the budget picks." }
     ],
     note: "If you want strong Gigabit performance at the lowest cost, the VIMIN or Davuaz picks deliver that well. If long-term warranty coverage or government compliance matters, the TRENDnet pick's higher price is worth it for those specific needs.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["Standard PoE devices at 30W or less", "VIMIN 4-Port Gigabit PoE Extender"],
         ["A higher-power device like a PTZ camera", "Davuaz PoE Gigabit Extender, 1 in 4 Out"],
-        ["No local power outlet available at all", "Gigabit PoE Passthrough Switch, 1 in 3 Out Extender"],
+        ["No local power outlet available at all", "Gigabit PoE Passthrough Switch, 1 in 3 Out Extender"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For a Multi-Camera Installation Needing Full Bandwidth Specifically",
     cards: [
       { label: "Look for", text: "An extender that maintains full Gigabit speed across all its ports simultaneously, not just a single port, since modern 4K cameras benefit from more than the 100Mbps ceiling of Fast Ethernet extenders." },
-      { label: "In this comparison", text: "The VIMIN pick specifically maintains full Gigabit speed across three simultaneously powered devices, making it a strong fit for a multi-camera installation needing full bandwidth throughout." },
+      { label: "In this comparison", text: "The VIMIN pick specifically maintains full Gigabit speed across three simultaneously powered devices, making it a strong fit for a multi-camera installation needing full bandwidth throughout." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want the longest warranty and established brand support for institutional or long-term infrastructure use, where the TRENDnet pick's $38.01 price is justified by its 3-year coverage." },
-      { label: "Save if", text: "You want full Gigabit speed with a dedicated high-power port for a demanding device, where the Davuaz pick delivers that for $19.99, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You want the longest warranty and established brand support for institutional or long-term infrastructure use, where the TRENDnet pick's under $40 price is justified by its 3-year coverage." },
+      { label: "Save if", text: "You want full Gigabit speed with a dedicated high-power port for a demanding device, where the Davuaz pick delivers that for under $20, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

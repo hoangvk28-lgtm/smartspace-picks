@@ -5,7 +5,7 @@ export const metaDescription = "4 portable SSDs we evaluated for Mac and MacBook
 export const mainKeyword = "best portable ssd for mac";
 export const introParagraphs = [
   "Most portable SSDs ship pre-formatted in NTFS or exFAT, Windows-oriented formats, so Mac buyers who specifically want to use a drive for Time Machine backups will typically need to reformat it to APFS first through Disk Utility.",
-  "Time Machine backups benefit more from sustained write consistency over time than from a drive's peak burst speed, worth weighing reviews that specifically discuss long-term backup reliability rather than just headline transfer numbers.",
+  "Time Machine backups benefit more from sustained write consistency over time than from a drive's peak burst speed, worth weighing reviews that specifically discuss long-term backup reliability rather than just headline transfer numbers."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Pick for Mac",
     name: "Samsung T7 Shield Portable SSD 1TB, USB 3.2 Gen 2, Up to 1,050 MB/s",
     price: "$286.88",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "16,380 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21mARCvUWxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VLK9W3S?tag=deskfinds0d-20",
     description: "Samsung's T7 Shield pairs a rugged shell with genuine 1050MB/s USB 3.2 Gen 2 speed, a reliable everyday companion for MacBook users who want durability alongside solid transfer performance.\n\nIt earns the top spot in this comparison over Corsair EX400U Survivor 1TB USB4 External SSD for one main reason. Rugged shell suits MacBook users on the go. On price, it's actually priced above Corsair EX400U Survivor 1TB USB4 External SSD, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Reliable, well-reviewed platform. On the other side, Sustained speed can dip once cache fills. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Fast USB4 Pick for Mac",
     name: "Corsair EX400U Survivor 1TB USB4 External SSD - Up to 4000 MB/s, IP55 Rugged Drive, Plug & Play for PC, Mac & iPad - Black",
     price: "$238.58",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "60 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21K3rg5MWlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVMGFPHT?tag=deskfinds0d-20",
     description: "Corsair's EX400U Survivor uses a genuine USB4 bridge rated up to 4000MB/s, a speed tier that MacBooks with Thunderbolt or USB4 ports can genuinely take advantage of.\n\nOne spot below Samsung T7 Shield Portable SSD 1TB in this ranking, it's priced lower than Samsung T7 Shield Portable SSD 1TB. The compromise here is straightforward: Needs a genuine Thunderbolt or USB4 MacBook port to matter. What you gain in return: Genuinely fast USB4 speed for Thunderbolt-equipped MacBooks. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: IP55 rating adds real everyday durability. On the other side, Requires APFS reformatting for native Time Machine use. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Slim Everyday Pick for Mac",
     name: "Samsung T7 Portable SSD 1TB Titan Gray, USB 3.2 Gen 2, Up to 1,050MB/s",
     price: "$216.36",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "21,124 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LdvAbumfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874XN4D8?tag=deskfinds0d-20",
     description: "The standard Samsung T7 offers the same 1050MB/s USB 3.2 Gen 2 speed as the Shield in a slimmer, lighter body better suited to minimalist MacBook setups.\n\nSitting just under Corsair EX400U Survivor 1TB USB4 External SSD, it's priced lower than Corsair EX400U Survivor 1TB USB4 External SSD. Here's the honest tradeoff: No official IP rating. And here's what it gets you instead: Slim, lightweight design pairs well with a MacBook. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Reliable, widely reviewed platform. On the other side, 1050MB/s ceiling is not the fastest tier available. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Speed Pick for Video Work on Mac",
     name: "Crucial X10 1TB Portable SSD, Up to 2,100MB/s, USB 3.2 USB-C, Durable Storage for Games, Photos & Files, Blue",
     price: "$207.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "2,363 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/312gFk3+1CL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F3377JBN?tag=deskfinds0d-20",
     description: "Crucial's X10 rates up to 2100MB/s over USB 3.2, a genuine step up for MacBook users doing video work who do not have a Thunderbolt or USB4 port.\n\nRanked just behind Samsung T7 Portable SSD 1TB Titan Gray, it's priced lower than Samsung T7 Portable SSD 1TB Titan Gray. The real tradeoff against that pick: Needs a matching high-speed MacBook port to hit rated speed. In exchange, it offers this instead: Faster rated bridge than standard Gen 2 drives. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Durable casing for mobile MacBook use. On the other side, Ships pre-formatted for Windows, needs APFS reformatting. That's the main tradeoff to weigh against everything above.",

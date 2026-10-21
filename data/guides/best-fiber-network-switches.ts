@@ -113,15 +113,15 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $52.67",
+          "Under $60",
           "Estink SFP Fiber Optic Switch"
         ],
         [
-          "Around $57.99",
+          "Under $60",
           "TRENDnet TEG-S562 6-Port Multi-Gig Switch"
         ],
         [
-          "Around $64.99",
+          "Under $70",
           "TRENDnet TFC-G22SFP 4-Port Gigabit + SFP Switch"
         ]
       ]
@@ -176,10 +176,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "Estink SFP Fiber Optic Switch is aimed at buyers prioritizing 4 sfp + 2 rj45 ports, up to 120km range, at $52.67."
+        "text": "Estink SFP Fiber Optic Switch is aimed at buyers prioritizing 4 sfp + 2 rj45 ports, up to 120km range, at under $60."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -216,10 +216,10 @@ export const faq = [
   }
 ,
   { "q": "What's the single best pick to come out of this comparison?", a: "Estink SFP Fiber Optic Switch is aimed at buyers prioritizing 4 sfp + 2 rj45 ports, up to 120km range." },
-  { q: "Which pick offers the best value for a tight budget?", a: "Estink SFP Fiber Optic Switch is aimed at buyers prioritizing 4 sfp + 2 rj45 ports, up to 120km range, and at $52.67 it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $52.67 to $64.99, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Estink SFP Fiber Optic Switch is aimed at buyers prioritizing 4 sfp + 2 rj45 ports, up to 120km range, and at under $60 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $60 to $70, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
   { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "TRENDnet TFC-G22SFP 4-Port Gigabit + SFP Switch is aimed at buyers prioritizing 2 gigabit rj45 + 2 gigabit sfp. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
-  { q: "How did you narrow down the picks in this comparison?", a: "We compared real specs, stated features, and price against the actual use case each product claims to serve, rather than ranking by price or rating alone." },
+  { q: "How did you narrow down the picks in this comparison?", a: "We compared real specs, stated features, and price against the actual use case each product claims to serve, rather than ranking by price or rating alone." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-sfp-network-switches","title":"6 Best SFP Network Switches in 2026"},{"href":"/guide/best-10gbe-network-switches","title":"7 Best 10GbE Network Switches in 2026"},{"href":"/guide/best-network-switches-with-sfp-ports","title":"best-network-switches-with-sfp-ports"}];

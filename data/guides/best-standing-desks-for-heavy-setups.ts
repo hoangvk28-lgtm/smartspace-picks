@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "best standing desk for heavy setup";
 export const introParagraphs = [
   "A listed weight capacity tells you how much a standing desk can hold while sitting still at its lowest height, not how it behaves once you raise it to standing height with two monitors, a dual-PC setup, or a heavy monitor arm mounted off to one side. That distinction between static capacity and dynamic stability at full extension matters more for a heavy setup than the number on the spec sheet, since a desk rated for 200 lbs can still flex or sway at 45 inches with an unevenly loaded top.",
-  "This guide focuses on desks built to handle genuinely heavy, space-constrained setups rather than a bare laptop and lamp, covering motor configuration, desktop material, and cable management across the full height range these desks travel. Below are 8 desks we researched based on stated capacity, frame design, and buyer feedback, ranging from $94.98 to $169.99.",
+  "This guide focuses on desks built to handle genuinely heavy, space-constrained setups rather than a bare laptop and lamp, covering motor configuration, desktop material, and cable management across the full height range these desks travel. Below are 8 desks we researched based on stated capacity, frame design, and buyer feedback, ranging from roughly $100 to $170."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "11 min";
@@ -46,8 +46,8 @@ export const products: GuideProduct[] = [
     badge: "Largest Desktop for Multi-Monitor Setups",
     name: "SIAGO Black 60x28 in Electric Standing Desk, 1 Inch Thick Tabletop",
     price: "$169.99",
-    rating: "4.7 stars from 277 Amazon ratings",
-    reviews: "4.7 stars from 277 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41GLN4Wv-1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPC7XF5D?tag=deskfinds0d-20",
     description:
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "1 inch thick tabletop",
       "Electric height adjustment",
       "Dual-motor lift",
-      "Black finish",
+      "Black finish"
     ],
     pros: [
       "Largest desktop surface in this list",
       "Thicker top resists sag under monitor arm load",
       "More room to center a heavy monitor arm base",
-      "Dual-motor lift",
+      "Dual-motor lift"
     ],
     cons: [
       "Highest price in this list",
       "Larger footprint needs more room clearance",
-      "Static capacity does not guarantee zero wobble at full height",
+      "Static capacity does not guarantee zero wobble at full height"
     ],
     bestFor: "Heavy dual-monitor or dual-PC setups that need maximum desktop surface",
   },
@@ -78,8 +78,8 @@ export const products: GuideProduct[] = [
     badge: "Best Large Desk Under $110",
     name: "Veken 55 Inch Large Electric Standing Desk, Gaming Table, White",
     price: "$109.99",
-    rating: "4.6 stars from 1,747 Amazon ratings",
-    reviews: "4.6 stars from 1,747 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41k4VBjAQzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWMNPW7D?tag=deskfinds0d-20",
     description:
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Electric height adjustment",
       "Gaming-desk styling",
       "White finish",
-      "Programmable height presets",
+      "Programmable height presets"
     ],
     pros: [
       "Large 55 inch surface at a mid-range price",
       "Highest review count in this list",
       "White finish option",
-      "Height memory presets",
+      "Height memory presets"
     ],
     cons: [
       "Not as deep as the SIAGO for very large monitor arm setups",
       "Off-center loading still requires care regardless of size",
-      "No published dynamic wobble rating",
+      "No published dynamic wobble rating"
     ],
     bestFor: "Buyers who want a large desktop without paying premium pricing",
   },
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Most Reviewed in This List",
     name: "ErGear 48 X 24 Inch Height Adjustable Electric Standing Desk, Black",
     price: "$94.98",
-    rating: "4.5 stars from 11,572 Amazon ratings",
-    reviews: "4.5 stars from 11,572 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/415He+cLvaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B41YH9B6?tag=deskfinds0d-20",
     description:
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Electric height adjustment",
       "Black finish",
       "Compact footprint",
-      "Height memory controller",
+      "Height memory controller"
     ],
     pros: [
       "Largest buyer feedback pool in this list",
       "Lowest price alongside the FEZIBO and Claiks",
       "Compact footprint fits smaller rooms",
-      "Simple black finish",
+      "Simple black finish"
     ],
     cons: [
       "Smaller desktop than the SIAGO or Veken",
       "24 inch depth is tight for a large monitor arm clamp plus keyboard tray",
-      "Static capacity, not dynamic wobble, is what's rated",
+      "Static capacity, not dynamic wobble, is what's rated"
     ],
     bestFor: "Buyers who want the most-reviewed option for a single heavy monitor setup",
   },
@@ -142,8 +142,8 @@ export const products: GuideProduct[] = [
     badge: "Highest Stated Weight Capacity",
     name: "FLEXISPOT EN1 One-Piece Standing Desk, Electric Adjustable with 4 Memory Presets, 176 LBS Capacity",
     price: "$109.97",
-    rating: "4.5 stars from 12,575 Amazon ratings",
-    reviews: "4.5 stars from 12,575 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41fVLrl+dnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08BHPMYGK?tag=deskfinds0d-20",
     description:
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "One-piece frame construction",
       "176 lbs stated capacity",
       "4 memory height presets",
-      "Seamless desktop for dual monitors",
+      "Seamless desktop for dual monitors"
     ],
     pros: [
       "Highest stated weight capacity in this list",
       "One-piece frame for consistent alignment over time",
       "Large buyer feedback pool",
-      "4 memory presets",
+      "4 memory presets"
     ],
     cons: [
       "24 inch depth limits room for very large monitor arms",
       "High static capacity does not by itself guarantee low wobble",
-      "Presets need re-calibration if the desk is moved",
+      "Presets need re-calibration if the desk is moved"
     ],
     bestFor: "Buyers prioritizing the highest published static weight capacity",
   },
@@ -174,8 +174,8 @@ export const products: GuideProduct[] = [
     badge: "Best Splice-Board Value Pick",
     name: "FEZIBO Standing Desk, 48 x 24 Inches Electric Height Adjustable with Splice Board, White Frame/Maple Top",
     price: "$99.99",
-    rating: "4.5 stars from 8,463 Amazon ratings",
-    reviews: "4.5 stars from 8,463 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/418JjdqdnpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8MHPVPH?tag=deskfinds0d-20",
     description:
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Splice-board top construction",
       "Electric height adjustment",
       "White frame, maple-look top",
-      "Height memory controller",
+      "Height memory controller"
     ],
     pros: [
       "Under $100 with a large review base",
       "Lighter white and maple aesthetic option",
       "Suitable for moderate single-monitor heavy loads",
-      "Standard 24 inch depth fits most small rooms",
+      "Standard 24 inch depth fits most small rooms"
     ],
     cons: [
       "Splice-board seam can flex under a centered heavy monitor arm",
       "Not the top choice for true dual-PC heavy setups",
-      "24 inch depth limits large arm clearance",
+      "24 inch depth limits large arm clearance"
     ],
     bestFor: "Buyers who want a budget-friendly desk for a moderately heavy single-monitor setup",
   },
@@ -206,8 +206,8 @@ export const products: GuideProduct[] = [
     badge: "Lowest Price Tied with ErGear",
     name: "Claiks Electric Standing Desk, Adjustable Height, 24x48 Inches with Splice Board, Black Frame/Rustic Brown Top",
     price: "$99.99",
-    rating: "4.4 stars from 5,316 Amazon ratings",
-    reviews: "4.4 stars from 5,316 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41oErF+y4gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BZ7GXM4M?tag=deskfinds0d-20",
     description:
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Splice-board top construction",
       "Electric height adjustment",
       "Black frame, rustic brown top",
-      "Height memory controller",
+      "Height memory controller"
     ],
     pros: [
       "Competitive pricing with the ErGear and FEZIBO",
       "Rustic brown top offers a distinct finish option",
       "Decent review base for a budget desk",
-      "Standard 48 x 24 footprint",
+      "Standard 48 x 24 footprint"
     ],
     cons: [
       "Splice-board seam is a flex point under centered heavy loads",
       "Lower rating than the FLEXISPOT or ErGear",
-      "24 inch depth limits large arm clearance",
+      "24 inch depth limits large arm clearance"
     ],
     bestFor: "Buyers who want a budget splice-board desk with a wood-tone finish",
   },
@@ -238,8 +238,8 @@ export const products: GuideProduct[] = [
     badge: "Deepest Desktop Besides the SIAGO",
     name: "Huuger 55 x 28 Large Electric Standing Desk, 27.6 Inch Deep Desktop with 2 Hooks, 3 Preset Heights",
     price: "$139.99",
-    rating: "4.4 stars from 555 Amazon ratings",
-    reviews: "4.4 stars from 555 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41oHg37v77L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT3Y1X96?tag=deskfinds0d-20",
     description:
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "27.6 inch desktop depth",
       "Electric height adjustment",
       "2 built-in hooks",
-      "3 preset heights",
+      "3 preset heights"
     ],
     pros: [
       "Second-deepest desktop in this list",
       "Extra depth helps center heavy monitor arms",
       "Built-in hooks for side storage",
-      "Mid-range pricing",
+      "Mid-range pricing"
     ],
     cons: [
       "Smaller review base than most picks in this list",
       "Fewer height presets than the FLEXISPOT",
-      "Larger footprint needs more room clearance",
+      "Larger footprint needs more room clearance"
     ],
     bestFor: "Heavy setups that need extra desktop depth without the SIAGO's price",
   },
@@ -270,32 +270,31 @@ export const products: GuideProduct[] = [
     badge: "Best Built-In Power and USB-C",
     name: "Huuger Electric Standing Desk with Power Outlets and USB-C Port, 47 x 24 Inch Height Adjustable Desk",
     price: "$104.99",
-    rating: "4.6 stars from 155 Amazon ratings",
-    reviews: "4.6 stars from 155 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41rUtvN6YIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GS9B1X5X?tag=deskfinds0d-20",
     description:
-      "This Huuger model builds power outlets and a USB-C port directly into the desktop edge, useful for a heavy multi-device setup that would otherwise need a separate power strip and its own cable running up through a grommet. That built-in power strip also means one less item competing for surface space on an already crowded heavy setup.\n\nAt 47 by 24 inches it is the second-smallest desktop in this list, so it suits a single heavy monitor or a compact dual-PC arrangement better than a full dual-monitor-arm rig. Its review count is the smallest here, worth factoring in alongside its strong 4.6 average.\n\nStrong 4.6 average rating. That's a real strength, but weigh it against the flip side: smallest review base in this list.",
+      "This Huuger model builds power outlets and a USB-C port directly into the desktop edge, useful for a heavy multi-device setup that would otherwise need a separate power strip and its own cable running up through a grommet. That built-in power strip also means one less item competing for surface space on an already crowded heavy setup.\n\nAt 47 by 24 inches it is the second-smallest desktop in this list, so it suits a single heavy monitor or a compact dual-PC arrangement better than a full dual-monitor-arm rig.\n\nThat's a real strength, but weigh it against the flip side: smallest review base in this list.",
     specs: [
       "47 x 24 inch desktop",
       "Built-in power outlets",
       "Built-in USB-C port",
       "Electric height adjustment",
-      "Black steel frame",
+      "Black steel frame"
     ],
     pros: [
       "Built-in power and USB-C reduce separate cable clutter",
-      "Strong 4.6 average rating",
       "Compact footprint fits smaller rooms",
-      "Reasonable mid-range price",
+      "Reasonable mid-range price"
     ],
     cons: [
       "Smallest review base in this list",
       "Smaller desktop limits large dual-monitor arm setups",
-      "24 inch depth is tight for centering heavy arm clamps",
+      "24 inch depth is tight for centering heavy arm clamps"
     ],
     bestFor: "Heavy setups that want built-in power and USB-C without running a separate power strip",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -328,7 +327,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Value for price at each capacity and size tier",
     description:
       "Weighed desktop size, depth, and stated capacity against price across the range of price points in this comparison in this list, rather than ranking on price or capacity alone.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -482,11 +481,11 @@ export const faq: FaqItem[] = [
   {
     q: "Which desk in this list is best for a dual-PC setup?",
     a: "The FLEXISPOT EN1 has the highest stated weight capacity in this list at 176 lbs along with a one-piece frame that holds alignment well over time, making it a strong choice for a dual-PC or heavy tower setup. The SIAGO 60x28 is worth considering too if you also need maximum desktop surface for multiple monitors.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-dual-motor-standing-desks", title: "Best Dual-Motor Standing Desks (2026)" },
   { href: "/guide/best-standing-desk-for-dual-monitors", title: "Best Standing Desks for Dual Monitors (2026)" },
-  { href: "/guide/best-standing-desk-with-drawers", title: "Best Standing Desks with Drawers (2026)" },
+  { href: "/guide/best-standing-desk-with-drawers", title: "Best Standing Desks with Drawers (2026)" }
 ];

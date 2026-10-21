@@ -13,7 +13,7 @@ export const deskSizeChartGuide: Guide = {
     "desk width and depth",
     "corner desk size",
     "standing desk height range",
-    "small desk dimensions",
+    "small desk dimensions"
   ],
   heroImage: "https://images.unsplash.com/photo-1741466071728-cc5691bfb535?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1741466071728-cc5691bfb535?q=80&w=800&auto=format&fit=crop",
@@ -25,7 +25,7 @@ export const deskSizeChartGuide: Guide = {
     "best-small-desk-accessories",
     "best-desk-setup-accessories",
     "best-corner-standing-desk",
-    "best-standing-desk-48-inch",
+    "best-standing-desk-48-inch"
   ],
   faq: [
     {
@@ -52,7 +52,7 @@ export const deskSizeChartGuide: Guide = {
       question: "What size desk fits in a small bedroom or dorm room?",
       answer:
         "A desk 30 to 36 inches wide and 18 to 20 inches deep fits most small bedroom and dorm corners while still holding a laptop and basic accessories. Wall-mounted floating desks can go as narrow as 24 inches for extremely tight spaces.",
-    },
+    }
   ],
   sections: [
     {
@@ -96,6 +96,6 @@ The width and depth of a standing desk usually match a standard desk, but the de
 2. **Check depth against your monitor viewing distance.** A monitor typically sits 20-28 inches from your eyes; a desk shallower than 22 inches deep can force the screen closer than that when a monitor stand or arm is added.
 3. **Confirm doorway and hallway clearance** if the desk ships assembled or in large panels, since a desk that fits the room may not fit through the path to get there.
 4. **Leave room for a chair to fully push in and pull out**, typically an additional 36-42 inches of depth behind the desk for comfortable movement.`,
-    },
+    }
   ],
 };

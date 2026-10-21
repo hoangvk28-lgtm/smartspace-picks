@@ -138,7 +138,7 @@ export default async function BestRockingFootrestsUnderDeskPage() {
     about: [
       { "@type": "Thing", name: "Rocking Footrest" },
       { "@type": "Thing", name: "Ergonomics" },
-      { "@type": "Thing", name: "Active Sitting" },
+      { "@type": "Thing", name: "Active Sitting" }
     ],
   };
 
@@ -148,7 +148,7 @@ export default async function BestRockingFootrestsUnderDeskPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Rocking Footrests Under Desk", item: `${SITE_URL}/guide/best-rocking-footrests-under-desk` },
+      { "@type": "ListItem", position: 3, name: "Best Rocking Footrests Under Desk", item: `${SITE_URL}/guide/best-rocking-footrests-under-desk` }
     ],
   };
 
@@ -295,7 +295,7 @@ export default async function BestRockingFootrestsUnderDeskPage() {
               <p className="text-sm text-ink-secondary">
                 <strong className="text-ink">best rocking pick:</strong>{" "}
                 <a href="#strongtek-wood" className="font-bold text-ink hover:text-brand transition-colors">StrongTek Ergonomic Wood Foot Rest</a>
-                 - 3,135 reviews at 4.7 stars, highest-rated rocking footrest.
+                 - Highest-rated rocking footrest.
               </p>
             </div>
             <p className="text-sm text-ink-secondary pl-5">See the full rankings above for all eight picks with pros, cons, and best-for summaries.</p>

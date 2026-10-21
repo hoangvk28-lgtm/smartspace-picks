@@ -175,7 +175,7 @@ export default async function BestStandingDeskWithDrawersPage() {
     about: [
       { "@type": "Thing", name: "Standing Desk with Drawers" },
       { "@type": "Thing", name: "Electric Standing Desk" },
-      { "@type": "Thing", name: "Drawer Desk" },
+      { "@type": "Thing", name: "Drawer Desk" }
     ],
   };
 
@@ -195,7 +195,7 @@ export default async function BestStandingDeskWithDrawersPage() {
         position: 3,
         name: "Best Standing Desks with Drawers",
         item: `${SITE_URL}/guide/best-standing-desk-with-drawers`,
-      },
+      }
     ],
   };
 
@@ -475,7 +475,7 @@ export default async function BestStandingDeskWithDrawersPage() {
                     { height: "Under 5'6\"", desk: "Under 42\"", picks: "All 7 picks" },
                     { height: "5'6\" to 5'11\"", desk: "42\" to 44\"", picks: "All 7 picks" },
                     { height: "6'0\" to 6'2\"", desk: "44\" to 47\"", picks: "All 7 picks" },
-                    { height: "Over 6'2\"", desk: "47\"+ standing height", picks: "Picks 1, 2, 3, 6 (47.6\" ceiling) - verify before ordering" },
+                    { height: "Over 6'2\"", desk: "47\"+ standing height", picks: "Picks 1, 2, 3, 6 (47.6\" ceiling) - verify before ordering" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.height}</td>
@@ -613,7 +613,7 @@ export default async function BestStandingDeskWithDrawersPage() {
                       feature: "Warranty",
                       verify: "Motor and frame warranty years",
                       why: "FlexiSpot 5-year is the benchmark in this category",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.feature}</td>
@@ -641,7 +641,7 @@ export default async function BestStandingDeskWithDrawersPage() {
                   {[
                     { width: "48 inches", fits: "1 large monitor + accessories", use: "Standard home office - most picks on this list" },
                     { width: "55 inches", fits: "Dual monitors or ultrawide + peripherals", use: "Power user / gaming setup - Pick 5 (AODK)" },
-                    { width: "63 inches L-shaped", fits: "Dual monitors + full peripheral spread", use: "Corner room, content creation - Pick 7 (OffiGo)" },
+                    { width: "63 inches L-shaped", fits: "Dual monitors + full peripheral spread", use: "Corner room, content creation - Pick 7 (OffiGo)" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.width}</td>
@@ -697,7 +697,7 @@ export default async function BestStandingDeskWithDrawersPage() {
                 context: "Most review data, best overall value",
                 id: "flexispot-comhar-white",
                 name: "FlexiSpot Comhar White/Maple",
-                verdict: " - 2,600+ reviews, USB charging built in, 5-year warranty.",
+                verdict: " - USB charging built in, 5-year warranty.",
               },
               {
                 context: "Dark walnut aesthetic, same proven platform",
@@ -709,32 +709,32 @@ export default async function BestStandingDeskWithDrawersPage() {
                 context: "Budget pick, near-identical specs",
                 id: "comhoma-48x24",
                 name: "COMHOMA 48x24\"",
-                verdict: " - $20 to $50 less than Comhar, 930+ reviews, anti-collision included.",
+                verdict: " - $20 to $50 less than Comhar, anti-collision included.",
               },
               {
                 context: "All-white setup with monitor riser bundled",
                 id: "gtplayer-white",
                 name: "GTPLAYER White",
-                verdict: " - 4.5 stars, monitor riser and laptop stand bundled, lowest height ceiling.",
+                verdict: " - Monitor riser and laptop stand bundled, lowest height ceiling.",
               },
               {
                 context: "55 inch wide, full feature set",
                 id: "aodk-55-keyboard-tray",
                 name: "AODK 55\" with Keyboard Tray",
-                verdict: " - 4.6 stars, integrated power strip, keyboard tray plus drawer.",
+                verdict: " - Integrated power strip, keyboard tray plus drawer.",
               },
               {
                 context: "ErGear frame reliability, budget price",
                 id: "ergear-48x24",
                 name: "ErGear 48x24\"",
-                verdict: " - 4.6 stars, desk-focused brand, 47.6\" height ceiling.",
+                verdict: " - Desk-focused brand, 47.6\" height ceiling.",
               },
               {
                 context: "Corner setup with L-shaped surface",
                 id: "offigo-63-l-shaped",
                 name: "OffiGo 63\" L-Shaped",
                 verdict: " - only L-shaped pick with built-in drawer, 500+ bought per month.",
-              },
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

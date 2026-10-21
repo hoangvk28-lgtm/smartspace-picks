@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "room divider for home office";
 export const introParagraphs = [
   "A room divider for a home office is usually chosen to create a visual boundary in a shared living space, but it's worth being upfront about what these products can and can't do for sound. Fabric folding screens and curtain-style dividers absorb some sound reflections in the room and reduce echo, which can genuinely help how you sound on a video call, but they do not block sound from traveling between rooms the way a solid wall with mass and an air gap does.",
-  "Below are 8 room dividers we evaluated on stability, floor gap coverage, panel count, and video-call background suitability, ranging from $30.99 to $59.99. Three of the picks below are newer listings without rating data yet, and for those we describe honestly what type of divider they are based on the listing details rather than presenting invented review numbers or acoustic claims the products don't support.",
+  "Below are 8 room dividers we evaluated on stability, floor gap coverage, panel count, and video-call background suitability, ranging from roughly $35 to $60. Three of the picks below are newer listings without rating data yet, and for those we describe honestly what type of divider they are based on the listing details rather than presenting invented review numbers or acoustic claims the products don't support."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "9 min";
@@ -46,8 +46,8 @@ export const products: GuideProduct[] = [
     badge: "Best No-Drill Curtain Divider",
     name: "SUNALLY Room Divider No Drilling Curtain Rod Wall Divider, 4-10ft Adjustable, Freestanding Tension Curtain Stand",
     price: "$39.99",
-    rating: "4.6 stars from 1,499 Amazon ratings",
-    reviews: "1,499 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41uULXHLL1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DFH8C526?tag=deskfinds0d-20",
     description:
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "4-10 ft adjustable height",
       "Freestanding curtain stand",
       "Heavy duty partition curtain fabric",
-      "28-114 inch adjustable width",
+      "28-114 inch adjustable width"
     ],
     pros: [
       "No drilling required, fully freestanding",
       "Widest height range in this list, up to 10 feet",
       "Covers floor to near-ceiling for strong visual privacy",
-      "Strong review volume and rating",
+      "Strong review volume and rating"
     ],
     cons: [
       "Fabric curtain absorbs echo but does not block sound between rooms",
       "Needs floor-to-ceiling clearance to tension properly",
-      "Curtain fabric can sway with airflow or foot traffic",
+      "Curtain fabric can sway with airflow or foot traffic"
     ],
     bestFor: "Buyers who want floor-to-ceiling visual privacy without drilling into walls",
   },
@@ -78,8 +78,8 @@ export const products: GuideProduct[] = [
     badge: "Best Single Large Panel",
     name: "RANTILA Single Large Panel Room Divider, Privacy Screen for Office, 71W x 69.5H",
     price: "$30.99",
-    rating: "4.3 stars from 1,593 Amazon ratings",
-    reviews: "1,593 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/414lHGwu+qL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BMTBSB7R?tag=deskfinds0d-20",
     description:
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Freestanding with stand",
       "Fabric panel construction",
       "Gray color",
-      "Lightweight, portable",
+      "Lightweight, portable"
     ],
     pros: [
       "Simple single-panel design, easy to position",
       "Good size for blocking a desk area from view",
       "Lightweight and portable",
-      "Lower price than most multi-panel screens",
+      "Lower price than most multi-panel screens"
     ],
     cons: [
       "Less self-supporting stability than a zig-zag multi-panel screen",
       "Reduces echo only, does not block sound between rooms",
-      "Single flat panel offers less coverage width than folding screens",
+      "Single flat panel offers less coverage width than folding screens"
     ],
     bestFor: "Buyers who want a simple single-panel backdrop rather than a folding screen",
   },
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best with Lockable Wheels",
     name: "SUNALLY Room Divider 6FT Folding Privacy Screen with Lockable Wheels, 4 Panel, 88 Inch Wide",
     price: "$59.99",
-    rating: "4.2 stars from 555 Amazon ratings",
-    reviews: "555 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/412nDJFwHPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMDTGYK2?tag=deskfinds0d-20",
     description:
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "6 ft tall",
       "Lockable wheels",
       "Fabric panel construction",
-      "Portable, foldable",
+      "Portable, foldable"
     ],
     pros: [
       "Lockable wheels for repositioning and stability",
       "Wide 88 inch coverage across 4 panels",
       "Foldable for storage when not in use",
-      "6 ft height covers most standing sightlines",
+      "6 ft height covers most standing sightlines"
     ],
     cons: [
       "Lower review count than the top curtain and single-panel picks",
       "Fabric construction, echo reduction only, not sound blocking",
-      "Wheeled base adds width versus a fixed-foot screen",
+      "Wheeled base adds width versus a fixed-foot screen"
     ],
     bestFor: "Buyers who want to reposition their divider easily between rooms or work sessions",
   },
@@ -142,8 +142,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget 4-Panel Screen",
     name: "Room Divider 6FT Portable Folding Privacy Screen, Fabric, 4 Panel, 88 Inch, Black",
     price: "$56.99",
-    rating: "4.1 stars from 1,717 Amazon ratings",
-    reviews: "1,717 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31IhKdy8YFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BQMR29TC?tag=deskfinds0d-20",
     description:
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "6 ft tall",
       "Fixed-foot zig-zag stand",
       "Solid black fabric",
-      "Foldable for storage",
+      "Foldable for storage"
     ],
     pros: [
       "Strong review volume for a black 4-panel screen",
       "Solid black color works well as a neutral video call background",
       "Same wide coverage as the pricier lockable-wheel pick",
-      "Foldable for storage",
+      "Foldable for storage"
     ],
     cons: [
       "No lockable wheels, needs proper zig-zag angle to stay stable",
       "Echo reduction only, not sound blocking between rooms",
-      "Slightly lower rating than the curtain and single-panel top picks",
+      "Slightly lower rating than the curtain and single-panel top picks"
     ],
     bestFor: "Buyers who want a wide 4-panel screen with a neutral black video call backdrop",
   },
@@ -174,8 +174,8 @@ export const products: GuideProduct[] = [
     badge: "Best Height-Adjustable Single Panel",
     name: "Room Divider Single Panel, 71W x 71H, Height Adjustable, Fabric Portable Privacy Screen, Black",
     price: "$39.89",
-    rating: "3.9 stars from 170 Amazon ratings",
-    reviews: "170 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/416huFrUlIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DST8SCHS?tag=deskfinds0d-20",
     description:
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Height adjustable",
       "Fabric panel construction",
       "Black color",
-      "Freestanding with stand",
+      "Freestanding with stand"
     ],
     pros: [
       "Height adjustable, more flexible than fixed-height single panels",
       "Nearly square dimensions give broad coverage",
       "Solid black color, neutral video call background",
-      "Lower price point",
+      "Lower price point"
     ],
     cons: [
       "Lowest rating and review count in this list",
       "Single panel needs a stand or furniture to stay stable",
-      "Echo reduction only, not sound blocking between rooms",
+      "Echo reduction only, not sound blocking between rooms"
     ],
     bestFor: "Buyers who want to fine-tune panel height for a specific desk or camera setup",
   },
@@ -213,7 +213,7 @@ export const products: GuideProduct[] = [
     description: "Room Divider-Folding Privacy Screens, 6 ft Partition Room Dividers Wall for Separation, Home, measures 6 ft and is built around room divider- this divider is ideal, positioning it for a general-purpose desk accessory buyers specifically.\n\nEASY TO ASSEMBLE- The large room divider is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for a general-purpose desk accessory, though as with any purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["6 ft dimensions","ROOM DIVIDER- This divider is ideal","EASY TO ASSEMBLE- The large room divider"],
     pros: ["ROOM DIVIDER- This divider is ideal, confirmed directly in the listing's own spec details","EASY TO ASSEMBLE- The large room divider, confirmed directly in the listing's own spec details","FREESTANDING- This freestanding structure can be used, confirmed directly in the listing's own spec details"],
-    cons: ["At $44.99, worth comparing against similarly specced desk accessories before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $45, worth comparing against similarly specced desk accessories before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for a general-purpose desk accessory",
   },
   {
@@ -229,7 +229,7 @@ export const products: GuideProduct[] = [
     description: "Room Divider-Folding Privacy Screens, 6 ft Partition Room Dividers Wall for Separation, Home, measures 6 ft and is built around room divider- this divider is ideal, positioning it for a general-purpose desk accessory buyers specifically.\n\nEASY TO ASSEMBLE- The large room divider is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for a general-purpose desk accessory, though as with any purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["6 ft dimensions","ROOM DIVIDER- This divider is ideal","EASY TO ASSEMBLE- The large room divider"],
     pros: ["ROOM DIVIDER- This divider is ideal, confirmed directly in the listing's own spec details","EASY TO ASSEMBLE- The large room divider, confirmed directly in the listing's own spec details","FREESTANDING- This freestanding structure can be used, confirmed directly in the listing's own spec details"],
-    cons: ["At $85.99, worth comparing against similarly specced desk accessories before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $90, worth comparing against similarly specced desk accessories before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for a general-purpose desk accessory",
   },
   {
@@ -245,9 +245,9 @@ export const products: GuideProduct[] = [
     description: "JOSTYLE Rattan Room Divider, 4-Panel Folding Privacy Screen 6ft. Extra Wide measures 6ft and is built around extra-wide privacy screen, positioning it for a general-purpose desk accessory buyers specifically.\n\nZero-Assembly & Portable is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for a general-purpose desk accessory, though as with any purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["6ft dimensions","Extra-Wide Privacy Screen","Zero-Assembly & Portable"],
     pros: ["Extra-Wide Privacy Screen, confirmed directly in the listing's own spec details","Zero-Assembly & Portable, confirmed directly in the listing's own spec details","Multiple Scenes IN 1 Screen, confirmed directly in the listing's own spec details"],
-    cons: ["At $49.99, worth comparing against similarly specced desk accessories before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $50, worth comparing against similarly specced desk accessories before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for a general-purpose desk accessory",
-  },
+  }
 
 ];
 
@@ -281,7 +281,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Honest acoustic framing",
     description:
       "Distinguished echo and reflection reduction, which fabric and fiber panels genuinely provide, from real sound transmission blocking between rooms, which none of the picks in this list are designed to do.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -439,11 +439,11 @@ export const faq: FaqItem[] = [
   {
     q: "Do room dividers usually leave a gap at the floor?",
     a: "Yes, most freestanding panel screens and curtains sit 1-2 inches off the floor, which can let a draft, light, or a pet slip underneath. A floor-length tension curtain, measured precisely to your ceiling height, comes closest to eliminating that gap among the picks in this list.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-metal-filing-cabinets", title: "8 Best Metal Filing Cabinets (2026)" },
   { href: "/guide/best-reclining-office-chairs-with-footrests", title: "8 Best Reclining Office Chairs with Footrests (2026)" },
-  { href: "/guide/best-dual-motor-standing-desks", title: "8 Best Dual-Motor Standing Desks (2026)" },
+  { href: "/guide/best-dual-motor-standing-desks", title: "8 Best Dual-Motor Standing Desks (2026)" }
 ];

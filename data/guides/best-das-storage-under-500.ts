@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Both massive HDD capacity and high-speed NVMe storage", "TERRAMASTER D8 Hybrid, 4 HDD + 4 NVMe SSD Enclosure"],
         ["Maximum RAID-capable capacity across eight bays", "CENMATE Aluminum 8 Bay Hard Drive RAID Enclosure"],
-        ["Reliable, quieter 5-bay storage for a home office", "SABRENT 5-Bay USB-C 10Gbps Hard Drive Enclosure & DAS Dock"],
+        ["Reliable, quieter 5-bay storage for a home office", "SABRENT 5-Bay USB-C 10Gbps Hard Drive Enclosure & DAS Dock"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $213", "TERRAMASTER D4 SSD NVMe ($212.49)"],
-        ["$250-$255", "CENMATE 8-Bay ($249.99), SABRENT 5-Bay ($249.99), or TERRAMASTER D8 Hybrid ($254.99)"],
+        ["Under $213", "TERRAMASTER D4 SSD NVMe (under $250)"],
+        ["$250-$255", "CENMATE 8-Bay (under $250), SABRENT 5-Bay (under $250), or TERRAMASTER D8 Hybrid (under $300)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "8-Bay Maximum Capacity vs 5-Bay Quieter Operation",
     cards: [
       { label: "8-Bay Maximum Capacity (CENMATE)", text: "Highest total storage ceiling in this comparison, better suited to server rooms or dedicated storage closets where fan noise matters less." },
-      { label: "5-Bay Quieter Operation (SABRENT)", text: "More refined, quieter cooling design appropriate for a home office desk where noise is a real consideration." },
+      { label: "5-Bay Quieter Operation (SABRENT)", text: "More refined, quieter cooling design appropriate for a home office desk where noise is a real consideration." }
     ],
     note: "If the enclosure will sit on your desk within earshot during work, the SABRENT 5-Bay's quieter design is worth prioritizing over the CENMATE's higher raw capacity.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your drive priority", "Recommended pick"],
       rows: [
         ["Both HDD capacity and NVMe speed together", "TERRAMASTER D8 Hybrid"],
-        ["NVMe speed only, no HDD bays needed", "TERRAMASTER D4 SSD NVMe Enclosure"],
+        ["NVMe speed only, no HDD bays needed", "TERRAMASTER D4 SSD NVMe Enclosure"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Growing Media Library Specifically",
     cards: [
       { label: "Look for", text: "Maximum total capacity with RAID support for redundancy, since a media library represents accumulated data you don't want to lose to a single drive failure." },
-      { label: "In this comparison", text: "The CENMATE 8-Bay RAID Enclosure offers both the highest capacity and RAID redundancy options specifically suited to protecting a growing media library." },
+      { label: "In this comparison", text: "The CENMATE 8-Bay RAID Enclosure offers both the highest capacity and RAID redundancy options specifically suited to protecting a growing media library." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want both massive HDD capacity and high-speed NVMe storage combined, where the TERRAMASTER D8 Hybrid is the only pick in this comparison offering both drive types together." },
-      { label: "Save if", text: "Fast NVMe speed alone covers your needs without hybrid HDD capacity, where the TERRAMASTER D4 SSD delivers this at the lowest price in this comparison." },
+      { label: "Save if", text: "Fast NVMe speed alone covers your needs without hybrid HDD capacity, where the TERRAMASTER D4 SSD delivers this at the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

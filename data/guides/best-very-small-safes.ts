@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "very small safes";
 export const introParagraphs = [
   "Very small isn't a defined size until you set an actual threshold, so we're publishing exact exterior dimensions for every pick here and ranking by confirmed compactness rather than a vague small label. One original candidate ASIN was not accessible through the product catalog at research time.",
-  "We also checked what miniaturization actually removes, whether a passport or stack of cash fits before assuming any very small safe handles the same items as a larger one.",
+  "We also checked what miniaturization actually removes, whether a passport or stack of cash fits before assuming any very small safe handles the same items as a larger one."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -131,7 +131,7 @@ export const products: GuideProduct[] = [
     pros: ["Tether cable directly addresses the carry-away risk that comes with very small size", "Only pick here with a dedicated charging cable access port"],
     cons: ["Tether-only anti-removal, lighter than a mounted steel box"],
     bestFor: "Travelers wanting a genuinely small, tetherable safe that won't disappear from a hotel room.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Published exact exterior dimensions for every pick rather than a vague small label", description: "We ranked by confirmed footprint measurements rather than treating small as a self-reported marketing term without a specific threshold." },
   { title: "Checked what miniaturization actually removes from usability", description: "The smallest picks here explicitly can't fit a passport flat; we flagged this directly rather than assuming every very small safe handles the same items as a larger one." },
   { title: "Noted the fire-protection tradeoff at small sizes", description: "The smallest available fire-rated pick is meaningfully larger than the pure security boxes here. We disclosed this as a genuine construction tradeoff rather than implying fire protection comes free at any size." },
-  { title: "Excluded the inaccessible ASIN rather than fabricating its data", description: "One original candidate ASIN returned ItemNotAccessible from the product catalog API at research time. We excluded it and disclosed the gap rather than guessing." },
+  { title: "Excluded the inaccessible ASIN rather than fabricating its data", description: "One original candidate ASIN returned ItemNotAccessible from the product catalog API at research time. We excluded it and disclosed the gap rather than guessing." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -266,7 +266,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review count and rating together, not rating alone",
-    "explanation": "A 4.8-star rating from 12 reviews carries far less evaluation confidence than a 4.5-star rating from several thousand, since a small sample can be skewed by a handful of early, enthusiastic buyers before any long-term reliability issues would show up in later reviews.\n\nThis matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
+    "explanation": "This matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
   }
 ];
 
@@ -275,11 +275,11 @@ export const faq: FaqItem[] = [
   { q: "Is there a compact safe that still fits a passport?", a: "Yes, the Yuanshikj Small Steel Security Safe Box, at 9.05 x 6.69 x 6.69 inches, fits a passport flat, unlike the smallest picks here." },
   { q: "What's the smallest fire-rated option?", a: "The SentrySafe Fireproof Safe with Key Lock, though it's meaningfully larger than the pure security boxes in this comparison." },
   { q: "Are very small safes easy to steal?", a: "Yes, without anchoring. We prioritized picks with confirmed mounting hardware or a tether cable to address this genuine risk at small sizes." },
-  { q: "Why does this list have 7 products instead of 8?", a: "One original candidate ASIN was not accessible through the Amazon catalog API at research time, so we excluded it rather than fabricating its data." },
+  { q: "Why does this list have 7 products instead of 8?", a: "One original candidate ASIN was not accessible through the Amazon catalog API at research time, so we excluded it rather than fabricating its data." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-small-safes", title: "Best Portable Small Safes (2026)" },
   { href: "/guide/best-small-safe-lock-boxes", title: "Best Small Safe Lock Boxes (2026)" },
-  { href: "/guide/best-small-safes-with-keys", title: "Best Small Safes With Keys (2026)" },
+  { href: "/guide/best-small-safes-with-keys", title: "Best Small Safes With Keys (2026)" }
 ];

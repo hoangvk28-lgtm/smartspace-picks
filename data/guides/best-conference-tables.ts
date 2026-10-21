@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $179.99",
+          "Under $180",
           "Tribesigns 6.5FT Rectangle Conference Table (Table Only)"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "Tribesigns 6FT Boat-Shaped Conference Table"
         ],
         [
-          "Around $254.99",
+          "Under $300",
           "Tribesigns 8FT Boat-Shaped Conference Table"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "Tribesigns 8FT Boat-Shaped Conference Table"
         ],
         [
-          "Around $349.99",
+          "Under $350",
           "Tribesigns 8ft Conference Table for 10"
         ],
         [
-          "Around $350.00",
+          "Under $400",
           "Tribesigns 8FT Conference Table for 10"
         ],
         [
-          "Around $379.99",
+          "Under $400",
           "Tribesigns 8FT Conference Table for 10"
         ],
         [
-          "Around $389.99",
+          "Under $400",
           "Tribesigns 8ft Conference Table for 8-10"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Not inherently. High-density MDF and particle board with a laminate or melamine finish are standard in this category and hold up well to daily commercial use. Solid wood, veneer over engineered wood, or steel-reinforced builds cost more and matter most where long-term durability or a premium look is the priority."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns 8FT Boat-Shaped Conference Table is aimed at buyers prioritizing 94.5\"l x 47.24\"w x 29.52\"h boat-shaped top." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns 8FT Boat-Shaped Conference Table is aimed at buyers prioritizing 94.5\"l x 47.24\"w x 29.52\"h boat-shaped top." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-modular-conference-tables","title":"Best Modular Conference Tables in 2026"},{"href":"/guide/best-narrow-conference-tables","title":"Best Narrow Conference Tables in 2026"},{"href":"/guide/best-conference-tables-with-chairs","title":"Best Conference Tables With Chairs in 2026"}];

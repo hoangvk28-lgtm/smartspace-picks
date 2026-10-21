@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $279.92",
+          "Under $300",
           "EBL Portable Power Station 1000W Solar Generator"
         ],
         [
-          "Around $279.99",
+          "Under $300",
           "STARYLINE 1000W Portable Power Station"
         ],
         [
-          "Around $284.98",
+          "Under $300",
           "GRECELL 999Wh Solar Generator 1000W Portable Power Station"
         ],
         [
-          "Around $289.99",
+          "Under $300",
           "GRECELL 999Wh Portable Power Station 1000W for Outdoor & Home"
         ],
         [
-          "Around $499.00",
+          "Under $500",
           "Jackery Explorer 1000 v2 Portable Power Station"
         ],
         [
-          "Around $529.99",
+          "Under $550",
           "Anker SOLIX C1000 Gen 2 Portable Power Station"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Jackery Explorer 1000 v2 Portable Power Station is aimed at buyers prioritizing 1070wh, 1500w ac, 3000w surge." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Jackery Explorer 1000 v2 Portable Power Station is aimed at buyers prioritizing 1070wh, 1500w ac, 3000w surge." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-2000w-portable-power-stations","title":"Best 2000W Portable Power Stations in 2026"},{"href":"/guide/best-3000w-portable-power-stations","title":"Best 3000W Portable Power Stations in 2026"},{"href":"/guide/best-100w-portable-power-stations","title":"Best 100W Portable Power Stations in 2026"}];

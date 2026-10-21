@@ -5,7 +5,7 @@ export const metaDescription = "Eight gooseneck electric kettles for pour-over c
 export const mainKeyword = "gooseneck electric kettle";
 export const introParagraphs = [
   "The gooseneck spout exists for one reason: a slow, thin, steady stream lets you wet coffee grounds evenly instead of flooding them. That sounds like a spout-shape feature, yet most of what separates the eight kettles here lies elsewhere, in how precisely the temperature is set, how long it holds, and whether a brew timer sits on the display.",
-  "Green tea is commonly brewed near 175F and pour-over coffee near 195 to 205F, so degree accuracy has practical value, but a 1F step does not by itself guarantee the water is actually that hot at the spout. We compared the kettles on listed specs: temperature range and step size, wattage, hold function, timer, interior material and capacity, with prices from $26.99 to $199.95. Gooseneck kettles also hold less water than standard ones, so they suit one or two cups."
+  "Green tea is commonly brewed near 175F and pour-over coffee near 195 to 205F, so degree accuracy has practical value, but a 1F step does not by itself guarantee the water is actually that hot at the spout. We compared the kettles on listed specs: temperature range and step size, wattage, hold function, timer, interior material and capacity, with prices from roughly $30 to $200. Gooseneck kettles also hold less water than standard ones, so they suit one or two cups."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31utCmJ0tbL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0BF7HJ8MX?tag=deskfinds0d-20",
-    "description": "Fellow's Stagg EKG Pro has a full-color display, to-the-degree control, a brew stopwatch, scheduling, altitude adjustment, a hold mode and a Guide Mode with presets for coffee and tea styles. The listing mentions pour-over at 205F and green tea at 180F.\n\nIt is the most feature-rich kettle here and costs $199.95, nearly three times the next one. Against Cocinare, you pay for scheduling and altitude settings and a refined interface rather than a fundamentally different pour.\n\nBest for a dedicated coffee setup where the kettle is a centerpiece. The caveat is price, and capacity and wattage are not stated in the bullets we reviewed.",
+    "description": "Fellow's Stagg EKG Pro has a full-color display, to-the-degree control, a brew stopwatch, scheduling, altitude adjustment, a hold mode and a Guide Mode with presets for coffee and tea styles. The listing mentions pour-over at 205F and green tea at 180F.\n\nIt is the most feature-rich kettle here and costs under $200, nearly three times the next one. Against Cocinare, you pay for scheduling and altitude settings and a refined interface rather than a fundamentally different pour.\n\nBest for a dedicated coffee setup where the kettle is a centerpiece. The caveat is price, and capacity and wattage are not stated in the bullets we reviewed.",
     "specs": [
       "To-the-degree control, color display",
       "Brew stopwatch, scheduling, altitude",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41lbGXklngL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0F4X6ZRGX?tag=deskfinds0d-20",
-    "description": "Cocinare gives 1F control, 1500W heating for 0.9 liters, a 304 stainless interior with no plastic contact, an S-shaped gooseneck, a built-in brew timer and a 1.42 inch display. It holds temperature for up to 60 minutes.\n\nThe 1500W power is the highest here, and it costs $67.99, well under Fellow. Against intasting, it adds a brew timer and higher wattage for $8.54 more.\n\nChoose it if you want speed and a timer without paying for a premium brand. The caveat is that 1500W loads a circuit more than the 1000W models.",
+    "description": "Cocinare gives 1F control, 1500W heating for 0.9 liters, a 304 stainless interior with no plastic contact, an S-shaped gooseneck, a built-in brew timer and a 1.42 inch display. It holds temperature for up to 60 minutes.\n\nThe 1500W power is the highest here, and it costs under $70, well under Fellow. Against intasting, it adds a brew timer and higher wattage for $9 more.\n\nChoose it if you want speed and a timer without paying for a premium brand. The caveat is that 1500W loads a circuit more than the 1000W models.",
     "specs": [
       "0.9L, 1500W, 1F steps",
       "304 stainless, no plastic contact",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41yV6+F2C5L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FL11V12P?tag=deskfinds0d-20",
-    "description": "INTASTING auto-adjusts heating power to hit your temperature, with a 7 mm tapered spout, a 1 hour hold function and a 304 stainless interior on all water-contact surfaces. The listing mentions pour-over at 205F and green tea settings.\n\nIt costs $59.45, below Cocinare, with 1F steps but no built-in timer or stated wattage. Against HIYAKOI, it holds for 1 hour instead of 12.\n\nBest for precise temperature without extra gadgets. The caveat is that the listing does not state wattage or timer, so check what you need.",
+    "description": "INTASTING auto-adjusts heating power to hit your temperature, with a 7 mm tapered spout, a 1 hour hold function and a 304 stainless interior on all water-contact surfaces. The listing mentions pour-over at 205F and green tea settings.\n\nIt costs under $60, below Cocinare, with 1F steps but no built-in timer or stated wattage. Against HIYAKOI, it holds for 1 hour instead of 12.\n\nBest for precise temperature without extra gadgets. The caveat is that the listing does not state wattage or timer, so check what you need.",
     "specs": [
       "0.9L, 1F control",
       "7 mm tapered spout",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41jnwOuLB8L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D9NSNKDR?tag=deskfinds0d-20",
-    "description": "HIYAKOI is a 1200W kettle that the listing says boils 0.8 liters in 5 minutes, with 1F accuracy, a brew timer on an LED screen and a keep-warm function lasting up to 12 hours. The lid and spout are 304 stainless.\n\nIts 12 hour hold is the longest on the list, well beyond Cocinare's 60 minutes, at a lower $55.99. A 12 hour hold is useful for an all-day desk but uses power while idle.\n\nChoose it for an always-ready kettle. The caveat is that long hold times can run unattended, so unplug it when you leave.",
+    "description": "HIYAKOI is a 1200W kettle that the listing says boils 0.8 liters in 5 minutes, with 1F accuracy, a brew timer on an LED screen and a keep-warm function lasting up to 12 hours. The lid and spout are 304 stainless.\n\nIts 12 hour hold is the longest on the list, well beyond Cocinare's 60 minutes, at a lower under $60. A 12 hour hold is useful for an all-day desk but uses power while idle.\n\nChoose it for an always-ready kettle. The caveat is that long hold times can run unattended, so unplug it when you leave.",
     "specs": [
       "0.8L, 1200W, 1F accuracy",
       "12 hour keep warm",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41w9vrTgnHL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DMVCNQVD?tag=deskfinds0d-20",
-    "description": "YDDZZM sets temperature from 104 to 212F in 1F steps on an LCD, uses 1000W heating with a 3 to 5 minute boil claim, and has anti-dry, auto shut-off and an insulated handle. The listing claims a keep-warm of 24 hours and 304 stainless on every water surface.\n\nIt costs $40.99, $19 less than INTASTING, and gives a wide range and display. Against kwkwoice, it offers a similar spec for $8 more.\n\nBest for an affordable gooseneck with temperature steps. The caveat is the 24 hour hold claim, which we treat cautiously.",
+    "description": "YDDZZM sets temperature from 104 to 212F in 1F steps on an LCD, uses 1000W heating with a 3 to 5 minute boil claim, and has anti-dry, auto shut-off and an insulated handle. The listing claims a keep-warm of 24 hours and 304 stainless on every water surface.\n\nIt costs under $45, $19 less than INTASTING, and gives a wide range and display. Against kwkwoice, it offers a similar spec for $8 more.\n\nBest for an affordable gooseneck with temperature steps. The caveat is the 24 hour hold claim, which we treat cautiously.",
     "specs": [
       "104F to 212F, 1F steps",
       "1000W, LCD display",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31dTrcNHbZL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07G2MBM6L?tag=deskfinds0d-20",
-    "description": "Bodum's Bistro is a 0.8 liter stainless gooseneck with a cork handle and knob, a base with a power switch and automatic shut-off. The listing gives no temperature control and no wattage.\n\nIt has no digital control, unlike every other pick, and costs $39.97, close to YDDZZM. The appeal is simplicity and the cork grip, not features.\n\nChoose it for a plain, good-looking kettle for pour-over without settings. The caveat is that without temperature control you must wait and judge the temperature yourself.",
+    "description": "Bodum's Bistro is a 0.8 liter stainless gooseneck with a cork handle and knob, a base with a power switch and automatic shut-off. The listing gives no temperature control and no wattage.\n\nIt has no digital control, unlike every other pick, and costs under $40, close to YDDZZM. The appeal is simplicity and the cork grip, not features.\n\nChoose it for a plain, good-looking kettle for pour-over without settings. The caveat is that without temperature control you must wait and judge the temperature yourself.",
     "specs": [
       "0.8L, 27 oz",
       "Cork handle and knob",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31L-Fz3TElL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0F6CPF3X4?tag=deskfinds0d-20",
-    "description": "kwkwoice sets and locks temperature in 1F steps from 104 to 212F, shows the live temperature on an LCD and heats at 1000W with a 4 to 5 minute boil claim. It has anti-dry protection, auto shut-off and a multi-curve body in 304 stainless.\n\nIt matches YDDZZM's spec at $32.99, and holds 0.9 liters, a little more. Against ELTRIKO, it offers temperature control for $6 more.\n\nBest for the lowest-cost kettle that still lets you set degrees. The caveat is the keep-warm claim of 24 hours, and brand support is less known.",
+    "description": "kwkwoice sets and locks temperature in 1F steps from 104 to 212F, shows the live temperature on an LCD and heats at 1000W with a 4 to 5 minute boil claim. It has anti-dry protection, auto shut-off and a multi-curve body in 304 stainless.\n\nIt matches YDDZZM's spec at under $35, and holds 0.9 liters, a little more. Against ELTRIKO, it offers temperature control for $6 more.\n\nBest for the lowest-cost kettle that still lets you set degrees. The caveat is the keep-warm claim of 24 hours, and brand support is less known.",
     "specs": [
       "0.9L, 1000W",
       "104F to 212F in 1F steps",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31k8BDPMMjL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FQT49BJG?tag=deskfinds0d-20",
-    "description": "ELTRIKO is a 1 liter, 1000W kettle with a curved swan-neck spout, a 304 stainless interior with a plastic-free cavity, auto shut-off and boil-dry protection. It has no temperature control listed.\n\nAt $26.99 it is the cheapest and holds the most water of the group, but you cannot set degrees. Against Bodum, it adds boil-dry protection and a larger capacity.\n\nChoose it for a first gooseneck on a tight budget. The caveat is that there is no temperature control, so green tea needs manual timing.",
+    "description": "ELTRIKO is a 1 liter, 1000W kettle with a curved swan-neck spout, a 304 stainless interior with a plastic-free cavity, auto shut-off and boil-dry protection. It has no temperature control listed.\n\nAt under $30 it is the cheapest and holds the most water of the group, but you cannot set degrees. Against Bodum, it adds boil-dry protection and a larger capacity.\n\nChoose it for a first gooseneck on a tight budget. The caveat is that there is no temperature control, so green tea needs manual timing.",
     "specs": [
       "1L, 1000W",
       "304 stainless, plastic-free cavity",
@@ -291,7 +291,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     "title": "Value for price",
-    "description": "Prices from $26.99 to $199.95 were compared with documented features."
+    "description": "Prices from roughly $30 to $200 were compared with documented features."
   }
 ];
 

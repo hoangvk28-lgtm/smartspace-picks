@@ -12,7 +12,7 @@ export const openBackVsClosedBackHeadphonesGuide: Guide = {
     "open back headphones office",
     "closed back headphones noise isolation",
     "open back vs closed back sound quality",
-    "headphones for shared office",
+    "headphones for shared office"
   ],
   heroImage: "https://images.unsplash.com/photo-1702047135360-e549c2e1f7df?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1702047135360-e549c2e1f7df?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const openBackVsClosedBackHeadphonesGuide: Guide = {
     "headphone-impedance-chart",
     "best-usb-condenser-microphones",
     "dynamic-vs-condenser-microphone",
-    "best-audio-interfaces-for-microphones",
+    "best-audio-interfaces-for-microphones"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const openBackVsClosedBackHeadphonesGuide: Guide = {
       question: "Which type is better for noise cancellation?",
       answer:
         "Neither open-back nor closed-back headphones cancel noise on their own, closed-back simply blocks more outside sound passively through its sealed design; active noise cancellation is a separate feature found on some closed-back models specifically.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ export const openBackVsClosedBackHeadphonesGuide: Guide = {
     {
       heading: "Choosing Based on Where You Actually Work",
       body: `If you work from a private home office where sound leakage doesn't affect anyone else, open-back headphones offer a genuinely better listening experience for music or focused work. If you work in a shared office, coworking space, or take frequent video calls near other people, closed-back headphones are the practical choice, since sound leaking out during a call or leaking in from a noisy room both create real problems open-back headphones don't solve.`,
-    },
+    }
   ],
 };

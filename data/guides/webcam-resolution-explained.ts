@@ -12,7 +12,7 @@ export const webcamResolutionExplainedGuide: Guide = {
     "720p vs 1080p webcam",
     "do i need 4k webcam",
     "best webcam resolution for zoom",
-    "webcam resolution for streaming",
+    "webcam resolution for streaming"
   ],
   heroImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const webcamResolutionExplainedGuide: Guide = {
     "webcam-lighting-explained",
     "ring-light-vs-key-light",
     "webcam-fov-explained",
-    "best-webcam-for-video-calls",
+    "best-webcam-for-video-calls"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const webcamResolutionExplainedGuide: Guide = {
       question: "Does webcam resolution affect internet bandwidth usage?",
       answer:
         "Yes, higher resolution video requires more bandwidth to transmit smoothly, on a limited or unstable internet connection, a lower resolution setting can actually improve call reliability by reducing the data being transmitted.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const webcamResolutionExplainedGuide: Guide = {
     {
       heading: "Where the Extra Resolution Actually Shows Up",
       body: `Recording software and some streaming platforms preserve more of the original resolution than typical video call compression, meaning content creators recording tutorials, streaming gameplay, or producing video content for platforms like YouTube see more tangible benefit from a 4K webcam. If your primary use is meetings and calls rather than content creation, a quality 1080p webcam remains the more cost-effective choice.`,
-    },
+    }
   ],
 };

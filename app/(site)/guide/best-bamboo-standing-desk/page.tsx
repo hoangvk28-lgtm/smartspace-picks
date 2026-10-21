@@ -140,7 +140,7 @@ export default async function Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Bamboo Standing Desks", item: `${SITE_URL}/guide/best-bamboo-standing-desk` },
+      { "@type": "ListItem", position: 3, name: "Best Bamboo Standing Desks", item: `${SITE_URL}/guide/best-bamboo-standing-desk` }
     ],
   };
 

@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Comprehensive weather integration with included plug", "Digital Calendar, 10.1-inch Smart Family Digital Wall Planner"],
         ["The largest built-in photo storage capacity", "Linkdaze Digital Calendar 10.1in Smart Calendar"],
         ["A transparently documented app feature structure", "Dragon Touch 10.1 inch Digital Calendar Chore Chart"],
-        ["The lowest price with a stated warranty for gifting", "Digital Calendar, 10.1 Inch Electronic Calendar for Family Schedules"],
+        ["The lowest price with a stated warranty for gifting", "Digital Calendar, 10.1 Inch Electronic Calendar for Family Schedules"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $68", "Electronic Calendar for Family Schedules ($67.49)"],
-        ["Under $80", "Linkdaze ($79.99) or Dragon Touch ($79.99)"],
-        ["Under $90", "Smart Family Digital Wall Planner ($89.98)"],
+        ["Under $68", "Electronic Calendar for Family Schedules (under $70)"],
+        ["Under $80", "Linkdaze (under $80) or Dragon Touch (under $80)"],
+        ["Under $90", "Smart Family Digital Wall Planner (under $90)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Fully Free App vs Free-Plus-Paid App Structure",
     cards: [
       { label: "Fully free core features (Smart Family Digital Wall Planner, Electronic Calendar for Family Schedules)", text: "All standard scheduling, chore, and photo features work without any paid upgrade path mentioned." },
-      { label: "Free core plus optional paid tools (Dragon Touch)", text: "Core features are free, but advanced tools like Magic Import require a paid upgrade for specific specialized needs." },
+      { label: "Free core plus optional paid tools (Dragon Touch)", text: "Core features are free, but advanced tools like Magic Import require a paid upgrade for specific specialized needs." }
     ],
     note: "If you want confidence that you'll never hit a paywall for a feature you expect to be free, the fully-free picks are the safer choice. If you might need specialized advanced tools later, the Dragon Touch's transparent free-versus-paid structure at least tells you upfront what costs extra.",
   },
@@ -137,7 +137,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your photo storage needs", "Recommended pick"],
       rows: [
         ["Rely primarily on cloud-synced photos", "Smart Family Digital Wall Planner or Dragon Touch"],
-        ["Want substantial built-in local storage", "Linkdaze (32GB built-in)"],
+        ["Want substantial built-in local storage", "Linkdaze (32GB built-in)"]
       ],
     },
   },
@@ -145,16 +145,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Gift Purchase Specifically",
     cards: [
       { label: "Look for", text: "An explicitly stated warranty period and gift-recipient support policy, so the person receiving the calendar can get help directly if issues arise, not just the original purchaser." },
-      { label: "In this comparison", text: "The Electronic Calendar for Family Schedules pick specifically states its 365-day warranty extends to gift recipients, who can reach out directly for after-sales support." },
+      { label: "In this comparison", text: "The Electronic Calendar for Family Schedules pick specifically states its 365-day warranty extends to gift recipients, who can reach out directly for after-sales support." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want comprehensive weather integration with included plug compatibility, where the Smart Family Digital Wall Planner delivers that at the top of this tier." },
-      { label: "Save if", text: "You want the full core feature set at the lowest price with an explicit warranty, where the Electronic Calendar for Family Schedules pick covers that for about $22 less." },
+      { label: "Save if", text: "You want the full core feature set at the lowest price with an explicit warranty, where the Electronic Calendar for Family Schedules pick covers that for about $22 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

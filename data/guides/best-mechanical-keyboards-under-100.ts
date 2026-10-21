@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Full VIA programmability with refined sound", "Keychron K10 Pro Wireless Custom Mechanical Keyboard"],
         ["Maximum battery life between charges", "Keychron K10 Full Size Wireless Mechanical Keyboard"],
         ["A visually distinctive design with fast gaming switches", "GravaStar Mercury K1 Lite 75% Wireless Mechanical Keyboard"],
-        ["Quiet switches for shared spaces or late-night use", "Keychron K8 Wireless Mechanical Keyboard, Silent Red Switch"],
+        ["Quiet switches for shared spaces or late-night use", "Keychron K8 Wireless Mechanical Keyboard, Silent Red Switch"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $85", "Keychron K10 or K8 (both $84.99)"],
-        ["Under $90", "GravaStar Mercury K1 Lite ($89.95)"],
-        ["Under $92", "Keychron K10 Pro ($91.99)"],
+        ["Under $85", "Keychron K10 or K8 (both under $90)"],
+        ["Under $90", "GravaStar Mercury K1 Lite (under $90)"],
+        ["Under $92", "Keychron K10 Pro (under $100)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "VIA Programmability vs No Remapping Support",
     cards: [
       { label: "VIA/QMK programmable (Keychron K10 Pro)", text: "Lets you remap any key and create custom macros through an open standard, worth it if you want deep customization." },
-      { label: "No remapping (K10 standard, GravaStar, K8)", text: "Skips advanced customization in favor of simplicity and, in the K10's case, dramatically better battery life." },
+      { label: "No remapping (K10 standard, GravaStar, K8)", text: "Skips advanced customization in favor of simplicity and, in the K10's case, dramatically better battery life." }
     ],
     note: "If deep key customization genuinely matters to your workflow, the K10 Pro's VIA support justifies its premium over the standard K10. If you just want reliable typing without remapping, the other three picks work fine without that added complexity.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Tactile, hot-swappable, sound-dampened", "Keychron K10 Pro"],
         ["Standard tactile brown switches", "Keychron K10 Full Size"],
         ["Fast linear switches for competitive gaming", "GravaStar Mercury K1 Lite"],
-        ["Silent switches for quiet operation", "Keychron K8"],
+        ["Silent switches for quiet operation", "Keychron K8"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Shared Living Space or Late-Night Work Schedule Specifically",
     cards: [
       { label: "Look for", text: "Switches specifically marketed as 'silent' rather than just standard linear switches, since standard linear switches are quieter than clicky ones but still produce audible bottom-out noise." },
-      { label: "In this comparison", text: "The Keychron K8's Silent K Pro Red switches are specifically engineered for quiet operation, unlike the standard linear or tactile switches on the other three picks." },
+      { label: "In this comparison", text: "The Keychron K8's Silent K Pro Red switches are specifically engineered for quiet operation, unlike the standard linear or tactile switches on the other three picks." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want full VIA programmability combined with refined sound dampening, where the Keychron K10 Pro delivers both at the top of this tier." },
-      { label: "Save if", text: "You want maximum battery life without needing advanced remapping, where the standard Keychron K10 covers that for about $7 less." },
+      { label: "Save if", text: "You want maximum battery life without needing advanced remapping, where the standard Keychron K10 covers that for about $7 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

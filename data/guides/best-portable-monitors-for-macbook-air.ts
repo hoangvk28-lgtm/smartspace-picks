@@ -5,7 +5,7 @@ export const metaDescription = "7 portable monitors we evaluated for MacBook Air
 export const mainKeyword = "portable monitor for MacBook Air";
 export const introParagraphs = [
   "Unlike MacBook Pro, there's no Pro/Max chip tier to unlock a second external display on MacBook Air. M1 and M2 Air are permanently capped at one external display without third-party software like DisplayLink (which blocks DRM streaming); M3 Air adds a second display only in clamshell mode, lid closed. If you're hoping to run this monitor alongside another external display with the lid open, an M1/M2 Air can't do it.",
-  "The upside for Air owners: because the built-in screen is 60Hz and non-XDR (not the wide-gamut display MacBook Pro has), pairing it with a budget portable monitor creates far less visual mismatch than it would on a Pro. Below are 7 picks with real power-budget math for Air's smaller 30-35W charger factored in.",
+  "The upside for Air owners: because the built-in screen is 60Hz and non-XDR (not the wide-gamut display MacBook Pro has), pairing it with a budget portable monitor creates far less visual mismatch than it would on a Pro. Below are 7 picks with real power-budget math for Air's smaller 30-35W charger factored in."
 ];
 export const lastUpdated = "2026-07-28";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value for Air's Power Budget",
     name: "MNN 15.6\" FHD 60Hz Portable Monitor USB-C HDMI IPS HDR Gaming Laptop",
     price: "$49.99",
-    rating: "4.3 stars from 11,984 Amazon ratings",
-    reviews: "11,984 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/5130Dsp2DML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9NNWXVP?tag=deskfinds0d-20",
     description: "At only 60Hz and 1080p, this monitor's modest specs are actually a good match for a MacBook Air, which runs its own screen at 60Hz too, so there's no ProMotion mismatch to worry about like there is on a Pro. Its dual USB-C ports draw a light enough load that it's less likely to tip a base Air's 30W charger into a net power deficit than the higher-refresh, higher-brightness picks in this guide.\n\nIt earns the top spot in this comparison over cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C for one main reason. 60Hz panel matches Air's own screen refresh, no mismatch. On price, it comes in below cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Lower power draw is kinder to a base Air's smaller charger. On the other side, No VESA mount. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best if You Want a Larger, Sharper Screen",
     name: "cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C, 120Hz HDMI",
     price: "$164.98",
-    rating: "4.8 stars from 6,301 Amazon ratings",
-    reviews: "6,301 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41taGyfYchL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR8D6BQ3?tag=deskfinds0d-20",
     description: "This 2.5K panel is a real step up in sharpness over the budget 1080p picks, and its 16:10 ratio matches MacBook Air's own aspect ratio for clean full-screen mirroring. Running it draws noticeably more power than the MNN pick above, worth checking against your Air's charger wattage, especially on a base 30W-adapter model trying to charge and drive the display at once.\n\nOne spot below MNN 15.6\" FHD 60Hz Portable Monitor USB-C HDMI IPS HDR Gaming Laptop in this ranking, it costs more than MNN 15.6\" FHD 60Hz Portable Monitor USB-C HDMI IPS HDR Gaming Laptop. The compromise here is straightforward: Higher power draw, check your Air's charger wattage budget. What you gain in return: Sharpest, most color-capable panel in this guide. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: 16:10 ratio matches Air's screen shape. On the other side, Priciest pick here. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best VESA-Mountable Budget Pick",
     name: "cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB",
     price: "$109.99",
-    rating: "4.8 stars from 6,301 Amazon ratings",
-    reviews: "6,301 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31y1n0H2EtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZLY26FW?tag=deskfinds0d-20",
     description: "This sits between the MNN budget pick and the premium cocopar 16-inch above, a 60Hz 1080p panel (an easy match for Air's own 60Hz screen) but with real VESA mounting holes the MNN pick lacks. If you want a permanent desk setup rather than a travel-only monitor, this is the more versatile budget option.\n\nSitting just under cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C, it's priced lower than cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C. Here's the honest tradeoff: 85% sRGB is modest color accuracy. And here's what it gets you instead: 60Hz matches Air's own refresh rate. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Real VESA mount, unlike the cheaper MNN pick. On the other side, Priced above the MNN budget pick. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Large Screen for Air",
     name: "VisionOwl Portable Monitor for Laptop, 18.5 Inch FHD 100Hz",
     price: "$169.99",
-    rating: "4.8 stars from 2,044 Amazon ratings",
-    reviews: "2,044 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51+nqT75sRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CD3WJXWH?tag=deskfinds0d-20",
     description: "At 18.5 inches this is the largest screen in this guide, useful if your priority is workspace over sharpness, since 1080p spread across 18.5 inches looks softer than the same resolution on a smaller panel. Its 100Hz refresh rate exceeds what an Air's own 60Hz screen runs at, a spec that won't hurt but also won't be perceptible in any meaningful way when your Air is the source.\n\nRanked just behind cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB, it costs more than cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB. The real tradeoff against that pick: 1080p at 18.5 inches looks softer than smaller high-density panels. In exchange, it offers this instead: Largest screen in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your source device.\n\nWorth knowing before you decide: Full-size HDMI and real VESA mount. On the other side, Heavier than the 15.6-inch picks. That's the main tradeoff to weigh against everything above.",
@@ -89,8 +89,8 @@ export const products: GuideProduct[] = [
     badge: "Best Color Accuracy",
     name: "VisionOwl Portable Monitor 15.6 Inch 4K UHD 145% sRGB",
     price: "$229.99",
-    rating: "4.8 stars from 2,044 Amazon ratings",
-    reviews: "2,044 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Vtb2coigL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVMC4BYJ?tag=deskfinds0d-20",
     description: "This is the most color-capable panel in this guide, with a claimed 145% sRGB gamut well beyond the budget picks, useful if you occasionally do photo work on an Air. Running a 4K panel does draw more sustained power than the 1080p picks, worth checking against a base Air's smaller charger if you plan to charge and drive the display at the same time.\n\nOne spot below VisionOwl Portable Monitor for Laptop in this ranking, it costs more than VisionOwl Portable Monitor for Laptop. The compromise here is straightforward: Highest price in this guide. What you gain in return: Highest color gamut in this guide. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: 4K resolution for detail work. On the other side, 4K over HDMI caps at 30Hz, use USB-C for smooth 60Hz. That's the main tradeoff to weigh against everything above.",
@@ -105,8 +105,8 @@ export const products: GuideProduct[] = [
     badge: "Best 2.5K Panel Under $150",
     name: "Upperizon Portable Monitor 16 inch 2K QHD 106% sRGB, 144Hz USB-C, 120Hz HDMI",
     price: "$149.99",
-    rating: "4.7 stars from 1,156 Amazon ratings",
-    reviews: "1,156 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41r1U1sCYNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT44HPT3?tag=deskfinds0d-20",
     description: "This 2.5K aluminum-body panel undercuts the cocopar 16-inch pick above on price while offering similar sharpness and a 106% sRGB gamut, a reasonable middle ground for Air owners who want a sharper screen without the premium price. It ships with a full accessory kit, two USB-C cables, an HDMI cable, and a 30W PD adapter, which happens to match a base Air's own charger wattage.\n\nSitting just under VisionOwl Portable Monitor 15.6 Inch 4K UHD 145% sRGB, it's priced lower than VisionOwl Portable Monitor 15.6 Inch 4K UHD 145% sRGB. Here's the honest tradeoff: Smaller review base than the more established picks. And here's what it gets you instead: Sharper 2.5K panel at a lower price than the top pick. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Includes a 30W adapter matching Air's own charger wattage. On the other side, 144Hz has no benefit from a 60Hz-native Air. That's the main tradeoff to weigh against everything above.",
@@ -121,8 +121,8 @@ export const products: GuideProduct[] = [
     badge: "Most Reviewed / Cheapest USB-C Path",
     name: "KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover",
     price: "$62.99",
-    rating: "4.4 stars from 13,090 Amazon ratings",
-    reviews: "13,090 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51T7K-COzIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B088D8JG3L?tag=deskfinds0d-20",
     description: "The most reviewed monitor in this guide, connecting over USB-C works natively with any MacBook Air's Thunderbolt/USB-C port, no adapter needed, though its HDMI port is mini-HDMI only. No VESA holes here, a fold-out cover-stand only.\n\nRanked just behind Upperizon Portable Monitor 16 inch 2K QHD 106% sRGB, it's priced lower than Upperizon Portable Monitor 16 inch 2K QHD 106% sRGB. The real tradeoff against that pick: Mini-HDMI only, no full-size HDMI. In exchange, it offers this instead: Largest review base in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your source device.\n\nWorth knowing before you decide: Works natively over USB-C with any Air. On the other side, Basic 1080p color accuracy. That's the main tradeoff to weigh against everything above.",
@@ -137,7 +137,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Single external display reality on M1/M2 Air", description: "Confirmed every pick is evaluated as the Air's one and only external display, not an addition alongside a second monitor, since M1/M2 Air has no Pro/Max tier to unlock dual external displays." },
   { title: "Power budget against Air's charger wattage", description: "Weighed each monitor's power draw against a base Air's 30-35W charger, since a monitor plus simultaneous laptop charging can create a net power deficit on the smaller adapter." },
-  { title: "Refresh rate and color gamut relative to Air's own 60Hz, non-XDR screen", description: "Noted that Air's own display is 60Hz and non-wide-gamut, so budget monitors create less visible mismatch here than they would on a MacBook Pro." },
+  { title: "Refresh rate and color gamut relative to Air's own 60Hz, non-XDR screen", description: "Noted that Air's own display is 60Hz and non-wide-gamut, so budget monitors create less visible mismatch here than they would on a MacBook Pro." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -274,11 +274,11 @@ export const faq: FaqItem[] = [
   { q: "Does MacBook Air's fanless design limit what monitor I can use?", a: "No. Air's fanless design affects sustained CPU performance under heavy load, not USB-C power delivery to an external monitor, those are separate systems." },
   { q: "Is color accuracy less important for Air than for MacBook Pro?", a: "Somewhat. Since Air's own screen is 60Hz and non-XDR (not wide-gamut like Pro's), pairing it with a budget sRGB monitor creates a smaller visual mismatch than the same monitor would on a Pro." },
   { q: "Which pick in this comparison is the best overall choice?", a: "Base M1/M2 MacBook Air owners who want the safest power-budget match without spending much" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Base M1/M2 MacBook Air owners who want the safest power-budget match without spending much At $49.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Base M1/M2 MacBook Air owners who want the safest power-budget match without spending much At under $50, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-monitors-for-macbook-pro", title: "Best Portable Monitors for MacBook Pro (2026)" },
   { href: "/guide/best-hdmi-portable-monitors", title: "Best HDMI Portable Monitors (2026)" },
-  { href: "/guide/usb-c-hub-vs-docking-station", title: "USB-C Hub vs Docking Station (2026)" },
+  { href: "/guide/usb-c-hub-vs-docking-station", title: "USB-C Hub vs Docking Station (2026)" }
 ];

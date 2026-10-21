@@ -12,7 +12,7 @@ export const standingDeskTreadmillExplainedGuide: Guide = {
     "walking desk treadmill worth it",
     "treadmill desk typing speed",
     "under desk treadmill space needed",
-    "walking while working setup",
+    "walking while working setup"
   ],
   heroImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const standingDeskTreadmillExplainedGuide: Guide = {
     "under-desk-bike-vs-elliptical",
     "standing-desk-height-chart",
     "under-desk-bike-desk-height-compatibility",
-    "desk-exercise-equipment-noise-explained",
+    "desk-exercise-equipment-noise-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const standingDeskTreadmillExplainedGuide: Guide = {
       question: "Who benefits most from a treadmill desk specifically over other options?",
       answer:
         "Someone specifically prioritizing walking as their preferred activity, or wanting a more substantial calorie-burning option than seated pedaling provides, benefits most, someone with limited floor space or budget may find a more compact bike or elliptical option more practical.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const standingDeskTreadmillExplainedGuide: Guide = {
     {
       heading: "Why Working Speed Naturally Self-Limits Based on Task Demands",
       body: `Most treadmill desk users naturally discover through practice that maintaining accurate typing and detailed screen work caps their comfortable walking speed around 1-2 miles per hour, a genuinely slow, deliberate pace rather than anything resembling normal walking speed, this isn't a limitation of the equipment itself but simply reflects the physical reality that faster walking introduces more upper body movement and less stability, which directly interferes with fine motor tasks like typing, understanding this realistic speed expectation upfront helps set appropriate expectations rather than assuming a treadmill desk enables normal-paced walking while maintaining full work productivity.`,
-    },
+    }
   ],
 };

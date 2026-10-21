@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "standing desk for two people";
 export const introParagraphs = [
   "Very few Amazon listings for standing desks are actually built for two people to use at once, and most guides on this topic quietly ignore that. Of the 8 picks below, only one is explicitly marketed as a two-person desk in its own title. The rest are single-user standing desks that can work for two people sharing a room only if the width, depth, and preset count happen to fit that use case, and we say so directly rather than pretending otherwise.",
-  "If you and a partner are setting up side by side, the details that matter most are per-person surface width, independent versus shared height presets when you differ in height, and whether the desk has enough cable management capacity for two full workstations instead of one. Below we rank 8 options with an honest read on which ones genuinely suit two people and which ones are single desks that happen to be wide enough to consider.",
+  "If you and a partner are setting up side by side, the details that matter most are per-person surface width, independent versus shared height presets when you differ in height, and whether the desk has enough cable management capacity for two full workstations instead of one. Below we rank 8 options with an honest read on which ones genuinely suit two people and which ones are single desks that happen to be wide enough to consider."
 ];
 export const lastUpdated = "2026-07-26";
 export const readTime = "11 min";
@@ -46,8 +46,8 @@ export const products: GuideProduct[] = [
     badge: "Only Purpose-Built Two-Person Desk",
     name: "HSH Extra Large Home Office Desk for 2 People, 78 Inch Long, Rustic Wood and Metal",
     price: "$219.97",
-    rating: "4.6 stars from 263 Amazon ratings",
-    reviews: "263 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41jMGauB1nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DLL4H69Z?tag=deskfinds0d-20",
     description:
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Rustic wood and metal construction",
       "Fixed height, not electric",
       "Supports dual monitor setups",
-      "~39 inches of surface per person",
+      "~39 inches of surface per person"
     ],
     pros: [
       "The only desk in this guide actually built for two users",
       "78-inch length gives real per-person surface area",
       "Stable wood and metal construction",
-      "Supports two full monitor setups",
+      "Supports two full monitor setups"
     ],
     cons: [
       "Fixed height only, no electric sit-stand adjustment",
       "Not ideal if users differ significantly in height",
-      "Long span may need a center support check under heavy load",
+      "Long span may need a center support check under heavy load"
     ],
     bestFor: "Two people of similar height who want a dedicated shared desk and do not need electric height adjustment",
   },
@@ -78,8 +78,8 @@ export const products: GuideProduct[] = [
     badge: "Not Built for Two, Too Narrow",
     name: "HUANUO 32-inch Small Electric Standing Desk Adjustable Height, 4 Memory Height Settings",
     price: "$75.99",
-    rating: "4.6 stars from 2,226 Amazon ratings",
-    reviews: "2,226 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ikoMgen5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9X3FDYY?tag=deskfinds0d-20",
     description:
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "4 memory height presets",
       "Electric height adjustment",
       "LightWalnut finish",
-      "Not suited for side-by-side use",
+      "Not suited for side-by-side use"
     ],
     pros: [
       "Affordable single-person desk",
       "Compact footprint for small rooms",
       "Simple 4-preset memory control",
-      "Strong review base",
+      "Strong review base"
     ],
     cons: [
       "32-inch width is too narrow for two people side by side",
       "Only one set of height presets to share",
-      "No cable management capacity for two workstations",
+      "No cable management capacity for two workstations"
     ],
     bestFor: "A single user, not recommended for two-person use despite appearing in searches for shared desks",
   },
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Borderline Width for Two",
     name: "Veken 55 Inch Large Electric Standing Desk, Gaming Table, White",
     price: "$109.99",
-    rating: "4.6 stars from 1,747 Amazon ratings",
-    reviews: "1,747 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41k4VBjAQzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWMNPW7D?tag=deskfinds0d-20",
     description:
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "White finish",
       "Shared electric height presets",
       "Gaming desk design",
-      "~27 inches of surface per person if split",
+      "~27 inches of surface per person if split"
     ],
     pros: [
       "Widest single-user desk in this guide at 55 inches",
       "Could work as a tight two-person split for minimal setups",
       "Strong review volume and rating",
-      "Competitive price for the width",
+      "Competitive price for the width"
     ],
     cons: [
       "Marketed as single-user, not a genuine two-person desk",
       "Only one shared set of height presets",
-      "Per-person surface area is tight for two full monitor setups",
+      "Per-person surface area is tight for two full monitor setups"
     ],
     bestFor: "Two people close in height running laptops or light setups who accept a tighter shared surface",
   },
@@ -142,8 +142,8 @@ export const products: GuideProduct[] = [
     badge: "Single-User Desk, Not Recommended for Two",
     name: "ErGear 48 x 24 Inch Height Adjustable Electric Standing Desk, Black",
     price: "$94.98",
-    rating: "4.5 stars from 11,572 Amazon ratings",
-    reviews: "11,572 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/415He+cLvaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B41YH9B6?tag=deskfinds0d-20",
     description:
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Black finish",
       "Shared electric height presets",
       "Single cable management channel",
-      "Largest review base in this guide",
+      "Largest review base in this guide"
     ],
     pros: [
       "Massive review volume for a proven single-user desk",
       "Solid mid-size footprint for one person",
       "Affordable price point",
-      "Reliable electric height adjustment",
+      "Reliable electric height adjustment"
     ],
     cons: [
       "48-inch width is tight for genuine two-person use",
       "Single cable management channel, not built for two workstations",
-      "One shared preset set forces renegotiating heights",
+      "One shared preset set forces renegotiating heights"
     ],
     bestFor: "A single user who wants a proven, widely reviewed desk, not a dedicated two-person setup",
   },
@@ -174,8 +174,8 @@ export const products: GuideProduct[] = [
     badge: "Single-User Desk with a Matched Top",
     name: "FEZIBO Standing Desk, 48 x 24 Inches Electric Height Adjustable, White Frame/Maple Top",
     price: "$99.99",
-    rating: "4.5 stars from 8,463 Amazon ratings",
-    reviews: "8,463 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/418JjdqdnpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8MHPVPH?tag=deskfinds0d-20",
     description:
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "White frame, maple splice-board top",
       "Shared electric height presets",
       "Not built for two workstations",
-      "Strong review base",
+      "Strong review base"
     ],
     pros: [
       "Thicker maple splice-board top than basic laminate desks",
       "High review volume with solid rating",
       "Good single-user footprint",
-      "Reasonable price",
+      "Reasonable price"
     ],
     cons: [
       "Not built for two people, surface too tight if split",
       "Single shared preset set",
-      "No doubled cable management capacity",
+      "No doubled cable management capacity"
     ],
     bestFor: "A single user who wants a nicer desktop material, not a two-person setup",
   },
@@ -206,8 +206,8 @@ export const products: GuideProduct[] = [
     badge: "Dual Monitor, Still Single-User",
     name: "VIVO Height Adjustable 42 Inch Standing Desk Converter with Dual Monitor Stand",
     price: "$219.99",
-    rating: "4.5 stars from 598 Amazon ratings",
-    reviews: "598 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41daFWT9JPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CNH9SQT7?tag=deskfinds0d-20",
     description:
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Dual monitor stand for one user",
       "Sits on top of an existing desk",
       "Not a two-person surface",
-      "Solid rating for the category",
+      "Solid rating for the category"
     ],
     pros: [
       "Dual monitor support for a single user's productivity setup",
       "No floor assembly needed, sits on existing desk",
       "Solid rating and reasonable review base",
-      "Good for renters",
+      "Good for renters"
     ],
     cons: [
       "Dual monitor stand is for one person, not two users",
       "No independent surface for a second person's keyboard and mouse",
-      "Reduces usable desktop depth once installed",
+      "Reduces usable desktop depth once installed"
     ],
     bestFor: "A single user who wants two monitors, not a genuine two-person workstation",
   },
@@ -238,8 +238,8 @@ export const products: GuideProduct[] = [
     badge: "Single-User Desk, Budget Option",
     name: "Claiks Electric Standing Desk, 24x48 Inches, Black Frame/Rustic Brown Top",
     price: "$99.99",
-    rating: "4.4 stars from 5,316 Amazon ratings",
-    reviews: "5,316 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41oErF+y4gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BZ7GXM4M?tag=deskfinds0d-20",
     description:
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Black frame, rustic brown top",
       "Shared electric height presets",
       "Splice board top design",
-      "Solid review base",
+      "Solid review base"
     ],
     pros: [
       "Rustic finish adds warmth for a home office look",
       "Reasonable price for the size",
       "Solid review base",
-      "Comparable footprint to other budget single-user picks",
+      "Comparable footprint to other budget single-user picks"
     ],
     cons: [
       "Not built for two people, tight surface split",
       "Single shared preset set",
-      "No doubled cable management capacity",
+      "No doubled cable management capacity"
     ],
     bestFor: "A single user on a budget who wants a warmer wood-look finish, not a shared setup",
   },
@@ -270,8 +270,8 @@ export const products: GuideProduct[] = [
     badge: "Widest Single-User Desk, Deep Top",
     name: "Huuger 55 x 28 Large Electric Standing Desk, 27.6-inch Deep Desktop, Rustic Brown",
     price: "$139.99",
-    rating: "4.4 stars from 555 Amazon ratings",
-    reviews: "555 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41oHg37v77L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT3Y1X96?tag=deskfinds0d-20",
     description:
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "27.6-inch deep desktop",
       "Rustic Brown finish",
       "3 preset heights",
-      "2 hooks included",
+      "2 hooks included"
     ],
     pros: [
       "Widest and deepest single-user desk in this guide",
       "Extra depth helps a tight two-person split more than shallower desks",
       "Included hooks for bags or headphones",
-      "Reasonable price for the size",
+      "Reasonable price for the size"
     ],
     cons: [
       "Still marketed and built as single-user, not two-person",
       "Only 3 height presets shared between users",
-      "No doubled cable management for two full workstations",
+      "No doubled cable management for two full workstations"
     ],
     bestFor: "Two people who need the closest single-user substitute to a shared desk when the HSH is not an option",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Stability across a long or wide span",
     description: "Considered whether wider desks show signs of center sag or wobble risk under a heavier two-person load, especially on fixed-height designs without a center support.",
-  },
+  }
 ];
 
 export interface HowToChooseSection {
@@ -477,12 +477,12 @@ export const faq: FaqItem[] = [
   {
     q: "Will a wide single-surface desk sag in the middle under two people's equipment?",
     a: "Desks spanning 72 inches or more without a center leg support are more prone to visible midpoint sag under a loaded two-person setup. None of the picks in this guide reach that width, but it is worth checking for a center support on any wider desk you consider elsewhere.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-standing-desk-frames", title: "Best Standing Desk Frames for Desktop Compatibility (2026)" },
   { href: "/guide/best-standing-desks-for-heavy-setups", title: "Best Standing Desks for Heavy Setups (2026)" },
   { href: "/guide/best-dual-motor-standing-desks", title: "Best Dual-Motor Standing Desks (2026)" },
-  { href: "/guide/best-standing-desks-with-storage", title: "Best Standing Desks with Storage (2026)" },
+  { href: "/guide/best-standing-desks-with-storage", title: "Best Standing Desks with Storage (2026)" }
 ];

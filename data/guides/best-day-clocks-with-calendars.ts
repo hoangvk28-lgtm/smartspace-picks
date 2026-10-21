@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "day clock with calendar";
 export const introParagraphs = [
   "Day clocks with calendars show the day of the week, date, and time in large text, primarily built for seniors, memory care, and anyone who benefits from a clear at-a-glance date reference beyond a standard clock.",
-  "We compared real screen sizes, alarm counts, and dimming features rather than assuming every listing serves the same use case, since several of these are explicitly marketed for dementia care while others are general-purpose large-display clocks.",
+  "We compared real screen sizes, alarm counts, and dimming features rather than assuming every listing serves the same use case, since several of these are explicitly marketed for dementia care while others are general-purpose large-display clocks."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -97,7 +97,7 @@ export const products: GuideProduct[] = [
     description: "Clock with Day and Date for Elderly,7\" Large Display Digital Calendar Clock and is built around hd display & larg font, positioning it for a general-purpose desk accessory buyers specifically.\n\n20 Normal Alarms & 20 Custom Reminders is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for a general-purpose desk accessory, though as with any purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["HD Display & Larg Font","20 Normal Alarms & 20 Custom Reminders","One-Touch Sleep Mode & 10-Level Brightness"],
     pros: ["HD Display & Larg Font, confirmed directly in the listing's own spec details","20 Normal Alarms & 20 Custom Reminders, confirmed directly in the listing's own spec details","One-Touch Sleep Mode & 10-Level Brightness, confirmed directly in the listing's own spec details"],
-    cons: ["At $25.49, worth comparing against similarly specced desk accessories before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $30, worth comparing against similarly specced desk accessories before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for a general-purpose desk accessory",
   }
 
@@ -108,7 +108,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Screen size and readability compared directly", description: "We noted actual confirmed screen dimensions rather than assuming \"large display\" means the same thing across listings." },
   { title: "Distinguished dementia-care-specific products from general clocks", description: "We flagged where a product is explicitly marketed for memory care versus general large-display use, since alarm count and configuration needs differ meaningfully." },
   { title: "Alarm count weighted for caregiving use cases", description: "We treated a high alarm count as a genuine caregiving feature (medication reminders, activity schedules), not a marketing checkbox." },
-  { title: "Noted atomic sync and auto-dimming as concrete, verifiable features", description: "We distinguished real hardware features like radio time sync and automatic brightness adjustment from general marketing language." },
+  { title: "Noted atomic sync and auto-dimming as concrete, verifiable features", description: "We distinguished real hardware features like radio time sync and automatic brightness adjustment from general marketing language." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -246,13 +246,13 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "Which clock has the most alarm options?", a: "The SSINI Digital Calendar Dementia Alarm Clock, with 15 alarm slots, followed by the SSYA pick with 12." },
   { q: "Is there an option with automatic time sync?", a: "Yes, the La Crosse Technology Atomic Full Calendar Clock uses atomic radio sync, though verify signal reliability in your specific area." },
-  { q: "What's the cheapest option?", a: "The Clock with Day and Date for Elderly, 7 inch, at $25.49." },
+  { q: "What's the cheapest option?", a: "The Clock with Day and Date for Elderly, 7 inch, at under $30." },
   { q: "Is there a bedroom-friendly option with dimming?", a: "Yes, the SSYA 7 Inch Calendar Clock includes 5-level auto-dimming for nighttime use." },
-  { q: "Are these actually designed for dementia care, or just marketed that way?", a: "The SSINI pick is explicitly marketed for dementia and memory care with a high alarm count suited to caregiving schedules; other picks here are general large-display clocks that also work for this use case." },
+  { q: "Are these actually designed for dementia care, or just marketed that way?", a: "The SSINI pick is explicitly marketed for dementia and memory care with a high alarm count suited to caregiving schedules; other picks here are general large-display clocks that also work for this use case." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-time-displays", title: "Best Time Displays (2026)" },
   { href: "/guide/best-large-digital-calendar-displays", title: "Best Large Digital Calendar Displays (2026)" },
-  { href: "/guide/best-desk-clocks-without-alarms", title: "Best Desk Clocks Without Alarms (2026)" },
+  { href: "/guide/best-desk-clocks-without-alarms", title: "Best Desk Clocks Without Alarms (2026)" }
 ];

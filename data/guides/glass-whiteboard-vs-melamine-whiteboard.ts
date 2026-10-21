@@ -12,7 +12,7 @@ export const glassWhiteboardVsMelamineWhiteboardGuide: Guide = {
     "glass whiteboard worth it",
     "melamine whiteboard ghosting",
     "best whiteboard surface material",
-    "glass board vs standard whiteboard",
+    "glass board vs standard whiteboard"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const glassWhiteboardVsMelamineWhiteboardGuide: Guide = {
     "whiteboard-size-guide",
     "magnetic-vs-non-magnetic-whiteboard",
     "whiteboard-vs-corkboard",
-    "wall-mounted-vs-desktop-planner-board",
+    "wall-mounted-vs-desktop-planner-board"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const glassWhiteboardVsMelamineWhiteboardGuide: Guide = {
       question: "Does melamine wear out faster than glass overall?",
       answer:
         "Yes, melamine surfaces are more prone to scratching and staining over years of regular use, while glass resists both far more effectively, though melamine's lower cost makes it a reasonable choice for lighter or shorter-term use.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const glassWhiteboardVsMelamineWhiteboardGuide: Guide = {
     {
       heading: "Weighing the Premium Cost Against Actual Usage Intensity",
       body: `If your whiteboard will see years of heavy daily use, the ghosting resistance and durability of glass genuinely pays off in maintained usability and appearance over that timeframe, justifying its higher upfront cost. If your use is lighter, occasional, or you anticipate replacing or upgrading your setup relatively soon anyway, melamine's lower cost and adequate performance for shorter-term or lighter use makes it the more practical choice without overpaying for durability you won't fully utilize.`,
-    },
+    }
   ],
 };

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable expanding file boxes";
 export const introParagraphs = [
   "\"Expanding\" genuinely refers to an accordion-style expanding file folder, a soft, pocket-divided document organizer, not a rigid box with an expandable capacity mechanism. This is a fundamentally different product category than the rigid hanging-file boxes covered throughout most of our broader file box research.",
-  "We verified pocket and divider count as the relevant spec here, distinct from the hanging-rail-compatibility spec relevant to rigid boxes, and addressed the structural rigidity tradeoff similarly to our soft-sided tote bag research.",
+  "We verified pocket and divider count as the relevant spec here, distinct from the hanging-rail-compatibility spec relevant to rigid boxes, and addressed the structural rigidity tradeoff similarly to our soft-sided tote bag research."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine accordion-style verification", description: "We confirmed each pick is genuinely a soft, pocket-divided accordion file, not a rigid box with an expandable capacity mechanism, since these represent fundamentally different products." },
   { title: "Pocket and divider count as the relevant spec", description: "We treated pocket count as this category's genuine differentiating spec, distinct from the hanging-rail compatibility relevant to rigid boxes." },
   { title: "Structural rigidity vs. rigid box tradeoff", description: "We addressed this similarly to our soft-sided tote bag research, since accordion files share the soft-sided-versus-rigid-box protection tradeoff." },
-  { title: "Letter vs. A4 compatibility disclosure", description: "We noted which picks explicitly confirm A4 compatibility alongside standard letter sizing, a genuine international-buyer consideration." },
+  { title: "Letter vs. A4 compatibility disclosure", description: "We noted which picks explicitly confirm A4 compatibility alongside standard letter sizing, a genuine international-buyer consideration." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -224,11 +224,11 @@ export const faq: FaqItem[] = [
   { q: "How many pockets do I actually need?", a: "This varies by your document category count. This comparison ranges from 13 to 26 pockets; count your realistic distinct categories before choosing." },
   { q: "Does an accordion file protect documents as well as a rigid box?", a: "No, it offers meaningfully less structural protection against bending or crushing than a rigid box, similar to the tradeoff identified in our soft-sided tote bag research." },
   { q: "Are these compatible with A4 paper?", a: "Some picks explicitly confirm letter/A4 dual compatibility, like the Sooez 13-Pocket Letter/A4 pick. Verify this specifically if you're an international buyer using A4 documents." },
-  { q: "Can I use hanging file folders with an accordion file?", a: "No, accordion files use their own built-in pocket dividers rather than accepting external hanging folders. This is a genuinely different organizational mechanism than a rigid rail-based box." },
+  { q: "Can I use hanging file folders with an accordion file?", a: "No, accordion files use their own built-in pocket dividers rather than accepting external hanging folders. This is a genuinely different organizational mechanism than a rigid rail-based box." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-file-tote-bags", title: "Best Portable File Tote Bags (2026)" },
   { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" },
-  { href: "/guide/best-portable-a4-file-boxes", title: "Best Portable A4 File Boxes (2026)" },
+  { href: "/guide/best-portable-a4-file-boxes", title: "Best Portable A4 File Boxes (2026)" }
 ];

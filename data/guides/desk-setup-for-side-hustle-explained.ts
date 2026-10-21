@@ -12,7 +12,7 @@ export const deskSetupForSideHustleExplainedGuide: Guide = {
     "desk setup for side business",
     "sharing desk main job and side hustle",
     "scaling desk setup gradually",
-    "separate workspace side project",
+    "separate workspace side project"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskSetupForSideHustleExplainedGuide: Guide = {
     "desk-setup-budget-planning-explained",
     "multi-purpose-room-desk-setup",
     "desk-temperature-zone-management",
-    "kvm-switch-explained",
+    "kvm-switch-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskSetupForSideHustleExplainedGuide: Guide = {
       question: "At what point does a side hustle justify a genuinely separate, dedicated desk setup?",
       answer:
         "Once the side hustle generates consistent revenue justifying the investment, or once time demands from both activities create genuine scheduling conflicts at a shared desk, these are reasonable signals that a dedicated separate setup has become worth the additional cost and space.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const deskSetupForSideHustleExplainedGuide: Guide = {
     {
       heading: "Why Keeping Materials Separate Matters Even When Equipment Is Shared",
       body: `Regardless of whether the physical desk and core equipment are shared between a main job and a side hustle, keeping the actual working materials, files, folders, physical documents, genuinely separate serves multiple important purposes, it reduces the practical confusion of mixing two different work contexts together, and it can address genuine confidentiality concerns, particularly if your main employer's work involves any information that shouldn't overlap or be visible alongside personal side venture materials, this separation is worth maintaining as a matter of practice regardless of how much physical equipment ends up being shared between the two activities.`,
-    },
+    }
   ],
 };

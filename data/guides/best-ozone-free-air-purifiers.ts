@@ -5,7 +5,7 @@ export const metaDescription = "5 ozone-free air purifiers we evaluated, with th
 export const mainKeyword = "ozone-free air purifier";
 export const introParagraphs = [
   "Marketing terms like 'ionic' or 'plasma' don't automatically mean a unit generates ozone, but the EPA has flagged elevated ozone concentrations as a lung irritant, worth verifying the actual mechanism rather than assuming from branding language alone.",
-  "A genuinely ozone-free unit relies on mechanical HEPA filtration and activated carbon rather than any ion-generating or corona-discharge technology, the mechanical-only approach is the most reliable way to avoid ozone byproduct entirely.",
+  "A genuinely ozone-free unit relies on mechanical HEPA filtration and activated carbon rather than any ion-generating or corona-discharge technology, the mechanical-only approach is the most reliable way to avoid ozone byproduct entirely."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Ozone-Free Air Purifier Overall",
     name: "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom, H13 True HEPA Filter, 24db Filtration System Cleaner Odor Eliminators, Remove 99.97% Dust Smoke Mold Pollen, Core 300, White",
     price: "$89.99",
-    rating: "4.7 stars from 108,251 Amazon ratings",
-    reviews: "108,251 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Established Brand Ozone-Free Pick",
     name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
-    rating: "4.6 stars from 28,866 Amazon ratings",
-    reviews: "28,866 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419pAe7T0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTKAPUU?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Ozone-Free Pick with Odor Control",
     name: "WINIX 5520 Air Purifier with PlasmaWave Technology",
     price: "$179.99",
-    rating: "4.6 stars from 31,954 Amazon ratings",
-    reviews: "31,954 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Wb8TGSnPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT4F8T4L?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Ozone-Free Pick",
     name: "Membrane Solutions MSA3 Air Purifier for Home",
     price: "$99.39",
-    rating: "4.5 stars from 10,110 Amazon ratings",
-    reviews: "10,110 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31CcBFzC6wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08ND7C7P4?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Coverage Ozone-Free Pick",
     name: "LEVOIT Smart Air Purifier for Home Large Room up to 1875 ft Vital 200S-P",
     price: "$174.99",
-    rating: "4.7 stars from 14,571 Amazon ratings",
-    reviews: "14,571 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Large rated coverage with a mechanical-only ozone-free design", "Smart app control for monitoring", "Large, well-established review base", "Genuine headroom for a larger room"],
     cons: ["Higher price than budget alternatives", "Larger footprint than compact picks", "No air quality sensor"],
     bestFor: "Larger rooms wanting verified ozone-free operation with extra coverage headroom",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Branding language versus actual mechanism verified", description: "Considered that marketing terms like 'ionic' or 'plasma' don't automatically mean a unit generates ozone, and verified the actual filtration mechanism rather than assuming from branding alone." },
   { title: "EPA ozone-irritant context applied", description: "Weighed that the EPA has flagged elevated ozone concentrations as a lung irritant, a relevant health context for buyers specifically seeking ozone-free operation." },
-  { title: "Mechanical-only filtration favored where disclosed", description: "Prioritized picks relying on mechanical HEPA filtration and activated carbon rather than any ion-generating or corona-discharge technology as the most reliable way to avoid ozone byproduct." },
+  { title: "Mechanical-only filtration favored where disclosed", description: "Prioritized picks relying on mechanical HEPA filtration and activated carbon rather than any ion-generating or corona-discharge technology as the most reliable way to avoid ozone byproduct." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Should I double-check specifications if I'm sensitive to ozone?", a: "Yes. Product specifications and technology names can change between model revisions, verify the current published specification for the exact model you're considering rather than relying on a general marketing description." },
   { q: "Do ozone-free air purifiers control odor as well as ion-assisted ones?", a: "Often somewhat less aggressively. A mechanical-only unit relies on activated carbon alone for odor control, which can be a real tradeoff for buyers prioritizing the ozone-free guarantee over maximum odor control." },
   { q: "How do I confirm a purifier is genuinely ozone-free rather than just low-ozone?", a: "Look for CARB certification specifically, a recognized regulatory standard that caps ozone emissions, rather than trusting a marketing claim of 'ozone-free' alone without that independent verification." },
-  { q: "Is an ionizer feature always a source of ozone in an air purifier?", a: "Most ionizers do produce trace ozone as a byproduct, though some models let you disable the ionizer function specifically while keeping mechanical HEPA filtration active, check the specific listing for that toggle option." },
+  { q: "Is an ionizer feature always a source of ozone in an air purifier?", a: "Most ionizers do produce trace ozone as a byproduct, though some models let you disable the ionizer function specifically while keeping mechanical HEPA filtration active, check the specific listing for that toggle option." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-hepa-air-purifiers", title: "Best HEPA Air Purifiers (2026)" },
   { href: "/guide/best-air-purifiers-for-allergies", title: "Best Air Purifiers for Allergies (2026)" },
-  { href: "/guide/best-air-purifiers-for-odors", title: "Best Air Purifiers for Odors (2026)" },
+  { href: "/guide/best-air-purifiers-for-odors", title: "Best Air Purifiers for Odors (2026)" }
 ];

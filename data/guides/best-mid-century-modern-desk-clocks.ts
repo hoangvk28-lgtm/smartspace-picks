@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mid-century modern desk clock";
 export const introParagraphs = [
   "If you're after a genuine mid-century modern desk clock, think starburst shapes, walnut or teak tones, tapered wood legs, we should say upfront that this is a thin category in the verified product pool we researched. Mid-century modern, art deco, industrial, and nautical desk clocks are all niche style categories that mainstream Amazon inventory doesn't cover deeply, most listings default to generic modern or plain designs rather than committing to a specific historical aesthetic.",
-  "Rather than stretch a plain clock into a mid-century modern label it doesn't earn, we're covering the one pick in our pool with genuinely simple, clean lines that echo the era's restraint, clearly caveated as not an explicitly styled mid-century piece. See our art deco desk clocks guide for the same honest treatment of a different niche style, we cover both because the underlying gap is the same across all four style categories.",
+  "Rather than stretch a plain clock into a mid-century modern label it doesn't earn, we're covering the one pick in our pool with genuinely simple, clean lines that echo the era's restraint, clearly caveated as not an explicitly styled mid-century piece. See our art deco desk clocks guide for the same honest treatment of a different niche style, we cover both because the underlying gap is the same across all four style categories."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "5 min";
@@ -43,7 +43,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine mid-century styled products searched for and not found", description: "Searched our verified inventory specifically for starburst, walnut-tone, or tapered-leg design elements and did not find a genuine match." },
   { title: "Declined to relabel a generic clock as mid-century styled", description: "Avoided stretching plain product descriptions to imply a specific historical aesthetic the listing itself does not claim." },
   { title: "Included one alternative only with a clear caveat", description: "Kept a single closest-available pick in the guide rather than omitting product coverage entirely, explicitly labeled as not genuinely mid-century styled." },
-  { title: "Cross-referenced the other thin style-niche guides", description: "Connected this guide to the art deco, industrial, and nautical desk clock searches, all of which share the same underlying inventory gap." },
+  { title: "Cross-referenced the other thin style-niche guides", description: "Connected this guide to the art deco, industrial, and nautical desk clock searches, all of which share the same underlying inventory gap." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -138,11 +138,11 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "Why don't you have more mid-century modern desk clock picks?", a: "Our verified product research did not turn up genuine mid-century modern styled desk clocks. Rather than mislabel a generic clock, we're covering the gap honestly with one closest available alternative." },
   { q: "Where can I find a genuine mid-century modern desk clock?", a: "Dedicated home decor and furniture retailers, or a more specific search like \"mid-century clock\" rather than \"desk clock,\" tend to surface more style-committed results." },
-  { q: "Is the DecoMates clock actually mid-century styled?", a: "No. It's a plain, simple design we're including as the closest available alternative in our pool, clearly caveated as not genuinely mid-century styled." },
+  { q: "Is the DecoMates clock actually mid-century styled?", a: "No. It's a plain, simple design we're including as the closest available alternative in our pool, clearly caveated as not genuinely mid-century styled." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-art-deco-desk-clocks", title: "Art Deco Desk Clocks in 2026: An Honest Guide" },
   { href: "/guide/best-minimalist-desk-clocks", title: "Best Minimalist Desk Clocks (2026)" },
-  { href: "/guide/best-executive-desk-clocks", title: "Best Executive Desk Clocks (2026)" },
+  { href: "/guide/best-executive-desk-clocks", title: "Best Executive Desk Clocks (2026)" }
 ];

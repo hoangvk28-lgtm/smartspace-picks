@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A screen-lock privacy feature with dual 4K support", "MOKiN USB C Docking Station"],
         ["To verify your exact laptop model against a detailed list", "USB C Laptop Docking Station, 14-in-1"],
         ["The lowest price with gaming handheld compatibility", "11-in-1 USB C Hub with VGA"],
-        ["A detachable dock-plus-hub design", "Anker Nano Laptop Docking Station"],
+        ["A detachable dock-plus-hub design", "Anker Nano Laptop Docking Station"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $15", "11-in-1 USB C Hub with VGA ($14.88)"],
-        ["Under $30", "MOKiN USB C Docking Station ($29.99)"],
-        ["Under $50", "USB C Laptop Docking Station, 14-in-1 ($49.99)"],
-        ["Under $120", "Anker Nano Laptop Docking Station ($119.99)"],
+        ["Under $15", "11-in-1 USB C Hub with VGA (under $15)"],
+        ["Under $30", "MOKiN USB C Docking Station (under $30)"],
+        ["Under $50", "USB C Laptop Docking Station, 14-in-1 (under $50)"],
+        ["Under $120", "Anker Nano Laptop Docking Station (under $120)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Ultra-Budget Simple Hub vs Complete Docking Package",
     cards: [
       { label: "Ultra-budget simple hub (11-in-1 with VGA)", text: "Delivers essential ports and legacy VGA support at the lowest possible price, without an included power adapter or detachable design." },
-      { label: "Complete docking package (Anker Nano)", text: "Includes the power adapter, cable, and warranty in one complete package, at a meaningfully higher price for that completeness." },
+      { label: "Complete docking package (Anker Nano)", text: "Includes the power adapter, cable, and warranty in one complete package, at a meaningfully higher price for that completeness." }
     ],
     note: "If budget is your top priority and you already own compatible cables and a power adapter, the 11-in-1 hub delivers real value. If you want everything included and ready to use out of the box, the Anker Nano's higher price reflects that completeness.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your device", "Recommended pick"],
       rows: [
         ["Gaming handheld or console (Steam Deck, ROG Ally)", "11-in-1 USB C Hub with VGA"],
-        ["Named Dell, HP, or Lenovo business laptop", "USB C Laptop Docking Station, 14-in-1"],
+        ["Named Dell, HP, or Lenovo business laptop", "USB C Laptop Docking Station, 14-in-1"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Shared or Public Workspaces Specifically",
     cards: [
       { label: "Look for", text: "A dock with a screen-lock or privacy button, so you can instantly hide sensitive information on your screens when stepping away from a shared or public desk." },
-      { label: "In this comparison", text: "The MOKiN pick specifically includes a screen lock button that turns off connected screens with a short press." },
+      { label: "In this comparison", text: "The MOKiN pick specifically includes a screen lock button that turns off connected screens with a short press." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want a detachable dock-plus-hub design with a complete package including a power adapter, where the Anker Nano justifies its $119.99 price." },
-      { label: "Save if", text: "You just need essential ports and legacy VGA support, where the 11-in-1 hub delivers that for $14.88, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You want a detachable dock-plus-hub design with a complete package including a power adapter, where the Anker Nano justifies its under $120 price." },
+      { label: "Save if", text: "You just need essential ports and legacy VGA support, where the 11-in-1 hub delivers that for under $15, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

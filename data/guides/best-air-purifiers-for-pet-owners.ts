@@ -5,7 +5,7 @@ export const metaDescription = "5 air purifiers we evaluated for pet owners, cov
 export const mainKeyword = "air purifier for pet owners";
 export const introParagraphs = [
   "Pet ownership brings three distinct air-quality issues at once, hair, dander, and odor, and a purifier optimized for one doesn't automatically handle the other two equally well, a distinction most buying guides collapse into one generic recommendation.",
-  "Activated carbon layer thickness genuinely affects how long odor control lasts between filter changes, since a thin carbon layer saturates with pet odor compounds faster than a thicker one, a spec rarely called out but worth checking before buying.",
+  "Activated carbon layer thickness genuinely affects how long odor control lasts between filter changes, since a thin carbon layer saturates with pet odor compounds faster than a thicker one, a spec rarely called out but worth checking before buying."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Air Purifier for Pet Owners Overall",
     name: "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom, H13 True HEPA Filter, 24db Filtration System Cleaner Odor Eliminators, Remove 99.97% Dust Smoke Mold Pollen, Core 300, White",
     price: "$89.99",
-    rating: "4.7 stars from 108,251 Amazon ratings",
-    reviews: "108,251 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Odor Control",
     name: "WINIX 5520 Air Purifier with PlasmaWave Technology",
     price: "$179.99",
-    rating: "4.6 stars from 31,954 Amazon ratings",
-    reviews: "31,954 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Wb8TGSnPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT4F8T4L?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Dander-Sensitive Households",
     name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
-    rating: "4.6 stars from 28,866 Amazon ratings",
-    reviews: "28,866 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419pAe7T0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTKAPUU?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Airflow Pick for Hair",
     name: "Blueair Air Purifiers for Home Large Room, 211i Max Air Purifier for Bedroom, HEPASilent Technology Removes 99.97% of Airborne Viruses, Allergens, Dust, Mold, Odors, Air Quality Sensor",
     price: "$349.00",
-    rating: "4.5 stars from 3,559 Amazon ratings",
-    reviews: "3,559 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31K9NLoXncL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BN2MGV5H?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick for Pet Owners",
     name: "Germ Guardian True HEPA Filter Air Purifier for Home",
     price: "$80.74",
-    rating: "4.6 stars from 63,485 Amazon ratings",
-    reviews: "63,485 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/316AtkHoSdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004VGIGVY?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Lowest price in this guide", "Large, well-established review base", "True HEPA captures hair and dander", "Compact footprint"],
     cons: ["Not specialized for heavy odor or heavy shedding", "No filter indicator", "Fewer smart features than premium alternatives"],
     bestFor: "Budget-conscious single-pet owners with a moderate combined load",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Hair, dander, and odor treated as distinct issues", description: "Recognized that pet ownership brings three distinct air-quality issues at once, and a purifier optimized for one doesn't automatically handle the other two equally well." },
   { title: "Activated carbon layer depth for odor control", description: "Weighed that a thin carbon layer saturates with pet odor compounds faster than a thicker one, a spec that genuinely affects how long odor control lasts between filter changes." },
-  { title: "Airflow relevance to hair versus dander and odor", description: "Distinguished that higher airflow matters more for pet hair specifically, since hair particles are physically larger and heavier than dander or odor molecules." },
+  { title: "Airflow relevance to hair versus dander and odor", description: "Distinguished that higher airflow matters more for pet hair specifically, since hair particles are physically larger and heavier than dander or odor molecules." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -247,11 +247,11 @@ export const faq: FaqItem[] = [
   { q: "Do I need a different air purifier for a shedding breed versus a low-shedding pet?", a: "Airflow matters more for hair than for dander or odor, since hair particles are physically larger and heavier. A heavy-shedding breed benefits from a higher-airflow pick like the Blueair 211i Max." },
   { q: "Should I buy a bigger air purifier if I have multiple pets?", a: "Likely yes. More pets mean proportionally more hair, dander, and odor load moving through the same filtration system, size up in coverage and airflow for a multi-pet home." },
   { q: "Does a pet-specific air purifier differ meaningfully from a standard HEPA model?", a: "The real differences usually come from a dedicated pre-filter for hair and an activated carbon stage sized for odor, not a fundamentally different core filtration technology than a standard true HEPA purifier." },
-  { q: "How often should I clean pet hair off a purifier's intake vents?", a: "Check weekly in a multi-pet home, since accumulated hair on the intake mesh can restrict airflow and force the fan to work harder, reducing both effectiveness and filter life over time." },
+  { q: "How often should I clean pet hair off a purifier's intake vents?", a: "Check weekly in a multi-pet home, since accumulated hair on the intake mesh can restrict airflow and force the fan to work harder, reducing both effectiveness and filter life over time." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-air-purifiers-for-pet-hair", title: "Best Air Purifiers for Pet Hair (2026)" },
   { href: "/guide/best-air-purifiers-for-dust-and-pet-hair", title: "Best Air Purifiers for Dust and Pet Hair (2026)" },
-  { href: "/guide/best-air-purifiers-for-allergies", title: "Best Air Purifiers for Allergies (2026)" },
+  { href: "/guide/best-air-purifiers-for-allergies", title: "Best Air Purifiers for Allergies (2026)" }
 ];

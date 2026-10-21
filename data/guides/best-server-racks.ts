@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31t+0aeG+DL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CR5GS5X2?tag=deskfinds0d-20",
-    description: "At 30U this is one of the taller open-frame rolling racks in the AxcessAbles line, giving you real headroom for a growing home lab or studio rack without going to a fully enclosed cabinet.\n\nThe same 18-inch depth and removable side panel design carries over from the smaller models, so airflow and access stay consistent as you scale up in height.\n\nThis pick is best for buyers who value tall 30U build fits a growing equipment stack along with removable panels switch between open and closed setups. The catch is that tall and narrow footprint needs a stable floor, so decide if that's worth it at $299.99.",
+    description: "At 30U this is one of the taller open-frame rolling racks in the AxcessAbles line, giving you real headroom for a growing home lab or studio rack without going to a fully enclosed cabinet.\n\nThe same 18-inch depth and removable side panel design carries over from the smaller models, so airflow and access stay consistent as you scale up in height.\n\nThis pick is best for buyers who value tall 30U build fits a growing equipment stack along with removable panels switch between open and closed setups. The catch is that tall and narrow footprint needs a stable floor, so decide if that's worth it at under $300.",
     specs: ["30U height, 18\" depth","550 lb static / 440 lb rolling capacity","Removable vented side panels"],
     pros: ["Tall 30U build fits a growing equipment stack","Removable panels switch between open and closed setups","Includes both screw standards for mixed-brand gear"],
     cons: ["Tall and narrow footprint needs a stable floor","No lockable door for equipment security"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/3172xcdFNxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07XWL296H?tag=deskfinds0d-20",
-    description: "This 16U case splits the difference between a fully open frame and an enclosed cabinet, with optional side panels you can install only if you don't need the extra airflow of an open design.\n\nIt's aimed squarely at studio and DJ setups as much as server gear, with removable 3-inch casters that add weight capacity flexibility once removed.\n\nWhat stands out here is side panels are optional, letting you choose open or closed, plus removing casters bumps capacity for heavier gear. The main tradeoff: side panels don't bear weight if you rely on them, so weigh that against the $194.99 price before buying.",
+    description: "This 16U case splits the difference between a fully open frame and an enclosed cabinet, with optional side panels you can install only if you don't need the extra airflow of an open design.\n\nIt's aimed squarely at studio and DJ setups as much as server gear, with removable 3-inch casters that add weight capacity flexibility once removed.\n\nWhat stands out here is side panels are optional, letting you choose open or closed, plus removing casters bumps capacity for heavier gear. The main tradeoff: side panels don't bear weight if you rely on them, so weigh that against the under $200 price before buying.",
     specs: ["16U, 18\" depth, 34.5\" assembled height","550 lb static / 440 lb rolling","Optional non-weight-bearing side panels"],
     pros: ["Side panels are optional, letting you choose open or closed","Removing casters bumps capacity for heavier gear","Works well for AV and studio rack duty, not just servers"],
     cons: ["Side panels don't bear weight if you rely on them","Assembly required before it's ready to load"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/517WeovYvrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSJR2RZB?tag=deskfinds0d-20",
-    description: "Tecmojo's 12U open frame rack ships with two vented 1U shelves already in the box, which is a nice touch since most competitors sell shelves separately.\n\nIt's rated for 260 lbs floor-mounted but drops to 130 lbs if you wall-mount it instead, so plan your equipment load around which install method you're using.\n\nThe strongest case for this pick comes down to two vented shelves included instead of sold separately as well as anti-slip shelf stops keep gear from sliding. The compromise here is that wall-mount capacity is half of floor-standing capacity, so factor that in alongside the $89.90 asking price.",
+    description: "Tecmojo's 12U open frame rack ships with two vented 1U shelves already in the box, which is a nice touch since most competitors sell shelves separately.\n\nIt's rated for 260 lbs floor-mounted but drops to 130 lbs if you wall-mount it instead, so plan your equipment load around which install method you're using.\n\nThe strongest case for this pick comes down to two vented shelves included instead of sold separately as well as anti-slip shelf stops keep gear from sliding. The compromise here is that wall-mount capacity is half of floor-standing capacity, so factor that in alongside the under $90 asking price.",
     specs: ["12U, cold rolled steel frame","260 lb floor / 130 lb wall capacity","2 vented 1U shelves included"],
     pros: ["Two vented shelves included instead of sold separately","Anti-slip shelf stops keep gear from sliding","Stackable design lets you expand later"],
     cons: ["Wall-mount capacity is half of floor-standing capacity","Open frame offers no dust or theft protection"],
@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $89.90",
+          "Under $90",
           "Tecmojo 12U Open Frame Network Rack"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "AxcessAbles 12U Network Rack with Wheels"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "Raising Electronics 27U 4-Post Open Rack Frame"
         ],
         [
-          "Around $194.99",
+          "Under $200",
           "AxcessAbles 16U AV Case with Wheels"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "AxcessAbles 22U Rolling IT Server Rack"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "AxcessAbles 30U Rolling Network Server Rack"
         ],
         [
-          "Around $357.99",
+          "Under $400",
           "StarTech 42U 4-Post Open Frame Rack"
         ],
         [
-          "Around $469.99",
+          "Under $500",
           "NavePoint 22U Server Cabinet Wall Mount Rack Enclosure"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "AxcessAbles 12U Network Rack with Wheels is aimed at buyers prioritizing 18\" usable depth, 1.5mm steel frame." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "AxcessAbles 12U Network Rack with Wheels is aimed at buyers prioritizing 18\" usable depth, 1.5mm steel frame." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"},{"href":"/guide/best-small-server-racks","title":"Best Small Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"}];

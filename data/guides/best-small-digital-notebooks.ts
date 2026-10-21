@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small digital notebook";
 export const introParagraphs = [
   "Every current product that shows up for \"small digital notebook\" turned out to be a Rocketbook reusable-paper notebook in a different size, not a compact E Ink tablet. That's a real finding, not a coincidence: E Ink devices like the reMarkable and Kindle Scribe are built around a fixed 10-11 inch writing surface, so \"small\" in this category almost always means a smaller reusable paper notebook you erase with a damp cloth, not a smaller electronic screen.",
-  "We set a real size cutoff instead of just repeating whichever product had \"small\" in the title: to qualify here, a notebook has to be genuinely pocket- or bag-friendly on its own, not merely smaller than the largest option in the lineup.",
+  "We set a real size cutoff instead of just repeating whichever product had \"small\" in the title: to qualify here, a notebook has to be genuinely pocket- or bag-friendly on its own, not merely smaller than the largest option in the lineup."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -47,7 +47,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41E9SFRPDeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CZF628C?tag=deskfinds0d-20",
     description: "The most reviewed product in this comparison by a wide margin, which matters for a reusable-paper product where the erase mechanism and page durability need to hold up over many cycles. Spiral binding makes it lie flatter on a small surface than the Mini's notepad format.\n\nOne spot below Rocketbook Mini Reusable Smart Notepad in this ranking, it's priced lower than Rocketbook Mini Reusable Smart Notepad. The compromise here is straightforward: Same scan-and-erase limitation as the rest of the Rocketbook lineup. What you gain in return: Largest review base of any pick here, useful evidence of long-term durability. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Lowest price in this comparison. On the other side, Spiral wire can catch on bag pockets over time. That's the main tradeoff to weigh against everything above.",
-    specs: ["Mini spiral-bound size","Reusable via damp-cloth erase","11,065 reviews at 4.4 stars","Same FriXion-pen erase system as other Rocketbook sizes"],
+    specs: ["Mini spiral-bound size","Reusable via damp-cloth erase","Same FriXion-pen erase system as other Rocketbook sizes"],
     pros: ["Largest review base of any pick here, useful evidence of long-term durability","Lowest price in this comparison","Spiral binding lies flat for writing"],
     cons: ["Same scan-and-erase limitation as the rest of the Rocketbook lineup","Spiral wire can catch on bag pockets over time"],
     bestFor: "Buyers who want the most field-tested small reusable notebook rather than a newer, less-reviewed size.",
@@ -63,7 +63,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41BvyAlSv+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DP3HLY4J?tag=deskfinds0d-20",
     description: "Executive size (6x8.8 in) is the middle ground between the pocket-only Mini and a full letter pad: still small enough for most bags, but with meaningfully more writing area per page than the Mini. This is the Core line, Rocketbook's standard dot-grid notebook rather than the planner-formatted Fusion line.\n\nSitting just under Rocketbook Smart Reusable Notebook, it costs more than Rocketbook Smart Reusable Notebook. Here's the honest tradeoff: Not pocket-size, needs a bag, not just a coat pocket. And here's what it gets you instead: Noticeably more writing area than the Mini without becoming bag-unfriendly. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Highest rating of the small-format Rocketbook options. On the other side, Still requires the specific FriXion pen to erase properly. That's the main tradeoff to weigh against everything above.",
-    specs: ["6 x 8.8 in executive size","Core (dot-grid) page layout","Reusable via damp-cloth erase","4.5 stars"],
+    specs: ["6 x 8.8 in executive size","Core (dot-grid) page layout","Reusable via damp-cloth erase"],
     pros: ["Noticeably more writing area than the Mini without becoming bag-unfriendly","Highest rating of the small-format Rocketbook options","Standard dot-grid works for both notes and light sketching"],
     cons: ["Not pocket-size, needs a bag, not just a coat pocket","Still requires the specific FriXion pen to erase properly"],
     bestFor: "Buyers who found the Mini's writing area too cramped but still want something bag-portable.",
@@ -95,7 +95,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41DUQEUXetL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHZ82DK?tag=deskfinds0d-20",
     description: "The highest-rated and most-reviewed product across the entire small-digital-notebook search, but it's a letter-size planner, not a compact notebook. It's included because it shows the ceiling of what this product family can do (calendar pages, to-do templates, goal trackers built into the reusable pages), which the truly small formats above don't offer.\n\nOne spot below Rocketbook Core Reusable Smart Notebook in this ranking, it costs more than Rocketbook Core Reusable Smart Notebook. The compromise here is straightforward: Full letter size, not compact. What you gain in return: Highest rating and by far the largest review count in this entire comparison. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Built-in planning templates beyond plain dot-grid pages. On the other side, Planner templates add cost most small-notebook buyers don't need. That's the main tradeoff to weigh against everything above.",
-    specs: ["Letter size, undated planner layout","Fusion line: built-in planner/calendar page templates","Reusable via damp-cloth erase","26,593 reviews at 4.6 stars"],
+    specs: ["Letter size, undated planner layout","Fusion line: built-in planner/calendar page templates","Reusable via damp-cloth erase"],
     pros: ["Highest rating and by far the largest review count in this entire comparison","Built-in planning templates beyond plain dot-grid pages"],
     cons: ["Full letter size, not compact","Planner templates add cost most small-notebook buyers don't need"],
     bestFor: "Buyers who want the most proven product in the Rocketbook lineup and don't actually need a small footprint.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Actual measured footprint", description: "We used the manufacturer-listed page dimensions for each size (Mini 3.5x5.5, Executive 6x8.8, Letter 8.5x11) rather than relying on marketing language like \"compact\" or \"travel-friendly.\"" },
   { title: "Product category, not just page size", description: "We flagged that every result here is a reusable-paper Rocketbook, not an E Ink tablet, since the two solve different problems and buyers searching \"small digital notebook\" may actually want either." },
   { title: "Review volume as a durability signal", description: "For a reusable notebook, the erase cycle and page coating are the parts most likely to wear out. We weighted review count as evidence of how many people have put a given size through repeated use." },
-  { title: "Writing area vs. portability tradeoff", description: "We ranked from most pocket-friendly to least, so buyers can see exactly how much page space they give up at each size step down." },
+  { title: "Writing area vs. portability tradeoff", description: "We ranked from most pocket-friendly to least, so buyers can see exactly how much page space they give up at each size step down." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Which size actually fits in a pocket?", a: "Only the Mini, at 3.5x5.5 inches. The Executive size (6x8.8 in) needs a bag, and letter size (8.5x11 in) is a normal notebook footprint." },
   { q: "Do I need a special pen for these?", a: "Yes, Rocketbook notebooks erase only with Pilot FriXion pens, which are typically included in the box. A standard ballpoint or gel pen will not wipe off the page." },
   { q: "Why is a letter-size planner included in a \"small\" notebook guide?", a: "To show the ceiling of writing area and features (like built-in planner templates) that buyers give up by choosing a genuinely small size, and because it's the highest-rated, most-reviewed product across the whole search." },
-  { q: "How do these sync notes to my phone?", a: "You scan or photograph each page using the Rocketbook app before erasing it. There's no live wireless sync, the page has to be physically captured first." },
+  { q: "How do these sync notes to my phone?", a: "You scan or photograph each page using the Rocketbook app before erasing it. There's no live wireless sync, the page has to be physically captured first." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" },
   { href: "/guide/best-pocket-digital-notebooks", title: "Best Pocket Digital Notebooks (2026)" },
-  { href: "/guide/best-reusable-digital-notebooks", title: "Best Reusable Digital Notebooks (2026)" },
+  { href: "/guide/best-reusable-digital-notebooks", title: "Best Reusable Digital Notebooks (2026)" }
 ];

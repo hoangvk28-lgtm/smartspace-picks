@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $218.98",
+          "Under $250",
           "BLUETTI Elite 30 V2 Portable Power Station"
         ],
         [
-          "Around $448.99",
+          "Under $450",
           "BLUETTI Elite 100 V2 Portable Power Station"
         ],
         [
-          "Around $449.00",
+          "Under $450",
           "BLUETTI AC180 Portable Power Station"
         ],
         [
-          "Around $798.99",
+          "Under $800",
           "BLUETTI Elite 200 V2 Portable Power Station"
         ],
         [
-          "Around $1,098.99",
+          "Under $1,100",
           "BLUETTI Elite 300 Portable Power Station"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "LiFePO4 (LFP) cells are generally considered more thermally stable than standard lithium-ion or lithium-polymer cells, with a lower risk of thermal runaway, and most current portable power stations have shifted to LFP for this reason. Still, verify UL or UL2743 safety certification directly rather than assuming chemistry alone guarantees safety."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "BLUETTI Elite 100 V2 Portable Power Station is aimed at buyers prioritizing 1024wh, 1800w (2700w power lifting)." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "BLUETTI Elite 100 V2 Portable Power Station is aimed at buyers prioritizing 1024wh, 1800w (2700w power lifting)." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

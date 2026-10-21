@@ -12,7 +12,7 @@ export const underDeskBikeDeskHeightCompatibilityGuide: Guide = {
     "desk bike clearance standing desk",
     "under desk bike height requirements",
     "pedal exerciser fit under desk",
-    "desk bike with adjustable height desk",
+    "desk bike with adjustable height desk"
   ],
   heroImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const underDeskBikeDeskHeightCompatibilityGuide: Guide = {
     "under-desk-bike-vs-elliptical",
     "standing-desk-height-chart",
     "desk-exercise-equipment-noise-explained",
-    "under-desk-storage-options-explained",
+    "under-desk-storage-options-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const underDeskBikeDeskHeightCompatibilityGuide: Guide = {
       question: "Is a smaller, more compact under-desk bike always the safer choice for compatibility?",
       answer:
         "Generally yes for tighter spaces, a more compact bike is more likely to fit various desk configurations without clearance conflicts, though very compact designs sometimes sacrifice some resistance range or durability compared to larger models, weigh this tradeoff against your specific space constraints.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const underDeskBikeDeskHeightCompatibilityGuide: Guide = {
     {
       heading: "Why Standing Desk Compatibility Requires Explicit Verification, Not Assumption",
       body: `Using an under-desk bike while a standing desk is raised to full standing height requires the bike itself to accommodate a taller, standing leg position, which not every under-desk bike is designed to do, some are specifically built and marketed with this adjustable height capability for combined standing-and-pedaling use, while others are designed exclusively for seated use at a lower desk height, if this specific standing-and-pedaling combination is something you want to do, explicitly confirming the bike's stated height adjustability range against your standing desk's actual standing height, rather than assuming any under-desk bike works this way, prevents a mismatched purchase.`,
-    },
+    }
   ],
 };

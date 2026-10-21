@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital calendar with google calendar sync";
 export const introParagraphs = [
   "We're intentionally strict on this guide. Only devices that genuinely sync a personal calendar account, the kind of sync that pulls in your actual Google, Outlook, or iCloud-style events, are included here. That means the rechargeable JSJGETYI notepad boards covered in our other calendar guides are deliberately left out, since they have no account sync feature at all.",
-  "Because of that filter, this guide has fewer picks than our broader digital calendar roundups, four instead of six or seven. We'd rather show you a shorter, accurate list than pad it with devices that can't actually do what this search implies.",
+  "Because of that filter, this guide has fewer picks than our broader digital calendar roundups, four instead of six or seven. We'd rather show you a shorter, accurate list than pad it with devices that can't actually do what this search implies."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "7 min";

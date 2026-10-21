@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desk pegboard for standing desk";
 export const introParagraphs = [
   "Search volume for a dedicated 'pegboard for standing desks' product is genuinely low, and it's worth being upfront that there isn't a large category of products purpose-built specifically for standing desk frames, most buyers end up choosing a general clamp-on desk pegboard and thinking through mounting placement themselves. The key distinction that matters is whether a board attaches to the moving desktop surface itself, in which case it travels naturally with height adjustment, or to a fixed frame component that doesn't move, which can create cable or attachment interference as the desk rises and falls.",
-  "Items hung on a pegboard, especially cables and small tools, can shift or swing during a rapid height adjustment, worth keeping heavier or looser items off a board mounted near the moving desktop if you adjust height frequently throughout the day. A clamp-on board attached directly to the desktop's back edge generally handles this best since it moves as one unit with the surface.",
+  "Items hung on a pegboard, especially cables and small tools, can shift or swing during a rapid height adjustment, worth keeping heavier or looser items off a board mounted near the moving desktop if you adjust height frequently throughout the day. A clamp-on board attached directly to the desktop's back edge generally handles this best since it moves as one unit with the surface."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Desktop-Mounted Setups",
     name: "EUREKA ERGONOMIC Desk Pegboard with Dual Monitor Stands, LED Metal Pegboard, 43 x 34 Inch, White",
     price: "$179.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "156 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31ll21hyHHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DYJR7JLB?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wide Desktop-Mounted Pick",
     name: "EUREKA ERGONOMIC Desk Pegboard Dual Monitor Stand 59x34 White",
     price: "$269.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "156 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41i2tZZC1xL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F3TN7G3F?tag=deskfinds0d-20",
     description:
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Desktop-Mounted Pick",
     name: "Sailret Clamp-On Metal Desk Pegboard with Dual Monitor Stand, 59x35 Inch Steel Privacy Panel",
     price: "$79.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "4 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41KLj-p7YnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G6K8HR11?tag=deskfinds0d-20",
     description:
@@ -77,17 +77,17 @@ export const products: GuideProduct[] = [
     badge: "Best for Heavier Loads",
     name: "VIVO Steel Triple Clamp Desk Pegboard System with 2 Monitor Mounts and Storage Shelf, 47 x 31 Inch, Black",
     price: "$169.99",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "14 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51v-7P2kqkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DVDSJPL5?tag=deskfinds0d-20",
     description:
       "A triple clamp system that grips the desktop at three points, which helps keep hung items more secure during repeated height adjustments than a single clamp would, especially with a shelf and monitor mounts loaded.\n\nBecause it clamps to the desktop itself rather than the frame, it moves as one unit with height changes, though the extra weight from the shelf and mounts should be factored into your desk's lift capacity.\n\nMoves with the desktop, no fixed-frame interference. On the other hand, adds meaningful total weight for the standing desk motor to lift. Both are worth keeping in mind before deciding.",
     specs: ["47 x 31 inch steel panel", "Triple clamp to desktop", "2 monitor mounts included", "Storage shelf included"],
-    pros: ["Triple clamp keeps hung items more secure during height changes", "Moves with the desktop, no fixed-frame interference", "Includes a shelf and monitor mounts in one system", "Strong 4.7-star rating"],
+    pros: ["Triple clamp keeps hung items more secure during height changes", "Moves with the desktop, no fixed-frame interference", "Includes a shelf and monitor mounts in one system"],
     cons: ["Adds meaningful total weight for the standing desk motor to lift", "Small review count so far", "Requires desk edge space for three clamp points"],
     bestFor: "Standing desk users hanging a shelf and monitor mounts who want maximum security through height changes.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -95,7 +95,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Desktop-mounted versus fixed-frame distinction", description: "Verified each product clamps to the moving desktop surface rather than a fixed frame component, since only desktop mounting travels naturally with height adjustment." },
   { title: "Item stability during rapid height changes", description: "Considered how securely hung cables and small items would stay in place during a fast height adjustment, based on clamp design and mount points." },
   { title: "Added weight against standing desk lift capacity", description: "Weighed each board's weight against typical standing desk motor lift capacity when combined with a usual desktop load." },
-  { title: "Category maturity assessed honestly", description: "Assessed that dedicated standing-desk-specific pegboard products are genuinely uncommon, and recommended general desktop-clamped boards accordingly rather than overstating a niche category." },
+  { title: "Category maturity assessed honestly", description: "Assessed that dedicated standing-desk-specific pegboard products are genuinely uncommon, and recommended general desktop-clamped boards accordingly rather than overstating a niche category." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -226,11 +226,11 @@ export const faq: FaqItem[] = [
   { q: "Do I need a special pegboard for a standing desk?", a: "Not really, dedicated standing-desk-specific pegboards are uncommon, a general clamp-on pegboard mounted to the desktop itself works well for standing desk use." },
   { q: "Will a pegboard interfere with my desk's height adjustment?", a: "Only if it's mounted to a fixed frame component rather than the moving desktop, a board clamped to the desktop surface travels naturally with height changes." },
   { q: "Can items fall off a pegboard during height adjustment?", a: "Hung cables and small items can shift or swing during a rapid height change, keep heavier items secured and favor a multi-clamp mount if you adjust height often." },
-  { q: "Does a pegboard add meaningful weight to a standing desk?", a: "Yes, a large panel with a shelf and monitor mounts adds real weight, factor this into your desk's total lift capacity alongside your usual desktop load." },
+  { q: "Does a pegboard add meaningful weight to a standing desk?", a: "Yes, a large panel with a shelf and monitor mounts adds real weight, factor this into your desk's total lift capacity alongside your usual desktop load." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-mounted-pegboards", title: "Best Desk-Mounted Pegboards (2026)" },
   { href: "/guide/best-desk-pegboards-with-monitor-mounts", title: "Best Desk Pegboards with Monitor Mounts (2026)" },
-  { href: "/guide/best-desk-pegboards", title: "Best Desk Pegboards (2026)" },
+  { href: "/guide/best-desk-pegboards", title: "Best Desk Pegboards (2026)" }
 ];

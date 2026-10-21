@@ -5,7 +5,7 @@ export const metaDescription = "5 USB-C monitors with KVM switches we evaluated,
 export const mainKeyword = "usb-c monitor with kvm switch";
 export const introParagraphs = [
   "A built-in KVM's switching method, whether hotkey combination, physical button, or automatic source detection, affects daily convenience more than most spec sheets highlight, worth checking reviews specifically for how smoothly switching works in practice rather than assuming any KVM-labeled monitor switches the same way.",
-  "A monitor's built-in KVM typically switches keyboard and mouse alongside video, but not always audio, worth confirming whether your specific setup needs audio switching too before assuming full peripheral switching is included.",
+  "A monitor's built-in KVM typically switches keyboard and mouse alongside video, but not always audio, worth confirming whether your specific setup needs audio switching too before assuming full peripheral switching is included."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     badge: "Best USB-C Monitor Setup with KVM Switch Overall",
     name: "AV Access iDock P10 KVM Docking Station 2 Monitors 2 PC, GbE, EDID, 65W PD",
     price: "$179.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41Du+XSAPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCXN5P3T?tag=deskfinds0d-20",
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     badge: "Best Pick for Laptop and Desktop Switching",
     name: "AV Access Dual Monitor KVM Docking Station for Laptop & Desktop (iDock C10)",
     price: "$225.61",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31KfwfvqAqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CW2JGRN4?tag=deskfinds0d-20",
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     badge: "Best Value KVM Docking Pick",
     name: "AV Access Docking Station KVM Switch 2 Monitors 2 Laptops, 4K Dual Display",
     price: "$169.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41NY0yTE9kL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DD3X51XS?tag=deskfinds0d-20",
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     badge: "Best 4K Dual-Laptop KVM Pick",
     name: "AV Access KVM Switch Dock 2 Monitors 2 Laptops, 4K KVM Switch Dual Monitor",
     price: "$233.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41e02xrYlyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP4PD3SM?tag=deskfinds0d-20",
@@ -89,7 +89,7 @@ export const products: GuideProduct[] = [
     badge: "Best Simple Single-Monitor KVM Pick",
     name: "KVM Switch 1 Monitors 2 Computers 4K@60Hz USB C HDMI KVM Switch 2 Port for 1 Laptop 1 Desktop",
     price: "$55.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41BxNjK7PrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GY4R958W?tag=deskfinds0d-20",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Switching method convenience considered beyond spec sheets", description: "Considered that a KVM's switching method, whether hotkey, button, or auto-detect, affects daily convenience more than most spec sheets highlight." },
   { title: "Audio switching inclusion checked, not assumed", description: "Checked whether audio switching is included alongside keyboard, mouse, and video switching, since this isn't always automatically bundled." },
   { title: "Single-monitor versus dual-monitor setups matched to buyer needs", description: "Matched single-monitor and dual-monitor KVM options against different buyer setup complexities, from simple laptop-desktop pairs to more demanding dual-display workflows." },
-  { title: "EDID emulation weighted for seamless multi-device switching", description: "Weighted EDID emulation support for buyers wanting a genuinely seamless experience switching between multiple connected devices." },
+  { title: "EDID emulation weighted for seamless multi-device switching", description: "Weighted EDID emulation support for buyers wanting a genuinely seamless experience switching between multiple connected devices." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -223,11 +223,11 @@ export const faq: FaqItem[] = [
   { q: "Do I need a dual-monitor KVM dock or a single-monitor switch?", a: "It depends on your setup, a single-monitor KVM suits a simple laptop-desktop pair, a dual-monitor dock suits more demanding multi-display workflows." },
   { q: "Why does EDID emulation matter for a KVM setup?", a: "It helps reduce disruption when switching between connected devices, particularly valuable if you switch frequently throughout the day." },
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers wanting a robust KVM dock with EDID emulation paired with any monitor" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers with a simple one-laptop-one-desktop setup wanting a budget-friendly single-monitor KVM switch At $55.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers with a simple one-laptop-one-desktop setup wanting a budget-friendly single-monitor KVM switch At under $60, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-usb-c-docking-monitors", title: "Best USB-C Docking Monitors (2026)" },
   { href: "/guide/best-kvm-switches-for-two-computers", title: "Best KVM Switches for Two Computers (2026)" },
-  { href: "/guide/best-kvm-docking-stations", title: "Best KVM Docking Stations (2026)" },
+  { href: "/guide/best-kvm-docking-stations", title: "Best KVM Docking Stations (2026)" }
 ];

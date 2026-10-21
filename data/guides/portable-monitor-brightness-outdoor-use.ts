@@ -12,7 +12,7 @@ export const portableMonitorBrightnessOutdoorUseGuide: Guide = {
     "portable monitor nits rating meaning",
     "portable monitor sunlight readability",
     "bright room portable monitor visibility",
-    "outdoor laptop monitor brightness",
+    "outdoor laptop monitor brightness"
   ],
   heroImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const portableMonitorBrightnessOutdoorUseGuide: Guide = {
     "portable-monitor-vs-laptop-screen-extender",
     "monitor-brightness-and-eye-strain",
     "screen-glare-reduction-explained",
-    "portable-monitor-power-requirements",
+    "portable-monitor-power-requirements"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const portableMonitorBrightnessOutdoorUseGuide: Guide = {
       question: "Should I expect a standard portable monitor to work well for outdoor coworking or cafe use?",
       answer:
         "For typical indoor cafe lighting, most standard portable monitors work fine, for genuinely outdoor use in direct sunlight, expect visibility challenges unless you specifically chose a monitor with a notably higher brightness rating designed for that use case.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const portableMonitorBrightnessOutdoorUseGuide: Guide = {
     {
       heading: "Why Screen Finish Matters Alongside Raw Brightness Numbers",
       body: `A monitor's nits rating tells you its maximum light output, but a glossy screen finish reflects ambient light directly back toward the viewer, compounding visibility problems in bright conditions regardless of how bright the screen itself can get, a matte or anti-glare finish diffuses these reflections, meaning two monitors with identical nit ratings can perform noticeably differently in the same bright environment depending on their screen finish, checking for both adequate brightness and an anti-glare finish together provides a more complete picture of actual outdoor or bright-room usability than the nits number alone.`,
-    },
+    }
   ],
 };

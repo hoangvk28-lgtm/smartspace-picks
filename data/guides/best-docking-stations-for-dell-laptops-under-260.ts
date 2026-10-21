@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The lowest price with triple display support", "Anker Nano 13-in-1 Laptop Docking Station"],
         ["The widest port selection", "Anker Prime Docking Station, 14-Port"],
         ["A first-party Dell dock at the lowest entry price", "Dell Thunderbolt WD22TB4 Dock, 130W"],
-        ["The longest warranty on a Dell-branded dock", "Dell WD22TB4 Thunderbolt 4 Dock, 180W, 3-Year Warranty"],
+        ["The longest warranty on a Dell-branded dock", "Dell WD22TB4 Thunderbolt 4 Dock, 180W, 3-Year Warranty"]
       ],
     },
   },
@@ -148,8 +148,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $170", "Anker Nano ($119.99) or Anker Prime ($169.99)"],
-        ["$185 to $260", "Dell WD22TB4 130W ($184.70), 180W 1-year ($244.99), or 180W 3-year ($254.99)"],
+        ["Under $170", "Anker Nano (under $120) or Anker Prime (under $170)"],
+        ["$185 to $260", "Dell WD22TB4 130W (under $190), 180W 1-year (under $250), or 180W 3-year (under $300)"]
       ],
     },
   },
@@ -163,7 +163,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "Third-party Anker docks",
         text: "Lower price and often broader port selection, explicitly marketed for Dell compatibility, but without Thunderbolt certification or a Dell-branded support path.",
-      },
+      }
     ],
     note: "In an IT-managed fleet environment, a first-party Dell dock simplifies procurement and support; for a personal home office setup, either option works, with Anker offering more ports per dollar.",
   },
@@ -172,8 +172,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Your Dell laptop is", "Recommended pick"],
       rows: [
-        ["A standard ultrabook-class Dell laptop", "Dell WD22TB4, 130W ($184.70)"],
-        ["A higher-power Dell model (workstation-class)", "Dell WD22TB4, 180W ($244.99 or $254.99)"],
+        ["A standard ultrabook-class Dell laptop", "Dell WD22TB4, 130W (under $190)"],
+        ["A higher-power Dell model (workstation-class)", "Dell WD22TB4, 180W (under $250 or under $300)"]
       ],
     },
   },
@@ -187,7 +187,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "All three Dell WD22TB4 listings here are genuine first-party Dell hardware with a stated warranty, making them the more straightforward choice for fleet procurement.",
-      },
+      }
     ],
   },
   {
@@ -195,14 +195,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You specifically want a first-party Dell dock with Thunderbolt certification and a documented warranty: the WD22TB4 180W 3-year warranty pick ($254.99) offers the strongest combination of charging power and coverage here.",
+        text: "You specifically want a first-party Dell dock with Thunderbolt certification and a documented warranty: the WD22TB4 180W 3-year warranty pick (under $300) offers the strongest combination of charging power and coverage here.",
       },
       {
         label: "Save if",
-        text: "You just need reliable multi-display and peripheral support without Thunderbolt certification: the Anker Nano ($119.99) covers triple-display use for less than half the price of the Dell-branded picks.",
-      },
+        text: "You just need reliable multi-display and peripheral support without Thunderbolt certification: the Anker Nano (under $120) covers triple-display use for less than half the price of the Dell-branded picks.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -257,5 +257,5 @@ export const faq = [
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-docking-stations-for-macbook-pro-under-500", title: "Best Docking Stations for MacBook Pro Under $500" },
-  { href: "/guide/best-thunderbolt-4-docking-stations", title: "Best Thunderbolt 4 Docking Stations" },
+  { href: "/guide/best-thunderbolt-4-docking-stations", title: "Best Thunderbolt 4 Docking Stations" }
 ];

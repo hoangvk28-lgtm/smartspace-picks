@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable small safes";
 export const introParagraphs = [
   "Portability trades off against anti-removal security by definition: a safe light enough to carry easily is also light enough for someone else to carry away. We compared confirmed tether options, carry handles, and travel-specific features across these picks rather than treating portable as automatically less secure without qualification.",
-  "One original candidate ASIN was not accessible through the product catalog at research time, so we're presenting the 7 we could verify.",
+  "One original candidate ASIN was not accessible through the product catalog at research time, so we're presenting the 7 we could verify."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -131,7 +131,7 @@ export const products: GuideProduct[] = [
     pros: ["Only pick here offering both genuine portability AND a bolt-down option for the same unit"],
     cons: ["Heavier than the lighter combination-lock travel boxes here"],
     bestFor: "Buyers wanting one safe that moves between traveling and anchored home use.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified tether or carry-specific features rather than assuming portable means less secure", description: "We checked for confirmed tether cables, carrying handles, and travel-specific details (like a suitcase-handle-compatible carry design) rather than treating every portable pick identically." },
   { title: "Separated fire-rated portable safes from combination-lock-only travel boxes", description: "Two picks here confirm genuine UL fire classification alongside portability; the lighter combination-lock boxes offer theft deterrence and convenience but no documented fire protection." },
   { title: "Noted where a portable design also offers an optional anchor point", description: "One pick includes reserved holes for optional wall or cabinet mounting despite its compact, semi-portable size, a genuine middle ground worth flagging." },
-  { title: "Excluded the inaccessible ASIN rather than fabricating its data", description: "One original candidate ASIN returned ItemNotAccessible from the product catalog API at research time. We excluded it and disclosed the gap rather than guessing." },
+  { title: "Excluded the inaccessible ASIN rather than fabricating its data", description: "One original candidate ASIN returned ItemNotAccessible from the product catalog API at research time. We excluded it and disclosed the gap rather than guessing." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -266,7 +266,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review count and rating together, not rating alone",
-    "explanation": "A 4.8-star rating from 12 reviews carries far less evaluation confidence than a 4.5-star rating from several thousand, since a small sample can be skewed by a handful of early, enthusiastic buyers before any long-term reliability issues would show up in later reviews.\n\nThis matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
+    "explanation": "This matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
   }
 ];
 
@@ -275,11 +275,11 @@ export const faq: FaqItem[] = [
   { q: "Is there a portable safe rated for firearms?", a: "Yes, the Amazon Basics Portable Security Case explicitly rates for firearms alongside cash, jewelry, and documents." },
   { q: "Is there a portable option with genuine fire protection?", a: "Yes, both SentrySafe picks here confirm UL fire classification alongside portable carrying handles." },
   { q: "What's the lightest option for traveling with a lot of documents?", a: "The DocSafe 5200°F Fireproof Document Organizer, a soft bag with extensive document-specific organization." },
-  { q: "Why does this list have 7 products instead of 8?", a: "One original candidate ASIN was not accessible through the Amazon catalog API at research time, so we excluded it rather than fabricating its data." },
+  { q: "Why does this list have 7 products instead of 8?", a: "One original candidate ASIN was not accessible through the Amazon catalog API at research time, so we excluded it rather than fabricating its data." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-safe-lock-boxes", title: "Best Small Safe Lock Boxes (2026)" },
   { href: "/guide/best-personal-small-safes", title: "Best Personal Small Safes (2026)" },
-  { href: "/guide/best-small-safes-for-dorm-rooms", title: "Best Small Safes for Dorm Rooms (2026)" },
+  { href: "/guide/best-small-safes-for-dorm-rooms", title: "Best Small Safes for Dorm Rooms (2026)" }
 ];

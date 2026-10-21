@@ -49,7 +49,7 @@ export const products: Budget50Headphone[] = [
     tradeoffs: [
       "ANC handles low-frequency noise better than voices",
       "No multipoint Bluetooth (one device at a time)",
-      "Default tuning is bass-heavy (adjustable via app)",
+      "Default tuning is bass-heavy (adjustable via app)"
     ],
     skipIf:
       "You need multipoint Bluetooth to stay connected to laptop and phone simultaneously. The Edifier W600BT handles dual-device connection.",
@@ -59,12 +59,12 @@ export const products: Budget50Headphone[] = [
       "Wireless charging case",
       "32 EQ presets",
       "Hi-Res Audio certified",
-      "Foldable",
+      "Foldable"
     ],
     cons: [
       "No multipoint Bluetooth",
       "Bass-heavy default tuning",
-      "ANC limited vs $150+ options",
+      "ANC limited vs $150+ options"
     ],
   },
   {
@@ -85,7 +85,7 @@ export const products: Budget50Headphone[] = [
     tradeoffs: [
       "No ANC",
       "No multipoint Bluetooth",
-      "Bass-forward tuning not neutral for studio use",
+      "Bass-forward tuning not neutral for studio use"
     ],
     skipIf:
       "You need ANC for noisy environments. The TOZO HT2 at $40 adds hybrid ANC.",
@@ -94,7 +94,7 @@ export const products: Budget50Headphone[] = [
       "57h battery with Speed Charge (5 min = 3h)",
       "Lightweight at 140g",
       "Folds flat",
-      "USB-C charging",
+      "USB-C charging"
     ],
     cons: ["No ANC", "No multipoint", "Bass-forward tuning"],
   },
@@ -116,7 +116,7 @@ export const products: Budget50Headphone[] = [
     tradeoffs: [
       "No ANC",
       "Heavier than JBL at 214g vs 140g",
-      "Bluetooth 5.0 (older spec)",
+      "Bluetooth 5.0 (older spec)"
     ],
     skipIf:
       "You study in a noisy environment and need ANC. The TOZO HT2 is the right pick.",
@@ -125,7 +125,7 @@ export const products: Budget50Headphone[] = [
       "Hi-Res Audio certified",
       "Fast charge (5 min = 3h)",
       "3.5mm AUX cable included",
-      "Folds flat",
+      "Folds flat"
     ],
     cons: ["No ANC", "Heavier at 214g", "Bluetooth 5.0"],
   },
@@ -147,16 +147,16 @@ export const products: Budget50Headphone[] = [
     tradeoffs: [
       "No inline microphone on standard model",
       "Wired only via 3m coiled cable",
-      "3m coil impractical for commuting",
+      "3m coil impractical for commuting"
     ],
     skipIf:
       "You need wireless freedom or a built-in mic for calls. Pair with a separate USB microphone for recording.",
     pros: [
-      "Professional studio monitor audio quality at $49",
+      "Professional studio monitor audio quality at under $50",
       "Excellent passive isolation (closed-back)",
       "Flat neutral sound reproduction",
       "No battery to manage",
-      "Audio-Technica professional M-Series",
+      "Audio-Technica professional M-Series"
     ],
     cons: ["No inline mic", "Wired only", "3m coil impractical for portable use"],
   },
@@ -178,7 +178,7 @@ export const products: Budget50Headphone[] = [
     tradeoffs: [
       "Price occasionally hits $55 when not on sale",
       "ANC strongest at low frequencies, less effective against voices",
-      "IPX5 only, not gym-grade waterproof",
+      "IPX5 only, not gym-grade waterproof"
     ],
     skipIf:
       "You need IPX8 waterproofing for gym use. The TOZO T10 in the under-$30 guide is fully submersible.",
@@ -187,7 +187,7 @@ export const products: Budget50Headphone[] = [
       "6 mics with AI - best call quality of earbuds",
       "Multipoint Bluetooth (2 devices)",
       "Wireless charging case + phone stand",
-      "60h combined battery",
+      "60h combined battery"
     ],
     cons: ["Price fluctuates above $50", "IPX5 only", "ANC weaker against voices"],
   },
@@ -209,7 +209,7 @@ export const products: Budget50Headphone[] = [
     tradeoffs: [
       "30h battery is the lowest of the wireless picks",
       "No ANC",
-      "Bluetooth 5.1 (not 5.3)",
+      "Bluetooth 5.1 (not 5.3)"
     ],
     skipIf: "ANC is a priority. The TOZO HT2 at $40 has hybrid ANC.",
     pros: [
@@ -217,7 +217,7 @@ export const products: Budget50Headphone[] = [
       "Balanced sound signature",
       "USB-C charging",
       "Edifier audio brand quality",
-      "Lightweight and foldable",
+      "Lightweight and foldable"
     ],
     cons: ["30h battery, lowest of wireless picks", "No ANC", "Bluetooth 5.1"],
   },
@@ -239,7 +239,7 @@ export const products: Budget50Headphone[] = [
     tradeoffs: [
       "No ANC",
       "Bass-forward Skullcandy tuning",
-      "Can fluctuate above $50, verify price",
+      "Can fluctuate above $50, verify price"
     ],
     skipIf:
       "Budget is firmly under $45. The Soundcore Life Q10 at $35 to $40 offers 60h battery at lower cost.",
@@ -248,10 +248,10 @@ export const products: Budget50Headphone[] = [
       "36h battery",
       "USB-C charging",
       "Foldable",
-      "Skullcandy reliability",
+      "Skullcandy reliability"
     ],
     cons: ["No ANC", "Bass-forward tuning", "Price can exceed $50"],
-  },
+  }
 ];
 
 export const atAGlanceRows = products.map((p) => ({
@@ -276,7 +276,7 @@ export const faq = [
   },
   {
     q: "Are wired headphones worth buying in 2024 when wireless is everywhere?",
-    a: "Yes, for desk use. The ATH-M20x at $49 delivers professional studio audio that no wireless headphone under $100 matches on sound accuracy. There is no battery to manage, no Bluetooth to pair, and no latency. For commuting and movement, wireless is better. For a fixed desk setup, wired is still the best choice for audio quality per dollar.",
+    a: "Yes, for desk use. The ATH-M20x at under $50 delivers professional studio audio that no wireless headphone under $100 matches on sound accuracy. There is no battery to manage, no Bluetooth to pair, and no latency. For commuting and movement, wireless is better. For a fixed desk setup, wired is still the best choice for audio quality per dollar.",
   },
   {
     q: "What is the best headphone under $50 for online classes?",
@@ -285,7 +285,7 @@ export const faq = [
   {
     q: "Do I need ANC in headphones under $50?",
     a: "If you study in a noisy dorm, library, or cafe, ANC noticeably reduces ambient noise and makes focus easier. The TOZO HT2 and Soundcore P40i both deliver meaningful ANC at this price. If you use headphones at a quiet home desk or primarily for gym workouts, ANC is a nice feature rather than essential.",
-  },
+  }
 ];
 
 export const relatedGuides = [
@@ -297,5 +297,5 @@ export const relatedGuides = [
   {
     href: "/guide/best-headphones-for-working-out",
     title: "Best Headphones for Working Out",
-  },
+  }
 ];

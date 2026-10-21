@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41rfPudcZ6L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B092CKLXMN?tag=deskfinds0d-20",
-    "description": "Dezin has a double-layer anti-scalding outer shell with a stainless steel inner, including the inner lid, spout and filter, and measures 7.9 by 7.3 inches. It has an anti-splash lid, boil-dry protection and auto shut-off.\n\nThe cool-touch body is the key difference from WTJMOV, and it matters in a cramped room where you might brush the kettle. It costs $26.99, about $1 less than WTJMOV.\n\nChoose it for a crowded shelf or desk. The caveat is that wattage is not stated in the part of the listing we reviewed, so confirm it before your school's check.",
+    "description": "Dezin has a double-layer anti-scalding outer shell with a stainless steel inner, including the inner lid, spout and filter, and measures 7.9 by 7.3 inches. It has an anti-splash lid, boil-dry protection and auto shut-off.\n\nThe cool-touch body is the key difference from WTJMOV, and it matters in a cramped room where you might brush the kettle. It costs under $30, about $1 less than WTJMOV.\n\nChoose it for a crowded shelf or desk. The caveat is that wattage is not stated in the part of the listing we reviewed, so confirm it before your school's check.",
     "specs": [
       "0.8L, double wall",
       "Stainless inner, lid, spout, filter",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31YfqXmTpuL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CR6TMXCX?tag=deskfinds0d-20",
-    "description": "Elite Gourmet is a 0.6 liter kettle that works on 120V or 220 to 240V with a switch, with a concealed heating system, double-wall #304 interior, auto shut-off and boil-dry protection. It also has a retractable handle.\n\nIts concealed element is explicitly named, which many dorm policies look for, and the dual voltage helps if you move abroad. It costs $24.99 and holds 0.6 liters, less than WTJMOV.\n\nBest for a resident who needs a named concealed element or travels. The caveat is the small capacity, and wattage is not given in the part of the listing we saw.",
+    "description": "Elite Gourmet is a 0.6 liter kettle that works on 120V or 220 to 240V with a switch, with a concealed heating system, double-wall #304 interior, auto shut-off and boil-dry protection. It also has a retractable handle.\n\nIts concealed element is explicitly named, which many dorm policies look for, and the dual voltage helps if you move abroad. It costs under $25 and holds 0.6 liters, less than WTJMOV.\n\nBest for a resident who needs a named concealed element or travels. The caveat is the small capacity, and wattage is not given in the part of the listing we saw.",
     "specs": [
       "0.6L, 120V or 220 to 240V",
       "Concealed heating element",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51Qlj1vnoxL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07FNW57J7?tag=deskfinds0d-20",
-    "description": "Chefman gives temperature presets from 160 to 212F, a tri-color LED for standby, heating and keep-warm, a removable tea infuser and a cordless base. The listing says boiling in as little as 3 minutes, but it contradicts itself, saying 5 presets in the title and 7 in a bullet.\n\nIt is the only dorm pick with temperature control, which matters for tea and pour-over at 175F or 195F. It costs $27.95, near the top of the range.\n\nChoose it for a tea drinker with a flexible limit. The caveat is the inconsistent preset count, and glass is easier to break in a dorm.",
+    "description": "Chefman gives temperature presets from 160 to 212F, a tri-color LED for standby, heating and keep-warm, a removable tea infuser and a cordless base. The listing says boiling in as little as 3 minutes, but it contradicts itself, saying 5 presets in the title and 7 in a bullet.\n\nIt is the only dorm pick with temperature control, which matters for tea and pour-over at 175F or 195F. It costs under $30, near the top of the range.\n\nChoose it for a tea drinker with a flexible limit. The caveat is the inconsistent preset count, and glass is easier to break in a dorm.",
     "specs": [
       "Presets from 160F to 212F",
       "Removable tea infuser",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51BrMxdweKL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CDY28KDD?tag=deskfinds0d-20",
-    "description": "This Chefman is a 1.2 liter, 1500W glass kettle with a stainless removable infuser, blue LED, auto shut-off and boil-dry protection. The listing says it boils in as little as 3 minutes.\n\nIt costs $22.93 and holds more than WTJMOV, but at 1500W it draws almost double the power. Against Amazon Basics below, it is glass with an infuser but the same wattage.\n\nBest for a resident whose school permits 1500W and who wants to brew loose leaf. The caveat is that 1500W may exceed a dorm cap.",
+    "description": "This Chefman is a 1.2 liter, 1500W glass kettle with a stainless removable infuser, blue LED, auto shut-off and boil-dry protection. The listing says it boils in as little as 3 minutes.\n\nIt costs under $25 and holds more than WTJMOV, but at 1500W it draws almost double the power. Against Amazon Basics below, it is glass with an infuser but the same wattage.\n\nBest for a resident whose school permits 1500W and who wants to brew loose leaf. The caveat is that 1500W may exceed a dorm cap.",
     "specs": [
       "1.2L glass, 1500W",
       "Stainless removable infuser",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41MTGCO92+L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B072DWYBL7?tag=deskfinds0d-20",
-    "description": "Amazon Basics is a 1 liter, 1500W stainless kettle with a Strix thermostat, auto shut-off and boil-dry protection. It has a wide opening and a water level indicator, and all water-contact materials are described as BPA-free.\n\nIt costs $24.06 and is the plainest of the group, with a named thermostat as its main selling point. Against COMFEE below, it is smaller but has a similar wattage.\n\nChoose it for a plain, reliable stainless kettle. The caveat is that BPA-free is not the same as plastic-free, and 1500W may not meet a dorm cap.",
+    "description": "Amazon Basics is a 1 liter, 1500W stainless kettle with a Strix thermostat, auto shut-off and boil-dry protection. It has a wide opening and a water level indicator, and all water-contact materials are described as BPA-free.\n\nIt costs under $25 and is the plainest of the group, with a named thermostat as its main selling point. Against COMFEE below, it is smaller but has a similar wattage.\n\nChoose it for a plain, reliable stainless kettle. The caveat is that BPA-free is not the same as plastic-free, and 1500W may not meet a dorm cap.",
     "specs": [
       "1.0L, 1500W",
       "Strix thermostat",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/416jy6z9AFL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B084KQTCQW?tag=deskfinds0d-20",
-    "description": "COMFEE is a 1.7 liter, 1500W kettle with a 304 stainless inner, concealed heating elements, a cool-touch handle, a pop-up lid and a 360 swivel base with a UL standard power cord. The listing says 1.7 liters boils in 5 to 7 minutes.\n\nIt is the largest here at $24.29 and the only one with a UL-standard cord named, but it uses a full 1500W. Against Dezin, it holds more than double the water.\n\nBest for a shared suite where several people want hot water. The caveat is size and power draw, which make it a poor fit for a single dorm room with a cap.",
+    "description": "COMFEE is a 1.7 liter, 1500W kettle with a 304 stainless inner, concealed heating elements, a cool-touch handle, a pop-up lid and a 360 swivel base with a UL standard power cord. The listing says 1.7 liters boils in 5 to 7 minutes.\n\nIt is the largest here at under $25 and the only one with a UL-standard cord named, but it uses a full 1500W. Against Dezin, it holds more than double the water.\n\nBest for a shared suite where several people want hot water. The caveat is size and power draw, which make it a poor fit for a single dorm room with a cap.",
     "specs": [
       "1.7L, 1500W",
       "304 stainless, concealed element",
@@ -263,7 +263,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     "title": "Value for price",
-    "description": "Prices from $22.93 to $27.99 were compared with the documented features."
+    "description": "Prices from roughly $25 to $30 were compared with the documented features."
   }
 ];
 
@@ -317,7 +317,7 @@ export const howToChoose: HowToChooseSection[] = [
           "Amazon Basics 1L 1500W Stainless Electric Kettle"
         ],
         [
-          "About $24.30",
+          "Under $25",
           "COMFEE 1.7L 1500W Stainless Electric Kettle"
         ],
         [

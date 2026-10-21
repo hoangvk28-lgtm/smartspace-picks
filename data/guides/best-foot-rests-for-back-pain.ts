@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41lQLKKiiQL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FVDC2YQZ?tag=deskfinds0d-20",
-    "description": "TALSTILA offers two height options, 4 inches and 6 inches, by adding or removing layers, with a washable short plush cover and a carry handle. The foam springs back slowly.\n\nIt costs only $16.99, about $10 less than Atoping. Versus Ciao Stilista it is far lower and softer.\n\nBest for a cheap soft rest. The caveat is lower firmness than the high-density options.",
+    "description": "TALSTILA offers two height options, 4 inches and 6 inches, by adding or removing layers, with a washable short plush cover and a carry handle. The foam springs back slowly.\n\nIt costs under $20, about $10 less than Atoping. Versus Ciao Stilista it is far lower and softer.\n\nBest for a cheap soft rest. The caveat is lower firmness than the high-density options.",
     "specs": [
       "Two heights, 4 and 6 inches",
       "Washable plush cover",

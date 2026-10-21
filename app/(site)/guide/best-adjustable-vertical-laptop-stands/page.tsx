@@ -139,7 +139,7 @@ export default async function BestAdjustableVerticalLaptopStandsPage() {
     about: [
       { "@type": "Thing", name: "Adjustable Laptop Stand" },
       { "@type": "Thing", name: "Desk Accessories" },
-      { "@type": "Thing", name: "Width-Adjustable Holder" },
+      { "@type": "Thing", name: "Width-Adjustable Holder" }
     ],
   };
 
@@ -149,7 +149,7 @@ export default async function BestAdjustableVerticalLaptopStandsPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Adjustable Vertical Laptop Stands", item: `${SITE_URL}/guide/best-adjustable-vertical-laptop-stands` },
+      { "@type": "ListItem", position: 3, name: "Best Adjustable Vertical Laptop Stands", item: `${SITE_URL}/guide/best-adjustable-vertical-laptop-stands` }
     ],
   };
 
@@ -316,7 +316,7 @@ export default async function BestAdjustableVerticalLaptopStandsPage() {
               <p className="text-sm text-ink-secondary">
                 <strong className="text-ink">best adjustable pick:</strong>{" "}
                 <a href="#omoton-single" className="font-bold text-ink hover:text-brand transition-colors">OMOTON Aluminum Vertical Laptop Stand</a>
-                 - 4.8 stars, 0.55 to 2.71 inch adjustment range covering all consumer laptop thicknesses.
+                 - 0.55 to 2.71 inch adjustment range covering all consumer laptop thicknesses.
               </p>
             </div>
             <p className="text-sm text-ink-secondary pl-5">See the full rankings above for all eight picks with pros, cons, and best-for summaries.</p>

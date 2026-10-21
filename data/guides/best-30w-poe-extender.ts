@@ -29,7 +29,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0GS3NHTQK?tag=deskfinds0d-20",
     description: "This extender's listing specifically discloses 30W input power intelligently allocated between two output ports at up to 25.5W per port, a transparent power-sharing disclosure rather than implying each port independently gets the full 30W. Its 2-level cascade support reaches up to 300 meters total distance while maintaining full Gigabit 1000Mbps speed.\n\nCompared to the Davuaz picks below, this one's intelligent power allocation between Port 1 and Port 2 specifically adjusts based on connected device needs, a more sophisticated power management approach at the lowest price in this comparison.\n\nBest for buyers who want intelligent power allocation across two devices at full Gigabit speed and the lowest price.",
     specs: ["30W input, 25.5W max per port, intelligent allocation", "Gigabit 1000Mbps, 2-level cascade to 300m", "IEEE 802.3af/at, no local power required"],
-    pros: ["Lowest price in this comparison at $13.98", "Intelligent power allocation adjusts to connected device needs", "Maintains full Gigabit speed unlike the 100Mbps picks in this comparison"],
+    pros: ["Lowest price in this comparison at under $15", "Intelligent power allocation adjusts to connected device needs", "Maintains full Gigabit speed unlike the 100Mbps picks in this comparison"],
     cons: ["Only 2 output ports, fewer than the Davuaz picks' 3 ports", "25.5W max per port is slightly below the full 30W input rating"],
     bestFor: "buyers who want intelligent power allocation across two devices at full Gigabit speed",
   },
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "This extender's listing specifically states a rugged, industrial-grade metal housing where all cable ports are enclosed and protected with waterproof caps, a more robust IP67-rated build than the plastic-housed picks in this comparison. Its 30W IEEE 802.3af/at output specifically supports high-power devices like wireless access points, base stations, and network cameras.\n\nCompared to the Tliffpaco and Davuaz picks above, this one's daisy-chain support for up to 2 units reaching 600 meters total, combined with metal construction, targets buyers prioritizing build quality and outdoor durability over the lowest possible price.\n\nBest for buyers who want a metal housing with IP67 waterproofing for a single high-power device at extended distance.",
     specs: ["30W IEEE 802.3af/at, metal IP67 housing", "1-in-1-out, daisy chain to 600m total", "Waterproof caps on all cable ports, wall and pole mount"],
     pros: ["Metal IP67 housing is more durable than the plastic-cased picks", "Daisy-chain support reaches 600m total distance", "Waterproof caps specifically protect cable connection points"],
-    cons: ["Highest price in this comparison at $39.99", "Single output port only, doesn't power multiple devices like the Davuaz picks"],
+    cons: ["Highest price in this comparison at under $40", "Single output port only, doesn't power multiple devices like the Davuaz picks"],
     bestFor: "buyers who want a metal housing with IP67 waterproofing for a single high-power device",
   }
 ];
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Intelligent power allocation at the lowest price", "Tliffpaco 2-Port Gigabit PoE Extender/Switch"],
         ["Switchable extended range up to 250m", "Davuaz Outdoor PoE Extender (100Mbps, 250m mode)"],
         ["Full Gigabit speed across three devices", "Davuaz Outdoor PoE Gigabit Extender (30W in, 24W out)"],
-        ["A metal housing for outdoor durability", "WAVLINK IP67 Outdoor Gigabit PoE Extender"],
+        ["A metal housing for outdoor durability", "WAVLINK IP67 Outdoor Gigabit PoE Extender"]
       ],
     },
   },
@@ -109,9 +109,9 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $14", "Tliffpaco ($13.98) or Davuaz 100Mbps ($13.99)"],
-        ["Under $17", "Davuaz Gigabit (30W in, 24W out) ($16.99)"],
-        ["Under $40", "WAVLINK IP67 Outdoor ($39.99)"],
+        ["Under $14", "Tliffpaco (under $15) or Davuaz 100Mbps (under $15)"],
+        ["Under $17", "Davuaz Gigabit (30W in, 24W out) (under $20)"],
+        ["Under $40", "WAVLINK IP67 Outdoor (under $40)"]
       ],
     },
   },
@@ -119,7 +119,7 @@ export const howToChoose = [
     subheading: "Fixed Gigabit Speed vs Switchable Extended Range",
     cards: [
       { label: "Fixed Gigabit speed (Tliffpaco, Davuaz Gigabit)", text: "Both maintain full 1000Mbps at all times, better suited to bandwidth-sensitive devices that need consistent high throughput." },
-      { label: "Switchable extended range (Davuaz 100Mbps)", text: "Trades speed for reach on demand, useful when one specific device needs to be placed farther than the standard 100m range allows." },
+      { label: "Switchable extended range (Davuaz 100Mbps)", text: "Trades speed for reach on demand, useful when one specific device needs to be placed farther than the standard 100m range allows." }
     ],
     note: "If your devices need consistent high bandwidth, the Gigabit-rated picks are the better fit. If you need occasional extended reach for a lower-bandwidth device, the switchable Davuaz pick gives you that flexibility.",
   },
@@ -130,7 +130,7 @@ export const howToChoose = [
       rows: [
         ["One high-power device at extended distance", "WAVLINK IP67 Outdoor Gigabit PoE Extender"],
         ["Two devices with intelligent power sharing", "Tliffpaco 2-Port Gigabit PoE Extender/Switch"],
-        ["Three devices from one 30W input", "Either Davuaz pick, depending on speed need"],
+        ["Three devices from one 30W input", "Either Davuaz pick, depending on speed need"]
       ],
     },
   },
@@ -138,16 +138,16 @@ export const howToChoose = [
     subheading: "For a PTZ Camera Requiring Full 30W Specifically",
     cards: [
       { label: "Look for", text: "A listing that discloses actual output wattage per port, not just the input rating, since some extenders share a 30W input across multiple ports for a lower per-port output." },
-      { label: "In this comparison", text: "The WAVLINK pick's single output port delivers the full 30W IEEE 802.3af/at rating to one device, rather than splitting it across multiple ports like the multi-device picks." },
+      { label: "In this comparison", text: "The WAVLINK pick's single output port delivers the full 30W IEEE 802.3af/at rating to one device, rather than splitting it across multiple ports like the multi-device picks." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You need a metal, IP67-rated housing for a single high-power device at extended distance, where the WAVLINK's $39.99 price is justified by that build quality." },
-      { label: "Save if", text: "You want to power multiple standard-wattage devices at Gigabit speed, where the Tliffpaco pick delivers that for $13.98, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You need a metal, IP67-rated housing for a single high-power device at extended distance, where the WAVLINK's under $40 price is justified by that build quality." },
+      { label: "Save if", text: "You want to power multiple standard-wattage devices at Gigabit speed, where the Tliffpaco pick delivers that for under $15, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

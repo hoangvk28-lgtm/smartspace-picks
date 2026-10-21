@@ -5,7 +5,7 @@ export const metaDescription = "5 air purifiers we evaluated for small rooms, wi
 export const mainKeyword = "air purifier for small room";
 export const introParagraphs = [
   "Small-room-rated purifiers are sometimes oversized relative to actual need, running at unnecessarily high, louder, less efficient speeds to hit a CADR rating designed for a larger nominal room, match ACH to your actual room size rather than just picking the smallest-labeled unit.",
-  "A small room's proportionally higher occupant-to-volume ratio, a single person breathes a larger fraction of the room's total air volume per hour, makes hitting the recommended air-changes-per-hour target more perceptibly meaningful in this context than in a large room.",
+  "A small room's proportionally higher occupant-to-volume ratio, a single person breathes a larger fraction of the room's total air volume per hour, makes hitting the recommended air-changes-per-hour target more perceptibly meaningful in this context than in a large room."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Air Purifier for Small Rooms Overall",
     name: "Levoit Air Purifiers for Bedroom Home Pets Dorm Room, Small Air Purifiers",
     price: "$49.99",
-    rating: "4.6 stars from 44,671 Amazon ratings",
-    reviews: "44,671 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ODC2Uu41L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09GTRVJQM?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Quiet Small-Room Pick",
     name: "Levoit Air Purifiers for Home Bedroom Dorm Room, Small Quiet Air Purifiers",
     price: "$44.99",
-    rating: "4.6 stars from 44,671 Amazon ratings",
-    reviews: "44,671 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31e6d46ZnyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09LMF648R?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Small-Room Pick",
     name: "VOOPNU Air Purifiers for Home, High Efficiency Filter Up to 1076 Ft2, White",
     price: "$26.99",
-    rating: "4.5 stars from 4,026 Amazon ratings",
-    reviews: "4,026 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41BE3lVftQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DY4S3HP2?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Small-Room Pick with Night Light",
     name: "Air Purifiers for Bedroom, FULMINARE H13 True HEPA Air Filter, Quiet Air Cleaner With Night Light, Portable Small Air Purifier for Home, Office, Living Room",
     price: "$24.99",
-    rating: "4.4 stars from 5,517 Amazon ratings",
-    reviews: "5,517 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/414NIpA+xLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B4ZSKPNL?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Alternative Small-Room Pick",
     name: "Purivortex Air Purifiers for Bedroom, Covers Up to 880 Sq Ft, PX500 Black",
     price: "$32.99",
-    rating: "4.5 stars from 2,997 Amazon ratings",
-    reviews: "2,997 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Apo3YcVHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9SL7894?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Genuine headroom to run quieter in a small room", "Solid review base", "Affordable price", "Compact design"],
     cons: ["Rated coverage exceeds a truly small room's need", "No smart features", "Verify true HEPA certification specifics"],
     bestFor: "Buyers who want headroom to run their purifier quieter in a genuinely small room",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "ACH-matched sizing rather than smallest-available-unit selection", description: "Prioritized matching air-changes-per-hour to actual room size rather than assuming the smallest-labeled unit is automatically correct, since an oversized unit run at a lower speed can be quieter than an undersized one run at max." },
   { title: "Dead-zone placement consideration for small enclosed rooms", description: "Considered that small rooms with poor air circulation, closed doors, minimal HVAC airflow, can create localized dead zones where a purifier's effective range doesn't reach all corners." },
-  { title: "Filter replacement frequency for compact filter media", description: "Noted that compact purifiers designed for small rooms sometimes use smaller filter media with reduced total filtration surface area, requiring more frequent replacement than a larger unit's filter." },
+  { title: "Filter replacement frequency for compact filter media", description: "Noted that compact purifiers designed for small rooms sometimes use smaller filter media with reduced total filtration surface area, requiring more frequent replacement than a larger unit's filter." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Do small-room air purifiers need filter replacement more often?", a: "Often yes. Compact purifiers designed for small rooms sometimes use smaller filter media with reduced total filtration surface area, requiring more frequent replacement than a larger unit's filter." },
   { q: "Can running an air purifier in a small room make it feel stuffy?", a: "Yes, potentially. A unit running continuously in a small enclosed space can measurably raise room temperature or perceived stuffiness over hours of operation, a secondary comfort effect worth considering." },
   { q: "Is an oversized air purifier wasteful in a genuinely small room?", a: "It can cycle air faster than necessary, which isn't harmful but means you're paying for coverage capacity you don't need, matching the unit's rated room size closely to your actual room is more cost-efficient." },
-  { q: "How much desk or floor space does a small-room air purifier actually need?", a: "Check the specific listed footprint dimensions, compact models designed for small rooms typically need only a narrow corner or shelf space rather than a dedicated floor area." },
+  { q: "How much desk or floor space does a small-room air purifier actually need?", a: "Check the specific listed footprint dimensions, compact models designed for small rooms typically need only a narrow corner or shelf space rather than a dedicated floor area." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-compact-air-purifiers-for-desks", title: "Best Compact Air Purifiers for Desks (2026)" },
   { href: "/guide/best-small-air-purifiers", title: "Best Small Air Purifiers (2026)" },
-  { href: "/guide/best-air-purifiers-for-dorm-rooms", title: "Best Air Purifiers for Dorm Rooms (2026)" },
+  { href: "/guide/best-air-purifiers-for-dorm-rooms", title: "Best Air Purifiers for Dorm Rooms (2026)" }
 ];

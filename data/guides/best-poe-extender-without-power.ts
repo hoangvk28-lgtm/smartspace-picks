@@ -61,7 +61,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0CRB3THFS?tag=deskfinds0d-20",
     description: "This switch's listing specifically states it's powered entirely by the PoE network with no AC power supply required, splitting a single 90W IEEE 802.3bt input into one dedicated 60W output port and three standard 30W output ports. Its VLAN mode, controlled by a dipswitch, isolates output ports 2 through 5 from each other for improved network security.\n\nCompared to the YuanLey and LINOVISION picks above, this one's lowest price in this comparison and dedicated 60W output port together deliver genuine value for buyers needing to power one higher-wattage device alongside standard ones, all without local power.\n\nBest for buyers who want the lowest price with a dedicated high-power port and zero local power requirement.",
     specs: ["No local power required, 90W input to 4 outputs", "One 60W port + three 30W ports (IEEE 802.3bt/at)", "VLAN mode via dipswitch, 3-level cascading"],
-    pros: ["Lowest price in this comparison at $19.99", "Dedicated 60W output port supports one higher-power device", "VLAN mode isolates ports for improved network security"],
+    pros: ["Lowest price in this comparison at under $20", "Dedicated 60W output port supports one higher-power device", "VLAN mode isolates ports for improved network security"],
     cons: ["Explicitly does not support 24V passive PoE devices", "100Mbps port speed is lower than the Gigabit-rated picks above"],
     bestFor: "buyers who want the lowest price with a dedicated high-power port and zero local power requirement",
   },
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["To power three devices with VLAN isolation, no local power", "YuanLey 4 Port PoE Extender Gigabit"],
         ["No local power in a genuinely harsh, industrial setting", "LINOVISION 2 Ports Gigabit PoE Passthrough Switch"],
         ["The lowest price with a dedicated high-power port", "PoE Passthrough Switch, 1 in 4 Out Extender"],
-        ["Gigabit speed with zero local power anywhere in the chain", "Gigabit PoE Passthrough Switch, 1 in 3 Out Extender"],
+        ["Gigabit speed with zero local power anywhere in the chain", "Gigabit PoE Passthrough Switch, 1 in 3 Out Extender"]
       ],
     },
   },
@@ -109,9 +109,9 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $20", "PoE Passthrough Switch, 1 in 4 Out ($19.99)"],
-        ["Under $27", "YuanLey 4 Port PoE Extender ($26.98)"],
-        ["Under $30", "LINOVISION 2 Ports Passthrough ($29.99) or Gigabit Passthrough Switch ($29.99)"],
+        ["Under $20", "PoE Passthrough Switch, 1 in 4 Out (under $20)"],
+        ["Under $27", "YuanLey 4 Port PoE Extender (under $30)"],
+        ["Under $30", "LINOVISION 2 Ports Passthrough (under $30) or Gigabit Passthrough Switch (under $30)"]
       ],
     },
   },
@@ -119,7 +119,7 @@ export const howToChoose = [
     subheading: "Gigabit Speed vs Dedicated High-Power Port",
     cards: [
       { label: "Gigabit speed (YuanLey, Gigabit Passthrough Switch)", text: "Both maintain full 1000Mbps throughput, better suited to bandwidth-hungry devices like 4K IP cameras, though neither has a dedicated port above standard 30W." },
-      { label: "Dedicated high-power port (100Mbps Passthrough Switch)", text: "Trades Gigabit speed for a dedicated 60W output port, better suited to a single higher-wattage device like a PTZ camera alongside standard ones." },
+      { label: "Dedicated high-power port (100Mbps Passthrough Switch)", text: "Trades Gigabit speed for a dedicated 60W output port, better suited to a single higher-wattage device like a PTZ camera alongside standard ones." }
     ],
     note: "If your devices need high bandwidth more than high wattage, the Gigabit-rated picks are the better fit. If you specifically need to power one higher-wattage device without local power, the 100Mbps pick's dedicated 60W port is worth the speed tradeoff.",
   },
@@ -130,7 +130,7 @@ export const howToChoose = [
       rows: [
         ["Indoor office or home network closet", "YuanLey 4 Port PoE Extender or PoE Passthrough Switch"],
         ["Harsh industrial or outdoor enclosure", "LINOVISION 2 Ports Gigabit PoE Passthrough Switch"],
-        ["DIN-rail mounted network cabinet", "Any of the four picks support DIN-rail mounting"],
+        ["DIN-rail mounted network cabinet", "Any of the four picks support DIN-rail mounting"]
       ],
     },
   },
@@ -138,16 +138,16 @@ export const howToChoose = [
     subheading: "For a Location With No Nearby Electrical Outlet Specifically",
     cards: [
       { label: "Look for", text: "An extender explicitly described as passthrough or requiring no AC power supply, confirming it draws 100% of its operating power from the upstream PoE cable rather than needing a separate local outlet." },
-      { label: "In this comparison", text: "All four picks specifically confirm no local power requirement, making any of them suitable for a location with no nearby electrical outlet." },
+      { label: "In this comparison", text: "All four picks specifically confirm no local power requirement, making any of them suitable for a location with no nearby electrical outlet." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You're installing in a genuinely harsh industrial environment and need surge protection and a wide temperature range, where the LINOVISION pick's $29.99 price is justified by its industrial-grade build." },
-      { label: "Save if", text: "You want a dedicated high-power port with zero local power requirement, where the PoE Passthrough Switch delivers that for $19.99, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You're installing in a genuinely harsh industrial environment and need surge protection and a wide temperature range, where the LINOVISION pick's under $30 price is justified by its industrial-grade build." },
+      { label: "Save if", text: "You want a dedicated high-power port with zero local power requirement, where the PoE Passthrough Switch delivers that for under $20, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

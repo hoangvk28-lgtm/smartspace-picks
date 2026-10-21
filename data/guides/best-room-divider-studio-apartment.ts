@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "room divider for studio apartment";
 export const introParagraphs = [
   "A studio apartment divider has one constraint most other rooms don't: you probably can't drill into the walls. That rules out permanent room-divider bookcases for a lot of renters and pushes the search toward tension rods, folding screens, and freestanding pieces that leave no trace on move-out day.",
-  "Below are 8 studio-apartment dividers we evaluated on renter-friendliness, how much light and airflow they let through, and how easily they set up and come down, ranging from a $28 no-drill tension rod to a shoji screen that doubles as a light-filtering privacy wall.",
+  "Below are 8 studio-apartment dividers we evaluated on renter-friendliness, how much light and airflow they let through, and how easily they set up and come down, ranging from a $28 no-drill tension rod to a shoji screen that doubles as a light-filtering privacy wall."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Stainless steel",
       "45 lb capacity",
       "I-shape and L-shape configurations",
-      "No drilling required",
+      "No drilling required"
     ],
     pros: [
       "Widest coverage in this list at up to 114 inches",
       "Both I-shape and L-shape configurations for corners",
       "No drilling, fully renter-friendly",
-      "45 lb capacity handles heavier curtains",
+      "45 lb capacity handles heavier curtains"
     ],
     cons: [
       "Curtains sold separately",
       "Tension mounting works best on sturdy ceilings, not all drop ceilings",
-      "Longest spans need a taller ceiling for stability",
+      "Longest spans need a taller ceiling for stability"
     ],
     bestFor: "Studios needing to divide the widest possible span without drilling",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Iron construction",
       "45 lb capacity",
       "I-shape and L-shape configurations",
-      "No drilling required",
+      "No drilling required"
     ],
     pros: [
       "Cheapest tension rod divider in this list",
       "Both I-shape and L-shape configurations",
       "Detachable for compact storage",
-      "No drilling required",
+      "No drilling required"
     ],
     cons: [
       "Narrower 70\" max width limits it to smaller spaces",
       "Iron construction is heavier than stainless steel alternatives",
-      "Curtains sold separately",
+      "Curtains sold separately"
     ],
     bestFor: "A budget no-drill divider for a smaller nook or closet-sized area",
   },
@@ -121,18 +121,17 @@ export const products: GuideProduct[] = [
       "Stainless steel",
       "45 lb capacity",
       "Detachable for storage",
-      "No drilling required",
+      "No drilling required"
     ],
     pros: [
       "Detachable design stores compactly",
       "Stainless steel build resists rust",
       "SUNALLY's most popular tension rod size",
-      "Same-day delivery availability",
+      "Same-day delivery availability"
     ],
     cons: [
       "Narrower than the 114\" SUNALLY option",
-      "Curtains sold separately",
-      "4.5 stars is slightly lower than the wider version",
+      "Curtains sold separately"
     ],
     bestFor: "Renters who want an easy-to-store, right-sized no-drill divider",
   },
@@ -147,24 +146,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41inUBY1siL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVD54V55?tag=deskfinds0d-20",
     description:
-      "With nearly 2,000 ratings, HORSE SECRET is the most-reviewed tension rod in this list. A 1-inch diameter stainless metal tube feels sturdier in hand than the thinner rods from other brands, and a matte black finish looks less utilitarian than bare steel.\n\nIt covers the same 28 to 70 inch, 4 to 10 foot range as the compact SUNALLY and Goovilla options, with a 40 lb capacity, and mounts entirely on spring tension with zero drilling.\n\nA genuine advantage here is that thicker 1\" diameter feels sturdier. The tradeoff is slightly lower 40 lb capacity than the SUNALLY/Goovilla rods.",
+      "A 1-inch diameter stainless metal tube feels sturdier in hand than the thinner rods from other brands, and a matte black finish looks less utilitarian than bare steel.\n\nIt covers the same 28 to 70 inch, 4 to 10 foot range as the compact SUNALLY and Goovilla options, with a 40 lb capacity, and mounts entirely on spring tension with zero drilling.\n\nA genuine advantage here is that thicker 1\" diameter feels sturdier. The tradeoff is slightly lower 40 lb capacity than the SUNALLY/Goovilla rods.",
     specs: [
       "28-70\" width, 4-10ft height (adjustable)",
       "Stainless metal, 1\" diameter",
       "40 lb capacity",
       "Matte black finish",
-      "No drilling required",
+      "No drilling required"
     ],
     pros: [
-      "Most-reviewed tension rod in this list at 1,955 ratings",
       "Thicker 1\" diameter feels sturdier",
       "Matte black finish looks more finished",
-      "No drilling required",
+      "No drilling required"
     ],
     cons: [
       "Slightly lower 40 lb capacity than the SUNALLY/Goovilla rods",
       "No L-shape configuration mentioned",
-      "Curtains sold separately",
+      "Curtains sold separately"
     ],
     bestFor: "Buyers who want the most-proven tension rod with a sturdier feel",
   },
@@ -185,18 +183,18 @@ export const products: GuideProduct[] = [
       "Bamboo + wood",
       "No assembly required",
       "Dual-direction hinges",
-      "15.4 lbs (lightest folding screen in this list)",
+      "15.4 lbs (lightest folding screen in this list)"
     ],
     pros: [
       "No assembly required, unfolds straight from the box",
       "Lightest folding screen in this list at 15.4 lbs",
       "Natural, eco-friendly bamboo material",
-      "Dual-direction hinges for flexible standing angles",
+      "Dual-direction hinges for flexible standing angles"
     ],
     cons: [
       "Bamboo panels are less rigid than a solid wood frame",
       "Narrower than some fabric screens in a comparable price range",
-      "Fewer color options than fabric alternatives",
+      "Fewer color options than fabric alternatives"
     ],
     bestFor: "Buyers who want the lightest, most eco-friendly folding screen",
   },
@@ -217,18 +215,18 @@ export const products: GuideProduct[] = [
       "Wood frame + rice-paper-style panels",
       "No assembly required",
       "Two-way hinges",
-      "15 lbs",
+      "15 lbs"
     ],
     pros: [
       "Translucent panels let light pass through, keeping the studio bright",
       "No assembly required",
       "Elegant Japanese shoji aesthetic",
-      "Lightweight at 15 lbs",
+      "Lightweight at 15 lbs"
     ],
     cons: [
       "Translucent panels offer visual privacy but not full opacity",
       "Rice-paper-style panels are more delicate than solid wood",
-      "Pricier than the basic fabric folding screens",
+      "Pricier than the basic fabric folding screens"
     ],
     bestFor: "Studios where you want to divide space without losing natural light",
   },
@@ -249,18 +247,18 @@ export const products: GuideProduct[] = [
       "Solid wood, hand-carved openwork",
       "Foldable, no tools required",
       "6 panels",
-      "Boho leaf-carving design",
+      "Boho leaf-carving design"
     ],
     pros: [
       "Widest folding screen in this list at 96 inches",
       "Hand-carved openwork lets light and air through",
       "Doubles as a decorative art piece",
-      "No tools required to set up",
+      "No tools required to set up"
     ],
     cons: [
       "Most expensive folding screen in this list",
       "Small review sample so far",
-      "Openwork carving offers less privacy than a solid panel",
+      "Openwork carving offers less privacy than a solid panel"
     ],
     bestFor: "Buyers who want their divider to double as a statement decor piece",
   },
@@ -281,21 +279,21 @@ export const products: GuideProduct[] = [
       "P2 MDF + metal",
       "S-shaped, usable as divider, wine rack, or TV stand",
       "30 lb/shelf (180 lb total)",
-      "Waterproof, anti-scratch",
+      "Waterproof, anti-scratch"
     ],
     pros: [
       "Doubles as real shelf storage, not just a visual divider",
       "180 lb total capacity",
       "3 placement options (divider, wine rack, TV stand)",
-      "Space-efficient for a studio where every inch counts",
+      "Space-efficient for a studio where every inch counts"
     ],
     cons: [
       "Narrower footprint than a full-width folding screen",
       "Less privacy than a solid panel or fabric screen",
-      "Sculptural shape won't suit every decor style",
+      "Sculptural shape won't suit every decor style"
     ],
     bestFor: "Studios that need storage as much as they need a visual divider",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +321,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed coverage, material quality, and included features against price, the tension rods and the Furologee 2-in-1 pick score highest here.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -462,11 +460,11 @@ export const faq: FaqItem[] = [
   {
     q: "Which studio divider is easiest to move or take down?",
     a: "The JOSTYLE Bamboo screen is the lightest freestanding option at 15.4 lbs, and the compact SUNALLY and Goovilla tension rods detach into a small package for storage. Both are easy for one person to handle without help.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-room-divider-with-shelves", title: "Best Room Dividers with Shelves (2026)" },
   { href: "/guide/best-room-divider-bookcase", title: "Best Room Divider Bookcases (2026)" },
-  { href: "/guide/best-bookshelf-room-divider", title: "Best Bookshelf Room Dividers (2026)" },
+  { href: "/guide/best-bookshelf-room-divider", title: "Best Bookshelf Room Dividers (2026)" }
 ];

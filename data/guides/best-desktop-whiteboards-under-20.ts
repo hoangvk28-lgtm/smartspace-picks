@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["A complete, durable kit at the top of this comparison", "Lumspax Small Desktop White Board with Stand, 10\" x 10\""],
         ["The lowest price with flexible mounting options", "Small Dry Erase Board, 10\" X 10\" with Stand"],
-        ["Meaningfully more writing space with full accessories", "AMUSIGHT Double-Sided Magnetic White Board, 16\" x 12\""],
+        ["Meaningfully more writing space with full accessories", "AMUSIGHT Double-Sided Magnetic White Board, 16\" x 12\""]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $10", "Small Dry Erase Board ($9.59) or Lumspax ($9.99)"],
-        ["$19-$20", "AMUSIGHT ($19.99) or Dry Erase w/Stand ($19.99)"],
+        ["Under $10", "Small Dry Erase Board (under $10) or Lumspax (under $10)"],
+        ["$19-$20", "AMUSIGHT (under $20) or Dry Erase w/Stand (under $20)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Compact 10x10 vs Larger 16x12",
     cards: [
       { label: "Compact 10x10 (Lumspax, Small Dry Erase)", text: "Fits in tight desk spaces and costs less, sufficient for short reminders or quick notes rather than longer lists." },
-      { label: "Larger 16x12 (AMUSIGHT, Dry Erase w/Stand)", text: "Nearly triple the writing area, better suited to longer to-do lists, brainstorming, or detailed planning." },
+      { label: "Larger 16x12 (AMUSIGHT, Dry Erase w/Stand)", text: "Nearly triple the writing area, better suited to longer to-do lists, brainstorming, or detailed planning." }
     ],
     note: "If your desk space is limited and you only need quick reminders, the compact size works fine. For more substantial daily planning, the larger boards are worth the small price increase.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your mounting preference", "Recommended pick"],
       rows: [
         ["Flat, standing, or wall-mounted flexibility", "Small Dry Erase Board, 10\" X 10\" with Stand"],
-        ["Simple, sturdy standing use only", "Lumspax, AMUSIGHT, or Dry Erase w/Stand"],
+        ["Simple, sturdy standing use only", "Lumspax, AMUSIGHT, or Dry Erase w/Stand"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Frequent Two-Sided Use Specifically",
     cards: [
       { label: "Look for", text: "A stand specifically engineered for smooth rotation, so flipping between the board's two writing surfaces feels effortless rather than requiring you to lift and reposition the whole board." },
-      { label: "In this comparison", text: "The Dry Erase White Board with Stand specifically emphasizes smooth 360-degree rotation for easy two-sided viewing and writing." },
+      { label: "In this comparison", text: "The Dry Erase White Board with Stand specifically emphasizes smooth 360-degree rotation for easy two-sided viewing and writing." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want meaningfully more writing space and the most complete accessory bundle, where the AMUSIGHT pick delivers both at the top of this comparison." },
-      { label: "Save if", text: "A compact board covers your quick-note needs, where the Small Dry Erase Board delivers the lowest price with flexible mounting options." },
+      { label: "Save if", text: "A compact board covers your quick-note needs, where the Small Dry Erase Board delivers the lowest price with flexible mounting options." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

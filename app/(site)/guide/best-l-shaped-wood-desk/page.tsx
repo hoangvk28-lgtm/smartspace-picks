@@ -143,7 +143,7 @@ export default async function BestLShapedWoodDeskPage() {
     about: [
       { "@type": "Thing", name: "L-Shaped Wood Desk" },
       { "@type": "Thing", name: "Home Office Desk" },
-      { "@type": "Thing", name: "Corner Desk" },
+      { "@type": "Thing", name: "Corner Desk" }
     ],
   };
 
@@ -153,7 +153,7 @@ export default async function BestLShapedWoodDeskPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best L-Shaped Wood Desks for Home Office", item: `${SITE_URL}/guide/best-l-shaped-wood-desk` },
+      { "@type": "ListItem", position: 3, name: "Best L-Shaped Wood Desks for Home Office", item: `${SITE_URL}/guide/best-l-shaped-wood-desk` }
     ],
   };
 

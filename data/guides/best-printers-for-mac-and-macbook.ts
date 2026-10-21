@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "printer for mac";
 export const introParagraphs = [
   "Most Mac households default to AirPrint because it's built into macOS and requires no extra software, but AirPrint trades away features a full manufacturer driver provides, like tray selection, print quality presets, and ink level monitoring. Neither option is objectively better; the right one depends on how much control you want over print settings.",
-  "Below are 7 printers we evaluated on wireless and AirPrint-style compatibility with macOS. Most listed here are standard wireless AIOs rather than printers explicitly marketed as \"Mac-certified,\" so we're framing this around actual AirPrint compatibility and driver availability rather than a marketing label, and flagging where Apple Silicon driver support for older printer models is worth double-checking.",
+  "Below are 7 printers we evaluated on wireless and AirPrint-style compatibility with macOS. Most listed here are standard wireless AIOs rather than printers explicitly marketed as \"Mac-certified,\" so we're framing this around actual AirPrint compatibility and driver availability rather than a marketing label, and flagging where Apple Silicon driver support for older printer models is worth double-checking."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "9 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "AirPrint compatible",
       "Full macOS driver available",
       "Duplex printing",
-      "250-sheet paper tray",
+      "250-sheet paper tray"
     ],
     pros: [
       "AirPrint compatible out of the box",
       "Full macOS driver available for detailed settings",
       "Lower cost per page for text-heavy Mac use",
-      "Large paper tray reduces refills",
+      "Large paper tray reduces refills"
     ],
     cons: [
       "Not explicitly marketed as \"Mac-certified\"",
       "Monochrome only",
-      "Higher upfront price than the inkjet picks",
+      "Higher upfront price than the inkjet picks"
     ],
     bestFor: "A Mac household with high, mostly text-based print volume",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Auto document feeder",
       "Built-in fax",
       "Canon PRINT app available for extra settings",
-      "Low price point",
+      "Low price point"
     ],
     pros: [
       "AirPrint compatible, no driver install needed",
       "ADF works with macOS's built-in Image Capture",
       "Low upfront cost",
-      "Canon PRINT app available for more control",
+      "Canon PRINT app available for more control"
     ],
     cons: [
       "Not explicitly marketed as \"Mac-certified\"",
       "AirPrint alone lacks detailed print quality settings",
-      "Standard cartridges, higher cost per page",
+      "Standard cartridges, higher cost per page"
     ],
     bestFor: "A budget-conscious Mac household that wants simple AirPrint setup",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "AirPrint compatible",
       "Full macOS driver available",
       "Scan and copy included",
-      "Lower long-run ink cost",
+      "Lower long-run ink cost"
     ],
     pros: [
       "AirPrint compatible with driverless setup",
       "Lower long-run ink cost for regular Mac printing",
       "Full macOS driver available for more control",
-      "No cartridge to replace often",
+      "No cartridge to replace often"
     ],
     cons: [
       "Not explicitly marketed as \"Mac-certified\"",
       "Higher upfront cost than the cheapest cartridge inkjets",
-      "Basic feature set, no ADF",
+      "Basic feature set, no ADF"
     ],
     bestFor: "A Mac household that prints regularly and wants lower ink cost over time",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "AirPrint compatible",
       "Automatic document feeder",
       "Ethernet + wireless connectivity",
-      "Scan, copy, fax included",
+      "Scan, copy, fax included"
     ],
     pros: [
       "AirPrint compatible with an Ethernet fallback option",
       "ADF works with macOS's built-in scanning tools",
       "Lower long-run ink cost",
-      "Full macOS driver available",
+      "Full macOS driver available"
     ],
     cons: [
       "Not explicitly marketed as \"Mac-certified\"",
       "Larger footprint than the ET-2800",
-      "Pricier than the entry cartridge inkjets",
+      "Pricier than the entry cartridge inkjets"
     ],
     bestFor: "A Mac home office wanting a wired fallback option and ADF",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "HP Smart app available",
       "Wireless all-in-one: print, scan, copy",
       "3-month Instant Ink trial included",
-      "Compact footprint",
+      "Compact footprint"
     ],
     pros: [
       "AirPrint compatible at the lowest price in this list",
       "HP Smart app adds ink tracking and extra settings",
       "Compact for small desks",
-      "Simple setup",
+      "Simple setup"
     ],
     cons: [
       "HP has more reported macOS offline/dropout issues than some competitors",
       "Not explicitly marketed as \"Mac-certified\"",
-      "Standard cartridges, higher cost per page",
+      "Standard cartridges, higher cost per page"
     ],
     bestFor: "A budget-conscious single-user Mac desk with light printing needs",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Works with Alexa",
       "Canon PRINT app available",
       "Amazon Dash Replenishment ready",
-      "Wireless all-in-one",
+      "Wireless all-in-one"
     ],
     pros: [
       "Explicit AirPrint support advertised in the listing",
       "Alexa compatibility",
       "Canon PRINT app for more detailed settings",
-      "Mid-range price for the feature set",
+      "Mid-range price for the feature set"
     ],
     cons: [
       "Confirm current driver availability for newer Apple Silicon Macs before buying",
       "Standard cartridges, ongoing ink cost",
-      "No ADF included",
+      "No ADF included"
     ],
     bestFor: "A Mac household that wants explicit AirPrint confirmation plus Alexa support",
   },
@@ -249,21 +249,21 @@ export const products: GuideProduct[] = [
       "AirPrint compatible",
       "Automatic duplex printing",
       "Full macOS driver available",
-      "Mid-budget pricing",
+      "Mid-budget pricing"
     ],
     pros: [
       "AirPrint compatible with an on-device display for setup",
       "Duplex printing included",
       "Full macOS driver available for more control",
-      "Reasonable price for the feature set",
+      "Reasonable price for the feature set"
     ],
     cons: [
       "Not explicitly marketed as \"Mac-certified\"",
       "Standard cartridges, ongoing ink cost",
-      "Confirm current driver support for newer Apple Silicon Macs",
+      "Confirm current driver support for newer Apple Silicon Macs"
     ],
     bestFor: "A Mac household that wants an on-device screen for AirPrint setup confirmation",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -291,7 +291,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Honest certification framing",
     description: "Avoided claiming any of these printers are explicitly \"Mac-certified\" since most listings market general wireless or AirPrint support rather than a formal Mac certification label.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -441,11 +441,11 @@ export const faq: FaqItem[] = [
   {
     q: "What's the difference between AirPrint and a manufacturer's app like HP Smart or Canon PRINT?",
     a: "AirPrint is Apple's built-in, no-install printing standard with simplified settings. Manufacturer apps like HP Smart, Canon PRINT, or Epson's software add features like ink level tracking, print quality presets, and maintenance tools, at the cost of installing and maintaining extra software.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-home-offices", title: "Best Printers for Home Offices (2026)" },
   { href: "/guide/best-printers-for-chromebooks", title: "Best Printers for Chromebooks (2026)" },
-  { href: "/guide/best-easy-to-use-printers", title: "Best Easy-to-Use Printers (2026)" },
+  { href: "/guide/best-easy-to-use-printers", title: "Best Easy-to-Use Printers (2026)" }
 ];

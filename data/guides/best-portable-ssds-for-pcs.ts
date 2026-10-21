@@ -5,7 +5,7 @@ export const metaDescription = "4 portable SSDs we evaluated for desktop PC use,
 export const mainKeyword = "best portable ssd for pc";
 export const introParagraphs = [
   "Desktop PC front-panel USB ports run through a header cable to the motherboard and are sometimes limited to a slower speed tier or less reliable connection than a port wired directly on the rear I/O panel, worth testing both before assuming a drive is underperforming.",
-  "For desktop users specifically, an internal 2.5-inch or M.2 drive bay is also a real alternative worth considering if true portability is not the priority, since internal storage avoids external bridge-chip bottlenecks entirely.",
+  "For desktop users specifically, an internal 2.5-inch or M.2 drive bay is also a real alternative worth considering if true portability is not the priority, since internal storage avoids external bridge-chip bottlenecks entirely."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Pick for Desktop PCs",
     name: "SANDISK 2TB Extreme Portable SSD (Old Model) - Up to 1050MB/s, USB-C, USB 3.2 Gen 2, IP65 Water and Dust Resistance, Updated Firmware - SDSSDE61-2T00-G25",
     price: "$299.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "91,365 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41eTFK7clfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HN37XC1?tag=deskfinds0d-20",
     description: "SanDisk's Extreme delivers reliable 1050MB/s USB-C speed with IP65 durability, performing consistently whether plugged into a rear motherboard port or a well-wired front-panel header.\n\nIt earns the top spot in this comparison over Crucial X10 1TB Portable SSD for one main reason. Reliable speed across both front-panel and rear desktop ports. On price, it's actually priced above Crucial X10 1TB Portable SSD, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: IP65 rating adds real everyday durability. On the other side, Sustained speed can dip once cache fills. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Speed Pick for Desktop PCs",
     name: "Crucial X10 1TB Portable SSD, Up to 2,100MB/s, USB 3.2 USB-C, Durable Storage for Games, Photos & Files, Blue",
     price: "$207.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "2,363 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/312gFk3+1CL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F3377JBN?tag=deskfinds0d-20",
     description: "Crucial's X10 rates up to 2100MB/s over USB 3.2, taking real advantage of a desktop PC's typically faster and more consistent rear motherboard USB ports.\n\nOne spot below SANDISK 2TB Extreme Portable SSD in this ranking, it's priced lower than SANDISK 2TB Extreme Portable SSD. The compromise here is straightforward: Front-panel USB headers may not support this full speed tier. What you gain in return: Takes real advantage of a desktop's typically faster rear ports. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Motherboard documentation makes port speed easy to confirm. On the other side, Needs a genuinely fast rear port to hit rated speed. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Fast USB4 Pick for Desktop PCs",
     name: "Corsair EX400U Survivor 1TB USB4 External SSD - Up to 4000 MB/s, IP55 Rugged Drive, Plug & Play for PC, Mac & iPad - Black",
     price: "$238.58",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "60 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21K3rg5MWlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVMGFPHT?tag=deskfinds0d-20",
     description: "Corsair's EX400U Survivor pairs a genuine USB4 bridge rated up to 4000MB/s with IP55 rugged durability, ideal for desktop PC users whose motherboard includes a rear USB4 or Thunderbolt header.\n\nSitting just under Crucial X10 1TB Portable SSD, it costs more than Crucial X10 1TB Portable SSD. Here's the honest tradeoff: Not every desktop motherboard includes a USB4 or Thunderbolt port. And here's what it gets you instead: Genuinely fast USB4 speed for desktops with a compatible port. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: IP55 rating adds real everyday durability. On the other side, 1TB capacity may be limiting for very large libraries. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Pick for Desktop PCs, Consider an Internal Bay Too",
     name: "SANDISK 1TB Portable SSD - Up to 800MB/s, USB-C, USB 3.2 Gen 2, Updated Firmware - SDSSDE30-1T00-G26",
     price: "$164.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "10,968 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41-T4nAAufL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5JQ68FY?tag=deskfinds0d-20",
     description: "SanDisk's standard Portable SSD offers solid 800MB/s USB-C speed at a budget price, a reasonable external option for desktop PC users who do not need top-tier speed.\n\nRanked just behind Corsair EX400U Survivor 1TB USB4 External SSD, it's priced lower than Corsair EX400U Survivor 1TB USB4 External SSD. The real tradeoff against that pick: 800MB/s ceiling trails faster picks in this group. In exchange, it offers this instead: Budget-friendly external option for desktop PC storage. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Still USB 3.2 Gen 2 rated for solid everyday speed. On the other side, No official IP rating. That's the main tradeoff to weigh against everything above.",

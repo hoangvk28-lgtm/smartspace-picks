@@ -81,7 +81,7 @@ export const products: ChargingProduct[] = [
       "Comes with 6 short charging cables (2× Lightning, 2× USB-C, 1× Micro USB, 1× USB-C to USB-C), ready out of the box. 1 USB-C PD 20W port fast-charges iPhone 12–16. Built-in divider slots keep phones and tablets upright while charging. Apple Watch arm holder included.",
     tradeoffs: ["Included cables are short (1ft), phone must stay near the station", "Larger footprint, needs ~6\"×4\" of desk space"],
     skipIf: "You already have all cables and just want a compact brick. The Anker PowerPort 6 is cleaner.",
-    pros: ["6 cables included (Lightning, USB-C, Micro-USB)", "PD 20W USB-C fast-charges modern iPhones", "Device slots keep phones upright", "Apple Watch arm holder", "4.4 stars across 5,800+ reviews"],
+    pros: ["6 cables included (Lightning, USB-C, Micro-USB)", "PD 20W USB-C fast-charges modern iPhones", "Device slots keep phones upright", "Apple Watch arm holder"],
     cons: ["Short included cables (1ft)", "Larger footprint than compact alternatives"],
   },
   {
@@ -155,7 +155,7 @@ export const products: ChargingProduct[] = [
     skipIf: "You don't care about the power display, the Anker PowerPort 6 is the cleaner pick for the same money.",
     pros: ["LCD shows real-time power draw", "60W across 6 ports", "Compact horizontal design", "Visual confirmation of charging status"],
     cons: ["LCD is mostly aesthetic", "No USB-C port"],
-  },
+  }
 ];
 
 export const atAGlanceHeaders = ["Pick", "Ports", "USB-C?", "Wattage", "Price"];
@@ -176,7 +176,7 @@ export const faq = [
   },
   {
     q: "Are cheap USB charging stations safe?",
-    a: "Not all of them. Every pick on this list is from a brand with a verifiable Amazon track record and at least 500 reviews. Avoid unknown brands with zero reviews under $10, those are the genuine fire risks.",
+    a: "Not all of them. Avoid unknown brands with zero reviews under $10, those are the genuine fire risks.",
   },
   {
     q: "What's the difference between USB-A and USB-C charging?",
@@ -185,12 +185,12 @@ export const faq = [
   {
     q: "Can a USB charging station charge a laptop?",
     a: "Standard USB-A stations cannot meaningfully charge modern laptops. Laptops require USB-C Power Delivery at 45–100W. The picks in this guide are designed for phones, tablets, earbuds, and small devices.",
-  },
+  }
 ];
 
 export const relatedGuides = [
   { title: "5 Best Budget Multi-Device Charging Stations Under $50", href: "/guide/best-budget-multi-device-charging-station-under-50" },
   { title: "5 Best Budget Apple 3-in-1 Charging Stations Under $40", href: "/guide/best-budget-apple-3-in-1-charging-station-under-40" },
   { title: "USB-C Hub vs Docking Station", href: "/compare/usb-c-hub-vs-docking-station" },
-  { title: "Desk Setup Essentials", href: "/guide/desk-setup-essentials" },
+  { title: "Desk Setup Essentials", href: "/guide/desk-setup-essentials" }
 ];

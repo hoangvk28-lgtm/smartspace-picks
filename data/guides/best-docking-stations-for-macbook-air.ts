@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "docking station for macbook air";
 export const introParagraphs = [
   "A MacBook Air's biggest docking limitation isn't the dock, it's the chip. Every Air through the M3 generation drives only one native external display, so a second monitor requires either clamshell mode on the M3 or a DisplayLink adapter that intercepts the video signal entirely. Picking the wrong dock for your specific chip generation is the single most common mistake buyers make with this laptop.",
-  "Below are 8 docking stations for MacBook Air we evaluated on chip-generation compatibility, DisplayLink dual-monitor support, charging behavior for a fanless 45W laptop, and port selection, ranging from a $39.99 compact hub to a $199.99 triple-display DisplayLink dock.",
+  "Below are 8 docking stations for MacBook Air we evaluated on chip-generation compatibility, DisplayLink dual-monitor support, charging behavior for a fanless 45W laptop, and port selection, ranging from an under-$40 compact hub to an under-$200 triple-display DisplayLink dock."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "4K HDMI dual monitor or single 6K",
       "100W charging",
       "6x USB, SD card slot, Ethernet",
-      "Driverless setup",
+      "Driverless setup"
     ],
     pros: [
       "Thunderbolt certified, not just USB4 compatible",
       "Single 6K display support for M4/M5 Air",
       "100W charging headroom for peripheral devices",
-      "Driverless, true plug and play",
+      "Driverless, true plug and play"
     ],
     cons: [
       "Overkill wattage for a 45W MacBook Air",
       "Pricier than DisplayLink alternatives",
-      "Dual 4K still needs a DisplayLink dock on most Air chips",
+      "Dual 4K still needs a DisplayLink dock on most Air chips"
     ],
     bestFor: "M4 or M5 MacBook Air owners who want a certified Thunderbolt dock",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "150W power adapter",
       "10Gbps USB-C, 2.5G Ethernet",
       "7x USB ports",
-      "SD 4.0 card reader",
+      "SD 4.0 card reader"
     ],
     pros: [
       "True dual external display via DisplayLink, no clamshell required",
       "2.5G Ethernet, faster than standard gigabit",
       "150W adapter leaves headroom for peripherals",
-      "SD 4.0 reader for faster card offloading",
+      "SD 4.0 reader for faster card offloading"
     ],
     cons: [
       "DisplayLink displays are not suitable for color-critical editing",
       "Adds some CPU overhead versus a native Thunderbolt display",
-      "Bulkier than a single-cable Thunderbolt dock",
+      "Bulkier than a single-cable Thunderbolt dock"
     ],
     bestFor: "M1-M3 MacBook Air owners who need two external monitors without clamshell mode",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "10Gbps USB-A/C data",
       "SD/TF card slot",
       "USB 2.0 port for accessories",
-      "Ethernet, PD charging passthrough",
+      "Ethernet, PD charging passthrough"
     ],
     pros: [
       "Most affordable true dual-4K DisplayLink dock here",
       "Dual HDMI covers common desk monitor pairs",
       "10Gbps data ports",
-      "Includes Ethernet and card reader",
+      "Includes Ethernet and card reader"
     ],
     cons: [
       "DisplayLink adds CPU load versus native Thunderbolt output",
       "Fewer total USB ports than the TobenONE",
-      "Plastic build feels less premium than higher-priced docks",
+      "Plastic build feels less premium than higher-priced docks"
     ],
     bestFor: "Budget-focused buyers who need dual monitors but not premium extras",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "150W charger included",
       "7x USB ports, up to 10Gbps",
       "2.5G Ethernet",
-      "Compatible with M1 through M5 chips",
+      "Compatible with M1 through M5 chips"
     ],
     pros: [
       "Wide chip compatibility across M1-M5",
       "150W charger with peripheral headroom",
       "2.5G Ethernet for fast wired transfers",
-      "Strong port count for a studio or shared desk",
+      "Strong port count for a studio or shared desk"
     ],
     cons: [
       "DisplayLink limitation applies to color-critical work",
       "Similar price to the Thunderbolt-certified Plugable pick",
-      "Large footprint for a small desk",
+      "Large footprint for a small desk"
     ],
     bestFor: "Shared desks or studios where multiple MacBook generations connect",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Dual HDMI + DisplayPort",
       "10 total ports",
       "Compatible with Windows and MacBook Air/Pro",
-      "Established DisplayLink driver support",
+      "Established DisplayLink driver support"
     ],
     pros: [
       "Only pick here supporting a genuine 3-display setup",
       "Mixed HDMI/DisplayPort outputs add flexibility",
       "Anker's longer driver support track record",
-      "Works across Windows and macOS",
+      "Works across Windows and macOS"
     ],
     cons: [
       "Most expensive pick in this list",
       "Triple DisplayLink output adds noticeable CPU overhead",
-      "Color accuracy is not suited to creative work across all 3 displays",
+      "Color accuracy is not suited to creative work across all 3 displays"
     ],
     bestFor: "Buyers who genuinely need 3 external monitors from a MacBook Air",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "85W Power Delivery",
       "Gigabit Ethernet hub",
       "SD card reader",
-      "Charger not included",
+      "Charger not included"
     ],
     pros: [
       "Lowest price for genuine dual-monitor support here",
       "85W PD comfortably covers Air charging needs",
       "Includes SD card reader and Ethernet",
-      "Compact 8-in-1 hub form factor",
+      "Compact 8-in-1 hub form factor"
     ],
     cons: [
       "Power adapter sold separately",
       "DisplayLink-style compression on the dual HDMI output",
-      "Fewer total USB ports than the higher-tier docks",
+      "Fewer total USB ports than the higher-tier docks"
     ],
     bestFor: "Budget buyers who want dual monitors without extra frills",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "2x HDMI, 2x DP outputs",
       "130W Power Delivery",
       "5x USB ports plus audio",
-      "Compatible with M1-M4 Mac and Windows",
+      "Compatible with M1-M4 Mac and Windows"
     ],
     pros: [
       "Highest display resolution ceiling (5K) among these picks",
       "Mixed HDMI/DisplayPort outputs for flexible monitor pairing",
       "130W PD headroom beyond Air charging needs",
-      "Cross-platform Mac and Windows support",
+      "Cross-platform Mac and Windows support"
     ],
     cons: [
       "DisplayLink compression still applies at 5K",
       "13-port design has a larger desk footprint",
-      "Pricier than the budget dual-HDMI docks",
+      "Pricier than the budget dual-HDMI docks"
     ],
     bestFor: "Buyers who want higher-resolution dual displays and flexible port types",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "100W Power Delivery",
       "5Gbps USB-C/A data",
       "Gigabit Ethernet, SD/TF card reader",
-      "Compact, travel-friendly size",
+      "Compact, travel-friendly size"
     ],
     pros: [
-      "Lowest price in this list at $39.99",
+      "Lowest price in this list at under $40",
       "Compact size ideal for travel or a small desk",
       "100W PD fully covers Air charging",
-      "Includes Ethernet and SD/TF reader",
+      "Includes Ethernet and SD/TF reader"
     ],
     cons: [
       "USB-C Alt Mode output, not Thunderbolt bandwidth",
       "5Gbps data ceiling well below Thunderbolt docks",
-      "No true triple-display or 5K support",
+      "No true triple-display or 5K support"
     ],
     bestFor: "Buyers who want a small, affordable dock for travel or a minimal desk",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed display capability and port count against price, from the compact hub to the Thunderbolt-certified and triple-display docks.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -481,11 +481,11 @@ export const faq: FaqItem[] = [
   {
     q: "Which pick supports 3 external monitors on a MacBook Air?",
     a: "Only the Anker DL6350 in this list supports a genuine triple-display setup, done entirely through DisplayLink software rendering since no MacBook Air chip generation natively drives 3 displays. Expect noticeably more CPU overhead than a single or dual-display DisplayLink setup.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-docking-stations-for-macbook-pro", title: "Best Docking Stations for MacBook Pro (2026)" },
   { href: "/guide/best-docking-stations-for-small-desks", title: "Best Docking Stations for Small Desks (2026)" },
-  { href: "/guide/best-usb-c-docking-stations", title: "Best USB-C Docking Stations (2026)" },
+  { href: "/guide/best-usb-c-docking-stations", title: "Best USB-C Docking Stations (2026)" }
 ];

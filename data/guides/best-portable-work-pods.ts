@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable work pods";
 export const introParagraphs = [
   "\"Work pod\" is not a genuinely distinct product category from \"office pod\" in this niche, it's the same pool of generic and private-label enclosed structures marketed with slightly different keywords, worth knowing before you search for a \"work pod\" expecting different products from our main office pod guide.",
-  "Because the terminology overlaps this closely, we cross-reference our main office pod pillar guide rather than duplicating its full comparison, and instead focus this list on the picks that best fit a dedicated individual-work use case.",
+  "Because the terminology overlaps this closely, we cross-reference our main office pod pillar guide rather than duplicating its full comparison, and instead focus this list on the picks that best fit a dedicated individual-work use case."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -87,7 +87,7 @@ export const products: GuideProduct[] = [
     pros: ["Solo occupancy pod on wheels for easier repositioning within a room", "Built-in table, LED lighting, and USB ports included", "One of the few listings in this pool to mention ventilation at all, though unverified", "Lowest price point among the fully-featured single-person pods in this pool"],
     cons: ["No star rating or review count available from Amazon", "\"Silent Ventilation\" is a marketing claim with no CFM or airflow-rate data to verify it", "Still requires freight delivery and floor-loading planning despite the wheels"],
     bestFor: "Buyers who want to relocate a solo work pod within an office.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -95,7 +95,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Terminology cross-checked against listing content", description: "Confirmed that \"work pod\" listings and \"office pod\" listings in this niche describe the same underlying enclosed-structure product, not a distinct design category." },
   { title: "Individual work-session fit prioritized", description: "Weighted single-occupant comfort for sustained work sessions, desk space, and headroom over group-meeting features." },
   { title: "Verified listing data only", description: "Used only prices, dimensions, and features actually printed in each Amazon listing, no invented ratings or review counts." },
-  { title: "Disclosure gaps flagged consistently", description: "Flagged the same ventilation and STC/NRC disclosure gaps found across this whole niche rather than treating any one listing as an exception." },
+  { title: "Disclosure gaps flagged consistently", description: "Flagged the same ventilation and STC/NRC disclosure gaps found across this whole niche rather than treating any one listing as an exception." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -222,11 +222,11 @@ export const faq: FaqItem[] = [
   { q: "Is a \"work pod\" different from an \"office pod\"?", a: "In current Amazon listings, no, the two terms describe the same category of enclosed private-label structures, we found no meaningful design distinction between them." },
   { q: "Should I search for \"work pod\" or \"office pod\" to compare more options?", a: "Search both terms, listings use the two interchangeably, and limiting yourself to one term may cause you to miss relevant options." },
   { q: "Which work pod fits a long individual workday best?", a: "Prioritize interior headroom and confirm ventilation directly with the seller, since none of these listings disclose airflow specs and multi-hour comfort depends heavily on it." },
-  { q: "Where can I compare group-capacity pods instead?", a: "See our main office pod buying guide, which covers the full verified product pool including 4-6 and 5-7 person options." },
+  { q: "Where can I compare group-capacity pods instead?", a: "See our main office pod buying guide, which covers the full verified product pool including 4-6 and 5-7 person options." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-office-pods", title: "Best Portable Office Pods (2026)" },
   { href: "/guide/best-portable-office-pods-for-sale", title: "Best Portable Office Pods for Sale (2026)" },
-  { href: "/guide/best-portable-office-booths", title: "Best Portable Office Booths (2026)" },
+  { href: "/guide/best-portable-office-booths", title: "Best Portable Office Booths (2026)" }
 ];

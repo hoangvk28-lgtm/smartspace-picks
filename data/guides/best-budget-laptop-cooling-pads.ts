@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "budget laptop cooling pads";
 export const introParagraphs = [
   "A lower price does not automatically mean a laptop cooling pad does less. Several of the picks below use 3 to 5 real fans and adjustable speed control, based on the manufacturer's stated features, not a stripped-down single-fan design. The honest tradeoffs at this price tier show up elsewhere: material quality, USB hub port count, and how much warranty information the listing actually provides.",
-  "This guide compares eight laptop cooling pads, all priced under $28 based on verification on 2026-08-08, using only the features each listing actually states. Where a listing gives no warranty information, we say so directly rather than assuming one exists. Genuine thermal benefit still depends on real fan count and airflow design, not on price alone, so we call out which budget picks offer more cooling hardware than their price suggests.",
+  "This guide compares eight laptop cooling pads, all priced under $28 based on verification on 2026-08-08, using only the features each listing actually states. Where a listing gives no warranty information, we say so directly rather than assuming one exists. Genuine thermal benefit still depends on real fan count and airflow design, not on price alone, so we call out which budget picks offer more cooling hardware than their price suggests."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "9 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Real price verification", description: "We confirmed each listed price against the actual listing rather than relying on category assumptions about what counts as budget." },
   { title: "Fan count and stated airflow", description: "We compared the actual number of fans and any stated RPM or CFM figures per listing, since a cheap pad with 5 real fans can outperform a pricier pad with fewer." },
   { title: "USB hub and port count", description: "We noted how many USB ports each pad includes and whether those ports are dedicated to peripherals or shared with the pad's own power draw." },
-  { title: "Warranty and support transparency", description: "We recorded exactly what each listing states about warranty length or support programs, and noted plainly when a listing states none at all." },
+  { title: "Warranty and support transparency", description: "We recorded exactly what each listing states about warranty length or support programs, and noted plainly when a listing states none at all." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -291,11 +291,11 @@ export const faq: FaqItem[] = [
   { q: "What do budget cooling pads typically cut compared to premium models?", a: "Based on the features stated across this guide's picks, budget pads more often skip USB hub ports beyond 2, use plastic rather than full aluminum frames, and frequently state no warranty information at all." },
   { q: "Is a 2-fan pad worse than a 5-fan pad?", a: "Not automatically, but a 5-fan pad generally moves more air if the fans are genuine, based on the stated specs. Several of the cheapest picks here use 2 fans, while a few slightly pricier picks state 5." },
   { q: "How long is the warranty on a budget laptop cooling pad?", a: "It varies significantly and several listings state none at all. Of the picks in this guide, the AIMIUZI pad states a 12-month warranty and the TECKNET pick states a 3-year warranty, both explicitly noted in their listings." },
-  { q: "Should I worry about fan bearing durability at this price?", a: "It is a reasonable concern since budget listings rarely publish bearing life data. A stated warranty length is the closest proxy available, so a pad with a documented multi-year warranty carries less risk than one with no warranty statement." },
+  { q: "Should I worry about fan bearing durability at this price?", a: "It is a reasonable concern since budget listings rarely publish bearing life data. A stated warranty length is the closest proxy available, so a pad with a documented multi-year warranty carries less risk than one with no warranty statement." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-cooling-pads-under-50", title: "Best Laptop Cooling Pads Under $50 (2026)" },
   { href: "/guide/best-premium-laptop-cooling-pads", title: "Best Premium Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" }
 ];

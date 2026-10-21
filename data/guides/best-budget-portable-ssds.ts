@@ -5,7 +5,7 @@ export const metaDescription = "4 budget portable SSDs we evaluated, flagging DR
 export const mainKeyword = "best budget portable ssd";
 export const introParagraphs = [
   "Budget-tier drives are more likely to use DRAM-less controllers, which can reduce random-access performance under sustained multi-file operations even when the advertised sequential speed looks similar to a pricier drive, worth checking reviews for real multi-file performance rather than just the headline number.",
-  "Counterfeit and fake-capacity risk is also elevated when buying from less-verified budget sellers, and a common budget-tier practice is advertising a higher speed on the packaging while the actual firmware caps real performance lower, both worth watching for at this price tier.",
+  "Counterfeit and fake-capacity risk is also elevated when buying from less-verified budget sellers, and a common budget-tier practice is advertising a higher speed on the packaging while the actual firmware caps real performance lower, both worth watching for at this price tier."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Budget Pick",
     name: "SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s",
     price: "$143.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "3,542 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31PngdJb7FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGL4SHY8?tag=deskfinds0d-20",
     description: "SSK's Portable SSD offers a genuinely solid 1050MB/s rated speed at a budget price, a strong value proposition if verified buyer feedback confirms the drive lives up to that rating in sustained real-world use.\n\nIt earns the top spot in this comparison over SANDISK 1TB Portable SSD for one main reason. Strong rated speed for the budget price tier. On price, it comes in below SANDISK 1TB Portable SSD, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Compact, lightweight design. On the other side, No official IP rating. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick from an Established Brand",
     name: "SANDISK 1TB Portable SSD - Up to 800MB/s, USB-C, USB 3.2 Gen 2, Updated Firmware - SDSSDE30-1T00-G26",
     price: "$164.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "10,968 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41-T4nAAufL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5JQ68FY?tag=deskfinds0d-20",
     description: "SanDisk's standard Portable SSD offers a more modest but honestly rated 800MB/s at a budget price, backed by a large, established review base that adds real confidence versus newer, less-reviewed budget brands.\n\nOne spot below SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s in this ranking, it costs more than SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s. The compromise here is straightforward: 800MB/s ceiling trails some budget competitors' headline numbers. What you gain in return: Established brand reduces counterfeit-capacity risk. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Large, consistent review base at the budget tier. On the other side, May still use a DRAM-less controller, check current reviews. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Ultra-Budget Pick",
     name: "KingSpec Z5 512GB External SSD - 2100MB/s, Portable Solid State Hard Drives with RGB Light, Zinc Alloy Case, USB 3.2 Gen2x2 Interface",
     price: "$88.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "436 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31a33qlUGuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLV9GG54?tag=deskfinds0d-20",
     description: "KingSpec's Z5 offers the lowest price in this comparison at 512GB, rated up to 2100MB/s, an aggressive speed claim worth verifying carefully in current buyer reviews given the ultra-budget price point.\n\nSitting just under SANDISK 1TB Portable SSD, it's priced lower than SANDISK 1TB Portable SSD. Here's the honest tradeoff: Verify the rated speed claim against current buyer feedback before trusting it fully. And here's what it gets you instead: Lowest price in this comparison. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: High rated speed claim on paper. On the other side, 512GB is a smaller capacity than the other picks here. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick with Strong Review Consistency",
     name: "Lexar ES3 1TB Portable SSD Blue, USB 3.2 Gen 2 up to 1050MB/s",
     price: "$169.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "862 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21tLuKTwQpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F37WWYY4?tag=deskfinds0d-20",
     description: "Lexar's ES3 offers a competitively priced 1TB drive rated up to 1050MB/s, backed by a review base that, while smaller than the largest mainstream brands, shows consistent buyer feedback at this price point.\n\nRanked just behind KingSpec Z5 512GB External SSD, it costs more than KingSpec Z5 512GB External SSD. The real tradeoff against that pick: Smaller review base than top mainstream brands. In exchange, it offers this instead: Solid rated speed at a competitive budget price. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Consistent buyer feedback for the review base size. On the other side, Verify formatted capacity on arrival as a standard precaution. That's the main tradeoff to weigh against everything above.",

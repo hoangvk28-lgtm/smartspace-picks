@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "SentrySafe small safes";
 export const introParagraphs = [
   "We need to be direct here: three of our eight original candidate ASINs are not SentrySafe products at all, they're from Bonsaii and Yuanshikj. We're presenting the 5 genuine SentrySafe models first, mapped by protection category, and disclosing the other three honestly rather than including them under a SentrySafe brand guide they don't belong to.",
-  "SentrySafe's current small-safe lineup spans fireproof chest safes, a hanging-file document box, and a digital keypad shelf safe, so we grouped the 5 genuine picks by category rather than ranking them on one undifferentiated scale.",
+  "SentrySafe's current small-safe lineup spans fireproof chest safes, a hanging-file document box, and a digital keypad shelf safe, so we grouped the 5 genuine picks by category rather than ranking them on one undifferentiated scale."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     pros: ["USB-C emergency power backup, a feature no genuine SentrySafe pick here confirms"],
     cons: ["Not actually a SentrySafe product despite appearing in this research"],
     bestFor: "Buyers open to a non-SentrySafe brand specifically for USB-C dead-battery backup.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified brand before including any pick in a SentrySafe-specific guide", description: "Three of our eight original candidate ASINs turned out to be Bonsaii or Yuanshikj products, not SentrySafe. We disclosed this directly rather than presenting all eight as genuine SentrySafe models." },
   { title: "Mapped the genuine SentrySafe lineup by protection category", description: "SentrySafe's current small-safe range spans fireproof chests, a hanging-file document box, a digital keypad shelf safe, and a compact combination lock box. We grouped the five confirmed picks by these categories rather than one undifferentiated ranking." },
   { title: "Compared the non-SentrySafe alternatives on their own merits", description: "Where we included non-SentrySafe picks for comparison, we noted their genuine advantages (larger capacity, USB-C backup) honestly rather than implying brand equivalence." },
-  { title: "Verified fire, water, and gun-safe certifications specifically for each genuine SentrySafe model", description: "We checked UL/ETL classifications and California DOJ gun-safe certification individually per model rather than assuming brand-wide consistency." },
+  { title: "Verified fire, water, and gun-safe certifications specifically for each genuine SentrySafe model", description: "We checked UL/ETL classifications and California DOJ gun-safe certification individually per model rather than assuming brand-wide consistency." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -278,7 +278,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review count and rating together, not rating alone",
-    "explanation": "A 4.8-star rating from 12 reviews carries far less evaluation confidence than a 4.5-star rating from several thousand, since a small sample can be skewed by a handful of early, enthusiastic buyers before any long-term reliability issues would show up in later reviews.\n\nThis matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
+    "explanation": "This matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
   }
 ];
 
@@ -287,11 +287,11 @@ export const faq: FaqItem[] = [
   { q: "What's the best genuine SentrySafe model overall?", a: "The SentrySafe Fireproof Safe Box with Key Lock, with the most explicitly documented fire certification and a lifetime after-fire replacement guarantee." },
   { q: "Does SentrySafe make a digital keypad model?", a: "Yes, the SentrySafe Shelf Safe with Digital Keypad Lock, though it's explicitly not fireproof and is California DOJ certified as a gun safe instead." },
   { q: "Is there a genuine SentrySafe option with no batteries needed?", a: "Yes, the SentrySafe Small Safe with Combination Lock uses a resettable three-digit mechanical combination requiring no batteries." },
-  { q: "Why include non-SentrySafe products in a SentrySafe guide?", a: "They surfaced in our original research pool and offer genuine advantages (larger capacity, USB-C backup power) worth disclosing honestly rather than omitting silently." },
+  { q: "Why include non-SentrySafe products in a SentrySafe guide?", a: "They surfaced in our original research pool and offer genuine advantages (larger capacity, USB-C backup power) worth disclosing honestly rather than omitting silently." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-honeywell-small-safes", title: "Best Honeywell Small Safes (2026)" },
   { href: "/guide/best-small-fireproof-safes", title: "Best Small Fireproof Safes (2026)" },
-  { href: "/guide/best-small-safes-with-keypads", title: "Best Small Safes With Keypads (2026)" },
+  { href: "/guide/best-small-safes-with-keypads", title: "Best Small Safes With Keypads (2026)" }
 ];

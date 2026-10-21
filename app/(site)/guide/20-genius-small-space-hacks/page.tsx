@@ -357,7 +357,7 @@ export default async function SmallSpaceHacksPage() {
             {[
               { href: "/guide/monitor-stands-small-desks", title: "Best Monitor Stands for Small Desks", label: "Desk Setup" },
               { href: "/guide/best-under-desk-cable-trays", title: "Best Under Desk Cable Trays", label: "Desk Setup" },
-              { href: "/guide/desk-upgrades-under-100", title: "10 Desk Upgrades Under $100", label: "Desk Setup" },
+              { href: "/guide/desk-upgrades-under-100", title: "10 Desk Upgrades Under $100", label: "Desk Setup" }
             ].map((g) => (
               <Link prefetch={false} key={g.href} href={g.href} className="group p-4 rounded-xl border border-border bg-white hover:border-brand/40 hover:shadow-sm transition-all">
                 <span className="text-[10px] font-bold uppercase tracking-widest text-brand block mb-1">{g.label}</span>

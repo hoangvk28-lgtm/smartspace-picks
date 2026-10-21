@@ -12,7 +12,7 @@ export const drawingTabletTroubleshootingGuide: Guide = {
     "drawing tablet cursor offset fix",
     "pen not registering pressure fix",
     "tablet driver not working fix",
-    "drawing tablet lag fix",
+    "drawing tablet lag fix"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const drawingTabletTroubleshootingGuide: Guide = {
     "drawing-tablet-pressure-sensitivity-explained",
     "drawing-tablet-size-guide",
     "drawing-tablet-vs-display-tablet",
-    "usb-c-power-delivery-explained",
+    "usb-c-power-delivery-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const drawingTabletTroubleshootingGuide: Guide = {
       question: "Why do my tablet's shortcut buttons stop responding sometimes?",
       answer:
         "This can indicate a driver glitch requiring a restart of the tablet driver software or the computer itself, or in some cases a specific application's own settings overriding the tablet's default shortcut assignments, check both possibilities.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const drawingTabletTroubleshootingGuide: Guide = {
     {
       heading: "Why Software Compatibility Explains Many Pressure Sensitivity Complaints",
       body: `A drawing tablet's hardware can support full pressure sensitivity perfectly well while still appearing to not work if the specific software being used doesn't actually process that pressure data, either because the program simply doesn't support pressure input (common in basic default operating system drawing tools) or because pressure sensitivity needs to be specifically enabled within a given brush's settings in more capable drawing programs, checking both the software's general pressure sensitivity support and the specific brush tool's settings resolves this confusion in most cases without needing to troubleshoot the tablet hardware itself.`,
-    },
+    }
   ],
 };

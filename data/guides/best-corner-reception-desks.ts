@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $169.99",
+          "Under $170",
           "Tribesigns Reception Desk with Counter"
         ],
         [
-          "Around $459.00",
+          "Under $500",
           "L-Shaped Wooden Commercial Reception Desk"
         ],
         [
-          "Around $479.00",
+          "Under $500",
           "L-Shaped Wooden Commercial Reception Desk"
         ],
         [
-          "Around $522.49",
+          "Under $550",
           "L-Shaped Reception Desk with Curved Corner and Vertical Slats"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-l-shaped-reception-desks","title":"best-l-shaped-reception-desks"},{"href":"/guide/best-curved-reception-desks","title":"best-curved-reception-desks"},{"href":"/guide/best-compact-reception-desks","title":"6 Best Compact Reception Desks in 2026"}];

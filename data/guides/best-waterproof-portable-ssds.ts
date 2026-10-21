@@ -5,7 +5,7 @@ export const metaDescription = "5 waterproof portable SSDs we evaluated, with th
 export const mainKeyword = "waterproof portable SSD";
 export const introParagraphs = [
   "'Waterproof' marketing should be distinguished from 'water-resistant,' since these imply meaningfully different real protection levels, worth verifying the actual rated IP68 (or similar) submersion depth/duration rather than accepting 'waterproof' as a self-evident absolute claim.",
-  "Port/connector covers, rubber flaps sealing the USB port, are often the actual point of water-ingress failure even on an otherwise well-sealed enclosure, worth testing port-seal integrity specifically rather than only the main enclosure body.",
+  "Port/connector covers, rubber flaps sealing the USB port, are often the actual point of water-ingress failure even on an otherwise well-sealed enclosure, worth testing port-seal integrity specifically rather than only the main enclosure body."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Waterproof Portable SSD Overall",
     name: "Samsung T7 Shield Portable SSD 1TB, USB 3.2 Gen 2, Up to 1,050 MB/s",
     price: "$286.88",
-    rating: "4.7 stars from 16,380 Amazon ratings",
-    reviews: "16,380 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21mARCvUWxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VLK9W3S?tag=deskfinds0d-20",
     description: "A large review base backing this ruggedized 'Shield' variant, with Samsung's rated IP65 protection genuinely disclosed rather than a vague 'waterproof' claim alone.\n\nIt earns the top spot in this comparison over Samsung T7 Shield Portable SSD 2TB for one main reason. Massive, well-established review base. On price, it comes in below Samsung T7 Shield Portable SSD 2TB, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Disclosed specific IP rating rather than vague marketing. On the other side, Higher price than the standard non-Shield T7 variant. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Higher-Capacity Waterproof Pick",
     name: "Samsung T7 Shield Portable SSD 2TB, USB 3.2 Gen 2, Up to 1,050 MB/s",
     price: "$439.99",
-    rating: "4.7 stars from 16,380 Amazon ratings",
-    reviews: "16,380 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21mARCvUWxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VLHR4JC?tag=deskfinds0d-20",
     description: "The same proven Shield design and rated IP65 protection as the 1TB variant, doubled to 2TB for buyers needing more capacity in the field.\n\nOne spot below Samsung T7 Shield Portable SSD 1TB in this ranking, it costs more than Samsung T7 Shield Portable SSD 1TB. The compromise here is straightforward: Notably higher price than the 1TB variant. What you gain in return: Same proven Shield ruggedized design as the 1TB variant. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Doubled capacity for field use requiring more storage. On the other side, Salt water exposure may still affect the external connector over time. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Established IP65 Pick",
     name: "SANDISK 2TB Extreme Portable SSD (Old Model) - Up to 1050MB/s, USB-C, USB 3.2 Gen 2, IP65 Water and Dust Resistance, Updated Firmware",
     price: "$308.99",
-    rating: "4.6 stars from 91,365 Amazon ratings",
-    reviews: "91,365 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41eTFK7clfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HN37XC1?tag=deskfinds0d-20",
     description: "The single largest review base of any pick in this guide by a wide margin, with disclosed IP65 water and dust resistance, an honestly labeled water-resistant rating rather than an unverified 'waterproof' claim.\n\nSitting just under Samsung T7 Shield Portable SSD 2TB, it's priced lower than Samsung T7 Shield Portable SSD 2TB. Here's the honest tradeoff: IP65 is water-resistant, not full submersion-rated. And here's what it gets you instead: Massive review base, the most-proven pick in this guide by a wide margin. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Honestly disclosed IP65 rating, not an unverified 'waterproof' claim. On the other side, No rated submersion depth/duration for actual dunking scenarios. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity Waterproof Pick",
     name: "SANDISK 8TB Extreme Portable SSD (Old Model) - Up to 1050MB/s, USB-C, USB 3.2 Gen 2, IP65 Water and Dust Resistance, Updated Firmware",
     price: "$839.99",
-    rating: "4.6 stars from 91,365 Amazon ratings",
-    reviews: "91,365 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41eTFK7clfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DLK38TR9?tag=deskfinds0d-20",
     description: "The same proven IP65-rated design as the 2TB SanDisk Extreme, scaled up to 8TB for buyers needing serious field storage capacity, sharing the same massive review base.\n\nRanked just behind SANDISK 2TB Extreme Portable SSD, it costs more than SANDISK 2TB Extreme Portable SSD. The real tradeoff against that pick: Highest price in this guide by a significant margin. In exchange, it offers this instead: Same proven, massively-reviewed IP65 design as smaller capacities. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: 8TB genuinely serious capacity for extensive field storage needs. On the other side, Overkill capacity for most casual buyers. That's the main tradeoff to weigh against everything above.",
@@ -90,7 +90,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "'Waterproof' vs. 'water-resistant' distinction verified", description: "Distinguished 'waterproof' marketing from 'water-resistant,' verifying the actual rated IP68 (or similar) submersion depth/duration rather than accepting 'waterproof' as a self-evident absolute claim." },
   { title: "Port/connector seal integrity considered as the real failure point", description: "Considered that port/connector covers are often the actual point of water-ingress failure even on an otherwise well-sealed enclosure, distinct from the main enclosure body's rating." },
   { title: "Post-submersion drying and handling guidance noted", description: "Addressed post-submersion drying time and any required handling procedure before reconnecting the drive, since improper immediate handling could cause damage even on a genuinely waterproof-rated drive." },
-  { title: "Salt water versus fresh water corrosion considered", description: "Noted that salt water versus fresh water exposure may have different real-world corrosion implications for the drive's external connector, relevant for marine-environment buyers." },
+  { title: "Salt water versus fresh water corrosion considered", description: "Noted that salt water versus fresh water exposure may have different real-world corrosion implications for the drive's external connector, relevant for marine-environment buyers." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -233,11 +233,11 @@ export const faq: FaqItem[] = [
   { q: "What should I do if my portable SSD gets wet?", a: "Let it fully dry and follow the manufacturer's documented post-submersion procedure before reconnecting power, improper immediate handling could cause damage even on a genuinely waterproof-rated drive." },
   { q: "Does salt water damage a waterproof portable SSD differently than fresh water?", a: "It can. Salt water exposure may have different real-world corrosion implications for the drive's external connector even if internal electronics remain protected, a nuance worth considering for marine environments." },
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers wanting the most-proven ruggedized pick with a genuinely disclosed IP rating" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting the most-proven ruggedized pick with a genuinely disclosed IP rating At $286.88, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting the most-proven ruggedized pick with a genuinely disclosed IP rating At under $300, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-ssds-for-cameras", title: "Best Portable SSDs for Cameras (2026)" },
   { href: "/guide/best-portable-ssds-for-drones", title: "Best Portable SSDs for Drones (2026)" },
-  { href: "/guide/best-encrypted-portable-ssds", title: "Best Encrypted Portable SSDs (2026)" },
+  { href: "/guide/best-encrypted-portable-ssds", title: "Best Encrypted Portable SSDs (2026)" }
 ];

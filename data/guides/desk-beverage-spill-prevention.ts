@@ -12,7 +12,7 @@ export const deskBeverageSpillPreventionGuide: Guide = {
     "prevent coffee spill on laptop",
     "spill proof desk setup",
     "drink placement desk safety",
-    "what to do if spill laptop keyboard",
+    "what to do if spill laptop keyboard"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskBeverageSpillPreventionGuide: Guide = {
     "insulated-mug-vs-regular-mug-desk",
     "water-bottle-vs-pitcher-desk",
     "desk-mat-vs-desk-pad",
-    "keyboard-cleaning-maintenance",
+    "keyboard-cleaning-maintenance"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskBeverageSpillPreventionGuide: Guide = {
       question: "Can spilled liquid permanently damage a laptop even if it seems to still work afterward?",
       answer:
         "Yes, liquid residue, particularly from sugary or acidic drinks, can cause gradual corrosion on internal components over time even if the laptop appears to function normally immediately after a spill and thorough drying, professional cleaning is worth considering for a significant spill on valuable equipment.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const deskBeverageSpillPreventionGuide: Guide = {
     {
       heading: "Why Immediate Response Speed Genuinely Affects Outcome",
       body: `The window between a spill occurring and liquid working its way deeper into a keyboard or laptop's internal components is often measured in seconds, disconnecting power immediately prevents a short circuit from occurring while liquid is present, which is often what causes the most serious permanent damage, rather than the liquid exposure itself, acting quickly to cut power and orient the device to drain liquid out, rather than deeper in, meaningfully improves the odds of a full recovery compared to a delayed response.`,
-    },
+    }
   ],
 };

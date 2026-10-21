@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "bookshelf desk";
 export const introParagraphs = [
   "A bookshelf desk combines a work surface with built-in shelving, so books, monitors, and desk supplies all have a home without needing a separate bookcase. Most designs fall into two camps: L-shaped desks that tuck a bookshelf into a room corner, and straight desks with a hutch or shelf mounted directly above the work surface.",
-  "Below are 8 bookshelf desks we evaluated on shelf count, built-in power outlets, and overall footprint, useful for home offices, dorm rooms, or any small bedroom where a desk and a bookshelf need to share the same square footage.",
+  "Below are 8 bookshelf desks we evaluated on shelf count, built-in power outlets, and overall footprint, useful for home offices, dorm rooms, or any small bedroom where a desk and a bookshelf need to share the same square footage."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "11 min";
@@ -58,18 +58,18 @@ export const products: GuideProduct[] = [
       "4 reversible open shelves (left or right)",
       "2 AC + 2 USB built-in outlets",
       "500 lb weight capacity",
-      "Adjustable footpads",
+      "Adjustable footpads"
     ],
     pros: [
       "Highest weight capacity in this guide at 500 lbs",
       "4 reversible shelves fit either side of the desk",
       "Built-in AC and USB power at desk height",
-      "Industrial X-frame styling",
+      "Industrial X-frame styling"
     ],
     cons: [
       "Reversible shelf design has a smaller desktop footprint than L-shaped picks",
       "No drawers for closed storage",
-      "Industrial look may not suit softer decor styles",
+      "Industrial look may not suit softer decor styles"
     ],
     bestFor: "Buyers who want maximum weight capacity and flexible shelf placement in a compact desk",
   },
@@ -91,18 +91,17 @@ export const products: GuideProduct[] = [
       "4-tier integrated bookshelf",
       "Corner-fit, space-saving L-shape",
       "Side storage bag included",
-      "White finish",
+      "White finish"
     ],
     pros: [
       "Cheapest L-shaped pick with an integrated 4-tier bookshelf",
       "Corner-fit design ideal for small rooms",
-      "Includes a side storage bag for extras",
-      "Strong 4.6-star rating across 676 ratings",
+      "Includes a side storage bag for extras"
     ],
     cons: [
       "No built-in power outlets or USB ports",
       "Lighter-duty frame than the IRONCK or AODK picks",
-      "Fewer shelves than some higher-tier picks in this guide",
+      "Fewer shelves than some higher-tier picks in this guide"
     ],
     bestFor: "Budget-conscious buyers who want a corner-fit L-shaped desk with a built-in bookshelf",
   },
@@ -124,18 +123,18 @@ export const products: GuideProduct[] = [
       "3 fabric drawers + 2 reversible shelves",
       "4 AC + 1 USB + 1 USB-C ports",
       "220 lb weight capacity",
-      "X-bar stability frame",
+      "X-bar stability frame"
     ],
     pros: [
       "Most ports among 47-inch desks (4 AC + USB + USB-C)",
       "3 drawers plus reversible open shelves",
       "Sturdy X-shaped back support",
-      "Highest review count in this guide (1,447)",
+      "Highest review count in this guide (1,447)"
     ],
     cons: [
       "Lower desktop height (29.5\") than most other picks",
       "Only 220 lb capacity versus 500 lbs on the IRONCK",
-      "2 shelves is fewer than several other picks here",
+      "2 shelves is fewer than several other picks here"
     ],
     bestFor: "Buyers who want the most built-in power ports alongside both drawers and shelves",
   },
@@ -157,18 +156,18 @@ export const products: GuideProduct[] = [
       "2-tier shelf, doubles as monitor stand",
       "3 AC + 2 USB ports",
       "RGB LED, 10 colors / 8 brightness levels",
-      "CPU stand, hook, and storage bag included",
+      "CPU stand, hook, and storage bag included"
     ],
     pros: [
       "2-tier shelf doubles as a display shelf or monitor stand",
       "Sturdy alloy steel frame",
       "RGB LED with memory function",
-      "Includes CPU stand, hook, and storage bag",
+      "Includes CPU stand, hook, and storage bag"
     ],
     cons: [
       "Only 2 shelf tiers versus 4+ on some other picks",
       "LED lighting adds complexity some buyers won't use",
-      "Gaming-oriented styling may not fit every room",
+      "Gaming-oriented styling may not fit every room"
     ],
     bestFor: "Buyers who want flexible shelving that works for both books and a gaming or streaming setup",
   },
@@ -190,18 +189,18 @@ export const products: GuideProduct[] = [
       "Hutch bookshelf + 3 fabric drawers",
       "3 AC + 2 USB ports",
       "Scratch-resistant, waterproof desktop",
-      "Headphone hook included",
+      "Headphone hook included"
     ],
     pros: [
       "Patent-pending hutch design with 3 drawers",
       "Waterproof, scratch-resistant desktop",
       "Fastest assembly in this guide, about 20 minutes",
-      "Built-in headphone hook",
+      "Built-in headphone hook"
     ],
     cons: [
       "Lowest rating among the straight hutch-style picks",
       "Hutch shelf is smaller than a full L-shaped bookshelf setup",
-      "No RGB lighting or CPU stand included",
+      "No RGB lighting or CPU stand included"
     ],
     bestFor: "Buyers who want a classic hutch bookshelf directly above the desk with the quickest setup",
   },
@@ -223,18 +222,18 @@ export const products: GuideProduct[] = [
       "7-tier open shelves + 1 glass storage cabinet",
       "App/remote RGB LED, 60,000+ colors, music sync",
       "300 lb weight capacity",
-      "Reversible L-shaped installation",
+      "Reversible L-shaped installation"
     ],
     pros: [
       "Most shelves in this guide at 7 tiers plus a glass cabinet",
       "300 lb capacity fits 2 monitors and a notebook",
       "Music-sync RGB LED with 60,000+ colors",
-      "Reversible installation fits either room layout",
+      "Reversible installation fits either room layout"
     ],
     cons: [
       "Largest footprint among the mid-priced picks",
       "More expensive than the budget L-shaped options",
-      "Glass cabinet front requires more careful cleaning",
+      "Glass cabinet front requires more careful cleaning"
     ],
     bestFor: "Buyers who want the most total shelving, including a glass-front display cabinet",
   },
@@ -256,18 +255,18 @@ export const products: GuideProduct[] = [
       "Folds flat to 7.7\" when not in use",
       "9 shelves (6 upper fixed + 3 lower adjustable)",
       "Built-in chalkboard panel",
-      "132 lb total capacity",
+      "132 lb total capacity"
     ],
     pros: [
       "Most space-saving pick, folds nearly flat when unused",
       "9 shelves plus a built-in chalkboard",
       "Supports dual monitors when in use",
-      "Ideal for dorms, apartments, or tiny rooms",
+      "Ideal for dorms, apartments, or tiny rooms"
     ],
     cons: [
       "Lowest weight capacity in this guide at 132 lbs",
       "No built-in power outlets",
-      "Folding mechanism adds setup complexity versus a fixed desk",
+      "Folding mechanism adds setup complexity versus a fixed desk"
     ],
     bestFor: "Buyers in tiny rooms or dorms who need a bookshelf desk that folds away when not in use",
   },
@@ -289,21 +288,21 @@ export const products: GuideProduct[] = [
       "1 file drawer sized for A4/legal paper",
       "2 power hubs: 6 AC + 4 USB total",
       "LED milky diffuser, 10 colors",
-      "CPU stand included",
+      "CPU stand included"
     ],
     pros: [
       "Largest desk in this guide at 79 inches",
       "6-tier shelves plus 5 drawers including a file drawer",
       "6 AC and 4 USB outlets across 2 power hubs",
-      "Includes a CPU stand for a desktop tower",
+      "Includes a CPU stand for a desktop tower"
     ],
     cons: [
       "Most expensive pick in this guide",
       "Large 79-inch footprint needs a spacious room",
-      "Assembly likely takes longer given the size and drawer count",
+      "Assembly likely takes longer given the size and drawer count"
     ],
     bestFor: "Buyers furnishing a full home office who want maximum shelving, drawers, and power in one desk",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -352,16 +351,16 @@ export const faq: FaqItem[] = [
   },
   {
     q: "What is the most affordable bookshelf desk in this list?",
-    a: "The IRONCK 47\" Industrial Desk (Pick 1) is the most affordable at $79.85, followed by the Treesland Corner L-Shaped Desk (Pick 2) and Huuger L-Shaped Desk (Pick 3), both at $99.99.",
+    a: "The IRONCK 47\" Industrial Desk (Pick 1) is the most affordable at under $80, followed by the Treesland Corner L-Shaped Desk (Pick 2) and Huuger L-Shaped Desk (Pick 3), both at under $100.",
   },
   {
     q: "Does the frame material actually affect how much a bookshelf desk can hold?",
     a: "Yes, significantly. Metal-frame picks like the IRONCK handle up to 500 lbs, while lighter MDF or particleboard builds like the foldable HOMCOM top out around 132 lbs. If you plan to load the shelves with a full book collection plus desk gear, a metal-frame or reinforced steel pick will hold up better than an all-particleboard design with a similar shelf count.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-bookshelf-with-drawers", title: "Best Bookshelves with Drawers in 2026" },
   { href: "/guide/best-bookshelf-tv-stand", title: "Best Bookshelf TV Stands in 2026" },
-  { href: "/guide/best-bookshelf-room-divider", title: "Best Bookshelf Room Dividers in 2026" },
+  { href: "/guide/best-bookshelf-room-divider", title: "Best Bookshelf Room Dividers in 2026" }
 ];

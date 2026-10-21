@@ -51,11 +51,11 @@ export const hubs: UsbHub[] = [
       "Powered via 36W AC adapter -- consistent under full 7-device load",
       "BC 1.2 charging port fast-charges phones at up to 2A",
       "18-month Anker warranty -- longest in this category",
-      "All ports USB 3.0 (5 Gbps) -- no hidden USB 2.0 ports",
+      "All ports USB 3.0 (5 Gbps) -- no hidden USB 2.0 ports"
     ],
     cons: [
       "USB-A only -- not ideal if your laptop is primarily USB-C",
-      "7 ports -- if you need 9+ simultaneous connections, see #2 or #6",
+      "7 ports -- if you need 9+ simultaneous connections, see #2 or #6"
     ],
     whyPick:
       "36W AC adapter + BC 1.2 charging + Anker build reliability. Every port is USB 3.0 with no speed-downgraded ports hiding in the lineup.",
@@ -65,7 +65,7 @@ export const hubs: UsbHub[] = [
       { label: "Power", value: "36W AC adapter included" },
       { label: "Speed", value: "5 Gbps per data port" },
       { label: "Cable", value: "3.3ft built-in" },
-      { label: "Warranty", value: "18 months" },
+      { label: "Warranty", value: "18 months" }
     ],
   },
   {
@@ -85,11 +85,11 @@ export const hubs: UsbHub[] = [
       "10 ports: 7 USB 3.0 data + 3 smart charging (auto-detects optimal amperage)",
       "Individual LED-lit power switches on all 10 ports",
       "60W AC adapter handles full 10-device load without voltage drop",
-      "Per-port switches let you power-cycle a single device without rebooting",
+      "Per-port switches let you power-cycle a single device without rebooting"
     ],
     cons: [
       "Larger footprint than a 7-port hub",
-      "Overkill for 4-6 device setups (see #1 for smaller footprint)",
+      "Overkill for 4-6 device setups (see #1 for smaller footprint)"
     ],
     whyPick:
       "Per-port LED switches are the key differentiator -- you can power-cycle a single problematic device (USB drive, wireless receiver) without touching the rest of your connected peripherals.",
@@ -98,7 +98,7 @@ export const hubs: UsbHub[] = [
       { label: "Ports", value: "7x USB 3.0 data + 3x smart charging" },
       { label: "Power", value: "60W AC adapter" },
       { label: "Switches", value: "Individual LED per port" },
-      { label: "Speed", value: "5 Gbps data ports" },
+      { label: "Speed", value: "5 Gbps data ports" }
     ],
   },
   {
@@ -118,11 +118,11 @@ export const hubs: UsbHub[] = [
       "4x USB-C + 3x USB-A -- accommodates both port types from one hub",
       "20W USB-C PD port charges a phone or tablet while the hub runs",
       "Aluminum body: better heat dissipation than plastic under sustained load",
-      "Individual LED power switches on all 7 ports",
+      "Individual LED power switches on all 7 ports"
     ],
     cons: [
       "Requires a USB-C port on your laptop to connect -- not for USB-A-only laptops",
-      "Higher price than the USB-A equivalent",
+      "Higher price than the USB-A equivalent"
     ],
     whyPick:
       "Connects via USB-C, keeps connection type consistent for MacBook/iPad Pro users, delivers 20W PD so you can charge a device through the hub itself.",
@@ -132,7 +132,7 @@ export const hubs: UsbHub[] = [
       { label: "Connection", value: "USB-C plug" },
       { label: "Speed", value: "USB 3.2 Gen 1 (5 Gbps)" },
       { label: "PD", value: "20W on one USB-C port" },
-      { label: "Body", value: "Aluminum" },
+      { label: "Body", value: "Aluminum" }
     ],
   },
   {
@@ -152,11 +152,11 @@ export const hubs: UsbHub[] = [
       "7 ports with individual LED-lit power switches",
       "12V/4A power adapter -- higher amperage than typical 7-port hubs",
       "All USB 3.0 (5 Gbps) -- no mixed-speed ports",
-      "Smaller footprint than the 10-port while keeping per-port control",
+      "Smaller footprint than the 10-port while keeping per-port control"
     ],
     cons: [
       "Slightly larger than Anker 7-port due to the switch panel",
-      "LED lights may be distracting in low-light environments",
+      "LED lights may be distracting in low-light environments"
     ],
     whyPick:
       "Per-port switches at 7-port size. If you need to restart a finicky USB DAC, wireless receiver, or USB key without touching other devices -- this is the right tool.",
@@ -166,7 +166,7 @@ export const hubs: UsbHub[] = [
       { label: "Switches", value: "Individual LED per port" },
       { label: "Power", value: "12V/4A AC adapter" },
       { label: "Speed", value: "5 Gbps per port" },
-      { label: "Compat.", value: "Mac, PC, Linux" },
+      { label: "Compat.", value: "Mac, PC, Linux" }
     ],
   },
   {
@@ -186,12 +186,12 @@ export const hubs: UsbHub[] = [
       "Fits through a standard 60mm desk grommet hole -- zero desk surface footprint",
       "Ports appear flush from the desk surface",
       "2x USB-A + 2x USB-C accessible from the top",
-      "2-minute installation: remove cap, insert hub, route cable underneath",
+      "2-minute installation: remove cap, insert hub, route cable underneath"
     ],
     cons: [
       "Requires a desk with a 60mm grommet hole -- not all desks have this",
       "Only 4 ports -- not for 7+ device setups",
-      "Not fully powered -- draws from host device",
+      "Not fully powered -- draws from host device"
     ],
     whyPick:
       "Replaces the plastic cap that's sitting unused in your desk's grommet hole. Ports emerge from the desktop surface -- no hub visible, no cable running across the desk.",
@@ -200,7 +200,7 @@ export const hubs: UsbHub[] = [
       { label: "Grommet", value: "60mm standard diameter" },
       { label: "Ports", value: "2x USB 3.0 Type-A + 2x USB-C" },
       { label: "Connection", value: "USB-A plug (routes under desk)" },
-      { label: "Install", value: "2 minutes, no tools" },
+      { label: "Install", value: "2 minutes, no tools" }
     ],
   },
   {
@@ -220,11 +220,11 @@ export const hubs: UsbHub[] = [
       "10 ports: 7 USB 3.0 data + 3 PowerIQ charging",
       "PowerIQ identifies optimal charging speed per connected device",
       "Compact form factor for a 10-port hub",
-      "Anker 18-month warranty on a 10-port unit",
+      "Anker 18-month warranty on a 10-port unit"
     ],
     cons: [
       "No individual power switches (unlike Sabrent 10-port)",
-      "Slightly higher price than Sabrent 10-port equivalent",
+      "Slightly higher price than Sabrent 10-port equivalent"
     ],
     whyPick:
       "Choose over Sabrent 10-port when Anker brand confidence and PowerIQ charging intelligence matter more than per-port switching.",
@@ -233,7 +233,7 @@ export const hubs: UsbHub[] = [
       { label: "Ports", value: "7x USB 3.0 data + 3x PowerIQ charging" },
       { label: "Power", value: "60W AC adapter" },
       { label: "Speed", value: "5 Gbps data ports" },
-      { label: "Warranty", value: "18 months" },
+      { label: "Warranty", value: "18 months" }
     ],
   },
   {
@@ -253,11 +253,11 @@ export const hubs: UsbHub[] = [
       "Individual power switches on all 4 ports -- unusual at this price point",
       "Ultra-compact -- smaller than a deck of cards",
       "USB 3.0 (5 Gbps) on all ports, no speed compromise for the size",
-      "Anker build quality at minimal price",
+      "Anker build quality at minimal price"
     ],
     cons: [
       "Unpowered -- not stable for external hard drives + charging simultaneously",
-      "Only 4 ports -- quickly outgrown if device count grows",
+      "Only 4 ports -- quickly outgrown if device count grows"
     ],
     whyPick:
       "Each port has its own mechanical switch -- you can leave a drive connected but switched off when not in use, preventing it from spinning up every time you plug in the hub.",
@@ -267,7 +267,7 @@ export const hubs: UsbHub[] = [
       { label: "Switches", value: "Individual per port" },
       { label: "Speed", value: "5 Gbps" },
       { label: "Connection", value: "USB-A" },
-      { label: "Form", value: "Ultra-compact" },
+      { label: "Form", value: "Ultra-compact" }
     ],
   },
   {
@@ -287,12 +287,12 @@ export const hubs: UsbHub[] = [
       "3.3ft cable -- hub can sit anywhere on or below the desk",
       "Lightweight -- can be temporarily mounted under the desk with adhesive tape",
       "Broad compatibility: MacBook, iMac, Surface, PC",
-      "Good travel or backup hub if you sometimes take your setup on the road",
+      "Good travel or backup hub if you sometimes take your setup on the road"
     ],
     cons: [
       "Unpowered -- same limitation as #7",
       "No individual switches",
-      "Basic build quality compared to Anker or Sabrent",
+      "Basic build quality compared to Anker or Sabrent"
     ],
     whyPick:
       "3.3ft cable lets you position the hub under your desk or behind your monitor -- out of sight -- with just the 4 ports accessible where you need them.",
@@ -302,9 +302,9 @@ export const hubs: UsbHub[] = [
       { label: "Cable", value: "3.3ft (100cm)" },
       { label: "Speed", value: "5 Gbps" },
       { label: "Connection", value: "USB-A" },
-      { label: "Compat.", value: "MacBook, PC, Surface" },
+      { label: "Compat.", value: "MacBook, PC, Surface" }
     ],
-  },
+  }
 ];
 
 export const atAGlance = hubs.map((h) => ({
@@ -324,7 +324,7 @@ export const poweredVsUnpowered = [
   { feature: "Port stability", powered: "Consistent under full load", unpowered: "May drop with many devices" },
   { feature: "Best for", powered: "Keyboard, mouse, drives, charging", unpowered: "Occasional use, 2-3 devices max" },
   { feature: "Desk use", powered: "Recommended", unpowered: "Only if 3 or fewer devices" },
-  { feature: "Price", powered: "$20-$45", unpowered: "$10-$20" },
+  { feature: "Price", powered: "$20-$45", unpowered: "$10-$20" }
 ];
 
 export const usbAvsC = [
@@ -332,7 +332,7 @@ export const usbAvsC = [
   { feature: "Best for", usbA: "Most Windows laptops", usbC: "MacBooks, thin ultrabooks, iPads" },
   { feature: "Data speed", usbA: "USB 3.0 = 5 Gbps", usbC: "USB 3.2 = 5-10 Gbps" },
   { feature: "Power delivery", usbA: "Data only", usbC: "Some support PD passthrough" },
-  { feature: "Typical cost", usbA: "$15-$35", usbC: "$25-$50" },
+  { feature: "Typical cost", usbA: "$15-$35", usbC: "$25-$50" }
 ];
 
 export const buyingCriteria = [
@@ -365,7 +365,7 @@ export const buyingCriteria = [
     icon: "⭕",
     title: "Grommet mounting",
     body: "If your desk has a 60mm grommet hole (common on desks with built-in cable management), consider the grommet hub (#5). The hub disappears into your desk surface -- no visible cable, no hub on the desk.",
-  },
+  }
 ];
 
 export const whichHubTable = [
@@ -376,7 +376,7 @@ export const whichHubTable = [
   { situation: "Have a grommet desk, want zero visible hub", pick: "#5 -- Grommet Hub", id: "grommet-desk-fit" },
   { situation: "Large setup, Anker brand preference", pick: "#6 -- Anker 10-Port 60W", id: "anker-10-port-60w" },
   { situation: "Have 3-4 devices, want something compact", pick: "#7 -- Anker 4-Port", id: "anker-4-port-compact" },
-  { situation: "Want flexibility in hub placement", pick: "#8 -- 4-Port 3.3ft Cable", id: "4-port-portable-cable" },
+  { situation: "Want flexibility in hub placement", pick: "#8 -- 4-Port 3.3ft Cable", id: "4-port-portable-cable" }
 ];
 
 export const faq: Array<{ q: string; a: string }> = [
@@ -407,5 +407,5 @@ export const faq: Array<{ q: string; a: string }> = [
   {
     q: "Do USB hubs work with Mac and PC?",
     a: "Yes -- all hubs on this list are plug-and-play on Windows (7/10/11), macOS, Chrome OS, and Linux. No driver installation needed. The USB standard is universal.",
-  },
+  }
 ];

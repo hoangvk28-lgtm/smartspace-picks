@@ -108,7 +108,7 @@ export default async function BestMonitorLightBarsGamingPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Monitor Light Bars for Gaming", item: `${SITE_URL}/guide/best-monitor-light-bars-for-gaming` },
+      { "@type": "ListItem", position: 3, name: "Best Monitor Light Bars for Gaming", item: `${SITE_URL}/guide/best-monitor-light-bars-for-gaming` }
     ],
   };
 
@@ -301,7 +301,7 @@ export default async function BestMonitorLightBarsGamingPage() {
                     { bar: "Razer Aether", ecosystem: "Razer Chroma", rgb: "Full RGB rear light" },
                     { bar: "Philips Hue Play", ecosystem: "Hue Bridge / Matter", rgb: "Hue color backlight" },
                     { bar: "Quntis RGB 24-mode", ecosystem: "Standalone", rgb: "24 preset RGB modes" },
-                    { bar: "BenQ ScreenBar Halo", ecosystem: "Standalone", rgb: "White backlight only" },
+                    { bar: "BenQ ScreenBar Halo", ecosystem: "Standalone", rgb: "White backlight only" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.bar}</td>
@@ -331,15 +331,15 @@ export default async function BestMonitorLightBarsGamingPage() {
           <h2 className="text-xl font-bold text-ink mb-5 tracking-tight">Bottom Line</h2>
           <div className="space-y-4">
             {[
-              { context: "Best overall gaming", id: "govee-gaming-g1", name: "Govee Gaming Monitor Light G1", verdict: " - 400 reviews at 4.6 stars, $59.99, best gaming-focused bar with smart app." },
-              { context: "Best Razer Chroma", id: "razer-aether", name: "Razer Aether Monitor Light", verdict: " - 168 reviews at 4.5 stars, $99.99, Chroma reactive gaming integration." },
-              { context: "Best standalone RGB", id: "quntis-rgb-backlight", name: "Quntis RGB 24-mode Backlight", verdict: " - 1,188 reviews at 4.5 stars, $31.99, most affordable RGB option." },
+              { context: "Best overall gaming", id: "govee-gaming-g1", name: "Govee Gaming Monitor Light G1", verdict: " - Under $60, best gaming-focused bar with smart app." },
+              { context: "Best Razer Chroma", id: "razer-aether", name: "Razer Aether Monitor Light", verdict: " - Under $100, Chroma reactive gaming integration." },
+              { context: "Best standalone RGB", id: "quntis-rgb-backlight", name: "Quntis RGB 24-mode Backlight", verdict: " - Under $35, most affordable RGB option." },
               { context: "Best Govee budget", id: "govee-monitor-bar", name: "Govee Monitor Light Bar Basic", verdict: " - Govee app integration at lower price point." },
               { context: "Best Philips Hue", id: "philips-hue-play-bar", name: "Philips Hue Play Monitor Bar", verdict: " - Hue ecosystem, Matter support, most reliable smart home integration." },
-              { context: "Best wide gaming", id: "benq-screenbar-halo-gaming", name: "BenQ ScreenBar Halo", verdict: " - 4,108 reviews at 4.5 stars, $219.99, premium white backlight for serious setups." },
-              { context: "Best budget gaming RGB", id: "quntis-rgb-gaming-budget", name: "Quntis with Backlight and Remote", verdict: " - 971 reviews at 4.7 stars, $49.99, remote plus backlight under $50." },
-              { context: "Best desk dial gaming", id: "yeelight-pro-gaming", name: "Yeelight Monitor Light Bar Pro", verdict: " - 3,826 reviews at 4.5 stars, wireless dial, gaming-compatible aesthetics." },
-              { context: "Best streaming setup", id: "baseus-gaming-rgb", name: "Baseus Gaming RGB Monitor Bar", verdict: " - 1,432 reviews at 4.5 stars, $45.99, clean RGB for streaming backgrounds." },
+              { context: "Best wide gaming", id: "benq-screenbar-halo-gaming", name: "BenQ ScreenBar Halo", verdict: " - Under $250, premium white backlight for serious setups." },
+              { context: "Best budget gaming RGB", id: "quntis-rgb-gaming-budget", name: "Quntis with Backlight and Remote", verdict: " - Under $50, remote plus backlight under $50." },
+              { context: "Best desk dial gaming", id: "yeelight-pro-gaming", name: "Yeelight Monitor Light Bar Pro", verdict: " - Wireless dial, gaming-compatible aesthetics." },
+              { context: "Best streaming setup", id: "baseus-gaming-rgb", name: "Baseus Gaming RGB Monitor Bar", verdict: " - Under $50, clean RGB for streaming backgrounds." }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

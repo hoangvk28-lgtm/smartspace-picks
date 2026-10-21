@@ -5,7 +5,7 @@ export const metaDescription = "5 encrypted portable SSDs we evaluated, with the
 export const mainKeyword = "encrypted portable SSD";
 export const introParagraphs = [
   "Hardware-based AES-256 encryption, built into the drive controller, is meaningfully more secure and often faster than software-based encryption, worth verifying and disclosing which encryption type a product actually uses rather than treating 'encrypted' as one undifferentiated claim.",
-  "Some encrypted drives offer no recovery path for a forgotten password, resulting in permanent, unrecoverable data loss, a real risk worth disclosing upfront rather than discovering after the fact.",
+  "Some encrypted drives offer no recovery path for a forgotten password, resulting in permanent, unrecoverable data loss, a real risk worth disclosing upfront rather than discovering after the fact."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Encrypted Portable SSD Overall",
     name: "iStorage diskAshur2 SSD 2TB Blue | Secure portable solid state drive | Password protected | Dust & water resistant | Hardware Encryption",
     price: "$829.95",
-    rating: "4.2 stars from 73 Amazon ratings",
-    reviews: "73 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41c8RfrvyLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B077QZ3T93?tag=deskfinds0d-20",
     description: "Explicitly hardware encryption via a physical keypad, meaningfully more secure and enforced at the hardware level, blocking access regardless of connected OS rather than a software prompt alone.\n\nIt earns the top spot in this comparison over Apricorn 1TB Aegis Padlock USB 3.0 256-bit AES XTS Hardware Encrypted Portable External Hard Drive for one main reason. Genuine hardware-level encryption enforcement, not just a software prompt. On price, it's actually priced above Apricorn 1TB Aegis Padlock USB 3.0 256-bit AES XTS Hardware Encrypted Portable External Hard Drive, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Physical keypad entry avoids OS-level bypass risks. On the other side, Overkill for casual personal file encryption needs. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Hardware-Encrypted Pick",
     name: "Apricorn 1TB Aegis Padlock USB 3.0 256-bit AES XTS Hardware Encrypted Portable External Hard Drive",
     price: "$189.95",
-    rating: "4.5 stars from 539 Amazon ratings",
-    reviews: "539 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31TvKWrDUOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B007JGB0EI?tag=deskfinds0d-20",
     description: "Explicitly disclosed 256-bit AES XTS hardware encryption at a far more accessible price than the enterprise-grade top pick, a genuine hardware encryption option for a typical privacy-conscious buyer.\n\nOne spot below iStorage diskAshur2 SSD 2TB Blue | Secure portable solid state drive | Password protected | Dust & water resistant | Hardware Encryption in this ranking, it's priced lower than iStorage diskAshur2 SSD 2TB Blue | Secure portable solid state drive | Password protected | Dust & water resistant | Hardware Encryption. The compromise here is straightforward: Smaller capacity than some alternatives at this price. What you gain in return: Genuine hardware-level encryption at an accessible price. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Physical keypad avoids OS-specific unlock software requirements. On the other side, Password recovery risk applies here too, no forgotten-password path. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Software-Encrypted Pick with Large Review Base",
     name: "Western Digital 2TB My Passport SSD Portable External Solid State Drive, Gray, Sturdy and Blazing Fast, Password Protection with Hardware Encryption",
     price: "$350.99",
-    rating: "4.5 stars from 8,952 Amazon ratings",
-    reviews: "8,952 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/414q6k88+IL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08F1VVBL9?tag=deskfinds0d-20",
     description: "WD's own listing states hardware encryption alongside password protection, a large review base backing this as a proven mainstream option with genuine encryption capability disclosed.\n\nSitting just under Apricorn 1TB Aegis Padlock USB 3.0 256-bit AES XTS Hardware Encrypted Portable External Hard Drive, it costs more than Apricorn 1TB Aegis Padlock USB 3.0 256-bit AES XTS Hardware Encrypted Portable External Hard Drive. Here's the honest tradeoff: Cross-platform unlock software availability should be verified per OS. And here's what it gets you instead: Large, well-established review base. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Disclosed hardware encryption, not just software-only. On the other side, Encryption overhead's speed impact not independently verified here. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Speed-Focused Pick with Encryption Option",
     name: "SANDISK 1TB Extreme Portable SSD (New Model) - up to 2000MB/s Transfer speeds, USB Type-C connectivity, Reliable Durability",
     price: "$248.61",
-    rating: "4.6 stars from 91 Amazon ratings",
-    reviews: "91 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41UpTn5oveL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GMWYYRQL?tag=deskfinds0d-20",
     description: "SanDisk's Extreme line typically includes software-based 256-bit AES encryption via bundled software rather than hardware-level encryption, verify this distinction if hardware-level security matters to you specifically.\n\nRanked just behind Western Digital 2TB My Passport SSD Portable External Solid State Drive, it's priced lower than Western Digital 2TB My Passport SSD Portable External Solid State Drive. The real tradeoff against that pick: Software-based encryption is a lesser security tier than hardware encryption. In exchange, it offers this instead: Fast rated unencrypted speed. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: SanDisk's proven Extreme product line reputation. On the other side, Smaller review base as a newer release. That's the main tradeoff to weigh against everything above.",
@@ -90,7 +90,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Hardware versus software encryption type disclosed per product", description: "Verified and disclosed which encryption type, hardware-based AES-256 built into the drive controller versus software-based, each product actually uses rather than treating 'encrypted' as one undifferentiated claim." },
   { title: "FIPS 140-2/140-3 certification status verified where relevant", description: "Verified actual FIPS certification status for compliance-driven buyers rather than accepting generic 'encrypted' marketing claims at face value." },
   { title: "Password recovery risk disclosed upfront", description: "Disclosed that some encrypted drives offer no recovery path for a forgotten password, resulting in permanent, unrecoverable data loss, a real risk worth knowing before buying." },
-  { title: "Encryption's speed overhead considered", description: "Considered encryption's effect on real-world transfer speed, since encryption/decryption processing overhead can measurably reduce throughput compared to the same drive's unencrypted performance." },
+  { title: "Encryption's speed overhead considered", description: "Considered encryption's effect on real-world transfer speed, since encryption/decryption processing overhead can measurably reduce throughput compared to the same drive's unencrypted performance." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -233,11 +233,11 @@ export const faq: FaqItem[] = [
   { q: "Do I need FIPS-certified encryption for a portable SSD?", a: "Only if you have formal compliance requirements, verify actual FIPS 140-2/140-3 certification status rather than accepting generic 'encrypted' marketing claims for those needs." },
   { q: "Does encryption slow down my portable SSD's transfer speed?", a: "It can. Encryption/decryption processing overhead can measurably reduce throughput compared to the same drive's unencrypted performance, don't assume the rated speed applies identically with encryption on." },
   { "q": "What's the single best pick to come out of this comparison?", a: "Enterprise or compliance-driven buyers needing genuine hardware-level encryption" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting genuine hardware-level encryption at an accessible price At $189.95, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting genuine hardware-level encryption at an accessible price At under $190, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-password-protected-portable-ssds", title: "Best Password-Protected Portable SSDs (2026)" },
   { href: "/guide/best-portable-ssds-for-backups", title: "Best Portable SSDs for Backups (2026)" },
-  { href: "/guide/best-waterproof-portable-ssds", title: "Best Waterproof Portable SSDs (2026)" },
+  { href: "/guide/best-waterproof-portable-ssds", title: "Best Waterproof Portable SSDs (2026)" }
 ];

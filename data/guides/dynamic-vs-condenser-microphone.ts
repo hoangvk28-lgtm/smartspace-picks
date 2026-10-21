@@ -12,7 +12,7 @@ export const dynamicVsCondenserMicrophoneGuide: Guide = {
     "dynamic mic vs condenser mic",
     "condenser microphone home office",
     "dynamic microphone noisy room",
-    "best mic type for podcasting",
+    "best mic type for podcasting"
   ],
   heroImage: "https://images.unsplash.com/photo-1634041323797-b9fdef9d18f7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1634041323797-b9fdef9d18f7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const dynamicVsCondenserMicrophoneGuide: Guide = {
     "best-usb-condenser-microphones",
     "best-audio-interfaces-for-microphones",
     "best-usb-microphones",
-    "best-usb-microphones-with-mute-button",
+    "best-usb-microphones-with-mute-button"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const dynamicVsCondenserMicrophoneGuide: Guide = {
       question: "Which type do most professional podcasters use?",
       answer:
         "Many professional podcasters and streamers use dynamic microphones specifically for their noise-rejection properties in home or office environments without dedicated acoustic treatment, though high-end condenser mics remain common in treated studio spaces.",
-    },
+    }
   ],
   sections: [
     {
@@ -81,6 +81,6 @@ A condenser mic uses a thin, charged diaphragm that changes an electrical capaci
     {
       heading: "Choosing Based on Your Actual Room",
       body: `If you're recording in a home office, bedroom, or any untreated space with hard surfaces (a common source of echo) and typical household background noise, a dynamic microphone generally produces cleaner results with less post-production cleanup needed. If you're recording in a quiet, acoustically treated space, or specifically need to capture fine vocal detail for music or professional voiceover, a condenser microphone's added sensitivity becomes a genuine advantage rather than a liability.`,
-    },
+    }
   ],
 };

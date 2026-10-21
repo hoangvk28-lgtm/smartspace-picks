@@ -166,7 +166,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31EJ-Drhh4L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07G9MFJMQ?tag=deskfinds0d-20",
-    "description": "Maydahui's weightlifter is a steel plated balance toy about 4.7 by 7.1 inches, based on a pendulum principle. The listing says it swings for only 2 to 3 minutes before friction stops it.\n\nIt is the cheapest in the guide at $7.19 and has the most motion, which sets it apart from the static signs. Compared with the woodpecker, it is metal and quieter, though its short swing time means it needs a nudge.\n\nChoose it for a desk fiddler who enjoys physics toys. The caveat is the short swing time, so it is a gadget to restart, not a perpetual motion machine.",
+    "description": "Maydahui's weightlifter is a steel plated balance toy about 4.7 by 7.1 inches, based on a pendulum principle. The listing says it swings for only 2 to 3 minutes before friction stops it.\n\nIt is the cheapest in the guide at under $8 and has the most motion, which sets it apart from the static signs. Compared with the woodpecker, it is metal and quieter, though its short swing time means it needs a nudge.\n\nChoose it for a desk fiddler who enjoys physics toys. The caveat is the short swing time, so it is a gadget to restart, not a perpetual motion machine.",
     "specs": [
       "Steel plated balance toy",
       "4.7 x 7.1 inch size",
@@ -285,7 +285,7 @@ export const howToChoose: HowToChooseSection[] = [
           "GTGIC Acrylic Boss Lady Desk Sign"
         ],
         [
-          "$9 to $9.49",
+          "$9 to under $10",
           "ExcelMark Custom Desk Name Plate"
         ],
         [
@@ -358,7 +358,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Save if",
-        "text": "The gift is for a swap or a group. Maydahui Balance Weightlifter Desk Toy costs the least at $7.19 and still gives people something to do."
+        "text": "The gift is for a swap or a group. Maydahui Balance Weightlifter Desk Toy costs the least at under $8 and still gives people something to do."
       }
     ]
   }

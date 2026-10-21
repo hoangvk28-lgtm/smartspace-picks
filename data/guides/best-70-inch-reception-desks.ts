@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $436.99",
+          "Under $450",
           "L-Shaped Reception Desk with Keyboard Tray"
         ],
         [
-          "Around $479.00",
+          "Under $500",
           "L-Shaped Wooden Commercial Reception Desk"
         ],
         [
-          "Around $1,469.00",
+          "Under $1,500",
           "Fully Assembled Curved Reception Desk"
         ],
         [
-          "Around $1,659.00",
+          "Under $1,700",
           "Exsunnyfit Fully Assembled Curved Reception Desk"
         ],
         [
-          "Around $1,799.99",
+          "Under $1,800",
           "SAINTCY 70.87in Black Curved Reception Desk with Power Outlets"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "SAINTCY 70.87in Black Curved Reception Desk with Power Outlets is aimed at buyers prioritizing 70.87in curved desk, pure black finish." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "SAINTCY 70.87in Black Curved Reception Desk with Power Outlets is aimed at buyers prioritizing 70.87in curved desk, pure black finish." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-72-inch-reception-desks","title":"6 Best 72-Inch Reception Desks in 2026"},{"href":"/guide/best-63-inch-reception-desks","title":"6 Best 63-Inch Reception Desks in 2026"},{"href":"/guide/best-7ft-reception-desks","title":"5 Best 7ft Reception Desks in 2026"}];

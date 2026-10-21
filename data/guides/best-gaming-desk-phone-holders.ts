@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "gaming desk phone holders";
 export const introParagraphs = [
   "Honesty note upfront: none of the verified products for this specific keyword are marketed with gaming-specific features like RGB lighting or gamer branding beyond one novelty gamer-chair-shaped stand. Most are simple aluminum or plastic desk phone stands that work equally well next to any keyboard, gaming or otherwise.",
-  "We include them here because they genuinely fit a gaming desk's small footprint and low-profile aesthetic, not because they have unique gaming functionality. If you want an actual articulating arm for hands-free viewing during gameplay, see our general desk phone arms guide instead.",
+  "We include them here because they genuinely fit a gaming desk's small footprint and low-profile aesthetic, not because they have unique gaming functionality. If you want an actual articulating arm for hands-free viewing during gameplay, see our general desk phone arms guide instead."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "6 min";
@@ -104,7 +104,7 @@ export const products: GuideProduct[] = [
     pros: ["Genuinely gaming-themed novelty item", "Fun desk accessory", "Affordable", "Compact"],
     cons: ["Limited to small/thin devices", "Smallest review count in this comparison", "Not a practical primary stand for large phones"],
     bestFor: "Buyers who specifically want a gaming-themed novelty accessory over practical holding capacity.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine gaming relevance vs. general-purpose fit", description: "We disclosed which picks have genuine gaming-specific marketing or compatibility versus general phone stands that simply fit well on a gaming desk." },
   { title: "Desk footprint", description: "We favored compact, low-profile stands that leave room for a keyboard, mouse, and mousepad on a typically smaller gaming desk." },
   { title: "Review volume and rating", description: "We weighted picks with substantial verified review history alongside their star rating for reliability confidence." },
-  { title: "Static vs. articulating design honesty", description: "We were explicit that every pick here is a fixed stand, not a hands-free articulating arm, since that is a genuinely different product type." },
+  { title: "Static vs. articulating design honesty", description: "We were explicit that every pick here is a fixed stand, not a hands-free articulating arm, since that is a genuinely different product type." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -239,12 +239,13 @@ export const faq: FaqItem[] = [
   { q: "Are any of these stands actually designed for gaming?", a: "Mostly they are general phone stands that fit well on a gaming desk due to their compact size. Only the LISEN Nintendo Switch stand and the VELENTI novelty gamer chair have genuine gaming-specific framing." },
   { q: "Can these stands hold my phone while I game hands-free with adjustment?", a: "They hold the phone at a fixed angle but don't articulate or reposition hands-free during use. For that, see our best desk phone arms guide instead." },
   { q: "Will the VELENTI gamer chair stand fit my modern smartphone?", a: "It holds devices up to about 19cm tall, which fits most phones but is on the smaller side for very large modern models. Check your phone's height before buying it as a primary stand." },
-  { q: "Which pick has the best value?", a: "The Nulaxy Full Aluminum stand has both the highest review count and a strong 4.7 rating at under $10, making it the most proven value pick in this comparison." },
+  
   { q: "Does any of these support Nintendo Switch tabletop mode?", a: "The LISEN pick explicitly lists Nintendo Switch compatibility alongside phone support, making it the best dual-purpose choice if you also game on Switch." },
+  { q: "Can I switch between portrait and landscape without moving the stand?", a: "The Lamicall 360 stand and the COOPER 360 stand both rotate on their bases, so you can turn the phone between orientations without lifting it off the desk. The Nulaxy folding stand and the VELENTI gamer chair stand are fixed designs, so changing orientation means picking the phone up and setting it back down. If you flip between a game and a video call often, choose one of the rotating pair." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-phone-arms", title: "Best Desk Phone Arms (2026)" },
   { href: "/guide/best-gaming-desk-cup-holders", title: "Best Gaming Desk Cup Holders (2026)" },
-  { href: "/guide/best-overhead-phone-arms-for-desks", title: "Best Overhead Phone Arms for Desks (2026)" },
+  { href: "/guide/best-overhead-phone-arms-for-desks", title: "Best Overhead Phone Arms for Desks (2026)" }
 ];

@@ -12,7 +12,7 @@ export const laptopBagSizeForScreenSizeGuide: Guide = {
     "what size laptop bag do i need",
     "15 inch laptop bag fit",
     "13 inch laptop bag sizing",
-    "laptop bag too big loose fit",
+    "laptop bag too big loose fit"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const laptopBagSizeForScreenSizeGuide: Guide = {
     "laptop-bag-compartment-organization",
     "laptop-sleeve-vs-hard-case",
     "laptop-backpack-vs-messenger-bag",
-    "keyboard-size-chart",
+    "keyboard-size-chart"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const laptopBagSizeForScreenSizeGuide: Guide = {
       question: "Does bag material affect how important precise sizing is?",
       answer:
         "A well-padded compartment with structured internal padding is somewhat more forgiving of minor size mismatches, since the padding itself constrains movement, a bag with minimal internal structure depends more heavily on precise sizing to keep the laptop secure.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const laptopBagSizeForScreenSizeGuide: Guide = {
     {
       heading: "Why Thicker Laptops Need Extra Dimension Checking Beyond Screen Size Alone",
       body: `Standard laptop bag sizing conventions are based primarily on screen diagonal measurement, which works reasonably well for typical thin laptops, but doesn't account for laptop thickness, a factor that varies more significantly for gaming laptops or older, bulkier models. If your laptop is notably thicker than a standard ultrabook, checking the bag compartment's actual depth dimension against your laptop's real thickness, rather than relying solely on the screen size match, avoids the disappointment of a laptop that technically matches the rated screen size but doesn't actually fit into the compartment properly.`,
-    },
+    }
   ],
 };

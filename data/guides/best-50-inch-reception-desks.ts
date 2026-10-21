@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $199.99",
+          "Under $200",
           "Luxitero 47\" Reception Desk"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "AHB Reception Desk with Counter and LED Light Strips"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "AHB 50-Inch Reception Desk with LED and DIY Stripe"
         ],
         [
-          "Around $259.99",
+          "Under $300",
           "AHB 50-Inch Reception Desk with LED and Storage Shelves"
         ],
         [
-          "Around $261.90",
+          "Under $300",
           "VEVOR Reception Desk"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "AHB Reception Desk with Counter and LED Light Strips is aimed at buyers prioritizing built-in tabletop sockets for led/charger plugs." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "AHB Reception Desk with Counter and LED Light Strips is aimed at buyers prioritizing built-in tabletop sockets for led/charger plugs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-48-inch-reception-desks","title":"4 Best 48-Inch Reception Desks in 2026"},{"href":"/guide/best-55-inch-reception-desks","title":"5 Best 55-Inch Reception Desks in 2026"},{"href":"/guide/best-5ft-reception-desks","title":"6 Best 5ft Reception Desks in 2026"}];

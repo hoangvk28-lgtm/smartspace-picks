@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $169.99",
+          "Under $170",
           "Tribesigns Reception Desk with Counter"
         ],
         [
-          "Around $261.90",
+          "Under $300",
           "VEVOR Reception Desk"
         ],
         [
-          "Around $329.99",
+          "Under $350",
           "Modern Reception Desk with Drawer & Open Shelves"
         ],
         [
-          "Around $559.99",
+          "Under $600",
           "ZIMASYA 63\" Reception Counter with Combination Lock Drawers"
         ],
         [
-          "Around $1,469.00",
+          "Under $1,500",
           "Fully Assembled Curved Reception Desk"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "ZIMASYA 63\" Reception Counter with Combination Lock Drawers is aimed at buyers prioritizing 63\" l-shaped desk, white finish." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "ZIMASYA 63\" Reception Counter with Combination Lock Drawers is aimed at buyers prioritizing 63\" l-shaped desk, white finish." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-large-reception-desks","title":"6 Best Large Reception Desks in 2026"},{"href":"/guide/best-l-shaped-reception-desks","title":"best-l-shaped-reception-desks"},{"href":"/guide/best-reception-desks-for-commercial","title":"5 Best Reception Desks for Commercial Use in 2026"}];

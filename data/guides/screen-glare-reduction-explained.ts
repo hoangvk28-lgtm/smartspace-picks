@@ -12,7 +12,7 @@ export const screenGlareReductionExplainedGuide: Guide = {
     "how to reduce monitor glare",
     "matte screen filter worth it",
     "desk positioning to avoid glare",
-    "window glare on monitor fix",
+    "window glare on monitor fix"
   ],
   heroImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const screenGlareReductionExplainedGuide: Guide = {
     "monitor-brightness-and-eye-strain",
     "20-20-20-rule-explained",
     "webcam-lighting-explained",
-    "desk-lamp-kelvin-color-temperature",
+    "desk-lamp-kelvin-color-temperature"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const screenGlareReductionExplainedGuide: Guide = {
       question: "Does glare only affect eye comfort, or also visibility of content?",
       answer:
         "Both, glare not only causes eye strain from the added reflected brightness but also reduces your ability to clearly see darker parts of the screen content, which is washed out by the reflection, making both discomfort and reduced usability real concerns.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const screenGlareReductionExplainedGuide: Guide = {
     {
       heading: "When a Matte Filter Becomes the Practical Solution",
       body: `In situations where repositioning your desk or monitor isn't possible, a fixed desk location facing an unavoidable window, for example, a matte screen filter provides a practical alternative by diffusing incoming light across the screen's surface rather than allowing it to reflect as a distinct, sharp glare spot. This does trade off some color vibrancy and sharpness compared to a glossy screen, a worthwhile tradeoff specifically when repositioning isn't a realistic option.`,
-    },
+    }
   ],
 };

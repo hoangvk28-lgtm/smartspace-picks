@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A genuine dual-mode walking-to-running pad", "Walking Pad Treadmill with 18% Incline and Handle, Bluetooth Speaker"],
         ["Detailed app-based workout reports", "UREVO Strol 2E Pro Smart Walking Pad Treadmill"],
         ["A dual-display setup with strong incline flexibility", "Walking Pad Treadmill with 15% Incline, Dual Display"],
-        ["An adjustable handlebar for multiple users", "TOPUTURE Walking Pad Treadmill with Adjustable Handle Bar"],
+        ["An adjustable handlebar for multiple users", "TOPUTURE Walking Pad Treadmill with Adjustable Handle Bar"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $180", "18% Incline Bluetooth or 15% Incline Dual Display (both $179.99)"],
-        ["Under $199", "TOPUTURE ($198.99)"],
-        ["Under $198", "UREVO ($197.99)"],
+        ["Under $180", "18% Incline Bluetooth or 15% Incline Dual Display (both under $180)"],
+        ["Under $199", "TOPUTURE (under $200)"],
+        ["Under $198", "UREVO (under $200)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Genuine Dual-Mode vs Walking-Only Speed Range",
     cards: [
       { label: "Genuine dual-mode (18% Incline Bluetooth, UREVO)", text: "Physically switches between a folded walking pad and a raised-handrail running treadmill capable of 6-7 MPH." },
-      { label: "Walking-focused range (15% Incline Dual Display, TOPUTURE)", text: "Offers a wider speed range but doesn't emphasize the same physical mode-switching mechanism, staying more walking-pad focused." },
+      { label: "Walking-focused range (15% Incline Dual Display, TOPUTURE)", text: "Offers a wider speed range but doesn't emphasize the same physical mode-switching mechanism, staying more walking-pad focused." }
     ],
     note: "If you specifically want to jog or run at higher speeds in addition to walking during desk work, the dual-mode picks are worth prioritizing. If you're purely walking and just want incline variety, the other two picks serve that need well.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Multiple users of different heights", "TOPUTURE (adjustable handlebar)"],
         ["Single primary user, entertainment focus", "18% Incline Bluetooth Speaker"],
-        ["Single primary user, data tracking focus", "UREVO"],
+        ["Single primary user, data tracking focus", "UREVO"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Household With Both Walkers and Joggers Specifically",
     cards: [
       { label: "Look for", text: "A genuine dual-mode design with a raised handrail option supporting running speeds up to 6-7 MPH, not just an extended walking speed range." },
-      { label: "In this comparison", text: "The 18% Incline Bluetooth Speaker pick's 5-in-1 mode range specifically accommodates both slow desk walking and full running speeds up to 7.0 MPH for different household members." },
+      { label: "In this comparison", text: "The 18% Incline Bluetooth Speaker pick's 5-in-1 mode range specifically accommodates both slow desk walking and full running speeds up to 7.0 MPH for different household members." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want detailed app-based workout reports and data tracking, where the UREVO pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You want dual-mode walking-to-running functionality with entertainment features, where the 18% Incline Bluetooth Speaker pick covers that for about $18 less." },
+      { label: "Save if", text: "You want dual-mode walking-to-running functionality with entertainment features, where the 18% Incline Bluetooth Speaker pick covers that for about $18 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

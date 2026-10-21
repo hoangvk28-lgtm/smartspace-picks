@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini lcd writing tablet";
 export const introParagraphs = [
   "Dedicated mini-format LCD writing tablets, meaning screens under 7 inches genuinely marketed as 'mini,' are a very small niche in this category. Current research turned up only one product explicitly branded this way, so this guide covers it honestly rather than stretching the definition to include larger screens.",
-  "If the single mini option here doesn't fit what you're looking for, the 8.5 inch size tier is the next-smallest practical alternative in this category and offers far more brand and style choices, worth checking our dedicated 8.5 inch guide if pocket size isn't an absolute requirement.",
+  "If the single mini option here doesn't fit what you're looking for, the 8.5 inch size tier is the next-smallest practical alternative in this category and offers far more brand and style choices, worth checking our dedicated 8.5 inch guide if pocket size isn't an absolute requirement."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "5 min";
@@ -43,7 +43,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Mini branding confirmed as genuinely under 7 inches", description: "Verified this product's title explicitly states 'mini' and confirmed its 6.5 inch screen dimension before including it in a size-specific mini guide." },
   { title: "Full researched pool checked for other mini options", description: "Confirmed no other genuinely mini-branded (under 7 inch) products exist in current research before finalizing this as a single-product guide." },
   { title: "Next-smallest alternative identified for transparency", description: "Identified the 8.5 inch tier as the next-smallest practical alternative to point buyers toward if this single mini option doesn't fit their needs." },
-  { title: "Portability features assessed for genuine travel use", description: "Evaluated the included cover case and Hall switch specifically for durability under frequent travel and handling." },
+  { title: "Portability features assessed for genuine travel use", description: "Evaluated the included cover case and Hall switch specifically for durability under frequent travel and handling." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -61,7 +61,7 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $17.99",
+          "Under $20",
           "LCD Writing Tablet for Adult: 6.5 Inch Full Screen Mini Digital Notepad Reusable Small Writing Pad with Hall Switch and Cover Case Portable Use for Office Study Teaching"
         ]
       ]
@@ -93,7 +93,7 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "Here's what you get for $17.99: Only genuinely mini-branded option under 7 inches. If that's what you're after, the tradeoffs in its cons list probably won't bother you either."
+        "text": "Here's what you get for under $20: Only genuinely mini-branded option under 7 inches. If that's what you're after, the tradeoffs in its cons list probably won't bother you either."
       },
       {
         "label": "Save if",
@@ -130,11 +130,11 @@ export const faq: FaqItem[] = [
   { q: "Are there many mini LCD writing tablet options?", a: "No, this is a genuinely small niche. Current research found only one product explicitly branded as mini under 7 inches." },
   { q: "What is the smallest LCD writing tablet available?", a: "The 6.5 Inch Mini Digital Notepad is the smallest dedicated mini-branded option found in current research." },
   { q: "What should I buy if the mini option doesn't suit my needs?", a: "The 8.5 inch size tier is the next-smallest practical alternative, offering more brand and style choices while remaining reasonably portable." },
-  { q: "Is a mini LCD writing tablet good for detailed notes?", a: "Not really, the small screen suits brief notes and reminders better than extended writing or detailed sketches." },
+  { q: "Is a mini LCD writing tablet good for detailed notes?", a: "Not really, the small screen suits brief notes and reminders better than extended writing or detailed sketches." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-8-5-inch-lcd-writing-tablets", title: "Best 8.5 Inch LCD Writing Tablets (2026)" },
   { href: "/guide/best-lcd-writing-tablets", title: "Best LCD Writing Tablets in 2026" },
-  { href: "/guide/best-lcd-writing-tablets-for-work", title: "Best LCD Writing Tablets for Work (2026)" },
+  { href: "/guide/best-lcd-writing-tablets-for-work", title: "Best LCD Writing Tablets for Work (2026)" }
 ];

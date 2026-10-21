@@ -12,7 +12,7 @@ export const surgeProtectorJouleRatingExplainedGuide: Guide = {
     "what is joule rating surge protector",
     "how many joules do i need",
     "surge protector rating for computer",
-    "power strip vs surge protector",
+    "power strip vs surge protector"
   ],
   heroImage: "https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const surgeProtectorJouleRatingExplainedGuide: Guide = {
     "power-strip-vs-surge-protector",
     "ups-runtime-explained",
     "cable-management-types-explained",
-    "usb-c-power-delivery-explained",
+    "usb-c-power-delivery-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const surgeProtectorJouleRatingExplainedGuide: Guide = {
       question: "Should I replace a surge protector after a major power event?",
       answer:
         "Yes, after any significant surge event, like a lightning strike nearby or a major power grid fluctuation, replace the surge protector even if it still appears to function, since its protective capacity may have been substantially or fully depleted.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const surgeProtectorJouleRatingExplainedGuide: Guide = {
     {
       heading: "Why Higher-Value Equipment Justifies a Higher Rating",
       body: `The cost of a higher-joule-rated surge protector is small compared to the potential cost of damaged computer equipment, monitors, or other electronics from an inadequately protected surge event, this asymmetry is why it's generally worth erring toward a higher joule rating than the stated minimum for your specific equipment, especially for a desk setup representing significant replacement cost.`,
-    },
+    }
   ],
 };

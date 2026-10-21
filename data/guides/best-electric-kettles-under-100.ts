@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41WQtNcJBRL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B06ZZQMVBK?tag=deskfinds0d-20",
-    "description": "Breville is a 57 ounce, about 7 cup kettle with a soft-opening lid that releases steam gradually, dual water windows, a lid release button and an illuminated power button. The listing says materials are free of BPA and the base is cordless with cord storage.\n\nIt does not have temperature presets, unlike every other pick here, so it is a plain boiler. It costs $98, close to the Ninja.\n\nBest for a family that wants a simple, safe boil. The caveat is that there is no temperature control, so green tea will be scalded.",
+    "description": "Breville is a 57 ounce, about 7 cup kettle with a soft-opening lid that releases steam gradually, dual water windows, a lid release button and an illuminated power button. The listing says materials are free of BPA and the base is cordless with cord storage.\n\nIt does not have temperature presets, unlike every other pick here, so it is a plain boiler. It costs under $100, close to the Ninja.\n\nBest for a family that wants a simple, safe boil. The caveat is that there is no temperature control, so green tea will be scalded.",
     "specs": [
       "57 oz, about 7 cups",
       "Soft-opening lid",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31mv7u7ZGEL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B098TQJJJ1?tag=deskfinds0d-20",
-    "description": "Ninja's KT200 is a 7 cup kettle with seven one-touch presets for green, white, oolong and black tea, herbal tea, coffee and boil. It can hold temperature for up to 30 minutes, offers manual temperature control and shows a live temperature on an illuminated display. The listing says it boils one cup in as little as 90 seconds.\n\nIt is the most expensive pick at $99.99 and it has more presets than Cosori, but a shorter keep-warm window. It is bigger than the goosenecks.\n\nChoose it for a household with different drinks. The caveat is the price and a bulky body.",
+    "description": "Ninja's KT200 is a 7 cup kettle with seven one-touch presets for green, white, oolong and black tea, herbal tea, coffee and boil. It can hold temperature for up to 30 minutes, offers manual temperature control and shows a live temperature on an illuminated display. The listing says it boils one cup in as little as 90 seconds.\n\nIt is the most expensive pick at under $100 and it has more presets than Cosori, but a shorter keep-warm window. It is bigger than the goosenecks.\n\nChoose it for a household with different drinks. The caveat is the price and a bulky body.",
     "specs": [
       "7 one-touch presets",
       "Hold temp up to 30 minutes",

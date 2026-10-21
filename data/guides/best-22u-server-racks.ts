@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $249.99",
+          "Under $250",
           "AxcessAbles 22U Rolling IT Server Rack"
         ],
         [
-          "Around $469.99",
+          "Under $500",
           "NavePoint 22U Server Cabinet Wall Mount Rack Enclosure"
         ],
         [
-          "Around $559.97",
+          "Under $600",
           "22U Wall Mount Server Rack Cabinet"
         ],
         [
-          "Around $876.99",
+          "Under $900",
           "StarTech 22U 4-Post Server Cabinet"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "NavePoint 22U Server Cabinet Wall Mount Rack Enclosure is aimed at buyers prioritizing 22u, 23.63\"l x 23.63\"w x 43\"h." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "NavePoint 22U Server Cabinet Wall Mount Rack Enclosure is aimed at buyers prioritizing 22u, 23.63\"l x 23.63\"w x 43\"h." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-42u-server-racks","title":"Best 42U Server Racks in 2026"},{"href":"/guide/best-2u-server-racks","title":"Best 2U Server Racks in 2026"},{"href":"/guide/best-1u-server-racks","title":"Best 1U Server Racks in 2026"}];

@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This stand's rear-positioned power outlet keeps cables neatly arranged, specifically avoiding the messy side wiring the listing notes as a problem on other similar products. Its 2 power outlets and 2 USB ports with a 5 ft cord efficiently power multiple devices, while each shelf supports up to 150 lbs for 450 lbs total, the highest capacity in this comparison.\n\nCompared to the MAHANCRIS pick below, this one specifically addresses cable routing as a design priority, positioning the outlet where it won't create visible tangles. Its industrial-grade steel frame and thick particle board construction back up the substantial stated weight capacity.\n\nBest for buyers who want the highest weight capacity with thoughtfully routed power outlets.",
     specs: ["450 lb total capacity, 150 lb per shelf", "2 power outlets, 2 USB ports, 5ft cord", "Rear-positioned outlet for cable management"],
     pros: ["Highest weight capacity in this comparison at 450 lbs total", "Rear-positioned outlet specifically avoids messy side cables", "Industrial-grade steel frame backs the substantial capacity"],
-    cons: ["Slightly over this tier's stated ceiling at $48.06", "No stated anti-tip hardware unlike some competitors"],
+    cons: ["Slightly over this tier's stated ceiling at under $50", "No stated anti-tip hardware unlike some competitors"],
     bestFor: "buyers who want the highest weight capacity with thoughtful cable routing",
   },
   {
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The highest weight capacity with thoughtful cable routing", "VECELO Large Printer Stand with Power Outlet"],
         ["Anti-tip safety alongside built-in power", "MAHANCRIS Mobile Printer Stand with Power Outlets"],
         ["Raw shelf weight capacity without power features", "HOOBRO Printer Stand, 3-Tier Industrial Under Desk Printer Cart"],
-        ["The most USB ports at the lowest price", "HOOBRO Industrial Printer Stand with Power Outlets and USB Ports"],
+        ["The most USB ports at the lowest price", "HOOBRO Industrial Printer Stand with Power Outlets and USB Ports"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $40", "HOOBRO Industrial with USB ($39.99)"],
-        ["Under $45", "HOOBRO 3-Tier Industrial ($44.99)"],
-        ["Under $46", "MAHANCRIS ($45.99)"],
-        ["Under $49", "VECELO ($48.06)"],
+        ["Under $40", "HOOBRO Industrial with USB (under $40)"],
+        ["Under $45", "HOOBRO 3-Tier Industrial (under $45)"],
+        ["Under $46", "MAHANCRIS (under $50)"],
+        ["Under $49", "VECELO (under $50)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Built-In Power vs No Power, Higher Raw Capacity",
     cards: [
       { label: "Built-in power (VECELO, MAHANCRIS, HOOBRO Industrial with USB)", text: "Adds genuine charging convenience at the cost of slightly lower per-shelf weight capacity in some cases." },
-      { label: "No power, higher shelf capacity (HOOBRO 3-Tier Industrial)", text: "Prioritizes raw structural strength with an 88 lb top shelf, better if you don't need built-in charging." },
+      { label: "No power, higher shelf capacity (HOOBRO 3-Tier Industrial)", text: "Prioritizes raw structural strength with an 88 lb top shelf, better if you don't need built-in charging." }
     ],
     note: "If charging your printer or nearby devices without extra cords matters to you, the power-equipped picks are worth prioritizing. If maximum single-shelf weight capacity is your top concern and you don't need built-in power, the HOOBRO 3-Tier Industrial pick delivers that.",
   },
@@ -140,7 +140,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Standard capacity with power", "HOOBRO Industrial with USB (44 lb top)"],
         ["Higher capacity with anti-tip safety", "MAHANCRIS (44 lb per shelf)"],
         ["Highest single-shelf capacity, no power", "HOOBRO 3-Tier Industrial (88 lb top)"],
-        ["Highest total capacity with power", "VECELO (450 lb total)"],
+        ["Highest total capacity with power", "VECELO (450 lb total)"]
       ],
     },
   },
@@ -148,16 +148,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Household With Children or Pets Specifically",
     cards: [
       { label: "Look for", text: "An explicitly stated anti-tip device or hardware, since a taller, narrower printer stand loaded with equipment poses a real tipping risk if bumped or climbed on." },
-      { label: "In this comparison", text: "The MAHANCRIS pick's anti-tip device is specifically called out in the listing as doubling structural security, a detail worth prioritizing in a household with children or pets." },
+      { label: "In this comparison", text: "The MAHANCRIS pick's anti-tip device is specifically called out in the listing as doubling structural security, a detail worth prioritizing in a household with children or pets." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the highest total weight capacity with thoughtfully routed power outlets, where the VECELO pick delivers both at the top of this tier." },
-      { label: "Save if", text: "You just want built-in power and USB charging without needing maximum capacity, where the HOOBRO Industrial with USB pick covers that for about $8 less." },
+      { label: "Save if", text: "You just want built-in power and USB charging without needing maximum capacity, where the HOOBRO Industrial with USB pick covers that for about $8 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

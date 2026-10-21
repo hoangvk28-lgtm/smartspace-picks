@@ -29,7 +29,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0DQNMHM64?tag=deskfinds0d-20",
     description: "This extender's listing specifically states it provides PoE power to up to three separate devices from one input, with VLAN isolation on its three output ports to prevent data leakage between connected devices, a genuinely useful network security feature at this price point. Its IP66-rated unibody housing is specifically designed to withstand harsh outdoor environments.\n\nCompared to the Tliffpaco and LINOVISION picks below, this one's 3-level cascade support, reaching up to 1312ft total PoE and data transmission, gives it the longest documented total extension distance in this comparison at the lowest price.\n\nBest for buyers who want to power three separate outdoor devices from one extender with VLAN isolation at the lowest price.",
     specs: ["1 in 3 out, IP66 waterproof, VLAN isolation", "IEEE 802.3af/at, up to 30W max output", "3-level cascade for up to 1312ft total distance"],
-    pros: ["Lowest price in this comparison at $23.98", "VLAN isolation on output ports prevents data leakage between devices", "Powers three separate devices from one extender unit"],
+    pros: ["Lowest price in this comparison at under $25", "VLAN isolation on output ports prevents data leakage between devices", "Powers three separate devices from one extender unit"],
     cons: ["IP66 rating offers less water resistance than the IP67 picks in this comparison", "Total power output capped below the Tliffpaco pick's higher wattage"],
     bestFor: "buyers who want to power three separate outdoor devices from one extender at the lowest price",
   },
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["To power three devices at the lowest price", "YuanLey Outdoor Gigabit PoE Extender 1 in 3 Out"],
         ["A dedicated high-power port for a PTZ camera", "Tliffpaco Outdoor Gigabit PoE Extender, 5 Port"],
         ["Long-term technical support and honest documentation", "LINOVISION Gigabit Outdoor PoE Extender"],
-        ["Explicit surge protection in an adverse climate", "Cudy Outdoor Gigabit PoE+ Extender (POE15)"],
+        ["Explicit surge protection in an adverse climate", "Cudy Outdoor Gigabit PoE+ Extender (POE15)"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $24", "YuanLey Outdoor Gigabit PoE Extender ($23.98)"],
-        ["Under $28", "Tliffpaco Outdoor Gigabit PoE Extender ($27.99)"],
-        ["Under $40", "LINOVISION Gigabit Outdoor PoE Extender ($39.99)"],
-        ["Under $80", "Cudy Outdoor Gigabit PoE+ Extender ($79.99)"],
+        ["Under $24", "YuanLey Outdoor Gigabit PoE Extender (under $25)"],
+        ["Under $28", "Tliffpaco Outdoor Gigabit PoE Extender (under $30)"],
+        ["Under $40", "LINOVISION Gigabit Outdoor PoE Extender (under $40)"],
+        ["Under $80", "Cudy Outdoor Gigabit PoE+ Extender (under $80)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "IP66 vs IP67 Waterproof Rating",
     cards: [
       { label: "IP66 (YuanLey)", text: "Protects against powerful water jets from any direction but is not certified for temporary submersion, adequate for most wall-mounted outdoor installations under an eave or overhang." },
-      { label: "IP67 (LINOVISION, Cudy)", text: "Adds certified protection against temporary submersion in up to 1 meter of water for a limited time, a meaningfully higher standard for installations in flood-prone or heavy-rain-exposed locations." },
+      { label: "IP67 (LINOVISION, Cudy)", text: "Adds certified protection against temporary submersion in up to 1 meter of water for a limited time, a meaningfully higher standard for installations in flood-prone or heavy-rain-exposed locations." }
     ],
     note: "If your extender will be mounted under cover and only exposed to rain and spray, the YuanLey's IP66 rating is sufficient. If it could face standing water or heavy flooding risk, the IP67-rated LINOVISION or Cudy picks offer real additional protection.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["Standard PoE devices at 30W or less", "YuanLey Outdoor Gigabit PoE Extender"],
         ["A PTZ camera or device needing up to 60W", "Tliffpaco Outdoor Gigabit PoE Extender, 5 Port"],
-        ["Standard PoE devices with surge protection", "Cudy Outdoor Gigabit PoE+ Extender"],
+        ["Standard PoE devices with surge protection", "Cudy Outdoor Gigabit PoE+ Extender"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For a Coastal or Storm-Exposed Installation Specifically",
     cards: [
       { label: "Look for", text: "An IP67 rating combined with explicit surge protection, since coastal and storm-prone locations face both heavy water exposure and elevated electrical surge risk from frequent storms." },
-      { label: "In this comparison", text: "The Cudy pick specifically combines IP67 waterproofing with built-in surge protection, making it the strongest fit for genuinely adverse coastal or storm-exposed conditions." },
+      { label: "In this comparison", text: "The Cudy pick specifically combines IP67 waterproofing with built-in surge protection, making it the strongest fit for genuinely adverse coastal or storm-exposed conditions." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You're installing in a genuinely adverse climate and want explicit surge protection alongside IP67 waterproofing, where the Cudy pick's $79.99 price is justified by those combined protections." },
-      { label: "Save if", text: "You need to power multiple standard PoE devices in a moderately exposed location, where the YuanLey pick delivers that for $23.98, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You're installing in a genuinely adverse climate and want explicit surge protection alongside IP67 waterproofing, where the Cudy pick's under $80 price is justified by those combined protections." },
+      { label: "Save if", text: "You need to power multiple standard PoE devices in a moderately exposed location, where the YuanLey pick delivers that for under $25, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

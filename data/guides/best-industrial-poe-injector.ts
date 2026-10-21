@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Single high-draw device (95W)", "xoxnikior Industrial Gigabit 95W PoE++ Injector"],
         ["Two high-draw devices (90W each)", "Industrial 2ch PoE++ Injector 90W"],
         ["Single standard device, NDAA compliance", "TRENDnet Industrial 30W Gigabit PoE+ Injector"],
-        ["Two standard devices, AC/DC flexibility", "Industrial 2ch PoE+ Injector 30W"],
+        ["Two standard devices, AC/DC flexibility", "Industrial 2ch PoE+ Injector 30W"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $50", "TRENDnet Industrial 30W Gigabit PoE+ Injector ($49.99)"],
-        ["Under $80", "Industrial 2ch PoE+ Injector 30W ($79.70)"],
-        ["Under $93", "Industrial 2ch PoE++ Injector 90W ($92.70)"],
-        ["Under $100", "xoxnikior Industrial Gigabit 95W PoE++ Injector ($99.99)"],
+        ["Under $50", "TRENDnet Industrial 30W Gigabit PoE+ Injector (under $50)"],
+        ["Under $80", "Industrial 2ch PoE+ Injector 30W (under $80)"],
+        ["Under $93", "Industrial 2ch PoE++ Injector 90W (under $100)"],
+        ["Under $100", "xoxnikior Industrial Gigabit 95W PoE++ Injector (under $100)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Single-Port vs 2-Port DIN-Rail Injectors",
     cards: [
       { label: "Single-port (xoxnikior, TRENDnet)", text: "Simplest choice when you only need to power one device from a given cabinet location, with the xoxnikior pick offering the highest per-device power ceiling." },
-      { label: "2-port (both Industrial 2ch picks)", text: "More space-efficient and cost-effective than installing two separate single-port units when two devices need power from the same cabinet." },
+      { label: "2-port (both Industrial 2ch picks)", text: "More space-efficient and cost-effective than installing two separate single-port units when two devices need power from the same cabinet." }
     ],
     note: "Count your actual devices needing power from each specific cabinet location before choosing between a single high-power port or two lower-power ports in one unit.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["12V or 24V DC rail", "xoxnikior Industrial Gigabit 95W PoE++ Injector"],
         ["AC power available, no DC conversion yet", "Industrial 2ch PoE+ Injector 30W (accepts AC)"],
-        ["Standard 48-57V DC, NDAA required", "TRENDnet Industrial 30W Gigabit PoE+ Injector"],
+        ["Standard 48-57V DC, NDAA required", "TRENDnet Industrial 30W Gigabit PoE+ Injector"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For a Roadside Enclosure or Pump House Installation Specifically",
     cards: [
       { label: "Look for", text: "A wide operating temperature range and fanless design specifically built for an unmanned outdoor cabinet, where extreme heat, cold, and dust are ongoing concerns without regular maintenance access." },
-      { label: "In this comparison", text: "The xoxnikior pick specifically names roadside enclosures and pump houses as intended use cases, backed by its -40F to 176F fanless operation." },
+      { label: "In this comparison", text: "The xoxnikior pick specifically names roadside enclosures and pump houses as intended use cases, backed by its -40F to 176F fanless operation." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You're powering a high-draw device like a heated PTZ camera or need two independent high-power ports, where the xoxnikior or 90W 2-port picks near $90-100 justify their price with real capability." },
-      { label: "Save if", text: "You need NDAA compliance for a standard 30W device, where the TRENDnet pick's $49.99 price delivers that specific requirement at roughly half the cost of the higher-wattage picks." },
+      { label: "Save if", text: "You need NDAA compliance for a standard 30W device, where the TRENDnet pick's under $50 price delivers that specific requirement at roughly half the cost of the higher-wattage picks." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

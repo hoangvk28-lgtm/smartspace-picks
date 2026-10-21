@@ -5,7 +5,7 @@ export const metaDescription = "4 portable SSDs we evaluated for PC gaming, cove
 export const mainKeyword = "best portable ssd for pc gaming";
 export const introParagraphs = [
   "Most of a PC game's load-time benefit comes from read speed and random access, not the write-speed numbers heavily marketed elsewhere, worth weighing a drive's real-world read performance more heavily than a headline write speed figure when shopping specifically for gaming.",
-  "Modern game library sizes with 100GB or larger titles now common mean capacity planning matters as much as speed, and checking whether your specific game platform's library migration tool can move installed games without a full reinstall is worth doing before you buy.",
+  "Modern game library sizes with 100GB or larger titles now common mean capacity planning matters as much as speed, and checking whether your specific game platform's library migration tool can move installed games without a full reinstall is worth doing before you buy."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Pick for PC Gaming Libraries",
     name: "Samsung T7 Portable SSD 1TB Titan Gray, USB 3.2 Gen 2, Up to 1,050MB/s",
     price: "$216.36",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "21,124 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LdvAbumfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874XN4D8?tag=deskfinds0d-20",
     description: "Samsung's T7 pairs reliable 1050MB/s speed with a slim, desk-friendly design, a solid all-around choice for PC gamers who want to offload part of a Steam or Epic library.\n\nIt earns the top spot in this comparison over Samsung T7 Shield Portable SSD 1TB for one main reason. Solid read speed for real-world load-time improvement. On price, it comes in below Samsung T7 Shield Portable SSD 1TB, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Slim design fits well in a PC gaming desk setup. On the other side, 1TB fills quickly with modern 100GB-plus game titles. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Rugged Pick for a Gaming Setup That Travels",
     name: "Samsung T7 Shield Portable SSD 1TB, USB 3.2 Gen 2, Up to 1,050 MB/s",
     price: "$286.88",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "16,380 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21mARCvUWxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VLK9W3S?tag=deskfinds0d-20",
     description: "Samsung's T7 Shield adds rugged protection to the same reliable 1050MB/s speed, useful for PC gamers who bring a laptop and external drive to LAN events or a friend's setup.\n\nOne spot below Samsung T7 Portable SSD 1TB Titan Gray in this ranking, it costs more than Samsung T7 Portable SSD 1TB Titan Gray. The compromise here is straightforward: Bulkier than the non-shielded T7. What you gain in return: Rugged shell suits PC gamers who travel with their setup. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Solid read speed for real-world load-time improvement. On the other side, 1TB fills quickly with modern large game titles. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick for Expanding a PC Game Library",
     name: "SANDISK 1TB Portable SSD - Up to 800MB/s, USB-C, USB 3.2 Gen 2, Updated Firmware - SDSSDE30-1T00-G26",
     price: "$164.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "10,968 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41-T4nAAufL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5JQ68FY?tag=deskfinds0d-20",
     description: "SanDisk's standard Portable SSD offers a budget-friendly way to expand a PC game library, rated up to 800MB/s, sufficient for most game read-speed needs even without top-tier numbers.\n\nSitting just under Samsung T7 Shield Portable SSD 1TB, it's priced lower than Samsung T7 Shield Portable SSD 1TB. Here's the honest tradeoff: 800MB/s ceiling trails the fastest picks here. And here's what it gets you instead: Budget-friendly way to expand a PC game library. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Sufficient read speed for real-world load-time needs. On the other side, No official IP rating. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Large-Capacity Pick for Big PC Game Libraries",
     name: "Seagate 2TB Game Drive for Xbox, USB 3.0 (STKX2000400)",
     price: "$119.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "20,657 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31+UCQHBazL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08Y1Q2KSZ?tag=deskfinds0d-20",
     description: "Seagate's 2TB Game Drive offers real headroom for a large PC game library made up of modern 100GB-plus titles, at a reasonable price for the added capacity.\n\nRanked just behind SANDISK 1TB Portable SSD, it's priced lower than SANDISK 1TB Portable SSD. The real tradeoff against that pick: USB 3.0 caps read speed below newer USB 3.2 Gen 2 drives. In exchange, it offers this instead: Real headroom for large modern PC game libraries. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Large, consistent review base. On the other side, Best for capacity-first buyers over speed-first. That's the main tradeoff to weigh against everything above.",

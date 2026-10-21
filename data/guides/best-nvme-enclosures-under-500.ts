@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     description: "SABRENT USB-C NVMe Enclosure & Reader, M.2 PCIe SSD, 10Gbps (EC-PNVO) and is built around flip-open tool-free design, positioning it for under 500 buyers specifically.\n\nCooler 10Gbps Performance is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 500, though as with any purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Flip-Open Tool-Free Design","Cooler 10Gbps Performance","NVMe Only for Maximum Speed"],
     pros: ["Flip-Open Tool-Free Design, confirmed directly in the listing's own spec details","Cooler 10Gbps Performance, confirmed directly in the listing's own spec details","NVMe Only for Maximum Speed, confirmed directly in the listing's own spec details"],
-    cons: ["At $19.99, worth comparing against similarly specced desk accessories before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $20, worth comparing against similarly specced desk accessories before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 500",
   },
   {
@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "UGREEN SSD Enclosure Tool-Free USB C External 10Gbps M.2 NVMe to USB and is built around 10gbps nvme enclosure: with the latest usb, positioning it for under 500 buyers specifically.\n\nTool-free SSD Enclosure is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 500, though as with any purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["10Gbps NVMe Enclosure: With the latest USB","Tool-free SSD Enclosure","Broad Compatibility"],
     pros: ["10Gbps NVMe Enclosure: With the latest USB, confirmed directly in the listing's own spec details","Tool-free SSD Enclosure, confirmed directly in the listing's own spec details","Broad Compatibility, confirmed directly in the listing's own spec details"],
-    cons: ["At $17.99, worth comparing against similarly specced desk accessories before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $20, worth comparing against similarly specced desk accessories before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 500",
   },
   {
@@ -126,7 +126,7 @@ export const products: GuideProduct[] = [
     description: "FIDECO M.2 NVMe SSD Enclosure, M.2 NVMe to USB Adapter, USB 3.2 Gen 2 (10Gbps) SSD Reader and is built around supported ssd, positioning it for under 500 buyers specifically.\n\nSuper Fast Transfer Speed is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 500, though as with any purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Supported SSD","Super Fast Transfer Speed","Sandwich Design"],
     pros: ["Supported SSD, confirmed directly in the listing's own spec details","Super Fast Transfer Speed, confirmed directly in the listing's own spec details","Sandwich Design, confirmed directly in the listing's own spec details"],
-    cons: ["At $15.99, worth comparing against similarly specced desk accessories before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $20, worth comparing against similarly specced desk accessories before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 500",
   }
 

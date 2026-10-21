@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $109.82",
+          "Under $110",
           "IGERI Small Black Reception Desk"
         ],
         [
-          "Around $129.99",
+          "Under $130",
           "GOFLAME Reception Desk with Oval Tabletop and Adjustable Shelf"
         ],
         [
-          "Around $215.95",
+          "Under $250",
           "Small Reception Desk with Drawer"
         ],
         [
-          "Around $799.00",
+          "Under $800",
           "Mares 87\" Wood Office Reception Desk with Counter and Drawers"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Small Reception Desk with Drawer is aimed at buyers prioritizing 32\"w x 20\"d x 42.5\"h." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Small Reception Desk with Drawer is aimed at buyers prioritizing 32\"w x 20\"d x 42.5\"h." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-compact-reception-desks","title":"6 Best Compact Reception Desks in 2026"},{"href":"/guide/best-reception-desks-for-hotel","title":"best-reception-desks-for-hotel"},{"href":"/guide/best-reception-desks-for-lobby","title":"best-reception-desks-for-lobby"}];

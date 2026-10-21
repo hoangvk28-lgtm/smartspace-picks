@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desk phone arms";
 export const introParagraphs = [
   "A desk phone arm clamps to your desk edge and holds your phone at eye level or overhead, freeing your hands for video calls, recipe following, or overhead recording. The category spans simple gooseneck clamps under $15 to full articulating magic arms built for content creators.",
-  "We researched clamp weight capacity against a phone plus protective case (not a bare phone), desk edge thickness compatibility, and stability under touch interaction, since tapping a mounted phone's screen creates lateral force a passively displayed device never experiences.",
+  "We researched clamp weight capacity against a phone plus protective case (not a bare phone), desk edge thickness compatibility, and stability under touch interaction, since tapping a mounted phone's screen creates lateral force a passively displayed device never experiences."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Clamp weight capacity with a case", description: "We checked whether each arm's rated capacity and clip design account for a phone plus a protective case, not just a bare phone." },
   { title: "Touch-interaction stability", description: "We evaluated arm construction (stiff-core, spring-tensioned, or friction-locked) for how well it resists shifting when you tap or swipe the mounted screen." },
   { title: "Desk edge compatibility", description: "We noted each clamp's opening range against common desk, bed frame, and nightstand edge thicknesses." },
-  { title: "Reach and positioning range", description: "We compared arm length and rotation range for genuine flexibility across different desk layouts and overhead recording setups." },
+  { title: "Reach and positioning range", description: "We compared arm length and rotation range for genuine flexibility across different desk layouts and overhead recording setups." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -229,11 +229,11 @@ export const faq: FaqItem[] = [
   { q: "Can these arms hold a phone with a thick case?", a: "The LISEN and MAGIPEA picks have wider clip tolerances built for case-equipped phones. The SAIJI pick's clip is narrower (4.0-6.3in) so check your case-inclusive width before buying." },
   { q: "What's the difference between a gooseneck arm and a magic arm?", a: "A gooseneck bends via a flexible or stiff internal wire and holds shape through material rigidity. A magic arm uses discrete ball-joint segments locked by a friction knob, which holds position more reliably under repeated use." },
   { q: "Do I need a magic arm if I just want to watch videos in bed?", a: "No. A basic gooseneck like the SAIJI or MAGIPEA pick is sufficient for passive viewing. Magic arms are worth the extra cost mainly for content creators who need rock-solid positioning for filming or video calls." },
-  { q: "Can I mount a webcam or ring light instead of a phone on these arms?", a: "The SMALLRIG and NEEWER magic arms both use standard 1/4-20 threads and can swap between a phone clip, webcam, or small light. The gooseneck picks are phone-clip only." },
+  { q: "Can I mount a webcam or ring light instead of a phone on these arms?", a: "The SMALLRIG and NEEWER magic arms both use standard 1/4-20 threads and can swap between a phone clip, webcam, or small light. The gooseneck picks are phone-clip only." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-mounted-phone-arms", title: "Best Desk-Mounted Phone Arms (2026)" },
   { href: "/guide/best-flexible-gooseneck-phone-arms", title: "Best Flexible Gooseneck Phone Arms (2026)" },
-  { href: "/guide/best-overhead-phone-arms-for-desks", title: "Best Overhead Phone Arms for Desks (2026)" },
+  { href: "/guide/best-overhead-phone-arms-for-desks", title: "Best Overhead Phone Arms for Desks (2026)" }
 ];

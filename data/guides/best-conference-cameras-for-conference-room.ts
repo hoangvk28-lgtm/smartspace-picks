@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/416nmRhQooS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07DWBHBL3?tag=deskfinds0d-20",
-    description: "Logitech Rally Camera punches above its price tier. See everyone, perfectly framed.\n\nWhat stands out here is see everyone, perfectly framed, plus solid documented spec sheet for the price. The main tradeoff: confirm it's certified for your specific video platform, so weigh that against the $1,135.95 price before buying.\n\nWhat stands out here is see everyone, perfectly framed, plus solid documented spec sheet for the price. The main tradeoff: confirm it's certified for your specific video platform, so weigh that against the $1,135.95 price before buying.",
+    description: "Logitech Rally Camera punches above its price tier. See everyone, perfectly framed.\n\nWhat stands out here is see everyone, perfectly framed, plus solid documented spec sheet for the price. The main tradeoff: confirm it's certified for your specific video platform, so weigh that against the under $1,200 price before buying.\n\nWhat stands out here is see everyone, perfectly framed, plus solid documented spec sheet for the price. The main tradeoff: confirm it's certified for your specific video platform, so weigh that against the under $1,200 price before buying.",
     specs: ["See everyone, perfectly framed"],
     pros: ["See everyone, perfectly framed", "Solid documented spec sheet for the price"],
     cons: ["Confirm it's certified for your specific video platform", "Audio range is a manufacturer claim, not independently verified"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/418nExcUNtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07JGHZKYW?tag=deskfinds0d-20",
-    description: "Logitech Rally Plus Video Video Conference Equipment is a solid, well-documented pick in this comparison.\n\nThe strongest case for this pick comes down to well-reviewed option in this category as well as solid documented spec sheet for the price. The compromise here is that tracking accuracy varies, worth checking against your room layout, so factor that in alongside the $2,280.90 asking price.",
+    description: "Logitech Rally Plus Video Video Conference Equipment is a solid, well-documented pick in this comparison.\n\nThe strongest case for this pick comes down to well-reviewed option in this category as well as solid documented spec sheet for the price. The compromise here is that tracking accuracy varies, worth checking against your room layout, so factor that in alongside the under $2,300 asking price.",
     specs: ["See full specifications on the product listing"],
     pros: ["Well-reviewed option in this category", "Solid documented spec sheet for the price"],
     cons: ["Tracking accuracy varies, worth checking against your room layout", "Some smart features need an account or firmware updates"],
@@ -291,7 +291,7 @@ export const faq = [
     "a": "Most USB conference cameras work as a standard UVC webcam with any platform, but native integrations, framing presets, and remote management features are often certified for specific platforms only, so check compatibility for your specific software."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers who specifically want meeting owl 3 is an all-in-one video conferencing device that captures" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers who specifically want meeting owl 3 is an all-in-one video conferencing device that captures" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-owl-labs-conference-cameras","title":"Best Owl Labs Conference Cameras"},{"href":"/guide/best-360-conference-cameras","title":"Best 360 Conference Cameras"},{"href":"/guide/best-conference-cameras","title":"Best Conference Cameras"}];

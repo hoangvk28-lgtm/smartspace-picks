@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41FYkujDSUL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H8GLLL19?tag=deskfinds0d-20",
-    "description": "COZYDOU is a memory foam footrest with a twin-contour top that gives each foot its own cradle, instead of one flat surface. The foam is high-density, and the listing says you can use it upright as a cushioned rest or tilted for rocking, with a breathable zip-off cover that machine washes and a non-slip bottom.\n\nAt $49.99 it is the most expensive pick here, about $16 above ComfyInLove. That money buys the twin cradles and the rocking option, but it has no stackable layers, so you cannot change its height like ComfyInLove or LURZ.\n\nBest for long desk hours when you want foam that holds each foot separately. The caveat is the price, and the highlights give no dimensions or height, so check the product page against your gap.",
+    "description": "COZYDOU is a memory foam footrest with a twin-contour top that gives each foot its own cradle, instead of one flat surface. The foam is high-density, and the listing says you can use it upright as a cushioned rest or tilted for rocking, with a breathable zip-off cover that machine washes and a non-slip bottom.\n\nAt under $50 it is the most expensive pick here, about $16 above ComfyInLove. That money buys the twin cradles and the rocking option, but it has no stackable layers, so you cannot change its height like ComfyInLove or LURZ.\n\nBest for long desk hours when you want foam that holds each foot separately. The caveat is the price, and the highlights give no dimensions or height, so check the product page against your gap.",
     "specs": [
       "Twin-contour memory foam",
       "Washable zip-off cover",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41QyQ94oMSL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FM7PT5DS?tag=deskfinds0d-20",
-    "description": "ComfyInLove is a memory foam footrest that stacks into three heights, with a gently curved top that follows the natural curve of the feet. The listing mentions resilient high-density foam that stays soft yet supportive and a non-slip bottom that grips wood and carpet.\n\nIt costs $33.99, about $16 less than COZYDOU, and gives you more height choices than Comfelicify or LURZ, which offer two. The trade-off is that you manage layers that can shift, and the highlights do not describe cover care.\n\nBest for people who are not sure what height they need or who share the footrest. The caveat is that stackable layers can move if you push hard, so a firmer single-piece model may feel steadier.",
+    "description": "ComfyInLove is a memory foam footrest that stacks into three heights, with a gently curved top that follows the natural curve of the feet. The listing mentions resilient high-density foam that stays soft yet supportive and a non-slip bottom that grips wood and carpet.\n\nIt costs under $35, about $16 less than COZYDOU, and gives you more height choices than Comfelicify or LURZ, which offer two. The trade-off is that you manage layers that can shift, and the highlights do not describe cover care.\n\nBest for people who are not sure what height they need or who share the footrest. The caveat is that stackable layers can move if you push hard, so a firmer single-piece model may feel steadier.",
     "specs": [
       "3 adjustable heights",
       "Curved memory foam top",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41zq3qxeDLL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FGHX3TLT?tag=deskfinds0d-20",
-    "description": "Comfelicify is made of 100% memory foam and focuses on heel support, with a curved shape the listing says supports the heels that otherwise droop in the air. It comes in two heights, with a 4.0 inch thick bottom layer for heel rest.\n\nAt $29.22 it costs about $4.77 less than ComfyInLove and about $9 more than LURZ. Compared with ComfyInLove it has two heights instead of three, and compared with LURZ it is pure memory foam but has no mesh cover.\n\nBest for people whose heels float in the air while sitting and who want a simple foam stool. The caveat is that only two heights are available and the shape is basic.",
+    "description": "Comfelicify is made of 100% memory foam and focuses on heel support, with a curved shape the listing says supports the heels that otherwise droop in the air. It comes in two heights, with a 4.0 inch thick bottom layer for heel rest.\n\nAt under $30 it costs about $5 less than ComfyInLove and about $9 more than LURZ. Compared with ComfyInLove it has two heights instead of three, and compared with LURZ it is pure memory foam but has no mesh cover.\n\nBest for people whose heels float in the air while sitting and who want a simple foam stool. The caveat is that only two heights are available and the shape is basic.",
     "specs": [
       "100% memory foam",
       "Two heights, 4.0 inch base",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41VICjX3KAL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FDGF4MT2?tag=deskfinds0d-20",
-    "description": "LURZ uses 40 density memory foam that the listing says molds to your feet, with two height options and a breathable mesh cover meant to keep feet cool. It is light and easy to move between a desk and a gaming setup.\n\nAt $19.99 it is about $9 cheaper than Comfelicify and has a mesh cover that CloudBliss and Comfelicify do not. Versus CloudBliss it adds adjustable height, for $6 more.\n\nBest for warm offices or people who want foam with a breathable cover at a low price. The caveat is that cover washing and dimensions are not described in the highlights.",
+    "description": "LURZ uses 40 density memory foam that the listing says molds to your feet, with two height options and a breathable mesh cover meant to keep feet cool. It is light and easy to move between a desk and a gaming setup.\n\nAt under $20 it is about $9 cheaper than Comfelicify and has a mesh cover that CloudBliss and Comfelicify do not. Versus CloudBliss it adds adjustable height, for $6 more.\n\nBest for warm offices or people who want foam with a breathable cover at a low price. The caveat is that cover washing and dimensions are not described in the highlights.",
     "specs": [
       "40 density memory foam",
       "Two height options",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51rLYkNvToL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0C4F4KLZH?tag=deskfinds0d-20",
-    "description": "CloudBliss is a drop-shaped foam footrest measuring 16.14 x 10.24 x 4.72 inches with an anti-slip bottom and a removable zip cover. The listing describes a soft inner core that does not deform and warns not to wash the memory foam itself.\n\nAt $13.99 it is the cheapest pick here, and the simplest, with one fixed height and no layers. Compared with LURZ it gives up adjustable height and a mesh cover for a lower price.\n\nBest for people who want a soft, no-fuss rest at the lowest price. The caveat is the fixed height, which will not suit every gap.",
+    "description": "CloudBliss is a drop-shaped foam footrest measuring 16.14 x 10.24 x 4.72 inches with an anti-slip bottom and a removable zip cover. The listing describes a soft inner core that does not deform and warns not to wash the memory foam itself.\n\nAt under $15 it is the cheapest pick here, and the simplest, with one fixed height and no layers. Compared with LURZ it gives up adjustable height and a mesh cover for a lower price.\n\nBest for people who want a soft, no-fuss rest at the lowest price. The caveat is the fixed height, which will not suit every gap.",
     "specs": [
       "16.14 x 10.24 x 4.72 inches",
       "Drop shape fits arch",

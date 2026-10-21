@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "office desk clock";
 export const introParagraphs = [
   "An office desk clock needs to look professional, avoid distracting noise in a shared workspace, and fit either a personal desk or a formal reception area. We assembled this list specifically around that use case, prioritizing silent movement and understated or executive-appropriate styling over the louder, more novelty-driven picks covered in our flip clock or unique clock guides.",
-  "If you're shopping for a clock as a corporate gift rather than a functional office accessory, our personalized desk clocks guide covers engraved gift-specific picks instead.",
+  "If you're shopping for a clock as a corporate gift rather than a functional office accessory, our personalized desk clocks guide covers engraved gift-specific picks instead."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "8 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Noise level weighted heavily for shared workspace fit", description: "Prioritized silent or non-ticking movements throughout this list, since audible ticking is a more common complaint in shared offices than at a home desk." },
   { title: "Styling checked for professional, non-novelty presentation", description: "Excluded flip clocks and other novelty-leaning designs from this specific guide, keeping picks focused on formal or understated office-appropriate looks." },
   { title: "Separated personal-desk picks from client-facing or shared-space picks", description: "Distinguished between a compact clock suited to an individual desk and a larger, more formal piece suited to a reception area or shared meeting space." },
-  { title: "Power source and placement flexibility checked for office environments", description: "Confirmed which picks are battery powered versus corded, since a fixed office desk generally has outlet access but shared spaces may not." },
+  { title: "Power source and placement flexibility checked for office environments", description: "Confirmed which picks are battery powered versus corded, since a fixed office desk generally has outlet access but shared spaces may not." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -262,11 +262,11 @@ export const faq: FaqItem[] = [
   { q: "What's the best desk clock for an open office?", a: "The DecoMates Non-Ticking 24-Hour Clock is the strongest pick for open offices specifically because of its genuinely silent movement, which avoids distracting coworkers nearby." },
   { q: "Should I get a formal or a simple clock for my office desk?", a: "It depends on the space. A reception desk or client-facing area suits a more formal, higher-material clock, while a personal individual desk works fine with a compact, understated pick." },
   { q: "Are flip clocks appropriate for an office?", a: "They can read as more novelty and casual than formal office settings typically call for, this guide focuses on more understated or executive-appropriate styling instead, see our flip desk clocks guide if a novelty piece appeals to you elsewhere." },
-  { q: "Can I get an office clock engraved with a company name?", a: "Yes, the Executive Gift Shoppe glass clock in this guide supports optional custom engraving, useful for a reception desk or shared space." },
+  { q: "Can I get an office clock engraved with a company name?", a: "Yes, the Executive Gift Shoppe glass clock in this guide supports optional custom engraving, useful for a reception desk or shared space." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-personalized-desk-clocks", title: "Best Personalized Desk Clocks (2026)" },
   { href: "/guide/best-marble-desk-clocks", title: "Best Marble Desk Clocks (2026)" },
-  { href: "/guide/best-desk-clocks", title: "Best Desk Clocks (2026)" },
+  { href: "/guide/best-desk-clocks", title: "Best Desk Clocks (2026)" }
 ];

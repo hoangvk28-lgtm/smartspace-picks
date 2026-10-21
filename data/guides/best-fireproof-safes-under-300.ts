@@ -193,36 +193,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $107.99",
+          "Under $110",
           "3.4 Cu Ft Digital Home Safe with Programmable Keypad"
         ],
         [
-          "Around $127.48",
+          "Under $130",
           "DAYI 2.0 Cu Ft Home Safe with Fireproof/Waterproof Bag"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "2.0 Cu Ft Fireproof Safe Box"
         ],
         [
-          "Around $215.99",
+          "Under $250",
           "60-Minute Fireproof Safe with Mechanical Key Lock"
         ],
         [
-          "Around $224.99",
+          "Under $250",
           "SentrySafe Fireproof & Waterproof Dial Combination Safe"
         ],
         [
-          "Around $259.00",
+          "Under $300",
           "SentrySafe 1.23 Cu Ft Digital Push Button Safe"
         ],
         [
-          "Around $286.99",
+          "Under $300",
           "TIGERKING 3.47 Cu Ft Fireproof Safe for Home & Office"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -270,7 +270,7 @@ export const faq = [
     "a": "Not exactly. Fire insulation, shelving, and door hardware all take up interior volume, so the nominal cubic-foot figure is always somewhat larger than what you can actually pack inside. Check interior dimensions and shelf layout, not just the headline capacity number."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "SentrySafe Fireproof & Waterproof Dial Combination Safe is aimed at buyers prioritizing 1.23 cu ft, 86 lbs, ul 1hr at 1700-degreef." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "SentrySafe Fireproof & Waterproof Dial Combination Safe is aimed at buyers prioritizing 1.23 cu ft, 86 lbs, ul 1hr at 1700-degreef." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-fireproof-safes-under-100","title":"Best Fireproof Safes Under $100 in 2026"},{"href":"/guide/best-fireproof-safes-under-200","title":"Best Fireproof Safes Under $200 in 2026"},{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"}];

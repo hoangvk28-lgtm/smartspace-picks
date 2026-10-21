@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "receipt printer for small business";
 export const introParagraphs = [
   "A dedicated receipt printer earns its counter space the moment a general home inkjet or laser fails at fast, reliable point-of-sale output. Thermal receipt and label printers skip ink entirely, print near-instantly, and connect directly to POS software like Square, Shopify POS, or Clover instead of fighting a general-purpose print driver during a checkout line.",
-  "Below are 5 thermal printers we evaluated for small businesses, covering full-size 80mm POS receipt printers, a compact 58mm mini printer, and Bluetooth shipping label printers for e-commerce sellers shipping through Amazon, Etsy, or USPS.",
+  "Below are 5 thermal printers we evaluated for small businesses, covering full-size 80mm POS receipt printers, a compact 58mm mini printer, and Bluetooth shipping label printers for e-commerce sellers shipping through Amazon, Etsy, or USPS."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "8 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Automatic paper cutter",
       "USB connection",
       "No ink or toner required",
-      "Built for daily POS counter use",
+      "Built for daily POS counter use"
     ],
     pros: [
       "Standard 80mm width matches most POS software defaults",
       "Auto cutter speeds up checkout",
       "No ongoing ink cost, thermal paper only",
-      "Reliable for daily retail or restaurant volume",
+      "Reliable for daily retail or restaurant volume"
     ],
     cons: [
       "Larger footprint than a mini 58mm printer",
       "USB only, no built-in Bluetooth",
-      "Thermal receipts fade over time like all thermal paper",
+      "Thermal receipts fade over time like all thermal paper"
     ],
     bestFor: "Retail counters and restaurants printing standard 80mm receipts daily",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Automatic paper cutter",
       "Cash drawer trigger support",
       "USB, serial, and Ethernet interfaces",
-      "Compatible with Windows, Mac, and Linux",
+      "Compatible with Windows, Mac, and Linux"
     ],
     pros: [
       "Cash drawer support built in",
       "Multiple connection options for networked setups",
       "Standard 80mm width for restaurant and retail receipts",
-      "Cross-platform driver compatibility",
+      "Cross-platform driver compatibility"
     ],
     cons: [
       "More setup steps than a plug-and-play USB-only printer",
       "No Bluetooth or mobile printing",
-      "Thermal receipts fade over time and are not ideal for long-term records",
+      "Thermal receipts fade over time and are not ideal for long-term records"
     ],
     bestFor: "Shops running a kick-open cash drawer or networking multiple registers",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Bluetooth wireless connection",
       "Compatible with Android, iPhone, Windows, and Mac",
       "Works with Amazon, Shopify, Etsy, and USPS label formats",
-      "Thermal, no ink required",
+      "Thermal, no ink required"
     ],
     pros: [
       "Purpose-built for 4x6 shipping label formats",
       "Bluetooth makes it easy to print from a phone while packing orders",
       "No ink cost, thermal label rolls only",
-      "Wide platform compatibility",
+      "Wide platform compatibility"
     ],
     cons: [
       "Not a substitute for a checkout-counter receipt printer",
       "Limited to label sizes it supports",
-      "Best suited to sellers already using label-based shipping platforms",
+      "Best suited to sellers already using label-based shipping platforms"
     ],
     bestFor: "E-commerce sellers shipping through Amazon, Etsy, or USPS who need 4x6 labels",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Bluetooth wireless connection",
       "No ink or toner required",
       "Compact desktop footprint",
-      "Built for small-business shipping workflows",
+      "Built for small-business shipping workflows"
     ],
     pros: [
       "Lowest price among the label printers in this list",
       "Bluetooth printing from a phone or tablet",
       "No per-label ink cost",
-      "Compact enough for a packing table",
+      "Compact enough for a packing table"
     ],
     cons: [
       "Not a receipt printer for a checkout counter",
       "Fewer connection options than the RP326",
-      "Best for lower daily shipping volume",
+      "Best for lower daily shipping volume"
     ],
     bestFor: "Low-to-moderate volume sellers wanting an affordable dedicated label printer",
   },
@@ -185,21 +185,21 @@ export const products: GuideProduct[] = [
       "Portable, compact design",
       "USB connection",
       "No ink required",
-      "Lightweight for mobile or pop-up use",
+      "Lightweight for mobile or pop-up use"
     ],
     pros: [
       "Lowest price in this list",
       "Compact footprint fits tight counters or mobile stands",
       "Portable enough for markets and pop-up shops",
-      "No ink cost, thermal paper only",
+      "No ink cost, thermal paper only"
     ],
     cons: [
       "58mm width needs POS software template configuration",
       "Not built for high daily volume",
-      "No auto cutter included",
+      "No auto cutter included"
     ],
     bestFor: "Market stalls, pop-up shops, and low-volume mobile vendors",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -227,7 +227,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "True cost of ownership",
     description: "Factored in thermal paper roll cost over time against the upfront printer price, since thermal printing has no ink cost but ongoing paper cost.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -377,11 +377,11 @@ export const faq: FaqItem[] = [
   {
     q: "Do I need a cash drawer trigger on my receipt printer?",
     a: "Only if you run a physical kick-open cash drawer at checkout. The Rongta RP326 supports this directly, while the other picks in this list are built for printing only without drawer integration.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-small-businesses", title: "8 Best Printers for Small Businesses (2026)" },
   { href: "/guide/best-printers-under-100", title: "Best Printers Under $100 (2026)" },
-  { href: "/guide/best-easy-to-use-printers", title: "8 Best Easy-to-Use Printers (2026)" },
+  { href: "/guide/best-easy-to-use-printers", title: "8 Best Easy-to-Use Printers (2026)" }
 ];

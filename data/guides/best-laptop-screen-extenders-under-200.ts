@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["A genuine triple-screen workstation", "ZUMWALT P7 Triple Portable Monitor 15.6\""],
         ["A larger single detachable screen", "Laptop Screen Extender 15.6\" Detachable (Slim 0.27\")"],
-        ["The lightest, most flexible clip-on option", "Laptop Screen Extender 14.2\" Ultra-Portable"],
+        ["The lightest, most flexible clip-on option", "Laptop Screen Extender 14.2\" Ultra-Portable"]
       ],
     },
   },
@@ -116,9 +116,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $95", "Laptop Screen Extender 14.2\" Ultra-Portable ($89.99)"],
-        ["$110-$130", "Laptop Screen Extender 15.6\" Detachable ($110.48) or Cevaton 15.6\" Detachable ($125.98)"],
-        ["Under $200", "ZUMWALT P7 Triple Portable Monitor 15.6\" ($189.99)"],
+        ["Under $95", "Laptop Screen Extender 14.2\" Ultra-Portable (under $90)"],
+        ["$110-$130", "Laptop Screen Extender 15.6\" Detachable (under $120) or Cevaton 15.6\" Detachable (under $130)"],
+        ["Under $200", "ZUMWALT P7 Triple Portable Monitor 15.6\" (under $190)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Triple-Screen vs Single Extra Panel",
     cards: [
       { label: "Triple-Screen (ZUMWALT P7)", text: "Adds two full external displays flanking your laptop, roughly doubling your total screen count, but requires two full-featured USB-C ports and adds real weight to your setup." },
-      { label: "Single Extra Panel (Detachable or Cevaton picks)", text: "Adds one screen with a simpler single-cable setup and less weight, sufficient if you don't specifically need a third display." },
+      { label: "Single Extra Panel (Detachable or Cevaton picks)", text: "Adds one screen with a simpler single-cable setup and less weight, sufficient if you don't specifically need a third display." }
     ],
     note: "Most buyers upgrading from a single monitor should default to a single extra panel unless they specifically know they need three screens at once.",
   },
@@ -137,7 +137,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Two full-featured USB-C ports", "ZUMWALT P7 Triple Portable Monitor 15.6\" works with just 2 cables"],
         ["One full-featured USB-C port or HDMI only", "Any single-panel pick in this guide, with an added USB-A power cable if using HDMI"],
-        ["MacBook M1/M2/M3 without full-featured USB-C", "Budget for an extra H5-T cable if choosing the ZUMWALT triple-screen pick"],
+        ["MacBook M1/M2/M3 without full-featured USB-C", "Budget for an extra H5-T cable if choosing the ZUMWALT triple-screen pick"]
       ],
     },
   },
@@ -145,16 +145,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Frequent Travelers Specifically",
     cards: [
       { label: "Look for", text: "The lowest total weight and simplest single-cable setup, since a triple-screen rig adds real bulk and complexity to a travel bag." },
-      { label: "In this comparison", text: "The Laptop Screen Extender 14.2\" Ultra-Portable at 1.87 lbs is the clear choice for travel, far lighter than the 4 lb triple-screen ZUMWALT pick." },
+      { label: "In this comparison", text: "The Laptop Screen Extender 14.2\" Ultra-Portable at 1.87 lbs is the clear choice for travel, far lighter than the 4 lb triple-screen ZUMWALT pick." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You specifically need a triple-screen workstation for coding, trading, or spreadsheet-heavy work, where the ZUMWALT P7 Triple Portable Monitor 15.6\" delivers real added screen space." },
-      { label: "Save if", text: "One extra detachable screen covers your needs, where the Laptop Screen Extender 15.6\" Detachable at $110.48 delivers a larger panel for nearly $80 less." },
+      { label: "Save if", text: "One extra detachable screen covers your needs, where the Laptop Screen Extender 15.6\" Detachable at under $120 delivers a larger panel for nearly $80 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

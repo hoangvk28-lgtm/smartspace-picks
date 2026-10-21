@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "budget laser printer";
 export const introParagraphs = [
   "A laser printer earns its higher sticker price back over time through a much lower cost per page than inkjet, but budget laser models come with real trade-offs, plastic gears instead of metal, lighter-duty pickup rollers, and starter toner cartridges that print far fewer pages than the replacement cartridge you'll eventually buy. None of that makes budget laser a bad category, it just means shopping with clear expectations.",
-  "Below are 5 laser printers we researched for buyers who want crisp black text, low per-page toner cost, and a printer that can handle routine home office or study volume without the ink-drying-out problems inkjets face during light, infrequent use.",
+  "Below are 5 laser printers we researched for buyers who want crisp black text, low per-page toner cost, and a printer that can handle routine home office or study volume without the ink-drying-out problems inkjets face during light, infrequent use."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "9 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "19 PPM rated speed",
       "Compact wireless design",
       "1-year limited warranty",
-      "No scan, copy, or duplex",
+      "No scan, copy, or duplex"
     ],
     pros: [
       "Lowest price of any laser printer in this list",
       "Fast, crisp monochrome text output",
       "Small footprint for a shared desk",
-      "Low ongoing per-page toner cost versus inkjet",
+      "Low ongoing per-page toner cost versus inkjet"
     ],
     cons: [
       "Print only, no scan or copy",
       "No automatic duplex printing",
-      "Starter toner cartridge prints fewer pages than a full replacement",
+      "Starter toner cartridge prints fewer pages than a full replacement"
     ],
     bestFor: "Buyers who want the cheapest real laser printer and only need print, not scan or copy",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Wireless and mobile printing",
       "Works with Alexa voice commands",
       "Includes Refresh Subscription trial",
-      "Compact desktop footprint",
+      "Compact desktop footprint"
     ],
     pros: [
       "Reliable wireless setup and mobile printing",
       "Alexa voice print command support",
       "Compact size fits tight desk space",
-      "Refresh Subscription trial lets you test auto-reorder toner",
+      "Refresh Subscription trial lets you test auto-reorder toner"
     ],
     cons: [
       "No scan or copy functions",
       "No automatic duplex printing",
-      "Subscription toner reverts to standard pricing after the trial",
+      "Subscription toner reverts to standard pricing after the trial"
     ],
     bestFor: "Buyers who want wireless and Alexa convenience in a simple monochrome laser printer",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Wired USB connection only",
       "USB cable included",
       "Best-for-home-office rating from HP",
-      "Compact single-function design",
+      "Compact single-function design"
     ],
     pros: [
       "Automatic duplex printing at a budget price",
       "USB cable included, ready to connect",
       "Crisp monochrome text output",
-      "Simple, low-maintenance single-function design",
+      "Simple, low-maintenance single-function design"
     ],
     cons: [
       "No wireless connectivity",
       "No scan or copy functions",
-      "Requires a dedicated USB connection to one computer or a shared hub",
+      "Requires a dedicated USB connection to one computer or a shared hub"
     ],
     bestFor: "Buyers who print double-sided documents regularly and don't need wireless",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Wireless and mobile printing",
       "Works with Alexa voice commands",
       "Includes Refresh Subscription trial",
-      "Compact multi-function design",
+      "Compact multi-function design"
     ],
     pros: [
       "Full copy, scan, and automatic duplex in one unit",
       "Wireless setup with Alexa support",
       "Compact for a multi-function laser",
-      "Crisp monochrome text output",
+      "Crisp monochrome text output"
     ],
     cons: [
       "Most expensive monochrome pick in this list",
       "More mechanical complexity than print-only models",
-      "Subscription toner reverts to standard pricing after the trial",
+      "Subscription toner reverts to standard pricing after the trial"
     ],
     bestFor: "Buyers who want copy and scan alongside laser printing without going to color",
   },
@@ -185,21 +185,21 @@ export const products: GuideProduct[] = [
       "19 PPM rated output",
       "250-sheet paper tray",
       "Wireless and mobile printing",
-      "Mobile device compatible",
+      "Mobile device compatible"
     ],
     pros: [
       "Only color laser pick in this list",
       "Large 250-sheet paper tray",
       "Automatic duplex printing",
-      "Laser speed and durability for color documents",
+      "Laser speed and durability for color documents"
     ],
     cons: [
       "Most expensive pick in this list",
       "Four-cartridge color toner system costs more to fully replace",
-      "No scan or copy functions",
+      "No scan or copy functions"
     ],
     bestFor: "Buyers who specifically need color documents at laser speed and durability",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -227,7 +227,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Monochrome versus color value",
     description: "Assessed whether each pick's monochrome or color toner system matches typical budget-buyer printing needs, since color laser toner replacement costs meaningfully more.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -381,12 +381,12 @@ export const faq: FaqItem[] = [
   {
     q: "Can I add scan and copy later if I buy a print-only laser printer?",
     a: "No, print-only laser printers like the Canon LBP6030w and Brother HL-L2405W don't support adding scan or copy hardware after purchase. If there's a reasonable chance you'll need scan or copy down the line, it's worth choosing an all-in-one model like the Brother DCP-L2640DW upfront.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-budget-printers-for-home-offices", title: "Best Budget Printers for Home Offices (2026)" },
   { href: "/guide/best-printers-for-small-businesses", title: "Best Printers for Small Businesses (2026)" },
   { href: "/guide/best-printers-for-home-offices", title: "Best Printers for Home Offices (2026)" },
-  { href: "/guide/best-easy-to-use-printers", title: "Best Easy-to-Use Printers (2026)" },
+  { href: "/guide/best-easy-to-use-printers", title: "Best Easy-to-Use Printers (2026)" }
 ];

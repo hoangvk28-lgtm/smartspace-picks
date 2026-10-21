@@ -193,36 +193,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $329.97",
+          "Under $350",
           "CUBUS 1000 PLUS Portable Power Station"
         ],
         [
-          "Around $448.99",
+          "Under $450",
           "BLUETTI Elite 100 V2 Portable Power Station"
         ],
         [
-          "Around $499.00",
+          "Under $500",
           "Jackery Explorer 1000 v2 Portable Power Station"
         ],
         [
-          "Around $529.99",
+          "Under $550",
           "Anker SOLIX C1000 Gen 2 Portable Power Station"
         ],
         [
-          "Around $649.99",
+          "Under $650",
           "Anker SOLIX S2000 Portable Power Station"
         ],
         [
-          "Around $699.98",
+          "Under $700",
           "AFERIY P280 Portable Power Station"
         ],
         [
-          "Around $799.99",
+          "Under $800",
           "DJI Power 2000 Portable Power Station"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -270,7 +270,7 @@ export const faq = [
     "a": "LiFePO4 (LFP) cells are generally considered more thermally stable than standard lithium-ion or lithium-polymer cells, with a lower risk of thermal runaway, and most current portable power stations have shifted to LFP for this reason. Still, verify UL or UL2743 safety certification directly rather than assuming chemistry alone guarantees safety."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Anker SOLIX C1000 Gen 2 Portable Power Station is aimed at buyers prioritizing 1024wh, 2000w output, 10 ports." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Anker SOLIX C1000 Gen 2 Portable Power Station is aimed at buyers prioritizing 1024wh, 2000w output, 10 ports." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

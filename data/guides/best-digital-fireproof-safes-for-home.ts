@@ -193,36 +193,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $127.48",
+          "Under $130",
           "DAYI 2.0 Cu Ft Home Safe with Fireproof/Waterproof Bag"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "2.0 Cu Ft Fireproof Safe Box"
         ],
         [
-          "Around $255.99",
+          "Under $300",
           "SentrySafe 1.23 Cu Ft Fireproof & Waterproof Safe with Organization Trays"
         ],
         [
-          "Around $259.00",
+          "Under $300",
           "SentrySafe 1.23 Cu Ft Digital Push Button Safe"
         ],
         [
-          "Around $350.25",
+          "Under $400",
           "Master Lock 1.2 Cu Ft Premium 2-Hour Fireproof Safe"
         ],
         [
-          "Around $489.99",
+          "Under $500",
           "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe"
         ],
         [
-          "Around $562.22",
+          "Under $600",
           "Master Lock 2.0 Cu Ft Fireproof & Waterproof Safe"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -270,7 +270,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe is aimed at buyers prioritizing 2.05 cu ft, ul 1hr at 1700-degreef." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe is aimed at buyers prioritizing 2.05 cu ft, ul 1hr at 1700-degreef." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-digital-fireproof-safes","title":"Best Digital Fireproof Safes in 2026"},{"href":"/guide/best-keypad-fireproof-safes","title":"Best Keypad Fireproof Safes in 2026"},{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"}];

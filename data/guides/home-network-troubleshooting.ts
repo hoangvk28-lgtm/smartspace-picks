@@ -12,7 +12,7 @@ export const homeNetworkTroubleshootingGuide: Guide = {
     "wifi keeps dropping during video calls",
     "slow internet home office fix",
     "intermittent wifi connection fix",
-    "router troubleshooting steps",
+    "router troubleshooting steps"
   ],
   heroImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const homeNetworkTroubleshootingGuide: Guide = {
     "router-placement-explained",
     "bandwidth-needs-for-remote-work",
     "mesh-wifi-vs-single-router",
-    "ethernet-vs-wifi-for-desk-setup",
+    "ethernet-vs-wifi-for-desk-setup"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const homeNetworkTroubleshootingGuide: Guide = {
       question: "When should I actually contact my internet service provider?",
       answer:
         "If speed tests consistently show results well below your paid plan's speed even via direct ethernet connection with no other explanation, or you experience frequent complete outages, contacting your provider is appropriate since the issue may be with their infrastructure or your account's service line.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ export const homeNetworkTroubleshootingGuide: Guide = {
     {
       heading: "Why Video Call Drops Deserve Specific, Targeted Troubleshooting",
       body: `Video calls are particularly sensitive to brief connection interruptions that might go unnoticed during regular browsing, since they require continuous, real-time data flow rather than tolerating brief pauses the way loading a webpage does. If drops happen specifically during calls, testing with ethernet instead of WiFi for your next important call, or asking household members to pause large downloads during your meeting times, directly tests whether congestion or WiFi reliability is the specific culprit before assuming a broader internet service problem.`,
-    },
+    }
   ],
 };

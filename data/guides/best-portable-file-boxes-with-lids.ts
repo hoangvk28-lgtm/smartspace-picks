@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable file boxes with lids";
 export const introParagraphs = [
   "Nearly every genuine portable file box includes some form of lid by definition of being an enclosed, portable container, so this guide's real value is comparing lid attachment mechanisms specifically: hinged and permanently attached versus fully separate and removable.",
-  "A hinged lid can't be lost or misplaced, but a removable lid may allow easier full access to the box's interior. We also considered hinge mechanism durability under repeated opening and closing cycles.",
+  "A hinged lid can't be lost or misplaced, but a removable lid may allow easier full access to the box's interior. We also considered hinge mechanism durability under repeated opening and closing cycles."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Hinged vs. removable lid comparison", description: "We compared permanently attached hinged lids against fully separate removable lids, since these represent genuinely different usability profiles." },
   { title: "Hinge mechanism durability", description: "We considered hinge wear under repeated opening and closing cycles specifically for hinged-lid designs." },
   { title: "Full access vs. loss-prevention tradeoff", description: "We weighed a removable lid's complete interior access against a hinged lid's guarantee against ever losing the lid." },
-  { title: "Overlap disclosure with our general portable file box guide", description: "We noted that nearly all portable file boxes include some form of lid, so this guide centers on lid mechanism comparison rather than lid presence alone." },
+  { title: "Overlap disclosure with our general portable file box guide", description: "We noted that nearly all portable file boxes include some form of lid, so this guide centers on lid mechanism comparison rather than lid presence alone." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -224,11 +224,11 @@ export const faq: FaqItem[] = [
   { q: "Is a hinged lid better than a removable one?", a: "It depends on your priority. A hinged lid can never be lost but has a hinge wear point over time. A removable lid offers full interior access but the separate piece can be misplaced." },
   { q: "Will a hinge wear out over time?", a: "It's possible with very frequent opening and closing over years. Favor picks with strong, proven review history as evidence the hinge mechanism holds up long-term." },
   { q: "Can a lid do more than just close the box?", a: "Yes, some lids double as organizer trays for small items, like the Storex pick, or include an integrated lock, like the Vaultz pick." },
-  { q: "How is this different from your general portable file box guide?", a: "This guide centers specifically on lid mechanism comparison (hinged vs. removable), since lids are a near-universal feature across the broader category covered in our general guide." },
+  { q: "How is this different from your general portable file box guide?", a: "This guide centers specifically on lid mechanism comparison (hinged vs. removable), since lids are a near-universal feature across the broader category covered in our general guide." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" },
   { href: "/guide/best-portable-file-boxes-with-lockable-lids", title: "Best Portable File Boxes with Lockable Lids (2026)" },
-  { href: "/guide/best-portable-file-boxes-with-organizer-lids", title: "Best Portable File Boxes with Organizer Lids (2026)" },
+  { href: "/guide/best-portable-file-boxes-with-organizer-lids", title: "Best Portable File Boxes with Organizer Lids (2026)" }
 ];

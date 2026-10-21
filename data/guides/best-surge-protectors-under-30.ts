@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Maximum joule protection in a slim design", "ECHOGEAR ShockBlocker 8 Outlet Surge Protector"],
         ["Noise filtering tuned for home theater equipment", "CyberPower HT812TC Home Theater Surge Protector"],
         ["Protection for a landline, fax, or DSL modem", "Eaton Tripp Lite TLP604TEL with Phone Protection"],
-        ["Rotating outlets for easier plug management", "Eaton Tripp Lite SWIVEL6 Rotating Outlets"],
+        ["Rotating outlets for easier plug management", "Eaton Tripp Lite SWIVEL6 Rotating Outlets"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $24", "SWIVEL6 ($23.38) or TLP604TEL ($23.44)"],
-        ["Under $27", "CyberPower HT812TC ($26.72)"],
-        ["Under $30", "ECHOGEAR ShockBlocker ($29.99)"],
+        ["Under $24", "SWIVEL6 (under $25) or TLP604TEL (under $25)"],
+        ["Under $27", "CyberPower HT812TC (under $30)"],
+        ["Under $30", "ECHOGEAR ShockBlocker (under $30)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Specialized Features vs Maximum Raw Protection",
     cards: [
       { label: "Specialized features (TLP604TEL, SWIVEL6, CyberPower)", text: "Address a specific need, phone line protection, rotating outlets, or AV noise filtering, that a generic strip doesn't cover." },
-      { label: "Maximum raw protection (ECHOGEAR)", text: "Prioritizes the highest joule rating and slim concealability over any single specialized feature." },
+      { label: "Maximum raw protection (ECHOGEAR)", text: "Prioritizes the highest joule rating and slim concealability over any single specialized feature." }
     ],
     note: "If you have a specific setup need, a landline, a media console, or awkward plug angles, a specialized pick solves that directly. If raw protection capacity matters most, the ECHOGEAR's 3420J rating leads this comparison.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Home theater or AV equipment", "CyberPower HT812TC"],
         ["Home office with a landline or fax", "Eaton Tripp Lite TLP604TEL"],
         ["Kitchen counter or tight-space wall tap", "Eaton Tripp Lite SWIVEL6"],
-        ["General desk or gaming setup", "ECHOGEAR ShockBlocker"],
+        ["General desk or gaming setup", "ECHOGEAR ShockBlocker"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Home Office Still Using a Landline or Fax Machine Specifically",
     cards: [
       { label: "Look for", text: "RJ-11 phone line surge suppression built directly into the surge protector, not just AC outlet protection alone." },
-      { label: "In this comparison", text: "The Eaton Tripp Lite TLP604TEL is the only pick here specifically protecting phone and modem lines alongside AC outlets." },
+      { label: "In this comparison", text: "The Eaton Tripp Lite TLP604TEL is the only pick here specifically protecting phone and modem lines alongside AC outlets." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the highest joule rating in a slim, concealable design, where the ECHOGEAR pick delivers 3420J of protection at the top of this tier's price range." },
-      { label: "Save if", text: "You need rotating outlets or phone line protection specifically, where the SWIVEL6 or TLP604TEL each solve a targeted need for about $6 less." },
+      { label: "Save if", text: "You need rotating outlets or phone line protection specifically, where the SWIVEL6 or TLP604TEL each solve a targeted need for about $6 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

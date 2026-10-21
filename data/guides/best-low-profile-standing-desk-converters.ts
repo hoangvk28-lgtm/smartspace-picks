@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "low-profile standing desk converter";
 export const introParagraphs = [
   "A low-profile converter matters because every converter adds height above your existing desk even at its lowest seated setting. We prioritized single-top and slim designs, which generally add less base height than dual-tier converters with a separate keyboard tray mechanism.",
-  "If your desk is already at a comfortable seated typing height, the converter's minimum added height is the single most important spec, more important than maximum standing reach for many buyers.",
+  "If your desk is already at a comfortable seated typing height, the converter's minimum added height is the single most important spec, more important than maximum standing reach for many buyers."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Prioritized products explicitly marketed as slim or low-profile", description: "We favored listings that specifically state \"ultra-slim\" or \"extra-slim\" over generically compact products, since this directly addresses the low-profile need." },
   { title: "Distinguished single-top designs as generally lower profile than dual-tier converters", description: "Single-top structures have fewer components and generally add less base height than dual-tier converters with a separate keyboard mechanism." },
   { title: "Disclosed where minimum height wasn't explicitly confirmed", description: "For picks not specifically marketed as slim, we recommended verifying the exact minimum seated height directly rather than assuming a low profile from general compactness alone." },
-  { title: "Weighed review volume against explicitly low-profile marketing claims", description: "We compared the largest review base pick against the most explicitly slim-marketed options, since these represent different tradeoffs." },
+  { title: "Weighed review volume against explicitly low-profile marketing claims", description: "We compared the largest review base pick against the most explicitly slim-marketed options, since these represent different tradeoffs." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -238,20 +238,20 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
 export const faq: FaqItem[] = [
   { q: "Which converter is most explicitly designed to be low-profile?", a: "The VIVO Ultra-Slim Single Top Standing Desk Riser and the Aconcept Extra-Slim options both explicitly market this feature." },
   { q: "Are single-top converters always lower profile than dual-tier?", a: "Generally yes, since they have fewer components than dual-tier converters with a separate keyboard tray mechanism." },
-  { q: "What's the cheapest low-profile option?", a: "The Aconcept Extra-Slim 24 x 14 inch Standing Desk Converter at $49.99." },
+  { q: "What's the cheapest low-profile option?", a: "The Aconcept Extra-Slim 24 x 14 inch Standing Desk Converter at under $50." },
   { q: "Should I measure my desk before choosing a low-profile converter?", a: "Yes, measure your current comfortable seated keyboard height and compare it against the converter's minimum platform height plus your desk's surface height." },
-  { q: "Is the most-reviewed converter also the lowest profile?", a: "Not necessarily; the VIVO Black 26 in Standing Desk Converter has the largest review base but isn't explicitly marketed as low-profile, so verify its minimum height directly." },
+  { q: "Is the most-reviewed converter also the lowest profile?", a: "Not necessarily; the VIVO Black 26 in Standing Desk Converter has the largest review base but isn't explicitly marketed as low-profile, so verify its minimum height directly." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-slim-standing-desk-converters", title: "Best Slim Standing Desk Converters (2026)" },
   { href: "/guide/best-compact-standing-desk-converters", title: "Best Compact Standing Desk Converters (2026)" },
-  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
+  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" }
 ];

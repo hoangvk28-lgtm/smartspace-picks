@@ -5,7 +5,7 @@ export const metaDescription = "5 energy-efficient air purifiers we evaluated, w
 export const mainKeyword = "air purifier Energy Star";
 export const introParagraphs = [
   "Raw wattage alone doesn't indicate efficiency, CADR-per-watt, air cleaning delivered per unit of energy, is the more meaningful metric, since low-wattage units sometimes also have low CADR, making them not actually more efficient, just weaker.",
-  "Energy Star certification for air purifiers covers energy consumption but says nothing about actual CADR or filtration performance, a certified energy efficient unit could still be a poor performer on the air-cleaning metric that matters most.",
+  "Energy Star certification for air purifiers covers energy consumption but says nothing about actual CADR or filtration performance, a certified energy efficient unit could still be a poor performer on the air-cleaning metric that matters most."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Energy-Efficient Air Purifier Overall",
     name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
-    rating: "4.6 stars from 28,866 Amazon ratings",
-    reviews: "28,866 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419pAe7T0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTKAPUU?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best White Finish Alternative",
     name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH(W), White",
     price: "$229.99",
-    rating: "4.6 stars from 28,866 Amazon ratings",
-    reviews: "28,866 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31pCHKKqN2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01728NLRG?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Low-Wattage Value Pick",
     name: "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom, H13 True HEPA Filter, 24db Filtration System Cleaner Odor Eliminators, Remove 99.97% Dust Smoke Mold Pollen, Core 300, White",
     price: "$89.99",
-    rating: "4.7 stars from 108,251 Amazon ratings",
-    reviews: "108,251 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity Efficient Pick",
     name: "LEVOIT Smart Air Purifier for Home Large Room up to 1875 ft Vital 200S-P",
     price: "$174.99",
-    rating: "4.7 stars from 14,571 Amazon ratings",
-    reviews: "14,571 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Efficiency Pick",
     name: "Membrane Solutions MSA3 Air Purifier for Home",
     price: "$99.39",
-    rating: "4.5 stars from 10,110 Amazon ratings",
-    reviews: "10,110 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31CcBFzC6wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08ND7C7P4?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["More affordable than premium alternatives", "Solid review base", "Compact design", "Reasonable performance for the price"],
     cons: ["No Eco mode or efficiency claims confirmed", "CADR-per-watt not calculated for comparison", "No smart features"],
     bestFor: "Budget-conscious buyers prioritizing upfront price over verified efficiency claims",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "CADR-per-watt as the primary efficiency comparison metric", description: "Prioritized CADR-per-watt as the meaningful efficiency comparison, since raw wattage alone doesn't indicate efficiency, low-wattage units sometimes also have low CADR, making them weaker, not more efficient." },
   { title: "Energy Star certification scope clarified explicitly", description: "Noted that Energy Star certification for air purifiers addresses energy consumption only, not CADR or filtration performance, a scope limitation of the certification itself rarely explained to buyers." },
-  { title: "Standby phantom power draw disclosure for smart-feature-equipped units", description: "Considered that standby power draw when a unit is in 'off' or auto-idle mode but still plugged in with smart features active adds a phantom-load cost rarely included in advertised running-cost estimates." },
+  { title: "Standby phantom power draw disclosure for smart-feature-equipped units", description: "Considered that standby power draw when a unit is in 'off' or auto-idle mode but still plugged in with smart features active adds a phantom-load cost rarely included in advertised running-cost estimates." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Is it cheaper to run a weak air purifier at high speed or a strong one at low speed?", a: "Often the stronger unit run at a lower, adequate speed is cheaper. Running a lower-efficiency unit harder to compensate for inadequate CADR can consume more total energy over time than a genuinely more capable unit run modestly." },
   { q: "Do smart air purifiers use power even when turned off?", a: "Often yes, a small amount. Standby power draw for smart features active in 'off' or auto-idle mode adds a phantom-load cost rarely included in advertised running-cost estimates." },
   { q: "Does Energy Star certification actually matter for air purifiers?", a: "Yes, it's an independently verified efficiency standard, a certified unit uses measurably less electricity per unit of air cleaned than a comparable uncertified model at the same CADR rating." },
-  { q: "Will running an air purifier in auto mode save meaningfully more energy than a fixed low speed?", a: "Often yes, since auto mode only ramps up fan speed when its sensor detects worse air quality, rather than running at a constant speed regardless of actual need." },
+  { q: "Will running an air purifier in auto mode save meaningfully more energy than a fixed low speed?", a: "Often yes, since auto mode only ramps up fan speed when its sensor detects worse air quality, rather than running at a constant speed regardless of actual need." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-smart-air-purifiers", title: "Best Smart Air Purifiers (2026)" },
   { href: "/guide/best-air-purifiers-with-air-quality-sensors", title: "Best Air Purifiers with Air Quality Sensors (2026)" },
-  { href: "/guide/best-air-purifiers-under-100", title: "Best Air Purifiers Under $100 (2026)" },
+  { href: "/guide/best-air-purifiers-under-100", title: "Best Air Purifiers Under $100 (2026)" }
 ];

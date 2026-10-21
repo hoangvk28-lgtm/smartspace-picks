@@ -193,36 +193,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $119.98",
+          "Under $120",
           "CUBUS 350M Portable Power Station"
         ],
         [
-          "Around $125.25",
+          "Under $130",
           "CUBUS 350L Portable Power Station"
         ],
         [
-          "Around $179.98",
+          "Under $180",
           "Portable Power Station 500W"
         ],
         [
-          "Around $179.98",
+          "Under $180",
           "EBL Portable Power Station 500W (Peak 1000W)"
         ],
         [
-          "Around $218.98",
+          "Under $250",
           "BLUETTI Elite 30 V2 Portable Power Station"
         ],
         [
-          "Around $234.99",
+          "Under $250",
           "LIBRIDS Portable Power Station 640Wh"
         ],
         [
-          "Around $258.96",
+          "Under $300",
           "BLUETTI AC50B Portable Power Station"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -270,7 +270,7 @@ export const faq = [
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "BLUETTI AC50B Portable Power Station is aimed at buyers prioritizing 448wh, 700w, 14.8 lbs." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "BLUETTI AC50B Portable Power Station is aimed at buyers prioritizing 448wh, 700w, 14.8 lbs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-1000w-portable-power-stations","title":"Best 1000W Portable Power Stations in 2026"},{"href":"/guide/best-2000w-portable-power-stations","title":"Best 2000W Portable Power Stations in 2026"},{"href":"/guide/best-3000w-portable-power-stations","title":"Best 3000W Portable Power Stations in 2026"}];

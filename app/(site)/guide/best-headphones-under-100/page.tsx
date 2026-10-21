@@ -199,7 +199,7 @@ export default async function BestHeadphonesUnder100Page() {
     about: [
       { "@type": "Thing", name: "Headphones Under $100" },
       { "@type": "Thing", name: "Wireless ANC Headphones" },
-      { "@type": "Thing", name: "Studio Headphones" },
+      { "@type": "Thing", name: "Studio Headphones" }
     ],
   };
 
@@ -219,7 +219,7 @@ export default async function BestHeadphonesUnder100Page() {
         position: 3,
         name: "Best Headphones Under $100",
         item: `${SITE_URL}/guide/best-headphones-under-100`,
-      },
+      }
     ],
   };
 
@@ -522,7 +522,7 @@ export default async function BestHeadphonesUnder100Page() {
                       feature: "ANC battery",
                       under70: "Up to 40h",
                       under100: "Up to 70h (1MORE SonoFlow)",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -606,7 +606,7 @@ export default async function BestHeadphonesUnder100Page() {
                       factor: "Cable failure risk",
                       wireless: "None",
                       wired: "Low (detachable cables on studio picks)",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -752,7 +752,7 @@ export default async function BestHeadphonesUnder100Page() {
                 name: "Sennheiser HD 280 Pro",
                 verdict:
                   ": 32dB passive isolation, 20+ years in continuous production, industry standard for broadcast and podcast.",
-              },
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

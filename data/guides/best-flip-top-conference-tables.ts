@@ -126,7 +126,7 @@ export const products: GuideProduct[] = [
     description: "Correll 24\"x72\" Premium Flip Top Nesting Table measures 24\"x72\" and is built around size, positioning it for flip top buyers specifically.\n\nSecure height adjustment with 2 set screws is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for flip top, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["24\"x72\" table dimensions","SIZE","Secure height adjustment with 2 set screws"],
     pros: ["SIZE, confirmed directly in the listing's own spec details","Secure height adjustment with 2 set screws, confirmed directly in the listing's own spec details","Top: Thermal Fused Laminate (TFL) top resists, confirmed directly in the listing's own spec details"],
-    cons: ["At $624.60, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $650, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for flip top",
   },
   {
@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $289.88",
+          "Under $300",
           "Okeysen Flip-Top Mobile Conference Table"
         ],
         [
-          "Around $604.79",
+          "Under $650",
           "Folding Conference Room Tables with Wheels"
         ],
         [
-          "Around $624.60",
+          "Under $650",
           "Correll 24\"x72\" Premium Flip Top Nesting Table"
         ],
         [
-          "Around $648.00",
+          "Under $650",
           "Folding Conference Table with Wheels"
         ],
         [
-          "Around $1,280.00",
+          "Under $1,300",
           "Folding Conference Table"
         ],
         [
-          "Around $1,551.55",
+          "Under $1,600",
           "Folding Conference Table with Wheels"
         ],
         [
-          "Around $1,812.23",
+          "Under $1,900",
           "Folding Conference Room Tables with Wheels"
         ],
         [
-          "Around $2,050.00",
+          "Under $2,100",
           "JFazzruit Folding Conference Table with Wheels"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "Okeysen Flip-Top Mobile Conference Table is aimed at buyers prioritizing 59.06\"x23.62\"x29.53\" flip-top table." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Okeysen Flip-Top Mobile Conference Table is aimed at buyers prioritizing 59.06\"x23.62\"x29.53\" flip-top table." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-collapsible-conference-tables","title":"Best Collapsible Conference Tables in 2026"},{"href":"/guide/best-folding-conference-tables","title":"Best Folding Conference Tables in 2026"},{"href":"/guide/best-conference-tables","title":"Best Conference Tables in 2026"}];

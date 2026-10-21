@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "glass desktop whiteboard";
 export const introParagraphs = [
   "Glass has one clear, verifiable advantage over melamine dry erase surfaces: it resists ghosting (the faint marker residue that builds up on cheaper surfaces after repeated use) far longer, which is why every pick in this guide is a genuinely glass surface confirmed by its own listing title, not a generic \"dry erase board\" assumed to be glass.",
-  "That durability comes with real tradeoffs worth weighing before buying: glass is heavier and more fragile than melamine, its polished surface can produce more glare under overhead lighting or on video calls, and edge finish (polished versus raw-cut) affects how safe it is to handle during setup, none of which shows up in a simple size-and-price comparison.",
+  "That durability comes with real tradeoffs worth weighing before buying: glass is heavier and more fragile than melamine, its polished surface can produce more glare under overhead lighting or on video calls, and edge finish (polished versus raw-cut) affects how safe it is to handle during setup, none of which shows up in a simple size-and-price comparison."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "10 min";
@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31xK08Bp9kL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B3QDBPQH?tag=deskfinds0d-20",
     description:
-      "A genuinely glass 9.5x6.7 inch board with a black finish and reversible wood stand, small enough to sit on a corner of the desk without crowding your workspace.\n\nThe black glass surface offers a different visual look than a standard white board and, per the listing, includes marker and eraser so you're not buying those separately.\n\nThe strongest case for this pick comes down to genuine glass surface for strong ghosting resistance as well as reversible stand adds flexible positioning. The compromise here is that compact size limits how much you can write, so factor that in alongside the $23.99 asking price.",
+      "A genuinely glass 9.5x6.7 inch board with a black finish and reversible wood stand, small enough to sit on a corner of the desk without crowding your workspace.\n\nThe black glass surface offers a different visual look than a standard white board and, per the listing, includes marker and eraser so you're not buying those separately.\n\nThe strongest case for this pick comes down to genuine glass surface for strong ghosting resistance as well as reversible stand adds flexible positioning. The compromise here is that compact size limits how much you can write, so factor that in alongside the under $25 asking price.",
     specs: ["9.5\" x 6.7\" black glass surface", "Reversible wood stand", "Marker and eraser included", "Compact desk footprint"],
     pros: ["Genuine glass surface for strong ghosting resistance", "Reversible stand adds flexible positioning", "Marker and eraser included per listing", "Distinct black finish for a different look"],
     cons: ["Compact size limits how much you can write", "Glass adds fragility, handle the reversible stand carefully", "Glossy black glass may show more glare under bright lighting"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41+-w5AGGrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B089NL8QMN?tag=deskfinds0d-20",
     description:
-      "Combines a genuinely glass writing surface with a keyboard stand and built-in drawer, useful if you want ghosting resistance plus a place to store markers and small supplies.\n\nThe added drawer means more combined weight resting on the stand structure, worth checking reviews for stability reports if you write on it often.\n\nWhere this one earns its spot is genuine glass surface for long-term ghosting resistance, and built-in drawer adds real storage. Worth noting before buying: combined drawer and glass weight adds stress on the stand, check reviews for stability, which matters more at $25.99 than it would on a cheaper pick.",
+      "Combines a genuinely glass writing surface with a keyboard stand and built-in drawer, useful if you want ghosting resistance plus a place to store markers and small supplies.\n\nThe added drawer means more combined weight resting on the stand structure, worth checking reviews for stability reports if you write on it often.\n\nWhere this one earns its spot is genuine glass surface for long-term ghosting resistance, and built-in drawer adds real storage. Worth noting before buying: combined drawer and glass weight adds stress on the stand, check reviews for stability, which matters more at under $30 than it would on a cheaper pick.",
     specs: ["Glass dry erase surface", "Built-in storage drawer", "Doubles as keyboard stand", "Compact desktop footprint"],
     pros: ["Genuine glass surface for long-term ghosting resistance", "Built-in drawer adds real storage", "Multi-function keyboard stand design", "Good value for the combined feature set"],
     cons: ["Combined drawer and glass weight adds stress on the stand, check reviews for stability", "Glass is heavier and more fragile than melamine", "Smaller writing area given the keyboard stand function"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41nG4S2IqnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFLB1LPN?tag=deskfinds0d-20",
     description:
-      "A genuinely glass board bundled with a calculator and organizer features, aimed at buyers who want a small command-center style desk accessory rather than just a writing surface.\n\nThe higher price reflects the added calculator and organizer accessories, worth it if you'll actually use those extras rather than just the glass surface itself.\n\nThis pick is best for buyers who value genuine glass surface for ghosting resistance along with calculator bundled in per listing. The catch is that highest price among the compact picks in this guide, so decide if that's worth it at $36.99.",
+      "A genuinely glass board bundled with a calculator and organizer features, aimed at buyers who want a small command-center style desk accessory rather than just a writing surface.\n\nThe higher price reflects the added calculator and organizer accessories, worth it if you'll actually use those extras rather than just the glass surface itself.\n\nThis pick is best for buyers who value genuine glass surface for ghosting resistance along with calculator bundled in per listing. The catch is that highest price among the compact picks in this guide, so decide if that's worth it at under $40.",
     specs: ["Glass dry erase surface", "Includes calculator", "Keyboard stand organizer", "Markers and eraser included per listing"],
     pros: ["Genuine glass surface for ghosting resistance", "Calculator bundled in per listing", "Organizer features add desk utility", "Markers and eraser included"],
     cons: ["Highest price among the compact picks in this guide", "More accessories mean more combined weight on the stand", "Calculator and organizer add bulk versus a plain glass board"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21DN1-VtYsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01MFGICQT?tag=deskfinds0d-20",
     description:
-      "A genuinely glass 9x11 inch pad from Quartet, a long-established office supply brand, with a removable clip for holding a sheet of paper.\n\nBrand consistency matters more for glass products than for basic melamine boards, since edge finish and glass quality directly affect handling safety and durability.\n\nWhat stands out here is genuine glass surface from a recognized office supply brand, plus removable clip adds paper-holding flexibility. The main tradeoff: compact 9x11 size limits writing space, so weigh that against the $25.62 price before buying.",
+      "A genuinely glass 9x11 inch pad from Quartet, a long-established office supply brand, with a removable clip for holding a sheet of paper.\n\nBrand consistency matters more for glass products than for basic melamine boards, since edge finish and glass quality directly affect handling safety and durability.\n\nWhat stands out here is genuine glass surface from a recognized office supply brand, plus removable clip adds paper-holding flexibility. The main tradeoff: compact 9x11 size limits writing space, so weigh that against the under $30 price before buying.",
     specs: ["9\" x 11\" glass writing surface", "Removable paper clip", "Includes marker", "Established Quartet brand"],
     pros: ["Genuine glass surface from a recognized office supply brand", "Removable clip adds paper-holding flexibility", "Marker included per listing", "Consistent build quality expectations from an established brand"],
     cons: ["Compact 9x11 size limits writing space", "No stand included based on listing title", "No storage features unlike some competing picks"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21yNZpZHGyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01M2DADUX?tag=deskfinds0d-20",
     description:
-      "An 18x6 inch glass pad shaped for placement in front of a keyboard, genuinely glass per the listing, with storage and one marker included.\n\nThe wide, short shape suits jotting a running line of notes or reminders rather than a full page of writing, a different use case than a taller square board.\n\nThe strongest case for this pick comes down to genuine glass surface for ghosting resistance as well as wide format suits front-of-keyboard placement. The compromise here is that narrow 6-inch height limits multi-line writing, so factor that in alongside the $29.76 asking price.",
+      "An 18x6 inch glass pad shaped for placement in front of a keyboard, genuinely glass per the listing, with storage and one marker included.\n\nThe wide, short shape suits jotting a running line of notes or reminders rather than a full page of writing, a different use case than a taller square board.\n\nThe strongest case for this pick comes down to genuine glass surface for ghosting resistance as well as wide format suits front-of-keyboard placement. The compromise here is that narrow 6-inch height limits multi-line writing, so factor that in alongside the under $30 asking price.",
     specs: ["18\" x 6\" glass writing surface", "Storage included", "1 dry erase marker included", "Established Quartet brand"],
     pros: ["Genuine glass surface for ghosting resistance", "Wide format suits front-of-keyboard placement", "Storage and marker included per listing", "Recognized Quartet brand"],
     cons: ["Narrow 6-inch height limits multi-line writing", "Not suited for buyers wanting a tall writing surface", "Wide shape needs a correspondingly wide desk clearance"],
@@ -116,7 +116,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31tgGY53X0S._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0774Y814B?tag=deskfinds0d-20",
     description:
-      "The largest genuinely glass panel in this guide at 17x23 inches, magnetic, with accessory trays and included magnets for task cards.\n\nAt this size, glass weight and edge handling matter more than on the compact picks, worth checking reviews for how buyers describe setup and mounting.\n\nWhere this one earns its spot is largest genuine glass surface in this roundup, and magnetic surface plus included magnets for task cards. Worth noting before buying: significantly higher price than compact glass picks, which matters more at $117.49 than it would on a cheaper pick.",
+      "The largest genuinely glass panel in this guide at 17x23 inches, magnetic, with accessory trays and included magnets for task cards.\n\nAt this size, glass weight and edge handling matter more than on the compact picks, worth checking reviews for how buyers describe setup and mounting.\n\nWhere this one earns its spot is largest genuine glass surface in this roundup, and magnetic surface plus included magnets for task cards. Worth noting before buying: significantly higher price than compact glass picks, which matters more at under $120 than it would on a cheaper pick.",
     specs: ["17\" x 23\" glass writing surface", "Magnetic surface with magnets included", "Accessory trays included", "Includes 1 marker per listing"],
     pros: ["Largest genuine glass surface in this roundup", "Magnetic surface plus included magnets for task cards", "Accessory trays keep supplies organized", "Established Quartet brand"],
     cons: ["Significantly higher price than compact glass picks", "Heaviest and most fragile option, handle setup carefully", "Requires more desk or wall space than smaller boards"],
@@ -133,7 +133,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41aTFk156tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09C1VT7X8?tag=deskfinds0d-20",
     description:
-      "Similar in concept to our storage-drawer pick above, a genuinely glass board combined with a keyboard stand and drawer, offered here in a grey finish as an alternate style option.\n\nIf the black or white finish of a competing pick doesn't match your desk setup, this is a functionally similar glass-with-storage option in a different color.\n\nThis pick is best for buyers who value genuine glass surface for ghosting resistance along with built-in drawer for storage. The catch is that combined drawer and glass weight adds stress on the stand, check reviews, so decide if that's worth it at $27.99.",
+      "Similar in concept to our storage-drawer pick above, a genuinely glass board combined with a keyboard stand and drawer, offered here in a grey finish as an alternate style option.\n\nIf the black or white finish of a competing pick doesn't match your desk setup, this is a functionally similar glass-with-storage option in a different color.\n\nThis pick is best for buyers who value genuine glass surface for ghosting resistance along with built-in drawer for storage. The catch is that combined drawer and glass weight adds stress on the stand, check reviews, so decide if that's worth it at under $30.",
     specs: ["Glass dry erase surface", "Built-in storage drawer", "Doubles as keyboard stand", "Grey finish option"],
     pros: ["Genuine glass surface for ghosting resistance", "Built-in drawer for storage", "Grey finish for a different desk aesthetic", "Multi-function keyboard stand design"],
     cons: ["Combined drawer and glass weight adds stress on the stand, check reviews", "Glass adds fragility versus melamine", "Functionally overlaps with our other storage-drawer pick"],
@@ -155,7 +155,7 @@ export const products: GuideProduct[] = [
     pros: ["Genuine \"pure glass\" surface per listing", "5 markers included, no separate purchase needed", "Lowest price of any glass pick here", "Compact size fits anywhere on a desk"],
     cons: ["Smallest writing area in this guide, single reminders only", "No stand mentioned in listing title", "Black glass surface may show more glare under bright lighting"],
     bestFor: "Buyers wanting the smallest, cheapest genuine glass option with markers already included.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -163,7 +163,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed genuine glass surface per listing title", description: "Only included boards whose listing explicitly states glass, rather than assuming any dry erase board with a glossy look is glass." },
   { title: "Weighed ghosting resistance as the core glass advantage", description: "Treated ghosting resistance as the primary reason to pick glass over melamine, since it's the one durability difference we can state with confidence from material type alone." },
   { title: "Flagged weight and fragility tradeoffs", description: "Noted that glass is heavier and more fragile than melamine for every pick, since this affects handling and setup regardless of size." },
-  { title: "Noted glare and edge-finish as buyer-advisory checks", description: "Flagged glare risk for glossy surfaces and edge-finish safety as things to verify via listing images or reviews, since these can't be confirmed from a title alone." },
+  { title: "Noted glare and edge-finish as buyer-advisory checks", description: "Flagged glare risk for glossy surfaces and edge-finish safety as things to verify via listing images or reviews, since these can't be confirmed from a title alone." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -196,7 +196,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Wide strip for front-of-keyboard notes", "Quartet GDP186 18\"x6\" Glass Pad"],
         ["Maximum surface area", "Quartet GDP1723W 17\"x23\" Glass Panel"],
         ["Storage in a grey finish", "Glass Board with Drawer, Grey"],
-        ["Cheapest genuine glass with markers included", "Mini Pure Glass Whiteboard 8\"x6\""],
+        ["Cheapest genuine glass with markers included", "Mini Pure Glass Whiteboard 8\"x6\""]
       ],
     },
   },
@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $15.18",
+          "Under $20",
           "Black Mini Desktop Pure Glass Whiteboard"
         ],
         [
-          "Around $23.99",
+          "Under $25",
           "Desktop Black Glass Dry Erase Whiteboard with Reversible Wood Stand"
         ],
         [
-          "Around $25.62",
+          "Under $30",
           "Quartet Dry Erase White Board 9\"W x 11\"H Desktop Glass Pad with Removable Clip and Marker (GDE119)"
         ],
         [
-          "Around $25.99",
+          "Under $30",
           "TSJ OFFICE Small Desktop Whiteboard"
         ],
         [
-          "Around $27.99",
+          "Under $30",
           "Small Desktop Glass Whiteboard Dry-Erase Board"
         ],
         [
-          "Around $29.76",
+          "Under $30",
           "Quartet Glass Dry Erase White Board"
         ],
         [
-          "Around $36.99",
+          "Under $40",
           "Small Glass Desktop Whiteboard Dry Erase Board with Calculator"
         ],
         [
-          "Around $117.49",
+          "Under $120",
           "Quartet Glass Whiteboard Desktop Panel"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -250,7 +250,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   { criterion: "Weigh ghosting resistance against price premium", explanation: "Glass costs more than melamine but resists ghosting far longer. If you write and erase frequently, the premium usually pays off over time. Two picks priced close together, anywhere in this comparison's $15-$117 band, can still land on opposite ends of ghosting resistance against price, so price alone is a poor proxy for it here. Compare the stated figure for ghosting resistance against price across two or three similar listings side by side before trusting any single seller's number at face value." },
   { criterion: "Account for weight and fragility during setup", explanation: "Glass boards are heavier and more breakable than melamine equivalents, especially larger panels. Handle stands and mounting carefully. Products at the low end near $15 and the high end near $117 of this comparison don't always handle account weight fragility during the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of account weight fragility during, since that's often where the honest, unfiltered answer actually shows up." },
   { criterion: "Check for glare if the board will be on camera", explanation: "A glossy glass surface can reflect overhead lighting during video calls. Check listing images for a matte finish if this matters. Across this comparison's $15 to $117 range, glare board will be is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check glare board will be against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out." },
-  { criterion: "Verify edge finish for handling safety", explanation: "Polished edges are safer than raw-cut edges. This isn't always stated in the title, so check images or reviews before buying, especially for larger panels. Given the real spread here, from about $15 up to $117, two products can look nearly identical on the surface while differing exactly on edge finish handling safety, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on edge finish handling safety, since it's often left out of the main bullet points entirely." },
+  { criterion: "Verify edge finish for handling safety", explanation: "Polished edges are safer than raw-cut edges. This isn't always stated in the title, so check images or reviews before buying, especially for larger panels. Given the real spread here, from about $15 up to $117, two products can look nearly identical on the surface while differing exactly on edge finish handling safety, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on edge finish handling safety, since it's often left out of the main bullet points entirely." }
 ];
 
 export const faq: FaqItem[] = [
@@ -259,11 +259,11 @@ export const faq: FaqItem[] = [
   { q: "Are glass whiteboards safe to handle?", a: "Generally yes, but edge finish (polished versus raw-cut) affects handling safety and isn't always stated in listings, so check images or reviews before buying." },
   { q: "Do all glass whiteboards in this guide include a stand?", a: "No, only the picks whose listings explicitly mention a stand include one. Check the specs for each product above." },
   { q: "Is a bigger glass whiteboard always worth the extra price?", a: "Only if you need the extra surface area for tracking multiple ongoing tasks. For quick notes, a compact glass pad offers the same ghosting resistance at a lower price." },
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Desktop Black Glass Dry Erase Whiteboard with Reversible Wood Stand is aimed at Buyers who want a genuine glass surface with a distinctive look in a small footprint." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Desktop Black Glass Dry Erase Whiteboard with Reversible Wood Stand is aimed at Buyers who want a genuine glass surface with a distinctive look in a small footprint." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desktop-whiteboards", title: "Best Desktop Whiteboards (2026)" },
   { href: "/guide/best-desktop-whiteboards-with-storage", title: "Best Desktop Whiteboards with Storage (2026)" },
-  { href: "/guide/best-small-desktop-whiteboards", title: "Best Small Desktop Whiteboards (2026)" },
+  { href: "/guide/best-small-desktop-whiteboards", title: "Best Small Desktop Whiteboards (2026)" }
 ];

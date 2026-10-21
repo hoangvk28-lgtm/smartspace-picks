@@ -5,7 +5,7 @@ export const metaDescription = "5 wall-mounted air purifiers we evaluated for sm
 export const mainKeyword = "wall mounted air purifier for small room";
 export const introParagraphs = [
   "Wall mounting frees genuine floor area in a tight room, a real advantage for a small bedroom or home office where every square foot matters, but filter changes at height can be less convenient than simply lifting a floor unit's cover.",
-  "Wall-mounted units are a genuinely smaller product category than floor-standing purifiers, expect fewer options, a smaller review base per model, and typically a higher price relative to coverage than a comparable floor unit.",
+  "Wall-mounted units are a genuinely smaller product category than floor-standing purifiers, expect fewer options, a smaller review base per model, and typically a higher price relative to coverage than a comparable floor unit."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wall-Mounted Air Purifier Overall",
     name: "Kaltech Wall Mounted Air Purifier",
     price: "$649.98",
-    rating: "4.6 stars from 11 Amazon ratings",
-    reviews: "11 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/211o7kU79XL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B84JLVBZ?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Wall-Mount Pick",
     name: "KOMMA Lov Wall Mounted Air Purifier",
     price: "$350.00",
-    rating: "4.4 stars from 3 Amazon ratings",
-    reviews: "3 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41uGnGaebGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09MF98MD2?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Ultra-Compact Wall-Mount Pick",
     name: "Smartmi E1 Wall Mounted Air Purifier",
     price: "$79.00",
-    rating: "3.7 stars from 7 Amazon ratings",
-    reviews: "7 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ORfA+RcJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJVKNBGN?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Floor-Unit Alternative if Wall Mounting Isn't Required",
     name: "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom, H13 True HEPA Filter, 24db Filtration System Cleaner Odor Eliminators, Remove 99.97% Dust Smoke Mold Pollen, Core 300, White",
     price: "$89.99",
-    rating: "4.7 stars from 108,251 Amazon ratings",
-    reviews: "108,251 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Floor-Unit Alternative",
     name: "Germ Guardian True HEPA Filter Air Purifier for Home",
     price: "$80.74",
-    rating: "4.6 stars from 63,485 Amazon ratings",
-    reviews: "63,485 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/316AtkHoSdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004VGIGVY?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Large, well-established review base", "Low price", "Compact footprint fits a small corner or shelf", "Far more real-world evidence than dedicated wall-mount picks"],
     cons: ["Not a true wall-mount, still occupies some surface space", "No smart features", "Standard CADR"],
     bestFor: "Small rooms where a corner or shelf placement is an acceptable compromise",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Floor-space savings versus filter-access convenience", description: "Weighed that wall mounting frees genuine floor area in a tight room, but filter changes at height can be less convenient than a floor unit, a real tradeoff to disclose." },
   { title: "Product category size and review base honestly disclosed", description: "Considered that wall-mounted units are a genuinely smaller product category than floor-standing purifiers, meaning a smaller review base per model and less real-world evidence to weigh." },
-  { title: "Shelf-placed floor units included as a genuine alternative", description: "Included compact floor units that can sit on a shelf or side table as a legitimate alternative for buyers who want floor-space savings without a true wall installation." },
+  { title: "Shelf-placed floor units included as a genuine alternative", description: "Included compact floor units that can sit on a shelf or side table as a legitimate alternative for buyers who want floor-space savings without a true wall installation." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Is a compact floor unit on a shelf a good alternative to wall mounting?", a: "Yes, it's a legitimate alternative. It achieves some of the same floor-space benefit as wall mounting, with far more real-world review evidence and easier filter access." },
   { q: "Are wall-mounted air purifiers more expensive than floor units?", a: "Often yes, relative to coverage. Wall-mounted units typically cost more relative to their rated coverage than a comparable floor-standing unit." },
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "Small rooms wanting to free all floor area with a dedicated wall-mount design" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Very small rooms wanting the most affordable wall-mount entry point At $79.00, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Very small rooms wanting the most affordable wall-mount entry point At under $80, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-air-purifiers-for-small-rooms", title: "Best Air Purifiers for Small Rooms (2026)" },
   { href: "/guide/best-compact-air-purifiers-for-desks", title: "Best Compact Air Purifiers for Desks (2026)" },
-  { href: "/guide/best-small-air-purifiers", title: "Best Small Air Purifiers (2026)" },
+  { href: "/guide/best-small-air-purifiers", title: "Best Small Air Purifiers (2026)" }
 ];

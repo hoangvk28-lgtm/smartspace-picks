@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "thin-client mini pc mounts";
 export const introParagraphs = [
   "Thin clients are a more specific, lighter category than general Mini PCs, ultra-lightweight endpoints commonly used in corporate virtual desktop and call-center environments. The practical goal is a mount genuinely scaled to that lighter hardware and repeatable across many workstations, rather than an oversized consumer Mini PC bracket copied across a fleet.",
-  "This guide compares five mounts based on real stated width ranges, weight ratings appropriate to thin-client weight, and mounting flexibility for deployments involving many identical setups under desks or on walls.",
+  "This guide compares five mounts based on real stated width ranges, weight ratings appropriate to thin-client weight, and mounting flexibility for deployments involving many identical setups under desks or on walls."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine thin-client sizing", description: "We evaluated whether each mount's stated adjustable range genuinely matches the compact, lighter chassis common to thin-client and small form factor enterprise hardware." },
   { title: "Deployment consistency", description: "We considered warranty length, named-model compatibility, and price for buyers purchasing the same mount across many desks in an office deployment." },
   { title: "Load capacity vs typical thin-client weight", description: "We compared stated weight ratings against typical thin-client weight, which is generally lighter than a full Mini PC, to confirm mounts aren't unnecessarily oversized." },
-  { title: "Continuous-operation ventilation", description: "We favored open-frame designs since thin clients in an office often run continuously through the workday." },
+  { title: "Continuous-operation ventilation", description: "We favored open-frame designs since thin clients in an office often run continuously through the workday." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -228,11 +228,11 @@ export const faq: FaqItem[] = [
   { q: "Should I buy the same mount for my whole office fleet?", a: "Standardizing on one mount across your deployment simplifies IT support and spare-parts planning. If your fleet is a single brand and model, a named-compatible mount like the Lenovo or Dell picks offers the most precise fit." },
   { q: "Can I mount a thin client and a monitor arm on the same VESA point?", a: "Not always. Some mounts, like the Dell OptiPlex Micro pick in this guide, explicitly use the monitor's VESA holes exclusively, which prevents also using that point for a separate monitor arm." },
   { q: "Do thin clients need active cooling in their mount?", a: "Most thin clients run cool enough that a mount's ventilation design (open-frame vs enclosed) matters more than active cooling. Favor open-frame mounts for continuous-operation office use." },
-  { q: "Is a generic Mini PC mount fine for a thin client, or do I need a dedicated one?", a: "A generic adjustable mount within the right size range works fine. A dedicated thin-client or named-model mount simply offers a more precise, purpose-fit option if you're standardizing across a fleet." },
+  { q: "Is a generic Mini PC mount fine for a thin client, or do I need a dedicated one?", a: "A generic adjustable mount within the right size range works fine. A dedicated thin-client or named-model mount simply offers a more precise, purpose-fit option if you're standardizing across a fleet." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-universal-mini-pc-mounts", title: "Best Universal Mini PC Mounts (2026)" },
   { href: "/guide/best-mini-pc-mounts", title: "Best Mini PC Mounts (2026)" },
-  { href: "/guide/best-mini-pc-mounting-brackets", title: "Best Mini PC Mounting Brackets (2026)" },
+  { href: "/guide/best-mini-pc-mounting-brackets", title: "Best Mini PC Mounting Brackets (2026)" }
 ];

@@ -12,7 +12,7 @@ export const deskSetupForTwoPeopleExplainedGuide: Guide = {
     "two people sharing one desk",
     "couple home office same desk",
     "shared workspace equipment decisions",
-    "desk scheduling multiple users",
+    "desk scheduling multiple users"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskSetupForTwoPeopleExplainedGuide: Guide = {
     "smart-desk-height-memory-explained",
     "office-chair-size-chart",
     "how-to-measure-office-chair-fit",
-    "kvm-switch-explained",
+    "kvm-switch-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskSetupForTwoPeopleExplainedGuide: Guide = {
       question: "How should two people schedule use of a single shared desk?",
       answer:
         "This depends on each person's actual schedule and needs, some households find a fixed time-block schedule works well, others prefer flexible, communicated coordination day to day, the right approach depends on how predictable and compatible each person's actual work schedule is.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const deskSetupForTwoPeopleExplainedGuide: Guide = {
     {
       heading: "Why Technology Solutions Like Presets and KVM Switches Reduce Shared-Desk Friction",
       body: `Much of the practical friction in sharing a desk setup comes from the repeated manual reconfiguration needed each time users switch, readjusting chair or desk height, reconnecting to a different computer, technology solutions like height memory presets and KVM switches directly address this friction by making the switching process itself fast and simple rather than requiring manual reconfiguration each time, investing in these specific technology solutions, rather than just accepting the friction as an inherent cost of sharing a desk, can make a genuinely shared workspace feel nearly as convenient as having separate individual setups.`,
-    },
+    }
   ],
 };

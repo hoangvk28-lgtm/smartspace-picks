@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "standing desk converter for cubicles";
 export const introParagraphs = [
   "Cubicles add constraints that a home desk doesn't: fixed panel height, a shared aisle you shouldn't project into when standing, and often a smaller work surface than a home office desk provides.",
-  "We prioritized compact and mid-size platforms that keep the converter's forward projection modest, since standing height combined with excessive forward lean can bring your head or shoulders above cubicle panel height in a way some offices discourage.",
+  "We prioritized compact and mid-size platforms that keep the converter's forward projection modest, since standing height combined with excessive forward lean can bring your head or shoulders above cubicle panel height in a way some offices discourage."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Prioritized mid-size and compact platforms over the largest options", description: "Cubicle desks are typically smaller than home office desks, and we avoided recommending the largest 46-48 inch platforms that don't suit this environment." },
   { title: "Weighed forward projection into shared aisle space", description: "We noted that standing height combined with a deep platform can project further into cubicle aisle space, worth considering in a shared office." },
   { title: "Included both compact and dual-monitor-capable options within cubicle-appropriate sizing", description: "We covered single-monitor and dual-monitor cubicle setups, both staying within a manageable footprint for shared office space." },
-  { title: "Weighed review volume as evidence of reliable daily office use", description: "We prioritized picks with substantial review histories, relevant for a converter used daily in a professional shared environment." },
+  { title: "Weighed review volume as evidence of reliable daily office use", description: "We prioritized picks with substantial review histories, relevant for a converter used daily in a professional shared environment." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -238,7 +238,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
@@ -247,11 +247,11 @@ export const faq: FaqItem[] = [
   { q: "What's the most space-efficient option for a tight cubicle?", a: "The VIVO Ultra-Slim Single Top Standing Desk Riser, a genuinely compact design." },
   { q: "Is there a cubicle-appropriate option for dual monitors?", a: "Yes, the FITUEYES Height Adjustable Standing Desk 36 Inch, wider than the compact options but still a manageable footprint." },
   { q: "Should I check my office's policy before using a converter in my cubicle?", a: "Yes, some offices have norms about standing height relative to cubicle panel height; confirm compliance before daily use." },
-  { q: "How much desk depth do I need for a cubicle converter?", a: "This varies by model; measure your specific cubicle desk and compare against the converter's stated base footprint before ordering." },
+  { q: "How much desk depth do I need for a cubicle converter?", a: "This varies by model; measure your specific cubicle desk and compare against the converter's stated base footprint before ordering." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-corner-standing-desk-converters", title: "Best Corner Standing Desk Converters (2026)" },
   { href: "/guide/best-compact-standing-desk-converters", title: "Best Compact Standing Desk Converters (2026)" },
-  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
+  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" }
 ];

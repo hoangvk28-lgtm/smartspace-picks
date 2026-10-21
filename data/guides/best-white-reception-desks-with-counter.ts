@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $94.99",
+          "Under $100",
           "OmySalon Reception Desk with Counter"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "55\" L-Shaped Reception Desk with LED Lights & Power Outlets"
         ],
         [
-          "Around $559.99",
+          "Under $600",
           "ZIMASYA 63\" Reception Counter with Combination Lock Drawers"
         ],
         [
-          "Around $649.99",
+          "Under $650",
           "ZIMASYA 87\" Reception Counter with Combination Lock Drawers"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "ZIMASYA 63\" Reception Counter with Combination Lock Drawers is aimed at buyers prioritizing 63\" l-shaped desk, white finish." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "ZIMASYA 63\" Reception Counter with Combination Lock Drawers is aimed at buyers prioritizing 63\" l-shaped desk, white finish." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-white-reception-desks","title":"best-white-reception-desks"},{"href":"/guide/best-reception-desks-with-counter","title":"best-reception-desks-with-counter"},{"href":"/guide/best-transaction-counter-reception-desks","title":"5 Best Transaction Counter Reception Desks in 2026"}];

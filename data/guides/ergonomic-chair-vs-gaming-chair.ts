@@ -13,7 +13,7 @@ export const ergonomicChairVsGamingChairGuide: Guide = {
     "is ergonomic chair better than gaming chair",
     "best office chair for work",
     "gaming chair back pain",
-    "ergonomic chair worth it",
+    "ergonomic chair worth it"
   ],
   heroImage:
     "/images/guides/ergonomic-chair-vs-gaming-chair/01-ergonomic-chair-vs-gaming-chair-hero.webp",
@@ -27,7 +27,7 @@ export const ergonomicChairVsGamingChairGuide: Guide = {
     "best-ergonomic-chair-under-300",
     "best-ergonomic-chair-under-500",
     "standard-desk-height",
-    "ultrawide-vs-dual-monitor",
+    "ultrawide-vs-dual-monitor"
   ],
   faq: [
     {
@@ -55,7 +55,7 @@ export const ergonomicChairVsGamingChairGuide: Guide = {
       question: "How long do gaming chairs last vs. ergonomic chairs?",
       answer:
         "Budget gaming chairs typically last 2-4 years before the PU leather begins peeling and the foam compresses noticeably. Quality ergonomic chairs last 5-10 years. SecretLab chairs last approximately 4-6 years. Premium ergonomic chairs (Herman Miller, Steelcase) are warrantied for 12 years.",
-    },
+    }
   ],
   sections: [
     {
@@ -175,13 +175,13 @@ At $150, the ergonomic option ([SIHOO M57](https://www.amazon.com/s?k=sihoo+m57+
 | Under 2 hrs/day | Gaming chair is fine |
 | 2-4 hrs/day | Ergonomic chair preferred; budget ergonomic at $150 is worth it |
 | 4-6 hrs/day | Ergonomic chair - any model with 3D arms and adjustable lumbar |
-| 6-8+ hrs/day | Ergonomic chair - [Sihoo C300](https://www.amazon.com/s?k=sihoo+doro+c300&tag=deskfinds0d-20) ($200-280) minimum, [Branch Pro](https://www.amazon.com/s?k=branch+ergonomic+chair+pro&tag=deskfinds0d-20) ($499) ideal |
+| 6-8+ hrs/day | Ergonomic chair - [Sihoo C300](https://www.amazon.com/s?k=sihoo+doro+c300&tag=deskfinds0d-20) ($200-280) minimum, [Branch Pro](https://www.amazon.com/s?k=branch+ergonomic+chair+pro&tag=deskfinds0d-20) (under $500) ideal |
 
 The most common mistake in chair buying: spending $200-300 on a gaming chair with good reviews, sitting in it for 8 hours a day, developing lower back pain after 3-6 months, and then spending $200-300 on an ergonomic chair. The total cost is $400-600 for one chair's worth of ergonomic support.
 
 Buying the ergonomic chair first costs less.
 
 Ready to choose? See our full guides: [Best Ergonomic Chair Under $300](/guide/best-ergonomic-chair-under-300) and [Best Ergonomic Chair Under $500](/guide/best-ergonomic-chair-under-500).`,
-    },
+    }
   ],
 };

@@ -5,7 +5,7 @@ export const metaDescription = "8 shredders with large bin capacity, with a calc
 export const mainKeyword = "paper shredder with large bin";
 export const introParagraphs = [
   "A bin's gallon rating doesn't translate linearly to actual sheet capacity, cross-cut and micro-cut shredded paper is far more compact than strip-cut for the same original sheet count, meaning two shredders with identical bin sizes can hold very different numbers of source sheets. We note each pick's cut type alongside its bin size for this reason.",
-  "Also worth knowing: a large bin adds real footprint and weight to move and empty, a genuine space-planning tradeoff against the emptying-frequency benefit, and a full large bin is noticeably heavier to lift than a full small one, a real ergonomic factor for some users.",
+  "Also worth knowing: a large bin adds real footprint and weight to move and empty, a genuine space-planning tradeoff against the emptying-frequency benefit, and a full large bin is noticeably heavier to lift than a full small one, a real ergonomic factor for some users."
 ];
 export const lastUpdated = "2026-07-28";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Largest Bin, Best Overall",
     name: "Bonsaii 18-Sheet Cross-Cut 60-Min Run Heavy Duty Paper Shredder",
     price: "$179.99",
-    rating: "4.6 stars from 10,748 Amazon ratings",
-    reviews: "10,748 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41FCXr1akDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00IOFD08C?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Large Bin for Auto-Feed",
     name: "Bonsaii 120-Sheet Autofeed Micro-Cut 30-Min Run Heavy Duty Paper Shredder",
     price: "$179.99",
-    rating: "4.3 stars from 1,048 Amazon ratings",
-    reviews: "1,048 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31lBbbWrCsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSJ3K6T3?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Large Bin Auto-Feed",
     name: "Bonsaii 100-Sheet Auto Feed Micro-Cut Paper Shredder Heavy Duty",
     price: "$126.99",
-    rating: "4.3 stars from 1,629 Amazon ratings",
-    reviews: "1,629 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31VvTJMBXPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DG2MGVMV?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Proven Track Record",
     name: "Aurora AU1210MA Professional Grade High Security 12-Sheet Micro-Cut Shredder",
     price: "$135.78",
-    rating: "4.7 stars from 9,126 Amazon ratings",
-    reviews: "9,126 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/413GY12YKjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CX4DZ4Z?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Mid-Size Bin at Moderate Price",
     name: "Bonsaii 12-Sheet Cross Cut Heavy Duty Paper Shredder for Home Office",
     price: "$79.99",
-    rating: "4.5 stars from 1,685 Amazon ratings",
-    reviews: "1,685 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/310qS+3q87L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5XPJ524?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Large-Ish Bin",
     name: "Bonsaii 12-Sheet Cross Cut Paper Shredder, 5.5 Gal Home Office Heavy Duty",
     price: "$55.24",
-    rating: "4.5 stars from 8,974 Amazon ratings",
-    reviews: "8,974 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31H0gGU7jHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09N991KVT?tag=deskfinds0d-20",
     description:
@@ -127,8 +127,8 @@ export const products: GuideProduct[] = [
     badge: "Good Bin-to-Capacity Ratio",
     name: "BONSEN 14-Sheet Cross Cut Heavy Duty Paper Shredder for Home Office",
     price: "$84.99",
-    rating: "4.1 stars from 1,061 Amazon ratings",
-    reviews: "1,061 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LSE9gHSWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DTKBX3D9?tag=deskfinds0d-20",
     description:
@@ -144,8 +144,8 @@ export const products: GuideProduct[] = [
     badge: "Widest Availability, Moderate Bin",
     name: "Amazon Basics 12-Sheet Cross-Cut Paper and Credit Card Shredder",
     price: "$58.00",
-    rating: "4.3 stars from 77,112 Amazon ratings",
-    reviews: "77,112 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31GNS0CdNOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6LZG69W?tag=deskfinds0d-20",
     description:
@@ -154,14 +154,14 @@ export const products: GuideProduct[] = [
     pros: ["Largest review base of any shredder in this entire guide series", "Reasonable price for the bin size", "9-minute run time is a genuine step up from the shortest picks", "Amazon Basics quality-tested"],
     cons: ["P-3 security level, lower than the P-4 picks elsewhere in this guide", "Not the largest bin in this specific guide", "12-sheet capacity is modest"],
     bestFor: "Buyers who want the most widely-proven pick at scale, accepting P-3 rather than P-4 security",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Bin gallons adjusted for cut-type density", description: "Weighed each bin's gallon rating against its cut type, since micro-cut and cross-cut shredded paper packs more densely than strip-cut, meaning identical gallon ratings hold different real sheet counts depending on cut type." },
   { title: "Footprint and weight tradeoff versus emptying frequency", description: "Noted where a larger bin adds meaningful footprint and full-bin lifting weight, a real tradeoff against the benefit of emptying less often." },
-  { title: "Bin size matched to feed capacity and run time", description: "Checked whether each bin's size is proportional to its feed capacity and run time, a mismatch here means either premature emptying or an oversized bin for the actual shredding volume." },
+  { title: "Bin size matched to feed capacity and run time", description: "Checked whether each bin's size is proportional to its feed capacity and run time, a mismatch here means either premature emptying or an oversized bin for the actual shredding volume." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -294,11 +294,11 @@ export const faq: FaqItem[] = [
   { q: "Can I tell when a large bin is full without opening it?", a: "Only if it has a transparent window or fill-level indicator. Several picks in this guide include this feature; fully opaque bins require you to check manually or risk overflow." },
   { q: "Does a large bin mean I can shred longer without stopping?", a: "Not necessarily. Bin size and motor duty cycle are separate specs, a large-bin shredder can still hit its thermal run-time limit well before the bin actually fills up." },
   { q: "Are pull-out bins or swing-open bins easier to empty on a large-capacity shredder?", a: "A pull-out bin is generally easier to carry to a trash can without spilling, while a swing-open design can be faster for a quick in-place dump, check which style the specific listing uses." },
-  { q: "Does a larger bin make the shredder noticeably heavier to move?", a: "Yes, a larger bin housing adds real weight even when empty, check the specific listed total weight if you'll need to move or reposition the unit regularly." },
+  { q: "Does a larger bin make the shredder noticeably heavier to move?", a: "Yes, a larger bin housing adds real weight even when empty, check the specific listed total weight if you'll need to move or reposition the unit regularly." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-paper-shredders-with-pull-out-bins", title: "Best Paper Shredders with Pull-Out Bins (2026)" },
   { href: "/guide/best-long-run-paper-shredders", title: "Best Long-Run Paper Shredders (2026)" },
-  { href: "/guide/best-paper-shredders-on-wheels", title: "Best Paper Shredders on Wheels (2026)" },
+  { href: "/guide/best-paper-shredders-on-wheels", title: "Best Paper Shredders on Wheels (2026)" }
 ];

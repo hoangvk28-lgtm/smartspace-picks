@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $199.99",
+          "Under $200",
           "Anker SOLIX C300 DC Portable Power Station"
         ],
         [
-          "Around $329.99",
+          "Under $350",
           "Anker SOLIX C300 Portable Power Station"
         ],
         [
-          "Around $469.99",
+          "Under $500",
           "Anker SOLIX C1000 Portable Power Station"
         ],
         [
-          "Around $529.99",
+          "Under $550",
           "Anker SOLIX C1000 Gen 2 Portable Power Station"
         ],
         [
-          "Around $649.99",
+          "Under $650",
           "Anker SOLIX S2000 Portable Power Station"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "LiFePO4 (LFP) cells are generally considered more thermally stable than standard lithium-ion or lithium-polymer cells, with a lower risk of thermal runaway, and most current portable power stations have shifted to LFP for this reason. Still, verify UL or UL2743 safety certification directly rather than assuming chemistry alone guarantees safety."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Anker SOLIX C1000 Gen 2 Portable Power Station is aimed at buyers prioritizing 1024wh, 2000w output, 10 ports." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Anker SOLIX C1000 Gen 2 Portable Power Station is aimed at buyers prioritizing 1024wh, 2000w output, 10 ports." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

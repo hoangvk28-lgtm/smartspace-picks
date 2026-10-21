@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mechanical keyboard for mac";
 export const introParagraphs = [
   "A mechanical keyboard bought for a Mac needs more than a Bluetooth logo on the box. Mac keycap legends, correct Fn-row behavior, and Bluetooth version compatibility with older Mac models all affect whether a keyboard feels native on macOS or requires constant workarounds. The picks below are all confirmed Mac-compatible in their listings, ranging from Mac-native low-profile mechanical boards to cross-platform mechanical keyboards that support Mac out of the box.",
-  "Below are 8 mechanical keyboards we evaluated on Mac keycap support, switch type, connectivity, and build quality, based on real product specs rather than generic gaming-keyboard marketing, ranging from a $43 budget wired board to a $160 Mac-native compact mechanical keyboard.",
+  "Below are 8 mechanical keyboards we evaluated on Mac keycap support, switch type, connectivity, and build quality, based on real product specs rather than generic gaming-keyboard marketing, ranging from a $43 budget wired board to a $160 Mac-native compact mechanical keyboard."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -56,18 +56,18 @@ export const products: GuideProduct[] = [
       "75% compact layout, Mac-native keycaps",
       "Low-profile tactile mechanical switches",
       "Wireless, rechargeable via USB-C",
-      "Correct Mac media key and Fn-row behavior out of the box",
+      "Correct Mac media key and Fn-row behavior out of the box"
     ],
     pros: [
       "Only Mac-native mechanical keyboard in this list",
       "Correct Fn-row and media key behavior without remapping",
       "Quiet, low-profile mechanical switches",
-      "Compact footprint",
+      "Compact footprint"
     ],
     cons: [
       "No number pad",
       "Premium price for a compact board",
-      "Windows use requires remapping since it's Mac-first",
+      "Windows use requires remapping since it's Mac-first"
     ],
     bestFor: "Mac users who want zero setup friction and Mac-native shortcuts out of the box",
   },
@@ -87,18 +87,18 @@ export const products: GuideProduct[] = [
       "75% compact layout, Mac-native keycaps",
       "Low-profile tactile mechanical switches",
       "Wireless, rechargeable via USB-C",
-      "Correct Mac media key and Fn-row behavior out of the box",
+      "Correct Mac media key and Fn-row behavior out of the box"
     ],
     pros: [
       "Only Mac-native mechanical keyboard color option besides Space Grey",
       "Correct Fn-row and media key behavior without remapping",
       "Quiet, low-profile mechanical switches",
-      "Lighter finish suits bright desk setups",
+      "Lighter finish suits bright desk setups"
     ],
     cons: [
       "No number pad",
       "Premium price for a compact board",
-      "Windows use requires remapping since it's Mac-first",
+      "Windows use requires remapping since it's Mac-first"
     ],
     bestFor: "Mac users who want the MX Mechanical Mini Mac in a lighter finish",
   },
@@ -118,18 +118,18 @@ export const products: GuideProduct[] = [
       "96% layout with number pad and arrow keys",
       "Keychron Super Brown tactile mechanical switches",
       "Bluetooth 5.1 or wired USB",
-      "White LED backlight",
+      "White LED backlight"
     ],
     pros: [
       "Full 100-key function in a smaller 96% footprint",
       "Works over Bluetooth or wired connection",
       "Confirmed Mac and Windows compatibility",
-      "White backlighting for low-light typing",
+      "White backlighting for low-light typing"
     ],
     cons: [
       "Not Mac-native, uses standard Windows-style modifier legends",
       "Bluetooth 5.1 needs a reasonably modern Mac to pair reliably",
-      "No hot-swap switch sockets",
+      "No hot-swap switch sockets"
     ],
     bestFor: "Buyers who want a full-function keyboard in a tighter footprint with Mac support",
   },
@@ -149,18 +149,18 @@ export const products: GuideProduct[] = [
       "84-key compact layout, no number pad",
       "Low-profile mechanical Brown switches",
       "Bluetooth wireless or wired USB",
-      "White LED backlight",
+      "White LED backlight"
     ],
     pros: [
       "Ultra-slim profile matches a MacBook's low deck height",
       "Genuine low-profile mechanical switches",
       "Confirmed Mac and Windows compatibility",
-      "Wireless or wired flexibility",
+      "Wireless or wired flexibility"
     ],
     cons: [
       "No number pad",
       "Not Mac-native, uses standard modifier legends",
-      "Slimmer switches mean less key travel than a standard mechanical board",
+      "Slimmer switches mean less key travel than a standard mechanical board"
     ],
     bestFor: "Buyers who want a slim mechanical keyboard that visually matches a MacBook's height",
   },
@@ -180,18 +180,18 @@ export const products: GuideProduct[] = [
       "Full 104-key layout with number pad",
       "Tactile brown mechanical switches",
       "USB-C braided wired cable",
-      "Compatible with Mac and Windows",
+      "Compatible with Mac and Windows"
     ],
     pros: [
       "Most affordable pick in this list",
       "Full-size layout with number pad",
       "No battery to manage, always-on wired connection",
-      "Confirmed Mac compatibility",
+      "Confirmed Mac compatibility"
     ],
     cons: [
       "Wired only, no wireless option",
       "Not Mac-native, standard modifier legends",
-      "ABS keycaps wear shinier over time than PBT",
+      "ABS keycaps wear shinier over time than PBT"
     ],
     bestFor: "Budget buyers who want a full-size mechanical keyboard for a Mac desktop and don't need wireless",
   },
@@ -211,18 +211,18 @@ export const products: GuideProduct[] = [
       "Compact layout, Hall effect magnetic switches",
       "Adjustable actuation, Rapid Trigger support",
       "2.4GHz / Bluetooth 5.2, QMK compatible",
-      "Compatible with Mac, Windows, and Linux",
+      "Compatible with Mac, Windows, and Linux"
     ],
     pros: [
       "Magnetic switches resist wear better than contact switches",
       "Adjustable actuation point per key",
       "Confirmed Mac, Windows, and Linux support",
-      "QMK firmware for deep customization",
+      "QMK firmware for deep customization"
     ],
     cons: [
       "Higher price than standard mechanical picks",
       "QMK configuration has a learning curve",
-      "Not Mac-native, standard modifier legends",
+      "Not Mac-native, standard modifier legends"
     ],
     bestFor: "Buyers who want adjustable actuation and long-term switch durability on a Mac",
   },
@@ -242,18 +242,18 @@ export const products: GuideProduct[] = [
       "Full-size layout with RGB backlighting",
       "Hot-swappable Gateron Banana mechanical switches",
       "2.4GHz Bluetooth, QMK compatible",
-      "Compatible with Mac, Windows, and Linux",
+      "Compatible with Mac, Windows, and Linux"
     ],
     pros: [
       "Hot-swappable switches for future customization",
       "Confirmed Mac, Windows, and Linux support",
       "Full-size layout with number pad",
-      "QMK firmware for deep remapping",
+      "QMK firmware for deep remapping"
     ],
     cons: [
       "Not Mac-native, standard modifier legends",
       "RGB backlighting drains battery faster on wireless",
-      "Higher price than a fixed-switch board",
+      "Higher price than a fixed-switch board"
     ],
     bestFor: "Buyers who want to customize or upgrade their switches over time on a Mac-compatible board",
   },
@@ -273,21 +273,21 @@ export const products: GuideProduct[] = [
       "Full-size layout with number pad",
       "Hot-swappable Hall effect magnetic switches",
       "Adjustable actuation, Rapid Trigger",
-      "Aluminum and wood frame, custom RGB",
+      "Aluminum and wood frame, custom RGB"
     ],
     pros: [
       "Full-size layout with number pad and Hall effect switches",
       "Hot-swappable despite using magnetic switches",
       "Premium aluminum and wood build",
-      "Confirmed Mac, Windows, and Linux support",
+      "Confirmed Mac, Windows, and Linux support"
     ],
     cons: [
       "Highest price in this list",
       "Heavier build takes up more desk space",
-      "Not Mac-native, standard modifier legends",
+      "Not Mac-native, standard modifier legends"
     ],
     bestFor: "Buyers who want a full-size, premium-build Hall effect keyboard confirmed to work on Mac",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -315,7 +315,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed build quality, switch type, and Mac-specific features against price, from the budget wired pick to the Mac-native compact board.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -458,12 +458,12 @@ export const faq: FaqItem[] = [
   {
     q: "Is a Mac-native keyboard worth the extra price over a cheaper cross-platform mechanical keyboard?",
     a: "It depends on how much setup friction you're willing to tolerate. The MX Mechanical Mini Mac costs more than the Keychron C2 or K4, but needs zero remapping. A cross-platform pick like the C2 costs less and works fine on Mac after a short Fn-row and modifier key adjustment in System Settings, a one-time setup that many Mac users don't mind.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mechanical-keyboards-for-quiet-typing-office", title: "Best Mechanical Keyboards for Quiet Typing and Office Use (2026)" },
   { href: "/guide/best-mechanical-keyboard-and-mouse-combos", title: "Best Mechanical Keyboard and Mouse Combos (2026)" },
   { href: "/guide/best-mechanical-keyboard-under-100", title: "Best Mechanical Keyboard Under $100 (2026)" },
-  { href: "https://www.thepcjournal.com/guides/best-mechanical-keyboards", title: "Best Mechanical Keyboards (The PC Journal)" },
+  { href: "https://www.thepcjournal.com/guides/best-mechanical-keyboards", title: "Best Mechanical Keyboards (The PC Journal)" }
 ];

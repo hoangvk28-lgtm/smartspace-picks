@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41CsASRgDeL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09D79KTPX?tag=deskfinds0d-20",
-    "description": "NBPOWER 1080P 60FPS Streaming Camera Webcam with Microphone and Fill RGB Light is built around full hd 1080p streaming webcam:with, paired with superior low light performance:with the, positioning it as a webcam built for clear video calls and streaming rather than casual occasional use.\n\nAt $29.99, it's the most expensive pick in this comparison, and that premium needs to be justified by genuinely using the extra features it carries over the cheaper options here.\n\nThis pick best suits buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "NBPOWER 1080P 60FPS Streaming Camera Webcam with Microphone and Fill RGB Light is built around full hd 1080p streaming webcam:with, paired with superior low light performance:with the, positioning it as a webcam built for clear video calls and streaming rather than casual occasional use.\n\nAt under $30, it's the most expensive pick in this comparison, and that premium needs to be justified by genuinely using the extra features it carries over the cheaper options here.\n\nThis pick best suits buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Full HD 1080P Streaming webcam:With",
       "Superior Low light performance:With the",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41+-HBBs+iL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GJD6PHTZ?tag=deskfinds0d-20",
-    "description": "What stands out on Acer A610 1080p Webcam for PC with Microphones Computer Camera for Meeting is 1080p full hd webcam -, alongside easy plug-and-play, which is the main reason it earns a spot in this webcams comparison.\n\nIt lands between NIVEOLI Webcam 1080P with Microphone & Privacy Cover for PC/Laptop's $12.99 price floor and NBPOWER 1080P 60FPS Streaming Camera Webcam with Microphone and Fill RGB Light's $29.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nAcer A610 1080p Webcam for PC with Microphones Computer Camera for Meeting is the right call for buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on Acer A610 1080p Webcam for PC with Microphones Computer Camera for Meeting is 1080p full hd webcam -, alongside easy plug-and-play, which is the main reason it earns a spot in this webcams comparison.\n\nIt lands between NIVEOLI Webcam 1080P with Microphone & Privacy Cover for PC/Laptop's under $15 price floor and NBPOWER 1080P 60FPS Streaming Camera Webcam with Microphone and Fill RGB Light's under $30 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nAcer A610 1080p Webcam for PC with Microphones Computer Camera for Meeting is the right call for buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "1080P Full HD Webcam -",
       "Easy Plug-and-Play",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41ULwI3SgiL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B08VJ25PL1?tag=deskfinds0d-20",
-    "description": "Tewiky Full HD Webcam with Built-in Microphone and Rotatable Tripod is built around tewiky's 1080p hd webcam features, paired with the built-in noise-cancelling microphone minimizes, positioning it as a webcam built for clear video calls and streaming rather than casual occasional use.\n\nCompared to NIVEOLI Webcam 1080P with Microphone & Privacy Cover for PC/Laptop at $12.99, it costs more for real added capability, while sitting well below NBPOWER 1080P 60FPS Streaming Camera Webcam with Microphone and Fill RGB Light at $29.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "Tewiky Full HD Webcam with Built-in Microphone and Rotatable Tripod is built around tewiky's 1080p hd webcam features, paired with the built-in noise-cancelling microphone minimizes, positioning it as a webcam built for clear video calls and streaming rather than casual occasional use.\n\nCompared to NIVEOLI Webcam 1080P with Microphone & Privacy Cover for PC/Laptop at under $15, it costs more for real added capability, while sitting well below NBPOWER 1080P 60FPS Streaming Camera Webcam with Microphone and Fill RGB Light at under $30 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Tewiky's 1080p HD webcam features",
       "The built-in noise-cancelling microphone minimizes",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41YEyRdU2+L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HLD3DMXK?tag=deskfinds0d-20",
-    "description": "1080P HD Webcam with Microphone leads with 1080p hd clarity with wide-angle lens, backed by noise-reducing built-in microphone, a combination aimed at as a webcam built for clear video calls and streaming rather than casual occasional use.\n\nIt lands between NIVEOLI Webcam 1080P with Microphone & Privacy Cover for PC/Laptop's $12.99 price floor and NBPOWER 1080P 60FPS Streaming Camera Webcam with Microphone and Fill RGB Light's $29.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\n1080P HD Webcam with Microphone is the right call for buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "1080P HD Webcam with Microphone leads with 1080p hd clarity with wide-angle lens, backed by noise-reducing built-in microphone, a combination aimed at as a webcam built for clear video calls and streaming rather than casual occasional use.\n\nIt lands between NIVEOLI Webcam 1080P with Microphone & Privacy Cover for PC/Laptop's under $15 price floor and NBPOWER 1080P 60FPS Streaming Camera Webcam with Microphone and Fill RGB Light's under $30 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\n1080P HD Webcam with Microphone is the right call for buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "1080P HD Clarity with Wide-Angle Lens",
       "Noise-Reducing Built-In Microphone",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31rd18F+IQL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CLLRLMK7?tag=deskfinds0d-20",
-    "description": "saylas 4K Webcam with Microphone is built around saylas w4ds computer webcam, paired with 2 noise-cancelling microphones, positioning it as a webcam built for clear video calls and streaming rather than casual occasional use.\n\nCompared to NIVEOLI Webcam 1080P with Microphone & Privacy Cover for PC/Laptop at $12.99, it costs more for real added capability, while sitting well below NBPOWER 1080P 60FPS Streaming Camera Webcam with Microphone and Fill RGB Light at $29.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "saylas 4K Webcam with Microphone is built around saylas w4ds computer webcam, paired with 2 noise-cancelling microphones, positioning it as a webcam built for clear video calls and streaming rather than casual occasional use.\n\nCompared to NIVEOLI Webcam 1080P with Microphone & Privacy Cover for PC/Laptop at under $15, it costs more for real added capability, while sitting well below NBPOWER 1080P 60FPS Streaming Camera Webcam with Microphone and Fill RGB Light at under $30 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "saylas W4DS Computer Webcam",
       "2 Noise-Cancelling Microphones",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41Xq-AC9s4L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HBHXHZCK?tag=deskfinds0d-20",
-    "description": "Shcngqio 1080P HD Webcam with Microphone leads with 1080p full hd with wide-angle lens, backed by built-in noise-canceling microphone, a combination aimed at as a webcam built for clear video calls and streaming rather than casual occasional use.\n\nCompared to NIVEOLI Webcam 1080P with Microphone & Privacy Cover for PC/Laptop at $12.99, it costs more for real added capability, while sitting well below NBPOWER 1080P 60FPS Streaming Camera Webcam with Microphone and Fill RGB Light at $29.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "Shcngqio 1080P HD Webcam with Microphone leads with 1080p full hd with wide-angle lens, backed by built-in noise-canceling microphone, a combination aimed at as a webcam built for clear video calls and streaming rather than casual occasional use.\n\nCompared to NIVEOLI Webcam 1080P with Microphone & Privacy Cover for PC/Laptop at under $15, it costs more for real added capability, while sitting well below NBPOWER 1080P 60FPS Streaming Camera Webcam with Microphone and Fill RGB Light at under $30 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "1080P Full HD with Wide-Angle Lens",
       "Built-In Noise-Canceling Microphone",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31pzwxlxzkL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GSZDXNGJ?tag=deskfinds0d-20",
-    "description": "What stands out on saylas 1080P Webcam for PC with Microphone is 1080p full hd webcam, alongside noise-reducing built-in microphone, which is the main reason it earns a spot in this webcams comparison.\n\nIt lands between NIVEOLI Webcam 1080P with Microphone & Privacy Cover for PC/Laptop's $12.99 price floor and NBPOWER 1080P 60FPS Streaming Camera Webcam with Microphone and Fill RGB Light's $29.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nsaylas 1080P Webcam for PC with Microphone is the right call for buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on saylas 1080P Webcam for PC with Microphone is 1080p full hd webcam, alongside noise-reducing built-in microphone, which is the main reason it earns a spot in this webcams comparison.\n\nIt lands between NIVEOLI Webcam 1080P with Microphone & Privacy Cover for PC/Laptop's under $15 price floor and NBPOWER 1080P 60FPS Streaming Camera Webcam with Microphone and Fill RGB Light's under $30 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nsaylas 1080P Webcam for PC with Microphone is the right call for buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "1080P Full HD Webcam",
       "Noise-Reducing Built-In Microphone",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41E50-NRCkL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0G29MV7GK?tag=deskfinds0d-20",
-    "description": "What stands out on NIVEOLI Webcam 1080P with Microphone & Privacy Cover for PC/Laptop is crystal-clear 1080p hd video, alongside built-in noise-canceling microphone, which is the main reason it earns a spot in this webcams comparison.\n\nAt $12.99, it's the most affordable pick in this comparison, so expect fewer extras than the pricier options here, but the core function holds up for buyers who don't need the added features those carry.\n\nThis pick best suits buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "What stands out on NIVEOLI Webcam 1080P with Microphone & Privacy Cover for PC/Laptop is crystal-clear 1080p hd video, alongside built-in noise-canceling microphone, which is the main reason it earns a spot in this webcams comparison.\n\nAt under $15, it's the most affordable pick in this comparison, so expect fewer extras than the pricier options here, but the core function holds up for buyers who don't need the added features those carry.\n\nThis pick best suits buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Crystal-Clear 1080P HD Video",
       "Built-In Noise-Canceling Microphone",
@@ -325,35 +325,35 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $12.99",
+          "Under $15",
           "NIVEOLI Webcam 1080P with Microphone & Privacy Cover for PC/Laptop"
         ],
         [
-          "Around $16.99",
+          "Under $20",
           "saylas 1080P Webcam for PC with Microphone"
         ],
         [
-          "Around $17.09",
+          "Under $20",
           "Shcngqio 1080P HD Webcam with Microphone"
         ],
         [
-          "Around $19.99",
+          "Under $20",
           "saylas 4K Webcam with Microphone"
         ],
         [
-          "Around $20.99",
+          "Under $25",
           "1080P HD Webcam with Microphone"
         ],
         [
-          "Around $25.99",
+          "Under $30",
           "Tewiky Full HD Webcam with Built-in Microphone and Rotatable Tripod"
         ],
         [
-          "Around $26.99",
+          "Under $30",
           "Acer A610 1080p Webcam for PC with Microphones Computer Camera for Meeting"
         ],
         [
-          "Around $29.99",
+          "Under $30",
           "NBPOWER 1080P 60FPS Streaming Camera Webcam with Microphone and Fill RGB Light"
         ]
       ]
@@ -364,11 +364,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "NIVEOLI Webcam 1080P with Microphone & Privacy Cover for PC/Laptop",
-        "text": "The lowest-priced pick in this comparison at $12.99, a solid choice if you don't need the extras the pricier picks carry."
+        "text": "The lowest-priced pick in this comparison at under $15, a solid choice if you don't need the extras the pricier picks carry."
       },
       {
         "label": "NBPOWER 1080P 60FPS Streaming Camera Webcam with Microphone and Fill RGB Light",
-        "text": "The highest-priced pick at $29.99, worth it only if you'll actually use what that premium buys."
+        "text": "The highest-priced pick at under $30, worth it only if you'll actually use what that premium buys."
       }
     ],
     "note": "Default to NIVEOLI Webcam 1080P with Microphone & Privacy Cover for PC/Laptop unless the pricier pick's specific advantage genuinely applies to your situation."
@@ -428,7 +428,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "What's the real difference between the cheapest and most expensive pick here?",
-    "a": "NIVEOLI Webcam 1080P with Microphone & Privacy Cover for PC/Laptop at $12.99 covers the basics, while NBPOWER 1080P 60FPS Streaming Camera Webcam with Microphone and Fill RGB Light at $29.99 adds higher resolution, a ring light, or more advanced autofocus. Whether that's worth the difference depends on whether you're on video calls in low light or stream regularly, where the extra capability shows up, versus occasional daylight calls where it won't."
+    "a": "NIVEOLI Webcam 1080P with Microphone & Privacy Cover for PC/Laptop at under $15 covers the basics, while NBPOWER 1080P 60FPS Streaming Camera Webcam with Microphone and Fill RGB Light at under $30 adds higher resolution, a ring light, or more advanced autofocus. Whether that's worth the difference depends on whether you're on video calls in low light or stream regularly, where the extra capability shows up, versus occasional daylight calls where it won't."
   },
   {
     "q": "Do I need 4K for video calls, or is 1080p enough?",
@@ -440,7 +440,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "Is there a solid middle-ground pick in this price range?",
-    "a": "1080P HD Webcam with Microphone at $20.99 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
+    "a": "1080P HD Webcam with Microphone at under $25 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
   },
   {
     "q": "What's the most common mistake buyers make shopping webcams under $30?",

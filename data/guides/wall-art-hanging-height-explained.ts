@@ -12,7 +12,7 @@ export const wallArtHangingHeightExplainedGuide: Guide = {
     "correct height to hang wall art",
     "eye level rule for pictures",
     "art above desk height",
-    "how high to hang frames",
+    "how high to hang frames"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const wallArtHangingHeightExplainedGuide: Guide = {
     "wall-shelf-installation-explained",
     "shelf-weight-capacity-explained",
     "desk-plant-lighting-requirements",
-    "what-size-desk-do-i-need",
+    "what-size-desk-do-i-need"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const wallArtHangingHeightExplainedGuide: Guide = {
       question: "Does hanging height matter if the art is purely decorative and rarely looked at directly?",
       answer:
         "Even primarily decorative art benefits from proper height positioning for overall room balance and visual harmony, poorly positioned art, even if rarely stared at directly, can still create a subtly off visual impression in the space.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const wallArtHangingHeightExplainedGuide: Guide = {
     {
       heading: "Why Treating a Grouped Arrangement as One Unit Produces Better Results",
       body: `When hanging multiple smaller pieces above a desk rather than one large piece, a common mistake is centering each individual frame at the calculated height independently, which can result in a disjointed, inconsistent arrangement, instead, measure the combined visual footprint of the entire grouped arrangement as if it were one large piece, and center that combined shape at the appropriate seated eye-level height, producing a more cohesive, intentional-looking result above the desk.`,
-    },
+    }
   ],
 };

@@ -2,11 +2,11 @@ export const guideSlug = "best-23-8-inch-monitor-privacy-screens";
 export const guideTitle = "5 Best 23.8-Inch Monitor Privacy Screens in 2026";
 export const metaTitle = "Best 23.8-Inch Monitor Privacy Screens (2026)";
 export const metaDescription =
-  "5 privacy filters specifically sized for 23.8 inch monitors, not rounded to standard 24 inch, from a $19.98 budget option to a proven 4,087-review pick.";
+  "5 privacy filters specifically sized for 23.8 inch monitors, not rounded to standard 24 inch, from an under-$20 budget option to a proven 4,087-review pick.";
 export const mainKeyword = "23.8 inch monitor privacy screen";
 export const introParagraphs = [
   "23.8 inch is a common size for business and productivity monitors, close to but distinct from standard 24 inch. We only included filters specifically sized for 23.8 inch rather than assuming a 24 inch filter rounds down acceptably.",
-  "We found a genuinely wide selection at this size, five confirmed options spanning from under $20 to nearly $60, with real review history across most of them.",
+  "We found a genuinely wide selection at this size, five confirmed options spanning from under $20 to nearly $60, with real review history across most of them."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required filters specifically sized for 23.8 inch, not rounded from 24 inch", description: "We confirmed every pick here as a genuine 23.8 inch fit rather than assuming a standard 24 inch filter rounds down acceptably." },
   { title: "Compared value across a real price range", description: "23.8 inch filters span across a range of price points in our research, and we compared value across that full range." },
   { title: "Weighed a newer high-rated listing against established leaders", description: "We flagged the SYHUAIFEI pick's higher rating on a smaller review base as worth watching, without overstating its current certainty against the SightPro pick's thousands of reviews." },
-  { title: "Noted bundled anti-scratch and blue-light features separately", description: "Where a listing explicitly adds these extras, we treated them as genuine differentiators rather than assuming all filters offer equivalent bundled features." },
+  { title: "Noted bundled anti-scratch and blue-light features separately", description: "Where a listing explicitly adds these extras, we treated them as genuine differentiators rather than assuming all filters offer equivalent bundled features." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -233,20 +233,21 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
-    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nThis matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
   }
 ];
 
 export const faq: FaqItem[] = [
-  { q: "Which 23.8 inch privacy screen has the most reviews?", a: "The SightPro 23.8 Inch 16:9 Computer Privacy Screen Filter, with 4,087 reviews at a 4.3 rating." },
-  { q: "What's the cheapest 23.8 inch option?", a: "The RedANGEL 23.8-Inch Computer Privacy Screen at $19.98, the lowest price in our entire research at this size." },
+  
+  { q: "What's the cheapest 23.8 inch option?", a: "The RedANGEL 23.8-Inch Computer Privacy Screen at under $20, the lowest price in our entire research at this size." },
   { q: "Is 23.8 inch the same as 24 inch?", a: "No, they're close but distinct sizes. A filter specifically made for 23.8 inch will fit more precisely than a standard 24 inch filter." },
   { q: "Is there an anti-scratch option?", a: "Yes, the [2 Pack] 23.8 Inch Computer Privacy Screen explicitly includes an anti-scratch protector film." },
   { q: "What's the highest-rated option?", a: "The SYHUAIFEI [2-Pack] 23.8 Inch Privacy Screen at 4.6, though on a much smaller review base than the SightPro pick." },
+  { q: "How much side view does a privacy filter actually block?", a: "Filters narrow the viewing cone so people standing off to the side see a dark or blank screen while you see it normally from the front. The exact angle varies by product, so check the listing for the stated viewing range. Sit directly in front of the screen for the clearest picture." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-23-inch-monitor-privacy-screens", title: "Best 23-Inch Monitor Privacy Screens (2026)" },
   { href: "/guide/best-24-inch-monitor-privacy-screens", title: "Best 24-Inch Monitor Privacy Screens (2026)" },
-  { href: "/guide/best-monitor-privacy-screens", title: "Best Monitor Privacy Screens (2026)" },
+  { href: "/guide/best-monitor-privacy-screens", title: "Best Monitor Privacy Screens (2026)" }
 ];

@@ -305,7 +305,7 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Under $28.50",
+          "Under $30",
           "JOMAA Wired Trackball Mouse, 6-Button"
         ],
         [

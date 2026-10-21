@@ -12,7 +12,7 @@ export const deskFridgeWorthItExplainedGuide: Guide = {
     "desk fridge for home office",
     "mini fridge capacity for desk",
     "desk fridge noise level",
-    "under desk fridge worth it",
+    "under desk fridge worth it"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskFridgeWorthItExplainedGuide: Guide = {
     "desk-coffee-maker-vs-electric-kettle",
     "insulated-mug-vs-regular-mug-desk",
     "under-desk-storage-options-explained",
-    "how-many-outlets-do-you-need-desk-setup",
+    "how-many-outlets-do-you-need-desk-setup"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskFridgeWorthItExplainedGuide: Guide = {
       question: "Do mini fridges use significant electricity running continuously?",
       answer:
         "Mini fridges generally use relatively modest power for their small size, but they do run continuously, unlike most desk appliances used intermittently, this constant operation is worth factoring into your desk's total power draw and outlet capacity planning.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const deskFridgeWorthItExplainedGuide: Guide = {
     {
       heading: "Why Noise Level Deserves Specific Consideration Beyond General Product Reviews",
       body: `A compressor-based mini fridge's operating noise, including periodic compressor cycling, might be barely noticeable in a private home office but could become a genuine distraction in a shared or quiet workspace where ambient noise is otherwise low, checking specific noise level specifications and considering your actual workspace's ambient noise environment, rather than assuming any mini fridge will be quiet enough, helps avoid an unwelcome surprise after purchase in a noise-sensitive setting.`,
-    },
+    }
   ],
 };

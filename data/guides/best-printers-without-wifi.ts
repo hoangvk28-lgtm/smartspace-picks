@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "printer without wifi";
 export const introParagraphs = [
   "Truly wireless-free printers are rare in 2026, most manufacturers build wifi into nearly every current model, so this guide covers both a genuinely wired-only pick and a set of wifi-capable printers that work perfectly well with wifi simply switched off in their settings menu. Buying a wifi-capable printer and disabling wifi is a legitimate strategy worth considering, since it keeps the option open later and often costs the same or less than a dedicated wired-only model.",
-  "We evaluated each pick on USB-B wired reliability, how easy wifi is to disable and leave off, and what you actually give up or keep by going wired-only, including an honest look at whether skipping wifi is really the security win it's often assumed to be.",
+  "We evaluated each pick on USB-B wired reliability, how easy wifi is to disable and leave off, and what you actually give up or keep by going wired-only, including an honest look at whether skipping wifi is really the security win it's often assumed to be."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "USB cable included",
       "Automatic duplex printing",
       "Monochrome laser engine",
-      "Best-for-Home-Office positioning",
+      "Best-for-Home-Office positioning"
     ],
     pros: [
       "Genuinely no wifi to disable, ever",
       "Fast, sharp laser text output",
       "Automatic duplex printing",
-      "No ink-drying concerns for infrequent use",
+      "No ink-drying concerns for infrequent use"
     ],
     cons: [
       "Print only, no scan or copy",
       "Monochrome only, no color printing",
-      "Single-computer USB connection unless paired with a switch",
+      "Single-computer USB connection unless paired with a switch"
     ],
     bestFor: "Buyers who want a printer with no wifi radio at all, not just wifi turned off",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "USB-B wired connection remains fully functional",
       "Monochrome laser, duplex printing",
       "Copy and scan built in",
-      "Works with Alexa (requires wifi enabled)",
+      "Works with Alexa (requires wifi enabled)"
     ],
     pros: [
       "Full functionality over wired USB-B with wifi off",
       "Fast, sharp laser text output",
       "Copy and scan included",
-      "Keeps wireless as an option for later",
+      "Keeps wireless as an option for later"
     ],
     cons: [
       "Not wireless-free by design, wifi has to be manually disabled",
       "Alexa integration requires wifi enabled",
-      "Higher price than the wired-only HP pick",
+      "Higher price than the wired-only HP pick"
     ],
     bestFor: "Buyers who want a fuller-featured laser AIO and are comfortable disabling wifi themselves",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "USB-B wired connection remains fully functional",
       "Color duplex laser, 35 PPM",
       "ADF, scanner, copier, and fax included",
-      "3-year limited warranty",
+      "3-year limited warranty"
     ],
     pros: [
       "Fast color laser output at 35 PPM",
       "Full functionality over wired USB-B with wifi off",
       "Complete feature set with ADF and fax",
-      "3-year warranty",
+      "3-year warranty"
     ],
     cons: [
       "Not wireless-free by design",
       "Highest price in this guide by a wide margin",
-      "Larger footprint than the other picks here",
+      "Larger footprint than the other picks here"
     ],
     bestFor: "Small offices that want fast color laser output and are fine disabling wifi manually",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Wifi-capable, can be disabled in settings",
       "Duplex color photo printing",
       "Scanner and copier built in",
-      "Compact photo printer design",
+      "Compact photo printer design"
     ],
     pros: [
       "USB connectivity confirmed directly on the listing",
       "Strong photo printing quality",
       "Duplex printing and scan/copy included",
-      "Full functionality with wifi off",
+      "Full functionality with wifi off"
     ],
     cons: [
       "Not wireless-free by design",
       "Inkjet ink can dry out if idle for weeks with infrequent use",
-      "Higher price than basic wired document printers",
+      "Higher price than basic wired document printers"
     ],
     bestFor: "Buyers who want photo-quality color printing and are comfortable disabling wifi themselves",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "USB-B wired connection remains fully functional",
       "Scanner, copier, and fax built in",
       "Color photo printing capability",
-      "Business-oriented MAXIFY design",
+      "Business-oriented MAXIFY design"
     ],
     pros: [
       "Fax included for office use",
       "Full functionality over wired USB-B with wifi off",
       "Built for more consistent daily use",
-      "Reasonable mid-range price",
+      "Reasonable mid-range price"
     ],
     cons: [
       "Not wireless-free by design",
       "Bulkier than basic home inkjets",
-      "Cartridge-based ink costs more at high volume",
+      "Cartridge-based ink costs more at high volume"
     ],
     bestFor: "Small offices that want fax over a wired connection with wifi disabled",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "USB-B wired connection remains fully functional",
       "INKvestment higher-yield cartridge system",
       "1.8-inch color display",
-      "Manual feed slot for cardstock/envelopes",
+      "Manual feed slot for cardstock/envelopes"
     ],
     pros: [
       "Higher-yield INKvestment ink reduces replacement frequency",
       "Full functionality over wired USB-B with wifi off",
       "Manual feed slot for specialty paper",
-      "Color display for status and settings",
+      "Color display for status and settings"
     ],
     cons: [
       "Not wireless-free by design",
       "Inkjet ink can dry out during long idle periods",
-      "Mid-range price for a wired-off use case",
+      "Mid-range price for a wired-off use case"
     ],
     bestFor: "Buyers who want lower-frequency ink replacement alongside a wired, wifi-off setup",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "USB-B wired connection remains fully functional",
       "2.7-inch color touchscreen",
       "Automatic 2-sided copy and scan",
-      "INKvestment higher-yield cartridge system",
+      "INKvestment higher-yield cartridge system"
     ],
     pros: [
       "Larger touchscreen simplifies disabling wifi and managing settings",
       "Automatic duplex scanning included",
       "Higher-yield INKvestment ink",
-      "Full functionality over wired USB-B",
+      "Full functionality over wired USB-B"
     ],
     cons: [
       "Not wireless-free by design",
       "Highest-priced inkjet pick in this guide",
-      "Inkjet ink can dry out during long idle periods",
+      "Inkjet ink can dry out during long idle periods"
     ],
     bestFor: "Buyers who want easy on-screen wifi control and duplex scanning in a wired setup",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "USB-B wired connection remains fully functional",
       "Fax, ADF, duplex print and scan",
       "3-month Instant Ink trial included",
-      "Best-for-Office positioning",
+      "Best-for-Office positioning"
     ],
     pros: [
       "Most complete feature set in this guide",
       "Full core printing functionality over wired USB-B with wifi off",
       "Built for higher office volume",
-      "Fax and ADF included",
+      "Fax and ADF included"
     ],
     cons: [
       "Not wireless-free by design",
       "Highest price in this guide among the AIO picks",
-      "Some AI/smart features assume an active internet connection",
+      "Some AI/smart features assume an active internet connection"
     ],
     bestFor: "Offices that want every AIO feature and are comfortable managing wifi settings themselves",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for wired-only or wifi-off use",
     description: "Weighed price against feature set specifically for buyers running each pick wired-only, not for its wireless capabilities.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,12 +477,12 @@ export const faq: FaqItem[] = [
   {
     q: "Does Windows 11 automatically install the right driver for a wired printer?",
     a: "It often auto-installs a generic USB driver that handles basic printing, but that generic driver can lack full support for scanning, faxing, or special print modes compared to the manufacturer's complete driver package. Download the full OEM driver from the manufacturer's website for complete feature access.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-with-usb-ports", title: "Best Printers with USB Ports (2026)" },
   { href: "/guide/best-airprint-printers", title: "Best AirPrint Printers (2026)" },
   { href: "/guide/best-ink-tank-printers-for-home-offices", title: "Best Ink Tank Printers for Home Offices (2026)" },
-  { href: "/guide/best-printers-for-home-offices", title: "Best Printers for Home Offices (2026)" },
+  { href: "/guide/best-printers-for-home-offices", title: "Best Printers for Home Offices (2026)" }
 ];

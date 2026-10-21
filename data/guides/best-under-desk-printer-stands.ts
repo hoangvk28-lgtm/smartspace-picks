@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "under desk printer stand";
 export const introParagraphs = [
   "An under-desk printer stand only works if the combined height of your desk clearance, the stand, and the printer itself actually fits together. A standard desk clears about 24 inches underneath, a standing desk at its lowest setting clears 27 inches or more, and an adjustable desk can reach 28 to 30 inches. A roughly 14-inch stand plus a printer that stands 10 to 15 inches tall can total 24 to 29 inches on its own, which is close enough to the edge that it is worth measuring before buying rather than after.",
-  "Below are 8 under-desk printer stands and stand-adjacent products we evaluated on fit, rolling stability, and honest use-case framing, including a couple of picks that are genuinely CPU tower stands or monitor stands rather than printer-specific furniture. Prices range from $9.99 for a compact riser up to $56.99 for a full rolling file cabinet with an extended desktop.",
+  "Below are 8 under-desk printer stands and stand-adjacent products we evaluated on fit, rolling stability, and honest use-case framing, including a couple of picks that are genuinely CPU tower stands or monitor stands rather than printer-specific furniture. Prices range from under $10 for a compact riser up to under $60 for a full rolling file cabinet with an extended desktop."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -70,18 +70,18 @@ export const products: GuideProduct[] = [
       "Rear cable management channel",
       "Locking caster wheels",
       "Storage drawer under the top shelf",
-      "Fits compact and mid-size printers",
+      "Fits compact and mid-size printers"
     ],
     pros: [
       "Low enough height to fit under most standard desks",
       "Rolls out easily for paper loading and back for storage",
       "Dedicated cable management",
-      "Locking wheels hold position",
+      "Locking wheels hold position"
     ],
     cons: [
       "Not sized for large business AIO printers",
       "Rolling in and out adds a step versus a fixed desktop spot",
-      "Single drawer limits total storage",
+      "Single drawer limits total storage"
     ],
     bestFor: "Buyers with a standard desk who want the closest fit-tested match for under-desk use",
   },
@@ -102,18 +102,18 @@ export const products: GuideProduct[] = [
       "Built-in charging station shelf",
       "Low, compact under-desk profile",
       "Rustic brown and black finish",
-      "Suited to compact printers",
+      "Suited to compact printers"
     ],
     pros: [
       "Low profile leaves margin in tight desk clearance",
       "Open-frame design avoids trapping noise",
       "Charging shelf adds function without added footprint",
-      "Affordable at under $30",
+      "Affordable at under $30"
     ],
     cons: [
       "Open shelves offer less dust protection under a desk",
       "Smaller tabletop than larger printer stands",
-      "No locking wheels",
+      "No locking wheels"
     ],
     bestFor: "Buyers with tighter desk clearance who want the lowest realistic profile",
   },
@@ -134,18 +134,18 @@ export const products: GuideProduct[] = [
       "Rolling casters",
       "Low, compact platform",
       "Originally designed as a CPU tower stand",
-      "$15.99",
+      "Under $20"
     ],
     pros: [
       "Very low profile suits tight under-desk clearance",
       "Rolling casters for sliding in and out",
       "Adjustable width",
-      "Lowest price in this list",
+      "Lowest price in this list"
     ],
     cons: [
       "Not designed or marketed as a printer stand",
       "No dedicated cable management",
-      "Best limited to compact, lightweight printers",
+      "Best limited to compact, lightweight printers"
     ],
     bestFor: "Buyers with very tight under-desk clearance who need the lowest possible platform height",
   },
@@ -166,18 +166,18 @@ export const products: GuideProduct[] = [
       "4 caster wheels",
       "Adjustable to fit most tower sizes",
       "Originally designed as a CPU tower stand",
-      "$16.99",
+      "Under $20"
     ],
     pros: [
       "Ventilated design helps airflow in an enclosed under-desk space",
       "4 caster wheels for easy rolling access",
       "Adjustable to fit different printer footprints",
-      "Low price",
+      "Low price"
     ],
     cons: [
       "Not designed or marketed as a printer stand",
       "No cable management",
-      "Best suited to compact printers rather than large AIOs",
+      "Best suited to compact printers rather than large AIOs"
     ],
     bestFor: "Buyers using a laser printer under an enclosed desk who want better ventilation than a solid platform",
   },
@@ -198,18 +198,18 @@ export const products: GuideProduct[] = [
       "Underneath storage compartment",
       "Originally designed as a monitor/laptop riser",
       "Compact desktop footprint",
-      "$9.99",
+      "Under $10"
     ],
     pros: [
       "Cheapest pick in this list",
       "Works when desk clearance is too tight for any under-desk stand",
       "Underneath storage adds a bonus compartment",
-      "Keeps the printer within easy reach on the desk surface",
+      "Keeps the printer within easy reach on the desk surface"
     ],
     cons: [
       "Not an actual under-desk placement, sits on top of the desk instead",
       "Only suits small, light compact printers",
-      "No cable management",
+      "No cable management"
     ],
     bestFor: "Buyers whose desk clearance genuinely cannot fit a stand plus printer underneath",
   },
@@ -230,18 +230,18 @@ export const products: GuideProduct[] = [
       "Fully assembled on arrival",
       "Metal construction",
       "Fits Letter, Legal, and A4 documents",
-      "Under-desk mobile design",
+      "Under-desk mobile design"
     ],
     pros: [
       "Only pick with a genuine locking mechanism",
       "Ships fully assembled",
       "Durable metal construction",
-      "Doubles as document storage under the desk",
+      "Doubles as document storage under the desk"
     ],
     cons: [
       "Most expensive pick in this list",
       "Tabletop sized for compact printers, not large AIOs",
-      "Taller than the dedicated low-profile stands",
+      "Taller than the dedicated low-profile stands"
     ],
     bestFor: "Buyers who want locked document storage combined with an under-desk printer platform",
   },
@@ -262,18 +262,18 @@ export const products: GuideProduct[] = [
       "2 drawers for A4/Letter documents",
       "Matte black finish",
       "Marketed specifically as a printer stand",
-      "Rolling base",
+      "Rolling base"
     ],
     pros: [
       "Marketed and sized specifically for printer use",
       "Compact footprint fits under most desks",
       "Two drawers for document storage",
-      "Clean matte black finish",
+      "Clean matte black finish"
     ],
     cons: [
       "27.6-inch height is taller than the low-profile picks",
       "Needs careful fit-testing against desk clearance",
-      "Two drawers offer less capacity than a 3-drawer cabinet",
+      "Two drawers offer less capacity than a 3-drawer cabinet"
     ],
     bestFor: "Buyers who want a genuine printer-stand-labeled file cabinet under a taller desk",
   },
@@ -294,21 +294,21 @@ export const products: GuideProduct[] = [
       "Narrow vertical profile",
       "Black metal construction",
       "Fits Letter/A4/Legal size files",
-      "Easy assembly",
+      "Easy assembly"
     ],
     pros: [
       "Narrow footprint fits tight under-desk gaps",
       "Locking drawers for document security",
       "Straightforward assembly",
-      "Fits multiple document sizes",
+      "Fits multiple document sizes"
     ],
     cons: [
       "Narrower top than dedicated printer stand furniture",
       "Vertical design has less horizontal surface for larger printers",
-      "Metal exterior is less warm looking than wood-finish picks",
+      "Metal exterior is less warm looking than wood-finish picks"
     ],
     bestFor: "Buyers with a narrow under-desk gap who still want locked document storage",
-  },
+  }
 ];
 
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
@@ -336,7 +336,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Fit for top-load versus front-load printers",
     description:
       "Factored in that a top-load printer needs overhead clearance that an under-desk placement can block entirely, while a front-load printer generally tolerates the confined space better.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -471,11 +471,11 @@ export const faq: FaqItem[] = [
   {
     q: "Does a laser printer need special consideration for under-desk placement?",
     a: "Yes. Laser printers generate real heat and need airflow to dissipate it during longer print jobs, and a fully enclosed under-desk cabinet with no ventilation can trap that heat. An open-frame or ventilated stand, like the Hovadova CPU stand, is the safer choice for a laser printer than a solid-sided cabinet.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printer-stands-for-small-spaces", title: "Best Printer Stands for Small Spaces (2026)" },
   { href: "/guide/best-printer-tables-for-home-offices", title: "Best Printer Tables for Home Offices (2026)" },
-  { href: "/guide/best-printer-stands-with-storage", title: "Best Printer Stands with Storage (2026)" },
+  { href: "/guide/best-printer-stands-with-storage", title: "Best Printer Stands with Storage (2026)" }
 ];

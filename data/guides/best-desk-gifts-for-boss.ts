@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31epqoqtgCL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FNQ6TVMD?tag=deskfinds0d-20",
-    "description": "This set includes a desk pad, a two-tier letter tray, a phone stand, a pen holder, a memo holder and a business card holder, with 13 pieces in total. It is made of PU leather with fine stitching, which the listing calls waterproof and scratch-resistant.\n\nAt $199.99 it costs ten times the other picks, so it only makes sense as a pooled team gift or a retirement present. Compared with the single plaques below, it does a real organizing job and replaces a boss's whole desk setup.\n\nBest for a group of coworkers who want to give something substantial. The caveat is price: it is PU leather, not genuine leather, and an individual buying this for a manager could look like over-gifting.",
+    "description": "This set includes a desk pad, a two-tier letter tray, a phone stand, a pen holder, a memo holder and a business card holder, with 13 pieces in total. It is made of PU leather with fine stitching, which the listing calls waterproof and scratch-resistant.\n\nAt under $200 it costs ten times the other picks, so it only makes sense as a pooled team gift or a retirement present. Compared with the single plaques below, it does a real organizing job and replaces a boss's whole desk setup.\n\nBest for a group of coworkers who want to give something substantial. The caveat is price: it is PU leather, not genuine leather, and an individual buying this for a manager could look like over-gifting.",
     "specs": [
       "13 pieces, PU leather",
       "Desk pad, letter tray, phone stand",

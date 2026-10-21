@@ -108,7 +108,7 @@ export default async function BestMonitorLightBarsPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Monitor Light Bars", item: `${SITE_URL}/guide/best-monitor-light-bars` },
+      { "@type": "ListItem", position: 3, name: "Best Monitor Light Bars", item: `${SITE_URL}/guide/best-monitor-light-bars` }
     ],
   };
 
@@ -245,7 +245,7 @@ export default async function BestMonitorLightBarsPage() {
                 for setups where room lighting changes significantly through the day, such as
                 setups near windows. If your room maintains consistent lighting, manual brightness
                 control is sufficient and saves cost. The Quntis Computer Monitor Lamp is the
-                most validated auto-dimming option in this roundup at $39.95.
+                most validated auto-dimming option in this roundup at under $40.
               </p>
             </div>
             <div className="p-4 rounded-xl border border-border bg-white">
@@ -299,7 +299,7 @@ export default async function BestMonitorLightBarsPage() {
                     { tier: "Budget", price: "$17-$32", features: "Touch control, basic CRI, USB-A or USB-C" },
                     { tier: "Mid-range", price: "$33-$65", features: "Auto-dimming, remote, CRI 95+, backlight option" },
                     { tier: "Premium", price: "$100-$150", features: "Wireless dial, Razer Chroma/Govee smart app, wide bar" },
-                    { tier: "Flagship", price: "$150-$250", features: "BenQ desk dial, bias backlight, curved compat, USB hub" },
+                    { tier: "Flagship", price: "$150-$250", features: "BenQ desk dial, bias backlight, curved compat, USB hub" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.tier}</td>
@@ -328,14 +328,14 @@ export default async function BestMonitorLightBarsPage() {
           <h2 className="text-xl font-bold text-ink mb-5 tracking-tight">Bottom Line</h2>
           <div className="space-y-4">
             {[
-              { context: "Best overall", id: "quntis-monitor-lamp", name: "Quntis Computer Monitor Lamp", verdict: " - 13,623 reviews at 4.6 stars, $39.95, most validated light bar in this roundup." },
-              { context: "Best premium", id: "benq-screenbar-plus", name: "BenQ ScreenBar Plus", verdict: " - 10,671 reviews at 4.5 stars, $119.99, desk dial control and USB hub." },
-              { context: "Best flagship", id: "benq-screenbar-halo", name: "BenQ ScreenBar Halo", verdict: " - 4,108 reviews at 4.5 stars, $219.99, rear backlight and curved monitor support." },
-              { context: "Best budget", id: "baseus-monitor-light", name: "Baseus Monitor Light Bar", verdict: " - 1,432 reviews at 4.5 stars, $45.99, best value mid-range option." },
-              { context: "Best gaming RGB", id: "govee-gaming-g1", name: "Govee Gaming Monitor Light G1", verdict: " - 400 reviews at 4.6 stars, $59.99, Govee app smart lighting integration." },
-              { context: "Best under $50", id: "quntis-with-backlight", name: "Quntis with Backlight and Remote", verdict: " - 971 reviews at 4.7 stars, $49.99, highest rated in under-$50 category." },
-              { context: "Best Razer", id: "razer-aether-bar", name: "Razer Aether Monitor Light", verdict: " - 168 reviews at 4.5 stars, $99.99, Razer Chroma integration." },
-              { context: "Best wireless dial", id: "yeelight-pro-wireless", name: "Yeelight Monitor Light Bar Pro", verdict: " - 3,826 reviews at 4.5 stars, $49.99, wireless dial control under $50." },
+              { context: "Best overall", id: "quntis-monitor-lamp", name: "Quntis Computer Monitor Lamp", verdict: " - Under $40, most validated light bar in this roundup." },
+              { context: "Best premium", id: "benq-screenbar-plus", name: "BenQ ScreenBar Plus", verdict: " - Under $120, desk dial control and USB hub." },
+              { context: "Best flagship", id: "benq-screenbar-halo", name: "BenQ ScreenBar Halo", verdict: " - Under $250, rear backlight and curved monitor support." },
+              { context: "Best budget", id: "baseus-monitor-light", name: "Baseus Monitor Light Bar", verdict: " - Under $50, best value mid-range option." },
+              { context: "Best gaming RGB", id: "govee-gaming-g1", name: "Govee Gaming Monitor Light G1", verdict: " - Under $60, Govee app smart lighting integration." },
+              { context: "Best under $50", id: "quntis-with-backlight", name: "Quntis with Backlight and Remote", verdict: " - Under $50, highest rated in under-$50 category." },
+              { context: "Best Razer", id: "razer-aether-bar", name: "Razer Aether Monitor Light", verdict: " - Under $100, Razer Chroma integration." },
+              { context: "Best wireless dial", id: "yeelight-pro-wireless", name: "Yeelight Monitor Light Bar Pro", verdict: " - Under $50, wireless dial control under $50." }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

@@ -5,7 +5,7 @@ export const metaDescription = "Five borosilicate glass electric kettles of 1.7 
 export const mainKeyword = "glass electric kettle";
 export const introParagraphs = [
   "Glass kettles sell on a visual promise: you can see the water and watch it boil, and the water never touches a metallic taste. The catch is that nearly every glass kettle puts something else in the water path, usually a plastic lid, a stainless base or a plastic outer shell, so the phrase glass kettle describes the body and says little about what the water actually contacts.",
-  "Only five glass kettles in our data set met the bar for this guide, all at 1.7 to 1.8 liters and $26.98 to $50.99. We compared them on listed specs: wattage, borosilicate glass named, double-wall design, temperature presets, keep-warm, lid type and the plastic or stainless parts the listing admits. Glass shows scale quickly in hard water, so we also looked at opening width for cleaning."
+  "Only five glass kettles in our data set met the bar for this guide, all at 1.7 to 1.8 liters and roughly $30 to $60. We compared them on listed specs: wattage, borosilicate glass named, double-wall design, temperature presets, keep-warm, lid type and the plastic or stainless parts the listing admits. Glass shows scale quickly in hard water, so we also looked at opening width for cleaning."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41yJ4Aum2DL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GGXMFNF7?tag=deskfinds0d-20",
-    "description": "Cosori is a 1.7 liter, 1500W borosilicate glass kettle that the listing says has no plastic contact with the water, a wide mouth, a large-angle lid and a one-touch dual-angle opening. It lists boiling a full cup in under 3 minutes.\n\nIt is the only one here that claims no plastic water contact, which is the key weakness of the rest. At $29.99 it also undercuts Plaman and Elite Gourmet, though it has no temperature presets.\n\nBest for a plain glass kettle with the cleanest water path. The caveat is that the one-cup boil claim is best case, and there are no presets or keep-warm.",
+    "description": "Cosori is a 1.7 liter, 1500W borosilicate glass kettle that the listing says has no plastic contact with the water, a wide mouth, a large-angle lid and a one-touch dual-angle opening. It lists boiling a full cup in under 3 minutes.\n\nIt is the only one here that claims no plastic water contact, which is the key weakness of the rest. At under $30 it also undercuts Plaman and Elite Gourmet, though it has no temperature presets.\n\nBest for a plain glass kettle with the cleanest water path. The caveat is that the one-cup boil claim is best case, and there are no presets or keep-warm.",
     "specs": [
       "1.7L, 1500W, borosilicate glass",
       "No plastic water contact claimed",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41ekQf27r8L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CKY7KSCV?tag=deskfinds0d-20",
-    "description": "This Elite Gourmet is a 1.7 liter, 1100W dual-wall kettle with borosilicate glass, a 304 stainless interior, touchscreen presets, a real-time display, a hinged lid and a keep-warm that lasts up to 2 hours. It has auto-off, boil-dry protection and an audible indicator.\n\nIts 1100W draws less than the 1500W models, and presets plus keep-warm cost only $34.99. Against Plaman, it has a shorter hold and no stated plastic shell but a lower price.\n\nChoose it for presets at a low price with a lower load. The caveat is that the listing says BPA-free parts, which is not the same as plastic-free.",
+    "description": "This Elite Gourmet is a 1.7 liter, 1100W dual-wall kettle with borosilicate glass, a 304 stainless interior, touchscreen presets, a real-time display, a hinged lid and a keep-warm that lasts up to 2 hours. It has auto-off, boil-dry protection and an audible indicator.\n\nIts 1100W draws less than the 1500W models, and presets plus keep-warm cost under $35. Against Plaman, it has a shorter hold and no stated plastic shell but a lower price.\n\nChoose it for presets at a low price with a lower load. The caveat is that the listing says BPA-free parts, which is not the same as plastic-free.",
     "specs": [
       "1.7L, 1100W, dual wall",
       "Touchscreen presets, 2 hour hold",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/415+p6eRIPL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CH2L64WY?tag=deskfinds0d-20",
-    "description": "Plaman has a borosilicate glass inner chamber and an outer BPA-free PC shell that stays under 140F, six presets from 212F down for tea and coffee, a keep-warm of 4 hours and 1500W heating. The listing says 1 liter boils in 4 minutes and 1.7 liters in 7.\n\nIt has the most presets and the longest hold here, but it costs $50.99 and its outer shell is plastic, though not water-contacting. Against Elite Gourmet, it offers a longer hold and larger preset set.\n\nBest for tea drinkers who want temperature presets and a cool exterior. The caveat is price, and that a plastic shell adds a layer of plastic near the glass.",
+    "description": "Plaman has a borosilicate glass inner chamber and an outer BPA-free PC shell that stays under 140F, six presets from 212F down for tea and coffee, a keep-warm of 4 hours and 1500W heating. The listing says 1 liter boils in 4 minutes and 1.7 liters in 7.\n\nIt has the most presets and the longest hold here, but it costs under $60 and its outer shell is plastic, though not water-contacting. Against Elite Gourmet, it offers a longer hold and larger preset set.\n\nBest for tea drinkers who want temperature presets and a cool exterior. The caveat is price, and that a plastic shell adds a layer of plastic near the glass.",
     "specs": [
       "1.7L, 1500W, 6 presets",
       "4 hour keep warm",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/311dZHPh5AL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07JZQ1MXT?tag=deskfinds0d-20",
-    "description": "Amazon Basics is a 1.7 liter, 1500W kettle with a glass carafe, a Strix thermostat, auto shut-off, boil-dry protection, a water level indicator and a blue LED while boiling. The listing says water-contact materials are BPA-free.\n\nIt names a Strix thermostat, which none of the others do, and costs $31.23. Against Cosori, it adds an LED but makes no plastic-free claim, and BPA-free is vague.\n\nChoose it for a plain glass kettle with a named thermostat. The caveat is that BPA-free does not mean plastic-free, and there are no presets.",
+    "description": "Amazon Basics is a 1.7 liter, 1500W kettle with a glass carafe, a Strix thermostat, auto shut-off, boil-dry protection, a water level indicator and a blue LED while boiling. The listing says water-contact materials are BPA-free.\n\nIt names a Strix thermostat, which none of the others do, and costs under $35. Against Cosori, it adds an LED but makes no plastic-free claim, and BPA-free is vague.\n\nChoose it for a plain glass kettle with a named thermostat. The caveat is that BPA-free does not mean plastic-free, and there are no presets.",
     "specs": [
       "1.7L, 1500W, glass carafe",
       "Strix thermostat",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/412P06W9+zL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DT4SF9H3?tag=deskfinds0d-20",
-    "description": "Mueller is a 1.8 liter, 1500W borosilicate glass kettle with a stainless spout and built-in filter, LED light, auto shut-off, boil-dry protection and a fully removable lid. It is backed by US-based support and a US warranty per the listing.\n\nIt is the largest and cheapest at $26.98, and the removable lid lets you reach the whole top for cleaning, which is better than hinged lids. It has no presets and no stated plastic-free claim.\n\nBest for a big, cheap glass kettle that is easy to clean. The caveat is a first-use instruction to run a couple of boil-and-discard cycles, and the listing admits spots may appear.",
+    "description": "Mueller is a 1.8 liter, 1500W borosilicate glass kettle with a stainless spout and built-in filter, LED light, auto shut-off, boil-dry protection and a fully removable lid. It is backed by US-based support and a US warranty per the listing.\n\nIt is the largest and cheapest at under $30, and the removable lid lets you reach the whole top for cleaning, which is better than hinged lids. It has no presets and no stated plastic-free claim.\n\nBest for a big, cheap glass kettle that is easy to clean. The caveat is a first-use instruction to run a couple of boil-and-discard cycles, and the listing admits spots may appear.",
     "specs": [
       "1.8L, 1500W, borosilicate glass",
       "Stainless spout with filter",
@@ -207,7 +207,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     "title": "Value for price",
-    "description": "Prices from $26.98 to $50.99 were compared with documented features."
+    "description": "Prices from roughly $30 to $60 were compared with documented features."
   }
 ];
 

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "smart lcd writing tablet";
 export const introParagraphs = [
   "'Smart' should mean genuine connectivity or save-to-app capability, not just an LCD screen, and within this specific category of plain LCD writing tablets, that genuine smart functionality is a small niche. Only one product in this list actually connects to an app via Bluetooth, the rest are included as capable, well-featured non-connected alternatives.",
-  "If you're looking for a broader digital notebook with smart pen syncing, real-time text conversion, or cloud storage, that's a separate and larger product category from the plain erase-only LCD writing tablets covered here, worth searching separately if that's genuinely what you need.",
+  "If you're looking for a broader digital notebook with smart pen syncing, real-time text conversion, or cloud storage, that's a separate and larger product category from the plain erase-only LCD writing tablets covered here, worth searching separately if that's genuinely what you need."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "'Smart' defined strictly as genuine connectivity or save capability", description: "Only classified a product as genuinely smart if it offered explicit Bluetooth sync or app-based note saving, not simply a modern or rechargeable design." },
   { title: "Non-connected alternatives clearly labeled, not miscategorized", description: "Presented the five non-connected picks transparently as capable alternatives rather than implying they share the genuine smart functionality of the top pick." },
   { title: "Digital notebook category distinguished from plain LCD tablets", description: "Kept this guide scoped to plain LCD writing tablets, noting that broader smart pen and digital notebook products are a separate, larger category." },
-  { title: "Rechargeable and connected features distinguished explicitly", description: "Clarified that USB rechargeability is a convenience feature, not evidence of genuine app or Bluetooth connectivity." },
+  { title: "Rechargeable and connected features distinguished explicitly", description: "Clarified that USB rechargeability is a convenience feature, not evidence of genuine app or Bluetooth connectivity." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -254,11 +254,11 @@ export const faq: FaqItem[] = [
   { q: "Are LCD writing tablets generally smart devices?", a: "No, most are plain erase-only screens with no connectivity. Only models explicitly stating Bluetooth sync qualify as genuinely smart." },
   { q: "Which LCD writing tablet is actually smart?", a: "The Boogie Board Sync is the genuine option, it connects via Bluetooth and saves handwritten notes to an app before you erase the screen." },
   { q: "Does 'digital' in the product name mean it's connected?", a: "No, 'digital' typically just refers to the LCD screen technology itself, not any app or Bluetooth connectivity." },
-  { q: "Is a rechargeable LCD writing tablet smart?", a: "Not necessarily, rechargeable refers to how the battery is powered, it doesn't mean the device connects to an app or saves data." },
+  { q: "Is a rechargeable LCD writing tablet smart?", a: "Not necessarily, rechargeable refers to how the battery is powered, it doesn't mean the device connects to an app or saves data." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-lcd-writing-tablets-for-note-taking", title: "Best LCD Writing Tablets for Note-Taking (2026)" },
   { href: "/guide/best-rechargeable-lcd-writing-tablets", title: "Best Rechargeable LCD Writing Tablets (2026)" },
-  { href: "/guide/best-lcd-writing-tablets-for-adults", title: "Best LCD Writing Tablets for Adults (2026)" },
+  { href: "/guide/best-lcd-writing-tablets-for-adults", title: "Best LCD Writing Tablets for Adults (2026)" }
 ];

@@ -5,7 +5,7 @@ export const metaDescription = "7 scanners for searchable PDF creation, with an 
 export const mainKeyword = "document scanner for searchable PDF";
 export const introParagraphs = [
   "A searchable PDF is an image with an invisible OCR text layer overlaid, its search reliability is only as good as the underlying OCR accuracy. Marketing treats searchable PDF as a solved capability without disclosing that poor OCR on the source scan directly produces unreliable search results, we test the two together rather than as separate features.",
-  "Also worth knowing: batch searchable-PDF creation is slower than raw scanning, and PDF/A archival compliance (required by some legal/government retention rules) is a separate spec from basic searchable PDF output that not all bundled software supports.",
+  "Also worth knowing: batch searchable-PDF creation is slower than raw scanning, and PDF/A archival compliance (required by some legal/government retention rules) is a separate spec from basic searchable PDF output that not all bundled software supports."
 ];
 export const lastUpdated = "2026-07-29";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Searchable PDF Pick",
     name: "ScanSnap iX2500 Wireless or USB High-Speed Document Scanner",
     price: "Check current price",
-    rating: "4.4 stars from 326 Amazon ratings",
-    reviews: "326 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41wHhR2WCpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9B1H5VN?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Searchable PDF Plus Office Conversion",
     name: "Epson Workforce ES-580W Wireless Color Duplex Desktop Document Scanner",
     price: "$379.99",
-    rating: "4.3 stars from 5,857 Amazon ratings",
-    reviews: "5,857 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Ty0waBx4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KQZWPYN?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Searchable PDF Pick",
     name: "ScanSnap iX1300 Wireless or USB Double-Sided Color Document Scanner, White",
     price: "$279.99",
-    rating: "4.2 stars from 1,768 Amazon ratings",
-    reviews: "1,768 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41yWYf2uT0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FX5DWBK?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Highest-Rated Searchable PDF Pick",
     name: "Epson Workforce ES-400 II High-Speed Color Duplex Desktop Document Scanner",
     price: "$299.99",
-    rating: "4.5 stars from 1,226 Amazon ratings",
-    reviews: "1,226 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41rW4JApydL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08P3YVH3X?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Office-Class Alternative",
     name: "Canon imageFORMULA DR-C225 II Office Document Scanner",
     price: "$267.00",
-    rating: "4.1 stars from 442 Amazon ratings",
-    reviews: "442 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/418QNsyyrDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07FPQZ6H8?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Portable Searchable PDF Pick",
     name: "Canon imageFORMULA R10 Portable Document Scanner, USB Powered, Duplex",
     price: "$184.00",
-    rating: "4.1 stars from 2,338 Amazon ratings",
-    reviews: "2,338 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/218Q14ube6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08FBHTD9B?tag=deskfinds0d-20",
     description:
@@ -127,8 +127,8 @@ export const products: GuideProduct[] = [
     badge: "Alt Reference for Wireless Batch Archival",
     name: "Epson Workforce ES-580W Wireless Color Duplex Desktop Document Scanner (Batch Reference)",
     price: "$379.99",
-    rating: "4.4 stars from 1,004 Amazon ratings",
-    reviews: "1,004 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Ty0waBx4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08P3ZT5WH?tag=deskfinds0d-20",
     description:
@@ -137,14 +137,14 @@ export const products: GuideProduct[] = [
     pros: ["Same proven ES-580W capability as the rank-2 listing", "Searchable PDF plus Word/Excel conversion", "Solid rating on this specific listing", "Wireless connectivity built in"],
     cons: ["Compare pricing against the other ES-580W listing before buying", "PDF/A compliance not confirmed", "Batch OCR processing adds real time to large archival projects"],
     bestFor: "Buyers comparing ES-580W listings for the best current price on searchable PDF capability",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Searchable PDF reliability tested as dependent on OCR accuracy", description: "Evaluated searchable PDF output as bounded by the underlying OCR accuracy rather than a separately solved feature, since a searchable PDF is just an image with an OCR text layer overlaid." },
   { title: "PDF/A archival compliance disclosure", description: "Checked whether any listing confirms PDF/A standard compliance, required for some legal/government retention rules, none of the picks in this guide explicitly disclose this." },
-  { title: "Batch processing time versus raw scan time for large archival projects", description: "Noted that OCR processing to generate the searchable text layer adds meaningful time beyond the raw scan time, a real consideration for large multi-hundred-page archival digitization projects." },
+  { title: "Batch processing time versus raw scan time for large archival projects", description: "Noted that OCR processing to generate the searchable text layer adds meaningful time beyond the raw scan time, a real consideration for large multi-hundred-page archival digitization projects." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -281,11 +281,11 @@ export const faq: FaqItem[] = [
   { q: "Will a large batch scan job become searchable as fast as it scans?", a: "No. OCR processing to generate the searchable text layer adds real time beyond the raw scan time, a large multi-hundred-page project will take longer to become fully searchable than the scan time alone suggests." },
   { q: "How much scan resolution do I need for reliable searchable PDF text?", a: "At least 300 DPI for a clean original document. Lower resolution, especially on faxed or low-contrast source documents, produces meaningfully worse OCR text extraction and less reliable search results." },
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers who want the cleanest source scans for reliable searchable PDF text layers" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want the cleanest source scans for reliable searchable PDF text layers At Check current price, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want the cleanest source scans for reliable searchable PDF text layers At Check current price, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-document-scanners-with-ocr", title: "Best Document Scanners with OCR (2026)" },
   { href: "/guide/best-document-scanners-for-tax-documents", title: "Best Document Scanners for Tax Documents (2026)" },
-  { href: "/guide/best-document-scanners-for-lawyers", title: "Best Document Scanners for Lawyers (2026)" },
+  { href: "/guide/best-document-scanners-for-lawyers", title: "Best Document Scanners for Lawyers (2026)" }
 ];

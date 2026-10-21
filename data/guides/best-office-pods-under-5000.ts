@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41CIzD4MgGL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DCBMP6TL?tag=deskfinds0d-20",
-    "description": "GEARONIC Mobile Office Pod Booth is built around optimal dimensions for office use, paired with advanced acoustic design, positioning it as a self-contained soundproof space built for a specific use case rather than a one-size-fits-all booth.\n\nCompared to VOLFERDA Soundproof Office Pod Booth at $3999.98, it costs more for real added capability, while sitting well below Office Rest Pod at $4999 for buyers who don't need that top-tier spec.\n\nThis pick best suits offices or homes needing a dedicated quiet space for calls or focused work without a full room renovation. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "GEARONIC Mobile Office Pod Booth is built around optimal dimensions for office use, paired with advanced acoustic design, positioning it as a self-contained soundproof space built for a specific use case rather than a one-size-fits-all booth.\n\nCompared to VOLFERDA Soundproof Office Pod Booth at under $4,000, it costs more for real added capability, while sitting well below Office Rest Pod at under $5,000 for buyers who don't need that top-tier spec.\n\nThis pick best suits offices or homes needing a dedicated quiet space for calls or focused work without a full room renovation. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Optimal Dimensions for Office Use",
       "Advanced Acoustic Design",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41CS05OxOML._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FM85D7CJ?tag=deskfinds0d-20",
-    "description": "Soundproof Office Pod Booth leads with [advanced soundproofing] equipped with 2, backed by [spacious interior dimensions] measures w55in, a combination aimed at as a self-contained soundproof space built for a specific use case rather than a one-size-fits-all booth.\n\nCompared to VOLFERDA Soundproof Office Pod Booth at $3999.98, it costs more for real added capability, while sitting well below Office Rest Pod at $4999 for buyers who don't need that top-tier spec.\n\nThis pick best suits offices or homes needing a dedicated quiet space for calls or focused work without a full room renovation. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "Soundproof Office Pod Booth leads with [advanced soundproofing] equipped with 2, backed by [spacious interior dimensions] measures w55in, a combination aimed at as a self-contained soundproof space built for a specific use case rather than a one-size-fits-all booth.\n\nCompared to VOLFERDA Soundproof Office Pod Booth at under $4,000, it costs more for real added capability, while sitting well below Office Rest Pod at under $5,000 for buyers who don't need that top-tier spec.\n\nThis pick best suits offices or homes needing a dedicated quiet space for calls or focused work without a full room renovation. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "[Advanced Soundproofing] Equipped with 2",
       "[Spacious Interior Dimensions] Measures W55in",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/410Ppc6zuZL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FK2ZZM99?tag=deskfinds0d-20",
-    "description": "What stands out on KB Housing Soundproof Office Pod Phone Booth - Private is superior noise reduction, alongside perfect portable recording booth, which is the main reason it earns a spot in this office pods comparison.\n\nCompared to VOLFERDA Soundproof Office Pod Booth at $3999.98, it costs more for real added capability, while sitting well below Office Rest Pod at $4999 for buyers who don't need that top-tier spec.\n\nThis pick best suits offices or homes needing a dedicated quiet space for calls or focused work without a full room renovation. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "What stands out on KB Housing Soundproof Office Pod Phone Booth - Private is superior noise reduction, alongside perfect portable recording booth, which is the main reason it earns a spot in this office pods comparison.\n\nCompared to VOLFERDA Soundproof Office Pod Booth at under $4,000, it costs more for real added capability, while sitting well below Office Rest Pod at under $5,000 for buyers who don't need that top-tier spec.\n\nThis pick best suits offices or homes needing a dedicated quiet space for calls or focused work without a full room renovation. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Superior Noise Reduction",
       "Perfect Portable Recording Booth",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51hQD+0wZxL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HLXK82HM?tag=deskfinds0d-20",
-    "description": "What stands out on Portable Soundproof Booth is professional acoustic isolation:the booth effectively, alongside materials, which is the main reason it earns a spot in this office pods comparison.\n\nCompared to VOLFERDA Soundproof Office Pod Booth at $3999.98, it costs more for real added capability, while sitting well below Office Rest Pod at $4999 for buyers who don't need that top-tier spec.\n\nThis pick best suits offices or homes needing a dedicated quiet space for calls or focused work without a full room renovation. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "What stands out on Portable Soundproof Booth is professional acoustic isolation:the booth effectively, alongside materials, which is the main reason it earns a spot in this office pods comparison.\n\nCompared to VOLFERDA Soundproof Office Pod Booth at under $4,000, it costs more for real added capability, while sitting well below Office Rest Pod at under $5,000 for buyers who don't need that top-tier spec.\n\nThis pick best suits offices or homes needing a dedicated quiet space for calls or focused work without a full room renovation. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Professional Acoustic Isolation:The booth effectively",
       "Materials",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51RLFCE+K5L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GCJR5TTZ?tag=deskfinds0d-20",
-    "description": "VESTAEL Soundproof Office Pod Booth leads with built for the modern professional, backed by optimal dimensions for multi-space use, a combination aimed at as a self-contained soundproof space built for a specific use case rather than a one-size-fits-all booth.\n\nIt lands between VOLFERDA Soundproof Office Pod Booth's $3999.98 price floor and Office Rest Pod's $4999 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nVESTAEL Soundproof Office Pod Booth is the right call for offices or homes needing a dedicated quiet space for calls or focused work without a full room renovation. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "VESTAEL Soundproof Office Pod Booth leads with built for the modern professional, backed by optimal dimensions for multi-space use, a combination aimed at as a self-contained soundproof space built for a specific use case rather than a one-size-fits-all booth.\n\nIt lands between VOLFERDA Soundproof Office Pod Booth's under $4,000 price floor and Office Rest Pod's $4999 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nVESTAEL Soundproof Office Pod Booth is the right call for offices or homes needing a dedicated quiet space for calls or focused work without a full room renovation. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Built for the Modern Professional",
       "Optimal Dimensions for Multi-Space Use",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41NDm8fKTyL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GYX7Z7RV?tag=deskfinds0d-20",
-    "description": "VESTAEL Solo Office Pod Portable Soundproof Booth for Privacy leads with sturdy materials, backed by excellent sound insulation, a combination aimed at as a self-contained soundproof space built for a specific use case rather than a one-size-fits-all booth.\n\nCompared to VOLFERDA Soundproof Office Pod Booth at $3999.98, it costs more for real added capability, while sitting well below Office Rest Pod at $4999 for buyers who don't need that top-tier spec.\n\nThis pick best suits offices or homes needing a dedicated quiet space for calls or focused work without a full room renovation. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "VESTAEL Solo Office Pod Portable Soundproof Booth for Privacy leads with sturdy materials, backed by excellent sound insulation, a combination aimed at as a self-contained soundproof space built for a specific use case rather than a one-size-fits-all booth.\n\nCompared to VOLFERDA Soundproof Office Pod Booth at under $4,000, it costs more for real added capability, while sitting well below Office Rest Pod at under $5,000 for buyers who don't need that top-tier spec.\n\nThis pick best suits offices or homes needing a dedicated quiet space for calls or focused work without a full room renovation. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Sturdy Materials",
       "Excellent Sound Insulation",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41lUgPRzjzL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GC67YGDZ?tag=deskfinds0d-20",
-    "description": "VOLFERDA Soundproof Office Pod Booth leads with multi-scene versatility, backed by robust & stable structure, a combination aimed at as a self-contained soundproof space built for a specific use case rather than a one-size-fits-all booth.\n\nPriced at $3999.98, the lowest in this lineup, it trades some of the extras found on pricier picks here for a lower upfront cost, a reasonable tradeoff if your needs are basic.\n\nVOLFERDA Soundproof Office Pod Booth is the right call for offices or homes needing a dedicated quiet space for calls or focused work without a full room renovation. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "VOLFERDA Soundproof Office Pod Booth leads with multi-scene versatility, backed by robust & stable structure, a combination aimed at as a self-contained soundproof space built for a specific use case rather than a one-size-fits-all booth.\n\nPriced at under $4,000, the lowest in this lineup, it trades some of the extras found on pricier picks here for a lower upfront cost, a reasonable tradeoff if your needs are basic.\n\nVOLFERDA Soundproof Office Pod Booth is the right call for offices or homes needing a dedicated quiet space for calls or focused work without a full room renovation. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Multi-Scene Versatility",
       "Robust & Stable Structure",
@@ -321,11 +321,11 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $3999.98",
+          "Under $4,000",
           "VOLFERDA Soundproof Office Pod Booth"
         ],
         [
-          "Around $4298.99",
+          "Under $4,300",
           "VESTAEL Solo Office Pod Portable Soundproof Booth for Privacy"
         ],
         [
@@ -360,11 +360,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "VOLFERDA Soundproof Office Pod Booth",
-        "text": "The lowest-priced pick in this comparison at $3999.98, a solid choice if you don't need the extras the pricier picks carry."
+        "text": "The lowest-priced pick in this comparison at under $4,000, a solid choice if you don't need the extras the pricier picks carry."
       },
       {
         "label": "Office Rest Pod",
-        "text": "The highest-priced pick at $4999, worth it only if you'll actually use what that premium buys."
+        "text": "The highest-priced pick at under $5,000, worth it only if you'll actually use what that premium buys."
       }
     ],
     "note": "Default to VOLFERDA Soundproof Office Pod Booth unless the pricier pick's specific advantage genuinely applies to your situation."
@@ -424,7 +424,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "What's the real difference between the cheapest and most expensive pick here?",
-    "a": "VOLFERDA Soundproof Office Pod Booth at $3999.98 covers the basics, while Office Rest Pod at $4999 adds better sound isolation and more robust ventilation. Whether that's worth the difference depends on how often and how long you'll use the pod daily, since ventilation and sound isolation matter more for all-day use than occasional calls."
+    "a": "VOLFERDA Soundproof Office Pod Booth at under $4,000 covers the basics, while Office Rest Pod at under $5,000 adds better sound isolation and more robust ventilation. Whether that's worth the difference depends on how often and how long you'll use the pod daily, since ventilation and sound isolation matter more for all-day use than occasional calls."
   },
   {
     "q": "Will an office pod actually block sound effectively?",
@@ -436,7 +436,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "Is there a solid middle-ground pick in this price range?",
-    "a": "KB Housing Soundproof Office Pod Phone Booth - Private at $4949 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
+    "a": "KB Housing Soundproof Office Pod Phone Booth - Private at under $5,000 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
   },
   {
     "q": "What's the most common mistake buyers make shopping office pods under $5000?",

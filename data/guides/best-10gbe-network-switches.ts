@@ -172,11 +172,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "TRENDnet TEG-S762 6-Port 10G Switch",
-        "text": "TRENDnet TEG-S762 6-Port 10G Switch is aimed at buyers prioritizing 2x10g + 4x2.5g ports, 60gbps capacity At $91.99, it's the lowest-cost pick in this comparison."
+        "text": "TRENDnet TEG-S762 6-Port 10G Switch is aimed at buyers prioritizing 2x10g + 4x2.5g ports, 60gbps capacity At under $100, it's the lowest-cost pick in this comparison."
       },
       {
         "label": "TP-Link TL-SX105 5-Port 10G Unmanaged Switch",
-        "text": "TP-Link TL-SX105 5-Port 10G Unmanaged Switch is aimed at buyers prioritizing 5x 10g ports, 100gbps switching capacity At $229.99, it sits at the higher end of this comparison's price range."
+        "text": "TP-Link TL-SX105 5-Port 10G Unmanaged Switch is aimed at buyers prioritizing 5x 10g ports, 100gbps switching capacity At under $250, it sits at the higher end of this comparison's price range."
       }
     ],
     "note": "Most buyers should default to TRENDnet TEG-S762 6-Port 10G Switch unless the pricier pick's specific advantage applies to your situation."
@@ -207,7 +207,7 @@ export const howToChoose: HowToChooseSection[] = [
       }
     ],
     "note": "Default to TRENDnet TEG-S762 6-Port 10G Switch unless the pricier pick's specific advantage genuinely applies to your situation."
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -248,9 +248,9 @@ export const faq = [
   }
 ,
   { "q": "What's the single best pick to come out of this comparison?", "a": "TP-Link TL-SX105 5-Port 10G Unmanaged Switch is aimed at buyers prioritizing 5x 10g ports, 100gbps switching capacity" },
-  { q: "Which pick offers the best value for a tight budget?", "a": "TRENDnet TEG-S762 6-Port 10G Switch is aimed at buyers prioritizing 2x10g + 4x2.5g ports, 60gbps capacity At $91.99, it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $91.99 to $229.99, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
-  { q: "Is the most expensive pick in this comparison worth the extra cost?", "a": "TP-Link TL-SX105 5-Port 10G Unmanaged Switch is aimed at buyers prioritizing 5x 10g ports, 100gbps switching capacity Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
+  { q: "Which pick offers the best value for a tight budget?", "a": "TRENDnet TEG-S762 6-Port 10G Switch is aimed at buyers prioritizing 2x10g + 4x2.5g ports, 60gbps capacity At under $100, it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $100 to $250, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", "a": "TP-Link TL-SX105 5-Port 10G Unmanaged Switch is aimed at buyers prioritizing 5x 10g ports, 100gbps switching capacity Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-5gbe-network-switches","title":"5 Best 5GbE Network Switches in 2026"},{"href":"/guide/best-sfp-network-switches","title":"6 Best SFP Network Switches in 2026"},{"href":"/guide/best-2-5gbe-network-switches","title":"8 Best 2.5GbE Network Switches in 2026"}];

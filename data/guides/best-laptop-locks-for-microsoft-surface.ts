@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop locks for Microsoft Surface";
 export const introParagraphs = [
   "Surface devices often need purpose-built security products because many Surface models don't follow a conventional laptop-lock workflow, with detachable keyboards, kickstands, and docking arrangements creating device-specific interference risks that a generic laptop lock doesn't account for.",
-  "We used a current Surface compatibility list rather than treating Pro, Go, and Laptop hardware as interchangeable, since kickstand and keyboard clearance issues affect each Surface line differently.",
+  "We used a current Surface compatibility list rather than treating Pro, Go, and Laptop hardware as interchangeable, since kickstand and keyboard clearance issues affect each Surface line differently."
 ];
 export const lastUpdated = "2026-08-11";
 export const readTime = "8 min";
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     reviews: "420",
     imageUrl: "https://m.media-amazon.com/images/I/413AVH2+RbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01C6T36EY?tag=deskfinds0d-20",
-    description: "Explicitly names Microsoft Surface among compatible devices via the included anchor plate, alongside laptops with a Standard slot directly. This carries a large confirmed review base at 420 reviews, second only to the AboveTEK locking station in this comparison.\n\nRanked just behind Kensington Computer Lock Adapter Kit, it costs more than Kensington Computer Lock Adapter Kit. The real tradeoff against that pick: Adhesive anchor still carries cosmetic residue risk on removal. In exchange, it offers this instead: Explicit Microsoft Surface compatibility named in the listing. That's the swap that decides whether this pick or the one above it is the better fit for your laptop.\n\nWorth knowing before you decide: Second-largest confirmed review base in this comparison. On the other side, Listing itself warns some models require the separate adhesive plate. That's the main tradeoff to weigh against everything above.",
+    description: "Explicitly names Microsoft Surface among compatible devices via the included anchor plate, alongside laptops with a Standard slot directly.\n\nRanked just behind Kensington Computer Lock Adapter Kit, it costs more than Kensington Computer Lock Adapter Kit. The real tradeoff against that pick: Adhesive anchor still carries cosmetic residue risk on removal. In exchange, it offers this instead: Explicit Microsoft Surface compatibility named in the listing. That's the swap that decides whether this pick or the one above it is the better fit for your laptop.\n\nWorth knowing before you decide: Second-largest confirmed review base in this comparison. On the other side, Listing itself warns some models require the separate adhesive plate. That's the main tradeoff to weigh against everything above.",
     specs: ["Anchor plate for Surface, plus Standard slot laptop head","6.5 ft cut-resistant cable","Second-largest confirmed review base in this comparison"],
     pros: ["Explicit Microsoft Surface compatibility named in the listing","Second-largest confirmed review base in this comparison"],
     cons: ["Adhesive anchor still carries cosmetic residue risk on removal","Listing itself warns some models require the separate adhesive plate"],
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Used a current Surface compatibility list rather than treating Pro, Go, and Laptop as interchangeable", description: "Surface Pro's kickstand, Surface Laptop's clamshell design, and Surface Go's smaller footprint each create different clearance requirements we checked separately." },
   { title: "Separated purpose-built Surface locks from generic adapters and full locking stations", description: "We flagged which picks explicitly name Surface in their compatibility documentation versus general-purpose adapters that happen to work." },
   { title: "Checked kickstand, keyboard, and dock clearance while the security device is attached", description: "We evaluated whether each pick's design accounts for Surface Pro's kickstand angle or a detachable keyboard, not just direct slot or adhesive attachment." },
-  { title: "Flagged the port-blocker pick as a genuinely different product category", description: "We disclosed directly that the USB-C port blocker addresses data security, not physical anti-theft protection, rather than blending it into the cable-lock ranking." },
+  { title: "Flagged the port-blocker pick as a genuinely different product category", description: "We disclosed directly that the USB-C port blocker addresses data security, not physical anti-theft protection, rather than blending it into the cable-lock ranking." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -262,11 +262,11 @@ export const faq: FaqItem[] = [
   { q: "What's the best overall Surface laptop lock?", a: "The AboveTEK MacBook & Surface Laptop Locking Station, for its combination of the largest confirmed review base among Surface-specific picks and a pivot hinge that accommodates Surface Pro's kickstand viewing angles." },
   { q: "Is there a portable option for traveling with a Surface?", a: "Yes, the LORADAR Security Hardware Cable Lock Kit is self-coiling and compact, named compatible with Surface Book specifically." },
   { q: "What's the difference between a cable lock and a USB-C port blocker for Surface?", a: "A cable lock physically deters someone from taking the device. A USB-C port blocker prevents unauthorized charging or data transfer through the port. They solve different problems and can be used together." },
-  { q: "Are these locks theft-proof for a Surface device?", a: "No. Position any cable lock here as a theft deterrent that slows down or discourages casual theft, not a guarantee against a determined attacker with cutting tools." },
+  { q: "Are these locks theft-proof for a Surface device?", a: "No. Position any cable lock here as a theft deterrent that slows down or discourages casual theft, not a guarantee against a determined attacker with cutting tools." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-locks", title: "Best Laptop Locks (2026)" },
   { href: "/guide/best-usb-c-laptop-locks", title: "Best USB-C Laptop Locks (2026)" },
-  { href: "/guide/best-laptop-lock-adapters", title: "Best Laptop Lock Adapters (2026)" },
+  { href: "/guide/best-laptop-lock-adapters", title: "Best Laptop Lock Adapters (2026)" }
 ];

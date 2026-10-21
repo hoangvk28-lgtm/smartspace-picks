@@ -12,7 +12,7 @@ export const vpnForRemoteWorkExplainedGuide: Guide = {
     "what does work vpn do",
     "vpn slows down internet remote work",
     "company vpn vs personal vpn",
-    "vpn connection issues remote work",
+    "vpn connection issues remote work"
   ],
   heroImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const vpnForRemoteWorkExplainedGuide: Guide = {
     "ethernet-vs-wifi-for-desk-setup",
     "wifi-6-vs-wifi-5-explained",
     "kvm-switch-explained",
-    "latency-explained",
+    "latency-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const vpnForRemoteWorkExplainedGuide: Guide = {
       question: "What should I check first if my work VPN won't connect?",
       answer:
         "Verify your internet connection is working independently of the VPN first, then check for VPN client software updates, and confirm you're using current login credentials, many connection issues trace back to one of these basic checks rather than a deeper network problem.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const vpnForRemoteWorkExplainedGuide: Guide = {
     {
       heading: "Why Basic Checks Resolve Most Connection Issues",
       body: `Before assuming a deeper network problem when a work VPN won't connect, confirm your underlying internet connection works independently by browsing a regular website, then check whether your VPN client software has a pending update, and verify your login credentials haven't expired or changed, these three basic checks resolve the large majority of VPN connectivity issues without needing to involve IT support for a more complex diagnosis.`,
-    },
+    }
   ],
 };

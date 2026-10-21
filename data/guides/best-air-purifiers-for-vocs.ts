@@ -5,7 +5,7 @@ export const metaDescription = "5 air purifiers we evaluated for VOCs (volatile 
 export const mainKeyword = "air purifier for VOCs";
 export const introParagraphs = [
   "HEPA filters trap particulate matter, not gas-phase VOC (volatile organic compound) molecules, meaning a HEPA-only unit does essentially nothing for VOCs from paint, new furniture, or cleaning products without a genuine activated carbon stage.",
-  "Not all carbon filters are equal for VOCs specifically, the amount of carbon (measured in pounds or ounces, when published) correlates with real VOC-capture capacity far more than a marketing label like 'carbon filter' alone.",
+  "Not all carbon filters are equal for VOCs specifically, the amount of carbon (measured in pounds or ounces, when published) correlates with real VOC-capture capacity far more than a marketing label like 'carbon filter' alone."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Air Purifier for VOCs Overall",
     name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
-    rating: "4.6 stars from 28,866 Amazon ratings",
-    reviews: "28,866 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419pAe7T0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTKAPUU?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity VOC Pick",
     name: "Nuwave OxyPure Smart Air Purifier",
     price: "$799.99",
-    rating: "4.6 stars from 616 Amazon ratings",
-    reviews: "616 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31CulL9tCOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08K3R8QPF?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget VOC Pick",
     name: "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom, H13 True HEPA Filter, 24db Filtration System Cleaner Odor Eliminators, Remove 99.97% Dust Smoke Mold Pollen, Core 300, White",
     price: "$89.99",
-    rating: "4.7 stars from 108,251 Amazon ratings",
-    reviews: "108,251 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Airflow VOC Pick",
     name: "Blueair Air Purifiers for Home Large Room, 211i Max Air Purifier for Bedroom, HEPASilent Technology Removes 99.97% of Airborne Viruses, Allergens, Dust, Mold, Odors, Air Quality Sensor",
     price: "$349.00",
-    rating: "4.5 stars from 3,559 Amazon ratings",
-    reviews: "3,559 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31K9NLoXncL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BN2MGV5H?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact VOC Pick",
     name: "Germ Guardian True HEPA Filter Air Purifier for Home",
     price: "$80.74",
-    rating: "4.6 stars from 63,485 Amazon ratings",
-    reviews: "63,485 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/316AtkHoSdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004VGIGVY?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Large, well-established review base", "Low price", "Includes a basic carbon component alongside HEPA", "Compact footprint"],
     cons: ["Not intended for heavy VOC exposure", "Less carbon mass than dedicated multi-stage picks", "Fewer smart features than premium alternatives"],
     bestFor: "Small rooms with low-level ambient VOC exposure on a budget",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "HEPA-doesn't-help-VOCs gap disclosed", description: "Considered that HEPA filters trap particulate matter, not gas-phase VOC molecules, meaning a HEPA-only unit does essentially nothing for VOCs without a genuine carbon stage." },
   { title: "Carbon mass over marketing label", description: "Weighed that the amount of carbon correlates with real VOC-capture capacity far more than a marketing label like 'carbon filter' alone, favoring multi-stage designs with disclosed depth." },
-  { title: "Exposure source intensity matched to pick", description: "Distinguished low-level ambient VOC exposure from an intense source like fresh paint, new furniture off-gassing, or renovation, matching carbon depth to the real scenario." },
+  { title: "Exposure source intensity matched to pick", description: "Distinguished low-level ambient VOC exposure from an intense source like fresh paint, new furniture off-gassing, or renovation, matching carbon depth to the real scenario." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -247,11 +247,11 @@ export const faq: FaqItem[] = [
   { q: "Do I need a stronger air purifier after painting or buying new furniture?", a: "Yes. Fresh paint and new furniture off-gassing are intense VOC sources that need the substantial carbon mass and multi-stage depth of a higher-capacity pick rather than a standard basic carbon layer." },
   { q: "Can I trust my air purifier's air quality sensor to show VOC levels?", a: "Not fully. Most built-in sensors detect general particulate and air quality rather than VOC concentration specifically, don't rely on the sensor reading alone to judge VOC control." },
   { q: "How quickly does activated carbon lose its effectiveness against VOCs?", a: "Faster than a HEPA filter loses particulate capacity, since carbon has a finite adsorption capacity that fills up with continuous VOC exposure, check the specific manufacturer's replacement interval rather than assuming it lasts as long as the HEPA stage." },
-  { q: "Do houseplants reduce VOCs as effectively as an air purifier?", a: "No, despite popular claims, the air exchange rate houseplants provide is far too slow to meaningfully reduce VOC concentration compared to a purifier's active carbon filtration and continuous airflow." },
+  { q: "Do houseplants reduce VOCs as effectively as an air purifier?", a: "No, despite popular claims, the air exchange rate houseplants provide is far too slow to meaningfully reduce VOC concentration compared to a purifier's active carbon filtration and continuous airflow." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-air-purifiers-for-odors", title: "Best Air Purifiers for Odors (2026)" },
   { href: "/guide/best-hepa-and-carbon-air-purifiers", title: "Best HEPA and Carbon Air Purifiers (2026)" },
-  { href: "/guide/best-air-purifiers-for-smoke", title: "Best Air Purifiers for Smoke (2026)" },
+  { href: "/guide/best-air-purifiers-for-smoke", title: "Best Air Purifiers for Smoke (2026)" }
 ];

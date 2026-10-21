@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "docking station for gaming laptop";
 export const introParagraphs = [
   "A docking station for a gaming laptop has to be judged by a different standard than one for a productivity laptop, because gaming laptops draw far more power and generate far more USB and PCIe traffic than a typical Ultrabook. Most gaming laptop chargers ship at 130-230W, while even the strongest docks in this list top out at 100-150W, so a dock is realistically a desk-convenience tool for work, not a full charging replacement for gaming sessions.",
-  "Below are 7 docking stations for gaming laptops we evaluated on power delivery honesty, display output routing, USB stability under load, and overall port layout, so you know exactly what a dock can and can't do before you build a gaming laptop desk setup around one.",
+  "Below are 7 docking stations for gaming laptops we evaluated on power delivery honesty, display output routing, USB stability under load, and overall port layout, so you know exactly what a dock can and can't do before you build a gaming laptop desk setup around one."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Dual monitor up to 4K 120Hz",
       "Laptop & phone fast charge",
       "Durable lightweight casing",
-      "Windows & Mac compatible",
+      "Windows & Mac compatible"
     ],
     pros: [
       "Only pick in this list rated for 4K 120Hz, matching gaming laptop display panels",
       "Widest port selection at 14 total",
       "Built with gaming laptops as the primary use case",
-      "Durable, travel-friendly casing",
+      "Durable, travel-friendly casing"
     ],
     cons: [
       "Still cannot replace a 130-230W gaming laptop charger during gameplay",
       "Most expensive pick in this list",
-      "eGPU users must connect the eGPU directly to the laptop, not through this dock",
+      "eGPU users must connect the eGPU directly to the laptop, not through this dock"
     ],
     bestFor: "Buyers who want the closest thing to a gaming-laptop-specific dock for desk use",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "140W max charging",
       "Triple 4K 60Hz output",
       "Built-in cooling fan",
-      "Smart Display for connection status",
+      "Smart Display for connection status"
     ],
     pros: [
       "Genuine triple 4K 60Hz output via DisplayLink",
       "Cooling fan helps with sustained desk sessions",
       "140W max is the highest charging spec in this list",
-      "Real-time Smart Display for troubleshooting",
+      "Real-time Smart Display for troubleshooting"
     ],
     cons: [
       "Display performance still bottlenecked by integrated graphics on laptops without GPU-switching support",
       "140W still falls short of many gaming laptops' 130-230W chargers",
-      "Requires the latest DisplayLink driver installed to function",
+      "Requires the latest DisplayLink driver installed to function"
     ],
     bestFor: "Gaming laptop owners who want the highest available dock charging wattage plus triple display",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "100W charging",
       "4K HDMI dual monitor or single 6K",
       "6x USB ports + SD + Ethernet",
-      "Compatible with M4/M5 MacBook and Windows Thunderbolt laptops",
+      "Compatible with M4/M5 MacBook and Windows Thunderbolt laptops"
     ],
     pros: [
       "True Thunderbolt 4 certification, not just USB-C with Alt Mode",
       "Correct complement to a direct-connected eGPU on a second Thunderbolt port",
       "Driverless setup",
-      "100W charging works well for productivity use",
+      "100W charging works well for productivity use"
     ],
     cons: [
       "Cannot be used to connect an eGPU itself; eGPUs must go direct to the laptop",
       "100W still well short of typical gaming laptop charger wattage",
-      "Requires the laptop to have a second free Thunderbolt port for simultaneous eGPU use",
+      "Requires the laptop to have a second free Thunderbolt port for simultaneous eGPU use"
     ],
     bestFor: "Gaming laptop owners running an eGPU on one Thunderbolt port who need a dock on a second port",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Dual 5K/4K@60Hz via DisplayLink",
       "130W Power Delivery",
       "5x USB ports + Gigabit Ethernet",
-      "Compatible with M1-M4 Mac or Windows",
+      "Compatible with M1-M4 Mac or Windows"
     ],
     pros: [
       "Dual high-resolution display support at a mid-range price",
       "130W PD is a reasonable middle ground for productivity charging",
       "Gigabit Ethernet included",
-      "Wide OS compatibility",
+      "Wide OS compatibility"
     ],
     cons: [
       "DisplayLink-routed output is not suited to gaming-grade frame rates",
       "130W still short of most gaming laptop stock chargers",
-      "No Thunderbolt certification for eGPU-adjacent setups",
+      "No Thunderbolt certification for eGPU-adjacent setups"
     ],
     bestFor: "Gaming laptop owners who want dual high-res monitors for desk work, not gaming display output",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Triple 4K display",
       "150W power adapter with 20W fast charging",
       "8 USB ports up to 10Gbps",
-      "Windows/Chrome OS compatible",
+      "Windows/Chrome OS compatible"
     ],
     pros: [
       "Highest total port count in this list",
       "Triple 4K display support",
       "150W adapter is near the top of this list's charging specs",
-      "8 total USB ports for a fully loaded desk",
+      "8 total USB ports for a fully loaded desk"
     ],
     cons: [
       "High USB load under gaming PCIe traffic can cause peripheral dropouts",
       "150W is still under most gaming laptop stock charger wattage",
-      "No Thunderbolt certification",
+      "No Thunderbolt certification"
     ],
     bestFor: "Gaming laptop desks running many peripherals at once who route latency-critical devices direct to the laptop",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "100W Power Delivery",
       "10Gbps USB A/C",
       "Gigabit Ethernet",
-      "Smart display for connection status",
+      "Smart display for connection status"
     ],
     pros: [
       "Lowest price for triple-display capability in this list",
       "Smart display adds at-a-glance status",
       "100W PD is reasonable for the price point",
-      "Broad Mac/Dell/HP/Lenovo/Asus/Acer compatibility listed",
+      "Broad Mac/Dell/HP/Lenovo/Asus/Acer compatibility listed"
     ],
     cons: [
       "Display output not tuned for gaming-grade refresh rates",
       "100W is on the lower end of this list's charging specs",
-      "No Thunderbolt certification or eGPU-adjacent design",
+      "No Thunderbolt certification or eGPU-adjacent design"
     ],
     bestFor: "Budget-conscious gaming laptop owners who want triple-monitor desk productivity, not gaming display",
   },
@@ -249,21 +249,21 @@ export const products: GuideProduct[] = [
       "100W Power Delivery",
       "10Gbps USB A/C",
       "Gigabit Ethernet",
-      "SD/microSD reader + smart display",
+      "SD/microSD reader + smart display"
     ],
     pros: [
       "Cheapest triple-display pick in this list",
       "Smart display shows weather and connection status",
       "Includes an SD/microSD reader",
-      "Broad Dell/HP/Lenovo/Asus/Acer compatibility listed",
+      "Broad Dell/HP/Lenovo/Asus/Acer compatibility listed"
     ],
     cons: [
       "Same power delivery gap as every other pick, not a charger replacement for gaming",
       "Display output not tuned for gaming-grade refresh rates",
-      "No Thunderbolt certification",
+      "No Thunderbolt certification"
     ],
     bestFor: "Buyers comparing budget triple-display docks who want the lowest price option",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -291,7 +291,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for desk productivity, not gaming performance",
     description: "Scored each dock primarily as a desk-productivity tool for a gaming laptop, since none of them are built to replace the laptop's original charger or discrete GPU during a real gaming session.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -449,11 +449,11 @@ export const faq: FaqItem[] = [
   {
     q: "Which dock in this list has the best display output for a gaming laptop?",
     a: "The Razer USB4 Dock is the only pick in this list rated for 4K 120Hz dual-monitor output, which better matches a gaming laptop's higher refresh rate display panel than the 60Hz-capped triple-display docks from Anker, TobenONE, MOKiN, and Selore.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-thunderbolt-4-docking-stations", title: "8 Best Thunderbolt 4 Docking Stations (2026)" },
   { href: "/guide/best-docking-stations-with-100w-power-delivery", title: "8 Best Docking Stations with 100W Power Delivery (2026)" },
-  { href: "/guide/best-usb-c-docking-stations", title: "Best USB-C Docking Stations (2026)" },
+  { href: "/guide/best-usb-c-docking-stations", title: "Best USB-C Docking Stations (2026)" }
 ];

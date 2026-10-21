@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $114.97",
+          "Under $120",
           "ANGRYWIN Reception Desk with Counter"
         ],
         [
-          "Around $169.99",
+          "Under $170",
           "Tribesigns Reception Desk with Counter"
         ],
         [
-          "Around $205.99",
+          "Under $250",
           "LITTLE TREE 57-Inch Boho Reception Counter"
         ],
         [
-          "Around $243.56",
+          "Under $250",
           "PAKASEPT L-Shaped Reception Desk with Drawers and Shelves"
         ],
         [
-          "Around $243.66",
+          "Under $250",
           "PAKASEPT L-Shaped Reception Desk with Drawers and Shelves"
         ],
         [
-          "Around $329.99",
+          "Under $350",
           "Modern Reception Desk with Drawer & Open Shelves"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks-for-restaurant","title":"4 Best Reception Desks for Restaurant in 2026"},{"href":"/guide/best-compact-reception-desks","title":"6 Best Compact Reception Desks in 2026"},{"href":"/guide/best-reception-desks-with-storage","title":"6 Best Reception Desks with Storage in 2026"}];

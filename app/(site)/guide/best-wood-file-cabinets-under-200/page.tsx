@@ -172,7 +172,7 @@ export default async function BestWoodFileCabinetsUnder200Page() {
     about: [
       { "@type": "Thing", name: "Wood File Cabinet" },
       { "@type": "Thing", name: "Filing Cabinet" },
-      { "@type": "Thing", name: "Home Office Storage" },
+      { "@type": "Thing", name: "Home Office Storage" }
     ],
   };
 
@@ -192,7 +192,7 @@ export default async function BestWoodFileCabinetsUnder200Page() {
         position: 3,
         name: "Best Wood File Cabinets Under $200",
         item: `${SITE_URL}/guide/best-wood-file-cabinets-under-200`,
-      },
+      }
     ],
   };
 
@@ -520,7 +520,7 @@ export default async function BestWoodFileCabinetsUnder200Page() {
                 <tbody>
                   {[
                     { option: "2-Drawer", bestFor: "Light filing needs, small spaces", notes: "Lower price, smaller footprint, typically stationary" },
-                    { option: "3-Drawer", bestFor: "Active filing, office supplies storage, printer stand", notes: "Rolling casters common, more versatile use" },
+                    { option: "3-Drawer", bestFor: "Active filing, office supplies storage, printer stand", notes: "Rolling casters common, more versatile use" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.option}</td>
@@ -549,7 +549,7 @@ export default async function BestWoodFileCabinetsUnder200Page() {
                 <tbody>
                   {[
                     { type: "No lock", security: "None", notes: "All picks except DEVAISE Lock White" },
-                    { type: "Cam lock (single key)", security: "Consumer-grade", notes: "DEVAISE Lock White - secures all drawers simultaneously" },
+                    { type: "Cam lock (single key)", security: "Consumer-grade", notes: "DEVAISE Lock White - secures all drawers simultaneously" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.type}</td>
@@ -606,25 +606,25 @@ export default async function BestWoodFileCabinetsUnder200Page() {
                 context: "Best overall by review count and rating",
                 id: "devaise-rustic-brown",
                 name: "DEVAISE 3 Drawer Rustic Brown",
-                verdict: " - 5,342 reviews at 4.2 stars, warm finish, rolling casters, no lock.",
+                verdict: " - Warm finish, rolling casters, no lock.",
               },
               {
                 context: "Best budget pick for minimal storage needs",
                 id: "vasagle-snow-white",
                 name: "VASAGLE CUSTOS Snow White",
-                verdict: " - $62.99, 3,262 reviews, clean white finish, 2 drawers, stationary.",
+                verdict: " - Under $70, clean white finish, 2 drawers, stationary.",
               },
               {
                 context: "Best white 3-drawer rolling option",
                 id: "devaise-white-3drawer",
                 name: "DEVAISE 3-Drawer White",
-                verdict: " - 2,784 reviews at 4.1 stars, white finish for modern desks, rolling casters.",
+                verdict: " - White finish for modern desks, rolling casters.",
               },
               {
                 context: "Best walnut finish at the lowest 3-drawer price",
                 id: "devaise-walnut",
                 name: "DEVAISE Walnut",
-                verdict: " - $74.99, dark finish hides scuffs, good for mid-century and traditional setups.",
+                verdict: " - under $80, dark finish hides scuffs, good for mid-century and traditional setups.",
               },
               {
                 context: "Best farmhouse and warm-toned aesthetic",
@@ -636,14 +636,14 @@ export default async function BestWoodFileCabinetsUnder200Page() {
                 context: "Only option with a lock",
                 id: "devaise-lock-white",
                 name: "DEVAISE 3 Drawer with Lock, White",
-                verdict: " - $69.99, cam lock secures all drawers, rolling casters, white finish.",
+                verdict: " - under $70, cam lock secures all drawers, rolling casters, white finish.",
               },
               {
                 context: "Best modern design for design-forward spaces",
                 id: "innod-fluted-oak",
                 name: "INNOD Fluted Oak",
-                verdict: " - fluted panel fronts, on-trend oak finish, only 41 reviews so buyer data is limited.",
-              },
+                verdict: " - Fluted panel fronts, on-trend oak finish",
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

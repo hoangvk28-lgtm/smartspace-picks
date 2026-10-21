@@ -109,8 +109,8 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0H86C8ZH3?tag=deskfinds0d-20",
     description: "LITTLE TREE 47 Inches Round Conference Table for 4-6 measures 47 Inch and is built around premium e1 grade mdf construction, positioning it for square buyers specifically.\n\nBeyond that core spec, the listing describes construction suited to daily conference-room use, without unusual assembly or maintenance requirements.\n\nBest for buyers specifically looking for square, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["47 Inch table dimensions","Premium E1 Grade MDF Construction","Assembly hardware and instructions included per the listing"],
-    pros: ["Premium E1 Grade MDF Construction, confirmed directly in the listing's own spec details","Priced at $152.99, positioned for square shoppers specifically","Sized at 47 Inch, matching the space this guide is built around"],
-    cons: ["At $152.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    pros: ["Premium E1 Grade MDF Construction, confirmed directly in the listing's own spec details","Priced under $160, positioned for square shoppers specifically","Sized at 47 Inch, matching the space this guide is built around"],
+    cons: ["At under $160, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for square",
   },
   {
@@ -126,7 +126,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 47-Inch Round Conference Table for 4-6 People and is built around spacious 47-inch round design, positioning it for square buyers specifically.\n\nDurable Commercial-Grade Build is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for square, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Spacious 47-Inch Round Design","Durable Commercial-Grade Build","Sturdy & Stable Foundation"],
     pros: ["Spacious 47-Inch Round Design, confirmed directly in the listing's own spec details","Durable Commercial-Grade Build, confirmed directly in the listing's own spec details","Sturdy & Stable Foundation, confirmed directly in the listing's own spec details"],
-    cons: ["At $189.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $190, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for square",
   },
   {
@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 47-Inch Round Conference Table for 4-6 People and is built around spacious 47-inch round design, positioning it for square buyers specifically.\n\nDurable Commercial-Grade Build is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for square, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Spacious 47-Inch Round Design","Durable Commercial-Grade Build","Sturdy & Stable Foundation"],
     pros: ["Spacious 47-Inch Round Design, confirmed directly in the listing's own spec details","Durable Commercial-Grade Build, confirmed directly in the listing's own spec details","Sturdy & Stable Foundation, confirmed directly in the listing's own spec details"],
-    cons: ["At $189.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $190, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for square",
   }
 

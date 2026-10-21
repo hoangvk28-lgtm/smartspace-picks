@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook with calendar";
 export const introParagraphs = [
   "We need to set the right expectation before ranking anything: the products that actually match this search are Rocketbook's Fusion planner notebooks, which have printed calendar-grid page templates you write on and erase, not a live digital calendar that syncs events from your phone or computer.",
-  "If you were picturing a device where you type in an appointment and it shows up automatically, that's a different product entirely, see our smart display or digital calendar guides instead. What follows is the honest best-in-category for physical calendar-template notebooks.",
+  "If you were picturing a device where you type in an appointment and it shows up automatically, that's a different product entirely, see our smart display or digital calendar guides instead. What follows is the honest best-in-category for physical calendar-template notebooks."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41DUQEUXetL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHZ82DK?tag=deskfinds0d-20",
     description: "Undated calendar-grid templates you fill in by hand and erase, backed by the largest, highest-rated review base in this entire product family. Because it's undated, you can start using the calendar pages any time of year.\n\nIt earns the top spot in this comparison over Rocketbook Fusion Hybrid Reusable Planner Notebook for one main reason. By far the most proven product in this category. On price, it's actually priced above Rocketbook Fusion Hybrid Reusable Planner Notebook, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Undated pages don't force a specific start date. On the other side, Full letter size, not compact. That's the main tradeoff to weigh against everything above.",
-    specs: ["Letter size, undated calendar templates","Reusable via damp-cloth erase","26,593 reviews at 4.6 stars"],
+    specs: ["Letter size, undated calendar templates","Reusable via damp-cloth erase"],
     pros: ["By far the most proven product in this category","Undated pages don't force a specific start date"],
     cons: ["Calendar is a static, hand-written page, not a synced digital calendar","Full letter size, not compact"],
     bestFor: "Buyers who want the most proven physical calendar-template notebook and don't need live sync.",
@@ -47,7 +47,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41VG6OVaZCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHYZ32M?tag=deskfinds0d-20",
     description: "The same calendar-template concept in a smaller, bag-friendly size, with a nearly identical scale of review evidence to the letter-size pick above.\n\nOne spot below Rocketbook Fusion Reusable Undated Productivity Planner in this ranking, it's priced lower than Rocketbook Fusion Reusable Undated Productivity Planner. The compromise here is straightforward: Smaller calendar grid means less room per day/week entry. What you gain in return: Massive proven review base for a compact size. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: More portable than the letter-size Fusion. On the other side, Smaller calendar grid means less room per day/week entry. That's the main tradeoff to weigh against everything above.",
-    specs: ["6 x 8.8 in","Calendar-grid templates","23,751 reviews at 4.4 stars"],
+    specs: ["6 x 8.8 in","Calendar-grid templates"],
     pros: ["Massive proven review base for a compact size","More portable than the letter-size Fusion"],
     cons: ["Smaller calendar grid means less room per day/week entry"],
     bestFor: "Buyers who want the same proven calendar template in a more portable size.",
@@ -63,7 +63,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/416XcHl7ssL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLPPZZJL?tag=deskfinds0d-20",
     description: "An updated version of the Fusion Hybrid's calendar template set at the same size, with a smaller review base since it's the newer revision, check the current listing for what specifically changed.\n\nSitting just under Rocketbook Fusion Hybrid Reusable Planner Notebook, it costs more than Rocketbook Fusion Hybrid Reusable Planner Notebook. Here's the honest tradeoff: Meaningfully smaller review base than the standard Fusion Hybrid. And here's what it gets you instead: Newest template revision in the lineup. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Newest template revision in the lineup. On the other side, Costs slightly more for the template update. That's the main tradeoff to weigh against everything above.",
-    specs: ["6 x 8.8 in","Updated calendar-template layout","3,200 reviews at 4.4 stars"],
+    specs: ["6 x 8.8 in","Updated calendar-template layout"],
     pros: ["Newest template revision in the lineup"],
     cons: ["Meaningfully smaller review base than the standard Fusion Hybrid","Costs slightly more for the template update"],
     bestFor: "Buyers who want the latest template layout and don't mind a smaller review history.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41E9SFRPDeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CZF628C?tag=deskfinds0d-20",
     description: "Being fully transparent: this is a Core-line product with plain dot-grid pages, not Fusion's calendar templates. Included as the honest budget alternative if you're willing to draw your own calendar grid rather than pay for pre-printed ones.\n\nRanked just behind Rocketbook Fusion Plus Reusable Notebook Planner, it's priced lower than Rocketbook Fusion Plus Reusable Notebook Planner. The real tradeoff against that pick: No pre-printed calendar template, you'd draw your own grid. In exchange, it offers this instead: Much cheaper than the Fusion calendar-template line. That's the swap that decides whether this pick or the one above it is the better fit for your note-taking needs.\n\nWorth knowing before you decide: Very large, proven review base. On the other side, No pre-printed calendar template, you'd draw your own grid. That's the main tradeoff to weigh against everything above.",
-    specs: ["Mini spiral-bound","Plain dot-grid pages, no pre-printed calendar","11,065 reviews at 4.4 stars"],
+    specs: ["Mini spiral-bound","Plain dot-grid pages, no pre-printed calendar"],
     pros: ["Much cheaper than the Fusion calendar-template line","Very large, proven review base"],
     cons: ["No pre-printed calendar template, you'd draw your own grid"],
     bestFor: "Budget-focused buyers willing to hand-draw a calendar grid on plain reusable pages.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Honest disclosure of static vs. synced calendars", description: "We stated plainly that these are hand-written, erasable calendar-grid pages, not a live-syncing digital calendar, before ranking anything." },
   { title: "Calendar template presence, verified per product", description: "We separated Fusion-line products (built-in calendar templates) from Core-line products (plain pages, no template) rather than assuming all Rocketbook products have calendar pages." },
   { title: "Review volume as reliability evidence", description: "We weighted the massive review base of the standard Fusion line as strong evidence the erase mechanism and page durability hold up over repeated use." },
-  { title: "Undated flexibility", description: "We noted where a calendar template is undated, meaning you can start using it at any point in the year rather than being locked to a specific start month." },
+  { title: "Undated flexibility", description: "We noted where a calendar template is undated, meaning you can start using it at any point in the year rather than being locked to a specific start month." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,12 +242,12 @@ export const faq: FaqItem[] = [
   { q: "Does this sync with my phone or computer calendar?", a: "No. These are hand-written, erasable paper pages with printed calendar grids. For a synced electronic calendar, see our digital calendar or smart display guides instead." },
   { q: "Which product actually includes calendar templates?", a: "The Rocketbook Fusion and Fusion Plus lines. The plain Core-line notebooks have dot-grid pages only, with no pre-printed calendar." },
   { q: "Is the calendar template dated to a specific year?", a: "The top pick, the Rocketbook Fusion Undated Productivity Planner, is undated so you can start it any time of year." },
-  { q: "What's the cheapest option here?", a: "The Rocketbook Mini Spiral Notebook at $14.99, though it doesn't have a pre-printed calendar template, you'd draw your own grid." },
-  { q: "Which has the most proof it holds up over time?", a: "The letter-size Rocketbook Fusion, with 26,593 reviews at 4.6 stars." },
-];
+  { q: "What's the cheapest option here?", a: "The Rocketbook Mini Spiral Notebook at under $15, though it doesn't have a pre-printed calendar template, you'd draw your own grid." },
+  { q: "What does undated calendar template mean?", a: "An undated template has blank date fields that you fill in yourself, so you can start at any time of year. It does not tie to a calendar app on its own. You write the dates by hand and can reuse the layout every month." }
+  ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebook-and-planner-combos", title: "Best Digital Notebook and Planner Combos (2026)" },
   { href: "/guide/best-digital-calendars-for-offices", title: "Best Digital Calendars for Offices (2026)" },
-  { href: "/guide/best-reusable-digital-notebooks", title: "Best Reusable Digital Notebooks (2026)" },
+  { href: "/guide/best-reusable-digital-notebooks", title: "Best Reusable Digital Notebooks (2026)" }
 ];

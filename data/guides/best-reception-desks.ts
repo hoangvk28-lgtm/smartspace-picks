@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $114.97",
+          "Under $120",
           "ANGRYWIN Reception Desk with Counter"
         ],
         [
-          "Around $169.99",
+          "Under $170",
           "Tribesigns Reception Desk with Counter"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "Tribesigns L-Shaped Reception Desk with Storage Shelves"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "AHB Reception Desk with Counter and LED Light Strips"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "Kikihouse 63\" Fluted Reception Desk with LED"
         ],
         [
-          "Around $329.99",
+          "Under $350",
           "Modern Reception Desk with Drawer & Open Shelves"
         ],
         [
-          "Around $459.00",
+          "Under $500",
           "L-Shaped Wooden Commercial Reception Desk"
         ],
         [
-          "Around $599.99",
+          "Under $600",
           "47\" Reception Desk with LED and Power Outlets"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-l-shaped-reception-desks","title":"7 Best L-Shaped Reception Desks in 2026"},{"href":"/guide/best-reception-desks-with-counter","title":"8 Best Reception Desks with Counter in 2026"},{"href":"/guide/best-modern-reception-desks","title":"7 Best Modern Reception Desks in 2026"}];

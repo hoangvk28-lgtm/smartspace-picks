@@ -12,7 +12,7 @@ export const deskCoffeeMakerVsElectricKettleGuide: Guide = {
     "mini coffee maker for desk",
     "electric kettle desk worth it",
     "office coffee setup options",
-    "desk beverage station",
+    "desk beverage station"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskCoffeeMakerVsElectricKettleGuide: Guide = {
     "desk-organizer-types-explained",
     "what-size-desk-do-i-need",
     "surge-protector-joule-rating-explained",
-    "how-many-outlets-do-you-need-desk-setup",
+    "how-many-outlets-do-you-need-desk-setup"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskCoffeeMakerVsElectricKettleGuide: Guide = {
       question: "Which is safer to leave briefly unattended while heating?",
       answer:
         "Most modern kettles and coffee makers include auto-shutoff safety features, but neither should be considered fully safe to leave completely unattended for extended periods, check your specific device's safety features and follow standard practice of staying reasonably nearby while it's actively heating.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const deskCoffeeMakerVsElectricKettleGuide: Guide = {
     {
       heading: "Why Desk Space Tradeoffs Deserve Real Consideration for Either Option",
       body: `Both a coffee maker and a kettle represent a genuine, permanent desk space commitment beyond their brief moments of active use, a coffee maker's larger footprint, including its water reservoir and carafe, occupies more of a limited desk surface than a compact kettle typically does, on a smaller desk specifically, this space tradeoff deserves real weight in the decision, potentially making a kettle's smaller footprint the more practical choice even if a dedicated coffee maker would otherwise be preferred for its automation.`,
-    },
+    }
   ],
 };

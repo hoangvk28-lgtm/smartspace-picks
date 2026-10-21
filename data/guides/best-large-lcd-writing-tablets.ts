@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "large lcd writing tablet";
 export const introParagraphs = [
   "'Large' is a vague marketing term unless quantified, so this guide defines it by actual screen dimensions, covering the 16 inch tier (the largest available), the 15 inch tier, and the 11.5 inch tier as the next meaningfully larger option after standard 8.5 and 10 inch screens.",
-  "This guide overlaps with our dedicated 16 inch roundup since those are also the largest screens available, if you've already decided you want the absolute largest size, that guide covers the same two 16 inch products in more depth alongside a size-specific FAQ.",
+  "This guide overlaps with our dedicated 16 inch roundup since those are also the largest screens available, if you've already decided you want the absolute largest size, that guide covers the same two 16 inch products in more depth alongside a size-specific FAQ."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "8 min";
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "'Large' quantified by actual screen dimensions", description: "Defined large specifically as 11.5 inches and up, spanning the 16, 15, and 11.5 inch tiers, rather than relying on vague marketing language." },
   { title: "Largest available tier confirmed against the full researched pool", description: "Verified 16 inches is genuinely the largest size found in current research before ranking it as the top tier." },
   { title: "Desk footprint weighed against writing room across tiers", description: "Compared how much desk or wall space each size tier realistically requires against the writing room it provides." },
-  { title: "Overlap with the dedicated 16 inch guide flagged transparently", description: "Noted the shared products with the 16 inch guide so buyers understand this guide's broader large-format framing versus that guide's size-specific focus." },
+  { title: "Overlap with the dedicated 16 inch guide flagged transparently", description: "Noted the shared products with the 16 inch guide so buyers understand this guide's broader large-format framing versus that guide's size-specific focus." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -218,11 +218,11 @@ export const faq: FaqItem[] = [
   { q: "What counts as a 'large' LCD writing tablet?", a: "This guide defines large as 11.5 inches and up, since that's where a screen starts offering meaningfully more room than the standard 8.5-10 inch tier." },
   { q: "What is the largest LCD writing tablet size available?", a: "16 inches is the largest genuinely available size found in current research, with 15 inches as the next largest tier." },
   { q: "Is a large LCD writing tablet portable?", a: "Not really at 15-16 inches, those sizes work best as a stationary desk or wall board. The 11.5 inch tier is more manageable if some portability matters." },
-  { q: "Should I buy two smaller screens instead of one large one?", a: "If you have multiple rooms to cover, a 2-pack at 16 inches can be a better value than buying two separate large single units." },
+  { q: "Should I buy two smaller screens instead of one large one?", a: "If you have multiple rooms to cover, a 2-pack at 16 inches can be a better value than buying two separate large single units." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-16-inch-lcd-writing-tablets", title: "Best 16 Inch LCD Writing Tablets (2026)" },
   { href: "/guide/best-12-inch-lcd-writing-tablets", title: "Best 12 Inch LCD Writing Tablets (2026)" },
-  { href: "/guide/best-mini-lcd-writing-tablets", title: "Best Mini LCD Writing Tablets (2026)" },
+  { href: "/guide/best-mini-lcd-writing-tablets", title: "Best Mini LCD Writing Tablets (2026)" }
 ];

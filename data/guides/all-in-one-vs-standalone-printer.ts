@@ -12,7 +12,7 @@ export const allInOneVsStandalonePrinterGuide: Guide = {
     "all in one printer worth it",
     "do i need a scanner printer combo",
     "standalone printer vs multifunction",
-    "best printer for small desk",
+    "best printer for small desk"
   ],
   heroImage: "https://images.unsplash.com/photo-1613395450289-e560907d9308?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1613395450289-e560907d9308?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const allInOneVsStandalonePrinterGuide: Guide = {
     "inkjet-vs-laser-printer",
     "wifi-vs-usb-printer",
     "printer-troubleshooting",
-    "printer-care-maintenance",
+    "printer-care-maintenance"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const allInOneVsStandalonePrinterGuide: Guide = {
       question: "Can I scan documents without an all-in-one printer?",
       answer:
         "Yes, many people successfully use a smartphone scanning app for occasional document digitization, which may make more sense than paying for built-in scanning hardware if your scanning needs are infrequent and not high-quality-dependent.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const allInOneVsStandalonePrinterGuide: Guide = {
     {
       heading: "A Smartphone Alternative for Occasional Scanning",
       body: `If your scanning needs are infrequent and don't require professional-grade quality, a smartphone scanning app can substitute for built-in scanner hardware for many casual use cases, like scanning a receipt or a signed form. This can make a standalone printer a more practical choice even for someone who occasionally needs to digitize a document, without paying for scanning hardware that would otherwise sit mostly unused.`,
-    },
+    }
   ],
 };

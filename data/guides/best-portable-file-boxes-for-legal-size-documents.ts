@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable file boxes for legal-size documents";
 export const introParagraphs = [
   "Legal-size documents (8.5 x 14 inches) require genuinely different box dimensions and rail spacing than standard letter-size (8.5 x 11 inches), and we verified this explicitly for each pick rather than assuming a 'large' box automatically accommodates legal folders.",
-  "We also checked whether legal-size boxes accommodate letter-size documents too, a dual-compatible design useful for buyers with mixed document sizes, and disclosed the proportionally greater weight and bulk legal-size capacity requires.",
+  "We also checked whether legal-size boxes accommodate letter-size documents too, a dual-compatible design useful for buyers with mixed document sizes, and disclosed the proportionally greater weight and bulk legal-size capacity requires."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine legal-size dimension verification", description: "We checked each pick's actual dimensions against the 8.5 x 14 inch legal-size standard rather than assuming a 'large' box automatically accommodates legal folders." },
   { title: "Dual letter/legal compatibility", description: "We noted which picks accommodate both letter and legal size documents in the same box, useful for buyers with mixed document sizes." },
   { title: "Weight and bulk disclosure", description: "We explicitly noted the proportionally greater weight and bulk that legal-size capacity requires compared to a letter-only box, a real portability tradeoff." },
-  { title: "Legal-size hanging folder sourcing", description: "We noted that legal-size hanging folders are somewhat less universally available than letter-size, a real downstream purchasing consideration." },
+  { title: "Legal-size hanging folder sourcing", description: "We noted that legal-size hanging folders are somewhat less universally available than letter-size, a real downstream purchasing consideration." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -228,11 +228,11 @@ export const faq: FaqItem[] = [
   { q: "Can a legal-size box also hold letter-size documents?", a: "Some dual-compatible designs, like the Storex Letter/Legal Filebox, accommodate both sizes in the same box. Verify this specifically if you have mixed document sizes." },
   { q: "Is a legal-size box heavier than a letter-size one?", a: "Yes, proportionally, since it requires larger overall dimensions to accommodate the bigger document size, a real tradeoff for this category's portable promise." },
   { q: "Are legal-size hanging folders easy to find?", a: "They're somewhat less universally available than letter-size folders at general office supply stores. Plan your folder sourcing accordingly before committing to a legal-size box." },
-  { q: "Should I get a wheeled legal-size box?", a: "If the added weight and bulk of legal-size capacity concerns you, a wheeled design like the DocSafe 2-layer pick genuinely helps offset that tradeoff." },
+  { q: "Should I get a wheeled legal-size box?", a: "If the added weight and bulk of legal-size capacity concerns you, a wheeled design like the DocSafe 2-layer pick genuinely helps offset that tradeoff." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" },
   { href: "/guide/best-letter-size-portable-file-boxes", title: "Best Letter-Size Portable File Boxes (2026)" },
-  { href: "/guide/best-large-portable-file-boxes", title: "Best Large Portable File Boxes (2026)" },
+  { href: "/guide/best-large-portable-file-boxes", title: "Best Large Portable File Boxes (2026)" }
 ];

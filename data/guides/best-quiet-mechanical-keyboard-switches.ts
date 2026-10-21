@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mechanical keyboard switch types";
 export const introParagraphs = [
   "Switch type is the single biggest factor in how loud a mechanical keyboard sounds, but most buying guides only say a switch is \"quieter\" without explaining by how much, or which noise source is actually being reduced. A silent linear switch typically measures around 33-40 dB at the keycap, compared to roughly 50-55 dB for a standard clicky switch, against an ambient quiet-office baseline of about 50-60 dB, which is the difference between a keyboard nobody notices on a call and one that shows up in every recording.",
-  "Below are 8 keyboards we evaluated by the actual switch technology in their real listings, from tactile Brown and linear Red mechanical switches to low-profile scissor-style boards marketed as quiet, so you can match a switch type to whether you need office-quiet, late-night-quiet, or just quieter than a clicky gaming board.",
+  "Below are 8 keyboards we evaluated by the actual switch technology in their real listings, from tactile Brown and linear Red mechanical switches to low-profile scissor-style boards marketed as quiet, so you can match a switch type to whether you need office-quiet, late-night-quiet, or just quieter than a clicky gaming board."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Multi-device Bluetooth + Logi Bolt receiver",
       "Illuminated, backlit keys",
       "Rechargeable battery",
-      "Full-size layout with numpad",
+      "Full-size layout with numpad"
     ],
     pros: [
       "Shorter low-profile travel reduces bottom-out noise naturally",
       "Multi-device switching across up to 3 computers",
       "Premium build quality",
-      "Full-size layout despite the low-profile design",
+      "Full-size layout despite the low-profile design"
     ],
     cons: [
       "Not a true silent-switch mechanical keyboard, quieter by design rather than dampened",
       "Most expensive pick in this list",
-      "Not hot-swappable if you want to try a different switch later",
+      "Not hot-swappable if you want to try a different switch later"
     ],
     bestFor: "Buyers who want a quiet, low-profile feel with multi-device switching",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Standard-height mechanical switches",
       "Aluminum-alloy top plate",
       "Wired USB connection",
-      "Compact footprint",
+      "Compact footprint"
     ],
     pros: [
       "Compact TKL footprint reduces total stabilized keys and rattle",
       "Sturdy aluminum-alloy top plate",
       "More affordable than the premium low-profile picks",
-      "Simple, no-frills design",
+      "Simple, no-frills design"
     ],
     cons: [
       "No silent or whisper-quiet switch marketing, standard mechanical noise level",
       "No numpad if you need one",
-      "Wired only",
+      "Wired only"
     ],
     bestFor: "Buyers who want a compact, sturdy TKL board and plan to add their own noise dampening",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "10-zone RGB illumination",
       "IP32 water resistant",
       "Magnetic wrist rest included",
-      "Wired USB connection",
+      "Wired USB connection"
     ],
     pros: [
       "Explicit whisper-quiet switch marketing from the manufacturer",
       "IP32 water resistance",
       "Includes a magnetic wrist rest",
-      "Budget-friendly price for a branded quiet switch",
+      "Budget-friendly price for a branded quiet switch"
     ],
     cons: [
       "\"Whisper quiet\" is a brand claim, not an independently measured dB figure",
       "No numpad on this compact layout",
-      "Not hot-swappable if you later want a true silent switch",
+      "Not hot-swappable if you later want a true silent switch"
     ],
     bestFor: "Budget buyers who want a manufacturer-branded quiet switch without paying for a premium board",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Physical volume knob",
       "QMK/VIA programmable",
       "Full-size layout with numpad",
-      "Wired connection",
+      "Wired connection"
     ],
     pros: [
       "Quieter than a clicky switch by default",
       "Hot-swappable, upgradeable to a true silent switch later",
       "Full remapping support and a volume knob",
-      "Confirmed tactile Brown switch, not mislabeled as silent",
+      "Confirmed tactile Brown switch, not mislabeled as silent"
     ],
     cons: [
       "Tactile bump adds friction noise a true silent linear switch avoids",
       "Not marketed or sold as a silent switch",
-      "Wired only",
+      "Wired only"
     ],
     bestFor: "Buyers who want tactile feedback and the option to hot-swap to silent switches later",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "2.4GHz + Bluetooth wireless",
       "QMK programmable, RGB backlight",
       "Full-size layout with numpad",
-      "Mac/Windows/Linux compatible",
+      "Mac/Windows/Linux compatible"
     ],
     pros: [
       "Wireless positioning can reduce mic pickup on video calls versus a wired board close to a boom arm",
       "Hot-swappable if you want to try a silent switch later",
       "Same tactile Brown feel as the wired V6",
-      "Full-size numpad layout",
+      "Full-size numpad layout"
     ],
     cons: [
       "Still a tactile switch, not silent-dampened",
       "Most expensive pick alongside the low-profile Logitech board",
-      "Wireless full-size boards need more frequent charging with RGB on",
+      "Wireless full-size boards need more frequent charging with RGB on"
     ],
     bestFor: "Buyers who want tactile Brown switches on a wireless board for video calls",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Wireless, rechargeable battery",
       "Mac-specific layout and shortcuts, Space Grey finish",
       "Backlit keys",
-      "Multi-device pairing",
+      "Multi-device pairing"
     ],
     pros: [
       "Scissor switch design is naturally one of the quietest typing options available",
       "Mac-optimized layout and shortcuts",
       "Rechargeable, wireless",
-      "Accurately marketed as quiet rather than mislabeled as a silent mechanical switch",
+      "Accurately marketed as quiet rather than mislabeled as a silent mechanical switch"
     ],
     cons: [
       "Not a mechanical keyboard, no tactile bump or hot-swap option",
       "Mac-specific layout limits use on Windows without remapping",
-      "No numpad on this compact layout",
+      "No numpad on this compact layout"
     ],
     bestFor: "Buyers who want the quietest possible typing feel and do not need a mechanical switch",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Full-size layout with numpad",
       "QMK/VIA programmable",
       "Frosted, semi-translucent case",
-      "Wired connection",
+      "Wired connection"
     ],
     pros: [
       "Lower price than the Knob and wireless V6 variants",
       "Hot-swappable, upgradeable to a silent switch later",
       "Full-size numpad layout",
-      "Full QMK/VIA remapping",
+      "Full QMK/VIA remapping"
     ],
     cons: [
       "Still a tactile switch, not silent",
       "No volume knob or wireless option",
-      "Translucent case shows dust more visibly",
+      "Translucent case shows dust more visibly"
     ],
     bestFor: "Buyers who want tactile Brown switches on a full-size board without paying for extras",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Sound-absorbing foam inside the case",
       "108-key full-size layout with numpad",
       "2 sets of mixed-color keycaps included",
-      "Wired USB connection",
+      "Wired USB connection"
     ],
     pros: [
       "Linear Red switch is quieter than clicky or tactile by design",
       "Sound-absorbing foam adds a second layer of noise reduction",
       "Hot-swappable if you want to upgrade to a true silent switch",
-      "Cheapest pick in this list",
+      "Cheapest pick in this list"
     ],
     cons: [
       "Not a true silent switch, still produces standard mechanical bottom-out noise",
       "Not remappable via QMK/VIA",
-      "Foam dampening reduces but does not eliminate stabilizer rattle",
+      "Foam dampening reduces but does not eliminate stabilizer rattle"
     ],
     bestFor: "Budget buyers who want a quieter linear feel with built-in sound dampening",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed switch type, dampening features like sound-absorbing foam, and connectivity against price, from a budget linear board to a premium low-profile pick.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -466,12 +466,12 @@ export const faq: FaqItem[] = [
   {
     q: "Are low-profile or scissor-switch keyboards actually quieter than mechanical switches?",
     a: "Often yes, though for a different reason than silent dampening. Shorter key travel on a low-profile or scissor switch reduces bottom-out force and noise even without a dedicated silent mechanism. The Logitech MX Keys S Mac in this list uses a scissor switch and is one of the quietest options here, while the Logitech MX Mechanical uses a low-profile tactile mechanical switch that is quieter than standard-height tactile switches for the same reason.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mechanical-keyboards-with-number-pad", title: "Best Mechanical Keyboards with Number Pad (2026)" },
   { href: "/guide/best-mechanical-keyboards-for-quiet-typing-office", title: "Best Mechanical Keyboards for Quiet Typing Office (2026)" },
   { href: "/guide/best-mechanical-keyboards", title: "Best Mechanical Keyboards (2026)" },
-  { href: "/guide/best-wireless-mechanical-keyboards", title: "Best Wireless Mechanical Keyboards (2026)" },
+  { href: "/guide/best-wireless-mechanical-keyboards", title: "Best Wireless Mechanical Keyboards (2026)" }
 ];

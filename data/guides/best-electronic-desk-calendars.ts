@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "electronic desk calendar";
 export const introParagraphs = [
   "\"Electronic desk calendar\" and \"digital desk calendar\" searches overlap heavily and mostly point buyers to the same pool of products. This guide takes a slightly different angle: we lean into the \"electronic\" framing to spotlight the rechargeable clock-and-notepad boards alongside the touchscreen options, since that phrasing is often used specifically for the simpler notepad-style devices.",
-  "If you want the broader touchscreen-first overview, our best digital desk calendars guide covers the same product pool with a different emphasis. Here, we rank with the electronic clock-and-notepad category given equal weight rather than treated as an afterthought.",
+  "If you want the broader touchscreen-first overview, our best digital desk calendars guide covers the same product pool with a different emphasis. Here, we rank with the electronic clock-and-notepad category given equal weight rather than treated as an afterthought."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "8 min";

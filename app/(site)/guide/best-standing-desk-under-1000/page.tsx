@@ -140,7 +140,7 @@ export default async function Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Standing Desks Under $1000", item: `${SITE_URL}/guide/best-standing-desk-under-1000` },
+      { "@type": "ListItem", position: 3, name: "Best Standing Desks Under $1000", item: `${SITE_URL}/guide/best-standing-desk-under-1000` }
     ],
   };
 
@@ -245,7 +245,7 @@ export default async function Page() {
 
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>The under $1000 range covers everything from reliable budget desks under $250 to commercial-grade BIFMA-certified options and premium bamboo frames approaching the $1000 ceiling.</p>
-          <p>This guide covers eight standing desks under $1000 ranked by warranty, motor quality, surface material, and certification, starting at $208 and ending just under $1000.</p>
+          <p>This guide covers eight standing desks under $1000 ranked by warranty, motor quality, surface material, and certification, starting at under $250 and ending just under $1000.</p>
           <p>For the best value desks in a specific narrow range, see our <a href='/guide/best-standing-desk-under-200' className='text-brand hover:underline'>best standing desks under $200</a> guide.</p>
         </section>
 

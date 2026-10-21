@@ -12,7 +12,7 @@ export const howManyOutletsDoYouNeedDeskSetupGuide: Guide = {
     "how many outlets for computer desk",
     "power strip outlet count guide",
     "desk setup power needs",
-    "outlet count for monitors and peripherals",
+    "outlet count for monitors and peripherals"
   ],
   heroImage: "https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const howManyOutletsDoYouNeedDeskSetupGuide: Guide = {
     "power-strip-vs-surge-protector",
     "surge-protector-joule-rating-explained",
     "usb-c-docking-station-ports-chart",
-    "ups-runtime-explained",
+    "ups-runtime-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const howManyOutletsDoYouNeedDeskSetupGuide: Guide = {
       question: "What's the risk of not having enough outlets at my desk?",
       answer:
         "Insufficient outlets often leads to overloading a single strip with too many high-power devices, using unsafe adapters or daisy-chaining multiple power strips together, both of which increase fire risk and should be avoided in favor of properly sizing your outlet capacity upfront.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const howManyOutletsDoYouNeedDeskSetupGuide: Guide = {
     {
       heading: "Counting Devices Accurately Before Buying",
       body: `Rather than guessing at outlet needs, walk through every device at your desk individually, computer, each monitor, desk lamp, phone charger, speakers, any docking station or hub, and note whether each needs its own outlet or connects through a device that's already accounted for (like peripherals connecting through a powered docking station rather than needing separate outlets). This accurate count, plus a modest buffer for future additions, gives you a much more reliable outlet requirement than an approximate guess.`,
-    },
+    }
   ],
 };

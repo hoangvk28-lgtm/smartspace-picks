@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This enclosure's built-in fan and optimized vent design specifically support up to 4 hours of full-speed operation, a stated endurance figure none of the other picks in this comparison disclose. Powered by the ASM2464PD controller, it delivers tested read and write speeds up to 3187MB/s over the 40Gbps interface.\n\nCompared to the MOKiN pick below, this one adds a transparent back plate that lets you view internal components while adding a modern aesthetic touch. Its compact, lightweight RNE-01 design fits easily in a pocket or bag, and it supports M.2 NVMe SSDs up to 8TB in the standard 2230-2280 size range.\n\nBest for buyers who want a stated sustained-operation time figure with active cooling.",
     specs: ["40Gbps, ASM2464PD chip, active fan cooling", "Up to 4 hours full-speed operation stated", "8TB support, transparent back plate"],
     pros: ["Stated 4-hour full-speed operation endurance figure", "Transparent back plate adds a modern aesthetic", "Supports SSDs up to 8TB in standard size range"],
-    cons: ["Slightly over this tier's stated ceiling at $53.99", "Fan-based cooling adds minor operational noise"],
+    cons: ["Slightly over this tier's stated ceiling at under $60", "Fan-based cooling adds minor operational noise"],
     bestFor: "buyers who want a stated sustained-operation endurance figure with active cooling",
   },
   {
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A stated sustained-operation endurance figure with cooling", "Rosewill 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan"],
         ["Both USB-C and USB-A cables included", "MOKiN 40Gbps M.2 NVMe SSD Enclosure for M1 Pro/Max Mac"],
         ["A foldable design with a clear speed-mode indicator", "Cable Matters 40Gbps USB4/Thunderbolt 4 SSD Enclosure"],
-        ["The lowest price with silent passive cooling", "ANYOYO NVMe M.2 SSD Enclosure, Triple Fins Heat Dissipation"],
+        ["The lowest price with silent passive cooling", "ANYOYO NVMe M.2 SSD Enclosure, Triple Fins Heat Dissipation"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $30", "ANYOYO ($29.99)"],
-        ["Under $46", "Cable Matters ($45.11)"],
-        ["Under $50", "MOKiN ($49.99)"],
-        ["Under $54", "Rosewill ($53.99)"],
+        ["Under $30", "ANYOYO (under $30)"],
+        ["Under $46", "Cable Matters (under $50)"],
+        ["Under $50", "MOKiN (under $50)"],
+        ["Under $54", "Rosewill (under $60)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Active Fan Cooling vs Passive Fin Cooling",
     cards: [
       { label: "Active fan cooling (Rosewill, Cable Matters)", text: "Actively moves air to maintain sustained speeds during heavy, prolonged transfers, at the cost of minor fan noise." },
-      { label: "Passive fin cooling (MOKiN, ANYOYO)", text: "Relies on aluminum fins and thermal pads for silent operation, suitable for typical use but potentially more prone to throttling under the most sustained heavy workloads." },
+      { label: "Passive fin cooling (MOKiN, ANYOYO)", text: "Relies on aluminum fins and thermal pads for silent operation, suitable for typical use but potentially more prone to throttling under the most sustained heavy workloads." }
     ],
     note: "If you regularly transfer very large files for extended periods, like video editing workflows, active cooling helps maintain consistent speeds. If your use is lighter or intermittent, passive cooling's silence is a worthwhile tradeoff.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your SSD type", "Recommended pick"],
       rows: [
         ["Standard single-sided SSD", "Any of the four picks"],
-        ["Double-sided SSD (check compatibility list)", "MOKiN, Rosewill, or ANYOYO (avoid Cable Matters)"],
+        ["Double-sided SSD (check compatibility list)", "MOKiN, Rosewill, or ANYOYO (avoid Cable Matters)"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Video Editor Working With Large 4K/8K Files Specifically",
     cards: [
       { label: "Look for", text: "Active fan cooling with a stated sustained full-speed operation time, since large video file transfers can run long enough to trigger thermal throttling on passively cooled enclosures." },
-      { label: "In this comparison", text: "The Rosewill pick's stated 4-hour full-speed operation figure with active fan cooling specifically supports extended video editing workflows without speed degradation." },
+      { label: "In this comparison", text: "The Rosewill pick's stated 4-hour full-speed operation figure with active fan cooling specifically supports extended video editing workflows without speed degradation." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a stated sustained-operation endurance figure with active cooling, where the Rosewill pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You just want reliable passive cooling at the lowest price, where the ANYOYO pick covers that for about $24 less." },
+      { label: "Save if", text: "You just want reliable passive cooling at the lowest price, where the ANYOYO pick covers that for about $24 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

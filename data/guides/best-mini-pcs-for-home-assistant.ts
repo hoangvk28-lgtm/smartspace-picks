@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini pc for home assistant";
 export const introParagraphs = [
   "A Home Assistant server genuinely benefits from minimal idle power draw and a lower-tier processor more than raw performance, since the workload itself is relatively light, worth prioritizing efficient always-on operation over a powerful chip you won't fully utilize.",
-  "Pre-installed Home Assistant images can save real setup time but tie you to the vendor's specific configuration and update cadence, worth weighing this convenience against installing Home Assistant yourself on a more general-purpose mini PC for full control over updates.",
+  "Pre-installed Home Assistant images can save real setup time but tie you to the vendor's specific configuration and update cadence, worth weighing this convenience against installing Home Assistant yourself on a more general-purpose mini PC for full control over updates."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Pre-Installed Home Assistant Pick",
     name: "Pulcro.io TK Node Mini PC - Proxmox + Home Assistant preinstalled, AMD Ryzen R2514 (4C/8T), 16GB",
     price: "$299.00",
-    rating: "5.0 stars from Amazon ratings",
-    reviews: "2 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31lG2ExWmHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GT77MR53?tag=deskfinds0d-20",
     description: "Explicitly pre-installed with both Proxmox and Home Assistant, genuinely saving setup time for buyers wanting a ready-to-use smart home hub with virtualization flexibility.\n\nIt earns the top spot in this comparison over Pulcro.io TK Node Mini PC for one main reason. Proxmox plus Home Assistant preinstalled genuinely saves setup time. On price, it's actually priced above Pulcro.io TK Node Mini PC, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Low-power chip appropriately matched to the light workload. On the other side, Verify update cadence and support for the preinstalled software. That's the main tradeoff to weigh against everything above.",
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Pre-Installed Home Assistant Pick",
     name: "Pulcro.io TK Node Mini PC - Home Assistant preinstalled, AMD Ryzen R2514 (4C/8T), 16GB RAM",
     price: "$269.00",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "3 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31lG2ExWmHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GY1N6LJD?tag=deskfinds0d-20",
     description: "Home Assistant preinstalled without the added Proxmox layer, appropriate for buyers wanting a simpler dedicated smart home hub without virtualization complexity.\n\nOne spot below Pulcro.io TK Node Mini PC in this ranking, it's priced lower than Pulcro.io TK Node Mini PC. The compromise here is straightforward: Very small review base, verify current reviews before purchase. What you gain in return: Home Assistant preinstalled saves setup time. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: More accessible price without the Proxmox layer. On the other side, Ties you to this vendor's specific preinstalled configuration. That's the main tradeoff to weigh against everything above.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best Home Assistant Pick with More Storage Options",
     name: "Pulcro.io TK Node Mini PC - Home Assistant preinstalled, AMD Ryzen R2514 (4C/8T), 16GB RAM (Alt)",
     price: "$299.00",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "3 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31lG2ExWmHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GQXR6FX5?tag=deskfinds0d-20",
     description: "Another Home Assistant preinstalled configuration from the same vendor line, appropriate for buyers comparing specific storage or accessory variants within this product family.\n\nSitting just under Pulcro.io TK Node Mini PC, it costs more than Pulcro.io TK Node Mini PC. Here's the honest tradeoff: Very small review base, verify current reviews before purchase. And here's what it gets you instead: Home Assistant preinstalled saves setup time. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Low-power chip appropriately matched to the light workload. On the other side, Ties you to this vendor's specific preinstalled configuration. That's the main tradeoff to weigh against everything above.",
@@ -74,7 +74,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pre-Installed Home Assistant Pick",
     name: "Pulcro.io TK Node Mini PC - Home Assistant preinstalled, AMD Ryzen R2314 (4C/4T), 8GB RAM",
     price: "$222.00",
-    rating: "5.0 stars from Amazon ratings",
+    rating: "",
     reviews: "1 rating",
     imageUrl: "https://m.media-amazon.com/images/I/31lG2ExWmHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GQXR6FXG?tag=deskfinds0d-20",
@@ -90,8 +90,8 @@ export const products: GuideProduct[] = [
     badge: "Best General Home Assistant Pick",
     name: "Pulcro.io TK Node Mini PC - Home Assistant preinstalled, AMD Ryzen R2514 (4C/8T), 8GB RAM",
     price: "$239.00",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "3 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31lG2ExWmHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GS3ST7XT?tag=deskfinds0d-20",
     description: "A middle-ground preinstalled configuration with 8GB RAM and the more capable 8-thread Ryzen R2514, appropriate for buyers wanting some extra processing headroom without paying for the 16GB variant.\n\nOne spot below Pulcro.io TK Node Mini PC in this ranking, it costs more than Pulcro.io TK Node Mini PC. The compromise here is straightforward: Very small review base, verify current reviews before purchase. What you gain in return: More capable 8-thread chip than the budget R2314 variant. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Home Assistant preinstalled saves setup time. On the other side, Ties you to this vendor's specific preinstalled configuration. That's the main tradeoff to weigh against everything above.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Idle power draw weighted over raw processing power", description: "Weighted minimal idle power draw more heavily than raw processing power, since Home Assistant's workload is genuinely light for most home setups." },
   { title: "Preinstalled convenience weighed against configuration flexibility", description: "Weighed the genuine setup-time savings of preinstalled Home Assistant against the configuration flexibility of installing it yourself." },
   { title: "RAM configuration matched to typical integration and add-on counts", description: "Matched RAM configuration to typical Home Assistant integration and add-on counts, from light setups to more demanding multi-integration configurations." },
-  { title: "Virtualization flexibility considered for buyers wanting to run additional services", description: "Considered whether a Proxmox layer alongside Home Assistant adds genuine value for buyers wanting to run additional services on the same hardware." },
+  { title: "Virtualization flexibility considered for buyers wanting to run additional services", description: "Considered whether a Proxmox layer alongside Home Assistant adds genuine value for buyers wanting to run additional services on the same hardware." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -225,11 +225,11 @@ export const faq: FaqItem[] = [
   { q: "Does Home Assistant need a powerful mini PC?", a: "No, the workload is genuinely light for most home setups, minimal idle power draw matters more than raw processing power." },
   { q: "Is a preinstalled Home Assistant mini PC worth it?", a: "It saves genuine setup time, but ties you to the vendor's specific configuration and update cadence, weigh this against installing it yourself." },
   { q: "How much RAM does Home Assistant need?", a: "8GB suits lighter setups with fewer integrations, 16GB gives more headroom for many integrations and add-ons." },
-  { q: "Do I need Proxmox alongside Home Assistant?", a: "Only if you want to run additional services on the same hardware, a dedicated Home Assistant-only setup is simpler if you don't need this." },
+  { q: "Do I need Proxmox alongside Home Assistant?", a: "Only if you want to run additional services on the same hardware, a dedicated Home Assistant-only setup is simpler if you don't need this." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pcs-for-home-servers", title: "Best Mini PCs for Home Servers (2026)" },
   { href: "/guide/best-fanless-mini-pcs", title: "Best Fanless Mini PCs (2026)" },
-  { href: "/guide/best-mini-pcs-under-300", title: "Best Mini PCs Under $300 (2026)" },
+  { href: "/guide/best-mini-pcs-under-300", title: "Best Mini PCs Under $300 (2026)" }
 ];

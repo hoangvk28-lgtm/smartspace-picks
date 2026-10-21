@@ -12,7 +12,7 @@ export const documentScanningVsPhysicalStorageGuide: Guide = {
     "which documents can i scan and discard",
     "digitize paperwork worth it",
     "documents that must stay physical",
-    "reduce paper clutter home office",
+    "reduce paper clutter home office"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const documentScanningVsPhysicalStorageGuide: Guide = {
     "fireproof-document-storage-explained",
     "filing-cabinet-vs-file-box",
     "backup-strategy-3-2-1-rule-explained",
-    "paper-shredder-security-levels-explained",
+    "paper-shredder-security-levels-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const documentScanningVsPhysicalStorageGuide: Guide = {
       question: "How should I organize scanned documents to actually find them later?",
       answer:
         "A consistent folder structure and file naming convention, organized by category and date, makes scanned documents genuinely searchable and retrievable later, scanning without organized storage simply moves the disorganization problem from physical to digital form.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const documentScanningVsPhysicalStorageGuide: Guide = {
     {
       heading: "Why Organization Matters as Much as the Scanning Decision Itself",
       body: `Simply scanning documents without a consistent, logical organization system for the resulting digital files just relocates the disorganization problem from a physical filing cabinet to a digital folder structure, arguably making documents even harder to locate later since digital files lack the physical browsing cues a paper filing system provides, establishing a clear folder hierarchy and consistent file naming convention, by category and date, before beginning a scanning project ensures the resulting digital archive is actually more useful and searchable than the physical system it's replacing, rather than just a differently disorganized version of the same problem.`,
-    },
+    }
   ],
 };

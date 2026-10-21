@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "intel mini pc";
 export const introParagraphs = [
   "Intel's Quick Sync hardware video encoding remains a genuine advantage for specific video editing and streaming workflows that support it, worth checking whether your specific software takes advantage of Quick Sync before assuming this matters equally for every buyer's use case.",
-  "Intel's HX-class flagship mobile processors offer genuinely high core counts competitive with AMD's top-tier chips, worth comparing actual core count and thread specs directly rather than assuming either brand automatically wins on raw multi-threaded performance.",
+  "Intel's HX-class flagship mobile processors offer genuinely high core counts competitive with AMD's top-tier chips, worth comparing actual core count and thread specs directly rather than assuming either brand automatically wins on raw multi-threaded performance."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -26,7 +26,7 @@ export const products: GuideProduct[] = [
     badge: "Best Intel Mini PC Overall",
     name: "ACEMAGIC M5 Mini PC Intel Core i9-14900HX Flagship HX-Class Processor (24C/32T, 55W), 32GB RAM 1TB P",
     price: "$769.00",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/3126EO7Hc7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHQX488K?tag=deskfinds0d-20",
@@ -42,7 +42,7 @@ export const products: GuideProduct[] = [
     badge: "Best Value Intel Core i7 Pick",
     name: "GMKtec Mini PC Intel Core i7-1185G7 (up to 4.8 GHz) 16GB DDR4 512GB SSD Desktop Mini Computers WiFi",
     price: "$639.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31AGwhRxIHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CS31JRLG?tag=deskfinds0d-20",
@@ -58,7 +58,7 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Intel Core i7 Pick",
     name: "GMKtec M2 Pro S Mini PC Intel Core i7-1185G7 (Turbo 4.8 GHz) Intel Iris Xe",
     price: "$549.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41e4GJOrtML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D79439GH?tag=deskfinds0d-20",
@@ -74,7 +74,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Intel Core i7 Pick",
     name: "GMKtec Mini PC Intel Core i7-1185G7 (Up to 8 GHz) 16GB DDR4 1TB SSD",
     price: "$499.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31kyLYFtmBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C96FR8YC?tag=deskfinds0d-20",
@@ -90,7 +90,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Intel Core i3 Pick",
     name: "GMKtec Mini PC Intel Core i3-10110U Processor 8GB DDR4 256GB SSD",
     price: "$246.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41sKXJEffSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CQ4C9ZY1?tag=deskfinds0d-20",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Quick Sync video encoding advantage weighted for supported workflows", description: "Weighted Intel's Quick Sync hardware video encoding as a genuine advantage specifically for video editing and streaming workflows that support it." },
   { title: "Core count compared directly against AMD alternatives", description: "Compared Intel's core count directly against AMD's top-tier chips rather than assuming either brand automatically wins on raw multi-threaded performance." },
   { title: "Chip generation and clock speed verified across the Intel lineup", description: "Verified chip generation and turbo clock speed specifics across the Intel lineup, since these vary meaningfully even within similarly named Core i7 configurations." },
-  { title: "Value assessed across the Intel price range from budget to flagship", description: "Assessed genuine value across different price points within the Intel lineup, identifying strong options at various budgets." },
+  { title: "Value assessed across the Intel price range from budget to flagship", description: "Assessed genuine value across different price points within the Intel lineup, identifying strong options at various budgets." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "What is Intel Quick Sync and does it matter for me?", a: "It's hardware video encoding that benefits specific video editing and streaming workflows, check whether your software actually supports it before prioritizing this feature." },
   { q: "Does Intel or AMD have more cores in mini PCs?", a: "Intel's flagship HX-class chips offer core counts genuinely competitive with AMD's top-tier alternatives, compare the actual specs directly rather than assuming." },
   { q: "Are all Intel Core i7 mini PC chips the same?", a: "No, generation and clock speed vary meaningfully even within similarly named Core i7 configurations, verify the specific chip details." },
-  { q: "Is a budget Intel Core i3 mini PC good enough for basic tasks?", a: "Yes, for basic everyday computing, though verify RAM capacity matches your actual multitasking needs." },
+  { q: "Is a budget Intel Core i3 mini PC good enough for basic tasks?", a: "Yes, for basic everyday computing, though verify RAM capacity matches your actual multitasking needs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-amd-mini-pcs", title: "Best AMD Mini PCs (2026)" },
   { href: "/guide/best-high-performance-mini-pcs", title: "Best High-Performance Mini PCs (2026)" },
-  { href: "/guide/best-budget-mini-pcs", title: "Best Budget Mini PCs (2026)" },
+  { href: "/guide/best-budget-mini-pcs", title: "Best Budget Mini PCs (2026)" }
 ];

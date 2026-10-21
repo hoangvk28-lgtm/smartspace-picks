@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41No3MrO46L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09QKW7V55?tag=deskfinds0d-20",
-    "description": "Scalebeard has a 15 x 11 inch surface with textured massage areas and rollers, thick PP plastic frames with ribs underneath and a stated 120 lb capacity. The listing says it suits shorter people whose feet do not reach the floor, and assembly takes two legs with no tools.\n\nAt $21.98 it costs about $3 less than TUOBITUO and gives you a bigger, fixed platform. Versus LURZ it is rigid plastic where LURZ is soft foam, so it feels firmer under the feet.\n\nBest for shorter users who want a roomy, stable platform on a small budget. The caveat is that the height is fixed and the platform does not tilt, so you cannot fine-tune it.",
+    "description": "Scalebeard has a 15 x 11 inch surface with textured massage areas and rollers, thick PP plastic frames with ribs underneath and a stated 120 lb capacity. The listing says it suits shorter people whose feet do not reach the floor, and assembly takes two legs with no tools.\n\nAt under $25 it costs about $3 less than TUOBITUO and gives you a bigger, fixed platform. Versus LURZ it is rigid plastic where LURZ is soft foam, so it feels firmer under the feet.\n\nBest for shorter users who want a roomy, stable platform on a small budget. The caveat is that the height is fixed and the platform does not tilt, so you cannot fine-tune it.",
     "specs": [
       "15 x 11 inch surface",
       "Massage texture and rollers",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/417dqhZntwL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HGQV71HJ?tag=deskfinds0d-20",
-    "description": "TUOBITUO has a 360 degree rocking design, built-in massage rollers and a textured non-slip platform of 11.4 x 7.9 inches at a height of 6.3 inches. The idea is to let your ankles keep moving while you sit.\n\nIt is the priciest pick at $24.98, and its platform is smaller than Scalebeard's. Compared with Atoping it rocks in every direction rather than back and forth.\n\nBest for restless feet that never settle. The caveat is that the platform is only 7.9 inches deep and the 6.3 inch height is fixed, so it will not suit a small gap.",
+    "description": "TUOBITUO has a 360 degree rocking design, built-in massage rollers and a textured non-slip platform of 11.4 x 7.9 inches at a height of 6.3 inches. The idea is to let your ankles keep moving while you sit.\n\nIt is the priciest pick at under $25, and its platform is smaller than Scalebeard's. Compared with Atoping it rocks in every direction rather than back and forth.\n\nBest for restless feet that never settle. The caveat is that the platform is only 7.9 inches deep and the 6.3 inch height is fixed, so it will not suit a small gap.",
     "specs": [
       "360 degree rocking",
       "11.4 x 7.9 inch platform",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41VICjX3KAL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FDGF4MT2?tag=deskfinds0d-20",
-    "description": "LURZ uses 40 density memory foam with two height options and a breathable mesh cover that keeps feet cool. It is light and easy to move between spots.\n\nAt $19.99 it costs about $2 less than Scalebeard and is the only foam model with adjustable height at this price. Versus StepLively it adds height options.\n\nBest for people who want a soft foam rest at a low price. The caveat is that cover washing and dimensions are not in the highlights.",
+    "description": "LURZ uses 40 density memory foam with two height options and a breathable mesh cover that keeps feet cool. It is light and easy to move between spots.\n\nAt under $20 it costs about $2 less than Scalebeard and is the only foam model with adjustable height at this price. Versus StepLively it adds height options.\n\nBest for people who want a soft foam rest at a low price. The caveat is that cover washing and dimensions are not in the highlights.",
     "specs": [
       "40 density memory foam",
       "Two height options",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41x+L0vijOL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FY2GKT3R?tag=deskfinds0d-20",
-    "description": "Atoping is a wooden footrest measuring 14.18 x 10.24 x 3.82 inches with a curved base that rocks gently and an anti-slip surface. The listing says its wood construction is sturdier than plastic.\n\nAt $16.99 it is the cheapest solid footrest here. Compared with TUOBITUO it sits lower and rocks only back and forth.\n\nBest for small gaps where a low, gentle rocker fits. The caveat is the fixed 3.82 inch height, which is too low for taller users.",
+    "description": "Atoping is a wooden footrest measuring 14.18 x 10.24 x 3.82 inches with a curved base that rocks gently and an anti-slip surface. The listing says its wood construction is sturdier than plastic.\n\nAt under $20 it is the cheapest solid footrest here. Compared with TUOBITUO it sits lower and rocks only back and forth.\n\nBest for small gaps where a low, gentle rocker fits. The caveat is the fixed 3.82 inch height, which is too low for taller users.",
     "specs": [
       "14.18 x 10.24 x 3.82 inches",
       "Curved rocking base",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41S2jwtrEFL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0BL2G1G5D?tag=deskfinds0d-20",
-    "description": "StepLively is a drop-shaped footrest pillow designed to fit the arch of the foot, with a zip-off machine-washable cover. The listing says it can also be used under the knees.\n\nAt $14.99 it is the cheapest foam-style pick. Versus LURZ it has no height options, but it costs $5 less.\n\nBest for people who want a soft pillow that also works elsewhere. The caveat is that dimensions and foam type are not in the highlights.",
+    "description": "StepLively is a drop-shaped footrest pillow designed to fit the arch of the foot, with a zip-off machine-washable cover. The listing says it can also be used under the knees.\n\nAt under $15 it is the cheapest foam-style pick. Versus LURZ it has no height options, but it costs $5 less.\n\nBest for people who want a soft pillow that also works elsewhere. The caveat is that dimensions and foam type are not in the highlights.",
     "specs": [
       "Drop-shaped arch support",
       "Zip-off washable cover",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31DPPIdTDhS._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0919X72CV?tag=deskfinds0d-20",
-    "description": "iMissiu is a cotton canvas sling with 2 steel clips, rope from 300 to 600 mm, an 80 kg maximum bearing weight and a headphone holder. It suits desks under 2.4 inches thick and under 62 inches long.\n\nAt $16.99 it is a different kind of product from the stools above, since it hangs from the desk. Versus Atoping it frees the floor but depends on your desk edge.\n\nBest for people who want floor space back. The caveat is that desk thickness and length limits may rule it out, and a sling offers no firm surface.",
+    "description": "iMissiu is a cotton canvas sling with 2 steel clips, rope from 300 to 600 mm, an 80 kg maximum bearing weight and a headphone holder. It suits desks under 2.4 inches thick and under 62 inches long.\n\nAt under $20 it is a different kind of product from the stools above, since it hangs from the desk. Versus Atoping it frees the floor but depends on your desk edge.\n\nBest for people who want floor space back. The caveat is that desk thickness and length limits may rule it out, and a sling offers no firm surface.",
     "specs": [
       "Cotton canvas sling",
       "80 kg maximum weight",

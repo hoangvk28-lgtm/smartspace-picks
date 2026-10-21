@@ -77,7 +77,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0F9Y73GRH?tag=deskfinds0d-20",
     description: "This hutch's 6-tier layout mixes wide and narrow shelves in an open design, giving you room for a small printer or monitor riser on the top tier alongside books and stationery below. The high-density MDF board with white veneer is built scratch-resistant and waterproof, a durability angle the other picks in this comparison don't specifically call out.\n\nCompared to the Giantex pick above, this one is the cheapest in this tier by about $5, trading adjustable shelving and stated monitor clearance for a fixed 6-tier layout that still works fine for most compact desk setups. Tool-free assembly with pre-drilled holes makes it the fastest to set up of the four picks here.\n\nBest for buyers on the tightest budget who still want multi-tier open storage.",
     specs: ["6-tier open layout, wide and narrow shelves", "Scratch-resistant, waterproof MDF construction", "Tool-free assembly, pre-drilled holes"],
-    pros: ["Cheapest pick in this comparison at $34.99", "Waterproof, scratch-resistant finish unlike the other picks", "Tool-free assembly is the fastest setup in this tier"],
+    pros: ["Cheapest pick in this comparison at under $35", "Waterproof, scratch-resistant finish unlike the other picks", "Tool-free assembly is the fastest setup in this tier"],
     cons: ["No stated monitor clearance dimensions like the other picks", "Fixed shelf heights without adjustability"],
     bestFor: "the tightest budget while still wanting multi-tier storage",
   }
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The highest weight capacity and best stability hardware", "Furinno Classic Desk Shelf, 5-Shelf Desktop Hutch"],
         ["A hidden drawer alongside open shelves", "Marbrasse Desk Shelf with Drawer"],
         ["Adjustable shelf height at a lower price", "Giantex Desktop Bookshelf, 37in Desk Hutch"],
-        ["The lowest price with multi-tier storage", "Nova Microdermabrasion Wooden Desktop Bookshelf"],
+        ["The lowest price with multi-tier storage", "Nova Microdermabrasion Wooden Desktop Bookshelf"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $35", "Nova Microdermabrasion ($34.99)"],
-        ["Under $40", "Giantex ($39.98)"],
-        ["Under $50", "Marbrasse ($49.99) or Furinno Classic ($50.28)"],
+        ["Under $35", "Nova Microdermabrasion (under $35)"],
+        ["Under $40", "Giantex (under $40)"],
+        ["Under $50", "Marbrasse (under $50) or Furinno Classic (under $60)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Fixed Shelving vs Adjustable Shelving",
     cards: [
       { label: "Fixed shelving (Furinno, Marbrasse, Nova Microdermabrasion)", text: "Provides predictable, stable shelf spacing that's simpler to assemble and generally rated for higher weight per shelf." },
-      { label: "Adjustable shelving (Giantex)", text: "Trades some stability for flexibility, letting you resize one shelf's clearance for taller items like binders or decor." },
+      { label: "Adjustable shelving (Giantex)", text: "Trades some stability for flexibility, letting you resize one shelf's clearance for taller items like binders or decor." }
     ],
     note: "If you're mostly storing books, files, and a monitor, fixed shelving like the Furinno pick works fine. If you need to fit oddly-sized items, the Giantex pick's adjustable middle shelf is worth the tradeoff.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Up to 24 inches", "Furinno Classic (23.7 inch wide cutout)"],
         ["Up to 28 inches", "Marbrasse Desk Shelf with Drawer"],
         ["Up to 32 inches", "Giantex Desktop Bookshelf"],
-        ["No monitor or unspecified needs", "Nova Microdermabrasion (no monitor clearance stated)"],
+        ["No monitor or unspecified needs", "Nova Microdermabrasion (no monitor clearance stated)"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Shared Dorm Desk Specifically",
     cards: [
       { label: "Look for", text: "Hidden storage for small personal items alongside open display shelving, since dorm desks are often shared or visible to roommates." },
-      { label: "In this comparison", text: "The Marbrasse pick's fabric drawer specifically hides smaller or personal items while still offering open shelves for everyday supplies." },
+      { label: "In this comparison", text: "The Marbrasse pick's fabric drawer specifically hides smaller or personal items while still offering open shelves for everyday supplies." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the highest weight capacity plus anti-toppling hardware, where the Furinno Classic pick delivers both at the top of this tier." },
-      { label: "Save if", text: "You just need basic multi-tier storage without a large monitor cutout, where the Nova Microdermabrasion pick covers that for about $15 less." },
+      { label: "Save if", text: "You just need basic multi-tier storage without a large monitor cutout, where the Nova Microdermabrasion pick covers that for about $15 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

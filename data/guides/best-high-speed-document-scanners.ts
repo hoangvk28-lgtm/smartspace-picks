@@ -5,7 +5,7 @@ export const metaDescription = "8 scanners we evaluated for real high-speed thro
 export const mainKeyword = "high-speed document scanner";
 export const introParagraphs = [
   "Manufacturer speed claims like '45 ppm' are typically measured at 200 DPI black-and-white simplex on letter-size paper. Switching to 300 DPI color duplex, standard for archival-quality scanning, can reduce real throughput by 30-50%, a discrepancy almost no roundup discloses. We flag each pick's actual duplex/color capability rather than repeating the headline number.",
-  "Also worth knowing: daily duty cycle is a separate spec from ppm and determines real sustainable throughput. A scanner rated 45 ppm but with a modest daily duty cycle can't sustain that speed for a full 8-hour workday without exceeding its rated lifetime volume.",
+  "Also worth knowing: daily duty cycle is a separate spec from ppm and determines real sustainable throughput. A scanner rated 45 ppm but with a modest daily duty cycle can't sustain that speed for a full 8-hour workday without exceeding its rated lifetime volume."
 ];
 export const lastUpdated = "2026-07-29";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall High-Speed Pick",
     name: "Epson Workforce ES-400 II High-Speed Color Duplex Desktop Document Scanner",
     price: "$299.99",
-    rating: "4.5 stars from 1,226 Amazon ratings",
-    reviews: "1,226 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41rW4JApydL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08P3YVH3X?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best One-Touch Simplicity",
     name: "ScanSnap iX2400 High-Speed One-Touch Button Color Document Scanner",
     price: "$349.99",
-    rating: "4.5 stars from 991 Amazon ratings",
-    reviews: "991 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41LZ7HiXsPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FWGTB3S3?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wireless High-Speed Option",
     name: "ScanSnap iX2500 Wireless or USB High-Speed Document Scanner",
     price: "Check current price",
-    rating: "4.4 stars from 326 Amazon ratings",
-    reviews: "326 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41wHhR2WCpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9B1H5VN?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Same Spec, Alternate Listing",
     name: "ScanSnap iX2500 Wireless or USB High-Speed Document Scanner (Alt. Listing)",
     price: "Check current price",
-    rating: "4.4 stars from 132 Amazon ratings",
-    reviews: "132 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41m9omvtbvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9B1PMTS?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wireless Desktop High-Speed Pick",
     name: "Epson Workforce ES-580W Wireless Color Duplex Desktop Document Scanner",
     price: "$379.99",
-    rating: "4.3 stars from 5,857 Amazon ratings",
-    reviews: "5,857 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Ty0waBx4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KQZWPYN?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best Portable High-Speed Pick",
     name: "Canon imageFORMULA R10 Portable Document Scanner, USB Powered, Duplex",
     price: "$184.00",
-    rating: "4.1 stars from 2,338 Amazon ratings",
-    reviews: "2,338 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/218Q14ube6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08FBHTD9B?tag=deskfinds0d-20",
     description:
@@ -127,8 +127,8 @@ export const products: GuideProduct[] = [
     badge: "Most Reviewed Compact Alternative",
     name: "Brother DS-640 Compact Mobile Document Scanner",
     price: "$134.99",
-    rating: "4.3 stars from 6,522 Amazon ratings",
-    reviews: "6,522 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Bx7Z39uKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B083R36CY4?tag=deskfinds0d-20",
     description:
@@ -144,8 +144,8 @@ export const products: GuideProduct[] = [
     badge: "Best Portable Duplex Alternative",
     name: "Brother DS-740D Duplex Compact Mobile Document Scanner",
     price: "$169.99",
-    rating: "4.3 stars from 2,294 Amazon ratings",
-    reviews: "2,294 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/415ddFXTF8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B083R3XYQN?tag=deskfinds0d-20",
     description:
@@ -154,14 +154,14 @@ export const products: GuideProduct[] = [
     pros: ["Duplex scanning in a single pass", "Desk Saving Design genuinely reduces footprint", "Color scans at the same speed as black-and-white", "Broad driver support"],
     cons: ["Same 16 ppm ceiling as the simplex DS-640", "Not built for genuine high-speed sustained batches", "Smaller review base than the DS-640"],
     bestFor: "Buyers who want compact duplex scanning without desktop-scanner bulk",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Real color duplex throughput versus headline ppm", description: "Flagged that manufacturer ppm claims are typically tested at low-DPI black-and-white simplex, while real 300 DPI color duplex archival scanning runs 30-50% slower, a gap most listings don't disclose." },
   { title: "Multi-feed/jam risk at high transport speed", description: "Noted that faster paper transport generally reduces mechanical tolerance for curled, stapled, or mixed-weight paper, an operational tradeoff for genuinely high-speed models." },
-  { title: "Daily duty cycle disclosure where available", description: "Prioritized picks that disclose an explicit daily scan volume (like the Canon R10's 500 scans/day) over ones that quote only a peak ppm number with no sustainable-volume context." },
+  { title: "Daily duty cycle disclosure where available", description: "Prioritized picks that disclose an explicit daily scan volume (like the Canon R10's 500 scans/day) over ones that quote only a peak ppm number with no sustainable-volume context." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -294,11 +294,11 @@ export const faq: FaqItem[] = [
   { q: "Should I use Wi-Fi or USB for large batch color scans?", a: "USB/USB-C, if sustained speed matters. Wi-Fi transfer of large color scan files (10-30MB per page at archival DPI) can bottleneck and create a backlog between the scanner and destination folder." },
   { q: "Does a higher ppm rating mean I can scan all day at that speed?", a: "Not necessarily. Daily duty cycle is a separate spec from ppm; check for an explicit daily scan volume rating (like the Canon R10's 500 scans/day) to know realistic sustained full-workday throughput." },
   { "q": "What's the single best pick to come out of this comparison?", a: "Buyers who want genuine sustained duplex batch speed with reliable double-feed detection" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want wireless flexibility but should default to USB-C for sustained color batches At Check current price, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want wireless flexibility but should default to USB-C for sustained color batches At Check current price, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-compact-document-scanners", title: "Best Compact Document Scanners (2026)" },
   { href: "/guide/best-document-scanners-for-computers", title: "Best Document Scanners for Computers (2026)" },
-  { href: "/guide/best-document-scanners-with-ocr", title: "Best Document Scanners with OCR (2026)" },
+  { href: "/guide/best-document-scanners-with-ocr", title: "Best Document Scanners with OCR (2026)" }
 ];

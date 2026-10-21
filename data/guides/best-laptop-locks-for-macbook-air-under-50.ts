@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The cheapest genuinely Air-compatible lock", "AboveTEK Laptop Lock with Adhesive Anchors"],
         ["No adhesive residue on the laptop", "Multplx Laptop Lock Adapter (No Adhesive)"],
         ["A lock purpose-built for current-gen Air models", "Compulocks Ledge Adapter for MacBook Air 13-inch"],
-        ["A combined stand and lock in one", "AboveTEK MacBook & Surface Laptop Locking Station"],
+        ["A combined stand and lock in one", "AboveTEK MacBook & Surface Laptop Locking Station"]
       ],
     },
   },
@@ -148,8 +148,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $35", "AboveTEK Adhesive Lock ($31.99) or Multplx Adapter ($32.99)"],
-        ["Up to $50", "Compulocks Ledge Adapter, AboveTEK Locking Station, or Multplx Combination (all $45.99-$49.99)"],
+        ["Under $35", "AboveTEK Adhesive Lock (under $35) or Multplx Adapter (under $35)"],
+        ["Up to $50", "Compulocks Ledge Adapter, AboveTEK Locking Station, or Multplx Combination (all under $50-under $50)"]
       ],
     },
   },
@@ -163,7 +163,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "Adhesive anchor plate (AboveTEK)",
         text: "Leaves the headphone jack completely free, but the adhesive is meant to be semi-permanent once applied, so it commits you to one physical location.",
-      },
+      }
     ],
     note: "If you regularly use the headphone jack for wired audio, prioritize the AboveTEK adhesive pick or the Compulocks corner adapter over either Multplx option.",
   },
@@ -173,7 +173,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Priority", "Recommended pick"],
       rows: [
         ["No physical key to lose", "Multplx Universal Laptop Security Lock (combination)"],
-        ["Comfortable managing a physical key", "AboveTEK, Compulocks, or the AboveTEK Locking Station (all keyed)"],
+        ["Comfortable managing a physical key", "AboveTEK, Compulocks, or the AboveTEK Locking Station (all keyed)"]
       ],
     },
   },
@@ -187,7 +187,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "The AboveTEK MacBook & Surface Laptop Locking Station is the only pick here that combines a full locking station with an adjustable viewing angle.",
-      },
+      }
     ],
   },
   {
@@ -195,14 +195,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You want a lock purpose-built and explicitly rated for current M2-M5 MacBook Air generations with a corner mount: the Compulocks Ledge Adapter ($45.99) is built specifically for that.",
+        text: "You want a lock purpose-built and explicitly rated for current M2-M5 MacBook Air generations with a corner mount: the Compulocks Ledge Adapter (under $50) is built specifically for that.",
       },
       {
         label: "Save if",
-        text: "You're keeping your Air at one desk long-term and don't mind an adhesive mount: AboveTEK's adhesive kit ($31.99) is the cheapest genuinely compatible option here.",
-      },
+        text: "You're keeping your Air at one desk long-term and don't mind an adhesive mount: AboveTEK's adhesive kit (under $35) is the cheapest genuinely compatible option here.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -257,5 +257,5 @@ export const faq = [
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-locks-for-macbook-pro", title: "Best Laptop Locks for MacBook Pro" },
-  { href: "/guide/best-laptop-locks-under-50", title: "Best Laptop Locks Under $50" },
+  { href: "/guide/best-laptop-locks-under-50", title: "Best Laptop Locks Under $50" }
 ];

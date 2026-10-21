@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "corner monitor shelf";
 export const introParagraphs = [
   "Corner-desk geometry varies meaningfully by brand and model, the angle and depth of a corner cutout on one L-shaped desk isn't guaranteed to match another, so a shelf built for one corner-desk shape may not actually fit a different one. Measuring your specific desk's corner angle and depth before buying matters more here than for a straight-edge shelf.",
-  "Viewing and reach positioning also differ at an angle compared to a straight-edge setup, and angled mounting introduces different stress patterns than a shelf sitting flush against a flat edge. Items pushed toward the back of a corner shelf can also be genuinely harder to reach than on a straight shelf, worth considering before loading the back of the platform with anything you need often.",
+  "Viewing and reach positioning also differ at an angle compared to a straight-edge setup, and angled mounting introduces different stress patterns than a shelf sitting flush against a flat edge. Items pushed toward the back of a corner shelf can also be genuinely harder to reach than on a straight shelf, worth considering before loading the back of the platform with anything you need often."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,13 +26,13 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Corner Monitor Shelf",
     name: "Hemudu Clear Glass Monitor Riser, Triangle Desktop Corner Stand",
     price: "$22.95",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "3,636 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31hCjmkrRXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07DDBJHPT?tag=deskfinds0d-20",
-    description: "For buyers with a genuine corner desk wanting a shelf shaped specifically for that geometry Built with a glass platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nIt earns the top spot in this comparison over TEAMIX 20 inch Wood Monitor Stand Riser for one main reason. Solid 4.8-star rating with 3,636 ratings. On price, it's actually priced above TEAMIX 20 inch Wood Monitor Stand Riser, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Glass build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["44 lbs rated capacity (evenly distributed)","glass construction","Priced at $22.95","3,636 ratings on Amazon"],
-    pros: ["Solid 4.8-star rating with 3,636 ratings","Glass build appropriate for this use case","Reasonable price at $22.95","A clear glass triangle riser purpose-built for a desk corner rather than adapted from a straight-edge design."],
+    description: "For buyers with a genuine corner desk wanting a shelf shaped specifically for that geometry Built with a glass platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nIt earns the top spot in this comparison over TEAMIX 20 inch Wood Monitor Stand Riser for one main reason. On price, it's actually priced above TEAMIX 20 inch Wood Monitor Stand Riser, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Glass build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","glass construction","Priced under $25"],
+    pros: ["Glass build appropriate for this use case","Reasonable price at under $25","A clear glass triangle riser purpose-built for a desk corner rather than adapted from a straight-edge design."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A clear glass triangle riser purpose-built for a desk corner rather than adapted from a straight-edge design.",
   },
@@ -42,13 +42,13 @@ export const products: GuideProduct[] = [
     badge: "Best Wood Corner-Style Shelf",
     name: "TEAMIX 20 inch Wood Monitor Stand Riser, Rustic Brown",
     price: "$20.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "3,077 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/312XuwnWdzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BHMW8HFB?tag=deskfinds0d-20",
-    description: "For buyers wanting a wood-finish option positioned at the corner of their desk Built with a wood platform rated to 40 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nOne spot below Hemudu Clear Glass Monitor Riser in this ranking, it's priced lower than Hemudu Clear Glass Monitor Riser. The compromise here is straightforward: Rated capacity assumes evenly distributed weight, not a single point load. What you gain in return: Solid 4.6-star rating with 3,077 ratings. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["40 lbs rated capacity (evenly distributed)","wood construction","Priced at $20.99","3,077 ratings on Amazon"],
-    pros: ["Solid 4.6-star rating with 3,077 ratings","Wood build appropriate for this use case","Reasonable price at $20.99","A rustic wood riser shelf that works well tucked into a desk corner setup."],
+    description: "For buyers wanting a wood-finish option positioned at the corner of their desk Built with a wood platform rated to 40 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nOne spot below Hemudu Clear Glass Monitor Riser in this ranking, it's priced lower than Hemudu Clear Glass Monitor Riser. The compromise here is straightforward: Rated capacity assumes evenly distributed weight, not a single point load. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["40 lbs rated capacity (evenly distributed)","wood construction","Priced under $25"],
+    pros: ["Wood build appropriate for this use case","Reasonable price at under $25","A rustic wood riser shelf that works well tucked into a desk corner setup."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A rustic wood riser shelf that works well tucked into a desk corner setup.",
   },
@@ -58,13 +58,13 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Corner-Adjacent Shelf",
     name: "HUANUO Monitor Riser for Desk, Vented Laptop Shelf",
     price: "$15.99",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "15,385 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41kQEYuq+KL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B073VKC134?tag=deskfinds0d-20",
-    description: "For buyers with limited corner space wanting a smaller-footprint option Built with a metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nSitting just under TEAMIX 20 inch Wood Monitor Stand Riser, it's priced lower than TEAMIX 20 inch Wood Monitor Stand Riser. Here's the honest tradeoff: Rated capacity assumes evenly distributed weight, not a single point load. And here's what it gets you instead: Solid 4.8-star rating with 15,385 ratings. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["44 lbs rated capacity (evenly distributed)","metal construction","Priced at $15.99","15,385 ratings on Amazon"],
-    pros: ["Solid 4.8-star rating with 15,385 ratings","Metal build appropriate for this use case","Reasonable price at $15.99","A compact vented riser that fits well in the tighter space near a desk corner."],
+    description: "For buyers with limited corner space wanting a smaller-footprint option Built with a metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nSitting just under TEAMIX 20 inch Wood Monitor Stand Riser, it's priced lower than TEAMIX 20 inch Wood Monitor Stand Riser. Here's the honest tradeoff: Rated capacity assumes evenly distributed weight, not a single point load. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","metal construction","Priced under $20"],
+    pros: ["Metal build appropriate for this use case","Reasonable price at under $20","A compact vented riser that fits well in the tighter space near a desk corner."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A compact vented riser that fits well in the tighter space near a desk corner.",
   },
@@ -74,13 +74,13 @@ export const products: GuideProduct[] = [
     badge: "Best Adjustable Corner-Adjacent Shelf",
     name: "WALI Computer Monitor Stand for Desk, Adjustable Laptop Riser, up to 44 lbs",
     price: "$14.99",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "15,803 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31VzBQ+jwWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B094QTGHNZ?tag=deskfinds0d-20",
-    description: "For buyers wanting height adjustment specifically at an angled corner viewing position Built with a metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nRanked just behind HUANUO Monitor Riser for Desk, it's priced lower than HUANUO Monitor Riser for Desk. The real tradeoff against that pick: Rated capacity assumes evenly distributed weight, not a single point load. In exchange, it offers this instead: Solid 4.7-star rating with 15,803 ratings. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["44 lbs rated capacity (evenly distributed)","metal construction","Priced at $14.99","15,803 ratings on Amazon"],
-    pros: ["Solid 4.7-star rating with 15,803 ratings","Metal build appropriate for this use case","Reasonable price at $14.99","A height-adjustable metal riser positioned near the desk corner for ergonomic flexibility."],
+    description: "For buyers wanting height adjustment specifically at an angled corner viewing position Built with a metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nRanked just behind HUANUO Monitor Riser for Desk, it's priced lower than HUANUO Monitor Riser for Desk. The real tradeoff against that pick: Rated capacity assumes evenly distributed weight, not a single point load. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","metal construction","Priced under $15"],
+    pros: ["Metal build appropriate for this use case","Reasonable price at under $15","A height-adjustable metal riser positioned near the desk corner for ergonomic flexibility."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A height-adjustable metal riser positioned near the desk corner for ergonomic flexibility.",
   }
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Corner-desk geometry variance considered", description: "Noted that corner-desk angle and depth vary by brand and model, and a shelf built for one shape may not fit another." },
   { title: "Angled viewing and reach positioning assessed", description: "Considered how ergonomic viewing and item reach differ at an angled corner position compared to a straight-edge setup." },
   { title: "Angled-mounting stress distinguished from straight-edge mounting", description: "Noted that a shelf sitting at an angle in a corner faces different stress patterns than one flush against a flat edge." },
-  { title: "Back-of-platform reachability flagged", description: "Considered that items pushed toward the back of a corner shelf can be genuinely harder to reach than on a straight shelf." },
+  { title: "Back-of-platform reachability flagged", description: "Considered that items pushed toward the back of a corner shelf can be genuinely harder to reach than on a straight shelf." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -180,23 +180,19 @@ export const howToChoose: HowToChooseSection[] = [
       {
         "label": "Look for",
         "text": "A stated weight capacity with real margin above your monitor's actual weight, a rigid material like metal or thick wood, and a wide enough platform to support the monitor's full base without overhang."
-      },
-      {
-        "label": "In this comparison",
-        "text": "Hemudu Clear Glass Monitor Riser fits this specifically: Solid 4.8-star rating with 3,636 ratings."
       }
-    ]
+      ]
   },
   {
     "subheading": "When to Spend More",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want what Hemudu Clear Glass Monitor Riser offers: Solid 4.8-star rating with 3,636 ratings. That's a real functional upgrade over the budget picks here, not just a brand markup."
+        "text": "That's a real functional upgrade over the budget picks here, not just a brand markup."
       },
       {
         "label": "Save if",
-        "text": "WALI Computer Monitor Stand for Desk already covers the essentials: Solid 4.7-star rating with 15,803 ratings. The main thing you'd be paying extra for elsewhere in this list is capacity or storage you may not need."
+        "text": "The main thing you'd be paying extra for elsewhere in this list is capacity or storage you may not need."
       }
     ]
   }
@@ -229,11 +225,11 @@ export const faq: FaqItem[] = [
   { q: "Will a corner monitor shelf fit any L-shaped desk?", a: "Not necessarily, corner-desk angle and depth vary by brand and model, measure your specific desk's corner geometry before buying." },
   { q: "Is a triangle-shaped shelf better than a rectangular one at a desk corner?", a: "A purpose-built triangle shape generally fits corner geometry more precisely, while a rectangular shelf placed at a corner is more of an adaptation." },
   { q: "Are items at the back of a corner shelf hard to reach?", a: "Yes, a corner position naturally pushes part of the platform further from your seated position, keep frequently used items toward the front." },
-  { q: "Does mounting a shelf at an angle affect its stability?", a: "It can, angled mounting introduces different stress patterns than a shelf flush against a straight edge, check reviews for corner-specific stability feedback." },
+  { q: "Does mounting a shelf at an angle affect its stability?", a: "It can, angled mounting introduces different stress patterns than a shelf flush against a straight edge, check reviews for corner-specific stability feedback." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-glass-monitor-shelves", title: "Best Glass Monitor Shelves (2026)" },
   { href: "/guide/best-wooden-monitor-shelves", title: "Best Wooden Monitor Shelves (2026)" },
-  { href: "/guide/best-monitor-shelves-for-small-desks", title: "Best Monitor Shelves for Small Desks (2026)" },
+  { href: "/guide/best-monitor-shelves-for-small-desks", title: "Best Monitor Shelves for Small Desks (2026)" }
 ];

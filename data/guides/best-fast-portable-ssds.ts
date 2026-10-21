@@ -5,7 +5,7 @@ export const metaDescription = "4 of the fastest portable SSDs we evaluated, loo
 export const mainKeyword = "fastest portable ssd";
 export const introParagraphs = [
   "Most 'fastest' benchmarks are large sequential transfers that flatter a drive's peak burst speed, but real-world use is full of small, random file access that matters more for how fast a drive actually feels day to day.",
-  "A 'fastest' claim is also meaningless without specifying the required host interface tier, a drive rated for 4000MB/s over Thunderbolt or USB4 will run no faster than a basic USB 3.2 Gen 2 drive if your port only supports that older tier.",
+  "A 'fastest' claim is also meaningless without specifying the required host interface tier, a drive rated for 4000MB/s over Thunderbolt or USB4 will run no faster than a basic USB 3.2 Gen 2 drive if your port only supports that older tier."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Fastest Overall Pick",
     name: "SABRENT Rocket XTRM 5 2TB Thunderbolt 5 Portable SSD, 80Gbps Connection, Up to 64Gbps Transfer, Compatible with TB4 TB3 USB4 USB 3.2, Rugged Aluminum and Silicone",
     price: "$399.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "30 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Kx15NoFzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F7NZJ1SK?tag=deskfinds0d-20",
     description: "SABRENT's Rocket XTRM 5 uses a Thunderbolt 5 connection rated up to 64Gbps transfer, the highest interface ceiling in this group, and remains backward compatible with Thunderbolt 4, Thunderbolt 3, and USB4.\n\nIt earns the top spot in this comparison over Corsair EX400U Survivor 1TB USB4 External SSD for one main reason. Highest interface ceiling in this comparison. On price, it's actually priced above Corsair EX400U Survivor 1TB USB4 External SSD, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Broad backward compatibility with older Thunderbolt and USB4 ports. On the other side, Premium price reflecting the top interface tier. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Fastest USB4 Pick",
     name: "Corsair EX400U Survivor 1TB USB4 External SSD - Up to 4000 MB/s, IP55 Rugged Drive, Plug & Play for PC, Mac & iPad - Black",
     price: "$238.58",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "60 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21K3rg5MWlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVMGFPHT?tag=deskfinds0d-20",
     description: "Corsair's EX400U Survivor pairs a USB4 bridge rated up to 4000MB/s with an IP55 rugged rating, a strong combination of real speed and everyday durability.\n\nOne spot below SABRENT Rocket XTRM 5 2TB Thunderbolt 5 Portable SSD in this ranking, it's priced lower than SABRENT Rocket XTRM 5 2TB Thunderbolt 5 Portable SSD. The compromise here is straightforward: Still needs a USB4 or Thunderbolt host port to matter. What you gain in return: Genuinely fast USB4 bridge without needing Thunderbolt 5. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: IP55 rating adds real everyday durability. On the other side, 1TB capacity may be limiting for very large libraries. That's the main tradeoff to weigh against everything above.",
@@ -57,14 +57,14 @@ export const products: GuideProduct[] = [
     badge: "Fastest High-Capacity Pick",
     name: "Corsair EX400U 2TB USB4 Portable External Type-C SSD - Up to 4,000MB/s Read, 3,600MB/s Write, Thunderbolt 4, MagSafe, Includes 40Gbps Cable - Gray",
     price: "$399.99",
-    rating: "4.1 stars from Amazon ratings",
-    reviews: "382 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21F-0rmbcOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DR381N86?tag=deskfinds0d-20",
     description: "Corsair's EX400U 2TB scales the same fast USB4 bridge, rated up to 4000MB/s read, to a larger capacity, useful for buyers who need both real speed and a bigger library.\n\nSitting just under Corsair EX400U Survivor 1TB USB4 External SSD, it costs more than Corsair EX400U Survivor 1TB USB4 External SSD. Here's the honest tradeoff: Needs a USB4 or Thunderbolt host port to matter. And here's what it gets you instead: Fast USB4 speed at a larger 2TB capacity. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Includes a properly rated cable, removing a common bottleneck. On the other side, Premium price versus USB 3.2 Gen 2 drives. That's the main tradeoff to weigh against everything above.",
     specs: ["2TB capacity","Up to 4000MB/s read rated","USB4, Thunderbolt 4 compatible","Includes properly rated 40Gbps cable"],
     pros: ["Fast USB4 speed at a larger 2TB capacity","Includes a properly rated cable, removing a common bottleneck","MagSafe compatibility adds real convenience","Strong ceiling for demanding, high-capacity transfers"],
-    cons: ["Needs a USB4 or Thunderbolt host port to matter","More moderate 4.1-star rating, worth checking current reviews","Premium price versus USB 3.2 Gen 2 drives"],
+    cons: ["Needs a USB4 or Thunderbolt host port to matter","Premium price versus USB 3.2 Gen 2 drives"],
     bestFor: "Buyers who need genuine speed and larger capacity together",
   },
   {
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Fastest Mid-Tier Pick",
     name: "Crucial X10 1TB Portable SSD, Up to 2,100MB/s, USB 3.2 USB-C, Durable Storage for Games, Photos & Files, Blue",
     price: "$207.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "2,363 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/312gFk3+1CL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F3377JBN?tag=deskfinds0d-20",
     description: "Crucial's X10 rates up to 2100MB/s over USB 3.2, a genuine step up from basic Gen 2 only drives without requiring a Thunderbolt or USB4 port.\n\nRanked just behind Corsair EX400U 2TB USB4 Portable External Type-C SSD, it's priced lower than Corsair EX400U 2TB USB4 Portable External Type-C SSD. The real tradeoff against that pick: Still bottlenecked below Thunderbolt or USB4 drives. In exchange, it offers this instead: Fastest realistic option for USB 3.2-only host ports. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Durable casing suited to gaming and everyday use. On the other side, Newer entrant with a smaller review base. That's the main tradeoff to weigh against everything above.",

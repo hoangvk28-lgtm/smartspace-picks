@@ -148,7 +148,7 @@ export default async function BestPhoneGimbalsPage() {
     about: [
       { "@type": "Thing", name: "Phone Gimbal" },
       { "@type": "Thing", name: "Content Creator Equipment" },
-      { "@type": "Thing", name: "Video Stabilizer" },
+      { "@type": "Thing", name: "Video Stabilizer" }
     ],
   };
   const breadcrumbSchema = {
@@ -157,7 +157,7 @@ export default async function BestPhoneGimbalsPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Phone Gimbals for Content Creators", item: `${SITE_URL}/guide/best-phone-gimbals-for-content-creators` },
+      { "@type": "ListItem", position: 3, name: "Best Phone Gimbals for Content Creators", item: `${SITE_URL}/guide/best-phone-gimbals-for-content-creators` }
     ],
   };
   const itemListSchema = {
@@ -333,7 +333,7 @@ export default async function BestPhoneGimbalsPage() {
                   {[
                     { axis: "Pan (yaw)", motion: "Left and right rotation", effect: "Smooth horizontal panning across a desk or scene" },
                     { axis: "Tilt (pitch)", motion: "Up and down rotation", effect: "Steady zoom-in or zoom-out moves without head bob" },
-                    { axis: "Roll", motion: "Side-to-side tilt", effect: "Keeps horizon level when walking or hand shifts" },
+                    { axis: "Roll", motion: "Side-to-side tilt", effect: "Keeps horizon level when walking or hand shifts" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.axis}</td>
@@ -377,7 +377,7 @@ export default async function BestPhoneGimbalsPage() {
                   {[
                     { rated: "8-9h", real: "5-7h active use", notes: "Motor load and ambient temperature reduce spec" },
                     { rated: "10-12h", real: "7-9h active use", notes: "Fill light on drops by 2-3h on average" },
-                    { rated: "13.5h", real: "5.5h with fill light on", notes: "Zhiyun Q5 Ultra spec drops significantly with light active" },
+                    { rated: "13.5h", real: "5.5h with fill light on", notes: "Zhiyun Q5 Ultra spec drops significantly with light active" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.rated}</td>
@@ -433,7 +433,7 @@ export default async function BestPhoneGimbalsPage() {
             {[
               { context: "First gimbal, testing stabilization before committing", id: "zhiyun-smooth-q4", name: "Zhiyun Smooth Q4", verdict: ": 3-axis, foldable, extension rod, ZY Cami app tracking at $60." },
               { context: "Best all-round for most desk creators", id: "dji-osmo-mobile-7p", name: "DJI Osmo Mobile 7P", verdict: ": native tracking in any app, fill light with color temp, tripod mode, phone charging at $130." },
-              { context: "iPhone creators recording in ProRes or native iOS apps", id: "insta360-flow-2-pro", name: "Insta360 Flow 2 Pro", verdict: ": Apple DockKit native iOS tracking, 360-degree pan, 12h battery at $150." },
+              { context: "iPhone creators recording in ProRes or native iOS apps", id: "insta360-flow-2-pro", name: "Insta360 Flow 2 Pro", verdict: ": Apple DockKit native iOS tracking, 360-degree pan, 12h battery at $150." }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

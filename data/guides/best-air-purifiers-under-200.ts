@@ -5,7 +5,7 @@ export const metaDescription = "5 air purifiers under $200 we evaluated, with th
 export const mainKeyword = "air purifier under $200";
 export const introParagraphs = [
   "At the $100-200 tier, you're paying mostly for smart features, sensors, larger rated coverage, and established brand reliability, not a fundamentally different filtration mechanism than a genuine sub-$100 True HEPA unit, worth knowing before assuming more expensive automatically means better air cleaning.",
-  "A higher price in this range often does buy real coverage headroom for a larger room, meaningfully reducing the risk of undersizing compared to a budget unit, a genuine reason to spend more if your space is bigger than a small bedroom.",
+  "A higher price in this range often does buy real coverage headroom for a larger room, meaningfully reducing the risk of undersizing compared to a budget unit, a genuine reason to spend more if your space is bigger than a small bedroom."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Air Purifier Under $200 Overall",
     name: "LEVOIT Smart Air Purifier for Home Large Room up to 1875 ft Vital 200S-P",
     price: "$174.99",
-    rating: "4.7 stars from 14,571 Amazon ratings",
-    reviews: "14,571 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Established Brand Pick Under $200",
     name: "WINIX 5520 Air Purifier with PlasmaWave Technology",
     price: "$179.99",
-    rating: "4.6 stars from 31,954 Amazon ratings",
-    reviews: "31,954 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Wb8TGSnPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT4F8T4L?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Pick with Real-Time Feedback",
     name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
-    rating: "4.6 stars from 28,866 Amazon ratings",
-    reviews: "28,866 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419pAe7T0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTKAPUU?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Airflow Pick",
     name: "Blueair Air Purifiers for Home Large Room, 211i Max Air Purifier for Bedroom, HEPASilent Technology Removes 99.97% of Airborne Viruses, Allergens, Dust, Mold, Odors, Air Quality Sensor",
     price: "$349.00",
-    rating: "4.5 stars from 3,559 Amazon ratings",
-    reviews: "3,559 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31K9NLoXncL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BN2MGV5H?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget-Adjacent Pick Under $200",
     name: "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom, H13 True HEPA Filter, 24db Filtration System Cleaner Odor Eliminators, Remove 99.97% Dust Smoke Mold Pollen, Core 300, White",
     price: "$89.99",
-    rating: "4.7 stars from 108,251 Amazon ratings",
-    reviews: "108,251 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["By far the largest review base of any pick here", "Genuine True HEPA filtration well under the price ceiling", "Very quiet at 24dB", "Leaves budget room for a second unit or filter replacements"],
     cons: ["No smart app control", "No air quality sensor", "Standard rated coverage, not the largest in this guide"],
     bestFor: "Buyers wanting proven core filtration while spending well under the $200 ceiling",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "What the $100-200 premium actually buys", description: "Considered that at this tier, you're paying mostly for smart features, sensors, larger rated coverage, and established brand reliability, not a fundamentally different filtration mechanism than a budget-tier unit." },
   { title: "Real coverage headroom as a genuine value driver", description: "Weighed that a higher price in this range often does buy real coverage headroom for a larger room, a genuine reason to spend more if your space exceeds a small bedroom." },
-  { title: "Current pricing verified against the $200 ceiling", description: "Checked that each pick genuinely falls within or near this price tier, flagging variants where pricing can fluctuate above the stated ceiling depending on promotions." },
+  { title: "Current pricing verified against the $200 ceiling", description: "Checked that each pick genuinely falls within or near this price tier, flagging variants where pricing can fluctuate above the stated ceiling depending on promotions." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Why do some air purifier prices fluctuate above or below $200?", a: "Product lineups often include variants that fall within and outside a stated price tier depending on current promotions and configuration, always verify current pricing before buying." },
   { q: "Is a 3-year warranty worth paying extra for?", a: "For buyers who want ongoing peace of mind and real-time feedback rather than a set-and-forget unit, a pick with a 3-year warranty and filter indicator at the higher end of this tier is a reasonable choice." },
   { q: "What's the real ongoing cost of an under-$200 air purifier beyond the sticker price?", a: "Factor in replacement filter cost and frequency, a cheaper unit with pricier or more frequent filter changes can cost more over a year than a slightly pricier unit with cheaper, longer-lasting filters." },
-  { q: "Do under-$200 air purifiers include a true HEPA filter?", a: "Most reputable picks at this price do, but check the specific listing explicitly states true HEPA rather than a HEPA-type or HEPA-like filter not held to the same tested capture standard." },
+  { q: "Do under-$200 air purifiers include a true HEPA filter?", a: "Most reputable picks at this price do, but check the specific listing explicitly states true HEPA rather than a HEPA-type or HEPA-like filter not held to the same tested capture standard." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-air-purifiers-under-100", title: "Best Air Purifiers Under $100 (2026)" },
   { href: "/guide/best-air-purifiers-for-large-home-offices", title: "Best Air Purifiers for Large Home Offices (2026)" },
-  { href: "/guide/best-smart-air-purifiers", title: "Best Smart Air Purifiers (2026)" },
+  { href: "/guide/best-smart-air-purifiers", title: "Best Smart Air Purifiers (2026)" }
 ];

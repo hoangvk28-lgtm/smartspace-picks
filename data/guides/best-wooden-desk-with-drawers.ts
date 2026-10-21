@@ -45,7 +45,7 @@ export const products: WoodenDeskWithDrawers[] = [
     tradeoffs: [
       "Single drawer - limited storage versus multi-drawer options",
       "Wooden runners require occasional waxing in humid climates",
-      "Minimal finish may show wear faster than lacquered alternatives",
+      "Minimal finish may show wear faster than lacquered alternatives"
     ],
     skipIf:
       "Skip if you need two or more drawers - the IC International Concepts Vista (Rank 3) gives two drawers in the same solid wood quality. Skip if you want a butcher block surface - the IC butcher block model (Rank 2) has that.",
@@ -54,12 +54,12 @@ export const products: WoodenDeskWithDrawers[] = [
       "Solid wood drawer construction matches desk body - no hidden MDF drawer box",
       "Traditional wooden runner slides - quiet and appropriate for solid wood furniture",
       "Design ages well, not trend-dependent",
-      "IC has a decades-long track record in solid hardwood furniture",
+      "IC has a decades-long track record in solid hardwood furniture"
     ],
     cons: [
       "Single drawer - limited storage",
       "Wooden runners require occasional waxing in humid conditions",
-      "Minimal finish may show wear faster than lacquered alternatives",
+      "Minimal finish may show wear faster than lacquered alternatives"
     ],
   },
   {
@@ -78,7 +78,7 @@ export const products: WoodenDeskWithDrawers[] = [
     tradeoffs: [
       "Stock availability varies - verify the buy button is active before purchasing",
       "Single drawer",
-      "Butcher block aesthetic is not for every office style",
+      "Butcher block aesthetic is not for every office style"
     ],
     skipIf:
       "Skip if the listing shows no available offers - the IC Writing Desk (Rank 1) is the standard IC alternative. Skip if you prefer a smooth uniform surface over the visible strip pattern of butcher block.",
@@ -87,12 +87,12 @@ export const products: WoodenDeskWithDrawers[] = [
       "Listing explicitly uses Solid Real Wood and solid hardwood",
       "Visually distinctive - reads as furniture, not flat-pack",
       "IC brand guarantee of real hardwood construction",
-      "Parawood is a sustainable hardwood (byproduct of rubber production)",
+      "Parawood is a sustainable hardwood (byproduct of rubber production)"
     ],
     cons: [
       "Availability varies - check stock before purchasing",
       "Single drawer",
-      "Butcher block aesthetic is not for every office style",
+      "Butcher block aesthetic is not for every office style"
     ],
   },
   {
@@ -111,7 +111,7 @@ export const products: WoodenDeskWithDrawers[] = [
     tradeoffs: [
       "Check current availability - listing can vary",
       "Review count lower than established mass-market options",
-      "No soft-close mechanism at this price point",
+      "No soft-close mechanism at this price point"
     ],
     skipIf:
       "Skip if the listing shows limited availability - the IC Writing Desk (Rank 1) is the reliable IC alternative with a single drawer. Skip if you need a wider desk - check the width spec for your monitor and keyboard setup.",
@@ -119,12 +119,12 @@ export const products: WoodenDeskWithDrawers[] = [
       "Two drawers in genuine solid wood construction",
       "IC brand consistency - no MDF drawer box substitution",
       "More storage capacity than single-drawer alternatives",
-      "Simple design that does not date",
+      "Simple design that does not date"
     ],
     cons: [
       "Check current availability - listing can vary",
       "Fewer reviews than mass-market options",
-      "No soft-close mechanism",
+      "No soft-close mechanism"
     ],
   },
   {
@@ -142,7 +142,7 @@ export const products: WoodenDeskWithDrawers[] = [
       "The Cttasty solid wood computer desk brings modern desk proportions - wider surface, more drawer storage - to the solid wood category. The construction uses solid wood framing described consistently as solid wood rather than engineered alternatives. For a home office that needs both surface area and multiple storage options, the Cttasty line offers a contemporary aesthetic that IC's more traditional designs don't provide.",
     tradeoffs: [
       "Newer brand - less established track record than IC",
-      "Verify solid wood specification covers drawer boxes as well as desk frame",
+      "Verify solid wood specification covers drawer boxes as well as desk frame"
     ],
     skipIf:
       "Skip if brand track record is a priority - IC International Concepts (Ranks 1-3) has a longer established history. Skip if you want a compact writing desk - the Cttasty writing desk (Rank 5) is the smaller format.",
@@ -150,11 +150,11 @@ export const products: WoodenDeskWithDrawers[] = [
       "Solid wood construction with multiple drawer storage",
       "Contemporary design suits modern home offices",
       "More surface area than compact writing desks",
-      "Multiple drawer compartments for organized storage",
+      "Multiple drawer compartments for organized storage"
     ],
     cons: [
       "Newer brand - less established than IC",
-      "Verify solid wood covers drawer boxes as well as desk frame",
+      "Verify solid wood covers drawer boxes as well as desk frame"
     ],
   },
   {
@@ -172,7 +172,7 @@ export const products: WoodenDeskWithDrawers[] = [
       "The compact Cttasty writing desk variant offers solid wood construction in a smaller footprint. For home offices where surface space is limited - a bedroom desk, a spare room setup, a corner workspace - this delivers drawer storage without requiring the full width of larger models. The writing desk proportions suit users who primarily write or work on a laptop rather than users with a monitor and full peripherals setup.",
     tradeoffs: [
       "Limited surface area for monitor plus full keyboard setups",
-      "Newer brand - verify specs on current listing",
+      "Newer brand - verify specs on current listing"
     ],
     skipIf:
       "Skip if you need a full monitor workstation setup - the Cttasty computer desk (Rank 4) has more surface area. Skip if established brand track record is critical - IC (Ranks 1-3) is more proven.",
@@ -180,11 +180,11 @@ export const products: WoodenDeskWithDrawers[] = [
       "Solid wood construction in a compact writing desk format",
       "Drawers in a small-footprint desk - uncommon combination",
       "Suits bedroom offices and tight spaces",
-      "Contemporary design",
+      "Contemporary design"
     ],
     cons: [
       "Limited surface area for monitor and keyboard setups",
-      "Newer brand - verify current listing specs",
+      "Newer brand - verify current listing specs"
     ],
   },
   {
@@ -202,18 +202,18 @@ export const products: WoodenDeskWithDrawers[] = [
       "Votred's solid wood desk takes a minimalist approach: clean lines, solid wood construction, single centered drawer. For users who want a desk that looks uncluttered and stores the minimum essentials - cables, notepad, pen - without the visual weight of multiple drawers and hardware, this is the most restrained option on this list. Single-drawer desks work well in spaces where the desk is visible from multiple angles, such as a living room workspace or bedroom setup.",
     tradeoffs: [
       "Single drawer limits storage versus multi-drawer options",
-      "Newer brand - verify current listing details",
+      "Newer brand - verify current listing details"
     ],
     skipIf:
       "Skip if you need more than one drawer for your storage - the IC Vista (Rank 3) or Cttasty (Rank 4) give more drawers. Skip if brand track record is important - IC has a longer history.",
     pros: [
       "Solid wood construction with clean minimal aesthetic",
       "Single drawer keeps proportions balanced",
-      "Suited for setups where the desk is a visible design element",
+      "Suited for setups where the desk is a visible design element"
     ],
     cons: [
       "Single drawer limits storage",
-      "Newer brand - verify current listing",
+      "Newer brand - verify current listing"
     ],
   },
   {
@@ -231,20 +231,20 @@ export const products: WoodenDeskWithDrawers[] = [
       "SanaForm's desk brings contemporary styling to the solid wood with drawers category. The construction uses solid wood framing with a modern finish approach - closer to furniture-store aesthetics than traditional unfinished solid wood. For users who want solid wood material quality but prefer a modern look over IC's traditional minimalism, SanaForm offers an alternative aesthetic without switching to engineered wood.",
     tradeoffs: [
       "Newer brand - fewer established reviews",
-      "Verify drawer box construction (solid wood vs engineered) in product description",
+      "Verify drawer box construction (solid wood vs engineered) in product description"
     ],
     skipIf:
       "Skip if established brand track record is a priority - IC (Ranks 1-3) is more proven. Skip if you want a traditional or minimalist aesthetic - IC or Votred suit those preferences better.",
     pros: [
       "Solid wood construction with contemporary design",
       "Multiple drawers for organized storage",
-      "Modern aesthetic distinct from traditional IC look",
+      "Modern aesthetic distinct from traditional IC look"
     ],
     cons: [
       "Newer brand - fewer established reviews",
-      "Verify drawer box construction in product description",
+      "Verify drawer box construction in product description"
     ],
-  },
+  }
 ];
 
 export interface AtAGlanceRow {
@@ -287,7 +287,7 @@ export const faq: { q: string; a: string }[] = [
   {
     q: "Is rubberwood good for a desk with drawers?",
     a: "Yes. Rubberwood (parawood) has a Janka hardness of ~980 lbf - harder than pine, comparable to black walnut. It holds screws and drawer hardware well, finishes cleanly, and is a sustainable hardwood (grown as a byproduct of rubber production). Its main limitation is aesthetic: the grain is uniform and quiet, which suits minimalist designs but lacks the dramatic figuring of oak or walnut.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
@@ -306,5 +306,5 @@ export const relatedGuides: { href: string; title: string }[] = [
   {
     href: "/guide/best-vintage-wooden-desk",
     title: "Best Vintage and Mid-Century Modern Wooden Desks in 2026",
-  },
+  }
 ];

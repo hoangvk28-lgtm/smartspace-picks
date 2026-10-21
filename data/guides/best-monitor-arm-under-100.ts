@@ -49,7 +49,7 @@ export const products: MonitorArm100[] = [
     tradeoffs: [
       '19.8 lb max - not rated for heavy 34"+ monitors over 18 lbs',
       "Cable routing uses external clips, not enclosed channels",
-      "1-year warranty standard for this price tier",
+      "1-year warranty standard for this price tier"
     ],
     skipIf:
       "Your monitor weighs over 18 lbs. The VIVO STAND-V101G1 handles up to 33 lbs for $90-99.",
@@ -58,12 +58,12 @@ export const products: MonitorArm100[] = [
       "Aerospace-grade aluminum - rigid above price class",
       "Wide -50 to +85 degree tilt covers standing desk use",
       "C-clamp + grommet both included",
-      "Simple hex key installation",
+      "Simple hex key installation"
     ],
     cons: [
       "19.8 lb max capacity",
       "External cable clips vs enclosed routing",
-      "1-year warranty",
+      "1-year warranty"
     ],
   },
   {
@@ -80,25 +80,24 @@ export const products: MonitorArm100[] = [
     imageUrl: `${BASE_IMAGES}/monitor-arm-best-monitor-arm-under-100-north-bayou-f80.webp`,
     amazonUrl: "https://www.amazon.com/dp/B01AI2YGK4?tag=deskfinds0d-20",
     whyItWorks:
-      "Over 17,000 Amazon reviews with 4.5 stars - the most reviewed monitor arm at this price. Steel construction provides rigidity. First reliable monitor arm under $35 that has maintained consistent quality across multiple production batches.",
+      "Steel construction provides rigidity. First reliable monitor arm under $35 that has maintained consistent quality across multiple production batches.",
     tradeoffs: [
       '30" screen maximum excludes ultrawides',
       "Tilt range -15 to +15 degrees - limited for standing desk height adjustments",
-      "Spring tension (not gas) requires readjustment if monitor weight changes",
+      "Spring tension (not gas) requires readjustment if monitor weight changes"
     ],
     skipIf:
       "You have a standing desk or plan to switch seated/standing frequently. The HUANUO FlowLift has an 85 degree tilt range for $5-15 more.",
     pros: [
-      "17,000+ Amazon reviews at 4.5 stars",
       "Most reviewed arm under $35",
       "Steel construction - rigid",
       "Both mounting options included",
-      "Proven reliability across batches",
+      "Proven reliability across batches"
     ],
     cons: [
       '30" screen size limit',
       "Narrow tilt range limits standing desk use",
-      "Spring tension not as smooth as gas",
+      "Spring tension not as smooth as gas"
     ],
   },
   {
@@ -118,7 +117,7 @@ export const products: MonitorArm100[] = [
       "22 lb capacity (vs North Bayou's 19.8 lb) and 38\" ultrawide screen support at the same price tier. Built-in cable routing channels keep desk cleaner than external clips. VIVO is a US-based brand with established product support and consistent quality.",
     tradeoffs: [
       "Slightly bulkier arm joint than HUANUO",
-      "Black colorway only in this model",
+      "Black colorway only in this model"
     ],
     skipIf:
       "You want a white monitor arm to match a white desk. The VIVO STAND-V001W is the identical product in white.",
@@ -127,7 +126,7 @@ export const products: MonitorArm100[] = [
       'Supports ultrawides up to 38"',
       "Built-in cable management channels",
       "US-based VIVO brand support",
-      "Gas spring motion",
+      "Gas spring motion"
     ],
     cons: ["Black only", "Slightly bulkier joint"],
   },
@@ -148,7 +147,7 @@ export const products: MonitorArm100[] = [
       "White monitor arms under $50 are rare - nearly all budget arms ship in black only. The V001W is the white version of the VIVO V001 with identical specs: 22 lb capacity, 38\" ultrawide support, built-in cable channels. Natural pairing for IKEA white desks, FEZIBO white frames, or white desk accessories.",
     tradeoffs: [
       "$5-10 more than the black V001",
-      "Same 1-year warranty as the black model",
+      "Same 1-year warranty as the black model"
     ],
     skipIf:
       "You have a black or dark desk. Save $5-10 with the V001 in black.",
@@ -157,11 +156,11 @@ export const products: MonitorArm100[] = [
       "Matches white IKEA, FEZIBO, and SMUG desk setups",
       'Same 38" ultrawide support as V001',
       "Built-in cable channels",
-      "Gas spring motion",
+      "Gas spring motion"
     ],
     cons: [
       "$5-10 premium over black V001",
-      "Limited to white colorway only",
+      "Limited to white colorway only"
     ],
   },
   {
@@ -182,7 +181,7 @@ export const products: MonitorArm100[] = [
     tradeoffs: [
       "Highest price at $90-99",
       "Larger arm footprint - more visible on desk",
-      "VESA max 100x100 - verify your ultrawide's VESA before ordering",
+      "VESA max 100x100 - verify your ultrawide's VESA before ordering"
     ],
     skipIf:
       'Your monitor is 32" or under and weighs under 20 lbs. The VIVO V001 handles 38" ultrawides at $30-45.',
@@ -191,12 +190,12 @@ export const products: MonitorArm100[] = [
       'Supports 49" superultrawide panels',
       "Pneumatic gas spring - one-finger adjustment",
       "Genuine safety margin for 34\" monitors",
-      "VIVO US brand support",
+      "VIVO US brand support"
     ],
     cons: [
       "Highest price at $90-99",
       "Larger arm footprint",
-      "VESA max 100x100 - check ultrawide compatibility",
+      "VESA max 100x100 - check ultrawide compatibility"
     ],
   },
   {
@@ -213,11 +212,11 @@ export const products: MonitorArm100[] = [
     imageUrl: `${BASE_IMAGES}/monitor-arm-best-monitor-arm-under-100-amazon-basics-lift-engine-arm.webp`,
     amazonUrl: "https://www.amazon.com/dp/B00MIBN16O?tag=deskfinds0d-20",
     whyItWorks:
-      "Manufactured by the same OEM as the Ergotron LX - the mechanism is identical, the cost is $65-99 vs $140-180 for the Ergotron branded version. Integrated cable management channel (not clips). Aluminum construction. If the primary concern is motion quality - the smoothest one-finger movement at this price - this is the pick.",
+      "Manufactured by the same OEM as the Ergotron LX - the mechanism is identical, the cost is under $70-99 vs $140-180 for the Ergotron branded version. Integrated cable management channel (not clips). Aluminum construction. If the primary concern is motion quality - the smoothest one-finger movement at this price - this is the pick.",
     tradeoffs: [
       "5 lb minimum - unusually light monitors may not hold position correctly",
       "Amazon warranty vs Ergotron's 15-year warranty",
-      "Not officially sold as Ergotron OEM - cannot claim Ergotron warranty",
+      "Not officially sold as Ergotron OEM - cannot claim Ergotron warranty"
     ],
     skipIf:
       "Warranty coverage matters most. The Ergotron LX at $140-180 carries a 15-year warranty vs Amazon standard. The motion mechanism is identical.",
@@ -226,12 +225,12 @@ export const products: MonitorArm100[] = [
       "Integrated cable management (not clips)",
       "Smoothest motion quality in this guide",
       "Aluminum construction",
-      "Trusted Amazon Basics reliability",
+      "Trusted Amazon Basics reliability"
     ],
     cons: [
       "5 lb minimum - incompatible with lightest monitors",
       "Amazon standard warranty vs 15-year Ergotron",
-      "No official Ergotron association",
+      "No official Ergotron association"
     ],
   },
   {
@@ -252,7 +251,7 @@ export const products: MonitorArm100[] = [
     tradeoffs: [
       "19.8 lb per arm - not for heavy 27\" 4K monitors over 18 lbs",
       "Swivel limited to 90 degrees per arm vs 360 on single arms",
-      "Center post requires desk edge access for both arms",
+      "Center post requires desk edge access for both arms"
     ],
     skipIf:
       "Either monitor weighs over 18 lbs. Use two separate HUANUO single arms instead - same price range with full weight rating per arm.",
@@ -261,14 +260,14 @@ export const products: MonitorArm100[] = [
       "Shared center post saves desk space vs two separate arms",
       "Independent arm positioning",
       "Same HUANUO build quality as single version",
-      "Gas spring on both arms",
+      "Gas spring on both arms"
     ],
     cons: [
       "19.8 lb per arm limit",
       "90 degree swivel only (not 360)",
-      "Shared post limits arm separation range",
+      "Shared post limits arm separation range"
     ],
-  },
+  }
 ];
 
 export interface AtAGlanceRow {
@@ -314,12 +313,12 @@ export const faq: FaqItem[] = [
   {
     q: "Will a monitor arm work with an ultrawide?",
     a: 'Yes, with capacity matching. Standard budget arms (HUANUO, North Bayou, V001) support 29-inch ultrawides under 22 lbs. For 34-inch ultrawides, use the VIVO V001 (38", 22 lbs) or the VIVO V101G1 (49", 33 lbs). Always verify your monitor\'s weight and VESA pattern before ordering.',
-  },
+  }
 ];
 
 export const relatedGuides = [
   { href: "/guide/ultrawide-vs-dual-monitor", title: "Ultrawide vs Dual Monitor" },
   { href: "/guide/best-standing-desk-under-200", title: "Best Standing Desk Under $200" },
   { href: "/guide/standard-desk-height", title: "Standard Desk Height Guide" },
-  { href: "/guide/best-27-inch-monitor-under-200", title: "Best 27-Inch Monitor Under $200" },
+  { href: "/guide/best-27-inch-monitor-under-200", title: "Best 27-Inch Monitor Under $200" }
 ];

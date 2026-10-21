@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "student desk with cup holder";
 export const introParagraphs = [
   "We need to be direct here: we found no classroom or student desk that ships with a factory-built-in cup holder. What genuinely exists, and what most classrooms and dorm setups actually use, is a clip-on water bottle or cup holder that attaches to an existing desk or chair edge.",
-  "These clip-on holders are sold in bulk multi-packs for classrooms, which is actually more useful for the real buyer here (a teacher or parent outfitting multiple desks) than a single integrated desk-and-holder product would be.",
+  "These clip-on holders are sold in bulk multi-packs for classrooms, which is actually more useful for the real buyer here (a teacher or parent outfitting multiple desks) than a single integrated desk-and-holder product would be."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     pros: ["Adds headphone storage alongside the cup holder", "Better suited to a single dorm or home desk than a bulk classroom order"],
     cons: ["Sold as a single unit, not cost-effective for outfitting a full classroom"],
     bestFor: "A single student desk in a dorm room or home study space, rather than a full classroom.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Disclosed that no student desk ships with a built-in cup holder", description: "We verified this directly and identified the genuine clip-on accessory market instead of forcing an inaccurate integrated-product framing." },
   { title: "Compared per-unit cost across different pack sizes", description: "We calculated the effective per-holder price across 12-packs, 24-packs, and single units to compare real value for different buyer needs." },
   { title: "Distinguished classroom bulk buyers from single-desk buyers", description: "A teacher outfitting 24 desks has different needs than a parent buying one holder for a dorm room desk, and we ranked accordingly." },
-  { title: "Noted mounting compatibility directly", description: "We flagged which packs include hardware (zip ties) for chair-frame mounting versus desk-edge-only clip designs." },
+  { title: "Noted mounting compatibility directly", description: "We flagged which packs include hardware (zip ties) for chair-frame mounting versus desk-edge-only clip designs." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -216,14 +216,14 @@ export const buyingCriteria: BuyingCriterion[] = [
 
 export const faq: FaqItem[] = [
   { q: "Does any student desk actually come with a built-in cup holder?", a: "No, we found none in our research. What's genuinely available are clip-on cup holder accessories for desks and chairs, sold individually or in classroom bulk packs." },
-  { q: "What's the cheapest way to outfit a full classroom?", a: "The Ferrochef 12 Pcs pack has the lowest per-unit price in this comparison at $15.99 for 12 holders." },
+  { q: "What's the cheapest way to outfit a full classroom?", a: "The Ferrochef 12 Pcs pack has the lowest per-unit price in this comparison at under $20 for 12 holders." },
   { q: "Is there an option for a single dorm room desk?", a: "Yes, the KDD 4-in-1 Desk Organizer is sold as a single unit rather than a bulk classroom pack." },
   { q: "Which pack is best for a large classroom?", a: "The gisgfim 24 Pcs Water Bottle Holder, which also works out to a competitive per-unit price for larger orders." },
-  { q: "Do any of these include mounting hardware for chairs?", a: "Yes, the 12 Pcs Water Bottle Holder with 50 Pcs Zip Ties pack includes hardware specifically for chair-frame mounting." },
+  { q: "Do any of these include mounting hardware for chairs?", a: "Yes, the 12 Pcs Water Bottle Holder with 50 Pcs Zip Ties pack includes hardware specifically for chair-frame mounting." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-rolling-desks-with-cup-holders", title: "Best Rolling Desks with Cup Holders (2026)" },
   { href: "/guide/best-compact-desktop-whiteboards", title: "Best Compact Desktop Whiteboards (2026)" },
-  { href: "/guide/best-desk-clocks-without-alarms", title: "Best Desk Clocks Without Alarms (2026)" },
+  { href: "/guide/best-desk-clocks-without-alarms", title: "Best Desk Clocks Without Alarms (2026)" }
 ];

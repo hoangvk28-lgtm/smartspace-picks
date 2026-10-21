@@ -12,7 +12,7 @@ export const wifiVsUsbPrinterGuide: Guide = {
     "wireless printer vs wired printer",
     "usb printer vs wifi printer reliability",
     "printer wifi setup issues",
-    "best way to connect printer to multiple devices",
+    "best way to connect printer to multiple devices"
   ],
   heroImage: "https://images.unsplash.com/photo-1613395450289-e560907d9308?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1613395450289-e560907d9308?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const wifiVsUsbPrinterGuide: Guide = {
     "inkjet-vs-laser-printer",
     "printer-troubleshooting",
     "printer-page-yield-explained",
-    "toner-vs-ink-cost-explained",
+    "toner-vs-ink-cost-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const wifiVsUsbPrinterGuide: Guide = {
       question: "Can a printer support both WiFi and USB connections?",
       answer:
         "Yes, many printers offer both options, letting you connect via USB for a primary reliable connection while still enabling WiFi for occasional printing from other devices, check the specific model's connectivity options before buying if you want both.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const wifiVsUsbPrinterGuide: Guide = {
     {
       heading: "When USB's Simplicity Wins Out",
       body: `If your printer sits at a single-user desk and only one computer will ever need to print, USB avoids any network configuration, WiFi password entry, or troubleshooting a dropped wireless connection mid-print job. The tradeoff of needing a physical cable is a minor inconvenience compared to the reliability and simplicity gained for a setup that genuinely doesn't need multi-device sharing.`,
-    },
+    }
   ],
 };

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "ultrawide monitor setup";
 export const introParagraphs = [
   "An ultrawide monitor setup lives or dies on the gear around the screen, not the screen itself. A 34\" curved panel and a 49\" super-ultrawide both need a desk deep enough to hold the stand base plus a keyboard and mouse pad, an arm strong enough to carry a wide, front-heavy panel without drooping, and a dock that can actually drive the extra ports a wide-format workspace demands.",
-  "Below are 7 supporting pieces we evaluated on desk depth, arm load rating, port density, and how well each one specifically solves a problem that ultrawide owners run into, from a 55\"x32\" electric desk built to fit a 49\" screen plus a second monitor, to a $10.79 desk mat wide enough to cover a full-width keyboard and mouse tray.",
+  "Below are 7 supporting pieces we evaluated on desk depth, arm load rating, port density, and how well each one specifically solves a problem that ultrawide owners run into, from a 55\"x32\" electric desk built to fit a 49\" screen plus a second monitor, to an under-$15 desk mat wide enough to cover a full-width keyboard and mouse tray."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Electric lift 28\"-46.5\"",
       "176 lb weight capacity",
       "2 programmable memory height presets",
-      "Anti-collision sensor",
+      "Anti-collision sensor"
     ],
     pros: [
       "Deepest desktop in this list at 32 inches",
       "Built specifically to fit a 49\" ultrawide plus a second screen",
       "176 lb capacity handles dual-monitor loads",
-      "Anti-collision sensor protects gear during height changes",
+      "Anti-collision sensor protects gear during height changes"
     ],
     cons: [
       "Largest footprint requires a genuinely spacious room",
       "Smaller review sample than more established desk brands",
-      "Electric lift adds more setup steps than a fixed-height desk",
+      "Electric lift adds more setup steps than a fixed-height desk"
     ],
     bestFor: "Buyers setting up a 49\" super-ultrawide who need real usable depth",
   },
@@ -89,18 +89,17 @@ export const products: GuideProduct[] = [
       "Arm 20% thicker, base 30% wider than standard",
       "Premium aluminum construction",
       "Dual C-clamp mount",
-      "5-year warranty",
+      "5-year warranty"
     ],
     pros: [
-      "Highest-rated arm in this guide at 4.7 stars",
       "Reinforced arm and base resist curved-panel torque",
       "5-year warranty, longest in this list",
-      "Rated for the heaviest 49\" panels",
+      "Rated for the heaviest 49\" panels"
     ],
     cons: [
       "Pricier than the budget arm option in this list",
       "Dual C-clamp needs enough exposed desk edge to mount",
-      "Overkill for a lighter 27\"-34\" flat monitor",
+      "Overkill for a lighter 27\"-34\" flat monitor"
     ],
     bestFor: "Buyers mounting a heavy curved 49\" ultrawide who don't want pivot droop",
   },
@@ -120,18 +119,18 @@ export const products: GuideProduct[] = [
       "Holds 17-49\" screens up to 44 lbs",
       "Industrial gas spring adjustment",
       "C-clamp or grommet mount",
-      "Confirmed fit for Odyssey G9 and LG super-ultrawides",
+      "Confirmed fit for Odyssey G9 and LG super-ultrawides"
     ],
     pros: [
       "Cheapest arm in this list rated for a full 49\" screen",
       "Gas spring gives smooth height and tilt movement",
       "Grommet mount option for desks without a clampable edge",
-      "Confirmed compatibility with major super-ultrawide models",
+      "Confirmed compatibility with major super-ultrawide models"
     ],
     cons: [
       "Standard arm thickness, less margin than the reinforced pick",
       "No stated warranty length",
-      "Gas spring tension may loosen faster under a very heavy panel",
+      "Gas spring tension may loosen faster under a very heavy panel"
     ],
     bestFor: "Buyers who want full 49\" arm support without the reinforced-arm premium",
   },
@@ -152,18 +151,18 @@ export const products: GuideProduct[] = [
       "100W USB-C Power Delivery",
       "Gigabit Ethernet",
       "2 USB-C 10Gbps + 3 USB-A 3.0",
-      "3.5mm audio port",
+      "3.5mm audio port"
     ],
     pros: [
       "Supports dual or triple display from one dock",
       "100W PD charges most laptops at full speed",
       "13 total ports in one compact hub",
-      "Massive review base backing its reliability",
+      "Massive review base backing its reliability"
     ],
     cons: [
       "No Thunderbolt 4 for the highest-bandwidth workflows",
       "100W PD may not fully power the most demanding 16\" laptops under full load",
-      "Passive cooling can get warm under sustained triple-display use",
+      "Passive cooling can get warm under sustained triple-display use"
     ],
     bestFor: "Buyers running an ultrawide plus a second monitor off one laptop",
   },
@@ -183,18 +182,17 @@ export const products: GuideProduct[] = [
       "27\"x11\" platform (32.5\" with clamp hardware)",
       "Steel construction",
       "Slides out 8.5\"",
-      "No-drill C-clamp mount",
+      "No-drill C-clamp mount"
     ],
     pros: [
       "Frees up desk depth needed for the monitor and stand",
       "No-drill mount doesn't damage the desktop",
-      "Massive review base at over 14,000 ratings",
-      "Slide-out design keeps the keyboard tucked away when not in use",
+      "Slide-out design keeps the keyboard tucked away when not in use"
     ],
     cons: [
       "Adds a sub-layer under the desk that some chairs may bump",
       "Not ideal for desks with very thin or unusual edge profiles",
-      "Platform depth of 11\" is snug for a full-size mouse pad too",
+      "Platform depth of 11\" is snug for a full-size mouse pad too"
     ],
     bestFor: "Buyers whose desk depth is tight even after upgrading to a deeper desk",
   },
@@ -209,24 +207,24 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31fbr5QGnDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0788LMLZL?tag=deskfinds0d-20",
     description:
-      "At 31.5\"x11.8\", the KTRIO is wide enough to cover both a keyboard and mouse together under a wide ultrawide setup, instead of using two separate small mats that leave a gap between them. The micro-weave cloth surface is waterproof and finished with stitched, anti-fray edges. A non-slip rubber base keeps the mat from sliding during regular typing and mouse movement. It's the cheapest single item in this guide and also the most-reviewed, with over 40,000 ratings. Cheapest item in this entire guide at a competitive price. That's a real strength, but weigh it against the flip side: 3mm thickness offers less cushioning than a padded wrist-rest mat.",
+      "At 31.5\"x11.8\", the KTRIO is wide enough to cover both a keyboard and mouse together under a wide ultrawide setup, instead of using two separate small mats that leave a gap between them. The micro-weave cloth surface is waterproof and finished with stitched, anti-fray edges. A non-slip rubber base keeps the mat from sliding during regular typing and mouse movement. Cheapest item in this entire guide at a competitive price. That's a real strength, but weigh it against the flip side: 3mm thickness offers less cushioning than a padded wrist-rest mat.",
     specs: [
       "31.5\"x11.8\"x3mm",
       "Micro-weave cloth surface",
       "Waterproof",
       "Stitched anti-fray edges",
-      "Non-slip rubber base",
+      "Non-slip rubber base"
     ],
     pros: [
       "Wide enough to cover keyboard and mouse together",
-      "Cheapest item in this entire guide at $10.79",
+      "Cheapest item in this entire guide at under $15",
       "Most-reviewed single item in this guide",
-      "Waterproof surface handles spills",
+      "Waterproof surface handles spills"
     ],
     cons: [
       "3mm thickness offers less cushioning than a padded wrist-rest mat",
       "Cloth surface will show wear faster than a hard mat",
-      "Still not wide enough to span a full 49\" desk on its own",
+      "Still not wide enough to span a full 49\" desk on its own"
     ],
     bestFor: "Buyers who want one wide mat instead of two separate small ones",
   },
@@ -247,21 +245,20 @@ export const products: GuideProduct[] = [
       "Holds up to 15 lbs of cables",
       "2 routing holes",
       "No-drill clamp, fits desks 0.4\"-2\" thick",
-      "1-year warranty",
+      "1-year warranty"
     ],
     pros: [
       "Keeps dock and arm cable clutter off the floor",
       "No-drill mount fits most desk thicknesses",
-      "Strong review base at 3,207 ratings",
-      "Cheapest cable management pick in this guide",
+      "Cheapest cable management pick in this guide"
     ],
     cons: [
       "15 lb capacity is modest if you're running many peripherals",
       "Only 2 routing holes limits cable organization options",
-      "Steel tray can rattle slightly if cables shift inside it",
+      "Steel tray can rattle slightly if cables shift inside it"
     ],
     bestFor: "Buyers whose dock and arm cables need somewhere to go besides the floor",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -289,7 +286,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed capacity, material, and included hardware against price across a range from a desk mat to a electric standing desk.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -443,11 +440,11 @@ export const faq: FaqItem[] = [
   {
     q: "Can I run two monitors from one docking station with an ultrawide?",
     a: "Yes, if the dock has enough video outputs. The LIONWEI 13-in-1 includes 2 HDMI 4K outputs plus 1 DisplayPort, enough to drive an ultrawide plus a second screen from a single USB-C cable to the laptop.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-ultrawide-monitor-for-work", title: "Best Ultrawide Monitors for Work (2026)" },
   { href: "/guide/best-ultrawide-monitor-under-500", title: "Best Ultrawide Monitors Under $500 (2026)" },
-  { href: "/guide/best-monitor-stands-for-small-desks", title: "Best Monitor Stands for Small Desks (2026)" },
+  { href: "/guide/best-monitor-stands-for-small-desks", title: "Best Monitor Stands for Small Desks (2026)" }
 ];

@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41zbjHOvkQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F249TYWY?tag=deskfinds0d-20",
-    description: "Supports 4K@120Hz HDMI 2.1 with VRR, FreeSync, and G-Sync alongside 100W PD 3.0 charging with built-in TVS, ESD, and over-current circuit protection.\n\nUGREEN's foldable aluminum alloy and PC+ABS stand design is genuinely portable, but explicitly notes it is NOT compatible with Nintendo Switch 2 despite broad handheld support otherwise.\n\nWhat stands out here is vRR, FreeSync, and G-Sync support for tear-free gaming on compatible displays, plus built-in circuit protection (TVS, ESD, over-current) for safety. The main tradeoff: explicitly not compatible with Nintendo Switch 2, so weigh that against the $31.97 price before buying.",
+    description: "Supports 4K@120Hz HDMI 2.1 with VRR, FreeSync, and G-Sync alongside 100W PD 3.0 charging with built-in TVS, ESD, and over-current circuit protection.\n\nUGREEN's foldable aluminum alloy and PC+ABS stand design is genuinely portable, but explicitly notes it is NOT compatible with Nintendo Switch 2 despite broad handheld support otherwise.\n\nWhat stands out here is vRR, FreeSync, and G-Sync support for tear-free gaming on compatible displays, plus built-in circuit protection (TVS, ESD, over-current) for safety. The main tradeoff: explicitly not compatible with Nintendo Switch 2, so weigh that against the under $35 price before buying.",
     specs: ["4K@120Hz HDMI 2.1 with VRR/FreeSync/G-Sync","100W PD 3.0 with TVS/ESD/over-current protection","Foldable aluminum + PC+ABS stand"],
     pros: ["VRR, FreeSync, and G-Sync support for tear-free gaming on compatible displays","Built-in circuit protection (TVS, ESD, over-current) for safety","Foldable stand design doubles as a handheld holder","Plug-and-play across Windows, macOS, Linux, and SteamOS"],
     cons: ["Explicitly not compatible with Nintendo Switch 2","Gigabit Ethernet only, not multi-gig"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41fS0ZzJhQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B28PCDM2?tag=deskfinds0d-20",
-    description: "A lighter version of JSAUX's 6-in-1 dock, dropping to dual USB-A 2.0 ports but keeping the 4K@120Hz HDMI 2.1 output, 100W PD charging, and reliable wired Ethernet.\n\nSame handheld compatibility as the 6-in-1 (Steam Deck, ROG Ally/Ally X, Legion Go/Go S), excluding ROG Xbox Ally, at a notably lower price point.\n\nThe strongest case for this pick comes down to same 4K@120Hz HDMI 2.1 output as the pricier 6-in-1 model as well as lower price point for buyers who don't need the extra USB-A port speed. The compromise here is that uSB-A ports downgraded to 2.0 speed versus the 6-in-1's 3.0 ports, so factor that in alongside the $24.99 asking price.",
+    description: "A lighter version of JSAUX's 6-in-1 dock, dropping to dual USB-A 2.0 ports but keeping the 4K@120Hz HDMI 2.1 output, 100W PD charging, and reliable wired Ethernet.\n\nSame handheld compatibility as the 6-in-1 (Steam Deck, ROG Ally/Ally X, Legion Go/Go S), excluding ROG Xbox Ally, at a notably lower price point.\n\nThe strongest case for this pick comes down to same 4K@120Hz HDMI 2.1 output as the pricier 6-in-1 model as well as lower price point for buyers who don't need the extra USB-A port speed. The compromise here is that uSB-A ports downgraded to 2.0 speed versus the 6-in-1's 3.0 ports, so factor that in alongside the under $25 asking price.",
     specs: ["4K@120Hz HDMI 2.1, Gigabit Ethernet, 100W PD, 2x USB-A 2.0","Same handheld compatibility as JSAUX 6-in-1","Lower price than the 6-in-1 model"],
     pros: ["Same 4K@120Hz HDMI 2.1 output as the pricier 6-in-1 model","Lower price point for buyers who don't need the extra USB-A port speed","Reliable wired Ethernet with low-latency performance","Full 100W PD charging support"],
     cons: ["USB-A ports downgraded to 2.0 speed versus the 6-in-1's 3.0 ports","Explicitly incompatible with ROG Xbox Ally/Xbox Ally X"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31d9Ntso2PL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CS6BWL4Q?tag=deskfinds0d-20",
-    description: "A dedicated Steam Deck dock with 100W PD-IN charging, 4K@60Hz HDMI, 1Gbps Ethernet, and 2 USB-A ports plus 1 USB-C port at 5Gbps each.\n\nAnker notes the USB-C data port does not support screen mirroring (only the HDMI port does), and includes a built-in 220mm USB-C cable in the box, backed by an 18-month warranty.\n\nWhere this one earns its spot is built-in cable means nothing extra to carry for handheld gaming setups, and 1,000 Mbps Ethernet specifically positioned for competitive online play. Worth noting before buying: 4K@60Hz HDMI, not the 120Hz some competing docks offer, which matters more at $35.99 than it would on a cheaper pick.",
+    description: "A dedicated Steam Deck dock with 100W PD-IN charging, 4K@60Hz HDMI, 1Gbps Ethernet, and 2 USB-A ports plus 1 USB-C port at 5Gbps each.\n\nAnker notes the USB-C data port does not support screen mirroring (only the HDMI port does), and includes a built-in 220mm USB-C cable in the box, backed by an 18-month warranty.\n\nWhere this one earns its spot is built-in cable means nothing extra to carry for handheld gaming setups, and 1,000 Mbps Ethernet specifically positioned for competitive online play. Worth noting before buying: 4K@60Hz HDMI, not the 120Hz some competing docks offer, which matters more at under $40 than it would on a cheaper pick.",
     specs: ["4K@60Hz HDMI, 1Gbps Ethernet, 100W PD-IN, 3x 5Gbps USB","Built-in 220mm USB-C cable","18-month warranty"],
     pros: ["Built-in cable means nothing extra to carry for handheld gaming setups","1,000 Mbps Ethernet specifically positioned for competitive online play","Backed by Anker's established warranty and support","All three USB ports run at a full 5Gbps"],
     cons: ["4K@60Hz HDMI, not the 120Hz some competing docks offer","USB-C data port explicitly does not support screen mirroring"],
@@ -174,27 +174,27 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $12.99",
+          "Under $15",
           "UGREEN USB-C to Ethernet Adapter (1Gbps)"
         ],
         [
-          "Around $17.98",
+          "Under $20",
           "UGREEN Revodok 6-in-1 USB-C Hub"
         ],
         [
-          "Around $24.99",
+          "Under $25",
           "JSAUX 5-in-1 Docking Station for Steam Deck"
         ],
         [
-          "Around $31.97",
+          "Under $35",
           "UGREEN Steam Deck Dock 6-in-1"
         ],
         [
-          "Around $35.99",
+          "Under $40",
           "JSAUX 6-in-1 Docking Station for Steam Deck"
         ],
         [
-          "Around $35.99",
+          "Under $40",
           "Anker Steam Deck Dock 6-in-1"
         ]
       ]
@@ -239,7 +239,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "JSAUX 6-in-1 Docking Station for Steam Deck is aimed at buyers prioritizing 4k@120hz hdmi 2.1, gigabit ethernet, 100w pd, 3x usb-a; UGREEN Steam Deck Dock 6-in-1 is aimed at buyers prioritizing 4k@120hz hdmi 2.1 with vrr/freesync/g-sync."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -280,9 +280,9 @@ export const faq = [
   }
 ,
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "JSAUX 6-in-1 Docking Station for Steam Deck is aimed at buyers prioritizing 4k@120hz hdmi 2.1, gigabit ethernet, 100w pd, 3x usb-a." },
-  { q: "Which pick offers the best value for a tight budget?", a: "UGREEN USB-C to Ethernet Adapter (1Gbps) is aimed at buyers prioritizing 1gbps, driver-free on most oses, and at $12.99 it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $12.99 to $35.99, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
-  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Anker Steam Deck Dock 6-in-1 is aimed at buyers prioritizing 4k@60hz hdmi, 1gbps ethernet, 100w pd-in, 3x 5gbps usb. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
+  { q: "Which pick offers the best value for a tight budget?", a: "UGREEN USB-C to Ethernet Adapter (1Gbps) is aimed at buyers prioritizing 1gbps, driver-free on most oses, and at under $15 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $15 to $40, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Anker Steam Deck Dock 6-in-1 is aimed at buyers prioritizing 4k@60hz hdmi, 1gbps ethernet, 100w pd-in, 3x 5gbps usb. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-usb-c-multiport-adapters-with-ethernet","title":"7 Best USB-C Multiport Adapters With Ethernet"},{"href":"/guide/best-usb-c-to-gigabit-ethernet-adapters","title":"8 Best USB-C to Gigabit Ethernet Adapters"},{"href":"/guide/best-usb-c-ethernet-adapters-with-power-delivery","title":"7 Best USB-C Ethernet Adapters With Power Delivery"}];

@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Genuine dual-monitor extend mode with broad USB support", "UGREEN HDMI KVM Switch, 2 Monitors 2 Computers"],
         ["Dual-monitor switching at a lower price", "Heravo USB 3.0 HDMI KVM Switch, 2 Monitors 2 Computers"],
-        ["Managing four separate computers", "HDMI Displayport KVM Switch, 4 Computers 2 Monitors"],
+        ["Managing four separate computers", "HDMI Displayport KVM Switch, 4 Computers 2 Monitors"]
       ],
     },
   },
@@ -116,9 +116,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $40", "IOGEAR GCS32HU ($39.99) for single-monitor needs"],
-        ["$60-$70", "Heravo Dual Monitor ($59.99) or UGREEN Dual Monitor ($69.99)"],
-        ["Under $100", "HDMI Displayport 4-Computer Switch ($99.99)"],
+        ["Under $40", "IOGEAR GCS32HU (under $40) for single-monitor needs"],
+        ["$60-$70", "Heravo Dual Monitor (under $60) or UGREEN Dual Monitor (under $70)"],
+        ["Under $100", "HDMI Displayport 4-Computer Switch (under $100)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "2-Computer Dual-Monitor vs 4-Computer Setup",
     cards: [
       { label: "2-Computer Dual-Monitor (UGREEN or Heravo)", text: "Simpler setup with fewer cables, ideal if you regularly switch between exactly two computers and want each to drive two separate monitors." },
-      { label: "4-Computer Setup (HDMI Displayport pick)", text: "Scales to four separate machines sharing the same dual-monitor desk, worth the added cable complexity if you genuinely manage that many systems." },
+      { label: "4-Computer Setup (HDMI Displayport pick)", text: "Scales to four separate machines sharing the same dual-monitor desk, worth the added cable complexity if you genuinely manage that many systems." }
     ],
     note: "Most home offices only need 2-computer switching. The 4-computer pick is worth its added complexity specifically for IT professionals or power users managing multiple systems.",
   },
@@ -136,7 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your monitor setup", "Recommended pick"],
       rows: [
         ["Single monitor is enough", "IOGEAR 2-Port Full HD KVM Switch"],
-        ["Dual monitors for each computer", "UGREEN, Heravo, or the 4-Computer HDMI Displayport pick"],
+        ["Dual monitors for each computer", "UGREEN, Heravo, or the 4-Computer HDMI Displayport pick"]
       ],
     },
   },
@@ -144,16 +144,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For IT Professionals Managing Multiple Systems Specifically",
     cards: [
       { label: "Look for", text: "A switch that scales beyond two computers, with mixed HDMI and DisplayPort input options for connecting varied hardware." },
-      { label: "In this comparison", text: "The HDMI Displayport KVM Switch, 4 Computers 2 Monitors is specifically built for managing more systems than the standard 2-computer limit." },
+      { label: "In this comparison", text: "The HDMI Displayport KVM Switch, 4 Computers 2 Monitors is specifically built for managing more systems than the standard 2-computer limit." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You need to manage four separate computers from one desk, where the HDMI Displayport 4-Computer pick is the only option here supporting this scale." },
-      { label: "Save if", text: "A single monitor and two computers cover your needs, where the IOGEAR GCS32HU costs less than half of the dual-monitor picks in this comparison." },
+      { label: "Save if", text: "A single monitor and two computers cover your needs, where the IOGEAR GCS32HU costs less than half of the dual-monitor picks in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

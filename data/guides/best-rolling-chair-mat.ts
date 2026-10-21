@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "rolling chair mat";
 export const introParagraphs = [
   "A rolling chair mat has to do more than just protect a floor, it directly changes how easily your chair actually rolls. Surface texture is the part most buyers skip past: a smooth vinyl or glass surface rolls easily on hardwood or tile, while carpet needs a cleated or spiked underside just to grip the backing, which trades some smoothness for the ability to sit still under your feet at all.",
-  "Below are 8 rolling chair mats we evaluated on rolling resistance, floor and carpet compatibility, noise on hard floors, and weight capacity, ranging from a $21.37 budget PVC mat for hardwood to a $135.99 polycarbonate mat rated for 1,500 lbs.",
+  "Below are 8 rolling chair mats we evaluated on rolling resistance, floor and carpet compatibility, noise on hard floors, and weight capacity, ranging from an under-$25 budget PVC mat for hardwood to an under-$140 polycarbonate mat rated for 1,500 lbs."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Anti-slip frosted textured top surface",
       "Smooth underside to prevent mat shifting",
       "Hard floor only (hardwood, tile, laminate)",
-      "BPA-free, no volatile toxins",
+      "BPA-free, no volatile toxins"
     ],
     pros: [
-      "Cheapest pick in this guide at $21.37",
+      "Cheapest pick in this guide at under $25",
       "Frosted texture gives good rolling control for a budget mat",
       "Smooth underside keeps the mat itself from sliding",
-      "BPA-free with no volatile toxins",
+      "BPA-free with no volatile toxins"
     ],
     cons: [
       "Hard floor only, no carpet compatibility",
       "Thinner 1.5mm profile than most other picks",
-      "No stated weight capacity rating",
+      "No stated weight capacity rating"
     ],
     bestFor: "Buyers on hardwood or tile who want the lowest price without giving up rolling control",
   },
@@ -89,18 +89,17 @@ export const products: GuideProduct[] = [
       "Ramped edges, anchor bars for carpet grip",
       "Anti-skid top surface",
       "Rated for low pile carpet up to 1/4\"",
-      "5-year warranty",
+      "5-year warranty"
     ],
     pros: [
       "Longest warranty in this guide at 5 years",
       "Anchor bars grip low pile carpet securely",
-      "Ramped edges smooth the transition on and off the mat",
-      "Backed by over 54,000 ratings",
+      "Ramped edges smooth the transition on and off the mat"
     ],
     cons: [
       "Only rated for carpet up to 1/4\" thick",
       "Not designed for hard floor use",
-      "Anchor bars can create some resistance compared to a smooth surface",
+      "Anchor bars can create some resistance compared to a smooth surface"
     ],
     bestFor: "Low pile carpet users who want the most proven, longest-warrantied mat",
   },
@@ -121,18 +120,18 @@ export const products: GuideProduct[] = [
       "Smooth top rolling surface",
       "Anti-slide coating on the underside",
       "Dull polish finish",
-      "Odorless, BPA-free, no lead or cadmium",
+      "Odorless, BPA-free, no lead or cadmium"
     ],
     pros: [
       "Smooth surface minimizes rolling resistance",
       "Anti-slide underside keeps the mat from shifting",
       "Dull polish finish avoids glare",
-      "Odorless and free of lead or cadmium",
+      "Odorless and free of lead or cadmium"
     ],
     cons: [
       "Hard floor only, no carpet use",
       "Thinner profile offers less cushioning underfoot",
-      "No stated weight capacity",
+      "No stated weight capacity"
     ],
     bestFor: "Hard-floor users who want the smoothest, lowest-resistance rolling surface at a low price",
   },
@@ -153,18 +152,18 @@ export const products: GuideProduct[] = [
       "Hundreds of underside spikes for carpet grip",
       "Ships completely flat",
       "Rated for medium or low pile carpet up to 3/4\"",
-      "Cleans with just water",
+      "Cleans with just water"
     ],
     pros: [
       "Ships flat, no rolled-mat curling to deal with",
       "Rated for deeper carpet than most vinyl mats here, up to 3/4\"",
       "Easy to clean with just water",
-      "Polycarbonate resists discoloration better than PVC",
+      "Polycarbonate resists discoloration better than PVC"
     ],
     cons: [
       "Carpet only, not for hard floors",
       "Underside spikes are noticeable underfoot if the mat shifts",
-      "Pricier than the budget PVC picks in this guide",
+      "Pricier than the budget PVC picks in this guide"
     ],
     bestFor: "Carpet users who want a flat-shipping mat with grip up to 3/4\" pile",
   },
@@ -185,18 +184,18 @@ export const products: GuideProduct[] = [
       "Rated 1,400 lbs (highest capacity in this guide)",
       "Dual-use on carpet or hard floor",
       "Rigid flat construction",
-      "Crystal clear finish",
+      "Crystal clear finish"
     ],
     pros: [
       "Highest weight capacity in this guide at 1,400 lbs",
       "Works on both carpet and hard floors",
       "Thickest mat in this guide at 5mm",
-      "Rigid build resists warping over time",
+      "Rigid build resists warping over time"
     ],
     cons: [
       "Smaller footprint than some dedicated carpet mats",
       "Pricier than the single-surface PVC picks",
-      "Rigid glass-like feel takes some adjusting to for standing use",
+      "Rigid glass-like feel takes some adjusting to for standing use"
     ],
     bestFor: "Buyers who switch between carpet and hard floor or want one high-capacity mat for both",
   },
@@ -217,18 +216,18 @@ export const products: GuideProduct[] = [
       "Rated 1,500 lbs (highest polycarbonate capacity in this guide)",
       "92-95% crystal transparency",
       "Beveled edge for smoother rolling on and off",
-      "6 anti-slip pads, dual-use on carpet or hard floor",
+      "6 anti-slip pads, dual-use on carpet or hard floor"
     ],
     pros: [
       "Highest capacity polycarbonate mat in this guide at 1,500 lbs",
       "Beveled edge smooths chair transitions on and off the mat",
       "Near-invisible 92-95% transparency",
-      "Works on carpet or hard floor",
+      "Works on carpet or hard floor"
     ],
     cons: [
       "Most expensive pick in this guide",
       "Smaller review sample than the top-selling picks",
-      "Heavier and stiffer to reposition than thinner vinyl mats",
+      "Heavier and stiffer to reposition than thinner vinyl mats"
     ],
     bestFor: "Buyers who want maximum capacity and a smoother roll-off edge and don't mind the higher price",
   },
@@ -249,18 +248,18 @@ export const products: GuideProduct[] = [
       "Rated 1,200 lbs",
       "4 anti-slip pads",
       "Polished rounded corners",
-      "Dual-use on carpet or hard floor, BPA-free and odorless",
+      "Dual-use on carpet or hard floor, BPA-free and odorless"
     ],
     pros: [
       "Cheapest tempered glass pick in this guide",
       "Glass surface rolls smoothly and quietly",
       "Polished rounded corners for safety",
-      "Works on both carpet and hard floor",
+      "Works on both carpet and hard floor"
     ],
     cons: [
       "Heavier than vinyl or polycarbonate mats, harder to reposition",
       "Smaller footprint than the largest glass pick in this guide",
-      "Glass can crack if a heavy object is dropped on it",
+      "Glass can crack if a heavy object is dropped on it"
     ],
     bestFor: "Buyers who want the quietest, smoothest rolling surface at the lowest glass-mat price",
   },
@@ -275,27 +274,26 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41UO1C7z6QL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CXSFBQLH?tag=deskfinds0d-20",
     description:
-      "The Koonmi is the largest tempered glass mat in this guide at 46\"x55\", 0.2\" thick and rated for over 1,000 lbs. That extra footprint matters for a standing desk setup, since the desk shifts position through its full height range and a larger mat keeps the chair rolling smoothly no matter where the desk currently sits.\n\nA detachable anti-slip pad and polished rounded corners round out the build, and it works on carpet or hard floor. It carries the highest rating of any pick in this guide, though its size and glass construction make it the heaviest mat here to move once placed.\n\nA genuine advantage here is that highest rating in this guide at 4.7 stars. The tradeoff is most expensive pick tied with the MESAILUP.",
+      "The Koonmi is the largest tempered glass mat in this guide at 46\"x55\", 0.2\" thick and rated for over 1,000 lbs. That extra footprint matters for a standing desk setup, since the desk shifts position through its full height range and a larger mat keeps the chair rolling smoothly no matter where the desk currently sits.\n\nA detachable anti-slip pad and polished rounded corners round out the build, and it works on carpet or hard floor. It carries the highest rating of any pick in this guide, though its size and glass construction make it the heaviest mat here to move once placed.\n\nThe tradeoff is most expensive pick tied with the MESAILUP.",
     specs: [
       "46\"x55\" (largest glass mat in this guide), tempered glass 0.2\" thick",
       "Rated over 1,000 lbs",
       "Detachable anti-slip pad",
       "Polished rounded corners",
-      "Dual-use on carpet or hard floor",
+      "Dual-use on carpet or hard floor"
     ],
     pros: [
       "Largest footprint of any tempered glass mat in this guide",
-      "Highest rating in this guide at 4.7 stars",
       "Detachable anti-slip pad for easier cleaning underneath",
-      "Works on carpet or hard floor",
+      "Works on carpet or hard floor"
     ],
     cons: [
       "Most expensive pick tied with the MESAILUP",
       "Heaviest mat in this guide to reposition",
-      "Large footprint needs more floor space than most home offices use",
+      "Large footprint needs more floor space than most home offices use"
     ],
     bestFor: "Standing desk setups that need a large, quiet, high-rated glass mat covering the full desk height range",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -328,7 +326,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Value for price",
     description:
       "Weighed thickness, capacity, and material against price, the SHAREWIN and the MESAILUP sit at opposite ends of that budget-to-capacity tradeoff.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -482,11 +480,11 @@ export const faq: FaqItem[] = [
   {
     q: "Is a thicker or heavier chair mat always better?",
     a: "Not necessarily. A thicker mat like the 5mm MuArts or the 0.2\" tempered glass picks generally offers higher weight capacity and more rigidity, which helps on carpet. But on a hard floor, a thinner mat with a smooth or lightly textured surface can actually roll better and is easier to reposition, so match thickness to your actual floor and capacity needs rather than assuming thicker is always the better choice.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-chair-mat-high-pile-carpet", title: "Best Chair Mats for High Pile Carpet (2026)" },
   { href: "/guide/best-chair-mats-for-office", title: "Best Chair Mats for Office Use (2026)" },
-  { href: "/guide/best-office-chair-under-300", title: "Best Office Chairs Under $300 (2026)" },
+  { href: "/guide/best-office-chair-under-300", title: "Best Office Chairs Under $300 (2026)" }
 ];

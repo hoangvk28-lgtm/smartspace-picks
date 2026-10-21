@@ -12,7 +12,7 @@ export const whiteboardVsCorkboardGuide: Guide = {
     "whiteboard or corkboard for office",
     "dry erase board vs pin board",
     "best planning board for desk",
-    "corkboard vs whiteboard organization",
+    "corkboard vs whiteboard organization"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const whiteboardVsCorkboardGuide: Guide = {
     "pegboard-desk-organization-explained",
     "desk-organizer-types-explained",
     "desk-declutter-checklist",
-    "under-desk-storage-options-explained",
+    "under-desk-storage-options-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const whiteboardVsCorkboardGuide: Guide = {
       question: "Does a whiteboard need special markers?",
       answer:
         "Yes, dry erase markers are specifically formulated to wipe cleanly off a whiteboard surface, using a permanent marker by mistake can be very difficult to fully remove, always confirm you're using the correct marker type for a whiteboard.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const whiteboardVsCorkboardGuide: Guide = {
     {
       heading: "Why a Combination Approach Often Works Best",
       body: `Many desk setups benefit from having both available, either as a combined dual-surface board or as two separate smaller boards, using the whiteboard side for actively changing daily content and the corkboard side for more static reference material that doesn't need frequent updating. This division keeps each board serving its actual strength rather than trying to force one format to handle both types of content less effectively.`,
-    },
+    }
   ],
 };

@@ -49,7 +49,7 @@ export const products: Budget30Headphone[] = [
     tradeoffs: [
       "ANC reduces ambient noise, does not eliminate it fully",
       "IPX5 splash-proof but not submersible for swimming",
-      "Fit depends on choosing the right ear tip size",
+      "Fit depends on choosing the right ear tip size"
     ],
     skipIf:
       "You primarily use headphones at a fixed desk and care most about sound quality. The Koss KPH30i at $20 sounds significantly better.",
@@ -58,12 +58,12 @@ export const products: Budget30Headphone[] = [
       "USB-C charging",
       "30h combined battery",
       "Bluetooth 5.3",
-      "Compact case",
+      "Compact case"
     ],
     cons: [
       "ANC limited vs $100+ options",
       "IPX5 not waterproof",
-      "Ear tip fit critical",
+      "Ear tip fit critical"
     ],
   },
   {
@@ -84,7 +84,7 @@ export const products: Budget30Headphone[] = [
     tradeoffs: [
       "No ANC",
       "Default tuning is bass-heavy (adjustable via app)",
-      "Mic quality average for calls",
+      "Mic quality average for calls"
     ],
     skipIf:
       "You need ANC for studying in noisy environments. The Soundcore P20i is the pick for noise reduction.",
@@ -93,7 +93,7 @@ export const products: Budget30Headphone[] = [
       "55h combined battery",
       "Wireless charging case",
       "32 EQ presets",
-      "Bluetooth 5.3",
+      "Bluetooth 5.3"
     ],
     cons: ["No ANC", "Bass-heavy default tuning", "Average mic quality"],
   },
@@ -115,7 +115,7 @@ export const products: Budget30Headphone[] = [
     tradeoffs: [
       "20h combined battery is the lowest of the earbud picks",
       "No ANC",
-      "IPX4 only, not submersible",
+      "IPX4 only, not submersible"
     ],
     skipIf:
       "Battery life is a top priority. The TOZO T10 at 55h is the better pick for maximum runtime.",
@@ -124,7 +124,7 @@ export const products: Budget30Headphone[] = [
       "Multipoint Bluetooth (2 devices)",
       "Tile tracking built-in",
       "USB-C charging",
-      "Integrated lanyard loop on case",
+      "Integrated lanyard loop on case"
     ],
     cons: ["Lowest battery (20h total)", "No ANC", "IPX4 only"],
   },
@@ -146,7 +146,7 @@ export const products: Budget30Headphone[] = [
     tradeoffs: [
       "Open-back design leaks sound, not suitable for quiet shared spaces or libraries",
       "Wired 3.5mm only, no wireless",
-      "60 Ohm impedance benefits from a DAC/amp",
+      "60 Ohm impedance benefits from a DAC/amp"
     ],
     skipIf:
       "You need wireless freedom or use headphones in a quiet shared space. Open-back sound leakage is a problem in libraries and study rooms.",
@@ -155,7 +155,7 @@ export const products: Budget30Headphone[] = [
       "Extremely lightweight (60g)",
       "Inline mic and remote included",
       "No battery to manage",
-      "Audiophile-grade drivers at this price",
+      "Audiophile-grade drivers at this price"
     ],
     cons: ["Open-back leaks sound", "Wired only", "Not ideal for commuting"],
   },
@@ -177,21 +177,21 @@ export const products: Budget30Headphone[] = [
     tradeoffs: [
       "Most basic audio quality of the wired picks",
       "Thin headband padding on long sessions",
-      "No carrying case",
+      "No carrying case"
     ],
     skipIf:
       "Your budget allows $20. The Koss KPH30i at $20 sounds significantly better and weighs less.",
     pros: [
-      "Lowest price in the guide at $12-$15",
+      "Lowest price in the guide at under $15-$15",
       "Sony build quality at entry price",
       "Inline mic included",
       "Folds flat for storage",
-      "No battery required",
+      "No battery required"
     ],
     cons: [
       "Most basic audio quality",
       "Thin headband padding",
-      "No carrying case",
+      "No carrying case"
     ],
   },
   {
@@ -212,7 +212,7 @@ export const products: Budget30Headphone[] = [
     tradeoffs: [
       "No ANC",
       "Slightly bulky for commuting vs earbuds",
-      "Price occasionally pushes just above $30",
+      "Price occasionally pushes just above $30"
     ],
     skipIf:
       "You need ANC for studying in noisy environments. Consider the TOZO HT2 in the under-$50 guide for hybrid ANC wireless.",
@@ -221,12 +221,12 @@ export const products: Budget30Headphone[] = [
       "Included 3.5mm AUX cable as wired backup",
       "Multipoint Bluetooth (2 devices)",
       "Folds flat for storage",
-      "Plush ear cushions for all-day comfort",
+      "Plush ear cushions for all-day comfort"
     ],
     cons: [
       "No ANC",
       "Slightly bulky vs earbuds",
-      "Price fluctuates near $30 ceiling",
+      "Price fluctuates near $30 ceiling"
     ],
   },
   {
@@ -247,7 +247,7 @@ export const products: Budget30Headphone[] = [
     tradeoffs: [
       "No inline mic on standard model (mic version sold separately)",
       "Open-back design leaks sound",
-      "Retro aesthetic is polarizing",
+      "Retro aesthetic is polarizing"
     ],
     skipIf:
       "You need an inline mic for calls. The KPH30i includes an inline mic and costs the same or less.",
@@ -256,14 +256,14 @@ export const products: Budget30Headphone[] = [
       "Best portable wired audio under $30",
       "Collapsible disc-fold design",
       "In production since 1984 - proven longevity",
-      "60g weight, open spacious sound",
+      "60g weight, open spacious sound"
     ],
     cons: [
       "No inline mic (standard model)",
       "Open-back leaks sound",
-      "Retro design not for everyone",
+      "Retro design not for everyone"
     ],
-  },
+  }
 ];
 
 export const atAGlanceRows = products.map((p) => ({
@@ -300,7 +300,7 @@ export const faq = [
   {
     q: "Is the TOZO T10 waterproof enough for swimming?",
     a: "Yes, IPX8 means submersible to 1 meter, which covers swimming in shallow water. However, TOZO does not specifically market the T10 as swimming earbuds, so use appropriate judgment for extended underwater use. For casual gym use, outdoor running in the rain, and accidental water contact, IPX8 is fully reliable.",
-  },
+  }
 ];
 
 export const relatedGuides = [
@@ -315,5 +315,5 @@ export const relatedGuides = [
   {
     href: "/guide/best-small-desk-accessories",
     title: "Best Small Desk Accessories",
-  },
+  }
 ];

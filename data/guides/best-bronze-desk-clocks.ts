@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "bronze desk clock";
 export const introParagraphs = [
   "We checked each listing's described construction rather than assuming every product using \"bronze\" in its title has the same material quality. Prices range from under $13 for basic metal clocks to nearly $60 for a genuine bronze-finish revolving mantel piece.",
-  "This overlaps with our brass and gold desk clocks guides, since these warm metal finishes are visually similar and often sold by overlapping manufacturers.",
+  "This overlaps with our brass and gold desk clocks guides, since these warm metal finishes are visually similar and often sold by overlapping manufacturers."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41KKs7gB4tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSK1PRGV?tag=deskfinds0d-20",
     description: "A confirmed bronze finish with a genuine revolving pendulum mechanism, the most substantial mantel-style piece in this comparison.\n\nIt earns the top spot in this comparison over NIKKY HOME Vintage Bronze Small Table Clock for one main reason. Confirmed bronze finish with genuine pendulum mechanism. On price, it's actually priced above NIKKY HOME Vintage Bronze Small Table Clock, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Most substantial piece in this comparison. On the other side, Highest price of the confirmed-bronze options here. That's the main tradeoff to weigh against everything above.",
-    specs: ["9 inch mantel clock, bronze finish","Genuine revolving pendulum","46 reviews at 4.1 stars"],
+    specs: ["9 inch mantel clock, bronze finish","Genuine revolving pendulum"],
     pros: ["Confirmed bronze finish with genuine pendulum mechanism","Most substantial piece in this comparison"],
     cons: ["Highest price of the confirmed-bronze options here"],
     bestFor: "Buyers who want a genuine bronze-finish mantel clock with a real moving mechanism.",
@@ -47,7 +47,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41EgSE7MtOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G785C5D9?tag=deskfinds0d-20",
     description: "A genuinely bronze-labeled small table clock with a silent movement, though with a very small review sample worth noting.\n\nOne spot below FOUNTAIN DESIGNS 9\" Genevieve Mantel Clock with Revolving Pendulum in this ranking, it's priced lower than FOUNTAIN DESIGNS 9\" Genevieve Mantel Clock with Revolving Pendulum. The compromise here is straightforward: Very small review base, read current feedback carefully. What you gain in return: Confirmed bronze in the product name. Whether that trade is worth it depends on which side matters more to you.\n\nWorth knowing before you decide: Silent movement for quiet desk use. On the other side, Very small review base, read current feedback carefully. That's the main tradeoff to weigh against everything above.",
-    specs: ["Small table clock, bronze finish","Silent movement","6 reviews at 4.0 stars"],
+    specs: ["Small table clock, bronze finish","Silent movement"],
     pros: ["Confirmed bronze in the product name","Silent movement for quiet desk use"],
     cons: ["Very small review base, read current feedback carefully"],
     bestFor: "Buyers who want a small, quiet bronze-finish table clock and accept the limited review history.",
@@ -63,7 +63,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51vOzTtxG9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFDWS9R8?tag=deskfinds0d-20",
     description: "A vintage mantel-style piece with bronze-adjacent tones, battery operated, at a solid rating with a moderate review base.\n\nSitting just under NIKKY HOME Vintage Bronze Small Table Clock, it costs more than NIKKY HOME Vintage Bronze Small Table Clock. Here's the honest tradeoff: Verify current listing for exact bronze vs. bronze-adjacent finish. And here's what it gets you instead: Solid rating with a reasonable review base. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Substantial mantel-style presence. On the other side, Verify current listing for exact bronze vs. bronze-adjacent finish. That's the main tradeoff to weigh against everything above.",
-    specs: ["Mantel-style, vintage design","Battery operated","62 reviews at 4.3 stars"],
+    specs: ["Mantel-style, vintage design","Battery operated"],
     pros: ["Solid rating with a reasonable review base","Substantial mantel-style presence"],
     cons: ["Verify current listing for exact bronze vs. bronze-adjacent finish"],
     bestFor: "Buyers who want a moderately priced vintage mantel piece with bronze-toned styling.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41n3D2P5IpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08CMPGYN9?tag=deskfinds0d-20",
     description: "The largest review base among the mantel-style options in this comparison, combining a bronze-toned finish with alarm functionality.\n\nRanked just behind HZDHCLH Vintage Table Clock Battery Operated, it's priced lower than HZDHCLH Vintage Table Clock Battery Operated. The real tradeoff against that pick: If you want a genuinely alarm-free clock, this isn't it. In exchange, it offers this instead: Largest review base among mantel-style options here. That's the swap that decides whether this pick or the one above it is the better fit for a given buyer.\n\nWorth knowing before you decide: Combines decorative mantel styling with alarm functionality. On the other side, If you want a genuinely alarm-free clock, this isn't it. That's the main tradeoff to weigh against everything above.",
-    specs: ["Mantel style, bronze-toned finish","Alarm function","447 reviews at 4.2 stars"],
+    specs: ["Mantel style, bronze-toned finish","Alarm function"],
     pros: ["Largest review base among mantel-style options here","Combines decorative mantel styling with alarm functionality"],
     cons: ["If you want a genuinely alarm-free clock, this isn't it"],
     bestFor: "Buyers who want a proven mantel-style clock and don't mind alarm functionality.",
@@ -95,7 +95,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41QEWuh36ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06XRXN7QT?tag=deskfinds0d-20",
     description: "The cheapest and by far the most-reviewed option in this comparison, a vintage-styled analog clock with bronze-adjacent tones.\n\nOne spot below Presentime Lewis Mantel Alarm Clock in this ranking, it's priced lower than Presentime Lewis Mantel Alarm Clock. The compromise here is straightforward: Verify current listing for exact bronze tone versus general vintage finish. What you gain in return: Cheapest option in this comparison, by a wide margin. Whether that trade is worth it depends on which side matters more to you.\n\nWorth knowing before you decide: Largest, most proven review base in this entire comparison. On the other side, Verify current listing for exact bronze tone versus general vintage finish. That's the main tradeoff to weigh against everything above.",
-    specs: ["Vintage analog design","3,530 reviews at 4.4 stars"],
+    specs: ["Vintage analog design"],
     pros: ["Cheapest option in this comparison, by a wide margin","Largest, most proven review base in this entire comparison"],
     cons: ["Verify current listing for exact bronze tone versus general vintage finish"],
     bestFor: "Budget-focused buyers who want the most proven vintage-toned clock available.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified bronze vs. bronze-adjacent finish per listing", description: "We checked whether \"bronze\" appears directly in the product name and description, flagging where it's more of a general vintage-toned finish." },
   { title: "Real price spread across this category", description: "We compared value from basic clocks to premium mantel pieces with genuine moving mechanisms." },
   { title: "Silent movement noted where confirmed", description: "We flagged where a product specifically advertises silent operation, relevant for desk placement." },
-  { title: "Review volume weighted heavily, especially for small-sample options", description: "We noted where a bronze-labeled product has a very small review base, worth reading current feedback on before buying." },
+  { title: "Review volume weighted heavily, especially for small-sample options", description: "We noted where a bronze-labeled product has a very small review base, worth reading current feedback on before buying." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,15 +243,16 @@ export const buyingCriteria: BuyingCriterion[] = [
 ];
 
 export const faq: FaqItem[] = [
-  { q: "Which is the most proven overall?", a: "The Königswerk Vintage Analog Alarm Clock, with 3,530 reviews at 4.4 stars, by far the largest review base in this comparison." },
+  
   { q: "Which has a confirmed bronze finish?", a: "The FOUNTAIN DESIGNS Genevieve Mantel Clock and the NIKKY HOME Vintage Bronze Table Clock both confirm bronze directly in their product names." },
-  { q: "What's the cheapest option?", a: "The Königswerk Vintage Analog Alarm Clock at $12.99." },
+  { q: "What's the cheapest option?", a: "The Königswerk Vintage Analog Alarm Clock at under $15." },
   { q: "Is there a genuine moving mechanism option?", a: "Yes, the FOUNTAIN DESIGNS bronze mantel clock has a confirmed revolving pendulum." },
   { q: "How does this overlap with your brass and gold guides?", a: "Substantially, bronze, brass, and gold are visually similar warm metal finishes often from overlapping manufacturers. Check both other guides for more options." },
+  { q: "Does a bronze finish wear off over time?", a: "Plated or painted finishes can show wear where hands touch the clock, while solid metal finishes age more gracefully. Handle the clock by its base and dust it with a dry cloth instead of using polish. Check the product description to see whether the finish is plated or solid." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-brass-desk-clocks", title: "Best Brass Desk Clocks (2026)" },
   { href: "/guide/best-gold-desk-clocks", title: "Best Gold Desk Clocks (2026)" },
-  { href: "/guide/best-desk-clocks", title: "Best Desk Clocks (2026)" },
+  { href: "/guide/best-desk-clocks", title: "Best Desk Clocks (2026)" }
 ];

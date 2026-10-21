@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini pc external gpu support";
 export const introParagraphs = [
   "OCuLink, USB4, and Thunderbolt deliver meaningfully different effective bandwidth to an external GPU, OCuLink generally provides the closest experience to a native PCIe connection while USB4/Thunderbolt-based eGPU setups experience more performance loss, worth verifying which interface a specific mini PC actually uses before assuming similar performance.",
-  "An external GPU enclosure requires its own power supply and adds real cost beyond the enclosure price itself, worth calculating total system cost including the GPU, enclosure, and any required cables before assuming an eGPU path is more economical than a built-in discrete GPU mini PC.",
+  "An external GPU enclosure requires its own power supply and adds real cost beyond the enclosure price itself, worth calculating total system cost including the GPU, enclosure, and any required cables before assuming an eGPU path is more economical than a built-in discrete GPU mini PC."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best External GPU Dock Overall",
     name: "MINISFORUM DEG1 eGPU Dock, External GPU Docking Station for RTX 4090, AMD RX 7900 XTX",
     price: "$109.90",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "218 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41IFcTAasUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DPGYKH7G?tag=deskfinds0d-20",
     description: "A genuinely capable eGPU dock explicitly rated for high-end cards like the RTX 4090 and RX 7900 XTX, appropriate for buyers wanting maximum flexibility to install their own powerful GPU.\n\nIt earns the top spot in this comparison over MINISFORUM MGA1 External GPU Docking Station for one main reason. Explicitly rated for high-end GPUs like RTX 4090 and RX 7900 XTX. On price, it comes in below MINISFORUM MGA1 External GPU Docking Station, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Budget-friendly enclosure price relative to bundled eGPU systems. On the other side, Requires its own power supply for the installed GPU. That's the main tradeoff to weigh against everything above.",
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Bundled eGPU Pick",
     name: "MINISFORUM MGA1 External GPU Docking Station, eGPU Enclosure with AMD Radeon 7600M XT",
     price: "$569.90",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "341 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31BN7ez2xzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DP5ZTRZN?tag=deskfinds0d-20",
     description: "A bundled eGPU enclosure with an AMD Radeon 7600M XT already installed, appropriate for buyers wanting a ready-to-use external GPU solution without sourcing a separate card.\n\nOne spot below MINISFORUM DEG1 eGPU Dock in this ranking, it costs more than MINISFORUM DEG1 eGPU Dock. The compromise here is straightforward: Higher price reflecting the bundled GPU. What you gain in return: Bundled GPU avoids sourcing and installing a separate card. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Solid review base for confidence in the complete solution. On the other side, Fixed GPU choice, no flexibility to upgrade later. That's the main tradeoff to weigh against everything above.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-End Bundled eGPU Pick",
     name: "BOSGAME eGPU Graphic Card Dock Expansion Card, Radeon RX 7600M XT 8GB GDDR6 RDNA3 Architecture",
     price: "$788.95",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "892 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31AkudVya0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2MW96PT?tag=deskfinds0d-20",
     description: "A bundled Radeon RX 7600M XT with 8GB GDDR6 dedicated VRAM, appropriate for buyers wanting a genuinely powerful bundled eGPU option for demanding gaming or creative work.\n\nSitting just under MINISFORUM MGA1 External GPU Docking Station, it costs more than MINISFORUM MGA1 External GPU Docking Station. Here's the honest tradeoff: Higher price reflecting the higher-end bundled GPU. And here's what it gets you instead: Large, well-established review base for confidence. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: 8GB GDDR6 dedicated VRAM for genuinely demanding workloads. On the other side, Fixed GPU choice, no flexibility to upgrade later. That's the main tradeoff to weigh against everything above.",
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     badge: "Best Powerful Base System for eGPU Pairing",
     name: "GMKtec AI Mini PC Ultra 9 285H (Turbo 5.4GHz) 32GB DDR5 1TB PCIe 4.0 SSD",
     price: "$1,299.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "910 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41HU4lDWnjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H6988Y89?tag=deskfinds0d-20",
     description: "A powerful Intel Ultra 9 285H base system appropriate for buyers planning to pair this with a separate eGPU enclosure and card of their choice.\n\nRanked just behind BOSGAME eGPU Graphic Card Dock Expansion Card, it costs more than BOSGAME eGPU Graphic Card Dock Expansion Card. The real tradeoff against that pick: Requires a separate eGPU enclosure and card purchase for dedicated graphics. In exchange, it offers this instead: Powerful base processor well-suited to pairing with an external GPU. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: 32GB DDR5 RAM for strong overall system performance. On the other side, Total system cost adds up significantly once the eGPU path is included. That's the main tradeoff to weigh against everything above.",
@@ -90,8 +90,8 @@ export const products: GuideProduct[] = [
     badge: "Best Workstation-Class Pick for GPU Expansion",
     name: "MINISFORUM MS-02 Ultra Mini Workstation PC, Intel Core Ultra 9 285HX (24C/24T, up to 5.5GHz)",
     price: "$1,159.00",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "7 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51U8oEw1c+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G39HV95T?tag=deskfinds0d-20",
     description: "A genuine workstation-class 24-core, 24-thread Intel Core Ultra 9 285HX, appropriate for buyers wanting maximum processing power alongside potential GPU expansion capability.\n\nOne spot below GMKtec AI Mini PC Ultra 9 285H in this ranking, it's priced lower than GMKtec AI Mini PC Ultra 9 285H. The compromise here is straightforward: Small review base, verify current reviews before purchase. What you gain in return: Genuine workstation-class 24-core processor for demanding parallel workloads. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Potential for genuine PCIe-based GPU expansion depending on chassis. On the other side, Verify actual GPU expansion interface details for this specific chassis. That's the main tradeoff to weigh against everything above.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Interface type (OCuLink, USB4, Thunderbolt) distinguished for bandwidth implications", description: "Distinguished OCuLink, USB4, and Thunderbolt interfaces explicitly, since they deliver meaningfully different effective bandwidth to an external GPU." },
   { title: "Total system cost calculated including enclosure, GPU, and cables", description: "Calculated total system cost including the GPU, enclosure, and any required cables, rather than just the enclosure or mini PC price alone." },
   { title: "Bundled versus bare enclosure options considered for different buyer needs", description: "Considered both bundled eGPU solutions with a GPU already installed and bare enclosures for buyers wanting to choose their own card." },
-  { title: "Base system processing power weighed against GPU pairing needs", description: "Weighed base system processing power against how well it would pair with an external GPU for buyers planning a two-part eGPU setup." },
+  { title: "Base system processing power weighed against GPU pairing needs", description: "Weighed base system processing power against how well it would pair with an external GPU for buyers planning a two-part eGPU setup." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Does OCuLink give better eGPU performance than USB4 or Thunderbolt?", a: "Generally yes, OCuLink provides the closest experience to a native PCIe connection, while USB4/Thunderbolt-based setups experience more performance loss." },
   { q: "Is an eGPU setup cheaper than a mini PC with a built-in discrete GPU?", a: "Not always, calculate the total cost including the GPU, enclosure, and cables before assuming the eGPU path is more economical." },
   { q: "Should I buy a bundled eGPU or a bare enclosure?", a: "A bundled solution is ready-to-use immediately, a bare enclosure gives flexibility to choose your own card or upgrade later." },
-  { q: "Does my mini PC's base processor matter for an eGPU setup?", a: "Yes, a more powerful base processor pairs better with a high-end external GPU than an entry-level chip would." },
+  { q: "Does my mini PC's base processor matter for an eGPU setup?", a: "Yes, a more powerful base processor pairs better with a high-end external GPU than an entry-level chip would." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pcs-with-dedicated-graphics", title: "Best Mini PCs with Dedicated Graphics (2026)" },
   { href: "/guide/best-mini-pcs-with-oculink", title: "Best Mini PCs with OCuLink (2026)" },
-  { href: "/guide/best-mini-pcs-for-gaming", title: "Best Mini PCs for Gaming (2026)" },
+  { href: "/guide/best-mini-pcs-for-gaming", title: "Best Mini PCs for Gaming (2026)" }
 ];

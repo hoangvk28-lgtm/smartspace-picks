@@ -208,11 +208,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "BrosTrend 8-Port 2.5Gb Unmanaged Switch",
-        "text": "BrosTrend 8-Port 2.5Gb Unmanaged Switch is aimed at buyers prioritizing 8x 2.5gb ports, 40gbps capacity At $55.87, it's the lowest-cost pick in this comparison."
+        "text": "BrosTrend 8-Port 2.5Gb Unmanaged Switch is aimed at buyers prioritizing 8x 2.5gb ports, 40gbps capacity At under $60, it's the lowest-cost pick in this comparison."
       },
       {
         "label": "NETGEAR MS308 8-Port 2.5G Unmanaged Switch",
-        "text": "NETGEAR MS308 8-Port 2.5G Unmanaged Switch is aimed at buyers prioritizing 8x 2.5g ports, fanless At $109.99, it sits at the higher end of this comparison's price range."
+        "text": "NETGEAR MS308 8-Port 2.5G Unmanaged Switch is aimed at buyers prioritizing 8x 2.5g ports, fanless At under $110, it sits at the higher end of this comparison's price range."
       }
     ],
     "note": "Most buyers should default to BrosTrend 8-Port 2.5Gb Unmanaged Switch unless the pricier pick's specific advantage applies to your situation."
@@ -256,7 +256,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "TP-Link TL-SG108S-M2 8-Port 2.5G Unmanaged Switch Buyers prioritizing 8x 2.5g ports, 40gbps capacity. BrosTrend 8-Port 2.5Gb Unmanaged Switch Buyers prioritizing 8x 2.5gb ports, 40gbps capacity."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -293,10 +293,10 @@ export const faq = [
   }
 ,
   { "q": "If you only read one recommendation from this comparison, which pick is it?", "a": "TP-Link TL-SG108S-M2 8-Port 2.5G Unmanaged Switch is aimed at buyers prioritizing 8x 2.5g ports, 40gbps capacity" },
-  { q: "Which pick offers the best value for a tight budget?", "a": "BrosTrend 8-Port 2.5Gb Unmanaged Switch is aimed at buyers prioritizing 8x 2.5gb ports, 40gbps capacity At $55.87, it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $55.87 to $109.99, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Which pick offers the best value for a tight budget?", "a": "BrosTrend 8-Port 2.5Gb Unmanaged Switch is aimed at buyers prioritizing 8x 2.5gb ports, 40gbps capacity At under $60, it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $60 to $110, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
   { q: "Is the most expensive pick in this comparison worth the extra cost?", "a": "NETGEAR MS308 8-Port 2.5G Unmanaged Switch is aimed at buyers prioritizing 8x 2.5g ports, fanless Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
-  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", "a": "TP-Link TL-SG108S-M2 8-Port 2.5G Unmanaged Switch is aimed at buyers prioritizing 8x 2.5g ports, 40gbps capacity" },
+  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", "a": "TP-Link TL-SG108S-M2 8-Port 2.5G Unmanaged Switch is aimed at buyers prioritizing 8x 2.5g ports, 40gbps capacity" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-2-5gbe-network-switches","title":"8 Best 2.5GbE Network Switches in 2026"},{"href":"/guide/best-network-switches-for-gaming","title":"7 Best Network Switches for Gaming in 2026"},{"href":"/guide/best-5gbe-network-switches","title":"5 Best 5GbE Network Switches in 2026"}];

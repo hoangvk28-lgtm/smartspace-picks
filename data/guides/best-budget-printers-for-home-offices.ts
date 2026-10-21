@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "budget printer for home office";
 export const introParagraphs = [
   "Budget shouldn't mean one blanket list, a home office that prints the occasional document has very different needs than one that scans and copies regularly, and the right cheap printer for each situation isn't the same model. Lumping every sub-$200 printer together ignores that some are optimized for low upfront cost while others are optimized for low cost over the next 2 years.",
-  "Below are 7 printers we researched across inkjet, ink-tank, and monochrome laser categories, from a $64 basic inkjet to a $199 ink-tank model, segmented by the kind of home office task each one actually fits best.",
+  "Below are 7 printers we researched across inkjet, ink-tank, and monochrome laser categories, from a $64 basic inkjet to a $199 ink-tank model, segmented by the kind of home office task each one actually fits best."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Copier and scanner built in",
       "Compact single-tray design",
       "Easy setup, 1-year limited warranty",
-      "Mobile app printing support",
+      "Mobile app printing support"
     ],
     pros: [
       "Lowest price in this list",
       "Automatic duplex printing included",
       "Full print, scan, copy feature set",
-      "Compact footprint",
+      "Compact footprint"
     ],
     cons: [
       "No automatic document feeder",
       "Cartridge ink costs more per page at higher volume",
-      "Ink can dry out with long gaps between prints",
+      "Ink can dry out with long gaps between prints"
     ],
     bestFor: "Home offices that print occasionally and want the lowest upfront cost with a full feature set",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Mobile printing support",
       "Built-in fax (legacy feature)",
       "Wireless connectivity",
-      "Compact home printer design",
+      "Compact home printer design"
     ],
     pros: [
       "Automatic document feeder for multi-page scanning",
       "Guided mobile printing setup",
       "Affordable price",
-      "Simple daily operation",
+      "Simple daily operation"
     ],
     cons: [
       "Cartridge-based ink costs more at higher volume",
       "Fax feature adds an unused menu option for most",
-      "Not built for sustained high-volume printing",
+      "Not built for sustained high-volume printing"
     ],
     bestFor: "Home offices that regularly scan or copy multi-page documents",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "3-month Instant Ink trial included",
       "Simple wireless setup flow",
       "AI-capable printing features (optional)",
-      "Compact, budget-friendly design",
+      "Compact, budget-friendly design"
     ],
     pros: [
       "Simple setup suited to first-time home office buyers",
       "Low price with a full feature set",
       "Instant Ink trial simplifies early ink purchasing",
-      "Compact design",
+      "Compact design"
     ],
     cons: [
       "Not built for high daily volume",
       "Cartridge costs return to normal after the trial",
-      "No automatic document feeder",
+      "No automatic document feeder"
     ],
     bestFor: "Home offices being set up for the first time that want the simplest onboarding",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Built-in copier and scanner",
       "1.42-inch OLED display",
       "Intuitive control panel",
-      "Compact design",
+      "Compact design"
     ],
     pros: [
       "OLED display gives clear error messages",
       "Duplex printing included",
       "Full print, scan, copy feature set",
-      "Compact footprint",
+      "Compact footprint"
     ],
     cons: [
       "Cartridge ink costs more at high volume",
       "No automatic document feeder",
-      "Ink can dry out with infrequent use",
+      "Ink can dry out with infrequent use"
     ],
     bestFor: "Home offices that want clear on-screen guidance when something goes wrong",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "19 PPM rated speed",
       "Compact wireless design",
       "1-year limited warranty",
-      "No scan, copy, or duplex",
+      "No scan, copy, or duplex"
     ],
     pros: [
       "Lowest cost per page for text documents in this list",
       "Fast, crisp monochrome output",
       "Toner doesn't dry out during infrequent use",
-      "Compact footprint",
+      "Compact footprint"
     ],
     cons: [
       "Print only, no scan or copy",
       "No automatic duplex",
-      "Not suited to photo or color printing",
+      "Not suited to photo or color printing"
     ],
     bestFor: "Home offices that mostly print text documents and want the lowest per-page cost",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Wireless and mobile printing",
       "Works with Alexa voice commands",
       "Includes Refresh Subscription trial",
-      "Compact desktop footprint",
+      "Compact desktop footprint"
     ],
     pros: [
       "Reliable wireless setup with Alexa support",
       "Low cost per page for text documents",
       "Compact size for tight desk space",
-      "Refresh Subscription trial available",
+      "Refresh Subscription trial available"
     ],
     cons: [
       "No scan or copy functions",
       "No automatic duplex printing",
-      "Higher upfront price than the inkjet picks in this list",
+      "Higher upfront price than the inkjet picks in this list"
     ],
     bestFor: "Home offices that want wireless monochrome laser printing without a wired connection",
   },
@@ -249,21 +249,21 @@ export const products: GuideProduct[] = [
       "Scan and copy built in",
       "Wireless connectivity",
       "Refillable ink bottles instead of cartridges",
-      "Compact ink-tank design",
+      "Compact ink-tank design"
     ],
     pros: [
       "Lowest per-page ink cost over 2 years among these 7 picks",
       "Full print, scan, copy feature set",
       "Ink doesn't dry out as fast between refills",
-      "Cartridge-free means no recurring cartridge purchases",
+      "Cartridge-free means no recurring cartridge purchases"
     ],
     cons: [
       "Highest upfront price in this list",
       "Ink refills take longer than a cartridge swap",
-      "Not the best fit for very light, occasional use",
+      "Not the best fit for very light, occasional use"
     ],
     bestFor: "Home offices that print regularly enough to benefit from the lowest 2-year ink cost",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -291,7 +291,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Setup and daily use simplicity",
     description: "Factored in wireless setup friction and daily control panel clarity, since a home office buyer often sets up and troubleshoots the printer without IT support.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -430,12 +430,12 @@ export const faq: FaqItem[] = [
   {
     q: "Do I need an automatic document feeder for a home office?",
     a: "Only if you regularly scan or copy documents longer than one page. Without an auto document feeder, like on most picks in this list except the Canon PIXMA TR4720, you have to reposition each page manually on the scanner glass, which is fine for occasional single-page scans but slow for multi-page documents.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-budget-laser-printers", title: "Best Budget Laser Printers (2026)" },
   { href: "/guide/best-printers-for-home-offices", title: "Best Printers for Home Offices (2026)" },
   { href: "/guide/best-easy-to-use-printers", title: "Best Easy-to-Use Printers (2026)" },
-  { href: "/guide/best-printers-for-remote-workers", title: "Best Printers for Remote Workers (2026)" },
+  { href: "/guide/best-printers-for-remote-workers", title: "Best Printers for Remote Workers (2026)" }
 ];

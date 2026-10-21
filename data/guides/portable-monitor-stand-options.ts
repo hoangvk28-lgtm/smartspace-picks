@@ -12,7 +12,7 @@ export const portableMonitorStandOptionsGuide: Guide = {
     "portable monitor kickstand vs case stand",
     "travel monitor stand stability",
     "portable monitor stand angle adjustment",
-    "best stand for portable monitor",
+    "best stand for portable monitor"
   ],
   heroImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const portableMonitorStandOptionsGuide: Guide = {
     "portable-monitor-vs-laptop-screen-extender",
     "portable-monitor-power-requirements",
     "monitor-arm-vs-monitor-stand",
-    "laptop-stand-height-chart",
+    "laptop-stand-height-chart"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const portableMonitorStandOptionsGuide: Guide = {
       question: "Does stand choice affect viewing angle adjustability?",
       answer:
         "Yes significantly, built-in kickstands and folding case stands often support only a limited range of angles, while a dedicated adjustable stand or small arm typically offers more precise and varied angle control for finding a comfortable viewing position.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const portableMonitorStandOptionsGuide: Guide = {
     {
       heading: "Why VESA Compatibility Opens Up More Flexible Stand Options Later",
       body: `If a portable monitor includes standard VESA mounting holes on its back panel, despite also including its own built-in or case-based stand solution, this compatibility means you're not permanently locked into whatever stand design came with the monitor, you can add a more adjustable third-party stand or even a small compatible monitor arm later if you find the included stand's angle adjustability insufficient for your actual desk setup, checking for this VESA compatibility before buying provides useful future flexibility even if you don't need it immediately.`,
-    },
+    }
   ],
 };

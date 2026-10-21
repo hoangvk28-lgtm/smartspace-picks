@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini pc for small desks";
 export const introParagraphs = [
   "The true installed footprint on a small desk includes cable clearance and the external power brick, not just the bare chassis dimensions, worth calculating this complete picture rather than assuming a small chassis alone guarantees a tidy desk setup.",
-  "VESA mount compatibility genuinely reclaims desk surface entirely by moving the mini PC behind a monitor, worth checking whether your specific model supports this before assuming every compact mini PC can be mounted this way.",
+  "VESA mount compatibility genuinely reclaims desk surface entirely by moving the mini PC behind a monitor, worth checking whether your specific model supports this before assuming every compact mini PC can be mounted this way."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "True installed footprint calculated including cables and power brick", description: "Calculated the true installed footprint including cable clearance and the external power brick, not just bare chassis dimensions." },
   { title: "VESA mount compatibility checked for reclaiming desk surface entirely", description: "Checked whether each model supports VESA mounting to move the mini PC behind a monitor and free up desk surface entirely." },
   { title: "Barebone versus complete-build listings distinguished for total cost", description: "Distinguished barebone listings requiring separate RAM and storage purchase from complete builds when comparing total desk-setup cost." },
-  { title: "Processor tier weighted against realistic small-desk workflow needs", description: "Weighted processor tier against realistic everyday workflow needs for a small-desk setup, not assuming maximum performance is required." },
+  { title: "Processor tier weighted against realistic small-desk workflow needs", description: "Weighted processor tier against realistic everyday workflow needs for a small-desk setup, not assuming maximum performance is required." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -226,11 +226,11 @@ export const faq: FaqItem[] = [
   { q: "Does a small mini PC chassis guarantee a tidy desk setup?", a: "Not necessarily, calculate the true installed footprint including cable clearance and the external power brick's real space." },
   { q: "Can I VESA mount any compact mini PC behind my monitor?", a: "Not always, verify VESA mount compatibility for your specific model before assuming this desk-saving option is available." },
   { q: "Is a barebone mini PC a good choice for a small desk?", a: "Yes, if you want to choose your own RAM and storage, but factor in the added component cost when comparing total price." },
-  { q: "Do I need a powerful chip for a small-desk mini PC?", a: "Most everyday workflows handle well without the highest-end chip tier, match processor tier to your realistic needs." },
+  { q: "Do I need a powerful chip for a small-desk mini PC?", a: "Most everyday workflows handle well without the highest-end chip tier, match processor tier to your realistic needs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pcs-with-vesa-mounts", title: "Best Mini PCs with VESA Mounts (2026)" },
   { href: "/guide/best-smallest-mini-pcs", title: "Best Smallest Mini PCs (2026)" },
-  { href: "/guide/best-mini-pcs-under-300", title: "Best Mini PCs Under $300 (2026)" },
+  { href: "/guide/best-mini-pcs-under-300", title: "Best Mini PCs Under $300 (2026)" }
 ];

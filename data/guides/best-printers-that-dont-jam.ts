@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "printer that doesn't jam";
 export const introParagraphs = [
   "No printer maker publishes a verified jam rate, and no independent lab tracks one either, so any list claiming a specific model 'never jams' is guessing. What we can evaluate honestly is mechanism: feed path design, tray construction, and roller quality all affect how often a printer jams, and those details are usually buried in spec sheets rather than the marketing copy.",
-  "Below are 8 printers we evaluated on feed path design, tray build quality, and paper handling features that reduce jam risk, alongside honest context on the causes that have nothing to do with which printer you buy: humidity, overfilled trays, mixed paper weights, and normal roller wear over time.",
+  "Below are 8 printers we evaluated on feed path design, tray build quality, and paper handling features that reduce jam risk, alongside honest context on the causes that have nothing to do with which printer you buy: humidity, overfilled trays, mixed paper weights, and normal roller wear over time."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "250-sheet paper tray",
       "Duplex printing",
       "Wireless + mobile printing",
-      "Works with Alexa",
+      "Works with Alexa"
     ],
     pros: [
       "Laser engine tolerates a wider paper weight range than inkjet",
       "Large tray reduces refill-related overfilling",
       "Duplex printing built in",
-      "No idle-ink risk affecting feed rollers",
+      "No idle-ink risk affecting feed rollers"
     ],
     cons: [
       "Monochrome only",
       "Higher upfront price than the inkjet picks",
-      "Still requires proper paper storage to avoid humidity-related jams",
+      "Still requires proper paper storage to avoid humidity-related jams"
     ],
     bestFor: "A home office wanting laser reliability for high text-document volume",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "19ppm rated output",
       "250-sheet paper tray",
       "Duplex printing",
-      "Mobile device compatible",
+      "Mobile device compatible"
     ],
     pros: [
       "Steady feed pace at rated speed",
       "Large tray capacity",
       "Duplex printing standard",
-      "Laser paper tolerance advantage",
+      "Laser paper tolerance advantage"
     ],
     cons: [
       "Color toner costs more to replace than mono",
       "Highest price in this list",
-      "Heavier and larger footprint than the compact inkjets",
+      "Heavier and larger footprint than the compact inkjets"
     ],
     bestFor: "A home office that needs occasional color output with laser-grade paper handling",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Automatic 2-sided printing",
       "2.7\" color touchscreen",
       "INKvestment ink tank cartridges",
-      "Auto document copy and scan",
+      "Auto document copy and scan"
     ],
     pros: [
       "Touchscreen helps catch misfeeds early",
       "Duplex printing built in",
       "Larger ink cartridges than standard inkjets",
-      "Color output for documents and photos",
+      "Color output for documents and photos"
     ],
     cons: [
       "Curved inkjet feed path is more humidity-sensitive than laser",
       "Rollers can wear faster under heavy volume",
-      "Pricier than the entry inkjets in this list",
+      "Pricier than the entry inkjets in this list"
     ],
     bestFor: "A home office wanting inkjet color with easier misfeed troubleshooting",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Single-tray feed path",
       "Wireless printing",
       "Scan and copy included",
-      "Budget ink tank pricing",
+      "Budget ink tank pricing"
     ],
     pros: [
       "No cartridge obstruction risk",
       "Simple, predictable single feed path",
       "Lower long-run ink cost",
-      "Compact for a small desk",
+      "Compact for a small desk"
     ],
     cons: [
       "No rear straight-through slot for thick stock",
       "Single tray means more frequent refilling on high volume",
-      "Basic feature set versus pricier picks",
+      "Basic feature set versus pricier picks"
     ],
     bestFor: "Light-to-moderate everyday printing on standard paper only",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Automatic document feeder",
       "Ethernet + wireless connectivity",
       "Scan, copy, fax included",
-      "Duplex printing",
+      "Duplex printing"
     ],
     pros: [
       "ADF separates multi-page originals cleanly",
       "Ethernet option avoids wireless-related job stalls",
       "Low long-run ink cost",
-      "Fax included if needed",
+      "Fax included if needed"
     ],
     cons: [
       "ADF requires undamaged, unstapled originals to avoid jams",
       "Larger footprint than the ET-2800",
-      "Basic scan resolution for dense documents",
+      "Basic scan resolution for dense documents"
     ],
     bestFor: "A home office that regularly scans or copies multi-page documents",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Built-in fax",
       "Standard cartridge inkjet",
       "Mobile printing support",
-      "Lowest price with ADF in this list",
+      "Lowest price with ADF in this list"
     ],
     pros: [
       "ADF included at a budget price",
       "Simple cartridge feed mechanism",
       "Compact for tight desk space",
-      "Low upfront cost",
+      "Low upfront cost"
     ],
     cons: [
       "Lighter-duty rollers wear faster under heavy use",
       "Standard cartridges carry idle-ink drying risk",
-      "Not built for high sustained volume",
+      "Not built for high sustained volume"
     ],
     bestFor: "Light home use where a low price and basic ADF matter more than long-term roller durability",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Single-tray feed path, no ADF",
       "Standard cartridge inkjet",
       "3-month Instant Ink trial included",
-      "Compact footprint",
+      "Compact footprint"
     ],
     pros: [
       "Simple single feed path, fewer failure points",
       "Compact for small desks",
       "Low upfront cost",
-      "Easy setup",
+      "Easy setup"
     ],
     cons: [
       "No ADF for multi-page scanning",
       "Standard cartridges, higher cost per page",
-      "Basic build quality versus the laser picks",
+      "Basic build quality versus the laser picks"
     ],
     bestFor: "A single-user desk that mostly prints one page at a time",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "1.8\" color display",
       "Wireless all-in-one",
       "LC501 series ink cartridges",
-      "Mid-budget pricing",
+      "Mid-budget pricing"
     ],
     pros: [
       "Display surfaces feed alerts quickly",
       "Duplex printing included",
       "Reasonable price for the feature set",
-      "Wireless setup is straightforward",
+      "Wireless setup is straightforward"
     ],
     cons: [
       "Duplex jobs add a second feed pass per sheet",
       "Standard cartridges, ongoing ink cost",
-      "Not built for heavy sustained volume",
+      "Not built for heavy sustained volume"
     ],
     bestFor: "A home office wanting duplex printing and jam alerts without a laser price tag",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Honest jam-risk framing",
     description: "Avoided claiming any specific model has a verified low jam rate, since no manufacturer or independent lab publishes that data; focused instead on documented mechanism-level design factors.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,11 +477,11 @@ export const faq: FaqItem[] = [
   {
     q: "Does an automatic document feeder increase jam risk?",
     a: "An ADF adds a jam point if fed stapled pages, torn edges, or a stack exceeding its rated sheet capacity, but a well-designed ADF that separates sheets individually is otherwise a reliable way to scan multi-page originals. Removing staples and straightening damaged corners before scanning reduces this risk significantly.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-home-offices", title: "Best Printers for Home Offices (2026)" },
   { href: "/guide/best-easy-to-use-printers", title: "Best Easy-to-Use Printers (2026)" },
-  { href: "/guide/best-printers-for-home-use", title: "Best Printers for Home Use (2026)" },
+  { href: "/guide/best-printers-for-home-use", title: "Best Printers for Home Use (2026)" }
 ];

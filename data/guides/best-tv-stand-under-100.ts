@@ -123,7 +123,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["43-55 inch", "PRAISUN 54 Inch Fluted TV Stand"],
         ["55-60 inch", "DUMOS TV Stand or HAPPYMONT TV Stand"],
-        ["Up to 100 inch", "Heavy Duty Floor TV Stand for 50-100 Inch TVs"],
+        ["Up to 100 inch", "Heavy Duty Floor TV Stand for 50-100 Inch TVs"]
       ],
     },
   },
@@ -132,9 +132,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $60", "PERLESMITH Rolling TV Stand ($49.99) or HAPPYMONT TV Stand ($64.97)"],
-        ["$70-$90", "DUMOS TV Stand ($75.99) or Heavy Duty Floor TV Stand ($89.99)"],
-        ["$90-$100", "PRAISUN 54 Inch Fluted TV Stand ($94.99)"],
+        ["Under $60", "PERLESMITH Rolling TV Stand (under $50) or HAPPYMONT TV Stand (under $70)"],
+        ["$70-$90", "DUMOS TV Stand (under $80) or Heavy Duty Floor TV Stand (under $90)"],
+        ["$90-$100", "PRAISUN 54 Inch Fluted TV Stand (under $100)"]
       ],
     },
   },
@@ -142,7 +142,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Floor Stand vs Console Stand",
     cards: [
       { label: "Floor Stand (Heavy Duty Floor TV Stand)", text: "No wall drilling required, wider TV size range, and a much higher weight capacity, but no enclosed storage, only an open accessory shelf. Best for renters or anyone with a large TV." },
-      { label: "Console Stand (DUMOS, PRAISUN, HAPPYMONT)", text: "Enclosed cabinets keep gear out of sight and add real furniture presence to a room, but cover a narrower TV size range and generally lower weight capacity. Best for a fixed living room or bedroom setup." },
+      { label: "Console Stand (DUMOS, PRAISUN, HAPPYMONT)", text: "Enclosed cabinets keep gear out of sight and add real furniture presence to a room, but cover a narrower TV size range and generally lower weight capacity. Best for a fixed living room or bedroom setup." }
     ],
     note: "Most buyers with a TV over 65 inches should default to a floor stand, while those with a 55-60 inch TV wanting storage should pick a console style.",
   },
@@ -152,7 +152,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Priority", "Recommended pick"],
       rows: [
         ["Moving the TV between rooms regularly", "PERLESMITH Rolling TV Stand"],
-        ["Fixed placement in one room", "Any of the console-style stands"],
+        ["Fixed placement in one room", "Any of the console-style stands"]
       ],
     },
   },
@@ -160,16 +160,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Robot Vacuum Owners Specifically",
     cards: [
       { label: "Look for", text: "A specific stated floor clearance in inches, not just a general \"open underneath\" description, since vague wording doesn't confirm your specific robot vacuum's height will actually clear it." },
-      { label: "In this comparison", text: "The PRAISUN 54 Inch Fluted TV Stand states an exact 5.3 inch clearance, giving a concrete number to check against your vacuum's height, more useful than the DUMOS pick's general robot-vacuum-friendly claim." },
+      { label: "In this comparison", text: "The PRAISUN 54 Inch Fluted TV Stand states an exact 5.3 inch clearance, giving a concrete number to check against your vacuum's height, more useful than the DUMOS pick's general robot-vacuum-friendly claim." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You have a large TV, 65 inches or bigger, where the Heavy Duty Floor TV Stand's 220 lb capacity and wide VESA range provide real safety margin that a cheaper, lower-rated console stand doesn't." },
-      { label: "Save if", text: "Your TV is 60 inches or smaller and you don't need enclosed storage, where the PERLESMITH Rolling TV Stand covers the need at roughly half the price of the pricier console options." },
+      { label: "Save if", text: "Your TV is 60 inches or smaller and you don't need enclosed storage, where the PERLESMITH Rolling TV Stand covers the need at roughly half the price of the pricier console options." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

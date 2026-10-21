@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "sealed laptop cooling pads";
 export const introParagraphs = [
   "The word 'sealed' is ambiguous in this product category, and it's worth clearing up before you buy. It could mean a dust or water resistance rating on the fan mechanism itself, an IP rating in other words, or it could mean a foam gasket that presses against the laptop's underside to create an air pressure seal, which forces more of the fan's airflow through the laptop's actual vents instead of leaking out the sides. Based on our research, every genuinely 'sealed' product in this category uses the second meaning: a foam pressure seal, not a water or dust ingress rating.",
-  "This guide covers seven pads that explicitly describe a foam seal, sealing ring, or airtight pressure chamber in their own listings. None of them claim IP-rated water or dust resistance for the fan or electronics, so don't assume 'sealed' protects the pad itself from spills or dust, it protects and directs the airflow reaching your laptop.",
+  "This guide covers seven pads that explicitly describe a foam seal, sealing ring, or airtight pressure chamber in their own listings. None of them claim IP-rated water or dust resistance for the fan or electronics, so don't assume 'sealed' protects the pad itself from spills or dust, it protects and directs the airflow reaching your laptop."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "10 min";
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Sealing claim verification", description: "We only included pads whose own listing describes a foam seal, sealing ring, or airtight pressure chamber. We excluded pads that mention 'sealed' loosely without a matching feature description." },
   { title: "Clarified sealing's actual meaning", description: "We confirmed in each case that 'sealed' refers to an airflow pressure gasket against the laptop base, not an IP rating for water or dust resistance of the fan or electronics." },
   { title: "Sealing versus dust filtration as separate features", description: "Where a listing included both a seal and a dust filter, we treated them as two distinct components rather than assuming one implies the other." },
-  { title: "Noise and power tradeoffs at sealed pressure", description: "We compared documented noise levels and power source (USB versus external adapter) since higher sealed pressure and fan speed generally correlate with more noise." },
+  { title: "Noise and power tradeoffs at sealed pressure", description: "We compared documented noise levels and power source (USB versus external adapter) since higher sealed pressure and fan speed generally correlate with more noise." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -275,11 +275,11 @@ export const faq: FaqItem[] = [
   { q: "Can a sealed cooling pad design actually reduce cooling if done wrong?", a: "Yes, if 'sealed' means a fully enclosed, non-vented body rather than a foam pressure gasket against the laptop. That kind of design can trap heat. All the picks in this guide use a foam-gasket approach that directs airflow rather than blocking it." },
   { q: "Is a frame-specific seal better than a universal one?", a: "Generally yes, because it creates tighter contact pressure. The Razer pick's three magnetic frames are the clearest example of frame-specific sealing in this guide, versus the more general-purpose seals on the IETS and llano picks." },
   { q: "Do sealed cooling pads also filter dust?", a: "Some do, but it's a separate feature, not implied by sealing. The llano V12 variants and the IETS GT300 explicitly include dust filtration alongside their sealing components." },
-  { q: "Are sealed cooling pads louder than unsealed ones?", a: "Not inherently, but in this guide the pads with the strongest sealing and highest fan RPM also report the highest noise levels, up to 65dB at maximum speed on the loudest pick." },
+  { q: "Are sealed cooling pads louder than unsealed ones?", a: "Not inherently, but in this guide the pads with the strongest sealing and highest fan RPM also report the highest noise levels, up to 65dB at maximum speed on the loudest pick." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-cooling-pads-with-dust-filters", title: "Best Laptop Cooling Pads with Dust Filters (2026)" },
   { href: "/guide/best-high-rpm-laptop-cooling-pads", title: "Best High-RPM Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-powerful-laptop-cooling-pads", title: "Best Powerful Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-powerful-laptop-cooling-pads", title: "Best Powerful Laptop Cooling Pads (2026)" }
 ];

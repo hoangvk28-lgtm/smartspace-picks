@@ -5,7 +5,7 @@ export const metaDescription = "5 desk-mounted surge protectors we evaluated, wi
 export const mainKeyword = "surge protector desk mount";
 export const introParagraphs = [
   "Mounting position affects how easily a buyer notices and responds to a tripped surge protector, many units have a reset button after tripping from a significant event, and a poorly positioned mount can leave a tripped, non-functioning surge protector unnoticed for an extended period.",
-  "The install-and-forget nature of desk-mounted or wall-mounted surge protectors works against proactive replacement guidance, a fixed-mount unit is statistically less likely to be replaced on a reasonable schedule than a surface-sitting unit a user regularly notices and considers replacing.",
+  "The install-and-forget nature of desk-mounted or wall-mounted surge protectors works against proactive replacement guidance, a fixed-mount unit is statistically less likely to be replaced on a reasonable schedule than a surface-sitting unit a user regularly notices and considers replacing."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Damage-Free Desk-Mounted Surge Protector",
     name: "Jgstkcity Desk Clamp Power Strip USB C, 40W Total Fast Charging Station, 4 PD 20W USB C Ports, Desk Edge Mount Surge Protector, 5 Outlets, Fit 1.96\" Tabletop Edge, ETL Listed",
     price: "$32.99",
-    rating: "4.6 stars from 4,340 Amazon ratings",
-    reviews: "4,340 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31g5Q1uDYCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXP2ZTWB?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Desk-Mounted Pick",
     name: "Mifaso PD30W Desk Clamp Power Strip, Surge Protector, Fast Charging Station",
     price: "$23.99",
-    rating: "4.7 stars from 769 Amazon ratings",
-    reviews: "769 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31vu7nVrV6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCZFXDDS?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity Desk-Adjacent Pick",
     name: "Power Strip, ALESTOR Surge Protector with 12 Outlets and 4 USB Ports, 6 Feet Extension Cord, 2700 Joules, ETL Listed, Black",
     price: "$21.98",
-    rating: "4.8 stars from 50,501 Amazon ratings",
-    reviews: "50,501 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41PsJYHqW7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08P5LRY37?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Wattage Desk-Mounted Pick",
     name: "Jgstkcity Desk Clamp Power Strip, 45W Fast Charging Station, 4 USB-C, 4 USB-A, Desk Mount Surge Protector, 1875W Extension Cord with Multiple Outlets, ETL Listed, for Home Office Dorm Room",
     price: "$39.99",
-    rating: "4.4 stars from 551 Amazon ratings",
-    reviews: "551 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31WV5ahbGyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBSTDM5D?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best UL-Listed Fixed-Position Pick",
     name: "Belkin 12-Outlet Surge Protector Power Strip w/ 12 AC Outlets & 8ft Flat Plug, UL-Listed Heavy-Duty Extension Cord for Home, Office, Travel, Computer, Laptop, Charger - 3,780 Joules of Protection",
     price: "$28.95",
-    rating: "4.8 stars from 3,281 Amazon ratings",
-    reviews: "3,281 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/415tn9cXV7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6S6TPRH?tag=deskfinds0d-20",
     description:
@@ -110,7 +110,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Mounting position and indicator visibility relative to seating", description: "Considered whether the mounted position keeps the indicator light within easy sightline versus hidden, since this matters more for a surge protector than a basic power strip." },
   { title: "Renter-friendly clamp mounting paired with genuine surge protection", description: "Highlighted picks that combine damage-free clamp mounting with real surge protection as a coordinated pairing, rather than treating mounting method and protection as unrelated feature axes." },
-  { title: "Install-and-forget replacement-schedule risk flagged explicitly", description: "Noted that a fixed-mount surge protector is statistically less likely to be proactively replaced on a reasonable schedule than a surface-sitting unit a user regularly notices." },
+  { title: "Install-and-forget replacement-schedule risk flagged explicitly", description: "Noted that a fixed-mount surge protector is statistically less likely to be proactively replaced on a reasonable schedule than a surface-sitting unit a user regularly notices." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Do mounted surge protectors get replaced as often as they should?", a: "Often not. The install-and-forget nature of a mounted unit makes it statistically less likely to be proactively replaced on a reasonable schedule than a surface-sitting unit you regularly notice, set an explicit reminder." },
   { q: "Does mounting a surge protector on a standing desk create extra risk?", a: "Yes, the same cable-strain concern from repeated height adjustment applies, and it matters more here since it stresses connections on a surge-protection device where connection integrity affects whether the protection circuitry functions correctly." },
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers who want damage-free desk-edge mounting with better indicator visibility than under-desk" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who need maximum outlet capacity and will DIY their fixed positioning At $21.98, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who need maximum outlet capacity and will DIY their fixed positioning At under $25, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-under-desk-surge-protectors", title: "Best Under-Desk Surge Protectors (2026)" },
   { href: "/guide/best-desktop-surge-protectors", title: "Best Desktop Surge Protectors (2026)" },
-  { href: "/guide/best-desk-mounted-power-strips", title: "Best Desk-Mounted Power Strips (2026)" },
+  { href: "/guide/best-desk-mounted-power-strips", title: "Best Desk-Mounted Power Strips (2026)" }
 ];

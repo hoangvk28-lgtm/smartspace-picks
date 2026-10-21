@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41gLGponXLL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GHN5JMLP?tag=deskfinds0d-20",
-    "description": "Arrvel Bluetooth Thermal Label Printer w/ Stand leads with [ quick bluetooth & app, backed by [ usb cable connectivity ], a combination aimed at as a label printer built for a specific volume and label type rather than general-purpose use.\n\nSitting at $49.99, the top of this comparison's price range, it asks buyers to confirm the added capability is actually worth it over the more affordable picks here before paying the premium.\n\nArrvel Bluetooth Thermal Label Printer w/ Stand is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "Arrvel Bluetooth Thermal Label Printer w/ Stand leads with [ quick bluetooth & app, backed by [ usb cable connectivity ], a combination aimed at as a label printer built for a specific volume and label type rather than general-purpose use.\n\nSitting at under $50, the top of this comparison's price range, it asks buyers to confirm the added capability is actually worth it over the more affordable picks here before paying the premium.\n\nArrvel Bluetooth Thermal Label Printer w/ Stand is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "[ Quick Bluetooth & App",
       "[ USB Cable Connectivity ]",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41OtuCF7s2L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CFY3YQP8?tag=deskfinds0d-20",
-    "description": "Jiose Shipping Label Printer leads with connect phone via bluetooth, backed by connect computer via usb, a combination aimed at as a label printer built for a specific volume and label type rather than general-purpose use.\n\nIt lands between Rongta Bluetooth Label Maker Machine's $9.99 price floor and Arrvel Bluetooth Thermal Label Printer w/ Stand's $49.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nJiose Shipping Label Printer is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "Jiose Shipping Label Printer leads with connect phone via bluetooth, backed by connect computer via usb, a combination aimed at as a label printer built for a specific volume and label type rather than general-purpose use.\n\nIt lands between Rongta Bluetooth Label Maker Machine's under $10 price floor and Arrvel Bluetooth Thermal Label Printer w/ Stand's under $50 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nJiose Shipping Label Printer is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Connect Phone Via Bluetooth",
       "Connect Computer Via USB",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41KrxVpaLVL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FLHSPH17?tag=deskfinds0d-20",
-    "description": "SVANTTO Bluetooth Thermal Label Printer leads with dual connectivity options, backed by fast & clear printing, a combination aimed at as a label printer built for a specific volume and label type rather than general-purpose use.\n\nIt lands between Rongta Bluetooth Label Maker Machine's $9.99 price floor and Arrvel Bluetooth Thermal Label Printer w/ Stand's $49.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nSVANTTO Bluetooth Thermal Label Printer is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "SVANTTO Bluetooth Thermal Label Printer leads with dual connectivity options, backed by fast & clear printing, a combination aimed at as a label printer built for a specific volume and label type rather than general-purpose use.\n\nIt lands between Rongta Bluetooth Label Maker Machine's under $10 price floor and Arrvel Bluetooth Thermal Label Printer w/ Stand's under $50 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nSVANTTO Bluetooth Thermal Label Printer is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Dual Connectivity Options",
       "Fast & Clear Printing",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/419CI8pWkvL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0G11CQFHK?tag=deskfinds0d-20",
-    "description": "What stands out on Rongta 4x6 Bluetooth Thermal Label Printer is label maker for shipping labels, alongside supports multiple-size wide wireless printing, which is the main reason it earns a spot in this label printers comparison.\n\nCompared to Rongta Bluetooth Label Maker Machine at $9.99, it costs more for real added capability, while sitting well below Arrvel Bluetooth Thermal Label Printer w/ Stand at $49.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "What stands out on Rongta 4x6 Bluetooth Thermal Label Printer is label maker for shipping labels, alongside supports multiple-size wide wireless printing, which is the main reason it earns a spot in this label printers comparison.\n\nCompared to Rongta Bluetooth Label Maker Machine at under $10, it costs more for real added capability, while sitting well below Arrvel Bluetooth Thermal Label Printer w/ Stand at under $50 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Label maker for Shipping labels",
       "supports multiple-size wide wireless printing",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41I1aB9aV7L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FRMC55L5?tag=deskfinds0d-20",
-    "description": "Rongta Bluetooth Thermal Shipping Label Printer is built around phone/tablet start print, paired with pc start print, positioning it as a label printer built for a specific volume and label type rather than general-purpose use.\n\nIt lands between Rongta Bluetooth Label Maker Machine's $9.99 price floor and Arrvel Bluetooth Thermal Label Printer w/ Stand's $49.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nRongta Bluetooth Thermal Shipping Label Printer is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "Rongta Bluetooth Thermal Shipping Label Printer is built around phone/tablet start print, paired with pc start print, positioning it as a label printer built for a specific volume and label type rather than general-purpose use.\n\nIt lands between Rongta Bluetooth Label Maker Machine's under $10 price floor and Arrvel Bluetooth Thermal Label Printer w/ Stand's under $50 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nRongta Bluetooth Thermal Shipping Label Printer is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Phone/Tablet Start Print",
       "PC Start Print",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41gJX4Y4d6L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DJQMXWW6?tag=deskfinds0d-20",
-    "description": "POLONO PM220S Label Maker Machine with Tape leads with easy to use, backed by interesting screen display, a combination aimed at as a label printer built for a specific volume and label type rather than general-purpose use.\n\nCompared to Rongta Bluetooth Label Maker Machine at $9.99, it costs more for real added capability, while sitting well below Arrvel Bluetooth Thermal Label Printer w/ Stand at $49.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "POLONO PM220S Label Maker Machine with Tape leads with easy to use, backed by interesting screen display, a combination aimed at as a label printer built for a specific volume and label type rather than general-purpose use.\n\nCompared to Rongta Bluetooth Label Maker Machine at under $10, it costs more for real added capability, while sitting well below Arrvel Bluetooth Thermal Label Printer w/ Stand at under $50 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Easy to Use",
       "Interesting Screen Display",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/410flzZ3JLL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0F4XVKCQH?tag=deskfinds0d-20",
-    "description": "What stands out on Zodzi Label Maker is inkless 3d embossed label makers machine, alongside features and details, which is the main reason it earns a spot in this label printers comparison.\n\nIt lands between Rongta Bluetooth Label Maker Machine's $9.99 price floor and Arrvel Bluetooth Thermal Label Printer w/ Stand's $49.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nZodzi Label Maker is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on Zodzi Label Maker is inkless 3d embossed label makers machine, alongside features and details, which is the main reason it earns a spot in this label printers comparison.\n\nIt lands between Rongta Bluetooth Label Maker Machine's under $10 price floor and Arrvel Bluetooth Thermal Label Printer w/ Stand's under $50 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nZodzi Label Maker is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Inkless 3D Embossed Label Makers Machine",
       "Features and details",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51fAFb2hntL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GJTX57BT?tag=deskfinds0d-20",
-    "description": "Rongta Bluetooth Label Maker Machine is built around easy bluetooth connectivity, paired with inkless label maker, positioning it as a label printer built for a specific volume and label type rather than general-purpose use.\n\nPriced at $9.99, the lowest in this lineup, it trades some of the extras found on pricier picks here for a lower upfront cost, a reasonable tradeoff if your needs are basic.\n\nRongta Bluetooth Label Maker Machine is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "Rongta Bluetooth Label Maker Machine is built around easy bluetooth connectivity, paired with inkless label maker, positioning it as a label printer built for a specific volume and label type rather than general-purpose use.\n\nPriced at under $10, the lowest in this lineup, it trades some of the extras found on pricier picks here for a lower upfront cost, a reasonable tradeoff if your needs are basic.\n\nRongta Bluetooth Label Maker Machine is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Easy Bluetooth Connectivity",
       "Inkless Label Maker",
@@ -325,35 +325,35 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $9.99",
+          "Under $10",
           "Rongta Bluetooth Label Maker Machine"
         ],
         [
-          "Around $13.98",
+          "Under $15",
           "Zodzi Label Maker"
         ],
         [
-          "Around $29.99",
+          "Under $30",
           "POLONO PM220S Label Maker Machine with Tape"
         ],
         [
-          "Around $35.99",
+          "Under $40",
           "Rongta Bluetooth Thermal Shipping Label Printer"
         ],
         [
-          "Around $44.85",
+          "Under $45",
           "Rongta 4x6 Bluetooth Thermal Label Printer"
         ],
         [
-          "Around $44.99",
+          "Under $45",
           "SVANTTO Bluetooth Thermal Label Printer"
         ],
         [
-          "Around $46.50",
+          "Under $50",
           "Jiose Shipping Label Printer"
         ],
         [
-          "Around $49.99",
+          "Under $50",
           "Arrvel Bluetooth Thermal Label Printer w/ Stand"
         ]
       ]
@@ -364,11 +364,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Rongta Bluetooth Label Maker Machine",
-        "text": "The lowest-priced pick in this comparison at $9.99, a solid choice if you don't need the extras the pricier picks carry."
+        "text": "The lowest-priced pick in this comparison at under $10, a solid choice if you don't need the extras the pricier picks carry."
       },
       {
         "label": "Arrvel Bluetooth Thermal Label Printer w/ Stand",
-        "text": "The highest-priced pick at $49.99, worth it only if you'll actually use what that premium buys."
+        "text": "The highest-priced pick at under $50, worth it only if you'll actually use what that premium buys."
       }
     ],
     "note": "Default to Rongta Bluetooth Label Maker Machine unless the pricier pick's specific advantage genuinely applies to your situation."
@@ -428,7 +428,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "What's the real difference between the cheapest and most expensive pick here?",
-    "a": "Rongta Bluetooth Label Maker Machine at $9.99 covers the basics, while Arrvel Bluetooth Thermal Label Printer w/ Stand at $49.99 adds faster print speed and broader connectivity options. Whether that's worth the difference depends on your actual printing volume, since speed and durability matter far more at business-level volume than for occasional personal use."
+    "a": "Rongta Bluetooth Label Maker Machine at under $10 covers the basics, while Arrvel Bluetooth Thermal Label Printer w/ Stand at under $50 adds faster print speed and broader connectivity options. Whether that's worth the difference depends on your actual printing volume, since speed and durability matter far more at business-level volume than for occasional personal use."
   },
   {
     "q": "Do I need thermal transfer, or is direct thermal fine?",
@@ -440,7 +440,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "Is there a solid middle-ground pick in this price range?",
-    "a": "Rongta 4x6 Bluetooth Thermal Label Printer at $44.85 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
+    "a": "Rongta 4x6 Bluetooth Thermal Label Printer at under $45 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
   },
   {
     "q": "What's the most common mistake buyers make shopping label printers under $50?",

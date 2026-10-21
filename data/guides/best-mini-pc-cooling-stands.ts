@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini PC cooling stands";
 export const introParagraphs = [
   "Mini PC cooling stands exist to address a specific problem: compact computers can reduce sustained performance when internal temperatures rise during long CPU or GPU workloads. A stand is useful only when it improves airflow around the Mini PC's real intake and exhaust locations, so vent alignment matters more than a generic claim that the stand improves cooling.",
-  "This guide compares seven stands based on vent alignment, passive versus active design, material conductivity, and structural stability. This is the broad stand guide in this batch, while our active-fan and passive-only guides narrow the same category into specific cooling approaches.",
+  "This guide compares seven stands based on vent alignment, passive versus active design, material conductivity, and structural stability. This is the broad stand guide in this batch, while our active-fan and passive-only guides narrow the same category into specific cooling approaches."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "9 min";
@@ -33,7 +33,7 @@ export const products: GuideProduct[] = [
     description: "This stand offers a genuine dual-mode design: run it passive with the aluminum body alone, or flip a switch to add a 120mm fan for sustained workloads. The listing states a 14 to 36 degree Fahrenheit reduction under passive cooling, with the fan available for heavier loads.\n\nIt earns the top spot in this comparison over Quiet 120mm USB Fan for one main reason. Switch lets you choose passive silence or active airflow. On price, it's actually priced above Quiet 120mm USB Fan, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: USB passthrough avoids losing a port. On the other side, No documented before/after temperature test beyond the manufacturer's own figures. That's the main tradeoff to weigh against everything above.",
     specs: ["Aluminum alloy body","120mm 2000 RPM fan (switchable on/off)","6.69\" x 5.71\" x 1.77\"","USB passthrough port","1.1 lbs"],
     pros: ["Switch lets you choose passive silence or active airflow","USB passthrough avoids losing a port","Compact footprint for most Mini PCs","Replaceable fan design"],
-    cons: ["Fan is audible at full speed per the listing","3.7-star average is lower than most other picks here, worth reading reviews before buying","No documented before/after temperature test beyond the manufacturer's own figures"],
+    cons: ["Fan is audible at full speed per the listing","No documented before/after temperature test beyond the manufacturer's own figures"],
     bestFor: "Buyers who want the flexibility to switch between silent passive cooling and active airflow on the same stand.",
   },
   {
@@ -46,10 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "19",
     imageUrl: "https://m.media-amazon.com/images/I/41rvTsVvGiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FJLK2894?tag=deskfinds0d-20",
-    description: "This stand pairs aerospace-grade aluminum with a 12025 fan rated at 2000 RPM, and the listing specifically calls out Mac mini, routers, and Mini PCs as intended devices. It states an 8 to 20 degree Celsius reduction under passive cooling alone, with the fan adding active airflow for heavier loads.\n\nOne spot below Aluminum Mini PC Cooler Stand with 120mm Fan in this ranking, it's priced lower than Aluminum Mini PC Cooler Stand with 120mm Fan. The compromise here is straightforward: Smaller reviewer base (19 ratings) than some other picks. What you gain in return: Explicitly compatible with Mac mini and similar Mini PC chassis. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Adjustable fan speed to balance noise and airflow. On the other side, 1 lb weight means it can shift on a slick desk without a non-slip mat. That's the main tradeoff to weigh against everything above.",
+    description: "This stand pairs aerospace-grade aluminum with a 12025 fan rated at 2000 RPM, and the listing specifically calls out Mac mini, routers, and Mini PCs as intended devices. It states an 8 to 20 degree Celsius reduction under passive cooling alone, with the fan adding active airflow for heavier loads.\n\nOne spot below Aluminum Mini PC Cooler Stand with 120mm Fan in this ranking, it's priced lower than Aluminum Mini PC Cooler Stand with 120mm Fan. What you gain in return: Explicitly compatible with Mac mini and similar Mini PC chassis. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Adjustable fan speed to balance noise and airflow. On the other side, 1 lb weight means it can shift on a slick desk without a non-slip mat. That's the main tradeoff to weigh against everything above.",
     specs: ["Aerospace-grade aluminum","12025 fan, 2000 RPM, speed control switch","7.2\" x 5.71\" x 1.77\"","USB pass-through port","48kg rated load capacity"],
     pros: ["Explicitly compatible with Mac mini and similar Mini PC chassis","Adjustable fan speed to balance noise and airflow","USB pass-through preserves a port","Includes a spare parts kit"],
-    cons: ["Smaller reviewer base (19 ratings) than some other picks","Passive-mode cooling claim is manufacturer-stated, not independently verified","1 lb weight means it can shift on a slick desk without a non-slip mat"],
+    cons: ["Passive-mode cooling claim is manufacturer-stated, not independently verified","1 lb weight means it can shift on a slick desk without a non-slip mat"],
     bestFor: "Mac mini and similar boxy Mini PC owners who want a stand explicitly marketed for their chassis shape.",
   },
   {
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Thermal problem relevance", description: "We evaluated whether each stand addresses sustained-load heat buildup rather than treating cooling as a cosmetic desk accessory." },
   { title: "Compatibility by vent layout and chassis", description: "We compared stand openings, fan placement, and support points against the way different Mini PCs and Mac mini/NUC/Beelink chassis draw in and exhaust air, and flagged device-specific mounts clearly." },
   { title: "Cooling evidence quality", description: "We gave more weight to documented sustained-load temperature comparisons where the listing provided one and treated unsupported cooling claims as manufacturer-stated, not independently verified." },
-  { title: "Noise and construction tradeoffs", description: "We compared passive and active designs, material choice, fan control, and frame stability as linked rather than separate decisions." },
+  { title: "Noise and construction tradeoffs", description: "We compared passive and active designs, material choice, fan control, and frame stability as linked rather than separate decisions." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -275,11 +275,11 @@ export const faq: FaqItem[] = [
   { q: "Does any cooling stand fit any Mini PC?", a: "No. Vent placement and chassis shape vary between Mini PCs, and several stands in this guide, like the ElecGear iNUC-K and CaSZLUTION stand, are built for one specific brand and generation. Check compatibility carefully before buying." },
   { q: "Is an active stand always better than a passive stand?", a: "No. Active airflow usually offers more cooling headroom, but it also adds fan noise and power use. A passive stand can be the better choice for lighter workloads and noise-sensitive desks." },
   { q: "Is aluminum automatically better than plastic or acrylic?", a: "Not automatically. Aluminum has better heat-conducting potential, but airflow alignment and actual contact still determine whether that material advantage matters in practice." },
-  { q: "What evidence should I look for before buying?", a: "Look for a specific noise rating in dBA or a stated temperature drop with test conditions. Vague claims like 'improves cooling' with no numbers are weaker evidence than verified buyer feedback." },
+  { q: "What evidence should I look for before buying?", a: "Look for a specific noise rating in dBA or a stated temperature drop with test conditions. Vague claims like 'improves cooling' with no numbers are weaker evidence than verified buyer feedback." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pc-stands-with-fans", title: "Best Mini PC Stands with Fans (2026)" },
   { href: "/guide/best-passive-mini-pc-cooling-stands", title: "Best Passive Mini PC Cooling Stands (2026)" },
-  { href: "/guide/best-aluminum-mini-pc-cooling-stands", title: "Best Aluminum Mini PC Cooling Stands (2026)" },
+  { href: "/guide/best-aluminum-mini-pc-cooling-stands", title: "Best Aluminum Mini PC Cooling Stands (2026)" }
 ];

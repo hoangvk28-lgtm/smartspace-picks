@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $109.00",
+          "Under $110",
           "ALLPOWERS VOLIX P300 Portable Power Station"
         ],
         [
-          "Around $129.98",
+          "Under $130",
           "ZeroKor Portable Power Station 300W"
         ],
         [
-          "Around $129.99",
+          "Under $130",
           "GRECELL Portable Power Station 330W"
         ],
         [
-          "Around $185.99",
+          "Under $190",
           "POWKEY R600 Portable Power Station"
         ],
         [
-          "Around $189.96",
+          "Under $190",
           "ZeroKor 300W Portable Power Station with 60W Solar Panel Included"
         ],
         [
-          "Around $199.99",
+          "Under $200",
           "Daran Portable Power Station 600W (1200W Surge)"
         ],
         [
-          "Around $284.98",
+          "Under $300",
           "GRECELL 999Wh Solar Generator 1000W Portable Power Station"
         ],
         [
-          "Around $289.99",
+          "Under $300",
           "GRECELL 999Wh Portable Power Station 1000W for Outdoor & Home"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "ZeroKor Portable Power Station 300W is aimed at buyers prioritizing 280wh, 300w max, ~5 lbs." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "ZeroKor Portable Power Station 300W is aimed at buyers prioritizing 280wh, 300w max, ~5 lbs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-budget-portable-power-stations","title":"Best Budget Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-under-200","title":"Best Portable Power Stations Under $200 in 2026"},{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"}];

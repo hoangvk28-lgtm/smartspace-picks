@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "bookshelf with drawers";
 export const introParagraphs = [
   "A bookshelf with drawers gives you open shelving for display plus enclosed storage for the smaller items you'd rather not have on view, from remotes and chargers to loose papers and odds and ends.",
-  "Below are 7 bookshelves with drawers we evaluated on drawer type and count, weight capacity, footprint, and overall build quality, useful for small bedrooms, home offices, or any corner where a separate dresser doesn't make sense.",
+  "Below are 7 bookshelves with drawers we evaluated on drawer type and count, weight capacity, footprint, and overall build quality, useful for small bedrooms, home offices, or any corner where a separate dresser doesn't make sense."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -58,18 +58,17 @@ export const products: GuideProduct[] = [
       "1 removable fabric drawer (13.7\"W x 10.2\"D x 10.2\"H)",
       "5 open shelves, 30 lb/shelf (150 lb total)",
       "4 adjustable feet",
-      "Anti-tip kit, waterproof + scratch-resistant",
+      "Anti-tip kit, waterproof + scratch-resistant"
     ],
     pros: [
-      "Cheapest pick in this list at $39.99",
+      "Cheapest pick in this list at under $40",
       "Removable fabric drawer is nursery-safe",
-      "Compact 15.4\" footprint fits any corner",
-      "Nearly 3,350 ratings at 4.4 stars",
+      "Compact 15.4\" footprint fits any corner"
     ],
     cons: [
       "Only 1 drawer versus multiple on other picks",
       "Fabric drawer isn't as sturdy as a hard-sided cabinet",
-      "150 lb total capacity is modest for heavy books",
+      "150 lb total capacity is modest for heavy books"
     ],
     bestFor: "Buyers who want an affordable, compact bookshelf with one easy-clean removable drawer",
   },
@@ -91,18 +90,18 @@ export const products: GuideProduct[] = [
       "Ladder shape widening toward the bottom",
       "1 removable fabric drawer",
       "215 lb total capacity",
-      "Backboards on each shelf, 4 adjustable feet",
+      "Backboards on each shelf, 4 adjustable feet"
     ],
     pros: [
       "Highest total capacity among ladder-style picks at 215 lbs",
       "Attractive ladder silhouette",
       "Backboards prevent items from falling through",
-      "Removable fabric drawer for quick-access storage",
+      "Removable fabric drawer for quick-access storage"
     ],
     cons: [
       "Slightly larger footprint than the standard 5-tier Furologee",
       "Still only 1 drawer",
-      "Ladder shape uses more floor space at the base",
+      "Ladder shape uses more floor space at the base"
     ],
     bestFor: "Buyers who want a ladder-style bookshelf with the highest weight capacity in this group",
   },
@@ -124,18 +123,17 @@ export const products: GuideProduct[] = [
       "Tree-shaped design, 6 tiers",
       "2 open storage cabinets, joinable together",
       "2-year warranty + lifetime support",
-      "Anti-tip kit included",
+      "Anti-tip kit included"
     ],
     pros: [
       "2-year warranty with lifetime support",
       "Distinctive tree-shaped silhouette",
-      "2 joinable storage cabinets",
-      "Strong 4.6-star rating across 2,846 ratings",
+      "2 joinable storage cabinets"
     ],
     cons: [
       "Cabinets are open rather than enclosed with doors",
       "Narrow 7.9\" depth limits what fits on each tier",
-      "No drawer, just open cabinet space",
+      "No drawer, just open cabinet space"
     ],
     bestFor: "Buyers who want a warrantied tree-shaped bookshelf with joinable open storage cabinets",
   },
@@ -157,18 +155,18 @@ export const products: GuideProduct[] = [
       "Built-in adjustable lamp, 3 color temperatures",
       "1 storage drawer at the base",
       "6-tier capacity for 30-50 paperbacks",
-      "Anti-tip kit included",
+      "Anti-tip kit included"
     ],
     pros: [
       "Only pick with a built-in adjustable 3-color-temperature lamp",
       "Tree-shaped design with a storage drawer",
       "Gift-ready presentation",
-      "Compact 15\" footprint",
+      "Compact 15\" footprint"
     ],
     cons: [
       "Most expensive tree-shaped pick in this list",
       "Only holds an estimated 30-50 paperbacks",
-      "Lamp requires its own power source nearby",
+      "Lamp requires its own power source nearby"
     ],
     bestFor: "Readers who want a bedside tree bookshelf with a built-in adjustable reading lamp",
   },
@@ -183,25 +181,24 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Kxi8xrdiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DFXS9X72?tag=deskfinds0d-20",
     description:
-      "The EXPERLAM stands apart as the only genuinely solid pine wood pick in this list, rather than MDF or engineered board, giving it a sturdier, more natural feel. It comes with 4 matching collapsible fabric storage bins with handles that slot directly into the cube openings, plus 2 removable back panels for a more open look when you don't need the backing.\n\nIt's also the most flexible piece here, able to stand vertically, lie horizontally, or serve as a room partition depending on your layout. The odor-free, kid-safe finish and highest rating in this list at 4.7 stars make it a strong pick for anyone prioritizing material quality over price.\n\nIncludes 4 matching fabric storage bins. Set against that, more expensive than most other picks in this list. Both matter when comparing it to the other picks here.",
+      "The EXPERLAM stands apart as the only genuinely solid pine wood pick in this list, rather than MDF or engineered board, giving it a sturdier, more natural feel. It comes with 4 matching collapsible fabric storage bins with handles that slot directly into the cube openings, plus 2 removable back panels for a more open look when you don't need the backing.\n\nIt's also the most flexible piece here, able to stand vertically, lie horizontally, or serve as a room partition depending on your layout.\n\nIncludes 4 matching fabric storage bins. Set against that, more expensive than most other picks in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "47\"L x 11.8\"W x 24\"H",
       "Solid pine wood construction",
       "4 collapsible fabric storage bins (11\"x11\"x11\") with handles",
       "8-cube layout, 2 removable back panels",
       "Works vertically, horizontally, or as a room partition",
-      "Odor-free, kid-safe finish",
+      "Odor-free, kid-safe finish"
     ],
     pros: [
       "Genuinely solid pine wood, not MDF",
       "Includes 4 matching fabric storage bins",
-      "3 different configuration options",
-      "Highest rating in this list at 4.7 stars",
+      "3 different configuration options"
     ],
     cons: [
       "More expensive than most other picks in this list",
       "Fewer total ratings than the top sellers",
-      "Bins are fabric, not hard-sided drawers",
+      "Bins are fabric, not hard-sided drawers"
     ],
     bestFor: "Buyers who want genuine solid wood construction and flexible room-partition setup options",
   },
@@ -216,25 +213,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31yQT5-GJBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D2KNG8SR?tag=deskfinds0d-20",
     description:
-      "At 73.23 inches, the DICTAC is the tallest pick in this list, combining 3 smooth-glide slide-out drawers with 3 tiers of open shelving and a dedicated top storage zone. The engineered wood construction is waterproof and scratch-resistant, which lets it double as a kitchen pantry cabinet or bathroom storage unit rather than being limited to books.\n\nAn anti-tip kit is included given the height, and the tall vertical profile makes efficient use of floor space in rooms where width is at a premium. Reviewers give it a strong 4.7-star average despite a smaller review count so far.\n\nA genuine advantage here is that smooth-glide drawers plus a dedicated top storage zone. The tradeoff is tall profile needs a stable, level floor and wall anchoring.",
+      "At 73.23 inches, the DICTAC is the tallest pick in this list, combining 3 smooth-glide slide-out drawers with 3 tiers of open shelving and a dedicated top storage zone. The engineered wood construction is waterproof and scratch-resistant, which lets it double as a kitchen pantry cabinet or bathroom storage unit rather than being limited to books.\n\nAn anti-tip kit is included given the height, and the tall vertical profile makes efficient use of floor space in rooms where width is at a premium.\n\nA genuine advantage here is that smooth-glide drawers plus a dedicated top storage zone. The tradeoff is tall profile needs a stable, level floor and wall anchoring.",
     specs: [
       "73.23\"H x 23.62\"W x 14.2\"D",
       "Engineered wood construction",
       "3 smooth-glide slide-out drawers",
       "3-tier open shelves + top storage zone",
       "Waterproof + scratch-resistant",
-      "Anti-tip kit included",
+      "Anti-tip kit included"
     ],
     pros: [
       "Tallest pick in this list at 73\"",
       "Smooth-glide drawers plus a dedicated top storage zone",
-      "Waterproof surface handles kitchen or bathroom use",
-      "Strong 4.7-star rating",
+      "Waterproof surface handles kitchen or bathroom use"
     ],
     cons: [
       "Tall profile needs a stable, level floor and wall anchoring",
-      "Smaller review sample (187 ratings) than the top sellers",
-      "Takes up more vertical wall space than shorter picks",
+      "Takes up more vertical wall space than shorter picks"
     ],
     bestFor: "Buyers who want maximum vertical storage in a narrow footprint, usable beyond just books",
   },
@@ -256,21 +251,21 @@ export const products: GuideProduct[] = [
       "4 wrap-around drawers + 8 open shelves",
       "12 total storage zones",
       "9-12 books per shelf, 38 lb/shelf",
-      "Smooth metal handles, anti-reverse belt included",
+      "Smooth metal handles, anti-reverse belt included"
     ],
     pros: [
       "Widest pick in this list at 39.4\"",
       "4 drawers plus 8 open shelves for 12 storage zones",
       "Thickened panels keep the wide frame rigid",
-      "Anti-reverse belt included for stability",
+      "Anti-reverse belt included for stability"
     ],
     cons: [
-      "Most expensive pick in this list at $159.99",
+      "Most expensive pick in this list at under $160",
       "Wide footprint needs a large wall span",
-      "Fewer total ratings than the budget picks",
+      "Fewer total ratings than the budget picks"
     ],
     bestFor: "Buyers with a large book or media collection who want one wide piece instead of several narrow ones",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -324,11 +319,11 @@ export const faq: FaqItem[] = [
   {
     q: "Do the drawers on these bookshelves make them safer, or do I still need to anchor them?",
     a: "You still need to anchor them. Filled drawers sitting low on the frame do lower the center of gravity and add stability, but that's a side benefit, not a safety feature on its own. Any tall, freestanding bookshelf, drawers or not, should be secured to the wall with the included anti-tip strap or an L-bracket, especially around kids or pets.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-bookshelf-with-storage", title: "Best Bookshelves with Storage in 2026" },
   { href: "/guide/best-bookshelf-with-doors", title: "Best Bookshelves with Doors in 2026" },
-  { href: "/guide/best-bookshelf-5-tier", title: "Best 5-Tier Bookshelves in 2026" },
+  { href: "/guide/best-bookshelf-5-tier", title: "Best 5-Tier Bookshelves in 2026" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "antique style desk clock";
 export const introParagraphs = [
   "Antique-style is a narrower aesthetic than vintage or retro, it implies an aged, old-world look, ornate detailing, or an antique reproduction finish, not just an older design language recreated in new materials. In our verified research pool, we found no product genuinely styled as an antique reproduction, the closest fits are a gold-toned analog clock with old-world warmth and two marble pieces with a classic, formal look rather than a literally aged finish.",
-  "We're covering this honestly with a reduced list rather than stretching flip clocks or plain modern pieces to fit a label they don't earn. If you want a stronger throwback design statement instead, see our vintage or retro desk clocks guides, which cover flip-clock styles more directly matched to those terms.",
+  "We're covering this honestly with a reduced list rather than stretching flip clocks or plain modern pieces to fit a label they don't earn. If you want a stronger throwback design statement instead, see our vintage or retro desk clocks guides, which cover flip-clock styles more directly matched to those terms."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "6 min";
@@ -75,7 +75,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed no genuine antique-reproduction clocks turned up in this research pass", description: "Searched our verified pool specifically for antique-styled or antique-reproduction desk clocks and did not find a genuine match, leading us to reduce this guide's product count rather than stretch unrelated styles to fit." },
   { title: "Selected the closest old-world and formal aesthetic matches instead", description: "Chose a gold analog clock and two marble pieces as the closest available matches on tone, material, and silhouette, while being explicit that none are literal antique reproductions." },
   { title: "Declined to relabel flip clocks or modern pieces as antique-styled", description: "Kept flip clocks and plainly modern digital designs out of this guide entirely, they belong more accurately in our vintage, retro, or modern desk clock guides." },
-  { title: "Prioritized honesty over product count", description: "Chose a shorter, more accurate three-product guide over padding the list with items that don't genuinely fit the antique-style search intent." },
+  { title: "Prioritized honesty over product count", description: "Chose a shorter, more accurate three-product guide over padding the list with items that don't genuinely fit the antique-style search intent." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -210,11 +210,11 @@ export const faq: FaqItem[] = [
   { q: "Are these clocks actual antiques or antique reproductions?", a: "No, none of the picks in this guide are marketed or verified as genuine antique reproductions. They are the closest old-world toned and formal material matches available in our research." },
   { q: "Why is this guide shorter than your other desk clock guides?", a: "Antique-style is a narrower aesthetic than vintage or retro, and our verified research pool did not turn up a genuine match, so we chose a shorter, more accurate list over padding it with unrelated styles." },
   { q: "What should I buy if I want a more classic mid-century throwback look?", a: "See our vintage or retro desk clocks guides, which cover genuine flip-clock mechanisms more directly associated with a throwback design statement." },
-  { q: "Why are marble clocks included in an antique-style guide?", a: "Their formal silhouette and premium material echo a classic executive-desk look, even though they are described by their listings as modern rather than antique-styled." },
+  { q: "Why are marble clocks included in an antique-style guide?", a: "Their formal silhouette and premium material echo a classic executive-desk look, even though they are described by their listings as modern rather than antique-styled." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-vintage-desk-clocks", title: "Best Vintage Desk Clocks (2026)" },
   { href: "/guide/best-retro-desk-clocks", title: "Best Retro Desk Clocks (2026)" },
-  { href: "/guide/best-marble-desk-clocks", title: "Best Marble Desk Clocks (2026)" },
+  { href: "/guide/best-marble-desk-clocks", title: "Best Marble Desk Clocks (2026)" }
 ];

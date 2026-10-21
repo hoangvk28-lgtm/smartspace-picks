@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "magnetic lcd writing tablet";
 export const introParagraphs = [
   "Genuinely confirmed magnetic mounting is rare among LCD writing tablets. Current research found only one product with explicit 'magnets' stated in its title, so this guide is honest about the limited confirmed selection rather than assuming every 'fridge board' style listing is actually magnetic.",
-  "Several office-marketed memo boards mention fridge or kitchen use without clearly confirming magnetic strength in the title, we've flagged one such listing as a possible second option below with an explicit caveat to verify the current listing's magnetic backing claims before assuming it holds securely.",
+  "Several office-marketed memo boards mention fridge or kitchen use without clearly confirming magnetic strength in the title, we've flagged one such listing as a possible second option below with an explicit caveat to verify the current listing's magnetic backing claims before assuming it holds securely."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "6 min";
@@ -43,7 +43,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Magnetic claims verified against explicit title language", description: "Only included a product as 'confirmed magnetic' if the listing title explicitly stated magnets, rather than inferring it from 'fridge board' or 'kitchen memo' framing alone." },
   { title: "Ambiguous listings flagged rather than included as confirmed", description: "Identified listings that mention fridge or kitchen use without explicitly confirming magnet strength, and flagged them as unverified rather than presenting them as confirmed picks." },
   { title: "Dual mounting options assessed for genuine flexibility", description: "Checked whether the confirmed magnetic pick also offers other mounting options like a kickstand, adding real placement flexibility." },
-  { title: "Full researched pool checked for other magnetic candidates", description: "Reviewed all researched product titles specifically for magnetic mounting language before finalizing this as a single-product guide with one flagged alternative." },
+  { title: "Full researched pool checked for other magnetic candidates", description: "Reviewed all researched product titles specifically for magnetic mounting language before finalizing this as a single-product guide with one flagged alternative." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -61,7 +61,7 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $37.42",
+          "Under $40",
           "Boogie Board Jot Reusable Writing Tablet"
         ]
       ]
@@ -93,7 +93,7 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "Here's what you get for $37.42: Genuinely confirmed magnetic mounting, stated explicitly in the title. If that's what you're after, the tradeoffs in its cons list probably won't bother you either."
+        "text": "Here's what you get for under $40: Genuinely confirmed magnetic mounting, stated explicitly in the title. If that's what you're after, the tradeoffs in its cons list probably won't bother you either."
       },
       {
         "label": "Save if",
@@ -130,11 +130,11 @@ export const faq: FaqItem[] = [
   { q: "Are there many magnetic LCD writing tablets available?", a: "No, genuinely confirmed magnetic mounting is rare. Current research found only one product with explicit magnet language in its title." },
   { q: "Are fridge-themed memo boards always magnetic?", a: "Not necessarily confirmed, some listings use fridge or kitchen framing without explicitly stating magnet strength, verify the current listing before assuming it mounts securely." },
   { q: "What is the confirmed magnetic pick in this guide?", a: "The Boogie Board Jot Reusable Writing Tablet explicitly states built-in magnets in its title, making it the only confirmed magnetic option found in research." },
-  { q: "Can I mount an LCD writing tablet without magnets?", a: "Yes, a built-in kickstand offers a similar hands-free desk display option without requiring a magnetic surface." },
+  { q: "Can I mount an LCD writing tablet without magnets?", a: "Yes, a built-in kickstand offers a similar hands-free desk display option without requiring a magnetic surface." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-lcd-writing-tablets-for-work", title: "Best LCD Writing Tablets for Work (2026)" },
   { href: "/guide/best-8-5-inch-lcd-writing-tablets", title: "Best 8.5 Inch LCD Writing Tablets (2026)" },
-  { href: "/guide/best-rechargeable-lcd-writing-tablets", title: "Best Rechargeable LCD Writing Tablets (2026)" },
+  { href: "/guide/best-rechargeable-lcd-writing-tablets", title: "Best Rechargeable LCD Writing Tablets (2026)" }
 ];

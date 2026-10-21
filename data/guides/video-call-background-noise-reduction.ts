@@ -12,7 +12,7 @@ export const videoCallBackgroundNoiseReductionGuide: Guide = {
     "reduce background noise zoom",
     "software noise suppression video call",
     "microphone pickup pattern background noise",
-    "quiet home office for calls",
+    "quiet home office for calls"
   ],
   heroImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const videoCallBackgroundNoiseReductionGuide: Guide = {
     "conference-speakerphone-vs-headset",
     "polar-patterns-explained",
     "dynamic-vs-condenser-microphone",
-    "xlr-vs-usb-microphone",
+    "xlr-vs-usb-microphone"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const videoCallBackgroundNoiseReductionGuide: Guide = {
       question: "Does muting when not speaking help meeting audio quality overall?",
       answer:
         "Yes, muting during periods when you're not actively speaking prevents your background noise from being transmitted at all during those moments, a simple, free habit that meaningfully improves overall call audio quality for everyone on the call.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const videoCallBackgroundNoiseReductionGuide: Guide = {
     {
       heading: "Why Room Acoustics Often Get Overlooked in Favor of Equipment Upgrades",
       body: `It's common to focus entirely on microphone or software upgrades when addressing call audio quality, while overlooking that a room's basic acoustic properties, hard reflective surfaces bouncing sound around, versus soft absorptive surfaces dampening it, significantly affect how much ambient noise and echo a microphone actually picks up regardless of its quality, adding simple soft furnishings, a rug, curtains, even a upholstered chair, to an otherwise hard-surfaced room can measurably improve call audio quality without any equipment purchase at all, addressing the room's fundamental acoustic character rather than only the equipment capturing sound within it.`,
-    },
+    }
   ],
 };

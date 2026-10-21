@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $141.30",
+          "Under $150",
           "MikroTik CRS305-1G-4S+in Network Switch"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "NETGEAR 16-Port PoE Gigabit Unmanaged Switch (GS316PP)"
         ],
         [
-          "Around $213.50",
+          "Under $250",
           "MikroTik CRS310-8G+2S+IN Smart Switch"
         ],
         [
-          "Around $549.00",
+          "Under $550",
           "QNAP QSW-3216R-8S8T-US"
         ],
         [
-          "Around $599.00",
+          "Under $600",
           "QNAP QSW-M3216R-8S8T-US"
         ],
         [
-          "Around $605.81",
+          "Under $650",
           "MikroTik CRS312-4C+8XG-RM Network Switch"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "No. The total PoE budget is shared across all active PoE ports, so if you power several high-draw devices simultaneously, the switch may not be able to deliver every port's maximum rated wattage at the same time. Check the total budget against your actual device count and power needs."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "MikroTik CRS312-4C+8XG-RM Network Switch is aimed at buyers prioritizing 4x combo sfp+/rj45 + 8x 10g ports." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "MikroTik CRS312-4C+8XG-RM Network Switch is aimed at buyers prioritizing 4x combo sfp+/rj45 + 8x 10g ports." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-8-port-10gbe-switches","title":"Best 8-Port 10GbE Switches in 2026"},{"href":"/guide/best-24-port-10gbe-switches","title":"Best 24-Port 10GbE Switches in 2026"},{"href":"/guide/best-16-port-10gbe-switches","title":"Best 16-Port 10GbE Switches in 2026"}];

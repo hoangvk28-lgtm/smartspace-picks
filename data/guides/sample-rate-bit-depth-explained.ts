@@ -12,7 +12,7 @@ export const sampleRateBitDepthExplainedGuide: Guide = {
     "44.1khz vs 48khz recording",
     "16 bit vs 24 bit audio",
     "what sample rate to record podcast",
-    "audio interface sample rate setting",
+    "audio interface sample rate setting"
   ],
   heroImage: "https://images.unsplash.com/photo-1634041323797-b9fdef9d18f7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1634041323797-b9fdef9d18f7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const sampleRateBitDepthExplainedGuide: Guide = {
     "audio-interface-channels-chart",
     "latency-explained",
     "xlr-vs-usb-microphone",
-    "best-audio-interfaces-for-microphones",
+    "best-audio-interfaces-for-microphones"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const sampleRateBitDepthExplainedGuide: Guide = {
       question: "What settings should I use if I'm not sure?",
       answer:
         "48kHz/24-bit is a safe, widely compatible default for podcasting, streaming, and general recording, it gives comfortable editing headroom without unnecessarily large file sizes or compatibility issues with common editing software.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const sampleRateBitDepthExplainedGuide: Guide = {
     {
       heading: "Why Recording Higher Than Your Final Format Still Helps",
       body: `Recording at 24-bit even if your final published format will be 16-bit gives real practical benefit during editing: quieter recorded sections can be boosted with less audible noise, and level mistakes are easier to fix without introducing digital artifacts. This benefit doesn't extend as clearly to sample rate for typical speech or podcast content, so 48kHz is sufficient without needing to record at 96kHz or higher for most home studio setups.`,
-    },
+    }
   ],
 };

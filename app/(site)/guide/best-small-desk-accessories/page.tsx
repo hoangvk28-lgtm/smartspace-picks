@@ -157,7 +157,7 @@ export default async function BestSmallDeskAccessoriesPage() {
             { href: "#reviews", label: "All 12 accessories" },
             { href: "#comparison", label: "Comparison table" },
             { href: "#budget-combos", label: "Budget combos" },
-            { href: "#faq", label: "FAQ" },
+            { href: "#faq", label: "FAQ" }
           ].map(({ href, label }) => (
             <a
               key={href}
@@ -205,7 +205,7 @@ export default async function BestSmallDeskAccessoriesPage() {
                 icon: "⚖️",
                 title: "Skip purely aesthetic items",
                 body: "On a desk under 48 inches, every accessory must earn its footprint with a daily function. A small plant, a decorative tray, or a second organizer where you already have one is not saving space - it is adding clutter with aesthetic intent. Save decorative accessories for larger desks where surface area is not a constraint.",
-              },
+              }
             ].map((item) => (
               <div key={item.title} className="flex gap-3 p-4 rounded-xl border border-border bg-white">
                 <span className="text-2xl shrink-0 mt-0.5">{item.icon}</span>
@@ -431,7 +431,7 @@ export default async function BestSmallDeskAccessoriesPage() {
               ["Footprint efficiency", "How much desktop, under-desk, or vertical space does the accessory consume relative to what it provides? Zero-footprint accessories (mounted, clipped, vertical) score highest."],
               ["Build quality and durability", "Material quality, weight capacity, and expected lifespan based on Amazon verified buyer review patterns and manufacturer specifications."],
               ["Setup simplicity", "Whether installation requires drilling, permanent adhesive, or complex assembly. Clamp-on and freestanding options score higher for renters and dorm setups."],
-              ["Value for price", "Features delivered per dollar. Budget accessories need to deliver a clear daily function without requiring replacement within a year. The compact mesh organizer scores well here at under $18."],
+              ["Value for price", "Features delivered per dollar. Budget accessories need to deliver a clear daily function without requiring replacement within a year. The compact mesh organizer scores well here at under $18."]
             ].map(([label, desc]) => (
               <div key={label as string} className="p-4 rounded-xl bg-white border border-border">
                 <p className="text-sm font-semibold text-ink mb-1">{label}</p>
@@ -482,7 +482,7 @@ export default async function BestSmallDeskAccessoriesPage() {
             {[
               { href: "/guide/monitor-stands-small-desks", title: "Best Monitor Stands for Small Desks", label: "Desk Setup" },
               { href: "/guide/best-small-keyboards", title: "Best Small Keyboards for Compact Desks", label: "Desk Setup" },
-              { href: "/guide/desk-lamps-small-desks", title: "Best Desk Lamps for Small Desks", label: "Desk Setup" },
+              { href: "/guide/desk-lamps-small-desks", title: "Best Desk Lamps for Small Desks", label: "Desk Setup" }
             ].map((g) => (
               <Link prefetch={false}
                 key={g.href}

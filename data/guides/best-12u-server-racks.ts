@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41KuU2tlXhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C64X8J8R?tag=deskfinds0d-20",
-    description: "VEVOR's 12U open frame rack supports 500 lbs ground-mounted, dropping to 150 lbs if wall-mounted, and comes with a genuinely complete hardware kit down to a grounding wire.\n\nThe adjustable 23-40 inch depth range and roller casters mean it can flex to fit different equipment and rooms without buying a different SKU for each configuration.\n\nWhere this one earns its spot is 500 lb ground-mounted rating handles heavier gear, and grounding wire included, a detail many racks skip. Worth noting before buying: wall-mount capacity drops sharply to 150 lbs, which matters more at $89.90 than it would on a cheaper pick.",
+    description: "VEVOR's 12U open frame rack supports 500 lbs ground-mounted, dropping to 150 lbs if wall-mounted, and comes with a genuinely complete hardware kit down to a grounding wire.\n\nThe adjustable 23-40 inch depth range and roller casters mean it can flex to fit different equipment and rooms without buying a different SKU for each configuration.\n\nWhere this one earns its spot is 500 lb ground-mounted rating handles heavier gear, and grounding wire included, a detail many racks skip. Worth noting before buying: wall-mount capacity drops sharply to 150 lbs, which matters more at under $90 than it would on a cheaper pick.",
     specs: ["12U, 23-40\" adjustable depth","500 lb ground / 150 lb wall capacity","Casters and grounding wire included"],
     pros: ["500 lb ground-mounted rating handles heavier gear","Grounding wire included, a detail many racks skip","Top panel adds extra storage space"],
     cons: ["Wall-mount capacity drops sharply to 150 lbs","Open frame leaves cables and gear exposed"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41kGNsnUnQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B084T9NQF2?tag=deskfinds0d-20",
-    description: "A shorter 12U 4-post rack that still carries an impressively high 1322 lb weight rating thanks to the extra structural support of the 4-post design.\n\nCasters make it easy to preposition before locking it into place, and flat-pack delivery with cable hooks keeps setup straightforward despite the high load rating.\n\nWhat stands out here is 1322 lb rating is exceptional for a 12U rack, plus 4-post frame improves stability over 2-post designs. The main tradeoff: flat-pack assembly still takes real setup time, so weigh that against the $301.99 price before buying.",
+    description: "A shorter 12U 4-post rack that still carries an impressively high 1322 lb weight rating thanks to the extra structural support of the 4-post design.\n\nCasters make it easy to preposition before locking it into place, and flat-pack delivery with cable hooks keeps setup straightforward despite the high load rating.\n\nWhat stands out here is 1322 lb rating is exceptional for a 12U rack, plus 4-post frame improves stability over 2-post designs. The main tradeoff: flat-pack assembly still takes real setup time, so weigh that against the under $350 price before buying.",
     specs: ["12U, 26.7\"L x 20.67\"W, adjustable 22-40\"H","1322 lb weight capacity","Casters and cable hooks included"],
     pros: ["1322 lb rating is exceptional for a 12U rack","4-post frame improves stability over 2-post designs","Cable hooks keep a short rack's wiring tidy"],
     cons: ["Flat-pack assembly still takes real setup time","Height adjustment range may exceed what a 12U job needs"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41pK7n3UtDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00P1RJ9LS?tag=deskfinds0d-20",
-    description: "A compact 12U 4-post rack from StarTech, standing just 25 inches tall, purpose-built for utility closets and narrow spaces where a full-size server rack won't fit.\n\nIt still carries the full StarTech feature set: EIA/ECA-310-E compliance, cage nuts, cable hooks, and the same 2-year warranty backing the larger racks in their lineup.\n\nThe strongest case for this pick comes down to only 25\" tall, fits narrow utility closets easily as well as 1200 lb rating despite the compact size. The compromise here is that small size limits it to a handful of devices, so factor that in alongside the $249.99 asking price.",
+    description: "A compact 12U 4-post rack from StarTech, standing just 25 inches tall, purpose-built for utility closets and narrow spaces where a full-size server rack won't fit.\n\nIt still carries the full StarTech feature set: EIA/ECA-310-E compliance, cage nuts, cable hooks, and the same 2-year warranty backing the larger racks in their lineup.\n\nThe strongest case for this pick comes down to only 25\" tall, fits narrow utility closets easily as well as 1200 lb rating despite the compact size. The compromise here is that small size limits it to a handful of devices, so factor that in alongside the under $250 asking price.",
     specs: ["12U, 25\" tall, 22-40\" adjustable depth","1200 lb stationary weight capacity","Backed by 2-year warranty and lifetime support"],
     pros: ["Only 25\" tall, fits narrow utility closets easily","1200 lb rating despite the compact size","Same warranty and support as StarTech's larger racks"],
     cons: ["Small size limits it to a handful of devices","Still needs flat-pack assembly on delivery"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41EO6jWDMvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FL43TWN?tag=deskfinds0d-20",
-    description: "A no-frills 12U open frame rack rated for a substantial 1323 lbs, matching the higher end of this category despite a fairly basic accessory list.\n\nEverything needed to mount it ships in the box: casters, cable management hooks, and M6 screws with cage nuts, so there's no separate hardware purchase required.\n\nWhere this one earns its spot is 1323 lb rating matches pricier 12U racks, and complete hardware kit skips extra purchases. Worth noting before buying: basic feature set with no extras beyond the frame, which matters more at $198.98 than it would on a cheaper pick.",
+    description: "A no-frills 12U open frame rack rated for a substantial 1323 lbs, matching the higher end of this category despite a fairly basic accessory list.\n\nEverything needed to mount it ships in the box: casters, cable management hooks, and M6 screws with cage nuts, so there's no separate hardware purchase required.\n\nWhere this one earns its spot is 1323 lb rating matches pricier 12U racks, and complete hardware kit skips extra purchases. Worth noting before buying: basic feature set with no extras beyond the frame, which matters more at under $200 than it would on a cheaper pick.",
     specs: ["12U, 29.3\"H x 20.7\"W, 22.7-40.7\" depth","1323 lb weight capacity","4 heavy duty casters included"],
     pros: ["1323 lb rating matches pricier 12U racks","Complete hardware kit skips extra purchases","Open frame design simplifies servicing access"],
     cons: ["Basic feature set with no extras beyond the frame","22.7-40.7\" depth range may be more than needed"],
@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/517WeovYvrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSJR2RZB?tag=deskfinds0d-20",
-    description: "Tecmojo's 12U open frame rack ships with two vented 1U shelves already in the box, which is a nice touch since most competitors sell shelves separately.\n\nIt's rated for 260 lbs floor-mounted but drops to 130 lbs if you wall-mount it instead, so plan your equipment load around which install method you're using.\n\nThis pick is best for buyers who value two vented shelves included instead of sold separately along with anti-slip shelf stops keep gear from sliding. The catch is that wall-mount capacity is half of floor-standing capacity, so decide if that's worth it at $89.90.",
+    description: "Tecmojo's 12U open frame rack ships with two vented 1U shelves already in the box, which is a nice touch since most competitors sell shelves separately.\n\nIt's rated for 260 lbs floor-mounted but drops to 130 lbs if you wall-mount it instead, so plan your equipment load around which install method you're using.\n\nThis pick is best for buyers who value two vented shelves included instead of sold separately along with anti-slip shelf stops keep gear from sliding. The catch is that wall-mount capacity is half of floor-standing capacity, so decide if that's worth it at under $90.",
     specs: ["12U, cold rolled steel frame","260 lb floor / 130 lb wall capacity","2 vented 1U shelves included"],
     pros: ["Two vented shelves included instead of sold separately","Anti-slip shelf stops keep gear from sliding","Stackable design lets you expand later"],
     cons: ["Wall-mount capacity is half of floor-standing capacity","Open frame offers no dust or theft protection"],
@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $89.90",
+          "Under $90",
           "VEVOR 12U Open Frame Server Rack"
         ],
         [
-          "Around $89.90",
+          "Under $90",
           "Tecmojo 12U Open Frame Network Rack"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "AxcessAbles 12U Network Rack with Wheels"
         ],
         [
-          "Around $198.98",
+          "Under $200",
           "RackPath 12U Open Frame Server Rack"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "StarTech.com 12U Adjustable Depth Open Frame 4 Post Server Rack"
         ],
         [
-          "Around $301.99",
+          "Under $350",
           "NavePoint 12U 4 Post Server Rack"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "VEVOR 12U Open Frame Server Rack is aimed at buyers prioritizing 12u, 23-40\" adjustable depth." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "VEVOR 12U Open Frame Server Rack is aimed at buyers prioritizing 12u, 23-40\" adjustable depth." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-42u-server-racks","title":"Best 42U Server Racks in 2026"},{"href":"/guide/best-2u-server-racks","title":"Best 2U Server Racks in 2026"},{"href":"/guide/best-1u-server-racks","title":"Best 1U Server Racks in 2026"}];

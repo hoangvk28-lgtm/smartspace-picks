@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "double-sided bookshelf";
 export const introParagraphs = [
   "A double-sided bookshelf is meant to do two jobs at once, store books and divide a room, but most listings leave out the detail that matters most: an open-back shelf lets light and sightlines pass straight through both sides, which is not real visual privacy. Closed-back construction is what actually blocks the view from one side to the other, and it is worth checking before assuming any bookshelf marketed for room-dividing use will hide what's on the other side.",
-  "Below are 8 products we evaluated for open vs. closed back construction, total unit depth for freestanding center-of-room placement, and bilateral loading capacity, honestly flagging which items in this shared product pool are genuinely bookshelf-style versus file cabinets or fabric screens that don't belong in a bookshelf comparison.",
+  "Below are 8 products we evaluated for open vs. closed back construction, total unit depth for freestanding center-of-room placement, and bilateral loading capacity, honestly flagging which items in this shared product pool are genuinely bookshelf-style versus file cabinets or fabric screens that don't belong in a bookshelf comparison."
 ];
 export const lastUpdated = "2026-07-26";
 export const readTime = "10 min";
@@ -46,14 +46,14 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Double-Sided Bookshelf",
     name: "IRONCK Bookcase and Bookshelf, Triple Wide 6-Tier with Back Fence",
     price: "$219.99",
-    rating: "4.6 stars",
-    reviews: "420 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51OXUOdhrKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B3J58T4N?tag=deskfinds0d-20",
     description:
-      "The IRONCK is a genuine bookshelf-style unit, a triple-wide 6-tier frame with a back fence on each shelf that keeps books from sliding through to the other side. That back fence is what gives it real visual privacy rather than the open sightlines you get on shelves without one, though gaps between books themselves can still allow glimpses through depending on how full each shelf is loaded. At a competitive price with 4.6 stars across 420 ratings, it has the strongest buyer feedback of the true bookshelf-style picks in this guide. As with any tall, wide open shelving unit intended for center-of-room placement, plan on anchoring it since no wall is available to lean it against for tip resistance. A genuine advantage here is that 4.6 stars, 420 ratings, strongest feedback here. The tradeoff is no wall support when used center-of-room, anchoring needed.",
+      "The IRONCK is a genuine bookshelf-style unit, a triple-wide 6-tier frame with a back fence on each shelf that keeps books from sliding through to the other side. That back fence is what gives it real visual privacy rather than the open sightlines you get on shelves without one, though gaps between books themselves can still allow glimpses through depending on how full each shelf is loaded. As with any tall, wide open shelving unit intended for center-of-room placement, plan on anchoring it since no wall is available to lean it against for tip resistance. The tradeoff is no wall support when used center-of-room, anchoring needed.",
     specs: ["Triple-wide 6-tier design", "Back fence on shelves for privacy", "Genuinely bookshelf-style", "Easy assembly"],
-    pros: ["Back fence provides real visual privacy, not just open shelving", "4.6 stars, 420 ratings, strongest feedback here", "Wide 6-tier design for real book storage", "Genuinely bookshelf-style construction"],
+    pros: ["Back fence provides real visual privacy, not just open shelving", "Wide 6-tier design for real book storage", "Genuinely bookshelf-style construction"],
     cons: ["No wall support when used center-of-room, anchoring needed", "Gaps between books can still allow partial visibility through"],
     bestFor: "Buyers who want a genuinely bookshelf-style double-sided divider with real back-panel privacy.",
   },
@@ -63,14 +63,14 @@ export const products: GuideProduct[] = [
     badge: "Best Open-Back Design (Privacy Caveat)",
     name: "SILKYDRY 6-Tier Geometric S-Shaped Bookshelf, Room Divider",
     price: "$154.99",
-    rating: "4.4 stars",
-    reviews: "376 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/512GcnTIgpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZNVB9M5?tag=deskfinds0d-20",
     description:
-      "The SILKYDRY is a genuinely bookshelf-style piece with a staggered S-shaped tier design, marketed directly as a book shelf room divider at 75 inches tall. It's built as open shelving without a solid back fence, which means light and sightlines pass through freely from one side to the other, this is an aesthetic divider first and a privacy divider only as much as the books you place on it block the view.\n\nAt 4.4 stars across 376 ratings it's a well-reviewed choice for buyers who want visual separation and a decorative geometric silhouette more than genuine privacy. Its 75-inch height is taller than most picks in this category, worth noting if ceiling clearance or tipping risk is a concern.\n\n75 in height, tallest true bookshelf here. On the other hand, open back gives no real privacy on its own. Neither should be a surprise once you know to look for it.",
+      "The SILKYDRY is a genuinely bookshelf-style piece with a staggered S-shaped tier design, marketed directly as a book shelf room divider at 75 inches tall. It's built as open shelving without a solid back fence, which means light and sightlines pass through freely from one side to the other, this is an aesthetic divider first and a privacy divider only as much as the books you place on it block the view.\n\nIts 75-inch height is taller than most picks in this category, worth noting if ceiling clearance or tipping risk is a concern.\n\n75 in height, tallest true bookshelf here. On the other hand, open back gives no real privacy on its own. Neither should be a surprise once you know to look for it.",
     specs: ["Genuinely bookshelf-style, marketed as room divider", "6-tier staggered geometric design", "75 in height", "Open back, no solid fence"],
-    pros: ["Genuinely bookshelf-style and marketed as a room divider", "75 in height, tallest true bookshelf here", "Distinctive staggered geometric look", "4.4 stars, 376 ratings"],
+    pros: ["Genuinely bookshelf-style and marketed as a room divider", "75 in height, tallest true bookshelf here", "Distinctive staggered geometric look"],
     cons: ["Open back gives no real privacy on its own", "Taller height increases tip risk without anchoring"],
     bestFor: "Buyers who want a decorative, genuinely bookshelf-style room divider and don't need real visual privacy.",
   },
@@ -80,12 +80,12 @@ export const products: GuideProduct[] = [
     badge: "Best with Anti-Tip Kit Included",
     name: "Tangkula 6-Tier Bookshelf, 64 in Tall with Anti-Tip Kits",
     price: "$69.99",
-    rating: "4.2 stars",
-    reviews: "26 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41fGlpAIWXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8Q51T9M?tag=deskfinds0d-20",
     description:
-      "The Tangkula is a genuine open bookcase at 64 inches tall, explicitly listed as a free-standing wood room divider display shelf and, importantly, it ships with anti-tip kits included, a real safety feature that several other freestanding tall shelving units in this category leave out. This is an open-back design, so treat it as a visual and organizational divider rather than a true privacy solution. It is the most affordable genuinely bookshelf-style pick in this guide, though its small 26-rating sample means the 4.2-star average should be read with some caution. Most affordable genuine bookshelf pick here. That's a real strength, but weigh it against the flip side: small 26-rating sample, read cautiously.",
+      "The Tangkula is a genuine open bookcase at 64 inches tall, explicitly listed as a free-standing wood room divider display shelf and, importantly, it ships with anti-tip kits included, a real safety feature that several other freestanding tall shelving units in this category leave out. This is an open-back design, so treat it as a visual and organizational divider rather than a true privacy solution. Most affordable genuine bookshelf pick here. That's a real strength, but weigh it against the flip side: small 26-rating sample, read cautiously.",
     specs: ["Genuinely bookshelf-style, open back", "6-tier, 64 in height", "Anti-tip kits included", "Free-standing wood construction"],
     pros: ["Anti-tip kits included, a real safety plus", "Most affordable genuine bookshelf pick here", "64 in height, easier to anchor than taller units", "Open 11-shelf storage layout"],
     cons: ["Small 26-rating sample, read cautiously", "Open back means no real privacy on its own"],
@@ -114,14 +114,14 @@ export const products: GuideProduct[] = [
     badge: "Mismatch Flag: File Cabinet, Not a Bookshelf",
     name: "Letaya 2-Drawer Metal Lateral File Cabinet with Lock",
     price: "$99.99",
-    rating: "4.2 stars",
-    reviews: "1,671 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31ukHwAN+yL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTNJY2HB?tag=deskfinds0d-20",
     description:
-      "We're flagging this one honestly: this is a locking 2-drawer metal lateral file cabinet, not a bookshelf or a double-sided unit of any kind. It appears in the shared product pool for this category but does not match the double-sided bookshelf use case this guide covers.\n\nOn its own merits it's a well-reviewed filing cabinet with 4.2 stars across 1,671 ratings, a fine choice if you actually need locking letter/legal document storage, but it will not function as a double-sided book display or room divider.\n\nLocking drawers for document security. Set against that, not a bookshelf or double-sided unit, does not match this guide's use case. Both matter when comparing it to the other picks here.",
+      "We're flagging this one honestly: this is a locking 2-drawer metal lateral file cabinet, not a bookshelf or a double-sided unit of any kind. It appears in the shared product pool for this category but does not match the double-sided bookshelf use case this guide covers.\n\nLocking drawers for document security. Set against that, not a bookshelf or double-sided unit, does not match this guide's use case. Both matter when comparing it to the other picks here.",
     specs: ["NOT a bookshelf, standard 2-drawer file cabinet", "Metal construction with lock", "Fits letter/legal/A4 hanging files", "Single-sided drawer access"],
-    pros: ["Well-reviewed as a filing cabinet, 4.2 stars, 1,671 ratings", "Locking drawers for document security"],
+    pros: [ "Locking drawers for document security"],
     cons: ["Not a bookshelf or double-sided unit, does not match this guide's use case", "Single-sided access, no double-sided design at all"],
     bestFor: "Buyers who actually need a locking filing cabinet, not a double-sided bookshelf, despite appearing in this product search.",
   },
@@ -131,14 +131,14 @@ export const products: GuideProduct[] = [
     badge: "Mismatch Flag: File Cabinet, Not a Bookshelf",
     name: "DEVAISE 3-Drawer Mobile Lateral File Cabinet",
     price: "$94.99",
-    rating: "4.2 stars",
-    reviews: "2,444 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51vzgnkbcjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0989HLF81?tag=deskfinds0d-20",
     description:
-      "Another honest mismatch flag: this is a 3-drawer mobile lateral file cabinet, single-sided by design, and not a double-sided bookshelf or room divider. It shows up in the same shared product pool as the genuine bookshelf picks above but serves a completely different storage purpose.\n\nAs a filing cabinet it's strongly reviewed at 4.2 stars across 2,444 ratings, the largest rating base in this entire guide, but that popularity reflects its performance as a file cabinet, not as a bookshelf, so don't let the rating volume mislead you into thinking it fits this use case.\n\nA genuine advantage here is that mobile casters for repositioning as a filing cabinet. The tradeoff is not a bookshelf or double-sided unit, does not match this guide's use case.",
+      "Another honest mismatch flag: this is a 3-drawer mobile lateral file cabinet, single-sided by design, and not a double-sided bookshelf or room divider. It shows up in the same shared product pool as the genuine bookshelf picks above but serves a completely different storage purpose.\n\nA genuine advantage here is that mobile casters for repositioning as a filing cabinet. The tradeoff is not a bookshelf or double-sided unit, does not match this guide's use case.",
     specs: ["NOT a bookshelf, standard 3-drawer lateral file cabinet", "Mobile with casters", "Single-sided drawer access", "Rustic brown finish"],
-    pros: ["Very strong rating base as a filing cabinet, 2,444 ratings", "Mobile casters for repositioning as a filing cabinet"],
+    pros: [ "Mobile casters for repositioning as a filing cabinet"],
     cons: ["Not a bookshelf or double-sided unit, does not match this guide's use case", "High rating count reflects file-cabinet use, not bookshelf use"],
     bestFor: "Buyers who need a mobile filing cabinet, explicitly not a double-sided bookshelf despite appearing in this search pool.",
   },
@@ -148,14 +148,14 @@ export const products: GuideProduct[] = [
     badge: "Mismatch Flag: Storage Cabinet, Not a Bookshelf",
     name: "DEVAISE 5-Drawer Wood Storage Cabinet with Wheels, Printer Stand",
     price: "$139.99",
-    rating: "4.4 stars",
-    reviews: "2,071 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31cx80Jq7-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0832D9S62?tag=deskfinds0d-20",
     description:
-      "A third honest mismatch flag: this is a 5-drawer office storage cabinet built to also function as a printer stand, with an adjustable open shelf and wheels for mobility. It is not a bookshelf and not double-sided, sold from a single face like any standard storage cabinet.\n\nIt's a strong performer in its actual category at 4.4 stars across 2,071 ratings, but buyers specifically shopping for a double-sided bookshelf should skip past this listing to the genuine bookshelf-style picks earlier in this guide.\n\nWheels for repositioning. On the other hand, not a bookshelf or double-sided unit, does not match this guide's use case. Neither should be a surprise once you know to look for it.",
+      "A third honest mismatch flag: this is a 5-drawer office storage cabinet built to also function as a printer stand, with an adjustable open shelf and wheels for mobility. It is not a bookshelf and not double-sided, sold from a single face like any standard storage cabinet.\n\nWheels for repositioning. On the other hand, not a bookshelf or double-sided unit, does not match this guide's use case. Neither should be a surprise once you know to look for it.",
     specs: ["NOT a bookshelf, 5-drawer storage cabinet", "Doubles as printer stand", "Adjustable open shelf", "Wheels for mobility, single-sided access"],
-    pros: ["Well reviewed as a storage cabinet and printer stand, 4.4 stars, 2,071 ratings", "Wheels for repositioning"],
+    pros: [ "Wheels for repositioning"],
     cons: ["Not a bookshelf or double-sided unit, does not match this guide's use case", "Single-sided access only"],
     bestFor: "Buyers who actually need a printer stand with drawers, not a double-sided bookshelf, despite appearing in this search pool.",
   },
@@ -165,17 +165,17 @@ export const products: GuideProduct[] = [
     badge: "Mismatch Flag: Curtain Divider, Not a Bookshelf",
     name: "SUNALLY No-Drilling Tension Curtain Rod Room Divider",
     price: "$39.99",
-    rating: "4.6 stars",
-    reviews: "1,499 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41uULXHLL1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DFH8C526?tag=deskfinds0d-20",
     description:
-      "The clearest mismatch in this shared product pool: this is a fabric tension-rod curtain divider with no shelving, storage, or book-display function whatsoever. It appears here purely because it shares a search category with double-sided bookshelves, but it has nothing in common with a bookshelf beyond both being classified as room dividers.\n\nOn its own terms it's a well-reviewed curtain divider at 4.6 stars across 1,499 ratings, and worth considering if you actually want a plain fabric room divider rather than a bookshelf-style unit, but it should not be compared against the genuine bookshelf picks in this guide on shelving merit.\n\nAdjustable height reaches most ceilings. That's a real strength, but weigh it against the flip side: no shelving, storage, or book-display function at all.",
+      "The clearest mismatch in this shared product pool: this is a fabric tension-rod curtain divider with no shelving, storage, or book-display function whatsoever. It appears here purely because it shares a search category with double-sided bookshelves, but it has nothing in common with a bookshelf beyond both being classified as room dividers.\n\nAdjustable height reaches most ceilings. That's a real strength, but weigh it against the flip side: no shelving, storage, or book-display function at all.",
     specs: ["NOT a bookshelf, plain curtain rod divider", "No shelving or storage function", "4-10 ft adjustable height", "Fabric panel, no-drill tension mount"],
-    pros: ["Strong rating as a curtain divider, 4.6 stars, 1,499 ratings", "Adjustable height reaches most ceilings"],
+    pros: [ "Adjustable height reaches most ceilings"],
     cons: ["No shelving, storage, or book-display function at all", "Completely different product category from the bookshelf picks in this guide"],
     bestFor: "Buyers who followed this search but actually just want a plain fabric room divider, not a bookshelf.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -203,7 +203,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Buyer feedback and rating volume",
     description: "Weighed star ratings alongside sample size, several genuine bookshelf picks here have small rating counts that warrant reading with caution.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -353,12 +353,12 @@ export const faq: FaqItem[] = [
   {
     q: "What's the difference between per-side shelf depth and total unit depth?",
     a: "Per-side shelf depth describes how far one side's shelf extends from the center divider. Total unit depth is the combined front-to-back measurement of both sides together, commonly 20 to 24 inches in this category, and it's the number that actually determines whether the unit fits your floor plan for center-of-room placement.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-narrow-room-dividers-for-small-spaces", title: "Best Narrow Room Dividers for Small Spaces (2026)" },
   { href: "/guide/best-tall-room-dividers-for-high-ceilings", title: "Best Tall Room Dividers for High Ceilings (2026)" },
   { href: "/guide/best-room-dividers-for-home-offices", title: "Best Room Dividers for Home Offices (2026)" },
-  { href: "/guide/best-metal-filing-cabinets", title: "Best Metal Filing Cabinets (2026)" },
+  { href: "/guide/best-metal-filing-cabinets", title: "Best Metal Filing Cabinets (2026)" }
 ];

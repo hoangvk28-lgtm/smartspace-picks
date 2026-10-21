@@ -12,7 +12,7 @@ export const ceramicVsInfraredSpaceHeaterGuide: Guide = {
     "ceramic heater vs infrared heater",
     "infrared heater for office",
     "which space heater is more efficient",
-    "ceramic heater running cost",
+    "ceramic heater running cost"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const ceramicVsInfraredSpaceHeaterGuide: Guide = {
     "space-heater-room-size-chart",
     "space-heater-safety-explained",
     "desk-fan-cfm-explained",
-    "desk-lamp-kelvin-color-temperature",
+    "desk-lamp-kelvin-color-temperature"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const ceramicVsInfraredSpaceHeaterGuide: Guide = {
       question: "Are infrared heaters silent compared to ceramic heaters?",
       answer:
         "Generally yes, infrared heaters typically don't use a fan and operate silently, while ceramic heaters usually include a fan to circulate warm air, producing at least some background noise during operation.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const ceramicVsInfraredSpaceHeaterGuide: Guide = {
     {
       heading: "Choosing Based on Your Actual Space",
       body: `If you work in an enclosed small room and want the whole space to warm up and stay comfortable, a ceramic heater with a fan does this more effectively over time. If you only need warmth at your desk specifically, don't mind sitting within direct line of sight of the heater, and want silent operation, an infrared heater delivers targeted comfort without the fan noise.`,
-    },
+    }
   ],
 };

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "gel laptop cooling pads";
 export const introParagraphs = [
   "It's worth being direct before recommending anything: a genuine gel laptop cooling pad, one that uses a heat-absorbing gel material instead of a fan, is a niche and uncommon product. When we researched this term against real, currently available listings, we could not verify a single genuinely gel-based product with documented gel or ice-pack style cooling material among the pool of laptop cooling accessories we checked. Almost everything sold under cooling pad search terms in this category is fan-driven.",
-  "That distinction matters because gel and fan cooling work on fundamentally different principles. A gel pad absorbs heat passively into a cool mass, with no moving parts and no continuous airflow, and its cooling effect declines the longer you use it as the gel itself warms up. A fan pad moves air continuously and does not run out of cooling capacity the way a gel pad's thermal mass does. If you specifically want gel-based cooling, search directly for 'gel ice pack laptop cooling pad' or a similar phrase rather than the general 'laptop cooling pad' term, since that broader term returns almost entirely fan-based results.",
+  "That distinction matters because gel and fan cooling work on fundamentally different principles. A gel pad absorbs heat passively into a cool mass, with no moving parts and no continuous airflow, and its cooling effect declines the longer you use it as the gel itself warms up. A fan pad moves air continuously and does not run out of cooling capacity the way a gel pad's thermal mass does. If you specifically want gel-based cooling, search directly for 'gel ice pack laptop cooling pad' or a similar phrase rather than the general 'laptop cooling pad' term, since that broader term returns almost entirely fan-based results."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "6 min";
@@ -75,7 +75,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Category honesty first", description: "We searched specifically for genuine gel or ice-pack style cooling material and could not verify any currently available product in this research pool that matched that description. We disclosed that gap directly rather than mislabeling fan pads as gel products." },
   { title: "Mechanism transparency", description: "For each alternative included, we stated plainly that the cooling mechanism is fan-driven or metal-conductive, not gel-based, so buyers are not misled by material or comfort similarities." },
   { title: "Relevance to what gel-seeking buyers likely want", description: "We selected alternatives based on soft material, passive conduction, or surface heat protection, the qualities that typically motivate a 'gel' search, even though the underlying mechanism differs." },
-  { title: "Value and simplicity", description: "Among the honest alternatives, we weighed price, ease of setup, and whether continuous fan noise is an acceptable tradeoff versus a genuine gel pad's total silence." },
+  { title: "Value and simplicity", description: "Among the honest alternatives, we weighed price, ease of setup, and whether continuous fan noise is an acceptable tradeoff versus a genuine gel pad's total silence." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -211,11 +211,11 @@ export const faq: FaqItem[] = [
   { q: "Why does this guide feature fan-based products if it's about gel pads?", a: "We could not verify any genuinely gel-based product in our research pool for this category. Rather than mislabel a fan pad as gel, we disclosed the gap directly and included honestly-labeled fan-based alternatives instead." },
   { q: "Is gel cooling better than fan cooling?", a: "Neither is universally better. Gel cooling is silent and passive but its effect declines as the gel warms during use. Fan cooling is continuous and doesn't run out of capacity, but requires power and adds some noise." },
   { q: "How do I find a real gel laptop cooling pad?", a: "Search specifically for 'gel ice pack laptop cooling pad' rather than the general 'laptop cooling pad' term, and read the actual product description to confirm it names a real gel or phase-change material, not just cushioned foam." },
-  { q: "What should I buy instead if fan noise is a dealbreaker?", a: "Look at fanless or passive-only laptop stands and pads, which rely on elevation and material conductivity rather than gel or fans, or search directly for gel ice pack products as a genuinely passive alternative." },
+  { q: "What should I buy instead if fan noise is a dealbreaker?", a: "Look at fanless or passive-only laptop stands and pads, which rely on elevation and material conductivity rather than gel or fans, or search directly for gel ice pack products as a genuinely passive alternative." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" },
   { href: "/guide/best-high-rpm-laptop-cooling-pads", title: "Best High-RPM Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-metal-laptop-cooling-pads", title: "Best Metal Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-metal-laptop-cooling-pads", title: "Best Metal Laptop Cooling Pads (2026)" }
 ];

@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "LayBurst 8FT Conference Table measures 94.4 L x 47.2 W x30.7 H and is built around dual stability reinforcement structure, positioning it for 7 ft buyers specifically.\n\nLarge-Sized Conference Table is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 7 ft, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["94.4 L x 47.2 W x30.7 H table dimensions","Dual Stability Reinforcement Structure","Large-Sized Conference Table"],
     pros: ["Dual Stability Reinforcement Structure, confirmed directly in the listing's own spec details","Large-Sized Conference Table, confirmed directly in the listing's own spec details","Cable Holes and Adjustable Footpads, confirmed directly in the listing's own spec details"],
-    cons: ["At $199.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $200, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 7 ft",
   }
 
@@ -178,32 +178,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $199.99",
+          "Under $200",
           "LayBurst 8FT Conference Table"
         ],
         [
-          "Around $219.99",
+          "Under $250",
           "Tribesigns 7ft Conference Table for 6-8"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "ECACAD 7FT Conference Table"
         ],
         [
-          "Around $239.99",
+          "Under $250",
           "Tribesigns 70.86\" Rectangular Conference Table"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "ECACAD 7FT Conference Table for 6-8"
         ],
         [
-          "Around $829.99",
+          "Under $850",
           "Tribesigns 7ft Conference Table for 6-8"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -251,7 +251,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "Tribesigns 7ft Conference Table for 6-8 is aimed at buyers prioritizing 86.6\"l x 27.6\"w x 29.5\"h, seats 6-8." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Tribesigns 7ft Conference Table for 6-8 is aimed at buyers prioritizing 86.6\"l x 27.6\"w x 29.5\"h, seats 6-8." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-10-ft-conference-tables","title":"Best 10 ft Conference Tables in 2026"},{"href":"/guide/best-6-ft-conference-tables","title":"Best 6 ft Conference Tables in 2026"},{"href":"/guide/best-8ft-conference-tables","title":"Best 8ft Conference Tables in 2026"}];

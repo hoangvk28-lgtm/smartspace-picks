@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "This splitter's listing specifically states 4KV surge protection to keep the splitter and connected cable safe from lightning strikes and other electrical surges, a concrete protection rating not disclosed on the other picks in this comparison. Its waterproof PoE port design with a waterproof plug is rated from -20C to 55C for reliable outdoor operation.\n\nCompared to the TIENFOKOTA pick above, this one's support for both POE Mode A and Mode B gives it broader compatibility with more PoE supply devices, and its included DC connectors accommodate devices with different DC port types.\n\nBest for buyers who want explicit 4KV surge protection alongside broad PoE Mode A/B compatibility.",
     specs: ["4KV surge protection, waterproof PoE port", "PoE Mode A and B compatible, -20C to 55C range", "2-pack with included DC connectors"],
     pros: ["Explicit 4KV surge protection rating for electrical safety", "Supports both PoE Mode A and Mode B for broader compatibility", "Includes DC connectors for different device port types"],
-    cons: ["Highest price in this comparison at $19.99", "100Mbps speed only, not Gigabit"],
+    cons: ["Highest price in this comparison at under $20", "100Mbps speed only, not Gigabit"],
     bestFor: "buyers who want explicit surge protection alongside broad PoE Mode A/B compatibility",
   },
   {
@@ -77,7 +77,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0B4JT5VSK?tag=deskfinds0d-20",
     description: "This splitter's listing specifically states a maximum output DC current of 1.2A, slightly above the standard 1A rating, delivered through an all-copper cable design for real-time data transmission without jamming. Its two-pack format at the lowest price in this comparison delivers genuine value for converting two devices.\n\nCompared to the pricier picks above, this one's straightforward plug-and-play design with no configuration required keeps installation simple for buyers who don't need waterproofing or surge protection specifications.\n\nBest for buyers who want the lowest price for two units without needing waterproofing or surge protection.",
     specs: ["12V/1.2A output, all-copper cable design", "10/100Mbps adaptive, 2-pack included", "44-57V PoE input voltage range"],
-    pros: ["Lowest price in this comparison at $8.99", "Slightly higher 1.2A output than a standard 1A rating", "Two-pack format delivers genuine per-unit value"],
+    pros: ["Lowest price in this comparison at under $9", "Slightly higher 1.2A output than a standard 1A rating", "Two-pack format delivers genuine per-unit value"],
     cons: ["No stated waterproof rating or surge protection", "100Mbps speed only, not Gigabit"],
     bestFor: "buyers who want the lowest price for two units without needing waterproofing or surge protection",
   }
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["The highest amperage with full Gigabit speed", "Gigabit PoE Splitter 12V 2A Output"],
         ["Genuine outdoor waterproofing for two devices", "TIENFOKOTA POE Splitter 48V to 12V (2 Pack)"],
         ["Explicit 4KV surge protection", "LINOVISION Waterproof PoE Splitter, DC 12V (2 Pack)"],
-        ["The lowest price for two units", "Bawofu Active PoE Splitter Adapter (2 Pack)"],
+        ["The lowest price for two units", "Bawofu Active PoE Splitter Adapter (2 Pack)"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $9", "Bawofu Active PoE Splitter (2 Pack) ($8.99)"],
-        ["Under $14", "Gigabit PoE Splitter 12V 2A ($13.39)"],
-        ["Under $16", "TIENFOKOTA POE Splitter (2 Pack) ($15.99)"],
-        ["Under $20", "LINOVISION Waterproof Splitter (2 Pack) ($19.99)"],
+        ["Under $9", "Bawofu Active PoE Splitter (2 Pack) (under $9)"],
+        ["Under $14", "Gigabit PoE Splitter 12V 2A (under $15)"],
+        ["Under $16", "TIENFOKOTA POE Splitter (2 Pack) (under $20)"],
+        ["Under $20", "LINOVISION Waterproof Splitter (2 Pack) (under $20)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Higher Amperage vs Waterproof Outdoor Rating",
     cards: [
       { label: "Higher amperage (Gigabit pick)", text: "Delivers 24W (2A) at full Gigabit speed, best for a higher-draw device that needs more continuous power and bandwidth." },
-      { label: "Waterproof outdoor rating (TIENFOKOTA, LINOVISION)", text: "Both carry IP-rated waterproof housings for genuine outdoor exposure, at a lower amperage but with real weatherproofing." },
+      { label: "Waterproof outdoor rating (TIENFOKOTA, LINOVISION)", text: "Both carry IP-rated waterproof housings for genuine outdoor exposure, at a lower amperage but with real weatherproofing." }
     ],
     note: "If your device draws close to 2A or needs Gigabit bandwidth, the top pick's higher output is worth prioritizing. If your installation faces real outdoor weather exposure, the waterproof-rated picks are the more appropriate choice regardless of amperage.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["Up to 1A (12W)", "Any pick in this comparison covers this need"],
         ["1A to 1.2A", "Bawofu Active PoE Splitter Adapter"],
-        ["Up to 2A (24W)", "Gigabit PoE Splitter 12V 2A Output"],
+        ["Up to 2A (24W)", "Gigabit PoE Splitter 12V 2A Output"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For a New Installer Unsure of Power Matching Specifically",
     cards: [
       { label: "Look for", text: "A listing that explicitly explains power matching, confirming the splitter's output power must exceed the device's actual power requirement to avoid underpowering." },
-      { label: "In this comparison", text: "The TIENFOKOTA pick specifically provides detailed power-matching guidance, walking through a concrete example of matching a 12V/1A device to an appropriately rated splitter." },
+      { label: "In this comparison", text: "The TIENFOKOTA pick specifically provides detailed power-matching guidance, walking through a concrete example of matching a 12V/1A device to an appropriately rated splitter." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want explicit 4KV surge protection alongside broad PoE Mode A/B compatibility, where the LINOVISION pick's $19.99 price is justified by that combination." },
-      { label: "Save if", text: "You just need two basic 12V splitters without waterproofing or surge protection, where the Bawofu pick delivers that for $8.99, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You want explicit 4KV surge protection alongside broad PoE Mode A/B compatibility, where the LINOVISION pick's under $20 price is justified by that combination." },
+      { label: "Save if", text: "You just need two basic 12V splitters without waterproofing or surge protection, where the Bawofu pick delivers that for under $9, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

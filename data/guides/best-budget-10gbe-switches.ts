@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $79.99",
+          "Under $80",
           "6-Port 10Gbe Ethernet Switch Unmanaged"
         ],
         [
-          "Around $84.99",
+          "Under $90",
           "TRENDnet 6-Port 10G Switch"
         ],
         [
-          "Around $139.98",
+          "Under $140",
           "10-Port 10G Ethernet Switch Unmanaged"
         ],
         [
-          "Around $156.98",
+          "Under $160",
           "5-Port 10Gb RJ45 Web Managed Ethernet Switch"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "TP-Link TL-SX105"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "Unmanaged switches are genuinely plug-and-play with no configuration, fine for a simple home or small office network. Managed or smart-managed switches add VLANs, QoS, and traffic prioritization, useful once you have multiple network segments, guest WiFi isolation, or need to prioritize specific traffic types."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "6-Port 10Gbe Ethernet Switch Unmanaged is aimed at buyers prioritizing 2x 10g + 4x 2.5g ports, 60gbps capacity." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "6-Port 10Gbe Ethernet Switch Unmanaged is aimed at buyers prioritizing 2x 10g + 4x 2.5g ports, 60gbps capacity." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-10gbe-switches","title":"Best 10GbE Switches in 2026"},{"href":"/guide/best-netgear-10gbe-switches","title":"Best NETGEAR 10GbE Switches in 2026"},{"href":"/guide/best-8-port-10gbe-switches","title":"Best 8-Port 10GbE Switches in 2026"}];

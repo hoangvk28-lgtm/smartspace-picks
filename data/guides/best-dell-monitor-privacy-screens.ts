@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "dell monitor privacy screen";
 export const introParagraphs = [
   "Dell does not manufacture monitor privacy filters as a standard accessory line. Every product here is a third-party filter sized to fit common Dell monitor dimensions, not a certified Dell accessory.",
-  "Dell's business monitor lineup is overwhelmingly 16:9 at 24 and 27 inch, with some smaller 22 inch models. We matched picks to these common sizes and flagged where an explicit multi-brand compatibility mention includes Dell by name.",
+  "Dell's business monitor lineup is overwhelmingly 16:9 at 24 and 27 inch, with some smaller 22 inch models. We matched picks to these common sizes and flagged where an explicit multi-brand compatibility mention includes Dell by name."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -110,9 +110,9 @@ export const products: GuideProduct[] = [
     reviews: "70",
     imageUrl: "https://m.media-amazon.com/images/I/41k059xiB9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVRQTXC8?tag=deskfinds0d-20",
-    description: "Some of Dell's smaller and older business monitors use a 16:10 aspect ratio rather than 16:9, and this pick is specifically sized for that ratio at 22 inches.\n\nSitting just under [2 Pack] 27 Inch Computer Monitor Privacy Screen, it's priced lower than [2 Pack] 27 Inch Computer Monitor Privacy Screen. Here's the honest tradeoff: Only fits 16:10 monitors, confirm your Dell model's exact aspect ratio first. And here's what it gets you instead: Specifically sized for 16:10, relevant for older or compact Dell business monitors. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Strong 4.6 rating. On the other side, Only fits 16:10 monitors, confirm your Dell model's exact aspect ratio first. That's the main tradeoff to weigh against everything above.",
+    description: "Some of Dell's smaller and older business monitors use a 16:10 aspect ratio rather than 16:9, and this pick is specifically sized for that ratio at 22 inches.\n\nSitting just under [2 Pack] 27 Inch Computer Monitor Privacy Screen, it's priced lower than [2 Pack] 27 Inch Computer Monitor Privacy Screen. Here's the honest tradeoff: Only fits 16:10 monitors, confirm your Dell model's exact aspect ratio first. And here's what it gets you instead: Specifically sized for 16:10, relevant for older or compact Dell business monitors. That's the real difference between the two picks, not just a ranking number.\n\nOn the other side, Only fits 16:10 monitors, confirm your Dell model's exact aspect ratio first. That's the main tradeoff to weigh against everything above.",
     specs: ["22 inch, 16:10 aspect ratio","2-pack"],
-    pros: ["Specifically sized for 16:10, relevant for older or compact Dell business monitors","Strong 4.6 rating"],
+    pros: ["Specifically sized for 16:10, relevant for older or compact Dell business monitors"],
     cons: ["Only fits 16:10 monitors, confirm your Dell model's exact aspect ratio first"],
     bestFor: "Buyers with an older or compact Dell monitor that uses a 16:10 aspect ratio instead of 16:9.",
   },
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified Dell does not manufacture privacy filters", description: "We confirmed all results here are third-party filters and did not imply Dell branding or certification unless the listing explicitly and specifically claimed it." },
   { title: "Matched picks to Dell's common monitor sizes and aspect ratios", description: "We organized picks around Dell's most common 22, 24, and 27 inch monitor sizes, including the 16:10 aspect ratio used on some older or compact business models." },
   { title: "Flagged the aspect-ratio trap directly", description: "We specifically called out that some Dell monitors use 16:10 rather than 16:9, a common source of a bad fit if buyers assume 16:9 across all Dell models." },
-  { title: "Weighed review volume within each size tier separately", description: "We compared review counts within the same size and aspect ratio, since a 24 inch filter's review base isn't a useful comparison against a 22 inch filter's." },
+  { title: "Weighed review volume within each size tier separately", description: "We compared review counts within the same size and aspect ratio, since a 24 inch filter's review base isn't a useful comparison against a 22 inch filter's." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -265,7 +265,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
-    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nThis matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
   }
 ];
 
@@ -274,11 +274,11 @@ export const faq: FaqItem[] = [
   { q: "Which pick explicitly mentions Dell compatibility?", a: "The 2 Pack 24 Inch Magnetic Computer Privacy Screen is the only pick here that lists Dell among its stated compatible brands." },
   { q: "Are all Dell monitors 16:9?", a: "No. Most current Dell monitors are 16:9, but some older or compact business models use a 16:10 aspect ratio. Check your exact model before ordering." },
   { q: "What's the best option for a 27 inch Dell monitor?", a: "The Peslv [2-Pack] 27 Inch Privacy Screen, with the largest review base at this size in our research." },
-  { q: "How do I know my Dell monitor's exact dimensions?", a: "Check your UltraSharp or business model number and look up its active display width and height directly, rather than relying on the diagonal size alone." },
+  { q: "How do I know my Dell monitor's exact dimensions?", a: "Check your UltraSharp or business model number and look up its active display width and height directly, rather than relying on the diagonal size alone." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-hp-monitor-privacy-screens", title: "Best HP Monitor Privacy Screens (2026)" },
   { href: "/guide/best-lenovo-monitor-privacy-screens", title: "Best Lenovo Monitor Privacy Screens (2026)" },
-  { href: "/guide/best-monitor-privacy-screens", title: "Best Monitor Privacy Screens (2026)" },
+  { href: "/guide/best-monitor-privacy-screens", title: "Best Monitor Privacy Screens (2026)" }
 ];

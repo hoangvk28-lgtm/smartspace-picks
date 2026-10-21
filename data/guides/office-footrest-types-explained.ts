@@ -12,7 +12,7 @@ export const officeFootrestTypesExplainedGuide: Guide = {
     "footrest for short person desk",
     "tilting vs fixed footrest",
     "rocking footrest benefits",
-    "feet dangling at desk fix",
+    "feet dangling at desk fix"
   ],
   heroImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const officeFootrestTypesExplainedGuide: Guide = {
     "how-to-measure-office-chair-fit",
     "office-chair-size-chart",
     "standing-desk-footrest-explained",
-    "office-chair-weight-capacity-explained",
+    "office-chair-weight-capacity-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const officeFootrestTypesExplainedGuide: Guide = {
       question: "Can a footrest cause problems if it's the wrong height?",
       answer:
         "Yes, a footrest too tall can push your knees up uncomfortably high, disrupting proper hip alignment, while one too short doesn't adequately support your feet, measuring or testing before committing to a specific height helps avoid this common mismatch.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const officeFootrestTypesExplainedGuide: Guide = {
     {
       heading: "Why Rocking or Tilting Footrests Address an Often-Overlooked Fatigue Source",
       body: `Just as sustained, unchanging posture contributes to standing fatigue, keeping feet in one fixed, static position for hours while seated can similarly contribute to lower leg discomfort and reduced circulation over an extended workday, a rocking or tilting footrest allows small, ongoing position adjustments throughout the day, similar in principle to how alternating feet on a standing desk footrest helps, this postural variation benefit is a genuine functional advantage beyond simple comfort preference, worth considering for anyone who sits for many consecutive hours daily.`,
-    },
+    }
   ],
 };

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop cooling pad four fans";
 export const introParagraphs = [
   "We set out to build this guide the same way we built our two, three, five, and six fan guides: check every candidate pad's actual feature text against its marketed fan count, and only keep pads that genuinely confirm the number in the title. For four fans specifically, that check came back empty. Every pad we reviewed that mentions four fans in its configuration actually totals a different number once you read the full spec, most commonly five fans built from four large fans plus one smaller center fan, or a fan count of three or six entirely.",
-  "Rather than stretch the definition or list pads that do not genuinely match, we are reporting that honestly. Below we cover the two closest documented configurations, one just under four fans and one just over, so readers searching specifically for a four-fan pad can make an informed choice between stepping down to three or up to a five-fan design that is built around four primary fans plus a smaller support fan.",
+  "Rather than stretch the definition or list pads that do not genuinely match, we are reporting that honestly. Below we cover the two closest documented configurations, one just under four fans and one just over, so readers searching specifically for a four-fan pad can make an informed choice between stepping down to three or up to a five-fan design that is built around four primary fans plus a smaller support fan."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "6 min";
@@ -59,7 +59,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Fan-count verification across the full candidate pool", description: "We checked the feature text of every candidate pad marketed near a four-fan configuration and found none that genuinely confirmed exactly four fans in their own specs." },
   { title: "Honest reporting over a padded list", description: "Rather than stretch the definition of 'four fans' to include five-fan or three-fan products without disclosure, we labeled both included picks by their real, verified fan count." },
   { title: "Distance from the exact four-fan mark", description: "We selected the closest configuration above (5 fans, 4 large + 1 small) and below (3 fans) the four-fan mark so buyers have a real choice in either direction." },
-  { title: "Practical airflow contribution, not just the number on the box", description: "For the 5-fan pick, we noted that four of its five fans are the large, primary units, making it functionally closer to a four-fan design than the raw count suggests." },
+  { title: "Practical airflow contribution, not just the number on the box", description: "For the 5-fan pick, we noted that four of its five fans are the large, primary units, making it functionally closer to a four-fan design than the raw count suggests." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -191,11 +191,11 @@ export const faq: FaqItem[] = [
   { q: "Is the AIMIUZI pad really a four-fan pad?", a: "No. Its listing states five total fans, four large fans plus one small center fan. We include it here as the closest functional match since the four large fans do most of the cooling work, but we do not represent it as a genuine four-fan product." },
   { q: "Should I buy a 3-fan or a 5-fan pad instead?", a: "It depends on your workload. The confirmed 3-fan TECKNET pick above suits lighter use, while the 5-fan AIMIUZI pick, with its four large primary fans, suits buyers who want more airflow closer to what a four-fan design would offer." },
   { q: "Why do so many listings market fan counts inconsistently?", a: "Manufacturers sometimes use fan icons or marketing copy that does not match the literal count in the feature bullets. Always cross-check the written specs rather than relying on the product title or main image alone." },
-  { q: "Will this guide be updated if a genuine four-fan pad becomes available?", a: "Yes. If a listing verifiably confirms an exact four-fan configuration in future research, we will update this guide to include it rather than continuing to rely on close substitutes." },
+  { q: "Will this guide be updated if a genuine four-fan pad becomes available?", a: "Yes. If a listing verifiably confirms an exact four-fan configuration in future research, we will update this guide to include it rather than continuing to rely on close substitutes." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-cooling-pads-with-three-fans", title: "Best Laptop Cooling Pads with Three Fans (2026)" },
   { href: "/guide/best-laptop-cooling-pads-with-five-fans", title: "Best Laptop Cooling Pads with Five Fans (2026)" },
-  { href: "/guide/best-laptop-cooling-pads-with-six-fans", title: "Best Laptop Cooling Pads with Six Fans (2026)" },
+  { href: "/guide/best-laptop-cooling-pads-with-six-fans", title: "Best Laptop Cooling Pads with Six Fans (2026)" }
 ];

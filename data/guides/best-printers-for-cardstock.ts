@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "printer for cardstock";
 export const introParagraphs = [
   "Printing on cardstock is not the same task as printing on plain paper, and a printer that handles standard 20lb office paper without issue can jam, smudge, or simply refuse to pull heavier 65lb to 110lb stock through its rollers. The right pick depends on how the printer feeds thick paper, whether it uses ink or toner, and how far you can adjust the print head clearance for very heavy stock.",
-  "Below are 8 printers we evaluated for cardstock handling, from budget inkjets that manage light cardstock through the rear tray to an ink-tank workhorse built for high-volume invitation runs, ranging from $64.00 to $209.99.",
+  "Below are 8 printers we evaluated for cardstock handling, from budget inkjets that manage light cardstock through the rear tray to an ink-tank workhorse built for high-volume invitation runs, ranging from roughly $70 to $250."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "9 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Standard paper tray feed",
       "Copier and scanner built in",
       "Compact home printer footprint",
-      "Wireless printing",
+      "Wireless printing"
     ],
     pros: [
       "Lowest price in this list",
       "Inkjet avoids the heat-warping risk of laser on thick stock",
       "Duplex printing for two-sided cards",
-      "Easy setup for occasional use",
+      "Easy setup for occasional use"
     ],
     cons: [
       "No rear straight-feed slot for heavier stock",
       "Not built for high-volume cardstock runs",
-      "General AIO printer rather than a cardstock specialist",
+      "General AIO printer rather than a cardstock specialist"
     ],
     bestFor: "Occasional greeting cards and light invitations on a budget",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Mobile printing and built-in fax",
       "Standard tray paper feed",
       "Compact home office design",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     pros: [
       "Auto document feeder useful beyond cardstock projects",
       "Inkjet handles light cardstock without warping",
       "Affordable entry price",
-      "Fax included for document workflows",
+      "Fax included for document workflows"
     ],
     cons: [
       "No dedicated rear feed for thick stock",
       "General AIO, not a cardstock specialist",
-      "Best kept to lighter cardstock weights",
+      "Best kept to lighter cardstock weights"
     ],
     bestFor: "Buyers who need light cardstock printing plus document scanning",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "3-month Instant Ink trial included",
       "AI-capable printing features",
       "Standard tray feed",
-      "Compact home design",
+      "Compact home design"
     ],
     pros: [
       "Good for mixed photo and cardstock projects",
       "Included Instant Ink trial offsets initial ink cost",
       "Inkjet output avoids laser warping on thick stock",
-      "Simple wireless setup",
+      "Simple wireless setup"
     ],
     cons: [
       "No rear straight-feed slot mentioned",
       "General AIO printer, not a cardstock specialist",
-      "Ink cost rises after the trial period ends",
+      "Ink cost rises after the trial period ends"
     ],
     bestFor: "Buyers who want one printer for both cardstock crafts and photos",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "1.42-inch OLED display",
       "Copier and scanner included",
       "Compact design with intuitive controls",
-      "Wireless printing",
+      "Wireless printing"
     ],
     pros: [
       "OLED display simplifies selecting the correct media type",
       "Duplex printing for two-sided cards",
       "Inkjet avoids heat-warping thick stock",
-      "1-year limited warranty included",
+      "1-year limited warranty included"
     ],
     cons: [
       "Still a general AIO, not a dedicated cardstock printer",
       "No confirmed rear straight-feed slot",
-      "Best for light to medium cardstock only",
+      "Best for light to medium cardstock only"
     ],
     bestFor: "Buyers who want easier media-type control for occasional card projects",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Automatic duplex printing",
       "Copy and scan built in",
       "Wireless and mobile printing",
-      "Compact footprint",
+      "Compact footprint"
     ],
     pros: [
       "Crisp, smudge-proof black text on light cardstock",
       "Duplex printing built in",
       "Toner does not smear like wet ink",
-      "Reliable for text-heavy card inserts",
+      "Reliable for text-heavy card inserts"
     ],
     cons: [
       "Heat from the laser fuser risks warping thicker cardstock",
       "No color output",
-      "Higher price than the inkjet picks in this list",
+      "Higher price than the inkjet picks in this list"
     ],
     bestFor: "Black-and-white cardstock inserts and booklets where warping risk on lighter stock is acceptable",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Color print, scan, and copy",
       "Wireless printing",
       "Bottled ink included",
-      "Designed for frequent, regular-volume printing",
+      "Designed for frequent, regular-volume printing"
     ],
     pros: [
       "Ink bottle refills cost far less per page for high cardstock volume",
       "Inkjet output avoids laser warping",
       "Scan and copy included",
-      "Good fit for a recurring card-making hobby or small shop",
+      "Good fit for a recurring card-making hobby or small shop"
     ],
     cons: [
       "No confirmed dedicated thick-media feed slot",
       "Larger footprint than basic inkjets",
-      "Higher upfront cost than budget inkjets",
+      "Higher upfront cost than budget inkjets"
     ],
     bestFor: "Frequent cardstock projects and small card-making businesses watching ink cost",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Automatic document feeder and fax",
       "Ethernet and wireless connectivity",
       "Color print, scan, and copy",
-      "Designed for home office use",
+      "Designed for home office use"
     ],
     pros: [
       "Ink-tank economics for high cardstock volume",
       "ADF and fax useful for a mixed home office workload",
       "Ethernet option for a stable wired connection",
-      "Inkjet keeps cardstock flat",
+      "Inkjet keeps cardstock flat"
     ],
     cons: [
       "Largest footprint in this list",
       "No confirmed heavy-stock straight-feed path",
-      "Higher price than basic inkjets",
+      "Higher price than basic inkjets"
     ],
     bestFor: "Home offices mixing frequent cardstock printing with document scanning and faxing",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Print, scan, and copy",
       "Wireless printing",
       "Compact for an ink-tank printer",
-      "Home use design",
+      "Home use design"
     ],
     pros: [
       "Lower entry price than the EcoTank ink-tank picks",
       "Ink-tank economics for volume cardstock printing",
       "Inkjet avoids heat warping",
-      "Good dedicated crafting printer",
+      "Good dedicated crafting printer"
     ],
     cons: [
       "No document feeder or fax",
       "No confirmed thick-media rear slot",
-      "Best suited to standard cardstock weights, not the heaviest specialty stock",
+      "Best suited to standard cardstock weights, not the heaviest specialty stock"
     ],
     bestFor: "Dedicated card-making and craft setups prioritizing ink-tank savings",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Honest fit for cardstock vs general use",
     description: "Distinguished true cardstock-capable inkjets from general all-in-one printers included as budget alternatives, rather than presenting every pick as a specialist.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,12 +477,12 @@ export const faq: FaqItem[] = [
   {
     q: "Should I test cardstock before printing a full batch of invitations?",
     a: "Yes, always print one test sheet of your specific cardstock first. Feed reliability, color output, and drying time can vary by texture, coating, and humidity even on printers rated to handle cardstock well, and a single test sheet catches problems before they cost you a whole batch of paper.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-envelopes", title: "Best Printers for Envelopes (2026)" },
   { href: "/guide/best-photo-printers-for-home-use", title: "Best Photo Printers for Home Use (2026)" },
   { href: "/guide/best-printers-for-home-use", title: "Best Printers for Home Use (2026)" },
-  { href: "/guide/best-easy-to-use-printers", title: "Best Easy-to-Use Printers (2026)" },
+  { href: "/guide/best-easy-to-use-printers", title: "Best Easy-to-Use Printers (2026)" }
 ];

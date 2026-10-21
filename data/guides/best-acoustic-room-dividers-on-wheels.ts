@@ -5,7 +5,7 @@ export const metaDescription = "5 wheeled acoustic room dividers we evaluated, w
 export const mainKeyword = "acoustic room divider on wheels";
 export const introParagraphs = [
   "More panels on a wheeled acoustic room divider mean wider coverage when unfolded, but also a bulkier folded footprint when you push it aside for storage, a real space tradeoff most listings don't address directly.",
-  "Wheel quality and locking casters matter more for daily practical use than the acoustic panel material itself, a divider that's hard to roll or won't stay put once positioned undermines the whole point of choosing a mobile option over a fixed partition.",
+  "Wheel quality and locking casters matter more for daily practical use than the acoustic panel material itself, a divider that's hard to roll or won't stay put once positioned undermines the whole point of choosing a mobile option over a fixed partition."
 ];
 export const lastUpdated = "2026-07-30";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best 3-Panel Wheeled Room Divider",
     name: "3 Panel Soundproof Room Divider, Portable Acoustic Office Divider",
     price: "$359.99",
-    rating: "4.6 stars from 40 Amazon ratings",
-    reviews: "40 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Fu6stedSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C1GFN2YT?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Heavy-Duty 72-Inch Wheeled Divider",
     name: "72in 3-Panel Soundproof Room Divider with Wheels, Heavy-Duty Acoustic",
     price: "$272.99",
-    rating: "5.0 stars from 4 Amazon ratings",
-    reviews: "4 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31N6zWVRQ9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2HC56SD?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wide-Coverage 4-Panel Divider",
     name: "4 Panel Soundproof Room Divider, Portable Acoustic Office Divider",
     price: "$474.99",
-    rating: "4.6 stars from 40 Amazon ratings",
-    reviews: "40 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Q4uedNnlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLYKSZYN?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Alternate 3-Panel Pick",
     name: "3 Panel Soundproof Room Divider, Portable Acoustic Office Divider",
     price: "$349.99",
-    rating: "4.6 stars from 40 Amazon ratings",
-    reviews: "40 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/415j3VjblVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DPFRWSTM?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Alternate Heavy-Duty 72-Inch Pick",
     name: "72in 3-Panel Soundproof Room Divider with Wheels, Heavy-Duty Acoustic",
     price: "$272.99",
-    rating: "5.0 stars from 2 Amazon ratings",
-    reviews: "2 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31QuqUSZuOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2HCQN2H?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Same heavy-duty build as the primary listing", "Lower price than the standard 3-panel top pick", "72in height for standing-height division", "Alternative if the primary listing is out of stock"],
     cons: ["Extremely limited review history", "No specific NRC/STC rating disclosed", "Essentially a duplicate listing, compare stock before choosing"],
     bestFor: "Buyers seeking the heavy-duty 72-inch design if the primary listing is unavailable",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Panel count vs. folded footprint tradeoff", description: "Weighed how coverage width scales with panel count against the bulkier folded footprint each additional panel adds when the divider is pushed aside for storage." },
   { title: "Wheel and caster quality for daily practical use", description: "Considered wheel and locking-caster quality as a real differentiator, since a divider that's hard to roll or won't stay positioned undermines the entire point of choosing a mobile design." },
-  { title: "Review base scrutiny for newer heavy-duty listings", description: "Flagged newer listings with very limited review counts honestly, rather than treating an early perfect rating as equivalent evidence to an established, more-reviewed product." },
+  { title: "Review base scrutiny for newer heavy-duty listings", description: "Flagged newer listings with very limited review counts honestly, rather than treating an early perfect rating as equivalent evidence to an established, more-reviewed product." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -228,11 +228,11 @@ export const faq: FaqItem[] = [
   { q: "Are these room dividers actually soundproof?", a: "Treat 'soundproof' marketing language cautiously. None of the picks in this guide disclose a tested Noise Reduction Coefficient or Sound Transmission Class rating, they provide meaningful acoustic and visual separation, not laboratory-verified soundproofing." },
   { q: "Is a heavy-duty wheeled divider worth it over a standard one?", a: "If you'll reposition the divider multiple times a day, yes, heavy-duty construction is built for that wear. Just weigh the newer heavy-duty listings' thinner review history against their claims before assuming equivalent proven durability." },
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers who want balanced coverage and storage footprint for a shared office" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who need a heavy-duty divider for frequent repositioning at a lower price At $272.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who need a heavy-duty divider for frequent repositioning at a lower price At under $300, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-acoustic-room-dividers", title: "Best Portable Acoustic Room Dividers (2026)" },
   { href: "/guide/best-sound-absorbing-desk-privacy-panels", title: "Best Sound-Absorbing Desk Privacy Panels (2026)" },
-  { href: "/guide/best-foldable-desk-privacy-panels", title: "Best Foldable Desk Privacy Panels (2026)" },
+  { href: "/guide/best-foldable-desk-privacy-panels", title: "Best Foldable Desk Privacy Panels (2026)" }
 ];

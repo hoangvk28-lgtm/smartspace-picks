@@ -61,7 +61,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B07WFLHTKK?tag=deskfinds0d-20",
     description: "This extender's listing specifically explains its PoC technology sends power from the transmitter to the receiver through the connected Ethernet cable, so only one power adapter is required and it's included in the package, an honest and clear disclosure of exactly how the single-cable power scheme works. Its built-in EDID copy function helps establish the correct resolution automatically between source and display.\n\nCompared to the OREI and PWAY picks above, this one's lowest price in this comparison makes it accessible for a straightforward point-to-point HDMI extension without needing 4K resolution or true PoE switch compatibility.\n\nBest for buyers who want the lowest price for a straightforward point-to-point HDMI extension with reduced cable clutter.",
     specs: ["PoC with single included power adapter", "164ft (50m) over Cat5e/Cat6/Cat7, 1080p@60Hz", "Built-in EDID copy for display compatibility"],
-    pros: ["Lowest price in this comparison at $23.99", "PoC design reduces cable clutter with only one power adapter needed", "Clear, honest explanation of exactly how its power scheme works"],
+    pros: ["Lowest price in this comparison at under $25", "PoC design reduces cable clutter with only one power adapter needed", "Clear, honest explanation of exactly how its power scheme works"],
     cons: ["Shortest range in this comparison at 164ft", "1080p resolution only, not 4K like the OREI pick"],
     bestFor: "buyers who want the lowest price for a straightforward point-to-point HDMI extension",
   },
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["True PoE switch compatibility for existing infrastructure", "PWAY 400ft HDMI Extender Over Ethernet (PW-DT273P)"],
         ["4K resolution with remote KVM control", "OREI KVM 4K HDMI Over Ethernet Extender Balun"],
         ["The lowest price for a simple point-to-point extension", "Steetek HDMI Extender Over Ethernet (HT202P)"],
-        ["The longest range with multi-display distribution", "PWAY HDMI Extender 500ft (Gigabit One-to-Many)"],
+        ["The longest range with multi-display distribution", "PWAY HDMI Extender 500ft (Gigabit One-to-Many)"]
       ],
     },
   },
@@ -109,9 +109,9 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $24", "Steetek HDMI Extender ($23.99)"],
-        ["Under $75", "Either PWAY pick ($74.99)"],
-        ["Under $99", "OREI KVM 4K Extender ($98.95)"],
+        ["Under $24", "Steetek HDMI Extender (under $25)"],
+        ["Under $75", "Either PWAY pick (under $80)"],
+        ["Under $99", "OREI KVM 4K Extender (under $100)"]
       ],
     },
   },
@@ -119,7 +119,7 @@ export const howToChoose = [
     subheading: "True PoE Switch Power vs PoC Single-Cable Power",
     cards: [
       { label: "True PoE switch power (PWAY 400ft)", text: "Draws power from an existing PoE switch on your network, reducing separate adapters if you already have PoE infrastructure deployed." },
-      { label: "PoC single-cable power (OREI, Steetek, PWAY 500ft)", text: "Sends power from transmitter to receiver over the same cable using a proprietary scheme, requiring only one power adapter but not connecting to your network's actual PoE switch." },
+      { label: "PoC single-cable power (OREI, Steetek, PWAY 500ft)", text: "Sends power from transmitter to receiver over the same cable using a proprietary scheme, requiring only one power adapter but not connecting to your network's actual PoE switch." }
     ],
     note: "If you already have a PoE switch deployed and want to draw power from it directly, the PWAY 400ft pick is the only one in this comparison that genuinely supports that. If you just want reduced cable clutter with one power adapter, any PoC-based pick accomplishes that equally well.",
   },
@@ -130,7 +130,7 @@ export const howToChoose = [
       rows: [
         ["4K@60Hz with HDR support", "OREI KVM 4K HDMI Over Ethernet Extender Balun"],
         ["1080p for standard displays or projectors", "Steetek, either PWAY pick"],
-        ["1080p with remote PC control", "OREI pick's KVM feature works at reduced resolution too"],
+        ["1080p with remote PC control", "OREI pick's KVM feature works at reduced resolution too"]
       ],
     },
   },
@@ -138,16 +138,16 @@ export const howToChoose = [
     subheading: "For a Digital Signage or Classroom Deployment Specifically",
     cards: [
       { label: "Look for", text: "One-to-many broadcast capability over a standard network switch, letting a single HDMI source feed multiple displays without running separate HDMI cables to each screen." },
-      { label: "In this comparison", text: "Both PWAY picks specifically support one-to-many distribution, making either a strong fit for signage, classroom, or conference room deployments." },
+      { label: "In this comparison", text: "Both PWAY picks specifically support one-to-many distribution, making either a strong fit for signage, classroom, or conference room deployments." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You need 4K resolution with remote KVM control for a workstation or server room application, where the OREI pick's $98.95 price is justified by that combination of features." },
-      { label: "Save if", text: "You need a simple point-to-point 1080p extension without extra features, where the Steetek pick delivers that for $23.99, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You need 4K resolution with remote KVM control for a workstation or server room application, where the OREI pick's under $100 price is justified by that combination of features." },
+      { label: "Save if", text: "You need a simple point-to-point 1080p extension without extra features, where the Steetek pick delivers that for under $25, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

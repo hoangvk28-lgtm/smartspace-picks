@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "monitor shelf for desk";
 export const introParagraphs = [
   "Weight capacity numbers on most monitor shelves are calculated for an evenly distributed load, so a single heavy monitor sitting dead center, or a monitor paired with a soundbar and webcam stacked in one spot, creates point-load stress well above the shelf's stated rating. Check whether a shelf's rated capacity assumes spread-out weight before trusting it with a concentrated setup.",
-  "A shelf's footprint, especially its depth, eats directly into the desk space left for a keyboard, mouse, and knee clearance underneath, so raising a monitor is a real space tradeoff rather than a pure decluttering win. Measure your remaining desk depth after the shelf sits down before assuming it clears your typing position.",
+  "A shelf's footprint, especially its depth, eats directly into the desk space left for a keyboard, mouse, and knee clearance underneath, so raising a monitor is a real space tradeoff rather than a pure decluttering win. Measure your remaining desk depth after the shelf sits down before assuming it clears your typing position."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Monitor Shelf for a Desk",
     name: "WALI Computer Monitor Stand for Desk, Adjustable Laptop Riser, up to 44 lbs",
     price: "$14.99",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "15,803 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31VzBQ+jwWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B094QTGHNZ?tag=deskfinds0d-20",
     description: "A metal-frame shelf rated to 44 lbs when weight sits evenly across the platform, appropriate for buyers wanting a stable everyday monitor lift without a large footprint eating into desk depth.\n\nIt earns the top spot in this comparison over HUANUO Monitor Riser for Desk for one main reason. Stable, well-reviewed metal build. On price, it comes in below HUANUO Monitor Riser for Desk, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Adjustable height doubles as a laptop riser. On the other side, Center-loaded heavy monitors exceed the practical rating. That's the main tradeoff to weigh against everything above.",
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Monitor Shelf for a Desk",
     name: "HUANUO Monitor Riser for Desk, Vented Laptop Shelf",
     price: "$15.99",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "15,385 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41kQEYuq+KL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B073VKC134?tag=deskfinds0d-20",
     description: "A vented riser shelf priced at a budget-friendly price that still carries a 44 lb rating under evenly distributed load, appropriate for buyers prioritizing value without giving up a usable platform size. One spot below WALI Computer Monitor Stand for Desk in this ranking, it costs more than WALI Computer Monitor Stand for Desk. The compromise here is straightforward: No storage drawer included. What you gain in return: Very high review volume and rating. Whether that trade is worth it depends on which side matters more for your setup. Worth knowing before you decide: Vented design helps with device heat. On the other side, Point-load risk with a single heavy monitor. That's the main tradeoff to weigh against everything above.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best Monitor Shelf with Storage for a Desk",
     name: "Simple Trending Monitor Stand with Drawer, 2-Tier Laptop Stand, Black",
     price: "$19.99",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "13,752 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51I1QfNfgIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B088NHGC48?tag=deskfinds0d-20",
     description: "A 2-tier shelf with a built-in drawer, appropriate for buyers who want the elevation benefit of a shelf plus a place to stash small desk items, keeping the desktop itself clearer.\n\nSitting just under HUANUO Monitor Riser for Desk, it costs more than HUANUO Monitor Riser for Desk. Here's the honest tradeoff: Larger footprint reduces remaining desk depth more. And here's what it gets you instead: Storage drawer keeps desk items organized. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: High review volume and rating. On the other side, Not ideal for genuinely shallow desks. That's the main tradeoff to weigh against everything above.",
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     badge: "Best Monitor Shelf for Dual-Monitor Desks",
     name: "gianotter Dual Monitor Stand Riser With Drawer and 2 Pen Holders",
     price: "$25.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "3,096 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41gO3CCIg1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJKSMV2T?tag=deskfinds0d-20",
     description: "A dual-monitor riser with a drawer and two pen holders, appropriate for buyers running two screens who want both elevation and a place for cable clutter and small accessories.\n\nRanked just behind Simple Trending Monitor Stand with Drawer, it costs more than Simple Trending Monitor Stand with Drawer. The real tradeoff against that pick: Widest footprint in this guide, biggest desk-depth cost. In exchange, it offers this instead: Purpose-built for dual-monitor setups. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Drawer plus pen holders add real organization. On the other side, Drawer capacity is separate from platform rating. That's the main tradeoff to weigh against everything above.",
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Point-load versus distributed-load capacity", description: "Checked whether each shelf's rated capacity is described for evenly spread weight, then flagged how a single centered monitor changes the real-world safety margin." },
   { title: "Desk-depth impact measured, not assumed", description: "Compared each shelf's footprint against typical desk depths to estimate how much usable keyboard and knee-clearance space actually remains." },
   { title: "Storage and drawer capacity checked separately", description: "Verified that any drawer's own weight rating is treated as a distinct spec from the top platform's rating, not bundled together." },
-  { title: "Buyer feedback on stability and assembly", description: "Weighted verified buyer feedback on wobble, assembly clarity, and surface grip alongside the manufacturer's stated specs." },
+  { title: "Buyer feedback on stability and assembly", description: "Weighted verified buyer feedback on wobble, assembly clarity, and surface grip alongside the manufacturer's stated specs." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -206,11 +206,11 @@ export const faq: FaqItem[] = [
   { q: "Is a monitor shelf's weight rating safe for one heavy monitor?", a: "The rating usually assumes evenly distributed weight, so a single heavy monitor centered on the shelf concentrates more stress than the number implies. Leave a safety margin below the rated capacity for concentrated loads." },
   { q: "How much desk depth does a monitor shelf actually take up?", a: "It varies by model, but most shelves in this guide have a footprint that meaningfully reduces the depth left for a keyboard and knee clearance. Measure your desk before buying." },
   { q: "Can I load a shelf's drawer and top surface at the same time?", a: "You can, but the drawer's weight capacity is usually a separate, lower spec from the top platform's rating, check both independently rather than assuming one number covers everything." },
-  { q: "Do dual-monitor shelves handle mismatched monitor sizes well?", a: "Most can, but uneven weight from two different-sized monitors can still create imbalance even on a shelf rated for shared load, center the heavier display when possible." },
+  { q: "Do dual-monitor shelves handle mismatched monitor sizes well?", a: "Most can, but uneven weight from two different-sized monitors can still create imbalance even on a shelf rated for shared load, center the heavier display when possible." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-monitor-risers-for-desks", title: "Best Monitor Risers for Desks (2026)" },
   { href: "/guide/best-monitor-shelves-for-small-desks", title: "Best Monitor Shelves for Small Desks (2026)" },
-  { href: "/guide/best-monitor-shelves-with-storage", title: "Best Monitor Shelves with Storage (2026)" },
+  { href: "/guide/best-monitor-shelves-with-storage", title: "Best Monitor Shelves with Storage (2026)" }
 ];

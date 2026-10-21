@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "17-inch laptop cooling pads";
 export const introParagraphs = [
   "17 inches is a common size for gaming laptops specifically, chassis that run hotter under sustained load than typical productivity laptops. Fit still needs verification against the pad's real stated range, but cooling capacity matters as much as size here.",
-  "This guide compares five pads whose stated ranges genuinely reach 17 inches, cross-referencing our gaming laptop cooling guide since this size overlaps heavily with that heat-generating laptop category.",
+  "This guide compares five pads whose stated ranges genuinely reach 17 inches, cross-referencing our gaming laptop cooling guide since this size overlaps heavily with that heat-generating laptop category."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine size-range verification", description: "We confirmed 17 inches sits within each product's stated compatible range." },
   { title: "Gaming laptop cooling overlap", description: "We cross-referenced our gaming laptop cooling guide, since 17-inch is a common size for heat-generating gaming laptops specifically." },
   { title: "Documented performance figures", description: "We favored listings with specific noise or temperature-drop figures over vague marketing claims." },
-  { title: "Fan count vs sustained-load needs", description: "We compared lighter dual-fan pads against high-airflow multi-fan pads for buyers with varying workload intensity." },
+  { title: "Fan count vs sustained-load needs", description: "We compared lighter dual-fan pads against high-airflow multi-fan pads for buyers with varying workload intensity." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "How many fans do I need for a 17-inch gaming laptop?", a: "Consider a higher fan-count pad like the 9-fan ChillCore or the documented-strong llano V12 for sustained gaming workloads." },
   { q: "Is the Razer pad worth the higher price for 17-inch?", a: "If you want automatic, software-controlled fan adjustment for the variable heat output of gaming, it's a genuine premium feature. A simpler manual pad works fine if you don't need that automation." },
   { q: "What's the quietest option for a 17-inch laptop?", a: "The Targus Dual Fan Lap Chill Mat and havit HV-F2056 are simpler dual/triple-fan designs generally quieter than the high-airflow gaming-focused picks." },
-  { q: "Should I get the most powerful cooling pad regardless of my laptop type?", a: "Not necessarily. A 17-inch productivity laptop with lighter heat output doesn't need the same cooling capacity as a demanding gaming laptop, match the pad to your actual workload." },
+  { q: "Should I get the most powerful cooling pad regardless of my laptop type?", a: "Not necessarily. A 17-inch productivity laptop with lighter heat output doesn't need the same cooling capacity as a demanding gaming laptop, match the pad to your actual workload." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-gaming-laptop-cooling-pads", title: "Best Gaming Laptop Cooling Pads (2026)" },
   { href: "/guide/best-16-inch-laptop-cooling-pads", title: "Best 16-Inch Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-18-inch-laptop-cooling-pads", title: "Best 18-Inch Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-18-inch-laptop-cooling-pads", title: "Best 18-Inch Laptop Cooling Pads (2026)" }
 ];

@@ -5,7 +5,7 @@ export const metaDescription = "5 surge protectors we evaluated for home offices
 export const mainKeyword = "surge protector for home office";
 export const introParagraphs = [
   "A realistic home office setup, computer, monitor, printer, networking equipment, desk lamp, phone charger, accumulates joule-rating consumption faster than single-device framing accounts for, size your surge protector against the actual full-setup device count.",
-  "Home offices often share circuits with other household appliances on an adjacent circuit, unlike a commercial office building's more isolated circuits, a home office surge protector may see more frequent minor voltage fluctuations from shared household circuits.",
+  "Home offices often share circuits with other household appliances on an adjacent circuit, unlike a commercial office building's more isolated circuits, a home office surge protector may see more frequent minor voltage fluctuations from shared household circuits."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Surge Protector for Home Offices Overall",
     name: "Power Strip, ALESTOR Surge Protector with 12 Outlets and 4 USB Ports, 6 Feet Extension Cord, 2700 Joules, ETL Listed, Black",
     price: "$21.98",
-    rating: "4.8 stars from 50,501 Amazon ratings",
-    reviews: "50,501 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41PsJYHqW7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08P5LRY37?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Established-Brand Home Office Pick",
     name: "Belkin 12-Outlet Surge Protector Power Strip w/ 12 AC Outlets & 8ft Flat Plug, UL-Listed Heavy-Duty Extension Cord for Home, Office, Travel, Computer, Laptop, Charger - 3,780 Joules of Protection",
     price: "$28.95",
-    rating: "4.8 stars from 3,281 Amazon ratings",
-    reviews: "3,281 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/415tn9cXV7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6S6TPRH?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Home Office Pick",
     name: "HANYCONY Surge Protector Power Strip, 1080J, 5 Ft Braided Extension Cord",
     price: "$11.99",
-    rating: "4.8 stars from 67,972 Amazon ratings",
-    reviews: "67,972 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41w1NL7yU4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B092J8LPWR?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Joule Home Office Pick",
     name: "Surge Protector Power Strip 4800J, LeZone 10Ft Long Extension Cord Flat Plug, 12 Outlets 2 USB C 2 USB Ports, Wall Mountable, Desk Charging Station, Black",
     price: "$18.89",
-    rating: "4.7 stars from 2,666 Amazon ratings",
-    reviews: "2,666 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41eRaMa6u1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CN6V6M5F?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Home Office Pick with USB Charging",
     name: "Surge Protector Power Strip - Nuetsa Flat Plug Extension Cord with 8 Outlets and 4 USB Ports, 6 Feet Power Cord, 2700 Joules, ETL Listed, Black",
     price: "$13.99",
-    rating: "4.7 stars from 44,144 Amazon ratings",
-    reviews: "44,144 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41J41Z-k38L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09F2XPJ47?tag=deskfinds0d-20",
     description:
@@ -110,7 +110,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Realistic full home-office-setup wattage and joule sizing", description: "Sized recommendations against a realistic full home office device count, computer, monitor, printer, networking equipment, desk lamp, phone charger, rather than generic single-device framing." },
   { title: "Shared residential circuit fluctuation consideration", description: "Noted that home offices sharing circuits with kitchen or HVAC equipment may see more frequent minor voltage fluctuations than a dedicated commercial office circuit." },
-  { title: "Device vulnerability prioritization for joule-budget allocation", description: "Considered that not every home office device is equally surge-vulnerable, prioritizing protection toward wired desktop PCs and peripherals over battery-buffered laptops with some inherent tolerance." },
+  { title: "Device vulnerability prioritization for joule-budget allocation", description: "Considered that not every home office device is equally surge-vulnerable, prioritizing protection toward wired desktop PCs and peripherals over battery-buffered laptops with some inherent tolerance." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -247,11 +247,11 @@ export const faq: FaqItem[] = [
   { q: "Is a home office more exposed to voltage fluctuations than a commercial office?", a: "Potentially, yes. Home offices often share circuits with other household appliances on adjacent circuits, unlike a commercial building's more isolated circuits, leading to more frequent minor fluctuations." },
   { q: "Should I protect my laptop the same as my desktop PC with a surge protector?", a: "Not necessarily with equal priority. Battery-backed devices like laptops have some inherent surge tolerance from their charging circuitry, prioritize your most vulnerable wired equipment first if joule budget is limited." },
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers with a realistic full home office setup including printer and networking gear" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with a laptop-based home office setup At $11.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with a laptop-based home office setup At under $15, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-surge-protectors-for-computers", title: "Best Surge Protectors for Computers (2026)" },
   { href: "/guide/best-desktop-surge-protectors", title: "Best Desktop Surge Protectors (2026)" },
-  { href: "/guide/best-under-desk-surge-protectors", title: "Best Under-Desk Surge Protectors (2026)" },
+  { href: "/guide/best-under-desk-surge-protectors", title: "Best Under-Desk Surge Protectors (2026)" }
 ];

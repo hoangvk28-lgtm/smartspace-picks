@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $437.89",
+          "Under $450",
           "Genmitsu Cubiko Desktop CNC Router Machine with Enclosure for Beginners"
         ],
         [
-          "Around $487.20",
+          "Under $500",
           "Genmitsu 3020-PRO Ultra CNC Router Machine"
         ],
         [
-          "Around $2,499.00",
+          "Under $2,500",
           "Carvera Air Desktop CNC by MAKERA"
         ],
         [
-          "Around $3,197.00",
+          "Under $3,200",
           "Carvera Air Desktop CNC with 4th Axis & PCB Kit"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", "a": "Carvera Air Desktop CNC by MAKERA is aimed at buyers prioritizing 11.8 x 7.9 x 5.1 in work area, enclosed" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", "a": "Carvera Air Desktop CNC by MAKERA is aimed at buyers prioritizing 11.8 x 7.9 x 5.1 in work area, enclosed" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-carvera-desktop-cnc-machines","title":"Best Carvera Desktop CNC Machines in 2026"},{"href":"/guide/best-makera-desktop-cnc-machines","title":"Best Makera Desktop CNC Machines in 2026"},{"href":"/guide/best-nomad-desktop-cnc-machines","title":"Best Nomad Desktop CNC Machines in 2026"}];

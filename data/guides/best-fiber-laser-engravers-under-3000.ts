@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The broadest combination of speed, depth, and color", "GWEIKE G2 Max 50W Fiber Laser Engraver"],
         ["Genuine, reliable color marking on metal", "OMTech Autofocus 20W MOPA Fiber Laser Marking Machine"],
         ["Deep engraving plus rotary axis for cylindrical items", "OMTech 50W Fiber Laser Marking Machine"],
-        ["MOPA tuning flexibility without full 50W power", "OMTech 20W MOPA Fiber Laser Engraver with Rotary Axis"],
+        ["MOPA tuning flexibility without full 50W power", "OMTech 20W MOPA Fiber Laser Engraver with Rotary Axis"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $2,200", "OMTech Autofocus 20W MOPA ($2,199.99)"],
-        ["Under $2,500", "OMTech 50W ($2,449.99) or GWEIKE G2 Max ($2,499.00)"],
-        ["Under $2,600", "OMTech 20W MOPA with Rotary Axis ($2,519.99)"],
+        ["Under $2,200", "OMTech Autofocus 20W MOPA (under $2,200)"],
+        ["Under $2,500", "OMTech 50W (under $2,500) or GWEIKE G2 Max (under $2,500)"],
+        ["Under $2,600", "OMTech 20W MOPA with Rotary Axis (under $2,600)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "MOPA vs Standard Fiber Laser",
     cards: [
       { label: "MOPA (OMTech Autofocus, OMTech 20W Rotary)", text: "Adjustable pulse width and frequency deliver more reliable, consistent color marking and finer material-specific tuning." },
-      { label: "Standard fiber (GWEIKE G2 Max, OMTech 50W)", text: "Still capable of color marking and deep engraving, but with less granular control over the exact pulse parameters producing each effect." },
+      { label: "Standard fiber (GWEIKE G2 Max, OMTech 50W)", text: "Still capable of color marking and deep engraving, but with less granular control over the exact pulse parameters producing each effect." }
     ],
     note: "If color marking consistency and precise material tuning are your priority, a MOPA laser like either OMTech pick is worth prioritizing. If raw power and working area matter more, the GWEIKE G2 Max or OMTech 50W deliver that.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Large flat items needing more working area", "GWEIKE G2 Max at 150x150mm"],
         ["Cylindrical items like tumblers or bottles", "OMTech 50W or OMTech 20W MOPA, both with rotary axis"],
-        ["Small detailed jewelry or serial numbers", "OMTech Autofocus 20W MOPA"],
+        ["Small detailed jewelry or serial numbers", "OMTech Autofocus 20W MOPA"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Custom Jewelry or Engraving Business Specifically",
     cards: [
       { label: "Look for", text: "Autofocus and MOPA color marking, since consistent, repeatable color effects matter more for custom retail work than raw power alone." },
-      { label: "In this comparison", text: "The OMTech Autofocus 20W MOPA's automatic focal adjustment and genuine MOPA color control suit this kind of detailed, customer-facing work well." },
+      { label: "In this comparison", text: "The OMTech Autofocus 20W MOPA's automatic focal adjustment and genuine MOPA color control suit this kind of detailed, customer-facing work well." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You need the widest color range and largest working area in one machine, where the GWEIKE G2 Max's 50W power and 150x150mm area deliver the most complete package here." },
-      { label: "Save if", text: "Your main need is reliable color marking on smaller items, where the OMTech Autofocus 20W MOPA covers that at the lowest price in this comparison." },
+      { label: "Save if", text: "Your main need is reliable color marking on smaller items, where the OMTech Autofocus 20W MOPA covers that at the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "16 inch lcd writing tablet";
 export const introParagraphs = [
   "16 inches is a genuinely rare screen size in the LCD writing tablet category. Current research turned up only two products explicitly listed at this size, so this guide covers both honestly rather than padding the list with smaller screens mislabeled as large.",
-  "If you need this much writing surface, expect real tradeoffs in portability and desk space, a 16 inch screen is meant for sustained sketching, brainstorming, or a shared household memo board, not a scratchpad you carry around daily.",
+  "If you need this much writing surface, expect real tradeoffs in portability and desk space, a 16 inch screen is meant for sustained sketching, brainstorming, or a shared household memo board, not a scratchpad you carry around daily."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "6 min";
@@ -59,7 +59,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Full available selection confirmed at this rare size", description: "Verified these two products represent the complete genuinely 16 inch selection found in current research, rather than padding with smaller mislabeled screens." },
   { title: "Per-unit value calculated for the 2-pack option", description: "Compared the 2-pack's per-screen cost against the single-unit option to help buyers assess genuine value at this size." },
   { title: "Included accessories weighed for household use", description: "Considered included pens and their usefulness for a shared board where multiple people might write." },
-  { title: "Styling assessed for gift versus general household use", description: "Compared plain black styling against the more playful rainbow and yellow design for different buying intents." },
+  { title: "Styling assessed for gift versus general household use", description: "Compared plain black styling against the more playful rainbow and yellow design for different buying intents." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -173,11 +173,11 @@ export const faq: FaqItem[] = [
   { q: "Are there many 16 inch LCD writing tablet options?", a: "No, this is a genuinely rare size tier. Current research found only two products explicitly listed at 16 inches." },
   { q: "Is a 16 inch LCD writing tablet portable?", a: "Not really, it's designed as a stationary desk or wall board rather than something you'd carry around daily." },
   { q: "What is the best value 16 inch option?", a: "The 2-pack offers the best per-unit value if you need two large screens for different rooms." },
-  { q: "Do 16 inch LCD writing tablets come with pens?", a: "One of the two available options includes two pens, useful for shared household use where more than one person might write." },
+  { q: "Do 16 inch LCD writing tablets come with pens?", a: "One of the two available options includes two pens, useful for shared household use where more than one person might write." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-large-lcd-writing-tablets", title: "Best Large LCD Writing Tablets (2026)" },
   { href: "/guide/best-12-inch-lcd-writing-tablets", title: "Best 12 Inch LCD Writing Tablets (2026)" },
-  { href: "/guide/best-lcd-writing-tablets", title: "Best LCD Writing Tablets in 2026" },
+  { href: "/guide/best-lcd-writing-tablets", title: "Best LCD Writing Tablets in 2026" }
 ];

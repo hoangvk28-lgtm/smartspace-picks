@@ -44,18 +44,18 @@ export const products: GuideProduct[] = [
       "Wood construction",
       "Built-in drawers",
       "White finish",
-      "Wall-mounted, permanent",
+      "Wall-mounted, permanent"
     ],
     pros: [
       "Built-in drawers on a permanent floating desk, doubles as vanity or desk",
       "White finish blends into bedroom or living room decor",
       "No fold-down mechanism to maintain or wear out over time",
-      "Compact profile suited to small-space multi-purpose rooms",
+      "Compact profile suited to small-space multi-purpose rooms"
     ],
     cons: [
       "Rating and review volume not independently verified, check current listing",
       "Permanent installation, surface stays extended at all times",
-      "Lighter-duty build than office-focused floating desks in this roundup",
+      "Lighter-duty build than office-focused floating desks in this roundup"
     ],
     bestFor:
       "buyers wanting a permanent floating desk with built-in drawer storage that can double as a vanity in a shared bedroom or living space",
@@ -66,8 +66,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall by Trust Signal",
     name: "Nathan James Theo 2-Shelf Industrial Wall Mount Ladder Desk, 30W x 73H inch, Nutmeg Brown and Matte Black",
     price: "~$139.63",
-    rating: "4.7 stars",
-    reviews: "1,216 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/nathan-james-ladder.webp`,
     amazonUrl: "https://www.amazon.com/dp/B084HCVNPZ?tag=deskfinds0d-20",
     description:
@@ -76,18 +76,17 @@ export const products: GuideProduct[] = [
       "73-inch height",
       "30-inch wide",
       "Industrial ladder",
-      "Wall-mount",
+      "Wall-mount"
     ],
     pros: [
-      "1,216 reviews at 4.7 stars highest rated and most reviewed",
       "73-inch vertical storage extends to ceiling",
       "Industrial aesthetic",
-      "Nathan James recognized brand",
+      "Nathan James recognized brand"
     ],
     cons: [
       "Not fold-down, desk surface is always extended",
       "30-inch width narrower than a standard desk",
-      "Small floor footprint at ladder base can tip if not wall-anchored",
+      "Small floor footprint at ladder base can tip if not wall-anchored"
     ],
     bestFor:
       "buyers who use a desk daily and want the strongest brand and review validation with permanent vertical shelving in a narrow footprint",
@@ -98,8 +97,8 @@ export const products: GuideProduct[] = [
     badge: "Most-Reviewed Fold-Down Murphy Desk",
     name: "Tangkula Folding Wall Mounted Desk, Storage Shelves, Murphy Style, White",
     price: "~$109.99",
-    rating: "4.2 stars",
-    reviews: "988 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/tangkula-murphy-white.webp`,
     amazonUrl: "https://www.amazon.com/dp/B07KJ4ZM9K?tag=deskfinds0d-20",
     description:
@@ -108,18 +107,16 @@ export const products: GuideProduct[] = [
       "Fold-down Murphy style",
       "Storage shelves",
       "White finish",
-      "Zero floor footprint when closed",
+      "Zero floor footprint when closed"
     ],
     pros: [
-      "988 reviews most validated fold-down desk in roundup",
       "Storage shelves accessible when folded up",
       "White finish for residential settings",
-      "Zero floor footprint when closed",
+      "Zero floor footprint when closed"
     ],
     cons: [
-      "4.2 stars lowest rating among fold-down options",
       "White finish shows scuffs and marks",
-      "Verify desk surface dimensions in product listing",
+      "Verify desk surface dimensions in product listing"
     ],
     bestFor:
       "buyers who want the most-reviewed fold-down Murphy desk with integrated shelving in a white finish",
@@ -130,28 +127,26 @@ export const products: GuideProduct[] = [
     badge: "Best Fold-Down by Rating and Reviews Balance",
     name: "Haotian SoBuy Wall Mounted Folding Desk, Storage Shelves, Black, FWT18-SCH",
     price: "~$99.99",
-    rating: "4.6 stars",
-    reviews: "955 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/haotian-sobuy-black.webp`,
     amazonUrl: "https://www.amazon.com/dp/B07988PS8K?tag=deskfinds0d-20",
     description:
       "This fold-down desk mounts to the wall and includes flanking storage shelves that stay upright and accessible regardless of whether the desk leaf is open or closed, so the unit functions as a display and storage shelf unit even on days when the workspace is not in use. The black finish works with industrial, mid-century modern, and minimalist office setups, and tends to show fewer scuffs and fingerprints over time compared to white-finished units. The desk surface folds down on a hinged bracket to create the work area, and the surrounding shelf structure gives the unit a more substantial, furniture-like appearance than plain single-panel fold-down options. The price falls at a budget-friendly price, which positions it as an accessible entry point for a wall-mounted desk with integrated shelving. Wall anchoring to studs is required, and the installation process involves measuring, leveling, and drilling, which takes more time than assembling a freestanding desk but results in a permanently fixed unit with no floor footprint. People furnishing compact apartments or small bedrooms where floor space is the primary constraint will find this a practical full-featured option.",
     specs: [
-      "4.6 stars across 955 reviews",
       "Fold-down",
       "Storage shelves",
-      "Black finish",
+      "Black finish"
     ],
     pros: [
-      "4.6 stars 955 reviews strongest validation among fold-down desks",
       "Black finish industrial and modern",
       "Storage shelves accessible when folded",
-      "Under $100",
+      "Under $100"
     ],
     cons: [
       "Verify desk surface dimensions in listing",
       "No built-in cable management",
-      "Requires wall stud anchoring for safety",
+      "Requires wall stud anchoring for safety"
     ],
     bestFor:
       "buyers wanting the best-validated fold-down desk in a black finish under $100",
@@ -162,8 +157,8 @@ export const products: GuideProduct[] = [
     badge: "Only Fold-Down with Chalkboard and 9 Shelves",
     name: "HOMCOM Foldable Wall Mounted Desk, Integrated Chalkboard, 9 Storage Shelves, Charcoal Gray",
     price: "~$129.99",
-    rating: "4.4 stars",
-    reviews: "675 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/homcom-chalkboard.webp`,
     amazonUrl: "https://www.amazon.com/dp/B08PDTSY7D?tag=deskfinds0d-20",
     description:
@@ -172,18 +167,17 @@ export const products: GuideProduct[] = [
       "Integrated chalkboard",
       "9 shelves",
       "Fold-down",
-      "Charcoal gray",
+      "Charcoal gray"
     ],
     pros: [
       "Only fold-down with integrated chalkboard",
       "9 storage shelves most capacity in category",
-      "4.4 stars 675 reviews solid validation",
-      "Charcoal gray versatile finish",
+      "Charcoal gray versatile finish"
     ],
     cons: [
-      "$129.99 most expensive fold-down in roundup",
+      "Under $130 most expensive fold-down in roundup",
       "Chalkboard creates dust near the work surface",
-      "Largest and heaviest fold-down unit",
+      "Largest and heaviest fold-down unit"
     ],
     bestFor:
       "buyers wanting a planning chalkboard built into the desk wall unit with maximum shelf storage in one installation",
@@ -194,8 +188,8 @@ export const products: GuideProduct[] = [
     badge: "Best Fold-Down with Enclosed Storage Compartments",
     name: "YUSING Wall Mounted Fold Down Laptop Desk with Enclosed Storage Compartments, White",
     price: "~$65.54",
-    rating: "4.3 stars",
-    reviews: "642 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/yusing-enclosed.webp`,
     amazonUrl: "https://www.amazon.com/dp/B07TDGP13T?tag=deskfinds0d-20",
     description:
@@ -204,18 +198,16 @@ export const products: GuideProduct[] = [
       "Enclosed compartments",
       "Fold-down",
       "White",
-      "Under $70",
+      "Under $70"
     ],
     pros: [
       "Enclosed compartments conceal items, cleaner visual than open shelves",
       "Under $70 for fold-down with enclosed storage",
-      "4.3 stars 642 reviews reasonable confidence",
-      "White finish for residential spaces",
+      "White finish for residential spaces"
     ],
     cons: [
-      "4.3 stars lower than Haotian at similar price",
       "Enclosed compartment sizes may be limited",
-      "White shows marks and scuffs over time",
+      "White shows marks and scuffs over time"
     ],
     bestFor:
       "buyers wanting enclosed hidden storage compartments on a fold-down wall unit in a white finish at under $70",
@@ -226,23 +218,23 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Fold-Down (No Storage Shelves)",
     name: "TEAMIX Wall Mounted Folding Table, 23.6 x 11.8 inch, 80 lbs, Heavy-Duty Brackets, Black",
     price: "~$39.99",
-    rating: "4.3 stars",
-    reviews: "502 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/teamix-simple.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CMSYL7Q1?tag=deskfinds0d-20",
     description:
       "This is a stripped-down fold-down wall surface consisting of a single panel and two heavy-duty support brackets, with no surrounding shelves, drawers, or hutch structure attached. When folded down, the surface measures 23.6 inches wide by 11.8 inches deep, which is enough for a compact laptop in clamshell mode or a small tablet and keyboard combination but is too shallow for a standard open laptop alongside a monitor. When folded up, the panel sits flat against the wall, taking up no floor space and presenting a clean, minimal surface that blends into the wall rather than reading as furniture. The heavy-duty metal brackets support up to 80 pounds, which comfortably handles a laptop, phone, and basic accessories. at a budget-friendly price, this is the lowest-priced option in the roundup, with the tradeoff being that integrated storage must come from other sources such as wall shelves or nearby furniture. This format is best suited to secondary workspaces, hallway nooks, utility rooms, or any situation where a small occasional-use writing or typing surface is needed without committing floor space or budget to a full desk setup.",
-    specs: ["$39.99", "23.6 x 11.8 inch", "80 lbs", "Folds completely flat"],
+    specs: ["under $40", "23.6 x 11.8 inch", "80 lbs", "Folds completely flat"],
     pros: [
-      "Lowest price at $39.99",
+      "Lowest price at under $40",
       "Simple installation no shelves to assemble",
       "Black finish industrial",
-      "Folds completely flat against wall",
+      "Folds completely flat against wall"
     ],
     cons: [
       "11.8-inch depth shallow, verify laptop fits before buying",
       "No integrated storage",
-      "23.6-inch width narrower than standard desks",
+      "23.6-inch width narrower than standard desks"
     ],
     bestFor:
       "buyers needing the most affordable fold-down wall surface with no surrounding storage",
@@ -253,8 +245,8 @@ export const products: GuideProduct[] = [
     badge: "Only Fold-Down with Integrated VESA Monitor Mount (Verify Reviews)",
     name: "ARROWSTONE SKEENA Wall-Mounted Desk, Fold-Down, VESA Monitor Mount, 31 inch, Birch Wood",
     price: "~$209.89",
-    rating: "3.9 stars",
-    reviews: "66 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/arrowstone-vesa.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0DJCTCC7L?tag=deskfinds0d-20",
     description:
@@ -263,18 +255,17 @@ export const products: GuideProduct[] = [
       "VESA mount integrated",
       "200 lbs",
       "31 inch birch wood",
-      "Monitor stays mounted when desk folds",
+      "Monitor stays mounted when desk folds"
     ],
     pros: [
       "Only fold-down with integrated VESA monitor mount",
       "Monitor stays wall-mounted when desk folds",
       "200-lb capacity highest in roundup",
-      "31-inch birch wood surface",
+      "31-inch birch wood surface"
     ],
     cons: [
-      "3.9 stars from 66 reviews insufficient confidence at $209.89",
       "Highest price in fold-down category",
-      "Monitor must be VESA-compatible",
+      "Monitor must be VESA-compatible"
     ],
     bestFor:
       "tech-forward buyers wanting a fold-down desk where the monitor remains independently wall-mounted, who have verified current review quality",
@@ -285,8 +276,8 @@ export const products: GuideProduct[] = [
     badge: "Best Permanent Floating Wall Desk (Not Fold-Down)",
     name: "Modway Render Mid-Century Modern Wall Mount Office Desk, 60 inch, Keyboard Tray and 2 Drawers, Oak",
     price: "~$269.00",
-    rating: "3.9 stars",
-    reviews: "42 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/modway-render-oak.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0B6CYBX5B?tag=deskfinds0d-20",
     description:
@@ -296,16 +287,15 @@ export const products: GuideProduct[] = [
       "60-inch surface widest for dual monitor setup",
       "Pull-out keyboard tray and 2 drawers",
       "Legless floating wall design",
-      "Oak warm residential finish",
+      "Oak warm residential finish"
     ],
     cons: [
-      "3.9 stars from 42 reviews, do not use as buying signal",
-      "$269.00 highest price in roundup",
-      "Permanent installation does not fold",
+      "Under $300 highest price in roundup",
+      "Permanent installation does not fold"
     ],
     bestFor:
       "buyers committed to a permanent full-size floating wall desk with drawer storage who evaluate on feature set rather than review count",
-  },
+  }
 ];
 
 export const faq: { q: string; a: string }[] = [
@@ -327,8 +317,8 @@ export const faq: { q: string; a: string }[] = [
   },
   {
     q: "How much does installation cost for a wall-mounted desk?",
-    a: "DIY installation requires a stud finder, drill, level, and basic hardware included with most products. Professional handyman installation typically costs $75 to $200 depending on location and the complexity of the unit.",
-  },
+    a: "DIY installation requires a stud finder, drill, level, and basic hardware included with most products. Professional handyman installation typically costs under $250 depending on location and the complexity of the unit.",
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
@@ -347,5 +337,5 @@ export const relatedGuides: { href: string; title: string }[] = [
   {
     href: "/guide/small-desk-organization-ideas",
     title: "Small Desk Organization Ideas",
-  },
+  }
 ];

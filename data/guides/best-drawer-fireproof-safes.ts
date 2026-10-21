@@ -209,36 +209,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $39.98",
+          "Under $40",
           "SentrySafe 0.18 Cu Ft Fireproof Chest with Key Lock"
         ],
         [
-          "Around $61.99",
+          "Under $70",
           "Dalmbox Fire Resistant Document Lock Box with Digital Keypad"
         ],
         [
-          "Around $69.99",
+          "Under $70",
           "1.3 Cu Ft Small Fireproof Safe with Combination Lock"
         ],
         [
-          "Around $72.79",
+          "Under $80",
           "SentrySafe 0.28 Cu Ft Fireproof & Waterproof Chest"
         ],
         [
-          "Around $119.99",
+          "Under $120",
           "Barska Top-Opening Keypad Drawer Safe"
         ],
         [
-          "Around $161.49",
+          "Under $170",
           "1.2 Cu Ft Fireproof Safe Box with Digital Keypad"
         ],
         [
-          "Around $287.97",
+          "Under $300",
           "Viking Security Safe VS-14BL Biometric Drawer Safe"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -286,7 +286,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Viking Security Safe VS-14BL Biometric Drawer Safe is aimed at buyers prioritizing top-opening drawer safe format." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Viking Security Safe VS-14BL Biometric Drawer Safe is aimed at buyers prioritizing top-opening drawer safe format." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"},{"href":"/guide/best-fireproof-safes-for-home","title":"Best Fireproof Safes for Home in 2026"},{"href":"/guide/best-fireproof-safes-for-document","title":"Best Fireproof Safes for Document in 2026"}];

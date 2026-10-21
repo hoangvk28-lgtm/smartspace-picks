@@ -175,7 +175,7 @@ export default async function BestSolidWoodDesksPage() {
     about: [
       { "@type": "Thing", name: "Solid Wood Desk" },
       { "@type": "Thing", name: "Home Office Desk" },
-      { "@type": "Thing", name: "Hardwood Desk" },
+      { "@type": "Thing", name: "Hardwood Desk" }
     ],
   };
 
@@ -195,7 +195,7 @@ export default async function BestSolidWoodDesksPage() {
         position: 3,
         name: "Best Solid Wood Desks for Home Office",
         item: `${SITE_URL}/guide/best-solid-wood-desk`,
-      },
+      }
     ],
   };
 
@@ -260,7 +260,7 @@ export default async function BestSolidWoodDesksPage() {
             Most &ldquo;wood&rdquo; desks on Amazon are not solid wood. They are
             MDF - compressed particleboard with a printed wood-look film on top.
             This guide covers five solid wood desks confirmed to use real hardwood
-            construction, currently in stock, rated 4.0 stars or higher, and
+
             priced between $120 and $581.
           </p>
           <div className="flex flex-wrap items-center gap-4 mt-5 pt-5 border-t border-border">
@@ -535,7 +535,7 @@ export default async function BestSolidWoodDesksPage() {
                     { wood: "Beechwood", hardness: "1,300 lbf", grain: "Fine, honey tone", price: "$100-$300" },
                     { wood: "Fir", hardness: "660 lbf", grain: "Knotty, rustic", price: "$100-$250" },
                     { wood: "Acacia", hardness: "1,750 lbf", grain: "Bold, varied grain", price: "$250-$600" },
-                    { wood: "Solid Oak", hardness: "1,290 lbf", grain: "Classic, open grain", price: "$400+" },
+                    { wood: "Solid Oak", hardness: "1,290 lbf", grain: "Classic, open grain", price: "$400+" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.wood}</td>
@@ -564,7 +564,7 @@ export default async function BestSolidWoodDesksPage() {
                     { width: "30-36 inches", fits: "1 small monitor", use: "Dorm, tight bedroom office" },
                     { width: "42-48 inches", fits: "1 large monitor + accessories", use: "Standard home office" },
                     { width: "55-60 inches", fits: "2 monitors or ultrawide", use: "Full workstation" },
-                    { width: "60+ inches", fits: "2 monitors + peripherals", use: "Dedicated office room" },
+                    { width: "60+ inches", fits: "2 monitors + peripherals", use: "Dedicated office room" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.width}</td>
@@ -650,7 +650,7 @@ export default async function BestSolidWoodDesksPage() {
                 id: "pemberly-row-60-solid-wood",
                 name: "Pemberly Row 60 inch Contemporary",
                 verdict: " - stained solid wood, handcrafted, contemporary design.",
-              },
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

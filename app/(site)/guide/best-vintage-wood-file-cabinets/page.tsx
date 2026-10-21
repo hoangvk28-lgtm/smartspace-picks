@@ -218,7 +218,7 @@ export default async function BestVintageWoodFileCabinetsPage() {
     about: [
       { "@type": "Thing", name: "Vintage File Cabinet" },
       { "@type": "Thing", name: "Farmhouse File Cabinet" },
-      { "@type": "Thing", name: "Home Office Furniture" },
+      { "@type": "Thing", name: "Home Office Furniture" }
     ],
   };
 
@@ -238,7 +238,7 @@ export default async function BestVintageWoodFileCabinetsPage() {
         position: 3,
         name: "Best Vintage Wood File Cabinets",
         item: `${SITE_URL}/guide/best-vintage-wood-file-cabinets`,
-      },
+      }
     ],
   };
 
@@ -606,7 +606,7 @@ export default async function BestVintageWoodFileCabinetsPage() {
                       desk: "Industrial or metal-frame",
                       cabinet: "VINGLI Rustic Brown",
                       notes: "Black metal frame reads as intentional with industrial desks",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.desk}</td>
@@ -665,19 +665,19 @@ export default async function BestVintageWoodFileCabinetsPage() {
                 context: "Best overall vintage-look by review count",
                 id: "sauder-palladia-vintage-oak",
                 name: "Sauder Palladia Vintage Oak",
-                verdict: " - 1,741 reviews at 4.0 stars, warm lateral format, trusted Sauder brand.",
+                verdict: " - Warm lateral format, trusted Sauder brand.",
               },
               {
                 context: "Best budget rustic with lock",
                 id: "vingli-2-drawer-lock-rustic-brown",
                 name: "VINGLI Rustic Brown",
-                verdict: " - $62.99, 1,333 reviews, locking drawers, farmhouse aesthetic with black metal accents.",
+                verdict: " - Under $70, locking drawers, farmhouse aesthetic with black metal accents.",
               },
               {
                 context: "Best farmhouse under $100",
                 id: "vasagle-2-drawer-honey-brown",
                 name: "VASAGLE Honey Brown",
-                verdict: " - $85.49, honey brown finish is warmer and lighter than rustic brown, 1,310 reviews.",
+                verdict: " - Under $90, honey brown finish is warmer and lighter than rustic brown",
               },
               {
                 context: "Best antique white option",
@@ -689,8 +689,8 @@ export default async function BestVintageWoodFileCabinetsPage() {
                 context: "Best mid-tier walnut brown",
                 id: "itaar-classical-walnut-brown",
                 name: "Itaar Classical Walnut Brown",
-                verdict: " - highest rating at 4.4 stars, classical American styling, but only 147 reviews to date.",
-              },
+                verdict: " - Classical American styling",
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "clip-on desk cup holders";
 export const introParagraphs = [
   "\"Clip-on\" and \"clamp-on\" are largely interchangeable terms in this product category, and most listings marketed as either use the same basic squeeze-clamp mechanism. We looked specifically for any genuine distinction, smaller or lighter-duty clips versus full clamps, and disclose honestly where none exists.",
-  "The five picks below range from compact budget clips to a proven headphone-hanger hybrid, all attaching without drilling.",
+  "The five picks below range from compact budget clips to a proven headphone-hanger hybrid, all attaching without drilling."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine clip vs. clamp distinction", description: "We checked whether each product is a genuinely lighter clip mechanism or simply a clamp marketed with 'clip-on' language, and disclosed which is which." },
   { title: "Weight capacity honesty", description: "We noted that lighter clip designs generally support less weight than full metal clamps, and flagged this tradeoff explicitly." },
   { title: "Spill and tip resistance", description: "We favored covered cavity designs over flat rings regardless of clip or clamp mechanism." },
-  { title: "Desk-edge compatibility", description: "We compared narrower clip openings against the wider ranges found on full clamp designs." },
+  { title: "Desk-edge compatibility", description: "We compared narrower clip openings against the wider ranges found on full clamp designs." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -244,11 +244,11 @@ export const faq: FaqItem[] = [
   { q: "Can a clip-on holder support a large, full tumbler?", a: "Lighter plastic clips are generally sufficient for standard mugs and cans. For large, full tumblers, the metal-clamp OOKUU pick offers a sturdier hold despite the heavier design." },
   { q: "Will a clip-on holder damage my desk?", a: "Look for silicone or plastic padding at the clip's contact points. All picks in this comparison use some form of covered or padded grip to reduce marking risk." },
   { q: "Do these clips fit thick standing-desk edges?", a: "Check the specific clip opening range for each product; several are sized for standard desk edges and may not open wide enough for thicker standing-desk tops." },
-  { q: "Which pick is best if I also want a headphone hanger?", a: "The GUNKING 2-in-1 pick combines a well-reviewed cup holder with an integrated headphone hanger on one clip base." },
+  { q: "Which pick is best if I also want a headphone hanger?", a: "The GUNKING 2-in-1 pick combines a well-reviewed cup holder with an integrated headphone hanger on one clip base." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-cup-holders", title: "Best Desk Cup Holders (2026)" },
   { href: "/guide/best-clamp-on-desk-cup-holders", title: "Best Clamp-On Desk Cup Holders (2026)" },
-  { href: "/guide/best-attachable-desk-cup-holders", title: "Best Attachable Desk Cup Holders (2026)" },
+  { href: "/guide/best-attachable-desk-cup-holders", title: "Best Attachable Desk Cup Holders (2026)" }
 ];

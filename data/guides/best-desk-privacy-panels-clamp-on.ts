@@ -5,7 +5,7 @@ export const metaDescription = "5 clamp-on desk privacy panels we evaluated, wit
 export const mainKeyword = "clamp-on desk privacy panel";
 export const introParagraphs = [
   "Clamp-on privacy panels attach directly to your desk's edge without drilling or adhesive, but every clamp mechanism has a maximum desk thickness range it can grip securely, verify your specific desk's edge thickness against the listed clamp range before buying.",
-  "A clamp-on panel is genuinely more stable than a freestanding or adhesive-mounted alternative for daily use, since it's mechanically secured to the desk rather than relying on weight or friction alone.",
+  "A clamp-on panel is genuinely more stable than a freestanding or adhesive-mounted alternative for daily use, since it's mechanically secured to the desk rather than relying on weight or friction alone."
 ];
 export const lastUpdated = "2026-07-30";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Clamp-On Privacy Panel Overall",
     name: "VIVO Gray Clamp-on 60 x 24 inch Privacy Panel, PP-1-V024G",
     price: "$149.99",
-    rating: "4.6 stars from 223 Amazon ratings",
-    reviews: "223 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41aNszeDMHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHP4N5T?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Wider Desks",
     name: "VIVO Gray Clamp-on 71 x 24 inch Privacy Panel, PP-2-V072G",
     price: "$159.99",
-    rating: "4.6 stars from 223 Amazon ratings",
-    reviews: "223 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Bt+sW01IL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJ5PSVDP?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Dark Gray Finish Pick",
     name: "VIVO Dark Gray Clamp-on 60 x 24 inch Privacy Panel, PP-1-V024D",
     price: "$149.99",
-    rating: "4.6 stars from 223 Amazon ratings",
-    reviews: "223 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41MyIJ8y2rL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B4N5QKC1?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Clamp-On Pick",
     name: "VIVO Gray Clamp-on 24 x 24 inch Privacy Panel, PP-1-V024G",
     price: "$79.99",
-    rating: "4.6 stars from 223 Amazon ratings",
-    reviews: "223 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51wO7YI9JIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHPPV9J?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Movable Alternative",
     name: "DECOLAB Desk Divider, Movable Desk Partition 48\"x18\", Midnight",
     price: "$75.99",
-    rating: "4.5 stars from 58 Amazon ratings",
-    reviews: "58 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41mXUjTJozL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DDK7VFNV?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Movable design, easy to reposition or remove", "No permanent clamp hardware needed", "Solid rating base", "Dark finish option"],
     cons: ["Smaller review base than VIVO's established clamp-on line", "Less rigid than a true clamp mount for daily bumping", "Mid-size coverage, not full desk width"],
     bestFor: "Buyers who want an easily repositionable alternative to a fixed clamp mount",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Desk edge thickness compatibility", description: "Flagged that every clamp mechanism has a maximum desk thickness range it can grip securely, a detail buyers need to verify against their specific desk before ordering, since most listings bury this spec." },
   { title: "Coverage width matched to desk size and layout", description: "Ranked picks from compact 24-inch targeted panels through full 71-inch coverage for wider or L-shaped desks, so buyers size to their actual desk rather than a generic recommendation." },
-  { title: "Mounting security for daily use", description: "Weighed true clamp mounts, which are mechanically secured and won't shift during normal desk use, against movable or lighter-duty alternatives." },
+  { title: "Mounting security for daily use", description: "Weighed true clamp mounts, which are mechanically secured and won't shift during normal desk use, against movable or lighter-duty alternatives." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -228,11 +228,11 @@ export const faq: FaqItem[] = [
   { q: "What size clamp-on panel do I need?", a: "A standard 60-inch panel suits most single desks. If you have a wider desk or an L-shaped setup, a 71-inch panel avoids leaving a visible gap. For targeted coverage of just one section, a 24-inch panel is more appropriate." },
   { q: "Do clamp-on panels damage the desk?", a: "No, they mount without drilling or adhesive, using a clamp mechanism that grips the desk edge. Just verify the clamp's thickness range matches your desk before ordering to ensure a secure fit." },
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers with a standard-width desk who want secure, drill-free mounting" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want an easily repositionable alternative to a fixed clamp mount At $75.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want an easily repositionable alternative to a fixed clamp mount At under $80, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-foldable-desk-privacy-panels", title: "Best Foldable Desk Privacy Panels (2026)" },
   { href: "/guide/best-sound-absorbing-desk-privacy-panels", title: "Best Sound-Absorbing Desk Privacy Panels (2026)" },
-  { href: "/guide/best-portable-desk-privacy-screens", title: "Best Portable Desk Privacy Screens (2026)" },
+  { href: "/guide/best-portable-desk-privacy-screens", title: "Best Portable Desk Privacy Screens (2026)" }
 ];

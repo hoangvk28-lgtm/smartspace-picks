@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $169.99",
+          "Under $170",
           "Tribesigns Reception Desk with Counter"
         ],
         [
-          "Around $349.99",
+          "Under $350",
           "LayBurst 86.8\" Large Reception Desk"
         ],
         [
-          "Around $489.99",
+          "Under $500",
           "LayBurst L-Shaped Reception Desk with File Cabinet"
         ],
         [
-          "Around $679.99",
+          "Under $700",
           "Laxodor 86.6\" L-Shaped Reception Desk with Combination Lock"
         ],
         [
-          "Around $699.99",
+          "Under $700",
           "86.6\" L-Shaped Reception Desk with Flexible Counter Orientation"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "LayBurst 86.8\" Large Reception Desk is aimed at buyers prioritizing 86.8\"l x 23.6\"d desktop, marble-patterned finish." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "LayBurst 86.8\" Large Reception Desk is aimed at buyers prioritizing 86.8\"l x 23.6\"d desktop, marble-patterned finish." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-ada-compliant-reception-desks","title":"Best ADA Compliant Reception Desks in 2026"},{"href":"/guide/best-reception-desks-for-lobby","title":"5 Best Reception Desks for Lobby in 2026"},{"href":"/guide/best-large-reception-desks","title":"best-large-reception-desks"}];

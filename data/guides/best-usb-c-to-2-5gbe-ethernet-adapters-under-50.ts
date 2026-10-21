@@ -155,7 +155,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The lowest price with no compromises on speed", "Plugable 2.5Gbps USB C to Ethernet Adapter"],
         ["Charging passthrough for a standard laptop", "Plugable USB C to Ethernet Adapter with 100W PD"],
         ["Charging passthrough for a 16\" MacBook Pro", "Cable Matters USB C to 2.5Gb Ethernet Adapter with 140W Charging"],
-        ["Extra USB-C ports alongside ethernet", "Satechi 4-in-1 USB-C Ethernet Adapter"],
+        ["Extra USB-C ports alongside ethernet", "Satechi 4-in-1 USB-C Ethernet Adapter"]
       ],
     },
   },
@@ -164,9 +164,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $30", "Plugable ($17.99) or UGREEN ($25.99)"],
-        ["$30 to $40", "Plugable PD ($29.95) or Cable Matters 140W ($35.00)"],
-        ["Up to $50", "Satechi ($39.99) or Satechi 4-in-1 ($44.99)"],
+        ["Under $30", "Plugable (under $20) or UGREEN (under $30)"],
+        ["$30 to $40", "Plugable PD (under $30) or Cable Matters 140W (under $40)"],
+        ["Up to $50", "Satechi (under $40) or Satechi 4-in-1 (under $45)"]
       ],
     },
   },
@@ -180,7 +180,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "140W passthrough (Cable Matters)",
         text: "Matches the charging needs of a 16 inch MacBook Pro or similar high-wattage laptop that a 100W adapter would charge more slowly.",
-      },
+      }
     ],
     note: "Check your laptop's included charger's wattage rating before choosing: if it's rated under 100W, the cheaper Plugable PD pick covers you fully.",
   },
@@ -190,7 +190,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Priority", "Recommended pick"],
       rows: [
         ["Longest stated warranty term", "Satechi USB-C to Ethernet Adapter (2-year)"],
-        ["No stated warranty beyond standard return window", "Plugable, UGREEN, or Cable Matters"],
+        ["No stated warranty beyond standard return window", "Plugable, UGREEN, or Cable Matters"]
       ],
     },
   },
@@ -204,7 +204,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "The Satechi 4-in-1 is the only pick here that adds three extra USB-C ports on top of the ethernet connection.",
-      },
+      }
     ],
   },
   {
@@ -212,14 +212,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You own a 16\" MacBook Pro or a laptop with a charger rated above 100W: Cable Matters' 140W adapter ($35.00) is the only pick here that matches that charging need.",
+        text: "You own a 16\" MacBook Pro or a laptop with a charger rated above 100W: Cable Matters' 140W adapter (under $40) is the only pick here that matches that charging need.",
       },
       {
         label: "Save if",
-        text: "You don't need charging passthrough at all: the base Plugable adapter ($17.99) uses the same core chipset as every pricier pick here.",
-      },
+        text: "You don't need charging passthrough at all: the base Plugable adapter (under $20) uses the same core chipset as every pricier pick here.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -275,5 +275,5 @@ export const faq = [
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-usb-c-to-2-5gbe-ethernet-adapters-under-30", title: "Best USB-C to 2.5GbE Ethernet Adapters Under $30" },
   { href: "/guide/best-usb-c-ethernet-adapters-under-50", title: "Best USB-C Ethernet Adapters Under $50" },
-  { href: "/guide/best-thunderbolt-4-docking-stations", title: "Best Thunderbolt 4 Docking Stations" },
+  { href: "/guide/best-thunderbolt-4-docking-stations", title: "Best Thunderbolt 4 Docking Stations" }
 ];

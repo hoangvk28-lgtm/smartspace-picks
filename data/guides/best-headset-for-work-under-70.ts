@@ -123,7 +123,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Wired reliability with connectivity flexibility", "EKSA H8 USB Headset with Microphone for Work"],
         ["The fastest instant power-on experience", "Wireless Headset with Mic, One-Step Auto Connection"],
         ["Both ANC and ENC plus dual-device connectivity", "Upgrade ANC & ENC Wireless Headset"],
-        ["The longest wireless range", "Wireless Headset with Mic, Bluetooth 5.3"],
+        ["The longest wireless range", "Wireless Headset with Mic, Bluetooth 5.3"]
       ],
     },
   },
@@ -132,8 +132,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $60", "EKSA H8 ($49.99) or One-Step Auto Connection ($59.98)"],
-        ["$63 to $70", "Upgrade ANC & ENC ($62.99) or Bluetooth 5.3 ($69.99)"],
+        ["Under $60", "EKSA H8 (under $50) or One-Step Auto Connection (under $60)"],
+        ["$63 to $70", "Upgrade ANC & ENC (under $70) or Bluetooth 5.3 (under $70)"]
       ],
     },
   },
@@ -147,7 +147,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "Wireless via USB dongle or Bluetooth (the other three picks)",
         text: "Freedom of movement during calls, generally most reliable via a dedicated USB dongle rather than standard Bluetooth, especially on older or Bluetooth-restricted computers.",
-      },
+      }
     ],
     note: "If your workplace restricts Bluetooth or your computer lacks it, prioritize a wireless pick with a USB dongle option, or stick with the wired EKSA for guaranteed compatibility.",
   },
@@ -157,7 +157,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["You want to block", "Recommended pick"],
       rows: [
         ["Background noise your mic sends to others (ENC)", "EKSA H8 or Upgrade ANC & ENC"],
-        ["Background noise you hear (ANC)", "Upgrade ANC & ENC (the only pick with true ANC)"],
+        ["Background noise you hear (ANC)", "Upgrade ANC & ENC (the only pick with true ANC)"]
       ],
     },
   },
@@ -171,7 +171,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "Upgrade ANC & ENC and the Bluetooth 5.3 pick both explicitly support staying connected to two devices at once.",
-      },
+      }
     ],
   },
   {
@@ -179,14 +179,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You want both ANC and ENC combined with dual-device connectivity: Upgrade ANC & ENC ($62.99) is the only pick here offering both noise-cancellation types together.",
+        text: "You want both ANC and ENC combined with dual-device connectivity: Upgrade ANC & ENC (under $70) is the only pick here offering both noise-cancellation types together.",
       },
       {
         label: "Save if",
-        text: "You're fine staying wired and want connectivity flexibility without wireless complexity: EKSA H8 ($49.99) covers that at the lowest price here.",
-      },
+        text: "You're fine staying wired and want connectivity flexibility without wireless complexity: EKSA H8 (under $50) covers that at the lowest price here.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -241,5 +241,5 @@ export const faq = [
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-headset-for-work-under-30", title: "Best Headsets for Work Under $30" },
-  { href: "/guide/best-headphones-for-online-classes", title: "Best Headphones for Online Classes" },
+  { href: "/guide/best-headphones-for-online-classes", title: "Best Headphones for Online Classes" }
 ];

@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "Larnavo Reception Desk - Curved Front Desk with Stone Effect Top(78IN) and is built around flowing rounded edge design, positioning it for quartz buyers specifically.\n\nMarble Pattern Surface is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for quartz, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Flowing Rounded Edge Design","Marble Pattern Surface","Sturdy Base Support"],
     pros: ["Flowing Rounded Edge Design, confirmed directly in the listing's own spec details","Marble Pattern Surface, confirmed directly in the listing's own spec details","Sturdy Base Support, confirmed directly in the listing's own spec details"],
-    cons: ["At $3,199.99, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $3,200, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for quartz",
   },
   {
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns Reception Desk with Counter, Modern Front Desk Reception Room Table with Cable measures 47 inch and is built around modern reception desk - welcome your visitors, positioning it for quartz buyers specifically.\n\nPOWERFUL WORKSPACE - 46.5\" W *19.7 D is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for quartz, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["47 inch dimensions","MODERN RECEPTION DESK - Welcome your visitors","POWERFUL WORKSPACE - 46.5\" W *19.7 D"],
     pros: ["MODERN RECEPTION DESK - Welcome your visitors, confirmed directly in the listing's own spec details","POWERFUL WORKSPACE - 46.5\" W *19.7 D, confirmed directly in the listing's own spec details","VERSATILE APPLICATION - Designed in a suitable, confirmed directly in the listing's own spec details"],
-    cons: ["At $163.24, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $170, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for quartz",
   },
   {
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "Larnavo Reception Desk - Curved Front Desk with Stone Effect Top(78IN) and is built around flowing rounded edge design, positioning it for quartz buyers specifically.\n\nMarble Pattern Surface is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for quartz, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Flowing Rounded Edge Design","Marble Pattern Surface","Sturdy Base Support"],
     pros: ["Flowing Rounded Edge Design, confirmed directly in the listing's own spec details","Marble Pattern Surface, confirmed directly in the listing's own spec details","Sturdy Base Support, confirmed directly in the listing's own spec details"],
-    cons: ["At $3,199.99, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $3,200, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for quartz",
   },
   {
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "Larnavo Reception Desk - Curved Front Desk with Stone Effect Top(78IN) and is built around flowing rounded edge design, positioning it for quartz buyers specifically.\n\nMarble Pattern Surface is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for quartz, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Flowing Rounded Edge Design","Marble Pattern Surface","Sturdy Base Support"],
     pros: ["Flowing Rounded Edge Design, confirmed directly in the listing's own spec details","Marble Pattern Surface, confirmed directly in the listing's own spec details","Sturdy Base Support, confirmed directly in the listing's own spec details"],
-    cons: ["At $3,199.99, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $3,200, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for quartz",
   },
   {
@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $163.24",
+          "Under $170",
           "Tribesigns Reception Desk with Counter"
         ],
         [
-          "Around $169.99",
+          "Under $170",
           "Tribesigns Reception Desk with Counter"
         ],
         [
-          "Around $3,199.99",
+          "Under $3,200",
           "Larnavo Reception Desk"
         ],
         [
-          "Around $3,199.99",
+          "Under $3,200",
           "Larnavo Reception Desk"
         ],
         [
-          "Around $3,199.99",
+          "Under $3,200",
           "Larnavo Reception Desk"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Larnavo Reception Desk is aimed at buyers looking for quartz." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Larnavo Reception Desk is aimed at buyers looking for quartz." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-marble-reception-desks","title":"best-marble-reception-desks"},{"href":"/guide/best-granite-reception-desks","title":"4 Best Granite Reception Desks in 2026"},{"href":"/guide/best-glass-reception-desks","title":"4 Best Glass Reception Desks in 2026"}];

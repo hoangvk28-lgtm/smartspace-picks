@@ -12,7 +12,7 @@ export const kvmSwitchExplainedGuide: Guide = {
     "what is a kvm switch",
     "do i need a kvm switch",
     "kvm switch for two computers",
-    "kvm switch vs docking station",
+    "kvm switch vs docking station"
   ],
   heroImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const kvmSwitchExplainedGuide: Guide = {
     "docking-station-vs-usb-hub",
     "usb-c-docking-station-ports-chart",
     "thunderbolt-vs-usb-c-explained",
-    "usb-c-power-delivery-explained",
+    "usb-c-power-delivery-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const kvmSwitchExplainedGuide: Guide = {
       question: "Does switching between computers with a KVM switch cause any lag?",
       answer:
         "Switching is typically near-instant with a small display handshake delay of a second or two as the monitor recognizes the newly connected source, this is a normal, minor delay rather than a sign of a malfunctioning switch.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const kvmSwitchExplainedGuide: Guide = {
     {
       heading: "Deciding If Your Setup Actually Needs One",
       body: `If you regularly work between a personal and work computer, or manage a home server alongside your main desktop, a KVM switch is a practical desk upgrade that consolidates your workspace. If you only occasionally need to access a second computer, manually swapping a single cable now and then may not justify the added cost and setup of a dedicated KVM switch.`,
-    },
+    }
   ],
 };

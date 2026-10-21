@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "powerful mini pc";
 export const introParagraphs = [
   "Core count and multi-threaded throughput matter more for genuinely demanding workloads than peak clock speed alone, a chip with more cores handling background tasks, compilation, or video encoding in parallel often outperforms a higher-clocked chip with fewer cores on real-world multi-threaded work.",
-  "A mini PC marketed as 'powerful' should be evaluated against its actual power draw and thermal design, since a genuinely powerful chip throttled by inadequate cooling won't deliver its rated performance consistently under real workloads.",
+  "A mini PC marketed as 'powerful' should be evaluated against its actual power draw and thermal design, since a genuinely powerful chip throttled by inadequate cooling won't deliver its rated performance consistently under real workloads."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -26,7 +26,7 @@ export const products: GuideProduct[] = [
     badge: "Best Powerful Mini PC Overall (Highest Core Count)",
     name: "ACEMAGIC M5 Mini PC Intel Core i9-14900HX Flagship HX-Class Processor (24C/32T, 55W), 32GB RAM 1TB P",
     price: "$769.00",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/3126EO7Hc7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHQX488K?tag=deskfinds0d-20",
@@ -42,7 +42,7 @@ export const products: GuideProduct[] = [
     badge: "Best Powerful Pick with AI Processing Capability",
     name: "GEEKOM A9 Max High AI Productivity Mini PC,AMD Ryzen AI 9 HX 370(80 Tops)",
     price: "$1,299.00",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41OccK3d-wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLF2KYKN?tag=deskfinds0d-20",
@@ -58,7 +58,7 @@ export const products: GuideProduct[] = [
     badge: "Best Powerful Pick with Gaming Capability",
     name: "GEEKOM A8 MAX Gaming Mini PC AMD Ryzen 9 8945HS 32GB DDR5 & 1TB SSD",
     price: "$999.00",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41dRSelt6aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G19ZF99R?tag=deskfinds0d-20",
@@ -74,7 +74,7 @@ export const products: GuideProduct[] = [
     badge: "Best Powerful Pick with Massive RAM",
     name: "Beelink SER9 MAX Mini PC, Ryzen 7 H255 8C/16T, 64GB DDR5 RAM 1TB SSD",
     price: "$1,179.00",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/312DTHCV2TL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWSLBS9B?tag=deskfinds0d-20",
@@ -90,7 +90,7 @@ export const products: GuideProduct[] = [
     badge: "Best Value Powerful Pick",
     name: "BOSGAME P6 Ryzen 9 6900HX Mini PC, 24GB RAM 4800MT/s 1TB PCIe4.0 SSD",
     price: "$539.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51wdKUl+ERL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPC1J2L3?tag=deskfinds0d-20",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Core count and multi-threaded throughput weighted over clock speed alone", description: "Weighted core count and multi-threaded throughput more heavily than peak clock speed, since parallel workloads benefit more from cores than raw clock frequency." },
   { title: "Power draw and thermal design checked against rated performance claims", description: "Checked power draw and thermal design against rated performance claims, since a genuinely powerful chip throttled by inadequate cooling won't deliver consistent real-world performance." },
   { title: "Memory-bottlenecked versus core-bottlenecked workloads distinguished", description: "Distinguished memory-bottlenecked workloads like virtualization from core-bottlenecked workloads like compilation, matching different picks to each need." },
-  { title: "Value assessed across the powerful-tier price range", description: "Assessed genuine value across different price points within the powerful category, identifying strong options at various budgets." },
+  { title: "Value assessed across the powerful-tier price range", description: "Assessed genuine value across different price points within the powerful category, identifying strong options at various budgets." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Does clock speed or core count matter more for a powerful mini PC?", a: "Core count and multi-threaded throughput matter more for genuinely demanding parallel workloads than peak clock speed alone." },
   { q: "Do powerful mini PCs actually deliver their rated performance?", a: "Only if the thermal design is adequate, a genuinely powerful chip throttled by inadequate cooling won't deliver consistent real-world performance." },
   { q: "Should I prioritize RAM or core count for a powerful mini PC?", a: "It depends on your workload, memory-bottlenecked tasks like virtualization benefit from RAM, core-bottlenecked tasks like compilation benefit from more cores." },
-  { q: "Is the most expensive powerful mini PC always the best choice?", a: "Not necessarily, weigh value across the price range against your actual demanding workload needs." },
+  { q: "Is the most expensive powerful mini PC always the best choice?", a: "Not necessarily, weigh value across the price range against your actual demanding workload needs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-high-performance-mini-pcs", title: "Best High-Performance Mini PCs (2026)" },
   { href: "/guide/best-amd-mini-pcs", title: "Best AMD Mini PCs (2026)" },
-  { href: "/guide/best-intel-mini-pcs", title: "Best Intel Mini PCs (2026)" },
+  { href: "/guide/best-intel-mini-pcs", title: "Best Intel Mini PCs (2026)" }
 ];

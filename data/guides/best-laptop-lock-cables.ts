@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop lock cables";
 export const introParagraphs = [
   "A cable is the core mechanical component of nearly every laptop lock, so this guide overlaps meaningfully with our broader laptop locks roundup. We're publishing it with a narrower lens: comparing these 8 picks specifically on cable length, steel construction, and portability, the factors that actually differ from one cable lock to the next once you've already confirmed slot compatibility.",
-  "If you haven't yet identified your laptop's security-slot type, Standard, Wedge, Nano, or none at all, start with our main laptop locks guide instead; that decision matters more than cable specs and determines which of these picks are even physically usable on your device.",
+  "If you haven't yet identified your laptop's security-slot type, Standard, Wedge, Nano, or none at all, start with our main laptop locks guide instead; that decision matters more than cable specs and determines which of these picks are even physically usable on your device."
 ];
 export const lastUpdated = "2026-08-11";
 export const readTime = "8 min";
@@ -94,10 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "56",
     imageUrl: "https://m.media-amazon.com/images/I/21wh6b9wJwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CRKFVZ9L?tag=deskfinds0d-20",
-    description: "The same 5-foot anti-shearing cable and 360-degree head pivot, 90-degree cable rotation design as the Nano-slot pick above, but built for the more common Standard slot at the lowest price of any Kensington cable in this comparison. A one-handed slider attachment lets you lock the cable to the laptop without needing a second free hand to hold the head steady.\n\nOne spot below Kensington Combination Laptop Lock for Nano Size Security Slot in this ranking, it's priced lower than Kensington Combination Laptop Lock for Nano Size Security Slot. The compromise here is straightforward: Lowest rating in this comparison at 3.9 stars. What you gain in return: Lowest price of any cable in this comparison. Whether that trade is worth it depends on which side matters more for your device.\n\nWorth knowing before you decide: Same rotation flexibility as the pricier Nano-slot cable. On the other side, 5 ft length is shorter than the top Standard-slot pick. That's the main tradeoff to weigh against everything above.",
+    description: "The same 5-foot anti-shearing cable and 360-degree head pivot, 90-degree cable rotation design as the Nano-slot pick above, but built for the more common Standard slot at the lowest price of any Kensington cable in this comparison. A one-handed slider attachment lets you lock the cable to the laptop without needing a second free hand to hold the head steady.\n\nOne spot below Kensington Combination Laptop Lock for Nano Size Security Slot in this ranking, it's priced lower than Kensington Combination Laptop Lock for Nano Size Security Slot. What you gain in return: Lowest price of any cable in this comparison. Whether that trade is worth it depends on which side matters more for your device.\n\nWorth knowing before you decide: Same rotation flexibility as the pricier Nano-slot cable. On the other side, 5 ft length is shorter than the top Standard-slot pick. That's the main tradeoff to weigh against everything above.",
     specs: ["5 ft anti-shearing carbon steel cable","360-degree head pivot, one-handed slider attach","Standard slot"],
     pros: ["Lowest price of any cable in this comparison","Same rotation flexibility as the pricier Nano-slot cable"],
-    cons: ["Lowest rating in this comparison at 3.9 stars","5 ft length is shorter than the top Standard-slot pick"],
+    cons: ["5 ft length is shorter than the top Standard-slot pick"],
     bestFor: "Budget buyers on a Standard slot who don't need the extra foot of reach the pricier pick offers.",
   },
   {
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Compared cable length as a primary spec, not an afterthought", description: "Lengths in this comparison range from 5 to 6.56 feet. We treated that spread as meaningful for anchor-point flexibility, not a rounding-error difference." },
   { title: "Separated cable construction quality from lock-head compatibility", description: "Several picks here share materially identical cable specs across different slot heads. We called that out explicitly rather than implying cable quality changes with slot type when it often doesn't." },
   { title: "Weighed portability against raw length", description: "A longer cable reaches farther but coils bulkier for travel. We noted this tradeoff on the longest picks rather than treating length as a strictly one-directional win." },
-  { title: "Disclosed the overlap with our main laptop locks guide directly", description: "Most picks here also appear in our broader laptop locks roundup. We're not pretending this is an entirely separate product pool, only a narrower comparison lens on the same cables." },
+  { title: "Disclosed the overlap with our main laptop locks guide directly", description: "Most picks here also appear in our broader laptop locks roundup. We're not pretending this is an entirely separate product pool, only a narrower comparison lens on the same cables." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -290,11 +290,11 @@ export const faq: FaqItem[] = [
   { q: "Does a longer cable mean better security?", a: "Not directly. Length affects how far you can reach a fixed anchor point, not cut resistance or lock-head strength. Match length to your actual desk setup rather than assuming longer is always better." },
   { q: "Why does this guide overlap with your main laptop locks guide?", a: "Cable is the core component of most laptop locks, so the product pool naturally overlaps. This guide narrows the comparison specifically to length, construction, and portability rather than duplicating the broader slot-compatibility breakdown." },
   { q: "Is there a good cable option if I travel with my laptop daily?", a: "The 5-foot Kensington cables coil more compactly than the 6 to 6.56-foot picks, a real advantage if you're locking up in a different location each day rather than leaving the laptop anchored to one desk." },
-  { q: "Do these cables work if my laptop has no security slot?", a: "No, all 8 picks here use a Kensington-style or vent-slot lock head. See our dedicated guide to laptop locks for MacBook Air for slotless adapter and locking-station options instead." },
+  { q: "Do these cables work if my laptop has no security slot?", a: "No, all 8 picks here use a Kensington-style or vent-slot lock head. See our dedicated guide to laptop locks for MacBook Air for slotless adapter and locking-station options instead." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-locks", title: "Best Laptop Locks (2026)" },
   { href: "/guide/best-kensington-laptop-locks", title: "Best Kensington Laptop Locks (2026)" },
-  { href: "/guide/best-laptop-locks-for-macbook-air", title: "Best Laptop Locks for MacBook Air (2026)" },
+  { href: "/guide/best-laptop-locks-for-macbook-air", title: "Best Laptop Locks for MacBook Air (2026)" }
 ];

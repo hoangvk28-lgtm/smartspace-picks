@@ -123,7 +123,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The lowest price with documented high-density foam", "CushZone Seat Cushion Memory Foam Chair Pad"],
         ["A carry handle for moving between locations", "TushGuard Seat Cushion, Memory Foam, Grey Large"],
         ["Support for 8+ hour sitting sessions", "CushZone Ergonomic Seat Cushion, Sciatica Support"],
-        ["A specific stated thickness measurement", "BlissTrends Memory Foam Seat Cushion"],
+        ["A specific stated thickness measurement", "BlissTrends Memory Foam Seat Cushion"]
       ],
     },
   },
@@ -132,8 +132,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $19", "CushZone base ($16.96) or TushGuard ($18.99)"],
-        ["$20 to $25", "CushZone Ergonomic ($19.95) or BlissTrends ($24.99)"],
+        ["Under $19", "CushZone base (under $20) or TushGuard (under $20)"],
+        ["$20 to $25", "CushZone Ergonomic (under $20) or BlissTrends (under $25)"]
       ],
     },
   },
@@ -147,7 +147,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "Velvet or standard fabric cover (BlissTrends, TushGuard, CushZone Ergonomic)",
         text: "Feels softer and more premium to the touch, but retains more heat than a mesh design during extended use.",
-      },
+      }
     ],
     note: "If you sit in a warm room or tend to run hot, the mesh-covered CushZone base model is the better fit; otherwise the softer fabric covers on the other picks feel more comfortable to most people.",
   },
@@ -157,7 +157,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["You typically sit for", "Recommended pick"],
       rows: [
         ["A few hours at a time", "CushZone base or TushGuard"],
-        ["8+ hours in extended stretches", "CushZone Ergonomic Seat Cushion, Sciatica Support"],
+        ["8+ hours in extended stretches", "CushZone Ergonomic Seat Cushion, Sciatica Support"]
       ],
     },
   },
@@ -171,7 +171,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "TushGuard is the pick here specifically built with a carry handle and marketed across the widest range of seat types.",
-      },
+      }
     ],
   },
   {
@@ -179,14 +179,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You want a specific, comparable thickness measurement and a premium cover feel: BlissTrends ($24.99) is the only pick here stating an exact 3.3\" thickness.",
+        text: "You want a specific, comparable thickness measurement and a premium cover feel: BlissTrends (under $25) is the only pick here stating an exact 3.3\" thickness.",
       },
       {
         label: "Save if",
-        text: "You just need basic tailbone relief for a few hours of sitting: CushZone's base model ($16.96) covers that core need at the lowest price here.",
-      },
+        text: "You just need basic tailbone relief for a few hours of sitting: CushZone's base model (under $20) covers that core need at the lowest price here.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -241,5 +241,5 @@ export const faq = [
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-seat-cushions-for-office-chair-under-50", title: "Best Seat Cushions for Office Chairs Under $50" },
-  { href: "/guide/best-office-chair-under-100", title: "Best Office Chairs Under $100" },
+  { href: "/guide/best-office-chair-under-100", title: "Best Office Chairs Under $100" }
 ];

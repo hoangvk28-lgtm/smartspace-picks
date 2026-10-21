@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick",
     name: "BestOffice Ergonomic Mid-Back Swivel Desk Chair",
     price: "$38.99",
-    rating: "4.3 stars from 64,003 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/bestoffice-mid-back.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0FQDM23S4?tag=deskfinds0d-20",
@@ -67,7 +67,7 @@ export const products: GuideProduct[] = [
     badge: "Best Value",
     name: "Furmax Ergonomic Mid Back Mesh Chair",
     price: "$39.98",
-    rating: "4.2 stars from 68,389 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/furmax-mid-back.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B07B7K7N3P?tag=deskfinds0d-20",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     badge: "Best Under 2-Hour Sessions",
     name: "Sweetcrispy Home Office Managerial Chair",
     price: "$37.96",
-    rating: "4.5 stars from 537 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/sweetcrispy-managerial.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0H294B67V?tag=deskfinds0d-20",
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     badge: "Best Armless Option",
     name: "NEO CHAIR Ergonomic Mesh Gaming Cushion Seat",
     price: "$38.98",
-    rating: "4.3 stars from 3,442 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/neo-chair-cushion-seat.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0FXGB6L96?tag=deskfinds0d-20",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     badge: "Best with Flip-Up Arms",
     name: "NEO CHAIR High Back Mesh with Flip-Up Armrests",
     price: "$58.46",
-    rating: "4.2 stars from 2,568 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/neo-chair-high-back-flip.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0DKNN49QP?tag=deskfinds0d-20",
@@ -131,7 +131,7 @@ export const products: GuideProduct[] = [
     badge: "Best Adjustable Lumbar",
     name: "TRALT Office Chair with Adjustable Lumbar Support",
     price: "$107.99",
-    rating: "4.3 stars from 4,362 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/tralt-adjustable-lumbar.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0CQD3K8PJ?tag=deskfinds0d-20",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     badge: "Best Durability at Mid-Price",
     name: "TRALT Ergonomic Mesh Desk Chair, 330 lbs",
     price: "$125.99",
-    rating: "4.3 stars from 6,155 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/tralt-mesh-wheels.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0CG6V2XGS?tag=deskfinds0d-20",
@@ -172,7 +172,7 @@ export const products: GuideProduct[] = [
     pros: ["Headrest support not common at this price", "3D adjustable armrests", "Compact standard base"],
     cons: ["No review history yet to confirm durability", "Higher price without proven track record", "Taller profile needs overhead clearance"],
     bestFor: "Buyers who want headrest support and are comfortable trying a newer listing.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -203,7 +203,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Desk clearance compatibility", description: "Fixed vs. flip-up armrest designs were compared against typical low desk apron heights to flag under-desk tuck issues." },
   { title: "Comfort for session length", description: "Chairs were assessed on whether their support (lumbar, arms, headrest) suits short study sessions or longer workdays." },
   { title: "Build durability", description: "Frame material and weight capacity were weighed against price tier to separate short-term dorm chairs from longer-lifespan picks." },
-  { title: "Buyer feedback reliability", description: "We weighed verified Amazon rating volume, favoring picks with a large review base while flagging newer listings without rating history." },
+  { title: "Buyer feedback reliability", description: "We weighed verified Amazon rating volume, favoring picks with a large review base while flagging newer listings without rating history." }
 ];
 
 export const howToChoose: HowToChooseSection[] = [
@@ -307,12 +307,12 @@ export const faq: { q: string; a: string }[] = [
   { q: "Is an armless chair a good idea for a small desk?", a: "It trims several inches of width and helps the chair tuck fully under a desk, but removes shoulder and forearm support. It's a reasonable trade-off for sessions under about two hours. For longer daily use, the strain from missing arm support tends to outweigh the space savings." },
   { q: "Why won't my chair's armrests fit under my desk?", a: "Fixed armrests can be as high as the desk's apron clearance, some desks as low as 24 inches from the floor to the underside. If your desk sits low, look for chairs with flip-up or removable arms so you can tuck the chair fully underneath when not in use." },
   { q: "How much room does a reclining chair need behind it?", a: "A 20 to 30 degree recline can add 10 to 15 inches of depth behind the chair. Measure the distance from your chair's upright position to the nearest wall before assuming you'll have room to recline without hitting it." },
-  { q: "Do cheaper compact chairs wear out faster?", a: "Generally yes. Sub-$150 compact mesh chairs commonly show wear within 2 to 3 years of regular use, while more reinforced frames at a similar footprint tend to last considerably longer. If you're keeping the chair for years, factor that into the price comparison." },
+  { q: "Do cheaper compact chairs wear out faster?", a: "Generally yes. Sub-$150 compact mesh chairs commonly show wear within 2 to 3 years of regular use, while more reinforced frames at a similar footprint tend to last considerably longer. If you're keeping the chair for years, factor that into the price comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-office-chairs-for-long-hours", title: "Best Office Chairs for Long Hours (2026)" },
   { href: "/guide/best-office-chair-for-short-people", title: "Best Office Chairs for Short People (2026)" },
   { href: "/guide/best-mesh-office-chair", title: "Best Mesh Office Chairs (2026)" },
-  { href: "/guide/best-filing-cabinets-for-small-spaces", title: "Best Filing Cabinets for Small Spaces (2026)" },
+  { href: "/guide/best-filing-cabinets-for-small-spaces", title: "Best Filing Cabinets for Small Spaces (2026)" }
 ];

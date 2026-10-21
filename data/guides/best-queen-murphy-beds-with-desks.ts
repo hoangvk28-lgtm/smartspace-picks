@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "queen murphy bed with desk";
 export const introParagraphs = [
   "A queen murphy bed is the largest size most home offices can realistically fit, and it comes with size requirements that a full or twin bed does not. A vertical queen cabinet typically needs about 93 inches of ceiling clearance, accounting for an 88 inch closed cabinet plus roughly 5 inches of anchor and swing clearance, and the room itself needs close to 108 inches (9 feet) of width for comfortable side access to the mattress once it is down.",
-  "This guide focuses on queen-specific sizing: ceiling height, room width, and how mattress weight needs to match the mechanism's counterbalance calibration, since a queen mattress can weigh anywhere from 60 to 130 lbs depending on the type. Below are the 8 picks we evaluated based on product specs and buyer feedback, ranging from a $197.00 hardware kit to a $1,239.99 assembled desk-integrated cabinet.",
+  "This guide focuses on queen-specific sizing: ceiling height, room width, and how mattress weight needs to match the mechanism's counterbalance calibration, since a queen mattress can weigh anywhere from 60 to 130 lbs depending on the type. Below are the 8 picks we evaluated based on product specs and buyer feedback, ranging from an under-$200 hardware kit to an under-$1,300 assembled desk-integrated cabinet."
 ];
 export const lastUpdated = "2026-07-26";
 export const readTime = "11 min";
@@ -46,27 +46,26 @@ export const products: GuideProduct[] = [
     badge: "Best Confirmed Desk-Bed Combo",
     name: "Merax Queen Size Murphy Bed with Desk and Lights, Power Outlet",
     price: "$1,239.99",
-    rating: "4.4 stars from 4 Amazon ratings",
-    reviews: "4 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41WkdwEwOOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H33PY32C?tag=deskfinds0d-20",
     description:
-      "This is the only pick in this guide whose listing title directly confirms a built-in desk surface alongside a queen mattress, plus a power outlet and open storage shelves and drawers. The desk panel folds clear of the cabinet face, which matters for a queen unit since the swing radius is larger than a full or twin design. It is the most expensive pick here, reflecting the added desk hardware, lighting, and storage. With only 4 ratings, buyer feedback is thin for a queen-size cabinet at this price point, so weigh that against the confirmed desk feature before ordering. Power outlet and lighting integrated into the cabinet. That's a real strength, but weigh it against the flip side: highest price in this guide.",
+      "This is the only pick in this guide whose listing title directly confirms a built-in desk surface alongside a queen mattress, plus a power outlet and open storage shelves and drawers. The desk panel folds clear of the cabinet face, which matters for a queen unit since the swing radius is larger than a full or twin design. It is the most expensive pick here, reflecting the added desk hardware, lighting, and storage. Power outlet and lighting integrated into the cabinet. That's a real strength, but weigh it against the flip side: highest price in this guide.",
     specs: [
       "Queen size cabinet with fold-down desk",
       "Built-in LED lights and power outlet",
       "Open storage shelves and drawers",
-      "Antique white finish",
+      "Antique white finish"
     ],
     pros: [
       "Only pick here with a confirmed built-in desk surface",
       "Power outlet and lighting integrated into the cabinet",
-      "Storage shelves and drawers add functional space",
+      "Storage shelves and drawers add functional space"
     ],
     cons: [
       "Highest price in this guide",
-      "Very small review base at 4 ratings",
-      "Shipping weight for queen cabinets like this often runs 300-500 lbs, so confirm delivery access before ordering",
+      "Shipping weight for queen cabinets like this often runs 300-500 lbs, so confirm delivery access before ordering"
     ],
     bestFor: "Buyers who specifically need a confirmed fold-down desk built into a queen cabinet and can verify freight delivery access",
   },
@@ -76,27 +75,25 @@ export const products: GuideProduct[] = [
     badge: "Best Vertical Hardware Kit",
     name: "Create-A-Bed Queen Size Deluxe Murphy Bed Kit, Vertical",
     price: "$299.00",
-    rating: "4.6 stars from 2,138 Amazon ratings",
-    reviews: "2,138 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51H6j9qVxwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00CYPV29W?tag=deskfinds0d-20",
     description:
-      "This is a bare gas-piston mechanism, not a finished desk-bed combo, so the desk portion is entirely your own cabinet build. For a queen vertical build using this kit, plan on close to 93 inches of ceiling clearance for the 88 inch cabinet plus anchor swing room, and confirm your queen mattress weight against the piston calibration before ordering, since pistons are matched to a specific weight range.\n\nWith 2,138 ratings at 4.6 stars, it has the strongest review base in this guide by a wide margin. Because the desk face is entirely your own build, item weight limits and desk depth depend on the materials you choose, not on anything this kit specifies.\n\nWorth calling out specifically: smooth, controlled piston operation. The catch is no desk surface included, bed-only mechanism.",
+      "This is a bare gas-piston mechanism, not a finished desk-bed combo, so the desk portion is entirely your own cabinet build. For a queen vertical build using this kit, plan on close to 93 inches of ceiling clearance for the 88 inch cabinet plus anchor swing room, and confirm your queen mattress weight against the piston calibration before ordering, since pistons are matched to a specific weight range.\n\nBecause the desk face is entirely your own build, item weight limits and desk depth depend on the materials you choose, not on anything this kit specifies.\n\nWorth calling out specifically: smooth, controlled piston operation. The catch is no desk surface included, bed-only mechanism.",
     specs: [
       "Vertical queen size mechanism",
       "Gas piston operation",
       "Hardware kit, cabinet and desk not included",
-      "Made in North America",
+      "Made in North America"
     ],
     pros: [
-      "Largest review base in this guide at 2,138 ratings",
       "Smooth, controlled piston operation",
-      "Flexible for a custom desk cabinet build",
-    ],
+      "Flexible for a custom desk cabinet build", "Gas piston mechanism for queen vertical beds"],
     cons: [
       "No desk surface included, bed-only mechanism",
       "Requires separate cabinet and carpentry work",
-      "Mattress weight must be matched to piston calibration or the fold will feel unbalanced",
+      "Mattress weight must be matched to piston calibration or the fold will feel unbalanced"
     ],
     bestFor: "DIY builders who want a proven queen vertical mechanism and will design their own desk cabinet around it",
   },
@@ -106,27 +103,25 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Vertical Kit",
     name: "Queen Size Murphy Bed Hardware Kit, Vertical Wall Bed Frame with Gas Pistons",
     price: "$197.00",
-    rating: "4.6 stars from 1,610 Amazon ratings",
-    reviews: "1,610 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51h1vyv6ZdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B017701FUE?tag=deskfinds0d-20",
     description:
-      "Like the Create-A-Bed kit above, this is a bed-only mechanism with no desk claim in the listing, aimed at buyers who plan to build a full cabinet themselves, including any desk face. It is the lowest cost mechanism here, which can leave more budget toward a well-built desk panel if that is the goal. As a queen mechanism, the same 93 inch ceiling clearance and mattress weight matching rules apply as with the Create-A-Bed kit. With 1,610 ratings at 4.6 stars, it has a strong review base for a DIY hardware product. Detailed build guides included. Set against that, no desk surface included, bed-only mechanism. Both matter when comparing it to the other picks here.",
+      "Like the Create-A-Bed kit above, this is a bed-only mechanism with no desk claim in the listing, aimed at buyers who plan to build a full cabinet themselves, including any desk face. It is the lowest cost mechanism here, which can leave more budget toward a well-built desk panel if that is the goal. As a queen mechanism, the same 93 inch ceiling clearance and mattress weight matching rules apply as with the Create-A-Bed kit. Detailed build guides included. Set against that, no desk surface included, bed-only mechanism. Both matter when comparing it to the other picks here.",
     specs: [
       "Vertical queen size mechanism",
       "Gas piston operation",
       "3 step-by-step build guides included",
-      "Made in North America",
+      "Made in North America"
     ],
     pros: [
       "Lowest price mechanism in this guide",
-      "Detailed build guides included",
-      "Large review base at 1,610 ratings",
-    ],
+      "Detailed build guides included", "Gas piston mechanism for queen vertical beds"],
     cons: [
       "No desk surface included, bed-only mechanism",
       "Full cabinet and desk build is on you",
-      "Mattress weight must be verified against piston calibration",
+      "Mattress weight must be verified against piston calibration"
     ],
     bestFor: "Budget-focused DIY builders comfortable sourcing their own queen cabinet and desk materials",
   },
@@ -136,27 +131,26 @@ export const products: GuideProduct[] = [
     badge: "Best Assembled Cabinet with Charging",
     name: "Yoobure Queen Murphy Bed with Charging Station, Rattan Cabinet Bed with Storage Drawers",
     price: "$459.99",
-    rating: "4.5 stars from 19 Amazon ratings",
-    reviews: "19 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51JtI3bjGFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GQM56Y2N?tag=deskfinds0d-20",
     description:
-      "The Yoobure listing does not mention a desk, so treat this as a storage-focused queen cabinet with a charging station rather than a true desk-integrated unit. It is a fully assembled cabinet, which removes the carpentry step required by the hardware kits above.\n\nAt queen size, confirm your room has close to 108 inches of width for comfortable side access once the bed is lowered. With only 19 ratings, buyer feedback is thin compared to the hardware kits above, so weigh that against the higher price.\n\nA genuine advantage here is that storage drawers add functional space. The tradeoff is no integrated desk surface despite home office marketing.",
+      "The Yoobure listing does not mention a desk, so treat this as a storage-focused queen cabinet with a charging station rather than a true desk-integrated unit. It is a fully assembled cabinet, which removes the carpentry step required by the hardware kits above.\n\nAt queen size, confirm your room has close to 108 inches of width for comfortable side access once the bed is lowered.\n\nA genuine advantage here is that storage drawers add functional space. The tradeoff is no integrated desk surface despite home office marketing.",
     specs: [
       "Queen size foldable platform",
       "Built-in charging station",
       "Storage drawers included",
-      "Rattan cabinet finish",
+      "Rattan cabinet finish"
     ],
     pros: [
       "Built-in charging station near the bed",
       "Storage drawers add functional space",
-      "Fully assembled cabinet, no carpentry required",
+      "Fully assembled cabinet, no carpentry required"
     ],
     cons: [
       "No integrated desk surface despite home office marketing",
-      "Very small review base at 19 ratings",
-      "Higher price than the bare hardware kits",
+      "Higher price than the bare hardware kits"
     ],
     bestFor: "Buyers who want a finished queen cabinet with charging convenience but already have a separate desk",
   },
@@ -166,27 +160,26 @@ export const products: GuideProduct[] = [
     badge: "Most Established Assembled Brand",
     name: "Bestar Claremont 65W Queen Murphy Bed in White",
     price: "$1,009.99",
-    rating: "4.0 stars from 181 Amazon ratings",
-    reviews: "181 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21HUtlnOKaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLDV21TZ?tag=deskfinds0d-20",
     description:
-      "Bestar's listing describes it as a sleeping arrangement for a multipurpose area, bedroom, or living room, with no desk feature mentioned, so this is a bed-only queen unit despite frequent appearance in desk-bed searches. It is a well-established brand in the assembled murphy bed space with a moderate review base.\n\nAt 181 ratings and a 4.0-star average, it sits in the middle of the pack for buyer feedback among assembled units in this guide. Confirm your room's ceiling height and width before ordering, since this is priced as a finished cabinet and returns on large furniture like this are costly.\n\nFully assembled, no desk carpentry needed. That's a real strength, but weigh it against the flip side: no desk surface, bed-only unit.",
+      "Bestar's listing describes it as a sleeping arrangement for a multipurpose area, bedroom, or living room, with no desk feature mentioned, so this is a bed-only queen unit despite frequent appearance in desk-bed searches. It is a well-established brand in the assembled murphy bed space with a moderate review base.\n\nConfirm your room's ceiling height and width before ordering, since this is priced as a finished cabinet and returns on large furniture like this are costly.\n\nFully assembled, no desk carpentry needed. That's a real strength, but weigh it against the flip side: no desk surface, bed-only unit.",
     specs: [
       "Queen size murphy bed cabinet",
       "White finish",
       "65 inch width footprint",
-      "Assembled cabinet, ready to mount",
+      "Assembled cabinet, ready to mount"
     ],
     pros: [
       "Established brand with a 181-rating review base",
       "Fully assembled, no desk carpentry needed",
-      "Clean white finish suits most home office decor",
+      "Clean white finish suits most home office decor"
     ],
     cons: [
       "No desk surface, bed-only unit",
-      "High price for a unit without desk integration",
-      "4.0-star rating is the lowest among the assembled queen picks",
+      "High price for a unit without desk integration"
     ],
     bestFor: "Buyers who want an established assembled queen cabinet and already have a separate desk in the room",
   },
@@ -196,27 +189,27 @@ export const products: GuideProduct[] = [
     badge: "Best with Built-In Lighting",
     name: "Hlivelood Queen Size Murphy Bed with 2 LED Lights, Rustic White",
     price: "$639.99",
-    rating: "4.0 stars from 141 Amazon ratings",
-    reviews: "141 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/515sMh7j30L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXZVVHCG?tag=deskfinds0d-20",
     description:
-      "This queen cabinet adds two built-in LED lights, useful for a home office corner, though the listing makes no desk claim and should be treated as a bed-only unit. The gas struts give a controlled fold, and the no-box-spring design simplifies mattress setup for a queen size. It lands mid-range for an assembled queen cabinet with lighting as the standout feature. A 4.0-star rating across 141 reviews is a reasonably sized feedback base for this price tier. Worth calling out specifically: gas struts give controlled, smooth operation. The catch is no desk surface, bed-only unit.",
+      "This queen cabinet adds two built-in LED lights, useful for a home office corner, though the listing makes no desk claim and should be treated as a bed-only unit. The gas struts give a controlled fold, and the no-box-spring design simplifies mattress setup for a queen size. It lands mid-range for an assembled queen cabinet with lighting as the standout feature. Worth calling out specifically: gas struts give controlled, smooth operation. The catch is no desk surface, bed-only unit.",
     specs: [
       "Queen size murphy bed",
       "2 built-in LED lights",
       "Gas strut mechanism",
-      "No box spring needed",
+      "No box spring needed"
     ],
     pros: [
       "Built-in LED lighting is a genuine convenience feature",
       "Gas struts give controlled, smooth operation",
-      "No box spring simplifies queen mattress setup",
+      "No box spring simplifies queen mattress setup"
     ],
     cons: [
       "No desk surface, bed-only unit",
       "Mid-range price for a unit without desk integration",
-      "Struts eventually need replacement like any gas mechanism",
+      "Struts eventually need replacement like any gas mechanism"
     ],
     bestFor: "Buyers who want built-in lighting in a queen cabinet for a home office corner and will add a separate desk",
   },
@@ -226,27 +219,25 @@ export const products: GuideProduct[] = [
     badge: "Best Storage-Focused Queen Cabinet",
     name: "LUXOAK Queen Murphy Cabinet Bed with Storage and Charging Station",
     price: "$469.99",
-    rating: "4.3 stars from 340 Amazon ratings",
-    reviews: "340 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51k+vfJQZGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DN5P11PP?tag=deskfinds0d-20",
     description:
-      "LUXOAK's listing focuses on storage and a charging station, with no desk mentioned, so this is a bed-only queen cabinet best paired with a separate nearby desk. It has a solid mid-size review base for a queen assembled unit. At a competitive price with 340 ratings at 4.3 stars, it offers a reasonable balance of price and feedback volume among the assembled queen cabinets in this guide, though the desk gap is the same limitation shared by most picks here. Charging station and storage built in. Set against that, no desk surface, despite frequent home office search association. Both matter when comparing it to the other picks here.",
+      "LUXOAK's listing focuses on storage and a charging station, with no desk mentioned, so this is a bed-only queen cabinet best paired with a separate nearby desk. It has a solid mid-size review base for a queen assembled unit. Charging station and storage built in. Set against that, no desk surface, despite frequent home office search association. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size murphy cabinet",
       "Built-in storage compartments",
       "Charging station included",
-      "Assembled cabinet design",
+      "Assembled cabinet design"
     ],
     pros: [
-      "Solid review base at 340 ratings",
       "Charging station and storage built in",
-      "Fully assembled, no separate cabinet build needed",
-    ],
+      "Fully assembled, no separate cabinet build needed", "Queen size cabinet design"],
     cons: [
       "No desk surface, despite frequent home office search association",
       "Requires a separate desk purchase for actual desk work",
-      "Storage capacity is modest compared to the Merax pick above",
+      "Storage capacity is modest compared to the Merax pick above"
     ],
     bestFor: "Buyers who want an assembled queen storage cabinet and already plan a separate nearby desk",
   },
@@ -256,30 +247,28 @@ export const products: GuideProduct[] = [
     badge: "Best Value Assembled Cabinet",
     name: "AMERLIFE Queen Murphy Bed with Storage and Charging Station",
     price: "$499.99",
-    rating: "4.2 stars from 396 Amazon ratings",
-    reviews: "396 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51Og-FctXuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGL5B76J?tag=deskfinds0d-20",
     description:
-      "AMERLIFE's title again lists storage and charging, not a desk, so this is another bed-only queen unit best treated as a space-saving alternative rather than a genuine desk-bed combo. It works well in a home office corner where a separate small desk sits nearby.\n\nWith 396 ratings at 4.2 stars, it has the second-largest assembled-cabinet review base in this guide after the Bestar pick. Budget for a stand-alone desk purchase separately if desk work is the priority.\n\nA genuine advantage here is that charging station and storage built in. The tradeoff is no desk surface, despite frequent home office search association.",
+      "AMERLIFE's title again lists storage and charging, not a desk, so this is another bed-only queen unit best treated as a space-saving alternative rather than a genuine desk-bed combo. It works well in a home office corner where a separate small desk sits nearby.\n\nBudget for a stand-alone desk purchase separately if desk work is the priority.\n\nA genuine advantage here is that charging station and storage built in. The tradeoff is no desk surface, despite frequent home office search association.",
     specs: [
       "Queen size murphy bed",
       "Built-in storage compartments",
       "Charging station included",
-      "Assembled cabinet design",
+      "Assembled cabinet design"
     ],
     pros: [
-      "Solid 4.2-star rating across 396 reviews",
       "Charging station and storage built in",
-      "Fully assembled, no separate cabinet build needed",
-    ],
+      "Fully assembled, no separate cabinet build needed", "Queen size cabinet design"],
     cons: [
       "No desk surface, despite frequent home office search association",
       "Requires a separate desk purchase for actual desk work",
-      "Higher price for a bed-only unit compared to LUXOAK",
+      "Higher price for a bed-only unit compared to LUXOAK"
     ],
     bestFor: "Buyers who want an assembled queen storage bed at a reasonable price and already plan a separate nearby desk",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -312,7 +301,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Shipping and installation cost disclosure",
     description:
       "Factored in that queen cabinets like these often ship at 300-500 lbs across multiple boxes, and that white glove delivery or professional installation can add a competitive price-800 or more on top of the listed price.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -455,12 +444,12 @@ export const faq: FaqItem[] = [
   {
     q: "Is the desk surface as wide as the cabinet on a confirmed desk pick?",
     a: "Not necessarily. Even on a confirmed desk pick like the Merax, the usable desk surface inside the cabinet face is typically narrower than the full cabinet width once hinges and side clearance are accounted for. Check the specific desk dimension in the current listing rather than assuming it matches the cabinet's overall width.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-full-size-murphy-beds-with-desks", title: "Best Full-Size Murphy Beds with Desks (2026)" },
   { href: "/guide/best-murphy-beds-with-desks", title: "Best Murphy Beds with Desks (2026)" },
   { href: "/guide/best-murphy-beds-for-home-offices", title: "Best Murphy Beds for Home Offices (2026)" },
-  { href: "/guide/best-murphy-beds-with-storage-and-desks", title: "Best Murphy Beds with Storage and Desks (2026)" },
+  { href: "/guide/best-murphy-beds-with-storage-and-desks", title: "Best Murphy Beds with Storage and Desks (2026)" }
 ];

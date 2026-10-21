@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This is Microsoft's own official Surface dock, built with genuine Thunderbolt 4 ports and specifically engineered to charge a compatible Surface laptop in as little as 2.5 hours, a charging speed claim backed by first-party engineering rather than a generic third-party estimate. Its raised tactile port indicators are a small but genuinely useful detail for finding the correct port without looking, and the dock supports up to two 4K monitors simultaneously.\n\nCompared to the third-party docks in this comparison, this one carries the reliability and support backing of an official Microsoft accessory, plus a stated commitment to sustainability using 20% recycled ocean-bound plastic in its construction. Its (3) USB-C and (3) USB-A ports plus 2.5G Ethernet cover most peripheral needs without additional adapters.\n\nBest for buyers who want the reliability of an official Microsoft-made Surface dock with genuine Thunderbolt 4 ports.",
     specs: ["Genuine Thunderbolt 4, dual 4K monitor support", "2.5G Ethernet, 3x USB-C + 3x USB-A", "2.5 hour rapid laptop charging"],
     pros: ["Official Microsoft-made dock with first-party support", "Rapid charging in as little as 2.5 hours", "Raised tactile port indicators for easy identification"],
-    cons: ["Highest price in this comparison at $217.99", "Only dual monitor support versus the triple-display third-party picks"],
+    cons: ["Highest price in this comparison at under $250", "Only dual monitor support versus the triple-display third-party picks"],
     bestFor: "buyers who want the reliability of an official Microsoft-made Surface dock",
   },
   {
@@ -77,7 +77,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0FXWZS72R?tag=deskfinds0d-20",
     description: "This dock's inclusion of a VGA port alongside dual 4K HDMI is a genuinely distinct feature from the other picks in this comparison, letting you connect an older monitor or projector that only accepts VGA input without a separate adapter. Its 100W DC charging port comes with an included power adapter, and the dock is specifically optimized for USB4 devices while remaining backward compatible with standard USB-C.\n\nCompared to the 13-in-1 pick above, this one trades a slightly lower USB-A transfer speed (5Gbps versus 10Gbps) for the lowest price in this comparison and the practical addition of a VGA port for legacy display compatibility. Its Gigabit Ethernet and 3.5mm audio jack round out a complete peripheral connectivity set for daily work.\n\nBest for buyers who need VGA compatibility for legacy displays at the lowest price in this comparison.",
     specs: ["Dual 4K HDMI + VGA display support", "100W DC charging, Gigabit Ethernet", "5Gbps USB-A/USB-C data transfer"],
-    pros: ["VGA port supports legacy monitors and projectors", "Lowest price in this comparison at $134.80", "Complete connectivity set including Ethernet and audio jack"],
+    pros: ["VGA port supports legacy monitors and projectors", "Lowest price in this comparison at under $140", "Complete connectivity set including Ethernet and audio jack"],
     cons: ["5Gbps data transfer is slower than the 13-in-1 pick's 10Gbps", "12-month warranty is shorter than the 13-in-1 pick's 24 months"],
     bestFor: "buyers who need VGA compatibility for legacy displays at the lowest price",
   }
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Official Microsoft reliability with rapid charging", "Microsoft Surface Thunderbolt 4 Docking Station"],
         ["An official but lower-priced USB4 option", "Microsoft Surface USB4 Dock for Business"],
         ["Triple-display support with fast card reading", "Surface Thunderbolt 4 Dock 13-in-1"],
-        ["Legacy VGA compatibility at the lowest price", "12-in-1 Thunderbolt 4 Dock, Dual HDMI + VGA"],
+        ["Legacy VGA compatibility at the lowest price", "12-in-1 Thunderbolt 4 Dock, Dual HDMI + VGA"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $135", "12-in-1 Dual HDMI + VGA ($134.80)"],
-        ["Under $140", "Surface Thunderbolt 4 Dock 13-in-1 ($139.99)"],
-        ["Under $170", "Microsoft Surface USB4 Dock for Business ($166.99)"],
-        ["Under $220", "Microsoft Surface Thunderbolt 4 Docking Station ($217.99)"],
+        ["Under $135", "12-in-1 Dual HDMI + VGA (under $140)"],
+        ["Under $140", "Surface Thunderbolt 4 Dock 13-in-1 (under $140)"],
+        ["Under $170", "Microsoft Surface USB4 Dock for Business (under $170)"],
+        ["Under $220", "Microsoft Surface Thunderbolt 4 Docking Station (under $250)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Official Microsoft Dock vs Third-Party Surface-Optimized Dock",
     cards: [
       { label: "Official Microsoft (both Microsoft-branded picks)", text: "Backed by first-party support and engineering specifically validated against Surface hardware, at a price premium over third-party alternatives." },
-      { label: "Third-party Surface-optimized (13-in-1 and 12-in-1 picks)", text: "Offers more ports and displays for less money, precision-engineered for Surface compatibility but without Microsoft's direct support backing." },
+      { label: "Third-party Surface-optimized (13-in-1 and 12-in-1 picks)", text: "Offers more ports and displays for less money, precision-engineered for Surface compatibility but without Microsoft's direct support backing." }
     ],
     note: "If official support and proven reliability matter most, either Microsoft-branded pick is the safer choice. If maximizing ports and displays per dollar matters more, the third-party picks deliver more for less.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your display setup", "Recommended pick"],
       rows: [
         ["Dual 4K monitors", "Microsoft Surface Thunderbolt 4 Docking Station"],
-        ["Triple displays including a legacy VGA screen", "12-in-1 Thunderbolt 4 Dock, Dual HDMI + VGA"],
+        ["Triple displays including a legacy VGA screen", "12-in-1 Thunderbolt 4 Dock, Dual HDMI + VGA"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Photographers and Videographers Specifically",
     cards: [
       { label: "Look for", text: "Fast integrated SD/TF card slots rated for high-speed offloading, so transferring photos and video from a camera's memory card doesn't bottleneck your workflow." },
-      { label: "In this comparison", text: "The Surface Thunderbolt 4 Dock 13-in-1 specifically states SD/TF card slots rated up to 104MB/s, directly supporting fast media offloading." },
+      { label: "In this comparison", text: "The Surface Thunderbolt 4 Dock 13-in-1 specifically states SD/TF card slots rated up to 104MB/s, directly supporting fast media offloading." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want official Microsoft reliability with the fastest stated charging time, where the Microsoft Surface Thunderbolt 4 Docking Station justifies its $217.99 price." },
-      { label: "Save if", text: "You want triple-display support and fast card reading without official Microsoft branding, where the 13-in-1 pick delivers that for $139.99." },
+      { label: "Spend more if", text: "You want official Microsoft reliability with the fastest stated charging time, where the Microsoft Surface Thunderbolt 4 Docking Station justifies its under $250 price." },
+      { label: "Save if", text: "You want triple-display support and fast card reading without official Microsoft branding, where the 13-in-1 pick delivers that for under $140." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

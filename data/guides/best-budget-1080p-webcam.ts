@@ -13,7 +13,7 @@ export const bestBudget1080pWebcamGuide: Guide = {
     "nexigo n60 review",
     "best webcam under 50",
     "1080p 60fps webcam budget",
-    "logitech c920x vs emeet c960",
+    "logitech c920x vs emeet c960"
   ],
   heroImage: "/images/guides/best-budget-1080p-webcam/best-1080p-webcam-hero.webp",
   thumbnailImage: "/images/guides/best-budget-1080p-webcam/best-1080p-webcam-hero.webp",
@@ -25,7 +25,7 @@ export const bestBudget1080pWebcamGuide: Guide = {
     "best-webcam-for-video-calls",
     "best-webcams-for-home-office",
     "best-webcam-under-50",
-    "best-mechanical-keyboard-under-100",
+    "best-mechanical-keyboard-under-100"
   ],
   faq: [
     {
@@ -57,7 +57,7 @@ export const bestBudget1080pWebcamGuide: Guide = {
       question: "What is a good 1080p webcam for a laptop?",
       answer:
         "Any webcam in this guide works with a laptop - all are plug-and-play via USB with no drivers required on Windows 10/11, macOS 10.14+, ChromeOS, and Linux. For a laptop that moves between locations, the EMEET C960 (compact, lightweight) is the most practical. For a laptop used at a fixed desk, the C920x or EMEET C960 2K delivers the best image quality.",
-    },
+    }
   ],
   sections: [
     {
@@ -303,6 +303,6 @@ If your use is primarily video calls with occasional recording, 30fps at 1080p (
 | Dark room, need built-in lighting | Angetube 862 Pro |
 | Daily professional calls, best mics | Logitech C920x |
 | Replacing built-in laptop webcam | EMEET C960 or C920x |`,
-    },
+    }
   ],
 };

@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $549.00",
+          "Under $550",
           "FoxAlien Masuter Pro 3-Axis CNC Router Machine"
         ],
         [
-          "Around $899.00",
+          "Under $900",
           "FoxAlien Masuter 3S CNC Router Machine with NEMA 23 Closed-Loop Stepper Motor"
         ],
         [
-          "Around $899.99",
+          "Under $900",
           "FoxAlien Desktop CNC Router Machine Masuter Pro MAX"
         ],
         [
-          "Around $1,399.00",
+          "Under $1,400",
           "FoxAlien XE-Ultra Core Desktop CNC Router Machine"
         ],
         [
-          "Around $2,300.00",
+          "Under $2,400",
           "FoxAlien XE-Ultra 8080 Large Desktop CNC Router Machine + 1.5kW VFD Spindle Kit"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "FoxAlien Masuter Pro 3-Axis CNC Router Machine is aimed at buyers prioritizing 15.75 x 15.75 x 2.36in work area." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "FoxAlien Masuter Pro 3-Axis CNC Router Machine is aimed at buyers prioritizing 15.75 x 15.75 x 2.36in work area." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-carvera-desktop-cnc-machines","title":"Best Carvera Desktop CNC Machines in 2026"},{"href":"/guide/best-bantam-tools-desktop-cnc-machines","title":"Best Bantam Tools Desktop CNC Machines in 2026"},{"href":"/guide/best-makera-desktop-cnc-machines","title":"Best Makera Desktop CNC Machines in 2026"}];

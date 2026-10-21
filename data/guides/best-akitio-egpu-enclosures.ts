@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $161.00",
+          "Under $170",
           "VIKINYEE Thunderbolt 3/4 eGPU Enclosure USB4 (VK-Y900)"
         ],
         [
-          "Around $169.00",
+          "Under $170",
           "ANQUORA ANQ-L336 Mini eGPU Enclosure"
         ],
         [
-          "Around $189.00",
+          "Under $190",
           "Maskedfish eGPU Enclosure Thunderbolt 3/4 USB4 40Gbps PD 85W Charging (MK-L18)"
         ],
         [
-          "Around $189.50",
+          "Under $190",
           "TREBLEET 80Gbps eGPU Enclosure"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "Thunderbolt and USB4 tunnel PCIe over a general-purpose port shared with other data, while OCuLink provides a more direct PCIe connection with typically lower overhead, but neither hot-plugs as easily and OCuLink support is far less common on laptops. Match the choice to what your specific host actually exposes."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "TREBLEET 80Gbps eGPU Enclosure is aimed at buyers prioritizing jhl9480 controller, 80gbps bandwidth." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "TREBLEET 80Gbps eGPU Enclosure is aimed at buyers prioritizing jhl9480 controller, 80gbps bandwidth." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-razer-egpu-enclosures","title":"Best Razer eGPU Enclosures in 2026"},{"href":"/guide/best-trebleet-egpu-enclosures","title":"Best TREBLEET eGPU Enclosures in 2026"},{"href":"/guide/best-asus-egpu-enclosures","title":"Best ASUS eGPU Enclosures in 2026"}];

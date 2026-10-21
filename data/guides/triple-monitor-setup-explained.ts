@@ -12,7 +12,7 @@ export const tripleMonitorSetupExplainedGuide: Guide = {
     "do i need 3 monitors",
     "triple monitor gpu requirements",
     "desk space for three monitors",
-    "triple monitor vs ultrawide",
+    "triple monitor vs ultrawide"
   ],
   heroImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const tripleMonitorSetupExplainedGuide: Guide = {
     "ultrawide-vs-dual-monitor",
     "monitor-arm-vs-monitor-stand",
     "monitor-size-chart",
-    "what-size-desk-do-i-need",
+    "what-size-desk-do-i-need"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const tripleMonitorSetupExplainedGuide: Guide = {
       question: "Does adding a third monitor provide proportionally more benefit than the second did?",
       answer:
         "Often less, the jump from one to two monitors typically provides the most dramatic productivity improvement, a third monitor adds value but often with diminishing returns, particularly if the third screen ends up used only occasionally for reference material.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const tripleMonitorSetupExplainedGuide: Guide = {
     {
       heading: "Why Angling Side Monitors Genuinely Improves the Experience",
       body: `Keeping three monitors in a perfectly flat, straight line means the outer edges of the side monitors sit at an increasingly oblique viewing angle relative to your eyes as you look toward their far edges, causing more noticeable distortion and requiring more head turning to view comfortably, angling the side monitors inward toward your seated position brings their surfaces into a more direct viewing angle, similar to how a curved monitor addresses the same issue at a larger single-screen scale, this adjustment meaningfully improves comfort for a triple monitor setup used for extended periods.`,
-    },
+    }
   ],
 };

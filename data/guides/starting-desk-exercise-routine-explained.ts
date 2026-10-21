@@ -12,7 +12,7 @@ export const startingDeskExerciseRoutineExplainedGuide: Guide = {
     "how to start using under desk bike",
     "realistic desk exercise goals",
     "avoiding burnout desk exercise equipment",
-    "desk exercise routine consistency",
+    "desk exercise routine consistency"
   ],
   heroImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const startingDeskExerciseRoutineExplainedGuide: Guide = {
     "under-desk-bike-vs-elliptical",
     "sit-stand-ratio-explained",
     "20-20-20-rule-explained",
-    "standing-desk-treadmill-explained",
+    "standing-desk-treadmill-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const startingDeskExerciseRoutineExplainedGuide: Guide = {
       question: "Should I track my desk exercise activity to stay motivated?",
       answer:
         "Many people find tracking, whether through the equipment's own display or a separate fitness tracker, genuinely helpful for maintaining motivation and noticing gradual progress, though this is a personal preference rather than a requirement for benefiting from the activity.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const startingDeskExerciseRoutineExplainedGuide: Guide = {
     {
       heading: "Why the Attention-Division Adjustment Period Is a Normal Part of the Process",
       body: `Successfully dividing cognitive attention between physical movement and focused mental work is a genuine skill that develops with practice, not something most people can do seamlessly from their very first session, experiencing some initial awkwardness, needing to slow pedaling pace during a detailed task or noticing reduced typing accuracy while maintaining exercise intensity, represents a normal part of the adjustment process rather than a sign the combination fundamentally doesn't work for you, most people find this balance improves noticeably with continued regular practice over the following weeks.`,
-    },
+    }
   ],
 };

@@ -61,7 +61,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0FS7Q5HC8?tag=deskfinds0d-20",
     description: "This dock's listing specifically states triple 4K@144Hz display support on Windows comes through HDMI, DisplayPort, and USB-C simultaneously and independently, giving genuinely flexible output options rather than forcing every monitor through the same port type. Its driverless plug-and-play design works consistently across Windows 11 and macOS 15/26 without requiring separate software installation.\n\nCompared to the Dell and Kensington picks above, this one's lower price makes it the most budget-friendly option in this comparison while still delivering a real DisplayPort output alongside HDMI and USB-C.\n\nBest for buyers who want flexible independent DisplayPort, HDMI, and USB-C outputs at the lowest price in this comparison.",
     specs: ["DisplayPort, HDMI, and USB-C outputs (independent)", "Driverless across Windows 11 and macOS 15/26", "140W PD, 2.5GbE, SD 4.0 card slots"],
-    pros: ["Lowest price in this comparison at $282.99", "DisplayPort, HDMI, and USB-C outputs work independently and simultaneously", "Driverless design works across Windows and macOS without extra software"],
+    pros: ["Lowest price in this comparison at under $300", "DisplayPort, HDMI, and USB-C outputs work independently and simultaneously", "Driverless design works across Windows and macOS without extra software"],
     cons: ["Quad display support on Mac requires daisy-chaining two monitors specifically", "No built-in storage expansion unlike the Kensington pick above"],
     bestFor: "buyers who want flexible independent DisplayPort, HDMI, and USB-C outputs at the lowest price",
   },
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["A complete kit with every cable included", "Dell Pro Thunderbolt 5 Smart Dock SD25TB5 Bundle"],
         ["DisplayPort output with lockable SSD storage for Mac", "Kensington EQ Pro Thunderbolt 5 Dock"],
         ["Flexible independent outputs at the lowest price", "StarTech Thunderbolt 5 USB4 Dock"],
-        ["DisplayPort output paired with 10GbE networking", "Sonnet Echo 20 Thunderbolt 5 SecureDock"],
+        ["DisplayPort output paired with 10GbE networking", "Sonnet Echo 20 Thunderbolt 5 SecureDock"]
       ],
     },
   },
@@ -109,9 +109,9 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $283", "StarTech Thunderbolt 5 USB4 Dock ($282.99)"],
-        ["Under $303", "Kensington EQ Pro Thunderbolt 5 Dock ($302.41)"],
-        ["Under $450", "Dell Pro Bundle ($449.95) or Sonnet Echo 20 ($449.99)"],
+        ["Under $283", "StarTech Thunderbolt 5 USB4 Dock (under $300)"],
+        ["Under $303", "Kensington EQ Pro Thunderbolt 5 Dock (under $350)"],
+        ["Under $450", "Dell Pro Bundle (under $450) or Sonnet Echo 20 (under $450)"]
       ],
     },
   },
@@ -119,7 +119,7 @@ export const howToChoose = [
     subheading: "Cables Included vs Cables Purchased Separately",
     cards: [
       { label: "Cables included (Dell Pro Bundle)", text: "This bundle specifically includes HDMI, USB-C, and DisplayPort cables, avoiding a common surprise where the DisplayPort cable turns out to be a separate purchase." },
-      { label: "Cables typically separate (Kensington, StarTech, Sonnet)", text: "These docks don't specifically advertise an included DisplayPort cable in the same bundled way, so budgeting for a separate DisplayPort 2.1 cable purchase is worth planning for." },
+      { label: "Cables typically separate (Kensington, StarTech, Sonnet)", text: "These docks don't specifically advertise an included DisplayPort cable in the same bundled way, so budgeting for a separate DisplayPort 2.1 cable purchase is worth planning for." }
     ],
     note: "If you want to avoid any additional cable-buying step, the Dell bundle's complete kit is the most straightforward. If you already own a compatible DisplayPort cable, the other picks may offer better core value for the same budget.",
   },
@@ -130,7 +130,7 @@ export const howToChoose = [
       rows: [
         ["MacBook Pro with Pro or Max chip", "Kensington EQ Pro Thunderbolt 5 Dock"],
         ["Mixed Mac and Windows household", "StarTech Thunderbolt 5 USB4 Dock"],
-        ["Windows-focused professional workstation", "Dell Pro Bundle or Sonnet Echo 20"],
+        ["Windows-focused professional workstation", "Dell Pro Bundle or Sonnet Echo 20"]
       ],
     },
   },
@@ -138,16 +138,16 @@ export const howToChoose = [
     subheading: "For a Monitor With DisplayPort-Only Input Specifically",
     cards: [
       { label: "Look for", text: "A dock with a genuinely independent DisplayPort output rather than one that shares bandwidth or requires switching away from other connected displays." },
-      { label: "In this comparison", text: "The StarTech pick specifically supports DisplayPort, HDMI, and USB-C outputs independently and simultaneously, making it a strong fit if one of your monitors is DisplayPort-only." },
+      { label: "In this comparison", text: "The StarTech pick specifically supports DisplayPort, HDMI, and USB-C outputs independently and simultaneously, making it a strong fit if one of your monitors is DisplayPort-only." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want a completely hassle-free out-of-box experience with every cable included, where the Dell Pro Bundle's $449.95 price removes any additional cable-shopping step." },
-      { label: "Save if", text: "You already have compatible cables and want strong DisplayPort support at a lower price, where the StarTech pick delivers that for $282.99, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You want a completely hassle-free out-of-box experience with every cable included, where the Dell Pro Bundle's under $450 price removes any additional cable-shopping step." },
+      { label: "Save if", text: "You already have compatible cables and want strong DisplayPort support at a lower price, where the StarTech pick delivers that for under $300, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

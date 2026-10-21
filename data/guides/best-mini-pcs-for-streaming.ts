@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini pc for streaming";
 export const introParagraphs = [
   "Media playback, Plex or Jellyfin serving, and live-stream production are genuinely different workloads needing different hardware, worth identifying which specific streaming use case you actually have rather than assuming any 'streaming' mini PC handles all three equally well.",
-  "For live-stream production specifically, encode quality and simultaneous game-plus-encode performance matter more than general benchmark scores, worth checking whether a chip's encoder (hardware AV1 or H.264 support) genuinely offloads encoding rather than competing with your game for CPU resources.",
+  "For live-stream production specifically, encode quality and simultaneous game-plus-encode performance matter more than general benchmark scores, worth checking whether a chip's encoder (hardware AV1 or H.264 support) genuinely offloads encoding rather than competing with your game for CPU resources."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Media Playback Pick",
     name: "GMKtec Mini PC Ryzen 5 3500U 1TB SSD 16GB(8 * 2) DDR4",
     price: "$359.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "668 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41lJzHZCByL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FSXDC7NR?tag=deskfinds0d-20",
     description: "A budget-friendly Ryzen 5 3500U with 1TB SSD, appropriate for buyers primarily wanting media playback and casual home streaming server duties rather than live-stream production.\n\nIt earns the top spot in this comparison over GMKtec G3S Mini PC Intel N95 Processor for one main reason. Budget-friendly price for media playback and light server use. On price, it's actually priced above GMKtec G3S Mini PC Intel N95 Processor, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: 1TB SSD for a substantial local media library. On the other side, Older chip generation than the top picks in this guide. That's the main tradeoff to weigh against everything above.",
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Media Server Pick",
     name: "GMKtec G3S Mini PC Intel N95 Processor (Up to 3.4GHz) 8GB RAM 256GB M.2 SSD",
     price: "$249.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "435 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41GIF1yaVoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GD7NRS93?tag=deskfinds0d-20",
     description: "An efficient Intel N95 chip appropriate for buyers wanting a low-power, budget-friendly media playback and light Plex serving setup rather than demanding live production.\n\nOne spot below GMKtec Mini PC Ryzen 5 3500U 1TB SSD 16GB(8 * 2) DDR4 in this ranking, it's priced lower than GMKtec Mini PC Ryzen 5 3500U 1TB SSD 16GB(8 * 2) DDR4. The compromise here is straightforward: Not suited for live-stream production with simultaneous encoding. What you gain in return: Intel Quick Sync genuinely benefits media transcoding at this price point. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Very budget-friendly price for light media server duties. On the other side, 256GB storage is modest for a large local media library. That's the main tradeoff to weigh against everything above.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best Always-On Streaming Server Pick",
     name: "GMKtec G11 Mini PC Ryzen Embedded R2514 16GB DDR4 RAM 256GB PCIe M.2 SSD",
     price: "$309.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "435 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41y2SJA4I2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CXSRR796?tag=deskfinds0d-20",
     description: "A genuinely low-power embedded chip appropriate for buyers wanting an always-on home media streaming server rather than live-stream production.\n\nSitting just under GMKtec G3S Mini PC Intel N95 Processor, it costs more than GMKtec G3S Mini PC Intel N95 Processor. Here's the honest tradeoff: Not suited for live-stream production with simultaneous encoding. And here's what it gets you instead: Genuinely low-power embedded chip suited to always-on streaming server operation. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: 16GB RAM for running media server plus other services. On the other side, 256GB storage may need expansion for a larger media library. That's the main tradeoff to weigh against everything above.",
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     badge: "Best Windows-Included Media Server Pick",
     name: "ACEMAGIC Mini PC Windows 11 Pro, AMD Ryzen R2544 16GB DDR4 RAM 256 SSD 28W",
     price: "$339.00",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "422 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41C5eN3lttL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DMCRSBNT?tag=deskfinds0d-20",
     description: "Windows 11 Pro included at a budget price, appropriate for buyers wanting a Windows-based media streaming setup without a separate OS license purchase.\n\nRanked just behind GMKtec G11 Mini PC Ryzen Embedded R2514 16GB DDR4 RAM 256GB PCIe M.2 SSD, it costs more than GMKtec G11 Mini PC Ryzen Embedded R2514 16GB DDR4 RAM 256GB PCIe M.2 SSD. The real tradeoff against that pick: Not suited for live-stream production with simultaneous encoding. In exchange, it offers this instead: Windows 11 Pro included avoids a separate license purchase. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Low 28W power draw for efficient always-on operation. On the other side, Not purpose-built for demanding media transcoding workloads. That's the main tradeoff to weigh against everything above.",
@@ -90,8 +90,8 @@ export const products: GuideProduct[] = [
     badge: "Best Pick for Combined Streaming and Live Production",
     name: "GMKtec M5 Ultra Gaming Mini PC Ryzen 7 7730U (Upgraded 7430U/ 5825U), 32GB RAM 512GB SSD Dual NIC",
     price: "$499.98",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "965 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41mRy1hD2yL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FW43RV3D?tag=deskfinds0d-20",
     description: "32GB RAM and dual NIC networking make this appropriate for buyers wanting to combine media serving duties with lighter live-stream production needs on the same machine.\n\nOne spot below ACEMAGIC Mini PC Windows 11 Pro in this ranking, it costs more than ACEMAGIC Mini PC Windows 11 Pro. The compromise here is straightforward: Verify explicit hardware encoding capability for genuine live-stream production needs. What you gain in return: 32GB RAM for combining media serving with lighter production needs. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Dual NIC networking useful for network-heavy streaming setups. On the other side, 512GB SSD may need expansion for larger media libraries. That's the main tradeoff to weigh against everything above.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Streaming use case classified as media playback, serving, or live production", description: "Classified each pick by its genuine fit for media playback, Plex/Jellyfin serving, or live-stream production, since these are meaningfully different workloads." },
   { title: "Hardware encoding capability checked for live-production-relevant picks", description: "Checked hardware encoding capability specifically for picks positioned toward live-stream production, since this genuinely offloads encoding from the CPU." },
   { title: "Idle power draw weighted for always-on media server use cases", description: "Weighted idle power draw for buyers running a media server continuously rather than only during active use." },
-  { title: "RAM and storage capacity matched to library size and simultaneous workloads", description: "Matched RAM and storage capacity to realistic media library sizes and whether multiple services run simultaneously." },
+  { title: "RAM and storage capacity matched to library size and simultaneous workloads", description: "Matched RAM and storage capacity to realistic media library sizes and whether multiple services run simultaneously." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Is a mini PC for media playback the same as one for live streaming?", a: "No, these are genuinely different workloads, media playback and serving need different hardware than live-stream production with simultaneous encoding." },
   { q: "Does hardware encoding matter for live streaming?", a: "Yes, a genuine hardware encoder offloads encoding from the CPU rather than competing with your game for processing resources." },
   { q: "Does a media server need to run efficiently 24/7?", a: "Yes, if it runs continuously, minimal idle power draw matters more than raw processing power for most media playback and serving needs." },
-  { q: "Can one mini PC handle both media serving and live streaming?", a: "For lighter combined use, yes, but verify hardware encoding capability specifically if genuine simultaneous game-plus-encode production is your primary need." },
+  { q: "Can one mini PC handle both media serving and live streaming?", a: "For lighter combined use, yes, but verify hardware encoding capability specifically if genuine simultaneous game-plus-encode production is your primary need." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pcs-for-plex-servers", title: "Best Mini PCs for Plex Servers (2026)" },
   { href: "/guide/best-intel-mini-pcs", title: "Best Intel Mini PCs (2026)" },
-  { href: "/guide/best-mini-pcs-with-dual-ethernet-ports", title: "Best Mini PCs with Dual Ethernet Ports (2026)" },
+  { href: "/guide/best-mini-pcs-with-dual-ethernet-ports", title: "Best Mini PCs with Dual Ethernet Ports (2026)" }
 ];

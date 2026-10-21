@@ -96,7 +96,7 @@ export default async function BestBudgetMultiDeviceChargingStationUnder50Page() 
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Budget Multi-Device Charging Station Under $50", item: `${SITE_URL}/guide/best-budget-multi-device-charging-station-under-50` },
+      { "@type": "ListItem", position: 3, name: "Best Budget Multi-Device Charging Station Under $50", item: `${SITE_URL}/guide/best-budget-multi-device-charging-station-under-50` }
     ],
   };
   const itemListSchema = {
@@ -203,7 +203,7 @@ export default async function BestBudgetMultiDeviceChargingStationUnder50Page() 
             <div className="grid sm:grid-cols-2 gap-3 mb-4">
               {[
                 { label: "Traditional silicon charger", items: ["Larger physical size", "Runs warmer, generates more heat", "Less efficient, some wattage lost as heat", "Often cheaper at same wattage"] },
-                { label: "GaN charger", items: ["Compact, often 40–60% smaller", "Runs cooler, better long-term durability", "More efficient, less wasted heat", "Slightly more expensive at same wattage"] },
+                { label: "GaN charger", items: ["Compact, often 40–60% smaller", "Runs cooler, better long-term durability", "More efficient, less wasted heat", "Slightly more expensive at same wattage"] }
               ].map((col, i) => (
                 <div key={i} className={`p-4 rounded-xl border ${i === 0 ? "border-gray-200 bg-gray-50" : "border-cta/30 bg-cta-light/20"}`}>
                   <p className="text-xs font-bold uppercase tracking-widest mb-2 text-ink">{col.label}</p>
@@ -233,7 +233,7 @@ export default async function BestBudgetMultiDeviceChargingStationUnder50Page() 
                     { device: "iPad Air / iPad Pro", min: "20W", full: "30W (full speed overnight)" },
                     { device: "MacBook Air M2/M3", min: "30W (slow)", full: "65W (fast, active use)" },
                     { device: "MacBook Pro 14\"", min: "30W (charge while asleep)", full: "96W (active use, not available here)" },
-                    { device: "Android flagship (most)", min: "18W PD", full: "25–45W (device-specific)" },
+                    { device: "Android flagship (most)", min: "18W PD", full: "25–45W (device-specific)" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink">{row.device}</td>
@@ -283,7 +283,7 @@ export default async function BestBudgetMultiDeviceChargingStationUnder50Page() 
             {[
               { context: "Best overall and best GaN", product: "UGREEN Nexode 65W", href: "#ugreen-nexode-65w", verdict: ", 65W GaN, 3 USB-C ports, deck-of-cards size. Best watt-per-dollar at this price." },
               { context: "Best for Apple Watch + cables", product: "SooPii Premium 6-Port", href: "#soopii-6-port-watch", verdict: ", built-in Watch arm, 6 cables included, PD 20W, best for mixed Apple households." },
-              { context: "Most ports (family use)", product: "ORICO 10-Port 120W", href: "#orico-10-port-120w", verdict: ", 12W per port across 10 devices, double the wattage of typical budget stations." },
+              { context: "Most ports (family use)", product: "ORICO 10-Port 120W", href: "#orico-10-port-120w", verdict: ", 12W per port across 10 devices, double the wattage of typical budget stations." }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
@@ -311,7 +311,7 @@ export default async function BestBudgetMultiDeviceChargingStationUnder50Page() 
               { href: "/guide/best-budget-usb-charging-station-under-30", title: "Best USB Charging Stations Under $30", desc: "7 reliable picks for phones, earbuds, and tablets, under $30" },
               { href: "/guide/best-budget-apple-3-in-1-charging-station-under-40", title: "Best Apple 3-in-1 Charging Stations Under $40", desc: "iPhone + Watch + AirPods on one stand, under $40" },
               { href: "/compare/usb-c-hub-vs-docking-station", title: "USB-C Hub vs Docking Station", desc: "Which one do you actually need for your setup?" },
-              { href: "/guide/desk-setup-essentials", title: "Desk Setup Essentials", desc: "15 must-have items for any desk setup" },
+              { href: "/guide/desk-setup-essentials", title: "Desk Setup Essentials", desc: "15 must-have items for any desk setup" }
             ].map((g) => (
               <Link prefetch={false} key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
                 <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">

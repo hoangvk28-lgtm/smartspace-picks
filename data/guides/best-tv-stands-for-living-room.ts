@@ -141,7 +141,7 @@ export const products: GuideProduct[] = [
     pros: ["Built-in USB and AC charging ports", "Remote-controlled RGB lighting", "Built-in cable management channel", "Adjustable glass shelves for gaming consoles"],
     cons: ["High-gloss finish shows fingerprints easily", "18.5\" height is low for a stand-alone soundbar shelf", "LED lighting adds a component that can fail over time"],
     bestFor: "Gaming and home theater living rooms that want built-in charging and customizable ambient lighting.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -173,11 +173,11 @@ export const faq: { q: string; a: string }[] = [
   { q: "Do fireplace TV stands come with the fireplace insert included?", a: "On the WLIVE pick in this guide, yes, the electric fireplace insert is included, though it ships in a separate box from the console and the two can arrive on different delivery days. Some other fireplace TV stand listings sell the console and insert separately, so check the listing description carefully before assuming a fireplace unit is bundled." },
   { q: "How much weight can a living room TV stand actually hold?", a: "It depends heavily on the model. Budget stands in this guide start around 50 lbs of top surface capacity, which comfortably covers most TVs alone, while furniture-grade options like the Walker Edison Richmond rate up to 150 lbs. If you plan to stack a soundbar and other equipment on the same top shelf as the TV, look toward the higher end of that range rather than the minimum." },
   { q: "Is a low-profile TV stand better than a tall console?", a: "It depends on your seating. Low-profile stands, generally under 18 inches tall, work well with low sofas, sectionals, or larger TVs where a tall console would push the screen center above comfortable eye level. Taller consoles around 24 to 28 inches suit higher seating or smaller TVs where a low stand would put the screen too close to the floor." },
-  { q: "How do I keep cables organized behind a living room TV stand?", a: "Look for stands with multiple cable cutouts positioned near where your wall outlet and equipment actually sit, not just a single hole. Route power cables and HDMI cables through separate cutouts when possible to reduce tangling, and use hook-and-loop cable ties to bundle cords behind enclosed doors so equipment stays reachable without a full teardown." },
+  { q: "How do I keep cables organized behind a living room TV stand?", a: "Look for stands with multiple cable cutouts positioned near where your wall outlet and equipment actually sit, not just a single hole. Route power cables and HDMI cables through separate cutouts when possible to reduce tangling, and use hook-and-loop cable ties to bundle cords behind enclosed doors so equipment stays reachable without a full teardown." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-tv-stand-for-55-inch-tv", title: "Best TV Stands for 55 Inch TVs (2026)" },
   { href: "/guide/best-cable-management-boxes-for-desks", title: "Best Cable Management Boxes for Desks (2026)" },
-  { href: "/guide/best-under-desk-storage-drawers", title: "Best Under Desk Storage Drawers (2026)" },
+  { href: "/guide/best-under-desk-storage-drawers", title: "Best Under Desk Storage Drawers (2026)" }
 ];

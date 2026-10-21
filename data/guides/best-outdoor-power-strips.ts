@@ -5,7 +5,7 @@ export const metaDescription = "3 outdoor power strips we evaluated, with the di
 export const mainKeyword = "outdoor power strip";
 export const introParagraphs = [
   "Genuine outdoor electrical safety requires GFCI (Ground Fault Circuit Interrupter) protection, a separate, more critical safety feature than basic weather-resistant casing, an outdoor power strip's housing being water-resistant doesn't address the shock-hazard risk of moisture contacting live electrical contacts.",
-  "IP (Ingress Protection) rating specifics matter far more than a generic weatherproof label, a product needs a specific IP rating like IP44 for splash resistance or IP65 for stronger water and dust resistance to make a verifiable outdoor-suitability claim.",
+  "IP (Ingress Protection) rating specifics matter far more than a generic weatherproof label, a product needs a specific IP rating like IP44 for splash resistance or IP65 for stronger water and dust resistance to make a verifiable outdoor-suitability claim."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Outdoor Power Strip Overall",
     name: "IPX6 Outdoor Power Strip Weatherproof, Waterproof Overload Protector with 6 Wide Outlet 3 USB Ports, 6FT Long Extension Cord, Wall Mountable for Outside Decorations and More UL Listed, Black",
     price: "$26.99",
-    rating: "4.6 stars from 2,224 Amazon ratings",
-    reviews: "2,224 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41by4E3zbML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09YYDSGLK?tag=deskfinds0d-20",
     description: "An explicit IPX6 rating, genuinely a verifiable water-resistance standard rather than a vague weatherproof claim, alongside UL listing and overload protection. 6 wide outlets and 3 USB ports, wall mountable.\n\nIt earns the top spot in this comparison over Iwister Outdoor Power Strip Weatherproof for one main reason. Explicit IPX6 rating, a genuinely verifiable standard. On price, it's actually priced above Iwister Outdoor Power Strip Weatherproof, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: UL listed for safety verification. On the other side, 6 outlets, not the highest count available. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Outdoor Pick",
     name: "Iwister Outdoor Power Strip Weatherproof, 3 AC Outlets, 5FT Extension Cord",
     price: "$17.99",
-    rating: "4.6 stars from 255 Amazon ratings",
-    reviews: "255 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51TaI4FfoCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G8GN8PMS?tag=deskfinds0d-20",
     description: "A genuinely more affordable, compact outdoor option with 3 AC outlets, appropriate for lighter outdoor decoration or small appliance needs rather than a full outdoor workstation. Weatherproof housing.\n\nOne spot below IPX6 Outdoor Power Strip Weatherproof in this ranking, it's priced lower than IPX6 Outdoor Power Strip Weatherproof. The compromise here is straightforward: Fewer outlets than the top pick. What you gain in return: More affordable than the top pick. Whether that trade is worth it depends on which side matters more for your needs.\n\nWorth knowing before you decide: Compact for lighter outdoor needs. On the other side, No explicit IP rating number disclosed. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Outdoor Electrical Box Pick",
     name: "Flemoon Large Outdoor Electrical Box Waterproof, for Outdoor Plug",
     price: "$23.78",
-    rating: "4.6 stars from 5,517 Amazon ratings",
-    reviews: "5,517 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/516J9Te+EVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09NLW5HMX?tag=deskfinds0d-20",
     description: "A genuine outdoor electrical box designed to house and waterproof an existing outdoor plug or connection point, a different but complementary product to a standalone outdoor power strip. Large, well-established review base.\n\nSitting just under Iwister Outdoor Power Strip Weatherproof, it costs more than Iwister Outdoor Power Strip Weatherproof. Here's the honest tradeoff: Doesn't add outlets itself, it's a protective enclosure. And here's what it gets you instead: Large, well-established review base. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Genuinely protects an existing outdoor plug connection from weather. On the other side, Verify it fits your specific existing plug and cord size. That's the main tradeoff to weigh against everything above.",
@@ -73,7 +73,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "GFCI protection established as the primary outdoor safety spec", description: "Prioritized GFCI protection presence, either built-in or an explicit source-outlet requirement, ahead of general weather-resistant casing claims, since GFCI addresses the actual shock-hazard risk of outdoor moisture exposure." },
   { title: "Specific IP rating disclosure verified per pick", description: "Checked for a specific, verifiable IP rating like IPX6 rather than accepting a generic 'weatherproof' label without a stated rating." },
-  { title: "In-use vs. non-in-use weatherproof cover design distinguished", description: "Considered whether a weatherproof cover protects only when not in use versus staying sealed even while cords are plugged in, since only in-use-rated covers protect during actual outdoor operation." },
+  { title: "In-use vs. non-in-use weatherproof cover design distinguished", description: "Considered whether a weatherproof cover protects only when not in use versus staying sealed even while cords are plugged in, since only in-use-rated covers protect during actual outdoor operation." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -190,11 +190,11 @@ export const faq: FaqItem[] = [
   { q: "Do I still need a GFCI outlet if my power strip is weatherproof?", a: "Yes. Local electrical code typically requires GFCI protection at the source outlet for any outdoor electrical use regardless of the power strip's own features, a well-designed outdoor strip doesn't replace this requirement." },
   { q: "What's the difference between an outdoor power strip and an outdoor electrical box?", a: "An outdoor power strip adds new outlets with its own protection, an outdoor electrical box (like the Flemoon pick) weatherproofs an existing plug or connection point instead, these are complementary but different products." },
   { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want a verifiably IP-rated, UL-listed outdoor power strip" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with lighter outdoor power needs At $17.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with lighter outdoor power needs At under $20, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-weatherproof-outdoor-power-strips", title: "Best Weatherproof Outdoor Power Strips (2026)" },
   { href: "/guide/best-wall-mounted-power-strips", title: "Best Wall-Mounted Power Strips (2026)" },
-  { href: "/guide/best-heavy-duty-power-strips", title: "Best Heavy-Duty Power Strips (2026)" },
+  { href: "/guide/best-heavy-duty-power-strips", title: "Best Heavy-Duty Power Strips (2026)" }
 ];

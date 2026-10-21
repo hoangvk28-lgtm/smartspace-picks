@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "ryzen mini pc";
 export const introParagraphs = [
   "AMD's Ryzen mobile chip suffixes genuinely indicate power envelope and performance tier, a U-class chip prioritizes efficiency, an HS-class chip balances performance and heat, and an HX-class chip pushes for maximum throughput, worth checking the exact suffix rather than assuming any 'Ryzen' badge means the same performance class.",
-  "Ryzen mini PCs commonly pair the same CPU across different chassis and cooling designs, meaning two mini PCs with an identical chip can perform very differently under sustained load, worth checking sustained-load thermal reports specifically rather than trusting the CPU model alone.",
+  "Ryzen mini PCs commonly pair the same CPU across different chassis and cooling designs, meaning two mini PCs with an identical chip can perform very differently under sustained load, worth checking sustained-load thermal reports specifically rather than trusting the CPU model alone."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Ryzen Mini PC Overall",
     name: "Beelink SER5 Pro Mini PC, AMD Ryzen 5 5625U(Up to 4.3GHz) 6C/12T",
     price: "$319.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "1,247 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41NGsh2eXOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C7437S8H?tag=deskfinds0d-20",
     description: "A genuinely capable Ryzen 5 5625U, a U-class chip prioritizing efficiency, with 6 cores and 12 threads for solid everyday multitasking.\n\nIt earns the top spot in this comparison over Beelink SER5 Mini PC for one main reason. U-class chip genuinely prioritizes efficiency for everyday use. On price, it comes in below Beelink SER5 Mini PC, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Large, well-established review base for confidence. On the other side, Not suited for the most demanding parallel workloads. That's the main tradeoff to weigh against everything above.",
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Ryzen Pick",
     name: "Beelink SER5 Mini PC,AMD Ryzen 5 5500U(6C/12T,up to 4.0 GHz),Mini Computer 16GB DDR4 RAM 480GB M.2",
     price: "$389.00",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "892 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/517j12WiQeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D6G965BC?tag=deskfinds0d-20",
     description: "Another U-class Ryzen 5 5500U with 16GB RAM and generous 480GB storage included, appropriate for buyers wanting a complete configured system rather than a barebones kit.\n\nOne spot below Beelink SER5 Pro Mini PC in this ranking, it costs more than Beelink SER5 Pro Mini PC. The compromise here is straightforward: U-class chip trades peak performance for efficiency. What you gain in return: Complete configured system with RAM and storage included. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Solid review base for this U-class chip. On the other side, Check sustained-load thermal reports for this specific chassis. That's the main tradeoff to weigh against everything above.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best HS-Class Ryzen Pick",
     name: "GMKtec M5 Ultra Gaming Mini PC Ryzen 7 7730U (Upgraded 7430U/ 5825U), 32GB RAM 512GB SSD Dual NIC",
     price: "$499.98",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "341 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41mRy1hD2yL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FW43RV3D?tag=deskfinds0d-20",
     description: "A Ryzen 7 7730U paired with 32GB RAM, appropriate for buyers wanting more RAM headroom than typical U-class configurations while staying in an efficient power envelope.\n\nSitting just under Beelink SER5 Mini PC, it costs more than Beelink SER5 Mini PC. Here's the honest tradeoff: Still a U-class chip, not the peak-performance HX tier. And here's what it gets you instead: 32GB RAM gives more headroom than typical U-class configurations. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Dual NIC networking adds value beyond pure productivity use. On the other side, Mid-range price relative to the most budget-focused picks. That's the main tradeoff to weigh against everything above.",
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     badge: "Best HS-Class Performance Pick",
     name: "GMKtec M6 Ultra Gaming Mini PC Ryzen 7640HS 32GB RAM DDR5 1TB SSD",
     price: "$599.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "218 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ydc8fgeIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FLJQW1RD?tag=deskfinds0d-20",
     description: "A genuine HS-class Ryzen 7640HS, balancing performance and heat better than a U-class chip, with 32GB DDR5 RAM and 1TB SSD for a well-specced build.\n\nRanked just behind GMKtec M5 Ultra Gaming Mini PC Ryzen 7 7730U, it costs more than GMKtec M5 Ultra Gaming Mini PC Ryzen 7 7730U. The real tradeoff against that pick: Higher price reflecting the HS-class performance step-up. In exchange, it offers this instead: Genuine HS-class chip balances performance and heat better than U-class. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Fast DDR5 RAM for responsive multitasking. On the other side, Smaller review base than the top picks. That's the main tradeoff to weigh against everything above.",
@@ -90,8 +90,8 @@ export const products: GuideProduct[] = [
     badge: "Best Upgradable HS-Class Ryzen Pick",
     name: "GEEKOM A6 Mini PC, Ryzen 7 6800H, 16GB DDR5 Upgradable RAM 1TB PCIe 4.0 SSD",
     price: "$549.00",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "176 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/415bG0b3CeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DRP316J1?tag=deskfinds0d-20",
     description: "A genuine H-class Ryzen 7 6800H with explicitly upgradable DDR5 RAM, appropriate for buyers wanting both strong performance and future RAM expandability.\n\nOne spot below GMKtec M6 Ultra Gaming Mini PC Ryzen 7640HS 32GB RAM DDR5 1TB SSD in this ranking, it's priced lower than GMKtec M6 Ultra Gaming Mini PC Ryzen 7640HS 32GB RAM DDR5 1TB SSD. The compromise here is straightforward: Higher price than the U-class alternatives. What you gain in return: Genuine H-class chip for strong sustained performance. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Explicitly upgradable RAM avoids the soldered-memory limitation. On the other side, Smaller review base than the top picks. That's the main tradeoff to weigh against everything above.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Ryzen chip suffix decoded for genuine power-envelope meaning", description: "Decoded U, HS, and H-class suffixes as genuine indicators of power envelope and performance tier, not just marketing labels on a 'Ryzen' badge." },
   { title: "Sustained-load thermal performance weighted per specific chassis", description: "Weighted sustained-load thermal performance per specific chassis, since identical Ryzen chips can perform very differently across different cooling designs." },
   { title: "RAM configuration and upgradability differentiated across Ryzen tiers", description: "Differentiated RAM configuration and upgradability across Ryzen chip tiers, since this varies meaningfully even among similarly classed chips." },
-  { title: "Review base size weighted as a signal of proven chip-and-chassis reliability", description: "Weighted review base size as a signal of proven reliability for the specific chip-and-chassis combination, not the chip in isolation." },
+  { title: "Review base size weighted as a signal of proven chip-and-chassis reliability", description: "Weighted review base size as a signal of proven reliability for the specific chip-and-chassis combination, not the chip in isolation." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "What does the U, HS, or H suffix mean on a Ryzen mini PC?", a: "These genuinely indicate power envelope and performance tier, U-class prioritizes efficiency, HS-class balances performance and heat, H-class pushes for stronger sustained performance." },
   { q: "Do identical Ryzen chips perform the same in every mini PC?", a: "Not necessarily, sustained-load performance depends heavily on the specific chassis and cooling design, verify thermal reports for the exact model." },
   { q: "Is a U-class Ryzen chip good enough for everyday use?", a: "Yes, for everyday multitasking and productivity, U-class chips genuinely prioritize efficiency while remaining capable for common tasks." },
-  { q: "Should I choose HS-class over U-class for better performance?", a: "If you need meaningfully more sustained performance, yes, HS-class balances performance and heat better than U-class efficiency-focused chips." },
+  { q: "Should I choose HS-class over U-class for better performance?", a: "If you need meaningfully more sustained performance, yes, HS-class balances performance and heat better than U-class efficiency-focused chips." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-amd-mini-pcs", title: "Best AMD Mini PCs (2026)" },
   { href: "/guide/best-mini-pcs-with-32gb-ram", title: "Best Mini PCs with 32GB RAM (2026)" },
-  { href: "/guide/best-high-performance-mini-pcs", title: "Best High-Performance Mini PCs (2026)" },
+  { href: "/guide/best-high-performance-mini-pcs", title: "Best High-Performance Mini PCs (2026)" }
 ];

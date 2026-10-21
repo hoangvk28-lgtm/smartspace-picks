@@ -12,7 +12,7 @@ export const deskExerciseEquipmentTroubleshootingGuide: Guide = {
     "under desk bike resistance not working",
     "pedal exerciser display not tracking",
     "desk bike getting louder over time",
-    "under desk bike pedals loose",
+    "under desk bike pedals loose"
   ],
   heroImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskExerciseEquipmentTroubleshootingGuide: Guide = {
     "under-desk-bike-vs-elliptical",
     "desk-exercise-equipment-noise-explained",
     "under-desk-bike-desk-height-compatibility",
-    "shelf-weight-capacity-explained",
+    "shelf-weight-capacity-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskExerciseEquipmentTroubleshootingGuide: Guide = {
       question: "Should I attempt to repair internal resistance mechanism issues myself?",
       answer:
         "For a mechanism showing signs of internal failure rather than simple external loose bolts, professional repair or replacement is generally safer and more practical than attempting a DIY repair on a sealed resistance mechanism you likely don't have the specific parts or expertise to properly service.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const deskExerciseEquipmentTroubleshootingGuide: Guide = {
     {
       heading: "Why Internal Mechanism Issues Warrant Professional Attention Rather Than DIY Repair",
       body: `While external issues like loose bolts or a low display battery are straightforward for most users to address themselves, a resistance mechanism showing signs of genuine internal failure, inconsistent resistance despite proper control engagement, unusual grinding sounds, or a persistent inability to adjust, typically involves sealed internal components that require specific replacement parts and technical knowledge to service properly, attempting a DIY repair on these internal mechanisms without proper expertise risks causing further damage or creating a safety hazard, making professional repair or manufacturer warranty service the more practical and safer path for this category of problem.`,
-    },
+    }
   ],
 };

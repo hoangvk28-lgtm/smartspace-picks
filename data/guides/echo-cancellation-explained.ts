@@ -12,7 +12,7 @@ export const echoCancellationExplainedGuide: Guide = {
     "why does my video call echo",
     "how echo cancellation works",
     "speaker microphone feedback fix",
-    "headset prevents echo",
+    "headset prevents echo"
   ],
   heroImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const echoCancellationExplainedGuide: Guide = {
     "conference-speakerphone-vs-headset",
     "video-call-background-noise-reduction",
     "latency-explained",
-    "xlr-vs-usb-microphone",
+    "xlr-vs-usb-microphone"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const echoCancellationExplainedGuide: Guide = {
       question: "Why does echo cancellation sometimes fail even with software enabled?",
       answer:
         "Very loud speaker volume, a low-quality microphone or speaker, or unusual room acoustics can sometimes overwhelm software echo cancellation's ability to fully filter the feedback, in these cases, switching to a headset provides a more reliable physical solution.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const echoCancellationExplainedGuide: Guide = {
     {
       heading: "Why Group Settings With Multiple Devices Require Specific Awareness",
       body: `When several people in the same physical room each have their own laptop or device connected to the same call, a genuinely common scenario in shared offices or classrooms, each device's speaker and microphone can create feedback not just with itself but with every other nearby device in the room, this compounds the echo problem beyond what standard single-device echo cancellation is designed to handle, the practical solution is ensuring only one device in the room has its speaker and microphone active, with everyone else muted or using headphones, rather than expecting software to cleanly filter multiple simultaneous device feedback loops.`,
-    },
+    }
   ],
 };

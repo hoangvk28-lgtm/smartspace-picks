@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "linux mini pc";
 export const introParagraphs = [
   "Linux hardware compatibility needs verification for Wi-Fi, Bluetooth, suspend and resume, and fan control specifically, since a mini PC that runs Windows flawlessly can still have driver gaps on Linux, worth checking community reports for your specific distribution rather than assuming universal compatibility.",
-  "Vendor BIOS dependence and Secure Boot behavior can complicate a Linux installation on some mini PCs, worth verifying whether Secure Boot can be disabled cleanly and whether firmware updates are accessible outside of a Windows-only utility.",
+  "Vendor BIOS dependence and Secure Boot behavior can complicate a Linux installation on some mini PCs, worth verifying whether Secure Boot can be disabled cleanly and whether firmware updates are accessible outside of a Windows-only utility."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,14 +26,14 @@ export const products: GuideProduct[] = [
     badge: "Best Explicitly Linux-Focused Mini PC",
     name: "BOSGAME P4 Ultra Linux Mini PC, AMD Ryzen 7 7730U 16GB DDR4, 1TB PCIe SSD, Dual LAN 2.5G",
     price: "$469.00",
-    rating: "4.0 stars from Amazon ratings",
-    reviews: "608 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41EVo3RKAZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D22PLNJZ?tag=deskfinds0d-20",
     description: "Explicitly marketed and positioned as a Linux mini PC, a genuinely reassuring signal that the manufacturer has considered Linux compatibility rather than treating it as an afterthought. It earns the top spot in this comparison over CyberGeek Nano A1 Ubuntu Linux Mini PC for one main reason. Explicitly marketed as a Linux mini PC, a genuine compatibility signal. On value, which is worth weighing if cost is your deciding factor between the two. Worth knowing before you decide: Dual 2.5G LAN for networking and server workloads. On the other side, AMD chips can have less mature Linux driver support than Intel in some cases. That's the main tradeoff to weigh against everything above.",
     specs: ["AMD Ryzen 7 7730U","16GB DDR4 RAM","1TB PCIe SSD","Explicitly Linux-marketed, dual 2.5G LAN"],
     pros: ["Explicitly marketed as a Linux mini PC, a genuine compatibility signal","Dual 2.5G LAN for networking and server workloads","Large review base for real-world compatibility reports","1TB fast storage for a full Linux installation"],
-    cons: ["More moderate 4.0-star rating, verify current reviews for specific distro reports","Verify Wi-Fi and suspend/resume compatibility for your specific distribution","AMD chips can have less mature Linux driver support than Intel in some cases"],
+    cons: ["Verify Wi-Fi and suspend/resume compatibility for your specific distribution","AMD chips can have less mature Linux driver support than Intel in some cases"],
     bestFor: "Buyers wanting a mini PC explicitly positioned and marketed for Linux compatibility",
   },
   {
@@ -42,7 +42,7 @@ export const products: GuideProduct[] = [
     badge: "Best Ubuntu-Focused Pick",
     name: "CyberGeek Nano A1 Ubuntu Linux Mini PC, 12th Alder Lake N100 (up to 3.4GHz), Linux Computer",
     price: "Verified Amazon listing",
-    rating: "5.0 stars from Amazon ratings",
+    rating: "",
     reviews: "1 rating",
     imageUrl: "https://m.media-amazon.com/images/I/414OWV1GwbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CNZGFNWV?tag=deskfinds0d-20",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best Fanless Pick for Linux Server Use",
     name: "MeLE Quieter DL Fanless Mini PC N150 8GB 256GB Dual Intel I226-V 2.5GbE LAN",
     price: "$413.99",
-    rating: "5.0 stars from Amazon ratings",
-    reviews: "3 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51F4SpyR+4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H1V7B63Z?tag=deskfinds0d-20",
     description: "Dual Intel I226-V 2.5GbE LAN gives genuinely well-supported Linux networking, Intel's networking chipsets generally have mature, well-maintained Linux drivers.\n\nSitting just under CyberGeek Nano A1 Ubuntu Linux Mini PC, pricing between it and CyberGeek Nano A1 Ubuntu Linux Mini PC isn't directly comparable here. Here's the honest tradeoff: Very small review base, verify current reviews before purchase. And here's what it gets you instead: Intel I226-V networking chipsets have mature, well-maintained Linux drivers. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Fanless for genuinely silent Linux server or router operation. On the other side, 256GB storage is modest for larger Linux server deployments. That's the main tradeoff to weigh against everything above.",
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     badge: "Best Pick with Pre-Installed Linux-Based Software",
     name: "Pulcro.io TK Node Mini PC - Proxmox + Home Assistant preinstalled, AMD Ryzen R2514 (4C/8T), 16GB",
     price: "$299.00",
-    rating: "5.0 stars from Amazon ratings",
-    reviews: "2 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31lG2ExWmHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GT77MR53?tag=deskfinds0d-20",
     description: "Explicitly pre-installed with Proxmox, a Debian Linux-based virtualization platform, genuinely reassuring for buyers wanting proven Linux compatibility out of the box.\n\nRanked just behind MeLE Quieter DL Fanless Mini PC N150 8GB 256GB Dual Intel I226-V 2.5GbE LAN, it's priced lower than MeLE Quieter DL Fanless Mini PC N150 8GB 256GB Dual Intel I226-V 2.5GbE LAN. The real tradeoff against that pick: Very small review base, verify current reviews before purchase. In exchange, it offers this instead: Proxmox preinstalled proves genuine Linux compatibility out of the box. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Low-power chip appropriately matched to always-on Linux server use. On the other side, Verify support and update cadence for the preinstalled software. That's the main tradeoff to weigh against everything above.",
@@ -90,8 +90,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Performance Pick for Linux Workstation Use",
     name: "GEEKOM [2026 Edition Multitasking Mini PC A7 MAX with AMD Ryzen 9 7940HS",
     price: "$649.00",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "632 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41HfTCupHML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2C2CDR4?tag=deskfinds0d-20",
     description: "A genuinely powerful Ryzen 9 7940HS appropriate for buyers wanting a demanding Linux workstation build for development or compute work.\n\nOne spot below Pulcro.io TK Node Mini PC in this ranking, it costs more than Pulcro.io TK Node Mini PC. The compromise here is straightforward: Not explicitly Linux-marketed, verify specific distribution compatibility yourself. What you gain in return: Genuinely powerful chip for demanding Linux workstation or development use. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Recent 2026 edition hardware for current-generation capability. On the other side, Higher price than the explicitly Linux-focused picks. That's the main tradeoff to weigh against everything above.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Explicit Linux marketing weighted as a genuine compatibility signal", description: "Weighted explicit Linux or Ubuntu marketing and pre-installed Linux-based software as a genuine signal of validated hardware compatibility." },
   { title: "Wi-Fi, suspend/resume, and networking chipset compatibility considered", description: "Considered specific hardware components like Wi-Fi chipsets and networking hardware known for mature or immature Linux driver support." },
   { title: "Secure Boot and firmware update accessibility flagged", description: "Flagged Secure Boot behavior and firmware update accessibility as real considerations that can complicate a Linux installation." },
-  { title: "Intel versus AMD Linux driver maturity considered where relevant", description: "Considered that Intel chips and networking chipsets generally have more mature Linux driver support in some cases compared to certain AMD alternatives." },
+  { title: "Intel versus AMD Linux driver maturity considered where relevant", description: "Considered that Intel chips and networking chipsets generally have more mature Linux driver support in some cases compared to certain AMD alternatives." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Does a mini PC that runs Windows well also run Linux well?", a: "Not always, Linux hardware compatibility needs separate verification for Wi-Fi, suspend/resume, and fan control specifically." },
   { q: "Does Secure Boot cause problems for Linux installation?", a: "It can on some mini PCs, verify Secure Boot can be disabled cleanly before assuming a smooth Linux installation." },
   { q: "Should I look for an explicitly Linux-marketed mini PC?", a: "It's a genuine positive signal, this indicates the manufacturer has validated Linux hardware compatibility rather than treating it as an afterthought." },
-  { q: "Is Intel or AMD better for Linux compatibility?", a: "Intel chipsets, particularly networking hardware, often have more mature Linux driver support in some cases, though this varies by specific component." },
+  { q: "Is Intel or AMD better for Linux compatibility?", a: "Intel chipsets, particularly networking hardware, often have more mature Linux driver support in some cases, though this varies by specific component." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-windows-11-mini-pcs", title: "Best Windows 11 Mini PCs (2026)" },
   { href: "/guide/best-fanless-mini-pcs", title: "Best Fanless Mini PCs (2026)" },
-  { href: "/guide/best-mini-pcs-for-home-servers", title: "Best Mini PCs for Home Servers (2026)" },
+  { href: "/guide/best-mini-pcs-for-home-servers", title: "Best Mini PCs for Home Servers (2026)" }
 ];

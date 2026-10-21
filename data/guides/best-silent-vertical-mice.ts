@@ -6,7 +6,7 @@ export const mainKeyword = "silent vertical mouse";
 export const introParagraphs = [
   "Click actuation noise, distinct from keyboard switch noise but the mouse's own click mechanism, varies meaningfully between products, worth testing actual decibel levels for clicking specifically rather than treating 'silent' as a self-evident marketing claim.",
   "Silent click mechanisms sometimes trade tactile click feedback for noise reduction, similar to the tradeoff found in quiet mechanical keyboard switches, worth disclosing this feel tradeoff explicitly rather than assuming silence comes free.",
-  "Scroll wheel noise, a separate mechanical component from clicking, should be tested independently, since a mouse can have genuinely quiet clicks but a noisy or clicky scroll wheel that undermines the overall 'silent' claim in real day-to-day use.",
+  "Scroll wheel noise, a separate mechanical component from clicking, should be tested independently, since a mouse can have genuinely quiet clicks but a noisy or clicky scroll wheel that undermines the overall 'silent' claim in real day-to-day use."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Silent Vertical Mouse Overall",
     name: "Logitech Lift Vertical Ergonomic Wireless Mouse - Graphite",
     price: "$57.40",
-    rating: "4.4 stars from 13,635 Amazon ratings",
-    reviews: "13,635 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31nb5ALnDvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09J1TB35S?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Silent Pick",
     name: "ProtoArc EM11 NL Wireless Ergonomic Vertical Mouse, Rechargeable, Black",
     price: "$22.99",
-    rating: "4.4 stars from 5,670 Amazon ratings",
-    reviews: "5,670 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31PGrLfkUxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CX18LHWS?tag=deskfinds0d-20",
     description:
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best Explicitly Quiet-Clicks-Marketed Pick",
     name: "TECKNET Ergonomic Mouse, Bluetooth Wireless Vertical Mouse, Rechargeable Battery, Quiet Clicks, 4800 DPI Adjustable, BT5.0/3.0 & 2.4G Connect, Easy to use, Wide Compatibility - Black",
     price: "$24.99",
-    rating: "4.6 stars from 7,261 Amazon ratings",
-    reviews: "7,261 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/316GOiA3kCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1YD86Z6?tag=deskfinds0d-20",
     description:
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Quiet Pick with More Buttons",
     name: "TECKNET Ergonomic Mouse, Wireless Bluetooth Vertical Mouse, 4800 DPI Optical Tracking, 6 Adjustable DPI, Quiet Clicks, 2.4GHz with USB A Receiver, 12 Months Battery, 6 Buttons, Wide Compatibility",
     price: "$20.99",
-    rating: "4.4 stars from 12,710 Amazon ratings",
-    reviews: "12,710 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31UoLhAJ4zL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DG5SW7F4?tag=deskfinds0d-20",
     description:
@@ -94,8 +94,8 @@ export const products: GuideProduct[] = [
     badge: "Best Comfort-Grip Quiet Pick",
     name: "Lekvey Ergonomic Mouse, Rechargeable Vertical Wireless Mouse, Comfort Grip",
     price: "$24.98",
-    rating: "4.4 stars from 15,431 Amazon ratings",
-    reviews: "15,431 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31rCoH07kzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07BFCVJZC?tag=deskfinds0d-20",
     description:
@@ -104,7 +104,7 @@ export const products: GuideProduct[] = [
     pros: ["One of the largest review bases in this guide", "Comfort-grip design suits extended use sessions", "Reduced click noise appropriate for shared spaces", "Rechargeable, avoiding disposable battery costs"],
     cons: ["Not as explicitly marketed for silence as the TECKNET picks", "Scroll wheel noise should be verified independently", "Long-term dampening-material durability not independently tested"],
     bestFor: "Buyers prioritizing hand comfort alongside reasonably reduced click noise",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -113,7 +113,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Tactile-feel tradeoff disclosed for silent click mechanisms", description: "Disclosed that silent click mechanisms sometimes trade tactile click feedback for noise reduction, similar to the tradeoff established in quiet mechanical keyboard research." },
   { title: "Scroll wheel noise considered independently from click noise", description: "Considered scroll wheel noise, a separate mechanical component from clicking, independently, since a mouse can have quiet clicks but a noisy or clicky scroll wheel that undermines the overall silent claim." },
   { title: "Realistic active-use noise weighted over idle measurement", description: "Weighted realistic noise levels during actual active use rather than idle/unused noise measurement, directly relevant to shared home-office or open-office environments." },
-  { title: "Long-term durability of dampening material considered", description: "Considered that silent click mechanisms may have different long-term durability than standard click mechanisms since dampening material can wear over time." },
+  { title: "Long-term durability of dampening material considered", description: "Considered that silent click mechanisms may have different long-term durability than standard click mechanisms since dampening material can wear over time." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "If my mouse has quiet clicks, is the scroll wheel quiet too?", a: "Not necessarily, scroll wheel noise is a separate mechanical component from clicking, check reviews specifically for scroll wheel feedback since a mouse can have quiet clicks but a noisy scroll wheel." },
   { q: "Will my silent mouse stay quiet after months of daily use?", a: "It can change, silent click mechanisms may have different long-term durability than standard mechanisms since dampening material can wear over time, factor this into your expectations." },
   { q: "Is a silent vertical mouse worth it for a shared home office?", a: "Often yes, this is directly relevant to shared home-office or open-office environments, look for realistic active-use noise testing rather than idle measurement when comparing options." },
-  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers wanting a genuinely quiet mouse without sacrificing all tactile click feel" },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers wanting a genuinely quiet mouse without sacrificing all tactile click feel" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-rechargeable-vertical-mice", title: "Best Rechargeable Vertical Mice (2026)" },
   { href: "/guide/best-usb-c-vertical-mice", title: "Best USB-C Vertical Mice (2026)" },
-  { href: "/guide/best-multi-device-vertical-mice", title: "Best Multi-Device Vertical Mice (2026)" },
+  { href: "/guide/best-multi-device-vertical-mice", title: "Best Multi-Device Vertical Mice (2026)" }
 ];

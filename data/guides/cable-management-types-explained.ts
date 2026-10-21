@@ -12,7 +12,7 @@ export const cableManagementTypesExplainedGuide: Guide = {
     "cable sleeve vs raceway",
     "cable management box vs sleeve",
     "under desk cable management types",
-    "best cable management method",
+    "best cable management method"
   ],
   heroImage: "https://images.unsplash.com/photo-1473831818960-c89731aabc3e?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1473831818960-c89731aabc3e?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const cableManagementTypesExplainedGuide: Guide = {
     "best-cable-management-boxes-for-desks",
     "cable-management-dorm",
     "best-wood-cable-management-boxes",
-    "best-corner-desks-with-cable-management",
+    "best-corner-desks-with-cable-management"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const cableManagementTypesExplainedGuide: Guide = {
       question: "Which option is best for a rented apartment or dorm room?",
       answer:
         "Cable sleeves and cable management boxes are the better choice for rented spaces since neither requires adhesive or screws attached to a wall. A raceway using adhesive strips is reversible but can still leave residue or mark paint when removed.",
-    },
+    }
   ],
   sections: [
     {
@@ -85,6 +85,6 @@ A box solves a different problem entirely: hiding a power strip, its plugged-in 
     {
       heading: "Building a Complete System",
       body: `Most desks benefit from using more than one type together rather than picking a single solution: a raceway along the wall for the fixed run, a sleeve for the flexible drop down a desk leg, and a box at the end where the power strip and adapters collect. Map your actual cable path first, identify which segments are fixed versus flexible, and choose the type that matches each segment rather than trying to force one product to handle the entire path.`,
-    },
+    }
   ],
 };

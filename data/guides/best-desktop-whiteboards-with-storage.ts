@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desktop whiteboard with storage";
 export const introParagraphs = [
   "A whiteboard advertised with \"storage\" can mean anything from a full built-in drawer to a single accessory tray, a distinction most general roundups gloss over. We only included picks below where the listing explicitly states a drawer, tray, or organizer feature, and we describe exactly what type of storage each one includes rather than a vague \"storage included\" claim.",
-  "Adding a drawer or tray to a whiteboard also adds weight and structural stress to the stand, something a static product photo can't confirm holds up under daily use. Treat stand stability with a loaded drawer as a buyer-advisory check worth verifying via current reviews before you commit, especially if you plan to keep the drawer full.",
+  "Adding a drawer or tray to a whiteboard also adds weight and structural stress to the stand, something a static product photo can't confirm holds up under daily use. Treat stand stability with a loaded drawer as a buyer-advisory check worth verifying via current reviews before you commit, especially if you plan to keep the drawer full."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "8 min";
@@ -104,7 +104,7 @@ export const products: GuideProduct[] = [
     pros: ["Genuine built-in drawer for storage", "Glass surface resists ghosting", "Grey finish option for a different look", "Doubles as keyboard stand"],
     cons: ["Drawer capacity not quantified in listing", "Combined weight adds stress on the stand structure", "Functionally overlaps with our top pick, differs mainly in color"],
     bestFor: "Buyers wanting the same drawer-plus-glass combo as our top pick in a grey finish.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Only counted storage explicitly stated in the listing", description: "Excluded any board where \"storage\" wasn't clearly named as a drawer, tray, or organizer feature in the title, rather than assuming general dry erase boards include storage." },
   { title: "Distinguished drawer type from tray type where stated", description: "Noted whether the listing described a drawer or a tray, since these differ meaningfully in capacity, rather than treating all \"storage\" claims as equivalent." },
   { title: "Flagged combined weight and stand stress", description: "Called out that a loaded drawer adds weight the stand has to support, which listing photos alone can't confirm holds up long-term." },
-  { title: "Compared price against confirmed storage and surface features", description: "Weighed price against the combination of genuine glass surface and confirmed storage feature, not price or storage alone." },
+  { title: "Compared price against confirmed storage and surface features", description: "Weighed price against the combination of genuine glass surface and confirmed storage feature, not price or storage alone." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -134,7 +134,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Extra organizer features and calculator", "Small Glass Whiteboard with Calculator"],
         ["Lowest price with a genuine drawer", "Glass Whiteboard with Storage, Black"],
         ["Wide format with integrated storage", "Quartet GDP186 18\"x6\" with Storage"],
-        ["Same drawer combo in a grey finish", "Glass Board with Drawer, Grey"],
+        ["Same drawer combo in a grey finish", "Glass Board with Drawer, Grey"]
       ],
     },
   },
@@ -174,11 +174,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Desktop Glass Whiteboard with Storage",
-        "text": "Budget-conscious buyers who still want a genuine drawer and glass surface combo. At $23.74, it's the lowest-cost pick in this comparison."
+        "text": "Budget-conscious buyers who still want a genuine drawer and glass surface combo. At under $25, it's the lowest-cost pick in this comparison."
       },
       {
         "label": "Small Glass Desktop Whiteboard Dry Erase Board with Calculator",
-        "text": "Buyers who want a whiteboard bundled with a calculator and extra organizer accessories. At $36.99, it sits at the higher end of this comparison's price range."
+        "text": "Buyers who want a whiteboard bundled with a calculator and extra organizer accessories. At under $40, it sits at the higher end of this comparison's price range."
       }
     ],
     "note": "Most buyers should default to Desktop Glass Whiteboard with Storage unless best pick with extra organizer features specifically applies to your situation."
@@ -231,7 +231,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "Budget-conscious buyers who still want a genuine drawer and glass surface combo."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -239,7 +239,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   { criterion: "Consider combined weight on the stand", explanation: "A loaded drawer adds weight the board's stand has to support while you write. Check reviews for stability reports if you plan to keep it loaded." },
   { criterion: "Weigh storage against surface material tradeoffs", explanation: "Most storage-equipped picks here are glass, which resists ghosting but adds fragility. Factor that in alongside the storage feature." },
   { criterion: "Don't assume storage capacity from price alone", explanation: "A higher price sometimes reflects bundled accessories like a calculator, not necessarily more storage space. Check what's actually included." },
-  { criterion: "Check whether the drawer is removable or permanently built into the stand", explanation: "This affects how you can use the board over time, since a removable drawer lets you simplify the setup later if you decide you don't need the storage, while a built-in drawer stays part of the stand permanently." },
+  { criterion: "Check whether the drawer is removable or permanently built into the stand", explanation: "This affects how you can use the board over time, since a removable drawer lets you simplify the setup later if you decide you don't need the storage, while a built-in drawer stays part of the stand permanently." }
 ];
 
 export const faq: FaqItem[] = [
@@ -248,11 +248,11 @@ export const faq: FaqItem[] = [
   { q: "Are all whiteboards with storage made of glass?", a: "Most in this guide are glass per their listings, but always confirm the material in the specific listing rather than assuming." },
   { q: "Is a whiteboard with storage worth the extra cost?", a: "If you need a place for markers, notes, or small supplies right at your desk, yes. If you just need a writing surface, a plain board without storage is more budget-friendly." },
   { q: "Which pick in this comparison offers the most writing area for the price?", a: "Buyers who want a whiteboard bundled with a calculator and extra organizer accessories." },
-  { q: "Can I remove the drawer if I don't need the storage?", a: "Check the specific listing, some drawers are a fixed built-in part of the stand structure while others are a separate removable tray, this affects whether you can use the board without the storage attached." },
+  { q: "Can I remove the drawer if I don't need the storage?", a: "Check the specific listing, some drawers are a fixed built-in part of the stand structure while others are a separate removable tray, this affects whether you can use the board without the storage attached." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desktop-whiteboard-organizers", title: "Best Desktop Whiteboard Organizers (2026)" },
   { href: "/guide/best-glass-desktop-whiteboards", title: "Best Glass Desktop Whiteboards (2026)" },
-  { href: "/guide/best-desktop-whiteboards", title: "Best Desktop Whiteboards (2026)" },
+  { href: "/guide/best-desktop-whiteboards", title: "Best Desktop Whiteboards (2026)" }
 ];

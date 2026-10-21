@@ -140,7 +140,7 @@ export default async function Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Metal Bed Frames", item: `${SITE_URL}/guide/best-bed-frame-metal` },
+      { "@type": "ListItem", position: 3, name: "Best Metal Bed Frames", item: `${SITE_URL}/guide/best-bed-frame-metal` }
     ],
   };
 
@@ -245,7 +245,7 @@ export default async function Page() {
 
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>Metal bed frames remain the go-to choice for buyers who want durability and a wide range of weight capacities without the price tag of solid wood, spanning everything from bare minimalist platforms to ornate Victorian wrought-iron headboard sets.</p>
-          <p>Below are 8 metal bed frames we evaluated on weight capacity, assembly, and design detail, ranging from a $50.99 reinforced-leg platform to a distinctive vintage-gate frame rated for 2,500 lbs.</p>
+          <p>Below are 8 metal bed frames we evaluated on weight capacity, assembly, and design detail, ranging from an under-$60 reinforced-leg platform to a distinctive vintage-gate frame rated for 2,500 lbs.</p>
         </section>
 
         {buyingCriteria.length > 0 && (

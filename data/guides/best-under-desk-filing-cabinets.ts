@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "best under-desk filing cabinet";
 export const introParagraphs = [
   "A filing cabinet marketed as under-desk still needs to clear the space beneath your specific desk, and that gap varies more than most listings account for. Standing desks at sitting height often provide only 22 to 28 inches of clearance, while these cabinets typically stand 24 to 28 inches tall themselves, so measuring your actual clearance before ordering matters more than trusting the word under-desk in a title.",
-  "This guide compares 7 genuinely compact pedestal and mobile filing cabinets built for tight under-desk spaces, plus one wider lateral cabinet included as a larger-footprint alternative rather than a like-for-like pick. Prices range from $44.99 to $99.99, with two models currently listed without a price.",
+  "This guide compares 7 genuinely compact pedestal and mobile filing cabinets built for tight under-desk spaces, plus one wider lateral cabinet included as a larger-footprint alternative rather than a like-for-like pick. Prices range from roughly $45 to $100, with two models currently listed without a price."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -46,8 +46,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Pedestal Fit",
     name: "Letaya 3 Drawer Mobile File Cabinet with Lock, Under Desk Metal Filing Cabinet, Fully Assembled",
     price: "$99.99",
-    rating: "4.5 stars from 1,373 Amazon ratings",
-    reviews: "4.5 stars from 1,373 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Nz-Myx-1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09YVJN8R7?tag=deskfinds0d-20",
     description:
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Fully assembled on arrival",
       "Metal construction",
       "Under-desk pedestal footprint",
-      "Fits letter, legal, and A4 documents",
+      "Fits letter, legal, and A4 documents"
     ],
     pros: [
       "Genuinely compact under-desk pedestal design",
       "Fully assembled, no setup required",
       "Locking drawers for document security",
-      "Strong review base",
+      "Strong review base"
     ],
     cons: [
       "Highest price alongside the Letaya lateral cabinet",
       "Still requires measuring your desk's actual clearance",
-      "Three drawers add more height than a two-drawer pedestal",
+      "Three drawers add more height than a two-drawer pedestal"
     ],
     bestFor: "Buyers who want a genuine pedestal-style cabinet explicitly built for under-desk use",
   },
@@ -78,8 +78,8 @@ export const products: GuideProduct[] = [
     badge: "Best with Extra Work Surface",
     name: "GYIIYUO 2 Drawer File Cabinet with 24 Inch Extended Desktop, Mobile Filing Cabinet with Side Bag",
     price: "$56.99",
-    rating: "4.2 stars from 1,425 Amazon ratings",
-    reviews: "4.2 stars from 1,425 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Aix6uWuJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBZ98D94?tag=deskfinds0d-20",
     description:
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Rolling casters",
       "Fabric drawer fronts",
       "Side storage bag",
-      "Fits letter and A4 documents",
+      "Fits letter and A4 documents"
     ],
     pros: [
       "Extended top adds a spot for a printer or supplies",
       "Rolling casters for repositioning around an L-shaped desk",
       "Reasonable mid-range price",
-      "Side bag adds extra small-item storage",
+      "Side bag adds extra small-item storage"
     ],
     cons: [
       "Extended top sits lower than a standard desk surface",
       "Fabric drawer fronts less durable than metal",
-      "Not the most compact option in this list",
+      "Not the most compact option in this list"
     ],
     bestFor: "L-shaped desk setups that want a rolling cabinet with a bit of extra top surface",
   },
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Wider Lateral Alternative, Not Pedestal-Style",
     name: "Letaya 2 Drawer File Cabinet with Lock, Metal Lateral Filing Cabinet, Hanging Letter/Legal/A4",
     price: "$99.99",
-    rating: "4.2 stars from 1,671 Amazon ratings",
-    reviews: "4.2 stars from 1,671 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31ukHwAN+yL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTNJY2HB?tag=deskfinds0d-20",
     description:
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Lateral (side-loading) orientation",
       "Metal construction",
       "Approx. 28 inches wide",
-      "Fits hanging letter, legal, A4 files",
+      "Fits hanging letter, legal, A4 files"
     ],
     pros: [
       "Stable, wide base for hanging files",
       "Locking drawers for document security",
       "Metal construction",
-      "Solid review base",
+      "Solid review base"
     ],
     cons: [
       "Wider footprint may not clear a narrow under-desk gap",
       "Built more for beside-desk placement than under-desk tuck-in",
-      "Same price as the more compact Letaya pedestal pick",
+      "Same price as the more compact Letaya pedestal pick"
     ],
     bestFor: "Buyers with generous side clearance who want a stable lateral cabinet rather than a narrow pedestal",
   },
@@ -142,8 +142,8 @@ export const products: GuideProduct[] = [
     badge: "Most Affordable Confirmed Under-Desk Fit",
     name: "SISESOL 2 Drawer File Cabinet with Lock, Narrow Vertical Filing Cabinet, Under Desk File Cabinet",
     price: "$44.99",
-    rating: "4.2 stars from 616 Amazon ratings",
-    reviews: "4.2 stars from 616 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31cXnfFFSML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQL795FX?tag=deskfinds0d-20",
     description:
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Narrow vertical, under-desk profile",
       "Metal construction",
       "Easy assembly",
-      "Fits letter, A4, legal size",
+      "Fits letter, A4, legal size"
     ],
     pros: [
       "Lowest price among confirmed under-desk picks",
       "Narrow vertical profile suits tight clearance",
       "Locking drawers",
-      "Easy assembly stated in listing",
+      "Easy assembly stated in listing"
     ],
     cons: [
       "Smaller review base than the top picks",
       "Two drawers offer less capacity than the Letaya 3 Drawer",
-      "Still requires measuring exact desk clearance before buying",
+      "Still requires measuring exact desk clearance before buying"
     ],
     bestFor: "Budget buyers who want a confirmed narrow under-desk fit",
   },
@@ -174,8 +174,8 @@ export const products: GuideProduct[] = [
     badge: "Basic Compact Pedestal",
     name: "SteeLoong 2 Drawer File Cabinets, Metal Office File Cabinet with Lock, Black",
     price: "$64.99",
-    rating: "4.0 stars from 382 Amazon ratings",
-    reviews: "4.0 stars from 382 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31IIIyTZ29L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D2QSQZ1X?tag=deskfinds0d-20",
     description:
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Metal construction",
       "Compact pedestal footprint",
       "Black finish",
-      "Fits standard file sizes",
+      "Fits standard file sizes"
     ],
     pros: [
       "Compact two-drawer pedestal size",
       "Metal construction with lock",
       "Simple black finish",
-      "Mid-range price",
+      "Mid-range price"
     ],
     cons: [
       "Lowest rating in this list",
       "Smaller review base",
-      "No explicit under-desk claim in the listing",
+      "No explicit under-desk claim in the listing"
     ],
     bestFor: "Buyers who want a basic compact metal pedestal cabinet without extra features",
   },
@@ -206,8 +206,8 @@ export const products: GuideProduct[] = [
     badge: "Steel Vertical Cabinet",
     name: "BYNSOE 2 Drawer File Cabinet with Lock, Vertical Filing Storage Cabinet, Steel, Assembly Required",
     price: "$64.99",
-    rating: "4.0 stars from 1,303 Amazon ratings",
-    reviews: "4.0 stars from 1,303 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31VM3xK++PL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D9XYD75W?tag=deskfinds0d-20",
     description:
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Vertical steel construction",
       "Assembly required",
       "Standard file cabinet footprint",
-      "Fits letter size documents",
+      "Fits letter size documents"
     ],
     pros: [
       "Vertical orientation suits most under-desk gaps",
       "Larger review base than the SteeLoong",
       "Steel construction with lock",
-      "Reasonable mid-range price",
+      "Reasonable mid-range price"
     ],
     cons: [
       "Assembly required, unlike the fully assembled Letaya",
       "No explicit under-desk claim in the listing",
-      "Same rating as the SteeLoong",
+      "Same rating as the SteeLoong"
     ],
     bestFor: "Buyers comfortable measuring clearance themselves for a general-purpose vertical steel cabinet",
   },
@@ -238,8 +238,8 @@ export const products: GuideProduct[] = [
     badge: "Best with Open Shelf for a Printer",
     name: "DEVAISE Mobile File Cabinet, Rolling Printer Stand with Open Storage Shelf, Fabric Vertical Filing Cabinet",
     price: "Not currently listed",
-    rating: "4.3 stars from 1,947 Amazon ratings",
-    reviews: "4.3 stars from 1,947 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419tPkjAfvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09KT9RG1M?tag=deskfinds0d-20",
     description:
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Fabric vertical filing cabinet",
       "Rolling casters",
       "Doubles as printer stand",
-      "Fits A4 or letter size",
+      "Fits A4 or letter size"
     ],
     pros: [
       "Open top shelf doubles as printer stand space",
       "Rolling casters for easy repositioning",
       "Solid review base",
-      "Compact enough for most under-desk gaps",
+      "Compact enough for most under-desk gaps"
     ],
     cons: [
       "Price not currently listed",
       "Fabric drawer fronts less durable than metal",
-      "Open shelf offers no lock or dust protection",
+      "Open shelf offers no lock or dust protection"
     ],
     bestFor: "Buyers who want a rolling cabinet that doubles as a compact printer stand",
   },
@@ -270,8 +270,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wood-Grain Aesthetic",
     name: "DEVAISE 2 Drawer Mobile File Cabinet, Rolling Printer Stand, Fabric Vertical Filing Cabinet, Charcoal Black Wood Grain",
     price: "Not currently listed",
-    rating: "4.1 stars from 2,403 Amazon ratings",
-    reviews: "4.1 stars from 2,403 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41UqyQ9zIGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09ZXSY378?tag=deskfinds0d-20",
     description:
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Charcoal black wood grain print",
       "Rolling mobile base",
       "Compact vertical footprint",
-      "Fits A4 or letter size",
+      "Fits A4 or letter size"
     ],
     pros: [
       "Wood-grain finish blends into home office decor",
       "Rolling mobile base",
       "Compact footprint",
-      "Strong review base",
+      "Strong review base"
     ],
     cons: [
       "Price not currently listed",
       "Fabric drawer fronts less durable than metal",
-      "No lock feature stated",
+      "No lock feature stated"
     ],
     bestFor: "Buyers who want a rolling cabinet with a wood-grain look instead of plain metal",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -328,7 +328,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Value for price at each capacity tier",
     description:
       "Weighed drawer count, confirmed under-desk fit, and included extras like a top shelf or extended surface against price across the range of price points in this comparison in this list.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -471,11 +471,11 @@ export const faq: FaqItem[] = [
   {
     q: "Why do two of the cabinets in this list not show a price?",
     a: "Both DEVAISE models were listed without current pricing at the time of research. Check Amazon directly for current pricing before comparing them against the other cabinets in this list.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-lateral-wood-file-cabinets", title: "Best Lateral Wood File Cabinets (2026)" },
   { href: "/guide/best-2-drawer-wood-file-cabinets", title: "Best 2-Drawer Wood File Cabinets (2026)" },
-  { href: "/guide/best-rolling-carts-with-drawers", title: "Best Rolling Carts with Drawers (2026)" },
+  { href: "/guide/best-rolling-carts-with-drawers", title: "Best Rolling Carts with Drawers (2026)" }
 ];

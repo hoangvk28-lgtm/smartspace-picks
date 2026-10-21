@@ -53,7 +53,7 @@ export const products: PhoneGimbal[] = [
     tradeoffs: [
       "Tracking only works inside the Zhiyun app, stops when you switch to native camera or third-party platforms",
       "No built-in fill light",
-      "Less sophisticated app tracking than mid-range competitors",
+      "Less sophisticated app tracking than mid-range competitors"
     ],
     skipIf:
       "You record directly to the native camera app and need tracking active. DJI Osmo Mobile 7P at $130 adds native tracking that works in any app.",
@@ -61,12 +61,12 @@ export const products: PhoneGimbal[] = [
       "Budget-friendly 3-axis stabilization at ~$60",
       "Foldable compact design for portability",
       "Extension rod included for selfie stick use",
-      "ZY Cami app tracking for Android and iOS",
+      "ZY Cami app tracking for Android and iOS"
     ],
     cons: [
       "App-only tracking, stops outside Zhiyun app",
       "No fill light",
-      "Less refined tracking than mid-range options",
+      "Less refined tracking than mid-range options"
     ],
   },
   {
@@ -89,7 +89,7 @@ export const products: PhoneGimbal[] = [
       "Tracking works inside the Insta360 app only",
       "Spotlight is a separate purchase and not included",
       "Magnetic clamp does not work reliably with thick or non-flat phone cases",
-      "Pan smoothness at slow speeds is below DJI at the same price tier",
+      "Pan smoothness at slow speeds is below DJI at the same price tier"
     ],
     skipIf:
       "You need tracking outside the Insta360 app or use a large-format Android phone that does not seat securely in the magnetic clamp.",
@@ -97,12 +97,12 @@ export const products: PhoneGimbal[] = [
       "Most portable gimbal on the list",
       "Magnetic clamp snaps in and out instantly",
       "Folded base serves as a tripod for desk shots",
-      "Gesture control and AI tracking in Insta360 app",
+      "Gesture control and AI tracking in Insta360 app"
     ],
     cons: [
       "App-only tracking",
       "Spotlight accessory sold separately",
-      "Magnetic clamp has issues with thick phone cases",
+      "Magnetic clamp has issues with thick phone cases"
     ],
   },
   {
@@ -124,7 +124,7 @@ export const products: PhoneGimbal[] = [
     tradeoffs: [
       "DJI Mimo app offers the deepest feature set but requires an account",
       "Built-in light has limited output compared to a dedicated ring light",
-      "Heavier than the Insta360 Flow with the extension rod extended",
+      "Heavier than the Insta360 Flow with the extension rod extended"
     ],
     skipIf:
       "You are an iPhone-primary creator wanting seamless Apple DockKit integration for native iOS tracking. Insta360 Flow 2 Pro at $150 is purpose-built for that use case.",
@@ -133,12 +133,12 @@ export const products: PhoneGimbal[] = [
       "7th-generation stabilization for fast movement",
       "Built-in fill light with adjustable color temperature",
       "Tripod mode for static desk shots",
-      "Phone charging via grip for long sessions",
+      "Phone charging via grip for long sessions"
     ],
     cons: [
       "DJI Mimo account required for full feature set",
       "Built-in light output limited vs dedicated ring light",
-      "Heavier than compact competitors",
+      "Heavier than compact competitors"
     ],
   },
   {
@@ -159,7 +159,7 @@ export const products: PhoneGimbal[] = [
       "Built around Apple DockKit, the native iOS tracking API that lets the gimbal follow subjects through the iPhone camera app without any third-party software open. For iPhone creators recording in ProRes or directly to third-party apps, this is the cleanest tracking workflow available. 360-degree pan rotation for product shots and environment reveals. Multi-person tracking switches between subjects automatically. Built-in tripod and selfie stick included.",
     tradeoffs: [
       "DockKit tracking only works on iPhone, Android users get app-based tracking only",
-      "No built-in fill light",
+      "No built-in fill light"
     ],
     skipIf:
       "You use Android. DJI Osmo Mobile 7P delivers similar all-platform tracking at $20 less and includes a fill light.",
@@ -168,12 +168,12 @@ export const products: PhoneGimbal[] = [
       "360-degree pan for product shots and reveals",
       "Multi-person tracking switches subjects automatically",
       "12h battery, longest in the under-$150 range",
-      "Built-in tripod and selfie stick",
+      "Built-in tripod and selfie stick"
     ],
     cons: [
       "DockKit tracking only works on iPhone",
       "No fill light",
-      "Android users get app-only tracking, removing the primary advantage",
+      "Android users get app-only tracking, removing the primary advantage"
     ],
   },
   {
@@ -195,7 +195,7 @@ export const products: PhoneGimbal[] = [
     tradeoffs: [
       "Remote display is small at 1.4 inches for detailed preview work",
       "Heavier than DJI and Insta360 competitors when the remote is attached",
-      "Firmware updates have historically been needed to resolve early tracking jitter on fast movements",
+      "Firmware updates have historically been needed to resolve early tracking jitter on fast movements"
     ],
     skipIf:
       "You want the smallest, lightest rig. If portability is the primary concern, Insta360 Flow 2 Pro or DJI Osmo Mobile 7P are significantly lighter.",
@@ -203,12 +203,12 @@ export const products: PhoneGimbal[] = [
       "OLED touchscreen remote for live camera preview up to 32 feet away",
       "Native AI tracking in any app",
       "Fill light with adjustable brightness and color temperature",
-      "Handles up to 500g payload for heavy flagship phones",
+      "Handles up to 500g payload for heavy flagship phones"
     ],
     cons: [
       "Small 1.4-inch remote display",
       "Heavy with remote attached compared to competitors",
-      "May require firmware updates for smooth tracking on fast movements",
+      "May require firmware updates for smooth tracking on fast movements"
     ],
   },
   {
@@ -230,7 +230,7 @@ export const products: PhoneGimbal[] = [
     tradeoffs: [
       "Fill light running continuously drops battery to around 5.5 hours",
       "Largest gimbal on the list, does not fold as compactly as foldable alternatives",
-      "Zhiyun app is less polished than DJI Mimo",
+      "Zhiyun app is less polished than DJI Mimo"
     ],
     skipIf:
       "Portability or weight is a priority. The Smooth Q5 Ultra is a stationary-use powerhouse but less ideal for pack-light travel.",
@@ -238,12 +238,12 @@ export const products: PhoneGimbal[] = [
       "Longest battery on the list at 13.5h",
       "226-lux fill light with wide color temperature range 2700K to 6200K",
       "Voice remote for hands-free control",
-      "Native AI tracking across apps",
+      "Native AI tracking across apps"
     ],
     cons: [
       "Heavy and large with no folding design",
       "Fill light drains battery to approximately 5.5h when used continuously",
-      "Zhiyun app less polished than DJI Mimo",
+      "Zhiyun app less polished than DJI Mimo"
     ],
   },
   {
@@ -265,7 +265,7 @@ export const products: PhoneGimbal[] = [
     tradeoffs: [
       "Highest price on the list at ~$200",
       "DJI Mic Mini TX is a transmitter only, not a full kit with receiver - verify compatibility with your phone input before purchasing",
-      "No benefit if you already own a wireless microphone solution",
+      "No benefit if you already own a wireless microphone solution"
     ],
     skipIf:
       "You already have a wireless microphone or prefer a different audio solution. The standalone gimbal at $130 is better value in that case.",
@@ -274,14 +274,14 @@ export const products: PhoneGimbal[] = [
       "Wireless mic transmitter included for clean vocal audio",
       "Native tracking in any app",
       "Built-in fill light with color temperature control",
-      "Full DJI Mimo integration",
+      "Full DJI Mimo integration"
     ],
     cons: [
       "Highest price on the list at ~$200",
       "Mic TX only, not a full receiver kit",
-      "No benefit if you already own wireless audio",
+      "No benefit if you already own wireless audio"
     ],
-  },
+  }
 ];
 
 export const atAGlanceRows = products.map((p) => ({
@@ -322,11 +322,11 @@ export const faq = [
   {
     q: "Should I get the gimbal bundle with the microphone or buy separately?",
     a: "If you do not already own a wireless microphone, the DJI Osmo Mobile 7P and Mic Mini TX bundle at $200 is a practical single purchase. If you already have a microphone solution, buying the standalone gimbal at $130 is better value. Microphone quality matters as much as video quality for most content types, particularly talking-head and tutorial formats.",
-  },
+  }
 ];
 
 export const relatedGuides = [
   { title: "7 Best Headsets for Work: Budget to Premium", href: "/guide/best-headset-for-work" },
   { title: "Best Webcams for Home Office", href: "/guide/best-webcams-for-home-office" },
-  { title: "Best Headphones for Gaming", href: "/guide/best-headphones-for-gaming" },
+  { title: "Best Headphones for Gaming", href: "/guide/best-headphones-for-gaming" }
 ];

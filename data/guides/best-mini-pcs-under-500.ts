@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini pc under 500";
 export const introParagraphs = [
   "Amazon prices in this range fluctuate meaningfully and RAM or storage configuration can vary by listing variant, worth verifying the exact current price and configuration on the actual product page before assuming a review article's stated price still applies.",
-  "The genuine processor tier, not just the sub-$500 price point, determines whether a mini PC handles real multitasking or feels sluggish, worth checking the specific chip generation rather than assuming every mini PC under $500 offers similar performance.",
+  "The genuine processor tier, not just the sub-$500 price point, determines whether a mini PC handles real multitasking or feels sluggish, worth checking the specific chip generation rather than assuming every mini PC under $500 offers similar performance."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,13 +26,13 @@ export const products: GuideProduct[] = [
     badge: "Best Mini PC Under $500 Overall",
     name: "BOSGAME P4 Ultra Mini PC Gaming, Ryzen 7 7730U, 16GB RAM 1TB PCIe3.0 SSD",
     price: "$418.98",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "199 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51I+6dQFNyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GCH917SW?tag=deskfinds0d-20",
-    description: "A genuinely well-reviewed build with a high 4.7-star rating, appropriate for buyers wanting proven quality at a budget-friendly price with real headroom to spare. It earns the top spot in this comparison over GMKtec Gaming Mini PC Ryzen 7640HS for one main reason. High 4.7-star rating with a solid review base. On value, it comes in below GMKtec Gaming Mini PC Ryzen 7640HS, which is worth weighing if cost is your deciding factor between the two. Worth knowing before you decide: 16GB RAM and 1TB SSD for genuine value at a budget-friendly price. On the other side, Confirm the exact RAM and storage variant matches this listing. That's the main tradeoff to weigh against everything above.",
+    description: "It earns the top spot in this comparison over GMKtec Gaming Mini PC Ryzen 7640HS for one main reason. On value, it comes in below GMKtec Gaming Mini PC Ryzen 7640HS, which is worth weighing if cost is your deciding factor between the two. Worth knowing before you decide: 16GB RAM and 1TB SSD for genuine value at a budget-friendly price. On the other side, Confirm the exact RAM and storage variant matches this listing. That's the main tradeoff to weigh against everything above.",
     specs: ["AMD Ryzen 7 7730U","16GB RAM","1TB PCIe SSD","High review rating"],
-    pros: ["High 4.7-star rating with a solid review base","16GB RAM and 1TB SSD for genuine value under $500","Efficient U-class chip for always-on operation","Real price headroom under the $500 threshold"],
+    pros: ["16GB RAM and 1TB SSD for genuine value under $500","Efficient U-class chip for always-on operation","Real price headroom under the $500 threshold"],
     cons: ["Verify current price and configuration before purchase","Gaming branding suggests general use rather than purpose-built design","Confirm the exact RAM and storage variant matches this listing"],
     bestFor: "Buyers wanting a well-reviewed, genuinely capable mini PC with headroom under $500",
   },
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Performance Pick Near $500",
     name: "GMKtec Gaming Mini PC Ryzen 7640HS (Beats 6800H/6800U) 16GB DDR5 512GB NVMe SSD Dual NIC",
     price: "$459.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "485 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ydc8fgeIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FLDC98GC?tag=deskfinds0d-20",
     description: "A genuine HS-class Ryzen 7640HS, appropriate for buyers wanting the strongest processing tier available while staying under the threshold. One spot below BOSGAME P4 Ultra Mini PC Gaming in this ranking, it costs more than BOSGAME P4 Ultra Mini PC Gaming. The compromise here is straightforward: Verify current price before purchase, it sits close to the ceiling. What you gain in return: Genuine HS-class chip, the strongest processor tier at a budget-friendly price in this guide. Whether that trade is worth it depends on which side matters more for your use case. Worth knowing before you decide: Fast DDR5 RAM and NVMe storage for genuine responsiveness. On the other side, Less price headroom than the more budget-focused picks. That's the main tradeoff to weigh against everything above.",
@@ -58,14 +58,14 @@ export const products: GuideProduct[] = [
     badge: "Best Proven Reliability Pick Under $500",
     name: "BOSGAME P4 Ultra Mini PC Ryzen 7 7730U 16GB DDR4 1TB PCIe SSD",
     price: "$429.00",
-    rating: "4.0 stars from Amazon ratings",
-    reviews: "608 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41vyA6W1KWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBYB71GJ?tag=deskfinds0d-20",
-    description: "The same efficient Ryzen 7 7730U with a large review base, appropriate for buyers wanting proven real-world reliability data at a budget-friendly price. Sitting just under GMKtec Gaming Mini PC Ryzen 7640HS, it's priced lower than GMKtec Gaming Mini PC Ryzen 7640HS. Here's the honest tradeoff: More moderate 4.0-star rating, verify current reviews for reliability reports. And here's what it gets you instead: Large review base for real-world reliability data. That's the real difference between the two picks, not just a ranking number. Worth knowing before you decide: 16GB RAM and 1TB SSD for genuine value at a budget-friendly price. On the other side, Confirm the exact RAM and storage variant matches this listing. That's the main tradeoff to weigh against everything above.",
+    description: "The same efficient Ryzen 7 7730U with a large review base, appropriate for buyers wanting proven real-world reliability data at a budget-friendly price. Sitting just under GMKtec Gaming Mini PC Ryzen 7640HS, it's priced lower than GMKtec Gaming Mini PC Ryzen 7640HS. And here's what it gets you instead: Large review base for real-world reliability data. That's the real difference between the two picks, not just a ranking number. Worth knowing before you decide: 16GB RAM and 1TB SSD for genuine value at a budget-friendly price. On the other side, Confirm the exact RAM and storage variant matches this listing. That's the main tradeoff to weigh against everything above.",
     specs: ["AMD Ryzen 7 7730U","16GB DDR4 RAM","1TB PCIe SSD","Large review base"],
     pros: ["Large review base for real-world reliability data","16GB RAM and 1TB SSD for genuine value under $500","Efficient U-class chip for always-on operation","Real price headroom under the $500 threshold"],
-    cons: ["More moderate 4.0-star rating, verify current reviews for reliability reports","Verify current price and configuration before purchase","Confirm the exact RAM and storage variant matches this listing"],
+    cons: ["Verify current price and configuration before purchase","Confirm the exact RAM and storage variant matches this listing"],
     bestFor: "Buyers wanting a proven, well-reviewed base with real value under $500",
   },
   {
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Actual current price and configuration verified per listing", description: "Verified each listing's actual current price and configuration rather than trusting a stale headline figure that may have changed." },
   { title: "Genuine processor tier weighted over the price point alone", description: "Weighted the genuine processor tier and generation more heavily than simply falling under the threshold." },
   { title: "Value-per-dollar assessed against RAM and storage configuration", description: "Assessed genuine value by comparing RAM, storage, and processor tier together, not price alone." },
-  { title: "Review base and rating consistency weighted for real-world confidence", description: "Weighted review base size and rating consistency for genuine confidence in reliability at this price point." },
+  { title: "Review base and rating consistency weighted for real-world confidence", description: "Weighted review base size and rating consistency for genuine confidence in reliability at this price point." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -226,11 +226,11 @@ export const faq: FaqItem[] = [
   { q: "Do mini PC prices under $500 change often?", a: "Yes, prices fluctuate meaningfully, always verify the current listed price on the actual product page before purchase." },
   { q: "Are all mini PCs under $500 similar in performance?", a: "No, the genuine processor tier and generation matters more than the price point alone, check the specific chip before buying." },
   { q: "Can I get a genuine flagship-tier chip under $500?", a: "Sometimes, some listings offer genuine Ryzen 9 or similar flagship-tier chips under $500, verify current pricing and reviews." },
-  { q: "Should I trust the RAM and storage specs in a review article?", a: "Verify them against the actual current listing, configurations can vary by variant even for the same product line." },
+  { q: "Should I trust the RAM and storage specs in a review article?", a: "Verify them against the actual current listing, configurations can vary by variant even for the same product line." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pcs-under-300", title: "Best Mini PCs Under $300 (2026)" },
   { href: "/guide/best-budget-mini-pcs", title: "Best Budget Mini PCs (2026)" },
-  { href: "/guide/best-mini-pcs-for-home-offices", title: "Best Mini PCs for Home Offices (2026)" },
+  { href: "/guide/best-mini-pcs-for-home-offices", title: "Best Mini PCs for Home Offices (2026)" }
 ];

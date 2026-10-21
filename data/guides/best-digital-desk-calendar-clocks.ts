@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital desk calendar clock";
 export const introParagraphs = [
   "This search term is nearly identical to \"digital desk clocks with calendars,\" which we cover as a separate guide with a clock-first framing. Here we widen the lens slightly to \"calendar-clock combo devices\" broadly, covering the same core products but without insisting the clock has to be the dominant feature.",
-  "If you specifically want the clock to be the star of the device, our digital desk clocks with calendars guide leads harder with that framing. Both guides pull from the same verified product pool, so treat them as two angles on the same buying decision rather than fully separate research.",
+  "If you specifically want the clock to be the star of the device, our digital desk clocks with calendars guide leads harder with that framing. Both guides pull from the same verified product pool, so treat them as two angles on the same buying decision rather than fully separate research."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "6 min";

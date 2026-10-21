@@ -2,11 +2,11 @@ export const guideSlug = "best-under-desk-bike-pedal-exerciser";
 export const guideTitle = "8 Best Under Desk Bike Pedal Exercisers in 2026";
 export const metaTitle = "Best Under Desk Bike Pedal Exercisers in 2026 (Quiet & Compact)";
 export const metaDescription =
-  "8 best under desk bike pedal exercisers in 2026, from a $31.64 budget pick to a quiet 3-in-1 magnetic design. Compare resistance, noise, and desk clearance.";
+  "8 best under desk bike pedal exercisers in 2026, from an under-$35 budget pick to a quiet 3-in-1 magnetic design. Compare resistance, noise, and desk clearance.";
 export const mainKeyword = "under desk bike pedal exerciser";
 export const introParagraphs = [
   "An under desk bike pedal exerciser is the simplest way to add movement to a workday, but the category ranges widely, from basic $30 friction-resistance units to app-connected magnetic models rated under 10dB. The gap between a good and a frustrating pick usually comes down to how much desk clearance it actually needs, how quiet the resistance mechanism is, and whether the pedal stride fits your foot size.",
-  "Below are 8 under desk bike pedal exercisers we evaluated on resistance type and range, noise level, footprint, and desk clearance, ranging from a $31.64 no-assembly budget pick to a $172.17 motorized model that pedals without active effort.",
+  "Below are 8 under desk bike pedal exercisers we evaluated on resistance type and range, noise level, footprint, and desk clearance, ranging from an under-$35 no-assembly budget pick to an under-$180 motorized model that pedals without active effort."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -57,18 +57,17 @@ export const products: GuideProduct[] = [
       "LCD: cycle count and calories",
       "Quick-release folding",
       "Non-skid rubber feet",
-      "5.4 lbs, works for arms or legs",
+      "5.4 lbs, works for arms or legs"
     ],
     pros: [
       "Most-reviewed pick in this entire guide",
       "Quick-release folding for easy storage",
       "Lightweight at 5.4 lbs",
-      "Works for both arms and legs",
+      "Works for both arms and legs"
     ],
     cons: [
       "Friction resistance is louder than magnetic designs in this guide",
-      "Only 5 resistance levels, fewer than the magnetic picks",
-      "4.2 rating is on the lower end for this guide",
+      "Only 5 resistance levels, fewer than the magnetic picks"
     ],
     bestFor: "Buyers who want the most proven, widely-used pick at a low price",
   },
@@ -83,24 +82,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41+7zbVyflL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07JFTQ2MS?tag=deskfinds0d-20",
     description:
-      "The himaly Mini uses magnetic belt-drive resistance across 8 levels, quieter than the friction-type designs common at this price point. An LCD covers time, count, calories, and distance, giving a fuller picture of each session than a basic counter.\n\nAnti-slip pedals and a non-slip base add stability, and at 4kg it's easy to lift and reposition. It works for both arms and legs, and it's the most-reviewed magnetic-resistance pick in this guide by a wide margin.\n\nA genuine advantage here is that quieter than friction-based designs. The tradeoff is 4.0 rating is the lowest in this guide.",
+      "The himaly Mini uses magnetic belt-drive resistance across 8 levels, quieter than the friction-type designs common at this price point. An LCD covers time, count, calories, and distance, giving a fuller picture of each session than a basic counter.\n\nAnti-slip pedals and a non-slip base add stability, and at 4kg it's easy to lift and reposition. It works for both arms and legs, and it's the most-reviewed magnetic-resistance pick in this guide by a wide margin.\n\nA genuine advantage here is that quieter than friction-based designs.",
     specs: [
       "Magnetic belt-drive resistance, 8 levels",
       "LCD: time, count, calories, distance",
       "Anti-slip pedal + non-slip base",
       "4kg, works for arms or legs",
-      "Quieter than friction-resistance designs",
+      "Quieter than friction-resistance designs"
     ],
     pros: [
       "Most-reviewed magnetic-resistance pick in this guide",
       "Quieter than friction-based designs",
       "More detailed LCD tracking than basic counters",
-      "Lightweight and easy to reposition",
+      "Lightweight and easy to reposition"
     ],
     cons: [
-      "4.0 rating is the lowest in this guide",
       "No app connectivity",
-      "Base may feel less sturdy than the heavier picks in this guide",
+      "Base may feel less sturdy than the heavier picks in this guide"
     ],
     bestFor: "Buyers who want a widely-used magnetic pick quieter than basic friction models",
   },
@@ -121,18 +119,17 @@ export const products: GuideProduct[] = [
       "5-function LCD: time, rev count, RPM, calories, scan",
       "No assembly required",
       "Foldable, non-slip base",
-      "5.82 lbs, works for arms or legs",
+      "5.82 lbs, works for arms or legs"
     ],
     pros: [
       "Cheapest pick in this entire guide",
       "No assembly required out of the box",
       "5-function LCD, more detailed than most budget picks",
-      "Foldable for easy storage",
+      "Foldable for easy storage"
     ],
     cons: [
       "Friction resistance is louder than magnetic designs",
-      "4.0 rating is tied for the lowest in this guide",
-      "Adjustable dial offers less precision than stepped resistance levels",
+      "Adjustable dial offers less precision than stepped resistance levels"
     ],
     bestFor: "Buyers who want the lowest price and zero assembly effort",
   },
@@ -153,18 +150,17 @@ export const products: GuideProduct[] = [
       "Bluetooth to SunnyFit App (1,000+ workouts, 10,000+ routes)",
       "Mesh belt-drive design for quieter operation",
       "LCD display",
-      "11.7 lbs, works for arms or legs",
+      "11.7 lbs, works for arms or legs"
     ],
     pros: [
       "Best app ecosystem among the budget picks in this guide",
       "16 stepless resistance levels for finer control",
-      "Mesh belt drive runs quieter than basic friction units",
-      "Strong 4.3 rating for this price range",
+      "Mesh belt drive runs quieter than basic friction units"
     ],
     cons: [
       "Pricier than the entry-level friction picks in this guide",
       "App dependency may not appeal to buyers who want a simple unit",
-      "Stepless resistance can feel less predictable than fixed levels",
+      "Stepless resistance can feel less predictable than fixed levels"
     ],
     bestFor: "Buyers who want app-based workout tracking without paying for a premium magnetic unit",
   },
@@ -185,18 +181,17 @@ export const products: GuideProduct[] = [
       "3-in-1: arms, legs, plus 20 lb resistance bands",
       "SunnyFit App, whisper-quiet",
       "Cordless/portable with floor stabilizer",
-      "20.5 lbs, max user weight 200 lbs",
+      "20.5 lbs, max user weight 200 lbs"
     ],
     pros: [
       "3-in-1 design adds resistance bands beyond pedaling",
       "Whisper-quiet magnetic resistance",
-      "Floor stabilizer adds stability during use",
-      "Strong 4.4 rating",
+      "Floor stabilizer adds stability during use"
     ],
     cons: [
       "Pricier than most picks in this guide",
       "200 lb max user weight is lower than some competing picks",
-      "Bulkier than the basic budget pedal exercisers",
+      "Bulkier than the basic budget pedal exercisers"
     ],
     bestFor: "Buyers who want pedaling plus resistance-band training in one unit",
   },
@@ -211,24 +206,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/317D79BdGEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07BDRFMZK?tag=deskfinds0d-20",
     description:
-      "The DeskCycle V2 runs magnetic resistance across 8 levels reaching up to 39 lbs of resistance, the strongest in this guide, driven by a high-inertia flywheel for a smoother pedal feel. Height adjusts from 9 to 10 inches to dial in fit under a specific desk, and it's rated to fit under desks as low as 27 inches.\n\nStrap-in pedals keep feet secure during faster resistance levels, and a detachable LCD stays visible without sitting underfoot. At 24.7 lbs with a 270 lb max user weight, it's the highest-rated pick in this entire guide and widely cited as an editor's pick across review sites.\n\nHighest-rated pick in this entire guide at 4.5 stars. Set against that, pricier than most picks in this guide. Both matter when comparing it to the other picks here.",
+      "The DeskCycle V2 runs magnetic resistance across 8 levels reaching up to 39 lbs of resistance, the strongest in this guide, driven by a high-inertia flywheel for a smoother pedal feel. Height adjusts from 9 to 10 inches to dial in fit under a specific desk, and it's rated to fit under desks as low as 27 inches.\n\nStrap-in pedals keep feet secure during faster resistance levels, and a detachable LCD stays visible without sitting underfoot. At 24.7 lbs with a 270 lb max user weight, it's the highest-rated pick in this entire guide and widely cited as an editor's pick across review sites.\n\nSet against that, pricier than most picks in this guide. Both matter when comparing it to the other picks here.",
     specs: [
       "Magnetic resistance, 8 levels, up to 39 lbs (strongest in this guide)",
       "High-inertia flywheel",
       "Height adjustable 9-10 inches, fits desks as low as 27 inches",
       "Detachable LCD, strap-in pedals",
-      "24.7 lbs, max user weight 270 lbs",
+      "24.7 lbs, max user weight 270 lbs"
     ],
     pros: [
       "Strongest resistance in this guide at up to 39 lbs",
-      "Highest-rated pick in this entire guide at 4.5 stars",
       "Adjustable height dials in desk clearance precisely",
-      "Strap-in pedals add security at higher resistance",
+      "Strap-in pedals add security at higher resistance"
     ],
     cons: [
       "Pricier than most picks in this guide",
       "Heavier than the basic budget picks",
-      "39 lbs of resistance may be more than casual users need",
+      "39 lbs of resistance may be more than casual users need"
     ],
     bestFor: "Buyers who want the strongest resistance range and the most widely recommended pick",
   },
@@ -249,18 +243,18 @@ export const products: GuideProduct[] = [
       "Rated under 10dB (quietest in this guide)",
       "Bluetooth to Kinomap and Zwift apps",
       "3-in-1: arms, legs, plus resistance bands",
-      "17.9 lbs, ships 95% pre-assembled",
+      "17.9 lbs, ships 95% pre-assembled"
     ],
     pros: [
       "Quietest pick in this guide at under 10dB",
       "16 resistance levels, tied for the most in this guide",
       "Connects to established fitness apps like Zwift",
-      "Ships 95% pre-assembled",
+      "Ships 95% pre-assembled"
     ],
     cons: [
       "220 lb max user weight is lower than the DeskCycle V2",
       "Smaller review sample than the top budget picks",
-      "3-in-1 design adds some bulk versus a pure pedal-only unit",
+      "3-in-1 design adds some bulk versus a pure pedal-only unit"
     ],
     bestFor: "Buyers who want the quietest possible operation and app-based structured workouts",
   },
@@ -281,21 +275,20 @@ export const products: GuideProduct[] = [
       "Remote control on 6-foot cord",
       "Automatic 15-minute timer",
       "Foldable pedals, floor mat included",
-      "Max user weight: 286 lbs",
+      "Max user weight: 286 lbs"
     ],
     pros: [
       "Only pick offering passive, motor-driven movement",
       "Remote control adjusts speed without bending down",
       "Works for both arms and legs",
-      "Includes a floor mat",
+      "Includes a floor mat"
     ],
     cons: [
       "Passive motion is a different workout than active pedaling",
-      "Most expensive pick in this guide",
-      "4.3 rating is on the lower end for this guide",
+      "Most expensive pick in this guide"
     ],
     bestFor: "Buyers recovering from an injury who want passive movement rather than active pedaling",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +316,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed resistance range, app connectivity, and build quality against price, from the Wakeman to the Exerpeutic 2000M.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,11 +470,11 @@ export const faq: FaqItem[] = [
   {
     q: "Is there a motorized option that doesn't require active pedaling?",
     a: "Yes, the Exerpeutic 2000M is the only motorized pick in this guide, using an electric motor to move the pedals for you. It's a good fit for anyone recovering from an injury or who wants passive movement rather than an active pedaling workout.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-under-desk-elliptical", title: "Best Under Desk Ellipticals (2026)" },
   { href: "/guide/best-under-desk-elliptical-for-seniors", title: "Best Under Desk Ellipticals for Seniors (2026)" },
-  { href: "/guide/best-adjustable-under-desk-footrests", title: "Best Adjustable Under Desk Footrests (2026)" },
+  { href: "/guide/best-adjustable-under-desk-footrests", title: "Best Adjustable Under Desk Footrests (2026)" }
 ];

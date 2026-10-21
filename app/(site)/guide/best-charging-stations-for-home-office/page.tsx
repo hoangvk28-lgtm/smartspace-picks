@@ -247,7 +247,7 @@ export default async function HomeOfficeChargingPage() {
                 {[
                   { zone: "Monitor Zone", items: "Monitor, speakers" },
                   { zone: "Work Zone", items: "Keyboard, mouse, notebook, coffee" },
-                  { zone: "Charging Zone", items: "Charging hub, phone, watch" },
+                  { zone: "Charging Zone", items: "Charging hub, phone, watch" }
                 ].map((item, i) => (
                   <div key={i} className={`p-3 rounded-lg border text-center ${i === 2 ? "border-brand/30 bg-brand/5" : "border-border bg-bg"}`}>
                     <p className="font-bold text-ink text-xs mb-1">{item.zone}</p>
@@ -265,7 +265,7 @@ export default async function HomeOfficeChargingPage() {
                 {[
                   { item: "Short cables (30cm)", desc: "between the hub and devices sitting in the charging zone -- no slack" },
                   { item: "Desk cable clips", desc: "(adhesive, $5--8 pack on Amazon) route the hub's power cord along the desk's back edge to the wall" },
-                  { item: "Hub placement behind monitor", desc: "-- the hub disappears behind the monitor stand, with only device cables visible in the charging zone" },
+                  { item: "Hub placement behind monitor", desc: "-- the hub disappears behind the monitor stand, with only device cables visible in the charging zone" }
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-3 p-3 rounded-lg border border-border bg-bg">
                     <span className="font-bold text-brand text-xs shrink-0 mt-0.5">{item.item}</span>
@@ -312,7 +312,7 @@ export default async function HomeOfficeChargingPage() {
             {[
               { product: "Anker Prime 200W", context: "For most home offices", verdict: "covers any laptop alongside a full device ecosystem, runs completely silent, and discounts regularly to ~$50 -- the easiest recommendation in this guide.", href: "#best-overall" },
               { product: "UGREEN Nexode 200W", context: "MacBook Pro 16\" users", verdict: "is the only compact hub that delivers 140W to the laptop at full speed, full stop.", href: "#best-macbook-pro" },
-              { product: "TESSAN 130W 8-in-1", context: "Budget-conscious full setups", verdict: "at ~$28--38 delivers GaN efficiency, three AC outlets, and laptop-capable USB-C from one hub at a price that undercuts every other option by 40--60%.", href: "#best-value" },
+              { product: "TESSAN 130W 8-in-1", context: "Budget-conscious full setups", verdict: "at ~$28--38 delivers GaN efficiency, three AC outlets, and laptop-capable USB-C from one hub at a price that undercuts every other option by 40--60%.", href: "#best-value" }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
@@ -340,7 +340,7 @@ export default async function HomeOfficeChargingPage() {
               { href: "/guide/best-charging-stations-for-desk", title: "Best Charging Stations for Desk", desc: "Full pillar guide across all categories" },
               { href: "/guide/best-charging-stations-for-multiple-devices-desk", title: "Best Multi-Device Charging Stations", desc: "When device count is the priority" },
               { href: "/guide/best-docking-stations-for-desk-setup", title: "Best Docking Stations for Desk Setup", desc: "One-cable desk connectivity with monitor support" },
-              { href: "/guide/under-desk-charging-station", title: "Best Under-Desk Charging Stations", desc: "Remove the charger from the desk surface entirely" },
+              { href: "/guide/under-desk-charging-station", title: "Best Under-Desk Charging Stations", desc: "Remove the charger from the desk surface entirely" }
             ].map((g) => (
               <Link prefetch={false} key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
                 <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">

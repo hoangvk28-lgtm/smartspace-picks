@@ -12,7 +12,7 @@ export const drawingTabletDeskSetupErgonomicsGuide: Guide = {
     "wrist strain drawing tablet",
     "tablet placement for drawing posture",
     "digital art desk setup ergonomics",
-    "avoiding hand fatigue drawing tablet",
+    "avoiding hand fatigue drawing tablet"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const drawingTabletDeskSetupErgonomicsGuide: Guide = {
     "drawing-tablet-size-guide",
     "wrist-rest-explained",
     "monitor-distance-and-height-for-eye-comfort",
-    "20-20-20-rule-explained",
+    "20-20-20-rule-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const drawingTabletDeskSetupErgonomicsGuide: Guide = {
       question: "How often should I take breaks during extended drawing sessions?",
       answer:
         "Similar general guidance to other repetitive desk activities applies, taking a short break every 30-60 minutes to stretch your hand, wrist, and arm helps prevent the cumulative strain that can develop from extended continuous drawing sessions.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const drawingTabletDeskSetupErgonomicsGuide: Guide = {
     {
       heading: "Why Tablet Placement Should Mirror Good Mouse Ergonomics",
       body: `Since a standard drawing tablet functions similarly to a mouse in terms of desk positioning, you're operating it with your hand at desk level while looking at a separate monitor, the same ergonomic principles that apply to proper mouse placement apply directly to tablet placement, positioned close enough to avoid excessive reaching, directly in front of your natural hand resting position rather than at an awkward angle, and at a height allowing your wrist to remain in a relatively neutral position rather than bent upward or downward during use.`,
-    },
+    }
   ],
 };

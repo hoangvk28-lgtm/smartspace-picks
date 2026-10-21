@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "ergonomic keyboard and mouse set";
 export const introParagraphs = [
   "Most products sold as an \"ergonomic keyboard and mouse set\" are not built the same way. Some pair a genuinely curved or split keyboard with a sculpted mouse designed to reduce wrist strain, while others are standard flat wireless combos with the word ergonomic added to the listing title. This guide evaluates both types honestly, and none of the mice included here are true vertical mice, so if pronation relief from the mouse specifically is your priority, a dedicated vertical mouse purchased separately will do more for you than any set.",
-  "Below are 8 keyboard and mouse sets we evaluated on whether the keyboard is actually curved or split, whether the paired mouse offers any real ergonomic shape, receiver type, and price, ranging from a $19.99 budget silent combo to a $59.99 wave-style set.",
+  "Below are 8 keyboard and mouse sets we evaluated on whether the keyboard is actually curved or split, whether the paired mouse offers any real ergonomic shape, receiver type, and price, ranging from an under-$20 budget silent combo to an under-$60 wave-style set."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -195,7 +195,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed real ergonomic benefit, connection type, and build quality against price, from the budget curved combos to the true split keyboard.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -359,13 +359,13 @@ export const faq: FaqItem[] = [
   },
   {
     q: "Which set gives the best value for a genuinely ergonomic setup?",
-    a: "The Perixx PERIBOARD-512B offers the cheapest true split layout at $44.99, though you'll still need to pair a mouse separately for a fully ergonomic setup. For the lowest-cost matched keyboard-and-mouse pair with at least mild curve benefit, the $19.99 budget combos are the better starting point.",
-  },
+    a: "The Perixx PERIBOARD-512B offers the cheapest true split layout at under $45, though you'll still need to pair a mouse separately for a fully ergonomic setup. For the lowest-cost matched keyboard-and-mouse pair with at least mild curve benefit, the under $20 budget combos are the better starting point.",
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-ergonomic-keyboards-amazon-best-sellers", title: "Best Ergonomic Keyboards Amazon Best Sellers (2026)" },
   { href: "/guide/best-split-ergonomic-keyboards", title: "Best Split Ergonomic Keyboards (2026)" },
   { href: "/guide/best-ergonomic-keyboard-and-mouse-combos", title: "Best Ergonomic Keyboard and Mouse Combos (2026)" },
-  { href: "/guide/best-ergonomic-keyboards", title: "Best Ergonomic Keyboards (2026)" },
+  { href: "/guide/best-ergonomic-keyboards", title: "Best Ergonomic Keyboards (2026)" }
 ];

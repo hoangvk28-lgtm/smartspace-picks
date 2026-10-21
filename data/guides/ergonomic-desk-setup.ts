@@ -42,11 +42,11 @@ export const products: ErgoProduct[] = [
       "3 adjustable heights (3.9\", 4.7\", 5.5\") -- covers most monitor gaps",
       "Storage space underneath for keyboard, accessories",
       "Vented metal platform -- better airflow for laptops",
-      "No tools needed, assembles in minutes",
+      "No tools needed, assembles in minutes"
     ],
     cons: [
       { text: "Fixed height increments -- not infinitely adjustable", severity: "minor" },
-      { text: "Plastic feet can slide on very smooth desks", severity: "minor" },
+      { text: "Plastic feet can slide on very smooth desks", severity: "minor" }
     ],
     skipIf: "You need precise height dialing or frequently change your monitor position -- use a monitor arm instead.",
   },
@@ -65,11 +65,11 @@ export const products: ErgoProduct[] = [
       "Infinite height + tilt + depth adjustment for both screens",
       "Clears full desk surface beneath monitors",
       "Handles two monitors independently -- different angles each",
-      "C-clamp fits desks up to 3.25\" thick",
+      "C-clamp fits desks up to 3.25\" thick"
     ],
     cons: [
       { text: "Requires desk edge at least 1\" thick to clamp securely", severity: "major" },
-      { text: "IKEA LINNMON and thin MDF tops can crack under sustained clamp pressure", severity: "major" },
+      { text: "IKEA LINNMON and thin MDF tops can crack under sustained clamp pressure", severity: "major" }
     ],
     skipIf: "Your desk top is thin MDF or glass -- use a grommet mount or monitor riser instead.",
   },
@@ -88,11 +88,11 @@ export const products: ErgoProduct[] = [
       "6 height positions -- brings screen to monitor level",
       "Folds flat in seconds, portable and lightweight",
       "Open vented design improves laptop thermals",
-      "Rubber grips prevent sliding on desk and laptop",
+      "Rubber grips prevent sliding on desk and laptop"
     ],
     cons: [
       { text: "Requires separate external keyboard and mouse to be usable", severity: "minor" },
-      { text: "Lightweight frame can shift slightly when adjusting laptop lid", severity: "minor" },
+      { text: "Lightweight frame can shift slightly when adjusting laptop lid", severity: "minor" }
     ],
     skipIf: "You use a docking station with an external monitor -- raising the laptop screen adds no ergonomic value if it's not your main display.",
   },
@@ -111,11 +111,11 @@ export const products: ErgoProduct[] = [
       "Corrects dangling feet at any fixed-height desk",
       "Adjustable angle (15° to 30°) for different height gaps",
       "Non-slip bottom stays in position during the day",
-      "Slides under desk when not in use",
+      "Slides under desk when not in use"
     ],
     cons: [
       { text: "Takes up floor space in tight rooms", severity: "minor" },
-      { text: "Memory foam compresses 10--20% after 12--18 months of daily use", severity: "minor" },
+      { text: "Memory foam compresses 10--20% after 12--18 months of daily use", severity: "minor" }
     ],
     skipIf: "You already use a height-adjustable standing desk with a chair that sets independently correct positioning.",
   },
@@ -134,11 +134,11 @@ export const products: ErgoProduct[] = [
       "Physically defines the keyboard + mouse zone -- enforces correct side-by-side positioning",
       "Felt surface cushions wrists during rest between typing",
       "35\" length covers keyboard and mouse in one surface",
-      "Non-slip base keeps layout stable",
+      "Non-slip base keeps layout stable"
     ],
     cons: [
       { text: "Felt surface absorbs stains -- not suitable for eating at desk", severity: "minor" },
-      { text: "Premium price for a mat", severity: "minor" },
+      { text: "Premium price for a mat", severity: "minor" }
     ],
     skipIf: "You use a keyboard tray mounted below the desk -- the mat's positioning benefit is already handled by the tray.",
   },
@@ -157,11 +157,11 @@ export const products: ErgoProduct[] = [
       "Asymmetric lens lights the desk without reflecting on the screen",
       "Zero desk footprint -- clips directly on monitor top",
       "USB-A powered from monitor -- no extra cables",
-      "Touch control for brightness and color temperature",
+      "Touch control for brightness and color temperature"
     ],
     cons: [
       { text: "Requires flat monitor top -- does not fit curved monitors", severity: "major" },
-      { text: "USB-A only -- no USB-C or direct outlet option", severity: "minor" },
+      { text: "USB-A only -- no USB-C or direct outlet option", severity: "minor" }
     ],
     skipIf: "You use a curved monitor or your monitor is under 17 inches -- the clip may not seat correctly.",
   },
@@ -180,14 +180,14 @@ export const products: ErgoProduct[] = [
       "Built-in ambient light sensor auto-dims to match room brightness",
       "35\" wide beam covers full desk without hot spots",
       "CRI 95 -- accurate color rendering, less eye fatigue",
-      "Dual smart modes: reading mode and relax mode",
+      "Dual smart modes: reading mode and relax mode"
     ],
     cons: [
       { text: "Premium price -- highest cost item in the setup", severity: "minor" },
-      { text: "Base footprint is 6x6\" -- takes desk space unlike a clamp lamp", severity: "minor" },
+      { text: "Base footprint is 6x6\" -- takes desk space unlike a clamp lamp", severity: "minor" }
     ],
     skipIf: "Your desk already has adequate ambient lighting or you primarily use a monitor light bar -- the BenQ adds value mainly when the room itself is poorly lit.",
-  },
+  }
 ];
 
 export const atAGlanceItems = products.map((p) => ({
@@ -208,7 +208,7 @@ export const auditChecklist = [
   { label: "Elbows at ~90° when typing?", fix: "Adjust chair height first, then desk accessories" },
   { label: "Feet flat on floor (or a footrest)?", fix: "Add a footrest if feet dangle" },
   { label: "Screen 20–28 inches from your eyes?", fix: "Move monitor back or use a riser to push it further" },
-  { label: "Wrists neutral -- not bent up or down when typing?", fix: "Lower keyboard or use a wrist rest when resting" },
+  { label: "Wrists neutral -- not bent up or down when typing?", fix: "Lower keyboard or use a wrist rest when resting" }
 ];
 
 export const diagramRows = [
@@ -219,25 +219,25 @@ export const diagramRows = [
   { position: "Mouse position", correct: "Same surface level as keyboard, close to the body" },
   { position: "Feet", correct: "Flat on floor or footrest -- no dangling" },
   { position: "Back", correct: "Lumbar supported, slight recline 100–110°" },
-  { position: "Neck", correct: "Neutral, not forward-leaning -- head over shoulders" },
+  { position: "Neck", correct: "Neutral, not forward-leaning -- head over shoulders" }
 ];
 
 export const budgetTiers = [
   {
     label: "Under $60",
-    products: ["Laptop Stand ($30)", "Footrest ($33)"],
+    products: ["Laptop Stand ($30)", "Footrest (under $35)"],
     note: "Solves the two most common ergonomic problems: screen too low and feet dangling.",
   },
   {
     label: "Under $120",
-    products: ["+ Monitor Riser ($26)", "+ Monitor Light Bar ($35)"],
+    products: ["+ Monitor Riser (under $30)", "+ Monitor Light Bar ($35)"],
     note: "Adds correct monitor height and removes screen glare from your setup.",
   },
   {
     label: "Full setup",
-    products: ["+ Desk Mat ($42)", "+ BenQ Desk Lamp ($100)"],
+    products: ["+ Desk Mat (under $45)", "+ BenQ Desk Lamp ($100)"],
     note: "Complete ergonomic baseline: positioning, lighting, and keyboard zone all addressed.",
-  },
+  }
 ];
 
 export const faq: { question: string; answer: string }[] = [
@@ -270,5 +270,5 @@ export const faq: { question: string; answer: string }[] = [
     question: "Can a bad desk setup cause carpal tunnel syndrome?",
     answer:
       "A bad setup does not directly cause carpal tunnel syndrome, but sustained wrist extension -- wrists bent upward while typing -- is a recognized risk factor. If your keyboard sits on top of a high desk and you type with bent wrists for several hours daily, that sustained pressure on the median nerve contributes to cumulative strain over months and years. Keeping wrists neutral while typing and using a wrist rest only during breaks (not while actively typing) significantly reduces that risk.",
-  },
+  }
 ];

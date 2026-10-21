@@ -47,20 +47,20 @@ export const products: Budget100Headphone[] = [
     whyItWorks:
       "Sony Dual Noise Sensor Technology with Integrated Processor V1 handles mid-to-high frequency noise (voices, keyboard sounds, ambient chatter) more effectively than the primarily low-frequency ANC of budget brands; this is the same core ANC architecture as the WH-1000XM5 at $350, scaled down; 35 hours with ANC on; Quick Charge delivers 60 minutes from 3 minutes of charging; multipoint Bluetooth; 192g (lightest full-size ANC headphone in the guide); Sony Headphones Connect app with adaptive sound control; MSRP $179 but frequently discounts to $80 to $100",
     tradeoffs: [
-      "MSRP $179, only under $100 on sale, verify price before purchasing",
+      "MSRP $179, under $100 on sale, verify price before purchasing",
       "No LDAC codec (AAC max)",
       "30mm drivers smaller than 40mm alternatives",
-      "No carrying case",
+      "No carrying case"
     ],
     skipIf:
-      "Current price is above $100. The Soundcore Life Q30 at $64 to $80 is the reliable sub-$80 alternative.",
+      "Current price is above $100. The Soundcore Life Q30 at under $70 to $80 is the reliable sub-$80 alternative.",
     pros: [
       "Sony Integrated Processor V1 ANC handles voices and mid-frequency noise",
       "35h battery with ANC on",
       "Quick Charge (3 min = 60 min)",
       "Multipoint Bluetooth",
       "Lightest at 192g",
-      "USB-C charging",
+      "USB-C charging"
     ],
     cons: ["MSRP $179, verify price", "No LDAC", "30mm drivers", "No carrying case"],
   },
@@ -82,7 +82,7 @@ export const products: Budget100Headphone[] = [
     tradeoffs: [
       "ANC handles low-frequency noise better than voices",
       "Bluetooth 5.0 (older spec)",
-      "Heavier than Sony CH720N",
+      "Heavier than Sony CH720N"
     ],
     skipIf:
       "You want Sony's voice-handling ANC specifically. The Sony WH-CH720N handles mid-frequency and voice noise more effectively when at sale price.",
@@ -91,7 +91,7 @@ export const products: Budget100Headphone[] = [
       "50h with ANC on / 70h without",
       "Hi-Res Audio certified",
       "Multipoint Bluetooth",
-      "USB-C, reliably sub-$80",
+      "USB-C, reliably sub-$80"
     ],
     cons: ["ANC weaker on voices", "Bluetooth 5.0", "Heavier build"],
   },
@@ -113,7 +113,7 @@ export const products: Budget100Headphone[] = [
     tradeoffs: [
       "No inline microphone",
       "Wired only",
-      "Flat neutral tuning feels boring to users expecting bass emphasis",
+      "Flat neutral tuning feels boring to users expecting bass emphasis"
     ],
     skipIf:
       "You need wireless. There is no wireless equivalent under $100 that matches professional studio monitoring accuracy.",
@@ -123,7 +123,7 @@ export const products: Budget100Headphone[] = [
       "CCAW voice coils faster transient response",
       "Flat neutral monitoring tuning",
       "No battery to manage",
-      "Audio-Technica M-Series professional heritage",
+      "Audio-Technica M-Series professional heritage"
     ],
     cons: ["No inline mic", "Wired only", "Flat tuning not consumer-friendly"],
   },
@@ -145,7 +145,7 @@ export const products: Budget100Headphone[] = [
     tradeoffs: [
       "Price range $70 to $100, verify it is under $100 at time of purchase",
       "No multipoint Bluetooth (single device)",
-      "1MORE less recognized than Sony or Sennheiser",
+      "1MORE less recognized than Sony or Sennheiser"
     ],
     skipIf:
       "You need multipoint Bluetooth. The Life Q30 and Sony CH720N both handle dual-device connection.",
@@ -154,12 +154,12 @@ export const products: Budget100Headphone[] = [
       "LDAC + DLC driver for Hi-Res audio quality",
       "Bluetooth 5.3",
       "USB-C charging",
-      "Hi-Res Audio certified",
+      "Hi-Res Audio certified"
     ],
     cons: [
       "Verify price under $100",
       "No multipoint Bluetooth",
-      "1MORE smaller support network",
+      "1MORE smaller support network"
     ],
   },
   {
@@ -180,7 +180,7 @@ export const products: Budget100Headphone[] = [
     tradeoffs: [
       "No inline microphone",
       "Mini-XLR connector is non-standard, replacement cables less common",
-      "Analytical tuning not for casual bass-heavy listening",
+      "Analytical tuning not for casual bass-heavy listening"
     ],
     skipIf:
       "You primarily need portable wireless commuting. The Sony WH-CH720N or Life Q30 are better wireless picks.",
@@ -189,7 +189,7 @@ export const products: Budget100Headphone[] = [
       "Three detachable cables in box",
       "Mini-XLR locking connector",
       "28kHz frequency extension",
-      "AKG Harman professional monitor tuning",
+      "AKG Harman professional monitor tuning"
     ],
     cons: ["No inline mic", "Mini-XLR non-standard", "Analytical sound not for casual listening"],
   },
@@ -212,7 +212,7 @@ export const products: Budget100Headphone[] = [
       "3m coiled cable not practical for portable use",
       "285g, heaviest headphone in the guide",
       "64 Ohm impedance benefits from a headphone amp",
-      "No detachable cable",
+      "No detachable cable"
     ],
     skipIf:
       "You need wireless or portable use. The HD 280 Pro is strictly a fixed-desk or studio tool.",
@@ -221,13 +221,13 @@ export const products: Budget100Headphone[] = [
       "20+ years in continuous production",
       "Industry standard for broadcast and podcast",
       "No battery or ANC to fail",
-      "8Hz to 25kHz frequency response",
+      "8Hz to 25kHz frequency response"
     ],
     cons: [
       "3m coiled cable only",
       "285g, heaviest in guide",
       "64 Ohm benefits from dedicated amp",
-      "No detachable cable",
+      "No detachable cable"
     ],
   },
   {
@@ -248,7 +248,7 @@ export const products: Budget100Headphone[] = [
     tradeoffs: [
       "LDAC limited to Android, iPhone users get AAC only",
       "Adaptive ANC gives less user control than Life Q30's manual modes",
-      "No carrying case",
+      "No carrying case"
     ],
     skipIf:
       "You use an iPhone. LDAC does not work on iOS, and the Sony WH-CH720N or Life Q30 are better iOS picks.",
@@ -258,10 +258,10 @@ export const products: Budget100Headphone[] = [
       "Bluetooth 5.3",
       "Improved voice reduction",
       "Multipoint Bluetooth",
-      "40h with ANC on",
+      "40h with ANC on"
     ],
     cons: ["LDAC limited to Android", "Less user control vs manual ANC modes", "No carrying case"],
-  },
+  }
 ];
 
 export const atAGlanceRows = products.map((p) => ({
@@ -295,11 +295,11 @@ export const faq = [
   {
     q: "Which headphone under $100 is best for Mac?",
     a: "The Sony WH-CH720N connects cleanly to Mac via Bluetooth with AAC codec. The Soundcore Life Q30 and Space One also work on Mac with standard SBC or AAC. For wired Mac use, the ATH-M40x or Sennheiser HD 280 Pro connect via the 3.5mm jack on any adapter or audio interface.",
-  },
+  }
 ];
 
 export const relatedGuides = [
   { href: "/guide/best-headphones-under-70", title: "Best Headphones Under $70" },
   { href: "/guide/best-headset-for-work", title: "Best Headset for Work" },
-  { href: "/guide/best-headphones-for-gaming", title: "Best Headphones for Gaming" },
+  { href: "/guide/best-headphones-for-gaming", title: "Best Headphones for Gaming" }
 ];

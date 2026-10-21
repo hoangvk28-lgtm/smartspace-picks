@@ -224,7 +224,7 @@ export default async function SmallDeskSetupPage() {
               { href: "#rolling-cart", label: "13. Rolling cart" },
               { href: "#pegboard", label: "14. Pegboard" },
               { href: "#mistakes", label: "Mistakes to avoid" },
-              { href: "#faq", label: "FAQ" },
+              { href: "#faq", label: "FAQ" }
             ].map((item) => (
               <a
                 key={item.href}
@@ -272,7 +272,7 @@ export default async function SmallDeskSetupPage() {
               { label: "Space efficiency", note: "Does the product reduce the desk footprint or use vertical/under-desk space?" },
               { label: "Setup complexity", note: "Can it be installed in under 10 minutes without tools?" },
               { label: "Reversibility", note: "Can it be removed or repositioned without damaging the desk?" },
-              { label: "Value", note: "Is the improvement proportional to the cost for a small-desk setup?" },
+              { label: "Value", note: "Is the improvement proportional to the cost for a small-desk setup?" }
             ].map((c, i) => (
               <div key={i} className="flex items-start gap-2">
                 <span className="w-5 h-5 rounded-full bg-brand-muted text-brand flex items-center justify-center shrink-0 font-bold text-[10px] mt-0.5">
@@ -327,7 +327,7 @@ export default async function SmallDeskSetupPage() {
               { href: "/guide/desk-setup-essentials", title: "Desk Setup Essentials", desc: "15 must-have items for any desk setup" },
               { href: "/guide/small-desk-organization-ideas", title: "Small Desk Organization Ideas", desc: "How to keep a small desk clutter-free" },
               { href: "/guide/best-desk-setup-accessories", title: "Best Desk Setup Accessories", desc: "Top picks across 9 accessory categories" },
-              { href: "/guide/best-under-desk-cable-trays", title: "Best Under-Desk Cable Trays", desc: "Hide cables and reclaim your desk surface" },
+              { href: "/guide/best-under-desk-cable-trays", title: "Best Under-Desk Cable Trays", desc: "Hide cables and reclaim your desk surface" }
             ].map((g) => (
               <Link prefetch={false}
                 key={g.href}

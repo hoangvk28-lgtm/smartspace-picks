@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook real paper";
 export const introParagraphs = [
   "\"Paper-based digital notebook\" is a genuinely different product category from the E Ink tablets in our feel-like-paper guide: these use real paper pages, and the \"digital\" part comes from scanning the page into an app, not from a screen. Every current result for this search is a Rocketbook.",
-  "We separated this from reusable notebooks and small notebooks by focusing specifically on the capture accuracy and page compatibility of the scan-to-app step, since that's the part unique to real-paper products.",
+  "We separated this from reusable notebooks and small notebooks by focusing specifically on the capture accuracy and page compatibility of the scan-to-app step, since that's the part unique to real-paper products."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41DUQEUXetL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHZ82DK?tag=deskfinds0d-20",
     description: "Real paper pages captured through the Rocketbook app, with the highest review count and rating of any product we found for this search. The undated planner templates work alongside blank capture pages.\n\nIt earns the top spot in this comparison over Rocketbook Fusion Hybrid Reusable Planner Notebook for one main reason. Largest review base and highest rating in this category. On price, it's actually priced above Rocketbook Fusion Hybrid Reusable Planner Notebook, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Combines planner templates with free-write capture pages. On the other side, Full letter size, not compact. That's the main tradeoff to weigh against everything above.",
-    specs: ["Letter size, real paper pages","Scan-to-app capture via Rocketbook app","26,593 reviews at 4.6 stars"],
+    specs: ["Letter size, real paper pages","Scan-to-app capture via Rocketbook app"],
     pros: ["Largest review base and highest rating in this category","Combines planner templates with free-write capture pages"],
     cons: ["Requires the Rocketbook app and a FriXion pen to work as intended","Full letter size, not compact"],
     bestFor: "Buyers who want the most proven real-paper capture notebook available.",
@@ -47,7 +47,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41VG6OVaZCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHYZ32M?tag=deskfinds0d-20",
     description: "Same real-paper capture concept in the smaller Executive size, with a nearly-as-large review base as the letter-size version above.\n\nOne spot below Rocketbook Fusion Reusable Undated Productivity Planner in this ranking, it's priced lower than Rocketbook Fusion Reusable Undated Productivity Planner. The compromise here is straightforward: Smaller page means less capture area before you need to erase. What you gain in return: Massive proven review base for a smaller-format option. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: More portable than the letter-size Fusion. On the other side, Smaller page means less capture area before you need to erase. That's the main tradeoff to weigh against everything above.",
-    specs: ["6 x 8.8 in","Scan-to-app capture via Rocketbook app","23,751 reviews at 4.4 stars"],
+    specs: ["6 x 8.8 in","Scan-to-app capture via Rocketbook app"],
     pros: ["Massive proven review base for a smaller-format option","More portable than the letter-size Fusion"],
     cons: ["Smaller page means less capture area before you need to erase"],
     bestFor: "Buyers who want the proven capture technology in a more portable size.",
@@ -62,8 +62,8 @@ export const products: GuideProduct[] = [
     reviews: "11,065",
     imageUrl: "https://m.media-amazon.com/images/I/41E9SFRPDeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CZF628C?tag=deskfinds0d-20",
-    description: "The cheapest real-paper capture notebook we tracked, still backed by over 11,000 reviews, in a mini spiral format for quick capture rather than planning.\n\nSitting just under Rocketbook Fusion Hybrid Reusable Planner Notebook, it's priced lower than Rocketbook Fusion Hybrid Reusable Planner Notebook. Here's the honest tradeoff: Small page limits how much can be captured per page. And here's what it gets you instead: Lowest price of any product in this comparison. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Very large, well-established review base. On the other side, No planner templates, plain pages only. That's the main tradeoff to weigh against everything above.",
-    specs: ["Mini spiral-bound","Scan-to-app capture via Rocketbook app","11,065 reviews at 4.4 stars"],
+    description: "Sitting just under Rocketbook Fusion Hybrid Reusable Planner Notebook, it's priced lower than Rocketbook Fusion Hybrid Reusable Planner Notebook. Here's the honest tradeoff: Small page limits how much can be captured per page. And here's what it gets you instead: Lowest price of any product in this comparison. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Very large, well-established review base. On the other side, No planner templates, plain pages only. That's the main tradeoff to weigh against everything above.",
+    specs: ["Mini spiral-bound","Scan-to-app capture via Rocketbook app"],
     pros: ["Lowest price of any product in this comparison","Very large, well-established review base"],
     cons: ["Small page limits how much can be captured per page","No planner templates, plain pages only"],
     bestFor: "Buyers who want low-cost, proven real-paper capture without planner features.",
@@ -95,7 +95,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/416XcHl7ssL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLPPZZJL?tag=deskfinds0d-20",
     description: "The newer template revision of the Fusion line at Executive size, with real-paper capture and updated page layouts.\n\nOne spot below Rocketbook Core Reusable Smart Notebook in this ranking, it costs more than Rocketbook Core Reusable Smart Notebook. The compromise here is straightforward: Smaller review base than the standard Fusion at the same size. What you gain in return: Newest template set in the lineup. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Same proven capture technology as the rest of the Fusion line. On the other side, Costs more than the standard Fusion Hybrid. That's the main tradeoff to weigh against everything above.",
-    specs: ["6 x 8.8 in","Fusion Plus template revision","3,200 reviews at 4.4 stars"],
+    specs: ["6 x 8.8 in","Fusion Plus template revision"],
     pros: ["Newest template set in the lineup","Same proven capture technology as the rest of the Fusion line"],
     cons: ["Smaller review base than the standard Fusion at the same size","Costs more than the standard Fusion Hybrid"],
     bestFor: "Buyers who want the newest template layout on real paper.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Real paper as the writing surface", description: "We only included products where the actual pages are physical paper, captured via a scanning app, rather than E Ink tablets that merely visually resemble paper." },
   { title: "Capture reliability via review volume", description: "Since the app-based scan step is where real-paper capture can fail (missed pages, poor OCR), we weighted review count heavily as the best available evidence." },
   { title: "Plain pages vs. planner templates", description: "We noted which products are Fusion (built-in planner templates) versus Core (plain dot-grid), since that changes what kind of capture workflow each is suited for." },
-  { title: "Price against proven track record", description: "We flagged where a newer, more expensive template revision (Fusion Plus) has a smaller review base than the cheaper, older standard Fusion." },
+  { title: "Price against proven track record", description: "We flagged where a newer, more expensive template revision (Fusion Plus) has a smaller review base than the cheaper, older standard Fusion." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,12 +242,13 @@ export const faq: FaqItem[] = [
   { q: "Is this different from your \"feels like paper\" guide?", a: "Yes. That guide covers E Ink tablets with a screen. This one covers real paper pages captured with a scanning app, which is a genuinely different product category." },
   { q: "How reliable is the scan-to-app capture?", a: "We used review count as the best evidence available, since that's where quirks in this workflow would surface. The Fusion line has the largest, most established review base." },
   { q: "Do I need a special pen?", a: "Yes, Pilot FriXion pens are required for the pages to erase correctly." },
-  { q: "What's the cheapest option here?", a: "The Rocketbook Mini Spiral Notebook at $14.99, backed by over 11,000 reviews." },
+  
   { q: "Can I get planner templates with real-paper capture?", a: "Yes, the Fusion and Fusion Plus lines include built-in planner and calendar templates alongside capture pages." },
+  { q: "How do I erase a Rocketbook page when it is full?", a: "Reusable pages are wiped with a slightly damp cloth, and the ink should clear from the surface. After scanning with the app, pages can be cleaned and reused. Wait until the ink is fully dry before wiping or the writing may smear, and avoid soaking the page." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks-that-feel-like-paper", title: "Best Digital Notebooks That Feel Like Paper (2026)" },
   { href: "/guide/best-reusable-digital-notebooks", title: "Best Reusable Digital Notebooks (2026)" },
-  { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" },
+  { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" }
 ];

@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This stand's aircraft-grade aluminum alloy construction supports up to 2.42 lbs, a specifically stated load capacity that gives you a concrete number to check against your device's actual weight, unlike vague 'sturdy' claims. Its scientific base design ensures stability even with heavier devices, and integrated cable clips keep your workspace organized and clutter-free.\n\nCompared to the UGREEN pick below, this one specifically addresses iPad sagging or falling issues by letting you tighten the joint screws with an included wrench until the stand securely holds your device, a direct solution to a common tablet stand complaint. Its 4.7 to 15.6 inch compatibility covers devices from phones through larger tablets.\n\nBest for buyers who want a stated load capacity with a direct fix for sagging or falling issues.",
     specs: ["4.7-15.6in device range, 2.42 lb load capacity", "Aircraft-grade aluminum alloy", "Adjustable joint with included wrench, cable clips"],
     pros: ["Specifically stated 2.42 lb load capacity for concrete planning", "Direct fix for iPad sagging issues via adjustable joint tightening", "Integrated cable clips keep your workspace organized"],
-    cons: ["Slightly over this tier's stated ceiling at $31.99", "Explicitly for tabletop use only, not headboards"],
+    cons: ["Slightly over this tier's stated ceiling at under $35", "Explicitly for tabletop use only, not headboards"],
     bestFor: "buyers who want a stated load capacity with a fix for sagging issues",
   },
   {
@@ -77,7 +77,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0BZXLZX8V?tag=deskfinds0d-20",
     description: "This stand's 8 distinct slots for the back and angle support give you meaningful tilt flexibility, steady in any of the 8 positions rather than a continuously adjustable but potentially less stable hinge. Its aluminum alloy construction with silicone gripping on the holder ensures your device stays stable, backed by a silicone pad preventing the stand from slipping on your desk.\n\nCompared to the Bimo pick above, this one is the cheapest in this tier while still delivering aluminum alloy construction and works equally well in landscape or portrait orientation. Wide compatibility covers 7 to 13 inch tablets, spanning iPad Pro through Kindle Fire and Surface Pro devices.\n\nBest for buyers who want the lowest price in this tier with genuinely stable multi-position tilt slots.",
     specs: ["7-13in device range, 8 tilt slots", "Aluminum alloy, silicone grip", "Landscape and portrait orientation support"],
-    pros: ["Cheapest pick in this comparison at $22.99", "8 distinct tilt slots provide stable, repeatable positioning", "Works equally well in landscape or portrait orientation"],
+    pros: ["Cheapest pick in this comparison at under $25", "8 distinct tilt slots provide stable, repeatable positioning", "Works equally well in landscape or portrait orientation"],
     cons: ["Narrower device range than the Bimo pick's 16 inch maximum", "No stated load capacity figure like the pricier picks"],
     bestFor: "buyers who want the lowest price with stable multi-position tilt slots",
   }
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A stated load capacity with a fix for sagging issues", "Urmust Tablet Stand for Desk, Adjustable iPad Holder for Bed"],
         ["An established brand's dual rod design at a lower price", "UGREEN Tablet Stand Holder for Desk, Dual Rod Support Aluminum"],
         ["To build a dual-screen workspace with a portable monitor", "Bimo 360 Rotatable Aluminum Tablet Stand, 4.7-16in"],
-        ["The lowest price with stable multi-position tilt slots", "Tablet Stand Adjustable and Foldable, Slim Portable Aluminum"],
+        ["The lowest price with stable multi-position tilt slots", "Tablet Stand Adjustable and Foldable, Slim Portable Aluminum"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $23", "Slim Portable Aluminum ($22.99)"],
-        ["Under $24", "Bimo ($23.99)"],
-        ["Under $27", "UGREEN ($26.99)"],
-        ["Under $32", "Urmust ($31.99)"],
+        ["Under $23", "Slim Portable Aluminum (under $25)"],
+        ["Under $24", "Bimo (under $25)"],
+        ["Under $27", "UGREEN (under $30)"],
+        ["Under $32", "Urmust (under $35)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Continuously Adjustable Hinge vs Fixed Tilt Slots",
     cards: [
       { label: "Continuously adjustable hinge (Urmust, UGREEN, Bimo)", text: "Lets you fine-tune the exact angle you want, though stability depends on hinge tightness holding over time." },
-      { label: "Fixed tilt slots (Slim Portable Aluminum)", text: "Offers 8 distinct, repeatable positions that stay steady without any risk of gradual hinge loosening." },
+      { label: "Fixed tilt slots (Slim Portable Aluminum)", text: "Offers 8 distinct, repeatable positions that stay steady without any risk of gradual hinge loosening." }
     ],
     note: "If you want precise, infinitely adjustable angle control, the hinge-based picks deliver that. If you prefer a design with no moving parts to loosen over time, the fixed-slot design offers reliable, repeatable positioning instead.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Standard tablet weight", "UGREEN or Slim Portable Aluminum (no stated limit needed)"],
         ["Heavier tablet or light portable monitor", "Bimo (1kg / 2.2 lb rated)"],
-        ["Heaviest devices in this tier", "Urmust (2.42 lb rated)"],
+        ["Heaviest devices in this tier", "Urmust (2.42 lb rated)"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Remote Worker Building a Dual-Screen Desk Setup Specifically",
     cards: [
       { label: "Look for", text: "A stand explicitly rated for portable monitor support, not just tablets, since portable monitors are generally heavier and have different weight distribution than a tablet." },
-      { label: "In this comparison", text: "The Bimo pick's explicit portable monitor compatibility and 1kg rated load capacity specifically supports building a compact dual-screen workspace alongside a laptop." },
+      { label: "In this comparison", text: "The Bimo pick's explicit portable monitor compatibility and 1kg rated load capacity specifically supports building a compact dual-screen workspace alongside a laptop." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a stated load capacity with a direct fix for sagging or falling issues plus cable management, where the Urmust pick delivers all three at the top of this tier." },
-      { label: "Save if", text: "You just want stable, repeatable tilt positioning without needing a stated load capacity figure, where the Slim Portable Aluminum pick covers that for about $9 less." },
+      { label: "Save if", text: "You just want stable, repeatable tilt positioning without needing a stated load capacity figure, where the Slim Portable Aluminum pick covers that for about $9 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

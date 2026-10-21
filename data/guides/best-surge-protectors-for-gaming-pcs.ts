@@ -5,7 +5,7 @@ export const metaDescription = "5 surge protectors we evaluated for gaming PCs, 
 export const mainKeyword = "best surge protector for gaming PC";
 export const introParagraphs = [
   "High-wattage gaming PC power supplies, 750W-1200W+, draw close to what a standard 15A circuit and surge protector can safely deliver when combined with high-refresh monitors and peripherals, a total-load calculation worth performing for this specific high-draw use case.",
-  "Higher joule rating matters more for gaming PCs specifically because expensive GPUs represent concentrated high-value risk in the event of a surge, verify any connected-equipment warranty's payout cap actually covers your GPU's realistic replacement cost.",
+  "Higher joule rating matters more for gaming PCs specifically because expensive GPUs represent concentrated high-value risk in the event of a surge, verify any connected-equipment warranty's payout cap actually covers your GPU's realistic replacement cost."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Surge Protector for Gaming PCs Overall",
     name: "Surge Protector Power Strip 4800J, LeZone 10Ft Long Extension Cord Flat Plug, 12 Outlets 2 USB C 2 USB Ports, Wall Mountable, Desk Charging Station, Black",
     price: "$18.89",
-    rating: "4.7 stars from 2,666 Amazon ratings",
-    reviews: "2,666 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41eRaMa6u1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CN6V6M5F?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Outlet Gaming Pick",
     name: "SUPERDANNY Power Strip Surge Protector, 22 AC 6 USB, 2100J, 6.5Ft,1875W/15A",
     price: "$20.99",
-    rating: "4.8 stars from 12,520 Amazon ratings",
-    reviews: "12,520 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41vcM-QMtVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08Z2ZKVXX?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Mid-Tier Gaming Pick",
     name: "Power Strip, ALESTOR Surge Protector with 12 Outlets and 4 USB Ports, 6 Feet Extension Cord, 2700 Joules, ETL Listed, Black",
     price: "$21.98",
-    rating: "4.8 stars from 50,501 Amazon ratings",
-    reviews: "50,501 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41PsJYHqW7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08P5LRY37?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best UL-Listed Gaming Pick",
     name: "Belkin 12-Outlet Surge Protector Power Strip w/ 12 AC Outlets & 8ft Flat Plug, UL-Listed Heavy-Duty Extension Cord for Home, Office, Travel, Computer, Laptop, Charger - 3,780 Joules of Protection",
     price: "$28.95",
-    rating: "4.8 stars from 3,281 Amazon ratings",
-    reviews: "3,281 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/415tn9cXV7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6S6TPRH?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Gaming Pick with USB Charging",
     name: "Surge Protector Power Strip - Nuetsa Flat Plug Extension Cord with 8 Outlets and 4 USB Ports, 6 Feet Power Cord, 2700 Joules, ETL Listed, Black",
     price: "$13.99",
-    rating: "4.7 stars from 44,144 Amazon ratings",
-    reviews: "44,144 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41J41Z-k38L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09F2XPJ47?tag=deskfinds0d-20",
     description:
@@ -110,7 +110,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Realistic gaming-PC-plus-peripherals wattage calculation", description: "Calculated total realistic wattage (PC power supply, high-refresh monitor(s), peripherals) against both the surge protector's rating and the underlying circuit's 15A capacity, given how much higher gaming PC draw is than typical office equipment." },
   { title: "Concentrated GPU value-at-risk framing for joule rating priority", description: "Weighed higher joule ratings as mattering more for gaming PCs specifically since expensive GPUs represent concentrated high-value risk, verified against connected-equipment warranty payout caps where available." },
-  { title: "Full realistic gaming-desk peripheral count reflected in outlet sizing", description: "Sized outlet count against a realistic gaming desk with webcam, capture card, multiple monitors, RGB controllers, and other peripherals, more than a basic office computer setup typically needs." },
+  { title: "Full realistic gaming-desk peripheral count reflected in outlet sizing", description: "Sized outlet count against a realistic gaming desk with webcam, capture card, multiple monitors, RGB controllers, and other peripherals, more than a basic office computer setup typically needs." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -247,11 +247,11 @@ export const faq: FaqItem[] = [
   { q: "Will my connected-equipment warranty cover my GPU if it's damaged?", a: "Only up to the warranty's payout cap, verify this limit actually covers your GPU's realistic replacement cost, since these caps are sometimes lower than expensive graphics cards actually cost." },
   { q: "How many outlets do I need for a gaming desk setup?", a: "More than a basic office computer setup. Account for the PC, monitor(s), webcam, capture card, RGB controllers, and any gaming chair power features when sizing outlet count." },
   { q: "Which pick in this comparison is the best overall choice?", a: "Buyers with a high-value gaming PC and full desk peripheral setup" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious gamers who want genuine protection with USB charging At $13.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious gamers who want genuine protection with USB charging At under $15, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-surge-protectors-for-computers", title: "Best Surge Protectors for Computers (2026)" },
   { href: "/guide/best-desktop-surge-protectors", title: "Best Desktop Surge Protectors (2026)" },
-  { href: "/guide/best-12-outlet-surge-protectors", title: "Best 12-Outlet Surge Protectors (2026)" },
+  { href: "/guide/best-12-outlet-surge-protectors", title: "Best 12-Outlet Surge Protectors (2026)" }
 ];

@@ -177,24 +177,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $67.99",
+          "Under $70",
           "SentrySafe Fireproof & Waterproof Document Box"
         ],
         [
-          "Around $72.79",
+          "Under $80",
           "SentrySafe 0.28 Cu Ft Fireproof & Waterproof Chest"
         ],
         [
-          "Around $88.48",
+          "Under $90",
           "First Alert 2037F Water and Fire Protector File Chest"
         ],
         [
-          "Around $99.99",
+          "Under $100",
           "Honeywell 0.24 Cu Ft Fireproof & Waterproof Chest with Carry Handle"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -242,7 +242,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", "a": "SentrySafe 0.28 Cu Ft Fireproof & Waterproof Chest is aimed at buyers prioritizing 0.28 cu ft, flush-mounted lid design" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", "a": "SentrySafe 0.28 Cu Ft Fireproof & Waterproof Chest is aimed at buyers prioritizing 0.28 cu ft, flush-mounted lid design" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-2-hour-fireproof-safes","title":"Best 2 Hour Fireproof Safes in 2026"},{"href":"/guide/best-4-hour-fireproof-safes","title":"Best 4 Hour Fireproof Safes in 2026"},{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"}];

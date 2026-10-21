@@ -12,7 +12,7 @@ export const loftBedDeskSetupExplainedGuide: Guide = {
     "desk under loft bed setup",
     "loft bed clearance for desk",
     "lighting under loft bed desk",
-    "dorm loft bed workspace",
+    "dorm loft bed workspace"
   ],
   heroImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const loftBedDeskSetupExplainedGuide: Guide = {
     "dorm-desk-size-restrictions-explained",
     "desk-lamp-lumens-guide",
     "how-to-measure-office-chair-fit",
-    "cable-management-types-explained",
+    "cable-management-types-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const loftBedDeskSetupExplainedGuide: Guide = {
       question: "How do I manage cables in a loft bed desk setup?",
       answer:
         "Route cables along the bed frame's support legs or use adhesive clips to keep them off the floor and out of the way of foot traffic in and out of the confined space, a cluttered cable situation is more noticeable and disruptive in a tighter loft bed nook than in an open room.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const loftBedDeskSetupExplainedGuide: Guide = {
     {
       heading: "Why the Enclosed Feeling Affects Both Comfort and Air Circulation",
       body: `A desk nook underneath a loft bed is inherently more enclosed than an open desk area, with the bed frame and often the room's walls creating a partially boxed-in feeling that can trap warm air and feel stuffier during extended work sessions, particularly in warmer weather or a room without strong ventilation. A small desk fan addresses this practical comfort issue directly, a consideration less relevant for a desk positioned in a room's more open floor space with better natural air circulation.`,
-    },
+    }
   ],
 };

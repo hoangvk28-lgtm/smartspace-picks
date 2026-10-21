@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "Kensington laptop locks";
 export const introParagraphs = [
   "Kensington's catalog spans keyed, combination, and universal locks across three physically different lock-head standards: Standard T-Bar, Nano, and the Dell/Alienware Wedge slot. A Kensington logo on the box doesn't mean a given lock fits a given laptop, so we grouped every pick here by which slot it actually engages before ranking anything on price or rating.",
-  "Two picks in this lineup solve the compatibility question entirely by carrying interchangeable tips for all three slot standards, at a price premium over a single-standard lock. We flagged that tradeoff explicitly rather than letting 'Kensington' stand in for 'compatible.'",
+  "Two picks in this lineup solve the compatibility question entirely by carrying interchangeable tips for all three slot standards, at a price premium over a single-standard lock. We flagged that tradeoff explicitly rather than letting 'Kensington' stand in for 'compatible.'"
 ];
 export const lastUpdated = "2026-08-11";
 export const readTime = "9 min";
@@ -154,8 +154,8 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed slot standard before ranking anything else", description: "We sorted all 8 picks into Standard T-Bar, Nano, Wedge, and Universal (multi-standard) groups first, since a lock that doesn't physically match your laptop's slot has zero security value regardless of its rating." },
   { title: "Checked for independent testing claims, not just marketing language", description: "Kensington publishes third-party torque, pull, foreign-implement, and corrosion testing on most of these locks. We noted which listings actually reference that testing versus which rely on brand reputation alone." },
-  { title: "Weighed review volume against how new each SKU is", description: "Review counts here range from 4 to over 1,400. We flagged the lowest-volume listings explicitly rather than treating a 4.0 rating on 4 reviews the same as a 4.4 rating on over a thousand." },
-  { title: "Separated compatibility flexibility from raw security strength", description: "Universal 3-in-1 locks trade a small amount of setup convenience for broad compatibility. We evaluated that as a genuine tradeoff, not an automatic upgrade over a dedicated single-slot lock." },
+  { title: "Weighed review volume against how new each SKU is", description: "Review counts here range from 4 to over 1,400." },
+  { title: "Separated compatibility flexibility from raw security strength", description: "Universal 3-in-1 locks trade a small amount of setup convenience for broad compatibility. We evaluated that as a genuine tradeoff, not an automatic upgrade over a dedicated single-slot lock." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -290,11 +290,11 @@ export const faq: FaqItem[] = [
   { q: "How do I know which slot my laptop has?", a: "Check your exact model against Kensington's official lock selector tool rather than guessing from the brand name alone, since slot type can vary even within a single brand's lineup by model year." },
   { q: "What if my laptop has no security slot at all?", a: "Slotless laptops, including most current MacBook Air models, need a purpose-built adapter or locking station rather than any lock in this comparison. See our dedicated guide for laptop locks built for MacBook Air." },
   { q: "Is a cable lock enough to fully prevent laptop theft?", a: "No. Position any cable lock as a theft deterrent that slows down or discourages casual theft, not a guarantee against a determined attacker with cutting tools." },
-  { q: "What's the best all-around pick if I'm not sure of my slot type?", a: "The Kensington Universal 3-in-1 Combination Laptop Lock, since its interchangeable tips cover Standard, Nano, and Wedge slots in one purchase." },
+  { q: "What's the best all-around pick if I'm not sure of my slot type?", a: "The Kensington Universal 3-in-1 Combination Laptop Lock, since its interchangeable tips cover Standard, Nano, and Wedge slots in one purchase." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-locks", title: "Best Laptop Locks (2026)" },
   { href: "/guide/best-laptop-locks-for-macbook-air", title: "Best Laptop Locks for MacBook Air (2026)" },
-  { href: "/guide/best-keypad-laptop-locks", title: "Best Keypad Laptop Locks (2026)" },
+  { href: "/guide/best-keypad-laptop-locks", title: "Best Keypad Laptop Locks (2026)" }
 ];

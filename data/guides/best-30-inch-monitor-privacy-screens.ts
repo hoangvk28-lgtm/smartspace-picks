@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "30 inch monitor privacy screen";
 export const introParagraphs = [
   "30 inch is where monitor shape diverges significantly: our research confirmed two 21:9 curved ultrawide filters and one 16:10 flat filter, all labeled 30 inch but fitting very different monitor shapes.",
-  "Don't assume any \"30 inch\" filter fits your monitor without checking the aspect ratio and curvature first, since these three products are not interchangeable with each other despite sharing a diagonal size.",
+  "Don't assume any \"30 inch\" filter fits your monitor without checking the aspect ratio and curvature first, since these three products are not interchangeable with each other despite sharing a diagonal size."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
@@ -75,7 +75,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Separated curved 21:9 and flat 16:10 pools explicitly", description: "All three confirmed 30 inch filters share a diagonal but not a shape, and we treated them as genuinely distinct categories rather than interchangeable." },
   { title: "Disclosed the very small review base for the flat 16:10 option", description: "The only confirmed 16:10 pick has just 1 review, and we flagged this directly rather than treating its perfect rating as meaningful." },
   { title: "Compared the two curved options directly on features and review volume", description: "Both curved 21:9 picks are similarly priced; we compared their specific bundled features and review counts side by side." },
-  { title: "Did not substitute a flat filter for curved or vice versa", description: "We kept these categories strictly separated since a filter for one shape will not fit the other, regardless of matching diagonal." },
+  { title: "Did not substitute a flat filter for curved or vice versa", description: "We kept these categories strictly separated since a filter for one shape will not fit the other, regardless of matching diagonal." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -201,7 +201,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
-    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nThis matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
   }
 ];
 
@@ -209,12 +209,13 @@ export const faq: FaqItem[] = [
   { q: "Are all 30 inch monitors the same shape?", a: "No. Our research found both curved 21:9 ultrawide and flat 16:10 monitors labeled 30 inch, which need different filters." },
   { q: "What's the best option for a curved 30 inch ultrawide?", a: "The ACONETMAX 30 Inches Privacy Screen Filter has the most bundled features, while the APeiSi alternative has a larger review base." },
   { q: "Is there an option for a flat 30 inch monitor?", a: "Yes, the TYLGDSGS 30 Inch Privacy Screen Filter for 16:10, though it has only 1 review at time of research." },
-  { q: "Which curved option has more reviews?", a: "The APeiSi 30 Inch Privacy Screen Filter, with 187 reviews versus ACONETMAX's 55." },
-  { q: "Should I trust the 5.0 rating on the flat 16:10 pick?", a: "Not with much confidence. It's based on only 1 review, far too small a sample to draw meaningful conclusions from." },
+  
+  { q: "How do I know if my ultrawide uses a 21:9 aspect ratio?", a: "Divide the screen width by its height, or look up the model number in the spec sheet, where the ratio is almost always listed. A result near 2.33 means 21:9. Match that ratio to the filter listing, because a 16:10 filter will not cover the whole panel." },
+  { q: "Can I attach a 30 inch privacy filter without bubbles?", a: "Work in a clean, dust-free room and wipe the screen with a microfiber cloth first. Start from one edge and lay the filter down slowly, using a credit card to push any trapped air toward the edge. If a bubble remains, lift just that corner and try again." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-ultrawide-monitor-privacy-screens", title: "Best Ultrawide Monitor Privacy Screens (2026)" },
   { href: "/guide/best-curved-monitor-privacy-screens", title: "Best Curved Monitor Privacy Screens (2026)" },
-  { href: "/guide/best-32-inch-monitor-privacy-screens", title: "Best 32-Inch Monitor Privacy Screens (2026)" },
+  { href: "/guide/best-32-inch-monitor-privacy-screens", title: "Best 32-Inch Monitor Privacy Screens (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "room divider on wheels";
 export const introParagraphs = [
   "A room divider on wheels only earns its keep if it actually rolls smoothly, locks in place without drifting, and stays upright once it's parked. That's a different set of priorities than a fixed folding screen, caster count, wheel-locking mechanism, and base width all matter as much as fabric or panel count.",
-  "Below are 8 rolling room dividers we evaluated on how many locking wheels they include, how wide and stable their base feels once locked, and how well they fold or reconfigure, ranging from a $43 single rolling panel to a $360 soundproof screen built for a home office.",
+  "Below are 8 rolling room dividers we evaluated on how many locking wheels they include, how wide and stable their base feels once locked, and how well they fold or reconfigure, ranging from a $43 single rolling panel to a $360 soundproof screen built for a home office."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -57,18 +57,17 @@ export const products: GuideProduct[] = [
       "240gsm polyester + powder-coated steel",
       "4 silent PE lockable wheels per panel",
       "Extended widened feet",
-      "Wrinkle, abrasion, and water resistant",
+      "Wrinkle, abrasion, and water resistant"
     ],
     pros: [
       "Thickest fabric among 4-panel wheeled dividers at 240gsm",
       "Silent PE wheels that won't scratch floors",
-      "Most stable extended feet in the 4-panel group",
-      "Strong 4.2-star rating across 554 ratings",
+      "Most stable extended feet in the 4-panel group"
     ],
     cons: [
       "Only 4 wheels per panel, fewer than some competitors",
       "Black-only color option",
-      "Not soundproof despite the thicker fabric",
+      "Not soundproof despite the thicker fabric"
     ],
     bestFor: "Buyers who want the best all-around balance of fabric quality, stability, and price",
   },
@@ -83,24 +82,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41YngJMiXvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C7BHSXG7?tag=deskfinds0d-20",
     description:
-      "HOMSCREENER's 4-panel divider carries 10 self-locking universal PE castors, the most of any 4-panel pick in this list, spread across a 17.7-inch metal base that's also the longest in the group. That combination makes it the steadiest 4-panel option to roll into place and lock down without it drifting on an uneven floor.\n\nDouble hinges let it fold into L, W, C, or Z configurations, so it can wrap a corner or hug an irregular room shape instead of only standing in a straight line. At 88 inches wide and 71.3 inches tall, it covers roughly the same footprint as the top pick but leans harder into reconfigurability.\n\nWorth calling out specifically: longest 17.7\" metal base for stability. The catch is lower 3.9-star average than most other picks here.",
+      "HOMSCREENER's 4-panel divider carries 10 self-locking universal PE castors, the most of any 4-panel pick in this list, spread across a 17.7-inch metal base that's also the longest in the group. That combination makes it the steadiest 4-panel option to roll into place and lock down without it drifting on an uneven floor.\n\nDouble hinges let it fold into L, W, C, or Z configurations, so it can wrap a corner or hug an irregular room shape instead of only standing in a straight line. At 88 inches wide and 71.3 inches tall, it covers roughly the same footprint as the top pick but leans harder into reconfigurability.\n\nWorth calling out specifically: longest 17.7\" metal base for stability.",
     specs: [
       "88\"W x 71.3\"H, 4 panels",
       "240gsm polyester + steel",
       "10 self-locking universal PE castors",
       "17.7\" metal base (longest in the 4-panel group)",
-      "Double hinges, configurable L/W/C/Z shapes",
+      "Double hinges, configurable L/W/C/Z shapes"
     ],
     pros: [
       "Most wheels among 4-panel picks at 10",
       "Longest 17.7\" metal base for stability",
       "Reconfigurable into L, W, C, or Z shapes",
-      "Same 240gsm fabric thickness as the top pick",
+      "Same 240gsm fabric thickness as the top pick"
     ],
     cons: [
-      "Lower 3.9-star average than most other picks here",
       "More wheels means more hardware that can eventually wear",
-      "Assembly is more involved given the reconfigurable hinges",
+      "Assembly is more involved given the reconfigurable hinges"
     ],
     bestFor: "Rooms with an irregular layout where the divider needs to bend around a corner",
   },
@@ -121,18 +119,18 @@ export const products: GuideProduct[] = [
       "240gsm polyester + steel tube",
       "8 self-lockable PE universal wheels",
       "Scratch-resistant, rust-proof frame",
-      "Thickest fabric among 6-panel picks",
+      "Thickest fabric among 6-panel picks"
     ],
     pros: [
       "Widest 6-panel pick in this list at 132\"",
       "Thickest fabric in the 6-panel group",
       "Scratch-resistant rust-proof frame",
-      "Full 72\" height for real privacy",
+      "Full 72\" height for real privacy"
     ],
     cons: [
       "Fewer wheels per panel than the 4-panel options",
       "Takes up more floor space when folded flat",
-      "Pricier than any 4-panel pick in this list",
+      "Pricier than any 4-panel pick in this list"
     ],
     bestFor: "Large open floor plans that need a wide, fully wheeled divider",
   },
@@ -153,18 +151,18 @@ export const products: GuideProduct[] = [
       "Polyester + powder-coated metal",
       "14 universal lockable casters (most in this list)",
       "1.5\" wheel diameter",
-      "Powder-coated rust-resistant frame, durable buckle connections",
+      "Powder-coated rust-resistant frame, durable buckle connections"
     ],
     pros: [
       "Most lockable casters in this entire list at 14",
       "Powder-coated rust-resistant frame",
       "Configurable L or W shape",
-      "Neutral beige finish, less common in this category",
+      "Neutral beige finish, less common in this category"
     ],
     cons: [
       "Slightly shorter at 68\" than most 6-panel picks",
       "1.5\" wheels are smaller than some competitors",
-      "Same price as the wider HOMSCREENER 6-panel pick",
+      "Same price as the wider HOMSCREENER 6-panel pick"
     ],
     bestFor: "Buyers who want the maximum number of independently locking wheels",
   },
@@ -185,18 +183,17 @@ export const products: GuideProduct[] = [
       "Polyester + metal",
       "10 lockable 360 degrees swivel wheels with individual brakes",
       "L/W/C-shaped configurations",
-      "Folds compact to 22\" wide",
+      "Folds compact to 22\" wide"
     ],
     pros: [
       "10 lockable 360 degrees-swivel wheels with individual brakes",
       "Folds down to the most compact width in the 4-panel group at just 22\"",
       "Lowest price among the 4-panel picks",
-      "Flexible L, W, or C configurations",
+      "Flexible L, W, or C configurations"
     ],
     cons: [
       "Shorter 68\" height than the top two 4-panel picks",
-      "3.9-star-adjacent rating with a moderate review count",
-      "Grey-only color option",
+      "Grey-only color option"
     ],
     bestFor: "Renters and small spaces that need to fold the divider away frequently",
   },
@@ -217,18 +214,18 @@ export const products: GuideProduct[] = [
       "Fabric + iron",
       "4 lockable wheels",
       "No-gap design with 6 fasteners",
-      "Waterproof, non-see-through",
+      "Waterproof, non-see-through"
     ],
     pros: [
       "Tallest pick in this entire list at 75\"",
       "No-gap 6-fastener design blocks sightlines completely",
       "Most private single-panel option",
-      "Lowest price in this list at $43.99",
+      "Lowest price in this list at under $45"
     ],
     cons: [
       "Only 4 wheels, fewer than the multi-panel picks",
       "Single fixed panel can't bend around a corner",
-      "Narrower 71\" width than most multi-panel dividers",
+      "Narrower 71\" width than most multi-panel dividers"
     ],
     bestFor: "A single, maximally private panel at the lowest price in this list",
   },
@@ -249,18 +246,18 @@ export const products: GuideProduct[] = [
       "180gsm polyester + iron",
       "7 sets of lockable wheels",
       "Large support feet, includes gap-cover strips",
-      "Waterproof, tear-resistant",
+      "Waterproof, tear-resistant"
     ],
     pros: [
       "Only pick in this list that includes cover strips to seal the gaps between panels",
       "7 lockable wheel sets",
       "Large anti-tip support feet",
-      "Slightly narrower than the widest 6-panel picks, easier to fit in mid-size rooms",
+      "Slightly narrower than the widest 6-panel picks, easier to fit in mid-size rooms"
     ],
     cons: [
       "Thinner 180gsm fabric than the 240gsm picks in this list",
       "Same price as wider or higher-capacity 6-panel competitors",
-      "Fewer reviews than the top-ranked picks",
+      "Fewer reviews than the top-ranked picks"
     ],
     bestFor: "Buyers who want a fully private divider with no visible sightlines at the hinges",
   },
@@ -281,21 +278,19 @@ export const products: GuideProduct[] = [
       "ECO PET + polyester fabric",
       "85%+ noise absorption",
       "12 self-locking wheels (most in this list)",
-      "Zipper connections, tackable surface",
+      "Zipper connections, tackable surface"
     ],
     pros: [
       "Only genuinely soundproof pick in this list at 85%+ noise absorption",
       "Most wheels of any pick at 12",
-      "Zipper panel connections for a more secure join",
-      "Highest rating in this list at 4.7 stars",
+      "Zipper panel connections for a more secure join"
     ],
     cons: [
       "By far the most expensive pick, over 3x most others in this list",
-      "Only 3 panels, narrower total coverage than 6-panel picks",
-      "Very small review sample so far at 16 ratings",
+      "Only 3 panels, narrower total coverage than 6-panel picks"
     ],
     bestFor: "Home offices and studios where noise control matters more than price",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +318,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed wheel count, fabric quality, and width against price, this list runs from a single panel to a soundproof unit for very different use cases.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -478,11 +473,11 @@ export const faq: FaqItem[] = [
     q: "Which pick in this list is best for noise control rather than just privacy?",
     a: "The HOMSCREENER 3-Panel Soundproof is the only pick here built for acoustic absorption, at over 85% noise absorption thanks to its ECO PET core. Every other pick in this list blocks sightlines but does little to reduce sound passing between the two sides.",
   },
-  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers who want the best all-around balance of fabric quality, stability, and price" },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers who want the best all-around balance of fabric quality, stability, and price" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-room-divider-with-shelves", title: "Best Room Dividers with Shelves (2026)" },
   { href: "/guide/best-room-divider-bookcase", title: "Best Room Divider Bookcases (2026)" },
-  { href: "/guide/best-room-divider-wood", title: "Best Wood Room Dividers (2026)" },
+  { href: "/guide/best-room-divider-wood", title: "Best Wood Room Dividers (2026)" }
 ];

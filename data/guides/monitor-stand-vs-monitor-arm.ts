@@ -79,11 +79,11 @@ export const picks: ComparePick[] = [
       "Pull-out drawer adds hidden storage without extra footprint",
       "Bamboo finish looks premium — works with most desk aesthetics",
       "Supports up to 50 lbs (any monitor size)",
-      "Fits desks 36 inches and wider",
+      "Fits desks 36 inches and wider"
     ],
     tradeoffs: [
       "Fixed 4.5-inch height — can't adjust",
-      "Drawer is shallow (1.5 inches deep)",
+      "Drawer is shallow (1.5 inches deep)"
     ],
   },
   {
@@ -100,12 +100,12 @@ export const picks: ComparePick[] = [
     whyItWorks: [
       "Four stackable height levels — experiment without committing",
       "Metal construction at a plastic price",
-      "Under $25 — cheapest functional option",
+      "Under $25 — cheapest functional option"
     ],
     tradeoffs: [
       "No storage drawer",
       "Adjusting height requires lifting the monitor off",
-      "Basic aesthetics",
+      "Basic aesthetics"
     ],
   },
   {
@@ -122,12 +122,12 @@ export const picks: ComparePick[] = [
     whyItWorks: [
       "Built-in USB hub (2x USB-A + 1x USB-C) saves buying separately",
       "Charges phone while elevating monitor",
-      "Cables route cleanly through the stand",
+      "Cables route cleanly through the stand"
     ],
     tradeoffs: [
       "At the top of the $50 budget",
       "USB hub quality varies — check reviews before buying",
-      "Fixed height only",
+      "Fixed height only"
     ],
   },
   {
@@ -146,12 +146,12 @@ export const picks: ComparePick[] = [
       "Full adjustment range: height, tilt, swivel, rotation",
       "Supports 75x75 and 100x100 VESA",
       "C-clamp fits desks 0.4–3.5 inches thick",
-      "Cable management clips included",
+      "Cable management clips included"
     ],
     tradeoffs: [
       "Some wobble with heavier monitors (20+ lbs)",
       "Tension adjustment requires Allen key",
-      "No gas spring — manual positioning only",
+      "No gas spring — manual positioning only"
     ],
     redditNote:
       "Most recommended arm in r/StandingDesk and r/battlestations under $50. Multiple users report 3+ years of reliable use.",
@@ -171,12 +171,12 @@ export const picks: ComparePick[] = [
       "Gas spring: adjust height with one hand",
       "Smoother movement than friction-based arms",
       "Built-in cable management channel",
-      "Full range: height, tilt, swivel, rotate",
+      "Full range: height, tilt, swivel, rotate"
     ],
     tradeoffs: [
       "Lower weight limit (17.6 lbs vs. VIVO's 22 lbs)",
       "Gas spring can lose tension after 2–3 years",
-      "Slightly more expensive than VIVO",
+      "Slightly more expensive than VIVO"
     ],
   },
   {
@@ -194,14 +194,14 @@ export const picks: ComparePick[] = [
       "Highest weight capacity under $50 (26.4 lbs)",
       "Handles ultrawide monitors (34–35 inch)",
       "Gas spring for smooth adjustment",
-      "Sturdy steel construction",
+      "Sturdy steel construction"
     ],
     tradeoffs: [
       "At the $50 ceiling — overkill for standard 24–27 in monitors",
       "Bulkier arm (less minimalist look)",
-      "Heavier clamp — needs a sturdy desk edge",
+      "Heavier clamp — needs a sturdy desk edge"
     ],
-  },
+  }
 ];
 
 export const dualArmPick = {
@@ -267,7 +267,7 @@ export const headToHead: HeadToHead[] = [
       "Stands are solid across the entire $15–$50 range. Arms under $25 have noticeable quality drop. Sweet spot for arms is $30–$45.",
     standSummary: "Excellent quality from $15. No budget floor.",
     armSummary: "Quality drops noticeably below $28. Budget $30–$45 for a reliable arm.",
-  },
+  }
 ];
 
 // ─── Decision flowchart steps ─────────────────────────────────────────────────
@@ -315,7 +315,7 @@ export const flowSteps: FlowStep[] = [
     yesLabel: "Yes",
     noLabel: "Either works — pick based on budget",
     terminal: true,
-  },
+  }
 ];
 
 // ─── Scenarios ─────────────────────────────────────────────────────────────────
@@ -362,7 +362,7 @@ export const scenarios: Scenario[] = [
     price: "$35–$45",
     detail:
       "A fixed stand can't compensate for 12–18 inches of height change. The gas spring mechanism adjusts with one hand — seamless sit-stand transitions.",
-  },
+  }
 ];
 
 // ─── Common mistakes ──────────────────────────────────────────────────────────
@@ -387,7 +387,7 @@ export const mistakes = [
   {
     title: "Ignoring monitor weight",
     body: "Every arm has a weight limit. A 27-inch monitor typically weighs 10–15 lbs. A 32-inch ultrawide can weigh 18–22 lbs. If your monitor exceeds the arm's limit, it will droop over time.",
-  },
+  }
 ];
 
 // ─── FAQ ──────────────────────────────────────────────────────────────────────
@@ -403,7 +403,7 @@ export const faq: Array<{ q: string; a: string }> = [
   },
   {
     q: "Are monitor arms worth it for gaming?",
-    a: "Yes, particularly if you play competitive games where pulling the monitor closer helps reaction time, or if you use a secondary monitor in portrait mode for chat/streaming. The VIVO V001 ($32) is the most popular gaming arm under $50.",
+    a: "Yes, particularly if you play competitive games where pulling the monitor closer helps reaction time, or if you use a secondary monitor in portrait mode for chat/streaming. The VIVO V001 (under $35) is the most popular gaming arm under $50.",
   },
   {
     q: "Can I use a monitor arm with a glass desk?",
@@ -420,7 +420,7 @@ export const faq: Array<{ q: string; a: string }> = [
   {
     q: "What's the best monitor arm under $50?",
     a: "The VIVO V001 ($30–$38) is the most recommended budget arm across Reddit, YouTube, and buyer reviews. It supports monitors up to 32 inches (22 lbs), has full adjustment range, and includes cable management clips. For gas spring convenience, the HUANUO ($35–$45) is the upgrade pick.",
-  },
+  }
 ];
 
 // ─── Summary scores ───────────────────────────────────────────────────────────
@@ -431,5 +431,5 @@ export const summaryTable = [
   { factor: "Adjustability", stand: "Height only", arm: "Height, depth, tilt, swivel, rotate" },
   { factor: "Setup time", stand: "2 minutes", arm: "15–20 minutes" },
   { factor: "Stability", stand: "Excellent", arm: "Good (install-dependent)" },
-  { factor: "Best for", stand: "Height + storage", arm: "Ergonomics + space saving" },
+  { factor: "Best for", stand: "Height + storage", arm: "Ergonomics + space saving" }
 ];

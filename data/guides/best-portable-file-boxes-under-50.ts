@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51cotb9KcyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CQX9RJ5L?tag=deskfinds0d-20",
-    description: "At $37.99, this box remains rated for the highest fire-resistance temperature across this entire comparison at 5200 degrees Fahrenheit, using thickened silicone-coated fireproof cotton and an aluminum foil lining that resists melting under repeated high-heat testing. Its PP board construction won't warp and holds a minimum of 150 lbs, genuinely more structural rigidity than a soft-sided accordion case provides.\n\nIts mesh pockets on the lid lining and box sides protect cards, CDs, USBs, and passports alongside the main letter and legal file compartment, and a reflective strip design helps you locate it quickly during an emergency, even at night.\n\nBest for buyers who want the single highest fire-resistance rating available without paying for wheels or a laptop-specific design.",
+    description: "At under $40, this box remains rated for the highest fire-resistance temperature across this entire comparison at 5200 degrees Fahrenheit, using thickened silicone-coated fireproof cotton and an aluminum foil lining that resists melting under repeated high-heat testing. Its PP board construction won't warp and holds a minimum of 150 lbs, genuinely more structural rigidity than a soft-sided accordion case provides.\n\nIts mesh pockets on the lid lining and box sides protect cards, CDs, USBs, and passports alongside the main letter and legal file compartment, and a reflective strip design helps you locate it quickly during an emergency, even at night.\n\nBest for buyers who want the single highest fire-resistance rating available without paying for wheels or a laptop-specific design.",
     specs: ["5200 degrees F rated, UL94 -V0/5VA tested", "15.6x12.5x10.5 in, holds 150+ lbs", "Combination lock, collapsible, mesh pockets"],
     pros: ["Highest fire-resistance rating in this comparison at 5200 degrees F", "Lower price than the wheeled or laptop-focused picks above", "PP board construction won't warp and holds significant weight"],
     cons: ["No wheels or laptop-specific storage like the pricier picks", "Bulkier than the accordion-style DocSafe hard-shell case"],
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Both fireproofing and wheeled mobility together", "DocSafe Fireproof Document Box, 2-Layer with Wheels"],
         ["Fireproof protection for documents and a laptop", "DocSafe Fireproof Hard-Shell Case with Accordion Folder"],
         ["The single highest fire-resistance rating", "ENGPOW 5200 degrees F Fireproof Document Box with Lock"],
-        ["Rolling mobility without paying for fireproofing", "Oterri Lockable File Box with Wheels"],
+        ["Rolling mobility without paying for fireproofing", "Oterri Lockable File Box with Wheels"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $32", "Oterri with Wheels ($31.99)"],
-        ["Under $38", "ENGPOW 5200 degrees F ($37.99)"],
-        ["Under $43", "DocSafe Hard-Shell Case ($42.98)"],
-        ["Under $50", "DocSafe 2-Layer with Wheels ($49.99)"],
+        ["Under $32", "Oterri with Wheels (under $35)"],
+        ["Under $38", "ENGPOW 5200 degrees F (under $40)"],
+        ["Under $43", "DocSafe Hard-Shell Case (under $45)"],
+        ["Under $50", "DocSafe 2-Layer with Wheels (under $50)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Traditional File Box vs Accordion Hard-Shell Case",
     cards: [
       { label: "Traditional file box (DocSafe 2-Layer, ENGPOW)", text: "Holds standard hanging file folders in bulk, better suited to larger document collections and full filing systems." },
-      { label: "Accordion hard-shell case (DocSafe Hard-Shell)", text: "Organizes documents into labeled pockets by category and can also fit a laptop, better suited to grab-and-go emergency prep." },
+      { label: "Accordion hard-shell case (DocSafe Hard-Shell)", text: "Organizes documents into labeled pockets by category and can also fit a laptop, better suited to grab-and-go emergency prep." }
     ],
     note: "If you're organizing an entire home filing system, a traditional box holds more volume. If you want one portable case to grab in an emergency with both documents and a laptop, the accordion hard-shell design suits that specific need better.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Maximum available rating", "ENGPOW 5200 degrees F Fireproof Document Box"],
         ["Strong rating plus wheeled convenience", "DocSafe 2-Layer with Wheels (2200 degrees F)"],
-        ["No fireproofing needed, just mobility", "Oterri Lockable File Box with Wheels"],
+        ["No fireproofing needed, just mobility", "Oterri Lockable File Box with Wheels"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Emergency Grab-and-Go Preparedness Specifically",
     cards: [
       { label: "Look for", text: "A lighter, more portable design that can be grabbed quickly alongside a laptop, rather than a heavier box requiring more time to load and carry." },
-      { label: "In this comparison", text: "The DocSafe Hard-Shell Case's lighter accordion format and laptop compatibility suit fast, emergency-ready grab-and-go use specifically." },
+      { label: "In this comparison", text: "The DocSafe Hard-Shell Case's lighter accordion format and laptop compatibility suit fast, emergency-ready grab-and-go use specifically." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want both fireproofing and wheeled mobility in one box, where the DocSafe 2-Layer with Wheels is the only pick in this comparison offering that specific combination." },
-      { label: "Save if", text: "You want rolling mobility without needing fireproof protection, where the Oterri pick delivers that for about $18 less than the top pick." },
+      { label: "Save if", text: "You want rolling mobility without needing fireproof protection, where the Oterri pick delivers that for about $18 less than the top pick." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Genuine enterprise-grade 8-bay expansion with management software", "QNAP TL-D810TC4-US 8-Bay Desktop DAS/JBOD Storage Expansion"],
         ["Hybrid HDD-plus-NVMe capacity at a fraction of enterprise pricing", "TERRAMASTER D8 Hybrid, 4 HDD + 4 NVMe SSD Enclosure"],
-        ["8-bay RAID-capable storage at a budget price", "CENMATE Aluminum 8 Bay Hard Drive RAID Enclosure"],
+        ["8-bay RAID-capable storage at a budget price", "CENMATE Aluminum 8 Bay Hard Drive RAID Enclosure"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $255", "CENMATE 8-Bay ($249.99), SABRENT 5-Bay ($249.99), or TERRAMASTER D8 Hybrid ($254.99)"],
-        ["Under $800", "QNAP TL-D810TC4-US ($799.00)"],
+        ["Under $255", "CENMATE 8-Bay (under $250), SABRENT 5-Bay (under $250), or TERRAMASTER D8 Hybrid (under $300)"],
+        ["Under $800", "QNAP TL-D810TC4-US (under $800)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Enterprise Management Software vs Budget 8-Bay Alternatives",
     cards: [
       { label: "Enterprise Software (QNAP)", text: "Dedicated JBOD Manager utility for drive health monitoring, system information, and seamless NAS ecosystem integration, justifying the significant price premium for buyers who value this management layer." },
-      { label: "Budget 8-Bay Alternatives (CENMATE)", text: "Matches the QNAP's raw 8-bay scale and RAID capability at roughly a third of the price, without the dedicated management software." },
+      { label: "Budget 8-Bay Alternatives (CENMATE)", text: "Matches the QNAP's raw 8-bay scale and RAID capability at roughly a third of the price, without the dedicated management software." }
     ],
     note: "If you specifically need professional drive health monitoring and NAS integration, the QNAP tower's price premium is justified. If raw 8-bay capacity and RAID support are your main goals, the CENMATE pick delivers similar scale for significantly less.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your priority", "Recommended pick"],
       rows: [
         ["Maximum capacity per dollar", "CENMATE Aluminum 8 Bay (160TB) or TERRAMASTER D8 Hybrid (152TB)"],
-        ["Enterprise-grade reliability regardless of cost", "QNAP TL-D810TC4-US 8-Bay Desktop DAS/JBOD"],
+        ["Enterprise-grade reliability regardless of cost", "QNAP TL-D810TC4-US 8-Bay Desktop DAS/JBOD"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Dedicated Server Closet or Media Storage Room Specifically",
     cards: [
       { label: "Look for", text: "An enterprise-grade tower design with dedicated drive health monitoring software, since a dedicated storage space can accommodate the larger footprint and benefits from professional-grade monitoring." },
-      { label: "In this comparison", text: "The QNAP TL-D810TC4-US is specifically built as an enterprise desktop tower with dedicated JBOD management software suited to this kind of dedicated storage environment." },
+      { label: "In this comparison", text: "The QNAP TL-D810TC4-US is specifically built as an enterprise desktop tower with dedicated JBOD management software suited to this kind of dedicated storage environment." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want genuine enterprise-grade management software and NAS ecosystem integration, where the QNAP TL-D810TC4-US is the only pick in this comparison offering both." },
-      { label: "Save if", text: "Raw 8-bay RAID-capable capacity covers your needs without dedicated management software, where the CENMATE pick delivers similar scale for roughly a third of the QNAP's price." },
+      { label: "Save if", text: "Raw 8-bay RAID-capable capacity covers your needs without dedicated management software, where the CENMATE pick delivers similar scale for roughly a third of the QNAP's price." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

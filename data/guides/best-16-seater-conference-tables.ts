@@ -123,7 +123,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/6158xaCJOSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CMGJVN2H?tag=deskfinds0d-20",
-    description: "The same 8-piece, 220.4\" modular Bonzy Home table as the rustic brown version, this listing offers a lighter natural wood-tone finish for offices wanting a brighter, more neutral large-meeting-space look.\n\nSame 120 lb per-unit capacity, powder-coated metal frame, and flexible reconfiguration into different layouts as the rustic brown colorway.\n\nWhere this one earns its spot is natural wood-tone finish brightens a large room more than the darker brown colorway, and same flexible 8-piece modular reconfiguration as Bonzy Home's other 18ft sets. Worth noting before buying: 120 lb per-unit capacity is still modest for heavier equipment, which matters more at $879.99 than it would on a cheaper pick.",
+    description: "The same 8-piece, 220.4\" modular Bonzy Home table as the rustic brown version, this listing offers a lighter natural wood-tone finish for offices wanting a brighter, more neutral large-meeting-space look.\n\nSame 120 lb per-unit capacity, powder-coated metal frame, and flexible reconfiguration into different layouts as the rustic brown colorway.\n\nWhere this one earns its spot is natural wood-tone finish brightens a large room more than the darker brown colorway, and same flexible 8-piece modular reconfiguration as Bonzy Home's other 18ft sets. Worth noting before buying: 120 lb per-unit capacity is still modest for heavier equipment, which matters more at under $900 than it would on a cheaper pick.",
     specs: ["220.4\"D x 47.2\"W total, 8 combinable desk units","Seats 20 people, rustic vintage natural finish","120 lb capacity per unit"],
     pros: ["Natural wood-tone finish brightens a large room more than the darker brown colorway","Same flexible 8-piece modular reconfiguration as Bonzy Home's other 18ft sets","20-person capacity suits genuinely large training or meeting spaces"],
     cons: ["120 lb per-unit capacity is still modest for heavier equipment","Aligning 8 separate units requires careful, time-consuming assembly"],
@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 8ft Conference Table measures 8ft and is built around spacious 8-10 person capacity, positioning it for 16 seater buyers specifically.\n\nElegant Walnut & Black Aesthetic is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 16 seater, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["8ft table dimensions","Spacious 8-10 Person Capacity","Elegant Walnut & Black Aesthetic"],
     pros: ["Spacious 8-10 Person Capacity, confirmed directly in the listing's own spec details","Elegant Walnut & Black Aesthetic, confirmed directly in the listing's own spec details","Integrated Cable Management, confirmed directly in the listing's own spec details"],
-    cons: ["At $389.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $400, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 16 seater",
   }
 
@@ -210,40 +210,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $389.99",
+          "Under $400",
           "Tribesigns 8ft Conference Table"
         ],
         [
-          "Around $689.99",
+          "Under $700",
           "Bonzy Home 14FT Conference Table for 16"
         ],
         [
-          "Around $689.99",
+          "Under $700",
           "13FT Conference Table for 16 Person"
         ],
         [
-          "Around $879.99",
+          "Under $900",
           "Bonzy Home 18ft Conference Table for 20"
         ],
         [
-          "Around $879.99",
+          "Under $900",
           "Bonzy Home 18ft Conference Table for 20"
         ],
         [
-          "Around $889.99",
+          "Under $900",
           "Tribesigns 12FT Conference Table for 14-16"
         ],
         [
-          "Around $999.99",
+          "Under $1,000",
           "Bonzy Home 20ft Conference Table for 24"
         ],
         [
-          "Around $1,199.99",
+          "Under $1,200",
           "Tribesigns 18ft Conference Table for 20-24 People"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -291,7 +291,7 @@ export const faq = [
     "a": "Not inherently. High-density MDF and particle board with a laminate or melamine finish are standard in this category and hold up well to daily commercial use. Solid wood, veneer over engineered wood, or steel-reinforced builds cost more and matter most where long-term durability or a premium look is the priority."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Bonzy Home 14FT Conference Table for 16 is aimed at buyers prioritizing 165.3\"d x 47.2\"w total, 6 combinable desk units." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Bonzy Home 14FT Conference Table for 16 is aimed at buyers prioritizing 165.3\"d x 47.2\"w total, 6 combinable desk units." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-6-person-conference-tables","title":"Best 6-Person Conference Tables in 2026"},{"href":"/guide/best-10-person-conference-tables","title":"Best 10-Person Conference Tables in 2026"},{"href":"/guide/best-8-person-conference-tables","title":"Best 8-Person Conference Tables in 2026"}];

@@ -12,7 +12,7 @@ export const gelVsBallpointPenExplainedGuide: Guide = {
     "gel pen vs ballpoint smoothness",
     "does gel pen smudge",
     "longest lasting pen type",
-    "best pen for daily writing",
+    "best pen for daily writing"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const gelVsBallpointPenExplainedGuide: Guide = {
     "desk-organizer-types-explained",
     "whiteboard-vs-corkboard",
     "sticky-note-system-vs-digital-planner",
-    "desk-caddy-vs-pen-cup",
+    "desk-caddy-vs-pen-cup"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const gelVsBallpointPenExplainedGuide: Guide = {
       question: "Does paper quality affect the choice between gel and ballpoint?",
       answer:
         "Yes somewhat, gel ink can bleed through very thin paper more readily than ballpoint due to its more fluid consistency, if you regularly write on thin paper, ballpoint may perform more reliably without bleed-through concerns.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const gelVsBallpointPenExplainedGuide: Guide = {
     {
       heading: "Why the Choice Often Comes Down to Personal Writing Feel",
       body: `Beyond the practical differences in dry time and ink longevity, much of the gel versus ballpoint preference comes down to individual writing feel, some people find gel's smoother glide more comfortable and less fatiguing for extended note-taking, while others prefer a ballpoint's firmer, more controlled resistance. Trying both types for your own regular writing tasks is a reasonable way to determine genuine personal preference beyond the general functional tradeoffs.`,
-    },
+    }
   ],
 };

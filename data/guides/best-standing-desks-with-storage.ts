@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "standing desk with storage";
 export const introParagraphs = [
   "Adding drawers or shelves to a standing desk sounds like a simple upgrade until you factor in what storage actually costs you elsewhere. A loaded drawer stresses a motor differently depending on whether it's mounted center or off to one side, drawer contents can drag the floor before the desk reaches its lowest height, and the storage itself eats into the desk surface area you thought you were getting. None of these tradeoffs show up in a typical product photo.",
-  "This guide looks specifically at how storage interacts with the standing desk mechanism itself, not just how many drawers a desk has. Below are 8 desks and desk-plus-cart combinations we evaluated for motor stability under load, floor clearance, combined weight capacity, and real usable surface area, ranging from $28.80 for a rolling laptop cart to $329.99 for a dual-motor bamboo-top desk.",
+  "This guide looks specifically at how storage interacts with the standing desk mechanism itself, not just how many drawers a desk has. Below are 8 desks and desk-plus-cart combinations we evaluated for motor stability under load, floor clearance, combined weight capacity, and real usable surface area, ranging from under $30 for a rolling laptop cart to under $350 for a dual-motor bamboo-top desk."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -46,8 +46,8 @@ export const products: GuideProduct[] = [
     badge: "Best L-Shaped with File Drawer",
     name: "Furologee 66-Inch L Shaped Desk with Power Outlet, File Drawer, Monitor Stands",
     price: "$99.99",
-    rating: "4.4 stars",
-    reviews: "2,032 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41PNTa55d1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C4XW9167?tag=deskfinds0d-20",
     description:
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Built-in file drawer",
       "Power outlet included",
       "2 monitor stands",
-      "Reversible corner configuration",
+      "Reversible corner configuration"
     ],
     pros: [
       "File drawer for real document storage",
       "Power outlet built into the desk",
       "Large total surface area",
-      "No motor stability tradeoff since it's fixed height",
+      "No motor stability tradeoff since it's fixed height"
     ],
     cons: [
       "Not height-adjustable",
       "Would need a separate desk converter for sit-stand use",
-      "Corner footprint doesn't suit every room layout",
+      "Corner footprint doesn't suit every room layout"
     ],
     bestFor: "Buyers who prioritize file storage and surface area over height adjustability",
   },
@@ -78,8 +78,8 @@ export const products: GuideProduct[] = [
     badge: "Best White L-Shaped with Drawers",
     name: "Lufeiya White L Shaped Computer Desk with Drawers and Storage Shelves",
     price: "$89.98",
-    rating: "4.4 stars",
-    reviews: "1,754 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41A3q0YLcML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJ8SSP2Q?tag=deskfinds0d-20",
     description:
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Fabric drawer included",
       "Open storage shelves",
       "Power outlet built in",
-      "Reversible corner configuration",
+      "Reversible corner configuration"
     ],
     pros: [
       "Fabric drawer plus open shelves for mixed storage",
       "Power outlet included",
       "No motor stability tradeoff, fixed height",
-      "Lower price than most adjustable options with storage",
+      "Lower price than most adjustable options with storage"
     ],
     cons: [
       "Not height-adjustable",
       "Open shelves less private than a closed drawer",
-      "Corner footprint requirement",
+      "Corner footprint requirement"
     ],
     bestFor: "Buyers who want mixed open and closed storage on a budget fixed desk",
   },
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Most Drawers on a Fixed Desk",
     name: "Sweetcrispy 47-Inch Computer Desk with 6 Fabric Drawers and Storage Shelves",
     price: "$59.98",
-    rating: "4.5 stars",
-    reviews: "365 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/5106rxAZBUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVDDHRRH?tag=deskfinds0d-20",
     description:
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "6 fabric storage drawers",
       "Additional open shelves",
       "Compact corner-friendly footprint",
-      "No motor, no height adjustment",
+      "No motor, no height adjustment"
     ],
     pros: [
       "Most drawer storage in this list",
       "No motor stability concerns",
       "Affordable price",
-      "Good for organizing many small items",
+      "Good for organizing many small items"
     ],
     cons: [
       "Fixed height only",
       "Six drawers meaningfully reduce open desktop surface",
-      "Not a true standing desk",
+      "Not a true standing desk"
     ],
     bestFor: "Buyers who need maximum drawer storage and don't need height adjustment",
   },
@@ -142,8 +142,8 @@ export const products: GuideProduct[] = [
     badge: "Best Rolling Sit-to-Stand Cart with Storage",
     name: "Techni Mobili Sit-to-Stand Rolling Adjustable Height Laptop Cart with Storage",
     price: "$28.80",
-    rating: "4.5 stars",
-    reviews: "7,239 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31+f1oDDjoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B003M96GY0?tag=deskfinds0d-20",
     description:
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Rolling casters",
       "Open shelf storage",
       "Compact 22 x 16 inch footprint",
-      "Graphite finish",
+      "Graphite finish"
     ],
     pros: [
       "Lowest price on this list by far",
       "No motor, so no motor stability concern",
       "Small footprint fits tight spaces",
-      "Large review base with a strong rating",
+      "Large review base with a strong rating"
     ],
     cons: [
       "Manual adjustment, not motorized",
       "Minimal storage compared to drawer desks",
-      "Not suited to heavier equipment",
+      "Not suited to heavier equipment"
     ],
     bestFor: "Tight spaces that need a cheap, flexible rolling option over a full desk",
   },
@@ -174,8 +174,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Motorized Desk for Storage Pairing",
     name: "HUANUO 32-Inch Small Electric Standing Desk, 4 Memory Height Settings",
     price: "$75.99",
-    rating: "4.6 stars",
-    reviews: "2,226 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ikoMgen5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9X3FDYY?tag=deskfinds0d-20",
     description:
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "4 memory height presets",
       "Single motor",
       "No built-in storage",
-      "Compact footprint",
+      "Compact footprint"
     ],
     pros: [
       "True motorized height adjustment",
       "Compact size suits small offices",
       "Memory presets for quick transitions",
-      "Strong rating and review base",
+      "Strong rating and review base"
     ],
     cons: [
       "No built-in storage, requires separate cart or drawer",
       "Single motor is more sensitive to off-center loads",
-      "Smaller surface than the L-shaped fixed desks",
+      "Smaller surface than the L-shaped fixed desks"
     ],
     bestFor: "Buyers who want a real motorized desk and will add their own storage separately",
   },
@@ -206,8 +206,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Motorized Desk for Storage Pairing",
     name: "Furmax Electric Standing Desk, 45 x 24 Inches, 4 Height Position Memory",
     price: "$79.99",
-    rating: "4.6 stars",
-    reviews: "222 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41XkTgfpQgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FK3DD4F1?tag=deskfinds0d-20",
     description:
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "4 height position memory",
       "Single motor",
       "No built-in storage",
-      "Rustic brown finish",
+      "Rustic brown finish"
     ],
     pros: [
       "Larger surface than the HUANUO for the same price range",
       "True motorized height adjustment",
       "Memory height presets",
-      "Strong rating",
+      "Strong rating"
     ],
     cons: [
       "No built-in storage",
       "Smaller review sample than top picks",
-      "Single motor, sensitive to off-center loads",
+      "Single motor, sensitive to off-center loads"
     ],
     bestFor: "Buyers who want a larger motorized surface to pair with their own storage",
   },
@@ -238,8 +238,8 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Motor Desk for Heavier Storage Loads",
     name: "FLEXISPOT E6 3-Stage Dual Motor Electric Standing Desk, 55 x 28, Holds 220 lbs",
     price: "$284.99",
-    rating: "4.4 stars",
-    reviews: "311 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41WJcV8uQrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVQMQMY2?tag=deskfinds0d-20",
     description:
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "220 lbs stated desktop capacity",
       "3-stage height adjustment",
       "Memory height presets",
-      "One-piece desktop, ships in 2 boxes",
+      "One-piece desktop, ships in 2 boxes"
     ],
     pros: [
       "Dual motor handles off-center loads better than single motor",
       "High stated desktop capacity",
       "Large surface area",
-      "Suited to pairing with heavier storage add-ons",
+      "Suited to pairing with heavier storage add-ons"
     ],
     cons: [
       "No built-in storage",
       "Highest price on this list",
-      "Smaller review sample relative to price point",
+      "Smaller review sample relative to price point"
     ],
     bestFor: "Buyers planning to add heavier storage who need dual-motor load stability",
   },
@@ -270,8 +270,8 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Motor Bamboo Top for Storage Pairing",
     name: "FlexiSpot E6 Bamboo 3-Stage Dual Motor Electric Standing Desk, 55 x 28, Holds 220 lbs",
     price: "$329.99",
-    rating: "4.4 stars",
-    reviews: "763 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41PnkwnA3VL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09DYF1SRQ?tag=deskfinds0d-20",
     description:
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Solid bamboo desktop",
       "220 lbs stated desktop capacity",
       "3-stage height adjustment",
-      "Memory height presets",
+      "Memory height presets"
     ],
     pros: [
       "Dual motor for stable off-center storage loads",
       "Premium bamboo desktop material",
       "High stated desktop capacity",
-      "Large review base",
+      "Large review base"
     ],
     cons: [
       "Highest price on this list",
       "No built-in storage",
-      "Heavier desktop material adds to shipping weight",
+      "Heavier desktop material adds to shipping weight"
     ],
     bestFor: "Buyers who want a premium bamboo surface with dual-motor storage stability",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -328,7 +328,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Value for price",
     description:
       "Weighed storage capacity, motor type, and surface area against price across the range of price points in this comparison in this list.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -482,11 +482,11 @@ export const faq: FaqItem[] = [
   {
     q: "Can a drawer block cable management on a standing desk?",
     a: "It can if the drawer sits directly under or beside the desk's cable grommet, blocking a clean pass-through to a power strip or dock below. Check drawer position against grommet location before buying if cable routing matters to your setup.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-standing-desks-for-short-people", title: "Best Standing Desks for Short People (2026)" },
   { href: "/guide/best-4-leg-standing-desks", title: "Best 4-Leg Standing Desks (2026)" },
-  { href: "/guide/best-filing-cabinets-for-home-offices", title: "Best Filing Cabinets for Home Offices (2026)" },
+  { href: "/guide/best-filing-cabinets-for-home-offices", title: "Best Filing Cabinets for Home Offices (2026)" }
 ];

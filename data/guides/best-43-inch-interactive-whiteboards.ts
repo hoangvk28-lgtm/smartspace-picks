@@ -215,11 +215,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "TouchWo 43in Touchscreen Monitor",
-        "text": "TouchWo 43in Touchscreen Monitor is aimed at buyers prioritizing 43in 1080p, android 12, rk3588 At $1,236.59, it's the lowest-cost pick in this comparison."
+        "text": "TouchWo 43in Touchscreen Monitor is aimed at buyers prioritizing 43in 1080p, android 12, rk3588 At under $1,300, it's the lowest-cost pick in this comparison."
       },
       {
         "label": "AYSTeKMann 43in Smart Board",
-        "text": "AYSTeKMann 43in Smart Board is aimed at buyers prioritizing 43in 4k, android 16, 100% ntsc gamut At $999.99, it sits at the higher end of this comparison's price range."
+        "text": "AYSTeKMann 43in Smart Board is aimed at buyers prioritizing 43in 4k, android 16, 100% ntsc gamut At under $1,000, it sits at the higher end of this comparison's price range."
       }
     ],
     "note": "Most buyers should default to TouchWo 43in Touchscreen Monitor unless the pricier pick's specific advantage applies to your situation."
@@ -263,7 +263,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "AYSTeKMann 43in Smart Board Buyers prioritizing 43in 4k, android 16, 100% ntsc gamut. JAV 43in Smart Board (Board Only) Buyers prioritizing 43in, edla-certified, ai voice remote."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -315,7 +315,7 @@ export const faq = [
     "a": "Yes, in almost every case. An OPS (Open Pluggable Specification) slot is just an expansion bay, the actual Windows computer module that plugs into it is sold separately and can cost as much as a mid-range laptop. Confirm the OPS module price before assuming Windows compatibility is included in the board's sticker price."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", "a": "AYSTeKMann 43in Smart Board is aimed at buyers prioritizing 43in 4k, android 16, 100% ntsc gamut" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", "a": "AYSTeKMann 43in Smart Board is aimed at buyers prioritizing 43in 4k, android 16, 100% ntsc gamut" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-small-interactive-whiteboards","title":"7 Best Small Interactive Whiteboards"},{"href":"/guide/best-50-inch-interactive-whiteboards","title":"5 Best 50-Inch Interactive Whiteboards"},{"href":"/guide/best-55-inch-interactive-whiteboards","title":"8 Best 55-Inch Interactive Whiteboards"}];

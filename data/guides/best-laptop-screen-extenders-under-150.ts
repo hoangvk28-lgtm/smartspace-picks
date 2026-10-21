@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51k2TKAKpxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFKLK9JY?tag=deskfinds0d-20",
-    description: "This is KEFEYA's step-up 14 inch model, priced above the brand's $89.99 base version covered in our under $100 guide, with the difference coming down to a refined hinge mechanism and stated improvements to panel uniformity that KEFEYA's own listing calls out directly rather than leaving vague.\n\nCompared to the Cevaton pick above, this stays a clip-on lid accessory rather than a standalone detachable monitor, keeping the folded profile thin and the weight low, a real advantage if portability between a home desk and a coffee shop matters more to you than maximum screen size. Against its own $89.99 sibling, the price difference buys incremental build refinement rather than a fundamentally different feature set.\n\nBest for buyers who already prefer the compact 14 inch clip-on form factor and want KEFEYA's most refined version of it, without stepping up to a larger detachable panel.",
-    specs: ["14\" FHD IPS, refined hinge mechanism", "Thin clip-on profile, lightweight for travel", "Step-up version of KEFEYA's base $89.99 model"],
+    description: "This is KEFEYA's step-up 14 inch model, priced above the brand's under $90 base version covered in our under $100 guide, with the difference coming down to a refined hinge mechanism and stated improvements to panel uniformity that KEFEYA's own listing calls out directly rather than leaving vague.\n\nCompared to the Cevaton pick above, this stays a clip-on lid accessory rather than a standalone detachable monitor, keeping the folded profile thin and the weight low, a real advantage if portability between a home desk and a coffee shop matters more to you than maximum screen size. Against its own under $90 sibling, the price difference buys incremental build refinement rather than a fundamentally different feature set.\n\nBest for buyers who already prefer the compact 14 inch clip-on form factor and want KEFEYA's most refined version of it, without stepping up to a larger detachable panel.",
+    specs: ["14\" FHD IPS, refined hinge mechanism", "Thin clip-on profile, lightweight for travel", "Step-up version of KEFEYA's base under $90 model"],
     pros: ["Refined hinge mechanism over the base KEFEYA model", "Stays thin and lightweight unlike detachable alternatives", "Same trusted panel quality as KEFEYA's proven base model"],
     cons: ["Price premium buys incremental refinement, not new features", "Smaller 14\" screen than the Cevaton 15.6\" pick"],
     bestFor: "buyers who want KEFEYA's most refined compact clip-on model",
@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["A real standalone detachable second screen", "Cevaton Laptop Screen Extender 15.6\" Detachable"],
         ["KEFEYA's most refined compact clip-on model", "KEFEYA Laptop Screen Extender 14\" (Premium)"],
-        ["Documented specs at the lowest price in this guide", "ROYY Laptop Screen Extender 14\""],
+        ["Documented specs at the lowest price in this guide", "ROYY Laptop Screen Extender 14\""]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $90", "ROYY Laptop Screen Extender 14\" ($89.09) or Miesebe Laptop Screen Extender 14\" ($89.99)"],
-        ["$120-$130", "KEFEYA Laptop Screen Extender 14\" (Premium) ($119.99) or Cevaton Laptop Screen Extender 15.6\" Detachable ($125.98)"],
+        ["Under $90", "ROYY Laptop Screen Extender 14\" (under $90) or Miesebe Laptop Screen Extender 14\" (under $90)"],
+        ["$120-$130", "KEFEYA Laptop Screen Extender 14\" (Premium) (under $120) or Cevaton Laptop Screen Extender 15.6\" Detachable (under $130)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Detachable vs Clip-On",
     cards: [
       { label: "Detachable (Cevaton)", text: "Fully separates from its mounting arm so it can serve as a standalone external monitor on its own stand. Best if you want the extender to double as a second monitor at a fixed desk, not just a lid-mounted accessory." },
-      { label: "Clip-On (ROYY, Miesebe, KEFEYA)", text: "Stays attached to your laptop's lid, keeping the setup thinner and lighter for carrying between locations, but it can't be used independently of the laptop." },
+      { label: "Clip-On (ROYY, Miesebe, KEFEYA)", text: "Stays attached to your laptop's lid, keeping the setup thinner and lighter for carrying between locations, but it can't be used independently of the laptop." }
     ],
     note: "Most buyers who travel between a desk and a coffee shop should default to a clip-on pick unless they specifically want a standalone second monitor at a fixed location.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Screen size preference", "Recommended pick"],
       rows: [
         ["14\" (thinner, lighter, more portable)", "ROYY, Miesebe, or KEFEYA Laptop Screen Extender 14\""],
-        ["15.6\" (more screen real estate)", "Cevaton Laptop Screen Extender 15.6\" Detachable"],
+        ["15.6\" (more screen real estate)", "Cevaton Laptop Screen Extender 15.6\" Detachable"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Frequent Travelers Specifically",
     cards: [
       { label: "Look for", text: "The thinnest folded profile and lowest weight, since a detachable design with a larger chassis adds bulk to a bag you're carrying daily." },
-      { label: "In this comparison", text: "The Miesebe Laptop Screen Extender 14\" is the thinnest and lightest option here at 0.27 inches and 1.87 lbs, making it the strongest fit for daily commuting." },
+      { label: "In this comparison", text: "The Miesebe Laptop Screen Extender 14\" is the thinnest and lightest option here at 0.27 inches and 1.87 lbs, making it the strongest fit for daily commuting." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You specifically want a detachable screen you can use as a standalone monitor, which only the Cevaton Laptop Screen Extender 15.6\" Detachable in this guide offers." },
-      { label: "Save if", text: "A thin, reliable 14\" clip-on extender covers your needs, where the ROYY Laptop Screen Extender 14\" delivers documented specs for under $90." },
+      { label: "Save if", text: "A thin, reliable 14\" clip-on extender covers your needs, where the ROYY Laptop Screen Extender 14\" delivers documented specs for under $90." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -181,7 +181,7 @@ export const buyingCriteria = [
 export const faq = [
   { "q": "Is a detachable screen extender worth the extra cost over a clip-on model?", "a": "It depends on how you'll use it. If you want the option to use the screen as a standalone monitor separate from your laptop, the detachable Cevaton pick is worth the premium. If you always use the extender attached to your laptop anyway, a clip-on model delivers the same core display experience for less." },
   { "q": "Can I use a 15.6 inch detachable extender with a smaller 13 inch laptop?", "a": "Yes, the extender's screen size is independent of your laptop's own display size, since it connects via cable rather than attaching directly to match your laptop's dimensions. Just confirm the mounting arm's clamp range fits your laptop's specific lid thickness before buying." },
-  { "q": "What's the actual difference between KEFEYA's $89.99 and $119.99 models?", "a": "According to KEFEYA's own listings, the price difference comes down to a refined hinge mechanism and improved panel uniformity, not a different screen size or resolution. Both use the same core 14 inch 1080P panel technology." },
+  { "q": "What's the actual difference between KEFEYA's under $90 and under $120 models?", "a": "According to KEFEYA's own listings, the price difference comes down to a refined hinge mechanism and improved panel uniformity, not a different screen size or resolution. Both use the same core 14 inch 1080P panel technology." },
   { "q": "How do I know if my laptop's USB-C port supports video output for a single-cable setup?", "a": "Check your laptop's specification sheet for terms like Thunderbolt 3.0/4.0 or DisplayPort Alt Mode next to the USB-C port listing. If it only says USB-C without either of those terms, it likely only supports charging and data, not video, and you'll need the HDMI plus USB-A power combination instead." },
   { "q": "Do detachable screen extenders need a separate stand to prop them up?", "a": "The Cevaton pick includes its own mounting arm that can support the screen in its attached position, but using it as a fully standalone monitor away from the laptop typically requires either propping it against something or using a separate stand not included in the box. Check the specific listing for what standalone support options are included." },
   { "q": "Will a bigger battery in a detachable extender make it last noticeably longer on a single charge?", "a": "Generally yes, a larger chassis housing more battery capacity supports longer standalone runtime compared to compact 14 inch clip-on designs, though exact runtime depends on screen brightness settings and usage. Check the specific listing for any stated runtime figures rather than assuming based on size alone." }

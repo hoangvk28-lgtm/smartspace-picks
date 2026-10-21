@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "TIGERKING 3.47 Cu Ft Fireproof Safe for Home Office and is built around built for the things you d hate to lose, positioning it for tigerking buyers specifically.\n\nHeavier Steel Body, More Reassuring Safe Feel is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for tigerking, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Built for the Things You d Hate to Lose","Heavier Steel Body, More Reassuring Safe Feel","Designed to Slow Heat, Not Just Store Valuables"],
     pros: ["Built for the Things You d Hate to Lose, confirmed directly in the listing's own spec details","Heavier Steel Body, More Reassuring Safe Feel, confirmed directly in the listing's own spec details","Designed to Slow Heat, Not Just Store Valuables, confirmed directly in the listing's own spec details"],
-    cons: ["At $297.49, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $300, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for tigerking",
   },
   {
@@ -126,7 +126,7 @@ export const products: GuideProduct[] = [
     description: "TIGERKING Biometric Fingerprint Fireproof Safe for Home Office and is built around 30-min fire protection for what you can t replace, positioning it for tigerking buyers specifically.\n\nControl Who Gets Access to Your Valuables is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for tigerking, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["30-Min Fire Protection for What You Can t Replace","Control Who Gets Access to Your Valuables","81.9 lb Heavy Steel Body for a More Secure Feel"],
     pros: ["30-Min Fire Protection for What You Can t Replace, confirmed directly in the listing's own spec details","Control Who Gets Access to Your Valuables, confirmed directly in the listing's own spec details","81.9 lb Heavy Steel Body for a More Secure Feel, confirmed directly in the listing's own spec details"],
-    cons: ["At $389.99, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $400, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for tigerking",
   },
   {
@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $197.99",
+          "Under $200",
           "TIGERKING Fireproof Home Safe"
         ],
         [
-          "Around $268.99",
+          "Under $300",
           "TIGERKING 2.05 Cu Ft Home Safe with Touchscreen Digital Lock"
         ],
         [
-          "Around $286.99",
+          "Under $300",
           "TIGERKING 3.47 Cu Ft Fireproof Safe for Home & Office"
         ],
         [
-          "Around $295.19",
+          "Under $300",
           "TIGERKING 3.47 Cu Ft Fireproof Safe Box with Drawer"
         ],
         [
-          "Around $297.49",
+          "Under $300",
           "TIGERKING 3.47 Cu Ft Fireproof Safe for Home Office"
         ],
         [
-          "Around $311.99",
+          "Under $350",
           "TIGERKING Biometric Fingerprint Fireproof Safe"
         ],
         [
-          "Around $379.99",
+          "Under $400",
           "SentrySafe 1.23 Cu Ft Biometric Fireproof & Waterproof Safe"
         ],
         [
-          "Around $389.99",
+          "Under $400",
           "TIGERKING Biometric Fingerprint Fireproof Safe for Home Office"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Not exactly. Fire insulation, shelving, and door hardware all take up interior volume, so the nominal cubic-foot figure is always somewhat larger than what you can actually pack inside. Check interior dimensions and shelf layout, not just the headline capacity number."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "TIGERKING 3.47 Cu Ft Fireproof Safe for Home & Office is aimed at buyers prioritizing 3.47 cu ft, 81.9 lbs, ul 72 standard tested." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "TIGERKING 3.47 Cu Ft Fireproof Safe for Home & Office is aimed at buyers prioritizing 3.47 cu ft, 81.9 lbs, ul 72 standard tested." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-brinks-fireproof-safes","title":"Best Brinks Fireproof Safes in 2026"},{"href":"/guide/best-first-alert-fireproof-safes","title":"Best First Alert Fireproof Safes in 2026"},{"href":"/guide/best-honeywell-fireproof-safes","title":"Best Honeywell Fireproof Safes in 2026"}];

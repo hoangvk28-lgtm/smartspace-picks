@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "flip desk clock";
 export const introParagraphs = [
   "A flip desk clock displays the time on physical number cards that flip down as minutes and hours change, a genuinely distinct visual and mechanical experience compared to analog hands or a digital display. All four picks below use this core flip action, but they differ meaningfully in movement type, base material, and price.",
-  "If a flip clock's mechanical click bothers you, one of these picks uses a silent electronic movement instead of a purely mechanical gear flip, we call that out explicitly below.",
+  "If a flip clock's mechanical click bothers you, one of these picks uses a silent electronic movement instead of a purely mechanical gear flip, we call that out explicitly below."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "6 min";
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed genuine flip mechanism for every pick", description: "Verified each product uses a real gear-driven or electronic flip action to display numbers, rather than a printed flip-style graphic on a standard display." },
   { title: "Movement type checked for noise level differences", description: "Distinguished mechanical gear-driven flips, which click audibly, from the one silent electronic movement pick in this group." },
   { title: "Base material and finish compared across the group", description: "Noted where a wood base adds material quality versus a plain plastic housing, since this affects both look and price." },
-  { title: "Size and footprint assessed against typical desk space", description: "Compared the compact mooas pick against the larger KENJIEY and FOSA clocks to help buyers match size to available desk room." },
+  { title: "Size and footprint assessed against typical desk space", description: "Compared the compact mooas pick against the larger KENJIEY and FOSA clocks to help buyers match size to available desk room." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -230,11 +230,11 @@ export const faq: FaqItem[] = [
   { q: "Are flip clocks loud?", a: "Most use a gear-driven mechanism that clicks audibly on each flip. One pick in this guide, the FOSA clock, uses a silent electronic movement instead if noise is a concern." },
   { q: "Do flip clocks need batteries?", a: "Yes, all four picks in this guide are battery powered, none require a wall outlet." },
   { q: "Is a flip clock the same as a mechanical wind-up clock?", a: "No, flip clocks use a genuine gear or electronic mechanism but run on batteries. A true wind-up mechanical clock uses a spring movement with no battery at all, see our mechanical desk clocks guide for that distinction." },
-  { q: "What is the smallest flip clock in this guide?", a: "The mooas Flip Desk Clock has the most compact table-clock footprint among these picks." },
+  { q: "What is the smallest flip clock in this guide?", a: "The mooas Flip Desk Clock has the most compact table-clock footprint among these picks." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mechanical-desk-clocks", title: "Best Mechanical Desk Clocks (2026)" },
   { href: "/guide/best-vintage-desk-clocks", title: "Best Vintage Desk Clocks (2026)" },
-  { href: "/guide/best-retro-desk-clocks", title: "Best Retro Desk Clocks (2026)" },
+  { href: "/guide/best-retro-desk-clocks", title: "Best Retro Desk Clocks (2026)" }
 ];

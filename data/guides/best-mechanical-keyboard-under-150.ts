@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41AjMijAnjL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GWD1VT82?tag=deskfinds0d-20",
-    "description": "What stands out on nuphy Air100 V3 Wireless Mechanical Keyboard with Multifunctional knob is gasket mounted, alongside multi-device compatibility, which is the main reason it earns a spot in this mechanical keyboards comparison.\n\nSitting at $149.95, the top of this comparison's price range, it asks buyers to confirm the added capability is actually worth it over the more affordable picks here before paying the premium.\n\nnuphy Air100 V3 Wireless Mechanical Keyboard with Multifunctional knob is the right call for buyers who know their preferred switch feel and layout size and want a reliable board without custom-building one. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on nuphy Air100 V3 Wireless Mechanical Keyboard with Multifunctional knob is gasket mounted, alongside multi-device compatibility, which is the main reason it earns a spot in this mechanical keyboards comparison.\n\nSitting at under $150, the top of this comparison's price range, it asks buyers to confirm the added capability is actually worth it over the more affordable picks here before paying the premium.\n\nnuphy Air100 V3 Wireless Mechanical Keyboard with Multifunctional knob is the right call for buyers who know their preferred switch feel and layout size and want a reliable board without custom-building one. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Gasket Mounted",
       "Multi-Device Compatibility",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41RIiEEtGGL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CQ31VFT4?tag=deskfinds0d-20",
-    "description": "Corsair K65 Plus Wireless RGB 75% Mechanical Gaming Keyboard - Black/Gray leads with corsair mlx red switches, backed by fast and secure wireless connections, a combination aimed at as a keyboard built around a specific switch and layout choice rather than a one-size-fits-all pick.\n\nCompared to Corsair K70 CORE RGB Mechanical Wired Gaming Keyboard with Palmrest - Black at $107, it costs more for real added capability, while sitting well below nuphy Air100 V3 Wireless Mechanical Keyboard with Multifunctional knob at $149.95 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who know their preferred switch feel and layout size and want a reliable board without custom-building one. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "Corsair K65 Plus Wireless RGB 75% Mechanical Gaming Keyboard - Black/Gray leads with corsair mlx red switches, backed by fast and secure wireless connections, a combination aimed at as a keyboard built around a specific switch and layout choice rather than a one-size-fits-all pick.\n\nCompared to Corsair K70 CORE RGB Mechanical Wired Gaming Keyboard with Palmrest - Black at under $110, it costs more for real added capability, while sitting well below nuphy Air100 V3 Wireless Mechanical Keyboard with Multifunctional knob at under $150 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who know their preferred switch feel and layout size and want a reliable board without custom-building one. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "CORSAIR MLX Red Switches",
       "Fast and Secure Wireless Connections",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41WdEmVY6EL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GGXBKMN3?tag=deskfinds0d-20",
-    "description": "Keychron J3 SE Pink Blue Wireless Mechanical Keyboard is built around tri-mode connectivity for ultimate flexibility, paired with customization for personalized control, positioning it as a keyboard built around a specific switch and layout choice rather than a one-size-fits-all pick.\n\nIt lands between Corsair K70 CORE RGB Mechanical Wired Gaming Keyboard with Palmrest - Black's $107 price floor and nuphy Air100 V3 Wireless Mechanical Keyboard with Multifunctional knob's $149.95 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nKeychron J3 SE Pink Blue Wireless Mechanical Keyboard is the right call for buyers who know their preferred switch feel and layout size and want a reliable board without custom-building one. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "Keychron J3 SE Pink Blue Wireless Mechanical Keyboard is built around tri-mode connectivity for ultimate flexibility, paired with customization for personalized control, positioning it as a keyboard built around a specific switch and layout choice rather than a one-size-fits-all pick.\n\nIt lands between Corsair K70 CORE RGB Mechanical Wired Gaming Keyboard with Palmrest - Black's $107 price floor and nuphy Air100 V3 Wireless Mechanical Keyboard with Multifunctional knob's under $150 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nKeychron J3 SE Pink Blue Wireless Mechanical Keyboard is the right call for buyers who know their preferred switch feel and layout size and want a reliable board without custom-building one. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Tri-Mode Connectivity for Ultimate Flexibility",
       "Customization for Personalized Control",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/415iI6ZpWmL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DKXH5WCD?tag=deskfinds0d-20",
-    "description": "What stands out on 8Bitdo Retro 108 Mechanical Wireless Keyboard for PC & Android is inspired by the classics. compatible, alongside 108-key full layout. integrated numpad, which is the main reason it earns a spot in this mechanical keyboards comparison.\n\nCompared to Corsair K70 CORE RGB Mechanical Wired Gaming Keyboard with Palmrest - Black at $107, it costs more for real added capability, while sitting well below nuphy Air100 V3 Wireless Mechanical Keyboard with Multifunctional knob at $149.95 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who know their preferred switch feel and layout size and want a reliable board without custom-building one. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "What stands out on 8Bitdo Retro 108 Mechanical Wireless Keyboard for PC & Android is inspired by the classics. compatible, alongside 108-key full layout. integrated numpad, which is the main reason it earns a spot in this mechanical keyboards comparison.\n\nCompared to Corsair K70 CORE RGB Mechanical Wired Gaming Keyboard with Palmrest - Black at under $110, it costs more for real added capability, while sitting well below nuphy Air100 V3 Wireless Mechanical Keyboard with Multifunctional knob at under $150 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who know their preferred switch feel and layout size and want a reliable board without custom-building one. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Inspired by the classics. Compatible",
       "108-key full layout. Integrated numpad",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/318BHnL3mbL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GFS6TJBG?tag=deskfinds0d-20",
-    "description": "nuphy Node100 Wireless Mechanical Keyboard is built around gesture touch, paired with tri-mode connection keyboard, positioning it as a keyboard built around a specific switch and layout choice rather than a one-size-fits-all pick.\n\nIt lands between Corsair K70 CORE RGB Mechanical Wired Gaming Keyboard with Palmrest - Black's $107 price floor and nuphy Air100 V3 Wireless Mechanical Keyboard with Multifunctional knob's $149.95 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nnuphy Node100 Wireless Mechanical Keyboard is the right call for buyers who know their preferred switch feel and layout size and want a reliable board without custom-building one. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "nuphy Node100 Wireless Mechanical Keyboard is built around gesture touch, paired with tri-mode connection keyboard, positioning it as a keyboard built around a specific switch and layout choice rather than a one-size-fits-all pick.\n\nIt lands between Corsair K70 CORE RGB Mechanical Wired Gaming Keyboard with Palmrest - Black's $107 price floor and nuphy Air100 V3 Wireless Mechanical Keyboard with Multifunctional knob's under $150 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nnuphy Node100 Wireless Mechanical Keyboard is the right call for buyers who know their preferred switch feel and layout size and want a reliable board without custom-building one. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Gesture Touch",
       "Tri-mode Connection Keyboard",
@@ -273,23 +273,23 @@ export const howToChoose: HowToChooseSection[] = [
           "Corsair K70 CORE RGB Mechanical Wired Gaming Keyboard with Palmrest - Black"
         ],
         [
-          "Around $109.95",
+          "Under $110",
           "nuphy Node100 Wireless Mechanical Keyboard"
         ],
         [
-          "Around $119.99",
+          "Under $120",
           "8Bitdo Retro 108 Mechanical Wireless Keyboard for PC & Android"
         ],
         [
-          "Around $129.99",
+          "Under $130",
           "Corsair K65 Plus Wireless RGB 75% Mechanical Gaming Keyboard - Black/Gray"
         ],
         [
-          "Around $129.99",
+          "Under $130",
           "Keychron J3 SE Pink Blue Wireless Mechanical Keyboard"
         ],
         [
-          "Around $149.95",
+          "Under $150",
           "nuphy Air100 V3 Wireless Mechanical Keyboard with Multifunctional knob"
         ]
       ]
@@ -300,11 +300,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Corsair K70 CORE RGB Mechanical Wired Gaming Keyboard with Palmrest - Black",
-        "text": "The lowest-priced pick in this comparison at $107, a solid choice if you don't need the extras the pricier picks carry."
+        "text": "The lowest-priced pick in this comparison at under $110, a solid choice if you don't need the extras the pricier picks carry."
       },
       {
         "label": "nuphy Air100 V3 Wireless Mechanical Keyboard with Multifunctional knob",
-        "text": "The highest-priced pick at $149.95, worth it only if you'll actually use what that premium buys."
+        "text": "The highest-priced pick at under $150, worth it only if you'll actually use what that premium buys."
       }
     ],
     "note": "Default to Corsair K70 CORE RGB Mechanical Wired Gaming Keyboard with Palmrest - Black unless the pricier pick's specific advantage genuinely applies to your situation."
@@ -364,7 +364,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "What's the real difference between the cheapest and most expensive pick here?",
-    "a": "Corsair K70 CORE RGB Mechanical Wired Gaming Keyboard with Palmrest - Black at $107 covers the basics, while nuphy Air100 V3 Wireless Mechanical Keyboard with Multifunctional knob at $149.95 adds wireless connectivity and hot-swap switch flexibility. Whether that's worth the difference depends on whether you value the flexibility to change switches or go cable-free, versus a straightforward wired board that just works."
+    "a": "Corsair K70 CORE RGB Mechanical Wired Gaming Keyboard with Palmrest - Black at under $110 covers the basics, while nuphy Air100 V3 Wireless Mechanical Keyboard with Multifunctional knob at under $150 adds wireless connectivity and hot-swap switch flexibility. Whether that's worth the difference depends on whether you value the flexibility to change switches or go cable-free, versus a straightforward wired board that just works."
   },
   {
     "q": "What's the difference between linear, tactile, and clicky switches?",
@@ -376,7 +376,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "Is there a solid middle-ground pick in this price range?",
-    "a": "Corsair K65 Plus Wireless RGB 75% Mechanical Gaming Keyboard - Black/Gray at $129.99 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
+    "a": "Corsair K65 Plus Wireless RGB 75% Mechanical Gaming Keyboard - Black/Gray at under $130 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
   },
   {
     "q": "What's the most common mistake buyers make shopping mechanical keyboards under $150?",

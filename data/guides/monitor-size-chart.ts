@@ -12,7 +12,7 @@ export const monitorSizeChartGuide: Guide = {
     "monitor size for desk depth",
     "best monitor size for viewing distance",
     "24 inch vs 27 inch monitor desk",
-    "how big monitor for small desk",
+    "how big monitor for small desk"
   ],
   heroImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const monitorSizeChartGuide: Guide = {
     "monitor-resolution-explained",
     "monitor-arm-size-chart",
     "how-to-measure-desk-for-monitor-arm",
-    "ultrawide-vs-dual-monitor",
+    "ultrawide-vs-dual-monitor"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const monitorSizeChartGuide: Guide = {
       question: "Does monitor size need to match resolution?",
       answer:
         "They should scale together, a 32-inch monitor at only 1080p resolution shows visibly larger, softer pixels than the same size at 1440p or 4K, so consider resolution alongside size rather than sizing up without also increasing resolution.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const monitorSizeChartGuide: Guide = {
     {
       heading: "Sizing Up Without Creating New Problems",
       body: `If you're upgrading from a smaller monitor, increase size gradually rather than jumping several sizes at once, since your desk depth and seating habits were likely calibrated around the smaller screen's ideal viewing distance. Pair a size increase with a resolution increase when possible, a larger monitor at the same resolution as your old smaller one shows more visible pixel structure up close.`,
-    },
+    }
   ],
 };

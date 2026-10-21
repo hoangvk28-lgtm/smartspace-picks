@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desk cup holders";
 export const introParagraphs = [
   "A desk cup holder's entire purpose is preventing spills onto your desk, so we treated tip and bump resistance as the core test rather than assuming it from the product's existence. We also checked weight capacity for a genuinely full beverage, not an empty demonstration cup, since an underrated holder risks the exact failure it exists to prevent.",
-  "The eight picks below range from simple metal clamps to multi-function hybrids with an integrated headphone hanger, all attaching to a desk edge without drilling.",
+  "The eight picks below range from simple metal clamps to multi-function hybrids with an integrated headphone hanger, all attaching to a desk edge without drilling."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -163,7 +163,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Tip and spill resistance", description: "We favored deep, form-fitting cavity designs over shallow flat-ring holders, since cavity depth is the main real-world defense against incidental bumps." },
   { title: "Weight capacity for a full beverage", description: "We considered clamp and cavity construction against holding a genuinely full drink, not an empty demonstration cup." },
   { title: "Desk edge clamp compatibility", description: "We checked clamp opening range and material (metal vs. plastic) for durability under repeated tightening across varied desk edges." },
-  { title: "Hybrid feature verification", description: "For 2-in-1 or multi-function picks, we verified the combined features are genuine and well-reviewed rather than a token add-on." },
+  { title: "Hybrid feature verification", description: "For 2-in-1 or multi-function picks, we verified the combined features are genuine and well-reviewed rather than a token add-on." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -295,11 +295,11 @@ export const faq: FaqItem[] = [
   { q: "Will a desk cup holder really prevent spills?", a: "A deep, form-fitting cavity design meaningfully reduces spill risk from incidental bumps, but no clamp holder is completely spill-proof against a hard direct hit. Cavity depth is the main factor separating genuinely protective designs from token ones." },
   { q: "Can I fit a large tumbler like a Stanley or Yeti in these holders?", a: "The OOKUU Deeper and standard picks are designed with large-diameter cavities that fit most oversized tumblers. Check the specific diameter spec if your tumbler is unusually wide." },
   { q: "Is a metal or plastic clamp better?", a: "Metal clamps generally hold their grip strength longer under repeated tightening. Reinforced heavy-duty plastic, like the Universal pick, is a lighter and cheaper alternative that still performs well if you don't reposition it often." },
-  { q: "Do any of these holders combine with other desk accessories?", a: "Yes, the GUNKING pick combines a cup holder with a headphone hanger on one clamp base, useful for saving desk-edge clamp space if you want both features." },
+  { q: "Do any of these holders combine with other desk accessories?", a: "Yes, the GUNKING pick combines a cup holder with a headphone hanger on one clamp base, useful for saving desk-edge clamp space if you want both features." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-clamp-on-desk-cup-holders", title: "Best Clamp-On Desk Cup Holders (2026)" },
   { href: "/guide/best-under-desk-cup-holders", title: "Best Under-Desk Cup Holders (2026)" },
-  { href: "/guide/best-anti-spill-desk-cup-holders", title: "Best Anti-Spill Desk Cup Holders (2026)" },
+  { href: "/guide/best-anti-spill-desk-cup-holders", title: "Best Anti-Spill Desk Cup Holders (2026)" }
 ];

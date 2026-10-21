@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "tabletop pegboard display";
 export const introParagraphs = [
   "Worth being upfront here, this search term leans strongly toward retail and merchandising intent, showcasing jewelry, keychains, or other small items for sale at a craft show or vendor booth, rather than home-office desk organization. The four picks in this guide are genuinely retail display products, and if you're actually looking for a way to organize cables, hooks, or accessories at your home desk, our other pegboard guides on this site cover that use case far better than these products would.",
-  "Because these are customer-facing display products, the expectation for construction quality shifts too, an aesthetic finish that looks good to a shopper browsing a table matters more here than the utilitarian, heavy-duty durability you'd want from a desk-organization pegboard meant for years of daily hook use. Worth judging these picks by that standard rather than the durability bar used elsewhere on this site.",
+  "Because these are customer-facing display products, the expectation for construction quality shifts too, an aesthetic finish that looks good to a shopper browsing a table matters more here than the utilitarian, heavy-duty durability you'd want from a desk-organization pegboard meant for years of daily hook use. Worth judging these picks by that standard rather than the durability bar used elsewhere on this site."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "7 min";
@@ -26,14 +26,14 @@ export const products: GuideProduct[] = [
     badge: "Best Overall for Craft Shows, White",
     name: "Acfunique Peg Board Display Stand for Vendors with 12 Hooks, Metal Tabletop Pegboard Display Stand for Craft Shows, 17\" X 13\", White",
     price: "$19.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "243 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41xAYtEPScL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D28PWFMS?tag=deskfinds0d-20",
     description:
-      "A compact 17 by 13 inch metal display stand with 12 hooks, sized for a vendor table at a craft show rather than a home desk, and built for showcasing small items like jewelry or accessories for sale.\n\nThe clean white finish and solid 4.6-star rating across a substantial review base make this a reliable choice for a first-time vendor stocking a booth display.\n\nA genuine advantage here is that 12 included hooks cover a realistic small booth display. The tradeoff is that not designed for home desk cable or accessory organization.",
+      "A compact 17 by 13 inch metal display stand with 12 hooks, sized for a vendor table at a craft show rather than a home desk, and built for showcasing small items like jewelry or accessories for sale.\n\nA genuine advantage here is that 12 included hooks cover a realistic small booth display. The tradeoff is that not designed for home desk cable or accessory organization.",
     specs: ["17 x 13 inch tabletop stand", "12 hooks included", "Metal construction", "White finish"],
-    pros: ["Solid 4.6-star rating with a substantial review base", "12 included hooks cover a realistic small booth display", "Compact size fits easily on a vendor table", "Clean white finish suits a range of product types"],
+    pros: [ "12 included hooks cover a realistic small booth display", "Compact size fits easily on a vendor table", "Clean white finish suits a range of product types"],
     cons: ["Not designed for home desk cable or accessory organization", "Aesthetic finish prioritized over heavy-duty daily-use durability", "Small footprint limits display capacity for larger items"],
     bestFor: "First-time craft show or market vendors wanting a reliable, well-reviewed tabletop display stand.",
   },
@@ -43,14 +43,14 @@ export const products: GuideProduct[] = [
     badge: "Best Overall for Craft Shows, Black",
     name: "Peg Board Display Stand for Vendors with 12 Hooks, Metal Tabletop Pegboard Display Stand for Craft Shows, 17\" X 13\", Black",
     price: "$19.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "243 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/511s8JMkbmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D28G6X4W?tag=deskfinds0d-20",
     description:
-      "The same 17 by 13 inch metal display stand as the white version, in a black finish that suits darker or more premium-feeling product displays like jewelry or craft goods.\n\nSame 12-hook layout and the identical strong 4.6-star rating, the choice between this and the white version comes down entirely to which finish complements your specific products.\n\nBlack finish suits darker or premium product displays. That said, not designed for home desk cable or accessory organization. Neither should be a surprise once you know to look for it.",
+      "The same 17 by 13 inch metal display stand as the white version, in a black finish that suits darker or more premium-feeling product displays like jewelry or craft goods.\n\nBlack finish suits darker or premium product displays. That said, not designed for home desk cable or accessory organization. Neither should be a surprise once you know to look for it.",
     specs: ["17 x 13 inch tabletop stand", "12 hooks included", "Metal construction", "Black finish"],
-    pros: ["Solid 4.6-star rating shared with the white version", "Black finish suits darker or premium product displays", "12 included hooks cover a realistic small booth setup", "Compact size fits easily on a vendor table"],
+    pros: [ "Black finish suits darker or premium product displays", "12 included hooks cover a realistic small booth setup", "Compact size fits easily on a vendor table"],
     cons: ["Not designed for home desk cable or accessory organization", "Aesthetic finish prioritized over heavy-duty daily-use durability", "Small footprint limits display capacity for larger items"],
     bestFor: "Vendors wanting the same reliable display stand as the white version in a darker finish.",
   },
@@ -60,14 +60,14 @@ export const products: GuideProduct[] = [
     badge: "Best for Keychain Displays",
     name: "Peg Board Display Stand, 2PCS Keychain Display with 20 Hooks, Black",
     price: "$35.66",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "378 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51HfN7wt6vL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP15DGV5?tag=deskfinds0d-20",
     description:
-      "A two-piece set with 20 hooks total specifically suited to keychain or small-item displays, giving more hanging capacity and the flexibility of two separate stands rather than one fixed unit.\n\nWith a strong review base of nearly 400 ratings, this is a proven pick for vendors specifically selling small hanging items like keychains, charms, or similar accessories.\n\nWorth calling out specifically: 20 total hooks suit high-volume small-item inventory. The catch is higher price than the single-stand options.",
+      "A two-piece set with 20 hooks total specifically suited to keychain or small-item displays, giving more hanging capacity and the flexibility of two separate stands rather than one fixed unit.\n\nWorth calling out specifically: 20 total hooks suit high-volume small-item inventory. The catch is higher price than the single-stand options.",
     specs: ["2 stands included", "20 hooks total", "Black finish", "Keychain-focused hook design"],
-    pros: ["Two stands give layout flexibility across a booth table", "20 total hooks suit high-volume small-item inventory", "Strong review base of nearly 400 ratings", "Purpose-suited hook spacing for keychains and small charms"],
+    pros: ["Two stands give layout flexibility across a booth table", "20 total hooks suit high-volume small-item inventory", "Purpose-suited hook spacing for keychains and small charms"],
     cons: ["Higher price than the single-stand options", "Not designed for home desk cable or accessory organization", "Hook spacing suited to small items, less useful for larger products"],
     bestFor: "Vendors selling keychains or similar small hanging items who want two stands and higher hook capacity.",
   },
@@ -77,17 +77,17 @@ export const products: GuideProduct[] = [
     badge: "Best for Larger Booth Setups",
     name: "Ultrawall Pegboard Display Stand, Metal Tabletop Pegboard Display, Accessories Rack Organizer for Jewelry, Retail Stores, Craft Shows, 12\"X16\", 4pcs Black",
     price: "$45.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "146 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Y4wFudmPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBHJ71VB?tag=deskfinds0d-20",
     description:
       "A set of four 12 by 16 inch metal display panels, giving substantially more total display area than the single or double-stand options, appropriate for vendors with a larger booth or retail counter to fill.\n\nThe four-panel set allows arranging displays across a wider table or splitting inventory categories visually, a genuine advantage for a bigger jewelry or accessories booth setup.\n\nMetal build holds up to repeated booth setup and teardown. Set against that, highest price in this list. Both matter when comparing it to the other picks here.",
     specs: ["4 panels, 12 x 16 inches each", "Metal construction", "Black finish", "Jewelry and retail accessory focus"],
-    pros: ["Four panels give substantially more total display area", "Metal build holds up to repeated booth setup and teardown", "Flexible arrangement across a wider table or counter", "Solid 4.5-star rating with a meaningful review base"],
+    pros: ["Four panels give substantially more total display area", "Metal build holds up to repeated booth setup and teardown", "Flexible arrangement across a wider table or counter"],
     cons: ["Highest price in this list", "Not designed for home desk cable or accessory organization", "Four separate panels take more setup time than a single stand"],
     bestFor: "Vendors with a larger booth or retail counter wanting maximum total display area.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -95,7 +95,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Search intent assessed honestly", description: "Recognized this search term leans toward retail and craft-show merchandising intent rather than home-office desk organization, and evaluated products against that actual use case." },
   { title: "Display capacity for vendor inventory", description: "Weighed hook count and panel size against realistic small-business inventory needs for a booth or retail counter." },
   { title: "Aesthetic finish over heavy-duty daily use", description: "Judged construction quality against a customer-facing display standard rather than the utilitarian durability bar used for home desk organization pegboards." },
-  { title: "Setup and teardown practicality", description: "Considered how easily each stand could be set up and packed away for a mobile vendor booth versus a fixed retail counter." },
+  { title: "Setup and teardown practicality", description: "Considered how easily each stand could be set up and packed away for a mobile vendor booth versus a fixed retail counter." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -211,11 +211,11 @@ export const faq: FaqItem[] = [
   { q: "Is a tabletop pegboard display good for home desk organization?", a: "Not really, these are retail and craft-show merchandising products built for showcasing items for sale, a dedicated desk pegboard guide is a better fit for home-office organization." },
   { q: "How many hooks do I need for a craft show booth?", a: "It depends on your inventory, a single 12-hook stand suits a small booth, while a multi-panel set with more hooks suits a larger table or higher-volume inventory." },
   { q: "Are these display stands durable enough for daily desk use?", a: "They're built for a customer-facing display standard prioritizing aesthetic finish rather than the heavy-duty daily-use durability expected from a desk-organization pegboard." },
-  { q: "Can I use a keychain display stand for other small items?", a: "Yes, the hook spacing suited to keychains generally works for other small hanging items like charms or small jewelry, though it's less suited to bulkier products." },
+  { q: "Can I use a keychain display stand for other small items?", a: "Yes, the hook spacing suited to keychains generally works for other small hanging items like charms or small jewelry, though it's less suited to bulkier products." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-pegboards", title: "Best Desk Pegboards (2026)" },
   { href: "/guide/best-desk-pegboard-organizers", title: "Best Desk Pegboard Organizers (2026)" },
-  { href: "/guide/best-desktop-pegboards", title: "Best Desktop Pegboards (2026)" },
+  { href: "/guide/best-desktop-pegboards", title: "Best Desktop Pegboards (2026)" }
 ];

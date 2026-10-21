@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "acer monitor privacy screen";
 export const introParagraphs = [
   "Acer does not manufacture monitor privacy filters as a standard accessory line. Every product here is a third-party filter sized to fit common Acer monitor dimensions, not a certified Acer accessory.",
-  "Acer's monitor lineup, spanning budget and gaming-adjacent models, is predominantly 16:9 across 21.5, 23.8, and 24 inch sizes. We matched picks to these common sizes and flagged where a specific model's dimensions need direct verification.",
+  "Acer's monitor lineup, spanning budget and gaming-adjacent models, is predominantly 16:9 across 21.5, 23.8, and 24 inch sizes. We matched picks to these common sizes and flagged where a specific model's dimensions need direct verification."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -94,9 +94,9 @@ export const products: GuideProduct[] = [
     reviews: "70",
     imageUrl: "https://m.media-amazon.com/images/I/41k059xiB9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVRQTXC8?tag=deskfinds0d-20",
-    description: "Some of Acer's older or compact monitors use a 16:10 aspect ratio rather than 16:9, and this pick is specifically sized for that ratio at 22 inches.\n\nOne spot below [2 Pack] 23.8 Inch Computer Monitor Privacy Screen in this ranking, it's priced lower than [2 Pack] 23.8 Inch Computer Monitor Privacy Screen. The compromise here is straightforward: Only fits 16:10 monitors, confirm your model's exact aspect ratio first. What you gain in return: Specifically sized for 16:10, relevant for older or compact Acer models. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Strong 4.6 rating. On the other side, Only fits 16:10 monitors, confirm your model's exact aspect ratio first. That's the main tradeoff to weigh against everything above.",
+    description: "Some of Acer's older or compact monitors use a 16:10 aspect ratio rather than 16:9, and this pick is specifically sized for that ratio at 22 inches.\n\nOne spot below [2 Pack] 23.8 Inch Computer Monitor Privacy Screen in this ranking, it's priced lower than [2 Pack] 23.8 Inch Computer Monitor Privacy Screen. The compromise here is straightforward: Only fits 16:10 monitors, confirm your model's exact aspect ratio first. What you gain in return: Specifically sized for 16:10, relevant for older or compact Acer models. Whether that trade is worth it depends on which side matters more for your setup.\n\nOn the other side, Only fits 16:10 monitors, confirm your model's exact aspect ratio first. That's the main tradeoff to weigh against everything above.",
     specs: ["22 inch, 16:10 aspect ratio","2-pack"],
-    pros: ["Specifically sized for 16:10, relevant for older or compact Acer models","Strong 4.6 rating"],
+    pros: ["Specifically sized for 16:10, relevant for older or compact Acer models"],
     cons: ["Only fits 16:10 monitors, confirm your model's exact aspect ratio first"],
     bestFor: "Buyers with an older or compact Acer monitor using a 16:10 aspect ratio.",
   },
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified Acer does not manufacture privacy filters", description: "We confirmed all results here are third-party filters and did not imply Acer branding or certification unless the listing explicitly and specifically claimed it." },
   { title: "Matched picks to Acer's common monitor sizes and aspect ratios", description: "We organized picks around Acer's most common 21.5, 22, 23.8, and 24 inch monitor sizes, including the 16:10 aspect ratio used on some older or compact models." },
   { title: "Flagged the 23.8 versus standard 24 inch distinction", description: "Acer sells both sizes, and we included filters specifically sized for each rather than rounding one to the other." },
-  { title: "Weighed review volume within each size tier separately", description: "We compared review counts within the same size and aspect ratio, since a 24 inch filter's review base isn't a useful comparison against a 21.5 inch filter's." },
+  { title: "Weighed review volume within each size tier separately", description: "We compared review counts within the same size and aspect ratio, since a 24 inch filter's review base isn't a useful comparison against a 21.5 inch filter's." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -249,7 +249,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
-    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nThis matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
   }
 ];
 
@@ -258,11 +258,11 @@ export const faq: FaqItem[] = [
   { q: "Are all Acer monitors 16:9?", a: "No. Most current Acer monitors are 16:9, but some older or compact models use a 16:10 aspect ratio. Check your exact model before ordering." },
   { q: "Is 23.8 inch the same as 24 inch on Acer monitors?", a: "No, they're close but different sizes. Use a filter specifically sized for 23.8 inch if that's your exact Acer model." },
   { q: "What's the best option for a 21.5 inch Acer monitor?", a: "The SightPro 21.5 Inch 16:9 Computer Privacy Screen Filter, common on Acer's entry-level budget monitors." },
-  { q: "How do I know my Acer monitor's exact dimensions?", a: "Check the model number on the rear label or Acer's support site and look up the active display width and height directly." },
+  { q: "How do I know my Acer monitor's exact dimensions?", a: "Check the model number on the rear label or Acer's support site and look up the active display width and height directly." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-hp-monitor-privacy-screens", title: "Best HP Monitor Privacy Screens (2026)" },
   { href: "/guide/best-lenovo-monitor-privacy-screens", title: "Best Lenovo Monitor Privacy Screens (2026)" },
-  { href: "/guide/best-monitor-privacy-screens", title: "Best Monitor Privacy Screens (2026)" },
+  { href: "/guide/best-monitor-privacy-screens", title: "Best Monitor Privacy Screens (2026)" }
 ];

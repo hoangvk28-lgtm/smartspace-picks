@@ -12,7 +12,7 @@ export const nasVsExternalDriveExplainedGuide: Guide = {
     "do i need a nas or external drive",
     "network attached storage vs usb drive",
     "nas for home office backup",
-    "external drive vs nas cost",
+    "external drive vs nas cost"
   ],
   heroImage: "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const nasVsExternalDriveExplainedGuide: Guide = {
     "external-ssd-vs-hdd",
     "backup-strategy-3-2-1-rule-explained",
     "external-drive-storage-size-chart",
-    "kvm-switch-explained",
+    "kvm-switch-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const nasVsExternalDriveExplainedGuide: Guide = {
       question: "Is an external drive sufficient for a single-person home office?",
       answer:
         "For a single user needing straightforward backup or extra storage on one computer, an external drive is simpler and more cost-effective, a NAS becomes more valuable specifically when multiple devices or people need shared access to the same storage.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ export const nasVsExternalDriveExplainedGuide: Guide = {
     {
       heading: "Why a Simple External Drive Remains the Better Choice for Many",
       body: `If your actual need is straightforward, backing up one computer's files or adding extra storage for a single user, a NAS's additional cost, setup complexity, and network configuration represent unnecessary overhead for a problem an external drive solves more simply and cheaply. Reserve the NAS investment for situations genuinely requiring shared, multi-device, or remote access, rather than defaulting to it for single-user storage needs.`,
-    },
+    }
   ],
 };

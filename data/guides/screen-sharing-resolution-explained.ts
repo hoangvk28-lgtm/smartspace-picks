@@ -12,7 +12,7 @@ export const screenSharingResolutionExplainedGuide: Guide = {
     "why does screen share look blurry",
     "optimize screen for video call presentation",
     "screen sharing text readability",
-    "resolution scaling screen share",
+    "resolution scaling screen share"
   ],
   heroImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const screenSharingResolutionExplainedGuide: Guide = {
     "monitor-resolution-explained",
     "font-size-and-scaling-for-eye-comfort",
     "video-call-etiquette-technical-setup",
-    "bandwidth-needs-for-remote-work",
+    "bandwidth-needs-for-remote-work"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const screenSharingResolutionExplainedGuide: Guide = {
       question: "Does sharing a single application window instead of the full screen improve quality?",
       answer:
         "It can help focus available bandwidth and compression resources on the relevant content specifically, rather than the compression algorithm needing to process your entire desktop including irrelevant background elements, generally producing a cleaner result for the actual content being presented.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const screenSharingResolutionExplainedGuide: Guide = {
     {
       heading: "Why Erring Toward Larger Text Genuinely Improves the Viewing Experience",
       body: `Since compression specifically tends to soften fine details and small text more than bold, larger elements, deliberately increasing font sizes in whatever you're presenting, spreadsheets, documents, presentation slides, beyond what feels necessary when viewing on your own crisp, close-up monitor, compensates directly for this compression effect and for the reality that viewers may also be watching on a smaller or lower-resolution device than your own, this simple adjustment, planning presentation content with the actual compressed viewing experience in mind rather than your own local viewing experience, produces a meaningfully more readable result for your actual audience.`,
-    },
+    }
   ],
 };

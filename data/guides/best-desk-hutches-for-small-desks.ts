@@ -33,8 +33,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall",
     name: "Furinno Classic 5-Shelf Desktop Hutch, 37-inch Wide",
     price: "Check price",
-    rating: "4.2 stars",
-    reviews: "39,764 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/furinno-5shelf-37w.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0F5GQNHRN?tag=deskfinds0d-20",
     description:
@@ -44,12 +44,12 @@ export const products: GuideProduct[] = [
       "Wide enough to frame a 24-inch monitor",
       "Five open shelves for flexible organization",
       "Lightweight and easy to reposition",
-      "FSC-certified materials",
+      "FSC-certified materials"
     ],
     cons: [
       "Particleboard construction limits weight per shelf",
       "Open design means items are always visible",
-      "No drawers or doors for concealed storage",
+      "No drawers or doors for concealed storage"
     ],
     bestFor:
       "Small desks where vertical organization matters more than structural storage",
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick",
     name: "Jerry & Maggie Adjustable Desktop Organizer Hutch",
     price: "$24.99",
-    rating: "4.4 stars",
-    reviews: "12,304 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/jerry-maggie-adjustable.webp`,
     amazonUrl: "https://www.amazon.com/dp/B07LGCSLVZ?tag=deskfinds0d-20",
     description:
@@ -70,12 +70,12 @@ export const products: GuideProduct[] = [
     pros: [
       "Adjustable width fits various desk sizes",
       "Under $25 price point",
-      "High review count with solid ratings",
+      "High review count with solid ratings"
     ],
     cons: [
       "Build quality lighter than pricier options",
       "Not suited for heavy books or equipment",
-      "Adjustment mechanism can loosen over time",
+      "Adjustment mechanism can loosen over time"
     ],
     bestFor: "Budget-conscious buyers who need adjustable width on a small desk",
   },
@@ -85,23 +85,22 @@ export const products: GuideProduct[] = [
     badge: "Best Rustic Brown",
     name: "Snughome 38.6-inch 4-Tier Desk Hutch, Rustic Brown",
     price: "$47.99",
-    rating: "4.7 stars",
-    reviews: "454 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/snughome-4tier-rustic-brown.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CJ8YDWNY?tag=deskfinds0d-20",
     description:
-      "The Snughome 4-tier hutch in rustic brown is a sturdy open-shelf organizer that fits desks up to 38.6 inches wide and adds four levels of display and storage space. The rustic brown finish suits natural wood desks and warm-tone home office setups.\n\nAt 4.7 stars across 454 reviews, it earns the highest rating of any hutch in this roundup, suggesting consistent quality control. The four-tier format gives slightly fewer shelves than the Furinno 5-shelf but with a sturdier feel per shelf.",
+      "The Snughome 4-tier hutch in rustic brown is a sturdy open-shelf organizer that fits desks up to 38.6 inches wide and adds four levels of display and storage space. The rustic brown finish suits natural wood desks and warm-tone home office setups.\n\nThe four-tier format gives slightly fewer shelves than the Furinno 5-shelf but with a sturdier feel per shelf.",
     specs: ["38.6 inches wide", "4 tiers", "Rustic brown finish"],
     pros: [
-      "4.7-star rating across 454 reviews",
       "Warm rustic brown finish",
       "Four sturdy open shelves",
-      "Fits desks up to 38.6 inches",
+      "Fits desks up to 38.6 inches"
     ],
     cons: [
       "Four tiers vs five on the Furinno pick",
       "Higher price than budget options",
-      "No pegboard or accessories included",
+      "No pegboard or accessories included"
     ],
     bestFor: "Buyers who want a rustic-finish hutch with strong ratings on a small desk",
   },
@@ -111,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best Pegboard Option",
     name: "Snughome 38.6-inch 4-Tier Desk Hutch with Pegboard",
     price: "$57.99",
-    rating: "4.6 stars",
-    reviews: "321 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/snughome-4tier-pegboard.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CYSXTHCX?tag=deskfinds0d-20",
     description:
@@ -122,12 +121,12 @@ export const products: GuideProduct[] = [
       "Pegboard panel for hanging accessories",
       "Same 38.6-inch width as standard model",
       "Reduces clutter on shelf surfaces",
-      "Hook-ready out of the box",
+      "Hook-ready out of the box"
     ],
     cons: [
       "$5 premium over the plain rustic version",
       "Fewer hooks included than some pegboard systems",
-      "Pegboard limits back-panel space for storage",
+      "Pegboard limits back-panel space for storage"
     ],
     bestFor:
       "Desk setups with headphones, cables, and small accessories to hang off the back panel",
@@ -138,8 +137,8 @@ export const products: GuideProduct[] = [
     badge: "Best Black Pegboard",
     name: "Snughome 38.6-inch Desk Shelf with Black Pegboard",
     price: "$58.99",
-    rating: "4.6 stars",
-    reviews: "321 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/snughome-black-pegboard.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0D9882DJK?tag=deskfinds0d-20",
     description:
@@ -148,12 +147,12 @@ export const products: GuideProduct[] = [
     pros: [
       "Black finish for dark-themed desks",
       "Pegboard panel included",
-      "Same sturdy 4-tier format as rustic models",
+      "Same sturdy 4-tier format as rustic models"
     ],
     cons: [
-      "Highest price in this roundup at $56.99",
+      "Highest price in this roundup at under $60",
       "Black finish shows dust more visibly",
-      "Same review pool as pegboard rustic model",
+      "Same review pool as pegboard rustic model"
     ],
     bestFor: "Dark or minimal desk setups where a black finish is a priority",
   },
@@ -163,8 +162,8 @@ export const products: GuideProduct[] = [
     badge: "Best Adjustable Shelf",
     name: "NUTIKAS Adjustable Desk Shelf Organizer, 16-28 inch",
     price: "$25.97",
-    rating: "4.3 stars",
-    reviews: "556 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/nutikas-adjustable.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0DR31GC3D?tag=deskfinds0d-20",
     description:
@@ -174,12 +173,12 @@ export const products: GuideProduct[] = [
       "Adjustable 16-28 inch width range",
       "Under $26 price point",
       "Three shelves for basic organization",
-      "Best fit for very narrow desks",
+      "Best fit for very narrow desks"
     ],
     cons: [
       "Three shelves vs four or five on competing models",
       "Maximum 28-inch width may feel narrow on larger small desks",
-      "Lighter build than the Snughome line",
+      "Lighter build than the Snughome line"
     ],
     bestFor: "Very narrow desks under 30 inches where fixed-width hutches feel oversized",
   },
@@ -189,8 +188,8 @@ export const products: GuideProduct[] = [
     badge: "Best Minimal Pick",
     name: "Furinno Classic Desk Hutch 5-Shelf Organizer",
     price: "$17.13",
-    rating: "4.3 stars",
-    reviews: "770 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/furinno-5shelf.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CZNX653N?tag=deskfinds0d-20",
     description:
@@ -200,12 +199,12 @@ export const products: GuideProduct[] = [
       "Under $18, lowest price in the roundup",
       "Five shelves for vertical organization",
       "Lightweight and easy to relocate",
-      "Quick assembly",
+      "Quick assembly"
     ],
     cons: [
       "Narrower than the 37-inch Furinno model",
       "Very lightweight build limits shelf load",
-      "No width options or pegboard add-ons",
+      "No width options or pegboard add-ons"
     ],
     bestFor:
       "Buyers who want the simplest possible vertical storage solution under $20",
@@ -216,25 +215,24 @@ export const products: GuideProduct[] = [
     badge: "Best Ultra-Compact",
     name: "YIGANG 3-Tier Desktop Bookshelf Hutch, 29-inch Wide",
     price: "$21.99",
-    rating: "4.2 stars",
-    reviews: "70 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/yigang-3tier.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0FQC12WFX?tag=deskfinds0d-20",
     description:
-      "The YIGANG hutch is a 29-inch three-tier option for desks where even a 37-inch hutch would feel wide. At 29 inches it fits comfortably on compact studio desks, narrow writing tables, and side-table workspaces that cannot accommodate wider models.\n\nWith only 70 reviews it is the newest product in this roundup and has the smallest review base, but early ratings hold at 4.2 stars. Buyers who need a specific under-30-inch width and prefer a bookshelf format over an adjustable design tend to favor this model over the NUTIKAS.",
+      "The YIGANG hutch is a 29-inch three-tier option for desks where even a 37-inch hutch would feel wide. At 29 inches it fits comfortably on compact studio desks, narrow writing tables, and side-table workspaces that cannot accommodate wider models.\n\nBuyers who need a specific under-30-inch width and prefer a bookshelf format over an adjustable design tend to favor this model over the NUTIKAS.",
     specs: ["29 inches wide", "3 tiers", "Ultra-compact footprint"],
     pros: [
       "29-inch width for very compact desks",
       "Three-tier open shelf design",
-      "Under $22 price point",
+      "Under $22 price point"
     ],
     cons: [
-      "Only 70 reviews, limited buyer feedback",
       "Three tiers vs four or five on wider models",
-      "Not suited for larger monitors",
+      "Not suited for larger monitors"
     ],
     bestFor: "Compact desks under 32 inches where a fixed narrow hutch is preferred",
-  },
+  }
 ];
 
 export const faq: { q: string; a: string }[] = [
@@ -257,12 +255,12 @@ export const faq: { q: string; a: string }[] = [
   {
     q: "What is the difference between a desk hutch and a desk shelf?",
     a: "A desk hutch typically has multiple tiers and sits on the desk surface to create a vertical storage tower, often behind the monitor. A desk shelf usually refers to a single-tier riser or monitor stand. Both serve similar organizational purposes but differ in height and storage capacity. The hutches in this roundup all have two or more tiers.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-hutches", title: "Best Desk Hutches (2026)" },
   { href: "/guide/best-white-desk-hutches", title: "Best White Desk Hutches (2026)" },
   { href: "/guide/best-desk-shelves-small-desks", title: "Best Desk Shelves for Small Desks (2026)" },
-  { href: "/guide/small-desk-organization-ideas", title: "Small Desk Organization Ideas" },
+  { href: "/guide/small-desk-organization-ideas", title: "Small Desk Organization Ideas" }
 ];

@@ -5,7 +5,7 @@ export const metaDescription = "8 printers we evaluated for buyers who want to a
 export const mainKeyword = "printer without ink subscription";
 export const introParagraphs = [
   "Wanting to avoid an ink subscription is a reasonable, common goal, but it's worth being precise about what that actually protects you from. A printer having no subscription program built in isn't the same thing as a printer that will accept any third-party ink you buy; some models still restrict non-original cartridges through firmware even without an active subscription running.",
-  "Below are 8 printers we evaluated for genuinely subscription-free operation, leaning heavily toward ink-tank models, which sidestep the cartridge-and-subscription business model entirely, while also flagging cartridge printers that avoid a bundled subscription but are still worth checking for ink-lock behavior before buying third-party ink.",
+  "Below are 8 printers we evaluated for genuinely subscription-free operation, leaning heavily toward ink-tank models, which sidestep the cartridge-and-subscription business model entirely, while also flagging cartridge printers that avoid a bundled subscription but are still worth checking for ink-lock behavior before buying third-party ink."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -56,18 +56,18 @@ export const products: GuideProduct[] = [
       "Wireless printing",
       "Scan and copy included",
       "No subscription program to opt into",
-      "Refillable bottled ink",
+      "Refillable bottled ink"
     ],
     pros: [
       "No subscription model exists for this printer type",
       "No cartridge to firmware-lock",
       "Lower long-run ink cost",
-      "Simple refill process",
+      "Simple refill process"
     ],
     cons: [
       "Upfront cost higher than the cheapest cartridge inkjets",
       "Basic feature set, no ADF",
-      "Ink bottles still cost money over time, just less often",
+      "Ink bottles still cost money over time, just less often"
     ],
     bestFor: "A buyer who wants to permanently avoid ink subscriptions and cartridge concerns",
   },
@@ -88,18 +88,18 @@ export const products: GuideProduct[] = [
       "Wireless printing",
       "Scan and copy included",
       "No subscription program to opt into",
-      "Refillable bottled ink",
+      "Refillable bottled ink"
     ],
     pros: [
       "No subscription model exists for this printer type",
       "No cartridge to firmware-lock",
       "Lower long-run ink cost",
-      "Color option for matching decor",
+      "Color option for matching decor"
     ],
     cons: [
       "Upfront cost higher than the cheapest cartridge inkjets",
       "Basic feature set, no ADF",
-      "Ink bottles still cost money over time, just less often",
+      "Ink bottles still cost money over time, just less often"
     ],
     bestFor: "A buyer who wants the same subscription-free setup with a white finish",
   },
@@ -120,18 +120,18 @@ export const products: GuideProduct[] = [
       "Automatic document feeder",
       "Ethernet + wireless connectivity",
       "Bonus black ink bottle included",
-      "Scan, copy included",
+      "Scan, copy included"
     ],
     pros: [
       "No subscription model exists for this printer type",
       "ADF for multi-page scanning",
       "Ethernet option for a stable connection",
-      "Bonus ink bottle included at purchase",
+      "Bonus ink bottle included at purchase"
     ],
     cons: [
       "Highest price in this list by a wide margin",
       "Larger footprint than the ET-2800 series",
-      "Overkill for light, occasional home printing",
+      "Overkill for light, occasional home printing"
     ],
     bestFor: "A home office wanting subscription-free printing plus ADF and Ethernet",
   },
@@ -152,18 +152,18 @@ export const products: GuideProduct[] = [
       "Wireless printing",
       "Scan and copy included",
       "No subscription program to opt into",
-      "Lower price than the ET-2800",
+      "Lower price than the ET-2800"
     ],
     pros: [
       "No subscription model exists for this printer type",
       "No cartridge to firmware-lock",
       "Slightly lower price than the ET-2800",
-      "Simple refill process",
+      "Simple refill process"
     ],
     cons: [
       "Basic feature set, no ADF",
       "No Ethernet option",
-      "Upfront cost higher than the cheapest cartridge inkjets",
+      "Upfront cost higher than the cheapest cartridge inkjets"
     ],
     bestFor: "A household that wants everyday subscription-free printing at a slightly lower price",
   },
@@ -184,18 +184,18 @@ export const products: GuideProduct[] = [
       "Automatic document feeder",
       "Ethernet + wireless + fax",
       "Scan, copy included",
-      "No subscription program to opt into",
+      "No subscription program to opt into"
     ],
     pros: [
       "No subscription model exists for this printer type",
       "ADF and Ethernet included",
       "Fax available if needed",
-      "Self-directed, pay-as-you-go ink refills",
+      "Self-directed, pay-as-you-go ink refills"
     ],
     cons: [
       "Fax is unused by most 2026 home offices",
       "Larger footprint than the ET-2800 series",
-      "Pricier than the ET-2400",
+      "Pricier than the ET-2400"
     ],
     bestFor: "A home office wanting full document features without any subscription attached",
   },
@@ -216,18 +216,18 @@ export const products: GuideProduct[] = [
       "Refresh Subscription trial available but optional",
       "250-sheet paper tray",
       "Duplex printing",
-      "Wireless + mobile printing",
+      "Wireless + mobile printing"
     ],
     pros: [
       "Subscription trial is opt-in, not automatic",
       "Toner lasts far longer than inkjet cartridges",
       "Lower cost per page at real volume",
-      "Standalone toner purchases work without enrollment",
+      "Standalone toner purchases work without enrollment"
     ],
     cons: [
       "Listing prominently features a subscription trial offer",
       "Monochrome only",
-      "Higher upfront price than the budget inkjets",
+      "Higher upfront price than the budget inkjets"
     ],
     bestFor: "A buyer who wants laser reliability and is comfortable declining a subscription prompt at setup",
   },
@@ -248,18 +248,18 @@ export const products: GuideProduct[] = [
       "19ppm rated output",
       "250-sheet paper tray",
       "No bundled subscription in listing",
-      "Duplex printing",
+      "Duplex printing"
     ],
     pros: [
       "No subscription prominently bundled",
       "Toner lasts longer than inkjet cartridges",
       "Color laser output",
-      "Duplex printing standard",
+      "Duplex printing standard"
     ],
     cons: [
       "Highest price in this list",
       "Third-party toner compatibility should be verified before buying",
-      "Heavier, larger footprint",
+      "Heavier, larger footprint"
     ],
     bestFor: "A buyer wanting subscription-free color laser output for a home office",
   },
@@ -280,21 +280,21 @@ export const products: GuideProduct[] = [
       "No bundled subscription in listing",
       "2.7\" color touchscreen",
       "Automatic 2-sided printing",
-      "Auto document copy and scan",
+      "Auto document copy and scan"
     ],
     pros: [
       "No subscription prompt built into setup",
       "Larger cartridges reduce replacement frequency",
       "Touchscreen and duplex printing included",
-      "More features than the basic ink tank picks",
+      "More features than the basic ink tank picks"
     ],
     cons: [
       "Still cartridge-based, not as inherently subscription-proof as ink tank",
       "Pricier than the entry ink tank models",
-      "Worth checking third-party cartridge compatibility before buying",
+      "Worth checking third-party cartridge compatibility before buying"
     ],
     bestFor: "A buyer who wants a feature-rich inkjet without an attached subscription plan",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -322,7 +322,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Honest ink-lock distinction",
     description: "Flagged that avoiding a subscription program is not the same as a printer accepting any third-party ink, since some cartridge printers restrict non-original ink via firmware independent of subscription status.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -473,11 +473,11 @@ export const faq: FaqItem[] = [
     q: "Do laser printers avoid the subscription question better than inkjets?",
     a: "Not automatically, but toner cartridges last for thousands of pages compared to a few hundred for inkjet cartridges, so a subscription offer comes up far less often in practice with a laser printer. If print volume is mostly text, that reduces how much the subscription question matters day to day.",
   },
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "A buyer who wants to permanently avoid ink subscriptions and cartridge concerns" },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "A buyer who wants to permanently avoid ink subscriptions and cartridge concerns" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-home-offices", title: "Best Printers for Home Offices (2026)" },
   { href: "/guide/best-budget-laser-printers", title: "Best Budget Laser Printers (2026)" },
-  { href: "/guide/best-easy-to-use-printers", title: "Best Easy-to-Use Printers (2026)" },
+  { href: "/guide/best-easy-to-use-printers", title: "Best Easy-to-Use Printers (2026)" }
 ];

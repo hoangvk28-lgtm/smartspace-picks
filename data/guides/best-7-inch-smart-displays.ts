@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "7 inch smart display";
 export const introParagraphs = [
   "Our verified research pool contains exactly one genuine 7 inch class smart display, the Google Nest Hub 2nd generation. We looked for a comparable 7 inch Echo Show or other competing model, but Amazon's Echo Show lineup jumps from the roughly 5.5 inch Echo Show 5 straight to the 8.7 inch and larger models, with no verified genuine 7 inch Echo Show in current production.",
-  "Rather than round an 8 inch display down to fit this search term, we're giving the Nest Hub a thorough single-product review below, including its most distinctive trait: no built-in camera at all.",
+  "Rather than round an 8 inch display down to fit this search term, we're giving the Nest Hub a thorough single-product review below, including its most distinctive trait: no built-in camera at all."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "5 min";

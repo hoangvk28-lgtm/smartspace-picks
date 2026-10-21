@@ -29,7 +29,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B07F82YK6P?tag=deskfinds0d-20",
     description: "This kit's listing specifically states support for any DC voltage up to 60V through standard 5.5mm by 2.1mm DC jacks, a genuinely wide voltage range for transforming non-PoE devices into PoE-enabled equipment at the lowest price in this comparison. Its 5-pair package includes both DC male and female ends, ten pieces total, covering multiple device setups from a single purchase.\n\nCompared to the Coaxuhf and LUORNG picks below, this one's higher 60V maximum voltage tolerance gives it broader compatibility across different device power requirements without needing to verify a narrower voltage window.\n\nBest for buyers who want the widest voltage compatibility and the most pairs per purchase at the lowest price.",
     specs: ["Up to 60V DC compatibility, 5.5x2.1mm connectors", "10Mbps network speed", "5-pair kit (10 pieces total)"],
-    pros: ["Lowest price in this comparison at $9.98", "Widest voltage compatibility up to 60V DC", "Five pairs included for multiple device setups"],
+    pros: ["Lowest price in this comparison at under $10", "Widest voltage compatibility up to 60V DC", "Five pairs included for multiple device setups"],
     cons: ["Limited to 10Mbps network speed, not suitable for high-bandwidth devices", "No stated maximum transmission distance"],
     bestFor: "buyers who want the widest voltage compatibility and the most pairs per purchase",
   },
@@ -77,7 +77,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0BZ74M6WD?tag=deskfinds0d-20",
     description: "This kit's listing specifically states it uses idle lines in an existing network cable to power a network camera without modifying the wiring, a genuinely practical explanation of how the passive splitter works for a single-device setup. Its ABS and copper core wire construction is specifically noted for high temperature and high pressure resistance with flame retardancy.\n\nCompared to the 5-pair kits above, this one's single-pair package at the lowest price in this comparison suits a buyer who only needs to convert one device rather than purchasing a multi-pair kit they won't fully use.\n\nBest for buyers who only need to power a single device and want the lowest price for exactly one pair.",
     specs: ["12V supply voltage, 5.5x2.1mm DC connector", "ABS and copper core wire construction", "1 pair (single device) kit, 160mm cable length"],
-    pros: ["Lowest price in this comparison at $6.96", "Uses existing idle network cable lines without rewiring", "Flame-retardant ABS and copper core construction"],
+    pros: ["Lowest price in this comparison at under $7", "Uses existing idle network cable lines without rewiring", "Flame-retardant ABS and copper core construction"],
     cons: ["Single pair only, not suited for multiple devices without additional purchases", "Fixed 12V voltage, less flexible than the wider-range picks above"],
     bestFor: "buyers who only need to power a single device and want the lowest price",
   }
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["The widest voltage compatibility with the most pairs", "5 Pairs Passive PoE Injector and Splitter Kit"],
         ["Documented build quality and a concrete distance spec", "Coaxuhf Passive PoE Injector 5 Pairs Kit"],
         ["Full Gigabit speed for a Raspberry Pi or USB device", "UCTRONICS PoE Splitter Gigabit 5V"],
-        ["The lowest price for exactly one device", "LUORNG POE Splitter Injector Kit (1 Pair)"],
+        ["The lowest price for exactly one device", "LUORNG POE Splitter Injector Kit (1 Pair)"]
       ],
     },
   },
@@ -109,9 +109,9 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $7", "LUORNG POE Splitter Injector Kit ($6.96)"],
-        ["Under $10", "Coaxuhf ($9.49) or 5 Pairs Kit ($9.98)"],
-        ["Under $15", "UCTRONICS PoE Splitter Gigabit 5V ($14.98)"],
+        ["Under $7", "LUORNG POE Splitter Injector Kit (under $7)"],
+        ["Under $10", "Coaxuhf (under $10) or 5 Pairs Kit (under $10)"],
+        ["Under $15", "UCTRONICS PoE Splitter Gigabit 5V (under $15)"]
       ],
     },
   },
@@ -119,7 +119,7 @@ export const howToChoose = [
     subheading: "10Mbps DC-Jack Splitters vs Gigabit Micro-USB Splitter",
     cards: [
       { label: "10Mbps DC-jack splitters (5 Pairs, Coaxuhf, LUORNG)", text: "All three use simple 5.5x2.1mm DC connectors at 10Mbps, sufficient for basic IP cameras and access points that don't need high bandwidth." },
-      { label: "Gigabit micro-USB splitter (UCTRONICS)", text: "Delivers full 1000Mbps alongside 5V power specifically for micro-USB devices like a Raspberry Pi, where both power and fast data matter." },
+      { label: "Gigabit micro-USB splitter (UCTRONICS)", text: "Delivers full 1000Mbps alongside 5V power specifically for micro-USB devices like a Raspberry Pi, where both power and fast data matter." }
     ],
     note: "If you're powering a basic IP camera or access point, the DC-jack passive splitters cover that need at a lower price. If you're powering a Raspberry Pi or similar device that also needs fast data transfer, the UCTRONICS pick is purpose-built for that combination.",
   },
@@ -130,7 +130,7 @@ export const howToChoose = [
       rows: [
         ["Just one device", "LUORNG POE Splitter Injector Kit (1 Pair)"],
         ["Multiple devices (up to 5)", "5 Pairs Passive PoE Injector Kit or Coaxuhf 5 Pairs Kit"],
-        ["A Raspberry Pi or micro-USB device specifically", "UCTRONICS PoE Splitter Gigabit 5V"],
+        ["A Raspberry Pi or micro-USB device specifically", "UCTRONICS PoE Splitter Gigabit 5V"]
       ],
     },
   },
@@ -138,16 +138,16 @@ export const howToChoose = [
     subheading: "For Safety-Conscious Buyers Specifically",
     cards: [
       { label: "Look for", text: "An explicit warning about voltage negotiation risks, since passive PoE sends power without the negotiation that active IEEE 802.3af/at devices use, which can overvolt and damage a device expecting proper negotiation." },
-      { label: "In this comparison", text: "The UCTRONICS pick specifically discloses this exact risk and states its requirement for a genuine IEEE 802.3af/at compliant source, the most transparent safety disclosure here." },
+      { label: "In this comparison", text: "The UCTRONICS pick specifically discloses this exact risk and states its requirement for a genuine IEEE 802.3af/at compliant source, the most transparent safety disclosure here." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You're powering a Raspberry Pi or micro-USB device and need full Gigabit data alongside power, where the UCTRONICS pick's $14.98 price is justified by that specific capability." },
-      { label: "Save if", text: "You just need to power one basic non-PoE device, where the LUORNG single-pair kit delivers that for $6.96, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You're powering a Raspberry Pi or micro-USB device and need full Gigabit data alongside power, where the UCTRONICS pick's under $15 price is justified by that specific capability." },
+      { label: "Save if", text: "You just need to power one basic non-PoE device, where the LUORNG single-pair kit delivers that for under $7, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

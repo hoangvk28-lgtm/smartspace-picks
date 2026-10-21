@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "cooling pads for MacBook Air";
 export const introParagraphs = [
   "Before buying a cooling pad for a MacBook Air, it helps to know what you're actually working around. M1 and M2 generation MacBook Air models are fanless inside, Apple's chassis and heat spreader handle heat dissipation with no internal fan at all. That means the thermal bottleneck under sustained load is largely an internal chassis design limit, not something an external pad's airflow can fully resolve, and any pad claiming to eliminate MacBook Air thermal throttling should be read skeptically.",
-  "MacBook Air also vents primarily along the rear hinge, not through a bottom panel the way most Windows laptops do, so a generic bottom-mounted-fan pad's airflow may not reach the actual vent location at all. This guide covers five pads that at least partially address that mismatch, with honest notes on which are worth it and which offer mostly elevation and ergonomic benefit rather than a meaningful thermal one. See our MacBook Pro cooling pad guide for Apple's active-fan laptop line, a genuinely different thermal design.",
+  "MacBook Air also vents primarily along the rear hinge, not through a bottom panel the way most Windows laptops do, so a generic bottom-mounted-fan pad's airflow may not reach the actual vent location at all. This guide covers five pads that at least partially address that mismatch, with honest notes on which are worth it and which offer mostly elevation and ergonomic benefit rather than a meaningful thermal one. See our MacBook Pro cooling pad guide for Apple's active-fan laptop line, a genuinely different thermal design."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "9 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Honesty about the Air's fanless design", description: "We evaluated whether each pad's marketing claims account for the MacBook Air's internal fanless architecture, and flagged claims that overstate what external airflow can achieve on a fanless chassis." },
   { title: "Vent-location mismatch", description: "We noted that MacBook Air vents primarily along the rear hinge, not the bottom panel most pads are designed around, and weighed each pick's realistic benefit accordingly." },
   { title: "Platform size fit", description: "We compared each pad's stated size range against both the 13 and 15 inch MacBook Air footprints rather than assuming any 'fits most laptops' claim applies evenly." },
-  { title: "Port compatibility", description: "We checked whether a pad's USB-A ports require an adapter for a USB-C-only base MacBook Air, a real limitation given its only two total ports." },
+  { title: "Port compatibility", description: "We checked whether a pad's USB-A ports require an adapter for a USB-C-only base MacBook Air, a real limitation given its only two total ports." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Why doesn't a bottom-mounted cooling pad work as well on a MacBook Air?", a: "MacBook Air vents primarily along the rear hinge, not through the bottom panel. Most cooling pads are designed around Windows laptops with bottom-panel vents, so their airflow doesn't align with where the Air actually exhausts heat." },
   { q: "Can I use a USB-A cooling pad with a MacBook Air?", a: "Yes, but you'll need a USB-C to USB-A adapter since the base MacBook Air only has USB-C ports. A pad with a native USB-C pass-through avoids that extra step." },
   { q: "Is the MacBook-specific cooling pad worth the higher price?", a: "It's purpose-built for MacBook's metal chassis and offers a more considered design than a generic pad, but it still cannot resolve the Air's internal fanless thermal ceiling. Weigh the design fit against the significant price premium." },
-  { q: "Should I buy a 15.6-17 inch pad for my 13 inch MacBook Air?", a: "It's oversized for the platform. A pad sized for 11-14 inch laptops, like the Coolertek pick in this guide, gives a better physical fit for a 13 inch Air." },
+  { q: "Should I buy a 15.6-17 inch pad for my 13 inch MacBook Air?", a: "It's oversized for the platform. A pad sized for 11-14 inch laptops, like the Coolertek pick in this guide, gives a better physical fit for a 13 inch Air." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-cooling-pads-for-macbook-pro", title: "Best Laptop Cooling Pads for MacBook Pro (2026)" },
   { href: "/guide/best-13-inch-laptop-cooling-pads", title: "Best 13-Inch Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-silent-laptop-cooling-pads", title: "Best Silent Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-silent-laptop-cooling-pads", title: "Best Silent Laptop Cooling Pads (2026)" }
 ];

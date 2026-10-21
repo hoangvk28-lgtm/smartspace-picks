@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41yfcqiY+nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GDPW11KS?tag=deskfinds0d-20",
-    description: "The black 6U version of Tecmojo's mini rack line, giving slightly more room than the 4U model while keeping the same compact 10-inch width for desk-side use.\n\nEverything else carries over from the 4U model: acrylic translucent side panels, top handles for easy carrying, and a full accessory kit for mounting 10-inch equipment.\n\nWhere this one earns its spot is 6U gives more room than the smaller 4U version, and top handles make it easy to move around. Worth noting before buying: still limited to 10-inch equipment only, which matters more at $69.90 than it would on a cheaper pick.",
+    description: "The black 6U version of Tecmojo's mini rack line, giving slightly more room than the 4U model while keeping the same compact 10-inch width for desk-side use.\n\nEverything else carries over from the 4U model: acrylic translucent side panels, top handles for easy carrying, and a full accessory kit for mounting 10-inch equipment.\n\nWhere this one earns its spot is 6U gives more room than the smaller 4U version, and top handles make it easy to move around. Worth noting before buying: still limited to 10-inch equipment only, which matters more at under $70 than it would on a cheaper pick.",
     specs: ["6U, 10\" width, 7.87\" deep","Steel frame, acrylic side panels","Top carrying handles included"],
     pros: ["6U gives more room than the smaller 4U version","Top handles make it easy to move around","Matches the same accessory kit as other sizes"],
     cons: ["Still limited to 10-inch equipment only","Not deep enough for full server hardware"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/419QlHf4BLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F4JZ9YJW?tag=deskfinds0d-20",
-    description: "Identical to the black 6U model but finished in white, which matters if you're building a visible desk setup rather than tucking the rack away in a closet.\n\nIt includes an SBC shelf and micro adapter boards that the smaller 4U model doesn't, making it a slightly better fit for single-board-computer cluster projects.\n\nThis pick is best for buyers who value SBC shelf and adapter boards included for cluster builds along with white finish suits a visible desk setup. The catch is that white finish shows dust more than black, so decide if that's worth it at $69.90.",
+    description: "Identical to the black 6U model but finished in white, which matters if you're building a visible desk setup rather than tucking the rack away in a closet.\n\nIt includes an SBC shelf and micro adapter boards that the smaller 4U model doesn't, making it a slightly better fit for single-board-computer cluster projects.\n\nThis pick is best for buyers who value SBC shelf and adapter boards included for cluster builds along with white finish suits a visible desk setup. The catch is that white finish shows dust more than black, so decide if that's worth it at under $70.",
     specs: ["6U, 10\" width, 7.87\" deep, white finish","SBC shelf and micro adapter boards included","Steel and acrylic construction"],
     pros: ["SBC shelf and adapter boards included for cluster builds","White finish suits a visible desk setup","Same sturdy steel-and-acrylic build as the black version"],
     cons: ["White finish shows dust more than black","Still a 10-inch format, not standard rack gear"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31iRiz4rmgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FBFDZD4C?tag=deskfinds0d-20",
-    description: "The DeskPi RackMate T1 is a well-known name in the home lab and Raspberry Pi cluster community, built from aluminum alloy and acrylic for an 8U, 10-inch mini rack.\n\nIts translucent acrylic sides are explicitly designed for adding ambient lighting, leaning into the hobbyist aesthetic that's made this line popular for visible desk setups.\n\nWhat stands out here is well-known DeskPi design popular in the home lab community, plus translucent sides support ambient lighting add-ons. The main tradeoff: flat-pack assembly required out of the box, so weigh that against the $119.99 price before buying.",
+    description: "The DeskPi RackMate T1 is a well-known name in the home lab and Raspberry Pi cluster community, built from aluminum alloy and acrylic for an 8U, 10-inch mini rack.\n\nIts translucent acrylic sides are explicitly designed for adding ambient lighting, leaning into the hobbyist aesthetic that's made this line popular for visible desk setups.\n\nWhat stands out here is well-known DeskPi design popular in the home lab community, plus translucent sides support ambient lighting add-ons. The main tradeoff: flat-pack assembly required out of the box, so weigh that against the under $120 price before buying.",
     specs: ["8U, 10\" width, 7.87\" depth","Aluminum alloy and acrylic construction","Flat-packed with full mounting hardware"],
     pros: ["Well-known DeskPi design popular in the home lab community","Translucent sides support ambient lighting add-ons","Open design makes install and maintenance easy"],
     cons: ["Flat-pack assembly required out of the box","10-inch format won't fit standard rack gear"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/418C1ZRpOGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT2XM22G?tag=deskfinds0d-20",
-    description: "The taller sibling to the RackMate T1, this 12U version gives more vertical room for a bigger cluster while keeping the same aluminum-and-acrylic build the line is known for.\n\nAt 10.23 inches deep it's slightly roomier front-to-back than the 8U model too, giving a bit more clearance behind mounted boards and cabling.\n\nThe strongest case for this pick comes down to 12U height fits a larger Pi or SBC cluster as well as extra depth over the 8U model eases cable routing. The compromise here is that bigger footprint than the compact 8U model, so factor that in alongside the $149.99 asking price.",
+    description: "The taller sibling to the RackMate T1, this 12U version gives more vertical room for a bigger cluster while keeping the same aluminum-and-acrylic build the line is known for.\n\nAt 10.23 inches deep it's slightly roomier front-to-back than the 8U model too, giving a bit more clearance behind mounted boards and cabling.\n\nThe strongest case for this pick comes down to 12U height fits a larger Pi or SBC cluster as well as extra depth over the 8U model eases cable routing. The compromise here is that bigger footprint than the compact 8U model, so factor that in alongside the under $150 asking price.",
     specs: ["12U, 10\" width, 10.23\" depth","Aluminum alloy and acrylic frame","Open design for airflow and access"],
     pros: ["12U height fits a larger Pi or SBC cluster","Extra depth over the 8U model eases cable routing","Open frame keeps single-board computers cool"],
     cons: ["Bigger footprint than the compact 8U model","Only suited to 10-inch mini equipment"],
@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41-o6KDZaYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0HBQY15T3?tag=deskfinds0d-20",
-    description: "Garvee's open frame rack supports both wall and ground mounting, with capacity scaling from 200 lbs on the wall up to 500 lbs on the ground depending on how you install it.\n\nThe accessory list is genuinely thorough here, down to a grounding wire and multiple wrench sizes, so you're less likely to need a hardware store run mid-assembly.\n\nWhere this one earns its spot is 500 lb ground rating handles a real equipment load, and comes with a genuinely complete hardware kit. Worth noting before buying: wall capacity is well below the ground-mounted rating, which matters more at $79.99 than it would on a cheaper pick.",
+    description: "Garvee's open frame rack supports both wall and ground mounting, with capacity scaling from 200 lbs on the wall up to 500 lbs on the ground depending on how you install it.\n\nThe accessory list is genuinely thorough here, down to a grounding wire and multiple wrench sizes, so you're less likely to need a hardware store run mid-assembly.\n\nWhere this one earns its spot is 500 lb ground rating handles a real equipment load, and comes with a genuinely complete hardware kit. Worth noting before buying: wall capacity is well below the ground-mounted rating, which matters more at under $80 than it would on a cheaper pick.",
     specs: ["10U, 23-40\" adjustable depth","500 lb ground / 200 lb wall capacity","4 lockable casters, grounding wire included"],
     pros: ["500 lb ground rating handles a real equipment load","Comes with a genuinely complete hardware kit","Detachable top panel adds extra storage space"],
     cons: ["Wall capacity is well below the ground-mounted rating","Open frame gives no dust or theft protection"],
@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $59.90",
+          "Under $60",
           "Tecmojo 4U Mini Server Rack"
         ],
         [
-          "Around $69.90",
+          "Under $70",
           "Tecmojo 6U Mini Server Rack"
         ],
         [
-          "Around $69.90",
+          "Under $70",
           "Tecmojo 6U Mini Server Rack"
         ],
         [
-          "Around $79.99",
+          "Under $80",
           "Garvee 10U Open Frame Server Rack"
         ],
         [
-          "Around $119.99",
+          "Under $120",
           "GeeekPi 8U Network Rack"
         ],
         [
-          "Around $149.99",
+          "Under $150",
           "GeeekPi 12U Network Rack"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Tecmojo 4U Mini Server Rack is aimed at buyers prioritizing 4u, 10\" width, 7.87\" deep." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tecmojo 4U Mini Server Rack is aimed at buyers prioritizing 4u, 10\" width, 7.87\" deep." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-10-inch-server-racks","title":"Best 10-Inch Server Racks in 2026"},{"href":"/guide/best-mini-server-racks-for-home","title":"Best Mini Server Racks for Home in 2026"},{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"}];

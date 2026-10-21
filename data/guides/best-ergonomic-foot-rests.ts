@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41HbEhU0CWL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DPDLSC9H?tag=deskfinds0d-20",
-    "description": "ZLMHYYM offers six heights starting at 3.1 inches and rising through 3.9, 4.9 and 5.7 inches. Its panel has rows of massage particles and four small rollers, and the ABS stool is detachable.\n\nIt is the cheapest of the multi-height picks, at $19.99, but it is plastic. Versus Mind Reader it has twice as many height steps.\n\nBest for tuning height cheaply. The caveat is ABS plastic and a surface that feels busy under socks.",
+    "description": "ZLMHYYM offers six heights starting at 3.1 inches and rising through 3.9, 4.9 and 5.7 inches. Its panel has rows of massage particles and four small rollers, and the ABS stool is detachable.\n\nIt is the cheapest of the multi-height picks, at under $20, but it is plastic. Versus Mind Reader it has twice as many height steps.\n\nBest for tuning height cheaply. The caveat is ABS plastic and a surface that feels busy under socks.",
     "specs": [
       "Six heights, 3.1 inches up",
       "Massage particles and rollers",

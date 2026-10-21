@@ -12,7 +12,7 @@ export const externalDriveStorageSizeChartGuide: Guide = {
     "how much external storage do i need",
     "external hard drive size guide",
     "storage capacity for photo backup",
-    "external ssd size for video editing",
+    "external ssd size for video editing"
   ],
   heroImage: "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const externalDriveStorageSizeChartGuide: Guide = {
     "external-ssd-vs-hdd",
     "usb4-nvme-enclosure-explained",
     "thunderbolt-vs-usb-c-explained",
-    "printer-page-yield-explained",
+    "printer-page-yield-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const externalDriveStorageSizeChartGuide: Guide = {
       question: "Is it better to buy one large drive or multiple smaller drives?",
       answer:
         "This depends on your backup strategy, a single large drive is simpler to manage, while multiple smaller drives provide redundancy since a single drive failure only affects part of your data, consider your specific backup and redundancy needs.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ export const externalDriveStorageSizeChartGuide: Guide = {
     {
       heading: "Planning for Growth Without Overbuying",
       body: `Storage needs generally grow over time as you accumulate more files, so buying a modest buffer above your current actual usage is a reasonable practical approach, buying dramatically more capacity than any foreseeable need, however, ties up money in unused storage capacity that could instead go toward a faster or more durable drive at your actually needed capacity.`,
-    },
+    }
   ],
 };

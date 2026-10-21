@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "large portable file boxes";
 export const introParagraphs = [
   "\"Large\" should be quantified with concrete dimensions, not left as a relative descriptor, so we favored picks with disclosed capacity specs. We also tested and disclosed fully loaded weight honestly, since a large box filled with paper files can become genuinely difficult to carry comfortably despite technically having a handle.",
-  "For the largest capacity tiers, we honestly assessed whether the box might be more realistically classified as a two-person-carry or wheeled-transport item once fully loaded, rather than assuming any handle design remains comfortable at maximum capacity.",
+  "For the largest capacity tiers, we honestly assessed whether the box might be more realistically classified as a two-person-carry or wheeled-transport item once fully loaded, rather than assuming any handle design remains comfortable at maximum capacity."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -30,10 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "10,611",
     imageUrl: "https://m.media-amazon.com/images/I/41Xk9Q8zPPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BKTMLGCT?tag=deskfinds0d-20",
-    description: "This pick carries by far the highest review count in this entire large-box comparison, real evidence of proven performance at scale despite a moderate 4.1 rating. Verify current listing dimensions and confirm handle comfort expectations honestly for a fully loaded box at this capacity tier.\n\nIt earns the top spot in this comparison over IRIS USA WeatherPro File Box Organizer for one main reason. Overwhelmingly highest review count here. On price, it's priced at an unlisted price you'll need to confirm on Amazon, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Established Storex brand. On the other side, Handle comfort should be tested with realistic loaded weight. That's the main tradeoff to weigh against everything above. The price wasn't listed at the time of research, so confirm current cost on Amazon before deciding.",
+    description: "Verify current listing dimensions and confirm handle comfort expectations honestly for a fully loaded box at this capacity tier.\n\nIt earns the top spot in this comparison over IRIS USA WeatherPro File Box Organizer for one main reason. Overwhelmingly highest review count here. On price, it's priced at an unlisted price you'll need to confirm on Amazon, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Established Storex brand. On the other side, Handle comfort should be tested with realistic loaded weight. That's the main tradeoff to weigh against everything above. The price wasn't listed at the time of research, so confirm current cost on Amazon before deciding.",
     specs: ["Large capacity","Highest review count in this comparison","Storex brand","Verify current dimensions"],
     pros: ["Overwhelmingly highest review count here","Established Storex brand","Large capacity for substantial document volume","Proven at scale"],
-    cons: ["Moderate 4.1 rating relative to some alternatives","Fully loaded weight will be substantial at this capacity","Handle comfort should be tested with realistic loaded weight"],
+    cons: ["Fully loaded weight will be substantial at this capacity","Handle comfort should be tested with realistic loaded weight"],
     bestFor: "Buyers who want the most proven large-capacity box by sheer review volume.",
   },
   {
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Concrete dimension quantification", description: "We favored picks with specific disclosed dimensions rather than a vague relative 'large' descriptor." },
   { title: "Fully loaded weight honesty", description: "We disclosed that a large box filled with paper files can become genuinely difficult to carry comfortably despite technically having a handle." },
   { title: "Honest two-person-carry or wheeled-transport assessment", description: "For the largest capacity tiers, we assessed whether a box might be more realistically handled by two people or wheels rather than assuming any handle stays comfortable at maximum capacity." },
-  { title: "Price-per-capacity value comparison", description: "We compared value against the standard-size pillar box, since large capacity comes at a real price and weight premium." },
+  { title: "Price-per-capacity value comparison", description: "We compared value against the standard-size pillar box, since large capacity comes at a real price and weight premium." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -228,11 +228,11 @@ export const faq: FaqItem[] = [
   { q: "How large is 'large' for these boxes?", a: "This varies by product. Check the specific listing's disclosed dimensions, like the Storex XL Lid pick's 11 x 13.5 x 11 inch spec, rather than relying on the relative 'large' label alone." },
   { q: "Should I get a wheeled box instead of a large handle-only box?", a: "If you'll regularly carry a fully loaded large box any real distance, yes, a wheeled design more honestly addresses the weight reality than relying on a handle alone." },
   { q: "Do large file boxes protect against moisture for garage storage?", a: "Only if specifically designed for it, like the IRIS USA WeatherPro pick with genuine weather-protective construction. A standard large box doesn't guarantee this protection." },
-  { q: "Is a large box always the better value?", a: "Not necessarily. Large capacity comes at a real price and weight premium. Compare against a standard-size box and confirm your document volume genuinely requires the larger capacity first." },
+  { q: "Is a large box always the better value?", a: "Not necessarily. Large capacity comes at a real price and weight premium. Compare against a standard-size box and confirm your document volume genuinely requires the larger capacity first." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" },
   { href: "/guide/best-portable-file-boxes-with-wheels", title: "Best Portable File Boxes with Wheels (2026)" },
-  { href: "/guide/best-weathertight-portable-file-boxes", title: "Best Weathertight Portable File Boxes (2026)" },
+  { href: "/guide/best-weathertight-portable-file-boxes", title: "Best Weathertight Portable File Boxes (2026)" }
 ];

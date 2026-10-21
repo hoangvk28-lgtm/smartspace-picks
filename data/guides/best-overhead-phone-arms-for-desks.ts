@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "overhead phone arms for desks";
 export const introParagraphs = [
   "Overhead phone arms position the device above the desk surface looking down, a distinct mounting geometry from the side-positioned viewing arms in most of our other phone arm guides. This orientation is built for top-down recording: desk product photography, cooking demonstrations, or craft tutorials.",
-  "Extended overhead reach puts more leverage stress on the clamp than a compact side-mounted arm, so we prioritized picks with reinforced joints or friction-locked segments over simple spring goosenecks in this specific comparison.",
+  "Extended overhead reach puts more leverage stress on the clamp than a compact side-mounted arm, so we prioritized picks with reinforced joints or friction-locked segments over simple spring goosenecks in this specific comparison."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Overhead reach and height adequacy", description: "We evaluated whether each arm reaches a genuine top-down angle suitable for overhead recording, not just an elevated side view." },
   { title: "Extended-reach leverage stability", description: "We prioritized friction-locked or reinforced designs, since a long horizontal extension at height creates more torque on the clamp than a compact side arm." },
   { title: "Torque-adjusted weight capacity", description: "We checked whether the stated load rating accounts for the extra leverage of a fully extended overhead position, not just a short reach." },
-  { title: "Desk airspace impact", description: "We noted how much overall desk-area airspace each arm's extended reach occupies, a real workspace-planning consideration for a compact desk." },
+  { title: "Desk airspace impact", description: "We noted how much overall desk-area airspace each arm's extended reach occupies, a real workspace-planning consideration for a compact desk." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -229,11 +229,11 @@ export const faq: FaqItem[] = [
   { q: "Will a gooseneck arm sag over time when used overhead?", a: "Gooseneck arms can gradually lose their set position under sustained overhead leverage, more so than a friction-locked magic arm. For daily use, a magic arm holds position more reliably." },
   { q: "Do I need a ring light bundled with my overhead mount?", a: "Only if lighting quality matters for your use case, like streaming or video calls. For simple top-down recipe or craft recording, a dedicated magic arm without a light is usually sufficient." },
   { q: "How much desk space does an overhead arm actually need?", a: "A fully extended 22-inch magic arm can occupy a meaningful vertical and horizontal footprint above your desk. Measure your available clearance, especially if you also have a monitor arm or shelf nearby." },
-  { q: "Can these arms hold a phone plus a case for overhead recording?", a: "The SMALLRIG and NEEWER magic arms are rated for 600g, generally sufficient for a cased phone. Verify your specific phone-plus-case weight against the stated rating." },
+  { q: "Can these arms hold a phone plus a case for overhead recording?", a: "The SMALLRIG and NEEWER magic arms are rated for 600g, generally sufficient for a cased phone. Verify your specific phone-plus-case weight against the stated rating." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-phone-arms", title: "Best Desk Phone Arms (2026)" },
   { href: "/guide/best-flexible-gooseneck-phone-arms", title: "Best Flexible Gooseneck Phone Arms (2026)" },
-  { href: "/guide/best-clamp-on-phone-arms-for-desks", title: "Best Clamp-On Phone Arms for Desks (2026)" },
+  { href: "/guide/best-clamp-on-phone-arms-for-desks", title: "Best Clamp-On Phone Arms for Desks (2026)" }
 ];

@@ -5,7 +5,7 @@ export const metaDescription = "Seven small electric kettles of 0.5 to 0.8 liter
 export const mainKeyword = "small electric kettle";
 export const introParagraphs = [
   "Small is a relative word among kettles, and here it means 0.5 to 0.8 liters, roughly two to three mugs. At that size the differences that matter are not the headline ones. Nearly everyone lists 304 stainless steel and auto shut-off, so the useful questions become how wide the opening is, what the wattage costs you in boil time, and whether the body stays cool enough to handle.",
-  "We compared seven small kettles from $18.99 to $44.71 using only listed specs: capacity, wattage, interior material, shut-off behavior, double-wall construction, opening size and cord or base style. Boil times quoted on these listings are best-case claims at unspecified volumes, so we treat them cautiously and focus on what each design lets you do."
+  "We compared seven small kettles from roughly $20 to $45 using only listed specs: capacity, wattage, interior material, shut-off behavior, double-wall construction, opening size and cord or base style. Boil times quoted on these listings are best-case claims at unspecified volumes, so we treat them cautiously and focus on what each design lets you do."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31MEDyrUViL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GKG6P2X7?tag=deskfinds0d-20",
-    "description": "Yoochu is a 0.8 liter kettle at 1000W with a double wall, 304 stainless on the liner, inner lid, spout and rim, and a wide opening. The listing says it brings 0.8L to a boil in 5 minutes, and an LED shows when it is ready.\n\nIt combines the higher 1000W of the quick pair with a cool-touch outer wall, which RHD below does not state. It costs $27.99, near the middle of the group.\n\nBest for a small kettle that is fast and safe to touch. The caveat is that 1000W is more than the 600W compacts, so it adds load to a shared circuit.",
+    "description": "Yoochu is a 0.8 liter kettle at 1000W with a double wall, 304 stainless on the liner, inner lid, spout and rim, and a wide opening. The listing says it brings 0.8L to a boil in 5 minutes, and an LED shows when it is ready.\n\nIt combines the higher 1000W of the quick pair with a cool-touch outer wall, which RHD below does not state. It costs under $30, near the middle of the group.\n\nBest for a small kettle that is fast and safe to touch. The caveat is that 1000W is more than the 600W compacts, so it adds load to a shared circuit.",
     "specs": [
       "0.8L, 1000W",
       "Double wall, 304 stainless",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31BYc3c3rUL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D7PDJ1H4?tag=deskfinds0d-20",
-    "description": "RHD is a 0.8 liter, 1000W kettle with a 4.2 inch opening that you can put a hand into, a removable cord and base, and 304 stainless where it touches water. The listing says it suits 2 to 3 people and has auto shut-off and boil-dry protection.\n\nIts opening is wider than anything else at this size, which makes descaling much easier. It costs $24.99, below Yoochu, but states an insulated outer surface rather than a full double wall.\n\nChoose it if cleaning matters most. The caveat is that cool-touch is less clearly documented than on Yoochu.",
+    "description": "RHD is a 0.8 liter, 1000W kettle with a 4.2 inch opening that you can put a hand into, a removable cord and base, and 304 stainless where it touches water. The listing says it suits 2 to 3 people and has auto shut-off and boil-dry protection.\n\nIts opening is wider than anything else at this size, which makes descaling much easier. It costs under $25, below Yoochu, but states an insulated outer surface rather than a full double wall.\n\nChoose it if cleaning matters most. The caveat is that cool-touch is less clearly documented than on Yoochu.",
     "specs": [
       "0.8L, 1000W",
       "4.2 inch opening",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31RmwtWhhmL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FQNZ5NQJ?tag=deskfinds0d-20",
-    "description": "TOPWIT is a 0.8 liter, 800W kettle with 304 stainless inside, a storable cord, an LED indicator and auto shut-off with boil-dry protection. The listing says it boils in about 5 minutes.\n\nIts 800W sits between the 600W and 1000W models, a compromise on speed and load. At $23.99 it is cheaper than RHD, though its listing says less about opening size.\n\nBest for a middle path on power at a low price. The caveat is that there is no stated double wall, so the outside can get hot.",
+    "description": "TOPWIT is a 0.8 liter, 800W kettle with 304 stainless inside, a storable cord, an LED indicator and auto shut-off with boil-dry protection. The listing says it boils in about 5 minutes.\n\nIts 800W sits between the 600W and 1000W models, a compromise on speed and load. At under $25 it is cheaper than RHD, though its listing says less about opening size.\n\nBest for a middle path on power at a low price. The caveat is that there is no stated double wall, so the outside can get hot.",
     "specs": [
       "0.8L, 800W",
       "304 stainless interior",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31hCnwqUXoL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0B28LT3WQ?tag=deskfinds0d-20",
-    "description": "This WTJMOV is a 0.8 liter, 600W kettle with a 7.4 by 3.9 inch body, 304 stainless inside, a retractable cord and a 360 swivel base. The listing claims a 5 minute boil and cites double protection from a steam switch.\n\nIt is the slimmest of the 0.8 liter group, which helps in a narrow shelf, but at $29.99 it costs more than RHD or TOPWIT with less power. Against Wdcme below, it has the same wattage and a higher price.\n\nChoose it for tight spaces and a retractable cord. The caveat is the price premium for a 600W kettle.",
+    "description": "This WTJMOV is a 0.8 liter, 600W kettle with a 7.4 by 3.9 inch body, 304 stainless inside, a retractable cord and a 360 swivel base. The listing claims a 5 minute boil and cites double protection from a steam switch.\n\nIt is the slimmest of the 0.8 liter group, which helps in a narrow shelf, but at under $30 it costs more than RHD or TOPWIT with less power. Against Wdcme below, it has the same wattage and a higher price.\n\nChoose it for tight spaces and a retractable cord. The caveat is the price premium for a 600W kettle.",
     "specs": [
       "0.8L, 600W",
       "7.4 x 3.9 inch body",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31-lLDXkRnL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0BQ6246FG?tag=deskfinds0d-20",
-    "description": "Wdcme is a 0.8 liter, 600W kettle with a double-layer anti-scalding outer wall and a 304 stainless interior, a large opening and a detachable cover. The listing cites a steam switch and a thermostat for shut-off.\n\nIt costs $19.99, $10 below WTJMOV, and adds a double wall that WTJMOV's 600W kettle lacks in its description. Against Tanannbay, it holds 0.3 liters more.\n\nBest for a low-cost, cool-touch 0.8 liter kettle. The caveat is that 600W is slow for repeated boils, and the brand is less established.",
+    "description": "Wdcme is a 0.8 liter, 600W kettle with a double-layer anti-scalding outer wall and a 304 stainless interior, a large opening and a detachable cover. The listing cites a steam switch and a thermostat for shut-off.\n\nIt costs under $20, $10 below WTJMOV, and adds a double wall that WTJMOV's 600W kettle lacks in its description. Against Tanannbay, it holds 0.3 liters more.\n\nBest for a low-cost, cool-touch 0.8 liter kettle. The caveat is that 600W is slow for repeated boils, and the brand is less established.",
     "specs": [
       "0.8L, 600W",
       "Double wall outer",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31MZs8N9h8L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FDQ328L9?tag=deskfinds0d-20",
-    "description": "Tanannbay is a 0.5 liter, 600W kettle with 304 stainless that has no plastic in contact with water, a large caliber opening, a detachable cover and double protection from a steam switch and thermostat. The listing says it suits 2 to 3 people.\n\nIt is the smallest and cheapest here at $18.99, and best at fitting a dorm shelf or a travel bag. Against Wdcme, it holds less but costs $1 less.\n\nChoose it for single servings. The caveat is that 0.5 liters is one mug and a half, so it is poor for sharing.",
+    "description": "Tanannbay is a 0.5 liter, 600W kettle with 304 stainless that has no plastic in contact with water, a large caliber opening, a detachable cover and double protection from a steam switch and thermostat. The listing says it suits 2 to 3 people.\n\nIt is the smallest and cheapest here at under $20, and best at fitting a dorm shelf or a travel bag. Against Wdcme, it holds less but costs $1 less.\n\nChoose it for single servings. The caveat is that 0.5 liters is one mug and a half, so it is poor for sharing.",
     "specs": [
       "0.5L, 600W",
       "304 stainless, no plastic contact",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41K0OanBbyL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B077Y57FDL?tag=deskfinds0d-20",
-    "description": "This Hamilton Beach kettle is 0.5 liters, hospitality rated, with a concealed heating element, a 3 foot cord on its base, cord-free serving and auto shut-off with boil-dry protection. It separates from the base for serving.\n\nIt is by far the priciest at $44.71, and its concealed element is a point many compact picks do not state. Against Tanannbay, it costs more than double for the same capacity but a commercial build.\n\nBest for a hospitality or hotel-style setting. The caveat is the price, and wattage is not stated in the listing.",
+    "description": "This Hamilton Beach kettle is 0.5 liters, hospitality rated, with a concealed heating element, a 3 foot cord on its base, cord-free serving and auto shut-off with boil-dry protection. It separates from the base for serving.\n\nIt is by far the priciest at under $45, and its concealed element is a point many compact picks do not state. Against Tanannbay, it costs more than double for the same capacity but a commercial build.\n\nBest for a hospitality or hotel-style setting. The caveat is the price, and wattage is not stated in the listing.",
     "specs": [
       "0.5L, concealed element",
       "Hospitality rated",
@@ -263,7 +263,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     "title": "Value for price",
-    "description": "Prices from $18.99 to $44.71 were compared with documented features."
+    "description": "Prices from roughly $20 to $45 were compared with documented features."
   }
 ];
 

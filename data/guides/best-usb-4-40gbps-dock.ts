@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     description: "This hub is Thunderbolt certified and built on the Intel Goshen Ridge chipset, a formal certification that verifies interoperability standards beyond a generic USB4 branding claim, with each of its 3 downstream Thunderbolt ports specifically supporting the full 40Gbps data transfer rate. Its listing includes an unusually detailed Mac-specific compatibility breakdown by exact chip generation, from base M1/M2 single-display support up to M4/M5 or Pro/Max dual-display support.\n\nCompared to the Hagibis pick above, this one supports daisy-chaining up to 6 additional Thunderbolt peripherals from its 3 downstream ports, letting you build a content creation setup with multiple high-performance SSDs connected simultaneously. Its 2-year warranty and lifetime support from Plugable's North American team back the certified build quality.\n\nBest for buyers who want Thunderbolt-certified reliability with daisy-chain expansion for multiple SSDs.",
     specs: ["Thunderbolt certified, Intel Goshen Ridge chipset", "3x Thunderbolt 4 ports, each at 40Gbps", "Daisy-chain up to 6 additional Thunderbolt peripherals"],
     pros: ["Thunderbolt certified for verified interoperability", "Detailed per-chip Mac compatibility breakdown", "Daisy-chain support for up to 6 additional peripherals"],
-    cons: ["Requires an external power adapter for operation", "Highest price in this comparison at $175.99"],
+    cons: ["Requires an external power adapter for operation", "Highest price in this comparison at under $180"],
     bestFor: "buyers who want Thunderbolt-certified reliability with daisy-chain expansion",
   },
   {
@@ -61,7 +61,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0DKNDBC4G?tag=deskfinds0d-20",
     description: "This dock's 11-in-1 design specifically expands to 2x 40Gbps ports plus a dedicated 8K 60Hz DisplayPort, delivering genuine dual high-bandwidth connections at the lowest price in this comparison. Its listing explicitly states the Apple M1 chip does not support dual monitors, a transparent disclosure of a real Apple platform limitation rather than glossing over it.\n\nCompared to the pricier Plugable picks above, this one includes a notably smaller, more portable power adapter, appealing specifically to road warriors who also travel with a portable USB-C monitor. Its ability to simultaneously power both the host laptop and a non-self-powered portable dual monitor setup is a genuinely distinct capability among these picks.\n\nBest for buyers who want dual 40Gbps ports at the lowest price with a portable power adapter for travel.",
     specs: ["2x 40Gbps ports + dedicated 8K 60Hz DisplayPort", "PD 100W with a compact, portable power adapter", "Powers both host laptop and non-self-powered portable monitors"],
-    pros: ["Lowest price in this comparison at $99.99", "Notably smaller, more portable power adapter for travel", "Can simultaneously power laptop and a non-self-powered portable monitor"],
+    pros: ["Lowest price in this comparison at under $100", "Notably smaller, more portable power adapter for travel", "Can simultaneously power laptop and a non-self-powered portable monitor"],
     cons: ["Apple M1 chip explicitly does not support dual monitors", "Fewer daisy-chain and expansion features than the Plugable picks"],
     bestFor: "buyers who want dual 40Gbps ports at the lowest price with travel-friendly power",
   },
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Transparent bandwidth allocation with flexible displays", "Hagibis USB4 Docking Station"],
         ["Thunderbolt-certified reliability with daisy-chain expansion", "Plugable Thunderbolt 4 Hub, 3x Ports"],
         ["Dual 40Gbps ports at the lowest price", "ACASIS 40Gbps Dock with DP Port"],
-        ["Intel EVO-certified reliability in a compact form", "Plugable 5-in-1 Thunderbolt 4 Hub"],
+        ["Intel EVO-certified reliability in a compact form", "Plugable 5-in-1 Thunderbolt 4 Hub"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $100", "ACASIS 40Gbps Dock ($99.99)"],
-        ["Under $110", "Hagibis USB4 Docking Station ($109.99)"],
-        ["Under $170", "Plugable 5-in-1 Hub ($169.99)"],
-        ["Under $180", "Plugable Thunderbolt 4 Hub, 3x Ports ($175.99)"],
+        ["Under $100", "ACASIS 40Gbps Dock (under $100)"],
+        ["Under $110", "Hagibis USB4 Docking Station (under $110)"],
+        ["Under $170", "Plugable 5-in-1 Hub (under $170)"],
+        ["Under $180", "Plugable Thunderbolt 4 Hub, 3x Ports (under $180)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Upstream-Only vs Full Upstream-and-Downstream 40Gbps",
     cards: [
       { label: "Full 40Gbps throughout (Hagibis, both Plugable picks)", text: "Delivers the full 40Gbps bandwidth on both the host connection and individual downstream ports, ideal for simultaneously running multiple high-bandwidth peripherals." },
-      { label: "40Gbps host with mixed downstream speeds (ACASIS)", text: "Delivers 40Gbps on primary ports while some downstream ports run at standard USB 3.0 speeds, still a major upgrade over 10Gbps-only docks." },
+      { label: "40Gbps host with mixed downstream speeds (ACASIS)", text: "Delivers 40Gbps on primary ports while some downstream ports run at standard USB 3.0 speeds, still a major upgrade over 10Gbps-only docks." }
     ],
     note: "If you'll run multiple demanding peripherals simultaneously (fast SSD plus high-res display plus more), a dock with full 40Gbps throughout avoids bottlenecks. If you mainly need one fast connection plus basic peripherals, a mixed-speed dock still delivers strong value.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your priority", "Recommended pick"],
       rows: [
         ["Thunderbolt certification specifically", "Plugable Thunderbolt 4 Hub, 3x Ports"],
-        ["Intel EVO certification specifically", "Plugable 5-in-1 Thunderbolt 4 Hub"],
+        ["Intel EVO certification specifically", "Plugable 5-in-1 Thunderbolt 4 Hub"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Content Creators Running Multiple SSDs Specifically",
     cards: [
       { label: "Look for", text: "Daisy-chain support across multiple downstream Thunderbolt ports, so you can connect several high-performance SSDs simultaneously without running out of direct connections." },
-      { label: "In this comparison", text: "The Plugable Thunderbolt 4 Hub with 3 ports specifically supports daisy-chaining up to 6 additional Thunderbolt peripherals." },
+      { label: "In this comparison", text: "The Plugable Thunderbolt 4 Hub with 3 ports specifically supports daisy-chaining up to 6 additional Thunderbolt peripherals." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want Thunderbolt-certified reliability with maximum daisy-chain expansion for a content creation setup, where the 3-port Plugable pick justifies its $175.99 price." },
-      { label: "Save if", text: "You want dual 40Gbps ports with a portable power adapter, where the ACASIS pick delivers that for $99.99." },
+      { label: "Spend more if", text: "You want Thunderbolt-certified reliability with maximum daisy-chain expansion for a content creation setup, where the 3-port Plugable pick justifies its under $180 price." },
+      { label: "Save if", text: "You want dual 40Gbps ports with a portable power adapter, where the ACASIS pick delivers that for under $100." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "silent laptop cooling pads";
 export const introParagraphs = [
   "Nearly every cooling pad on Amazon claims to be quiet, so a 'silent' label by itself tells you very little. A pad that states an actual noise figure, a specific dBA number under a specific fan count or speed, gives you something real to compare against competitors, while a listing with only the word 'quiet' and no number is functionally unverifiable.",
-  "The right target here isn't the lowest possible noise in isolation, it's meaningful cooling at that noise level. A whisper-quiet pad that provides no real thermal benefit isn't actually a better buy than a slightly louder one with a genuinely stronger result. This guide also distinguishes low-RPM active designs that still use a fan from truly fanless pads, which are a different category covered in our dedicated fanless and passive cooling pad guides.",
+  "The right target here isn't the lowest possible noise in isolation, it's meaningful cooling at that noise level. A whisper-quiet pad that provides no real thermal benefit isn't actually a better buy than a slightly louder one with a genuinely stronger result. This guide also distinguishes low-RPM active designs that still use a fan from truly fanless pads, which are a different category covered in our dedicated fanless and passive cooling pad guides."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "9 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Demand a real dBA figure where available", description: "We prioritized listings with a specific stated noise ceiling over vague 'quiet' or 'ultra-quiet' marketing language with no supporting number." },
   { title: "Cooling capacity at the stated noise level", description: "We weighed each pick's fan count and speed against its noise claim, since the goal is meaningful cooling at low noise, not just the lowest possible noise in isolation." },
   { title: "Active low-RPM vs genuinely fanless design", description: "We distinguished pads that use fewer or slower fans from truly fanless designs, which are a separate category covered in our fanless and passive cooling pad guides." },
-  { title: "Practical noise-management features", description: "We noted features like independent fan zones that let a buyer actively reduce noise rather than relying on a single fixed loud or quiet setting." },
+  { title: "Practical noise-management features", description: "We noted features like independent fan zones that let a buyer actively reduce noise rather than relying on a single fixed loud or quiet setting." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -259,11 +259,11 @@ export const faq: FaqItem[] = [
   { q: "Is the quietest cooling pad always the best choice?", a: "Not necessarily. The goal is meaningful cooling at a given noise level, not the lowest possible noise in isolation. A slightly louder pad with genuinely stronger cooling can be the better buy for a heavier workload." },
   { q: "What's the difference between a silent pad and a fanless pad?", a: "A silent or quiet pad typically still has a fan, just running at lower speed or fewer fans active. A genuinely fanless pad has no fan mechanism at all and relies purely on elevation and material for cooling, a different category covered in our fanless and passive guides." },
   { q: "Do fewer fans always mean quieter operation?", a: "Generally yes, fewer or slower fans reduce noise, but they also reduce cooling capacity. Match fan count to your actual workload rather than choosing the lowest fan count purely to minimize noise." },
-  { q: "Can I reduce noise on a multi-fan cooling pad without buying a different product?", a: "Some pads offer independent fan-zone control or stepless speed dials that let you run fewer fans or lower speeds on demand, giving you flexibility to reduce noise without sacrificing all cooling." },
+  { q: "Can I reduce noise on a multi-fan cooling pad without buying a different product?", a: "Some pads offer independent fan-zone control or stepless speed dials that let you run fewer fans or lower speeds on demand, giving you flexibility to reduce noise without sacrificing all cooling." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-fanless-laptop-cooling-pads", title: "Best Fanless Laptop Cooling Pads (2026)" },
   { href: "/guide/best-passive-laptop-cooling-pads", title: "Best Passive Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" }
 ];

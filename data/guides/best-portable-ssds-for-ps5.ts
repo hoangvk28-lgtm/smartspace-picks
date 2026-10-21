@@ -5,7 +5,7 @@ export const metaDescription = "4 storage options we evaluated for PS5, with a c
 export const mainKeyword = "best portable ssd for ps5";
 export const introParagraphs = [
   "It is important to understand a real PS5 limitation before buying storage: PS5 only allows PS4, backward-compatible games to run directly from an external USB drive. PS5-native games must be copied back to internal storage or an officially Sony-certified internal expansion NVMe drive before they can actually be played, an external USB drive alone cannot run them directly.",
-  "The first time you connect a new drive to a PS5, the console typically requires formatting it specifically for PS5 use, which erases any existing data on that drive, a real risk worth backing up for before you connect anything you have used elsewhere.",
+  "The first time you connect a new drive to a PS5, the console typically requires formatting it specifically for PS5 use, which erases any existing data on that drive, a real risk worth backing up for before you connect anything you have used elsewhere."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Internal Expansion Pick, Play PS5 Games Directly",
     name: "Seagate Storage Expansion Card 2TB Solid State Drive - NVMe SSD for Xbox Series X|S, Quick Resume, Plug & Play, Licensed",
     price: "Check current price on Amazon",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "30,738 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/316Its027kL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09BJYXMDW?tag=deskfinds0d-20",
     description: "Seagate's Storage Expansion Card is an internal NVMe expansion card built to fit the PS5's internal expansion slot and meet Sony's official certification requirements, meaning PS5-native games installed on it can be played directly, unlike any external USB drive.\n\nIt earns the top spot in this comparison over Western Digital 1TB P40 Game Drive SSD for one main reason. The only pick here that runs PS5-native games directly. On price, it comes in below Western Digital 1TB P40 Game Drive SSD, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Officially Sony-certified for PS5's internal expansion slot. On the other side, Cannot be used externally like a USB storage drive. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best External Pick for Backup and PS4 Game Play",
     name: "Western Digital 1TB P40 Game Drive SSD - Up to 2,000MB/s, RGB Lighting, Compatible with Playstation, Xbox, PC, & Mac",
     price: "$177.99",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "1,598 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31szhVvwXYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09ZRD38D8?tag=deskfinds0d-20",
     description: "Western Digital's P40 Game Drive SSD is explicitly compatible with PlayStation, Xbox, PC, and Mac, and works well as external USB storage for a PS5, storing PS4 backward-compatible games that can be played directly, and PS5-native games that must be copied back to internal storage first before playing.\n\nOne spot below Seagate Storage Expansion Card 2TB Solid State Drive in this ranking, pricing between it and Seagate Storage Expansion Card 2TB Solid State Drive isn't directly comparable here. The compromise here is straightforward: Cannot run PS5-native games directly, they must be copied to internal storage first. What you gain in return: Directly plays PS4 backward-compatible games from external USB. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Solid external backup and storage option for PS5-native games. On the other side, RGB lighting is cosmetic, not a functional benefit. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget External Pick for Backup and PS4 Game Play",
     name: "Seagate 2TB Game Drive for Xbox, USB 3.0 (STKX2000400)",
     price: "$119.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "20,657 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31+UCQHBazL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08Y1Q2KSZ?tag=deskfinds0d-20",
     description: "Seagate's 2TB Game Drive for Xbox works equally well as generic external USB storage for a PS5 despite the Xbox branding, suitable for backing up PS5-native game installs and directly playing PS4 backward-compatible titles.\n\nSitting just under Western Digital 1TB P40 Game Drive SSD, it's priced lower than Western Digital 1TB P40 Game Drive SSD. Here's the honest tradeoff: Cannot run PS5-native games directly, they must be copied to internal storage first. And here's what it gets you instead: Large 2TB capacity for backup storage at a budget price. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Directly plays PS4 backward-compatible games from external USB. On the other side, USB 3.0 caps speed below newer external drives. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact External Pick for Backup and PS4 Game Play",
     name: "Samsung T7 Portable SSD 1TB Titan Gray, USB 3.2 Gen 2, Up to 1,050MB/s",
     price: "$216.36",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "21,124 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LdvAbumfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874XN4D8?tag=deskfinds0d-20",
     description: "Samsung's T7 offers a slim, reliable external USB drive for PS5 backup storage, with 1050MB/s USB 3.2 Gen 2 speed and the same PS4 direct-play, PS5 copy-back limitation as any external USB drive on this console.\n\nRanked just behind Seagate 2TB Game Drive for Xbox, it costs more than Seagate 2TB Game Drive for Xbox. The real tradeoff against that pick: Cannot run PS5-native games directly, they must be copied to internal storage first. In exchange, it offers this instead: Compact, easy to keep alongside a PS5 for backup storage. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Directly plays PS4 backward-compatible games from external USB. On the other side, No official IP rating. That's the main tradeoff to weigh against everything above.",

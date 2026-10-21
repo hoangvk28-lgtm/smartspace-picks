@@ -5,7 +5,7 @@ export const metaDescription = "4 portable SSDs we evaluated on real transfer sp
 export const mainKeyword = "best portable ssd";
 export const introParagraphs = [
   "The rated transfer speed printed on a portable SSD's box only holds up if the host port, the cable, and the drive's own controller all support that spec at the same time, so it is worth checking your laptop or console's actual port spec before assuming any drive will hit its advertised number.",
-  "Most consumer portable SSDs also rely on an onboard SLC cache to hit their fastest numbers, and that cache runs out during large sustained transfers, after which write speed can drop noticeably, a real-world cliff that a short benchmark rarely reveals.",
+  "Most consumer portable SSDs also rely on an onboard SLC cache to hit their fastest numbers, and that cache runs out during large sustained transfers, after which write speed can drop noticeably, a real-world cliff that a short benchmark rarely reveals."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Portable SSD",
     name: "SANDISK 2TB Extreme Portable SSD (Old Model) - Up to 1050MB/s, USB-C, USB 3.2 Gen 2, IP65 Water and Dust Resistance, Updated Firmware - SDSSDE61-2T00-G25",
     price: "$299.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "91,365 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41eTFK7clfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HN37XC1?tag=deskfinds0d-20",
     description: "SanDisk's Extreme line pairs a rated 1050MB/s transfer speed with IP65 water and dust resistance, a genuinely useful combination for buyers who want one drive that works reliably both at a desk and on the move.\n\nIt earns the top spot in this comparison over Samsung T7 Shield Portable SSD 1TB for one main reason. IP65 rating adds real everyday durability. On price, it's actually priced above Samsung T7 Shield Portable SSD 1TB, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Large 2TB capacity for bigger libraries. On the other side, Older model, verify current firmware on arrival. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Balance of Speed and Toughness",
     name: "Samsung T7 Shield Portable SSD 1TB, USB 3.2 Gen 2, Up to 1,050 MB/s",
     price: "$286.88",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "16,380 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21mARCvUWxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VLK9W3S?tag=deskfinds0d-20",
     description: "Samsung's T7 Shield adds a rugged rubberized shell on top of the well-regarded T7 platform, rated for 1050MB/s over USB 3.2 Gen 2.\n\nOne spot below SANDISK 2TB Extreme Portable SSD in this ranking, it's priced lower than SANDISK 2TB Extreme Portable SSD. The compromise here is straightforward: Bulkier than the standard T7 due to the shield. What you gain in return: Rugged shell adds real drop protection. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Consistent, well-reviewed platform. On the other side, Sustained large transfers can hit the SLC cache limit. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Slim Everyday Drive",
     name: "Samsung T7 Portable SSD 1TB Titan Gray, USB 3.2 Gen 2, Up to 1,050MB/s",
     price: "$216.36",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "21,124 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LdvAbumfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874XN4D8?tag=deskfinds0d-20",
     description: "The standard Samsung T7 keeps the same 1050MB/s USB 3.2 Gen 2 performance in a slimmer, lighter metal body without the T7 Shield's rubber armor.\n\nSitting just under Samsung T7 Shield Portable SSD 1TB, it's priced lower than Samsung T7 Shield Portable SSD 1TB. Here's the honest tradeoff: Less drop protection than the Shield model. And here's what it gets you instead: Slimmer and lighter than the Shield variant. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Reliable, widely reviewed platform. On the other side, No official IP rating. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Value Pick",
     name: "SANDISK 1TB Portable SSD - Up to 800MB/s, USB-C, USB 3.2 Gen 2, Updated Firmware - SDSSDE30-1T00-G26",
     price: "$164.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "10,968 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41-T4nAAufL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5JQ68FY?tag=deskfinds0d-20",
     description: "SanDisk's standard Portable SSD trades some peak speed, rated up to 800MB/s, for a noticeably lower price than the Extreme or T7 lines.\n\nRanked just behind Samsung T7 Portable SSD 1TB Titan Gray, it's priced lower than Samsung T7 Portable SSD 1TB Titan Gray. The real tradeoff against that pick: 800MB/s ceiling trails the other picks here. In exchange, it offers this instead: Lowest price per gigabyte in this group. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Still USB 3.2 Gen 2 rated for solid everyday speed. On the other side, Best suited to everyday files rather than large video work. That's the main tradeoff to weigh against everything above.",

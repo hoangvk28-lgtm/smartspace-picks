@@ -12,7 +12,7 @@ export const gamingDeskVsOfficeDeskGuide: Guide = {
     "gaming desk features worth it",
     "office desk for gaming setup",
     "gaming desk vs regular desk difference",
-    "do i need a gaming desk",
+    "do i need a gaming desk"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const gamingDeskVsOfficeDeskGuide: Guide = {
     "desk-size-chart",
     "cable-management-types-explained",
     "mouse-pad-size-guide",
-    "monitor-arm-vs-monitor-stand",
+    "monitor-arm-vs-monitor-stand"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const gamingDeskVsOfficeDeskGuide: Guide = {
       question: "Does desk shape differ between gaming and office desks?",
       answer:
         "Not fundamentally, both categories offer straight, L-shaped, and other common desk shapes, gaming desks sometimes lean toward wider designs to accommodate multiple monitors and peripherals, but this isn't a strict category distinction.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const gamingDeskVsOfficeDeskGuide: Guide = {
     {
       heading: "Why Buying Individual Accessories Can Be More Cost-Effective",
       body: `If you already own a well-sized, sturdy office desk, purchasing individual gaming-style accessories, a cable management kit, a large mouse pad, a clip-on headset hook, often costs less in total than replacing your entire desk with a gaming-marketed model, while achieving essentially the same functional outcome. This approach also lets you selectively add only the specific features you actually want rather than accepting a bundled package that may include features you won't use.`,
-    },
+    }
   ],
 };

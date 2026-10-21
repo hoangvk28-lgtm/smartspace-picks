@@ -5,7 +5,7 @@ export const metaDescription = "6 UPS units we evaluated for multi-monitor desk 
 export const mainKeyword = "UPS battery backup for multiple monitors";
 export const introParagraphs = [
   "Each additional monitor in a multi-monitor setup adds meaningful real wattage draw, typically 20-40W per monitor depending on size and panel type, a two or three-monitor setup can push combined draw well past what a basic single-monitor UPS was sized for.",
-  "Outlet count matters as much as capacity for multi-monitor setups, since a PC plus two or three monitors plus peripherals needs enough battery-backed outlets to actually plug everything in, not just enough total wattage.",
+  "Outlet count matters as much as capacity for multi-monitor setups, since a PC plus two or three monitors plus peripherals needs enough battery-backed outlets to actually plug everything in, not just enough total wattage."
 ];
 export const lastUpdated = "2026-07-30";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best for 2-3 Monitor Setups",
     name: "APC UPS 1500VA/900W Pure Sine Wave UPS for Computer, Electronics, BR1500MS2",
     price: "$299.99",
-    rating: "4.5 stars from 3,467 Amazon ratings",
-    reviews: "3,467 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31rIE-toOYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08GRY1W93?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best 12-Outlet Pick for Multi-Monitor Desks",
     name: "CyberPower CP1500PFCLCD PFC Sinewave UPS Battery Backup and Surge Protector, 1500VA/1000W, 12 Outlets, AVR, Mini Tower, UL Certified",
     price: "$219.99",
-    rating: "4.6 stars from 11,256 Amazon ratings",
-    reviews: "11,256 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31DYxDN0bTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00429N19W?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Proven Multi-Monitor Pick",
     name: "APC UPS 1500VA/900W Battery Backup for PCs, Office Electronics, BX1500M",
     price: "$189.99",
-    rating: "4.5 stars from 13,112 Amazon ratings",
-    reviews: "13,112 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31p-5+FvTgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06VY6FXMM?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best for a Modest Two-Monitor Setup",
     name: "APC 1000VA/600W Pro UPS Battery Backup for Office Electronics, AVR, BX1000M",
     price: "$183.99",
-    rating: "4.5 stars from 2,697 Amazon ratings",
-    reviews: "2,697 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31VPmugfqML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06VY12HW4?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Lithium Battery Multi-Monitor Pick",
     name: "GOLDENMATE 1500VA/1000W Lithium UPS Battery Backup & Surge Protector, Gray",
     price: "$349.99",
-    rating: "4.9 stars from 20 Amazon ratings",
-    reviews: "20 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51bQ0-kLFqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GJ5WBM5D?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Two-Monitor Pick",
     name: "APC 850VA/510W Pro UPS Battery Backup for Office Electronics, AVR, BX850M",
     price: "$161.99",
-    rating: "4.6 stars from 796 Amazon ratings",
-    reviews: "796 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31xnh5VoQ4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06WP9Q8ZN?tag=deskfinds0d-20",
     description:
@@ -120,14 +120,14 @@ export const products: GuideProduct[] = [
     pros: ["Lowest price in this guide", "AVR included", "Compact footprint", "Good rating base"],
     cons: ["Least headroom of any pick in this guide, verify your monitors' actual wattage", "Not suited to a three-monitor or high-performance setup", "Not pure sine wave"],
     bestFor: "Budget-conscious buyers with two smaller or lower-power monitors",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Real wattage headroom for combined multi-monitor draw", description: "Checked each pick's real watt capacity against the realistic combined draw of a PC plus 2-3 monitors, since each additional monitor adds meaningful wattage that basic single-monitor UPS sizing doesn't account for." },
   { title: "Outlet count as a first-class sizing factor", description: "Weighed outlet count alongside wattage, since a multi-monitor desk with a PC, monitors, and peripherals needs enough battery-backed plugs to actually connect everything, not just enough total capacity." },
-  { title: "Capacity tiers from budget two-monitor to full three-monitor setups", description: "Ranked picks from entry-level 850VA (two smaller monitors) through 1500VA/1000W (a fully wired 2-3 monitor desk) so buyers size to their actual monitor count." },
+  { title: "Capacity tiers from budget two-monitor to full three-monitor setups", description: "Ranked picks from entry-level 850VA (two smaller monitors) through 1500VA/1000W (a fully wired 2-3 monitor desk) so buyers size to their actual monitor count." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -245,11 +245,11 @@ export const faq: FaqItem[] = [
   { q: "What UPS capacity do I need for three monitors?", a: "Plan for roughly 900-1000W of real capacity for a three-monitor setup with a high-performance PC, picks like the APC BR1500MS2 or CyberPower CP1500PFCLCD provide that headroom along with enough outlets." },
   { q: "Can I use a single-monitor UPS for a two-monitor setup?", a: "Only if you've verified the real watt capacity against your combined PC and monitor draw. A UPS sized for one monitor may not have enough headroom or outlets once a second monitor and its peripherals are added." },
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers with a 2-3 monitor desk setup who need both wattage and outlet headroom" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with two smaller or lower-power monitors At $161.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with two smaller or lower-power monitors At under $170, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-ups-battery-backups-for-computers-and-monitors", title: "Best UPS Battery Backups for Computers and Monitors (2026)" },
   { href: "/guide/best-ups-battery-backups-for-workstations", title: "Best UPS Battery Backups for Workstations (2026)" },
-  { href: "/guide/best-1000va-ups-battery-backups", title: "Best 1000VA UPS Battery Backups (2026)" },
+  { href: "/guide/best-1000va-ups-battery-backups", title: "Best 1000VA UPS Battery Backups (2026)" }
 ];

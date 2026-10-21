@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desktop acoustic booth";
 export const introParagraphs = [
   "If you searched for a desktop acoustic booth, a small enclosed structure that sits on or around your desk for sound isolation, we should tell you upfront that this product category is largely a gap on Amazon for general office use. What does exist under similar search terms is mostly vocal or podcast recording booths built for microphone isolation in a home studio, not a general desk accessory for reducing office noise or improving call privacy.",
-  "None of the verified product listings we researched for this cluster, flat acoustic panels and clamp-on dividers, genuinely qualify as a booth in the structural sense, an enclosed space you sit inside or partially inside. Rather than force one of those flat products into a booth label it doesn't earn, this guide explains the gap honestly and redirects you to the categories that actually deliver what you're likely looking for.",
+  "None of the verified product listings we researched for this cluster, flat acoustic panels and clamp-on dividers, genuinely qualify as a booth in the structural sense, an enclosed space you sit inside or partially inside. Rather than force one of those flat products into a booth label it doesn't earn, this guide explains the gap honestly and redirects you to the categories that actually deliver what you're likely looking for."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "6 min";
@@ -36,7 +36,7 @@ export const products: GuideProduct[] = [
     pros: ["Largest single flat panel available in this research pass", "Secure clamp-on mount", "Reduces visual distraction and some reflected sound", "Lower cost than a true enclosed pod"],
     cons: ["Not an enclosed booth by any reasonable definition", "Provides no meaningful isolation compared to a real pod", "Only covers one side of your desk"],
     bestFor: "Buyers who understand this is a large flat panel, not a booth, and want the closest lower-cost partial alternative while they save for a real pod.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -44,7 +44,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine booth-style products searched for and not found", description: "Searched verified Amazon listings specifically for enclosed desktop acoustic booth structures for general office use and did not find genuine matches, most results under similar terms are vocal recording booths, a different use case." },
   { title: "No flat panel forced into a booth label", description: "Declined to relabel any flat panel or divider as a booth, the structural mismatch between an open panel and an enclosed booth is too significant to gloss over." },
   { title: "One partial alternative included only with heavy caveats", description: "Included a single large flat panel as a partial, lower-cost alternative, explicitly caveated as not an enclosure, rather than omitting product coverage entirely." },
-  { title: "Redirected to established adjacent categories", description: "Pointed readers toward our established acoustic panel, divider, and office pod guides, the categories that actually deliver on absorption or genuine isolation." },
+  { title: "Redirected to established adjacent categories", description: "Pointed readers toward our established acoustic panel, divider, and office pod guides, the categories that actually deliver on absorption or genuine isolation." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -73,7 +73,7 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "$149.00",
+          "Under $150",
           "Stand Up Desk Store ReFocus Clamp"
         ]
       ]
@@ -163,11 +163,11 @@ export const faq: FaqItem[] = [
   { q: "Does a genuine desktop acoustic booth exist for general office use?", a: "Not really, as of this research pass, most listings under this search term are vocal or podcast recording booths, a different product built for microphone isolation, not general office desk use." },
   { q: "Can a flat acoustic panel work as a booth substitute?", a: "Not for genuine isolation, a flat panel addresses only reflected sound near one side of your desk, it cannot enclose or isolate you the way a real booth structure would." },
   { q: "What should I buy instead if I want real sound isolation at my desk?", a: "A full office pod is the category that actually delivers genuine enclosure and isolation, see our office pod guides." },
-  { q: "What should I buy if I just want to reduce echo on calls?", a: "A flat acoustic panel or divider is the more realistic fit, see our desk acoustic panels or acoustic desk dividers guides." },
+  { q: "What should I buy if I just want to reduce echo on calls?", a: "A flat acoustic panel or divider is the more realistic fit, see our desk acoustic panels or acoustic desk dividers guides." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-acoustic-panels", title: "Best Desk Acoustic Panels (2026)" },
   { href: "/guide/best-acoustic-desk-dividers", title: "Best Acoustic Desk Dividers (2026)" },
-  { href: "/guide/best-acoustic-desk-hoods", title: "Best Acoustic Desk Hood Alternatives (2026)" },
+  { href: "/guide/best-acoustic-desk-hoods", title: "Best Acoustic Desk Hood Alternatives (2026)" }
 ];

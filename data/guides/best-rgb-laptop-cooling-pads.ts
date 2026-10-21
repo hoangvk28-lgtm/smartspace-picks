@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "RGB laptop cooling pads";
 export const introParagraphs = [
   "RGB lighting is a styling feature, not a cooling one, and it adds a small amount of extra power draw on top of whatever the fans themselves need. That doesn't make RGB pads a bad choice, but it does mean the cooling hardware underneath the lighting deserves more scrutiny than the light show itself. Every pad in this guide genuinely includes RGB lighting per its own listing, not just a colored accent, so we're not making an honesty-gap correction here.",
-  "Instead, this guide evaluates each pick's actual fan count, speed, and control scheme first, then covers lighting modes and software as a secondary factor. If you want a pad with strong cooling and don't care about RGB at all, several of these picks let you turn the lighting off entirely without losing any cooling performance.",
+  "Instead, this guide evaluates each pick's actual fan count, speed, and control scheme first, then covers lighting modes and software as a secondary factor. If you want a pad with strong cooling and don't care about RGB at all, several of these picks let you turn the lighting off entirely without losing any cooling performance."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "10 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Cooling performance independent of lighting", description: "We evaluated fan count, speed, and stated temperature claims first, then treated RGB as a secondary feature layered on top rather than the primary differentiator." },
   { title: "RGB control method", description: "We compared whether lighting is controlled on-device (buttons, LCD) or requires separate software, and whether it can be fully disabled without affecting cooling." },
   { title: "Power draw and source", description: "We noted whether each pad runs entirely off laptop USB power or includes an external adapter, since RGB and fan count together add to the power budget your laptop's USB port has to supply." },
-  { title: "Ecosystem and software dependency", description: "For pads tied to a software ecosystem, like Razer Synapse, we flagged that dependency clearly since it affects setup complexity and cross-device compatibility." },
+  { title: "Ecosystem and software dependency", description: "For pads tied to a software ecosystem, like Razer Synapse, we flagged that dependency clearly since it affects setup complexity and cross-device compatibility." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -291,11 +291,11 @@ export const faq: FaqItem[] = [
   { q: "Can I turn off the RGB lighting on these pads?", a: "Most of the picks in this guide let you disable RGB with a button press or long-press without affecting cooling. Check the specific pad's controls, since not all offer a true full lights-off mode." },
   { q: "Do RGB laptop cooling pads need special software?", a: "Only some do. The Razer pick requires Razer Synapse for full customization, while most others in this guide are controlled entirely through on-device buttons or an LCD panel with no app needed." },
   { q: "Are RGB laptop cooling pads more expensive than non-RGB ones?", a: "Not necessarily. Several picks in this guide are priced under $30, comparable to non-RGB pads, since fan count and build quality drive price more than the lighting feature itself." },
-  { q: "Does more RGB modes mean better cooling?", a: "No. RGB mode count and cooling performance are unrelated specs. Compare fan count, RPM, and any stated temperature reduction figures separately from lighting options." },
+  { q: "Does more RGB modes mean better cooling?", a: "No. RGB mode count and cooling performance are unrelated specs. Compare fan count, RPM, and any stated temperature reduction figures separately from lighting options." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-high-rpm-laptop-cooling-pads", title: "Best High-RPM Laptop Cooling Pads (2026)" },
   { href: "/guide/best-powerful-laptop-cooling-pads", title: "Best Powerful Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-gaming-laptop-cooling-pads", title: "Best Gaming Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-gaming-laptop-cooling-pads", title: "Best Gaming Laptop Cooling Pads (2026)" }
 ];

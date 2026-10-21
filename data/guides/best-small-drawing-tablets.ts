@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $19.99",
+          "Under $20",
           "XPPen G430S OSU"
         ],
         [
-          "Around $28.99",
+          "Under $30",
           "XPPen StarG640 Digital Graphic Tablet 6x4 Inch Art Tablet with Battery-Free Stylus"
         ],
         [
-          "Around $39.95",
+          "Under $40",
           "Wacom Intuos Small"
         ],
         [
-          "Around $54.99",
+          "Under $60",
           "Parblo Intangbo X7 Drawing Tablet 7x4 inch"
         ],
         [
-          "Around $69.95",
+          "Under $70",
           "Wacom Intuos Small"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Wacom Intuos Small is aimed at buyers prioritizing wired usb, emr battery-free pen." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Wacom Intuos Small is aimed at buyers prioritizing wired usb, emr battery-free pen." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-drawing-tablets","title":"Best Portable Drawing Tablets in 2026"},{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"},{"href":"/guide/best-wacom-drawing-tablets","title":"Best Wacom Drawing Tablets in 2026"}];

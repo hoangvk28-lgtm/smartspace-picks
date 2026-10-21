@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "fanless laptop cooling pads";
 export const introParagraphs = [
   "This guide required a genuine honesty check before it could be written. We researched a pool of laptop cooling pads commonly associated with quiet or minimal-noise marketing, and checked each product's actual feature list rather than assuming a 'slim' or 'portable' label implies no fan. The result: nearly every laptop cooling pad on the market, including several that sound minimal in their branding, includes at least one fan, sometimes a large single fan, sometimes several small ones.",
-  "Out of the researched pool, only one product genuinely has no fan mechanism at all, relying purely on a raised, ventilated platform rather than active airflow. We're disclosing that gap plainly rather than padding this guide with pads that use a fan despite sounding passive in their listing copy. If a quiet active-fan design is an acceptable alternative for you, our silent laptop cooling pads guide covers that ground with genuine fan-equipped options and documented noise figures where available.",
+  "Out of the researched pool, only one product genuinely has no fan mechanism at all, relying purely on a raised, ventilated platform rather than active airflow. We're disclosing that gap plainly rather than padding this guide with pads that use a fan despite sounding passive in their listing copy. If a quiet active-fan design is an acceptable alternative for you, our silent laptop cooling pads guide covers that ground with genuine fan-equipped options and documented noise figures where available."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "6 min";
@@ -43,7 +43,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified fan presence, not label alone", description: "We checked each researched product's actual feature list for a fan mechanism rather than assuming words like 'slim,' 'quiet,' or 'portable' implied a fanless design." },
   { title: "Honest disclosure of category limits", description: "We are transparent that the vast majority of researched laptop cooling pads include at least one fan, even ones with minimal-sounding branding, and did not force ill-fitting products into this list to pad the count." },
   { title: "Real cooling mechanism assessed", description: "For the one genuinely fanless product found, we evaluated its cooling claim honestly as elevation and passive ventilation, not equivalent to active fan-driven airflow." },
-  { title: "Redirect to genuine alternatives", description: "Where a fanless pick could not be verified, we pointed to our silent laptop cooling pads guide, which covers genuinely fan-equipped, low-noise options with documented figures where available." },
+  { title: "Redirect to genuine alternatives", description: "Where a fanless pick could not be verified, we pointed to our silent laptop cooling pads guide, which covers genuinely fan-equipped, low-noise options with documented figures where available." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -61,7 +61,7 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $14.24",
+          "Under $15",
           "Gogoonike Adjustable Laptop Stand for Desk"
         ]
       ]
@@ -93,7 +93,7 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "Here's what you get for $14.24: Genuinely fanless, zero added noise or power draw. If that's what you're after, the tradeoffs in its cons list probably won't bother you either."
+        "text": "Here's what you get for under $15: Genuinely fanless, zero added noise or power draw. If that's what you're after, the tradeoffs in its cons list probably won't bother you either."
       },
       {
         "label": "Save if",
@@ -131,11 +131,11 @@ export const faq: FaqItem[] = [
   { q: "Does a fanless laptop stand actually cool a laptop?", a: "It can help if your laptop's bottleneck is restricted airflow from resting flat on a desk or soft surface, since elevation opens up ventilation clearance. It cannot resolve an internal chassis thermal design limit the way active airflow potentially can." },
   { q: "Why does this guide only feature one product?", a: "We only include products genuinely verified as fanless from their actual feature lists. Rather than padding the guide with fan-equipped pads mislabeled as passive, we're disclosing that only one product in our research pool met the bar." },
   { q: "What should I buy instead if I want more cooling than a fanless stand offers?", a: "Our silent laptop cooling pads guide covers genuinely fan-equipped, low-noise options with documented dBA figures where available, giving you more active cooling capacity while still keeping noise low." },
-  { q: "Is a fanless stand the same as a passive cooling pad?", a: "Yes, functionally the terms describe the same thing, no fan mechanism. Our passive laptop cooling pads guide covers the same product and the same honesty findings with a slightly different framing focused on the cooling mechanism itself." },
+  { q: "Is a fanless stand the same as a passive cooling pad?", a: "Yes, functionally the terms describe the same thing, no fan mechanism. Our passive laptop cooling pads guide covers the same product and the same honesty findings with a slightly different framing focused on the cooling mechanism itself." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-passive-laptop-cooling-pads", title: "Best Passive Laptop Cooling Pads (2026)" },
   { href: "/guide/best-silent-laptop-cooling-pads", title: "Best Silent Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" }
 ];

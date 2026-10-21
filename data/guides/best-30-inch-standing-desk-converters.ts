@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "30 inch standing desk converter";
 export const introParagraphs = [
   "30 inches sits between the more compact 26-29 inch tier and the standard 32 inch size, offering slightly more surface than the smallest converters while staying manageable for tighter desks.",
-  "We required confirmed 30 inch dimensions across manual and single-top designs for this comparison.",
+  "We required confirmed 30 inch dimensions across manual and single-top designs for this comparison."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Compared genuine 28-32 inch options near the 30 inch target", description: "Since exact 30 inch listings are less common than nearby sizes, we included the closest confirmed options and disclosed exact dimensions where they varied." },
   { title: "Flagged where confirmed data showed a slightly different size than the strict target", description: "We noted directly where a pick is confirmed at 28 or 32 inches rather than exactly 30." },
   { title: "Weighed review volume across VIVO's near-30-inch product line", description: "We compared VIVO's K Series 28 inch model's massive review pool against other alternatives at this general size tier." },
-  { title: "Disclosed where pricing wasn't confirmed for a specific listing", description: "We flagged one pick's unconfirmed current pricing rather than guessing at a figure." },
+  { title: "Disclosed where pricing wasn't confirmed for a specific listing", description: "We flagged one pick's unconfirmed current pricing rather than guessing at a figure." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -238,20 +238,20 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
 export const faq: FaqItem[] = [
   { q: "Is there a converter confirmed at exactly 30 inches?", a: "Exact 30 inch listings are less common than 28 or 32 inch alternatives; we included the closest confirmed options and disclosed exact dimensions." },
   { q: "Which near-30-inch converter has the most reviews?", a: "The VIVO 28 inch Desk Converter, K Series, sharing VIVO's massive K Series review pool of 15,583." },
-  { q: "What's the cheapest option near this size?", a: "The VIVO Black 28 in Standing Desk Converter at $99.99." },
+  { q: "What's the cheapest option near this size?", a: "The VIVO Black 28 in Standing Desk Converter at under $100." },
   { q: "Should I consider 32 inches instead?", a: "If your desk has flexibility, our 32-inch specific guide may offer additional confirmed options at that exact size." },
-  { q: "Is there a quick-adjust option near 30 inches?", a: "Yes, the JYLH JOYSEEKER 32 inch Standing Desk Converter is marketed specifically for fast sit-to-stand transitions." },
+  { q: "Is there a quick-adjust option near 30 inches?", a: "Yes, the JYLH JOYSEEKER 32 inch Standing Desk Converter is marketed specifically for fast sit-to-stand transitions." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-32-inch-standing-desk-converters", title: "Best 32-Inch Standing Desk Converters (2026)" },
   { href: "/guide/best-small-standing-desk-converters", title: "Best Small Standing Desk Converters (2026)" },
-  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
+  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" }
 ];

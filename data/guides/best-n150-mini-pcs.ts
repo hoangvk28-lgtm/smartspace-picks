@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "n150 mini pc";
 export const introParagraphs = [
   "The Intel N150 represents a modest step up from the N100, not a dramatic performance leap, worth verifying the actual generational improvement genuinely matters for your specific use case rather than assuming N150 automatically justifies a higher price over an otherwise similar N100 configuration.",
-  "N150 mini PCs commonly pair the chip with more generous RAM and storage than base N100 configurations, worth evaluating the total package rather than the chip alone, since the RAM and SSD improvements often matter more day-to-day than the modest processor upgrade.",
+  "N150 mini PCs commonly pair the chip with more generous RAM and storage than base N100 configurations, worth evaluating the total package rather than the chip alone, since the RAM and SSD improvements often matter more day-to-day than the modest processor upgrade."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -26,7 +26,7 @@ export const products: GuideProduct[] = [
     badge: "Best N150 Mini PC Overall",
     name: "MINIX Z150-0dB Fanless Mini PC, Intel N150 (Upgraded N100), 16GB DDR4/512GB PCIe Gen3 x 4 SSD/4K Dual",
     price: "$449.90",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41IjiC3RdaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZX5DWS5?tag=deskfinds0d-20",
@@ -42,7 +42,7 @@ export const products: GuideProduct[] = [
     badge: "Best N150 Pick with Windows 11 Pro",
     name: "MeLE Quieter4C N150 Fanless Mini PC with Win-11-Pro 16GB RAM DDR4 512GB SSD",
     price: "$549.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/511RCdDwIEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZGRLFLQ?tag=deskfinds0d-20",
@@ -58,7 +58,7 @@ export const products: GuideProduct[] = [
     badge: "Best Value N150 Pick",
     name: "MeLE Fanless Mini PC Quieter 4C N150, 16GB RAM 512GB Storage, Win11 Pro",
     price: "$449.98",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51bh0tba6dL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1KCNPQV?tag=deskfinds0d-20",
@@ -74,7 +74,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget-Friendly N150 Pick",
     name: "QAZIPO Mini PC, 13th Twin Lake N150 (up to 3.6GHz), 16GB RAM 512GB SSD",
     price: "$309.00",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41WgxeHNYYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT68M444?tag=deskfinds0d-20",
@@ -90,7 +90,7 @@ export const products: GuideProduct[] = [
     badge: "Best Alternative for Buyers Reconsidering N95",
     name: "GMKtec Mini PC Computers Intel N95 Processor (Turbo 3.4GHz)",
     price: "$249.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41C8DZtap0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GFCMGHJT?tag=deskfinds0d-20",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "N150's modest generational improvement over N100 assessed honestly", description: "Assessed honestly that the N150 represents a modest step up from N100, not a dramatic leap, encouraging buyers to verify this matters for their specific use case." },
   { title: "Total package (RAM, storage) weighted alongside the chip upgrade", description: "Weighted the total package of RAM and storage alongside the chip itself, since these often matter more day-to-day than the modest processor upgrade." },
   { title: "Fanless and silent operation valued as a genuine benefit", description: "Valued fanless, silent operation as a genuine benefit for buyers prioritizing quiet as much as raw performance in this chip tier." },
-  { title: "Included Windows license weighed against total package price", description: "Weighed Windows 11 Pro inclusion against total package price, since this affects genuine value for buyers who'd otherwise need a separate license." },
+  { title: "Included Windows license weighed against total package price", description: "Weighed Windows 11 Pro inclusion against total package price, since this affects genuine value for buyers who'd otherwise need a separate license." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Is N150 much faster than N100?", a: "It's a modest step up, not a dramatic leap, verify the actual generational improvement matters for your specific use case before paying extra." },
   { q: "What matters more, the N150 chip or the RAM and storage?", a: "Often the RAM and storage, since N150 mini PCs commonly pair the chip with more generous specs that matter more day-to-day than the modest processor upgrade." },
   { q: "Are N150 mini PCs quiet?", a: "Many run fanless given this chip family's low power draw, genuinely good for buyers prioritizing silent operation." },
-  { q: "Is it worth paying more for an N150 mini PC with Windows included?", a: "It can be, this affects total cost of ownership if you'd otherwise need to purchase a separate Windows license." },
+  { q: "Is it worth paying more for an N150 mini PC with Windows included?", a: "It can be, this affects total cost of ownership if you'd otherwise need to purchase a separate Windows license." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-n100-mini-pcs", title: "Best N100 Mini PCs (2026)" },
   { href: "/guide/best-fanless-mini-pcs", title: "Best Fanless Mini PCs (2026)" },
-  { href: "/guide/best-mini-pcs-with-16gb-ram", title: "Best Mini PCs with 16GB RAM (2026)" },
+  { href: "/guide/best-mini-pcs-with-16gb-ram", title: "Best Mini PCs with 16GB RAM (2026)" }
 ];

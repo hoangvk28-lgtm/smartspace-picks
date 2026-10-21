@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31ULAo49I-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTRCW3Q?tag=deskfinds0d-20",
-    description: "A 2-post 25U rack rated at 881 lbs, notably higher than NavePoint's 22U 2-post model despite the taller height, thanks to a wider structural base.\n\nCable hooks are included for organizing runs in studio and network environments, and the self-squaring, bolt-down design gives it a stable footing once installed.\n\nWhere this one earns its spot is 881 lb rating beats NavePoint's shorter 22U 2-post model, and cable hooks keep studio and network runs organized. Worth noting before buying: 2-post frame still offers less lateral support than 4-post, which matters more at $225.99 than it would on a cheaper pick.",
+    description: "A 2-post 25U rack rated at 881 lbs, notably higher than NavePoint's 22U 2-post model despite the taller height, thanks to a wider structural base.\n\nCable hooks are included for organizing runs in studio and network environments, and the self-squaring, bolt-down design gives it a stable footing once installed.\n\nWhere this one earns its spot is 881 lb rating beats NavePoint's shorter 22U 2-post model, and cable hooks keep studio and network runs organized. Worth noting before buying: 2-post frame still offers less lateral support than 4-post, which matters more at under $250 than it would on a cheaper pick.",
     specs: ["25U, 14.3\"L x 20\"W x 49\"H","881 lb weight capacity","Cable hooks, self-squaring bolt-down design"],
     pros: ["881 lb rating beats NavePoint's shorter 22U 2-post model","Cable hooks keep studio and network runs organized","Self-squaring design adds stability once bolted down"],
     cons: ["2-post frame still offers less lateral support than 4-post","49\" height needs meaningful floor-to-ceiling clearance"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31glGtrU3JL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01A6JQCR4?tag=deskfinds0d-20",
-    description: "A mid-height 2-post rack at 22U, rated for 330 lbs, matching the same capacity as NavePoint's 42U 2-post model despite the shorter frame.\n\nIt ships with casters included for mobility and the same square-punched cage nut holes and self-squaring structure used across NavePoint's whole open frame series.\n\nThis pick is best for buyers who value casters included for mobility right out of the box along with consistent cage nut hardware across NavePoint's whole lineup. The catch is that 330 lb rating is modest for a 22U rack, so decide if that's worth it at $209.99.",
+    description: "A mid-height 2-post rack at 22U, rated for 330 lbs, matching the same capacity as NavePoint's 42U 2-post model despite the shorter frame.\n\nIt ships with casters included for mobility and the same square-punched cage nut holes and self-squaring structure used across NavePoint's whole open frame series.\n\nThis pick is best for buyers who value casters included for mobility right out of the box along with consistent cage nut hardware across NavePoint's whole lineup. The catch is that 330 lb rating is modest for a 22U rack, so decide if that's worth it at under $250.",
     specs: ["22U, 23.75\"L x 23.5\"W x 47\"H","330 lb weight capacity","Casters included, cage nut style holes"],
     pros: ["Casters included for mobility right out of the box","Consistent cage nut hardware across NavePoint's whole lineup","Self-squaring design improves stability once bolted down"],
     cons: ["330 lb rating is modest for a 22U rack","2-post frame trades some rigidity for a smaller footprint"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31zHpuHoEwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01A6JQSOQ?tag=deskfinds0d-20",
-    description: "NavePoint's 2-post 42U rack uses a self-squaring structure with bolt-down provisions, aimed at giving open-frame stability without the extra material cost of a 4-post design.\n\nAt 330 lbs it's rated lower than 4-post alternatives at this height, so it fits lighter networking gear better than full server chassis stacks.\n\nWhat stands out here is self-squaring design adds stability without extra posts, plus floor mounting or casters, your choice at setup. The main tradeoff: 330 lb rating is modest for a 42U rack, so weigh that against the $285.99 price before buying.",
+    description: "NavePoint's 2-post 42U rack uses a self-squaring structure with bolt-down provisions, aimed at giving open-frame stability without the extra material cost of a 4-post design.\n\nAt 330 lbs it's rated lower than 4-post alternatives at this height, so it fits lighter networking gear better than full server chassis stacks.\n\nWhat stands out here is self-squaring design adds stability without extra posts, plus floor mounting or casters, your choice at setup. The main tradeoff: 330 lb rating is modest for a 42U rack, so weigh that against the under $300 price before buying.",
     specs: ["42U, 23.75\"L x 23.5\"W x 81.75\"H","330 lb weight capacity","Self-squaring bolt-down structure"],
     pros: ["Self-squaring design adds stability without extra posts","Floor mounting or casters, your choice at setup","Open frame keeps cable and equipment access simple"],
     cons: ["330 lb rating is modest for a 42U rack","2-post design offers less lateral support than 4-post"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31gccnVtvQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTRCWN6?tag=deskfinds0d-20",
-    description: "At 45U this is one of the tallest racks in the entire lineup, and NavePoint rates it for 881 lbs, notably higher than their smaller 2-post models thanks to a wider base footprint.\n\nBuilt-in cable hooks are called out specifically as useful for studio and network settings where cable organization tends to get messy fast at this scale.\n\nThe strongest case for this pick comes down to 881 lb rating is high for a 2-post open rack as well as cable hooks built in for studio-scale wiring. The compromise here is that 84\" height is taller than most home ceilings comfortably fit, so factor that in alongside the $303.99 asking price.",
+    description: "At 45U this is one of the tallest racks in the entire lineup, and NavePoint rates it for 881 lbs, notably higher than their smaller 2-post models thanks to a wider base footprint.\n\nBuilt-in cable hooks are called out specifically as useful for studio and network settings where cable organization tends to get messy fast at this scale.\n\nThe strongest case for this pick comes down to 881 lb rating is high for a 2-post open rack as well as cable hooks built in for studio-scale wiring. The compromise here is that 84\" height is taller than most home ceilings comfortably fit, so factor that in alongside the under $350 asking price.",
     specs: ["45U, 14.3\"L x 20\"W x 84\"H","881 lb weight capacity","Cable management hooks included"],
     pros: ["881 lb rating is high for a 2-post open rack","Cable hooks built in for studio-scale wiring","Self-squaring floor mount adds real stability"],
     cons: ["84\" height is taller than most home ceilings comfortably fit","2-post frame still needs floor bolting for full stability"],
@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $209.99",
+          "Under $250",
           "NavePoint 22U 2 Post Open Frame Server Rack with Casters"
         ],
         [
-          "Around $225.99",
+          "Under $250",
           "NavePoint 25U 2 Post Open Frame Server Rack"
         ],
         [
-          "Around $252.99",
+          "Under $300",
           "StarTech 42U 2-Post Open Frame Server Rack"
         ],
         [
-          "Around $285.99",
+          "Under $300",
           "NavePoint 42U 2 Post Open Frame Server Rack with Casters"
         ],
         [
-          "Around $303.99",
+          "Under $350",
           "NavePoint 45U 2 Post Open Frame Server Rack"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "StarTech 42U 2-Post Open Frame Server Rack is aimed at buyers prioritizing 42u, 2-post open depth design." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "StarTech 42U 2-Post Open Frame Server Rack is aimed at buyers prioritizing 42u, 2-post open depth design." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-two-post-server-racks","title":"Best Two Post Server Racks in 2026"},{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"}];

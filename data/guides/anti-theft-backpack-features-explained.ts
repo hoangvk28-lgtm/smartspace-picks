@@ -12,7 +12,7 @@ export const antiTheftBackpackFeaturesExplainedGuide: Guide = {
     "hidden zipper backpack worth it",
     "cut resistant backpack material",
     "lockable laptop bag features",
-    "travel security backpack",
+    "travel security backpack"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const antiTheftBackpackFeaturesExplainedGuide: Guide = {
     "laptop-backpack-vs-messenger-bag",
     "water-resistant-vs-waterproof-bag",
     "laptop-bag-compartment-organization",
-    "laptop-privacy-screen-explained",
+    "laptop-privacy-screen-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const antiTheftBackpackFeaturesExplainedGuide: Guide = {
       question: "Do anti-theft features add noticeable weight or bulk to a bag?",
       answer:
         "Some added weight from reinforced materials and additional hardware like locks is typical, generally a modest tradeoff relative to the bag's total weight, though worth considering if minimizing bag weight is a significant priority for your specific use case.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const antiTheftBackpackFeaturesExplainedGuide: Guide = {
     {
       heading: "Why Risk Level Should Genuinely Drive This Purchasing Decision",
       body: `The practical value of anti-theft features scales directly with your actual exposure to theft risk, someone commuting through a quiet, low-crime area to a secure office building faces meaningfully less practical risk than someone frequently navigating crowded tourist areas or public transit systems known for pickpocketing, being honest about your own actual risk profile, rather than defaulting to maximum security features regardless of need, helps determine whether the added cost and bulk of these features represents a reasonable investment or an unnecessary expense for your specific situation.`,
-    },
+    }
   ],
 };

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "usb kvm switch";
 export const introParagraphs = [
   "USB 3.0 versus USB 2.0 ports on a switch make a real, measurable speed difference for external drives and other high-bandwidth peripherals, not just keyboard and mouse, worth checking the actual USB standard on each port rather than assuming any 'USB switch' handles fast peripherals equally well.",
-  "A dedicated USB switch (without video switching) is a genuinely different product from a full KVM switch, worth confirming exactly what you need, since a simple USB-only switch is cheaper but won't switch your monitor's video source.",
+  "A dedicated USB switch (without video switching) is a genuinely different product from a full KVM switch, worth confirming exactly what you need, since a simple USB-only switch is cheaper but won't switch your monitor's video source."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -26,7 +26,7 @@ export const products: GuideProduct[] = [
     badge: "Best USB KVM Switch Overall",
     name: "UGREEN HDMI KVM Switch 2 Monitors 2 Computers 4K@60Hz, with 4 USB 3.0 Ports",
     price: "$69.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41ZrB2w7oOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXF66SWR?tag=deskfinds0d-20",
@@ -42,7 +42,7 @@ export const products: GuideProduct[] = [
     badge: "Best Value USB 3.0 KVM Pick",
     name: "USB3.0 KVM Switch 2 Port HDMI, 4K@60Hz KVM Switch 1 Monitors 2 Computers with 3 USB3.0 Ports",
     price: "$32.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41uSOQO2ILL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFVBK4XQ?tag=deskfinds0d-20",
@@ -58,7 +58,7 @@ export const products: GuideProduct[] = [
     badge: "Best USB KVM Pick for Multiple Computers",
     name: "USB3.0 KVM Switch HDMI 4K@60Hz for 4 Computers Share 1 Monitor, KVM Switch 4 Port with 3 USB",
     price: "$64.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51+oSuyEu7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BWNDX4VL?tag=deskfinds0d-20",
@@ -74,7 +74,7 @@ export const products: GuideProduct[] = [
     badge: "Best Ultra-Budget USB 3.0 KVM Pick",
     name: "Hearvo USB 3.0 HDMI KVM Switch for 2 Computers 1 Monitor, 4K@60Hz, S7232H",
     price: "$26.23",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41ll9M3dnWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5D4FK1H?tag=deskfinds0d-20",
@@ -90,7 +90,7 @@ export const products: GuideProduct[] = [
     badge: "Best Simple USB 3.0 Pick for Two Computers",
     name: "TIGKTING USB 3.0 HDMI KVM Switch 1 Monitors 2 Computers 4K60Hz KVM Switches 2 Ports for 2 PC 1 Monitor",
     price: "$29.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41EdJsfqo4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H2YVL93R?tag=deskfinds0d-20",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "USB 3.0 versus USB 2.0 port standard verified explicitly", description: "Verified the explicit USB standard on each switch's ports, since this makes a real speed difference for external drives, not just keyboard and mouse peripherals." },
   { title: "Full KVM versus USB-only switch functionality distinguished", description: "Distinguished full KVM switches with video switching from USB-only switches, since these are genuinely different products serving different needs." },
   { title: "Multi-computer USB switching scope assessed", description: "Assessed how many computers a switch's USB ports can share access across, from simple two-computer setups to four-computer configurations." },
-  { title: "Price-to-USB-standard value weighed across the category", description: "Weighed price against genuine USB standard value, identifying picks offering real USB 3.0 speeds without unnecessary premium features." },
+  { title: "Price-to-USB-standard value weighed across the category", description: "Weighed price against genuine USB standard value, identifying picks offering real USB 3.0 speeds without unnecessary premium features." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -241,11 +241,11 @@ export const faq: FaqItem[] = [
   { q: "Does USB 3.0 matter on a KVM switch if I only use keyboard and mouse?", a: "Less critically, but it makes a real speed difference for external drives and other high-bandwidth peripherals, worth having if you use those." },
   { q: "Is a USB switch the same as a full KVM switch?", a: "No, a USB-only switch is a genuinely different product that won't switch your monitor's video source, confirm exactly what you need." },
   { q: "Can a USB KVM switch share peripherals across more than two computers?", a: "Some models do, verify the specific computer count support matches your actual setup before buying." },
-  { q: "Is a budget USB 3.0 KVM switch good enough for most people?", a: "For the most common two-computer use case with basic peripheral switching, yes, it covers the need well without premium features." },
+  { q: "Is a budget USB 3.0 KVM switch good enough for most people?", a: "For the most common two-computer use case with basic peripheral switching, yes, it covers the need well without premium features." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-usb-c-kvm-switches", title: "Best USB-C KVM Switches (2026)" },
   { href: "/guide/best-kvm-switches-for-two-computers", title: "Best KVM Switches for Two Computers (2026)" },
-  { href: "/guide/best-2-port-kvm-switches", title: "Best 2-Port KVM Switches (2026)" },
+  { href: "/guide/best-2-port-kvm-switches", title: "Best 2-Port KVM Switches (2026)" }
 ];

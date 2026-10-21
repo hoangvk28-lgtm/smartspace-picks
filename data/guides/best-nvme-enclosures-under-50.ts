@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41goX+d4VbL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0G4153275?tag=deskfinds0d-20",
-    "description": "WAVLINK M.2 SSD Enclosure leads with nvme-only compatibility, backed by 20gbps usb-c speed, a combination aimed at as an enclosure built around a specific interface speed rather than a universal fit.\n\nAt $49.99, it's the most expensive pick in this comparison, and that premium needs to be justified by genuinely using the extra features it carries over the cheaper options here.\n\nThis pick best suits buyers who already have a spare NVMe drive and want to turn it into fast external storage. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "WAVLINK M.2 SSD Enclosure leads with nvme-only compatibility, backed by 20gbps usb-c speed, a combination aimed at as an enclosure built around a specific interface speed rather than a universal fit.\n\nAt under $50, it's the most expensive pick in this comparison, and that premium needs to be justified by genuinely using the extra features it carries over the cheaper options here.\n\nThis pick best suits buyers who already have a spare NVMe drive and want to turn it into fast external storage. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "NVMe-Only Compatibility",
       "20Gbps USB-C Speed",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41orRij3xeL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GH3JJ8T5?tag=deskfinds0d-20",
-    "description": "What stands out on 8-in-1 USB C Hub with M.2 NVMe SSD Enclosure is 8-in-1 usb-c hub combines m.2, alongside expandable storage with m.2 nvme/sata, which is the main reason it earns a spot in this NVMe enclosures comparison.\n\nIt lands between ZeroneTeck M.2 NVMe SSD Enclosure to USB Adapter's $7.39 price floor and WAVLINK M.2 SSD Enclosure's $49.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\n8-in-1 USB C Hub with M.2 NVMe SSD Enclosure is the right call for buyers who already have a spare NVMe drive and want to turn it into fast external storage. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on 8-in-1 USB C Hub with M.2 NVMe SSD Enclosure is 8-in-1 usb-c hub combines m.2, alongside expandable storage with m.2 nvme/sata, which is the main reason it earns a spot in this NVMe enclosures comparison.\n\nIt lands between ZeroneTeck M.2 NVMe SSD Enclosure to USB Adapter's under $8 price floor and WAVLINK M.2 SSD Enclosure's under $50 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\n8-in-1 USB C Hub with M.2 NVMe SSD Enclosure is the right call for buyers who already have a spare NVMe drive and want to turn it into fast external storage. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "8-in-1 USB-C Hub Combines M.2",
       "Expandable Storage with M.2 NVMe/SATA",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41ysc9jaSML._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CX188L83?tag=deskfinds0d-20",
-    "description": "MAIWO Dual Bay M.2 NVMe SSD Enclosure is built around compatibility, paired with 10gbps type-c interface, positioning it as an enclosure built around a specific interface speed rather than a universal fit.\n\nIt lands between ZeroneTeck M.2 NVMe SSD Enclosure to USB Adapter's $7.39 price floor and WAVLINK M.2 SSD Enclosure's $49.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nMAIWO Dual Bay M.2 NVMe SSD Enclosure is the right call for buyers who already have a spare NVMe drive and want to turn it into fast external storage. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "MAIWO Dual Bay M.2 NVMe SSD Enclosure is built around compatibility, paired with 10gbps type-c interface, positioning it as an enclosure built around a specific interface speed rather than a universal fit.\n\nIt lands between ZeroneTeck M.2 NVMe SSD Enclosure to USB Adapter's under $8 price floor and WAVLINK M.2 SSD Enclosure's under $50 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nMAIWO Dual Bay M.2 NVMe SSD Enclosure is the right call for buyers who already have a spare NVMe drive and want to turn it into fast external storage. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Note",
       "Compatibility",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/213oY36ibvL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H4PT276Z?tag=deskfinds0d-20",
-    "description": "What stands out on Thermalright HR-EB120 20G C Black-Aluminum housing with Active Cooling is [20gbps extreme speed] supports usb, alongside [triple-layer thermal bonding] features thermal, which is the main reason it earns a spot in this NVMe enclosures comparison.\n\nIt lands between ZeroneTeck M.2 NVMe SSD Enclosure to USB Adapter's $7.39 price floor and WAVLINK M.2 SSD Enclosure's $49.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nThermalright HR-EB120 20G C Black-Aluminum housing with Active Cooling is the right call for buyers who already have a spare NVMe drive and want to turn it into fast external storage. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on Thermalright HR-EB120 20G C Black-Aluminum housing with Active Cooling is [20gbps extreme speed] supports usb, alongside [triple-layer thermal bonding] features thermal, which is the main reason it earns a spot in this NVMe enclosures comparison.\n\nIt lands between ZeroneTeck M.2 NVMe SSD Enclosure to USB Adapter's under $8 price floor and WAVLINK M.2 SSD Enclosure's under $50 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nThermalright HR-EB120 20G C Black-Aluminum housing with Active Cooling is the right call for buyers who already have a spare NVMe drive and want to turn it into fast external storage. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "[20Gbps Extreme Speed] Supports USB",
       "[Triple-Layer Thermal Bonding] Features thermal",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41HagrnqQxL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0BWXDT8TB?tag=deskfinds0d-20",
-    "description": "V VCOM M.2 NVMe SSD Enclosure is built around only suitable for pcie nvme m.2 ssd, paired with 10gbps high speed transmission, positioning it as an enclosure built around a specific interface speed rather than a universal fit.\n\nIt lands between ZeroneTeck M.2 NVMe SSD Enclosure to USB Adapter's $7.39 price floor and WAVLINK M.2 SSD Enclosure's $49.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nV VCOM M.2 NVMe SSD Enclosure is the right call for buyers who already have a spare NVMe drive and want to turn it into fast external storage. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "V VCOM M.2 NVMe SSD Enclosure is built around only suitable for pcie nvme m.2 ssd, paired with 10gbps high speed transmission, positioning it as an enclosure built around a specific interface speed rather than a universal fit.\n\nIt lands between ZeroneTeck M.2 NVMe SSD Enclosure to USB Adapter's under $8 price floor and WAVLINK M.2 SSD Enclosure's under $50 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nV VCOM M.2 NVMe SSD Enclosure is the right call for buyers who already have a spare NVMe drive and want to turn it into fast external storage. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "ONLY SUITABLE FOR PCIe NVMe M.2 SSD",
       "10Gbps High Speed Transmission",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31vnCXn43yL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GBWRGRCX?tag=deskfinds0d-20",
-    "description": "JEYI M.2 NVMe Enclosure 10Gbps USB-C for 2230/42/60/80 SSDs M&M+B Key is built around 10gbps nvme enclosure with status led, paired with full aluminum thermal design, positioning it as an enclosure built around a specific interface speed rather than a universal fit.\n\nCompared to ZeroneTeck M.2 NVMe SSD Enclosure to USB Adapter at $7.39, it costs more for real added capability, while sitting well below WAVLINK M.2 SSD Enclosure at $49.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who already have a spare NVMe drive and want to turn it into fast external storage. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "JEYI M.2 NVMe Enclosure 10Gbps USB-C for 2230/42/60/80 SSDs M&M+B Key is built around 10gbps nvme enclosure with status led, paired with full aluminum thermal design, positioning it as an enclosure built around a specific interface speed rather than a universal fit.\n\nCompared to ZeroneTeck M.2 NVMe SSD Enclosure to USB Adapter at under $8, it costs more for real added capability, while sitting well below WAVLINK M.2 SSD Enclosure at under $50 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who already have a spare NVMe drive and want to turn it into fast external storage. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "10gbps Nvme Enclosure With Status Led",
       "Full Aluminum Thermal Design",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51M9OQW4i0L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GHLTWFPG?tag=deskfinds0d-20",
-    "description": "FIDECO M.2 NVMe SSD Enclosure is built around supported ssd, paired with blazing-fast speeds & broad compatibility, positioning it as an enclosure built around a specific interface speed rather than a universal fit.\n\nIt lands between ZeroneTeck M.2 NVMe SSD Enclosure to USB Adapter's $7.39 price floor and WAVLINK M.2 SSD Enclosure's $49.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nFIDECO M.2 NVMe SSD Enclosure is the right call for buyers who already have a spare NVMe drive and want to turn it into fast external storage. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "FIDECO M.2 NVMe SSD Enclosure is built around supported ssd, paired with blazing-fast speeds & broad compatibility, positioning it as an enclosure built around a specific interface speed rather than a universal fit.\n\nIt lands between ZeroneTeck M.2 NVMe SSD Enclosure to USB Adapter's under $8 price floor and WAVLINK M.2 SSD Enclosure's under $50 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nFIDECO M.2 NVMe SSD Enclosure is the right call for buyers who already have a spare NVMe drive and want to turn it into fast external storage. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Supported SSD",
       "Blazing-Fast Speeds & Broad Compatibility",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/417epbkmpyL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FJFS4RB3?tag=deskfinds0d-20",
-    "description": "What stands out on ZeroneTeck M.2 NVMe SSD Enclosure to USB Adapter is red m.2 nvme ssd enclosure, alongside 10gbps fast data transfer, which is the main reason it earns a spot in this NVMe enclosures comparison.\n\nAt $7.39, it's the most affordable pick in this comparison, so expect fewer extras than the pricier options here, but the core function holds up for buyers who don't need the added features those carry.\n\nThis pick best suits buyers who already have a spare NVMe drive and want to turn it into fast external storage. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "What stands out on ZeroneTeck M.2 NVMe SSD Enclosure to USB Adapter is red m.2 nvme ssd enclosure, alongside 10gbps fast data transfer, which is the main reason it earns a spot in this NVMe enclosures comparison.\n\nAt under $8, it's the most affordable pick in this comparison, so expect fewer extras than the pricier options here, but the core function holds up for buyers who don't need the added features those carry.\n\nThis pick best suits buyers who already have a spare NVMe drive and want to turn it into fast external storage. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Red M.2 NVMe SSD enclosure",
       "10Gbps Fast Data Transfer",
@@ -325,35 +325,35 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $7.39",
+          "Under $8",
           "ZeroneTeck M.2 NVMe SSD Enclosure to USB Adapter"
         ],
         [
-          "Around $8.99",
+          "Under $9",
           "FIDECO M.2 NVMe SSD Enclosure"
         ],
         [
-          "Around $12.99",
+          "Under $15",
           "JEYI M.2 NVMe Enclosure 10Gbps USB-C for 2230/42/60/80 SSDs M&M+B Key"
         ],
         [
-          "Around $14.99",
+          "Under $15",
           "V VCOM M.2 NVMe SSD Enclosure"
         ],
         [
-          "Around $22.29",
+          "Under $25",
           "Thermalright HR-EB120 20G C Black-Aluminum housing with Active Cooling"
         ],
         [
-          "Around $29.99",
+          "Under $30",
           "MAIWO Dual Bay M.2 NVMe SSD Enclosure"
         ],
         [
-          "Around $34.99",
+          "Under $35",
           "8-in-1 USB C Hub with M.2 NVMe SSD Enclosure"
         ],
         [
-          "Around $49.99",
+          "Under $50",
           "WAVLINK M.2 SSD Enclosure"
         ]
       ]
@@ -364,11 +364,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "ZeroneTeck M.2 NVMe SSD Enclosure to USB Adapter",
-        "text": "The lowest-priced pick in this comparison at $7.39, a solid choice if you don't need the extras the pricier picks carry."
+        "text": "The lowest-priced pick in this comparison at under $8, a solid choice if you don't need the extras the pricier picks carry."
       },
       {
         "label": "WAVLINK M.2 SSD Enclosure",
-        "text": "The highest-priced pick at $49.99, worth it only if you'll actually use what that premium buys."
+        "text": "The highest-priced pick at under $50, worth it only if you'll actually use what that premium buys."
       }
     ],
     "note": "Default to ZeroneTeck M.2 NVMe SSD Enclosure to USB Adapter unless the pricier pick's specific advantage genuinely applies to your situation."
@@ -428,7 +428,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "What's the real difference between the cheapest and most expensive pick here?",
-    "a": "ZeroneTeck M.2 NVMe SSD Enclosure to USB Adapter at $7.39 covers the basics, while WAVLINK M.2 SSD Enclosure at $49.99 adds higher interface speed and dual-bay RAID support. Whether that's worth the difference depends on whether your drive and host port can actually use the higher interface speed, and whether you need RAID redundancy or combined capacity."
+    "a": "ZeroneTeck M.2 NVMe SSD Enclosure to USB Adapter at under $8 covers the basics, while WAVLINK M.2 SSD Enclosure at under $50 adds higher interface speed and dual-bay RAID support. Whether that's worth the difference depends on whether your drive and host port can actually use the higher interface speed, and whether you need RAID redundancy or combined capacity."
   },
   {
     "q": "Will any NVMe drive fit any enclosure?",
@@ -440,7 +440,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "Is there a solid middle-ground pick in this price range?",
-    "a": "Thermalright HR-EB120 20G C Black-Aluminum housing with Active Cooling at $22.29 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
+    "a": "Thermalright HR-EB120 20G C Black-Aluminum housing with Active Cooling at under $25 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
   },
   {
     "q": "What's the most common mistake buyers make shopping NVMe enclosures under $50?",

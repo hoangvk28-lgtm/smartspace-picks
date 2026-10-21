@@ -12,7 +12,7 @@ export const wirelessSetupTroubleshootingGuide: Guide = {
     "wireless mouse won't pair fix",
     "wireless keyboard disconnecting randomly",
     "multiple wireless devices lag fix",
-    "bluetooth pairing failed desk",
+    "bluetooth pairing failed desk"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const wirelessSetupTroubleshootingGuide: Guide = {
     "wireless-interference-desk-explained",
     "bluetooth-vs-usb-dongle-explained",
     "wireless-peripheral-battery-management",
-    "wired-vs-wireless-mouse",
+    "wired-vs-wireless-mouse"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const wirelessSetupTroubleshootingGuide: Guide = {
       question: "Should I update wireless peripheral firmware or drivers if experiencing persistent issues?",
       answer:
         "Yes, checking the manufacturer's website for firmware or driver updates addressing known connectivity issues is a worthwhile step for persistent, otherwise unexplained wireless problems, manufacturers periodically release updates specifically fixing these kinds of connectivity bugs.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const wirelessSetupTroubleshootingGuide: Guide = {
     {
       heading: "Why Distinguishing Between Different Root Causes Matters for Effective Troubleshooting",
       body: `Wireless connectivity issues can stem from several genuinely different underlying causes, low battery, physical interference, range limitations, or corrupted pairing data, and the effective fix differs significantly depending on which cause actually applies to your specific situation, checking battery level first (a simple, quick check) before assuming a more complex interference or pairing problem, and specifically testing whether an issue occurs only when multiple wireless devices are active simultaneously (pointing to interference) versus happening consistently even with just one device (pointing to a device-specific or pairing issue), helps narrow down the actual cause more efficiently than attempting every possible fix at once.`,
-    },
+    }
   ],
 };

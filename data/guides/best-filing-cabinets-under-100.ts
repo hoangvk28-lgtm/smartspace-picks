@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A stylish design with documented per-drawer capacity", "VASAGLE File Cabinet, 2-Drawer"],
         ["A wide printer stand with dual floor mounting", "GYIIYUO 2 Drawer File Cabinet, 24\" Wide"],
         ["Maximum per-drawer capacity with lock security", "Approgreent 2 Drawer File Cabinet with Lock"],
-        ["A single-lock system with quiet drawer slides", "BYNSOE 2 Drawer File Cabinet with Lock"],
+        ["A single-lock system with quiet drawer slides", "BYNSOE 2 Drawer File Cabinet with Lock"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $55", "Approgreent ($54.99)"],
-        ["Under $65", "BYNSOE ($64.99)"],
-        ["Under $70", "GYIIYUO ($69.99)"],
-        ["Under $80", "VASAGLE ($79.99)"],
+        ["Under $55", "Approgreent (under $60)"],
+        ["Under $65", "BYNSOE (under $70)"],
+        ["Under $70", "GYIIYUO (under $70)"],
+        ["Under $80", "VASAGLE (under $80)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Lockable Steel vs Stylish Unlocked Design",
     cards: [
       { label: "Lockable steel (Approgreent, BYNSOE)", text: "Prioritizes document security with genuine key locks, better suited to sensitive files or shared spaces." },
-      { label: "Stylish unlocked (VASAGLE, GYIIYUO)", text: "Prioritizes aesthetic design and printer-stand functionality over lock security, better for general organization." },
+      { label: "Stylish unlocked (VASAGLE, GYIIYUO)", text: "Prioritizes aesthetic design and printer-stand functionality over lock security, better for general organization." }
     ],
     note: "If security matters more than styling, the Approgreent or BYNSOE's lock systems are worth prioritizing. If you want a cabinet that also enhances your office's visual design or holds a printer, the VASAGLE or GYIIYUO deliver that.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Large office printer or dual monitor arms", "GYIIYUO (24 in wide top, 120 lb capacity)"],
         ["Standard printer or moderate equipment", "VASAGLE (solid top, 110 lb total capacity)"],
-        ["No equipment support needed", "Approgreent or BYNSOE"],
+        ["No equipment support needed", "Approgreent or BYNSOE"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Home Office That Doubles as a Multi-Purpose Room Specifically",
     cards: [
       { label: "Look for", text: "A cabinet with dual-mode mounting that can roll for flexibility or lock in place for stability, plus a design that fits non-office decor." },
-      { label: "In this comparison", text: "The GYIIYUO pick's dual caster/leveling foot system and wood grain finish specifically suit a room serving multiple purposes." },
+      { label: "In this comparison", text: "The GYIIYUO pick's dual caster/leveling foot system and wood grain finish specifically suit a room serving multiple purposes." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You need a wide printer stand surface with flexible floor mounting, where the GYIIYUO pick delivers a 24 inch top and dual caster system unmatched in this comparison." },
-      { label: "Save if", text: "You want maximum per-drawer file capacity with lock security, where the Approgreent pick delivers 200 files per drawer for the lowest price here." },
+      { label: "Save if", text: "You want maximum per-drawer file capacity with lock security, where the Approgreent pick delivers 200 files per drawer for the lowest price here." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A proven, decades-tested system with lifetime warranty", "Create-A-Bed Queen Size Deluxe Murphy Bed Kit"],
         ["A complete bed without a separate lumber purchase", "SOFTSEA Twin Size Murphy Bed with LED Light"],
         ["Transparent costs and simplified pivot-plate installation", "Queen Size Murphy Bed Hardware Kit"],
-        ["The lowest-cost core mechanism with carpentry help lined up", "Happybuy Murphy Mounting Wall Springs Mechanism Kit"],
+        ["The lowest-cost core mechanism with carpentry help lined up", "Happybuy Murphy Mounting Wall Springs Mechanism Kit"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $86", "Happybuy ($85.26)"],
-        ["Under $210", "Queen Hardware Kit ($207.00)"],
-        ["Under $275", "SOFTSEA Twin ($271.99)"],
-        ["Under $300", "Create-A-Bed ($299.00)"],
+        ["Under $86", "Happybuy (under $90)"],
+        ["Under $210", "Queen Hardware Kit (under $250)"],
+        ["Under $275", "SOFTSEA Twin (under $300)"],
+        ["Under $300", "Create-A-Bed (under $300)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Hardware-Only Kit vs Complete Cabinet Bed",
     cards: [
       { label: "Hardware-only kit (Create-A-Bed, Queen Hardware Kit, Happybuy)", text: "Costs less upfront but requires sourcing plywood, tools, and construction time, pushing true total cost higher and requiring woodworking skill." },
-      { label: "Complete cabinet bed (SOFTSEA)", text: "Costs more upfront but arrives as a finished furniture piece needing only assembly, no separate lumber shopping or cutting required." },
+      { label: "Complete cabinet bed (SOFTSEA)", text: "Costs more upfront but arrives as a finished furniture piece needing only assembly, no separate lumber shopping or cutting required." }
     ],
     note: "If you have woodworking tools, skill, and time, a hardware kit like the Queen Hardware Kit or Create-A-Bed saves money once you factor in your own labor. If you want a straightforward assembly without a construction project, the SOFTSEA Twin is the simpler path.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Wood stud walls", "Queen Hardware Kit or Create-A-Bed"],
         ["Solid concrete or wood stud walls", "SOFTSEA Twin"],
-        ["Professional installation available", "Happybuy (recommends carpenter)"],
+        ["Professional installation available", "Happybuy (recommends carpenter)"]
       ],
     },
   },
@@ -147,22 +147,22 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Renter or Temporary Living Situation Specifically",
     cards: [
       { label: "Look for", text: "A pick that doesn't require permanent wall anchoring into studs, since renters often can't drill into walls without landlord approval or a security deposit risk." },
-      { label: "In this comparison", text: "Buyers in this situation should carefully verify wall mounting requirements before purchase, since all four picks here specifically require anchoring into studs or solid walls rather than offering a freestanding option." },
+      { label: "In this comparison", text: "Buyers in this situation should carefully verify wall mounting requirements before purchase, since all four picks here specifically require anchoring into studs or solid walls rather than offering a freestanding option." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a proven, lifetime-warrantied system with decades of commercial hotel use behind it, where the Create-A-Bed kit delivers that at the top of this tier." },
-      { label: "Save if", text: "You just need the core spring mechanism and already have carpentry help, where the Happybuy kit covers that for about $214 less." },
+      { label: "Save if", text: "You just need the core spring mechanism and already have carpentry help, where the Happybuy kit covers that for about $214 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "A Hardware-Only Kit's Sticker Price Doesn't Reflect the True Total Cost Once Lumber Is Factored In",
-    "explanation": "The Queen Hardware Kit's listing transparently states that its $207 price only covers the mechanical components, and completing the actual cabinet requires an additional $150-300 in plywood plus basic woodworking tools like a circular saw and drill, pushing the realistic total build cost to $350-500. This matters because comparing a $207 hardware kit directly against a $271.99 complete cabinet bed like the SOFTSEA pick understates the hardware kit's true cost by ignoring the materials and labor still required. Read the listing carefully for any stated 'total build cost' estimate or explicit note about what materials aren't included before comparing a hardware kit's price against a complete furniture piece."
+    "explanation": "The Queen Hardware Kit's listing transparently states that its $207 price only covers the mechanical components, and completing the actual cabinet requires an additional $150-300 in plywood plus basic woodworking tools like a circular saw and drill, pushing the realistic total build cost to $350-500. This matters because comparing a $207 hardware kit directly against an under-$300 complete cabinet bed like the SOFTSEA pick understates the hardware kit's true cost by ignoring the materials and labor still required. Read the listing carefully for any stated 'total build cost' estimate or explicit note about what materials aren't included before comparing a hardware kit's price against a complete furniture piece."
   },
   {
     "criterion": "Wall Type Requirements Are a Hard Constraint That Should Be Verified Before Ordering, Not After",

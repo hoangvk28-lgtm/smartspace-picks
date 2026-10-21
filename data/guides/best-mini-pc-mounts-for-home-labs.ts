@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini PC rack mount for home lab";
 export const introParagraphs = [
   "This overlaps with our 10-inch rack mounts guide for buyers who have a dedicated rack, but we're also including non-rack wall and desk options here for home-lab builders who mount mini PCs without a full rack setup.",
-  "Home labs vary widely in scale, from a single Mac mini running a few services to a full 10-inch rack with multiple nodes, so we covered both ends of that range.",
+  "Home labs vary widely in scale, from a single Mac mini running a few services to a full 10-inch rack with multiple nodes, so we covered both ends of that range."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -47,7 +47,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31qkrJ347eL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTWYJTR8?tag=deskfinds0d-20",
     description: "A half-width rack shelf, useful for home labs where you want to pack more devices per rack unit.\n\nOne spot below Freejia 10inch 1U Mini PC Rack Mount Shelf Compatible with Dell Micro OptiPlex in this ranking, it's priced lower than Freejia 10inch 1U Mini PC Rack Mount Shelf Compatible with Dell Micro OptiPlex. The compromise here is straightforward: Half-width sizing limits which mini PC chassis fit. What you gain in return: Space-efficient half-width design for dense home-lab racks. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Space-efficient half-width design for dense home-lab racks. On the other side, Half-width sizing limits which mini PC chassis fit. That's the main tradeoff to weigh against everything above.",
-    specs: ["Half-width, 10 inch rack shelf","4.4 stars"],
+    specs: ["Half-width, 10 inch rack shelf"],
     pros: ["Space-efficient half-width design for dense home-lab racks"],
     cons: ["Half-width sizing limits which mini PC chassis fit"],
     bestFor: "Home-lab builders optimizing rack-unit density.",
@@ -63,7 +63,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41nWvL8pqlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KY3LHVG?tag=deskfinds0d-20",
     description: "For home labs without a dedicated rack, this VESA bracket mounts under a desk, to a pole, or on a surface, with by far the largest review base in this comparison.\n\nSitting just under SplashNColor Mac mini Rack Mount for 10 Inch Server Rack, it costs more than SplashNColor Mac mini Rack Mount for 10 Inch Server Rack. Here's the honest tradeoff: Not a rack-format product if you specifically want rack organization. And here's what it gets you instead: Largest, most proven review base in this comparison. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: No rack required. On the other side, Not a rack-format product if you specifically want rack organization. That's the main tradeoff to weigh against everything above.",
-    specs: ["Fits 0.65-2.55 in device depth","Under-desk, pole, or surface mount","702 reviews at 4.4 stars"],
+    specs: ["Fits 0.65-2.55 in device depth","Under-desk, pole, or surface mount"],
     pros: ["Largest, most proven review base in this comparison","No rack required"],
     cons: ["Not a rack-format product if you specifically want rack organization"],
     bestFor: "Home-lab builders without a dedicated rack who want a proven, flexible mount.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31l-EL12D-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJ7BK9CM?tag=deskfinds0d-20",
     description: "The highest rating in this comparison, useful for a home-lab node mounted directly to a wall in a closet or utility space rather than a formal rack.\n\nRanked just behind HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm, it's priced lower than HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm. The real tradeoff against that pick: Not a rack-format product. In exchange, it offers this instead: Highest rating in this comparison. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Wall-mount option for a closet or utility-space home lab. On the other side, Not a rack-format product. That's the main tradeoff to weigh against everything above.",
-    specs: ["Wall mount or VESA behind-monitor mount","190 reviews at 4.6 stars"],
+    specs: ["Wall mount or VESA behind-monitor mount"],
     pros: ["Highest rating in this comparison","Wall-mount option for a closet or utility-space home lab"],
     cons: ["Not a rack-format product"],
     bestFor: "Home-lab builders who want to wall-mount a node in a closet or utility space.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Covered both rack and non-rack home-lab setups", description: "We included genuine 10-inch rack shelves for buyers with a dedicated rack, and non-rack wall/desk mounts for those without one." },
   { title: "Multi-brand compatibility noted where confirmed", description: "We flagged where a rack shelf explicitly supports multiple mini PC brands versus single-brand or Mac mini-specific designs." },
   { title: "Space efficiency for rack-unit density", description: "We noted where a half-width shelf helps pack more devices into a limited rack setup." },
-  { title: "Review volume and rating together", description: "We weighted both metrics across the mixed rack and non-rack product pool." },
+  { title: "Review volume and rating together", description: "We weighted both metrics across the mixed rack and non-rack product pool." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -232,11 +232,11 @@ export const faq: FaqItem[] = [
   { q: "Which rack shelf works with the most brands?", a: "The Freejia 10inch 1U Mini PC Rack Mount Shelf, explicitly compatible with Dell, Lenovo, and HP." },
   { q: "What's the best non-rack option?", a: "The HumanCentric Thin Client Mount Bracket, with the largest review base in this comparison and flexible under-desk or pole mounting." },
   { q: "Is there an option that also fits a router?", a: "Yes, the NOTMBESTM Adjustable Wall Mount Shelf accommodates both a mini PC and a WiFi router." },
-  { q: "How does this overlap with your 10-inch rack mounts guide?", a: "Substantially for the rack-format products, though this guide also covers non-rack alternatives for home labs without a dedicated rack." },
+  { q: "How does this overlap with your 10-inch rack mounts guide?", a: "Substantially for the rack-format products, though this guide also covers non-rack alternatives for home labs without a dedicated rack." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-10-inch-rack-mounts-for-mini-pcs", title: "Best 10-Inch Rack Mounts for Mini PCs (2026)" },
   { href: "/guide/best-mini-pc-desk-mounts", title: "Best Mini PC Desk Mounts (2026)" },
-  { href: "/guide/best-mini-pc-mounts", title: "Best Mini PC Mounts (2026)" },
+  { href: "/guide/best-mini-pc-mounts", title: "Best Mini PC Mounts (2026)" }
 ];

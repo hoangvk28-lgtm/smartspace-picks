@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "gaming laptop cooling pads";
 export const introParagraphs = [
   "Gaming laptops generate far more sustained heat than an everyday ultrabook, since a demanding game or render can keep CPU and GPU near full load for hours rather than in short bursts. A cooling pad only earns its price for this use case if it delivers a genuine thermal benefit under that sustained load, not just a light improvement measured during idle or light browsing.",
-  "This guide compares six pads on documented sustained-load evidence, whether their fan layout accounts for a gaming laptop's separate CPU and GPU exhaust zones, and whether higher fan noise is actually justified by measurably better cooling. See our broad laptop cooling pad guide for non-gaming picks, and our silent cooling pad guide if noise matters more than raw output for your setup.",
+  "This guide compares six pads on documented sustained-load evidence, whether their fan layout accounts for a gaming laptop's separate CPU and GPU exhaust zones, and whether higher fan noise is actually justified by measurably better cooling. See our broad laptop cooling pad guide for non-gaming picks, and our silent cooling pad guide if noise matters more than raw output for your setup."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "10 min";
@@ -124,7 +124,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Multi-zone vent alignment", description: "We checked whether each pad's fan layout accounts for gaming laptops with separate CPU and GPU exhaust zones, not just a single center vent." },
   { title: "Noise justified by cooling gain", description: "We weighed stated dBA figures and fan RPM against documented or claimed cooling results, since a louder fan is only a genuine advantage if it delivers measurably more airflow benefit." },
   { title: "RGB and gaming features assessed separately from cooling", description: "Where RGB lighting was marketed as a gaming feature, we evaluated it on its own merits, not as evidence of better thermal performance." },
-  { title: "USB power draw under heavy load", description: "We noted whether each pad draws from the laptop's own USB port, since that draw is more consequential when the laptop is already under heavy gaming load and running on battery." },
+  { title: "USB power draw under heavy load", description: "We noted whether each pad draws from the laptop's own USB port, since that draw is more consequential when the laptop is already under heavy gaming load and running on battery." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -260,11 +260,11 @@ export const faq: FaqItem[] = [
   { q: "Does a louder cooling pad always cool better?", a: "No. Compare stated RPM, dBA figures, and any documented temperature results. A quieter pad with real evidence of cooling benefit can outperform a louder one with no supporting data." },
   { q: "Will a gaming cooling pad work if my laptop vents from the side, not the bottom?", a: "Possibly less well. Most cooling pads are designed around bottom-vented layouts. Check your laptop's actual vent location, since gaming laptops with side or rear exhaust zones benefit more from wider multi-fan coverage than a single centered fan." },
   { q: "Is RGB lighting on a cooling pad just marketing?", a: "It's a genuine feature some buyers want for their setup, but it has no bearing on cooling performance. Judge lighting quality and cooling capability as separate criteria." },
-  { q: "Does a gaming cooling pad drain laptop battery faster during a game?", a: "USB-powered pads draw a small amount of power from the laptop, which is more noticeable during an already heavy gaming session on battery. Pads with their own external power adapter, like the llano V12, avoid adding to that draw." },
+  { q: "Does a gaming cooling pad drain laptop battery faster during a game?", a: "USB-powered pads draw a small amount of power from the laptop, which is more noticeable during an already heavy gaming session on battery. Pads with their own external power adapter, like the llano V12, avoid adding to that draw." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" },
   { href: "/guide/best-17-inch-laptop-cooling-pads", title: "Best 17-Inch Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-laptop-cooling-pads-with-two-fans", title: "Best Laptop Cooling Pads with Two Fans (2026)" },
+  { href: "/guide/best-laptop-cooling-pads-with-two-fans", title: "Best Laptop Cooling Pads with Two Fans (2026)" }
 ];

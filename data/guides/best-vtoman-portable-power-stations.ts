@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $139.99",
+          "Under $140",
           "VTOMAN FlashSpeed 300 Portable Power Station"
         ],
         [
-          "Around $199.99",
+          "Under $200",
           "VTOMAN FlashSpeed 600 Portable Power Station"
         ],
         [
-          "Around $469.99",
+          "Under $500",
           "VTOMAN Jump1800 Portable Power Station with Jump Start"
         ],
         [
-          "Around $499.99",
+          "Under $500",
           "VTOMAN FlashSpeed 1500 Solar Generator"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "LiFePO4 (LFP) cells are generally considered more thermally stable than standard lithium-ion or lithium-polymer cells, with a lower risk of thermal runaway, and most current portable power stations have shifted to LFP for this reason. Still, verify UL or UL2743 safety certification directly rather than assuming chemistry alone guarantees safety."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "VTOMAN FlashSpeed 1500 Solar Generator is aimed at buyers prioritizing 1548wh (expandable to 3096wh), 3000w peak." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "VTOMAN FlashSpeed 1500 Solar Generator is aimed at buyers prioritizing 1548wh (expandable to 3096wh), 3000w peak." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

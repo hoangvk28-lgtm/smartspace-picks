@@ -172,7 +172,7 @@ export default async function BestWoodFileCabinetsUnder500Page() {
     about: [
       { "@type": "Thing", name: "Lateral File Cabinet" },
       { "@type": "Thing", name: "Wood File Cabinet" },
-      { "@type": "Thing", name: "Home Office Storage" },
+      { "@type": "Thing", name: "Home Office Storage" }
     ],
   };
 
@@ -192,7 +192,7 @@ export default async function BestWoodFileCabinetsUnder500Page() {
         position: 3,
         name: "Best Wood File Cabinets Under $500",
         item: `${SITE_URL}/guide/best-wood-file-cabinets-under-500`,
-      },
+      }
     ],
   };
 
@@ -389,7 +389,7 @@ export default async function BestWoodFileCabinetsUnder500Page() {
             or credenza. In the $200 to $500 range, Sauder, Bush Home, and
             Martin Furniture are the three brands that consistently appear
             across category searches, accumulate the most reviews, and hold
-            ratings above 4.0 stars. None of them use solid hardwood at this
+None of them use solid hardwood at this
             price - engineered wood with laminate or wood-grain veneer is the
             standard. If you need more compact budget options under $120, see
             our guide to{" "}
@@ -463,7 +463,7 @@ export default async function BestWoodFileCabinetsUnder500Page() {
                     {[
                       { type: "Engineered wood + laminate", surface: "Printed film over particle board", price: "$100 to $350" },
                       { type: "Engineered wood + veneer", surface: "Real wood veneer over composite core", price: "$300 to $500" },
-                      { type: "Solid hardwood throughout", surface: "Actual wood grain, not printed", price: "$600+" },
+                      { type: "Solid hardwood throughout", surface: "Actual wood grain, not printed", price: "$600+" }
                     ].map((row, i) => (
                       <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                         <td className="px-4 py-3 font-medium text-ink text-xs">{row.type}</td>
@@ -545,7 +545,7 @@ export default async function BestWoodFileCabinetsUnder500Page() {
                   {[
                     { size: "Letter", dims: "8.5 x 11 inches", note: "Standard in US - all 7 picks accept letter size" },
                     { size: "Legal", dims: "8.5 x 14 inches", note: "Most picks accept legal size - verify listing" },
-                    { size: "A4", dims: "8.3 x 11.7 inches", note: "Fits in letter-size rails" },
+                    { size: "A4", dims: "8.3 x 11.7 inches", note: "Fits in letter-size rails" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.size}</td>
@@ -581,7 +581,7 @@ export default async function BestWoodFileCabinetsUnder500Page() {
                     { finish: "Estate Black", pairs: "Minimalist, industrial, modern offices", pick: "Sauder Edge Water (Pick 4)" },
                     { finish: "Harvest Cherry", pairs: "Traditional and transitional offices", pick: "Bush Cabot (Pick 5)" },
                     { finish: "Grand Walnut", pairs: "Mid-century modern, transitional offices", pick: "Sauder Clifford Place (Pick 6)" },
-                    { finish: "Oxford Oak Veneer", pairs: "Formal, executive offices", pick: "Martin Furniture (Pick 7)" },
+                    { finish: "Oxford Oak Veneer", pairs: "Formal, executive offices", pick: "Martin Furniture (Pick 7)" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.finish}</td>
@@ -638,31 +638,31 @@ export default async function BestWoodFileCabinetsUnder500Page() {
                 context: "Best overall by reviews and rating",
                 id: "bush-key-west-white-oak",
                 name: "Bush Home Key West White Oak",
-                verdict: " - 4,283 reviews at 4.4 stars, the most affordable lateral option in this guide.",
+                verdict: " - The most affordable lateral option in this guide.",
               },
               {
                 context: "Best warm oak finish",
                 id: "sauder-palladia-oak",
                 name: "Sauder Palladia Vintage Oak",
-                verdict: " - 1,741 reviews at 4.0 stars, T-slot assembly, 35.5-inch wide top surface.",
+                verdict: " - T-slot assembly, 35.5-inch wide top surface.",
               },
               {
                 context: "Best classic cherry for traditional offices",
                 id: "sauder-heritage-cherry",
                 name: "Sauder Heritage Hill Classic Cherry",
-                verdict: " - 1,335 reviews at 4.1 stars, flip-down panel, brushed nickel hardware.",
+                verdict: " - Flip-down panel, brushed nickel hardware.",
               },
               {
                 context: "Best dark finish",
                 id: "sauder-edge-water-black",
                 name: "Sauder Edge Water Estate Black",
-                verdict: " - 979 reviews at 4.3 stars, wood-grain texture laminate, suits minimalist offices.",
+                verdict: " - Wood-grain texture laminate, suits minimalist offices.",
               },
               {
                 context: "Best matching collection for harvest cherry",
                 id: "bush-cabot-cherry",
                 name: "Bush Home Cabot Harvest Cherry",
-                verdict: " - 972 reviews at 4.3 stars, coordinates with the full Cabot office collection.",
+                verdict: " - Coordinates with the full Cabot office collection.",
               },
               {
                 context: "Best walnut finish option",
@@ -675,7 +675,7 @@ export default async function BestWoodFileCabinetsUnder500Page() {
                 id: "martin-huntington-oak",
                 name: "Martin Furniture Huntington Oxford Oak",
                 verdict: " - hardwood veneer surface, partial pre-assembly, for buyers who can accept fewer reviews.",
-              },
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

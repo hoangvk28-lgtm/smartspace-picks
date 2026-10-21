@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     description: "Correll 24\"x72\" Premium Flip Top Nesting Table measures 24\"x72\" and is built around size, positioning it for adjustable buyers specifically.\n\nSecure height adjustment with 2 set screws is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for adjustable, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["24\"x72\" table dimensions","SIZE","Secure height adjustment with 2 set screws"],
     pros: ["SIZE, confirmed directly in the listing's own spec details","Secure height adjustment with 2 set screws, confirmed directly in the listing's own spec details","Top: Thermal Fused Laminate (TFL) top resists, confirmed directly in the listing's own spec details"],
-    cons: ["At $624.60, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $650, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for adjustable",
   }
 
@@ -210,40 +210,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $139.95",
+          "Under $140",
           "Monomi 48\"x24\" Electric Standing Desk"
         ],
         [
-          "Around $169.99",
+          "Under $170",
           "Veken 63\"x28\" Electric Standing Desk"
         ],
         [
-          "Around $169.99",
+          "Under $170",
           "Veken 63\"x28\" Electric Standing Desk"
         ],
         [
-          "Around $239.99",
+          "Under $250",
           "VIVO 60x30 Standing Desk"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "OffiGo 71\" Electric Standing Conference Desk"
         ],
         [
-          "Around $259.99",
+          "Under $300",
           "OffiGo 79\" Electric Standing Conference Desk"
         ],
         [
-          "Around $279.99",
+          "Under $300",
           "OffiGo 79\" Electric Standing Conference Desk"
         ],
         [
-          "Around $624.60",
+          "Under $650",
           "Correll 24\"x72\" Premium Flip Top Nesting Table"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -291,7 +291,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "OffiGo 79\" Electric Standing Conference Desk is aimed at buyers prioritizing 79\"x27.6\" desktop, height adjusts 29.1\" to 48\"." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "OffiGo 79\" Electric Standing Conference Desk is aimed at buyers prioritizing 79\"x27.6\" desktop, height adjusts 29.1\" to 48\"." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-standing-conference-tables","title":"Best Standing Conference Tables in 2026"},{"href":"/guide/best-adjustable-height-conference-tables","title":"Best Adjustable Height Conference Tables in 2026"},{"href":"/guide/best-height-adjustable-conference-tables","title":"Best Height-Adjustable Conference Tables in 2026"}];

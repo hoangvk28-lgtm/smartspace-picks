@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "SentrySafe Black Fireproof and Waterproof Safe, File Folder and Document Box with Key Lock, measures 14.3 x 15.5 x 13.5 and is built around fire and flood protection for essential papers:, positioning it for large buyers specifically.\n\nDESIGNED FOR IMPORTANT DOCUMENT STORAGE is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for large, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["14.3 x 15.5 x 13.5 dimensions","FIRE AND FLOOD PROTECTION FOR ESSENTIAL PAPERS:","DESIGNED FOR IMPORTANT DOCUMENT STORAGE"],
     pros: ["FIRE AND FLOOD PROTECTION FOR ESSENTIAL PAPERS:, confirmed directly in the listing's own spec details","DESIGNED FOR IMPORTANT DOCUMENT STORAGE, confirmed directly in the listing's own spec details","KEY LOCK SECURITY YOU CONTROL, confirmed directly in the listing's own spec details"],
-    cons: ["At $68.00, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $70, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for large",
   },
   {
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "23.6\" Tall Large Home Safe, 4.6 Cuft Safe Box with Fireproof Waterproof Bag and is built around & this large safe offers generous storage, positioning it for large buyers specifically.\n\n- - Built from thickened cold-rolled steel is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for large, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["& This large safe offers generous storage","- - Built from thickened cold-rolled steel","+ Smart security that adapts to your"],
     pros: ["& This large safe offers generous storage, confirmed directly in the listing's own spec details","- - Built from thickened cold-rolled steel, confirmed directly in the listing's own spec details","+ Smart security that adapts to your, confirmed directly in the listing's own spec details"],
-    cons: ["At $128.96, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $130, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for large",
   },
   {
@@ -193,28 +193,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $67.99",
+          "Under $70",
           "SentrySafe Fireproof & Waterproof Document Box"
         ],
         [
-          "Around $68.00",
+          "Under $70",
           "SentrySafe Black Fireproof and Waterproof Safe"
         ],
         [
-          "Around $88.48",
+          "Under $90",
           "First Alert 2037F Water and Fire Protector File Chest"
         ],
         [
-          "Around $128.96",
+          "Under $130",
           "23.6\" Tall Large Home Safe"
         ],
         [
-          "Around $562.22",
+          "Under $600",
           "Master Lock 2.0 Cu Ft Fireproof & Waterproof Safe"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -262,7 +262,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Master Lock 2.0 Cu Ft Fireproof & Waterproof Safe is aimed at buyers prioritizing 2.0 cu ft, ul 2hr at 1850-degreef." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Master Lock 2.0 Cu Ft Fireproof & Waterproof Safe is aimed at buyers prioritizing 2.0 cu ft, ul 2hr at 1850-degreef." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-large-fireproof-safes-for-home","title":"Best Large Fireproof Safes for Home in 2026"},{"href":"/guide/best-extra-large-fireproof-safes","title":"Best Extra Large Fireproof Safes in 2026"},{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"}];

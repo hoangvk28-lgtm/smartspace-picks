@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $69.99",
+          "Under $70",
           "Takki 88.8Wh Portable Power Station"
         ],
         [
-          "Around $112.99",
+          "Under $120",
           "Takki Solar Generator 120W Peak"
         ],
         [
-          "Around $119.99",
+          "Under $120",
           "Takki 111Wh Portable Solar Generator with 21W Foldable Solar Panel"
         ],
         [
-          "Around $161.99",
+          "Under $170",
           "Takki Solar Generator 250W"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "LiFePO4 (LFP) cells are generally considered more thermally stable than standard lithium-ion or lithium-polymer cells, with a lower risk of thermal runaway, and most current portable power stations have shifted to LFP for this reason. Still, verify UL or UL2743 safety certification directly rather than assuming chemistry alone guarantees safety."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Takki 111Wh Portable Solar Generator with 21W Foldable Solar Panel is aimed at buyers prioritizing 111wh, includes 21w solar panel (23% eff.)." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Takki 111Wh Portable Solar Generator with 21W Foldable Solar Panel is aimed at buyers prioritizing 111wh, includes 21w solar panel (23% eff.)." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

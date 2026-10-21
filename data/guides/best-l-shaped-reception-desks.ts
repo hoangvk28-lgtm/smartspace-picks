@@ -193,36 +193,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $249.99",
+          "Under $250",
           "Tribesigns L-Shaped Reception Desk with Storage Shelves"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "AIEGLE L-Shaped Reception Desk Counter with Lockable Drawers"
         ],
         [
-          "Around $459.00",
+          "Under $500",
           "L-Shaped Wooden Commercial Reception Desk"
         ],
         [
-          "Around $474.99",
+          "Under $500",
           "L-Shaped Reception Desk with Keyboard Tray"
         ],
         [
-          "Around $479.00",
+          "Under $500",
           "L-Shaped Wooden Commercial Reception Desk"
         ],
         [
-          "Around $522.49",
+          "Under $550",
           "L-Shaped Reception Desk with Curved Corner and Vertical Slats"
         ],
         [
-          "Around $869.95",
+          "Under $900",
           "Offices To Go L-Shaped Reception Desk with Transaction Top"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -270,7 +270,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "L-Shaped Wooden Commercial Reception Desk is aimed at buyers prioritizing 71\"l x 34\"w left-hand l-shape (87\" version also available)." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "L-Shaped Wooden Commercial Reception Desk is aimed at buyers prioritizing 71\"l x 34\"w left-hand l-shape (87\" version also available)." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks","title":"8 Best Reception Desks in 2026"},{"href":"/guide/best-l-shaped-reception-desks-with-counter","title":"5 Best L-Shaped Reception Desks with Counter in 2026"},{"href":"/guide/best-u-shaped-reception-desks","title":"best-u-shaped-reception-desks"}];

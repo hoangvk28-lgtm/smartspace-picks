@@ -28,11 +28,11 @@ export const products: ProductReviewCardProps[] = [
       { text: "360 degree adjustable arm swings the tablet into position without touching the base" },
       { text: "Soft washable lap pillow stays comfortable across a full episode or reading session" },
       { text: "Side storage pockets hold a phone, charger, or remote within reach" },
-      { text: "Works equally well propped on the couch or set on top of a comforter" },
+      { text: "Works equally well propped on the couch or set on top of a comforter" }
     ],
     cons: [
       { text: "Fits 4.7 to 10 inch devices only, larger iPads like the 12.9 inch Pro will not fit" },
-      { text: "The arm is fixed to the pillow base and cannot be clamped to a headboard" },
+      { text: "The arm is fixed to the pillow base and cannot be clamped to a headboard" }
     ],
     reviewText:
       "The vizzicool pillow stand pairs a soft lap cushion with a 360 degree arm, so instead of a fixed-angle slot you get real adjustability while lying down or curled up on the couch. The side storage pockets are a small but useful touch for keeping a phone or charging cable from sliding off the bed. Best suited to lighter tablets and phones given the 10 inch size ceiling.",
@@ -50,11 +50,11 @@ export const products: ProductReviewCardProps[] = [
       { text: "Built-in snack bowl doubles as a spot for a remote or phone during longer sessions" },
       { text: "360 degree rotating clip switches between portrait and landscape without repositioning the base" },
       { text: "Fits a wide 5 to 12.9 inch range, including full-size iPad Pro models" },
-      { text: "Soft pillow base sits flat on a mattress or sofa cushion without sliding" },
+      { text: "Soft pillow base sits flat on a mattress or sofa cushion without sliding" }
     ],
     cons: [
       { text: "The rotating clip adds bulk compared to a simple pillow slot" },
-      { text: "Not designed for active typing, best for passive reading and streaming" },
+      { text: "Not designed for active typing, best for passive reading and streaming" }
     ],
     reviewText:
       "The RIWUCT stand covers a wider size range than most bed pillow stands, up to a full 12.9 inch iPad Pro, and the built-in snack bowl is a genuinely useful detail for late-night reading or streaming sessions. The 360 degree rotating clip makes it easy to flip between portrait for reading and landscape for video without moving the base itself.",
@@ -72,11 +72,11 @@ export const products: ProductReviewCardProps[] = [
       { text: "Solid aluminum construction holds an eye-level angle without sagging" },
       { text: "Height and angle are both adjustable, useful for propping on a nightstand while sitting up in bed" },
       { text: "Fits a broad range up to 15 inches, covering tablets and portable monitors" },
-      { text: "More rigid than any pillow-based stand in this guide" },
+      { text: "More rigid than any pillow-based stand in this guide" }
     ],
     cons: [
       { text: "Needs a flat, stable surface like a nightstand or desk edge, it will not balance directly on bedding" },
-      { text: "No clamp, so it cannot mount to a headboard for true overhead hands-free viewing" },
+      { text: "No clamp, so it cannot mount to a headboard for true overhead hands-free viewing" }
     ],
     reviewText:
       "The KABCON stand is built primarily as a desk and drawing-tablet stand, but its solid aluminum frame and adjustable height make it a strong option for a nightstand next to the bed when you want a tablet at eye level while sitting up. It will not work sitting directly on a mattress or lap the way the pillow stands in this guide do, so it is best paired with a nightstand or similar flat surface.",
@@ -94,11 +94,11 @@ export const products: ProductReviewCardProps[] = [
       { text: "6 adjustable angles - portrait and landscape both work" },
       { text: "Soft pillow base stays put on bed or couch without sliding" },
       { text: "Detachable, washable pillowcase keeps it hygienic" },
-      { text: "Fits 4.7\" to 13\" tablets including iPad Pro 13" },
+      { text: "Fits 4.7\" to 13\" tablets including iPad Pro 13" }
     ],
     cons: [
       { text: "Needs 6-24 hours after unboxing to fully puff out" },
-      { text: "Not stable enough for active typing sessions" },
+      { text: "Not stable enough for active typing sessions" }
     ],
     reviewText:
       "The Lamicall pillow stand is the easiest way to prop a tablet in bed with zero hardware. The triangular base sits stable on soft surfaces, and six angle presets cover everything from upright reading to near-flat streaming. Best for passive use - reading, Netflix, video calls.",
@@ -116,11 +116,11 @@ export const products: ProductReviewCardProps[] = [
       { text: "Reinforced aluminum arm - far less wobble than plastic goosenecks" },
       { text: "360 degree rotating clamp for instant portrait/landscape switching" },
       { text: "Clamps to headboards, nightstands, or desks up to 3\" thick" },
-      { text: "30\" arm length enables true overhead hands-free viewing" },
+      { text: "30\" arm length enables true overhead hands-free viewing" }
     ],
     cons: [
       { text: "Large 12.9\" iPads still cause minor sag over extended use" },
-      { text: "Requires a clampable surface - does not freestand on bed" },
+      { text: "Requires a clampable surface - does not freestand on bed" }
     ],
     reviewText:
       "For true hands-free viewing while lying flat, a gooseneck beats every pillow stand. This model uses a reinforced aluminum arm that holds position better than plastic alternatives. Clamp it to your headboard or nightstand and swing the tablet overhead - once it is set, it stays.",
@@ -138,11 +138,11 @@ export const products: ProductReviewCardProps[] = [
       { text: "Cushioned pillow base molds to lap for stable support" },
       { text: "Built-in tablet slot and ergonomic wrist rest pad" },
       { text: "Fits laptops up to 15.6\" and all tablet sizes" },
-      { text: "Storage pocket doubles as carry handle for travel" },
+      { text: "Storage pocket doubles as carry handle for travel" }
     ],
     cons: [
       { text: "Larger and heavier than pillow-only tablet stands" },
-      { text: "Tablet slot is fixed angle - no free adjustment" },
+      { text: "Tablet slot is fixed angle - no free adjustment" }
     ],
     reviewText:
       "The HUANUO lap desk handles dual-use setups - laptop on the platform, tablet propped in the side slot. The cushioned base genuinely molds to your legs rather than sliding around, and the wrist rest reduces hand fatigue during longer sessions on the couch or in bed.",
@@ -160,11 +160,11 @@ export const products: ProductReviewCardProps[] = [
       { text: "30\" reach from nightstand converts to over-bed viewing" },
       { text: "360 degree ball head + 90 degree swivel + 80 degree tilt" },
       { text: "Fits 4.7\" to 15.6\" tablets and portable monitors" },
-      { text: "Reinforced aluminum structure - no drooping after positioning" },
+      { text: "Reinforced aluminum structure - no drooping after positioning" }
     ],
     cons: [
       { text: "Requires flat surface for C-clamp (nightstand or desk edge)" },
-      { text: "Folding arm takes a moment to reposition each time" },
+      { text: "Folding arm takes a moment to reposition each time" }
     ],
     reviewText:
       "The 30\" articulating arm turns a nightstand into a bedside media station. Clamp it to the edge of your nightstand and the arm swings overhead for hands-free reading - no headboard mount needed. Tension joints hold position without sagging even with heavier iPads.",
@@ -182,16 +182,16 @@ export const products: ProductReviewCardProps[] = [
       { text: "Two clamps hold a tablet and phone at the same time" },
       { text: "Carbon steel build - noticeably more rigid than standard goosenecks" },
       { text: "6 adjustable joints with 360 degree rotation" },
-      { text: "Clamps to surfaces up to 2.83\" thick including dorm desks" },
+      { text: "Clamps to surfaces up to 2.83\" thick including dorm desks" }
     ],
     cons: [
       { text: "Not recommended on metallic surfaces" },
-      { text: "Multiple joints take a few minutes to dial in the right position" },
+      { text: "Multiple joints take a few minutes to dial in the right position" }
     ],
     reviewText:
       "The LISEN dual-clamp stand is ideal for dorm rooms where you want to run a tablet and phone side by side. The carbon steel construction is significantly more rigid than standard gooseneck mounts, and six pivot points give precise angle control once you dial in the position.",
     scoreOverall: 8.5,
-  },
+  }
 ];
 
 export const atAGlanceItems: AtAGlanceItem[] = products.map((p) => ({
@@ -232,5 +232,5 @@ export const faq = [
     question: "What is the difference between a lap stand and a pillow stand for bed?",
     answer:
       "A pillow stand is a soft cushion with a fixed-angle slot - best for light reading or streaming. A lap desk is a rigid platform with a cushion base that supports a full laptop or tablet at multiple angles - better for active use like typing, drawing, or longer work sessions.",
-  },
+  }
 ];

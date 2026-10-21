@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $169.99",
+          "Under $170",
           "Tribesigns Reception Desk with Counter"
         ],
         [
-          "Around $259.99",
+          "Under $300",
           "Tribesigns 63-Inch Reception Desk with LED Lights"
         ],
         [
-          "Around $436.99",
+          "Under $450",
           "L-Shaped Reception Desk with Keyboard Tray"
         ],
         [
-          "Around $476.99",
+          "Under $500",
           "87\" 2-Person Reception Desk with Patented Double Top"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Tribesigns 63-Inch Reception Desk with LED Lights is aimed at buyers prioritizing 63\" wide, black & gray color scheme." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Tribesigns 63-Inch Reception Desk with LED Lights is aimed at buyers prioritizing 63\" wide, black & gray color scheme." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-white-reception-desks","title":"best-white-reception-desks"},{"href":"/guide/best-black-reception-desks","title":"best-black-reception-desks"},{"href":"/guide/best-modern-reception-desks","title":"best-modern-reception-desks"}];

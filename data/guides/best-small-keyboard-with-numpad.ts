@@ -52,7 +52,7 @@ export const products: NumpadKeyboard[] = [
       "Most complete 96% wireless keyboard at this price: tri-mode wireless (2.4 GHz at 1000 Hz polling rate, Bluetooth 5.1 up to 3 devices, USB-C wired), hot-swappable switches, and QMK/VIA for full key remapping. The 96% layout fits a full numpad in a frame about 4 to 5 cm narrower than full-size. Works on Mac, Windows, and Linux out of the box.",
     tradeoffs: [
       "No rotary knob on this ASIN",
-      "Banana switch may not suit linear-focused users (Red switch variant available)",
+      "Banana switch may not suit linear-focused users (Red switch variant available)"
     ],
     skipIf:
       "You want full aluminum build quality. The Keychron Q5 Max at $180 to $200 adds a CNC aluminum body and double-gasket mounting.",
@@ -61,12 +61,12 @@ export const products: NumpadKeyboard[] = [
       "QMK/VIA programmable",
       "Hot-swappable switches",
       "Works on Mac and Windows",
-      "96% layout with full numpad",
+      "96% layout with full numpad"
     ],
     cons: [
       "No rotary knob",
       "Higher price tier for this roundup",
-      "Banana switch is specific preference",
+      "Banana switch is specific preference"
     ],
   },
   {
@@ -88,21 +88,21 @@ export const products: NumpadKeyboard[] = [
     tradeoffs: [
       "High price at $180 to $200",
       "Heavy at about 2 kg (not portable)",
-      "Premium over V5 Max is mainly build feel, not features",
+      "Premium over V5 Max is mainly build feel, not features"
     ],
     skipIf:
-      "Budget is under $150. The Keychron V5 Max delivers the same layout and wireless at $115 to $130.",
+      "Budget is under $150. The Keychron V5 Max delivers the same layout and wireless at under $120 to $130.",
     pros: [
       "Full aluminum CNC body",
       "Double-gasket mounting (quieter typing)",
       "QMK/VIA",
       "Tri-mode wireless",
-      "Hot-swappable",
+      "Hot-swappable"
     ],
     cons: [
       "Highest price in roundup",
       "Heavy and not portable",
-      "Premium mainly in build materials",
+      "Premium mainly in build materials"
     ],
   },
   {
@@ -125,7 +125,7 @@ export const products: NumpadKeyboard[] = [
       "Membrane keys with no tactile feedback",
       "Windows-optimized layout with limited Mac support",
       "No multi-device Bluetooth",
-      "No backlight",
+      "No backlight"
     ],
     skipIf:
       "You want mechanical switch feedback or Mac support. The Keychron K4 at $80 to $100 adds mechanical switches and Bluetooth for Mac.",
@@ -133,13 +133,13 @@ export const products: NumpadKeyboard[] = [
       "Lowest price in roundup",
       "Wireless with numpad included",
       "Zero-setup plug-and-play",
-      "Compact layout",
+      "Compact layout"
     ],
     cons: [
       "Membrane only",
       "Windows-optimized",
       "No backlight",
-      "No multi-device Bluetooth",
+      "No multi-device Bluetooth"
     ],
   },
   {
@@ -161,7 +161,7 @@ export const products: NumpadKeyboard[] = [
     tradeoffs: [
       "Wired only (no wireless)",
       "Split layout requires an adjustment period",
-      "Not for mechanical switch fans",
+      "Not for mechanical switch fans"
     ],
     skipIf:
       "You have no wrist strain concerns and prefer wireless. The Keychron V5 Max is the better all-around 96% pick.",
@@ -170,12 +170,12 @@ export const products: NumpadKeyboard[] = [
       "Silent keys for shared offices",
       "Built-in numpad",
       "Detachable wrist rest included",
-      "Compact vs standard ergonomic keyboards",
+      "Compact vs standard ergonomic keyboards"
     ],
     cons: [
       "Wired only",
       "Split layout adjustment period",
-      "Membrane keys only",
+      "Membrane keys only"
     ],
   },
   {
@@ -198,7 +198,7 @@ export const products: NumpadKeyboard[] = [
       "Windows-optimized with limited Mac key labeling",
       "No Bluetooth (single receiver only)",
       "No RGB",
-      "Not mechanical",
+      "Not mechanical"
     ],
     skipIf:
       "You already have a mouse or need Mac support. The keyboard alone is not sold separately with this combo.",
@@ -207,13 +207,13 @@ export const products: NumpadKeyboard[] = [
       "One USB receiver for both devices",
       "Quiet scissor-switch keys",
       "Compact layout with numpad",
-      "Reliable Logitech build",
+      "Reliable Logitech build"
     ],
     cons: [
       "Windows-optimized",
       "No Bluetooth",
       "Not mechanical",
-      "No RGB",
+      "No RGB"
     ],
   },
   {
@@ -236,21 +236,21 @@ export const products: NumpadKeyboard[] = [
       "Older model (V2), limited updates vs V5 Max",
       "Bluetooth only wireless (no 2.4 GHz)",
       "White LED only on this model (no RGB)",
-      "Verify current stock before purchasing",
+      "Verify current stock before purchasing"
     ],
     skipIf:
-      "You want 2.4 GHz wireless or RGB. The Keychron V5 Max at $115 to $130 adds both and has a higher polling rate.",
+      "You want 2.4 GHz wireless or RGB. The Keychron V5 Max at under $120 to $130 adds both and has a higher polling rate.",
     pros: [
       "Mechanical switches at mid-range price",
       "3-device Bluetooth",
       "Mac and Windows support",
       "240-hour battery",
-      "Hot-swappable version available",
+      "Hot-swappable version available"
     ],
     cons: [
       "Bluetooth only (no 2.4 GHz)",
       "White LED only",
-      "Older model with limited updates",
+      "Older model with limited updates"
     ],
   },
   {
@@ -272,7 +272,7 @@ export const products: NumpadKeyboard[] = [
     tradeoffs: [
       "Separate device to manage (charging and pairing)",
       "Not integrated with main keyboard",
-      "Small form factor means occasional misplacement",
+      "Small form factor means occasional misplacement"
     ],
     skipIf:
       "You need a numpad available at all times. A 96% keyboard with integrated numpad is a more seamless solution for frequent numpad users.",
@@ -281,14 +281,14 @@ export const products: NumpadKeyboard[] = [
       "Dual wireless (Bluetooth plus 2.4 GHz)",
       "USB-C rechargeable",
       "Stores away when not needed",
-      "Works with Mac and Windows",
+      "Works with Mac and Windows"
     ],
     cons: [
       "Separate device to charge and pair",
       "Not integrated",
-      "Only useful if you already have a compact keyboard",
+      "Only useful if you already have a compact keyboard"
     ],
-  },
+  }
 ];
 
 export const atAGlanceRows = products.map((p) => ({
@@ -325,11 +325,11 @@ export const faq = [
   {
     q: "What is the difference between a 96% keyboard and a full-size keyboard?",
     a: "A full-size keyboard has 104 keys spread across dedicated clusters with spacing between them, typically about 44 cm wide. A 96% keyboard has the same keys but removes the gaps between clusters, bringing the total width to about 38 to 40 cm. Both have a numpad. The 96% saves about 4 to 6 cm of desk width without losing any keys.",
-  },
+  }
 ];
 
 export const relatedGuides = [
   { href: "/guide/best-small-keyboards", title: "Best Small Keyboards" },
   { href: "/guide/best-compact-keyboard-under-50", title: "Best Compact Keyboards Under $50" },
-  { href: "/guide/best-small-desk-accessories", title: "Best Small Desk Accessories" },
+  { href: "/guide/best-small-desk-accessories", title: "Best Small Desk Accessories" }
 ];

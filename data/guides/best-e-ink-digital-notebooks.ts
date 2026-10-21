@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "e-ink digital notebook";
 export const introParagraphs = [
   "E-ink, or e-paper, display technology is the actual differentiator behind this category: it looks and reads like paper under normal light with no glare, draws power only when the screen changes rather than continuously, and generally causes less eye strain over long writing or reading sessions than a backlit LCD screen.",
-  "Every pick below is standalone hardware built around an e-ink display, not a paper notebook or smart pen set. We evaluated the stated display type, battery claims, and included accessories rather than claiming hands-on testing.",
+  "Every pick below is standalone hardware built around an e-ink display, not a paper notebook or smart pen set. We evaluated the stated display type, battery claims, and included accessories rather than claiming hands-on testing."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed genuine e-ink or e-paper display technology", description: "Verified each pick uses an actual e-ink or e-paper panel rather than a standard LCD screen marketed loosely as a notebook." },
   { title: "Battery life claims tied to the e-ink power model", description: "Explained why e-ink batteries last longer, the screen only draws power when content changes, rather than treating the spec as an isolated number." },
   { title: "Glare and eye strain considered as a genuine display benefit", description: "Weighed e-ink's glare-free readability in bright light and lower eye strain over long sessions as a real differentiator versus a typical tablet screen." },
-  { title: "Color vs black-and-white distinguished per listing", description: "Only credited a color e-ink display when explicitly stated, since color and black-and-white e-paper panels have different contrast tradeoffs." },
+  { title: "Color vs black-and-white distinguished per listing", description: "Only credited a color e-ink display when explicitly stated, since color and black-and-white e-paper panels have different contrast tradeoffs." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -290,11 +290,11 @@ export const faq: FaqItem[] = [
   { q: "Why does e-ink last so much longer on a charge than a normal tablet?", a: "E-ink displays only draw power when the screen content changes, unlike an LCD screen that continuously refreshes and backlights, so an e-ink device can sit idle for weeks without meaningful battery drain." },
   { q: "Is e-ink easier on the eyes than a regular tablet screen?", a: "Many people find it so, since e-ink reflects ambient light like paper rather than emitting its own backlight, reducing glare and eye strain over long sessions." },
   { q: "Do e-ink digital notebooks come in color?", a: "Some do, models like the BOOX Note Air 4C and 5 C, reMarkable Paper Pro, and Kindle Scribe Colorsoft state color e-paper displays, verify this on the specific listing before assuming." },
-  { q: "Can I read in direct sunlight on an e-ink notebook?", a: "Yes, that is one of e-ink's core advantages, the display reflects ambient light rather than washing out like an LCD screen in bright light." },
+  { q: "Can I read in direct sunlight on an e-ink notebook?", a: "Yes, that is one of e-ink's core advantages, the display reflects ambient light rather than washing out like an LCD screen in bright light." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebook-tablets", title: "Best Digital Notebook Tablets (2026)" },
   { href: "/guide/best-color-digital-notebooks", title: "Best Color Digital Notebooks (2026)" },
-  { href: "/guide/best-digital-notebooks-for-writers", title: "Best Digital Notebooks for Writers (2026)" },
+  { href: "/guide/best-digital-notebooks-for-writers", title: "Best Digital Notebooks for Writers (2026)" }
 ];

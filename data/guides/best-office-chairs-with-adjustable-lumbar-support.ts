@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "office chair with adjustable lumbar support";
 export const introParagraphs = [
   "Adjustable lumbar support is one of the broadest phrases in office chair listings. It can mean a pad that only slides up and down, one that moves in and out, one that does both, or a dynamic pad that flexes as you shift in the seat, and Amazon titles almost never say which. None of the 8 chairs below specify their exact mechanism in the listing, so we treat adjustable lumbar generally here rather than guessing at a type the product page doesn't confirm.",
-  "What we can evaluate directly is build quality at the price point, mesh or upholstery breathability, armrest design, and how each chair holds up based on product specs and buyer feedback. All 8 are current listings priced from about $39 to $130, aimed at home offices and small workspaces where a full ergonomic showroom chair isn't practical or affordable.",
+  "What we can evaluate directly is build quality at the price point, mesh or upholstery breathability, armrest design, and how each chair holds up based on product specs and buyer feedback. All 8 are current listings priced from about $39 to $130, aimed at home offices and small workspaces where a full ergonomic showroom chair isn't practical or affordable."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -46,8 +46,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall",
     name: "Office Chair Ergonomic Desk Chair, Computer PU Leather Home Office Chair, Swivel Mesh Back Adjustable Lumbar Support Flip-up Arms Executive Task Chair",
     price: "$129.99",
-    rating: "4.5 stars from 3,070 Amazon ratings",
-    reviews: "3,070 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41tzbvyly7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09D33BXHL?tag=deskfinds0d-20",
     description:
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Adjustable lumbar support",
       "Flip-up armrests",
       "Swivel base with casters",
-      "Executive task chair styling",
+      "Executive task chair styling"
     ],
     pros: [
       "Highest rating count among premium picks in this guide",
       "Mesh back improves airflow over full upholstery",
       "Flip-up arms help with tight desk clearance",
-      "Executive styling at a mid-range price",
+      "Executive styling at a mid-range price"
     ],
     cons: [
       "Costs more than the budget picks in this guide",
       "Lumbar adjustment type not specified on the listing",
-      "PU leather seat may feel warmer than an all-mesh design",
+      "PU leather seat may feel warmer than an all-mesh design"
     ],
     bestFor: "Buyers who want executive styling with adjustable lumbar and flip-up arms in one chair",
   },
@@ -78,8 +78,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick",
     name: "BestOffice Ergonomic Office Chair, Mid-Back Swivel Desk Chair, Breathable Backrest and Lumbar Support, Adjustable Height, Sponge Seat, Rolling Wheels",
     price: "$38.99",
-    rating: "4.3 stars from 64,003 Amazon ratings",
-    reviews: "64,003 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41qkMtzBIdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQDM23S4?tag=deskfinds0d-20",
     description:
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Adjustable lumbar support",
       "Adjustable seat height",
       "Sponge seat cushion",
-      "Rolling wheel base",
+      "Rolling wheel base"
     ],
     pros: [
       "Lowest price among the mid-back options in this guide",
       "Largest number of Amazon ratings in this guide",
       "Breathable backrest for basic airflow",
-      "Simple height adjustment",
+      "Simple height adjustment"
     ],
     cons: [
       "Sponge seat may compress faster than higher-density foam",
       "Lumbar adjustment type not specified on the listing",
-      "Fewer premium touches than pricier picks here",
+      "Fewer premium touches than pricier picks here"
     ],
     bestFor: "Budget buyers who want basic adjustable lumbar without paying for extras",
   },
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Back Design",
     name: "Furmax Office Executive Chair High Back Adjustable Managerial Home Desk Chair, Swivel Computer PU Leather Chair with Lumbar Support",
     price: "$89.99",
-    rating: "4.3 stars from 5,382 Amazon ratings",
-    reviews: "5,382 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41b4JMojCoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07T291QPJ?tag=deskfinds0d-20",
     description:
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Adjustable lumbar support",
       "Managerial styling",
       "Swivel base with casters",
-      "Adjustable seat height",
+      "Adjustable seat height"
     ],
     pros: [
       "High-back shape covers shoulders and upper back",
       "Managerial look suited to video calls",
       "Solid build quality at this price point",
-      "Established rating count for a mid-tier pick",
+      "Established rating count for a mid-tier pick"
     ],
     cons: [
       "Bulkier footprint than mid-back chairs",
       "Lumbar adjustment type not specified on the listing",
-      "PU leather may show wear faster than fabric over years of use",
+      "PU leather may show wear faster than fabric over years of use"
     ],
     bestFor: "Buyers who want high-back coverage along with adjustable lumbar support",
   },
@@ -142,8 +142,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Mesh Breathability",
     name: "Marsail Ergonomic Office Chair, High Back Mesh with Adjustable Lumbar Support, Rolling Work Swivel Task Chair with 3D Armrests and Headrest",
     price: "$118.94",
-    rating: "4.3 stars from 1,783 Amazon ratings",
-    reviews: "1,783 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/411wlpMNg+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP22DQQS?tag=deskfinds0d-20",
     description:
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Adjustable lumbar support",
       "3D adjustable armrests",
       "Adjustable headrest",
-      "Rolling swivel base",
+      "Rolling swivel base"
     ],
     pros: [
       "Full mesh construction for better airflow than leather picks",
       "3D armrests adjust in more directions than flip-up arms",
       "Included headrest not offered on every pick here",
-      "Good feature set relative to price",
+      "Good feature set relative to price"
     ],
     cons: [
       "Costs more than the budget and mid-tier picks in this guide",
       "Lumbar adjustment type not specified on the listing",
-      "Mesh seat may feel firmer than a padded cushion for some users",
+      "Mesh seat may feel firmer than a padded cushion for some users"
     ],
     bestFor: "Buyers who want full mesh breathability plus a headrest and 3D armrests",
   },
@@ -174,8 +174,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Mesh Pick",
     name: "NEO CHAIR Office Computer Chair Mid Back Desk Ergonomic Mesh Gaming Seat Comfy Lumbar Support Rolling Wheels Adjustable Height Swivel for Home Task",
     price: "$38.98",
-    rating: "4.3 stars from 3,442 Amazon ratings",
-    reviews: "3,442 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41vkBVigJkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GXX75JN5?tag=deskfinds0d-20",
     description:
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Adjustable lumbar support",
       "Adjustable seat height",
       "Rolling wheel base",
-      "Compact swivel frame",
+      "Compact swivel frame"
     ],
     pros: [
       "One of the two lowest prices in this guide",
       "Mesh seat improves airflow over foam-only designs",
       "Compact frame suits small spaces",
-      "Simple height and swivel adjustment",
+      "Simple height and swivel adjustment"
     ],
     cons: [
       "Fewer premium features than the higher-priced picks here",
       "Lumbar adjustment type not specified on the listing",
-      "Mid-back height offers less shoulder coverage than a high-back chair",
+      "Mid-back height offers less shoulder coverage than a high-back chair"
     ],
     bestFor: "Budget buyers who want a mesh seat instead of foam at the lowest price point",
   },
@@ -206,8 +206,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Back Gaming-Style Pick",
     name: "NEO CHAIR Office Desk Gaming Chair Computer High Back Mesh Seat with Rolling Wheels Ergonomic Adjustable Comfy Flip-up Armrests Lumbar Support Height",
     price: "$58.46",
-    rating: "4.2 stars from 2,568 Amazon ratings",
-    reviews: "2,568 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41g7G7Hgo4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKNN49QP?tag=deskfinds0d-20",
     description:
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Adjustable lumbar support",
       "Flip-up armrests",
       "Adjustable seat height",
-      "Rolling wheel base",
+      "Rolling wheel base"
     ],
     pros: [
       "High-back coverage at a mid-range price",
       "Flip-up arms for tight desk clearance",
       "Mesh seat for airflow",
-      "Reasonable rating count for its price tier",
+      "Reasonable rating count for its price tier"
     ],
     cons: [
       "Slightly lower average rating than other NEO CHAIR picks in this guide",
       "Lumbar adjustment type not specified on the listing",
-      "Gaming-chair styling may not suit every home office aesthetic",
+      "Gaming-chair styling may not suit every home office aesthetic"
     ],
     bestFor: "Buyers who want high-back support and flip-up arms without paying premium prices",
   },
@@ -238,8 +238,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Standing Desks",
     name: "Primy Drafting Chair Tall Office Chair with Flip-up Armrests Executive Ergonomic Computer Standing Desk Chair with Lumbar Support and Adjustable Footrest Ring",
     price: "$108.96",
-    rating: "4.3 stars from 3,572 Amazon ratings",
-    reviews: "3,572 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31qifS1PZSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B41X9SMT?tag=deskfinds0d-20",
     description:
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Adjustable lumbar support",
       "Flip-up armrests",
       "Adjustable footrest ring",
-      "Swivel base with casters",
+      "Swivel base with casters"
     ],
     pros: [
       "Only drafting-height chair in this guide",
       "Adjustable footrest ring for counter-height desks",
       "Flip-up arms for flexibility",
-      "Strong rating count for a specialty chair",
+      "Strong rating count for a specialty chair"
     ],
     cons: [
       "Not the right fit for a standard-height desk",
       "Lumbar adjustment type not specified on the listing",
-      "Taller design takes up more vertical space in a room",
+      "Taller design takes up more vertical space in a room"
     ],
     bestFor: "Buyers using a standing desk locked at counter height who need a matching tall chair",
   },
@@ -270,8 +270,8 @@ export const products: GuideProduct[] = [
     badge: "Best Color Option",
     name: "NEO CHAIR Office Desk Gaming Ergonomic Computer Chair with Lumbar Back Support Adjustable Height Swivel Rolling Wheels Flip-up Arms Mesh Chair for Home Vanity",
     price: "$59.98",
-    rating: "4.3 stars from 1,871 Amazon ratings",
-    reviews: "1,871 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41DJb5724iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPLP3BND?tag=deskfinds0d-20",
     description:
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Adjustable lumbar support",
       "Flip-up armrests",
       "Adjustable seat height",
-      "Rolling wheel base",
+      "Rolling wheel base"
     ],
     pros: [
       "Distinct color option not offered by other picks in this guide",
       "Mesh build for airflow",
       "Flip-up arms and adjustable height",
-      "Consistent quality with the brand's other listings here",
+      "Consistent quality with the brand's other listings here"
     ],
     cons: [
       "Smallest rating count among the NEO CHAIR picks in this guide",
       "Lumbar adjustment type not specified on the listing",
-      "Color options limit versatility for shared or resale use",
+      "Color options limit versatility for shared or resale use"
     ],
     bestFor: "Buyers who want a mesh chair with adjustable lumbar in a distinct color for a vanity or home setup",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for money",
     description: "Considered rating volume and average rating alongside price to identify which chairs deliver the most for a home office budget.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -462,7 +462,7 @@ export const faq: FaqItem[] = [
   {
     q: "Can a great lumbar feature still fail to help me?",
     a: "Yes, most commonly when seat depth is wrong for your leg length. If the seat is too deep, you end up perching on the front edge to keep your feet flat, which pulls your lower back away from the lumbar pad regardless of how adjustable it is.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
@@ -470,5 +470,5 @@ export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-office-chair-for-back-pain", title: "Best Office Chairs for Back Pain (2026)" },
   { href: "/guide/best-ergonomic-chair-under-300", title: "Best Ergonomic Chairs Under $300 (2026)" },
   { href: "/guide/best-solid-wood-file-cabinets", title: "Best Solid Wood File Cabinets (2026)" },
-  { href: "https://www.workcocoon.com/chairs/best-office-chairs-with-adjustable-lumbar-support", title: "Best Office Chairs with Adjustable Lumbar Support (WorkCocoon)" },
+  { href: "https://www.workcocoon.com/chairs/best-office-chairs-with-adjustable-lumbar-support", title: "Best Office Chairs with Adjustable Lumbar Support (WorkCocoon)" }
 ];

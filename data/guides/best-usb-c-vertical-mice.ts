@@ -6,7 +6,7 @@ export const mainKeyword = "USB-C vertical mouse";
 export const introParagraphs = [
   "USB-C in this context could refer to the charging port, the wireless dongle's connector, or a wired connection method, worth clarifying which specific USB-C implementation each product uses rather than treating 'USB-C' as one undifferentiated feature.",
   "If USB-C refers to a genuinely wired connection, a USB-C-cabled mouse rather than the more common USB-A, cable quality and length considerations deserve the same scrutiny given to wired accessory research generally.",
-  "USB-C dongle compatibility with modern USB-C-only laptops, avoiding the need for a separate USB-A adapter, is a genuine convenience benefit worth highlighting for buyers with newer laptops that have phased out full-size USB-A ports entirely.",
+  "USB-C dongle compatibility with modern USB-C-only laptops, avoiding the need for a separate USB-A adapter, is a genuine convenience benefit worth highlighting for buyers with newer laptops that have phased out full-size USB-A ports entirely."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Genuinely USB-C-Wired Vertical Mouse",
     name: "Perixx PERIMICE-513C Wired Vertical USB-C Mouse, 6 Buttons, Adjustable 1000/1600 DPI, Right-Handed, 5.9ft Cable, Black",
     price: "$19.99",
-    rating: "4.2 stars from 192 Amazon ratings",
-    reviews: "192 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31p0qXVlx6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQ5YLR29?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best USB-C-Charging Vertical Mouse",
     name: "Logitech MX Vertical Wireless Mouse Ergonomic Design - Graphite",
     price: "$74.99",
-    rating: "4.4 stars from 14,970 Amazon ratings",
-    reviews: "14,970 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Ig2YzI5iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07FNJB8TT?tag=deskfinds0d-20",
     description:
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget USB-C-Charging Pick",
     name: "TECKNET Ergonomic Mouse, Bluetooth Wireless Vertical Mouse, Rechargeable Battery, Quiet Clicks, 4800 DPI Adjustable, BT5.0/3.0 & 2.4G Connect, Easy to use, Wide Compatibility - Black",
     price: "$24.99",
-    rating: "4.6 stars from 7,261 Amazon ratings",
-    reviews: "7,261 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/316GOiA3kCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1YD86Z6?tag=deskfinds0d-20",
     description:
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value USB-C-Charging Pick",
     name: "ProtoArc EM11 NL Wireless Ergonomic Mouse, Rechargeable Vertical Mouse",
     price: "$25.99",
-    rating: "4.4 stars from 5,670 Amazon ratings",
-    reviews: "5,670 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31pLezomU4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCBW3B3T?tag=deskfinds0d-20",
     description:
@@ -94,8 +94,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Rated USB-C-Charging Pick",
     name: "seenda MOU-302 Wireless Bluetooth Ergonomic Vertical Mouse with Volume Knob",
     price: "$19.98",
-    rating: "4.6 stars from 1,572 Amazon ratings",
-    reviews: "1,572 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/317OUYp22fL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DM8KRK37?tag=deskfinds0d-20",
     description:
@@ -104,7 +104,7 @@ export const products: GuideProduct[] = [
     pros: ["Highest average rating among the USB-C-charging picks in this guide", "Lowest price in this guide", "Genuinely distinct volume knob adds practical functionality", "Bluetooth connectivity avoids a USB dongle entirely"],
     cons: ["Not a wired USB-C mouse, this refers to the charging port only", "Smaller review base than the larger-volume competitors", "Charge-while-in-use capability not explicitly confirmed"],
     bestFor: "Buyers wanting the highest-rated budget USB-C-charging pick with a bonus feature",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -113,7 +113,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Cross-referenced with rechargeable mouse findings for charging-specific products", description: "Cross-referenced this article's own rechargeable mouse research for products where USB-C refers to charging rather than duplicating that research." },
   { title: "Cable quality and length verified for genuinely wired products", description: "Verified cable quality/length considerations for the one genuinely USB-C-wired product in this guide, similar to general wired-mouse cable research." },
   { title: "USB-C-only laptop dongle-compatibility benefit highlighted", description: "Highlighted USB-C-only laptop dongle compatibility, avoiding the need for a USB-A adapter, as a genuine convenience benefit for buyers with newer laptops." },
-  { title: "Reversible connector convenience noted as a minor usability benefit", description: "Noted reversible USB-C connector convenience, no wrong-way-up insertion, as a minor but real usability benefit over older USB connector types." },
+  { title: "Reversible connector convenience noted as a minor usability benefit", description: "Noted reversible USB-C connector convenience, no wrong-way-up insertion, as a minor but real usability benefit over older USB connector types." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Will a USB-C mouse work with my USB-C-only laptop without an adapter?", a: "Often yes if both the charging cable and wireless dongle use USB-C, this avoids the need for a separate USB-A adapter, a genuine convenience for newer laptops lacking full-size USB-A ports." },
   { q: "Does the reversible USB-C connector actually matter for a mouse?", a: "It's a minor but real convenience, no wrong-way-up insertion, over older USB connector types, it won't change your buying decision on its own but is a nice daily quality-of-life improvement." },
   { q: "What cable length should I look for in a wired USB-C mouse?", a: "Check the manufacturer's disclosed cable length against your desk setup distance, this Perixx pick discloses 5.9 feet, not every wired mouse publishes this spec clearly, so verify before buying." },
-  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers wanting a genuinely USB-C-wired mouse with no charging to manage" },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers wanting a genuinely USB-C-wired mouse with no charging to manage" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-rechargeable-vertical-mice", title: "Best Rechargeable Vertical Mice (2026)" },
   { href: "/guide/best-silent-vertical-mice", title: "Best Silent Vertical Mice (2026)" },
-  { href: "/guide/best-multi-device-vertical-mice", title: "Best Multi-Device Vertical Mice (2026)" },
+  { href: "/guide/best-multi-device-vertical-mice", title: "Best Multi-Device Vertical Mice (2026)" }
 ];

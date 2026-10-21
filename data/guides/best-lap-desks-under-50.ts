@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A hidden storage drawer with a lifetime warranty", "Potuopy Adjustable Laptop Lap Desk, X-Large Foldable"],
         ["Genuine active cooling and the highest weight capacity", "Laptop Desk for Bed with Cooling Fan"],
         ["Built-in USB charging ports at the lowest price", "Zapuno Laptop Lap Desk with 4 USB Ports"],
-        ["The largest overall surface area", "SONGMICS Bed Laptop Desk, Foldable, Adjustable Height"],
+        ["The largest overall surface area", "SONGMICS Bed Laptop Desk, Foldable, Adjustable Height"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $31", "Zapuno 4 USB Ports ($30.67)"],
-        ["Under $34", "SONGMICS Foldable ($33.99)"],
-        ["Under $40", "Cooling Fan pick ($39.99)"],
-        ["Under $50", "Potuopy X-Large ($49.99)"],
+        ["Under $31", "Zapuno 4 USB Ports (under $35)"],
+        ["Under $34", "SONGMICS Foldable (under $35)"],
+        ["Under $40", "Cooling Fan pick (under $40)"],
+        ["Under $50", "Potuopy X-Large (under $50)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Active USB Cooling vs Passive Heat Shielding",
     cards: [
       { label: "Active USB cooling (Cooling Fan pick)", text: "A genuine fan connects to your laptop's USB port to actively move air and prevent overheating during extended use." },
-      { label: "Passive design (Potuopy, Zapuno, SONGMICS)", text: "Relies on the desk's material and open construction rather than active airflow, sufficient for laptops that don't run especially hot." },
+      { label: "Passive design (Potuopy, Zapuno, SONGMICS)", text: "Relies on the desk's material and open construction rather than active airflow, sufficient for laptops that don't run especially hot." }
     ],
     note: "If your laptop tends to run hot during extended sessions, the active cooling fan pick provides genuine, measurable heat management. For laptops with modest heat output, a passive design is perfectly adequate.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["A hidden drawer for pens and small items", "Potuopy X-Large"],
         ["Built-in USB charging for your phone", "Zapuno 4 USB Ports"],
-        ["A cup holder and phone stand combined", "SONGMICS Foldable"],
+        ["A cup holder and phone stand combined", "SONGMICS Foldable"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Laptop That Runs Notably Hot During Extended Use Specifically",
     cards: [
       { label: "Look for", text: "A genuine active USB-powered cooling fan, not just a passive heat shield material claim." },
-      { label: "In this comparison", text: "The Cooling Fan pick is the only one here with a genuine active fan connecting directly to your laptop's USB port." },
+      { label: "In this comparison", text: "The Cooling Fan pick is the only one here with a genuine active fan connecting directly to your laptop's USB port." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a hidden storage drawer backed by a lifetime warranty, where the Potuopy pick delivers both at the top of this tier's price range." },
-      { label: "Save if", text: "You want built-in USB charging ports without paying for the largest surface or a storage drawer, where the Zapuno pick covers that for about $19 less." },
+      { label: "Save if", text: "You want built-in USB charging ports without paying for the largest surface or a storage drawer, where the Zapuno pick covers that for about $19 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

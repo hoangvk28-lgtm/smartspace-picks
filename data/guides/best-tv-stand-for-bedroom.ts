@@ -159,7 +159,7 @@ export const products: GuideProduct[] = [
     pros: ["16-inch low profile with upscale fluted styling", "Sturdy 57 lb build reduces wobble", "Coastal oak finish suits a calm bedroom palette", "Fits TVs up to 65 inches"],
     cons: ["50 lb top capacity lower than some plainer stands", "Price not consistently listed, check before buying", "Fluted doors cost more than flat-panel alternatives"],
     bestFor: "Bedrooms where the TV stand is meant to look like real furniture, not just a media shelf.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -191,11 +191,11 @@ export const faq: { q: string; a: string }[] = [
   { q: "Do I need a wall mount if I buy a TV stand for my bedroom?", a: "No, all the picks in this guide are freestanding consoles designed to hold the TV directly on the top surface, not wall mounts. If you prefer to wall mount the TV and use a lower console only for media storage, check the stand's listed depth and height to make sure it does not block the mount's swivel range." },
   { q: "Is a dresser-combo TV stand as sturdy as a regular TV stand?", a: "It depends on the specific model's frame and leg design rather than the drawer count. The EnHomee pick uses a metal frame with anti-tipping hardware and 4 plus 2 table legs rated for the combined weight of clothing storage and a mounted TV. Check the stated top weight capacity separately from the drawer capacity before loading a large TV onto a combo piece." },
   { q: "What size TV stand fits a typical bedroom wall?", a: "Bedroom walls with a TV are often narrower than a living room's main wall, especially once you account for a dresser, closet door, or nightstand sharing the same space. The compact 31.7-inch WLIVE pick in this guide fits a narrow wall or corner for a 32 to 40 inch TV, while the 58-inch picks need a fuller wall run for TVs up to 65 inches." },
-  { q: "Does a built-in power outlet on a TV stand replace my wall outlet?", a: "No, a built-in outlet like the one on the Yaheetech pick still needs to be plugged into your bedroom's own wall outlet through its power cord. What it does replace is a separate power strip or extension cord running across the floor, since the outlet on the stand becomes the shared point for the TV, streaming box, and any nearby lamp or charger." },
+  { q: "Does a built-in power outlet on a TV stand replace my wall outlet?", a: "No, a built-in outlet like the one on the Yaheetech pick still needs to be plugged into your bedroom's own wall outlet through its power cord. What it does replace is a separate power strip or extension cord running across the floor, since the outlet on the stand becomes the shared point for the TV, streaming box, and any nearby lamp or charger." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-tv-stand-for-55-inch-tv", title: "Best TV Stands for 55 Inch TVs (2026)" },
   { href: "/guide/best-tv-stand-with-mount", title: "Best TV Stands with Mount (2026)" },
-  { href: "/guide/best-charging-stations-for-bedside-table", title: "Best Charging Stations for Bedside Table (2026)" },
+  { href: "/guide/best-charging-stations-for-bedside-table", title: "Best Charging Stations for Bedside Table (2026)" }
 ];

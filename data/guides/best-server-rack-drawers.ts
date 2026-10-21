@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/312BOoVqNGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BM9LZCK4?tag=deskfinds0d-20",
-    description: "A 2U locking drawer, one size down from QiaoYoubang's 3U model, giving a slightly shallower but still secure storage space inside a rack for accessories or small tools.\n\nRear cable holes with a protective rubber ring carry over from the 3U version, letting you route cords through the drawer without exposing raw metal edges to the cable jacket.\n\nThis pick is best for buyers who value lockable storage secures accessories inside a shared rack along with rubber-ringed cable holes protect cords from sharp edges. The catch is that 22 lb capacity limits it to lighter items, so decide if that's worth it at $59.99.",
+    description: "A 2U locking drawer, one size down from QiaoYoubang's 3U model, giving a slightly shallower but still secure storage space inside a rack for accessories or small tools.\n\nRear cable holes with a protective rubber ring carry over from the 3U version, letting you route cords through the drawer without exposing raw metal edges to the cable jacket.\n\nThis pick is best for buyers who value lockable storage secures accessories inside a shared rack along with rubber-ringed cable holes protect cords from sharp edges. The catch is that 22 lb capacity limits it to lighter items, so decide if that's worth it at under $60.",
     specs: ["2U, 19\"W x 12.6\"D x 2U H","22 lb weight capacity","Lockable with included key"],
     pros: ["Lockable storage secures accessories inside a shared rack","Rubber-ringed cable holes protect cords from sharp edges","Ships mostly assembled, minimal setup needed"],
     cons: ["22 lb capacity limits it to lighter items","Takes up 2U of space better used for active equipment"],
@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/313BItDVXlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BLWK4XPS?tag=deskfinds0d-20",
-    description: "Tecmojo's 4U drawer upgrades to 44 lbs capacity with newly upgraded back supports, double the standard 22 lb rating found on basic lockable rack drawers.\n\nIt's available across 1U through 6U sizes in the same series, and rear cable management holes let you route cords in and out without leaving the drawer visibly cluttered.\n\nWhat stands out here is upgraded back supports double the standard weight rating, plus available across 1U to 6U for consistent sizing. The main tradeoff: full 44 lb rating requires the upgraded support install, so weigh that against the $79.90 price before buying.",
+    description: "Tecmojo's 4U drawer upgrades to 44 lbs capacity with newly upgraded back supports, double the standard 22 lb rating found on basic lockable rack drawers.\n\nIt's available across 1U through 6U sizes in the same series, and rear cable management holes let you route cords in and out without leaving the drawer visibly cluttered.\n\nWhat stands out here is upgraded back supports double the standard weight rating, plus available across 1U to 6U for consistent sizing. The main tradeoff: full 44 lb rating requires the upgraded support install, so weigh that against the under $80 price before buying.",
     specs: ["4U, 13\" inner depth","22-44 lb weight capacity (with upgraded supports)","Rear cable management holes"],
     pros: ["Upgraded back supports double the standard weight rating","Available across 1U to 6U for consistent sizing","Lock and keys included to secure contents"],
     cons: ["Full 44 lb rating requires the upgraded support install","4U takes real rack space that could hold active gear"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31Y9cg-0IQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BLWGR381?tag=deskfinds0d-20",
-    description: "The 2U version of Tecmojo's upgraded drawer line, sharing the same 44 lb rating with upgraded back supports and rear cable management holes as the 4U model.\n\nIt fits the same 13-inch inner depth as its larger sibling, so the usable storage space per unit height stays consistent across the whole size range.\n\nWhere this one earns its spot is 44 lb rating matches Tecmojo's larger drawer sizes, and rear cable holes keep routing tidy even in a small drawer. Worth noting before buying: 2U still takes space that could hold active equipment, which matters more at $59.90 than it would on a cheaper pick.",
+    description: "The 2U version of Tecmojo's upgraded drawer line, sharing the same 44 lb rating with upgraded back supports and rear cable management holes as the 4U model.\n\nIt fits the same 13-inch inner depth as its larger sibling, so the usable storage space per unit height stays consistent across the whole size range.\n\nWhere this one earns its spot is 44 lb rating matches Tecmojo's larger drawer sizes, and rear cable holes keep routing tidy even in a small drawer. Worth noting before buying: 2U still takes space that could hold active equipment, which matters more at under $60 than it would on a cheaper pick.",
     specs: ["2U, 13\" inner depth","22-44 lb weight capacity (with upgraded supports)","Rear cable management holes"],
     pros: ["44 lb rating matches Tecmojo's larger drawer sizes","Rear cable holes keep routing tidy even in a small drawer","Available across the full 1U-6U Tecmojo drawer series"],
     cons: ["2U still takes space that could hold active equipment","Standard 22 lb rating applies without the upgrade installed"],
@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $54.99",
+          "Under $60",
           "Eastrexon 2U Rack Mount Drawer with Combination Lock"
         ],
         [
-          "Around $59.90",
+          "Under $60",
           "Tecmojo 2U Rack Drawer"
         ],
         [
-          "Around $59.99",
+          "Under $60",
           "QiaoYoubang 2U Server Cabinet Case"
         ],
         [
-          "Around $79.90",
+          "Under $80",
           "Tecmojo 4U Rack Drawer"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "QiaoYoubang 2U Server Cabinet Case is aimed at buyers prioritizing 2u, 19\"w x 12.6\"d x 2u h." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "QiaoYoubang 2U Server Cabinet Case is aimed at buyers prioritizing 2u, 19\"w x 12.6\"d x 2u h." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

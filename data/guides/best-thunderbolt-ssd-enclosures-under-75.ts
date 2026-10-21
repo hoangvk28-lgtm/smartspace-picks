@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     description: "This enclosure comes from ICY BOX, a brand with a stated 26-year German engineering history in storage products, backed by a 24-month warranty with lifetime expert support. Its heatsink-style aluminum body paired with a thermal pad transfers heat away from the SSD during heavy use, keeping temperatures stable during long transfers.\n\nCompared to the ACASIS pick above, this one uses a completely fanless design, operating silently through passive heat dissipation alone while still supporting the same broad range of M.2 NVMe SSD sizes from 2230 to 2280. It transfers 10GB in under 7 seconds, a specific benchmark figure that gives you a concrete performance expectation.\n\nBest for buyers who want an established German engineering brand with silent fanless operation.",
     specs: ["40Gbps, ASM2464PD chip, fanless design", "10GB transfer in under 7 seconds", "26-year brand history, 24-month warranty"],
     pros: ["Established 26-year German engineering brand history", "Completely silent fanless passive cooling design", "Specific 10GB-in-7-seconds benchmark gives concrete expectations"],
-    cons: ["No active cooling like the ACASIS pick for the most sustained workloads", "Slightly over this tier's stated ceiling at $79.99"],
+    cons: ["No active cooling like the ACASIS pick for the most sustained workloads", "Slightly over this tier's stated ceiling at under $80"],
     bestFor: "buyers who want an established brand with silent fanless operation",
   },
   {
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["An Intel-certified chip with active cooling for professional workloads", "ACASIS 40Gbps M.2 NVMe SSD Enclosure with Cooling Fan (JHL7440)"],
         ["An established brand with silent fanless operation", "ICY BOX 40Gbps M.2 NVMe SSD Enclosure, Tool-Free Aluminum"],
         ["The same Intel chip with zero fan noise", "ACASIS 40Gbps M.2 NVMe SSD Enclosure, Aluminum Heat-Dissipating Fins"],
-        ["Efficient passive cooling at the lowest price", "UGREEN 40Gbps M.2 NVMe Enclosure, Double-Sided Fin Design"],
+        ["Efficient passive cooling at the lowest price", "UGREEN 40Gbps M.2 NVMe Enclosure, Double-Sided Fin Design"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $70", "UGREEN ($69.99)"],
-        ["Under $72", "ACASIS Aluminum Fins ($71.99)"],
-        ["Under $76", "ACASIS with Fan ($75.99)"],
-        ["Under $80", "ICY BOX ($79.99)"],
+        ["Under $70", "UGREEN (under $70)"],
+        ["Under $72", "ACASIS Aluminum Fins (under $80)"],
+        ["Under $76", "ACASIS with Fan (under $80)"],
+        ["Under $80", "ICY BOX (under $80)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Intel-Certified Chip vs Standard ASM2464PD Chip",
     cards: [
       { label: "Intel-certified chip (ACASIS picks)", text: "Provides genuine Thunderbolt certification and dual-chip stability, backed by Intel's own testing standards." },
-      { label: "Standard ASM2464PD chip (ICY BOX, UGREEN)", text: "Provides Thunderbolt compatibility without Intel's specific certification, generally still reliable but with a different assurance level." },
+      { label: "Standard ASM2464PD chip (ICY BOX, UGREEN)", text: "Provides Thunderbolt compatibility without Intel's specific certification, generally still reliable but with a different assurance level." }
     ],
     note: "If certified reliability specifically matters for professional or mission-critical use, the ACASIS picks' Intel-certified chip is worth prioritizing. For typical everyday use, the ASM2464PD-based picks perform reliably at a comparable or lower price.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Active cooling for sustained heavy workloads", "ACASIS with Fan"],
         ["Silent fanless operation", "ICY BOX or ACASIS Aluminum Fins"],
-        ["Efficient passive cooling at lower cost", "UGREEN"],
+        ["Efficient passive cooling at lower cost", "UGREEN"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Recording Studio or Quiet Office Environment Specifically",
     cards: [
       { label: "Look for", text: "A fully fanless design using passive aluminum heat dissipation, eliminating any operational noise that could interfere with audio recording or a quiet workspace." },
-      { label: "In this comparison", text: "Both the ICY BOX and ACASIS Aluminum Fins picks specifically use fanless designs, explicitly marketed for recording studios and quiet office environments." },
+      { label: "In this comparison", text: "Both the ICY BOX and ACASIS Aluminum Fins picks specifically use fanless designs, explicitly marketed for recording studios and quiet office environments." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want an Intel-certified chip with active cooling for sustained professional workloads, where the ACASIS with Fan pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You want efficient passive cooling with 8TB support, where the UGREEN pick covers that for about $6 less." },
+      { label: "Save if", text: "You want efficient passive cooling with 8TB support, where the UGREEN pick covers that for about $6 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

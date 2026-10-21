@@ -5,7 +5,7 @@ export const metaDescription = "8 shredders ranked by real noise level, with a n
 export const mainKeyword = "quiet paper shredder";
 export const introParagraphs = [
   "Manufacturer decibel ratings are typically measured under idealized conditions, idle or a single sheet, while actual shredding of a full stack, especially with staples, produces measurably higher and more variable noise. We prioritize picks that explicitly disclose a dB rating at all, since many listings omit noise specs entirely.",
-  "Cross-cut and micro-cut mechanisms are inherently louder than basic cutting at the same motor size, a real engineering tradeoff worth understanding: a 'quiet cross-cut' claim still involves more blade-surface contact per sheet than a coarser mechanism.",
+  "Cross-cut and micro-cut mechanisms are inherently louder than basic cutting at the same motor size, a real engineering tradeoff worth understanding: a 'quiet cross-cut' claim still involves more blade-surface contact per sheet than a coarser mechanism."
 ];
 export const lastUpdated = "2026-07-28";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Quietest Rated Pick",
     name: "QUESTLEMON 8-Sheet Paper Shredder for Home, Quiet Cross Cut Shredders, <58dB",
     price: "$49.99",
-    rating: "4.3 stars from 31 Amazon ratings",
-    reviews: "31 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31IjAexycEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVNH9RY2?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Rated Quiet Pick, Proven Track Record",
     name: "Aurora AU1210MA Professional Grade High Security 12-Sheet Micro-Cut Shredder",
     price: "$135.78",
-    rating: "4.7 stars from 9,126 Amazon ratings",
-    reviews: "9,126 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/413GY12YKjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CX4DZ4Z?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Explicit 62dB Rating with High Capacity",
     name: "Bonsaii 18-Sheet Cross-Cut 60-Min Run Heavy Duty Paper Shredder",
     price: "$179.99",
-    rating: "4.6 stars from 10,748 Amazon ratings",
-    reviews: "10,748 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41FCXr1akDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00IOFD08C?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Quietest Auto-Feed Pick",
     name: "QUIETLEMON 100-Sheet Auto Feed Paper Shredder, <63dB",
     price: "$123.49",
-    rating: "3.8 stars from 137 Amazon ratings",
-    reviews: "137 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31+FGUUD5bL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GFD6JYH1?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Quiet Compact Pick",
     name: "Bonsaii 12-Sheet Cross Cut Paper Shredder, 5.5 Gal Home Office Heavy Duty",
     price: "$55.24",
-    rating: "4.5 stars from 8,974 Amazon ratings",
-    reviews: "8,974 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31H0gGU7jHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09N991KVT?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Quiet Strip-Cut, Lower Security",
     name: "Home Office Paper Shredder, Woolsche 10-Sheet Strip Cut, P-2 Security",
     price: "$34.16",
-    rating: "4.3 stars from 4,657 Amazon ratings",
-    reviews: "4,657 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31RMWoUZy7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FFJPQGD?tag=deskfinds0d-20",
     description:
@@ -127,8 +127,8 @@ export const products: GuideProduct[] = [
     badge: "Compact Under-Desk Quiet Pick",
     name: "BONSEN Shredder for Home Office, 4 Gallons 8-Sheet Cross Cut Credit Card Shredder",
     price: "$39.09",
-    rating: "4.4 stars from 7,466 Amazon ratings",
-    reviews: "7,466 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31AtA7qsSwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08J2N4CS2?tag=deskfinds0d-20",
     description:
@@ -144,8 +144,8 @@ export const products: GuideProduct[] = [
     badge: "Longer Run Time, No Specific dB",
     name: "Bonsaii 12-Sheet Cross Cut Heavy Duty Paper Shredder for Home Office",
     price: "$79.99",
-    rating: "4.5 stars from 1,685 Amazon ratings",
-    reviews: "1,685 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/310qS+3q87L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5XPJ524?tag=deskfinds0d-20",
     description:
@@ -154,14 +154,14 @@ export const products: GuideProduct[] = [
     pros: ["Longer continuous run time than the compact budget picks", "P-4 security level", "Jam-proof reverse system", "Solid rating"],
     cons: ["No specific dB rating disclosed, unlike the top 4 picks", "Not specifically marketed as quiet", "Mid-range price without a quiet-specific advantage"],
     bestFor: "Buyers who want longer run time and don't require a certified quiet rating",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Explicit dB rating disclosure, not just 'quiet' marketing language", description: "Prioritized listings that quote a specific decibel figure over ones using unquantified 'ultra-quiet' or 'low-noise' marketing language without a number." },
   { title: "Cut-type noise tradeoff", description: "Factored in that strip-cut mechanisms are inherently quieter than cross-cut or micro-cut at similar motor sizes, a real engineering tradeoff against the higher security level cross-cut/micro-cut offers." },
-  { title: "Real-world loaded noise versus idle/single-sheet lab rating", description: "Noted that manufacturer dB specs are typically measured at idle or with a single sheet, while actual shredding of a full, possibly stapled stack produces measurably higher and more variable noise." },
+  { title: "Real-world loaded noise versus idle/single-sheet lab rating", description: "Noted that manufacturer dB specs are typically measured at idle or with a single sheet, while actual shredding of a full, possibly stapled stack produces measurably higher and more variable noise." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -294,11 +294,11 @@ export const faq: FaqItem[] = [
   { q: "Will my shredder actually be as quiet as the manufacturer's dB rating?", a: "Probably not quite. Manufacturer ratings are typically measured at idle or with a single sheet, while shredding a full, possibly stapled stack produces measurably higher and more variable real-world noise." },
   { q: "Are auto-feed shredders louder than manual-feed ones overall?", a: "Not necessarily per decibel, but they run for longer sustained periods (up to 40 minutes continuously), meaning more total noise exposure time in a shared space even if the per-decibel rating is similar to a manual-feed shredder." },
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers who want the quietest explicitly-rated shredder and don't need high capacity" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who prioritize quiet strip-cut operation over high security level At $34.16, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who prioritize quiet strip-cut operation over high security level At under $35, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-auto-feed-paper-shredders", title: "Best Auto-Feed Paper Shredders (2026)" },
   { href: "/guide/best-jam-proof-paper-shredders", title: "Best Jam-Proof Paper Shredders (2026)" },
-  { href: "/guide/best-paper-shredders-that-dont-overheat", title: "Best Paper Shredders That Don't Overheat (2026)" },
+  { href: "/guide/best-paper-shredders-that-dont-overheat", title: "Best Paper Shredders That Don't Overheat (2026)" }
 ];

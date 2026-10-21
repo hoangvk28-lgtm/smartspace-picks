@@ -5,7 +5,7 @@ export const metaDescription = "4 portable SSDs we evaluated for Android use, co
 export const mainKeyword = "best portable ssd for android";
 export const introParagraphs = [
   "External storage support genuinely varies across Android manufacturers and OS versions, some phones support full 'adoptable storage' that treats an external drive like internal storage, while others restrict access to basic file-transfer only, worth checking your specific phone model's actual support level.",
-  "USB-C On-The-Go power delivery from an Android phone to a bus-powered drive also varies by phone model, some phones cannot reliably power a bus-powered SSD at all, a real compatibility gap worth checking before assuming any USB-C Android phone will work with any drive.",
+  "USB-C On-The-Go power delivery from an Android phone to a bus-powered drive also varies by phone model, some phones cannot reliably power a bus-powered SSD at all, a real compatibility gap worth checking before assuming any USB-C Android phone will work with any drive."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Connector Pick for Android",
     name: "Transcend ESD310 1TB External SSD, Up to 1,050MB/s, Dual USB Drive, 2-in-1 Type C & A, USB 3.2 Gen2 Portable SSD",
     price: "$239.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "2,340 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31HBU-HAxoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C3B32H9M?tag=deskfinds0d-20",
     description: "Transcend's ESD310 ships with both USB-C and USB-A connectors, useful flexibility for Android phones with varying OTG support and for connecting to a computer without needing a separate adapter.\n\nIt earns the top spot in this comparison over SANDISK 2TB Extreme Portable SSD for one main reason. Dual connectors add real flexibility across Android and computer use. On price, it comes in below SANDISK 2TB Extreme Portable SSD, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Broadly exFAT compatible across most Android phones. On the other side, Smaller review base than mainstream single-connector drives. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Rugged Pick for Android",
     name: "SANDISK 2TB Extreme Portable SSD (Old Model) - Up to 1050MB/s, USB-C, USB 3.2 Gen 2, IP65 Water and Dust Resistance, Updated Firmware - SDSSDE61-2T00-G25",
     price: "$299.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "91,365 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41eTFK7clfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HN37XC1?tag=deskfinds0d-20",
     description: "SanDisk's Extreme adds IP65 water and dust resistance to reliable 1050MB/s USB-C speed, a sensible choice for Android buyers who want a drive that survives daily carry alongside their phone.\n\nOne spot below Transcend ESD310 1TB External SSD in this ranking, it costs more than Transcend ESD310 1TB External SSD. The compromise here is straightforward: OTG power delivery varies by specific Android phone model. What you gain in return: IP65 rating suits daily carry alongside an Android phone. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Large 2TB capacity. On the other side, Adoptable storage support depends on your Android version. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Slim Everyday Pick for Android",
     name: "Samsung T7 Portable SSD 1TB Titan Gray, USB 3.2 Gen 2, Up to 1,050MB/s",
     price: "$216.36",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "21,124 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LdvAbumfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874XN4D8?tag=deskfinds0d-20",
     description: "Samsung's T7 offers a slim, lightweight USB-C design rated up to 1050MB/s, a straightforward companion for Android photo and file backups.\n\nSitting just under SANDISK 2TB Extreme Portable SSD, it's priced lower than SANDISK 2TB Extreme Portable SSD. Here's the honest tradeoff: OTG power delivery varies by specific Android phone model. And here's what it gets you instead: Slim, lightweight design for everyday Android carry. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Reliable, widely reviewed platform. On the other side, Adoptable storage support depends on your Android version. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick for Android",
     name: "SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s",
     price: "$143.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "3,542 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31PngdJb7FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGL4SHY8?tag=deskfinds0d-20",
     description: "SSK's Portable SSD offers a budget-friendly USB-C option rated up to 1050MB/s, a reasonable entry point for Android buyers who mainly need basic file-transfer storage.\n\nRanked just behind Samsung T7 Portable SSD 1TB Titan Gray, it's priced lower than Samsung T7 Portable SSD 1TB Titan Gray. The real tradeoff against that pick: May ship pre-formatted in a less broadly compatible format, check and reformat if needed. In exchange, it offers this instead: Budget-friendly entry point for Android file-transfer storage. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Solid USB 3.2 Gen 2 speed rating. On the other side, OTG power delivery varies by specific Android phone model. That's the main tradeoff to weigh against everything above.",

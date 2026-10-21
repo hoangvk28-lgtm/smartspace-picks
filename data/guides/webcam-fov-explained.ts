@@ -12,7 +12,7 @@ export const webcamFovExplainedGuide: Guide = {
     "webcam field of view guide",
     "wide fov vs narrow fov webcam",
     "best webcam fov for video calls",
-    "webcam fov for multiple people",
+    "webcam fov for multiple people"
   ],
   heroImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const webcamFovExplainedGuide: Guide = {
     "webcam-resolution-explained",
     "webcam-lighting-explained",
     "ring-light-vs-key-light",
-    "best-webcam-for-video-calls",
+    "best-webcam-for-video-calls"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const webcamFovExplainedGuide: Guide = {
       question: "Does FOV affect how far I need to sit from the camera?",
       answer:
         "Yes, a narrower FOV requires slightly more distance to keep your whole head and shoulders in frame comfortably, while a wider FOV can capture the same framing from a closer sitting position, factor in your typical desk distance when choosing.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const webcamFovExplainedGuide: Guide = {
     {
       heading: "Matching FOV to Your Actual Call Setup",
       body: `If your video calls are almost always solo, a moderate FOV webcam gives you a clean, undistorted frame without capturing unnecessary background. If your desk occasionally needs to show multiple people, like a shared home office or conference-style calls, a wider FOV webcam or one with adjustable software cropping gives you the flexibility to handle both situations without switching hardware.`,
-    },
+    }
   ],
 };

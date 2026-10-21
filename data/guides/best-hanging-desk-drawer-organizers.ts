@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "hanging desk drawer organizers";
 export const introParagraphs = [
   "This title's phrasing is genuinely ambiguous, and could mean either an organizer that clamps under the desk with drawer-style compartments, or an insert tray that organizes the inside of an existing desk drawer. We cover both interpretations here and clarify which is which for each pick.",
-  "If you're looking for an insert tray for an existing drawer, look at our two dedicated tray picks below. If you want a standalone hanging drawer unit, the clamp-on picks are the better fit.",
+  "If you're looking for an insert tray for an existing drawer, look at our two dedicated tray picks below. If you want a standalone hanging drawer unit, the clamp-on picks are the better fit."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Disambiguation of an inherently ambiguous search term", description: "We identified whether each product genuinely adds a new hanging drawer or organizes the inside of an existing drawer, and clearly labeled the distinction." },
   { title: "Drawer rail/slide interference verification", description: "For hanging drawer units, we noted these attach to the desk underside rather than an existing drawer's rail, avoiding interference with existing drawer mechanisms." },
   { title: "Independent drawer weight capacity and slide quality", description: "For standalone hanging drawer units, we compared slide-out mechanism quality and weight capacity across the clamp-on picks." },
-  { title: "Genuine product availability at this specific phrasing", description: "We confirmed real product availability across both interpretations rather than assuming broad selection exists for one narrow meaning." },
+  { title: "Genuine product availability at this specific phrasing", description: "We confirmed real product availability across both interpretations rather than assuming broad selection exists for one narrow meaning." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -229,11 +229,11 @@ export const faq: FaqItem[] = [
   { q: "Will a hanging drawer unit interfere with my desk's existing drawers?", a: "No, these clamp-on units attach to the desk underside independent of any existing drawer mechanisms, so there's no interference with your desk's existing drawer rails." },
   { q: "Which pick is best for organizing an existing drawer?", a: "The Officemate Expandable Drawer Organizer Tray has the highest rating in this comparison for genuine in-drawer organization, with adjustable width to fit varied drawer sizes." },
   { q: "Can I add a drawer to a desk that doesn't have one?", a: "Yes, the Homeify and INLDY picks are clamp-on units that add genuine new drawer storage under a desk without drilling, independent of whether your desk has existing drawers." },
-  { q: "Is there a dedicated option for hanging file storage instead of general supplies?", a: "Yes, the SB Simpli Better File Organizer is purpose-built for hanging files specifically, distinct from the general small-supply drawer units covered elsewhere in this guide." },
+  { q: "Is there a dedicated option for hanging file storage instead of general supplies?", a: "Yes, the SB Simpli Better File Organizer is purpose-built for hanging files specifically, distinct from the general small-supply drawer units covered elsewhere in this guide." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-under-desk-hanging-organizers", title: "Best Under-Desk Hanging Organizers (2026)" },
   { href: "/guide/best-under-desk-hanging-file-organizers", title: "Best Under-Desk Hanging File Organizers (2026)" },
-  { href: "/guide/best-desk-hanging-storage-baskets", title: "Best Desk-Hanging Storage Baskets (2026)" },
+  { href: "/guide/best-desk-hanging-storage-baskets", title: "Best Desk-Hanging Storage Baskets (2026)" }
 ];

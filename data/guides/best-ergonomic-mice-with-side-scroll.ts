@@ -55,10 +55,9 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31n+0uZtV5L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GK8NZL7N?tag=deskfinds0d-20",
-    "description": "TECKNET lists a metal main wheel and a separate side wheel for horizontal flicks, dual Bluetooth 5.3/5.0, a 2.4GHz receiver and even a wired mode. It has 6 DPI levels from 800 to 4800 and a built-in battery the listing says lasts up to 90 days per charge.\n\nAgainst the cheaper TECKNET B0FB99 below, it adds the wired option and fast charging language, which matters if you want to keep working while it charges. It costs about $3 more.\n\nPick it if you want connection flexibility and a rechargeable battery that you can still use with a cable. The caveat is that the conventional shape gives less forearm rotation than the vertical SABLUTE models.",
+    "description": "It has 6 DPI levels from 800 to 4800 and a built-in battery the listing says lasts up to 90 days per charge.\n\nAgainst the cheaper TECKNET B0FB99 below, it adds the wired option and fast charging language, which matters if you want to keep working while it charges. It costs about $3 more.\n\nPick it if you want connection flexibility and a rechargeable battery that you can still use with a cable. The caveat is that the conventional shape gives less forearm rotation than the vertical SABLUTE models.",
     "specs": [
       "Side scroll wheel, metal main wheel",
-      "BT 5.3/5.0, 2.4G and wired",
       "Up to 90 days per charge"
     ],
     "pros": [

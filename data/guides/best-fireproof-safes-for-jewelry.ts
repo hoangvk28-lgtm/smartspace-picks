@@ -193,36 +193,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $69.99",
+          "Under $70",
           "1.3 Cu Ft Small Fireproof Safe with Combination Lock"
         ],
         [
-          "Around $107.99",
+          "Under $110",
           "3.4 Cu Ft Digital Home Safe with Programmable Keypad"
         ],
         [
-          "Around $112.99",
+          "Under $120",
           "3.3 Cu Ft Home Safe Fireproof & Waterproof with Programmable Keypad"
         ],
         [
-          "Around $127.48",
+          "Under $130",
           "DAYI 2.0 Cu Ft Home Safe with Fireproof/Waterproof Bag"
         ],
         [
-          "Around $161.49",
+          "Under $170",
           "1.2 Cu Ft Fireproof Safe Box with Digital Keypad"
         ],
         [
-          "Around $186.98",
+          "Under $190",
           "DAYI 3.0 Cu Ft Home Safe with Fireproof/Waterproof Bag"
         ],
         [
-          "Around $287.97",
+          "Under $300",
           "Viking Security Safe VS-14BL Biometric Drawer Safe"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -270,7 +270,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "DAYI 2.0 Cu Ft Home Safe with Fireproof/Waterproof Bag is aimed at buyers prioritizing 2.0 cu ft, 4x 1.2in live-locking bolts." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "DAYI 2.0 Cu Ft Home Safe with Fireproof/Waterproof Bag is aimed at buyers prioritizing 2.0 cu ft, 4x 1.2in live-locking bolts." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"},{"href":"/guide/best-fireproof-safes-for-home","title":"Best Fireproof Safes for Home in 2026"},{"href":"/guide/best-fireproof-safes-for-document","title":"Best Fireproof Safes for Document in 2026"}];

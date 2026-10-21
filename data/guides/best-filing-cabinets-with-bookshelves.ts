@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "filing cabinet with bookshelf";
 export const introParagraphs = [
   "A combo unit that pairs filing drawers with open shelving sounds like the efficient answer for a small home office, but the real trade-off rarely gets spelled out: combo units almost always give up filing capacity to make room for shelves. A dedicated cabinet might offer four full drawers, while a filing-and-bookshelf combo often has only one or two, with the rest of the height given over to open storage. Shelf load capacity is another detail worth checking, since a full run of hardcover books can weigh more than the 25 to 50 pound rating some open shelves carry.",
-  "This guide compares 6 units we evaluated based on product specs and buyer feedback, and we verified from each listing whether it genuinely includes open shelving or only a single internal storage shelf marketed loosely as bookshelf-adjacent. Prices range from $94.99 for a lateral cabinet with an adjustable shelf to $239.99 for a tall combo tower with three tiers of open shelving. Tall units in this category are also top-heavy by design, so anti-tip anchoring is a safety step worth taking seriously rather than skipping.",
+  "This guide compares 6 units we evaluated based on product specs and buyer feedback, and we verified from each listing whether it genuinely includes open shelving or only a single internal storage shelf marketed loosely as bookshelf-adjacent. Prices range from under $100 for a lateral cabinet with an adjustable shelf to under $250 for a tall combo tower with three tiers of open shelving. Tall units in this category are also top-heavy by design, so anti-tip anchoring is a safety step worth taking seriously rather than skipping."
 ];
 export const lastUpdated = "2026-07-26";
 export const readTime = "9 min";
@@ -46,27 +46,26 @@ export const products: GuideProduct[] = [
     badge: "Best True Bookshelf and Filing Combo",
     name: "NORTHSKY 72'' Tall Bookshelf with Power Outlet, 2 Drawer File Cabinet",
     price: "$239.99",
-    rating: "4.3 stars from 18 Amazon ratings",
-    reviews: "18 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41TOe+QiX0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GYQLX52Z?tag=deskfinds0d-20",
     description:
-      "This is the clearest genuine combo in this list, pairing a two-drawer file cabinet for A4 hanging files with three tiers of true open shelving stacked above it, plus a built-in power outlet for charging devices at desk height. At 72 inches tall, it is also the most top-heavy unit here, so anchoring it to the wall before loading the shelves is not optional.\n\nWith only 18 ratings, its feedback history is thin compared to other picks in this list, worth weighing against the fact that it is also the only unit offering three full shelf tiers rather than one or two. Filing capacity is limited to two drawers, a real trade-off against the four-drawer dedicated cabinets in other DeskFinds guides.\n\nBuilt-in power outlet is a rare added feature. That said, small review base at only 18 ratings. Neither should be a surprise once you know to look for it.",
+      "This is the clearest genuine combo in this list, pairing a two-drawer file cabinet for A4 hanging files with three tiers of true open shelving stacked above it, plus a built-in power outlet for charging devices at desk height. At 72 inches tall, it is also the most top-heavy unit here, so anchoring it to the wall before loading the shelves is not optional.\n\nFiling capacity is limited to two drawers, a real trade-off against the four-drawer dedicated cabinets in other DeskFinds guides.\n\nBuilt-in power outlet is a rare added feature. Neither should be a surprise once you know to look for it.",
     specs: [
       "2 drawers, fits A4 hanging files",
       "3-tier open shelving",
       "Built-in power outlet",
-      "72 inches tall",
+      "72 inches tall"
     ],
     pros: [
       "Genuine 3-tier open shelving, not a single internal shelf",
       "Built-in power outlet is a rare added feature",
-      "Doubles as a printer stand surface",
+      "Doubles as a printer stand surface"
     ],
     cons: [
-      "Small review base at only 18 ratings",
       "Only 2 drawers, limited filing capacity versus dedicated cabinets",
-      "72-inch height requires anti-tip wall anchoring",
+      "72-inch height requires anti-tip wall anchoring"
     ],
     bestFor: "Buyers who want genuine open shelving and are willing to trade filing capacity for it",
   },
@@ -76,27 +75,27 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Open-Shelf Combo",
     name: "SISESOL 2 Drawer File Cabinet with Lock and Shelf, Open Storage Shelves Organizer",
     price: "$129.99",
-    rating: "4.4 stars from 214 Amazon ratings",
-    reviews: "214 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41JQBAeHeUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP4YY751?tag=deskfinds0d-20",
     description:
-      "SISESOL's listing explicitly calls out open storage shelves as an organizer feature alongside its two locking drawers, a genuine shelf-plus-filing layout rather than a single internal cubby. It fits legal, letter, and A4 files in its drawer section, and the open shelf portion suits books, binders, or supplies you want visible and within reach.\n\nAt 4.4 stars across 214 ratings, it has a smaller but solidly positive review base. As with any open shelf design, check the stated per-shelf weight limit against a full run of hardcover books before loading it, since open shelves in this price range commonly cap out between 25 and 50 pounds.\n\nWorth calling out specifically: legal, letter, and A4 drawer compatibility. The catch is per-shelf load capacity not stated in the listing.",
+      "SISESOL's listing explicitly calls out open storage shelves as an organizer feature alongside its two locking drawers, a genuine shelf-plus-filing layout rather than a single internal cubby. It fits legal, letter, and A4 files in its drawer section, and the open shelf portion suits books, binders, or supplies you want visible and within reach.\n\nAs with any open shelf design, check the stated per-shelf weight limit against a full run of hardcover books before loading it, since open shelves in this price range commonly cap out between 25 and 50 pounds.\n\nWorth calling out specifically: legal, letter, and A4 drawer compatibility. The catch is per-shelf load capacity not stated in the listing.",
     specs: [
       "2 drawers with lock",
       "Open storage shelves",
       "Fits legal, letter, A4 files",
-      "Metal construction",
+      "Metal construction"
     ],
     pros: [
       "Genuine open shelving confirmed in the listing",
       "Legal, letter, and A4 drawer compatibility",
-      "Solid 4.4-star rating across 214 reviews",
+      "Two locking drawers beside open shelves",
     ],
     cons: [
       "Per-shelf load capacity not stated in the listing",
       "Smaller review base than the top-selling filing-only cabinets",
-      "Only 2 drawers, less capacity than dedicated 4-drawer cabinets",
+      "Only 2 drawers, less capacity than dedicated 4-drawer cabinets"
     ],
     bestFor: "Buyers who want a compact, genuinely open-shelved combo without a tall tower footprint",
   },
@@ -106,27 +105,26 @@ export const products: GuideProduct[] = [
     badge: "Best Farmhouse-Style Combo",
     name: "SEDETA 2 Drawer File Cabinet with Lock, Wood, Adjustable Storage Shelf",
     price: "$119.99",
-    rating: "4.0 stars from 176 Amazon ratings",
-    reviews: "176 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41LU4-PDQJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DTH9XM7F?tag=deskfinds0d-20",
     description:
-      "Honesty check: this listing describes a single adjustable storage shelf, not multi-tier open bookshelving, so treat it as a filing cabinet with one flexible internal shelf rather than a genuine bookshelf combo like the NORTHSKY or SISESOL picks above. It fits letter, legal, and A4 hanging files and uses a farmhouse-style wood finish that suits a more decorative home office.\n\nAt 4.0 stars across 176 ratings, feedback is moderate. Wood-finish combo units like this are also worth checking against humidity exposure, since a wood or wood-composite body can warp or swell over time in damp conditions in a way a steel cabinet will not.\n\nFarmhouse wood finish suits decorative home offices. Set against that, only one internal shelf, not multi-tier open shelving. Both matter when comparing it to the other picks here.",
+      "Honesty check: this listing describes a single adjustable storage shelf, not multi-tier open bookshelving, so treat it as a filing cabinet with one flexible internal shelf rather than a genuine bookshelf combo like the NORTHSKY or SISESOL picks above. It fits letter, legal, and A4 hanging files and uses a farmhouse-style wood finish that suits a more decorative home office.\n\nWood-finish combo units like this are also worth checking against humidity exposure, since a wood or wood-composite body can warp or swell over time in damp conditions in a way a steel cabinet will not.\n\nFarmhouse wood finish suits decorative home offices. Set against that, only one internal shelf, not multi-tier open shelving. Both matter when comparing it to the other picks here.",
     specs: [
       "2 drawers, fits letter, legal, A4",
       "One adjustable storage shelf",
       "Wood farmhouse-style finish",
-      "Locking mechanism included",
+      "Locking mechanism included"
     ],
     pros: [
       "Adjustable shelf allows some storage flexibility",
       "Farmhouse wood finish suits decorative home offices",
-      "Fits letter, legal, and A4 hanging files",
+      "Fits letter, legal, and A4 hanging files"
     ],
     cons: [
       "Only one internal shelf, not multi-tier open shelving",
-      "Wood construction more sensitive to humidity than steel",
-      "Moderate 4.0-star rating, lower than the top open-shelf picks",
+      "Wood construction more sensitive to humidity than steel"
     ],
     bestFor: "Buyers who want a decorative wood-finish cabinet with one flexible shelf, not a full bookshelf",
   },
@@ -136,27 +134,27 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity Combo, Single Shelf",
     name: "DEVAISE 5-Drawer Wood Drawer Cabinet, Adjustable Shelf & Wheels, Printer Stand",
     price: "$139.99",
-    rating: "4.4 stars from 2,071 Amazon ratings",
-    reviews: "2,071 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31cx80Jq7-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0832D9S62?tag=deskfinds0d-20",
     description:
-      "Honesty check: this listing also describes a single adjustable shelf rather than multi-tier open bookshelving, so it is included here as a high-capacity filing option with modest added shelf storage, not a dedicated bookshelf combo. Its five drawers give it the most filing capacity in this entire list, a real advantage if books were never the priority and extra storage volume was.\n\nAt 4.4 stars across 2,071 ratings, it has the strongest feedback record here by a wide margin. Wheels make it repositionable, and the flat top doubles as a printer stand, though buyers wanting genuine open shelving for a visible book collection should look to the NORTHSKY or SISESOL picks instead.\n\nThe standout detail is that strongest review base at 2,071 ratings. Balancing that out, only one adjustable shelf, not genuine open bookshelving.",
+      "Honesty check: this listing also describes a single adjustable shelf rather than multi-tier open bookshelving, so it is included here as a high-capacity filing option with modest added shelf storage, not a dedicated bookshelf combo. Its five drawers give it the most filing capacity in this entire list, a real advantage if books were never the priority and extra storage volume was.\n\nWheels make it repositionable, and the flat top doubles as a printer stand, though buyers wanting genuine open shelving for a visible book collection should look to the NORTHSKY or SISESOL picks instead.\n\nBalancing that out, only one adjustable shelf, not genuine open bookshelving.",
     specs: [
       "5 drawers, wood construction",
       "One adjustable shelf",
       "Wheels for mobility",
-      "Doubles as printer stand",
+      "Doubles as printer stand"
     ],
     pros: [
       "Highest filing capacity in this list at 5 drawers",
-      "Strongest review base at 2,071 ratings",
       "Wheels add repositioning flexibility",
+      "Printer-stand top doubles as workspace",
     ],
     cons: [
       "Only one adjustable shelf, not genuine open bookshelving",
       "Wood construction sensitive to humid environments",
-      "Less open display storage than shelf-forward picks",
+      "Less open display storage than shelf-forward picks"
     ],
     bestFor: "Buyers who want maximum filing capacity with a little extra shelf storage, not a bookshelf",
   },
@@ -166,27 +164,27 @@ export const products: GuideProduct[] = [
     badge: "Best Filing-Forward Alternative, No Shelf",
     name: "Letaya 4 Drawer File Cabinets with Lock, Metal Lateral Filing Storage Cabinet",
     price: "$189.99",
-    rating: "4.2 stars from 1,671 Amazon ratings",
-    reviews: "1,671 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31fVDAPJeCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTN96T9J?tag=deskfinds0d-20",
     description:
-      "Honesty check: this listing does not mention any open shelving or bookshelf feature, so it is included here as a filing-forward alternative for buyers who decide the shelf trade-off in the combo units above is not worth the reduced drawer count. Its four lateral drawers fit letter, legal, and A4 hanging files and give considerably more filing capacity than any of the genuine combo picks in this list.\n\nAt 4.2 stars across 1,671 ratings, feedback is solid. If books were a secondary want rather than a real need, a dedicated stand-alone bookshelf paired with this cabinet may serve both purposes better than a combo unit that compromises on both fronts.\n\nSolid 4.2-star rating across 1,671 reviews. That's a real strength, but weigh it against the flip side: no open shelving or bookshelf feature at all.",
+      "Honesty check: this listing does not mention any open shelving or bookshelf feature, so it is included here as a filing-forward alternative for buyers who decide the shelf trade-off in the combo units above is not worth the reduced drawer count. Its four lateral drawers fit letter, legal, and A4 hanging files and give considerably more filing capacity than any of the genuine combo picks in this list.\n\nIf books were a secondary want rather than a real need, a dedicated stand-alone bookshelf paired with this cabinet may serve both purposes better than a combo unit that compromises on both fronts.\n\nThat's a real strength, but weigh it against the flip side: no open shelving or bookshelf feature at all.",
     specs: [
       "4 drawers, lateral orientation",
       "Fits letter, legal, A4 files",
       "Metal construction with lock",
-      "No open shelving included",
+      "No open shelving included"
     ],
     pros: [
       "Highest filing capacity among lateral picks in this list",
-      "Solid 4.2-star rating across 1,671 reviews",
       "All-metal lateral build",
+      "Lock included for the filing drawers",
     ],
     cons: [
       "No open shelving or bookshelf feature at all",
       "Higher price than most combo units in this list",
-      "Needs more side clearance as a lateral design",
+      "Needs more side clearance as a lateral design"
     ],
     bestFor: "Buyers who decide filing capacity matters more than shelving and will source a separate bookshelf",
   },
@@ -196,30 +194,30 @@ export const products: GuideProduct[] = [
     badge: "Most Affordable, No Shelf",
     name: "DEVAISE 3-Drawer Mobile File Cabinet, Lateral Filing Cabinet, Rustic Brown",
     price: "$94.99",
-    rating: "4.2 stars from 2,444 Amazon ratings",
-    reviews: "2,444 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51vzgnkbcjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0989HLF81?tag=deskfinds0d-20",
     description:
-      "Honesty check: like the pick above, this listing does not mention any shelving feature, so it is the budget filing-only alternative in this list rather than a combo unit. Its three lateral drawers and mobile casters carry the largest review base here at 2,444 ratings, a strong signal of reliability for buyers whose real priority is filing capacity over shelf display space. It is the most affordable pick in this guide. If a bookshelf feature turns out to be a nice-to-have rather than a requirement once you weigh the reduced filing capacity of the genuine combo units above, this is a reasonable standalone filing option to pair with separate shelving. Most affordable pick in this guide. On the other hand, no shelving or bookshelf feature. Both are worth keeping in mind before deciding.",
+      "Honesty check: like the pick above, this listing does not mention any shelving feature, so it is the budget filing-only alternative in this list rather than a combo unit. It is the most affordable pick in this guide. If a bookshelf feature turns out to be a nice-to-have rather than a requirement once you weigh the reduced filing capacity of the genuine combo units above, this is a reasonable standalone filing option to pair with separate shelving. Most affordable pick in this guide. On the other hand, no shelving or bookshelf feature. Both are worth keeping in mind before deciding.",
     specs: [
       "3 drawers, lateral, mobile casters",
       "Rustic brown finish",
       "Fits letter, legal, A4 files",
-      "No open shelving included",
+      "No open shelving included"
     ],
     pros: [
-      "Largest review base in this list at 2,444 ratings",
       "Most affordable pick in this guide",
       "Mobile casters for repositioning",
+      "Rolling casters move it between rooms",
     ],
     cons: [
       "No shelving or bookshelf feature",
       "Finish material composition should be verified before buying",
-      "Not a genuine combo unit despite appearing in a bookshelf search",
+      "Not a genuine combo unit despite appearing in a bookshelf search"
     ],
     bestFor: "Budget buyers who decide filing capacity matters more than any shelf feature",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -252,7 +250,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Value for price across shelf capability and filing capacity",
     description:
       "Weighed price against both stated shelf genuineness and drawer count, since a higher price does not always buy more of either feature in this category.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -395,12 +393,12 @@ export const faq: FaqItem[] = [
   {
     q: "Is it better to just buy a separate filing cabinet and bookshelf instead of a combo?",
     a: "If filing capacity matters more to you than saving floor space, yes. A dedicated 4-drawer cabinet like the Letaya 4 Drawer Lateral paired with a standalone bookshelf will out-perform any combo unit on both filing volume and shelf capacity, at the cost of using two pieces of furniture instead of one.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-filing-cabinets-for-small-spaces", title: "Best Filing Cabinets for Small Spaces (2026)" },
   { href: "/guide/best-lateral-filing-cabinets", title: "Best Lateral Filing Cabinets (2026)" },
   { href: "/guide/best-filing-cabinets-for-home-offices", title: "Best Filing Cabinets for Home Offices (2026)" },
-  { href: "/guide/best-filing-cabinets-with-printer-stands", title: "Best Filing Cabinets with Printer Stands (2026)" },
+  { href: "/guide/best-filing-cabinets-with-printer-stands", title: "Best Filing Cabinets with Printer Stands (2026)" }
 ];

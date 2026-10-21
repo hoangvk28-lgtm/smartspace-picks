@@ -12,7 +12,7 @@ export const deskExerciseEquipmentNoiseExplainedGuide: Guide = {
     "quiet under desk bike for calls",
     "under desk stepper noise level",
     "resistance mechanism noise exercise equipment",
-    "desk bike disrupting video calls",
+    "desk bike disrupting video calls"
   ],
   heroImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskExerciseEquipmentNoiseExplainedGuide: Guide = {
     "under-desk-bike-vs-elliptical",
     "video-call-background-noise-reduction",
     "conference-speakerphone-vs-headset",
-    "echo-cancellation-explained",
+    "echo-cancellation-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskExerciseEquipmentNoiseExplainedGuide: Guide = {
       question: "How can I test equipment noise level before an important call?",
       answer:
         "Doing a quick test call with a colleague or using your call platform's own audio test feature while pedaling at your typical pace gives direct, reliable feedback on how audible the equipment noise actually is to others, rather than judging based on how loud it sounds to you.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const deskExerciseEquipmentNoiseExplainedGuide: Guide = {
     {
       heading: "Why Your Own Perception of Noise Doesn't Reliably Predict What Others Hear",
       body: `Sound that seems perfectly acceptable to you, sitting directly at the equipment and accustomed to its noise, can be picked up and even amplified in unexpected ways by a microphone and transmitted to call participants who hear it completely differently, without the context of seeing you and knowing where the sound is coming from, this disconnect between your own in-person perception and what a microphone actually transmits is exactly why testing directly, a practice call or using your platform's own audio test feature while using the equipment at your typical pace, provides much more reliable information than judging based on how loud things seem to you personally in the room.`,
-    },
+    }
   ],
 };

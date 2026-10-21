@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "duplex printer for home office";
 export const introParagraphs = [
   "Duplex printing saves paper, but it also comes with a speed penalty that's rarely stated clearly, flipping the page internally adds roughly 5 to 10 seconds per sheet, so a printer rated at 20 pages per minute single-sided often runs closer to 10 pages per minute effective in duplex mode. Duplex printing and duplex scanning are also different features that get conflated constantly, a printer can auto-print both sides while still requiring a manual flip to scan both sides of a page.",
-  "Below are 8 printers we evaluated specifically for duplex print capability, distinguishing confirmed duplex printing from picks where the listing doesn't explicitly state it, so you're not guessing at a feature that may not be there.",
+  "Below are 8 printers we evaluated specifically for duplex print capability, distinguishing confirmed duplex printing from picks where the listing doesn't explicitly state it, so you're not guessing at a feature that may not be there."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Automatic document feeder",
       "3-month Instant Ink trial included",
       "AI-capable printing features",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     pros: [
       "Duplex printing explicitly confirmed",
       "ADF included for document scanning too",
       "Instant Ink trial reduces early ink cost",
-      "Built for steady home-office volume",
+      "Built for steady home-office volume"
     ],
     cons: [
       "Duplex mode runs slower than single-sided rated speed",
       "Higher upfront price than the cheapest duplex picks",
-      "Cartridge costs return to normal after the trial",
+      "Cartridge costs return to normal after the trial"
     ],
     bestFor: "Home offices wanting confirmed duplex printing plus ADF scanning together",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Copier/scanner built in",
       "Compact single-tray design",
       "1-year limited warranty",
-      "Easy setup",
+      "Easy setup"
     ],
     pros: [
       "Lowest price of any confirmed duplex pick in this list",
       "Duplex printing explicitly named in the listing",
       "Compact single-tray footprint",
-      "Simple setup",
+      "Simple setup"
     ],
     cons: [
       "No automatic document feeder",
       "Thick paper can't go through the duplex path",
-      "Limited to Letter/A4 paper size",
+      "Limited to Letter/A4 paper size"
     ],
     bestFor: "Budget-conscious buyers who specifically want confirmed duplex printing",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "1.42-inch OLED display",
       "Built-in copier and scanner",
       "Intuitive control panel",
-      "Compact design",
+      "Compact design"
     ],
     pros: [
       "Duplex printing explicitly confirmed",
       "OLED display shows clear print status",
       "Intuitive control panel",
-      "Compact footprint",
+      "Compact footprint"
     ],
     cons: [
       "No automatic document feeder",
       "Thick paper can't go through the duplex path",
-      "Cartridge ink costs more at high volume",
+      "Cartridge ink costs more at high volume"
     ],
     bestFor: "Buyers who want confirmed duplex printing with clearer on-screen status",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Compact monochrome laser printer",
       "Copy and scan built in",
       "Refresh Subscription toner trial included",
-      "Works with Alexa",
+      "Works with Alexa"
     ],
     pros: [
       "Duplex printing explicitly confirmed",
       "Laser reliability for sustained two-sided text volume",
       "Compact footprint for a laser printer",
-      "Toner trial included",
+      "Toner trial included"
     ],
     cons: [
       "Monochrome only, no color printing",
       "Higher upfront price than inkjet duplex picks",
-      "No automatic document feeder",
+      "No automatic document feeder"
     ],
     bestFor: "Text-heavy home offices wanting reliable duplex printing at higher volume",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Automatic document feeder",
       "3-month Instant Ink trial included",
       "AI-capable printing features",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     pros: [
       "Duplex printing explicitly confirmed",
       "ADF included for document scanning too",
       "Instant Ink trial reduces early ink cost",
-      "Comparable capability to the 8125e",
+      "Comparable capability to the 8125e"
     ],
     cons: [
       "Duplex mode runs slower than single-sided rated speed",
       "Higher upfront price than the cheapest duplex picks",
-      "Cartridge costs return to normal after the trial",
+      "Cartridge costs return to normal after the trial"
     ],
     bestFor: "Home offices wanting confirmed duplex printing at a competitive price",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "AirPrint and Android compatible",
       "Works with Alexa",
       "Photo and document printing",
-      "Duplex printing not confirmed in listing",
+      "Duplex printing not confirmed in listing"
     ],
     pros: [
       "Strong overall feature set beyond duplex",
       "Automatic document feeder included",
       "AirPrint and Alexa support",
-      "Good photo printing quality",
+      "Good photo printing quality"
     ],
     cons: [
       "Duplex printing not explicitly confirmed, verify before buying if required",
       "Most expensive inkjet pick in this list",
-      "Larger footprint than compact picks",
+      "Larger footprint than compact picks"
     ],
     bestFor: "Buyers prioritizing AirPrint, Alexa, and photo quality who will verify duplex separately",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Manual feed slot for envelopes and cardstock",
       "Ink-tank system",
       "Refresh Subscription trial included",
-      "Duplex printing not confirmed in listing",
+      "Duplex printing not confirmed in listing"
     ],
     pros: [
       "Manual feed slot for specialty paper",
       "Ink-tank system reduces per-page cost over time",
       "Color display for status and settings",
-      "Ink subscription trial included",
+      "Ink subscription trial included"
     ],
     cons: [
       "Duplex printing not explicitly confirmed, verify before buying if required",
       "Higher upfront price than confirmed duplex picks",
-      "Ink-tank refills take longer than a cartridge swap",
+      "Ink-tank refills take longer than a cartridge swap"
     ],
     bestFor: "Buyers wanting manual feed flexibility who will confirm duplex separately",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "2.7-inch color touchscreen",
       "Ink-tank system",
       "Wireless connectivity",
-      "Duplex printing not separately confirmed in listing",
+      "Duplex printing not separately confirmed in listing"
     ],
     pros: [
       "Confirmed duplex scan and copy saves time on double-sided documents",
       "Color touchscreen for easier navigation",
       "Ink-tank system reduces per-page cost over time",
-      "Full-featured all-in-one",
+      "Full-featured all-in-one"
     ],
     cons: [
       "Duplex printing specifically not confirmed separately from duplex scan and copy",
       "Higher price than basic confirmed duplex-print picks",
-      "Ink-tank refills take longer than a cartridge swap",
+      "Ink-tank refills take longer than a cartridge swap"
     ],
     bestFor: "Buyers who specifically need duplex scanning and copying for double-sided paperwork",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Price relative to confirmed capability",
     description: "Weighed whether each pick's price is justified by its confirmed feature set, rather than assuming a higher price always means confirmed duplex printing is included.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -481,12 +481,12 @@ export const faq: FaqItem[] = [
   {
     q: "How do I know if a printer's duplex printing is actually confirmed?",
     "a": "Check the product listing and spec sheet directly for the word \"duplex\" or \"two-sided printing\" stated explicitly. Several capable all-in-one printers, like the Canon PIXMA TR8620a and Brother INKvestment 4355 in this guide, don't state it clearly in their listings, so we've included them only as secondary alternatives rather than confirmed duplex picks.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-all-in-one-printers-for-home-use", title: "Best All-in-One Printers for Home Use (2026)" },
   { href: "/guide/best-printers-with-automatic-document-feeders", title: "Best Printers with Automatic Document Feeders (2026)" },
   { href: "/guide/best-wireless-printers-for-home-offices", title: "Best Wireless Printers for Home Offices (2026)" },
-  { href: "/guide/best-printers-for-small-businesses", title: "Best Printers for Small Businesses (2026)" },
+  { href: "/guide/best-printers-for-small-businesses", title: "Best Printers for Small Businesses (2026)" }
 ];

@@ -262,7 +262,7 @@ export default async function BestHeadphoneStandDeskPage() {
             { href: "#reviews", label: "Full reviews" },
             { href: "#comparison", label: "Comparison table" },
             { href: "#by-desk-size", label: "By desk size" },
-            { href: "#faq", label: "FAQ" },
+            { href: "#faq", label: "FAQ" }
           ].map(({ href, label }) => (
             <a
               key={href}
@@ -324,7 +324,7 @@ export default async function BestHeadphoneStandDeskPage() {
                 bestFor: "Users who want headphones at desk level but off the surface",
                 tradeoff: "Requires desk edge 0.5–2 inches thick",
                 icon: "🔩",
-              },
+              }
             ].map((m) => {
               const s = mountBadge[m.badge];
               return (
@@ -465,7 +465,7 @@ export default async function BestHeadphoneStandDeskPage() {
               ["Desktop stands", "Evaluated on base footprint, cable storage, USB/charging features, and headband protection."],
               ["Under-desk and clamp options", "Evaluated on adhesive reliability, weight capacity, installation reversibility, and accessibility."],
               ["Build quality", "Materials, finish, and documented buyer feedback after 6+ months of daily use."],
-              ["Value per dollar", "Features delivered per dollar -- a $12 stand that holds two pairs outperforms a $30 stand with identical features."],
+              ["Value per dollar", "Features delivered per dollar -- a $12 stand that holds two pairs outperforms a $30 stand with identical features."]
             ].map(([label, desc]) => (
               <div key={label as string} className="p-4 rounded-xl bg-white border border-border">
                 <p className="text-sm font-semibold text-ink mb-1">{label}</p>
@@ -482,10 +482,10 @@ export default async function BestHeadphoneStandDeskPage() {
         <section className="mb-12 p-5 rounded-2xl border border-border bg-white">
           <h2 className="text-base font-bold text-ink mb-2">What About DIY and 3D-Printed Stands?</h2>
           <p className="text-sm text-ink-secondary leading-relaxed mb-3">
-            Sites like Thingiverse and Printables have hundreds of free headphone stand designs. If you own a 3D printer, printing a stand costs $2&ndash;$5 in filament. The result is fully customizable but won&apos;t have USB ports, charging, or cable management.
+            Sites like Thingiverse and Printables have hundreds of free headphone stand designs. If you own a 3D printer, printing a stand costs under $3&ndash;$5 in filament. The result is fully customizable but won&apos;t have USB ports, charging, or cable management.
           </p>
           <p className="text-xs text-ink-muted italic">
-            Our take: if you already own a printer, print one to test whether you like having a stand at all. If you don&apos;t own a printer, the New Bee ($12) costs less than most filament rolls.
+            Our take: if you already own a printer, print one to test whether you like having a stand at all. If you don&apos;t own a printer, the New Bee (under $15) costs less than most filament rolls.
           </p>
         </section>
 
@@ -562,7 +562,7 @@ export default async function BestHeadphoneStandDeskPage() {
             {[
               { href: "/guide/best-small-desk-accessories", title: "12 Best Small Desk Accessories That Actually Save Space", label: "Desk Setup" },
               { href: "/guide/best-under-desk-cable-trays", title: "Best Under Desk Cable Trays for Clean Setups", label: "Desk Setup" },
-              { href: "/guide/monitor-stands-small-desks", title: "Best Monitor Stands for Small Desks", label: "Desk Setup" },
+              { href: "/guide/monitor-stands-small-desks", title: "Best Monitor Stands for Small Desks", label: "Desk Setup" }
             ].map((g) => (
               <Link prefetch={false}
                 key={g.href}

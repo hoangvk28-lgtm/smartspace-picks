@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "plastic portable file boxes";
 export const introParagraphs = [
   "Plastic's primary genuine benefit over metal is weight savings, a real advantage for a category whose core promise is portability. We looked past generic 'plastic' labeling to actual material grade and thickness, since thin, brittle plastic can crack under handling or in cold temperatures, while quality high-density plastic offers real durability.",
-  "We also considered UV exposure durability, since plastic can become brittle with prolonged sun exposure if stored near a window or transported in a car.",
+  "We also considered UV exposure durability, since plastic can become brittle with prolonged sun exposure if stored near a window or transported in a car."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Plastic material grade verification", description: "We looked past generic 'plastic' labeling to material quality where disclosed, since thin, brittle plastic can crack under handling despite the same base labeling as high-density plastic." },
   { title: "UV exposure durability", description: "We noted this specifically for clear plastic picks, since prolonged sun exposure can cause brittleness and yellowing over years of use." },
   { title: "Latch and hinge durability under repeated use", description: "We considered plastic-specific latch and hinge wear, since these mechanisms can crack faster on plastic than metal equivalents under repeated cycles." },
-  { title: "Weight advantage quantification", description: "We highlighted plastic's genuine weight savings over metal as this material's primary benefit for a category centered on portability." },
+  { title: "Weight advantage quantification", description: "We highlighted plastic's genuine weight savings over metal as this material's primary benefit for a category centered on portability." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -239,11 +239,11 @@ export const faq: FaqItem[] = [
   { q: "Will a clear plastic file box turn yellow over time?", a: "It can with prolonged UV exposure, particularly if stored near a window. If this concerns you, choose an opaque plastic box instead, which avoids this specific issue." },
   { q: "How much lighter is plastic than metal?", a: "Significantly lighter, the primary reason to choose plastic over metal for this portable-focused category. See our metal file box guide if you specifically need metal's dent resistance instead." },
   { q: "Will the latch on a plastic box wear out?", a: "It's possible with frequent use, since plastic latch mechanisms can wear or crack faster than metal equivalents. Favor picks with strong, proven review histories as evidence of long-term latch reliability." },
-  { q: "Can I fit legal size documents in a plastic file box?", a: "Only in picks that explicitly support legal size, like the IRIS USA 35 Qt box. Several picks in this comparison are letter size only, so check before ordering." },
+  { q: "Can I fit legal size documents in a plastic file box?", a: "Only in picks that explicitly support legal size, like the IRIS USA 35 Qt box. Several picks in this comparison are letter size only, so check before ordering." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-metal-portable-file-boxes", title: "Best Metal Portable File Boxes (2026)" },
   { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" },
-  { href: "/guide/best-clear-portable-file-boxes", title: "Best Clear Portable File Boxes (2026)" },
+  { href: "/guide/best-clear-portable-file-boxes", title: "Best Clear Portable File Boxes (2026)" }
 ];

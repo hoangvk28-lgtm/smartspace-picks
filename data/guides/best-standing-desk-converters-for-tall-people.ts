@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "standing desk converter for tall people";
 export const introParagraphs = [
   "For a tall user, maximum standing height is the critical spec, and it must be calculated as your existing desk's height plus the converter's maximum lift, not just the converter's stated range in isolation.",
-  "We prioritized picks with the widest confirmed height ranges and larger platforms, since taller users also generally need more monitor viewing distance and a correspondingly larger surface area.",
+  "We prioritized picks with the widest confirmed height ranges and larger platforms, since taller users also generally need more monitor viewing distance and a correspondingly larger surface area."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Emphasized calculating total standing height from desk plus converter lift", description: "We consistently noted that maximum standing height depends on your specific desk height added to the converter's maximum lift, not the converter's range alone." },
   { title: "Prioritized larger platforms suited to taller users' typical proportions", description: "We favored 42-48 inch platforms, since taller users generally benefit from more monitor viewing distance and surface area." },
   { title: "Weighed fixed-setting precision as a genuine benefit for repeatable tall-user positioning", description: "We noted where a fixed-detent mechanism helps a tall user consistently return to the exact right height." },
-  { title: "Compared review volume and price across the large-platform tier specifically", description: "We compared value within the context of picks suited to taller users' needs, across a range of price points." },
+  { title: "Compared review volume and price across the large-platform tier specifically", description: "We compared value within the context of picks suited to taller users' needs, across a range of price points." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -254,7 +254,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
@@ -263,11 +263,11 @@ export const faq: FaqItem[] = [
   { q: "Which converter has the widest confirmed platform for tall users?", a: "The VIVO Black 48 in Standing Desk Converter, at 48 inches, offering the most viewing distance flexibility." },
   { q: "Is there a converter with precise height settings for tall users?", a: "Yes, the Vari VariDesk Pro Plus 48 offers 11 fixed height settings for repeatable positioning." },
   { q: "What's the most proven large-platform option?", a: "The VIVO Black 42 in Standing Desk Converter, DESK-V042KB, sharing VIVO's massive K Series review pool." },
-  { q: "Do I need a larger platform if I'm tall?", a: "Generally yes, since taller users often need more monitor viewing distance, which a wider platform accommodates more comfortably." },
+  { q: "Do I need a larger platform if I'm tall?", a: "Generally yes, since taller users often need more monitor viewing distance, which a wider platform accommodates more comfortably." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-ergonomic-standing-desk-converters", title: "Best Ergonomic Standing Desk Converters (2026)" },
   { href: "/guide/best-large-standing-desk-converters", title: "Best Large Standing Desk Converters (2026)" },
-  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
+  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" }
 ];

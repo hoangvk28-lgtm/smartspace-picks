@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Calibrated color accuracy on a larger panel", "ASUS ProArt PA278CV 27 Inch QHD Professional Monitor"],
         ["The sharpest resolution at the lowest price", "CUNPU Z32UI06-TE 32 Inch 4K USB-C Monitor"],
-        ["Fast refresh rate with useful built-in audio", "Dell 27 Plus QHD USB-C Monitor S2725DC"],
+        ["Fast refresh rate with useful built-in audio", "Dell 27 Plus QHD USB-C Monitor S2725DC"]
       ],
     },
   },
@@ -116,9 +116,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $225", "CUNPU Z32UI06-TE 32 Inch 4K ($219.99)"],
-        ["$225-$235", "ASUS ProArt PA278CV ($229.00) or Dell S2725DC ($229.99)"],
-        ["$240-$245", "LG 32U631A-B 32-inch QHD ($241.17)"],
+        ["Under $225", "CUNPU Z32UI06-TE 32 Inch 4K (under $250)"],
+        ["$225-$235", "ASUS ProArt PA278CV (under $250) or Dell S2725DC (under $250)"],
+        ["$240-$245", "LG 32U631A-B 32-inch QHD (under $250)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "4K on 32\" vs Calibrated 1440p on 27\"",
     cards: [
       { label: "4K 32\" (CUNPU)", text: "Sharper text and more visible detail thanks to higher pixel count, at the lowest price in this comparison, but without a stated factory Delta E calibration figure." },
-      { label: "Calibrated QHD 27\" (ASUS ProArt)", text: "Verified Delta E under 2 color accuracy on a tighter, more manageable screen size, better suited to color-critical creative work." },
+      { label: "Calibrated QHD 27\" (ASUS ProArt)", text: "Verified Delta E under 2 color accuracy on a tighter, more manageable screen size, better suited to color-critical creative work." }
     ],
     note: "If color accuracy for professional work matters most, choose the ASUS ProArt. If sharper resolution and lower cost matter more, the CUNPU 4K pick is the stronger value.",
   },
@@ -136,7 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your device's charging needs", "Recommended pick"],
       rows: [
         ["A laptop needing up to 65W", "ASUS ProArt PA278CV, CUNPU 4K, or Dell S2725DC"],
-        ["Just a phone or tablet (15W)", "LG 32U631A-B 32-inch QHD Monitor"],
+        ["Just a phone or tablet (15W)", "LG 32U631A-B 32-inch QHD Monitor"]
       ],
     },
   },
@@ -144,16 +144,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Video Calls Specifically",
     cards: [
       { label: "Look for", text: "Integrated speakers with a stated wider frequency range, so you're not relying solely on your laptop's built-in speakers during calls." },
-      { label: "In this comparison", text: "The Dell 27 Plus QHD USB-C Monitor S2725DC specifically states dual 3W speakers with a wider frequency response, the strongest audio-focused pick here." },
+      { label: "In this comparison", text: "The Dell 27 Plus QHD USB-C Monitor S2725DC specifically states dual 3W speakers with a wider frequency response, the strongest audio-focused pick here." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a larger 32\" QHD screen with useful multitasking software, where the LG 32U631A-B's Switch app adds genuine screen-splitting functionality." },
-      { label: "Save if", text: "You want the sharpest resolution for the least money, where the CUNPU Z32UI06-TE delivers genuine 4K at the lowest price in this guide." },
+      { label: "Save if", text: "You want the sharpest resolution for the least money, where the CUNPU Z32UI06-TE delivers genuine 4K at the lowest price in this guide." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

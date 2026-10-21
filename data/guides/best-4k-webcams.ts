@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "webcam 4k";
 export const introParagraphs = [
   "Most video calls on Zoom, Teams, or Meet cap the stream at 1080p by default, so a 4K webcam mainly pays off for local recording, 4K streaming, or content creation rather than everyday meetings. Sensor size, not just resolution, ends up mattering more for real-world video quality, a larger sensor handles low light and depth of field better than a smaller high-megapixel one.",
-  "Below are 8 webcams we evaluated for actual 4K use cases, sensor quality, bandwidth requirements, and mounting stability, ranging from a $49.99 budget 4K option to a $399.99 large-sensor pro pick.",
+  "Below are 8 webcams we evaluated for actual 4K use cases, sensor quality, bandwidth requirements, and mounting stability, ranging from an under-$50 budget 4K option to an under-$400 large-sensor pro pick."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Auto light correction",
       "Built-in privacy shutter",
       "USB-C connection",
-      "Wide diagonal field of view",
+      "Wide diagonal field of view"
     ],
     pros: [
       "True 4K capture for recording and compatible streaming platforms",
       "Auto light correction handles mixed lighting well",
       "Privacy shutter included",
-      "USB-C for modern laptops",
+      "USB-C for modern laptops"
     ],
     cons: [
-      "Most expensive picks in this list at $194.99",
+      "Most expensive picks in this list at under $200",
       "4K benefit is wasted on standard 1080p-capped meetings",
-      "Needs USB 3.0 bandwidth for full 4K output",
+      "Needs USB 3.0 bandwidth for full 4K output"
     ],
     bestFor: "Buyers who actually record or stream in 4K, not just take video calls",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Wide field of view",
       "USB 3.0 connection required for full 4K",
       "Works with OBS and major streaming software",
-      "Auto-adjusting light correction",
+      "Auto-adjusting light correction"
     ],
     pros: [
       "True 4K resolution at a lower price than the MX Brio",
       "Reliable OBS and streaming software compatibility",
       "Good performance across varied lighting",
-      "Wide field of view",
+      "Wide field of view"
     ],
     cons: [
       "Needs a stable upload connection for full 4K streaming",
       "USB 3.0 bandwidth required, conflicts possible on a shared hub",
-      "Still overkill for standard 1080p-capped meetings",
+      "Still overkill for standard 1080p-capped meetings"
     ],
     bestFor: "Streamers who want true 4K output without the MX Brio's price tag",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "PDAF auto focus",
       "Dual omnidirectional microphones",
       "73° field of view",
-      "Built-in privacy cover",
+      "Built-in privacy cover"
     ],
     pros: [
       "Lowest price of any true 4K webcam here",
       "PDAF autofocus keeps subjects sharp",
       "Privacy cover included",
-      "Works with Zoom, Teams, Skype, Google Meet",
+      "Works with Zoom, Teams, Skype, Google Meet"
     ],
     cons: [
       "Smaller sensor than premium picks, softer detail",
       "Weaker low-light performance despite matching 4K resolution",
-      "Dual mics are no substitute for a dedicated USB microphone",
+      "Dual mics are no substitute for a dedicated USB microphone"
     ],
     bestFor: "Budget buyers who want to try 4K without a premium price",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Auto light correction",
       "Built-in mic and shutter",
       "DSLR-style manual controls",
-      "Works with OBS, Xsplit, Zoom, Teams",
+      "Works with OBS, Xsplit, Zoom, Teams"
     ],
     pros: [
       "Large sensor delivers the best low-light performance in this list",
       "DSLR-style manual controls for serious content creators",
       "Built-in shutter and mic",
-      "Pro-grade streaming and recording software compatibility",
+      "Pro-grade streaming and recording software compatibility"
     ],
     cons: [
-      "Highest price in this list at $399.99",
+      "Highest price in this list at under $400",
       "Overkill for standard video calls",
-      "Manual controls have a learning curve for casual users",
+      "Manual controls have a learning curve for casual users"
     ],
     bestFor: "Serious streamers and content creators who want the best low-light sensor here",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Advanced light correction",
       "DSLR-style manual controls",
       "Wide angle lens",
-      "Renewed/refurbished condition",
+      "Renewed/refurbished condition"
     ],
     pros: [
       "True 4K60 fps, higher frame rate than most picks here",
       "DSLR-style controls for fine-tuned image quality",
       "Lower price than buying new",
-      "Works with OBS, Teams, Zoom, PC and Mac",
+      "Works with OBS, Teams, Zoom, PC and Mac"
     ],
     cons: [
       "Renewed condition means checking the return policy closely",
       "4K60 needs strong bandwidth and a dedicated USB 3.0 port",
-      "Still expensive even at the renewed price",
+      "Still expensive even at the renewed price"
     ],
     bestFor: "Buyers who want true 4K60 fps without paying full retail",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Auto focus",
       "90° diagonal field of view",
       "5x digital zoom",
-      "RightLight 3 with HDR",
+      "RightLight 3 with HDR"
     ],
     pros: [
       "True 4K at a mid-range renewed price",
       "RightLight 3 HDR handles mixed lighting well",
       "Wide 90° field of view",
-      "5x digital zoom for framing flexibility",
+      "5x digital zoom for framing flexibility"
     ],
     cons: [
       "Renewed condition means checking the return policy closely",
       "30fps only, not the 60fps of the Facecam Pro",
-      "No built-in privacy shutter mentioned in the listing",
+      "No built-in privacy shutter mentioned in the listing"
     ],
     bestFor: "Buyers who want genuine 4K and HDR without paying premium prices",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Built-in stereo microphones",
       "Privacy shutter",
       "Clip-mount design",
-      "Widely compatible with video call software",
+      "Widely compatible with video call software"
     ],
     pros: [
       "Lowest price in this list by a wide margin",
       "1080p is enough for the vast majority of video call platforms",
       "Clear stereo audio built in",
-      "Long-established, reliable pick",
+      "Long-established, reliable pick"
     ],
     cons: [
       "Not actually 4K, despite sitting in this comparison for context",
       "No autofocus tracking or HDR light correction",
-      "Smaller sensor than the true 4K picks",
+      "Smaller sensor than the true 4K picks"
     ],
     bestFor: "Buyers who read the specs above and realize they only need 1080p for meetings",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Magnetic mount for Apple Pro Display XDR",
       "Stable mounting, no clip-on wobble",
       "Compact form factor",
-      "USB connection",
+      "USB connection"
     ],
     pros: [
       "Purpose-built magnetic mount avoids clip-on wobble",
       "True 4K resolution",
       "Compact and unobtrusive on the display bezel",
-      "Solves a mounting problem specific to a heavy webcam",
+      "Solves a mounting problem specific to a heavy webcam"
     ],
     cons: [
       "Magnetic mount only works with the Pro Display XDR specifically",
       "Not a general-purpose mounting solution",
-      "Limited usefulness outside its intended display",
+      "Limited usefulness outside its intended display"
     ],
     bestFor: "Apple Pro Display XDR owners who want a stable magnetic-mount 4K webcam",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Privacy and value for price",
     description: "Weighed privacy shutter presence and included features against price, from the budget 4K pick up through the large-sensor pro camera.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,11 +477,11 @@ export const faq: FaqItem[] = [
   {
     q: "Does a privacy shutter matter on a webcam?",
     a: "Yes, it's a simple physical feature that's easy to overlook while comparing resolution and sensor specs, but it gives a genuine, hardware-level guarantee that the camera isn't capturing video, unlike a software toggle. Several picks in this list, including the MX Brio and EMEET C960, include one built in.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-webcam-for-video-calls", title: "Best Webcams for Video Calls (2026)" },
   { href: "/guide/best-budget-1080p-webcam", title: "Best Budget 1080p Webcams (2026)" },
-  { href: "/guide/best-usb-microphones", title: "Best USB Microphones (2026)" },
+  { href: "/guide/best-usb-microphones", title: "Best USB Microphones (2026)" }
 ];

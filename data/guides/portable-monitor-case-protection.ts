@@ -12,7 +12,7 @@ export const portableMonitorCaseProtectionGuide: Guide = {
     "portable monitor sleeve worth it",
     "prevent portable monitor screen damage",
     "packing portable monitor for travel",
-    "portable monitor protective cover",
+    "portable monitor protective cover"
   ],
   heroImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const portableMonitorCaseProtectionGuide: Guide = {
     "portable-monitor-stand-options",
     "laptop-sleeve-vs-hard-case",
     "water-resistant-vs-waterproof-bag",
-    "portable-monitor-vs-laptop-screen-extender",
+    "portable-monitor-vs-laptop-screen-extender"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const portableMonitorCaseProtectionGuide: Guide = {
       question: "Does temperature exposure during travel affect a portable monitor?",
       answer:
         "Extreme temperature exposure, like a car trunk in very hot or cold weather, can potentially affect display performance or longevity, avoiding leaving a portable monitor in extreme temperature environments for extended periods is a reasonable precaution.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const portableMonitorCaseProtectionGuide: Guide = {
     {
       heading: "Why Checked Luggage Genuinely Warrants Extra Precaution",
       body: `Checked luggage handling processes involve significantly rougher treatment on average than what carry-on luggage experiences, being thrown, stacked, and moved through automated systems in ways that can involve real impact forces, this is precisely why carry-on transport is the generally recommended default for portable monitors and other sensitive electronics whenever feasible, and why, when checked luggage genuinely can't be avoided, adding more substantial protective packaging beyond what a built-in case stand alone provides becomes a reasonable, worthwhile precaution rather than excessive caution.`,
-    },
+    }
   ],
 };

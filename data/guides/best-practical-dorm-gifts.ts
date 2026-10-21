@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41E1tcDv1oL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0F2MMBWLB?tag=deskfinds0d-20",
-    "description": "ILSYINH is a 4 by 4 inch acrylic sign with a 4 by 1.5 by 0.8 inch wooden frame, a funny college-themed message for a desk, bookshelf or dresser.\n\nIt is the least practical item here, but at $9.99 it fits as a small add-on to a bigger practical gift. Unlike VIRFIN or HEYHOUSE it carries no function, only a smile.\n\nBest for a roommate gift or a final touch in a gift bundle. The caveat is that it is decor only, and the listing gives limited details.",
+    "description": "ILSYINH is a 4 by 4 inch acrylic sign with a 4 by 1.5 by 0.8 inch wooden frame, a funny college-themed message for a desk, bookshelf or dresser.\n\nIt is the least practical item here, but at under $10 it fits as a small add-on to a bigger practical gift. Unlike VIRFIN or HEYHOUSE it carries no function, only a smile.\n\nBest for a roommate gift or a final touch in a gift bundle. The caveat is that it is decor only, and the listing gives limited details.",
     "specs": [
       "4 x 4 inch acrylic",
       "Wood frame 4 x 1.5 inches",

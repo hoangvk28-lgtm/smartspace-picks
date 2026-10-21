@@ -12,7 +12,7 @@ export const monitorVesaCompatibilityExplainedGuide: Guide = {
     "vesa mount pattern monitor",
     "is my monitor vesa compatible",
     "100x100 vesa vs 75x75",
-    "monitor arm vesa adapter",
+    "monitor arm vesa adapter"
   ],
   heroImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const monitorVesaCompatibilityExplainedGuide: Guide = {
     "vesa-mount-pattern-explained",
     "monitor-arm-size-chart",
     "monitor-arm-weight-capacity-chart",
-    "how-to-measure-desk-for-monitor-arm",
+    "how-to-measure-desk-for-monitor-arm"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const monitorVesaCompatibilityExplainedGuide: Guide = {
       question: "Is a larger VESA pattern better or worse?",
       answer:
         "Neither inherently, the pattern size mainly needs to match between your monitor and your mount or arm, larger monitors often use 100x100 or even 200x100mm patterns simply because their larger, heavier panels benefit from wider-spaced mounting points for stability.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const monitorVesaCompatibilityExplainedGuide: Guide = {
     {
       heading: "What to Do If Your Monitor Lacks VESA Holes",
       body: `Some ultra-thin or budget monitors skip VESA mounting entirely. In this case, look specifically for a monitor arm that includes a non-VESA adapter tray or clamp designed to secure a monitor without mounting holes, though this mounting method is generally considered less stable than a direct VESA connection and worth checking user reviews on before relying on it for a heavier monitor.`,
-    },
+    }
   ],
 };

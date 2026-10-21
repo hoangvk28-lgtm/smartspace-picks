@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "best cube storage room dividers";
 export const introParagraphs = [
   "A cube storage unit makes a natural room divider when it's placed freestanding in the middle of a space instead of against a wall, but not every cube unit is built for that job. The single biggest thing to check before buying one for divider use is whether it has a closed back or an open back, since an open-back unit lets you see straight through from one side of the room to the other, which defeats the point of a divider if privacy is the goal.",
-  "This guide covers 6 cube storage and divider products from a shared product set. Two products we originally considered were dropped, one was marked not available and one was a duplicate listing, so this list reflects 6 verified options rather than a padded round number. Prices range from $19.99 to $99.99, and we call out each unit's back panel situation directly rather than assuming closed-back privacy from the word cube alone.",
+  "This guide covers 6 cube storage and divider products from a shared product set. Two products we originally considered were dropped, one was marked not available and one was a duplicate listing, so this list reflects 6 verified options rather than a padded round number. Prices range from roughly $20 to $100, and we call out each unit's back panel situation directly rather than assuming closed-back privacy from the word cube alone."
 ];
 export const lastUpdated = "2026-07-26";
 export const readTime = "9 min";
@@ -46,8 +46,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall, Open Back",
     name: "C&AHOME Cube Storage Organizer, 16-Cube Shelves Units, Plastic Storage Cubes, DIY Closet Organizer, Modular Closet Storage Shelves, 48.4 inch L x 12.4 inch W x 48.4 inch H Transparent",
     price: "$56.99",
-    rating: "4.5 stars from 8,231 Amazon ratings",
-    reviews: "4.5 stars from 8,231 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/412F7Hvt5aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B085Z7WVXR?tag=deskfinds0d-20",
     description:
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "48.4 inch L x 12.4 inch W x 48.4 inch H",
       "Open back, no privacy panel",
       "DIY modular assembly",
-      "Transparent cube finish",
+      "Transparent cube finish"
     ],
     pros: [
       "Largest review base in this list",
       "Large footprint for splitting bigger rooms",
       "Modular, rearrangeable cube layout",
-      "Budget-friendly for the size",
+      "Budget-friendly for the size"
     ],
     cons: [
       "Open back offers no visual privacy through the unit",
       "Plastic build feels less premium than wood options",
-      "Needs anti-tip anchoring or leveling feet for center-of-room use",
+      "Needs anti-tip anchoring or leveling feet for center-of-room use"
     ],
     bestFor: "Buyers who want a large open zone divider and don't need through-visibility blocked",
   },
@@ -78,29 +78,29 @@ export const products: GuideProduct[] = [
     badge: "Best for Privacy, Closed Back Option",
     name: "EXPERLAM 8 Cube Storage Organizer, Solid Wood Bookshelf with 4 Storage Bins, Cube Shelf with 2 Removable Back Panels, Vertical or Horizontal Bookcase, Open Book Shelf",
     price: "$99.99",
-    rating: "4.7 stars from 264 Amazon ratings",
-    reviews: "4.7 stars from 264 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Kxi8xrdiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DFXS9X72?tag=deskfinds0d-20",
     description:
-      "This solid wood 8-cube unit ships with 2 removable back panels, which is the only product in this list that gives buyers a genuine option to close off sections for real visual privacy rather than an all-open frame. The included storage bins cover 4 of the 8 cubes, and the wood build gives it a sturdier, more finished look than the plastic organizers in this list.\n\nWith only 2 of 8 cubes able to take a removable back panel, full privacy across the whole unit still isn't guaranteed unless you add bins or fabric to the remaining open cubes yourself. The highest rating in this list at 4.7 stars comes from a smaller review pool, so weigh that against the larger, more heavily reviewed picks.\n\nWorth calling out specifically: solid wood build feels more durable than plastic. The catch is only 2 of 8 cubes get a removable back panel.",
+      "This solid wood 8-cube unit ships with 2 removable back panels, which is the only product in this list that gives buyers a genuine option to close off sections for real visual privacy rather than an all-open frame. The included storage bins cover 4 of the 8 cubes, and the wood build gives it a sturdier, more finished look than the plastic organizers in this list.\n\nWith only 2 of 8 cubes able to take a removable back panel, full privacy across the whole unit still isn't guaranteed unless you add bins or fabric to the remaining open cubes yourself.\n\nWorth calling out specifically: solid wood build feels more durable than plastic. The catch is only 2 of 8 cubes get a removable back panel.",
     specs: [
       "8-cube solid wood construction",
       "2 removable back panels included",
       "4 storage bins included",
       "Vertical or horizontal orientation",
-      "Highest rating in this list",
+      "Highest rating in this list"
     ],
     pros: [
       "Only pick with a genuine partial closed-back option",
       "Solid wood build feels more durable than plastic",
       "Highest star rating in this list",
-      "Flexible vertical or horizontal setup",
+      "Flexible vertical or horizontal setup"
     ],
     cons: [
       "Only 2 of 8 cubes get a removable back panel",
       "Smaller review pool than the top-reviewed picks",
-      "Highest price in this list",
+      "Highest price in this list"
     ],
     bestFor: "Buyers who want at least partial closed-back privacy on a wood-built cube unit",
   },
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick, Open Back",
     name: "Mavivegue Book Shelf, 12 Cube Storage Organizer, DIY Bookcase, Metal Bookshelf, Tall Book Case for Bedroom, Living Room, Office, Closet, Black Cubicle Rack",
     price: "$19.99",
-    rating: "4.2 stars from 3,329 Amazon ratings",
-    reviews: "4.2 stars from 3,329 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51Ey5h3eoCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXXK6JF5?tag=deskfinds0d-20",
     description:
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Tall bookcase-style profile",
       "DIY assembly",
       "Lightweight metal construction",
-      "Lowest price in this list",
+      "Lowest price in this list"
     ],
     pros: [
       "Lowest price in this list by far",
       "Tall profile works well as a partial visual break",
       "Lightweight and easy to reposition",
-      "Large 12-cube storage capacity",
+      "Large 12-cube storage capacity"
     ],
     cons: [
       "Open back offers no privacy at all",
       "Lighter metal frame is less stable than wood",
-      "Needs anchoring or leveling feet for freestanding use",
+      "Needs anchoring or leveling feet for freestanding use"
     ],
     bestFor: "Budget buyers who mainly need storage with a secondary zone-marking function",
   },
@@ -142,8 +142,8 @@ export const products: GuideProduct[] = [
     badge: "Compact Open Shelf",
     name: "SageNest 8 Cube Storage Organizer Shelf, Open Cube Bookshelf",
     price: "$49.99",
-    rating: "4.0 stars from 235 Amazon ratings",
-    reviews: "4.0 stars from 235 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41GZQBk5zdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H4LVYPC2?tag=deskfinds0d-20",
     description:
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Compact footprint",
       "No back panel included",
       "Basic modular assembly",
-      "Smaller review base",
+      "Smaller review base"
     ],
     pros: [
       "Compact size suits smaller rooms",
       "Straightforward assembly",
       "Reasonable price for the size",
-      "Doubles as a bookshelf when not dividing",
+      "Doubles as a bookshelf when not dividing"
     ],
     cons: [
       "Open design confirmed, zero privacy",
       "Lowest rating and smallest review pool in this list",
-      "Smaller footprint means less visual room separation",
+      "Smaller footprint means less visual room separation"
     ],
     bestFor: "Smaller rooms that need a compact storage-first zone divider",
   },
@@ -174,29 +174,29 @@ export const products: GuideProduct[] = [
     badge: "Stackable, Optional Back Panels",
     name: "LUCKLIFE 8-Cube Storage Organizer, Stackable Modular Bookcase Shelf with Vertical or Horizontal Use, Fits 11x11 inch Bins, Optional Back Panels, White",
     price: "$71.10",
-    rating: "4.2 stars from 37 Amazon ratings",
-    reviews: "4.2 stars from 37 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Dr0Rf-NIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GWYP696K?tag=deskfinds0d-20",
     description:
-      "The LUCKLIFE unit explicitly offers optional back panels in its listing, meaning buyers can add closed-back privacy where they need it rather than being stuck with a fully open frame like most other picks here. It's also stackable and fits standard 11 by 11 inch bins, which matters because a cube depth that doesn't match standard bin sizing causes bins to overhang the shelf edge.\n\nThe review pool here is the smallest in this entire list at 37 ratings, so the 4.2 star average should be read with that limited sample size in mind. If the optional back panel feature and standard bin compatibility matter more to you than review volume, it's still a reasonable pick.\n\nCompatible with standard 11x11 inch bins. That's a real strength, but weigh it against the flip side: smallest review pool in this entire list.",
+      "The LUCKLIFE unit explicitly offers optional back panels in its listing, meaning buyers can add closed-back privacy where they need it rather than being stuck with a fully open frame like most other picks here. It's also stackable and fits standard 11 by 11 inch bins, which matters because a cube depth that doesn't match standard bin sizing causes bins to overhang the shelf edge.\n\nIf the optional back panel feature and standard bin compatibility matter more to you than review volume, it's still a reasonable pick.\n\nCompatible with standard 11x11 inch bins. That's a real strength, but weigh it against the flip side: smallest review pool in this entire list.",
     specs: [
       "8-cube stackable modular design",
       "Optional back panels available",
       "Fits standard 11x11 inch bins",
       "Vertical or horizontal orientation",
-      "White finish",
+      "White finish"
     ],
     pros: [
       "Optional back panels for buyer-controlled privacy",
       "Compatible with standard 11x11 inch bins",
       "Stackable modular design",
-      "Flexible orientation",
+      "Flexible orientation"
     ],
     cons: [
       "Smallest review pool in this entire list",
       "Back panels are an add-on, not included by default in every configuration",
-      "Higher price than several other picks",
+      "Higher price than several other picks"
     ],
     bestFor: "Buyers who specifically want the option to add back panels for partial privacy",
   },
@@ -206,8 +206,8 @@ export const products: GuideProduct[] = [
     badge: "Not a Cube Unit, True Full Privacy Divider",
     name: "SUNALLY Room Divider No Drilling Curtain Rod Wall Divider for Room Separation, 4-10ft Height, 28-114 inch Width Adjustable, Heavy Duty Partition Space Separator Freestanding Tension Curtain Stand, Black",
     price: "$39.99",
-    rating: "4.6 stars from 1,499 Amazon ratings",
-    reviews: "4.6 stars from 1,499 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41uULXHLL1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DFH8C526?tag=deskfinds0d-20",
     description:
@@ -217,21 +217,21 @@ export const products: GuideProduct[] = [
       "28-114 inch adjustable width",
       "4-10 foot adjustable height",
       "Full opaque curtain privacy",
-      "Heavy duty partition frame",
+      "Heavy duty partition frame"
     ],
     pros: [
       "True full visual privacy, unlike any cube option here",
       "No drilling required, renter-friendly",
       "Wide adjustable width and height range",
-      "Strong rating with a solid review base",
+      "Strong rating with a solid review base"
     ],
     cons: [
       "Not a storage unit, serves privacy function only",
       "Freestanding tension stands can tip if not braced",
-      "No shelving or organizational capacity",
+      "No shelving or organizational capacity"
     ],
     bestFor: "Buyers who want guaranteed full privacy over storage capacity",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -264,7 +264,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Value for divider function specifically",
     description:
       "Weighed price against how well each pick actually serves the divider use case, not just general storage capacity, since a unit built purely for storage may fall short on the privacy or stability a room divider buyer actually needs.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -407,11 +407,11 @@ export const faq: FaqItem[] = [
   {
     q: "Should I check bin size before buying a cube unit?",
     a: "Yes. Standard storage bins run roughly 13 to 15 inches deep, and a cube shallower than that causes bins to overhang the front edge. The LUCKLIFE explicitly states compatibility with standard 11x11 inch bins, but verify depth directly with the seller for the other picks before assuming your bins will fit flush.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-room-dividers-for-home-offices", title: "Best Room Dividers for Home Offices (2026)" },
   { href: "/guide/best-metal-filing-cabinets", title: "Best Metal Filing Cabinets (2026)" },
-  { href: "/guide/best-office-chairs-with-adjustable-lumbar-support", title: "Best Office Chairs with Adjustable Lumbar Support (2026)" },
+  { href: "/guide/best-office-chairs-with-adjustable-lumbar-support", title: "Best Office Chairs with Adjustable Lumbar Support (2026)" }
 ];

@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Genuine 8-12 person room coverage with expansion", "Yealink Bluetooth Speakerphone SP96 with Daisy-Chain"],
         ["Teams certification with travel portability", "Jabra Speak2 55 Wireless Bluetooth Speakerphone"],
         ["Durability and value with all-day battery", "Poly Sync 20 USB-C Personal Portable Smart Speakerphone"],
-        ["Support for large 15-20 person meetings", "EMEET M3 Bluetooth Conference Speaker, Zoom Certified"],
+        ["Support for large 15-20 person meetings", "EMEET M3 Bluetooth Conference Speaker, Zoom Certified"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $139", "Poly Sync 20 ($138.29)"],
-        ["Under $156", "Yealink SP96 ($155.99)"],
-        ["Under $161", "Jabra Speak2 55 ($160.60)"],
-        ["Under $170", "EMEET M3 ($169.99)"],
+        ["Under $139", "Poly Sync 20 (under $140)"],
+        ["Under $156", "Yealink SP96 (under $160)"],
+        ["Under $161", "Jabra Speak2 55 (under $170)"],
+        ["Under $170", "EMEET M3 (under $170)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Fixed Conference Room vs Personal Portable Design",
     cards: [
       { label: "Fixed conference room (Yealink SP96, EMEET M3)", text: "Prioritizes large-room mic coverage and daisy chain scaling over portability, ideal for a dedicated meeting space." },
-      { label: "Personal portable (Jabra Speak2 55, Poly Sync 20)", text: "Prioritizes battery life, durability, and travel-friendly size over maximum room scaling, ideal for someone moving between locations." },
+      { label: "Personal portable (Jabra Speak2 55, Poly Sync 20)", text: "Prioritizes battery life, durability, and travel-friendly size over maximum room scaling, ideal for someone moving between locations." }
     ],
     note: "If you're outfitting a dedicated conference room that regularly hosts 8 or more people, the Yealink SP96 or EMEET M3 are built for that scale. If you're a frequent traveler needing one reliable unit that goes wherever you do, the Jabra or Poly picks are the better fit.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Up to 6 people", "Poly Sync 20 or Jabra Speak2 55"],
         ["8-12 people", "Yealink SP96"],
-        ["Up to 20 people", "EMEET M3 with daisy chain"],
+        ["Up to 20 people", "EMEET M3 with daisy chain"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Shared Office With Water or Dust Exposure Specifically",
     cards: [
       { label: "Look for", text: "An explicit ingress protection rating like IP64, indicating tested resistance to dust and water splashes, rather than assuming any speakerphone handles incidental spills." },
-      { label: "In this comparison", text: "The Poly Sync 20 pick's stated IP64 rating specifically confirms tested dust and water resistance that the other three picks don't claim." },
+      { label: "In this comparison", text: "The Poly Sync 20 pick's stated IP64 rating specifically confirms tested dust and water resistance that the other three picks don't claim." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You regularly host large 15-20 person meetings and want a Zoom-recognized unit with daisy chain scaling, where the EMEET M3 delivers that at the top of this tier." },
-      { label: "Save if", text: "You want strong all-day battery life and durability without needing large-room scaling, where the Poly Sync 20 covers that for about $32 less." },
+      { label: "Save if", text: "You want strong all-day battery life and durability without needing large-room scaling, where the Poly Sync 20 covers that for about $32 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

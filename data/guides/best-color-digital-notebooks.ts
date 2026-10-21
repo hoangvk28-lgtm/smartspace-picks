@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "color digital notebook";
 export const introParagraphs = [
   "We were strict here: every pick in this guide has a color display explicitly stated on its product listing. A widely known device like the reMarkable 2 is genuinely black and white and does not appear in this guide, even though it's an excellent e-ink notebook overall, because it doesn't meet this guide's specific color requirement.",
-  "Color e-ink panels generally trade some contrast versus black-and-white e-ink, worth knowing before assuming color is a strictly better upgrade in every respect.",
+  "Color e-ink panels generally trade some contrast versus black-and-white e-ink, worth knowing before assuming color is a strictly better upgrade in every respect."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Color display confirmed explicitly on each listing", description: "Only included products where the listing directly states a color display, excluding any product where color is assumed, implied, or unconfirmed." },
   { title: "Black-and-white e-ink models intentionally excluded", description: "Deliberately left out well-known black-and-white e-ink devices like the reMarkable 2 from this specific guide, despite their overall quality, since they don't meet the color requirement here." },
   { title: "Color e-ink contrast tradeoffs weighed honestly", description: "Noted that color e-ink panels generally have less contrast than black-and-white e-ink, rather than presenting color as a strictly superior upgrade." },
-  { title: "Price weighed against confirmed color capability", description: "Compared cost specifically against the color display feature, since color e-ink hardware costs meaningfully more than black-and-white equivalents." },
+  { title: "Price weighed against confirmed color capability", description: "Compared cost specifically against the color display feature, since color e-ink hardware costs meaningfully more than black-and-white equivalents." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Is the reMarkable 2 a color digital notebook?", a: "No, the reMarkable 2 has a black-and-white e-ink display, the color version is the separate reMarkable Paper Pro." },
   { q: "Do color e-ink screens look as sharp as black-and-white ones?", a: "Generally not quite, color e-ink panels trade some contrast and sharpness for the added color layer, worth knowing before assuming color is a strict upgrade." },
   { q: "Which color digital notebook is the most affordable?", a: "The BOOX Note Air 4C is generally the most budget-friendly confirmed color e-ink option among the picks in this guide." },
-  { q: "Does the Kindle Scribe have a color screen?", a: "Yes, the Kindle Scribe Colorsoft states its color paper-like display directly in the product name." },
+  { q: "Does the Kindle Scribe have a color screen?", a: "Yes, the Kindle Scribe Colorsoft states its color paper-like display directly in the product name." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebook-tablets", title: "Best Digital Notebook Tablets (2026)" },
   { href: "/guide/best-e-ink-digital-notebooks", title: "Best E-Ink Digital Notebooks (2026)" },
-  { href: "/guide/best-digital-notebooks-for-designers", title: "Best Digital Notebooks for Designers (2026)" },
+  { href: "/guide/best-digital-notebooks-for-designers", title: "Best Digital Notebooks for Designers (2026)" }
 ];

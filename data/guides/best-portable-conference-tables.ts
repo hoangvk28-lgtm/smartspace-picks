@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31Gs1tEZ1JL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BRPZL9CW?tag=deskfinds0d-20",
-    description: "The same commercial-grade 45mm plastic training table as BTExpert's set-of-10 listing, here sold as a set of 5 for a smaller training room or event space that doesn't need the full 10-table commitment.\n\nSame 220 lb static rating, granite white finish, and fold-flat storage design, with non-slip feet caps for stability and floor protection.\n\nWhere this one earns its spot is set of 5 gives a more manageable quantity than BTExpert's set-of-10 for smaller rooms, and 45mm plastic top is genuinely commercial-grade, not thin folding-table plastic. Worth noting before buying: 18\" depth is narrow, fitting laptops and papers but little else, which matters more at $310.75 than it would on a cheaper pick.",
+    description: "The same commercial-grade 45mm plastic training table as BTExpert's set-of-10 listing, here sold as a set of 5 for a smaller training room or event space that doesn't need the full 10-table commitment.\n\nSame 220 lb static rating, granite white finish, and fold-flat storage design, with non-slip feet caps for stability and floor protection.\n\nWhere this one earns its spot is set of 5 gives a more manageable quantity than BTExpert's set-of-10 for smaller rooms, and 45mm plastic top is genuinely commercial-grade, not thin folding-table plastic. Worth noting before buying: 18\" depth is narrow, fitting laptops and papers but little else, which matters more at under $350 than it would on a cheaper pick.",
     specs: ["72\"L x 18\"D x 29\"H, sold as set of 5","45mm thick plastic top, 220 lb static rating","Folding legs, powder-coated steel frame"],
     pros: ["Set of 5 gives a more manageable quantity than BTExpert's set-of-10 for smaller rooms","45mm plastic top is genuinely commercial-grade, not thin folding-table plastic","Non-slip feet caps add both stability and floor protection"],
     cons: ["18\" depth is narrow, fitting laptops and papers but little else","Recommended for indoor storage only given moisture exposure risk over time"],
@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "Correll 24\"x72\" Premium Flip Top Nesting Table measures 24\"x72\" and is built around size, positioning it for portable buyers specifically.\n\nSecure height adjustment with 2 set screws is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for portable, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["24\"x72\" table dimensions","SIZE","Secure height adjustment with 2 set screws"],
     pros: ["SIZE, confirmed directly in the listing's own spec details","Secure height adjustment with 2 set screws, confirmed directly in the listing's own spec details","Top: Thermal Fused Laminate (TFL) top resists, confirmed directly in the listing's own spec details"],
-    cons: ["At $624.60, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $650, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for portable",
   },
   {
@@ -126,7 +126,7 @@ export const products: GuideProduct[] = [
     description: "Iceberg ARC Conference Sit-to-Stand Table measures 5 ft and is built around the arc 5-foot rectangular conference table, positioning it for portable buyers specifically.\n\nFeatures a solid 1.125 thick melamine laminated is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for portable, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["5 ft table dimensions","The ARC 5-foot Rectangular Conference Table","Features a solid 1.125 thick melamine laminated"],
     pros: ["The ARC 5-foot Rectangular Conference Table, confirmed directly in the listing's own spec details","Features a solid 1.125 thick melamine laminated, confirmed directly in the listing's own spec details","The top measures 30 W by 60, confirmed directly in the listing's own spec details"],
-    cons: ["At $379.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $400, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for portable",
   },
   {
@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     description: "OffiGo 71\" Executive Electric Standing Desk Height Adjustable and is built around electric sit-stand height adjustment, positioning it for portable buyers specifically.\n\nStable & Durable Heavy-Duty Construction is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for portable, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Electric Sit-Stand Height Adjustment","Stable & Durable Heavy-Duty Construction","Spacious 71 Desktop for Multi-Device Setup"],
     pros: ["Electric Sit-Stand Height Adjustment, confirmed directly in the listing's own spec details","Stable & Durable Heavy-Duty Construction, confirmed directly in the listing's own spec details","Spacious 71 Desktop for Multi-Device Setup, confirmed directly in the listing's own spec details"],
-    cons: ["At $263.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $300, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for portable",
   }
 
@@ -210,40 +210,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $62.09",
+          "Under $70",
           "VINGLI 6FT Narrow Folding Table"
         ],
         [
-          "Around $69.94",
+          "Under $70",
           "Flash Furniture 6-Foot Granite White Training Table"
         ],
         [
-          "Around $263.99",
+          "Under $300",
           "OffiGo 71\" Executive Electric Standing Desk Height Adjustable"
         ],
         [
-          "Around $289.88",
+          "Under $300",
           "Okeysen Flip-Top Mobile Conference Table"
         ],
         [
-          "Around $310.75",
+          "Under $350",
           "BTEXPERT 6-Foot Plastic Folding Training Table"
         ],
         [
-          "Around $379.99",
+          "Under $400",
           "Iceberg ARC Conference Sit-to-Stand Table"
         ],
         [
-          "Around $593.42",
+          "Under $600",
           "BTEXPERT 6-Foot Plastic Folding Training Table"
         ],
         [
-          "Around $624.60",
+          "Under $650",
           "Correll 24\"x72\" Premium Flip Top Nesting Table"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -291,7 +291,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "VINGLI 6FT Narrow Folding Table is aimed at buyers prioritizing 70.5\"x17.5\"x28.5\" narrow folding table." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "VINGLI 6FT Narrow Folding Table is aimed at buyers prioritizing 70.5\"x17.5\"x28.5\" narrow folding table." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-conference-tables-on-wheels","title":"Best Conference Tables on Wheels in 2026"},{"href":"/guide/best-conference-tables","title":"Best Conference Tables in 2026"},{"href":"/guide/best-conference-tables-with-chairs","title":"Best Conference Tables With Chairs in 2026"}];

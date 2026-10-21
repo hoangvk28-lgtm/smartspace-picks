@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $341.05",
+          "Under $350",
           "WolfPawn CNC Router Machine 4040-PRO for Metal Acrylic Cutting Milling"
         ],
         [
-          "Around $437.89",
+          "Under $450",
           "Genmitsu Cubiko Desktop CNC Router Machine with Enclosure for Beginners"
         ],
         [
-          "Around $487.20",
+          "Under $500",
           "Genmitsu 3020-PRO Ultra CNC Router Machine"
         ],
         [
-          "Around $517.65",
+          "Under $550",
           "Genmitsu 4040-PRO CNC Router Machine for Metal Acrylic Cutting Milling"
         ],
         [
-          "Around $519.99",
+          "Under $550",
           "Artsian 01 CNC Router Machine"
         ],
         [
-          "Around $549.00",
+          "Under $550",
           "FoxAlien Masuter Pro 3-Axis CNC Router Machine"
         ],
         [
-          "Around $809.10",
+          "Under $850",
           "Genmitsu 3030-PROVer Ultra CNC Router Machine for Metal"
         ],
         [
-          "Around $899.00",
+          "Under $900",
           "FoxAlien Masuter 3S CNC Router Machine with NEMA 23 Closed-Loop Stepper Motor"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "Genmitsu 4040-PRO CNC Router Machine for Metal Acrylic Cutting Milling is aimed at buyers prioritizing 435 x 400 x 80mm work area." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Genmitsu 4040-PRO CNC Router Machine for Metal Acrylic Cutting Milling is aimed at buyers prioritizing 435 x 400 x 80mm work area." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-budget-desktop-cnc-machines","title":"Best Budget Desktop CNC Machines in 2026"},{"href":"/guide/best-desktop-cnc-machines-under-500","title":"Best Desktop CNC Machines Under $500 in 2026"},{"href":"/guide/best-desktop-cnc-machines","title":"Best Desktop CNC Machines in 2026"}];

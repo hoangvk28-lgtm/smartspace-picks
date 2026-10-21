@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41whfUo3lTL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DRJCJYH3?tag=deskfinds0d-20",
-    "description": "COMHOMA Big and Tall Gaming Chair with Pocket Spring Lumbar Support is built around ergonomic full-body design, paired with multifunctional comfortable seating, positioning it as a chair built for long sitting sessions rather than short-term use.\n\nSitting at $189.99, the top of this comparison's price range, it asks buyers to confirm the added capability is actually worth it over the more affordable picks here before paying the premium.\n\nCOMHOMA Big and Tall Gaming Chair with Pocket Spring Lumbar Support is the right call for buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "COMHOMA Big and Tall Gaming Chair with Pocket Spring Lumbar Support is built around ergonomic full-body design, paired with multifunctional comfortable seating, positioning it as a chair built for long sitting sessions rather than short-term use.\n\nSitting at under $190, the top of this comparison's price range, it asks buyers to confirm the added capability is actually worth it over the more affordable picks here before paying the premium.\n\nCOMHOMA Big and Tall Gaming Chair with Pocket Spring Lumbar Support is the right call for buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Ergonomic Full-Body Design",
       "Multifunctional Comfortable Seating",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41N9Wjxs7wL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H7HSR5FW?tag=deskfinds0d-20",
-    "description": "Dowinx Big and Tall Gaming Chair with Footrest for Home Office 500LBS Brown is built around big and tall office chair with 500 lbs support, paired with thick dual-layer foam support, positioning it as a chair built for long sitting sessions rather than short-term use.\n\nCompared to GTPLAYER Big and Tall Office Chair Wide Ergonomic Gaming Chair with Deluxe Embossing Designed Leather with Foot Rest at $159.81, it costs more for real added capability, while sitting well below COMHOMA Big and Tall Gaming Chair with Pocket Spring Lumbar Support at $189.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "Dowinx Big and Tall Gaming Chair with Footrest for Home Office 500LBS Brown is built around big and tall office chair with 500 lbs support, paired with thick dual-layer foam support, positioning it as a chair built for long sitting sessions rather than short-term use.\n\nCompared to GTPLAYER Big and Tall Office Chair Wide Ergonomic Gaming Chair with Deluxe Embossing Designed Leather with Foot Rest at under $160, it costs more for real added capability, while sitting well below COMHOMA Big and Tall Gaming Chair with Pocket Spring Lumbar Support at under $190 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Big and Tall Office Chair with 500 LBS Support",
       "Thick Dual-Layer Foam Support",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41zEJk4muxL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FGQ7PBK1?tag=deskfinds0d-20",
-    "description": "Dowinx Big and Tall Office Chair with Pocket Spring Cushion leads with double-layered thickened backrest, backed by individual pocket springs:the seat cushion, a combination aimed at as a chair built for long sitting sessions rather than short-term use.\n\nIt lands between GTPLAYER Big and Tall Office Chair Wide Ergonomic Gaming Chair with Deluxe Embossing Designed Leather with Foot Rest's $159.81 price floor and COMHOMA Big and Tall Gaming Chair with Pocket Spring Lumbar Support's $189.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nDowinx Big and Tall Office Chair with Pocket Spring Cushion is the right call for buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "Dowinx Big and Tall Office Chair with Pocket Spring Cushion leads with double-layered thickened backrest, backed by individual pocket springs:the seat cushion, a combination aimed at as a chair built for long sitting sessions rather than short-term use.\n\nIt lands between GTPLAYER Big and Tall Office Chair Wide Ergonomic Gaming Chair with Deluxe Embossing Designed Leather with Foot Rest's under $160 price floor and COMHOMA Big and Tall Gaming Chair with Pocket Spring Lumbar Support's under $190 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nDowinx Big and Tall Office Chair with Pocket Spring Cushion is the right call for buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Double-Layered Thickened Backrest",
       "Individual Pocket Springs:The seat cushion",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41yzPz0cKLL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D9VPSQM7?tag=deskfinds0d-20",
-    "description": "CAPOT Ergonomic Mesh Office Chair leads with sturdy, snug work chair, backed by lumbar micro-adjust, a combination aimed at as a chair built for long sitting sessions rather than short-term use.\n\nIt lands between GTPLAYER Big and Tall Office Chair Wide Ergonomic Gaming Chair with Deluxe Embossing Designed Leather with Foot Rest's $159.81 price floor and COMHOMA Big and Tall Gaming Chair with Pocket Spring Lumbar Support's $189.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nCAPOT Ergonomic Mesh Office Chair is the right call for buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "CAPOT Ergonomic Mesh Office Chair leads with sturdy, snug work chair, backed by lumbar micro-adjust, a combination aimed at as a chair built for long sitting sessions rather than short-term use.\n\nIt lands between GTPLAYER Big and Tall Office Chair Wide Ergonomic Gaming Chair with Deluxe Embossing Designed Leather with Foot Rest's under $160 price floor and COMHOMA Big and Tall Gaming Chair with Pocket Spring Lumbar Support's under $190 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nCAPOT Ergonomic Mesh Office Chair is the right call for buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Sturdy, Snug Work Chair",
       "Lumbar Micro-adjust",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41eL96ZBXoL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HDSDRXPT?tag=deskfinds0d-20",
-    "description": "What stands out on GTPLAYER Big and Tall Gaming Chair 400lbs Heavy Duty Office Chair with Footrest is 400lbs big and tall office chair, alongside spring lumbar support & upgraded cloud-like seat, which is the main reason it earns a spot in this gaming chairs comparison.\n\nIt lands between GTPLAYER Big and Tall Office Chair Wide Ergonomic Gaming Chair with Deluxe Embossing Designed Leather with Foot Rest's $159.81 price floor and COMHOMA Big and Tall Gaming Chair with Pocket Spring Lumbar Support's $189.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nGTPLAYER Big and Tall Gaming Chair 400lbs Heavy Duty Office Chair with Footrest is the right call for buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on GTPLAYER Big and Tall Gaming Chair 400lbs Heavy Duty Office Chair with Footrest is 400lbs big and tall office chair, alongside spring lumbar support & upgraded cloud-like seat, which is the main reason it earns a spot in this gaming chairs comparison.\n\nIt lands between GTPLAYER Big and Tall Office Chair Wide Ergonomic Gaming Chair with Deluxe Embossing Designed Leather with Foot Rest's under $160 price floor and COMHOMA Big and Tall Gaming Chair with Pocket Spring Lumbar Support's under $190 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nGTPLAYER Big and Tall Gaming Chair 400lbs Heavy Duty Office Chair with Footrest is the right call for buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "400LBS Big and Tall Office Chair",
       "Spring Lumbar Support & Upgraded Cloud-like Seat",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31hbwae0dBL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DYSK9GM8?tag=deskfinds0d-20",
-    "description": "VENTUVIBE Gaming Chair 4D Adjustable Armrests is built around 4d adjustable armrests - experience, paired with built to last, positioning it as a chair built for long sitting sessions rather than short-term use.\n\nCompared to GTPLAYER Big and Tall Office Chair Wide Ergonomic Gaming Chair with Deluxe Embossing Designed Leather with Foot Rest at $159.81, it costs more for real added capability, while sitting well below COMHOMA Big and Tall Gaming Chair with Pocket Spring Lumbar Support at $189.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "VENTUVIBE Gaming Chair 4D Adjustable Armrests is built around 4d adjustable armrests - experience, paired with built to last, positioning it as a chair built for long sitting sessions rather than short-term use.\n\nCompared to GTPLAYER Big and Tall Office Chair Wide Ergonomic Gaming Chair with Deluxe Embossing Designed Leather with Foot Rest at under $160, it costs more for real added capability, while sitting well below COMHOMA Big and Tall Gaming Chair with Pocket Spring Lumbar Support at under $190 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "4D ADJUSTABLE ARMRESTS - Experience",
       "Built To Last",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/413HCPrWx5L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FHB3CG9X?tag=deskfinds0d-20",
-    "description": "GTPLAYER Big and Tall Office Chair Wide Ergonomic Gaming Chair with Deluxe Embossing Designed Leather with Foot Rest is built around more powerful features, paired with luxurious pu leather, positioning it as a chair built for long sitting sessions rather than short-term use.\n\nAt $159.81, it's the most affordable pick in this comparison, so expect fewer extras than the pricier options here, but the core function holds up for buyers who don't need the added features those carry.\n\nThis pick best suits buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "GTPLAYER Big and Tall Office Chair Wide Ergonomic Gaming Chair with Deluxe Embossing Designed Leather with Foot Rest is built around more powerful features, paired with luxurious pu leather, positioning it as a chair built for long sitting sessions rather than short-term use.\n\nAt under $160, it's the most affordable pick in this comparison, so expect fewer extras than the pricier options here, but the core function holds up for buyers who don't need the added features those carry.\n\nThis pick best suits buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "More Powerful Features",
       "Luxurious PU leather",
@@ -219,7 +219,7 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Weight capacity vs your actual weight",
-    "explanation": "Shopping specifically under $200 for a gaming chair, this is one of the first specs worth checking. A chair's stated weight capacity is a maximum, not a comfortable working load, and sitting at or near that limit shortens the lifespan of the gas lift cylinder and frame welds faster than sitting well under it. Picks in this comparison range from $160 to $190, and the weight rating doesn't scale predictably with price, some cheaper chairs rate higher than pricier ones. Check the stated capacity against your actual weight with real margin, not just whether you technically fit under the number."
+    "explanation": "Shopping specifically under $200 for a gaming chair, this is one of the first specs worth checking. A chair's stated weight capacity is a maximum, not a comfortable working load, and sitting at or near that limit shortens the lifespan of the gas lift cylinder and frame welds faster than sitting well under it. Picks in this comparison range from under $200, and the weight rating doesn't scale predictably with price, some cheaper chairs rate higher than pricier ones. Check the stated capacity against your actual weight with real margin, not just whether you technically fit under the number."
   },
   {
     "criterion": "Recline angle and locking positions",
@@ -297,31 +297,31 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $159.81",
+          "Under $160",
           "GTPLAYER Big and Tall Office Chair Wide Ergonomic Gaming Chair with Deluxe Embossing Designed Leather with Foot Rest"
         ],
         [
-          "Around $169.99",
+          "Under $170",
           "VENTUVIBE Gaming Chair 4D Adjustable Armrests"
         ],
         [
-          "Around $179.96",
+          "Under $180",
           "GTPLAYER Big and Tall Gaming Chair 400lbs Heavy Duty Office Chair with Footrest"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "Dowinx Big and Tall Office Chair with Pocket Spring Cushion"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "CAPOT Ergonomic Mesh Office Chair"
         ],
         [
-          "Around $189.98",
+          "Under $190",
           "Dowinx Big and Tall Gaming Chair with Footrest for Home Office 500LBS Brown"
         ],
         [
-          "Around $189.99",
+          "Under $190",
           "COMHOMA Big and Tall Gaming Chair with Pocket Spring Lumbar Support"
         ]
       ]
@@ -332,11 +332,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "GTPLAYER Big and Tall Office Chair Wide Ergonomic Gaming Chair with Deluxe Embossing Designed Leather with Foot Rest",
-        "text": "The lowest-priced pick in this comparison at $159.81, a solid choice if you don't need the extras the pricier picks carry."
+        "text": "The lowest-priced pick in this comparison at under $160, a solid choice if you don't need the extras the pricier picks carry."
       },
       {
         "label": "COMHOMA Big and Tall Gaming Chair with Pocket Spring Lumbar Support",
-        "text": "The highest-priced pick at $189.99, worth it only if you'll actually use what that premium buys."
+        "text": "The highest-priced pick at under $190, worth it only if you'll actually use what that premium buys."
       }
     ],
     "note": "Default to GTPLAYER Big and Tall Office Chair Wide Ergonomic Gaming Chair with Deluxe Embossing Designed Leather with Foot Rest unless the pricier pick's specific advantage genuinely applies to your situation."
@@ -396,7 +396,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "What's the real difference between the cheapest and most expensive pick here?",
-    "a": "GTPLAYER Big and Tall Office Chair Wide Ergonomic Gaming Chair with Deluxe Embossing Designed Leather with Foot Rest at $159.81 covers the basics, while COMHOMA Big and Tall Gaming Chair with Pocket Spring Lumbar Support at $189.99 adds 4D armrests and a wider recline range. Whether that's worth the difference depends on whether you actually use the full recline range and finer armrest adjustment day to day, or mainly need a comfortable, supportive seat."
+    "a": "GTPLAYER Big and Tall Office Chair Wide Ergonomic Gaming Chair with Deluxe Embossing Designed Leather with Foot Rest at under $160 covers the basics, while COMHOMA Big and Tall Gaming Chair with Pocket Spring Lumbar Support at under $190 adds 4D armrests and a wider recline range. Whether that's worth the difference depends on whether you actually use the full recline range and finer armrest adjustment day to day, or mainly need a comfortable, supportive seat."
   },
   {
     "q": "Do I need a 4D armrest or is 2D enough?",
@@ -408,7 +408,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "Is there a solid middle-ground pick in this price range?",
-    "a": "Dowinx Big and Tall Office Chair with Pocket Spring Cushion at $179.99 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
+    "a": "Dowinx Big and Tall Office Chair with Pocket Spring Cushion at under $180 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
   },
   {
     "q": "What's the most common mistake buyers make shopping gaming chairs under $200?",

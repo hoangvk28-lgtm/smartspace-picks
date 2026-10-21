@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "hanging desk accessories";
 export const introParagraphs = [
   "This is a broad umbrella title covering multiple distinct hanging-accessory sub-categories, cup holders, file organizers, storage drawers, and hooks, rather than one specific product type. We built this guide as a consolidation hub, pulling the strongest pick from each sub-category we've researched rather than duplicating first-principles research already covered in our dedicated guides.",
-  "Every pick below attaches to a desk edge or underside without drilling, unless otherwise noted, and the buying criteria and universal gaps we found (attachment security, weight capacity, knee clearance) apply across every accessory type here.",
+  "Every pick below attaches to a desk edge or underside without drilling, unless otherwise noted, and the buying criteria and universal gaps we found (attachment security, weight capacity, knee clearance) apply across every accessory type here."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "9 min";
@@ -163,7 +163,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Cross-category consolidation, not duplicated research", description: "We pulled the top-performing pick from each of our dedicated hanging-accessory guides rather than re-running first-principles research under this broader title." },
   { title: "Universal attachment-mechanism and weight-capacity gaps", description: "We applied the core gaps established across our hanging-accessory research (clamp security, weight capacity, desk-edge compatibility) consistently across every accessory type here." },
   { title: "Genuine scope clarification", description: "We explicitly disclosed which picks require drilling versus which are no-drill, since this varies meaningfully by accessory type within this broad category." },
-  { title: "Miscellaneous accessory coverage where applicable", description: "We included hooks and multi-purpose hanging points where genuinely present, beyond pure cup holder or file organizer functions." },
+  { title: "Miscellaneous accessory coverage where applicable", description: "We included hooks and multi-purpose hanging points where genuinely present, beyond pure cup holder or file organizer functions." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -280,11 +280,11 @@ export const faq: FaqItem[] = [
   { q: "Do all hanging desk accessories require drilling?", a: "No, several picks in this roundup are genuine no-drill clamp-on designs. We clearly disclosed which picks require drilling and which don't for each accessory type." },
   { q: "What's the single highest-rated hanging accessory across your research?", a: "The Jakyitvi Adjustable 5 Tiers Wall File Organizer carries the highest rating across our entire hanging-accessory research, though it requires wall drilling." },
   { q: "What's the best no-drill option if I don't want to touch my walls?", a: "The KDD 4-in-1 Desk Cup Holder has the strongest review history among genuine no-drill picks, and the Safco Onyx is the top no-drill file organizer option." },
-  { q: "Can I combine multiple hanging accessories on one desk?", a: "Yes, as long as you account for combined desk-edge or under-desk space and knee clearance. Several picks here already combine multiple functions on one clamp to reduce this footprint." },
+  { q: "Can I combine multiple hanging accessories on one desk?", a: "Yes, as long as you account for combined desk-edge or under-desk space and knee clearance. Several picks here already combine multiple functions on one clamp to reduce this footprint." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-cup-holders", title: "Best Desk Cup Holders (2026)" },
   { href: "/guide/best-hanging-desk-organizers", title: "Best Hanging Desk Organizers (2026)" },
-  { href: "/guide/best-under-desk-hanging-organizers", title: "Best Under-Desk Hanging Organizers (2026)" },
+  { href: "/guide/best-under-desk-hanging-organizers", title: "Best Under-Desk Hanging Organizers (2026)" }
 ];

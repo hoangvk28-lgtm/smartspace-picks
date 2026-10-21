@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $84.79",
+          "Under $90",
           "Kaboon Marble-Pattern Laminate Desktop"
         ],
         [
-          "Around $89.99",
+          "Under $90",
           "SANODESK 48x30\" One-Piece Tabletop"
         ],
         [
-          "Around $259.99",
+          "Under $300",
           "LayBurst 70.8\" Reception Desk"
         ],
         [
-          "Around $349.99",
+          "Under $350",
           "LayBurst 86.8\" Large Reception Desk"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "LayBurst 86.8\" Large Reception Desk is aimed at buyers prioritizing 86.8\"l x 23.6\"d desktop, marble-patterned finish." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "LayBurst 86.8\" Large Reception Desk is aimed at buyers prioritizing 86.8\"l x 23.6\"d desktop, marble-patterned finish." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-stone-reception-desks","title":"best-stone-reception-desks"},{"href":"/guide/best-granite-reception-desks","title":"best-granite-reception-desks"},{"href":"/guide/best-quartz-reception-desks","title":"best-quartz-reception-desks"}];

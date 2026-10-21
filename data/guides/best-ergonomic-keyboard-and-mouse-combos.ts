@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "ergonomic keyboard and mouse";
 export const introParagraphs = [
   "An ergonomic keyboard and mouse combo saves a separate purchase and often shares a single wireless receiver, but the mouse half of the pairing does not always deliver the same ergonomic benefit as the keyboard half. Some combos pair a genuinely ergonomic keyboard with a regular sculpted mouse rather than a true vertical mouse, which reduces the pronation relief a buyer is usually shopping for in the first place.",
-  "Below are 8 ergonomic keyboard and mouse combos we evaluated on whether the mouse is actually ergonomic, receiver sharing, wrist support, and overall value, ranging from a $27.99 budget bundle to a $199.99 premium business combo.",
+  "Below are 8 ergonomic keyboard and mouse combos we evaluated on whether the mouse is actually ergonomic, receiver sharing, wrist support, and overall value, ranging from an under-$30 budget bundle to a $200 premium business combo."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -195,7 +195,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed whether the price reflects genuine ergonomic components on both halves or mainly covers the keyboard, from the budget bundle to the premium combos.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -356,11 +356,11 @@ export const faq: FaqItem[] = [
   {
     q: "Can both the keyboard and mouse switch between multiple devices?",
     a: "It depends on the combo. Premium picks like the Logitech MX Keys S and MX Keys Business support independent multi-device switching on both halves, while most budget combos in this list connect to a single device at a time.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-ergonomic-keyboards", title: "Best Ergonomic Keyboards (2026)" },
   { href: "/guide/best-split-ergonomic-keyboards", title: "Best Split Ergonomic Keyboards (2026)" },
-  { href: "/guide/best-small-keyboards", title: "Best Small Keyboards for Small Desks (2026)" },
+  { href: "/guide/best-small-keyboards", title: "Best Small Keyboards for Small Desks (2026)" }
 ];

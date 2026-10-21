@@ -193,36 +193,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $153.90",
+          "Under $160",
           "Genmitsu CNC 3018-PRO Router Kit"
         ],
         [
-          "Around $517.65",
+          "Under $550",
           "Genmitsu 4040-PRO CNC Router Machine for Metal Acrylic Cutting Milling"
         ],
         [
-          "Around $549.00",
+          "Under $550",
           "FoxAlien Masuter Pro 3-Axis CNC Router Machine"
         ],
         [
-          "Around $729.00",
+          "Under $750",
           "AnoleX CNC Router Machine 3060-Evo Max"
         ],
         [
-          "Around $799.20",
+          "Under $800",
           "Genmitsu PROVerXL 4030S CNC Router Machine"
         ],
         [
-          "Around $944.19",
+          "Under $950",
           "AnoleX CNC Router Machine 4030-Evo Ultra 2"
         ],
         [
-          "Around $2,499.00",
+          "Under $2,500",
           "Carvera Air Desktop CNC by MAKERA"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -270,7 +270,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", "a": "Genmitsu CNC 3018-PRO Router Kit is aimed at buyers prioritizing 300 x 180 x 45mm working area" },
+  { "q": "Which product in this roundup earns the top overall recommendation?", "a": "Genmitsu CNC 3018-PRO Router Kit is aimed at buyers prioritizing 300 x 180 x 45mm working area" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desktop-cnc-machines","title":"Best Desktop CNC Machines in 2026"},{"href":"/guide/best-desktop-cnc-mills","title":"Best Desktop CNC Mills in 2026"},{"href":"/guide/best-cutter-desktop-cnc-machines","title":"Best Cutter Desktop CNC Machines in 2026"}];

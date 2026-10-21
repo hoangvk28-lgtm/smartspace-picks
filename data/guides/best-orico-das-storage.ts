@@ -200,31 +200,31 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $8.54",
+          "Under $9",
           "ORICO 2.5-Inch Clear Hard Drive Enclosure (USB 3.0)"
         ],
         [
-          "Around $109.99",
+          "Under $110",
           "ORICO 5-Bay Hard Drive Enclosure (5Gbps USB 3.0)"
         ],
         [
-          "Around $114.99",
+          "Under $120",
           "ORICO 5-Bay Hard Drive Enclosure (USB-C"
         ],
         [
-          "Around $129.99",
+          "Under $130",
           "ORICO 5-Bay USB 3.1 Hard Drive Enclosure (110TB"
         ],
         [
-          "Around $179.95",
+          "Under $180",
           "ORICO 4-Bay RAID Hard Drive Enclosure (88TB"
         ],
         [
-          "Around $199.95",
+          "Under $200",
           "ORICO RAID 5-Bay HDD Enclosure (110TB"
         ],
         [
-          "Around $199.99",
+          "Under $200",
           "ORICO 5-Bay RAID Enclosure with 150W Built-In Power (110TB)"
         ]
       ]
@@ -279,10 +279,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "ORICO 2.5-Inch Clear Hard Drive Enclosure (USB 3.0) is aimed at buyers prioritizing 2.5in single-bay, transparent, up to 6tb, at $8.54."
+        "text": "ORICO 2.5-Inch Clear Hard Drive Enclosure (USB 3.0) is aimed at buyers prioritizing 2.5in single-bay, transparent, up to 6tb, at under $9."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -334,7 +334,7 @@ export const faq = [
     "a": "Only if the specific enclosure documents hot-swap support, which most tool-free tray designs in this category do. Always check your specific product's hot-swap capability before removing a drive live, since not every budget enclosure supports it, especially some fixed-RAID-mode units."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "ORICO 5-Bay Hard Drive Enclosure (5Gbps USB 3.0) is aimed at buyers prioritizing 5-bay, 2.5/3.5in, up to 110tb total." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "ORICO 5-Bay Hard Drive Enclosure (5Gbps USB 3.0) is aimed at buyers prioritizing 5-bay, 2.5/3.5in, up to 110tb total." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-usb-das-storage","title":"8 Best USB DAS Storage Options"},{"href":"/guide/best-raid-direct-attached-storage","title":"8 Best RAID Direct-Attached Storage"},{"href":"/guide/best-5-bay-direct-attached-storage","title":"6 Best 5-Bay Direct-Attached Storage"}];

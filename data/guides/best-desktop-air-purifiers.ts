@@ -5,7 +5,7 @@ export const metaDescription = "5 desktop-placed air purifiers we evaluated, wit
 export const mainKeyword = "desktop air purifier";
 export const introParagraphs = [
   "Desktop-placed purifiers sit within a user's direct breathing zone, making close-range noise and airflow-on-skin sensation, dry eyes, cold draft, more perceptible than for room-corner-placed units, a proximity-specific comfort factor worth weighing.",
-  "A desktop purifier's own exhaust can recirculate exhaled breath and CO2 in a small radius if placed too close to your face, a genuine air-quality consideration specific to very close desk proximity that whole-room CADR marketing doesn't address.",
+  "A desktop purifier's own exhaust can recirculate exhaled breath and CO2 in a small radius if placed too close to your face, a genuine air-quality consideration specific to very close desk proximity that whole-room CADR marketing doesn't address."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Desktop Air Purifier Overall",
     name: "VOOPNU Air Purifiers for Home, High Efficiency Filter Up to 1076 Ft2, White",
     price: "$26.99",
-    rating: "4.5 stars from 4,026 Amazon ratings",
-    reviews: "4,026 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41BE3lVftQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DY4S3HP2?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Desktop-Scale Alternative",
     name: "Purivortex Air Purifiers for Bedroom, Covers Up to 880 Sq Ft, PX500 Black",
     price: "$32.99",
-    rating: "4.5 stars from 2,997 Amazon ratings",
-    reviews: "2,997 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Apo3YcVHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9SL7894?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Certified HEPA Desktop Pick",
     name: "Air Purifiers for Bedroom, FULMINARE H13 True HEPA Air Filter, Quiet Air Cleaner With Night Light, Portable Small Air Purifier for Home, Office, Living Room",
     price: "$24.99",
-    rating: "4.4 stars from 5,517 Amazon ratings",
-    reviews: "5,517 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/414NIpA+xLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B4ZSKPNL?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Desktop Pick",
     name: "Levoit Air Purifiers for Bedroom Home Pets Dorm Room, Small Air Purifiers",
     price: "$49.99",
-    rating: "4.6 stars from 44,671 Amazon ratings",
-    reviews: "44,671 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ODC2Uu41L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09GTRVJQM?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Quiet Desktop Pick",
     name: "Levoit Air Purifiers for Home Bedroom Dorm Room, Small Quiet Air Purifiers",
     price: "$44.99",
-    rating: "4.6 stars from 44,671 Amazon ratings",
-    reviews: "44,671 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31e6d46ZnyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09LMF648R?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Large, well-established review base", "Quiet-focused design for close breathing-zone placement", "Very affordable", "Compact footprint"],
     cons: ["Limited whole-room contribution", "Filter replacement more frequent given compact media", "No smart features"],
     bestFor: "Buyers who want quiet operation for direct desktop breathing-zone placement",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Product-tier clarification distinguishing desktop from ultra-compact", description: "Distinguished this article's scope from the more miniaturized compact-desk tier, since desktop units are typically larger and can, in a small enough room, contribute to real whole-room air changes rather than just personal-zone cleaning." },
   { title: "Close-range noise and breathing-zone comfort testing prioritized", description: "Weighed close-range noise and airflow-on-skin sensation more heavily than for room-corner-placed units, since desktop placement sits within a user's direct breathing zone." },
-  { title: "Breathing-zone exhaust recirculation and thermal interaction considered", description: "Flagged the genuine air-quality consideration of exhaled breath and CO2 recirculation at very close proximity, plus thermal interaction between purifier exhaust and nearby electronics' own ventilation intakes." },
+  { title: "Breathing-zone exhaust recirculation and thermal interaction considered", description: "Flagged the genuine air-quality consideration of exhaled breath and CO2 recirculation at very close proximity, plus thermal interaction between purifier exhaust and nearby electronics' own ventilation intakes." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "What's the difference between 'desktop' and 'compact for desks' air purifiers?", a: "Desktop units are typically larger with genuinely higher CADR that could contribute to real whole-room air changes in a small enough room, while 'compact for desks' units are more miniaturized and personal-zone focused only." },
   { q: "Can a desktop air purifier affect nearby electronics?", a: "Potentially, through a thermal interaction. A purifier placed near a monitor or laptop can draw warm exhaust air across the device's own ventilation intakes, worth checking if you place them very close together." },
   { q: "How often should I clean a desktop air purifier's pre-filter?", a: "Check the specific manufacturer's guidance, but a pre-filter mesh sitting in a dusty desk environment typically benefits from vacuuming or wiping every few weeks between full filter replacements to maintain airflow." },
-  { q: "Does a desktop air purifier need to run 24/7 to be effective?", a: "Not necessarily, running it during active desk hours covers the time you're actually breathing that air, though continuous low-speed operation does keep particulate levels more consistently low overall." },
+  { q: "Does a desktop air purifier need to run 24/7 to be effective?", a: "Not necessarily, running it during active desk hours covers the time you're actually breathing that air, though continuous low-speed operation does keep particulate levels more consistently low overall." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-compact-air-purifiers-for-desks", title: "Best Compact Air Purifiers for Desks (2026)" },
   { href: "/guide/best-portable-air-purifiers", title: "Best Portable Air Purifiers (2026)" },
-  { href: "/guide/best-quiet-air-purifiers-for-home-offices", title: "Best Quiet Air Purifiers for Home Offices (2026)" },
+  { href: "/guide/best-quiet-air-purifiers-for-home-offices", title: "Best Quiet Air Purifiers for Home Offices (2026)" }
 ];

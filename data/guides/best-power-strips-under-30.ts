@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Maximum joule rating with a documented equipment warranty", "Belkin 12-Outlet Surge Protector Power Strip"],
         ["The fastest USB-C phone charging from a trusted brand", "Anker Power Strip with 2100J Surge Protector"],
         ["The single highest joule rating and longest cord", "LeZone 4800J Surge Protector Power Strip"],
-        ["A bedside-friendly tower with a night light", "PASSUS Surge Protector Power Strip Tower"],
+        ["A bedside-friendly tower with a night light", "PASSUS Surge Protector Power Strip Tower"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $24", "Anker ($23.99)"],
-        ["Under $27", "LeZone 4800J ($26.99)"],
-        ["Under $30", "PASSUS Tower ($28.99) or Belkin ($29.95)"],
+        ["Under $24", "Anker (under $25)"],
+        ["Under $27", "LeZone 4800J (under $30)"],
+        ["Under $30", "PASSUS Tower (under $30) or Belkin (under $30)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Established Brand vs Higher Joule Rating from a Generic Manufacturer",
     cards: [
       { label: "Established brand (Belkin, Anker)", text: "Backed by documented connected equipment warranties and a company track record, even if the joule rating is technically lower than a generic competitor." },
-      { label: "Generic manufacturer (LeZone)", text: "Can offer a higher raw joule rating and longer cord at a lower price, without the same documented warranty backing." },
+      { label: "Generic manufacturer (LeZone)", text: "Can offer a higher raw joule rating and longer cord at a lower price, without the same documented warranty backing." }
     ],
     note: "If you want documented financial protection if your equipment is damaged despite the surge protector, the Belkin or Anker's equipment warranty offers real assurance. If raw joule rating and cord length matter more, the LeZone pick delivers those for less.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Fastest single USB-C port for phone charging", "Anker (20W USB-C)"],
         ["Multiple USB-C ports for several devices", "LeZone (2 USB-C, 15W PD)"],
-        ["No USB needed, maximum joule rating instead", "Belkin (no USB ports)"],
+        ["No USB needed, maximum joule rating instead", "Belkin (no USB ports)"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Nightstand or Bedside Setup Specifically",
     cards: [
       { label: "Look for", text: "A built-in light feature that lets the power strip double as functional bedside lighting rather than needing a separate lamp." },
-      { label: "In this comparison", text: "The PASSUS Tower's built-in night light with adjustable brightness is specifically suited to this bedside use case." },
+      { label: "In this comparison", text: "The PASSUS Tower's built-in night light with adjustable brightness is specifically suited to this bedside use case." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a documented connected equipment warranty from an established brand, where the Belkin or Anker picks each back their surge protection with real financial assurance." },
-      { label: "Save if", text: "You want the highest raw joule rating and longest cord without brand-name warranty backing, where the LeZone pick delivers 4800J of protection for about $3 less than the Belkin." },
+      { label: "Save if", text: "You want the highest raw joule rating and longest cord without brand-name warranty backing, where the LeZone pick delivers 4800J of protection for about $3 less than the Belkin." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

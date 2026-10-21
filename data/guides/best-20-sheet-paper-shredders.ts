@@ -5,7 +5,7 @@ export const metaDescription = "8 shredders we evaluated near the 20-sheet capac
 export const mainKeyword = "20-sheet paper shredder";
 export const introParagraphs = [
   "At this capacity tier, shredders labeled similarly can have daily volume ratings that differ enormously, an invisible gap when comparing on sheet count alone. Real-world capacity with mixed office paper is still typically 25-30% below the rated number, the same pattern seen at every lower tier, just scaled up.",
-  "This is also where noise output tends to rise due to larger motors handling higher throughput, and blade replacement or professional servicing becomes more relevant for heavy-duty use than at lighter capacity tiers.",
+  "This is also where noise output tends to rise due to larger motors handling higher throughput, and blade replacement or professional servicing becomes more relevant for heavy-duty use than at lighter capacity tiers."
 ];
 export const lastUpdated = "2026-07-28";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Highest Manual Capacity Near This Tier",
     name: "Amazon Basics 24-Sheet Cross Cut High Security Paper Shredder",
     price: "$152.94",
-    rating: "4.3 stars from 77,112 Amazon ratings",
-    reviews: "77,112 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ZVKWNs1oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07WJ4NLFX?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Near This Tier",
     name: "Amazon Basics 18 Sheet Cross Cut Paper, CD, and Credit Card Shredder",
     price: "$108.00",
-    rating: "4.3 stars from 77,112 Amazon ratings",
-    reviews: "77,112 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31snLzhrJGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07R3FXLLQ?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best P-4 Security Near 20 Sheets",
     name: "Bonsaii 18-Sheet Cross-Cut 60-Min Run Heavy Duty Paper Shredder",
     price: "$179.99",
-    rating: "4.6 stars from 10,748 Amazon ratings",
-    reviews: "10,748 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41FCXr1akDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00IOFD08C?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Bulk Sessions Instead of Per-Pass Capacity",
     name: "Bonsaii 120-Sheet Autofeed Micro-Cut 30-Min Run Heavy Duty Paper Shredder",
     price: "$179.99",
-    rating: "4.3 stars from 1,048 Amazon ratings",
-    reviews: "1,048 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31lBbbWrCsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSJ3K6T3?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Value Auto-Feed Alternative",
     name: "Bonsaii 100-Sheet Auto Feed Micro-Cut Paper Shredder Heavy Duty",
     price: "$126.99",
-    rating: "4.3 stars from 1,629 Amazon ratings",
-    reviews: "1,629 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31VvTJMBXPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DG2MGVMV?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Most Proven Track Record Below This Tier",
     name: "Aurora AU1210MA Professional Grade High Security 12-Sheet Micro-Cut Shredder",
     price: "$135.78",
-    rating: "4.7 stars from 9,126 Amazon ratings",
-    reviews: "9,126 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/413GY12YKjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CX4DZ4Z?tag=deskfinds0d-20",
     description:
@@ -127,8 +127,8 @@ export const products: GuideProduct[] = [
     badge: "Budget Alternative Below This Tier",
     name: "Bonsaii 12-Sheet Cross Cut Heavy Duty Paper Shredder for Home Office",
     price: "$79.99",
-    rating: "4.5 stars from 1,685 Amazon ratings",
-    reviews: "1,685 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/310qS+3q87L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5XPJ524?tag=deskfinds0d-20",
     description:
@@ -144,8 +144,8 @@ export const products: GuideProduct[] = [
     badge: "Established Retail Brand Alternative",
     name: "Staples 12-Sheet Micro-Cut Paper Shredder, High-Security, Anti-Jam",
     price: "$122.49",
-    rating: "4.6 stars from 125 Amazon ratings",
-    reviews: "125 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/316eLXGAjFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSJSGHPP?tag=deskfinds0d-20",
     description:
@@ -154,14 +154,14 @@ export const products: GuideProduct[] = [
     pros: ["Established, recognizable office-supply retail brand", "Genuinely long 20-minute run time for the capacity", "Quiet 65dB operation", "Pull-out bin on casters"],
     cons: ["Below this guide's 20-sheet nominal target", "Smaller review count than the Amazon Basics/Bonsaii picks", "Higher price relative to its 12-sheet capacity"],
     bestFor: "Buyers who prefer an established retail brand name over the highest raw capacity",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Daily volume rating divergence at this capacity tier", description: "Flagged that shredders labeled similarly near the 20-sheet tier can have daily volume ratings ranging widely, a real commercial-capability gap invisible in a sheet-count-only comparison." },
   { title: "Real-world capacity versus rated capacity at scale", description: "Applied the same 25-30% real-world reduction pattern seen at every lower tier, scaled up, a 20-24 sheet-rated shredder realistically handles meaningfully fewer sheets of mixed office paper." },
-  { title: "Noise and service considerations at higher throughput", description: "Noted that larger motors handling higher throughput at this tier tend to produce more noise on average, and that heavy-duty use at this capacity makes blade replacement/servicing availability more relevant than at lighter tiers." },
+  { title: "Noise and service considerations at higher throughput", description: "Noted that larger motors handling higher throughput at this tier tend to produce more noise on average, and that heavy-duty use at this capacity makes blade replacement/servicing availability more relevant than at lighter tiers." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -294,11 +294,11 @@ export const faq: FaqItem[] = [
   { q: "Are shredders at this capacity tier noisier than smaller ones?", a: "Generally yes, on average. Larger motors needed to handle higher throughput tend to produce more noise than smaller-capacity shredders, a real tradeoff for the extra capacity." },
   { q: "Should I buy a 20+ sheet manual shredder or an auto-feed hopper instead?", a: "Depends on your use case. An auto-feed hopper (even a 100-120 sheet one) serves a different need, hands-free bulk processing, than a manual 20-24 sheet shredder fed by hand, they're not directly interchangeable despite both appearing in this capacity discussion." },
   { q: "Does a 20-sheet shredder need a larger waste bin than smaller models?", a: "Typically yes, a higher sheet-per-pass capacity fills the bin faster, check the specific listed bin capacity in gallons against how often you're willing to empty it." },
-  { q: "Can a 20-sheet shredder handle staples and paper clips without jamming?", a: "Many are rated for light staples and clips, but check the specific listing's stated tolerance, since repeatedly feeding heavy-duty staples can dull blades faster than the rated paper capacity alone would suggest." },
+  { q: "Can a 20-sheet shredder handle staples and paper clips without jamming?", a: "Many are rated for light staples and clips, but check the specific listing's stated tolerance, since repeatedly feeding heavy-duty staples can dull blades faster than the rated paper capacity alone would suggest." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-paper-shredders-on-wheels", title: "Best Paper Shredders on Wheels (2026)" },
   { href: "/guide/best-15-sheet-paper-shredders", title: "Best 15-Sheet Paper Shredders (2026)" },
-  { href: "/guide/best-long-run-paper-shredders", title: "Best Long-Run Paper Shredders (2026)" },
+  { href: "/guide/best-long-run-paper-shredders", title: "Best Long-Run Paper Shredders (2026)" }
 ];

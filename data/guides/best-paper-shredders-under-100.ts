@@ -5,7 +5,7 @@ export const metaDescription = "8 shredders under $100, with an honest security-
 export const mainKeyword = "paper shredder under 100";
 export const introParagraphs = [
   "Sub-$100 shredders sit almost universally at P-3 to P-4 security, a real ceiling worth knowing upfront if your documents need higher-security destruction. Duty cycle at this price point is also the shortest in the category, often 3-9 minutes with 30-40 minute cooldowns, plan for that if you're purging a large document backlog.",
-  "Warranty coverage at this price tier is also typically the shortest available, often 1 year, and staple/clip tolerance is generally weakest here due to standard (non-hardened) steel blades, both real cost-of-ownership factors beyond the sticker price.",
+  "Warranty coverage at this price tier is also typically the shortest available, often 1 year, and staple/clip tolerance is generally weakest here due to standard (non-hardened) steel blades, both real cost-of-ownership factors beyond the sticker price."
 ];
 export const lastUpdated = "2026-07-28";
 export const readTime = "9 min";
@@ -25,12 +25,12 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Under $100",
     name: "Amazon Basics 8-Sheet High Security Cross Cut Paper and Credit Card Shredder",
     price: "$33.16",
-    rating: "4.3 stars from 77,112 Amazon ratings",
-    reviews: "77,112 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31QbluTUmKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6LZ8S34?tag=deskfinds0d-20",
     description:
-      "At just a competitive price, this is the cheapest genuinely P-4-rated shredder in this guide, with a massive review base offering exceptional real-world confidence at this price point. As with every genuine budget pick, expect a short 3-minute duty cycle and standard (not confirmed hardened) steel blades. Handles credit cards alongside paper, a genuinely useful combination at this price tier. The standout detail is that massive proven review base. Balancing that out, short 3-minute continuous run time.\n\nThe strongest case for this pick comes down to cheapest genuinely P-4-rated pick in this guide as well as massive proven review base. The compromise here is that short 3-minute continuous run time, so factor that in alongside the $33.16 asking price.",
+      "At just a competitive price, this is the cheapest genuinely P-4-rated shredder in this guide, with a massive review base offering exceptional real-world confidence at this price point. As with every genuine budget pick, expect a short 3-minute duty cycle and standard (not confirmed hardened) steel blades. Handles credit cards alongside paper, a genuinely useful combination at this price tier. The standout detail is that massive proven review base. Balancing that out, short 3-minute continuous run time.\n\nThe strongest case for this pick comes down to cheapest genuinely P-4-rated pick in this guide as well as massive proven review base. The compromise here is that short 3-minute continuous run time, so factor that in alongside the under $35 asking price.",
     specs: ["8-sheet cross-cut, P-4 high security", "3-minute continuous run time", "3.7-gallon bin", "Massive review base"],
     pros: ["Cheapest genuinely P-4-rated pick in this guide", "Massive proven review base", "Handles credit cards", "Reliable at this exact price point"],
     cons: ["Short 3-minute continuous run time", "Standard steel blades, not confirmed hardened for heavy staple use", "Small 3.7-gallon bin needs frequent emptying"],
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Same Value, White Finish",
     name: "Amazon Basics 8-Sheet Cross Cut Paper and Credit Card Shredder for Security, White",
     price: "$33.16",
-    rating: "4.3 stars from 77,112 Amazon ratings",
-    reviews: "77,112 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31WGmZ4xo0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6LXGNY1?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Under-Desk Value",
     name: "BONSEN Shredder for Home Office, 4 Gallons 8-Sheet Cross Cut Credit Card Shredder",
     price: "$39.09",
-    rating: "4.4 stars from 7,466 Amazon ratings",
-    reviews: "7,466 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31AtA7qsSwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08J2N4CS2?tag=deskfinds0d-20",
     description:
@@ -76,12 +76,12 @@ export const products: GuideProduct[] = [
     badge: "Longest Run Time Under $100",
     name: "Bonsaii 12-Sheet Cross Cut Heavy Duty Paper Shredder for Home Office",
     price: "$79.99",
-    rating: "4.5 stars from 1,685 Amazon ratings",
-    reviews: "1,685 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/310qS+3q87L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5XPJ524?tag=deskfinds0d-20",
     description:
-      "At a competitive price, this is the priciest pick in this guide but delivers the longest continuous run time at a budget-friendly price at 15 minutes, capable of roughly 900 sheets per cycle, a genuinely substantial duty cycle for the price ceiling. Jam-proof reverse and a large 5.5-gallon bin round out a strong value proposition near the top of this budget range. A reasonable choice if you're willing to spend closer to the ceiling for meaningfully more run time and capacity than the cheapest picks. A genuine advantage here is that large 5.5-gallon bin. The tradeoff is that priciest pick in this guide, close to the ceiling.\n\nWhat stands out here is longest continuous run time under $100 in this guide, plus large 5.5-gallon bin. The main tradeoff: priciest pick in this guide, close to the $100 ceiling, so weigh that against the $79.99 price before buying.",
+      "At a competitive price, this is the priciest pick in this guide but delivers the longest continuous run time at a budget-friendly price at 15 minutes, capable of roughly 900 sheets per cycle, a genuinely substantial duty cycle for the price ceiling. Jam-proof reverse and a large 5.5-gallon bin round out a strong value proposition near the top of this budget range. A reasonable choice if you're willing to spend closer to the ceiling for meaningfully more run time and capacity than the cheapest picks. A genuine advantage here is that large 5.5-gallon bin. The tradeoff is that priciest pick in this guide, close to the ceiling.\n\nWhat stands out here is longest continuous run time under $100 in this guide, plus large 5.5-gallon bin. The main tradeoff: priciest pick in this guide, close to the $100 ceiling, so weigh that against the under $80 price before buying.",
     specs: ["12-sheet cross-cut, P-4", "15-minute continuous run, ~900 sheets/cycle", "5.5-gallon bin, jam-proof reverse", "Solid rating"],
     pros: ["Longest continuous run time under $100 in this guide", "Large 5.5-gallon bin", "Jam-proof reverse system", "Higher per-pass capacity than the 8-sheet picks"],
     cons: ["Priciest pick in this guide, close to the $100 ceiling", "Not the cheapest option here", "Same P-4 security ceiling as the rest of this guide"],
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Compact Budget Alternative",
     name: "Bonsaii 9-Sheet Crosscut Paper Shredder for Home, P-4 Security Level",
     price: "$45.99",
-    rating: "4.4 stars from 17,486 Amazon ratings",
-    reviews: "17,486 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31CCjvn4JRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK73XJCX?tag=deskfinds0d-20",
     description:
@@ -110,12 +110,12 @@ export const products: GuideProduct[] = [
     badge: "Best Large Bin Under $60",
     name: "Bonsaii 10-Sheet Heavy Duty Cross Cut Paper Shredder for Home Office",
     price: "$53.09",
-    rating: "4.4 stars from 9,810 Amazon ratings",
-    reviews: "9,810 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31wkQYg97oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09MHR4457?tag=deskfinds0d-20",
     description:
-      "A genuinely large 5.5-gallon bin at just at a premium price, real value at this budget tier, with 10-sheet capacity and confirmed staple/credit card handling. Strong review base offers real-world confidence in this specific balance of capacity, bin size, and price. A sensible mid-budget pick if bin size matters more to you than run time. Worth calling out specifically: strong review base. The catch is short 4-minute continuous run time.\n\nWhere this one earns its spot is large 5.5-gallon bin for the price, and strong review base. Worth noting before buying: short 4-minute continuous run time, which matters more at $53.09 than it would on a cheaper pick.",
+      "A genuinely large 5.5-gallon bin at just at a premium price, real value at this budget tier, with 10-sheet capacity and confirmed staple/credit card handling. Strong review base offers real-world confidence in this specific balance of capacity, bin size, and price. A sensible mid-budget pick if bin size matters more to you than run time. Worth calling out specifically: strong review base. The catch is short 4-minute continuous run time.\n\nWhere this one earns its spot is large 5.5-gallon bin for the price, and strong review base. Worth noting before buying: short 4-minute continuous run time, which matters more at under $60 than it would on a cheaper pick.",
     specs: ["10-sheet cross-cut, P-4", "4-minute continuous run time", "5.5-gallon bin", "Handles staples, credit cards"],
     pros: ["Large 5.5-gallon bin for the price", "Strong review base", "Handles staples and credit cards", "Good balance of capacity and price"],
     cons: ["Short 4-minute continuous run time", "Same P-4 security ceiling as the rest of this guide", "Not the absolute cheapest option here"],
@@ -127,12 +127,12 @@ export const products: GuideProduct[] = [
     badge: "Highest Capacity Under $60",
     name: "Amazon Basics 12-Sheet Cross-Cut Paper and Credit Card Shredder",
     price: "$58.00",
-    rating: "4.3 stars from 77,112 Amazon ratings",
-    reviews: "77,112 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31GNS0CdNOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6LZG69W?tag=deskfinds0d-20",
     description:
-      "The highest sheet capacity at a budget-friendly price in this guide at 12 sheets, with the massive Amazon Basics review base for strong real-world confidence. P-3 security here, a step below the P-4 picks elsewhere in this guide, a real tradeoff at this specific price point. A 9-minute continuous run time is a genuine step up from the shortest budget picks, worth the modest premium over the 8-sheet options. Massive proven review base. Set against that, p-3 security, lower than the P-4 picks elsewhere in this guide. Both matter when comparing it to the other picks here.\n\nThis pick is best for buyers who value highest capacity under $60 in this guide along with massive proven review base. The catch is that p-3 security, lower than the P-4 picks elsewhere in this guide, so decide if that's worth it at $58.00.",
+      "The highest sheet capacity at a budget-friendly price in this guide at 12 sheets, with the massive Amazon Basics review base for strong real-world confidence. P-3 security here, a step below the P-4 picks elsewhere in this guide, a real tradeoff at this specific price point. A 9-minute continuous run time is a genuine step up from the shortest budget picks, worth the modest premium over the 8-sheet options. Massive proven review base. Set against that, p-3 security, lower than the P-4 picks elsewhere in this guide. Both matter when comparing it to the other picks here.\n\nThis pick is best for buyers who value highest capacity under $60 in this guide along with massive proven review base. The catch is that p-3 security, lower than the P-4 picks elsewhere in this guide, so decide if that's worth it at under $60.",
     specs: ["12-sheet cross-cut, P-3 security", "9-minute continuous run time", "5-gallon bin", "Massive review base"],
     pros: ["Highest capacity under $60 in this guide", "Massive proven review base", "Longer run time than the 8-sheet budget picks", "Large 5-gallon bin"],
     cons: ["P-3 security, lower than the P-4 picks elsewhere in this guide", "Not the cheapest option here", "Standard blade hardness, not confirmed"],
@@ -144,8 +144,8 @@ export const products: GuideProduct[] = [
     badge: "Most Compact, Lowest Run Time",
     name: "Bonsaii 12-Sheet Cross Cut Paper Shredder, 5.5 Gal Home Office Heavy Duty",
     price: "$55.24",
-    rating: "4.5 stars from 8,974 Amazon ratings",
-    reviews: "8,974 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31H0gGU7jHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09N991KVT?tag=deskfinds0d-20",
     description:
@@ -154,14 +154,14 @@ export const products: GuideProduct[] = [
     pros: ["Compact footprint fits under a desk", "Large 5.5-gallon bin", "Strong rating and review base", "P-4 security level"],
     cons: ["Short 6-minute continuous run time typical of this price tier", "Same P-4 security ceiling as the rest of this guide", "Not suited for large bulk purges"],
     bestFor: "Buyers who want a compact, well-rated shredder for light regular home-office use",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Explicit security-level ceiling disclosure at this price tier", description: "Confirmed that every pick in this guide sits at P-3 or P-4 security, the realistic ceiling at a budget-friendly price, buyers needing higher security destruction won't find it reliably in this price range." },
   { title: "Duty cycle and cooldown as a cost-of-ownership factor", description: "Highlighted that budget-tier shredders have the shortest duty cycles in the category (3-15 minutes), front-and-center rather than buried, since this directly affects realistic bulk-purge expectations." },
-  { title: "Blade hardness disclosure (or its absence) as a reliability signal", description: "Noted that none of the picks in this guide explicitly confirm hardened steel blades, the sub-a competitive tier is the segment least likely to disclose this detail, making staple-tolerance claims less verifiable here than at higher price points." },
+  { title: "Blade hardness disclosure (or its absence) as a reliability signal", description: "Noted that none of the picks in this guide explicitly confirm hardened steel blades, the sub-a competitive tier is the segment least likely to disclose this detail, making staple-tolerance claims less verifiable here than at higher price points." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -294,11 +294,11 @@ export const faq: FaqItem[] = [
   { q: "Are warranties shorter on budget shredders?", a: "Generally yes. Sub-$100 shredders commonly carry around 1-year warranties, shorter than premium models, a real cost-of-ownership factor since these units also tend to wear faster." },
   { q: "Which pick in this guide has the longest run time under $100?", a: "The Bonsaii 12-sheet C282-A pick (rank 4) offers 15 minutes of continuous run time, capable of roughly 900 sheets per cycle, the longest confirmed duty cycle among the picks in this guide." },
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers who want the cheapest genuinely P-4-secure shredder" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want the cheapest genuinely P-4-secure shredder At $33.16, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want the cheapest genuinely P-4-secure shredder At under $35, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-8-sheet-paper-shredders", title: "Best 8-Sheet Paper Shredders (2026)" },
   { href: "/guide/best-10-sheet-paper-shredders", title: "Best 10-Sheet Paper Shredders (2026)" },
-  { href: "/guide/best-paper-shredders-for-credit-cards", title: "Best Paper Shredders for Credit Cards (2026)" },
+  { href: "/guide/best-paper-shredders-for-credit-cards", title: "Best Paper Shredders for Credit Cards (2026)" }
 ];

@@ -193,36 +193,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $38.99",
+          "Under $40",
           "UGEE M708 Drawing Tablet"
         ],
         [
-          "Around $39.95",
+          "Under $40",
           "Wacom Intuos Small"
         ],
         [
-          "Around $41.79",
+          "Under $45",
           "HUION Inspiroy H1060P Graphics Drawing Tablet"
         ],
         [
-          "Around $44.99",
+          "Under $45",
           "XPPen Deco 01 V3 10x6 Drawing Tablet"
         ],
         [
-          "Around $149.99",
+          "Under $150",
           "GAOMON PD1161 Drawing Tablet with Screen"
         ],
         [
-          "Around $209.99",
+          "Under $250",
           "XPPen Artist 13.3 Pro 13.3\" Drawing Tablet with Screen"
         ],
         [
-          "Around $209.99",
+          "Under $250",
           "HUION Kamvas 13 (Gen 3) Drawing Tablet with Screen 16K Pressure PenTech 4.0"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -270,7 +270,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Wacom Intuos Small is aimed at buyers prioritizing wired usb, emr battery-free pen." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Wacom Intuos Small is aimed at buyers prioritizing wired usb, emr battery-free pen." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets-for-professionals","title":"Best Drawing Tablets for Professionals in 2026"},{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"},{"href":"/guide/best-wacom-drawing-tablets","title":"Best Wacom Drawing Tablets in 2026"}];

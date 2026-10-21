@@ -11,7 +11,7 @@ export const cableSleeveSizeChartGuide: Guide = {
   subKeywords: [
     "cable sleeve diameter chart",
     "how many cables fit in a sleeve",
-    "cable management sleeve length",
+    "cable management sleeve length"
   ],
   heroImage: "https://images.unsplash.com/photo-1473831818960-c89731aabc3e?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1473831818960-c89731aabc3e?q=80&w=800&auto=format&fit=crop",
@@ -23,7 +23,7 @@ export const cableSleeveSizeChartGuide: Guide = {
     "cable-management-dorm",
     "best-cable-management-boxes-for-desks",
     "best-corner-desks-with-cable-management",
-    "best-under-desk-cable-trays",
+    "best-under-desk-cable-trays"
   ],
   faq: [
     {
@@ -45,7 +45,7 @@ export const cableSleeveSizeChartGuide: Guide = {
       question: "How many cables fit in a standard cable sleeve?",
       answer:
         "A standard 2-inch diameter sleeve comfortably holds 6-8 standard cables. Braided expandable sleeves flex with the cable count, generally handling anywhere from 4 to 12 cables depending on how much they stretch, while rigid split-loom tubing has a harder fixed limit closer to 6-8.",
-    },
+    }
   ],
   sections: [
     {
@@ -77,6 +77,6 @@ Length options typically range from 3 feet (a short desk-to-floor run) up to 10-
 2. **Measure the run length** from where the cables gather (behind your monitor or desk) to where they terminate (a power strip or wall outlet), adding a few extra inches for bends.
 3. **Check the diameter of your thickest cable individually**, such as a laptop charging brick cord, since one unusually thick cable can require sizing up even if the total cable count is otherwise low.
 4. **Leave slack for movement** if the sleeve covers cables connected to anything that moves, like a standing desk's height adjustment, so the sleeve doesn't pull taut at full extension.`,
-    },
+    }
   ],
 };

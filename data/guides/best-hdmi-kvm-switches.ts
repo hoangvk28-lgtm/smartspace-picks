@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "hdmi kvm switch";
 export const introParagraphs = [
   "The HDMI version a switch supports matters as much as the switch's own specs, an HDMI 2.0 switch caps your achievable resolution and refresh rate below what HDMI 2.1 supports, even if your monitor and computer both support the newer standard.",
-  "HDMI cable quality and length also affect signal reliability through a KVM switch, a cheap or overly long cable can introduce dropouts or flickering that has nothing to do with the switch itself, worth using a certified high-speed cable at a reasonable length.",
+  "HDMI cable quality and length also affect signal reliability through a KVM switch, a cheap or overly long cable can introduce dropouts or flickering that has nothing to do with the switch itself, worth using a certified high-speed cable at a reasonable length."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -26,7 +26,7 @@ export const products: GuideProduct[] = [
     badge: "Best HDMI KVM Switch Overall",
     name: "UGREEN HDMI KVM Switch 1 Monitor 2 Computers, 8K@60Hz, Aluminum",
     price: "$64.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41K5Wvne7oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFFCPL26?tag=deskfinds0d-20",
@@ -42,7 +42,7 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Monitor HDMI KVM Pick",
     name: "UGREEN HDMI KVM Switch 2 Monitors 2 Computers 4K@60Hz, with 4 USB 3.0 Ports",
     price: "$69.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41ZrB2w7oOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXF66SWR?tag=deskfinds0d-20",
@@ -58,7 +58,7 @@ export const products: GuideProduct[] = [
     badge: "Best Multi-Format HDMI and DisplayPort Pick",
     name: "UGREEN 8K@60Hz HDMI Displayport KVM Switch 3 Monitors 2 Computers, Aluminum",
     price: "$92.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41r-g4mzwpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G34NJ11Y?tag=deskfinds0d-20",
@@ -74,7 +74,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget HDMI KVM Pick",
     name: "USB3.0 KVM Switch 2 Port HDMI, 4K@60Hz KVM Switch 1 Monitors 2 Computers with 3 USB3.0 Ports",
     price: "$32.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41uSOQO2ILL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFVBK4XQ?tag=deskfinds0d-20",
@@ -90,7 +90,7 @@ export const products: GuideProduct[] = [
     badge: "Best Ultra-Budget HDMI KVM Pick",
     name: "Hearvo USB 3.0 HDMI KVM Switch for 2 Computers 1 Monitor, 4K@60Hz, S7232H",
     price: "$26.23",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41ll9M3dnWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5D4FK1H?tag=deskfinds0d-20",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "HDMI version bandwidth inferred from documented resolution support", description: "Inferred likely HDMI version support from documented resolution and refresh rate specs, since an HDMI 2.0-class switch caps achievable resolution below HDMI 2.1 capability." },
   { title: "Cable quality flagged as a factor independent of the switch itself", description: "Flagged that HDMI cable quality and length affect signal reliability through a KVM switch, independent of the switch's own specs." },
   { title: "EDID emulation checked for resolution retention across switches", description: "Checked whether EDID emulation is documented, since without it a monitor can lose its resolution and color settings on every switch." },
-  { title: "USB peripheral switching scope verified per model", description: "Verified exactly which peripherals each HDMI KVM switch handles, since some only switch keyboard and mouse while others pass through a full USB hub." },
+  { title: "USB peripheral switching scope verified per model", description: "Verified exactly which peripherals each HDMI KVM switch handles, since some only switch keyboard and mouse while others pass through a full USB hub." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -226,11 +226,11 @@ export const faq: FaqItem[] = [
   { q: "Does HDMI version matter for a KVM switch?", a: "Yes, an HDMI 2.0 switch caps your achievable resolution and refresh rate below what HDMI 2.1 supports, even if your other equipment handles the newer standard." },
   { q: "Why does my HDMI KVM switch have signal dropouts?", a: "This is often a cable quality or length issue rather than the switch itself, use a certified high-speed HDMI cable at a reasonable length." },
   { q: "Do I need an 8K-capable HDMI KVM switch?", a: "Only if you have or plan to have an 8K monitor, a 4K@60Hz switch covers the vast majority of current monitor setups." },
-  { q: "Can an HDMI KVM switch also handle DisplayPort monitors?", a: "Some models support both HDMI and DisplayPort connectivity, check the specific listing if you have a mixed-connector setup." },
+  { q: "Can an HDMI KVM switch also handle DisplayPort monitors?", a: "Some models support both HDMI and DisplayPort connectivity, check the specific listing if you have a mixed-connector setup." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-kvm-switches", title: "Best KVM Switches (2026)" },
   { href: "/guide/best-displayport-kvm-switches", title: "Best DisplayPort KVM Switches (2026)" },
-  { href: "/guide/best-4k-kvm-switches", title: "Best 4K KVM Switches (2026)" },
+  { href: "/guide/best-4k-kvm-switches", title: "Best 4K KVM Switches (2026)" }
 ];

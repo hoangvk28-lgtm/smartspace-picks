@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Fastest VPN throughput", "GL.iNet GL-MT3000 Beryl AX"],
         ["VPN kill switch and per-site routing", "GL.iNet GL-A1300 Pocket VPN (Slate Plus)"],
         ["Smallest size with VPN server capability", "GL.iNet GL-AR300M16 Mini"],
-        ["Lowest price", "GL.iNet GL-MT300N-V2 (Mango)"],
+        ["Lowest price", "GL.iNet GL-MT300N-V2 (Mango)"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $30", "GL.iNet GL-MT300N-V2 (Mango) ($29.99)"],
-        ["Under $37", "GL.iNet GL-AR300M16 Mini ($36.99)"],
-        ["Under $70", "GL.iNet GL-A1300 Pocket VPN ($69.99)"],
-        ["Under $99", "GL.iNet GL-MT3000 Beryl AX ($98.99)"],
+        ["Under $30", "GL.iNet GL-MT300N-V2 (Mango) (under $30)"],
+        ["Under $37", "GL.iNet GL-AR300M16 Mini (under $40)"],
+        ["Under $70", "GL.iNet GL-A1300 Pocket VPN (under $70)"],
+        ["Under $99", "GL.iNet GL-MT3000 Beryl AX (under $100)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "High VPN Throughput vs Ultra-Compact Size",
     cards: [
       { label: "High throughput (Beryl AX, GL-A1300)", text: "Worth the larger size and higher price when you plan to route bandwidth-heavy activities like video calls or streaming through the VPN regularly." },
-      { label: "Ultra-compact (AR300M16, Mango)", text: "Better for minimalist travelers who want basic VPN protection for browsing and email without needing to route heavy traffic through it." },
+      { label: "Ultra-compact (AR300M16, Mango)", text: "Better for minimalist travelers who want basic VPN protection for browsing and email without needing to route heavy traffic through it." }
     ],
     note: "Match your choice to your actual VPN usage pattern; a 28 Mbps OpenVPN ceiling is plenty for browsing but noticeably limiting for a video call.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["VPN kill switch to prevent unprotected traffic", "GL.iNet GL-A1300 Pocket VPN"],
         ["VPN server capability, not just client", "GL.iNet GL-MT3000 Beryl AX or GL-AR300M16"],
-        ["Basic VPN client only", "GL.iNet GL-MT300N-V2 (Mango)"],
+        ["Basic VPN client only", "GL.iNet GL-MT300N-V2 (Mango)"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For Frequent Business Travel With Sensitive Data Specifically",
     cards: [
       { label: "Look for", text: "A VPN kill switch that blocks all internet traffic if the VPN connection unexpectedly drops, preventing sensitive work data from ever transmitting over an unprotected hotel or airport network." },
-      { label: "In this comparison", text: "The GL-A1300 Pocket VPN specifically states a VPN internet kill switch feature not called out on the other three picks." },
+      { label: "In this comparison", text: "The GL-A1300 Pocket VPN specifically states a VPN internet kill switch feature not called out on the other three picks." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You need fast VPN throughput for video calls or want granular per-site routing control, where the Beryl AX or GL-A1300 near $70-100 deliver those specific capabilities." },
-      { label: "Save if", text: "You just want basic OpenVPN protection for browsing while traveling light, where the Mango at $29.99 covers that need in the smallest package." },
+      { label: "Save if", text: "You just want basic OpenVPN protection for browsing while traveling light, where the Mango at under $30 covers that need in the smallest package." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

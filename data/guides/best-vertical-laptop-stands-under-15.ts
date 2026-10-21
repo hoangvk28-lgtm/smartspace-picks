@@ -123,7 +123,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The absolute lowest price", "Ahonnpely Vertical Laptop Stand, Adjustable 3-in-1"],
         ["Explicit brand and size compatibility", "Vaydeer Vertical Laptop Stand Holder Organizer"],
         ["Storage for two laptops", "Vaydeer Vertical Laptop Stand, Dual Slots 4-in-1"],
-        ["Aluminum build with scratch protection", "TECKNET Vertical Laptop Stand, Aluminum"],
+        ["Aluminum build with scratch protection", "TECKNET Vertical Laptop Stand, Aluminum"]
       ],
     },
   },
@@ -132,8 +132,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $10", "Ahonnpely Vertical Laptop Stand ($8.99)"],
-        ["$12 to $15", "Vaydeer single-slot ($12.99), Vaydeer dual-slot ($13.86), or TECKNET ($13.99)"],
+        ["Under $10", "Ahonnpely Vertical Laptop Stand (under $9)"],
+        ["$12 to $15", "Vaydeer single-slot (under $15), Vaydeer dual-slot (under $15), or TECKNET (under $15)"]
       ],
     },
   },
@@ -147,7 +147,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "Aluminum (TECKNET)",
         text: "Feels sturdier and includes protective silicone grips, at a marginal price difference from the plastic alternatives.",
-      },
+      }
     ],
     note: "At this price range, the material difference is more about feel and scratch protection than actual load-bearing capability, since both handle typical laptop weights fine.",
   },
@@ -157,7 +157,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["You need to store", "Recommended pick"],
       rows: [
         ["One laptop", "Ahonnpely, single-slot Vaydeer, or TECKNET"],
-        ["Two laptops side by side", "Vaydeer Vertical Laptop Stand, Dual Slots 4-in-1"],
+        ["Two laptops side by side", "Vaydeer Vertical Laptop Stand, Dual Slots 4-in-1"]
       ],
     },
   },
@@ -171,7 +171,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "Vaydeer and TECKNET both explicitly state 17.3 inch maximum compatibility, covering larger laptops confidently.",
-      },
+      }
     ],
   },
   {
@@ -179,14 +179,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You want an aluminum build with scratch-protective silicone grips: TECKNET ($13.99) is the only pick here offering that combination.",
+        text: "You want an aluminum build with scratch-protective silicone grips: TECKNET (under $15) is the only pick here offering that combination.",
       },
       {
         label: "Save if",
-        text: "You just need basic single-laptop upright storage: Ahonnpely ($8.99) covers that core need at the lowest price in this comparison.",
-      },
+        text: "You just need basic single-laptop upright storage: Ahonnpely (under $9) covers that core need at the lowest price in this comparison.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -241,5 +241,5 @@ export const faq = [
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-vertical-laptop-stands-under-30", title: "Best Vertical Laptop Stands Under $30" },
-  { href: "/guide/best-vertical-laptop-stands", title: "Best Vertical Laptop Stands" },
+  { href: "/guide/best-vertical-laptop-stands", title: "Best Vertical Laptop Stands" }
 ];

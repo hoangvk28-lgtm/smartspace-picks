@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "iPhone desk arms";
 export const introParagraphs = [
   "None of the arms in this comparison are marketed as iPhone-exclusive; they are general phone arms whose clip width happens to accommodate the current iPhone lineup. Since iPhone models vary meaningfully in size, from the compact base model to the wider Pro Max, clip width compatibility is the main thing worth checking here.",
-  "We also note charging cable compatibility, since Apple's Lightning to USB-C transition means the mounted position and cable routing can differ depending on which iPhone generation you own.",
+  "We also note charging cable compatibility, since Apple's Lightning to USB-C transition means the mounted position and cable routing can differ depending on which iPhone generation you own."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -104,7 +104,7 @@ export const products: GuideProduct[] = [
     pros: ["Longest reach in this comparison", "Braided sleeve resists wear", "Fits cased iPhones", "Reputable brand"],
     cons: ["No MagSafe option", "Longer arm can sag more under sustained weight", "Standard clip, no tension adjustment"],
     bestFor: "Buyers who need to position an iPhone far from a limited desk clamp point.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "iPhone width compatibility", description: "We checked each clip's stated range against current iPhone base, Plus, and Pro Max dimensions, both bare and with a typical case." },
   { title: "MagSafe honesty", description: "We confirmed none of these picks are genuine MagSafe magnetic mounts, and disclosed this clearly rather than implying magnetic compatibility." },
   { title: "Charging cable routing", description: "We considered whether the mounted angle allows a Lightning or USB-C cable to route comfortably without straining the port." },
-  { title: "Face ID and camera framing", description: "We evaluated whether the mounted angle and position stability support comfortable Face ID unlock and video call framing." },
+  { title: "Face ID and camera framing", description: "We evaluated whether the mounted angle and position stability support comfortable Face ID unlock and video call framing." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -240,11 +240,11 @@ export const faq: FaqItem[] = [
   { q: "Will these fit an iPhone Pro Max with a case?", a: "The MAGIPEA pick's 3.5-7 inch clip range is the most generous for a cased Pro Max in this comparison. Check your exact cased width against each clip's stated range before buying." },
   { q: "Can I charge my iPhone while it's mounted?", a: "Yes, all these arms leave the charging port accessible. Check that your mounted angle doesn't create an awkward cable bend at the Lightning or USB-C port." },
   { q: "Which pick is best for video calls?", a: "The SMALLRIG magic arm's friction-locked clamp holds the most stable, non-drifting position, useful for consistent Face ID unlock and camera framing during calls." },
-  { q: "Do I need a different arm for an older Lightning iPhone versus a newer USB-C model?", a: "No, the clip mechanism itself is agnostic to charging port type. Just verify your cable routes comfortably at your chosen mount angle regardless of connector type." },
+  { q: "Do I need a different arm for an older Lightning iPhone versus a newer USB-C model?", a: "No, the clip mechanism itself is agnostic to charging port type. Just verify your cable routes comfortably at your chosen mount angle regardless of connector type." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-phone-arms", title: "Best Desk Phone Arms (2026)" },
   { href: "/guide/best-phone-holder-arms-for-desks", title: "Best Phone Holder Arms for Desks (2026)" },
-  { href: "/guide/best-overhead-phone-arms-for-desks", title: "Best Overhead Phone Arms for Desks (2026)" },
+  { href: "/guide/best-overhead-phone-arms-for-desks", title: "Best Overhead Phone Arms for Desks (2026)" }
 ];

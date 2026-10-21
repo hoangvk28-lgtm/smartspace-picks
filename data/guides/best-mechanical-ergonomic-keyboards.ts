@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mechanical ergonomic keyboard";
 export const introParagraphs = [
   "Most mechanical ergonomic keyboards ship with standard-weight switches rather than the lighter actuation force sometimes recommended for RSI-focused buyers, and exact actuation force isn't always stated on the listing, worth treating that as buyer-advisory guidance and verifying the current spec sheet rather than assuming a lighter feel by default. Whether the switches are hot-swappable also matters for anyone who wants to customize feel later without buying a whole new board.",
-  "It's also worth checking keycap material, ABS keycaps tend to develop a shine faster than PBT over months of use, and stabilizer quality on larger keys like the space bar and shift keys is often the actual source of rattle on a mechanical board, regardless of how good the switches themselves feel.",
+  "It's also worth checking keycap material, ABS keycaps tend to develop a shine faster than PBT over months of use, and stabilizer quality on larger keys like the space bar and shift keys is often the actual source of rattle on a mechanical board, regardless of how good the switches themselves feel."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Split Ergonomic Pick",
     name: "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest",
     price: "$129.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "7,992 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41EsewSK2nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZWK2TQT?tag=deskfinds0d-20",
     description: "This is a scissor-switch, not a mechanical-switch keyboard, included here as the highest-reviewed split ergonomic option for buyers comparing switch feel across the category. Its negative-tilt split frame delivers strong ergonomic benefit even without mechanical switches underneath.\n\nIt earns the top spot in this comparison over Cloud Nine C989M Ergonomic Mechanical Keyboard for PC for one main reason. Largest verified review base in this guide. On price, it comes in below Cloud Nine C989M Ergonomic Mechanical Keyboard for PC, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Strong ergonomic split design. On the other side, No hot-swap switch customization. That's the main tradeoff to weigh against everything above.",
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best True Mechanical Ergonomic Pick",
     name: "Cloud Nine C989M Ergonomic Mechanical Keyboard for PC, Kailh Tactile Switches",
     price: "$199.00",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "675 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51J8PEUgcWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B084BP8T18?tag=deskfinds0d-20",
     description: "A genuine mechanical ergonomic keyboard using Kailh tactile switches, a standard switch type that keeps replacement options open if a switch fails. Verify the current listing for hot-swap socket support before assuming you can customize switch feel without desoldering.\n\nOne spot below Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest in this ranking, it costs more than Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest. The compromise here is straightforward: Verify hot-swap support before assuming easy customization. What you gain in return: Genuine mechanical tactile switches. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Standard Kailh switch type aids long-term replacement. On the other side, Highest price among true mechanical picks. That's the main tradeoff to weigh against everything above.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wireless Mechanical Ergonomic Pick",
     name: "X9 Performance Wireless Mechanical Ergonomic Keyboard (BT + 2.4G + Wired)",
     price: "$59.99",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "28 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41QWgEXf8hL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FTZLXBCZ?tag=deskfinds0d-20",
     description: "A mechanical ergonomic keyboard offering Bluetooth, 2.4G, and wired connection options in one board, useful for buyers who want mechanical switch feel without locking into a single connection type. Its lower price makes mechanical switches more accessible than the premium Cloud Nine pick.\n\nSitting just under Cloud Nine C989M Ergonomic Mechanical Keyboard for PC, it's priced lower than Cloud Nine C989M Ergonomic Mechanical Keyboard for PC. Here's the honest tradeoff: Smaller review base, verify current feedback. And here's what it gets you instead: Three connection modes in one board. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Lower price than premium mechanical picks. On the other side, Exact switch specs not fully detailed. That's the main tradeoff to weigh against everything above.",
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     badge: "Best Typewriter-Style Mechanical Pick",
     name: "AULA F2088 Typewriter Style Mechanical Gaming Keyboard, Blue Switch",
     price: "$48.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "2,671 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51FECyi9omL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09DKQWTNC?tag=deskfinds0d-20",
     description: "A retro typewriter-style mechanical keyboard using blue switches, a clicky, tactile switch type popular for typing feel rather than a curved or split ergonomic layout specifically. Its strong review base reflects general buyer satisfaction with switch feel and build.\n\nRanked just behind X9 Performance Wireless Mechanical Ergonomic Keyboard, it's priced lower than X9 Performance Wireless Mechanical Ergonomic Keyboard. The real tradeoff against that pick: Not a split or negative-tilt ergonomic layout. In exchange, it offers this instead: Large verified review base. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Satisfying clicky tactile feedback. On the other side, Limited wrist-positioning benefit compared to true ergonomic designs. That's the main tradeoff to weigh against everything above.",
@@ -90,8 +90,8 @@ export const products: GuideProduct[] = [
     badge: "Best Split Mechanical RGB Pick",
     name: "RAGNOK Ergonomic Mechanical Keyboard, Split Keyboard Wireless with RGB",
     price: "$99.99",
-    rating: "4.1 stars from Amazon ratings",
-    reviews: "11 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/412SZO4U0rL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GW95B1Z8?tag=deskfinds0d-20",
     description: "A genuinely split mechanical keyboard with wireless connectivity and RGB lighting, combining true mechanical switches with an actual two-piece ergonomic frame rather than the standard row-stagger layout of the AULA pick in this guide. That combination is less common at this price point than a one-piece mechanical board.\n\nOne spot below AULA F2088 Typewriter Style Mechanical Gaming Keyboard in this ranking, it costs more than AULA F2088 Typewriter Style Mechanical Gaming Keyboard. The compromise here is straightforward: Smallest verified review base in this guide. What you gain in return: True split mechanical layout, not just row-stagger. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: RGB backlighting included. On the other side, Less established brand track record than Logitech or Cloud Nine. That's the main tradeoff to weigh against everything above.",
@@ -106,8 +106,8 @@ export const products: GuideProduct[] = [
     badge: "Best Alice-Layout Mechanical Pick",
     name: "RK ROYAL KLUDGE A72 Alice Ergonomic Wireless Mechanical Keyboard, Split",
     price: "$74.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "37 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41pQRggFooL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FY2XRSJX?tag=deskfinds0d-20",
     description: "A wireless mechanical keyboard using the Alice layout, a split design with rotated key clusters that keeps a more compact footprint than a fully separated two-piece board. It's a genuinely mechanical switch keyboard rather than the scissor-switch K860 also listed in this guide, giving buyers a true mechanical Alice-style option to compare.\n\nSitting just under RAGNOK Ergonomic Mechanical Keyboard, it's priced lower than RAGNOK Ergonomic Mechanical Keyboard. Here's the honest tradeoff: Alice layout has its own separate learning curve. And here's what it gets you instead: Highest rating among mechanical picks in this guide. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: True mechanical switches in a compact Alice layout. On the other side, Fixed layout, not tenting-adjustable. That's the main tradeoff to weigh against everything above.",
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine mechanical switches vs. scissor mechanisms", description: "Distinguished true mechanical-switch keyboards from scissor-switch ergonomic boards marketed alongside them, since the feel and customization potential differ significantly." },
   { title: "Hot-swap and standard switch type availability", description: "Noted where hot-swap sockets or a standard switch type were disclosed, both of which affect long-term customization and replacement flexibility." },
   { title: "Actuation force as buyer-advisory, not invented specs", description: "Where exact actuation force wasn't stated, flagged it as something to verify on the current listing rather than assuming a lighter, RSI-friendly feel by default." },
-  { title: "Stabilizer quality on larger keys", description: "Weighed verified buyer feedback on space bar and shift key rattle, since stabilizer quality is often the actual source of a board feeling cheap regardless of switch quality." },
+  { title: "Stabilizer quality on larger keys", description: "Weighed verified buyer feedback on space bar and shift key rattle, since stabilizer quality is often the actual source of a board feeling cheap regardless of switch quality." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -257,11 +257,11 @@ export const faq: FaqItem[] = [
   { q: "Are mechanical ergonomic keyboards lighter on the fingers than regular ones?", a: "Not necessarily, many default to standard-weight switches rather than lighter, RSI-optimized actuation, verify the current listing's spec sheet rather than assuming a lighter feel." },
   { q: "Can I swap switches on a mechanical ergonomic keyboard?", a: "Only if it explicitly supports hot-swap sockets, verify this on the current listing since not every mechanical ergonomic board offers it." },
   { q: "Why does my mechanical keyboard's space bar rattle?", a: "This is usually a stabilizer quality issue on the larger keys rather than the switches themselves, it can happen even with high-quality switches installed." },
-  { q: "Does keycap material matter on a mechanical ergonomic keyboard?", a: "Yes, ABS keycaps tend to develop a visible shine faster than PBT over months of daily typing, worth checking which material a listing uses." },
+  { q: "Does keycap material matter on a mechanical ergonomic keyboard?", a: "Yes, ABS keycaps tend to develop a visible shine faster than PBT over months of daily typing, worth checking which material a listing uses." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-wired-ergonomic-keyboards", title: "Best Wired Ergonomic Keyboards (2026)" },
   { href: "/guide/best-ergonomic-keyboards-for-gaming", title: "Best Ergonomic Keyboards for Gaming (2026)" },
-  { href: "/guide/best-ergonomic-keyboards", title: "Best Ergonomic Keyboards (2026)" },
+  { href: "/guide/best-ergonomic-keyboards", title: "Best Ergonomic Keyboards (2026)" }
 ];

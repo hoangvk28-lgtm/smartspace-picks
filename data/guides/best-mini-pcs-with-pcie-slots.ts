@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini pc with pcie slots";
 export const introParagraphs = [
   "A true physical PCIe slot is genuinely different from an M.2-to-PCIe adapter or OCuLink-based external expansion, worth verifying exactly what type of expansion a specific mini PC actually offers rather than assuming any 'PCIe expansion' claim means a real internal slot for a standard add-in card.",
-  "Lane count, PCIe generation, and physical clearance for a card genuinely limit what you can actually install, worth checking these specifics rather than assuming any PCIe slot accommodates any card you might want to add.",
+  "Lane count, PCIe generation, and physical clearance for a card genuinely limit what you can actually install, worth checking these specifics rather than assuming any PCIe slot accommodates any card you might want to add."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Mini PC with Genuine PCIe Expansion Overall",
     name: "MINISFORUM MS-02 Ultra Mini Workstation PC, Intel Core Ultra 9 285HX (24C/24T, up to 5.5GHz)",
     price: "$1,159.00",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "7 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51U8oEw1c+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G39HV95T?tag=deskfinds0d-20",
     description: "A genuine workstation-class chassis appropriate for buyers wanting real internal PCIe expansion capability alongside a powerful 24-core, 24-thread processor.\n\nIt earns the top spot in this comparison over GMKtec AI Mini PC Ultra 9 285H for one main reason. Workstation-class chassis genuinely designed for internal expansion. On price, it comes in below GMKtec AI Mini PC Ultra 9 285H, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Powerful 24-core processor for demanding parallel workloads. On the other side, Premium price reflecting the workstation-class processor and chassis. That's the main tradeoff to weigh against everything above.",
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Powerful Base for OCuLink-Based Expansion",
     name: "GMKtec AI Mini PC Ultra 9 285H (Turbo 5.4GHz) 32GB DDR5 1TB PCIe 4.0 SSD",
     price: "$1,299.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "910 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41HU4lDWnjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H6988Y89?tag=deskfinds0d-20",
     description: "A large, well-established review base gives real confidence, appropriate for buyers wanting OCuLink-based external PCIe expansion rather than an internal physical slot.\n\nOne spot below MINISFORUM MS-02 Ultra Mini Workstation PC in this ranking, it costs more than MINISFORUM MS-02 Ultra Mini Workstation PC. The compromise here is straightforward: Verify whether this offers a genuine internal PCIe slot versus OCuLink-only expansion. What you gain in return: Large, well-established review base for confidence. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Powerful base processor for strong overall performance. On the other side, Higher price reflecting the powerful base system. That's the main tradeoff to weigh against everything above.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Pick for Expansion-Adjacent Use",
     name: "GMKtec K15 Mini PC AI Ultra 5 125U(up to 4.3GHz) 32GB DDR5 1TB PCIe 4.0 SSD",
     price: "$699.69",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "320 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31JqVzrFvpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G7F3FLDN?tag=deskfinds0d-20",
     description: "A more accessible price for buyers wanting expansion-adjacent capability via OCuLink without the premium base-system pricing of the top picks.\n\nSitting just under GMKtec AI Mini PC Ultra 9 285H, it's priced lower than GMKtec AI Mini PC Ultra 9 285H. Here's the honest tradeoff: Verify the exact expansion type (internal slot vs OCuLink) before buying. And here's what it gets you instead: Solid review base for confidence at this price point. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: More accessible price than the premium expansion-focused picks. On the other side, Verify lane count and generation for your intended use. That's the main tradeoff to weigh against everything above.",
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     badge: "Best HS-Class Pick with Expansion Potential",
     name: "GMKtec M6 Ultra Gaming Mini PC Ryzen 7640HS 32GB RAM DDR5 1TB SSD",
     price: "$599.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "485 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ydc8fgeIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FLJQW1RD?tag=deskfinds0d-20",
     description: "A genuine HS-class Ryzen 7640HS appropriate for buyers wanting a well-balanced base system with potential expansion capability at a more moderate price.\n\nRanked just behind GMKtec K15 Mini PC AI Ultra 5 125U(up to 4.3GHz) 32GB DDR5 1TB PCIe 4.0 SSD, it's priced lower than GMKtec K15 Mini PC AI Ultra 5 125U(up to 4.3GHz) 32GB DDR5 1TB PCIe 4.0 SSD. The real tradeoff against that pick: Verify the exact expansion interface before assuming internal PCIe slot capability. In exchange, it offers this instead: Genuine HS-class chip for strong sustained base system performance. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: 32GB DDR5 RAM for strong overall system performance. On the other side, Verify lane count and clearance for your intended use. That's the main tradeoff to weigh against everything above.",
@@ -90,13 +90,13 @@ export const products: GuideProduct[] = [
     badge: "Best Barebone Pick for Buyers Building Their Own Expansion Setup",
     name: "MINISFORUM Mini PC AI X1 Pro Barebone with AMD Ryzen AI 9 HX370(12Cores/24 Threads)&AMD Radeon",
     price: "$695.00",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "7 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21j26jIVLGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G32PTF92?tag=deskfinds0d-20",
-    description: "A genuinely powerful barebone Ryzen AI 9 HX370 with a high review rating, appropriate for buyers wanting to fully configure their own system alongside verified expansion capability.\n\nOne spot below GMKtec M6 Ultra Gaming Mini PC Ryzen 7640HS 32GB RAM DDR5 1TB SSD in this ranking, it costs more than GMKtec M6 Ultra Gaming Mini PC Ryzen 7640HS 32GB RAM DDR5 1TB SSD. The compromise here is straightforward: Small review base, verify current reviews before purchase. What you gain in return: High 4.8-star rating despite the small review base. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Genuinely flagship-tier processor performance. On the other side, Verify the exact expansion interface details for this specific listing. That's the main tradeoff to weigh against everything above.",
+    description: "A genuinely powerful barebone Ryzen AI 9 HX370 with a high review rating, appropriate for buyers wanting to fully configure their own system alongside verified expansion capability.\n\nOne spot below GMKtec M6 Ultra Gaming Mini PC Ryzen 7640HS 32GB RAM DDR5 1TB SSD in this ranking, it costs more than GMKtec M6 Ultra Gaming Mini PC Ryzen 7640HS 32GB RAM DDR5 1TB SSD. The compromise here is straightforward: Small review base, verify current reviews before purchase. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Genuinely flagship-tier processor performance. On the other side, Verify the exact expansion interface details for this specific listing. That's the main tradeoff to weigh against everything above.",
     specs: ["AMD Ryzen AI 9 HX370, 12C/24T","Barebone, no RAM/SSD/OS included","Verify exact expansion interface","High review rating"],
-    pros: ["High 4.8-star rating despite the small review base","Genuinely flagship-tier processor performance","Flexibility to fully configure your own build around the expansion capability","Strong integrated graphics included"],
+    pros: ["Genuinely flagship-tier processor performance","Flexibility to fully configure your own build around the expansion capability","Strong integrated graphics included"],
     cons: ["Small review base, verify current reviews before purchase","Requires separate RAM, SSD, and OS purchase","Verify the exact expansion interface details for this specific listing"],
     bestFor: "Buyers wanting to fully configure their own system with verified expansion capability",
   }
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "True PCIe slot distinguished from M.2 adapter or OCuLink expansion", description: "Distinguished a genuine internal physical PCIe slot from M.2-to-PCIe adapters and OCuLink-based external expansion, since these are meaningfully different." },
   { title: "Lane count, generation, and physical clearance flagged for verification", description: "Flagged lane count, PCIe generation, and physical card clearance as specifics that genuinely limit what can actually be installed." },
   { title: "Workstation-class positioning weighted as a signal of genuine expansion capability", description: "Weighted workstation-class chassis positioning as a more reliable signal of genuine internal PCIe expansion than general mini PC branding." },
-  { title: "Total expansion cost considered beyond the base mini PC price", description: "Considered that both internal card installation and external OCuLink enclosures add real cost beyond the base mini PC price." },
+  { title: "Total expansion cost considered beyond the base mini PC price", description: "Considered that both internal card installation and external OCuLink enclosures add real cost beyond the base mini PC price." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -193,12 +193,8 @@ export const howToChoose: HowToChooseSection[] = [
       {
         "label": "Look for",
         "text": "A dedicated GPU or a confirmed Oculink/Thunderbolt eGPU connection explicitly stated in the listing, not just a generic \"gaming capable\" claim."
-      },
-      {
-        "label": "In this comparison",
-        "text": "MINISFORUM Mini PC AI X1 Pro Barebone with AMD Ryzen AI 9 HX370(12Cores/24 Threads)&AMD Radeon fits this specifically: High 4.8-star rating despite the small review base."
       }
-    ]
+      ]
   },
   {
     "subheading": "When to Spend More",
@@ -242,11 +238,11 @@ export const faq: FaqItem[] = [
   { q: "Does 'PCIe expansion' always mean a real internal slot?", a: "Not always, this could mean an M.2-to-PCIe adapter or OCuLink-based external expansion, verify the exact type before buying." },
   { q: "Does a PCIe slot fit any card I want to add?", a: "Not necessarily, check the exact lane count, generation, and physical clearance for the specific chassis and card." },
   { q: "Are workstation-class mini PCs more likely to have real PCIe slots?", a: "Generally yes, this positioning is a more reliable signal of genuine internal expansion capability than general mini PC branding." },
-  { q: "Is internal PCIe expansion cheaper than an OCuLink eGPU setup?", a: "It depends on the specific card and setup, both add real cost beyond the base mini PC, calculate your total budget either way." },
+  { q: "Is internal PCIe expansion cheaper than an OCuLink eGPU setup?", a: "It depends on the specific card and setup, both add real cost beyond the base mini PC, calculate your total budget either way." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pcs-with-oculink", title: "Best Mini PCs with OCuLink (2026)" },
   { href: "/guide/best-mini-pcs-with-external-gpu-support", title: "Best Mini PCs with External GPU Support (2026)" },
-  { href: "/guide/best-expandable-mini-pcs", title: "Best Expandable Mini PCs (2026)" },
+  { href: "/guide/best-expandable-mini-pcs", title: "Best Expandable Mini PCs (2026)" }
 ];

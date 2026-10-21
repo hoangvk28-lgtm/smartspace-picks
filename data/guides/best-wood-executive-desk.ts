@@ -43,7 +43,7 @@ export const products: ExecutiveDesk[] = [
     tradeoffs: [
       "Engineered wood - corners can chip over years of heavy use",
       "Complex assembly - Sauder's instruction quality is mixed",
-      "Not suitable for commercial-grade daily use (40+ hours per week)",
+      "Not suitable for commercial-grade daily use (40+ hours per week)"
     ],
     skipIf:
       "Skip if you need commercial-grade construction for heavy daily use - the Bush Business Office 500 (Rank 5) is designed for that level of use. Skip if budget is under $300 - the Sauder Costa (Rank 7) is the entry-level Sauder option.",
@@ -51,12 +51,12 @@ export const products: ExecutiveDesk[] = [
       "Extensive drawer storage including hanging file drawers",
       "Palladia is Sauder's best residential line",
       "Warm finish options photograph well on video calls",
-      "Strong price-to-storage ratio on Amazon",
+      "Strong price-to-storage ratio on Amazon"
     ],
     cons: [
       "Engineered wood - corners can chip over years of heavy use",
       "Complex assembly",
-      "Not rated for commercial-grade daily use",
+      "Not rated for commercial-grade daily use"
     ],
   },
   {
@@ -74,19 +74,19 @@ export const products: ExecutiveDesk[] = [
     tradeoffs: [
       "L-shaped requires significant room clearance - measure before ordering",
       "Assembly time substantial for L-configuration",
-      "Same engineered wood limitations as straight Palladia",
+      "Same engineered wood limitations as straight Palladia"
     ],
     skipIf:
       "Skip if you don't have corner space for an L-shaped desk. Skip if you want commercial-grade construction - the Bush Business options (Ranks 5-6) are built to a higher standard.",
     pros: [
       "Maximum surface area for dual-monitor or complex WFH setups",
       "Palladia quality consistency across L-configuration",
-      "File drawer storage in L-shaped format is uncommon at this price",
+      "File drawer storage in L-shaped format is uncommon at this price"
     ],
     cons: [
       "L-shaped requires significant room clearance",
       "Assembly time substantial",
-      "Same engineered wood limitations as straight Palladia",
+      "Same engineered wood limitations as straight Palladia"
     ],
   },
   {
@@ -103,18 +103,18 @@ export const products: ExecutiveDesk[] = [
       "Same Palladia construction as Rank 1, in the Vintage Oak color. The Vintage Oak finish has a warmer lighter tone than the dark finishes in the Palladia line - better suited for home offices with lighter wood floors, natural light, or a traditional study aesthetic. For buyers who have chosen the Palladia for storage and price but prefer a lighter warmer finish over the darker executive tone, this is the variant.",
     tradeoffs: [
       "Same engineered wood limitations as other Palladia models",
-      "Lighter finishes show surface marks more visibly than darker alternatives",
+      "Lighter finishes show surface marks more visibly than darker alternatives"
     ],
     skipIf:
       "Skip if you prefer darker finishes that photograph better on video - the dark Palladia (Rank 1) reads better in standard webcam conditions. Skip if you need the L-shaped configuration - the Palladia L (Rank 2) is the L-shaped version.",
     pros: [
       "Same Palladia quality and storage as Rank 1",
       "Vintage Oak reads well in natural light",
-      "Suits traditional and transitional home office aesthetics",
+      "Suits traditional and transitional home office aesthetics"
     ],
     cons: [
       "Same engineered wood limitations",
-      "Lighter finishes show surface marks more visibly",
+      "Lighter finishes show surface marks more visibly"
     ],
   },
   {
@@ -132,7 +132,7 @@ export const products: ExecutiveDesk[] = [
     tradeoffs: [
       "Still engineered wood - not solid hardwood",
       "Less drawer storage density than the Palladia at comparable price",
-      "Bush Home is not the same as Bush Business - lower quality than the commercial line",
+      "Bush Home is not the same as Bush Business - lower quality than the commercial line"
     ],
     skipIf:
       "Skip if drawer storage density is the priority - the Palladia (Rank 1) gives more drawers at a lower price. Skip if you need commercial-grade construction - the Bush Business options (Ranks 5-6) are the right choice.",
@@ -140,12 +140,12 @@ export const products: ExecutiveDesk[] = [
       "Bush Home quality standard - noticeably above Sauder's consumer tier",
       "Metal drawer runners throughout - better durability",
       "60\" fits most WFH home offices",
-      "Better edge durability than Sauder at comparable price",
+      "Better edge durability than Sauder at comparable price"
     ],
     cons: [
       "Still engineered wood",
       "Less drawer storage density than the Palladia",
-      "Bush Home is not Bush Business - lower quality than the commercial line",
+      "Bush Home is not Bush Business - lower quality than the commercial line"
     ],
   },
   {
@@ -163,7 +163,7 @@ export const products: ExecutiveDesk[] = [
     tradeoffs: [
       "Premium price compared to Sauder alternatives",
       "72\" requires significant room space",
-      "Still engineered wood - not solid hardwood despite commercial grade",
+      "Still engineered wood - not solid hardwood despite commercial grade"
     ],
     skipIf:
       "Skip if your home office budget is under $600 - the Sauder Palladia or Bush Home Saratoga deliver good value for lighter use. Skip if room space limits you to under 72\" - the Bush Business Studio C (Rank 6) is the 60\" commercial-grade option.",
@@ -171,12 +171,12 @@ export const products: ExecutiveDesk[] = [
       "Commercial-grade construction designed for 40+ hours weekly use",
       "10-year warranty - best on this list",
       "72\" gives full executive desk presence",
-      "Black Walnut finish photographs excellently on video calls",
+      "Black Walnut finish photographs excellently on video calls"
     ],
     cons: [
       "Premium price vs Sauder alternatives",
       "72\" requires significant room space",
-      "Still engineered wood despite commercial grade",
+      "Still engineered wood despite commercial grade"
     ],
   },
   {
@@ -193,18 +193,18 @@ export const products: ExecutiveDesk[] = [
       "The Studio C brings Bush Business commercial quality to a 60\" width - practical for WFH offices that are dedicated rooms but not oversized. Same commercial-grade construction and warranty backing as the Office 500, in a more space-efficient format. For WFH users who want Bush Business quality without the 72\" footprint, the Studio C is the direct answer. The 60\" width accommodates one large monitor or ultrawide display with keyboard and accessories.",
     tradeoffs: [
       "Less surface area than Office 500 for users who need dual-monitor spread",
-      "Commercial-grade pricing for 60\" may feel expensive vs Sauder alternatives",
+      "Commercial-grade pricing for 60\" may feel expensive vs Sauder alternatives"
     ],
     skipIf:
       "Skip if you need 72\" for dual monitors with space to spare - the Office 500 (Rank 5) is the wide commercial-grade option. Skip if budget is the primary constraint - the Sauder Palladia delivers similar width at lower cost.",
     pros: [
       "Commercial-grade Bush Business quality in a 60\" format",
       "More space-efficient than the 72\" Office 500",
-      "Full Bush Business warranty and construction standards",
+      "Full Bush Business warranty and construction standards"
     ],
     cons: [
       "Less surface area than Office 500",
-      "Commercial-grade pricing vs Sauder alternatives at same width",
+      "Commercial-grade pricing vs Sauder alternatives at same width"
     ],
   },
   {
@@ -222,19 +222,19 @@ export const products: ExecutiveDesk[] = [
     tradeoffs: [
       "Below Palladia quality - entry-level Sauder construction",
       "Coastal styling is niche - does not suit formal or traditional executive aesthetics",
-      "Lightest construction of the Sauder options on this list",
+      "Lightest construction of the Sauder options on this list"
     ],
     skipIf:
       "Skip if you want executive desk quality and durability - the Palladia (Rank 1) is the better Sauder option. Skip if you need a dark finish for video calls - the Costa's lighter palette does not read as premium on camera.",
     pros: [
       "Coastal aesthetic suits home offices with light airy decor",
       "Sauder name recognition with competitive pricing",
-      "Drawer storage at budget executive price",
+      "Drawer storage at budget executive price"
     ],
     cons: [
       "Below Palladia quality",
       "Coastal styling is niche",
-      "Lightest construction of the Sauder options on this list",
+      "Lightest construction of the Sauder options on this list"
     ],
   },
   {
@@ -252,7 +252,7 @@ export const products: ExecutiveDesk[] = [
     tradeoffs: [
       "Smaller brand - fewer reviews than Sauder or Bush",
       "55\" is narrower than traditional executive desk proportions",
-      "Verify current availability and review count",
+      "Verify current availability and review count"
     ],
     skipIf:
       "Skip if established brand trust and review count are important - Sauder and Bush have significantly more verified reviews. Skip if you need 60\"+ of surface width.",
@@ -260,12 +260,12 @@ export const products: ExecutiveDesk[] = [
       "Genuine solid wood - real hardwood, not engineered",
       "Can be refinished if damaged",
       "Holds desk hardware more securely than MDF",
-      "55\" width is workable for single-monitor executive setups",
+      "55\" width is workable for single-monitor executive setups"
     ],
     cons: [
       "Smaller brand - fewer reviews than Sauder or Bush",
       "55\" is narrower than traditional executive desk proportions",
-      "Verify current availability",
+      "Verify current availability"
     ],
   },
   {
@@ -283,21 +283,21 @@ export const products: ExecutiveDesk[] = [
     tradeoffs: [
       "No drawers in this configuration - requires separate storage",
       "Newer brand - verify review count and availability",
-      "Metal base aesthetic is not traditional executive - verify style fit",
+      "Metal base aesthetic is not traditional executive - verify style fit"
     ],
     skipIf:
       "Skip if you need drawer storage - all other options on this list include drawers. Skip if you want the traditional executive desk look - the Sauder Palladia (Rank 1) or Bush Business (Ranks 5-6) are the traditional executive options.",
     pros: [
       "Solid wood top - genuine hardwood surface",
       "Modern-industrial aesthetic suits contemporary home offices",
-      "Metal base is stable and durable",
+      "Metal base is stable and durable"
     ],
     cons: [
       "No drawers - requires separate storage",
       "Newer brand - verify review count and availability",
-      "Metal base aesthetic is not traditional executive",
+      "Metal base aesthetic is not traditional executive"
     ],
-  },
+  }
 ];
 
 export interface AtAGlanceRow {
@@ -338,7 +338,7 @@ export const faq: { q: string; a: string }[] = [
   {
     q: "What desk finish looks best on video calls?",
     a: "Dark rich finishes (dark walnut, espresso, coffee) read as premium furniture on standard webcam quality. Light finishes (pebble pine, beige, bright white) read as flat-pack regardless of actual quality. The Bush Business Office 500 in Black Walnut and the dark Sauder Palladia finishes photograph significantly better than light alternatives.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
@@ -357,5 +357,5 @@ export const relatedGuides: { href: string; title: string }[] = [
   {
     href: "/guide/best-computer-desk-with-hutch",
     title: "Best Computer Desks with Hutch in 2026",
-  },
+  }
 ];

@@ -12,7 +12,7 @@ export const coffeeMachineDescalingExplainedGuide: Guide = {
     "how often to descale coffee maker",
     "mineral buildup coffee machine",
     "descaling solution vs vinegar",
-    "coffee maker tastes bad fix",
+    "coffee maker tastes bad fix"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const coffeeMachineDescalingExplainedGuide: Guide = {
     "desk-coffee-maker-vs-electric-kettle",
     "insulated-mug-vs-regular-mug-desk",
     "external-drive-care-maintenance",
-    "printer-care-maintenance",
+    "printer-care-maintenance"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const coffeeMachineDescalingExplainedGuide: Guide = {
       question: "Does using filtered or bottled water reduce how often I need to descale?",
       answer:
         "Yes, using filtered water with lower mineral content reduces the rate of scale buildup compared to hard tap water, extending the interval between necessary descaling sessions, though it doesn't eliminate the need entirely over long-term use.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const coffeeMachineDescalingExplainedGuide: Guide = {
     {
       heading: "Why Local Water Hardness Should Inform Your Descaling Schedule",
       body: `The rate at which scale accumulates depends directly on how much dissolved mineral content your local tap water contains, areas with notably hard water experience faster buildup and benefit from more frequent descaling, while areas with naturally softer water can extend the interval between necessary descaling sessions, checking your local water hardness level, often available from your municipal water provider, helps calibrate a more accurate descaling schedule specific to your situation rather than relying on a generic one-size-fits-all timeframe.`,
-    },
+    }
   ],
 };

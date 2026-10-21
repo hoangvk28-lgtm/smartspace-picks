@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $39.95",
+          "Under $40",
           "Wacom Intuos Small"
         ],
         [
-          "Around $44.99",
+          "Under $45",
           "XPPen Deco 01 V3 10x6 Drawing Tablet"
         ],
         [
-          "Around $129.95",
+          "Under $130",
           "Wacom Intuos Medium"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "XP-PEN Artist12 11.6 Inch FHD Drawing Monitor Pen Display"
         ],
         [
-          "Around $209.99",
+          "Under $250",
           "HUION Kamvas 13 (Gen 3) Drawing Tablet with Screen 16K Pressure PenTech 4.0"
         ],
         [
-          "Around $299.95",
+          "Under $300",
           "Wacom Intuos Pro Medium"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Wacom Intuos Small is aimed at buyers prioritizing wired usb, emr battery-free pen." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Wacom Intuos Small is aimed at buyers prioritizing wired usb, emr battery-free pen." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"},{"href":"/guide/best-wacom-drawing-tablets","title":"Best Wacom Drawing Tablets in 2026"},{"href":"/guide/best-drawing-tablets-with-screens","title":"Best Drawing Tablets With Screens in 2026"}];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "locking filing cabinet";
 export const introParagraphs = [
   "A locking filing cabinet is the go-to answer for keeping paperwork out of casual view in a shared home office, but it's worth being upfront about what these locks actually do. Nearly every budget metal filing cabinet, including the ones in this guide, ships with a standard cam lock that adds a layer of privacy from roommates, kids, or house guests. It is not a substitute for a real safe and can typically be opened in seconds by anyone determined enough with basic tools, so treat it as a deterrent to casual access rather than a security device for sensitive records.",
-  "We reviewed 8 current listings, 7 of which explicitly say lock, lockable, or locked in the title, plus one pick that doesn't mention a lock at all but earns its place here for other reasons we explain honestly below. Below we break down which listings confirm a real lock, which is more of a hybrid storage cabinet than a document filer, and how to match drawer count and lock type to how you actually plan to use it.",
+  "We reviewed 8 current listings, 7 of which explicitly say lock, lockable, or locked in the title, plus one pick that doesn't mention a lock at all but earns its place here for other reasons we explain honestly below. Below we break down which listings confirm a real lock, which is more of a hybrid storage cabinet than a document filer, and how to match drawer count and lock type to how you actually plan to use it."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -46,8 +46,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Locking Pick",
     name: "Letaya 3 Drawer Mobile File Cabinet with Lock, Under Desk Metal Filing Cabinet",
     price: "$99.99",
-    rating: "4.5 stars from 1,373 Amazon ratings",
-    reviews: "1,373 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Nz-Myx-1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09YVJN8R7?tag=deskfinds0d-20",
     description:
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Lock confirmed on listing",
       "Fits letter, legal, and A4 hanging folders",
       "Caster wheels for mobility",
-      "Black metal finish",
+      "Black metal finish"
     ],
     pros: [
       "Confirmed lock feature",
       "Three drawers instead of the usual two",
       "Ships fully assembled",
-      "Rolls easily under a desk",
+      "Rolls easily under a desk"
     ],
     cons: [
       "Cam lock offers privacy, not real security",
       "Metal gauge is typical of budget cabinets, not heavy-duty",
-      "Smaller drawer depth than a full-size lateral cabinet",
+      "Smaller drawer depth than a full-size lateral cabinet"
     ],
     bestFor: "Buyers who want three drawers of locking storage that rolls under a desk with no assembly required",
   },
@@ -78,8 +78,8 @@ export const products: GuideProduct[] = [
     badge: "Best Hybrid Storage Cabinet",
     name: "Yizosh Metal Garage Storage Cabinet with 2 Doors and 5 Adjustable Shelves, Lockable",
     price: "$144.99",
-    rating: "4.4 stars from 5,174 Amazon ratings",
-    reviews: "5,174 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31VGu0v5vDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B3MB5F56?tag=deskfinds0d-20",
     description:
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "71-inch tall steel cabinet",
       "Lock confirmed on listing",
       "Better suited to bulk storage than hanging folders",
-      "Black metal finish",
+      "Black metal finish"
     ],
     pros: [
       "Confirmed lock feature",
       "Large capacity for mixed office or garage storage",
       "Adjustable shelves for flexible configurations",
-      "Tall footprint maximizes vertical storage",
+      "Tall footprint maximizes vertical storage"
     ],
     cons: [
       "Not a drawer-based hanging-file cabinet",
       "Bulkier footprint than a typical filing cabinet",
-      "Cam lock is a privacy feature, not real security",
+      "Cam lock is a privacy feature, not real security"
     ],
     bestFor: "Buyers who want lockable storage for mixed office supplies or bulkier items, not primarily hanging folders",
   },
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best 2 Drawer Lateral Pick",
     name: "Letaya 2 Drawer File Cabinet with Lock, Metal Lateral Filing Cabinet",
     price: "$99.99",
-    rating: "4.2 stars from 1,671 Amazon ratings",
-    reviews: "1,671 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31ukHwAN+yL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTNJY2HB?tag=deskfinds0d-20",
     description:
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Lock confirmed on listing",
       "Fits letter, legal, and A4 hanging folders",
       "Approximately 28-inches wide",
-      "Black metal finish",
+      "Black metal finish"
     ],
     pros: [
       "Confirmed lock feature",
       "Wider lateral footprint suits against-the-wall placement",
       "Handles letter, legal, and A4 sizes",
-      "Straightforward two-drawer design",
+      "Straightforward two-drawer design"
     ],
     cons: [
       "Cam lock is a privacy feature, not real security",
       "Takes up more wall-facing width than a vertical cabinet",
-      "Assembly required",
+      "Assembly required"
     ],
     bestFor: "Buyers who want a locking lateral cabinet that fits neatly against a wall",
   },
@@ -142,8 +142,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Extended Desktop Space (No Confirmed Lock)",
     name: "GYIIYUO 2 Drawer File Cabinet with 24-inch Extended Desktop, Mobile Filing Cabinet",
     price: "$56.99",
-    rating: "4.2 stars from 1,425 Amazon ratings",
-    reviews: "1,425 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Aix6uWuJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBZ98D94?tag=deskfinds0d-20",
     description:
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Rolling casters for mobility",
       "Fabric drawer front",
       "Fits letter and A4 size files",
-      "Light brown finish",
+      "Light brown finish"
     ],
     pros: [
       "Extended desktop doubles as a printer stand or workspace",
       "Rolling design for easy repositioning",
       "Lower price than most locking picks in this guide",
-      "Softer fabric drawer aesthetic",
+      "Softer fabric drawer aesthetic"
     ],
     cons: [
       "No lock feature confirmed on this listing",
       "Not a substitute for the confirmed-lock picks if security matters to you",
-      "Fabric drawer front is less durable than solid metal",
+      "Fabric drawer front is less durable than solid metal"
     ],
     bestFor: "Buyers who want rolling storage with a bonus work surface and don't need a confirmed lock",
   },
@@ -174,8 +174,8 @@ export const products: GuideProduct[] = [
     badge: "Best Narrow Vertical Pick",
     name: "SISESOL 2 Drawer File Cabinet with Lock, Narrow Vertical Filing Cabinet",
     price: "$44.99",
-    rating: "4.2 stars from 616 Amazon ratings",
-    reviews: "616 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31cXnfFFSML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQL795FX?tag=deskfinds0d-20",
     description:
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Lock confirmed on listing",
       "Fits letter, A4, and legal size files",
       "Fits under most desks",
-      "Black metal finish",
+      "Black metal finish"
     ],
     pros: [
       "Confirmed lock feature",
       "Narrow footprint fits under a desk",
       "Affordable price point",
-      "Handles multiple file sizes despite the slim design",
+      "Handles multiple file sizes despite the slim design"
     ],
     cons: [
       "Cam lock is a privacy feature, not real security",
       "Narrower drawers hold fewer files than a lateral cabinet",
-      "Assembly required",
+      "Assembly required"
     ],
     bestFor: "Buyers who need a narrow locking cabinet that fits under a desk without sacrificing legroom",
   },
@@ -206,8 +206,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Vertical Pick",
     name: "BYNSOE 2 Drawer File Cabinet with Lock, Vertical Filing Storage Cabinet",
     price: "$64.99",
-    rating: "4 stars from 1,303 Amazon ratings",
-    reviews: "1,303 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31VM3xK++PL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D9XYD75W?tag=deskfinds0d-20",
     description:
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Lock confirmed on listing",
       "Fits letter size files",
       "Steel construction",
-      "Assembly required",
+      "Assembly required"
     ],
     pros: [
       "Confirmed lock feature",
       "Straightforward two-drawer vertical layout",
       "Budget-friendly price",
-      "Steel build",
+      "Steel build"
     ],
     cons: [
       "Slightly lower average rating than other picks here",
       "Letter size only, no legal or A4 mentioned",
-      "Cam lock is a privacy feature, not real security",
+      "Cam lock is a privacy feature, not real security"
     ],
     bestFor: "Buyers who want a no-frills locking cabinet at a lower price point",
   },
@@ -238,8 +238,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Office Pick",
     name: "SteeLoong 2 Drawer File Cabinet with Lock, Metal Office File Cabinet",
     price: "$64.99",
-    rating: "4 stars from 382 Amazon ratings",
-    reviews: "382 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31IIIyTZ29L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D2QSQZ1X?tag=deskfinds0d-20",
     description:
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Lock confirmed on listing",
       "Compact footprint for small offices",
       "Black finish",
-      "Assembly required",
+      "Assembly required"
     ],
     pros: [
       "Confirmed lock feature",
       "Compact size suits small offices",
       "Simple, no-frills design",
-      "Competitive price for a locking cabinet",
+      "Competitive price for a locking cabinet"
     ],
     cons: [
       "Smaller sample of ratings than other picks in this guide",
       "Cam lock is a privacy feature, not real security",
-      "No extended desktop or lateral width option",
+      "No extended desktop or lateral width option"
     ],
     bestFor: "Buyers who want a simple, compact locking cabinet for a small home office",
   },
@@ -270,32 +270,32 @@ export const products: GuideProduct[] = [
     badge: "Best for Maximum Drawer Count",
     name: "Livofloral Vertical File Cabinet with 4 Drawers and 1 Door, 2 Locks",
     price: "See price on Amazon",
-    rating: "4.7 stars from 4 Amazon ratings",
-    reviews: "4 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31SplwEKN2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCG99Y8Y?tag=deskfinds0d-20",
     description:
-      "The Livofloral stands out for sheer capacity, 4 drawers plus a separate storage door, and it confirms not one but two locks on the listing, fitting letter, legal, and A4 folders across its drawers. Its white finish is also a change of pace from the black metal cabinets that dominate the rest of this guide.\n\nWorth flagging directly: this listing has only 4 Amazon ratings at the time of our review, a small sample that its high 4.7 average shouldn't be read as statistically conclusive the way a listing with over a thousand ratings would be. Based on product specs, it's a reasonable pick if you need more drawers than any other cabinet here and don't mind being an early adopter on a newer listing, but buyers who want a track record behind their purchase should lean toward one of the higher-volume picks above.\n\nTwo confirmed locks instead of one. On the other hand, very small ratings sample, only 4 at time of review. Both are worth keeping in mind before deciding.",
+      "The Livofloral stands out for sheer capacity, 4 drawers plus a separate storage door, and it confirms not one but two locks on the listing, fitting letter, legal, and A4 folders across its drawers. Its white finish is also a change of pace from the black metal cabinets that dominate the rest of this guide.\n\nBased on product specs, it's a reasonable pick if you need more drawers than any other cabinet here and don't mind being an early adopter on a newer listing, but buyers who want a track record behind their purchase should lean toward one of the higher-volume picks above.\n\nTwo confirmed locks instead of one. On the other hand, very small ratings sample, only 4 at time of review. Both are worth keeping in mind before deciding.",
     specs: [
       "4 drawers plus 1 storage door",
       "2 locks confirmed on listing",
       "Fits letter, legal, and A4 folders",
       "White metal finish",
-      "Assembly required",
+      "Assembly required"
     ],
     pros: [
       "Highest drawer count in this guide",
       "Two confirmed locks instead of one",
       "White finish option for a lighter look",
-      "Extra storage door beyond the drawers",
+      "Extra storage door beyond the drawers"
     ],
     cons: [
       "Very small ratings sample, only 4 at time of review",
       "No listed price, check current price on Amazon",
-      "Cam locks are a privacy feature, not real security",
+      "Cam locks are a privacy feature, not real security"
     ],
     bestFor: "Buyers who need maximum drawer count and don't mind a newer listing with limited review history",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for money",
     description: "Weighed price against drawer count, confirmed lock status, and buyer feedback volume to judge which picks offer the strongest value at their price point.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -466,12 +466,12 @@ export const faq: FaqItem[] = [
   {
     q: "How many drawers do I actually need?",
     a: "A 2 drawer cabinet covers most single-person home offices for a few years of paperwork. If you're archiving several years of documents or running a small business, a 3 drawer option like the Letaya 3 Drawer Mobile or a 4 drawer option like the Livofloral gives more room before you outgrow it.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-wood-file-cabinets", title: "Best Wood File Cabinets (2026)" },
   { href: "/guide/best-2-drawer-wood-file-cabinets", title: "Best 2 Drawer Wood File Cabinets (2026)" },
   { href: "/guide/best-lateral-wood-file-cabinets", title: "Best Lateral Wood File Cabinets (2026)" },
-  { href: "/guide/best-solid-wood-file-cabinets", title: "Best Solid Wood File Cabinets (2026)" },
+  { href: "/guide/best-solid-wood-file-cabinets", title: "Best Solid Wood File Cabinets (2026)" }
 ];

@@ -12,7 +12,7 @@ export const wirelessPeripheralBatteryManagementGuide: Guide = {
     "wireless keyboard mouse battery dying",
     "charging routine multiple wireless devices",
     "rechargeable vs replaceable battery peripherals",
-    "avoid dead wireless mouse mid work",
+    "avoid dead wireless mouse mid work"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const wirelessPeripheralBatteryManagementGuide: Guide = {
     "fully-wireless-desk-setup-explained",
     "wired-vs-wireless-mouse",
     "wireless-charging-stand-explained",
-    "usb-c-power-delivery-explained",
+    "usb-c-power-delivery-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const wirelessPeripheralBatteryManagementGuide: Guide = {
       question: "How much battery life should I expect from typical wireless desk peripherals?",
       answer:
         "This varies significantly by device and usage pattern, but many modern wireless keyboards and mice offer weeks to months of battery life per charge or battery set, checking your specific device's stated battery life helps calibrate your own charging routine expectations.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const wirelessPeripheralBatteryManagementGuide: Guide = {
     {
       heading: "Why a Scheduled Routine Outperforms Ad Hoc Charging for Multiple Devices",
       body: `Managing battery life across several wireless devices simultaneously, a keyboard, mouse, and headset, for example, becomes significantly more manageable with a consistent, scheduled charging routine rather than tracking each device's individual battery state reactively and charging only when something runs low, a simple habit like charging all wireless peripherals overnight on a specific recurring day each week ensures none of them drift into unexpectedly low battery territory simultaneously, this scheduled approach requires less ongoing mental tracking than trying to remember each device's individual charging needs on an ad hoc basis.`,
-    },
+    }
   ],
 };

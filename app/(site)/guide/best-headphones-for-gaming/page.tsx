@@ -143,7 +143,7 @@ export default async function BestHeadphonesForGamingPage() {
     about: [
       { "@type": "Thing", name: "Gaming Headset" },
       { "@type": "Thing", name: "Wireless Gaming Headset" },
-      { "@type": "Thing", name: "PS5 Headset" },
+      { "@type": "Thing", name: "PS5 Headset" }
     ],
   };
   const breadcrumbSchema = {
@@ -152,7 +152,7 @@ export default async function BestHeadphonesForGamingPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Gaming Headsets", item: `${SITE_URL}/guide/best-headphones-for-gaming` },
+      { "@type": "ListItem", position: 3, name: "Best Gaming Headsets", item: `${SITE_URL}/guide/best-headphones-for-gaming` }
     ],
   };
   const itemListSchema = {
@@ -325,7 +325,7 @@ export default async function BestHeadphonesForGamingPage() {
                     { tier: "$60-$80", desc: "AI noise-cancel mic, better driver tuning, improved earcup materials" },
                     { tier: "$100-$130", desc: "Wireless 2.4GHz, longer battery (30 to 300 hrs), larger drivers" },
                     { tier: "$130-$160", desc: "Superior microphone bandwidth, multi-platform wireless, 70-hr battery" },
-                    { tier: "$200+", desc: "ANC, platform-native PS5 integration, simultaneous dual-device" },
+                    { tier: "$200+", desc: "ANC, platform-native PS5 integration, simultaneous dual-device" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.tier}</td>
@@ -380,7 +380,7 @@ export default async function BestHeadphonesForGamingPage() {
             {[
               { context: "Wireless under $50", id: "logitech-g435-lightspeed", name: "Logitech G435", verdict: ", Lightspeed 2.4GHz, lightest at 165g, 18-hour battery." },
               { context: "Best AI mic under $80", id: "steelseries-arctis-nova-3", name: "SteelSeries Arctis Nova 3", verdict: ", ClearCast Gen 2 AI mic, AirWeave earcups, USB-C." },
-              { context: "Best overall competitive", id: "razer-blackshark-v2-pro-2023", name: "Razer BlackShark V2 Pro", verdict: ", Super Wideband mic, 70-hour battery, PC and PS5." },
+              { context: "Best overall competitive", id: "razer-blackshark-v2-pro-2023", name: "Razer BlackShark V2 Pro", verdict: ", Super Wideband mic, 70-hour battery, PC and PS5." }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

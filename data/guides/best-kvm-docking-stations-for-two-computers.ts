@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "kvm docking station two computers";
 export const introParagraphs = [
   "A KVM docking station lets one keyboard, mouse, and monitor setup serve two separate computers, which is a real convenience upgrade over swapping cables by hand, but it comes with trade-offs a standard dock plus a separate KVM switch does not. All-in-one KVM docks split one connection across switching logic, display outputs, and USB simultaneously, which can add latency and reduce effective bandwidth compared to a dedicated dock, and most use USB-C with proprietary switching rather than a certified Thunderbolt chipset.",
-  "Below are 8 KVM docking stations for two computers we evaluated on switching speed, monitor support, power delivery per host, and how honestly each one handles the compromises inherent to combining a dock and a KVM switch into one device, ranging from a $92.99 3-monitor switch to a $212.78 8K-capable dual-computer dock.",
+  "Below are 8 KVM docking stations for two computers we evaluated on switching speed, monitor support, power delivery per host, and how honestly each one handles the compromises inherent to combining a dock and a KVM switch into one device, ranging from an under-$100 3-monitor switch to an under-$250 8K-capable dual-computer dock."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "60W PD for each connected PC",
       "1G Ethernet",
       "EDID emulation",
-      "Up to 2K@144Hz / 1080p@240Hz",
+      "Up to 2K@144Hz / 1080p@240Hz"
     ],
     pros: [
       "Drives 2 monitors from 2 separate laptops",
       "EDID emulation reduces display flicker on switch",
       "Gigabit Ethernet included",
-      "High refresh rate support at 1080p and 1440p",
+      "High refresh rate support at 1080p and 1440p"
     ],
     cons: [
       "60W PD per host is modest for higher-wattage laptops",
       "MST-based switching, not a certified Thunderbolt chipset",
-      "4K resolution support not confirmed at high refresh rates",
+      "4K resolution support not confirmed at high refresh rates"
     ],
     bestFor: "Dual-monitor home office setups shared between 2 laptops",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "100W PD for each PC (rated)",
       "1G Ethernet",
       "EDID emulation",
-      "4K dual monitor support",
+      "4K dual monitor support"
     ],
     pros: [
       "Highest rated PD per host among the budget picks in this list",
       "Dual 4K monitor support",
       "EDID emulation for switching stability",
-      "Gigabit Ethernet included",
+      "Gigabit Ethernet included"
     ],
     cons: [
       "Rated 100W PD delivers closer to 82-90W in practice",
       "Idle host may charge slower than the active host",
-      "Proprietary switching rather than certified TB4",
+      "Proprietary switching rather than certified TB4"
     ],
     bestFor: "Buyers who want the highest available power delivery in a budget dual-laptop KVM dock",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Up to 8K resolution support",
       "Works with laptop and desktop combinations",
       "GbE networking",
-      "Dual-computer KVM switching",
+      "Dual-computer KVM switching"
     ],
     pros: [
       "Highest resolution ceiling in this list at up to 8K",
       "Works across mixed laptop and desktop setups",
       "Gigabit Ethernet included",
-      "Flexible for high-density monitor setups",
+      "Flexible for high-density monitor setups"
     ],
     cons: [
       "Most buyers' monitors won't use the full 8K headroom",
       "Price is among the highest in this list",
-      "Power delivery specs not disclosed for this listing",
+      "Power delivery specs not disclosed for this listing"
     ],
     bestFor: "Buyers with a high-resolution monitor or a mixed laptop and desktop setup",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "USB-C + HDMI/DP inputs",
       "100W PD",
       "4K60Hz / 4K120Hz dual monitor output",
-      "13-in-1 aluminum dock design",
+      "13-in-1 aluminum dock design"
     ],
     pros: [
       "Wide 13-in-1 port selection reduces need for extra adapters",
       "Supports both 4K60Hz and 4K120Hz output modes",
       "100W PD rating",
-      "Solid aluminum case construction",
+      "Solid aluminum case construction"
     ],
     cons: [
       "Custom-firmware gaming keyboards may not trigger hotkey switching",
       "Rated 100W PD will deliver somewhat less in practice",
-      "Aluminum case adds bulk versus slimmer docks",
+      "Aluminum case adds bulk versus slimmer docks"
     ],
     bestFor: "Buyers who want the widest port selection in a dual-monitor KVM dock",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "8K@60Hz / 4K@240Hz support",
       "Aluminum case",
       "4 USB 3.0 ports",
-      "Includes 4 DP + 2 HDMI cables, power adapter, controller",
+      "Includes 4 DP + 2 HDMI cables, power adapter, controller"
     ],
     pros: [
-      "Cheapest pick in this list at $92.99",
+      "Cheapest pick in this list at under $100",
       "Only pick supporting 3 monitors instead of 2",
       "Cables, power adapter, and controller all included",
-      "4 USB 3.0 ports for peripherals",
+      "4 USB 3.0 ports for peripherals"
     ],
     cons: [
       "Power delivery to connected laptops not specified",
       "Triple-monitor setup needs more desk space and GPU output ports",
-      "Physical controller adds a step versus hotkey-only switching",
+      "Physical controller adds a step versus hotkey-only switching"
     ],
     bestFor: "Buyers who need triple-monitor output shared between 2 computers on a budget",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "160W max power output",
       "10Gbps fast data transfer",
       "Dual 4K display support",
-      "Audio and Ethernet ports included",
+      "Audio and Ethernet ports included"
     ],
     pros: [
       "160W max output, far higher than any all-in-one KVM dock here",
       "10Gbps data transfer speed",
       "Full dock-level specs with no KVM switching compromise",
-      "Compatible with Dell, HP, Lenovo, and more",
+      "Compatible with Dell, HP, Lenovo, and more"
     ],
     cons: [
       "Requires a separate KVM switch to serve 2 computers",
       "Adds an extra device and more cabling versus an all-in-one dock",
-      "Higher total cost once a KVM switch is added",
+      "Higher total cost once a KVM switch is added"
     ],
     bestFor: "Buyers who want full dock performance and are willing to add a separate KVM switch",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "140W max power",
       "Active cooling fan",
       "Requires latest DisplayLink driver",
-      "For Windows laptops",
+      "For Windows laptops"
     ],
     pros: [
       "Triple 4K 60Hz output, more displays than most all-in-one KVM docks",
       "140W max power for laptop charging",
       "Active cooling fan reduces thermal throttling risk",
-      "Smart display features from Anker's software",
+      "Smart display features from Anker's software"
     ],
     cons: [
       "DisplayLink adds CPU overhead and isn't ideal for color-critical work",
       "Requires a separate KVM switch for 2-computer use",
-      "Windows-focused; driver dependency for DisplayLink outputs",
+      "Windows-focused; driver dependency for DisplayLink outputs"
     ],
     bestFor: "Buyers who want triple-display output and are pairing it with a separate KVM switch",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "100W charging",
       "Dual 4K HDMI or single 6K display",
       "6x USB, SD card reader, Ethernet",
-      "Optimized for M4/M5 MacBook Air & Pro",
+      "Optimized for M4/M5 MacBook Air & Pro"
     ],
     pros: [
       "Genuinely TB4-certified, unlike most all-in-one KVM docks",
       "Driverless setup",
       "100W charging with dual 4K or single 6K display support",
-      "Wide port selection including SD reader and Ethernet",
+      "Wide port selection including SD reader and Ethernet"
     ],
     cons: [
       "Not a KVM switch; needs a separate switch for 2-computer use",
       "Optimized primarily for Apple Silicon Macs",
-      "Adds an extra device if 2-computer switching is required",
+      "Adds an extra device if 2-computer switching is required"
     ],
     bestFor: "Buyers who want certified TB4 bandwidth and are pairing it with a separate KVM switch",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value versus a separate KVM switch approach",
     description: "Weighed the convenience of an all-in-one KVM dock against the full-spec performance of a certified dock paired with a dedicated KVM switch.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -481,11 +481,11 @@ export const faq: FaqItem[] = [
   {
     q: "When should I skip a KVM dock and buy a separate KVM switch instead?",
     a: "If you need full dock performance, such as 100W+ actual power delivery, 4K120Hz output, or certified Thunderbolt 4 bandwidth, a separate KVM switch paired with two individual full-spec docks is the better approach. An all-in-one KVM dock makes more sense for price-conscious setups where some spec compromise is acceptable.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-docking-stations-for-two-laptops", title: "Best Docking Stations for Two Laptops (2026)" },
   { href: "/guide/best-docking-stations-for-small-desks", title: "Best Docking Stations for Small Desks (2026)" },
-  { href: "/guide/best-budget-docking-stations-under-100", title: "Best Budget Docking Stations Under $100 (2026)" },
+  { href: "/guide/best-budget-docking-stations-under-100", title: "Best Budget Docking Stations Under $100 (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "nightstand organizer";
 export const introParagraphs = [
   "A nightstand organizer is not the nightstand itself, it's the small tray, dish, or caddy that keeps rings, watches, chargers, and pocket contents from sliding around the tabletop or drawer. That means the picks in this guide range from tiny glazed-ceramic trinket dishes to a 25-piece clear drawer organizer set and a bed-frame clip-on caddy, each solving a different version of the same nightly problem.",
-  "Below are 8 nightstand organizers we evaluated on capacity and compartments, material safety, ease of care, and value, ranging from a $9.99 ceramic dish to a $21.99 clip-on shelf that skips the nightstand entirely.",
+  "Below are 8 nightstand organizers we evaluated on capacity and compartments, material safety, ease of care, and value, ranging from an under-$10 ceramic dish to an under-$25 clip-on shelf that skips the nightstand entirely."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "8 min";
@@ -69,18 +69,18 @@ export const products: GuideProduct[] = [
       "3.9\"L x 3.9\"W x 0.6\"H",
       "Glazed ceramic",
       "Washable",
-      "Gift box included",
+      "Gift box included"
     ],
     pros: [
       "Largest review base in this guide",
       "Highest rating tier alongside the monogram tray",
       "Easy-clean glazed surface",
-      "Comes ready to gift",
+      "Comes ready to gift"
     ],
     cons: [
       "Small 3.9\" footprint holds only a handful of items",
       "Glazed ceramic is not confirmed lead-free",
-      "No compartments or dividers",
+      "No compartments or dividers"
     ],
     bestFor: "Buyers who want the most proven, no-frills catch-all tray",
   },
@@ -100,18 +100,18 @@ export const products: GuideProduct[] = [
       "4.75\"D x 0.75\"H",
       "Lead-free and cadmium-free ceramic",
       "Optional monogram engraving",
-      "Gold-text gift box",
+      "Gold-text gift box"
     ],
     pros: [
       "Only explicitly lead-free and cadmium-free pick in this guide",
       "Highest star rating in this guide at 4.9",
       "Monogram option adds a personal touch",
-      "Gift-ready packaging",
+      "Gift-ready packaging"
     ],
     cons: [
       "Smaller review base than the HOME SMILE dish",
       "Round shape holds less surface area than square trays",
-      "Costs the same as a larger square tray",
+      "Costs the same as a larger square tray"
     ],
     bestFor: "Buyers who want the safest material claim for direct skin contact",
   },
@@ -132,18 +132,18 @@ export const products: GuideProduct[] = [
       "Faux leather, diamond pattern",
       "5 compartments, 1 with a lid",
       "Half-moon coin slot",
-      "Gift box included",
+      "Gift box included"
     ],
     pros: [
       "Most compartments of any pick in this guide",
       "Lidded compartment and coin slot add real organization",
       "Masculine faux leather aesthetic",
-      "Gift-ready packaging",
+      "Gift-ready packaging"
     ],
     cons: [
       "Largest footprint in this guide, needs more nightstand space",
       "Faux leather needs more care than wipeable ceramic",
-      "Smaller review base than the top ceramic picks",
+      "Smaller review base than the top ceramic picks"
     ],
     bestFor: "Buyers who want a dedicated men's valet tray with real compartments",
   },
@@ -163,18 +163,18 @@ export const products: GuideProduct[] = [
       "7.7\"L x 5.3\"W x 0.6\"H",
       "Ceramic",
       "Anti-roll grooves",
-      "Dishwasher safe",
+      "Dishwasher safe"
     ],
     pros: [
       "Widest surface area among the ceramic trays",
       "Only pick with anti-roll grooves",
       "Dishwasher safe",
-      "Tied for cheapest pick in this guide",
+      "Tied for cheapest pick in this guide"
     ],
     cons: [
       "Cloud shape is a stronger style statement than a plain tray",
       "No compartments or dividers",
-      "Ceramic glaze is not confirmed lead-free",
+      "Ceramic glaze is not confirmed lead-free"
     ],
     bestFor: "Buyers who keep losing rings off the edge of a flat tray",
   },
@@ -194,18 +194,18 @@ export const products: GuideProduct[] = [
       "Small tray 3.9\"x3.1\", large tray 5.1\"x4.1\"",
       "Ceramic, cloud white",
       "Dishwasher safe",
-      "Gift box + greeting card included",
+      "Gift box + greeting card included"
     ],
     pros: [
       "Only set-of-2 pick among the small trays",
       "Two sizes cover two different item types or two nightstands",
       "Dishwasher safe",
-      "Gift box and card included",
+      "Gift box and card included"
     ],
     cons: [
       "Individually the trays are smaller than the single larger picks",
       "Ceramic glaze is not confirmed lead-free",
-      "Smaller review base than the top-rated single trays",
+      "Smaller review base than the top-rated single trays"
     ],
     bestFor: "Couples who need matching organizers for two nightstands",
   },
@@ -225,18 +225,18 @@ export const products: GuideProduct[] = [
       "4 sizes: 9x6\", 9x3\", 6x3\", 3x3\"",
       "Clear plastic, 25 pieces",
       "100 silicone non-slip pads included",
-      "Stackable",
+      "Stackable"
     ],
     pros: [
       "Most configurable pick, 4 sizes across 25 pieces",
       "Second most-reviewed pick in this guide",
       "Non-slip pads keep bins in place",
-      "Stackable for unused pieces",
+      "Stackable for unused pieces"
     ],
     cons: [
       "Requires an actual drawer, not a tabletop solution",
       "Clear plastic look is more utilitarian than the ceramic trays",
-      "Takes longer to set up than a single tray",
+      "Takes longer to set up than a single tray"
     ],
     bestFor: "Buyers who want to organize inside a nightstand drawer, not on top of it",
   },
@@ -256,18 +256,18 @@ export const products: GuideProduct[] = [
       "8.26\"L x 3.93\"W x 5.51\"H",
       "Paper rope + metal frame",
       "3 upright slots",
-      "Recyclable paper rope",
+      "Recyclable paper rope"
     ],
     pros: [
       "Best aesthetic pick for boho decor",
       "3 upright slots suit remotes, phones, and glasses",
       "Handcrafted scalloped design",
-      "Recyclable materials",
+      "Recyclable materials"
     ],
     cons: [
       "Not suited for loose jewelry or flat items",
       "Smallest review base in this guide",
-      "Boho styling won't suit every bedroom",
+      "Boho styling won't suit every bedroom"
     ],
     bestFor: "Buyers who need upright storage for a remote, phone, and glasses",
   },
@@ -288,21 +288,21 @@ export const products: GuideProduct[] = [
       "Plastic, clips onto bed frame",
       "50 lb capacity (highest in this guide)",
       "Cord insert slot + cup holder",
-      "60-second install",
+      "60-second install"
     ],
     pros: [
       "Only clip-on pick, no nightstand needed",
       "Highest weight capacity in this guide at 50 lbs",
       "Cord insert slot and cup holder included",
-      "60-second tool-free install",
+      "60-second tool-free install"
     ],
     cons: [
       "Plastic construction looks less refined than ceramic or leather",
       "Only works with a bed frame that has a clampable edge",
-      "Not designed for loose jewelry the way a tray is",
+      "Not designed for loose jewelry the way a tray is"
     ],
     bestFor: "Buyers with no nightstand or very limited floor clearance beside the bed",
-  },
+  }
 ];
 
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
@@ -325,7 +325,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed piece count, compartments, and capacity against price, from the cloud tray to the clip-on shelf.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -471,11 +471,11 @@ export const faq: FaqItem[] = [
   {
     q: "Can I buy one organizer for two nightstands?",
     a: "The AISBUGUR Ceramic Jewelry Dish Set of 2 is the only set-of-2 pick in this guide, giving you a small and a large tray in one purchase, which works well for a shared bedroom with a nightstand on each side of the bed.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-nightstand-narrow", title: "Best Narrow Nightstands (2026)" },
   { href: "/guide/best-nightstand-for-dorm", title: "Best Nightstands for Dorm Rooms (2026)" },
-  { href: "/guide/best-room-divider-with-storage", title: "Best Room Dividers with Storage (2026)" },
+  { href: "/guide/best-room-divider-with-storage", title: "Best Room Dividers with Storage (2026)" }
 ];

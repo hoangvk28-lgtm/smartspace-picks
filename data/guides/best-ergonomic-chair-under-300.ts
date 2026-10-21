@@ -50,7 +50,7 @@ export const products: ErgoChair300[] = [
     tradeoffs: [
       "Mesh seat is firmer than foam alternatives",
       "Assembly takes 45-60 minutes",
-      "Higher price in this guide at $200-$280",
+      "Higher price in this guide at $200-$280"
     ],
     skipIf:
       "Budget is under $200. The Sihoo M57 at $150-$200 provides 3D armrests and 2D lumbar at a lower price.",
@@ -59,12 +59,12 @@ export const products: ErgoChair300[] = [
       "3D armrests + adjustable headrest",
       "330 lb capacity",
       "135 deg recline with lock",
-      "3-year warranty",
+      "3-year warranty"
     ],
     cons: [
       "$200-$280 is higher than budget options",
       "Mesh seat firmer than foam",
-      "45-60 min assembly",
+      "45-60 min assembly"
     ],
   },
   {
@@ -86,7 +86,7 @@ export const products: ErgoChair300[] = [
     tradeoffs: [
       "Full mesh seat is firmer than foam",
       "126 deg max recline - less than C300",
-      "Lumbar may not reach correct position for users over 6'3\"",
+      "Lumbar may not reach correct position for users over 6'3\""
     ],
     skipIf:
       "You prefer soft foam seating. The Duramont at $200-$270 has memory foam and is more comfortable for users who run cool.",
@@ -95,12 +95,12 @@ export const products: ErgoChair300[] = [
       "2D lumbar (height + depth) + 3D armrests",
       "330 lb capacity with aluminum alloy base",
       "Adjustable headrest",
-      "3-year warranty at $150-$200",
+      "3-year warranty at $150-$200"
     ],
     cons: [
       "Full mesh seat firmer than foam",
       "126 deg max recline",
-      "Lumbar range limited for very tall users",
+      "Lumbar range limited for very tall users"
     ],
   },
   {
@@ -123,7 +123,7 @@ export const products: ErgoChair300[] = [
       "Mid-back profile - lower backrest than most chairs in this guide",
       "No headrest",
       "2D armrests - less adjustable than 3D/4D",
-      "Highest price at $250-$300",
+      "Highest price at $250-$300"
     ],
     skipIf:
       "You need neck support from a headrest or want maximum armrest adjustability. The Nouhaus Ergo3D at $250-$290 has 4D armrests and a headrest.",
@@ -132,13 +132,13 @@ export const products: ErgoChair300[] = [
       "Synchro-tilt mechanism for ergonomic recline",
       "HON commercial warranty",
       "Height + width adjustable arms",
-      "Proven commercial brand",
+      "Proven commercial brand"
     ],
     cons: [
       "Mid-back - no upper back or neck support",
       "No headrest",
       "2D armrests only",
-      "Highest price in this guide",
+      "Highest price in this guide"
     ],
   },
   {
@@ -160,7 +160,7 @@ export const products: ErgoChair300[] = [
     tradeoffs: [
       "300 lb capacity - lower than Sihoo options (330 lb)",
       "2-year warranty - shorter than Sihoo 3-year",
-      "More adjustment points means longer setup time",
+      "More adjustment points means longer setup time"
     ],
     skipIf:
       "You want a single person to set and forget. The Sihoo Doro C300's auto-adjust lumbar handles posture shifts without manual readjustment.",
@@ -169,12 +169,12 @@ export const products: ErgoChair300[] = [
       "3D lumbar (height + depth + tilt)",
       "135 deg recline with 3-position lock",
       "SGS certified gas cylinder",
-      "Best for shared use between different body types",
+      "Best for shared use between different body types"
     ],
     cons: [
       "300 lb capacity (lower than 330 lb Sihoo options)",
       "2-year warranty",
-      "Longer setup time to configure all adjustment points",
+      "Longer setup time to configure all adjustment points"
     ],
   },
   {
@@ -197,7 +197,7 @@ export const products: ErgoChair300[] = [
       "Fixed lumbar pad - no adjustment",
       "Flip-up armrests - no ergonomic arm positioning",
       "280 lb capacity - lowest in this guide",
-      "1-year warranty only",
+      "1-year warranty only"
     ],
     skipIf:
       "You sit more than 6 hours daily. At that use level, adjustable lumbar and 3D armrests become worth the $50-$100 premium.",
@@ -205,13 +205,13 @@ export const products: ErgoChair300[] = [
       "Full high-back coverage at the lowest price",
       "Wide foam seat for wider body types",
       "Flip-up armrests get out of the way",
-      "Best entry point for students on tight budget",
+      "Best entry point for students on tight budget"
     ],
     cons: [
       "Fixed lumbar pad",
       "Flip-up armrests - no positioning",
       "280 lb capacity - lowest here",
-      "1-year warranty",
+      "1-year warranty"
     ],
   },
   {
@@ -234,7 +234,7 @@ export const products: ErgoChair300[] = [
       "Memory foam compresses over 2-3 years",
       "1-year warranty - shortest in this guide",
       "Less breathable than full-mesh options",
-      "Heavier than mesh alternatives",
+      "Heavier than mesh alternatives"
     ],
     skipIf:
       "You sit in a warm environment or prefer mesh breathability. The Sihoo M57 is the better pick for warm climates.",
@@ -243,13 +243,13 @@ export const products: ErgoChair300[] = [
       "Memory foam seat - softest seating here",
       "Rollerblade wheels - quieter on hard floors",
       "155 deg recline - widest range in this guide",
-      "4D armrests",
+      "4D armrests"
     ],
     cons: [
       "Memory foam compresses over 2-3 years",
       "1-year warranty - shortest here",
       "Less breathable than mesh",
-      "Heavier build",
+      "Heavier build"
     ],
   },
   {
@@ -271,7 +271,7 @@ export const products: ErgoChair300[] = [
     tradeoffs: [
       "300 lb capacity - not the highest for big and tall users",
       "120 deg max recline - limited vs Duramont or C300",
-      "Foam seat - less breathable than mesh alternatives",
+      "Foam seat - less breathable than mesh alternatives"
     ],
     skipIf:
       "You are under 6'0\" and average build. The Sihoo M57 or Marsail provides better value at comparable prices.",
@@ -280,12 +280,12 @@ export const products: ErgoChair300[] = [
       "Wider seat pan for larger body types",
       "3D armrests + adjustable headrest",
       "2D lumbar (height + depth)",
-      "Established brand",
+      "Established brand"
     ],
     cons: [
       "300 lb capacity",
       "120 deg max recline",
-      "Foam seat - less breathable than mesh",
+      "Foam seat - less breathable than mesh"
     ],
   },
   {
@@ -307,7 +307,7 @@ export const products: ErgoChair300[] = [
     tradeoffs: [
       "Flip-up armrests only - no ergonomic arm positioning",
       "Memory foam breathability limited vs mesh",
-      "Newer brand - fewer long-term reviews",
+      "Newer brand - fewer long-term reviews"
     ],
     skipIf:
       "You need ergonomic arm positioning. Flip-up arms cannot be positioned like 3D or 4D armrests.",
@@ -316,12 +316,12 @@ export const products: ErgoChair300[] = [
       "3.54\" extra-thick memory foam seat",
       "330 lb capacity",
       "Adjustable lumbar pad",
-      "Multiple color options",
+      "Multiple color options"
     ],
     cons: [
       "Flip-up armrests only",
       "Memory foam less breathable than mesh",
-      "Newer brand with limited long-term data",
+      "Newer brand with limited long-term data"
     ],
   },
   {
@@ -339,27 +339,26 @@ export const products: ErgoChair300[] = [
     imageUrl: `${BASE}/tralt-ergonomic-mesh.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CQD3K8PJ?tag=deskfinds0d-20",
     whyItWorks:
-      "Only lifetime warranty in this guide. Over 3,600 Amazon reviews provides reliable real-world signal of consistent build quality. 14 color options - widest selection in this guide. All-mesh construction. 330 lb capacity.",
+      "Only lifetime warranty in this guide. 14 color options - widest selection in this guide. All-mesh construction. 330 lb capacity.",
     tradeoffs: [
       "Flip-up armrests - no ergonomic positioning",
       "120 deg recline - limited",
       "Newer brand - lifetime warranty long-term reliability unproven",
-      "Mesh seat firmer than foam",
+      "Mesh seat firmer than foam"
     ],
     skipIf:
       "You need 3D armrests or adjustable lumbar depth. The Sihoo M57 at a similar price includes both.",
     pros: [
       "Lifetime warranty - lowest long-term cost if honored",
-      "3,600+ Amazon reviews",
       "14 color options - widest selection",
       "330 lb capacity",
-      "All-mesh breathable construction",
+      "All-mesh breathable construction"
     ],
     cons: [
       "Flip-up armrests",
       "120 deg recline",
       "Lifetime warranty track record unproven",
-      "Firmer mesh seat",
+      "Firmer mesh seat"
     ],
   },
   {
@@ -382,7 +381,7 @@ export const products: ErgoChair300[] = [
       "Armrest height range limited for users over 6'1\"",
       "120 deg recline maximum",
       "1-year warranty only",
-      "Not suitable for users over 6'1\"",
+      "Not suitable for users over 6'1\""
     ],
     skipIf:
       "You are over 6'1\". Armrest height range cannot accommodate taller proportions. The Hbada 3D is better suited.",
@@ -391,15 +390,15 @@ export const products: ErgoChair300[] = [
       "2D lumbar (height + depth) + 2D headrest",
       "3.14\" high-density foam seat",
       "Good value for the feature set",
-      "Mesh backrest breathability",
+      "Mesh backrest breathability"
     ],
     cons: [
       "Armrest height range limited for tall users",
       "120 deg recline",
       "1-year warranty",
-      "Not for users over 6'1\"",
+      "Not for users over 6'1\""
     ],
-  },
+  }
 ];
 
 export const atAGlanceRows = products.map((p) => ({
@@ -431,7 +430,7 @@ export const faq = [
   {
     q: "What chair height do I need?",
     a: "Feet flat on the floor, thighs parallel to the ground, knees at 90 degrees. Most chairs adjust from 17-21 inches seat height, fitting users roughly 5'2\" to 6'2\". For users under 5'2\", a footrest ($15-$25) fills the gap.",
-  },
+  }
 ];
 
 export const relatedGuides = [
@@ -454,5 +453,5 @@ export const relatedGuides = [
   {
     href: "/guide/ergonomic-desk-setup",
     title: "Ergonomic Desk Setup Guide",
-  },
+  }
 ];

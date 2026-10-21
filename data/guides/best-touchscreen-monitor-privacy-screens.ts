@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "touchscreen monitor privacy screen";
 export const introParagraphs = [
   "We need to be direct here: none of the well-reviewed privacy filters we verified in our broader research explicitly confirm touchscreen compatibility in their listing. This is a real gap, not an oversight, since most monitor privacy filters are designed and marketed for standard non-touch displays.",
-  "Rather than recommend standard filters as touch-compatible without confirmation, we're presenting the strongest general options here alongside explicit guidance on what to verify before buying one for a touchscreen monitor.",
+  "Rather than recommend standard filters as touch-compatible without confirmation, we're presenting the strongest general options here alongside explicit guidance on what to verify before buying one for a touchscreen monitor."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Disclosed the lack of confirmed touch-compatible products honestly", description: "We found no well-reviewed filter in our research that explicitly confirms touch compatibility, and said so directly rather than assuming standard filters work fine on touch panels." },
   { title: "Distinguished mount type as a possible touch-performance factor", description: "We noted where a magnetic mount might apply less pressure directly to the touch layer than some adhesive designs, though this isn't independently verified for touch performance." },
   { title: "Recommended direct seller verification for touch-specific questions", description: "Since listings don't address touch performance, we recommended buyers contact sellers directly about tap accuracy and gesture responsiveness before ordering." },
-  { title: "Did not fabricate touch compatibility claims", description: "Rather than assume or imply touch compatibility to make this guide feel more complete, we disclosed the actual state of available information." },
+  { title: "Did not fabricate touch compatibility claims", description: "Rather than assume or imply touch compatibility to make this guide feel more complete, we disclosed the actual state of available information." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -217,7 +217,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
-    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nThis matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
   }
 ];
 
@@ -226,11 +226,11 @@ export const faq: FaqItem[] = [
   { q: "Will a standard privacy filter work on a touchscreen?", a: "It's unclear from available listings. Verify directly with the seller about tap accuracy and gesture responsiveness before ordering." },
   { q: "Does mount type affect touch performance?", a: "Possibly. A magnetic mount may apply less direct pressure to the touch layer than some adhesive designs, but this isn't independently verified for touch performance specifically." },
   { q: "What should I ask a seller before buying?", a: "Ask about tap accuracy, multi-touch gesture support, and stylus compatibility if relevant, since none of these are addressed in standard listings." },
-  { q: "Should I contact filter manufacturers directly?", a: "It's a reasonable option. Established brands like 3M or Kensington may have current touch-rated products not surfaced in our specific research." },
+  { q: "Should I contact filter manufacturers directly?", a: "It's a reasonable option. Established brands like 3M or Kensington may have current touch-rated products not surfaced in our specific research." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-magnetic-monitor-privacy-screens", title: "Best Magnetic Monitor Privacy Screens (2026)" },
   { href: "/guide/best-monitor-privacy-screens", title: "Best Monitor Privacy Screens (2026)" },
-  { href: "/guide/best-3m-monitor-privacy-screens", title: "Best 3M Monitor Privacy Screens (2026)" },
+  { href: "/guide/best-3m-monitor-privacy-screens", title: "Best 3M Monitor Privacy Screens (2026)" }
 ];

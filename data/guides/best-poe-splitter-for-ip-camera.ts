@@ -77,7 +77,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B07ZH5V89T?tag=deskfinds0d-20",
     description: "This splitter's listing specifically warns that Philips changed the DC socket size on its smart home Bridge hardware, from 5.5x2.1mm on the v1 Bridge to 5.5x2.5mm on the v2 Bridge, explicitly stating this splitter's 5.5x2.1mm plug is not compatible with the newer v2 revision, a genuinely useful and specific compatibility warning. Its 2.5KV isolation is specifically named for electrical safety.\n\nCompared to the dual-compatible pick above, this one's lower price and explicit device-generation warning make it a good fit specifically for buyers who've verified their exact camera or smart home device revision beforehand.\n\nBest for buyers who've confirmed their exact camera's DC connector size and want the lowest price.",
     specs: ["5V 2.4A (12W max), 5.5x2.1mm DC plug only", "2.5KV isolation, IEEE 802.3af compliant", "10/100Mbps, not compatible with 12V devices"],
-    pros: ["Lowest price in this comparison at $10.50", "Explicit device-generation compatibility warning prevents purchase mistakes", "2.5KV isolation for electrical safety"],
+    pros: ["Lowest price in this comparison at under $15", "Explicit device-generation compatibility warning prevents purchase mistakes", "2.5KV isolation for electrical safety"],
     cons: ["Fixed 5.5x2.1mm connector only, not compatible with 5.5x2.5mm devices", "May need manual LAN port speed configuration on some managed switches"],
     bestFor: "buyers who've confirmed their exact camera's DC connector size and want the lowest price",
   }
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["High bandwidth and power for a 4K camera", "REVODATA 2.5G 36W PoE Splitter"],
         ["Multiple voltage options for a PTZ camera with accessories", "LINOVISION Industrial Gigabit PoE++ Splitter"],
         ["Dual connector compatibility without guessing your camera's size", "PoE Splitter 5V2.5A Output, Dual DC Plug Compatible"],
-        ["The lowest price for a confirmed 5.5x2.1mm 5V camera", "DSLRKIT DC 5V 2.4A Active PoE Splitter"],
+        ["The lowest price for a confirmed 5.5x2.1mm 5V camera", "DSLRKIT DC 5V 2.4A Active PoE Splitter"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $11", "DSLRKIT DC 5V 2.4A ($10.50)"],
-        ["Under $14", "PoE Splitter 5V2.5A Dual Plug ($13.96)"],
-        ["Under $19", "REVODATA 2.5G 36W Splitter ($18.19)"],
-        ["Under $79", "LINOVISION Industrial PoE++ Splitter ($78.99)"],
+        ["Under $11", "DSLRKIT DC 5V 2.4A (under $15)"],
+        ["Under $14", "PoE Splitter 5V2.5A Dual Plug (under $15)"],
+        ["Under $19", "REVODATA 2.5G 36W Splitter (under $20)"],
+        ["Under $79", "LINOVISION Industrial PoE++ Splitter (under $80)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Fixed Connector vs Dual-Compatible Connector",
     cards: [
       { label: "Fixed connector (DSLRKIT)", text: "Works only with a specific 5.5x2.1mm connector size, requiring you to confirm your exact camera's connector before buying." },
-      { label: "Dual-compatible connector (PoE Splitter 5V2.5A)", text: "Fits both 5.5x2.5mm and 5.5x2.1mm sizes, removing the guesswork if you're unsure which exact size your camera uses." },
+      { label: "Dual-compatible connector (PoE Splitter 5V2.5A)", text: "Fits both 5.5x2.5mm and 5.5x2.1mm sizes, removing the guesswork if you're unsure which exact size your camera uses." }
     ],
     note: "If you've already confirmed your camera's exact DC connector size, the fixed-connector DSLRKIT pick's lower price is a fine choice. If you're unsure or buying for a camera you haven't measured yet, the dual-compatible pick removes that risk.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["Standard 5V IP camera", "PoE Splitter 5V2.5A or DSLRKIT DC 5V 2.4A"],
         ["High-power 4K camera needing 12V/3A", "REVODATA 2.5G 36W PoE Splitter"],
-        ["PTZ camera with wiper or IR accessories", "LINOVISION Industrial Gigabit PoE++ Splitter"],
+        ["PTZ camera with wiper or IR accessories", "LINOVISION Industrial Gigabit PoE++ Splitter"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For a Popular Smart Home Camera Bridge Specifically",
     cards: [
       { label: "Look for", text: "Explicit hardware revision compatibility warnings, since manufacturers sometimes change connector sizes between hardware versions of the same product line without renaming it." },
-      { label: "In this comparison", text: "The DSLRKIT pick specifically warns about a Philips Bridge hardware revision changing DC socket size, a genuinely useful heads-up before assuming compatibility with your specific unit." },
+      { label: "In this comparison", text: "The DSLRKIT pick specifically warns about a Philips Bridge hardware revision changing DC socket size, a genuinely useful heads-up before assuming compatibility with your specific unit." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You're powering a PTZ camera with accessories needing different voltage options, where the LINOVISION pick's $78.99 price is justified by its switchable multi-voltage design." },
-      { label: "Save if", text: "You've confirmed your exact camera's connector size and voltage need, where the DSLRKIT pick delivers that for $10.50, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You're powering a PTZ camera with accessories needing different voltage options, where the LINOVISION pick's under $80 price is justified by its switchable multi-voltage design." },
+      { label: "Save if", text: "You've confirmed your exact camera's connector size and voltage need, where the DSLRKIT pick delivers that for under $15, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

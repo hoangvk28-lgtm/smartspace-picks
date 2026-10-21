@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "chair mats for carpet";
 export const introParagraphs = [
   "Most chair mats sold for carpet only cover low pile, under 1/4 inch, which leaves a real gap for anyone with medium, high, or extra-high pile carpet (the kind with thick padding underneath). This guide leans into that gap with commercial-grade picks built for offices with heavier daily use, plus the one mat in this lineup actually rated for extra-high pile.",
-  "Below are 8 chair mats for carpet we evaluated on pile-height rating, cleat and stud design, and long-term durability, ranging from a $28 clear PVC mat to commercial-grade vinyl mats built for medium and extra-high pile carpet.",
+  "Below are 8 chair mats for carpet we evaluated on pile-height rating, cleat and stud design, and long-term durability, ranging from a $28 clear PVC mat to commercial-grade vinyl mats built for medium and extra-high pile carpet."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Extended lip, ramped edges",
       "Anchor bars underside",
       "Rated for low pile carpet up to 1/4\"",
-      "5-year warranty",
+      "5-year warranty"
     ],
     pros: [
       "Longest warranty in this guide",
       "Anti-skid top surface",
       "Ramped lip smooths the transition onto carpet",
-      "Extremely large review base",
+      "Extremely large review base"
     ],
     cons: [
       "Only rated for low pile carpet",
       "Not the thickest mat in this guide",
-      "No commercial-grade sizing option",
+      "No commercial-grade sizing option"
     ],
     bestFor: "Low pile carpet where warranty length and proven track record matter most",
   },
@@ -88,18 +88,17 @@ export const products: GuideProduct[] = [
       "54\"W x 32\"D, special rigid material, 5mm thick",
       "Rated 1,400 lbs, highest in this guide",
       "Rigid, flat, dual-use on carpet or hard floor",
-      "12-month warranty",
+      "12-month warranty"
     ],
     pros: [
       "Highest weight capacity in this guide",
       "Rigid construction resists sinking into carpet",
-      "Works on carpet or hard floor",
-      "Strong 4.4-star rating",
+      "Works on carpet or hard floor"
     ],
     cons: [
       "Shorter warranty than the HON pick",
       "Heavier to reposition than flexible vinyl",
-      "Not explicitly rated by pile height like the vinyl picks",
+      "Not explicitly rated by pile height like the vinyl picks"
     ],
     bestFor: "Buyers who need the highest rated weight capacity in this guide",
   },
@@ -119,18 +118,18 @@ export const products: GuideProduct[] = [
       "36\"W x 48\"D, polycarbonate, 0.087\" thick",
       "Hundreds of underside spikes",
       "Ships flat, no settling wait",
-      "Rated for medium or low pile up to 3/4\"",
+      "Rated for medium or low pile up to 3/4\""
     ],
     pros: [
       "Ships flat, no relax time needed",
       "Rated for a wider pile range than PVC picks",
       "Polycarbonate resists impact better than PVC",
-      "Strong grip from hundreds of spikes",
+      "Strong grip from hundreds of spikes"
     ],
     cons: [
       "No front lip",
       "Not rated for extra-high pile",
-      "Smaller review sample than the top picks",
+      "Smaller review sample than the top picks"
     ],
     bestFor: "Medium pile carpet where a flat-shipped mat is preferred over a rolled one",
   },
@@ -151,18 +150,18 @@ export const products: GuideProduct[] = [
       "AnchorBar cleats (safe underfoot design)",
       "Rated for medium pile carpet up to 3/4\"",
       "Made in USA, GREENGUARD certified",
-      "Lifetime 'No Crack' warranty",
+      "Lifetime 'No Crack' warranty"
     ],
     pros: [
       "Largest single mat footprint in this guide",
       "Lifetime 'No Crack' warranty",
       "GREENGUARD certified and Made in USA",
-      "Safe, rounded cleats rather than sharp spikes",
+      "Safe, rounded cleats rather than sharp spikes"
     ],
     cons: [
       "Most expensive pick in this guide",
       "Lowest star rating in this guide at 3.8",
-      "Large footprint needs a genuinely spacious desk area",
+      "Large footprint needs a genuinely spacious desk area"
     ],
     bestFor: "Large commercial-style desk setups on medium pile carpet needing a lifetime warranty",
   },
@@ -183,18 +182,17 @@ export const products: GuideProduct[] = [
       "Rated for extra-high pile over 1\" (including padding)",
       "AnchorBar cleats",
       "GREENGUARD Gold certified, phthalate and cadmium free",
-      "Made in USA, lifetime warranty",
+      "Made in USA, lifetime warranty"
     ],
     pros: [
       "Only pick in this guide rated for extra-high pile carpet",
       "GREENGUARD Gold certified",
       "Made in USA with a lifetime warranty",
-      "Safe AnchorBar cleats, not sharp spikes",
+      "Safe AnchorBar cleats, not sharp spikes"
     ],
     cons: [
       "Lowest reviews-to-price ratio in this guide",
-      "3.7-star rating is the lowest here",
-      "Smaller footprint than the ES Robbins EverLife pick",
+      "Smaller footprint than the ES Robbins EverLife pick"
     ],
     bestFor: "Extra-high pile or heavily padded carpet with no other mat in this guide rated to fit",
   },
@@ -214,18 +212,18 @@ export const products: GuideProduct[] = [
       "46\"W x 36\"D, tempered glass, 6mm thick",
       "Rated 1,000 lbs",
       "Rated for any floor type",
-      "Scratch-resistant, 5-year warranty",
+      "Scratch-resistant, 5-year warranty"
     ],
     pros: [
       "Most-reviewed and highest-rated pick in this guide",
       "Works on any carpet pile height without a rating ceiling",
       "5-year warranty and scratch-resistant surface",
-      "Easy to clean",
+      "Easy to clean"
     ],
     cons: [
       "Listing availability can be limited, confirm price before buying",
       "Heaviest material in this guide to reposition",
-      "Smaller footprint than the largest vinyl picks",
+      "Smaller footprint than the largest vinyl picks"
     ],
     bestFor: "Buyers who want a rigid mat unaffected by carpet pile height at all",
   },
@@ -246,18 +244,17 @@ export const products: GuideProduct[] = [
       "Rated 1,200 lbs",
       "4 anti-slip pads",
       "BPA-free, phthalate-free, odorless",
-      "Dual-use on carpet or hard floor",
+      "Dual-use on carpet or hard floor"
     ],
     pros: [
       "Cheapest tempered glass pick in this guide",
       "Rigid, unaffected by carpet pile height",
-      "Dual-use on carpet or hard floor",
-      "Strong 4.6-star rating",
+      "Dual-use on carpet or hard floor"
     ],
     cons: [
       "Smaller footprint than the Lorell glass pick",
       "Anti-slip pads offer lighter grip than full cleats",
-      "Heavier to move than vinyl mats",
+      "Heavier to move than vinyl mats"
     ],
     bestFor: "Buyers who want glass's pile-independent durability at the lowest glass price",
   },
@@ -278,21 +275,20 @@ export const products: GuideProduct[] = [
       "Felt backing + rubberized non-slip dots",
       "Water-resistant, stain-resistant",
       "Rated for low pile carpet or hard surfaces",
-      "Hand-crafted",
+      "Hand-crafted"
     ],
     pros: [
       "Only decorative, rug-style pick in this guide",
       "Water-resistant and stain-resistant",
-      "Strong 4.7-star rating",
-      "Works on low pile carpet or hard surfaces",
+      "Works on low pile carpet or hard surfaces"
     ],
     cons: [
       "Only rated for low pile, not medium or high",
       "Woven texture may not grip as firmly as cleated vinyl",
-      "Smaller review sample than the top vinyl picks",
+      "Smaller review sample than the top vinyl picks"
     ],
     bestFor: "Buyers who want a chair mat that doubles as a decorative rug",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -320,7 +316,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed footprint size, pile rating, and warranty against price, since this guide spans a basic mat up to a commercial-grade 60x72 mat.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -465,7 +461,7 @@ export const faq: FaqItem[] = [
   },
   {
     q: "Why does the ES Robbins EverLife have a lower star rating than the cheaper picks in this guide?",
-    a: "It sits at 3.8 stars, the lowest in this guide, despite its commercial-grade certifications and lifetime warranty. A lower average rating doesn't necessarily mean lower build quality, it can also reflect a larger, heavier, pricier product with higher buyer expectations, so weigh it alongside the mat's actual spec sheet.",
+    a: "A lower average rating doesn't necessarily mean lower build quality, it can also reflect a larger, heavier, pricier product with higher buyer expectations, so weigh it alongside the mat's actual spec sheet.",
   },
   {
     q: "How long does a rolled chair mat take to lie flat?",
@@ -474,11 +470,11 @@ export const faq: FaqItem[] = [
   {
     q: "Which pick in this guide is best if I want the mat to look decorative rather than utilitarian?",
     a: "The Anji Mountain Rug'd Jacquard Office Chair Mat is the only pick here that looks like a woven decorative rug rather than a plastic or glass mat, while still being rated for low pile carpet or hard surfaces.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-chair-mat-for-carpet", title: "Best Chair Mat for Carpet (2026)" },
   { href: "/guide/best-chair-mats", title: "Best Chair Mats for Any Floor (2026)" },
-  { href: "/guide/best-office-chair-under-100", title: "Best Office Chairs Under $100 (2026)" },
+  { href: "/guide/best-office-chair-under-100", title: "Best Office Chairs Under $100 (2026)" }
 ];

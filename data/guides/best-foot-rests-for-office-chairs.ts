@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41BW9bJevEL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FNS68RB2?tag=deskfinds0d-20",
-    "description": "VIVO has a 23 x 14 inch cushion, 11 pin-locking length settings from 15.5 to 26.5 inches and a height range of 15.8 to 21.8 inches. It supports up to 242 lbs and is only compatible with 2 inch gas cylinders.\n\nIt is the priciest at $99.99, but the cushion is larger than BALAPET and the weight limit is stated. Versus MOYRPV it adds a lever for height.\n\nBest for larger users and cross-legged sitters. The caveat is that it fits only 2 inch cylinders and costs more.",
+    "description": "VIVO has a 23 x 14 inch cushion, 11 pin-locking length settings from 15.5 to 26.5 inches and a height range of 15.8 to 21.8 inches. It supports up to 242 lbs and is only compatible with 2 inch gas cylinders.\n\nIt is the priciest at under $100, but the cushion is larger than BALAPET and the weight limit is stated. Versus MOYRPV it adds a lever for height.\n\nBest for larger users and cross-legged sitters. The caveat is that it fits only 2 inch cylinders and costs more.",
     "specs": [
       "23 x 14 inch cushion",
       "Supports up to 242 lbs",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41tRPbwNd9L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HG58VGMB?tag=deskfinds0d-20",
-    "description": "MOYRPV is an office chair footrest attachment with an adjustable PU pad that measures 16.9 x 13 x 3.9 inches and five swivel casters that lock with brakes. The listing says the footrest can be raised or lowered and moved closer to or farther from the chair, and that it keeps the support close to the chair.\n\nAt $55.99 it is $9 cheaper than BALAPET, which has the same pad size but gives more detail on height and distance ranges. Compared with VIVO, it is a smaller cushion and costs about $44 less.\n\nBest for people who want a padded attachment with plenty of casters and a lower price. The caveat is that the highlights do not list the adjustment ranges, so check the product page for fit.",
+    "description": "MOYRPV is an office chair footrest attachment with an adjustable PU pad that measures 16.9 x 13 x 3.9 inches and five swivel casters that lock with brakes. The listing says the footrest can be raised or lowered and moved closer to or farther from the chair, and that it keeps the support close to the chair.\n\nAt under $60 it is $9 cheaper than BALAPET, which has the same pad size but gives more detail on height and distance ranges. Compared with VIVO, it is a smaller cushion and costs about $44 less.\n\nBest for people who want a padded attachment with plenty of casters and a lower price. The caveat is that the highlights do not list the adjustment ranges, so check the product page for fit.",
     "specs": [
       "16.9 x 13 x 3.9 inch pad",
       "5 locking casters",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31zsIKp9EUL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CS9DJ7BZ?tag=deskfinds0d-20",
-    "description": "KALLORY is a stainless steel pull-and-flip telescopic frame measuring 16.14 x 14.56 x 0.78 inches. It can fold away when not in use and has a smooth tube pedal.\n\nAt $26.99 it is the cheapest attachment here, and it is a frame, not a cushion. Versus BALAPET it has no padding.\n\nBest for people who want a leg rest that disappears. The caveat is no padding or weight rating.",
+    "description": "KALLORY is a stainless steel pull-and-flip telescopic frame measuring 16.14 x 14.56 x 0.78 inches. It can fold away when not in use and has a smooth tube pedal.\n\nAt under $30 it is the cheapest attachment here, and it is a frame, not a cushion. Versus BALAPET it has no padding.\n\nBest for people who want a leg rest that disappears. The caveat is no padding or weight rating.",
     "specs": [
       "Pull-and-flip telescopic frame",
       "16.14 x 14.56 x 0.78 inches",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41qfs3RRdTL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CZ6HJSGL?tag=deskfinds0d-20",
-    "description": "Loodmeo is an 18 inch chrome-plated steel foot ring with a four-spoke center support that spreads weight evenly. The listing says it fits drafting stools, office chairs and task stools with a standard center gas lift cylinder, and it names workshops and cashier stations among its uses.\n\nAt $46.99 it costs $4 more than the Frassie rings and has a larger diameter than the 15.7 inch Frassie. Unlike the cushion attachments, it offers no padding, so you rest your feet on bare chrome.\n\nBest for stools and task chairs where a ring is the standard fit. The caveat is a hard surface and that you must match the center column size before ordering.",
+    "description": "Loodmeo is an 18 inch chrome-plated steel foot ring with a four-spoke center support that spreads weight evenly. The listing says it fits drafting stools, office chairs and task stools with a standard center gas lift cylinder, and it names workshops and cashier stations among its uses.\n\nAt under $50 it costs $4 more than the Frassie rings and has a larger diameter than the 15.7 inch Frassie. Unlike the cushion attachments, it offers no padding, so you rest your feet on bare chrome.\n\nBest for stools and task chairs where a ring is the standard fit. The caveat is a hard surface and that you must match the center column size before ordering.",
     "specs": [
       "18 inch chrome ring",
       "Four-spoke center support",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/312fRPhubaL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DKNBWLL9?tag=deskfinds0d-20",
-    "description": "Frassie's 17.7 inch ring is a 450 mm metal chrome foot ring with a 2.1 inch center hole and height adjustment. The listing describes a scratch-resistant finish and says the larger diameter is more comfortable than a ring the same size as the stool.\n\nIt costs $42.99, the same as the 15.7 inch Frassie, and is $4 cheaper than Loodmeo. The ring is a little smaller than Loodmeo's 18 inches but larger than its own 15.7 inch sibling.\n\nBest for stools with a 2.1 inch center column that need a roomy ring. The caveat is that you must measure your column, and the surface is hard metal.",
+    "description": "Frassie's 17.7 inch ring is a 450 mm metal chrome foot ring with a 2.1 inch center hole and height adjustment. The listing describes a scratch-resistant finish and says the larger diameter is more comfortable than a ring the same size as the stool.\n\nIt costs under $45, the same as the 15.7 inch Frassie, and is $4 cheaper than Loodmeo. The ring is a little smaller than Loodmeo's 18 inches but larger than its own 15.7 inch sibling.\n\nBest for stools with a 2.1 inch center column that need a roomy ring. The caveat is that you must measure your column, and the surface is hard metal.",
     "specs": [
       "17.7 inch (450 mm) ring",
       "2.1 inch center hole",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/413bOQEy8DL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CZDMW3KF?tag=deskfinds0d-20",
-    "description": "Frassie's 15.7 inch ring is a 400 mm foot ring with a 2.1 inch center hole, height adjustment and a stainless or metal build described as scratch-resistant. It is meant for office stools and drafting chairs.\n\nIt costs the same as the 17.7 inch Frassie at $42.99 and is the smaller of the two. Against Loodmeo it is cheaper and smaller.\n\nBest for tight spaces or short users who do not need a wide ring. The caveat is the same as its sibling: measure your column and accept a hard metal surface.",
+    "description": "Frassie's 15.7 inch ring is a 400 mm foot ring with a 2.1 inch center hole, height adjustment and a stainless or metal build described as scratch-resistant. It is meant for office stools and drafting chairs.\n\nIt costs the same as the 17.7 inch Frassie at under $45 and is the smaller of the two. Against Loodmeo it is cheaper and smaller.\n\nBest for tight spaces or short users who do not need a wide ring. The caveat is the same as its sibling: measure your column and accept a hard metal surface.",
     "specs": [
       "15.7 inch (400 mm) ring",
       "2.1 inch center hole",

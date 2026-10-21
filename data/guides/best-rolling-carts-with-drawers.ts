@@ -33,23 +33,22 @@ export const products: GuideProduct[] = [
     badge: "Best Overall by Trust Signal",
     name: "IRIS USA 4-Drawer Plastic Storage Organizer Rolling Cart, Clear Drawers, Divided Top, Made in USA",
     price: "~$33.99",
-    rating: "4.6 stars",
-    reviews: "7,851 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/iris-usa-4-drawer.webp`,
     amazonUrl: "https://www.amazon.com/dp/B07Q4FHWV9?tag=deskfinds0d-20",
     description:
       "Four clear plastic drawers let you see exactly what is stored in each compartment without pulling them open, which saves time when multiple drawers hold similar-looking supplies like pens, cables, and sticky notes. A divided top tray adds a fifth open storage zone for items you reach for constantly, such as scissors or a stapler, so they stay accessible without taking up drawer space. The casters are removable, meaning the cart can be locked into a corner permanently without rolling underfoot if your workspace does not require it to move. Made in the USA, which is relevant for buyers who prefer domestically manufactured products as a proxy for material consistency and quality control. this sits in the mid-range for a four-drawer plastic cart, making it a reasonable choice for a home office that needs organized small-supply storage at desk level.",
     specs: ["4 drawers", "Clear drawers", "Made in USA", "Divided top"],
     pros: [
-      "7,851 reviews at 4.6 stars most validated in roundup",
       "Made in USA quality signal",
       "Clear drawers plus divided top tray",
-      "Removable casters for stationary option",
+      "Removable casters for stationary option"
     ],
     cons: [
       "Plastic less durable than metal",
       "Black/Pearl color specific",
-      "4 drawers fewer compartments than 10-drawer options",
+      "4 drawers fewer compartments than 10-drawer options"
     ],
     bestFor:
       "home offices wanting the most-validated clear-drawer rolling cart from a Made in USA brand",
@@ -60,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best 360-Degree Casters with Clear Drawers",
     name: "HOMZ 3-Tier Rolling Storage Cart, 3 Clear Removable Drawers, 360-Degree Casters, White",
     price: "~$49.99",
-    rating: "4.6 stars",
-    reviews: "7,224 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/homz-3-tier-clear.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0823H3Z95?tag=deskfinds0d-20",
     description:
@@ -70,13 +69,12 @@ export const products: GuideProduct[] = [
     pros: [
       "360-degree casters for corner and tight space maneuverability",
       "Clear drawers identify contents without opening",
-      "7,224 reviews at 4.6 stars",
-      "Removable casters for stationary use",
+      "Removable casters for stationary use"
     ],
     cons: [
-      "$49.99 higher than IRIS USA for fewer drawers",
+      "$50 higher than IRIS USA for fewer drawers",
       "Plastic construction",
-      "3 drawers vs 4 on IRIS USA at lower price",
+      "3 drawers vs 4 on IRIS USA at lower price"
     ],
     bestFor:
       "tight home offices or corner setups where 360-degree caster maneuverability is useful with clear drawer visibility",
@@ -87,8 +85,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Maximum Compartmentalization",
     name: "IRIS USA 10-Drawer Plastic Storage Organizer Rolling Cart, Clear Drawers, Drawer Stops, Made in USA",
     price: "~$62.99",
-    rating: "4.6 stars",
-    reviews: "4,257 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/iris-usa-10-drawer.webp`,
     amazonUrl: "https://www.amazon.com/dp/B08S9RLZXC?tag=deskfinds0d-20",
     description:
@@ -98,12 +96,12 @@ export const products: GuideProduct[] = [
       "10 drawers maximum supply category separation",
       "Drawer stops prevent accidental removal",
       "Clear drawers identify any of 10 compartments",
-      "Made in USA",
+      "Made in USA"
     ],
     cons: [
-      "$62.99 highest price among dedicated drawer carts",
+      "Under $70 highest price among dedicated drawer carts",
       "Shallower drawers than 4-drawer alternatives",
-      "More compartments than most home offices need",
+      "More compartments than most home offices need"
     ],
     bestFor:
       "home office workers managing a large variety of small supplies who want maximum organized compartmentalization",
@@ -114,23 +112,22 @@ export const products: GuideProduct[] = [
     badge: "Best Value for High Weight Capacity",
     name: "Goovilla 3-Tier Rolling Utility Cart, Removable Drawer, 124 lbs, Cups and Hooks, White",
     price: "~$23.99",
-    rating: "4.6 stars",
-    reviews: "3,559 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/goovilla-hybrid.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0DNFB8FHD?tag=deskfinds0d-20",
     description:
       "This three-tier cart has one removable drawer for concealed storage and two open shelves that can bear significant weight, rated to 124 pounds total, which is enough to support a full-size inkjet or laser printer on the top shelf without flexing. Side-mounted cups hold pens or scissors, and the included hooks can hold headphones, a bag, or charging cables along the frame exterior, turning the side of the cart into usable vertical storage. The design combines a hybrid approach: the single drawer conceals small items you do not want visible while the open shelves keep larger items accessible without having to open anything. this is among the lowest-priced options in this guide. The main tradeoff is that only one drawer is included, so buyers who need to separate multiple categories of small supplies will find the storage options limited compared to four-drawer or ten-drawer alternatives.",
-    specs: ["124 lbs capacity", "Removable drawer", "Cups and hooks", "$23.99"],
+    specs: ["124 lbs capacity", "Removable drawer", "Cups and hooks", "under $25"],
     pros: [
-      "Lowest price at $23.99",
+      "Lowest price at under $25",
       "124-lb capacity highest for heavy printers",
-      "Cups and hooks add accessory storage",
-      "4.6 stars 3,559 reviews",
+      "Cups and hooks add accessory storage"
     ],
     cons: [
       "Single removable drawer limited compartmentalization",
       "Lockable wheels only, no removable option",
-      "Open shelves for most storage",
+      "Open shelves for most storage"
     ],
     bestFor:
       "buyers needing a rolling cart to support a heavy printer at the lowest price",
@@ -141,23 +138,22 @@ export const products: GuideProduct[] = [
     badge: "Best Waterproof Construction Option",
     name: "SUNALLY 3-Tier Rolling Cart with Drawer, 124 lbs, Waterproof PP Material, White",
     price: "~$22.99",
-    rating: "4.5 stars",
-    reviews: "1,971 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/sunally-waterproof.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0D34HFHZH?tag=deskfinds0d-20",
     description:
       "The frame and shelves are made from polypropylene, a plastic known for resisting moisture without warping or degrading, which makes this cart appropriate for home offices in humid climates, basement workspaces, or rooms adjacent to kitchens and bathrooms where a standard particle-board cart would eventually absorb moisture and weaken. The 124-pound weight capacity matches heavier-duty carts in this guide and can support a printer or other heavy equipment on the top shelf. One removable drawer handles small concealed storage while two open shelves manage larger items. this is one of the most affordable options in the guide. Buyers who do not have a moisture concern and need more drawers will find the Goovilla or IRIS USA options better suited to pure office-supply organization.",
-    specs: ["Waterproof PP", "124 lbs", "3 tiers", "$22.99"],
+    specs: ["Waterproof PP", "124 lbs", "3 tiers", "under $25"],
     pros: [
-      "Lowest price at $22.99",
+      "Lowest price at under $25",
       "Waterproof PP for humid environments",
-      "124-lb capacity matches Goovilla",
-      "1,971 reviews at 4.5 stars",
+      "124-lb capacity matches Goovilla"
     ],
     cons: [
       "Single drawer same limitation as Goovilla",
       "Open shelves for most storage",
-      "No removable caster option",
+      "No removable caster option"
     ],
     bestFor:
       "budget buyers in humid environments where waterproof construction matters or for garages and wet areas",
@@ -168,23 +164,22 @@ export const products: GuideProduct[] = [
     badge: "Highest Rated - Open Mesh Baskets, Not Drawers",
     name: "YASONIC 3-Tier Rolling Metal Cart, Mesh Baskets, Hanging Cups and Hooks, 66 lbs, Black",
     price: "~$32.99",
-    rating: "4.7 stars",
-    reviews: "1,773 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/yasonic-mesh-baskets.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CRGNKHVW?tag=deskfinds0d-20",
     description:
       "This cart uses open metal mesh baskets instead of enclosed drawers, meaning items placed inside are visible and accessible from all sides without needing to pull anything open, which suits buyers who prefer fast grab-and-go access over organized concealed storage. The metal frame and mesh construction make it considerably sturdier than the plastic drawer carts in this guide, and the per-shelf weight capacity of 66 pounds is roughly three times higher than typical plastic carts rated around 22 pounds per shelf. Side-mounted cups and hooks come included for storing pens, scissors, or accessories on the exterior of the cart frame.\n\nThe important distinction to understand before buying is that the baskets are not drawers: items are not hidden from view and will not be contained if the cart tips or if small items slip through the mesh openings. Buyers who want enclosed drawer storage for small loose supplies should choose a different option in this guide.",
-    specs: ["4.7 stars", "66 lbs per shelf", "Mesh baskets", "Cups and hooks"],
+    specs: [ "66 lbs per shelf", "Mesh baskets", "Cups and hooks"],
     pros: [
-      "4.7 stars highest rating in roundup",
       "66-lb capacity 3x standard carts",
       "Cups and hooks for accessories",
-      "Metal more durable than plastic",
+      "Metal more durable than plastic"
     ],
     cons: [
       "Open mesh baskets NOT enclosed drawers",
       "Black finish limits aesthetic flexibility",
-      "Items visible from all sides",
+      "Items visible from all sides"
     ],
     bestFor:
       "buyers who want the highest-rated rolling cart and open basket storage is acceptable",
@@ -195,8 +190,8 @@ export const products: GuideProduct[] = [
     badge: "Best Premium Option with Wood Top",
     name: "Aokitsink 4-Drawer Rolling Storage Cart, 150 lbs, Metal Frame with Wood Top, Diamond Mesh",
     price: "~$59.99",
-    rating: "4.4 stars",
-    reviews: "267 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/aokitsink-wood-top.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0FDB2H7LD?tag=deskfinds0d-20",
     description:
@@ -206,12 +201,11 @@ export const products: GuideProduct[] = [
       "Only wood top in roundup for desk matching",
       "150-lb highest capacity in roundup",
       "Metal frame plus wood premium look",
-      "Diamond mesh drawer design",
+      "Diamond mesh drawer design"
     ],
     cons: [
-      "267 reviews small sample at $59.99",
       "Wood top requires moisture care",
-      "Limited review validation",
+      "Limited review validation"
     ],
     bestFor:
       "home offices where the cart needs to visually match a wood desk and 150-lb capacity is needed",
@@ -222,8 +216,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Creative Spaces with Color Options",
     name: "COSTWAY 10-Drawer Rolling Storage Cart, Galvanized Metal Frame, Rainbow or Black Option",
     price: "~$49.99",
-    rating: "4.4 stars",
-    reviews: "247 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/costway-10-drawer.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0BN4YD7M4?tag=deskfinds0d-20",
     description:
@@ -233,16 +227,15 @@ export const products: GuideProduct[] = [
       "Rainbow color option unique in this category",
       "Galvanized metal rust-resistant",
       "Removable individual drawers",
-      "10 drawers for maximum compartments",
+      "10 drawers for maximum compartments"
     ],
     cons: [
-      "247 reviews small sample",
       "IRIS USA 10-drawer has 17x more reviews at same price",
-      "Opaque drawers no visibility",
+      "Opaque drawers no visibility"
     ],
     bestFor:
       "creative workspaces or children homework stations where the rainbow color option is a deliberate aesthetic choice",
-  },
+  }
 ];
 
 export const faq: { q: string; a: string }[] = [
@@ -265,12 +258,12 @@ export const faq: { q: string; a: string }[] = [
   {
     q: "Can I remove the wheels from these rolling carts?",
     a: "The IRIS USA 4-drawer and HOMZ 3-tier clear both offer removable casters for a stationary option. Most other carts in this roundup have fixed wheels. Check the product listing if stationary use is a requirement.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-rolling-carts-home-office", title: "Best Rolling Carts for Home Offices (2026)" },
   { href: "/guide/best-printer-stands-with-storage", title: "Best Printer Stands with Storage (2026)" },
   { href: "/guide/best-desk-shelves-small-desks", title: "Best Desk Shelves for Small Desks (2026)" },
-  { href: "/guide/small-desk-organization-ideas", title: "Small Desk Organization Ideas" },
+  { href: "/guide/small-desk-organization-ideas", title: "Small Desk Organization Ideas" }
 ];

@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Documented Dell OptiPlex Micro compatibility", "HumanCentric Mount for Dell OptiPlex Micro"],
         ["Two mounts for two workstations", "suptek Thin Client Mount Bracket, 2 Pack"],
         ["To mount a NAS or other heavier device", "PUTORSEN Under Desk Mini PC Mount NAS Bracket"],
-        ["A simple, compact universal mount", "HumanCentric Thin Client Mount Bracket"],
+        ["A simple, compact universal mount", "HumanCentric Thin Client Mount Bracket"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $27", "HumanCentric Thin Client Mount ($26.99)"],
-        ["Under $28", "PUTORSEN NAS Bracket ($27.99)"],
-        ["Under $35", "HumanCentric Dell OptiPlex Mount ($34.99)"],
-        ["Under $38", "suptek 2 Pack ($37.99)"],
+        ["Under $27", "HumanCentric Thin Client Mount (under $30)"],
+        ["Under $28", "PUTORSEN NAS Bracket (under $30)"],
+        ["Under $35", "HumanCentric Dell OptiPlex Mount (under $35)"],
+        ["Under $38", "suptek 2 Pack (under $40)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Standard Weight Capacity vs Heavy-Duty NAS Rating",
     cards: [
       { label: "Standard capacity (HumanCentric picks, suptek)", text: "Rated around 11 lbs, sufficient for typical mini PCs and thin clients but not built for heavier NAS enclosures." },
-      { label: "Heavy-duty NAS rating (PUTORSEN)", text: "Rated up to 22 lbs, genuinely built for heavier devices like NAS units or a mini PC paired with a docking station." },
+      { label: "Heavy-duty NAS rating (PUTORSEN)", text: "Rated up to 22 lbs, genuinely built for heavier devices like NAS units or a mini PC paired with a docking station." }
     ],
     note: "If you're mounting anything heavier than a standard lightweight mini PC, the PUTORSEN's doubled weight capacity is worth prioritizing over a standard-rated bracket.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["One workstation, standard mini PC", "HumanCentric Thin Client Mount"],
         ["Two workstations or want a spare", "suptek 2 Pack"],
-        ["One Dell OptiPlex Micro with documented fit", "HumanCentric Dell OptiPlex Mount"],
+        ["One Dell OptiPlex Micro with documented fit", "HumanCentric Dell OptiPlex Mount"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Home Network Closet or NAS Setup Specifically",
     cards: [
       { label: "Look for", text: "A stated weight capacity well above a typical mini PC's weight, since NAS enclosures with drives installed are meaningfully heavier." },
-      { label: "In this comparison", text: "The PUTORSEN bracket's 22 lb rating and explicit NAS compatibility make it the clear choice for this specific use case." },
+      { label: "In this comparison", text: "The PUTORSEN bracket's 22 lb rating and explicit NAS compatibility make it the clear choice for this specific use case." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You're mounting a NAS or heavier device, where the PUTORSEN's doubled weight capacity handles loads the standard-rated picks aren't built for." },
-      { label: "Save if", text: "You just need a simple, reliable mount for one standard mini PC, where the HumanCentric Thin Client Mount covers that need for about $10 less than the Dell-specific or 2-pack options." },
+      { label: "Save if", text: "You just need a simple, reliable mount for one standard mini PC, where the HumanCentric Thin Client Mount covers that need for about $10 less than the Dell-specific or 2-pack options." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

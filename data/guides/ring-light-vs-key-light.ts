@@ -12,7 +12,7 @@ export const ringLightVsKeyLightGuide: Guide = {
     "ring light for video calls",
     "key light vs ring light streaming",
     "best lighting for zoom calls",
-    "ring light catchlight eyes",
+    "ring light catchlight eyes"
   ],
   heroImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const ringLightVsKeyLightGuide: Guide = {
     "webcam-lighting-explained",
     "webcam-resolution-explained",
     "webcam-fov-explained",
-    "desk-lamp-kelvin-color-temperature",
+    "desk-lamp-kelvin-color-temperature"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const ringLightVsKeyLightGuide: Guide = {
       question: "Can I use a regular desk lamp instead of either option?",
       answer:
         "Yes, a well-positioned desk lamp facing your face provides a meaningful lighting improvement over no dedicated lighting at all, though it won't match the even coverage of a ring light or the professional directional quality of a proper key light.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const ringLightVsKeyLightGuide: Guide = {
     {
       heading: "Choosing Based on the Look You Actually Want",
       body: `If you want an easy, foolproof lighting setup that consistently produces even, flattering light with minimal adjustment, a ring light is the more beginner-friendly choice. If you want a more natural, professional appearance for business video calls and don't mind spending a bit more time positioning the light correctly, a key light generally produces a more polished, less obviously lit result.`,
-    },
+    }
   ],
 };

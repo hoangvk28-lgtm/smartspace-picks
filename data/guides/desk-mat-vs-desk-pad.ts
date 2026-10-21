@@ -11,7 +11,7 @@ export const deskMatVsDeskPadGuide: Guide = {
   subKeywords: [
     "desk mat vs desk pad difference",
     "large desk mat vs mouse pad",
-    "leather desk pad vs mat",
+    "leather desk pad vs mat"
   ],
   heroImage: "https://images.unsplash.com/photo-1755436612558-7bf6831716c5?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1755436612558-7bf6831716c5?q=80&w=800&auto=format&fit=crop",
@@ -23,7 +23,7 @@ export const deskMatVsDeskPadGuide: Guide = {
     "best-desk-mat-for-small-desk",
     "best-walking-pads-for-standing-desks",
     "best-laptop-cooling-pads-for-desk-use",
-    "best-mouse-pads-for-desks",
+    "best-mouse-pads-for-desks"
   ],
   faq: [
     {
@@ -45,7 +45,7 @@ export const deskMatVsDeskPadGuide: Guide = {
       question: "What material is best for a desk mat?",
       answer:
         "PU leather is the most common material, offering a balance of durability, easy cleaning, and a professional look at a lower cost than genuine leather. Cloth desk mats offer a softer wrist-rest feel but show wear and stains more easily over time.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ The more reliable way to know what you're getting is to check the listed thickne
       body: `Measure your desk's usable surface width (the area not occupied by a monitor stand or other fixed items) before choosing a size. A 31-36 inch wide mat covers a keyboard and mouse together with room to spare on most standard desks; smaller 24-27 inch options work better for compact or corner desk setups.
 
 PU leather remains the most practical material choice for most buyers, since it wipes clean easily and holds up to daily typing and mouse movement without absorbing spills the way untreated cloth can. Genuine leather offers a more premium feel and ages with a natural patina but costs more and requires occasional conditioning to avoid drying out.`,
-    },
+    }
   ],
 };

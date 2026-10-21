@@ -113,16 +113,16 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $591.93",
+          "Under $600",
           "Razer Core X V2"
         ],
         [
-          "Around $1,582.96",
+          "Under $1,600",
           "Razer Core X External Graphics Card Case with Thunderbolt 3"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [

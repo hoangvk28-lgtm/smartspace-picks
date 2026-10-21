@@ -172,11 +172,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed)",
-        "text": "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) is aimed at buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed At $119.00, it's the lowest-cost pick in this comparison."
+        "text": "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) is aimed at buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed At under $120, it's the lowest-cost pick in this comparison."
       },
       {
         "label": "Cisco Meraki MS210-48FP Switch (Hardware Only)",
-        "text": "Cisco Meraki MS210-48FP Switch (Hardware Only) is aimed at buyers prioritizing 48 gigabit poe ports, 740w (fp model) At $555.00, it sits at the higher end of this comparison's price range."
+        "text": "Cisco Meraki MS210-48FP Switch (Hardware Only) is aimed at buyers prioritizing 48 gigabit poe ports, 740w (fp model) At under $600, it sits at the higher end of this comparison's price range."
       }
     ],
     "note": "Most buyers should default to Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) unless the pricier pick's specific advantage applies to your situation."
@@ -220,7 +220,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "Cisco Meraki MS120-24P (5-Yr License Included) Buyers prioritizing 24-port poe+, 5-year license included. Cisco Meraki MS210-48FP Switch (Hardware Only) Buyers prioritizing 48 gigabit poe ports, 740w (fp model)."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -257,10 +257,10 @@ export const faq = [
   }
 ,
   { "q": "If you only read one recommendation from this comparison, which pick is it?", "a": "Cisco Meraki MS120-24P (5-Yr License Included) is aimed at buyers prioritizing 24-port poe+, 5-year license included" },
-  { q: "Which pick offers the best value for a tight budget?", "a": "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) is aimed at buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed At $119.00, it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $119.00 to $555.00, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Which pick offers the best value for a tight budget?", "a": "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) is aimed at buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed At under $120, it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $120 to $600, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
   { q: "Is the most expensive pick in this comparison worth the extra cost?", "a": "Cisco Meraki MS210-48FP Switch (Hardware Only) is aimed at buyers prioritizing 48 gigabit poe ports, 740w (fp model) Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
-  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", "a": "Cisco Meraki MS225-48LP (Unclaimed is aimed at buyers prioritizing 48-port poe+ switch hardware" },
+  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", "a": "Cisco Meraki MS225-48LP (Unclaimed is aimed at buyers prioritizing 48-port poe+ switch hardware" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-meraki-network-switches","title":"Best Cisco Meraki Network Switches in 2026"},{"href":"/guide/best-arista-network-switches","title":"3 Best Arista Network Switches in 2026"},{"href":"/guide/best-managed-network-switches","title":"8 Best Managed Network Switches in 2026"}];

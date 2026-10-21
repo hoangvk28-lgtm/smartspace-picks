@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $119.99",
+          "Under $120",
           "Homieasy Vertical Filing Cabinet with Bookshelf"
         ],
         [
-          "Around $143.99",
+          "Under $150",
           "43\" Wood File Cabinet with Power Outlet"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "44\" File Cabinet"
         ],
         [
-          "Around $169.99",
+          "Under $170",
           "Modern File Cabinet with Drawers for Letter-Sized File and Door"
         ],
         [
-          "Around $189.99",
+          "Under $190",
           "44\" File Cabinet with Lock"
         ],
         [
-          "Around $219.99",
+          "Under $250",
           "59\" Filing Cabinet with Lock Drawers fits Legal Size for Home Office"
         ],
         [
-          "Around $269.99",
+          "Under $300",
           "ModernMate 4 Drawer File Cabinet with Lock"
         ],
         [
-          "Around $359.99",
+          "Under $400",
           "ModernMate 63\" Lateral File Cabinet with Lock"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Most flat-pack office credenzas in this category take 30 minutes to 2 hours depending on drawer count and size, and manufacturers commonly recommend two people for anything over about 60 inches wide or 150 lbs, both for handling the panels safely and for aligning larger cabinets correctly."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "ModernMate 63\" Lateral File Cabinet with Lock is aimed at buyers prioritizing 300 lb top load rating, 1.18in thick top." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "ModernMate 63\" Lateral File Cabinet with Lock is aimed at buyers prioritizing 300 lb top load rating, 1.18in thick top." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"},{"href":"/guide/best-office-credenzas-with-storage","title":"Best Office Credenzas With Storage in 2026"}];

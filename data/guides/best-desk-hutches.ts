@@ -32,23 +32,21 @@ export const products: GuideProduct[] = [
     badge: "Best Overall",
     name: "Furinno Classic 5-Shelf Desktop Hutch, 37-inch Wide",
     price: "Check price",
-    rating: "4.2 stars",
-    reviews: "39,764 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/furinno-5shelf.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0F5GQNHRN?tag=deskfinds0d-20",
     description:
-      "The Furinno Classic 5-Shelf Desktop Hutch is the most reviewed desk hutch on Amazon, with nearly 40,000 ratings. It sits at 37 inches wide and provides five open shelves that hold books, files, and desk accessories without overhanging a standard 24-inch monitor footprint. The FSC-certified engineered wood construction is lightweight, making it easy to position or reposition without clearing the full desk.\n\nThe open-shelf format means there is no concealed storage, which suits people who prefer visual access to frequently used items over a tidy, closed look. Five shelves is a strong amount of tiered storage for the price range, and the 37-inch span accommodates monitors up to 24 inches wide with room on either side for peripherals or reference materials.",
+      "It sits at 37 inches wide and provides five open shelves that hold books, files, and desk accessories without overhanging a standard 24-inch monitor footprint. The FSC-certified engineered wood construction is lightweight, making it easy to position or reposition without clearing the full desk.\n\nThe open-shelf format means there is no concealed storage, which suits people who prefer visual access to frequently used items over a tidy, closed look. Five shelves is a strong amount of tiered storage for the price range, and the 37-inch span accommodates monitors up to 24 inches wide with room on either side for peripherals or reference materials.",
     specs: ["37 inches wide", "5 open shelves", "Fits 24-inch monitor", "FSC-certified wood"],
     pros: [
-      "Nearly 40,000 reviews, highest review count in this roundup",
       "37-inch width covers a full-size desk span",
       "5 open shelves for visual access",
-      "FSC-certified wood construction",
+      "FSC-certified wood construction"
     ],
     cons: [
       "No drawers or enclosed storage",
-      "4.2-star rating lower than some competitors",
-      "Open shelves collect dust without covers",
+      "Open shelves collect dust without covers"
     ],
     bestFor:
       "home offices and dorm rooms that need a wide, high-shelf-count hutch with the strongest review validation in the category",
@@ -59,23 +57,22 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick",
     name: "Furinno Classic Desk Organizer Hutch, 5-Shelf, White",
     price: "$17.13",
-    rating: "4.3 stars",
-    reviews: "770 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/furinno-classic-white.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CZNX653N?tag=deskfinds0d-20",
     description:
       "At a competitive price, the Furinno Classic Desk Organizer Hutch is the lowest-priced pick in this roundup and still delivers five open shelves in a white finish suitable for most home office and dorm desk surfaces. The expandable design allows the hutch to be arranged in different configurations depending on desk size and layout, which is a practical advantage over fixed-width models. The lightweight build makes it easy to move between desks or rooms. Five shelves at this price is better shelf-count-per-dollar than any other hutch in this list, though the lightweight construction reflects the price point. Buyers wanting heavier-gauge materials or drawers should step up to the ChooChoo or REIBII options in this roundup.",
     specs: ["5 open shelves", "White finish", "Expandable design", "Lightweight"],
     pros: [
-      "Lowest price at $17.13",
+      "Lowest price at under $20",
       "5 open shelves, best shelf count per dollar",
       "Expandable design adds layout flexibility",
-      "White finish suits most desk setups",
+      "White finish suits most desk setups"
     ],
     cons: [
       "Lightweight build not as sturdy as heavier models",
-      "No drawers",
-      "770 reviews, lower validation than top picks",
+      "No drawers"
     ],
     bestFor:
       "dorm rooms, first apartments, and budget home offices that need a basic hutch for books and supplies without spending over $20",
@@ -86,23 +83,21 @@ export const products: GuideProduct[] = [
     badge: "Best Rustic Brown",
     name: "Snughome 38.6-inch Desk Shelf, 4-Tier, Rustic Brown",
     price: "$47.99",
-    rating: "4.7 stars",
-    reviews: "454 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/snughome-rustic-brown.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CJ8YDWNY?tag=deskfinds0d-20",
     description:
-      "The Snughome 38.6-inch Desk Shelf earns the highest rating in this roundup at 4.7 stars and is the widest pick at 38.6 inches. Four tiers of open shelving accommodate a 28-inch monitor, which is wider than most competing hutches support, making it a useful option for ultrawide or large-format monitor setups. Anti-skid feet on the base prevent the unit from shifting during daily use. The rustic brown finish is a specific aesthetic choice that pairs with natural wood desk surfaces and warm-toned office setups better than the white-finish options in this roundup. It sits in the mid-range of prices here. Buyers who need a darker-finish hutch wide enough for a 28-inch monitor have very few alternatives at this price point.",
+      "Four tiers of open shelving accommodate a 28-inch monitor, which is wider than most competing hutches support, making it a useful option for ultrawide or large-format monitor setups. Anti-skid feet on the base prevent the unit from shifting during daily use. The rustic brown finish is a specific aesthetic choice that pairs with natural wood desk surfaces and warm-toned office setups better than the white-finish options in this roundup. It sits in the mid-range of prices here. Buyers who need a darker-finish hutch wide enough for a 28-inch monitor have very few alternatives at this price point.",
     specs: ["38.6 inches wide", "4 tiers", "Fits 28-inch monitor", "Anti-skid feet"],
     pros: [
-      "4.7 stars, highest rating in this roundup",
       "38.6 inches wide, accommodates 28-inch monitors",
       "Anti-skid feet for stability",
-      "Rustic brown finish for warm-toned desks",
+      "Rustic brown finish for warm-toned desks"
     ],
     cons: [
       "Only 4 tiers vs 5 on competing models",
-      "454 reviews, lower validation than top picks",
-      "Rustic brown limits color pairing options",
+      "Rustic brown limits color pairing options"
     ],
     bestFor:
       "home offices with warm-tone or wood-finish desks that need a wide hutch fitting a 28-inch or ultrawide monitor",
@@ -113,8 +108,8 @@ export const products: GuideProduct[] = [
     badge: "Best with Drawer",
     name: "ChooChoo Desktop Bookshelf with Drawer, White, 36.4-inch",
     price: "$79.99",
-    rating: "4.6 stars",
-    reviews: "114 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/choochoo-drawer-white.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CWLCHKZD?tag=deskfinds0d-20",
     description:
@@ -122,14 +117,13 @@ export const products: GuideProduct[] = [
     specs: ["36.4 inches tall", "5 shelves", "1 drawer", "Fits 27-inch monitor"],
     pros: [
       "Only hutch in this roundup with a pull-out drawer plus 5 shelves",
-      "4.6 stars at 114 reviews",
       "White finish suits most home office setups",
-      "Compatible with 27-inch monitors",
+      "Compatible with 27-inch monitors"
     ],
     cons: [
-      "$59.99 is above mid-range pricing in this roundup",
+      "Under $60 is above mid-range pricing in this roundup",
       "Lower review count at 114",
-      "Taller format requires more vertical clearance",
+      "Taller format requires more vertical clearance"
     ],
     bestFor:
       "home offices that need a combination of open shelves and one drawer for concealed small-item storage on a 27-inch monitor desk",
@@ -140,23 +134,21 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity",
     name: "REIBII Desktop Bookshelf, 7 Shelves, 2 Drawers, White",
     price: "$84.99",
-    rating: "4.8 stars",
-    reviews: "201 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/reibii-white.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CRB2BM53?tag=deskfinds0d-20",
     description:
-      "The REIBII Desktop Bookshelf has the most storage of any pick in this roundup, combining seven open shelves with two pull-out drawers in a white finish. At 4.8 stars it also carries the highest rating among the drawer-equipped hutches. Seven shelves is enough to hold a mix of books, files, decorative items, and frequently accessed supplies across the full height of the unit without stacking. Two drawers allow separate organization of different supply types, for example keeping charging cables in one and writing tools in another. It is toward the top of the price range in this roundup, but the shelf count and drawer combination makes it the most feature-complete option for buyers who need maximum desk storage from a single hutch unit.",
+      "The REIBII Desktop Bookshelf has the most storage of any pick in this roundup, combining seven open shelves with two pull-out drawers in a white finish. Seven shelves is enough to hold a mix of books, files, decorative items, and frequently accessed supplies across the full height of the unit without stacking. Two drawers allow separate organization of different supply types, for example keeping charging cables in one and writing tools in another. It is toward the top of the price range in this roundup, but the shelf count and drawer combination makes it the most feature-complete option for buyers who need maximum desk storage from a single hutch unit.",
     specs: ["7 shelves", "2 drawers", "Fits 27-inch monitor", "White finish"],
     pros: [
       "Most shelves in the roundup at 7 shelves plus 2 drawers",
-      "4.8 stars, tied for highest rating",
       "White finish suits modern home offices",
-      "27-inch monitor compatible",
+      "27-inch monitor compatible"
     ],
     cons: [
-      "$84.99 near the top of the price range",
-      "201 reviews, lower validation than the top picks",
-      "Large footprint requires a wide desk surface",
+      "Under $90 near the top of the price range",
+      "Large footprint requires a wide desk surface"
     ],
     bestFor:
       "home office workers who need maximum desktop storage in a single unit and want both open shelves and drawers",
@@ -167,23 +159,22 @@ export const products: GuideProduct[] = [
     badge: "Best Premium White",
     name: "Tangkula Desktop Bookshelf, 5 Shelves, 3-Tier, White",
     price: "$79.99",
-    rating: "4.5 stars",
-    reviews: "565 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/tangkula-white.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0C2KR6BVM?tag=deskfinds0d-20",
     description:
-      "The Tangkula Desktop Bookshelf balances shelf count with safety features, including an anti-tip kit that secures the hutch to the desk surface. That detail matters for tall hutches on desks that see regular access to upper shelves or in spaces with children. Five shelves across three tiers fits a 27-inch monitor and still provides room for books and decor on surrounding shelves. At a competitive price with 565 reviews at 4.5 stars, it sits above mid-range pricing but comes with the anti-tip feature and a finish quality that buyers describe as noticeably better than lower-priced white hutches in this category. For buyers who want a hutch that looks closer to furniture-grade rather than office-supply-grade, this is the white option to consider.",
+      "The Tangkula Desktop Bookshelf balances shelf count with safety features, including an anti-tip kit that secures the hutch to the desk surface. That detail matters for tall hutches on desks that see regular access to upper shelves or in spaces with children. Five shelves across three tiers fits a 27-inch monitor and still provides room for books and decor on surrounding shelves. For buyers who want a hutch that looks closer to furniture-grade rather than office-supply-grade, this is the white option to consider.",
     specs: ["5 shelves", "3-tier", "Fits 27-inch monitor", "Anti-tip kit included"],
     pros: [
       "Anti-tip kit included for desk stability and safety",
-      "4.5 stars at 565 reviews",
       "Furniture-grade finish quality",
-      "27-inch monitor compatible",
+      "27-inch monitor compatible"
     ],
     cons: [
-      "$79.99 near the top of the price range for open-shelf models",
+      "Under $80 near the top of the price range for open-shelf models",
       "No drawers",
-      "Fewer shelves than REIBII at this price",
+      "Fewer shelves than REIBII at this price"
     ],
     bestFor:
       "home offices where hutch stability and a cleaner finish quality matter, particularly households with children or active desks",
@@ -194,23 +185,21 @@ export const products: GuideProduct[] = [
     badge: "Best Grid Panel Design",
     name: "IOTXY 2-Tier Desktop Hutch with Grid Panel, White",
     price: "$89.99",
-    rating: "4.8 stars",
-    reviews: "267 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/iotxy-2tier-white.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CQZR53CV?tag=deskfinds0d-20",
     description:
-      "The IOTXY 2-Tier Desktop Hutch adds a metal grid panel with five hooks to the standard tiered shelf format, enabling vertical organization beyond just flat shelf surfaces. The hooks can hold headphones, bags, keys, or cable loops, which addresses a common gap in plain-shelf hutch designs. At 37.4 inches wide the unit is one of the wider options in this roundup and clears a 27-inch monitor comfortably. Tied for the highest rating at 4.8 stars, the IOTXY earns strong marks for build quality and the grid panel functionality. It is the most expensive pick in the roundup, but the grid panel with hooks differentiates it from every other model here. For desks where headphone storage, bag hooks, or hanging accessories matter, there is no equivalent in this category at this size.",
+      "The IOTXY 2-Tier Desktop Hutch adds a metal grid panel with five hooks to the standard tiered shelf format, enabling vertical organization beyond just flat shelf surfaces. The hooks can hold headphones, bags, keys, or cable loops, which addresses a common gap in plain-shelf hutch designs. At 37.4 inches wide the unit is one of the wider options in this roundup and clears a 27-inch monitor comfortably. It is the most expensive pick in the roundup, but the grid panel with hooks differentiates it from every other model here. For desks where headphone storage, bag hooks, or hanging accessories matter, there is no equivalent in this category at this size.",
     specs: ["2-tier", "Grid panel with 5 hooks", "37.4 inches wide", "Fits 27-inch monitor"],
     pros: [
       "Grid panel with 5 hooks for headphones and accessories",
-      "4.8 stars, tied for highest rating",
       "37.4 inches wide, fits most full-size desks",
-      "27-inch monitor compatible",
+      "27-inch monitor compatible"
     ],
     cons: [
-      "$89.99 highest price in this roundup",
-      "Only 2 tiers of open shelves",
-      "267 reviews, moderate validation",
+      "Under $90 highest price in this roundup",
+      "Only 2 tiers of open shelves"
     ],
     bestFor:
       "home office desks where headphone hooks, hanging accessories, and a wide grid panel design are priorities alongside shelf storage",
@@ -221,8 +210,8 @@ export const products: GuideProduct[] = [
     badge: "Best with LED + Outlets",
     name: "HOOBRO Desktop Bookcase with LED Light Strip and Outlets",
     price: "$61.99",
-    rating: "4.6 stars",
-    reviews: "193 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/hoobro-led-outlets.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CRV7VNDW?tag=deskfinds0d-20",
     description:
@@ -230,18 +219,16 @@ export const products: GuideProduct[] = [
     specs: ["LED light strip", "2 AC outlets", "2 USB ports", "Rustic brown finish"],
     pros: [
       "Built-in LED strip, 2 AC outlets, and 2 USB ports",
-      "4.6 stars at 193 reviews",
-      "Mid-range price at $49.99",
-      "Replaces a separate power strip and desk lamp",
+      "Mid-range price at under $50",
+      "Replaces a separate power strip and desk lamp"
     ],
     cons: [
       "Only 2 tiers, lower shelf count than most picks",
-      "29.9 inches long, compact format limits width",
-      "193 reviews, lower validation",
+      "29.9 inches long, compact format limits width"
     ],
     bestFor:
       "desk setups that need a hutch with built-in LED lighting and power outlets to consolidate charging and ambient lighting into one unit",
-  },
+  }
 ];
 
 export const faq: { q: string; a: string }[] = [
@@ -259,17 +246,17 @@ export const faq: { q: string; a: string }[] = [
   },
   {
     q: "What is the best desk hutch for a dorm room?",
-    a: "The Furinno Classic 5-Shelf at $17.13 is the best-value option for dorm rooms where budget and lightweight portability matter. The Furinno 37-inch model is better for a slightly larger dorm desk where more shelf space is needed. Both are easy to assemble and light enough to move without help.",
+    a: "The Furinno Classic 5-Shelf at under $20 is the best-value option for dorm rooms where budget and lightweight portability matter. The Furinno 37-inch model is better for a slightly larger dorm desk where more shelf space is needed. Both are easy to assemble and light enough to move without help.",
   },
   {
     q: "Which desk hutch has built-in outlets and USB charging?",
-    a: "The HOOBRO Desktop Bookcase includes 2 AC outlets, 2 USB ports, and a built-in LED light strip. At $49.99 it is the only pick in this roundup with integrated power access. This is a practical feature for desk setups where adding a separate power strip is inconvenient or where cable management is a priority.",
-  },
+    a: "The HOOBRO Desktop Bookcase includes 2 AC outlets, 2 USB ports, and a built-in LED light strip. At under $50 it is the only pick in this roundup with integrated power access. This is a practical feature for desk setups where adding a separate power strip is inconvenient or where cable management is a priority.",
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-hutches-for-small-desks", title: "Best Desk Hutches for Small Desks (2026)" },
   { href: "/guide/best-desk-hutches-for-dorm-rooms", title: "Best Desk Hutches for Dorm Rooms (2026)" },
   { href: "/guide/best-white-desk-hutches", title: "Best White Desk Hutches (2026)" },
-  { href: "/guide/best-desk-hutches-with-storage", title: "Best Desk Hutches with Storage (2026)" },
+  { href: "/guide/best-desk-hutches-with-storage", title: "Best Desk Hutches with Storage (2026)" }
 ];

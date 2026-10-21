@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "universal mini pc mounts";
 export const introParagraphs = [
   "\"Universal\" compatibility claims deserve scrutiny. Mini PC form factors genuinely vary, an Intel NUC, a Mac mini, and a Dell OptiPlex Micro are not the same width or weight, so a mount claiming to fit everything needs a real adjustable range to back that up, not just a broad brand list in the title.",
-  "This guide compares six adjustable-bracket mounts based on their stated width ranges, load capacity, and how many genuinely different Mini PC models their features actually name, rather than accepting the word universal at face value.",
+  "This guide compares six adjustable-bracket mounts based on their stated width ranges, load capacity, and how many genuinely different Mini PC models their features actually name, rather than accepting the word universal at face value."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine multi-model verification", description: "We evaluated whether each listing's features name multiple genuinely different Mini PC brands and models, rather than accepting the word universal as sufficient on its own." },
   { title: "Real adjustable range", description: "We compared stated width or perimeter ranges to confirm the mount can genuinely accommodate more than one narrow size class of device." },
   { title: "Load capacity against real Mini PC weight", description: "We checked stated weight ratings, since Mini PC weight varies enough between brands that a low-rated mount could be marginal for a heavier device." },
-  { title: "Mounting method flexibility", description: "We compared how many of wall, under-desk, VESA, and pole mounting each product genuinely supports, since a universal mount should work across placement types too." },
+  { title: "Mounting method flexibility", description: "We compared how many of wall, under-desk, VESA, and pole mounting each product genuinely supports, since a universal mount should work across placement types too." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -248,11 +248,11 @@ export const faq: FaqItem[] = [
   { q: "Is a strap-based mount as sturdy as a bracket?", a: "Generally a rigid bracket holds a heavier device more securely, while a strap-based mount trades some rigidity for a wider size range that can fit unusual dimensions." },
   { q: "What if my Mini PC is thicker than most brackets allow?", a: "Look for a mount with a wider stated adjustable range, like the Monzlteck at up to 2.8 inches, or a strap-based mount like the Universal Wall and VESA Mount at up to 17 inches perimeter." },
   { q: "Should I trust a listing that just says 'universal' with no detail?", a: "Treat it cautiously. A listing with specific compatible brands and models named in its features, or a documented adjustable range, is more trustworthy than a bare marketing claim." },
-  { q: "Can a universal mount also work for non-Mini-PC devices?", a: "Several of the picks in this guide also list routers, cable boxes, and streaming devices as compatible, since they use the same adjustable-width or strap mechanism regardless of what's technically inside the case." },
+  { q: "Can a universal mount also work for non-Mini-PC devices?", a: "Several of the picks in this guide also list routers, cable boxes, and streaming devices as compatible, since they use the same adjustable-width or strap mechanism regardless of what's technically inside the case." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pc-mounts", title: "Best Mini PC Mounts (2026)" },
   { href: "/guide/best-mini-pc-mounting-brackets", title: "Best Mini PC Mounting Brackets (2026)" },
-  { href: "/guide/best-thin-client-mini-pc-mounts", title: "Best Thin-Client Mini PC Mounts (2026)" },
+  { href: "/guide/best-thin-client-mini-pc-mounts", title: "Best Thin-Client Mini PC Mounts (2026)" }
 ];

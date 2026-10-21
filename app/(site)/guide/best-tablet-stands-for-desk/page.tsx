@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     "portable tablet stand",
     "adjustable tablet stand desk",
     "tablet stand dorm room",
-    "foldable tablet stand",
+    "foldable tablet stand"
   ],
 };
 
@@ -65,7 +65,7 @@ const breadcrumbSchema = {
     { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
     { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
     { "@type": "ListItem", position: 3, name: "Best Tablet Stands", item: `${SITE_URL}/guide/best-tablet-stands` },
-    { "@type": "ListItem", position: 4, name: guideTitle, item: `${SITE_URL}/guide/best-tablet-stands-for-desk` },
+    { "@type": "ListItem", position: 4, name: guideTitle, item: `${SITE_URL}/guide/best-tablet-stands-for-desk` }
   ],
 };
 
@@ -90,7 +90,7 @@ const sections = [
     index: 0,
     amazonUrl: "https://www.amazon.com/s?k=lamicall+tablet+stand+for+desk&tag=deskfinds0d-20",
     amazonLabel: "Browse Lamicall Tablet Stands on Amazon",
-    also: "Also consider the UGREEN compact stand ($9.99) if you primarily move your stand between locations — it has a slightly smaller footprint and folds even flatter.",
+    also: "Also consider the UGREEN compact stand (under $10) if you primarily move your stand between locations — it has a slightly smaller footprint and folds even flatter.",
   },
   {
     heading: "Best Compact Tablet Stand: LISEN Aluminum",
@@ -98,7 +98,7 @@ const sections = [
     index: 1,
     amazonUrl: "https://www.amazon.com/s?k=compact+aluminum+tablet+stand&tag=deskfinds0d-20",
     amazonLabel: "Browse Compact Aluminum Tablet Stands on Amazon",
-    also: "Also consider the UGREEN stand ($9.99) if you have a tablet up to 11\" and want the lightest possible option for carrying between locations.",
+    also: "Also consider the UGREEN stand (under $10) if you have a tablet up to 11\" and want the lightest possible option for carrying between locations.",
   },
   {
     heading: "Best Rotating Tablet Stand: Lamicall 360°",
@@ -139,7 +139,7 @@ const sections = [
     amazonUrl: "https://www.amazon.com/s?k=amazon+basics+tablet+stand+foldable&tag=deskfinds0d-20",
     amazonLabel: "Browse Budget Foldable Tablet Stands on Amazon",
     also: "Also consider the UGREEN stand for a small price increase — it has a better angle range and slightly more stable construction for regular desk use.",
-  },
+  }
 ];
 
 export default async function BestTabletStandsForDeskPage() {
@@ -157,7 +157,7 @@ export default async function BestTabletStandsForDeskPage() {
           crumbs={[
             { label: "Buying Guides", href: "/guide" },
             { label: "Best Tablet Stands", href: "/guide/best-tablet-stands" },
-            { label: "For Desk" },
+            { label: "For Desk" }
           ]}
         />
 
@@ -299,7 +299,7 @@ export default async function BestTabletStandsForDeskPage() {
               {
                 title: "Verify charging clearance",
                 body: "A good desk stand should allow charging while the tablet is upright. If the bottom support blocks the charging port, you have to rotate or remove the device every time. Look for cable cutouts or a raised bottom support with enough clearance for USB-C or Lightning.",
-              },
+              }
             ].map((tip) => (
               <div key={tip.title} className="p-5 bg-white rounded-card border border-border">
                 <h3 className="font-bold text-ink text-sm mb-2">{tip.title}</h3>
@@ -344,7 +344,7 @@ export default async function BestTabletStandsForDeskPage() {
               { label: "Best Tablet Stands for Bed", href: "/guide/best-tablet-stands-for-bed" },
               { label: "Desk Setup Guides", href: "/guide/desk-setup" },
               { label: "Compact Home Office", href: "/guide/compact-home-office" },
-              { label: "Budget Finds", href: "/guide/budget-finds" },
+              { label: "Budget Finds", href: "/guide/budget-finds" }
             ].map((link) => (
               <Link prefetch={false} key={link.href} href={link.href}
                 className="px-3 py-1.5 bg-bg border border-border rounded-badge text-sm font-medium text-brand hover:bg-brand hover:text-white transition-colors">

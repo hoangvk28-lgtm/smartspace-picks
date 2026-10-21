@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "electronic desktop calendar";
 export const introParagraphs = [
   "\"Electronic desktop calendar\" is a close cousin of both \"digital desk calendar\" and \"electronic desk calendar,\" and yes, we're aware these three guides pull from largely the same verified product pool. We're being upfront about that overlap rather than pretending each search term needs a wildly different product set.",
-  "This guide's specific angle is fixed on-desk placement, meaning we prioritize models that sit permanently in one spot on a desktop rather than models better suited to being wall-mounted or moved between rooms. If you're comparing all three guides, the picks and rankings here reflect that stationary-desktop lens specifically.",
+  "This guide's specific angle is fixed on-desk placement, meaning we prioritize models that sit permanently in one spot on a desktop rather than models better suited to being wall-mounted or moved between rooms. If you're comparing all three guides, the picks and rankings here reflect that stationary-desktop lens specifically."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "8 min";

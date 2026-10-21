@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     badge: "Best Overall",
     name: "Letaya 3 Drawer Mobile File Cabinet with Lock",
     price: "$99.99",
-    rating: "4.5 stars from 1,373 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/letaya-3-drawer-mobile.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B09YVJN8R7?tag=deskfinds0d-20",
@@ -67,7 +67,7 @@ export const products: GuideProduct[] = [
     badge: "Best Under-Desk Fit",
     name: "DEVAISE 2 Drawer Metal File Cabinet, Under Desk",
     price: "$129.99",
-    rating: "4.5 stars from 1,681 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/devaise-2-drawer-under-desk.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B08G53L8B5?tag=deskfinds0d-20",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     badge: "Best Lateral for Narrow Rooms",
     name: "Letaya 2 Drawer Lateral File Cabinet",
     price: "$99.99",
-    rating: "4.2 stars from 1,671 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/letaya-2-drawer-lateral.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0GTNJY2HB?tag=deskfinds0d-20",
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     badge: "Best with Extra Desktop",
     name: "GYIIYUO 2 Drawer File Cabinet with 24-inch Extended Desktop",
     price: "$56.99",
-    rating: "4.2 stars from 1,425 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/gyiiyuo-2-drawer-desktop.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0DBZ98D94?tag=deskfinds0d-20",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     badge: "Best 3-Drawer Capacity",
     name: "DEVAISE 3-Drawer Mobile Lateral File Cabinet",
     price: "$94.99",
-    rating: "4.2 stars from 2,444 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/devaise-3-drawer-mobile.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0989HLF81?tag=deskfinds0d-20",
@@ -131,7 +131,7 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Footprint",
     name: "VASAGLE CUSTOS Small Rolling Filing Cabinet",
     price: "$52.99",
-    rating: "4.1 stars from 7,901 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/vasagle-custos-small-rolling.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0BQJ5WL24?tag=deskfinds0d-20",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Vertical",
     name: "BYNSOE 2 Drawer Vertical File Cabinet with Lock",
     price: "$64.99",
-    rating: "4.0 stars from 1,303 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/bynsoe-2-drawer-vertical.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0D9XYD75W?tag=deskfinds0d-20",
@@ -163,7 +163,7 @@ export const products: GuideProduct[] = [
     badge: "Best Simple Steel Pick",
     name: "SteeLoong 2 Drawer Metal File Cabinet with Lock",
     price: "$64.99",
-    rating: "4.0 stars from 382 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/steeloong-2-drawer.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0D2QSQZ1X?tag=deskfinds0d-20",
@@ -172,7 +172,7 @@ export const products: GuideProduct[] = [
     pros: ["Compact metal frame", "Locking drawers", "Competitive budget price"],
     cons: ["Smaller review base than other picks", "No stated casters", "Basic feature set"],
     bestFor: "A budget backup pick with a similarly narrow footprint to the BYNSOE cabinet.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -203,7 +203,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Desk and standing-desk compatibility", description: "For cabinets marketed as under-desk, we checked stated height against common sitting-height desk clearance ranges (23 to 28 in)." },
   { title: "Mobility and stability", description: "Cabinets with casters were assessed for caster count, locking ability, and reported tipping issues in buyer feedback." },
   { title: "Build and lock quality", description: "We weighed metal vs. fabric drawer construction, lock presence, and reported durability across verified buyer feedback." },
-  { title: "Value for the footprint", description: "Price was assessed relative to storage capacity per square foot of floor space used, not price alone." },
+  { title: "Value for the footprint", description: "Price was assessed relative to storage capacity per square foot of floor space used, not price alone." }
 ];
 
 export const howToChoose: HowToChooseSection[] = [
@@ -307,12 +307,12 @@ export const faq: { q: string; a: string }[] = [
   { q: "Will a filing cabinet fit under my standing desk?", a: "It depends on your desk's clearance at its lowest sitting height, typically 23 to 28 inches, and the cabinet's stated height, commonly 24 to 28 inches for rolling pedestals. Measure your desk's minimum sitting clearance first, then compare it against the cabinet's exact listed height rather than assuming any 'under desk' cabinet will fit." },
   { q: "Are rolling filing cabinets stable, or do they tip over?", a: "Stability depends on the caster setup. Cabinets with a single small caster set can tip forward when rolled onto a rug edge or floor transition. Locking front casters or a 5-caster arrangement reduce that risk. Once positioned, lock the wheels if the cabinet has that option." },
   { q: "Do all small filing cabinets support standard hanging file folders?", a: "No. Some compact cabinets only accept front-to-back hanging files rather than the side-to-side rail most standard hanging folders use. Check the listing's hanging rail specification before assuming a cabinet marked 'letter/legal' works with your existing folders." },
-  { q: "What's the difference between vertical and lateral cabinets for small spaces?", a: "Vertical cabinets open forward and need more floor depth in front of them but take up less wall width. Lateral cabinets open sideways, trading depth requirements for wall width. Choose based on which dimension is actually scarce in your room." },
+  { q: "What's the difference between vertical and lateral cabinets for small spaces?", a: "Vertical cabinets open forward and need more floor depth in front of them but take up less wall width. Lateral cabinets open sideways, trading depth requirements for wall width. Choose based on which dimension is actually scarce in your room." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-filing-cabinets-for-home-offices", title: "Best Filing Cabinets for Home Offices (2026)" },
   { href: "/guide/best-rolling-filing-cabinets", title: "Best Rolling Filing Cabinets (2026)" },
   { href: "/guide/best-lateral-filing-cabinets", title: "Best Lateral Filing Cabinets (2026)" },
-  { href: "/guide/best-office-chairs-for-small-spaces", title: "Best Office Chairs for Small Spaces (2026)" },
+  { href: "/guide/best-office-chairs-for-small-spaces", title: "Best Office Chairs for Small Spaces (2026)" }
 ];

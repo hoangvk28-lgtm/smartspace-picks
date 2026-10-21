@@ -29,7 +29,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0H9RTKM1L?tag=deskfinds0d-20",
     description: "This extender's listing specifically states an IP30-rated metal case that lets it work in -40F to 167F harsh environments like factories and warehouses, delivering up to 30W over Gigabit Ethernet at the lowest price in this comparison. Its automatic device detection before delivering power specifically protects connected PoE equipment from damage.\n\nCompared to the Intellinet and TRENDnet picks below, this one's genuinely low price for a wide-temperature-range DIN-rail extender makes it the most accessible entry point into industrial-grade PoE extension.\n\nBest for buyers who want a genuine wide-temperature DIN-rail extender at the lowest price in this comparison.",
     specs: ["IP30-rated metal case, -40F to 167F operating range", "30W IEEE 802.3at/af, Gigabit 1000Mbps", "DIN-rail mount, auto-detection protection"],
-    pros: ["Lowest price in this comparison at $39.99", "Wide -40F to 167F operating range suits genuine industrial climates", "Automatic device detection protects connected equipment"],
+    pros: ["Lowest price in this comparison at under $40", "Wide -40F to 167F operating range suits genuine industrial climates", "Automatic device detection protects connected equipment"],
     cons: ["IP30 rating is indoor-only, not suited to direct outdoor exposure", "Lower 30W power ceiling than the Intellinet or TRENDnet PoE++ picks"],
     bestFor: "buyers who want a genuine wide-temperature DIN-rail extender at the lowest price",
   },
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["The lowest price for a wide-temperature DIN-rail extender", "Industrial DIN-Rail Gigabit PoE+ Extender, 30W"],
         ["High-power (80W) support for indoor industrial equipment", "Intellinet Industrial Gigabit PoE++ Extender, 80W"],
         ["Genuine IP67 outdoor durability at a moderate price", "TRENDnet Industrial Waterproof Gigabit PoE+ Extender"],
-        ["IP67 outdoor durability with PoE++ high-power support", "TRENDnet TI-BE200, 2-Port Industrial Outdoor PoE++ Extender"],
+        ["IP67 outdoor durability with PoE++ high-power support", "TRENDnet TI-BE200, 2-Port Industrial Outdoor PoE++ Extender"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $40", "Industrial DIN-Rail Gigabit PoE+ Extender ($39.99)"],
-        ["Under $65", "TRENDnet TI-OE110 ($64.99)"],
-        ["Under $90", "Intellinet Industrial Gigabit PoE++ Extender ($89.99)"],
-        ["Under $200", "TRENDnet TI-BE200 ($199.99)"],
+        ["Under $40", "Industrial DIN-Rail Gigabit PoE+ Extender (under $40)"],
+        ["Under $65", "TRENDnet TI-OE110 (under $70)"],
+        ["Under $90", "Intellinet Industrial Gigabit PoE++ Extender (under $90)"],
+        ["Under $200", "TRENDnet TI-BE200 (under $200)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "IP30 Indoor vs IP67 Outdoor Rating",
     cards: [
       { label: "IP30 indoor-rated (base pick, Intellinet)", text: "Suited to control cabinets, factory floors, and warehouses with protection against solid objects but no specific water resistance rating." },
-      { label: "IP67 outdoor-rated (TI-OE110, TI-BE200)", text: "Certified for temporary submersion protection, suited to genuine direct outdoor exposure like pole-mounted or exposed installations." },
+      { label: "IP67 outdoor-rated (TI-OE110, TI-BE200)", text: "Certified for temporary submersion protection, suited to genuine direct outdoor exposure like pole-mounted or exposed installations." }
     ],
     note: "If your industrial installation is inside a control cabinet or enclosed building, an IP30-rated pick is sufficient and more affordable. If your installation faces genuine outdoor weather exposure, the IP67-rated TRENDnet picks are the appropriate choice.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["Standard PoE+ devices up to 30W", "Industrial DIN-Rail Gigabit PoE+ Extender or TI-OE110"],
         ["High-power indoor devices up to 80W", "Intellinet Industrial Gigabit PoE++ Extender"],
-        ["High-power outdoor devices up to 60W", "TRENDnet TI-BE200, 2-Port Industrial Outdoor PoE++"],
+        ["High-power outdoor devices up to 60W", "TRENDnet TI-BE200, 2-Port Industrial Outdoor PoE++"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For a Factory Floor or Warehouse Control Cabinet Specifically",
     cards: [
       { label: "Look for", text: "DIN-rail mounting compatibility combined with a wide operating temperature range, since factory and warehouse environments often see temperature extremes beyond typical office climates." },
-      { label: "In this comparison", text: "All four picks specifically support DIN-rail mounting and a -40F to 167F operating range, making any of them suitable for a temperature-extreme control cabinet installation." },
+      { label: "In this comparison", text: "All four picks specifically support DIN-rail mounting and a -40F to 167F operating range, making any of them suitable for a temperature-extreme control cabinet installation." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You need both genuine IP67 outdoor durability and PoE++ high-power support for demanding equipment, where the TRENDnet TI-BE200's $199.99 price is justified by that combination." },
-      { label: "Save if", text: "Your installation is indoor and your devices need standard PoE+ power, where the base Industrial DIN-Rail pick delivers that for $39.99, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You need both genuine IP67 outdoor durability and PoE++ high-power support for demanding equipment, where the TRENDnet TI-BE200's under $200 price is justified by that combination." },
+      { label: "Save if", text: "Your installation is indoor and your devices need standard PoE+ power, where the base Industrial DIN-Rail pick delivers that for under $40, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

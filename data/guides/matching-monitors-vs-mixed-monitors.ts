@@ -12,7 +12,7 @@ export const matchingMonitorsVsMixedMonitorsGuide: Guide = {
     "do multi monitors need to match",
     "mismatched monitor setup problems",
     "different size monitors together",
-    "matching bezels dual monitor",
+    "matching bezels dual monitor"
   ],
   heroImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const matchingMonitorsVsMixedMonitorsGuide: Guide = {
     "triple-monitor-setup-explained",
     "monitor-resolution-explained",
     "ips-vs-va-vs-tn-panel",
-    "monitor-size-chart",
+    "monitor-size-chart"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const matchingMonitorsVsMixedMonitorsGuide: Guide = {
       question: "Can I use a monitor arm to compensate for different monitor sizes?",
       answer:
         "Yes, independently adjustable monitor arms let you align the top or center of different sized monitors at a consistent height despite their differing physical dimensions, meaningfully reducing the visual awkwardness of a mismatched height alignment.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const matchingMonitorsVsMixedMonitorsGuide: Guide = {
     {
       heading: "Why a Monitor Arm Can Meaningfully Offset Size Mismatch",
       body: `Even when two monitors have different physical dimensions, an independently adjustable monitor arm for each screen lets you align them at a consistent height, typically matching the top edges or centers depending on preference, rather than leaving mismatched monitors sitting at whatever height their default stands happen to place them, this simple adjustment significantly reduces the visually awkward stepped appearance that unmatched monitor heights otherwise create, making a mixed-size setup feel more intentional and cohesive.`,
-    },
+    }
   ],
 };

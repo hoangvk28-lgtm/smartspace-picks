@@ -12,7 +12,7 @@ export const headphoneImpedanceChartGuide: Guide = {
     "headphone ohms explained",
     "low impedance vs high impedance headphones",
     "do headphones need an amp",
-    "32 ohm vs 250 ohm headphones",
+    "32 ohm vs 250 ohm headphones"
   ],
   heroImage: "https://images.unsplash.com/photo-1702047135360-e549c2e1f7df?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1702047135360-e549c2e1f7df?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const headphoneImpedanceChartGuide: Guide = {
     "db-spl-explained",
     "open-back-vs-closed-back-headphones",
     "studio-monitors-vs-regular-speakers",
-    "xlr-vs-usb-microphone",
+    "xlr-vs-usb-microphone"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const headphoneImpedanceChartGuide: Guide = {
       question: "How do I find my headphones' impedance rating?",
       answer:
         "Check the product listing's technical specifications or spec sheet for a rating listed in ohms (Ω), typically found alongside sensitivity and frequency response specs, this is standard information for any headphone marketed with technical specs.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const headphoneImpedanceChartGuide: Guide = {
     {
       heading: "Matching Impedance to Your Actual Setup",
       body: `If you primarily listen from a phone or laptop without additional gear, stick to headphones rated 32 ohms or lower to avoid needing extra equipment. If you already own or plan to buy an audio interface, dedicated DAC, or headphone amp, higher-impedance headphones become a practical option and often provide better sound quality and durability for the added setup complexity.`,
-    },
+    }
   ],
 };

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small safes for offices";
 export const introParagraphs = [
   "An office safe needs to fit realistic desk or cabinet space and support shared access for petty cash, contracts, or small devices, often across multiple staff members. We compared confirmed multi-code access, desk-drawer compatibility, and anchoring hardware rather than treating a home valuables safe as automatically office-appropriate.",
-  "We also checked capacity against typical office contents, cash, USB drives, small devices, and documents, since office storage needs differ meaningfully from a home jewelry or passport safe.",
+  "We also checked capacity against typical office contents, cash, USB drives, small devices, and documents, since office storage needs differ meaningfully from a home jewelry or passport safe."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     pros: ["Customizable password length allows a more secure, harder-to-guess office code"],
     cons: ["Compact capacity among the smallest office-appropriate options here"],
     bestFor: "Small offices wanting a compact, mountable safe with flexible code security.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Prioritized multi-user access for genuine office use", description: "Several picks here support two independent codes, relevant for offices with more than one staff member needing access without sharing credentials." },
   { title: "Checked desk-drawer and under-desk mounting compatibility specifically", description: "One pick is specifically slim enough to fit and mount inside a desk drawer, a genuinely different placement than a shelf-mounted home safe." },
   { title: "Compared capacity against realistic office contents", description: "We weighed capacity against contracts, cash, small devices, and USB drives rather than assuming home-safe capacity translates directly to office needs." },
-  { title: "Verified anchoring hardware for shared office spaces", description: "An unanchored safe in a shared office is a genuine theft risk from anyone with access to the room. We checked mounting hardware inclusion across all eight picks." },
+  { title: "Verified anchoring hardware for shared office spaces", description: "An unanchored safe in a shared office is a genuine theft risk from anyone with access to the room. We checked mounting hardware inclusion across all eight picks." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -282,7 +282,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review count and rating together, not rating alone",
-    "explanation": "A 4.8-star rating from 12 reviews carries far less evaluation confidence than a 4.5-star rating from several thousand, since a small sample can be skewed by a handful of early, enthusiastic buyers before any long-term reliability issues would show up in later reviews.\n\nThis matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
+    "explanation": "This matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
   }
 ];
 
@@ -291,11 +291,11 @@ export const faq: FaqItem[] = [
   { q: "Is there a safe that fits inside a desk drawer?", a: "Yes, the Amazon Basics Small Slim Desk Drawer Security Safe is specifically designed for that placement." },
   { q: "Which pick supports multiple staff members with separate codes?", a: "The Digital Electronic Money Safe, which supports two independent access codes." },
   { q: "Is there an option that fits a laptop?", a: "Yes, the SentrySafe Shelf Safe with Digital Keypad Lock has the widest interior in this comparison, rated for laptops alongside documents." },
-  { q: "How do I change the code after an employee leaves?", a: "Most picks here use a reprogrammable digital keypad. Verify the reset process directly and update the code whenever staff access changes." },
+  { q: "How do I change the code after an employee leaves?", a: "Most picks here use a reprogrammable digital keypad. Verify the reset process directly and update the code whenever staff access changes." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desktop-safes", title: "Best Desktop Safes (2026)" },
   { href: "/guide/best-small-safes-with-keypads", title: "Best Small Safes With Keypads (2026)" },
-  { href: "/guide/best-small-safes-that-bolt-to-the-floor", title: "Best Small Safes That Bolt to the Floor (2026)" },
+  { href: "/guide/best-small-safes-that-bolt-to-the-floor", title: "Best Small Safes That Bolt to the Floor (2026)" }
 ];

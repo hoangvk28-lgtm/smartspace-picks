@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["The highest weight capacity with sustainable craftsmanship", "ROCDEER Bamboo Monitor Stand Riser with Drawer"],
         ["Dual-monitor drawer storage at a mid-range price", "gianotter Dual Monitor Stand Riser with Drawer (Premium)"],
-        ["The most granular organization with a phone holder", "Simple Houseware Desk Dual Monitor Stand Riser with Drawer"],
+        ["The most granular organization with a phone holder", "Simple Houseware Desk Dual Monitor Stand Riser with Drawer"]
       ],
     },
   },
@@ -116,9 +116,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $33", "Qecamy Bamboo 4-Level ($32.99)"],
-        ["$37-$40", "gianotter Premium ($36.99) or Simple Houseware ($39.97)"],
-        ["Under $50", "ROCDEER Bamboo with Drawer ($49.99)"],
+        ["Under $33", "Qecamy Bamboo 4-Level (under $35)"],
+        ["$37-$40", "gianotter Premium (under $40) or Simple Houseware (under $40)"],
+        ["Under $50", "ROCDEER Bamboo with Drawer (under $50)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "100 Lb Capacity Bamboo vs Drawer-Focused Storage",
     cards: [
       { label: "High Weight Capacity Bamboo (ROCDEER, Qecamy)", text: "Both reach a genuine 100 lb weight rating, prioritizing structural strength for larger or heavier monitors over granular organization." },
-      { label: "Drawer-Focused Storage (gianotter, Simple Houseware)", text: "Prioritizes organized storage with drawers, dividers, and holders, without the same emphasis on maximum weight capacity." },
+      { label: "Drawer-Focused Storage (gianotter, Simple Houseware)", text: "Prioritizes organized storage with drawers, dividers, and holders, without the same emphasis on maximum weight capacity." }
     ],
     note: "If you have a large curved monitor or particularly heavy equipment, prioritize the 100 lb capacity picks. If organization matters more than raw weight capacity, the drawer-focused picks serve that need better.",
   },
@@ -136,7 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your cable situation", "Recommended pick"],
       rows: [
         ["Want dedicated cable routing design", "ROCDEER Bamboo Monitor Stand Riser (T-shaped slot)"],
-        ["Standard cable needs, no dedicated slot required", "gianotter, Simple Houseware, or Qecamy"],
+        ["Standard cable needs, no dedicated slot required", "gianotter, Simple Houseware, or Qecamy"]
       ],
     },
   },
@@ -144,16 +144,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Multitasking with a Phone or Tablet Specifically",
     cards: [
       { label: "Look for", text: "A built-in phone or tablet holder integrated directly into the stand, keeping a second screen visible without a separate accessory." },
-      { label: "In this comparison", text: "The Simple Houseware Desk Dual Monitor Stand Riser is the only pick with a built-in phone/tablet holder for exactly this purpose." },
+      { label: "In this comparison", text: "The Simple Houseware Desk Dual Monitor Stand Riser is the only pick with a built-in phone/tablet holder for exactly this purpose." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the highest weight capacity paired with FSC-certified sustainable craftsmanship and dedicated cable management, where the ROCDEER pick leads this comparison." },
-      { label: "Save if", text: "High weight capacity and height adjustability cover your needs, where the Qecamy pick matches the ROCDEER's 100 lb rating for less." },
+      { label: "Save if", text: "High weight capacity and height adjustability cover your needs, where the Qecamy pick matches the ROCDEER's 100 lb rating for less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

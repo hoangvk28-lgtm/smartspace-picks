@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "decorative portable file boxes";
 export const introParagraphs = [
   "We verified functional quality (hanging file compatibility, handle comfort, lid security) independent of each pick's decorative styling, since an attractive finish shouldn't come at the cost of core file-storage functionality. We also addressed the genuine tradeoff between decorative visibility and the discreet, non-descript storage some buyers prefer for sensitive documents in a shared or visible space.",
-  "Pattern and finish durability is another real consideration here: does a printed decorative pattern fade or wear with handling, distinct from the base material's own durability.",
+  "Pattern and finish durability is another real consideration here: does a printed decorative pattern fade or wear with handling, distinct from the base material's own durability."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Functional quality independent of aesthetic styling", description: "We verified hanging file compatibility, handle comfort, and lid security for each pick separately from its decorative finish, consistent with the pattern established throughout our broader research." },
   { title: "Discreet vs. decorative-visible tradeoff", description: "We addressed the genuine tradeoff between decorative visibility and the discreet, non-descript storage some buyers prefer for sensitive documents in a shared space." },
   { title: "Pattern and finish durability", description: "We considered whether a decorative pattern or finish fades or wears with handling, distinct from the base material's own structural durability." },
-  { title: "Price premium vs. functional quality correlation", description: "We weighed each decorative pick's price premium against genuine functional quality rather than assuming these correlate automatically." },
+  { title: "Price premium vs. functional quality correlation", description: "We weighed each decorative pick's price premium against genuine functional quality rather than assuming these correlate automatically." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -239,11 +239,11 @@ export const faq: FaqItem[] = [
   { q: "Is there a discreet decorative option that doesn't look like obvious storage?", a: "Yes, the linen fabric set is designed to blend into home office decor rather than visually standing out as document storage." },
   { q: "Will the decorative pattern fade over time?", a: "It's possible with repeated handling over years, a separate consideration from the underlying material's structural durability. This varies by the specific pattern and finish type." },
   { q: "Are decorative file boxes more expensive than plain ones?", a: "Some are, though price doesn't automatically correlate with functional quality. Compare hanging file compatibility and build quality directly rather than assuming a higher price means better function." },
-  { q: "Which decorative pick has the strongest track record?", a: "The Decorative Portable File Box with Clear Accents and the Linen Filing Cabinet set both carry strong combined ratings and review counts in this comparison." },
+  { q: "Which decorative pick has the strongest track record?", a: "The Decorative Portable File Box with Clear Accents and the Linen Filing Cabinet set both carry strong combined ratings and review counts in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-clear-portable-file-boxes", title: "Best Clear Portable File Boxes (2026)" },
   { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" },
-  { href: "/guide/best-portable-expanding-file-boxes", title: "Best Portable Expanding File Boxes (2026)" },
+  { href: "/guide/best-portable-expanding-file-boxes", title: "Best Portable Expanding File Boxes (2026)" }
 ];

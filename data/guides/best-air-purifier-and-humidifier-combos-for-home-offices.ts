@@ -5,7 +5,7 @@ export const metaDescription = "5 combo air purifier and humidifier units we eva
 export const mainKeyword = "air purifier humidifier combo for home office";
 export const introParagraphs = [
   "A combo unit means two separate maintenance schedules, filter replacement and water tank cleaning, live in one device, not half the upkeep of owning two separate units, a real expectation to set correctly before buying.",
-  "A neglected humidifier water tank can become a source of mold and bacteria that the same unit's air purifier side then has to filter back out, regular tank cleaning isn't optional the way filter replacement can sometimes be stretched.",
+  "A neglected humidifier water tank can become a source of mold and bacteria that the same unit's air purifier side then has to filter back out, regular tank cleaning isn't optional the way filter replacement can sometimes be stretched."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Air Purifier and Humidifier Combo Overall",
     name: "GoveeLife Air Purifier and Humidifier Combo for Bedroom",
     price: "$99.99",
-    rating: "4.7 stars from 549 Amazon ratings",
-    reviews: "549 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41p66KxYQ6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1QNCRFH?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Combo Pick",
     name: "GoveeLife Air Purifier and Humidifier Combo",
     price: "$79.99",
-    rating: "4.7 stars from 1,082 Amazon ratings",
-    reviews: "1,082 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/413ztUazlCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CYHBHRHW?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Multi-Function Combo Pick",
     name: "4-in-1 Humidifier and Air Purifier Combo",
     price: "$319.99",
-    rating: "4.3 stars from 320 Amazon ratings",
-    reviews: "320 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41LumZk9dtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B92W3QYY?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Established Brand Combo Pick",
     name: "InvisiClean AquaNova Air Purifier and Humidifier Combo",
     price: "$179.99",
-    rating: "4.2 stars from 127 Amazon ratings",
-    reviews: "127 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41R+N2t3vlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DG3PS4FY?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget-Friendly Combo Pick",
     name: "Homedics Air Purifier and Humidifier Combo",
     price: "$158.45",
-    rating: "3.9 stars from 221 Amazon ratings",
-    reviews: "221 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/418o1rKD45L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DPXVHFSB?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Accessible price for a combo unit", "Recognized home-goods brand", "Single footprint for both functions", "Reasonable entry point into the combo category"],
     cons: ["Lower average rating than other picks in this guide", "Two separate maintenance schedules to track", "Smaller review base than the top combo picks"],
     bestFor: "Buyers wanting an accessible price to try the combo category",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Maintenance multiplication honestly disclosed", description: "Considered that a combo unit means two separate maintenance schedules, filter replacement and water tank cleaning, live in one device, not half the upkeep of owning two separate units." },
   { title: "Water tank hygiene treated as non-negotiable", description: "Weighed that a neglected humidifier water tank can become a source of mold and bacteria that the same unit's air purifier side then has to filter back out, unlike filter replacement which can sometimes be stretched." },
-  { title: "Combo category's smaller review base contextualized", description: "Noted that combo units are a smaller product category than single-function purifiers or humidifiers, meaning generally smaller review bases across all picks in this guide." },
+  { title: "Combo category's smaller review base contextualized", description: "Noted that combo units are a smaller product category than single-function purifiers or humidifiers, meaning generally smaller review bases across all picks in this guide." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -235,11 +235,11 @@ export const faq: FaqItem[] = [
   { q: "Why do combo units have fewer reviews than single-function air purifiers?", a: "Combo units are a genuinely smaller product category than single-function air purifiers or humidifiers, meaning generally smaller review bases across all combo picks." },
   { q: "Should I just buy separate air purifier and humidifier units instead?", a: "If maximum proven reliability matters more to you than consolidation and footprint savings, a dedicated single-function unit from a high-review-count line may be the safer choice." },
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Home offices wanting both particulate filtration and humidity control in one unit" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting a proven combo option At $79.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting a proven combo option At under $80, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-air-purifiers-for-home-offices", title: "Best Air Purifiers for Home Offices (2026)" },
   { href: "/guide/best-smart-air-purifiers", title: "Best Smart Air Purifiers (2026)" },
-  { href: "/guide/best-air-purifiers-for-dust", title: "Best Air Purifiers for Dust (2026)" },
+  { href: "/guide/best-air-purifiers-for-dust", title: "Best Air Purifiers for Dust (2026)" }
 ];

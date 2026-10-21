@@ -5,7 +5,7 @@ export const metaDescription = "5 BE3600 Wi-Fi 7 routers we evaluated, with the 
 export const mainKeyword = "BE3600 Wi-Fi 7 router";
 export const introParagraphs = [
   "BE3600 sits at the very bottom of Wi-Fi 7 branding and typically lacks a 6GHz radio entirely, dual-band only, meaning it inherits the same 'Wi-Fi 7 in name only' risk common to entry-tier branding, worth verifying rather than assuming the 'BE' designation guarantees tri-band capability.",
-  "The '3600' combined number breaks down to roughly 574Mbps on 2.4GHz plus 2882Mbps on 5GHz theoretical maximum, a combined figure achievable by no single connected device, worth decoding rather than reading as an implied real-world speed.",
+  "The '3600' combined number breaks down to roughly 574Mbps on 2.4GHz plus 2882Mbps on 5GHz theoretical maximum, a combined figure achievable by no single connected device, worth decoding rather than reading as an implied real-world speed."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best BE3600 Wi-Fi 7 Router Overall",
     name: "TP-Link Dual-Band BE3600 Wi-Fi 7 Router Archer BE230 | 4-Stream | 2x2.5G + 3x1G Ports, USB 3.0, 2.0 GHz Quad Core, 4 Antennas | VPN, EasyMesh, HomeShield, MLO, Private IOT",
     price: "$79.99",
-    rating: "4.4 stars from 1,401 Amazon ratings",
-    reviews: "1,401 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41u8VJ6j2gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DC99N2T8?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Established Brand BE3600 Pick",
     name: "NETGEAR Nighthawk Dual-Band WiFi 7 Router (RS90), Router Only, BE3600 Wireless Speed (up to 3.6 Gbps) - Covers up to 2,000 sq. ft., 50 Devices, 2.5 Gig Internet Port",
     price: "$129.00",
-    rating: "4.3 stars from 1,373 Amazon ratings",
-    reviews: "1,373 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21--ly92xtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DW27FNG3?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Portable BE3600 Pick",
     name: "Roam 7 BE3600 Wi-Fi 7 Portable Travel Router Dual-Band, 2.5G Port, USB 3.0",
     price: "$89.99",
-    rating: "4.4 stars from 290 Amazon ratings",
-    reviews: "290 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31vfCX-04BL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHZGXZH7?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Mesh System at This Tier",
     name: "TP-Link Deco 7 BE23 Dual-Band BE3600 WiFi 7 Mesh Wi-Fi System | 4-Stream 3.6 Gbps, 160 Mhz | Covers up to 6,500 Sq.Ft | 2x 2.5G Ports Wired Backhaul | 3-Pack",
     price: "$152.99",
-    rating: "4.4 stars from 671 Amazon ratings",
-    reviews: "671 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41EClf31jxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQP4DNNJ?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Step-Up Pick Near This Tier",
     name: "NETGEAR Nighthawk Dual-Band WiFi 7 Router (RS140) - Router Only, BE5000 Wireless Speed (up to 5.0 Gbps) - Covers up to 2,250 sq. ft., 80 Devices - 2.5 Gig Internet Port",
     price: "$158.00",
-    rating: "4.3 stars from 356 Amazon ratings",
-    reviews: "356 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21NuupEXJgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F114274T?tag=deskfinds0d-20",
     description:
@@ -103,7 +103,7 @@ export const products: GuideProduct[] = [
     pros: ["Genuine step-up coverage and device count over BE3600 tier", "Established Nighthawk brand track record", "2.5 Gig WAN port for fast internet plans", "Reasonable price for the added capacity"],
     cons: ["Still dual-band only despite the higher combined number", "Smaller review base than other picks in this guide", "Higher price than genuine BE3600-tier options"],
     bestFor: "Buyers whose device count exceeds what BE3600 comfortably handles",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -111,7 +111,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "6GHz radio presence verified, not assumed from branding", description: "Confirmed that BE3600 sits at the very bottom of Wi-Fi 7 branding and typically lacks a 6GHz radio entirely, dual-band only, rather than assuming the 'BE' designation guarantees tri-band capability." },
   { title: "Combined speed number decoded into per-band split", description: "Decoded the '3600' combined number into its roughly 574-688Mbps (2.4GHz) plus 2882Mbps (5GHz) theoretical maximum, achievable by no single connected device, rather than letting it stand as an implied real-world speed." },
   { title: "MLO's structural limitation at this tier disclosed", description: "Noted that at this tier, MLO is essentially unavailable structurally, not just due to client compatibility, since there's no second high-speed band to aggregate with beyond the single 5GHz band." },
-  { title: "Genuine upgrade value versus Wi-Fi 6 verified", description: "Assessed whether each pick represents genuine real-world improvement over a comparably priced Wi-Fi 6 router, rather than assuming any 'BE'-labeled router is automatically a meaningful upgrade." },
+  { title: "Genuine upgrade value versus Wi-Fi 6 verified", description: "Assessed whether each pick represents genuine real-world improvement over a comparably priced Wi-Fi 6 router, rather than assuming any 'BE'-labeled router is automatically a meaningful upgrade." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -240,11 +240,11 @@ export const faq: FaqItem[] = [
   { q: "Does MLO work on a BE3600 router?", a: "Not meaningfully. With only one usable non-2.4GHz band, there's no second high-speed band to aggregate with, so MLO's core cross-band benefit doesn't exist at the hardware level regardless of firmware." },
   { q: "Is a BE3600 router actually better than my current Wi-Fi 6 router?", a: "Often yes for basic upgrades, but verify against a comparably priced Wi-Fi 6 router's real specs rather than assuming any 'BE'-labeled router represents a meaningful improvement." },
   { q: "Do I need Wi-Fi 7 client devices to benefit from a BE3600 router?", a: "Partially, a BE3600 still improves connections for older Wi-Fi 5/6 devices through general hardware upgrades, but the specific Wi-Fi 7 features like MLO only activate with a genuinely Wi-Fi 7 capable client device." },
-  { q: "Is BE3600 a good entry point for a first-time mesh Wi-Fi 7 upgrade?", a: "It can be for a small home, check whether the specific model supports mesh expansion since not every BE3600 router is designed to pair with additional satellite units." },
+  { q: "Is BE3600 a good entry point for a first-time mesh Wi-Fi 7 upgrade?", a: "It can be for a small home, check whether the specific model supports mesh expansion since not every BE3600 router is designed to pair with additional satellite units." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-be6500-wifi-7-routers", title: "Best BE6500 Wi-Fi 7 Routers (2026)" },
   { href: "/guide/best-wifi-7-routers-for-small-homes", title: "Best Wi-Fi 7 Routers for Small Homes (2026)" },
-  { href: "/guide/best-wifi-7-routers-for-apartments", title: "Best Wi-Fi 7 Routers for Apartments (2026)" },
+  { href: "/guide/best-wifi-7-routers-for-apartments", title: "Best Wi-Fi 7 Routers for Apartments (2026)" }
 ];

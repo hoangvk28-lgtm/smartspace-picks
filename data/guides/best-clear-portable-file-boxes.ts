@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "clear portable file boxes";
 export const introParagraphs = [
   "Transparent construction lets you identify contents without opening the box, a genuine practical benefit, but we checked for ongoing clarity over time, since clear plastic can yellow or become hazy with prolonged UV exposure near a window, reducing the core see-through benefit this material choice provides.",
-  "We also weighed the genuine practical benefit of quick content identification against the realistic downside of displaying potentially sensitive document contents visibly to anyone nearby.",
+  "We also weighed the genuine practical benefit of quick content identification against the realistic downside of displaying potentially sensitive document contents visibly to anyone nearby."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Ongoing clarity and UV yellowing durability", description: "We flagged that clear plastic can yellow or become hazy with prolonged UV exposure near a window, a real long-term durability consideration for this material choice." },
   { title: "Scratch resistance specific to transparent surfaces", description: "We noted that scratches on a clear surface are more visually disruptive to the core see-through benefit than scratches on an opaque box." },
   { title: "Content-visibility benefit vs. document privacy tradeoff", description: "We weighed the genuine practical benefit of quick content identification against the realistic downside of displaying potentially sensitive document contents visibly." },
-  { title: "Genuine hanging file compatibility carried forward", description: "We confirmed hanging file rail compatibility and letter/legal sizing for each clear pick, consistent with our broader portable file box research." },
+  { title: "Genuine hanging file compatibility carried forward", description: "We confirmed hanging file rail compatibility and letter/legal sizing for each clear pick, consistent with our broader portable file box research." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -239,11 +239,11 @@ export const faq: FaqItem[] = [
   { q: "Is it safe to store sensitive documents in a clear box?", a: "Content visibility means anyone nearby can potentially see what's inside. If privacy matters for sensitive documents, consider a decorative hybrid with partial visibility or a fully opaque box instead." },
   { q: "Do clear boxes scratch easily?", a: "Scratches are more visually noticeable on transparent surfaces than opaque ones, though the underlying plastic durability is similar. Handle carefully and avoid stacking heavy items directly on top." },
   { q: "What's the largest clear file box available?", a: "The IRIS USA 35 Qt. pick offers the largest capacity in this comparison, with dual letter/legal compatibility and a latching lid." },
-  { q: "Can I get some privacy while still having a mostly clear design?", a: "Yes, the decorative pick with clear accents offers a middle ground, partial content visibility combined with more aesthetic styling and privacy than a fully transparent box." },
+  { q: "Can I get some privacy while still having a mostly clear design?", a: "Yes, the decorative pick with clear accents offers a middle ground, partial content visibility combined with more aesthetic styling and privacy than a fully transparent box." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-plastic-portable-file-boxes", title: "Best Plastic Portable File Boxes (2026)" },
   { href: "/guide/best-decorative-portable-file-boxes", title: "Best Decorative Portable File Boxes (2026)" },
-  { href: "/guide/best-portable-file-boxes-with-lids", title: "Best Portable File Boxes with Lids (2026)" },
+  { href: "/guide/best-portable-file-boxes-with-lids", title: "Best Portable File Boxes with Lids (2026)" }
 ];

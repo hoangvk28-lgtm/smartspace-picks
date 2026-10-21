@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     description: "2.0 Cub Large Fireproof Safes for Home Use, Digital Security Safe Box Fireproof Waterproof and is built around fire safe box for home, positioning it for 2 hour buyers specifically.\n\nALL STEEL STRUCTURE & THICKENED DOOR is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 2 hour, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["FIRE SAFE BOX FOR HOME","ALL STEEL STRUCTURE & THICKENED DOOR","ALARM SYSTEM & ANCHORING DESIGN"],
     pros: ["FIRE SAFE BOX FOR HOME, confirmed directly in the listing's own spec details","ALL STEEL STRUCTURE & THICKENED DOOR, confirmed directly in the listing's own spec details","ALARM SYSTEM & ANCHORING DESIGN, confirmed directly in the listing's own spec details"],
-    cons: ["At $99.99, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $100, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 2 hour",
   },
   {
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "2.0 Cuft Fireproof Safe Box for Home,Digital Keypad,35-Min Fire Protection and is built around 35min fire protection, positioning it for 2 hour buyers specifically.\n\nLarge Capacity & Adjustable Interior is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 2 hour, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["35Min Fire Protection","Large Capacity & Adjustable Interior","Heavy Duty Safe"],
     pros: ["35Min Fire Protection, confirmed directly in the listing's own spec details","Large Capacity & Adjustable Interior, confirmed directly in the listing's own spec details","Heavy Duty Safe, confirmed directly in the listing's own spec details"],
-    cons: ["At $159.99, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $160, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 2 hour",
   },
   {
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "DAYI Fireproof Safe, 2.0 Cubic Feet Biometric Fingerprint Fire Proof Safes Box for Home and is built around ul-rated fire protection - our fireproof safe, positioning it for 2 hour buyers specifically.\n\nSECURITY PROTECTION - Made using one-piece bending is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 2 hour, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["UL-RATED FIRE PROTECTION - Our fireproof safe","SECURITY PROTECTION - Made using one-piece bending","NEXT-GENERATION BIOMETRIC TECHNOLOGY - The biometric safe"],
     pros: ["UL-RATED FIRE PROTECTION - Our fireproof safe, confirmed directly in the listing's own spec details","SECURITY PROTECTION - Made using one-piece bending, confirmed directly in the listing's own spec details","NEXT-GENERATION BIOMETRIC TECHNOLOGY - The biometric safe, confirmed directly in the listing's own spec details"],
-    cons: ["At $289.99, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $300, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 2 hour",
   },
   {
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     description: "WASJOYE Fireproof Cabinet Safe Box - 2.5 Cubic Feet Home Security Safes with Fireproof Lock and is built around fireproof safe, positioning it for 2 hour buyers specifically.\n\nSturdy Durable is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 2 hour, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Fireproof Safe","Sturdy Durable","Alarm System"],
     pros: ["Fireproof Safe, confirmed directly in the listing's own spec details","Sturdy Durable, confirmed directly in the listing's own spec details","Alarm System, confirmed directly in the listing's own spec details"],
-    cons: ["At $66.68, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $70, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 2 hour",
   },
   {
@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "[2026 Upgraded] -35 Min Real Fireproof Safe-3.6 Cu Ft Large Safe for Home and is built around 35-minute fire protection & advanced sealing: constructed, positioning it for 2 hour buyers specifically.\n\nHeavy-Duty Security with Anti-Pry Locking Bolts: Built is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 2 hour, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["35-Minute Fire Protection & Advanced Sealing: Constructed","Heavy-Duty Security with Anti-Pry Locking Bolts: Built","Spacious Interior with Adjustable Shelf: With dimensions"],
     pros: ["35-Minute Fire Protection & Advanced Sealing: Constructed, confirmed directly in the listing's own spec details","Heavy-Duty Security with Anti-Pry Locking Bolts: Built, confirmed directly in the listing's own spec details","Spacious Interior with Adjustable Shelf: With dimensions, confirmed directly in the listing's own spec details"],
-    cons: ["At $189.97, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $190, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 2 hour",
   },
   {
@@ -193,36 +193,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $66.68",
+          "Under $70",
           "WASJOYE Fireproof Cabinet Safe Box"
         ],
         [
-          "Around $72.79",
+          "Under $80",
           "SentrySafe 0.28 Cu Ft Fireproof & Waterproof Chest"
         ],
         [
-          "Around $99.99",
+          "Under $100",
           "2.0 Cub Large Fireproof Safes for Home Use"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "2.0 Cuft Fireproof Safe Box for Home"
         ],
         [
-          "Around $189.97",
+          "Under $190",
           "[2026 Upgraded] -35 Min Real Fireproof Safe-3.6 Cu Ft Large Safe for Home"
         ],
         [
-          "Around $289.99",
+          "Under $300",
           "DAYI Fireproof Safe"
         ],
         [
-          "Around $562.22",
+          "Under $600",
           "Master Lock 2.0 Cu Ft Fireproof & Waterproof Safe"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -270,7 +270,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", "a": "Master Lock 2.0 Cu Ft Fireproof & Waterproof Safe is aimed at buyers prioritizing 2.0 cu ft, ul 2hr at 1850 degreesf" },
+  { "q": "Which product in this roundup earns the top overall recommendation?", "a": "Master Lock 2.0 Cu Ft Fireproof & Waterproof Safe is aimed at buyers prioritizing 2.0 cu ft, ul 2hr at 1850 degreesf" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-1-hour-fireproof-safes","title":"Best 1 Hour Fireproof Safes in 2026"},{"href":"/guide/best-4-hour-fireproof-safes","title":"Best 4 Hour Fireproof Safes in 2026"},{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"}];

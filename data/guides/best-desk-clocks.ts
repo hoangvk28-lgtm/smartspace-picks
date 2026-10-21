@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desk clock";
 export const introParagraphs = [
   "A desk clock is a small standalone timepiece meant to sit on a desk, nightstand, or shelf rather than mount to a wall, and the category spans wildly different designs, from mechanical-feeling flip clocks to LED digital displays to polished marble pieces meant as gifts. Because the styles differ so much in function, we grouped this roundup across the major style families rather than picking one aesthetic and calling it universal.",
-  "If you already know you want a specific style, our narrower guides go deeper: see our flip clock, digital clock, and personalized clock guides for style-specific picks and comparisons. This guide is the broad starting point for buyers who haven't settled on a look yet.",
+  "If you already know you want a specific style, our narrower guides go deeper: see our flip clock, digital clock, and personalized clock guides for style-specific picks and comparisons. This guide is the broad starting point for buyers who haven't settled on a look yet."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "11 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Movement type checked against real quiet-desk needs", description: "Noted whether each clock uses a standard ticking quartz movement, a silent sweep or silent electronic movement, or a mechanical flip action, since this materially affects comfort during long desk sessions." },
   { title: "Material and price weighed against genuine gift or everyday use", description: "Separated everyday functional picks from marble, crystal, and personalized pieces clearly built as gifts or statement objects rather than budget desk accessories." },
   { title: "Readability assessed for digital and analog faces separately", description: "Checked digit or hand size against realistic desk viewing distance rather than assuming all displays are equally legible from across a room." },
-  { title: "Power source verified from listing details", description: "Confirmed whether each clock is battery powered, corded, or battery-backed, since this affects placement flexibility on a desk." },
+  { title: "Power source verified from listing details", description: "Confirmed whether each clock is battery powered, corded, or battery-backed, since this affects placement flexibility on a desk." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -294,11 +294,11 @@ export const faq: FaqItem[] = [
   { q: "What is the difference between a silent and a regular desk clock?", a: "A regular quartz movement produces an audible tick once per second. A silent sweep or silent electronic movement moves continuously without that tick, useful if the clock sits close to where you work." },
   { q: "Are flip clocks loud?", a: "Mechanical gear-driven flip clocks produce an audible click when each number flips. Some models use a silent electronic movement instead, which avoids that click, check the listing before buying if noise matters." },
   { q: "How far in advance should I order a personalized desk clock?", a: "Custom engraving typically requires several business days of production after you approve the design. Order at least a week before your gift deadline to be safe." },
-  { q: "Do all desk clocks need batteries?", a: "Most do, but some digital models are corded and plug into a wall outlet, occasionally with a battery backup for power outages. Check the power source in the listing before buying." },
+  { q: "Do all desk clocks need batteries?", a: "Most do, but some digital models are corded and plug into a wall outlet, occasionally with a battery backup for power outages. Check the power source in the listing before buying." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-flip-desk-clocks", title: "Best Flip Desk Clocks (2026)" },
   { href: "/guide/best-digital-desk-clocks", title: "Best Digital Desk Clocks (2026)" },
-  { href: "/guide/best-personalized-desk-clocks", title: "Best Personalized Desk Clocks (2026)" },
+  { href: "/guide/best-personalized-desk-clocks", title: "Best Personalized Desk Clocks (2026)" }
 ];

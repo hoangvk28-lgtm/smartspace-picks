@@ -100,7 +100,7 @@ export const howToChoose = [
         ["High power need, institutional compliance", "TRENDnet Outdoor IP67 Gigabit PoE++ Injector"],
         ["Exposed to vandalism, complete sealed kit needed", "Intellinet Outdoor Gigabit PoE++ Injector"],
         ["Solar or remote DC power, high-speed data", "PROCET 10GbE 30W PoE+ Injector Outdoor"],
-        ["Standard AC power, no separate adapter wanted", "FASTCABLING Outdoor Industrial PoE++ Injector"],
+        ["Standard AC power, no separate adapter wanted", "FASTCABLING Outdoor Industrial PoE++ Injector"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $116", "PROCET 10GbE 30W PoE+ Injector ($115.00)"],
-        ["Under $130", "Intellinet Outdoor Gigabit PoE++ Injector ($125.99)"],
-        ["Under $150", "FASTCABLING Outdoor Industrial PoE++ Injector ($146.26)"],
-        ["Under $160", "TRENDnet Outdoor IP67 Gigabit PoE++ Injector ($154.99)"],
+        ["Under $116", "PROCET 10GbE 30W PoE+ Injector (under $120)"],
+        ["Under $130", "Intellinet Outdoor Gigabit PoE++ Injector (under $130)"],
+        ["Under $150", "FASTCABLING Outdoor Industrial PoE++ Injector (under $150)"],
+        ["Under $160", "TRENDnet Outdoor IP67 Gigabit PoE++ Injector (under $160)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "AC-Powered vs DC/Solar-Powered Outdoor Injectors",
     cards: [
       { label: "AC-powered (TRENDnet, Intellinet, FASTCABLING)", text: "Suits installations with standard grid power access nearby, offering higher wattage ceilings up to 95W for demanding devices." },
-      { label: "DC/solar-powered (PROCET)", text: "Necessary for remote installations without grid power access, like solar-powered PTZ cameras or wireless bridges in areas without electrical infrastructure." },
+      { label: "DC/solar-powered (PROCET)", text: "Necessary for remote installations without grid power access, like solar-powered PTZ cameras or wireless bridges in areas without electrical infrastructure." }
     ],
     note: "Confirm your installation site's actual power access before choosing; a DC-input unit is only worth its tradeoffs if you genuinely lack standard AC power nearby.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["Mounting kit, earthing kit, cable glands", "Intellinet Outdoor Gigabit PoE++ Injector"],
         ["Built-in power supply, no separate purchase", "FASTCABLING Outdoor Industrial PoE++ Injector"],
-        ["Power supply sold separately, higher power ceiling", "TRENDnet Outdoor IP67 Gigabit PoE++ Injector"],
+        ["Power supply sold separately, higher power ceiling", "TRENDnet Outdoor IP67 Gigabit PoE++ Injector"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For a Remote Solar-Powered Camera Installation Specifically",
     cards: [
       { label: "Look for", text: "A wide DC input voltage range with voltage boosting, since solar and battery power sources fluctuate and a standard AC-only injector simply cannot connect to that kind of power source." },
-      { label: "In this comparison", text: "The PROCET pick specifically states a 12-55V DC input with voltage boosting designed for solar applications, unlike the three AC-only picks." },
+      { label: "In this comparison", text: "The PROCET pick specifically states a 12-55V DC input with voltage boosting designed for solar applications, unlike the three AC-only picks." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You need the highest power ceiling, NDAA compliance, or documented industrial EMS certifications, where the TRENDnet pick's $154.99 price justifies those specific requirements." },
-      { label: "Save if", text: "You need solid 60W IP67 protection without NDAA compliance, where the Intellinet or FASTCABLING picks deliver that for roughly $20-30 less." },
+      { label: "Spend more if", text: "You need the highest power ceiling, NDAA compliance, or documented industrial EMS certifications, where the TRENDnet pick's under $160 price justifies those specific requirements." },
+      { label: "Save if", text: "You need solid 60W IP67 protection without NDAA compliance, where the Intellinet or FASTCABLING picks deliver that for roughly $20-30 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

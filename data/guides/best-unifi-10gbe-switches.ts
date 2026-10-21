@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $144.39",
+          "Under $150",
           "Real HD 16-Port 2.5Gb Unmanaged Switch"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "NETGEAR 16-Port PoE Gigabit Unmanaged Switch (GS316PP)"
         ],
         [
-          "Around $219.99",
+          "Under $250",
           "18-Port 10Gbe Ethernet Switch Unmanaged"
         ],
         [
-          "Around $549.00",
+          "Under $550",
           "QNAP QSW-3216R-8S8T-US"
         ],
         [
-          "Around $599.00",
+          "Under $600",
           "QNAP QSW-M3216R-8S8T-US"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "No. The total PoE budget is shared across all active PoE ports, so if you power several high-draw devices simultaneously, the switch may not be able to deliver every port's maximum rated wattage at the same time. Check the total budget against your actual device count and power needs."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "NETGEAR 16-Port PoE Gigabit Unmanaged Switch (GS316PP) is aimed at buyers prioritizing 16x 1g poe+ ports, 183w budget." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "NETGEAR 16-Port PoE Gigabit Unmanaged Switch (GS316PP) is aimed at buyers prioritizing 16x 1g poe+ ports, 183w budget." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-netgear-10gbe-switches","title":"Best NETGEAR 10GbE Switches in 2026"},{"href":"/guide/best-mikrotik-10gbe-switches","title":"Best MikroTik 10GbE Switches in 2026"},{"href":"/guide/best-cisco-10gbe-switches","title":"Best Cisco 10GbE Switches in 2026"}];

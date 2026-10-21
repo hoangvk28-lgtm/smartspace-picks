@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "hidden small safes";
 export const introParagraphs = [
   "We're distinguishing genuine concealment engineering, a peg-mounting system or discreet, blend-in design, from a general safe that happens to be placed out of sight without any actual hidden-mounting feature. Both approaches work, but they're not the same design choice, and we're labeling each pick honestly.",
-  "None of these picks are diversion safes (disguised as household objects like a book or can), so if that specific concealment style is what you're after, this comparison won't cover it, we're being direct about that scope limit.",
+  "None of these picks are diversion safes (disguised as household objects like a book or can), so if that specific concealment style is what you're after, this comparison won't cover it, we're being direct about that scope limit."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     pros: ["Auto interior light and low-battery warning genuinely useful for a dim, rarely-checked hiding spot"],
     cons: ["No dedicated concealment engineering, relies on where you place it"],
     bestFor: "Buyers hiding the safe somewhere dim who want light-assisted access and battery monitoring.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Distinguished dedicated concealment engineering from general safes placed out of sight", description: "Four picks here confirm actual hidden-mounting design (peg systems, explicit hideable marketing, mute-mode discretion); the other four are general security boxes that happen to be small enough to tuck away, which we labeled honestly." },
   { title: "Excluded diversion-safe styles from scope and disclosed this directly", description: "None of these picks are disguised as household objects. We stated this limitation upfront rather than letting buyers assume that style is covered." },
   { title: "Checked for discretion-specific features beyond just physical concealment", description: "One pick specifically confirms a mute alarm mode for silent access, a genuine discretion feature beyond simply being small or hidden." },
-  { title: "Noted where a safe conceals itself inside existing furniture versus needing its own hiding spot", description: "One pick fits inside an existing desk drawer rather than requiring you to find or create a separate hiding location." },
+  { title: "Noted where a safe conceals itself inside existing furniture versus needing its own hiding spot", description: "One pick fits inside an existing desk drawer rather than requiring you to find or create a separate hiding location." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -282,7 +282,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review count and rating together, not rating alone",
-    "explanation": "A 4.8-star rating from 12 reviews carries far less evaluation confidence than a 4.5-star rating from several thousand, since a small sample can be skewed by a handful of early, enthusiastic buyers before any long-term reliability issues would show up in later reviews.\n\nThis matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
+    "explanation": "This matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
   }
 ];
 
@@ -291,11 +291,11 @@ export const faq: FaqItem[] = [
   { q: "Is there a safe explicitly marketed as hideable by the manufacturer?", a: "Yes, the Honeywell Hideable Small Safe Box uses that exact term in its product marketing." },
   { q: "Is there a diversion safe disguised as a household object?", a: "No, none of these picks use that concealment style. This comparison covers peg-mounted, discreetly designed, and general placement-based options only." },
   { q: "Which pick offers silent, discreet access?", a: "The Small Safe for Home, with a mute mode on its wrong-entry alarm for accessing valuables without alerting anyone nearby." },
-  { q: "Is there an option that fits inside furniture I already own?", a: "Yes, the Amazon Basics Small Slim Desk Drawer Security Safe is designed to fit and mount inside an existing desk drawer." },
+  { q: "Is there an option that fits inside furniture I already own?", a: "Yes, the Amazon Basics Small Slim Desk Drawer Security Safe is designed to fit and mount inside an existing desk drawer." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-in-wall-small-safes", title: "Best In-Wall Small Safes (2026)" },
   { href: "/guide/best-small-safes-for-closets", title: "Best Small Safes for Closets (2026)" },
-  { href: "/guide/best-honeywell-small-safes", title: "Best Honeywell Small Safes (2026)" },
+  { href: "/guide/best-honeywell-small-safes", title: "Best Honeywell Small Safes (2026)" }
 ];

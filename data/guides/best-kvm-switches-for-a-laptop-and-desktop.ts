@@ -5,7 +5,7 @@ export const metaDescription = "5 KVM switches for a laptop and desktop we evalu
 export const mainKeyword = "kvm switch for laptop and desktop";
 export const introParagraphs = [
   "Your desktop typically needs its own dedicated graphics card output connected to the switch, while your laptop may share power and video over a single USB-C cable, worth understanding this asymmetry before assuming both devices connect to the switch identically.",
-  "A laptop docked into a KVM switch alongside a desktop benefits most from EDID emulation and power delivery working together, since you'll likely dock and undock the laptop daily while the desktop stays permanently connected.",
+  "A laptop docked into a KVM switch alongside a desktop benefits most from EDID emulation and power delivery working together, since you'll likely dock and undock the laptop daily while the desktop stays permanently connected."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     badge: "Best KVM Switch for a Laptop and Desktop Overall",
     name: "AV Access Dual Monitor KVM Docking Station for Laptop & Desktop (iDock C10)",
     price: "$225.61",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31KfwfvqAqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CW2JGRN4?tag=deskfinds0d-20",
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     badge: "Best Value Pick for a Laptop and Desktop",
     name: "AV Access iDock P10 KVM Docking Station 2 Monitors 2 PC, GbE, EDID, 65W PD",
     price: "$179.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41Du+XSAPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCXN5P3T?tag=deskfinds0d-20",
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     badge: "Best Simple Budget Pick for a Laptop and Desktop",
     name: "KVM Switch 1 Monitors 2 Computers 4K@60Hz USB C HDMI KVM Switch 2 Port for 1 Laptop 1 Desktop",
     price: "$55.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41BxNjK7PrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GY4R958W?tag=deskfinds0d-20",
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     badge: "Best Premium Pick for a Laptop and Desktop",
     name: "AV Access KVM Switch Dock 2 Monitors 2 Laptops, 4K KVM Switch Dual Monitor",
     price: "$233.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41e02xrYlyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP4PD3SM?tag=deskfinds0d-20",
@@ -89,7 +89,7 @@ export const products: GuideProduct[] = [
     badge: "Best Simple Value Pick for a Laptop and Desktop",
     name: "TIGKTING USB 3.0 HDMI KVM Switch 1 Monitors 2 Computers 4K60Hz KVM Switches 2 Ports for 2 PC 1 Monitor",
     price: "$29.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41EdJsfqo4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H2YVL93R?tag=deskfinds0d-20",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Asymmetric connection needs between laptop and desktop considered", description: "Considered that a desktop typically needs its own dedicated graphics output while a laptop may share power and video over one USB-C cable, an asymmetry not every switch handles identically." },
   { title: "EDID emulation weighted for daily laptop dock and undock cycles", description: "Weighted EDID emulation more heavily given the likely daily laptop docking and undocking workflow, while the desktop stays permanently connected." },
   { title: "Explicit laptop-and-desktop labeling valued as a compatibility signal", description: "Valued switches explicitly labeled for one laptop and one desktop as a stronger compatibility signal than a switch marketed generically for two identical sources." },
-  { title: "Power delivery behavior clarified for the laptop side specifically", description: "Clarified power delivery wattage and behavior specifically for the laptop side of the pairing, since the desktop doesn't need charging through the switch." },
+  { title: "Power delivery behavior clarified for the laptop side specifically", description: "Clarified power delivery wattage and behavior specifically for the laptop side of the pairing, since the desktop doesn't need charging through the switch." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Should I look for a switch explicitly labeled for laptop and desktop?", a: "It's a helpful compatibility signal, stronger than a switch marketed generically for two identical computer sources." },
   { q: "Does the switch charge my laptop while I'm docked?", a: "It can if power delivery is included, verify the specific wattage matches your laptop's charging requirement." },
   { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting a purpose-built solution for daily laptop docking alongside a permanent desktop" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with a laptop and desktop both using HDMI output At $29.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with a laptop and desktop both using HDMI output At under $30, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-kvm-switches-for-two-laptops", title: "Best KVM Switches for Two Laptops (2026)" },
   { href: "/guide/best-kvm-docking-stations", title: "Best KVM Docking Stations (2026)" },
-  { href: "/guide/best-kvm-switches-for-mac-and-pc", title: "Best KVM Switches for Mac and PC (2026)" },
+  { href: "/guide/best-kvm-switches-for-mac-and-pc", title: "Best KVM Switches for Mac and PC (2026)" }
 ];

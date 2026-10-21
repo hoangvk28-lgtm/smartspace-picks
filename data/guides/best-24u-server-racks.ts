@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41Dc0as8yhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B071KW98RM?tag=deskfinds0d-20",
-    description: "The taller 24U sibling to StarTech's 18U cabinet, carrying the same pre-assembled delivery, 5-year warranty, and 992 lb rating just with more room to grow.\n\nAt 48.9 inches tall it starts to approach the size where you'll want to confirm doorway and ceiling clearance before ordering, but it still fits most standard rooms.\n\nThis pick is best for buyers who value more headroom than the 18U model at the same weight rating along with ships pre-assembled with wheels and levelers installed. The catch is that 48.9\" height needs a genuine equipment room, so decide if that's worth it at $949.99.",
+    description: "The taller 24U sibling to StarTech's 18U cabinet, carrying the same pre-assembled delivery, 5-year warranty, and 992 lb rating just with more room to grow.\n\nAt 48.9 inches tall it starts to approach the size where you'll want to confirm doorway and ceiling clearance before ordering, but it still fits most standard rooms.\n\nThis pick is best for buyers who value more headroom than the 18U model at the same weight rating along with ships pre-assembled with wheels and levelers installed. The catch is that 48.9\" height needs a genuine equipment room, so decide if that's worth it at under $950.",
     specs: ["24U, 48.9\" tall, 29in adjustable depth","992 lb stationary weight capacity","5-year warranty, 1U fixed shelf included"],
     pros: ["More headroom than the 18U model at the same weight rating","Ships pre-assembled with wheels and levelers installed","Includes a 1U fixed shelf out of the box"],
     cons: ["48.9\" height needs a genuine equipment room","Same 992 lb cap as the shorter 18U version"],
@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41CPcm--AdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CC3WTB68?tag=deskfinds0d-20",
-    description: "A 24U aluminum-frame rack with a deep 31-inch post-to-post install depth and three pairs of steel rails, giving more structural rigidity than the lighter 15U models in this line.\n\nMovable design with square screw holes keeps it compatible with standard cage nut hardware, and the 700 lb rating holds up well for its aluminum construction.\n\nWhat stands out here is three steel rail pairs add rigidity for a 24U aluminum frame, plus 700 lb rating is strong for a lightweight build. The main tradeoff: no casters included on this particular model, so weigh that against the $199.99 price before buying.",
+    description: "A 24U aluminum-frame rack with a deep 31-inch post-to-post install depth and three pairs of steel rails, giving more structural rigidity than the lighter 15U models in this line.\n\nMovable design with square screw holes keeps it compatible with standard cage nut hardware, and the 700 lb rating holds up well for its aluminum construction.\n\nWhat stands out here is three steel rail pairs add rigidity for a 24U aluminum frame, plus 700 lb rating is strong for a lightweight build. The main tradeoff: no casters included on this particular model, so weigh that against the under $200 price before buying.",
     specs: ["24U, 51\"H x 22\"W, 28\" post-to-post depth","700 lb weight capacity","3 pairs of steel rails"],
     pros: ["Three steel rail pairs add rigidity for a 24U aluminum frame","700 lb rating is strong for a lightweight build","Movable design eases repositioning during setup"],
     cons: ["No casters included on this particular model","Aluminum frame still needs careful anchoring for heavy loads"],
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "StarTech 24U 4-Post Server Cabinet, 29in Deep, 992lb, Shelf (RK2433BKM) and is built around adjustable depth, positioning it for 24u buyers specifically.\n\nFULLY ASSEMBLED WITH CASTERS is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 24u, though as with any networking purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["ADJUSTABLE DEPTH","FULLY ASSEMBLED WITH CASTERS","DESIGN AND VENTILATION"],
     pros: ["ADJUSTABLE DEPTH, confirmed directly in the listing's own spec details","FULLY ASSEMBLED WITH CASTERS, confirmed directly in the listing's own spec details","DESIGN AND VENTILATION, confirmed directly in the listing's own spec details"],
-    cons: ["At $949.99, worth comparing against similarly specced networking devices before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $950, worth comparing against similarly specced networking devices before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 24u",
   },
   {
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     description: "Tripp Lite 24U Rack Enclosure Server Cabinet, Mid Depth 32.5\" Deep, Standard Width for 19-inch and is built around floor-standing rack enclosure server cabinet for accomodating, positioning it for 24u buyers specifically.\n\nAdjustable mounting depths from 3\" to 32.5\" is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 24u, though as with any networking purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Floor-standing rack enclosure server cabinet for accomodating","Adjustable mounting depths from 3\" to 32.5\"","Locking, reversible front door & locking, removable"],
     pros: ["Floor-standing rack enclosure server cabinet for accomodating, confirmed directly in the listing's own spec details","Adjustable mounting depths from 3\" to 32.5\", confirmed directly in the listing's own spec details","Locking, reversible front door & locking, removable, confirmed directly in the listing's own spec details"],
-    cons: ["At $1,121.48, worth comparing against similarly specced networking devices before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $1,200, worth comparing against similarly specced networking devices before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 24u",
   },
   {
@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "VEVOR 22U Network Cabinet Wall Mount, 23.6 in Depth, 300 lbs Max Load Capacity Server Cabinet and is built around save space, stay organized, positioning it for 24u buyers specifically.\n\nExcellent Heat Dissipation is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 24u, though as with any networking purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Save Space, Stay Organized","Excellent Heat Dissipation","Tough and Built to Last"],
     pros: ["Save Space, Stay Organized, confirmed directly in the listing's own spec details","Excellent Heat Dissipation, confirmed directly in the listing's own spec details","Tough and Built to Last, confirmed directly in the listing's own spec details"],
-    cons: ["At $237.41, worth comparing against similarly specced networking devices before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $250, worth comparing against similarly specced networking devices before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 24u",
   }
 
@@ -178,32 +178,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $199.99",
+          "Under $200",
           "Raising Electronics Server Rack Open Frame Rack 4 Post"
         ],
         [
-          "Around $205.00",
+          "Under $250",
           "AV Gear Rack 24U Home Audio & Video Storage Cabinet"
         ],
         [
-          "Around $237.41",
+          "Under $250",
           "VEVOR 22U Network Cabinet Wall Mount"
         ],
         [
-          "Around $949.99",
+          "Under $950",
           "StarTech 24U 4-Post Server Cabinet"
         ],
         [
-          "Around $949.99",
+          "Under $950",
           "StarTech 24U 4-Post Server Cabinet"
         ],
         [
-          "Around $1,121.48",
+          "Under $1,200",
           "Tripp Lite 24U Rack Enclosure Server Cabinet"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -251,7 +251,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "StarTech 24U 4-Post Server Cabinet is aimed at buyers prioritizing 24u, 48.9\" tall, 29in adjustable depth." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "StarTech 24U 4-Post Server Cabinet is aimed at buyers prioritizing 24u, 48.9\" tall, 29in adjustable depth." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-42u-server-racks","title":"Best 42U Server Racks in 2026"},{"href":"/guide/best-2u-server-racks","title":"Best 2U Server Racks in 2026"},{"href":"/guide/best-1u-server-racks","title":"Best 1U Server Racks in 2026"}];

@@ -155,7 +155,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Organized small-item storage at the lowest price", "Cedilis Under Desk Drawer Organizer"],
         ["Maximum flexible storage capacity", "SRJZMLY Under Desk Drawer Organizer"],
         ["A keyboard tray for a thicker desk", "AX WABER Keyboard Tray Under Desk"],
-        ["Maximum extension distance from a known brand", "VIVO Black Clamp-on Keyboard Tray"],
+        ["Maximum extension distance from a known brand", "VIVO Black Clamp-on Keyboard Tray"]
       ],
     },
   },
@@ -164,8 +164,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $35", "Cedilis ($26.99), SRJZMLY ($29.99), or ROLIZOE ($32.99)"],
-        ["$38 to $50", "XINLEI ($37.99), AX WABER ($43.99), or VIVO ($49.99)"],
+        ["Under $35", "Cedilis (under $30), SRJZMLY (under $30), or ROLIZOE (under $35)"],
+        ["$38 to $50", "XINLEI (under $40), AX WABER (under $45), or VIVO (under $50)"]
       ],
     },
   },
@@ -179,7 +179,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "Sliding keyboard tray (XINLEI, AX WABER, VIVO)",
         text: "Moves your keyboard and mouse below the desktop entirely, freeing up desk surface space for other use.",
-      },
+      }
     ],
     note: "Choose based on your actual problem: cluttered desk supplies call for a storage drawer, while a desktop that feels too small for a keyboard and mouse calls for a sliding tray.",
   },
@@ -191,7 +191,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["1.25 inches or thinner", "VIVO Black Clamp-on Keyboard Tray"],
         ["Up to 1.63 inches", "XINLEI Keyboard Tray Under Desk"],
         ["Up to 1.9 inches (thicker desks)", "AX WABER Keyboard Tray Under Desk"],
-        ["Up to 1.97 inches with a desk lip", "ROLIZOE Sliding Under Desk Drawer Organizer"],
+        ["Up to 1.97 inches with a desk lip", "ROLIZOE Sliding Under Desk Drawer Organizer"]
       ],
     },
   },
@@ -205,7 +205,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "ROLIZOE is the only pick here that explicitly addresses desk-lip clearance requirements in its listing.",
-      },
+      }
     ],
   },
   {
@@ -213,14 +213,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You have a thicker desktop or want maximum keyboard tray extension: AX WABER ($43.99) fits thicker desks, while VIVO ($49.99) extends furthest from the desk edge.",
+        text: "You have a thicker desktop or want maximum keyboard tray extension: AX WABER (under $45) fits thicker desks, while VIVO (under $50) extends furthest from the desk edge.",
       },
       {
         label: "Save if",
-        text: "You just need basic organized storage for desk supplies: Cedilis ($26.99) covers that need at the lowest price in this comparison.",
-      },
+        text: "You just need basic organized storage for desk supplies: Cedilis (under $30) covers that need at the lowest price in this comparison.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -275,5 +275,5 @@ export const faq = [
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-cable-management-boxes-under-30", title: "Best Cable Management Boxes Under $30" },
-  { href: "/guide/best-vertical-laptop-stands-under-30", title: "Best Vertical Laptop Stands Under $50" },
+  { href: "/guide/best-vertical-laptop-stands-under-30", title: "Best Vertical Laptop Stands Under $50" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "one person office pods";
 export const introParagraphs = [
   "Only two listings in our verified pool explicitly frame themselves around single-occupant use in their title language, \"Solo\" and \"1-2 Person.\" Few single-occupant-specific listings exist in this niche right now, most either don't specify occupancy or target larger groups, so this list is intentionally short rather than padded.",
-  "This guide overlaps closely with our mini portable offices guide, since the same two products are the most compact, solo-oriented options currently verified in this niche, cross-reference both rather than expecting a fully distinct product set.",
+  "This guide overlaps closely with our mini portable offices guide, since the same two products are the most compact, solo-oriented options currently verified in this niche, cross-reference both rather than expecting a fully distinct product set."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -53,7 +53,7 @@ export const products: GuideProduct[] = [
     pros: ["Explicit 1-2 person occupancy range disclosed in the title", "Exact exterior dimensions disclosed (W55 x D48 x H92in)", "Mid-range price relative to the rest of this pool", "No star rating or review count to independently verify against the marketing copy"],
     cons: ["No star rating or review count available from Amazon", "No formal STC/NRC sound-isolation data disclosed", "No ventilation specs disclosed for two-occupant use"],
     bestFor: "Buyers who mostly work solo but want room for an occasional second occupant.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -61,7 +61,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Occupancy language taken directly from titles", description: "Selected only listings that explicitly state solo or 1-2 person occupancy in their title, rather than inferring single-occupant use from dimensions alone." },
   { title: "Disclosed the limited pool size", description: "Confirmed only two of nine verified listings in this niche explicitly target single-occupant use, and disclosed that scarcity rather than padding the list." },
   { title: "Mobility and furniture inclusion compared", description: "Compared wheel/mobility features and included furniture (table, USB ports) between the two qualifying picks." },
-  { title: "Verified listing data only", description: "Used only prices, dimensions, and features actually printed in each Amazon listing, no invented ratings or review counts." },
+  { title: "Verified listing data only", description: "Used only prices, dimensions, and features actually printed in each Amazon listing, no invented ratings or review counts." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -177,11 +177,11 @@ export const faq: FaqItem[] = [
   { q: "How many single-occupant office pods are verified on Amazon right now?", a: "We found only two listings in this niche that explicitly frame themselves around single-occupant use, this is a genuinely limited selection." },
   { q: "What's the difference between the solo pod and the 1-2 person pod?", a: "The solo pod is explicitly marketed for single-occupant use with wheels and built-in furniture, the 1-2 person pod has a wider footprint for an occasional second occupant." },
   { q: "Should I also check the mini portable offices guide?", a: "Yes, it features the same two products from a slightly different compact-sizing angle, cross-reference both." },
-  { q: "Do either of these pods have verified ventilation specs?", a: "One listing mentions \"Silent Ventilation\" as a stated feature, though no CFM or airflow-rate data backs that claim, neither product discloses formal ventilation specs." },
+  { q: "Do either of these pods have verified ventilation specs?", a: "One listing mentions \"Silent Ventilation\" as a stated feature, though no CFM or airflow-rate data backs that claim, neither product discloses formal ventilation specs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-portable-offices", title: "Best Mini Portable Offices (2026)" },
   { href: "/guide/best-small-office-pods", title: "Best Small Office Pods (2026)" },
-  { href: "/guide/best-office-phone-booths-for-home-use", title: "Best Office Phone Booths for Home Use (2026)" },
+  { href: "/guide/best-office-phone-booths-for-home-use", title: "Best Office Phone Booths for Home Use (2026)" }
 ];

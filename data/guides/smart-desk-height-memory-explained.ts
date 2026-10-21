@@ -12,7 +12,7 @@ export const smartDeskHeightMemoryExplainedGuide: Guide = {
     "standing desk saved height settings",
     "multi user desk height presets",
     "desk memory preset not working",
-    "standing desk app control",
+    "standing desk app control"
   ],
   heroImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const smartDeskHeightMemoryExplainedGuide: Guide = {
     "standing-desk-height-chart",
     "sit-stand-ratio-explained",
     "single-motor-vs-dual-motor-standing-desk",
-    "standing-desk-troubleshooting",
+    "standing-desk-troubleshooting"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const smartDeskHeightMemoryExplainedGuide: Guide = {
       question: "Does an app-controlled desk offer more preset flexibility than physical buttons alone?",
       answer:
         "Some app-connected desks allow saving more presets than physical buttons alone would accommodate, plus additional features like usage tracking or standing reminders, though the core height-memory function works similarly to physical button presets either way.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const smartDeskHeightMemoryExplainedGuide: Guide = {
     {
       heading: "Why Power Interruptions Specifically Disrupt This Feature",
       body: `A standing desk's height memory system relies on tracking the actual physical position of the desk's lifting mechanism through internal sensors, when power is interrupted, either through an outage or the desk being unplugged and moved, this internal tracking can lose its calibrated reference point, causing saved presets to become inaccurate or the desk to behave unpredictably when a preset button is pressed, this is why manufacturers include a specific recalibration procedure, resetting this internal reference point, that needs to be performed after any power interruption to restore both accurate height tracking and correctly functioning saved presets.`,
-    },
+    }
   ],
 };

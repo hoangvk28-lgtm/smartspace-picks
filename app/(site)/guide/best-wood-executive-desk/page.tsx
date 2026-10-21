@@ -124,7 +124,7 @@ export default async function BestWoodExecutiveDeskPage() {
     about: [
       { "@type": "Thing", name: "Wood Executive Desk" },
       { "@type": "Thing", name: "Home Office Desk" },
-      { "@type": "Thing", name: "Executive Desk" },
+      { "@type": "Thing", name: "Executive Desk" }
     ],
   };
 
@@ -134,7 +134,7 @@ export default async function BestWoodExecutiveDeskPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Wood Executive Desks", item: `${SITE_URL}/guide/best-wood-executive-desk` },
+      { "@type": "ListItem", position: 3, name: "Best Wood Executive Desks", item: `${SITE_URL}/guide/best-wood-executive-desk` }
     ],
   };
 

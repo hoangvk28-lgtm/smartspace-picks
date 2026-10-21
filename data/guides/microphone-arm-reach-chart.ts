@@ -12,7 +12,7 @@ export const microphoneArmReachChartGuide: Guide = {
     "microphone boom arm length",
     "how far does a mic arm reach",
     "long reach microphone arm",
-    "microphone arm desk depth",
+    "microphone arm desk depth"
   ],
   heroImage: "https://images.unsplash.com/photo-1634041323797-b9fdef9d18f7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1634041323797-b9fdef9d18f7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const microphoneArmReachChartGuide: Guide = {
     "best-long-reach-microphone-arms",
     "best-microphone-arms-for-desks",
     "best-usb-microphone-kits",
-    "best-microphone-arms",
+    "best-microphone-arms"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const microphoneArmReachChartGuide: Guide = {
       question: "Can I mount a boom arm on a desk deeper than the arm's stated reach?",
       answer:
         "You can still mount it, but the mic simply won't reach as far into the desk as a longer arm would, which is fine if you're clamping it near the front edge close to where you sit rather than needing it to extend across a deep desk.",
-    },
+    }
   ],
   sections: [
     {
@@ -79,6 +79,6 @@ These figures assume a seated position roughly 20-28 inches from the desk edge; 
     {
       heading: "When a Longer Arm Isn't Actually Better",
       body: `A longer arm than you need adds more hardware weight at the clamp point, which can make the arm feel less stable or prone to drift compared to a shorter arm properly sized for your desk. Match arm length to your actual measured distance rather than buying the longest available option as a safety margin.`,
-    },
+    }
   ],
 };

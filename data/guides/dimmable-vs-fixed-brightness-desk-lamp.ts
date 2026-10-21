@@ -12,7 +12,7 @@ export const dimmableVsFixedBrightnessDeskLampGuide: Guide = {
     "is dimmable desk lamp worth it",
     "adjustable brightness lamp for desk",
     "fixed brightness lamp limitations",
-    "desk lamp dimmer feature",
+    "desk lamp dimmer feature"
   ],
   heroImage: "https://images.unsplash.com/photo-1560890264-4b92305ee66e?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1560890264-4b92305ee66e?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const dimmableVsFixedBrightnessDeskLampGuide: Guide = {
     "task-lighting-vs-ambient-lighting",
     "desk-lamp-lumens-guide",
     "desk-lamp-kelvin-color-temperature",
-    "monitor-brightness-and-eye-strain",
+    "monitor-brightness-and-eye-strain"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const dimmableVsFixedBrightnessDeskLampGuide: Guide = {
       question: "Can I add a dimmer to an existing fixed brightness lamp?",
       answer:
         "Generally no for most desk lamps, dimming capability needs to be built into the lamp's internal circuitry from manufacturing, an existing fixed-brightness lamp typically can't be retrofitted with dimming without replacing significant internal components.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const dimmableVsFixedBrightnessDeskLampGuide: Guide = {
     {
       heading: "When a Fixed Brightness Lamp Remains a Reasonable Choice",
       body: `If your desk lighting needs are simple and consistent, always used at the same time of day for similar tasks, a fixed brightness lamp set at an appropriate level handles this reliably without the added cost or minor complexity of a dimming feature you might rarely adjust anyway. Reserve the dimmable lamp investment for situations where you genuinely anticipate needing different brightness levels across varied use.`,
-    },
+    }
   ],
 };

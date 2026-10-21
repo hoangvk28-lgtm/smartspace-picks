@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "L-Shaped Modern Large Wooden Commercial Reception Desk with Counter & Shelves, Front Reception and is built around modern & versatile, positioning it for under 700 buyers specifically.\n\nALL-IN-ONE STORAGE is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 700, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["MODERN & VERSATILE","ALL-IN-ONE STORAGE","DUAL SIZE"],
     pros: ["MODERN & VERSATILE, confirmed directly in the listing's own spec details","ALL-IN-ONE STORAGE, confirmed directly in the listing's own spec details","DUAL SIZE, confirmed directly in the listing's own spec details"],
-    cons: ["At $459.00, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $500, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 700",
   },
   {
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     description: "Reception Desk with Counter, Upgraded 47\" Front Desk with Cable Grommet Reception Room Table and is built around sleek & elegant modern design, positioning it for under 700 buyers specifically.\n\nDurable & Easy-to-Clean Build is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 700, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Sleek & Elegant Modern Design","Durable & Easy-to-Clean Build","Multi-Functional Workspace & Storage"],
     pros: ["Sleek & Elegant Modern Design, confirmed directly in the listing's own spec details","Durable & Easy-to-Clean Build, confirmed directly in the listing's own spec details","Multi-Functional Workspace & Storage, confirmed directly in the listing's own spec details"],
-    cons: ["At $599.99, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $600, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 700",
   },
   {
@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "42.1 Inches Reception Desk,Fluted Round Corner Modern Reception Table,Front Counter Table,for measures 42.1 Inch and is built around modern & professional appearance, positioning it for under 700 buyers specifically.\n\nRound Corner is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 700, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["42.1 Inch dimensions","Modern & Professional Appearance","Round Corner"],
     pros: ["Modern & Professional Appearance, confirmed directly in the listing's own spec details","Round Corner, confirmed directly in the listing's own spec details","Solid Construction, confirmed directly in the listing's own spec details"],
-    cons: ["At $159.99, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $160, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 700",
   },
   {

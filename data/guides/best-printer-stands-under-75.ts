@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This stand's 5 different height positions for its shelves let you customize vertical spacing for equipment of varying sizes, the most granular adjustability in this comparison. Its integrated power outlet with a 6.6 ft power cord, the longest reach in this tier, lets you plug in printers, scanners, or shredders directly without hunting for extra outlets.\n\nCompared to the niffgaff pick below, this one adds a reinforced steel frame supporting up to 300 lbs total weight, substantially higher than most picks in this comparison. Two lockable wheels keep the cart firmly in place during printing, while four durable casters allow easy movement between desks or rooms.\n\nBest for buyers who want the most height adjustability with the highest weight capacity and longest power cord reach.",
     specs: ["300 lb total capacity, 5 height positions", "Integrated power outlet, 6.6ft cord", "4 casters, 2 lockable"],
     pros: ["5 height positions provide the most shelf adjustability in this tier", "Highest weight capacity in this comparison at 300 lbs", "Longest power cord reach at 6.6 feet"],
-    cons: ["Slightly over this tier's stated ceiling at $79.90", "Most expensive pick in this comparison"],
+    cons: ["Slightly over this tier's stated ceiling at under $80", "Most expensive pick in this comparison"],
     bestFor: "buyers who want maximum adjustability with the highest weight capacity",
   },
   {
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Maximum adjustability with the highest weight capacity", "VECELO Adjustable Large Printer Stand with Power Outlet"],
         ["File cabinet aesthetic with high capacity at a lower price", "VECELO Large Printer Stand, Rolling File Cabinet Style"],
         ["The largest desktop surface for bulky equipment", "niffgaff Mobile Printer Stand with Large Desktop"],
-        ["Adjustable shelf height and a built-in outlet at the lowest price", "3 Tier Large Printer Stand with Power Outlet and Storage"],
+        ["Adjustable shelf height and a built-in outlet at the lowest price", "3 Tier Large Printer Stand with Power Outlet and Storage"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $63", "3 Tier Large with Power Outlet ($62.99)"],
-        ["Under $65", "VECELO File Cabinet Style ($64.99)"],
-        ["Under $70", "niffgaff ($69.99)"],
-        ["Under $80", "VECELO Adjustable ($79.90)"],
+        ["Under $63", "3 Tier Large with Power Outlet (under $70)"],
+        ["Under $65", "VECELO File Cabinet Style (under $70)"],
+        ["Under $70", "niffgaff (under $70)"],
+        ["Under $80", "VECELO Adjustable (under $80)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "5-Position Adjustable Shelving vs Fixed Shelf Design",
     cards: [
       { label: "5-position adjustable (VECELO Adjustable, 3 Tier Large)", text: "Lets you customize shelf spacing for varying equipment sizes, worth it if your equipment sizes change over time." },
-      { label: "Fixed shelf design (VECELO File Cabinet, niffgaff)", text: "Offers a simpler, often sturdier structure at a lower price, better if your equipment sizes are already known and stable." },
+      { label: "Fixed shelf design (VECELO File Cabinet, niffgaff)", text: "Offers a simpler, often sturdier structure at a lower price, better if your equipment sizes are already known and stable." }
     ],
     note: "If you anticipate storing different-sized equipment over time or want maximum flexibility, the adjustable-shelf picks are worth the investment. If your current equipment fits well and won't change, a fixed-shelf pick delivers solid value at a lower price.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Multiple outlets plus USB charging", "VECELO Adjustable or VECELO File Cabinet Style"],
         ["Basic single outlet charging", "3 Tier Large with Power Outlet"],
-        ["No built-in power needed", "niffgaff"],
+        ["No built-in power needed", "niffgaff"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Home Office With Large, Bulky Equipment Specifically",
     cards: [
       { label: "Look for", text: "An explicitly marketed extra-large desktop surface with stated stability for bulky all-in-one machines, not just a standard-sized shelf labeled as fitting 'most printers'." },
-      { label: "In this comparison", text: "The niffgaff pick's extra-large desktop is specifically marketed as stably supporting even bulky printers, scanners, or all-in-one machines without workspace crowding." },
+      { label: "In this comparison", text: "The niffgaff pick's extra-large desktop is specifically marketed as stably supporting even bulky printers, scanners, or all-in-one machines without workspace crowding." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want maximum shelf adjustability combined with the highest weight capacity and longest power cord, where the VECELO Adjustable pick delivers all three at the top of this tier." },
-      { label: "Save if", text: "You just want a built-in outlet with basic shelf adjustability, where the 3 Tier Large pick covers that for about $17 less." },
+      { label: "Save if", text: "You just want a built-in outlet with basic shelf adjustability, where the 3 Tier Large pick covers that for about $17 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

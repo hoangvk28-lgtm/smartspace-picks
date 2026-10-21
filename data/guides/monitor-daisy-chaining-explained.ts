@@ -12,7 +12,7 @@ export const monitorDaisyChainingExplainedGuide: Guide = {
     "displayport daisy chain monitors",
     "how does monitor daisy chain work",
     "daisy chain vs separate cables",
-    "mst hub monitor setup",
+    "mst hub monitor setup"
   ],
   heroImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const monitorDaisyChainingExplainedGuide: Guide = {
     "triple-monitor-setup-explained",
     "monitor-arm-desk-clamp-vs-grommet",
     "cable-management-types-explained",
-    "thunderbolt-vs-usb-c-explained",
+    "thunderbolt-vs-usb-c-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const monitorDaisyChainingExplainedGuide: Guide = {
       question: "Do I need a specific GPU feature to daisy chain monitors?",
       answer:
         "Your GPU's DisplayPort output needs to support MST for daisy chaining to work, most modern dedicated graphics cards support this, but check your specific GPU's documentation to confirm before planning a daisy chain setup around it.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const monitorDaisyChainingExplainedGuide: Guide = {
     {
       heading: "Why Checking MST Support Specifically Matters Before Planning a Setup",
       body: `Not every monitor with a DisplayPort connection actually supports daisy chaining, since this requires the specific Multi-Stream Transport feature to be built into the monitor's DisplayPort implementation, a monitor can have a perfectly functional DisplayPort input and output while still lacking MST support for chaining, checking your specific monitor model's documentation for explicit MST or daisy chain support, rather than assuming any DisplayPort-equipped monitor works this way, prevents planning an entire cable management approach around a feature your actual hardware doesn't support.`,
-    },
+    }
   ],
 };

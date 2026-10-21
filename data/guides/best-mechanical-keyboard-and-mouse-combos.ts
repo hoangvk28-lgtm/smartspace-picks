@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mechanical keyboard and mouse";
 export const introParagraphs = [
   "Search for a mechanical keyboard and mouse combo and most results are not what the name promises. True mechanical keyboard and mouse pairs, where the keyboard itself uses real mechanical switches and comes matched with a mouse, are genuinely rare on the market. The far more common product is a membrane or scissor-switch keyboard bundled with a mouse and marketed under generic combo language, and this guide labels each pick honestly rather than stretching the truth to fit the theme.",
-  "Below are 8 keyboard and mouse combos we evaluated on real switch type, mouse specs, and value, based on the actual Amazon listing details for each product rather than the marketing copy, so you know exactly what you're buying before checking out.",
+  "Below are 8 keyboard and mouse combos we evaluated on real switch type, mouse specs, and value, based on the actual Amazon listing details for each product rather than the marketing copy, so you know exactly what you're buying before checking out."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -56,18 +56,18 @@ export const products: GuideProduct[] = [
       "Wireless keyboard, Bluetooth connection",
       "Typewriter-style mechanical keyboard switches",
       "Compact Bluetooth optical mouse included",
-      "Emoji shortcut keys",
+      "Emoji shortcut keys"
     ],
     pros: [
       "The only genuinely mechanical keyboard in this combo list",
       "Compact, portable mouse included",
       "Distinctive typewriter-style key feel",
-      "Fun emoji shortcut row for casual use",
+      "Fun emoji shortcut row for casual use"
     ],
     cons: [
       "The mouse is a standard optical mouse, not mechanical",
       "Compact layout skips a number pad",
-      "More suited to casual or creative use than serious productivity",
+      "More suited to casual or creative use than serious productivity"
     ],
     bestFor: "Buyers who specifically want a keyboard with genuine mechanical switches paired with a mouse",
   },
@@ -87,18 +87,18 @@ export const products: GuideProduct[] = [
       "108-key full layout with 4 extra hotkeys",
       "Hot-swappable red mechanical switches",
       "Sound-absorbing foam inside the case",
-      "2 sets of mixed-color keycaps included",
+      "2 sets of mixed-color keycaps included"
     ],
     pros: [
       "Genuinely mechanical with hot-swappable switches",
       "Sound-absorbing foam included from the factory",
       "Very affordable for a hot-swap mechanical board",
-      "Two keycap sets included for customization",
+      "Two keycap sets included for customization"
     ],
     cons: [
       "No mouse included in the current listing",
       "Wired only, no wireless option",
-      "RGB and extra hotkeys add clutter some office users won't want",
+      "RGB and extra hotkeys add clutter some office users won't want"
     ],
     bestFor: "Buyers who want a true mechanical keyboard and are willing to pick their own mouse separately",
   },
@@ -118,18 +118,18 @@ export const products: GuideProduct[] = [
       "Full-size hot-swappable mechanical keyboard",
       "Red linear mechanical switches",
       "Double-shot PBT keycaps",
-      "Anti-ghosting, 11 backlit lighting modes",
+      "Anti-ghosting, 11 backlit lighting modes"
     ],
     pros: [
       "Cheapest genuinely mechanical pick in this list",
       "Hot-swappable switches for future customization",
       "Durable double-shot PBT keycaps",
-      "Anti-ghosting for accurate multi-key input",
+      "Anti-ghosting for accurate multi-key input"
     ],
     cons: [
       "No mouse included in the current listing",
       "Wired only",
-      "RGB modes are more gaming-oriented than office-focused",
+      "RGB modes are more gaming-oriented than office-focused"
     ],
     bestFor: "Budget buyers who want a genuinely mechanical keyboard and will source their own mouse",
   },
@@ -149,18 +149,18 @@ export const products: GuideProduct[] = [
       "Full-size low-profile scissor-switch keyboard",
       "Precision performance mouse included",
       "Wireless, multi-device Bluetooth or Logi Bolt receiver",
-      "Backlit keyboard keys",
+      "Backlit keyboard keys"
     ],
     pros: [
       "Excellent build quality and mouse precision",
       "Backlit keyboard for low-light offices",
       "Multi-device wireless switching",
-      "Strong ergonomics for all-day desk use",
+      "Strong ergonomics for all-day desk use"
     ],
     cons: [
       "Not a mechanical keyboard despite the mechanical combo search intent",
       "Highest price in this list by a wide margin",
-      "Overkill for buyers who only need basic typing and clicking",
+      "Overkill for buyers who only need basic typing and clicking"
     ],
     bestFor: "Buyers who want a premium wireless combo and are fine trading mechanical switches for build quality",
   },
@@ -180,18 +180,18 @@ export const products: GuideProduct[] = [
       "Full-size membrane keyboard with number pad",
       "Full-size wireless mouse included",
       "Single USB receiver for both devices",
-      "Spill-resistant keyboard design",
+      "Spill-resistant keyboard design"
     ],
     pros: [
       "Simple single-receiver wireless setup",
       "Spill-resistant keyboard construction",
       "Comfortable full-size layout with number pad",
-      "Reliable, well-established Logitech combo",
+      "Reliable, well-established Logitech combo"
     ],
     cons: [
       "Not a mechanical keyboard",
       "No backlighting",
-      "Basic mouse with no advanced DPI or button customization",
+      "Basic mouse with no advanced DPI or button customization"
     ],
     bestFor: "Buyers who want a dependable full-size wireless combo without paying for mechanical switches",
   },
@@ -211,18 +211,18 @@ export const products: GuideProduct[] = [
       "Full-size layout with number pad",
       "SilentTouch quiet keyboard and mouse technology",
       "Single USB receiver for both devices",
-      "Membrane keyboard switches, not mechanical",
+      "Membrane keyboard switches, not mechanical"
     ],
     pros: [
       "Genuinely quiet keyboard and mouse clicks",
       "Very affordable at under $33",
       "Full-size layout with number pad",
-      "Simple single-receiver setup",
+      "Simple single-receiver setup"
     ],
     cons: [
       "Not a mechanical keyboard",
       "No backlighting",
-      "Basic mouse with fixed DPI",
+      "Basic mouse with fixed DPI"
     ],
     bestFor: "Buyers in a shared or open-plan office who prioritize quiet clicks over mechanical feel",
   },
@@ -242,18 +242,18 @@ export const products: GuideProduct[] = [
       "Compact membrane keyboard, not mechanical",
       "Bluetooth connection, no USB receiver needed",
       "Compact mouse included",
-      "Multi-device Bluetooth pairing",
+      "Multi-device Bluetooth pairing"
     ],
     pros: [
       "Bluetooth connection frees up a USB port",
       "Very low price",
       "Multi-device pairing support",
-      "Compact footprint for a small desk",
+      "Compact footprint for a small desk"
     ],
     cons: [
       "Not a mechanical keyboard",
       "Bluetooth introduces slightly more input latency than a 2.4GHz receiver",
-      "Basic mouse with no advanced features",
+      "Basic mouse with no advanced features"
     ],
     bestFor: "Budget buyers who want a Bluetooth combo and don't have a spare USB port to give up",
   },
@@ -273,21 +273,21 @@ export const products: GuideProduct[] = [
       "Full-size membrane keyboard with number pad",
       "Full-size mouse included",
       "Single 2.4GHz USB receiver",
-      "Spill-resistant design",
+      "Spill-resistant design"
     ],
     pros: [
       "Lowest price in this list",
       "Reliable single-receiver 2.4GHz connection",
       "Full-size layout with number pad",
-      "Spill-resistant keyboard construction",
+      "Spill-resistant keyboard construction"
     ],
     cons: [
       "Not a mechanical keyboard",
       "No backlighting or advanced features",
-      "Basic mouse with fixed DPI",
+      "Basic mouse with fixed DPI"
     ],
     bestFor: "Buyers who want the cheapest reliable wireless combo for a secondary or guest desk",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -315,7 +315,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Compared build quality, features, and switch type against price, from a budget membrane combo to a premium performance combo.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -454,11 +454,11 @@ export const faq: FaqItem[] = [
   {
     q: "If I want a real mechanical keyboard and a genuinely good mouse, what should I buy?",
     a: "Buy them separately rather than searching for a perfect matched combo. A mechanical keyboard like the Redragon K668 paired with a mouse chosen on its own merits will usually outperform a bundled combo on both fronts, since bundled mice are rarely built to the same standard as the keyboard they're paired with.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mechanical-keyboards-for-quiet-typing-office", title: "Best Mechanical Keyboards for Quiet Typing and Office Use (2026)" },
   { href: "/guide/best-mechanical-keyboards-for-mac", title: "Best Mechanical Keyboards for Mac (2026)" },
-  { href: "/guide/best-mechanical-keyboard-under-100", title: "Best Mechanical Keyboard Under $100 (2026)" },
+  { href: "/guide/best-mechanical-keyboard-under-100", title: "Best Mechanical Keyboard Under $100 (2026)" }
 ];

@@ -5,7 +5,7 @@ export const metaDescription = "5 USB-C KVM switches we evaluated, with a note t
 export const mainKeyword = "usb-c kvm switch";
 export const introParagraphs = [
   "USB-C connectivity on a switch doesn't automatically mean it carries video signal, some USB-C ports are data or power delivery only, worth confirming the specific USB-C port supports DisplayPort Alt Mode video before assuming any USB-C KVM switch handles your laptop's single-cable video output.",
-  "A USB-C KVM switch often doubles as a basic docking solution given the connector's versatility, worth checking whether power delivery is included alongside video and USB switching if you want single-cable laptop charging through the switch.",
+  "A USB-C KVM switch often doubles as a basic docking solution given the connector's versatility, worth checking whether power delivery is included alongside video and USB switching if you want single-cable laptop charging through the switch."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     badge: "Best USB-C KVM Switch Overall",
     name: "KVM Switch 1 Monitors 2 Computers 4K@60Hz USB C HDMI KVM Switch 2 Port for 1 Laptop 1 Desktop",
     price: "$55.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41BxNjK7PrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GY4R958W?tag=deskfinds0d-20",
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     badge: "Best USB-C Docking-Style KVM Pick",
     name: "KVM Switch 3 Monitors 2 Computers 4K@120Hz Displayport and 4K@60Hz HDMI USB C KVM Switch Dock",
     price: "$229.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/414CqbIpl1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GX1D9MCB?tag=deskfinds0d-20",
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     badge: "Best Thunderbolt USB-C KVM Pick",
     name: "Thunderbolt 4 KVM Switch 3 Monitors 2 Laptops 4K@60Hz, Displaylink USB C Docking Station 3 Monitor",
     price: "$295.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/419nisVPE2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVMKWZRP?tag=deskfinds0d-20",
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     badge: "Best Value USB-C Docking KVM Pick",
     name: "AV Access iDock P10 KVM Docking Station 2 Monitors 2 PC, GbE, EDID, 65W PD",
     price: "$179.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41Du+XSAPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCXN5P3T?tag=deskfinds0d-20",
@@ -89,7 +89,7 @@ export const products: GuideProduct[] = [
     badge: "Best USB-C Pick for Laptop and Desktop",
     name: "AV Access Dual Monitor KVM Docking Station for Laptop & Desktop (iDock C10)",
     price: "$225.61",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31KfwfvqAqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CW2JGRN4?tag=deskfinds0d-20",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "USB-C video support verified rather than assumed universal", description: "Verified that USB-C ports explicitly support DisplayPort Alt Mode video, since not every USB-C connector on a switch carries video signal." },
   { title: "Power delivery inclusion checked alongside video and USB switching", description: "Checked whether power delivery is explicitly included alongside video and USB switching, since a USB-C KVM switch often doubles as a basic docking solution." },
   { title: "Thunderbolt versus standard USB-C bandwidth distinguished", description: "Distinguished Thunderbolt 4 bandwidth from standard USB-C for buyers with demanding multi-monitor setups needing maximum performance." },
-  { title: "Total power budget flagged for shared charging and peripheral loads", description: "Flagged that a docking-style USB-C KVM switch's total power budget is shared between laptop charging and peripheral power." },
+  { title: "Total power budget flagged for shared charging and peripheral loads", description: "Flagged that a docking-style USB-C KVM switch's total power budget is shared between laptop charging and peripheral power." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -223,11 +223,11 @@ export const faq: FaqItem[] = [
   { q: "Is Thunderbolt necessary for a USB-C KVM switch?", a: "Only if your laptop supports it, Thunderbolt 4 offers meaningfully more bandwidth but doesn't benefit laptops without Thunderbolt support." },
   { q: "Does a USB-C KVM switch's power delivery affect my peripherals?", a: "Yes, the total power budget is shared between laptop charging and connected peripherals, verify this against your full setup." },
   { q: "Which pick in this comparison is the best overall choice?", a: "Buyers with a laptop-desktop pairing wanting single-cable USB-C video connectivity" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers with a laptop-desktop pairing wanting single-cable USB-C video connectivity At $55.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers with a laptop-desktop pairing wanting single-cable USB-C video connectivity At under $60, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-thunderbolt-kvm-switches", title: "Best Thunderbolt KVM Switches (2026)" },
   { href: "/guide/best-usb-kvm-switches", title: "Best USB KVM Switches (2026)" },
-  { href: "/guide/best-kvm-docking-stations", title: "Best KVM Docking Stations (2026)" },
+  { href: "/guide/best-kvm-docking-stations", title: "Best KVM Docking Stations (2026)" }
 ];

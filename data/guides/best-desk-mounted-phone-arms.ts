@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desk-mounted phone arms";
 export const introParagraphs = [
   "\"Desk-mounted\" specifically means a clamp or screw-base arm that attaches to a desk edge, as opposed to a floor stand or wall bracket. This overlaps substantially with our general best desk phone arms guide, since nearly every arm in that category is already desk-clamped by default.",
-  "This narrower guide exists for buyers specifically comparing clamp mounting hardware. The picks below are the same clamp-based arms, evaluated here with more focus on desk-edge compatibility across glass, wood, and standing-desk surfaces.",
+  "This narrower guide exists for buyers specifically comparing clamp mounting hardware. The picks below are the same clamp-based arms, evaluated here with more focus on desk-edge compatibility across glass, wood, and standing-desk surfaces."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Desk edge clamp range", description: "We compared each clamp's opening range against common desk thicknesses, including thicker standing-desk tops." },
   { title: "Desk surface protection", description: "We checked for silicone, EVA, or rubber padding at clamp contact points to reduce marking risk on wood, glass, or laminate desks." },
   { title: "Hold security under adjustment", description: "We compared spring-based versus friction-locked clamp mechanisms for how securely they hold the desk edge over repeated repositioning." },
-  { title: "Overlap with our general phone arm guide", description: "We confirmed which picks are genuinely desk-clamp-specific versus multi-surface arms, to keep this guide's focus distinct." },
+  { title: "Overlap with our general phone arm guide", description: "We confirmed which picks are genuinely desk-clamp-specific versus multi-surface arms, to keep this guide's focus distinct." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -229,11 +229,11 @@ export const faq: FaqItem[] = [
   { q: "Will the clamp fit a thick standing-desk top?", a: "The MAGIPEA pick has the widest clamp opening in this cluster at 3 inches, making it the best fit for thicker standing-desk edges." },
   { q: "Can I use these arms on a glass desk?", a: "Yes, as long as the clamp includes protective padding, which all five picks here do. Avoid over-tightening a metal clamp directly against glass without the padding in place." },
   { q: "Do I need a friction-locked clamp instead of a spring clamp?", a: "Only if you reposition the arm frequently or mount a heavier device. For occasional phone viewing, a spring clamp like the SAIJI or MAGIPEA pick holds fine." },
-  { q: "Which pick is best if I want to move the arm between my desk and bed?", a: "The LISEN pick's bi-directional clamp base is specifically designed for multi-surface use, including desks, bed frames, and nightstands." },
+  { q: "Which pick is best if I want to move the arm between my desk and bed?", a: "The LISEN pick's bi-directional clamp base is specifically designed for multi-surface use, including desks, bed frames, and nightstands." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-phone-arms", title: "Best Desk Phone Arms (2026)" },
   { href: "/guide/best-clamp-on-phone-arms-for-desks", title: "Best Clamp-On Phone Arms for Desks (2026)" },
-  { href: "/guide/best-flexible-gooseneck-phone-arms", title: "Best Flexible Gooseneck Phone Arms (2026)" },
+  { href: "/guide/best-flexible-gooseneck-phone-arms", title: "Best Flexible Gooseneck Phone Arms (2026)" }
 ];

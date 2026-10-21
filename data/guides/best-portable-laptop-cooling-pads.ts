@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable laptop cooling pads";
 export const introParagraphs = [
   "Cooling pads are already a portable-ish accessory category by default, so a guide specifically about portability only adds value when it verifies true kit weight, collapsed thickness, cable management, and setup time, rather than repeating the general buying advice that applies to any cooling pad.",
-  "This guide compares seven pads based on stated weight, slim-profile claims, and portability features drawn from their real specifications, prioritizing products genuinely built or marketed for travel over ones that simply happen to be small.",
+  "This guide compares seven pads based on stated weight, slim-profile claims, and portability features drawn from their real specifications, prioritizing products genuinely built or marketed for travel over ones that simply happen to be small."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "9 min";
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine portability language", description: "We prioritized products whose own listings explicitly use words like slim, portable, or travel, over ones that are simply small by coincidence." },
   { title: "True kit weight and thickness", description: "We compared stated weight and slim-profile claims to judge real travel-friendliness beyond a vague size description." },
   { title: "Cable and setup simplicity", description: "We considered whether the product needs an external power adapter or works directly from a laptop's USB port, simpler setup travels better." },
-  { title: "Fan count vs bulk tradeoff", description: "We weighed higher fan counts against the added bulk they introduce, since a genuinely portable pad benefits from staying reasonably compact." },
+  { title: "Fan count vs bulk tradeoff", description: "We weighed higher fan counts against the added bulk they introduce, since a genuinely portable pad benefits from staying reasonably compact." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -275,11 +275,11 @@ export const faq: FaqItem[] = [
   { q: "Do I need a case to carry a cooling pad?", a: "None of the picks in this guide include a dedicated case. A slim pad can generally slide into a laptop bag's front pocket without one, but a thin sleeve adds protection if you travel often." },
   { q: "Is a lower fan count better for travel?", a: "Generally yes for bulk and weight, though it trades off some cooling power. The single or dual-fan picks in this guide travel lighter than the 5 or 12-fan options." },
   { q: "Can I use a portable cooling pad as my main desk pad too?", a: "Yes, the picks in this guide work fine at a desk as well, portability doesn't come at the cost of desk performance." },
-  { q: "Does USB power make a pad more travel-friendly?", a: "Yes. A pad that draws power directly from your laptop's USB port avoids needing to carry a separate power adapter and cable." },
+  { q: "Does USB power make a pad more travel-friendly?", a: "Yes. A pad that draws power directly from your laptop's USB port avoids needing to carry a separate power adapter and cable." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-slim-laptop-cooling-pads", title: "Best Slim Laptop Cooling Pads (2026)" },
   { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-foldable-laptop-cooling-pads", title: "Best Foldable Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-foldable-laptop-cooling-pads", title: "Best Foldable Laptop Cooling Pads (2026)" }
 ];

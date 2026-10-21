@@ -9,6 +9,8 @@ on:
 
 jobs:
   ping-indexnow:
+    # Mass copy cleanups (e.g. sitewide price/rating removal) shouldn't resubmit thousands of URLs
+    if: ${{ !contains(github.event.head_commit.message, '[skip-indexnow]') }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout with history

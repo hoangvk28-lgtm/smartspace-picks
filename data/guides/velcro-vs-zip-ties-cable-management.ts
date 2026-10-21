@@ -12,7 +12,7 @@ export const velcroVsZipTiesCableManagementGuide: Guide = {
     "velcro cable ties vs zip ties",
     "reusable cable ties for desk",
     "best cable tie for frequent rearranging",
-    "zip tie cable damage",
+    "zip tie cable damage"
   ],
   heroImage: "https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const velcroVsZipTiesCableManagementGuide: Guide = {
     "cable-management-types-explained",
     "standing-desk-cable-management",
     "surge-protector-joule-rating-explained",
-    "cable-sleeve-size-chart",
+    "cable-sleeve-size-chart"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const velcroVsZipTiesCableManagementGuide: Guide = {
       question: "Can I use both zip ties and velcro in the same setup?",
       answer:
         "Yes, many people use zip ties for permanent, rarely-touched cable runs (like behind a desk against a wall) and velcro for cables near frequently accessed areas or devices likely to be moved or swapped, combining both based on each cable's actual situation.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const velcroVsZipTiesCableManagementGuide: Guide = {
     {
       heading: "When Zip Ties' Extra Security Is Actually the Better Choice",
       body: `For cable runs that genuinely won't need adjustment, like a permanent connection behind a desk running along a wall or through a cable channel, zip ties' more secure, tamper-resistant hold is a genuine advantage, since there's no risk of the tie loosening or being accidentally opened over time the way velcro theoretically could be. Reserve zip ties for these truly fixed situations and use velcro for anything more likely to need future adjustment.`,
-    },
+    }
   ],
 };

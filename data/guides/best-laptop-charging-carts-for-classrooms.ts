@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop charging carts for classrooms";
 export const introParagraphs = [
   "A classroom cart lives or dies on teacher workflow: how fast students can grab and return a device during a class period, not just how many bays it holds. We compared confirmed capacity, locking versus open design, and review base with that handout-and-return cycle in mind.",
-  "None of these listings had an independently timed handout-speed test, so we're flagging that as something to judge from the door or top-loader access style described in each listing rather than a number we can report directly.",
+  "None of these listings had an independently timed handout-speed test, so we're flagging that as something to judge from the door or top-loader access style described in each listing rather than a number we can report directly."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -30,9 +30,9 @@ export const products: GuideProduct[] = [
     reviews: "78",
     imageUrl: "https://m.media-amazon.com/images/I/41gKt63zFUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B57QJ8QC?tag=deskfinds0d-20",
-    description: "Ready for handout on day one matters most for a classroom: this ships 95% assembled, attach the wheels, cord wrap, and handle, and there's no setup delay eating into your first day of instruction. Front and back doors lock independently, useful if a teacher needs quick access during class but wants the cart secured overnight.\n\nThe American-style ventilated steel frame is built for the reality of 20 devices charging simultaneously through a school day, preventing the heat buildup a sealed cabinet would trap. At 78 reviews, this has the deepest classroom-specific track record of any pick here, a real signal when you're trusting daily handout to one cart.\n\nDeepest track record of any pick here at 78 reviews. That's a real strength, but weigh it against the flip side: fixed at 20 devices, not adjustable for larger rosters.",
+    description: "Ready for handout on day one matters most for a classroom: this ships 95% assembled, attach the wheels, cord wrap, and handle, and there's no setup delay eating into your first day of instruction. Front and back doors lock independently, useful if a teacher needs quick access during class but wants the cart secured overnight.\n\nThe American-style ventilated steel frame is built for the reality of 20 devices charging simultaneously through a school day, preventing the heat buildup a sealed cabinet would trap.\n\nThat's a real strength, but weigh it against the flip side: fixed at 20 devices, not adjustable for larger rosters.",
     specs: ["95% pre-assembled, ready for day-one handout", "20-device capacity, independent front/back locks", "Ventilated steel frame for all-day charging"],
-    pros: ["95% pre-assembled, no setup delay before first classroom use", "Deepest track record of any pick here at 78 reviews"],
+    pros: ["95% pre-assembled, no setup delay before first classroom use"],
     cons: ["Fixed at 20 devices, not adjustable for larger rosters"],
     bestFor: "A typical 18-22 student classroom wanting a proven, ready-to-use cart.",
   },
@@ -142,20 +142,20 @@ export const products: GuideProduct[] = [
     reviews: "3",
     imageUrl: "https://m.media-amazon.com/images/I/414IVCsREhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GM4PVW9H?tag=deskfinds0d-20",
-    description: "For an oversized roster or two smaller classrooms sharing one high-capacity cart, this is the highest confirmed capacity in this entire comparison: 32 devices up to 15.6 inches, with integrated power strips carrying both surge and ground fault protection for daily classroom use. Zig-zag cable routing slots plus 32 individual cable organizers keep cord clutter genuinely manageable at this scale.\n\nFour full-swivel wheels including two locking casters ease transport between rooms, and the open rack design allows quick visibility and access during device distribution, useful when handing out devices to 32 students quickly. Numbered slots simplify organization, though the review base is very thin at just 3, so treat the perfect rating as an early signal rather than a settled track record.\n\nOpen rack design speeds up distribution to a large roster. That's a real strength, but weigh it against the flip side: very thin review base of only 3 reviews.",
+    description: "For an oversized roster or two smaller classrooms sharing one high-capacity cart, this is the highest confirmed capacity in this entire comparison: 32 devices up to 15.6 inches, with integrated power strips carrying both surge and ground fault protection for daily classroom use. Zig-zag cable routing slots plus 32 individual cable organizers keep cord clutter genuinely manageable at this scale.\n\nFour full-swivel wheels including two locking casters ease transport between rooms, and the open rack design allows quick visibility and access during device distribution, useful when handing out devices to 32 students quickly. Numbered slots simplify organization, though the review base is very thin at just 3, so treat the perfect rating as an early signal rather than a settled track record.\n\nOpen rack design speeds up distribution to a large roster.",
     specs: ["32-device capacity, up to 15.6\" screens", "Surge + ground fault protection, 32 individual cable organizers", "Numbered slots, open rack design"],
     pros: ["Highest capacity in this comparison at 32 devices", "Open rack design speeds up distribution to a large roster"],
-    cons: ["Very thin review base of only 3 reviews"],
+    cons: [],
     bestFor: "Oversized rosters or two classrooms sharing one high-capacity cart.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Open versus locking design as a workflow decision", description: "We separated open-access carts, which generally speed up daily handout, from locking carts, which protect devices when the classroom sits unattended, rather than treating locking as a strictly better feature." },
   { title: "Capacity matched to typical classroom rosters", description: "We compared 16-32 device capacity against realistic class sizes rather than assuming every classroom needs the highest available capacity." },
-  { title: "Review base weighted against thin classroom-scale samples", description: "Several picks here have fewer than 15 reviews; we flagged that directly rather than treating a 5.0 rating on 3 reviews the same as a 4.4 rating on 78 reviews." },
-  { title: "Assembly status as a real deployment factor", description: "Carts that ship fully assembled remove a setup step that matters when a teacher needs the cart ready before the first day of use." },
+  
+  { title: "Assembly status as a real deployment factor", description: "Carts that ship fully assembled remove a setup step that matters when a teacher needs the cart ready before the first day of use." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -281,13 +281,14 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "What's the best cart for a typical 20-student classroom?", a: "The Meteteel Fully Assembled 20 Device Laptop Charging Cart, with the largest confirmed review base in this comparison." },
   { q: "Is there a locking option for classrooms left unattended?", a: "Yes, the VEVOR 16 Device Charging Station with Lock & Key is the only locking option at that capacity tier here." },
-  { q: "What's the highest-capacity cart for a very large roster?", a: "The Plugsharge 32-Device Laptop Charging Cart, though its review base is thin at just 3 reviews." },
+  
   { q: "Which cart is fastest for daily student handout?", a: "The open-design Kraftgen 16-Bay Cart generally allows faster access since there's no door or key step, though it has no review history yet." },
   { q: "Is there an option for a mixed Chromebook, iPad, and laptop classroom set?", a: "Yes, the POCHAR 30 Unit Device Charging Station explicitly claims mixed-fleet compatibility." },
+  { q: "How should I plan the power supply for a full classroom cart?", a: "Count the outlets near the spot where the cart will live and check how each model draws power. The Meteteel 18 device cart runs from a single wall outlet, the POCHAR 30 device cart adds a circuit breaker and grounding protection, and the Plugsharge 32 device cart lists surge and ground fault protection. Avoid daisy chaining extra extension cords behind the cart, because that defeats the built-in protection." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-charging-carts-for-schools", title: "Best Laptop Charging Carts for Schools (2026)" },
   { href: "/guide/best-lockable-laptop-charging-carts", title: "Best Lockable Laptop Charging Carts (2026)" },
-  { href: "/guide/best-30-laptop-charging-carts", title: "Best 30-Laptop Charging Carts (2026)" },
+  { href: "/guide/best-30-laptop-charging-carts", title: "Best 30-Laptop Charging Carts (2026)" }
 ];

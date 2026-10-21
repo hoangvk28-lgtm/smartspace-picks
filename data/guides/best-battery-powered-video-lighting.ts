@@ -5,7 +5,7 @@ export const metaDescription = "5 battery-powered video lights we evaluated, wit
 export const mainKeyword = "battery powered video lighting";
 export const introParagraphs = [
   "A battery-powered light's stated runtime is usually measured at a low or medium brightness setting, running at full brightness for a demanding video call will drain the battery notably faster than the headline runtime figure suggests.",
-  "Battery capacity (in mAh) is a more objective comparison point across brands than a stated 'hours of runtime' claim alone, since runtime depends heavily on what brightness level was used for that measurement.",
+  "Battery capacity (in mAh) is a more objective comparison point across brands than a stated 'hours of runtime' claim alone, since runtime depends heavily on what brightness level was used for that measurement."
 ];
 export const lastUpdated = "2026-07-30";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Battery-Powered Light Overall",
     name: "ALTSON 60 LED Portable Selfie Light Video Conference Lighting with Clip & Camera Tripod Adapter Rechargeable 2200mAh CRI 97+, 3 Light Modes for Phone iPhone Webcam Laptop Photo Makeup",
     price: "$13.77",
-    rating: "4.6 stars from 6,170 Amazon ratings",
-    reviews: "6,170 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41DFP3dJ-xL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C2C9QT91?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Proven Battery-Powered Ring Light",
     name: "Cyezcor Video Conference Lighting Kit, Ring Light for Monitor Clip On",
     price: "$19.98",
-    rating: "4.3 stars from 13,957 Amazon ratings",
-    reviews: "13,957 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41bsrlr6hiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08LZKSMRH?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Adjustable Battery-Powered Pick",
     name: "Video Conference Lighting Kit, Ring Light Clip on Laptop Monitor with 5 Dimmable Color & 5 Brightness Level for Webcam Lighting/Zoom Lighting/Remote Working/Self Broadcasting and Live Streaming, etc.",
     price: "$17.74",
-    rating: "4.4 stars from 6,958 Amazon ratings",
-    reviews: "6,958 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41A4zdsn9bL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08YJPJLFV?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Portable Battery Pick",
     name: "Anautin Ring Light for Video Conference Lighting,360 degreesAdjustable,Portable LED Video Conference Lighting for Monitor,Laptop&Desktop Computer,Streaming Light for Zoom Meetings, Selfie Makeup, Video Calls",
     price: "$10.60",
-    rating: "4.4 stars from 152 Amazon ratings",
-    reviews: "152 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41P6ZIeAUXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FLPR9ZBK?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Battery-Powered Pick",
     name: "Evershop Ring Light for Laptop Desk Clip On,Small Computer Video Conference Lighting with Stand for Phone/Webcam/Monitor,5\" Portable Mini LED Selfie Light Desktop for Zoom Meeting/Video Call/Recording",
     price: "$21.99",
-    rating: "4.4 stars from 1,469 Amazon ratings",
-    reviews: "1,469 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51taeRRFx3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BLHHV648?tag=deskfinds0d-20",
     description:
@@ -110,7 +110,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Explicit battery capacity as an objective comparison point", description: "Prioritized picks that disclose a specific mAh battery capacity, since this is a more objective comparison across brands than a vague 'hours of runtime' claim, which depends heavily on what brightness level was used for that measurement." },
   { title: "Real runtime at full brightness vs. headline runtime claims", description: "Flagged that stated battery life is usually measured at a low or medium brightness setting, real runtime at full brightness for a demanding video call will be shorter than any headline figure suggests." },
-  { title: "Brightness-level flexibility for managing battery life", description: "Noted which picks offer multiple brightness levels, letting you deliberately dial down brightness to extend runtime across a long day of calls rather than draining the battery at a single fixed setting." },
+  { title: "Brightness-level flexibility for managing battery life", description: "Noted which picks offer multiple brightness levels, letting you deliberately dial down brightness to extend runtime across a long day of calls rather than draining the battery at a single fixed setting." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -228,11 +228,11 @@ export const faq: FaqItem[] = [
   { q: "Does having multiple brightness levels help battery life?", a: "Yes. A light with several brightness settings lets you deliberately dial down when full brightness isn't necessary, extending runtime across a longer day of video calls rather than draining the battery at a single fixed high setting." },
   { q: "Are all ring lights in a product line battery-powered?", a: "Not necessarily. Some product lines offer both battery-powered and USB-only variants under similar names, verify the specific listing you're buying is actually battery-powered before purchasing if that's what you need." },
   { q: "How long does a typical battery-powered video light last on one charge?", a: "This varies widely by brightness setting and battery capacity, check the specific listed runtime at full brightness rather than the often longer figure quoted at the lowest, dimmest setting." },
-  { q: "Can I use a battery-powered video light while it's charging?", a: "Many models support pass-through charging that lets you use the light plugged in once the battery runs low, check the specific listing to confirm this feature before relying on it for long sessions." },
+  { q: "Can I use a battery-powered video light while it's charging?", a: "Many models support pass-through charging that lets you use the light plugged in once the battery runs low, check the specific listing to confirm this feature before relying on it for long sessions." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-clip-on-video-lighting", title: "Best Clip-On Video Lighting (2026)" },
   { href: "/guide/best-adjustable-temperature-video-lighting", title: "Best Adjustable-Temperature Video Lighting (2026)" },
-  { href: "/guide/best-desk-lights-for-video-calls", title: "Best Desk Lights for Video Calls (2026)" },
+  { href: "/guide/best-desk-lights-for-video-calls", title: "Best Desk Lights for Video Calls (2026)" }
 ];

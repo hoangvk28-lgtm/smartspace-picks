@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This dock's triple 4K 60Hz display support specifically uses uncompressed video powered by your laptop's native GPU, delivered alongside a reliable 2.5GbE connection for transferring large files or working directly from cloud environments. Its listing explicitly states driverless plug-and-play deployment on Windows and ChromeOS, engineered for scalable zero-touch rollouts across shared workspaces and corporate environments.\n\nCompared to the other picks in this comparison, this one's built-in lock slots and Surface/VESA mounting compatibility support secured, organized shared-desk deployments, while PXE Boot and Wake-on-LAN support specifically target IT-managed environments. Its listing transparently states it is not compatible with macOS, positioning it specifically for Windows and ChromeOS fleets.\n\nBest for buyers who want triple 4K display support with 2.5GbE networking specifically for Windows or ChromeOS IT deployments.",
     specs: ["Triple 4K@60Hz native uncompressed video", "2.5GbE with PXE Boot and Wake-on-LAN", "Driverless, Windows/ChromeOS only (not macOS)"],
     pros: ["Native uncompressed triple 4K video for genuine high fidelity", "2.5GbE specifically supports IT-managed deployment features", "Built-in lock slots and VESA mounting for secure shared setups"],
-    cons: ["Explicitly not compatible with macOS", "Highest price in this comparison at $179.99"],
+    cons: ["Explicitly not compatible with macOS", "Highest price in this comparison at under $180"],
     bestFor: "buyers who want triple 4K display support with 2.5GbE for Windows or ChromeOS deployments",
   },
   {
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Triple 4K display support with 2.5GbE for IT deployments", "StarTech USB4 Driverless Dock"],
         ["Confirmed Mac compatibility with genuine 2.5GbE", "40Gbps MacBook Docking Station, 21-in-1"],
         ["A compact, budget-friendly 2.5GbE hub with IT tools", "StarTech 3-Port USB-C Hub"],
-        ["Built-in ultra-fast NVMe storage plus 2.5GbE", "Sonnet Echo 13 Thunderbolt 5 SSD Dock"],
+        ["Built-in ultra-fast NVMe storage plus 2.5GbE", "Sonnet Echo 13 Thunderbolt 5 SSD Dock"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $75", "StarTech 3-Port USB-C Hub ($73.99)"],
-        ["Under $120", "40Gbps MacBook Docking Station ($119.99)"],
-        ["Under $180", "StarTech USB4 Driverless Dock ($179.99)"],
-        ["Under $450", "Sonnet Echo 13 SSD Dock ($449.99)"],
+        ["Under $75", "StarTech 3-Port USB-C Hub (under $80)"],
+        ["Under $120", "40Gbps MacBook Docking Station (under $120)"],
+        ["Under $180", "StarTech USB4 Driverless Dock (under $180)"],
+        ["Under $450", "Sonnet Echo 13 SSD Dock (under $450)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Compact Networking Hub vs Full-Featured Dock",
     cards: [
       { label: "Compact networking hub (StarTech 3-Port)", text: "Adds 2.5GbE and basic USB-C connectivity in a small, affordable package without display or storage features." },
-      { label: "Full-featured dock (StarTech Triple 4K, MacBook Dock, Sonnet Echo 13)", text: "Combines 2.5GbE with substantial display support and, in some cases, built-in storage for a complete workstation solution." },
+      { label: "Full-featured dock (StarTech Triple 4K, MacBook Dock, Sonnet Echo 13)", text: "Combines 2.5GbE with substantial display support and, in some cases, built-in storage for a complete workstation solution." }
     ],
     note: "If you just need to add fast Ethernet to a MacBook or tablet without display needs, the compact StarTech hub covers that efficiently. If you're building a complete multi-display workstation, one of the full-featured docks is worth the investment.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your platform", "Recommended pick"],
       rows: [
         ["Windows or ChromeOS only", "StarTech USB4 Driverless Dock"],
-        ["Mac (M3/M4) or mixed Mac/Windows", "40Gbps MacBook Docking Station or Sonnet Echo 13"],
+        ["Mac (M3/M4) or mixed Mac/Windows", "40Gbps MacBook Docking Station or Sonnet Echo 13"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For NAS-Connected Home or Studio Networks Specifically",
     cards: [
       { label: "Look for", text: "A dock that specifically discloses its 2.5GbE requirements (host connection type and network device compatibility), so you can confirm your router or NAS will actually deliver the full 2.5Gbps speed." },
-      { label: "In this comparison", text: "The 40Gbps MacBook Docking Station specifically discloses that 2.5GbE performance requires both a USB-C host connection and a 2.5GbE-compatible device on the network side." },
+      { label: "In this comparison", text: "The 40Gbps MacBook Docking Station specifically discloses that 2.5GbE performance requires both a USB-C host connection and a 2.5GbE-compatible device on the network side." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want built-in ultra-fast NVMe storage combined with 2.5GbE and premium multi-display support, where the Sonnet Echo 13 justifies its $449.99 price." },
-      { label: "Save if", text: "You just need to add 2.5GbE networking to a laptop or tablet without display needs, where the StarTech 3-Port Hub delivers that for $73.99." },
+      { label: "Spend more if", text: "You want built-in ultra-fast NVMe storage combined with 2.5GbE and premium multi-display support, where the Sonnet Echo 13 justifies its under $450 price." },
+      { label: "Save if", text: "You just need to add 2.5GbE networking to a laptop or tablet without display needs, where the StarTech 3-Port Hub delivers that for under $80." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

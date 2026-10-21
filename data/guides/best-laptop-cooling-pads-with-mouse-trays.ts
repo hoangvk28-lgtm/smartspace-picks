@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop cooling pads with mouse trays";
 export const introParagraphs = [
   "A cooling pad with an integrated mouse tray is a specific hybrid product, distinct from a standard desk-mounted cooling pad. Most products in this exact hybrid category are actually lap desks with a retractable mouse surface and a small USB fan, not a full multi-fan cooling pad with a tray bolted on.",
-  "This guide covers three genuinely verified lap-desk-with-mouse-tray products, honest that the cooling function here is typically a single small fan for heat shielding rather than the aggressive multi-fan airflow found on dedicated desk cooling pads.",
+  "This guide covers three genuinely verified lap-desk-with-mouse-tray products, honest that the cooling function here is typically a single small fan for heat shielding rather than the aggressive multi-fan airflow found on dedicated desk cooling pads."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "6 min";
@@ -75,7 +75,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine mouse tray verification", description: "We confirmed each product's real feature list includes an actual mouse tray or pad surface, distinct from products that merely mention a mouse in passing." },
   { title: "Cooling mechanism honesty", description: "We were explicit about whether each product uses an active USB fan or a passive heat shield material, since these represent genuinely different cooling approaches." },
   { title: "Tray stability during use", description: "We considered whether the mouse tray design (detachable, retractable, or fixed) stays stable during active mouse movement." },
-  { title: "Combined desk footprint value", description: "We compared the combined product against using a separate cooling pad and mouse pad, to verify genuine space-saving value from the hybrid design." },
+  { title: "Combined desk footprint value", description: "We compared the combined product against using a separate cooling pad and mouse pad, to verify genuine space-saving value from the hybrid design." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -211,11 +211,11 @@ export const faq: FaqItem[] = [
   { q: "Is the cooling as strong as a dedicated desk cooling pad?", a: "No, these hybrid lap-desk products typically use a single fan or passive material, less airflow than a multi-fan desk pad. Choose this category specifically for the mouse tray convenience, not maximum cooling power." },
   { q: "Can I use these on a desk, not just my lap?", a: "Yes, all three picks work fine on a desk as well as a lap, bed, or couch." },
   { q: "Which pick has the sturdiest mouse tray?", a: "The MAX SMART pick's detachable, reversible tray combined with a real USB cooling fan makes it the most fully-featured option in this guide." },
-  { q: "Why does the SAIJI pick not have a listed mouse tray?", a: "It's a solid desk surface with a built-in fan, not a dedicated retractable tray. We included it with that honest caveat since it's still a genuine bed-use cooling desk, just without the specific tray mechanism this guide's title suggests." },
+  { q: "Why does the SAIJI pick not have a listed mouse tray?", a: "It's a solid desk surface with a built-in fan, not a dedicated retractable tray. We included it with that honest caveat since it's still a genuine bed-use cooling desk, just without the specific tray mechanism this guide's title suggests." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-cooling-pads-for-bed-use", title: "Best Laptop Cooling Pads for Bed Use (2026)" },
   { href: "/guide/best-laptop-cooling-pads-for-lap-use", title: "Best Laptop Cooling Pads for Lap Use (2026)" },
-  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" }
 ];

@@ -143,7 +143,7 @@ export default async function Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best 18-Inch Laptop Cooling Pads", item: `${SITE_URL}/guide/best-18-inch-laptop-cooling-pads` },
+      { "@type": "ListItem", position: 3, name: "Best 18-Inch Laptop Cooling Pads", item: `${SITE_URL}/guide/best-18-inch-laptop-cooling-pads` }
     ],
   };
 

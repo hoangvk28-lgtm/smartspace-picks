@@ -1,7 +1,7 @@
 export const guideSlug = "best-ergonomic-mice-under-25";
 export const guideTitle = "6 Best Ergonomic Mice Under $25 in 2026";
 export const metaTitle = "Best Ergonomic Mice Under $25 in 2026";
-export const metaDescription = "Six ergonomic mice priced at $25 or less compared by shape, quiet clicks, hand fit and battery, from a $9.99 compact mouse to vertical models.";
+export const metaDescription = "Six ergonomic mice priced at $25 or less compared by shape, quiet clicks, hand fit and battery, from a sub-$10 compact mouse to vertical models.";
 export const mainKeyword = "ergonomic mouse under $25";
 export const introParagraphs = [
   "A twenty-five dollar ceiling gets you a surprising amount of ergonomic design: handshake-angled shells, multi-device Bluetooth and rechargeable batteries are all within reach. What it will not get you is premium software, long warranties or a wide choice of sizes, so the comparison really comes down to fit.",

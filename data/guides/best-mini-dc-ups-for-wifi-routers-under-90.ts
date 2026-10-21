@@ -155,7 +155,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Passive PoE output for a fiber ONT or access point", "ALFOINE 48Wh UPS Battery Backup"],
         ["Zero-downtime power switchover", "RGTTOTG Power Systems Mini UPS"],
         ["Longer battery cycle life (LiFePO4)", "CHINTE Mini UPS 16000mAh"],
-        ["The largest available capacity", "TalentCell Mini UPS 27000mAh"],
+        ["The largest available capacity", "TalentCell Mini UPS 27000mAh"]
       ],
     },
   },
@@ -166,7 +166,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["$48 to $55", "ALFOINE, RGTTOTG, or CHINTE"],
         ["$54 to $65", "Yuuki Power LCD pick or TalentCell 27000mAh"],
-        ["Up to $90", "Mini UPS 20000mAh with dual router support ($84.99)"],
+        ["Up to $90", "Mini UPS 20000mAh with dual router support (under $90)"]
       ],
     },
   },
@@ -180,7 +180,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "No PoE output (TalentCell, dual-router pick)",
         text: "Fine for standard routers and modems that use a normal DC barrel power connector, which covers most home networking setups.",
-      },
+      }
     ],
     note: "Check your specific device: if it only has an Ethernet cable and no separate DC power port, you need a PoE-capable pick; otherwise any DC-output pick here works.",
   },
@@ -190,7 +190,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Priority", "Recommended pick"],
       rows: [
         ["Longer cycle life, don't mind extra bulk", "CHINTE Mini UPS 16000mAh (LiFePO4)"],
-        ["Smaller footprint, standard lithium-ion is fine", "ALFOINE, RGTTOTG, Yuuki, TalentCell, or the dual-router pick"],
+        ["Smaller footprint, standard lithium-ion is fine", "ALFOINE, RGTTOTG, Yuuki, TalentCell, or the dual-router pick"]
       ],
     },
   },
@@ -204,7 +204,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "The 20000mAh dual-router-support pick is the only one here that explicitly states dual-device simultaneous backup in its listing.",
-      },
+      }
     ],
   },
   {
@@ -212,14 +212,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You need to back up two separate networking devices at once: the dual-router-support pick ($84.99) is the only one here built specifically for that, with 60W max output across dual 12V ports.",
+        text: "You need to back up two separate networking devices at once: the dual-router-support pick (under $90) is the only one here built specifically for that, with 60W max output across dual 12V ports.",
       },
       {
         label: "Save if",
-        text: "You have one standard router and don't need PoE: ALFOINE or RGTTOTG (both $48.99) cover PoE and standard DC voltages without paying for TalentCell's larger, PoE-less capacity.",
-      },
+        text: "You have one standard router and don't need PoE: ALFOINE or RGTTOTG (both under $50) cover PoE and standard DC voltages without paying for TalentCell's larger, PoE-less capacity.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -274,5 +274,5 @@ export const faq = [
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-dc-ups-for-wifi-routers-under-40", title: "Best Mini DC UPS for WiFi Routers Under $40" },
-  { href: "/guide/best-usb-c-to-2-5gbe-ethernet-adapters-under-50", title: "Best USB-C to 2.5GbE Ethernet Adapters Under $50" },
+  { href: "/guide/best-usb-c-to-2-5gbe-ethernet-adapters-under-50", title: "Best USB-C to 2.5GbE Ethernet Adapters Under $50" }
 ];

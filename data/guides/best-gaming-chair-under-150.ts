@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41ThbUSqabL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0C6DK233R?tag=deskfinds0d-20",
-    "description": "Dowinx Gaming Chair Breathable Fabric Game Chair with Gel Pad and Storage Bag is built around pocket spring cushion, paired with breathable tech cloth, positioning it as a chair built for long sitting sessions rather than short-term use.\n\nCompared to GTPLAYER Big & Tall Gaming Chair at $109.78, it costs more for real added capability, while sitting well below Ferghana Chenille Velvet Fabric Ergonomic Gaming Chair with 20.5\" Wide Seat Cushion at $149.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "Dowinx Gaming Chair Breathable Fabric Game Chair with Gel Pad and Storage Bag is built around pocket spring cushion, paired with breathable tech cloth, positioning it as a chair built for long sitting sessions rather than short-term use.\n\nCompared to GTPLAYER Big & Tall Gaming Chair at under $110, it costs more for real added capability, while sitting well below Ferghana Chenille Velvet Fabric Ergonomic Gaming Chair with 20.5\" Wide Seat Cushion at under $150 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Pocket Spring Cushion",
       "Breathable Tech Cloth",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41AqoYVqeDL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FKLYNHZ3?tag=deskfinds0d-20",
-    "description": "What stands out on Dowinx Big and Tall Gaming Chair is premium microsuede gaming chair for ultimate, alongside plush, form-fitting gaming chair with cloud, which is the main reason it earns a spot in this gaming chairs comparison.\n\nIt lands between GTPLAYER Big & Tall Gaming Chair's $109.78 price floor and Ferghana Chenille Velvet Fabric Ergonomic Gaming Chair with 20.5\" Wide Seat Cushion's $149.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nDowinx Big and Tall Gaming Chair is the right call for buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on Dowinx Big and Tall Gaming Chair is premium microsuede gaming chair for ultimate, alongside plush, form-fitting gaming chair with cloud, which is the main reason it earns a spot in this gaming chairs comparison.\n\nIt lands between GTPLAYER Big & Tall Gaming Chair's under $110 price floor and Ferghana Chenille Velvet Fabric Ergonomic Gaming Chair with 20.5\" Wide Seat Cushion's under $150 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nDowinx Big and Tall Gaming Chair is the right call for buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Premium Microsuede Gaming Chair for Ultimate",
       "Plush, Form-Fitting Gaming Chair with Cloud",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41bjcVD8+kL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H7RWX85J?tag=deskfinds0d-20",
-    "description": "Ferghana Chenille Velvet Fabric Ergonomic Gaming Chair with 20.5\" Wide Seat Cushion is built around extra-wide & thick seat cushion for spacious, paired with pocket spring padding for sofa-like long-lasting, positioning it as a chair built for long sitting sessions rather than short-term use.\n\nSitting at $149.99, the top of this comparison's price range, it asks buyers to confirm the added capability is actually worth it over the more affordable picks here before paying the premium.\n\nFerghana Chenille Velvet Fabric Ergonomic Gaming Chair with 20.5\" Wide Seat Cushion is the right call for buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "Ferghana Chenille Velvet Fabric Ergonomic Gaming Chair with 20.5\" Wide Seat Cushion is built around extra-wide & thick seat cushion for spacious, paired with pocket spring padding for sofa-like long-lasting, positioning it as a chair built for long sitting sessions rather than short-term use.\n\nSitting at under $150, the top of this comparison's price range, it asks buyers to confirm the added capability is actually worth it over the more affordable picks here before paying the premium.\n\nFerghana Chenille Velvet Fabric Ergonomic Gaming Chair with 20.5\" Wide Seat Cushion is the right call for buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Extra-wide & Thick Seat Cushion For Spacious",
       "Pocket Spring Padding For Sofa-like Long-lasting",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31zP8m1CegL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HFW4RTTQ?tag=deskfinds0d-20",
-    "description": "GTPLAYER Big&Tall Ergonomic Gaming Chair leads with big & tall high-back ergonomic structure, backed by wide comfy seated cushion with pocket spring, a combination aimed at as a chair built for long sitting sessions rather than short-term use.\n\nCompared to GTPLAYER Big & Tall Gaming Chair at $109.78, it costs more for real added capability, while sitting well below Ferghana Chenille Velvet Fabric Ergonomic Gaming Chair with 20.5\" Wide Seat Cushion at $149.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "GTPLAYER Big&Tall Ergonomic Gaming Chair leads with big & tall high-back ergonomic structure, backed by wide comfy seated cushion with pocket spring, a combination aimed at as a chair built for long sitting sessions rather than short-term use.\n\nCompared to GTPLAYER Big & Tall Gaming Chair at under $110, it costs more for real added capability, while sitting well below Ferghana Chenille Velvet Fabric Ergonomic Gaming Chair with 20.5\" Wide Seat Cushion at under $150 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Big & Tall High-Back Ergonomic Structure",
       "Wide Comfy Seated Cushion with Pocket Spring",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41-isgkNX-L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CK2SXH4G?tag=deskfinds0d-20",
-    "description": "What stands out on RESPAWN 3085 Gaming Chair is designed for all-day support in work or play, alongside solid support, sleek style , which is the main reason it earns a spot in this gaming chairs comparison.\n\nCompared to GTPLAYER Big & Tall Gaming Chair at $109.78, it costs more for real added capability, while sitting well below Ferghana Chenille Velvet Fabric Ergonomic Gaming Chair with 20.5\" Wide Seat Cushion at $149.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "What stands out on RESPAWN 3085 Gaming Chair is designed for all-day support in work or play, alongside solid support, sleek style , which is the main reason it earns a spot in this gaming chairs comparison.\n\nCompared to GTPLAYER Big & Tall Gaming Chair at under $110, it costs more for real added capability, while sitting well below Ferghana Chenille Velvet Fabric Ergonomic Gaming Chair with 20.5\" Wide Seat Cushion at under $150 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Designed For All-day Support In Work Or Play",
       "SOLID SUPPORT, SLEEK STYLE ",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51DSYA1XohL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HD7F6NR4?tag=deskfinds0d-20",
-    "description": "N-GEN GAMING Big and Tall Gaming Chair with Footrest is built around ergonomic full body support, paired with more room for criss cross sitting, positioning it as a chair built for long sitting sessions rather than short-term use.\n\nIt lands between GTPLAYER Big & Tall Gaming Chair's $109.78 price floor and Ferghana Chenille Velvet Fabric Ergonomic Gaming Chair with 20.5\" Wide Seat Cushion's $149.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nN-GEN GAMING Big and Tall Gaming Chair with Footrest is the right call for buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "N-GEN GAMING Big and Tall Gaming Chair with Footrest is built around ergonomic full body support, paired with more room for criss cross sitting, positioning it as a chair built for long sitting sessions rather than short-term use.\n\nIt lands between GTPLAYER Big & Tall Gaming Chair's under $110 price floor and Ferghana Chenille Velvet Fabric Ergonomic Gaming Chair with 20.5\" Wide Seat Cushion's under $150 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nN-GEN GAMING Big and Tall Gaming Chair with Footrest is the right call for buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Ergonomic Full Body Support",
       "More Room for Criss Cross Sitting",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41didljLoCL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FN3JSVNZ?tag=deskfinds0d-20",
-    "description": "GTPLAYER Gaming Chair Fabric with Pocket Spring Cushion leads with independent integrated spring padding, backed by soft, highly breathable fabric: keeps, a combination aimed at as a chair built for long sitting sessions rather than short-term use.\n\nCompared to GTPLAYER Big & Tall Gaming Chair at $109.78, it costs more for real added capability, while sitting well below Ferghana Chenille Velvet Fabric Ergonomic Gaming Chair with 20.5\" Wide Seat Cushion at $149.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "GTPLAYER Gaming Chair Fabric with Pocket Spring Cushion leads with independent integrated spring padding, backed by soft, highly breathable fabric: keeps, a combination aimed at as a chair built for long sitting sessions rather than short-term use.\n\nCompared to GTPLAYER Big & Tall Gaming Chair at under $110, it costs more for real added capability, while sitting well below Ferghana Chenille Velvet Fabric Ergonomic Gaming Chair with 20.5\" Wide Seat Cushion at under $150 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Independent Integrated Spring Padding",
       "Soft, highly breathable fabric: Keeps",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41PYzIPIguL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HHRL21ST?tag=deskfinds0d-20",
-    "description": "GTPLAYER Big & Tall Gaming Chair is built around big & tall heavy-duty comfort, paired with 90-degree-125-degree recline with footrest & linked armrests, positioning it as a chair built for long sitting sessions rather than short-term use.\n\nAt $109.78, it's the most affordable pick in this comparison, so expect fewer extras than the pricier options here, but the core function holds up for buyers who don't need the added features those carry.\n\nThis pick best suits buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "GTPLAYER Big & Tall Gaming Chair is built around big & tall heavy-duty comfort, paired with 90-degree-125-degree recline with footrest & linked armrests, positioning it as a chair built for long sitting sessions rather than short-term use.\n\nAt under $110, it's the most affordable pick in this comparison, so expect fewer extras than the pricier options here, but the core function holds up for buyers who don't need the added features those carry.\n\nThis pick best suits buyers who sit for long stretches and want real lumbar and recline adjustability, not just a gaming-branded look. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Big & Tall Heavy-Duty Comfort",
       "90-degree-125-degree Recline with Footrest & Linked Armrests",
@@ -247,7 +247,7 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Weight capacity vs your actual weight",
-    "explanation": "At the $150 ceiling for a gaming chair, this detail is easy to skip past but shouldn't be. A chair's stated weight capacity is a maximum, not a comfortable working load, and sitting at or near that limit shortens the lifespan of the gas lift cylinder and frame welds faster than sitting well under it. Picks in this comparison range from $110 to $150, and the weight rating doesn't scale predictably with price, some cheaper chairs rate higher than pricier ones. Check the stated capacity against your actual weight with real margin, not just whether you technically fit under the number."
+    "explanation": "At the $150 ceiling for a gaming chair, this detail is easy to skip past but shouldn't be. A chair's stated weight capacity is a maximum, not a comfortable working load, and sitting at or near that limit shortens the lifespan of the gas lift cylinder and frame welds faster than sitting well under it. Picks in this comparison range from under $160, and the weight rating doesn't scale predictably with price, some cheaper chairs rate higher than pricier ones. Check the stated capacity against your actual weight with real margin, not just whether you technically fit under the number."
   },
   {
     "criterion": "Recline angle and locking positions",
@@ -325,15 +325,15 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $109.78",
+          "Under $110",
           "GTPLAYER Big & Tall Gaming Chair"
         ],
         [
-          "Around $113.31",
+          "Under $120",
           "GTPLAYER Gaming Chair Fabric with Pocket Spring Cushion"
         ],
         [
-          "Around $143.94",
+          "Under $150",
           "N-GEN GAMING Big and Tall Gaming Chair with Footrest"
         ],
         [
@@ -341,19 +341,19 @@ export const howToChoose: HowToChooseSection[] = [
           "RESPAWN 3085 Gaming Chair"
         ],
         [
-          "Around $149.96",
+          "Under $150",
           "GTPLAYER Big&Tall Ergonomic Gaming Chair"
         ],
         [
-          "Around $149.99",
+          "Under $150",
           "Dowinx Gaming Chair Breathable Fabric Game Chair with Gel Pad and Storage Bag"
         ],
         [
-          "Around $149.99",
+          "Under $150",
           "Dowinx Big and Tall Gaming Chair"
         ],
         [
-          "Around $149.99",
+          "Under $150",
           "Ferghana Chenille Velvet Fabric Ergonomic Gaming Chair with 20.5\" Wide Seat Cushion"
         ]
       ]
@@ -364,11 +364,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "GTPLAYER Big & Tall Gaming Chair",
-        "text": "The lowest-priced pick in this comparison at $109.78, a solid choice if you don't need the extras the pricier picks carry."
+        "text": "The lowest-priced pick in this comparison at under $110, a solid choice if you don't need the extras the pricier picks carry."
       },
       {
         "label": "Ferghana Chenille Velvet Fabric Ergonomic Gaming Chair with 20.5\" Wide Seat Cushion",
-        "text": "The highest-priced pick at $149.99, worth it only if you'll actually use what that premium buys."
+        "text": "The highest-priced pick at under $150, worth it only if you'll actually use what that premium buys."
       }
     ],
     "note": "Default to GTPLAYER Big & Tall Gaming Chair unless the pricier pick's specific advantage genuinely applies to your situation."
@@ -428,7 +428,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "What's the real difference between the cheapest and most expensive pick here?",
-    "a": "GTPLAYER Big & Tall Gaming Chair at $109.78 covers the basics, while Ferghana Chenille Velvet Fabric Ergonomic Gaming Chair with 20.5\" Wide Seat Cushion at $149.99 adds 4D armrests and a wider recline range. Whether that's worth the difference depends on whether you actually use the full recline range and finer armrest adjustment day to day, or mainly need a comfortable, supportive seat."
+    "a": "GTPLAYER Big & Tall Gaming Chair at under $110 covers the basics, while Ferghana Chenille Velvet Fabric Ergonomic Gaming Chair with 20.5\" Wide Seat Cushion at under $150 adds 4D armrests and a wider recline range. Whether that's worth the difference depends on whether you actually use the full recline range and finer armrest adjustment day to day, or mainly need a comfortable, supportive seat."
   },
   {
     "q": "Do I need a 4D armrest or is 2D enough?",
@@ -440,7 +440,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "Is there a solid middle-ground pick in this price range?",
-    "a": "GTPLAYER Big&Tall Ergonomic Gaming Chair at $149.96 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
+    "a": "GTPLAYER Big&Tall Ergonomic Gaming Chair at under $150 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
   },
   {
     "q": "What's the most common mistake buyers make shopping gaming chairs under $150?",

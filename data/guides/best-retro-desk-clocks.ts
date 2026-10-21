@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "retro desk clock";
 export const introParagraphs = [
   "Retro desk clocks lean into a specific throwback design language, the kind of chunky flip-card look associated with mid-20th-century desks and airport departure boards, rather than a generally old or aged feel. We're covering largely the same flip-clock pool as our vintage desk clocks guide here, but ranked and framed differently, retro is about the throwback design statement, vintage leans more into the mechanical, aged-feel angle.",
-  "If you're comparing the two guides, expect some product overlap since the underlying inventory is limited, but the top pick and reasoning differ. Read both if you're deciding between a bold retro statement piece and a quieter, more mechanically-focused vintage feel.",
+  "If you're comparing the two guides, expect some product overlap since the underlying inventory is limited, but the top pick and reasoning differ. Read both if you're deciding between a bold retro statement piece and a quieter, more mechanically-focused vintage feel."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "7 min";
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Retro design language weighted as a throwback statement, not an aged look", description: "Ranked picks based on how strongly each recreates the mid-century flip-card visual, separate from an antique or aged-feel angle covered in our other clock style guides." },
   { title: "Footprint and desk fit compared across the flip-clock pool", description: "Noted meaningful size differences between the compact mooas pick and the larger KENJIEY and FOSA models, since retro statement pieces vary a lot in how much desk space they demand." },
   { title: "Noise level factored in separately from styling", description: "Called out which picks use a silent electronic movement versus a mechanical gear flip that clicks audibly, since retro styling and quiet operation aren't the same thing." },
-  { title: "Cross-checked against the vintage guide to avoid duplicate ranking", description: "Deliberately ordered and framed this list differently from our vintage desk clocks guide, which covers an overlapping pool with a different top pick." },
+  { title: "Cross-checked against the vintage guide to avoid duplicate ranking", description: "Deliberately ordered and framed this list differently from our vintage desk clocks guide, which covers an overlapping pool with a different top pick." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -230,11 +230,11 @@ export const faq: FaqItem[] = [
   { q: "How is this guide different from the vintage desk clocks guide?", a: "Both cover an overlapping flip-clock pool, but this guide frames retro as a bold throwback design statement with a different top pick and ranking order than the vintage guide, which leans into an aged, mechanical angle." },
   { q: "Do retro flip clocks make noise?", a: "Most use a mechanical gear flip that clicks audibly. One pick in this guide, the FOSA clock, uses a silent electronic movement instead if noise is a concern." },
   { q: "What is the smallest retro flip clock in this guide?", a: "The mooas Flip Desk Clock has the most compact table-clock footprint among the picks here." },
-  { q: "Are these clocks battery powered?", a: "Most run on batteries for flexible desk or shelf placement, check the individual listing for confirmation before buying." },
+  { q: "Are these clocks battery powered?", a: "Most run on batteries for flexible desk or shelf placement, check the individual listing for confirmation before buying." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-vintage-desk-clocks", title: "Best Vintage Desk Clocks (2026)" },
   { href: "/guide/best-flip-desk-clocks", title: "Best Flip Desk Clocks (2026)" },
-  { href: "/guide/best-antique-style-desk-clocks", title: "Best Antique-Style Desk Clocks (2026)" },
+  { href: "/guide/best-antique-style-desk-clocks", title: "Best Antique-Style Desk Clocks (2026)" }
 ];

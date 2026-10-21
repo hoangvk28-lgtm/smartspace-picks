@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini PC rack mounts";
 export const introParagraphs = [
   "Rack mounting is a specialized use case, most common for home server setups and small IT deployments, and it is genuinely different from the under-desk and wall mounting covered in our other Mini PC mount guides. A rack mount has to fit a standard rack unit (U) height, work inside a 19-inch or 10-inch cabinet, and hold up under the kind of continuous workload and denser cabling a home server or small server closet involves.",
-  "We started from a wider pool of candidate ASINs for this guide and cut it down honestly. Two products initially considered here, marketed as under-desk mounts, do not fit a 19-inch rack cabinet at all and were removed rather than stretched to fill out the list. That leaves four genuine rack-mount products, a narrower count than our other Mini PC mount guides, but every pick here is an actual rack-format product, not a relabeled desk mount.",
+  "We started from a wider pool of candidate ASINs for this guide and cut it down honestly. Two products initially considered here, marketed as under-desk mounts, do not fit a 19-inch rack cabinet at all and were removed rather than stretched to fill out the list. That leaves four genuine rack-mount products, a narrower count than our other Mini PC mount guides, but every pick here is an actual rack-format product, not a relabeled desk mount."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "6 min";
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine rack-format verification", description: "We checked each candidate against actual 19-inch or 10-inch rack dimensions and rack unit (U) height, and removed two initially considered under-desk mounts that do not fit a rack cabinet at all rather than stretch the list with a mismatch." },
   { title: "Rack unit height and cabinet compatibility", description: "We compared stated U height and cabinet width against standard 19-inch and 10-inch rack specs, since a mount that does not match those dimensions simply will not install." },
   { title: "Home-server workload fit", description: "We evaluated whether each tray's ventilation and cabling design suits a continuous home-server workload with more persistent cabling than a desk PC typically carries." },
-  { title: "Rack density and dense-cable management", description: "We looked at how many Mini PCs fit per rack unit and whether front-panel port passthrough or hinged rear access genuinely simplifies cabling in a densely packed rack." },
+  { title: "Rack density and dense-cable management", description: "We looked at how many Mini PCs fit per rack unit and whether front-panel port passthrough or hinged rear access genuinely simplifies cabling in a densely packed rack." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -197,11 +197,11 @@ export const faq: FaqItem[] = [
   { q: "How many Mini PCs fit in one rack unit?", a: "Most trays in this guide hold one Mini PC per 1U slot. The 19in 1U Mini PC Rack Mount for 2 Units is the exception, fitting two Mini PCs side by side in a single rack unit." },
   { q: "Do these mounts fit any Mini PC brand?", a: "Two picks here are brand-specific, built for named HP or Lenovo ThinkCentre models. The other two support a wider named list including Dell OptiPlex Micro, Lenovo ThinkCentre, and HP Desktop Mini within a stated size range." },
   { q: "Is a 10-inch rack the same as a 19-inch rack, just smaller?", a: "No, they use different rail widths and hardware is not interchangeable between them. Confirm your cabinet's actual rail width before ordering any rack mount, including the picks in this guide." },
-  { q: "Why does this guide only have 4 picks compared to your other Mini PC mount guides?", a: "Genuine rack-mount hardware for Mini PCs is a narrow, specialized category compared to under-desk or wall mounting. We would rather show four verified rack-format products than pad the list with under-desk mounts that do not actually fit a rack." },
+  { q: "Why does this guide only have 4 picks compared to your other Mini PC mount guides?", a: "Genuine rack-mount hardware for Mini PCs is a narrow, specialized category compared to under-desk or wall mounting. We would rather show four verified rack-format products than pad the list with under-desk mounts that do not actually fit a rack." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pc-mounts", title: "Best Mini PC Mounts (2026)" },
   { href: "/guide/best-mini-pc-wall-mounts", title: "Best Mini PC Wall Mounts (2026)" },
-  { href: "/guide/best-mini-pc-cooling-stands", title: "Best Mini PC Cooling Stands (2026)" },
+  { href: "/guide/best-mini-pc-cooling-stands", title: "Best Mini PC Cooling Stands (2026)" }
 ];

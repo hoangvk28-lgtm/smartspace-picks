@@ -12,7 +12,7 @@ export const conferenceSpeakerphoneVsHeadsetGuide: Guide = {
     "speakerphone for home office calls",
     "headset vs speaker video call",
     "multi person call audio setup",
-    "best audio setup for zoom calls",
+    "best audio setup for zoom calls"
   ],
   heroImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const conferenceSpeakerphoneVsHeadsetGuide: Guide = {
     "xlr-vs-usb-microphone",
     "open-back-vs-closed-back-headphones",
     "webcam-lighting-explained",
-    "latency-explained",
+    "latency-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const conferenceSpeakerphoneVsHeadsetGuide: Guide = {
       question: "Should a home office with a single regular user invest in a conference speakerphone?",
       answer:
         "Generally not necessary, a conference speakerphone is specifically designed for multi-person room use, a single home office user is typically better served by a quality headset or a good desktop microphone for solo calls.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const conferenceSpeakerphoneVsHeadsetGuide: Guide = {
     {
       heading: "Why Privacy Is an Easily Overlooked Factor in This Choice",
       body: `Beyond pure audio quality considerations, a speakerphone's broadcast nature means anyone in the room, family members, roommates, coworkers passing by, can hear the other call participant's voice clearly, this becomes a genuine concern for confidential business calls or in shared living spaces without a fully private room, a headset keeps the incoming audio contained to the wearer alone, addressing this privacy consideration directly in a way a speakerphone's design fundamentally can't.`,
-    },
+    }
   ],
 };

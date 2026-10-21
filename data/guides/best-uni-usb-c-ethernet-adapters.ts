@@ -157,19 +157,19 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $15.99",
+          "Under $20",
           "uni USB-C to Ethernet Adapter 1Gbps"
         ],
         [
-          "Around $17.09",
+          "Under $20",
           "uni USB-C Hub Ethernet 1Gbps 4-in-1"
         ],
         [
-          "Around $18.99",
+          "Under $20",
           "uni USB-C to Ethernet Adapter 2.5Gbps"
         ],
         [
-          "Around $21.99",
+          "Under $25",
           "uni USB-C to Ethernet Adapter with 100W PD"
         ]
       ]
@@ -224,10 +224,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "uni USB-C to Ethernet Adapter 1Gbps is aimed at buyers prioritizing 1gbps, driver-free on most oses, at $15.99."
+        "text": "uni USB-C to Ethernet Adapter 1Gbps is aimed at buyers prioritizing 1gbps, driver-free on most oses, at under $20."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -264,10 +264,10 @@ export const faq = [
   }
 ,
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "uni USB-C to Ethernet Adapter 1Gbps is aimed at buyers prioritizing 1gbps, driver-free on most oses." },
-  { q: "Which pick offers the best value for a tight budget?", a: "uni USB-C to Ethernet Adapter 1Gbps is aimed at buyers prioritizing 1gbps, driver-free on most oses, and at $15.99 it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $15.99 to $21.99, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Which pick offers the best value for a tight budget?", a: "uni USB-C to Ethernet Adapter 1Gbps is aimed at buyers prioritizing 1gbps, driver-free on most oses, and at under $20 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $20 to $25, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
   { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "uni USB-C to Ethernet Adapter with 100W PD is aimed at buyers prioritizing 1000mbps ethernet + 100w pd. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
-  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "uni USB-C to Ethernet Adapter 2.5Gbps is aimed at buyers prioritizing 2.5gbps via rtl8156b chip." },
+  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "uni USB-C to Ethernet Adapter 2.5Gbps is aimed at buyers prioritizing 2.5gbps via rtl8156b chip." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-usb-c-to-2-5gbe-ethernet-adapters","title":"8 Best USB-C to 2.5GbE Ethernet Adapters"},{"href":"/guide/best-usb-c-ethernet-adapters-with-power-delivery","title":"7 Best USB-C Ethernet Adapters With Power Delivery"},{"href":"/guide/best-usb-c-to-gigabit-ethernet-adapters","title":"8 Best USB-C to Gigabit Ethernet Adapters"}];

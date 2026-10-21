@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41q-SSVD5YL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CDC6X2BG?tag=deskfinds0d-20",
-    "description": "Redragon's wireless ergonomic mouse has a 2.4GHz nano receiver, up to 16,000 DPI in five levels, nine macro buttons, a rapid-fire key and a rechargeable battery rated 13 to 170 hours depending on lighting. It is built on a sculpted body rather than a vertical one.\n\nIt is the cheapest tied with Transformers at $36 and gives wireless on a sculpted body. Against the Razer it trades some build polish for a cable-free setup.\n\nBest for budget wireless buyers who like macros. The caveat is that 170 hours requires the RGB off.",
+    "description": "Redragon's wireless ergonomic mouse has a 2.4GHz nano receiver, up to 16,000 DPI in five levels, nine macro buttons, a rapid-fire key and a rechargeable battery rated 13 to 170 hours depending on lighting. It is built on a sculpted body rather than a vertical one.\n\nIt is the cheapest tied with Transformers at under $40 and gives wireless on a sculpted body. Against the Razer it trades some build polish for a cable-free setup.\n\nBest for budget wireless buyers who like macros. The caveat is that 170 hours requires the RGB off.",
     "specs": [
       "2.4GHz, up to 16,000 DPI",
       "9 macro buttons, rapid fire",

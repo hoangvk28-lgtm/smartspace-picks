@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 6.5FT Conference Table for 6-8 People measures 6.5FT and is built around robust metal frame for enhanced stability, positioning it for under 300 buyers specifically.\n\nPremium Scratch-Resistant Desktop is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 300, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["6.5FT table dimensions","Robust Metal Frame for Enhanced Stability","Premium Scratch-Resistant Desktop"],
     pros: ["Robust Metal Frame for Enhanced Stability, confirmed directly in the listing's own spec details","Premium Scratch-Resistant Desktop, confirmed directly in the listing's own spec details","Sleek Modern Aesthetic for Any Workspace, confirmed directly in the listing's own spec details"],
-    cons: ["At $179.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $180, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 300",
   },
   {
@@ -45,8 +45,8 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0H86C8ZH3?tag=deskfinds0d-20",
     description: "LITTLE TREE 47 Inches Round Conference Table for 4-6 measures 47 Inch and is built around premium e1 grade mdf construction, positioning it for under 300 buyers specifically.\n\nBeyond that core spec, the listing describes construction suited to daily conference-room use, without unusual assembly or maintenance requirements.\n\nBest for buyers specifically looking for under 300, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["47 Inch table dimensions","Premium E1 Grade MDF Construction","Assembly hardware and instructions included per the listing"],
-    pros: ["Premium E1 Grade MDF Construction, confirmed directly in the listing's own spec details","Priced at $152.99, positioned for under 300 shoppers specifically","Sized at 47 Inch, matching the space this guide is built around"],
-    cons: ["At $152.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    pros: ["Premium E1 Grade MDF Construction, confirmed directly in the listing's own spec details","Priced under $160, positioned for under 300 shoppers specifically","Sized at 47 Inch, matching the space this guide is built around"],
+    cons: ["At under $160, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 300",
   },
   {
@@ -61,8 +61,8 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0H86J4N27?tag=deskfinds0d-20",
     description: "LITTLE TREE 47 Inches Round Conference Table for 4-6 measures 47 Inch and is built around premium e1 grade mdf construction, positioning it for under 300 buyers specifically.\n\nBeyond that core spec, the listing describes construction suited to daily conference-room use, without unusual assembly or maintenance requirements.\n\nBest for buyers specifically looking for under 300, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["47 Inch table dimensions","Premium E1 Grade MDF Construction","Assembly hardware and instructions included per the listing"],
-    pros: ["Premium E1 Grade MDF Construction, confirmed directly in the listing's own spec details","Priced at $169.99, positioned for under 300 shoppers specifically","Sized at 47 Inch, matching the space this guide is built around"],
-    cons: ["At $169.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    pros: ["Premium E1 Grade MDF Construction, confirmed directly in the listing's own spec details","Priced under $170, positioned for under 300 shoppers specifically","Sized at 47 Inch, matching the space this guide is built around"],
+    cons: ["At under $170, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 300",
   },
   {
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 6.5FT Conference Table for 6-8 People measures 6.5FT and is built around robust metal frame for enhanced stability, positioning it for under 300 buyers specifically.\n\nPremium Scratch-Resistant Desktop is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 300, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["6.5FT table dimensions","Robust Metal Frame for Enhanced Stability","Premium Scratch-Resistant Desktop"],
     pros: ["Robust Metal Frame for Enhanced Stability, confirmed directly in the listing's own spec details","Premium Scratch-Resistant Desktop, confirmed directly in the listing's own spec details","Sleek Modern Aesthetic for Any Workspace, confirmed directly in the listing's own spec details"],
-    cons: ["At $159.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $160, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 300",
   },
   {
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     description: "ECACAD 7FT Conference Table for 6-8 People measures 7FT and is built around modern & natural style, positioning it for under 300 buyers specifically.\n\nAdequate Space to Brainstorm is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 300, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["7FT table dimensions","Modern & Natural Style","Adequate Space to Brainstorm"],
     pros: ["Modern & Natural Style, confirmed directly in the listing's own spec details","Adequate Space to Brainstorm, confirmed directly in the listing's own spec details","Versatile Table, confirmed directly in the listing's own spec details"],
-    cons: ["At $229.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $250, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 300",
   },
   {
@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 70.86\" Rectangular Conference Table for 6-8 (Oak and Black) and is built around spacious workspace, positioning it for under 300 buyers specifically.\n\nSturdy Construction is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 300, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Spacious Workspace","Sturdy Construction","Rustic Meets Modern Function"],
     pros: ["Spacious Workspace, confirmed directly in the listing's own spec details","Sturdy Construction, confirmed directly in the listing's own spec details","Rustic Meets Modern Function, confirmed directly in the listing's own spec details"],
-    cons: ["At $239.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $250, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 300",
   },
   {
@@ -126,7 +126,7 @@ export const products: GuideProduct[] = [
     description: "43.3in-59in Extendable Round Conference Table for 4-6 People and is built around spacious and comfortable design, positioning it for under 300 buyers specifically.\n\nStylish and Eye-Catching is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 300, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Spacious and comfortable design","Stylish and Eye-Catching","Suitable for all occasions"],
     pros: ["Spacious and comfortable design, confirmed directly in the listing's own spec details","Stylish and Eye-Catching, confirmed directly in the listing's own spec details","Suitable for all occasions, confirmed directly in the listing's own spec details"],
-    cons: ["At $255.98, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $300, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 300",
   },
   {
@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     description: "VEVOR Conference Table measures 6 ft and is built around comfortable group work, positioning it for under 300 buyers specifically.\n\nSturdy & Durable Build is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 300, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["6 ft table dimensions","Comfortable Group Work","Sturdy & Durable Build"],
     pros: ["Comfortable Group Work, confirmed directly in the listing's own spec details","Sturdy & Durable Build, confirmed directly in the listing's own spec details","Thoughtful Design, confirmed directly in the listing's own spec details"],
-    cons: ["At $119.07, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $120, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 300",
   }
 

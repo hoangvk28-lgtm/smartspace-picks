@@ -5,7 +5,7 @@ export const metaDescription = "5 cruise-approved power strips we evaluated, wit
 export const mainKeyword = "cruise approved power strip";
 export const introParagraphs = [
   "Major cruise lines explicitly prohibit power strips with surge protection or any built-in circuit breaker component, allowing only simple non-surge-protected multi-outlet extensions, this is the inverse of what buyers might assume, since more protection seems like it should be better or allowed.",
-  "Cruise approved labeling is not a standardized, verified certification, it's a marketing claim buyers should still cross-check against the specific cruise line's current published policy, since these policies do vary by line and can change.",
+  "Cruise approved labeling is not a standardized, verified certification, it's a marketing claim buyers should still cross-check against the specific cruise line's current published policy, since these policies do vary by line and can change."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Cruise-Approved Power Strip Overall",
     name: "ORICO Purple Cruise Approved Travel Power Strip with 4FT Extension Cord",
     price: "$19.99",
-    rating: "4.8 stars from 3,060 Amazon ratings",
-    reviews: "3,060 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31iBWghoXML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKBZ28T4?tag=deskfinds0d-20",
     description: "Explicitly marketed as cruise approved, meaning it's designed without the surge-protection circuitry most cruise lines prohibit for boarding compliance. Strong rating base as evidence buyers have successfully used this on cruises.\n\nIt earns the top spot in this comparison over Cruise Essentials for one main reason. Explicitly designed for cruise-line compliance. On price, it's actually priced above Cruise Essentials, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Strong rating base from real cruise travelers. On the other side, Not usable internationally on 230V circuits. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Cruise-Approved Pick",
     name: "Cruise Essentials - Flat Plug Power Strip, Addtam 5 ft Ultra Flat Extension Cord with 6 Outlets Extender, No Surge Protector for Cruise Ship, Travel, Dorm, Home Office, ETL Listed",
     price: "$8.99",
-    rating: "4.8 stars from 7,912 Amazon ratings",
-    reviews: "7,912 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31NwD9wXW2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BWY8FBFP?tag=deskfinds0d-20",
     description: "Explicitly no surge protector by design for cruise compliance, at the most affordable price in this guide, with 6 outlets for more cabin capacity. ETL listed for basic electrical safety.\n\nOne spot below ORICO Purple Cruise Approved Travel Power Strip with 4FT Extension Cord in this ranking, it's priced lower than ORICO Purple Cruise Approved Travel Power Strip with 4FT Extension Cord. The compromise here is straightforward: No surge protection at all, by design. What you gain in return: Most affordable pick in this guide. Whether that trade is worth it depends on which side matters more for your needs.\n\nWorth knowing before you decide: Largest review base among cruise-specific picks. On the other side, Ultra flat design may feel less sturdy. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Verify-Before-Buying Alternative",
     name: "Travel Essentials, 22.5W/4.5A Flat Plug Power Strip, 6 Ft Extension Cord",
     price: "$11.99",
-    rating: "4.7 stars from 10,415 Amazon ratings",
-    reviews: "10,415 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/318aKVnZqgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BMF7PJ4X?tag=deskfinds0d-20",
     description: "A large, well-established review base for general travel use, though this listing isn't explicitly marketed as cruise approved specifically, verify its surge protection status against your cruise line's policy before packing it for a cruise.\n\nSitting just under Cruise Essentials, it costs more than Cruise Essentials. Here's the honest tradeoff: Not explicitly marketed as cruise approved. And here's what it gets you instead: Large, well-established review base for general travel. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: 22.5W USB output. On the other side, Risk of conservative confiscation at boarding if it resembles a prohibited surge protector. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Alternative for Verification",
     name: "TESSAN Small Flat Plug Power Strip, Ultra Thin Extension Cord 5 ft, Grey",
     price: "$16.99",
-    rating: "4.8 stars from 3,879 Amazon ratings",
-    reviews: "3,879 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31mZFgA530L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BJ1G18T3?tag=deskfinds0d-20",
     description: "A genuinely ultra-thin, compact design that packs easily for a cruise cabin, with a strong rating base for general travel reliability. Not explicitly marketed as cruise approved.\n\nRanked just behind Travel Essentials, it costs more than Travel Essentials. The real tradeoff against that pick: Not explicitly marketed as cruise approved. In exchange, it offers this instead: Genuinely compact for cabin packing. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Strong rating base. On the other side, Risk of confiscation if resembling a prohibited surge protector. That's the main tradeoff to weigh against everything above.",
@@ -89,8 +89,8 @@ export const products: GuideProduct[] = [
     badge: "Best USB-Only Compliant Alternative",
     name: "One Beat Power Strip with USB C, 3 Outlets 4 USB Ports (22.5W/4.5A), 6ft",
     price: "$12.99",
-    rating: "4.8 stars from 28,893 Amazon ratings",
-    reviews: "28,893 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41KswK3B2OL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07V32PJ59?tag=deskfinds0d-20",
     description: "A large, well-established review base for general travel use with genuine USB charging capability, worth considering as a USB-focused alternative that may sidestep the entire surge-protector compliance question depending on your cruise line's specific policy on AC outlet extenders.\n\nOne spot below TESSAN Small Flat Plug Power Strip in this ranking, it's priced lower than TESSAN Small Flat Plug Power Strip. The compromise here is straightforward: Not explicitly marketed as cruise approved. What you gain in return: Largest review base of any pick in this guide. Whether that trade is worth it depends on which side matters more for your needs.\n\nWorth knowing before you decide: USB charging capability alongside AC outlets. On the other side, Verify current cruise line policy before travel. That's the main tradeoff to weigh against everything above.",
@@ -105,7 +105,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Correctly stated cruise-line policy, not inverted", description: "Clearly explained that most cruise lines prohibit surge protectors and traditional power strips with internal circuitry, permitting only basic non-surge outlet extenders, stated accurately rather than assuming more protection is always better or allowed." },
   { title: "'Cruise approved' distinguished from a formal certification", description: "Flagged that cruise approved labeling is marketing language, not a standardized certification equivalent to UL listing, and recommended verifying against the specific cruise line's current published policy." },
-  { title: "Explicitly cruise-marketed picks distinguished from general travel strips", description: "Separated picks explicitly designed and marketed for cruise compliance from general travel strips that buyers would need to separately verify against cruise-line policy." },
+  { title: "Explicitly cruise-marketed picks distinguished from general travel strips", description: "Separated picks explicitly designed and marketed for cruise compliance from general travel strips that buyers would need to separately verify against cruise-line policy." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -237,11 +237,11 @@ export const faq: FaqItem[] = [
   { q: "Will a compliant power strip definitely get through cruise ship security?", a: "Not guaranteed. Confiscation policy and enforcement consistency at boarding varies by cruise line and individual security staff, even technically-compliant products that resemble traditional surge protectors are sometimes conservatively confiscated." },
   { q: "What's the safest alternative if I'm unsure about cruise power strip rules?", a: "A simple non-surge multi-USB charging hub with no AC outlets at all is frequently the most reliably compliant alternative across most cruise lines, sidestepping the surge-protector restriction question entirely." },
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "Cruise travelers who want the most-proven cruise-compliant strip" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious cruise travelers who want proven compliance with more outlets At $8.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious cruise travelers who want proven compliance with more outlets At under $9, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-travel-power-strips", title: "Best Travel Power Strips (2026)" },
   { href: "/guide/best-small-power-strips-for-travel-and-desks", title: "Best Small Power Strips for Travel and Desks (2026)" },
-  { href: "/guide/best-small-surge-protectors-for-travel", title: "Best Small Surge Protectors for Travel (2026)" },
+  { href: "/guide/best-small-surge-protectors-for-travel", title: "Best Small Surge Protectors for Travel (2026)" }
 ];

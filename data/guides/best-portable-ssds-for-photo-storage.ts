@@ -5,7 +5,7 @@ export const metaDescription = "4 portable SSDs we evaluated for photo archival,
 export const mainKeyword = "best portable ssd for photo storage";
 export const introParagraphs = [
   "Photo archival is genuinely different from video editing's continuous read-write cycling, a photo library is typically written once and read occasionally, so long-term reliability and endurance matter more for this use case than raw transfer speed.",
-  "Because photo libraries are often irreplaceable, redundancy matters too, we recommend not relying on a single drive for your only copy regardless of which pick you choose, and to weigh TBW endurance and warranty length as real reliability signals.",
+  "Because photo libraries are often irreplaceable, redundancy matters too, we recommend not relying on a single drive for your only copy regardless of which pick you choose, and to weigh TBW endurance and warranty length as real reliability signals."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Pick for Photo Archival",
     name: "SANDISK 2TB Extreme Portable SSD (Old Model) - Up to 1050MB/s, USB-C, USB 3.2 Gen 2, IP65 Water and Dust Resistance, Updated Firmware - SDSSDE61-2T00-G25",
     price: "$299.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "91,365 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41eTFK7clfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HN37XC1?tag=deskfinds0d-20",
     description: "SanDisk's Extreme combines reliable 1050MB/s speed with IP65 water and dust resistance, a sensible balance for photographers who want both durability and dependable long-term storage.\n\nIt earns the top spot in this comparison over Samsung T7 Shield Portable SSD 2TB for one main reason. IP65 rating adds real durability for field use. On price, it comes in below Samsung T7 Shield Portable SSD 2TB, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Large 2TB capacity for extensive photo libraries. On the other side, Should not be your only backup copy of irreplaceable photos. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity Pick for Large Photo Libraries",
     name: "Samsung T7 Shield Portable SSD 2TB, USB 3.2 Gen 2, Up to 1,050 MB/s",
     price: "$399.75",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "16,380 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21mARCvUWxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VLHR4JC?tag=deskfinds0d-20",
     description: "Samsung's T7 Shield scales up to 2TB with rugged shell protection, useful headroom for photographers accumulating large RAW file libraries over years of shooting.\n\nOne spot below SANDISK 2TB Extreme Portable SSD in this ranking, it costs more than SANDISK 2TB Extreme Portable SSD. The compromise here is straightforward: RAW file overhead can fill capacity faster than expected. What you gain in return: Large 2TB capacity suited to growing RAW file libraries. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Rugged shell adds real protection for field use. On the other side, Should not be your only backup copy of irreplaceable photos. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Slim Pick for Everyday Photo Backup",
     name: "Samsung T7 Portable SSD 1TB Titan Gray, USB 3.2 Gen 2, Up to 1,050MB/s",
     price: "$216.36",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "21,124 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LdvAbumfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874XN4D8?tag=deskfinds0d-20",
     description: "Samsung's T7 offers a slim, reliable everyday option for photographers who want a straightforward backup companion without extra ruggedization bulk.\n\nSitting just under Samsung T7 Shield Portable SSD 2TB, it's priced lower than Samsung T7 Shield Portable SSD 2TB. Here's the honest tradeoff: No official IP rating. And here's what it gets you instead: Slim, lightweight design for everyday photo backup. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Reliable, widely reviewed platform with strong warranty support. On the other side, Should not be your only backup copy of irreplaceable photos. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick for Photo Backup",
     name: "SANDISK 1TB Portable SSD - Up to 800MB/s, USB-C, USB 3.2 Gen 2, Updated Firmware - SDSSDE30-1T00-G26",
     price: "$164.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "10,968 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41-T4nAAufL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5JQ68FY?tag=deskfinds0d-20",
     description: "SanDisk's standard Portable SSD offers a budget-friendly way to maintain a second copy of a photo library, rated up to 800MB/s, more than sufficient for the occasional-read pattern typical of photo archival.\n\nRanked just behind Samsung T7 Portable SSD 1TB Titan Gray, it's priced lower than Samsung T7 Portable SSD 1TB Titan Gray. The real tradeoff against that pick: 800MB/s ceiling would matter more for continuous editing than archival. In exchange, it offers this instead: Budget-friendly way to maintain a second backup copy. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Sufficient speed for occasional-read archival use. On the other side, 1TB may be limiting for large RAW file libraries. That's the main tradeoff to weigh against everything above.",

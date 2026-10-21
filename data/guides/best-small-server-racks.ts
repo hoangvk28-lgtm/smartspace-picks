@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41yfcqiY+nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GDPW11KS?tag=deskfinds0d-20",
-    description: "The black 6U version of Tecmojo's mini rack line, giving slightly more room than the 4U model while keeping the same compact 10-inch width for desk-side use.\n\nEverything else carries over from the 4U model: acrylic translucent side panels, top handles for easy carrying, and a full accessory kit for mounting 10-inch equipment.\n\nWhat stands out here is 6U gives more room than the smaller 4U version, plus top handles make it easy to move around. The main tradeoff: still limited to 10-inch equipment only, so weigh that against the $69.90 price before buying.",
+    description: "The black 6U version of Tecmojo's mini rack line, giving slightly more room than the 4U model while keeping the same compact 10-inch width for desk-side use.\n\nEverything else carries over from the 4U model: acrylic translucent side panels, top handles for easy carrying, and a full accessory kit for mounting 10-inch equipment.\n\nWhat stands out here is 6U gives more room than the smaller 4U version, plus top handles make it easy to move around. The main tradeoff: still limited to 10-inch equipment only, so weigh that against the under $70 price before buying.",
     specs: ["6U, 10\" width, 7.87\" deep","Steel frame, acrylic side panels","Top carrying handles included"],
     pros: ["6U gives more room than the smaller 4U version","Top handles make it easy to move around","Matches the same accessory kit as other sizes"],
     cons: ["Still limited to 10-inch equipment only","Not deep enough for full server hardware"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31iRiz4rmgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FBFDZD4C?tag=deskfinds0d-20",
-    description: "The DeskPi RackMate T1 is a well-known name in the home lab and Raspberry Pi cluster community, built from aluminum alloy and acrylic for an 8U, 10-inch mini rack.\n\nIts translucent acrylic sides are explicitly designed for adding ambient lighting, leaning into the hobbyist aesthetic that's made this line popular for visible desk setups.\n\nThe strongest case for this pick comes down to well-known DeskPi design popular in the home lab community as well as translucent sides support ambient lighting add-ons. The compromise here is that flat-pack assembly required out of the box, so factor that in alongside the $119.99 asking price.",
+    description: "The DeskPi RackMate T1 is a well-known name in the home lab and Raspberry Pi cluster community, built from aluminum alloy and acrylic for an 8U, 10-inch mini rack.\n\nIts translucent acrylic sides are explicitly designed for adding ambient lighting, leaning into the hobbyist aesthetic that's made this line popular for visible desk setups.\n\nThe strongest case for this pick comes down to well-known DeskPi design popular in the home lab community as well as translucent sides support ambient lighting add-ons. The compromise here is that flat-pack assembly required out of the box, so factor that in alongside the under $120 asking price.",
     specs: ["8U, 10\" width, 7.87\" depth","Aluminum alloy and acrylic construction","Flat-packed with full mounting hardware"],
     pros: ["Well-known DeskPi design popular in the home lab community","Translucent sides support ambient lighting add-ons","Open design makes install and maintenance easy"],
     cons: ["Flat-pack assembly required out of the box","10-inch format won't fit standard rack gear"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/418C1ZRpOGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT2XM22G?tag=deskfinds0d-20",
-    description: "The taller sibling to the RackMate T1, this 12U version gives more vertical room for a bigger cluster while keeping the same aluminum-and-acrylic build the line is known for.\n\nAt 10.23 inches deep it's slightly roomier front-to-back than the 8U model too, giving a bit more clearance behind mounted boards and cabling.\n\nWhere this one earns its spot is 12U height fits a larger Pi or SBC cluster, and extra depth over the 8U model eases cable routing. Worth noting before buying: bigger footprint than the compact 8U model, which matters more at $149.99 than it would on a cheaper pick.",
+    description: "The taller sibling to the RackMate T1, this 12U version gives more vertical room for a bigger cluster while keeping the same aluminum-and-acrylic build the line is known for.\n\nAt 10.23 inches deep it's slightly roomier front-to-back than the 8U model too, giving a bit more clearance behind mounted boards and cabling.\n\nWhere this one earns its spot is 12U height fits a larger Pi or SBC cluster, and extra depth over the 8U model eases cable routing. Worth noting before buying: bigger footprint than the compact 8U model, which matters more at under $150 than it would on a cheaper pick.",
     specs: ["12U, 10\" width, 10.23\" depth","Aluminum alloy and acrylic frame","Open design for airflow and access"],
     pros: ["12U height fits a larger Pi or SBC cluster","Extra depth over the 8U model eases cable routing","Open frame keeps single-board computers cool"],
     cons: ["Bigger footprint than the compact 8U model","Only suited to 10-inch mini equipment"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31iOnAzRWJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP1QJC1S?tag=deskfinds0d-20",
-    description: "A locking 6U wall cabinet built with heat-sink venting on the top, bottom, and rear panels specifically to fight heat buildup in a small enclosed space.\n\nGround-mounted capacity doubles the wall-mounted rating at 200 lbs versus 100 lbs, so if the equipment is heavier, setting it on the floor rather than the wall stretches its usable capacity.\n\nThis pick is best for buyers who value heat-sink venting on three panels fights overheating along with ground-mounting doubles the usable weight capacity. The catch is that 100 lb wall rating is on the low side, so decide if that's worth it at $89.99.",
+    description: "A locking 6U wall cabinet built with heat-sink venting on the top, bottom, and rear panels specifically to fight heat buildup in a small enclosed space.\n\nGround-mounted capacity doubles the wall-mounted rating at 200 lbs versus 100 lbs, so if the equipment is heavier, setting it on the floor rather than the wall stretches its usable capacity.\n\nThis pick is best for buyers who value heat-sink venting on three panels fights overheating along with ground-mounting doubles the usable weight capacity. The catch is that 100 lb wall rating is on the low side, so decide if that's worth it at under $90.",
     specs: ["6U, 14.8\" max depth","200 lb ground / 100 lb wall capacity","Locking glass door"],
     pros: ["Heat-sink venting on three panels fights overheating","Ground-mounting doubles the usable weight capacity","Adjustable square-hole rails fit varied equipment"],
     cons: ["100 lb wall rating is on the low side","Cabling holes require some planning ahead"],
@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/517WeovYvrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSJR2RZB?tag=deskfinds0d-20",
-    description: "Tecmojo's 12U open frame rack ships with two vented 1U shelves already in the box, which is a nice touch since most competitors sell shelves separately.\n\nIt's rated for 260 lbs floor-mounted but drops to 130 lbs if you wall-mount it instead, so plan your equipment load around which install method you're using.\n\nWhat stands out here is two vented shelves included instead of sold separately, plus anti-slip shelf stops keep gear from sliding. The main tradeoff: wall-mount capacity is half of floor-standing capacity, so weigh that against the $89.90 price before buying.",
+    description: "Tecmojo's 12U open frame rack ships with two vented 1U shelves already in the box, which is a nice touch since most competitors sell shelves separately.\n\nIt's rated for 260 lbs floor-mounted but drops to 130 lbs if you wall-mount it instead, so plan your equipment load around which install method you're using.\n\nWhat stands out here is two vented shelves included instead of sold separately, plus anti-slip shelf stops keep gear from sliding. The main tradeoff: wall-mount capacity is half of floor-standing capacity, so weigh that against the under $90 price before buying.",
     specs: ["12U, cold rolled steel frame","260 lb floor / 130 lb wall capacity","2 vented 1U shelves included"],
     pros: ["Two vented shelves included instead of sold separately","Anti-slip shelf stops keep gear from sliding","Stackable design lets you expand later"],
     cons: ["Wall-mount capacity is half of floor-standing capacity","Open frame offers no dust or theft protection"],
@@ -123,7 +123,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/3172xcdFNxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07XWL296H?tag=deskfinds0d-20",
-    description: "This 16U case splits the difference between a fully open frame and an enclosed cabinet, with optional side panels you can install only if you don't need the extra airflow of an open design.\n\nIt's aimed squarely at studio and DJ setups as much as server gear, with removable 3-inch casters that add weight capacity flexibility once removed.\n\nThe strongest case for this pick comes down to side panels are optional, letting you choose open or closed as well as removing casters bumps capacity for heavier gear. The compromise here is that side panels don't bear weight if you rely on them, so factor that in alongside the $194.99 asking price.",
+    description: "This 16U case splits the difference between a fully open frame and an enclosed cabinet, with optional side panels you can install only if you don't need the extra airflow of an open design.\n\nIt's aimed squarely at studio and DJ setups as much as server gear, with removable 3-inch casters that add weight capacity flexibility once removed.\n\nThe strongest case for this pick comes down to side panels are optional, letting you choose open or closed as well as removing casters bumps capacity for heavier gear. The compromise here is that side panels don't bear weight if you rely on them, so factor that in alongside the under $200 asking price.",
     specs: ["16U, 18\" depth, 34.5\" assembled height","550 lb static / 440 lb rolling","Optional non-weight-bearing side panels"],
     pros: ["Side panels are optional, letting you choose open or closed","Removing casters bumps capacity for heavier gear","Works well for AV and studio rack duty, not just servers"],
     cons: ["Side panels don't bear weight if you rely on them","Assembly required before it's ready to load"],
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41-o6KDZaYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0HBQY15T3?tag=deskfinds0d-20",
-    description: "Garvee's open frame rack supports both wall and ground mounting, with capacity scaling from 200 lbs on the wall up to 500 lbs on the ground depending on how you install it.\n\nThe accessory list is genuinely thorough here, down to a grounding wire and multiple wrench sizes, so you're less likely to need a hardware store run mid-assembly.\n\nWhere this one earns its spot is 500 lb ground rating handles a real equipment load, and comes with a genuinely complete hardware kit. Worth noting before buying: wall capacity is well below the ground-mounted rating, which matters more at $79.99 than it would on a cheaper pick.",
+    description: "Garvee's open frame rack supports both wall and ground mounting, with capacity scaling from 200 lbs on the wall up to 500 lbs on the ground depending on how you install it.\n\nThe accessory list is genuinely thorough here, down to a grounding wire and multiple wrench sizes, so you're less likely to need a hardware store run mid-assembly.\n\nWhere this one earns its spot is 500 lb ground rating handles a real equipment load, and comes with a genuinely complete hardware kit. Worth noting before buying: wall capacity is well below the ground-mounted rating, which matters more at under $80 than it would on a cheaper pick.",
     specs: ["10U, 23-40\" adjustable depth","500 lb ground / 200 lb wall capacity","4 lockable casters, grounding wire included"],
     pros: ["500 lb ground rating handles a real equipment load","Comes with a genuinely complete hardware kit","Detachable top panel adds extra storage space"],
     cons: ["Wall capacity is well below the ground-mounted rating","Open frame gives no dust or theft protection"],
@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $59.90",
+          "Under $60",
           "Tecmojo 4U Mini Server Rack"
         ],
         [
-          "Around $69.90",
+          "Under $70",
           "Tecmojo 6U Mini Server Rack"
         ],
         [
-          "Around $79.99",
+          "Under $80",
           "Garvee 10U Open Frame Server Rack"
         ],
         [
-          "Around $89.90",
+          "Under $90",
           "Tecmojo 12U Open Frame Network Rack"
         ],
         [
-          "Around $89.99",
+          "Under $90",
           "VEVOR 6U Wall Mount Network Server Cabinet"
         ],
         [
-          "Around $119.99",
+          "Under $120",
           "GeeekPi 8U Network Rack"
         ],
         [
-          "Around $149.99",
+          "Under $150",
           "GeeekPi 12U Network Rack"
         ],
         [
-          "Around $194.99",
+          "Under $200",
           "AxcessAbles 16U AV Case with Wheels"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Tecmojo 4U Mini Server Rack is aimed at buyers prioritizing 4u, 10\" width, 7.87\" deep." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Tecmojo 4U Mini Server Rack is aimed at buyers prioritizing 4u, 10\" width, 7.87\" deep." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"}];

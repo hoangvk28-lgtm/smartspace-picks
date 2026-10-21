@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "printer with automatic document feeder";
 export const introParagraphs = [
   "An automatic document feeder saves real time on multi-page scanning, but it's not a universal upgrade over the flatbed glass. ADFs commonly can't handle thick cardstock, glossy photo paper, or thermal receipt paper, they're noisier than flatbed scanning, and budget ADFs are more prone to feeding pages crooked or pulling two sheets at once, none of which typical spec sheets mention.",
-  "Below are 8 printers with automatic document feeders we evaluated on ADF capacity, paper type limits, and how each fits into an ADF-versus-flatbed decision, ranging from a $69 budget inkjet to a $491 duplex color laser built for heavier document volume.",
+  "Below are 8 printers with automatic document feeders we evaluated on ADF capacity, paper type limits, and how each fits into an ADF-versus-flatbed decision, ranging from a $69 budget inkjet to a $491 duplex color laser built for heavier document volume."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Print, scan, copy, fax",
       "Mobile printing support",
       "Wireless connectivity",
-      "Compact home printer design",
+      "Compact home printer design"
     ],
     pros: [
       "Lowest price of any ADF pick in this list",
       "Automatic document feeder handles standard multi-page scans",
       "Guided mobile printing setup",
-      "Full 4-in-1 feature set including fax",
+      "Full 4-in-1 feature set including fax"
     ],
     cons: [
       "Budget ADF mechanisms are more prone to skew and multi-feed than premium models",
       "Cartridge-based ink costs more at high volume",
-      "Not built for sustained high-volume printing",
+      "Not built for sustained high-volume printing"
     ],
     bestFor: "Buyers who scan occasional multi-page text documents on a budget",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "3-month Instant Ink trial included",
       "AI-capable printing features",
       "Home-office oriented design",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     pros: [
       "ADF and duplex printing work together well for document-heavy workflows",
       "Instant Ink trial reduces early ink cost",
       "Built for steadier home-office volume",
-      "Reliable wireless setup",
+      "Reliable wireless setup"
     ],
     cons: [
       "Higher upfront price than budget ADF picks",
       "Thick paper and photo stock should skip the ADF",
-      "Cartridge costs return to normal after the trial",
+      "Cartridge costs return to normal after the trial"
     ],
     bestFor: "Home offices that scan and duplex print regularly in one workflow",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Print, copy, scan, fax",
       "AirPrint and Android compatible",
       "Works with Alexa",
-      "Photo and document printing",
+      "Photo and document printing"
     ],
     pros: [
       "Fullest feature set of any ADF pick in this list",
       "Better photo printing than basic ADF inkjets",
       "AirPrint and Alexa support",
-      "Automatic document feeder for multi-page scanning",
+      "Automatic document feeder for multi-page scanning"
     ],
     cons: [
       "Most expensive inkjet pick in this list",
       "Overkill if you only need basic document scanning",
-      "Larger footprint than budget picks",
+      "Larger footprint than budget picks"
     ],
     bestFor: "Buyers who want ADF scanning plus stronger photo printing and smart-home features",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "35 PPM duplex color laser printing",
       "Copier, scanner, fax built in",
       "3-year limited warranty",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     pros: [
       "Built for sustained higher-volume document scanning and printing",
       "35 PPM print speed with duplex support",
       "3-year limited warranty",
-      "Laser reliability over inkjet at this volume",
+      "Laser reliability over inkjet at this volume"
     ],
     cons: [
       "Significantly higher price than the rest of this list",
       "Larger footprint than compact inkjet picks",
-      "Overkill for occasional home scanning needs",
+      "Overkill for occasional home scanning needs"
     ],
     bestFor: "Home offices with real document volume that need a durable, faster ADF",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "3-month Instant Ink trial included",
       "AI-capable printing features",
       "Home-office oriented design",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     pros: [
       "ADF and duplex printing work together for document workflows",
       "Instant Ink trial reduces early ink cost",
       "Competitive pricing versus the 8125e",
-      "Reliable wireless setup",
+      "Reliable wireless setup"
     ],
     cons: [
       "Thick paper and photo stock should skip the ADF",
       "Higher upfront price than budget inkjet picks",
-      "Cartridge costs return to normal after the trial",
+      "Cartridge costs return to normal after the trial"
     ],
     bestFor: "Home offices wanting ADF and duplex printing at a mid-range price",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Refillable ink tanks, up to 3 years of ink",
       "2.4-inch color touchscreen",
       "18 PPM print speed",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     pros: [
       "Long-lasting ink supply reduces per-page cost over time",
       "Color touchscreen simplifies scan and copy tasks",
       "Automatic document feeder for multi-page scanning",
-      "Good fit for steady home-office document volume",
+      "Good fit for steady home-office document volume"
     ],
     cons: [
       "High upfront price compared to cartridge-based picks",
       "Larger footprint due to the ink tank system",
-      "Only cost-effective if your volume justifies it",
+      "Only cost-effective if your volume justifies it"
     ],
     bestFor: "Home offices with steady document volume wanting long-term ink savings",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Cartridge-free supertank ink system",
       "Scanner, copier, fax built in",
       "Ethernet and wireless connectivity",
-      "Compact for a supertank printer",
+      "Compact for a supertank printer"
     ],
     pros: [
       "Lower entry price than the ET-4950 supertank pick",
       "Ethernet option for a wired network alternative",
       "Cartridge-free ink reduces long-term cost",
-      "Full document-handling feature set",
+      "Full document-handling feature set"
     ],
     cons: [
       "Higher upfront price than basic cartridge-based ADF picks",
       "Only cost-effective at moderate-to-higher volume",
-      "Larger footprint than compact inkjet picks",
+      "Larger footprint than compact inkjet picks"
     ],
     bestFor: "Home offices wanting supertank ink savings and an ADF at a lower entry price",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "2 paper trays",
       "Ink-tank system",
       "Refresh Subscription trial included",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     pros: [
       "2 paper trays reduce swapping for different paper sizes",
       "Color touchscreen simplifies navigation",
       "Ink-tank system reduces per-page cost over time",
-      "Ink subscription trial included",
+      "Ink subscription trial included"
     ],
     cons: [
       "Automatic document feeder is not explicitly confirmed in the listing title, verify before buying",
       "Higher price than basic cartridge-based ADF picks",
-      "Ink-tank refills take longer than a cartridge swap",
+      "Ink-tank refills take longer than a cartridge swap"
     ],
     bestFor: "Buyers who want dual paper trays and ink-tank economics, and will confirm ADF specs directly",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Feature completeness beyond the ADF",
     description: "Considered what else each pick offers, duplex printing, fax, photo quality, ink system, since the ADF is rarely the only factor that should drive the purchase decision.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,12 +477,12 @@ export const faq: FaqItem[] = [
   {
     q: "Does the Brother INKvestment 4555 have an automatic document feeder?",
     a: "The listing highlights its 2.7-inch color touchscreen and 2 paper trays but doesn't explicitly confirm an ADF in the title. Brother's MFC-series printers commonly include one, but confirm this spec on the full product page before buying if an ADF is a must-have feature for you.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-all-in-one-printers-for-home-use", title: "Best All-in-One Printers for Home Use (2026)" },
   { href: "/guide/best-wireless-printers-for-home-offices", title: "Best Wireless Printers for Home Offices (2026)" },
   { href: "/guide/best-duplex-printers-for-home-offices", title: "Best Duplex Printers for Home Offices (2026)" },
-  { href: "/guide/best-printers-for-small-businesses", title: "Best Printers for Small Businesses (2026)" },
+  { href: "/guide/best-printers-for-small-businesses", title: "Best Printers for Small Businesses (2026)" }
 ];

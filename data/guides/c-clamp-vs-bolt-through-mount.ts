@@ -11,7 +11,7 @@ export const cClampVsBoltThroughMountGuide: Guide = {
   subKeywords: [
     "c-clamp desk mount thickness",
     "bolt through desk mount",
-    "desk mount without drilling",
+    "desk mount without drilling"
   ],
   heroImage: "https://images.unsplash.com/photo-1632064824547-e77c36851495?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1632064824547-e77c36851495?q=80&w=800&auto=format&fit=crop",
@@ -23,7 +23,7 @@ export const cClampVsBoltThroughMountGuide: Guide = {
     "best-clamp-on-under-desk-pc-mounts",
     "best-ring-lights-with-desk-clamp-mount",
     "under-desk-charging-station",
-    "best-clamp-on-desk-drawers",
+    "best-clamp-on-desk-drawers"
   ],
   faq: [
     {
@@ -45,7 +45,7 @@ export const cClampVsBoltThroughMountGuide: Guide = {
       question: "Can I remove a C-clamp without damaging my desk?",
       answer:
         "Yes, a properly used C-clamp with protective pads leaves no lasting damage when removed, making it fully reversible. Some clamps without rubber or silicone pads can leave minor indentation marks on softer desk materials after extended use, so check for padded clamp jaws specifically if this concerns you.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ The limitation is desks with edges thicker than about 3.5 inches, unusual shapes
       body: `A bolt-through mount is worth considering specifically for heavier accessories where maximum stability matters more than keeping the desk unmodified, or in a permanent commercial or industrial setup where the mount will never need to move. Since it's not reversible without leaving a hole, this is a more deliberate, longer-term decision than clamping.
 
 Before choosing a bolt-through mount specifically to solve a desk-thickness problem, check whether a different clamp with a wider jaw opening (some go up to 4+ inches) solves the issue without needing to drill.`,
-    },
+    }
   ],
 };

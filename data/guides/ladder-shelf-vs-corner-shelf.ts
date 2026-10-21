@@ -12,7 +12,7 @@ export const ladderShelfVsCornerShelfGuide: Guide = {
     "ladder shelf small office",
     "corner shelf unit home office",
     "best shelf for awkward corner space",
-    "space saving shelf shapes",
+    "space saving shelf shapes"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const ladderShelfVsCornerShelfGuide: Guide = {
     "floating-shelf-vs-bookcase",
     "open-shelving-vs-closed-cabinet",
     "what-size-desk-do-i-need",
-    "shelf-weight-capacity-explained",
+    "shelf-weight-capacity-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const ladderShelfVsCornerShelfGuide: Guide = {
       question: "Can a ladder shelf or corner shelf hold as much as a standard bookcase?",
       answer:
         "Generally somewhat less due to their specialized shapes and typically shallower shelf depths, but both still provide meaningful storage capacity, particularly valuable when the alternative is a standard bookcase that simply doesn't fit the available space at all.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const ladderShelfVsCornerShelfGuide: Guide = {
     {
       heading: "Why a Ladder Shelf's Angled Design Solves a Different Space Problem",
       body: `A ladder shelf addresses limited wall depth rather than corner space specifically, its leaning, angled structure requires less floor depth at its base than a standard vertical bookcase needs to remain stable, making it a good fit for a narrow room or a wall where a full-depth bookcase would protrude too far into the room's usable floor space. Choose between these two shelf types based on which specific space constraint, corner or depth, actually applies to your room.`,
-    },
+    }
   ],
 };

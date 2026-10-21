@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "8-sheet paper shredder";
 export const introParagraphs = [
   "Rated 8-sheet capacity assumes standard 20 lb bond paper tested under ideal lab conditions. Real-world capacity with letterhead, cardstock, or slightly heavier paper is often 5-6 sheets, a 25-35% reduction rarely disclosed at this entry-level capacity tier. We treat the rated 8-sheet number as an upper bound throughout this guide.",
-  "This tier also typically has the shortest continuous run times in the shredder category, 2-5 minutes, and skews toward lighter security levels (P-3/P-4 cross-cut rather than higher-security micro-cut), both genuine tradeoffs of buying at this entry-level capacity.",
+  "This tier also typically has the shortest continuous run times in the shredder category, 2-5 minutes, and skews toward lighter security levels (P-3/P-4 cross-cut rather than higher-security micro-cut), both genuine tradeoffs of buying at this entry-level capacity."
 ];
 export const lastUpdated = "2026-07-28";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall 8-Sheet Pick",
     name: "Amazon Basics 8-Sheet High Security Cross Cut Paper and Credit Card Shredder",
     price: "$33.16",
-    rating: "4.3 stars from 77,112 Amazon ratings",
-    reviews: "77,112 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31QbluTUmKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6LZ8S34?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Same Spec, White Finish",
     name: "Amazon Basics 8-Sheet Cross Cut Paper and Credit Card Shredder for Security, White",
     price: "$33.16",
-    rating: "4.3 stars from 77,112 Amazon ratings",
-    reviews: "77,112 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31WGmZ4xo0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6LXGNY1?tag=deskfinds0d-20",
     description:
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best Safety Auto-Shutoff",
     name: "Locksworth 8-Sheet Micro Cut Shredder for Home Office",
     price: "$32.39",
-    rating: "4.5 stars from 231 Amazon ratings",
-    reviews: "231 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41R3dsJ1InL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GXZVRK3R?tag=deskfinds0d-20",
     description:
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Under-Desk Fit",
     name: "BONSEN Shredder for Home Office, 4 Gallons 8-Sheet Cross Cut Credit Card Shredder",
     price: "$39.09",
-    rating: "4.4 stars from 7,466 Amazon ratings",
-    reviews: "7,466 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31AtA7qsSwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08J2N4CS2?tag=deskfinds0d-20",
     description:
@@ -94,8 +94,8 @@ export const products: GuideProduct[] = [
     badge: "Budget Strip-Cut Alternative, Lower Security",
     name: "Woolsche 10-Sheet Strip Cut with 3.17-Gallon Basket",
     price: "$34.16",
-    rating: "4.3 stars from 4,657 Amazon ratings",
-    reviews: "4,657 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31RMWoUZy7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FFJPQGD?tag=deskfinds0d-20",
     description:
@@ -111,8 +111,8 @@ export const products: GuideProduct[] = [
     badge: "Slightly Higher Capacity, Same Price Tier",
     name: "Bonsaii 10-Sheet Heavy Duty Cross Cut Paper Shredder for Home Office",
     price: "$53.09",
-    rating: "4.4 stars from 9,810 Amazon ratings",
-    reviews: "9,810 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31wkQYg97oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09MHR4457?tag=deskfinds0d-20",
     description:
@@ -128,8 +128,8 @@ export const products: GuideProduct[] = [
     badge: "Best Fine Particle Security at 8 Sheets",
     name: "Amazon Basics High Security Micro Cut Paper Shredder, 8 Sheet Capacity",
     price: "$74.61",
-    rating: "4.3 stars from 1,194 Amazon ratings",
-    reviews: "1,194 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41QmnUvb1tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6LXQTST?tag=deskfinds0d-20",
     description:
@@ -145,8 +145,8 @@ export const products: GuideProduct[] = [
     badge: "Quietest 8-Sheet Pick",
     name: "QUESTLEMON 8-Sheet Paper Shredder for Home, Quiet Cross Cut Shredders",
     price: "$49.99",
-    rating: "4.3 stars from 31 Amazon ratings",
-    reviews: "31 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31IjAexycEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVNH9RY2?tag=deskfinds0d-20",
     description:
@@ -155,14 +155,14 @@ export const products: GuideProduct[] = [
     pros: ["Quietest explicit rating among the 8-sheet picks here", "P-4 security level", "Reverse function for jam clearing", "1-year warranty"],
     cons: ["Small review count, limited track record", "Short 3-minute continuous run time", "Priced higher than the basic Amazon Basics 8-sheet picks"],
     bestFor: "Buyers who prioritize quiet operation at the 8-sheet capacity tier",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Real-world effective capacity versus the rated 8-sheet spec", description: "Treated the rated 8-sheet number as an upper bound throughout, since real-world capacity with letterhead, cardstock, or slightly heavier paper is typically 25-35% below the ideal-condition rating." },
   { title: "Security level availability at this specific capacity tier", description: "Noted where a pick offers P-4 or genuine micro-cut security versus the more common P-2/P-3 basic cross-cut typical at the budget 8-sheet tier." },
-  { title: "Continuous run time paired with the capacity spec", description: "Highlighted that 8-sheet shredders typically have the shortest run times in the category (2-5 minutes), a duty-cycle limitation that should be considered alongside the sheet-count spec, not separately." },
+  { title: "Continuous run time paired with the capacity spec", description: "Highlighted that 8-sheet shredders typically have the shortest run times in the category (2-5 minutes), a duty-cycle limitation that should be considered alongside the sheet-count spec, not separately." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -293,11 +293,11 @@ export const faq: FaqItem[] = [
   { q: "Can an 8-sheet shredder actually handle 8 sheets every time?", a: "Not reliably with mixed paper. Real-world capacity with letterhead, cardstock, or slightly heavier paper is typically 5-6 sheets, a 25-35% reduction from the rated 8-sheet spec tested under ideal lab conditions." },
   { q: "Are all 8-sheet shredders the same security level?", a: "No. The picks in this guide range from P-2 strip-cut (lowest security, best staple tolerance) to P-4 micro-cut (highest security, tightest staple tolerance), a meaningful difference beyond just the sheet-count spec." },
   { q: "How long can I run an 8-sheet shredder continuously?", a: "Typically only 2-5 minutes before needing a 30-60 minute cooldown. This capacity tier is engineered for light, occasional use, not large bulk document purges in one sitting." },
-  { q: "Which 8-sheet pick has the highest security level in this guide?", a: "The Locksworth 8-sheet (rank 3) and Amazon Basics 8-sheet micro-cut with pull-out bin (rank 7) are both genuine micro-cut designs with the finest disclosed particle sizes at this capacity tier." },
+  { q: "Which 8-sheet pick has the highest security level in this guide?", a: "The Locksworth 8-sheet (rank 3) and Amazon Basics 8-sheet micro-cut with pull-out bin (rank 7) are both genuine micro-cut designs with the finest disclosed particle sizes at this capacity tier." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-10-sheet-paper-shredders", title: "Best 10-Sheet Paper Shredders (2026)" },
   { href: "/guide/best-paper-shredders-under-100", title: "Best Paper Shredders Under $100 (2026)" },
-  { href: "/guide/best-paper-shredders-for-credit-cards", title: "Best Paper Shredders for Credit Cards (2026)" },
+  { href: "/guide/best-paper-shredders-for-credit-cards", title: "Best Paper Shredders for Credit Cards (2026)" }
 ];

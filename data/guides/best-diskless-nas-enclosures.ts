@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "diskless nas enclosure";
 export const introParagraphs = [
   "A diskless NAS enclosure is sold empty on purpose, it lets you pick your own drives instead of paying a markup on whatever capacity the manufacturer bundled in. That flexibility only pays off if you buy the right drive type for it, since not every hard drive marketed toward consumers is actually built to survive a RAID rebuild inside a multi-bay enclosure.",
-  "Below are 8 diskless NAS enclosures we evaluated on bay count, RAID and hardware compatibility, drive support honesty, and how clearly each one signals what kind of drive it actually needs, ranging from a $151.99 4-bay DAS enclosure to a $700 4-bay Synology built for small business workloads.",
+  "Below are 8 diskless NAS enclosures we evaluated on bay count, RAID and hardware compatibility, drive support honesty, and how clearly each one signals what kind of drive it actually needs, ranging from an under-$160 4-bay DAS enclosure to a $700 4-bay Synology built for small business workloads."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Upgradeable RAM (Plus-series)",
       "Supports RAID 5, SHR, RAID 10",
       "2024+ Plus-series drive compatibility warnings for non-Synology drives",
-      "Supports DSM app ecosystem including Surveillance Station",
+      "Supports DSM app ecosystem including Surveillance Station"
     ],
     pros: [
       "Upgradeable RAM avoids the early upgrade trap of soldered-RAM models",
       "Full DSM app ecosystem including Active Backup for Business",
       "Supports RAID 5, SHR, and RAID 10",
-      "4 bays leave real expansion room over a 2-bay unit",
+      "4 bays leave real expansion room over a 2-bay unit"
     ],
     cons: [
       "Most expensive pick in this list",
       "Shows compatibility warnings for third-party drives",
-      "4 drives to buy separately adds real total cost",
+      "4 drives to buy separately adds real total cost"
     ],
     bestFor: "Buyers who want long-term app flexibility and are willing to pay for it",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Value-series, soldered RAM",
       "Less restrictive third-party drive compatibility than Plus-series",
       "Runs full DSM operating system",
-      "Supports RAID 1 mirroring",
+      "Supports RAID 1 mirroring"
     ],
     pros: [
       "Lowest price among 2-bay Synology enclosures in this list",
       "Fewer third-party drive compatibility warnings than Plus-series",
       "Runs the same DSM software as pricier Synology models",
-      "Simple setup suited to first-time NAS buyers",
+      "Simple setup suited to first-time NAS buyers"
     ],
     cons: [
       "Soldered RAM cannot be upgraded later",
       "Only 2 bays limits total capacity and RAID options",
-      "Less CPU headroom for apps like Plex transcoding",
+      "Less CPU headroom for apps like Plex transcoding"
     ],
     bestFor: "First-time NAS buyers who want simple backup without Plus-series pricing",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Supports RAID 5, SHR",
       "Video Surveillance Station support",
       "Photo Vault and secure file sharing apps",
-      "Family/small-business focused DSM feature set",
+      "Family/small-business focused DSM feature set"
     ],
     pros: [
       "4 bays at a lower price than the Plus-series DS925+",
       "Supports RAID 5 and SHR for real redundancy",
       "Includes surveillance and photo backup apps",
-      "Good middle ground between budget and Plus-series",
+      "Good middle ground between budget and Plus-series"
     ],
     cons: [
       "Less CPU power than Plus-series for heavy transcoding",
       "Fixed RAM on this tier",
-      "4 drives to buy separately adds real total cost",
+      "4 drives to buy separately adds real total cost"
     ],
     bestFor: "Buyers who want 4-bay RAID redundancy without Plus-series pricing",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Upgradeable RAM (Plus-series)",
       "Supports expansion unit for additional bays",
       "2024+ Plus-series drive compatibility warnings",
-      "Private cloud and small-business features",
+      "Private cloud and small-business features"
     ],
     pros: [
       "Expansion unit support lets you grow past 2 bays later",
       "Upgradeable RAM for future app needs",
       "Small-business focused feature set",
-      "Current-generation Plus-series hardware",
+      "Current-generation Plus-series hardware"
     ],
     cons: [
       "Pricier than the DS223j for the same starting bay count",
       "Shows compatibility warnings for third-party drives",
-      "Expansion unit is a separate purchase",
+      "Expansion unit is a separate purchase"
     ],
     bestFor: "Buyers who want to start with 2 bays but plan to expand later",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Supports up to 64TB total capacity",
       "UGREEN NAS OS",
       "Own hardware compatibility list (not DSM)",
-      "Desktop form factor",
+      "Desktop form factor"
     ],
     pros: [
       "Lower price than comparable Synology 2-bay enclosures",
       "Supports up to 64TB raw capacity",
       "No DSM-style third-party drive warnings",
-      "Compact desktop footprint",
+      "Compact desktop footprint"
     ],
     cons: [
       "Smaller app ecosystem than Synology DSM",
       "Newer platform with a shorter track record",
-      "Own compatibility list still needs checking before buying drives",
+      "Own compatibility list still needs checking before buying drives"
     ],
     bestFor: "Budget-conscious buyers open to a non-Synology NAS platform",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "USB Type-C direct-attached, not network-attached",
       "Onboard hardware RAID (0, 1, 5, 10, JBOD)",
       "Single-host connection",
-      "Plug and play, hot-swappable bays",
+      "Plug and play, hot-swappable bays"
     ],
     pros: [
       "Cheapest 4-bay hardware RAID enclosure in this list",
       "Hardware RAID handled onboard, no network setup needed",
       "Hot-swappable bays for easy drive replacement",
-      "Simple plug-and-play setup to one computer",
+      "Simple plug-and-play setup to one computer"
     ],
     cons: [
       "Not network-attached, only one host at a time",
       "No app ecosystem or remote access like a true NAS",
-      "Not a fit for multi-user or Plex-style use cases",
+      "Not a fit for multi-user or Plex-style use cases"
     ],
     bestFor: "Buyers who want RAID capacity for one computer rather than shared network storage",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "USB 3.2 Gen2 Type-C, 10Gbps",
       "Hot-swappable bays",
       "Plug and play RAID setup",
-      "Single-host direct-attached connection",
+      "Single-host direct-attached connection"
     ],
     pros: [
       "Lowest price of any pick in this list",
       "10Gbps USB 3.2 Gen2 connection outpaces the TR-004's link speed",
       "Hot-swappable, plug-and-play RAID setup",
-      "Compact 4-bay footprint",
+      "Compact 4-bay footprint"
     ],
     cons: [
       "Direct-attached only, no network sharing",
       "No app ecosystem for Plex, backup software, or remote access",
-      "Requires a computer with a fast enough USB port to see the speed benefit",
+      "Requires a computer with a fast enough USB port to see the speed benefit"
     ],
     bestFor: "Buyers who want the fastest, cheapest 4-bay RAID expansion for a single computer",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "RAID 1 mirroring support",
       "Full DSM operating system",
       "Backup and file centralization focus",
-      "Property/camera monitoring app support",
+      "Property/camera monitoring app support"
     ],
     pros: [
       "Positioned specifically for backup and file centralization",
       "Runs full DSM including monitoring apps",
       "RAID 1 provides basic mirrored redundancy",
-      "Mid-price point between DS223j and Plus-series models",
+      "Mid-price point between DS223j and Plus-series models"
     ],
     cons: [
       "Only 2 bays limits total capacity and RAID options",
       "No RAID 5, only mirroring",
-      "Less CPU headroom than Plus-series for multi-app use",
+      "Less CPU headroom than Plus-series for multi-app use"
     ],
     bestFor: "Buyers whose primary goal is centralized backup rather than a full app platform",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value at each bay tier",
     description: "Compared price against bay count and features within the 2-bay and 4-bay groups separately, since a 2-bay and 4-bay enclosure aren't really competing for the same buyer.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -466,11 +466,11 @@ export const faq: FaqItem[] = [
   {
     q: "How many bays do I actually need for a home diskless NAS?",
     a: "2 bays are enough for simple backup with basic RAID 1 mirroring, covered by picks like the Synology DS223j and DS223 in this list. 4 bays, like the DS423 or DS925+, open up RAID 5 or SHR with a real spare-drive margin and more total capacity, worth the extra cost if you expect to grow past basic backup into Plex, surveillance, or business use.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-nas-for-plex-media-servers", title: "Best NAS for Plex Media Servers (2026)" },
   { href: "/guide/best-nas-storage-devices", title: "Best NAS Storage Devices (2026)" },
-  { href: "/guide/best-nas-storage-for-home-office", title: "Best NAS Storage for Home Office (2026)" },
+  { href: "/guide/best-nas-storage-for-home-office", title: "Best NAS Storage for Home Office (2026)" }
 ];

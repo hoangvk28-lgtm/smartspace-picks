@@ -6,7 +6,7 @@ export const mainKeyword = "rechargeable vertical mouse";
 export const introParagraphs = [
   "Charging cable type, USB-C standard versus older micro-USB, should be verified per product, mirroring the same connector-type concern raised in compact travel mouse research, since a mismatched cable adds friction to an otherwise convenient charging routine.",
   "Charge time and realistic battery life per charge cycle should be tested under actual use conditions rather than accepting manufacturer-quoted battery life figures at face value, since quoted numbers often assume idealized usage patterns.",
-  "Charge-while-in-use capability, whether the mouse can be used during charging or becomes unusable and wired-only while plugged in, deserves real verification as a genuine usability differentiator most product listings simply don't mention.",
+  "Charge-while-in-use capability, whether the mouse can be used during charging or becomes unusable and wired-only while plugged in, deserves real verification as a genuine usability differentiator most product listings simply don't mention."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Rechargeable Vertical Mouse Overall",
     name: "Logitech MX Vertical Wireless Mouse Ergonomic Design - Graphite",
     price: "$74.99",
-    rating: "4.4 stars from 14,970 Amazon ratings",
-    reviews: "14,970 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Ig2YzI5iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07FNJB8TT?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Rechargeable Pick",
     name: "Lekvey Ergonomic Mouse, Rechargeable Vertical Wireless Mouse, Comfort Grip",
     price: "$24.98",
-    rating: "4.4 stars from 15,431 Amazon ratings",
-    reviews: "15,431 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31rCoH07kzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07BFCVJZC?tag=deskfinds0d-20",
     description:
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best USB-C Rechargeable Pick",
     name: "ProtoArc EM11 NL Wireless Ergonomic Mouse, Rechargeable Vertical Mouse",
     price: "$25.99",
-    rating: "4.4 stars from 5,670 Amazon ratings",
-    reviews: "5,670 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31pLezomU4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCBW3B3T?tag=deskfinds0d-20",
     description:
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Rechargeable Pick with Volume Knob",
     name: "seenda MOU-302 Wireless Bluetooth Ergonomic Vertical Mouse with Volume Knob",
     price: "$19.98",
-    rating: "4.6 stars from 1,572 Amazon ratings",
-    reviews: "1,572 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/317OUYp22fL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DM8KRK37?tag=deskfinds0d-20",
     description:
@@ -94,8 +94,8 @@ export const products: GuideProduct[] = [
     badge: "Best Long-Battery-Life Rechargeable Pick",
     name: "TECKNET Ergonomic Mouse, Wireless Bluetooth Vertical Mouse, 4800 DPI Optical Tracking, 6 Adjustable DPI, Quiet Clicks, 2.4GHz with USB A Receiver, 12 Months Battery, 6 Buttons, Wide Compatibility",
     price: "$20.99",
-    rating: "4.4 stars from 12,710 Amazon ratings",
-    reviews: "12,710 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31UoLhAJ4zL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DG5SW7F4?tag=deskfinds0d-20",
     description:
@@ -104,7 +104,7 @@ export const products: GuideProduct[] = [
     pros: ["Very large review base, strong real-world evidence", "Quoted 12-month battery life meaningfully longer than typical", "6 buttons for more programmable functionality", "Quiet clicks as a genuine bonus feature"],
     cons: ["Realistic battery life under heavy use may fall short of the quoted figure", "Charge-while-in-use capability not explicitly confirmed", "Charging cable type should be verified against your existing cables"],
     bestFor: "Buyers wanting to minimize charging frequency with a long quoted battery life",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -113,7 +113,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Realistic charge time and battery life weighed against quoted figures", description: "Weighed charge time and realistic battery life per charge cycle under actual use conditions rather than accepting manufacturer-quoted battery life figures at face value." },
   { title: "Charge-while-in-use capability verified as a real differentiator", description: "Verified charge-while-in-use capability, whether the mouse can be used during charging or becomes unusable/wired-only while plugged in, as a genuine usability differentiator." },
   { title: "Long-term battery degradation considered as an ownership factor", description: "Addressed battery degradation over the product's lifespan, reduced maximum charge capacity after months or years of charge cycles, distinct from out-of-box battery life claims." },
-  { title: "Battery indicator accuracy weighed for reliability", description: "Considered battery indicator accuracy and visibility, LED indicator or software-based percentage, for reliability, since inaccurate warnings can lead to unexpected mid-task power loss." },
+  { title: "Battery indicator accuracy weighed for reliability", description: "Considered battery indicator accuracy and visibility, LED indicator or software-based percentage, for reliability, since inaccurate warnings can lead to unexpected mid-task power loss." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Can I use my rechargeable mouse while it's charging?", a: "It depends on the specific mouse, some remain fully usable during charging while others become wired-only or fully unusable, this is a genuine usability differentiator worth verifying before buying." },
   { q: "Does a rechargeable mouse's battery life get worse over time?", a: "Yes, generally, battery degradation over the product's lifespan means reduced maximum charge capacity after months or years of charge cycles, distinct from the out-of-box battery life claim." },
   { q: "How do I know if my rechargeable mouse's battery indicator is accurate?", a: "Check current reviews specifically for battery indicator reliability feedback, an inaccurate warning can lead to unexpected mid-task power loss regardless of the mouse's overall quality." },
-  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers wanting a premium rechargeable pick with confirmed charge-while-in-use capability" },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers wanting a premium rechargeable pick with confirmed charge-while-in-use capability" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-silent-vertical-mice", title: "Best Silent Vertical Mice (2026)" },
   { href: "/guide/best-usb-c-vertical-mice", title: "Best USB-C Vertical Mice (2026)" },
-  { href: "/guide/best-multi-device-vertical-mice", title: "Best Multi-Device Vertical Mice (2026)" },
+  { href: "/guide/best-multi-device-vertical-mice", title: "Best Multi-Device Vertical Mice (2026)" }
 ];

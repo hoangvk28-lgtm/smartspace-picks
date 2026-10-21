@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41CrQFRmREL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1BYSYLH?tag=deskfinds0d-20",
-    description: "This genuinely runs without a host computer, preloaded with five creative apps for sketching, painting, and guided lessons. The fully laminated 11-inch 2K screen specifically reduces parallax and glare, paired with a 4096-level pressure-sensitive stylus. An octa-core processor with 6GB RAM and 128GB storage (expandable to 1TB) handles drawing apps and multitasking, backed by an 8000mAh-class battery. Six bonus items worth noting ship included: a Concepts app Pro upgrade, an Artixo VIP tutorial upgrade, a case, glove, power adapter, and screen protector. Certified to GMS, FCC, and CE with a 1-year warranty.\n\nThe strongest case for this pick comes down to genuinely standalone, no computer needed at all as well as six bonus items including lifetime app upgrades included. The compromise here is that 4096 pressure levels trails computer-tethered 16K tablets, so factor that in alongside the $239.95 asking price.",
+    description: "This genuinely runs without a host computer, preloaded with five creative apps for sketching, painting, and guided lessons. The fully laminated 11-inch 2K screen specifically reduces parallax and glare, paired with a 4096-level pressure-sensitive stylus. An octa-core processor with 6GB RAM and 128GB storage (expandable to 1TB) handles drawing apps and multitasking, backed by an 8000mAh-class battery. Six bonus items worth noting ship included: a Concepts app Pro upgrade, an Artixo VIP tutorial upgrade, a case, glove, power adapter, and screen protector. Certified to GMS, FCC, and CE with a 1-year warranty.\n\nThe strongest case for this pick comes down to genuinely standalone, no computer needed at all as well as six bonus items including lifetime app upgrades included. The compromise here is that 4096 pressure levels trails computer-tethered 16K tablets, so factor that in alongside the under $250 asking price.",
     specs: ["11in 2K laminated screen, standalone Android","4096-level pressure stylus","6GB RAM, 128GB storage (expandable to 1TB)"],
     pros: ["Genuinely standalone, no computer needed at all","Six bonus items including lifetime app upgrades included","128GB storage expandable to 1TB via microSD"],
     cons: ["4096 pressure levels trails computer-tethered 16K tablets","Preloaded apps are simpler than desktop Photoshop-class software"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/512sdD+9Z+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZHGCT5S?tag=deskfinds0d-20",
-    description: "This compact, travel-focused standalone tablet runs entirely without a computer, preloaded with five creative apps covering drawing, painting, animation, and guided lessons. The laminated 10-inch screen reduces glare and parallax, paired with a 4096-level pressure-sensitive stylus. Six bonus items worth noting ship included: Concepts app Pro upgrade, Artixo VIP tutorial upgrade, tablet case, drawing glove, power adapter, and screen protector. An octa-core processor with 6GB RAM and 64GB storage (expandable to 1TB) handles drawing apps and everyday multitasking without lag.\n\nWhere this one earns its spot is six bonus items including lifetime app upgrades included, and genuinely compact and travel-friendly at 10 inches. Worth noting before buying: 64GB base storage is tight before expansion, which matters more at $197.95 than it would on a cheaper pick.",
+    description: "This compact, travel-focused standalone tablet runs entirely without a computer, preloaded with five creative apps covering drawing, painting, animation, and guided lessons. The laminated 10-inch screen reduces glare and parallax, paired with a 4096-level pressure-sensitive stylus. Six bonus items worth noting ship included: Concepts app Pro upgrade, Artixo VIP tutorial upgrade, tablet case, drawing glove, power adapter, and screen protector. An octa-core processor with 6GB RAM and 64GB storage (expandable to 1TB) handles drawing apps and everyday multitasking without lag.\n\nWhere this one earns its spot is six bonus items including lifetime app upgrades included, and genuinely compact and travel-friendly at 10 inches. Worth noting before buying: 64GB base storage is tight before expansion, which matters more at under $200 than it would on a cheaper pick.",
     specs: ["10in laminated screen, standalone Android","4096-level pressure stylus","6GB RAM, 64GB storage (expandable to 1TB)"],
     pros: ["Six bonus items including lifetime app upgrades included","Genuinely compact and travel-friendly at 10 inches","64GB storage expandable to 1TB via microSD"],
     cons: ["64GB base storage is tight before expansion","4096 pressure levels trails computer-tethered options"],
@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $197.95",
+          "Under $200",
           "PicassoTab 10\" Standalone Drawing Tablet"
         ],
         [
-          "Around $199.99",
+          "Under $200",
           "12-Inch Standalone Drawing Tablet No Computer Needed with 4096-Level Stylus"
         ],
         [
-          "Around $239.95",
+          "Under $250",
           "11\" Standalone Drawing Tablet"
         ],
         [
-          "Around $263.00",
+          "Under $300",
           "HUION KAMVAS Slate 11 Standalone Drawing Tablet No Computer Needed"
         ],
         [
-          "Around $459.99",
+          "Under $500",
           "XPPen Magic Drawing Pad 12.2 Inch Standalone Drawing Tablet"
         ],
         [
-          "Around $499.95",
+          "Under $500",
           "Wacom MovinkPad 11"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Wacom MovinkPad 11 is aimed at buyers prioritizing android 14, 8gb ram, 128gb storage." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Wacom MovinkPad 11 is aimed at buyers prioritizing android 14, 8gb ram, 128gb storage." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-standalone-drawing-tablets","title":"Best Standalone Drawing Tablets in 2026"},{"href":"/guide/best-no-computer-needed-drawing-tablets","title":"Best No Computer Needed Drawing Tablets in 2026"},{"href":"/guide/best-standalone-no-computer-needed-drawing-tablets","title":"Best Standalone No Computer Needed Drawing Tablets in 2026"}];

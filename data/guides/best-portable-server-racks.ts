@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31t+0aeG+DL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CR5GS5X2?tag=deskfinds0d-20",
-    description: "At 30U this is one of the taller open-frame rolling racks in the AxcessAbles line, giving you real headroom for a growing home lab or studio rack without going to a fully enclosed cabinet.\n\nThe same 18-inch depth and removable side panel design carries over from the smaller models, so airflow and access stay consistent as you scale up in height.\n\nThis pick is best for buyers who value tall 30U build fits a growing equipment stack along with removable panels switch between open and closed setups. The catch is that tall and narrow footprint needs a stable floor, so decide if that's worth it at $299.99.",
+    description: "At 30U this is one of the taller open-frame rolling racks in the AxcessAbles line, giving you real headroom for a growing home lab or studio rack without going to a fully enclosed cabinet.\n\nThe same 18-inch depth and removable side panel design carries over from the smaller models, so airflow and access stay consistent as you scale up in height.\n\nThis pick is best for buyers who value tall 30U build fits a growing equipment stack along with removable panels switch between open and closed setups. The catch is that tall and narrow footprint needs a stable floor, so decide if that's worth it at under $300.",
     specs: ["30U height, 18\" depth","550 lb static / 440 lb rolling capacity","Removable vented side panels"],
     pros: ["Tall 30U build fits a growing equipment stack","Removable panels switch between open and closed setups","Includes both screw standards for mixed-brand gear"],
     cons: ["Tall and narrow footprint needs a stable floor","No lockable door for equipment security"],
@@ -129,20 +129,20 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $159.99",
+          "Under $160",
           "AxcessAbles 12U Network Rack with Wheels"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "AxcessAbles 22U Rolling IT Server Rack"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "AxcessAbles 30U Rolling Network Server Rack"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -190,7 +190,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "AxcessAbles 12U Network Rack with Wheels is aimed at buyers prioritizing 18\" usable depth, 1.5mm steel frame." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "AxcessAbles 12U Network Rack with Wheels is aimed at buyers prioritizing 18\" usable depth, 1.5mm steel frame." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-rolling-server-racks","title":"Best Rolling Server Racks in 2026"},{"href":"/guide/best-server-racks-on-wheels","title":"Best Server Racks on Wheels in 2026"},{"href":"/guide/best-mobile-server-racks","title":"Best Mobile Server Racks in 2026"}];

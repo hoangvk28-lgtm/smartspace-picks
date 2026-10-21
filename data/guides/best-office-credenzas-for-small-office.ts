@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $89.99",
+          "Under $90",
           "DEVAISE Office File Cabinet"
         ],
         [
-          "Around $93.49",
+          "Under $100",
           "REHOOPEX Black Storage Cabinet with Doors"
         ],
         [
-          "Around $119.99",
+          "Under $120",
           "Smuxee Walnut Sideboard Cabinet"
         ],
         [
-          "Around $143.99",
+          "Under $150",
           "43\" Wood File Cabinet with Power Outlet"
         ],
         [
-          "Around $149.99",
+          "Under $150",
           "SEDETA Fluted 2 Drawer Filing Cabinet with 2 Sliding Doors for Home Office"
         ],
         [
-          "Around $149.99",
+          "Under $150",
           "DecoFurn Lateral File Cabinet with 2 Drawers"
         ],
         [
-          "Around $174.99",
+          "Under $180",
           "Lateral File Cabinet with Charging Station"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "Perledesign 3 Drawer File Cabinet"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "SEDETA Fluted 2 Drawer Filing Cabinet with 2 Sliding Doors for Home Office is aimed at buyers prioritizing 39.4in x 15.7in desktop, 2 file drawers." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "SEDETA Fluted 2 Drawer Filing Cabinet with 2 Sliding Doors for Home Office is aimed at buyers prioritizing 39.4in x 15.7in desktop, 2 file drawers." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-small-office-credenzas","title":"Best Small Office Credenzas in 2026"},{"href":"/guide/best-narrow-office-credenzas","title":"Best Narrow Office Credenzas in 2026"},{"href":"/guide/best-small-office-credenzas-with-drawers","title":"Best Small Office Credenzas With Drawers in 2026"}];

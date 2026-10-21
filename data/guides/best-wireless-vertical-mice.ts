@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "best wireless vertical mice";
 export const introParagraphs = [
   "'Wireless' covers two genuinely different methods, a 2.4GHz USB dongle or Bluetooth, and they behave differently in practice. A dongle generally connects faster and holds a more consistent connection in busy signal environments, while Bluetooth trades some of that reliability for not needing a free USB port. Check which method (or both) a specific mouse uses before assuming 'wireless' means the same experience across every pick.",
-  "Battery type is also worth checking alongside any battery life claim. A mouse using AA or AAA batteries adds real weight and bulk that changes how the ergonomic angle feels in your hand, compared to a built-in rechargeable battery. We also looked at whether each pick includes a dongle storage compartment, since a loose USB receiver is one of the easiest small parts to lose, and noted that real-world signal range in a cluttered desk environment is usually shorter than the idealized open-space range marketing often states.",
+  "Battery type is also worth checking alongside any battery life claim. A mouse using AA or AAA batteries adds real weight and bulk that changes how the ergonomic angle feels in your hand, compared to a built-in rechargeable battery. We also looked at whether each pick includes a dongle storage compartment, since a loose USB receiver is one of the easiest small parts to lose, and noted that real-world signal range in a cluttered desk environment is usually shorter than the idealized open-space range marketing often states."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "10 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Wireless Pick",
     name: "Anker 2.4G Wireless Ergonomic Mouse, Right Hand Vertical Mouse",
     price: "$19.98",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "53,313 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31z5JT0yL+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BIFNTMC?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Connectivity Pick",
     name: "Logitech MX Vertical Wireless Mouse Ergonomic Design",
     price: "Check current price on Amazon",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "14,970 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Ig2YzI5iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07FNJB8TT?tag=deskfinds0d-20",
     description:
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best Rechargeable Wireless Value",
     name: "Lekvey Ergonomic Mouse, Rechargeable Vertical Wireless Mouse",
     price: "$24.98",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "15,431 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31rCoH07kzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07BFCVJZC?tag=deskfinds0d-20",
     description:
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Dual-Connectivity Pick",
     name: "Logitech Lift Vertical Ergonomic Wireless Mouse",
     price: "$57.40",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "13,635 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31nb5ALnDvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09J1TB35S?tag=deskfinds0d-20",
     description:
@@ -94,8 +94,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Rechargeable Pick",
     name: "ProtoArc EM11 NL Wireless Ergonomic Vertical Mouse, Rechargeable",
     price: "$22.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "5,670 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31PGrLfkUxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CX18LHWS?tag=deskfinds0d-20",
     description:
@@ -111,15 +111,15 @@ export const products: GuideProduct[] = [
     badge: "Best Wireless Pick for Extra Buttons",
     name: "Razer Pro Click V2 Vertical Wireless Mouse, 6 Button Ergonomic Design",
     price: "$99.99",
-    rating: "4.0 stars from Amazon ratings",
-    reviews: "461 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41DVlxxe4WL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DVD5RTZ5?tag=deskfinds0d-20",
     description:
-      "A 6-button wireless layout gives more programmable shortcuts than most picks in this guide, useful for buyers who want productivity remapping across their wireless setup.\n\nIts review base is smaller and the average rating is more moderate than the other picks here, so weigh that against the extra buttons and rechargeable convenience before choosing this over a better-reviewed alternative.\n\nWorth calling out specifically: rechargeable battery. The catch is smaller review base and more moderate 4.0-star rating.",
+      "A 6-button wireless layout gives more programmable shortcuts than most picks in this guide, useful for buyers who want productivity remapping across their wireless setup.\n\nIts review base is smaller and the average rating is more moderate than the other picks here, so weigh that against the extra buttons and rechargeable convenience before choosing this over a better-reviewed alternative.\n\nWorth calling out specifically: rechargeable battery.",
     specs: ["Wireless connectivity", "6 programmable buttons", "Rechargeable battery", "Premium price point"],
     pros: ["More programmable buttons than most wireless vertical mice", "Rechargeable battery", "Ergonomic vertical body", "Software support for button remapping"],
-    cons: ["Smaller review base and more moderate 4.0-star rating", "Premium price relative to its rating", "Dongle storage and range not independently confirmed"],
+    cons: [ "Premium price relative to its rating", "Dongle storage and range not independently confirmed"],
     bestFor: "Buyers who want more programmable buttons over a wireless connection and are comfortable with a smaller review sample.",
   },
   {
@@ -128,8 +128,8 @@ export const products: GuideProduct[] = [
     badge: "Best Small-Hand Wireless Pick",
     name: "Luhaso Ergonomic Vertical Wireless Mouse, 57 degree, Small/Medium Hands",
     price: "$19.99",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "57 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31ttLEqu0hL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GNMPGM7G?tag=deskfinds0d-20",
     description:
@@ -145,8 +145,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wireless Pick for Casual Gaming",
     name: "Attoe Gaming Mouse with 5D Rocker, Wireless Vertical Mouse with 2400 DPI",
     price: "$35.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "116 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41XVdqDE3aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9PDRYZK?tag=deskfinds0d-20",
     description:
@@ -155,7 +155,7 @@ export const products: GuideProduct[] = [
     pros: ["Wireless connectivity with a genuinely extra control input", "Budget-friendly price for the feature set", "Works for both office and casual gaming use", "5D rocker button adds versatility"],
     cons: ["Small review sample size, verify current buyer feedback", "2400 DPI ceiling is modest compared to dedicated gaming mice", "Wireless method not fully detailed in the listing"],
     bestFor: "Buyers who want one wireless mouse that reasonably covers both office tasks and casual gaming.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -163,7 +163,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Dongle versus Bluetooth reliability disclosed per product", description: "We noted which wireless method each pick uses and the general reliability tradeoff between a 2.4GHz dongle and Bluetooth in busy environments." },
   { title: "Battery type checked alongside battery life claims", description: "We flagged whether a pick uses AA or AAA batteries versus a rechargeable cell, since this affects the mouse's weight and ergonomic feel." },
   { title: "Dongle storage availability noted where relevant", description: "We checked whether a pick includes a compartment to store its USB receiver, reducing the risk of losing a small, easily misplaced part." },
-  { title: "Realistic signal range weighed over idealized claims", description: "We treated stated wireless range as an idealized open-space figure and noted that real desk environments with obstructions typically perform worse." },
+  { title: "Realistic signal range weighed over idealized claims", description: "We treated stated wireless range as an idealized open-space figure and noted that real desk environments with obstructions typically perform worse." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -294,11 +294,11 @@ export const faq: FaqItem[] = [
   { q: "Is a 2.4GHz dongle more reliable than Bluetooth for a vertical mouse?", a: "Generally yes in busy signal environments, though Bluetooth is more convenient for switching between multiple devices and doesn't use a USB port." },
   { q: "Do wireless vertical mice use AA batteries or rechargeable cells?", a: "Both exist in this category. Rechargeable models avoid the added weight and bulk of AA batteries, which can matter for the ergonomic feel." },
   { q: "What happens if I lose the wireless dongle?", a: "Check whether your mouse has a storage slot for the dongle in its body, and note that most dongles are matched to a specific mouse and can't easily be replaced generically." },
-  { q: "Is the wireless range on the box realistic for my desk?", a: "Usually not exactly. Marketed range figures are typically measured in open, unobstructed conditions, so expect somewhat shorter reliable range on a cluttered desk." },
+  { q: "Is the wireless range on the box realistic for my desk?", a: "Usually not exactly. Marketed range figures are typically measured in open, unobstructed conditions, so expect somewhat shorter reliable range on a cluttered desk." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-bluetooth-vertical-mice", title: "Best Bluetooth Vertical Mice in 2026" },
   { href: "/guide/best-wired-vertical-mice", title: "Best Wired Vertical Mice in 2026" },
-  { href: "/guide/best-vertical-mice", title: "Best Vertical Mice in 2026" },
+  { href: "/guide/best-vertical-mice", title: "Best Vertical Mice in 2026" }
 ];

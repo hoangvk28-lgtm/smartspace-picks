@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/318C3iAUN7L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D4617CLP?tag=deskfinds0d-20",
-    "description": "Chefman is a 0.8 liter gooseneck rated at 1000W with one-touch operation, a blue LED that goes out at a rolling boil, a removable lid and a water-level gauge. The listing says boiling in as little as 3 minutes.\n\nIts gooseneck spout suits pour-over coffee more than the plain-spout picks, and it costs $27.99, less than DmofwHi. The 0.8 liter capacity is smaller than Cosori, so it is a one or two cup kettle.\n\nChoose it for a desk pour-over setup. The caveat is the small size, and the listing does not state the interior material in the part we reviewed.",
+    "description": "Chefman is a 0.8 liter gooseneck rated at 1000W with one-touch operation, a blue LED that goes out at a rolling boil, a removable lid and a water-level gauge. The listing says boiling in as little as 3 minutes.\n\nIts gooseneck spout suits pour-over coffee more than the plain-spout picks, and it costs under $30, less than DmofwHi. The 0.8 liter capacity is smaller than Cosori, so it is a one or two cup kettle.\n\nChoose it for a desk pour-over setup. The caveat is the small size, and the listing does not state the interior material in the part we reviewed.",
     "specs": [
       "0.8L gooseneck, 1000W",
       "One-touch, boil-dry protection",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41wbFmOcgsL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B08FVFYB8Y?tag=deskfinds0d-20",
-    "description": "Elite Gourmet's EKT1001 is a 1 liter glass kettle at 1100W with a blue LED interior, a 360 degree cordless base and a spout mesh filter. The listing cites auto shut-off at boil.\n\nIt is the cheapest at $18.99 and the only glass body here, and it has the highest wattage. Against Cosori, it holds less but lets you see the water level, though glass needs more care.\n\nGood for a cheap desk kettle with a view of the water. The caveat is that 1100W is a heavy load on a shared circuit, and the listing says BPA-free, which is not the same as plastic-free.",
+    "description": "Elite Gourmet's EKT1001 is a 1 liter glass kettle at 1100W with a blue LED interior, a 360 degree cordless base and a spout mesh filter. The listing cites auto shut-off at boil.\n\nIt is the cheapest at under $20 and the only glass body here, and it has the highest wattage. Against Cosori, it holds less but lets you see the water level, though glass needs more care.\n\nGood for a cheap desk kettle with a view of the water. The caveat is that 1100W is a heavy load on a shared circuit, and the listing says BPA-free, which is not the same as plastic-free.",
     "specs": [
       "1.0L glass, 1100W",
       "360 degree cordless base",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31sQLIpgDxL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0B9X4RNFF?tag=deskfinds0d-20",
-    "description": "WTJMOV is a 0.6 liter, 600W kettle weighing 1.34 pounds, with 304 stainless steel on every water-contact part and a double wall that keeps the outside from getting too hot. The listing says 0.6 liters boils in 5 minutes.\n\nIts 600W draw is the lowest of the group, which helps on a shared circuit, and the double wall is a safety plus on a crowded desk. It costs $23.99, between Tuehakny and Chefman.\n\nBest for one person with a small desk and a crowded circuit. The caveat is that 0.6 liters is only about two cups, and boil time is slow for a refill.",
+    "description": "WTJMOV is a 0.6 liter, 600W kettle weighing 1.34 pounds, with 304 stainless steel on every water-contact part and a double wall that keeps the outside from getting too hot. The listing says 0.6 liters boils in 5 minutes.\n\nIts 600W draw is the lowest of the group, which helps on a shared circuit, and the double wall is a safety plus on a crowded desk. It costs under $25, between Tuehakny and Chefman.\n\nBest for one person with a small desk and a crowded circuit. The caveat is that 0.6 liters is only about two cups, and boil time is slow for a refill.",
     "specs": [
       "0.6L, 600W",
       "304 stainless water contact",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31ZI8nGYCGL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GV7T388D?tag=deskfinds0d-20",
-    "description": "Tuehakny is a 0.8 liter, 600W kettle with a 304 stainless steel inner, a detachable base, one-button operation and a retractable cord feature mentioned. The listing includes a boil time that is clearly a typo, so we did not use it.\n\nIt costs $19.99 and has more capacity than WTJMOV at the same 600W. Against RHD below, it holds 0.3 liters more.\n\nChoose it for a compact kettle with a neat cord. The caveat is the unreliable boil-time claim in the listing, and its dual finish is only about looks.",
+    "description": "Tuehakny is a 0.8 liter, 600W kettle with a 304 stainless steel inner, a detachable base, one-button operation and a retractable cord feature mentioned. The listing includes a boil time that is clearly a typo, so we did not use it.\n\nIt costs under $20 and has more capacity than WTJMOV at the same 600W. Against RHD below, it holds 0.3 liters more.\n\nChoose it for a compact kettle with a neat cord. The caveat is the unreliable boil-time claim in the listing, and its dual finish is only about looks.",
     "specs": [
       "0.8L, 600W",
       "304 stainless inner",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31cALfuP5YL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CJTHBYZ5?tag=deskfinds0d-20",
-    "description": "RHD is a 0.5 liter, 110V 600W kettle with a 4 inch wide opening, a removable 60 cm cord and a 304 stainless interior with no plastic in water contact. The listing says it suits 2 to 3 people and has auto shut-off and boil-dry protection.\n\nIt is the smallest here at $19.99, with the largest opening for its size, which makes it the easiest to clean. Against Tuehakny, it holds less but the opening is wider.\n\nBest for solo use at a small desk. The caveat is the 0.5 liter size, which is a single mug and a refill, and slow for groups.",
+    "description": "RHD is a 0.5 liter, 110V 600W kettle with a 4 inch wide opening, a removable 60 cm cord and a 304 stainless interior with no plastic in water contact. The listing says it suits 2 to 3 people and has auto shut-off and boil-dry protection.\n\nIt is the smallest here at under $20, with the largest opening for its size, which makes it the easiest to clean. Against Tuehakny, it holds less but the opening is wider.\n\nBest for solo use at a small desk. The caveat is the 0.5 liter size, which is a single mug and a refill, and slow for groups.",
     "specs": [
       "0.5L, 110V 600W",
       "4 inch wide opening",
@@ -263,7 +263,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     "title": "Value for price",
-    "description": "Prices from $18.99 to $38.99 were compared with the documented features."
+    "description": "Prices from roughly $20 to $40 were compared with the documented features."
   }
 ];
 

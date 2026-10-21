@@ -140,7 +140,7 @@ export default async function Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Mesh Office Chairs", item: `${SITE_URL}/guide/best-mesh-office-chair` },
+      { "@type": "ListItem", position: 3, name: "Best Mesh Office Chairs", item: `${SITE_URL}/guide/best-mesh-office-chair` }
     ],
   };
 
@@ -245,7 +245,7 @@ export default async function Page() {
 
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>A mesh office chair circulates air through the back and seat surface rather than trapping heat against the body - this makes mesh the practical choice for users in warm offices or those who sit 6-plus hours daily.</p>
-          <p>This guide covers eight mesh office chairs ranked by mesh quality, lumbar adjustability, breathability, and price - from the Herman Miller Aeron 8Z Pellicle benchmark at $1,695 to budget mesh options under $190.</p>
+          <p>This guide covers eight mesh office chairs ranked by mesh quality, lumbar adjustability, breathability, and price - from the Herman Miller Aeron 8Z Pellicle benchmark at under $1,700 to budget mesh options under $190.</p>
           <p>For leather alternatives that provide a traditional executive look, see our <a href='/guide/best-leather-office-chair' className='text-brand hover:underline'>best leather office chairs</a> guide.</p>
         </section>
 

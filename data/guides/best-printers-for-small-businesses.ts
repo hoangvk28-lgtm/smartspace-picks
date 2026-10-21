@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "printer for small business";
 export const introParagraphs = [
   "A small business printer has to survive daily use that a home printer was never designed for, whether that means printing shipping labels at a retail counter, running high-volume black-and-white contracts at a law office, or turning out color proofs at a design studio. The right pick depends less on brand and more on matching duty cycle, color needs, and true cost per page to how your specific business actually prints.",
-  "Below are 8 printers for small businesses we evaluated on print speed, duty cycle, paper handling, and real cost per page rather than sticker price alone, ranging from a $99.99 basic all-in-one to a $284.99 color laser built for a 250-sheet daily workload.",
+  "Below are 8 printers for small businesses we evaluated on print speed, duty cycle, paper handling, and real cost per page rather than sticker price alone, ranging from an under-$100 basic all-in-one to an under-$300 color laser built for a 250-sheet daily workload."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Automatic duplex (2-sided) printing",
       "Copy and scan built in",
       "Wireless and mobile printing",
-      "Compact footprint for a shared desk or counter",
+      "Compact footprint for a shared desk or counter"
     ],
     pros: [
       "Low cost per page for high text volume",
       "Duplex printing saves paper automatically",
       "Compact enough for a shared office desk",
-      "Toner does not dry out during slow weeks the way ink does",
+      "Toner does not dry out during slow weeks the way ink does"
     ],
     cons: [
       "No color output at all",
       "Higher upfront cost than a basic inkjet",
-      "Overkill for a business printing under 50 pages a month",
+      "Overkill for a business printing under 50 pages a month"
     ],
     bestFor: "Law offices, accounting firms, and text-heavy service businesses",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "250-sheet paper tray",
       "Automatic duplex printing",
       "Wireless and mobile device compatible",
-      "Built for daily professional office use",
+      "Built for daily professional office use"
     ],
     pros: [
       "Genuine color laser output, not inkjet color",
       "Large 250-sheet tray reduces refill frequency",
       "Fast 19 PPM output speed",
-      "Toner does not dry out like idle inkjet cartridges",
+      "Toner does not dry out like idle inkjet cartridges"
     ],
     cons: [
       "Highest price in this list",
       "Larger footprint than the compact mono laser",
-      "Color laser toner costs more per cartridge than mono toner",
+      "Color laser toner costs more per cartridge than mono toner"
     ],
     bestFor: "Design studios, real estate offices, and businesses needing professional color output",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Automatic document feeder (ADF)",
       "Automatic duplex printing",
       "1-year Instant Ink trial included",
-      "Wireless and AI-capable printing",
+      "Wireless and AI-capable printing"
     ],
     pros: [
       "Fax and ADF cover document-heavy small office needs",
       "Included Instant Ink trial lowers first-year ink cost",
       "Full color output for mixed text and graphics",
-      "Duplex printing built in",
+      "Duplex printing built in"
     ],
     cons: [
       "Inkjet cost per page rises after the Instant Ink trial ends",
       "Slower than the laser picks for pure text volume",
-      "Ink can dry out if the printer sits idle for weeks",
+      "Ink can dry out if the printer sits idle for weeks"
     ],
     bestFor: "General small offices that still need fax and multi-page scanning",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Wireless and mobile printing",
       "Compact chassis",
       "Low per-page toner cost",
-      "No scan or copy functions",
+      "No scan or copy functions"
     ],
     pros: [
       "Cheapest laser pick in this list",
       "Low cost per page for pure text printing",
       "Compact footprint for a small counter or shelf",
-      "Reliable wireless setup for shared office use",
+      "Reliable wireless setup for shared office use"
     ],
     cons: [
       "No scan or copy, print only",
       "No color output",
-      "Needs a separate device for document scanning",
+      "Needs a separate device for document scanning"
     ],
     bestFor: "Businesses that already have a scanner and just need a dedicated print workhorse",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Automatic document feeder",
       "Automatic 2-sided printing",
       "1.4-inch color display",
-      "Cartridge-based ink system",
+      "Cartridge-based ink system"
     ],
     pros: [
       "Lowest price in this list",
       "Full office function set: scan, copy, fax, ADF",
       "Compact and easy to fit on a small counter",
-      "Simple color display for quick status checks",
+      "Simple color display for quick status checks"
     ],
     cons: [
       "Cartridge ink costs more per page than an ink-tank system",
       "Not built for high daily volume",
-      "Ink can dry out with infrequent use like other cartridge inkjets",
+      "Ink can dry out with infrequent use like other cartridge inkjets"
     ],
     bestFor: "Very small or home-based businesses with light, occasional office printing",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Color print, scan, and copy",
       "Wireless printing",
       "Bottled ink refills included",
-      "Designed for everyday, regular-volume printing",
+      "Designed for everyday, regular-volume printing"
     ],
     pros: [
       "Ink bottle refills cost far less per page than cartridges",
       "Handles regular color printing without high ongoing cost",
       "Scan and copy included",
-      "No cartridges to run out mid-job",
+      "No cartridges to run out mid-job"
     ],
     cons: [
       "Higher upfront price than basic cartridge inkjets",
       "Larger footprint due to the ink tanks",
-      "No fax or automatic document feeder",
+      "No fax or automatic document feeder"
     ],
     bestFor: "Businesses printing color materials regularly enough to justify ink-tank economics",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Automatic document feeder",
       "Fax, scan, copy, and print",
       "Mobile printing support",
-      "Higher-capacity tank design for sustained volume",
+      "Higher-capacity tank design for sustained volume"
     ],
     pros: [
       "2 years of ink included lowers early running costs",
       "Full document feeder and fax for office paperwork",
       "Ink-tank economics for ongoing color volume",
-      "Handles both high volume and multifunction needs",
+      "Handles both high volume and multifunction needs"
     ],
     cons: [
       "Most expensive ink-tank pick in this list",
       "Larger footprint than cartridge-based all-in-ones",
-      "Overkill for a business printing only occasionally",
+      "Overkill for a business printing only occasionally"
     ],
     bestFor: "Businesses that need both an ink-tank cost structure and full document handling",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Print, scan, and copy",
       "Wireless printing (2.4GHz only)",
       "Compact footprint versus the Plus 651",
-      "No fax or automatic document feeder",
+      "No fax or automatic document feeder"
     ],
     pros: [
       "2 years of ink included",
       "Lower upfront price than the Plus 651 ink-tank model",
       "Compact for an ink-tank printer",
-      "Low cost per page for ongoing color and text printing",
+      "Low cost per page for ongoing color and text printing"
     ],
     cons: [
       "2.4GHz-only wireless can be a setup snag on some routers",
       "No fax or document feeder",
-      "No automatic duplex printing listed",
+      "No automatic duplex printing listed"
     ],
     bestFor: "Small businesses wanting ink-tank savings in the smallest available footprint",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Network and multi-user reliability",
     description: "Considered wireless band support and mobile compatibility for a printer that 2 or more people in a small office will connect to and share.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,12 +477,12 @@ export const faq: FaqItem[] = [
   {
     q: "Should I keep my business printer on the same network as my other systems?",
     a: "It's safer not to. A printer left on default settings on the same network as point-of-sale systems or customer data is a soft target for a breach. Keep firmware updated and consider isolating the printer on a separate guest network rather than sharing it with sensitive business systems.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-homeschooling", title: "Best Printers for Homeschooling (2026)" },
   { href: "/guide/best-printers-for-teachers", title: "Best Printers for Teachers (2026)" },
   { href: "/guide/best-easy-to-use-printers", title: "Best Easy-to-Use Printers (2026)" },
-  { href: "/guide/best-printer-stands-with-file-drawers", title: "Best Printer Stands with File Drawers (2026)" },
+  { href: "/guide/best-printer-stands-with-file-drawers", title: "Best Printer Stands with File Drawers (2026)" }
 ];

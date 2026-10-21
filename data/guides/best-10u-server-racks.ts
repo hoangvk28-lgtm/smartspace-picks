@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41jmSLiGm8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CXW2V714?tag=deskfinds0d-20",
-    description: "Pyle includes a genuinely large hardware bundle here, 70 sets of screws plus 50 sets of hexagon screws, two screwdrivers, and a wrench, more tools than most competitors bother including.\n\nAt 440 lbs capacity with 1U and 2U vented shelves included, it's built for both wall and floor installation with lockable wheels for the floor-standing option.\n\nWhere this one earns its spot is ships with an unusually complete tool and hardware kit, and both wall and floor mounting options in one rack. Worth noting before buying: 440 lb rating trails some heavier-duty 10U alternatives, which matters more at $123.99 than it would on a cheaper pick.",
+    description: "Pyle includes a genuinely large hardware bundle here, 70 sets of screws plus 50 sets of hexagon screws, two screwdrivers, and a wrench, more tools than most competitors bother including.\n\nAt 440 lbs capacity with 1U and 2U vented shelves included, it's built for both wall and floor installation with lockable wheels for the floor-standing option.\n\nWhere this one earns its spot is ships with an unusually complete tool and hardware kit, and both wall and floor mounting options in one rack. Worth noting before buying: 440 lb rating trails some heavier-duty 10U alternatives, which matters more at under $130 than it would on a cheaper pick.",
     specs: ["10U, 20.04\" x 20.42\" x 17.5\"","440 lb weight capacity","1U and 2U vented shelves included"],
     pros: ["Ships with an unusually complete tool and hardware kit","Both wall and floor mounting options in one rack","Lockable wheels add stability for the floor-standing setup"],
     cons: ["440 lb rating trails some heavier-duty 10U alternatives","Open frame provides no enclosed protection"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41fYi9VfrPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B346HB5X?tag=deskfinds0d-20",
-    description: "Vivlly claims a genuinely strong 400 lb floor-standing capacity, notably higher than the 150-200 lb range the listing says competitors typically offer at this size.\n\nTwo 1U vented shelves ship included and can be repositioned up, down, or facing different directions, giving real flexibility for how you arrange equipment inside the frame.\n\nThis pick is best for buyers who value 400 lb floor rating beats many similarly sized racks along with shelves reposition in multiple directions for flexible layouts. The catch is that wall-mount capacity is much lower at 150 lbs, so decide if that's worth it at $94.95.",
+    description: "Vivlly claims a genuinely strong 400 lb floor-standing capacity, notably higher than the 150-200 lb range the listing says competitors typically offer at this size.\n\nTwo 1U vented shelves ship included and can be repositioned up, down, or facing different directions, giving real flexibility for how you arrange equipment inside the frame.\n\nThis pick is best for buyers who value 400 lb floor rating beats many similarly sized racks along with shelves reposition in multiple directions for flexible layouts. The catch is that wall-mount capacity is much lower at 150 lbs, so decide if that's worth it at under $100.",
     specs: ["10U, 17.5\"H x 20.24\"D","400 lb floor / 150 lb wall capacity","2 repositionable vented shelves"],
     pros: ["400 lb floor rating beats many similarly sized racks","Shelves reposition in multiple directions for flexible layouts","Assembly claimed at around 20 minutes"],
     cons: ["Wall-mount capacity is much lower at 150 lbs","Stackable claim needs care to confirm actual stability"],
@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $62.09",
+          "Under $70",
           "RIVECO 10U Desktop Rack for Audio & Network Devices"
         ],
         [
-          "Around $84.90",
+          "Under $90",
           "VEVOR 10U Server Rack"
         ],
         [
-          "Around $94.95",
+          "Under $100",
           "Vivlly 10U Server Rack Heavy Duty Open Frame"
         ],
         [
-          "Around $123.99",
+          "Under $130",
           "Pyle 10U Advanced Open Frame Server Rack"
         ],
         [
-          "Around $174.99",
+          "Under $180",
           "ECHOGEAR 10U Open Frame Rack"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "ECHOGEAR 10U Open Frame Rack is aimed at buyers prioritizing 10u, 20.4\" depth." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "ECHOGEAR 10U Open Frame Rack is aimed at buyers prioritizing 10u, 20.4\" depth." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-42u-server-racks","title":"Best 42U Server Racks in 2026"},{"href":"/guide/best-2u-server-racks","title":"Best 2U Server Racks in 2026"},{"href":"/guide/best-1u-server-racks","title":"Best 1U Server Racks in 2026"}];

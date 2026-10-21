@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "printer for small spaces";
 export const introParagraphs = [
   "A printer for a small space is not the same question as a printer with small dimensions. Some larger all-in-ones fit fine tucked into a corner shelf with minimal clearance, while some genuinely compact printers still end up in an awkward spot because of where they need to sit, how far they are from the router, or how much noise they make next to someone sleeping or working nearby.",
-  "Below are 8 printers we evaluated on placement flexibility (shelf, floor, under-desk, or corner), realistic wifi performance at typical small-apartment distances, and noise level as a top selection factor for studio and shared-space living, ranging from a $53.97 portable thermal printer to a $139.99 compact laser.",
+  "Below are 8 printers we evaluated on placement flexibility (shelf, floor, under-desk, or corner), realistic wifi performance at typical small-apartment distances, and noise level as a top selection factor for studio and shared-space living, ranging from an under-$60 portable thermal printer to an under-$140 compact laser."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "9 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Shelf, desk, or closet-ledge friendly",
       "Quieter inkjet mechanism",
       "Wireless printing over standard home wifi",
-      "Print, copy, scan",
+      "Print, copy, scan"
     ],
     pros: [
       "Fits shelf or closet-ledge placement easily",
       "Quieter than laser printers nearby",
       "Reliable wifi performance at in-unit distances",
-      "Low price for full AIO function",
+      "Low price for full AIO function"
     ],
     cons: [
       "Small paper tray needs frequent refills",
       "No legal or tabloid paper support",
-      "Ink can dry out with infrequent use",
+      "Ink can dry out with infrequent use"
     ],
     bestFor: "Studio apartment dwellers who need shelf-friendly placement and quiet operation",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "3-month HP Instant Ink trial",
       "Standard wifi module",
       "HP Smart app setup",
-      "Print, scan, copy",
+      "Print, scan, copy"
     ],
     pros: [
       "Reasonable wifi range for typical apartment distances",
       "Includes a starter ink trial",
       "Compact, placement-flexible body",
-      "Full AIO function",
+      "Full AIO function"
     ],
     cons: [
       "Wifi can weaken through multiple walls at range",
       "Small paper tray",
-      "Instant Ink subscription cost after the trial",
+      "Instant Ink subscription cost after the trial"
     ],
     bestFor: "Apartments where the printer must sit far from the router",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "1.42\" OLED display",
       "Auto duplex printing",
       "Quiet inkjet mechanism",
-      "Standard wireless module",
+      "Standard wireless module"
     ],
     pros: [
       "OLED screen readable from a shelf placement",
       "Quiet inkjet operation",
       "Auto duplex printing included",
-      "Reliable wireless at typical apartment range",
+      "Reliable wireless at typical apartment range"
     ],
     cons: [
       "Small paper tray",
       "No legal or tabloid support",
-      "Slightly pricier than the base TS4320",
+      "Slightly pricier than the base TS4320"
     ],
     bestFor: "A printer placed across the room where you'd rather glance at a screen than walk over",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Built-in fax",
       "Workable in floor or corner placement",
       "Compact all-in-one body",
-      "Wireless via Canon PRINT app",
+      "Wireless via Canon PRINT app"
     ],
     pros: [
       "ADF handles multi-page scans",
       "Works acceptably in corner or floor placement",
       "Built-in fax for occasional use",
-      "Wireless setup is straightforward",
+      "Wireless setup is straightforward"
     ],
     cons: [
       "Floor placement collects more dust than a shelf",
       "Needs clearance for tray and ADF lid to open",
-      "Small paper tray",
+      "Small paper tray"
     ],
     bestFor: "Small spaces where floor or corner placement is the only option",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "No auto duplex",
       "Quiet inkjet mechanism, minimal extra hardware",
       "Wireless via Canon PRINT app",
-      "Smallest footprint among full AIO picks",
+      "Smallest footprint among full AIO picks"
     ],
     pros: [
       "Cheapest full AIO in this list",
       "Minimal mechanical noise from simple hardware",
       "Small, placement-flexible footprint",
-      "Simple, reliable wireless setup",
+      "Simple, reliable wireless setup"
     ],
     cons: [
       "No automatic duplex printing",
       "No display screen",
-      "Small paper tray",
+      "Small paper tray"
     ],
     bestFor: "Noise-sensitive small spaces on a tight budget",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Louder during active printing than inkjet",
       "Smaller footprint than compact inkjet AIOs",
       "Alexa compatible",
-      "Toner does not dry out",
+      "Toner does not dry out"
     ],
     pros: [
       "Smallest true footprint among laser options",
       "Toner never dries out from infrequent use",
       "Alexa voice printing from across the room",
-      "Fast mono print speed",
+      "Fast mono print speed"
     ],
     cons: [
       "Louder than inkjet during active printing",
       "No scan or copy function",
-      "Best placed away from sleeping or call areas",
+      "Best placed away from sleeping or call areas"
     ],
     bestFor: "A small space where the printer can sit in a corner away from sleeping or call areas",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Supports 8.5 x 11\" Letter and A4",
       "Bluetooth, not wifi, sidesteps router range issues",
       "Storable in a drawer between uses",
-      "Requires proprietary thermal paper",
+      "Requires proprietary thermal paper"
     ],
     pros: [
       "Can be stored away entirely between uses",
       "No wifi range concerns since it pairs via Bluetooth",
       "Extremely quiet operation",
-      "Smallest footprint of any pick here",
+      "Smallest footprint of any pick here"
     ],
     cons: [
       "Requires special thermal paper, not standard copy paper",
       "Print quality trails inkjet or laser",
-      "Not a realistic primary printer for daily use",
+      "Not a realistic primary printer for daily use"
     ],
     bestFor: "The most space-constrained studios where storability matters more than daily print quality",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Mobile and tablet printing",
       "Solid photo print quality",
       "Quiet inkjet mechanism",
-      "Standard wifi module",
+      "Standard wifi module"
     ],
     pros: [
       "Strong photo print quality for occasional use",
       "Mobile and tablet printing support",
       "Quiet inkjet operation",
-      "Shelf-friendly compact footprint",
+      "Shelf-friendly compact footprint"
     ],
     cons: [
       "Pricier than the more basic AIO picks in this list",
       "Small paper tray",
-      "No legal or tabloid paper support",
+      "No legal or tabloid paper support"
     ],
     bestFor: "Small-space residents who occasionally print photos alongside documents",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed price against paper tray capacity, feature set, and placement flexibility to judge which picks earn their cost for small-space living.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,11 +477,11 @@ export const faq: FaqItem[] = [
   {
     q: "Does printer placement affect print quality or reliability?",
     a: "Floor placement collects more dust over time than shelf placement, and enclosed or under-desk spots can reduce ventilation, particularly relevant for laser printers that generate some heat during operation. Choosing a placement with reasonable airflow and occasional dusting keeps any of these printers running reliably longer.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-compact-printers-for-small-desks", title: "Best Compact Printers for Small Desks (2026)" },
   { href: "/guide/best-small-printers-for-home-offices", title: "Best Small Printers for Home Offices (2026)" },
-  { href: "/guide/best-printers-for-dorm-rooms", title: "Best Printers for Dorm Rooms (2026)" },
+  { href: "/guide/best-printers-for-dorm-rooms", title: "Best Printers for Dorm Rooms (2026)" }
 ];

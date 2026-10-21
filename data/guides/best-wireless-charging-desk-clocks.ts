@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "wireless charging desk clock";
 export const introParagraphs = [
   "A genuine wireless charging desk clock needs an actual Qi charging pad built into the unit, not just a USB port. That's a narrower feature than it sounds, most \"charging\" desk clocks on Amazon use a wired USB port rather than true wireless charging. Our verified research turned up exactly one product that genuinely combines both: a clock built into a desk organizer with a real wireless charging pad.",
-  "This is a short guide by design. Rather than pad the list with USB-charging clocks mislabeled as wireless, we're covering the one genuine pick honestly. If a pen holder and organizer combo appeals to you beyond just the charging feature, see our desk clock and pen holder combos guide, which covers this same product alongside similar organizer-style clocks.",
+  "This is a short guide by design. Rather than pad the list with USB-charging clocks mislabeled as wireless, we're covering the one genuine pick honestly. If a pen holder and organizer combo appeals to you beyond just the charging feature, see our desk clock and pen holder combos guide, which covers this same product alongside similar organizer-style clocks."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "5 min";
@@ -43,7 +43,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Distinguished genuine wireless charging from USB charging ports", description: "Verified which listings include an actual Qi-style wireless charging pad versus a wired USB port often mislabeled as charging convenience, and included only the genuine match." },
   { title: "Searched for a second genuine match and did not find one", description: "Looked specifically for additional desk clocks with real wireless charging pads and did not find a second verified product to round out this guide." },
   { title: "Kept the guide short rather than padding it with USB-only picks", description: "Declined to include USB-charging clocks under a wireless charging label, since that would mislead buyers about the actual feature." },
-  { title: "Cross-checked against the desk clock and pen holder combos guide", description: "Confirmed this pick also appears in our broader organizer combo guide, since it genuinely belongs in both categories." },
+  { title: "Cross-checked against the desk clock and pen holder combos guide", description: "Confirmed this pick also appears in our broader organizer combo guide, since it genuinely belongs in both categories." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -61,7 +61,7 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $39.99",
+          "Under $40",
           "Desk Organizer with Wireless Charger"
         ]
       ]
@@ -102,7 +102,7 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "Here's what you get for $39.99: Genuine wireless charging pad, not just a USB port. If that's what you're after, the tradeoffs in its cons list probably won't bother you either."
+        "text": "Here's what you get for under $40: Genuine wireless charging pad, not just a USB port. If that's what you're after, the tradeoffs in its cons list probably won't bother you either."
       },
       {
         "label": "Save if",
@@ -138,11 +138,11 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "Is this genuinely wireless charging, not just a USB port?", a: "Yes, based on the listing this product includes an actual Qi-style wireless charging pad, distinct from the more common USB charging port found on other desk clocks." },
   { q: "Why is there only one pick in this guide?", a: "Our verified research found exactly one desk clock that genuinely combines a wireless charging pad with the clock function. We chose not to pad the list with USB-charging clocks mislabeled as wireless." },
-  { q: "Will this charge my phone as fast as a dedicated wireless charger?", a: "Likely not. Built-in pads on multi-function desk accessories typically charge at standard rather than fast speeds, fine for topping off but not a quick full charge." },
+  { q: "Will this charge my phone as fast as a dedicated wireless charger?", a: "Likely not. Built-in pads on multi-function desk accessories typically charge at standard rather than fast speeds, fine for topping off but not a quick full charge." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-clock-and-pen-holder-combos", title: "Best Desk Clock and Pen Holder Combos (2026)" },
   { href: "/guide/best-usb-desk-clocks", title: "Best USB Desk Clocks (2026)" },
-  { href: "/guide/best-desk-clocks-with-temperature-displays", title: "Best Desk Clocks with Temperature Displays (2026)" },
+  { href: "/guide/best-desk-clocks-with-temperature-displays", title: "Best Desk Clocks with Temperature Displays (2026)" }
 ];

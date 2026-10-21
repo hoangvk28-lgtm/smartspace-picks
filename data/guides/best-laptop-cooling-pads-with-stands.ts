@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop cooling pads with stands";
 export const introParagraphs = [
   "Most cooling pads already elevate the laptop somewhat, so a guide specifically about stands only adds value by focusing on multi-setting adjustable mechanisms, stability under typing pressure, and load capacity, not just repeating the basic elevation feature every pad already has.",
-  "This guide compares five pads with an unusually wide range of height and angle settings, verified from their real feature lists, for buyers who want meaningfully more ergonomic flexibility than a standard 2-setting pad offers.",
+  "This guide compares five pads with an unusually wide range of height and angle settings, verified from their real feature lists, for buyers who want meaningfully more ergonomic flexibility than a standard 2-setting pad offers."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine stand differentiation", description: "We prioritized products with meaningfully more height or angle settings than the 2-setting norm on basic cooling pads, not products where a stand was merely incidental." },
   { title: "Stability under typing pressure", description: "We noted slip-prevention features like baffles and stoppers, relevant since a stand needs to remain stable under real use, not just look adjustable." },
   { title: "Load capacity for heavier laptops", description: "We considered whether the stand mechanism is rated or reinforced for heavier gaming laptops, not just lightweight ultrabooks." },
-  { title: "Range vs bulk tradeoff", description: "We compared the widest-range stands against their weight and fan count, since more adjustment mechanisms can add bulk." },
+  { title: "Range vs bulk tradeoff", description: "We compared the widest-range stands against their weight and fan count, since more adjustment mechanisms can add bulk." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "How many height settings do I actually need?", a: "For most buyers, 4-5 settings cover a comfortable range. The 7-setting picks in this guide offer the most fine-tuning if you're particular about your exact angle." },
   { q: "Will a taller stand setting hurt my typing comfort?", a: "It can. More elevation improves airflow but can create a steeper, less comfortable typing angle. Start with a middle setting and adjust from there." },
   { q: "Is the Razer pick's frame-swap system worth it over a simple height dial?", a: "If you specifically have a heavy gaming laptop and want maximum structural stability, yes. For lighter laptops, a simple adjustable-leg stand is usually sufficient and faster to adjust." },
-  { q: "Do heavier laptops need a specific type of stand?", a: "Look for a reinforced chassis rating or explicit heavy-duty laptop compatibility, like the llano V12 or Razer picks, rather than assuming any adjustable stand handles extra weight equally well." },
+  { q: "Do heavier laptops need a specific type of stand?", a: "Look for a reinforced chassis rating or explicit heavy-duty laptop compatibility, like the llano V12 or Razer picks, rather than assuming any adjustable stand handles extra weight equally well." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-gaming-laptop-cooling-pads", title: "Best Gaming Laptop Cooling Pads (2026)" },
   { href: "/guide/best-laptop-cooling-pads-with-fans", title: "Best Laptop Cooling Pads with Fans (2026)" },
-  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" }
 ];

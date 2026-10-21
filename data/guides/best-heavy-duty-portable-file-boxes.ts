@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "heavy-duty portable file boxes";
 export const introParagraphs = [
   "\"Heavy-duty\" is a common premium marketing claim, so we verified genuine material and construction differences justifying that label versus a standard portable file box, rather than assuming heavier marketing language alone indicates superior build quality.",
-  "Given this category's transport-focused use, drop and impact resistance is a realistic risk worth weighing directly, and we treated this as the central differentiating test for the picks in this specific comparison.",
+  "Given this category's transport-focused use, drop and impact resistance is a realistic risk worth weighing directly, and we treated this as the central differentiating test for the picks in this specific comparison."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine construction difference verification", description: "We checked whether 'heavy-duty' picks show real material or construction differences justifying the label versus standard-tier boxes, rather than assuming heavier marketing language alone indicates superior build." },
   { title: "Realistic drop and impact resistance", description: "We treated this as the central differentiating test given this category's transport-focused use, where drops are a realistic risk." },
   { title: "Price premium vs. tested durability improvement", description: "We weighed each heavy-duty pick's price premium against genuine, verifiable durability improvement over standard-tier alternatives." },
-  { title: "Standard-tier comparison points", description: "We included proven standard-tier boxes directly in this comparison so buyers can honestly weigh whether the heavy-duty premium is worth it for their use case." },
+  { title: "Standard-tier comparison points", description: "We included proven standard-tier boxes directly in this comparison so buyers can honestly weigh whether the heavy-duty premium is worth it for their use case." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -239,11 +239,11 @@ export const faq: FaqItem[] = [
   { q: "Do I actually need a heavy-duty file box?", a: "Only if you handle the box roughly or transport it frequently. For occasional, careful use, a proven standard-tier box is likely sufficient and meaningfully more affordable." },
   { q: "How much more does genuine heavy-duty construction cost?", a: "In this comparison, the genuinely reinforced Vaultz picks cost roughly double or more than the proven standard-tier alternatives, a real premium worth weighing against your actual handling needs." },
   { q: "Does heavy-duty construction mean the box is also more secure?", a: "Not necessarily related, though the Vaultz heavy-duty picks in this comparison do combine reinforced construction with genuine locking mechanisms as a bundled value." },
-  { q: "Is a heavier box always more impact-resistant?", a: "Not automatically. Weight alone doesn't guarantee durability. Look for genuine construction and material differences rather than assuming heft correlates directly with impact resistance." },
+  { q: "Is a heavier box always more impact-resistant?", a: "Not automatically. Weight alone doesn't guarantee durability. Look for genuine construction and material differences rather than assuming heft correlates directly with impact resistance." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-metal-portable-file-boxes", title: "Best Metal Portable File Boxes (2026)" },
   { href: "/guide/best-lockable-portable-file-boxes", title: "Best Lockable Portable File Boxes (2026)" },
-  { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" },
+  { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" }
 ];

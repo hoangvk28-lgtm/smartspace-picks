@@ -5,7 +5,7 @@ export const metaDescription = "5 white monitor shelves we evaluated, with the h
 export const mainKeyword = "white monitor shelf";
 export const introParagraphs = [
   "Like color-specific research generally, this should cross-reference the underlying material-specific findings, wood, metal, acrylic, rather than treating 'white' as an independent structural product category.",
-  "White surfaces show visible dust, dirt, and staining far more readily than darker colors, a real maintenance consideration worth disclosing honestly given how visible a smudge appears on white versus black.",
+  "White surfaces show visible dust, dirt, and staining far more readily than darker colors, a real maintenance consideration worth disclosing honestly given how visible a smudge appears on white versus black."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best White Monitor Shelf Overall",
     name: "Monitor Stand Riser, Klearlook Foldable, Height Adjustable Computer Stand, Desk Shelf Riser with Storage Drawer & Tablet Phone Stand for Desktop, Laptop (White)",
     price: "$29.79",
-    rating: "4.7 stars from 3,294 Amazon ratings",
-    reviews: "3,294 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51925teREsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KK6RXS2?tag=deskfinds0d-20",
     description: "The largest review base of any pick in this guide, an adjustable, foldable design in white, this shelf's structural properties match the general metal/composite shelf material category already covered elsewhere.\n\nIt earns the top spot in this comparison over BONTEC Dual Monitor Stand Riser for one main reason. Largest review base of any pick in this guide. On price, it's actually priced above BONTEC Dual Monitor Stand Riser, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Adjustable and foldable for flexible configurations. On the other side, Foldable mechanism adds complexity versus a fixed design. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Established White Pick",
     name: "BONTEC Dual Monitor Stand Riser, Adjustable Length & Swivel Angle, White",
     price: "$24.69",
-    rating: "4.6 stars from 8,024 Amazon ratings",
-    reviews: "8,024 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51MyIIIO4eL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C4SZ286V?tag=deskfinds0d-20",
     description: "A very large review base with adjustable length and swivel angle, this white finish carries the same metal shelf construction as its black-colored sibling variant already covered in this guide's own findings.\n\nOne spot below Monitor Stand Riser in this ranking, it's priced lower than Monitor Stand Riser. The compromise here is straightforward: Potential UV yellowing risk if placed near a window over time. What you gain in return: Very large, well-established review base. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Same proven metal construction as darker-colored variants. On the other side, Verify off-white versus pure white shade against your setup. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wide White Wood Pick",
     name: "YAOHUOO Dual Monitor Stand Riser, 39Inch Large Monitor Stands for 2 Monitors, Computer Monitor Stand, Wooden Desktop Oraganizer Shelf for Office Desk Computer,Laptop,TV",
     price: "$33.99",
-    rating: "4.6 stars from 1,039 Amazon ratings",
-    reviews: "1,039 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41kGJBcPXkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C131DL82?tag=deskfinds0d-20",
     description: "A wood-based white finish at 39 inches, genuinely the widest pick in this guide, this shelf's underlying wood construction is worth cross-referencing against general wood-shelf material findings.\n\nSitting just under BONTEC Dual Monitor Stand Riser, it costs more than BONTEC Dual Monitor Stand Riser. Here's the honest tradeoff: Wood-based white shade may differ from a metal powder-coated white. And here's what it gets you instead: Widest pick in this guide for larger dual-monitor setups. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Solid review base and rating. On the other side, Larger footprint requires more desk space. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best White Pick with Acrylic Legs",
     name: "Fenge 42.5\" Dual Monitor Stand with Clear Acrylic Legs, White",
     price: "$97.99",
-    rating: "4.7 stars from 188 Amazon ratings",
-    reviews: "188 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41b9i2okKBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJM56XHG?tag=deskfinds0d-20",
     description: "A genuinely distinct construction combining a white shelf top with clear acrylic legs, worth cross-referencing both the white surface findings and acrylic material properties from separate research rather than treating this as one uniform product.\n\nRanked just behind YAOHUOO Dual Monitor Stand Riser, it costs more than YAOHUOO Dual Monitor Stand Riser. The real tradeoff against that pick: Highest price in this guide. In exchange, it offers this instead: Genuinely distinct mixed-material design. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Solid review base and rating. On the other side, Verify acrylic-specific durability separately from the white surface findings. That's the main tradeoff to weigh against everything above.",
@@ -89,8 +89,8 @@ export const products: GuideProduct[] = [
     badge: "Best White Pick with Pegboard Storage",
     name: "Lefedrasticity Desktop Bookshelf Organizer with Pegboard 3 Tier Desk Hutch Dorm Heavy-Duty Desk Shelf Organizer for Computer Desktop Organizer Shelf for Office Dorm Room Gaming Desks (White, 37.4\" L)",
     price: "$139.99",
-    rating: "4.5 stars from 2 Amazon ratings",
-    reviews: "2 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51dAiPbV7KL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTR4HPH9?tag=deskfinds0d-20",
     description: "A 3-tier white desk hutch with integrated pegboard, appropriate for a buyer wanting substantial storage capacity in white rather than a simple riser shelf.\n\nOne spot below Fenge 42.5\" Dual Monitor Stand with Clear Acrylic Legs in this ranking, it costs more than Fenge 42.5\" Dual Monitor Stand with Clear Acrylic Legs. The compromise here is straightforward: Very small review base, weigh with appropriate caution. What you gain in return: Substantial 3-tier storage capacity with pegboard integration. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Heavy-duty construction for demanding storage needs. On the other side, Limited real-world evidence of long-term white-finish durability. That's the main tradeoff to weigh against everything above.",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Color evaluated as a finish, not an independent structural category", description: "Cross-referenced the underlying material-specific research (wood, metal, acrylic) rather than treating white as an independent structural product category, consistent with the black-color research approach." },
   { title: "Dust and staining visibility honestly disclosed", description: "Disclosed that white surfaces show visible dust, dirt, and staining far more readily than darker colors, a real maintenance consideration given how visible a smudge appears on white versus black." },
   { title: "UV yellowing durability considered for white finishes", description: "Considered that white paint/coating can discolor with age, especially with UV exposure near windows, in ways more visually noticeable than color shifts on darker finishes." },
-  { title: "Price and availability verified against other color options", description: "Verified whether white-colored options carry any price premium or availability difference compared to black or other color options within the same product line." },
+  { title: "Price and availability verified against other color options", description: "Verified whether white-colored options carry any price premium or availability difference compared to black or other color options within the same product line." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -246,11 +246,11 @@ export const faq: FaqItem[] = [
   { q: "Will my white monitor shelf turn yellow over time?", a: "It can, especially with UV exposure. White paint/coating durability, yellowing over time near windows, is a real risk more visually noticeable than color shifts on darker finishes." },
   { q: "Will 'white' monitor shelves from different brands match each other?", a: "Not necessarily. 'White' varies between pure white, off-white, and cream tones across brands and materials, check the actual shade against your existing setup." },
   { q: "How often should I clean a white monitor shelf to keep it looking new?", a: "A quick weekly wipe with a soft microfiber cloth prevents the gradual dulling that less frequent, heavier cleaning can't fully reverse, avoid abrasive pads that can dull the finish." },
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers wanting the most-proven adjustable white pick" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers wanting the most-proven adjustable white pick" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-black-monitor-shelves", title: "Best Black Monitor Shelves (2026)" },
   { href: "/guide/best-bamboo-monitor-shelves", title: "Best Bamboo Monitor Shelves (2026)" },
-  { href: "/guide/best-monitor-shelves-with-keyboard-storage", title: "Best Monitor Shelves with Keyboard Storage (2026)" },
+  { href: "/guide/best-monitor-shelves-with-keyboard-storage", title: "Best Monitor Shelves with Keyboard Storage (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "4k usb-c monitor";
 export const introParagraphs = [
   "True 4K resolution at 60Hz over a single USB-C cable requires DisplayPort 1.4 or newer on both the monitor and your laptop's port, an older DisplayPort spec can force a compromise between resolution and refresh rate that isn't obvious from headline specs alone.",
-  "Windows display scaling at 4K needs to be set correctly to avoid tiny, hard-to-read text and UI elements, worth planning for this adjustment rather than assuming 4K automatically looks proportionally correct out of the box.",
+  "Windows display scaling at 4K needs to be set correctly to avoid tiny, hard-to-read text and UI elements, worth planning for this adjustment rather than assuming 4K automatically looks proportionally correct out of the box."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -26,7 +26,7 @@ export const products: GuideProduct[] = [
     badge: "Best 4K USB-C Monitor Overall",
     name: "INNOCN 27\" 4K USB-C Monitor for Laptop MacBook/Mac mini - 16:9 IPS 3840 x 2160 Display, HDR",
     price: "$194.97",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41f7dOeOBuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B6PCXZ79?tag=deskfinds0d-20",
@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     badge: "Best 4K USB-C Monitor for Mac Professionals",
     name: "ASUS ProArt PA279CRV 27 Inch 4K UHD USB-C HDR Professional Monitor for Mac",
     price: "$399.00",
-    rating: "4.6 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51BiaZGDKRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BQPSX5CR?tag=deskfinds0d-20",
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     badge: "Best 4K High-Refresh-Rate Pick",
     name: "Dell 27 Monitor S2725QC, 4K UHD IPS, 120Hz, 99% sRGB, 4ms, FreeSync Premium",
     price: "$312.81",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41WGJRiwq3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1GFD44G?tag=deskfinds0d-20",
@@ -77,7 +77,7 @@ export const products: GuideProduct[] = [
     badge: "Best Portable 4K USB-C Touchscreen Pick",
     name: "UPERFECT 4K Portable Monitor Touchscreen, 15.6\" 125% sRGB Laptop Monitor",
     price: "$189.98",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51jrQ-g06ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H4DCTPDL?tag=deskfinds0d-20",
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Portable 4K Pick",
     name: "cocopar Portable Monitor 15.6 Inch 4K UHD 60Hz 145% sRGB Travel Monitor with Speaker HDMI",
     price: "$244.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41grMODJbhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR2222FL?tag=deskfinds0d-20",
@@ -104,7 +104,7 @@ export const products: GuideProduct[] = [
     pros: ["True 4K UHD resolution in a portable form factor", "Exceptionally wide 145% sRGB color coverage", "Integrated speakers for travel convenience", "USB-C and HDMI dual connectivity"],
     cons: ["4K at 15.6 inches requires significant display scaling for readable text", "Standard 60Hz refresh rate, not high-refresh gaming tier", "Verify power draw from your laptop for extended portable use"],
     bestFor: "Buyers wanting vivid, wide-gamut color alongside portable 4K resolution",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "DisplayPort version requirements for true 4K at 60Hz checked", description: "Checked whether achieving true 4K at 60Hz over a single USB-C cable requires DisplayPort 1.4 or newer, flagging this as a real compatibility consideration." },
   { title: "Display scaling needs at 4K resolution acknowledged", description: "Acknowledged that Windows display scaling needs proper setup at 4K to avoid tiny, hard-to-read text, rather than assuming this looks correct automatically." },
   { title: "Color gamut and calibration weighted for creative use cases", description: "Weighted color gamut percentage and calibration credentials more heavily for monitors positioned toward creative or color-sensitive work." },
-  { title: "Portable versus desk-bound 4K trade-offs considered", description: "Considered the trade-offs of true 4K resolution in a portable form factor, including scaling challenges at smaller panel sizes." },
+  { title: "Portable versus desk-bound 4K trade-offs considered", description: "Considered the trade-offs of true 4K resolution in a portable form factor, including scaling challenges at smaller panel sizes." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Does any USB-C laptop support 4K at 60Hz?", a: "Not automatically, this requires DisplayPort 1.4 or newer on both your laptop's port and the monitor, verify this rather than assuming from USB-C alone." },
   { q: "Why does text look tiny on my new 4K monitor?", a: "Windows display scaling needs to be set correctly at 4K resolution, this is a setup step rather than something that happens automatically." },
   { q: "Is a wide color gamut necessary for a 4K monitor?", a: "Only if you do color-sensitive creative work, for general productivity use a standard color gamut is sufficient and more budget-friendly." },
-  { q: "Is 4K worth it on a small portable monitor?", a: "It depends on your needs, 4K on a 15.6-inch panel requires more aggressive display scaling than on a larger desk monitor, factor this into your expectations." },
+  { q: "Is 4K worth it on a small portable monitor?", a: "It depends on your needs, 4K on a 15.6-inch panel requires more aggressive display scaling than on a larger desk monitor, factor this into your expectations." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-usb-c-monitors", title: "Best USB-C Monitors (2026)" },
   { href: "/guide/best-usb-c-monitors-for-mac", title: "Best USB-C Monitors for Mac (2026)" },
-  { href: "/guide/best-usb-c-monitors-with-power-delivery", title: "Best USB-C Monitors with Power Delivery (2026)" },
+  { href: "/guide/best-usb-c-monitors-with-power-delivery", title: "Best USB-C Monitors with Power Delivery (2026)" }
 ];

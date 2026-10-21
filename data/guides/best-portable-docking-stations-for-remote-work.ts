@@ -2,11 +2,11 @@ export const guideSlug = "best-portable-docking-stations-for-remote-work";
 export const guideTitle = "8 Best Portable Docking Stations for Remote Work in 2026";
 export const metaTitle = "Best Portable Docking Stations for Remote Work in 2026";
 export const metaDescription =
-  "8 best portable docking stations for remote work in 2026, from a $26.96 bus-powered hub to a $169.99 AC-powered desk anchor. Compare weight, power, and ports.";
+  "8 best portable docking stations for remote work in 2026, from an under-$30 bus-powered hub to an under-$170 AC-powered desk anchor. Compare weight, power, and ports.";
 export const mainKeyword = "portable docking station for remote work";
 export const introParagraphs = [
   "A docking station for remote work has to do two different jobs depending on where you are: sit quietly on a home desk running three monitors, or fold into a bag and survive a coffee shop, a co-working space, and a hotel room in the same week. Bus-powered hubs that draw power straight from your laptop pack down small but can't charge your laptop while running displays, while AC-powered docks add a brick and some weight in exchange for charging your laptop and driving displays at the same time.",
-  "Below are 8 portable docking stations for remote work we evaluated on weight, port mix, power delivery, and how each one actually behaves once you're away from a home office, ranging from a $26.96 pocketable 7-in-1 hub to a $169.99 14-port dock built for a stable, all-day desk setup.",
+  "Below are 8 portable docking stations for remote work we evaluated on weight, port mix, power delivery, and how each one actually behaves once you're away from a home office, ranging from an under-$30 pocketable 7-in-1 hub to an under-$170 14-port dock built for a stable, all-day desk setup."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Dual HDMI, single 8K@30Hz or dual 4K@60Hz",
       "100W PD pass-through charging",
       "Gigabit ethernet, 5Gbps USB-C/USB-A data",
-      "SD/TF 3.0 card reader",
+      "SD/TF 3.0 card reader"
     ],
     pros: [
       "No separate power brick to pack or forget",
       "Dual 4K output covers most remote desk setups",
       "Gigabit ethernet for reliable video calls",
-      "Clears airport security without a separate bin",
+      "Clears airport security without a separate bin"
     ],
     cons: [
       "Bus-powered, so it can't charge your laptop and power displays simultaneously the way an AC dock can",
       "USB-A data port speed varies by use, verify before relying on it for a 4K webcam",
-      "Not self-powered, needs a laptop with enough USB-C power output",
+      "Not self-powered, needs a laptop with enough USB-C power output"
     ],
     bestFor: "Remote workers who want one light, bus-powered dock for hotel rooms and co-working desks",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Dual 4K display support",
       "10Gbps fast data transfer",
       "Dedicated audio and ethernet ports",
-      "Real-time smart interface display",
+      "Real-time smart interface display"
     ],
     pros: [
       "Charges laptop and drives dual 4K displays at the same time",
       "Own power supply, not limited by laptop USB-C output",
       "10Gbps data transfer is fast for large file work",
-      "Feels like a permanent desk anchor, not a travel hub",
+      "Feels like a permanent desk anchor, not a travel hub"
     ],
     cons: [
       "Power brick must go in a separate bin at airport security",
       "Heaviest pick in this list, not ideal for daily carry",
-      "Overkill if you only need a single external display",
+      "Overkill if you only need a single external display"
     ],
     bestFor: "Remote workers with a fixed desk who want charging and dual 4K displays running at once",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Works with both USB-C and Thunderbolt-enabled laptops",
       "Charging, networking, and data transfer support",
       "Designed for secure and remote management use",
-      "Business-grade build",
+      "Business-grade build"
     ],
     pros: [
       "Compatible with both USB-C and Thunderbolt laptops",
       "More likely to already be IT-approved on corporate devices",
       "Built for secure remote management scenarios",
-      "Solid mid-weight balance between portability and ports",
+      "Solid mid-weight balance between portability and ports"
     ],
     cons: [
       "Pricier than the bus-powered hub-style picks",
       "Business-focused design, fewer consumer-facing extras",
-      "Still needs an outlet, not bus-powered",
+      "Still needs an outlet, not bus-powered"
     ],
     bestFor: "Remote workers on a corporate-issued laptop who need an IT-friendly dock",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Dual 4K@60Hz HDMI display support",
       "10Gbps USB-A/C data ports",
       "100W PD pass-through charging",
-      "Aluminum housing",
+      "Aluminum housing"
     ],
     pros: [
-      "Cheapest pick in this list at $26.96",
+      "Cheapest pick in this list at under $30",
       "Dual 4K@60Hz output despite its compact size",
       "Aluminum housing manages heat better than plastic hubs",
-      "10Gbps data ports are fast for its price tier",
+      "10Gbps data ports are fast for its price tier"
     ],
     cons: [
       "Fewer total ports than the higher-end picks",
       "Bus-powered, can't charge and power displays with full independence",
-      "No SD card reader on this specific model",
+      "No SD card reader on this specific model"
     ],
     bestFor: "Budget-focused remote workers who still want real dual-4K support in the lightest package",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "4K@60Hz HDMI",
       "10Gbps USB-C, 2 USB-A ports",
       "85W PD pass-through",
-      "SD/TF card reader",
+      "SD/TF card reader"
     ],
     pros: [
       "Smallest, most pocketable footprint in this list",
       "10Gbps USB-C data port is fast for its size",
       "No brick, so it clears security screening easily",
-      "SD/TF reader is handy for photo or video offload on the go",
+      "SD/TF reader is handy for photo or video offload on the go"
     ],
     cons: [
       "Single external display only",
       "85W PD may not fully power larger laptops while charging",
-      "Fewer ports overall than the 10-in-1 and 13-in-1 picks",
+      "Fewer ports overall than the 10-in-1 and 13-in-1 picks"
     ],
     bestFor: "Minimalist travelers who want the smallest possible dock with a single external display",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Triple display, 2x HDMI + 1x DisplayPort",
       "10Gbps USB-C, 5Gbps USB-A data",
       "85W charging, ethernet, audio, SD reader",
-      "Compatible with Dell, HP, Lenovo and more",
+      "Compatible with Dell, HP, Lenovo and more"
     ],
     pros: [
       "Triple display support is rare at this price tier",
       "Fast 10Gbps USB-C data transfer",
       "Full port mix, ethernet, audio, and SD reader included",
-      "Works well for temporary co-working or hotel business center setups",
+      "Works well for temporary co-working or hotel business center setups"
     ],
     cons: [
       "Heavier and bulkier than the nano-style picks",
       "Hotel TVs with HDCP restrictions may still block streaming apps even when the dock connects fine",
-      "85W charging may be limiting for power-hungry laptops",
+      "85W charging may be limiting for power-hungry laptops"
     ],
     bestFor: "Remote workers who need triple-display output at a hotel or co-working desk",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "4K dual monitor with 2 HDMI ports",
       "1 Gbps ethernet hub",
       "85W power delivery",
-      "SD card reader",
+      "SD card reader"
     ],
     pros: [
       "Dual HDMI output at a mid-range price",
       "Gigabit ethernet is useful for stable video calls",
       "Compact enough for regular travel",
-      "85W power delivery covers most ultrabooks",
+      "85W power delivery covers most ultrabooks"
     ],
     cons: [
       "USB-A port is often USB 2.0, insufficient for a 4K webcam",
       "Charger not included in the box",
-      "No Thunderbolt or USB4 support",
+      "No Thunderbolt or USB4 support"
     ],
     bestFor: "Remote workers who want dual-HDMI output on a mid-range budget",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Dual HDMI + DisplayPort, 4K support",
       "Gigabit ethernet",
       "4 USB-A, 2 USB-C ports",
-      "100W PD charging port, SD/TF reader, audio",
+      "100W PD charging port, SD/TF reader, audio"
     ],
     pros: [
       "High port density in a bus-powered unit",
       "No outlet required to function as a hub",
       "Gigabit ethernet plus dual video output",
-      "Includes SD/TF card reader and audio jack",
+      "Includes SD/TF card reader and audio jack"
     ],
     cons: [
       "Running docked off laptop battery alone drains it faster per hour than an AC dock would",
       "100W PD port needs a separate charger plugged in to actually charge the laptop",
-      "Bulkier than the nano-class bus-powered picks",
+      "Bulkier than the nano-class bus-powered picks"
     ],
     bestFor: "Cafe and co-working remote workers who want a full port set without needing an outlet",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed port mix, power delivery wattage, and build quality against price, since the cheapest and most expensive picks in this list sit at very different points on that curve.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -481,11 +481,11 @@ export const faq: FaqItem[] = [
   {
     q: "Which portable docking station is best for a corporate-managed laptop?",
     a: "The HP USB-C Dock G5 is the strongest fit for a company-issued laptop, since business-brand docks are more likely to already be IT-approved and it's built with secure remote management scenarios in mind. If you rely on VPN software, check with your IT department before buying any third-party dock, since some corporate VPN clients can conflict with non-OEM networking hardware.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-usb-c-docking-stations", title: "Best USB-C Docking Stations (2026)" },
   { href: "/guide/best-docking-stations-for-small-desks", title: "Best Docking Stations for Small Desks (2026)" },
-  { href: "/guide/best-budget-docking-stations-under-100", title: "Best Budget Docking Stations Under $100 (2026)" },
+  { href: "/guide/best-budget-docking-stations-under-100", title: "Best Budget Docking Stations Under $100 (2026)" }
 ];

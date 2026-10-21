@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Ubiquiti U6-LR, U6-Lite, or U6-Pro", "UBIQUITI POE Injector 802.3AT 30W"],
         ["Cudy access point or general Wi-Fi 6 AP", "Cudy 30W Gigabit PoE+ Injector"],
         ["Any 802.3at device, want UL certification", "Omada PoE+ Injector 30W"],
-        ["Basic camera or VoIP phone, budget priority", "iCreatin 30W Wall PoE Injector"],
+        ["Basic camera or VoIP phone, budget priority", "iCreatin 30W Wall PoE Injector"]
       ],
     },
   },
@@ -109,9 +109,9 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $10", "iCreatin 30W Wall PoE Injector ($9.96)"],
-        ["Under $20", "Cudy POE200 or Omada POE160S (both $19.99)"],
-        ["Under $22", "UBIQUITI POE Injector ($21.99)"],
+        ["Under $10", "iCreatin 30W Wall PoE Injector (under $10)"],
+        ["Under $20", "Cudy POE200 or Omada POE160S (both under $20)"],
+        ["Under $22", "UBIQUITI POE Injector (under $25)"]
       ],
     },
   },
@@ -119,7 +119,7 @@ export const howToChoose = [
     subheading: "Gigabit vs 100Mbps at the Same 30W Power Rating",
     cards: [
       { label: "Gigabit (Cudy, Omada, Ubiquiti)", text: "Necessary for 4K cameras and Wi-Fi 6/6E access points that push more data than 100Mbps can carry, at a moderately higher price." },
-      { label: "100Mbps (iCreatin)", text: "Perfectly adequate for a standard-definition IP camera or basic VoIP phone, at roughly half the price of the Gigabit options." },
+      { label: "100Mbps (iCreatin)", text: "Perfectly adequate for a standard-definition IP camera or basic VoIP phone, at roughly half the price of the Gigabit options." }
     ],
     note: "Check your specific device's own network port speed rating before choosing; pairing a Gigabit device with a 100Mbps injector wastes the device's actual capability.",
   },
@@ -129,7 +129,7 @@ export const howToChoose = [
       headers: ["What you want confirmed", "Recommended pick"],
       rows: [
         ["First-party brand match guarantee", "UBIQUITI POE Injector 802.3AT 30W"],
-        ["Broad generic 802.3at compatibility", "Cudy 30W Gigabit PoE+ Injector or Omada POE160S"],
+        ["Broad generic 802.3at compatibility", "Cudy 30W Gigabit PoE+ Injector or Omada POE160S"]
       ],
     },
   },
@@ -137,16 +137,16 @@ export const howToChoose = [
     subheading: "For a Wi-Fi 6 Access Point Upgrade Specifically",
     cards: [
       { label: "Look for", text: "Confirmed Gigabit pass-through speed, since a Wi-Fi 6 access point can push far more than 100Mbps of aggregate wireless traffic and a slower injector becomes the actual bottleneck." },
-      { label: "In this comparison", text: "The Cudy pick specifically calls out compatibility with bandwidth-intensive Wi-Fi 6 APs alongside its Gigabit pass-through speed." },
+      { label: "In this comparison", text: "The Cudy pick specifically calls out compatibility with bandwidth-intensive Wi-Fi 6 APs alongside its Gigabit pass-through speed." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You have a Ubiquiti U6-series access point, where the first-party UBIQUITI injector at $21.99 removes any compatibility uncertainty a generic injector might carry." },
-      { label: "Save if", text: "You're powering a basic 100Mbps camera or phone, where the iCreatin pick's $9.96 price delivers the same 30W power without paying for unused Gigabit speed." },
+      { label: "Spend more if", text: "You have a Ubiquiti U6-series access point, where the first-party UBIQUITI injector at under $25 removes any compatibility uncertainty a generic injector might carry." },
+      { label: "Save if", text: "You're powering a basic 100Mbps camera or phone, where the iCreatin pick's under $10 price delivers the same 30W power without paying for unused Gigabit speed." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

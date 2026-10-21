@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $159.99",
+          "Under $160",
           "Tribesigns 6.5FT Conference Table"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "Tribesigns 6FT Boat-Shaped Conference Table"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "Tribesigns 6.5FT Rectangle Conference Table (Table Only)"
         ],
         [
-          "Around $209.99",
+          "Under $250",
           "TRIBEWOOD 63-Inch Solid Wood Conference Table for 4-6"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "ECACAD 7FT Conference Table"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "Tribesigns 6FT Conference Table with Pedestal Base"
         ],
         [
-          "Around $269.99",
+          "Under $300",
           "TRIBEWOOD 5.24ft Solid Wood Conference Table for 6"
         ],
         [
-          "Around $581.97",
+          "Under $600",
           "Flash Furniture 5-Piece Oval Conference Table & Chair Set"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Not inherently. High-density MDF and particle board with a laminate or melamine finish are standard in this category and hold up well to daily commercial use. Solid wood, veneer over engineered wood, or steel-reinforced builds cost more and matter most where long-term durability or a premium look is the priority."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Tribesigns 6FT Boat-Shaped Conference Table is aimed at buyers prioritizing 70.86\"l x 35.43\"w x 29.52\"h boat-shaped top." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Tribesigns 6FT Boat-Shaped Conference Table is aimed at buyers prioritizing 70.86\"l x 35.43\"w x 29.52\"h boat-shaped top." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-6-person-conference-tables","title":"Best 6-Person Conference Tables in 2026"},{"href":"/guide/best-10-person-conference-tables","title":"Best 10-Person Conference Tables in 2026"},{"href":"/guide/best-8-person-conference-tables","title":"Best 8-Person Conference Tables in 2026"}];

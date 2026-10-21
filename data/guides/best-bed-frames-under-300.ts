@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The highest weight capacity with a 5-year warranty", "ZINUS Vivek Deluxe Wood Platform Bed Frame"],
         ["Mid-century modern styling with maximum drawer storage", "Virubi Queen Platform Bed Frame with 6 Drawers"],
         ["A genuinely decorative carved headboard with charging", "Belffin Queen Bed Frame with Carving Headboard"],
-        ["100% solid wood with a choice of finish color", "AMERLIFE Solid Wood Queen Bed Frame, Mid Century"],
+        ["100% solid wood with a choice of finish color", "AMERLIFE Solid Wood Queen Bed Frame, Mid Century"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $240", "AMERLIFE Mid Century ($239.99)"],
-        ["Under $280", "ZINUS Vivek Deluxe ($279.00)"],
-        ["Under $290", "Virubi or Belffin (both $289.99)"],
+        ["Under $240", "AMERLIFE Mid Century (under $250)"],
+        ["Under $280", "ZINUS Vivek Deluxe (under $300)"],
+        ["Under $290", "Virubi or Belffin (both under $300)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Decorative Headboard Focus vs Maximum Weight Capacity Focus",
     cards: [
       { label: "Decorative headboard focus (Belffin, Virubi)", text: "Prioritizes a genuinely distinct headboard design, either carved or tall mid-century styling, with built-in drawer storage as a secondary feature." },
-      { label: "Maximum weight capacity focus (ZINUS Vivek, AMERLIFE)", text: "Prioritizes disclosed structural weight ratings and warranty or material purity over decorative headboard details." },
+      { label: "Maximum weight capacity focus (ZINUS Vivek, AMERLIFE)", text: "Prioritizes disclosed structural weight ratings and warranty or material purity over decorative headboard details." }
     ],
     note: "If a striking headboard design is your priority, the Belffin's carved design or Virubi's tall mid-century headboard deliver that. If maximum disclosed durability matters more, the ZINUS Vivek's 2200 lb rating with a 5-year warranty is the stronger choice.",
   },
@@ -137,7 +137,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your priority", "Recommended pick"],
       rows: [
         ["Longest disclosed warranty coverage", "ZINUS Vivek Deluxe (5-year limited warranty)"],
-        ["100% solid wood with no engineered components", "AMERLIFE Solid Wood Queen Bed Frame"],
+        ["100% solid wood with no engineered components", "AMERLIFE Solid Wood Queen Bed Frame"]
       ],
     },
   },
@@ -145,16 +145,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Multi-Person Household With Heavier Mattresses Specifically",
     cards: [
       { label: "Look for", text: "A specifically disclosed weight capacity figure well above your combined body weight plus mattress weight, ideally with steel reinforcement or a stated multi-point support system." },
-      { label: "In this comparison", text: "The AMERLIFE pick specifically states a 1300 lb capacity from its 4-point support system, and the ZINUS Vivek states 2200 lbs backed by steel interior framework." },
+      { label: "In this comparison", text: "The AMERLIFE pick specifically states a 1300 lb capacity from its 4-point support system, and the ZINUS Vivek states 2200 lbs backed by steel interior framework." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want a genuinely decorative carved headboard combined with built-in charging and LED lighting, where the Belffin pick justifies its $289.99 price with that combined design and tech feature set." },
-      { label: "Save if", text: "You want 100% solid wood construction with a color choice at the lowest price, where the AMERLIFE pick delivers that for $239.99, the lowest price in this tier." },
+      { label: "Spend more if", text: "You want a genuinely decorative carved headboard combined with built-in charging and LED lighting, where the Belffin pick justifies its under $300 price with that combined design and tech feature set." },
+      { label: "Save if", text: "You want 100% solid wood construction with a color choice at the lowest price, where the AMERLIFE pick delivers that for under $250, the lowest price in this tier." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

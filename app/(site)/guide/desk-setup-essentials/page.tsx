@@ -203,7 +203,7 @@ export default async function DeskSetupEssentialsPage() {
           {[
             { href: "#what-to-look-for", label: "What to look for" },
             { href: "#comparison", label: "Comparison table" },
-            { href: "#faq", label: "FAQ" },
+            { href: "#faq", label: "FAQ" }
           ].map(({ href, label }) => (
             <a key={href} href={href} className="px-3 py-1.5 rounded-full border border-border bg-white text-ink-secondary text-xs font-medium hover:border-brand hover:text-brand transition-colors">
               {label}
@@ -273,14 +273,14 @@ export default async function DeskSetupEssentialsPage() {
         <section className="mb-12 p-6 rounded-2xl border border-border bg-bg">
           <h2 className="text-lg font-bold text-ink mb-3">How We Evaluated These Essentials</h2>
           <p className="text-sm text-ink-secondary leading-relaxed mb-4">
-            Each essential was evaluated on daily usage impact, whether it solves a specific measurable problem, and value relative to alternatives at the same price tier. We specifically weighted items that benefit small-desk setups (under 48 inches wide) and prioritized products with verified buyer track records of 500+ reviews.
+Each essential was evaluated on daily usage impact, whether it solves a specific measurable problem, and value relative to alternatives at the same price tier.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
               ["Daily impact", "Does this change something you notice every single session, or something you adjust once and forget?"],
               ["Problem specificity", "Does it solve one clear, measurable problem? Items that solve 2+ problems scored higher."],
               ["Value at price tier", "Compared against alternatives at the same price. A $20 cable tray beats a $50 one that does the same job."],
-              ["Small-desk fit", "Extra weight given to items that save surface space or work better in compact setups."],
+              ["Small-desk fit", "Extra weight given to items that save surface space or work better in compact setups."]
             ].map(([label, desc]) => (
               <div key={label as string} className="p-4 rounded-xl bg-white border border-border">
                 <p className="text-sm font-semibold text-ink mb-1">{label}</p>
@@ -345,7 +345,7 @@ export default async function DeskSetupEssentialsPage() {
             {[
               { href: "/guide/best-desk-setup-accessories", title: "Best Desk Setup Accessories (2026)", label: "Desk Setup" },
               { href: "/guide/best-desk-mat-for-small-desk", title: "Best Desk Mat for Small Desk", label: "Desk Setup" },
-              { href: "/guide/best-usb-hub-for-desk", title: "Best USB Hub for Desk", label: "Desk Setup" },
+              { href: "/guide/best-usb-hub-for-desk", title: "Best USB Hub for Desk", label: "Desk Setup" }
             ].map((g) => (
               <Link prefetch={false} key={g.href} href={g.href} className="group p-4 rounded-xl border border-border bg-white hover:border-brand/40 hover:shadow-sm transition-all">
                 <span className="text-[10px] font-bold uppercase tracking-widest text-brand block mb-1">{g.label}</span>

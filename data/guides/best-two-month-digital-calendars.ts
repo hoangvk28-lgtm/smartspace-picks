@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "two month digital calendar";
 export const introParagraphs = [
   "Be aware of a category mismatch before you buy anything: \"two-month calendar\" most commonly refers to a traditional paper desk calendar that shows two months per page, a completely different, non-digital product from anything in our verified research pool. None of the digital displays we researched advertise a literal two-month split-screen view as a feature.",
-  "If a genuine two-month-per-page layout is what you specifically need, a paper desk calendar is almost certainly the better and cheaper answer, and it's outside the scope of this digital-focused site. What we cover instead below are the closest genuine digital alternatives, large-format touchscreen displays that show extended date ranges or let you scroll ahead, without falsely claiming any of them show two full months side by side.",
+  "If a genuine two-month-per-page layout is what you specifically need, a paper desk calendar is almost certainly the better and cheaper answer, and it's outside the scope of this digital-focused site. What we cover instead below are the closest genuine digital alternatives, large-format touchscreen displays that show extended date ranges or let you scroll ahead, without falsely claiming any of them show two full months side by side."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "6 min";

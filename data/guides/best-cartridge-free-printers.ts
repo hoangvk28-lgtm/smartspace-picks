@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "cartridge-free printer";
 export const introParagraphs = [
   "Cartridge-free is a specific type of printer, not just a marketing phrase, it means a refillable ink tank system instead of small disposable cartridges that get swapped every few hundred pages. The tradeoff is a higher price up front in exchange for bottled ink that costs a fraction as much per page over time.",
-  "Below are 8 cartridge-free printers we evaluated on ink cost per page, tank capacity, printhead durability, and setup complexity, ranging from a $189.99 compact EcoTank to a $799.99 workhorse built for sustained office volume.",
+  "Below are 8 cartridge-free printers we evaluated on ink cost per page, tank capacity, printhead durability, and setup complexity, ranging from an under-$190 compact EcoTank to an under-$800 workhorse built for sustained office volume."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Color print, scan, and copy",
       "Wireless printing",
       "Includes ink bottles for setup",
-      "Compact all-in-one design",
+      "Compact all-in-one design"
     ],
     pros: [
       "Lowest upfront price of the EcoTank picks in this list",
       "Bottled ink costs a fraction of cartridges per page",
       "Simple front-loading ink tank design",
-      "Scan and copy included",
+      "Scan and copy included"
     ],
     cons: [
       "No automatic document feeder",
       "Integrated printhead means a clog can mean replacing the printer",
-      "Higher upfront cost than a basic cartridge inkjet",
+      "Higher upfront cost than a basic cartridge inkjet"
     ],
     bestFor: "Households wanting the cheapest entry into cartridge-free printing",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Color print, scan, and copy",
       "Wireless printing",
       "White finish",
-      "Compact all-in-one design",
+      "Compact all-in-one design"
     ],
     pros: [
       "Same low ink cost per page as the black ET-2800",
       "White finish suits a lighter desk aesthetic",
       "Simple setup with included bottles",
-      "Scan and copy included",
+      "Scan and copy included"
     ],
     cons: [
       "No automatic document feeder",
       "Integrated printhead means a clog can mean replacing the printer",
-      "Identical specs to the cheaper-looking black model, no functional upgrade",
+      "Identical specs to the cheaper-looking black model, no functional upgrade"
     ],
     bestFor: "Buyers who want EcoTank economics with a lighter-colored finish",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Automatic document feeder",
       "Scanner, copier, Ethernet",
       "Mobile printing support",
-      "Bonus black ink bottle and USB cable included",
+      "Bonus black ink bottle and USB cable included"
     ],
     pros: [
       "Automatic document feeder for multi-page scanning",
       "Ethernet option for a stable wired connection",
       "Bonus ink bottle softens setup cost",
-      "Built for regular home office volume",
+      "Built for regular home office volume"
     ],
     cons: [
       "Significantly pricier than the entry-level ET-2800",
       "Larger footprint due to the ADF and tanks",
-      "Overkill for light, occasional printing",
+      "Overkill for light, occasional printing"
     ],
     bestFor: "Home offices that need document feeding and wired networking alongside cheap ink",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Color print, scan, and copy",
       "Wireless printing",
       "Built for everyday home printing",
-      "Compact design",
+      "Compact design"
     ],
     pros: [
       "Lowest price of any pick in this list",
       "Cheap ink cost per page for a light-to-moderate home printer",
       "Simple setup and controls",
-      "Scan and copy included",
+      "Scan and copy included"
     ],
     cons: [
       "No automatic document feeder",
       "Not built for sustained high-volume office printing",
-      "Integrated printhead limits repairability",
+      "Integrated printhead limits repairability"
     ],
     bestFor: "Budget-conscious households who still want cartridge-free ink economics",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Automatic document feeder",
       "2.4-inch color touchscreen",
       "Up to 3 years of ink refills rated",
-      "18 ppm print speed",
+      "18 ppm print speed"
     ],
     pros: [
       "Faster print speed than entry EcoTank models",
       "Touchscreen simplifies status checks and troubleshooting",
       "Automatic document feeder included",
-      "Long-rated ink refill window",
+      "Long-rated ink refill window"
     ],
     cons: [
       "Higher price than the entry-level ET-2400 and ET-2800",
       "Larger footprint",
-      "More printer than a light, occasional user needs",
+      "More printer than a light, occasional user needs"
     ],
     bestFor: "Home offices scanning multi-page documents regularly and wanting a touchscreen",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Fax and Ethernet included",
       "Automatic document feeder",
       "Scanner and copier",
-      "White finish, office-oriented design",
+      "White finish, office-oriented design"
     ],
     pros: [
       "Fax and Ethernet cover legacy small-office needs",
       "Automatic document feeder for multi-page scans",
       "Stable wired networking option",
-      "Cartridge-free ink savings at office volume",
+      "Cartridge-free ink savings at office volume"
     ],
     cons: [
       "Fax is unnecessary for most households",
       "Among the pricier picks in this list",
-      "Large footprint for a compact desk",
+      "Large footprint for a compact desk"
     ],
     bestFor: "Small offices needing fax and Ethernet alongside cartridge-free ink",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Photo-focused color output",
       "Print, copy, scan",
       "Works with Alexa",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     pros: [
       "Stronger photo print quality than most ink-tank AIOs",
       "Cartridge-free MegaTank ink economics",
       "Alexa voice command support",
-      "Mid-range price for the feature set",
+      "Mid-range price for the feature set"
     ],
     cons: [
       "No automatic document feeder",
       "Canon-specific ink bottles, not interchangeable with Epson",
-      "Photo mode print speed is slower than plain document printing",
+      "Photo mode print speed is slower than plain document printing"
     ],
     bestFor: "Buyers who print photos regularly alongside everyday documents",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Fax and Ethernet",
       "Scanner and copier",
       "Built for sustained, high-volume office printing",
-      "White finish",
+      "White finish"
     ],
     pros: [
       "Lowest ink cost per page at sustained high volume",
       "Fax and Ethernet cover full small-office needs",
       "Built for daily, heavy printing without cartridge treadmill",
-      "Reliable wired networking",
+      "Reliable wired networking"
     ],
     cons: [
       "Highest upfront price in this list by a wide margin",
       "Significant overkill for light or occasional printing",
-      "Large footprint needs real desk or cabinet space",
+      "Large footprint needs real desk or cabinet space"
     ],
     bestFor: "Offices genuinely printing hundreds of pages a month that want to eliminate cartridges entirely",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value across price tiers",
     description: "Weighed upfront price against ink savings over a projected 1 to 2 year ownership window rather than comparing sticker prices in isolation.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,12 +477,12 @@ export const faq: FaqItem[] = [
   {
     q: "Is a cartridge-free printer worth it for light, occasional printing?",
     a: "Usually not as strongly as for regular use. The higher upfront price pays off through cheaper ink over volume, so a household printing only a handful of pages a month may be better served by a basic cartridge inkjet, and can revisit an ink-tank model if volume grows.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-with-cheap-ink", title: "Best Printers with Cheap Ink (2026)" },
   { href: "/guide/best-printers-for-high-volume-printing", title: "Best Printers for High-Volume Printing (2026)" },
   { href: "/guide/best-printers-for-home-use", title: "Best All-in-One Printers for Home Use (2026)" },
-  { href: "/guide/best-printers-for-homeschooling", title: "Best Printers for Homeschooling (2026)" },
+  { href: "/guide/best-printers-for-homeschooling", title: "Best Printers for Homeschooling (2026)" }
 ];

@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The highest polling rate in a space-saving layout", "Keychron V1 8K Custom Mechanical Keyboard, 75% Layout"],
         ["A TKL layout with dedicated editing keys", "Keychron V3 8K TKL Wired Mechanical Keyboard"],
         ["Genuine wireless flexibility with dual-mode controls", "AULA F75 Pro Wireless Mechanical Keyboard"],
-        ["A genuine aluminum build at the lowest price", "Logitech G413 TKL SE Mechanical Gaming Keyboard"],
+        ["A genuine aluminum build at the lowest price", "Logitech G413 TKL SE Mechanical Gaming Keyboard"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $60", "Logitech G413 TKL SE ($59.99)"],
-        ["Under $70", "AULA F75 Pro ($69.99)"],
-        ["Under $75", "Keychron V1 or V3 (both $74.99)"],
+        ["Under $60", "Logitech G413 TKL SE (under $60)"],
+        ["Under $70", "AULA F75 Pro (under $70)"],
+        ["Under $75", "Keychron V1 or V3 (both under $80)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "8000Hz Wired Performance vs Tri-Mode Wireless Flexibility",
     cards: [
       { label: "8000Hz wired (Keychron V1, V3)", text: "Delivers the lowest possible input latency for competitive gaming, but requires a wired connection and a sufficiently modern processor to fully utilize." },
-      { label: "Tri-mode wireless (AULA F75 Pro)", text: "Trades peak polling rate for genuine cable-free flexibility across up to 5 devices, better suited to a multi-device workflow." },
+      { label: "Tri-mode wireless (AULA F75 Pro)", text: "Trades peak polling rate for genuine cable-free flexibility across up to 5 devices, better suited to a multi-device workflow." }
     ],
     note: "If competitive gaming latency is your top priority and your system meets the processor requirement, the Keychron V1 or V3's 8000Hz wired performance is worth the wired-only tradeoff. If you value wireless freedom across multiple devices, the AULA F75 Pro is the better fit.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Linear, smooth keystroke", "Keychron V1 (brown switches)"],
         ["Tactile, bump-feedback keystroke", "Keychron V3 (banana switches) or Logitech G413 TKL SE"],
-        ["Creamy sound, gasket-mounted feel", "AULA F75 Pro (reaper switches)"],
+        ["Creamy sound, gasket-mounted feel", "AULA F75 Pro (reaper switches)"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Competitive Gaming Setup Specifically",
     cards: [
       { label: "Look for", text: "An 8000Hz polling rate paired with a stated minimum processor requirement, since this level of performance depends on your system actually being able to process the higher data transmission speed." },
-      { label: "In this comparison", text: "The Keychron V1 and V3's 8000Hz polling rate specifically requires an Intel i7 9th gen or AMD Ryzen 7 2nd gen processor or above to be fully effective." },
+      { label: "In this comparison", text: "The Keychron V1 and V3's 8000Hz polling rate specifically requires an Intel i7 9th gen or AMD Ryzen 7 2nd gen processor or above to be fully effective." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the highest polling rate with full QMK programmability, where the Keychron V1 or V3 delivers that at the top of this tier." },
-      { label: "Save if", text: "You want a genuinely durable aluminum build without needing hot-swap or wireless features, where the Logitech G413 TKL SE covers that for about $15 less." },
+      { label: "Save if", text: "You want a genuinely durable aluminum build without needing hot-swap or wireless features, where the Logitech G413 TKL SE covers that for about $15 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

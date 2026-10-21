@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "standing desk converter for two monitors and a laptop";
 export const introParagraphs = [
   "Two monitors plus an open laptop is a heavier, wider real-world setup than generic dual-monitor use, since you need simultaneous space for two monitor bases, an open laptop, and a keyboard and mouse. We required genuinely large platforms rather than assuming a standard dual-monitor converter automatically fits a third device.",
-  "We prioritized picks with either a wide open platform or an integrated dual-monitor mount that frees up enough remaining surface for the laptop and keyboard.",
+  "We prioritized picks with either a wide open platform or an integrated dual-monitor mount that frees up enough remaining surface for the laptop and keyboard."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "9 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required genuine simultaneous space for three devices", description: "We measured whether two monitor footprints plus an open laptop and keyboard actually fit, rather than counting devices from a marketing image." },
   { title: "Compared open-platform and integrated-mount approaches to the same space problem", description: "We noted where mounting monitors on arms frees platform surface for the laptop versus relying on a wider open platform to fit everything." },
   { title: "Weighed electric lift for the heavier three-device combined load", description: "Two monitors plus a laptop add meaningful weight, and we flagged where electric adjustment offers a genuine advantage." },
-  { title: "Compared value across a wide price range for this specific three-device use case", description: "We compared options across a range of price points, weighing the specific combination of features each offers." },
+  { title: "Compared value across a wide price range for this specific three-device use case", description: "We compared options across a range of price points, weighing the specific combination of features each offers." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -254,7 +254,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
@@ -263,11 +263,11 @@ export const faq: FaqItem[] = [
   { q: "Can I fit two monitors and a laptop on a smaller platform?", a: "Yes, with an integrated dual-monitor mount that lifts the monitors overhead, freeing the platform surface for the laptop, like the VIVO 32 inch option." },
   { q: "Is there an electric option for this setup?", a: "Yes, both the VERSADESK PowerPro 40 Inch and the Mount-It! Electric Standing Desk Converter with Dual Monitor Arm offer electric lift." },
   { q: "What's the most complete feature combination?", a: "The Mount-It! Electric Standing Desk Converter with Dual Monitor Arm, combining integrated mounts, electric lift, and an extra-large platform, at the highest price in this comparison." },
-  { q: "How wide a platform do I need for two monitors and a laptop?", a: "Generally 42-48 inches for an open platform approach, or a smaller platform if using an integrated dual-monitor mount to free up surface space." },
+  { q: "How wide a platform do I need for two monitors and a laptop?", a: "Generally 42-48 inches for an open platform approach, or a smaller platform if using an integrated dual-monitor mount to free up surface space." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-dual-monitor-standing-desk-converters", title: "Best Dual Monitor Standing Desk Converters (2026)" },
   { href: "/guide/best-large-standing-desk-converters", title: "Best Large Standing Desk Converters (2026)" },
-  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
+  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" }
 ];

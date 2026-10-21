@@ -12,7 +12,7 @@ export const curvedVsFlatMonitorGuide: Guide = {
     "curved monitor worth it",
     "curved vs flat monitor for work",
     "curved ultrawide monitor benefits",
-    "does curved monitor reduce eye strain",
+    "does curved monitor reduce eye strain"
   ],
   heroImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const curvedVsFlatMonitorGuide: Guide = {
     "ultrawide-vs-dual-monitor",
     "monitor-size-chart",
     "ips-vs-va-vs-tn-panel",
-    "refresh-rate-explained",
+    "refresh-rate-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const curvedVsFlatMonitorGuide: Guide = {
       question: "Do curved monitors cost more than flat ones?",
       answer:
         "Generally yes, curved monitors of the same size and specs typically carry a price premium over flat equivalents, so the added cost is worth weighing against how much the immersion or eye comfort benefit actually matters for your specific use.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const curvedVsFlatMonitorGuide: Guide = {
     {
       heading: "When to Choose Flat Instead",
       body: `If your work involves precise visual alignment, like design software, spreadsheets with long rows, or video editing timelines, a flat screen avoids any subtle curve-related distortion when judging straight lines. If your monitor is a standard 24-27 inch size, the curve's practical benefit is small enough that choosing based on price or panel quality instead is a reasonable approach.`,
-    },
+    }
   ],
 };

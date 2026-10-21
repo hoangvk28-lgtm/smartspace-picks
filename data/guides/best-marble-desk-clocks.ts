@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "marble desk clock";
 export const introParagraphs = [
   "Genuine marble desk clocks are a narrow category, most desk clocks marketed with a marble look use a marble-print or resin finish rather than real stone. Our verified research pool turned up exactly two confirmed genuine marble products, one a premium hand-carved piece and one a more accessible round black design, and we're covering both honestly rather than padding this list with marble-look alternatives.",
-  "If you want a wider range of premium desk clock materials beyond marble specifically, see our luxury desk clocks guide, which covers these two picks alongside glass and crystal options.",
+  "If you want a wider range of premium desk clock materials beyond marble specifically, see our luxury desk clocks guide, which covers these two picks alongside glass and crystal options."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "5 min";
@@ -59,7 +59,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed genuine marble material for both picks before including them", description: "Verified real stone construction from listing details for both products, rather than including marble-look resin or printed-finish clocks that only resemble marble visually." },
   { title: "Declined to pad this narrow category with marble-look alternatives", description: "Kept this guide to exactly two confirmed genuine marble products rather than stretching the list with unverified or marble-printed items." },
   { title: "Compared price and finish directly between the two verified picks", description: "Placed the hand-carved premium piece and the more accessible round design side by side so buyers can weigh genuine material against price directly." },
-  { title: "Pointed toward the broader luxury guide for buyers wanting more material variety", description: "Directed readers who want options beyond marble specifically to our luxury desk clocks guide, which includes both these picks alongside glass and crystal choices." },
+  { title: "Pointed toward the broader luxury guide for buyers wanting more material variety", description: "Directed readers who want options beyond marble specifically to our luxury desk clocks guide, which includes both these picks alongside glass and crystal choices." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -181,11 +181,11 @@ export const faq: FaqItem[] = [
   { q: "Why does this guide only have two products?", a: "Genuine marble desk clocks, confirmed real stone rather than a marble-look finish, are a narrow category. Our verified research found exactly two confirmed products, and we chose accuracy over padding the list." },
   { q: "How do I know if a marble clock is real stone or just marble-look?", a: "Check the listing for explicit language like real marble, natural stone, or hand carved. A marble-look or marble-style description often means a printed or resin finish instead." },
   { q: "Which marble clock is the better value?", a: "The Deluxe Round Black Marble Desk Mantle Clock offers genuine marble material at a lower price, while the Luxurious Marble Desk Clock offers higher craftsmanship at a premium price." },
-  { q: "What if I want more premium material options than marble alone?", a: "See our luxury desk clocks guide, which includes both marble picks here alongside glass and crystal options, or our crystal desk clocks guide for our verified crystal pick." },
+  { q: "What if I want more premium material options than marble alone?", a: "See our luxury desk clocks guide, which includes both marble picks here alongside glass and crystal options, or our crystal desk clocks guide for our verified crystal pick." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-luxury-desk-clocks", title: "Best Luxury Desk Clocks (2026)" },
   { href: "/guide/best-crystal-desk-clocks", title: "Best Crystal Desk Clocks (2026)" },
-  { href: "/guide/best-antique-style-desk-clocks", title: "Best Antique-Style Desk Clocks (2026)" },
+  { href: "/guide/best-antique-style-desk-clocks", title: "Best Antique-Style Desk Clocks (2026)" }
 ];

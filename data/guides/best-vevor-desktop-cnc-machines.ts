@@ -129,20 +129,20 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $142.90",
+          "Under $150",
           "VEVOR 3018 CNC Router Machine"
         ],
         [
-          "Around $322.90",
+          "Under $350",
           "VEVOR CNC Router Machine"
         ],
         [
-          "Around $369.90",
+          "Under $400",
           "VEVOR CNC Router Machine"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -190,7 +190,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "VEVOR CNC Router Machine is aimed at buyers prioritizing 15.74 x 15.7 x 2.95in engraving area." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "VEVOR CNC Router Machine is aimed at buyers prioritizing 15.74 x 15.7 x 2.95in engraving area." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-carvera-desktop-cnc-machines","title":"Best Carvera Desktop CNC Machines in 2026"},{"href":"/guide/best-bantam-tools-desktop-cnc-machines","title":"Best Bantam Tools Desktop CNC Machines in 2026"},{"href":"/guide/best-makera-desktop-cnc-machines","title":"Best Makera Desktop CNC Machines in 2026"}];

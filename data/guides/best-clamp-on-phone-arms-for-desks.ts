@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "clamp-on phone arms for desks";
 export const introParagraphs = [
   "Nearly every arm across our phone arm guides already uses a clamp mount, so this guide's real value is a closer look at the clamp mechanism itself, not a distinct product category. We focus specifically on desk edge thickness compatibility and the cosmetic risk of clamp torque marking softer desk surfaces.",
-  "All five picks below require no drilling and attach in seconds, differing mainly in clamp opening range, contact-point padding, and how firmly they lock once tightened.",
+  "All five picks below require no drilling and attach in seconds, differing mainly in clamp opening range, contact-point padding, and how firmly they lock once tightened."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Desk edge thickness compatibility", description: "We compared each clamp's opening range against common desk, bed frame, and standing-desk edge thicknesses." },
   { title: "Surface marking and scratch risk", description: "We checked for silicone or EVA padding at the clamp contact points, since firm clamp torque can otherwise mark softer desk finishes." },
   { title: "Clamp locking mechanism", description: "We compared simple spring-squeeze clamps against friction-knob-locked clamps for hold security under sustained or repeated use." },
-  { title: "No-drilling verification", description: "We confirmed every pick attaches without drilling or permanent modification, consistent with genuine clamp-on design." },
+  { title: "No-drilling verification", description: "We confirmed every pick attaches without drilling or permanent modification, consistent with genuine clamp-on design." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -229,11 +229,11 @@ export const faq: FaqItem[] = [
   { q: "What's the difference between a spring clamp and a friction-knob clamp?", a: "A spring clamp squeezes open and clamps shut automatically when released, fast but less firm. A friction-knob clamp is manually tightened for a more secure, adjustable hold." },
   { q: "How do I know my desk edge will fit a given clamp?", a: "Measure your desk edge thickness at the exact spot you plan to clamp, then compare it against the product's stated clamp opening range before ordering." },
   { q: "Do these clamps work on glass desks?", a: "Yes, as long as the clamp has protective padding, which all five picks here include. Avoid clamping directly onto glass without that padding in place to prevent scratching or chipping." },
-  { q: "Is this guide different from your other phone arm guides?", a: "There's substantial overlap, since nearly every phone arm we've researched uses a clamp base. This guide specifically focuses on comparing the clamp mechanisms themselves." },
+  { q: "Is this guide different from your other phone arm guides?", a: "There's substantial overlap, since nearly every phone arm we've researched uses a clamp base. This guide specifically focuses on comparing the clamp mechanisms themselves." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-phone-arms", title: "Best Desk Phone Arms (2026)" },
   { href: "/guide/best-desk-mounted-phone-arms", title: "Best Desk-Mounted Phone Arms (2026)" },
-  { href: "/guide/best-flexible-gooseneck-phone-arms", title: "Best Flexible Gooseneck Phone Arms (2026)" },
+  { href: "/guide/best-flexible-gooseneck-phone-arms", title: "Best Flexible Gooseneck Phone Arms (2026)" }
 ];

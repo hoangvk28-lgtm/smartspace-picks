@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $62.50",
+          "Under $70",
           "Jiangce Conference Table Power Hub with HDMI"
         ],
         [
-          "Around $197.99",
+          "Under $200",
           "YITAHOME 94.5\" Boat Shaped Conference Table with Power Outlets"
         ],
         [
-          "Around $236.99",
+          "Under $250",
           "YITAHOME 70.8\" Boat Shaped Conference Table with Power Outlets"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "OffiGo 71\" Electric Standing Conference Desk"
         ],
         [
-          "Around $279.99",
+          "Under $300",
           "OffiGo 79\" Electric Standing Conference Desk"
         ],
         [
-          "Around $1,749.99",
+          "Under $1,800",
           "10ft Conference Table with Built-In Power Outlet"
         ],
         [
-          "Around $1,749.99",
+          "Under $1,800",
           "ZIMASYA Conference Table with Power Outlets & USB"
         ],
         [
-          "Around $1,749.99",
+          "Under $1,800",
           "Anzhap 10FT Conference Table with Power Outlets & USB"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "10ft Conference Table with Built-In Power Outlet is aimed at buyers prioritizing 118\"l x 52\"w x 30\"h, seats 10." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "10ft Conference Table with Built-In Power Outlet is aimed at buyers prioritizing 118\"l x 52\"w x 30\"h, seats 10." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-conference-tables-with-built-in-power","title":"Best Conference Tables With Built-In Power in 2026"},{"href":"/guide/best-conference-tables-with-power-outlets","title":"Best Conference Tables With Power Outlets in 2026"},{"href":"/guide/best-conference-tables-with-cable-management","title":"Best Conference Tables With Cable Management in 2026"}];

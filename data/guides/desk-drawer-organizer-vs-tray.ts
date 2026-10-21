@@ -12,7 +12,7 @@ export const deskDrawerOrganizerVsTrayGuide: Guide = {
     "adjustable drawer organizer vs fixed tray",
     "best drawer organizer for desk supplies",
     "drawer tray compartments",
-    "customizable desk drawer insert",
+    "customizable desk drawer insert"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskDrawerOrganizerVsTrayGuide: Guide = {
     "desk-organizer-types-explained",
     "desk-size-chart",
     "monitor-stand-with-storage-explained",
-    "cable-management-types-explained",
+    "cable-management-types-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskDrawerOrganizerVsTrayGuide: Guide = {
       question: "What material is best for a drawer organizer?",
       answer:
         "Plastic and bamboo are both common, plastic organizers are typically more affordable and available in more configurations, bamboo offers a more polished aesthetic at generally higher cost, functionally both work well for typical desk supplies.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const deskDrawerOrganizerVsTrayGuide: Guide = {
     {
       heading: "When Fixed Compartments Are Actually the Better Choice",
       body: `If you already know exactly what you're storing, pens, sticky notes, a stapler, paperclips, and this collection is unlikely to change significantly, a fixed tray with compartments already sized for typical office supplies is simpler to use immediately without needing to plan and configure adjustable dividers yourself. Reserve the adjustable organizer's added cost and setup effort for situations where genuine flexibility adds real value.`,
-    },
+    }
   ],
 };

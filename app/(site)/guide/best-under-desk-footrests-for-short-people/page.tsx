@@ -138,7 +138,7 @@ export default async function BestUnderDeskFootrestsShortPeoplePage() {
     about: [
       { "@type": "Thing", name: "Under-Desk Footrest" },
       { "@type": "Thing", name: "Ergonomics" },
-      { "@type": "Thing", name: "Short User Ergonomics" },
+      { "@type": "Thing", name: "Short User Ergonomics" }
     ],
   };
 
@@ -148,7 +148,7 @@ export default async function BestUnderDeskFootrestsShortPeoplePage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Under-Desk Footrests for Short People", item: `${SITE_URL}/guide/best-under-desk-footrests-for-short-people` },
+      { "@type": "ListItem", position: 3, name: "Best Under-Desk Footrests for Short People", item: `${SITE_URL}/guide/best-under-desk-footrests-for-short-people` }
     ],
   };
 
@@ -295,7 +295,7 @@ export default async function BestUnderDeskFootrestsShortPeoplePage() {
               <p className="text-sm text-ink-secondary">
                 <strong className="text-ink">best overall for short users:</strong>{" "}
                 <a href="#everlasting-comfort" className="font-bold text-ink hover:text-brand transition-colors">Everlasting Comfort Foot Rest</a>
-                 - 22,247 reviews at 4.5 stars, memory foam with adjustable height options.
+                 - Memory foam with adjustable height options.
               </p>
             </div>
             <p className="text-sm text-ink-secondary pl-5">See the full rankings above for all eight picks with pros, cons, and best-for summaries.</p>

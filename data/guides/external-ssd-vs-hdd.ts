@@ -12,7 +12,7 @@ export const externalSsdVsHddGuide: Guide = {
     "external hard drive vs ssd",
     "is ssd worth it for external storage",
     "external ssd speed advantage",
-    "cheapest external storage option",
+    "cheapest external storage option"
   ],
   heroImage: "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const externalSsdVsHddGuide: Guide = {
     "usb4-nvme-enclosure-explained",
     "external-drive-storage-size-chart",
     "thunderbolt-vs-usb-c-explained",
-    "usb-c-power-delivery-explained",
+    "usb-c-power-delivery-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const externalSsdVsHddGuide: Guide = {
       question: "Can I use an external SSD as my primary working drive?",
       answer:
         "Yes, external SSDs, especially those connected via USB-C or Thunderbolt, offer speeds fast enough for comfortably working directly with large files like video footage, something an external HDD would struggle to do smoothly.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const externalSsdVsHddGuide: Guide = {
     {
       heading: "When HDD's Lower Cost Per Gigabyte Wins Out",
       body: `For pure bulk backup storage, archiving old projects, photo libraries, or infrequent full system backups, where you're not actively waiting on transfer speed day to day, an HDD's significantly lower cost per gigabyte makes it the more practical choice, especially at larger capacities like 4TB or more where the price gap between SSD and HDD becomes substantial.`,
-    },
+    }
   ],
 };

@@ -50,7 +50,7 @@ export const products: WorkHeadset[] = [
     tradeoffs: [
       "Sold and branded as a gaming headset, not marketed or certified for office platforms",
       "No Teams or Zoom hardware certification",
-      "Manufacturer does not publish a weight spec, based on similar tri-mode headsets expect a heavier build than dedicated work headsets",
+      "Manufacturer does not publish a weight spec, based on similar tri-mode headsets expect a heavier build than dedicated work headsets"
     ],
     skipIf:
       "You want a headset from an established office-audio brand with full published specs. For call-heavy Teams or Zoom use, the Jabra or Logitech picks in this guide have more transparent documentation.",
@@ -58,12 +58,12 @@ export const products: WorkHeadset[] = [
       "Tri-mode 2.4GHz, Bluetooth, and wired connectivity in one headset",
       "40+ hour rated battery life, the longest wireless runtime in this guide",
       "50mm drivers for clear voice reproduction",
-      "Works as a wired backup if the battery ever dies mid-call",
+      "Works as a wired backup if the battery ever dies mid-call"
     ],
     cons: [
       "Marketed as a gaming headset, not an office-certified product",
       "No Teams or Zoom hardware certification",
-      "Weight not disclosed by the manufacturer",
+      "Weight not disclosed by the manufacturer"
     ],
   },
   {
@@ -84,7 +84,7 @@ export const products: WorkHeadset[] = [
     tradeoffs: [
       "Designed and styled as a gaming headset, with an aesthetic that reads less professional on video than the Jabra or Logitech picks",
       "Wired only, no wireless option",
-      "No Teams or Zoom hardware certification",
+      "No Teams or Zoom hardware certification"
     ],
     skipIf:
       "You want a headset that looks purpose-built for office video calls. For a more professional appearance at a similar price, the Jabra Evolve2 30 MS is the better fit.",
@@ -92,12 +92,12 @@ export const products: WorkHeadset[] = [
       "Dual 3.5mm and USB connectivity",
       "Detachable boom mic",
       "7.1 surround processing in USB mode",
-      "Under $40",
+      "Under $40"
     ],
     cons: [
       "Gaming-oriented look, less office-appropriate on video",
       "Wired only",
-      "No Teams or Zoom hardware certification",
+      "No Teams or Zoom hardware certification"
     ],
   },
   {
@@ -118,19 +118,19 @@ export const products: WorkHeadset[] = [
     tradeoffs: [
       "A newer, less established brand than Jabra, Logitech, or Anker, with a thinner published spec sheet",
       "Battery life and weight are not disclosed by the manufacturer",
-      "No Teams or Zoom hardware certification",
+      "No Teams or Zoom hardware certification"
     ],
     skipIf:
       "You want a headset from a brand with a fully documented spec sheet and a longer track record. The Logitech Zone Vibe 125 covers the same use case with published battery, weight, and multipoint specs.",
     pros: [
       "Bluetooth wireless with a noise-cancelling mic",
       "Built and marketed specifically for work calls",
-      "Competitive pricing against established budget-wireless picks",
+      "Competitive pricing against established budget-wireless picks"
     ],
     cons: [
       "Battery and weight specs not published by the manufacturer",
       "Less established brand than other picks in this guide",
-      "No Teams or Zoom hardware certification",
+      "No Teams or Zoom hardware certification"
     ],
   },
   {
@@ -151,7 +151,7 @@ export const products: WorkHeadset[] = [
     tradeoffs: [
       "Designed and marketed as a gaming headset, not an office product",
       "3.5mm-only connection, no USB-A or USB-C, so it will not work on laptops without a headphone jack",
-      "No Teams or Zoom hardware certification",
+      "No Teams or Zoom hardware certification"
     ],
     skipIf:
       "Your laptop lacks a 3.5mm jack, or you want a headset certified for a specific call platform. The Logitech H390 covers USB-only laptops at a similar price point.",
@@ -159,12 +159,12 @@ export const products: WorkHeadset[] = [
       "Lowest price in this guide at under $20",
       "Unidirectional mic for clearer voice pickup",
       "Lightweight 250g build with memory-foam earmuffs",
-      "Plug-and-play 3.5mm jack, no drivers needed",
+      "Plug-and-play 3.5mm jack, no drivers needed"
     ],
     cons: [
       "3.5mm only, no USB option",
       "Marketed as a gaming headset, not an office product",
-      "No Teams or Zoom hardware certification",
+      "No Teams or Zoom hardware certification"
     ],
   },
   {
@@ -185,7 +185,7 @@ export const products: WorkHeadset[] = [
     tradeoffs: [
       "No noise cancellation on the headphone side, you hear everything around you",
       "No wireless, cable management required at a standing desk",
-      "The ANC spec refers to the microphone only, not headphone-side isolation",
+      "The ANC spec refers to the microphone only, not headphone-side isolation"
     ],
     skipIf:
       "You need to move around during calls or work in a loud environment. For a fixed quiet desk, the H390 handles every call platform.",
@@ -194,12 +194,12 @@ export const products: WorkHeadset[] = [
       "Adjustable noise-cancelling boom mic",
       "In-line volume and mute controls",
       "Comfortable foam cushions for all-day wear",
-      "Works on Chromebook",
+      "Works on Chromebook"
     ],
     cons: [
       "No headphone-side noise cancellation",
       "Wired only, no wireless option",
-      "USB-A only, no USB-C adapter included",
+      "USB-A only, no USB-C adapter included"
     ],
   },
   {
@@ -220,7 +220,7 @@ export const products: WorkHeadset[] = [
     tradeoffs: [
       "No ANC, passive isolation only",
       "Wired only, USB-A cable limits movement to desk area",
-      "Built-in mic only, no boom arm for very noisy rooms",
+      "Built-in mic only, no boom arm for very noisy rooms"
     ],
     skipIf:
       "You need to stand or walk during calls. For desk-bound call-heavy roles, this is the best wired pick under $70.",
@@ -229,12 +229,12 @@ export const products: WorkHeadset[] = [
       "48% more passive isolation than previous generation",
       "Dual built-in mics with DSP noise filtering",
       "Lightest wired option at 139g",
-      "Full cross-platform support including Zoom and Meet",
+      "Full cross-platform support including Zoom and Meet"
     ],
     cons: [
       "No active noise cancellation",
       "Wired only",
-      "No boom arm for louder environments",
+      "No boom arm for louder environments"
     ],
   },
   {
@@ -255,7 +255,7 @@ export const products: WorkHeadset[] = [
     tradeoffs: [
       "No ANC, works best in moderately quiet environments",
       "No Teams or Zoom hardware certification",
-      "Boom mic arm is fixed, not detachable",
+      "Boom mic arm is fixed, not detachable"
     ],
     skipIf:
       "You work in a loud open office or need ANC for concentration. The Anker H700 adds AI mic and ANC for $20-$30 more.",
@@ -264,12 +264,12 @@ export const products: WorkHeadset[] = [
       "Flip-to-mute boom mic with tactile feedback",
       "Multipoint Bluetooth for PC and phone simultaneously",
       "USB-A and USB-C receivers included",
-      "Under 200g for all-day comfort",
+      "Under 200g for all-day comfort"
     ],
     cons: [
       "No active noise cancellation",
       "No Teams or Zoom hardware certification",
-      "Boom mic arm is not detachable",
+      "Boom mic arm is not detachable"
     ],
   },
   {
@@ -290,7 +290,7 @@ export const products: WorkHeadset[] = [
     tradeoffs: [
       "No formal Teams or Zoom hardware certification",
       "Built-in mic array only, no boom arm for very noisy rooms",
-      "AnkerWork transcription requires Windows or macOS",
+      "AnkerWork transcription requires Windows or macOS"
     ],
     skipIf:
       "You need Teams hardware certification for a managed enterprise environment. The Jabra Evolve2 55 MS is the certified choice.",
@@ -299,12 +299,12 @@ export const products: WorkHeadset[] = [
       "Meeting transcription via AnkerWork app",
       "Digital ANC on headphone side",
       "5-minute fast charge gives 3 hours",
-      "Charging stand included",
+      "Charging stand included"
     ],
     cons: [
       "No Teams or Zoom hardware certification",
       "No boom mic arm",
-      "Heavier than other picks at ~290g",
+      "Heavier than other picks at ~290g"
     ],
   },
   {
@@ -325,7 +325,7 @@ export const products: WorkHeadset[] = [
     tradeoffs: [
       "No boom mic, built-in dual mic array is excellent but below a boom for very noisy environments",
       "At ~$169, a meaningful step up from the H700",
-      "Audio tuning optimized for voice, not music listening",
+      "Audio tuning optimized for voice, not music listening"
     ],
     skipIf:
       "You do not use Microsoft Teams heavily or your workplace does not require certification. For call-heavy Teams users wearing a headset 6 to 8 hours daily, this is the correct pick.",
@@ -334,12 +334,12 @@ export const products: WorkHeadset[] = [
       "AirComfort ear cups self-adjust for all-day comfort",
       "33-hour ANC battery, 4+ full workdays",
       "2.4GHz dongle for stable audio in congested environments",
-      "Dual-device multipoint",
+      "Dual-device multipoint"
     ],
     cons: [
       "No boom mic arm",
       "Premium price at ~$169",
-      "Voice-optimized audio tuning, not for music",
+      "Voice-optimized audio tuning, not for music"
     ],
   },
   {
@@ -360,7 +360,7 @@ export const products: WorkHeadset[] = [
     tradeoffs: [
       "No Teams or Zoom hardware certification, mute button does not sync natively with platform mute state",
       "Leatherette earcups retain heat, glasses wearers may notice pressure after 2 to 3 hours",
-      "Consumer audio tuning with slight bass lift, not flat for pure call use",
+      "Consumer audio tuning with slight bass lift, not flat for pure call use"
     ],
     skipIf:
       "You need Teams button integration or a boom mic for noisy call environments. Best for focus workers who need serious ANC and make moderate-frequency calls.",
@@ -369,12 +369,12 @@ export const products: WorkHeadset[] = [
       "Aware Mode transparency for desk conversations",
       "Lightweight 238g, comfortable for all-day wear",
       "Up to 40 hours battery with ANC off",
-      "USB-C charging",
+      "USB-C charging"
     ],
     cons: [
       "No Teams or Zoom hardware certification",
       "Leatherette cups retain heat during long sessions",
-      "Consumer bass-lifted tuning",
+      "Consumer bass-lifted tuning"
     ],
   },
   {
@@ -395,7 +395,7 @@ export const products: WorkHeadset[] = [
     tradeoffs: [
       "No Teams or Zoom hardware certification",
       "No boom mic, excellent built-in call quality but mic placement is fixed",
-      "Premium price at ~$248, most expensive pick in this guide",
+      "Premium price at ~$248, most expensive pick in this guide"
     ],
     skipIf:
       "You need Teams hardware button integration. For WFH users who prioritize best-in-class ANC and high-quality call audio across all platforms, this is the strongest all-around option.",
@@ -404,14 +404,14 @@ export const products: WorkHeadset[] = [
       "4 beamforming mics for clear call quality",
       "Speak-to-Chat auto-pauses for conversations",
       "Multipoint for two devices",
-      "Foldable for commute and travel",
+      "Foldable for commute and travel"
     ],
     cons: [
       "No Teams or Zoom hardware certification",
       "No boom mic",
-      "Most expensive in this guide at ~$248",
+      "Most expensive in this guide at ~$248"
     ],
-  },
+  }
 ];
 
 export const atAGlanceRows = products.map((p) => ({
@@ -435,7 +435,7 @@ export const faq = [
   },
   {
     q: "What is the best wireless headset for working from home?",
-    a: "Depends on call volume and budget. For light to moderate calls: Logitech Zone Vibe 125 at $70-$90. For Teams-heavy roles: Jabra Evolve2 55 MS at $169, the certification and 33-hour battery justify the cost. For open-plan office or loud WFH environments: Sony WH-1000XM5 at $248 for best-in-class ANC.",
+    a: "Depends on call volume and budget. For light to moderate calls: Logitech Zone Vibe 125 at $70-$90. For Teams-heavy roles: Jabra Evolve2 55 MS at under $170, the certification and 33-hour battery justify the cost. For open-plan office or loud WFH environments: Sony WH-1000XM5 at under $250 for best-in-class ANC.",
   },
   {
     q: "Can I use noise-cancelling headphones like Sony or Bose for work calls?",
@@ -444,12 +444,12 @@ export const faq = [
   {
     q: "Does a wired headset sound better than wireless for calls?",
     a: "At equivalent price, yes. Wired delivers lossless audio with zero compression. At $25-$65, the Logitech H390 and Jabra Evolve2 30 MS outperform wireless headsets at similar prices for microphone clarity. Above $90, wireless DSP and AI processing close the gap significantly.",
-  },
+  }
 ];
 
 export const relatedGuides = [
   { title: "7 Best Gaming Headsets: Budget to Premium", href: "/guide/best-headphones-for-gaming" },
   { title: "7 Best Headphones for Working Out", href: "/guide/best-headphones-for-working-out" },
   { title: "Best Headphone Stands for Your Desk", href: "/guide/best-headphone-stand-desk" },
-  { title: "Best Webcam Under $50", href: "/guide/best-webcam-under-50" },
+  { title: "Best Webcam Under $50", href: "/guide/best-webcam-under-50" }
 ];

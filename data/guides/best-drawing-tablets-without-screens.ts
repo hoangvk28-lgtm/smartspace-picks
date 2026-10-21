@@ -193,36 +193,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $27.99",
+          "Under $30",
           "HUION Inspiroy H640P 6x4 inch Drawing Tablet 8192 Pen Pressure"
         ],
         [
-          "Around $27.99",
+          "Under $30",
           "GAOMON S620 Graphics Drawing Tablet"
         ],
         [
-          "Around $28.99",
+          "Under $30",
           "XPPen StarG640 Digital Graphic Tablet 6x4 Inch Art Tablet with Battery-Free Stylus"
         ],
         [
-          "Around $39.95",
+          "Under $40",
           "Wacom Intuos Small"
         ],
         [
-          "Around $41.79",
+          "Under $45",
           "HUION Inspiroy H1060P Graphics Drawing Tablet"
         ],
         [
-          "Around $42.99",
+          "Under $45",
           "GAOMON M10K Drawing Tablet"
         ],
         [
-          "Around $44.99",
+          "Under $45",
           "XPPen Deco 01 V3 10x6 Drawing Tablet"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -270,7 +270,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "HUION Inspiroy H640P 6x4 inch Drawing Tablet 8192 Pen Pressure is aimed at buyers prioritizing 6x4in active area, 8192 pressure levels." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "HUION Inspiroy H640P 6x4 inch Drawing Tablet 8192 Pen Pressure is aimed at buyers prioritizing 6x4in active area, 8192 pressure levels." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"},{"href":"/guide/best-wacom-drawing-tablets","title":"Best Wacom Drawing Tablets in 2026"},{"href":"/guide/best-drawing-tablets-with-screens","title":"Best Drawing Tablets With Screens in 2026"}];

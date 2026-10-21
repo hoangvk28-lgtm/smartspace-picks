@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     description: "This adapter's listing specifically states multi-size tips for adjustable 5V/9V/12V DC output up to 18-24 watts, delivered as a 2-pack with a 2-year warranty, the longest stated warranty period among the picks in this comparison. Its full IEEE 802.3af compliance delivers power up to 328 feet.\n\nCompared to the TRENDnet pick above, this one's 2-pack format and multi-size tip system provide both quantity value and connector flexibility, useful for converting two different non-PoE devices with different connector needs.\n\nBest for buyers converting two devices with different connector needs who want a longer warranty.",
     specs: ["2-pack, adjustable 5V/9V/12V, multi-size tips", "18-24W output, 328ft range", "2-year warranty, full IEEE 802.3af compliance"],
     pros: ["Longest stated warranty in this comparison at 2 years", "Multi-size tips accommodate different device connectors", "2-pack delivers real value for converting two devices"],
-    cons: ["Highest total price in this comparison at $31.58", "Higher per-unit cost than the budget USB-C 2-pack below"],
+    cons: ["Highest total price in this comparison at under $35", "Higher per-unit cost than the budget USB-C 2-pack below"],
     bestFor: "buyers converting two devices with different connector needs who want a longer warranty",
   },
   {
@@ -61,7 +61,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0GQZ8DTMD?tag=deskfinds0d-20",
     description: "This splitter's listing specifically states a fixed 5V/2.4A (12W max) USB-C output per unit in a 2-pack format, along with an explicit compatibility guide clarifying it requires a standard 802.3af/at PoE source and is not suitable for 9V/12V devices or 24V passive PoE. This honest disclosure prevents a buyer from assuming broader compatibility than the splitter actually provides.\n\nCompared to the TRENDnet and ANVISION picks above, this one's USB-C connector specifically matches modern devices like Raspberry Pi and smart home gadgets that use USB-C rather than a DC barrel jack, at the lowest per-unit price in this comparison.\n\nBest for buyers converting two USB-C 5V devices like Raspberry Pi setups at the lowest per-unit price.",
     specs: ["2-pack, fixed 5V/2.4A (12W max) USB-C", "Requires standard 802.3af/at PoE source", "Isolation, short-circuit, overvoltage protection"],
-    pros: ["Lowest per-unit price in this comparison at roughly $9.50 each", "USB-C connector matches modern Raspberry Pi and smart home devices", "Honest compatibility guide prevents mismatched device connections"],
+    pros: ["Lowest per-unit price in this comparison at under $10 each", "USB-C connector matches modern Raspberry Pi and smart home devices", "Honest compatibility guide prevents mismatched device connections"],
     cons: ["Fixed 5V only, not adjustable like the TRENDnet or ANVISION picks", "Explicitly not compatible with 9V/12V devices or 24V passive PoE"],
     bestFor: "buyers converting two USB-C 5V devices like Raspberry Pi setups at the lowest per-unit price",
   },
@@ -77,7 +77,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B07ZH5V89T?tag=deskfinds0d-20",
     description: "This splitter's listing specifically states 2.5KV isolation for electrical safety at 5V/2.4A (12W max) output, the lowest single-unit price in this comparison. Its 5.5x2.1mm DC plug fits household IP cameras and similar 5V devices, with an explicit warning that it does not suit 12V-powered equipment.\n\nCompared to the multi-pack picks above, this one's single-unit format suits buyers who only need to convert one 5V device without paying for additional units they won't use.\n\nBest for buyers who only need to convert a single 5V device at the lowest single-unit price.",
     specs: ["5V/2.4A (12W max), 5.5x2.1mm DC plug", "2.5KV isolation, IEEE 802.3af compliant", "10/100Mbps, single unit"],
-    pros: ["Lowest single-unit price in this comparison at $10.50", "2.5KV isolation for electrical safety", "Specifically suited to household 5V IP cameras"],
+    pros: ["Lowest single-unit price in this comparison at under $15", "2.5KV isolation for electrical safety", "Specifically suited to household 5V IP cameras"],
     cons: ["Fixed 5V only, not adjustable to other voltages", "100Mbps speed only, not Gigabit"],
     bestFor: "buyers who only need to convert a single 5V device at the lowest single-unit price",
   }
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["The longest warranty with voltage flexibility", "TRENDnet Gigabit PoE Splitter (TPE-104GS)"],
         ["Two devices with different connector needs", "ANVISION 2-Pack Active Gigabit PoE Splitter Adapter"],
         ["Two USB-C devices at the lowest per-unit price", "2Pack Gigabit PoE Splitter USB C"],
-        ["A single 5V device at the lowest single-unit price", "DSLRKIT DC 5V 2.4A Active PoE Splitter"],
+        ["A single 5V device at the lowest single-unit price", "DSLRKIT DC 5V 2.4A Active PoE Splitter"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $11", "DSLRKIT DC 5V 2.4A ($10.50)"],
-        ["Under $15", "TRENDnet TPE-104GS ($14.99)"],
-        ["Under $19", "2Pack Gigabit PoE Splitter USB C ($18.99)"],
-        ["Under $32", "ANVISION 2-Pack Multi-Voltage ($31.58)"],
+        ["Under $11", "DSLRKIT DC 5V 2.4A (under $15)"],
+        ["Under $15", "TRENDnet TPE-104GS (under $15)"],
+        ["Under $19", "2Pack Gigabit PoE Splitter USB C (under $20)"],
+        ["Under $32", "ANVISION 2-Pack Multi-Voltage (under $35)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Adjustable Voltage vs Fixed Voltage Value",
     cards: [
       { label: "Adjustable voltage (TRENDnet, ANVISION)", text: "Both let you switch between 5V, 9V, and 12V, useful if you're unsure of your exact device requirement or plan to use the same splitter for different devices over time." },
-      { label: "Fixed voltage (USB-C 2-Pack, DSLRKIT)", text: "Both are locked to a single fixed voltage, simpler and cheaper if you already know your device's exact power requirement." },
+      { label: "Fixed voltage (USB-C 2-Pack, DSLRKIT)", text: "Both are locked to a single fixed voltage, simpler and cheaper if you already know your device's exact power requirement." }
     ],
     note: "If you're unsure of your device's exact voltage or want flexibility for future devices, the adjustable-voltage picks are worth the extra cost. If you've already confirmed your device's fixed voltage, the simpler fixed-voltage picks deliver the same practical result for less.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["DC barrel jack (adjustable voltage)", "TRENDnet TPE-104GS or ANVISION 2-Pack"],
         ["USB-C (Raspberry Pi, smart home devices)", "2Pack Gigabit PoE Splitter USB C"],
-        ["Standard 5V DC (household IP cameras)", "DSLRKIT DC 5V 2.4A"],
+        ["Standard 5V DC (household IP cameras)", "DSLRKIT DC 5V 2.4A"]
       ],
     },
   },
@@ -139,22 +139,22 @@ export const howToChoose = [
     subheading: "For a First-Time PoE Splitter Buyer on a Budget Specifically",
     cards: [
       { label: "Look for", text: "A clear, honest compatibility disclosure stating exactly which voltage and PoE source the splitter requires, avoiding a mismatched purchase for your specific device." },
-      { label: "In this comparison", text: "The USB-C 2-Pack specifically includes an explicit compatibility guide clarifying its exact requirements and limitations, helping a first-time buyer avoid a mismatch." },
+      { label: "In this comparison", text: "The USB-C 2-Pack specifically includes an explicit compatibility guide clarifying its exact requirements and limitations, helping a first-time buyer avoid a mismatch." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want the longest warranty backed by an established brand with institutional compliance, where the TRENDnet pick's $14.99 price is justified by its 3-year protection and NDAA compliance." },
-      { label: "Save if", text: "You only need to convert a single 5V device, where the DSLRKIT pick delivers that for $10.50, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You want the longest warranty backed by an established brand with institutional compliance, where the TRENDnet pick's under $15 price is justified by its 3-year protection and NDAA compliance." },
+      { label: "Save if", text: "You only need to convert a single 5V device, where the DSLRKIT pick delivers that for under $15, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "A Budget Splitter's Real Value Depends on Price Per Device Served, Not Just the Sticker Price Alone",
-    "explanation": "The 2Pack Gigabit PoE Splitter USB C works out to roughly $9.50 per unit when you need two devices, a lower true cost per device than the DSLRKIT pick's $10.50 single-unit price if you actually need to convert two devices rather than one. This matters significantly if you need to convert multiple devices, since comparing splitters by device count divided by price reveals which option actually delivers better value for your specific need. Calculate the effective price per device converted, not just the sticker price, before assuming the cheapest single-listed price is automatically the best value for a multi-device need."
+    "explanation": "The 2Pack Gigabit PoE Splitter USB C works out to under $10 per unit when you need two devices, a lower true cost per device than the DSLRKIT pick's under $15 single-unit price if you actually need to convert two devices rather than one. This matters significantly if you need to convert multiple devices, since comparing splitters by device count divided by price reveals which option actually delivers better value for your specific need. Calculate the effective price per device converted, not just the sticker price, before assuming the cheapest single-listed price is automatically the best value for a multi-device need."
   },
   {
     "criterion": "Adjustable Voltage via DIP Switch Provides Real Flexibility to Serve Different Devices With One Splitter Model",
@@ -175,7 +175,7 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Is the cheapest single-unit PoE splitter always the best value?", "a": "Not necessarily; if you need to convert two devices, a 2-pack like the USB-C splitter's roughly $9.50 per unit can deliver better true value than a slightly cheaper single-unit splitter, so calculating price per device is worth doing." },
+  { "q": "Is the cheapest single-unit PoE splitter always the best value?", "a": "Not necessarily; if you need to convert two devices, a 2-pack like the USB-C splitter's under $10 per unit can deliver better true value than a slightly cheaper single-unit splitter, so calculating price per device is worth doing." },
   { "q": "What's the most common mistake buyers make when choosing a budget PoE splitter?", "a": "Assuming a fixed-voltage splitter works with any non-PoE device regardless of voltage, when devices require specific voltages and a mismatched splitter simply won't power an incompatible device correctly." },
   { "q": "Is the ANVISION 2-pack worth the higher price over the TRENDnet single unit?", "a": "If you need to convert two devices with potentially different connector sizes, the ANVISION's 2-pack and multi-size tips deliver real value, but for a single device, the TRENDnet's lower price and 3-year warranty may be the better choice." },
   { "q": "Can I use the USB-C 2-pack splitter for a 12V device?", "a": "No, the listing explicitly states it's not for 9V/12V devices, delivering only fixed 5V power, so a 12V device would need the adjustable TRENDnet or ANVISION picks instead." },

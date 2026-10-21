@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mechanical keyboard wireless";
 export const introParagraphs = [
   "A wireless mechanical keyboard removes the desk clutter of a permanent cable, but going wireless introduces its own set of tradeoffs that rarely get explained clearly, real-world battery life with the backlight on, whether a 2.4GHz receiver ties up a limited USB-A port, and how many devices you can realistically switch between. Latency is no longer a real concern on modern hardware, but the other details still separate a genuinely convenient board from a frustrating one.",
-  "Below are 8 wireless mechanical keyboards we evaluated on connection type, battery and charging specs, multi-device switching, and build quality, ranging from a $44.99 compact 75% board to a $157.00 illuminated tactile keyboard. Each pick is matched to a specific connectivity need, port-limited laptops, crowded Bluetooth environments, or multi-device switching, rather than ranked as one universal best.",
+  "Below are 8 wireless mechanical keyboards we evaluated on connection type, battery and charging specs, multi-device switching, and build quality, ranging from an under-$45 compact 75% board to an under-$160 illuminated tactile keyboard. Each pick is matched to a specific connectivity need, port-limited laptops, crowded Bluetooth environments, or multi-device switching, rather than ranked as one universal best."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Hall effect magnetic switches, hot-swappable",
       "Adjustable actuation, rapid trigger mode",
       "Aluminum + wood frame",
-      "Custom RGB backlighting",
+      "Custom RGB backlighting"
     ],
     pros: [
       "True rapid trigger, a feature exclusive to Hall effect switches",
       "Hot-swappable despite the magnetic switch design",
       "Premium aluminum and wood build",
-      "Full-size layout with number pad",
+      "Full-size layout with number pad"
     ],
     cons: [
       "Highest price in this list",
       "Rapid trigger's benefit is mainly for competitive gaming, not typing",
-      "Full-size footprint uses more desk space than the compact picks",
+      "Full-size footprint uses more desk space than the compact picks"
     ],
     bestFor: "Competitive gamers who want adjustable actuation and rapid trigger",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Hall effect magnetic switches",
       "Adjustable actuation, rapid trigger",
       "2.4GHz or Bluetooth 5.2",
-      "QMK firmware support, aluminum + wood frame",
+      "QMK firmware support, aluminum + wood frame"
     ],
     pros: [
       "Compact footprint with full Hall effect rapid trigger support",
       "Dual 2.4GHz and Bluetooth 5.2 connectivity",
       "QMK support for deep customization",
-      "Premium aluminum and wood build",
+      "Premium aluminum and wood build"
     ],
     cons: [
       "Second-highest price in this list",
       "QMK customization has a learning curve for beginners",
-      "Compact layout drops the number pad",
+      "Compact layout drops the number pad"
     ],
     bestFor: "Buyers who want Hall effect rapid trigger in a smaller footprint",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Brown tactile switches",
       "Bluetooth 5.1 or wired USB-C fallback",
       "White LED backlight",
-      "N-key rollover",
+      "N-key rollover"
     ],
     pros: [
       "Wired USB-C fallback removes battery anxiety",
       "Best price-to-feature ratio in this list",
       "Compact 96% layout saves desk space",
-      "Reliable Bluetooth 5.1 connection",
+      "Reliable Bluetooth 5.1 connection"
     ],
     cons: [
       "Bluetooth latency is higher than a dedicated 2.4GHz dongle",
       "Not hot-swappable",
-      "No RGB, single-color backlight only",
+      "No RGB, single-color backlight only"
     ],
     bestFor: "Buyers who want dependable wireless mechanical typing at a low price",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Brown tactile switches",
       "Bluetooth multi-device switching",
       "USB-C wired mode available",
-      "White LED backlight",
+      "White LED backlight"
     ],
     pros: [
       "Full number pad in a wireless mechanical board",
       "Multi-device Bluetooth switching",
       "Wired USB-C fallback available",
-      "Reasonable price for a full-size wireless board",
+      "Reasonable price for a full-size wireless board"
     ],
     cons: [
       "Larger footprint than the compact picks in this list",
       "Not hot-swappable",
-      "Bluetooth-only wireless, no 2.4GHz dongle option",
+      "Bluetooth-only wireless, no 2.4GHz dongle option"
     ],
     bestFor: "Buyers who need the full number pad and multi-device Bluetooth switching",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Low-profile brown switches",
       "Bluetooth or wired USB",
       "White LED backlight",
-      "Compatible with Mac and Windows",
+      "Compatible with Mac and Windows"
     ],
     pros: [
       "Slim, low-profile design reduces desk footprint and finger travel",
       "Wired USB fallback if Bluetooth battery runs low",
       "Quieter keypresses than standard-height mechanical switches",
-      "Compatible across Mac and Windows",
+      "Compatible across Mac and Windows"
     ],
     cons: [
       "Not hot-swappable given the low-profile switch design",
       "Compact 84-key layout drops the number pad",
-      "Bluetooth-only wireless, no 2.4GHz dongle",
+      "Bluetooth-only wireless, no 2.4GHz dongle"
     ],
     bestFor: "Buyers who want a slim, portable wireless mechanical keyboard",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Hot-swappable linear switches",
       "Bluetooth, 2.4GHz, or wired USB-C",
       "Custom RGB backlighting",
-      "Compact, portable design",
+      "Compact, portable design"
     ],
     pros: [
       "Lowest price of any wireless pick in this list",
       "Hot-swappable, rare at this price point",
       "Triple connection modes cover nearly every use case",
-      "Compact 75% layout with retained arrow keys",
+      "Compact 75% layout with retained arrow keys"
     ],
     cons: [
       "Build materials are more basic than the premium picks",
       "No number pad",
-      "Stock switches are unbranded",
+      "Stock switches are unbranded"
     ],
     bestFor: "Budget buyers who want hot-swap flexibility and every connection type in one board",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Bluetooth or Logi Bolt USB receiver",
       "Auto-adjusting backlight",
       "Multi-device switching, up to 3 devices",
-      "Rechargeable battery",
+      "Rechargeable battery"
     ],
     pros: [
       "Quiet tactile switches suited to shared office environments",
       "Auto-adjusting backlight is a genuinely useful office feature",
       "Switches between up to 3 devices seamlessly",
-      "Refined build quality for daily productivity use",
+      "Refined build quality for daily productivity use"
     ],
     cons: [
       "Premium price without any gaming-focused features",
       "Not hot-swappable",
-      "No 2.4GHz dongle option beyond Logi Bolt receiver",
+      "No 2.4GHz dongle option beyond Logi Bolt receiver"
     ],
     bestFor: "Office and productivity users who want a quiet, multi-device wireless board",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Tactile low-profile switches",
       "Lightspeed 2.4GHz wireless, roughly 1ms latency",
       "Aluminum top plate",
-      "Compact footprint without number pad",
+      "Compact footprint without number pad"
     ],
     pros: [
       "2.4GHz Lightspeed connection is more stable than Bluetooth in crowded offices",
       "Near-zero wireless latency",
       "TKL layout frees desk space for mouse movement",
-      "Sturdier aluminum build than plastic-only boards",
+      "Sturdier aluminum build than plastic-only boards"
     ],
     cons: [
       "2.4GHz receiver occupies a USB-A port, a tradeoff on port-limited laptops",
       "No Bluetooth option on this model",
-      "No number pad",
+      "No number pad"
     ],
     bestFor: "Buyers who prioritize connection stability over Bluetooth's port-free convenience",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Build quality and layout footprint",
     description: "Weighed full-size, TKL, 75%, and ultra-slim layouts against desk space savings and whether the frame material, aluminum, wood, or plastic, matched the price point.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -466,11 +466,11 @@ export const faq: FaqItem[] = [
   {
     q: "Does hot-swap support matter on a wireless mechanical keyboard?",
     a: "It matters more on a wireless board because the higher price makes the investment worth protecting. Hot-swappable picks in this list, like the Kisnt KN85 and both Keychron HE models, let you change switch feel or noise level later without buying an entirely new keyboard, extending the board's useful life.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mechanical-keyboards", title: "8 Best Mechanical Keyboards (2026)" },
   { href: "/guide/best-ergonomic-keyboards-for-wrist-pain-carpal-tunnel", title: "8 Best Ergonomic Keyboards for Wrist Pain and Carpal Tunnel (2026)" },
-  { href: "/guide/best-mechanical-keyboard-under-100", title: "Best Mechanical Keyboards Under $100 (2026)" },
+  { href: "/guide/best-mechanical-keyboard-under-100", title: "Best Mechanical Keyboards Under $100 (2026)" }
 ];

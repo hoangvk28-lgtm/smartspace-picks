@@ -5,7 +5,7 @@ export const metaDescription = "5 password-protected portable SSDs we evaluated,
 export const mainKeyword = "password-protected portable SSD";
 export const introParagraphs = [
   "Password-protection alone, without necessarily full-disk hardware encryption, can represent a lesser security tier than genuine encryption, a distinction routinely blurred in marketing, worth clarifying before assuming these terms mean the same thing.",
-  "Physical keypad-based password entry versus software-based password entry represents genuinely different security and usability tradeoffs, worth comparing explicitly rather than treating all 'password-protected' drives as equivalent.",
+  "Physical keypad-based password entry versus software-based password entry represents genuinely different security and usability tradeoffs, worth comparing explicitly rather than treating all 'password-protected' drives as equivalent."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Password-Protected Portable SSD Overall",
     name: "Apricorn 1TB Aegis Padlock USB 3.0 256-bit AES XTS Hardware Encrypted Portable External Hard Drive",
     price: "$189.95",
-    rating: "4.5 stars from 539 Amazon ratings",
-    reviews: "539 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31TvKWrDUOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B007JGB0EI?tag=deskfinds0d-20",
     description: "A genuine physical keypad enforces password protection at the hardware level, blocking access regardless of connected OS rather than a potentially bypassable software prompt.\n\nIt earns the top spot in this comparison over iStorage diskAshur2 SSD 2TB Blue | Secure portable solid state drive | Password protected | Dust & water resistant | Hardware Encryption for one main reason. Hardware-level enforcement blocks access regardless of connected OS. On price, it comes in below iStorage diskAshur2 SSD 2TB Blue | Secure portable solid state drive | Password protected | Dust & water resistant | Hardware Encryption, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Backed by genuine hardware encryption, not password gating alone. On the other side, Smaller capacity than some alternatives at this price. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Enterprise Password-Protected Pick",
     name: "iStorage diskAshur2 SSD 2TB Blue | Secure portable solid state drive | Password protected | Dust & water resistant | Hardware Encryption",
     price: "$829.95",
-    rating: "4.2 stars from 73 Amazon ratings",
-    reviews: "73 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41c8RfrvyLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B077QZ3T93?tag=deskfinds0d-20",
     description: "A dedicated keypad with brute-force protection, auto-wipe or lockout after repeated failed password attempts, a genuine security feature distinct from basic password gating alone.\n\nOne spot below Apricorn 1TB Aegis Padlock USB 3.0 256-bit AES XTS Hardware Encrypted Portable External Hard Drive in this ranking, it costs more than Apricorn 1TB Aegis Padlock USB 3.0 256-bit AES XTS Hardware Encrypted Portable External Hard Drive. The compromise here is straightforward: Highest price by a wide margin in this guide. What you gain in return: Genuine brute-force auto-wipe/lockout protection. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Backed by real hardware encryption, not password gating alone. On the other side, Overkill for casual personal use. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Mainstream Password-Protected Pick",
     name: "Western Digital 2TB My Passport SSD Portable External Solid State Drive, Gray, Sturdy and Blazing Fast, Password Protection with Hardware Encryption",
     price: "$350.99",
-    rating: "4.5 stars from 8,952 Amazon ratings",
-    reviews: "8,952 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/414q6k88+IL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08F1VVBL9?tag=deskfinds0d-20",
     description: "A large review base with password protection explicitly backed by hardware encryption per WD's own listing, meaningfully more secure than password-protection-only without underlying encryption.\n\nSitting just under iStorage diskAshur2 SSD 2TB Blue | Secure portable solid state drive | Password protected | Dust & water resistant | Hardware Encryption, it's priced lower than iStorage diskAshur2 SSD 2TB Blue | Secure portable solid state drive | Password protected | Dust & water resistant | Hardware Encryption. Here's the honest tradeoff: Software-prompt entry rather than a physical keypad. And here's what it gets you instead: Large, well-established review base. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Password protection backed by disclosed hardware encryption. On the other side, Password recovery process should be confirmed before relying on it. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Speed-Focused Password-Protected Pick",
     name: "SANDISK 1TB Extreme Portable SSD (New Model) - up to 2000MB/s Transfer speeds, USB Type-C connectivity, Reliable Durability",
     price: "$248.61",
-    rating: "4.6 stars from 91 Amazon ratings",
-    reviews: "91 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41UpTn5oveL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GMWYYRQL?tag=deskfinds0d-20",
     description: "SanDisk's bundled software typically provides password-gated access alongside software-based encryption, worth clarifying this represents a lesser security tier than genuine hardware-enforced password protection.\n\nRanked just behind Western Digital 2TB My Passport SSD Portable External Solid State Drive, it's priced lower than Western Digital 2TB My Passport SSD Portable External Solid State Drive. The real tradeoff against that pick: Software-only password gating is a lesser security tier than hardware enforcement. In exchange, it offers this instead: Fast rated speed for a password-protected drive. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: SanDisk's proven Extreme product line reputation. On the other side, Smaller review base as a newer release. That's the main tradeoff to weigh against everything above.",
@@ -89,8 +89,8 @@ export const products: GuideProduct[] = [
     badge: "Best Multi-Device Password-Protected Pick",
     name: "Transcend ESD310 1TB External SSD, Up to 1,050MB/s, Dual USB Drive for iPhone/iPad/Mac/Pixel/Tesla/Steam Deck/ROG Ally/MSI Claw/Android/PS5, 2-in-1 Type C & A, USB 3.2 Gen2 Portable SSD",
     price: "$239.99",
-    rating: "4.6 stars from 2,340 Amazon ratings",
-    reviews: "2,340 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31HBU-HAxoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C3B32H9M?tag=deskfinds0d-20",
     description: "A dual USB connector (Type-C and Type-A) makes this genuinely convenient across a wide range of devices, with password protection software available for Windows and Mac specifically.\n\nOne spot below SANDISK 1TB Extreme Portable SSD in this ranking, it's priced lower than SANDISK 1TB Extreme Portable SSD. The compromise here is straightforward: Password protection software may not extend to every listed device type. What you gain in return: Genuinely convenient dual-connector design across many device types. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Solid review base and rating. On the other side, Verify actual encryption backing versus password gating alone. That's the main tradeoff to weigh against everything above.",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Password-protection-only vs. hardware-encryption security tier distinguished", description: "Clarified whether password-protection alone, without necessarily full-disk hardware encryption, represents a lesser security tier than genuine encryption, a distinction routinely blurred in marketing." },
   { title: "Physical keypad vs. software password entry compared", description: "Compared physical keypad-based password entry versus software-based password entry as genuinely different security and usability tradeoffs." },
   { title: "Brute-force protection verified as a distinct feature", description: "Verified brute-force protection, auto-wipe or lockout after repeated failed password attempts, as a genuine security feature distinct from basic password gating alone." },
-  { title: "Hardware-level versus software-prompt enforcement checked", description: "Checked whether password protection is enforced at the hardware level, blocking access regardless of connected OS, versus merely a software prompt potentially bypassable through certain OS-level access methods." },
+  { title: "Hardware-level versus software-prompt enforcement checked", description: "Checked whether password protection is enforced at the hardware level, blocking access regardless of connected OS, versus merely a software prompt potentially bypassable through certain OS-level access methods." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -249,11 +249,11 @@ export const faq: FaqItem[] = [
   { q: "What is brute-force protection on a password-protected SSD?", a: "It's an auto-wipe or lockout mechanism after repeated failed password attempts, a genuine security feature distinct from basic password gating, worth verifying it's present." },
   { q: "What happens if I forget my password on a password-protected portable SSD?", a: "The same severe risk applies as with encrypted drives, some password-protected drives offer no recovery path, resulting in permanent, unrecoverable data loss." },
   { "q": "What's the single best pick to come out of this comparison?", a: "Buyers wanting genuine hardware-level password enforcement backed by real encryption" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting genuine hardware-level password enforcement backed by real encryption At $189.95, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting genuine hardware-level password enforcement backed by real encryption At under $190, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-encrypted-portable-ssds", title: "Best Encrypted Portable SSDs (2026)" },
   { href: "/guide/best-waterproof-portable-ssds", title: "Best Waterproof Portable SSDs (2026)" },
-  { href: "/guide/best-portable-ssds-for-backups", title: "Best Portable SSDs for Backups (2026)" },
+  { href: "/guide/best-portable-ssds-for-backups", title: "Best Portable SSDs for Backups (2026)" }
 ];

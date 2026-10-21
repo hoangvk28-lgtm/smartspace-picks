@@ -95,7 +95,7 @@ export default async function BestBudgetApple3in1ChargingStationUnder40Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Budget Apple 3-in-1 Charging Station Under $40", item: `${SITE_URL}/guide/best-budget-apple-3-in-1-charging-station-under-40` },
+      { "@type": "ListItem", position: 3, name: "Best Budget Apple 3-in-1 Charging Station Under $40", item: `${SITE_URL}/guide/best-budget-apple-3-in-1-charging-station-under-40` }
     ],
   };
   const itemListSchema = {
@@ -202,7 +202,7 @@ export default async function BestBudgetApple3in1ChargingStationUnder40Page() {
             <div className="grid sm:grid-cols-2 gap-3 mb-4">
               {[
                 { label: "Made for MagSafe (certified)", items: ["Full 15W, iPhone charges in ~90 minutes", "Magnetic alignment confirmed accurate", "Apple licensing means accountability", "Usually labeled on product page with Apple MFM badge"] },
-                { label: "MagSafe compatible (uncertified)", items: ["Caps at 7.5W Qi, same as any Qi pad", "Magnetic alignment may be weaker", "No Apple oversight", "Usually cheaper, but you’re paying for 7.5W with extra steps"] },
+                { label: "MagSafe compatible (uncertified)", items: ["Caps at 7.5W Qi, same as any Qi pad", "Magnetic alignment may be weaker", "No Apple oversight", "Usually cheaper, but you’re paying for 7.5W with extra steps"] }
               ].map((col, i) => (
                 <div key={i} className={`p-4 rounded-xl border ${i === 0 ? "border-cta/30 bg-cta-light/20" : "border-yellow-200 bg-yellow-50"}`}>
                   <p className="text-xs font-bold uppercase tracking-widest mb-2 text-ink">{col.label}</p>
@@ -222,7 +222,7 @@ export default async function BestBudgetApple3in1ChargingStationUnder40Page() {
             <p className="text-sm text-ink-secondary mb-3">Every 3-in-1 stand in this guide includes a magnetic Watch arm holder, but not the magnetic charging disk (the small puck that actually charges the Watch). You need Apple&apos;s own USB-C Magnetic Fast Charge Cable, or an Apple-certified third-party disk.</p>
             <p className="text-sm text-ink-secondary mb-3">This is expected and standard in the category. Apple Watch charging disks are licensed hardware, third-party stands can hold and position them, but they can&apos;t include the disk itself without Apple licensing (which pushes the price well above $40).</p>
             <div className="p-3 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
-              <strong className="text-ink">What to buy:</strong> Apple USB-C Magnetic Fast Charge Cable ($29) works with all 3-in-1 arms in this guide and enables Apple Watch fast charging (Series 7+). The Magnetic Charging Cable (USB-A, $19) works but doesn&apos;t fast-charge.
+              <strong className="text-ink">What to buy:</strong> Apple USB-C Magnetic Fast Charge Cable (under $30) works with all 3-in-1 arms in this guide and enables Apple Watch fast charging (Series 7+). The Magnetic Charging Cable (USB-A, $19) works but doesn&apos;t fast-charge.
             </div>
           </div>
 
@@ -269,7 +269,7 @@ export default async function BestBudgetApple3in1ChargingStationUnder40Page() {
             {[
               { context: "Best overall (desk use)", product: "ESR HaloLock Foldable", href: "#esr-halolock-foldable", verdict: ", Made for MagSafe, 15W, folds flat, nightstand Watch mode, certified at this price." },
               { context: "Fastest charging", product: "ESR 25W CryoBoost", href: "#esr-25w-cryoboost", verdict: ", 25W MagSafe, built-in cooling fan, Watch fast charge (Series 7+). Best for daily desk use." },
-              { context: "Best for travel / under $30", product: "KEEPRO Ultra-Compact", href: "#keepro-ultra-compact", verdict: ", shirt-pocket size, 3.9oz, adapter included, 15W MagSafe." },
+              { context: "Best for travel / under $30", product: "KEEPRO Ultra-Compact", href: "#keepro-ultra-compact", verdict: ", shirt-pocket size, 3.9oz, adapter included, 15W MagSafe." }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
@@ -297,7 +297,7 @@ export default async function BestBudgetApple3in1ChargingStationUnder40Page() {
               { href: "/guide/best-budget-usb-charging-station-under-30", title: "Best USB Charging Stations Under $30", desc: "7 reliable picks for phones, earbuds, and tablets, under $30" },
               { href: "/guide/best-budget-multi-device-charging-station-under-50", title: "Best Multi-Device Charging Stations Under $50", desc: "GaN, USB-C PD, and Apple Watch arms, the upgrade picks" },
               { href: "/guide/dorm-room-power-essentials", title: "Dorm Room Power Essentials", desc: "Power strips, surge protectors, and USB hubs for dorm setups" },
-              { href: "/guide/desk-setup-essentials", title: "Desk Setup Essentials", desc: "15 must-have items for any desk setup" },
+              { href: "/guide/desk-setup-essentials", title: "Desk Setup Essentials", desc: "15 must-have items for any desk setup" }
             ].map((g) => (
               <Link prefetch={false} key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
                 <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">

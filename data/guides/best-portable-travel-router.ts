@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Smallest size with full VPN features", "GL.iNet GL-AR300M16 Mini"],
         ["Smallest size, lowest price", "GL.iNet GL-MT300N-V2 (Mango)"],
         ["Maximum mode flexibility", "TP-Link N300 Nano (TL-WR802N)"],
-        ["Ethernet-only hotel rooms", "TP-Link WiFi Travel Router (WiFi 5)"],
+        ["Ethernet-only hotel rooms", "TP-Link WiFi Travel Router (WiFi 5)"]
       ],
     },
   },
@@ -109,9 +109,9 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $30", "GL.iNet Mango or TP-Link N300 Nano (both $29.99)"],
-        ["Under $37", "GL.iNet GL-AR300M16 Mini ($36.99)"],
-        ["Under $40", "TP-Link WiFi Travel Router WiFi 5 ($39.99)"],
+        ["Under $30", "GL.iNet Mango or TP-Link N300 Nano (both under $30)"],
+        ["Under $37", "GL.iNet GL-AR300M16 Mini (under $40)"],
+        ["Under $40", "TP-Link WiFi Travel Router WiFi 5 (under $40)"]
       ],
     },
   },
@@ -119,7 +119,7 @@ export const howToChoose = [
     subheading: "Ultra-Light OpenWrt vs Simplified Nano Routers",
     cards: [
       { label: "Ultra-light OpenWrt (AR300M16, Mango)", text: "Delivers genuine pocket size without sacrificing VPN client software, ideal if security features matter alongside minimal size." },
-      { label: "Simplified nano (TP-Link N300, WiFi 5)", text: "Trades VPN software for broader operation mode flexibility or Ethernet-to-WiFi conversion focus, a reasonable choice if you don't need VPN on the router itself." },
+      { label: "Simplified nano (TP-Link N300, WiFi 5)", text: "Trades VPN software for broader operation mode flexibility or Ethernet-to-WiFi conversion focus, a reasonable choice if you don't need VPN on the router itself." }
     ],
     note: "If VPN protection matters to you, default to the GL.iNet picks; if you need repeater or WISP mode flexibility instead, the TP-Link nano picks cover that better.",
   },
@@ -129,7 +129,7 @@ export const howToChoose = [
       headers: ["Available power source", "Recommended pick"],
       rows: [
         ["Laptop USB port or power bank", "GL.iNet GL-AR300M16 or Mango"],
-        ["Standard wall adapter", "TP-Link N300 Nano or WiFi 5 Travel Router"],
+        ["Standard wall adapter", "TP-Link N300 Nano or WiFi 5 Travel Router"]
       ],
     },
   },
@@ -137,16 +137,16 @@ export const howToChoose = [
     subheading: "For Ultralight Backpacking or Minimalist Carry-On Travel Specifically",
     cards: [
       { label: "Look for", text: "A specifically stated weight under 50 grams, since every gram matters when optimizing a minimalist travel kit, and many standard travel routers weigh considerably more without stating an exact figure." },
-      { label: "In this comparison", text: "Both the AR300M16 and Mango specifically state a 39g weight, the lightest options in this comparison for weight-conscious minimalist travel." },
+      { label: "In this comparison", text: "Both the AR300M16 and Mango specifically state a 39g weight, the lightest options in this comparison for weight-conscious minimalist travel." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want the smallest possible size while keeping VPN server capability and OpenWrt customization, where the AR300M16's $36.99 price delivers that specific combination." },
-      { label: "Save if", text: "You just need basic OpenVPN protection in the smallest package, where the Mango at $29.99 covers that need at the lowest price in this comparison." },
+      { label: "Spend more if", text: "You want the smallest possible size while keeping VPN server capability and OpenWrt customization, where the AR300M16's under $40 price delivers that specific combination." },
+      { label: "Save if", text: "You just need basic OpenVPN protection in the smallest package, where the Mango at under $30 covers that need at the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

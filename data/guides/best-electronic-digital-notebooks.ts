@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "electronic digital notebook";
 export const introParagraphs = [
   "\"Electronic\" is a meaningful filter in this category: it implies genuine hardware with a screen and a battery, which rules out Rocketbook-style reusable paper notebooks even though they are marketed as \"digital notebooks.\" A Rocketbook has no battery and no screen, it's a specially coated paper product you scan with your own phone.",
-  "Every pick in this guide is real electronic hardware, either a standalone e-ink tablet or a smart pen set with onboard electronics. We evaluated stated specs and features rather than claiming hands-on testing.",
+  "Every pick in this guide is real electronic hardware, either a standalone e-ink tablet or a smart pen set with onboard electronics. We evaluated stated specs and features rather than claiming hands-on testing."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Excluded non-electronic paper notebooks entirely", description: "Rocketbook-style reusable paper notebooks have no battery or onboard electronics and were intentionally excluded from this specific guide, despite being marketed under the same \"digital notebook\" search term." },
   { title: "Confirmed a battery or rechargeable component per pick", description: "Every product here has a stated rechargeable battery, either in a tablet or in a smart pen, verified from the listing." },
   { title: "Onboard processing and storage noted where stated", description: "Checked for stated RAM, storage, or processing specs as evidence of genuine electronic hardware rather than a passive writing surface." },
-  { title: "Price weighed against confirmed electronic functionality", description: "Compared cost against the actual electronic features delivered, such as real-time sync or onboard OCR, not against paper-based alternatives." },
+  { title: "Price weighed against confirmed electronic functionality", description: "Compared cost against the actual electronic features delivered, such as real-time sync or onboard OCR, not against paper-based alternatives." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -274,11 +274,11 @@ export const faq: FaqItem[] = [
   { q: "Is a Rocketbook an electronic digital notebook?", a: "No, a Rocketbook has no battery, screen, or onboard electronics, it's a specially coated reusable paper notebook that relies on your phone's camera to scan and digitize pages." },
   { q: "What counts as a genuinely electronic digital notebook?", a: "A standalone e-ink tablet with a screen and battery, or a smart pen set with onboard electronics that syncs handwriting in real time, both have confirmed rechargeable components." },
   { q: "Do electronic digital notebooks need charging?", a: "Yes, whether the electronics live in a tablet screen or a smart pen, a rechargeable battery is a defining feature of this category." },
-  { q: "Are electronic digital notebooks more expensive than paper ones?", a: "Generally yes, the added hardware, whether a full e-ink screen or a sensor-equipped pen, costs more than a specially coated paper notebook with no electronics." },
+  { q: "Are electronic digital notebooks more expensive than paper ones?", a: "Generally yes, the added hardware, whether a full e-ink screen or a sensor-equipped pen, costs more than a specially coated paper notebook with no electronics." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebook-tablets", title: "Best Digital Notebook Tablets (2026)" },
   { href: "/guide/best-smart-digital-notebooks", title: "Best Smart Digital Notebooks (2026)" },
-  { href: "/guide/best-digital-notebooks-for-professionals", title: "Best Digital Notebooks for Professionals (2026)" },
+  { href: "/guide/best-digital-notebooks-for-professionals", title: "Best Digital Notebooks for Professionals (2026)" }
 ];

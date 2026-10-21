@@ -139,7 +139,7 @@ export default async function BestUnderDeskFootrestsPage() {
     about: [
       { "@type": "Thing", name: "Under-Desk Footrest" },
       { "@type": "Thing", name: "Ergonomics" },
-      { "@type": "Thing", name: "Seated Posture" },
+      { "@type": "Thing", name: "Seated Posture" }
     ],
   };
 
@@ -149,7 +149,7 @@ export default async function BestUnderDeskFootrestsPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Under-Desk Footrests", item: `${SITE_URL}/guide/best-under-desk-footrests` },
+      { "@type": "ListItem", position: 3, name: "Best Under-Desk Footrests", item: `${SITE_URL}/guide/best-under-desk-footrests` }
     ],
   };
 
@@ -316,7 +316,7 @@ export default async function BestUnderDeskFootrestsPage() {
               <p className="text-sm text-ink-secondary">
                 <strong className="text-ink">best overall:</strong>{" "}
                 <a href="#everlasting-comfort" className="font-bold text-ink hover:text-brand transition-colors">Everlasting Comfort Foot Rest Cushion</a>
-                 - 22,247 reviews at 4.5 stars, most reviewed under-desk footrest in the category.
+                 - Most reviewed under-desk footrest in the category.
               </p>
             </div>
             <p className="text-sm text-ink-secondary pl-5">See the full rankings above for all eight picks with pros, cons, and best-for summaries.</p>

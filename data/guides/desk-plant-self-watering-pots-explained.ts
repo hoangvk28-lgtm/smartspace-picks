@@ -12,7 +12,7 @@ export const deskPlantSelfWateringPotsExplainedGuide: Guide = {
     "self watering pot how it works",
     "best plants for self watering pot",
     "self watering pot worth it desk",
-    "reservoir pot overwatering prevention",
+    "reservoir pot overwatering prevention"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskPlantSelfWateringPotsExplainedGuide: Guide = {
     "desk-plant-types-for-beginners",
     "desk-plant-pot-drainage-explained",
     "desk-plant-lighting-requirements",
-    "desk-declutter-checklist",
+    "desk-declutter-checklist"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskPlantSelfWateringPotsExplainedGuide: Guide = {
       question: "Is a self-watering pot worth it for someone who travels frequently?",
       answer:
         "Yes, particularly for this specific situation, the extended interval between refills compared to standard manual watering makes self-watering pots genuinely valuable for anyone who's away from their desk plants for stretches of a week or more at a time.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const deskPlantSelfWateringPotsExplainedGuide: Guide = {
     {
       heading: "Why Plant Type Compatibility Matters for Getting Real Benefit From This System",
       body: `Since a self-watering pot is specifically designed to maintain more consistent soil moisture over time, it's genuinely well-suited to plants that prefer this consistency, many common tropical foliage houseplants, but works against the natural preference of drought-tolerant plants like succulents and snake plants, which specifically benefit from drying out completely between waterings, using a self-watering pot for these drought-preferring plant types can actually work against their natural needs rather than helping, matching the pot type to the plant's actual water preference, not simply assuming self-watering is a universal upgrade for any plant, ensures you get genuine benefit from the system.`,
-    },
+    }
   ],
 };

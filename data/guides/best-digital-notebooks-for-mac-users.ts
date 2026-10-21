@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook for mac users";
 export const introParagraphs = [
   "Most digital notebooks in this category sync primarily through an iOS or Android mobile app and a cloud service, which typically also has a Mac desktop or web app for accessing files, rather than offering deep native macOS integration. We're being specific here rather than overclaiming Mac-specific features that aren't stated on the actual listings.",
-  "If you're a Mac user, the practical question is usually whether your notes end up in a cloud folder or app you can open on your Mac afterward, not whether the notebook itself has special macOS features.",
+  "If you're a Mac user, the practical question is usually whether your notes end up in a cloud folder or app you can open on your Mac afterward, not whether the notebook itself has special macOS features."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Mac compatibility claims kept general and honest", description: "Avoided overclaiming deep native macOS integration, since most of these products sync through mobile apps and cloud services that also have Mac desktop or web access, rather than dedicated Mac software." },
   { title: "Cloud service choice recognized as the real compatibility factor for paper notebooks", description: "Noted that for reusable paper notebooks, Mac compatibility really depends on which cloud service (Google Drive, Dropbox, etc.) you connect during setup, not the notebook itself." },
   { title: "Desktop or web access verified where the listing allows", description: "Flagged where current desktop app feature parity or export options should be verified directly with the manufacturer rather than assumed." },
-  { title: "Subscription requirements flagged for premium e-ink devices", description: "Noted that full cloud sync features on some premium devices have historically required a subscription, relevant to ongoing Mac access to your notes." },
+  { title: "Subscription requirements flagged for premium e-ink devices", description: "Noted that full cloud sync features on some premium devices have historically required a subscription, relevant to ongoing Mac access to your notes." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -258,11 +258,11 @@ export const faq: FaqItem[] = [
   { q: "Do digital notebooks work with Mac computers?", a: "Generally yes, through cloud sync and a desktop or web app rather than deep native macOS integration, verify current desktop app details on the specific manufacturer's page." },
   { q: "Which cloud service should I use with a Rocketbook on a Mac?", a: "Any major service with a Mac app, such as Google Drive or Dropbox, works, since the Rocketbook app scans pages to your chosen service and Mac access depends on that service's own app." },
   { q: "Does the reMarkable have a Mac app?", a: "It generally offers cloud sync accessible from a desktop or web interface, verify current feature availability directly with the manufacturer since this can change." },
-  { q: "Are smart pens compatible with Mac?", a: "Most smart pen apps are built primarily for iOS and Android, with notes exportable to a cloud service you can then access from a Mac, verify current export options directly." },
+  { q: "Are smart pens compatible with Mac?", a: "Most smart pen apps are built primarily for iOS and Android, with notes exportable to a cloud service you can then access from a Mac, verify current export options directly." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks-with-cloud-sync", title: "Best Digital Notebooks with Cloud Sync (2026)" },
   { href: "/guide/best-digital-notebooks-for-ipad-users", title: "Best Digital Notebooks for iPad Users (2026)" },
-  { href: "/guide/best-e-ink-digital-notebooks", title: "Best E-Ink Digital Notebooks (2026)" },
+  { href: "/guide/best-e-ink-digital-notebooks", title: "Best E-Ink Digital Notebooks (2026)" }
 ];

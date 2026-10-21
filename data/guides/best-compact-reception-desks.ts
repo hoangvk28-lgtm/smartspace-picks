@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $79.90",
+          "Under $80",
           "VEVOR Reception Desk"
         ],
         [
-          "Around $89.99",
+          "Under $90",
           "OmySalon Reception Desk with Counter"
         ],
         [
-          "Around $99.82",
+          "Under $100",
           "IGERI Small Black Reception Desk with Lock"
         ],
         [
-          "Around $104.99",
+          "Under $110",
           "OmySalon Reception Desk with Counter"
         ],
         [
-          "Around $109.82",
+          "Under $110",
           "IGERI Small Black Reception Desk"
         ],
         [
-          "Around $177.79",
+          "Under $180",
           "Wood Reception Desk with Counter"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "IGERI Small Black Reception Desk is aimed at buyers prioritizing 31.5\"w x 15.7\"d x 43.3\"h compact desk." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "IGERI Small Black Reception Desk is aimed at buyers prioritizing 31.5\"w x 15.7\"d x 43.3\"h compact desk." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks","title":"best-reception-desks"},{"href":"/guide/best-reception-desks-for-restaurant","title":"4 Best Reception Desks for Restaurant in 2026"},{"href":"/guide/best-round-reception-desks","title":"best-round-reception-desks"}];

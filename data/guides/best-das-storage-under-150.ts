@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Genuine 10Gbps speed plus bonus HDMI output", "WAVLINK 4-Bay Hard Drive Enclosure, 10Gbps USB-C"],
         ["The lowest price for genuine 10Gbps speed", "CENMATE 4 Bay 10Gbps Hard Drive Enclosure"],
-        ["RAID redundancy or performance modes", "Yottamaster 5 Bay RAID Hard Drive Enclosure"],
+        ["RAID redundancy or performance modes", "Yottamaster 5 Bay RAID Hard Drive Enclosure"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $120", "CENMATE 10Gbps ($119.99) or CENMATE USB 3.0 ($119.99)"],
-        ["$121-$132", "WAVLINK ($121.99) or Yottamaster 5-Bay RAID ($131.75)"],
+        ["Under $120", "CENMATE 10Gbps (under $120) or CENMATE USB 3.0 (under $120)"],
+        ["$121-$132", "WAVLINK (under $130) or Yottamaster 5-Bay RAID (under $140)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "10Gbps vs 5Gbps Interface Speed",
     cards: [
       { label: "10Gbps (WAVLINK, CENMATE 10Gbps)", text: "Genuinely faster real-world transfer speeds for large files, video editing, or backup jobs where time matters." },
-      { label: "5Gbps (CENMATE USB 3.0, Yottamaster)", text: "Still meaningfully faster than USB 2.0, sufficient for general backup and storage use where maximum speed isn't critical." },
+      { label: "5Gbps (CENMATE USB 3.0, Yottamaster)", text: "Still meaningfully faster than USB 2.0, sufficient for general backup and storage use where maximum speed isn't critical." }
     ],
     note: "If you regularly move large video files or work with demanding backup jobs, the 10Gbps interface is worth prioritizing. For general file storage, 5Gbps remains perfectly usable.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your redundancy needs", "Recommended pick"],
       rows: [
         ["Want RAID mirroring or striping for redundancy/speed", "Yottamaster 5 Bay RAID Hard Drive Enclosure"],
-        ["Fine with individual disks, no RAID needed", "WAVLINK, CENMATE 10Gbps, or CENMATE USB 3.0"],
+        ["Fine with individual disks, no RAID needed", "WAVLINK, CENMATE 10Gbps, or CENMATE USB 3.0"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Desk Setup with a Secondary Display Specifically",
     cards: [
       { label: "Look for", text: "A DAS enclosure with a bonus video output port, letting one device serve double duty as both storage and a display connection." },
-      { label: "In this comparison", text: "The WAVLINK 4-Bay Hard Drive Enclosure is the only pick here with a bonus 4K HDMI output port alongside its storage bays." },
+      { label: "In this comparison", text: "The WAVLINK 4-Bay Hard Drive Enclosure is the only pick here with a bonus 4K HDMI output port alongside its storage bays." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want RAID redundancy or performance modes, where the Yottamaster 5 Bay pick is the only option in this comparison offering genuine RAID support." },
-      { label: "Save if", text: "5Gbps speed is sufficient for your needs, where the CENMATE USB 3.0 pick delivers reliable 4-bay storage at the same price as its 10Gbps sibling." },
+      { label: "Save if", text: "5Gbps speed is sufficient for your needs, where the CENMATE USB 3.0 pick delivers reliable 4-bay storage at the same price as its 10Gbps sibling." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

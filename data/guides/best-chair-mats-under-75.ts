@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Genuine polycarbonate durability on hard floors", "Marvelux Durable Polycarbonate Office Chair Mat, 48x60"],
         ["Extended coverage for a long or L-shaped desk", "BesWin Office Chair Mat for Low Pile Carpets, 46x72"],
         ["Wide, centered carpet coverage", "BesWin Office Chair Mat for Carpet, 48x60"],
-        ["Maximum carpet coverage at the lowest price", "WASJOYE Office Chair Mat for Carpet, 48x60"],
+        ["Maximum carpet coverage at the lowest price", "WASJOYE Office Chair Mat for Carpet, 48x60"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $60", "WASJOYE ($59.99)"],
-        ["Under $63", "BesWin 48x60 ($62.99)"],
-        ["Under $70", "Marvelux ($69.99) or BesWin 46x72 ($69.99)"],
+        ["Under $60", "WASJOYE (under $60)"],
+        ["Under $63", "BesWin 48x60 (under $70)"],
+        ["Under $70", "Marvelux (under $70) or BesWin 46x72 (under $70)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Polycarbonate vs PVC Construction",
     cards: [
       { label: "Polycarbonate (Marvelux)", text: "Offers higher impact strength, near-instant flattening, and long-term resistance to dipping or cupping, a genuine material upgrade for hard floors." },
-      { label: "PVC (BesWin picks, WASJOYE)", text: "Costs less while still offering solid durability for carpet use, though it flattens more slowly and can develop minor surface dents over time." },
+      { label: "PVC (BesWin picks, WASJOYE)", text: "Costs less while still offering solid durability for carpet use, though it flattens more slowly and can develop minor surface dents over time." }
     ],
     note: "If your floor is hardwood or tile and durability is the priority, the Marvelux polycarbonate pick is worth the material upgrade. If you're on carpet, the PVC-based picks deliver proven grip at a lower cost.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Long or L-shaped desk needing extra length", "BesWin 46x72"],
         ["Standard centered desk needing width", "BesWin 48x60 or WASJOYE 48x60"],
-        ["Hard floor desk of any standard layout", "Marvelux 48x60"],
+        ["Hard floor desk of any standard layout", "Marvelux 48x60"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For an L-Shaped Desk Setup Specifically",
     cards: [
       { label: "Look for", text: "A mat with extended length rather than just width, since an L-shaped desk typically requires more front-to-back or side-spanning coverage as you roll between sections." },
-      { label: "In this comparison", text: "The BesWin 46x72 pick's extended 72 inch length specifically accommodates the wider rolling range an L-shaped desk setup requires." },
+      { label: "In this comparison", text: "The BesWin 46x72 pick's extended 72 inch length specifically accommodates the wider rolling range an L-shaped desk setup requires." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You're on a hard floor and want genuine polycarbonate durability with near-instant flattening, where the Marvelux pick delivers a real material upgrade over PVC." },
-      { label: "Save if", text: "You're on carpet and just need maximum coverage at 48x60, where the WASJOYE pick matches the pricier BesWin pick's size for about $3 to $10 less." },
+      { label: "Save if", text: "You're on carpet and just need maximum coverage at 48x60, where the WASJOYE pick matches the pricier BesWin pick's size for under $4 to $10 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

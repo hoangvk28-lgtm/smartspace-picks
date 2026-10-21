@@ -140,7 +140,7 @@ export default async function Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Wood Bed Frames", item: `${SITE_URL}/guide/best-bed-frame-wood` },
+      { "@type": "ListItem", position: 3, name: "Best Wood Bed Frames", item: `${SITE_URL}/guide/best-bed-frame-wood` }
     ],
   };
 
@@ -245,7 +245,7 @@ export default async function Page() {
 
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>Wood bed frames range widely in what "wood" actually means, from genuinely solid pine slabs to engineered panels layered over a steel skeleton, and the difference matters for both looks and long-term durability.</p>
-          <p>Below are 8 wood bed frames we evaluated on material authenticity, weight capacity, and standout features like LED lighting and built-in storage, ranging from a $109.99 natural rubber wood platform to a $331.47 pine-and-steel hybrid with a matching paneled headboard.</p>
+          <p>Below are 8 wood bed frames we evaluated on material authenticity, weight capacity, and standout features like LED lighting and built-in storage, ranging from an under-$110 natural rubber wood platform to an under-$350 pine-and-steel hybrid with a matching paneled headboard.</p>
         </section>
 
         {buyingCriteria.length > 0 && (

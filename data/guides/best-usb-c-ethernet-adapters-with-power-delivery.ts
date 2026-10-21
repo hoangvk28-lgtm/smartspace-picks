@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31NOwNVG2bL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D3GZMN8X?tag=deskfinds0d-20",
-    description: "Combines Gigabit Ethernet with 100W Power Delivery charging, backward compatible down to 100Mbps/10Mbps/1Mbps networks for maximum host flexibility.\n\nBENFEI explicitly lists Nintendo Switch and Steam Deck compatibility alongside recent iPhones and MacBooks, backed by an 18-month unconditional warranty.\n\nThe strongest case for this pick comes down to explicitly compatible with both Nintendo Switch and Steam Deck as well as simultaneous 100W charging and Gigabit Ethernet. The compromise here is that note if charging isn't reaching maximum rate, host protocol support should be checked first, so factor that in alongside the $17.99 asking price.",
+    description: "Combines Gigabit Ethernet with 100W Power Delivery charging, backward compatible down to 100Mbps/10Mbps/1Mbps networks for maximum host flexibility.\n\nBENFEI explicitly lists Nintendo Switch and Steam Deck compatibility alongside recent iPhones and MacBooks, backed by an 18-month unconditional warranty.\n\nThe strongest case for this pick comes down to explicitly compatible with both Nintendo Switch and Steam Deck as well as simultaneous 100W charging and Gigabit Ethernet. The compromise here is that note if charging isn't reaching maximum rate, host protocol support should be checked first, so factor that in alongside the under $20 asking price.",
     specs: ["Gigabit Ethernet + 100W PD","Nintendo Switch + Steam Deck compatible","18-month unconditional warranty"],
     pros: ["Explicitly compatible with both Nintendo Switch and Steam Deck","Simultaneous 100W charging and Gigabit Ethernet","18-month unconditional warranty","Braided cable and aluminum casing for durability"],
     cons: ["Note if charging isn't reaching maximum rate, host protocol support should be checked first","Requires CAT6+ cable for full Gigabit speed"],
@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41dWhud2MGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D2RHMDTP?tag=deskfinds0d-20",
-    description: "A budget 2-in-1 Ethernet plus 100W PD charging adapter supporting 10/100/1000Mbps speeds, with an LED indicator for network status and a compact, lightweight design for travel.\n\nExplicitly lists Chromecast with Google TV compatibility and works across Windows, Android, macOS, and Linux, though it notes it is NOT compatible with Nintendo Switch.\n\nThis pick is best for buyers who value lowest price among the 100W PD Ethernet adapters in this cluster along with LED indicator shows network status at a glance. The catch is that explicitly not compatible with Nintendo Switch, so decide if that's worth it at $15.90.",
+    description: "A budget 2-in-1 Ethernet plus 100W PD charging adapter supporting 10/100/1000Mbps speeds, with an LED indicator for network status and a compact, lightweight design for travel.\n\nExplicitly lists Chromecast with Google TV compatibility and works across Windows, Android, macOS, and Linux, though it notes it is NOT compatible with Nintendo Switch.\n\nThis pick is best for buyers who value lowest price among the 100W PD Ethernet adapters in this cluster along with LED indicator shows network status at a glance. The catch is that explicitly not compatible with Nintendo Switch, so decide if that's worth it at under $20.",
     specs: ["10/100/1000Mbps + 100W PD","LED network status indicator","Chromecast with Google TV compatible"],
     pros: ["Lowest price among the 100W PD Ethernet adapters in this cluster","LED indicator shows network status at a glance","Explicit Chromecast with Google TV compatibility","Durable nylon cable and aluminum exterior"],
     cons: ["Explicitly not compatible with Nintendo Switch","Fewer brand-warranty details published than Cable Matters or Belkin"],
@@ -197,31 +197,31 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $15.90",
+          "Under $20",
           "Aibilangose USB-C to Ethernet with 100W PD"
         ],
         [
-          "Around $17.98",
+          "Under $20",
           "UGREEN Revodok 6-in-1 USB-C Hub"
         ],
         [
-          "Around $17.99",
+          "Under $20",
           "BENFEI USB-C to Ethernet with 100W PD"
         ],
         [
-          "Around $19.19",
+          "Under $20",
           "Cable Matters USB-C Ethernet Adapter with 140W Charging"
         ],
         [
-          "Around $21.99",
+          "Under $25",
           "uni USB-C to Ethernet Adapter with 100W PD"
         ],
         [
-          "Around $29.95",
+          "Under $30",
           "Plugable USB-C to 2.5Gb Ethernet with 100W PD"
         ],
         [
-          "Around $34.99",
+          "Under $35",
           "Belkin USB-C Ethernet + Charge Adapter 100W"
         ]
       ]
@@ -276,10 +276,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "Aibilangose USB-C to Ethernet with 100W PD is aimed at buyers prioritizing 10/100/1000mbps + 100w pd, at $15.90."
+        "text": "Aibilangose USB-C to Ethernet with 100W PD is aimed at buyers prioritizing 10/100/1000mbps + 100w pd, at under $20."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -320,9 +320,9 @@ export const faq = [
   }
 ,
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "Plugable USB-C to 2.5Gb Ethernet with 100W PD is aimed at buyers prioritizing 2.5gbps + 100w pd passthrough." },
-  { q: "Which pick offers the best value for a tight budget?", a: "Aibilangose USB-C to Ethernet with 100W PD is aimed at buyers prioritizing 10/100/1000mbps + 100w pd, and at $15.90 it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $15.90 to $34.99, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
-  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Belkin USB-C Ethernet + Charge Adapter 100W is aimed at buyers prioritizing gigabit ethernet + 100w power delivery passthrough. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Aibilangose USB-C to Ethernet with 100W PD is aimed at buyers prioritizing 10/100/1000mbps + 100w pd, and at under $20 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $20 to $35, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Belkin USB-C Ethernet + Charge Adapter 100W is aimed at buyers prioritizing gigabit ethernet + 100w power delivery passthrough. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-usb-c-ethernet-adapters-with-100w-charging","title":"7 Best USB-C Ethernet Adapters With 100W Charging"},{"href":"/guide/best-cable-matters-usb-c-ethernet-adapters","title":"6 Best Cable Matters USB-C Ethernet Adapters"},{"href":"/guide/best-usb-c-multiport-adapters-with-ethernet","title":"7 Best USB-C Multiport Adapters With Ethernet"}];

@@ -12,7 +12,7 @@ export const carpetVsHardwoodDeskSetupGuide: Guide = {
     "office chair on carpet vs hardwood",
     "desk setup flooring considerations",
     "hardwood floor desk protection",
-    "carpet desk setup cleaning",
+    "carpet desk setup cleaning"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const carpetVsHardwoodDeskSetupGuide: Guide = {
     "chair-mat-types-explained",
     "office-chair-caster-types-explained",
     "chair-mat-size-guide",
-    "anti-fatigue-mat-explained",
+    "anti-fatigue-mat-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const carpetVsHardwoodDeskSetupGuide: Guide = {
       question: "Which flooring is generally easier for a desk setup overall?",
       answer:
         "Hardwood generally allows smoother, easier chair movement and simpler cleaning, but requires more attention to caster type and floor protection, carpet requires less floor protection concern but needs correctly matched casters to avoid a dragging, difficult rolling experience.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const carpetVsHardwoodDeskSetupGuide: Guide = {
     {
       heading: "Why Cleaning Habits Should Adjust to Your Floor Type",
       body: `Carpet traps dust, crumbs, and pet hair within its fibers more than hardwood does, meaning a desk area on carpet benefits from more frequent vacuuming specifically underneath and around the desk where debris accumulates from daily use. Hardwood shows this same debris more visibly on its surface but is generally faster to clean with a quick sweep or wipe, adjusting your cleaning routine to match your actual flooring type keeps the desk area comfortable and dust-free more effectively than a one-size-fits-all cleaning habit.`,
-    },
+    }
   ],
 };

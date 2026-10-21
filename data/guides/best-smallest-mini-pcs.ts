@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "smallest mini pc";
 export const introParagraphs = [
   "Actual measured chassis volume plus the external power brick and cable clearance genuinely determine installed footprint, worth calculating this complete picture rather than trusting marketing dimensions for the bare unit alone, since a tiny chassis with a bulky external power brick doesn't save as much space as it first appears.",
-  "The smallest mini PCs often trade repairability, port count, and thermal headroom for compact size, worth checking these specific tradeoffs rather than assuming a smaller chassis is a strictly better version of a larger one.",
+  "The smallest mini PCs often trade repairability, port count, and thermal headroom for compact size, worth checking these specific tradeoffs rather than assuming a smaller chassis is a strictly better version of a larger one."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Smallest Mini PC Overall",
     name: "Bmax Mini PC B1 Plus, Intel Celeron J3355 (Up to 2.5GHz), 6GB RAM 128GB eMMC",
     price: "$169.99",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "454 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31S9Kd+E2aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GKZJ8GP7?tag=deskfinds0d-20",
     description: "A genuinely tiny, budget-friendly chassis appropriate for buyers prioritizing the smallest possible footprint over raw performance.\n\nIt earns the top spot in this comparison over origimagic C5 Mini PC for one main reason. Genuinely tiny chassis footprint among the smallest available. On price, it comes in below origimagic C5 Mini PC, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Very budget-friendly price. On the other side, Verify the power brick size when calculating true installed footprint. That's the main tradeoff to weigh against everything above.",
@@ -42,13 +42,13 @@ export const products: GuideProduct[] = [
     badge: "Best Small Mini PC with Genuine Ryzen Performance",
     name: "origimagic C5 Mini PC, Ryzen 5 3500U, 8GB DDR4 RAM, 256GB NVMe SSD",
     price: "$229.99",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "35 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41olJyWxH0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H328M6ZP?tag=deskfinds0d-20",
-    description: "A genuine Ryzen 5 3500U in a compact chassis, appropriate for buyers wanting more processing capability than entry-level Celeron alternatives while staying small.\n\nOne spot below Bmax Mini PC B1 Plus in this ranking, it costs more than Bmax Mini PC B1 Plus. The compromise here is straightforward: Smaller review base, verify current reviews before purchase. What you gain in return: High 4.8-star rating for confidence. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Genuine Ryzen processor tier above entry-level Celeron alternatives. On the other side, Verify the power brick size when calculating true installed footprint. That's the main tradeoff to weigh against everything above.",
+    description: "A genuine Ryzen 5 3500U in a compact chassis, appropriate for buyers wanting more processing capability than entry-level Celeron alternatives while staying small.\n\nOne spot below Bmax Mini PC B1 Plus in this ranking, it costs more than Bmax Mini PC B1 Plus. The compromise here is straightforward: Smaller review base, verify current reviews before purchase. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Genuine Ryzen processor tier above entry-level Celeron alternatives. On the other side, Verify the power brick size when calculating true installed footprint. That's the main tradeoff to weigh against everything above.",
     specs: ["AMD Ryzen 5 3500U","8GB DDR4 RAM","256GB NVMe SSD","Compact chassis"],
-    pros: ["High 4.8-star rating for confidence","Genuine Ryzen processor tier above entry-level Celeron alternatives","Fast NVMe storage in a compact form factor","Good balance of small size and real processing capability"],
+    pros: ["Genuine Ryzen processor tier above entry-level Celeron alternatives","Fast NVMe storage in a compact form factor","Good balance of small size and real processing capability"],
     cons: ["Smaller review base, verify current reviews before purchase","8GB RAM may feel tight for heavier multitasking","Verify the power brick size when calculating true installed footprint"],
     bestFor: "Buyers wanting genuine Ryzen processing capability in a genuinely compact chassis",
   },
@@ -58,14 +58,14 @@ export const products: GuideProduct[] = [
     badge: "Best Value Small Mini PC Pick",
     name: "BOSGAME E4 Air Mini PC, Mini Computers with AMD Ryzen 5 3500U, 8GB DDR4 256GB SATA SSD",
     price: "$249.00",
-    rating: "4.0 stars from Amazon ratings",
-    reviews: "608 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Rj9E-7y9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DNFNXXYN?tag=deskfinds0d-20",
-    description: "A large review base backs this compact Ryzen 5 3500U build, appropriate for buyers wanting real-world reliability data for a small-footprint everyday computer.\n\nSitting just under origimagic C5 Mini PC, it costs more than origimagic C5 Mini PC. Here's the honest tradeoff: More moderate 4.0-star rating, verify current reviews for reliability reports. And here's what it gets you instead: Large review base for real-world reliability data. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Genuine Ryzen processor tier for solid everyday performance. On the other side, Verify the power brick size when calculating true installed footprint. That's the main tradeoff to weigh against everything above.",
+    description: "A large review base backs this compact Ryzen 5 3500U build, appropriate for buyers wanting real-world reliability data for a small-footprint everyday computer.\n\nSitting just under origimagic C5 Mini PC, it costs more than origimagic C5 Mini PC. And here's what it gets you instead: Large review base for real-world reliability data. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Genuine Ryzen processor tier for solid everyday performance. On the other side, Verify the power brick size when calculating true installed footprint. That's the main tradeoff to weigh against everything above.",
     specs: ["AMD Ryzen 5 3500U","8GB DDR4 RAM","256GB SATA SSD","Large review base"],
     pros: ["Large review base for real-world reliability data","Genuine Ryzen processor tier for solid everyday performance","Compact chassis for a small desk footprint","Reasonable price for the spec combination"],
-    cons: ["More moderate 4.0-star rating, verify current reviews for reliability reports","SATA SSD is slower than NVMe alternatives at a similar price","Verify the power brick size when calculating true installed footprint"],
+    cons: ["SATA SSD is slower than NVMe alternatives at a similar price","Verify the power brick size when calculating true installed footprint"],
     bestFor: "Buyers wanting a well-reviewed, compact everyday computer with solid Ryzen performance",
   },
   {
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     badge: "Best Small Mini PC with More RAM",
     name: "Getorli Mini PC AMD Ryzen 5 3500U (4C/8T, Max 3.7GHz) Small Desktop Computer 16GB DDR4 RAM",
     price: "$233.99",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "14 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41uayoKLXcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GX69JJQZ?tag=deskfinds0d-20",
     description: "A genuinely small chassis with 16GB RAM, more headroom than most compact mini PCs at this size and price point offer.\n\nRanked just behind BOSGAME E4 Air Mini PC, it's priced lower than BOSGAME E4 Air Mini PC. The real tradeoff against that pick: Small review base, verify current reviews before purchase. In exchange, it offers this instead: 16GB RAM gives more headroom than typical compact mini PCs at this size. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Genuine Ryzen processor tier for solid everyday performance. On the other side, Verify current reviews for long-term build quality reports. That's the main tradeoff to weigh against everything above.",
@@ -90,8 +90,8 @@ export const products: GuideProduct[] = [
     badge: "Best Small Mini PC with Fast NVMe Storage",
     name: "BOSGAME E2 Mini PC, AMD Ryzen 5 3500U, 16GB DDR4 RAM 512GB NVMe SSD",
     price: "$299.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "14 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/414stNz27eL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GRFR7TX2?tag=deskfinds0d-20",
     description: "16GB RAM and 512GB fast NVMe storage in a compact chassis, appropriate for buyers wanting the most generous specs among the small-footprint picks in this guide.\n\nOne spot below Getorli Mini PC AMD Ryzen 5 3500U in this ranking, it costs more than Getorli Mini PC AMD Ryzen 5 3500U. The compromise here is straightforward: Small review base, verify current reviews before purchase. What you gain in return: Most generous RAM and storage combination among the compact picks. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Fast NVMe storage for genuine responsiveness. On the other side, Verify the power brick size when calculating true installed footprint. That's the main tradeoff to weigh against everything above.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Complete installed footprint calculated beyond bare chassis dimensions", description: "Calculated actual measured chassis volume plus the external power brick and cable clearance, not just marketing dimensions for the bare unit." },
   { title: "Tradeoffs of extreme compactness assessed honestly", description: "Assessed honestly that the smallest mini PCs often trade repairability, port count, and thermal headroom for compact size." },
   { title: "Processor tier weighted against genuine everyday performance needs", description: "Weighted processor tier against realistic everyday performance needs, from the lightest tasks to more capable Ryzen-based use." },
-  { title: "Review base size weighted appropriately for smaller, newer listings", description: "Weighted review base size appropriately, recognizing that smaller, newer listings may have less data despite genuine product quality." },
+  { title: "Review base size weighted appropriately for smaller, newer listings", description: "Weighted review base size appropriately, recognizing that smaller, newer listings may have less data despite genuine product quality." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Does a tiny mini PC actually save desk space?", a: "It depends, calculate the complete installed footprint including the external power brick, not just the bare chassis dimensions." },
   { q: "What do the smallest mini PCs give up for their size?", a: "Often repairability, port count, and thermal headroom, these are real tradeoffs for extreme compactness." },
   { q: "Are the smallest mini PCs powerful enough for everyday use?", a: "It depends on the specific chip, entry-level Celeron chips suit only light tasks, genuine Ryzen tiers handle more demanding everyday use." },
-  { q: "Should I worry about a small review base on a compact mini PC?", a: "Not necessarily a red flag, but it does mean less data to rely on, weigh this appropriately when comparing picks." },
+  { q: "Should I worry about a small review base on a compact mini PC?", a: "Not necessarily a red flag, but it does mean less data to rely on, weigh this appropriately when comparing picks." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pcs-for-small-desks", title: "Best Mini PCs for Small Desks (2026)" },
   { href: "/guide/best-mini-pcs-with-vesa-mounts", title: "Best Mini PCs with VESA Mounts (2026)" },
-  { href: "/guide/best-budget-mini-pcs", title: "Best Budget Mini PCs (2026)" },
+  { href: "/guide/best-budget-mini-pcs", title: "Best Budget Mini PCs (2026)" }
 ];

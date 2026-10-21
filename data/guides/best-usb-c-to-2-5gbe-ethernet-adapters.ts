@@ -212,35 +212,35 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $17.99",
+          "Under $20",
           "Plugable 2.5Gbps USB-A/USB-C Adapter"
         ],
         [
-          "Around $18.99",
+          "Under $20",
           "uni USB-C to Ethernet Adapter 2.5Gbps"
         ],
         [
-          "Around $24.95",
+          "Under $25",
           "Plugable 2.5G Dual-Connector USB-C/USB-A Adapter"
         ],
         [
-          "Around $24.99",
+          "Under $25",
           "Cable Matters USB-C to 2.5Gb Ethernet Adapter"
         ],
         [
-          "Around $25.47",
+          "Under $30",
           "TP-Link UE302C USB-C to Ethernet Adapter 2.5G"
         ],
         [
-          "Around $25.47",
+          "Under $30",
           "TP-Link UE302C USB-C to Ethernet Adapter 2.5G"
         ],
         [
-          "Around $25.99",
+          "Under $30",
           "UGREEN USB-C to Ethernet Adapter 2.5G"
         ],
         [
-          "Around $39.99",
+          "Under $40",
           "Satechi USB-C to Ethernet Adapter 2.5Gbps"
         ]
       ]
@@ -285,7 +285,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "UGREEN USB-C to Ethernet Adapter 2.5G is aimed at buyers prioritizing 2.5gb via rtl8156bg chip; uni USB-C to Ethernet Adapter 2.5Gbps is aimed at buyers prioritizing 2.5gbps via rtl8156b chip."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -326,9 +326,9 @@ export const faq = [
   }
 ,
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "UGREEN USB-C to Ethernet Adapter 2.5G is aimed at buyers prioritizing 2.5gb via rtl8156bg chip." },
-  { q: "Which pick offers the best value for a tight budget?", a: "Plugable 2.5Gbps USB-A/USB-C Adapter is aimed at buyers prioritizing 2.5gbps via rtl8156bg chip, and at $17.99 it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $17.99 to $39.99, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
-  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Satechi USB-C to Ethernet Adapter 2.5Gbps is aimed at buyers prioritizing 2.5gbps, ethernet pass-through on pcs. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Plugable 2.5Gbps USB-A/USB-C Adapter is aimed at buyers prioritizing 2.5gbps via rtl8156bg chip, and at under $20 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $20 to $40, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Satechi USB-C to Ethernet Adapter 2.5Gbps is aimed at buyers prioritizing 2.5gbps, ethernet pass-through on pcs. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-5gbe-usb-c-ethernet-adapters","title":"5 Best 5GbE USB-C Ethernet Adapters"},{"href":"/guide/best-usb-c-to-gigabit-ethernet-adapters","title":"8 Best USB-C to Gigabit Ethernet Adapters"},{"href":"/guide/best-ugreen-usb-c-ethernet-adapters","title":"5 Best UGREEN USB-C Ethernet Adapters"}];

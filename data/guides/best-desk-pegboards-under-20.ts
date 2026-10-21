@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The highest weight capacity", "VEVOR Pegboard Combination Kit, 4 Panels"],
         ["A portable desktop organizer with no wall mounting", "Halyuhn Wood Desk Pegboard Organizer"],
         ["A no-drill, renter-friendly wall kit", "Cionyce 4 PCS White Pegboard Wall Organizer"],
-        ["The lowest price with mounting method flexibility", "Jersvimc 2Pcs Black Pegboard Wall Organizer Kit"],
+        ["The lowest price with mounting method flexibility", "Jersvimc 2Pcs Black Pegboard Wall Organizer Kit"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $14", "Jersvimc ($13.89)"],
-        ["Under $16", "Halyuhn Wood ($15.29)"],
-        ["Under $20", "VEVOR ($18.98) or Cionyce ($18.99)"],
+        ["Under $14", "Jersvimc (under $15)"],
+        ["Under $16", "Halyuhn Wood (under $20)"],
+        ["Under $20", "VEVOR (under $20) or Cionyce (under $20)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Wall-Mounted vs Freestanding Desktop",
     cards: [
       { label: "Wall-mounted (VEVOR, Cionyce, Jersvimc)", text: "Frees up desk surface entirely, ideal if desk space is at a premium and wall space is available." },
-      { label: "Freestanding (Halyuhn Wood)", text: "Sits directly on the desk with zero wall mounting, ideal for renters or shared spaces where wall changes aren't possible." },
+      { label: "Freestanding (Halyuhn Wood)", text: "Sits directly on the desk with zero wall mounting, ideal for renters or shared spaces where wall changes aren't possible." }
     ],
     note: "If you have available wall space and want to maximize desk surface area, a wall-mounted kit is the better choice. If you can't or don't want to touch the wall at all, the freestanding Halyuhn Wood pick works entirely on the desk itself.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["No drilling, adhesive only", "Cionyce"],
         ["Choice between adhesive or drilled", "VEVOR or Jersvimc"],
-        ["No wall interaction at all", "Halyuhn Wood (freestanding)"],
+        ["No wall interaction at all", "Halyuhn Wood (freestanding)"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Rented Apartment or Dorm Room Specifically",
     cards: [
       { label: "Look for", text: "A self-adhesive mounting option or a freestanding design that leaves no marks or holes when removed." },
-      { label: "In this comparison", text: "The Cionyce pick's self-adhesive installation and the Halyuhn Wood pick's freestanding design both suit rental restrictions well." },
+      { label: "In this comparison", text: "The Cionyce pick's self-adhesive installation and the Halyuhn Wood pick's freestanding design both suit rental restrictions well." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You need to hang heavier items and want the highest stated weight capacity, where the VEVOR pick's 20 lbs per panel leads this comparison." },
-      { label: "Save if", text: "You just want basic pegboard storage for lightweight items, where the Jersvimc pick covers that for under $14." },
+      { label: "Save if", text: "You just want basic pegboard storage for lightweight items, where the Jersvimc pick covers that for under $14." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

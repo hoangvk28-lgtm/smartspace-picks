@@ -5,7 +5,7 @@ export const metaDescription = "6 air purifiers we evaluated for home offices, w
 export const mainKeyword = "office air purifier";
 export const introParagraphs = [
   "CADR-based room size recommendations assume an open, empty room, a home office with a desk, shelving, and a closed door reduces effective coverage well below the rated square footage, size up from the manufacturer's nominal room-size claim.",
-  "Noise level at a purifier's higher fan speeds, needed to actually hit its rated CADR, frequently conflicts with home-office use during calls or focused work, many quiet claims are only true at the lowest, least-effective speed.",
+  "Noise level at a purifier's higher fan speeds, needed to actually hit its rated CADR, frequently conflicts with home-office use during calls or focused work, many quiet claims are only true at the lowest, least-effective speed."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Air Purifier for Home Offices Overall",
     name: "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom, H13 True HEPA Filter, 24db Filtration System Cleaner Odor Eliminators, Remove 99.97% Dust Smoke Mold Pollen, Core 300, White",
     price: "$89.99",
-    rating: "4.7 stars from 108,251 Amazon ratings",
-    reviews: "108,251 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Smart Pick for a Larger Home Office",
     name: "LEVOIT Smart Air Purifier for Home Large Room up to 1875 ft Vital 200S-P",
     price: "$174.99",
-    rating: "4.7 stars from 14,571 Amazon ratings",
-    reviews: "14,571 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Established Brand Pick",
     name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
-    rating: "4.6 stars from 28,866 Amazon ratings",
-    reviews: "28,866 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419pAe7T0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTKAPUU?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best White Finish Alternative",
     name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH(W), White",
     price: "$229.99",
-    rating: "4.6 stars from 28,866 Amazon ratings",
-    reviews: "28,866 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31pCHKKqN2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01728NLRG?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Home Office Pick",
     name: "Membrane Solutions MSA3 Air Purifier for Home",
     price: "$99.39",
-    rating: "4.5 stars from 10,110 Amazon ratings",
-    reviews: "10,110 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31CcBFzC6wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08ND7C7P4?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best Voice-Control Pick",
     name: "Levoit Air Purifier for Home Pets Bedroom Dorm Room, Smart & Voice Control",
     price: "$74.99",
-    rating: "4.7 stars from 105,576 Amazon ratings",
-    reviews: "105,576 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ezUHfn5wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08FJ678YK?tag=deskfinds0d-20",
     description:
@@ -120,14 +120,14 @@ export const products: GuideProduct[] = [
     pros: ["Very large review base", "Smart and voice control for hands-free adjustment", "Affordable price", "Compact for a home office desk area"],
     cons: ["Smaller rated coverage than premium picks", "Verify certified True HEPA specifics", "No activated carbon layer confirmed"],
     bestFor: "Buyers who want hands-free voice control convenience during calls",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Furnished/enclosed-room CADR adjustment over open-room assumptions", description: "Adjusted recommendations for a furnished home office with a desk, shelving, and a closed door, since CADR ratings are tested in an empty, sealed chamber and real rooms reduce effective coverage well below the rated square footage." },
   { title: "Noise level disclosed at the fan speed needed for real air changes", description: "Flagged that many quoted dB figures reflect the lowest, least-effective fan speed, the genuinely relevant spec for home-office use during calls is noise at the speed needed to actually hit rated CADR." },
-  { title: "Desk-proximity placement and 8-hour workday usage patterns considered", description: "Considered exhaust airflow direction and intake efficiency for close desk placement, plus cumulative filter loading and energy cost over a typical 8-hour continuous workday." },
+  { title: "Desk-proximity placement and 8-hour workday usage patterns considered", description: "Considered exhaust airflow direction and intake efficiency for close desk placement, plus cumulative filter loading and energy cost over a typical 8-hour continuous workday." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -260,11 +260,11 @@ export const faq: FaqItem[] = [
   { q: "Where should I place an air purifier relative to my desk?", a: "Consider both intake efficiency and comfort, placement too close can mean exhaust airflow blows directly at you, drying eyes or blowing papers, a real ergonomic factor specific to close desk placement." },
   { q: "Does running a purifier all day affect filter replacement schedules?", a: "Yes. A home office occupied 8+ continuous hours a day has more relevant cumulative filter loading than a room used only intermittently, factor this into your replacement schedule expectations." },
   { q: "Can I run an air purifier on a timer to save on filter life?", a: "Yes, many models support a timer or auto mode that only ramps up when its air quality sensor detects a change, a reasonable way to reduce continuous full-speed operation without manually turning it off." },
-  { q: "Does an air purifier replace the need to open a window in a home office?", a: "No, a purifier recirculates and filters existing indoor air but doesn't bring in fresh outdoor air or reduce indoor CO2 buildup, periodic ventilation still matters alongside filtration." },
+  { q: "Does an air purifier replace the need to open a window in a home office?", a: "No, a purifier recirculates and filters existing indoor air but doesn't bring in fresh outdoor air or reduce indoor CO2 buildup, periodic ventilation still matters alongside filtration." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-air-purifiers-for-small-offices", title: "Best Air Purifiers for Small Offices (2026)" },
   { href: "/guide/best-quiet-air-purifiers-for-home-offices", title: "Best Quiet Air Purifiers for Home Offices (2026)" },
-  { href: "/guide/best-air-purifiers-for-large-home-offices", title: "Best Air Purifiers for Large Home Offices (2026)" },
+  { href: "/guide/best-air-purifiers-for-large-home-offices", title: "Best Air Purifiers for Large Home Offices (2026)" }
 ];

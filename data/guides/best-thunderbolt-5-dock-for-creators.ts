@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "This dock's listing specifically states its Thunderbolt 5 ports support 64Gb/s PCIe, ideal for connecting ultra-fast Thunderbolt SSDs directly, alongside SD 4.0 and microSD 4.0 UHS-II card readers built directly into the dock for offloading footage from cameras and drones. Its Dual USB Controllers give front and rear ports independent 10Gb/s bandwidth, avoiding bottlenecks when multiple high-speed storage devices are connected simultaneously.\n\nCompared to the Keychron and HyperDrive picks above, this one's 20 total ports and 330W power supply deliver the most comprehensive connectivity in this comparison, useful for a creator running multiple external drives, capture cards, and displays from one dock simultaneously.\n\nBest for creators running multiple simultaneous external drives and capture devices who need maximum port count.",
     specs: ["Built-in SD 4.0/microSD 4.0 UHS-II card readers", "Dual independent 10Gb/s USB controllers", "20 total ports, 330W PSU, 10GbE"],
     pros: ["Dual USB controllers avoid bottlenecks with multiple connected storage devices", "Built-in UHS-II card readers speed up footage offload from cameras", "Most comprehensive total port count in this comparison"],
-    cons: ["Highest price in this comparison at $499.99", "Larger footprint than the more compact Keychron or HyperDrive picks"],
+    cons: ["Highest price in this comparison at under $500", "Larger footprint than the more compact Keychron or HyperDrive picks"],
     bestFor: "creators running multiple simultaneous external drives and capture devices",
   },
   {
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Silent operation during recording or editing", "Keychron Thunderbolt 5 Dock"],
         ["Built-in NVMe and future PCIe module expansion", "HyperDrive Next Thunderbolt 5 Dock with SSD Enclosure"],
         ["Maximum ports for multiple simultaneous drives", "CalDigit TS5 Plus Thunderbolt 5 Docking Station"],
-        ["Fast card readers at the lowest price", "Cable Matters 11-in-1 Thunderbolt 5 Dock"],
+        ["Fast card readers at the lowest price", "Cable Matters 11-in-1 Thunderbolt 5 Dock"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $228", "Cable Matters 11-in-1 ($227.99)"],
-        ["Under $320", "HyperDrive Next ($319.99)"],
-        ["Under $350", "Keychron Thunderbolt 5 Dock ($349.99)"],
-        ["Under $500", "CalDigit TS5 Plus ($499.99)"],
+        ["Under $228", "Cable Matters 11-in-1 (under $250)"],
+        ["Under $320", "HyperDrive Next (under $350)"],
+        ["Under $350", "Keychron Thunderbolt 5 Dock (under $350)"],
+        ["Under $500", "CalDigit TS5 Plus (under $500)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Silent Fanless Operation vs Maximum Sustained Performance",
     cards: [
       { label: "Silent fanless (Keychron)", text: "A fanless all-aluminum design with internal heat spreaders keeps operation completely silent, ideal for a recording booth or quiet studio, though with somewhat less thermal headroom under extreme sustained load than an actively cooled dock." },
-      { label: "Maximum sustained performance (CalDigit TS5 Plus)", text: "A larger 330W power supply and dual USB controllers sustain maximum performance across many simultaneous connected drives and displays, at the cost of a larger footprint and higher price." },
+      { label: "Maximum sustained performance (CalDigit TS5 Plus)", text: "A larger 330W power supply and dual USB controllers sustain maximum performance across many simultaneous connected drives and displays, at the cost of a larger footprint and higher price." }
     ],
     note: "If you're recording audio or need silent operation, the Keychron's fanless design is the right tradeoff. If you're running a demanding multi-drive editing workstation and noise isn't a concern, the CalDigit TS5 Plus delivers more sustained headroom.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["Built-in UHS-II SD/microSD readers at the lowest price", "Cable Matters 11-in-1 Thunderbolt 5 Dock"],
         ["Built-in UHS-II readers with maximum other port support", "CalDigit TS5 Plus Thunderbolt 5 Docking Station"],
-        ["No built-in card reader needed, prioritizing PCIe expansion instead", "HyperDrive Next Thunderbolt 5 Dock"],
+        ["No built-in card reader needed, prioritizing PCIe expansion instead", "HyperDrive Next Thunderbolt 5 Dock"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For a Two-Editor Collaborative Workflow Specifically",
     cards: [
       { label: "Look for", text: "A dock with Thunderbolt Share support, letting two computers share files, storage, and control directly over Thunderbolt without needing a network connection." },
-      { label: "In this comparison", text: "Both the HyperDrive Next and Cable Matters picks specifically include Thunderbolt Share, making either a strong fit for a two-editor collaborative setup." },
+      { label: "In this comparison", text: "Both the HyperDrive Next and Cable Matters picks specifically include Thunderbolt Share, making either a strong fit for a two-editor collaborative setup." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You're running multiple simultaneous external drives and capture devices and need maximum port count, where the CalDigit TS5 Plus's $499.99 price is justified by its 20-port design and dual USB controllers." },
-      { label: "Save if", text: "You want strong Thunderbolt 5 performance with fast card readers and collaboration features, where the Cable Matters pick delivers that for $227.99, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You're running multiple simultaneous external drives and capture devices and need maximum port count, where the CalDigit TS5 Plus's under $500 price is justified by its 20-port design and dual USB controllers." },
+      { label: "Save if", text: "You want strong Thunderbolt 5 performance with fast card readers and collaboration features, where the Cable Matters pick delivers that for under $250, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

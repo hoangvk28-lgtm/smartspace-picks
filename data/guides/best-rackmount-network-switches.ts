@@ -193,35 +193,35 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $39.99",
+          "Under $40",
           "Tenda TEG1016D 16-Port Gigabit Switch"
         ],
         [
-          "Around $50.39",
+          "Under $60",
           "UGREEN 16-Port Rackmount Gigabit Switch"
         ],
         [
-          "Around $65.99",
+          "Under $70",
           "UGREEN 24-Port Rackmount Gigabit Switch"
         ],
         [
-          "Around $69.99",
+          "Under $70",
           "NETGEAR GS324 24-Port Gigabit Unmanaged Switch"
         ],
         [
-          "Around $79.99",
+          "Under $80",
           "TP-Link TL-SG1024S 24-Port Gigabit Switch"
         ],
         [
-          "Around $239.99",
+          "Under $250",
           "TP-Link TL-SG1048 48-Port Gigabit Switch"
         ],
         [
-          "Around $399.99",
+          "Under $400",
           "TP-Link SG2452LP 48-Port Omada Managed Switch"
         ],
         [
-          "Around $529.99",
+          "Under $550",
           "TP-Link TL-SG3452P 48-Port L2+ Managed PoE Switch"
         ]
       ]
@@ -276,10 +276,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "Tenda TEG1016D 16-Port Gigabit Switch is aimed at buyers prioritizing 16 gigabit ports, 10k jumbo frames, at $39.99."
+        "text": "Tenda TEG1016D 16-Port Gigabit Switch is aimed at buyers prioritizing 16 gigabit ports, 10k jumbo frames, at under $40."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -316,10 +316,10 @@ export const faq = [
   }
 ,
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Tenda TEG1016D 16-Port Gigabit Switch is aimed at buyers prioritizing 16 gigabit ports, 10k jumbo frames." },
-  { q: "Which pick offers the best value for a tight budget?", a: "Tenda TEG1016D 16-Port Gigabit Switch is aimed at buyers prioritizing 16 gigabit ports, 10k jumbo frames, and at $39.99 it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $39.99 to $529.99, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Tenda TEG1016D 16-Port Gigabit Switch is aimed at buyers prioritizing 16 gigabit ports, 10k jumbo frames, and at under $40 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $40 to $550, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
   { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "TP-Link TL-SG3452P 48-Port L2+ Managed PoE Switch is aimed at buyers prioritizing 48x poe+ @384w, l2+ managed. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
-  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "TP-Link TL-SG1024S 24-Port Gigabit Switch is aimed at buyers prioritizing 24 gigabit ports, 1u rackmount." },
+  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "TP-Link TL-SG1024S 24-Port Gigabit Switch is aimed at buyers prioritizing 24 gigabit ports, 1u rackmount." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-network-switches-for-10-inch-racks","title":"7 Best Network Switches for 10-Inch Racks"},{"href":"/guide/best-48-port-network-switches","title":"5 Best 48-Port Network Switches in 2026"},{"href":"/guide/best-24-port-network-switches","title":"6 Best 24-Port Network Switches in 2026"}];

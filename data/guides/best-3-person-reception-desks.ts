@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $476.99",
+          "Under $500",
           "87\" 2-Person Reception Desk with Patented Double Top"
         ],
         [
-          "Around $499.99",
+          "Under $500",
           "L-Shaped Reception Desk with Keyboard Tray"
         ],
         [
-          "Around $699.99",
+          "Under $700",
           "87-Inch Two People L-Shaped Reception Desk"
         ],
         [
-          "Around $998.88",
+          "Under $1,000",
           "79\" 2-Person Reception Desk with Counter"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "L-Shaped Reception Desk with Keyboard Tray is aimed at buyers prioritizing 86.6\"l x 23.6\"w right-l configuration." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "L-Shaped Reception Desk with Keyboard Tray is aimed at buyers prioritizing 86.6\"l x 23.6\"w right-l configuration." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-2-person-reception-desks","title":"best-2-person-reception-desks"},{"href":"/guide/best-double-reception-desks","title":"best-double-reception-desks"},{"href":"/guide/best-large-reception-desks","title":"6 Best Large Reception Desks in 2026"}];

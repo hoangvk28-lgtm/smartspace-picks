@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "This screen's 120 inch diagonal is the largest motorized screen in this comparison, providing an immersive viewing experience for everyone in the room, ideal for movie enthusiasts wanting maximum screen real estate. Its drop-down design pulls from the ceiling or wall, maximizing space and creating a sleek, professional look.\n\nCompared to the 100 inch picks above, this one delivers meaningfully more screen area for a modest price increase, positioning it as the best value if larger size matters more to you than the specific safety or noise features the smaller screens emphasize. The motorized convenience lowers and retracts the screen smoothly and quietly for easy setup and storage.\n\nBest for buyers who want the largest motorized screen size in this comparison.",
     specs: ["120in diagonal, drop-down ceiling or wall mount", "4K 3D HD projection capable", "Remote-controlled retraction"],
     pros: ["Largest motorized screen in this comparison at 120 inches", "Sleek, space-saving drop-down design", "4K 3D HD capability supports high-resolution content"],
-    cons: ["Slightly over this tier's stated ceiling at $159.99", "No specific stated safety or noise-level figures like the other picks"],
+    cons: ["Slightly over this tier's stated ceiling at under $160", "No specific stated safety or noise-level figures like the other picks"],
     bestFor: "buyers who want the largest motorized screen size in this comparison",
   },
   {
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The quietest motor with dual remote and panel control", "100 Inch Motorized Projector Screen with Remote Control"],
         ["Specifically engineered electrical safety features", "YODOLLA 100 Inch Projector Screen Motorized"],
         ["The largest motorized screen size in this comparison", "DINAH 120 Inch Electric Projector Screen with Remote"],
-        ["A 4:3 aspect ratio for presentations or classroom content", "Auto Motorized Projector Screen with Remote Control, 120 inch"],
+        ["A 4:3 aspect ratio for presentations or classroom content", "Auto Motorized Projector Screen with Remote Control, 120 inch"]
       ],
     },
   },
@@ -117,8 +117,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $150", "100 Inch Motorized ($149.99) or YODOLLA ($149.99)"],
-        ["Under $160", "DINAH ($159.99) or Auto Motorized 120in ($159.99)"],
+        ["Under $150", "100 Inch Motorized (under $150) or YODOLLA (under $150)"],
+        ["Under $160", "DINAH (under $160) or Auto Motorized 120in (under $160)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "100 Inch Precision Features vs 120 Inch Maximum Size",
     cards: [
       { label: "100 inch with precision features (100 Inch Motorized, YODOLLA)", text: "Emphasizes specific stated benefits like quiet motor decibel figures or electrical safety design at a slightly smaller size." },
-      { label: "120 inch maximum size (DINAH, Auto Motorized)", text: "Prioritizes larger screen area for immersive viewing, without emphasizing the same specific technical claims." },
+      { label: "120 inch maximum size (DINAH, Auto Motorized)", text: "Prioritizes larger screen area for immersive viewing, without emphasizing the same specific technical claims." }
     ],
     note: "If quiet operation or electrical safety specifics matter most to you, the 100 inch picks with their stated figures are worth prioritizing. If maximum screen size for an immersive experience is your priority, the 120 inch picks deliver that for a modest price increase.",
   },
@@ -136,7 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your primary content", "Recommended pick"],
       rows: [
         ["Movies and widescreen streaming (16:9)", "100 Inch Motorized, YODOLLA, or DINAH"],
-        ["Presentations and classroom content (4:3)", "Auto Motorized Projector Screen with Remote Control"],
+        ["Presentations and classroom content (4:3)", "Auto Motorized Projector Screen with Remote Control"]
       ],
     },
   },
@@ -144,16 +144,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Home Theater Requiring Quiet Nighttime Operation Specifically",
     cards: [
       { label: "Look for", text: "A specific stated decibel figure for the motor noise level, not just a general 'quiet' claim, since actual noise levels vary meaningfully between motorized screens." },
-      { label: "In this comparison", text: "The 100 Inch Motorized pick's specifically stated under 42 dB motor noise level provides the most concrete, checkable quiet-operation claim in this tier." },
+      { label: "In this comparison", text: "The 100 Inch Motorized pick's specifically stated under 42 dB motor noise level provides the most concrete, checkable quiet-operation claim in this tier." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the largest motorized screen size for maximum immersive viewing, where the DINAH pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You want a quiet, safe motorized screen without needing maximum size, where the 100 Inch Motorized or YODOLLA picks cover that for about $10 less." },
+      { label: "Save if", text: "You want a quiet, safe motorized screen without needing maximum size, where the 100 Inch Motorized or YODOLLA picks cover that for about $10 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

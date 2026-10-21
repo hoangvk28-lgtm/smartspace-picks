@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "5 inch smart display";
 export const introParagraphs = [
   "We're being direct about this one: our verified research pool contains exactly one genuinely 5 inch class smart display, the Amazon Echo Show 5 at roughly 5.5 inches. We looked for a second true 5 inch option, including a Lenovo Smart Clock Essential-style device, but could not confirm current pricing or imagery for one this research pass, so we're not padding this guide with an unverified product.",
-  "Rather than stretch a 7 inch or 10 inch display into a false '5 inch' claim, we're giving the Echo Show 5 a thorough single-product review below and pointing you toward our related size guides if a 5 inch screen specifically isn't a hard requirement.",
+  "Rather than stretch a 7 inch or 10 inch display into a false '5 inch' claim, we're giving the Echo Show 5 a thorough single-product review below and pointing you toward our related size guides if a 5 inch screen specifically isn't a hard requirement."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "5 min";
@@ -72,7 +72,7 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "$89.99",
+          "Under $90",
           "Amazon Echo Show 5"
         ]
       ]

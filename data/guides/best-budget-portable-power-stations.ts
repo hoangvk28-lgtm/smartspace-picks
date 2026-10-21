@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $99.99",
+          "Under $100",
           "MARBERO M822 Portable Power Station"
         ],
         [
-          "Around $119.99",
+          "Under $120",
           "Takki 111Wh Portable Solar Generator with 21W Foldable Solar Panel"
         ],
         [
-          "Around $129.98",
+          "Under $130",
           "ZeroKor Portable Power Station 300W"
         ],
         [
-          "Around $139.00",
+          "Under $140",
           "ALLWEI Portable Power Station 300W"
         ],
         [
-          "Around $259.00",
+          "Under $300",
           "Jackery Explorer 300 Portable Power Station"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "MARBERO M822 Portable Power Station is aimed at buyers prioritizing 148wh, 200w (270w max), 3.3 lbs." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "MARBERO M822 Portable Power Station is aimed at buyers prioritizing 148wh, 200w (270w max), 3.3 lbs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations-under-200","title":"Best Portable Power Stations Under $200 in 2026"},{"href":"/guide/best-portable-power-stations-under-300","title":"Best Portable Power Stations Under $300 in 2026"},{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"}];

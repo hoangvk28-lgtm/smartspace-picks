@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "Lenovo laptop locks";
 export const introParagraphs = [
   "Lenovo's slot type varies by model rather than following one brand-wide standard. Current ThinkPad user guides can explicitly specify NanoSaver-compatible locking on individual models, so a brand-wide compatibility assumption is unsafe.",
-  "We sorted every pick by confirmed slot type and included a dedicated Lenovo-branded lock alongside the Kensington options, checking each against Lenovo's own documentation rather than retail listings that can lag chassis revisions.",
+  "We sorted every pick by confirmed slot type and included a dedicated Lenovo-branded lock alongside the Kensington options, checking each against Lenovo's own documentation rather than retail listings that can lag chassis revisions."
 ];
 export const lastUpdated = "2026-08-11";
 export const readTime = "8 min";
@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/318zbGjhbiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09YS1QQNX?tag=deskfinds0d-20",
     description: "A Lenovo-branded lock built specifically for the NanoSaver slot documented on current ThinkPad generations, sold under Lenovo's own accessory line rather than a third-party brand claiming compatibility. This removes the guesswork of matching a Kensington-branded lock to Lenovo's documented slot type.\n\nIt earns the top spot in this comparison over Kensington NanoSaver Combination Laptop Lock for one main reason. Highest rating in this comparison. On price, it comes in below Kensington NanoSaver Combination Laptop Lock, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Sold directly by Lenovo rather than a third party claiming compatibility. On the other side, Only fits ThinkPad models confirmed to use the NanoSaver slot. That's the main tradeoff to weigh against everything above.",
-    specs: ["NanoSaver slot, Lenovo-branded","Highest rating in this comparison at 4.5 stars","Sold directly under Lenovo's accessory line"],
+    specs: ["NanoSaver slot, Lenovo-branded","Sold directly under Lenovo's accessory line"],
     pros: ["Highest rating in this comparison","Sold directly by Lenovo rather than a third party claiming compatibility"],
     cons: ["Thinner review history than the equivalent Kensington NanoSaver lock","Only fits ThinkPad models confirmed to use the NanoSaver slot"],
     bestFor: "ThinkPad owners wanting a Lenovo-branded lock matched to Lenovo's own NanoSaver documentation.",
@@ -126,10 +126,10 @@ export const products: GuideProduct[] = [
     reviews: "56",
     imageUrl: "https://m.media-amazon.com/images/I/21wh6b9wJwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CRKFVZ9L?tag=deskfinds0d-20",
-    description: "The lowest-priced Standard-slot lock in this comparison, with a 5-foot anti-shearing cable and one-handed slider attachment. The resettable 4-wheel dial matches the mechanism of the pricier Standard-slot picks here at a fraction of the cost.\n\nRanked just behind Kensington T-Bar Standard Keyed Lock, it's priced lower than Kensington T-Bar Standard Keyed Lock. The real tradeoff against that pick: Lowest rating in this comparison at 3.9 stars. In exchange, it offers this instead: Lowest price of any Standard-slot lock in this comparison. That's the swap that decides whether this pick or the one above it is the better fit for your laptop.\n\nWorth knowing before you decide: Full head and cable rotation preserves port access. On the other side, Standard slot only, not compatible with NanoSaver ThinkPad models. That's the main tradeoff to weigh against everything above.",
+    description: "The lowest-priced Standard-slot lock in this comparison, with a 5-foot anti-shearing cable and one-handed slider attachment. The resettable 4-wheel dial matches the mechanism of the pricier Standard-slot picks here at a fraction of the cost.\n\nRanked just behind Kensington T-Bar Standard Keyed Lock, it's priced lower than Kensington T-Bar Standard Keyed Lock. In exchange, it offers this instead: Lowest price of any Standard-slot lock in this comparison. That's the swap that decides whether this pick or the one above it is the better fit for your laptop.\n\nWorth knowing before you decide: Full head and cable rotation preserves port access. On the other side, Standard slot only, not compatible with NanoSaver ThinkPad models. That's the main tradeoff to weigh against everything above.",
     specs: ["Standard slot, resettable 4-wheel dial","5 ft anti-shearing cable, 360-degree head pivot","One-handed slider attach"],
     pros: ["Lowest price of any Standard-slot lock in this comparison","Full head and cable rotation preserves port access"],
-    cons: ["Lowest rating in this comparison at 3.9 stars","Standard slot only, not compatible with NanoSaver ThinkPad models"],
+    cons: ["Standard slot only, not compatible with NanoSaver ThinkPad models"],
     bestFor: "Budget-focused non-ThinkPad Lenovo owners on a confirmed Standard slot.",
   }
 ];
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified slot type from Lenovo's current documentation, not brand-wide assumption", description: "We separated ThinkPad's documented NanoSaver requirement from the Standard slot used by other Lenovo lines like IdeaPad and Yoga." },
   { title: "Included both a Lenovo-branded and Kensington-branded NanoSaver option", description: "We compared the newer Lenovo-branded lock's higher rating against Kensington's larger, more established review base for the same slot type." },
   { title: "Checked keyed and combination access for each slot type", description: "Both Standard and NanoSaver slots have a keyed and combination option in this comparison, letting Lenovo owners choose based on recovery preference." },
-  { title: "Flagged review volume differences across the lineup", description: "Review counts here range from 4 to over 1,400. We treated the thinnest-history picks as unproven rather than equivalent to the established Kensington locks." },
+  { title: "Flagged review volume differences across the lineup", description: "Review counts here range from 4 to over 1,400. We treated the thinnest-history picks as unproven rather than equivalent to the established Kensington locks." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -274,11 +274,11 @@ export const faq: FaqItem[] = [
   { q: "What's the best overall Lenovo laptop lock?", a: "For ThinkPad owners, the Lenovo NanoSaver Essential Cable Lock carries the highest rating in this comparison, though the Kensington NanoSaver has a much larger review base for the same slot type." },
   { q: "How do I know if my ThinkPad uses the NanoSaver slot?", a: "Check your specific ThinkPad model's user guide, since Lenovo documents lock requirements by generation rather than one brand-wide standard." },
   { q: "Is there a Lenovo lock option if I'm not sure of my slot type?", a: "Yes, the Kensington Universal 3-in-1 2.0 Combination Laptop Lock covers Standard, Nano, and Wedge slots in one purchase." },
-  { q: "Are these locks theft-proof for a Lenovo laptop?", a: "No. Position any lock here as a theft deterrent that slows down or discourages casual theft, not a guarantee against a determined attacker with cutting tools." },
+  { q: "Are these locks theft-proof for a Lenovo laptop?", a: "No. Position any lock here as a theft deterrent that slows down or discourages casual theft, not a guarantee against a determined attacker with cutting tools." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-locks", title: "Best Laptop Locks (2026)" },
   { href: "/guide/best-laptop-locks-for-lenovo-thinkpad", title: "Best Laptop Locks for Lenovo ThinkPad (2026)" },
-  { href: "/guide/best-nano-slot-laptop-locks", title: "Best Nano-Slot Laptop Locks (2026)" },
+  { href: "/guide/best-nano-slot-laptop-locks", title: "Best Nano-Slot Laptop Locks (2026)" }
 ];

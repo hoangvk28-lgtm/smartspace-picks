@@ -12,7 +12,7 @@ export const backpackBackPanelVentilationExplainedGuide: Guide = {
     "backpack sweaty back fix",
     "mesh back panel backpack benefit",
     "ventilated backpack for commuting",
-    "backpack airflow design",
+    "backpack airflow design"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const backpackBackPanelVentilationExplainedGuide: Guide = {
     "laptop-backpack-vs-messenger-bag",
     "water-resistant-vs-waterproof-bag",
     "laptop-bag-compartment-organization",
-    "desk-fan-cfm-explained",
+    "desk-fan-cfm-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const backpackBackPanelVentilationExplainedGuide: Guide = {
       question: "Do all backpacks marketed for commuting include ventilated back panels?",
       answer:
         "No, this feature varies by specific model even within commuter-focused bags, check the product description or images specifically for a mesh or channeled back panel design rather than assuming any commuter-marketed bag includes this feature.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const backpackBackPanelVentilationExplainedGuide: Guide = {
     {
       heading: "Why This Feature's Value Scales Directly With Physical Exertion and Duration",
       body: `The comfort difference ventilation provides is directly tied to how much heat and moisture actually builds up during use, a brief, low-exertion carry generates minimal heat buildup regardless of back panel design, making the ventilation feature's benefit hard to notice, but a longer walking commute or an actively physical activity like cycling generates substantially more body heat over a longer duration, this is exactly the scenario where a ventilated design's benefit becomes genuinely noticeable and worth prioritizing when choosing a bag for that specific use case.`,
-    },
+    }
   ],
 };

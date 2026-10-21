@@ -5,7 +5,7 @@ export const metaDescription = "6 UPS units we evaluated for genuinely user-repl
 export const mainKeyword = "UPS battery backup with replaceable battery";
 export const introParagraphs = [
   "A user-replaceable battery only saves money long-term if the replacement cell itself is a widely available standard part, some 'replaceable' UPS batteries use a proprietary or hard-to-source cell that costs nearly as much as a new unit, undermining the entire value proposition.",
-  "Lead-acid UPS batteries typically need replacement every 3-5 years regardless of how often an outage actually occurs, simply from age and charge-cycle wear, budgeting for that recurring cost is part of the real total cost of ownership competitors rarely mention upfront.",
+  "Lead-acid UPS batteries typically need replacement every 3-5 years regardless of how often an outage actually occurs, simply from age and charge-cycle wear, budgeting for that recurring cost is part of the real total cost of ownership competitors rarely mention upfront."
 ];
 export const lastUpdated = "2026-07-30";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Replaceable Battery UPS Overall",
     name: "APC UPS 1500VA/900W Pure Sine Wave UPS for Computer, Electronics, BR1500MS2",
     price: "$299.99",
-    rating: "4.5 stars from 3,467 Amazon ratings",
-    reviews: "3,467 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31rIE-toOYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08GRY1W93?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity Replaceable Battery Pick",
     name: "APC UPS 1500VA/900W Battery Backup for PCs, Office Electronics, BX1500M",
     price: "$189.99",
-    rating: "4.5 stars from 13,112 Amazon ratings",
-    reviews: "13,112 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31p-5+FvTgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06VY6FXMM?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Mid-Capacity Replaceable Battery Pick",
     name: "APC 1000VA/600W Pro UPS Battery Backup for Office Electronics, AVR, BX1000M",
     price: "$183.99",
-    rating: "4.5 stars from 2,697 Amazon ratings",
-    reviews: "2,697 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31VPmugfqML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06VY12HW4?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Replaceable Battery Pick",
     name: "APC 850VA/510W Pro UPS Battery Backup for Office Electronics, AVR, BX850M",
     price: "$161.99",
-    rating: "4.6 stars from 796 Amazon ratings",
-    reviews: "796 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31xnh5VoQ4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06WP9Q8ZN?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Replaceable Battery Pick",
     name: "APC UPS 650VA/390W Battery Backup & Surge Protector for PC, NAS | BE650G1",
     price: "$109.99",
-    rating: "4.6 stars from 4,110 Amazon ratings",
-    reviews: "4,110 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31pgnLVo0dL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B005GZRUZW?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Most Affordable Replaceable Battery Pick",
     name: "APC UPS 600VA/330W UPS Battery Backup for Computer, Router, NAS, BE600M1",
     price: "$83.99",
-    rating: "4.5 stars from 29,088 Amazon ratings",
-    reviews: "29,088 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41h0sXfkrSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01FWAZEIU?tag=deskfinds0d-20",
     description:
@@ -120,14 +120,14 @@ export const products: GuideProduct[] = [
     pros: ["Largest review base of any UPS across this entire batch of guides", "Most affordable price here", "Standard replaceable battery, predictable long-term cost", "Well-suited to computer, router, or NAS protection"],
     cons: ["Lowest capacity in this guide", "Not for a full multi-device desktop setup", "Lead-acid battery still needs periodic replacement"],
     bestFor: "Budget-conscious buyers protecting a single computer, router, or NAS device",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Standard vs. proprietary replacement battery parts", description: "Prioritized picks using widely available standard replacement battery cartridges, since a proprietary or hard-to-source cell can cost nearly as much as a new unit, undermining the entire replaceable-battery value proposition." },
   { title: "Long-term cost predictability over upfront price alone", description: "Weighed each pick's total cost of ownership, including the recurring 3-5 year lead-acid battery replacement cycle, not just the sticker price of the unit itself." },
-  { title: "Capacity matched to realistic device protection needs", description: "Ranked picks from entry-level 600VA (computer/router/NAS) through full 1500VA (multi-device desktop) so buyers can match capacity to their actual equipment rather than overpaying for unused headroom." },
+  { title: "Capacity matched to realistic device protection needs", description: "Ranked picks from entry-level 600VA (computer/router/NAS) through full 1500VA (multi-device desktop) so buyers can match capacity to their actual equipment rather than overpaying for unused headroom." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -245,11 +245,11 @@ export const faq: FaqItem[] = [
   { q: "Can I replace a UPS battery myself?", a: "On the picks in this guide, yes, they use standard user-replaceable battery cartridges designed for straightforward swaps without needing to send the unit in for service." },
   { q: "Is it cheaper to replace the battery or buy a new UPS?", a: "If the UPS uses a standard, widely available replacement battery (like the APC picks in this guide), replacing the battery is almost always cheaper than buying a new unit. If the replacement part is proprietary and expensive, the math can shift, check pricing before assuming." },
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers who want a widely available, genuinely cost-saving replacement battery part" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers protecting a single computer, router, or NAS device At $83.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers protecting a single computer, router, or NAS device At under $90, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-ups-battery-backups-with-avr", title: "Best UPS Battery Backups with AVR (2026)" },
   { href: "/guide/best-pure-sine-wave-ups", title: "Best Pure Sine Wave UPS Battery Backups (2026)" },
-  { href: "/guide/best-ups-battery-backups-for-nas-devices", title: "Best UPS Battery Backups for NAS Devices (2026)" },
+  { href: "/guide/best-ups-battery-backups-for-nas-devices", title: "Best UPS Battery Backups for NAS Devices (2026)" }
 ];

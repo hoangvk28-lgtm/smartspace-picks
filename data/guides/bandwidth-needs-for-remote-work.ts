@@ -12,7 +12,7 @@ export const bandwidthNeedsForRemoteWorkGuide: Guide = {
     "how much internet speed for remote work",
     "video call bandwidth requirements",
     "internet speed multiple people working from home",
-    "upload speed for remote work",
+    "upload speed for remote work"
   ],
   heroImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const bandwidthNeedsForRemoteWorkGuide: Guide = {
     "ethernet-vs-wifi-for-desk-setup",
     "vpn-for-remote-work-explained",
     "wifi-6-vs-wifi-5-explained",
-    "router-placement-explained",
+    "router-placement-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const bandwidthNeedsForRemoteWorkGuide: Guide = {
       question: "Should I upgrade my internet plan for remote work specifically?",
       answer:
         "If you're experiencing regular video call quality issues, slow file transfers, or noticeable slowdowns when multiple household members are online simultaneously, upgrading to a plan with higher speeds, particularly upload speed, is a reasonable and often effective fix.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const bandwidthNeedsForRemoteWorkGuide: Guide = {
     {
       heading: "Why Multiple Household Users Compound Bandwidth Needs Quickly",
       body: `Bandwidth needs don't simply average out across household members, they largely add together when multiple people are actively using demanding applications simultaneously, two people each needing 4 Mbps for video calls genuinely need roughly 8 Mbps combined at that moment, not some smaller shared figure. Households with multiple remote workers, especially with overlapping meeting schedules, should size their internet plan for this combined peak demand rather than the needs of just one person working alone.`,
-    },
+    }
   ],
 };

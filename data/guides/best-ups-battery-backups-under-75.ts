@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Genuine sine wave output and the highest warranty", "Eaton Tripp Lite BC350 350VA Small UPS"],
         ["A high-capacity portable battery pack for DC devices", "TalentCell Mini UPS, 27000mAh/97.2Wh"],
         ["A compact UPS for small home-office electronics", "APC BE425M UPS Battery Backup"],
-        ["The most outlets at the lowest price", "CyberPower ST425 Standby UPS Battery Backup"],
+        ["The most outlets at the lowest price", "CyberPower ST425 Standby UPS Battery Backup"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $60", "CyberPower ST425 ($59.95)"],
-        ["Under $63", "APC BE425M ($62.50)"],
-        ["Under $65", "TalentCell 27000mAh ($64.99)"],
-        ["Under $73", "Eaton Tripp Lite BC350 ($72.49)"],
+        ["Under $60", "CyberPower ST425 (under $60)"],
+        ["Under $63", "APC BE425M (under $70)"],
+        ["Under $65", "TalentCell 27000mAh (under $70)"],
+        ["Under $73", "Eaton Tripp Lite BC350 (under $80)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Desktop AC-Outlet UPS vs Portable DC Battery Pack",
     cards: [
       { label: "Desktop AC-outlet UPS (Eaton BC350, APC BE425M, CyberPower ST425)", text: "Plugs into the wall and provides battery-backed AC outlets for a router, modem, or small desktop setup." },
-      { label: "Portable DC battery pack (TalentCell)", text: "Powers DC devices directly without AC outlets, genuinely portable but limited to devices under 37W continuous draw." },
+      { label: "Portable DC battery pack (TalentCell)", text: "Powers DC devices directly without AC outlets, genuinely portable but limited to devices under 37W continuous draw." }
     ],
     note: "If your setup relies on standard AC-powered devices, a desktop UPS is the right form factor. If you need to power DC equipment away from a wall outlet, the TalentCell's portable design fits that need instead.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your electronics sensitivity", "Recommended pick"],
       rows: [
         ["Sensitive electronics needing clean power", "Eaton Tripp Lite BC350 (sine wave)"],
-        ["Standard electronics, simulated sine wave acceptable", "CyberPower ST425 or APC BE425M"],
+        ["Standard electronics, simulated sine wave acceptable", "CyberPower ST425 or APC BE425M"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Dorm Room or Small Apartment Home Office Specifically",
     cards: [
       { label: "Look for", text: "A compact, wall-mountable UPS sized specifically for small electronics rather than a full desktop tower form factor." },
-      { label: "In this comparison", text: "The APC BE425M's compact, wall-mountable design is specifically built for apartments, dorm rooms, and small workspaces." },
+      { label: "In this comparison", text: "The APC BE425M's compact, wall-mountable design is specifically built for apartments, dorm rooms, and small workspaces." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want genuine sine wave output for sensitive electronics and the highest documented warranty, where the Eaton Tripp Lite BC350 delivers both at the top of this tier." },
-      { label: "Save if", text: "You want the most total outlets without needing genuine sine wave output, where the CyberPower ST425 covers that for about $13 less." },
+      { label: "Save if", text: "You want the most total outlets without needing genuine sine wave output, where the CyberPower ST425 covers that for about $13 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The most drawers and total storage capacity", "VIYET File Cabinet, 4 Drawer with Lock"],
         ["Independent drawer locks with anti-tip wall securing", "VASAGLE 3 Drawer File Cabinet with Locks"],
         ["A mechanical interlock system to prevent tipping", "Letaya Lateral 3 Drawer File Cabinet with Lock"],
-        ["A fully mobile cabinet with minimal assembly", "Letaya 3 Drawer Mobile File Cabinet with Lock"],
+        ["A fully mobile cabinet with minimal assembly", "Letaya 3 Drawer Mobile File Cabinet with Lock"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $100", "VASAGLE ($99.99)"],
-        ["Under $105", "Letaya Mobile ($104.99)"],
-        ["Under $140", "VIYET 4-Drawer ($139.99)"],
-        ["Under $180", "Letaya Lateral ($179.99)"],
+        ["Under $100", "VASAGLE (under $100)"],
+        ["Under $105", "Letaya Mobile (under $110)"],
+        ["Under $140", "VIYET 4-Drawer (under $140)"],
+        ["Under $180", "Letaya Lateral (under $180)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Wall-Anchored Anti-Tip vs Mechanical Interlock Safety",
     cards: [
       { label: "Wall-anchored (VASAGLE)", text: "Physically secures the cabinet to a wall, preventing tipping regardless of how many drawers are open simultaneously." },
-      { label: "Mechanical interlock (Letaya Lateral)", text: "Prevents multiple drawers from opening at once, keeping the center of gravity stable without needing wall attachment." },
+      { label: "Mechanical interlock (Letaya Lateral)", text: "Prevents multiple drawers from opening at once, keeping the center of gravity stable without needing wall attachment." }
     ],
     note: "If you can't or don't want to attach the cabinet to a wall, the Letaya Lateral's interlock system provides tip safety without that requirement. If you prefer the flexibility of opening any drawer freely, the VASAGLE's wall anchor achieves safety differently.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your access control needs", "Recommended pick"],
       rows: [
         ["Lock specific drawers while leaving others open", "VASAGLE (independent locks)"],
-        ["One lock for the whole unit", "VIYET, Letaya Mobile, or Letaya Lateral"],
+        ["One lock for the whole unit", "VIYET, Letaya Mobile, or Letaya Lateral"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Shared Home Office With Mixed Access Needs Specifically",
     cards: [
       { label: "Look for", text: "Independently lockable drawers so you can restrict access to specific sensitive documents while leaving shared files accessible." },
-      { label: "In this comparison", text: "The VASAGLE pick's independently lockable drawers are specifically designed for this kind of mixed-access scenario." },
+      { label: "In this comparison", text: "The VASAGLE pick's independently lockable drawers are specifically designed for this kind of mixed-access scenario." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a mechanical interlock safety system with the deepest, most spacious drawers, where the Letaya Lateral pick delivers both at the top of this tier." },
-      { label: "Save if", text: "You want independent drawer locks and anti-tip wall hardware without paying for the most drawers, where the VASAGLE pick covers that for the lowest price here." },
+      { label: "Save if", text: "You want independent drawer locks and anti-tip wall hardware without paying for the most drawers, where the VASAGLE pick covers that for the lowest price here." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook under 300";
 export const introParagraphs = [
   "Under $300 opens up the smart pen set category alongside reusable paper notebooks, though most standalone e-ink hardware devices sit above this range. This is a wider budget than our strictest budget guide, giving room for real-time sync features without stepping into premium e-ink territory.",
-  "Every price below was checked against verified current listing data before inclusion, we did not include anything based on an assumed or outdated price.",
+  "Every price below was checked against verified current listing data before inclusion, we did not include anything based on an assumed or outdated price."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Every price checked against verified current data before inclusion", description: "Confirmed each product's actual listed price is genuinely at a budget-friendly price using verified pricing data, excluding anything unconfirmed or over the ceiling." },
   { title: "Feature richness weighed within the price ceiling", description: "Prioritized picks offering the most capability, such as real-time sync or OCR, within this wider budget compared to the strictest budget tier." },
   { title: "Paper notebooks and smart pen sets compared on their own terms", description: "Weighed reusable paper notebooks against smart pen sets within the same price range rather than assuming one type is automatically better value." },
-  { title: "Ecosystem maturity noted for smaller brands", description: "Flagged where a smart pen brand is less established than Rocketbook or reMarkable, worth checking current reviews before buying." },
+  { title: "Ecosystem maturity noted for smaller brands", description: "Flagged where a smart pen brand is less established than Rocketbook or reMarkable, worth checking current reviews before buying." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -286,11 +286,11 @@ export const faq: FaqItem[] = [
   { q: "What's the best digital notebook under $300?", a: "It depends on your priority: the Rocketbook Core is the most established budget-friendly notebook, while SyncPen offers real-time sync and OCR at an affordable price within this range." },
   { q: "Can I get a smart pen with real-time sync under $300?", a: "Yes, several smart pen sets like SyncPen and the Ophayapen fall well under this price ceiling and offer genuine real-time handwriting sync." },
   { q: "Are e-ink digital notebooks available under $300?", a: "Generally no, most standalone e-ink hardware devices start above $300, this price range is dominated by reusable paper notebooks and smart pen sets instead." },
-  { q: "Do I need to verify prices before buying?", a: "Yes, prices change over time, always check the current listing against your budget rather than relying solely on a guide's stated price." },
+  { q: "Do I need to verify prices before buying?", a: "Yes, prices change over time, always check the current listing against your budget rather than relying solely on a guide's stated price." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-budget-digital-notebooks", title: "Best Budget Digital Notebooks (2026)" },
   { href: "/guide/best-digital-notebooks-under-500", title: "Best Digital Notebooks Under $500 (2026)" },
-  { href: "/guide/best-smart-digital-notebooks", title: "Best Smart Digital Notebooks (2026)" },
+  { href: "/guide/best-smart-digital-notebooks", title: "Best Smart Digital Notebooks (2026)" }
 ];

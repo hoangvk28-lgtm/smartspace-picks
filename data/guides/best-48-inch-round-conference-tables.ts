@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51zlwY6N7rL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F29QTL6Q?tag=deskfinds0d-20",
-    description: "The all-black finish version of Tribesigns' 47\" round conference table, sharing the same thickened wood top, sturdy wood base, and adjustable leveling foot pads as the grey and brown-black versions.\n\nBlack gives the boldest, most uniform look of the three colorways, suited to offices wanting a more dramatic, modern round table centerpiece.\n\nThis pick is best for buyers who value all-black finish gives the boldest, most modern look among Tribesigns' round table colorways along with same commercial-grade construction quality as the grey and brown-black versions. The catch is that black finish shows dust and fingerprints more visibly than lighter tones, so decide if that's worth it at $189.99.",
+    description: "The all-black finish version of Tribesigns' 47\" round conference table, sharing the same thickened wood top, sturdy wood base, and adjustable leveling foot pads as the grey and brown-black versions.\n\nBlack gives the boldest, most uniform look of the three colorways, suited to offices wanting a more dramatic, modern round table centerpiece.\n\nThis pick is best for buyers who value all-black finish gives the boldest, most modern look among Tribesigns' round table colorways along with same commercial-grade construction quality as the grey and brown-black versions. The catch is that black finish shows dust and fingerprints more visibly than lighter tones, so decide if that's worth it at under $190.",
     specs: ["47\" round table, seats 4-6, black finish","Thickened wood tabletop, sturdy wood base","Adjustable leveling foot pads"],
     pros: ["All-black finish gives the boldest, most modern look among Tribesigns' round table colorways","Same commercial-grade construction quality as the grey and brown-black versions","Stable, wobble-resistant base suits active discussion use"],
     cons: ["Black finish shows dust and fingerprints more visibly than lighter tones","47\" round shape still caps capacity at 6 people"],
@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "Flash Furniture 36\" Round Conference Table and is built around 36\" round conference table: creates a dedicated, positioning it for 48 inch round buyers specifically.\n\nSEATS UP TO 4 PEOPLE is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 48 inch round, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["36\" ROUND CONFERENCE TABLE: Creates a dedicated","SEATS UP TO 4 PEOPLE","VERSATILE USES"],
     pros: ["36\" ROUND CONFERENCE TABLE: Creates a dedicated, confirmed directly in the listing's own spec details","SEATS UP TO 4 PEOPLE, confirmed directly in the listing's own spec details","VERSATILE USES, confirmed directly in the listing's own spec details"],
-    cons: ["At $182.96, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $190, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 48 inch round",
   },
   {
@@ -126,7 +126,7 @@ export const products: GuideProduct[] = [
     description: "Flash Furniture 36\" Round Conference Table and is built around having a dedicated meeting space in your, positioning it for 48 inch round buyers specifically.\n\nMeeting table for four people is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 48 inch round, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Having a dedicated meeting space in your","Meeting table for four people","Smooth stain-resistant cherry laminate top, cast iron"],
     pros: ["Having a dedicated meeting space in your, confirmed directly in the listing's own spec details","Meeting table for four people, confirmed directly in the listing's own spec details","Smooth stain-resistant cherry laminate top, cast iron, confirmed directly in the listing's own spec details"],
-    cons: ["At $189.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $190, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 48 inch round",
   },
   {
@@ -141,8 +141,8 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0H86C8ZH3?tag=deskfinds0d-20",
     description: "LITTLE TREE 47 Inches Round Conference Table for 4-6 measures 47 Inch and is built around premium e1 grade mdf construction, positioning it for 48 inch round buyers specifically.\n\nBeyond that core spec, the listing describes construction suited to daily conference-room use, without unusual assembly or maintenance requirements.\n\nBest for buyers specifically looking for 48 inch round, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["47 Inch table dimensions","Premium E1 Grade MDF Construction","Assembly hardware and instructions included per the listing"],
-    pros: ["Premium E1 Grade MDF Construction, confirmed directly in the listing's own spec details","Priced at $152.99, positioned for 48 inch round shoppers specifically","Sized at 47 Inch, matching the space this guide is built around"],
-    cons: ["At $152.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    pros: ["Premium E1 Grade MDF Construction, confirmed directly in the listing's own spec details","Priced under $160, positioned for 48 inch round shoppers specifically","Sized at 47 Inch, matching the space this guide is built around"],
+    cons: ["At under $160, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 48 inch round",
   }
 
@@ -210,40 +210,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $152.99",
+          "Under $160",
           "LITTLE TREE 47 Inches Round Conference Table for 4-6"
         ],
         [
-          "Around $182.96",
+          "Under $190",
           "Flash Furniture 36\" Round Conference Table"
         ],
         [
-          "Around $182.96",
+          "Under $190",
           "Flash Furniture 36\" Round Conference Table"
         ],
         [
-          "Around $189.99",
+          "Under $190",
           "Tribesigns 47-Inch Round Conference Table for 4-6"
         ],
         [
-          "Around $189.99",
+          "Under $190",
           "Tribesigns 47-Inch Round Conference Table for 4-6"
         ],
         [
-          "Around $189.99",
+          "Under $190",
           "Tribesigns 47-Inch Round Conference Table for 4-6"
         ],
         [
-          "Around $189.99",
+          "Under $190",
           "Flash Furniture 36\" Round Conference Table"
         ],
         [
-          "Around $229.98",
+          "Under $250",
           "43.3-59in Extendable Round Conference Table for 4-8"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -291,7 +291,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "Tribesigns 47-Inch Round Conference Table for 4-6 is aimed at buyers prioritizing 47\" round table, seats 4-6, grey finish." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Tribesigns 47-Inch Round Conference Table for 4-6 is aimed at buyers prioritizing 47\" round table, seats 4-6, grey finish." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-10-ft-conference-tables","title":"Best 10 ft Conference Tables in 2026"},{"href":"/guide/best-6-ft-conference-tables","title":"Best 6 ft Conference Tables in 2026"},{"href":"/guide/best-8ft-conference-tables","title":"Best 8ft Conference Tables in 2026"}];

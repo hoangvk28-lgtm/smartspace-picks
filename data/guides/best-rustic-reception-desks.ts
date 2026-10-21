@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $143.99",
+          "Under $150",
           "Tribesigns 55\" Industrial Executive Desk"
         ],
         [
-          "Around $197.99",
+          "Under $200",
           "Tribesigns 63-Inch U-Shaped Reception Desk with Private Panel"
         ],
         [
-          "Around $205.99",
+          "Under $250",
           "LITTLE TREE 57-Inch Boho Reception Counter"
         ],
         [
-          "Around $242.99",
+          "Under $250",
           "LITTLE TREE 63-Inch Reception Desk with LED Light"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "LITTLE TREE 57-Inch Boho Reception Counter is aimed at buyers prioritizing 23.62\"w x 56.69\"l desktop." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "LITTLE TREE 57-Inch Boho Reception Counter is aimed at buyers prioritizing 23.62\"w x 56.69\"l desktop." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-wood-reception-desks","title":"best-wood-reception-desks"},{"href":"/guide/best-industrial-reception-desks","title":"4 Best Industrial Reception Desks in 2026"},{"href":"/guide/best-vintage-reception-desks","title":"5 Best Vintage Reception Desks in 2026"}];

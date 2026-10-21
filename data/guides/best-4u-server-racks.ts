@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/316UENO1+ML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D93LWHVK?tag=deskfinds0d-20",
-    description: "This shallow 4U wall rack ships pre-assembled, ready to hang without the flat-pack build process most cabinets require, useful if you want to get gear mounted quickly.\n\nIt can mount flat, on a wall, or vertically under a table, giving genuine flexibility for tight spaces where a standard horizontal orientation doesn't work.\n\nThis pick is best for buyers who value ships pre-assembled, ready to mount right away along with can install flat, on a wall, or under a table. The catch is that 14\" depth limits it to shallow equipment only, so decide if that's worth it at $39.90.",
+    description: "This shallow 4U wall rack ships pre-assembled, ready to hang without the flat-pack build process most cabinets require, useful if you want to get gear mounted quickly.\n\nIt can mount flat, on a wall, or vertically under a table, giving genuine flexibility for tight spaces where a standard horizontal orientation doesn't work.\n\nThis pick is best for buyers who value ships pre-assembled, ready to mount right away along with can install flat, on a wall, or under a table. The catch is that 14\" depth limits it to shallow equipment only, so decide if that's worth it at under $40.",
     specs: ["4U, 14\" max mounting depth","110 lb weight capacity","Ships fully assembled"],
     pros: ["Ships pre-assembled, ready to mount right away","Can install flat, on a wall, or under a table","Open frame keeps inspection and swaps effortless"],
     cons: ["14\" depth limits it to shallow equipment only","4U ceiling fits a small handful of devices"],
@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41vLDANfjrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07NK7P9VK?tag=deskfinds0d-20",
-    description: "A 4U vertical or horizontal wall rack that ships fully assembled, made from cold-rolled steel with black powder coating for basic corrosion resistance.\n\nSixteen sets of cage nuts come included, more than enough for a typical 4U load, and adjustable mounting depths help it flex to fit different device sizes.\n\nWhat stands out here is ships fully assembled, no flat-pack build needed, plus 16 cage nut sets cover the whole install. The main tradeoff: 60 lb capacity limits it to lighter equipment, so weigh that against the $227.99 price before buying.",
+    description: "A 4U vertical or horizontal wall rack that ships fully assembled, made from cold-rolled steel with black powder coating for basic corrosion resistance.\n\nSixteen sets of cage nuts come included, more than enough for a typical 4U load, and adjustable mounting depths help it flex to fit different device sizes.\n\nWhat stands out here is ships fully assembled, no flat-pack build needed, plus 16 cage nut sets cover the whole install. The main tradeoff: 60 lb capacity limits it to lighter equipment, so weigh that against the under $250 price before buying.",
     specs: ["4U, vertical or horizontal mount","60 lb weight capacity","16 sets of cage nuts included"],
     pros: ["Ships fully assembled, no flat-pack build needed","16 cage nut sets cover the whole install","Vented slots keep A/V and IT gear cooler"],
     cons: ["60 lb capacity limits it to lighter equipment","Basic feature set without a locking door"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31kHUpg5tQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C4D3QTLS?tag=deskfinds0d-20",
-    description: "This vertical enclosure mounts 4U of equipment along a wall rather than horizontally, ideal for hallways or narrow closets where a standard rack's width won't fit.\n\nThe 16-gauge steel construction is noticeably heavier duty than typical 4U wall boxes, and anti-theft locks add real security for equipment mounted in a shared or public-facing space.\n\nThe strongest case for this pick comes down to vertical mount fits narrow hallways horizontal racks can't as well as 132 lb rating beats most 4U wall enclosures. The compromise here is that vertical orientation isn't ideal for every device shape, so factor that in alongside the $347.99 asking price.",
+    description: "This vertical enclosure mounts 4U of equipment along a wall rather than horizontally, ideal for hallways or narrow closets where a standard rack's width won't fit.\n\nThe 16-gauge steel construction is noticeably heavier duty than typical 4U wall boxes, and anti-theft locks add real security for equipment mounted in a shared or public-facing space.\n\nThe strongest case for this pick comes down to vertical mount fits narrow hallways horizontal racks can't as well as 132 lb rating beats most 4U wall enclosures. The compromise here is that vertical orientation isn't ideal for every device shape, so factor that in alongside the under $350 asking price.",
     specs: ["4U vertical, 16.7-19.6\" adjustable depth","132 lb weight capacity","16-gauge steel, anti-theft locks"],
     pros: ["Vertical mount fits narrow hallways horizontal racks can't","132 lb rating beats most 4U wall enclosures","Anti-theft locks add real security in shared spaces"],
     cons: ["Vertical orientation isn't ideal for every device shape","Ships requiring careful fit-check on adjustable depth"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31112PXmW0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C4CXKMRW?tag=deskfinds0d-20",
-    description: "A deeper variant of NavePoint's vertical 4U enclosure, adjusting from 24.6 to 27.5 inches for equipment that needs more clearance than the 23.6-inch model provides.\n\nEvery other detail carries over identically: 16-gauge steel, anti-theft locks, and perforated panels for airflow, just with the added depth range for bulkier gear.\n\nWhere this one earns its spot is deeper adjustment range fits bulkier vertical equipment, and 132 lb rating matches the shallower sibling model. Worth noting before buying: larger footprint than the 23.6\" shallow version, which matters more at $395.99 than it would on a cheaper pick.",
+    description: "A deeper variant of NavePoint's vertical 4U enclosure, adjusting from 24.6 to 27.5 inches for equipment that needs more clearance than the 23.6-inch model provides.\n\nEvery other detail carries over identically: 16-gauge steel, anti-theft locks, and perforated panels for airflow, just with the added depth range for bulkier gear.\n\nWhere this one earns its spot is deeper adjustment range fits bulkier vertical equipment, and 132 lb rating matches the shallower sibling model. Worth noting before buying: larger footprint than the 23.6\" shallow version, which matters more at under $400 than it would on a cheaper pick.",
     specs: ["4U vertical, 24.6-27.5\" adjustable depth","132 lb weight capacity","Perforated side panels, anti-theft locks"],
     pros: ["Deeper adjustment range fits bulkier vertical equipment","132 lb rating matches the shallower sibling model","Perforated panels keep vertical airflow consistent"],
     cons: ["Larger footprint than the 23.6\" shallow version","Vertical mounting still limits some device types"],
@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $39.90",
+          "Under $40",
           "Tecmojo 4U Wall Mount Rack"
         ],
         [
-          "Around $227.99",
+          "Under $250",
           "NavePoint 4U Server Rack"
         ],
         [
-          "Around $347.99",
+          "Under $350",
           "NavePoint 4U Vertical Server Rack Enclosure"
         ],
         [
-          "Around $395.99",
+          "Under $400",
           "NavePoint 4U Vertical Server Rack Enclosure"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "Tecmojo 4U Wall Mount Rack is aimed at buyers prioritizing 4u, 14\" max mounting depth." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Tecmojo 4U Wall Mount Rack is aimed at buyers prioritizing 4u, 14\" max mounting depth." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-42u-server-racks","title":"Best 42U Server Racks in 2026"},{"href":"/guide/best-2u-server-racks","title":"Best 2U Server Racks in 2026"},{"href":"/guide/best-1u-server-racks","title":"Best 1U Server Racks in 2026"}];

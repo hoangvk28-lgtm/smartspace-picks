@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small safes that bolt to the floor";
 export const introParagraphs = [
   "We required explicit floor bolt-down language in each listing before treating a pick as genuinely floor-anchorable, since several safes confirm wall or cabinet mounting without specifically stating floor installation. We're disclosing which picks explicitly support floor bolting versus general mounting.",
-  "Floor anchoring is the strongest anti-removal method for a lightweight safe, since a determined thief typically can't simply lift a floor-bolted safe the way they could an unmounted or wall-only mounted one.",
+  "Floor anchoring is the strongest anti-removal method for a lightweight safe, since a determined thief typically can't simply lift a floor-bolted safe the way they could an unmounted or wall-only mounted one."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     pros: ["Strongest documented fire protection in this comparison"],
     cons: ["No confirmed mounting hardware at all, portable design instead"],
     bestFor: "Buyers prioritizing fire protection over floor anchoring specifically.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required explicit floor bolt-down language, not just general mounting", description: "Only 3 of 8 picks here explicitly state floor mounting in their listings. We flagged the other 5 as confirming wall, cabinet, or general installation holes without specifically stating floor bolt-down capability." },
   { title: "Weighed safe weight against the value of floor anchoring", description: "A heavier safe benefits more from floor bolting since it's already harder to move; we noted weight where confirmed to give context on how much anchoring adds." },
   { title: "Distinguished carrying-handle portable designs from mountable ones entirely", description: "One pick explicitly emphasizes carrying grips over any mounting hardware, a meaningfully different design intent from the floor-boltable picks." },
-  { title: "Recommended direct manufacturer verification where floor mounting wasn't explicit", description: "For picks confirming wall, cabinet, or peg mounting without explicitly stating floor compatibility, we recommended verifying directly rather than assuming equivalence." },
+  { title: "Recommended direct manufacturer verification where floor mounting wasn't explicit", description: "For picks confirming wall, cabinet, or peg mounting without explicitly stating floor compatibility, we recommended verifying directly rather than assuming equivalence." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -282,7 +282,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review count and rating together, not rating alone",
-    "explanation": "A 4.8-star rating from 12 reviews carries far less evaluation confidence than a 4.5-star rating from several thousand, since a small sample can be skewed by a handful of early, enthusiastic buyers before any long-term reliability issues would show up in later reviews.\n\nThis matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
+    "explanation": "This matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
   }
 ];
 
@@ -291,11 +291,11 @@ export const faq: FaqItem[] = [
   { q: "Do the other picks not have any mounting hardware?", a: "Most confirm wall, cabinet, or under-furniture mounting, just not floor installation specifically. Verify directly with the manufacturer if floor bolting is your exact requirement." },
   { q: "Is there a fire-rated safe that also bolts to the floor?", a: "Not confirmed in this comparison. The strongest fire-rated pick here (SentrySafe Fireproof Safe Box) emphasizes portability instead of confirmed mounting hardware." },
   { q: "What's the heaviest, most substantial floor-boltable pick?", a: "The SentrySafe Shelf Safe with Digital Keypad Lock, at 17 pounds and 0.78 cubic feet." },
-  { q: "Does floor bolting alone guarantee theft resistance?", a: "It's a strong anti-removal method, but combine it with adequate safe weight and construction quality for the best real-world resistance." },
+  { q: "Does floor bolting alone guarantee theft resistance?", a: "It's a strong anti-removal method, but combine it with adequate safe weight and construction quality for the best real-world resistance." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-safes-for-closets", title: "Best Small Safes for Closets (2026)" },
   { href: "/guide/best-desktop-safes", title: "Best Desktop Safes (2026)" },
-  { href: "/guide/best-hidden-small-safes", title: "Best Hidden Small Safes (2026)" },
+  { href: "/guide/best-hidden-small-safes", title: "Best Hidden Small Safes (2026)" }
 ];

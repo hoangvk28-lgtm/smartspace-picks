@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     description: "31.5''H Large Fireproof Waterproof Safe for Home Office and is built around 35 minutes at 1800 f, positioning it for 5 cu ft buyers specifically.\n\n85 LB Heavy-Duty Security Safe is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 5 cu ft, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["35 Minutes at 1800 F","85 LB Heavy-Duty Security Safe","Fast Biometric Access in Under 1 Second"],
     pros: ["35 Minutes at 1800 F, confirmed directly in the listing's own spec details","85 LB Heavy-Duty Security Safe, confirmed directly in the listing's own spec details","Fast Biometric Access in Under 1 Second, confirmed directly in the listing's own spec details"],
-    cons: ["At $314.48, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $350, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 5 cu ft",
   }
 
@@ -210,40 +210,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $129.98",
+          "Under $130",
           "Mitlvge 23.62\" Tall 5.0 Cu Ft Extra Large Home Safe"
         ],
         [
-          "Around $142.99",
+          "Under $150",
           "Omethey 5.0 Cu Ft Extra Large Safe with Deposit Slot"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "6.2 Cu Ft Large Home Safe with 3 Removable Shelves"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "WASJOYE 4.0 Cu Ft Large Cabinet Safe with Type-C Port"
         ],
         [
-          "Around $239.99",
+          "Under $250",
           "Mitlvge 35-Min Real Fireproof Safe"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "DAYI Biometric Fingerprint Safe Box"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "DAYI Biometric Fingerprint Safe Box"
         ],
         [
-          "Around $314.48",
+          "Under $350",
           "31.5''H Large Fireproof Waterproof Safe for Home Office"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -291,7 +291,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", "a": "Mitlvge 23.62\" Tall 5.0 Cu Ft Extra Large Home Safe is aimed at buyers prioritizing 5.0 cu ft, 50mm steel door, 38.8 lbs" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", "a": "Mitlvge 23.62\" Tall 5.0 Cu Ft Extra Large Home Safe is aimed at buyers prioritizing 5.0 cu ft, 50mm steel door, 38.8 lbs" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-2-cu-ft-fireproof-safes","title":"Best 2 Cu ft Fireproof Safes in 2026"},{"href":"/guide/best-2-cubic-feet-fireproof-safes","title":"Best 2 Cubic Feet Fireproof Safes in 2026"},{"href":"/guide/best-4-cu-ft-fireproof-safes","title":"Best 4 Cu ft Fireproof Safes in 2026"}];

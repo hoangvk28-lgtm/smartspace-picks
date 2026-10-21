@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Every feature unlocked without subscription gates", "Digital Calendar 10.1in Touchscreen, Smart Electronic Wall Organizer"],
         ["The fastest setup with a stated 20-person capacity", "Digital Calendar 10.1in Smart WiFi Electronic Calendar"],
         ["Strong photo-frame functionality alongside scheduling", "Digital Calendar 10.1 Inch Wall Plan Touch Screen WiFi"],
-        ["Cozi or Yahoo calendar sync alongside standard platforms", "Smart Digital Calendar 10.1 Inch, Electronic Family Calendar Planner"],
+        ["Cozi or Yahoo calendar sync alongside standard platforms", "Smart Digital Calendar 10.1 Inch, Electronic Family Calendar Planner"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $56", "Smart Electronic Wall Organizer ($55.39)"],
-        ["Under $60", "Smart WiFi Electronic Calendar ($59.84) or Wall Plan Touch Screen ($59.98)"],
-        ["Under $68", "Electronic Family Calendar Planner ($67.99)"],
+        ["Under $56", "Smart Electronic Wall Organizer (under $60)"],
+        ["Under $60", "Smart WiFi Electronic Calendar (under $60) or Wall Plan Touch Screen (under $60)"],
+        ["Under $68", "Electronic Family Calendar Planner (under $70)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Fully Unlocked vs Platform-Specific Sync Depth",
     cards: [
       { label: "Fully unlocked (Smart Electronic Wall Organizer)", text: "Explicitly states every feature works with zero hidden fees, prioritizing complete access over platform breadth." },
-      { label: "Broad platform sync (Electronic Family Calendar Planner)", text: "Prioritizes supporting more calendar platforms including Cozi and Yahoo, useful if your household already uses one of those." },
+      { label: "Broad platform sync (Electronic Family Calendar Planner)", text: "Prioritizes supporting more calendar platforms including Cozi and Yahoo, useful if your household already uses one of those." }
     ],
     note: "If you just want everything unlocked at the lowest price with standard Google, iCloud, and Outlook sync, the Smart Electronic Wall Organizer delivers that. If your family specifically relies on Cozi or Yahoo calendars, the broader-sync pick is worth the extra cost.",
   },
@@ -137,7 +137,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your household size", "Recommended pick"],
       rows: [
         ["Standard family size", "Any of the four picks"],
-        ["Larger household needing explicit capacity confirmation", "Smart WiFi Electronic Calendar (stated 20-member support)"],
+        ["Larger household needing explicit capacity confirmation", "Smart WiFi Electronic Calendar (stated 20-member support)"]
       ],
     },
   },
@@ -145,16 +145,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Family That Uses Cozi for Meal and Chore Planning Specifically",
     cards: [
       { label: "Look for", text: "Explicit Cozi calendar sync support in the listing, since not every digital calendar in this tier supports that specific platform alongside the more common Google, iCloud, and Outlook trio." },
-      { label: "In this comparison", text: "The Electronic Family Calendar Planner pick specifically syncs with Cozi and Yahoo in addition to the standard platforms, directly addressing households already using Cozi." },
+      { label: "In this comparison", text: "The Electronic Family Calendar Planner pick specifically syncs with Cozi and Yahoo in addition to the standard platforms, directly addressing households already using Cozi." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You specifically use Cozi or Yahoo calendars and want the broadest platform sync, where the Electronic Family Calendar Planner delivers that at the top of this tier." },
-      { label: "Save if", text: "You just want every feature unlocked with standard calendar sync, where the Smart Electronic Wall Organizer covers that for about $13 less." },
+      { label: "Save if", text: "You just want every feature unlocked with standard calendar sync, where the Smart Electronic Wall Organizer covers that for about $13 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

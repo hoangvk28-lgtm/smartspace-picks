@@ -5,7 +5,7 @@ export const metaDescription = "6 scanners we evaluated for accounting workflows
 export const mainKeyword = "document scanner for accountants";
 export const introParagraphs = [
   "Accountants may scan at 3-5x their average monthly volume during a concentrated tax season window; a scanner sized for average use can hit duty cycle strain precisely when reliability matters most. We factor this seasonality into our picks rather than sizing against average-month volume alone.",
-  "Also worth knowing: automatic blank-page removal must be verified against real client document sets, not clean test batches. Client-submitted stacks (mixed invoices, statements, forms) often include intentionally blank separator pages that blank-page-detection algorithms can misclassify.",
+  "Also worth knowing: automatic blank-page removal must be verified against real client document sets, not clean test batches. Client-submitted stacks (mixed invoices, statements, forms) often include intentionally blank separator pages that blank-page-detection algorithms can misclassify."
 ];
 export const lastUpdated = "2026-07-29";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall for Tax Season Volume",
     name: "Epson Workforce ES-400 II High-Speed Color Duplex Desktop Document Scanner",
     price: "$299.99",
-    rating: "4.5 stars from 1,226 Amazon ratings",
-    reviews: "1,226 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41rW4JApydL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08P3YVH3X?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Volume Tax Season Pick",
     name: "ScanSnap iX2400 High-Speed One-Touch Button Color Document Scanner",
     price: "$349.99",
-    rating: "4.5 stars from 991 Amazon ratings",
-    reviews: "991 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41LZ7HiXsPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FWGTB3S3?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Explicit Daily Volume Disclosure",
     name: "Canon imageFORMULA R10 Portable Document Scanner, USB Powered, Duplex",
     price: "$184.00",
-    rating: "4.1 stars from 2,338 Amazon ratings",
-    reviews: "2,338 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/218Q14ube6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08FBHTD9B?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Client Receipt/Document Intake",
     name: "HP Small USB Document & Photo Scanner for Portable 1-Sided Sheetfed Digital Scanning",
     price: "$139.99",
-    rating: "4.3 stars from 385 Amazon ratings",
-    reviews: "385 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/4143ozv-CML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6NL3HFX?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Cloud-Connected Client Filing",
     name: "ScanSnap iX1300 Wireless or USB Double-Sided Color Document Scanner, White",
     price: "$279.99",
-    rating: "4.2 stars from 1,768 Amazon ratings",
-    reviews: "1,768 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41yWYf2uT0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FX5DWBK?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best Direct Cloud Integration",
     name: "Canon imageFORMULA R40II Office Document Scanner",
     price: "$253.00",
-    rating: "4.3 stars from 37 Amazon ratings",
-    reviews: "37 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41d2vOL+ThL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GJWWZ77J?tag=deskfinds0d-20",
     description:
@@ -120,14 +120,14 @@ export const products: GuideProduct[] = [
     pros: ["Direct cloud scanning reduces server/network setup complexity", "Duplex scanning", "Office-class design", "Easy setup"],
     cons: ["Smallest review count in this guide", "Accounting-software integration depth not confirmed (API attachment vs. generic folder)", "No explicit duty cycle disclosed for tax-season sizing"],
     bestFor: "Practices who want simple direct cloud scanning without dedicated network infrastructure",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Tax-season peak-volume headroom, not average-month sizing", description: "Weighed each pick's realistic sustained capacity against the 3-5x volume spike accountants experience during tax season, rather than sizing against average monthly use alone." },
   { title: "Blank-page detection accuracy on realistic client document sets", description: "Flagged that automatic blank-page removal needs verification against messy, heterogeneous client document sets (mixed invoices, statements, intentional separator pages), not just clean single-type test batches." },
-  { title: "Accounting software integration depth disclosure", description: "Distinguished direct API-based document attachment to platforms like QuickBooks Online from generic folder export requiring manual upload, a meaningful workflow-efficiency difference." },
+  { title: "Accounting software integration depth disclosure", description: "Distinguished direct API-based document attachment to platforms like QuickBooks Online from generic folder export requiring manual upload, a meaningful workflow-efficiency difference." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -260,11 +260,11 @@ export const faq: FaqItem[] = [
   { q: "Do these scanners integrate directly with QuickBooks or Xero?", a: "Integration depth varies and isn't confirmed for every pick in this guide. Some scanner software attaches documents directly via API to accounting platforms; others only save to a generic folder requiring manual upload, verify for your specific software." },
   { q: "Does higher scan capacity guarantee retention-compliant output for accounting records?", a: "No. PDF/A archival compliance and audit-trail metadata are separate features from scan capacity, none of the picks in this guide explicitly confirm these, verify directly if your retention standards require them." },
   { "q": "What's the single best pick to come out of this comparison?", a: "Accountants who need real duty-cycle headroom for tax-season volume spikes" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Smaller practices with mostly occasional client-document intake rather than high-volume batches At $139.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Smaller practices with mostly occasional client-document intake rather than high-volume batches At under $140, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-document-scanners-for-invoices", title: "Best Document Scanners for Invoices (2026)" },
   { href: "/guide/best-document-scanners-for-tax-documents", title: "Best Document Scanners for Tax Documents (2026)" },
-  { href: "/guide/best-document-scanners-for-small-businesses", title: "Best Document Scanners for Small Businesses (2026)" },
+  { href: "/guide/best-document-scanners-for-small-businesses", title: "Best Document Scanners for Small Businesses (2026)" }
 ];

@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $39.00",
+          "Under $40",
           "Tabletop Cable Management Box with 8 Grommet Holes"
         ],
         [
-          "Around $99.99",
+          "Under $100",
           "GIANTEX 71\" Oval Conference Table with Cable Grommet"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "Tribesigns 8FT Boat-Shaped Conference Table"
         ],
         [
-          "Around $329.99",
+          "Under $350",
           "Tribesigns 8FT Conference Table for 10"
         ],
         [
-          "Around $350.00",
+          "Under $400",
           "Tribesigns 8FT Conference Table for 10"
         ],
         [
-          "Around $379.99",
+          "Under $400",
           "Tribesigns 8FT Conference Table for 10"
         ],
         [
-          "Around $379.99",
+          "Under $400",
           "Tribesigns 8FT Conference Table for 10"
         ],
         [
-          "Around $389.99",
+          "Under $400",
           "Tribesigns 8ft Conference Table for 8-10"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", "a": "Tribesigns 8ft Conference Table for 8-10 is aimed at buyers prioritizing 94.48\"w x 47.24\"d top, walnut & black finish" },
+  { q: "Which pick in this comparison is the best overall choice?", "a": "Tribesigns 8ft Conference Table for 8-10 is aimed at buyers prioritizing 94.48\"w x 47.24\"d top, walnut & black finish" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-conference-tables-with-built-in-power","title":"Best Conference Tables With Built-In Power in 2026"},{"href":"/guide/best-conference-tables-with-power-outlets","title":"Best Conference Tables With Power Outlets in 2026"},{"href":"/guide/best-conference-tables-with-outlets","title":"Best Conference Tables With Outlets in 2026"}];

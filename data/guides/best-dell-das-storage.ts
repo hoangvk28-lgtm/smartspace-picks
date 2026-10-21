@@ -194,35 +194,35 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $103.99",
+          "Under $110",
           "TerraMaster D2-320 2-Bay USB RAID Enclosure (Diskless)"
         ],
         [
-          "Around $119.00",
+          "Under $120",
           "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed)"
         ],
         [
-          "Around $119.99",
+          "Under $120",
           "CENMATE Aluminum 4-Bay Hard Drive Enclosure (5Gbps)"
         ],
         [
-          "Around $151.99",
+          "Under $160",
           "TerraMaster D4-320 4-Bay USB DAS Enclosure (Diskless)"
         ],
         [
-          "Around $162.18",
+          "Under $170",
           "Dell Networking N2048P Switch (Renewed)"
         ],
         [
-          "Around $219.00",
+          "Under $250",
           "QNAP TR-004 4-Bay USB-C DAS with Hardware RAID (Diskless)"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "Sabrent 4-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC4B)"
         ],
         [
-          "Around $239.99",
+          "Under $250",
           "TerraMaster D6-320 6-Bay USB DAS Enclosure (Diskless)"
         ]
       ]
@@ -277,10 +277,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "TerraMaster D2-320 2-Bay USB RAID Enclosure (Diskless) is aimed at buyers prioritizing 2-bay, hardware raid 0/1/jbod/single, at $103.99."
+        "text": "TerraMaster D2-320 2-Bay USB RAID Enclosure (Diskless) is aimed at buyers prioritizing 2-bay, hardware raid 0/1/jbod/single, at under $110."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -332,7 +332,7 @@ export const faq = [
     "a": "Only if the specific enclosure documents hot-swap support, which most tool-free tray designs in this category do. Always check your specific product's hot-swap capability before removing a drive live, since not every budget enclosure supports it, especially some fixed-RAID-mode units."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) is aimed at buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) is aimed at buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-hpe-das-storage","title":"Best HPE DAS Storage in 2026"},{"href":"/guide/best-lenovo-das-storage","title":"Best Lenovo DAS Storage in 2026"},{"href":"/guide/best-sas-das-storage","title":"6 Best SAS DAS Storage Solutions"}];

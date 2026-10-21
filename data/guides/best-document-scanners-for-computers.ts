@@ -5,7 +5,7 @@ export const metaDescription = "8 scanners we evaluated for real computer compat
 export const mainKeyword = "document scanner for computer";
 export const introParagraphs = [
   "A USB scanner marketed generically as 'computer compatible' may only support TWAIN, fine for casual scan-to-file use but incompatible with ISIS-dependent enterprise document management software (OpenText, Laserfiche, DocuWare). We disclose each pick's driver architecture rather than assuming 'Windows compatible' means one uniform thing.",
-  "Also worth knowing: bundled scanning software varies from full-featured (PDF editing, cloud upload, OCR) to a bare TWAIN driver requiring third-party software for anything beyond raw scan-to-file, a real functional gap hidden behind similar box copy.",
+  "Also worth knowing: bundled scanning software varies from full-featured (PDF editing, cloud upload, OCR) to a bare TWAIN driver requiring third-party software for anything beyond raw scan-to-file, a real functional gap hidden behind similar box copy."
 ];
 export const lastUpdated = "2026-07-29";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall for Computer Use",
     name: "Epson Workforce ES-400 II High-Speed Color Duplex Desktop Document Scanner",
     price: "$299.99",
-    rating: "4.5 stars from 1,226 Amazon ratings",
-    reviews: "1,226 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41rW4JApydL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08P3YVH3X?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best One-Touch Computer Integration",
     name: "ScanSnap iX2400 High-Speed One-Touch Button Color Document Scanner",
     price: "$349.99",
-    rating: "4.5 stars from 991 Amazon ratings",
-    reviews: "991 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41LZ7HiXsPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FWGTB3S3?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Broadest OS Driver Support",
     name: "Brother DS-640 Compact Mobile Document Scanner",
     price: "$134.99",
-    rating: "4.3 stars from 6,522 Amazon ratings",
-    reviews: "6,522 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Bx7Z39uKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B083R36CY4?tag=deskfinds0d-20",
     description:
@@ -76,12 +76,12 @@ export const products: GuideProduct[] = [
     badge: "Same Broad Driver Support, Duplex",
     name: "Brother DS-740D Duplex Compact Mobile Document Scanner",
     price: "$169.99",
-    rating: "4.3 stars from 2,294 Amazon ratings",
-    reviews: "2,294 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/415ddFXTF8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B083R3XYQN?tag=deskfinds0d-20",
     description:
-      "The same broad TWAIN/WIA/ICA/SANE driver spread as the rank-3 pick, with duplex scanning added. A reasonable step up if you want both-sides-in-one-pass scanning while keeping the same broad computer compatibility.\n\nWhere this one earns its spot is same broad OS/driver compatibility as the DS-640, and duplex scanning in one pass. Worth noting before buying: higher price than the simplex DS-640, which matters more at $169.99 than it would on a cheaper pick.",
+      "The same broad TWAIN/WIA/ICA/SANE driver spread as the rank-3 pick, with duplex scanning added. A reasonable step up if you want both-sides-in-one-pass scanning while keeping the same broad computer compatibility.\n\nWhere this one earns its spot is same broad OS/driver compatibility as the DS-640, and duplex scanning in one pass. Worth noting before buying: higher price than the simplex DS-640, which matters more at under $170 than it would on a cheaper pick.",
     specs: ["TWAIN/WIA (PC), ICA (Mac), SANE (Linux) driver support", "Duplex scanning", "Free iPrint&Scan desktop app", "Desk Saving Design"],
     pros: ["Same broad OS/driver compatibility as the DS-640", "Duplex scanning in one pass", "Includes document management and OCR software", "Desk Saving Design"],
     cons: ["Higher price than the simplex DS-640", "No ISIS driver support disclosed", "Smaller review base than the DS-640"],
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Simplest Driverless Setup",
     name: "Canon imageFORMULA R10 Portable Document Scanner, USB Powered, Duplex",
     price: "$184.00",
-    rating: "4.1 stars from 2,338 Amazon ratings",
-    reviews: "2,338 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/218Q14ube6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08FBHTD9B?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wireless Desktop Computer Pick",
     name: "Epson Workforce ES-580W Wireless Color Duplex Desktop Document Scanner",
     price: "$379.99",
-    rating: "4.3 stars from 5,857 Amazon ratings",
-    reviews: "5,857 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Ty0waBx4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KQZWPYN?tag=deskfinds0d-20",
     description:
@@ -127,8 +127,8 @@ export const products: GuideProduct[] = [
     badge: "Cheapest Computer-Connected Pick",
     name: "Canon Canoscan Lide 300 Scanner",
     price: "$69.99",
-    rating: "4.2 stars from 7,159 Amazon ratings",
-    reviews: "7,159 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31PFgs9o70S._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07G5XZVLQ?tag=deskfinds0d-20",
     description:
@@ -144,8 +144,8 @@ export const products: GuideProduct[] = [
     badge: "Best Touchscreen Computer-Free Option",
     name: "ScanSnap iX2500 Wireless or USB High-Speed Document Scanner",
     price: "Check current price",
-    rating: "4.4 stars from 326 Amazon ratings",
-    reviews: "326 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41wHhR2WCpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9B1H5VN?tag=deskfinds0d-20",
     description:
@@ -154,14 +154,14 @@ export const products: GuideProduct[] = [
     pros: ["Can operate without a computer at all via the touchscreen", "Wi-Fi 6 and USB-C options when computer-connected", "Multi-feed sensor for reliability", "Large 100-sheet feeder"],
     cons: ["Smaller review base than other picks", "No ISIS support disclosed", "Higher price tier than the budget picks here"],
     bestFor: "Buyers who want the flexibility to scan independent of a computer's own drivers",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Driver architecture disclosure (TWAIN/ISIS/WIA)", description: "Checked which driver standards each scanner explicitly supports, since TWAIN is the consumer default but ISIS is required for many enterprise document management platforms and is often a separate cost." },
   { title: "Bundled software depth versus bare driver", description: "Distinguished picks with full-featured bundled software (PDF editing, cloud upload, OCR) from ones providing only a basic TWAIN driver requiring third-party software for anything beyond raw scan-to-file." },
-  { title: "Driver conflict risk with existing multi-function printers", description: "Noted that installing a dedicated scanner alongside an existing all-in-one printer/scanner on the same computer can occasionally create driver conflicts, a real troubleshooting scenario for households/offices running both." },
+  { title: "Driver conflict risk with existing multi-function printers", description: "Noted that installing a dedicated scanner alongside an existing all-in-one printer/scanner on the same computer can occasionally create driver conflicts, a real troubleshooting scenario for households/offices running both." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -298,11 +298,11 @@ export const faq: FaqItem[] = [
   { q: "Do all these scanners include full scanning software, or just a driver?", a: "It varies. The Epson and ScanSnap picks in this guide include full-featured software suites (PDF editing, cloud upload, OCR); the Brother and Canon picks include more basic bundled software alongside broad driver support." },
   { q: "Does Mac driver support lag behind Windows for these scanners?", a: "It can vary by brand, and none of the picks in this guide disclose a specific driver update timeline for each OS. Check the manufacturer's driver update history directly if you're on a specific OS and want assurance of timely updates." },
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers who want a full-featured software bundle with genuine TWAIN document-management compatibility" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want the flexibility to scan independent of a computer's own drivers At Check current price, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want the flexibility to scan independent of a computer's own drivers At Check current price, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-high-speed-document-scanners", title: "Best High-Speed Document Scanners (2026)" },
   { href: "/guide/best-compact-document-scanners", title: "Best Compact Document Scanners (2026)" },
-  { href: "/guide/best-document-scanners-with-ocr", title: "Best Document Scanners with OCR (2026)" },
+  { href: "/guide/best-document-scanners-with-ocr", title: "Best Document Scanners with OCR (2026)" }
 ];

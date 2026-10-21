@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "49 inch curved monitor privacy screen";
 export const introParagraphs = [
   "49 inch, 32:9 super-ultrawide monitors are a genuinely niche category, and privacy filters at this size are correspondingly rare and expensive. Every option we found is built for one specific monitor model rather than a general 49 inch size.",
-  "None of the four filters we confirmed have accumulated review history yet, since this is such a small market. We're presenting them honestly as the only current options rather than implying a proven track record that doesn't exist.",
+  "None of the four filters we confirmed have accumulated review history yet, since this is such a small market. We're presenting them honestly as the only current options rather than implying a proven track record that doesn't exist."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Disclosed the extreme niche of this category honestly", description: "Every confirmed option is built for one specific 49 inch monitor model, and none have accumulated review history, and we said so directly rather than implying a proven track record." },
   { title: "Distinguished genuine 2-way privacy filters from matte protectors", description: "We flagged that one lower-priced option may be a matte screen protector rather than a true side-angle privacy filter, and recommended verifying this before purchase." },
   { title: "Matched filters to exact monitor models, not general 49 inch size", description: "49 inch super-ultrawides vary significantly in exact curvature between models; we only included filters cut for a specific named monitor." },
-  { title: "Flagged gaming-specific considerations for gaming monitor filters", description: "For the Samsung CHG90 and Odyssey G95C filters, we noted the importance of verifying no input lag or visual artifact impact during fast motion." },
+  { title: "Flagged gaming-specific considerations for gaming monitor filters", description: "For the Samsung CHG90 and Odyssey G95C filters, we noted the importance of verifying no input lag or visual artifact impact during fast motion." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -217,7 +217,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
-    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nThis matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
   }
 ];
 
@@ -226,11 +226,11 @@ export const faq: FaqItem[] = [
   { q: "Why is this category so expensive?", a: "Model-specific curved filters at this size are custom-cut in low volumes, unlike mass-produced standard-size filters, which drives up the price significantly." },
   { q: "Is there a cheaper option?", a: "Yes, the Light Matte Screen Protector for the Dell U4919DW, though verify whether it provides genuine side-angle privacy or is primarily a glare and scratch protector." },
   { q: "What if my 49 inch monitor isn't one of these four models?", a: "Contact a specialty optical filter manufacturer directly, since standard-size filter listings don't cover most 49 inch super-ultrawide models." },
-  { q: "Are these safe to use on gaming monitors?", a: "The Samsung CHG90 and Odyssey G95C filters are specifically cut for those gaming monitors, but verify there's no noticeable input lag or visual artifact impact before relying on them during competitive play." },
+  { q: "Are these safe to use on gaming monitors?", a: "The Samsung CHG90 and Odyssey G95C filters are specifically cut for those gaming monitors, but verify there's no noticeable input lag or visual artifact impact before relying on them during competitive play." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-34-inch-curved-monitor-privacy-screens", title: "Best 34-Inch Curved Monitor Privacy Screens (2026)" },
   { href: "/guide/best-ultrawide-monitor-privacy-screens", title: "Best Ultrawide Monitor Privacy Screens (2026)" },
-  { href: "/guide/best-curved-monitor-privacy-screens", title: "Best Curved Monitor Privacy Screens (2026)" },
+  { href: "/guide/best-curved-monitor-privacy-screens", title: "Best Curved Monitor Privacy Screens (2026)" }
 ];

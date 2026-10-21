@@ -143,7 +143,7 @@ export default async function Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best 2-Bay NAS for Home Offices", item: `${SITE_URL}/guide/best-2-bay-nas-for-home-offices` },
+      { "@type": "ListItem", position: 3, name: "Best 2-Bay NAS for Home Offices", item: `${SITE_URL}/guide/best-2-bay-nas-for-home-offices` }
     ],
   };
 

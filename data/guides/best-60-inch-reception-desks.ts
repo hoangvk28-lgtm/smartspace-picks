@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $299.99",
+          "Under $300",
           "Kikihouse 63\" Fluted Reception Desk with LED"
         ],
         [
-          "Around $329.99",
+          "Under $350",
           "Modern Reception Desk with Drawer & Open Shelves"
         ],
         [
-          "Around $369.99",
+          "Under $400",
           "63\" Reception Desk with Dual-Level Counter and LED"
         ],
         [
-          "Around $559.99",
+          "Under $600",
           "ZIMASYA 63\" Reception Counter with Combination Lock Drawers"
         ],
         [
-          "Around $599.99",
+          "Under $600",
           "47\" Reception Desk with LED and Power Outlets"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "63\" Reception Desk with Dual-Level Counter and LED is aimed at buyers prioritizing 63\" desk, dual-level counter with u-shaped led." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "63\" Reception Desk with Dual-Level Counter and LED is aimed at buyers prioritizing 63\" desk, dual-level counter with u-shaped led." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-48-inch-reception-desks","title":"4 Best 48-Inch Reception Desks in 2026"},{"href":"/guide/best-63-inch-reception-desks","title":"6 Best 63-Inch Reception Desks in 2026"},{"href":"/guide/best-5ft-reception-desks","title":"6 Best 5ft Reception Desks in 2026"}];

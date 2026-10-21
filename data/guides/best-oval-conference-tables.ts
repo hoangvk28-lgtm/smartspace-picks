@@ -209,36 +209,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $173.79",
+          "Under $180",
           "Loomie 8FT Boat-Shaped Conference Table with Grommet"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "Tribesigns 6FT Boat-Shaped Conference Table"
         ],
         [
-          "Around $229.98",
+          "Under $250",
           "43.3-59in Extendable Round Conference Table for 4-8"
         ],
         [
-          "Around $284.02",
+          "Under $300",
           "Lorell Essentials Series Oval Conference Table"
         ],
         [
-          "Around $381.94",
+          "Under $400",
           "Flash Furniture 6-Foot Oval Conference Table"
         ],
         [
-          "Around $581.97",
+          "Under $600",
           "Flash Furniture 5-Piece Oval Conference Table & Chair Set"
         ],
         [
-          "Around $699.89",
+          "Under $700",
           "8FT Extendable Oval Conference Table"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -286,7 +286,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "8FT Extendable Oval Conference Table is aimed at buyers prioritizing extends 43.3\" to 94.6\", seats 4 to 10." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "8FT Extendable Oval Conference Table is aimed at buyers prioritizing extends 43.3\" to 94.6\", seats 4 to 10." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-rectangular-conference-tables","title":"Best Rectangular Conference Tables in 2026"},{"href":"/guide/best-boat-shaped-conference-tables","title":"Best Boat Shaped Conference Tables in 2026"},{"href":"/guide/best-round-conference-tables","title":"Best Round Conference Tables in 2026"}];

@@ -203,7 +203,7 @@ export default async function BestCompactKeyboardUnder50Page() {
     about: [
       { "@type": "Thing", name: "Compact Keyboard" },
       { "@type": "Thing", name: "Mechanical Keyboard Under $50" },
-      { "@type": "Thing", name: "60% Keyboard" },
+      { "@type": "Thing", name: "60% Keyboard" }
     ],
   };
 
@@ -223,7 +223,7 @@ export default async function BestCompactKeyboardUnder50Page() {
         position: 3,
         name: "Best Compact Keyboards Under $50",
         item: `${SITE_URL}/guide/best-compact-keyboard-under-50`,
-      },
+      }
     ],
   };
 
@@ -509,7 +509,7 @@ export default async function BestCompactKeyboardUnder50Page() {
                       width: "~36 cm",
                       arrows: "Dedicated",
                       frow: "Dedicated",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr
                       key={i}
@@ -640,7 +640,7 @@ export default async function BestCompactKeyboardUnder50Page() {
                       latency: "Zero",
                       multi: "No",
                       best: "Gaming, fixed desk",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr
                       key={i}
@@ -700,7 +700,7 @@ export default async function BestCompactKeyboardUnder50Page() {
                       feel: "Tactile bump + click",
                       sound: "Loud",
                       best: "Typing, not office",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr
                       key={i}
@@ -832,7 +832,7 @@ export default async function BestCompactKeyboardUnder50Page() {
                 name: "Epomaker TH80 SE",
                 verdict:
                   ": gasket mount, rotary knob, tri-mode wireless, 4000 mAh battery when on sale under $50.",
-              },
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The newest chip and most advanced smart home automation", "Amazon Echo Show 8 (Newest Model)"],
         ["A larger screen without newest-generation pricing", "Like-New Amazon Echo Show 8, Previous Generation"],
         ["A compact display with an adjustable viewing stand", "Echo Show 5 (3rd Gen) with Adjustable Stand"],
-        ["Genuine Google Assistant compatibility at a lower cost", "Google Nest Hub (1st Gen), Bulk Packaging"],
+        ["Genuine Google Assistant compatibility at a lower cost", "Google Nest Hub (1st Gen), Bulk Packaging"]
       ],
     },
   },
@@ -117,18 +117,18 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $127", "Echo Show 5 Bundle with Stand ($126.98)"],
-        ["Under $135", "Like-New Echo Show 8 ($134.99)"],
-        ["Under $138", "Google Nest Hub Bulk ($137.99)"],
-        ["Under $200", "Echo Show 8 Newest Model ($199.99)"],
+        ["Under $127", "Echo Show 5 Bundle with Stand (under $130)"],
+        ["Under $135", "Like-New Echo Show 8 (under $140)"],
+        ["Under $138", "Google Nest Hub Bulk (under $140)"],
+        ["Under $200", "Echo Show 8 Newest Model (under $200)"]
       ],
     },
   },
   {
     subheading: "Newest Generation vs Certified Refurbished Previous Generation",
     cards: [
-      { label: "Newest generation (Echo Show 8, $199.99)", text: "Includes the latest AZ3 Pro chip and Omnisense technology for the fastest, most personalized experience available." },
-      { label: "Certified refurbished previous generation (Like-New Echo Show 8, $134.99)", text: "Delivers the same screen size and smart home hub at a meaningfully lower price, without the newest chip." },
+      { label: "Newest generation (Echo Show 8, under $200)", text: "Includes the latest AZ3 Pro chip and Omnisense technology for the fastest, most personalized experience available." },
+      { label: "Certified refurbished previous generation (Like-New Echo Show 8, under $140)", text: "Delivers the same screen size and smart home hub at a meaningfully lower price, without the newest chip." }
     ],
     note: "If cutting-edge performance and the newest smart home automation features matter, the newest Echo Show 8 justifies its price. If you want the same screen size and core functionality for less, the certified refurbished previous generation is a genuinely strong value.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Zigbee, Matter, or Thread devices needing a hub", "Either Echo Show 8 pick (built-in hub)"],
         ["Basic Alexa voice control, no hub needed", "Echo Show 5 with Adjustable Stand"],
-        ["Google Assistant ecosystem devices", "Google Nest Hub"],
+        ["Google Assistant ecosystem devices", "Google Nest Hub"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Kitchen Counter Recipe and Video Call Station Specifically",
     cards: [
       { label: "Look for", text: "A larger screen with a capable camera for both recipe viewing and hands-free video calling while cooking." },
-      { label: "In this comparison", text: "Either Echo Show 8 pick's larger 8-inch screen and auto-framing camera suit this kitchen use case well." },
+      { label: "In this comparison", text: "Either Echo Show 8 pick's larger 8-inch screen and auto-framing camera suit this kitchen use case well." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the newest chip generation and most advanced smart home automation, where the newest Echo Show 8 delivers genuine performance and feature upgrades over the previous generation." },
-      { label: "Save if", text: "You want the same 8-inch screen size and smart home hub without the newest chip, where the certified refurbished Like-New Echo Show 8 covers that for about $65 less." },
+      { label: "Save if", text: "You want the same 8-inch screen size and smart home hub without the newest chip, where the certified refurbished Like-New Echo Show 8 covers that for about $65 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

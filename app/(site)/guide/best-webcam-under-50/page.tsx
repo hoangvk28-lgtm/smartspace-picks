@@ -161,7 +161,7 @@ export default async function BestWebcamUnder50Page() {
     about: [
       { "@type": "Thing", name: "Webcam" },
       { "@type": "Thing", name: "Budget Webcam" },
-      { "@type": "Thing", name: "Dorm Room Essentials" },
+      { "@type": "Thing", name: "Dorm Room Essentials" }
     ],
   };
 
@@ -171,7 +171,7 @@ export default async function BestWebcamUnder50Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Webcams Under $50", item: `${SITE_URL}/guide/best-webcam-under-50` },
+      { "@type": "ListItem", position: 3, name: "Best Webcams Under $50", item: `${SITE_URL}/guide/best-webcam-under-50` }
     ],
   };
 
@@ -340,7 +340,7 @@ export default async function BestWebcamUnder50Page() {
                   "People frequently comment on your video quality",
                   "Your laptop camera produces a yellow or grainy image",
                   "You share a room and want a physical privacy shutter",
-                  "Your laptop camera aims upward (thin-and-light angle problem)",
+                  "Your laptop camera aims upward (thin-and-light angle problem)"
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-2 text-xs text-ink-secondary">
                     <span className="w-4 h-4 rounded-full bg-cta-light text-cta flex items-center justify-center shrink-0 font-bold text-[9px] mt-0.5">✓</span>
@@ -357,7 +357,7 @@ export default async function BestWebcamUnder50Page() {
                   "Your laptop is less than 2 years old with a 1080p built-in",
                   "You have good window lighting directly in front of you",
                   "Calls are audio-first (camera optional in your workflow)",
-                  "You're genuinely on a tight budget — save it for something else",
+                  "You're genuinely on a tight budget — save it for something else"
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-2 text-xs text-ink-secondary">
                     <span className="w-4 h-4 rounded-full bg-gray-100 text-ink-muted flex items-center justify-center shrink-0 font-bold text-[9px] mt-0.5">—</span>
@@ -395,7 +395,7 @@ export default async function BestWebcamUnder50Page() {
               {
                 title: "Cable length and desk clutter",
                 body: "Budget webcams ship with ~1.5m USB-A cables. On a small desk, route the cable behind the monitor stand or use a small cable clip to keep it from occupying surface space. A cable that crosses the desk surface is the primary cause of webcam-related clutter.",
-              },
+              }
             ].map((item, i) => (
               <div key={i} className="flex gap-4 p-4 rounded-xl border border-border bg-white">
                 <span className="flex items-center justify-center w-7 h-7 rounded-full bg-brand text-white font-bold text-sm shrink-0 mt-0.5">{i + 1}</span>
@@ -463,7 +463,7 @@ export default async function BestWebcamUnder50Page() {
                 label: "Brand reliability over spec padding",
                 must: false,
                 body: "At under $20, generic brands routinely fail at the hinge within 3 months or deliver below-spec video quality. Stick with EMEET, NexiGo, or Logitech — they have real product support and consistent quality. The $5 you save on a no-name unit rarely outlasts a semester.",
-              },
+              }
             ].map((c, i) => (
               <div key={i} className="flex gap-4 p-4 rounded-xl border border-border bg-white">
                 <span className="text-xl shrink-0 mt-0.5">{c.icon}</span>
@@ -536,7 +536,7 @@ export default async function BestWebcamUnder50Page() {
                 impact: "Reflects light back onto face",
                 description: "A white or light-grey wall behind your desk reflects ambient light back toward your face, acting as a soft reflector. Dark walls absorb light and deepen shadows. If you can rearrange, sit with the lighter wall behind you.",
                 color: "#d97706",
-              },
+              }
             ].map((tip, i) => (
               <div key={i} className="flex gap-4 p-4 rounded-xl border border-border bg-white">
                 <span className="flex items-center justify-center w-7 h-7 rounded-full text-white font-bold text-sm shrink-0 mt-0.5" style={{ background: tip.color }}>{i + 1}</span>
@@ -551,7 +551,7 @@ export default async function BestWebcamUnder50Page() {
             ))}
           </div>
           <div className="p-4 rounded-xl bg-bg border border-border text-sm text-ink-secondary">
-            <strong className="text-ink">If you do want a ring light:</strong> A basic 6-inch ring light costs $12–$18 on Amazon. Paired with any webcam in this guide, it&apos;s a complete setup. Look for one with adjustable color temperature (warm to cool) and brightness — you&apos;ll want to adjust it based on your room lighting.
+            <strong className="text-ink">If you do want a ring light:</strong> A basic 6-inch ring light costs under $15–$18 on Amazon. Paired with any webcam in this guide, it&apos;s a complete setup. Look for one with adjustable color temperature (warm to cool) and brightness — you&apos;ll want to adjust it based on your room lighting.
           </div>
         </section>
 
@@ -644,7 +644,7 @@ export default async function BestWebcamUnder50Page() {
               { href: "/guide/best-desk-lamp-under-30", label: "Best Desk Lamps Under $30", description: "Light your desk setup without sacrificing outlet space." },
               { href: "/guide/desk-setup-essentials", label: "Desk Setup Essentials", description: "The complete small-desk setup checklist for students." },
               { href: "/guide/best-docking-stations-for-desk-setup", label: "Best Docking Stations for Desk Setups", description: "One cable to rule all your peripherals." },
-              { href: "/guide/best-desk-mat-for-small-desk", label: "Best Desk Mats for Small Desks", description: "Protect your surface and unify your setup." },
+              { href: "/guide/best-desk-mat-for-small-desk", label: "Best Desk Mats for Small Desks", description: "Protect your surface and unify your setup." }
             ].map((g) => (
               <Link prefetch={false}
                 key={g.href}

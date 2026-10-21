@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop cooling pads for msi laptops";
 export const introParagraphs = [
   "MSI's lineup spans dedicated gaming laptops (Titan, Raider, Stealth) and creator-focused lines, generally running hotter under sustained load than typical productivity laptops. Cooling pad choice for MSI hardware should weigh airflow capacity more heavily than for a lighter general-purpose laptop.",
-  "None of the pads in this guide are MSI-exclusive hardware, they are universal-fit cooling pads whose stated size and weight ranges genuinely cover MSI's typical gaming laptop dimensions, cross-referencing our gaming laptop cooling guide for the underlying sustained-load considerations.",
+  "None of the pads in this guide are MSI-exclusive hardware, they are universal-fit cooling pads whose stated size and weight ranges genuinely cover MSI's typical gaming laptop dimensions, cross-referencing our gaming laptop cooling guide for the underlying sustained-load considerations."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "MSI gaming and creator scope", description: "We evaluated whether each pad's cooling capacity and size range genuinely suit MSI's gaming (Titan, Raider, Stealth) and creator-focused lines, which generate more sustained heat than typical productivity laptops." },
   { title: "Rear-exhaust chassis compatibility", description: "We noted which pads are specifically designed with a bottom-intake approach to address heat backflow, relevant for MSI models with a rear-exhaust design." },
   { title: "Documented performance figures", description: "We favored listings with specific RPM, temperature-drop, or noise figures over vague marketing claims." },
-  { title: "Price versus cooling capacity tier", description: "We compared budget, mid-range, and premium options since MSI laptops span a wide performance and price spectrum themselves." },
+  { title: "Price versus cooling capacity tier", description: "We compared budget, mid-range, and premium options since MSI laptops span a wide performance and price spectrum themselves." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "What's the best pad for MSI Titan or Raider laptops?", a: "The IETS GT500 5000 RPM pick or the llano V12 offer the strongest documented cooling in this guide, appropriate for MSI's highest-end gaming laptops." },
   { q: "Does my MSI laptop have a rear-exhaust design?", a: "Check your specific model's specifications. If it does, the IETS GT500 picks are specifically designed with a bottom-intake approach that addresses the heat backflow this chassis style can cause." },
   { q: "Is a budget pad enough for my MSI laptop?", a: "For lighter creator or productivity use on MSI hardware, the ICE COOREL 6-Fan pick offers solid cooling at a much lower price than the specialized turbo-fan options." },
-  { q: "How loud are these pads at maximum speed?", a: "The strongest cooling picks reach 65-70dB at maximum speed, genuinely loud. If quiet operation matters more, consider the ICE COOREL pick, though it offers less peak cooling capacity." },
+  { q: "How loud are these pads at maximum speed?", a: "The strongest cooling picks reach 65-70dB at maximum speed, genuinely loud. If quiet operation matters more, consider the ICE COOREL pick, though it offers less peak cooling capacity." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-gaming-laptop-cooling-pads", title: "Best Gaming Laptop Cooling Pads (2026)" },
   { href: "/guide/best-laptop-cooling-pads-for-asus-tuf-laptops", title: "Best Laptop Cooling Pads for ASUS TUF Laptops (2026)" },
-  { href: "/guide/best-laptop-cooling-pads-for-alienware-laptops", title: "Best Laptop Cooling Pads for Alienware Laptops (2026)" },
+  { href: "/guide/best-laptop-cooling-pads-for-alienware-laptops", title: "Best Laptop Cooling Pads for Alienware Laptops (2026)" }
 ];

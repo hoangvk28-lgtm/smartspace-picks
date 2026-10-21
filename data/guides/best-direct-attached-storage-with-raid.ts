@@ -193,31 +193,31 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $103.99",
+          "Under $110",
           "TerraMaster D2-320 2-Bay USB RAID Enclosure (Diskless)"
         ],
         [
-          "Around $129.99",
+          "Under $130",
           "CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB)"
         ],
         [
-          "Around $179.95",
+          "Under $180",
           "ORICO 4-Bay RAID Hard Drive Enclosure (88TB"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "QNAP TR-002-A-US 2-Bay USB-C DAS with Hardware RAID (Diskless)"
         ],
         [
-          "Around $199.95",
+          "Under $200",
           "ORICO RAID 5-Bay HDD Enclosure (110TB"
         ],
         [
-          "Around $199.99",
+          "Under $200",
           "ORICO 5-Bay RAID Enclosure with 150W Built-In Power (110TB)"
         ],
         [
-          "Around $219.00",
+          "Under $250",
           "QNAP TR-004 4-Bay USB-C DAS with Hardware RAID (Diskless)"
         ]
       ]
@@ -272,10 +272,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "TerraMaster D2-320 2-Bay USB RAID Enclosure (Diskless) is aimed at buyers prioritizing 2-bay, hardware raid 0/1/jbod/single, at $103.99."
+        "text": "TerraMaster D2-320 2-Bay USB RAID Enclosure (Diskless) is aimed at buyers prioritizing 2-bay, hardware raid 0/1/jbod/single, at under $110."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -327,7 +327,7 @@ export const faq = [
     "a": "Only if the specific enclosure documents hot-swap support, which most tool-free tray designs in this category do. Always check your specific product's hot-swap capability before removing a drive live, since not every budget enclosure supports it, especially some fixed-RAID-mode units."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "QNAP TR-004 4-Bay USB-C DAS with Hardware RAID (Diskless) is aimed at buyers prioritizing 4x 3.5in bays, hardware raid 0/1/5/jbod." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "QNAP TR-004 4-Bay USB-C DAS with Hardware RAID (Diskless) is aimed at buyers prioritizing 4x 3.5in bays, hardware raid 0/1/5/jbod." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-raid-direct-attached-storage","title":"8 Best RAID Direct-Attached Storage"},{"href":"/guide/best-direct-attached-storage-with-hardware-raid","title":"8 Best DAS With Hardware RAID"},{"href":"/guide/best-direct-attached-storage-arrays","title":"8 Best Direct-Attached Storage Arrays"}];

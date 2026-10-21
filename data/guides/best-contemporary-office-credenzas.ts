@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $149.99",
+          "Under $150",
           "Buffet Cabinet"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "Perledesign 3 Drawer File Cabinet"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "63'' Sideboard Buffet Cabinet with 4 Sliding Doors"
         ],
         [
-          "Around $269.99",
+          "Under $300",
           "ModernMate 4 Drawer File Cabinet with Lock"
         ],
         [
-          "Around $279.99",
+          "Under $300",
           "67\" Fluted Walnut Buffet Cabinet with Storage"
         ],
         [
-          "Around $287.99",
+          "Under $300",
           "ModernMate 60\" File Cabinet with Drawers & Door"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "ModernMate 60\" Lateral File Cabinet with 3 Drawers"
         ],
         [
-          "Around $359.99",
+          "Under $400",
           "ModernMate 63\" Lateral File Cabinet with Lock"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "ModernMate 60\" File Cabinet with Drawers & Door is aimed at buyers prioritizing 60in wide, 6 open compartments, 3 drawers." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "ModernMate 60\" File Cabinet with Drawers & Door is aimed at buyers prioritizing 60in wide, 6 open compartments, 3 drawers." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-modern-office-credenzas","title":"Best Modern Office Credenzas in 2026"},{"href":"/guide/best-mid-century-modern-office-credenzas","title":"Best Mid-Century Modern Office Credenzas in 2026"},{"href":"/guide/best-industrial-office-credenzas","title":"Best Industrial Office Credenzas in 2026"}];

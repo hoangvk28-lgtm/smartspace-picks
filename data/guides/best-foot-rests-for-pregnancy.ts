@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41hLTxLU3BL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FFTJD4MG?tag=deskfinds0d-20",
-    "description": "OpyTikar measures 15.7 x 15.7 x 9.8 inches and has three tiers so feet can be spread apart or together. The core is high-density sponge, the base is non-slip and the cover unzips for machine washing.\n\nIt costs $39.99, $5 more than Opuvidity, with similar dimensions and three tiers instead of a double-sided shape. Versus RSN it is bigger but plain.\n\nBest for people who want lots of room. The caveat is that the listing asks for a 48 to 72 hour rest to expand.",
+    "description": "OpyTikar measures 15.7 x 15.7 x 9.8 inches and has three tiers so feet can be spread apart or together. The core is high-density sponge, the base is non-slip and the cover unzips for machine washing.\n\nIt costs under $40, $5 more than Opuvidity, with similar dimensions and three tiers instead of a double-sided shape. Versus RSN it is bigger but plain.\n\nBest for people who want lots of room. The caveat is that the listing asks for a 48 to 72 hour rest to expand.",
     "specs": [
       "15.7 x 15.7 x 9.8 inches",
       "High-density sponge, 3 tiers",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41aGNG1FfgL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GQNGXW6H?tag=deskfinds0d-20",
-    "description": "Ganondorf is a wedge-shaped high-density foam pillow that works as a footrest, leg elevation pillow, knee support or lumbar pillow. It has a removable machine washable cover and an anti-slip base.\n\nIt costs $29.99, $5 less than Opuvidity, and is smaller and more flexible. Versus BlissfulNest it is not height adjustable.\n\nBest for people who want one cushion for several spots. The caveat is no stated dimensions in the highlights.",
+    "description": "Ganondorf is a wedge-shaped high-density foam pillow that works as a footrest, leg elevation pillow, knee support or lumbar pillow. It has a removable machine washable cover and an anti-slip base.\n\nIt costs under $30, $5 less than Opuvidity, and is smaller and more flexible. Versus BlissfulNest it is not height adjustable.\n\nBest for people who want one cushion for several spots. The caveat is no stated dimensions in the highlights.",
     "specs": [
       "Wedge-shaped foam pillow",
       "Washable breathable cover",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/518odfXdfML._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CJNFSM7W?tag=deskfinds0d-20",
-    "description": "BlissfulNest uses high-density memory foam in a curved, height-adjustable pillow with a cooling breathable cover that can be removed and washed. It is compact and portable.\n\nIt is $27.99, about $2 cheaper than Ganondorf. Versus RSN 3-tier it has fewer tiers.\n\nBest for warm rooms. The caveat is limited dimension detail.",
+    "description": "BlissfulNest uses high-density memory foam in a curved, height-adjustable pillow with a cooling breathable cover that can be removed and washed. It is compact and portable.\n\nIt is under $30, about $2 cheaper than Ganondorf. Versus RSN 3-tier it has fewer tiers.\n\nBest for warm rooms. The caveat is limited dimension detail.",
     "specs": [
       "High-density memory foam",
       "Height adjustable",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41ZN1pQJTiL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GS4Q8PVG?tag=deskfinds0d-20",
-    "description": "RSN is a 3-tier foot stool made from high-density slow-rebound memory foam with a breathable fabric cover and a non-slip texture on the base. The listing describes a contoured shape that cradles the feet and ankles and says it can double as a leg elevation pillow.\n\nAt $22.99 it is the cheapest pick, and it undercuts OpyTikar and Opuvidity by $12 to $17. The trade-off is that the highlights give no dimensions, so its footprint is unknown, whereas those two list 15.7 x 15.7 x 9.8 inches.\n\nA sensible budget pick when you want tiers and a soft memory foam surface. The caveat is the missing size and cover-care detail, so check the product page before ordering.",
+    "description": "RSN is a 3-tier foot stool made from high-density slow-rebound memory foam with a breathable fabric cover and a non-slip texture on the base. The listing describes a contoured shape that cradles the feet and ankles and says it can double as a leg elevation pillow.\n\nAt under $25 it is the cheapest pick, and it undercuts OpyTikar and Opuvidity by $12 to $17. The trade-off is that the highlights give no dimensions, so its footprint is unknown, whereas those two list 15.7 x 15.7 x 9.8 inches.\n\nA sensible budget pick when you want tiers and a soft memory foam surface. The caveat is the missing size and cover-care detail, so check the product page before ordering.",
     "specs": [
       "3-tier memory foam",
       "Breathable fabric cover",

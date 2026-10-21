@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41Di-qugqSL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CB7J3WV3?tag=deskfinds0d-20",
-    "description": "BANGSON is a 3.2 cubic foot two door fridge with a separate freezer, measuring 19.68 by 17.9 by 34.01 inches. The listing gives a freezer range of minus 4 to 18 degrees Fahrenheit and a fridge range of 33.8 to 46.4, an average of 38 decibels, five settings and adjustable leveling legs.\n\nIt costs $229.99, about $21 more than Electactic, and its freezer has the coldest listed floor of the freezer models. It is much taller than the single door models.\n\nChoose it for an apartment or office that needs a true freezer. The caveat is the height, and the listed 38 dB is an average that may include compressor starts.",
+    "description": "BANGSON is a 3.2 cubic foot two door fridge with a separate freezer, measuring 19.68 by 17.9 by 34.01 inches. The listing gives a freezer range of minus 4 to 18 degrees Fahrenheit and a fridge range of 33.8 to 46.4, an average of 38 decibels, five settings and adjustable leveling legs.\n\nIt costs under $250, about $21 more than Electactic, and its freezer has the coldest listed floor of the freezer models. It is much taller than the single door models.\n\nChoose it for an apartment or office that needs a true freezer. The caveat is the height, and the listed 38 dB is an average that may include compressor starts.",
     "specs": [
       "3.2 cu ft, separate freezer",
       "Freezer -4F to 18F",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31IMB4KPI5L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DNDNT69T?tag=deskfinds0d-20",
-    "description": "Electactic is a 3.1 cubic foot fridge with a separate built in freezer compartment, two reversible doors, adjustable glass shelves and a fridge range of 32 to 50 degrees. The listing states a freezer range of minus 1 to 3 degrees.\n\nIt costs $209, about $21 less than BANGSON, and its freezer is warmer, so it is fine for frozen meals and ice cream but not for long term storage. It has a lower top fridge temperature than the beverage coolers.\n\nGreat for a bedroom or small office where a freezer matters. The caveat is that the fridge range tops at 50 degrees, which is above the 40 degree food safe mark at the warmest settings.",
+    "description": "Electactic is a 3.1 cubic foot fridge with a separate built in freezer compartment, two reversible doors, adjustable glass shelves and a fridge range of 32 to 50 degrees. The listing states a freezer range of minus 1 to 3 degrees.\n\nIt costs under $250, about $21 less than BANGSON, and its freezer is warmer, so it is fine for frozen meals and ice cream but not for long term storage. It has a lower top fridge temperature than the beverage coolers.\n\nGreat for a bedroom or small office where a freezer matters. The caveat is that the fridge range tops at 50 degrees, which is above the 40 degree food safe mark at the warmest settings.",
     "specs": [
       "3.1 cu ft, two doors",
       "Fridge 32F to 50F",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/21vT458BQmL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B088GQSF7V?tag=deskfinds0d-20",
-    "description": "Frigidaire's EFR323 is a 3.2 cubic foot compact fridge in stainless steel, with a flush back design, two glass shelves, a 2 liter door basket and a chiller compartment with an ice tray. The listing does not describe a true freezer.\n\nAt $181.12 it costs less than the two door models and is cheaper than COWSAR. It is the best looking of the group but offers a smaller cold range than BANGSON.\n\nChoose it for a visible spot in an office. The caveat is the chiller, which is not a real freezer.",
+    "description": "Frigidaire's EFR323 is a 3.2 cubic foot compact fridge in stainless steel, with a flush back design, two glass shelves, a 2 liter door basket and a chiller compartment with an ice tray. The listing does not describe a true freezer.\n\nAt under $190 it costs less than the two door models and is cheaper than COWSAR. It is the best looking of the group but offers a smaller cold range than BANGSON.\n\nChoose it for a visible spot in an office. The caveat is the chiller, which is not a real freezer.",
     "specs": [
       "3.2 cu ft, stainless finish",
       "Flush back design",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41HYSUEoe2L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GSFY4VJX?tag=deskfinds0d-20",
-    "description": "COWSAR is a 4.4 cubic foot dorm fridge with no freezer, a single reversible door, 7 mechanical thermostat settings, three removable glass shelves and a compressor listed at 253 kilowatt hours per year.\n\nIt costs $266.99 and gives the most fridge only space, since there is no freezer box. It is larger than every other food fridge here.\n\nBest for someone who wants maximum cold storage for groceries. The caveat is that 4.4 cubic feet may exceed some dorm caps, and a mechanical thermostat is less precise.",
+    "description": "COWSAR is a 4.4 cubic foot dorm fridge with no freezer, a single reversible door, 7 mechanical thermostat settings, three removable glass shelves and a compressor listed at 253 kilowatt hours per year.\n\nIt costs under $300 and gives the most fridge only space, since there is no freezer box. It is larger than every other food fridge here.\n\nBest for someone who wants maximum cold storage for groceries. The caveat is that 4.4 cubic feet may exceed some dorm caps, and a mechanical thermostat is less precise.",
     "specs": [
       "4.4 cu ft, no freezer",
       "7 setting mechanical dial",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51UUzcEixzL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FKB5D9GV?tag=deskfinds0d-20",
-    "description": "Velivi is a 3.2 cubic foot beverage fridge that holds 126 cans, with a lock, a glass door, frost free cooling and a 34 to 64 degree range. It is 17.5 inches wide with four removable shelves with anti tip rails.\n\nIt costs $239.99, which is more than ROVSUN at $174.99, and the lock makes it the only option for shared offices. It is smaller than EUHOMY.\n\nBest for a shared office or game room with a lock. The caveat is that its range tops at 64 degrees, so it is for drinks only.",
+    "description": "Velivi is a 3.2 cubic foot beverage fridge that holds 126 cans, with a lock, a glass door, frost free cooling and a 34 to 64 degree range. It is 17.5 inches wide with four removable shelves with anti tip rails.\n\nIt costs under $250, which is more than ROVSUN at under $180, and the lock makes it the only option for shared offices. It is smaller than EUHOMY.\n\nBest for a shared office or game room with a lock. The caveat is that its range tops at 64 degrees, so it is for drinks only.",
     "specs": [
       "3.2 cu ft, 126 cans",
       "34F to 64F, frost free",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41pXVjrA7wL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GQZCCQ15?tag=deskfinds0d-20",
-    "description": "ROVSUN is a 3.3 cubic foot beverage fridge with double layer Low E glass, a compressor, removable racks and a 32 to 50 degree range. The dimensions are 19.69 by 17.52 by 32.8 inches.\n\nIt is the cheapest beverage cooler here at $174.99, and its range tops at 50 degrees, colder than Velivi. It has no lock.\n\nPick it for a home bar or bedroom. The caveat is no lock, and the listing calls it a beverage cooler, not a food fridge.",
+    "description": "ROVSUN is a 3.3 cubic foot beverage fridge with double layer Low E glass, a compressor, removable racks and a 32 to 50 degree range. The dimensions are 19.69 by 17.52 by 32.8 inches.\n\nIt is the cheapest beverage cooler here at under $180, and its range tops at 50 degrees, colder than Velivi. It has no lock.\n\nPick it for a home bar or bedroom. The caveat is no lock, and the listing calls it a beverage cooler, not a food fridge.",
     "specs": [
       "3.3 cu ft, compressor",
       "32F to 50F range",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51CClLY2z5L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DDT7C6VT?tag=deskfinds0d-20",
-    "description": "EUHOMY is a 4.5 cubic foot beverage fridge that holds 145 cans or 37 bottles of wine, with a compressor, double pane tempered glass door and a 32 to 61 degree range.\n\nIt is the most expensive at $299.99 and the largest. Against Velivi it holds more but has no lock.\n\nBest for parties or a bar. The caveat is the price and its large footprint.",
+    "description": "EUHOMY is a 4.5 cubic foot beverage fridge that holds 145 cans or 37 bottles of wine, with a compressor, double pane tempered glass door and a 32 to 61 degree range.\n\nIt is the most expensive at under $300 and the largest. Against Velivi it holds more but has no lock.\n\nBest for parties or a bar. The caveat is the price and its large footprint.",
     "specs": [
       "4.5 cu ft, 145 cans",
       "32F to 61F, compressor",
@@ -399,7 +399,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Save if",
-        "text": "You only need drink storage. ROVSUN 3.3 Cu Ft Glass Door Beverage Fridge at $174.99 is the cheapest cooler."
+        "text": "You only need drink storage. ROVSUN 3.3 Cu Ft Glass Door Beverage Fridge at under $180 is the cheapest cooler."
       }
     ]
   }

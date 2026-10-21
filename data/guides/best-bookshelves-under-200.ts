@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["The highest weight capacity for a substantial collection", "Tribesigns 6-Tier Bookshelf, 75-Inch Tall"],
         ["To utilize an unused room corner", "FINETONES 74\" Tall Corner Bookshelf with Doors"],
-        ["Corner-fitting space efficiency at a lower price", "IRONCK Corner Bookshelf with Drawers"],
+        ["Corner-fitting space efficiency at a lower price", "IRONCK Corner Bookshelf with Drawers"]
       ],
     },
   },
@@ -116,9 +116,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $122", "IRONCK Corner with Drawers ($121.99)"],
-        ["Under $116", "Loomie Glass Doors ($115.99)"],
-        ["$180-$190", "FINETONES Corner ($179.99) or Tribesigns 6-Tier ($189.99)"],
+        ["Under $122", "IRONCK Corner with Drawers (under $130)"],
+        ["Under $116", "Loomie Glass Doors (under $120)"],
+        ["$180-$190", "FINETONES Corner (under $180) or Tribesigns 6-Tier (under $190)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Corner-Fitting vs Straight-Wall Design",
     cards: [
       { label: "Corner-Fitting (FINETONES, IRONCK)", text: "Turns an unused 90-degree corner into functional storage, ideal for rooms where straight wall space is limited or already occupied." },
-      { label: "Straight-Wall (Tribesigns, Loomie)", text: "Requires a standard flat wall section but generally offers more per-unit capacity or display area for the same footprint." },
+      { label: "Straight-Wall (Tribesigns, Loomie)", text: "Requires a standard flat wall section but generally offers more per-unit capacity or display area for the same footprint." }
     ],
     note: "If your room has an awkward unused corner, a corner-fitting design turns dead space into storage. If you have open straight wall space, the straight-frame picks generally deliver more capacity per dollar.",
   },
@@ -136,7 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your storage style", "Recommended pick"],
       rows: [
         ["Enclosed drawer storage for smaller items", "IRONCK Corner Bookshelf with Drawers"],
-        ["Dust-free glass display for collectibles", "Loomie 78.7\" Tall Bookcase with Glass Doors"],
+        ["Dust-free glass display for collectibles", "Loomie 78.7\" Tall Bookcase with Glass Doors"]
       ],
     },
   },
@@ -144,16 +144,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Room with an Unused Corner Specifically",
     cards: [
       { label: "Look for", text: "A bookshelf specifically designed with an L-shaped or 90-degree corner-fitting profile, rather than a standard straight-back unit pushed awkwardly into a corner." },
-      { label: "In this comparison", text: "Both the FINETONES and IRONCK picks are specifically engineered to fit a 90-degree corner, turning otherwise wasted space into real storage." },
+      { label: "In this comparison", text: "Both the FINETONES and IRONCK picks are specifically engineered to fit a 90-degree corner, turning otherwise wasted space into real storage." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the highest weight capacity for a substantial collection, where the Tribesigns pick delivers 350 lbs of total capacity, the most in this comparison." },
-      { label: "Save if", text: "Corner-fitting space efficiency with drawer storage covers your needs, where the IRONCK pick delivers this at meaningfully less than the pricier FINETONES corner unit." },
+      { label: "Save if", text: "Corner-fitting space efficiency with drawer storage covers your needs, where the IRONCK pick delivers this at meaningfully less than the pricier FINETONES corner unit." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

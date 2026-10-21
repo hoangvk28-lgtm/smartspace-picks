@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "L-Shaped Modern Large Wooden Commercial Reception Desk with Counter & Shelves, Front Reception and is built around modern & versatile, positioning it for 8ft buyers specifically.\n\nALL-IN-ONE STORAGE is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 8ft, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["MODERN & VERSATILE","ALL-IN-ONE STORAGE","DUAL SIZE"],
     pros: ["MODERN & VERSATILE, confirmed directly in the listing's own spec details","ALL-IN-ONE STORAGE, confirmed directly in the listing's own spec details","DUAL SIZE, confirmed directly in the listing's own spec details"],
-    cons: ["At $459.00, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $500, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 8ft",
   },
   {
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns Reception Desk with Storage Shelves, L-Shaped Modern Front Desk, Reception Counter and is built around elegant design, positioning it for 8ft buyers specifically.\n\nAmple Storage is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 8ft, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Elegant Design","Ample Storage","L-Shape Desktop"],
     pros: ["Elegant Design, confirmed directly in the listing's own spec details","Ample Storage, confirmed directly in the listing's own spec details","L-Shape Desktop, confirmed directly in the listing's own spec details"],
-    cons: ["At $249.99, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $250, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 8ft",
   },
   {
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "ZIMASYA 63\" L-Shaped Reception Desk with Counter, Modern Commercial Front Desk with Power and is built around modern l-shaped design with counter, positioning it for 8ft buyers specifically.\n\nBuilt-in LED Lights & Outlets is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 8ft, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Modern L-Shaped Design with Counter","Built-in LED Lights & Outlets","Combination Lock Drawers"],
     pros: ["Modern L-Shaped Design with Counter, confirmed directly in the listing's own spec details","Built-in LED Lights & Outlets, confirmed directly in the listing's own spec details","Combination Lock Drawers, confirmed directly in the listing's own spec details"],
-    cons: ["At $559.99, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $600, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 8ft",
   },
   {
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "AIEGLE L-Shaped Reception Desk Counter Table with Lockable Drawers & Storage Shelves, Private measures 55.9\" L x 32.3\" W x 48.4\" H and is built around sufficient storage space - the spacious shelves, positioning it for 8ft buyers specifically.\n\nSturdy Structure - The reception desk is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 8ft, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["55.9\" L x 32.3\" W x 48.4\" H dimensions","Sufficient Storage Space - The spacious shelves","Sturdy Structure - The reception desk"],
     pros: ["Sufficient Storage Space - The spacious shelves, confirmed directly in the listing's own spec details","Sturdy Structure - The reception desk, confirmed directly in the listing's own spec details","Thoughtful Design - We take your privacy, confirmed directly in the listing's own spec details"],
-    cons: ["At $299.99, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $300, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 8ft",
   }
 
@@ -146,24 +146,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $249.99",
+          "Under $250",
           "Tribesigns Reception Desk with Storage Shelves"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "AIEGLE L-Shaped Reception Desk Counter Table with Lockable Drawers & Storage Shelves"
         ],
         [
-          "Around $459.00",
+          "Under $500",
           "L-Shaped Modern Large Wooden Commercial Reception Desk with Counter & Shelves"
         ],
         [
-          "Around $559.99",
+          "Under $600",
           "ZIMASYA 63\" L-Shaped Reception Desk with Counter"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -211,7 +211,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "L-Shaped Modern Large Wooden Commercial Reception Desk with Counter & Shelves is aimed at buyers looking for 8ft." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "L-Shaped Modern Large Wooden Commercial Reception Desk with Counter & Shelves is aimed at buyers looking for 8ft." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-9ft-reception-desks","title":"5 Best 9ft Reception Desks in 2026"},{"href":"/guide/best-10ft-reception-desks","title":"3 Best 10ft Reception Desks in 2026"},{"href":"/guide/best-96-inch-reception-desks","title":"5 Best 96-Inch Reception Desks in 2026"}];

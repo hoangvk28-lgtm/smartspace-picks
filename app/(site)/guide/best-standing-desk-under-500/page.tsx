@@ -190,7 +190,7 @@ export default async function BestStandingDeskUnder500Page() {
     about: [
       { "@type": "Thing", name: "Standing Desk Under $500" },
       { "@type": "Thing", name: "Dual Motor Standing Desk" },
-      { "@type": "Thing", name: "L-Shaped Standing Desk" },
+      { "@type": "Thing", name: "L-Shaped Standing Desk" }
     ],
   };
 
@@ -210,7 +210,7 @@ export default async function BestStandingDeskUnder500Page() {
         position: 3,
         name: "Best Standing Desk Under $500",
         item: `${SITE_URL}/guide/best-standing-desk-under-500`,
-      },
+      }
     ],
   };
 
@@ -454,7 +454,7 @@ export default async function BestStandingDeskUnder500Page() {
                       feature: "Noise level",
                       single: "50-60dB typical",
                       dual: "Under 45dB on top models",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -523,7 +523,7 @@ export default async function BestStandingDeskUnder500Page() {
                       factor: "Price premium",
                       two: "Baseline",
                       three: "+$50-$100 typically",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -666,7 +666,7 @@ export default async function BestStandingDeskUnder500Page() {
                   {
                     situation: "Long typing sessions with wrist/forearm discomfort",
                     choice: "Vari ComfortEdge 48x30",
-                    why: "Sloped waterfall edge reduces arm pressure at $399",
+                    why: "Sloped waterfall edge reduces arm pressure at under $400",
                   },
                   {
                     situation: "Prefer real wood over laminate, want built-in power",
@@ -677,7 +677,7 @@ export default async function BestStandingDeskUnder500Page() {
                     situation: "Under 5'3\" seated height or taller than 6'0\"",
                     choice: "Vari Classic 60x30",
                     why: "Best height range (25.5\"-50.5\") covers the most body types",
-                  },
+                  }
                 ].map((row, i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                     <td className="px-4 py-3 font-medium text-ink text-xs">{row.situation}</td>
@@ -717,7 +717,7 @@ export default async function BestStandingDeskUnder500Page() {
                     have: "Separate desk + storage unit taking up 2 walls",
                     upgrade: "Fezibo Triple Motor L-Shaped (~$450-$479)",
                     gain: "Corner config with 3 drawers in one footprint",
-                  },
+                  }
                 ].map((row, i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                     <td className="px-4 py-3 text-ink-secondary text-xs">{row.have}</td>

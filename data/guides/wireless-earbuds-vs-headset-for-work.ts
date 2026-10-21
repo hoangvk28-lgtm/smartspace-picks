@@ -12,7 +12,7 @@ export const wirelessEarbudsVsHeadsetForWorkGuide: Guide = {
     "earbuds vs headset microphone quality",
     "best audio for long work calls",
     "wireless earbuds battery for workday",
-    "headset comfort extended wear",
+    "headset comfort extended wear"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const wirelessEarbudsVsHeadsetForWorkGuide: Guide = {
     "conference-speakerphone-vs-headset",
     "wireless-peripheral-battery-management",
     "bluetooth-vs-usb-dongle-explained",
-    "open-back-vs-closed-back-headphones",
+    "open-back-vs-closed-back-headphones"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const wirelessEarbudsVsHeadsetForWorkGuide: Guide = {
       question: "Is it reasonable to use different options for different situations?",
       answer:
         "Yes, many people use earbuds for casual or shorter calls and a dedicated headset for longer, more important meetings, or vice versa, matching the tool to the specific call's importance and expected duration rather than committing to one option for everything.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const wirelessEarbudsVsHeadsetForWorkGuide: Guide = {
     {
       heading: "Why Matching the Tool to the Specific Call's Importance Makes Practical Sense",
       body: `Rather than viewing this as an either-or decision requiring you to commit to one option exclusively, recognizing that different calls have different stakes and requirements allows for a more practical, situational approach, a quick casual internal check-in call might work perfectly well with earbuds' convenience and portability, while an important client presentation or interview genuinely benefits from a headset's clearer audio pickup and typically more reliable extended comfort, having both options available and choosing based on the specific call's actual importance and expected duration provides more practical flexibility than forcing a single universal choice.`,
-    },
+    }
   ],
 };

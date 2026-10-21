@@ -12,7 +12,7 @@ export const chairMatTypesExplainedGuide: Guide = {
     "chair mat for hardwood vs carpet",
     "best chair mat material",
     "all surface chair mat worth it",
-    "chair mat thickness guide",
+    "chair mat thickness guide"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const chairMatTypesExplainedGuide: Guide = {
     "office-chair-caster-types-explained",
     "chair-mat-size-guide",
     "anti-fatigue-mat-explained",
-    "office-chair-weight-capacity-explained",
+    "office-chair-weight-capacity-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const chairMatTypesExplainedGuide: Guide = {
       question: "Does a chair mat need to be a specific shape?",
       answer:
         "Mats come in rectangular and contoured (with a cutout area extending toward the desk) shapes, a contoured mat provides more coverage directly under the desk where your chair spends more time, while rectangular mats are simpler and often larger overall.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const chairMatTypesExplainedGuide: Guide = {
     {
       heading: "Why Thickness Affects Long-Term Durability",
       body: `A chair mat subjected to daily rolling chair traffic gradually develops wear patterns, particularly in the areas you roll over most frequently, thinner, more affordable mats tend to show cracking or permanent grooves from casters sooner than thicker, more durable options. If you plan to use the mat daily for years rather than as a short-term or occasional solution, investing in a thicker mat upfront often costs less over time than replacing a thinner one multiple times.`,
-    },
+    }
   ],
 };

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "ergonomic keyboard amazon";
 export const introParagraphs = [
   "Amazon best seller status reflects sales volume, driven heavily by brand recognition and price point, not a verified ergonomics score. A handful of the highest-selling keyboards labeled ergonomic on Amazon are actually standard mechanical or gaming boards wearing the word loosely, so this list only includes the ones that are genuinely ergonomic by design: a curved or split key layout built to reduce wrist strain, not just a keyboard that happens to sell well.",
-  "Below are 5 ergonomic keyboards we evaluated on wrist rest depth, wave versus true split construction, wireless range, and desk footprint, ranging from a $44.99 wired split board to a $148.99 multi-device wireless split keyboard with a memory foam rest.",
+  "Below are 5 ergonomic keyboards we evaluated on wrist rest depth, wave versus true split construction, wireless range, and desk footprint, ranging from an under-$45 wired split board to an under-$150 multi-device wireless split keyboard with a memory foam rest."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "9 min";
@@ -147,7 +147,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed split or wave design quality, rest material, and connection type against price, from the wired split pick to the multi-device wireless split keyboard.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -308,12 +308,12 @@ export const faq: FaqItem[] = [
   {
     q: "Is the Logitech Ergo K860 worth the higher price over the Wave Keys?",
     a: "The Ergo K860 is the only true split layout among the Logitech picks and pairs with up to 3 devices over Bluetooth with a deeper memory foam rest. The Wave Keys models are wave-curved rather than truly split and cost about $90 less, so the K860 is worth it mainly if you specifically want a separable layout or regularly switch between multiple paired devices.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mechanical-keyboards-under-60-100-budget", title: "Best Mechanical Keyboards Under $60/$100 Budget (2026)" },
   { href: "/guide/best-mechanical-keyboard-layouts-explained", title: "Mechanical Keyboard Layouts Explained + Picks (2026)" },
   { href: "/guide/best-split-ergonomic-keyboards", title: "Best Split Ergonomic Keyboards (2026)" },
-  { href: "/guide/best-ergonomic-keyboards", title: "Best Ergonomic Keyboards (2026)" },
+  { href: "/guide/best-ergonomic-keyboards", title: "Best Ergonomic Keyboards (2026)" }
 ];

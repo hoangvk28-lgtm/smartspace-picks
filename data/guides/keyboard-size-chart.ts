@@ -14,7 +14,7 @@ export const keyboardSizeChartGuide: Guide = {
     "65 percent keyboard size",
     "75 percent keyboard dimensions",
     "tkl keyboard size cm",
-    "full size keyboard dimensions",
+    "full size keyboard dimensions"
   ],
   heroImage: "/images/guides/keyboard-size-chart/01-keyboard-size-chart-hero.webp",
   thumbnailImage: "/images/guides/keyboard-size-chart/01-keyboard-size-chart-hero.webp",
@@ -26,7 +26,7 @@ export const keyboardSizeChartGuide: Guide = {
     "tkl-vs-full-size-keyboard",
     "60-vs-65-vs-75-keyboard",
     "best-mechanical-keyboard-under-100",
-    "best-monitor-arm-under-100",
+    "best-monitor-arm-under-100"
   ],
   faq: [
     {
@@ -58,7 +58,7 @@ export const keyboardSizeChartGuide: Guide = {
       question: "What is the difference between Cherry MX Red and Brown?",
       answer:
         "Cherry MX Red is a linear switch - it presses straight down with no tactile bump or click. Cherry MX Brown is a tactile switch - it has a subtle bump at the actuation point (2.0mm) that provides keystroke feedback without a click sound. Red is preferred for gaming; Brown is preferred for typing in shared environments.",
-    },
+    }
   ],
   sections: [
     {
@@ -312,6 +312,6 @@ Keycaps are measured in **units (u)** where 1u = the size of a standard letter k
 | Video calls / open office | Linear or Tactile | Red or Brown - AVOID Blue |
 
 ![Keycap size chart and switch color comparison reference guide](/images/guides/keyboard-size-chart/07-compact-vs-full-size-keyboard-desk-footprint.webp)`,
-    },
+    }
   ],
 };

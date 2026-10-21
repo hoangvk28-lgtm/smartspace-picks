@@ -13,7 +13,7 @@ export const sixtyVs65Vs75KeyboardGuide: Guide = {
     "60 percent vs 65 percent keyboard",
     "best compact keyboard size",
     "75 percent keyboard vs tkl",
-    "keyboard size for gaming",
+    "keyboard size for gaming"
   ],
   heroImage: "/images/guides/60-vs-65-vs-75-keyboard/01-60-vs-65-vs-75-hero.webp",
   thumbnailImage: "/images/guides/60-vs-65-vs-75-keyboard/01-60-vs-65-vs-75-hero.webp",
@@ -25,7 +25,7 @@ export const sixtyVs65Vs75KeyboardGuide: Guide = {
     "tkl-vs-full-size-keyboard",
     "keyboard-size-chart",
     "best-mechanical-keyboard-under-100",
-    "best-monitor-arm-under-100",
+    "best-monitor-arm-under-100"
   ],
   faq: [
     {
@@ -52,7 +52,7 @@ export const sixtyVs65Vs75KeyboardGuide: Guide = {
       question: "Is a 60% keyboard worth it?",
       answer:
         "A 60% keyboard is worth it specifically for frequent travelers who pack their keyboard, Vim users who already avoid F-keys and arrows, and enthusiasts building for aesthetics. For most buyers, the 65% offers almost all of the 60% compactness with dedicated arrow keys - making the 65% the better recommendation unless you have a specific reason for 60%.",
-    },
+    }
   ],
   sections: [
     {
@@ -211,6 +211,6 @@ For nearly everyone, the 65% is the better buy over the 60%. The functional diff
 - [TKL vs Full-Size Keyboard](/guide/tkl-vs-full-size-keyboard) - step up from compact layouts
 - [Keyboard Size Chart](/guide/keyboard-size-chart) - full dimensions for every layout
 - [Best Mechanical Keyboards Under $100](/guide/best-mechanical-keyboard-under-100) - top picks across 65%, 75%, and TKL`,
-    },
+    }
   ],
 };

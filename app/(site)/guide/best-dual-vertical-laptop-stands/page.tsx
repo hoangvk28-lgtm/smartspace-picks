@@ -139,7 +139,7 @@ export default async function BestDualVerticalLaptopStandsPage() {
     about: [
       { "@type": "Thing", name: "Dual Vertical Laptop Stand" },
       { "@type": "Thing", name: "Desk Accessories" },
-      { "@type": "Thing", name: "Multi-Device Storage" },
+      { "@type": "Thing", name: "Multi-Device Storage" }
     ],
   };
 
@@ -149,7 +149,7 @@ export default async function BestDualVerticalLaptopStandsPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Dual Vertical Laptop Stands", item: `${SITE_URL}/guide/best-dual-vertical-laptop-stands` },
+      { "@type": "ListItem", position: 3, name: "Best Dual Vertical Laptop Stands", item: `${SITE_URL}/guide/best-dual-vertical-laptop-stands` }
     ],
   };
 
@@ -316,7 +316,7 @@ export default async function BestDualVerticalLaptopStandsPage() {
               <p className="text-sm text-ink-secondary">
                 <strong className="text-ink">best dual stand:</strong>{" "}
                 <a href="#omoton-double" className="font-bold text-ink hover:text-brand transition-colors">OMOTON Dual Aluminum Vertical Laptop Stand</a>
-                 - 4.8 stars, two independent adjustable slots and lifetime warranty.
+                 - Two independent adjustable slots and lifetime warranty.
               </p>
             </div>
             <p className="text-sm text-ink-secondary pl-5">See the full rankings above for all eight picks with pros, cons, and best-for summaries.</p>

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "wifi 7 router with vpn support";
 export const introParagraphs = [
   "Router-based VPN client throughput is CPU-limited, so actual VPN speeds are frequently far below a router's rated WAN or Wi-Fi speed, worth benchmarking realistic VPN throughput expectations rather than treating 'VPN support' as a checkbox feature unrelated to performance, and hardware acceleration for VPN encryption, present on some higher-end routers and absent on budget models, meaningfully affects sustained VPN speed under load.",
-  "'VPN support' ambiguously covers two genuinely different use cases, distinguish site-to-site VPN support that securely tunnels into your home network remotely from client VPN routing that sends all outbound traffic through a commercial VPN provider, and verify which specific protocols like WireGuard or OpenVPN a router supports since your VPN provider must be compatible, plus check for a genuine kill-switch feature that blocks all internet traffic if the VPN connection drops, a real privacy-relevant spec rarely disclosed.",
+  "'VPN support' ambiguously covers two genuinely different use cases, distinguish site-to-site VPN support that securely tunnels into your home network remotely from client VPN routing that sends all outbound traffic through a commercial VPN provider, and verify which specific protocols like WireGuard or OpenVPN a router supports since your VPN provider must be compatible, plus check for a genuine kill-switch feature that blocks all internet traffic if the VPN connection drops, a real privacy-relevant spec rarely disclosed."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,14 +26,14 @@ export const products: GuideProduct[] = [
     badge: "Best Explicit VPN-Compatible Pick",
     name: "ASUS RT-BE82U WiFi 7 Router",
     price: "$159.08",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "164 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31UOe1N82FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D48GS6KB?tag=deskfinds0d-20",
     description:
-      "Explicitly marketed for VPN compatibility, appropriate for buyers specifically prioritizing router-level VPN support alongside dual-band Wi-Fi 7 and mesh compatibility.\n\nVerify whether your specific commercial VPN provider supports this router's built-in protocol before buying, since 'VPN support' can mean either client routing or site-to-site remote access depending on the feature set.\n\nThe standout detail is that high 4.3-star rating. Balancing that out, router-based VPN throughput is CPU-limited, verify realistic speed expectations.",
+      "Explicitly marketed for VPN compatibility, appropriate for buyers specifically prioritizing router-level VPN support alongside dual-band Wi-Fi 7 and mesh compatibility.\n\nVerify whether your specific commercial VPN provider supports this router's built-in protocol before buying, since 'VPN support' can mean either client routing or site-to-site remote access depending on the feature set.\n\nBalancing that out, router-based VPN throughput is CPU-limited, verify realistic speed expectations.",
     specs: ["Explicit VPN compatibility", "Dual-band, 6.5 Gbps rated", "Mesh + VPN compatible", "ASUS ecosystem and firmware"],
-    pros: ["Explicitly marketed VPN compatibility, not an ambiguous checkbox feature", "High 4.3-star rating", "Mesh compatible for future expansion", "Reasonable price for a VPN-focused router"],
+    pros: ["Explicitly marketed VPN compatibility, not an ambiguous checkbox feature", "Mesh compatible for future expansion", "Reasonable price for a VPN-focused router"],
     cons: ["Router-based VPN throughput is CPU-limited, verify realistic speed expectations", "Verify whether this supports client VPN routing, site-to-site access, or both", "Smaller review base than some other picks in this guide"],
     bestFor: "Buyers specifically prioritizing router-level VPN compatibility over other features",
   },
@@ -43,14 +43,14 @@ export const products: GuideProduct[] = [
     badge: "Best Budget VPN Pick",
     name: "TP-Link Dual-Band BE3600 Wi-Fi 7 Router Archer BE230",
     price: "$87.00",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "1,401 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41u8VJ6j2gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DC99N2T8?tag=deskfinds0d-20",
     description:
-      "An affordable router appropriate for buyers wanting basic VPN client functionality without paying for hardware-accelerated encryption they may not need at typical home usage levels.\n\nWithout hardware VPN acceleration, expect sustained VPN speeds meaningfully below this router's rated Wi-Fi speed under real load, worth confirming this tradeoff matches your expectations before buying.\n\nHigh 4.4-star rating with a large review base. That's a real strength, but weigh it against the flip side: likely lacks hardware VPN acceleration, expect CPU-limited throughput under load.",
+      "An affordable router appropriate for buyers wanting basic VPN client functionality without paying for hardware-accelerated encryption they may not need at typical home usage levels.\n\nWithout hardware VPN acceleration, expect sustained VPN speeds meaningfully below this router's rated Wi-Fi speed under real load, worth confirming this tradeoff matches your expectations before buying.\n\nThat's a real strength, but weigh it against the flip side: likely lacks hardware VPN acceleration, expect CPU-limited throughput under load.",
     specs: ["Basic VPN client support", "Dual-band, no 6GHz radio", "4-stream configuration", "2x2.5G + 3x1G ports"],
-    pros: ["Very affordable for basic VPN client functionality", "High 4.4-star rating with a large review base", "Adequate for light, occasional VPN use", "Keeps 2.4GHz for broader device compatibility"],
+    pros: ["Very affordable for basic VPN client functionality", "Adequate for light, occasional VPN use", "Keeps 2.4GHz for broader device compatibility"],
     cons: ["Likely lacks hardware VPN acceleration, expect CPU-limited throughput under load", "No 6GHz radio limits full Wi-Fi 7 feature set", "Verify specific VPN protocol support against your provider before buying"],
     bestFor: "Budget buyers wanting basic, occasional VPN client functionality",
   },
@@ -60,14 +60,14 @@ export const products: GuideProduct[] = [
     badge: "Best Mid-Range VPN Pick",
     name: "TP-Link BE6500 Dual-Band WiFi 7 Router (BE400)",
     price: "$139.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "1,324 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41kg9-1bsvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DVBP5L6Y?tag=deskfinds0d-20",
     description:
-      "A step up with dual 2.5Gbps ports, appropriate for buyers running VPN traffic more regularly who want more CPU and port headroom than the entry-tier budget pick above.\n\nBenchmark actual VPN throughput on this model rather than assuming its rated Wi-Fi speed applies, since router-based VPN performance is CPU-limited and typically well below the router's headline wireless rating.\n\nHigh 4.4-star rating with a large review base. On the other hand, no 6GHz radio limits full Wi-Fi 7 feature set. Both are worth keeping in mind before deciding.",
+      "A step up with dual 2.5Gbps ports, appropriate for buyers running VPN traffic more regularly who want more CPU and port headroom than the entry-tier budget pick above.\n\nBenchmark actual VPN throughput on this model rather than assuming its rated Wi-Fi speed applies, since router-based VPN performance is CPU-limited and typically well below the router's headline wireless rating.\n\nOn the other hand, no 6GHz radio limits full Wi-Fi 7 feature set. Both are worth keeping in mind before deciding.",
     specs: ["VPN client support", "Dual 2.5Gbps ports", "Dual-band, no 6GHz radio", "Covers up to 2,400 sq. ft."],
-    pros: ["More CPU headroom than entry-tier budget routers for sustained VPN use", "High 4.4-star rating with a large review base", "Dual 2.5Gbps ports support faster wired VPN gateway setups", "Reasonable mid-range price"],
+    pros: ["More CPU headroom than entry-tier budget routers for sustained VPN use", "Dual 2.5Gbps ports support faster wired VPN gateway setups", "Reasonable mid-range price"],
     cons: ["No 6GHz radio limits full Wi-Fi 7 feature set", "Still CPU-limited for VPN throughput, verify real-world speeds", "Verify kill-switch feature availability if that matters to your privacy needs"],
     bestFor: "Buyers running VPN traffic more regularly who want more CPU and port headroom",
   },
@@ -77,17 +77,17 @@ export const products: GuideProduct[] = [
     badge: "Best Higher-Capacity VPN Pick",
     name: "TP-Link Tri-Band BE9300 WiFi 7 Router (Archer BE550)",
     price: "$169.99",
-    rating: "4.1 stars from Amazon ratings",
-    reviews: "1,732 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/3179Kj81G3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJSNSVMR?tag=deskfinds0d-20",
     description:
-      "A genuine tri-band router with a real 6GHz radio and the largest review base in this guide, appropriate for buyers wanting VPN functionality alongside full Wi-Fi 7 wireless capability rather than a dual-band tradeoff.\n\nFull 2.5G ports support a fast wired VPN gateway setup, though as with any router, actual VPN throughput remains CPU-limited rather than determined by the wireless radio's speed.\n\nA genuine advantage here is that largest review base in this guide for real-world confidence. The tradeoff is that more moderate 4.1-star rating, verify recent reviews.",
+      "A genuine tri-band router with a real 6GHz radio and the largest review base in this guide, appropriate for buyers wanting VPN functionality alongside full Wi-Fi 7 wireless capability rather than a dual-band tradeoff.\n\nFull 2.5G ports support a fast wired VPN gateway setup, though as with any router, actual VPN throughput remains CPU-limited rather than determined by the wireless radio's speed.\n\nA genuine advantage here is that largest review base in this guide for real-world confidence.",
     specs: ["VPN client support", "Genuine tri-band with 6GHz radio", "Full 2.5G ports", "BE9300 combined rating, 6-stream"],
     pros: ["Genuine tri-band 6GHz radio alongside VPN client functionality", "Largest review base in this guide for real-world confidence", "Full 2.5G LAN ports support a fast wired VPN gateway setup", "Good option for buyers wanting VPN plus full Wi-Fi 7 wireless capability"],
-    cons: ["More moderate 4.1-star rating, verify recent reviews", "VPN throughput remains CPU-limited regardless of the wireless radio's speed", "Verify supported VPN protocols match your specific provider"],
+    cons: [ "VPN throughput remains CPU-limited regardless of the wireless radio's speed", "Verify supported VPN protocols match your specific provider"],
     bestFor: "Buyers wanting VPN functionality alongside full genuine tri-band Wi-Fi 7 capability",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -95,7 +95,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "VPN throughput expectations benchmarked as CPU-limited, not a checkbox", description: "Treated router-based VPN throughput as CPU-limited and frequently below rated Wi-Fi speed, not a simple feature checkbox." },
   { title: "Site-to-site vs client VPN routing distinguished explicitly", description: "Distinguished secure remote access into the home network from client VPN routing through a commercial provider, two genuinely different use cases." },
   { title: "Protocol compatibility checked against common VPN providers", description: "Noted that supported protocols like WireGuard or OpenVPN vary by router and must match a buyer's specific VPN provider." },
-  { title: "Kill-switch feature availability disclosed where relevant", description: "Flagged kill-switch availability, a genuinely relevant privacy spec that blocks traffic if the VPN connection drops, rarely disclosed by competitors." },
+  { title: "Kill-switch feature availability disclosed where relevant", description: "Flagged kill-switch availability, a genuinely relevant privacy spec that blocks traffic if the VPN connection drops, rarely disclosed by competitors." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -222,11 +222,11 @@ export const faq: FaqItem[] = [
   { q: "Will VPN speed match my router's rated Wi-Fi speed?", a: "No, router-based VPN throughput is CPU-limited and frequently far below the rated Wi-Fi or WAN speed, benchmark realistic expectations instead." },
   { q: "What's the difference between site-to-site and client VPN support?", a: "Site-to-site lets you securely access your home network remotely, client VPN routing sends your outbound traffic through a commercial VPN provider, they're different features." },
   { q: "Does my router need to support a specific VPN protocol?", a: "Yes, verify your VPN provider is compatible with whichever protocol, like WireGuard or OpenVPN, your router supports before buying." },
-  { q: "What is a VPN kill-switch and do I need one?", a: "It blocks all internet traffic if the VPN connection drops, a genuinely relevant privacy feature worth checking for if VPN reliability matters to you." },
+  { q: "What is a VPN kill-switch and do I need one?", a: "It blocks all internet traffic if the VPN connection drops, a genuinely relevant privacy feature worth checking for if VPN reliability matters to you." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-dual-band-wifi-7-routers", title: "Best Dual-Band Wi-Fi 7 Routers (2026)" },
   { href: "/guide/best-tri-band-wifi-7-routers", title: "Best Tri-Band Wi-Fi 7 Routers (2026)" },
-  { href: "/guide/best-wifi-7-routers-for-nas-setups", title: "Best Wi-Fi 7 Routers for NAS Setups (2026)" },
+  { href: "/guide/best-wifi-7-routers-for-nas-setups", title: "Best Wi-Fi 7 Routers for NAS Setups (2026)" }
 ];

@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31-HLWJhx5L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D2593YZ2?tag=deskfinds0d-20",
-    "description": "Contour Unimouse is a right-handed wireless vertical mouse whose tilt can be set anywhere from 35 to 70 degrees. It also has an adjustable thumb rest, six programmable buttons and a scroll wheel.\n\nIt is the most expensive here at $99, but it is the only one that lets you change the angle, unlike the fixed shape of the MX Master 3S. Against the Corsair and Razer it trades gaming speed for posture adjustment.\n\nBest for people who want to find their own angle and thumb position. The caveat is that it is right-handed only, and the price sits right at the ceiling.",
+    "description": "Contour Unimouse is a right-handed wireless vertical mouse whose tilt can be set anywhere from 35 to 70 degrees. It also has an adjustable thumb rest, six programmable buttons and a scroll wheel.\n\nIt is the most expensive here at under $100, but it is the only one that lets you change the angle, unlike the fixed shape of the MX Master 3S. Against the Corsair and Razer it trades gaming speed for posture adjustment.\n\nBest for people who want to find their own angle and thumb position. The caveat is that it is right-handed only, and the price sits right at the ceiling.",
     "specs": [
       "35 to 70 degree adjustable tilt",
       "Adjustable thumb rest",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/219k6uLGQ1L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CCZQTF73?tag=deskfinds0d-20",
-    "description": "ASUS ROG Gladius III Wireless weighs 79 grams, has tri-mode connectivity and a 36K AimPoint sensor, and the listing claims up to 119 hours on 2.4GHz. It is a right-handed ergonomic shape.\n\nIt is the lightest here and costs $91, more than the Razer and Corsair for fewer stated features. Versus INFINMIND it targets games.\n\nBest for users who value low weight. The caveat is that the price is high for what a work user needs.",
+    "description": "ASUS ROG Gladius III Wireless weighs 79 grams, has tri-mode connectivity and a 36K AimPoint sensor, and the listing claims up to 119 hours on 2.4GHz. It is a right-handed ergonomic shape.\n\nIt is the lightest here and costs under $100, more than the Razer and Corsair for fewer stated features. Versus INFINMIND it targets games.\n\nBest for users who value low weight. The caveat is that the price is high for what a work user needs.",
     "specs": [
       "79 g, right-handed shape",
       "Tri-mode connectivity",

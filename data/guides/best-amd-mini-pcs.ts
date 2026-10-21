@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "amd mini pc";
 export const introParagraphs = [
   "AMD's integrated Radeon graphics generally outperform Intel's integrated graphics at similar price points, worth weighing this genuine advantage if light gaming or GPU-accelerated tasks matter to you alongside general productivity performance.",
-  "AMD's Ryzen mobile chip naming can be genuinely confusing, model numbers don't always indicate generation clearly, worth verifying the specific chip's actual release generation and benchmark performance rather than assuming a higher model number always means newer or faster.",
+  "AMD's Ryzen mobile chip naming can be genuinely confusing, model numbers don't always indicate generation clearly, worth verifying the specific chip's actual release generation and benchmark performance rather than assuming a higher model number always means newer or faster."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -26,7 +26,7 @@ export const products: GuideProduct[] = [
     badge: "Best AMD Mini PC Overall",
     name: "GEEKOM A9 Max High AI Productivity Mini PC,AMD Ryzen AI 9 HX 370(80 Tops)",
     price: "$1,299.00",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41OccK3d-wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLF2KYKN?tag=deskfinds0d-20",
@@ -42,7 +42,7 @@ export const products: GuideProduct[] = [
     badge: "Best AMD Pick with Gaming Capability",
     name: "GEEKOM A8 MAX Gaming Mini PC AMD Ryzen 9 8945HS 32GB DDR5 & 1TB SSD",
     price: "$999.00",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41dRSelt6aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G19ZF99R?tag=deskfinds0d-20",
@@ -58,7 +58,7 @@ export const products: GuideProduct[] = [
     badge: "Best Value AMD Pick",
     name: "GEEKOM [2026 Edition Multitasking Mini PC A7 MAX with AMD Ryzen 9 7940HS",
     price: "$649.00",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41HfTCupHML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2C2CDR4?tag=deskfinds0d-20",
@@ -74,7 +74,7 @@ export const products: GuideProduct[] = [
     badge: "Best Upgradable AMD Pick",
     name: "GEEKOM A6 Mini PC, Ryzen 7 6800H, 16GB DDR5 Upgradable RAM 1TB PCIe 4.0 SSD",
     price: "$549.00",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/415bG0b3CeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DRP316J1?tag=deskfinds0d-20",
@@ -90,7 +90,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget AMD Pick",
     name: "Beelink SER5 Pro Mini PC, AMD Ryzen 5 5625U(Up to 4.3GHz) 6C/12T",
     price: "$319.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41NGsh2eXOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C7437S8H?tag=deskfinds0d-20",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "AMD's integrated graphics advantage weighted honestly", description: "Weighted AMD's generally stronger integrated Radeon graphics at similar price points as a genuine advantage for buyers wanting light gaming or GPU-accelerated tasks." },
   { title: "AMD naming complexity flagged to avoid generation confusion", description: "Flagged that AMD's Ryzen mobile chip naming can be genuinely confusing, encouraging verification of actual release generation rather than assuming from model number alone." },
   { title: "RAM upgradability checked specifically across AMD configurations", description: "Checked RAM upgradability specifically across AMD-powered configurations, since this varies even within the AMD lineup." },
-  { title: "Value assessed across the AMD price range from budget to premium", description: "Assessed genuine value across different price points within the AMD lineup, identifying strong options at various budgets." },
+  { title: "Value assessed across the AMD price range from budget to premium", description: "Assessed genuine value across different price points within the AMD lineup, identifying strong options at various budgets." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Are AMD mini PCs better for gaming than Intel ones?", a: "AMD's integrated Radeon graphics generally outperform Intel's integrated graphics at similar price points, a genuine advantage for light gaming." },
   { q: "Does a higher AMD model number always mean a newer or faster chip?", a: "Not necessarily, AMD's naming can be genuinely confusing, verify the actual release generation rather than assuming from the model number alone." },
   { q: "Can I upgrade RAM on an AMD mini PC?", a: "It varies even within the AMD lineup, check the specific model's upgradability before buying if this matters to you." },
-  { q: "Is a budget AMD mini PC worth it?", a: "Yes, for genuine multitasking capability at a reasonable price, budget AMD chips often outperform bare-bones alternatives in other brands." },
+  { q: "Is a budget AMD mini PC worth it?", a: "Yes, for genuine multitasking capability at a reasonable price, budget AMD chips often outperform bare-bones alternatives in other brands." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-intel-mini-pcs", title: "Best Intel Mini PCs (2026)" },
   { href: "/guide/best-mini-pcs-for-gaming", title: "Best Mini PCs for Gaming (2026)" },
-  { href: "/guide/best-powerful-mini-pcs", title: "Best Powerful Mini PCs (2026)" },
+  { href: "/guide/best-powerful-mini-pcs", title: "Best Powerful Mini PCs (2026)" }
 ];

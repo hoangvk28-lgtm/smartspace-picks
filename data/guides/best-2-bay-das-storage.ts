@@ -227,11 +227,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "UGREEN Tool-Free M.2 NVMe SSD Enclosure (10Gbps)",
-        "text": "UGREEN Tool-Free M.2 NVMe SSD Enclosure (10Gbps) is aimed at buyers prioritizing m.2 nvme enclosure, up to 8tb, 10gbps At $16.99, it's the lowest-cost pick in this comparison."
+        "text": "UGREEN Tool-Free M.2 NVMe SSD Enclosure (10Gbps) is aimed at buyers prioritizing m.2 nvme enclosure, up to 8tb, 10gbps At under $20, it's the lowest-cost pick in this comparison."
       },
       {
         "label": "QNAP TR-002-A-US 2-Bay USB-C DAS with Hardware RAID (Diskless)",
-        "text": "QNAP TR-002-A-US 2-Bay USB-C DAS with Hardware RAID (Diskless) is aimed at buyers prioritizing 2-bay hardware raid 0/1/jbod At $179.99, it sits at the higher end of this comparison's price range."
+        "text": "QNAP TR-002-A-US 2-Bay USB-C DAS with Hardware RAID (Diskless) is aimed at buyers prioritizing 2-bay hardware raid 0/1/jbod At under $180, it sits at the higher end of this comparison's price range."
       }
     ],
     "note": "Most buyers should default to UGREEN Tool-Free M.2 NVMe SSD Enclosure (10Gbps) unless the pricier pick's specific advantage applies to your situation."
@@ -275,7 +275,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "QNAP TR-002-A-US 2-Bay USB-C DAS with Hardware RAID (Diskless) Buyers prioritizing 2-bay hardware raid 0/1/jbod. TerraMaster D2-320 2-Bay USB RAID Enclosure (Diskless) Buyers prioritizing 2-bay, hardware raid 0/1/jbod/single."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -327,7 +327,7 @@ export const faq = [
     "a": "Only if the specific enclosure documents hot-swap support, which most tool-free tray designs in this category do. Always check your specific product's hot-swap capability before removing a drive live, since not every budget enclosure supports it, especially some fixed-RAID-mode units."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", "a": "QNAP TR-002-A-US 2-Bay USB-C DAS with Hardware RAID (Diskless) is aimed at buyers prioritizing 2-bay hardware raid 0/1/jbod" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", "a": "QNAP TR-002-A-US 2-Bay USB-C DAS with Hardware RAID (Diskless) is aimed at buyers prioritizing 2-bay hardware raid 0/1/jbod" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-4-bay-das-storage","title":"8 Best 4-Bay DAS Storage Options"},{"href":"/guide/best-budget-das-storage","title":"8 Best Budget DAS Storage Options"},{"href":"/guide/best-5-port-poe-network-switches","title":"best-5-port-poe-network-switches"}];

@@ -5,7 +5,7 @@ export const metaDescription = "8 shredders rated for 10 sheets, at the price 's
 export const mainKeyword = "10-sheet paper shredder";
 export const introParagraphs = [
   "Real-world 10-sheet capacity with mixed paper is closer to 7-8 sheets, the same 25-30% real-world reduction seen at the 8-sheet tier, scaled up. This tier is also where buyers will find both P-2 strip-cut and P-4 cross-cut/micro-cut models at similar prices, a security-level comparison at matched capacity worth organizing clearly rather than treating all '10-sheet' listings as equivalent.",
-  "Auto-feed models also begin appearing at this capacity tier for the first time in this guide series, changing the comparison from purely manual-feed peers to a mixed feature set within the same nominal capacity.",
+  "Auto-feed models also begin appearing at this capacity tier for the first time in this guide series, changing the comparison from purely manual-feed peers to a mixed feature set within the same nominal capacity."
 ];
 export const lastUpdated = "2026-07-28";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall 10-Sheet Pick",
     name: "Bonsaii 10-Sheet Heavy Duty Cross Cut Paper Shredder for Home Office",
     price: "$53.09",
-    rating: "4.4 stars from 9,810 Amazon ratings",
-    reviews: "9,810 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31wkQYg97oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09MHR4457?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Micro-Cut Security at 10 Sheets",
     name: "Bonsaii Micro Cut Paper Shredder, 10-Sheet, Home Office, 5.5-Gallon bin",
     price: "$59.49",
-    rating: "4.5 stars from 8,974 Amazon ratings",
-    reviews: "8,974 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31jH9nhLBBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKXGNDLT?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Lowest Security, Best Fastener Tolerance",
     name: "Home Office Paper Shredder, Woolsche 10-Sheet Strip Cut, P-2 Security",
     price: "$34.16",
-    rating: "4.3 stars from 4,657 Amazon ratings",
-    reviews: "4,657 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31RMWoUZy7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FFJPQGD?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Higher Capacity, Worth the Small Premium",
     name: "Amazon Basics 15-Sheet Cross Cut Paper Shredder for Home and Office",
     price: "$108.00",
-    rating: "4.3 stars from 77,112 Amazon ratings",
-    reviews: "77,112 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31AP7IG-MYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08NY9W23W?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Longer Run Time Alternative",
     name: "Bonsaii 12-Sheet Cross Cut Heavy Duty Paper Shredder for Home Office",
     price: "$79.99",
-    rating: "4.5 stars from 1,685 Amazon ratings",
-    reviews: "1,685 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/310qS+3q87L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5XPJ524?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Wide Availability at Slightly Higher Capacity",
     name: "Amazon Basics 12-Sheet Cross-Cut Paper and Credit Card Shredder",
     price: "$58.00",
-    rating: "4.3 stars from 77,112 Amazon ratings",
-    reviews: "77,112 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31GNS0CdNOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6LZG69W?tag=deskfinds0d-20",
     description:
@@ -127,8 +127,8 @@ export const products: GuideProduct[] = [
     badge: "Compact Alternative, Slightly Under Target",
     name: "BONSEN Shredder for Home Office, 4 Gallons 8-Sheet Cross Cut Credit Card Shredder",
     price: "$39.09",
-    rating: "4.4 stars from 7,466 Amazon ratings",
-    reviews: "7,466 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31AtA7qsSwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08J2N4CS2?tag=deskfinds0d-20",
     description:
@@ -144,8 +144,8 @@ export const products: GuideProduct[] = [
     badge: "Higher Capacity Reference",
     name: "BONSEN 14-Sheet Cross Cut Heavy Duty Paper Shredder for Home Office",
     price: "$84.99",
-    rating: "4.1 stars from 1,061 Amazon ratings",
-    reviews: "1,061 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LSE9gHSWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DTKBX3D9?tag=deskfinds0d-20",
     description:
@@ -154,14 +154,14 @@ export const products: GuideProduct[] = [
     pros: ["Highest capacity reference point in this guide", "Longest run time among the comparison picks", "Casters for mobility", "ETL listed"],
     cons: ["Lowest rating among the higher-capacity picks", "Well above this guide's 10-sheet nominal target", "Priced higher than the true 10-sheet picks"],
     bestFor: "Buyers deciding whether to stretch well beyond 10-sheet capacity",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Real-world capacity at the 10-sheet tier", description: "Applied the same 25-30% real-world reduction pattern seen at the 8-sheet tier, scaled up, real-world capacity with mixed paper is typically 7-8 sheets for a 10-sheet-rated shredder." },
   { title: "Security-level comparison at matched capacity", description: "Organized picks by security level at the same nominal 10-sheet capacity, since this tier is where P-2 strip-cut and P-4 cross-cut/micro-cut models appear at similar prices, a comparison most roundups blur together." },
-  { title: "Auto-feed vs. manual-feed distinction within the capacity class", description: "Noted where auto-feed models begin appearing near this capacity tier, a feature-set bifurcation within the same nominal capacity that flat capacity-based rankings tend to blur." },
+  { title: "Auto-feed vs. manual-feed distinction within the capacity class", description: "Noted where auto-feed models begin appearing near this capacity tier, a feature-set bifurcation within the same nominal capacity that flat capacity-based rankings tend to blur." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -290,15 +290,15 @@ export const buyingCriteria: BuyingCriterion[] = [
 
 export const faq: FaqItem[] = [
   { q: "Can a 10-sheet shredder really handle 10 sheets of any paper?", a: "Not reliably. Real-world capacity with mixed paper weights is typically closer to 7-8 sheets, the same 25-30% reduction pattern seen at lower capacity tiers, scaled up from the ideal lab-condition rating." },
-  { q: "Why do two 10-sheet shredders have such different prices?", a: "Security level varies widely at this capacity tier. This guide's picks range from P-2 strip-cut ($34) to P-4 micro-cut ($59), a real security difference behind similarly-labeled capacity, not just brand markup." },
+  { q: "Why do two 10-sheet shredders have such different prices?", a: "Security level varies widely at this capacity tier. This guide's picks range from P-2 strip-cut (under $35) to P-4 micro-cut (under $60), a real security difference behind similarly-labeled capacity, not just brand markup." },
   { q: "Does more sheet capacity mean a longer continuous run time?", a: "Not proportionally. A 10-sheet shredder's run time is often similar to an 8-sheet model's (4-5 minutes) since the limiting factor is motor thermal capacity, not the sheet-handling spec itself." },
   { q: "Should I get a 10-sheet or 12-15 sheet shredder?", a: "Depends on your budget and how close to the rated capacity you typically shred. If you regularly approach 10 sheets, a 12-15 sheet-rated model gives more real-world headroom for the same reason the rated number exceeds actual mixed-paper performance." },
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers who want a proven, well-rated cross-cut pick at the 10-sheet tier" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who don't need P-4 security and want the cheapest, quietest 10-sheet option At $34.16, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who don't need P-4 security and want the cheapest, quietest 10-sheet option At under $35, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-8-sheet-paper-shredders", title: "Best 8-Sheet Paper Shredders (2026)" },
   { href: "/guide/best-15-sheet-paper-shredders", title: "Best 15-Sheet Paper Shredders (2026)" },
-  { href: "/guide/best-paper-shredders-under-100", title: "Best Paper Shredders Under $100 (2026)" },
+  { href: "/guide/best-paper-shredders-under-100", title: "Best Paper Shredders Under $100 (2026)" }
 ];

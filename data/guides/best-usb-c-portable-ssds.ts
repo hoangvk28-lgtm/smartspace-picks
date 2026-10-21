@@ -5,7 +5,7 @@ export const metaDescription = "4 USB-C portable SSDs we evaluated, with a clear
 export const mainKeyword = "best usb c portable ssd";
 export const introParagraphs = [
   "A USB-C connector is just a physical shape, it does not by itself guarantee any particular speed tier, two USB-C drives can differ enormously in real throughput depending on what USB spec is actually implemented behind that connector.",
-  "Cable quality matters just as much as the drive and port, a cheap or non-compliant USB-C cable can bottleneck a fast drive down to a fraction of its rated speed regardless of how capable the drive and host port are.",
+  "Cable quality matters just as much as the drive and port, a cheap or non-compliant USB-C cable can bottleneck a fast drive down to a fraction of its rated speed regardless of how capable the drive and host port are."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall USB-C Pick",
     name: "SANDISK 2TB Extreme Portable SSD (Old Model) - Up to 1050MB/s, USB-C, USB 3.2 Gen 2, IP65 Water and Dust Resistance, Updated Firmware - SDSSDE61-2T00-G25",
     price: "$299.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "91,365 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41eTFK7clfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HN37XC1?tag=deskfinds0d-20",
     description: "SanDisk's Extreme uses a genuine USB-C connector backed by USB 3.2 Gen 2 speed, rated up to 1050MB/s, with IP65 water and dust resistance layered on top.\n\nIt earns the top spot in this comparison over Samsung T7 Portable SSD 1TB Titan Gray for one main reason. Genuine USB 3.2 Gen 2 speed tier behind the USB-C connector. On price, it's actually priced above Samsung T7 Portable SSD 1TB Titan Gray, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: IP65 rating adds real everyday durability. On the other side, Sustained speed can dip after cache exhaustion. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Slim USB-C Pick",
     name: "Samsung T7 Portable SSD 1TB Titan Gray, USB 3.2 Gen 2, Up to 1,050MB/s",
     price: "$216.36",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "21,124 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LdvAbumfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874XN4D8?tag=deskfinds0d-20",
     description: "Samsung's T7 pairs USB-C with the same 1050MB/s USB 3.2 Gen 2 tier in a slim metal body.\n\nOne spot below SANDISK 2TB Extreme Portable SSD in this ranking, it's priced lower than SANDISK 2TB Extreme Portable SSD. The compromise here is straightforward: No official IP rating. What you gain in return: Confirmed real USB 3.2 Gen 2 speed tier. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Slim, lightweight design. On the other side, Usable capacity reads below the advertised 1TB. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Speed USB-C Pick",
     name: "SANDISK 1TB Extreme Portable SSD (New Model) - up to 2000MB/s Transfer speeds, USB Type-C connectivity - Black - SDSSDE70-1T00-G25",
     price: "$239.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "91 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41UpTn5oveL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GMWYYRQL?tag=deskfinds0d-20",
     description: "SanDisk's newer Extreme model steps the USB-C implementation up to 2000MB/s, a genuinely faster tier than standard Gen 2, though it still requires a matching host port to deliver that number.\n\nSitting just under Samsung T7 Portable SSD 1TB Titan Gray, it costs more than Samsung T7 Portable SSD 1TB Titan Gray. Here's the honest tradeoff: Needs a genuinely fast USB-C host port to hit rated speed. And here's what it gets you instead: Genuinely faster USB-C speed tier than standard Gen 2. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Compact, travel-friendly design. On the other side, Not every laptop's USB-C port supports this tier. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget USB-C Pick",
     name: "SANDISK 1TB Portable SSD - Up to 800MB/s, USB-C, USB 3.2 Gen 2, Updated Firmware - SDSSDE30-1T00-G26",
     price: "$164.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "10,968 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41-T4nAAufL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5JQ68FY?tag=deskfinds0d-20",
     description: "SanDisk's standard Portable SSD keeps the USB-C connector but implements a more modest USB 3.2 Gen 2 tier rated up to 800MB/s.\n\nRanked just behind SANDISK 1TB Extreme Portable SSD, it's priced lower than SANDISK 1TB Extreme Portable SSD. The real tradeoff against that pick: Lowest speed ceiling of this group despite the same connector. In exchange, it offers this instead: Genuine USB 3.2 Gen 2 speed at a budget price. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Same USB-C connector as pricier drives. On the other side, Best suited to everyday files, not large video work. That's the main tradeoff to weigh against everything above.",

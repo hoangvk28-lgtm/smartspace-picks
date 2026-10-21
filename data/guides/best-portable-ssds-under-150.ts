@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Tested, documented ruggedness and top speed", "PNY RP60 1TB Portable SSD"],
         ["Documented health monitoring without the top price", "SSK Portable SSD 500GB"],
-        ["The absolute lowest price in this tier", "Orlian 500GB External Portable SSD"],
+        ["The absolute lowest price in this tier", "Orlian 500GB External Portable SSD"]
       ],
     },
   },
@@ -116,9 +116,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $75", "Orlian 500GB External Portable SSD ($68.58) or Vansuny 500GB Portable External SSD ($70.99)"],
-        ["$90-$95", "SSK Portable SSD 500GB ($92.99)"],
-        ["$140-$150", "PNY RP60 1TB Portable SSD ($149.99)"],
+        ["Under $75", "Orlian 500GB External Portable SSD (under $70) or Vansuny 500GB Portable External SSD (under $80)"],
+        ["$90-$95", "SSK Portable SSD 500GB (under $100)"],
+        ["$140-$150", "PNY RP60 1TB Portable SSD (under $150)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Tested IP Rating vs General Durability Claims",
     cards: [
       { label: "Tested IP Rating (PNY RP60)", text: "A stated IP65 rating and specific 3m drop figure mean the manufacturer put the drive through an actual standardized test, giving you a real number to trust. Best if the drive will genuinely see dust, water, or rough handling." },
-      { label: "General Durability Language (SSK, Orlian, Vansuny)", text: "Descriptions like \"metal housing\" or \"shock resistant\" without a specific tested figure may still offer real protection, but there's no standardized number to verify it against. Best for a drive that mostly stays in a bag or on a desk." },
+      { label: "General Durability Language (SSK, Orlian, Vansuny)", text: "Descriptions like \"metal housing\" or \"shock resistant\" without a specific tested figure may still offer real protection, but there's no standardized number to verify it against. Best for a drive that mostly stays in a bag or on a desk." }
     ],
     note: "Most buyers whose drive stays in normal indoor use don't need a tested IP rating, but it's worth the extra cost for anyone using the drive outdoors or on job sites.",
   },
@@ -136,7 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Storage need", "Recommended pick"],
       rows: [
         ["500GB is enough", "SSK Portable SSD 500GB, Orlian 500GB, or Vansuny 500GB"],
-        ["Want a full 1TB", "PNY RP60 1TB Portable SSD"],
+        ["Want a full 1TB", "PNY RP60 1TB Portable SSD"]
       ],
     },
   },
@@ -144,16 +144,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Job Site or Outdoor Use Specifically",
     cards: [
       { label: "Look for", text: "A specific IP rating number (like IP65) and a stated drop-height figure, not just general \"rugged\" marketing language." },
-      { label: "In this comparison", text: "The PNY RP60 1TB Portable SSD is the only pick with both a tested IP65 rating and a specific 3m drop figure, making it the clear choice for genuinely exposed conditions." },
+      { label: "In this comparison", text: "The PNY RP60 1TB Portable SSD is the only pick with both a tested IP65 rating and a specific 3m drop figure, making it the clear choice for genuinely exposed conditions." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You need the PNY RP60 1TB Portable SSD's tested durability rating and top-tier speed for genuinely demanding conditions or heavy 4K workflows." },
-      { label: "Save if", text: "Your drive stays in normal indoor use, where the SSK Portable SSD 500GB or Orlian 500GB External Portable SSD cover typical file transfer and backup needs for a fraction of the PNY's price." },
+      { label: "Save if", text: "Your drive stays in normal indoor use, where the SSK Portable SSD 500GB or Orlian 500GB External Portable SSD cover typical file transfer and backup needs for a fraction of the PNY's price." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -182,7 +182,7 @@ export const buyingCriteria = [
 export const faq = [
   { "q": "What does an IP65 rating actually mean for a portable SSD?", "a": "IP65 means the device is fully protected against dust ingress and protected against water jets from any direction, based on a standardized testing protocol. It's a specific, verifiable claim rather than general marketing language like \"durable\" or \"rugged,\" which don't reference any particular tested standard." },
   { "q": "Is it worth paying nearly double for a drive with a tested IP rating?", "a": "It depends on how you'll actually use the drive. If it's genuinely exposed to dust, water, or rough job-site conditions, a tested IP65 rating like the PNY pick's is worth the extra cost. If it mostly stays in a bag or on a desk, a cheaper drive without that specific rating is likely sufficient." },
-  { "q": "Why does one 500GB drive cost $93 and another cost $69 with similar specs?", "a": "The price difference usually comes down to documented features like health monitoring, rated speed, and brand reputation, rather than the underlying storage technology itself. The pricier SSK pick in this comparison documents S.M.A.R.T. and TRIM support and rates faster, while the cheaper Orlian pick doesn't specify those features." },
+  { "q": "Why does one 500GB drive cost under $100 and another cost under $70 with similar specs?", "a": "The price difference usually comes down to documented features like health monitoring, rated speed, and brand reputation, rather than the underlying storage technology itself. The pricier SSK pick in this comparison documents S.M.A.R.T. and TRIM support and rates faster, while the cheaper Orlian pick doesn't specify those features." },
   { "q": "Does a 1TB drive at $150 make more sense than two 500GB drives?", "a": "For most buyers, yes, one 1TB drive is simpler to manage than juggling two separate 500GB drives, and the PNY 1TB pick in this comparison costs roughly the same as buying two of the pricier 500GB options here. The exception is if you specifically want physically separate backups on two different drives for redundancy." },
   { "q": "Do budget drives without a stated warranty still come with any protection?", "a": "Most electronics sold through Amazon carry at least a basic manufacturer warranty even when it isn't prominently advertised, but the length and terms vary. Check the specific listing's warranty information section rather than assuming a standard length, and favor a listing that states its warranty term explicitly if that matters to you." },
   { "q": "Can I use a drive rated for a specific USB generation on an older computer?", "a": "Generally yes, most external SSDs are backward compatible with older USB standards, but your transfer speed will be capped at whatever the older port supports, not the drive's full rated speed. Check that the drive explicitly states backward compatibility if you're connecting it to an older USB 2.0 or 3.0 port." }

@@ -11,7 +11,7 @@ export const monitorArmVsMonitorStandGuide: Guide = {
   subKeywords: [
     "monitor arm vs stand desk space",
     "do i need a monitor arm or stand",
-    "monitor stand vs arm cost",
+    "monitor stand vs arm cost"
   ],
   heroImage: "https://images.unsplash.com/photo-1755436612558-7bf6831716c5?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1755436612558-7bf6831716c5?q=80&w=800&auto=format&fit=crop",
@@ -23,7 +23,7 @@ export const monitorArmVsMonitorStandGuide: Guide = {
     "monitor-stands-small-desks",
     "best-monitor-arm-desk-mounts",
     "best-ultrawide-monitor-arm",
-    "best-ultrawide-monitor-stand",
+    "best-ultrawide-monitor-stand"
   ],
   faq: [
     {
@@ -50,7 +50,7 @@ export const monitorArmVsMonitorStandGuide: Guide = {
       question: "Which is better for a small desk, a monitor arm or a stand?",
       answer:
         "A monitor arm generally works better for a small desk since it reclaims the desk surface space the monitor's base would otherwise occupy, which matters more the smaller your available desk area is.",
-    },
+    }
   ],
   sections: [
     {
@@ -83,6 +83,6 @@ The tradeoff is installation: an arm needs a compatible desk edge for clamping (
 Stands are also typically cheaper, and some double as a small storage shelf underneath for a keyboard or documents, a functional bonus an arm doesn't provide since it leaves the desk surface empty beneath the monitor.
 
 The tradeoff is adjustability: most stands offer only a fixed height or a couple of stacked tiers, not the continuous, tool-free adjustment range a monitor arm provides.`,
-    },
+    }
   ],
 };

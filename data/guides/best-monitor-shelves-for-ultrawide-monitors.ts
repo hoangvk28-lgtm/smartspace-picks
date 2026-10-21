@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "monitor shelf for ultrawide monitor";
 export const introParagraphs = [
   "A single ultrawide monitor concentrates its full weight at one center point on a shelf, a more severe version of the point-load issue than a distributed dual-monitor setup where two smaller screens spread the load. The heaviest realistic ultrawide models, 20 lbs or more, can exceed a generously rated shelf's practical safety margin even when the spec sheet technically allows for it.",
-  "An ultrawide monitor's stand base is often deeper front-to-back than a standard monitor's, especially on curved models that sometimes sit further back for viewing angle, so verifying the shelf's surface depth against your specific stand's footprint matters more here than for a standard single monitor. Front-to-back tipping stability also matters more for stands with a longer forward-reaching arm.",
+  "An ultrawide monitor's stand base is often deeper front-to-back than a standard monitor's, especially on curved models that sometimes sit further back for viewing angle, so verifying the shelf's surface depth against your specific stand's footprint matters more here than for a standard single monitor. Front-to-back tipping stability also matters more for stands with a longer forward-reaching arm."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,13 +26,13 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Shelf for Ultrawide Monitors",
     name: "WESTREE Dual Monitor Stand Riser, Wood and Steel, Rustic Brown",
     price: "$29.98",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "3,764 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51oe+oiyh9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09QWC568X?tag=deskfinds0d-20",
-    description: "For buyers with a heavy ultrawide monitor needing genuine center point-load capacity Built with a wood platform rated to 66 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nIt earns the top spot in this comparison over Fenge Dual Monitor Stand Riser for one main reason. Solid 4.6-star rating with 3,764 ratings. On price, it comes in below Fenge Dual Monitor Stand Riser, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["66 lbs rated capacity (evenly distributed)","wood construction","Priced at $29.98","3,764 ratings on Amazon"],
-    pros: ["Solid 4.6-star rating with 3,764 ratings","Wood build appropriate for this use case","Reasonable price at $29.98","A wide wood and steel riser rated up to 66 lbs, sized for a single large or ultrawide display."],
+    description: "For buyers with a heavy ultrawide monitor needing genuine center point-load capacity Built with a wood platform rated to 66 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nIt earns the top spot in this comparison over Fenge Dual Monitor Stand Riser for one main reason. On price, it comes in below Fenge Dual Monitor Stand Riser, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["66 lbs rated capacity (evenly distributed)","wood construction","Priced under $30"],
+    pros: ["Wood build appropriate for this use case","Reasonable price at under $30","A wide wood and steel riser rated up to 66 lbs, sized for a single large or ultrawide display."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A wide wood and steel riser rated up to 66 lbs, sized for a single large or ultrawide display.",
   },
@@ -42,13 +42,13 @@ export const products: GuideProduct[] = [
     badge: "Best Ultrawide Shelf with Storage",
     name: "Fenge Dual Monitor Stand Riser, Wooden Desk Shelf with 2-Tier Storage",
     price: "$97.99",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "764 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/411WQcE8coL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFQ5Y7SY?tag=deskfinds0d-20",
-    description: "For buyers wanting ultrawide support plus cable and accessory storage underneath Built with a wood platform rated to 50 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nOne spot below WESTREE Dual Monitor Stand Riser in this ranking, it costs more than WESTREE Dual Monitor Stand Riser. The compromise here is straightforward: Rated capacity assumes evenly distributed weight, not a single point load. What you gain in return: Solid 4.7-star rating with 764 ratings. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["50 lbs rated capacity (evenly distributed)","wood construction","Priced at $97.99","764 ratings on Amazon"],
-    pros: ["Solid 4.7-star rating with 764 ratings","Wood build appropriate for this use case","Reasonable price at $97.99","A wooden shelf with 2-tier storage, wide enough for an ultrawide monitor's base."],
+    description: "For buyers wanting ultrawide support plus cable and accessory storage underneath Built with a wood platform rated to 50 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nOne spot below WESTREE Dual Monitor Stand Riser in this ranking, it costs more than WESTREE Dual Monitor Stand Riser. The compromise here is straightforward: Rated capacity assumes evenly distributed weight, not a single point load. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["50 lbs rated capacity (evenly distributed)","wood construction","Priced under $100"],
+    pros: ["Wood build appropriate for this use case","Reasonable price at under $100","A wooden shelf with 2-tier storage, wide enough for an ultrawide monitor's base."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A wooden shelf with 2-tier storage, wide enough for an ultrawide monitor's base.",
   },
@@ -58,13 +58,13 @@ export const products: GuideProduct[] = [
     badge: "Best Extra-Wide Shelf for Large Ultrawide Setups",
     name: "Nnewvante Monitor Stand Riser, 60 inch Bamboo Triple Monitor Stand",
     price: "$59.63",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "552 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41WOjLmyBIS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08NPKVRD9?tag=deskfinds0d-20",
-    description: "For buyers with an especially large ultrawide monitor or a triple-monitor spread Built with a wood platform rated to 60 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nSitting just under Fenge Dual Monitor Stand Riser, it's priced lower than Fenge Dual Monitor Stand Riser. Here's the honest tradeoff: Rated capacity assumes evenly distributed weight, not a single point load. And here's what it gets you instead: Solid 4.5-star rating with 552 ratings. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["60 lbs rated capacity (evenly distributed)","wood construction","Priced at $59.63","552 ratings on Amazon"],
-    pros: ["Solid 4.5-star rating with 552 ratings","Wood build appropriate for this use case","Reasonable price at $59.63","A 60 inch bamboo shelf, among the widest options for a large ultrawide or triple-monitor arrangement."],
+    description: "For buyers with an especially large ultrawide monitor or a triple-monitor spread Built with a wood platform rated to 60 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nSitting just under Fenge Dual Monitor Stand Riser, it's priced lower than Fenge Dual Monitor Stand Riser. Here's the honest tradeoff: Rated capacity assumes evenly distributed weight, not a single point load. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["60 lbs rated capacity (evenly distributed)","wood construction","Priced under $60"],
+    pros: ["Wood build appropriate for this use case","Reasonable price at under $60","A 60 inch bamboo shelf, among the widest options for a large ultrawide or triple-monitor arrangement."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A 60 inch bamboo shelf, among the widest options for a large ultrawide or triple-monitor arrangement.",
   },
@@ -74,13 +74,13 @@ export const products: GuideProduct[] = [
     badge: "Best Wooden Shelf for a Single Large Ultrawide",
     name: "YAOHUOO Dual Monitor Stand Riser, 39 Inch Large Monitor Stand for 2 Monitors",
     price: "$39.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "1,039 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41kGJBcPXkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C131DL82?tag=deskfinds0d-20",
-    description: "For buyers with one large ultrawide monitor wanting a dedicated wide wooden platform Built with a wood platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nRanked just behind Nnewvante Monitor Stand Riser, it's priced lower than Nnewvante Monitor Stand Riser. The real tradeoff against that pick: Rated capacity assumes evenly distributed weight, not a single point load. In exchange, it offers this instead: Solid 4.6-star rating with 1,039 ratings. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["44 lbs rated capacity (evenly distributed)","wood construction","Priced at $39.99","1,039 ratings on Amazon"],
-    pros: ["Solid 4.6-star rating with 1,039 ratings","Wood build appropriate for this use case","Reasonable price at $39.99","A 39 inch wooden shelf sized specifically for large single-monitor and dual-monitor setups."],
+    description: "For buyers with one large ultrawide monitor wanting a dedicated wide wooden platform Built with a wood platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nRanked just behind Nnewvante Monitor Stand Riser, it's priced lower than Nnewvante Monitor Stand Riser. The real tradeoff against that pick: Rated capacity assumes evenly distributed weight, not a single point load. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","wood construction","Priced under $40"],
+    pros: ["Wood build appropriate for this use case","Reasonable price at under $40","A 39 inch wooden shelf sized specifically for large single-monitor and dual-monitor setups."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A 39 inch wooden shelf sized specifically for large single-monitor and dual-monitor setups.",
   }
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Center point-load stress assessed", description: "Weighted how a single ultrawide monitor concentrates full weight at one center point, a more severe case than a distributed dual-monitor load." },
   { title: "Realistic heaviest ultrawide weight considered", description: "Checked whether rated capacity holds up against the heaviest realistic ultrawide models, 20 lbs or more, not just an average monitor weight." },
   { title: "Surface depth verified against stand footprint", description: "Compared shelf depth against typical ultrawide stand bases, noting curved models can sit further back than standard monitors." },
-  { title: "Front-to-back tipping stability checked", description: "Considered tipping risk specifically for stands with a longer forward-reaching arm rather than a compact flat base." },
+  { title: "Front-to-back tipping stability checked", description: "Considered tipping risk specifically for stands with a longer forward-reaching arm rather than a compact flat base." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -176,23 +176,19 @@ export const howToChoose: HowToChooseSection[] = [
       {
         "label": "Look for",
         "text": "A stated weight capacity with real margin above your monitor's actual weight, a rigid material like metal or thick wood, and a wide enough platform to support the monitor's full base without overhang."
-      },
-      {
-        "label": "In this comparison",
-        "text": "Fenge Dual Monitor Stand Riser fits this specifically: Solid 4.7-star rating with 764 ratings."
       }
-    ]
+      ]
   },
   {
     "subheading": "When to Spend More",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want what Fenge Dual Monitor Stand Riser offers: Solid 4.7-star rating with 764 ratings. That's a real functional upgrade over the budget picks here, not just a brand markup."
+        "text": "That's a real functional upgrade over the budget picks here, not just a brand markup."
       },
       {
         "label": "Save if",
-        "text": "WESTREE Dual Monitor Stand Riser already covers the essentials: Solid 4.6-star rating with 3,764 ratings. The main thing you'd be paying extra for elsewhere in this list is capacity or storage you may not need."
+        "text": "The main thing you'd be paying extra for elsewhere in this list is capacity or storage you may not need."
       }
     ]
   }
@@ -225,11 +221,11 @@ export const faq: FaqItem[] = [
   { q: "Do ultrawide monitors need a wider shelf than standard monitors?", a: "Not necessarily wider, but the shelf needs enough surface depth for the stand's base and a rating that accounts for one concentrated point load rather than distributed weight." },
   { q: "Can a shelf rated for 44 lbs safely hold my 25 lb ultrawide monitor?", a: "Likely, but since the full weight concentrates at one point, it's safer to leave meaningful headroom below the rated maximum rather than loading close to it." },
   { q: "Why does my curved ultrawide monitor need more shelf depth?", a: "Curved stands sometimes sit further back for the intended viewing angle, measure your specific stand's footprint against the shelf's depth." },
-  { q: "Is tipping a real risk with an ultrawide monitor stand?", a: "It can be with stands that have a longer forward-reaching arm, check reviews for front-to-back stability specifically." },
+  { q: "Is tipping a real risk with an ultrawide monitor stand?", a: "It can be with stands that have a longer forward-reaching arm, check reviews for front-to-back stability specifically." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-wide-monitor-shelves", title: "Best Wide Monitor Shelves (2026)" },
   { href: "/guide/best-monitor-shelves-for-dual-monitors", title: "Best Monitor Shelves for Dual Monitors (2026)" },
-  { href: "/guide/best-curved-monitor-shelves", title: "Best Curved Monitor Shelves (2026)" },
+  { href: "/guide/best-curved-monitor-shelves", title: "Best Curved Monitor Shelves (2026)" }
 ];

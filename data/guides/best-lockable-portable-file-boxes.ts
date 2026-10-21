@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "lockable portable file boxes";
 export const introParagraphs = [
   "\"Lockable\" covers a wide range of actual security, from a genuine key or combination lock to a simple latch marketed loosely as lockable. We decoded each pick's actual mechanism and set realistic expectations: a basic plastic file box's lock typically deters casual access rather than providing genuine security against determined tampering.",
-  "We also considered key or combination management, since a lost key with no backup process is a real practical ownership concern for a locking box.",
+  "We also considered key or combination management, since a lost key with no backup process is a real practical ownership concern for a locking box."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Lock mechanism type decoding", description: "We identified whether each pick uses a genuine key lock, combination lock, or basic latch marketed loosely as 'lockable,' since these represent very different actual security levels." },
   { title: "Realistic security expectation setting", description: "We were explicit that these are deterrent-level locks appropriate for casual access prevention, not safe-grade security against determined tampering." },
   { title: "Key or combination management", description: "We considered the practical risk of a lost key or forgotten combination, and whether a backup or reset process exists." },
-  { title: "Lock durability under repeated use", description: "We noted lock placement and mechanism durability under repeated locking and unlocking cycles for long-term reliability." },
+  { title: "Lock durability under repeated use", description: "We noted lock placement and mechanism durability under repeated locking and unlocking cycles for long-term reliability." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -224,11 +224,11 @@ export const faq: FaqItem[] = [
   { q: "What happens if I lose the key to a lockable file box?", a: "You'll generally need to replace the entire lock mechanism, since these boxes don't typically offer a backup key or professional locksmith reset process like a home lock would." },
   { q: "Is a combination lock better than a key lock?", a: "It avoids lost-key risk since you set your own code, but a forgotten combination requires its own reset process. Neither is meaningfully more secure than the other against determined tampering." },
   { q: "Is a 'lockable' file box actually locked, or just a secure latch?", a: "This varies by product. Some listings use 'lockable' loosely for a secure double-latch closure rather than a genuine key or combination lock. Check the specific product description to confirm." },
-  { q: "Which pick offers the most security against prying?", a: "The Vaultz Dual Lock pick uses two separate locking points, genuinely more resistant to prying open at a single weak point than a single-lock design." },
+  { q: "Which pick offers the most security against prying?", a: "The Vaultz Dual Lock pick uses two separate locking points, genuinely more resistant to prying open at a single weak point than a single-lock design." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" },
   { href: "/guide/best-fireproof-portable-file-boxes", title: "Best Fireproof Portable File Boxes (2026)" },
-  { href: "/guide/best-portable-file-boxes-with-lockable-lids", title: "Best Portable File Boxes with Lockable Lids (2026)" },
+  { href: "/guide/best-portable-file-boxes-with-lockable-lids", title: "Best Portable File Boxes with Lockable Lids (2026)" }
 ];

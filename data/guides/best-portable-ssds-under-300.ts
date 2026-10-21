@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31j5yeNAFYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DPQ5Y3SP?tag=deskfinds0d-20",
-    description: "This 2TB drive lands well under this tier's ceiling at $239.99, rated at up to 550MB/s with both USB-C cable and USB-A adapter included, and documents S.M.A.R.T. monitoring plus TRIM support, features not every 2TB drive in this range specifies. It's also upfront about the same decimal-versus-binary capacity display gap SSK notes on its smaller drives, stating a 2TB drive typically shows around 1863GB on Windows.\n\nAgainst the fanxiang pick below, the tradeoff is speed, roughly a quarter of fanxiang's rated 2000MB/s, in exchange for a meaningfully lower price at the same 2TB capacity. For buyers whose workflow doesn't require the fastest possible large-file transfers, this represents the best capacity-per-dollar option in this comparison.\n\nBest for buyers who want 2TB of documented, health-monitored storage at the lowest price in this comparison and don't need top-tier transfer speeds.",
+    description: "This 2TB drive lands well under this tier's ceiling at under $250, rated at up to 550MB/s with both USB-C cable and USB-A adapter included, and documents S.M.A.R.T. monitoring plus TRIM support, features not every 2TB drive in this range specifies. It's also upfront about the same decimal-versus-binary capacity display gap SSK notes on its smaller drives, stating a 2TB drive typically shows around 1863GB on Windows.\n\nAgainst the fanxiang pick below, the tradeoff is speed, roughly a quarter of fanxiang's rated 2000MB/s, in exchange for a meaningfully lower price at the same 2TB capacity. For buyers whose workflow doesn't require the fastest possible large-file transfers, this represents the best capacity-per-dollar option in this comparison.\n\nBest for buyers who want 2TB of documented, health-monitored storage at the lowest price in this comparison and don't need top-tier transfer speeds.",
     specs: ["2TB capacity, up to 550MB/s", "S.M.A.R.T. monitoring and TRIM documented", "Includes both USB-C cable and USB-A adapter"],
     pros: ["Cheapest 2TB option in this comparison by a wide margin", "Documents S.M.A.R.T. and TRIM support", "Includes both USB-C and USB-A connectivity out of the box"],
     cons: ["Roughly a quarter of the fanxiang pick's rated top speed", "550MB/s is noticeably slower than several other 2TB options at this tier"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41-T4nAAufL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5JNWF58?tag=deskfinds0d-20",
-    description: "This drive brings Sandisk's established brand name to the 2TB tier at $277.95, rated at up to 800MB/s with a stated 2-meter drop protection figure and a tough rubber hook for securing it to a belt loop or backpack, a physical carry feature the other picks here don't mention. Sandisk positions it around professional photographer use specifically.\n\nCompared to both the SSK and fanxiang picks, this costs meaningfully more for a rated speed that sits between the two, slower than fanxiang but faster than SSK, making the brand name itself the main differentiator rather than a clear specs advantage in either direction. For buyers specifically wanting Sandisk's track record at 2TB, this is the option, though it isn't the strongest value on paper within this comparison.\n\nBest for buyers who specifically want Sandisk's established brand name at the 2TB tier and value the physical carry hook for attaching to a bag.",
+    description: "This drive brings Sandisk's established brand name to the 2TB tier at under $300, rated at up to 800MB/s with a stated 2-meter drop protection figure and a tough rubber hook for securing it to a belt loop or backpack, a physical carry feature the other picks here don't mention. Sandisk positions it around professional photographer use specifically.\n\nCompared to both the SSK and fanxiang picks, this costs meaningfully more for a rated speed that sits between the two, slower than fanxiang but faster than SSK, making the brand name itself the main differentiator rather than a clear specs advantage in either direction. For buyers specifically wanting Sandisk's track record at 2TB, this is the option, though it isn't the strongest value on paper within this comparison.\n\nBest for buyers who specifically want Sandisk's established brand name at the 2TB tier and value the physical carry hook for attaching to a bag.",
     specs: ["2TB capacity, up to 800MB/s read", "2-meter drop protection, rubber carry hook", "Established Sandisk brand"],
     pros: ["Established Sandisk brand name at the 2TB tier", "Stated 2-meter drop protection figure", "Rubber hook for securing to a bag or belt loop"],
     cons: ["Costs more than both faster and slower alternatives in this comparison", "No documented S.M.A.R.T. or TRIM support unlike the SSK pick"],
@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["2TB at the lowest price with health monitoring", "SSK 2TB Portable SSD"],
         ["The fastest 2TB drive for large file transfers", "fanxiang 2TB External SSD"],
-        ["Built-in encryption software at 2TB", "Lexar ES3 2TB Portable SSD"],
+        ["Built-in encryption software at 2TB", "Lexar ES3 2TB Portable SSD"]
       ],
     },
   },
@@ -116,9 +116,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $250", "SSK 2TB Portable SSD ($239.99) or fanxiang 2TB External SSD ($246.99)"],
-        ["$270-$280", "Sandisk 2TB Portable SSD, Old Model ($277.95)"],
-        ["$290-$300", "Lexar ES3 2TB Portable SSD ($299.99)"],
+        ["Under $250", "SSK 2TB Portable SSD (under $250) or fanxiang 2TB External SSD (under $250)"],
+        ["$270-$280", "Sandisk 2TB Portable SSD, Old Model (under $300)"],
+        ["$290-$300", "Lexar ES3 2TB Portable SSD (under $300)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "USB 3.2 Gen 2 vs Gen 2x2",
     cards: [
       { label: "Gen 2 (SSK, Sandisk, Lexar)", text: "Rated between 550MB/s and 1050MB/s, sufficient for most everyday transfers and moderate video work. Best if your host device doesn't support the faster Gen 2x2 standard anyway." },
-      { label: "Gen 2x2 (fanxiang)", text: "Rated up to 2000MB/s, nearly 4x the SSK's speed, but only reaches that ceiling with a host device that also supports the 20Gbps standard. Best for heavy 4K or RAW workflows on a modern computer." },
+      { label: "Gen 2x2 (fanxiang)", text: "Rated up to 2000MB/s, nearly 4x the SSK's speed, but only reaches that ceiling with a host device that also supports the 20Gbps standard. Best for heavy 4K or RAW workflows on a modern computer." }
     ],
     note: "Check your computer's actual USB port specification before paying extra for Gen 2x2 speed, since an older port caps you at the lower standard regardless of the drive's rating.",
   },
@@ -136,7 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Feature priority", "Recommended pick"],
       rows: [
         ["Encryption software for sensitive files", "Lexar ES3 2TB Portable SSD"],
-        ["Documented longevity rating (TBW)", "fanxiang 2TB External SSD"],
+        ["Documented longevity rating (TBW)", "fanxiang 2TB External SSD"]
       ],
     },
   },
@@ -144,16 +144,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Professional Photography Specifically",
     cards: [
       { label: "Look for", text: "A stated drop-protection figure and a physical carry option like a belt or bag hook, since a photographer's drive travels more than a desk-bound one." },
-      { label: "In this comparison", text: "The Sandisk 2TB Portable SSD, Old Model specifically markets itself around professional photographer use with a stated 2-meter drop rating and rubber carry hook." },
+      { label: "In this comparison", text: "The Sandisk 2TB Portable SSD, Old Model specifically markets itself around professional photographer use with a stated 2-meter drop rating and rubber carry hook." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You need the fanxiang 2TB External SSD's Gen 2x2 speed for heavy 4K workflows, or the Lexar ES3 2TB Portable SSD's encryption software for sensitive files, both genuine capability upgrades over the base SSK pick." },
-      { label: "Save if", text: "You just need reliable 2TB storage without a speed or security premium, where the SSK 2TB Portable SSD covers the need at the lowest price in this comparison with documented health monitoring." },
+      { label: "Save if", text: "You just need reliable 2TB storage without a speed or security premium, where the SSK 2TB Portable SSD covers the need at the lowest price in this comparison with documented health monitoring." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

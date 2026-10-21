@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Maximum weight capacity and BIFMA certification", "CAPOT Ergonomic Mesh Office Chair, 400lbs"],
         ["Precise 3D armrests and lumbar adjustment", "Marsail Ergonomic Office Chair with 3D Armrests"],
         ["The lowest price with SGS certification", "HUANUO Ergonomic Office Chair with 3D Armrests"],
-        ["Comprehensive 5-point support with FSC sourcing", "FelixKing Office Chair with Adjustable Lumbar Support"],
+        ["Comprehensive 5-point support with FSC sourcing", "FelixKing Office Chair with Adjustable Lumbar Support"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $110", "HUANUO ($109.98)"],
-        ["Under $120", "Marsail ($118.94) or FelixKing ($119.99)"],
-        ["Under $200", "CAPOT ($199.99)"],
+        ["Under $110", "HUANUO (under $110)"],
+        ["Under $120", "Marsail (under $120) or FelixKing (under $120)"],
+        ["Under $200", "CAPOT (under $200)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "BIFMA X5.1 Structural Certification vs SGS Component Certification",
     cards: [
       { label: "BIFMA X5.1 (CAPOT)", text: "A comprehensive structural durability standard covering the whole chair's frame and mechanism, the most thorough certification in this comparison." },
-      { label: "SGS (HUANUO)", text: "A component-level third-party safety and quality certification, still a genuine credential but narrower in scope than full structural BIFMA testing." },
+      { label: "SGS (HUANUO)", text: "A component-level third-party safety and quality certification, still a genuine credential but narrower in scope than full structural BIFMA testing." }
     ],
     note: "If long-term structural durability under heavy daily use is your top concern, the CAPOT's BIFMA X5.1 certification offers the most comprehensive documented assurance in this comparison.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Under 300 lbs", "HUANUO Ergonomic Office Chair"],
         ["Under 330 lbs", "Marsail or FelixKing"],
-        ["Up to 400 lbs", "CAPOT Ergonomic Mesh Office Chair"],
+        ["Up to 400 lbs", "CAPOT Ergonomic Mesh Office Chair"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Buyers Needing Extended Warranty Coverage Specifically",
     cards: [
       { label: "Look for", text: "A specific stated warranty length and whether it includes complimentary part replacements, not just a general satisfaction guarantee." },
-      { label: "In this comparison", text: "The CAPOT pick's 5-year warranty with complimentary part replacements is the most extensive documented coverage here." },
+      { label: "In this comparison", text: "The CAPOT pick's 5-year warranty with complimentary part replacements is the most extensive documented coverage here." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the highest weight capacity, most granular lumbar adjustment, and longest warranty, where the CAPOT's BIFMA certification and 5-year coverage justify its higher price." },
-      { label: "Save if", text: "You want precise 3D armrests and documented SGS certification without the full BIFMA structural testing, where the HUANUO pick delivers that for roughly $90 less." },
+      { label: "Save if", text: "You want precise 3D armrests and documented SGS certification without the full BIFMA structural testing, where the HUANUO pick delivers that for roughly $90 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

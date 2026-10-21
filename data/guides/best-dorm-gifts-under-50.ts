@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41EiGh5njdL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09PDBNXGD?tag=deskfinds0d-20",
-    "description": "Sailstar combines a desk lamp, a 10 watt wireless charger and a pen holder. It lists 800 lumens, CRI 95, three color modes with stepless dimming and 8 watts of light output.\n\nIt costs $26.97, close to the WallShelfie but doing more at the desk, and it replaces a separate lamp and charger on a cramped surface. Unlike the shelf options, it needs a wall outlet.\n\nBest for a student who studies at a small desk. The caveat is that wireless charging needs a compatible phone and the lamp uses a wall outlet.",
+    "description": "Sailstar combines a desk lamp, a 10 watt wireless charger and a pen holder. It lists 800 lumens, CRI 95, three color modes with stepless dimming and 8 watts of light output.\n\nIt costs under $30, close to the WallShelfie but doing more at the desk, and it replaces a separate lamp and charger on a cramped surface. Unlike the shelf options, it needs a wall outlet.\n\nBest for a student who studies at a small desk. The caveat is that wireless charging needs a compatible phone and the lamp uses a wall outlet.",
     "specs": [
       "10W wireless charger",
       "800 lumens, CRI 95",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/415bCLpBNTL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DDV2G4DV?tag=deskfinds0d-20",
-    "description": "EzrAllora's blanket is 67 by 43 inches with a built-in foot pocket and a neck strap, designed to wrap like an adult swaddle. It is made of plush fleece.\n\nAt $31.97 it costs more than any of the shelves and unlike them gives warmth. The pocket keeps feet covered without blanket slipping.\n\nPerfect for a student who sits at a desk in a cold room. The caveat is that it is a lap blanket, not bedding.",
+    "description": "EzrAllora's blanket is 67 by 43 inches with a built-in foot pocket and a neck strap, designed to wrap like an adult swaddle. It is made of plush fleece.\n\nAt under $35 it costs more than any of the shelves and unlike them gives warmth. The pocket keeps feet covered without blanket slipping.\n\nPerfect for a student who sits at a desk in a cold room. The caveat is that it is a lap blanket, not bedding.",
     "specs": [
       "67 x 43 inch size",
       "Foot pocket and neck strap",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41ZF1CHoC8L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GZ137Y74?tag=deskfinds0d-20",
-    "description": "WallShelfie is a bedside wall shelf that installs and removes without tools or holes, built for dorms and rentals. It holds a phone, remote and small makeup.\n\nIt costs $24.99, about $3 more than the Yaztops shelf below, and it is a simpler, lighter design. Compared with the metal Yaztops, it is a plain organizer without a cup holder or cable slot.\n\nA good pick for a student with a bunk bed. The caveat is that adhesive holds only light loads.",
+    "description": "WallShelfie is a bedside wall shelf that installs and removes without tools or holes, built for dorms and rentals. It holds a phone, remote and small makeup.\n\nIt costs under $25, about $3 more than the Yaztops shelf below, and it is a simpler, lighter design. Compared with the metal Yaztops, it is a plain organizer without a cup holder or cable slot.\n\nA good pick for a student with a bunk bed. The caveat is that adhesive holds only light loads.",
     "specs": [
       "Damage-free adhesive removal",
       "Bedside phone and makeup shelf"
@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41xEw0o4p4L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CYGZNW33?tag=deskfinds0d-20",
-    "description": "TechGlow is a foldable phone stand with a Bluetooth speaker and charging function. The listing says height and angle are adjustable and it charges a phone or tablet while it plays.\n\nAt $22.46 it is a cheaper tech gift than the lamp, and it works on the desk or nightstand. Unlike the shelves, it needs power.\n\nGreat for a student who watches videos in bed. The caveat is that the speaker is small, so it is a convenience, not a speaker for music.",
+    "description": "TechGlow is a foldable phone stand with a Bluetooth speaker and charging function. The listing says height and angle are adjustable and it charges a phone or tablet while it plays.\n\nAt under $25 it is a cheaper tech gift than the lamp, and it works on the desk or nightstand. Unlike the shelves, it needs power.\n\nGreat for a student who watches videos in bed. The caveat is that the speaker is small, so it is a convenience, not a speaker for music.",
     "specs": [
       "Bluetooth speaker stand",
       "Foldable, adjustable angle",
@@ -138,7 +138,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41WY3Q4wXyL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H68XL23S?tag=deskfinds0d-20",
-    "description": "Yaztops is a metal bedside shelf using a thick carbon steel frame with nano adhesive strips for no-drill installation. It includes a detachable anti-tip cup holder and a hidden cable slot.\n\nAt $21.99 it is the cheapest shelf here and sturdier than the WallShelfie, with the cup holder as a bonus. It is less decorative.\n\nBest for a student who wants strong storage. The caveat is that the nano adhesive depends on wall condition.",
+    "description": "Yaztops is a metal bedside shelf using a thick carbon steel frame with nano adhesive strips for no-drill installation. It includes a detachable anti-tip cup holder and a hidden cable slot.\n\nAt under $25 it is the cheapest shelf here and sturdier than the WallShelfie, with the cup holder as a bonus. It is less decorative.\n\nBest for a student who wants strong storage. The caveat is that the nano adhesive depends on wall condition.",
     "specs": [
       "Carbon steel frame",
       "Nano adhesive strips, no drill",
@@ -166,7 +166,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31ksa2G9rhL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0BV6GKKBD?tag=deskfinds0d-20",
-    "description": "QEEIG is a set of two C-shaped end tables, each 11.8 by 15.7 by 25.6 inches. The listing says the tables hold 20 pounds and slide under a couch.\n\nAt $49.81 it is the most expensive pick and the only furniture. It is larger than the shelves.\n\nA good pick for a small apartment or a couch in a dorm common room. The caveat is that the listing describes sliding under a couch, so check the clearance under a dorm bed before assuming it fits.",
+    "description": "QEEIG is a set of two C-shaped end tables, each 11.8 by 15.7 by 25.6 inches. The listing says the tables hold 20 pounds and slide under a couch.\n\nAt under $50 it is the most expensive pick and the only furniture. It is larger than the shelves.\n\nA good pick for a small apartment or a couch in a dorm common room. The caveat is that the listing describes sliding under a couch, so check the clearance under a dorm bed before assuming it fits.",
     "specs": [
       "Set of 2 C-shaped tables",
       "11.8 x 15.7 x 25.6 inches",

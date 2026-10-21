@@ -140,7 +140,7 @@ export default async function BestHeadsetForWorkPage() {
     about: [
       { "@type": "Thing", name: "Work Headset" },
       { "@type": "Thing", name: "Teams Certified Headset" },
-      { "@type": "Thing", name: "Wireless Headset for Work" },
+      { "@type": "Thing", name: "Wireless Headset for Work" }
     ],
   };
   const breadcrumbSchema = {
@@ -149,7 +149,7 @@ export default async function BestHeadsetForWorkPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Headsets for Work", item: `${SITE_URL}/guide/best-headset-for-work` },
+      { "@type": "ListItem", position: 3, name: "Best Headsets for Work", item: `${SITE_URL}/guide/best-headset-for-work` }
     ],
   };
   const itemListSchema = {
@@ -326,7 +326,7 @@ export default async function BestHeadsetForWorkPage() {
                   {[
                     { type: "Boom mic (cardioid)", pick: "H390, Zone Vibe 125", noise: "Strong, aimed at mouth", clarity: "Excellent" },
                     { type: "Built-in multi-mic array", pick: "Jabra Evolve2 30, 55", noise: "Good, relies on DSP", clarity: "Very good" },
-                    { type: "AI-enhanced built-in", pick: "Anker H700, Sony XM5", noise: "Excellent, machine learning", clarity: "Excellent" },
+                    { type: "AI-enhanced built-in", pick: "Anker H700, Sony XM5", noise: "Excellent, machine learning", clarity: "Excellent" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.type}</td>
@@ -355,7 +355,7 @@ export default async function BestHeadsetForWorkPage() {
                     { budget: "Under $45", desc: "Functional boom mic, USB plug-and-play, decent call quality" },
                     { budget: "$55-$90", desc: "Teams certified, better mic noise rejection, wireless option" },
                     { budget: "$90-$170", desc: "AI-enhanced mic, ANC, wireless + dongle, 24-33 hr battery" },
-                    { budget: "$200-$280", desc: "Industry-leading ANC, best call clarity, premium comfort" },
+                    { budget: "$200-$280", desc: "Industry-leading ANC, best call clarity, premium comfort" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.budget}</td>
@@ -410,7 +410,7 @@ export default async function BestHeadsetForWorkPage() {
             {[
               { context: "Fixed desk, tightest budget", id: "logitech-h390", name: "Logitech H390", verdict: ", plug-and-play USB-A, boom mic, under $40." },
               { context: "Teams-heavy call center or sales role", id: "jabra-evolve2-55-ms", name: "Jabra Evolve2 55 MS", verdict: ", certified, 33-hour ANC battery, AirComfort all-day design." },
-              { context: "Best overall WFH headset", id: "sony-wh-1000xm5", name: "Sony WH-1000XM5", verdict: ", best-in-class ANC, 4 beamforming mics, 30-hour battery." },
+              { context: "Best overall WFH headset", id: "sony-wh-1000xm5", name: "Sony WH-1000XM5", verdict: ", best-in-class ANC, 4 beamforming mics, 30-hour battery." }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

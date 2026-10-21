@@ -199,7 +199,7 @@ export default async function BestHeadphonesUnder30Page() {
     about: [
       { "@type": "Thing", name: "Budget Headphones" },
       { "@type": "Thing", name: "Headphones Under $30" },
-      { "@type": "Thing", name: "Wireless Earbuds" },
+      { "@type": "Thing", name: "Wireless Earbuds" }
     ],
   };
 
@@ -219,7 +219,7 @@ export default async function BestHeadphonesUnder30Page() {
         position: 3,
         name: "Best Headphones Under $30",
         item: `${SITE_URL}/guide/best-headphones-under-30`,
-      },
+      }
     ],
   };
 
@@ -523,7 +523,7 @@ export default async function BestHeadphonesUnder30Page() {
                       battery: "34h per charge",
                       wear: "Comfortable, foldable",
                       use: "All-day desk, classes",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr
                       key={i}
@@ -577,7 +577,7 @@ export default async function BestHeadphonesUnder30Page() {
                   "Wireless charging case - included with the TOZO T10, rare at this price",
                   "Multipoint Bluetooth (2-device) - available on the Dime 3 and Riff Wireless 2",
                   "Audiophile-grade drivers - the Koss KPH30i and Porta Pro beat wireless options costing 2 to 3 times more",
-                  "USB-C charging - standard on all wireless picks in this guide",
+                  "USB-C charging - standard on all wireless picks in this guide"
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-2 text-sm text-ink-secondary">
                     <span className="mt-1 w-3.5 h-3.5 rounded-full bg-green-100 text-green-700 flex items-center justify-center shrink-0 font-bold text-[9px]">
@@ -598,7 +598,7 @@ export default async function BestHeadphonesUnder30Page() {
                   "Multipoint on earbuds with ANC - the P20i does not support multipoint",
                   "Active noise cancellation on wireless on-ear - no pick at this price has ANC in an over-ear design",
                   "Premium materials or build finishes - plastics throughout at this price tier",
-                  "Hi-res audio certification or LDAC/aptX HD codecs",
+                  "Hi-res audio certification or LDAC/aptX HD codecs"
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-2 text-sm text-ink-secondary">
                     <span className="mt-1 w-3.5 h-3.5 rounded-full bg-yellow-100 text-yellow-600 flex items-center justify-center shrink-0 font-bold text-[9px]">
@@ -697,7 +697,7 @@ export default async function BestHeadphonesUnder30Page() {
                 name: "Skullcandy Riff Wireless 2",
                 verdict:
                   ": 34h battery, multipoint Bluetooth, AUX backup cable, plush cushions for desk use.",
-              },
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

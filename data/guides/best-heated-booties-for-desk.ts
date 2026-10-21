@@ -5,7 +5,7 @@ export const metaDescription = "Seven heated booties for sitting at a desk compa
 export const mainKeyword = "heated booties for desk";
 export const introParagraphs = [
   "A bootie wraps the whole foot, so it solves a problem a mat cannot: cold toes in a drafty office where nothing under the desk is allowed or possible. The trade is that your feet then carry a power source with them, and the way that power arrives (a battery pack, a USB cable, a wall cord) shapes the whole experience at a desk.",
-  "These seven pairs cover three power styles and a wide price span, from a $14.99 USB pair to a $89.99 graphene set. We compared them based on listed specs and kept to what each listing really states: heat levels, runtime, auto shut-off, sizing advice and care instructions. Listings for a few pairs promise circulation benefits; we did not weigh those, since these are comfort products."
+  "These seven pairs cover three power styles and a wide price span, from an under-$15 USB pair to an under-$90 graphene set. We compared them based on listed specs and kept to what each listing really states: heat levels, runtime, auto shut-off, sizing advice and care instructions. Listings for a few pairs promise circulation benefits; we did not weigh those, since these are comfort products."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41ZF0ZwOGQL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07GP2RVNZ?tag=deskfinds0d-20",
-    "description": "Noverlife makes electric booties built for paraffin and skin-care sessions, with high and low switch settings and an automatic temperature control that cuts power at the preset temperature. The listing says it warms in about 2 minutes and fits any foot size.\n\nAt $25.64 it is the cheapest corded pair, but it is a spa product with a long cord rather than a wearable slipper. Against Nukinp below, it has more detail on controls but needs a wall outlet.\n\nBest for a short warm-up while seated at a desk with an outlet. The caveat is that the listing's benefit claims for arthritis or neuralgia are not ones we rely on, and no auto-off timer is listed.",
+    "description": "Noverlife makes electric booties built for paraffin and skin-care sessions, with high and low switch settings and an automatic temperature control that cuts power at the preset temperature. The listing says it warms in about 2 minutes and fits any foot size.\n\nAt under $30 it is the cheapest corded pair, but it is a spa product with a long cord rather than a wearable slipper. Against Nukinp below, it has more detail on controls but needs a wall outlet.\n\nBest for a short warm-up while seated at a desk with an outlet. The caveat is that the listing's benefit claims for arthritis or neuralgia are not ones we rely on, and no auto-off timer is listed.",
     "specs": [
       "High and low switch",
       "Warms in about 2 minutes",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41swyiQOSkL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HHRVJT3S?tag=deskfinds0d-20",
-    "description": "Nukinp is a USB rechargeable pair in brushed cotton fleece, sized 35 to 39, intended for home or office. The listing gives no heat levels, wattage or timer.\n\nIt is the cheapest pair in the guide at $14.99, well below Auccipal, but it states the least about heat output. Compared with the other pairs, it uses USB rather than a battery pack or wall plug.\n\nBest for trying heated booties without spending much. The caveat is the thin spec sheet: no temperatures, runtime or safety marks are listed, so keep expectations modest and use with supervision.",
+    "description": "Nukinp is a USB rechargeable pair in brushed cotton fleece, sized 35 to 39, intended for home or office. The listing gives no heat levels, wattage or timer.\n\nIt is the cheapest pair in the guide at under $15, well below Auccipal, but it states the least about heat output. Compared with the other pairs, it uses USB rather than a battery pack or wall plug.\n\nBest for trying heated booties without spending much. The caveat is the thin spec sheet: no temperatures, runtime or safety marks are listed, so keep expectations modest and use with supervision.",
     "specs": [
       "USB rechargeable",
       "Brushed cotton fleece",
@@ -263,7 +263,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     "title": "Value for price",
-    "description": "Prices from $14.99 to $89.99 were compared against what the listing documents."
+    "description": "Prices from roughly $15 to $90 were compared against what the listing documents."
   }
 ];
 

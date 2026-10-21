@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41uVNtRQfHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07Y8THDMW?tag=deskfinds0d-20",
-    description: "A shallower 32-inch-deep alternative to Sysracks' 39-inch cabinet, still packing four roof-mounted fans and an 8-way PDU for a rack rated to hold 1600 lbs static.\n\nThe front glass door is perforated for extra airflow while the rear stays solid metal, splitting the difference between visibility up front and dust protection in back.\n\nWhat stands out here is 1600 lb static rating handles a dense server stack, plus 8-way PDU included instead of bought separately. The main tradeoff: 32\" depth is still tight for some full servers, so weigh that against the $1,250.10 price before buying.",
+    description: "A shallower 32-inch-deep alternative to Sysracks' 39-inch cabinet, still packing four roof-mounted fans and an 8-way PDU for a rack rated to hold 1600 lbs static.\n\nThe front glass door is perforated for extra airflow while the rear stays solid metal, splitting the difference between visibility up front and dust protection in back.\n\nWhat stands out here is 1600 lb static rating handles a dense server stack, plus 8-way PDU included instead of bought separately. The main tradeoff: 32\" depth is still tight for some full servers, so weigh that against the under $1,300 price before buying.",
     specs: ["42U, 32\" deep, 1600 lb static rating","4 roof-mounted fans, 8-way PDU","Perforated glass front, solid metal rear door"],
     pros: ["1600 lb static rating handles a dense server stack","8-way PDU included instead of bought separately","Perforated front door boosts airflow without losing visibility"],
     cons: ["32\" depth is still tight for some full servers","Casters need leveling feet for a permanent install"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41bCsWRXcOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CKJRD3T?tag=deskfinds0d-20",
-    description: "Marketed specifically at home lab builders, this 42U cabinet packs the same 1600 lb static rating and active cooling fans as commercial-grade racks into a listing aimed at NAS and router setups at home.\n\nThe included 8-outlet PDU and fixed shelf mean you're not shopping for accessories separately just to get a functional home lab rack running.\n\nWhere this one earns its spot is home lab framing with commercial-grade 1600 lb rating, and PDU and shelf included, no extra shopping needed. Worth noting before buying: large enclosure is overkill for a handful of devices, which matters more at $1,390.00 than it would on a cheaper pick.",
+    description: "Marketed specifically at home lab builders, this 42U cabinet packs the same 1600 lb static rating and active cooling fans as commercial-grade racks into a listing aimed at NAS and router setups at home.\n\nThe included 8-outlet PDU and fixed shelf mean you're not shopping for accessories separately just to get a functional home lab rack running.\n\nWhere this one earns its spot is home lab framing with commercial-grade 1600 lb rating, and PDU and shelf included, no extra shopping needed. Worth noting before buying: large enclosure is overkill for a handful of devices, which matters more at under $1,400 than it would on a cheaper pick.",
     specs: ["42U, 39\" deep, 1600 lb static rating","Integrated cooling fans and ventilation","8-outlet PDU and shelf included"],
     pros: ["Home lab framing with commercial-grade 1600 lb rating","PDU and shelf included, no extra shopping needed","Locking glass door balances visibility and security"],
     cons: ["Large enclosure is overkill for a handful of devices","Deep 39\" body needs real floor space"],
@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31YAeSy9C2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D9B577G8?tag=deskfinds0d-20",
-    description: "A 4-post open frame rack rated for 1900 lbs, built from 2mm cold rolled steel for extra rigidity compared to the thinner-gauge racks in this category.\n\nDepth adjusts across a 22-35 inch range, and the listing specifically calls out compatibility with data centers, broadcast studios, and home lab setups alike, giving it a fairly broad use case.\n\nWhat stands out here is 2mm steel gauge is thicker than most in this class, plus 1900 lb rating handles a dense full-height stack. The main tradeoff: full 80\" height needs a tall dedicated room, so weigh that against the $251.99 price before buying.",
+    description: "A 4-post open frame rack rated for 1900 lbs, built from 2mm cold rolled steel for extra rigidity compared to the thinner-gauge racks in this category.\n\nDepth adjusts across a 22-35 inch range, and the listing specifically calls out compatibility with data centers, broadcast studios, and home lab setups alike, giving it a fairly broad use case.\n\nWhat stands out here is 2mm steel gauge is thicker than most in this class, plus 1900 lb rating handles a dense full-height stack. The main tradeoff: full 80\" height needs a tall dedicated room, so weigh that against the under $300 price before buying.",
     specs: ["42U, 22-35\" adjustable depth, 2mm steel","1900 lb weight capacity","Pre-installed square holes, cage nuts included"],
     pros: ["2mm steel gauge is thicker than most in this class","1900 lb rating handles a dense full-height stack","Assembly is genuinely quick, under 20 minutes claimed"],
     cons: ["Full 80\" height needs a tall dedicated room","Open frame means no dust or access control"],
@@ -123,7 +123,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41+goJVNtmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00O6GNLQE?tag=deskfinds0d-20",
-    description: "The 25U version of StarTech's 4-post open frame family carries the same EIA/ECA-310-E compliance and 2-year warranty as its 42U sibling, just in a shorter footprint that fits smaller server rooms.\n\nAt 1200 lbs stationary capacity it's rated slightly lower than the 42U model, which tracks since it's a shorter, lighter structure overall.\n\nThe strongest case for this pick comes down to shorter 25U height fits rooms with limited ceiling space as well as same 2-year warranty and lifetime support as larger models. The compromise here is that 1200 lb rating is lower than the taller 42U version, so factor that in alongside the $334.99 asking price.",
+    description: "The 25U version of StarTech's 4-post open frame family carries the same EIA/ECA-310-E compliance and 2-year warranty as its 42U sibling, just in a shorter footprint that fits smaller server rooms.\n\nAt 1200 lbs stationary capacity it's rated slightly lower than the 42U model, which tracks since it's a shorter, lighter structure overall.\n\nThe strongest case for this pick comes down to shorter 25U height fits rooms with limited ceiling space as well as same 2-year warranty and lifetime support as larger models. The compromise here is that 1200 lb rating is lower than the taller 42U version, so factor that in alongside the under $350 asking price.",
     specs: ["25U, 22-40\" adjustable depth, 48-51\" tall","1200 lb stationary weight capacity","Casters, levelers, and cable hooks included"],
     pros: ["Shorter 25U height fits rooms with limited ceiling space","Same 2-year warranty and lifetime support as larger models","Cage nuts and cable hooks included in the kit"],
     cons: ["1200 lb rating is lower than the taller 42U version","Still needs flat-pack assembly on arrival"],
@@ -193,36 +193,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $251.99",
+          "Under $300",
           "GlobalRack 42U Open Frame Server Rack"
         ],
         [
-          "Around $334.99",
+          "Under $350",
           "StarTech.com 25U Open Frame Server Rack"
         ],
         [
-          "Around $357.99",
+          "Under $400",
           "StarTech 42U 4-Post Open Frame Rack"
         ],
         [
-          "Around $1,250.10",
+          "Under $1,300",
           "Sysracks 42U Server Rack Cabinet"
         ],
         [
-          "Around $1,389.00",
+          "Under $1,400",
           "Sysracks 42U Server Rack Cabinet"
         ],
         [
-          "Around $1,390.00",
+          "Under $1,400",
           "42U Home Server Rack Cabinet"
         ],
         [
-          "Around $1,905.99",
+          "Under $2,000",
           "StarTech 42U 4-Post Server Cabinet"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -270,7 +270,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "Sysracks 42U Server Rack Cabinet is aimed at buyers prioritizing 42u, 39\" deep enclosure." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Sysracks 42U Server Rack Cabinet is aimed at buyers prioritizing 42u, 39\" deep enclosure." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-2u-server-racks","title":"Best 2U Server Racks in 2026"},{"href":"/guide/best-1u-server-racks","title":"Best 1U Server Racks in 2026"},{"href":"/guide/best-12u-server-racks","title":"Best 12U Server Racks in 2026"}];

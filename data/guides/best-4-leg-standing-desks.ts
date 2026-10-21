@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "standing desk frame";
 export const introParagraphs = [
   "Most standing desk listings on Amazon never state how many legs the frame actually has. Product titles lean on generic phrases like dual motor, T-shaped legs, or adjustable height, none of which tell you whether you are looking at a 4-leg frame or the far more common 2-leg C-frame or T-frame design. We checked the listing copy for all 8 picks below and confirmed that none of them explicitly state a genuine 4-leg frame, so we are not going to claim otherwise just to match a search term.",
-  "A useful rule of thumb: dual-motor electric frames, which make up most of this list, are almost always built as a 2-leg design with one motor per leg, not a 4-leg frame. A true 4-leg frame is a distinct stability-focused design, and if that is specifically what you want, the safest way to confirm it is by looking at the actual product photos and reading the Q&A section, not by trusting title keywords. Below we cover 8 frames worth considering for a small home office, including one rolling cart alternative for anyone who would rather skip a fixed frame altogether.",
+  "A useful rule of thumb: dual-motor electric frames, which make up most of this list, are almost always built as a 2-leg design with one motor per leg, not a 4-leg frame. A true 4-leg frame is a distinct stability-focused design, and if that is specifically what you want, the safest way to confirm it is by looking at the actual product photos and reading the Q&A section, not by trusting title keywords. Below we cover 8 frames worth considering for a small home office, including one rolling cart alternative for anyone who would rather skip a fixed frame altogether."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -46,8 +46,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Small Desktops",
     name: "HUANUO 32-inch Small Electric Standing Desk Adjustable Height, 4 Memory Height Settings",
     price: "$75.99",
-    rating: "4.6 stars from 2,226 Amazon ratings",
-    reviews: "2,226 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ikoMgen5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9X3FDYY?tag=deskfinds0d-20",
     description:
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "4 memory height presets",
       "Electric push-button adjustment",
       "LightWalnut finish option",
-      "Leg configuration not specified on listing",
+      "Leg configuration not specified on listing"
     ],
     pros: [
       "Compact size fits small desks and tight spaces",
       "Simple 4-preset memory control",
       "Affordable price point",
-      "Easy single-person assembly",
+      "Easy single-person assembly"
     ],
     cons: [
       "Leg configuration not confirmed on the listing",
       "Not rated for heavy dual-monitor setups",
-      "Limited desktop width compatibility",
+      "Limited desktop width compatibility"
     ],
     bestFor: "Small home offices or dorm rooms with a compact desktop under 32 inches wide",
   },
@@ -78,8 +78,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Dual-Motor Frame",
     name: "TOPSKY Dual Motor Electric Standing Desk Frame, Fits Table Tops up to 70.8 x 31.5 Inch",
     price: "$150.99",
-    rating: "4.6 stars from 4,345 Amazon ratings",
-    reviews: "4,345 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Wq-+TZNRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08C2LC3H2?tag=deskfinds0d-20",
     description:
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Dual motor, standard 2-leg C-frame design",
       "225 lb weight capacity",
       "Black finish",
-      "No desktop included",
+      "No desktop included"
     ],
     pros: [
       "Generous 225 lb capacity for the price",
       "Wide desktop compatibility range",
       "Dual motor lift is smooth and reasonably quiet",
-      "Strong review volume with a solid rating",
+      "Strong review volume with a solid rating"
     ],
     cons: [
       "Not a 4-leg design despite dual motors",
       "Requires buying a compatible desktop separately",
-      "Wider footprint needs more floor space",
+      "Wider footprint needs more floor space"
     ],
     bestFor: "Buyers who already have a desktop up to 70.8 inches wide and want a solid frame-only kit",
   },
@@ -110,29 +110,28 @@ export const products: GuideProduct[] = [
     badge: "Best Budget All-in-One Desk",
     name: "Furmax Electric Standing Desk, 45 x 24 Inches, 4 Height Position Memory",
     price: "$79.99",
-    rating: "4.6 stars from 222 Amazon ratings",
-    reviews: "222 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41XkTgfpQgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FK3DD4F1?tag=deskfinds0d-20",
     description:
-      "The Furmax comes as a complete 45 by 24 inch desk with the top already included, which simplifies buying compared to frame-only kits. It has 4 height position memory settings and a rustic brown finish. The listing gives no frame-leg detail, so it should be treated as an unconfirmed configuration rather than assumed to be a 4-leg design.\n\nAt 45 inches wide it is a reasonable middle ground between the compact HUANUO pick and full-width home office desks. The lower review count compared to other picks here is worth weighing against the solid 4.6 star average.\n\nGood mid-size footprint for a home office. Set against that, leg configuration not confirmed on the listing. Both matter when comparing it to the other picks here.",
+      "The Furmax comes as a complete 45 by 24 inch desk with the top already included, which simplifies buying compared to frame-only kits. It has 4 height position memory settings and a rustic brown finish. The listing gives no frame-leg detail, so it should be treated as an unconfirmed configuration rather than assumed to be a 4-leg design.\n\nAt 45 inches wide it is a reasonable middle ground between the compact HUANUO pick and full-width home office desks.\n\nGood mid-size footprint for a home office. Set against that, leg configuration not confirmed on the listing. Both matter when comparing it to the other picks here.",
     specs: [
       "45 x 24 inch complete desk with top included",
       "4 height position memory",
       "Rustic Brown finish",
       "Electric height adjustment",
-      "Leg configuration not specified on listing",
+      "Leg configuration not specified on listing"
     ],
     pros: [
       "Desktop included, no separate purchase needed",
       "Good mid-size footprint for a home office",
-      "Strong 4.6 star rating",
-      "Competitive price for a complete desk",
+      "Competitive price for a complete desk"
     ],
     cons: [
       "Leg configuration not confirmed on the listing",
       "Lower review count than other picks",
-      "Fixed desktop size limits customization",
+      "Fixed desktop size limits customization"
     ],
     bestFor: "Buyers who want a complete desk and top in one box without sourcing a separate desktop",
   },
@@ -142,8 +141,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Wide Desktops",
     name: "ErGear Dual Motor Standing Desk Legs for 44-90 inch Desktops, 264 lbs",
     price: "$169.98",
-    rating: "4.7 stars from 547 Amazon ratings",
-    reviews: "547 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41S5Krgo22L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CQNV8WBS?tag=deskfinds0d-20",
     description:
@@ -153,18 +152,17 @@ export const products: GuideProduct[] = [
       "264 lb weight capacity",
       "Dual motor, standard 2-leg design",
       "Adjustable leg width",
-      "Frame only, no desktop included",
+      "Frame only, no desktop included"
     ],
     pros: [
       "Highest weight capacity in this guide",
       "Wide 44-90 inch desktop compatibility",
-      "Adjustable leg spread for different desktop widths",
-      "Strong 4.7 star rating",
+      "Adjustable leg spread for different desktop widths"
     ],
     cons: [
       "Not a true 4-leg frame despite dual motors",
       "Wider leg spread needed for larger desktops can reduce stability if mismatched",
-      "No desktop included",
+      "No desktop included"
     ],
     bestFor: "Buyers with a wide desktop, or those planning to upgrade desktop size later",
   },
@@ -174,8 +172,8 @@ export const products: GuideProduct[] = [
     badge: "Best Motor Power for the Price",
     name: "HUANUO Standing Desk Frame with 220lbs Brushless Motor, T-Shaped Legs, for Max 75 x 35 Desktop",
     price: "$107.34",
-    rating: "4.7 stars from 353 Amazon ratings",
-    reviews: "353 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/312SqhEUIaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D21VTP3R?tag=deskfinds0d-20",
     description:
@@ -185,18 +183,17 @@ export const products: GuideProduct[] = [
       "220 lb brushless motor capacity",
       "Fits desktops up to 75 x 35 inches",
       "Frame only, black finish",
-      "Not a 4-leg design",
+      "Not a 4-leg design"
     ],
     pros: [
       "T-shaped base adds tipping resistance for a 2-leg frame",
       "Brushless motor rated for quieter, smoother lift",
-      "Automotive-grade steel construction",
-      "Strong 4.7 star rating",
+      "Automotive-grade steel construction"
     ],
     cons: [
       "T-shaped legs are not the same as a genuine 4-leg frame",
       "More ground contact points can mean more sensitivity to uneven floors",
-      "No desktop included",
+      "No desktop included"
     ],
     bestFor: "Buyers who want extra tipping resistance from a 2-leg frame without paying for a full 4-leg design",
   },
@@ -206,8 +203,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall for Home Office Use",
     name: "FLEXISPOT E6 3-Stage Dual Motor Electric Standing Desk, 55 x 28, Black Desktop and Frame",
     price: "$284.99",
-    rating: "4.4 stars from 311 Amazon ratings",
-    reviews: "311 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41WJcV8uQrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVQMQMY2?tag=deskfinds0d-20",
     description:
@@ -217,18 +214,18 @@ export const products: GuideProduct[] = [
       "3-stage dual motor, standard 2-leg frame",
       "220 lb weight capacity",
       "Memory height presets",
-      "Ships in 2 boxes",
+      "Ships in 2 boxes"
     ],
     pros: [
       "Complete desk with desktop and frame together",
       "3-stage column gives a taller adjustment range",
       "Solid 220 lb capacity for monitor arms and accessories",
-      "Well-known brand with established support",
+      "Well-known brand with established support"
     ],
     cons: [
       "Higher price than frame-only or smaller options",
       "Assembly takes 60-90 minutes and is easier as a 2-person job",
-      "Not a 4-leg frame despite the 3-stage column",
+      "Not a 4-leg frame despite the 3-stage column"
     ],
     bestFor: "Buyers who want a complete, full-size desk and are comfortable with a longer assembly",
   },
@@ -238,8 +235,8 @@ export const products: GuideProduct[] = [
     badge: "Best Desktop Material Upgrade",
     name: "FlexiSpot E6 Bamboo 3-Stage Dual Motor Electric Standing Desk, 55 x 28, Solid Bamboo Desktop",
     price: "$329.99",
-    rating: "4.4 stars from 763 Amazon ratings",
-    reviews: "763 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41PnkwnA3VL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09DYF1SRQ?tag=deskfinds0d-20",
     description:
@@ -249,18 +246,18 @@ export const products: GuideProduct[] = [
       "3-stage dual motor, standard 2-leg frame",
       "220 lb weight capacity",
       "White frame finish",
-      "Ships in 2 boxes",
+      "Ships in 2 boxes"
     ],
     pros: [
       "Solid bamboo desktop upgrade over laminate",
       "Same reliable 220 lb capacity as the standard E6",
       "Strong review volume with a consistent rating",
-      "White frame pairs well with lighter room decor",
+      "White frame pairs well with lighter room decor"
     ],
     cons: [
       "Highest price in this guide",
       "Assembly takes 60-90 minutes, easier with two people",
-      "Not a 4-leg frame despite the premium price",
+      "Not a 4-leg frame despite the premium price"
     ],
     bestFor: "Buyers who want a natural wood desktop and are willing to pay more for it",
   },
@@ -270,8 +267,8 @@ export const products: GuideProduct[] = [
     badge: "Best Rolling Cart Alternative (No Fixed Frame)",
     name: "Techni Mobili Sit-to-Stand Rolling Adjustable Height Laptop Cart with Storage",
     price: "$28.80",
-    rating: "4.5 stars from 7,239 Amazon ratings",
-    reviews: "7,239 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31+f1oDDjoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B003M96GY0?tag=deskfinds0d-20",
     description:
@@ -281,21 +278,21 @@ export const products: GuideProduct[] = [
       "Manual sit-to-stand height adjustment",
       "Built-in storage",
       "22 x 16 x 46 inch footprint",
-      "Graphite finish",
+      "Graphite finish"
     ],
     pros: [
       "Very low price compared to any fixed frame",
       "Mobile, easy to move between rooms",
       "Large review base with a strong rating",
-      "Good fit for laptop-only setups",
+      "Good fit for laptop-only setups"
     ],
     cons: [
       "Not a 4-leg or 2-leg fixed frame, a different product category entirely",
       "Less stable than a bolted frame at full desk width",
-      "Not suited for heavy dual-monitor setups",
+      "Not suited for heavy dual-monitor setups"
     ],
     bestFor: "Buyers who want mobility and a low price over a stationary fixed-frame desk",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +320,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for a small home office",
     description: "Weighed price against capacity, desktop inclusion, and assembly complexity to judge which picks make sense for a small-space budget versus a full-size home office upgrade.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,12 +474,12 @@ export const faq: FaqItem[] = [
   {
     q: "How long does assembly take for these frames?",
     a: "Simpler frame-only kits typically take 30 to 45 minutes for one person. Full desk-and-frame combos, like the FLEXISPOT E6 and its bamboo version, involve more bolts and can take 60 to 90 minutes, and are easier to assemble with a second person.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-standing-desk-under-300", title: "Best Standing Desks Under $300 (2026)" },
   { href: "/guide/best-standing-desk-with-drawers", title: "Best Standing Desks with Drawers (2026)" },
   { href: "/guide/best-corner-standing-desk", title: "Best Corner Standing Desks (2026)" },
-  { href: "/guide/best-electric-standing-desk", title: "Best Electric Standing Desks (2026)" },
+  { href: "/guide/best-electric-standing-desk", title: "Best Electric Standing Desks (2026)" }
 ];

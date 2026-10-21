@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $269.99",
+          "Under $300",
           "Sleekform 6FT Wooden Folding Banquet Table"
         ],
         [
-          "Around $289.88",
+          "Under $300",
           "Okeysen Flip-Top Mobile Conference Table"
         ],
         [
-          "Around $519.99",
+          "Under $550",
           "Conference Room Tables"
         ],
         [
-          "Around $593.42",
+          "Under $600",
           "BTEXPERT 6-Foot Plastic Folding Training Table"
         ],
         [
-          "Around $604.79",
+          "Under $650",
           "Folding Conference Room Tables with Wheels"
         ],
         [
-          "Around $648.00",
+          "Under $650",
           "Folding Conference Table with Wheels"
         ],
         [
-          "Around $1,520.00",
+          "Under $1,600",
           "Modular Conference Table with Modesty Panel"
         ],
         [
-          "Around $1,812.23",
+          "Under $1,900",
           "Folding Conference Room Tables with Wheels"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", "a": "Sleekform 6FT Wooden Folding Banquet Table is aimed at buyers prioritizing 6ft folding table, real wood walnut finish" },
+  { q: "Which pick in this comparison is the best overall choice?", "a": "Sleekform 6FT Wooden Folding Banquet Table is aimed at buyers prioritizing 6ft folding table, real wood walnut finish" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-folding-conference-tables","title":"Best Folding Conference Tables in 2026"},{"href":"/guide/best-flip-top-conference-tables","title":"Best Flip Top Conference Tables in 2026"},{"href":"/guide/best-conference-tables","title":"Best Conference Tables in 2026"}];

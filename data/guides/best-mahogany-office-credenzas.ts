@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $121.38",
+          "Under $130",
           "Alera Valencia Series Reversible Return/Bridge Shell"
         ],
         [
-          "Around $221.11",
+          "Under $250",
           "Lorell Credenza Shell"
         ],
         [
-          "Around $264.31",
+          "Under $300",
           "Alera Valencia Series Credenza Shells"
         ],
         [
-          "Around $286.56",
+          "Under $300",
           "Alera Valencia Series 72 by 24 by 29-1/2-Inch Credenza Shell"
         ],
         [
-          "Around $315.00",
+          "Under $350",
           "HON HONLCS7224LT1 72 in. Shell Credenza Mahogany"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Alera Valencia Series 72 by 24 by 29-1/2-Inch Credenza Shell is aimed at buyers prioritizing 72in x 24in x 29.5in shell, mahogany finish." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Alera Valencia Series 72 by 24 by 29-1/2-Inch Credenza Shell is aimed at buyers prioritizing 72in x 24in x 29.5in shell, mahogany finish." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-walnut-office-credenzas","title":"Best Walnut Office Credenzas in 2026"},{"href":"/guide/best-oak-office-credenzas","title":"Best Oak Office Credenzas in 2026"},{"href":"/guide/best-dark-wood-office-credenzas","title":"Best Dark Wood Office Credenzas in 2026"}];

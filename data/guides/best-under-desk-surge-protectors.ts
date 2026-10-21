@@ -5,7 +5,7 @@ export const metaDescription = "5 under-desk surge protectors we evaluated, with
 export const mainKeyword = "surge protector under desk";
 export const introParagraphs = [
   "Under-desk mounting hides the one visible signal a buyer has of MOV status, combining general under-desk heat and dust concerns with the surge-protection-specific degradation-signal gap makes this a meaningfully higher-stakes visibility problem than for a basic power strip.",
-  "Enclosed under-desk heat buildup affects MOV component lifespan and performance, not just general strip housing durability, MOVs can degrade faster under sustained elevated temperature, a more consequential version of the enclosed-mounting heat issue.",
+  "Enclosed under-desk heat buildup affects MOV component lifespan and performance, not just general strip housing durability, MOVs can degrade faster under sustained elevated temperature, a more consequential version of the enclosed-mounting heat issue."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Under-Desk Surge Protector Overall",
     name: "Power Strip, ALESTOR Surge Protector with 12 Outlets and 4 USB Ports, 6 Feet Extension Cord, 2700 Joules, ETL Listed, Black",
     price: "$21.98",
-    rating: "4.8 stars from 50,501 Amazon ratings",
-    reviews: "50,501 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41PsJYHqW7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08P5LRY37?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Under-Desk Pick",
     name: "HANYCONY Surge Protector Power Strip, 1080J, 5 Ft Braided Extension Cord",
     price: "$11.99",
-    rating: "4.8 stars from 67,972 Amazon ratings",
-    reviews: "67,972 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41w1NL7yU4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B092J8LPWR?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Joule Under-Desk Pick",
     name: "Surge Protector Power Strip 4800J, LeZone 10Ft Long Extension Cord Flat Plug, 12 Outlets 2 USB C 2 USB Ports, Wall Mountable, Desk Charging Station, Black",
     price: "$18.89",
-    rating: "4.7 stars from 2,666 Amazon ratings",
-    reviews: "2,666 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41eRaMa6u1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CN6V6M5F?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Under-Desk Pick with USB Charging",
     name: "Surge Protector Power Strip - Nuetsa Flat Plug Extension Cord with 8 Outlets and 4 USB Ports, 6 Feet Power Cord, 2700 Joules, ETL Listed, Black",
     price: "$13.99",
-    rating: "4.7 stars from 44,144 Amazon ratings",
-    reviews: "44,144 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41J41Z-k38L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09F2XPJ47?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best UL-Listed Under-Desk Pick",
     name: "Belkin 12-Outlet Surge Protector Power Strip w/ 12 AC Outlets & 8ft Flat Plug, UL-Listed Heavy-Duty Extension Cord for Home, Office, Travel, Computer, Laptop, Charger - 3,780 Joules of Protection",
     price: "$28.95",
-    rating: "4.8 stars from 3,281 Amazon ratings",
-    reviews: "3,281 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/415tn9cXV7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6S6TPRH?tag=deskfinds0d-20",
     description:
@@ -110,7 +110,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Compounded MOV-status-visibility problem specific to surge protectors", description: "Flagged that under-desk mounting hides the one visible signal of MOV status, a meaningfully higher-stakes problem for a surge protector specifically than for a basic power strip, combining general under-desk gaps with the surge-degradation-signal concern." },
   { title: "MOV component lifespan degradation from enclosed heat buildup", description: "Considered that enclosed under-desk heat buildup can degrade MOV components faster than open placement, a more consequential version of the general enclosed-mounting heat issue." },
-  { title: "Behavioral visibility-checking friction acknowledged", description: "Noted that reaching under a desk to check status is physically awkward and discourages regular checks, compounding the visibility problem behaviorally as well as physically." },
+  { title: "Behavioral visibility-checking friction acknowledged", description: "Noted that reaching under a desk to check status is physically awkward and discourages regular checks, compounding the visibility problem behaviorally as well as physically." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -247,11 +247,11 @@ export const faq: FaqItem[] = [
   { q: "How often should I check an under-desk surge protector's indicator light?", a: "More often than feels natural, given how physically awkward it is to check. This awkwardness is exactly why under-desk mounted surge protectors are checked far less often than desktop-placed ones, build in a periodic reminder." },
   { q: "Are there surge protectors with audible alerts for under-desk use?", a: "Some models include an audible alert to compensate for the hidden indicator light, though this feature is inconsistently available, prioritize it if you can find a pick that includes it for this specific mounting context." },
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers who want maximum outlet capacity tucked under a desk" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want the most-proven compact strip for a confined under-desk space At $11.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want the most-proven compact strip for a confined under-desk space At under $15, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desktop-surge-protectors", title: "Best Desktop Surge Protectors (2026)" },
   { href: "/guide/best-desk-mounted-surge-protectors", title: "Best Desk-Mounted Surge Protectors (2026)" },
-  { href: "/guide/best-under-desk-power-strips", title: "Best Under-Desk Power Strips (2026)" },
+  { href: "/guide/best-under-desk-power-strips", title: "Best Under-Desk Power Strips (2026)" }
 ];

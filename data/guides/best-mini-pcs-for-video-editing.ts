@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini pc for video editing";
 export const introParagraphs = [
   "Hardware encode and decode support for your specific codec, particularly H.265, ProRes, or newer AV1 footage, matters more for editing timeline responsiveness than raw CPU core count, worth checking exactly which codecs a chip's integrated media engine accelerates rather than assuming any modern chip handles your camera's footage smoothly.",
-  "RAM capacity genuinely limits 4K and 8K editing timeline performance more than most other single spec, worth confirming 32GB or more is realistic for your resolution and project complexity rather than assuming 16GB handles demanding multi-track timelines well.",
+  "RAM capacity genuinely limits 4K and 8K editing timeline performance more than most other single spec, worth confirming 32GB or more is realistic for your resolution and project complexity rather than assuming 16GB handles demanding multi-track timelines well."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine hardware encode and decode support checked per codec", description: "Checked exactly which codecs a chip's integrated media engine accelerates rather than assuming any modern chip handles every camera's footage smoothly." },
   { title: "RAM capacity weighted against realistic 4K and 8K timeline needs", description: "Weighted RAM capacity against realistic resolution and project complexity needs, since this genuinely limits editing timeline performance more than most other single spec." },
   { title: "Sustained export and render performance considered over short benchmarks", description: "Considered sustained performance during long export jobs rather than trusting a short burst benchmark score." },
-  { title: "Intel Quick Sync versus AMD media engine codec support compared", description: "Compared Intel Quick Sync's typically broader codec acceleration against AMD's media engine for buyers editing varied footage sources." },
+  { title: "Intel Quick Sync versus AMD media engine codec support compared", description: "Compared Intel Quick Sync's typically broader codec acceleration against AMD's media engine for buyers editing varied footage sources." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -226,11 +226,11 @@ export const faq: FaqItem[] = [
   { q: "Does core count matter more than codec support for video editing?", a: "Codec support matters more for timeline responsiveness, hardware encode and decode acceleration affects smoothness more than raw core count alone." },
   { q: "How much RAM do I need for 4K video editing?", a: "32GB or more is realistic for demanding multi-track 4K timelines, 16GB may feel tight for complex projects." },
   { q: "Is Intel or AMD better for video editing hardware acceleration?", a: "Intel Quick Sync generally offers broader, more mature codec acceleration in some cases, but AMD chips handle many common codecs well too." },
-  { q: "Do I need a workstation-class mini PC for video editing?", a: "Not necessarily, a strong consumer or gaming-branded mini PC with enough RAM and codec support handles most editing well, workstation-class suits demanding professional grading work." },
+  { q: "Do I need a workstation-class mini PC for video editing?", a: "Not necessarily, a strong consumer or gaming-branded mini PC with enough RAM and codec support handles most editing well, workstation-class suits demanding professional grading work." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-workstation-mini-pcs", title: "Best Workstation Mini PCs (2026)" },
   { href: "/guide/best-portable-monitors-for-video-editing", title: "Best Portable Monitors for Video Editing (2026)" },
-  { href: "/guide/best-mini-pcs-with-64gb-ram", title: "Best Mini PCs with 64GB RAM (2026)" },
+  { href: "/guide/best-mini-pcs-with-64gb-ram", title: "Best Mini PCs with 64GB RAM (2026)" }
 ];

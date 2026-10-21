@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "8.5 inch lcd writing tablet";
 export const introParagraphs = [
   "8.5 inches is the most common screen size in the LCD writing tablet category, striking a practical balance between being large enough for a few lines of text or a quick sketch while staying compact enough to carry in a bag or mount to a fridge.",
-  "This size shows up across budget multi-packs, established brands, and office memo boards alike, so the differences between the picks below come down to erase mechanism, lock function, and included accessories rather than screen dimensions.",
+  "This size shows up across budget multi-packs, established brands, and office memo boards alike, so the differences between the picks below come down to erase mechanism, lock function, and included accessories rather than screen dimensions."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Screen size verified as genuinely 8.5 inches", description: "Confirmed each product's listed screen size against its title to ensure this size-specific guide only includes genuinely 8.5 inch models." },
   { title: "Lock function distinguished from save function", description: "Checked whether a listed lock function only prevents erasing or genuinely saves content, an important distinction across this size tier." },
   { title: "Value assessed per unit for multi-packs", description: "Calculated per-unit value on 2-packs to compare fairly against single-unit listings at this size." },
-  { title: "Styling assessed for intended use case", description: "Distinguished plain, office-styled models from bright, kid-focused designs to help buyers pick the right fit for their setting." },
+  { title: "Styling assessed for intended use case", description: "Distinguished plain, office-styled models from bright, kid-focused designs to help buyers pick the right fit for their setting." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -265,11 +265,11 @@ export const faq: FaqItem[] = [
   { q: "Why is 8.5 inches such a common LCD writing tablet size?", a: "It balances enough writing room for a short note or sketch with genuine portability, making it the most widely produced size in this category." },
   { q: "Do 8.5 inch LCD writing tablets save notes?", a: "No, unless explicitly stated as Bluetooth sync-capable, an 8.5 inch LCD writing tablet erases permanently with no save function." },
   { q: "Is a 2-pack a better deal than a single 8.5 inch tablet?", a: "Often yes on a per-unit basis, compare the total price divided by the number of screens against single-unit listings to check." },
-  { q: "What does a memory lock button do on an 8.5 inch tablet?", a: "It prevents the screen from accidentally erasing when bumped, it does not save your writing to a device or app." },
+  { q: "What does a memory lock button do on an 8.5 inch tablet?", a: "It prevents the screen from accidentally erasing when bumped, it does not save your writing to a device or app." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-10-inch-lcd-writing-tablets", title: "Best 10 Inch LCD Writing Tablets (2026)" },
   { href: "/guide/best-mini-lcd-writing-tablets", title: "Best Mini LCD Writing Tablets (2026)" },
-  { href: "/guide/best-two-pack-lcd-writing-tablets", title: "Best Two-Pack LCD Writing Tablets (2026)" },
+  { href: "/guide/best-two-pack-lcd-writing-tablets", title: "Best Two-Pack LCD Writing Tablets (2026)" }
 ];

@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A unique dock with a built-in display and transparent speed disclosure", "Wokyis M5 Retro Dock Station"],
         ["Established build quality with a strong warranty", "Satechi Mac mini Hub & Stand"],
         ["The highest storage capacity via dual-SSD RAID", "ACASIS Mac mini Dock, Dual-Bay"],
-        ["Comprehensive connectivity at the lowest price", "UGREEN Mac mini Dock & Stand"],
+        ["Comprehensive connectivity at the lowest price", "UGREEN Mac mini Dock & Stand"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $60", "UGREEN Mac mini Dock & Stand ($59.99)"],
-        ["Under $95", "ACASIS Dual-Bay Dock ($94.99)"],
-        ["Under $100", "Satechi Mac mini Hub & Stand ($99.99)"],
-        ["Under $340", "Wokyis M5 Retro Dock Station ($339.99)"],
+        ["Under $60", "UGREEN Mac mini Dock & Stand (under $60)"],
+        ["Under $95", "ACASIS Dual-Bay Dock (under $100)"],
+        ["Under $100", "Satechi Mac mini Hub & Stand (under $100)"],
+        ["Under $340", "Wokyis M5 Retro Dock Station (under $350)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Single-Bay Reliability vs Dual-Bay RAID Storage",
     cards: [
       { label: "Single-bay (Satechi, UGREEN)", text: "Simpler design with one SSD slot, avoiding RAID complexity and the lack of redundancy that comes with striped storage." },
-      { label: "Dual-bay RAID 0 (ACASIS)", text: "Doubles maximum storage capacity and combines drive speeds, but offers no data redundancy since a single drive failure loses all data on both drives." },
+      { label: "Dual-bay RAID 0 (ACASIS)", text: "Doubles maximum storage capacity and combines drive speeds, but offers no data redundancy since a single drive failure loses all data on both drives." }
     ],
     note: "If simplicity and reliability matter most, a single-bay dock is the safer choice for critical data. If you need maximum storage capacity and understand RAID 0's redundancy tradeoff, the ACASIS dual-bay pick delivers that.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your SSD type", "Recommended pick"],
       rows: [
         ["SSD with a heatsink or double-sided design", "Avoid the Satechi pick, which explicitly excludes these"],
-        ["PCIe 4.0 x4 NVMe 1.4+ SSD for maximum speed", "Wokyis M5 Retro Dock Station"],
+        ["PCIe 4.0 x4 NVMe 1.4+ SSD for maximum speed", "Wokyis M5 Retro Dock Station"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Buyers Who Want a Genuine Speed Boost, Not Just a Theoretical Rating",
     cards: [
       { label: "Look for", text: "A listing that specifically discloses the exact SSD type and cable needed to reach its advertised maximum speed, rather than just quoting the Thunderbolt generation's theoretical ceiling." },
-      { label: "In this comparison", text: "The Wokyis pick specifically states you need a PCIe 4.0 x4 NVMe 1.4 or higher SSD and the included Thunderbolt 5 certified cable to exceed 3000MB/s." },
+      { label: "In this comparison", text: "The Wokyis pick specifically states you need a PCIe 4.0 x4 NVMe 1.4 or higher SSD and the included Thunderbolt 5 certified cable to exceed 3000MB/s." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want a genuinely unique dock with a built-in display and transparent real-speed requirements, where the Wokyis M5 Retro Dock justifies its $339.99 price." },
-      { label: "Save if", text: "You want comprehensive 11-in-1 connectivity and solid NVMe storage expansion, where the UGREEN pick delivers that for $59.99, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You want a genuinely unique dock with a built-in display and transparent real-speed requirements, where the Wokyis M5 Retro Dock justifies its under $350 price." },
+      { label: "Save if", text: "You want comprehensive 11-in-1 connectivity and solid NVMe storage expansion, where the UGREEN pick delivers that for under $60, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

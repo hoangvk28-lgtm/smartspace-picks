@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "nightstand narrow";
 export const introParagraphs = [
   "A narrow nightstand exists for one reason: the standard 18 to 24 inch nightstand simply doesn't fit the floor clearance beside a small bedroom's bed. Before shopping by style, it helps to actually measure the clear floor space between the bed frame and the wall, not the door frame or the room itself, since that's the number that determines whether a nightstand fits at all.",
-  "Below are 8 narrow nightstands we evaluated on width, depth, weight capacity, and how well each one still functions as a real nightstand rather than a decorative sliver, ranging from a $18.99 open-tier tower at 7.08 inches wide to a $64.99 farmhouse table rated for 210 lbs.",
+  "Below are 8 narrow nightstands we evaluated on width, depth, weight capacity, and how well each one still functions as a real nightstand rather than a decorative sliver, ranging from an under-$20 open-tier tower at 7.08 inches wide to an under-$70 farmhouse table rated for 210 lbs."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -70,18 +70,18 @@ export const products: GuideProduct[] = [
       "Particleboard + black metal frame",
       "3 open tiers",
       "40 lb capacity",
-      "Adjustable footpads",
+      "Adjustable footpads"
     ],
     pros: [
       "Narrowest pick in this entire guide at 7.08\"",
       "Cheapest pick in this guide",
       "Stain-resistant lacquered finish",
-      "Adjustable footpads for uneven floors",
+      "Adjustable footpads for uneven floors"
     ],
     cons: [
       "Open tiers offer no closed storage",
       "40 lb capacity is on the lower end for this guide",
-      "Lowest rating tier among the sub-$25 picks",
+      "Lowest rating tier among the sub-$25 picks"
     ],
     bestFor: "The tightest floor clearance beside a bed, where every inch counts",
   },
@@ -102,18 +102,17 @@ export const products: GuideProduct[] = [
       "Engineered wood + metal frame",
       "5-minute tool-free assembly",
       "2-layer open shelves",
-      "50 lb capacity",
+      "50 lb capacity"
     ],
     pros: [
       "Fastest assembly in this guide at 5 minutes",
       "Highest capacity among the sub-$25 picks at 50 lbs",
-      "Industrial design pairs well with metal bed frames",
-      "Strong 4.6-star rating",
+      "Industrial design pairs well with metal bed frames"
     ],
     cons: [
       "11\" width is wider than the true narrow-clearance picks",
       "Open shelves, no closed storage",
-      "No charging features",
+      "No charging features"
     ],
     bestFor: "Buyers who want the fastest setup and the most capacity under $25",
   },
@@ -134,18 +133,18 @@ export const products: GuideProduct[] = [
       "CARB composite wood + PVC tubes",
       "3-tier open shelving",
       "30 lb capacity",
-      "FSC-certified, rounded corners",
+      "FSC-certified, rounded corners"
     ],
     pros: [
       "Best-selling pick in this guide",
       "FSC-certified and CARB-compliant, the safest pick here",
       "Rounded corners reduce bumps in a tight space",
-      "Reinforced PVC tubes add stability",
+      "Reinforced PVC tubes add stability"
     ],
     cons: [
       "30 lb capacity is the lowest among the mid-tier picks",
       "13.4\" width won't fit the tightest clearances",
-      "Open shelving only",
+      "Open shelving only"
     ],
     bestFor: "Buyers who want the most certified, best-selling option in a narrow footprint",
   },
@@ -166,18 +165,18 @@ export const products: GuideProduct[] = [
       "Engineered wood + alloy steel",
       "Removable iron mesh magazine basket",
       "Rust-resistant frame",
-      "Adjustable feet",
+      "Adjustable feet"
     ],
     pros: [
       "Thinnest depth in this guide among shelf-style picks at 7.1\"",
       "Unique magazine basket for reading material",
       "Rust-resistant alloy steel frame",
-      "Highest rating among the sub-$30 picks",
+      "Highest rating among the sub-$30 picks"
     ],
     cons: [
       "No charging features",
       "Pricier than the sub-$20 open-shelf picks",
-      "Magazine basket adds bulk some buyers won't need",
+      "Magazine basket adds bulk some buyers won't need"
     ],
     bestFor: "A very shallow footprint that still keeps an open shelf and magazine storage",
   },
@@ -198,18 +197,18 @@ export const products: GuideProduct[] = [
       "Engineered wood + metal",
       "2 AC + 1 USB-A + 1 USB-C outlets",
       "LED light",
-      "2 fabric drawers, 44 lb capacity",
+      "2 fabric drawers, 44 lb capacity"
     ],
     pros: [
       "Narrowest pick with charging in this guide at 7.87\"",
       "Full charging station with USB-C",
       "2 closed fabric drawers",
-      "FSC-certified materials",
+      "FSC-certified materials"
     ],
     cons: [
       "Lower rating than the non-charging picks at a similar width",
       "Pricier than every open-shelf pick in this guide",
-      "Fabric drawers show wear faster than solid drawers",
+      "Fabric drawers show wear faster than solid drawers"
     ],
     bestFor: "Buyers who need charging built in without giving up a narrow footprint",
   },
@@ -229,18 +228,17 @@ export const products: GuideProduct[] = [
       "7.9\"L x 16.5\"D x 24.5\"H",
       "Engineered wood + metal frame",
       "3 tiers, includes 1 storage basket",
-      "Adjustable footpads",
+      "Adjustable footpads"
     ],
     pros: [
       "Includes a fitted storage basket for closed-off items",
       "Tallest among the narrow no-charging picks at 24.5\"",
-      "Matches the narrowest charging pick's width without the price jump",
-      "Strong 4.7-star rating",
+      "Matches the narrowest charging pick's width without the price jump"
     ],
     cons: [
       "No charging features",
       "Smaller review base than most picks in this guide",
-      "Taller height may not suit a low-profile bed",
+      "Taller height may not suit a low-profile bed"
     ],
     bestFor: "A narrow footprint with one basket's worth of closed storage",
   },
@@ -255,24 +253,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51dDpDlqPdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DPMCMZFX?tag=deskfinds0d-20",
     description:
-      "This is the only set-of-2 pick among the narrow nightstands in this guide, giving both sides of a bed a matching 7.87-inch-wide table with the same charging hardware as the single LOAKEKEL, 2 AC outlets, 1 USB-A, and 1 USB-C per table.\n\nA rustic brown finish and FSC-certified materials back a lifetime warranty, which is notable at this price point for a set of two. Each table includes 2 fabric drawers, so the pair adds 4 total drawers of closed storage across both sides of the bed.\n\nMatching charging hardware on both tables. On the other hand, lowest rating in this guide at 4.2 stars. Neither should be a surprise once you know to look for it.",
+      "This is the only set-of-2 pick among the narrow nightstands in this guide, giving both sides of a bed a matching 7.87-inch-wide table with the same charging hardware as the single LOAKEKEL, 2 AC outlets, 1 USB-A, and 1 USB-C per table.\n\nA rustic brown finish and FSC-certified materials back a lifetime warranty, which is notable at this price point for a set of two. Each table includes 2 fabric drawers, so the pair adds 4 total drawers of closed storage across both sides of the bed.\n\nMatching charging hardware on both tables. Neither should be a surprise once you know to look for it.",
     specs: [
       "15.74\"D x 7.87\"W x 23.22\"H per table",
       "Engineered wood + metal",
       "Set of 2, 2 AC + 1 USB-A + 1 USB-C per table",
       "2 fabric drawers per table",
-      "Lifetime warranty",
+      "Lifetime warranty"
     ],
     pros: [
       "Only set-of-2 pick among the narrow nightstands in this guide",
       "Matching charging hardware on both tables",
       "Lifetime warranty",
-      "FSC-certified materials",
+      "FSC-certified materials"
     ],
     cons: [
-      "Lowest rating in this guide at 4.2 stars",
       "Most expensive per-table cost isn't obvious since it's sold as a pair",
-      "Rustic brown finish won't suit every bedroom",
+      "Rustic brown finish won't suit every bedroom"
     ],
     bestFor: "Matching both sides of a bed in a tight room without buying two separate listings",
   },
@@ -293,21 +290,21 @@ export const products: GuideProduct[] = [
       "Engineered wood + MDF + rubberwood legs",
       "210 lb capacity (highest in this guide)",
       "1 pull-out drawer + 2 shelves",
-      "Non-slip pads",
+      "Non-slip pads"
     ],
     pros: [
       "Highest weight capacity in this entire guide at 210 lbs",
       "Most durable build in this guide with rubberwood legs",
       "Combines a drawer and open shelves",
-      "Farmhouse design suits a broader range of decor",
+      "Farmhouse design suits a broader range of decor"
     ],
     cons: [
       "Widest pick in this guide at 12\", won't fit the tightest clearances",
       "Most expensive pick in this guide",
-      "Lower rating than the mid-tier picks",
+      "Lower rating than the mid-tier picks"
     ],
     bestFor: "Buyers with a full 12 inches of clearance who want maximum durability",
-  },
+  }
 ];
 
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
@@ -330,7 +327,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed width, capacity, and features against price, from the Vantimo to the Giantex farmhouse table.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -476,11 +473,11 @@ export const faq: FaqItem[] = [
   {
     q: "Can I get a narrow nightstand with charging built in?",
     a: "Yes, the LOAKEKEL Narrow Nightstand with USB-C is the narrowest pick in this guide that still includes a full charging station, with 2 AC outlets, 1 USB-A, and 1 USB-C port, at 7.87 inches wide. It's also available as a matching set of 2 for both sides of a bed.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-nightstand-organizer", title: "Best Nightstand Organizers (2026)" },
   { href: "/guide/best-nightstand-for-dorm", title: "Best Nightstands for Dorm Rooms (2026)" },
-  { href: "/guide/best-room-divider-with-storage", title: "Best Room Dividers with Storage (2026)" },
+  { href: "/guide/best-room-divider-with-storage", title: "Best Room Dividers with Storage (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook under 200";
 export const introParagraphs = [
   "At this budget you move past basic Rocketbook and LCD tablets into real Bluetooth-syncing digital writing tablets from XPPen and HUION, and even the entry point of E Ink hardware if you catch the right pricing.",
-  "We checked whether the pen is actually included in each listing's price, since that changes the real cost significantly, a $75 tablet with a separately sold pen isn't actually cheaper than a $90 tablet with the pen bundled in.",
+  "We checked whether the pen is actually included in each listing's price, since that changes the real cost significantly, a $75 tablet with a separately sold pen isn't actually cheaper than a $90 tablet with the pen bundled in."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41StVO0JWOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DX234NWP?tag=deskfinds0d-20",
     description: "Actually priced above a competitive priced competitively as listed, we're flagging this directly so buyers targeting a a strict budget ceiling know to look at the picks below instead, or watch for a price drop on this specific listing. It earns the top spot in this comparison over Penstar eNote2 E-Ink Digital Notebook with Pen for one main reason. Strong feature set for the category, including color and pressure sensitivity. On value, it comes in below Penstar eNote2 E-Ink Digital Notebook with Pen, which is worth weighing if cost is your deciding factor between the two. Worth knowing before you decide: Strong feature set for the category, including color and pressure sensitivity. On the other side, Currently priced above a a strict budget ceiling, verify current price before assuming it fits this budget. That's the main tradeoff to weigh against everything above.",
-    specs: ["10.95 inch color display","16384 pressure levels","329 reviews at 4.3 stars"],
+    specs: ["10.95 inch color display","16384 pressure levels"],
     pros: ["Strong feature set for the category, including color and pressure sensitivity"],
     cons: ["Currently priced above a strict $200 ceiling, verify current price before assuming it fits this budget"],
     bestFor: "Buyers with slight budget flexibility above $200 who want the most capable tablet in this comparison.",
@@ -47,7 +47,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31VzGzvO4SL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FKT9PNFC?tag=deskfinds0d-20",
     description: "At a competitive price, this is well above a budget. Included for direct price context against the genuinely under-a competitive price options below. One spot below XPPen 3 in 1 Color Digital Notebook 10.95\" in this ranking, it costs more than XPPen 3 in 1 Color Digital Notebook 10.95\". The compromise here is straightforward: More than double a budget. What you gain in return: True E Ink display, unlike the LCD/Bluetooth tablets that actually fit at a budget-friendly price. Whether that trade is worth it depends on which side matters more for how you'll actually use it. Worth knowing before you decide: True E Ink display, unlike the LCD/Bluetooth tablets that actually fit at a budget-friendly price. On the other side, More than double a budget. That's the main tradeoff to weigh against everything above.",
-    specs: ["10.3 inch E Ink display","Pen included","118 reviews at 4.4 stars"],
+    specs: ["10.3 inch E Ink display","Pen included"],
     pros: ["True E Ink display, unlike the LCD/Bluetooth tablets that actually fit under $200"],
     cons: ["More than double a $200 budget"],
     bestFor: "Buyers who see this price context and decide to save for E Ink rather than compromise at a lower budget.",
@@ -63,7 +63,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31djMiO0-jL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GCDRFJQG?tag=deskfinds0d-20",
     description: "Genuinely well at a budget-friendly price with the pen included in the price, real Bluetooth sync to your phone, and the largest review base of any product in this specific comparison. Sitting just under Penstar eNote2 E-Ink Digital Notebook with Pen, it's priced lower than Penstar eNote2 E-Ink Digital Notebook with Pen. Here's the honest tradeoff: Not E Ink, it's a Bluetooth-sync writing tablet, a different display technology. And here's what it gets you instead: Pen included in the price, not sold separately. That's the real difference between the two picks, not just a ranking number. Worth knowing before you decide: Largest, most established review base in this comparison. On the other side, Not E Ink, it's a Bluetooth-sync writing tablet, a different display technology. That's the main tradeoff to weigh against everything above.",
-    specs: ["Bluetooth writing tablet with pen included","Syncs notes to phone","1,889 reviews at 4.4 stars"],
+    specs: ["Bluetooth writing tablet with pen included","Syncs notes to phone"],
     pros: ["Pen included in the price, not sold separately","Largest, most established review base in this comparison"],
     cons: ["Not E Ink, it's a Bluetooth-sync writing tablet, a different display technology"],
     bestFor: "Buyers who want the most proven genuinely-under-$200 option with the pen included.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41PJ-F0w37L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BG2T9SGV?tag=deskfinds0d-20",
     description: "A battery-free pen is included at this price, and the device doubles as a drawing tablet, well within a budget. Ranked just behind XPPen Note Plus Digital Notebook with Pen, it costs more than XPPen Note Plus Digital Notebook with Pen. The real tradeoff against that pick: Slightly lower rating than the XPPen Note Plus above. In exchange, it offers this instead: Pen included, battery-free so nothing to charge. That's the swap that decides whether this pick or the one above it is the better fit for your note-taking needs. Worth knowing before you decide: Doubles as a drawing tablet. On the other side, Slightly lower rating than the XPPen Note Plus above. That's the main tradeoff to weigh against everything above.",
-    specs: ["Battery-free pen included","2-in-1 notebook and drawing tablet","671 reviews at 4.2 stars"],
+    specs: ["Battery-free pen included","2-in-1 notebook and drawing tablet"],
     pros: ["Pen included, battery-free so nothing to charge","Doubles as a drawing tablet"],
     cons: ["Slightly lower rating than the XPPen Note Plus above"],
     bestFor: "Buyers who want combined drawing and note-taking, comfortably under $200.",
@@ -95,7 +95,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41eM5RJPa2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F5P2186C?tag=deskfinds0d-20",
     description: "A different approach: a smart pen that syncs handwriting from real paper in real time, rather than a digital tablet screen. Included for comparison, though its rating and review base are the smallest and lowest in this comparison, worth reading current feedback before choosing it over the more established options above. One spot below HUION Note 2-in-1 Digital Notebook Drawing Tablet in this ranking, it's priced lower than HUION Note 2-in-1 Digital Notebook Drawing Tablet. The compromise here is straightforward: Lowest rating and smallest review base of any pick in this comparison. What you gain in return: Lets you keep writing on real paper while still getting digital sync. Whether that trade is worth it depends on which side matters more for how you'll actually use it. Worth knowing before you decide: Well under a budget. On the other side, Lowest rating and smallest review base of any pick in this comparison. That's the main tradeoff to weigh against everything above.",
-    specs: ["Smart pen for real paper","Real-time sync to app","58 reviews at 3.9 stars"],
+    specs: ["Smart pen for real paper","Real-time sync to app"],
     pros: ["Lets you keep writing on real paper while still getting digital sync","Well under a $200 budget"],
     cons: ["Lowest rating and smallest review base of any pick in this comparison"],
     bestFor: "Buyers who specifically want real-paper writing with real-time digital sync and are comfortable with a less-reviewed product.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified current price against the actual $200 ceiling", description: "We checked listed prices directly and flagged where a product exceeds a competitive price rather than assuming category fit." },
   { title: "Pen inclusion in the listed price", description: "We noted whether the stylus/pen is bundled into the price or would be an additional cost, since that changes the real total spend." },
   { title: "Display technology honestly labeled", description: "We distinguished true E Ink displays from LCD Bluetooth-sync tablets, since they're different technologies with different feel and capability." },
-  { title: "Review volume weighted against price", description: "We weighted established review history more heavily for budget picks, where build-quality variance is more likely than at premium price points." },
+  { title: "Review volume weighted against price", description: "We weighted established review history more heavily for budget picks, where build-quality variance is more likely than at premium price points." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -238,12 +238,13 @@ export const faq: FaqItem[] = [
   { q: "Is everything in this guide actually under $200?", a: "Not currently, two of the five products listed exceed $200 at time of writing and are included for price context. The XPPen Note Plus and HUION Note 2-in-1 are genuinely under-budget with strong reviews." },
   { q: "Does the pen come included?", a: "On the XPPen Note Plus and HUION Note 2-in-1, yes, the pen is bundled into the listed price." },
   { q: "Can I get a true E Ink device under $200?", a: "Not reliably at time of writing. True E Ink notebooks like the Penstar eNote2 currently price above $200, the under-$200 options here use LCD Bluetooth-sync technology instead." },
-  { q: "What's the most proven option genuinely under $200?", a: "The XPPen Note Plus at $69.98, with 1,889 reviews at 4.4 stars." },
+  
   { q: "Is there a real-paper option in this budget?", a: "Yes, the SyncPen Digital Notebook Smart Pen Set, though it has the smallest review base and lowest rating of the picks here." },
+  { q: "Is it worth stepping up to a higher-priced model?", a: "A higher tier usually adds a larger or color screen, more storage, and a more refined pen. If you mostly write and annotate, a simpler E Ink device can serve you well. Spend more if you want drawing features or a bigger workspace." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks-under-100", title: "Best Digital Notebooks Under $100 (2026)" },
   { href: "/guide/best-digital-notebooks-with-styluses", title: "Best Digital Notebooks with Styluses (2026)" },
-  { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" },
+  { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" }
 ];

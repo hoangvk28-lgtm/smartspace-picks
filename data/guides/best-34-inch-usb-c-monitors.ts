@@ -5,7 +5,7 @@ export const metaDescription = "5 34-inch USB-C monitors we evaluated, with a no
 export const mainKeyword = "34 inch usb-c monitor";
 export const introParagraphs = [
   "A 34-inch panel typically demands roughly a 30-inch minimum desk depth for comfortable viewing distance, since sitting too close to a panel this wide makes it hard to take in the full screen without excessive head movement, worth measuring your actual desk depth before buying.",
-  "Most 34-inch monitors in this category use an ultrawide 21:9 aspect ratio rather than a standard 16:9 ratio at a larger diagonal, worth confirming the specific aspect ratio matches your workspace expectations rather than assuming '34-inch' means simply a bigger standard monitor.",
+  "Most 34-inch monitors in this category use an ultrawide 21:9 aspect ratio rather than a standard 16:9 ratio at a larger diagonal, worth confirming the specific aspect ratio matches your workspace expectations rather than assuming '34-inch' means simply a bigger standard monitor."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     badge: "Best 34-Inch USB-C Monitor Overall",
     name: "Pixio PXC348C Neo 34 inch 180Hz Refresh Rate UWQHD 1440p Ultrawide Resolution 1000R Curve",
     price: "$249.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41TB04lWCrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DR3YBSL4?tag=deskfinds0d-20",
@@ -42,7 +42,7 @@ export const products: GuideProduct[] = [
     badge: "Best Productivity Pick at 34 Inches",
     name: "Dell 34 Monitor S3425DW, WQHD VA, 120Hz, FreeSync Premium, Eye Comfort",
     price: "$379.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41oTaXgx2fL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1H325FN?tag=deskfinds0d-20",
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     badge: "Best Premium HDR Pick at 34 Inches",
     name: "SAMSUNG Viewfinity S65UA Series 34-Inch Ultrawide QHD Curved Monitor, 100Hz, USB-C, HDR10",
     price: "$414.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51jbyzHVvdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BLT79X2G?tag=deskfinds0d-20",
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     badge: "Best 27-Inch Alternative for Tighter Desk Depth",
     name: "Dell 27 Monitor S2725QC, 4K UHD IPS, 120Hz, 99% sRGB, 4ms, FreeSync Premium",
     price: "$312.81",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41WGJRiwq3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1GFD44G?tag=deskfinds0d-20",
@@ -93,7 +93,7 @@ export const products: GuideProduct[] = [
     badge: "Best Alternative for Buyers Wanting Even More Width",
     name: "Deco Gear 49 Inch Curved Ultrawide Monitor, 5120x1440 Dual QHD 32:9 1500R VA Display, HDR400",
     price: "$449.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41hpKXhqKnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H1VFKC84?tag=deskfinds0d-20",
@@ -103,7 +103,7 @@ export const products: GuideProduct[] = [
     pros: ["Genuinely more workspace than any 34-inch panel", "1500R curve appropriately gentler for the greater viewing distance", "HDR400 support for richer contrast", "Effectively replaces a dual-monitor setup"],
     cons: ["Requires substantially more desk depth and width than a 34-inch panel", "Highest price in this guide", "Only worth it if you have the desk space to support it"],
     bestFor: "Buyers with generous desk space wanting even more width than a standard 34-inch panel",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -111,7 +111,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Desk depth requirement flagged honestly", description: "Flagged that a 34-inch panel typically demands roughly a 30-inch minimum desk depth for comfortable viewing distance, rather than assuming any desk fits this size." },
   { title: "21:9 aspect ratio clarified against '34-inch' sizing assumption", description: "Clarified that most 34-inch monitors use a 21:9 ultrawide aspect ratio rather than being simply a larger standard 16:9 panel." },
   { title: "Eye comfort features weighted for long sessions at this larger size", description: "Weighted explicit eye comfort features more heavily given the longer viewing sessions typical at a 34-inch panel's productivity use case." },
-  { title: "Alternative sizes referenced for desk-depth-constrained or space-abundant buyers", description: "Referenced smaller and larger alternative sizes for buyers whose desk space doesn't align with a standard 34-inch panel's requirements." },
+  { title: "Alternative sizes referenced for desk-depth-constrained or space-abundant buyers", description: "Referenced smaller and larger alternative sizes for buyers whose desk space doesn't align with a standard 34-inch panel's requirements." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -244,11 +244,11 @@ export const faq: FaqItem[] = [
   { q: "What if my desk isn't deep enough for a 34-inch monitor?", a: "Consider a 27-inch 4K panel instead, it offers sharp detail with a smaller footprint that fits tighter desk depths." },
   { q: "Should I go even bigger than 34 inches if I have the desk space?", a: "A 49-inch super-ultrawide can genuinely replace a dual-monitor setup if your desk depth and width comfortably accommodate it." },
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers with adequate desk depth wanting high refresh rate at 34 inches" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers with adequate desk depth wanting high refresh rate at 34 inches At $249.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers with adequate desk depth wanting high refresh rate at 34 inches At under $250, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-ultrawide-usb-c-monitors", title: "Best Ultrawide USB-C Monitors (2026)" },
   { href: "/guide/best-curved-usb-c-monitors", title: "Best Curved USB-C Monitors (2026)" },
-  { href: "/guide/best-27-inch-usb-c-monitors", title: "Best 27-Inch USB-C Monitors (2026)" },
+  { href: "/guide/best-27-inch-usb-c-monitors", title: "Best 27-Inch USB-C Monitors (2026)" }
 ];

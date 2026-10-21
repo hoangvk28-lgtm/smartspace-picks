@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "monitor shelf for dual monitors";
 export const introParagraphs = [
   "A dual-monitor shelf's rated weight capacity assumes both monitors are centered and reasonably matched in size, but real setups often pair a larger primary display with a smaller secondary one, and that mismatch creates uneven load distribution the rating doesn't fully account for. Centering the heavier monitor when possible reduces wobble risk more than the spec sheet alone suggests.",
-  "Cable management capacity is a real practical concern with two full sets of monitor, power, and peripheral cables running off one shelf, worth checking whether a shelf's cable routing actually accommodates double the cable volume of a single-monitor stand. The stand's real combined footprint is also worth measuring directly rather than trusting a generic 'fits dual monitors' claim.",
+  "Cable management capacity is a real practical concern with two full sets of monitor, power, and peripheral cables running off one shelf, worth checking whether a shelf's cable routing actually accommodates double the cable volume of a single-monitor stand. The stand's real combined footprint is also worth measuring directly rather than trusting a generic 'fits dual monitors' claim."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,13 +26,13 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Dual-Monitor Shelf",
     name: "WESTREE Dual Monitor Stand Riser, Wood and Steel, Rustic Brown",
     price: "$29.98",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "3,764 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51oe+oiyh9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09QWC568X?tag=deskfinds0d-20",
-    description: "For buyers wanting a genuinely wide, stable platform for two similarly sized monitors Built with a wood platform rated to 66 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nIt earns the top spot in this comparison over Fenge Dual Monitor Stand Riser for one main reason. Solid 4.6-star rating with 3,764 ratings. On price, it comes in below Fenge Dual Monitor Stand Riser, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["66 lbs rated capacity (evenly distributed)","wood construction","Priced at $29.98","3,764 ratings on Amazon"],
-    pros: ["Solid 4.6-star rating with 3,764 ratings","Wood build appropriate for this use case","Reasonable price at $29.98","A wood and steel dual-monitor riser rated up to 66 lbs combined."],
+    description: "For buyers wanting a genuinely wide, stable platform for two similarly sized monitors Built with a wood platform rated to 66 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nIt earns the top spot in this comparison over Fenge Dual Monitor Stand Riser for one main reason. On price, it comes in below Fenge Dual Monitor Stand Riser, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["66 lbs rated capacity (evenly distributed)","wood construction","Priced under $30"],
+    pros: ["Wood build appropriate for this use case","Reasonable price at under $30","A wood and steel dual-monitor riser rated up to 66 lbs combined."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A wood and steel dual-monitor riser rated up to 66 lbs combined.",
   },
@@ -42,13 +42,13 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Monitor Shelf with Storage",
     name: "Fenge Dual Monitor Stand Riser, Wooden Desk Shelf with 2-Tier Storage",
     price: "$97.99",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "764 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/411WQcE8coL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFQ5Y7SY?tag=deskfinds0d-20",
-    description: "For buyers wanting dual-monitor elevation plus real storage for cable clutter and accessories Built with a wood platform rated to 50 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nOne spot below WESTREE Dual Monitor Stand Riser in this ranking, it costs more than WESTREE Dual Monitor Stand Riser. The compromise here is straightforward: Rated capacity assumes evenly distributed weight, not a single point load. What you gain in return: Solid 4.7-star rating with 764 ratings. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["50 lbs rated capacity (evenly distributed)","wood construction","Priced at $97.99","764 ratings on Amazon"],
-    pros: ["Solid 4.7-star rating with 764 ratings","Wood build appropriate for this use case","Reasonable price at $97.99","A wooden dual-monitor riser with 2-tier storage underneath."],
+    description: "For buyers wanting dual-monitor elevation plus real storage for cable clutter and accessories Built with a wood platform rated to 50 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nOne spot below WESTREE Dual Monitor Stand Riser in this ranking, it costs more than WESTREE Dual Monitor Stand Riser. The compromise here is straightforward: Rated capacity assumes evenly distributed weight, not a single point load. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["50 lbs rated capacity (evenly distributed)","wood construction","Priced under $100"],
+    pros: ["Wood build appropriate for this use case","Reasonable price at under $100","A wooden dual-monitor riser with 2-tier storage underneath."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A wooden dual-monitor riser with 2-tier storage underneath.",
   },
@@ -58,13 +58,13 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Monitor Shelf with Drawer",
     name: "gianotter Dual Monitor Stand Riser With Drawer and 2 Pen Holders",
     price: "$25.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "3,096 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41gO3CCIg1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJKSMV2T?tag=deskfinds0d-20",
-    description: "For buyers wanting a dedicated drawer specifically sized for a dual-monitor desk's clutter Built with a wood and metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nSitting just under Fenge Dual Monitor Stand Riser, it's priced lower than Fenge Dual Monitor Stand Riser. Here's the honest tradeoff: Rated capacity assumes evenly distributed weight, not a single point load. And here's what it gets you instead: Solid 4.6-star rating with 3,096 ratings. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Wood and metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["44 lbs rated capacity (evenly distributed)","wood and metal construction","Priced at $25.99","3,096 ratings on Amazon"],
-    pros: ["Solid 4.6-star rating with 3,096 ratings","Wood and metal build appropriate for this use case","Reasonable price at $25.99","A dual monitor riser with a drawer and two pen holders."],
+    description: "For buyers wanting a dedicated drawer specifically sized for a dual-monitor desk's clutter Built with a wood and metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nSitting just under Fenge Dual Monitor Stand Riser, it's priced lower than Fenge Dual Monitor Stand Riser. Here's the honest tradeoff: Rated capacity assumes evenly distributed weight, not a single point load. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Wood and metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","wood and metal construction","Priced under $30"],
+    pros: ["Wood and metal build appropriate for this use case","Reasonable price at under $30","A dual monitor riser with a drawer and two pen holders."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A dual monitor riser with a drawer and two pen holders.",
   },
@@ -74,13 +74,13 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Monitor Shelf for Mismatched Screen Sizes",
     name: "gianotter Dual Monitor Stand Riser With Drawer and 2 Pen Holders",
     price: "$35.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "3,096 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51t9olm2s2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSZ9NYTL?tag=deskfinds0d-20",
-    description: "For buyers running one larger primary monitor alongside a smaller secondary display Built with a wood and metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nRanked just behind gianotter Dual Monitor Stand Riser With Drawer and 2 Pen Holders, it costs more than gianotter Dual Monitor Stand Riser With Drawer and 2 Pen Holders. The real tradeoff against that pick: Rated capacity assumes evenly distributed weight, not a single point load. In exchange, it offers this instead: Solid 4.6-star rating with 3,096 ratings. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Wood and metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["44 lbs rated capacity (evenly distributed)","wood and metal construction","Priced at $35.99","3,096 ratings on Amazon"],
-    pros: ["Solid 4.6-star rating with 3,096 ratings","Wood and metal build appropriate for this use case","Reasonable price at $35.99","The same dual monitor riser design with drawer and pen holders, suited to uneven monitor pairings."],
+    description: "For buyers running one larger primary monitor alongside a smaller secondary display Built with a wood and metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nRanked just behind gianotter Dual Monitor Stand Riser With Drawer and 2 Pen Holders, it costs more than gianotter Dual Monitor Stand Riser With Drawer and 2 Pen Holders. The real tradeoff against that pick: Rated capacity assumes evenly distributed weight, not a single point load. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Wood and metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","wood and metal construction","Priced under $40"],
+    pros: ["Wood and metal build appropriate for this use case","Reasonable price at under $40","The same dual monitor riser design with drawer and pen holders, suited to uneven monitor pairings."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "The same dual monitor riser design with drawer and pen holders, suited to uneven monitor pairings.",
   }
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Uneven-load stability considered for mismatched monitors", description: "Weighted how well each shelf handles a larger primary monitor paired with a smaller secondary one, not just two identical screens." },
   { title: "Cable management capacity for two full monitor sets", description: "Checked whether cable routing genuinely accommodates double the cable volume of a single-monitor stand." },
   { title: "Real combined footprint measured", description: "Compared actual dimensions against generic 'fits dual monitors' claims rather than trusting the marketing label alone." },
-  { title: "Center-span mounting stress noted", description: "Considered how weight concentrated across the shelf's center span affects stability under a wide dual-monitor load." },
+  { title: "Center-span mounting stress noted", description: "Considered how weight concentrated across the shelf's center span affects stability under a wide dual-monitor load." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -157,23 +157,19 @@ export const howToChoose: HowToChooseSection[] = [
       {
         "label": "Look for",
         "text": "A stated weight capacity with real margin above your monitor's actual weight, a rigid material like metal or thick wood, and a wide enough platform to support the monitor's full base without overhang."
-      },
-      {
-        "label": "In this comparison",
-        "text": "Fenge Dual Monitor Stand Riser fits this specifically: Solid 4.7-star rating with 764 ratings."
       }
-    ]
+      ]
   },
   {
     "subheading": "When to Spend More",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want what Fenge Dual Monitor Stand Riser offers: Solid 4.7-star rating with 764 ratings. That's a real functional upgrade over the budget picks here, not just a brand markup."
+        "text": "That's a real functional upgrade over the budget picks here, not just a brand markup."
       },
       {
         "label": "Save if",
-        "text": "gianotter Dual Monitor Stand Riser With Drawer and 2 Pen Holders already covers the essentials: Solid 4.6-star rating with 3,096 ratings. The main thing you'd be paying extra for elsewhere in this list is capacity or storage you may not need."
+        "text": "The main thing you'd be paying extra for elsewhere in this list is capacity or storage you may not need."
       }
     ]
   }
@@ -206,11 +202,11 @@ export const faq: FaqItem[] = [
   { q: "Do dual-monitor shelves work if my two monitors are different sizes?", a: "Most can, but center the heavier monitor when possible, since mismatched sizes create uneven load that increases wobble risk." },
   { q: "Will a dual-monitor shelf fit my exact two monitors?", a: "Measure your monitors' combined base width against the shelf's actual dimensions rather than trusting a generic 'fits dual monitors' label." },
   { q: "Is cable management different for dual-monitor shelves?", a: "Yes, two monitors produce roughly double the cable volume of a single-monitor stand, confirm the shelf's routing has room for that." },
-  { q: "How is this different from the ultrawide monitor shelf guide?", a: "This guide covers two separate monitors sharing one platform, while the ultrawide guide covers a single wide monitor concentrating weight at one center point." },
+  { q: "How is this different from the ultrawide monitor shelf guide?", a: "This guide covers two separate monitors sharing one platform, while the ultrawide guide covers a single wide monitor concentrating weight at one center point." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-monitor-shelves-for-ultrawide-monitors", title: "Best Monitor Shelves for Ultrawide Monitors (2026)" },
   { href: "/guide/best-wide-monitor-shelves", title: "Best Wide Monitor Shelves (2026)" },
-  { href: "/guide/best-monitor-shelves-with-storage", title: "Best Monitor Shelves with Storage (2026)" },
+  { href: "/guide/best-monitor-shelves-with-storage", title: "Best Monitor Shelves with Storage (2026)" }
 ];

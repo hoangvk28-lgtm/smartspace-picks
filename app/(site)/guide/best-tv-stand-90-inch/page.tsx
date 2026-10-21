@@ -140,7 +140,7 @@ export default async function Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best TV Stands for 90 Inch TVs", item: `${SITE_URL}/guide/best-tv-stand-90-inch` },
+      { "@type": "ListItem", position: 3, name: "Best TV Stands for 90 Inch TVs", item: `${SITE_URL}/guide/best-tv-stand-90-inch` }
     ],
   };
 

@@ -123,7 +123,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The widest slot range for a thick laptop", "Psitek Aluminum Vertical Laptop Stand Dock Holder"],
         ["Storage for two laptops", "OMOTON Dual Vertical Desk Laptop Stand Holder"],
         ["Explicit named brand compatibility", "UGREEN Vertical Laptop Stand Holder, Gray"],
-        ["The same UGREEN stand in black", "UGREEN Vertical Laptop Stand Holder, Black"],
+        ["The same UGREEN stand in black", "UGREEN Vertical Laptop Stand Holder, Black"]
       ],
     },
   },
@@ -132,8 +132,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $20", "Psitek ($16.99), OMOTON ($19.66), or UGREEN Gray ($19.99)"],
-        ["$21 to $30", "UGREEN Black ($22.99)"],
+        ["Under $20", "Psitek (under $20), OMOTON (under $20), or UGREEN Gray (under $20)"],
+        ["$21 to $30", "UGREEN Black (under $25)"]
       ],
     },
   },
@@ -147,7 +147,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "Narrower range: 0.47-1\" (both UGREEN picks)",
         text: "Names specific compatible brands directly (MacBook, HP, Dell, ThinkPad up to 17.3\"), but won't fit unusually thick laptops beyond 1 inch.",
-      },
+      }
     ],
     note: "Measure your laptop's closed thickness first: if it's under 1 inch and from a named UGREEN-compatible brand, either UGREEN pick works; if it's thicker, Psitek or OMOTON is the safer choice.",
   },
@@ -157,7 +157,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["You need to store", "Recommended pick"],
       rows: [
         ["One laptop", "Psitek or either UGREEN pick"],
-        ["Two laptops side by side", "OMOTON Dual Vertical Desk Laptop Stand Holder"],
+        ["Two laptops side by side", "OMOTON Dual Vertical Desk Laptop Stand Holder"]
       ],
     },
   },
@@ -171,7 +171,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "Psitek and OMOTON both state a 1.65 inch maximum, meaningfully wider than either UGREEN pick's 1 inch cap.",
-      },
+      }
     ],
   },
   {
@@ -179,14 +179,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You need to store two laptops or have an unusually thick single laptop: OMOTON ($19.66) covers dual storage, while Psitek ($16.99) covers the widest single-slot range.",
+        text: "You need to store two laptops or have an unusually thick single laptop: OMOTON (under $20) covers dual storage, while Psitek (under $20) covers the widest single-slot range.",
       },
       {
         label: "Save if",
-        text: "Your laptop is standard thickness (under 1 inch) from a named compatible brand: UGREEN Gray ($19.99) confirms that fit directly without paying for range you don't need.",
-      },
+        text: "Your laptop is standard thickness (under 1 inch) from a named compatible brand: UGREEN Gray (under $20) confirms that fit directly without paying for range you don't need.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -241,5 +241,5 @@ export const faq = [
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-vertical-laptop-stands-under-15", title: "Best Vertical Laptop Stands Under $15" },
-  { href: "/guide/best-vertical-laptop-stands", title: "Best Vertical Laptop Stands" },
+  { href: "/guide/best-vertical-laptop-stands", title: "Best Vertical Laptop Stands" }
 ];

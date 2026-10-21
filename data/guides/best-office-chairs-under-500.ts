@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["An established commercial brand with tool-free assembly", "Steelcase Series 1 Ergonomic Office Chair"],
         ["The most comprehensive adjustment system available", "Branch Ergonomic Chair Pro"],
         ["Orthopedic-collaborated engineering with a footrest", "ELABEST X100 Ergonomic Mesh Office Chair"],
-        ["A named ergonomic brand at a lower flagship price", "Autonomous ErgoChair Core"],
+        ["A named ergonomic brand at a lower flagship price", "Autonomous ErgoChair Core"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $300", "Autonomous ErgoChair Core ($299.00)"],
-        ["Under $350", "ELABEST X100 with Footrest ($349.99)"],
-        ["Under $500", "Steelcase Series 1 ($499.00) or Branch Ergonomic Chair Pro ($499.00)"],
+        ["Under $300", "Autonomous ErgoChair Core (under $300)"],
+        ["Under $350", "ELABEST X100 with Footrest (under $350)"],
+        ["Under $500", "Steelcase Series 1 (under $500) or Branch Ergonomic Chair Pro (under $500)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Established Commercial Brand vs Direct-to-Consumer Ergonomic Brand",
     cards: [
       { label: "Established commercial (Steelcase)", text: "Decades of commercial ergonomic research and weight-activated controls that remove manual tension adjustment entirely." },
-      { label: "Direct-to-consumer (Branch, Autonomous)", text: "Often includes more total adjustment points or distinct structural designs at a comparable or lower price point." },
+      { label: "Direct-to-consumer (Branch, Autonomous)", text: "Often includes more total adjustment points or distinct structural designs at a comparable or lower price point." }
     ],
     note: "If you specifically value a legacy commercial brand's research pedigree, Steelcase is the clear choice. If you want the most adjustment points for the price, Branch offers more customization at the same price.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Maximum granular micro-adjustment", "ELABEST X100 (17-point system)"],
         ["Comprehensive but slightly less granular", "Branch Ergonomic Chair Pro (14-point system)"],
-        ["Weight-activated simplicity, less manual tuning needed", "Steelcase Series 1"],
+        ["Weight-activated simplicity, less manual tuning needed", "Steelcase Series 1"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Buyers With a Documented Back Condition Specifically",
     cards: [
       { label: "Look for", text: "A chair developed with input from orthopedic or spinal specialists, not just general in-house ergonomic design language." },
-      { label: "In this comparison", text: "The ELABEST X100's Dynamic Spinal Alignment System was specifically developed in collaboration with California-based orthopedic specialists." },
+      { label: "In this comparison", text: "The ELABEST X100's Dynamic Spinal Alignment System was specifically developed in collaboration with California-based orthopedic specialists." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want an established commercial brand or the single most comprehensive adjustment system available, where the Steelcase or Branch picks each deliver a distinct flagship-tier credential." },
-      { label: "Save if", text: "You want genuine ergonomic-brand backing without paying full flagship price, where the Autonomous ErgoChair Core delivers that for $200 less than the top two picks." },
+      { label: "Save if", text: "You want genuine ergonomic-brand backing without paying full flagship price, where the Autonomous ErgoChair Core delivers that for $200 less than the top two picks." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

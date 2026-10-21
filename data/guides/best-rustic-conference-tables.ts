@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 8FT Conference Table measures 94.49 L x 47.24 W x 29.53 H and is built around 10 people conference table, positioning it for rustic buyers specifically.\n\nSUPER STURDY CONSTRUCTION is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for rustic, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["94.49 L x 47.24 W x 29.53 H table dimensions","10 PEOPLE CONFERENCE TABLE","SUPER STURDY CONSTRUCTION"],
     pros: ["10 PEOPLE CONFERENCE TABLE, confirmed directly in the listing's own spec details","SUPER STURDY CONSTRUCTION, confirmed directly in the listing's own spec details","GROMMET HOLES & ADJUSTABLE FOOT PADS, confirmed directly in the listing's own spec details"],
-    cons: ["At $379.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $400, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for rustic",
   },
   {
@@ -126,7 +126,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 8ft Conference Table measures 8ft and is built around spacious 8-10 person capacity, positioning it for rustic buyers specifically.\n\nElegant Walnut & Black Aesthetic is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for rustic, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["8ft table dimensions","Spacious 8-10 Person Capacity","Elegant Walnut & Black Aesthetic"],
     pros: ["Spacious 8-10 Person Capacity, confirmed directly in the listing's own spec details","Elegant Walnut & Black Aesthetic, confirmed directly in the listing's own spec details","Integrated Cable Management, confirmed directly in the listing's own spec details"],
-    cons: ["At $389.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $400, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for rustic",
   },
   {
@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 8FT Conference Table measures 94.48L x 47.24W x 29.52H and is built around modern & natural style, positioning it for rustic buyers specifically.\n\nAssemble the Team is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for rustic, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["94.48L x 47.24W x 29.52H table dimensions","Modern & Natural Style","Assemble the Team"],
     pros: ["Modern & Natural Style, confirmed directly in the listing's own spec details","Assemble the Team, confirmed directly in the listing's own spec details","Tabletop Cable Grommets, confirmed directly in the listing's own spec details"],
-    cons: ["At $254.73, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $300, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for rustic",
   }
 
@@ -210,40 +210,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $129.99",
+          "Under $130",
           "GIANTEX 6FT Conference Table for 8-10"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "Tribesigns 6.5FT Conference Table"
         ],
         [
-          "Around $189.99",
+          "Under $190",
           "Tribesigns 6FT Rustic Conference Table"
         ],
         [
-          "Around $239.99",
+          "Under $250",
           "Tribesigns 70.86\" Rectangular Conference Table"
         ],
         [
-          "Around $254.73",
+          "Under $300",
           "Tribesigns 8FT Conference Table"
         ],
         [
-          "Around $369.99",
+          "Under $400",
           "Tribesigns 10.5FT Conference Table"
         ],
         [
-          "Around $379.99",
+          "Under $400",
           "Tribesigns 8FT Conference Table"
         ],
         [
-          "Around $389.99",
+          "Under $400",
           "Tribesigns 8ft Conference Table"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -291,7 +291,7 @@ export const faq = [
     "a": "Not inherently. High-density MDF and particle board with a laminate or melamine finish are standard in this category and hold up well to daily commercial use. Solid wood, veneer over engineered wood, or steel-reinforced builds cost more and matter most where long-term durability or a premium look is the priority."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns 6FT Rustic Conference Table is aimed at buyers prioritizing 70.8\"w x 35.4\"d x 29.52\"h rectangle." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns 6FT Rustic Conference Table is aimed at buyers prioritizing 70.8\"w x 35.4\"d x 29.52\"h rectangle." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-modern-conference-tables","title":"Best Modern Conference Tables in 2026"},{"href":"/guide/best-black-conference-tables","title":"Best Black Conference Tables in 2026"},{"href":"/guide/best-white-conference-tables","title":"Best White Conference Tables in 2026"}];

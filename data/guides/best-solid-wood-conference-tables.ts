@@ -126,7 +126,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 8FT Conference Table measures 94.49 L x 47.24 W x 29.53 H and is built around 10 people conference table, positioning it for solid wood buyers specifically.\n\nSUPER STURDY CONSTRUCTION is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for solid wood, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["94.49 L x 47.24 W x 29.53 H table dimensions","10 PEOPLE CONFERENCE TABLE","SUPER STURDY CONSTRUCTION"],
     pros: ["10 PEOPLE CONFERENCE TABLE, confirmed directly in the listing's own spec details","SUPER STURDY CONSTRUCTION, confirmed directly in the listing's own spec details","GROMMET HOLES & ADJUSTABLE FOOT PADS, confirmed directly in the listing's own spec details"],
-    cons: ["At $379.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $400, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for solid wood",
   },
   {
@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 70.86\" Rectangular Conference Table for 6-8 (Oak and Black) and is built around spacious workspace, positioning it for solid wood buyers specifically.\n\nSturdy Construction is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for solid wood, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Spacious Workspace","Sturdy Construction","Rustic Meets Modern Function"],
     pros: ["Spacious Workspace, confirmed directly in the listing's own spec details","Sturdy Construction, confirmed directly in the listing's own spec details","Rustic Meets Modern Function, confirmed directly in the listing's own spec details"],
-    cons: ["At $239.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $250, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for solid wood",
   }
 
@@ -210,40 +210,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $209.99",
+          "Under $250",
           "TRIBEWOOD 63-Inch Solid Wood Conference Table for 4-6"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "TRIBEWOOD 63\" Live Edge Solid Wood Desk (Alt Listing)"
         ],
         [
-          "Around $239.99",
+          "Under $250",
           "TRIBWOOD 63\" Live Edge Solid Pine Table"
         ],
         [
-          "Around $239.99",
+          "Under $250",
           "Tribesigns 70.86\" Rectangular Conference Table for 6-8 (Oak and Black)"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "TRIBEWOOD 63\" Live Edge Solid Wood Desk"
         ],
         [
-          "Around $269.99",
+          "Under $300",
           "TRIBEWOOD 5.24ft Solid Wood Conference Table for 6"
         ],
         [
-          "Around $379.99",
+          "Under $400",
           "Tribesigns 8FT Conference Table"
         ],
         [
-          "Around $489.99",
+          "Under $500",
           "TRIBEWOOD 10FT Solid Wood Conference Table for 10-12"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -291,7 +291,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "TRIBEWOOD 10FT Solid Wood Conference Table for 10-12 is aimed at buyers prioritizing 10ft solid wood table, seats 10-12." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "TRIBEWOOD 10FT Solid Wood Conference Table for 10-12 is aimed at buyers prioritizing 10ft solid wood table, seats 10-12." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-wood-conference-tables","title":"Best Wood Conference Tables in 2026"},{"href":"/guide/best-live-edge-conference-tables","title":"Best Live-Edge Conference Tables in 2026"},{"href":"/guide/best-walnut-conference-tables","title":"Best Walnut Conference Tables in 2026"}];

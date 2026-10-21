@@ -12,7 +12,7 @@ export const smartDeskPrivacyConsiderationsGuide: Guide = {
     "smart speaker privacy concerns",
     "always listening microphone office",
     "smart device data collection desk",
-    "disable microphone smart speaker",
+    "disable microphone smart speaker"
   ],
   heroImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const smartDeskPrivacyConsiderationsGuide: Guide = {
     "voice-assistant-desk-integration",
     "webcam-privacy-cover-explained",
     "vpn-for-remote-work-explained",
-    "smart-plug-vs-smart-outlet-explained",
+    "smart-plug-vs-smart-outlet-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const smartDeskPrivacyConsiderationsGuide: Guide = {
       question: "Can I use smart desk devices without a cloud account or internet connection?",
       answer:
         "Some basic smart plugs and simple devices can function with local-only control via Bluetooth without cloud connectivity, but most voice assistants and full-featured smart devices require an internet connection and associated account for their core functionality.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const smartDeskPrivacyConsiderationsGuide: Guide = {
     {
       heading: "Why Physical Controls Provide More Certainty Than Software Settings Alone",
       body: `While understanding how wake-word detection works addresses the general privacy question, for situations involving genuinely sensitive information, confidential client calls, private conversations, relying on a physical, hardware-level mute button provides a more certain guarantee than trusting software-based listening states, a physical mute typically disconnects the microphone at a hardware level regardless of any software behavior, this extra layer of certainty is worth using specifically during moments where privacy genuinely matters, even if you're otherwise comfortable with the device's normal operation.`,
-    },
+    }
   ],
 };

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "thunderbolt 4 docking station";
 export const introParagraphs = [
   "A dock labeled for Thunderbolt 4 use isn't automatically a certified TB4 device, and that distinction matters more than most buying guides let on. Genuine Thunderbolt 4 certification guarantees 40Gbps bandwidth, dual 4K display support, and daisy-chain compatibility, while a growing number of USB4 and DisplayLink-based docks sit alongside certified units in search results without ever completing that certification process.",
-  "Below are 7 docking stations we evaluated for laptops with a Thunderbolt 4 port, spanning genuinely certified TB4 hardware, a forward-looking Thunderbolt 5 option, and several capable USB4/DisplayLink alternatives that work with a TB4 port but should not be assumed to match certified performance.",
+  "Below are 7 docking stations we evaluated for laptops with a Thunderbolt 4 port, spanning genuinely certified TB4 hardware, a forward-looking Thunderbolt 5 option, and several capable USB4/DisplayLink alternatives that work with a TB4 port but should not be assumed to match certified performance."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "100W charging to host laptop",
       "Dual 4K HDMI or single 6K display output",
       "6x USB ports, SD reader, Gigabit Ethernet",
-      "Driverless on macOS and Windows",
+      "Driverless on macOS and Windows"
     ],
     pros: [
       "Genuine TB4 certification, not a USB4 look-alike",
       "Driverless setup on both Mac and Windows",
       "Solid 100W charging for most laptops",
-      "Supports 6K single-display output",
+      "Supports 6K single-display output"
     ],
     cons: [
       "100W falls short of a 16 inch MacBook Pro under full load",
       "Dual 4K caps out below true 5K/6K multi-display setups",
-      "Premium price versus USB4 alternatives",
+      "Premium price versus USB4 alternatives"
     ],
     bestFor: "Buyers who specifically need guaranteed, certified TB4 performance",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "130W charging to host laptop",
       "Up to 4 displays (2x DP 1.4 + HDMI 2.1)",
       "2.5GbE Ethernet + Wi-Fi",
-      "Validated specifically for Dell Pro laptops",
+      "Validated specifically for Dell Pro laptops"
     ],
     pros: [
       "130W charging, higher than most TB4 docks",
       "Certified for guaranteed 40Gbps performance",
       "Built-in 2.5GbE and Wi-Fi",
-      "Supports up to 4 displays with the right host GPU",
+      "Supports up to 4 displays with the right host GPU"
     ],
     cons: [
       "Optimized around Dell hardware, less validated elsewhere",
       "Bulkier footprint than compact USB4 hubs",
-      "4-display support depends on the laptop's own TB4 controller limits",
+      "4-display support depends on the laptop's own TB4 controller limits"
     ],
     bestFor: "Dell laptop owners who want a manufacturer-validated TB4 dock",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "140W max charging",
       "Backward compatible with TB4/TB3 laptops",
       "Up to 8K display output, dual display support",
-      "Active cooling system",
+      "Active cooling system"
     ],
     pros: [
       "Backward compatible, runs fine on any current TB4 laptop",
       "140W charging, the highest in this list",
       "Ready for TB5-only bandwidth boosts on newer laptops",
-      "Active cooling under sustained load",
+      "Active cooling under sustained load"
     ],
     cons: [
       "Most expensive pick in this list",
       "TB5 bandwidth advantage is wasted on a TB4-only laptop today",
-      "Overkill for buyers who just need basic dual-monitor output",
+      "Overkill for buyers who just need basic dual-monitor output"
     ],
     bestFor: "Buyers who want to buy once and stay ahead of a future TB5 laptop upgrade",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "160W total output across host and peripherals",
       "10Gbps fast data transfer",
       "Dual 4K display support",
-      "Ethernet and audio ports included",
+      "Ethernet and audio ports included"
     ],
     pros: [
       "Runs on a TB4 port at a lower price than certified docks",
       "Very high 160W total power output",
       "Solid 10Gbps transfer for everyday storage tasks",
-      "Dual 4K covers most standard desk setups",
+      "Dual 4K covers most standard desk setups"
     ],
     cons: [
       "Not Thunderbolt Certified, so bandwidth guarantees don't apply",
       "No daisy-chain support like true TB4 docks",
-      "Not the right choice if you specifically need 40Gbps guaranteed",
+      "Not the right choice if you specifically need 40Gbps guaranteed"
     ],
     bestFor: "Buyers who want TB4-port compatibility without paying for full certification",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "100W PD charging",
       "6x USB ports at 5Gbps",
       "Windows, macOS, ChromeOS compatible",
-      "Not Thunderbolt Certified",
+      "Not Thunderbolt Certified"
     ],
     pros: [
       "Genuine triple-display output at a mid-range price",
       "100W charging covers most laptops",
       "Broad OS compatibility including ChromeOS",
-      "6 USB ports for a well-populated desk",
+      "6 USB ports for a well-populated desk"
     ],
     cons: [
       "Main 4K display is capped at 30Hz",
       "Not certified TB4, so no guaranteed 40Gbps bandwidth",
-      "Video output relies on driver-based compression for extra displays",
+      "Video output relies on driver-based compression for extra displays"
     ],
     bestFor: "Buyers who want 3 displays without paying for a certified TB4 dock",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "DisplayLink driver required on Mac",
       "100W charging, 20W USB-C output",
       "Gigabit Ethernet, SD card reader",
-      "4x additional USB ports",
+      "4x additional USB ports"
     ],
     pros: [
       "Genuine triple-monitor support on Macs that don't natively allow it",
       "100W charging plus 20W secondary USB-C output",
       "Gigabit Ethernet and SD reader included",
-      "Well-reviewed as a Mac triple-display workaround",
+      "Well-reviewed as a Mac triple-display workaround"
     ],
     cons: [
       "Requires installing and maintaining a DisplayLink driver",
       "Not suited for color-critical creative work",
-      "Not a certified TB4 device despite the TB4-port compatibility",
+      "Not a certified TB4 device despite the TB4-port compatibility"
     ],
     bestFor: "Mac users who need 3 displays and don't mind installing a DisplayLink driver",
   },
@@ -249,21 +249,21 @@ export const products: GuideProduct[] = [
       "140W max output",
       "Built-in cooling fan",
       "Smart Display status indicator",
-      "Windows laptops (driver required)",
+      "Windows laptops (driver required)"
     ],
     pros: [
       "Genuine triple 4K 60Hz output, rare at this price",
       "Active cooling fan for all-day use",
       "High 140W max power output",
-      "Smart Display status feedback",
+      "Smart Display status feedback"
     ],
     cons: [
       "Requires the latest DisplayLink driver installed and maintained",
       "Windows-focused, less proven on macOS",
-      "Not a certified TB4 device",
+      "Not a certified TB4 device"
     ],
     bestFor: "Windows users who want 3 real 4K 60Hz displays and run the dock all day",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -291,7 +291,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value versus certification tier",
     description: "Weighed certified TB4 docks against capable USB4/DisplayLink alternatives to identify which buyers genuinely need the certified tier and which don't.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -449,11 +449,11 @@ export const faq: FaqItem[] = [
   {
     q: "Is a DisplayLink triple-monitor dock a good fit for photo editing?",
     a: "Not for your primary working display. DisplayLink compresses video output through the CPU rather than passing it through natively, which introduces color inconsistency that color-critical photo and video work will notice. It's fine for a secondary reference monitor, but keep your main editing display on a native TB4 connection.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-displaylink-docking-stations", title: "Best DisplayLink Docking Stations (2026)" },
   { href: "/guide/best-usb-c-docking-stations", title: "Best USB-C Docking Stations (2026)" },
-  { href: "/guide/best-docking-stations-for-macbook-pro", title: "Best Docking Stations for MacBook Pro (2026)" },
+  { href: "/guide/best-docking-stations-for-macbook-pro", title: "Best Docking Stations for MacBook Pro (2026)" }
 ];

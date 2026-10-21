@@ -126,7 +126,7 @@ export const products: GuideProduct[] = [
     description: "[UPGRADED] Small Safes for Home Dorm, 0.30 Cuft Mini Safe Box and is built around light-duty & small safe, positioning it for under 50 buyers specifically.\n\nCOMPACT DESIGN & BUILT QUALITY is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 50, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["LIGHT-DUTY & SMALL SAFE","COMPACT DESIGN & BUILT QUALITY","HIDDEN HOME SAFE WITH MOUNTING DESIGN"],
     pros: ["LIGHT-DUTY & SMALL SAFE, confirmed directly in the listing's own spec details","COMPACT DESIGN & BUILT QUALITY, confirmed directly in the listing's own spec details","HIDDEN HOME SAFE WITH MOUNTING DESIGN, confirmed directly in the listing's own spec details"],
-    cons: ["At $29.98, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $30, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 50",
   },
   {

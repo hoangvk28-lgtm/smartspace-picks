@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31OvdMQtYzL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0BRV6DHSZ?tag=deskfinds0d-20",
-    "description": "PoE Texas 10-Inch PoE Meeting Room Scheduler Tablet with LED Ring leads with what does this do? this, backed by which calendars does it work, a combination aimed at as a dedicated room-booking tablet rather than a general-purpose display repurposed for scheduling.\n\nIt lands between PoE Texas 8\" Conference Room Scheduler with Color Changing LED Status's $279.99 price floor and RAYPODO Meeting Room Scheduler Tablet's $388 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nPoE Texas 10-Inch PoE Meeting Room Scheduler Tablet with LED Ring is the right call for small offices or coworking spaces that want a dedicated booking display outside each meeting room. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "PoE Texas 10-Inch PoE Meeting Room Scheduler Tablet with LED Ring leads with what does this do? this, backed by which calendars does it work, a combination aimed at as a dedicated room-booking tablet rather than a general-purpose display repurposed for scheduling.\n\nIt lands between PoE Texas 8\" Conference Room Scheduler with Color Changing LED Status's under $300 price floor and RAYPODO Meeting Room Scheduler Tablet's $388 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nPoE Texas 10-Inch PoE Meeting Room Scheduler Tablet with LED Ring is the right call for small offices or coworking spaces that want a dedicated booking display outside each meeting room. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "What Does This Do? This",
       "Which Calendars Does It Work",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31O7erkrvnL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CX1WG8N7?tag=deskfinds0d-20",
-    "description": "What stands out on PoE Texas 8\" Conference Room Scheduler with Color Changing LED Status is what does this do? this, alongside which calendars does it work, which is the main reason it earns a spot in this room schedulers comparison.\n\nPriced at $279.99, the lowest in this lineup, it trades some of the extras found on pricier picks here for a lower upfront cost, a reasonable tradeoff if your needs are basic.\n\nPoE Texas 8\" Conference Room Scheduler with Color Changing LED Status is the right call for small offices or coworking spaces that want a dedicated booking display outside each meeting room. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on PoE Texas 8\" Conference Room Scheduler with Color Changing LED Status is what does this do? this, alongside which calendars does it work, which is the main reason it earns a spot in this room schedulers comparison.\n\nPriced at under $300, the lowest in this lineup, it trades some of the extras found on pricier picks here for a lower upfront cost, a reasonable tradeoff if your needs are basic.\n\nPoE Texas 8\" Conference Room Scheduler with Color Changing LED Status is the right call for small offices or coworking spaces that want a dedicated booking display outside each meeting room. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "What Does This Do? This",
       "Which Calendars Does It Work",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31SHMuHg0CL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0BRV6DZ9X?tag=deskfinds0d-20",
-    "description": "What stands out on PoE Texas 8-Inch Touchscreen PoE Meeting Room Scheduler Tablet is what does this do? this, alongside which calendars does it work, which is the main reason it earns a spot in this room schedulers comparison.\n\nIt lands between PoE Texas 8\" Conference Room Scheduler with Color Changing LED Status's $279.99 price floor and RAYPODO Meeting Room Scheduler Tablet's $388 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nPoE Texas 8-Inch Touchscreen PoE Meeting Room Scheduler Tablet is the right call for small offices or coworking spaces that want a dedicated booking display outside each meeting room. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on PoE Texas 8-Inch Touchscreen PoE Meeting Room Scheduler Tablet is what does this do? this, alongside which calendars does it work, which is the main reason it earns a spot in this room schedulers comparison.\n\nIt lands between PoE Texas 8\" Conference Room Scheduler with Color Changing LED Status's under $300 price floor and RAYPODO Meeting Room Scheduler Tablet's $388 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nPoE Texas 8-Inch Touchscreen PoE Meeting Room Scheduler Tablet is the right call for small offices or coworking spaces that want a dedicated booking display outside each meeting room. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "What Does This Do? This",
       "Which Calendars Does It Work",
@@ -209,15 +209,15 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $279.99",
+          "Under $300",
           "PoE Texas 8\" Conference Room Scheduler with Color Changing LED Status"
         ],
         [
-          "Around $279.99",
+          "Under $300",
           "PoE Texas 8-Inch Touchscreen PoE Meeting Room Scheduler Tablet"
         ],
         [
-          "Around $349.99",
+          "Under $350",
           "PoE Texas 10-Inch PoE Meeting Room Scheduler Tablet with LED Ring"
         ],
         [
@@ -232,11 +232,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "PoE Texas 8\" Conference Room Scheduler with Color Changing LED Status",
-        "text": "The lowest-priced pick in this comparison at $279.99, a solid choice if you don't need the extras the pricier picks carry."
+        "text": "The lowest-priced pick in this comparison at under $300, a solid choice if you don't need the extras the pricier picks carry."
       },
       {
         "label": "RAYPODO Meeting Room Scheduler Tablet",
-        "text": "The highest-priced pick at $388, worth it only if you'll actually use what that premium buys."
+        "text": "The highest-priced pick at under $400, worth it only if you'll actually use what that premium buys."
       }
     ],
     "note": "Default to PoE Texas 8\" Conference Room Scheduler with Color Changing LED Status unless the pricier pick's specific advantage genuinely applies to your situation."
@@ -296,7 +296,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "What's the real difference between the cheapest and most expensive pick here?",
-    "a": "PoE Texas 8\" Conference Room Scheduler with Color Changing LED Status at $279.99 covers the basics, while RAYPODO Meeting Room Scheduler Tablet at $388 adds a larger screen and more visible status lighting. Whether that's worth the difference depends on how visible room status needs to be from a distance and how polished the software experience needs to be."
+    "a": "PoE Texas 8\" Conference Room Scheduler with Color Changing LED Status at under $300 covers the basics, while RAYPODO Meeting Room Scheduler Tablet at under $400 adds a larger screen and more visible status lighting. Whether that's worth the difference depends on how visible room status needs to be from a distance and how polished the software experience needs to be."
   },
   {
     "q": "Do I need PoE, or is battery power fine?",
@@ -308,7 +308,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "Is there a solid middle-ground pick in this price range?",
-    "a": "PoE Texas 10-Inch PoE Meeting Room Scheduler Tablet with LED Ring at $349.99 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
+    "a": "PoE Texas 10-Inch PoE Meeting Room Scheduler Tablet with LED Ring at under $350 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
   },
   {
     "q": "What's the most common mistake buyers make shopping room schedulers under $500?",

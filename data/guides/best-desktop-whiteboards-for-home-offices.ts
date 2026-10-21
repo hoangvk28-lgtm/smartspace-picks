@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desktop whiteboard for home office";
 export const introParagraphs = [
   "Home-office desks tend to be smaller and more crowded than a dedicated office workstation, so we specifically weighted usable writing area against footprint rather than just picking the largest or highest-rated board overall.",
-  "We also factored in whether a product includes organizer features, since a home-office desk often needs to double as storage in a way a corporate desk doesn't.",
+  "We also factored in whether a product includes organizer features, since a home-office desk often needs to double as storage in a way a corporate desk doesn't."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41+-w5AGGrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B089NL8QMN?tag=deskfinds0d-20",
     description: "A compact keyboard-adjacent glass board with the largest review base in this comparison, fitting a small home-office desk without dominating it.",
-    specs: ["Glass surface, keyboard-adjacent stand", "2,500 reviews at 4.7 stars"],
+    specs: ["Glass surface, keyboard-adjacent stand"],
     pros: ["Largest review base in this comparison", "Compact footprint suited to smaller home-office desks"],
     cons: ["No built-in organizer, pure whiteboard functionality"],
     bestFor: "Buyers who want the most proven compact board for a small home-office desk.",
@@ -47,7 +47,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31W4Q2LBraL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09PHHT8DM?tag=deskfinds0d-20",
     description: "Combines whiteboard and organizer storage in a single footprint, useful for a home-office desk that needs to serve double duty.",
-    specs: ["Glass surface with organizer", "723 reviews at 4.7 stars"],
+    specs: ["Glass surface with organizer"],
     pros: ["Combines writing surface and storage in one product, saving desk space overall"],
     cons: ["Smaller review base than the top pick"],
     bestFor: "Buyers who want to consolidate whiteboard and storage into one desk item.",
@@ -63,7 +63,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/313bG76j1CL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DMZYK585?tag=deskfinds0d-20",
     description: "The cheapest organizer-equipped board here, from a well-established general retail brand, good value for a budget home-office setup.",
-    specs: ["Dry erase surface with organizer accessories", "279 reviews at 4.7 stars"],
+    specs: ["Dry erase surface with organizer accessories"],
     pros: ["Cheapest organizer-equipped option in this comparison"],
     cons: ["Smaller review base than the Varhomax or TSJ picks"],
     bestFor: "Budget-conscious home-office buyers who still want organizer functionality.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41FLEFa9xDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVM9YJCS?tag=deskfinds0d-20",
     description: "For home offices with more desk depth to work with, this offers the most writing area in this comparison at a reasonable price.",
-    specs: ["16 x 12 in, double-sided, magnetic", "1,356 reviews at 4.6 stars"],
+    specs: ["16 x 12 in, double-sided, magnetic"],
     pros: ["Most writing area in this comparison at a mid-range price"],
     cons: ["Larger footprint isn't suited to the smallest home-office desks"],
     bestFor: "Home offices with more desk space to dedicate to a whiteboard.",
@@ -95,11 +95,11 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41sEyXE5tML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B091Y79CXZ?tag=deskfinds0d-20",
     description: "The cheapest board in this comparison, portable and magnetic, suited to the smallest home-office corners where every inch of desk matters.",
-    specs: ["10 x 10 in, portable, magnetic", "307 reviews at 4.6 stars"],
+    specs: ["10 x 10 in, portable, magnetic"],
     pros: ["Cheapest option in this comparison", "Portable design if you need to move it around"],
     cons: ["Smaller review base than the more established picks"],
     bestFor: "Buyers with the tightest home-office desk space and budget.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Writing area relative to home-office desk footprint", description: "We weighted usable writing area against realistic home-office desk size, which tends to be smaller than a corporate workstation." },
   { title: "Organizer features for dual-purpose desks", description: "We noted where a board includes storage, since a home-office desk often needs to serve multiple functions in less space." },
   { title: "Price against home-office budgets", description: "We covered a wide price range, from at a budget-friendly price to premium since home-office spending varies more than corporate procurement." },
-  { title: "Review volume as reliability evidence", description: "We weighted established review history for confidence in each pick's build quality and durability." },
+  { title: "Review volume as reliability evidence", description: "We weighted established review history for confidence in each pick's build quality and durability." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -121,7 +121,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Combined whiteboard and storage", "Varhomax Glass Desk Whiteboard with Storage"],
         ["Budget organizer option", "Amazon Basics Desktop Dry Erase Whiteboard"],
         ["More desk space, want a larger board", "AMUSIGHT Double-Sided Magnetic White Board"],
-        ["Tightest budget and desk space", "Small Dry Erase Board 10x10"],
+        ["Tightest budget and desk space", "Small Dry Erase Board 10x10"]
       ],
     },
   },
@@ -161,11 +161,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Small Dry Erase Board",
-        "text": "Buyers with the tightest home-office desk space and budget. At $8.99, it's the lowest-cost pick in this comparison."
+        "text": "Buyers with the tightest home-office desk space and budget. At under $9, it's the lowest-cost pick in this comparison."
       },
       {
         "label": "TSJ OFFICE Small Desktop Whiteboard",
-        "text": "Buyers who want the most proven compact board for a small home-office desk. At $25.99, it sits at the higher end of this comparison's price range."
+        "text": "Buyers who want the most proven compact board for a small home-office desk. At under $30, it sits at the higher end of this comparison's price range."
       }
     ],
     "note": "Most buyers should default to Small Dry Erase Board unless best overall specifically applies to your situation."
@@ -218,7 +218,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "Buyers with the tightest home-office desk space and budget."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -226,20 +226,20 @@ export const buyingCriteria: BuyingCriterion[] = [
   { criterion: "Consider a combined organizer if desk space is tight", explanation: "The Varhomax and Amazon Basics options combine whiteboard and storage, saving overall desk footprint." },
   { criterion: "Match price to your setup budget", explanation: "Options here range from under $10 to nearly $30 - pick based on what fits your overall home-office budget, not just the board alone." },
   { criterion: "Check glass vs. magnetic surface for your needs", explanation: "Glass resists ghosting best; magnetic surfaces add note-holding functionality if you reference printed materials." },
-  { criterion: "Use review volume for build-quality confidence", explanation: "An established review base is useful evidence a board holds up to regular home-office use." },
+  { criterion: "Use review volume for build-quality confidence", explanation: "An established review base is useful evidence a board holds up to regular home-office use." }
 ];
 
 export const faq: FaqItem[] = [
   { q: "What's the best board for a small home-office desk?", a: "The TSJ OFFICE Small Desktop Whiteboard, compact and keyboard-adjacent with the largest review base in this comparison." },
   { q: "Is there an option that saves desk space by combining storage?", a: "Yes, the Varhomax Glass Desk Whiteboard with Storage combines writing surface and organizer in one footprint." },
-  { q: "What's the cheapest option?", a: "The Small Dry Erase Board 10x10 at $8.99." },
+  { q: "What's the cheapest option?", a: "The Small Dry Erase Board 10x10 at under $9." },
   { q: "Which has the most writing area for a bigger home-office desk?", a: "The AMUSIGHT Double-Sided Magnetic White Board at 16x12 inches." },
-  { q: "Is there a budget option with an organizer?", a: "Yes, the Amazon Basics Desktop Dry Erase Whiteboard at $15.74." },
-  { q: "Which pick in this comparison offers the most writing area for the price?", a: "Buyers who want the most proven compact board for a small home-office desk." },
+  { q: "Is there a budget option with an organizer?", a: "Yes, the Amazon Basics Desktop Dry Erase Whiteboard at under $20." },
+  { q: "Which pick in this comparison offers the most writing area for the price?", a: "Buyers who want the most proven compact board for a small home-office desk." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desktop-whiteboards-for-meetings", title: "Best Desktop Whiteboards for Meetings (2026)" },
   { href: "/guide/best-personal-desktop-whiteboards", title: "Best Personal Desktop Whiteboards (2026)" },
-  { href: "/guide/best-glass-desktop-whiteboards-with-storage", title: "Best Glass Desktop Whiteboards with Storage (2026)" },
+  { href: "/guide/best-glass-desktop-whiteboards-with-storage", title: "Best Glass Desktop Whiteboards with Storage (2026)" }
 ];

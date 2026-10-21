@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable file boxes with handles";
 export const introParagraphs = [
   "Nearly every portable file box includes some form of handle by definition of being portable, so this guide narrows in on handle design quality specifically: integrated molded handles versus separate hinged or folding handles, which represent genuinely different comfort and durability profiles.",
-  "We centered our evaluation on loaded-weight handle comfort, since a handle adequate for an empty box demonstration can prove uncomfortable once filled with paper documents.",
+  "We centered our evaluation on loaded-weight handle comfort, since a handle adequate for an empty box demonstration can prove uncomfortable once filled with paper documents."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Handle design comparison", description: "We compared integrated molded handles against separate hinged designs, noting the genuinely different comfort and durability tradeoffs of each." },
   { title: "Loaded-weight handle comfort", description: "We centered this guide's evaluation on how each handle performs under a realistically loaded box of paper documents, not an empty demonstration." },
   { title: "Handle durability under repeated use", description: "We considered whether a hinged or folding handle mechanism shows wear or loosens over time, a longevity concern specific to non-molded designs." },
-  { title: "Grip comfort and weight distribution", description: "We noted whether a handle's shape spreads loaded weight comfortably across the palm or concentrates it uncomfortably in a narrow grip." },
+  { title: "Grip comfort and weight distribution", description: "We noted whether a handle's shape spreads loaded weight comfortably across the palm or concentrates it uncomfortably in a narrow grip." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -224,11 +224,11 @@ export const faq: FaqItem[] = [
   { q: "Will the handle be comfortable when the box is fully loaded?", a: "This varies by handle width and shape. A wider tote-style handle, like the Staples pick, spreads loaded weight more comfortably than a narrow molded grip." },
   { q: "Do heavier premium file boxes need a different handle?", a: "Yes, a heavier box like the Vaultz dual-lock pick needs a correspondingly reinforced handle rated for its own substantial weight plus the documents inside." },
   { q: "How is this different from your general portable file box guide?", a: "This guide focuses specifically on handle design comparison, since nearly all portable file boxes include some form of handle. The general guide covers the full range of features." },
-  { q: "Can I buy multiple file boxes with good handles at a lower price?", a: "Yes, the Sterilite 4-pack offers a strong per-unit value while still including a comfortable molded handle on each box." },
+  { q: "Can I buy multiple file boxes with good handles at a lower price?", a: "Yes, the Sterilite 4-pack offers a strong per-unit value while still including a comfortable molded handle on each box." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" },
   { href: "/guide/best-lockable-portable-file-boxes", title: "Best Lockable Portable File Boxes (2026)" },
-  { href: "/guide/best-portable-file-boxes-with-wheels", title: "Best Portable File Boxes with Wheels (2026)" },
+  { href: "/guide/best-portable-file-boxes-with-wheels", title: "Best Portable File Boxes with Wheels (2026)" }
 ];

@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The most durable frame and a wider deck for taller users", "MERACH UltraWalk W60 Walking Pad Treadmill"],
         ["The highest weight capacity with automatic incline", "Walking Pad Treadmill 450 lb, Auto Incline"],
         ["Voice control with beginner-friendly stability", "WELLFIT Walking Pad with Incline and Handle Bar, 350LB"],
-        ["The lowest price with an adjustable handlebar", "TOPUTURE Walking Pad Treadmill with Adjustable Handle Bar"],
+        ["The lowest price with an adjustable handlebar", "TOPUTURE Walking Pad Treadmill with Adjustable Handle Bar"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $199", "TOPUTURE ($198.99)"],
-        ["Under $220", "WELLFIT ($218.99)"],
-        ["Under $250", "450 lb Auto Incline ($249.00)"],
-        ["Under $330", "MERACH UltraWalk ($329.99)"],
+        ["Under $199", "TOPUTURE (under $200)"],
+        ["Under $220", "WELLFIT (under $250)"],
+        ["Under $250", "450 lb Auto Incline (under $250)"],
+        ["Under $330", "MERACH UltraWalk (under $350)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Automatic Incline vs Manual Incline Adjustment",
     cards: [
       { label: "Automatic incline (450 lb Auto Incline pick)", text: "Adjusts incline at the touch of a button across 9 levels, no manual repositioning required during use." },
-      { label: "Manual incline (MERACH, WELLFIT, TOPUTURE)", text: "Requires physically setting the incline level, though the MERACH pick's system still allows quick preset selection via remote or app." },
+      { label: "Manual incline (MERACH, WELLFIT, TOPUTURE)", text: "Requires physically setting the incline level, though the MERACH pick's system still allows quick preset selection via remote or app." }
     ],
     note: "If you want to vary incline frequently during a single session without stopping, the automatic incline pick is worth prioritizing. If you typically set one incline level per session, the manual options work just as well at a lower price.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Standard capacity, up to 300 lbs", "TOPUTURE"],
         ["Higher capacity, up to 350 lbs", "WELLFIT"],
-        ["Heavy-duty capacity, 400-450 lbs", "MERACH or the 450 lb Auto Incline pick"],
+        ["Heavy-duty capacity, 400-450 lbs", "MERACH or the 450 lb Auto Incline pick"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Taller User Specifically",
     cards: [
       { label: "Look for", text: "A wider deck explicitly marketed for taller users with a stated width increase, rather than assuming any standard walking pad accommodates a longer stride comfortably." },
-      { label: "In this comparison", text: "The MERACH UltraWalk's 16.5 x 41.3 inch deck is specifically marketed as providing 33% more stride space for taller users, a detail none of the other three picks emphasize." },
+      { label: "In this comparison", text: "The MERACH UltraWalk's 16.5 x 41.3 inch deck is specifically marketed as providing 33% more stride space for taller users, a detail none of the other three picks emphasize." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the most durable frame with a stated 15,000-hour motor lifespan and a deck built for taller users, where the MERACH pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You want a solid, cushioned walking pad with an adjustable handlebar without needing the highest weight capacity, where the TOPUTURE pick covers that for about $131 less." },
+      { label: "Save if", text: "You want a solid, cushioned walking pad with an adjustable handlebar without needing the highest weight capacity, where the TOPUTURE pick covers that for about $131 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

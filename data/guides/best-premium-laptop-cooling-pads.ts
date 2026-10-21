@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "premium laptop cooling pads";
 export const introParagraphs = [
   "A higher price should buy something specific, documented cooling performance numbers, longer stated warranties, better build materials, or software-level control, not just a higher number on the price tag. This guide checks each premium pick's actual stated specs, including Razer's documented smart fan curves and airtight pressure chamber design and llano's stated temperature-drop figures, against its price to see which upgrades are genuinely backed by the listing.",
-  "If your budget is under $28, our budget laptop cooling pads guide covers picks with real fan hardware at a fraction of the price here. This guide is for buyers whose workload, likely sustained gaming or rendering, genuinely benefits from higher RPM turbofans, software fan curves, or a documented multi-year warranty.",
+  "If your budget is under $28, our budget laptop cooling pads guide covers picks with real fan hardware at a fraction of the price here. This guide is for buyers whose workload, likely sustained gaming or rendering, genuinely benefits from higher RPM turbofans, software fan curves, or a documented multi-year warranty."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "10 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Documented performance claims over price alone", description: "We weighted stated RPM figures, temperature-drop numbers, and dBA noise ratings more heavily than price, since a higher price with no documented figures is a weaker signal than a lower price with specific numbers." },
   { title: "Software and control sophistication", description: "We compared AI-driven fan curves and software control, like Razer Synapse or llano's Myth.cool app, against manual dial or button control to identify where software genuinely adds capability." },
   { title: "Build material and warranty transparency", description: "We noted copper motors, aluminum versus steel frames, and USB 3.0 versus 2.0 hubs, and recorded exactly what warranty length, if any, each listing states." },
-  { title: "Price-to-feature consistency across near-duplicate listings", description: "Where two listings shared nearly identical stated specs, we flagged any price difference that was not backed by an additional documented feature." },
+  { title: "Price-to-feature consistency across near-duplicate listings", description: "Where two listings shared nearly identical stated specs, we flagged any price difference that was not backed by an additional documented feature." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -291,11 +291,11 @@ export const faq: FaqItem[] = [
   { q: "What does Razer's cooling pad offer that cheaper premium pads do not?", a: "Based on the listing, it states smart software-driven fan curves via Razer Synapse, an airtight pressure chamber design, and a 2-year manufacturer warranty, the longest stated warranty across every pick in this guide." },
   { q: "Are all the llano V12 listings the same product?", a: "Two llano V12 listings in this guide state nearly identical specs, including the same 44°C temperature-drop figure, dust filter, and USB hub, but are priced roughly $6 apart with no additional documented feature explaining the difference." },
   { q: "Does higher fan RPM always mean better cooling?", a: "Higher stated RPM generally means more airflow, but it also tends to increase noise. The IETS GT500's 5000 RPM version states 65dB at max speed versus 55dB for the 4200 RPM version, so match RPM to your noise tolerance." },
-  { q: "Which premium pick has the longest warranty?", a: "Among the picks in this guide, only the Razer Laptop Cooling Pad Adaptive Smart states an explicit warranty length, 2 years. The other picks in this guide do not state a warranty period in their listings." },
+  { q: "Which premium pick has the longest warranty?", a: "Among the picks in this guide, only the Razer Laptop Cooling Pad Adaptive Smart states an explicit warranty length, 2 years. The other picks in this guide do not state a warranty period in their listings." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-budget-laptop-cooling-pads", title: "Best Budget Laptop Cooling Pads (2026)" },
   { href: "/guide/best-gaming-laptop-cooling-pads", title: "Best Gaming Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" }
 ];

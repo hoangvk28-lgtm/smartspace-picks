@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desk chairs with cup holders";
 export const introParagraphs = [
   "Critical honesty note: after researching this category, we found that a genuine office desk chair with a built-in, integrated cup holder is rare. Most of the highly-rated office chairs that come up for this search, including ergonomic mesh chairs and PU leather executive chairs, do not actually include a cup holder as a standard feature.",
-  "Rather than force-fit unrelated chairs into this guide, we cover the best-reviewed office desk chairs relevant to this search alongside a genuinely compatible chair-mountable cup holder accessory, originally designed for wheelchair and mobility scooter armrests but compatible with many standard chair armrest shapes.",
+  "Rather than force-fit unrelated chairs into this guide, we cover the best-reviewed office desk chairs relevant to this search alongside a genuinely compatible chair-mountable cup holder accessory, originally designed for wheelchair and mobility scooter armrests but compatible with many standard chair armrest shapes."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -70,7 +70,7 @@ export const products: GuideProduct[] = [
     pros: ["Good rating for a mesh ergonomic chair", "Breathable material for long sessions", "Flip-up arms for flexible desk fit", "Affordable"],
     cons: ["No built-in cup holder", "Flip-up armrest shape may complicate clamp accessory fit", "Mesh may feel less plush than leather alternatives"],
     bestFor: "Buyers who prioritize breathable ergonomic support and are comfortable verifying accessory compatibility separately.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -78,7 +78,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine built-in cup holder verification", description: "We researched specifically for office chairs with an actual integrated cup holder and found this feature is rare on standard desk chairs, disclosed honestly rather than force-fitting unrelated chairs." },
   { title: "Chair-mountable accessory compatibility", description: "We identified a genuinely relevant armrest-clamp cup holder accessory and disclosed its original wheelchair/mobility-device design context." },
   { title: "Standalone chair quality for accessory pairing", description: "For the chairs included without a built-in holder, we evaluated their standalone rating and review history as a genuinely strong desk chair, separate from the cup holder question." },
-  { title: "Armrest compatibility disclosure", description: "We noted that clamp accessory fit varies by each specific chair's armrest width and shape, and flagged this as unverified for flip-up or unusually shaped armrests." },
+  { title: "Armrest compatibility disclosure", description: "We noted that clamp accessory fit varies by each specific chair's armrest width and shape, and flagged this as unverified for flip-up or unusually shaped armrests." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -206,11 +206,11 @@ export const faq: FaqItem[] = [
   { q: "Will the wheelchair cup holder accessory fit my office chair?", a: "It's marketed as a nearly universal fit and compatible with many standard armrests, but verify your specific chair's armrest width and shape before ordering, since fit isn't guaranteed for every chair design." },
   { q: "Is a chair-mounted cup holder stable while I'm working?", a: "It experiences different motion-related spill risk than a static desk-mounted holder, since it moves with any swiveling or reclining you do in your chair. A desk-clamped holder may be more stable if this is a concern." },
   { q: "Why did you include chairs without a cup holder in this guide?", a: "Because a genuine built-in cup holder chair is rare, we included well-reviewed standalone chairs that pair well with the clamp-on accessory, rather than force-fitting unrelated or lower-quality products just to claim a cup holder feature." },
-  { q: "Should I get a desk cup holder instead of a chair-mounted one?", a: "If a chair-mounted accessory feels impractical for your specific chair, a desk-edge-clamped cup holder from our general guide may better serve the same need, staying fixed regardless of your chair's movement." },
+  { q: "Should I get a desk cup holder instead of a chair-mounted one?", a: "If a chair-mounted accessory feels impractical for your specific chair, a desk-edge-clamped cup holder from our general guide may better serve the same need, staying fixed regardless of your chair's movement." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-cup-holders", title: "Best Desk Cup Holders (2026)" },
   { href: "/guide/best-under-desk-cup-holders", title: "Best Under-Desk Cup Holders (2026)" },
-  { href: "/guide/best-standing-desk-cup-holders", title: "Best Standing Desk Cup Holders (2026)" },
+  { href: "/guide/best-standing-desk-cup-holders", title: "Best Standing Desk Cup Holders (2026)" }
 ];

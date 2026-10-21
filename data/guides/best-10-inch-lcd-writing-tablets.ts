@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "10 inch lcd writing tablet";
 export const introParagraphs = [
   "A 10 inch screen gives meaningfully more writing room than the more common 8.5 inch size without the bulk of a 12 inch or larger tablet, a reasonable step up for buyers who find themselves erasing an 8.5 inch screen too often mid-thought.",
-  "This size appears across both adult-marketed and kids' listings using largely the same underlying LCD writing technology, so the picks below are differentiated by included accessories, styling, and price rather than any functional gap between the age-targeted versions.",
+  "This size appears across both adult-marketed and kids' listings using largely the same underlying LCD writing technology, so the picks below are differentiated by included accessories, styling, and price rather than any functional gap between the age-targeted versions."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Screen size verified as genuinely 10 inches", description: "Confirmed each listing's stated screen size against its product title to keep this size-specific guide accurate." },
   { title: "Kids' and adult marketing compared for actual technology differences", description: "Checked whether age-targeted marketing reflected a real functional difference or simply different colors and branding on the same underlying screen." },
   { title: "Included accessories weighed against price", description: "Assessed whether covers, memory locks, or travel-focused design justified a higher price relative to plainer 10 inch alternatives." },
-  { title: "Gift suitability considered for age-targeted listings", description: "Evaluated age-range framing and educational marketing for buyers specifically shopping for a children's gift." },
+  { title: "Gift suitability considered for age-targeted listings", description: "Evaluated age-range framing and educational marketing for buyers specifically shopping for a children's gift." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -258,11 +258,11 @@ export const faq: FaqItem[] = [
   { q: "Is a 10 inch LCD writing tablet better than 8.5 inches?", a: "Not universally better, but it gives meaningfully more writing room, a reasonable upgrade if you find an 8.5 inch screen too small for your notes or sketches." },
   { q: "Are kids' 10 inch tablets different from adult ones functionally?", a: "Usually not much, the core LCD writing and erase technology is often the same, with the main difference being color and branding." },
   { q: "Do 10 inch LCD writing tablets save drawings?", a: "No, unless explicitly stated as Bluetooth sync-capable, a 10 inch LCD writing tablet erases permanently with no save function." },
-  { q: "What age range are 10 inch LCD writing tablets suited for as gifts?", a: "Several listings in this size specifically target ages 3 to 8, though the screens work fine for older kids and adults too." },
+  { q: "What age range are 10 inch LCD writing tablets suited for as gifts?", a: "Several listings in this size specifically target ages 3 to 8, though the screens work fine for older kids and adults too." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-8-5-inch-lcd-writing-tablets", title: "Best 8.5 Inch LCD Writing Tablets (2026)" },
   { href: "/guide/best-12-inch-lcd-writing-tablets", title: "Best 12 Inch LCD Writing Tablets (2026)" },
-  { href: "/guide/best-lcd-writing-tablets", title: "Best LCD Writing Tablets in 2026" },
+  { href: "/guide/best-lcd-writing-tablets", title: "Best LCD Writing Tablets in 2026" }
 ];

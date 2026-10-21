@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "This dock's listing specifically states the bundle includes a premium HDMI cable alongside a USB-C data/video cable and a DisplayPort cable, meaning you get a complete HDMI connectivity kit out of the box rather than needing to source your own cable separately. Its HDMI 2.1 and DisplayPort 2.1 outputs are aimed specifically at creators, business users, trading setups, and video editing workflows.\n\nCompared to the Plugable and Lenovo picks above, this one's complete connectivity kit removes any guesswork about whether the right HDMI cable is included, a genuinely practical detail for buyers who don't already own a spare HDMI 2.1-rated cable.\n\nBest for buyers who want a complete HDMI cable kit included rather than sourcing one separately.",
     specs: ["HDMI 2.1 and DisplayPort 2.1 outputs, HDMI cable included", "300W power delivery, single-cable workspace", "Multiple USB-A, USB-C, and Thunderbolt ports"],
     pros: ["HDMI cable is genuinely included, not a separate purchase", "300W power delivery supports a full single-cable workspace", "Aimed specifically at creator and business multi-display workflows"],
-    cons: ["Highest price in this comparison at $449.95", "Bundle-specific SKU may vary in availability compared to the base dock"],
+    cons: ["Highest price in this comparison at under $450", "Bundle-specific SKU may vary in availability compared to the base dock"],
     bestFor: "buyers who want a complete HDMI cable kit included rather than sourcing one separately",
   },
   {
@@ -77,7 +77,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0GZ984TX6?tag=deskfinds0d-20",
     description: "This dock's listing specifically names 2 x HDMI ports as part of its 13-in-1 design, supporting up to three 4K monitors at 144Hz or two 8K displays at 60/30Hz on Windows laptops through those two HDMI ports plus one Thunderbolt 5 port. For MacBook models, it supports 2 x 4K@60Hz via the two HDMI ports, with the option to switch one display to 6K through the Thunderbolt 5 port.\n\nCompared to the Plugable, Lenovo, and Dell picks above, this one is the lowest price in this comparison while still delivering two native HDMI ports and a 3-year warranty, the longest warranty of any pick here.\n\nBest for buyers who want two native HDMI ports with the longest warranty at the lowest price in this comparison.",
     specs: ["2x native HDMI ports, 3x 4K@144Hz or 2x 8K (Windows)", "140W dynamic PD, KonstantCharge undocked charging", "13-in-1 ports, 3-year warranty, 100% PCR aluminum"],
-    pros: ["Lowest price in this comparison at $295.47", "Two native HDMI ports without needing an adapter", "Longest warranty in this comparison at 3 years"],
+    pros: ["Lowest price in this comparison at under $300", "Two native HDMI ports without needing an adapter", "Longest warranty in this comparison at 3 years"],
     cons: ["Mac display support is more limited than Windows on this same dock", "13 total ports is fewer than some competing docks in this price range"],
     bestFor: "buyers who want two native HDMI ports with the longest warranty at the lowest price",
   }
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Two native HDMI 2.1 ports without adapters", "Plugable Thunderbolt 5 Dock (TBT-UDH2)"],
         ["HDMI-equipped docks with enterprise fleet management", "Lenovo ThinkPad Thunderbolt 5 Smart Dock 7500"],
         ["A complete HDMI cable kit included in the box", "Dell Pro Thunderbolt 5 Smart Dock SD25TB5 Bundle"],
-        ["Two HDMI ports with the longest warranty at the lowest price", "Kensington SD5010T5 Thunderbolt 5 Docking Station"],
+        ["Two HDMI ports with the longest warranty at the lowest price", "Kensington SD5010T5 Thunderbolt 5 Docking Station"]
       ],
     },
   },
@@ -109,9 +109,9 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $296", "Kensington SD5010T5 ($295.47)"],
-        ["Under $370", "Plugable TBT-UDH2 ($349.95) or Lenovo Smart Dock 7500 ($368.00)"],
-        ["Under $450", "Dell Pro Bundle ($449.95)"],
+        ["Under $296", "Kensington SD5010T5 (under $300)"],
+        ["Under $370", "Plugable TBT-UDH2 (under $350) or Lenovo Smart Dock 7500 (under $400)"],
+        ["Under $450", "Dell Pro Bundle (under $450)"]
       ],
     },
   },
@@ -119,7 +119,7 @@ export const howToChoose = [
     subheading: "Single HDMI vs Dual HDMI",
     cards: [
       { label: "Dual native HDMI (Plugable, Kensington)", text: "Both docks specifically include two native HDMI ports, letting you drive two HDMI monitors directly without any adapter or additional Thunderbolt-routed display connection." },
-      { label: "HDMI as part of a mixed port set (Lenovo, Dell)", text: "These docks include HDMI alongside DisplayPort and Thunderbolt-routed display options, useful if your monitors use a mix of connection types rather than all being HDMI." },
+      { label: "HDMI as part of a mixed port set (Lenovo, Dell)", text: "These docks include HDMI alongside DisplayPort and Thunderbolt-routed display options, useful if your monitors use a mix of connection types rather than all being HDMI." }
     ],
     note: "If all your monitors specifically use HDMI, the Plugable or Kensington picks' dual native HDMI ports are the most direct fit. If you have a mixed-monitor setup, the Lenovo or Dell picks' broader port variety offers more flexibility.",
   },
@@ -130,7 +130,7 @@ export const howToChoose = [
       rows: [
         ["Genuine Thunderbolt 5 host", "Plugable TBT-UDH2 (full 8K@60Hz via HDMI)"],
         ["Thunderbolt 4 host", "Kensington SD5010T5 (documented TB4-compatible HDMI limits)"],
-        ["Mixed fleet of TB5 and TB4 devices", "Lenovo Smart Dock 7500 with fleet management"],
+        ["Mixed fleet of TB5 and TB4 devices", "Lenovo Smart Dock 7500 with fleet management"]
       ],
     },
   },
@@ -138,16 +138,16 @@ export const howToChoose = [
     subheading: "For a Home Theater or Presentation Setup Specifically",
     cards: [
       { label: "Look for", text: "Native HDMI output at the highest resolution and refresh rate your projector or display actually supports, since HDMI remains the most common input on presentation displays and home theater equipment." },
-      { label: "In this comparison", text: "The Plugable pick's dual native HDMI 2.1 ports reaching 8K@60Hz make it the strongest choice specifically for HDMI-native presentation and home theater displays." },
+      { label: "In this comparison", text: "The Plugable pick's dual native HDMI 2.1 ports reaching 8K@60Hz make it the strongest choice specifically for HDMI-native presentation and home theater displays." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want a completely hassle-free HDMI setup with the cable included, where the Dell Pro Bundle's $449.95 price removes any additional cable-shopping step." },
-      { label: "Save if", text: "You want two native HDMI ports with a long warranty at the lowest price, where the Kensington SD5010T5 delivers that for $295.47, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You want a completely hassle-free HDMI setup with the cable included, where the Dell Pro Bundle's under $450 price removes any additional cable-shopping step." },
+      { label: "Save if", text: "You want two native HDMI ports with a long warranty at the lowest price, where the Kensington SD5010T5 delivers that for under $300, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

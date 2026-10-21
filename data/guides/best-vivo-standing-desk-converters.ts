@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "vivo standing desk converter";
 export const introParagraphs = [
   "VIVO has the broadest current converter catalog we researched, spanning manual and electric lift, corner designs, and multiple width options from 26 to 48 inches, all sharing a large accumulated review pool across the K Series line.",
-  "Given the size of VIVO's lineup, we organized picks by what actually differentiates them (size, mechanism, and mount type) rather than repeating the same review numbers across an undifferentiated list.",
+  "Given the size of VIVO's lineup, we organized picks by what actually differentiates them (size, mechanism, and mount type) rather than repeating the same review numbers across an undifferentiated list."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "10 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Organized VIVO's broad catalog by genuine differentiators", description: "Given the size of VIVO's lineup, we grouped picks by size, mechanism, and mount type rather than repeating similar review numbers across an undifferentiated list." },
   { title: "Verified real bamboo construction versus laminate finish claims", description: "We confirmed the bamboo pick explicitly states real bamboo construction rather than a cosmetic bamboo-look finish." },
   { title: "Distinguished VIVO's manual K Series from the newer electric line", description: "We noted the meaningful review-base gap between VIVO's established manual converters and their newer electric offerings." },
-  { title: "Flagged corner-specific models as a distinct geometry requirement", description: "We separated corner-desk converters from rectangular platforms, since they serve fundamentally different desk shapes." },
+  { title: "Flagged corner-specific models as a distinct geometry requirement", description: "We separated corner-desk converters from rectangular platforms, since they serve fundamentally different desk shapes." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -286,7 +286,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
@@ -295,11 +295,11 @@ export const faq: FaqItem[] = [
   { q: "Does VIVO make an electric converter?", a: "Yes, the VIVO Black 42 inch Electric Desk Converter, with a smaller review base than the manual K Series line." },
   { q: "Is there a VIVO converter for corner desks?", a: "Yes, the VIVO Extra Wide 38 inch Corner Desk Converter, and an electric corner version is also available." },
   { q: "Does VIVO offer a real wood option?", a: "Yes, the VIVO Real Bamboo 32 inch Standing Desk Converter is confirmed genuine bamboo construction, not a laminate finish." },
-  { q: "What's VIVO's largest platform?", a: "The VIVO Black 48 in Standing Desk Converter, sharing VIVO's broad K Series review pool." },
+  { q: "What's VIVO's largest platform?", a: "The VIVO Black 48 in Standing Desk Converter, sharing VIVO's broad K Series review pool." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-corner-standing-desk-converters", title: "Best Corner Standing Desk Converters (2026)" },
   { href: "/guide/best-bamboo-standing-desk-converters", title: "Best Bamboo Standing Desk Converters (2026)" },
-  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
+  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" }
 ];

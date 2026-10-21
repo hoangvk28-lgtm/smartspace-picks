@@ -12,7 +12,7 @@ export const gamingDeskTroubleshootingGuide: Guide = {
     "desk vibrating from pc fix",
     "gaming peripheral cables tangled fix",
     "pc overheating under desk fix",
-    "gaming desk setup problems",
+    "gaming desk setup problems"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const gamingDeskTroubleshootingGuide: Guide = {
     "pc-tower-placement-desk-setup",
     "desk-fan-vs-ac-for-gaming-setup",
     "cable-management-types-explained",
-    "mouse-pad-size-guide",
+    "mouse-pad-size-guide"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const gamingDeskTroubleshootingGuide: Guide = {
       question: "Why does my headset hook or controller stand feel unstable?",
       answer:
         "Check that the hook or stand's mounting is properly secured, either clamped tightly to the desk edge or adhesive fully bonded if that's the mounting method, an improperly secured accessory can feel wobbly even if the accessory itself is well made.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const gamingDeskTroubleshootingGuide: Guide = {
     {
       heading: "Why Vibration Transfer Often Surprises People With How Noticeable It Is",
       body: `Since a PC tower's fans and any mechanical drives generate real physical vibration during operation, this vibration can transmit through a shared floor or desk contact point more noticeably than people initially expect, especially on desks with a rigid, low-mass design that doesn't absorb the vibration well. Isolating the tower with a stand that includes some vibration-dampening material, or simply ensuring it doesn't directly contact the same surface as the desk itself, meaningfully reduces this often underappreciated source of desk-level disturbance.`,
-    },
+    }
   ],
 };

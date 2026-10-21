@@ -12,7 +12,7 @@ export const pegboardDeskOrganizationExplainedGuide: Guide = {
     "pegboard for desk setup",
     "wall mounted desk organization",
     "pegboard accessories office",
-    "vertical storage desk space",
+    "vertical storage desk space"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const pegboardDeskOrganizationExplainedGuide: Guide = {
     "desk-organizer-types-explained",
     "monitor-stand-with-storage-explained",
     "desk-drawer-organizer-vs-tray",
-    "what-size-desk-do-i-need",
+    "what-size-desk-do-i-need"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const pegboardDeskOrganizationExplainedGuide: Guide = {
       question: "Can I rearrange pegboard accessories easily after installation?",
       answer:
         "Yes, this is one of a pegboard's core advantages, hooks and accessories can be moved to different holes as your needs change, offering more ongoing flexibility than a fixed shelf or drawer configuration.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const pegboardDeskOrganizationExplainedGuide: Guide = {
     {
       heading: "Checking Mounting Requirements Before Committing to a Pegboard",
       body: `Traditional pegboard installation typically requires securing to wall studs or using drywall anchors rated for the pegboard's weight plus whatever you plan to hang on it, this is a more permanent installation than most other desk organization solutions. If you're renting or want a less permanent option, look specifically for smaller pegboard products designed with adhesive or tension-mounted installation, though these typically support less weight than a fully wall-anchored pegboard.`,
-    },
+    }
   ],
 };

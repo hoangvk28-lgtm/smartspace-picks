@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "printer for dorm room";
 export const introParagraphs = [
   "A dorm room printer has to clear a different bar than a home office printer: it needs to fit on a shared desk with almost no spare surface, survive four end-of-year moves, and connect to a campus wireless network that often runs stricter WPA2-Enterprise security instead of the simple home wifi password most consumer printers expect. Ink economics matter more here too, since a printer left untouched over a three-month summer break can come back with dried-out cartridges.",
-  "Below are 8 printers for dorm rooms we evaluated on compact footprint, wireless setup difficulty, and total cost of ownership across a typical four-year stay, ranging from a $53.97 pocket-sized thermal printer to a $139 all-in-one with a document feeder for group projects.",
+  "Below are 8 printers for dorm rooms we evaluated on compact footprint, wireless setup difficulty, and total cost of ownership across a typical four-year stay, ranging from an under-$60 pocket-sized thermal printer to a $139 all-in-one with a document feeder for group projects."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Print, copy, scan",
       "Duplex (2-sided) printing",
       "Compact desktop footprint",
-      "1-year limited warranty",
+      "1-year limited warranty"
     ],
     pros: [
       "Compact enough for a shared dorm desk",
       "Duplex printing saves paper",
       "Copier and scanner built in",
-      "Straightforward wireless setup on personal networks",
+      "Straightforward wireless setup on personal networks"
     ],
     cons: [
       "No direct WPA2-Enterprise login support",
       "Standard inkjet cartridges can dry out over summer break",
-      "No automatic document feeder for multi-page scans",
+      "No automatic document feeder for multi-page scans"
     ],
     bestFor: "Most dorm students who want one printer that copies and scans too",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "1.42\" OLED display",
       "Duplex printing",
       "Print, copy, scan",
-      "Compact design",
+      "Compact design"
     ],
     pros: [
       "OLED display makes shared use easier for roommates",
       "Duplex printing built in",
       "Compact footprint for a desk corner",
-      "More intuitive control panel than base models",
+      "More intuitive control panel than base models"
     ],
     cons: [
       "Costs more than the base TS4320",
       "Same WPA2-Enterprise workaround needed as other inkjets",
-      "Ink cartridges still dry out if unused over summer",
+      "Ink cartridges still dry out if unused over summer"
     ],
     bestFor: "Roommate-shared setups where an easy-to-read display cuts down confusion",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Print, scan, copy",
       "3-month Instant Ink trial included",
       "AI-capable",
-      "Best-for-home compact design",
+      "Best-for-home compact design"
     ],
     pros: [
       "Included ink trial softens upfront ink cost",
       "Competitive price for a full all-in-one",
       "Compact enough for shared desk space",
-      "Wireless setup via HP's standard app",
+      "Wireless setup via HP's standard app"
     ],
     cons: [
       "Instant Ink subscription cost applies after the trial",
       "No WPA2-Enterprise support out of the box",
-      "Basic scanner, no automatic document feeder",
+      "Basic scanner, no automatic document feeder"
     ],
     bestFor: "Budget-conscious students who want a full all-in-one under $70",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Built-in fax",
       "Mobile printing support",
       "Print, scan, copy, fax",
-      "White finish",
+      "White finish"
     ],
     pros: [
       "Auto document feeder speeds up multi-page scans",
       "Built-in fax for signed forms",
       "Mobile printing from a phone",
-      "Same price tier as simpler all-in-ones",
+      "Same price tier as simpler all-in-ones"
     ],
     cons: [
       "Larger footprint than flatbed-only models",
       "Fax is rarely needed by most students",
-      "No WPA2-Enterprise support out of the box",
+      "No WPA2-Enterprise support out of the box"
     ],
     bestFor: "Students who regularly scan multi-page assignments or signed documents",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Basic home printing focus",
       "Compact, lightweight body",
       "Print, scan, copy",
-      "White finish",
+      "White finish"
     ],
     pros: [
       "Lightest, most packable pick in this list",
       "Lowest price among the full all-in-ones here",
       "Simple wireless setup",
-      "Good fit for basic essay and form printing",
+      "Good fit for basic essay and form printing"
     ],
     cons: [
       "No auto document feeder",
       "Fewer scanning features than pricier picks",
-      "Ink cartridges still dry out if unused over summer break",
+      "Ink cartridges still dry out if unused over summer break"
     ],
     bestFor: "Students who move dorm rooms often and want the least bulk to pack",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Mobile and tablet printing support",
       "Print, scan, copy",
       "Black finish",
-      "Compact desktop design",
+      "Compact desktop design"
     ],
     pros: [
       "Strong mobile and tablet printing support",
       "Black finish hides smudges better",
       "Print, scan, and copy in one unit",
-      "Reliable wireless pairing on personal networks",
+      "Reliable wireless pairing on personal networks"
     ],
     cons: [
       "Highest price among the inkjet picks in this list",
       "No document feeder for multi-page scans",
-      "No WPA2-Enterprise support out of the box",
+      "No WPA2-Enterprise support out of the box"
     ],
     bestFor: "Students who print mainly from a phone or tablet instead of a laptop",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Supports 8.5x11\" Letter and A4",
       "300 DPI resolution",
       "iOS, Android, and laptop compatible",
-      "No ink or toner cartridges",
+      "No ink or toner cartridges"
     ],
     pros: [
       "No ink to dry out over summer break",
       "Extremely light and packable for moves",
       "No ink or toner replacement cost",
-      "Works over Bluetooth from a phone or laptop",
+      "Works over Bluetooth from a phone or laptop"
     ],
     cons: [
       "Thermal prints fade over time",
       "Black-and-white output only",
-      "Not a realistic primary printer for a full semester's workload",
+      "Not a realistic primary printer for a full semester's workload"
     ],
     bestFor: "A lightweight backup printer for students who mostly rely on campus printing",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Black finish",
       "Print, scan, copy",
       "Fuller control panel layout",
-      "Compact desktop design",
+      "Compact desktop design"
     ],
     pros: [
       "Most complete feature set in this list",
       "Good candidate for roommate cost-splitting",
       "Reliable wireless setup on personal networks",
-      "Black finish resists visible smudging",
+      "Black finish resists visible smudging"
     ],
     cons: [
       "Highest price in this list",
       "Overkill for a student who prints rarely",
-      "No WPA2-Enterprise support out of the box",
+      "No WPA2-Enterprise support out of the box"
     ],
     bestFor: "Roommates splitting the cost of one shared dorm printer",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Ink dry-out resistance",
     description: "Weighed inkjet vs thermal vs laser mechanisms against a 3-month summer break with no use, since inkjet cartridges left idle that long commonly dry out and need replacing.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,11 +477,11 @@ export const faq: FaqItem[] = [
   {
     q: "Do I need a printer with a scanner for college assignments?",
     a: "If your coursework occasionally requires scanning a signed form or a single page, a basic flatbed scanner like the one on the Canon PIXMA TS3720 is enough. If a professor regularly requires scanning multi-page packets, the Canon PIXMA TR4720's auto document feeder saves real time over feeding pages one at a time.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-college-students", title: "Best Printers for College Students (2026)" },
   { href: "/guide/best-printers-for-remote-workers", title: "Best Printers for Remote Workers (2026)" },
-  { href: "/guide/25-best-dorm-items-under-25", title: "25 Best Dorm Items Under $25 (2026)" },
+  { href: "/guide/25-best-dorm-items-under-25", title: "25 Best Dorm Items Under $25 (2026)" }
 ];

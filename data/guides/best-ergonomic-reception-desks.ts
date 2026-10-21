@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $436.99",
+          "Under $450",
           "L-Shaped Reception Desk with Keyboard Tray"
         ],
         [
-          "Around $476.99",
+          "Under $500",
           "87\" 2-Person Reception Desk with Patented Double Top"
         ],
         [
-          "Around $869.95",
+          "Under $900",
           "Offices To Go L-Shaped Reception Desk with Transaction Top"
         ],
         [
-          "Around $949.99",
+          "Under $950",
           "Romig Marque Curved ADA-Compliant Reception Station"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Romig Marque Curved ADA-Compliant Reception Station is aimed at buyers prioritizing 21.5\" deep work surface, 42\"w x 32\"h interior kneespace." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Romig Marque Curved ADA-Compliant Reception Station is aimed at buyers prioritizing 21.5\" deep work surface, 42\"w x 32\"h interior kneespace." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-standing-reception-desks","title":"best-standing-reception-desks"},{"href":"/guide/best-reception-desks-with-counter","title":"best-reception-desks-with-counter"},{"href":"/guide/best-tall-reception-desks","title":"best-tall-reception-desks"}];

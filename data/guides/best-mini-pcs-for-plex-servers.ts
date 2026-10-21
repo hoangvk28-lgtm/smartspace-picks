@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini pc for plex server";
 export const introParagraphs = [
   "Hardware transcode capability, specifically Intel Quick Sync or an equivalent, matters more for Plex server performance than raw CPU benchmark scores, since software-only transcoding of multiple simultaneous streams can overwhelm even a fast CPU, worth verifying explicit hardware transcode support rather than assuming any modern chip handles this well.",
-  "The number of simultaneous transcoded streams a specific chip can sustain varies meaningfully by generation and resolution target, worth checking realistic 1080p and 4K simultaneous stream counts rather than assuming unlimited transcoding capacity.",
+  "The number of simultaneous transcoded streams a specific chip can sustain varies meaningfully by generation and resolution target, worth checking realistic 1080p and 4K simultaneous stream counts rather than assuming unlimited transcoding capacity."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,13 +26,13 @@ export const products: GuideProduct[] = [
     badge: "Best Mini PC for Plex Servers Overall",
     name: "BOSGAME P4 Ultra Mini PC Gaming, Ryzen 7 7730U, 16GB RAM 1TB PCIe3.0 SSD",
     price: "$418.98",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "199 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51I+6dQFNyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GCH917SW?tag=deskfinds0d-20",
-    description: "A genuinely well-reviewed build with a large 1TB SSD for media library caching, appropriate for buyers wanting solid all-around Plex server performance.\n\nIt earns the top spot in this comparison over GMKtec M5 Ultra Gaming Mini PC Ryzen 7 7730U for one main reason. High 4.7-star rating with a solid review base. On price, it comes in below GMKtec M5 Ultra Gaming Mini PC Ryzen 7 7730U, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: 1TB SSD for genuine media library caching headroom. On the other side, Gaming branding suggests this isn't purpose-built for media server use. That's the main tradeoff to weigh against everything above.",
+    description: "A genuinely well-reviewed build with a large 1TB SSD for media library caching, appropriate for buyers wanting solid all-around Plex server performance.\n\nIt earns the top spot in this comparison over GMKtec M5 Ultra Gaming Mini PC Ryzen 7 7730U for one main reason. On price, it comes in below GMKtec M5 Ultra Gaming Mini PC Ryzen 7 7730U, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: 1TB SSD for genuine media library caching headroom. On the other side, Gaming branding suggests this isn't purpose-built for media server use. That's the main tradeoff to weigh against everything above.",
     specs: ["AMD Ryzen 7 7730U","16GB RAM","1TB PCIe SSD","High review rating"],
-    pros: ["High 4.7-star rating with a solid review base","1TB SSD for genuine media library caching headroom","16GB RAM covers typical Plex server needs","Efficient U-class chip for always-on operation"],
+    pros: ["1TB SSD for genuine media library caching headroom","16GB RAM covers typical Plex server needs","Efficient U-class chip for always-on operation"],
     cons: ["Verify hardware transcode capability and simultaneous stream counts specifically","AMD chips generally have less mature hardware transcode support than Intel Quick Sync","Gaming branding suggests this isn't purpose-built for media server use"],
     bestFor: "Buyers wanting a well-reviewed, well-rounded mini PC for general Plex server duties",
   },
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-RAM Plex Pick with Dual NIC",
     name: "GMKtec M5 Ultra Gaming Mini PC Ryzen 7 7730U (Upgraded 7430U/ 5825U), 32GB RAM 512GB SSD Dual NIC",
     price: "$499.98",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "965 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41mRy1hD2yL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FW43RV3D?tag=deskfinds0d-20",
     description: "32GB RAM gives genuine headroom for running Plex alongside other services simultaneously, appropriate for buyers wanting a multi-purpose media and general server build.\n\nOne spot below BOSGAME P4 Ultra Mini PC Gaming in this ranking, it costs more than BOSGAME P4 Ultra Mini PC Gaming. The compromise here is straightforward: Verify hardware transcode capability and simultaneous stream counts specifically. What you gain in return: 32GB RAM for running Plex alongside other services simultaneously. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Dual NIC networking for combined media and storage server duties. On the other side, 512GB SSD may need expansion for a large media library. That's the main tradeoff to weigh against everything above.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best Low-Power Efficient Plex Pick",
     name: "GMKtec G11 Mini PC Ryzen Embedded R2514 16GB DDR4 RAM 256GB PCIe M.2 SSD (Alt Listing)",
     price: "$309.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "435 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41y2SJA4I2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CXSRR796?tag=deskfinds0d-20",
     description: "A genuinely low-power embedded chip with a solid, larger review base, appropriate for buyers wanting minimal 24/7 idle power draw for an always-on Plex server.\n\nSitting just under GMKtec M5 Ultra Gaming Mini PC Ryzen 7 7730U, it's priced lower than GMKtec M5 Ultra Gaming Mini PC Ryzen 7 7730U. Here's the honest tradeoff: Verify hardware transcode capability specifically for this chip generation. And here's what it gets you instead: Genuinely low-power embedded chip suited to always-on Plex operation. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Solid review base for confidence in reliability. On the other side, 256GB SSD is modest for a large local media library. That's the main tradeoff to weigh against everything above.",
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Throughput Plex Pick",
     name: "GMKtec Gaming Mini PC Ryzen 7640HS (Beats 6800H/6800U) 16GB DDR5 512GB NVMe SSD Dual NIC",
     price: "$459.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "485 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ydc8fgeIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FLDC98GC?tag=deskfinds0d-20",
     description: "A genuine HS-class Ryzen 7640HS with stronger sustained processing power, appropriate for buyers running more demanding simultaneous transcoding workloads.\n\nRanked just behind GMKtec G11 Mini PC Ryzen Embedded R2514 16GB DDR4 RAM 256GB PCIe M.2 SSD, it costs more than GMKtec G11 Mini PC Ryzen Embedded R2514 16GB DDR4 RAM 256GB PCIe M.2 SSD. The real tradeoff against that pick: Verify hardware transcode capability and simultaneous stream counts specifically. In exchange, it offers this instead: Genuine HS-class chip for stronger sustained transcoding performance. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Fast DDR5 RAM and NVMe storage for responsive library operations. On the other side, Higher price than the most budget-focused picks. That's the main tradeoff to weigh against everything above.",
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Hardware transcode capability weighted over raw CPU benchmarks", description: "Weighted explicit hardware transcode support (like Intel Quick Sync) more heavily than raw CPU benchmark scores, since software-only transcoding can overwhelm even a fast CPU." },
   { title: "Realistic simultaneous stream counts considered per chip generation", description: "Considered realistic 1080p and 4K simultaneous stream counts per chip generation rather than assuming unlimited transcoding capacity." },
   { title: "RAM headroom weighted for multi-service Plex-plus-server setups", description: "Weighted RAM headroom for buyers wanting to run Plex alongside other services like NAS or home automation simultaneously." },
-  { title: "Idle power draw considered for always-on media server operation", description: "Considered idle power draw for buyers prioritizing minimal 24/7 energy cost for an always-on Plex server." },
+  { title: "Idle power draw considered for always-on media server operation", description: "Considered idle power draw for buyers prioritizing minimal 24/7 energy cost for an always-on Plex server." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -226,11 +226,11 @@ export const faq: FaqItem[] = [
   { q: "Does Plex need hardware transcoding?", a: "For multiple simultaneous streams, yes, software-only transcoding can overwhelm even a fast CPU, verify explicit hardware transcode support like Quick Sync." },
   { q: "How many simultaneous Plex streams can a mini PC handle?", a: "This varies meaningfully by chip generation and resolution target, check realistic stream counts rather than assuming unlimited capacity." },
   { q: "Do AMD chips support Plex hardware transcoding as well as Intel?", a: "Generally AMD chips have less mature hardware transcode support than Intel Quick Sync, verify this specifically for your chosen chip." },
-  { q: "How much RAM does a Plex server need?", a: "16GB covers typical single-purpose Plex use, 32GB gives more headroom if you're running other services alongside it." },
+  { q: "How much RAM does a Plex server need?", a: "16GB covers typical single-purpose Plex use, 32GB gives more headroom if you're running other services alongside it." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pcs-for-streaming", title: "Best Mini PCs for Streaming (2026)" },
   { href: "/guide/best-mini-pcs-for-nas-builds", title: "Best Mini PCs for NAS Builds (2026)" },
-  { href: "/guide/best-intel-mini-pcs", title: "Best Intel Mini PCs (2026)" },
+  { href: "/guide/best-intel-mini-pcs", title: "Best Intel Mini PCs (2026)" }
 ];

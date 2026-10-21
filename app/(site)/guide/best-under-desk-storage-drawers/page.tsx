@@ -162,7 +162,7 @@ export default async function BestUnderDeskStorageDrawersPage() {
     about: [
       { "@type": "Thing", name: "Under Desk Drawer" },
       { "@type": "Thing", name: "Desk Storage" },
-      { "@type": "Thing", name: "Home Office Organization" },
+      { "@type": "Thing", name: "Home Office Organization" }
     ],
   };
 
@@ -182,7 +182,7 @@ export default async function BestUnderDeskStorageDrawersPage() {
         position: 3,
         name: "Best Under Desk Storage Drawers",
         item: `${SITE_URL}/guide/best-under-desk-storage-drawers`,
-      },
+      }
     ],
   };
 
@@ -511,7 +511,7 @@ export default async function BestUnderDeskStorageDrawersPage() {
                       option: "Bracket-mount",
                       bestFor: "Permanent installs, heavier storage, security",
                       notes: "Drilling required, highest capacity",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -560,53 +560,53 @@ export default async function BestUnderDeskStorageDrawersPage() {
                 id: "yoousoo-2pack-adhesive",
                 name: "YOOUSOO 2-Pack",
                 verdict:
-                  " - 1,999 reviews at 4.3 stars, lowest per-drawer cost, no drill.",
+                  " - Lowest per-drawer cost, no drill.",
               },
               {
                 context: "Only lockable option with cable management",
                 id: "lockable-double-drawer",
                 name: "Lockable Double Drawer",
                 verdict:
-                  " - 1,329 reviews at 4.5 stars, double drawers, cable management, $99.99.",
+                  " - Double drawers, cable management, under $100.",
               },
               {
                 context: "Best clamp-on without drilling",
                 id: "homeify-clamp-on",
                 name: "Homeify Clamp-On",
-                verdict: " - 889 reviews at 4.2 stars, removable, metal mesh.",
+                verdict: " - Removable, metal mesh.",
               },
               {
                 context: "Best value adhesive with dividers",
                 id: "bostitch-konnect-2pack",
                 name: "Bostitch Konnect 2-Pack",
                 verdict:
-                  " - $11.97 lowest price, 4.6 stars, 4 dividers per drawer.",
+                  " - Under $15 lowest price, 4 dividers per drawer.",
               },
               {
                 context: "Best three-size system",
                 id: "svnnelp-3pack-system",
                 name: "SVNNELP 3-Pack",
-                verdict: " - 364 reviews at 4.6 stars, three sizes, clear panels.",
+                verdict: " - Three sizes, clear panels.",
               },
               {
                 context: "Best dual-tier at mid-range",
                 id: "mofangtech-dual-tier",
                 name: "Mofangtech Dual-Tier",
                 verdict:
-                  " - 192 reviews at 4.5 stars, 2 layers, known dimensions.",
+                  " - 2 layers, known dimensions.",
               },
               {
                 context: "Best single-layer metal",
                 id: "unitedpower-pullout",
                 name: "UNITEDPOWER Pull-Out",
-                verdict: " - 167 reviews at 4.6 stars, metal construction.",
+                verdict: " - Metal construction.",
               },
               {
                 context: "VIVO brand wide dual-tier",
                 id: "vivo-16-dual-tier",
                 name: "VIVO 16 inch",
-                verdict: " - 157 reviews at 4.2 stars, 16-inch width, VIVO brand.",
-              },
+                verdict: " - 16-inch width, VIVO brand.",
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

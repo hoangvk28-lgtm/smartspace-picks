@@ -193,36 +193,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $89.99",
+          "Under $90",
           "GIANTEX Reception Desk with Round Tabletop and Corner Shelf"
         ],
         [
-          "Around $94.99",
+          "Under $100",
           "OmySalon Reception Desk with Counter"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "55\" L-Shaped Reception Desk with LED Lights & Power Outlets"
         ],
         [
-          "Around $205.99",
+          "Under $250",
           "LITTLE TREE 57-Inch Boho Reception Desk with Counter"
         ],
         [
-          "Around $369.99",
+          "Under $400",
           "ZIMASYA 63\" Reception Desk with Dual-Level Counter"
         ],
         [
-          "Around $559.99",
+          "Under $600",
           "ZIMASYA 63\" Reception Counter with Combination Lock Drawers"
         ],
         [
-          "Around $649.99",
+          "Under $650",
           "ZIMASYA 87\" Reception Counter with Combination Lock Drawers"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -270,7 +270,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "55\" L-Shaped Reception Desk with LED Lights & Power Outlets is aimed at buyers prioritizing 55.1\"w x 19.7\"d l-shaped desk, 44.7\"h." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "55\" L-Shaped Reception Desk with LED Lights & Power Outlets is aimed at buyers prioritizing 55.1\"w x 19.7\"d l-shaped desk, 44.7\"h." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-black-reception-desks","title":"5 Best Black Reception Desks in 2026"},{"href":"/guide/best-modern-reception-desks","title":"7 Best Modern Reception Desks in 2026"},{"href":"/guide/best-reception-desks-with-storage","title":"best-reception-desks-with-storage"}];

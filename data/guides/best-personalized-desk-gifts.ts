@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41bLgzxC3nL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0BM75HS2J?tag=deskfinds0d-20",
-    "description": "Gowelly makes an acrylic name plate printed on the back with high-definition UV ink, produced in a US facility with a choice of styles and fonts.\n\nIt is the cheapest at about $9.88 and looks clean and modern. Against ExcelMark, it is acrylic rather than wood.\n\nBest for a budget gift that looks clean. The caveat is that acrylic scratches more easily than glass.",
+    "description": "Gowelly makes an acrylic name plate printed on the back with high-definition UV ink, produced in a US facility with a choice of styles and fonts.\n\nIt is the cheapest at under $10 and looks clean and modern. Against ExcelMark, it is acrylic rather than wood.\n\nBest for a budget gift that looks clean. The caveat is that acrylic scratches more easily than glass.",
     "specs": [
       "Acrylic block",
       "Back-printed UV ink",

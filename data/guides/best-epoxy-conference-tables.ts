@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 8ft Conference Table measures 8ft and is built around spacious 8-10 person capacity, positioning it for epoxy buyers specifically.\n\nElegant Walnut & Black Aesthetic is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for epoxy, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["8ft table dimensions","Spacious 8-10 Person Capacity","Elegant Walnut & Black Aesthetic"],
     pros: ["Spacious 8-10 Person Capacity, confirmed directly in the listing's own spec details","Elegant Walnut & Black Aesthetic, confirmed directly in the listing's own spec details","Integrated Cable Management, confirmed directly in the listing's own spec details"],
-    cons: ["At $389.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $400, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for epoxy",
   },
   {
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 8FT Conference Table measures 94.49 L x 47.24 W x 29.53 H and is built around 10 people conference table, positioning it for epoxy buyers specifically.\n\nSUPER STURDY CONSTRUCTION is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for epoxy, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["94.49 L x 47.24 W x 29.53 H table dimensions","10 PEOPLE CONFERENCE TABLE","SUPER STURDY CONSTRUCTION"],
     pros: ["10 PEOPLE CONFERENCE TABLE, confirmed directly in the listing's own spec details","SUPER STURDY CONSTRUCTION, confirmed directly in the listing's own spec details","GROMMET HOLES & ADJUSTABLE FOOT PADS, confirmed directly in the listing's own spec details"],
-    cons: ["At $379.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $400, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for epoxy",
   },
   {
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "Flash Furniture 36\" Round Conference Table and is built around having a dedicated meeting space in your, positioning it for epoxy buyers specifically.\n\nMeeting table for four people is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for epoxy, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Having a dedicated meeting space in your","Meeting table for four people","Smooth stain-resistant cherry laminate top, cast iron"],
     pros: ["Having a dedicated meeting space in your, confirmed directly in the listing's own spec details","Meeting table for four people, confirmed directly in the listing's own spec details","Smooth stain-resistant cherry laminate top, cast iron, confirmed directly in the listing's own spec details"],
-    cons: ["At $189.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $190, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for epoxy",
   },
   {
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0H86C8ZH3?tag=deskfinds0d-20",
     description: "LITTLE TREE 47 Inches Round Conference Table for 4-6 measures 47 Inch and is built around premium e1 grade mdf construction, positioning it for epoxy buyers specifically.\n\nBeyond that core spec, the listing describes construction suited to daily conference-room use, without unusual assembly or maintenance requirements.\n\nBest for buyers specifically looking for epoxy, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["47 Inch table dimensions","Premium E1 Grade MDF Construction","Assembly hardware and instructions included per the listing"],
-    pros: ["Premium E1 Grade MDF Construction, confirmed directly in the listing's own spec details","Priced at $152.99, positioned for epoxy shoppers specifically","Sized at 47 Inch, matching the space this guide is built around"],
-    cons: ["At $152.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    pros: ["Premium E1 Grade MDF Construction, confirmed directly in the listing's own spec details","Priced under $160, positioned for epoxy shoppers specifically","Sized at 47 Inch, matching the space this guide is built around"],
+    cons: ["At under $160, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for epoxy",
   },
   {
@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 6FT Conference Table measures 70.86L x 35.43W x 29.52H and is built around assemble the team, positioning it for epoxy buyers specifically.\n\nLong-Lasting Quality is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for epoxy, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["70.86L x 35.43W x 29.52H table dimensions","Assemble the Team","Long-Lasting Quality"],
     pros: ["Assemble the Team, confirmed directly in the listing's own spec details","Long-Lasting Quality, confirmed directly in the listing's own spec details","Multi-purpose, confirmed directly in the listing's own spec details"],
-    cons: ["At $152.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $160, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for epoxy",
   },
   {
@@ -126,7 +126,7 @@ export const products: GuideProduct[] = [
     description: "Correll ST1872PX-15 High Pressure Laminate Folding Seminar Table with Off-Set Leg for Maximum Leg Room measures 18\" x 72\" and is built around product dimensions, positioning it for epoxy buyers specifically.\n\nHigh-Pressure Laminate gives a hard, flat, writing is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for epoxy, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["18\" x 72\" table dimensions","Product Dimensions","High-Pressure Laminate gives a hard, flat, writing"],
     pros: ["Product Dimensions, confirmed directly in the listing's own spec details","High-Pressure Laminate gives a hard, flat, writing, confirmed directly in the listing's own spec details","Frame Color, confirmed directly in the listing's own spec details"],
-    cons: ["At $271.92, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $300, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for epoxy",
   },
   {
@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 6.5FT Conference Table for 6-8 People measures 6.5FT and is built around robust metal frame for enhanced stability, positioning it for epoxy buyers specifically.\n\nPremium Scratch-Resistant Desktop is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for epoxy, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["6.5FT table dimensions","Robust Metal Frame for Enhanced Stability","Premium Scratch-Resistant Desktop"],
     pros: ["Robust Metal Frame for Enhanced Stability, confirmed directly in the listing's own spec details","Premium Scratch-Resistant Desktop, confirmed directly in the listing's own spec details","Sleek Modern Aesthetic for Any Workspace, confirmed directly in the listing's own spec details"],
-    cons: ["At $159.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $160, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for epoxy",
   }
 
@@ -210,40 +210,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $152.99",
+          "Under $160",
           "LITTLE TREE 47 Inches Round Conference Table for 4-6"
         ],
         [
-          "Around $152.99",
+          "Under $160",
           "Tribesigns 6FT Conference Table"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "Tribesigns 6.5FT Conference Table for 6-8 People"
         ],
         [
-          "Around $189.99",
+          "Under $190",
           "Flash Furniture 36\" Round Conference Table"
         ],
         [
-          "Around $271.92",
+          "Under $300",
           "Correll ST1872PX-15 High Pressure Laminate Folding Seminar Table with Off-Set Leg for Maximum Leg Room"
         ],
         [
-          "Around $379.99",
+          "Under $400",
           "Tribesigns 8FT Conference Table"
         ],
         [
-          "Around $389.99",
+          "Under $400",
           "Tribesigns 8ft Conference Table"
         ],
         [
-          "Around $15,400.00",
+          "Under $15,500",
           "Custom Walnut Slab Epoxy Resin Conference Table"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -291,7 +291,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Custom Walnut Slab Epoxy Resin Conference Table is aimed at buyers prioritizing custom walnut slab epoxy resin table." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Custom Walnut Slab Epoxy Resin Conference Table is aimed at buyers prioritizing custom walnut slab epoxy resin table." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-glass-conference-tables","title":"Best Glass Conference Tables in 2026"},{"href":"/guide/best-marble-conference-tables","title":"Best Marble Conference Tables in 2026"},{"href":"/guide/best-concrete-conference-tables","title":"Best Concrete Conference Tables in 2026"}];

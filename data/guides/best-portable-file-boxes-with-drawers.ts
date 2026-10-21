@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable file boxes with drawers";
 export const introParagraphs = [
   "This is a genuine hybrid product: a file box combined with additional small drawer compartments, typically for supplies, distinct from a single-compartment box. We verified drawer weight capacity and slide quality independently from the main file-storage compartment.",
-  "We also checked whether the combined product represents genuine value over purchasing a separate file box and a small supply organizer, and considered the added weight and portability tradeoff of this bulkier combined design.",
+  "We also checked whether the combined product represents genuine value over purchasing a separate file box and a small supply organizer, and considered the added weight and portability tradeoff of this bulkier combined design."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Independent drawer weight capacity and slide quality", description: "We verified the drawer compartment's own weight rating and slide mechanism independently from the main hanging-file compartment." },
   { title: "Genuine combo value vs. separate purchases", description: "We considered whether the combined product represents real value over buying a separate file box and a small supply organizer individually." },
   { title: "Combined structure weight and portability", description: "We noted that adding drawer compartments increases overall bulk and weight compared to a simple single-compartment file box." },
-  { title: "Single-compartment comparison points", description: "We included proven single-compartment alternatives directly in this comparison so buyers can honestly weigh whether the combined drawer feature is worth it." },
+  { title: "Single-compartment comparison points", description: "We included proven single-compartment alternatives directly in this comparison so buyers can honestly weigh whether the combined drawer feature is worth it." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -224,11 +224,11 @@ export const faq: FaqItem[] = [
   { q: "How much weight can the drawer hold?", a: "This is typically rated independently from the main file compartment. Check the specific product's disclosed drawer weight capacity if you plan to store heavier supplies there." },
   { q: "Does the combined design make the box harder to carry?", a: "Yes, a combined box with a drawer is bulkier and heavier than a single-compartment alternative, a real tradeoff for this category's portable promise." },
   { q: "Can I buy a file box without a drawer if I don't need one?", a: "Yes, several proven single-compartment alternatives are included in this comparison, like the Pendaflex or Staples picks, if you decide the combined drawer isn't necessary." },
-  { q: "Will the drawer slide smoothly over time?", a: "This depends on build quality. Favor picks with proven review history and established brands, like the Storex picks, as evidence of reliable long-term drawer operation." },
+  { q: "Will the drawer slide smoothly over time?", a: "This depends on build quality. Favor picks with proven review history and established brands, like the Storex picks, as evidence of reliable long-term drawer operation." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-file-boxes-with-organizer-lids", title: "Best Portable File Boxes with Organizer Lids (2026)" },
   { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" },
-  { href: "/guide/best-lockable-portable-file-boxes", title: "Best Lockable Portable File Boxes (2026)" },
+  { href: "/guide/best-lockable-portable-file-boxes", title: "Best Lockable Portable File Boxes (2026)" }
 ];

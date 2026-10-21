@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Smart auto-gain technology for effortless recording", "Focusrite Scarlett Solo 4th Gen USB Audio Interface"],
         ["A standalone recorder for on-location interviews", "Zoom PodTrak P4 Portable Multitrack Podcast Recorder"],
         ["4 simultaneous inputs for a full band or group", "Behringer UMC404HD 4x4 USB Audio Interface"],
-        ["Built-in voice processing for streaming or gaming", "Shure MVX2U Gen 2 Digital Audio Interface"],
+        ["Built-in voice processing for streaming or gaming", "Shure MVX2U Gen 2 Digital Audio Interface"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $140", "Behringer UMC404HD or Shure MVX2U Gen 2 (both $139.00)"],
-        ["Under $148", "Zoom PodTrak P4 ($147.99)"],
-        ["Under $160", "Focusrite Scarlett Solo 4th Gen ($159.99)"],
+        ["Under $140", "Behringer UMC404HD or Shure MVX2U Gen 2 (both under $140)"],
+        ["Under $148", "Zoom PodTrak P4 (under $150)"],
+        ["Under $160", "Focusrite Scarlett Solo 4th Gen (under $160)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Computer-Tethered Interface vs Standalone Recorder",
     cards: [
       { label: "Computer-tethered interface (Scarlett Solo, UMC404HD, MVX2U)", text: "Requires a connected computer to record, but typically offers higher fidelity ceilings and deeper DAW integration for studio work." },
-      { label: "Standalone recorder (Zoom PodTrak P4)", text: "Records directly to an SD card with no computer needed, ideal for on-location interviews or field recording where a laptop isn't practical." },
+      { label: "Standalone recorder (Zoom PodTrak P4)", text: "Records directly to an SD card with no computer needed, ideal for on-location interviews or field recording where a laptop isn't practical." }
     ],
     note: "If you always record from the same desk, a computer-tethered interface is simpler and often cheaper for the fidelity. If you need to record away from your desk or want on-location flexibility, the PodTrak P4's standalone capability is worth the tradeoff.",
   },
@@ -137,7 +137,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your recording format", "Recommended pick"],
       rows: [
         ["Solo podcasting or streaming", "Focusrite Scarlett Solo 4th Gen or Shure MVX2U Gen 2"],
-        ["Two to four person interviews or bands", "Behringer UMC404HD or Zoom PodTrak P4"],
+        ["Two to four person interviews or bands", "Behringer UMC404HD or Zoom PodTrak P4"]
       ],
     },
   },
@@ -145,16 +145,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Live Streaming or Gaming Specifically",
     cards: [
       { label: "Look for", text: "Onboard DSP processing (limiter, compressor, noise gate, denoiser) that handles voice cleanup in real time without needing a separate mixer app running in the background." },
-      { label: "In this comparison", text: "The Shure MVX2U Gen 2 specifically includes a real-time Denoiser and onboard voice modes controlled through ShurePlus MOTIV, built for exactly this streaming and gaming use case." },
+      { label: "In this comparison", text: "The Shure MVX2U Gen 2 specifically includes a real-time Denoiser and onboard voice modes controlled through ShurePlus MOTIV, built for exactly this streaming and gaming use case." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want smart auto-gain technology that removes manual level-setting entirely, where the Focusrite Scarlett Solo 4th Gen sits at the top of this tier for that reason." },
-      { label: "Save if", text: "You need multiple simultaneous inputs on a budget, where the Behringer UMC404HD delivers 4 channels for about $20 less than the Scarlett Solo." },
+      { label: "Save if", text: "You need multiple simultaneous inputs on a budget, where the Behringer UMC404HD delivers 4 channels for about $20 less than the Scarlett Solo." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

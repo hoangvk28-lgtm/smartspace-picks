@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The largest mic array and longest battery life", "Anker PowerConf Speakerphone, Zoom Certified with 6 Mics"],
         ["A lightweight, fast-setup travel speakerphone", "Jabra Speak 510 (2025 Edition) Portable USB or Bluetooth"],
         ["Zero battery or pairing concerns with wired reliability", "Jabra Speak 410 Corded Speakerphone"],
-        ["Built-in USB hub functionality for limited ports", "Q95mini Conference Speaker with Built-in USB Hub"],
+        ["Built-in USB hub functionality for limited ports", "Q95mini Conference Speaker with Built-in USB Hub"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $89", "Jabra Speak 510 ($88.78)"],
-        ["Under $90", "Jabra Speak 410 ($89.99)"],
-        ["Under $96", "Q95mini ($95.90)"],
-        ["Under $100", "Anker PowerConf ($99.99)"],
+        ["Under $89", "Jabra Speak 510 (under $90)"],
+        ["Under $90", "Jabra Speak 410 (under $90)"],
+        ["Under $96", "Q95mini (under $100)"],
+        ["Under $100", "Anker PowerConf (under $100)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Corded vs Battery-Powered Wireless Design",
     cards: [
       { label: "Corded (Jabra Speak 410, Q95mini)", text: "Removes battery and pairing concerns entirely, staying reliably connected as long as a USB port is available, ideal for a fixed desk setup." },
-      { label: "Battery-powered wireless (Anker PowerConf, Jabra Speak 510)", text: "Adds portability and freedom from cables, better for a speakerphone that moves between rooms or travels with you." },
+      { label: "Battery-powered wireless (Anker PowerConf, Jabra Speak 510)", text: "Adds portability and freedom from cables, better for a speakerphone that moves between rooms or travels with you." }
     ],
     note: "If your speakerphone lives permanently at one desk, a corded pick removes any charging maintenance entirely. If you move between meeting rooms or travel, the wireless picks are worth the tradeoff.",
   },
@@ -140,7 +140,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Larger room needing maximum mic coverage", "Anker PowerConf (6-mic array)"],
         ["Frequent travel between locations", "Jabra Speak 510"],
         ["Fixed desk with Skype for Business use", "Jabra Speak 410"],
-        ["Desk setup low on available USB ports", "Q95mini"],
+        ["Desk setup low on available USB ports", "Q95mini"]
       ],
     },
   },
@@ -148,16 +148,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Desk With Limited USB Ports Specifically",
     cards: [
       { label: "Look for", text: "A speakerphone with a built-in USB hub, letting it double as a port expander rather than consuming one of your limited available ports." },
-      { label: "In this comparison", text: "The Q95mini pick's built-in USB hub specifically solves the limited-port problem by letting you connect additional peripherals through the speakerphone itself." },
+      { label: "In this comparison", text: "The Q95mini pick's built-in USB hub specifically solves the limited-port problem by letting you connect additional peripherals through the speakerphone itself." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You need the largest mic array, longest battery life, and the ability to charge other devices, where the Anker PowerConf delivers all three at the top of this tier." },
-      { label: "Save if", text: "You just need reliable wired connectivity without wireless features, where the Jabra Speak 410 covers that for about $10 less." },
+      { label: "Save if", text: "You just need reliable wired connectivity without wireless features, where the Jabra Speak 410 covers that for about $10 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

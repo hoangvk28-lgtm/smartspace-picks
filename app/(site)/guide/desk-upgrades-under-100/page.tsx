@@ -239,7 +239,7 @@ export default async function DeskUpgradesUnder100Page() {
             { href: "#priority", label: "Which first?" },
             { href: "#before-you-buy", label: "Before you buy" },
             { href: "#quick-reference", label: "Quick reference" },
-            { href: "#faq", label: "FAQ" },
+            { href: "#faq", label: "FAQ" }
           ].map(({ href, label }) => (
             <a key={href} href={href} className="px-3.5 py-2 rounded-full border border-border bg-white text-ink-secondary text-sm font-medium hover:border-brand hover:text-brand transition-colors">
               {label}
@@ -326,7 +326,7 @@ export default async function DeskUpgradesUnder100Page() {
                       {[
                         { need: "Needs all-in-one with phone stand", name: "Trueque KM23", id: "trueque-km23" },
                         { need: "Types heavily, wants wave layout", name: "Wave Keys Combo", id: "wave-keys-combo" },
-                        { need: "Wants color options + ergonomics", name: "Purple Ergonomic Combo", id: "purple-ergonomic-combo" },
+                        { need: "Wants color options + ergonomics", name: "Purple Ergonomic Combo", id: "purple-ergonomic-combo" }
                       ].map((row, i) => (
                         <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                           <td className="px-4 py-3 text-ink-secondary">{row.need}</td>
@@ -420,7 +420,7 @@ export default async function DeskUpgradesUnder100Page() {
               ["Daily impact", "Does this change something you notice every single session, or something you adjust once and forget?"],
               ["Ergonomic benefit", "Based on published ergonomic research, not marketing claims. Timelines for feeling the benefit are realistic estimates, not best-case."],
               ["Price-to-value ratio", "Compared against alternatives at the same price tier. A $40 gas-spring arm is evaluated against $25 friction arms, not $200 premium options."],
-              ["Small-desk compatibility", "Verified compatibility with IKEA LINNMON, standard dorm desks (1-1.5\" thick), and desks under 48\" wide."],
+              ["Small-desk compatibility", "Verified compatibility with IKEA LINNMON, standard dorm desks (1-1.5\" thick), and desks under 48\" wide."]
             ].map(([label, desc]) => (
               <div key={label as string} className="p-4 rounded-xl bg-white border border-border">
                 <p className="text-sm font-semibold text-ink mb-1">{label}</p>
@@ -471,7 +471,7 @@ export default async function DeskUpgradesUnder100Page() {
             {[
               { href: "/guide/best-clip-on-desk-lamp", title: "Best Clip-On Desk Lamps for Small Desks", label: "Desk Setup" },
               { href: "/guide/best-under-desk-cable-trays", title: "Best Under Desk Cable Trays", label: "Desk Setup" },
-              { href: "/guide/best-small-desk-accessories", title: "12 Best Small Desk Accessories", label: "Desk Setup" },
+              { href: "/guide/best-small-desk-accessories", title: "12 Best Small Desk Accessories", label: "Desk Setup" }
             ].map((g) => (
               <Link prefetch={false} key={g.href} href={g.href} className="group p-4 rounded-xl border border-border bg-white hover:border-brand/40 hover:shadow-sm transition-all">
                 <span className="text-[10px] font-bold uppercase tracking-widest text-brand block mb-1">{g.label}</span>

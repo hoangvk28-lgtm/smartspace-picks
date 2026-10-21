@@ -58,7 +58,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0CLTKH5YZ?tag=deskfinds0d-20",
     description: "The Furmax corner stand uses an angled footprint to fit into a room corner instead of a flat wall, with an 18 inch electric fireplace insert and a top surface rated for 220 lbs. Two glass-door storage cabinets keep media equipment dust free, and the fireplace runs on a standard 110-120 volt 15 amp outlet with remote control for heat, timer, and dimmer settings. The stand and fireplace insert ship in two separate boxes that can arrive on different days, so plan installation around both deliveries. It is the least expensive corner option here, though the listing specifically notes to verify your TV's foot spacing against the usable top surface before ordering. Worth calling out specifically: 220 lb top capacity. The catch is ships in two boxes that may arrive separately.",
     specs: ["47.2\" W x 20\" D x 31.7\" H", "18\" electric fireplace insert", "220 lbs top weight capacity", "Fits TVs up to 55\"", "2 glass-door storage cabinets", "Ships in 2 separate boxes"],
-    pros: ["$249.99, lowest price in this roundup", "220 lb top capacity", "Corner design saves wall space", "Remote control heater, timer, and dimmer"],
+    pros: ["under $250, lowest price in this roundup", "220 lb top capacity", "Corner design saves wall space", "Remote control heater, timer, and dimmer"],
     cons: ["Ships in two boxes that may arrive separately", "Corner shape narrows usable top width", "Fits TVs only up to 55\""],
     bestFor: "Budget buyers with a corner room layout and a TV of 55 inches or smaller.",
   },
@@ -157,7 +157,7 @@ export const products: GuideProduct[] = [
     pros: ["Solid wood and veneer, not particleboard", "250 lb top capacity", "Minimal 4-screw insert assembly", "Made-to-order with unique grain patterns"],
     cons: ["Heaviest empty cabinet in this roundup at 155 lbs", "Premium materials cost more than laminated options", "Made-to-order grain variation means no two units match exactly"],
     bestFor: "Buyers who want real wood construction and are willing to pay more for furniture-grade materials.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -189,11 +189,11 @@ export const faq: { q: string; a: string }[] = [
   { q: "How much clearance does a TV stand fireplace insert need?", a: "Keep the top vent area of the insert clear of decor, cable boxes, or soundbars, and avoid pushing the stand flush against a wall if the manual specifies rear clearance for heat dissipation. Blocking the vent path can trigger the built-in overheat protection that most inserts, including the OKD and RoyalCraft picks here, include as a safety feature." },
   { q: "Will a fireplace TV stand fit a 55 inch TV even if it is rated for 65 inch?", a: "A stand rated for 65 inch TVs is measured by diagonal screen size, not by the distance between your TV's feet. Corner-style stands narrow the usable top surface more than straight consoles, so measure your TV's actual foot spacing against the stand's usable top width before ordering, especially on corner picks like the Furmax or OKD." },
   { q: "Do these fireplace inserts need a dedicated electrical circuit?", a: "Most inserts in this guide draw around 1400 watts on a standard 120 volt, 15 amp outlet, which is close to that circuit's practical capacity on its own. If the fireplace shares an outlet strip with a TV, receiver, and gaming console, running the heat setting can trip the breaker. A dedicated wall outlet is the safer setup." },
-  { q: "Can the fireplace insert be replaced later if it stops working?", a: "On stands marketed with a replaceable insert, like the Ameriwood Home Lumina and Carson picks in this guide, yes, the fireplace unit can be swapped without replacing the whole cabinet. Not every fireplace TV stand advertises this feature, so check the listing for the word replaceable if a swappable insert matters to you." },
+  { q: "Can the fireplace insert be replaced later if it stops working?", a: "On stands marketed with a replaceable insert, like the Ameriwood Home Lumina and Carson picks in this guide, yes, the fireplace unit can be swapped without replacing the whole cabinet. Not every fireplace TV stand advertises this feature, so check the listing for the word replaceable if a swappable insert matters to you." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-tv-stand-for-55-inch-tv", title: "Best TV Stands for 55 Inch TVs (2026)" },
   { href: "/guide/best-cable-management-boxes-for-desks", title: "Best Cable Management Boxes for Desks (2026)" },
-  { href: "/guide/best-under-desk-storage-drawers", title: "Best Under Desk Storage Drawers (2026)" },
+  { href: "/guide/best-under-desk-storage-drawers", title: "Best Under Desk Storage Drawers (2026)" }
 ];

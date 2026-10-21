@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small safes with keys";
 export const introParagraphs = [
   "A key-only lock avoids battery dependency entirely, but it shifts the reliability question to key custody: where you keep the spare, how exposed the keyway is, and what happens if you lose the only copy. We compared confirmed key-count, spare-key availability, and physical lock construction across these picks rather than treating key access as a single undifferentiated feature.",
-  "Several picks here are fire-rated chest safes with key locks specifically to keep the lid closed during a fire event, a distinct engineering purpose from a security-box key lock meant to deter theft.",
+  "Several picks here are fire-rated chest safes with key locks specifically to keep the lid closed during a fire event, a distinct engineering purpose from a security-box key lock meant to deter theft."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     pros: ["No-battery mechanical reliability, similar advantage to a key-only design"],
     cons: ["Uses a mechanical combination, not an actual physical key, despite surfacing in this search category"],
     bestFor: "Buyers wanting no-battery reliability without managing a physical key, in a compact tethered box.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Distinguished genuine physical-key locks from combination locks in this search category", description: "Two picks here surfaced in a key-lock search but actually use a combination lock, not a physical key. We disclosed this honestly rather than blending them into a key-only ranking." },
   { title: "Separated theft-deterrent key locks from fire-safety key locks", description: "Several key locks here are specifically engineered to keep a safe's lid shut during a fire event, a different purpose from a security box's theft-deterrent key lock, though both use the same mechanism." },
   { title: "Checked spare-key guidance and included key count", description: "We noted where a listing explicitly recommends storing the spare key separately, and confirmed how many keys ship in the box (typically 2)." },
-  { title: "Compared portable versus mountable key-lock designs", description: "Some picks here are genuinely portable cash boxes; others include mounting hardware for fixed installation. We flagged this distinction directly." },
+  { title: "Compared portable versus mountable key-lock designs", description: "Some picks here are genuinely portable cash boxes; others include mounting hardware for fixed installation. We flagged this distinction directly." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -282,7 +282,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review count and rating together, not rating alone",
-    "explanation": "A 4.8-star rating from 12 reviews carries far less evaluation confidence than a 4.5-star rating from several thousand, since a small sample can be skewed by a handful of early, enthusiastic buyers before any long-term reliability issues would show up in later reviews.\n\nThis matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
+    "explanation": "This matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
   }
 ];
 
@@ -291,11 +291,11 @@ export const faq: FaqItem[] = [
   { q: "Which key-lock safe organizes cash the best?", a: "The KYODOLED Small Metal Lock Box, with a removable 5-compartment coin tray, at the lowest price in this comparison." },
   { q: "Are any picks here actually combination locks, not physical keys?", a: "Yes, the DocSafe Fireproof Document Organizer and the SentrySafe Small Safe with Combination Lock both use combination locks rather than physical keys, disclosed here for transparency." },
   { q: "What should I do with the spare key?", a: "Store it somewhere separate from the safe itself, never taped to or stored inside the safe, which defeats the purpose of the lock." },
-  { q: "Is there a fire-rated safe with a key lock?", a: "Yes, several SentrySafe picks here use a key lock specifically engineered to keep the lid shut during a fire event, alongside UL fire classification." },
+  { q: "Is there a fire-rated safe with a key lock?", a: "Yes, several SentrySafe picks here use a key lock specifically engineered to keep the lid shut during a fire event, alongside UL fire classification." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-combination-small-safes", title: "Best Combination Small Safes (2026)" },
   { href: "/guide/best-small-safe-lock-boxes", title: "Best Small Safe Lock Boxes (2026)" },
-  { href: "/guide/best-small-fireproof-safes", title: "Best Small Fireproof Safes (2026)" },
+  { href: "/guide/best-small-fireproof-safes", title: "Best Small Fireproof Safes (2026)" }
 ];

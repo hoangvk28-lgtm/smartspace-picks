@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["A 6GHz band and the most wired ports", "TP-Link Archer BE550 Tri-Band WiFi 7 Router"],
         ["Genuine multi-room coverage in a larger home", "TP-Link Deco 7 BE25 Dual-Band Mesh System"],
-        ["Dedicated gaming traffic prioritization", "ASUS TUF Gaming BE6500 WiFi 7 Router"],
+        ["Dedicated gaming traffic prioritization", "ASUS TUF Gaming BE6500 WiFi 7 Router"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $160", "ASUS TUF Gaming BE6500 ($150.00) or Deco 7 BE25 Mesh ($159.98)"],
-        ["$170-$180", "TP-Link Archer BE550 ($169.99) or NETGEAR Nighthawk RS150 ($179.99)"],
+        ["Under $160", "ASUS TUF Gaming BE6500 (under $160) or Deco 7 BE25 Mesh (under $160)"],
+        ["$170-$180", "TP-Link Archer BE550 (under $170) or NETGEAR Nighthawk RS150 (under $180)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Single Router vs Mesh System",
     cards: [
       { label: "Single Router (Archer BE550, RS150, TUF Gaming BE6500)", text: "Concentrates all the router's power into one unit, ideal for apartments or single-story homes where one strong signal source covers the whole space." },
-      { label: "Mesh System (Deco 7 BE25)", text: "Spreads coverage across multiple units placed throughout your home, better suited to larger, multi-story, or oddly shaped homes where a single router's signal doesn't reach every corner." },
+      { label: "Mesh System (Deco 7 BE25)", text: "Spreads coverage across multiple units placed throughout your home, better suited to larger, multi-story, or oddly shaped homes where a single router's signal doesn't reach every corner." }
     ],
     note: "If you've had dead zones with a single router before, the Deco mesh system's multi-unit design is the more reliable fix than a more powerful single router.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your wired connection needs", "Recommended pick"],
       rows: [
         ["Maximum multi-gig ports for a wired home office setup", "TP-Link Archer BE550 (five 2.5G ports total)"],
-        ["A dedicated prioritized port for gaming", "ASUS TUF Gaming BE6500's dedicated Gaming Port"],
+        ["A dedicated prioritized port for gaming", "ASUS TUF Gaming BE6500's dedicated Gaming Port"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Crowded WiFi Environments Specifically",
     cards: [
       { label: "Look for", text: "A tri-band router with a dedicated 6GHz channel, since this band sees far less interference from neighboring networks than the more commonly used 2.4GHz and 5GHz bands." },
-      { label: "In this comparison", text: "The TP-Link Archer BE550 is the only pick here with a genuine 6GHz band, making it the strongest choice for apartments or dense neighborhoods with many competing networks." },
+      { label: "In this comparison", text: "The TP-Link Archer BE550 is the only pick here with a genuine 6GHz band, making it the strongest choice for apartments or dense neighborhoods with many competing networks." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You live in a crowded WiFi environment and want a 6GHz band plus maximum wired ports, where the TP-Link Archer BE550 is the strongest all-around pick in this comparison." },
-      { label: "Save if", text: "A dual-band router covers your needs, where the ASUS TUF Gaming BE6500 delivers strong gaming-specific features for the lowest price here." },
+      { label: "Save if", text: "A dual-band router covers your needs, where the ASUS TUF Gaming BE6500 delivers strong gaming-specific features for the lowest price here." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

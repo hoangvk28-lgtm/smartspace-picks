@@ -56,7 +56,7 @@ export const lamps: ClipLamp[] = [
       "10 brightness levels + 3 color modes give real control, not just dim/bright",
       "USB-A runs off any power strip or USB charger -- no dedicated outlet needed",
       "Metal arm holds position without drooping over time",
-      "Clamp fits desks up to 2 inches thick (covers most dorm and IKEA desks)",
+      "Clamp fits desks up to 2 inches thick (covers most dorm and IKEA desks)"
     ],
     bestFor:
       "Anyone who wants one reliable lamp for studying, Zoom calls, and general desk lighting. The default recommendation for most people.",
@@ -65,7 +65,7 @@ export const lamps: ClipLamp[] = [
       { label: "Brightness", value: "10 levels" },
       { label: "Color modes", value: "3 (3000K / 4000K / 6000K)" },
       { label: "Arm type", value: "Metal gooseneck + swing arm" },
-      { label: "Clamp capacity", value: "Up to 2\" thick" },
+      { label: "Clamp capacity", value: "Up to 2\" thick" }
     ],
   },
   {
@@ -87,7 +87,7 @@ export const lamps: ClipLamp[] = [
       "48 LEDs spread light evenly -- no harsh spotlight hotspot",
       "10 brightness levels + 3 color modes at under $20",
       "USB-powered -- runs off laptop or power strip",
-      "360 flexible gooseneck holds position reliably",
+      "360 flexible gooseneck holds position reliably"
     ],
     bestFor:
       "Students who need a capable clip lamp under $20 and don't want to gamble on a $7 no-name model.",
@@ -96,7 +96,7 @@ export const lamps: ClipLamp[] = [
       { label: "Brightness", value: "10 levels" },
       { label: "Color modes", value: "3" },
       { label: "Arm type", value: "360 flexible gooseneck" },
-      { label: "LED count", value: "48" },
+      { label: "LED count", value: "48" }
     ],
   },
   {
@@ -118,10 +118,10 @@ export const lamps: ClipLamp[] = [
       "No outlet needed -- ideal when your power strip is already maxed out",
       "Stepless dimming (continuous, not stepped) -- smoother than most lamps",
       "Touch control cycles color modes and adjusts brightness with one button",
-      "Memory function remembers last brightness setting on startup",
+      "Memory function remembers last brightness setting on startup"
     ],
     tradeoffs: [
-      "Battery life ~3-4 hours at maximum brightness; significantly longer at lower settings",
+      "Battery life ~3-4 hours at maximum brightness; significantly longer at lower settings"
     ],
     bestFor:
       "Dorm rooms where outlet space is at a premium, or anyone who wants a completely cord-free desk surface.",
@@ -132,7 +132,7 @@ export const lamps: ClipLamp[] = [
       { label: "Brightness", value: "Stepless (continuous)" },
       { label: "Color modes", value: "3" },
       { label: "Arm type", value: "Flexible gooseneck" },
-      { label: "Memory function", value: "Yes" },
+      { label: "Memory function", value: "Yes" }
     ],
   },
   {
@@ -154,7 +154,7 @@ export const lamps: ClipLamp[] = [
       "10W is the brightest option on this list -- ideal for dense text or detailed work",
       "Metal swing arm holds position without drooping",
       "Rubber-padded clamp protects desk surface from scratches",
-      "Touch dimming makes it easy to dial down for background light",
+      "Touch dimming makes it easy to dial down for background light"
     ],
     bestFor:
       "Students who do a lot of reading from printed materials, or anyone whose dorm room has poor ambient lighting.",
@@ -163,7 +163,7 @@ export const lamps: ClipLamp[] = [
       { label: "Wattage", value: "10W" },
       { label: "Brightness", value: "Touch dimmable" },
       { label: "Arm type", value: "Metal gooseneck swing arm" },
-      { label: "Color", value: "White" },
+      { label: "Color", value: "White" }
     ],
   },
   {
@@ -185,7 +185,7 @@ export const lamps: ClipLamp[] = [
       "360 head rotation -- position light precisely without moving the clamp",
       "Cable gooseneck snakes around obstacles better than rigid arms",
       "Works on desk, bed frame, headboard, or shelf rail",
-      "USB-powered -- runs off any USB source",
+      "USB-powered -- runs off any USB source"
     ],
     bestFor:
       "Top-bunk students, small bedrooms where the lamp needs to clip to a shelf or headboard rather than a desk.",
@@ -193,7 +193,7 @@ export const lamps: ClipLamp[] = [
       { label: "Power", value: "USB" },
       { label: "Rotation", value: "360 head rotation" },
       { label: "Arm type", value: "Flexible gooseneck cable" },
-      { label: "Use case", value: "Desk, bed, headboard, shelf" },
+      { label: "Use case", value: "Desk, bed, headboard, shelf" }
     ],
   },
   {
@@ -215,7 +215,7 @@ export const lamps: ClipLamp[] = [
       "Smallest profile -- barely takes up visual space on the desk",
       "Night-light mode for soft ambient use without waking roommates",
       "USB-powered, no extra outlet needed",
-      "Works as a quick supplemental light for any corner of a setup",
+      "Works as a quick supplemental light for any corner of a setup"
     ],
     bestFor:
       "Minimalists, people who are on the fence about clip lamps, or anyone who needs occasional supplemental lighting on a very tight budget.",
@@ -223,7 +223,7 @@ export const lamps: ClipLamp[] = [
       { label: "Power", value: "USB" },
       { label: "Arm type", value: "360 flexible gooseneck" },
       { label: "Special mode", value: "Night light" },
-      { label: "Size", value: "Compact" },
+      { label: "Size", value: "Compact" }
     ],
   },
   {
@@ -245,7 +245,7 @@ export const lamps: ClipLamp[] = [
       "Flicker-free certification -- reduces eye fatigue on 3+ hour study sessions",
       "Softer light quality compared to standard LED panels",
       "360 gooseneck for full positioning flexibility",
-      "USB-powered -- runs off laptop or power strip",
+      "USB-powered -- runs off laptop or power strip"
     ],
     bestFor:
       "Students who study 4+ hours daily under artificial light, or anyone who gets headaches from their current desk lamp.",
@@ -253,7 +253,7 @@ export const lamps: ClipLamp[] = [
       { label: "Power", value: "USB" },
       { label: "Rotation", value: "360 gooseneck" },
       { label: "Eye-care", value: "Flicker-reduction" },
-      { label: "Mode", value: "Portable reading light" },
+      { label: "Mode", value: "Portable reading light" }
     ],
   },
   {
@@ -275,7 +275,7 @@ export const lamps: ClipLamp[] = [
       "USB or AC power -- works with any power source you have",
       "Dead simple to use -- one switch, two brightness levels",
       "Good as a second lamp for a specific desk area or shelf",
-      "Low cost makes it practical as a gift or backup",
+      "Low cost makes it practical as a gift or backup"
     ],
     bestFor:
       "Casual users, a second lamp for a specific spot, or a gift for someone who just needs something that works.",
@@ -283,9 +283,9 @@ export const lamps: ClipLamp[] = [
       { label: "Power", value: "USB or AC" },
       { label: "Brightness", value: "2 levels" },
       { label: "Arm", value: "Flexible clip design" },
-      { label: "Best use", value: "Supplemental lighting" },
+      { label: "Best use", value: "Supplemental lighting" }
     ],
-  },
+  }
 ];
 
 export const atAGlance = lamps.map((l) => ({
@@ -303,7 +303,7 @@ export const evaluationCriteria = [
   { icon: "💡", label: "Brightness Range (20%)", body: "Minimum 3 brightness levels; both focused reading mode and soft ambient mode. More levels = more flexibility to avoid eye strain." },
   { icon: "🔩", label: "Build Quality (20%)", body: "Clamp strength, arm stability, and material durability. Metal goosenecks hold position far better than plastic, which droops over weeks of use." },
   { icon: "👆", label: "Ease of Use (20%)", body: "Touch control, intuitive settings, cord management. We specifically evaluated clamp jaw width for desk compatibility and power source flexibility." },
-  { icon: "💰", label: "Value (15%)", body: "Price-to-feature ratio vs. comparable options at each price tier. A $20 lamp with 48 LEDs and 3 color modes scores higher than a $30 lamp with fewer features." },
+  { icon: "💰", label: "Value (15%)", body: "Price-to-feature ratio vs. comparable options at each price tier. A $20 lamp with 48 LEDs and 3 color modes scores higher than a $30 lamp with fewer features." }
 ];
 
 export const buyingCriteria = [
@@ -336,7 +336,7 @@ export const buyingCriteria = [
     icon: "🛌",
     title: "Shared room and roommate etiquette",
     body: "Clip-on lamps are directional -- light stays focused on your workspace. Position the lamp facing your desk and away from your roommate's side. Use warm-white mode at low brightness. This combination is virtually invisible from the other side of a standard dorm room.",
-  },
+  }
 ];
 
 export const clipVsBase = [
@@ -345,7 +345,7 @@ export const clipVsBase = [
   { situation: "Bunk bed or headboard reading", pick: "Clip-on", reason: "Attaches to frame or headboard" },
   { situation: "Maximum brightness for art/detail work", pick: "Base lamp", reason: "More wattage options" },
   { situation: "Shared room, one person sleeps early", pick: "Clip-on", reason: "Directional light, less room spill" },
-  { situation: "Permanent home office setup", pick: "Base lamp", reason: "More stable, no clamp wear" },
+  { situation: "Permanent home office setup", pick: "Base lamp", reason: "More stable, no clamp wear" }
 ];
 
 export const faq: Array<{ q: string; a: string }> = [
@@ -376,5 +376,5 @@ export const faq: Array<{ q: string; a: string }> = [
   {
     q: "My roommate goes to sleep early. Can I use a clip-on lamp without disturbing them?",
     a: "Yes -- this is one of the strongest arguments for a clip-on lamp. The directional nature keeps light focused on your workspace. Position it facing your desk and away from your roommate's side, and use warm-white mode at low brightness. This combination is virtually invisible from the other side of a standard dorm room.",
-  },
+  }
 ];

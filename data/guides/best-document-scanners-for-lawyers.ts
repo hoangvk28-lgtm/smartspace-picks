@@ -5,7 +5,7 @@ export const metaDescription = "8 scanners we evaluated for legal document workf
 export const mainKeyword = "document scanner for lawyers";
 export const introParagraphs = [
   "No document scanner redacts sensitive information during scanning, a critical distinction for handling privileged material. Attorneys need separate redaction software with proper pixel-level redaction, not just a black box overlay, assuming a scanner's 'security features' include redaction could create real compliance risk.",
-  "Also worth knowing: legal-size (8.5x14 inch) paper support requires ADF path length verification, some scanners marketed as legal-size compatible support it only in a reduced-speed or manual single-sheet mode, not through the standard batch ADF path.",
+  "Also worth knowing: legal-size (8.5x14 inch) paper support requires ADF path length verification, some scanners marketed as legal-size compatible support it only in a reduced-speed or manual single-sheet mode, not through the standard batch ADF path."
 ];
 export const lastUpdated = "2026-07-29";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall for Legal Document Batches",
     name: "Epson Workforce ES-400 II High-Speed Color Duplex Desktop Document Scanner",
     price: "$299.99",
-    rating: "4.5 stars from 1,226 Amazon ratings",
-    reviews: "1,226 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41rW4JApydL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08P3YVH3X?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Volume Legal Batch Pick",
     name: "ScanSnap iX2400 High-Speed One-Touch Button Color Document Scanner",
     price: "$349.99",
-    rating: "4.5 stars from 991 Amazon ratings",
-    reviews: "991 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41LZ7HiXsPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FWGTB3S3?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wireless Legal Office Pick",
     name: "Epson Workforce ES-580W Wireless Color Duplex Desktop Document Scanner",
     price: "$379.99",
-    rating: "4.3 stars from 1,004 Amazon ratings",
-    reviews: "1,004 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Ty0waBx4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08P3ZT5WH?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Legal Office Pick",
     name: "ScanSnap iX1300 Wireless or USB Double-Sided Color Document Scanner, White",
     price: "$279.99",
-    rating: "4.2 stars from 1,768 Amazon ratings",
-    reviews: "1,768 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41yWYf2uT0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FX5DWBK?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Direct Cloud Legal Filing",
     name: "Canon imageFORMULA R40II Office Document Scanner",
     price: "$253.00",
-    rating: "4.3 stars from 37 Amazon ratings",
-    reviews: "37 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41d2vOL+ThL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GJWWZ77J?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Office-Class Legal Alternative",
     name: "Canon imageFORMULA DR-C225 II Office Document Scanner",
     price: "$267.00",
-    rating: "4.1 stars from 442 Amazon ratings",
-    reviews: "442 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/418QNsyyrDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07FPQZ6H8?tag=deskfinds0d-20",
     description:
@@ -127,8 +127,8 @@ export const products: GuideProduct[] = [
     badge: "Portable Legal Document Pick",
     name: "Canon imageFORMULA R10 Portable Document Scanner, USB Powered, Duplex",
     price: "$184.00",
-    rating: "4.1 stars from 2,338 Amazon ratings",
-    reviews: "2,338 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/218Q14ube6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08FBHTD9B?tag=deskfinds0d-20",
     description:
@@ -144,8 +144,8 @@ export const products: GuideProduct[] = [
     badge: "Best Plug-and-Scan for Legal Offices",
     name: "Canon imageFORMULA R30 Office Document Scanner",
     price: "$259.00",
-    rating: "4.1 stars from 350 Amazon ratings",
-    reviews: "350 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31j5kwbaiFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BWNTNGN5?tag=deskfinds0d-20",
     description:
@@ -154,14 +154,14 @@ export const products: GuideProduct[] = [
     pros: ["No software installation needed across multiple firm workstations", "Auto document feeder with duplex", "Reduces IT burden for smaller firms", "Reasonable price for office-class capability"],
     cons: ["Smaller review count than the Epson/ScanSnap picks", "No redaction or audit-trail capability", "No explicit legal-size ADF path confirmation"],
     bestFor: "Legal offices without dedicated IT who want zero-install plug-and-scan simplicity",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Legal-size ADF batch-path verification", description: "Checked whether legal-size (8.5x14) paper support runs through the standard batch ADF path or only in a reduced-speed/manual mode, since some listings market legal-size compatibility without this distinction." },
   { title: "Explicit redaction and Bates-numbering clarification", description: "Confirmed directly that no scanner in this guide redacts sensitive information or natively performs Bates numbering, both require separate specialized software, a critical distinction for compliance-conscious buyers." },
-  { title: "Verified encryption disclosure for privileged document transmission", description: "Checked whether any listing discloses a specific encryption standard for wireless/cloud scanning, none of the picks in this guide confirm this, relevant for attorneys handling privileged material." },
+  { title: "Verified encryption disclosure for privileged document transmission", description: "Checked whether any listing discloses a specific encryption standard for wireless/cloud scanning, none of the picks in this guide confirm this, relevant for attorneys handling privileged material." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -294,11 +294,11 @@ export const faq: FaqItem[] = [
   { q: "Can I scan legal-size (8.5x14) documents at full batch speed?", a: "It depends on the model, and none of the picks in this guide explicitly confirm full-speed legal-size batch ADF support. Some scanners only support legal-size paper in a reduced-speed or manual single-sheet mode, verify directly." },
   { q: "Is it safe to scan privileged documents over Wi-Fi or to the cloud?", a: "Only if the connection uses verified encryption, and none of the picks in this guide disclose a specific encryption standard. Verify directly with the manufacturer before scanning privileged material wirelessly." },
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "Firms who want reliable duplex batch scanning and will verify legal-size ADF speed separately" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Attorneys who need portable scanning for off-site client or deposition work At $184.00, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Attorneys who need portable scanning for off-site client or deposition work At under $190, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-document-scanners-for-searchable-pdfs", title: "Best Document Scanners for Searchable PDFs (2026)" },
   { href: "/guide/best-document-scanners-for-small-businesses", title: "Best Document Scanners for Small Businesses (2026)" },
-  { href: "/guide/best-document-scanners-for-accountants", title: "Best Document Scanners for Accountants (2026)" },
+  { href: "/guide/best-document-scanners-for-accountants", title: "Best Document Scanners for Accountants (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small printer for home office";
 export const introParagraphs = [
   "A small printer for a home office is really two different products wearing the same marketing label. A small monochrome laser printer is fast and cheap to run per page but prints text only, while a small color inkjet all-in-one can scan and print photos but costs more per page and can dry out between print jobs. Picking the wrong category for your actual workload is the most common mistake home-office buyers make.",
-  "Below are 8 small printers we evaluated on this laser-vs-inkjet fit, single-user versus small-team reliability, replacement supply availability, and standby energy draw, ranging from a $69.99 basic inkjet AIO to a $209.99 duplex laser multi-function printer.",
+  "Below are 8 small printers we evaluated on this laser-vs-inkjet fit, single-user versus small-team reliability, replacement supply availability, and standby energy draw, ranging from an under-$70 basic inkjet AIO to an under-$250 duplex laser multi-function printer."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "9 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "1.42\" OLED display",
       "Auto duplex printing",
       "Low standby power draw (inkjet)",
-      "Single-user oriented speed and queue handling",
+      "Single-user oriented speed and queue handling"
     ],
     pros: [
       "OLED display for at-a-glance status",
       "Full print, scan, copy functionality",
       "Auto duplex printing included",
-      "Lower standby energy draw than laser alternatives",
+      "Lower standby energy draw than laser alternatives"
     ],
     cons: [
       "Not built for a multi-person print queue",
       "Ink cartridges can dry out with infrequent use",
-      "Cost per page higher than a laser or ink-tank printer",
+      "Cost per page higher than a laser or ink-tank printer"
     ],
     bestFor: "A single person working from home who wants full AIO function in a small body",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Auto duplex printing",
       "No display screen",
       "Widely available retail ink cartridges",
-      "Low standby power draw",
+      "Low standby power draw"
     ],
     pros: [
       "Lowest price in this list",
       "Retail-available ink cartridges, not online-only",
       "Auto duplex printing built in",
-      "Low standby energy draw",
+      "Low standby energy draw"
     ],
     cons: [
       "No status display screen",
       "Small paper tray needs frequent refills",
-      "Not suited to a shared multi-person queue",
+      "Not suited to a shared multi-person queue"
     ],
     bestFor: "Budget-conscious single-user home offices with light, occasional printing",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "3-month HP Instant Ink trial included",
       "Subscription-based ink replacement after trial",
       "HP Smart app setup",
-      "Low standby power draw",
+      "Low standby power draw"
     ],
     pros: [
       "Free 3-month Instant Ink trial reduces early cost",
       "Automatic cartridge replacement shipping",
       "Compact, single-user-friendly footprint",
-      "Full print, scan, copy function",
+      "Full print, scan, copy function"
     ],
     cons: [
       "Instant Ink subscription cost after the trial",
       "Small tray typical of compact inkjets",
-      "HP Smart app setup can be an extra step for non-tech users",
+      "HP Smart app setup can be an extra step for non-tech users"
     ],
     bestFor: "Buyers who want a low-cost trial period before committing to an ink plan",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Built-in fax",
       "Compact color inkjet all-in-one",
       "Canon PRINT app setup",
-      "Single-user oriented",
+      "Single-user oriented"
     ],
     pros: [
       "ADF handles multi-page scans without manual page flipping",
       "Built-in fax for occasional home-office needs",
       "Still a compact footprint despite the added hardware",
-      "Wireless mobile printing supported",
+      "Wireless mobile printing supported"
     ],
     cons: [
       "Fax is rarely used by most 2026 home offices",
       "Cartridges can dry out with infrequent printing",
-      "Not built for a shared multi-person print queue",
+      "Not built for a shared multi-person print queue"
     ],
     bestFor: "A home office that occasionally scans or faxes multi-page documents",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Duplex printing, copy, scan",
       "Faster page output than inkjet AIOs",
       "Toner does not dry out between uses",
-      "Higher standby power draw (laser)",
+      "Higher standby power draw (laser)"
     ],
     pros: [
       "Handles a multi-person print queue better than inkjet AIOs",
       "Toner never dries out from bursty usage patterns",
       "Faster print speed for repeated jobs",
-      "Duplex printing plus scan and copy",
+      "Duplex printing plus scan and copy"
     ],
     cons: [
       "Highest price in this list",
       "Monochrome only, no color printing",
-      "Higher standby energy draw than inkjet picks",
+      "Higher standby energy draw than inkjet picks"
     ],
     bestFor: "A home office shared by 2-3 people who need reliable, faster mono output",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Alexa compatible",
       "Retail-available toner cartridges",
       "No scan or copy function",
-      "Toner does not dry out between uses",
+      "Toner does not dry out between uses"
     ],
     pros: [
       "Smaller footprint than most compact inkjet AIOs",
       "Toner never dries out from infrequent printing",
       "Retail-available replacement toner",
-      "Faster mono print speed than inkjet",
+      "Faster mono print speed than inkjet"
     ],
     cons: [
       "No scan or copy capability",
       "Monochrome only",
-      "Higher standby power draw than inkjet picks",
+      "Higher standby power draw than inkjet picks"
     ],
     bestFor: "A home office that only needs fast, reliable text printing without scanning",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Color print, scan, copy",
       "Larger body than cartridge-based inkjets",
       "Tanks last months without refill",
-      "Low ongoing cost per page",
+      "Low ongoing cost per page"
     ],
     pros: [
       "Lowest cost per page among the color picks here",
       "Ink tanks resist drying out better than cartridges",
       "Full color print, scan, copy",
-      "Tanks last months between refills",
+      "Tanks last months between refills"
     ],
     cons: [
       "Higher upfront price than cartridge-based inkjets",
       "Larger footprint due to tank housing",
-      "Refilling tanks takes longer than a cartridge swap",
+      "Refilling tanks takes longer than a cartridge swap"
     ],
     bestFor: "A home office that prints regularly and wants color without high per-page ink cost",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Fax, scan, copy",
       "1.4\" color display",
       "Cartridge-based color inkjet",
-      "Mid-range price for feature set",
+      "Mid-range price for feature set"
     ],
     pros: [
       "ADF plus duplex plus fax in one mid-priced device",
       "Color display for status checks",
       "Full scan, copy, fax feature set",
-      "Reasonable price for the included features",
+      "Reasonable price for the included features"
     ],
     cons: [
       "Ink cartridges can dry out with infrequent use",
       "Not built for a busy multi-person queue",
-      "Fax capability goes unused by many buyers",
+      "Fax capability goes unused by many buyers"
     ],
     bestFor: "A single-user home office that wants ADF, duplex, and fax without laser pricing",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed upfront cost against included features like ADF, duplex, fax, and display screen to judge which picks earn their price premium.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -466,11 +466,11 @@ export const faq: FaqItem[] = [
   {
     q: "Do I need a printer with fax for my home office in 2026?",
     a: "Most home offices no longer need fax, it remains a marketed feature on several all-in-ones despite very limited real-world use. If you haven't sent a fax in the past year, skip the fax-inclusive models and put that budget toward faster printing or a larger paper tray instead.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-compact-printers-for-small-desks", title: "Best Compact Printers for Small Desks (2026)" },
   { href: "/guide/best-printers-for-home-offices", title: "Best Printers for Home Offices (2026)" },
-  { href: "/guide/best-printers-for-remote-workers", title: "Best Printers for Remote Workers (2026)" },
+  { href: "/guide/best-printers-for-remote-workers", title: "Best Printers for Remote Workers (2026)" }
 ];

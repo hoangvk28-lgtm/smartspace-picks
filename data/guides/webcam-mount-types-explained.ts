@@ -12,7 +12,7 @@ export const webcamMountTypesExplainedGuide: Guide = {
     "webcam clip mount vs tripod",
     "best webcam mount for monitor",
     "webcam mount for curved monitor",
-    "webcam tripod desk setup",
+    "webcam tripod desk setup"
   ],
   heroImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const webcamMountTypesExplainedGuide: Guide = {
     "webcam-fov-explained",
     "webcam-resolution-explained",
     "monitor-vesa-compatibility-explained",
-    "webcam-lighting-explained",
+    "webcam-lighting-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const webcamMountTypesExplainedGuide: Guide = {
       question: "Is a heavier webcam harder to mount securely?",
       answer:
         "Yes, a heavier webcam can cause a lightweight clip mount to tilt downward or feel less stable over time, check the mount's stated weight capacity against your webcam's actual weight, especially for webcams with built-in ring lights or larger sensors.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const webcamMountTypesExplainedGuide: Guide = {
     {
       heading: "When a Tripod Offers More Practical Flexibility",
       body: `A tripod becomes the better choice when you want camera positioning independent of your monitor, such as a lower desk-level angle for a different look, or when your monitor's shape or thinness makes a clip mount impractical. The tradeoff is a tripod takes up desk space that a clip mount avoids by attaching directly to the monitor itself.`,
-    },
+    }
   ],
 };

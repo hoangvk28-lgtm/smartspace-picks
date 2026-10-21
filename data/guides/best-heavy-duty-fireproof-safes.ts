@@ -193,36 +193,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $215.99",
+          "Under $250",
           "60-Minute Fireproof Safe with Mechanical Key Lock"
         ],
         [
-          "Around $254.99",
+          "Under $300",
           "BUTISOW 8.6 Cu Ft Heavy Duty Safe with Bundled Fireproof Bag"
         ],
         [
-          "Around $286.99",
+          "Under $300",
           "TIGERKING 3.47 Cu Ft Fireproof Safe for Home & Office"
         ],
         [
-          "Around $289.99",
+          "Under $300",
           "Omethey 8.0 Cu Ft Extra Large Safe with Triple Door"
         ],
         [
-          "Around $369.99",
+          "Under $400",
           "31.5\" Large Fireproof Waterproof Safe with Biometric Access"
         ],
         [
-          "Around $562.22",
+          "Under $600",
           "Master Lock 2.0 Cu Ft Fireproof & Waterproof Safe"
         ],
         [
-          "Around $699.99",
+          "Under $700",
           "9.8 Cu Ft Extra Large Biometric Fireproof Waterproof Safe"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -270,7 +270,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "9.8 Cu Ft Extra Large Biometric Fireproof Waterproof Safe is aimed at buyers prioritizing 9.8 cu ft, 124 lbs." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "9.8 Cu Ft Extra Large Biometric Fireproof Waterproof Safe is aimed at buyers prioritizing 9.8 cu ft, 124 lbs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"},{"href":"/guide/best-fireproof-safes-for-home","title":"Best Fireproof Safes for Home in 2026"},{"href":"/guide/best-fireproof-safes-for-document","title":"Best Fireproof Safes for Document in 2026"}];

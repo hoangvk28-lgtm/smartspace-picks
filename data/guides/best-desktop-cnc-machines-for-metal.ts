@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $487.20",
+          "Under $500",
           "Genmitsu 3020-PRO Ultra CNC Router Machine"
         ],
         [
-          "Around $499.00",
+          "Under $500",
           "Lunyee 3018 Pro Ultra CNC Machine 500W All-Metal CNC Router Machine"
         ],
         [
-          "Around $517.65",
+          "Under $550",
           "Genmitsu 4040-PRO CNC Router Machine for Metal Acrylic Cutting Milling"
         ],
         [
-          "Around $549.00",
+          "Under $550",
           "FoxAlien Masuter Pro 3-Axis CNC Router Machine"
         ],
         [
-          "Around $599.00",
+          "Under $600",
           "AnoleX CNC Router Machine 3030-Evo Max"
         ],
         [
-          "Around $649.00",
+          "Under $650",
           "LUNYEE 3020 Nova CNC Router Machine"
         ],
         [
-          "Around $2,499.00",
+          "Under $2,500",
           "Carvera Air Desktop CNC by MAKERA"
         ],
         [
-          "Around $3,197.00",
+          "Under $3,200",
           "Carvera Air Desktop CNC with 4th Axis & PCB Kit"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Genmitsu 3020-PRO Ultra CNC Router Machine is aimed at buyers prioritizing 710w spindle, 6500-30000 rpm, 7.3 nm torque." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Genmitsu 3020-PRO Ultra CNC Router Machine is aimed at buyers prioritizing 710w spindle, 6500-30000 rpm, 7.3 nm torque." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desktop-cnc-machines","title":"Best Desktop CNC Machines in 2026"},{"href":"/guide/best-desktop-cnc-mills","title":"Best Desktop CNC Mills in 2026"},{"href":"/guide/best-cutter-desktop-cnc-machines","title":"Best Cutter Desktop CNC Machines in 2026"}];

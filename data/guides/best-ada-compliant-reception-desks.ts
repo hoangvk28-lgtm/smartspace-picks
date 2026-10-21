@@ -129,20 +129,20 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $169.99",
+          "Under $170",
           "Tribesigns Reception Desk with Counter"
         ],
         [
-          "Around $949.99",
+          "Under $950",
           "Romig Marque Curved ADA-Compliant Reception Station"
         ],
         [
-          "Around $949.99",
+          "Under $950",
           "Romig Marque Curved ADA-Compliant Reception Station"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -190,7 +190,7 @@ export const faq = [
     "a": "Not by itself. A lowered shelf needs to meet the specific height, knee clearance, and approach requirements in current DOJ standards; a shelf that's simply lower than the main counter without meeting those exact specifications does not automatically satisfy ADA requirements."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "Romig Marque Curved ADA-Compliant Reception Station is aimed at buyers prioritizing 21.5\" deep work surface, 42\"w x 32\"h interior kneespace." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Romig Marque Curved ADA-Compliant Reception Station is aimed at buyers prioritizing 21.5\" deep work surface, 42\"w x 32\"h interior kneespace." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks-for-hospital","title":"best-reception-desks-for-hospital"},{"href":"/guide/best-reception-desks","title":"8 Best Reception Desks in 2026"},{"href":"/guide/best-reception-desks-for-medical","title":"best-reception-desks-for-medical"}];

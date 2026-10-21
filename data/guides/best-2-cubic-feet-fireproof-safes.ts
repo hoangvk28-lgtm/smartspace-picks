@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "2.0 Cub Large Fireproof Safes for Home Use, Digital Security Safe Box Fireproof Waterproof and is built around fire safe box for home, positioning it for 2 cubic feet buyers specifically.\n\nALL STEEL STRUCTURE & THICKENED DOOR is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 2 cubic feet, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["FIRE SAFE BOX FOR HOME","ALL STEEL STRUCTURE & THICKENED DOOR","ALARM SYSTEM & ANCHORING DESIGN"],
     pros: ["FIRE SAFE BOX FOR HOME, confirmed directly in the listing's own spec details","ALL STEEL STRUCTURE & THICKENED DOOR, confirmed directly in the listing's own spec details","ALARM SYSTEM & ANCHORING DESIGN, confirmed directly in the listing's own spec details"],
-    cons: ["At $99.99, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $100, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 2 cubic feet",
   }
 
@@ -178,32 +178,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $99.99",
+          "Under $100",
           "2.0 Cub Large Fireproof Safes for Home Use"
         ],
         [
-          "Around $127.48",
+          "Under $130",
           "DAYI 2.0 Cu Ft Home Safe with Fireproof/Waterproof Bag"
         ],
         [
-          "Around $350.25",
+          "Under $400",
           "Master Lock 1.2 Cu Ft Premium 2-Hour Fireproof Safe"
         ],
         [
-          "Around $489.99",
+          "Under $500",
           "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe"
         ],
         [
-          "Around $562.22",
+          "Under $600",
           "Master Lock 2.0 Cu Ft Fireproof & Waterproof Safe"
         ],
         [
-          "Around $574.99",
+          "Under $600",
           "SentrySafe XX-Large 2.2 Cu Ft Floor Safe"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -251,7 +251,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", "a": "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe is aimed at buyers prioritizing 2.05 cu ft, ul 1hr at 1700 degreesf" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", "a": "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe is aimed at buyers prioritizing 2.05 cu ft, ul 1hr at 1700 degreesf" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-2-cu-ft-fireproof-safes","title":"Best 2 Cu ft Fireproof Safes in 2026"},{"href":"/guide/best-4-cu-ft-fireproof-safes","title":"Best 4 Cu ft Fireproof Safes in 2026"},{"href":"/guide/best-3-cu-ft-fireproof-safes","title":"Best 3 Cu ft Fireproof Safes in 2026"}];

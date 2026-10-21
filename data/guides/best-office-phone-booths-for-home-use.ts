@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "office phone booths for home use";
 export const introParagraphs = [
   "A true phone booth implies a smaller, standing-only, call-focused structure, often without a desk. We reviewed every verified listing in this niche and found none that match that format, all nine products are described as full seated pods with desks or work surfaces, not standing-only call booths.",
-  "Rather than mislabel a seated pod as a phone booth, we're covering the two most compact seated options as the closest available alternative and being explicit about this category gap, if a genuine standing-only phone booth is a hard requirement, it was not found as a verified Amazon listing in this research pass.",
+  "Rather than mislabel a seated pod as a phone booth, we're covering the two most compact seated options as the closest available alternative and being explicit about this category gap, if a genuine standing-only phone booth is a hard requirement, it was not found as a verified Amazon listing in this research pass."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -53,7 +53,7 @@ export const products: GuideProduct[] = [
     pros: ["Explicit 1-2 person occupancy range disclosed in the title", "Exact exterior dimensions disclosed (W55 x D48 x H92in)", "Mid-range price relative to the rest of this pool", "No star rating or review count to independently verify against the marketing copy"],
     cons: ["No star rating or review count available from Amazon", "No formal STC/NRC sound-isolation data disclosed", "No ventilation specs disclosed for two-occupant use"],
     bestFor: "Buyers wanting the smallest seated call-focused alternative with room for an occasional second person.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -61,7 +61,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Standing-only format checked and confirmed absent", description: "Reviewed all nine verified listings in this niche specifically for a standing-only, deskless phone booth format and found none, this guide discloses that gap rather than mislabeling a seated pod." },
   { title: "Closest seated alternatives selected transparently", description: "Selected the two most compact seated pods as the closest available substitute, explicitly framed as an alternative rather than a genuine match to phone-booth expectations." },
   { title: "Call-specific acoustic priorities considered", description: "Weighted single-occupant privacy for calls, though noted that mic pickup quality is not addressed in any listing and can't be verified from listing data." },
-  { title: "Verified listing data only", description: "Used only prices, dimensions, and features actually printed in each Amazon listing, no invented ratings or review counts." },
+  { title: "Verified listing data only", description: "Used only prices, dimensions, and features actually printed in each Amazon listing, no invented ratings or review counts." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -188,11 +188,11 @@ export const faq: FaqItem[] = [
   { q: "Is there a standing-only phone booth available on Amazon?", a: "We did not find one in this research pass, all nine verified listings in this office pod niche are full seated pods with a desk or work surface." },
   { q: "What's the closest alternative to a phone booth in this niche?", a: "The most compact seated single-occupant pods, we feature the two smallest verified options as the closest practical substitute." },
   { q: "Will call audio be clear inside one of these pods?", a: "It's not specified in any listing, no product discloses acoustic treatment aimed specifically at mic pickup, test this after delivery within your return window if it's critical." },
-  { q: "Do I need a desk if I'm only using the pod for calls?", a: "Not necessarily, but every verified listing in this niche includes one, there's currently no deskless option available." },
+  { q: "Do I need a desk if I'm only using the pod for calls?", a: "Not necessarily, but every verified listing in this niche includes one, there's currently no deskless option available." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-one-person-office-pods", title: "Best One-Person Office Pods (2026)" },
   { href: "/guide/best-mini-portable-offices", title: "Best Mini Portable Offices (2026)" },
-  { href: "/guide/best-small-office-pods", title: "Best Small Office Pods (2026)" },
+  { href: "/guide/best-small-office-pods", title: "Best Small Office Pods (2026)" }
 ];

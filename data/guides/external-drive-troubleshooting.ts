@@ -12,7 +12,7 @@ export const externalDriveTroubleshootingGuide: Guide = {
     "external hard drive not detected fix",
     "external ssd slow transfer fix",
     "external drive disconnecting randomly",
-    "external drive not recognized fix",
+    "external drive not recognized fix"
   ],
   heroImage: "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const externalDriveTroubleshootingGuide: Guide = {
     "external-ssd-vs-hdd",
     "usb4-nvme-enclosure-explained",
     "thunderbolt-vs-usb-c-explained",
-    "backup-strategy-3-2-1-rule-explained",
+    "backup-strategy-3-2-1-rule-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const externalDriveTroubleshootingGuide: Guide = {
       question: "Should I run a check disk or repair utility on a malfunctioning drive?",
       answer:
         "For minor file system errors, built-in check disk utilities can help, but if you suspect a hardware failure or the data is critical and unrecoverable elsewhere, consider backing up what's accessible first or consulting data recovery options before running repair tools that could worsen data loss.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const externalDriveTroubleshootingGuide: Guide = {
     {
       heading: "Handling File Access Errors Carefully to Avoid Data Loss",
       body: `If an external drive is detected but files can't be accessed, or the drive shows error messages when browsing its contents, resist the urge to immediately run aggressive repair or reformatting tools, since these can potentially worsen data loss if the underlying issue is more serious than simple file system corruption. Back up whatever remains accessible first if possible, and consider whether the situation warrants a more cautious diagnostic approach before applying fixes that modify the drive's data structure.`,
-    },
+    }
   ],
 };

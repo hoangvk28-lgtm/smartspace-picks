@@ -193,36 +193,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $27.99",
+          "Under $30",
           "GAOMON S620 Graphics Drawing Tablet"
         ],
         [
-          "Around $27.99",
+          "Under $30",
           "HUION Inspiroy H640P 6x4 inch Drawing Tablet 8192 Pen Pressure"
         ],
         [
-          "Around $38.99",
+          "Under $40",
           "UGEE M708 Drawing Tablet"
         ],
         [
-          "Around $39.99",
+          "Under $40",
           "UGEE M708 V2 Drawing Tablet"
         ],
         [
-          "Around $41.79",
+          "Under $45",
           "HUION Inspiroy H1060P Graphics Drawing Tablet"
         ],
         [
-          "Around $42.99",
+          "Under $45",
           "GAOMON M10K Drawing Tablet"
         ],
         [
-          "Around $50.99",
+          "Under $60",
           "GAOMON WH851 Bluetooth Graphics Drawing Tablet"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -270,7 +270,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "UGEE M708 V2 Drawing Tablet is aimed at buyers prioritizing 10x6.25in area, 8192 pressure levels." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "UGEE M708 V2 Drawing Tablet is aimed at buyers prioritizing 10x6.25in area, 8192 pressure levels." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets-for-mobile","title":"Best Drawing Tablets for Mobile in 2026"},{"href":"/guide/best-drawing-tablets-for-phone","title":"Best Drawing Tablets for Phone in 2026"},{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"}];

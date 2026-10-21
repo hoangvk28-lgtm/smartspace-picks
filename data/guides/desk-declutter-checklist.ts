@@ -12,7 +12,7 @@ export const deskDeclutterChecklistGuide: Guide = {
     "how to declutter my desk",
     "desk organization checklist",
     "steps to clean up desk setup",
-    "desk clutter reset guide",
+    "desk clutter reset guide"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskDeclutterChecklistGuide: Guide = {
     "desk-organizer-types-explained",
     "cable-management-types-explained",
     "under-desk-storage-options-explained",
-    "pegboard-desk-organization-explained",
+    "pegboard-desk-organization-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskDeclutterChecklistGuide: Guide = {
       question: "What's a common mistake people make when decluttering a desk?",
       answer:
         "Buying new organizational products before actually decluttering is a common mistake, since organizing clutter you don't actually need just results in neatly organized clutter, remove unnecessary items first, then address genuine organization needs for what remains.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ export const deskDeclutterChecklistGuide: Guide = {
     {
       heading: "Why Buying Organizers Before Decluttering Backfires",
       body: `It's tempting to address desk clutter by buying new organizational products, drawer trays, caddies, cable clips, before actually reducing the volume of items themselves, but this approach often just results in a more neatly arranged version of the same clutter rather than genuinely less of it. Removing unnecessary items first, then addressing organization needs for what actually remains, produces a more sustainable and genuinely decluttered result than organizing around an unreduced volume of stuff.`,
-    },
+    }
   ],
 };

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desktop whiteboard with markers included";
 export const introParagraphs = [
   "Most desktop whiteboard listings on Amazon don't clearly disclose whether markers are bundled with the board in their title, even though many whiteboards ship with at least one marker. Rather than assume every board in our broader research pool includes markers, we only credit a pick as genuinely marker-bundled where the listing title explicitly says so, and in this research pass, only one product met that bar.",
-  "If marker inclusion is a priority for your purchase, the safest approach is to check the specific listing's images and full product description, not just the title, since bundled accessories are sometimes shown in photos or detailed further down the page even when the title doesn't mention them.",
+  "If marker inclusion is a priority for your purchase, the safest approach is to check the specific listing's images and full product description, not just the title, since bundled accessories are sometimes shown in photos or detailed further down the page even when the title doesn't mention them."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "5 min";
@@ -36,7 +36,7 @@ export const products: GuideProduct[] = [
     pros: ["Explicitly states 5 markers included, not an assumption", "Genuine glass surface for ghosting resistance", "Low price relative to the bundled marker count", "Ready to use immediately without a separate marker purchase"],
     cons: ["Compact 8x6 size limits writing capacity to single reminders", "No stand mentioned in the listing", "Only one product met our marker-bundling disclosure bar in this research pass"],
     bestFor: "Buyers who specifically want a whiteboard with markers explicitly confirmed as included, not assumed.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -44,7 +44,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required explicit marker mention in the listing title", description: "Only credited a product as marker-bundled where the title states it directly, rather than assuming inclusion because many whiteboards commonly ship with one." },
   { title: "Reviewed the broader whiteboard pool for marker disclosure", description: "Checked every desktop whiteboard listing in our research pool and found only one that explicitly discloses marker bundling in its title." },
   { title: "Avoided inferring accessories from product category norms", description: "Did not assume markers were included on other picks just because whiteboards in general often ship with one, since that isn't a reliable per-listing guarantee." },
-  { title: "Recommended a verification step for buyers", description: "Advised checking listing images and the full product description, not just the title, since some sellers disclose bundled accessories further down the page." },
+  { title: "Recommended a verification step for buyers", description: "Advised checking listing images and the full product description, not just the title, since some sellers disclose bundled accessories further down the page." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -64,7 +64,7 @@ export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "A Multi-Pack of Markers as a Reliable Fallback",
     note: "Buying a standard multi-pack of fine-tip dry erase markers separately guarantees consistent quality regardless of whether your chosen whiteboard happens to bundle any, a reliable fallback either way.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -72,7 +72,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   { criterion: "Check listing images and full description, not just the title", explanation: "Some sellers show bundled accessories in photos or describe them further down the page even when the title doesn't mention markers. Check listing images full. Listing images full description is the kind of detail that separates a confident purchase from a guessing game, especially since marketing copy tends to gloss over it. Compare the stated figure for listing images full description across two or three similar listings side by side before trusting any single seller's number at face value." },
   { criterion: "Budget separately for markers if inclusion isn't confirmed", explanation: "Dry erase markers are cheap and widely available, so it's often simpler to buy them separately than to assume a board includes them. Two otherwise similar listings can diverge sharply on budget separately markers inclusion, and that's usually invisible until you dig past the headline bullet points. Search the listing's Q&A and recent reviews for real mentions of budget separately markers inclusion, since that's often where the honest, unfiltered answer actually shows up." },
   { criterion: "Weigh marker count against your actual need", explanation: "Five bundled markers, as with our one confirmed pick, is more than most single-desk users need immediately, useful as spares over time. Marketing copy rarely calls out marker count against actual directly, so treating it as a given based on the product category alone is a common and avoidable mistake. Cross-check marker count against actual against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out." },
-  { criterion: "Check whether bundled markers are the same fine-tip quality you'd buy separately", explanation: "A bundled marker included purely to enable a marketing claim can be lower quality than a dedicated dry-erase marker you'd choose yourself, check reviews for marker quality specifically. This matters in practice because two products that look nearly identical in photos and headline specs can differ exactly on whether bundled markers are, and that gap is usually what separates a good fit from a return. Scan the full product description and Q&A section on the listing for specifics on whether bundled markers are, since it's often left out of the main bullet points entirely." },
+  { criterion: "Check whether bundled markers are the same fine-tip quality you'd buy separately", explanation: "A bundled marker included purely to enable a marketing claim can be lower quality than a dedicated dry-erase marker you'd choose yourself, check reviews for marker quality specifically. This matters in practice because two products that look nearly identical in photos and headline specs can differ exactly on whether bundled markers are, and that gap is usually what separates a good fit from a return. Scan the full product description and Q&A section on the listing for specifics on whether bundled markers are, since it's often left out of the main bullet points entirely." }
 ];
 
 export const faq: FaqItem[] = [
@@ -81,11 +81,11 @@ export const faq: FaqItem[] = [
   { q: "Why does this guide only have one product?", a: "We only include a product as \"with markers\" when the listing explicitly confirms it. In this research pass, only one desktop whiteboard listing met that bar." },
   { q: "Is it cheaper to buy a whiteboard with markers bundled?", a: "Sometimes, but dry erase markers are inexpensive on their own, so don't pay a large premium for bundled markers if the board itself is a better fit for your needs unbundled." },
   { q: "Do bundled markers usually work well, or are they low quality filler?", a: "Quality varies, check reviews specifically for marker performance, since some bundles include basic markers primarily to support a marketing claim rather than genuinely useful writing tools." },
-  { q: "Should marker inclusion be my top priority when choosing a whiteboard?", a: "Generally no, prioritize the board's surface quality, size, and mounting first, since markers are a minor, easily replaced cost compared to the board itself." },
+  { q: "Should marker inclusion be my top priority when choosing a whiteboard?", a: "Generally no, prioritize the board's surface quality, size, and mounting first, since markers are a minor, easily replaced cost compared to the board itself." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-desktop-whiteboards", title: "Best Mini Desktop Whiteboards (2026)" },
   { href: "/guide/best-glass-desktop-whiteboards", title: "Best Glass Desktop Whiteboards (2026)" },
-  { href: "/guide/best-desktop-whiteboards", title: "Best Desktop Whiteboards (2026)" },
+  { href: "/guide/best-desktop-whiteboards", title: "Best Desktop Whiteboards (2026)" }
 ];

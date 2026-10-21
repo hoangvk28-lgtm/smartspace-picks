@@ -193,36 +193,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $132.90",
+          "Under $140",
           "UGEE UE12 11.6 inch Drawing Tablet with Screen"
         ],
         [
-          "Around $149.99",
+          "Under $150",
           "GAOMON PD1161 Drawing Tablet with Screen"
         ],
         [
-          "Around $209.99",
+          "Under $250",
           "HUION Kamvas 13 (Gen 3) Drawing Tablet with Screen 16K Pressure PenTech 4.0"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "XPPen Artist 13.3 Pro V2 Drawing Tablet with Screen"
         ],
         [
-          "Around $299.00",
+          "Under $300",
           "HUION Kamvas Pro 16 V2 Drawing Tablet"
         ],
         [
-          "Around $499.99",
+          "Under $500",
           "XPPen Artist Pro 16 Gen2"
         ],
         [
-          "Around $699.95",
+          "Under $700",
           "Wacom Cintiq 16"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -270,7 +270,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "GAOMON PD1161 Drawing Tablet with Screen is aimed at buyers prioritizing 11.6in fhd ips, 72% ntsc gamut." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "GAOMON PD1161 Drawing Tablet with Screen is aimed at buyers prioritizing 11.6in fhd ips, 72% ntsc gamut." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-16-inch-drawing-tablets","title":"Best 16-Inch Drawing Tablets in 2026"},{"href":"/guide/best-24-inch-drawing-tablets","title":"Best 24-Inch Drawing Tablets in 2026"},{"href":"/guide/best-22-inch-drawing-tablets","title":"Best 22-Inch Drawing Tablets in 2026"}];

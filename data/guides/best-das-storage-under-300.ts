@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Established-brand hardware RAID engineering", "QNAP TR-004 4 Bay USB Type-C DAS with Hardware RAID"],
         ["The fastest possible speed for video editing", "TERRAMASTER D4 SSD NVMe Enclosure, 40Gbps"],
-        ["Reliable independent per-bay controllers", "SABRENT 4-Bay USB-C 10Gbps Hard Drive Enclosure"],
+        ["Reliable independent per-bay controllers", "SABRENT 4-Bay USB-C 10Gbps Hard Drive Enclosure"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["$207-$219", "SABRENT 4-Bay ($206.99), TERRAMASTER NVMe ($212.49), or QNAP TR-004 ($219.00)"],
-        ["Under $250", "SABRENT 5-Bay ($249.99)"],
+        ["$207-$219", "SABRENT 4-Bay (under $250), TERRAMASTER NVMe (under $250), or QNAP TR-004 (under $250)"],
+        ["Under $250", "SABRENT 5-Bay (under $250)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "HDD Capacity vs NVMe Speed",
     cards: [
       { label: "HDD-Based (QNAP, both SABRENT picks)", text: "Higher total capacity per dollar, better suited to bulk storage, backups, and media libraries where speed matters less than raw space." },
-      { label: "NVMe-Based (TERRAMASTER D4 SSD)", text: "Dramatically faster speeds ideal for active video editing or large file workflows, at a lower total capacity ceiling than HDD-based options." },
+      { label: "NVMe-Based (TERRAMASTER D4 SSD)", text: "Dramatically faster speeds ideal for active video editing or large file workflows, at a lower total capacity ceiling than HDD-based options." }
     ],
     note: "If your priority is archiving large amounts of data affordably, an HDD-based enclosure delivers more capacity per dollar. If you're actively editing large files and need speed, the NVMe enclosure is worth the capacity tradeoff.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your RAID needs", "Recommended pick"],
       rows: [
         ["Genuine hardware RAID from an established brand", "QNAP TR-004 4 Bay USB Type-C DAS"],
-        ["No RAID needed, individual disk access is fine", "TERRAMASTER NVMe, SABRENT 4-Bay, or SABRENT 5-Bay"],
+        ["No RAID needed, individual disk access is fine", "TERRAMASTER NVMe, SABRENT 4-Bay, or SABRENT 5-Bay"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Existing QNAP NAS Owners Specifically",
     cards: [
       { label: "Look for", text: "A DAS enclosure specifically designed to integrate with and expand your existing NAS ecosystem, rather than a generic standalone enclosure." },
-      { label: "In this comparison", text: "The QNAP TR-004 is specifically engineered to expand the capacity of an existing QNAP NAS or serve as dedicated NAS backup storage." },
+      { label: "In this comparison", text: "The QNAP TR-004 is specifically engineered to expand the capacity of an existing QNAP NAS or serve as dedicated NAS backup storage." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You need maximum total capacity plus daisy-chain expansion, where the SABRENT 5-Bay pick delivers up to 100TB and the ability to add more storage later." },
-      { label: "Save if", text: "A reliable 4-bay enclosure with independent controllers covers your needs, where the SABRENT 4-Bay pick delivers this at the lowest price in this comparison." },
+      { label: "Save if", text: "A reliable 4-bay enclosure with independent controllers covers your needs, where the SABRENT 4-Bay pick delivers this at the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

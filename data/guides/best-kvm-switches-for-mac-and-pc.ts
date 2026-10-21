@@ -5,7 +5,7 @@ export const metaDescription = "5 KVM switches for Mac and PC we evaluated, with
 export const mainKeyword = "kvm switch for mac and pc";
 export const introParagraphs = [
   "Keyboard layout differences between macOS and Windows can cause the Command and Alt/Option keys to map incorrectly through some KVM switches, worth checking reviews specifically from Mac-and-PC mixed setups for reports on keyboard mapping behavior before assuming any switch handles this translation correctly.",
-  "Mac's external display resolution scaling behaves differently than Windows, worth confirming EDID emulation works correctly across both operating systems rather than assuming a switch tested primarily on Windows performs identically when switched to a Mac.",
+  "Mac's external display resolution scaling behaves differently than Windows, worth confirming EDID emulation works correctly across both operating systems rather than assuming a switch tested primarily on Windows performs identically when switched to a Mac."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     badge: "Best KVM Switch for Mac and PC Overall",
     name: "UGREEN HDMI KVM Switch 1 Monitor 2 Computers, 8K@60Hz, Aluminum",
     price: "$64.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41K5Wvne7oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFFCPL26?tag=deskfinds0d-20",
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Monitor Pick for Mac and PC",
     name: "UGREEN HDMI KVM Switch 2 Monitors 2 Computers 4K@60Hz, with 4 USB 3.0 Ports",
     price: "$69.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41ZrB2w7oOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXF66SWR?tag=deskfinds0d-20",
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     badge: "Best Multi-Monitor Pick for Mac and PC",
     name: "UGREEN 8K@60Hz HDMI Displayport KVM Switch 3 Monitors 2 Computers, Aluminum",
     price: "$92.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41r-g4mzwpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G34NJ11Y?tag=deskfinds0d-20",
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick for Mac and PC",
     name: "USB3.0 KVM Switch 2 Port HDMI, 4K@60Hz KVM Switch 1 Monitors 2 Computers with 3 USB3.0 Ports",
     price: "$32.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41uSOQO2ILL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFVBK4XQ?tag=deskfinds0d-20",
@@ -89,7 +89,7 @@ export const products: GuideProduct[] = [
     badge: "Best Ultra-Budget Pick for Mac and PC",
     name: "Hearvo USB 3.0 HDMI KVM Switch for 2 Computers 1 Monitor, 4K@60Hz, S7232H",
     price: "$26.23",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41ll9M3dnWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5D4FK1H?tag=deskfinds0d-20",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Keyboard mapping behavior flagged for cross-platform verification", description: "Flagged that keyboard layout differences between macOS and Windows can cause key mapping issues, encouraging Mac-and-PC-specific review verification rather than assuming universal compatibility." },
   { title: "EDID emulation checked across both operating systems", description: "Checked whether EDID emulation is documented to work correctly across both macOS and Windows, since Mac's display scaling behaves differently than Windows." },
   { title: "Connector type flexibility valued for mixed-platform setups", description: "Valued switches offering both HDMI and DisplayPort connectivity for buyers whose Mac and PC use different preferred connector types." },
-  { title: "Brand reputation across both platforms considered", description: "Considered manufacturer reputation across both Mac and PC accessory categories as a reasonable, though not definitive, cross-platform compatibility signal." },
+  { title: "Brand reputation across both platforms considered", description: "Considered manufacturer reputation across both Mac and PC accessory categories as a reasonable, though not definitive, cross-platform compatibility signal." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -227,11 +227,11 @@ export const faq: FaqItem[] = [
   { q: "Do I need different cables for my Mac and PC on the same switch?", a: "It depends on your devices' connector types, a switch supporting both HDMI and DisplayPort helps if they differ." },
   { q: "Is a budget KVM switch reliable enough for a Mac-and-PC setup?", a: "For basic switching, yes, but verify keyboard mapping and EDID behavior through current reviews regardless of price." },
   { "q": "What's the single best pick to come out of this comparison?", a: "Buyers wanting a reliable, high-resolution-ceiling switch with reasonable cross-platform confidence" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting the most affordable simple Mac-and-PC KVM switch At $26.23, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting the most affordable simple Mac-and-PC KVM switch At under $30, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-kvm-switches-for-mac", title: "Best KVM Switches for Mac (2026)" },
   { href: "/guide/best-kvm-switches-for-a-laptop-and-desktop", title: "Best KVM Switches for a Laptop and Desktop (2026)" },
-  { href: "/guide/best-hdmi-kvm-switches", title: "Best HDMI KVM Switches (2026)" },
+  { href: "/guide/best-hdmi-kvm-switches", title: "Best HDMI KVM Switches (2026)" }
 ];

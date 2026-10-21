@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The widest DPI range and longest cable", "Perixx PERIMICE-513 Wired Ergonomic Vertical Mouse"],
         ["Reliable wireless with power-saving and longer warranty", "Anker 2.4G Wireless Ergonomic Vertical Mouse"],
         ["The simplest, cheapest wired option", "KUNSI Wired Ergonomic Vertical Mouse"],
-        ["Wireless freedom at the lowest price", "KUNSI Wireless Ergonomic Vertical Mouse"],
+        ["Wireless freedom at the lowest price", "KUNSI Wireless Ergonomic Vertical Mouse"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $10", "KUNSI Wired ($9.99) or KUNSI Wireless ($9.99)"],
-        ["Under $19", "Perixx PERIMICE-513 ($18.99)"],
-        ["Under $20", "Anker 2.4G ($19.98)"],
+        ["Under $10", "KUNSI Wired (under $10) or KUNSI Wireless (under $10)"],
+        ["Under $19", "Perixx PERIMICE-513 (under $20)"],
+        ["Under $20", "Anker 2.4G (under $20)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Wired vs Wireless at This Price",
     cards: [
       { label: "Wired (Perixx, KUNSI Wired)", text: "No battery concerns and no wireless dropout risk, at the cost of desk cable management." },
-      { label: "Wireless (Anker, KUNSI Wireless)", text: "Frees up desk space from cables but requires AAA batteries and occasional battery swaps." },
+      { label: "Wireless (Anker, KUNSI Wireless)", text: "Frees up desk space from cables but requires AAA batteries and occasional battery swaps." }
     ],
     note: "If cable clutter bothers you, a wireless pick like the Anker or KUNSI Wireless frees up desk space. If you'd rather avoid battery management entirely, a wired pick removes that concern.",
   },
@@ -137,7 +137,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your precision needs", "Recommended pick"],
       rows: [
         ["Maximum DPI range for varied tasks", "Perixx PERIMICE-513 (up to 6400)"],
-        ["Standard office DPI range", "Anker, KUNSI Wired, or KUNSI Wireless (up to 1600)"],
+        ["Standard office DPI range", "Anker, KUNSI Wired, or KUNSI Wireless (up to 1600)"]
       ],
     },
   },
@@ -145,16 +145,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a First-Time Vertical Mouse User Specifically",
     cards: [
       { label: "Look for", text: "The lowest-risk price point to try the ergonomic shape before committing to a pricier model, since adjustment takes 1-2 weeks regardless of price." },
-      { label: "In this comparison", text: "Either KUNSI pick, wired or wireless, lets you try the vertical mouse format for under $10 before investing more." },
+      { label: "In this comparison", text: "Either KUNSI pick, wired or wireless, lets you try the vertical mouse format for under $10 before investing more." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want the widest DPI range or a longer warranty, where the Perixx or Anker picks each deliver a genuine upgrade over the $9.99 KUNSI options." },
-      { label: "Save if", text: "You just want to try the vertical mouse format at minimal cost, where either KUNSI pick covers that for under $10." },
+      { label: "Spend more if", text: "You want the widest DPI range or a longer warranty, where the Perixx or Anker picks each deliver a genuine upgrade over the under $10 KUNSI options." },
+      { label: "Save if", text: "You just want to try the vertical mouse format at minimal cost, where either KUNSI pick covers that for under $10." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

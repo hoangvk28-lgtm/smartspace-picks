@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41wIe7KK-mL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H4H1SNMY?tag=deskfinds0d-20",
-    description: "This is Sandisk's newer 1TB model in this comparison, rated at up to 1000MB/s with a stated 2-meter drop protection figure, combining an established brand name with genuinely current specs rather than an older model still on shelves. At roughly $20 less than the SSK 1TB pick below, it undercuts a similarly specced competitor while keeping Sandisk's longer public track record.\n\nThe listing frames itself partly around AI-generated content storage, reflecting current buyer needs, but the core value proposition is the same as any 1TB SSD: fast, no-moving-parts storage in a pocket-sized body. Compared to the older Sandisk model at $182.90 also available in this price range, this new model offers the same or better specs for less, making the older listing worth avoiding if this newer one is in stock.\n\nBest for buyers who want a 1TB drive from an established brand at the best available price within that brand's own current lineup.",
+    description: "This is Sandisk's newer 1TB model in this comparison, rated at up to 1000MB/s with a stated 2-meter drop protection figure, combining an established brand name with genuinely current specs rather than an older model still on shelves. At roughly $20 less than the SSK 1TB pick below, it undercuts a similarly specced competitor while keeping Sandisk's longer public track record.\n\nThe listing frames itself partly around AI-generated content storage, reflecting current buyer needs, but the core value proposition is the same as any 1TB SSD: fast, no-moving-parts storage in a pocket-sized body. Compared to the older Sandisk model at under $190 also available in this price range, this new model offers the same or better specs for less, making the older listing worth avoiding if this newer one is in stock.\n\nBest for buyers who want a 1TB drive from an established brand at the best available price within that brand's own current lineup.",
     specs: ["1TB capacity, up to 1000MB/s read", "2-meter drop protection, no moving parts", "USB-C ready, pocket-sized design"],
     pros: ["Established Sandisk brand at a lower price than the SSK alternative", "Newer model than an older, pricier Sandisk 1TB listing", "Stated 2-meter drop protection figure"],
     cons: ["Slightly slower rated speed than the SSK and Lexar 1TB picks", "No documented S.M.A.R.T. or TRIM support unlike the SSK pick"],
@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["An established brand at the best price", "Sandisk 1TB Portable SSD, New Model"],
         ["The fastest documented speed with health monitoring", "SSK Portable SSD 1TB"],
-        ["Built-in encryption software", "Lexar ES3 1TB Portable SSD"],
+        ["Built-in encryption software", "Lexar ES3 1TB Portable SSD"]
       ],
     },
   },
@@ -116,9 +116,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["$155-$165", "Sandisk 1TB Portable SSD, New Model ($159.99)"],
-        ["$165-$175", "SSK Portable SSD 1TB ($169.99)"],
-        ["$175-$185", "Lexar ES3 1TB Portable SSD ($179.99)"],
+        ["$155-$165", "Sandisk 1TB Portable SSD, New Model (under $160)"],
+        ["$165-$175", "SSK Portable SSD 1TB (under $170)"],
+        ["$175-$185", "Lexar ES3 1TB Portable SSD (under $180)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "New Model vs Old Model From the Same Brand",
     cards: [
       { label: "New Sandisk 1TB Model", text: "Faster at 1000MB/s and $23 cheaper than the older Sandisk 1TB listing also available in this price range. There's no scenario where the old model is the better pick at full price." },
-      { label: "Old Sandisk 1TB Model", text: "Slower at 800MB/s and pricier, kept in this comparison only to flag the trap of accidentally buying the older, worse-value listing when both appear in search results." },
+      { label: "Old Sandisk 1TB Model", text: "Slower at 800MB/s and pricier, kept in this comparison only to flag the trap of accidentally buying the older, worse-value listing when both appear in search results." }
     ],
     note: "Always check the model name and stated speed carefully when a brand has two similarly named listings, since the newer one isn't always priced higher.",
   },
@@ -136,7 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Feature priority", "Recommended pick"],
       rows: [
         ["Encryption software for sensitive files", "Lexar ES3 1TB Portable SSD"],
-        ["Health monitoring for long-term reliability tracking", "SSK Portable SSD 1TB"],
+        ["Health monitoring for long-term reliability tracking", "SSK Portable SSD 1TB"]
       ],
     },
   },
@@ -144,16 +144,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For iPhone Video Work Specifically",
     cards: [
       { label: "Look for", text: "Explicit ProRes or 4K video capture support named in the listing, and confirmation of which iPhone models are supported, since older iPhones aren't always compatible." },
-      { label: "In this comparison", text: "The SSK Portable SSD 1TB explicitly names 4K60Hz ProRes support, while the Lexar ES3 1TB Portable SSD confirms iPhone 17 compatibility but excludes iPhone 14 and older." },
+      { label: "In this comparison", text: "The SSK Portable SSD 1TB explicitly names 4K60Hz ProRes support, while the Lexar ES3 1TB Portable SSD confirms iPhone 17 compatibility but excludes iPhone 14 and older." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You specifically want the Lexar ES3 1TB Portable SSD's built-in encryption software for sensitive files, a feature none of the other picks in this comparison offer." },
-      { label: "Save if", text: "You just need reliable 1TB storage without extra software features, where the Sandisk 1TB Portable SSD, New Model covers the need at the lowest price in this comparison." },
+      { label: "Save if", text: "You just need reliable 1TB storage without extra software features, where the Sandisk 1TB Portable SSD, New Model covers the need at the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

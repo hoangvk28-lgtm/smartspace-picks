@@ -5,7 +5,7 @@ export const metaDescription = "8 shredders we evaluated for auto-feed searches,
 export const mainKeyword = "auto-feed paper shredder";
 export const introParagraphs = [
   "Auto-feed hopper capacity is not the same as continuous duty cycle. A shredder with a 100-120 sheet auto-feed hopper still has a thermal run-time limit, typically 30-40 minutes, and loading a full hopper of mixed-weight paper can hit that limit mid-batch. Of the 8 picks below, only 3 are genuine auto-feed hopper models; the rest are proven manual-feed shredders that surface in these searches due to general popularity, we call out the difference directly.",
-  "Auto-feed mechanisms also struggle with mixed paper thickness in the same batch, sensors calibrated for standard 20 lb paper can misfeed or skip pages when cardstock or sticky notes are mixed in, a real-world batch composition issue worth planning around.",
+  "Auto-feed mechanisms also struggle with mixed paper thickness in the same batch, sensors calibrated for standard 20 lb paper can misfeed or skip pages when cardstock or sticky notes are mixed in, a real-world batch composition issue worth planning around."
 ];
 export const lastUpdated = "2026-07-28";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Genuine Auto-Feed, Largest Hopper",
     name: "Bonsaii 120-Sheet Autofeed Micro-Cut 30-Min Run Heavy Duty Paper Shredder",
     price: "$179.99",
-    rating: "4.3 stars from 1,048 Amazon ratings",
-    reviews: "1,048 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31lBbbWrCsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSJ3K6T3?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Genuine Auto-Feed",
     name: "Bonsaii 100-Sheet Auto Feed Micro-Cut Paper Shredder Heavy Duty",
     price: "$126.99",
-    rating: "4.3 stars from 1,629 Amazon ratings",
-    reviews: "1,629 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31VvTJMBXPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DG2MGVMV?tag=deskfinds0d-20",
     description:
@@ -59,12 +59,12 @@ export const products: GuideProduct[] = [
     badge: "Quietest Genuine Auto-Feed",
     name: "QUIETLEMON 100-Sheet Auto Feed Paper Shredder, 40 Min Non-Stop",
     price: "$123.49",
-    rating: "3.8 stars from 137 Amazon ratings",
-    reviews: "137 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31+FGUUD5bL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GFD6JYH1?tag=deskfinds0d-20",
     description:
-      "The third and final genuine auto-feed hopper in this guide, with a longer 40-minute continuous run time than the two Bonsaii picks above, plus an explicit under-63dB quiet rating that's genuinely useful for a shared office or home during a call. Its 4.5-gallon bin auto-shuts-off once pulled out, a real safety feature.\n\nThe lowest rating in this guide (3.8 stars) reflects a smaller, less-established listing, weigh that against the genuinely longer run time and quieter operation before choosing this over the more established Bonsaii picks.\n\nA genuine advantage here is that explicit quiet operation rating (<63dB). The tradeoff is that lowest rating in this guide.",
+      "The third and final genuine auto-feed hopper in this guide, with a longer 40-minute continuous run time than the two Bonsaii picks above, plus an explicit under-63dB quiet rating that's genuinely useful for a shared office or home during a call. Its 4.5-gallon bin auto-shuts-off once pulled out, a real safety feature.\n\nA genuine advantage here is that explicit quiet operation rating (<63dB). The tradeoff is that lowest rating in this guide.",
     specs: ["100-sheet auto-feed hopper, 6-sheet manual", "P-4 cross-cut, <63dB noise", "40 min auto continuous run", "4.5-gallon bin, auto-shutoff on removal"],
     pros: ["Longest continuous run time of the genuine auto-feed picks", "Explicit quiet operation rating (<63dB)", "Auto-shutoff safety when bin is removed", "2-year warranty"],
     cons: ["Lowest rating in this guide", "Smallest review base among the auto-feed picks", "Manual feed capacity (6 sheets) is the lowest here"],
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Manual-Feed, Not Auto-Feed",
     name: "Aurora AU1210MA Professional Grade High Security 12-Sheet Micro-Cut Shredder",
     price: "$135.78",
-    rating: "4.7 stars from 9,126 Amazon ratings",
-    reviews: "9,126 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/413GY12YKjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CX4DZ4Z?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Manual-Feed, Not Auto-Feed",
     name: "Bonsaii 18-Sheet Cross-Cut 60-Min Run Heavy Duty Paper Shredder",
     price: "$179.99",
-    rating: "4.6 stars from 10,748 Amazon ratings",
-    reviews: "10,748 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41FCXr1akDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00IOFD08C?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Compact Manual-Feed Alternative",
     name: "Bonsaii 12-Sheet Cross Cut Paper Shredder, 5.5 Gal Home Office Heavy Duty",
     price: "$55.24",
-    rating: "4.5 stars from 8,974 Amazon ratings",
-    reviews: "8,974 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31H0gGU7jHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09N991KVT?tag=deskfinds0d-20",
     description:
@@ -127,8 +127,8 @@ export const products: GuideProduct[] = [
     badge: "Longer Manual Run Time Alternative",
     name: "Bonsaii 12-Sheet Cross Cut Heavy Duty Paper Shredder for Home Office",
     price: "$79.99",
-    rating: "4.5 stars from 1,685 Amazon ratings",
-    reviews: "1,685 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/310qS+3q87L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5XPJ524?tag=deskfinds0d-20",
     description:
@@ -144,8 +144,8 @@ export const products: GuideProduct[] = [
     badge: "Highest Manual Capacity Alternative",
     name: "BONSEN 14-Sheet Cross Cut Heavy Duty Paper Shredder for Home Office",
     price: "$84.99",
-    rating: "4.1 stars from 1,061 Amazon ratings",
-    reviews: "1,061 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LSE9gHSWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DTKBX3D9?tag=deskfinds0d-20",
     description:
@@ -154,14 +154,14 @@ export const products: GuideProduct[] = [
     pros: ["Highest manual per-pass capacity among the non-hopper picks", "Long 20-minute continuous run time", "5.3-gallon bin on casters", "ETL listed"],
     cons: ["Not an auto-feed hopper, still requires manual feeding", "Lowest rating among the non-hopper reference picks", "Priced close to genuine auto-feed alternatives"],
     bestFor: "Buyers who want the highest manual per-pass capacity without paying for hopper automation",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine auto-feed hopper vs. manual-feed popularity in search results", description: "Verified which listings actually have an auto-feed hopper (load and walk away) versus manual-feed shredders that appear in these searches due to general popularity, only 3 of the 8 picks here are genuine auto-feed models." },
   { title: "Hopper capacity combined with duty cycle", description: "Calculated how much of a full auto-feed hopper can realistically run before hitting the thermal cooldown limit, since hopper capacity and continuous run time are separate specs that interact." },
-  { title: "Bin capacity matched to feed volume", description: "Checked whether each pick's bin size is proportional to its feed capacity, a mismatch here means frequent emptying interruptions during a long auto-feed or manual session." },
+  { title: "Bin capacity matched to feed volume", description: "Checked whether each pick's bin size is proportional to its feed capacity, a mismatch here means frequent emptying interruptions during a long auto-feed or manual session." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -294,11 +294,11 @@ export const faq: FaqItem[] = [
   { q: "Do auto-feed shredders need any special maintenance?", a: "Yes. The feed rollers accumulate paper dust over time and need periodic cleaning to maintain reliable pulling, a maintenance step that doesn't apply to manual-feed shredders." },
   { q: "Why do manual-feed shredders show up when I search for auto-feed shredders?", a: "Popular, highly-rated manual-feed shredders often rank well in general shredder searches, including auto-feed-specific ones, due to their overall popularity, not because they actually have an auto-feed hopper. Always check the specific feed mechanism in the listing." },
   { q: "Can I still feed sheets by hand into an auto-feed shredder?", a: "Most auto-feed models include a manual slot alongside the hopper, letting you hand-feed a single document or a stapled packet without loading the whole batch into the hopper tray." },
-  { q: "How many sheets can a typical auto-feed hopper hold at once?", a: "This varies significantly by model, ranging from a modest stack up to 100+ sheets on higher-capacity units, check the specific listed hopper capacity against your typical batch size before buying." },
+  { q: "How many sheets can a typical auto-feed hopper hold at once?", a: "This varies significantly by model, ranging from a modest stack up to 100+ sheets on higher-capacity units, check the specific listed hopper capacity against your typical batch size before buying." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-quiet-paper-shredders", title: "Best Quiet Paper Shredders (2026)" },
   { href: "/guide/best-jam-proof-paper-shredders", title: "Best Jam-Proof Paper Shredders (2026)" },
-  { href: "/guide/best-long-run-paper-shredders", title: "Best Long-Run Paper Shredders (2026)" },
+  { href: "/guide/best-long-run-paper-shredders", title: "Best Long-Run Paper Shredders (2026)" }
 ];

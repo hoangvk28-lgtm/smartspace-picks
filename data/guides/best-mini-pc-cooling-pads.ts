@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini PC cooling pad";
 export const introParagraphs = [
   "Before comparing products, it's worth being direct: a purpose-built, flat 'Mini PC cooling pad' is not really a distinct product category. When we researched this term, nearly every result was a laptop cooling pad, a flat platform with several small fans meant to sit under a 12 to 17 inch laptop, not a product engineered around a Mini PC's specific vent layout.",
-  "That doesn't mean these products are useless for a Mini PC. A laptop cooling pad is still a flat, elevated, fan-equipped platform, and a Mini PC also sits flat on a desk, so the same airflow mechanism can apply if the pad's fans line up with your Mini PC's actual intake. This guide covers the strongest laptop cooling pads for that repurposed use, with the disclosure stated plainly rather than implied. If you want something actually engineered for a Mini PC chassis, our Best Mini PC Cooling Stands guide covers device-specific options instead.",
+  "That doesn't mean these products are useless for a Mini PC. A laptop cooling pad is still a flat, elevated, fan-equipped platform, and a Mini PC also sits flat on a desk, so the same airflow mechanism can apply if the pad's fans line up with your Mini PC's actual intake. This guide covers the strongest laptop cooling pads for that repurposed use, with the disclosure stated plainly rather than implied. If you want something actually engineered for a Mini PC chassis, our Best Mini PC Cooling Stands guide covers device-specific options instead."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "7 min";
@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     reviews: "14,944",
     imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01469DJLM?tag=deskfinds0d-20",
-    description: "This is a laptop cooling pad, not a Mini PC product, built for 12 to 17 inch laptops with 5 fans and 6 adjustable height settings. A Mini PC can sit on the flat surface the same way a laptop does, and with over 14,900 ratings it's the most reviewed option in this list.\n\nIt earns the top spot in this comparison over llano V12 Gaming Laptop Cooling Pad for one main reason. Largest review base of any pick in this guide. On price, it comes in below llano V12 Gaming Laptop Cooling Pad, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Adjustable fan count for noise versus airflow control. On the other side, Larger footprint than a Mini PC actually needs. That's the main tradeoff to weigh against everything above.",
+    description: "This is a laptop cooling pad, not a Mini PC product, built for 12 to 17 inch laptops with 5 fans and 6 adjustable height settings.\n\nIt earns the top spot in this comparison over llano V12 Gaming Laptop Cooling Pad for one main reason. Largest review base of any pick in this guide. On price, it comes in below llano V12 Gaming Laptop Cooling Pad, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Adjustable fan count for noise versus airflow control. On the other side, Larger footprint than a Mini PC actually needs. That's the main tradeoff to weigh against everything above.",
     specs: ["5 fans (1 large 4.72in, 4 small 2.76in) with blue LEDs","6 adjustable height settings","Dual USB hub built in","Designed for 12-17 inch laptops"],
     pros: ["Largest review base of any pick in this guide","Adjustable fan count for noise versus airflow control","Built-in USB hub adds connectivity","6 height settings for flexible elevation"],
     cons: ["Not engineered around any Mini PC's specific vent layout","Designed and marketed for laptops, not Mini PCs","Larger footprint than a Mini PC actually needs"],
@@ -75,7 +75,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Category honesty first", description: "We evaluated whether each product was actually engineered for Mini PCs or is a laptop product being repurposed, and disclosed that distinction clearly rather than implying purpose-built compatibility." },
   { title: "Fan coverage and control", description: "We compared fan count, adjustability, and surface area, since these determine how much of a flat platform's airflow could plausibly reach a Mini PC's intake." },
   { title: "Value versus stated performance", description: "We weighed price against stated cooling claims and review volume, since none of these products offer Mini PC-specific verification." },
-  { title: "Practical fit for a Mini PC", description: "We considered footprint, height adjustability, and whether a Mini PC would sit stably on the platform without sliding." },
+  { title: "Practical fit for a Mini PC", description: "We considered footprint, height adjustability, and whether a Mini PC would sit stably on the platform without sliding." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -196,11 +196,11 @@ export const faq: FaqItem[] = [
   { q: "Will a laptop cooling pad actually cool my Mini PC?", a: "It can, if the pad's fans happen to align with your Mini PC's intake vents. Since these products weren't designed around any specific Mini PC's vent layout, the benefit is less predictable than a purpose-built stand." },
   { q: "Should I just buy a Mini PC cooling stand instead?", a: "If your Mini PC brand has a dedicated stand available, like the ones in our stands guide for Intel NUC, Mac mini, or Beelink devices, that option is more likely to align with your device's actual vents." },
   { q: "Why does this guide only have 3 products?", a: "We would rather cover fewer genuinely useful options than pad the list with laptop products that have no meaningful differentiation for Mini PC use. These three represent the clearest budget, mid-range, and premium choices among what's actually available." },
-  { q: "Is the price difference between these three products worth it?", a: "The main differences are fan count, stated airflow performance, and extras like dust filtration or RGB lighting, not Mini PC-specific compatibility, since none of these are built for that. Choose based on budget and whether those extras matter to you." },
+  { q: "Is the price difference between these three products worth it?", a: "The main differences are fan count, stated airflow performance, and extras like dust filtration or RGB lighting, not Mini PC-specific compatibility, since none of these are built for that. Choose based on budget and whether those extras matter to you." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pc-cooling-stands", title: "Best Mini PC Cooling Stands (2026)" },
   { href: "/guide/best-mini-pc-cooling-fans", title: "Best Mini PC Cooling Fans (2026)" },
-  { href: "/guide/best-passive-mini-pc-cooling-stands", title: "Best Passive Mini PC Cooling Stands (2026)" },
+  { href: "/guide/best-passive-mini-pc-cooling-stands", title: "Best Passive Mini PC Cooling Stands (2026)" }
 ];

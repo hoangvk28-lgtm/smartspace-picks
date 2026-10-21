@@ -5,7 +5,7 @@ export const metaDescription = "We compared Thunderbolt 5 gaming and eGPU docks 
 export const mainKeyword = "best thunderbolt 5 dock for gaming";
 export const introParagraphs = [
   "Thunderbolt 5 gaming docks range from all-in-one docking stations with built-in storage to dedicated eGPU enclosures that require you to separately supply your own graphics card and power supply, and knowing which category you're buying into matters for your total real cost.",
-  "We compared this lineup on whether the GPU and power supply are included, maximum supported graphics card size, and cooling design, since one listing specifically states the enclosure alone costs $629.99 with the graphics card sold entirely separately."
+  "We compared this lineup on whether the GPU and power supply are included, maximum supported graphics card size, and cooling design, since one listing specifically states the enclosure alone costs under $650 with the graphics card sold entirely separately."
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "9 min";
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["An immediately usable, complete gaming dock", "Razer Thunderbolt 5 Dock Chroma"],
         ["The lowest price for a genuine eGPU enclosure", "PELADN S-3 eGPU Dock"],
         ["Private, offline local AI model hosting alongside gaming", "Plugable Thunderbolt 5 AI eGPU Enclosure"],
-        ["A modular, upgrade-friendly enclosure for the widest host range", "Razer Core X V2"],
+        ["A modular, upgrade-friendly enclosure for the widest host range", "Razer Core X V2"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $280", "PELADN S-3 eGPU Dock ($279.99)"],
-        ["Under $380", "Razer Thunderbolt 5 Dock Chroma ($379.99)"],
-        ["Under $600", "Razer Core X V2 ($595.46)"],
-        ["Under $630", "Plugable Thunderbolt 5 AI eGPU Enclosure ($629.99)"],
+        ["Under $280", "PELADN S-3 eGPU Dock (under $300)"],
+        ["Under $380", "Razer Thunderbolt 5 Dock Chroma (under $400)"],
+        ["Under $600", "Razer Core X V2 (under $600)"],
+        ["Under $630", "Plugable Thunderbolt 5 AI eGPU Enclosure (under $650)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Complete Docking Station vs Bare eGPU Enclosure",
     cards: [
       { label: "Complete docking station (Razer Chroma)", text: "Works immediately out of the box with built-in storage and full connectivity, no separate GPU purchase required." },
-      { label: "Bare eGPU enclosure (PELADN, Plugable, Razer Core X V2)", text: "Requires you to separately purchase and install a graphics card and, in most cases, a power supply, adding meaningfully to the total real cost." },
+      { label: "Bare eGPU enclosure (PELADN, Plugable, Razer Core X V2)", text: "Requires you to separately purchase and install a graphics card and, in most cases, a power supply, adding meaningfully to the total real cost." }
     ],
     note: "If you want to add real desktop-class GPU power to your laptop, budget for a separate GPU and PSU purchase alongside any of the three eGPU enclosures. If you just want a great all-around gaming dock with storage, the Razer Chroma works immediately.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your primary workload", "Recommended pick"],
       rows: [
         ["Competitive gaming and general productivity", "Razer Thunderbolt 5 Dock Chroma"],
-        ["Local, private AI model hosting", "Plugable Thunderbolt 5 AI eGPU Enclosure"],
+        ["Local, private AI model hosting", "Plugable Thunderbolt 5 AI eGPU Enclosure"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Gaming Handheld Owners Specifically",
     cards: [
       { label: "Look for", text: "An eGPU enclosure that explicitly confirms compatibility with USB4 gaming handhelds, not just Thunderbolt laptops, since not every enclosure supports this connection type." },
-      { label: "In this comparison", text: "The Razer Core X V2 specifically confirms compatibility with USB4 gaming handhelds alongside Thunderbolt 4 and 5 laptops." },
+      { label: "In this comparison", text: "The Razer Core X V2 specifically confirms compatibility with USB4 gaming handhelds alongside Thunderbolt 4 and 5 laptops." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You specifically want to run local AI models privately with complete data isolation alongside gaming, where the Plugable AI eGPU Enclosure justifies its $629.99 price." },
-      { label: "Save if", text: "You want the lowest price for a genuine eGPU enclosure with broad GPU compatibility, where the PELADN S-3 delivers that for $279.99." },
+      { label: "Spend more if", text: "You specifically want to run local AI models privately with complete data isolation alongside gaming, where the Plugable AI eGPU Enclosure justifies its under $650 price." },
+      { label: "Save if", text: "You want the lowest price for a genuine eGPU enclosure with broad GPU compatibility, where the PELADN S-3 delivers that for under $300." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

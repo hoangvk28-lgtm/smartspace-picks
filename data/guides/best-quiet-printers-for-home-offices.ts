@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "quiet printer for home office";
 export const introParagraphs = [
   "Manufacturers rarely publish standardized decibel ratings for printers, and when a number does appear, the testing conditions behind it usually aren't disclosed, so a simple loud versus quiet label without real dB context can mislead more than it helps. What's more useful is understanding the noise-generating mechanism itself, an inkjet's carriage motor produces a steadier, lower hum while it prints, while a laser printer's fuser warm-up and drum rotation can create louder short bursts of mechanical noise even though the printer sits silent between jobs.",
-  "Below are 7 printers we researched with that mechanism in mind, mixing inkjet, ink-tank, and laser models for a home office where video calls or a shared quiet space make print noise a real consideration, not just a specification to skim.",
+  "Below are 7 printers we researched with that mechanism in mind, mixing inkjet, ink-tank, and laser models for a home office where video calls or a shared quiet space make print noise a real consideration, not just a specification to skim."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Carriage-motor print mechanism",
       "3-month Instant Ink trial included",
       "Simple wireless setup flow",
-      "Compact, budget-friendly design",
+      "Compact, budget-friendly design"
     ],
     pros: [
       "Steadier, lower-pitched hum than a laser printer's burst noise",
       "Affordable price for the mechanism type",
       "Simple setup and daily operation",
-      "Full print, scan, copy feature set",
+      "Full print, scan, copy feature set"
     ],
     cons: [
       "Slower per-page speed than a laser printer",
       "No automatic document feeder",
-      "Ink can dry out with infrequent use",
+      "Ink can dry out with infrequent use"
     ],
     bestFor: "A home office desk near video calls that wants a lower, steadier operating hum",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Carriage-motor print mechanism",
       "Mobile printing support",
       "Built-in fax (legacy feature)",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     pros: [
       "Steadier inkjet hum versus laser burst noise",
       "Automatic document feeder for quieter multi-page scanning",
       "Affordable price",
-      "Guided mobile setup",
+      "Guided mobile setup"
     ],
     cons: [
       "Cartridge-based ink costs more at higher volume",
       "Slower per-page speed than laser",
-      "Not built for sustained high-volume printing",
+      "Not built for sustained high-volume printing"
     ],
     bestFor: "A quiet home office that regularly scans multi-page documents",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "1.8-inch color display",
       "Carriage-motor print mechanism",
       "Includes Refresh Subscription trial",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     pros: [
       "Steadier inkjet operating hum",
       "Automatic duplex printing built in",
       "Clear color display for status messages",
-      "Full print, scan, copy feature set",
+      "Full print, scan, copy feature set"
     ],
     cons: [
       "Higher price than the basic inkjet picks in this list",
       "Cartridge-based ink costs more at higher volume",
-      "Slower per-page speed than laser",
+      "Slower per-page speed than laser"
     ],
     bestFor: "A quiet home office that wants automatic duplex without a laser printer's burst noise",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Carriage-motor print mechanism",
       "Scan and copy built in",
       "Wireless connectivity",
-      "Refillable ink bottles instead of cartridges",
+      "Refillable ink bottles instead of cartridges"
     ],
     pros: [
       "Steadier inkjet-style operating hum",
       "Fewer interruptions from cartridge swaps",
       "Full print, scan, copy feature set",
-      "Lower ongoing ink cost",
+      "Lower ongoing ink cost"
     ],
     cons: [
       "Highest upfront price of the inkjet picks in this list",
       "Ink refills take longer than a cartridge swap",
-      "Slower per-page speed than laser",
+      "Slower per-page speed than laser"
     ],
     bestFor: "A quiet home office that prints regularly and wants fewer maintenance interruptions",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Automatic document feeder",
       "Carriage-motor print mechanism",
       "Ethernet and wireless connectivity",
-      "Scan, copy, and fax built in",
+      "Scan, copy, and fax built in"
     ],
     pros: [
       "Steadier inkjet-style operating hum",
       "Automatic document feeder for quieter multi-page scanning",
       "Ethernet option for stable networking",
-      "Lower ongoing ink cost",
+      "Lower ongoing ink cost"
     ],
     cons: [
       "Highest price in this list alongside the ET-2800",
       "Ink refills take longer than a cartridge swap",
-      "Slower per-page speed than laser",
+      "Slower per-page speed than laser"
     ],
     bestFor: "A shared quiet office that scans regularly and wants a wired networking option",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Wireless and mobile printing",
       "Fuser and drum print mechanism",
       "Works with Alexa voice commands",
-      "Compact multi-function design",
+      "Compact multi-function design"
     ],
     pros: [
       "Shorter total noisy duration per job once warmed up",
       "Silent between print jobs",
       "Full copy, scan, and duplex feature set",
-      "Lower cost per page for text documents",
+      "Lower cost per page for text documents"
     ],
     cons: [
       "Louder burst noise during fuser warm-up than a steady inkjet hum",
       "Higher upfront price than the inkjet picks in this list",
-      "No color printing",
+      "No color printing"
     ],
     bestFor: "A home office that prints occasionally and prefers a short loud burst over a longer steady hum",
   },
@@ -249,21 +249,21 @@ export const products: GuideProduct[] = [
       "19 PPM rated output",
       "Fuser and drum print mechanism",
       "250-sheet paper tray",
-      "Wireless and mobile printing",
+      "Wireless and mobile printing"
     ],
     pros: [
       "Short, contained burst noise pattern rather than a sustained hum",
       "Only color laser pick in this list",
       "Large paper tray reduces reload interruptions",
-      "Automatic duplex printing",
+      "Automatic duplex printing"
     ],
     cons: [
       "Most expensive pick in this list",
       "Louder momentary burst during fuser warm-up",
-      "No scan or copy functions",
+      "No scan or copy functions"
     ],
     bestFor: "A home office that occasionally needs color documents and prefers laser's burst-then-silence pattern",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -291,7 +291,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value relative to mechanism trade-offs",
     description: "Balanced price against the printer's noise mechanism and feature set, rather than assuming a higher price automatically means a quieter experience.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -430,12 +430,12 @@ export const faq: FaqItem[] = [
   {
     q: "Where should I place a printer to reduce noise during video calls?",
     a: "Placement matters more than small spec differences between similarly priced printers. Any wireless model in this list can sit on a shelf, in a closet, or in another room, moving it away from your immediate desk and microphone reduces perceived noise more than choosing between two comparable models.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-home-offices", title: "Best Printers for Home Offices (2026)" },
   { href: "/guide/best-printers-for-remote-workers", title: "Best Printers for Remote Workers (2026)" },
   { href: "/guide/best-budget-laser-printers", title: "Best Budget Laser Printers (2026)" },
-  { href: "/guide/best-easy-to-use-printers", title: "Best Easy-to-Use Printers (2026)" },
+  { href: "/guide/best-easy-to-use-printers", title: "Best Easy-to-Use Printers (2026)" }
 ];

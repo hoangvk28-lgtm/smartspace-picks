@@ -163,7 +163,7 @@ export default async function BestComputerDeskWithHutchPage() {
     about: [
       { "@type": "Thing", name: "Computer Desk with Hutch" },
       { "@type": "Thing", name: "Home Office Desk" },
-      { "@type": "Thing", name: "Farmhouse Desk" },
+      { "@type": "Thing", name: "Farmhouse Desk" }
     ],
   };
 
@@ -173,7 +173,7 @@ export default async function BestComputerDeskWithHutchPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Computer Desks with Hutch", item: `${SITE_URL}/guide/best-computer-desk-with-hutch` },
+      { "@type": "ListItem", position: 3, name: "Best Computer Desks with Hutch", item: `${SITE_URL}/guide/best-computer-desk-with-hutch` }
     ],
   };
 

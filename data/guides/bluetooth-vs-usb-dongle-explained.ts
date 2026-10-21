@@ -12,7 +12,7 @@ export const bluetoothVsUsbDongleExplainedGuide: Guide = {
     "bluetooth vs 2.4ghz dongle mouse",
     "wireless dongle latency comparison",
     "bluetooth pairing multiple devices",
-    "usb dongle port usage",
+    "usb dongle port usage"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const bluetoothVsUsbDongleExplainedGuide: Guide = {
     "fully-wireless-desk-setup-explained",
     "wired-vs-wireless-mouse",
     "kvm-switch-explained",
-    "usb-c-docking-station-ports-chart",
+    "usb-c-docking-station-ports-chart"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const bluetoothVsUsbDongleExplainedGuide: Guide = {
       question: "Should I lose a dongle, is Bluetooth a reasonable backup connection method?",
       answer:
         "Many peripherals support both connection types, letting you switch to Bluetooth if a dongle is lost or a port becomes unavailable, checking whether your specific device offers this dual connectivity provides useful flexibility and a backup option.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const bluetoothVsUsbDongleExplainedGuide: Guide = {
     {
       heading: "Why Port Availability Should Factor Into the Decision for Laptop Users Specifically",
       body: `For a laptop with a limited number of USB ports, particularly newer thin laptops that may only offer one or two USB-C ports total, a dongle permanently occupying one of these limited ports represents a genuine practical constraint, competing directly with other devices needing that same port, docking stations, external drives, other peripherals, Bluetooth's port-free connection avoids this tradeoff entirely, making it a more practical default specifically for port-constrained laptop setups, even if a dongle's latency advantage would otherwise be preferred for a specific task.`,
-    },
+    }
   ],
 };

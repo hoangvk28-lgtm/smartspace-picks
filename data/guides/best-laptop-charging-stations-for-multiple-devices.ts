@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop charging stations for multiple devices";
 export const introParagraphs = [
   "We need to be direct about our original candidate pool here: one ASIN was not accessible through the Amazon product catalog at the time of research, and a second turned out to be a vertical laptop stand rather than a charging station, with no charging function documented. We're presenting the 6 verified multi-device charging stations rather than padding the list with a product that doesn't match the category.",
-  "None of these listings had an independently verified simultaneous full-load test across every port, so we flagged that gap directly rather than assuming total wattage guarantees each port's rated output under full load.",
+  "None of these listings had an independently verified simultaneous full-load test across every port, so we flagged that gap directly rather than assuming total wattage guarantees each port's rated output under full load."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
@@ -30,9 +30,9 @@ export const products: GuideProduct[] = [
     reviews: "3337",
     imageUrl: "https://m.media-amazon.com/images/I/31ol4e40VQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CT2NQ7WG?tag=deskfinds0d-20",
-    description: "Each USB-C port independently supports up to 100W when two are in simultaneous use, genuinely fast: Anker states two 14-inch MacBook Pros reach 50% charge in just 28 minutes on this station. A compact 4.4 x 3.0 x 1.4 inch footprint, about the width of an iPhone 17 and 1.24 lbs, stays stable on a desk without taking up much room, though it's designed for a fixed desk, not travel.\n\nAnker's proprietary protection system continuously monitors temperature to protect connected devices, and the package includes a 5 ft AC power cord and a 24-month warranty. At 3,337 reviews, it's by far the most proven pick in this comparison.\n\nTwo 100W USB-C ports genuinely fast-charge MacBook Pros (50% in 28 min). That's a real strength, but weigh it against the flip side: simultaneous full-load behavior across all 6 ports not independently verified.",
+    description: "Each USB-C port independently supports up to 100W when two are in simultaneous use, genuinely fast: Anker states two 14-inch MacBook Pros reach 50% charge in just 28 minutes on this station. A compact 4.4 x 3.0 x 1.4 inch footprint, about the width of an iPhone 17 and 1.24 lbs, stays stable on a desk without taking up much room, though it's designed for a fixed desk, not travel.\n\nAnker's proprietary protection system continuously monitors temperature to protect connected devices, and the package includes a 5 ft AC power cord and a 24-month warranty.\n\nTwo 100W USB-C ports genuinely fast-charge MacBook Pros (50% in 28 min). That's a real strength, but weigh it against the flip side: simultaneous full-load behavior across all 6 ports not independently verified.",
     specs: ["200W total, 6-port GaN, up to 100W per USB-C port", "4.4x3.0x1.4 in, 1.24 lbs, desk-stable design", "24-month warranty, 5 ft power cord included"],
-    pros: ["Largest confirmed review base in this comparison at 3,337 reviews", "Two 100W USB-C ports genuinely fast-charge MacBook Pros (50% in 28 min)"],
+    pros: [ "Two 100W USB-C ports genuinely fast-charge MacBook Pros (50% in 28 min)"],
     cons: ["Simultaneous full-load behavior across all 6 ports not independently verified"],
     bestFor: "Buyers wanting the most proven multi-device charging station.",
   },
@@ -78,9 +78,9 @@ export const products: GuideProduct[] = [
     reviews: "1653",
     imageUrl: "https://m.media-amazon.com/images/I/51Oxbp7JdaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B009CFMO0S?tag=deskfinds0d-20",
-    description: "This holds a genuinely wide device mix in one dock: laptops up to 1.25 inches thick, tablets and e-readers, plus three separate phone slots, all in a 10\"L x 9\"H x 5.5\"W footprint. Vertical slots measure 1.25 inches wide specifically, worth checking against your thickest laptop before assuming a fit.\n\nIt's a patented organizer design meaning it works with your existing charging blocks and hubs rather than including a power source, keeping the price down but requiring separate cable planning. At 1,653 reviews, this is the strongest organizer-style pick for households charging more device types than just laptops.\n\nA genuine advantage here is that large confirmed review base at 1,653 reviews. The tradeoff is lower stated wattage focus than the dedicated GaN chargers.",
+    description: "This holds a genuinely wide device mix in one dock: laptops up to 1.25 inches thick, tablets and e-readers, plus three separate phone slots, all in a 10\"L x 9\"H x 5.5\"W footprint. Vertical slots measure 1.25 inches wide specifically, worth checking against your thickest laptop before assuming a fit.\n\nIt's a patented organizer design meaning it works with your existing charging blocks and hubs rather than including a power source, keeping the price down but requiring separate cable planning.\n\nThe tradeoff is lower stated wattage focus than the dedicated GaN chargers.",
     specs: ["Fits laptops up to 1.25\" thick, tablets, 3 phone slots", "10\"L x 9\"H x 5.5\"W footprint", "Power source not included, BYO chargers"],
-    pros: ["Widest device-type range in this comparison: laptops, tablets, and 3 phones in one dock", "Large confirmed review base at 1,653 reviews"],
+    pros: ["Widest device-type range in this comparison: laptops, tablets, and 3 phones in one dock"],
     cons: ["Lower stated wattage focus than the dedicated GaN chargers"],
     bestFor: "Households prioritizing organized phone and tablet charging over maximum laptop wattage.",
   },
@@ -94,9 +94,9 @@ export const products: GuideProduct[] = [
     reviews: "2862",
     imageUrl: "https://m.media-amazon.com/images/I/41R4jBez-AL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01BIARJRM?tag=deskfinds0d-20",
-    description: "A built-in cord box conceals the power strip and cables entirely inside the wooden housing, so the desk or counter on top stays visually clean rather than showing a tangle of chargers, a real usability edge for a multi-device household setup. Removable dividers across the 5-port base adjust for different device shapes, and it's specifically compatible with Chromebooks and Kindles, not just phones.\n\nAt 2,862 reviews, this has the deepest track record of any organizer-style pick in this comparison, though like the G.U.S. dock, the power source isn't included.\n\nConcealed cord box keeps the desk visually clutter-free. On the other hand, 5 ports and organizer focus, not laptop-wattage oriented. Neither should be a surprise once you know to look for it.",
+    description: "A built-in cord box conceals the power strip and cables entirely inside the wooden housing, so the desk or counter on top stays visually clean rather than showing a tangle of chargers, a real usability edge for a multi-device household setup. Removable dividers across the 5-port base adjust for different device shapes, and it's specifically compatible with Chromebooks and Kindles, not just phones.\n\nConcealed cord box keeps the desk visually clutter-free. On the other hand, 5 ports and organizer focus, not laptop-wattage oriented. Neither should be a surprise once you know to look for it.",
     specs: ["5-port base, adjustable dividers", "Concealed cord box for the power strip", "Power source not included"],
-    pros: ["Largest confirmed review base of any pick in this comparison at 2,862 reviews", "Concealed cord box keeps the desk visually clutter-free"],
+    pros: [ "Concealed cord box keeps the desk visually clutter-free"],
     cons: ["5 ports and organizer focus, not laptop-wattage oriented"],
     bestFor: "Buyers wanting a wooden organizer aesthetic over a GaN charger's technical look.",
   },
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     pros: ["Slimmer footprint than the other organizer-style picks", "Magnetic lid is a security detail neither the G.U.S. nor Prosumer's Choice pick offers"],
     cons: ["Smaller review base than the G.U.S. or Prosumer's Choice picks"],
     bestFor: "Compact desks wanting an organizer station without the larger wooden footprint.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Category mismatch excluded rather than force-fit", description: "One original candidate ASIN was a vertical laptop stand with no documented charging function. We excluded it rather than stretching the category definition to hit a target product count." },
   { title: "Inaccessible ASIN disclosed rather than fabricated", description: "One original candidate ASIN returned ItemNotAccessible from the product catalog API at research time. We excluded it and disclosed the gap rather than guessing at its data." },
   { title: "Total wattage compared against port count and price together", description: "We compared the 200W/6-port, 380W/12-port, and 750W/10-port options directly, since a higher port count at lower total wattage means less power available per device under simultaneous load." },
-  { title: "GaN chargers separated from organizer-style docks", description: "We distinguished dedicated high-wattage GaN charging blocks from organizer-style docks oriented more toward phones and tablets, since they serve different primary use cases despite both being multi-device stations." },
+  { title: "GaN chargers separated from organizer-style docks", description: "We distinguished dedicated high-wattage GaN charging blocks from organizer-style docks oriented more toward phones and tablets, since they serve different primary use cases despite both being multi-device stations." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -252,12 +252,12 @@ export const faq: FaqItem[] = [
   { q: "Why does this list have 6 products instead of 8?", a: "One original candidate ASIN was not accessible through the Amazon catalog API, and another turned out to be a laptop stand with no charging function. We excluded both rather than padding the list." },
   { q: "Which pick has the most ports?", a: "The 12 Ports Aluminum Alloy MEKIOJEO 380W Charging Station, though it has lower total wattage than the 10-port Zobirez option." },
   { q: "Is there an organizer-style option instead of a GaN charging block?", a: "Yes, the G.U.S. and Prosumer's Choice picks are organizer-style docks better suited to phones and tablets." },
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers wanting the most proven multi-device charging station." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers wanting the most proven multi-device charging station." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-multi-laptop-usb-c-charging-stations", title: "Best Multi-Laptop USB-C Charging Stations (2026)" },
   { href: "/guide/best-usb-c-laptop-charging-carts", title: "Best USB-C Laptop Charging Carts (2026)" },
   { href: "/guide/best-laptop-charging-stations-for-home", title: "Best Laptop Charging Stations for Home (2026)" },
-  { href: "https://www.standbywatts.com/guide/best-off-grid-portable-power-station", title: "Best Off-Grid Portable Power Station (StandbyWatts)" },
+  { href: "https://www.standbywatts.com/guide/best-off-grid-portable-power-station", title: "Best Off-Grid Portable Power Station (StandbyWatts)" }
 ];

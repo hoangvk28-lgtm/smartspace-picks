@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This dock's compact, durable aluminum casing is specifically designed as a mini docking station, with a stated ability to transfer a 20GB file in just 12 seconds thanks to its full 40Gbps Thunderbolt 4 bandwidth. Its 3 downstream Thunderbolt 4 ports each deliver 15W of power, letting you charge multiple connected devices simultaneously alongside the 60W upstream charging to your laptop.\n\nCompared to the Satechi and Cable Matters picks below, this one supports the widest range of display configurations in this comparison, from a single 8K@60Hz down to triple 4K displays, giving genuinely more flexibility for a travel dock that might connect to whatever monitors are available at a destination. Its included 100W power adapter means it isn't purely bus-powered, but the adapter itself is dock-specific rather than a bulky universal brick.\n\nBest for buyers who want the widest display flexibility and Thunderbolt 4 certification in a compact travel dock.",
     specs: ["40Gbps Thunderbolt 4, 3x TB4 downstream ports", "Single 8K, single 4K@120Hz, or triple 4K display support", "85W total Power Delivery, 100W adapter included"],
     pros: ["Widest display configuration flexibility in this comparison", "Thunderbolt 4 certified with backward Thunderbolt 3 compatibility", "3 downstream ports each deliver 15W for connected devices"],
-    cons: ["Requires its own included power adapter, not purely bus-powered", "Highest price in this comparison at $169.99"],
+    cons: ["Requires its own included power adapter, not purely bus-powered", "Highest price in this comparison at under $170"],
     bestFor: "buyers who want the widest display flexibility in a compact travel dock",
   },
   {
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B09P1GBKYL?tag=deskfinds0d-20",
     description: "This hub is genuinely bus-powered, requiring no separate power adapter to pack, since it draws power directly through its USB4 connection while still supporting up to 100W pass-through charging and 5K@60Hz display output. Its included audio jack port clip is specifically designed to integrate with a MacBook Pro 14 or 16-inch for a secure, no-dangle fit while traveling.\n\nCompared to the EDiMAX pick above, this one trades multi-display support for genuine portability and the lowest price in this comparison, with Gigabit Ethernet and a 3.5mm audio jack rounding out its essential port set. Its 2-year limited warranty against defects backs the compact aluminum build.\n\nBest for buyers who want a genuinely bus-powered hub with no separate power adapter to pack.",
     specs: ["Bus-powered, no separate adapter needed", "Up to 100W charging, 5K@60Hz display", "Gigabit Ethernet, 2-year warranty"],
-    pros: ["Genuinely bus-powered with nothing extra to pack", "Lowest price in this comparison at $48.99", "Includes a MacBook Pro-specific audio jack clip for secure travel fit"],
+    pros: ["Genuinely bus-powered with nothing extra to pack", "Lowest price in this comparison at under $50", "Includes a MacBook Pro-specific audio jack clip for secure travel fit"],
     cons: ["Single display output only, no multi-monitor support", "Dual display not supported on Apple M1 Macs, per the manufacturer's own note"],
     bestFor: "buyers who want a genuinely bus-powered hub with nothing extra to pack",
   },
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The widest display flexibility while traveling", "EDiMAX 5-in-1 Thunderbolt 4 Mini Slim Dock"],
         ["A genuinely bus-powered hub with nothing extra to pack", "Satechi Pro Hub Mini USB-C Multiport Adapter"],
         ["Dual HDMI output in a still-portable size", "Cable Matters 8-in-1 Portable USB4 Hub"],
-        ["Legacy VGA compatibility for older displays", "Lenovo USB-C Mini Dock, 7-in-1"],
+        ["Legacy VGA compatibility for older displays", "Lenovo USB-C Mini Dock, 7-in-1"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $50", "Satechi Pro Hub Mini ($48.99) or Lenovo USB-C Mini Dock ($49.99)"],
-        ["Under $75", "Cable Matters 8-in-1 ($70.99)"],
-        ["Under $170", "EDiMAX 5-in-1 Mini Slim Dock ($169.99)"],
+        ["Under $50", "Satechi Pro Hub Mini (under $50) or Lenovo USB-C Mini Dock (under $50)"],
+        ["Under $75", "Cable Matters 8-in-1 (under $80)"],
+        ["Under $170", "EDiMAX 5-in-1 Mini Slim Dock (under $170)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Bus-Powered vs Dock-Powered Travel Docks",
     cards: [
       { label: "Bus-powered (Satechi Pro Hub Mini)", text: "Draws power directly through the USB4 connection with nothing extra to pack, trading multi-display support for maximum portability." },
-      { label: "Dock-powered with included adapter (EDiMAX)", text: "Requires packing its own dock-specific power adapter but unlocks significantly more display flexibility and downstream charging." },
+      { label: "Dock-powered with included adapter (EDiMAX)", text: "Requires packing its own dock-specific power adapter but unlocks significantly more display flexibility and downstream charging." }
     ],
     note: "If minimizing what you pack matters most, the Satechi's bus-powered design is the lightest option. If you need to drive multiple displays at a destination, the EDiMAX's included adapter is a worthwhile tradeoff.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Single display only", "Satechi Pro Hub Mini"],
         ["Dual HDMI or legacy VGA displays", "Cable Matters 8-in-1 or Lenovo USB-C Mini Dock"],
-        ["Up to triple displays", "EDiMAX 5-in-1 Mini Slim Dock"],
+        ["Up to triple displays", "EDiMAX 5-in-1 Mini Slim Dock"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Presenting in Unfamiliar Conference Rooms Specifically",
     cards: [
       { label: "Look for", text: "A dock with a legacy VGA port in addition to HDMI, since older conference rooms and classrooms sometimes still only offer VGA input for projectors." },
-      { label: "In this comparison", text: "The Lenovo USB-C Mini Dock specifically includes a VGA port alongside HDMI, directly covering this legacy compatibility gap." },
+      { label: "In this comparison", text: "The Lenovo USB-C Mini Dock specifically includes a VGA port alongside HDMI, directly covering this legacy compatibility gap." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want the widest possible display flexibility while traveling, where the EDiMAX pick's triple-display support justifies its $169.99 price." },
-      { label: "Save if", text: "You want a genuinely bus-powered hub with nothing extra to pack, where the Satechi Pro Hub Mini delivers that for $48.99, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You want the widest possible display flexibility while traveling, where the EDiMAX pick's triple-display support justifies its under $170 price." },
+      { label: "Save if", text: "You want a genuinely bus-powered hub with nothing extra to pack, where the Satechi Pro Hub Mini delivers that for under $50, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

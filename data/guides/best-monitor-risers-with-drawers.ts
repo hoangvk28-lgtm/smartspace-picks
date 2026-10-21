@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "monitor riser with drawer";
 export const introParagraphs = [
   "Many listings for 'monitor riser with drawer' and 'monitor stand with drawer' describe the same physical product under different search keywords, so it's worth comparing dimensions and drawer capacity directly rather than assuming the riser version is genuinely more compact. Some are a smaller tier, others are identical products with different marketing titles.",
-  "The same drawer-capacity-is-a-separate-spec caution applies at this smaller scale too, and often more so, since a more compact riser-with-drawer design may use a shallower drawer with an even lower weight rating than its full-size stand counterpart. Check the actual drawer dimensions, not just the word 'drawer' in the title.",
+  "The same drawer-capacity-is-a-separate-spec caution applies at this smaller scale too, and often more so, since a more compact riser-with-drawer design may use a shallower drawer with an even lower weight rating than its full-size stand counterpart. Check the actual drawer dimensions, not just the word 'drawer' in the title."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,14 +26,14 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Compact Riser with Drawer",
     name: "Zimilar Monitor Stand Riser with Metal Mesh Drawer, Height Adjustable",
     price: "$16.99",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "2,320 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51VaGQY7KwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B095RLRP2L?tag=deskfinds0d-20",
     description:
       "For buyers wanting a smaller footprint than a full stand-with-drawer Built with a metal platform rated to 33 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nThis is a real compact tier, not the same footprint as the full-size stands relabeled. As with any shelf in this weight class, a single heavy item centered on the platform concentrates more stress than the rating reflects, so keep that margin in mind.\n\nWorth calling out specifically: metal build appropriate for this use case. The catch is rated capacity assumes evenly distributed weight, not a single point load.",
-    specs: ["33 lbs rated capacity (evenly distributed)", "metal construction", "Priced at $16.99", "2,320 ratings on Amazon"],
-    pros: ["Solid 4.7-star rating with 2,320 ratings", "Metal build appropriate for this use case", "Reasonable price at $16.99", "A genuinely more compact riser with a metal mesh drawer and height adjustment."],
+    specs: ["33 lbs rated capacity (evenly distributed)", "metal construction", "Priced under $20"],
+    pros: [ "Metal build appropriate for this use case", "Reasonable price at under $20", "A genuinely more compact riser with a metal mesh drawer and height adjustment."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load", "Footprint reduces some usable desk depth", "Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A genuinely more compact riser with a metal mesh drawer and height adjustment.",
   },
@@ -43,14 +43,14 @@ export const products: GuideProduct[] = [
     badge: "Best Value Compact Riser with Drawer",
     name: "Zimilar 2-Pack Monitor Stand Riser with Metal Drawer, 3 Height Adjustable",
     price: "$28.99",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "1,009 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41XbNEZaVzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B097DB15ZH?tag=deskfinds0d-20",
     description:
       "For buyers wanting two compact units, useful for a dual-monitor setup at lower cost each Built with a metal platform rated to 33 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nEach unit's drawer is sized for the smaller footprint, expect less capacity than a full-size single stand's drawer. As with any shelf in this weight class, a single heavy item centered on the platform concentrates more stress than the rating reflects, so keep that margin in mind.\n\nMetal build appropriate for this use case. Set against that, rated capacity assumes evenly distributed weight, not a single point load. Both matter when comparing it to the other picks here.",
-    specs: ["33 lbs rated capacity (evenly distributed)", "metal construction", "Priced at $28.99", "1,009 ratings on Amazon"],
-    pros: ["Solid 4.7-star rating with 1,009 ratings", "Metal build appropriate for this use case", "Reasonable price at $28.99", "A 2-pack of smaller risers with metal drawers and 3 height positions."],
+    specs: ["33 lbs rated capacity (evenly distributed)", "metal construction", "Priced under $30"],
+    pros: [ "Metal build appropriate for this use case", "Reasonable price at under $30", "A 2-pack of smaller risers with metal drawers and 3 height positions."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load", "Footprint reduces some usable desk depth", "Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A 2-pack of smaller risers with metal drawers and 3 height positions.",
   },
@@ -60,14 +60,14 @@ export const products: GuideProduct[] = [
     badge: "Best Foldable Riser with Drawer",
     name: "Klearlook Foldable Height Adjustable Monitor Stand Riser with Drawer",
     price: "$29.79",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "3,294 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51925teREsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KK6RXS2?tag=deskfinds0d-20",
     description:
       "For buyers wanting a riser that can fold flat for storage or travel Built with a metal platform rated to 33 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nThe fold mechanism is a genuine differentiator from fixed stand-with-drawer designs, not just a marketing label. As with any shelf in this weight class, a single heavy item centered on the platform concentrates more stress than the rating reflects, so keep that margin in mind.\n\nA genuine advantage here is that metal build appropriate for this use case. The tradeoff is rated capacity assumes evenly distributed weight, not a single point load.",
-    specs: ["33 lbs rated capacity (evenly distributed)", "metal construction", "Priced at $29.79", "3,294 ratings on Amazon"],
-    pros: ["Solid 4.7-star rating with 3,294 ratings", "Metal build appropriate for this use case", "Reasonable price at $29.79", "A foldable, height-adjustable riser with a drawer and a built-in phone or tablet stand."],
+    specs: ["33 lbs rated capacity (evenly distributed)", "metal construction", "Priced under $30"],
+    pros: [ "Metal build appropriate for this use case", "Reasonable price at under $30", "A foldable, height-adjustable riser with a drawer and a built-in phone or tablet stand."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load", "Footprint reduces some usable desk depth", "Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A foldable, height-adjustable riser with a drawer and a built-in phone or tablet stand.",
   },
@@ -77,17 +77,17 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Compact Riser with Drawer, 2-Pack",
     name: "Canyora Monitor Stand Riser for Desk, 3 Height Adjustable, 2 Pack",
     price: "$17.99",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "143 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41NU679r93L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GDTXTCWV?tag=deskfinds0d-20",
     description:
       "For buyers wanting the lowest-cost compact option, especially for two monitors Built with a metal platform rated to 33 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nVerify the drawer's actual capacity given the smaller scale and lower price point. As with any shelf in this weight class, a single heavy item centered on the platform concentrates more stress than the rating reflects, so keep that margin in mind.\n\nMetal build appropriate for this use case. On the other hand, rated capacity assumes evenly distributed weight, not a single point load. Neither should be a surprise once you know to look for it.",
-    specs: ["33 lbs rated capacity (evenly distributed)", "metal construction", "Priced at $17.99", "143 ratings on Amazon"],
-    pros: ["Solid 4.7-star rating with 143 ratings", "Metal build appropriate for this use case", "Reasonable price at $17.99", "A 2-pack of small metal risers with height adjustment and a phone holder, priced under $18."],
+    specs: ["33 lbs rated capacity (evenly distributed)", "metal construction", "Priced under $20"],
+    pros: [ "Metal build appropriate for this use case", "Reasonable price at under $20", "A 2-pack of small metal risers with height adjustment and a phone holder, priced under $18."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load", "Footprint reduces some usable desk depth", "Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A 2-pack of small metal risers with height adjustment and a phone holder, priced under $18.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -95,7 +95,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Compact tier verified against full-size stands", description: "Compared dimensions and drawer capacity directly to determine whether each pick is a genuinely smaller tier or the same product under different keywords." },
   { title: "Drawer capacity at the smaller scale", description: "Checked whether a more compact design uses a shallower drawer with a lower weight rating than its full-size counterpart." },
   { title: "Height adjustment mechanism", description: "Noted fixed-step versus continuous adjustment, carrying forward the same ergonomic precision concern from full-size risers." },
-  { title: "Buyer feedback on fold and slide durability", description: "Weighted verified reviews on fold mechanisms and drawer slides holding up over repeated daily use." },
+  { title: "Buyer feedback on fold and slide durability", description: "Weighted verified reviews on fold mechanisms and drawer slides holding up over repeated daily use." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -222,11 +222,11 @@ export const faq: FaqItem[] = [
   { q: "Is a compact riser with drawer really smaller than a stand with drawer?", a: "Sometimes, but not always, some listings use different keywords for the same physical product. Compare actual dimensions before assuming." },
   { q: "Do compact drawers hold as much as full-size stand drawers?", a: "Usually less, a more compact design tends to use a shallower drawer with a lower weight rating." },
   { q: "Are foldable risers with drawers as sturdy as fixed ones?", a: "They can be, but the fold mechanism adds a moving joint, verified long-term reviews are the best way to check durability." },
-  { q: "Are 2-packs of compact risers good for dual monitors?", a: "Yes, for buyers wanting independent height adjustment per monitor rather than one shared wide platform." },
+  { q: "Are 2-packs of compact risers good for dual monitors?", a: "Yes, for buyers wanting independent height adjustment per monitor rather than one shared wide platform." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-monitor-stands-with-drawers", title: "Best Monitor Stands with Drawers (2026)" },
   { href: "/guide/best-monitor-risers-for-desks", title: "Best Monitor Risers for Desks (2026)" },
-  { href: "/guide/best-monitor-shelves-with-storage", title: "Best Monitor Shelves with Storage (2026)" },
+  { href: "/guide/best-monitor-shelves-with-storage", title: "Best Monitor Shelves with Storage (2026)" }
 ];

@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Comprehensive AC, Ethernet, phone, and coax protection", "Eaton Tripp Lite TLP118DBNET Home Theater Surge Protector"],
         ["Rotating outlets with the highest documented warranty", "Belkin Surge Protector, 8 Rotating & 4 Standard Outlets"],
         ["A flat plug design without data line protection", "Eaton Tripp Lite TLP808B Flat Plug Surge Protector"],
-        ["The highest joule rating at the lowest price", "ECHOGEAR ShockBlocker 8 Outlet Surge Protector"],
+        ["The highest joule rating at the lowest price", "ECHOGEAR ShockBlocker 8 Outlet Surge Protector"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $30", "ECHOGEAR ShockBlocker ($29.99)"],
-        ["Under $35", "TLP808B ($34.72)"],
-        ["Under $45", "Belkin Rotating Outlets ($44.99)"],
-        ["Under $47", "TLP118DBNET Home Theater ($46.85)"],
+        ["Under $30", "ECHOGEAR ShockBlocker (under $30)"],
+        ["Under $35", "TLP808B (under $35)"],
+        ["Under $45", "Belkin Rotating Outlets (under $45)"],
+        ["Under $47", "TLP118DBNET Home Theater (under $50)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Comprehensive Data Line Protection vs AC-Only Protection",
     cards: [
       { label: "Comprehensive (TLP118DBNET, Belkin)", text: "Protects Ethernet, phone, and/or coax lines alongside AC outlets, essential if these connections carry your internet, TV, or phone service." },
-      { label: "AC-only (TLP808B, ECHOGEAR)", text: "Focuses purely on AC outlet protection, sufficient if your setup doesn't rely on wired phone, cable, or Ethernet connections." },
+      { label: "AC-only (TLP808B, ECHOGEAR)", text: "Focuses purely on AC outlet protection, sufficient if your setup doesn't rely on wired phone, cable, or Ethernet connections." }
     ],
     note: "If your home theater or office relies on a wired internet, cable, or phone connection, the added data line protection on the TLP118DBNET or Belkin picks genuinely matters. If you're wireless-only, AC protection alone may be sufficient.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Ethernet, phone, and coax all present", "Eaton Tripp Lite TLP118DBNET"],
         ["Phone and coax, no Ethernet needed", "Belkin Surge Protector"],
-        ["No wired data lines, AC only", "TLP808B or ECHOGEAR"],
+        ["No wired data lines, AC only", "TLP808B or ECHOGEAR"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Full Home Theater Setup with Wired Internet Specifically",
     cards: [
       { label: "Look for", text: "A surge protector that specifically protects Ethernet, phone, and coax lines together, not just AC outlets alone." },
-      { label: "In this comparison", text: "The Eaton Tripp Lite TLP118DBNET is the only pick here protecting all three data line types alongside AC outlets." },
+      { label: "In this comparison", text: "The Eaton Tripp Lite TLP118DBNET is the only pick here protecting all three data line types alongside AC outlets." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You have a wired home theater setup relying on Ethernet, phone, and coax connections, where the TLP118DBNET's comprehensive line protection justifies its price at the top of this tier." },
-      { label: "Save if", text: "You want a high joule rating without data line protection, where the ECHOGEAR pick delivers 3420J for about $17 less than the TLP118DBNET." },
+      { label: "Save if", text: "You want a high joule rating without data line protection, where the ECHOGEAR pick delivers 3420J for about $17 less than the TLP118DBNET." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -178,7 +178,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Choosing Between Comprehensive Protection and a Lower Price Depends Entirely on Your Actual Wired Connection Types",
-    "explanation": "The ECHOGEAR pick at $29.99 offers a genuinely high 3420 joule rating without any data line protection, a perfectly reasonable choice if you don't have wired phone, cable, or Ethernet connections running through your setup, while the TLP118DBNET at $46.85 justifies its higher price specifically for buyers who do have these connections. Paying for comprehensive multi-line protection you'll never actually use, because your setup is entirely wireless or doesn't include a landline or cable box, means paying for capability that provides no real benefit to your specific situation. Match your surge protector's protection scope honestly to your actual wired connections rather than defaulting to the most comprehensive option available."
+    "explanation": "The ECHOGEAR pick at under $30 offers a genuinely high 3420 joule rating without any data line protection, a perfectly reasonable choice if you don't have wired phone, cable, or Ethernet connections running through your setup, while the TLP118DBNET at under $50 justifies its higher price specifically for buyers who do have these connections. Paying for comprehensive multi-line protection you'll never actually use, because your setup is entirely wireless or doesn't include a landline or cable box, means paying for capability that provides no real benefit to your specific situation. Match your surge protector's protection scope honestly to your actual wired connections rather than defaulting to the most comprehensive option available."
   }
 ];
 

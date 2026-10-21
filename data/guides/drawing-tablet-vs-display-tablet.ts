@@ -12,7 +12,7 @@ export const drawingTabletVsDisplayTabletGuide: Guide = {
     "pen tablet vs pen display",
     "wacom tablet no screen vs screen",
     "beginner drawing tablet choice",
-    "display tablet worth the cost",
+    "display tablet worth the cost"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const drawingTabletVsDisplayTabletGuide: Guide = {
     "monitor-arm-vs-monitor-stand",
     "what-size-desk-do-i-need",
     "monitor-resolution-explained",
-    "desk-mat-vs-desk-pad",
+    "desk-mat-vs-desk-pad"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const drawingTabletVsDisplayTabletGuide: Guide = {
       question: "Which type takes up more desk space?",
       answer:
         "A display tablet used alongside your existing monitor adds a second screen-sized item to your desk, a standard drawing tablet is typically more compact and can sit alongside your keyboard without requiring the same additional desk footprint.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const drawingTabletVsDisplayTabletGuide: Guide = {
     {
       heading: "Why Cost Difference Should Weigh Heavily for Beginners Specifically",
       body: `Given the substantial price gap between standard and display tablets, and given that a genuine adjustment period exists regardless of which type you choose, it's a reasonable strategy for someone new to digital art to start with a more affordable standard drawing tablet, build skill and confirm genuine ongoing interest in digital art, and consider upgrading to a display tablet later if the investment feels justified by established, continued use, rather than committing significant upfront cost to a display tablet before knowing whether digital art will become a lasting practice.`,
-    },
+    }
   ],
 };

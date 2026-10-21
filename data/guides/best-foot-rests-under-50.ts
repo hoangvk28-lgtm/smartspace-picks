@@ -5,7 +5,7 @@ export const metaDescription = "Seven under desk foot rests priced under $50 com
 export const mainKeyword = "foot rest under $50";
 export const introParagraphs = [
   "Fifty dollars gets you out of the flimsy tier: steel frames, solid wood, preset tilt angles and lifetime warranties all show up in this range. The question is which of those extras you will actually use.",
-  "The seven picks below run from $26.99 to $49.99 and include wooden, steel and plastic models. Our comparison rests on the listed facts: angle steps and ranges, platform width, frame material, weight rating and warranty. Prices are close together, so adjustability and build are what separate them."
+  "The seven picks below run from roughly $30 to $50 and include wooden, steel and plastic models. Our comparison rests on the listed facts: angle steps and ranges, platform width, frame material, weight rating and warranty. Prices are close together, so adjustability and build are what separate them."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41DFnSDRS4L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HB414X8R?tag=deskfinds0d-20",
-    "description": "HOOBRO is a wide 21.3 x 10.6 inch footrest with three set angles of 0, 12 and 24 degrees, a felt-covered surface and six EVA pads on a metal frame with a particleboard panel. The edges are rounded.\n\nAt $29.99 it is about $3 more than HUANUO but about $13 less than HOMELYSTBO, and it is the widest model here. Compared with Mount-It it holds fixed angles instead of rocking, and it offers no height steps.\n\nBest for wide-stance or larger feet that need a roomy, stable surface. The caveat is the shallow 10.6 inch depth and a particleboard panel, which will not shrug off moisture like wood or plastic.",
+    "description": "HOOBRO is a wide 21.3 x 10.6 inch footrest with three set angles of 0, 12 and 24 degrees, a felt-covered surface and six EVA pads on a metal frame with a particleboard panel. The edges are rounded.\n\nAt under $30 it is about $3 more than HUANUO but about $13 less than HOMELYSTBO, and it is the widest model here. Compared with Mount-It it holds fixed angles instead of rocking, and it offers no height steps.\n\nBest for wide-stance or larger feet that need a roomy, stable surface. The caveat is the shallow 10.6 inch depth and a particleboard panel, which will not shrug off moisture like wood or plastic.",
     "specs": [
       "21.3 x 10.6 inch platform",
       "0, 12, 24 degree angles",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/418SvzeU7NL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DSK5V6MG?tag=deskfinds0d-20",
-    "description": "HUANUO has an 18 x 13 inch massage-textured platform, three heights of 4.3, 5.5 and 6.7 inches and a tilt of minus 30 to plus 30 degrees that the listing says cannot be fixed. It arrives pre-assembled and has non-slip feet.\n\nIt is the cheapest pick at $26.99, undercutting Mount-It by $11. The trade-off is that it has no foot pedal, no stated warranty and a free-rocking tilt that you cannot lock.\n\nBest for a first footrest or a shared desk where price matters most. The caveat is that adjustments are manual, and the textured surface may feel busy under socks.",
+    "description": "HUANUO has an 18 x 13 inch massage-textured platform, three heights of 4.3, 5.5 and 6.7 inches and a tilt of minus 30 to plus 30 degrees that the listing says cannot be fixed. It arrives pre-assembled and has non-slip feet.\n\nIt is the cheapest pick at under $30, undercutting Mount-It by $11. The trade-off is that it has no foot pedal, no stated warranty and a free-rocking tilt that you cannot lock.\n\nBest for a first footrest or a shared desk where price matters most. The caveat is that adjustments are manual, and the textured surface may feel busy under socks.",
     "specs": [
       "18 x 13 inch platform",
       "3 heights, 4.3 to 6.7 inches",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41IIlf88aqL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H51GTKY1?tag=deskfinds0d-20",
-    "description": "HOMELYSTBO is a pine wood footrest with three angle positions of 12.5, 23 and 34.5 degrees. It has a non-slip EVA stepping surface and an anti-skid base for wood, tile and carpet.\n\nAt $42.99 it costs $13 more than HOOBRO, which has a similar set of angles but a metal frame. Against COREMINDED it offers three angles rather than seven and costs about $7 less.\n\nBest for people who prefer solid wood and a simple angle choice. The caveat is that the highlights give no dimensions or weight rating.",
+    "description": "HOMELYSTBO is a pine wood footrest with three angle positions of 12.5, 23 and 34.5 degrees. It has a non-slip EVA stepping surface and an anti-skid base for wood, tile and carpet.\n\nAt under $45 it costs $13 more than HOOBRO, which has a similar set of angles but a metal frame. Against COREMINDED it offers three angles rather than seven and costs about $7 less.\n\nBest for people who prefer solid wood and a simple angle choice. The caveat is that the highlights give no dimensions or weight rating.",
     "specs": [
       "Pine wood build",
       "3 angles, 12.5 to 34.5 degrees",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41wDruz6+VL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D1XMX1WX?tag=deskfinds0d-20",
-    "description": "COREMINDED is a walnut-toned footstool with 7 angle settings, solid wood and carbon steel construction, non-skid strips and anti-slip rubber pads. It ships ready to use, with no assembly.\n\nAt $49.98 it is near the top of the budget, about $7 above HOMELYSTBO, and it offers the finest angle control in this group. Against Ergonest it uses wood and steel without foam.\n\nBest for people who want to dial in angle precisely and like a wood finish. The caveat is price, and the highlights give no dimensions or weight rating.",
+    "description": "COREMINDED is a walnut-toned footstool with 7 angle settings, solid wood and carbon steel construction, non-skid strips and anti-slip rubber pads. It ships ready to use, with no assembly.\n\nAt under $50 it is near the top of the budget, about $7 above HOMELYSTBO, and it offers the finest angle control in this group. Against Ergonest it uses wood and steel without foam.\n\nBest for people who want to dial in angle precisely and like a wood finish. The caveat is price, and the highlights give no dimensions or weight rating.",
     "specs": [
       "7 angle settings",
       "Solid wood and carbon steel",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51OwCEjIMwL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0837CT43Z?tag=deskfinds0d-20",
-    "description": "ErgoFoam is an arched 2-in-1 footrest with a breathable mesh cover that wicks moisture, high-density compression-resistant foam and a flip-over design for a second mode. The maker markets it as chiropractor endorsed, which is its own claim.\n\nIt costs $45.95, about $8 more than Mount-It, and swaps adjustable height for firm foam and a mesh cover. Versus Ergonest it has no steel frame but does have the flip design.\n\nBest for people who want firm foam support that is easy to clean. The caveat is the price and the fact that the endorsement is a marketing statement.",
+    "description": "ErgoFoam is an arched 2-in-1 footrest with a breathable mesh cover that wicks moisture, high-density compression-resistant foam and a flip-over design for a second mode. The maker markets it as chiropractor endorsed, which is its own claim.\n\nIt costs under $50, about $8 more than Mount-It, and swaps adjustable height for firm foam and a mesh cover. Versus Ergonest it has no steel frame but does have the flip design.\n\nBest for people who want firm foam support that is easy to clean. The caveat is the price and the fact that the endorsement is a marketing statement.",
     "specs": [
       "Breathable mesh cover",
       "High-density foam",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31obYHeDA0L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FPPSK3L8?tag=deskfinds0d-20",
-    "description": "Ergonest combines a reinforced steel frame with high-density memory foam and a soft velour finish, with adjustable height and angle and a non-slip base. It sits at the top of the budget ceiling, so it costs more than the ErgoFoam Mesh 2-in-1 Adjustable Foot Rest. The steel frame is the reason, as it should hold its shape better than an all-foam block.\n\nAt $49.99 it is the most expensive pick, a few dollars above ErgoFoam. In return you get a steel frame under the foam, which none of the other foam options in this group offer.\n\nBest for people who want steel strength and soft memory foam in one footrest. The caveat is that the highlights give no height range, angle degrees or dimensions.",
+    "description": "Ergonest combines a reinforced steel frame with high-density memory foam and a soft velour finish, with adjustable height and angle and a non-slip base. It sits at the top of the budget ceiling, so it costs more than the ErgoFoam Mesh 2-in-1 Adjustable Foot Rest. The steel frame is the reason, as it should hold its shape better than an all-foam block.\n\nAt under $50 it is the most expensive pick, a few dollars above ErgoFoam. In return you get a steel frame under the foam, which none of the other foam options in this group offer.\n\nBest for people who want steel strength and soft memory foam in one footrest. The caveat is that the highlights give no height range, angle degrees or dimensions.",
     "specs": [
       "Reinforced steel frame",
       "Memory foam, velour finish",

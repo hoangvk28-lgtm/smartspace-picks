@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $179.99",
+          "Under $180",
           "MARBERO 237Wh Solar Generator with 60W Solar Panel Included"
         ],
         [
-          "Around $180.49",
+          "Under $190",
           "EnginStar Portable Power Station 300W with 60W Foldable Solar Panel"
         ],
         [
-          "Around $189.96",
+          "Under $190",
           "ZeroKor 300W Portable Power Station with 60W Solar Panel Included"
         ],
         [
-          "Around $218.98",
+          "Under $250",
           "BLUETTI Elite 30 V2 Portable Power Station"
         ],
         [
-          "Around $339.00",
+          "Under $350",
           "Jackery Solar Generator 300 and 40W Solar Panel"
         ],
         [
-          "Around $699.00",
+          "Under $700",
           "Jackery Solar Generator 1000 v2 and 200W Solar Panel"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", "a": "Jackery Solar Generator 1000 v2 and 200W Solar Panel is aimed at buyers prioritizing 1070wh, 1500w, includes 200w solar panel" },
+  { q: "Which pick in this comparison is the best overall choice?", "a": "Jackery Solar Generator 1000 v2 and 200W Solar Panel is aimed at buyers prioritizing 1070wh, 1500w, includes 200w solar panel" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-1000w-portable-power-stations-with-solar-panel","title":"Best 1000W Portable Power Stations With Solar Panel in 2026"},{"href":"/guide/best-2000w-portable-power-stations-with-solar-panel","title":"Best 2000W Portable Power Stations With Solar Panel in 2026"},{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"}];

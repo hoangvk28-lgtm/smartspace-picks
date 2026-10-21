@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/412V-XAgjBL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FRF3XGQ4?tag=deskfinds0d-20",
-    "description": "A 90s-style mini computer speaker with 5W near-field audio and a 1.77 inch pixel screen that shows 70+ retro clock faces, animations and text customized in the Divoom app. It also has alarms, white noise, Pomodoro timers, Bluetooth 5.3, USB audio and TF card playback.\n\nAt $59.99 it costs less than the floating dollar lamp and does more every day: it is a speaker, clock and focus tool in one. Compared with the globe below, it is useful rather than only decorative.\n\nBest for a gamer, student or tech fan who wants a desk piece with personality. The caveat is that the pixel screen customization relies on the app, so it takes some setup.",
+    "description": "A 90s-style mini computer speaker with 5W near-field audio and a 1.77 inch pixel screen that shows 70+ retro clock faces, animations and text customized in the Divoom app. It also has alarms, white noise, Pomodoro timers, Bluetooth 5.3, USB audio and TF card playback.\n\nAt under $60 it costs less than the floating dollar lamp and does more every day: it is a speaker, clock and focus tool in one. Compared with the globe below, it is useful rather than only decorative.\n\nBest for a gamer, student or tech fan who wants a desk piece with personality. The caveat is that the pixel screen customization relies on the app, so it takes some setup.",
     "specs": [
       "5W speaker, Bluetooth 5.3",
       "1.77 inch pixel screen",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31t5tGmtaSL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HCBXBHRW?tag=deskfinds0d-20",
-    "description": "A dollar-bill-shaped lamp that floats about 1.5 cm above a magnetic base, with 2 touch-switched lighting modes, warm white and cool white. The listing says it has overload protection and uses about 0.12 kWh per 24 hours.\n\nAt $69.99 it is more costly than the Divoom and does less, as it is a lamp and a conversation piece. Compared with the Poojaed globe below, it costs nearly three times as much, with a more unusual look.\n\nBest for a desk where the gadget is meant to be seen. The caveat is that it is purely decorative and the levitation mechanism needs a stable, level surface.",
+    "description": "A dollar-bill-shaped lamp that floats about 1.5 cm above a magnetic base, with 2 touch-switched lighting modes, warm white and cool white. The listing says it has overload protection and uses about 0.12 kWh per 24 hours.\n\nAt under $70 it is more costly than the Divoom and does less, as it is a lamp and a conversation piece. Compared with the Poojaed globe below, it costs nearly three times as much, with a more unusual look.\n\nBest for a desk where the gadget is meant to be seen. The caveat is that it is purely decorative and the levitation mechanism needs a stable, level surface.",
     "specs": [
       "Floats about 1.5 cm",
       "Warm and cool white modes",

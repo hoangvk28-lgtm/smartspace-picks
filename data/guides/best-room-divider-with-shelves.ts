@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "room divider with shelves";
 export const introParagraphs = [
   "A room divider with shelves has to do two jobs at once: split an open floor plan into two usable zones, and hold something worth displaying or storing on the way. That combination rules out plain folding screens and pushes buyers toward freestanding bookcases, S-shaped racks, or bamboo panels with a built-in shelf board.",
-  "Below are 7 room dividers with shelves we evaluated on stability without wall support, total capacity, and how well the design actually functions as a divider rather than a bookshelf that happens to stand in the open, ranging from a $34 pure-divider bookcase to an 83.7-inch tall unit built for high-ceiling rooms.",
+  "Below are 7 room dividers with shelves we evaluated on stability without wall support, total capacity, and how well the design actually functions as a divider rather than a bookshelf that happens to stand in the open, ranging from a $34 pure-divider bookcase to an 83.7-inch tall unit built for high-ceiling rooms."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -51,24 +51,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/416nixYaeVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07PNFY7Q1?tag=deskfinds0d-20",
     description:
-      "The VASAGLE CUSTOS is explicitly marketed as a room divider rather than a bookshelf pressed into double duty, and with over 7,500 ratings it's the best-selling pick in this list by a wide margin. Its open, five-tier frame lets light and conversation pass through while still visually breaking up a shared living space.\n\nEach shelf handles 33 lbs for a 165 lb total on a particleboard frame, and it ships with an anti-tip kit plus screw caps for a clean finish, a genuinely useful detail on a piece meant to stand in the open rather than against a wall.\n\nExplicitly designed and marketed as a room divider. That's a real strength, but weigh it against the flip side: not finished distinctly on both sides like a purpose-built divider.",
+      "Its open, five-tier frame lets light and conversation pass through while still visually breaking up a shared living space.\n\nEach shelf handles 33 lbs for a 165 lb total on a particleboard frame, and it ships with an anti-tip kit plus screw caps for a clean finish, a genuinely useful detail on a piece meant to stand in the open rather than against a wall.\n\nExplicitly designed and marketed as a room divider. That's a real strength, but weigh it against the flip side: not finished distinctly on both sides like a purpose-built divider.",
     specs: [
       "27.6\"W x 9.4\"D x 62.6\"H",
       "Particleboard construction",
       "33 lb/shelf (165 lb total)",
       "Anti-tip kit + screw caps included",
-      "Freestanding, marketed as a room divider",
+      "Freestanding, marketed as a room divider"
     ],
     pros: [
-      "Best-selling pick with 7,547 ratings",
       "Explicitly designed and marketed as a room divider",
       "Open frame lets light and sound pass through",
-      "Solid 33 lb per-shelf capacity",
+      "Solid 33 lb per-shelf capacity"
     ],
     cons: [
       "Not finished distinctly on both sides like a purpose-built divider",
       "Mid-range width may not fully divide a very large room",
-      "Particleboard shelves, not solid wood",
+      "Particleboard shelves, not solid wood"
     ],
     bestFor: "Buyers who want the most proven, best-reviewed shelf divider",
   },
@@ -89,18 +88,18 @@ export const products: GuideProduct[] = [
       "P2 MDF + metal",
       "S-shaped design, usable as divider, wine rack, or TV stand",
       "30 lb/shelf (180 lb total)",
-      "Waterproof, anti-tip kit included",
+      "Waterproof, anti-tip kit included"
     ],
     pros: [
       "Distinctive S-shaped geometric design",
       "Most versatile pick with 3 different placement options",
       "Solid 180 lb total capacity",
-      "Waterproof finish",
+      "Waterproof finish"
     ],
     cons: [
       "Narrower 14.96\" width means less shelf surface per section",
       "Unconventional shape may not suit a minimalist room",
-      "Fewer reviews than the best-selling picks here",
+      "Fewer reviews than the best-selling picks here"
     ],
     bestFor: "A divider that might later double as a wine rack or TV stand",
   },
@@ -121,18 +120,17 @@ export const products: GuideProduct[] = [
       "Engineered wood + metal",
       "S-shaped geometric divider",
       "44 lb/shelf (highest among S-shaped picks)",
-      "1-year warranty",
+      "1-year warranty"
     ],
     pros: [
       "Highest per-shelf capacity among S-shaped dividers at 44 lbs",
       "Cleanest white finish in the S-shaped group",
-      "1-year warranty with 24/7 customer service",
-      "Strong 4.6-star rating across 1,431 ratings",
+      "1-year warranty with 24/7 customer service"
     ],
     cons: [
       "Pricier than the other S-shaped picks",
       "Deeper 11.8\" footprint than the slimmer S-shaped options",
-      "White finish shows scuffs more visibly than dark tones",
+      "White finish shows scuffs more visibly than dark tones"
     ],
     bestFor: "Buyers who want the S-shaped look in a bright white finish with more per-shelf capacity",
   },
@@ -153,18 +151,17 @@ export const products: GuideProduct[] = [
       "E0-grade particle board + PVC",
       "264 lb total capacity (highest in this list)",
       "44 lb/shelf",
-      "2 anti-tip kits included",
+      "2 anti-tip kits included"
     ],
     pros: [
       "Highest total capacity in this list at 264 lbs",
       "Tallest S-shaped pick at 75 inches",
       "E0-grade low-formaldehyde board",
-      "2 anti-tip kits for extra stability",
+      "2 anti-tip kits for extra stability"
     ],
     cons: [
       "Highest price among the S-shaped picks",
-      "Small review sample (53 ratings) so far",
-      "Extra height needs more ceiling clearance to check before buying",
+      "Extra height needs more ceiling clearance to check before buying"
     ],
     bestFor: "Rooms with a real book or decor collection that need a tall, high-capacity divider",
   },
@@ -185,18 +182,18 @@ export const products: GuideProduct[] = [
       "Bamboo + wood",
       "Built-in storage shelf board",
       "Double-hinged, foldable into L/Z/straight configurations",
-      "31.9 lbs, no assembly required",
+      "31.9 lbs, no assembly required"
     ],
     pros: [
       "Only true folding screen with an integrated shelf",
       "Lightest divider in this list at 31.9 lbs",
       "No assembly required",
-      "Widest unfolded span at 96 inches",
+      "Widest unfolded span at 96 inches"
     ],
     cons: [
       "Shelf board offers far less storage than a bookcase-style divider",
       "Bamboo panels are less sturdy than a solid wood or metal frame",
-      "Foldable design can wobble more than a fixed freestanding unit",
+      "Foldable design can wobble more than a fixed freestanding unit"
     ],
     bestFor: "Buyers who want a traditional folding privacy screen with a bit of shelf storage built in",
   },
@@ -211,24 +208,22 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41qbQhDCFqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F7QRR3GS?tag=deskfinds0d-20",
     description:
-      "Tangkula packs 11 individual shelf openings into a staggered layout, the most of any pick in this list, giving you the most distinct spots to organize books, bins, or decor by category. The staggered design also breaks up the visual mass of the piece compared to uniform straight shelving.\n\nTwo anti-toppling devices are included, and \"Room Divider\" appears directly in the product's own title, a signal the manufacturer designed it with this exact use case in mind rather than as a repurposed bookshelf.\n\nWorth calling out specifically: staggered layout adds visual interest. The catch is smallest review sample in this list at 26 ratings.",
+      "Tangkula packs 11 individual shelf openings into a staggered layout, the most of any pick in this list, giving you the most distinct spots to organize books, bins, or decor by category. The staggered design also breaks up the visual mass of the piece compared to uniform straight shelving.\n\nTwo anti-toppling devices are included, and \"Room Divider\" appears directly in the product's own title, a signal the manufacturer designed it with this exact use case in mind rather than as a repurposed bookshelf.\n\nWorth calling out specifically: staggered layout adds visual interest.",
     specs: [
       "27\"L x 9\"W x 64\"H",
       "Engineered wood",
       "11 open shelves, staggered layout",
       "2 anti-toppling devices",
-      "Waterproof surface",
+      "Waterproof surface"
     ],
     pros: [
       "Most individual shelves in this list at 11",
       "Staggered layout adds visual interest",
       "Explicitly marketed as a room divider",
-      "2 anti-toppling devices included",
+      "2 anti-toppling devices included"
     ],
     cons: [
-      "Smallest review sample in this list at 26 ratings",
-      "Lower 4.2-star average than most other picks",
-      "Staggered shelves are less uniform in size than a standard grid",
+      "Staggered shelves are less uniform in size than a standard grid"
     ],
     bestFor: "Buyers who want to organize a large, varied collection across the most individual shelf openings",
   },
@@ -249,21 +244,21 @@ export const products: GuideProduct[] = [
       "PB + MDF, 15mm boards",
       "14 open shelves, 55 lb/shelf",
       "770 lb total capacity (highest in this list)",
-      "3 anti-tip systems",
+      "3 anti-tip systems"
     ],
     pros: [
       "Tallest divider in this list at 83.7 inches",
       "Highest total capacity at 770 lbs",
       "Thickest 15mm boards of any pick here",
-      "3 separate anti-tip systems for a tall freestanding piece",
+      "3 separate anti-tip systems for a tall freestanding piece"
     ],
     cons: [
       "Most expensive pick in this list",
       "Needs a genuinely tall room to look proportional",
-      "Smaller review sample than the best-selling picks",
+      "Smaller review sample than the best-selling picks"
     ],
     bestFor: "High-ceiling lofts and open-concept rooms where a standard-height divider would look undersized",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -291,7 +286,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed capacity, height, and included hardware against price, the VASAGLE CUSTOS and FACBOTALL 83.7\" sit at opposite ends of this trade-off between budget and maximum capacity.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -434,11 +429,11 @@ export const faq: FaqItem[] = [
   {
     q: "What is the most versatile room divider with shelves in this list?",
     a: "The Furologee S-Shaped pick doubles as a wine rack or TV stand depending on how you position it, and the JOSTYLE Bamboo screen is the only one that folds flat and bends around corners. Pick whichever flexibility actually matches how your room might change over time.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-room-divider-bookcase", title: "Best Room Divider Bookcases (2026)" },
   { href: "/guide/best-bookshelf-room-divider", title: "Best Bookshelf Room Dividers (2026)" },
-  { href: "/guide/best-bookshelf-l-shaped", title: "Best L-Shaped Bookshelves (2026)" },
+  { href: "/guide/best-bookshelf-l-shaped", title: "Best L-Shaped Bookshelves (2026)" }
 ];

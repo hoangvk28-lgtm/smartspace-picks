@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31gG9g12oLL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D8HSYZB1?tag=deskfinds0d-20",
-    "description": "Rewondah sells as a 2-pack of inflatable foot rests, built from flocked PVC with a double air valve that lets you use one, two or three layers. Inflated, each block is listed at 17 x 12 x 18 inches and weighs 0.8 lb, and deflated it fits a 9 by 10 inch travel bag. The listing says it can be used as a leg rest or foot rest for adults or as a bed extender for a toddler.\n\nIt is the priciest pick at $28.99, but you get two units, so the cost per footrest is lower than the $21.99 Sunany single. Compared with Ayzelle, the other 2-pack, it lists dimensions and weight but includes no eye mask or ear plugs.\n\nBest for two travelers or a parent and child who both want a leg rest on a long trip. The caveat is that inflatable footrests are restricted by some airlines, and the listing does not mention airline rules, so check yours.",
+    "description": "Rewondah sells as a 2-pack of inflatable foot rests, built from flocked PVC with a double air valve that lets you use one, two or three layers. Inflated, each block is listed at 17 x 12 x 18 inches and weighs 0.8 lb, and deflated it fits a 9 by 10 inch travel bag. The listing says it can be used as a leg rest or foot rest for adults or as a bed extender for a toddler.\n\nIt is the priciest pick at under $30, but you get two units, so the cost per footrest is lower than the under $25 Sunany single. Compared with Ayzelle, the other 2-pack, it lists dimensions and weight but includes no eye mask or ear plugs.\n\nBest for two travelers or a parent and child who both want a leg rest on a long trip. The caveat is that inflatable footrests are restricted by some airlines, and the listing does not mention airline rules, so check yours.",
     "specs": [
       "Inflates to 17 x 12 x 18 inches",
       "0.8 lb weight",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41z9UTXd4tL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HBB44214?tag=deskfinds0d-20",
-    "description": "Ayzelle is a 2-pack of flocked PVC inflatable foot rests with three air chambers, so you can inflate one, two or all three to set the height. The kit also includes 2 drawstring storage bags, an eye mask and a pair of ear plugs, and the listing mentions use in cars, trains, buses, offices and hotels.\n\nAt $24.99 it costs about $4 less than Rewondah's 2-pack and adds the travel extras, though it lists no weight or inflated dimensions. Compared with Sunany it gives you two footrests for only $3 more.\n\nA good choice for couples or for someone who wants a ready-made flight kit. The caveat is that the highlights give no weight, and airline rules for inflatable footrests still apply.",
+    "description": "Ayzelle is a 2-pack of flocked PVC inflatable foot rests with three air chambers, so you can inflate one, two or all three to set the height. The kit also includes 2 drawstring storage bags, an eye mask and a pair of ear plugs, and the listing mentions use in cars, trains, buses, offices and hotels.\n\nAt under $25 it costs about $4 less than Rewondah's 2-pack and adds the travel extras, though it lists no weight or inflated dimensions. Compared with Sunany it gives you two footrests for only $3 more.\n\nA good choice for couples or for someone who wants a ready-made flight kit. The caveat is that the highlights give no weight, and airline rules for inflatable footrests still apply.",
     "specs": [
       "2 inflatables, 3 chambers",
       "Eye mask and ear plugs",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31nVv3FL8FL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0F9WYPJSM?tag=deskfinds0d-20",
-    "description": "Maliton is a flocked PVC inflatable foot rest weighing 1.41 lb that packs to 8.7 x 2 x 13.8 inches, with three height settings. Two or three rolls of its bag push in air without a pump in about 30 to 45 seconds, and it deflates in 3 to 5 seconds. The listing is explicit that Emirates, Korean Air, Asiana, Hawaiian, Virgin Atlantic, Air France, Air Malta, EgyptAir and Qantas do not allow it onboard.\n\nAt $16.99 it is $5 cheaper than Sunany and the quickest to set up here, though it is heavier. MYFON undercuts it by $3 but lists a longer set of airline restrictions.\n\nBest for quick setup and for office or car use where airline rules do not matter. The caveat is the airline ban list, so read it before packing the footrest for a flight.",
+    "description": "Maliton is a flocked PVC inflatable foot rest weighing 1.41 lb that packs to 8.7 x 2 x 13.8 inches, with three height settings. Two or three rolls of its bag push in air without a pump in about 30 to 45 seconds, and it deflates in 3 to 5 seconds. The listing is explicit that Emirates, Korean Air, Asiana, Hawaiian, Virgin Atlantic, Air France, Air Malta, EgyptAir and Qantas do not allow it onboard.\n\nAt under $20 it is $5 cheaper than Sunany and the quickest to set up here, though it is heavier. MYFON undercuts it by $3 but lists a longer set of airline restrictions.\n\nBest for quick setup and for office or car use where airline rules do not matter. The caveat is the airline ban list, so read it before packing the footrest for a flight.",
     "specs": [
       "Inflates in 30 to 45 seconds",
       "1.41 lb, packs to 8.7 x 2 x 13.8 inches",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41rqlbkt8dL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B098HXFZN9?tag=deskfinds0d-20",
-    "description": "MYFON is an inflatable foot rest with three height levels, a thick PVC bottom and a stated 100% air leakage test that runs for 72 hours. The listing describes soft fabric with no chemical smell and says it can be used for travel and office use.\n\nAt $13.99 it is the cheapest inflatable. Compared with Maliton it costs $3 less but lists fewer physical details, and it names Emirates, Lufthansa, Virgin Atlantic, Hawaiian, Spirit, Qantas, Korean Air, Air Malta and Egypt Air as airlines that do not allow it.\n\nBest for a low-cost inflatable for a car, train or desk. The caveat is the airline restriction list and the sparse specs, with no weight or packed dimensions in the highlights.",
+    "description": "MYFON is an inflatable foot rest with three height levels, a thick PVC bottom and a stated 100% air leakage test that runs for 72 hours. The listing describes soft fabric with no chemical smell and says it can be used for travel and office use.\n\nAt under $15 it is the cheapest inflatable. Compared with Maliton it costs $3 less but lists fewer physical details, and it names Emirates, Lufthansa, Virgin Atlantic, Hawaiian, Spirit, Qantas, Korean Air, Air Malta and Egypt Air as airlines that do not allow it.\n\nBest for a low-cost inflatable for a car, train or desk. The caveat is the airline restriction list and the sparse specs, with no weight or packed dimensions in the highlights.",
     "specs": [
       "3 height levels",
       "Thick PVC bottom",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/410jvZ09bPL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DRZCPTS5?tag=deskfinds0d-20",
-    "description": "DISFAT is a folding PP plastic stool that collapses to 0.5 inches thick, weighs about 9 oz and is rated for 220 pounds. The listing gives a four-step unfold method and says it fits into a bag for planes, trains or a desk.\n\nAt $8.99 it is the cheapest pick and the only rigid one, so it needs no inflating and avoids airline restrictions on inflatable footrests. Compared with the inflatables, it has one fixed height and no cushioning.\n\nBest for a rigid, flat-packing rest at the lowest price. The caveat is that the unfolding takes a firm press and there is no cushion, so it is less comfortable for long periods.",
+    "description": "DISFAT is a folding PP plastic stool that collapses to 0.5 inches thick, weighs about 9 oz and is rated for 220 pounds. The listing gives a four-step unfold method and says it fits into a bag for planes, trains or a desk.\n\nAt under $9 it is the cheapest pick and the only rigid one, so it needs no inflating and avoids airline restrictions on inflatable footrests. Compared with the inflatables, it has one fixed height and no cushioning.\n\nBest for a rigid, flat-packing rest at the lowest price. The caveat is that the unfolding takes a firm press and there is no cushion, so it is less comfortable for long periods.",
     "specs": [
       "0.5 inch folded",
       "9 oz",

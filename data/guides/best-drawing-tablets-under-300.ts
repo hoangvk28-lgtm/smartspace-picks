@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $59.99",
+          "Under $60",
           "XENCELABS Drawing Tablet Small"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "XP-PEN Artist12 11.6 Inch FHD Drawing Monitor Pen Display"
         ],
         [
-          "Around $209.99",
+          "Under $250",
           "XPPen Artist 13.3 Pro 13.3\" Drawing Tablet with Screen"
         ],
         [
-          "Around $209.99",
+          "Under $250",
           "HUION Kamvas 13 (Gen 3) Drawing Tablet with Screen 16K Pressure PenTech 4.0"
         ],
         [
-          "Around $209.99",
+          "Under $250",
           "XPPen Artist 12 3rd 11.9\" Drawing Tablet with Screen"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "XPPen Artist 13.3 Pro V2 Drawing Tablet with Screen"
         ],
         [
-          "Around $499.99",
+          "Under $500",
           "XPPen Artist Pro 16 Gen2"
         ],
         [
-          "Around $699.95",
+          "Under $700",
           "Wacom Cintiq 16"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "XPPen Artist 13.3 Pro 13.3\" Drawing Tablet with Screen is aimed at buyers prioritizing 13.3in full-laminated, 16,384 pressure." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "XPPen Artist 13.3 Pro 13.3\" Drawing Tablet with Screen is aimed at buyers prioritizing 13.3in full-laminated, 16,384 pressure." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-affordable-drawing-tablets","title":"Best Affordable Drawing Tablets in 2026"},{"href":"/guide/best-budget-drawing-tablets","title":"Best Budget Drawing Tablets in 2026"},{"href":"/guide/best-cheap-drawing-tablets","title":"Best Cheap Drawing Tablets in 2026"}];

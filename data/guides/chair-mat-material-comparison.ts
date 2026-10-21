@@ -12,7 +12,7 @@ export const chairMatMaterialComparisonGuide: Guide = {
     "pvc vs polycarbonate chair mat",
     "glass chair mat worth it",
     "best chair mat material durability",
-    "chair mat material for heavy use",
+    "chair mat material for heavy use"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const chairMatMaterialComparisonGuide: Guide = {
     "chair-mat-types-explained",
     "chair-mat-size-guide",
     "chair-mat-vs-caster-upgrade",
-    "office-chair-weight-capacity-explained",
+    "office-chair-weight-capacity-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const chairMatMaterialComparisonGuide: Guide = {
       question: "Is PVC a bad choice, or just less durable?",
       answer:
         "PVC isn't a bad choice for lighter use or a shorter-term setup, it's simply less durable under heavy, years-long daily use compared to polycarbonate or glass, for a budget-conscious or temporary setup, PVC remains a perfectly reasonable option.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const chairMatMaterialComparisonGuide: Guide = {
     {
       heading: "Weighing Glass's Premium Benefits Against Its Practical Drawbacks",
       body: `Glass mats offer genuinely superior scratch and dent resistance along with a more polished, premium appearance many buyers find preferable to plastic alternatives, but this comes with real practical tradeoffs: significantly higher cost, more weight making repositioning cumbersome, and a risk of cracking or shattering if dropped or mishandled during installation or a move. Consider whether the aesthetic and long-term durability benefit justifies these tradeoffs for your specific situation before choosing glass over a still-durable but lighter polycarbonate option.`,
-    },
+    }
   ],
 };

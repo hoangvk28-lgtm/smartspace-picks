@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 8FT Conference Table measures 94.49 L x 47.24 W x 29.53 H and is built around 10 people conference table, positioning it for luxury buyers specifically.\n\nSUPER STURDY CONSTRUCTION is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for luxury, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["94.49 L x 47.24 W x 29.53 H table dimensions","10 PEOPLE CONFERENCE TABLE","SUPER STURDY CONSTRUCTION"],
     pros: ["10 PEOPLE CONFERENCE TABLE, confirmed directly in the listing's own spec details","SUPER STURDY CONSTRUCTION, confirmed directly in the listing's own spec details","GROMMET HOLES & ADJUSTABLE FOOT PADS, confirmed directly in the listing's own spec details"],
-    cons: ["At $379.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $400, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for luxury",
   },
   {
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 70.86\" Rectangular Conference Table for 6-8 (Oak and Black) and is built around spacious workspace, positioning it for luxury buyers specifically.\n\nSturdy Construction is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for luxury, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Spacious Workspace","Sturdy Construction","Rustic Meets Modern Function"],
     pros: ["Spacious Workspace, confirmed directly in the listing's own spec details","Sturdy Construction, confirmed directly in the listing's own spec details","Rustic Meets Modern Function, confirmed directly in the listing's own spec details"],
-    cons: ["At $239.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $250, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for luxury",
   },
   {
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "UPOSOJA 55.9 in Executive Desk with Power Outlets and is built around modern executive desk, positioning it for luxury buyers specifically.\n\nUseful Power Outlets is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for luxury, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Modern Executive Desk","Useful Power Outlets","Ample & Organized Storage"],
     pros: ["Modern Executive Desk, confirmed directly in the listing's own spec details","Useful Power Outlets, confirmed directly in the listing's own spec details","Ample & Organized Storage, confirmed directly in the listing's own spec details"],
-    cons: ["At $149.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $150, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for luxury",
   },
   {
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 7 ft Conference Table for 6 to 8 People measures 7 ft and is built around simple design, positioning it for luxury buyers specifically.\n\nIdeal for Collaborations is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for luxury, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["7 ft table dimensions","Simple Design","Ideal for Collaborations"],
     pros: ["Simple Design, confirmed directly in the listing's own spec details","Ideal for Collaborations, confirmed directly in the listing's own spec details","Versatile Utility, confirmed directly in the listing's own spec details"],
-    cons: ["At $829.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $850, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for luxury",
   },
   {
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     description: "15FT Large Conference Table measures 15FT and is built around spacious workspace, positioning it for luxury buyers specifically.\n\n2\" Thickened Desktop is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for luxury, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["15FT table dimensions","Spacious Workspace","2\" Thickened Desktop"],
     pros: ["Spacious Workspace, confirmed directly in the listing's own spec details","2\" Thickened Desktop, confirmed directly in the listing's own spec details","Cable Management & Stability, confirmed directly in the listing's own spec details"],
-    cons: ["At $2,859.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $2,900, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for luxury",
   },
   {
@@ -109,8 +109,8 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0H86DXFD4?tag=deskfinds0d-20",
     description: "LITTLE TREE 47 Inches Round Conference Table for 4-6 measures 47 Inch and is built around premium e1 grade mdf construction, positioning it for luxury buyers specifically.\n\nBeyond that core spec, the listing describes construction suited to daily conference-room use, without unusual assembly or maintenance requirements.\n\nBest for buyers specifically looking for luxury, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["47 Inch table dimensions","Premium E1 Grade MDF Construction","Assembly hardware and instructions included per the listing"],
-    pros: ["Premium E1 Grade MDF Construction, confirmed directly in the listing's own spec details","Priced at $161.67, positioned for luxury shoppers specifically","Sized at 47 Inch, matching the space this guide is built around"],
-    cons: ["At $161.67, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    pros: ["Premium E1 Grade MDF Construction, confirmed directly in the listing's own spec details","Priced under $170, positioned for luxury shoppers specifically","Sized at 47 Inch, matching the space this guide is built around"],
+    cons: ["At under $170, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for luxury",
   },
   {
@@ -126,7 +126,7 @@ export const products: GuideProduct[] = [
     description: "10 ft Conference Table for 10 People measures 118\"L x 52\"W x 30\"H and is built around spacious conference table, positioning it for luxury buyers specifically.\n\nBuilt-In Charging Station is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for luxury, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["118\"L x 52\"W x 30\"H table dimensions","Spacious Conference Table","Built-In Charging Station"],
     pros: ["Spacious Conference Table, confirmed directly in the listing's own spec details","Built-In Charging Station, confirmed directly in the listing's own spec details","2-Inch Thickened Tabletop: Thick engineered wood desktop, confirmed directly in the listing's own spec details"],
-    cons: ["At $1,749.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $1,800, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for luxury",
   },
   {
@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $149.99",
+          "Under $150",
           "UPOSOJA 55.9 in Executive Desk with Power Outlets"
         ],
         [
-          "Around $161.67",
+          "Under $170",
           "LITTLE TREE 47 Inches Round Conference Table for 4-6"
         ],
         [
-          "Around $239.99",
+          "Under $250",
           "Tribesigns 70.86\" Rectangular Conference Table for 6-8 (Oak and Black)"
         ],
         [
-          "Around $379.99",
+          "Under $400",
           "Tribesigns 8FT Conference Table"
         ],
         [
-          "Around $389.99",
+          "Under $400",
           "Tribesigns 8ft Conference Table for 8-10"
         ],
         [
-          "Around $829.99",
+          "Under $850",
           "Tribesigns 7 ft Conference Table for 6 to 8 People"
         ],
         [
-          "Around $1,749.99",
+          "Under $1,800",
           "10 ft Conference Table for 10 People"
         ],
         [
-          "Around $2,859.99",
+          "Under $2,900",
           "15FT Large Conference Table"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Not inherently. High-density MDF and particle board with a laminate or melamine finish are standard in this category and hold up well to daily commercial use. Solid wood, veneer over engineered wood, or steel-reinforced builds cost more and matter most where long-term durability or a premium look is the priority."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Tribesigns 8FT Conference Table is aimed at buyers looking for luxury." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Tribesigns 8FT Conference Table is aimed at buyers looking for luxury." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-modern-conference-tables","title":"Best Modern Conference Tables in 2026"},{"href":"/guide/best-black-conference-tables","title":"Best Black Conference Tables in 2026"},{"href":"/guide/best-white-conference-tables","title":"Best White Conference Tables in 2026"}];

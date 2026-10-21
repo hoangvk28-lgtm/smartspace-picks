@@ -5,7 +5,7 @@ export const metaDescription = "5 computer desks with integrated pegboards we ev
 export const mainKeyword = "computer desk with pegboard";
 export const introParagraphs = [
   "This keyword represents integrated desk products, a desk with a built-in pegboard back panel, rather than a separate pegboard accessory, worth verifying actual product category since buyers searching this term likely want a complete desk, not just an organizer.",
-  "If genuinely an integrated desk product, the desk's own quality, surface material, stability, cable management, deserves evaluation as a complete product, not just the attached pegboard component in isolation.",
+  "If genuinely an integrated desk product, the desk's own quality, surface material, stability, cable management, deserves evaluation as a complete product, not just the attached pegboard component in isolation."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Computer Desk with Pegboard Overall",
     name: "SEDETA L Shaped Gaming Corner Desk with Drawers, Hutch and Storage Shelves",
     price: "$179.99",
-    rating: "4.6 stars from 623 Amazon ratings",
-    reviews: "623 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51m+qsLwPEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CY29ZZ3V?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Desk with Large Bookshelf Pick",
     name: "SEDETA L Shaped Computer Office Desk with 3 Wood Drawer and Large Bookshelf",
     price: "$269.99",
-    rating: "4.2 stars from 42 Amazon ratings",
-    reviews: "42 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51Une2rF7sL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G41Y1HV9?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Executive Desk with Pegboard Pick",
     name: "SEDETA 71\" Executive Desk with Rolling File Cabinet, Large Office Desk with Drawers, L Shaped Computer Desk with Power Outlets, CPU Stand, Pegboard and Storage Shelves, Gray",
     price: "$189.99",
-    rating: "4.6 stars from 131 Amazon ratings",
-    reviews: "131 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41t8OVejLCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FJ8Y59BJ?tag=deskfinds0d-20",
     description:
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     badge: "Best Gaming Desk with LED and Pegboard Pick",
     name: "Gaming Desk With LED Lighting And Charging Station, 39 Inch Computer Desk With Hutch & Pegboard Organizer, USB-C Ports & Power Strip, Modern Workstation For Gamer Home Office",
     price: "$269.99",
-    rating: "5.0 stars from 1 Amazon rating",
+    rating: "",
     reviews: "1 rating",
     imageUrl: "https://m.media-amazon.com/images/I/51s4ME0+FCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTR1898X?tag=deskfinds0d-20",
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Standing Desk with Pegboard Pick",
     name: "UPOSOJA L Shaped Standing Desk Adjustable Height, 53\" Electric Office Desk with File Drawers & Storage Shelves, Sit Stand Corner Computer Desk with Power Outlets, Pegboard, 6 Hooks, Black & Walnut",
     price: "$269.99",
-    rating: "3.9 stars from 22 Amazon ratings",
-    reviews: "22 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51Yvng3j3qL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G1MT55BM?tag=deskfinds0d-20",
     description:
@@ -103,7 +103,7 @@ export const products: GuideProduct[] = [
     pros: ["Genuinely distinct sit-stand electric height adjustment", "File drawers and storage shelves for real desk organization", "Power outlets for cable management", "Pegboard with 6 hooks as a genuine bonus feature"],
     cons: ["Lower average rating than other picks in this guide", "Smaller review base for a more complex electric mechanism", "Verify stability across the full height-adjustment range"],
     bestFor: "Buyers wanting a sit-stand electric desk with pegboard as a bonus feature",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -111,7 +111,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Product category and SERP intent verified", description: "Verified actual product category, confirming this keyword represents integrated desk products with a built-in pegboard back panel rather than a separate pegboard accessory." },
   { title: "Complete desk quality evaluated, not just the pegboard component", description: "Evaluated the desk's own quality, surface material, stability, cable management, as a complete product rather than assessing just the attached pegboard component in isolation." },
   { title: "Assembly complexity disclosed for combined furniture types", description: "Verified desk assembly complexity for an integrated pegboard-desk combination, since combining two furniture types in one product can increase difficulty compared to either purchased separately." },
-  { title: "Modularity and removability verified where possible", description: "Verified whether the pegboard portion can be removed or is a permanently integrated part of the desk structure, relevant for buyers wanting future independent component replacement." },
+  { title: "Modularity and removability verified where possible", description: "Verified whether the pegboard portion can be removed or is a permanently integrated part of the desk structure, relevant for buyers wanting future independent component replacement." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -240,11 +240,11 @@ export const faq: FaqItem[] = [
   { q: "Is an integrated pegboard desk harder to assemble than a regular desk?", a: "Often yes. Combining two furniture types in one product can increase assembly difficulty compared to either purchased separately, budget more assembly time." },
   { q: "Should I buy an integrated pegboard desk or a separate desk and pegboard?", a: "If you want more flexibility to replace either component independently in the future, a separate desk and pegboard purchase may serve you better than an integrated combination product." },
   { q: "How long does assembly typically take for a desk with an integrated pegboard?", a: "Combined furniture products with drawers, hutches, and pegboards commonly take 2-4 hours for two people, plan your installation day accordingly rather than expecting a quick single-person setup." },
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers wanting the most-proven complete L-shaped desk with integrated storage" },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers wanting the most-proven complete L-shaped desk with integrated storage" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-hutches-with-pegboards", title: "Best Desk Hutches with Pegboards (2026)" },
   { href: "/guide/best-gaming-desk-pegboards", title: "Best Gaming Desk Pegboards (2026)" },
-  { href: "/guide/best-aesthetic-desk-pegboards", title: "Best Aesthetic Desk Pegboards (2026)" },
+  { href: "/guide/best-aesthetic-desk-pegboards", title: "Best Aesthetic Desk Pegboards (2026)" }
 ];

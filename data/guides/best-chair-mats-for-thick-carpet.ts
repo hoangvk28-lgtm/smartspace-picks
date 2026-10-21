@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "chair mats for thick carpet";
 export const introParagraphs = [
   "A mat that's too thin for thick carpet will sink down into the pile under a chair's weight, the core problem this entire category exists to solve. Once a mat sinks, rolling a chair across it feels like pushing through sand rather than gliding, which defeats the purpose of buying one in the first place. Getting the thickness and stiffness right for your specific pile depth matters more than any other spec on this list.",
-  "Below are 8 chair mats for thick carpet we evaluated on pile-depth rating, rigidity, and long-term wear resistance, ranging from a highest-rated 0.11-inch polycarbonate pick to a 0.2-inch extra-thick polycarbonate mat rated for every carpet depth, including padding.",
+  "Below are 8 chair mats for thick carpet we evaluated on pile-depth rating, rigidity, and long-term wear resistance, ranging from a highest-rated 0.11-inch polycarbonate pick to a 0.2-inch extra-thick polycarbonate mat rated for every carpet depth, including padding."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -57,18 +57,17 @@ export const products: GuideProduct[] = [
       "Polycarbonate, 0.11\" thick",
       "Rated for medium/high pile over 1/2\"",
       "Gripper back, GreenGuard certified",
-      "PVC-free, phthalate-free, lifetime warranty",
+      "PVC-free, phthalate-free, lifetime warranty"
     ],
     pros: [
-      "Highest-rated pick in this guide at 4.2 stars",
       "Roughly twice the impact strength of standard PVC",
       "Lies flat instantly, no break-in period",
-      "Lifetime warranty",
+      "Lifetime warranty"
     ],
     cons: [
       "Not rated for extra-high pile over 3/4\"",
       "Smaller footprint than the larger picks in this guide",
-      "Pricier than a basic PVC mat, though justified for carpet use",
+      "Pricier than a basic PVC mat, though justified for carpet use"
     ],
     bestFor: "Buyers with medium to high pile carpet who want the best-rated pick in this guide",
   },
@@ -89,18 +88,18 @@ export const products: GuideProduct[] = [
       "Polycarbonate, 0.11\" thick",
       "Rated up to 3/4\" carpet including padding",
       "Studded gripper back, lightly textured top",
-      "50% renewable energy manufacturing, 100% recyclable",
+      "50% renewable energy manufacturing, 100% recyclable"
     ],
     pros: [
       "One of the largest mats in this guide at 48x60\"",
       "Rated including padding depth, not just carpet pile",
       "Genuine eco-friendly manufacturing claims",
-      "Studded back anchors firmly into pile",
+      "Studded back anchors firmly into pile"
     ],
     cons: [
       "Lower star rating than the top Floortex pick",
       "Smaller review sample than the top picks",
-      "0.11\" thickness may still sink slightly on the deepest pile",
+      "0.11\" thickness may still sink slightly on the deepest pile"
     ],
     bestFor: "Buyers who want a large mat rated for carpet plus padding depth",
   },
@@ -121,18 +120,17 @@ export const products: GuideProduct[] = [
       "Polycarbonate, 0.11\" thick",
       "Rated for high/thick pile carpet",
       "GREENGUARD certified, PVC-free, 100% recyclable",
-      "Lies flat instantly",
+      "Lies flat instantly"
     ],
     pros: [
       "Largest Floortex footprint in this guide",
       "Same impact-resistant polycarbonate as the top pick",
-      "GREENGUARD certified and recyclable",
-      "Large review base at 1,031 ratings",
+      "GREENGUARD certified and recyclable"
     ],
     cons: [
       "Lower star rating than the smaller Floortex pick",
       "Same 0.11\" thickness, not rated for extra-high pile",
-      "Larger size needs more floor clearance",
+      "Larger size needs more floor clearance"
     ],
     bestFor: "Buyers who want the largest Floortex footprint for plush carpet",
   },
@@ -153,18 +151,18 @@ export const products: GuideProduct[] = [
       "Vinyl, 0.2\" thick",
       "Rated for extra-high pile over 1\" including padding",
       "AnchorBar cleats, GREENGUARD Gold certified",
-      "Made in USA, lifetime No Crack warranty",
+      "Made in USA, lifetime No Crack warranty"
     ],
     pros: [
       "Only standard-size pick rated for extra-high pile over 1\"",
       "0.2\" thickness resists sinking into deep pile",
       "GREENGUARD Gold certified, phthalate and cadmium free",
-      "Lifetime No Crack warranty",
+      "Lifetime No Crack warranty"
     ],
     cons: [
       "Lower star rating than the top polycarbonate picks",
       "Vinyl rather than polycarbonate, a different feel underfoot",
-      "Lip design needs a bit more setup thought than a flat rectangle",
+      "Lip design needs a bit more setup thought than a flat rectangle"
     ],
     bestFor: "Buyers with genuinely extra-high pile carpet who want a standard-size mat",
   },
@@ -185,18 +183,18 @@ export const products: GuideProduct[] = [
       "Vinyl, 0.2\" thick",
       "Rated for extra-high pile over 1\"",
       "AnchorBar cleats, beveled edge",
-      "Multi-shift heavy use rated, lifetime No Crack warranty",
+      "Multi-shift heavy use rated, lifetime No Crack warranty"
     ],
     pros: [
       "Larger footprint than the standard extra-high-pile pick",
       "Same 0.2\" thickness rated for pile over 1\"",
       "Rated for multi-shift heavy daily use",
-      "Made in USA with lifetime No Crack warranty",
+      "Made in USA with lifetime No Crack warranty"
     ],
     cons: [
       "Smaller review sample than most picks in this guide",
       "Pricier than the standard-size extra-high-pile pick",
-      "Larger size needs more floor space to accommodate",
+      "Larger size needs more floor space to accommodate"
     ],
     bestFor: "Buyers with deep carpet and a larger desk footprint needing extra rolling room",
   },
@@ -217,18 +215,18 @@ export const products: GuideProduct[] = [
       "Vinyl, 0.17\" thick",
       "Rated for high pile carpet up to 1\"",
       "AnchorBar cleats, beveled Crystal Edge",
-      "GREENGUARD Gold certified, lifetime No Crack warranty",
+      "GREENGUARD Gold certified, lifetime No Crack warranty"
     ],
     pros: [
       "Largest vinyl mat in this guide",
       "Beveled Crystal Edge smooths the roll-on transition",
       "GREENGUARD Gold certified",
-      "Lifetime No Crack warranty",
+      "Lifetime No Crack warranty"
     ],
     cons: [
       "Smallest review count in this guide",
       "Most expensive vinyl pick in this list",
-      "Slightly thinner than the two extra-high-pile ES Robbins picks",
+      "Slightly thinner than the two extra-high-pile ES Robbins picks"
     ],
     bestFor: "Buyers with a wide desk setup on high pile carpet who want the largest vinyl option",
   },
@@ -249,18 +247,18 @@ export const products: GuideProduct[] = [
       "Polycarbonate, 0.2\" thick (thickest in this guide)",
       "Rated for all carpet thicknesses including very high pile/plush",
       "Smooth back, dual-use on hard floor",
-      "Compatible with underfloor heating, eco-friendly manufacturing",
+      "Compatible with underfloor heating, eco-friendly manufacturing"
     ],
     pros: [
       "Thickest polycarbonate mat in this entire guide",
       "Rated for every carpet depth this guide covers",
       "Dual-use on hard floor via smooth back",
-      "Will not curl, sink, or crack per the listing",
+      "Will not curl, sink, or crack per the listing"
     ],
     cons: [
       "Second-most expensive pick in this guide",
       "Smaller review sample than the top picks",
-      "Large footprint needs adequate floor space",
+      "Large footprint needs adequate floor space"
     ],
     bestFor: "Buyers who want one mat rated for literally any carpet depth they might encounter",
   },
@@ -275,27 +273,27 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51umupvRX3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSKKMDSP?tag=deskfinds0d-20",
     description:
-      "The MuArts is a genuinely rigid 5mm-thick mat rather than a flexible sheet, which means it sits on top of thick carpet like a rigid platform instead of sinking down into the pile the way a thin, flexible mat would. It's rated for up to 1,400 lbs, the highest capacity in this entire guide, and works dual-use on either carpet or hard floor.\n\nIts crystal-clear finish keeps the carpet visible underneath, and it's backed by a 12-month warranty. It's also the most-reviewed pick in this guide by a wide margin, at 19,765 ratings, making it the pick for buyers who want rigidity and proven popularity at a lower price than the specialty polycarbonate and vinyl options above.\n\nA genuine advantage here is that rigid build resists sinking better than thin flexible mats. The tradeoff is not officially pile-depth-rated like the polycarbonate/vinyl picks.",
+      "The MuArts is a genuinely rigid 5mm-thick mat rather than a flexible sheet, which means it sits on top of thick carpet like a rigid platform instead of sinking down into the pile the way a thin, flexible mat would. It's rated for up to 1,400 lbs, the highest capacity in this entire guide, and works dual-use on either carpet or hard floor.\n\nIts crystal-clear finish keeps the carpet visible underneath, and it's backed by a 12-month warranty.\n\nA genuine advantage here is that rigid build resists sinking better than thin flexible mats. The tradeoff is not officially pile-depth-rated like the polycarbonate/vinyl picks.",
     specs: [
       "54\"x32\"",
       "Rigid special material, 5mm thick",
       "Rated 1,400 lbs capacity (highest in this guide)",
       "Rigid flat, resists sinking into thick carpet",
-      "Dual-use carpet or hard floor, 12-month warranty",
+      "Dual-use carpet or hard floor, 12-month warranty"
     ],
     pros: [
       "Highest weight capacity in this guide at 1,400 lbs",
       "Rigid build resists sinking better than thin flexible mats",
       "Most-reviewed pick in this guide by a wide margin",
-      "Cheaper than the specialty polycarbonate and vinyl picks",
+      "Cheaper than the specialty polycarbonate and vinyl picks"
     ],
     cons: [
       "Not officially pile-depth-rated like the polycarbonate/vinyl picks",
       "Smaller footprint than the largest vinyl mats",
-      "Shorter 12-month warranty versus the lifetime warranties above",
+      "Shorter 12-month warranty versus the lifetime warranties above"
     ],
     bestFor: "Buyers who want rigidity and proven reliability without paying specialty-carpet-mat prices",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +321,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed price against pile-depth rating and thickness, the Floortex and MuArts picks sit at very different points on that budget-to-capability curve.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,11 +475,11 @@ export const faq: FaqItem[] = [
   {
     q: "Are chair mat cleats safe on Berber or looped carpet?",
     a: "Not always. Cleats and studs designed for cut-pile carpet can snag and potentially damage the loops on Berber or looped-weave carpet instead of gripping cleanly. If you have looped carpet, verify the specific backing type is rated safe for it before buying, rather than assuming any gripper-back mat works the same way on every carpet weave.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-chair-mat-hard-floor", title: "Best Chair Mats for Hard Floors (2026)" },
   { href: "/guide/best-chair-mat-for-hardwood-floors", title: "Best Chair Mats for Hardwood Floors (2026)" },
-  { href: "/guide/best-office-chair-under-300", title: "Best Office Chairs Under $300 (2026)" },
+  { href: "/guide/best-office-chair-under-300", title: "Best Office Chairs Under $300 (2026)" }
 ];

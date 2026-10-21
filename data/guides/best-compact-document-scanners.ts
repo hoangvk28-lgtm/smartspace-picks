@@ -5,7 +5,7 @@ export const metaDescription = "8 scanners we evaluated for genuine desk-space s
 export const mainKeyword = "compact document scanner";
 export const introParagraphs = [
   "Compact form factor almost always means reduced ADF capacity, 10-20 sheets versus 50-100 on full-size desktop scanners, a real workflow tradeoff most 'space-saving' marketing doesn't disclose alongside the footprint claim. We call out each pick's actual feeder capacity directly.",
-  "Also worth knowing: some compact designs achieve their small footprint with a vertical paper path, meaning they need clearance above the unit (under a shelf, for instance), not just desk-surface space, a placement detail worth checking before buying.",
+  "Also worth knowing: some compact designs achieve their small footprint with a vertical paper path, meaning they need clearance above the unit (under a shelf, for instance), not just desk-surface space, a placement detail worth checking before buying."
 ];
 export const lastUpdated = "2026-07-29";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Compact Pick",
     name: "Brother DS-640 Compact Mobile Document Scanner",
     price: "$134.99",
-    rating: "4.3 stars from 6,522 Amazon ratings",
-    reviews: "6,522 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Bx7Z39uKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B083R36CY4?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Duplex Pick",
     name: "Brother DS-740D Duplex Compact Mobile Document Scanner",
     price: "$169.99",
-    rating: "4.3 stars from 2,294 Amazon ratings",
-    reviews: "2,294 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/415ddFXTF8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B083R3XYQN?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact with a Real ADF Hopper",
     name: "ScanSnap iX1300 Wireless or USB Double-Sided Color Document Scanner, White",
     price: "$279.99",
-    rating: "4.2 stars from 1,768 Amazon ratings",
-    reviews: "1,768 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41yWYf2uT0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FX5DWBK?tag=deskfinds0d-20",
     description:
@@ -76,12 +76,12 @@ export const products: GuideProduct[] = [
     badge: "Same Spec, Black Finish",
     name: "ScanSnap iX1300 Wireless or USB Double-Sided Color Document Scanner, Black",
     price: "$279.99",
-    rating: "4.2 stars from 1,768 Amazon ratings",
-    reviews: "1,768 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41VnXqJ86dL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FX5SRQT?tag=deskfinds0d-20",
     description:
-      "Identical specs to the rank-3 pick in a black finish, the same space-saving ADF hopper design with up to 30ppm duplex scanning and USB/Wi-Fi connectivity. Choose based on finish preference, the underlying hardware and tradeoffs are the same.\n\nThe strongest case for this pick comes down to same real ADF hopper as the white version as well as 30ppm duplex speed. The compromise here is that same price premium as the white version, so factor that in alongside the $279.99 asking price.",
+      "Identical specs to the rank-3 pick in a black finish, the same space-saving ADF hopper design with up to 30ppm duplex scanning and USB/Wi-Fi connectivity. Choose based on finish preference, the underlying hardware and tradeoffs are the same.\n\nThe strongest case for this pick comes down to same real ADF hopper as the white version as well as 30ppm duplex speed. The compromise here is that same price premium as the white version, so factor that in alongside the under $300 asking price.",
     specs: ["Space-saving ADF hopper design, up to 30ppm duplex", "USB or Wi-Fi, works without a computer via cloud", "Auto de-skew, color optimization, blank-page removal", "Handles thick items and plastic cards"],
     pros: ["Same real ADF hopper as the white version", "30ppm duplex speed", "Black finish option", "Works standalone via cloud"],
     cons: ["Same price premium as the white version", "Same rating as the white version", "Reduced capacity versus full desktop scanners"],
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Portable USB-Powered Pick",
     name: "Canon imageFORMULA R10 Portable Document Scanner, USB Powered, Duplex",
     price: "$184.00",
-    rating: "4.1 stars from 2,338 Amazon ratings",
-    reviews: "2,338 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/218Q14ube6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08FBHTD9B?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Fastest First-Page-Out",
     name: "Epson Workforce ES-50 Compact & Lightweight Mobile Document Scanner",
     price: "$129.99",
-    rating: "4.3 stars from 5,857 Amazon ratings",
-    reviews: "5,857 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21YnTPRESJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KQZWPYN?tag=deskfinds0d-20",
     description:
@@ -127,8 +127,8 @@ export const products: GuideProduct[] = [
     badge: "Cheapest, Flatbed Not ADF",
     name: "Canon Canoscan Lide 300 Scanner",
     price: "$69.99",
-    rating: "4.2 stars from 7,159 Amazon ratings",
-    reviews: "7,159 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31PFgs9o70S._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07G5XZVLQ?tag=deskfinds0d-20",
     description:
@@ -144,8 +144,8 @@ export const products: GuideProduct[] = [
     badge: "Largest Feeder in This Guide, Least Compact",
     name: "ScanSnap iX2500 Wireless or USB High-Speed Document Scanner",
     price: "Check current price",
-    rating: "4.4 stars from 326 Amazon ratings",
-    reviews: "326 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41wHhR2WCpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9B1H5VN?tag=deskfinds0d-20",
     description:
@@ -154,14 +154,14 @@ export const products: GuideProduct[] = [
     pros: ["Highest rating in this guide", "Largest feeder capacity by far", "Touchscreen with customizable profiles", "High-speed rated for large batches"],
     cons: ["Not genuinely compact, this is a full desktop-class scanner", "Smallest review base among the picks here", "Included only as an honest capacity-tradeoff reference"],
     bestFor: "Buyers who realize they actually need capacity over footprint and are open to a larger unit",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "ADF hopper vs. single-sheet feed as the primary compact-size tradeoff", description: "Distinguished picks with a real multi-sheet ADF hopper from single-sheet-fed designs, since compact footprint marketing rarely discloses this capacity reduction directly." },
   { title: "Vertical vs. horizontal paper path clearance", description: "Noted where a compact design's space savings comes from a vertical feed path requiring clearance above the unit, a placement factor distinct from pure desk-surface footprint." },
-  { title: "Genuine footprint disclosure vs. vague 'space-saving' marketing", description: "Prioritized listings with a specific disclosed footprint reduction (like the Brother DS-740D's 11-inch claim) over generic space-saving language." },
+  { title: "Genuine footprint disclosure vs. vague 'space-saving' marketing", description: "Prioritized listings with a specific disclosed footprint reduction (like the Brother DS-740D's 11-inch claim) over generic space-saving language." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -294,11 +294,11 @@ export const faq: FaqItem[] = [
   { q: "Is a flatbed scanner the same as a compact document scanner?", a: "No. A flatbed scanner like the Canoscan Lide 300 in this guide has no document feeder at all, you scan one page or photo at a time on the glass, a different capability than any ADF-fed compact scanner." },
   { q: "Should I buy compact or full-size if I scan large batches regularly?", a: "Full-size, generally. Compact scanners trade ADF capacity for footprint. If you regularly scan more than a handful of pages unattended, a full-size scanner with a 50-100 sheet hopper will serve you better." },
   { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want the most proven, genuinely portable single-sheet compact scanner" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who realize they actually need capacity over footprint and are open to a larger unit At Check current price, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who realize they actually need capacity over footprint and are open to a larger unit At Check current price, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-high-speed-document-scanners", title: "Best High-Speed Document Scanners (2026)" },
   { href: "/guide/best-document-scanners-for-computers", title: "Best Document Scanners for Computers (2026)" },
-  { href: "/guide/best-wireless-document-scanners", title: "Best Wireless Document Scanners (2026)" },
+  { href: "/guide/best-wireless-document-scanners", title: "Best Wireless Document Scanners (2026)" }
 ];

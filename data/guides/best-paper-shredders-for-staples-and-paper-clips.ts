@@ -5,7 +5,7 @@ export const metaDescription = "8 shredders that explicitly handle staples and p
 export const mainKeyword = "shredder for staples and paper clips";
 export const introParagraphs = [
   "Cross-cut and strip-cut shredders generally tolerate staples and clips better than micro-cut, since micro-cut blades have tighter tolerances and are more prone to jamming or damage from hard metal objects. This means the most 'secure' shredders are often the least staple-tolerant, a direct tradeoff most listings don't connect for you.",
-  "Also worth knowing: 'handles staples' claims rarely specify a volume or frequency limit. A shredder might handle occasional staples fine but experience accelerated blade dulling if used to regularly shred heavily stapled document stacks, a usage-frequency distinction worth planning around.",
+  "Also worth knowing: 'handles staples' claims rarely specify a volume or frequency limit. A shredder might handle occasional staples fine but experience accelerated blade dulling if used to regularly shred heavily stapled document stacks, a usage-frequency distinction worth planning around."
 ];
 export const lastUpdated = "2026-07-28";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Staple/Clip Tolerance",
     name: "Amazon Basics 12-Sheet Cross-Cut Paper and Credit Card Shredder",
     price: "$58.00",
-    rating: "4.3 stars from 77,112 Amazon ratings",
-    reviews: "77,112 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31GNS0CdNOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6LZG69W?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity Staple Tolerance",
     name: "Amazon Basics 15-Sheet Cross Cut Paper Shredder for Home and Office",
     price: "$108.00",
-    rating: "4.3 stars from 77,112 Amazon ratings",
-    reviews: "77,112 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31AP7IG-MYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08NY9W23W?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Durable Alloy Cutters",
     name: "Bonsaii 15-Sheet Cross Cut Paper Shredder for Home Office Heavy Duty",
     price: "$79.99",
-    rating: "4.5 stars from 1,517 Amazon ratings",
-    reviews: "1,517 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31sWapqhQCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJR7KXJX?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Good Balance, Large Bin",
     name: "Bonsaii 10-Sheet Heavy Duty Cross Cut Paper Shredder for Home Office",
     price: "$53.09",
-    rating: "4.4 stars from 9,810 Amazon ratings",
-    reviews: "9,810 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31wkQYg97oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09MHR4457?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Jam-Proof Reverse for Staple Snags",
     name: "Bonsaii 12-Sheet Cross Cut Heavy Duty Paper Shredder for Home Office",
     price: "$79.99",
-    rating: "4.5 stars from 1,685 Amazon ratings",
-    reviews: "1,685 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/310qS+3q87L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5XPJ524?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Budget Staple-Tolerant Pick",
     name: "Amazon Basics 8-Sheet High Security Cross Cut Paper and Credit Card Shredder",
     price: "$33.16",
-    rating: "4.3 stars from 77,112 Amazon ratings",
-    reviews: "77,112 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31QbluTUmKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6LZ8S34?tag=deskfinds0d-20",
     description:
@@ -127,8 +127,8 @@ export const products: GuideProduct[] = [
     badge: "Micro-Cut Security, Lower Staple Tolerance Tradeoff",
     name: "Bonsaii Micro Cut Paper Shredder, 10-Sheet, Home Office, 5.5-Gallon bin",
     price: "$59.49",
-    rating: "4.5 stars from 8,974 Amazon ratings",
-    reviews: "8,974 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31jH9nhLBBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKXGNDLT?tag=deskfinds0d-20",
     description:
@@ -144,8 +144,8 @@ export const products: GuideProduct[] = [
     badge: "Proven Micro-Cut with Strong Track Record",
     name: "Aurora AU1210MA Professional Grade High Security 12-Sheet Micro-Cut Shredder",
     price: "$135.78",
-    rating: "4.7 stars from 9,126 Amazon ratings",
-    reviews: "9,126 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/413GY12YKjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CX4DZ4Z?tag=deskfinds0d-20",
     description:
@@ -154,14 +154,14 @@ export const products: GuideProduct[] = [
     pros: ["Highest rating and review base in this guide", "Long 60-minute run time", "Anti-jam auto-reverse for handling snags", "Destroys CDs and credit cards too"],
     cons: ["Micro-cut mechanism has the same inherent staple/clip tolerance tradeoff as the rank-7 pick", "Highest price in this guide", "12-sheet capacity is modest for the price"],
     bestFor: "Buyers who want the most proven micro-cut pick with the longest confirmed run time",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Security-vs-staple-tolerance tradeoff explicitly separated", description: "Distinguished coarser cross-cut/strip-cut picks (better staple tolerance) from finer micro-cut picks (higher security, tighter tolerances more prone to jamming on fasteners), rather than treating any 'handles staples' claim as equivalent." },
   { title: "Blade material and hardness disclosure where available", description: "Prioritized listings that explicitly name durable alloy cutters or similar blade-hardness claims over ones that simply state 'handles staples' without material detail." },
-  { title: "Realistic staple/clip volume, not binary yes/no claims", description: "Noted that 'handles staples' claims rarely specify a volume or frequency limit, occasional staples differ meaningfully from regularly shredding heavily-stapled stacks in terms of real-world blade wear." },
+  { title: "Realistic staple/clip volume, not binary yes/no claims", description: "Noted that 'handles staples' claims rarely specify a volume or frequency limit, occasional staples differ meaningfully from regularly shredding heavily-stapled stacks in terms of real-world blade wear." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -290,11 +290,11 @@ export const faq: FaqItem[] = [
   { q: "Do binder clips shred the same as regular staples?", a: "Not necessarily. Standard wire paper clips generally shred fine in staple-rated shredders, but binder clips or unusually shaped fasteners can jam mechanisms rated only for standard staples, test cautiously if you use non-standard fasteners." },
   { q: "Which pick in this guide has the most explicit staple-durability disclosure?", a: "The Bonsaii 15-sheet pick (rank 3) explicitly names durable alloy cutters for handling staples, clips, credit cards, and CDs/DVDs, more specific blade-material detail than most competing listings offer." },
   { "q": "What's the single best pick to come out of this comparison?", a: "Buyers who prioritize reliable staple/clip handling over the highest security tier" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-focused buyers who want confirmed staple tolerance at the lowest price At $33.16, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-focused buyers who want confirmed staple tolerance at the lowest price At under $35, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-jam-proof-paper-shredders", title: "Best Jam-Proof Paper Shredders (2026)" },
   { href: "/guide/best-paper-shredders-for-credit-cards", title: "Best Paper Shredders for Credit Cards (2026)" },
-  { href: "/guide/best-15-sheet-paper-shredders", title: "Best 15-Sheet Paper Shredders (2026)" },
+  { href: "/guide/best-15-sheet-paper-shredders", title: "Best 15-Sheet Paper Shredders (2026)" }
 ];

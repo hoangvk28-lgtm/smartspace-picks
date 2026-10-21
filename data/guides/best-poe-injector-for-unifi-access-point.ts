@@ -100,7 +100,7 @@ export const howToChoose = [
         ["U6-LR, U6-Lite, U6-Pro (Wi-Fi 6)", "UBIQUITI POE Injector 802.3AT 30W"],
         ["Standard Wi-Fi 7 model needing 2.5G", "Ubiquiti UACC-POE+-2.5G Adapter"],
         ["E7 Campus or U7 Pro XG (high draw)", "PROCET 10 Gigabit PoE Injector 60W"],
-        ["Any 2.5G model, first-party unavailable", "Omada 2.5G PoE+ Injector POE260S"],
+        ["Any 2.5G model, first-party unavailable", "Omada 2.5G PoE+ Injector POE260S"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $22", "UBIQUITI POE Injector 802.3AT 30W ($21.99)"],
-        ["Under $27", "Ubiquiti UACC-POE+-2.5G Adapter ($26.00)"],
-        ["Under $35", "Omada 2.5G PoE+ Injector ($34.99)"],
-        ["Under $53", "PROCET 10 Gigabit PoE Injector 60W ($52.49)"],
+        ["Under $22", "UBIQUITI POE Injector 802.3AT 30W (under $25)"],
+        ["Under $27", "Ubiquiti UACC-POE+-2.5G Adapter (under $30)"],
+        ["Under $35", "Omada 2.5G PoE+ Injector (under $35)"],
+        ["Under $53", "PROCET 10 Gigabit PoE Injector 60W (under $60)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "First-Party Ubiquiti vs Third-Party Alternatives",
     cards: [
       { label: "First-party Ubiquiti (UACC-POE+-2.5G, U6 30W injector)", text: "Validated directly against Ubiquiti's own PoE negotiation, the safest default choice when available for your specific model." },
-      { label: "Third-party (PROCET, Omada)", text: "Necessary when a first-party option doesn't cover your specific power or speed tier, like the E7 Campus's higher 60W draw." },
+      { label: "Third-party (PROCET, Omada)", text: "Necessary when a first-party option doesn't cover your specific power or speed tier, like the E7 Campus's higher 60W draw." }
     ],
     note: "Default to a first-party Ubiquiti accessory when one exists for your exact model; reach for a third-party alternative only when Ubiquiti doesn't offer a matching first-party option.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["Gigabit (older U6 models)", "UBIQUITI POE Injector 802.3AT 30W"],
         ["2.5G (most Wi-Fi 7 models)", "Ubiquiti UACC-POE+-2.5G or Omada POE260S"],
-        ["Up to 10Gbps (E7 Campus, U7 Pro XG)", "PROCET 10 Gigabit PoE Injector 60W"],
+        ["Up to 10Gbps (E7 Campus, U7 Pro XG)", "PROCET 10 Gigabit PoE Injector 60W"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For a New Wi-Fi 7 Home Network Upgrade Specifically",
     cards: [
       { label: "Look for", text: "Your specific U7 model's exact power class and link speed rating on Ubiquiti's own spec sheet, since the U7 lineup spans a wide range from standard 2.5G models to the much higher-draw E7 Campus." },
-      { label: "In this comparison", text: "The Ubiquiti UACC-POE+-2.5G adapter matches most standard Wi-Fi 7 UniFi models, while the PROCET pick specifically covers the higher-draw E7 Campus and U7 Pro XG." },
+      { label: "In this comparison", text: "The Ubiquiti UACC-POE+-2.5G adapter matches most standard Wi-Fi 7 UniFi models, while the PROCET pick specifically covers the higher-draw E7 Campus and U7 Pro XG." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You have a UniFi E7 Campus or U7 Pro XG access point, where the PROCET pick's $52.49 price is justified by its named compatibility and full 60W 10Gbps capability those specific models need." },
-      { label: "Save if", text: "You have an older U6-series access point, where the first-party $21.99 UBIQUITI 30W injector delivers exactly matched power without overpaying for unused speed or wattage." },
+      { label: "Spend more if", text: "You have a UniFi E7 Campus or U7 Pro XG access point, where the PROCET pick's under $60 price is justified by its named compatibility and full 60W 10Gbps capability those specific models need." },
+      { label: "Save if", text: "You have an older U6-series access point, where the first-party under $25 UBIQUITI 30W injector delivers exactly matched power without overpaying for unused speed or wattage." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

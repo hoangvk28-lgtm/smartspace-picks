@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "white desk clock";
 export const introParagraphs = [
   "\"White\" desk clocks in this search actually span digital LED displays, mirror-surface designs, and metal-bodied clocks in silver or light tones, so we treated these as genuinely different products rather than assuming color makes them equivalent.",
-  "This overlaps substantially with our silver desk clocks guide, since several products serve both searches.",
+  "This overlaps substantially with our silver desk clocks guide, since several products serve both searches."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41bV8TgkNlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B092D5PZ23?tag=deskfinds0d-20",
     description: "A decorative mirrored clock with crystal accents and a silent movement, a genuinely light, bright aesthetic well-suited to a white-decor desk.\n\nIt earns the top spot in this comparison over Slim LED Digital Alarm Clock for one main reason. Distinctive decorative light-aesthetic design. On price, it's actually priced above Slim LED Digital Alarm Clock, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Silent movement. On the other side, Higher price than the more basic options. That's the main tradeoff to weigh against everything above.",
-    specs: ["8x8x2 in, mirrored with crystal accents","Silent movement","342 reviews at 4.5 stars"],
+    specs: ["8x8x2 in, mirrored with crystal accents","Silent movement"],
     pros: ["Distinctive decorative light-aesthetic design","Silent movement"],
     cons: ["Higher price than the more basic options"],
     bestFor: "Buyers who want a decorative light-toned clock for a bright desk aesthetic.",
@@ -47,7 +47,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51nkvcknNtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXCKLRCQ?tag=deskfinds0d-20",
     description: "A large, well-reviewed mirror-surface LED clock with dimmable brightness, the highest rating in this comparison.\n\nOne spot below Silent Desk Clocks 8x8x2 Inch Crystal Sparkle Twinkle Bling Square Mirrored in this ranking, it's priced lower than Silent Desk Clocks 8x8x2 Inch Crystal Sparkle Twinkle Bling Square Mirrored. The compromise here is straightforward: Mirror surface may not suit every desk aesthetic. What you gain in return: Highest rating in this comparison. Whether that trade is worth it depends on which side matters more to you.\n\nWorth knowing before you decide: Dimming function for adjustable brightness. On the other side, Mirror surface may not suit every desk aesthetic. That's the main tradeoff to weigh against everything above.",
-    specs: ["Mirror-surface LED display","Dimming function","2,514 reviews at 4.6 stars"],
+    specs: ["Mirror-surface LED display","Dimming function"],
     pros: ["Highest rating in this comparison","Dimming function for adjustable brightness"],
     cons: ["Mirror surface may not suit every desk aesthetic"],
     bestFor: "Buyers who want a proven, bright digital option with a light mirror finish.",
@@ -63,7 +63,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41zup4v0gaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYST53T6?tag=deskfinds0d-20",
     description: "By far the largest review base of any pick here, with large legible numbers, at a lower price than the more decorative options.\n\nSitting just under Slim LED Digital Alarm Clock, it's priced lower than Slim LED Digital Alarm Clock. Here's the honest tradeoff: Wooden body, verify light/white colorway on current listing. And here's what it gets you instead: Largest review base and tied-highest rating in this comparison. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Large numbers for strong readability. On the other side, Wooden body, verify light/white colorway on current listing. That's the main tradeoff to weigh against everything above.",
-    specs: ["Digital display, large numbers","6,039 reviews at 4.6 stars"],
+    specs: ["Digital display, large numbers"],
     pros: ["Largest review base and tied-highest rating in this comparison","Large numbers for strong readability"],
     cons: ["Wooden body, verify light/white colorway on current listing"],
     bestFor: "Buyers who want the most proven, legible digital clock.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Honest disclosure of unverifiable listings", description: "Two products in this search's original candidate pool were not accessible through our product data lookup at research time, we disclosed this directly rather than fabricating details." },
   { title: "Distinguished digital, mirror, and decorative designs", description: "We separated these as genuinely different product types rather than treating them as interchangeable because of color." },
   { title: "Review volume and rating together", description: "We weighted both metrics for the products we could verify, prioritizing established review histories." },
-  { title: "Overlap with silver desk clocks noted", description: "We flagged the substantial product overlap with our silver desk clocks guide." },
+  { title: "Overlap with silver desk clocks noted", description: "We flagged the substantial product overlap with our silver desk clocks guide." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -244,14 +244,15 @@ export const buyingCriteria: BuyingCriterion[] = [
 
 export const faq: FaqItem[] = [
   { q: "Are all five products in this comparison verified?", a: "Three are, with full product data. Two listings were not accessible through our product data lookup at research time, verify those directly before buying." },
-  { q: "Which is the most proven option?", a: "The DreamSky Wooden Digital Alarm Clock, with 6,039 reviews at 4.6 stars." },
+  
   { q: "Is there a dimmable option?", a: "Yes, the Slim LED Digital Alarm Clock with mirror surface offers dimming." },
   { q: "How does this overlap with your silver desk clocks guide?", a: "Substantially, several products serve both searches. Check that guide for additional verified options." },
   { q: "What's the most decorative option?", a: "The Silent Desk Clock with crystal sparkle accents, a mirrored design with a bright, decorative aesthetic." },
+  { q: "Does white plastic yellow over time?", a: "Some light plastics can discolor after long exposure to sunlight. Keep the clock out of a sunny window to slow that down. Wiping it with a soft damp cloth keeps a white finish looking clean." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-silver-desk-clocks", title: "Best Silver Desk Clocks (2026)" },
   { href: "/guide/best-black-desk-clocks", title: "Best Black Desk Clocks (2026)" },
-  { href: "/guide/best-desk-clocks", title: "Best Desk Clocks (2026)" },
+  { href: "/guide/best-desk-clocks", title: "Best Desk Clocks (2026)" }
 ];

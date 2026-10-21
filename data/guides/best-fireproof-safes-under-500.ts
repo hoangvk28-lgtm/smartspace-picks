@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     description: "[UPGRADED] Small Safes for Home Dorm, 0.30 Cuft Mini Safe Box and is built around light-duty & small safe, positioning it for under 500 buyers specifically.\n\nCOMPACT DESIGN & BUILT QUALITY is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 500, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["LIGHT-DUTY & SMALL SAFE","COMPACT DESIGN & BUILT QUALITY","HIDDEN HOME SAFE WITH MOUNTING DESIGN"],
     pros: ["LIGHT-DUTY & SMALL SAFE, confirmed directly in the listing's own spec details","COMPACT DESIGN & BUILT QUALITY, confirmed directly in the listing's own spec details","HIDDEN HOME SAFE WITH MOUNTING DESIGN, confirmed directly in the listing's own spec details"],
-    cons: ["At $29.98, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $30, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 500",
   },
   {
@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "SentrySafe Black Fireproof and Waterproof Safe, File Folder and Document Box with Key Lock, measures 14.3 x 15.5 x 13.5 and is built around fire and flood protection for essential papers:, positioning it for under 500 buyers specifically.\n\nDESIGNED FOR IMPORTANT DOCUMENT STORAGE is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 500, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["14.3 x 15.5 x 13.5 dimensions","FIRE AND FLOOD PROTECTION FOR ESSENTIAL PAPERS:","DESIGNED FOR IMPORTANT DOCUMENT STORAGE"],
     pros: ["FIRE AND FLOOD PROTECTION FOR ESSENTIAL PAPERS:, confirmed directly in the listing's own spec details","DESIGNED FOR IMPORTANT DOCUMENT STORAGE, confirmed directly in the listing's own spec details","KEY LOCK SECURITY YOU CONTROL, confirmed directly in the listing's own spec details"],
-    cons: ["At $68.00, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $70, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 500",
   },
   {
@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     description: "Small Safe for Home, 6.69\"H Safe Box with Fireproof Waterproof Bag and is built around compact safe for home use, positioning it for under 500 buyers specifically.\n\nSTEEL STRUCTURE AND ANCHORING DESIGN is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 500, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["COMPACT SAFE FOR HOME USE","STEEL STRUCTURE AND ANCHORING DESIGN","ALARM SYSTEM Deters Roommates, Guests, and Landlord"],
     pros: ["COMPACT SAFE FOR HOME USE, confirmed directly in the listing's own spec details","STEEL STRUCTURE AND ANCHORING DESIGN, confirmed directly in the listing's own spec details","ALARM SYSTEM Deters Roommates, Guests, and Landlord, confirmed directly in the listing's own spec details"],
-    cons: ["At $39.99, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $40, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 500",
   }
 

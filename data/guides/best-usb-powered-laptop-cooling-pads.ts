@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "USB-powered laptop cooling pads";
 export const introParagraphs = [
   "USB power is already the default for nearly every laptop cooling pad on the market, so calling a pad 'USB-powered' on its own doesn't tell you much. What actually varies between these products is the connector type (USB-A versus USB-C, covered in more depth in our dedicated USB-C guide), how much power the fans actually draw from your laptop's port, and whether that draw is worth thinking about when you're running on battery.",
-  "This guide centers on that practical detail: how much a given pad pulls from your laptop, what connector it uses, and what happens to your battery life when you're not plugged into wall power. If connector type specifically is your main concern, see our USB-C laptop cooling pads guide for a deeper breakdown of which pads are genuinely Type-C versus USB-A requiring an adapter.",
+  "This guide centers on that practical detail: how much a given pad pulls from your laptop, what connector it uses, and what happens to your battery life when you're not plugged into wall power. If connector type specifically is your main concern, see our USB-C laptop cooling pads guide for a deeper breakdown of which pads are genuinely Type-C versus USB-A requiring an adapter."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "9 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Actual power draw estimation", description: "Since none of these listings publish a wattage figure, we used fan count, LED lighting, and any adjustable-speed features as proxies for relative power draw, and said so plainly rather than inventing a number." },
   { title: "Connector type verification", description: "We noted USB-A versus USB-C for each pick, cross-referencing our dedicated USB-C guide for buyers whose primary concern is connector type rather than draw." },
   { title: "Battery impact disclosure", description: "We flagged that every pick in this guide draws from the laptop's own battery when used unplugged, since USB power for a cooling pad has no separate battery of its own in any of these products." },
-  { title: "User control over draw", description: "We gave credit to pads offering selectable fan count or adjustable speed, since these let a buyer directly manage power draw rather than being stuck with a fixed level." },
+  { title: "User control over draw", description: "We gave credit to pads offering selectable fan count or adjustable speed, since these let a buyer directly manage power draw rather than being stuck with a fixed level." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -291,11 +291,11 @@ export const faq: FaqItem[] = [
   { q: "How much battery does a USB cooling pad actually use?", a: "None of the listings we researched publish a specific wattage figure, but fan count is a reasonable proxy, more fans generally means more draw. A single-fan pad will use noticeably less than a 12-fan pad." },
   { q: "Will a laptop cooling pad drain my battery faster?", a: "Yes, when used unplugged, since these pads draw power directly from your laptop's own battery rather than having a separate power source. If you work unplugged often, consider a lower fan count or an adjustable-speed pick run at a lower setting." },
   { q: "Can I power a cooling pad from something other than my laptop?", a: "A few pads, like the Targus Dual Fan Chill Mat, can be connected to a separate USB power source such as a wall adapter or powered hub, which keeps the draw off your laptop's own battery entirely." },
-  { q: "Is USB-C or USB-A better for power draw?", a: "Connector type does not itself change power draw, that's driven by fan count and features. See our dedicated USB-C laptop cooling pads guide if connector compatibility with your laptop is your main concern." },
+  { q: "Is USB-C or USB-A better for power draw?", a: "Connector type does not itself change power draw, that's driven by fan count and features. See our dedicated USB-C laptop cooling pads guide if connector compatibility with your laptop is your main concern." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-usb-c-laptop-cooling-pads", title: "Best USB-C Laptop Cooling Pads (2026)" },
   { href: "/guide/best-laptop-cooling-pads-with-external-power", title: "Best Laptop Cooling Pads with External Power (2026)" },
-  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" }
 ];

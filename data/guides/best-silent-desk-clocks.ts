@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "silent desk clock";
 export const introParagraphs = [
   "\"Silent\" in a clock listing almost always refers to a sweep second hand that moves smoothly instead of the audible tick-tick of a stepping mechanism. This guide covers that specific feature. If you searched \"non-ticking desk clock\" instead, that's the same underlying search intent using different words, and our best-non-ticking-desk-clocks guide covers essentially the same ground with a slightly different framing, worth a look if this one doesn't fully answer your question.",
-  "Our verified product pool for this niche is thin: only one clock explicitly markets itself as non-ticking. We're pairing it with two LED digital clocks that are silent by nature of being electronic, no moving second hand at all, since they're a genuinely quiet alternative even though they weren't marketed with the word \"silent.\"",
+  "Our verified product pool for this niche is thin: only one clock explicitly markets itself as non-ticking. We're pairing it with two LED digital clocks that are silent by nature of being electronic, no moving second hand at all, since they're a genuinely quiet alternative even though they weren't marketed with the word \"silent.\""
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "6 min";
@@ -75,7 +75,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Distinguished marketed silence from inherent silence", description: "Separated the one clock explicitly labeled non-ticking from digital clocks that are quiet simply because they have no moving hands, and stated the distinction clearly for each pick." },
   { title: "Checked for sweep versus stepping movement where applicable", description: "Verified that the analog pick uses a sweep second hand rather than a stepping mechanism, since a stepping hand is the actual source of audible ticking." },
   { title: "Assessed display glow as a secondary quiet-space factor", description: "Considered whether LED brightness or dimmer controls affect suitability in a dark, quiet room, since a bright display can be its own kind of desk distraction." },
-  { title: "Cross-checked against the non-ticking desk clocks guide", description: "Confirmed this guide and its near-duplicate sibling cover the same underlying search intent without duplicating identical prose or rankings." },
+  { title: "Cross-checked against the non-ticking desk clocks guide", description: "Confirmed this guide and its near-duplicate sibling cover the same underlying search intent without duplicating identical prose or rankings." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -209,11 +209,11 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "What makes a clock \"silent\"?", a: "Almost always a sweep second hand that moves smoothly instead of a stepping mechanism that produces an audible tick with each second." },
   { q: "Are silent and non-ticking desk clocks the same thing?", a: "Yes, they're the same search intent described with different words. Our best-non-ticking-desk-clocks guide covers the same underlying question from a slightly different angle." },
-  { q: "Are digital clocks automatically silent?", a: "Yes, LED digital clocks have no moving hands, so there's no ticking mechanism to produce noise in the first place, even if they weren't marketed as \"silent.\"" },
+  { q: "Are digital clocks automatically silent?", a: "Yes, LED digital clocks have no moving hands, so there's no ticking mechanism to produce noise in the first place, even if they weren't marketed as \"silent.\"" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-non-ticking-desk-clocks", title: "Best Non-Ticking Desk Clocks (2026)" },
   { href: "/guide/best-minimalist-desk-clocks", title: "Best Minimalist Desk Clocks (2026)" },
-  { href: "/guide/best-led-desk-clocks", title: "Best LED Desk Clocks (2026)" },
+  { href: "/guide/best-led-desk-clocks", title: "Best LED Desk Clocks (2026)" }
 ];

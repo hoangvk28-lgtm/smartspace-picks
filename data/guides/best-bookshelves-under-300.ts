@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Maximum storage variety across open, drawer, and cabinet sections", "HOSTACK 71\" Tall Triple Wide Bookshelf with Drawers & Doors"],
         ["A genuine curio-style glass display cabinet", "CKEASEAN 63\" Tall Bookcase with Glass Doors"],
-        ["The highest weight capacity while saving money", "Tribesigns 6-Tier Bookshelf, 75-Inch Tall"],
+        ["The highest weight capacity while saving money", "Tribesigns 6-Tier Bookshelf, 75-Inch Tall"]
       ],
     },
   },
@@ -116,9 +116,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $180", "FINETONES Corner Bookshelf ($179.99)"],
-        ["$190-$230", "Tribesigns 6-Tier ($189.99) or CKEASEAN Glass Curio ($229.99)"],
-        ["Under $240", "HOSTACK Triple Wide ($239.99)"],
+        ["Under $180", "FINETONES Corner Bookshelf (under $180)"],
+        ["$190-$230", "Tribesigns 6-Tier (under $190) or CKEASEAN Glass Curio (under $250)"],
+        ["Under $240", "HOSTACK Triple Wide (under $250)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Triple-Wide Storage Variety vs Single-Column High Capacity",
     cards: [
       { label: "Triple-Wide Variety (HOSTACK)", text: "Combines open display, drawers, and cabinets in one wide unit, ideal if you need genuinely different storage styles for different item types." },
-      { label: "Single-Column High Capacity (Tribesigns)", text: "Maximizes total weight capacity in a narrower footprint, better suited to a large uniform collection like books alone." },
+      { label: "Single-Column High Capacity (Tribesigns)", text: "Maximizes total weight capacity in a narrower footprint, better suited to a large uniform collection like books alone." }
     ],
     note: "If you're organizing a mix of item types, books, decor, hidden clutter, the HOSTACK triple-wide design serves that variety better. For a large book-focused collection, the Tribesigns pick's higher capacity is the more efficient choice.",
   },
@@ -136,7 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your display preference", "Recommended pick"],
       rows: [
         ["Full glass curio cabinet for collectibles", "CKEASEAN 63\" Tall Bookcase with Glass Doors"],
-        ["Open display with some hidden storage", "HOSTACK Triple Wide or FINETONES Corner"],
+        ["Open display with some hidden storage", "HOSTACK Triple Wide or FINETONES Corner"]
       ],
     },
   },
@@ -144,16 +144,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Room with Limited Straight Wall Space Specifically",
     cards: [
       { label: "Look for", text: "A corner-fitting design that utilizes 90-degree wall space, rather than assuming you need a wide, straight-wall unit like the triple-wide pick." },
-      { label: "In this comparison", text: "The FINETONES Corner Bookshelf is specifically engineered for exactly this scenario, fitting a corner rather than requiring wide straight wall space." },
+      { label: "In this comparison", text: "The FINETONES Corner Bookshelf is specifically engineered for exactly this scenario, fitting a corner rather than requiring wide straight wall space." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want maximum storage variety across open, drawer, and cabinet sections in one substantial unit, where the HOSTACK triple-wide pick delivers the most comprehensive solution in this comparison." },
-      { label: "Save if", text: "High weight capacity is your priority over storage variety, where the Tribesigns pick actually claims a higher capacity than the pricier picks here for $40-50 less." },
+      { label: "Save if", text: "High weight capacity is your priority over storage variety, where the Tribesigns pick actually claims a higher capacity than the pricier picks here for $40-50 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

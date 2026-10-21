@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41sBN01ct7L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0G19VFPJ7?tag=deskfinds0d-20",
-    "description": "Elite Gourmet is a 1.7 liter kettle with a 360 degree swivel base, a clear water level window, a mesh filter and an automatic shut-off at boil. The listing calls it BPA-free and says two cups boil in two minutes or less.\n\nIt is the lowest priced pick at $14.93 and holds the most water, but unlike Proctor Silex above it does not state wattage or boil-dry protection in the features we reviewed. A 1.7 liter jug is more than one person needs at a desk.\n\nA good choice for a shared kitchen or a family. The caveat is that BPA-free does not mean plastic-free, so the water may touch plastic parts.",
+    "description": "Elite Gourmet is a 1.7 liter kettle with a 360 degree swivel base, a clear water level window, a mesh filter and an automatic shut-off at boil. The listing calls it BPA-free and says two cups boil in two minutes or less.\n\nIt is the lowest priced pick at under $15 and holds the most water, but unlike Proctor Silex above it does not state wattage or boil-dry protection in the features we reviewed. A 1.7 liter jug is more than one person needs at a desk.\n\nA good choice for a shared kitchen or a family. The caveat is that BPA-free does not mean plastic-free, so the water may touch plastic parts.",
     "specs": [
       "1.7 liter capacity",
       "360 degree swivel base",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31h66r40HlL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0BNP12RYR?tag=deskfinds0d-20",
-    "description": "This collapsible kettle is made from food grade silicone and 304 stainless steel, with a one button switch, an anti-spill spout, a detachable power cord and auto shut-off. It folds flat for storage.\n\nIt costs $15.49 and takes the least room to store, unlike the rigid kettles above. The tradeoff is that hot water touches silicone, and the listing does not give wattage or capacity in the features we reviewed.\n\nBest for camping or a tiny dorm closet. The caveat is the missing specs, so check wattage and voltage before using it.",
+    "description": "This collapsible kettle is made from food grade silicone and 304 stainless steel, with a one button switch, an anti-spill spout, a detachable power cord and auto shut-off. It folds flat for storage.\n\nIt costs under $20 and takes the least room to store, unlike the rigid kettles above. The tradeoff is that hot water touches silicone, and the listing does not give wattage or capacity in the features we reviewed.\n\nBest for camping or a tiny dorm closet. The caveat is the missing specs, so check wattage and voltage before using it.",
     "specs": [
       "Foldable silicone body",
       "304 stainless steel base",
@@ -335,7 +335,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Save if",
-        "text": "You only need a mug of water. Tanannbay 0.5L Stainless Mini Kettle at $18.99 is small and enough."
+        "text": "You only need a mug of water. Tanannbay 0.5L Stainless Mini Kettle at under $20 is small and enough."
       }
     ]
   }

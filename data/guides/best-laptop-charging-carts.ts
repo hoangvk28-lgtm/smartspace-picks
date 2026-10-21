@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop charging cart";
 export const introParagraphs = [
   "A laptop charging cart's stated device count rarely matches what actually fits once chargers, thick laptops, and adjustable dividers are accounted for. We compared confirmed bay counts, charging architecture (AC pass-through versus USB-C), and locking storage rather than repeating the marketing device count.",
-  "None of these listings had an independently verified per-device wattage breakdown, so we flagged that gap directly rather than assuming a USB-C connector alone proves adequate laptop charging power.",
+  "None of these listings had an independently verified per-device wattage breakdown, so we flagged that gap directly rather than assuming a USB-C connector alone proves adequate laptop charging power."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -62,9 +62,9 @@ export const products: GuideProduct[] = [
     reviews: "78",
     imageUrl: "https://m.media-amazon.com/images/I/41gKt63zFUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B57QJ8QC?tag=deskfinds0d-20",
-    description: "This ships 95% assembled, you attach the caster wheels, cord wrap, and handle, and it's ready, which removes the single biggest friction point for a school unpacking a cart between periods with no dedicated IT setup time. Front and back doors both lock independently, and the ventilated steel frame uses an open American-style design specifically for airflow during simultaneous 20-device charging rather than a sealed cabinet that traps heat.\n\nBuilt-in power strips and structured cable management keep 20 charging cords from turning into a tangle, and the smooth-rolling casters make it genuinely practical to move between rooms or departments rather than being a fixed classroom fixture. At 78 reviews, it has the deepest track record of any 20-device cart in this comparison.\n\nWorth calling out specifically: largest review base among 20-device carts here at 78 reviews. The catch is lower capacity than the 30-device options if your fleet is growing.",
+    description: "This ships 95% assembled, you attach the caster wheels, cord wrap, and handle, and it's ready, which removes the single biggest friction point for a school unpacking a cart between periods with no dedicated IT setup time. Front and back doors both lock independently, and the ventilated steel frame uses an open American-style design specifically for airflow during simultaneous 20-device charging rather than a sealed cabinet that traps heat.\n\nBuilt-in power strips and structured cable management keep 20 charging cords from turning into a tangle, and the smooth-rolling casters make it genuinely practical to move between rooms or departments rather than being a fixed classroom fixture.\n\nThe catch is lower capacity than the 30-device options if your fleet is growing.",
     specs: ["95% pre-assembled (attach wheels, cord wrap, handle only)", "20-device capacity, front + back independent locks", "Ventilated American-style steel frame"],
-    pros: ["95% pre-assembled, minimal setup time versus full-assembly competitors", "Largest review base among 20-device carts here at 78 reviews"],
+    pros: ["95% pre-assembled, minimal setup time versus full-assembly competitors"],
     cons: ["Lower capacity than the 30-device options if your fleet is growing"],
     bestFor: "Classrooms wanting a proven, ready-to-use 20-device cart.",
   },
@@ -147,15 +147,15 @@ export const products: GuideProduct[] = [
     pros: ["Lowest price in this comparison", "Dedicated bottom compartment keeps adapters/cables separate from charging devices"],
     cons: ["No review history available yet", "Lowest capacity in this comparison"],
     bestFor: "Small classrooms or departments on the tightest budget.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Usable bay geometry over stated device count", description: "We compared confirmed capacity claims and screen-size limits rather than assuming every 30-device cart handles the same laptop thickness." },
   { title: "Charging architecture disclosure", description: "None of these listings had an independently verified per-device wattage breakdown in our data pull, so we flagged this gap rather than assuming AC pass-through and USB-C carts charge identically." },
-  { title: "Review base weighted against price", description: "A enterprise cart with 1 review and a cart with 0 reviews both carry real evaluation risk that a simple star rating doesn't capture." },
-  { title: "Capacity-to-price ratio across the fleet-size range", description: "We compared cost per usable bay from 16-device to 42-device carts so buyers can see whether paying for more capacity than they need creates value or waste." },
+  
+  { title: "Capacity-to-price ratio across the fleet-size range", description: "We compared cost per usable bay from 16-device to 42-device carts so buyers can see whether paying for more capacity than they need creates value or waste." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -289,13 +289,13 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "What's the highest-capacity laptop charging cart here?", a: "The Tripp Lite 42-Port AC Mobile Charging Cart, built for enterprise-scale IT deployment." },
   { q: "Is there a mixed-fleet option for Chromebooks, iPads, and laptops together?", a: "Yes, the POCHAR 30 Unit Device Charging Station is explicitly rated for mixed Chromebook, iPad, and 14-inch laptop fleets." },
-  { q: "What's the cheapest option?", a: "The Hupsjer 16-Device Mobile Charging Cart at $189.99, though it has no review history yet in our data." },
+  { q: "What's the cheapest option?", a: "The Hupsjer 16-Device Mobile Charging Cart at under $190, though it has no review history yet in our data." },
   { q: "Can any of these fit larger 15-16 inch laptops?", a: "The VEVOR 20 Device Mobile Charging Cart is the only pick confirmed for screens up to 15.6 inches; the rest cap at 14 inches." },
-  { q: "Do these carts specify exact per-device charging wattage?", a: "No, none of the listings we reviewed had independently verified per-device wattage. Confirm this directly with the seller before ordering." },
+  { q: "Do these carts specify exact per-device charging wattage?", a: "No, none of the listings we reviewed had independently verified per-device wattage. Confirm this directly with the seller before ordering." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-charging-carts-for-schools", title: "Best Laptop Charging Carts for Schools (2026)" },
   { href: "/guide/best-30-laptop-charging-carts", title: "Best 30-Laptop Charging Carts (2026)" },
-  { href: "/guide/best-laptop-charging-carts-for-classrooms", title: "Best Laptop Charging Carts for Classrooms (2026)" },
+  { href: "/guide/best-laptop-charging-carts-for-classrooms", title: "Best Laptop Charging Carts for Classrooms (2026)" }
 ];

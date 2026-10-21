@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "L-Shaped Modern Large Wooden Commercial Reception Desk with Counter & Shelves, Front Reception and is built around modern & versatile, positioning it for 9ft buyers specifically.\n\nALL-IN-ONE STORAGE is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 9ft, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["MODERN & VERSATILE","ALL-IN-ONE STORAGE","DUAL SIZE"],
     pros: ["MODERN & VERSATILE, confirmed directly in the listing's own spec details","ALL-IN-ONE STORAGE, confirmed directly in the listing's own spec details","DUAL SIZE, confirmed directly in the listing's own spec details"],
-    cons: ["At $459.00, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $500, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 9ft",
   },
   {
@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $459.00",
+          "Under $500",
           "L-Shaped Modern Large Wooden Commercial Reception Desk with Counter & Shelves"
         ],
         [
-          "Around $1,259.99",
+          "Under $1,300",
           "78.7\" 2-Person Reception Desk with Counter"
         ],
         [
-          "Around $1,369.00",
+          "Under $1,400",
           "Hulvami Modern Large Commercial Reception Desk"
         ],
         [
-          "Around $1,469.00",
+          "Under $1,500",
           "Fully Assembled Curved Reception Desk"
         ],
         [
-          "Around $1,899.00",
+          "Under $1,900",
           "ONNAHOMEStyle Long Reception Desk"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "L-Shaped Modern Large Wooden Commercial Reception Desk with Counter & Shelves is aimed at buyers looking for 9ft." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "L-Shaped Modern Large Wooden Commercial Reception Desk with Counter & Shelves is aimed at buyers looking for 9ft." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-8ft-reception-desks","title":"4 Best 8ft Reception Desks in 2026"},{"href":"/guide/best-10ft-reception-desks","title":"3 Best 10ft Reception Desks in 2026"},{"href":"/guide/best-90-inch-reception-desks","title":"5 Best 90-Inch Reception Desks in 2026"}];

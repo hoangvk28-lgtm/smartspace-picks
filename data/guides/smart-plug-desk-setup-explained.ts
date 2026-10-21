@@ -12,7 +12,7 @@ export const smartPlugDeskSetupExplainedGuide: Guide = {
     "smart plug uses for desk",
     "schedule desk lamp with smart plug",
     "remote shutdown desk equipment",
-    "smart plug worth it home office",
+    "smart plug worth it home office"
   ],
   heroImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const smartPlugDeskSetupExplainedGuide: Guide = {
     "how-many-outlets-do-you-need-desk-setup",
     "surge-protector-joule-rating-explained",
     "desk-lamp-troubleshooting",
-    "power-strip-vs-surge-protector",
+    "power-strip-vs-surge-protector"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const smartPlugDeskSetupExplainedGuide: Guide = {
       question: "Can a smart plug help remember to turn off equipment when leaving in a hurry?",
       answer:
         "Yes, this is one of its most practical benefits, remotely checking and shutting off desk equipment via a smartphone app after you've already left addresses the common, low-stakes but recurring worry of forgetting to turn something off before stepping away.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const smartPlugDeskSetupExplainedGuide: Guide = {
     {
       heading: "Why Addressing Standby Power Waste Matters More Than It Initially Seems",
       body: `Many electronic devices continue drawing a small trickle of power even when turned off via their own switch but still connected to a wall outlet, commonly called standby or phantom power draw, while individually small, this adds up across multiple devices and accumulates meaningfully over months of continuous operation, a smart plug scheduled to fully cut power during predictable non-use hours, overnight or on weekends for office equipment, eliminates this standby draw more completely and automatically than relying on remembering to physically unplug devices each time.`,
-    },
+    }
   ],
 };

@@ -5,7 +5,7 @@ export const metaDescription = "8 shredders with caster wheels, with an honest n
 export const mainKeyword = "paper shredder with wheels";
 export const introParagraphs = [
   "Caster locking mechanisms directly affect shredding stability, not just mobility. A shredder without lockable casters can shift slightly during operation, especially with an auto-feed hopper vibrating through a run, while locking casters keep the unit stable while actually shredding. We note which picks below address this.",
-  "Also worth knowing: a wheeled shredder's rolling difficulty changes significantly once the bin is full versus empty, and moving it out from under a desk needs pivot/turning clearance, not just straight-line rolling space, both real placement considerations beyond 'has wheels.'",
+  "Also worth knowing: a wheeled shredder's rolling difficulty changes significantly once the bin is full versus empty, and moving it out from under a desk needs pivot/turning clearance, not just straight-line rolling space, both real placement considerations beyond 'has wheels.'"
 ];
 export const lastUpdated = "2026-07-28";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall on Wheels",
     name: "BONSEN 14-Sheet Cross Cut Heavy Duty Paper Shredder for Home Office",
     price: "$84.99",
-    rating: "4.1 stars from 1,061 Amazon ratings",
-    reviews: "1,061 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LSE9gHSWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DTKBX3D9?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Good Casters at Moderate Price",
     name: "Bonsaii 12-Sheet Cross Cut Heavy Duty Paper Shredder for Home Office",
     price: "$79.99",
-    rating: "4.5 stars from 1,685 Amazon ratings",
-    reviews: "1,685 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/310qS+3q87L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5XPJ524?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity on Wheels",
     name: "Amazon Basics 18 Sheet Cross Cut Paper, CD, and Credit Card Shredder",
     price: "$108.00",
-    rating: "4.3 stars from 77,112 Amazon ratings",
-    reviews: "77,112 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31snLzhrJGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07R3FXLLQ?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Sleep-Mode Wheeled Pick",
     name: "Amazon Basics 15-Sheet Cross Cut Paper Shredder for Home and Office",
     price: "$108.00",
-    rating: "4.3 stars from 77,112 Amazon ratings",
-    reviews: "77,112 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31AP7IG-MYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08NY9W23W?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Highest Manual Capacity on Wheels",
     name: "Amazon Basics 24-Sheet Cross Cut High Security Paper Shredder",
     price: "$152.94",
-    rating: "4.3 stars from 77,112 Amazon ratings",
-    reviews: "77,112 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ZVKWNs1oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07WJ4NLFX?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Proven Long-Run Wheeled Pick",
     name: "Bonsaii 18-Sheet Cross-Cut 60-Min Run Heavy Duty Paper Shredder",
     price: "$179.99",
-    rating: "4.6 stars from 10,748 Amazon ratings",
-    reviews: "10,748 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41FCXr1akDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00IOFD08C?tag=deskfinds0d-20",
     description:
@@ -127,8 +127,8 @@ export const products: GuideProduct[] = [
     badge: "Most Proven Track Record",
     name: "Aurora AU1210MA Professional Grade High Security 12-Sheet Micro-Cut Shredder",
     price: "$135.78",
-    rating: "4.7 stars from 9,126 Amazon ratings",
-    reviews: "9,126 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/413GY12YKjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CX4DZ4Z?tag=deskfinds0d-20",
     description:
@@ -144,8 +144,8 @@ export const products: GuideProduct[] = [
     badge: "Compact Wheeled Alternative",
     name: "Bonsaii 12-Sheet Cross Cut Paper Shredder, 5.5 Gal Home Office Heavy Duty",
     price: "$55.24",
-    rating: "4.5 stars from 8,974 Amazon ratings",
-    reviews: "8,974 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31H0gGU7jHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09N991KVT?tag=deskfinds0d-20",
     description:
@@ -154,14 +154,14 @@ export const products: GuideProduct[] = [
     pros: ["Lowest price in this guide", "Compact footprint fits tight spaces", "Portable carry handle for occasional repositioning", "Strong rating and review base"],
     cons: ["Portable handle, not full rolling casters like the other picks", "Shortest continuous run time in this guide", "Less convenient for frequent repositioning than a true wheeled design"],
     bestFor: "Buyers who want occasional portability via a handle rather than full rolling casters",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Caster locking and stability during operation, not just mobility", description: "Distinguished ease-of-movement from stability while actually shredding, since an unlocked caster can allow a shredder to shift slightly during a run, especially with an auto-feed hopper vibrating through a batch." },
   { title: "Full-bin vs. empty-bin rolling difficulty", description: "Noted that a large-bin wheeled shredder is meaningfully harder to roll once full of shredded paper than when empty, a real interaction between bin size and wheel design." },
-  { title: "Pivot and turning clearance for under-desk placement", description: "Flagged that moving a wheeled shredder out from under a desk requires turning/pivot radius, not just straight-line rolling space, a placement planning gap general marketing doesn't address." },
+  { title: "Pivot and turning clearance for under-desk placement", description: "Flagged that moving a wheeled shredder out from under a desk requires turning/pivot radius, not just straight-line rolling space, a placement planning gap general marketing doesn't address." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -294,11 +294,11 @@ export const faq: FaqItem[] = [
   { q: "Can I just roll my wheeled shredder straight out from under my desk?", a: "You'll likely need pivot/turning clearance too, not just straight-line rolling space, to actually maneuver it into an open position. Measure your under-desk space with a turning radius in mind." },
   { q: "Are locking casters important if I have kids or pets at home?", a: "Yes, it's a genuine safety consideration. An unlocked, easily-rolled shredder can be bumped or pulled by curious kids or pets, worth checking for a locking mechanism specifically in a shared home space." },
   { q: "Do wheeled shredders work on carpet as easily as hard flooring?", a: "Less easily, small casters can struggle on thick carpet, check wheel size and type if your office or home has carpeted floors rather than assuming any wheeled design rolls smoothly everywhere." },
-  { q: "Does adding wheels make a shredder bulkier than a stationary model?", a: "Slightly, the wheel base and bin housing typically add a bit of footprint, check the specific listed dimensions against your planned storage spot before assuming it matches a non-wheeled equivalent's size." },
+  { q: "Does adding wheels make a shredder bulkier than a stationary model?", a: "Slightly, the wheel base and bin housing typically add a bit of footprint, check the specific listed dimensions against your planned storage spot before assuming it matches a non-wheeled equivalent's size." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-paper-shredders-with-large-bins", title: "Best Paper Shredders with Large Bins (2026)" },
   { href: "/guide/best-paper-shredders-with-pull-out-bins", title: "Best Paper Shredders with Pull-Out Bins (2026)" },
-  { href: "/guide/best-20-sheet-paper-shredders", title: "Best 20-Sheet Paper Shredders (2026)" },
+  { href: "/guide/best-20-sheet-paper-shredders", title: "Best 20-Sheet Paper Shredders (2026)" }
 ];

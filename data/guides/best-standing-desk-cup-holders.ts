@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "standing desk cup holders";
 export const introParagraphs = [
   "A standing desk's key difference is that its surface moves. We checked whether each holder mounts to the moving desktop itself (so it travels naturally with height adjustment) rather than to a fixed frame component, and whether a full cup risks spilling during the actual raising and lowering motion.",
-  "All five picks below clamp directly to the desktop edge, moving with the desk at any height setting.",
+  "All five picks below clamp directly to the desktop edge, moving with the desk at any height setting."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Desktop-mounted vs. frame-mounted", description: "We confirmed each pick clamps to the moving desktop surface itself, so it travels naturally with height adjustment rather than staying at a fixed frame height." },
   { title: "Stability during height-adjustment motion", description: "We considered whether a full cup risks spilling during the actual raising and lowering transition, particularly for desks that move quickly." },
   { title: "Full height-range positioning comfort", description: "We noted whether the holder's position remains comfortably reachable across the desk's full height-adjustment range, not just at one set height." },
-  { title: "Thick desktop compatibility", description: "We checked clamp opening ranges against the thicker, laminated desktop edges common on many standing desk models." },
+  { title: "Thick desktop compatibility", description: "We checked clamp opening ranges against the thicker, laminated desktop edges common on many standing desk models." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -229,11 +229,11 @@ export const faq: FaqItem[] = [
   { q: "Can my drink spill during the height-adjustment motion?", a: "Risk is minimal for typical desk motor speeds, but if your desk moves quickly or with a jolt, a deeper cavity design like the OOKUU Deeper pick provides extra spill-resistance margin." },
   { q: "Will these clamps fit my standing desk's thicker desktop?", a: "The Universal and OOKUU picks are well-suited for thicker laminated desktops. Measure your specific desktop edge thickness against the stated clamp range before ordering." },
   { q: "Is a rotating cup holder worth it for a standing desk?", a: "It can be, since your natural reach angle changes between sitting and standing positions, and a rotating base lets you adjust the cup's position accordingly." },
-  { q: "Do I need a different holder for sitting vs. standing use?", a: "No, a single desktop-mounted holder works at any height setting since it travels with the desk. You don't need separate holders for each position." },
+  { q: "Do I need a different holder for sitting vs. standing use?", a: "No, a single desktop-mounted holder works at any height setting since it travels with the desk. You don't need separate holders for each position." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-cup-holders", title: "Best Desk Cup Holders (2026)" },
   { href: "/guide/best-anti-spill-desk-cup-holders", title: "Best Anti-Spill Desk Cup Holders (2026)" },
-  { href: "/guide/best-computer-desk-cup-holders", title: "Best Computer Desk Cup Holders (2026)" },
+  { href: "/guide/best-computer-desk-cup-holders", title: "Best Computer Desk Cup Holders (2026)" }
 ];

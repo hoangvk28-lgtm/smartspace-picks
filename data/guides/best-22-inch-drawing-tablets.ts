@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $299.99",
+          "Under $300",
           "HUION KAMVAS 22"
         ],
         [
-          "Around $359.99",
+          "Under $400",
           "XPPen Artist 22 2nd Computer Graphics Tablet"
         ],
         [
-          "Around $429.99",
+          "Under $450",
           "XPPen Artist 22R Pro Computer Graphics Tablet"
         ],
         [
-          "Around $429.99",
+          "Under $450",
           "XPPen Artist 22 Plus"
         ],
         [
-          "Around $699.99",
+          "Under $700",
           "XPPen Artist Pro 22 Gen 2"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "XPPen Artist 22R Pro Computer Graphics Tablet is aimed at buyers prioritizing 21.5in fhd, 120% srgb, 8192 pressure." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "XPPen Artist 22R Pro Computer Graphics Tablet is aimed at buyers prioritizing 21.5in fhd, 120% srgb, 8192 pressure." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-16-inch-drawing-tablets","title":"Best 16-Inch Drawing Tablets in 2026"},{"href":"/guide/best-24-inch-drawing-tablets","title":"Best 24-Inch Drawing Tablets in 2026"},{"href":"/guide/best-13-inch-drawing-tablets","title":"Best 13-Inch Drawing Tablets in 2026"}];

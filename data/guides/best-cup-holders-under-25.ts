@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/516hy24+2bL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H69S39K2?tag=deskfinds0d-20",
-    "description": "4-in-1 Metal Clamp Cup Holder Attachment is built around robust & stable build:crafted with, paired with wide compatibility for all drinkware, positioning it as a clamp-on accessory built to keep drinks off the desk surface rather than a standalone furniture piece.\n\nSitting at $23.99, the top of this comparison's price range, it asks buyers to confirm the added capability is actually worth it over the more affordable picks here before paying the premium.\n\n4-in-1 Metal Clamp Cup Holder Attachment is the right call for buyers who want a spill-resistant drink spot without giving up desk surface area. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "4-in-1 Metal Clamp Cup Holder Attachment is built around robust & stable build:crafted with, paired with wide compatibility for all drinkware, positioning it as a clamp-on accessory built to keep drinks off the desk surface rather than a standalone furniture piece.\n\nSitting at under $25, the top of this comparison's price range, it asks buyers to confirm the added capability is actually worth it over the more affordable picks here before paying the premium.\n\n4-in-1 Metal Clamp Cup Holder Attachment is the right call for buyers who want a spill-resistant drink spot without giving up desk surface area. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Robust & Stable Build:Crafted with",
       "Wide Compatibility for All Drinkware",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31rK8W2waXL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FH22PKSV?tag=deskfinds0d-20",
-    "description": "Universal Large Desk Cup Holder Clamp on is built around fits most cups & bottles, paired with heavy-duty clamp with non-slip grip, positioning it as a clamp-on accessory built to keep drinks off the desk surface rather than a standalone furniture piece.\n\nCompared to Bonsicoky Anti Spill Cup Holder at $7.99, it costs more for real added capability, while sitting well below 4-in-1 Metal Clamp Cup Holder Attachment at $23.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want a spill-resistant drink spot without giving up desk surface area. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "Universal Large Desk Cup Holder Clamp on is built around fits most cups & bottles, paired with heavy-duty clamp with non-slip grip, positioning it as a clamp-on accessory built to keep drinks off the desk surface rather than a standalone furniture piece.\n\nCompared to Bonsicoky Anti Spill Cup Holder at under $8, it costs more for real added capability, while sitting well below 4-in-1 Metal Clamp Cup Holder Attachment at under $25 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want a spill-resistant drink spot without giving up desk surface area. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Fits Most Cups & Bottles",
       "Heavy-Duty Clamp with Non-Slip Grip",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31RlnhCPYCL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07BJ7TWQQ?tag=deskfinds0d-20",
-    "description": "HIT PRODUCTS TableCoaster leads with anti-spill drink holder, backed by portable & non-slip, a combination aimed at as a clamp-on accessory built to keep drinks off the desk surface rather than a standalone furniture piece.\n\nIt lands between Bonsicoky Anti Spill Cup Holder's $7.99 price floor and 4-in-1 Metal Clamp Cup Holder Attachment's $23.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nHIT PRODUCTS TableCoaster is the right call for buyers who want a spill-resistant drink spot without giving up desk surface area. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "HIT PRODUCTS TableCoaster leads with anti-spill drink holder, backed by portable & non-slip, a combination aimed at as a clamp-on accessory built to keep drinks off the desk surface rather than a standalone furniture piece.\n\nIt lands between Bonsicoky Anti Spill Cup Holder's under $8 price floor and 4-in-1 Metal Clamp Cup Holder Attachment's under $25 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nHIT PRODUCTS TableCoaster is the right call for buyers who want a spill-resistant drink spot without giving up desk surface area. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Anti-spill Drink Holder",
       "Portable & Non-slip",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41T1xM80oAL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0F1TRQVR1?tag=deskfinds0d-20",
-    "description": "What stands out on XULIONTS No Drill Desk Cup Holder Clamp is deeper and large desk cup holder, alongside 360-degree rotatable & u-slot design:this, which is the main reason it earns a spot in this cup holders comparison.\n\nIt lands between Bonsicoky Anti Spill Cup Holder's $7.99 price floor and 4-in-1 Metal Clamp Cup Holder Attachment's $23.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nXULIONTS No Drill Desk Cup Holder Clamp is the right call for buyers who want a spill-resistant drink spot without giving up desk surface area. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on XULIONTS No Drill Desk Cup Holder Clamp is deeper and large desk cup holder, alongside 360-degree rotatable & u-slot design:this, which is the main reason it earns a spot in this cup holders comparison.\n\nIt lands between Bonsicoky Anti Spill Cup Holder's under $8 price floor and 4-in-1 Metal Clamp Cup Holder Attachment's under $25 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nXULIONTS No Drill Desk Cup Holder Clamp is the right call for buyers who want a spill-resistant drink spot without giving up desk surface area. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Deeper and Large Desk Cup Holder",
       "360-degree Rotatable & U-Slot Design:This",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31hWhItOydL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GK6S9C21?tag=deskfinds0d-20",
-    "description": "Bonsicoky 2 Pack Anti Spill Cup Holders is built around universal adjustable fit, paired with secure adhesive attachment, positioning it as a clamp-on accessory built to keep drinks off the desk surface rather than a standalone furniture piece.\n\nCompared to Bonsicoky Anti Spill Cup Holder at $7.99, it costs more for real added capability, while sitting well below 4-in-1 Metal Clamp Cup Holder Attachment at $23.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want a spill-resistant drink spot without giving up desk surface area. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "Bonsicoky 2 Pack Anti Spill Cup Holders is built around universal adjustable fit, paired with secure adhesive attachment, positioning it as a clamp-on accessory built to keep drinks off the desk surface rather than a standalone furniture piece.\n\nCompared to Bonsicoky Anti Spill Cup Holder at under $8, it costs more for real added capability, while sitting well below 4-in-1 Metal Clamp Cup Holder Attachment at under $25 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want a spill-resistant drink spot without giving up desk surface area. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Universal adjustable fit",
       "Secure adhesive attachment",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41YQM1m9fmL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FFMTJGQH?tag=deskfinds0d-20",
-    "description": "What stands out on CABTE 2 in 1 Desk Cup Holder with Headphone Hanger Holder is two-in-one function, alongside 360-degreerotating design, which is the main reason it earns a spot in this cup holders comparison.\n\nIt lands between Bonsicoky Anti Spill Cup Holder's $7.99 price floor and 4-in-1 Metal Clamp Cup Holder Attachment's $23.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nCABTE 2 in 1 Desk Cup Holder with Headphone Hanger Holder is the right call for buyers who want a spill-resistant drink spot without giving up desk surface area. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on CABTE 2 in 1 Desk Cup Holder with Headphone Hanger Holder is two-in-one function, alongside 360-degreerotating design, which is the main reason it earns a spot in this cup holders comparison.\n\nIt lands between Bonsicoky Anti Spill Cup Holder's under $8 price floor and 4-in-1 Metal Clamp Cup Holder Attachment's under $25 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nCABTE 2 in 1 Desk Cup Holder with Headphone Hanger Holder is the right call for buyers who want a spill-resistant drink spot without giving up desk surface area. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Two-in-one function",
       "360-degreerotating Design",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31ZlojGRtyL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09V1BFND6?tag=deskfinds0d-20",
-    "description": "Samhe Anti-Spill Cup Holder Adjustable Desk Drink Holder is built around anti-spill desk cup holder, paired with convenient drink holder, positioning it as a clamp-on accessory built to keep drinks off the desk surface rather than a standalone furniture piece.\n\nCompared to Bonsicoky Anti Spill Cup Holder at $7.99, it costs more for real added capability, while sitting well below 4-in-1 Metal Clamp Cup Holder Attachment at $23.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want a spill-resistant drink spot without giving up desk surface area. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "Samhe Anti-Spill Cup Holder Adjustable Desk Drink Holder is built around anti-spill desk cup holder, paired with convenient drink holder, positioning it as a clamp-on accessory built to keep drinks off the desk surface rather than a standalone furniture piece.\n\nCompared to Bonsicoky Anti Spill Cup Holder at under $8, it costs more for real added capability, while sitting well below 4-in-1 Metal Clamp Cup Holder Attachment at under $25 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want a spill-resistant drink spot without giving up desk surface area. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Anti-spill Desk Cup Holder",
       "Convenient Drink Holder",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31UnCJ0-FgL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DP4QCBL1?tag=deskfinds0d-20",
-    "description": "Bonsicoky Anti Spill Cup Holder is built around durable and high-quality materials, paired with waterproof and practical design, positioning it as a clamp-on accessory built to keep drinks off the desk surface rather than a standalone furniture piece.\n\nPriced at $7.99, the lowest in this lineup, it trades some of the extras found on pricier picks here for a lower upfront cost, a reasonable tradeoff if your needs are basic.\n\nBonsicoky Anti Spill Cup Holder is the right call for buyers who want a spill-resistant drink spot without giving up desk surface area. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "Bonsicoky Anti Spill Cup Holder is built around durable and high-quality materials, paired with waterproof and practical design, positioning it as a clamp-on accessory built to keep drinks off the desk surface rather than a standalone furniture piece.\n\nPriced at under $8, the lowest in this lineup, it trades some of the extras found on pricier picks here for a lower upfront cost, a reasonable tradeoff if your needs are basic.\n\nBonsicoky Anti Spill Cup Holder is the right call for buyers who want a spill-resistant drink spot without giving up desk surface area. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Durable and High-Quality Materials",
       "Waterproof and Practical Design",
@@ -321,35 +321,35 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $7.99",
+          "Under $8",
           "Bonsicoky Anti Spill Cup Holder"
         ],
         [
-          "Around $9.99",
+          "Under $10",
           "Samhe Anti-Spill Cup Holder Adjustable Desk Drink Holder"
         ],
         [
-          "Around $12.99",
+          "Under $15",
           "CABTE 2 in 1 Desk Cup Holder with Headphone Hanger Holder"
         ],
         [
-          "Around $13.99",
+          "Under $15",
           "Bonsicoky 2 Pack Anti Spill Cup Holders"
         ],
         [
-          "Around $15.98",
+          "Under $20",
           "XULIONTS No Drill Desk Cup Holder Clamp"
         ],
         [
-          "Around $17.99",
+          "Under $20",
           "HIT PRODUCTS TableCoaster"
         ],
         [
-          "Around $21.99",
+          "Under $25",
           "Universal Large Desk Cup Holder Clamp on"
         ],
         [
-          "Around $23.99",
+          "Under $25",
           "4-in-1 Metal Clamp Cup Holder Attachment"
         ]
       ]
@@ -360,11 +360,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Bonsicoky Anti Spill Cup Holder",
-        "text": "The lowest-priced pick in this comparison at $7.99, a solid choice if you don't need the extras the pricier picks carry."
+        "text": "The lowest-priced pick in this comparison at under $8, a solid choice if you don't need the extras the pricier picks carry."
       },
       {
         "label": "4-in-1 Metal Clamp Cup Holder Attachment",
-        "text": "The highest-priced pick at $23.99, worth it only if you'll actually use what that premium buys."
+        "text": "The highest-priced pick at under $25, worth it only if you'll actually use what that premium buys."
       }
     ],
     "note": "Default to Bonsicoky Anti Spill Cup Holder unless the pricier pick's specific advantage genuinely applies to your situation."
@@ -424,7 +424,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "What's the real difference between the cheapest and most expensive pick here?",
-    "a": "Bonsicoky Anti Spill Cup Holder at $7.99 covers the basics, while 4-in-1 Metal Clamp Cup Holder Attachment at $23.99 adds a rotating arm and more secure anti-spill design. Whether that's worth the difference depends on whether you work near sensitive electronics where a spill would be costly, versus casual desk use."
+    "a": "Bonsicoky Anti Spill Cup Holder at under $8 covers the basics, while 4-in-1 Metal Clamp Cup Holder Attachment at under $25 adds a rotating arm and more secure anti-spill design. Whether that's worth the difference depends on whether you work near sensitive electronics where a spill would be costly, versus casual desk use."
   },
   {
     "q": "Will a clamp-on cup holder fit any desk?",
@@ -436,7 +436,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "Is there a solid middle-ground pick in this price range?",
-    "a": "XULIONTS No Drill Desk Cup Holder Clamp at $15.98 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
+    "a": "XULIONTS No Drill Desk Cup Holder Clamp at under $20 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
   },
   {
     "q": "What's the most common mistake buyers make shopping cup holders under $25?",

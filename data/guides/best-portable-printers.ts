@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "best portable printer";
 export const introParagraphs = [
   "A portable printer's rated page-per-charge number is measured under ideal, simplified conditions, and real mixed-content printing (denser text, graphics, or photos) typically drains the battery faster and yields fewer pages than the spec sheet suggests. Charging time is just as important as capacity for travel, since a printer that takes hours to recharge is less useful on a trip than one with a lower rated count but a faster top-up, and cartridge or paper availability matters too since specialty ink cartridges and thermal paper rolls are not something you can grab at any convenience store while traveling.",
-  "Below are 7 printers we evaluated for genuine portability, battery-backed models built for travel plus a few compact wireless AIOs that some buyers grab for lighter travel use, covering real-world battery expectations, spare-supply planning, and travel durability, ranging from a $39.99 inkless thermal printer to a $199.99 cartridge-free tank printer.",
+  "Below are 7 printers we evaluated for genuine portability, battery-backed models built for travel plus a few compact wireless AIOs that some buyers grab for lighter travel use, covering real-world battery expectations, spare-supply planning, and travel durability, ranging from an under-$40 inkless thermal printer to an under-$200 cartridge-free tank printer."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "1.44 inch display",
       "50-sheet paper tray",
       "Lightweight, compact travel-focused design",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     pros: [
       "Purpose-built portable design with battery",
       "Larger 50-sheet tray than most portable printers",
       "Display for status without a phone app",
-      "True inkjet print quality on the go",
+      "True inkjet print quality on the go"
     ],
     cons: [
       "Cartridges aren't available at typical travel stops, pack spares",
       "No stated drop resistance or dust sealing",
-      "Real battery life for mixed content is lower than the rated page count",
+      "Real battery life for mixed content is lower than the rated page count"
     ],
     bestFor: "Travelers who want genuine inkjet quality in a purpose-built portable body",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Bluetooth wireless connectivity",
       "Supports 8.5 x 11 inch thermal paper",
       "Includes carry case and 3 paper rolls",
-      "Compact, lightweight body",
+      "Compact, lightweight body"
     ],
     pros: [
       "No ink to run out or replace",
       "Includes carry case and starter paper rolls",
       "Genuinely compact for a bag or backpack",
-      "Lower upfront cost than the Canon TR160",
+      "Lower upfront cost than the Canon TR160"
     ],
     cons: [
       "Black and white output only, no full-color photo printing",
       "Thermal prints fade over time, not ideal for permanent records",
-      "Ongoing thermal paper cost replaces ink cost",
+      "Ongoing thermal paper cost replaces ink cost"
     ],
     bestFor: "Travelers who want the smallest, lightest option and don't need color or archival-quality prints",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Bluetooth wireless connectivity",
       "Supports 8.5 x 11 inch Letter and A4 paper",
       "Compatible with iOS, Android, laptop",
-      "Compact, budget-friendly body",
+      "Compact, budget-friendly body"
     ],
     pros: [
-      "Lowest price in this list at $39.99",
+      "Lowest price in this list at under $40",
       "No ink cartridges to run out of",
       "Broad device compatibility",
-      "Very lightweight for a bag or backpack",
+      "Very lightweight for a bag or backpack"
     ],
     cons: [
       "Black and white output only",
       "Thermal prints fade over time",
-      "Lighter-duty build than pricier portable picks",
+      "Lighter-duty build than pricier portable picks"
     ],
     bestFor: "Budget-conscious travelers who mainly need black and white printing on the go",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Auto document feeder",
       "Wireless network printing",
       "Full-size AIO, no battery",
-      "Fax capability",
+      "Fax capability"
     ],
     pros: [
       "No cartridge sourcing needed during an extended stay",
       "Full color inkjet print quality, unlike inkless thermal picks",
       "Auto document feeder for scanning paperwork",
-      "Low cost per page for extended use",
+      "Low cost per page for extended use"
     ],
     cons: [
       "Not battery-powered, requires a wall outlet",
       "Too large and heavy for carry-on travel",
-      "Only worth it for extended stays, not short trips",
+      "Only worth it for extended stays, not short trips"
     ],
     bestFor: "Extended stays or relocations where a full-size printer is worth the space",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "1.8 inch color display",
       "Wireless network printing",
       "Full-size AIO, no battery",
-      "Refresh Subscription ink trial included",
+      "Refresh Subscription ink trial included"
     ],
     pros: [
       "Full color print quality",
       "Automatic duplex saves paper",
       "Solid everyday printer once set up",
-      "Reasonable price for a full AIO",
+      "Reasonable price for a full AIO"
     ],
     cons: [
       "Not battery-powered or truly portable",
       "Requires cartridge restocking like any standard printer",
-      "Too bulky for carry-on travel",
+      "Too bulky for carry-on travel"
     ],
     bestFor: "Temporary home office setups on an extended work trip, not day-to-day travel",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Scan and copy functions",
       "3-month Instant Ink trial included",
       "Full-size AIO, no battery",
-      "Compact footprint among AIOs",
+      "Compact footprint among AIOs"
     ],
     pros: [
       "Cheapest full-featured AIO in this list",
       "Scan and copy functions beyond print-only portables",
       "Compact enough to pack in checked luggage",
-      "Simple setup via HP Smart app",
+      "Simple setup via HP Smart app"
     ],
     cons: [
       "Not battery-powered or pocket-portable",
       "Instant Ink trial auto-converts unless canceled",
-      "Requires a stable outlet and surface",
+      "Requires a stable outlet and surface"
     ],
     bestFor: "Extended stays needing scan and copy functions in the lightest full AIO option",
   },
@@ -249,21 +249,21 @@ export const products: GuideProduct[] = [
       "Wireless network printing",
       "Full-size AIO, no battery",
       "Built-in fax",
-      "Compact footprint among AIOs",
+      "Compact footprint among AIOs"
     ],
     pros: [
       "Auto document feeder for scanning paperwork",
       "Lowest price among the full AIO options here",
       "Compact enough for checked luggage if needed",
-      "Reliable wireless setup",
+      "Reliable wireless setup"
     ],
     cons: [
       "Not battery-powered or genuinely pocket-portable",
       "Cartridges need advance planning at unfamiliar destinations",
-      "Fax feature is unnecessary for most travelers",
+      "Fax feature is unnecessary for most travelers"
     ],
     bestFor: "Longer relocations that need a document feeder in a compact full AIO",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -296,7 +296,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Value for price",
     description:
       "Weighed portability, output quality, and consumable cost against price across the range of price points in this comparison in this list.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -450,11 +450,11 @@ export const faq: FaqItem[] = [
   {
     q: "Why are non-battery printers included in a portable printer guide?",
     a: "Some travelers, particularly those on an extended relocation, semester abroad, or long work assignment, pack a standard plug-in AIO because it earns its space over weeks or months even though it isn't battery-powered. We've labeled these clearly so you don't mistake them for on-the-go printers.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-printers-for-small-spaces", title: "Best Mini Printers for Small Spaces (2026)" },
   { href: "/guide/best-printers-for-iphone-and-ipad", title: "Best Printers for iPhone and iPad (2026)" },
-  { href: "/guide/best-printers-for-windows-11", title: "Best Printers for Windows 11 (2026)" },
+  { href: "/guide/best-printers-for-windows-11", title: "Best Printers for Windows 11 (2026)" }
 ];

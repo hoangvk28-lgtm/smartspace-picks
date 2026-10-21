@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "nas for photo and video storage";
 export const introParagraphs = [
   "A NAS built for photo and video storage has to handle much larger files than a typical document backup NAS, and network speed usually matters more than raw drive capacity once you're editing directly off the array. A 4K H.264 project can run 45GB per hour of footage, while 4K RAW from a cinema camera can hit 250-500GB per hour, so the gap between a 1GbE NAS and a 2.5GbE or 10GbE model shows up fast once real footage starts moving.",
-  "Below are 8 NAS for photo and video storage we evaluated on network speed, processor tier for transcoding, expansion room, and how honestly each one is positioned for creative workloads rather than generic home backup, ranging from a $199.99 entry-level 2-bay to a $619.99 Intel Pentium Gold 4-bay built for heavier editing.",
+  "Below are 8 NAS for photo and video storage we evaluated on network speed, processor tier for transcoding, expansion room, and how honestly each one is positioned for creative workloads rather than generic home backup, ranging from an under-$200 entry-level 2-bay to an under-$650 Intel Pentium Gold 4-bay built for heavier editing."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Positioned for content creators and enthusiasts",
       "RAID 1 support for mirrored redundancy",
       "Standard 1GbE networking",
-      "Diskless, drives sold separately",
+      "Diskless, drives sold separately"
     ],
     pros: [
       "Marketed specifically for creative workflows",
       "Simple 2-bay setup keeps entry cost down",
       "RAID 1 protects a single working drive",
-      "Room to scale into a larger creative NAS setup later",
+      "Room to scale into a larger creative NAS setup later"
     ],
     cons: [
       "1GbE networking caps large transfer speed",
       "No hardware specs disclosed for RAW transcoding",
-      "2 bays limit long-term capacity growth",
+      "2 bays limit long-term capacity growth"
     ],
     bestFor: "Solo creators moving off an external USB drive for the first time",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Synology DSM software",
       "Centralized file and data protection focus",
       "Standard 1GbE networking",
-      "Home and small office positioning",
+      "Home and small office positioning"
     ],
     pros: [
       "Well-known, mature DSM software ecosystem",
       "Straightforward setup for file centralization",
       "Good fit for photo archive organization",
-      "Lower price than the creator-tier picks",
+      "Lower price than the creator-tier picks"
     ],
     cons: [
       "1GbE networking limits large video transfer speed",
       "Diskless, so drives add meaningfully to total cost",
-      "Not positioned for heavy transcoding workloads",
+      "Not positioned for heavy transcoding workloads"
     ],
     bestFor: "Buyers who want a mature, easy-to-manage photo and video archive on a budget",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "8GB RAM included",
       "QNAP QTS software platform",
       "Desktop form factor",
-      "Diskless, drives sold separately",
+      "Diskless, drives sold separately"
     ],
     pros: [
       "8GB RAM out of the box, more than most 2-bay NAS",
       "QNAP's app ecosystem covers photo and video management",
       "Good middle ground between budget and full editing NAS",
-      "Desktop form factor is easy to place near a workstation",
+      "Desktop form factor is easy to place near a workstation"
     ],
     cons: [
       "Priciest 2-bay pick in this list",
       "Still only 2 bays, limiting long-term expansion",
-      "Network speed spec not disclosed for this listing",
+      "Network speed spec not disclosed for this listing"
     ],
     bestFor: "Buyers who want extra RAM headroom for active editing without moving to a 4-bay unit",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Built-in 2.5GbE networking",
       "QNAP QTS software platform",
       "Desktop form factor",
-      "Diskless, drives sold separately",
+      "Diskless, drives sold separately"
     ],
     pros: [
       "2.5GbE networking at a competitive 2-bay price",
       "Roughly 2.4x the transfer speed of 1GbE NAS models",
       "QNAP app ecosystem for photo and video workflows",
-      "Reasonable entry price for the networking upgrade",
+      "Reasonable entry price for the networking upgrade"
     ],
     cons: [
       "Requires a 2.5GbE switch or router to see the speed benefit",
       "Only 2 bays for long-term capacity growth",
-      "Lower RAM than the TS-264 in this list",
+      "Lower RAM than the TS-264 in this list"
     ],
     bestFor: "Buyers who want the 2.5GbE speed upgrade without paying for a 4-bay chassis",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Quad-core 1.7GHz CPU",
       "Built-in 2.5GbE networking",
       "1GB DDR4 RAM",
-      "4K media server support",
+      "4K media server support"
     ],
     pros: [
-      "Cheapest pick in this list at $199.99",
+      "Cheapest pick in this list at under $200",
       "2.5GbE networking included at an entry price",
       "Quad-core CPU handles 4K media serving",
-      "Good personal cloud option for a single user",
+      "Good personal cloud option for a single user"
     ],
     cons: [
       "Only 1GB RAM limits multitasking under load",
       "Best suited to single-user rather than shared workflows",
-      "2 bays cap long-term storage growth",
+      "2 bays cap long-term storage growth"
     ],
     bestFor: "Budget-conscious solo creators who still want 2.5GbE speed",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Intel x86 quad-core CPU",
       "4GB RAM",
       "2.5GbE LAN",
-      "Multimedia server support",
+      "Multimedia server support"
     ],
     pros: [
       "Intel x86 CPU offers stronger transcoding support than ARM",
       "4GB RAM is generous for a 2-bay NAS",
       "2.5GbE networking included",
-      "Strong processor-to-price ratio in this list",
+      "Strong processor-to-price ratio in this list"
     ],
     cons: [
       "2 bays still cap long-term expansion",
       "Higher price than the Asustor budget pick",
-      "H.265 hardware transcoding capability not independently confirmed for this specific model",
+      "H.265 hardware transcoding capability not independently confirmed for this specific model"
     ],
     bestFor: "Editors who want a stronger CPU for transcoding without stepping up to a 4-bay unit",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Intel Pentium Gold 8505 5-core CPU",
       "Supports RAID 5 for larger arrays",
       "Higher-tier processor for transcoding workloads",
-      "Expandable to larger total capacity than 2-bay picks",
+      "Expandable to larger total capacity than 2-bay picks"
     ],
     pros: [
       "Strongest CPU in this list for transcoding and multitasking",
       "4 bays support RAID 5 with meaningfully more usable capacity",
       "Best fit for a growing or professional photo and video archive",
-      "Room to add drives over time rather than replacing the whole unit",
+      "Room to add drives over time rather than replacing the whole unit"
     ],
     cons: [
       "Most expensive enclosure in this list",
       "4 drives add substantial cost on top of the enclosure price",
-      "Overkill for a single casual photo hobbyist",
+      "Overkill for a single casual photo hobbyist"
     ],
     bestFor: "Buyers with a genuinely large or growing photo and video archive who need real transcoding power",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Supports up to 64TB total capacity",
       "Budget-tier processor and networking",
       "Compact desktop form factor",
-      "Entry-level pricing",
+      "Entry-level pricing"
     ],
     pros: [
       "Ties for the lowest price in this list",
       "Up to 64TB total capacity supported across 2 bays",
       "Good fit for a growing but budget-conscious photo archive",
-      "Simple desktop setup",
+      "Simple desktop setup"
     ],
     cons: [
       "Budget-tier CPU is less suited to heavy transcoding",
       "2 bays cap long-term expansion versus a 4-bay unit",
-      "Networking speed not positioned for demanding multi-stream editing",
+      "Networking speed not positioned for demanding multi-stream editing"
     ],
     bestFor: "Budget buyers who want maximum supported capacity in a 2-bay archive NAS",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Fit for editing versus archiving",
     description: "Distinguished NAS positioned for active editing workloads from NAS better suited to storing finished exports and organized libraries.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -466,11 +466,11 @@ export const faq: FaqItem[] = [
   {
     q: "Why is the total cost so much higher than the NAS enclosure price?",
     a: "Every NAS in this list is diskless, meaning drives are sold separately. A 2-bay enclosure plus 2 NAS-grade drives, or a 4-bay plus 4 drives, commonly runs close to double the enclosure's listed price. Always budget the full enclosure-plus-drives total before comparing prices across different bay counts.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-nas-for-plex-media-servers", title: "Best NAS for Plex Media Servers (2026)" },
   { href: "/guide/best-docking-stations-for-small-desks", title: "Best Docking Stations for Small Desks (2026)" },
-  { href: "/guide/best-budget-docking-stations-under-100", title: "Best Budget Docking Stations Under $100 (2026)" },
+  { href: "/guide/best-budget-docking-stations-under-100", title: "Best Budget Docking Stations Under $100 (2026)" }
 ];

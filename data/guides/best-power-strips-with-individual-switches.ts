@@ -5,7 +5,7 @@ export const metaDescription = "5 power strips with individual switches we evalu
 export const mainKeyword = "power strip individual switches";
 export const introParagraphs = [
   "Individual switches control power delivery per outlet, but this doesn't necessarily indicate independent internal circuits, some budget models group two outlets per switch despite implying full independence, verify against the actual wiring rather than the visual presence of multiple switches.",
-  "Switched outlets still draw standby power for the strip's own indicator LEDs and any always-on surge-protection circuitry, individual switches don't fully eliminate phantom load for the whole unit, a nuance rarely explained in energy-saving marketing.",
+  "Switched outlets still draw standby power for the strip's own indicator LEDs and any always-on surge-protection circuitry, individual switches don't fully eliminate phantom load for the whole unit, a nuance rarely explained in energy-saving marketing."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Individual Control Pick Overall",
     name: "POWSAV 6 Ft WiFi Surge Protector - 8 Outlet Extension Cord with 4 Smart & 4 Always On Outlets, 4 USB Ports, Alexa & Google Home Compatible, Black",
     price: "$26.97",
-    rating: "4.4 stars from 1,864 Amazon ratings",
-    reviews: "1,864 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41YbTChnPVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B5G6MDQ6?tag=deskfinds0d-20",
     description: "4 individually smart-controlled outlets alongside 4 always-on outlets, genuinely useful for turning off specific devices without cutting power to everything, like a router you want always powered. Works with Alexa and Google Home.\n\nIt earns the top spot in this comparison over kasa smart Plug Power Strip KP303 for one main reason. Genuine mix of individually controlled and always-on outlets. On price, it's actually priced above kasa smart Plug Power Strip KP303, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Works with Alexa and Google Home. On the other side, Smaller review base than mass-market picks. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Fully Independent Switch Pick",
     name: "kasa smart Plug Power Strip KP303, Surge Protector with 3 Individually Controlled Smart Outlets and 2 USB Ports, Works with Alexa & Google Home, No Hub Required, White",
     price: "$24.99",
-    rating: "4.6 stars from 16,442 Amazon ratings",
-    reviews: "16,442 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41EOcD4mKhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B083JKSSR5?tag=deskfinds0d-20",
     description: "Genuinely independent per-outlet switching across all 3 outlets, not grouped pairs, verified by a large, well-established review base. Works with Alexa and Google Home without a separate hub.\n\nOne spot below POWSAV 6 Ft WiFi Surge Protector in this ranking, it's priced lower than POWSAV 6 Ft WiFi Surge Protector. The compromise here is straightforward: Only 3 outlets, fewer than some alternatives. What you gain in return: Fully independent per-outlet switching verified by large review base. Whether that trade is worth it depends on which side matters more for your needs.\n\nWorth knowing before you decide: No separate smart home hub required. On the other side, No USB-C port. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best 6-Outlet Independent Switch Pick",
     name: "Amazon Basics Smart Plug Power Strip with 6 Individually Controlled Outlets and 3 USB Ports (2 USB-A and 1 USB-C), WiFi, Works with Alexa Only, 2.4 GHz, No Hub Required, White",
     price: "$39.99",
-    rating: "4.3 stars from 631 Amazon ratings",
-    reviews: "631 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31XSIHgsrBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C453CLSY?tag=deskfinds0d-20",
     description: "6 individually controlled outlets, genuinely more than the 3-outlet alternatives, from an established brand. Includes a USB-C port among 3 total USB ports.\n\nSitting just under kasa smart Plug Power Strip KP303, it costs more than kasa smart Plug Power Strip KP303. Here's the honest tradeoff: Alexa-only compatibility. And here's what it gets you instead: 6 individually controlled outlets, more than the 3-outlet alternatives. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Includes a USB-C port. On the other side, Standby power for smart circuitry persists regardless of switch states. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Multi-Ecosystem Switch Pick",
     name: "TP-Link Tapo Smart Plug Outlet Extender, Surge Protector, 18W Fast Charging, 3 Individual Smart Outlets, 1x USB-C & 2X USB-A, Smart Night Light, Works w/Apple HomeKit, Alexa & Google Home, Tapo P306",
     price: "$29.99",
-    rating: "4.5 stars from 621 Amazon ratings",
-    reviews: "621 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31pcjVZGZoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CYGSFFFW?tag=deskfinds0d-20",
     description: "3 individually controlled smart outlets with broad compatibility across Apple HomeKit, Alexa, and Google Home, genuinely useful if your household uses a mix of ecosystems. 18W fast USB-C charging included.\n\nRanked just behind Amazon Basics Smart Plug Power Strip with 6 Individually Controlled Outlets and 3 USB Ports, it's priced lower than Amazon Basics Smart Plug Power Strip with 6 Individually Controlled Outlets and 3 USB Ports. The real tradeoff against that pick: Fewer outlets than the 6-outlet alternatives. In exchange, it offers this instead: Compatible with Apple HomeKit, Alexa, and Google Home. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: 18W fast USB-C charging. On the other side, Standby power still draws for smart circuitry. That's the main tradeoff to weigh against everything above.",
@@ -89,8 +89,8 @@ export const products: GuideProduct[] = [
     badge: "Best Matter-Compatible Switch Pick",
     name: "Tapo Smart Wi-Fi Power Strip - Matter Compatible, Energy Monitoring, Surge Protection, 6 Individually Controlled Outlets & 3 USB Ports, Works with Alexa, Google Assistant, Siri & Bixby - Tapo P316M",
     price: "$44.99",
-    rating: "4.6 stars from 283 Amazon ratings",
-    reviews: "283 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41R2pqpQJxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F5LNYTR7?tag=deskfinds0d-20",
     description: "6 individually controlled outlets with Matter compatibility, genuinely future-proofing your individual switch control across multiple smart home ecosystems. Energy monitoring lets you see draw per switched outlet.\n\nOne spot below TP-Link Tapo Smart Plug Outlet Extender in this ranking, it costs more than TP-Link Tapo Smart Plug Outlet Extender. The compromise here is straightforward: Highest price in this guide. What you gain in return: 6 individually controlled outlets with Matter compatibility. Whether that trade is worth it depends on which side matters more for your needs.\n\nWorth knowing before you decide: Energy monitoring per switched outlet. On the other side, Standby power for smart circuitry persists regardless. That's the main tradeoff to weigh against everything above.",
@@ -105,7 +105,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified independent per-outlet switching, not grouped pairs", description: "Checked whether each pick's individual switches control genuinely independent outlets rather than budget designs that group two outlets per switch despite implying full independence." },
   { title: "Standby phantom power disclosed for the strip's own circuitry", description: "Noted that switched outlets still draw standby power for the strip's own indicator LEDs and any always-on smart or surge-protection circuitry, individual switches don't fully eliminate phantom load for the whole unit." },
-  { title: "Outlet count and smart ecosystem compatibility compared together", description: "Weighed the number of individually controlled outlets against smart home ecosystem compatibility, since buyers have different priorities between maximum control granularity and ecosystem breadth." },
+  { title: "Outlet count and smart ecosystem compatibility compared together", description: "Weighed the number of individually controlled outlets against smart home ecosystem compatibility, since buyers have different priorities between maximum control granularity and ecosystem breadth." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -222,11 +222,11 @@ export const faq: FaqItem[] = [
   { q: "Are power strip individual switches reliable long-term?", a: "It varies by build quality. Physical switches used many times daily experience real mechanical wear, cheaper mechanisms can develop inconsistent contact after extended use, prioritize picks with a strong, established review base." },
   { q: "Does a switched-off outlet still have surge protection?", a: "It depends on the design. Some strips maintain surge protection on a switched-off outlet, others cut protection along with power, verify this distinction if you plan to leave sensitive equipment plugged into a switched-off outlet." },
   { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want individual control for some devices while keeping others always powered" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want verified fully independent per-outlet control At $24.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want verified fully independent per-outlet control At under $25, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-smart-power-strips", title: "Best Smart Power Strips (2026)" },
   { href: "/guide/best-smart-power-strips-with-energy-monitoring", title: "Best Smart Power Strips with Energy Monitoring (2026)" },
-  { href: "/guide/best-wall-mounted-power-strips", title: "Best Wall-Mounted Power Strips (2026)" },
+  { href: "/guide/best-wall-mounted-power-strips", title: "Best Wall-Mounted Power Strips (2026)" }
 ];

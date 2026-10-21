@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small safes for documents";
 export const introParagraphs = [
   "Document storage changes what actually matters: whether letter-size papers, passports, and folders fit flat without bending, and whether fire protection is documented specifically, not implied. We compared confirmed interior geometry and fire-rating specifics across these picks rather than assuming any small safe handles documents equally well.",
-  "We also separated genuinely fireproof document storage from basic steel security boxes without a fire rating, since a document safe's core job (surviving a fire) differs from a general valuables safe's job (deterring theft).",
+  "We also separated genuinely fireproof document storage from basic steel security boxes without a fire rating, since a document safe's core job (surviving a fire) differs from a general valuables safe's job (deterring theft)."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     pros: ["USB-C emergency power backup ensures access to urgently needed documents"],
     cons: ["No documented fire protection, security-only design"],
     bestFor: "Buyers prioritizing guaranteed access to documents over fire protection.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required a fireproof interior geometry check, not just cubic feet", description: "We looked at whether hanging file folders, passports, and letter-size paper fit flat without bending, a genuine organizational factor a raw capacity number doesn't capture." },
   { title: "Separated fireproof document safes from basic steel security boxes honestly", description: "Three picks here explicitly document no fire rating; we labeled these as security-only rather than blending them into a fireproof-document ranking." },
   { title: "Compared soft fireproof organizers against rigid steel safes", description: "The DocSafe soft organizer claims a higher temperature rating with extensive internal organization but offers less physical impact resistance than a steel box. We flagged that genuine tradeoff." },
-  { title: "Noted digital media protection separately from paper document protection", description: "Several picks separately certify CD/DVD/USB protection alongside paper documents, since digital media has different heat sensitivity." },
+  { title: "Noted digital media protection separately from paper document protection", description: "Several picks separately certify CD/DVD/USB protection alongside paper documents, since digital media has different heat sensitivity." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -267,7 +267,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review count and rating together, not rating alone",
-    "explanation": "A 4.8-star rating from 12 reviews carries far less evaluation confidence than a 4.5-star rating from several thousand, since a small sample can be skewed by a handful of early, enthusiastic buyers before any long-term reliability issues would show up in later reviews.\n\nThis matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
+    "explanation": "This matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
   }
 ];
 
@@ -276,11 +276,11 @@ export const faq: FaqItem[] = [
   { q: "Is there a soft, portable fireproof document organizer?", a: "Yes, the DocSafe 5200°F Fireproof Document Organizer Box is a soft bag with extensive internal organization, lighter than a steel safe." },
   { q: "Are all these picks actually fireproof?", a: "No, three picks here explicitly don't document fire protection, they're security-focused document boxes. Check our comparison table for which picks have a genuine UL or ETL fire rating." },
   { q: "Is there an option that also fits a laptop alongside documents?", a: "Yes, the SentrySafe Shelf Safe with Digital Keypad Lock has the widest interior in this comparison, though it's explicitly not fireproof." },
-  { q: "Which pick has the highest claimed fire temperature resistance?", a: "The DocSafe 5200°F Fireproof Document Organizer Box, though as a soft bag it offers less physical impact resistance than a steel safe." },
+  { q: "Which pick has the highest claimed fire temperature resistance?", a: "The DocSafe 5200°F Fireproof Document Organizer Box, though as a soft bag it offers less physical impact resistance than a steel safe." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-fireproof-safes", title: "Best Small Fireproof Safes (2026)" },
   { href: "/guide/best-small-fireproof-and-waterproof-safes", title: "Best Small Fireproof and Waterproof Safes (2026)" },
-  { href: "/guide/best-small-safe-boxes", title: "Best Small Safe Boxes (2026)" },
+  { href: "/guide/best-small-safe-boxes", title: "Best Small Safe Boxes (2026)" }
 ];

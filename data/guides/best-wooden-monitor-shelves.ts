@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "wooden monitor shelf";
 export const introParagraphs = [
   "\"Wood\" on a listing can mean solid hardwood, plywood, or MDF with a wood veneer, and those materials are not interchangeable in strength or durability even though they look similar in photos. MDF and particleboard are more prone to sagging or warping in humid conditions than plywood or solid hardwood, worth checking which material a specific listing actually uses.",
-  "Weight capacity on a wooden shelf is tied directly to the actual material, not just the listed dimensions, so two shelves of the same size can have meaningfully different safe loads depending on whether they're MDF veneer or genuine plywood. Edge-sealing quality also affects how well the material resists moisture at its most exposed points.",
+  "Weight capacity on a wooden shelf is tied directly to the actual material, not just the listed dimensions, so two shelves of the same size can have meaningfully different safe loads depending on whether they're MDF veneer or genuine plywood. Edge-sealing quality also affects how well the material resists moisture at its most exposed points."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,13 +26,13 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Wooden Monitor Shelf",
     name: "TEAMIX 20 inch Wood Monitor Stand Riser, Rustic Brown",
     price: "$20.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "3,077 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/312XuwnWdzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BHMW8HFB?tag=deskfinds0d-20",
-    description: "For buyers wanting a genuine wood aesthetic with a dependable capacity rating Built with a wood platform rated to 40 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nIt earns the top spot in this comparison over WESTREE Dual Monitor Stand Riser for one main reason. Solid 4.6-star rating with 3,077 ratings. On price, it comes in below WESTREE Dual Monitor Stand Riser, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["40 lbs rated capacity (evenly distributed)","wood construction","Priced at $20.99","3,077 ratings on Amazon"],
-    pros: ["Solid 4.6-star rating with 3,077 ratings","Wood build appropriate for this use case","Reasonable price at $20.99","A rustic wood riser shelf with visible grain construction."],
+    description: "For buyers wanting a genuine wood aesthetic with a dependable capacity rating Built with a wood platform rated to 40 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nIt earns the top spot in this comparison over WESTREE Dual Monitor Stand Riser for one main reason. On price, it comes in below WESTREE Dual Monitor Stand Riser, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["40 lbs rated capacity (evenly distributed)","wood construction","Priced under $25"],
+    pros: ["Wood build appropriate for this use case","Reasonable price at under $25","A rustic wood riser shelf with visible grain construction."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A rustic wood riser shelf with visible grain construction.",
   },
@@ -42,13 +42,13 @@ export const products: GuideProduct[] = [
     badge: "Best Wood and Steel Hybrid Shelf",
     name: "WESTREE Dual Monitor Stand Riser, Wood and Steel, Rustic Brown",
     price: "$29.98",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "3,764 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51oe+oiyh9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09QWC568X?tag=deskfinds0d-20",
-    description: "For buyers wanting wood aesthetics with metal-reinforced strength Built with a wood platform rated to 66 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nOne spot below TEAMIX 20 inch Wood Monitor Stand Riser in this ranking, it costs more than TEAMIX 20 inch Wood Monitor Stand Riser. The compromise here is straightforward: Rated capacity assumes evenly distributed weight, not a single point load. What you gain in return: Solid 4.6-star rating with 3,764 ratings. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["66 lbs rated capacity (evenly distributed)","wood construction","Priced at $29.98","3,764 ratings on Amazon"],
-    pros: ["Solid 4.6-star rating with 3,764 ratings","Wood build appropriate for this use case","Reasonable price at $29.98","Combines a wood platform with a steel frame for added structural support."],
+    description: "For buyers wanting wood aesthetics with metal-reinforced strength Built with a wood platform rated to 66 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nOne spot below TEAMIX 20 inch Wood Monitor Stand Riser in this ranking, it costs more than TEAMIX 20 inch Wood Monitor Stand Riser. The compromise here is straightforward: Rated capacity assumes evenly distributed weight, not a single point load. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["66 lbs rated capacity (evenly distributed)","wood construction","Priced under $30"],
+    pros: ["Wood build appropriate for this use case","Reasonable price at under $30","Combines a wood platform with a steel frame for added structural support."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "Combines a wood platform with a steel frame for added structural support.",
   },
@@ -58,13 +58,13 @@ export const products: GuideProduct[] = [
     badge: "Best Premium Wooden Shelf with Storage",
     name: "Fenge Dual Monitor Stand Riser, Wooden Desk Shelf with 2-Tier Storage",
     price: "$97.99",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "764 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/411WQcE8coL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFQ5Y7SY?tag=deskfinds0d-20",
-    description: "For buyers wanting a heavier, more substantial wood build with real storage Built with a wood platform rated to 50 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nSitting just under WESTREE Dual Monitor Stand Riser, it costs more than WESTREE Dual Monitor Stand Riser. Here's the honest tradeoff: Rated capacity assumes evenly distributed weight, not a single point load. And here's what it gets you instead: Solid 4.7-star rating with 764 ratings. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["50 lbs rated capacity (evenly distributed)","wood construction","Priced at $97.99","764 ratings on Amazon"],
-    pros: ["Solid 4.7-star rating with 764 ratings","Wood build appropriate for this use case","Reasonable price at $97.99","A wooden dual-monitor riser with 2-tier storage at a higher price point reflecting more substantial material."],
+    description: "For buyers wanting a heavier, more substantial wood build with real storage Built with a wood platform rated to 50 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nSitting just under WESTREE Dual Monitor Stand Riser, it costs more than WESTREE Dual Monitor Stand Riser. Here's the honest tradeoff: Rated capacity assumes evenly distributed weight, not a single point load. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["50 lbs rated capacity (evenly distributed)","wood construction","Priced under $100"],
+    pros: ["Wood build appropriate for this use case","Reasonable price at under $100","A wooden dual-monitor riser with 2-tier storage at a higher price point reflecting more substantial material."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A wooden dual-monitor riser with 2-tier storage at a higher price point reflecting more substantial material.",
   },
@@ -74,13 +74,13 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Wooden Shelf",
     name: "Zimilar Monitor Stand Riser, 2-Tier Wood Laptop Monitor Riser",
     price: "$19.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "1,661 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51UI331C8ML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FM3DJ3Q?tag=deskfinds0d-20",
-    description: "For budget buyers wanting a wood look without the premium price Built with a wood platform rated to 33 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nRanked just behind Fenge Dual Monitor Stand Riser, it's priced lower than Fenge Dual Monitor Stand Riser. The real tradeoff against that pick: Rated capacity assumes evenly distributed weight, not a single point load. In exchange, it offers this instead: Solid 4.6-star rating with 1,661 ratings. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["33 lbs rated capacity (evenly distributed)","wood construction","Priced at $19.99","1,661 ratings on Amazon"],
-    pros: ["Solid 4.6-star rating with 1,661 ratings","Wood build appropriate for this use case","Reasonable price at $19.99","A 2-tier wood laptop and monitor riser at a lower price point."],
+    description: "For budget buyers wanting a wood look without the premium price Built with a wood platform rated to 33 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nRanked just behind Fenge Dual Monitor Stand Riser, it's priced lower than Fenge Dual Monitor Stand Riser. The real tradeoff against that pick: Rated capacity assumes evenly distributed weight, not a single point load. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["33 lbs rated capacity (evenly distributed)","wood construction","Priced under $20"],
+    pros: ["Wood build appropriate for this use case","Reasonable price at under $20","A 2-tier wood laptop and monitor riser at a lower price point."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A 2-tier wood laptop and monitor riser at a lower price point.",
   }
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Wood material type decoded per listing", description: "Checked whether each 'wood' shelf is solid hardwood, plywood, or MDF veneer rather than treating the word as one material." },
   { title: "Humidity and warping risk considered", description: "Weighted MDF and particleboard construction as higher warping risk in humid environments compared to plywood or solid hardwood." },
   { title: "Weight capacity tied to actual material", description: "Compared stated capacity against the actual material used, not just the shelf's dimensions." },
-  { title: "Edge-sealing quality noted from buyer feedback", description: "Looked for reviews mentioning edge finish and moisture resistance at the shelf's most exposed points." },
+  { title: "Edge-sealing quality noted from buyer feedback", description: "Looked for reviews mentioning edge finish and moisture resistance at the shelf's most exposed points." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -176,23 +176,19 @@ export const howToChoose: HowToChooseSection[] = [
       {
         "label": "Look for",
         "text": "A stated weight capacity with real margin above your monitor's actual weight, a rigid material like metal or thick wood, and a wide enough platform to support the monitor's full base without overhang."
-      },
-      {
-        "label": "In this comparison",
-        "text": "Fenge Dual Monitor Stand Riser fits this specifically: Solid 4.7-star rating with 764 ratings."
       }
-    ]
+      ]
   },
   {
     "subheading": "When to Spend More",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want what Fenge Dual Monitor Stand Riser offers: Solid 4.7-star rating with 764 ratings. That's a real functional upgrade over the budget picks here, not just a brand markup."
+        "text": "That's a real functional upgrade over the budget picks here, not just a brand markup."
       },
       {
         "label": "Save if",
-        "text": "Zimilar Monitor Stand Riser already covers the essentials: Solid 4.6-star rating with 1,661 ratings. The main thing you'd be paying extra for elsewhere in this list is capacity or storage you may not need."
+        "text": "The main thing you'd be paying extra for elsewhere in this list is capacity or storage you may not need."
       }
     ]
   }
@@ -225,11 +221,11 @@ export const faq: FaqItem[] = [
   { q: "Is a \"wood\" monitor shelf always solid wood?", a: "No, the word can describe solid hardwood, plywood, or MDF with a wood veneer. Check the specific material description before assuming." },
   { q: "Do wooden monitor shelves warp in humid rooms?", a: "MDF and particleboard are more prone to warping in humidity than plywood or solid hardwood, worth checking material type if humidity is a concern." },
   { q: "Do wood shelves hold as much weight as metal shelves?", a: "It depends on the specific material, genuine plywood or hardwood can hold up well, but MDF veneer options often carry lower practical capacity." },
-  { q: "How can I tell if a shelf is MDF veneer versus real wood from the listing?", a: "Check the material specification field closely, and look for buyer reviews that mention the actual look and feel of the grain and edges." },
+  { q: "How can I tell if a shelf is MDF veneer versus real wood from the listing?", a: "Check the material specification field closely, and look for buyer reviews that mention the actual look and feel of the grain and edges." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-metal-monitor-shelves", title: "Best Metal Monitor Shelves (2026)" },
   { href: "/guide/best-monitor-shelves-with-storage", title: "Best Monitor Shelves with Storage (2026)" },
-  { href: "/guide/best-corner-monitor-shelves", title: "Best Corner Monitor Shelves (2026)" },
+  { href: "/guide/best-corner-monitor-shelves", title: "Best Corner Monitor Shelves (2026)" }
 ];

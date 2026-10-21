@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41JN+JAnm2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8B95G8T?tag=deskfinds0d-20",
-    description: "Same GIANTEX round-tabletop platform in a brown-and-white finish: 1\" thickened tabletop, elevated corner shelf, and built-in-lock drawer with two keys. The 2-tier open shelf below handles bags or sundries with 3-position adjustability.\n\nThe strongest case for this pick comes down to brown & white finish suits warmer retail or boutique interiors as well as 3-position adjustable shelving. The compromise here is that engineered wood, not solid material, so factor that in alongside the $69.99 asking price.",
+    description: "Same GIANTEX round-tabletop platform in a brown-and-white finish: 1\" thickened tabletop, elevated corner shelf, and built-in-lock drawer with two keys. The 2-tier open shelf below handles bags or sundries with 3-position adjustability.\n\nThe strongest case for this pick comes down to brown & white finish suits warmer retail or boutique interiors as well as 3-position adjustable shelving. The compromise here is that engineered wood, not solid material, so factor that in alongside the under $70 asking price.",
     specs: ["Round tabletop, 1\" thickened panel, brown & white finish","Lockable drawer with 2 keys","3-position adjustable 2-tier open shelf"],
     pros: ["Brown & white finish suits warmer retail or boutique interiors","3-position adjustable shelving","Lowest-priced option in the GIANTEX round-desk lineup"],
     cons: ["Engineered wood, not solid material","No cable management feature listed"],
@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $69.99",
+          "Under $70",
           "GIANTEX Reception Desk"
         ],
         [
-          "Around $99.82",
+          "Under $100",
           "IGERI Small Black Reception Desk with Lock"
         ],
         [
-          "Around $114.97",
+          "Under $120",
           "ANGRYWIN Reception Desk with Counter"
         ],
         [
-          "Around $169.99",
+          "Under $170",
           "Tribesigns Reception Desk with Counter"
         ],
         [
-          "Around $199.99",
+          "Under $200",
           "Luxitero 47\" Reception Desk"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-48-inch-reception-desks","title":"4 Best 48-Inch Reception Desks in 2026"},{"href":"/guide/best-5ft-reception-desks","title":"6 Best 5ft Reception Desks in 2026"},{"href":"/guide/best-compact-reception-desks","title":"best-compact-reception-desks"}];

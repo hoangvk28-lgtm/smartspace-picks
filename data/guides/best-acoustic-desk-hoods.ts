@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "acoustic desk hood";
 export const introParagraphs = [
   "If you're searching for an acoustic desk hood, a canopy-style structure that arches over your desk and workstation, we should be upfront that our research did not turn up any genuine hood-style products currently listed on Amazon in this category. What's actually available at desk scale is flat acoustic panels and dividers, which work fundamentally differently than a hood.",
-  "A flat panel sits beside or in front of you and absorbs some reflected sound near your desk, it does not enclose or arch over you the way a true hood would, so the realistic benefit is improving your own call audio and reducing echo reaching your microphone, not blocking noise from reaching you the way an enclosed structure might. The three panels below are presented honestly as flat-panel alternatives, not as hoods.",
+  "A flat panel sits beside or in front of you and absorbs some reflected sound near your desk, it does not enclose or arch over you the way a true hood would, so the realistic benefit is improving your own call audio and reducing echo reaching your microphone, not blocking noise from reaching you the way an enclosed structure might. The three panels below are presented honestly as flat-panel alternatives, not as hoods."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "7 min";
@@ -70,7 +70,7 @@ export const products: GuideProduct[] = [
     pros: ["Widest coverage of the three alternatives", "Secure clamp-on mount", "Reduces visual distraction across a wide desk span", "Sturdy build"],
     cons: ["Highest price and still not a genuine hood", "Clamp mount requires compatible desk edge", "No published NRC rating"],
     bestFor: "Buyers wanting the widest flat-panel coverage available, understanding it is a divider, not an enclosed hood.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -78,7 +78,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine hood-style products searched for and not found", description: "Searched verified Amazon listings specifically for canopy-style desk hoods and did not find genuine matches, that gap drives this guide's honest framing rather than mislabeling flat panels as hoods." },
   { title: "Flat panels never described as hoods in our copy", description: "Every product here is described accurately as a flat panel or divider, even where a brand name uses 'hood' in its marketing, our copy does not repeat that framing as fact." },
   { title: "Realistic benefit reframed around your own audio", description: "Framed the realistic benefit of a flat panel as improving your own call audio and reducing echo reaching your mic, not blocking noise the way an enclosed structure would." },
-  { title: "Full isolation buyers redirected to office pods", description: "For buyers wanting genuine enclosure or isolation rather than partial-coverage panels, we point toward our office pod guides rather than overselling a flat panel's capability." },
+  { title: "Full isolation buyers redirected to office pods", description: "For buyers wanting genuine enclosure or isolation rather than partial-coverage panels, we point toward our office pod guides rather than overselling a flat panel's capability." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -205,11 +205,11 @@ export const faq: FaqItem[] = [
   { q: "Are any of these products actual acoustic desk hoods?", a: "No, our research did not find genuine canopy-style hood products currently listed on Amazon, these three picks are flat panels and dividers, clearly labeled as such." },
   { q: "Will a flat panel block noise from reaching me the way a hood would?", a: "No, a flat panel realistically reduces echo reaching your own microphone during calls, it does not enclose you or block outside noise the way a true hood or pod would." },
   { q: "What should I buy if I need genuine sound isolation?", a: "A fully enclosed office pod, not a partial-coverage panel or hood, see our office pod guides for that category." },
-  { q: "Why does one product have 'hood' in the brand name if it's not a hood?", a: "Brand names sometimes use 'hood' as marketing language, our copy describes the actual physical structure, a flat freestanding panel, regardless of the brand name." },
+  { q: "Why does one product have 'hood' in the brand name if it's not a hood?", a: "Brand names sometimes use 'hood' as marketing language, our copy describes the actual physical structure, a flat freestanding panel, regardless of the brand name." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-sound-absorbing-desk-hoods", title: "Best Sound-Absorbing Desk Hood Alternatives (2026)" },
   { href: "/guide/best-desk-acoustic-panels", title: "Best Desk Acoustic Panels (2026)" },
-  { href: "/guide/best-acoustic-desk-dividers", title: "Best Acoustic Desk Dividers (2026)" },
+  { href: "/guide/best-acoustic-desk-dividers", title: "Best Acoustic Desk Dividers (2026)" }
 ];

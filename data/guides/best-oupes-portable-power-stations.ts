@@ -113,16 +113,16 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $489.00",
+          "Under $500",
           "OUPES Mega 1 Lite Portable Power Station"
         ],
         [
-          "Around $1,799.99",
+          "Under $1,800",
           "OUPES Guardian 6000 V2 Portable Power Station"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [

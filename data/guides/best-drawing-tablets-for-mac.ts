@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $27.99",
+          "Under $30",
           "HUION Inspiroy H640P 6x4 inch Drawing Tablet 8192 Pen Pressure"
         ],
         [
-          "Around $28.99",
+          "Under $30",
           "XPPen StarG640 Digital Graphic Tablet 6x4 Inch Art Tablet with Battery-Free Stylus"
         ],
         [
-          "Around $38.99",
+          "Under $40",
           "UGEE M708 Drawing Tablet"
         ],
         [
-          "Around $39.95",
+          "Under $40",
           "Wacom Intuos Small"
         ],
         [
-          "Around $41.79",
+          "Under $45",
           "HUION Inspiroy H1060P Graphics Drawing Tablet"
         ],
         [
-          "Around $44.99",
+          "Under $45",
           "XPPen Deco 01 V3 10x6 Drawing Tablet"
         ],
         [
-          "Around $209.99",
+          "Under $250",
           "XPPen Artist 13.3 Pro 13.3\" Drawing Tablet with Screen"
         ],
         [
-          "Around $209.99",
+          "Under $250",
           "HUION Kamvas 13 (Gen 3) Drawing Tablet with Screen 16K Pressure PenTech 4.0"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Wacom Intuos Small is aimed at buyers prioritizing wired usb, emr battery-free pen." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Wacom Intuos Small is aimed at buyers prioritizing wired usb, emr battery-free pen." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets-for-computer","title":"Best Drawing Tablets for Computer in 2026"},{"href":"/guide/best-drawing-tablets-for-pc","title":"Best Drawing Tablets for PC in 2026"},{"href":"/guide/best-drawing-tablets-for-laptop","title":"Best Drawing Tablets for Laptop in 2026"}];

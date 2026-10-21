@@ -145,23 +145,23 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $199.99",
+          "Under $200",
           "Fortinet FortiSwitch 108E-FPOE"
         ],
         [
-          "Around $291.85",
+          "Under $300",
           "Fortinet FortiSwitch 108F"
         ],
         [
-          "Around $323.40",
+          "Under $350",
           "Fortinet FortiSwitch 108F-POE"
         ],
         [
-          "Around $473.85",
+          "Under $500",
           "Fortinet FortiSwitch 108F-FPOE"
         ],
         [
-          "Around $515.29",
+          "Under $550",
           "Fortinet FortiSwitch 124F"
         ]
       ]
@@ -216,10 +216,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "Fortinet FortiSwitch 108E-FPOE is aimed at buyers prioritizing 8 ports + 2 sfp slots, at $199.99."
+        "text": "Fortinet FortiSwitch 108E-FPOE is aimed at buyers prioritizing 8 ports + 2 sfp slots, at under $200."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -256,10 +256,10 @@ export const faq = [
   }
 ,
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "Fortinet FortiSwitch 124F is aimed at buyers prioritizing 24 ge + 4 sfp+ ports, fanless." },
-  { q: "Which pick offers the best value for a tight budget?", a: "Fortinet FortiSwitch 108E-FPOE is aimed at buyers prioritizing 8 ports + 2 sfp slots, and at $199.99 it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $199.99 to $515.29, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Fortinet FortiSwitch 108E-FPOE is aimed at buyers prioritizing 8 ports + 2 sfp slots, and at under $200 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $200 to $550, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
   { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Fortinet FortiSwitch 124F is aimed at buyers prioritizing 24 ge + 4 sfp+ ports, fanless. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
-  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "Fortinet FortiSwitch 108F-POE is aimed at buyers prioritizing layer 2+ managed switch, 65w poe." },
+  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "Fortinet FortiSwitch 108F-POE is aimed at buyers prioritizing layer 2+ managed switch, 65w poe." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-cisco-network-switches","title":"5 Best Cisco Network Switches in 2026"},{"href":"/guide/best-managed-network-switches","title":"8 Best Managed Network Switches in 2026"},{"href":"/guide/best-layer-2-network-switches","title":"6 Best Layer 2 Network Switches in 2026"}];

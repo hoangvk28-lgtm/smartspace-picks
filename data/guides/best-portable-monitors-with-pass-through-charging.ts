@@ -5,7 +5,7 @@ export const metaDescription = "8 portable monitors with pass-through charging, 
 export const mainKeyword = "portable monitor pass-through charging";
 export const introParagraphs = [
   "A monitor rated for 65W or 100W pass-through only delivers what your host device's charger and cable actually negotiate, if your laptop's own charger is 45W, the monitor cannot magically provide more. We calculate the realistic net power budget for each pick below rather than just quoting the rated ceiling.",
-  "Also worth knowing: some 'PD pass-through' monitors support basic charging but not PPS (Programmable Power Supply), which newer phones and laptops need for their fastest charging profile, a distinction most listings don't make clear.",
+  "Also worth knowing: some 'PD pass-through' monitors support basic charging but not PPS (Programmable Power Supply), which newer phones and laptops need for their fastest charging profile, a distinction most listings don't make clear."
 ];
 export const lastUpdated = "2026-07-28";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Pass-Through Charging Overall",
     name: "Plugable 15.6\" USB-C Portable Monitor with 100W Pass-Through Charging",
     price: "$239.95",
-    rating: "4.5 stars from 96 Amazon ratings",
-    reviews: "96 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Gi8axYgqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D9R8P9LL?tag=deskfinds0d-20",
     description: "This listing is unusually explicit about the real math: 100W pass-through requires a 100W USB-C charger (sold separately) to deliver up to 85W to your host device, the monitor itself doesn't generate that power, it passes through what your charger provides. That's exactly the ceiling-not-guarantee distinction this guide exists to clarify.\n\nIt earns the top spot in this comparison over ASUS ZenScreen MQ16FC 15.6 Inch 16:10 USB-C OLED Portable Monitor for one main reason. Most transparent, realistic pass-through wattage disclosure in this guide. On price, it's actually priced above ASUS ZenScreen MQ16FC 15.6 Inch 16:10 USB-C OLED Portable Monitor, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Doubles as a genuine USB-C hub. On the other side, Modest review count. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best OLED Panel with Pass-Through",
     name: "ASUS ZenScreen MQ16FC 15.6 Inch 16:10 USB-C OLED Portable Monitor",
     price: "$229.00",
-    rating: "4.5 stars from 5 Amazon ratings",
-    reviews: "5 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ZMKpXsEAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G31WC68M?tag=deskfinds0d-20",
     description: "This is the only OLED panel in this guide, with genuine extreme blacks and a 1ms response time, and it explicitly states it can either be powered by a laptop or deliver pass-through power to one, a true bidirectional design. A 3-year warranty with burn-in coverage is a meaningful reassurance specific to OLED technology's wear characteristics.\n\nOne spot below Plugable 15.6\" USB-C Portable Monitor with 100W Pass-Through Charging in this ranking, it's priced lower than Plugable 15.6\" USB-C Portable Monitor with 100W Pass-Through Charging. The compromise here is straightforward: Extremely small review count, very new listing. What you gain in return: Only OLED panel in this guide, genuine deep blacks. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: 3-year warranty with burn-in coverage, rare for portable monitors. On the other side, Mini-HDMI only. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Reliable Mid-Range Pass-Through",
     name: "VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz, 470 Nits",
     price: "$169.99",
-    rating: "4.8 stars from 3,365 Amazon ratings",
-    reviews: "3,365 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51kORE12J1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHP4MKMP?tag=deskfinds0d-20",
     description: "This listing doesn't specify a headline pass-through wattage the way the Plugable or ASUS picks do, so treat any charging pass-through here as a general USB-C convenience rather than a guaranteed high-wattage spec. Its high rating and bright 470-nit panel are the real draw.\n\nSitting just under ASUS ZenScreen MQ16FC 15.6 Inch 16:10 USB-C OLED Portable Monitor, it's priced lower than ASUS ZenScreen MQ16FC 15.6 Inch 16:10 USB-C OLED Portable Monitor. Here's the honest tradeoff: Pass-through wattage not explicitly headlined like the dedicated picks. And here's what it gets you instead: Highest rating in this guide. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Bright 470-nit panel. On the other side, 144Hz needs USB-C for full rate. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pass-Through with Reverse Charging",
     name: "cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB",
     price: "$109.99",
-    rating: "4.8 stars from 6,301 Amazon ratings",
-    reviews: "6,301 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31y1n0H2EtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZLY26FW?tag=deskfinds0d-20",
     description: "This listing explicitly mentions \"power pass-through reverse charging\" support, a genuine feature disclosure at a budget price point. As with every pick here, the actual wattage delivered depends on what charger you plug into the other end, this monitor doesn't create power, it routes it.\n\nRanked just behind VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz, it's priced lower than VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz. The real tradeoff against that pick: No specific wattage ceiling disclosed. In exchange, it offers this instead: Explicitly confirmed pass-through/reverse charging support. That's the swap that decides whether this pick or the one above it is the better fit for your source device.\n\nWorth knowing before you decide: Largest review base among the budget picks. On the other side, Actual charging speed depends entirely on your charger. That's the main tradeoff to weigh against everything above.",
@@ -89,8 +89,8 @@ export const products: GuideProduct[] = [
     badge: "Best Large Screen Pass-Through Option",
     name: "cocopar Portable Monitor 18.5 Inch 2K QHD 120Hz 120% sRGB",
     price: "$209.99",
-    rating: "4.8 stars from 6,301 Amazon ratings",
-    reviews: "6,301 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51OXc4g9NHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GGHPTLX9?tag=deskfinds0d-20",
     description: "General USB-C pass-through convenience at 18.5 inches, useful if you want a larger workspace and don't need a specific high-wattage pass-through spec. As with every pick here, verify your charger's actual wattage before assuming full-speed charging through this monitor.\n\nOne spot below cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB in this ranking, it costs more than cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB. The compromise here is straightforward: No specific pass-through wattage headlined. What you gain in return: Large, sharp 2K screen. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Strong rating and review base. On the other side, Higher price than the budget picks. That's the main tradeoff to weigh against everything above.",
@@ -105,8 +105,8 @@ export const products: GuideProduct[] = [
     badge: "Best 4K with Reverse Charging",
     name: "cocopar Portable Monitor 15.6 Inch 4K UHD 60Hz 145% sRGB",
     price: "$244.99",
-    rating: "4.8 stars from 6,301 Amazon ratings",
-    reviews: "6,301 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41grMODJbhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR2222FL?tag=deskfinds0d-20",
     description: "A 4K panel with USB-C plug-and-play and pass-through charging convenience, though remember 4K draws considerably more power than 1080p, meaning less of your charger's wattage budget is left over for actually charging your laptop through this monitor versus a lower-resolution pick.\n\nSitting just under cocopar Portable Monitor 18.5 Inch 2K QHD 120Hz 120% sRGB, it costs more than cocopar Portable Monitor 18.5 Inch 2K QHD 120Hz 120% sRGB. Here's the honest tradeoff: 4K draws more power, leaving less pass-through budget for charging your laptop. And here's what it gets you instead: 4K resolution. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Metal build quality. On the other side, Pricier than lower-resolution picks. That's the main tradeoff to weigh against everything above.",
@@ -121,8 +121,8 @@ export const products: GuideProduct[] = [
     badge: "Best Bright 4K with Pass-Through",
     name: "EVICIV Portable Monitor 4K 1200 Nits 16\", 3840x2400 UHD, 145% sRGB",
     price: "$199.99",
-    rating: "4.4 stars from 10,892 Amazon ratings",
-    reviews: "10,892 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/416rIDWRz3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FZT2V5HW?tag=deskfinds0d-20",
     description: "This 1,200-nit bright 4K panel pairs USB-C plug-and-play with general pass-through convenience, but running at peak brightness plus 4K resolution draws significant power, leaving very little of your charger's wattage budget available to actually charge your laptop simultaneously. Treat pass-through here as best-effort, not a guarantee at high brightness.\n\nRanked just behind cocopar Portable Monitor 15.6 Inch 4K UHD 60Hz 145% sRGB, it's priced lower than cocopar Portable Monitor 15.6 Inch 4K UHD 60Hz 145% sRGB. The real tradeoff against that pick: 4K + peak brightness leaves minimal pass-through power budget for charging your laptop. In exchange, it offers this instead: Very bright 1200-nit panel. That's the swap that decides whether this pick or the one above it is the better fit for your source device.\n\nWorth knowing before you decide: Large review base. On the other side, Best suited for outdoor brightness first, charging second. That's the main tradeoff to weigh against everything above.",
@@ -137,8 +137,8 @@ export const products: GuideProduct[] = [
     badge: "Most Explicit Power Requirement Disclosure",
     name: "UPERFECT Portable Monitor 4K 16\" 1200 Nits, 145% sRGB Laptop Monitor",
     price: "$245.99",
-    rating: "4.5 stars from 5,189 Amazon ratings",
-    reviews: "5,189 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51Ba0HFHrkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F99H1KSL?tag=deskfinds0d-20",
     description: "Included here specifically because its listing is explicit that peak brightness requires being connected to power, a real-world example of the net-power-deficit issue this guide's buying criteria address: at 4K and 1200 nits, this monitor's own power draw is substantial, don't expect it to simultaneously charge your laptop at any meaningful rate while running at peak brightness.\n\nOne spot below EVICIV Portable Monitor 4K 1200 Nits 16\" in this ranking, it costs more than EVICIV Portable Monitor 4K 1200 Nits 16\". The compromise here is straightforward: 4K + 1200 nits leaves little to no power budget for charging your laptop simultaneously. What you gain in return: Explicitly discloses power requirements for peak brightness. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Largest review base among 1200-nit picks. On the other side, Highest price in this guide. That's the main tradeoff to weigh against everything above.",
@@ -153,7 +153,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Realistic net power budget, not just the rated ceiling", description: "Calculated whether each monitor's own power draw (especially at 4K resolution or peak brightness) leaves meaningful pass-through wattage for actually charging a connected laptop, versus just quoting the box's rated number." },
   { title: "PPS and fast-charging protocol disclosure", description: "Noted where a listing doesn't specify PPS (Programmable Power Supply) support, meaning fast charging for newer phones/laptops may be slower than their dedicated charger even if basic PD pass-through works." },
-  { title: "Charger dependency, not monitor magic", description: "Confirmed that no monitor in this guide generates its own charging power, pass-through wattage is always capped by whatever charger is plugged into the other end." },
+  { title: "Charger dependency, not monitor magic", description: "Confirmed that no monitor in this guide generates its own charging power, pass-through wattage is always capped by whatever charger is plugged into the other end." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -290,11 +290,11 @@ export const faq: FaqItem[] = [
   { q: "Will pass-through charging fast-charge my phone at its maximum speed?", a: "Not necessarily. Fast phone charging often requires PPS (Programmable Power Supply) support, which basic USB-PD pass-through doesn't guarantee. None of the picks in this guide explicitly confirm PPS support." },
   { q: "Can any generic USB-C cable handle pass-through charging plus video?", a: "Not reliably. You need a cable certified for DisplayPort Alt Mode, your target wattage, and adequate data speed together. A generic or uncertified cable can silently bottleneck performance with no error message." },
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers who want the most honest wattage math and genuine hub functionality" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-focused buyers who want confirmed pass-through charging without a premium price At $109.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-focused buyers who want confirmed pass-through charging without a premium price At under $110, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-bright-portable-monitors-for-outdoor-use", title: "Best Bright Portable Monitors for Outdoor Use (2026)" },
   { href: "/guide/usb-c-hub-vs-docking-station", title: "USB-C Hub vs Docking Station (2026)" },
-  { href: "/guide/best-hdmi-portable-monitors", title: "Best HDMI Portable Monitors (2026)" },
+  { href: "/guide/best-hdmi-portable-monitors", title: "Best HDMI Portable Monitors (2026)" }
 ];

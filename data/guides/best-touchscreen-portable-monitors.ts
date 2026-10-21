@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "touchscreen portable monitor";
 export const introParagraphs = [
   "A 'touchscreen' label doesn't guarantee full 10-point multitouch, some budget models support only single or dual-touch, worth verifying the genuine multitouch point count if you plan to use gestures like pinch-to-zoom rather than assuming any touch monitor handles this.",
-  "Touch driver compatibility varies meaningfully across Windows, macOS, and Linux, worth confirming your specific OS is fully supported for touch input, not just video output, before assuming plug-and-play touch functionality across every platform.",
+  "Touch driver compatibility varies meaningfully across Windows, macOS, and Linux, worth confirming your specific OS is fully supported for touch input, not just video output, before assuming plug-and-play touch functionality across every platform."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine multitouch point count verified over the 'touchscreen' label alone", description: "Verified the genuine multitouch point count rather than assuming any 'touchscreen' label guarantees full 10-point gesture support." },
   { title: "OS driver compatibility checked across Windows, macOS, and Linux", description: "Checked touch driver compatibility across common operating systems, not just video output support." },
   { title: "Color accuracy and panel type weighted for creative use cases", description: "Weighted color gamut rating and panel type (IPS versus VA) for buyers considering creative or design work." },
-  { title: "Screen size versus portability tradeoff assessed honestly", description: "Assessed the tradeoff between larger touch canvas size and portability honestly, rather than assuming bigger is always better." },
+  { title: "Screen size versus portability tradeoff assessed honestly", description: "Assessed the tradeoff between larger touch canvas size and portability honestly, rather than assuming bigger is always better." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -207,11 +207,11 @@ export const faq: FaqItem[] = [
   { q: "Does every touchscreen portable monitor support pinch-to-zoom?", a: "Not necessarily, verify the genuine multitouch point count, some budget models support only single or dual-touch." },
   { q: "Will touch input work on any operating system?", a: "Not automatically, confirm your specific OS is fully supported for touch input, not just video output." },
   { q: "Is a bigger touchscreen monitor always better?", a: "It depends on your use case, a larger screen suits drawing or presentations but sacrifices some portability." },
-  { q: "Do I need 4K resolution for a touchscreen monitor?", a: "Only if you're doing detailed creative work, 1080P touchscreens are lighter on your device's graphics output." },
+  { q: "Do I need 4K resolution for a touchscreen monitor?", a: "Only if you're doing detailed creative work, 1080P touchscreens are lighter on your device's graphics output." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-oled-portable-monitors", title: "Best OLED Portable Monitors (2026)" },
   { href: "/guide/best-portable-monitors-for-photo-editing", title: "Best Portable Monitors for Photo Editing (2026)" },
-  { href: "/guide/best-portable-usb-c-monitors", title: "Best Portable USB-C Monitors (2026)" },
+  { href: "/guide/best-portable-usb-c-monitors", title: "Best Portable USB-C Monitors (2026)" }
 ];

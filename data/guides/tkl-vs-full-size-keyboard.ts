@@ -13,7 +13,7 @@ export const tklVsFullSizeKeyboardGuide: Guide = {
     "tkl keyboard benefits",
     "do i need a full size keyboard",
     "best tkl keyboard",
-    "keyboard size comparison",
+    "keyboard size comparison"
   ],
   heroImage: "/images/guides/tkl-vs-full-size-keyboard/01-tkl-vs-full-size-hero.webp",
   thumbnailImage: "/images/guides/tkl-vs-full-size-keyboard/01-tkl-vs-full-size-hero.webp",
@@ -25,7 +25,7 @@ export const tklVsFullSizeKeyboardGuide: Guide = {
     "60-vs-65-vs-75-keyboard",
     "keyboard-size-chart",
     "best-mechanical-keyboard-under-100",
-    "best-standing-desk-under-200",
+    "best-standing-desk-under-200"
   ],
   faq: [
     {
@@ -57,7 +57,7 @@ export const tklVsFullSizeKeyboardGuide: Guide = {
       question: "Can you use a TKL keyboard without a numpad?",
       answer:
         "Yes. Number input on a TKL keyboard uses the number row at the top of the main key block - the same row present on every keyboard. Most users who switch from full-size to TKL adapt quickly. Numpad-specific muscle memory for rapid numeric input in spreadsheets and accounting takes longer to transfer to the number row, which is why full-size remains preferred for data-entry-heavy roles.",
-    },
+    }
   ],
   sections: [
     {
@@ -203,6 +203,6 @@ For dimensions of all keyboard sizes including 60%, 65%, and 75%, see the full [
 **Related guides:**
 - [60% vs 65% vs 75% Keyboard](/guide/60-vs-65-vs-75-keyboard) - compact layout decisions
 - [Best Mechanical Keyboards Under $100](/guide/best-mechanical-keyboard-under-100) - TKL and compact picks`,
-    },
+    }
   ],
 };

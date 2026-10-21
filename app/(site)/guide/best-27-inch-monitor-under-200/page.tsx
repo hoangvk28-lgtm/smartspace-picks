@@ -188,7 +188,7 @@ export default async function Best27InchMonitorUnder200Page() {
     about: [
       { "@type": "Thing", name: "27-Inch Monitors Under $200" },
       { "@type": "Thing", name: "1440p Gaming Monitors" },
-      { "@type": "Thing", name: "Home Office Monitors" },
+      { "@type": "Thing", name: "Home Office Monitors" }
     ],
   };
 
@@ -208,7 +208,7 @@ export default async function Best27InchMonitorUnder200Page() {
         position: 3,
         name: "Best 27-Inch Monitor Under $200",
         item: `${SITE_URL}/guide/best-27-inch-monitor-under-200`,
-      },
+      }
     ],
   };
 
@@ -477,7 +477,7 @@ export default async function Best27InchMonitorUnder200Page() {
                     factor: "Price",
                     p1080: "~$100-160",
                     p1440: "~$150-200",
-                  },
+                  }
                 ].map((row, i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                     <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -729,7 +729,7 @@ export default async function Best27InchMonitorUnder200Page() {
                     use: "Hobbyist photo editing",
                     pick: "MSI G274QPF-QD or Acer VG271U M3",
                     why: "Both deliver 95% DCI-P3 at this price range",
-                  },
+                  }
                 ].map((row, i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                     <td className="px-4 py-3 font-medium text-ink text-xs">

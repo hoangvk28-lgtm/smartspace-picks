@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "under desk elliptical";
 export const introParagraphs = [
   "An under desk elliptical needs to survive two very different tests: does it actually fit in the roughly 9-12 inches of clearance under a standard 28-30 inch desk, and can it run through a work call without anyone hearing it. Most models on the market solve one of those problems and ignore the other, which is why footprint and noise rating matter just as much as resistance levels or app connectivity when comparing them.",
-  "Below are 8 under desk ellipticals we evaluated on desk clearance, noise level, pedal stride length, and resistance range, ranging from a $109 manual pedal exerciser to a motorized pick that moves your legs for you without any active pedaling effort.",
+  "Below are 8 under desk ellipticals we evaluated on desk clearance, noise level, pedal stride length, and resistance range, ranging from a $109 manual pedal exerciser to a motorized pick that moves your legs for you without any active pedaling effort."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "18-inch stride length",
       "25.4 lbs, battery powered",
       "LCD display + Bluetooth to Cubii App",
-      "Max user weight: 150 lbs",
+      "Max user weight: 150 lbs"
     ],
     pros: [
       "Compact footprint built for under-desk clearance",
       "Bluetooth app tracks strides, calories, and distance over time",
       "Smooth magnetic resistance across 8 levels",
-      "Battery powered, no cord to manage",
+      "Battery powered, no cord to manage"
     ],
     cons: [
       "150 lb max user weight is the lowest among the manual picks here",
       "18-inch stride may feel short for taller users",
-      "8 resistance levels tops out lower than the Cubii GO or Total Body V2",
+      "8 resistance levels tops out lower than the Cubii GO or Total Body V2"
     ],
     bestFor: "Buyers who want the most proven, editor-recommended pick in this category",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Digital monitor: time, speed, calories, distance",
       "25 lbs, ships fully assembled",
       "Knee-clearance pedal trajectory",
-      "Max user weight: 250 lbs",
+      "Max user weight: 250 lbs"
     ],
     pros: [
       "Cheapest pick in this guide",
       "Ships fully assembled, no setup needed",
       "250 lb weight capacity beats the Cubii JR1",
-      "Belt-drive design keeps operation quiet",
+      "Belt-drive design keeps operation quiet"
     ],
     cons: [
       "No app connectivity or Bluetooth tracking",
       "Fewer standout features than the pricier picks",
-      "Digital monitor is basic compared to the Cubii's app integration",
+      "Digital monitor is basic compared to the Cubii's app integration"
     ],
     bestFor: "Buyers who want the lowest price without sacrificing weight capacity",
   },
@@ -121,18 +121,17 @@ export const products: GuideProduct[] = [
       "Forward/reverse pedal direction",
       "Works standing or seated (dual-mode)",
       "24 lbs, müüv app support",
-      "Max user weight: 250 lbs",
+      "Max user weight: 250 lbs"
     ],
     pros: [
       "Cheapest pick in this entire guide",
       "Only dual-mode design, works standing or seated",
       "Forward and reverse pedal direction adds variety",
-      "250 lb weight capacity",
+      "250 lb weight capacity"
     ],
     cons: [
       "Electronic monitor is more basic than the Cubii's app tracking",
-      "4.3 rating is the lowest among the top picks in this guide",
-      "Dual-mode design adds some bulk versus a pure under-desk unit",
+      "Dual-mode design adds some bulk versus a pure under-desk unit"
     ],
     bestFor: "Buyers who want the option to use it standing at a counter, not just seated",
   },
@@ -153,18 +152,17 @@ export const products: GuideProduct[] = [
       "Extra-large adjustable pedals",
       "6-function LCD on a separate display stand",
       "Steel frame, whisper-quiet operation",
-      "30 lbs",
+      "30 lbs"
     ],
     pros: [
       "Smoothest pedal motion in this guide",
       "Largest pedals, best fit for bigger shoe sizes",
-      "Whisper-quiet magnetic resistance",
-      "Tied for the highest rating in this guide at 4.6 stars",
+      "Whisper-quiet magnetic resistance"
     ],
     cons: [
       "Most expensive pick alongside the Cubii GO",
       "Heaviest pick in this guide at 30 lbs",
-      "Detached display stand adds a bit more desk footprint",
+      "Detached display stand adds a bit more desk footprint"
     ],
     bestFor: "Buyers with larger feet who want the smoothest possible pedal feel",
   },
@@ -185,18 +183,18 @@ export const products: GuideProduct[] = [
       "LCD: time, distance, strides, RPM, calories",
       "Bluetooth fitness app support",
       "28.7 lbs, 2-year warranty",
-      "Max user weight: 300 lbs",
+      "Max user weight: 300 lbs"
     ],
     pros: [
       "Highest weight capacity among the manual picks at 300 lbs",
       "Includes a mat, tether, yoga band, and wheel stoppers",
       "2-year warranty, longer than most picks in this guide",
-      "Bluetooth tracking across five metrics",
+      "Bluetooth tracking across five metrics"
     ],
     cons: [
       "Not the cheapest option despite the added accessories",
       "8 resistance levels is fewer than the Cubii GO's 10 or Total Body V2's 12",
-      "Extra accessories add clutter if you don't plan to use all of them",
+      "Extra accessories add clutter if you don't plan to use all of them"
     ],
     bestFor: "Heavier users who want the highest manual weight capacity plus a full accessory kit",
   },
@@ -217,18 +215,18 @@ export const products: GuideProduct[] = [
       "ZeroGravitii flywheel for ultra-quiet operation",
       "Built-in wheels + double telescoping handle",
       "Aluminum frame, Bluetooth to Cubii App",
-      "Max user weight: 300 lbs",
+      "Max user weight: 300 lbs"
     ],
     pros: [
       "Most resistance levels in this guide at 10",
       "Most portable pick, built-in wheels and telescoping handle",
       "300 lb weight capacity",
-      "Flywheel design built specifically for quiet operation",
+      "Flywheel design built specifically for quiet operation"
     ],
     cons: [
       "Tied for the most expensive pick in this guide",
       "Smaller review sample than the JR1 or Sunny Health pick",
-      "Aluminum frame trades some rigidity for portability",
+      "Aluminum frame trades some rigidity for portability"
     ],
     bestFor: "Buyers who want the most resistance range and plan to move the unit around often",
   },
@@ -249,18 +247,18 @@ export const products: GuideProduct[] = [
       "Resistance-band pulley system for upper-body work",
       "Alloy steel construction",
       "LCD display",
-      "Max user weight: 300 lbs, supports users up to 7 feet tall",
+      "Max user weight: 300 lbs, supports users up to 7 feet tall"
     ],
     pros: [
       "Only pick combining leg and upper-body resistance training",
       "Highest resistance range in this guide at 12 levels",
       "Supports users up to 7 feet tall",
-      "300 lb weight capacity",
+      "300 lb weight capacity"
     ],
     cons: [
       "Larger footprint than pure-pedal picks due to the pulley hardware",
       "Smaller review sample than the top two picks",
-      "Pricier than the entry-level picks in this guide",
+      "Pricier than the entry-level picks in this guide"
     ],
     bestFor: "Buyers who want a light upper-body workout alongside the pedaling motion",
   },
@@ -281,21 +279,20 @@ export const products: GuideProduct[] = [
       "Hand-held remote on 6-foot cord",
       "Automatic 15-minute timer",
       "Foldable pedals with adjustable straps, floor mat included",
-      "Max user weight: 286 lbs",
+      "Max user weight: 286 lbs"
     ],
     pros: [
       "Only pick offering passive, motor-driven movement",
       "Remote control avoids bending down to adjust settings",
       "Works for both arms and legs",
-      "Includes a floor mat",
+      "Includes a floor mat"
     ],
     cons: [
       "Passive motion is a different workout than active pedaling",
-      "286 lb max user weight is lower than the Cubii GO or Total Body V2",
-      "4.3 rating is on the lower end for this guide",
+      "286 lb max user weight is lower than the Cubii GO or Total Body V2"
     ],
     bestFor: "Buyers who want passive leg movement rather than active pedaling effort",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +320,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed resistance range, weight capacity, and included accessories against price, from the Stamina InMotion to the Cubii GO.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,11 +474,11 @@ export const faq: FaqItem[] = [
   {
     q: "Can I use an under desk elliptical while sitting on a normal chair?",
     a: "Yes, that's how nearly every pick in this guide is designed to be used, positioned under a desk while seated in a regular office chair. The Stamina InMotion E1000 is the only pick here also built to work standing at a counter-height surface if you want that flexibility.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-under-desk-elliptical-for-seniors", title: "Best Under Desk Ellipticals for Seniors (2026)" },
   { href: "/guide/best-under-desk-bike-pedal-exerciser", title: "Best Under Desk Bike Pedal Exercisers (2026)" },
-  { href: "/guide/best-compact-walking-pads-for-small-spaces", title: "Best Compact Walking Pads for Small Spaces (2026)" },
+  { href: "/guide/best-compact-walking-pads-for-small-spaces", title: "Best Compact Walking Pads for Small Spaces (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop cooling pads for Alienware laptops";
 export const introParagraphs = [
   "Alienware laptops are exclusively gaming-focused, which means they already ship with substantial internal cooling, large vapor chambers, multiple internal fans, and chassis engineering built specifically to handle sustained gaming and rendering loads. That is different from most laptop brands, and it changes what an external cooling pad can realistically add.",
-  "Every pad in this guide is a universal-fit multi-fan design rather than Alienware-exclusive hardware, so we evaluated each one by its stated size range, weight capacity, and airflow output against Alienware's typically large and heavy chassis. We also address directly whether a cooling pad is worth buying at all for this particular brand, since that answer is less obvious for Alienware than for most other gaming laptops.",
+  "Every pad in this guide is a universal-fit multi-fan design rather than Alienware-exclusive hardware, so we evaluated each one by its stated size range, weight capacity, and airflow output against Alienware's typically large and heavy chassis. We also address directly whether a cooling pad is worth buying at all for this particular brand, since that answer is less obvious for Alienware than for most other gaming laptops."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "9 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Realistic benefit given Alienware's internal cooling", description: "We evaluated each pad against the reality that Alienware ships with substantial internal cooling already, weighting picks toward scenarios where external cooling genuinely adds value rather than treating every pad as a must-have upgrade." },
   { title: "Chassis size and weight match", description: "We compared each pad's stated size range and load capacity against Alienware's typically large, heavy gaming chassis rather than assuming general gaming-laptop compatibility claims applied evenly." },
   { title: "Airflow output vs noise tradeoff", description: "We weighed stated RPM, dBA, and temperature-drop figures against each other, since higher airflow options generally come with higher noise, a real tradeoff worth stating plainly." },
-  { title: "Rear-exhaust vent compatibility", description: "We noted which pads specifically address bottom air intake for rear-exhaust chassis layouts, since that vent configuration is common on Alienware models and affects whether a pad's airflow actually reaches the right area." },
+  { title: "Rear-exhaust vent compatibility", description: "We noted which pads specifically address bottom air intake for rear-exhaust chassis layouts, since that vent configuration is common on Alienware models and affects whether a pad's airflow actually reaches the right area." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -292,11 +292,11 @@ export const faq: FaqItem[] = [
   { q: "Why do some of these pads mention rear-exhaust or bottom air intake?", a: "Many Alienware models exhaust heat toward the back of the laptop. A pad designed with bottom air intake specifically addresses this layout and avoids the heat backflow problem a generic top-vent pad design could cause." },
   { q: "Are turbo-fan cooling pads too loud for regular use?", a: "At maximum speed, some reach 55 to 65 dB, which is noticeably loud. Most also support lower speed settings for quieter operation when maximum airflow is not needed." },
   { q: "Is a Peltier or semiconductor cooling pad better than a fan-only pad?", a: "It is a different approach rather than a strictly better one. Peltier cooling pads like the Metfut pick run quieter but may have a smaller size rating, so the better choice depends on your Alienware model's size and your noise tolerance." },
-  { q: "Will a cooling pad void my Alienware warranty?", a: "External cooling pads that simply sit under the laptop do not open or modify the device, so they do not typically affect an Alienware warranty. Always check your specific warranty terms if you are uncertain." },
+  { q: "Will a cooling pad void my Alienware warranty?", a: "External cooling pads that simply sit under the laptop do not open or modify the device, so they do not typically affect an Alienware warranty. Always check your specific warranty terms if you are uncertain." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-gaming-laptop-cooling-pads", title: "Best Gaming Laptop Cooling Pads" },
   { href: "/guide/best-premium-laptop-cooling-pads", title: "Best Premium Laptop Cooling Pads" },
-  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads" },
+  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads" }
 ];

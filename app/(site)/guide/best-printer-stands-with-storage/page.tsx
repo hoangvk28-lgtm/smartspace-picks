@@ -159,7 +159,7 @@ export default async function BestPrinterStandsWithStoragePage() {
     about: [
       { "@type": "Thing", name: "Printer Stand" },
       { "@type": "Thing", name: "Home Office Storage" },
-      { "@type": "Thing", name: "Rolling Cart" },
+      { "@type": "Thing", name: "Rolling Cart" }
     ],
   };
 
@@ -179,7 +179,7 @@ export default async function BestPrinterStandsWithStoragePage() {
         position: 3,
         name: "Best Printer Stands with Storage",
         item: `${SITE_URL}/guide/best-printer-stands-with-storage`,
-      },
+      }
     ],
   };
 
@@ -500,7 +500,7 @@ export default async function BestPrinterStandsWithStoragePage() {
                   {[
                     { option: "Open shelves only", bestFor: "Frequently accessed supplies, printer paper", notes: "Immediate access, lower price" },
                     { option: "Shelves + drawer", bestFor: "Mix of visible and concealed storage", notes: "Most common format at mid-price" },
-                    { option: "File cabinet combo", bestFor: "Active documents plus printer support", notes: "Higher price, more permanent setup" },
+                    { option: "File cabinet combo", bestFor: "Active documents plus printer support", notes: "Higher price, more permanent setup" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.option}</td>
@@ -542,25 +542,25 @@ export default async function BestPrinterStandsWithStoragePage() {
                 context: "Best overall by reviews and trust signal",
                 id: "huanuo-2-tier",
                 name: "HUANUO 2-Tier",
-                verdict: " - 6,293 reviews at 4.5 stars, cable management built in, locking casters, under $35.",
+                verdict: " - Cable management built in, locking casters, under $35.",
               },
               {
                 context: "Best for maximum storage compartments",
                 id: "devaise-5-drawer",
                 name: "DEVAISE 5-Drawer",
-                verdict: " - 2,049 reviews at 4.4 stars, five drawers, adjustable shelf, wood-look finish.",
+                verdict: " - Five drawers, adjustable shelf, wood-look finish.",
               },
               {
                 context: "Best file cabinet and printer stand combo by reviews",
                 id: "devaise-3-drawer-mobile",
                 name: "DEVAISE 3-Drawer Mobile",
-                verdict: " - 5,343 reviews, lateral file storage, open shelves, rolling casters.",
+                verdict: " - Lateral file storage, open shelves, rolling casters.",
               },
               {
                 context: "Best budget option with power outlet",
                 id: "hoobro-3-tier-industrial",
                 name: "HOOBRO 3-Tier",
-                verdict: " - 976 reviews at 4.5 stars, power outlet and USB ports under $35.",
+                verdict: " - Power outlet and USB ports under $35.",
               },
               {
                 context: "Best for larger all-in-one printers",
@@ -572,7 +572,7 @@ export default async function BestPrinterStandsWithStoragePage() {
                 context: "Best premium combo with file storage and charging",
                 id: "unikito-lateral-file-cabinet",
                 name: "Unikito Lateral",
-                verdict: " - file storage, power sockets, USB charging, locking drawers at $109.99.",
+                verdict: " - file storage, power sockets, USB charging, locking drawers at under $110.",
               },
               {
                 context: "Best for multi-printer or printer plus scanner",
@@ -584,8 +584,8 @@ export default async function BestPrinterStandsWithStoragePage() {
                 context: "Feature-rich mid-range option with charging",
                 id: "mahancris-3-drawer",
                 name: "MAHANCRIS 3-Drawer",
-                verdict: " - charging station integration at $59.99, limited review validation.",
-              },
+                verdict: " - charging station integration at under $60, limited review validation.",
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

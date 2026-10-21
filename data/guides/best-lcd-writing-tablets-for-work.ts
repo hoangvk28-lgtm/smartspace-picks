@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "lcd writing tablet for work";
 export const introParagraphs = [
   "For office use, an LCD writing tablet works best as a quick memo board, whiteboard replacement, or scratchpad for phone calls, not as a note archive, since most models in this category erase permanently with no way to recover what was written.",
-  "A lock or memory-lock function is genuinely useful for office use since it prevents a message or reminder from being accidentally wiped by a coworker or a bumped desk, a different feature from note-saving and worth understanding the distinction before buying for shared office spaces.",
+  "A lock or memory-lock function is genuinely useful for office use since it prevents a message or reminder from being accidentally wiped by a coworker or a bumped desk, a different feature from note-saving and worth understanding the distinction before buying for shared office spaces."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "10 min";
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Office framing verified from listing details", description: "Prioritized models explicitly marketed for office, memo board, or whiteboard use over general consumer LCD tablets repurposed for work." },
   { title: "Lock function distinguished from save function", description: "Confirmed which listed lock functions only prevent accidental erasing versus genuinely saving content, an important distinction for shared office use." },
   { title: "Magnetic claims flagged where unverified", description: "Noted where a listing mentions magnetic backing without confirming strength, so buyers verify before assuming it mounts securely to a specific surface." },
-  { title: "Screen size matched to shared versus individual office use", description: "Weighted larger screens for shared team visibility and smaller screens for individual desk or meeting note-taking." },
+  { title: "Screen size matched to shared versus individual office use", description: "Weighted larger screens for shared team visibility and smaller screens for individual desk or meeting note-taking." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -274,11 +274,11 @@ export const faq: FaqItem[] = [
   { q: "Can an office LCD memo board save messages digitally?", a: "Only if it has explicit Bluetooth sync capability. A standard lock function only prevents accidental erasing, it does not save the content anywhere." },
   { q: "Will a magnetic LCD board stick to a filing cabinet?", a: "Verify the specific magnetic backing strength on the current listing first, some listings mention magnetic capability without confirming it holds securely on all metal surfaces." },
   { q: "What size works best for a shared office display?", a: "A 15 inch screen gives the visibility needed for a shared team space, while a compact 8.5 inch screen suits an individual desk or cubicle." },
-  { q: "Is there an LCD writing tablet that actually saves meeting notes?", a: "Yes, a Bluetooth sync model like the Boogie Board Sync genuinely saves handwritten notes to an app before you erase the screen." },
+  { q: "Is there an LCD writing tablet that actually saves meeting notes?", a: "Yes, a Bluetooth sync model like the Boogie Board Sync genuinely saves handwritten notes to an app before you erase the screen." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-lcd-writing-tablets-for-note-taking", title: "Best LCD Writing Tablets for Note-Taking (2026)" },
   { href: "/guide/best-lcd-writing-tablets-for-adults", title: "Best LCD Writing Tablets for Adults (2026)" },
-  { href: "/guide/best-smart-lcd-writing-tablets", title: "Best Smart LCD Writing Tablets (2026)" },
+  { href: "/guide/best-smart-lcd-writing-tablets", title: "Best Smart LCD Writing Tablets (2026)" }
 ];

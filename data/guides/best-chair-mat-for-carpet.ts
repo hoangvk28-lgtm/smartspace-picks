@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "chair mat for carpet";
 export const introParagraphs = [
   "A chair mat that works on hardwood can fail completely on carpet, because a flat-backed mat has nothing to grip into carpet fibers and slowly migrates across the room as the chair rolls. The mats that actually stay put on carpet use molded cleats, spikes, or studs on the underside, and they're rated for a specific pile height range rather than carpet in general.",
-  "Below are 8 chair mats for carpet we evaluated on cleat design, pile-height rating, material thickness, and weight capacity, ranging from a $28 clear PVC mat with rounded corners to a rigid 5mm mat rated for 1,400 lbs.",
+  "Below are 8 chair mats for carpet we evaluated on cleat design, pile-height rating, material thickness, and weight capacity, ranging from a $28 clear PVC mat with rounded corners to a rigid 5mm mat rated for 1,400 lbs."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Rated for low pile carpet up to 1/4\"",
       "Extended lip with ramped edges",
       "Molded cleats + anchor bars underside",
-      "5-year warranty",
+      "5-year warranty"
     ],
     pros: [
       "Longest warranty in this guide at 5 years",
       "Ramped lip smooths the carpet-to-mat transition",
       "Anti-skid top surface",
-      "Anchor bars grip low pile carpet firmly",
+      "Anchor bars grip low pile carpet firmly"
     ],
     cons: [
       "Only rated for low pile, not medium or high",
       "2.2mm thickness is thinner than the rigid picks",
-      "Ships rolled and needs time to lie flat",
+      "Ships rolled and needs time to lie flat"
     ],
     bestFor: "Buyers who want the most proven, longest-warrantied low pile mat",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "20\"W x 10\"D front lip",
       "Cleated backing",
       "Rated for carpet up to 1/4\"",
-      "Made in USA, rounded corners",
+      "Made in USA, rounded corners"
     ],
     pros: [
       "Thickest PVC mat with a lip in this guide",
       "Made in USA",
       "Rounded corners reduce curling and tripping",
-      "Sturdy underfoot feel from the 0.25\" thickness",
+      "Sturdy underfoot feel from the 0.25\" thickness"
     ],
     cons: [
       "Still rated for low pile only",
       "Rigid thickness makes it heavier to reposition",
-      "Lip size may not fit every desk footprint",
+      "Lip size may not fit every desk footprint"
     ],
     bestFor: "Buyers who want the thickest PVC option that still includes a front lip",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Rated 1,400 lbs, highest in this guide",
       "Rigid, flat, does not fold or curl",
       "Dual-use on carpet or hard floor",
-      "12-month warranty",
+      "12-month warranty"
     ],
     pros: [
       "Highest weight capacity in this guide at 1,400 lbs",
       "Thickest material in this guide",
       "Stays rigid and flat, doesn't sink into carpet",
-      "Works on carpet or hard floor without flipping",
+      "Works on carpet or hard floor without flipping"
     ],
     cons: [
       "Shortest warranty among the higher-priced picks",
       "Rigid construction is harder to trim or reshape",
-      "Heavier to move or store than flexible mats",
+      "Heavier to move or store than flexible mats"
     ],
     bestFor: "Heavier chairs or users who need the highest rated capacity",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "3mm spikes for carpet grip",
       "Pleated corners",
       "BPA-free, phthalate-free, odorless",
-      "Lifetime warranty",
+      "Lifetime warranty"
     ],
     pros: [
       "Only lifetime warranty among the no-lip PVC picks",
       "Lowest price among the standard PVC mats",
       "3mm spikes grip carpet fibers directly",
-      "BPA-free and odorless construction",
+      "BPA-free and odorless construction"
     ],
     cons: [
       "No front lip for tucking under a desk",
       "Smaller 30\" width than most other picks",
-      "Needs the standard 24-hour flattening period",
+      "Needs the standard 24-hour flattening period"
     ],
     bestFor: "Budget buyers who still want a lifetime warranty backing the mat",
   },
@@ -185,18 +185,17 @@ export const products: GuideProduct[] = [
       "Tapered lip 24.7\"W x 9.2\"D",
       "Rounded corners",
       "Rated for low pile carpet up to 1/4\"",
-      "Made in USA, 1-year warranty",
+      "Made in USA, 1-year warranty"
     ],
     pros: [
       "Cheapest Made-in-USA pick in this guide",
       "Tapered lip sized to tuck under a desk",
-      "Rounded corners resist curling",
-      "Solid 4.3-star rating",
+      "Rounded corners resist curling"
     ],
     cons: [
       "Thinnest material among the PVC picks at 0.11\"",
       "Only a 1-year warranty",
-      "Rated for low pile only",
+      "Rated for low pile only"
     ],
     bestFor: "Budget-conscious buyers who still want a domestic-made mat with a lip",
   },
@@ -216,18 +215,18 @@ export const products: GuideProduct[] = [
       "36\"W x 48\"D, polycarbonate, 0.087\" thick",
       "Hundreds of underside spikes",
       "Ships flat, no relax time needed",
-      "Rated for medium to low pile up to 3/4\"",
+      "Rated for medium to low pile up to 3/4\""
     ],
     pros: [
       "Ships flat, skips the 24-hour settling period",
       "Rated for a wider pile range than the PVC picks",
       "Polycarbonate is more impact-resistant than PVC",
-      "Hundreds of spikes for strong carpet grip",
+      "Hundreds of spikes for strong carpet grip"
     ],
     cons: [
       "Pricier than the budget PVC picks",
       "No front lip",
-      "Not rated for high or extra-high pile",
+      "Not rated for high or extra-high pile"
     ],
     bestFor: "Medium pile carpet where a flat-shipped mat with no wait time matters",
   },
@@ -248,18 +247,18 @@ export const products: GuideProduct[] = [
       "20\" front lip",
       "Rounded AnchorBar cleats, not sharp spikes",
       "GREENGUARD certified",
-      "Rated for flat pile carpet up to 1/8\"",
+      "Rated for flat pile carpet up to 1/8\""
     ],
     pros: [
       "Only GREENGUARD-certified pick in this guide",
       "Rounded cleats are safer around bare feet or pets",
       "Includes a front lip",
-      "0.25\" thickness feels sturdy underfoot",
+      "0.25\" thickness feels sturdy underfoot"
     ],
     cons: [
       "Shallowest pile rating in this guide at 1/8\"",
       "Not suited to anything past flat or very low pile",
-      "Fewer reviews than the top 2 picks",
+      "Fewer reviews than the top 2 picks"
     ],
     bestFor: "Buyers on very flat pile carpet who want a certified, pet-safe mat",
   },
@@ -280,21 +279,21 @@ export const products: GuideProduct[] = [
       "Extended lip for desk tuck",
       "Enhanced cleats and studs underside",
       "Semi-transparent, wipes clean easily",
-      "Rated for low pile carpet",
+      "Rated for low pile carpet"
     ],
     pros: [
       "Widest polycarbonate mat with a lip in this guide",
       "Cheapest polycarbonate pick in this guide",
       "Enhanced cleats grip low pile carpet well",
-      "Wipes clean easily",
+      "Wipes clean easily"
     ],
     cons: [
       "Only rated for low pile, unlike the other polycarbonate pick",
       "Fewer reviews than the vinyl best-sellers",
-      "Semi-transparent finish shows dust more than a matte top",
+      "Semi-transparent finish shows dust more than a matte top"
     ],
     bestFor: "Buyers who want a wider polycarbonate footprint with a lip at a low price",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -322,7 +321,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed thickness, pile rating, lip design, and warranty against price, since the cheapest mat in this guide and the highest-capacity mat serve very different buyer needs.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -476,11 +475,11 @@ export const faq: FaqItem[] = [
   {
     q: "Is a thicker mat always better for carpet?",
     a: "Not necessarily, thickness matters most in combination with rigidity and pile rating. A thick but flexible PVC mat can still sink into medium or high pile carpet, while a thinner but rigid polycarbonate mat can outperform it on the same carpet because it doesn't flex under the chair's weight.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-chair-mats", title: "Best Chair Mats for Any Floor (2026)" },
   { href: "/guide/best-chair-mats-for-carpet", title: "Best Chair Mats for Carpet, Commercial-Grade Picks (2026)" },
-  { href: "/guide/best-office-chair-under-100", title: "Best Office Chairs Under $100 (2026)" },
+  { href: "/guide/best-office-chair-under-100", title: "Best Office Chairs Under $100 (2026)" }
 ];

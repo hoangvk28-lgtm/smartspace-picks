@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "This stand's double heavy duty base is specifically designed so it will never tip over or shake even when used in any direction, a genuine floor-standing stability claim the desktop stands in this comparison don't need to address. Its 27.5 to 53 inch height range is dramatically taller than any desktop stand, purpose-built for use beside a bed, sofa, or standing position.\n\nCompared to the desktop-focused picks above, this one's flexible design frees your hands entirely for watching movies, live streaming, or reading music scores while practicing an instrument. The carbon steel and reinforced base construction provides long-term durability, and the flat base doubles as a spot to place items when not holding a device.\n\nBest for buyers who specifically need a floor-standing solution for bedside or sofa-adjacent use.",
     specs: ["27.5-53in height, floor-standing", "Double heavy-duty base, carbon steel", "4.7-13in device compatibility"],
     pros: ["Floor-standing design frees your hands entirely from any seated position", "Dramatically taller height range than desktop-only alternatives", "Flat base doubles as storage space when not holding a device"],
-    cons: ["Slightly over this tier's stated ceiling at $22.88", "Larger footprint than a compact desktop stand"],
+    cons: ["Slightly over this tier's stated ceiling at under $25", "Larger footprint than a compact desktop stand"],
     bestFor: "buyers who specifically need a floor-standing solution for bedside use",
   }
 ];
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Dual-device support with the tallest height and longest warranty", "Dehuft Tablet Stand for Desk, Height Adjustable 9.8-20in"],
         ["A genuine multi-function laptop, tablet, and phone stand", "werfami Laptop Stand, Portable Tablet Riser iPad Desk Mount"],
         ["360-degree rotation for screen sharing in meetings", "LOXP Adjustable Tablet Stand, 360 Rotating with Heavy-Duty Base"],
-        ["A floor-standing solution for bedside or sofa use", "Lucky Trip Tablet Floor Stand with Double Heavy Duty Stable Base"],
+        ["A floor-standing solution for bedside or sofa use", "Lucky Trip Tablet Floor Stand with Double Heavy Duty Stable Base"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $16", "LOXP ($15.99)"],
-        ["Under $18", "Dehuft ($17.99) or werfami ($17.99)"],
-        ["Under $23", "Lucky Trip ($22.88)"],
+        ["Under $16", "LOXP (under $20)"],
+        ["Under $18", "Dehuft (under $20) or werfami (under $20)"],
+        ["Under $23", "Lucky Trip (under $25)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Desktop Stand vs Floor Stand",
     cards: [
       { label: "Desktop stand (Dehuft, werfami, LOXP)", text: "Sits on a desk or table surface, suited to a fixed workspace setup with moderate height adjustment." },
-      { label: "Floor stand (Lucky Trip)", text: "Stands independently on the floor with a dramatically taller height range, suited to bedside, sofa, or standing use without a desk surface involved." },
+      { label: "Floor stand (Lucky Trip)", text: "Stands independently on the floor with a dramatically taller height range, suited to bedside, sofa, or standing use without a desk surface involved." }
     ],
     note: "If you need a tablet stand for a desk workspace, the desktop-based picks fit that need well. If you want hands-free viewing from a bed, sofa, or while standing without a desk nearby, the Lucky Trip floor stand's height range specifically addresses that.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Single tablet only", "LOXP or Lucky Trip"],
         ["Two phones or one tablet, switchable", "Dehuft"],
-        ["Laptop, tablet, and MagSafe phone", "werfami"],
+        ["Laptop, tablet, and MagSafe phone", "werfami"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Content Creator Managing Dual-Camera Live Streaming Specifically",
     cards: [
       { label: "Look for", text: "A stand with independent dual-device clamps specifically designed for holding two phones simultaneously, rather than a single-device stand with a wide device range." },
-      { label: "In this comparison", text: "The Dehuft pick's dual mode design with two independent movable clamps specifically supports dual-camera live streaming setups that the single-device picks in this tier can't accommodate." },
+      { label: "In this comparison", text: "The Dehuft pick's dual mode design with two independent movable clamps specifically supports dual-camera live streaming setups that the single-device picks in this tier can't accommodate." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You need a floor-standing solution with a dramatically taller height range for bedside or sofa use, where the Lucky Trip pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You want a desktop stand with rotation flexibility without needing dual-device support, where the LOXP pick covers that for about $2 less." },
+      { label: "Save if", text: "You want a desktop stand with rotation flexibility without needing dual-device support, where the LOXP pick covers that for about $2 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

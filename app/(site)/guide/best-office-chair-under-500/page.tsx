@@ -140,7 +140,7 @@ export default async function Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Office Chairs Under $500", item: `${SITE_URL}/guide/best-office-chair-under-500` },
+      { "@type": "ListItem", position: 3, name: "Best Office Chairs Under $500", item: `${SITE_URL}/guide/best-office-chair-under-500` }
     ],
   };
 
@@ -245,7 +245,7 @@ export default async function Page() {
 
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>An office chair under $500 sits at the upper boundary of the mid-range tier - you can get full ergonomic adjustability, quality mesh, and 5 to 7-year warranties without crossing into the $1,000-plus premium brand territory.</p>
-          <p>This guide covers eight office chairs under $500 ranked by adjustment axis count, warranty, leather vs mesh, and user-size specificity - from the Branch Tall at $499 with a 7-year warranty to the HON Ignition 2.0 in genuine leather at $449.</p>
+          <p>This guide covers eight office chairs under $500 ranked by adjustment axis count, warranty, leather vs mesh, and user-size specificity - from the Branch Tall at under $500 with a 7-year warranty to the HON Ignition 2.0 in genuine leather at $449.</p>
           <p>For budget options under $300, see our <a href='/guide/best-office-chair-under-300' className='text-brand hover:underline'>best office chairs under $300</a> guide.</p>
         </section>
 

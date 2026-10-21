@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41EEXTEmyPL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DSK42H1D?tag=deskfinds0d-20",
-    "description": "HUANUO has an 18 x 13 inch platform with 3 heights of 4.3, 5.5 and 6.7 inches and a tilt of minus 30 to plus 30 degrees. The listing says the angle cannot be fixed, and it arrives pre-assembled.\n\nAt $28.99 it is about $17 cheaper than StarTech and has a much wider tilt range than Staples. Versus StarTech it rocks freely and has more height choice.\n\nBest for active sitters who like a free-floating platform. The caveat is that you cannot hold one angle.",
+    "description": "HUANUO has an 18 x 13 inch platform with 3 heights of 4.3, 5.5 and 6.7 inches and a tilt of minus 30 to plus 30 degrees. The listing says the angle cannot be fixed, and it arrives pre-assembled.\n\nAt under $30 it is about $17 cheaper than StarTech and has a much wider tilt range than Staples. Versus StarTech it rocks freely and has more height choice.\n\nBest for active sitters who like a free-floating platform. The caveat is that you cannot hold one angle.",
     "specs": [
       "Tilt minus 30 to plus 30 degrees",
       "Heights 4.3, 5.5, 6.7 inches",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31hDiTjTHzL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FW1TVTD4?tag=deskfinds0d-20",
-    "description": "Staples has three preset positions combining height and tilt, a 17.3 x 13 inch platform at 4.1 to 6.8 inches high and a non-skid base. It can be used with or without shoes.\n\nAt $25.99 it is the cheapest here, and the three presets make it simpler than HUANUO. Versus StarTech it has less detail on tilt degrees.\n\nBest for buyers who want a simple, low-cost tilt footrest from a familiar brand. The caveat is that tilt angles are not given in the highlights.",
+    "description": "Staples has three preset positions combining height and tilt, a 17.3 x 13 inch platform at 4.1 to 6.8 inches high and a non-skid base. It can be used with or without shoes.\n\nAt under $30 it is the cheapest here, and the three presets make it simpler than HUANUO. Versus StarTech it has less detail on tilt degrees.\n\nBest for buyers who want a simple, low-cost tilt footrest from a familiar brand. The caveat is that tilt angles are not given in the highlights.",
     "specs": [
       "3 preset height and tilt positions",
       "17.3 x 13 inch platform",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31wXwX+IM+L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FH6NWBX6?tag=deskfinds0d-20",
-    "description": "EUREKA offers 0 to 20 degree floating tilt on a sturdy metal frame with a flat massage texture, and the listing says it supports up to 150 lbs. It notes plainly that the tilt adjustment is not lockable.\n\nIt costs $49.99, around $4 more than StarTech, and its tilt range is narrower than HUANUO's. Versus Toyswill it is a free rocker rather than a hinged folding stool.\n\nBest for a metal-frame rocker with a stated weight limit. The caveat is that you pay more for a narrower range.",
+    "description": "EUREKA offers 0 to 20 degree floating tilt on a sturdy metal frame with a flat massage texture, and the listing says it supports up to 150 lbs. It notes plainly that the tilt adjustment is not lockable.\n\nIt costs under $50, around $4 more than StarTech, and its tilt range is narrower than HUANUO's. Versus Toyswill it is a free rocker rather than a hinged folding stool.\n\nBest for a metal-frame rocker with a stated weight limit. The caveat is that you pay more for a narrower range.",
     "specs": [
       "0 to 20 degree tilt",
       "Metal frame, 150 lb limit",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41YI8HDPfvL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0F8B1YXWZ?tag=deskfinds0d-20",
-    "description": "Toyswill has upgraded hinges for multiple height and angle settings, a widened panel with a removable massage-bead cushion and an enlarged non-slip base. It is made of carbon steel and HDPE and supports 140 lbs.\n\nAt $39.98 it costs $11 more than HUANUO but folds flat for storage. Versus EUREKA it is hinged rather than a free rocker.\n\nBest for people who want to put the footrest away at the end of the day. The caveat is no stated tilt degrees in the highlights.",
+    "description": "Toyswill has upgraded hinges for multiple height and angle settings, a widened panel with a removable massage-bead cushion and an enlarged non-slip base. It is made of carbon steel and HDPE and supports 140 lbs.\n\nAt under $40 it costs $11 more than HUANUO but folds flat for storage. Versus EUREKA it is hinged rather than a free rocker.\n\nBest for people who want to put the footrest away at the end of the day. The caveat is no stated tilt degrees in the highlights.",
     "specs": [
       "Hinged height and angle settings",
       "Foldable, 140 lb capacity",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31zUNRrYFdL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B08D1RJ5LT?tag=deskfinds0d-20",
-    "description": "ShopSol has a height range of 3 to 16 inches, a platform angle that adjusts from minus 10 to plus 35 degrees, textured rubber matting and a tubular steel frame. The listing says it meets and exceeds ANSI/BIFMA standards.\n\nAt $259.60 it costs more than five times the next pick and has by far the widest height range. Versus StarTech it is aimed at commercial or heavy use.\n\nBest for shared offices where a footrest sees constant use. The caveat is the price, which is hard to justify for one home desk.",
+    "description": "ShopSol has a height range of 3 to 16 inches, a platform angle that adjusts from minus 10 to plus 35 degrees, textured rubber matting and a tubular steel frame. The listing says it meets and exceeds ANSI/BIFMA standards.\n\nAt under $300 it costs more than five times the next pick and has by far the widest height range. Versus StarTech it is aimed at commercial or heavy use.\n\nBest for shared offices where a footrest sees constant use. The caveat is the price, which is hard to justify for one home desk.",
     "specs": [
       "3 to 16 inch height range",
       "Tilt minus 10 to plus 35 degrees",

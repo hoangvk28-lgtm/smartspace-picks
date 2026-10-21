@@ -187,7 +187,7 @@ export default async function BestErgonomicChairUnder500Page() {
     about: [
       { "@type": "Thing", name: "Ergonomic Chairs Under $500" },
       { "@type": "Thing", name: "Office Chairs" },
-      { "@type": "Thing", name: "Home Office Furniture" },
+      { "@type": "Thing", name: "Home Office Furniture" }
     ],
   };
 
@@ -207,7 +207,7 @@ export default async function BestErgonomicChairUnder500Page() {
         position: 3,
         name: "Best Ergonomic Chair Under $500",
         item: `${SITE_URL}/guide/best-ergonomic-chair-under-500`,
-      },
+      }
     ],
   };
 
@@ -301,7 +301,7 @@ export default async function BestErgonomicChairUnder500Page() {
             Branch&apos;s 5D armrests with lateral slide, BIFMA-certified
             commercial builds, and 7-year warranties all sit under $500. This
             guide covers 10 chairs across four price tiers - from $130 budget
-            mesh to the Branch Pro at $499 - so you can match spend to actual
+            mesh to the Branch Pro at under $500 - so you can match spend to actual
             daily use hours. For{" "}
             <Link prefetch={false}
               href="/guide/best-ergonomic-chair-under-300"
@@ -488,7 +488,7 @@ export default async function BestErgonomicChairUnder500Page() {
                     range: "$400-$500",
                     gets: "5D armrests with lateral slide, forward seat tilt, adjustable seat depth, aluminum base, 14 adjustment points",
                     bestFor: "8+ hrs/day, non-standard proportions, maximum adjustability",
-                  },
+                  }
                 ].map((row, i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                     <td className="px-4 py-3 font-bold text-ink text-xs whitespace-nowrap">
@@ -554,7 +554,7 @@ export default async function BestErgonomicChairUnder500Page() {
                     hip: "100+ deg open",
                     load: "Lower - weight shifts to thighs",
                     bestFor: "Active typing, leaning forward tasks",
-                  },
+                  }
                 ].map((row, i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                     <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -613,7 +613,7 @@ export default async function BestErgonomicChairUnder500Page() {
                     dim: "Lateral slide (5D, Branch Pro only)",
                     what: "Shift pad left/right independently",
                     why: "Precise elbow support for narrow or wide shoulders",
-                  },
+                  }
                 ].map((row, i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                     <td className="px-4 py-3 font-medium text-ink text-xs whitespace-nowrap">
@@ -817,7 +817,7 @@ export default async function BestErgonomicChairUnder500Page() {
                     situation: "8+ hrs/day, non-standard proportions, maximum adjustability",
                     pick: "Branch Pro (~$449-$499)",
                     reason: "5D armrests, forward seat tilt, adjustable seat depth, aluminum base",
-                  },
+                  }
                 ].map((row, i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                     <td className="px-4 py-3 text-ink text-xs font-medium">
@@ -842,7 +842,7 @@ export default async function BestErgonomicChairUnder500Page() {
             Is the Branch Pro Worth $200 More Than the C300?
           </h2>
           <p className="text-sm text-ink-secondary mb-5 leading-relaxed">
-            The Sihoo Doro C300 at $200-$280 and the Branch Pro at $449-$499
+            The Sihoo Doro C300 at $200-$280 and the Branch Pro at under $450-$499
             are both strong picks - but they optimize for different things.
           </p>
           <div className="overflow-x-auto rounded-xl border border-border">
@@ -895,7 +895,7 @@ export default async function BestErgonomicChairUnder500Page() {
                     feature: "Best for",
                     c300: "Best-in-class lumbar auto-adjustment, daily posture shifts",
                     pro: "Non-standard proportions, 8+ hrs, seat depth adjustment",
-                  },
+                  }
                 ].map((row, i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                     <td className="px-4 py-3 font-medium text-ink text-xs">

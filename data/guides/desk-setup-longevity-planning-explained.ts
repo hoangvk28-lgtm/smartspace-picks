@@ -12,7 +12,7 @@ export const deskSetupLongevityPlanningExplainedGuide: Guide = {
     "future proof desk setup",
     "durable desk equipment worth it",
     "long term desk setup planning",
-    "avoid replacing desk equipment often",
+    "avoid replacing desk equipment often"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskSetupLongevityPlanningExplainedGuide: Guide = {
     "desk-setup-budget-planning-explained",
     "office-chair-weight-capacity-explained",
     "shelf-weight-capacity-explained",
-    "standing-desk-weight-capacity-explained",
+    "standing-desk-weight-capacity-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskSetupLongevityPlanningExplainedGuide: Guide = {
       question: "Does technology-based equipment need the same longevity planning as purely mechanical items?",
       answer:
         "Less so, technology like monitors or docking stations tends to become outdated by advancing standards regardless of physical durability, meaning the calculus for these items leans more toward matching current genuine needs than maximizing mechanical longevity for a category likely to be replaced due to obsolescence anyway.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const deskSetupLongevityPlanningExplainedGuide: Guide = {
     {
       heading: "Why Moderate, Not Maximal, Future-Proofing Represents the More Practical Approach",
       body: `While some forward-looking consideration, choosing a monitor arm rated for somewhat more weight than your current monitor requires, in case of a future upgrade, represents reasonable, low-cost future-proofing, over-investing significantly in capacity or features for hypothetical future needs that may never actually materialize ties up budget that could otherwise address genuine current needs or higher-priority durability investments, the practical middle ground involves modest, low-cost headroom for plausible near-term changes, rather than either ignoring future needs entirely or over-engineering a setup around speculative future scenarios that may never come to pass.`,
-    },
+    }
   ],
 };

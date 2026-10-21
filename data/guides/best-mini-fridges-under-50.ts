@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31PrN0FKaEL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GLNGS5LV?tag=deskfinds0d-20",
-    "description": "Antarctic Star is a 4 liter, six can personal fridge with an inner size of 5.5 by 5.3 by 7.9 inches and an outer size of 9.65 by 7.09 by 10.24 inches. It uses a thermoelectric chip and the listing says it cools 32 to 40 degrees below the surrounding temperature within one to two hours, with a 25 decibel noise level.\n\nAt $31.30 it is the cheapest pick, about $5 below CUTIEWORLD, but it has no warming mode or mirror. Against Erivess, it is smaller and quieter.\n\nA good value pick for a bedside snack or skin care. The caveat is that the interior is only about 5.5 inches wide, so a tall bottle may not fit.",
+    "description": "Antarctic Star is a 4 liter, six can personal fridge with an inner size of 5.5 by 5.3 by 7.9 inches and an outer size of 9.65 by 7.09 by 10.24 inches. It uses a thermoelectric chip and the listing says it cools 32 to 40 degrees below the surrounding temperature within one to two hours, with a 25 decibel noise level.\n\nAt under $35 it is the cheapest pick, about $5 below CUTIEWORLD, but it has no warming mode or mirror. Against Erivess, it is smaller and quieter.\n\nA good value pick for a bedside snack or skin care. The caveat is that the interior is only about 5.5 inches wide, so a tall bottle may not fit.",
     "specs": [
       "4L, 6 can, thermoelectric",
       "5.5 x 5.3 x 7.9 inch interior",
@@ -335,7 +335,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Save if",
-        "text": "You want a quiet skincare fridge. Antarctic Star 4L 6 Can Portable Mini Fridge costs $31.30 and has the lowest price."
+        "text": "You want a quiet skincare fridge. Antarctic Star 4L 6 Can Portable Mini Fridge costs under $35 and has the lowest price."
       }
     ]
   }

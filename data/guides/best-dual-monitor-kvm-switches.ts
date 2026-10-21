@@ -5,7 +5,7 @@ export const metaDescription = "5 dual-monitor KVM switches we evaluated, with a
 export const mainKeyword = "dual monitor kvm switch";
 export const introParagraphs = [
   "Switching both monitors together requires the switch to treat them as a genuinely synchronized pair, some budget switches only sync the video signal correctly while USB peripheral switching lags or requires a separate manual step, worth checking reviews specifically for dual-monitor synchronization reports.",
-  "Total combined bandwidth for two monitors is meaningfully higher than for one, worth confirming the switch's total throughput comfortably supports both monitors at your intended resolution and refresh rate simultaneously rather than assuming per-port specs apply independently.",
+  "Total combined bandwidth for two monitors is meaningfully higher than for one, worth confirming the switch's total throughput comfortably supports both monitors at your intended resolution and refresh rate simultaneously rather than assuming per-port specs apply independently."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Monitor KVM Switch Overall",
     name: "UGREEN HDMI KVM Switch 2 Monitors 2 Computers 4K@60Hz, with 4 USB 3.0 Ports",
     price: "$69.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41ZrB2w7oOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXF66SWR?tag=deskfinds0d-20",
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     badge: "Best Multi-Monitor Pick Beyond Dual",
     name: "UGREEN 8K@60Hz HDMI Displayport KVM Switch 3 Monitors 2 Computers, Aluminum",
     price: "$92.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41r-g4mzwpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G34NJ11Y?tag=deskfinds0d-20",
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Monitor Docking Pick for Two Laptops",
     name: "AV Access KVM Switch Dock 2 Monitors 2 Laptops, 4K KVM Switch Dual Monitor",
     price: "$233.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41e02xrYlyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP4PD3SM?tag=deskfinds0d-20",
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Monitor Pick for Laptop and Desktop",
     name: "AV Access Dual Monitor KVM Docking Station for Laptop & Desktop (iDock C10)",
     price: "$225.61",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31KfwfvqAqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CW2JGRN4?tag=deskfinds0d-20",
@@ -89,7 +89,7 @@ export const products: GuideProduct[] = [
     badge: "Best Value 4-Computer Dual-Monitor Pick",
     name: "2 Monitors 4 Computers KVM Switch Laptop and Desktop 4 Port Hybrid USB-C Docking & Dual Display",
     price: "$139.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/5157r3C3OmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GSZCW9NF?tag=deskfinds0d-20",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Dual-monitor synchronization checked beyond just video switching", description: "Checked whether a switch genuinely synchronizes both video and USB peripheral switching across two monitors, since some budget switches only sync video correctly." },
   { title: "Combined bandwidth for two simultaneous monitors assessed", description: "Assessed whether a switch's total throughput comfortably supports both monitors at the intended resolution and refresh rate simultaneously, not just per-port specs independently." },
   { title: "Expansion room to a third monitor valued where relevant", description: "Valued switches supporting more than two monitors for buyers who might want to expand their setup without buying a new switch." },
-  { title: "Docking functionality weighed against standalone switch simplicity", description: "Weighed the convenience of an all-in-one docking station against the simplicity and lower cost of a standalone dual-monitor switch." },
+  { title: "Docking functionality weighed against standalone switch simplicity", description: "Weighed the convenience of an all-in-one docking station against the simplicity and lower cost of a standalone dual-monitor switch." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -227,11 +227,11 @@ export const faq: FaqItem[] = [
   { q: "Should I buy a dual-monitor or three-monitor KVM switch?", a: "If you might expand your setup later, a three-monitor-capable switch gives room to grow without buying a new one." },
   { q: "Is a docking station better than a standalone dual-monitor KVM switch?", a: "It depends on your needs, a docking station adds convenience at a higher price, a standalone switch is simpler and more affordable." },
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers wanting confirmed dual-monitor synchronization at 4K@60Hz per monitor" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting confirmed dual-monitor synchronization at 4K@60Hz per monitor At $69.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting confirmed dual-monitor synchronization at 4K@60Hz per monitor At under $70, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-kvm-switches-for-multiple-monitors", title: "Best KVM Switches for Multiple Monitors (2026)" },
   { href: "/guide/best-kvm-switches-for-two-computers", title: "Best KVM Switches for Two Computers (2026)" },
-  { href: "/guide/best-kvm-docking-stations", title: "Best KVM Docking Stations (2026)" },
+  { href: "/guide/best-kvm-docking-stations", title: "Best KVM Docking Stations (2026)" }
 ];

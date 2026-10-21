@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "reusable lcd writing tablet";
 export const introParagraphs = [
   "'Reusable' on an LCD writing tablet means the screen erases with one button press and is immediately ready to write on again, an unlimited number of times, which is genuinely different technology from paper-based reusable notebooks that use special ink and a wipeable page surface.",
-  "If you've seen 'reusable notebook' products that scan pages to an app before you wipe them clean, that is a separate product category built around erasable-ink paper, not an LCD screen, worth understanding clearly since the two get bundled together in searches despite working in fundamentally different ways.",
+  "If you've seen 'reusable notebook' products that scan pages to an app before you wipe them clean, that is a separate product category built around erasable-ink paper, not an LCD screen, worth understanding clearly since the two get bundled together in searches despite working in fundamentally different ways."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Erase-cycle mechanism assessed for durability", description: "Checked whether each screen uses a Hall switch, physical button, or basic circuit for the erase function, since mechanism type affects long-term reliability." },
   { title: "Reusable technology distinguished from paper-based alternatives", description: "Verified each product is a genuine LCD erase-and-rewrite screen rather than confusing it with unrelated paper-based reusable notebook technology." },
   { title: "Consumable cost confirmed as zero across the category", description: "Confirmed none of these products require replacement ink, pages, or sheets, a genuine advantage of the LCD format over paper alternatives." },
-  { title: "Added hardware evaluated for real functional value", description: "Assessed whether included magnets, kickstands, or cases add genuine reuse value versus simply padding the price." },
+  { title: "Added hardware evaluated for real functional value", description: "Assessed whether included magnets, kickstands, or cases add genuine reuse value versus simply padding the price." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -258,11 +258,11 @@ export const faq: FaqItem[] = [
   { q: "Is an LCD writing tablet the same as a reusable paper notebook?", a: "No. An LCD writing tablet is an electronic screen that erases with a button press. A reusable paper notebook uses special erasable ink on physical pages, a different technology entirely." },
   { q: "Do reusable LCD tablets need replacement parts?", a: "No, they have zero ongoing consumable costs since there is no ink or paper to replace, only an occasional battery swap on non-rechargeable models." },
   { q: "How many times can you erase and rewrite on an LCD tablet?", a: "Effectively unlimited times, the screen is designed for continuous daily erase-and-rewrite use over years." },
-  { q: "Does a memory lock button save my notes?", a: "No, a memory lock only prevents the screen from accidentally erasing. It does not save or store your writing anywhere." },
+  { q: "Does a memory lock button save my notes?", a: "No, a memory lock only prevents the screen from accidentally erasing. It does not save or store your writing anywhere." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-lcd-writing-tablets", title: "Best LCD Writing Tablets in 2026" },
   { href: "/guide/best-lcd-writing-tablets-with-memory", title: "Best LCD Writing Tablets with Memory Lock (2026)" },
-  { href: "/guide/best-lcd-writing-tablets-for-note-taking", title: "Best LCD Writing Tablets for Note-Taking (2026)" },
+  { href: "/guide/best-lcd-writing-tablets-for-note-taking", title: "Best LCD Writing Tablets for Note-Taking (2026)" }
 ];

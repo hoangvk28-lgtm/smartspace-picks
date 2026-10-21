@@ -262,7 +262,7 @@ export default async function BestClipOnDeskLampPage() {
             { href: "#what-to-look-for", label: "What to look for" },
             { href: "#reviews", label: "Full reviews" },
             { href: "#clip-vs-base", label: "Clip vs. base" },
-            { href: "#faq", label: "FAQ" },
+            { href: "#faq", label: "FAQ" }
           ].map(({ href, label }) => (
             <a key={href} href={href} className="px-3.5 py-2 rounded-full border border-border bg-white text-ink-secondary text-sm font-medium hover:border-brand hover:text-brand transition-colors">
               {label}
@@ -418,7 +418,7 @@ export default async function BestClipOnDeskLampPage() {
             {[
               { href: "/guide/monitor-stands-small-desks", title: "Best Monitor Stands for Small Desks", label: "Desk Setup" },
               { href: "/guide/best-small-desk-accessories", title: "12 Best Small Desk Accessories That Actually Save Space", label: "Desk Setup" },
-              { href: "/guide/best-headphone-stand-desk", title: "Best Headphone Stands for Desk Setups", label: "Desk Setup" },
+              { href: "/guide/best-headphone-stand-desk", title: "Best Headphone Stands for Desk Setups", label: "Desk Setup" }
             ].map((g) => (
               <Link prefetch={false} key={g.href} href={g.href} className="group p-4 rounded-xl border border-border bg-white hover:border-brand/40 hover:shadow-sm transition-all">
                 <span className="text-[10px] font-bold uppercase tracking-widest text-brand block mb-1">{g.label}</span>

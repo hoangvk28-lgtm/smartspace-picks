@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "wifi 7 router for fiber internet";
 export const introParagraphs = [
   "A router's WAN port speed must match or exceed your fiber plan's actual speed, since a router with only a 1GbE WAN port becomes the bottleneck on fiber plans exceeding 1Gbps regardless of how fast its Wi-Fi radios are, worth verifying this specific port spec before assuming any Wi-Fi 7 router is automatically fiber-ready.",
-  "Achieving genuinely multi-gig throughput also requires your client device's own network adapter to support matching speeds, and a router's NAT and routing throughput ceiling, which is CPU-governed rather than just a port spec, can bottleneck real speed even with an adequate WAN port, plus some fiber ISPs require specific WAN configuration like PPPoE or VLAN tagging that not all routers support out of the box.",
+  "Achieving genuinely multi-gig throughput also requires your client device's own network adapter to support matching speeds, and a router's NAT and routing throughput ceiling, which is CPU-governed rather than just a port spec, can bottleneck real speed even with an adequate WAN port, plus some fiber ISPs require specific WAN configuration like PPPoE or VLAN tagging that not all routers support out of the box."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,14 +26,14 @@ export const products: GuideProduct[] = [
     badge: "Best 10G WAN Fiber Pick",
     name: "TP-Link Tri-Band BE9700 WiFi 7 Router (Archer BE600)",
     price: "$229.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "472 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/415NxCTrJpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F76PQ2T8?tag=deskfinds0d-20",
     description:
       "A genuine 10G port alongside a 2.5G port, appropriate for fiber plans exceeding 1Gbps where a gigabit-only WAN port would otherwise become the real bottleneck.\n\nVerify your specific ISP's fiber plan speed against this router's 10G port capability, and confirm whether your ISP requires PPPoE or VLAN tagging, since not every router supports these configurations out of the box.\n\n320MHz channel width for real wireless headroom on clean spectrum. That said, achieving full multi-gig speed also requires a matching client-device adapter. Neither should be a surprise once you know to look for it.",
     specs: ["10G port + 2.5G port + 3x 2.5G LAN", "Genuine tri-band with 6GHz radio", "320MHz channel width support", "6-stream, BE9700 combined rating"],
-    pros: ["Genuine 10G port matches fiber plans well beyond 1Gbps", "320MHz channel width for real wireless headroom on clean spectrum", "High 4.3-star rating", "Full multi-gig LAN port set avoids wired bottlenecks downstream"],
+    pros: ["Genuine 10G port matches fiber plans well beyond 1Gbps", "320MHz channel width for real wireless headroom on clean spectrum", "Full multi-gig LAN port set avoids wired bottlenecks downstream"],
     cons: ["Achieving full multi-gig speed also requires a matching client-device adapter", "Verify PPPoE or VLAN tagging support for your specific ISP before buying", "Higher price than gigabit-WAN routers for buyers on slower fiber plans"],
     bestFor: "Fiber plans exceeding 1Gbps needing a genuine multi-gig WAN port to avoid bottlenecking",
   },
@@ -43,14 +43,14 @@ export const products: GuideProduct[] = [
     badge: "Best Newer-Chipset Fiber Pick",
     name: "TP-Link Archer BE12000 Tri-Band Wi-Fi 7 Router",
     price: "$269.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "92 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41iU+ggyo7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GCQFVDNJ?tag=deskfinds0d-20",
     description:
-      "A newer Wi-Fi 7 chipset generation router appropriate for fiber households wanting the latest hardware, though verify its specific WAN port speed against your actual fiber plan before assuming it avoids a bottleneck.\n\nA router's own CPU-governed NAT and routing throughput ceiling can bottleneck real speed even with an adequate port, worth checking real-world routing throughput reports rather than the port spec alone.\n\nWorth calling out specifically: high 4.3-star rating despite a smaller review sample. The catch is smaller review base limits real-world routing throughput reports.",
-    specs: ["Genuine tri-band with 6GHz radio", "BE12000 combined rating", "New Wi-Fi 7 chipset generation", "High 4.3-star rating"],
-    pros: ["Newer chipset generation for potentially better routing throughput", "High 4.3-star rating despite a smaller review sample", "Genuine tri-band 6GHz radio for full Wi-Fi 7 capability", "Good option for buyers prioritizing newer hardware"],
+      "A newer Wi-Fi 7 chipset generation router appropriate for fiber households wanting the latest hardware, though verify its specific WAN port speed against your actual fiber plan before assuming it avoids a bottleneck.\n\nA router's own CPU-governed NAT and routing throughput ceiling can bottleneck real speed even with an adequate port, worth checking real-world routing throughput reports rather than the port spec alone.\n\nThe catch is smaller review base limits real-world routing throughput reports.",
+    specs: ["Genuine tri-band with 6GHz radio", "BE12000 combined rating", "New Wi-Fi 7 chipset generation"],
+    pros: ["Newer chipset generation for potentially better routing throughput", "Genuine tri-band 6GHz radio for full Wi-Fi 7 capability", "Good option for buyers prioritizing newer hardware"],
     cons: ["Smaller review base limits real-world routing throughput reports", "Verify WAN port speed explicitly against your specific fiber plan", "Higher price than entry tri-band routers for slower fiber plans"],
     bestFor: "Fiber households wanting a newer chipset generation, with WAN speed verified against their plan",
   },
@@ -60,14 +60,14 @@ export const products: GuideProduct[] = [
     badge: "Best Dual 10G Port Fiber Pick",
     name: "ASUS RT-BE88U WiFi 7 Router",
     price: "$334.99",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "402 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31p9QTW8zYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D55SWRSM?tag=deskfinds0d-20",
     description:
       "Dual 10G ports rated up to 7.2 Gbps, appropriate for buyers on high-tier fiber plans wanting genuine multi-gig WAN capability plus flexibility to configure one port as WAN and one as a fast LAN uplink.\n\nMesh compatible for future whole-home expansion, though confirm your specific ISP allows using owned equipment as sole gateway rather than requiring their own hardware in the path.\n\nMesh compatible for future whole-home expansion. Set against that, higher price appropriate mainly for buyers on high-tier fiber plans. Both matter when comparing it to the other picks here.",
     specs: ["Dual 10G ports", "Up to 7.2 Gbps rated", "Mesh compatible", "ASUS ecosystem and firmware"],
-    pros: ["Dual 10G ports for genuine multi-gig WAN plus fast LAN flexibility", "Mesh compatible for future whole-home expansion", "Solid 4.2-star rating with a decent review base", "Strong fit for high-tier fiber plans"],
+    pros: ["Dual 10G ports for genuine multi-gig WAN plus fast LAN flexibility", "Mesh compatible for future whole-home expansion", "Strong fit for high-tier fiber plans"],
     cons: ["Higher price appropriate mainly for buyers on high-tier fiber plans", "Confirm your ISP allows owned equipment as sole gateway before buying", "Achieving full 10G speed requires a matching client-device adapter too"],
     bestFor: "High-tier fiber plan buyers wanting dual 10G ports and future mesh flexibility",
   },
@@ -77,17 +77,17 @@ export const products: GuideProduct[] = [
     badge: "Best Maximum-Throughput Fiber Pick",
     name: "TP-Link Tri-Band BE19000 WiFi 7 Router (Archer BE800)",
     price: "$329.99",
-    rating: "4.0 stars from Amazon ratings",
-    reviews: "503 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/416sP+jL17L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C4VZWTM7?tag=deskfinds0d-20",
     description:
-      "2x10G plus 4x2.5G ports give this router the most wired headroom in this guide, appropriate for very high-tier fiber plans and households with multiple wired devices needing simultaneous multi-gig throughput.\n\nA router's own NAT and routing throughput ceiling is CPU-governed, worth checking real-world routing benchmarks for this model rather than assuming the port specs alone guarantee full fiber-speed throughput.\n\nThe standout detail is that 4x 2.5G ports for multiple simultaneous multi-gig wired devices. Balancing that out, more moderate 4.0-star rating, verify recent reviews.",
+      "2x10G plus 4x2.5G ports give this router the most wired headroom in this guide, appropriate for very high-tier fiber plans and households with multiple wired devices needing simultaneous multi-gig throughput.\n\nA router's own NAT and routing throughput ceiling is CPU-governed, worth checking real-world routing benchmarks for this model rather than assuming the port specs alone guarantee full fiber-speed throughput.\n\nThe standout detail is that 4x 2.5G ports for multiple simultaneous multi-gig wired devices.",
     specs: ["2x 10G + 4x 2.5G ports", "Genuine tri-band with 6GHz radio", "12-stream, BE19000 combined rating", "Highest port count in this guide"],
     pros: ["2x 10G ports for maximum wired multi-gig headroom", "4x 2.5G ports for multiple simultaneous multi-gig wired devices", "Strong fit for very high-tier fiber plans", "Full matched multi-gig LAN avoids any wired bottleneck"],
-    cons: ["More moderate 4.0-star rating, verify recent reviews", "Overkill and costly for typical sub-1Gbps fiber plans", "Real-world routing throughput still worth verifying against fiber plan speed"],
+    cons: [ "Overkill and costly for typical sub-1Gbps fiber plans", "Real-world routing throughput still worth verifying against fiber plan speed"],
     bestFor: "Very high-tier fiber households with multiple wired devices needing simultaneous multi-gig throughput",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -95,7 +95,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "WAN port speed checked against realistic fiber plan tiers", description: "Verified each router's WAN port speed against common fiber plan tiers to flag where a gigabit-only port would bottleneck faster plans." },
   { title: "Client-device adapter requirement disclosed", description: "Noted that achieving genuine multi-gig throughput also requires the connected device's own network adapter to support matching speeds." },
   { title: "CPU-governed routing throughput ceiling considered, not just port spec", description: "Flagged that a router's NAT and routing throughput ceiling can bottleneck real speed even with an adequate port." },
-  { title: "ISP-specific WAN configuration requirements noted", description: "Noted that some fiber ISPs require PPPoE or VLAN tagging configuration that not all routers support out of the box." },
+  { title: "ISP-specific WAN configuration requirements noted", description: "Noted that some fiber ISPs require PPPoE or VLAN tagging configuration that not all routers support out of the box." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -222,11 +222,11 @@ export const faq: FaqItem[] = [
   { q: "Will any Wi-Fi 7 router work with my fiber plan?", a: "Only if its WAN port speed matches or exceeds your plan, a gigabit-only WAN port bottlenecks fiber plans faster than 1Gbps regardless of Wi-Fi speed." },
   { q: "Do I need a 10G router for a 1Gbps fiber plan?", a: "No, a 2.5G WAN port is already well ahead of a 1Gbps plan, a 10G port matters mainly for plans meaningfully faster than that." },
   { q: "Why isn't my device getting full multi-gig speed?", a: "The connected device's own network adapter must also support matching speeds, the router's port alone doesn't guarantee it." },
-  { q: "Does my ISP require special router configuration for fiber?", a: "Some do, PPPoE or VLAN tagging requirements vary by ISP and not every router supports them by default, verify with your provider first." },
+  { q: "Does my ISP require special router configuration for fiber?", a: "Some do, PPPoE or VLAN tagging requirements vary by ISP and not every router supports them by default, verify with your provider first." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-wifi-7-routers-with-10gbe-ports", title: "Best Wi-Fi 7 Routers with 10GbE Ports (2026)" },
   { href: "/guide/best-tri-band-wifi-7-routers", title: "Best Tri-Band Wi-Fi 7 Routers (2026)" },
-  { href: "/guide/best-multi-gig-wifi-7-routers", title: "Best Multi-Gig Wi-Fi 7 Routers (2026)" },
+  { href: "/guide/best-multi-gig-wifi-7-routers", title: "Best Multi-Gig Wi-Fi 7 Routers (2026)" }
 ];

@@ -7,7 +7,7 @@ export const mainKeyword = "under-desk PC mount bracket";
 export const introParagraphs = [
   "'Bracket' framing may represent a simpler, more basic mounting hardware category than a full mount system, worth clarifying whether this refers to a standalone bracket component requiring separate purchase of additional mounting hardware versus a complete mount solution.",
   "Bracket material and thickness deserve real scrutiny given how central this single component is to the overall mount's safety and capacity, a thin or flexible bracket undermines the entire mount regardless of how sturdy its clamp or strap mechanism appears.",
-  "Universal versus tower-specific bracket sizing should be verified before buying, since a bracket sized for one case width range may not adjust far enough for a notably narrower or wider tower, a mismatch that isn't always obvious from product photos alone.",
+  "Universal versus tower-specific bracket sizing should be verified before buying, since a bracket sized for one case width range may not adjust far enough for a notably narrower or wider tower, a mismatch that isn't always obvious from product photos alone."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -27,8 +27,8 @@ export const products: GuideProduct[] = [
     badge: "Best Under-Desk PC Mount Bracket Overall",
     name: "VIVO Under-Desk and Wall Mount PC Adjustable Strap and Steel Bracket Holder, Computer Case Carrier, Black, MOUNT-PC02S",
     price: "$19.99",
-    rating: "4.3 stars from 551 Amazon ratings",
-    reviews: "551 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/418wmGky6tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B078JXC9X8?tag=deskfinds0d-20",
     description:
@@ -44,8 +44,8 @@ export const products: GuideProduct[] = [
     badge: "Best Bracket for Mini PC and UPS Units",
     name: "VIVO Universal UPS, Mini PC CPU, PlayStation 5 Under Desk and Wall Mount, Uninterruptible Power Supply and Mini ITX and SFF Computer Adjustable Bracket Holder, Black, MOUNT-UPS01",
     price: "$34.99",
-    rating: "4.5 stars from 190 Amazon ratings",
-    reviews: "190 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Oai8VYjuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08DDK44TY?tag=deskfinds0d-20",
     description:
@@ -61,8 +61,8 @@ export const products: GuideProduct[] = [
     badge: "Best Height-Adjustable Mini PC Bracket",
     name: "Under Desk Mini PC Mount Bracket, 5-Level Height Adjustable (1.8\" to 3.3\"), Width-Adjustable Metal CPU Holder for Mac mini M4/Small PCs, Includes Screws & Positioning Template for Easy Installation",
     price: "$22.99",
-    rating: "4.6 stars from 55 Amazon ratings",
-    reviews: "55 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41yEZ7bQp4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FD9XCYM7?tag=deskfinds0d-20",
     description:
@@ -78,8 +78,8 @@ export const products: GuideProduct[] = [
     badge: "Best Versatile Bracket for Small Devices",
     name: "Adjustable Thin Client Mini PC Mount Bracket, Mini PC Vesa Mount, Under Desk Mount, Wall Mount and Attached to Monitor Arm Mount for NUC, Dell, HP, Mac mini, Cable Boxes, Wi-Fi Routers and Small CPUs",
     price: "$18.99",
-    rating: "4.4 stars from 38 Amazon ratings",
-    reviews: "38 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DB5RQH7V?tag=deskfinds0d-20",
     description:
@@ -95,8 +95,8 @@ export const products: GuideProduct[] = [
     badge: "Best Heavy-Duty Metal Bracket Pick",
     name: "Upgraded Adjustable Under Desk Mini PC Bracket, Universal Adjustable Mount, CPU Holder for Mac mini M4 & Small PCs, 6-Level Height (1.8-3.3\"), Heavy-Duty Metal, Space-Saving Under Desk Mount",
     price: "$16.99",
-    rating: "4.2 stars from 8 Amazon ratings",
-    reviews: "8 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41clyyUZ2lL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GZW651J5?tag=deskfinds0d-20",
     description:
@@ -114,7 +114,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Bracket material and thickness verified for load-bearing safety", description: "Verified bracket material and thickness for adequate load-bearing given how central this single component is to the overall mount's safety and capacity." },
   { title: "Mounting-method-category compatibility clarified", description: "Clarified compatibility with the pillar's various mounting-method categories, clamp, screw, adhesive, since 'bracket' could describe the load-bearing component used across multiple different attachment methods." },
   { title: "Total-purchase-cost disclosed for bracket-only products", description: "Verified whether bracket-only products require the buyer to separately source the desk-attachment mechanism, a real total-purchase-cost and complexity consideration." },
-  { title: "Universal versus device-specific bracket sizing verified", description: "Verified universal versus tower/device-specific bracket sizing, similar to the adjustable-width versus fixed-width distinction relevant to holder research generally." },
+  { title: "Universal versus device-specific bracket sizing verified", description: "Verified universal versus tower/device-specific bracket sizing, similar to the adjustable-width versus fixed-width distinction relevant to holder research generally." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -234,11 +234,11 @@ export const faq: FaqItem[] = [
   { q: "Can I use the same bracket for a full tower and a mini PC?", a: "Not usually, brackets designed for full towers and those designed for small-form-factor devices like a Mac mini have meaningfully different sizing and adjustment ranges, verify compatibility with your specific device." },
   { q: "What does 'universal' bracket sizing actually mean?", a: "It means the bracket adjusts across a range of device widths and heights, but always measure your specific device against the manufacturer's disclosed adjustable range rather than trusting 'universal' as a self-evident guarantee." },
   { q: "Do bracket-only mounts require drilling into my desk?", a: "Some do, if a bracket ships with screws as the attachment method, it requires drilling, while a strap-and-bracket kit generally avoids that entirely, check which approach the specific product uses." },
-  { q: "How do I know if a bracket will actually hold my PC case's weight?", a: "Check the bracket's material and thickness along with any disclosed weight rating, solid steel or heavy-duty metal construction is a stronger signal of real load-bearing capacity than a vague marketing claim alone." },
+  { q: "How do I know if a bracket will actually hold my PC case's weight?", a: "Check the bracket's material and thickness along with any disclosed weight rating, solid steel or heavy-duty metal construction is a stronger signal of real load-bearing capacity than a vague marketing claim alone." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-under-desk-pc-mounts-without-screws", title: "Best Under-Desk PC Mounts Without Screws (2026)" },
   { href: "/guide/best-white-under-desk-pc-mounts", title: "Best White Under-Desk PC Mounts (2026)" },
-  { href: "/guide/best-computer-desks-with-pegboards", title: "Best Computer Desks with Pegboards (2026)" },
+  { href: "/guide/best-computer-desks-with-pegboards", title: "Best Computer Desks with Pegboards (2026)" }
 ];

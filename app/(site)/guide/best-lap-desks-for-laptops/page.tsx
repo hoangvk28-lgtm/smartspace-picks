@@ -139,7 +139,7 @@ export default async function BestLapDesksForLaptopsPage() {
     about: [
       { "@type": "Thing", name: "Laptop Lap Desk" },
       { "@type": "Thing", name: "Lap Desk" },
-      { "@type": "Thing", name: "Laptop Accessories" },
+      { "@type": "Thing", name: "Laptop Accessories" }
     ],
   };
 
@@ -149,7 +149,7 @@ export default async function BestLapDesksForLaptopsPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Lap Desks for Laptops", item: `${SITE_URL}/guide/best-lap-desks-for-laptops` },
+      { "@type": "ListItem", position: 3, name: "Best Lap Desks for Laptops", item: `${SITE_URL}/guide/best-lap-desks-for-laptops` }
     ],
   };
 
@@ -316,7 +316,7 @@ export default async function BestLapDesksForLaptopsPage() {
               <p className="text-sm text-ink-secondary">
                 <strong className="text-ink">best for laptops:</strong>{" "}
                 <a href="#lapgear-home-office-pro" className="font-bold text-ink hover:text-brand transition-colors">LapGear Home Office Pro Lap Desk</a>
-                 - 4.7 stars, hard surface with integrated mouse pad and dual bolster cushion.
+                 - Hard surface with integrated mouse pad and dual bolster cushion.
               </p>
             </div>
             <p className="text-sm text-ink-secondary pl-5">See the full rankings above for all eight picks with pros, cons, and best-for summaries.</p>

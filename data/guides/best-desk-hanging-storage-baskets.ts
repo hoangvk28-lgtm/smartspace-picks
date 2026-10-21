@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desk-hanging storage baskets";
 export const introParagraphs = [
   "A basket-style hanging organizer trades solid-walled containment for an open, breathable mesh or wire design. We checked weave openness specifically, since a very open weave may not adequately contain smaller items like paper clips or sticky notes compared to a solid-walled organizer.",
-  "All five picks below use mesh or wire construction, differing in capacity, mounting method, and how visible the contents remain through the open weave.",
+  "All five picks below use mesh or wire construction, differing in capacity, mounting method, and how visible the contents remain through the open weave."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -104,7 +104,7 @@ export const products: GuideProduct[] = [
     pros: ["Most affordable option", "7 distinct compartments for fine separation", "Fully solid containment", "Good rating"],
     cons: ["Requires an existing drawer, not a hanging basket", "Plastic construction less durable than metal", "Doesn't add new hanging storage capacity"],
     bestFor: "Budget buyers who want the finest small-item separation with full solid containment.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Weave openness vs. small-item containment", description: "We checked whether each mesh or wire design's weave is tight enough to genuinely contain small items like paper clips, or open enough that they could fall through." },
   { title: "Content visibility through the basket design", description: "We favored open mesh designs that let you see contents at a glance, a genuine convenience over a solid-walled organizer requiring you to open it fully." },
   { title: "Attachment method disclosure", description: "We clearly distinguished clamp-on, no-drill desk-hanging baskets from wall-mounted or in-drawer alternatives included for capacity or containment comparison." },
-  { title: "Depth and capacity quantification", description: "We noted actual capacity rather than accepting a vague 'spacious storage' claim from any listing." },
+  { title: "Depth and capacity quantification", description: "We noted actual capacity rather than accepting a vague 'spacious storage' claim from any listing." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -240,11 +240,11 @@ export const faq: FaqItem[] = [
   { q: "Is a mesh basket or a solid tray better?", a: "A mesh basket lets you see contents at a glance and adds new hanging storage capacity. A solid-walled tray fully contains even the tiniest items but requires an existing drawer to fit into." },
   { q: "Do these baskets require drilling?", a: "The INLDY and Homeify picks are genuine no-drill clamp-on baskets. The Simple Trending pick requires wall drilling, and the Officemate and TRU RED picks are in-drawer trays requiring an existing drawer." },
   { q: "How much capacity do these baskets actually have?", a: "This varies significantly. Check the specific product's disclosed dimensions rather than a vague 'spacious' claim, since actual capacity depends on depth and footprint." },
-  { q: "Can I mount a hanging basket without damaging my desk?", a: "Yes, the clamp-on picks in this guide (INLDY and Homeify) attach without drilling and are fully reversible." },
+  { q: "Can I mount a hanging basket without damaging my desk?", a: "Yes, the clamp-on picks in this guide (INLDY and Homeify) attach without drilling and are fully reversible." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-under-desk-hanging-organizers", title: "Best Under-Desk Hanging Organizers (2026)" },
   { href: "/guide/best-hanging-desk-drawer-organizers", title: "Best Hanging Desk Drawer Organizers (2026)" },
-  { href: "/guide/best-vertical-hanging-desk-organizers", title: "Best Vertical Hanging Desk Organizers (2026)" },
+  { href: "/guide/best-vertical-hanging-desk-organizers", title: "Best Vertical Hanging Desk Organizers (2026)" }
 ];

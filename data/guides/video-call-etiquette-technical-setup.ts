@@ -12,7 +12,7 @@ export const videoCallEtiquetteTechnicalSetupGuide: Guide = {
     "good camera angle video call",
     "test audio before meeting",
     "video call background distraction",
-    "professional video call setup tips",
+    "professional video call setup tips"
   ],
   heroImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const videoCallEtiquetteTechnicalSetupGuide: Guide = {
     "webcam-fov-explained",
     "video-call-background-noise-reduction",
     "conference-speakerphone-vs-headset",
-    "webcam-lighting-explained",
+    "webcam-lighting-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const videoCallEtiquetteTechnicalSetupGuide: Guide = {
       question: "Is it worth having a backup plan if my primary video call setup fails?",
       answer:
         "For genuinely important meetings, yes, knowing how to quickly switch to a phone-based dial-in or a backup device if your primary setup experiences a technical failure prevents a complete loss of participation rather than scrambling to troubleshoot live.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ export const videoCallEtiquetteTechnicalSetupGuide: Guide = {
     {
       heading: "Why Connection Reliability Deserves Proactive Attention for Important Calls",
       body: `While WiFi is convenient and adequate for many everyday calls, its inherent susceptibility to interference, distance-related signal degradation, and competing device traffic makes it a less predictable choice specifically for meetings where a dropped connection would be genuinely costly, a job interview, a client presentation, a critical team decision meeting, proactively switching to a wired ethernet connection for these specific higher-stakes situations, even if you typically rely on WiFi day to day, is a reasonable extra precaution matched to the actual importance of that particular call.`,
-    },
+    }
   ],
 };

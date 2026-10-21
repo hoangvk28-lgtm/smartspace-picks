@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook for writers";
 export const introParagraphs = [
   "Writers often benefit most from a genuinely distraction-free surface, and e-ink devices are well suited to this since they intentionally avoid the notification clutter of a general tablet, while a plain reusable paper notebook offers the same distraction-free quality by simply having no apps at all.",
-  "We focused this guide on picks that minimize distraction rather than maximizing features, since a writer's priority is usually different from a professional juggling multiple apps.",
+  "We focused this guide on picks that minimize distraction rather than maximizing features, since a writer's priority is usually different from a professional juggling multiple apps."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Distraction level weighted as a primary factor", description: "Prioritized picks with minimal app clutter or no apps at all, since a writer's core need often differs from a professional wanting more features." },
   { title: "Writing feel and comfort over long sessions considered", description: "Weighed paper-like writing texture and genuine paper options as meaningfully more comfortable for sustained writing than a glass tablet screen." },
   { title: "Backup and loss protection assessed", description: "Noted whether a product offers real-time or scan-based backup, relevant for writers concerned about losing drafts to a damaged or lost notebook." },
-  { title: "Battery life weighed for sustained multi-session writing", description: "Considered how battery life affects writers working across multiple sessions without wanting to interrupt momentum to charge a device." },
+  { title: "Battery life weighed for sustained multi-session writing", description: "Considered how battery life affects writers working across multiple sessions without wanting to interrupt momentum to charge a device." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -258,11 +258,11 @@ export const faq: FaqItem[] = [
   { q: "What's the most distraction-free digital notebook for writing?", a: "A single-purpose e-ink device like the reMarkable 2 avoids app store and notification clutter, or a plain paper notebook avoids screens entirely." },
   { q: "Will I lose my draft if I lose a paper notebook?", a: "If you haven't scanned the page yet, yes, that's a real risk with reusable paper notebooks, a real-time smart pen or synced e-ink device protects against this by backing up as you write." },
   { q: "Is writing on an e-ink screen comfortable for long sessions?", a: "Many writers find e-ink devices like the reMarkable close to a paper-like feel, more comfortable than a glass tablet screen for extended writing." },
-  { q: "Should writers get a device with internet access or avoid it?", a: "It depends on your discipline, single-purpose e-ink devices intentionally limit internet and app access to reduce distraction, useful if you find a general tablet too tempting." },
+  { q: "Should writers get a device with internet access or avoid it?", a: "It depends on your discipline, single-purpose e-ink devices intentionally limit internet and app access to reduce distraction, useful if you find a general tablet too tempting." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-e-ink-digital-notebooks", title: "Best E-Ink Digital Notebooks (2026)" },
   { href: "/guide/best-digital-notebooks-for-note-taking", title: "Best Digital Notebooks for Note Taking (2026)" },
-  { href: "/guide/best-digital-notebooks-with-cloud-sync", title: "Best Digital Notebooks with Cloud Sync (2026)" },
+  { href: "/guide/best-digital-notebooks-with-cloud-sync", title: "Best Digital Notebooks with Cloud Sync (2026)" }
 ];

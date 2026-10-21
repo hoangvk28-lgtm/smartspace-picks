@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "airprint printer";
 export const introParagraphs = [
   "AirPrint lets an iPhone or iPad print directly to a compatible printer over wifi with no app or driver install, but not every wireless printer's Amazon listing actually says the word AirPrint, and manufacturers don't always update listing copy even when a model supports it. Below we call out exactly which of these 8 listings state AirPrint support directly, and which ones you should confirm yourself before buying if AirPrint is the deciding feature for you.",
-  "All 8 are current-generation wireless all-in-ones from HP, Canon, and Epson, brands whose recent wireless inkjet lineups commonly support AirPrint as a baseline feature. We evaluated setup process, mobile printing reliability, and how easy each one is to troubleshoot if it doesn't show up in your iPhone's printer list on the first try.",
+  "All 8 are current-generation wireless all-in-ones from HP, Canon, and Epson, brands whose recent wireless inkjet lineups commonly support AirPrint as a baseline feature. We evaluated setup process, mobile printing reliability, and how easy each one is to troubleshoot if it doesn't show up in your iPhone's printer list on the first try."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "9 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "AirPrint named explicitly on the product listing",
       "Amazon Dash Replenishment ready",
       "Standard wireless setup flow",
-      "Compact home printer design",
+      "Compact home printer design"
     ],
     pros: [
       "AirPrint support confirmed directly on the listing",
       "Simple wireless pairing with iPhone or iPad",
       "Dash Replenishment for automatic ink reorder",
-      "Compact footprint for a small desk",
+      "Compact footprint for a small desk"
     ],
     cons: [
       "Higher price than several other picks in this list",
       "No automatic document feeder",
-      "Cartridge-based ink costs more at higher volume",
+      "Cartridge-based ink costs more at higher volume"
     ],
     bestFor: "Buyers who want AirPrint confirmed in writing before purchasing, not just inferred",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "3-month Instant Ink trial included",
       "AirPrint not named on listing; check compatibility before buying",
       "Simple wireless setup flow",
-      "Compact, budget-friendly design",
+      "Compact, budget-friendly design"
     ],
     pros: [
       "Low price for a current-generation wireless AIO",
       "Simple setup suited to non-technical buyers",
       "Instant Ink trial simplifies early ink costs",
-      "Compact design",
+      "Compact design"
     ],
     cons: [
       "AirPrint not explicitly confirmed on the listing itself",
       "No automatic document feeder",
-      "Not built for high daily print volume",
+      "Not built for high daily print volume"
     ],
     bestFor: "Buyers who want a low-cost wireless printer and are comfortable confirming AirPrint themselves before buying",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Copier/scanner built in",
       "AirPrint not named on listing; verify via iPhone Settings before buying",
       "Compact single-tray design",
-      "Mobile app printing support",
+      "Mobile app printing support"
     ],
     pros: [
       "Lowest price in this guide",
       "Simple single-tray daily operation",
       "Duplex printing without manual flipping",
-      "Canon PRINT app available as a mobile printing fallback",
+      "Canon PRINT app available as a mobile printing fallback"
     ],
     cons: [
       "AirPrint not explicitly stated on the listing",
       "No automatic document feeder",
-      "Limited to Letter/A4 paper size",
+      "Limited to Letter/A4 paper size"
     ],
     bestFor: "Budget buyers who will confirm AirPrint themselves and don't mind using Canon's app as a backup",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "1.42-inch OLED display with network status messages",
       "AirPrint not named on listing; verify before buying",
       "Intuitive control panel",
-      "Compact design",
+      "Compact design"
     ],
     pros: [
       "OLED display simplifies wifi and network troubleshooting",
       "Intuitive control panel for reconnecting after a router reset",
       "Duplex printing built in",
-      "Compact footprint",
+      "Compact footprint"
     ],
     cons: [
       "AirPrint not explicitly confirmed on the listing",
       "No automatic document feeder",
-      "Cartridge ink costs more at high volume",
+      "Cartridge ink costs more at high volume"
     ],
     bestFor: "Buyers who want an on-screen way to fix wifi issues if AirPrint setup doesn't work on the first try",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Mobile printing support",
       "AirPrint not named on listing; verify before buying",
       "Built-in fax (legacy feature)",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     pros: [
       "Automatic document feeder for multi-page scans",
       "Guided mobile printing and scanning setup",
       "Affordable price",
-      "Simple daily operation",
+      "Simple daily operation"
     ],
     cons: [
       "AirPrint not explicitly stated on the listing",
       "Fax feature adds a menu option most won't use",
-      "Not built for sustained high-volume printing",
+      "Not built for sustained high-volume printing"
     ],
     bestFor: "Buyers who scan documents to their phone as often as they print from it",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "3-month Instant Ink trial included",
       "AirPrint not named on listing; verify before buying",
       "HP Smart app available as mobile printing fallback",
-      "Best-for-Home-Office positioning",
+      "Best-for-Home-Office positioning"
     ],
     pros: [
       "Automatic document feeder and duplex printing",
       "HP Smart app as a reliable fallback for mobile printing",
       "Instant Ink trial included",
-      "Built for regular home office use",
+      "Built for regular home office use"
     ],
     cons: [
       "AirPrint not explicitly confirmed on the listing",
       "Higher price than the basic picks in this list",
-      "Cartridge costs return to normal after the Instant Ink trial",
+      "Cartridge costs return to normal after the Instant Ink trial"
     ],
     bestFor: "Home office buyers who want ADF and duplex printing alongside iPhone printing support",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Wireless connectivity",
       "AirPrint not named on listing; verify before buying",
       "Scan and copy included",
-      "Epson Smart Panel app available",
+      "Epson Smart Panel app available"
     ],
     pros: [
       "Lower cost per page than cartridge-based picks",
       "Cartridge-free, less frequent ink maintenance",
       "Epson Smart Panel app as a mobile printing fallback",
-      "Good fit for frequent iPhone printing",
+      "Good fit for frequent iPhone printing"
     ],
     cons: [
       "AirPrint not explicitly confirmed on the listing",
       "Highest price in this guide",
-      "Ink refills take longer than a cartridge swap",
+      "Ink refills take longer than a cartridge swap"
     ],
     bestFor: "Frequent iPhone printers who want to avoid cartridge costs and don't mind occasional tank refills",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "AirPrint not named on listing; verify before buying",
       "Simple wireless setup flow",
       "Compact design",
-      "Cartridge-based ink system",
+      "Cartridge-based ink system"
     ],
     pros: [
       "Full print, scan, copy feature set",
       "Simple wireless setup consistent with other Canon picks",
       "Canon PRINT app as a mobile printing fallback",
-      "Compact footprint",
+      "Compact footprint"
     ],
     cons: [
       "AirPrint not explicitly confirmed on the listing",
       "Higher price than the more basic Canon picks here",
-      "No automatic document feeder",
+      "No automatic document feeder"
     ],
     bestFor: "Buyers who want a fuller-featured compact all-in-one alongside iPhone printing support",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for wireless printing",
     description: "Weighed price against print, scan, and copy features relevant to everyday iPhone and iPad printing, not just AirPrint support alone.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,12 +477,12 @@ export const faq: FaqItem[] = [
   {
     q: "Is an ink-tank printer like the Epson EcoTank ET-2800 a good AirPrint pick?",
     a: "Yes, if you print often enough from your iPhone that cartridge costs would add up. Ink-tank refills take 5 to 10 minutes versus a 2-3 minute cartridge swap, but happen far less often, which usually pays off for frequent printers over time.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-with-usb-ports", title: "Best Printers with USB Ports (2026)" },
   { href: "/guide/best-printers-without-wifi", title: "Best Printers Without Wi-Fi (2026)" },
   { href: "/guide/best-printers-for-home-use", title: "Best Printers for Home Use (2026)" },
-  { href: "/guide/best-easy-to-use-printers", title: "Best Easy-to-Use Printers (2026)" },
+  { href: "/guide/best-easy-to-use-printers", title: "Best Easy-to-Use Printers (2026)" }
 ];

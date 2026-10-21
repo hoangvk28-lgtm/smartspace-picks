@@ -193,28 +193,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $14.99",
+          "Under $15",
           "Andyer 2-Pocket Fireproof Document Bag"
         ],
         [
-          "Around $29.98",
+          "Under $30",
           "0.30 Cu Ft Small Home Safe with Fireproof Bag"
         ],
         [
-          "Around $30.99",
+          "Under $35",
           "KYODOLED Fireproof Document Box with Key Lock"
         ],
         [
-          "Around $31.33",
+          "Under $35",
           "DocSafe 5200-degreeF Fireproof Document Organizer"
         ],
         [
-          "Around $31.99",
+          "Under $35",
           "Voncabay 0.23 Cu Ft Digital Money Safe Box"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -262,7 +262,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "0.30 Cu Ft Small Home Safe with Fireproof Bag is aimed at buyers prioritizing 10.63\"x6.69\"x6.69\", 0.3 cu ft." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "0.30 Cu Ft Small Home Safe with Fireproof Bag is aimed at buyers prioritizing 10.63\"x6.69\"x6.69\", 0.3 cu ft." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-fireproof-safes-for-cash","title":"Best Fireproof Safes for Cash in 2026"},{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"},{"href":"/guide/best-fireproof-safes-for-home","title":"Best Fireproof Safes for Home in 2026"}];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "15.6-inch laptop cooling pads";
 export const introParagraphs = [
   "15.6 inches is the single most common laptop screen size overall, so this is the broadest, best-supported size tier among cooling pads. That said, a 15.6-inch label still describes screen diagonal, not base footprint, and real dimensional variance exists between brands even at this popular size.",
-  "This guide compares six pads whose stated ranges genuinely cover 15.6 inches comfortably, cross-referencing our 14-inch and 16-inch guides for buyers whose laptop runs slightly smaller or larger.",
+  "This guide compares six pads whose stated ranges genuinely cover 15.6 inches comfortably, cross-referencing our 14-inch and 16-inch guides for buyers whose laptop runs slightly smaller or larger."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine size-range verification", description: "We confirmed 15.6 inches sits comfortably within each product's stated compatible range, since this is the most common laptop size and the broadest verified pool." },
   { title: "Dimensional variance at this popular size", description: "We noted that even at the most common laptop size, real width and depth variance exists between brands, so generic \"fits 15.6-inch\" claims still deserve scrutiny." },
   { title: "Documented performance figures", description: "We favored listings with specific noise or temperature-drop figures over vague quiet or powerful claims." },
-  { title: "Adjacent-tier comparison", description: "We cross-referenced our 14-inch and 16-inch guides for buyers whose laptop runs close to either edge of the 15.6-inch class." },
+  { title: "Adjacent-tier comparison", description: "We cross-referenced our 14-inch and 16-inch guides for buyers whose laptop runs close to either edge of the 15.6-inch class." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -259,11 +259,11 @@ export const faq: FaqItem[] = [
   { q: "Do I still need to check dimensions at this common size?", a: "Yes. Even at the most common laptop size, real width and depth variance exists between brands, so a generic 'fits 15.6-inch' claim still deserves verification against your specific laptop." },
   { q: "How many fans do I need for a 15.6-inch gaming laptop?", a: "Consider a higher fan-count pad like the 9-fan ChillCore or llano V12 picks for sustained gaming workloads, versus a simpler 3-fan pad for lighter office use." },
   { q: "What's the quietest pick for a 15.6-inch laptop?", a: "The TECKNET with Phone Stand states a documented under-40dB noise level, the most specific quiet claim among the picks in this guide." },
-  { q: "Should I compare this to the 14-inch or 16-inch guide?", a: "If your laptop's actual footprint runs closer to either adjacent size, check those guides, since the 15.6-inch label doesn't guarantee your laptop matches every pad in this exact size class precisely." },
+  { q: "Should I compare this to the 14-inch or 16-inch guide?", a: "If your laptop's actual footprint runs closer to either adjacent size, check those guides, since the 15.6-inch label doesn't guarantee your laptop matches every pad in this exact size class precisely." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-14-inch-laptop-cooling-pads", title: "Best 14-Inch Laptop Cooling Pads (2026)" },
   { href: "/guide/best-16-inch-laptop-cooling-pads", title: "Best 16-Inch Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" }
 ];

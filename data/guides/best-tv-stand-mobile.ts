@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "tv stand mobile";
 export const introParagraphs = [
   "A mobile TV stand isn't just a living room console with wheels bolted on, it's a rolling cart built to move between conference rooms, classrooms, and AV setups where the display needs to relocate regularly rather than sit against one wall.",
-  "Below are 6 mobile TV stands we evaluated on caster quality, tilt range, and weight capacity, all built around VESA mount plates rather than open shelving, since a rolling cart's core job is holding the screen steady while it travels.",
+  "Below are 6 mobile TV stands we evaluated on caster quality, tilt range, and weight capacity, all built around VESA mount plates rather than open shelving, since a rolling cart's core job is holding the screen steady while it travels."
 ];
 export const lastUpdated = "2026-07-17";
 export const readTime = "9 min";
@@ -51,25 +51,24 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41zp5fky0cL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BNZXBGJ1?tag=deskfinds0d-20",
     description:
-      "The BONTEC Rolling TV Stand with Tilt fits TVs from 23 to 65 inches up to 88 pounds, with a VESA pattern up to 400x400mm. Four heavy-duty casters swivel a full 360 degrees and lock in place with brakes, so an office or classroom can wheel it between rooms and dock it firmly once positioned. A 10 degree tilt cuts glare from overhead lighting.\n\nAn adjustable AV shelf holds a laptop, streaming box, or game console alongside the mount, and cable routing keeps cords tucked out of sight during transport. Built from premium steel, it has by far the largest review base in this list at over 16,000 ratings, giving buyers a strong track record to lean on for a shared office or AV setup.\n\nAll four casters lock, not just two. On the other hand, 88 lb capacity is on the lower end for larger commercial displays. Neither should be a surprise once you know to look for it.",
+      "The BONTEC Rolling TV Stand with Tilt fits TVs from 23 to 65 inches up to 88 pounds, with a VESA pattern up to 400x400mm. Four heavy-duty casters swivel a full 360 degrees and lock in place with brakes, so an office or classroom can wheel it between rooms and dock it firmly once positioned. A 10 degree tilt cuts glare from overhead lighting.\n\nAn adjustable AV shelf holds a laptop, streaming box, or game console alongside the mount, and cable routing keeps cords tucked out of sight during transport.\n\nAll four casters lock, not just two. On the other hand, 88 lb capacity is on the lower end for larger commercial displays. Neither should be a surprise once you know to look for it.",
     specs: [
       "Fits TV 23-65 inches, up to 88 lbs",
       "Max VESA 400x400mm",
       "4 locking 360° casters",
       "10° tilt",
       "Adjustable AV shelf",
-      "Cable management",
+      "Cable management"
     ],
     pros: [
-      "Largest review base in this list at 16,088 ratings",
       "All four casters lock, not just two",
       "10° tilt reduces glare",
-      "Adjustable shelf fits laptops and consoles",
+      "Adjustable shelf fits laptops and consoles"
     ],
     cons: [
       "88 lb capacity is on the lower end for larger commercial displays",
       "65\" max TV size limits use for bigger conference rooms",
-      "Fixed height, no height adjustment range",
+      "Fixed height, no height adjustment range"
     ],
     bestFor: "Offices and classrooms that need a proven, budget-friendly rolling cart with all-wheel locking",
   },
@@ -91,18 +90,17 @@ export const products: GuideProduct[] = [
       "Quiet PU wheels",
       "0-15° tilt",
       "22 lb AV shelf",
-      "10-year warranty",
+      "10-year warranty"
     ],
     pros: [
       "Quiet PU wheels, less noise rolling on hard floors",
       "Longest warranty in this list at 10 years",
-      "Anti-drop safety screws for added security",
-      "Large review base (14,784 ratings)",
+      "Anti-drop safety screws for added security"
     ],
     cons: [
       "60\" max TV size is the smallest fit in this list",
       "22 lb AV shelf capacity is on the lighter side",
-      "No stated tilt-lock detail beyond the standard range",
+      "No stated tilt-lock detail beyond the standard range"
     ],
     bestFor: "Quiet offices or shared workspaces where wheel noise during transport is a concern",
   },
@@ -124,18 +122,18 @@ export const products: GuideProduct[] = [
       "AV shelf adjusts 12\"-24\"",
       "Column-integrated cable management",
       "Locking casters",
-      "Suited for home, office, or retail",
+      "Suited for home, office, or retail"
     ],
     pros: [
       "Least expensive pick in this list",
       "Highest weight capacity among the PERLESMITH-style picks (99 lbs)",
       "AV shelf adjusts across a 12-inch range",
-      "Cable management built into the column, not clipped on",
+      "Cable management built into the column, not clipped on"
     ],
     cons: [
       "Large review base but slightly behind the top two picks in count",
       "No stated tilt range in the listing",
-      "65\" max TV size, same ceiling as most other picks here",
+      "65\" max TV size, same ceiling as most other picks here"
     ],
     bestFor: "Budget-conscious buyers who want the most adjustable AV shelf in this list",
   },
@@ -150,25 +148,24 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41cyXrYX3KL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08DNV8WW7?tag=deskfinds0d-20",
     description:
-      "The BONTEC TC-003B fits TVs from 23 to 65 inches up to 88 pounds and pairs a steel and aluminum frame with rolling wheels that include locking brakes. An anti-tip base adds extra stability in crowded environments like schools, hotels, or airports, where the cart is more likely to get bumped as people move through the space. A media shelf holds a laptop or gaming console alongside the TV mount, and cable management routes wiring along the frame. at a budget-friendly price with nearly 6,500 ratings backing it up, it's built specifically for institutional and high-traffic settings where durability matters as much as price. Steel and aluminum build for durability. Set against that, 88 lb capacity is on the lower end for larger commercial displays. Both matter when comparing it to the other picks here.",
+      "The BONTEC TC-003B fits TVs from 23 to 65 inches up to 88 pounds and pairs a steel and aluminum frame with rolling wheels that include locking brakes. An anti-tip base adds extra stability in crowded environments like schools, hotels, or airports, where the cart is more likely to get bumped as people move through the space. Steel and aluminum build for durability. Set against that, 88 lb capacity is on the lower end for larger commercial displays. Both matter when comparing it to the other picks here.",
     specs: [
       "Fits TV 23-65 inches, up to 88 lbs",
       "Max VESA 400x400mm",
       "Steel + aluminum frame",
       "Anti-tip base",
       "Rolling wheels + locking brakes",
-      "Media shelf",
+      "Media shelf"
     ],
     pros: [
       "Anti-tip base suited for crowded, high-traffic environments",
       "Steel and aluminum build for durability",
-      "Strong review base (6,458 ratings)",
-      "Affordable at under $40",
+      "Affordable at under $40"
     ],
     cons: [
       "88 lb capacity is on the lower end for larger commercial displays",
       "No stated tilt range in the listing",
-      "65\" max TV size limits use for larger screens",
+      "65\" max TV size limits use for larger screens"
     ],
     bestFor: "Schools, hotels, and airports that need a stable, anti-tip cart for busy public spaces",
   },
@@ -190,18 +187,17 @@ export const products: GuideProduct[] = [
       "X-shape base",
       "5° tilt",
       "Height-adjustable AV shelf",
-      "5-year warranty",
+      "5-year warranty"
     ],
     pros: [
       "Sturdy X-shape base improves tip-over resistance",
       "All-metal construction, no plastic components",
-      "5-year warranty",
-      "Strong review base (7,353 ratings)",
+      "5-year warranty"
     ],
     cons: [
       "88 lb capacity is on the lower end for larger commercial displays",
       "5° tilt range is narrower than some rivals",
-      "65\" max TV size limits use for larger screens",
+      "65\" max TV size limits use for larger screens"
     ],
     bestFor: "Bedrooms, home offices, and dorm rooms that want a stable, all-metal rolling cart",
   },
@@ -223,21 +219,21 @@ export const products: GuideProduct[] = [
       "4 built-in AC outlets + safety switch",
       "Portrait/landscape rotation",
       "-2° to 10° tilt, 6 height levels",
-      "Dual mode: rolling or fixed legs",
+      "Dual mode: rolling or fixed legs"
     ],
     pros: [
       "Only pick in this list with built-in AC outlets",
       "Portrait/landscape rotation",
       "Dual mode, rolls on casters or locks to fixed legs",
-      "6 height levels for fine adjustment",
+      "6 height levels for fine adjustment"
     ],
     cons: [
       "Lowest rating and smallest review base in this list",
       "50\" max TV size, smallest fit in this list",
-      "Lower weight capacity (55 lbs) than the other picks here",
+      "Lower weight capacity (55 lbs) than the other picks here"
     ],
     bestFor: "Small displays or presentation setups that need built-in power at the cart itself",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -264,10 +260,7 @@ export const buyingCriteria: BuyingCriterion[] = [
 ];
 
 export const faq: FaqItem[] = [
-  {
-    q: "What is the best mobile TV stand overall?",
-    a: "The BONTEC Rolling TV Stand with Tilt (Pick 1) has the largest review base in this list at over 16,000 ratings, all four casters lock, and it includes a 10 degree tilt for glare control, making it the strongest general-purpose pick for offices and classrooms.",
-  },
+  
   {
     q: "How is a mobile TV stand different from a TV stand on wheels for a living room?",
     a: "Mobile TV stands in this list are built around VESA mount plates for rolling between rooms in offices, schools, or AV setups, prioritizing locking casters, tilt range, and a compact wheeled base. A living-room stand on wheels, like the picks in our TV Stands on Wheels guide, typically adds open or enclosed media shelving since it's expected to sit in one spot most of the time.",
@@ -287,11 +280,11 @@ export const faq: FaqItem[] = [
   {
     q: "What TV size range do mobile TV stands typically support?",
     a: "Most general-purpose mobile TV stands in this list support 23 to 65 inch TVs, which covers the vast majority of office, classroom, and conference room displays. The Rfiver Power Outlet pick (Pick 6) is the exception, built for smaller 13 to 50 inch displays.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-tv-stand-on-wheels", title: "Best TV Stands on Wheels in 2026" },
   { href: "/guide/best-tv-stand-universal", title: "Best Universal TV Stands in 2026" },
-  { href: "/guide/best-tv-stand-heavy-duty", title: "Best Heavy Duty TV Stands in 2026" },
+  { href: "/guide/best-tv-stand-heavy-duty", title: "Best Heavy Duty TV Stands in 2026" }
 ];

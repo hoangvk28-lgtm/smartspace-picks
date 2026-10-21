@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable monitor under 100";
 export const introParagraphs = [
   "At this price tier, panel brightness and color accuracy genuinely vary more than at higher price points, worth checking specific nit brightness and color gamut ratings rather than assuming any budget portable monitor looks similarly good in typical indoor lighting.",
-  "USB-C single-cable power delivery isn't guaranteed at this budget, some models require a separate power source, worth verifying whether your laptop can power the display through one cable alone before assuming a simpler travel setup.",
+  "USB-C single-cable power delivery isn't guaranteed at this budget, some models require a separate power source, worth verifying whether your laptop can power the display through one cable alone before assuming a simpler travel setup."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Brightness and color accuracy checked against realistic budget-tier expectations", description: "Checked specific brightness and color gamut ratings rather than assuming any budget portable monitor looks similarly good in typical indoor lighting." },
   { title: "USB-C single-cable power delivery verified, not assumed universal", description: "Verified whether each model genuinely supports single-cable USB-C power delivery rather than requiring a separate power source." },
   { title: "Established brand track record weighed for confidence at low price points", description: "Weighed established display brand reputation for buyers wanting more confidence when spending less on unfamiliar brands." },
-  { title: "Marketing claims like HDR checked against realistic budget-tier implementation", description: "Checked marketing claims like HDR labeling against realistic budget-tier implementation, since these often provide limited real-world visual difference." },
+  { title: "Marketing claims like HDR checked against realistic budget-tier implementation", description: "Checked marketing claims like HDR labeling against realistic budget-tier implementation, since these often provide limited real-world visual difference." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -222,11 +222,11 @@ export const faq: FaqItem[] = [
   { q: "Can a portable monitor under $100 still look good?", a: "Yes, but check specific brightness and color gamut ratings, quality genuinely varies more at this price tier than at higher price points." },
   { q: "Do all portable monitors work with just one USB-C cable?", a: "Not always, verify single-cable power delivery works with your specific laptop before assuming a simpler travel setup." },
   { q: "Is HDR worth it on a budget portable monitor?", a: "Often adds limited real-world visual difference at this price point, don't expect premium HDR implementation." },
-  { q: "Should I buy from an established display brand at this price?", a: "It adds confidence in build quality and support, but well-reviewed lesser-known brands can also perform well at this budget." },
+  { q: "Should I buy from an established display brand at this price?", a: "It adds confidence in build quality and support, but well-reviewed lesser-known brands can also perform well at this budget." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-monitors-under-200", title: "Best Portable Monitors Under $200 (2026)" },
   { href: "/guide/best-budget-usb-c-monitors", title: "Best Budget USB-C Monitors (2026)" },
-  { href: "/guide/best-hdmi-portable-monitors", title: "Best HDMI Portable Monitors (2026)" },
+  { href: "/guide/best-hdmi-portable-monitors", title: "Best HDMI Portable Monitors (2026)" }
 ];

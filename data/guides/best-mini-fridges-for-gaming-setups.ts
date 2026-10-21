@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41El1tgBJaL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0G8DHL1QV?tag=deskfinds0d-20",
-    "description": "Iceblue is a dimmable gaming-light fridge with a remote control and 24 display modes for its LED lighting, and the seller pitches it as a skincare fridge too. The listing's summary does not state capacity, so check the product page before buying.\n\nIt costs the same $99.99 as Ukonic and offers the widest range of lighting modes in this guide, but it provides less capacity information than Kikihouse. Compared with BEICHEN below, you pay twice as much for the remote and extra modes.\n\nBest for someone who wants a controllable light show from the couch or chair. The caveat is the missing capacity and noise figures.",
+    "description": "Iceblue is a dimmable gaming-light fridge with a remote control and 24 display modes for its LED lighting, and the seller pitches it as a skincare fridge too. The listing's summary does not state capacity, so check the product page before buying.\n\nIt costs the same under $100 as Ukonic and offers the widest range of lighting modes in this guide, but it provides less capacity information than Kikihouse. Compared with BEICHEN below, you pay twice as much for the remote and extra modes.\n\nBest for someone who wants a controllable light show from the couch or chair. The caveat is the missing capacity and noise figures.",
     "specs": [
       "24 LED display modes",
       "Dimmable, remote control",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/410MZ8nMy6L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0BGYJ8GHD?tag=deskfinds0d-20",
-    "description": "Frigidaire's gaming cooler holds 6 cans in 4 liters, has a large see-through door with LED colored lights, a carrying handle, a weight of about 3 pounds and a heavy-duty lock. It runs on a car adapter or a home outlet.\n\nIt costs only $33.15, about $12 under FANSEXPERT, and drops the mirror and dimming. The listing gives no cooling margin or noise level.\n\nBest for a tight budget or a first desk cooler. The caveat is the minimal spec sheet and the tiny capacity.",
+    "description": "Frigidaire's gaming cooler holds 6 cans in 4 liters, has a large see-through door with LED colored lights, a carrying handle, a weight of about 3 pounds and a heavy-duty lock. It runs on a car adapter or a home outlet.\n\nIt costs under $35, about $12 under FANSEXPERT, and drops the mirror and dimming. The listing gives no cooling margin or noise level.\n\nBest for a tight budget or a first desk cooler. The caveat is the minimal spec sheet and the tiny capacity.",
     "specs": [
       "4L, 6 cans",
       "LED lights, see through door",
@@ -291,7 +291,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     "title": "Price for the format",
-    "description": "Prices from $33.15 to $259.98 were weighed against capacity and documented specs."
+    "description": "Prices from roughly $35 to $300 were weighed against capacity and documented specs."
   }
 ];
 

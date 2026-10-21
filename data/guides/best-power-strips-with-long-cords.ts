@@ -5,7 +5,7 @@ export const metaDescription = "5 long-cord power strips we evaluated, with the 
 export const mainKeyword = "power strip with long cord";
 export const introParagraphs = [
   "Longer cords increase voltage drop under sustained load, and cord gauge, rarely disclosed, determines how much this actually matters, a thin-gauge long cord run at high load can experience measurable voltage drop over 15+ feet.",
-  "Long cords are frequently coiled or bundled during use, and bundled current-carrying cords can build up heat that a straight-run cord of the same length wouldn't experience, a real safety consideration entirely absent from length-focused marketing.",
+  "Long cords are frequently coiled or bundled during use, and bundled current-carrying cords can build up heat that a straight-run cord of the same length wouldn't experience, a real safety consideration entirely absent from length-focused marketing."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Long-Cord Power Strip Overall",
     name: "Surge Protector Power Strip 15 Ft Cord, Ultra Thin Flat Extension Cord with 8 Outlets 4 USB Ports(2 USB C), Flat Plug Power Strip, 15 Ft Long Braided Power Cord for Home, Office, Dorm Room Essentials",
     price: "$19.99",
-    rating: "4.8 stars from 6,431 Amazon ratings",
-    reviews: "6,431 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41J0Gowt80L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CHMG5XHM?tag=deskfinds0d-20",
     description: "The longest genuinely disclosed cord in this guide at 15ft, with a braided design that helps resist wear from repeated coiling. 8 outlets and 4 USB ports for real capacity at the far end of the cord.\n\nIt earns the top spot in this comparison over Mifaso 2 Pack Power Strip for one main reason. Longest cord in this guide. On price, it comes in below Mifaso 2 Pack Power Strip, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Braided design resists coiling wear. On the other side, Higher price than shorter-cord picks. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best 12ft Long-Cord Pick",
     name: "Mifaso 2 Pack Power Strip, 12FT Long Extension Cord, 1080J Surge Protector",
     price: "$31.99",
-    rating: "4.8 stars from 10,417 Amazon ratings",
-    reviews: "10,417 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41DQteekppL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08NP57YRG?tag=deskfinds0d-20",
     description: "A 2-pack of 12ft cord strips with 1080 joules of genuine surge protection, useful if you need long-reach protection in two separate locations. Strong rating base.\n\nOne spot below Surge Protector Power Strip 15 Ft Cord in this ranking, it costs more than Surge Protector Power Strip 15 Ft Cord. The compromise here is straightforward: Cord gauge not explicitly disclosed. What you gain in return: 2-pack lets you cover two distant outlet needs. Whether that trade is worth it depends on which side matters more for your needs.\n\nWorth knowing before you decide: Genuine 1080 joule surge protection. On the other side, Higher combined price for two units. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best 10ft Mid-Length Pick",
     name: "SUPERDANNY Extension Cord, Flat Plug Surge Protector Power Strip, 10Ft",
     price: "$12.98",
-    rating: "4.8 stars from 6,583 Amazon ratings",
-    reviews: "6,583 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LXOWiw2vL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZ254SSR?tag=deskfinds0d-20",
     description: "A 10ft cord, a genuine middle ground between standard 5-6ft cords and the longest 15ft options, with a flat plug for wall clearance. Strong rating base at an affordable price.\n\nSitting just under Mifaso 2 Pack Power Strip, it's priced lower than Mifaso 2 Pack Power Strip. Here's the honest tradeoff: Cord gauge and amperage rating not explicitly disclosed. And here's what it gets you instead: 10ft reach at an affordable price. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Flat plug for wall clearance. On the other side, Shorter than the 12-15ft picks. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Multi-Outlet 10ft Pick",
     name: "10Ft Extension Cord with Multiple Outlets, SUPERDANNY Flat Plug Surge Protector Power Strip 10 Ft Long Cord, 6 Outlets & 3 USB Ports, Charging Station for Home Office, College Dorm Room Essentials",
     price: "$12.99",
-    rating: "4.7 stars from 8,377 Amazon ratings",
-    reviews: "8,377 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31owpdc4AGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPFF7JN8?tag=deskfinds0d-20",
     description: "10ft cord with 6 outlets and 3 USB ports, genuinely more capacity at the far end than a basic single-outlet extension. Strong review base and affordable price.\n\nRanked just behind SUPERDANNY Extension Cord, it costs more than SUPERDANNY Extension Cord. The real tradeoff against that pick: Cord gauge not explicitly disclosed. In exchange, it offers this instead: 6 outlets plus 3 USB ports at 10ft reach. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Affordable for the capacity offered. On the other side, Verify amperage rating for high-draw equipment. That's the main tradeoff to weigh against everything above.",
@@ -89,8 +89,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Joule Long-Cord Pick",
     name: "Surge Protector Power Strip 4800J, LeZone 10Ft Long Extension Cord Flat Plug, 12 Outlets 2 USB C 2 USB Ports, Wall Mountable, Desk Charging Station, Black",
     price: "$18.89",
-    rating: "4.7 stars from 2,666 Amazon ratings",
-    reviews: "2,666 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41eRaMa6u1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CN6V6M5F?tag=deskfinds0d-20",
     description: "10ft cord with 12 outlets, 2 USB-C ports, and a genuinely high 4800 joule rating, real headroom for demanding equipment at the far end of a long cord run.\n\nOne spot below 10Ft Extension Cord with Multiple Outlets in this ranking, it costs more than 10Ft Extension Cord with Multiple Outlets. The compromise here is straightforward: Smaller review base than mass-market picks. What you gain in return: Highest joule rating in this guide. Whether that trade is worth it depends on which side matters more for your needs.\n\nWorth knowing before you decide: 12 outlets plus 4 USB ports at 10ft reach. On the other side, Larger footprint for the outlet count. That's the main tradeoff to weigh against everything above.",
@@ -105,7 +105,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Cord length matched to realistic outlet-distance needs", description: "Ranked picks from 10ft mid-length options through the longest 15ft cord, so buyers can match reach to their actual distance from the wall outlet without overpaying for unused length." },
   { title: "Coiled-cord heat buildup and safety habits considered", description: "Flagged that bundled or coiled current-carrying cords can build up heat under sustained load that a straight-run cord of the same length wouldn't experience, a safety consideration for excess-length management." },
-  { title: "Capacity at the far end, not just reach, evaluated together", description: "Compared outlet count, USB ports, and joule rating alongside cord length, since a long cord with low capacity doesn't help if your far-end equipment draws significant power." },
+  { title: "Capacity at the far end, not just reach, evaluated together", description: "Compared outlet count, USB ports, and joule rating alongside cord length, since a long cord with low capacity doesn't help if your far-end equipment draws significant power." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -241,11 +241,11 @@ export const faq: FaqItem[] = [
   { q: "Can I run a long power strip cord under a rug?", a: "No, this is a real safety risk. Extension-cord safety guidance, not running cords under rugs or through doorways, applies directly to long power strip cords, since these behaviors reduce cord lifespan and create heat and trip hazards." },
   { q: "How do I know if a long cord's capacity is enough for my equipment?", a: "Check the joule and amperage rating separately from cord length, these are different specs. A very long but low-rated cord may not be appropriate for high-draw equipment at the far end." },
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers who need to reach a distant outlet with real outlet capacity at the far end" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who need a mid-length cord at a budget-friendly price At $12.98, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who need a mid-length cord at a budget-friendly price At under $15, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-flat-plug-power-strips", title: "Best Flat-Plug Power Strips (2026)" },
   { href: "/guide/best-heavy-duty-power-strips", title: "Best Heavy-Duty Power Strips (2026)" },
-  { href: "/guide/best-surge-protectors-with-long-cords", title: "Best Surge Protectors with Long Cords (2026)" },
+  { href: "/guide/best-surge-protectors-with-long-cords", title: "Best Surge Protectors with Long Cords (2026)" }
 ];

@@ -209,36 +209,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $173.79",
+          "Under $180",
           "Loomie 8FT Boat-Shaped Conference Table with Grommet"
         ],
         [
-          "Around $229.98",
+          "Under $250",
           "43.3-59in Extendable Round Conference Table for 4-8"
         ],
         [
-          "Around $369.99",
+          "Under $400",
           "Tribesigns 10.5FT Conference Table"
         ],
         [
-          "Around $381.94",
+          "Under $400",
           "Flash Furniture 6-Foot Oval Conference Table"
         ],
         [
-          "Around $389.99",
+          "Under $400",
           "Tribesigns 8ft Conference Table for 8-10"
         ],
         [
-          "Around $398.90",
+          "Under $400",
           "71\" Tempered Glass Dining/Conference Table"
         ],
         [
-          "Around $699.89",
+          "Under $700",
           "8FT Extendable Oval Conference Table"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -286,7 +286,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "71\" Tempered Glass Dining/Conference Table is aimed at buyers prioritizing 71\"x35.4\"x30\", 0.39\" tempered glass top." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "71\" Tempered Glass Dining/Conference Table is aimed at buyers prioritizing 71\"x35.4\"x30\", 0.39\" tempered glass top." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-epoxy-conference-tables","title":"Best Epoxy Conference Tables in 2026"},{"href":"/guide/best-marble-conference-tables","title":"Best Marble Conference Tables in 2026"},{"href":"/guide/best-concrete-conference-tables","title":"Best Concrete Conference Tables in 2026"}];

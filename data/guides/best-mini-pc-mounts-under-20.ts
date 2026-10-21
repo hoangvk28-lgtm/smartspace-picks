@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Maximum mounting flexibility and a longer warranty", "VIVO Adjustable Thin Client Mini PC Mount Bracket"],
         ["Built-in cable and desk organization", "Adjustable Thin Client Mini PC Mount with Pen Holder"],
         ["Hardware matched exactly to a Lenovo ThinkCentre Tiny", "Freejia Mini PC Mount for Lenovo ThinkCentre Tiny"],
-        ["The lowest price with fine height adjustment", "Upgraded Adjustable Under Desk Mini PC Bracket"],
+        ["The lowest price with fine height adjustment", "Upgraded Adjustable Under Desk Mini PC Bracket"]
       ],
     },
   },
@@ -117,8 +117,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $17", "Upgraded Adjustable Bracket ($16.99)"],
-        ["Under $20", "VIVO ($19.99), Pen Holder pick ($19.99), or Freejia ($19.99)"],
+        ["Under $17", "Upgraded Adjustable Bracket (under $20)"],
+        ["Under $20", "VIVO (under $20), Pen Holder pick (under $20), or Freejia (under $20)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Universal Adjustable vs Brand-Specific Fit",
     cards: [
       { label: "Universal adjustable (VIVO, Pen Holder pick, budget bracket)", text: "Sliding side arms fit a range of device widths, useful if you might switch mini PCs later or aren't certain of exact compatibility." },
-      { label: "Brand-specific (Freejia for Lenovo)", text: "Hardware matched exactly to a listed ThinkCentre Tiny model, a more precise but less flexible fit for that specific device." },
+      { label: "Brand-specific (Freejia for Lenovo)", text: "Hardware matched exactly to a listed ThinkCentre Tiny model, a more precise but less flexible fit for that specific device." }
     ],
     note: "If you own one of the specifically listed Lenovo ThinkCentre Tiny models, the Freejia's exact-match hardware is worth choosing over a generic adjustable bracket.",
   },
@@ -137,7 +137,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Clamped to a monitor arm pole", "VIVO Adjustable Thin Client Mount Bracket"],
         ["Wall, VESA, or under desk with cable ties", "Freejia for Lenovo ThinkCentre Tiny"],
-        ["Under desk only, simple and budget-friendly", "Upgraded Adjustable Under Desk Bracket"],
+        ["Under desk only, simple and budget-friendly", "Upgraded Adjustable Under Desk Bracket"]
       ],
     },
   },
@@ -145,16 +145,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Compact Desk With Limited Surface Space Specifically",
     cards: [
       { label: "Look for", text: "A mount that also organizes small desk items like pens, reducing the number of separate accessories cluttering the desktop." },
-      { label: "In this comparison", text: "The pen-holder pick's built-in organizer addresses this need directly while still mounting the mini PC out of the way." },
+      { label: "In this comparison", text: "The pen-holder pick's built-in organizer addresses this need directly while still mounting the mini PC out of the way." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a longer warranty and the widest mounting flexibility, where the VIVO pick's 3-year warranty and pole-clamp option add real value over the budget bracket." },
-      { label: "Save if", text: "You just need basic under-desk mounting with height adjustment, where the Upgraded Adjustable Bracket covers that for about $3 less." },
+      { label: "Save if", text: "You just need basic under-desk mounting with height adjustment, where the Upgraded Adjustable Bracket covers that for about $3 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

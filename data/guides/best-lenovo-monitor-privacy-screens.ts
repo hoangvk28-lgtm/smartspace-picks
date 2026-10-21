@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "lenovo monitor privacy screen";
 export const introParagraphs = [
   "Lenovo does not manufacture standalone monitor privacy filters as a product line (their PrivacyGuard technology is a built-in laptop feature, a different category entirely). Every product here is a third-party filter sized to fit common Lenovo ThinkVision monitor dimensions.",
-  "Lenovo's ThinkVision lineup spans 21.5, 23.8, and 24 inch at 16:9, plus some 22 inch models. We matched picks to these common sizes rather than assuming any single filter fits the whole ThinkVision range.",
+  "Lenovo's ThinkVision lineup spans 21.5, 23.8, and 24 inch at 16:9, plus some 22 inch models. We matched picks to these common sizes rather than assuming any single filter fits the whole ThinkVision range."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -94,9 +94,9 @@ export const products: GuideProduct[] = [
     reviews: "70",
     imageUrl: "https://m.media-amazon.com/images/I/41k059xiB9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVRQTXC8?tag=deskfinds0d-20",
-    description: "Some of Lenovo's older or compact ThinkVision models use a 16:10 aspect ratio, and this pick is specifically sized for that ratio at 22 inches.\n\nOne spot below [2 Pack] 23.8 Inch Computer Monitor Privacy Screen in this ranking, it's priced lower than [2 Pack] 23.8 Inch Computer Monitor Privacy Screen. The compromise here is straightforward: Only fits 16:10 monitors, confirm your model's exact aspect ratio first. What you gain in return: Specifically sized for 16:10, relevant for older or compact ThinkVision models. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Strong 4.6 rating. On the other side, Only fits 16:10 monitors, confirm your model's exact aspect ratio first. That's the main tradeoff to weigh against everything above.",
+    description: "Some of Lenovo's older or compact ThinkVision models use a 16:10 aspect ratio, and this pick is specifically sized for that ratio at 22 inches.\n\nOne spot below [2 Pack] 23.8 Inch Computer Monitor Privacy Screen in this ranking, it's priced lower than [2 Pack] 23.8 Inch Computer Monitor Privacy Screen. The compromise here is straightforward: Only fits 16:10 monitors, confirm your model's exact aspect ratio first. What you gain in return: Specifically sized for 16:10, relevant for older or compact ThinkVision models. Whether that trade is worth it depends on which side matters more for your setup.\n\nOn the other side, Only fits 16:10 monitors, confirm your model's exact aspect ratio first. That's the main tradeoff to weigh against everything above.",
     specs: ["22 inch, 16:10 aspect ratio","2-pack"],
-    pros: ["Specifically sized for 16:10, relevant for older or compact ThinkVision models","Strong 4.6 rating"],
+    pros: ["Specifically sized for 16:10, relevant for older or compact ThinkVision models"],
     cons: ["Only fits 16:10 monitors, confirm your model's exact aspect ratio first"],
     bestFor: "Buyers with an older or compact ThinkVision monitor using a 16:10 aspect ratio.",
   },
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Distinguished Lenovo PrivacyGuard from standalone monitor filters", description: "Lenovo's PrivacyGuard is a built-in laptop technology, a different category from the standalone monitor filters in this comparison, and we did not conflate the two." },
   { title: "Matched picks to ThinkVision's actual common sizes", description: "We organized picks around Lenovo's most common ThinkVision sizes (21.5, 22, 23.8, and 24 inch) rather than assuming one filter fits the whole lineup." },
   { title: "Flagged the 23.8 versus 24 inch distinction", description: "Lenovo sells both 23.8 and standard 24 inch ThinkVision models; we included filters specifically sized for each rather than rounding one to the other." },
-  { title: "Noted the 16:10 aspect ratio trap on older ThinkVision models", description: "Some older or compact ThinkVision monitors use 16:10 rather than 16:9, and we flagged this explicitly since it's a common source of a bad fit." },
+  { title: "Noted the 16:10 aspect ratio trap on older ThinkVision models", description: "Some older or compact ThinkVision monitors use 16:10 rather than 16:9, and we flagged this explicitly since it's a common source of a bad fit." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -249,7 +249,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
-    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nThis matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
   }
 ];
 
@@ -258,11 +258,11 @@ export const faq: FaqItem[] = [
   { q: "Is 23.8 inch the same as 24 inch?", a: "No, they're close but different sizes. Use a filter specifically sized for 23.8 inch if that's your exact ThinkVision model." },
   { q: "Are all ThinkVision monitors 16:9?", a: "Most current models are, but some older or compact ThinkVision monitors use a 16:10 aspect ratio. Check your exact model before ordering." },
   { q: "What's the best option for a 21.5 inch ThinkVision monitor?", a: "The SightPro 21.5 Inch 16:9 Computer Privacy Screen Filter, common on Lenovo's entry-level business monitors." },
-  { q: "How do I find my ThinkVision's exact dimensions?", a: "Check the model number on the rear label or Lenovo's support site and look up the active display width and height directly." },
+  { q: "How do I find my ThinkVision's exact dimensions?", a: "Check the model number on the rear label or Lenovo's support site and look up the active display width and height directly." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-hp-monitor-privacy-screens", title: "Best HP Monitor Privacy Screens (2026)" },
   { href: "/guide/best-dell-monitor-privacy-screens", title: "Best Dell Monitor Privacy Screens (2026)" },
-  { href: "/guide/best-23-8-inch-monitor-privacy-screens", title: "Best 23.8-Inch Monitor Privacy Screens (2026)" },
+  { href: "/guide/best-23-8-inch-monitor-privacy-screens", title: "Best 23.8-Inch Monitor Privacy Screens (2026)" }
 ];

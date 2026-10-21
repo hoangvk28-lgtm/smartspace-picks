@@ -185,7 +185,7 @@ export default async function SmallDeskOrganizationIdeasPage() {
             { href: "#comparison", label: "Comparison table" },
             { href: "#by-situation", label: "By situation" },
             { href: "#checklist", label: "Setup checklist" },
-            { href: "#faq", label: "FAQ" },
+            { href: "#faq", label: "FAQ" }
           ].map(({ href, label }) => (
             <a key={href} href={href} className="px-3.5 py-2 rounded-full border border-border bg-white text-ink-secondary text-sm font-medium hover:border-brand hover:text-brand transition-colors">
               {label}
@@ -205,7 +205,7 @@ export default async function SmallDeskOrganizationIdeasPage() {
               {[
                 { label: "Daily use", color: "#16a34a", bg: "#dcfce7", items: "Keyboard, mouse, laptop, one pen, phone charger. These earn desktop space." },
                 { label: "Weekly use", color: "#d97706", bg: "#fef9c3", items: "Notebooks, headphones, extra cables, sticky notes. These go near the desk, not on it." },
-                { label: "Rarely use", color: "#dc2626", bg: "#fee2e2", items: "Spare pens, old papers, random cables, decorative items. These leave the desk area entirely." },
+                { label: "Rarely use", color: "#dc2626", bg: "#fee2e2", items: "Spare pens, old papers, random cables, decorative items. These leave the desk area entirely." }
               ].map((g) => (
                 <div key={g.label} className="p-3 rounded-lg" style={{ background: g.bg }}>
                   <p className="text-xs font-bold mb-1" style={{ color: g.color }}>{g.label}</p>
@@ -411,7 +411,7 @@ export default async function SmallDeskOrganizationIdeasPage() {
                   ["Desktop check", "Anything on the desk that doesn't belong in Zone 1? Move it back."],
                   ["Drawer check", "Are under-desk drawers still organized, or did something get tossed in randomly?"],
                   ["Paper check", "Any new papers? File, scan, or recycle. Don't leave them for tomorrow."],
-                  ["Cable check", "Are chargers and cables back in their clips or tray?"],
+                  ["Cable check", "Are chargers and cables back in their clips or tray?"]
                 ].map(([label, desc]) => (
                   <div key={label as string} className="p-3 rounded-xl border border-border bg-white">
                     <p className="text-xs font-bold text-ink mb-1">{label}</p>
@@ -515,7 +515,7 @@ export default async function SmallDeskOrganizationIdeasPage() {
                 desc: "If aesthetics matter as much as function, focus on materials and color coordination.",
                 methods: ["Bamboo monitor riser (warm, natural look)", "Felt and cork desk mat (textured, minimal)", "Bamboo desktop tray (matches the riser)", "Pick one material family and stick to it - matching materials make a small desk look intentional"],
                 budget: "~$60–$80 for a coordinated bamboo + felt setup",
-              },
+              }
             ].map((sit) => (
               <div key={sit.title} className="p-5 rounded-2xl border border-border bg-white">
                 <h3 className="font-bold text-ink mb-1">{sit.title}</h3>
@@ -586,7 +586,7 @@ export default async function SmallDeskOrganizationIdeasPage() {
             {[
               { num: 1, name: "Bamboo Monitor Riser with Drawer", price: "$40", note: "Combines ergonomics with hidden storage", id: "bamboo-monitor-riser-drawer" },
               { num: 2, name: "Under-Desk Cable Management Tray", price: "$28", note: "Removes the biggest visual clutter source", id: "under-desk-cable-tray" },
-              { num: 3, name: "Compact Mesh Desk Organizer", price: "$15", note: "One bin for daily supplies, enforcing limits", id: "compact-mesh-organizer" },
+              { num: 3, name: "Compact Mesh Desk Organizer", price: "$15", note: "One bin for daily supplies, enforcing limits", id: "compact-mesh-organizer" }
             ].map((item) => {
               const prod = products.find((p) => p.id === item.id);
               return (
@@ -632,7 +632,7 @@ export default async function SmallDeskOrganizationIdeasPage() {
             {[
               { href: "/guide/best-small-desk-accessories", title: "12 Best Small Desk Accessories That Actually Save Space", label: "Desk Setup" },
               { href: "/guide/monitor-stands-small-desks", title: "Best Monitor Stands for Small Desks", label: "Desk Setup" },
-              { href: "/guide/dorm-room-power-essentials", title: "Best Power Strips for Dorm Rooms", label: "Dorm Essentials" },
+              { href: "/guide/dorm-room-power-essentials", title: "Best Power Strips for Dorm Rooms", label: "Dorm Essentials" }
             ].map((g) => (
               <Link prefetch={false} key={g.href} href={g.href} className="group p-4 rounded-xl border border-border bg-white hover:border-brand/40 hover:shadow-sm transition-all">
                 <span className="text-[10px] font-bold uppercase tracking-widest text-brand block mb-1">{g.label}</span>

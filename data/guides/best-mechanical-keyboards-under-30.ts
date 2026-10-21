@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Confirmed genuine switches with full N-key rollover", "MageGee 75% Mechanical Gaming Keyboard, Red Switch"],
         ["Hot-swappable switch customization", "Redragon Mechanical Gaming Keyboard, Hot-Swappable Red Switch"],
         ["A full-size layout with genuine clicky switches", "RisoPhy Mechanical Gaming Keyboard, Blue Switch"],
-        ["The smallest footprint and lowest price", "60% Wired Mechanical Gaming Keyboard, Blue Switches"],
+        ["The smallest footprint and lowest price", "60% Wired Mechanical Gaming Keyboard, Blue Switches"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $23", "60% Wired ($22.99)"],
-        ["Under $29", "RisoPhy ($28.99)"],
-        ["Under $30", "MageGee or Redragon (both $29.99)"],
+        ["Under $23", "60% Wired (under $25)"],
+        ["Under $29", "RisoPhy (under $30)"],
+        ["Under $30", "MageGee or Redragon (both under $30)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Hot-Swappable vs Fixed Switches",
     cards: [
       { label: "Hot-swappable (Redragon)", text: "Lets you replace individual switches without soldering, useful if you want to try different switch feels later without buying a new board." },
-      { label: "Fixed switches (MageGee, RisoPhy, 60% Wired)", text: "Locks in the switch type at purchase, simpler for buyers who already know they want linear or clicky feel and don't plan to experiment." },
+      { label: "Fixed switches (MageGee, RisoPhy, 60% Wired)", text: "Locks in the switch type at purchase, simpler for buyers who already know they want linear or clicky feel and don't plan to experiment." }
     ],
     note: "If you're new to mechanical keyboards and might want to try different switches later, the Redragon's hot-swap feature is worth having even at this price. If you already know your preferred switch feel, any of the fixed-switch picks work fine.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Maximum desk space, compact typing", "60% Wired (61 keys)"],
         ["Balanced compact layout with arrows", "MageGee (87 keys, TKL)"],
-        ["Full number pad and function row", "RisoPhy or Redragon (104 keys)"],
+        ["Full number pad and function row", "RisoPhy or Redragon (104 keys)"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a First-Time Mechanical Keyboard Buyer Specifically",
     cards: [
       { label: "Look for", text: "A listing that explicitly names a real switch type like 'red', 'blue', or 'brown' mechanical switches, rather than the ambiguous phrase 'mechanical feeling', which typically indicates a membrane keyboard." },
-      { label: "In this comparison", text: "All four picks explicitly confirm genuine named mechanical switches, unlike many similarly priced boards on the market that use misleading 'mechanical feeling' language." },
+      { label: "In this comparison", text: "All four picks explicitly confirm genuine named mechanical switches, unlike many similarly priced boards on the market that use misleading 'mechanical feeling' language." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want hot-swappable switch customization to experiment with different feels over time, where the Redragon pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You just want the smallest possible footprint with genuine mechanical switches, where the 60% Wired pick covers that for about $7 less." },
+      { label: "Save if", text: "You just want the smallest possible footprint with genuine mechanical switches, where the 60% Wired pick covers that for about $7 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop cooling pads for Dell laptops";
 export const introParagraphs = [
   "Dell's laptop lineup spans thin XPS ultrabooks, mainstream Inspiron and Latitude models, and heavier gaming-oriented machines, and these different chassis have meaningfully different vent placement, weight, and heat output. Every pad in this guide lists Dell among a broader set of compatible brands rather than being built exclusively for one Dell line, which is worth being direct about since none of these are Dell-exclusive designs.",
-  "For most mainstream Dell laptops, a well-reviewed universal-fit cooling pad works reasonably well because these pads are sized to a wide range of laptop dimensions rather than one specific chassis. If you specifically own a Dell XPS and want a deeper breakdown of what its unusually slim, differently-vented chassis needs, see our dedicated Best Laptop Cooling Pads for Dell XPS Laptops guide instead, which covers that narrower case in more depth.",
+  "For most mainstream Dell laptops, a well-reviewed universal-fit cooling pad works reasonably well because these pads are sized to a wide range of laptop dimensions rather than one specific chassis. If you specifically own a Dell XPS and want a deeper breakdown of what its unusually slim, differently-vented chassis needs, see our dedicated Best Laptop Cooling Pads for Dell XPS Laptops guide instead, which covers that narrower case in more depth."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "10 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Dell compatibility claim verification", description: "We checked whether each listing explicitly names Dell as a compatible brand versus offering only generic size-based compatibility, and noted the distinction honestly rather than assuming all universal-fit pads are equally well-suited." },
   { title: "Size range matched to Dell's actual lineup diversity", description: "We weighed each pick's laptop size range against the reality that Dell sells everything from thin XPS ultrabooks to heavy gaming laptops, favoring picks with size ranges that plausibly cover a specific Dell line." },
   { title: "Weight and vent placement considerations", description: "We considered fan strength and stand rigidity against the likely weight and heat output of different Dell chassis types, since a thin ultrabook and a gaming laptop have very different cooling needs." },
-  { title: "Honest disclosure of universal versus Dell-specific fit", description: "We stated plainly that none of the products in this guide are Dell-exclusive designs, and pointed XPS-specific buyers to our dedicated Dell XPS guide for narrower, chassis-specific coverage." },
+  { title: "Honest disclosure of universal versus Dell-specific fit", description: "We stated plainly that none of the products in this guide are Dell-exclusive designs, and pointed XPS-specific buyers to our dedicated Dell XPS guide for narrower, chassis-specific coverage." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -291,11 +291,11 @@ export const faq: FaqItem[] = [
   { q: "Do Dell XPS laptops need a different cooling pad than other Dell models?", a: "Potentially, yes. The XPS line is notably thinner than Dell's mainstream and gaming laptops, with different vent placement considerations. Our dedicated Dell XPS guide covers that narrower case in more depth than this general Dell guide." },
   { q: "Will a universal cooling pad work well with my Dell laptop?", a: "For most mainstream Dell laptops, yes, since these pads are sized to a wide dimension range rather than one specific chassis. Match the pad's stated size range to your Dell model and you'll generally get reasonable results." },
   { q: "Do heavier Dell gaming laptops need a stronger cooling pad?", a: "Generally yes. Dell's gaming and workstation-oriented laptops produce more sustained heat than a thin ultrabook, so favor picks with documented RPM or temperature-drop figures rather than a basic low-fan-count pad." },
-  { q: "How do I know if a cooling pad fits my specific Dell laptop size?", a: "Check the pad's stated inch range (for example, 12-17 inches) against your Dell laptop's actual screen size, and confirm the pad's fan and vent placement makes sense for your model's known vent location if that information is available." },
+  { q: "How do I know if a cooling pad fits my specific Dell laptop size?", a: "Check the pad's stated inch range (for example, 12-17 inches) against your Dell laptop's actual screen size, and confirm the pad's fan and vent placement makes sense for your model's known vent location if that information is available." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-cooling-pads-for-dell-xps-laptops", title: "Best Laptop Cooling Pads for Dell XPS Laptops (2026)" },
   { href: "/guide/best-laptop-cooling-pads-for-hp-laptops", title: "Best Laptop Cooling Pads for HP Laptops (2026)" },
-  { href: "/guide/best-gaming-laptop-cooling-pads", title: "Best Gaming Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-gaming-laptop-cooling-pads", title: "Best Gaming Laptop Cooling Pads (2026)" }
 ];

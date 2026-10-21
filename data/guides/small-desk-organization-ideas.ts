@@ -37,11 +37,11 @@ export const products: OrgProduct[] = [
     whyItWorks: [
       "Adds storage without consuming new surface area",
       "Adjustable width fits desks from 30 to 48 inches",
-      "Creates a visual back wall that frames the workspace",
+      "Creates a visual back wall that frames the workspace"
     ],
     tradeoffs: [
       "Adds visual height - can feel cramped in very tight spaces",
-      "Cheaper models wobble under weight",
+      "Cheaper models wobble under weight"
     ],
   },
   {
@@ -56,11 +56,11 @@ export const products: OrgProduct[] = [
     whyItWorks: [
       "Zero desktop footprint",
       "Fully customizable layout with hooks and shelves",
-      "Modular - add or remove hooks as needs change",
+      "Modular - add or remove hooks as needs change"
     ],
     tradeoffs: [
       "Requires wall mounting (screws or heavy-duty adhesive)",
-      "Can look cluttered if overloaded - edit ruthlessly",
+      "Can look cluttered if overloaded - edit ruthlessly"
     ],
   },
   {
@@ -75,11 +75,11 @@ export const products: OrgProduct[] = [
     whyItWorks: [
       "Adds drawer storage to any flat surface",
       "Completely invisible when closed",
-      "No tools required for adhesive models",
+      "No tools required for adhesive models"
     ],
     tradeoffs: [
       "Adhesive can fail on textured wood - screw-in versions are more reliable",
-      "Limited depth means bulkier items won't fit",
+      "Limited depth means bulkier items won't fit"
     ],
   },
   {
@@ -95,11 +95,11 @@ export const products: OrgProduct[] = [
     whyItWorks: [
       "Scales to any height - stack 2, 3, or 4 units",
       "Clear drawers mean no rummaging",
-      "Portable - easy to rearrange or move",
+      "Portable - easy to rearrange or move"
     ],
     tradeoffs: [
       "Plastic construction feels less premium",
-      "Taller stacks become wobbly",
+      "Taller stacks become wobbly"
     ],
   },
   {
@@ -114,11 +114,11 @@ export const products: OrgProduct[] = [
     whyItWorks: [
       "Removes the power strip from your desktop entirely",
       "Hides 6–8 cables in one tray",
-      "Clamp-on design - no permanent modifications",
+      "Clamp-on design - no permanent modifications"
     ],
     tradeoffs: [
       "Installation takes 15–20 minutes",
-      "Desk thickness must be under 1.5 inches for most clamps",
+      "Desk thickness must be under 1.5 inches for most clamps"
     ],
   },
   {
@@ -134,11 +134,11 @@ export const products: OrgProduct[] = [
     whyItWorks: [
       "Small enough to enforce the one-bin rule",
       "Mesh visibility prevents junk-drawer syndrome",
-      "Sub-$20 - low commitment",
+      "Sub-$20 - low commitment"
     ],
     tradeoffs: [
       "Small items (paper clips, pins) fall through mesh gaps",
-      "Not the most aesthetic option for design-conscious setups",
+      "Not the most aesthetic option for design-conscious setups"
     ],
   },
   {
@@ -153,11 +153,11 @@ export const products: OrgProduct[] = [
     whyItWorks: [
       "Looks intentional, not utilitarian",
       "Bamboo is durable and easy to clean",
-      "Natural material blends with most desk setups",
+      "Natural material blends with most desk setups"
     ],
     tradeoffs: [
       "No visibility into contents - you'll forget what's inside",
-      "Bamboo stains if wet items sit in it",
+      "Bamboo stains if wet items sit in it"
     ],
   },
   {
@@ -173,11 +173,11 @@ export const products: OrgProduct[] = [
     whyItWorks: [
       "Dual function: ergonomic lift + hidden storage in one",
       "22-inch width fits desks as narrow as 36 inches",
-      "Drawer keeps small items out of sight but within reach",
+      "Drawer keeps small items out of sight but within reach"
     ],
     tradeoffs: [
       "Fixed height - not adjustable",
-      "Drawer depth is shallow at 1.5 inches",
+      "Drawer depth is shallow at 1.5 inches"
     ],
   },
   {
@@ -193,11 +193,11 @@ export const products: OrgProduct[] = [
     whyItWorks: [
       "Reclaims the full footprint of the monitor stand (8x10 in)",
       "Adjustable height, angle, and distance from the desk",
-      "Works with most VESA-compatible monitors",
+      "Works with most VESA-compatible monitors"
     ],
     tradeoffs: [
       "Not all monitors are VESA-compatible - check first",
-      "Clamp requires a sturdy desk edge (skip for glass desks)",
+      "Clamp requires a sturdy desk edge (skip for glass desks)"
     ],
   },
   {
@@ -212,11 +212,11 @@ export const products: OrgProduct[] = [
     whyItWorks: [
       "Visually marks the active work zone - nothing outside it belongs in Zone 1",
       "Felt side feels premium under hands during extended use",
-      "Cork backing prevents any sliding on smooth desk surfaces",
+      "Cork backing prevents any sliding on smooth desk surfaces"
     ],
     tradeoffs: [
       "Felt collects dust and shows pet hair visibly",
-      "Spills can stain the felt side - not water-resistant",
+      "Spills can stain the felt side - not water-resistant"
     ],
   },
   {
@@ -232,11 +232,11 @@ export const products: OrgProduct[] = [
     whyItWorks: [
       "Forces a limit on paper accumulation",
       "Vertical stacking minimizes surface use",
-      "Clear inbox/outbox system prevents random piles",
+      "Clear inbox/outbox system prevents random piles"
     ],
     tradeoffs: [
       "Standard letter size may not fit desks under 36 inches",
-      "Paper piles up if you don't process regularly",
+      "Paper piles up if you don't process regularly"
     ],
   },
   {
@@ -252,13 +252,13 @@ export const products: OrgProduct[] = [
     whyItWorks: [
       "Keeps multiple paper categories separated without a filing cabinet",
       "Vertical orientation uses minimal surface area",
-      "Works on desk shelf riser or beside the desk",
+      "Works on desk shelf riser or beside the desk"
     ],
     tradeoffs: [
       "Only works if you commit to filing - random papers still pile up",
-      "3–5 slot versions fill quickly for heavy paper users",
+      "3–5 slot versions fill quickly for heavy paper users"
     ],
-  },
+  }
 ];
 
 export const comparisonTable = [
@@ -273,7 +273,7 @@ export const comparisonTable = [
   { name: "Stackable Plastic Drawers", method: 2, score: 8.4, footprint: "Under-desk", price: "$18–$30", id: "stackable-plastic-drawers" },
   { name: "Stackable Letter Trays", method: 6, score: 8.3, footprint: "10×13 in", price: "$15–$22", id: "stackable-letter-trays" },
   { name: "Bamboo Desktop Tray", method: 3, score: 8.3, footprint: "6×8 in", price: "$15–$25", id: "bamboo-desktop-tray" },
-  { name: "Vertical File Sorter", method: 6, score: 8.1, footprint: "5×10 in", price: "$12–$18", id: "vertical-file-sorter" },
+  { name: "Vertical File Sorter", method: 6, score: 8.1, footprint: "5×10 in", price: "$12–$18", id: "vertical-file-sorter" }
 ];
 
 export const checklistPhases = [
@@ -285,7 +285,7 @@ export const checklistPhases = [
       "Sort into Daily / Weekly / Rarely piles",
       "Remove Rarely items from the desk area entirely",
       "Move Weekly items to nearby shelves, closet, or storage bin",
-      "Only Daily items return to the desk",
+      "Only Daily items return to the desk"
     ],
   },
   {
@@ -295,7 +295,7 @@ export const checklistPhases = [
       "Install under-desk cable tray (hides power strip and cables)",
       "Add under-desk drawers if desk has none (adhesive or stackable)",
       "Place monitor riser or mount monitor arm",
-      "Mount pegboard or shelf riser if wall space allows",
+      "Mount pegboard or shelf riser if wall space allows"
     ],
   },
   {
@@ -305,7 +305,7 @@ export const checklistPhases = [
       "Place desk mat to define active work zone",
       "Position one organizer caddy in the supply zone",
       "Return only daily-use items to the desk",
-      "Route all cables through tray or clips",
+      "Route all cables through tray or clips"
     ],
   },
   {
@@ -314,9 +314,9 @@ export const checklistPhases = [
     items: [
       "Set a daily 2-minute end-of-day reset",
       "Review and declutter monthly - remove anything unused in 30 days",
-      "Resist adding new organizers - if you need more storage, declutter first",
+      "Resist adding new organizers - if you need more storage, declutter first"
     ],
-  },
+  }
 ];
 
 export const faq: Array<{ q: string; a: string }> = [
@@ -343,5 +343,5 @@ export const faq: Array<{ q: string; a: string }> = [
   {
     q: "How to organize a small office desk at work?",
     a: "Apply the zone system: active work in the center, one organizer on the side, reference materials above or behind. Add stackable paper trays (inbox/outbox) if your job involves physical documents. Keep personal items to one small area and enforce the one-bin rule for supplies.",
-  },
+  }
 ];

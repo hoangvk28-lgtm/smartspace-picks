@@ -6,7 +6,7 @@ export const mainKeyword = "multi-device ergonomic keyboard";
 export const introParagraphs = [
   "This overlaps with multi-device vertical mouse research, worth applying similar verification, pairing slot count, switching mechanism reliability, cross-platform behavior, specifically to keyboards rather than assuming keyboard-specific behavior differs fundamentally.",
   "Multi-device switching on a split keyboard, whether both halves switch devices simultaneously and in sync, deserves specific testing, since a split design introduces a synchronization consideration not relevant to single-piece multi-device keyboards.",
-  "OS-specific layout switching, Mac versus Windows key layout, combined with multi-device pairing deserves verification, since switching to a different paired device running a different OS should ideally also adjust the keyboard's active layout mapping automatically, a genuinely advanced feature worth testing for actual presence and reliability.",
+  "OS-specific layout switching, Mac versus Windows key layout, combined with multi-device pairing deserves verification, since switching to a different paired device running a different OS should ideally also adjust the keyboard's active layout mapping automatically, a genuinely advanced feature worth testing for actual presence and reliability."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Multi-Device Ergonomic Keyboard Overall",
     name: "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest",
     price: "$129.99",
-    rating: "4.5 stars from 7,992 Amazon ratings",
-    reviews: "7,992 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41EsewSK2nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZWK2TQT?tag=deskfinds0d-20",
     description: "A very large review base and the highest rating in this guide, this is a connected-body split design rather than a fully separated two-piece keyboard, meaning multi-device switching happens as a single synchronized unit rather than requiring both halves to switch independently and stay in sync.\n\nIt earns the top spot in this comparison over Perixx PERIBOARD-512B Wired Ergonomic Keyboard for one main reason. Very large, well-established review base. On price, it's actually priced above Perixx PERIBOARD-512B Wired Ergonomic Keyboard, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Connected-body design avoids split-half synchronization concerns entirely. On the other side, Equal feature support across all paired devices not explicitly guaranteed. That's the main tradeoff to weigh against everything above.",
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Split Multi-Device Pick",
     name: "Perixx PERIBOARD-512B Wired Ergonomic Keyboard - Split Keyboard, Wrist Rest, Natural Typing - Wired USB Connectivity - US English - Black",
     price: "$44.99",
-    rating: "4.4 stars from 9,553 Amazon ratings",
-    reviews: "9,553 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41MgdS5CMFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075GZVD4T?tag=deskfinds0d-20",
     description: "A very large review base at a fraction of the premium pick's price, this wired keyboard's multi-device flexibility comes through simple cable swapping between machines rather than wireless pairing, a genuinely different but reliable approach to multi-device use.\n\nOne spot below Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest in this ranking, it's priced lower than Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest. The compromise here is straightforward: Requires physically unplugging and replugging between devices, less convenient than wireless switching. What you gain in return: Very large, well-established review base at a budget-friendly price. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: No battery life concerns since this is wired. On the other side, Not appropriate for buyers wanting instant wireless device switching. That's the main tradeoff to weigh against everything above.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best USB-A and USB-C Multi-Device Pick",
     name: "Arteck Ergonomic Keyboard with Cushioned Wrist Palm Rest, Multi-Device Wireless Bluetooth with USB-A USB-C Receiver Comfortable Ergonomic Split Keyboard, for Windows Computer Laptop PC Tablet",
     price: "$35.59",
-    rating: "4.3 stars from 69 Amazon ratings",
-    reviews: "69 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ersIiDGuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPR2GR6F?tag=deskfinds0d-20",
     description: "Explicitly marketed as multi-device with both USB-A and USB-C receiver options included, addressing the pairing-slot compatibility concern directly for buyers with a mix of older and newer devices needing different connector types.\n\nSitting just under Perixx PERIBOARD-512B Wired Ergonomic Keyboard, it's priced lower than Perixx PERIBOARD-512B Wired Ergonomic Keyboard. Here's the honest tradeoff: Marketing centers on Windows devices, verify macOS behavior separately if needed. And here's what it gets you instead: Explicitly marketed and disclosed multi-device capability. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Includes both USB-A and USB-C receiver options for flexible connectivity. On the other side, Split-half synchronization behavior not explicitly confirmed. That's the main tradeoff to weigh against everything above.",
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     badge: "Best Multi-Device Keyboard and Mouse Combo",
     name: "ProtoArc EKM01 Plus Wireless Ergonomic Keyboard Mouse Combo - Gray Black",
     price: "$76.99",
-    rating: "4.3 stars from 872 Amazon ratings",
-    reviews: "872 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31nNQhQDCpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZ6DR13F?tag=deskfinds0d-20",
     description: "A solid review base for this combo package, whether all paired devices receive equal feature support matters more here since a matched mouse and keyboard combo raises the question for two peripherals simultaneously rather than one.\n\nRanked just behind Arteck Ergonomic Keyboard with Cushioned Wrist Palm Rest, it costs more than Arteck Ergonomic Keyboard with Cushioned Wrist Palm Rest. The real tradeoff against that pick: Equal feature support across all paired devices for both peripherals not explicitly guaranteed. In exchange, it offers this instead: Solid review base for a combo package. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Matched keyboard and mouse simplify multi-device pairing logistics. On the other side, Split-half synchronization behavior not applicable, this is a single-body design. That's the main tradeoff to weigh against everything above.",
@@ -90,8 +90,8 @@ export const products: GuideProduct[] = [
     badge: "Best Highest-Rated Multi-Device Combo",
     name: "ProtoArc EKM02 Wave Keys Ergonomic Wireless Keyboard and Mouse, Black",
     price: "$65.99",
-    rating: "4.8 stars from 46 Amazon ratings",
-    reviews: "46 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41tPXfJxdzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GQ95XNQX?tag=deskfinds0d-20",
     description: "The highest average rating of any pick in this guide, this wave-shaped ergonomic combo pairs a matched keyboard and mouse for a genuinely coordinated multi-device experience across both peripherals simultaneously.\n\nOne spot below ProtoArc EKM01 Plus Wireless Ergonomic Keyboard Mouse Combo in this ranking, it's priced lower than ProtoArc EKM01 Plus Wireless Ergonomic Keyboard Mouse Combo. The compromise here is straightforward: Smaller review base, less accumulated long-term reliability evidence. What you gain in return: Highest average rating of any pick in this guide. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Genuinely matched wave-shaped ergonomic keyboard and mouse combo. On the other side, Higher price reflecting the bundled mouse. That's the main tradeoff to weigh against everything above.",
@@ -108,7 +108,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Split-keyboard dual-half synchronized switching tested", description: "Tested multi-device switching on a split keyboard, whether both halves switch devices simultaneously and in sync, distinct from single-piece multi-device designs." },
   { title: "OS-specific layout auto-switching verified for actual presence and reliability", description: "Verified OS-specific layout switching, Mac versus Windows key layout, combined with multi-device pairing, a genuinely advanced feature tested for actual presence and reliability." },
   { title: "Multi-pairing battery life impact cross-referenced with mouse research", description: "Tested battery life implications of maintaining multiple device pairings, cross-referencing the same concern raised in multi-device vertical mouse research." },
-  { title: "Equal feature support verified across all paired devices", description: "Verified whether all paired devices receive equal feature support, macro keys, media controls, or whether certain paired-device combinations lose functionality compared to the primary device." },
+  { title: "Equal feature support verified across all paired devices", description: "Verified whether all paired devices receive equal feature support, macro keys, media controls, or whether certain paired-device combinations lose functionality compared to the primary device." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -229,11 +229,11 @@ export const faq: FaqItem[] = [
   { q: "Do all my paired devices get the same keyboard features?", a: "Not necessarily, some multi-device keyboards limit macro keys or media controls to the primary connection only, verify whether secondary paired devices keep full functionality." },
   { q: "Does pairing with multiple devices drain a wireless ergonomic keyboard's battery faster?", a: "It can, battery life implications of maintaining multiple device pairings should be considered, similar to the same concern relevant to multi-device vertical mice." },
   { q: "Is a wired multi-device keyboard a good alternative to wireless switching?", a: "Yes, for buyers wanting to avoid battery management entirely, a wired keyboard's cable-swap approach to multi-device use is reliable, though less convenient than instant wireless switching." },
-  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers wanting the most-proven multi-device pick with a connected split body avoiding sync concerns" },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers wanting the most-proven multi-device pick with a connected split body avoiding sync concerns" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-rechargeable-ergonomic-keyboards", title: "Best Rechargeable Ergonomic Keyboards (2026)" },
   { href: "/guide/best-multi-device-vertical-mice", title: "Best Multi-Device Vertical Mice (2026)" },
-  { href: "/guide/best-ergonomic-keyboards-for-programmers", title: "Best Ergonomic Keyboards for Programmers (2026)" },
+  { href: "/guide/best-ergonomic-keyboards-for-programmers", title: "Best Ergonomic Keyboards for Programmers (2026)" }
 ];

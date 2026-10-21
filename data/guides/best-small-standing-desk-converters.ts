@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small standing desk converter";
 export const introParagraphs = [
   "We defined \"small\" as under 30 inches in platform width, a tighter threshold than our compact converter guide, to keep this page distinct rather than duplicating that broader comparison.",
-  "Every pick here still needs to fit a genuinely usable single monitor or laptop setup with keyboard and mouse space, not just a tiny platform that technically qualifies as small.",
+  "Every pick here still needs to fit a genuinely usable single monitor or laptop setup with keyboard and mouse space, not just a tiny platform that technically qualifies as small."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Defined \"small\" as a stricter threshold than our compact guide", description: "We set a maximum 30 inch width for this comparison specifically, to keep it distinct from our broader compact converter guide." },
   { title: "Required genuine usability for a single monitor or laptop, not just a tiny platform", description: "Every pick here still fits a realistic single-device setup with keyboard and mouse space, not simply the smallest technically-qualifying platform." },
   { title: "Prioritized products explicitly labeled \"small\" in the listing", description: "One pick specifically uses this word directly, which we treated as a genuine confirmation signal alongside the measured dimensions." },
-  { title: "Flagged where exact width wasn't confirmed against our specific threshold", description: "For one pick, we noted that exact dimensions need verification directly on the listing to confirm it qualifies as small under our definition." },
+  { title: "Flagged where exact width wasn't confirmed against our specific threshold", description: "For one pick, we noted that exact dimensions need verification directly on the listing to confirm it qualifies as small under our definition." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -238,20 +238,21 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
 export const faq: FaqItem[] = [
   { q: "What counts as a \"small\" standing desk converter?", a: "We defined this as under 30 inches in platform width, a stricter threshold than our broader compact converter guide." },
-  { q: "Which small converter has the most reviews?", a: "The VIVO Black 26 in Standing Desk Converter, with 15,583 reviews." },
+  
   { q: "What's the smallest platform in this comparison?", a: "The Amazer 22 inch Standing Desk Converter, Bamboo Desk Riser, at 22 inches." },
   { q: "Is there a converter explicitly labeled small?", a: "Yes, the VIVO Black Small Single Top 28 inch Standing Desk Converter uses this word directly in its name." },
   { q: "Should I check the compact guide instead?", a: "If a 26-29 inch platform feels too tight, our compact standing desk converter guide covers a somewhat broader range." },
+  { q: "Does a smaller platform limit my monitor choice?", a: "Yes, a narrow platform leaves little room for a large monitor and a keyboard side by side. The Amazer 22 inch riser works best with a laptop, while the 28 and 29 inch VIVO tops handle a small monitor more comfortably. Compare platform width to your monitor base before buying." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-compact-standing-desk-converters", title: "Best Compact Standing Desk Converters (2026)" },
   { href: "/guide/best-narrow-standing-desk-converters", title: "Best Narrow Standing Desk Converters (2026)" },
-  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
+  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" }
 ];

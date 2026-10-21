@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "non-ticking desk clock";
 export const introParagraphs = [
   "\"Non-ticking\" describes a clock's second-hand mechanism: a sweep movement glides smoothly instead of stepping audibly once per second. This is the same underlying search intent as \"silent desk clock,\" our best-silent-desk-clocks guide, just framed around the mechanism instead of the marketing word. We're covering the same product pool here with the emphasis on what physically causes tick noise, so you know exactly what to check on any future listing.",
-  "Only one clock in our verified pool explicitly advertises a non-ticking sweep movement. We're rounding this list out with two LED digital clocks that avoid the problem entirely by having no hands to move at all, a genuinely quiet alternative if you're open to a digital display instead of an analog dial.",
+  "Only one clock in our verified pool explicitly advertises a non-ticking sweep movement. We're rounding this list out with two LED digital clocks that avoid the problem entirely by having no hands to move at all, a genuinely quiet alternative if you're open to a digital display instead of an analog dial."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "6 min";
@@ -75,7 +75,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified the mechanical cause of ticking, not just the marketing claim", description: "Confirmed which pick uses a genuine sweep movement versus a stepping mechanism, since that distinction is the actual physical source of tick noise." },
   { title: "Included digital alternatives that sidestep the issue structurally", description: "Added LED clocks with no moving hands at all as a guaranteed-silent alternative for buyers open to a digital display." },
   { title: "Checked display glow for dark-room suitability", description: "Considered whether brightness or dimmer controls matter for a fully dark, quiet room, since a bright display is its own kind of desk distraction." },
-  { title: "Cross-checked against the silent desk clocks guide", description: "Confirmed this guide and its near-duplicate sibling share a product pool without repeating identical prose or rankings." },
+  { title: "Cross-checked against the silent desk clocks guide", description: "Confirmed this guide and its near-duplicate sibling share a product pool without repeating identical prose or rankings." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -209,11 +209,11 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "What's the difference between a stepping and sweep movement?", a: "A stepping movement advances the second hand once per second with an audible click. A sweep movement glides continuously and produces no ticking sound." },
   { q: "Is a non-ticking clock the same as a silent clock?", a: "Yes, it's the same search intent. Our best-silent-desk-clocks guide covers the same product pool with a slightly different framing." },
-  { q: "Do digital clocks ever tick?", a: "No. LED digital clocks have no moving hands, so there's no mechanism that could produce a ticking sound in the first place." },
+  { q: "Do digital clocks ever tick?", a: "No. LED digital clocks have no moving hands, so there's no mechanism that could produce a ticking sound in the first place." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-silent-desk-clocks", title: "Best Silent Desk Clocks (2026)" },
   { href: "/guide/best-minimalist-desk-clocks", title: "Best Minimalist Desk Clocks (2026)" },
-  { href: "/guide/best-led-desk-clocks", title: "Best LED Desk Clocks (2026)" },
+  { href: "/guide/best-led-desk-clocks", title: "Best LED Desk Clocks (2026)" }
 ];

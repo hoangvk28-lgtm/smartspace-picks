@@ -12,7 +12,7 @@ export const framedVsFramelessDeskArtGuide: Guide = {
     "canvas print vs framed art",
     "frameless wall art durability",
     "cost of framing artwork",
-    "desk wall art presentation options",
+    "desk wall art presentation options"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const framedVsFramelessDeskArtGuide: Guide = {
     "wall-art-hanging-height-explained",
     "desk-decor-clutter-balance",
     "desk-accent-color-explained",
-    "shelf-weight-capacity-explained",
+    "shelf-weight-capacity-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const framedVsFramelessDeskArtGuide: Guide = {
       question: "Can I switch a frameless print to a framed one later if I change my mind?",
       answer:
         "Yes, some prints (though not stretched canvas) can be reframed later, adding a frame after the fact, if you think you might want to change presentation style down the road, choosing a flat print over stretched canvas keeps this option open.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const framedVsFramelessDeskArtGuide: Guide = {
     {
       heading: "Why Surface Protection Matters More in Some Desk Environments Than Others",
       body: `An exposed canvas or unframed print sitting directly above a desk area is more vulnerable to dust accumulation, occasional accidental contact, or humidity effects over time compared to a framed piece with protective glazing, this matters more in a desk area with more foot traffic, potential contact, or environmental exposure, while a piece in a quieter, more protected corner of a private office faces less practical risk regardless of framing choice, weigh this environmental factor alongside your budget and aesthetic preference when deciding.`,
-    },
+    }
   ],
 };

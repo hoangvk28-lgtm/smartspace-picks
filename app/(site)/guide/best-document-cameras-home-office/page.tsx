@@ -187,7 +187,7 @@ export default async function BestDocumentCamerasPage() {
     about: [
       { "@type": "Thing", name: "Document Camera" },
       { "@type": "Thing", name: "Home Office Camera" },
-      { "@type": "Thing", name: "Teaching Camera" },
+      { "@type": "Thing", name: "Teaching Camera" }
     ],
   };
 
@@ -207,7 +207,7 @@ export default async function BestDocumentCamerasPage() {
         position: 3,
         name: "Best Document Cameras for Home Office and Teaching",
         item: `${SITE_URL}/guide/best-document-cameras-home-office`,
-      },
+      }
     ],
   };
 
@@ -496,7 +496,7 @@ export default async function BestDocumentCamerasPage() {
                       situation: "Project to classroom screen",
                       webcam: "No",
                       docCam: "Yes - with HDMI models",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr
                       key={i}
@@ -572,7 +572,7 @@ export default async function BestDocumentCamerasPage() {
                       res: "4K wide-angle",
                       use: "Full open textbooks, large reference materials",
                       picks: "V4K PRO 120",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr
                       key={i}
@@ -614,7 +614,7 @@ export default async function BestDocumentCamerasPage() {
                   title: "Demonstrating a physical product or hardware",
                   desc:
                     "INSWAN INS-3 detachable design lets you hold the camera and orbit around the object. Standard overhead cameras are limited to top-down view only.",
-                },
+                }
               ].map((item, i) => (
                 <div
                   key={i}
@@ -711,7 +711,7 @@ export default async function BestDocumentCamerasPage() {
                 id: "ipevo-vzr-ultra",
                 name: "IPEVO VZ-R Ultra",
                 verdict: ", 13MP, HDMI direct-to-projector, USB mode also included.",
-              },
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

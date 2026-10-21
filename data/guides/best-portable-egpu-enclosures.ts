@@ -113,16 +113,16 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $149.99",
+          "Under $150",
           "Mini eGPU Enclosure Thunderbolt 3/4"
         ],
         [
-          "Around $189.50",
+          "Under $190",
           "TREBLEET 80Gbps eGPU Enclosure"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [

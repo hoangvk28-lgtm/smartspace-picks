@@ -12,7 +12,7 @@ export const standingDeskShoesExplainedGuide: Guide = {
     "best shoes for standing desk",
     "barefoot vs shoes standing desk",
     "supportive shoes office standing",
-    "standing desk foot pain shoes",
+    "standing desk foot pain shoes"
   ],
   heroImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const standingDeskShoesExplainedGuide: Guide = {
     "standing-desk-footrest-explained",
     "balance-board-vs-anti-fatigue-mat",
     "anti-fatigue-mat-explained",
-    "standing-desk-height-chart",
+    "standing-desk-height-chart"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const standingDeskShoesExplainedGuide: Guide = {
       question: "Can the wrong footwear undermine other standing desk fatigue-reduction efforts?",
       answer:
         "Yes, even with a quality anti-fatigue mat and proper desk height, unsupportive footwear can still be a significant source of discomfort, footwear is a genuinely separate factor from desk ergonomics that deserves its own consideration rather than being overlooked.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const standingDeskShoesExplainedGuide: Guide = {
     {
       heading: "Why Individual Preference Genuinely Matters for the Barefoot Question",
       body: `Whether barefoot or sock-only standing feels better than wearing shoes varies substantially between individuals, some people have foot structures or existing conditions that genuinely benefit from a shoe's structured arch support and cushioning, while others find going barefoot on a quality anti-fatigue mat comfortable and even prefer the more natural foot engagement, there's no universally correct answer here, experimenting with both approaches during your own standing desk sessions and paying attention to how your feet and legs actually feel afterward provides more useful guidance than a generic recommendation either way.`,
-    },
+    }
   ],
 };

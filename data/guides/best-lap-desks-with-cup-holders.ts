@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "lap desks with cup holders";
 export const introParagraphs = [
   "This is a genuinely different product category from a desk-mounted cup holder: a lap desk balanced on your legs, with an integrated cup holder built into its surface rather than clamped to anything. Stability physics differ meaningfully here, since the whole platform can shift with body movement rather than staying fixed to a desk edge.",
-  "We treated spill risk during lap use as more consequential than a desk spill, since it lands directly on your lap and clothing rather than a desk surface, and weighed combined weight distribution and balance for realistic use with a laptop plus a drink.",
+  "We treated spill risk during lap use as more consequential than a desk spill, since it lands directly on your lap and clothing rather than a desk surface, and weighed combined weight distribution and balance for realistic use with a laptop plus a drink."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -104,7 +104,7 @@ export const products: GuideProduct[] = [
     pros: ["Legged design reduces spill risk on soft surfaces", "USB charging included", "Height adjustable", "Solid review count"],
     cons: ["Less portable than a flat lap-only design", "Legs may not adjust well to very soft mattresses", "Bulkier for storage"],
     bestFor: "Buyers who primarily use their lap desk in bed and want a more stable legged base.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Stability during lap use", description: "We prioritized picks with strong review histories as evidence of genuine stability under the shifting balance physics of lap use, distinct from a fixed desk-clamped holder." },
   { title: "Elevated spill-consequence stakes", description: "We weighted spill risk more heavily than a desk cup holder, since a lap spill lands directly on the user's clothing rather than a desk surface." },
   { title: "Combined weight distribution and balance", description: "We considered the platform's overall stability with a laptop and a filled cup both in place simultaneously, not just the cup holder feature in isolation." },
-  { title: "Cross-category overlap with bed/lap laptop desk research", description: "We cross-referenced our broader lap desk research for buyers whose actual need might be better served by a similar product without the cup holder feature." },
+  { title: "Cross-category overlap with bed/lap laptop desk research", description: "We cross-referenced our broader lap desk research for buyers whose actual need might be better served by a similar product without the cup holder feature." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -240,11 +240,11 @@ export const faq: FaqItem[] = [
   { q: "Is a spill more consequential with a lap desk?", a: "Yes, a lap spill lands directly on your clothing and potentially your laptop, a more consequential outcome than a desk spill landing on a desk surface." },
   { q: "Should I get a legged lap desk for bed use?", a: "It's generally more stable than a flat lap-only design on a soft mattress surface, since the legs provide an independent stable base rather than relying entirely on your body staying still." },
   { q: "Can I use these lap desks on a couch as well as in bed?", a: "Yes, all five picks work on a couch, bed, or simply seated in a chair, though a legged design is most advantageous specifically on a soft, uneven surface." },
-  { q: "Which pick has the deepest, most protective cup holder?", a: "None of these lap desks disclose a specifically deep cavity cup holder like our dedicated desk cup holder picks. Most use a simple cutout design, so treat spill protection as more limited than a dedicated deep-cavity desk holder." },
+  { q: "Which pick has the deepest, most protective cup holder?", a: "None of these lap desks disclose a specifically deep cavity cup holder like our dedicated desk cup holder picks. Most use a simple cutout design, so treat spill protection as more limited than a dedicated deep-cavity desk holder." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-lap-desks-with-cup-holders-and-usb-ports", title: "Best Lap Desks with Cup Holders and USB Ports (2026)" },
   { href: "/guide/best-laptop-cooling-pads-for-bed-use", title: "Best Laptop Cooling Pads for Bed Use (2026)" },
-  { href: "/guide/best-desk-cup-holders", title: "Best Desk Cup Holders (2026)" },
+  { href: "/guide/best-desk-cup-holders", title: "Best Desk Cup Holders (2026)" }
 ];

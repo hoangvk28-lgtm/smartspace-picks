@@ -2,11 +2,11 @@ export const guideSlug = "best-nightstand-white";
 export const guideTitle = "8 Best White Nightstands in 2026";
 export const metaTitle = "Best White Nightstands in 2026 (LED, Certified & Budget Picks)";
 export const metaDescription =
-  "8 best white nightstands in 2026, from a $21.99 budget pick to a certified LED charging model. Compare height, ports, and design across every style.";
+  "8 best white nightstands in 2026, from an under-$25 budget pick to a certified LED charging model. Compare height, ports, and design across every style.";
 export const mainKeyword = "nightstand white";
 export const introParagraphs = [
   "A white nightstand is one of the easiest pieces to match to a bedroom, but the finish alone doesn't tell you whether the unit is tall enough for your bed, safe to plug a charger into overnight, or sturdy enough for real books instead of light decor. Height, certification, and charging port type vary a lot across white nightstands that otherwise look similar in photos.",
-  "Below are 8 white nightstands we evaluated on height range, drawer capacity, charging port quality, and design details, ranging from a $21.99 no-frills pick to a $65.54 design-forward model with solid pine legs.",
+  "Below are 8 white nightstands we evaluated on height range, drawer capacity, charging port quality, and design details, ranging from an under-$25 no-frills pick to an under-$70 design-forward model with solid pine legs."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -70,18 +70,18 @@ export const products: GuideProduct[] = [
       "Metal frame + engineered wood",
       "2 fabric drawers",
       "No charging ports",
-      "Water-resistant top, arch handles, end-stop design, 44 lb capacity",
+      "Water-resistant top, arch handles, end-stop design, 44 lb capacity"
     ],
     pros: [
       "Cheapest pick in this list",
       "End-stop design prevents drawers pulling all the way out",
       "Water-resistant top",
-      "Fast ~15-minute assembly",
+      "Fast ~15-minute assembly"
     ],
     cons: [
       "No charging ports at all",
       "20\" height suits only low platform beds",
-      "44 lb capacity is on the lower end",
+      "44 lb capacity is on the lower end"
     ],
     bestFor: "Budget-conscious buyers who don't need charging features",
   },
@@ -102,18 +102,18 @@ export const products: GuideProduct[] = [
       "MDF + steel frame",
       "3 removable, foldable fabric drawers",
       "No charging ports",
-      "Water-resistant wooden top, multipurpose as a slim dresser",
+      "Water-resistant wooden top, multipurpose as a slim dresser"
     ],
     pros: [
       "Best-selling pick in this list",
       "Tallest pick, suits raised beds",
       "Removable, foldable drawers for easy cleaning",
-      "Multipurpose as a slim dresser",
+      "Multipurpose as a slim dresser"
     ],
     cons: [
       "No charging ports at all",
       "29.5\" height too tall for low platform beds",
-      "MDF and steel construction, not solid wood",
+      "MDF and steel construction, not solid wood"
     ],
     bestFor: "Buyers with a raised bed who want the most proven pick and no charging",
   },
@@ -134,18 +134,18 @@ export const products: GuideProduct[] = [
       "Metal + engineered wood + MDF",
       "2 fabric drawers",
       "2 AC + 2 USB",
-      "LED with 20+ DIY colors, removable wooden handles, adjustable feet",
+      "LED with 20+ DIY colors, removable wooden handles, adjustable feet"
     ],
     pros: [
       "Only pick with removable wooden handles",
       "20+ DIY color LED options",
       "Adjustable feet for uneven floors",
-      "Includes USB-C alongside standard ports",
+      "Includes USB-C alongside standard ports"
     ],
     cons: [
       "No electrical safety certification listed",
       "23.6\" height suits lower to mid-height beds",
-      "Mixed material build, not solid wood",
+      "Mixed material build, not solid wood"
     ],
     bestFor: "Buyers who want a customizable look with swappable handles",
   },
@@ -166,18 +166,18 @@ export const products: GuideProduct[] = [
       "Particleboard + steel + PVC leather",
       "2 drawers",
       "2 AC + 2 USB-A + 1 USB-C (5 ports, most in this list)",
-      "App-controlled LED music sync, anti-tip kit, 66 lb capacity",
+      "App-controlled LED music sync, anti-tip kit, 66 lb capacity"
     ],
     pros: [
       "Most charging ports in this list at 5 total",
       "Solid 66 lb capacity rating",
       "App-controlled LED with music sync",
-      "Anti-tip kit included",
+      "Anti-tip kit included"
     ],
     cons: [
       "No electrical safety certification listed",
       "Smaller review sample than the best-selling picks",
-      "PVC leather finish shows wear differently than wood",
+      "PVC leather finish shows wear differently than wood"
     ],
     bestFor: "Buyers who want the most charging ports available in white",
   },
@@ -198,18 +198,17 @@ export const products: GuideProduct[] = [
       "E1 MDF + powder-coated steel",
       "2 fabric drawers",
       "2 AC + 1 USB-A + 1 USB-C",
-      "LED voice/app/timer/music sync, FSC certified, lead-free coating",
+      "LED voice/app/timer/music sync, FSC certified, lead-free coating"
     ],
     pros: [
       "FSC certified with lead-free coating, most eco-certified pick here",
       "Advanced LED control: voice, app, timer, music sync",
-      "Includes USB-C alongside USB-A",
-      "Strong review base at 1,923 ratings",
+      "Includes USB-C alongside USB-A"
     ],
     cons: [
       "FSC certification covers material sourcing, not electrical safety",
       "23.6\" height suits lower to mid-height beds",
-      "MDF construction, not solid wood",
+      "MDF construction, not solid wood"
     ],
     bestFor: "Buyers who want responsibly sourced materials with advanced LED control",
   },
@@ -224,24 +223,24 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ApseNQRQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLNZFYMN?tag=deskfinds0d-20",
     description:
-      "The Yoobure is the only pick in this list with FCC and ETL certification on its charging components, the kind of tested overcurrent and short-circuit protection worth prioritizing on any nightstand you plan to charge a phone on overnight. A solid wood frame and engineered wood construction are reinforced by an X-bar support frame.\n\nIt adds 16 RGB colors and 22 lighting modes controllable by app or remote, along with 2 AC outlets and 2 USB ports, and it ties for the highest rating in this list at 4.5 stars.\n\nWorth calling out specifically: 16 RGB colors and 22 lighting modes. The catch is smaller review sample than the best-selling picks.",
+      "The Yoobure is the only pick in this list with FCC and ETL certification on its charging components, the kind of tested overcurrent and short-circuit protection worth prioritizing on any nightstand you plan to charge a phone on overnight. A solid wood frame and engineered wood construction are reinforced by an X-bar support frame.\n\nWorth calling out specifically: 16 RGB colors and 22 lighting modes. The catch is smaller review sample than the best-selling picks.",
     specs: [
       "15.4\"W x 11.8\"D x 25.6\"H",
       "Solid wood frame + engineered wood",
       "3 fabric drawers",
       "2 USB + 2 AC",
-      "16 RGB colors, 22 modes, FCC & ETL certified, X-bar support frame",
+      "16 RGB colors, 22 modes, FCC & ETL certified, X-bar support frame"
     ],
     pros: [
       "Only FCC & ETL certified pick in this list",
       "16 RGB colors and 22 lighting modes",
       "X-bar frame adds structural stability",
-      "Ties for the highest rating in this list",
+      "Ties for the highest rating in this list"
     ],
     cons: [
       "Smaller review sample than the best-selling picks",
       "25.6\" height suits lower to mid-height beds",
-      "Priciest pick alongside the JOONEE",
+      "Priciest pick alongside the JOONEE"
     ],
     bestFor: "Buyers who want a certified, tested electrical charging nightstand in white",
   },
@@ -262,18 +261,18 @@ export const products: GuideProduct[] = [
       "MDF + steel",
       "2 fabric drawers",
       "3 USB ports (2 front + 1 back LED) + 2 AC",
-      "RGB LED via iStrip+ app, waterproof top, 55 lb capacity",
+      "RGB LED via iStrip+ app, waterproof top, 55 lb capacity"
     ],
     pros: [
       "55 lb capacity, second-highest in this list",
       "Ties for the most USB ports at 3 total",
       "Waterproof top surface",
-      "App-controlled RGB LED",
+      "App-controlled RGB LED"
     ],
     cons: [
       "No electrical safety certification listed",
       "Priced at the higher end of this list",
-      "Smaller review sample than the top sellers",
+      "Smaller review sample than the top sellers"
     ],
     bestFor: "Buyers who want the highest weight capacity plus the most USB ports",
   },
@@ -294,21 +293,21 @@ export const products: GuideProduct[] = [
       "MDF + solid pine legs",
       "2 drawers + charging station + open shelf",
       "Charging station included",
-      "LED atmosphere lighting, vertical textured paint, anti-slip rubber pads",
+      "LED atmosphere lighting, vertical textured paint, anti-slip rubber pads"
     ],
     pros: [
       "Only pick with genuine solid pine wood legs",
       "Most unique, design-forward look in this list",
       "Combines drawers, open shelf, and charging station",
-      "Anti-slip rubber base pads",
+      "Anti-slip rubber base pads"
     ],
     cons: [
       "Most expensive pick in this list",
       "No electrical safety certification listed",
-      "Textured paint finish needs gentler cleaning than smooth surfaces",
+      "Textured paint finish needs gentler cleaning than smooth surfaces"
     ],
     bestFor: "Buyers who want the most premium, design-forward white nightstand",
-  },
+  }
 ];
 
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
@@ -336,7 +335,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Design and finish quality",
     description:
       "Looked at handle design, textured finishes, and leg material, since a white nightstand's finish quality is more visible and more prone to showing scuffs than darker finishes.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -482,11 +481,11 @@ export const faq: FaqItem[] = [
   {
     q: "How much weight can a white nightstand hold?",
     a: "It varies heavily by material. Plain particleboard or MDF units typically cap out around 30-44 lbs, while steel-reinforced units rate higher. The SONGMICS BELLAH rates highest in this list at 66 lbs, followed by the WLIVE White LED at 55 lbs.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-nightstand-2-drawer", title: "Best 2-Drawer Nightstands (2026)" },
   { href: "/guide/best-nightstand-3-drawer", title: "Best 3-Drawer Nightstands (2026)" },
-  { href: "/guide/best-charging-stations-for-bedside-table", title: "Best Charging Stations for a Bedside Table (2026)" },
+  { href: "/guide/best-charging-stations-for-bedside-table", title: "Best Charging Stations for a Bedside Table (2026)" }
 ];

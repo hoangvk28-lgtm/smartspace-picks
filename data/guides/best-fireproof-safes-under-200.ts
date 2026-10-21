@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $94.99",
+          "Under $100",
           "1.8 Cu Ft Small Fireproof Safe for Home Use"
         ],
         [
-          "Around $99.99",
+          "Under $100",
           "Mitlvge 3.2 Cu Ft Fireproof Safe Box with Digital Keypad"
         ],
         [
-          "Around $99.99",
+          "Under $100",
           "2.0 Cu Ft Large Fireproof Safe with Combination Lock"
         ],
         [
-          "Around $107.99",
+          "Under $110",
           "3.4 Cu Ft Digital Home Safe with Programmable Keypad"
         ],
         [
-          "Around $119.49",
+          "Under $120",
           "1.3 Cu Ft Fireproof Safe"
         ],
         [
-          "Around $127.48",
+          "Under $130",
           "DAYI 2.0 Cu Ft Home Safe with Fireproof/Waterproof Bag"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "2.0 Cu Ft Fireproof Safe Box"
         ],
         [
-          "Around $286.99",
+          "Under $300",
           "TIGERKING 3.47 Cu Ft Fireproof Safe for Home & Office"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Not exactly. Fire insulation, shelving, and door hardware all take up interior volume, so the nominal cubic-foot figure is always somewhat larger than what you can actually pack inside. Check interior dimensions and shelf layout, not just the headline capacity number."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "DAYI 2.0 Cu Ft Home Safe with Fireproof/Waterproof Bag is aimed at buyers prioritizing 2.0 cu ft, 4x 1.2in live-locking bolts." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "DAYI 2.0 Cu Ft Home Safe with Fireproof/Waterproof Bag is aimed at buyers prioritizing 2.0 cu ft, 4x 1.2in live-locking bolts." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-fireproof-safes-under-100","title":"Best Fireproof Safes Under $100 in 2026"},{"href":"/guide/best-fireproof-safes-under-300","title":"Best Fireproof Safes Under $300 in 2026"},{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"}];

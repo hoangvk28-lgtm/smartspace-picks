@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "easy to use printer";
 export const introParagraphs = [
   "Easy to use is not one thing, it breaks down into easy setup, easy daily use, easy maintenance like ink changes and jam clearing, and easy troubleshooting when something goes wrong. A printer can nail one of these and fail badly at another, a simple setup wizard doesn't help if clearing a jam six months later requires reaching into an awkward gap.",
-  "Below are 8 printers we evaluated across all four dimensions of ease of use, setup friction, daily operation, maintenance simplicity, and troubleshooting clarity, ranging from a $59 basic inkjet to a $139 all-in-one with a fuller feature set.",
+  "Below are 8 printers we evaluated across all four dimensions of ease of use, setup friction, daily operation, maintenance simplicity, and troubleshooting clarity, ranging from a $59 basic inkjet to a $139 all-in-one with a fuller feature set."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "9 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "3-month Instant Ink trial included",
       "Simple wireless setup flow",
       "Clearly labeled cartridge access door",
-      "Compact, budget-friendly design",
+      "Compact, budget-friendly design"
     ],
     pros: [
       "Simple setup flow suited to first-time or non-tech users",
       "Quick cartridge swaps with clear access door",
       "Low price removes pressure to get every feature right",
-      "Instant Ink trial simplifies early ink purchasing",
+      "Instant Ink trial simplifies early ink purchasing"
     ],
     cons: [
       "Not built for high daily volume",
       "Cartridge costs return to normal after the trial",
-      "No automatic document feeder",
+      "No automatic document feeder"
     ],
     bestFor: "First-time printer buyers or non-tech users wanting the simplest setup",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Copier/scanner built in",
       "Compact single-tray design",
       "Easy setup, 1-year limited warranty",
-      "Mobile app printing support",
+      "Mobile app printing support"
     ],
     pros: [
       "Simple single-tray daily operation",
       "Duplex printing without manual flipping",
       "Straightforward mobile app setup",
-      "Compact footprint",
+      "Compact footprint"
     ],
     cons: [
       "No automatic document feeder",
       "Cartridge-based ink costs more at higher volume",
-      "Limited to Letter/A4 paper size",
+      "Limited to Letter/A4 paper size"
     ],
     bestFor: "Buyers who want the simplest possible daily print routine",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Built-in copier and scanner",
       "1.42-inch OLED display with clear status messages",
       "Intuitive control panel",
-      "Compact design",
+      "Compact design"
     ],
     pros: [
       "OLED display gives clear, readable error messages",
       "Intuitive control panel for common tasks",
       "Duplex printing built in",
-      "Compact footprint",
+      "Compact footprint"
     ],
     cons: [
       "Cartridge ink costs more at high volume",
       "No automatic document feeder",
-      "Ink can dry out with infrequent use",
+      "Ink can dry out with infrequent use"
     ],
     bestFor: "Buyers who want clear on-screen guidance when troubleshooting an issue",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Mobile printing support",
       "Built-in fax (legacy feature)",
       "Wireless connectivity",
-      "Compact home printer design",
+      "Compact home printer design"
     ],
     pros: [
       "Automatic document feeder simplifies multi-page scanning",
       "Guided mobile printing setup",
       "Affordable price",
-      "Simple daily operation",
+      "Simple daily operation"
     ],
     cons: [
       "Cartridge-based ink costs more at high volume",
       "Fax feature adds a menu option most won't use",
-      "Not built for sustained high-volume printing",
+      "Not built for sustained high-volume printing"
     ],
     bestFor: "Buyers who scan documents regularly and want that task simplified",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Mobile printing support",
       "Built-in fax (legacy feature)",
       "Wireless connectivity",
-      "Compact home printer design",
+      "Compact home printer design"
     ],
     pros: [
       "Same easy setup as the white TR4720",
       "Automatic document feeder included",
       "Affordable price",
-      "Simple daily operation",
+      "Simple daily operation"
     ],
     cons: [
       "Cartridge-based ink costs more at high volume",
       "Fax feature adds an unused menu option for most",
-      "Not built for sustained high-volume printing",
+      "Not built for sustained high-volume printing"
     ],
     bestFor: "Buyers who want the TR4720's easy setup in a black finish",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Basic home printing design",
       "Wireless connectivity",
       "Compact and low-cost",
-      "No automatic document feeder or fax",
+      "No automatic document feeder or fax"
     ],
     pros: [
       "Fewest features means fewest things to configure",
       "Lowest price in this list",
       "Simple, minimal button layout",
-      "Compact footprint",
+      "Compact footprint"
     ],
     cons: [
       "No automatic document feeder",
       "No fax",
-      "Not built for sustained daily high-volume printing",
+      "Not built for sustained daily high-volume printing"
     ],
     bestFor: "Buyers who want the fewest possible settings and buttons to deal with",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Mobile and tablet printing emphasis",
       "Wireless connectivity",
       "App-based daily interaction model",
-      "Cartridge-based ink system",
+      "Cartridge-based ink system"
     ],
     pros: [
       "Strong mobile app-first experience",
       "Simple guided app pairing at setup",
       "Good fit for buyers comfortable with app-based control",
-      "Reliable wireless setup",
+      "Reliable wireless setup"
     ],
     cons: [
       "Relies on the companion app staying well-maintained",
       "No automatic document feeder",
-      "Higher price than the more basic Canon picks in this list",
+      "Higher price than the more basic Canon picks in this list"
     ],
     bestFor: "Buyers who want to manage their printer primarily through a mobile app",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Simple wireless setup flow",
       "Clearly labeled button layout",
       "Compact design",
-      "Cartridge-based ink system",
+      "Cartridge-based ink system"
     ],
     pros: [
       "Simple setup consistent with other easy Canon picks",
       "Clearly labeled controls for daily use",
       "Quick cartridge swaps",
-      "Full print, scan, copy feature set",
+      "Full print, scan, copy feature set"
     ],
     cons: [
       "Higher price than the more basic Canon picks in this list",
       "No automatic document feeder",
-      "Cartridge ink costs more at high volume",
+      "Cartridge ink costs more at high volume"
     ],
     bestFor: "Buyers who want Canon's easy setup and controls in a fuller-featured all-in-one",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Companion app quality",
     description: "Factored in app store reception and whether setup and daily printing can reasonably be done through the app without excessive account creation friction.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,12 +477,12 @@ export const faq: FaqItem[] = [
   {
     q: "Does having fewer features make a printer easier to use?",
     a: "Often, yes, for the specific dimension of daily use and setup complexity. A stripped-down printer like the Canon PIXMA TS3720, with just print, scan, and copy, has fewer menus and settings to navigate than a printer packed with fax, automatic document feeding, and advanced modes you may never touch. If you don't need those extras, skipping them can genuinely simplify daily use.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-small-businesses", title: "Best Printers for Small Businesses (2026)" },
   { href: "/guide/best-printers-for-homeschooling", title: "Best Printers for Homeschooling (2026)" },
   { href: "/guide/best-printers-for-teachers", title: "Best Printers for Teachers (2026)" },
-  { href: "/guide/best-small-printer-stands", title: "Best Small Printer Stands (2026)" },
+  { href: "/guide/best-small-printer-stands", title: "Best Small Printer Stands (2026)" }
 ];

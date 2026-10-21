@@ -5,7 +5,7 @@ export const metaDescription = "8 shredders we evaluated for overheat protection
 export const mainKeyword = "paper shredder that doesn't overheat";
 export const introParagraphs = [
   "Thermal overload protection is a symptom of motor duty-cycle limitations, not a bonus feature. Its presence means the underlying motor already runs close to its thermal limit under real use, the shredders in this guide that 'don't overheat' are the ones whose rated duty cycle most closely matches typical real-world usage patterns, not ones that have somehow solved overheating entirely.",
-  "Most 'overheating' complaints stem from exceeding the stated continuous run-time rating, not a defective unit, we highlight each pick's actual run/rest cycle so you can plan usage that avoids triggering the thermal shutoff in the first place.",
+  "Most 'overheating' complaints stem from exceeding the stated continuous run-time rating, not a defective unit, we highlight each pick's actual run/rest cycle so you can plan usage that avoids triggering the thermal shutoff in the first place."
 ];
 export const lastUpdated = "2026-07-28";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Long Duty Cycle Before Thermal Limit",
     name: "Aurora AU1210MA Professional Grade High Security 12-Sheet Micro-Cut Shredder",
     price: "$135.78",
-    rating: "4.7 stars from 9,126 Amazon ratings",
-    reviews: "9,126 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/413GY12YKjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CX4DZ4Z?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity Long Duty Cycle",
     name: "Bonsaii 18-Sheet Cross-Cut 60-Min Run Heavy Duty Paper Shredder",
     price: "$179.99",
-    rating: "4.6 stars from 10,748 Amazon ratings",
-    reviews: "10,748 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41FCXr1akDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00IOFD08C?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Lowest-Draw Motor, Shortest Duty Cycle Needed",
     name: "QUESTLEMON 8-Sheet Paper Shredder for Home, Quiet Cross Cut Shredders",
     price: "$49.99",
-    rating: "4.3 stars from 31 Amazon ratings",
-    reviews: "31 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31IjAexycEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVNH9RY2?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Real-Time Overheat Visibility",
     name: "BONSEN 14-Sheet Cross Cut Heavy Duty Paper Shredder for Home Office",
     price: "$84.99",
-    rating: "4.1 stars from 1,061 Amazon ratings",
-    reviews: "1,061 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LSE9gHSWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DTKBX3D9?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Patented Cooling System at Mid-Price",
     name: "Bonsaii 12-Sheet Cross Cut Heavy Duty Paper Shredder for Home Office",
     price: "$79.99",
-    rating: "4.5 stars from 1,685 Amazon ratings",
-    reviews: "1,685 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/310qS+3q87L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5XPJ524?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best Auto-Feed with Explicit Anti-Jam and Duty Cycle",
     name: "Bonsaii 100-Sheet Auto Feed Micro-Cut Paper Shredder Heavy Duty",
     price: "$126.99",
-    rating: "4.3 stars from 1,629 Amazon ratings",
-    reviews: "1,629 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31VvTJMBXPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DG2MGVMV?tag=deskfinds0d-20",
     description:
@@ -127,8 +127,8 @@ export const products: GuideProduct[] = [
     badge: "Largest Hopper, Same Duty Cycle Transparency",
     name: "Bonsaii 120-Sheet Autofeed Micro-Cut 30-Min Run Heavy Duty Paper Shredder",
     price: "$179.99",
-    rating: "4.3 stars from 1,048 Amazon ratings",
-    reviews: "1,048 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31lBbbWrCsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSJ3K6T3?tag=deskfinds0d-20",
     description:
@@ -144,8 +144,8 @@ export const products: GuideProduct[] = [
     badge: "Honest Short Duty Cycle for Light Use",
     name: "Bonsaii 12-Sheet Cross Cut Paper Shredder, 5.5 Gal Home Office Heavy Duty",
     price: "$55.24",
-    rating: "4.5 stars from 8,974 Amazon ratings",
-    reviews: "8,974 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31H0gGU7jHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09N991KVT?tag=deskfinds0d-20",
     description:
@@ -154,14 +154,14 @@ export const products: GuideProduct[] = [
     pros: ["Lowest price in this guide", "Strong rating for its intended light-use case", "Compact footprint", "Patented cooling system for its duty cycle"],
     cons: ["Shortest duty cycle among the higher-capacity picks in this guide", "Requires frequent rest breaks for anything beyond light use", "Not suited for bulk document purges"],
     bestFor: "Buyers with genuinely light, occasional shredding needs at the lowest price in this guide",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Reframing overheat protection as a duty-cycle symptom, not a solved problem", description: "Ranked picks by how well their disclosed duty cycle matches realistic usage patterns, since thermal protection exists precisely because these motors run close to their limit under real use, it isn't a feature that eliminates the underlying constraint." },
   { title: "Duty cycle and cooldown disclosed together, where available", description: "Prioritized listings that explicitly state both the continuous run time and the cooldown period needed afterward, a combined disclosure that lets you plan realistic session lengths." },
-  { title: "Proper usage patterns that avoid triggering thermal shutoff", description: "Noted that most 'overheating' complaints stem from exceeding the stated duty cycle rather than a defective unit, and highlighted each pick's realistic usage pattern to avoid that outcome." },
+  { title: "Proper usage patterns that avoid triggering thermal shutoff", description: "Noted that most 'overheating' complaints stem from exceeding the stated duty cycle rather than a defective unit, and highlighted each pick's realistic usage pattern to avoid that outcome." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -294,11 +294,11 @@ export const faq: FaqItem[] = [
   { q: "Does placement affect how often a shredder overheats?", a: "Yes. Shredders placed in enclosed cabinets or against walls with restricted airflow overheat more readily than the same model in open, ventilated placement, an environmental factor independent of the shredder's internal engineering." },
   { q: "Which pick in this guide has the longest duty cycle before overheating?", a: "The Aurora AU1210MA (rank 1) and Bonsaii 18-sheet (rank 2) both offer a genuine 60-minute duty cycle, the longest confirmed in this guide, backed by the highest ratings and review bases here." },
   { q: "Does room temperature affect how quickly a shredder overheats?", a: "Yes, a shredder running in a warm, poorly ventilated space reaches its thermal shutoff threshold faster than the same unit in a cooler, well-ventilated room, placement genuinely affects real-world run time." },
-  { q: "Is a shredder that never overheats safe to run completely unattended?", a: "No, even a long-duty-cycle model should be monitored during operation, thermal protection prevents motor damage but doesn't replace basic supervision for paper jams or other issues." },
+  { q: "Is a shredder that never overheats safe to run completely unattended?", a: "No, even a long-duty-cycle model should be monitored during operation, thermal protection prevents motor damage but doesn't replace basic supervision for paper jams or other issues." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-long-run-paper-shredders", title: "Best Long-Run Paper Shredders (2026)" },
   { href: "/guide/best-jam-proof-paper-shredders", title: "Best Jam-Proof Paper Shredders (2026)" },
-  { href: "/guide/best-quiet-paper-shredders", title: "Best Quiet Paper Shredders (2026)" },
+  { href: "/guide/best-quiet-paper-shredders", title: "Best Quiet Paper Shredders (2026)" }
 ];

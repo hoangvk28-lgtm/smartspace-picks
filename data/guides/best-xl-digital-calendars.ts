@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "xl digital calendar";
 export const introParagraphs = [
   "\"XL\" is a relative term in this category, so we're upfront about the actual size tiers rather than calling everything XL for the sake of the search term. Only one display in our verified research pool is genuinely extra-large at 27 inches, the rest fall into a large but not XL tier around 15 to 15.6 inches.",
-  "We cover both tiers here so you can see the real size difference and decide whether you actually need the largest option or whether a 15 inch display already meets your needs at a lower price and smaller footprint.",
+  "We cover both tiers here so you can see the real size difference and decide whether you actually need the largest option or whether a 15 inch display already meets your needs at a lower price and smaller footprint."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "8 min";

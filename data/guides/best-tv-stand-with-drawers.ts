@@ -141,7 +141,7 @@ export const products: GuideProduct[] = [
     pros: ["Lowest price in this roundup under $50", "5 drawers for sorting small items by size", "Anti-falling stoppers prevent drawers sliding out", "Compact footprint suits small rooms"],
     cons: ["Rated for TVs up to only 45\"", "Fabric drawers flex and hold less weight than wood", "Smallest footprint limits use as a main living room stand"],
     bestFor: "Bedrooms, dorms, or secondary rooms with a smaller TV where budget and compact size matter most.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -173,10 +173,10 @@ export const faq: { q: string; a: string }[] = [
   { q: "What's the difference between a TV stand with drawers and one with cabinets?", a: "Drawers pull straight out and suit small, loose items like remotes, cables, and controllers that you want to grab quickly. Cabinets swing open and better fit boxy equipment like a cable box or game console, though solid cabinet doors can block infrared remote signals to anything stored inside. Several picks in this guide mix both so you can match storage type to what you're actually organizing." },
   { q: "Do soft-close drawers cost significantly more than standard ones?", a: "Not necessarily. The soft-close pick in this guide costs under $100, similar to non-soft-close stands in the same price range. The bigger cost driver is usually overall build material, solid wood versus particleboard, rather than the soft-close mechanism itself. Read the full feature list carefully since soft-close sometimes applies only to cabinet doors and not to every drawer on the unit." },
   { q: "How much weight can a TV stand with drawers actually hold?", a: "It varies widely by construction. Dresser-style stands with many thin drawers, like the 9-drawer SONGMICS pick here, top out around 88 lbs on the surface, while reinforced 5-leg stands can rate up to 285 lbs. A 55 to 65 inch TV alone typically weighs 25 to 45 lbs, so check the stated top capacity against your TV plus any soundbar or streaming equipment you plan to set on the same surface." },
-  { q: "Will opening a low drawer on a TV stand tip the unit over?", a: "It can, especially on lighter stands loaded with a heavy TV on top, which is why several picks in this guide include anti-tip hardware or anti-toppling devices. Always secure a TV stand to the wall with the included anti-tip kit if you have children or pets in the home, even if the TV itself is also mounted or strapped separately." },
+  { q: "Will opening a low drawer on a TV stand tip the unit over?", a: "It can, especially on lighter stands loaded with a heavy TV on top, which is why several picks in this guide include anti-tip hardware or anti-toppling devices. Always secure a TV stand to the wall with the included anti-tip kit if you have children or pets in the home, even if the TV itself is also mounted or strapped separately." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-tv-stand-with-storage", title: "Best TV Stands with Storage (2026)" },
-  { href: "/guide/best-tv-stand-for-55-inch-tv", title: "Best TV Stands for 55 Inch TVs (2026)" },
+  { href: "/guide/best-tv-stand-for-55-inch-tv", title: "Best TV Stands for 55 Inch TVs (2026)" }
 ];

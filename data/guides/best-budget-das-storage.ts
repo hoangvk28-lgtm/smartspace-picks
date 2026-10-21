@@ -212,11 +212,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "POSUGEAR 2.5-Inch External Hard Drive Enclosure (USB 3.0)",
-        "text": "POSUGEAR 2.5-Inch External Hard Drive Enclosure (USB 3.0) is aimed at buyers prioritizing 2.5in single-bay, up to 4tb At $6.99, it's the lowest-cost pick in this comparison."
+        "text": "POSUGEAR 2.5-Inch External Hard Drive Enclosure (USB 3.0) is aimed at buyers prioritizing 2.5in single-bay, up to 4tb At under $7, it's the lowest-cost pick in this comparison."
       },
       {
         "label": "ORICO 5-Bay Hard Drive Enclosure (5Gbps USB 3.0)",
-        "text": "ORICO 5-Bay Hard Drive Enclosure (5Gbps USB 3.0) is aimed at buyers prioritizing 5-bay, 2.5/3.5in, up to 110tb total At $109.99, it sits at the higher end of this comparison's price range."
+        "text": "ORICO 5-Bay Hard Drive Enclosure (5Gbps USB 3.0) is aimed at buyers prioritizing 5-bay, 2.5/3.5in, up to 110tb total At under $110, it sits at the higher end of this comparison's price range."
       }
     ],
     "note": "Most buyers should default to POSUGEAR 2.5-Inch External Hard Drive Enclosure (USB 3.0) unless the pricier pick's specific advantage applies to your situation."
@@ -260,7 +260,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "CENMATE Aluminum 2-Bay Hard Drive Enclosure (Daisy-Chain) Buyers prioritizing 2-bay, up to 20tb/drive. CENMATE Aluminum 2-Bay 10Gbps Hard Drive Enclosure Buyers prioritizing 2-bay, up to 10gbps (500mb/s documented)."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -312,7 +312,7 @@ export const faq = [
     "a": "Only if the specific enclosure documents hot-swap support, which most tool-free tray designs in this category do. Always check your specific product's hot-swap capability before removing a drive live, since not every budget enclosure supports it, especially some fixed-RAID-mode units."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", "a": "CENMATE Aluminum 2-Bay Hard Drive Enclosure (Daisy-Chain) is aimed at buyers prioritizing 2-bay, up to 20tb/drive" },
+  { "q": "What's the single best pick to come out of this comparison?", "a": "CENMATE Aluminum 2-Bay Hard Drive Enclosure (Daisy-Chain) is aimed at buyers prioritizing 2-bay, up to 20tb/drive" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-2-bay-das-storage","title":"8 Best 2-Bay DAS Storage Options"},{"href":"/guide/best-das-storage-for-home","title":"8 Best DAS Storage for Home Use"},{"href":"/guide/best-das-storage","title":"8 Best DAS Storage Options in 2026"}];

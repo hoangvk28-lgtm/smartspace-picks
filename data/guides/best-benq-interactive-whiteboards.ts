@@ -212,11 +212,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "COOLHOOD 65in 4K Smart Board",
-        "text": "COOLHOOD 65in 4K Smart Board is aimed at buyers prioritizing 65in 4k, android 13, 20-point touch At $1,499.99, it's the lowest-cost pick in this comparison."
+        "text": "COOLHOOD 65in 4K Smart Board is aimed at buyers prioritizing 65in 4k, android 13, 20-point touch At under $1,500, it's the lowest-cost pick in this comparison."
       },
       {
         "label": "BIG VUE Plus 55in Smart Board",
-        "text": "BIG VUE Plus 55in Smart Board is aimed at buyers prioritizing 55in 4k, 256gb storage, 60-point touch At $994.99, it sits at the higher end of this comparison's price range."
+        "text": "BIG VUE Plus 55in Smart Board is aimed at buyers prioritizing 55in 4k, 256gb storage, 60-point touch At under $1,000, it sits at the higher end of this comparison's price range."
       }
     ],
     "note": "Most buyers should default to COOLHOOD 65in 4K Smart Board unless the pricier pick's specific advantage applies to your situation."
@@ -260,7 +260,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "COOLHOOD 65in 4K Smart Board Buyers prioritizing 65in 4k, android 13, 20-point touch. NEWORK NewBoard 65E Google EDLA Board Buyers prioritizing 65in 4k, edla-certified android 14."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -312,7 +312,7 @@ export const faq = [
     "a": "A 75-inch or larger panel commonly weighs 80 to 150+ pounds depending on the model. Confirm your wall has proper stud backing or use a VESA-compatible mobile stand rated for that weight, and consider professional installation at this size rather than a DIY wall mount."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", "a": "COOLHOOD 65in 4K Smart Board is aimed at buyers prioritizing 65in 4k, android 13, 20-point touch" },
+  { "q": "Which product in this roundup earns the top overall recommendation?", "a": "COOLHOOD 65in 4K Smart Board is aimed at buyers prioritizing 65in 4k, android 13, 20-point touch" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-viewsonic-interactive-whiteboards","title":"8 Best ViewSonic Interactive Whiteboards"},{"href":"/guide/best-newline-interactive-whiteboards","title":"5 Best Newline Interactive Whiteboards"},{"href":"/guide/best-smart-board-interactive-whiteboards","title":"8 Best SMART Board Interactive Whiteboards"}];

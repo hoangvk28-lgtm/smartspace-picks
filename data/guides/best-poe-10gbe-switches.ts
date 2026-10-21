@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "YuanLey 8 Port 10G PoE Switch Unmanaged, 8 x 10G Base-T PoE Ports, IEEE802.3af/at, 110W measures 8 x 10 and is built around 8 port 10gbps poe switch, positioning it for poe 10gbe switches buyers specifically.\n\n110W Total PoE Power is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for poe 10gbe switches, though as with any networking purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["8 x 10 dimensions","8 Port 10Gbps PoE Switch","110W Total PoE Power"],
     pros: ["8 Port 10Gbps PoE Switch, confirmed directly in the listing's own spec details","110W Total PoE Power, confirmed directly in the listing's own spec details","Plug and Play, confirmed directly in the listing's own spec details"],
-    cons: ["At $287.98, worth comparing against similarly specced networking devices before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $300, worth comparing against similarly specced networking devices before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for poe 10gbe switches",
   }
 
@@ -181,7 +181,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "NETGEAR 10-Port PoE Gigabit Smart Managed Switch (GS110TP) is aimed at buyers prioritizing 8x 1g ports, poe+, 55w budget."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -229,7 +229,7 @@ export const faq = [
     "a": "Cat6A or better is generally required for reliable 10GBASE-T at typical office/home distances; standard Cat6 can sometimes reach 10G over very short runs but isn't guaranteed, and Cat5e tops out well below 10G. Check your specific switch's documentation for its exact cable and distance requirements."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "YuanLey 8-Port 10G PoE Switch Unmanaged is aimed at buyers prioritizing 8x true 10g poe ports, 160gbps capacity." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "YuanLey 8-Port 10G PoE Switch Unmanaged is aimed at buyers prioritizing 8x true 10g poe ports, 160gbps capacity." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-10gbe-switches","title":"Best 10GbE Switches in 2026"},{"href":"/guide/best-netgear-10gbe-switches","title":"Best NETGEAR 10GbE Switches in 2026"},{"href":"/guide/best-8-port-10gbe-switches","title":"Best 8-Port 10GbE Switches in 2026"}];

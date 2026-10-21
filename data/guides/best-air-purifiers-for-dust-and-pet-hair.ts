@@ -5,7 +5,7 @@ export const metaDescription = "5 air purifiers we evaluated for combined dust a
 export const mainKeyword = "air purifier for dust and pet hair";
 export const introParagraphs = [
   "Pet hair mixed with household dust clogs pre-filters meaningfully faster than either issue alone, since hair strands trap dust particles and accelerate pre-filter saturation, a combined-load maintenance reality rarely addressed in single-issue buying guides.",
-  "A washable pre-filter genuinely helps manage this combined load between full HEPA replacements, extending the true filter life when you clean it on a regular schedule rather than waiting for a filter-change indicator alone.",
+  "A washable pre-filter genuinely helps manage this combined load between full HEPA replacements, extending the true filter life when you clean it on a regular schedule rather than waiting for a filter-change indicator alone."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Combined Dust and Pet Hair",
     name: "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom, H13 True HEPA Filter, 24db Filtration System Cleaner Odor Eliminators, Remove 99.97% Dust Smoke Mold Pollen, Core 300, White",
     price: "$89.99",
-    rating: "4.7 stars from 108,251 Amazon ratings",
-    reviews: "108,251 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity Dust and Pet Hair Pick",
     name: "Medify MA-35 Air Purifier with H13 True HEPA Filter | 330 sq ft Coverage | for Allergies, Pets, Smoke, Smokers, Dust, Odors | Quiet 99.9% Removal to 0.1 Microns | White, 1-Pack",
     price: "$107.99",
-    rating: "3.9 stars from 197 Amazon ratings",
-    reviews: "197 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51SEA4kds4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08GQ9BQB4?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Established Pick with PlasmaWave",
     name: "WINIX 5520 Air Purifier with PlasmaWave Technology",
     price: "$179.99",
-    rating: "4.6 stars from 31,954 Amazon ratings",
-    reviews: "31,954 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Wb8TGSnPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT4F8T4L?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Combined-Load Pick",
     name: "Germ Guardian True HEPA Filter Air Purifier for Home",
     price: "$80.74",
-    rating: "4.6 stars from 63,485 Amazon ratings",
-    reviews: "63,485 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/316AtkHoSdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004VGIGVY?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Coverage Multi-Pet Pick",
     name: "LEVOIT Smart Air Purifier for Home Large Room up to 1875 ft Vital 200S-P",
     price: "$174.99",
-    rating: "4.7 stars from 14,571 Amazon ratings",
-    reviews: "14,571 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Large rated coverage for a multi-pet or dustier home", "Smart app control for monitoring filter status", "Large, well-established review base", "Genuine headroom for the heaviest combined loads"],
     cons: ["Higher price than budget alternatives", "Larger footprint than compact picks", "Combined load still requires regular pre-filter cleaning regardless of coverage headroom"],
     bestFor: "Multi-pet households with a heavier combined dust load",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Combined-load pre-filter saturation considered", description: "Recognized that pet hair mixed with dust clogs pre-filters meaningfully faster than either issue alone, since hair strands trap dust particles and accelerate saturation." },
   { title: "Washable pre-filter maintenance value assessed", description: "Weighed which picks have a washable pre-filter that genuinely helps manage combined load between full HEPA replacements when cleaned on a regular schedule." },
-  { title: "Household load intensity matched to coverage rating", description: "Distinguished a moderate single-pet combined load from a heavier multi-pet or dustier-home load, matching coverage headroom to the household's real combined-load intensity." },
+  { title: "Household load intensity matched to coverage rating", description: "Distinguished a moderate single-pet combined load from a heavier multi-pet or dustier-home load, matching coverage headroom to the household's real combined-load intensity." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Do I need a higher-coverage unit for a multi-pet household with dust?", a: "Likely yes. A multi-pet household or dustier home saturates a standard-capacity unit faster than either issue alone, extra coverage headroom is worth the investment for a heavier combined load." },
   { q: "Does an odor-neutralizing feature replace pre-filter cleaning for pet hair and dust?", a: "No. Technology like PlasmaWave addresses pet odor as an added layer, it doesn't replace the regular mechanical pre-filter cleaning that combined dust-and-hair loads still require." },
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers wanting the most-proven pick for combined dust and pet hair" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with a moderate combined dust-and-pet-hair load At $80.74, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with a moderate combined dust-and-pet-hair load At under $90, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-air-purifiers-for-dust", title: "Best Air Purifiers for Dust (2026)" },
   { href: "/guide/best-air-purifiers-for-pet-hair", title: "Best Air Purifiers for Pet Hair (2026)" },
-  { href: "/guide/best-air-purifiers-for-pet-owners", title: "Best Air Purifiers for Pet Owners (2026)" },
+  { href: "/guide/best-air-purifiers-for-pet-owners", title: "Best Air Purifiers for Pet Owners (2026)" }
 ];

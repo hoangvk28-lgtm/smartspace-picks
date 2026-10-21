@@ -12,7 +12,7 @@ export const nibTypesDrawingTabletExplainedGuide: Guide = {
     "felt nib vs standard nib",
     "when to replace drawing pen nib",
     "textured nib drawing tablet",
-    "drawing pen tip wearing out",
+    "drawing pen tip wearing out"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const nibTypesDrawingTabletExplainedGuide: Guide = {
     "drawing-tablet-stylus-battery-explained",
     "drawing-tablet-pressure-sensitivity-explained",
     "drawing-tablet-vs-display-tablet",
-    "drawing-tablet-size-guide",
+    "drawing-tablet-size-guide"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const nibTypesDrawingTabletExplainedGuide: Guide = {
       question: "Can worn nibs damage the tablet's drawing surface over time?",
       answer:
         "Extremely worn nibs with damaged, roughened tips can potentially cause minor surface wear on the tablet over extended use, replacing nibs before they become significantly degraded is a reasonable precaution for protecting your tablet's surface long term.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const nibTypesDrawingTabletExplainedGuide: Guide = {
     {
       heading: "Why Nib Preference Is Genuinely Subjective and Worth Experimenting With",
       body: `Unlike pressure sensitivity levels, where diminishing returns are fairly well established, nib feel preference varies significantly and legitimately between individual artists based on personal drawing style and what feels most natural to their hand, some artists strongly prefer the reduced friction of a standard smooth nib for fluid, sweeping strokes, while others find a felt or textured nib's added resistance helps with control and mimics a familiar traditional drawing sensation, since replacement nibs are inexpensive, trying different types is a low-cost way to discover your own genuine preference rather than assuming one type is objectively superior.`,
-    },
+    }
   ],
 };

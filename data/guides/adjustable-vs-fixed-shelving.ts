@@ -12,7 +12,7 @@ export const adjustableVsFixedShelvingGuide: Guide = {
     "adjustable shelf brackets worth it",
     "fixed shelf height limitation",
     "movable shelf pegs bookcase",
-    "flexible shelving for varied items",
+    "flexible shelving for varied items"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const adjustableVsFixedShelvingGuide: Guide = {
     "floating-shelf-vs-bookcase",
     "shelf-weight-capacity-explained",
     "open-shelving-vs-closed-cabinet",
-    "desk-drawer-organizer-vs-tray",
+    "desk-drawer-organizer-vs-tray"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const adjustableVsFixedShelvingGuide: Guide = {
       question: "Can I convert fixed shelving to adjustable later?",
       answer:
         "Generally no, adjustable shelving requires specific peg holes or bracket tracks built into the unit's structure during manufacturing, a genuinely fixed-shelf unit typically can't be retrofitted with this adjustability afterward.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const adjustableVsFixedShelvingGuide: Guide = {
     {
       heading: "Why This Decision Also Can't Be Changed Later",
       body: `Since adjustable shelving requires specific structural elements, peg holes drilled at regular intervals or bracket tracks, built into the unit during manufacturing, this is a decision that needs to be made at purchase time rather than something addressable after the fact if your needs turn out to require more flexibility than a fixed-shelf unit provides. If there's meaningful uncertainty about your future storage needs, leaning toward adjustable shelving provides a hedge against needing to replace a fixed unit later.`,
-    },
+    }
   ],
 };

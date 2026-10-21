@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Cudy AP11000, AP6500, or similar", "Cudy 90W 10 Gbps PoE++ Injector"],
         ["eero PoE 7 or UniFi U6-Enterprise/U7 Pro", "PROCET PoE Injector 10 Gigabit 60W"],
         ["No specific brand, want UL certification", "Omada 10G PoE++ Injector"],
-        ["Industrial cabinet with redundancy need", "PROCET 10 Gbps DIN Rail AC/DC"],
+        ["Industrial cabinet with redundancy need", "PROCET 10 Gbps DIN Rail AC/DC"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $60", "PROCET PoE Injector 10 Gigabit 60W ($59.99)"],
-        ["Under $81", "Omada 10G PoE++ Injector ($80.45)"],
-        ["Under $90", "Cudy 90W 10 Gbps PoE++ Injector ($89.99)"],
-        ["Under $120", "PROCET 10 Gbps DIN Rail AC/DC ($119.00)"],
+        ["Under $60", "PROCET PoE Injector 10 Gigabit 60W (under $60)"],
+        ["Under $81", "Omada 10G PoE++ Injector (under $90)"],
+        ["Under $90", "Cudy 90W 10 Gbps PoE++ Injector (under $90)"],
+        ["Under $120", "PROCET 10 Gbps DIN Rail AC/DC (under $120)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "60W vs 90W at the 10Gbps Tier",
     cards: [
       { label: "60W (PROCET picks)", text: "Sufficient for most Wi-Fi 6E/7 access points and standard PTZ cameras that don't include a heater element or extreme high-draw features." },
-      { label: "90W (Cudy, Omada)", text: "Necessary for the highest-draw devices like a PTZ camera with a heater or the most demanding enterprise access point models." },
+      { label: "90W (Cudy, Omada)", text: "Necessary for the highest-draw devices like a PTZ camera with a heater or the most demanding enterprise access point models." }
     ],
     note: "Check your specific device's actual power draw specification before assuming you need the higher 90W tier; most devices this injector class serves fall within the 60W ceiling.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["Standard indoor AC outlet", "Cudy, PROCET 60W, or Omada picks"],
         ["Industrial cabinet with AC or DC available", "PROCET 10 Gbps DIN Rail AC/DC"],
-        ["Mission-critical with redundancy need", "PROCET 10 Gbps DIN Rail AC/DC"],
+        ["Mission-critical with redundancy need", "PROCET 10 Gbps DIN Rail AC/DC"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For a Multi-Camera 4K Surveillance Backbone Specifically",
     cards: [
       { label: "Look for", text: "Confirmed true 10Gbps speed rather than a 2.5G unit mislabeled with 10G marketing language, since aggregating multiple 4K camera feeds genuinely benefits from the higher bandwidth ceiling." },
-      { label: "In this comparison", text: "All four picks confirm true 10Gbps speed, with the Cudy pick's documented surge protection and Cat.6A cable support at 90m specifically suited to a demanding camera backbone." },
+      { label: "In this comparison", text: "All four picks confirm true 10Gbps speed, with the Cudy pick's documented surge protection and Cat.6A cable support at 90m specifically suited to a demanding camera backbone." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You need the highest power ceiling with documented surge protection, or an industrial DIN-rail unit with redundant power input, where the Cudy or PROCET DIN-rail picks justify their price." },
-      { label: "Save if", text: "You have an eero or UniFi Wi-Fi 7 access point that doesn't need more than 60W, where the PROCET pick's $59.99 price delivers named compatibility at the lowest cost in this comparison." },
+      { label: "Save if", text: "You have an eero or UniFi Wi-Fi 7 access point that doesn't need more than 60W, where the PROCET pick's under $60 price delivers named compatibility at the lowest cost in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

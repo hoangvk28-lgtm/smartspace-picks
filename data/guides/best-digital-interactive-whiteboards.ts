@@ -206,35 +206,35 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $994.99",
+          "Under $1,000",
           "BIG VUE Plus 55in Smart Board"
         ],
         [
-          "Around $999.00",
+          "Under $1,000",
           "HORION 55in Digital Whiteboard"
         ],
         [
-          "Around $1,199.00",
+          "Under $1,200",
           "JASZDOT 55in Smart Board"
         ],
         [
-          "Around $1,199.00",
+          "Under $1,200",
           "QIXZOCV 55in All-in-One Smart Board"
         ],
         [
-          "Around $1,299.00",
+          "Under $1,300",
           "HORION 65in Digital Whiteboard"
         ],
         [
-          "Around $1,499.99",
+          "Under $1,500",
           "COOLHOOD 65in 4K Smart Board"
         ],
         [
-          "Around $1,549.00",
+          "Under $1,600",
           "65in 4K Smart Board (20-Point Touch)"
         ],
         [
-          "Around $1,979.99",
+          "Under $2,000",
           "NEWORK NewBoard 65E Google EDLA Board"
         ]
       ]
@@ -289,10 +289,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "BIG VUE Plus 55in Smart Board is aimed at buyers prioritizing 55in 4k, 256gb storage, 60-point touch, at $994.99."
+        "text": "BIG VUE Plus 55in Smart Board is aimed at buyers prioritizing 55in 4k, 256gb storage, 60-point touch, at under $1,000."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -344,7 +344,7 @@ export const faq = [
     "a": "Yes, in almost every case. An OPS (Open Pluggable Specification) slot is just an expansion bay, the actual Windows computer module that plugs into it is sold separately and can cost as much as a mid-range laptop. Confirm the OPS module price before assuming Windows compatibility is included in the board's sticker price."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "COOLHOOD 65in 4K Smart Board is aimed at buyers prioritizing 65in 4k, android 13, 20-point touch." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "COOLHOOD 65in 4K Smart Board is aimed at buyers prioritizing 65in 4k, android 13, 20-point touch." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-electronic-interactive-whiteboards","title":"8 Best Electronic Interactive Whiteboards"},{"href":"/guide/best-smart-interactive-whiteboards","title":"8 Best Smart Interactive Whiteboards"},{"href":"/guide/best-digital-interactive-whiteboards","title":"8 Best Digital Interactive Whiteboards"}];

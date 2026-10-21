@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "This projector's native Xbox compatibility specifically supports 1440p at 120Hz alongside its 240Hz refresh rate, a console-specific optimization the other picks in this comparison don't explicitly target. Its 4000 ANSI lumens is the highest stated brightness in this tier, providing bright and clear visuals even in environments with moderate ambient lighting.\n\nCompared to the PX701-4K pick, this one steps up to a massive 300 inch maximum projection size with a 1.3x optical zoom, suited for genuinely large theater rooms rather than standard living rooms. Its proprietary SuperColor technology paired with HDR and HLG support delivers rich color accuracy ideal for immersive simulation environments and cinematic storytelling.\n\nBest for buyers who specifically want native Xbox optimization with the highest brightness in this tier.",
     specs: ["True native 4K UHD, 4000 ANSI lumens", "Native Xbox 1440p at 120Hz support", "300in max projection, 1.3x optical zoom"],
     pros: ["Highest stated brightness in this comparison at 4000 ANSI lumens", "Native Xbox compatibility with 1440p at 120Hz specifically supported", "300 inch maximum projection size suits large theater rooms"],
-    cons: ["Priced above this tier's stated ceiling at $1,188.47", "Larger size and higher brightness suit big rooms more than compact spaces"],
+    cons: ["Priced above this tier's stated ceiling at under $1,200", "Larger size and higher brightness suit big rooms more than compact spaces"],
     bestFor: "buyers who specifically want native Xbox optimization with the highest brightness",
   },
   {
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "This projector comes from BenQ, an established brand in the gaming and home theater projector category, with a stated 4.2ms input lag matching the competitive gaming responsiveness of the ViewSonic picks in this comparison. Standard throw capability delivers a 100 inch image from 8.2 feet away, suited to typical living room dimensions.\n\nCompared to the ViewSonic PX749-4K pick, this one is also available in a short-throw variant (the TK700STi) capable of the same 100 inch image from just 6.5 feet, useful if your room layout doesn't accommodate the standard throw distance. Both variants deliver the same stated 4K HDR image accuracy and clarity.\n\nBest for buyers who want an established BenQ brand with flexible throw-distance options.",
     specs: ["True native 4K UHD, HDR support", "4.2ms input lag", "Standard or short-throw variant available"],
     pros: ["Established BenQ brand in the gaming and home theater category", "4.2ms input lag matches competitive gaming responsiveness", "Short-throw variant available for rooms with limited depth"],
-    cons: ["Priced above this tier's stated ceiling at $1,199.00", "Short-throw variant is a separate model requiring careful selection"],
+    cons: ["Priced above this tier's stated ceiling at under $1,200", "Short-throw variant is a separate model requiring careful selection"],
     bestFor: "buyers who want an established brand with flexible throw-distance options",
   }
 ];
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Genuine native 4K resolution with the highest refresh rate", "ViewSonic PX701-4K UHD Projector, 240Hz DLP"],
         ["Portable genuine 4K with professional-grade color accuracy", "XGIMI Elfin Flip 4K Portable Projector, RGB Triple Laser"],
         ["Native Xbox optimization with the highest brightness", "ViewSonic PX749-4K UHD Gaming Projector, 4000 Lumens"],
-        ["An established brand with flexible throw-distance options", "BenQ TK700 4K HDR Home Entertainment Projector"],
+        ["An established brand with flexible throw-distance options", "BenQ TK700 4K HDR Home Entertainment Projector"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $980", "ViewSonic PX701-4K ($979.99)"],
-        ["Under $1000", "XGIMI Elfin Flip 4K ($999.00)"],
-        ["Under $1190", "ViewSonic PX749-4K ($1,188.47)"],
-        ["Under $1200", "BenQ TK700 ($1,199.00)"],
+        ["Under $980", "ViewSonic PX701-4K (under $1,000)"],
+        ["Under $1000", "XGIMI Elfin Flip 4K (under $1,000)"],
+        ["Under $1190", "ViewSonic PX749-4K (under $1,200)"],
+        ["Under $1200", "BenQ TK700 (under $1,200)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "DLP Lamp-Based vs RGB Triple Laser Light Source",
     cards: [
       { label: "DLP lamp-based (ViewSonic PX701-4K, PX749-4K, BenQ TK700)", text: "Delivers higher stated brightness figures and established gaming-focused refresh rates, generally at a lower price for the brightness level." },
-      { label: "RGB Triple Laser (XGIMI Elfin Flip 4K)", text: "Delivers professional-grade color accuracy with SGS certification and lossless optical zoom, in a more portable form factor." },
+      { label: "RGB Triple Laser (XGIMI Elfin Flip 4K)", text: "Delivers professional-grade color accuracy with SGS certification and lossless optical zoom, in a more portable form factor." }
     ],
     note: "If maximum brightness and gaming refresh rate are your priorities, the DLP-based ViewSonic picks deliver that. If color accuracy and portability matter more, the XGIMI's laser light source and compact design are worth the tradeoff.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Standard living room", "ViewSonic PX701-4K or XGIMI Elfin Flip 4K"],
         ["Large theater room, up to 300 inches", "ViewSonic PX749-4K"],
-        ["Limited depth or short-throw needed", "BenQ TK700 (short-throw variant available)"],
+        ["Limited depth or short-throw needed", "BenQ TK700 (short-throw variant available)"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Console Gamer Specifically Using Xbox Specifically",
     cards: [
       { label: "Look for", text: "A projector specifically stating native Xbox compatibility with 1440p at 120Hz support, not just a general high refresh rate claim." },
-      { label: "In this comparison", text: "The ViewSonic PX749-4K pick's specifically stated native Xbox 1440p at 120Hz compatibility directly addresses console-specific gaming optimization that the other picks don't explicitly target." },
+      { label: "In this comparison", text: "The ViewSonic PX749-4K pick's specifically stated native Xbox 1440p at 120Hz compatibility directly addresses console-specific gaming optimization that the other picks don't explicitly target." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the highest brightness with native Xbox optimization for a large theater room, where the ViewSonic PX749-4K delivers that at the top of this tier." },
-      { label: "Save if", text: "You want genuine native 4K resolution with top gaming performance at the lowest price, where the ViewSonic PX701-4K covers that for about $200 less." },
+      { label: "Save if", text: "You want genuine native 4K resolution with top gaming performance at the lowest price, where the ViewSonic PX701-4K covers that for about $200 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

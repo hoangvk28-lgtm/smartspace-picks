@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desk organizers with cup holders";
 export const introParagraphs = [
   "This is a genuine hybrid category: a broader desk organizer with an integrated cup holder feature, distinct from a dedicated cup-holder-only product. We verified organizer compartment quality independently from the cup holder function, and checked whether the combined product offers real value over buying a separate organizer and holder.",
-  "All five picks below combine at least a cup holder with headphone hanging or accessory storage on one clamp base.",
+  "All five picks below combine at least a cup holder with headphone hanging or accessory storage on one clamp base."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -104,7 +104,7 @@ export const products: GuideProduct[] = [
     pros: ["Largest disclosed cup capacity in this comparison", "Genuine combined organizer function", "Metal build", "Good rating"],
     cons: ["Most expensive pick here", "Bulkier combined structure", "Only worth it if you want all bundled functions"],
     bestFor: "Buyers with large drinks who also want to organize headphones and accessories in one spot.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine organizer function independent of the cup holder", description: "We verified each pick's organizer feature (wire holes, secondary slots, accessory hooks) is a real, useful addition, not a token add-on to justify the framing." },
   { title: "Combo value vs. separate purchases", description: "We considered whether the combined product offers real value and desk-space savings over buying a dedicated organizer and cup holder separately." },
   { title: "Structural stability of the combined design", description: "We checked whether the organizer's other compartments affect cup holder stability, particularly for top-heavy or unbalanced loaded configurations." },
-  { title: "Spill-proximity risk to stored items", description: "We noted cup holder placement relative to other compartments, since a spill could affect nearby stored papers or small electronics." },
+  { title: "Spill-proximity risk to stored items", description: "We noted cup holder placement relative to other compartments, since a spill could affect nearby stored papers or small electronics." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -240,11 +240,11 @@ export const faq: FaqItem[] = [
   { q: "Is buying a combined organizer cheaper than buying separately?", a: "Generally yes for the KDD lineup, which prices competitively with standalone cup holders alone despite the added organizer functions, making the combo a good value." },
   { q: "Will a spill from the cup holder affect my other stored items?", a: "It's a real risk if items are stored close to the cup cavity. Favor a deeper, more contained cavity design and thoughtful placement if you store spill-sensitive items nearby." },
   { q: "Can these organizers hold headphones and a drink at the same time without tipping?", a: "Yes, all picks in this guide are verified stable under combined loading based on their review histories, though very heavy or unevenly distributed loads should still be tested with your specific items." },
-  { q: "Should I mount the organizer under the desk or on the edge?", a: "Under-desk mounting keeps your visible desk surface clearest but requires reaching down. Edge mounting is faster to access. Choose based on how often you use the organizer throughout the day." },
+  { q: "Should I mount the organizer under the desk or on the edge?", a: "Under-desk mounting keeps your visible desk surface clearest but requires reaching down. Edge mounting is faster to access. Choose based on how often you use the organizer throughout the day." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-under-desk-cup-holders", title: "Best Under-Desk Cup Holders (2026)" },
   { href: "/guide/best-four-in-one-desk-cup-holders", title: "Best Four-in-One Desk Cup Holders (2026)" },
-  { href: "/guide/best-hanging-desk-organizers", title: "Best Hanging Desk Organizers (2026)" },
+  { href: "/guide/best-hanging-desk-organizers", title: "Best Hanging Desk Organizers (2026)" }
 ];

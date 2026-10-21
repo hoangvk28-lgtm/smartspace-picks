@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41fJyiwjWzL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FL3H3MYD?tag=deskfinds0d-20",
-    "description": "Eastsora offers 12 numbered heat levels and a timer that you can set from 1 to 12 hours, on a double-sided flannel fleece built from 260 and 200 gsm layers. The listing cites FCC and ETL marks and gives machine washing steps after the controller is removed.\n\nIt has the finest control of the eight and a long timer menu, which BEARKISS and Cushious match only partly. It costs $45.99, the most of the group.\n\nBest for someone who wants fine adjustment on a lap throw. The caveat is the price and that the 12 levels carry no degree labels, so levels are relative.",
+    "description": "Eastsora offers 12 numbered heat levels and a timer that you can set from 1 to 12 hours, on a double-sided flannel fleece built from 260 and 200 gsm layers. The listing cites FCC and ETL marks and gives machine washing steps after the controller is removed.\n\nIt has the finest control of the eight and a long timer menu, which BEARKISS and Cushious match only partly. It costs under $50, the most of the group.\n\nBest for someone who wants fine adjustment on a lap throw. The caveat is the price and that the 12 levels carry no degree labels, so levels are relative.",
     "specs": [
       "12 levels, 1 to 12 hour timer",
       "260 and 200 gsm flannel fleece",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51IPf6IPDfL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H2Y7DLX3?tag=deskfinds0d-20",
-    "description": "BEARKISS pairs a faux fur face with a sherpa back and gives 9 heat levels and an auto shut-off of up to 10 hours. The listing cites ETL and FCC marks, and says the throw is machine washable and sold in larger sizes too.\n\nIt costs $33, below Sealy, and offers more levels but no stated temperatures. Against Cushious below, it has a longer shut-off window and a safety mark named.\n\nBest for a fluffy, high-pile throw. The caveat is that a long pile can hide the controller cord, and no wattage is listed.",
+    "description": "BEARKISS pairs a faux fur face with a sherpa back and gives 9 heat levels and an auto shut-off of up to 10 hours. The listing cites ETL and FCC marks, and says the throw is machine washable and sold in larger sizes too.\n\nIt costs under $35, below Sealy, and offers more levels but no stated temperatures. Against Cushious below, it has a longer shut-off window and a safety mark named.\n\nBest for a fluffy, high-pile throw. The caveat is that a long pile can hide the controller cord, and no wattage is listed.",
     "specs": [
       "9 heat levels",
       "Up to 10 hour auto shut-off",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41-OoVllMbL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FJ8G9KPK?tag=deskfinds0d-20",
-    "description": "Molatink states a 100W power rating and has 5 heat settings, with a default 4 hour auto shut-off and ETL certification plus NTC overheating protection. It is flannel on one side and sherpa on the other.\n\nIt is one of only two throws that give a wattage, which helps if you share a circuit. It costs $28.48 and has a shorter fixed cutoff than Mlivrom's 10 hours.\n\nChoose it if you want a safe, defined throw and care about power draw. The caveat is the fixed 4 hour default, and only five levels.",
+    "description": "Molatink states a 100W power rating and has 5 heat settings, with a default 4 hour auto shut-off and ETL certification plus NTC overheating protection. It is flannel on one side and sherpa on the other.\n\nIt is one of only two throws that give a wattage, which helps if you share a circuit. It costs under $30 and has a shorter fixed cutoff than Mlivrom's 10 hours.\n\nChoose it if you want a safe, defined throw and care about power draw. The caveat is the fixed 4 hour default, and only five levels.",
     "specs": [
       "100W, 5 heat settings",
       "Default 4 hour auto shut-off",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41ifHmxcL7L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H32J6PYJ?tag=deskfinds0d-20",
-    "description": "Qieryun lists 10 heating levels from 86 to 122F, an 8 hour auto-off, and a 220 gsm flannel with 200 gsm sherpa. A 365 day warranty is mentioned, and the listing says it is machine washable with the controller detached.\n\nIt has the widest stated range of the group at $26.99, wider than HOMLYNS's 86 to 115F. Compared with Eastsora, it gives temperature in degrees rather than abstract levels.\n\nBest for someone who wants to know the actual heat. The caveat is that no lab mark is cited, and the listing says not to use it when tumble dried.",
+    "description": "Qieryun lists 10 heating levels from 86 to 122F, an 8 hour auto-off, and a 220 gsm flannel with 200 gsm sherpa. A 365 day warranty is mentioned, and the listing says it is machine washable with the controller detached.\n\nIt has the widest stated range of the group at under $30, wider than HOMLYNS's 86 to 115F. Compared with Eastsora, it gives temperature in degrees rather than abstract levels.\n\nBest for someone who wants to know the actual heat. The caveat is that no lab mark is cited, and the listing says not to use it when tumble dried.",
     "specs": [
       "10 levels, 86F to 122F",
       "8 hour auto-off",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51bXTtDs9fL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H83247JF?tag=deskfinds0d-20",
-    "description": "Mlivrom has 5 heat levels, a 10 hour auto-off, a 220 g double-sided flannel and ETL certification, with flame-retardant material claimed. The controller detaches, and the listing allows hand washing or a gentle 30C machine wash.\n\nIt costs $25.99 and has a longer auto-off than Molatink or HOMLYNS, but only five levels and no stated temperatures. Against Qieryun, it has a named lab mark.\n\nGood for a simple, certified throw. The caveat is that the 30C wash limit is stricter than most, so follow the listing exactly.",
+    "description": "Mlivrom has 5 heat levels, a 10 hour auto-off, a 220 g double-sided flannel and ETL certification, with flame-retardant material claimed. The controller detaches, and the listing allows hand washing or a gentle 30C machine wash.\n\nIt costs under $30 and has a longer auto-off than Molatink or HOMLYNS, but only five levels and no stated temperatures. Against Qieryun, it has a named lab mark.\n\nGood for a simple, certified throw. The caveat is that the 30C wash limit is stricter than most, so follow the listing exactly.",
     "specs": [
       "5 levels, 10 hour auto-off",
       "220 g flannel, ETL certified",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41gggbM5D2L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FD2VJ1YY?tag=deskfinds0d-20",
-    "description": "HOMLYNS offers 5 settings from 86 to 115F, an automatic shut-off after 3 hours and ETL certification with both NTC and PTC temperature monitoring. The listing says it is machine washable.\n\nIt costs $24.98, the lowest here, and its 3 hour cutoff is the shortest of the group, safer for forgetful use than Mlivrom's 10 hours. It also states a degree range, which Mlivrom does not.\n\nBest for a short-cutoff throw at the lowest price. The caveat is that the fixed 3 hour shutoff means restarting during long sessions.",
+    "description": "HOMLYNS offers 5 settings from 86 to 115F, an automatic shut-off after 3 hours and ETL certification with both NTC and PTC temperature monitoring. The listing says it is machine washable.\n\nIt costs under $25, the lowest here, and its 3 hour cutoff is the shortest of the group, safer for forgetful use than Mlivrom's 10 hours. It also states a degree range, which Mlivrom does not.\n\nBest for a short-cutoff throw at the lowest price. The caveat is that the fixed 3 hour shutoff means restarting during long sessions.",
     "specs": [
       "5 settings, 86F to 115F",
       "3 hour auto shut-off",
@@ -291,7 +291,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     "title": "Value for price",
-    "description": "Prices from $24.98 to $45.99 were compared with the documented features."
+    "description": "Prices from roughly $25 to $50 were compared with the documented features."
   }
 ];
 

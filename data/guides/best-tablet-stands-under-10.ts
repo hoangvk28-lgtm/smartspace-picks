@@ -77,7 +77,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B08RNBRCSV?tag=deskfinds0d-20",
     description: "This stand's premium metal material provides durability at the lowest price in this comparison, with rubber skin covering the frame to protect your tablet or photo frame from sliding or scratches. Its 0 to 180 degree adjustment range is the widest angle span in this tier, supporting both vertical and horizontal viewing.\n\nCompared to the UGREEN pick above, this one covers a broader 5.5 to 12.9 inch device range and doubles as a picture frame or book stand beyond just tablet use. At just 3.1 ounces, it's genuinely lightweight for travel while still using metal rather than plastic construction.\n\nBest for buyers who want the lowest price with the widest adjustment angle range.",
     specs: ["Fits 5.5-12.9in devices, metal construction", "0-180 degree adjustment range", "3.1 ounces, rubber-covered hooks"],
-    pros: ["Cheapest pick in this comparison at $7.69", "Widest adjustment angle range at 0-180 degrees", "Doubles as a picture frame or book stand"],
+    pros: ["Cheapest pick in this comparison at under $8", "Widest adjustment angle range at 0-180 degrees", "Doubles as a picture frame or book stand"],
     cons: ["Smaller minimum device size range than some competitors", "12-month warranty is shorter than some alternatives"],
     bestFor: "buyers who want the lowest price with the widest adjustment range",
   }
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The widest case compatibility with 360-degree rotation", "Lamicall Adjustable iPad Stand for Desk, Ultra-Slim Foldable"],
         ["Ergonomic design with a maintenance tool included", "Tonmom Tablet Stand for iPad Holder, Adjustable Tablet Holder for Desk"],
         ["The most pocket-friendly size with precise specs", "UGREEN Tablet Stand Holder Adjustable Portable Desktop Dock"],
-        ["The lowest price with the widest adjustment range", "VOVIGGOL Adjustable Tablet Stand Holder, Non-Slip Foldable"],
+        ["The lowest price with the widest adjustment range", "VOVIGGOL Adjustable Tablet Stand Holder, Non-Slip Foldable"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $8", "VOVIGGOL ($7.69)"],
-        ["Under $8.50", "UGREEN ($7.99)"],
-        ["Under $9.50", "Tonmom ($8.99)"],
-        ["Under $10", "Lamicall ($9.99)"],
+        ["Under $8", "VOVIGGOL (under $8)"],
+        ["under $9", "UGREEN (under $8)"],
+        ["under $10", "Tonmom (under $9)"],
+        ["Under $10", "Lamicall (under $10)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Metal Construction vs ABS Plastic",
     cards: [
       { label: "Metal construction (Lamicall, Tonmom, VOVIGGOL)", text: "Provides better durability and a more premium feel, though it adds a bit of weight compared to plastic." },
-      { label: "ABS plastic (UGREEN)", text: "Trades some durability for a lighter, more pocket-friendly design suited to frequent travel." },
+      { label: "ABS plastic (UGREEN)", text: "Trades some durability for a lighter, more pocket-friendly design suited to frequent travel." }
     ],
     note: "If you want a stand that stays sturdy over years of daily use, the metal-constructed picks are worth prioritizing. If ultra-portability for travel matters more than long-term durability, the UGREEN's compact ABS design is the better fit.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Thin case or no case, under 0.55in", "UGREEN"],
         ["Standard case thickness", "Tonmom or VOVIGGOL"],
-        ["Thick protective case, up to 0.75in", "Lamicall"],
+        ["Thick protective case, up to 0.75in", "Lamicall"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Buyer Who Never Removes Their Tablet's Case Specifically",
     cards: [
       { label: "Look for", text: "A stand with an explicitly stated maximum device thickness that accounts for a case, not just the bare tablet's thickness alone." },
-      { label: "In this comparison", text: "The Lamicall pick's specifically stated 0.75 inch case-inclusive thickness limit is the widest in this tier, directly addressing buyers who keep their tablet in a protective case." },
+      { label: "In this comparison", text: "The Lamicall pick's specifically stated 0.75 inch case-inclusive thickness limit is the widest in this tier, directly addressing buyers who keep their tablet in a protective case." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the widest case compatibility with genuine 360-degree rotation, where the Lamicall pick delivers both at the top of this tier." },
-      { label: "Save if", text: "You just want a basic, widely adjustable stand at the lowest price, where the VOVIGGOL pick covers that for about $2 less." },
+      { label: "Save if", text: "You just want a basic, widely adjustable stand at the lowest price, where the VOVIGGOL pick covers that for about $2 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

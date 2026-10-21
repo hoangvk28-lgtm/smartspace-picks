@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $174.99",
+          "Under $180",
           "Lateral File Cabinet with Charging Station"
         ],
         [
-          "Around $174.99",
+          "Under $180",
           "Lateral File Cabinet with Charging Station"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "6 Drawers File Cabinet with Power Strip fits Legal/Letter/A4 Size"
         ],
         [
-          "Around $219.99",
+          "Under $250",
           "59\" Filing Cabinet with Lock Drawers fits Legal Size for Home Office"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "Perledesign 3 Drawer File Cabinet"
         ],
         [
-          "Around $269.99",
+          "Under $300",
           "ModernMate 4 Drawer File Cabinet with Lock"
         ],
         [
-          "Around $287.99",
+          "Under $300",
           "ModernMate 60\" File Cabinet with Drawers & Door"
         ],
         [
-          "Around $359.99",
+          "Under $400",
           "ModernMate 63\" Lateral File Cabinet with Lock"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", "a": "ModernMate 63\" Lateral File Cabinet with Lock is aimed at buyers prioritizing 300 lb top load rating, 1.18in thick top" },
+  { "q": "What's the single best pick to come out of this comparison?", "a": "ModernMate 63\" Lateral File Cabinet with Lock is aimed at buyers prioritizing 300 lb top load rating, 1.18in thick top" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"},{"href":"/guide/best-office-credenzas-with-file-storage","title":"Best Office Credenzas With File Storage in 2026"},{"href":"/guide/best-black-office-credenzas-with-file-drawers","title":"Best Black Office Credenzas With File Drawers in 2026"}];

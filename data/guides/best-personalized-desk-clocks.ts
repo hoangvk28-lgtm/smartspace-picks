@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "personalized desk clock";
 export const introParagraphs = [
   "A personalized desk clock adds a name, date, or custom message through engraving, making it a common choice for retirement, graduation, wedding, and corporate recognition gifts. We're framing this guide around gift occasions specifically, matching materials and price points to common reasons people buy a personalized clock. If you're more focused on the customization process itself, choosing between engraving styles, materials, and text options, see our custom desk clocks guide, which covers this same product pool from that angle.",
-  "Every pick below requires engraving before it ships, which adds real production time beyond a standard order. We cover realistic lead times in the buying criteria below so you don't miss a gift deadline.",
+  "Every pick below requires engraving before it ships, which adds real production time beyond a standard order. We cover realistic lead times in the buying criteria below so you don't miss a gift deadline."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "10 min";
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Matched each pick to a realistic gift occasion", description: "Grouped picks by likely gift use, corporate recognition, retirement, photo-based sentimental gifts, rather than treating personalized clocks as one interchangeable category." },
   { title: "Engraving inclusion and lead time checked per listing", description: "Verified whether customization was included in price versus an added cost, and noted that all personalized pieces require production time before shipping." },
   { title: "Material and function variety assessed across the list", description: "Balanced wood, glass, crystal, and digital picks, and called out which ones double as functional alarm clocks versus display-only pieces." },
-  { title: "Cross-checked against our custom desk clocks guide to avoid duplicate framing", description: "Ordered and framed this guide around gift occasions specifically, while our custom desk clocks guide covers the same pool from a customization-process angle." },
+  { title: "Cross-checked against our custom desk clocks guide to avoid duplicate framing", description: "Ordered and framed this guide around gift occasions specifically, while our custom desk clocks guide covers the same pool from a customization-process angle." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -278,11 +278,11 @@ export const faq: FaqItem[] = [
   { q: "How far in advance should I order a personalized desk clock?", a: "Order at least a week to ten days before your gift deadline. Custom engraving typically requires several business days of production after you approve the design." },
   { q: "Do personalized desk clocks include a battery?", a: "It varies by listing, some explicitly include a battery, others don't specify, check the individual product details before assuming." },
   { q: "Can I put a photo on a personalized desk clock?", a: "Yes, one pick in this guide specifically supports photo engraving on wood, though it renders as an etched image rather than a full-color printed photo." },
-  { q: "What's the difference between this guide and your custom desk clocks guide?", a: "This guide organizes the same product pool around common gift occasions like retirement and corporate recognition, while the custom guide focuses more on the customization process itself, material and text options." },
+  { q: "What's the difference between this guide and your custom desk clocks guide?", a: "This guide organizes the same product pool around common gift occasions like retirement and corporate recognition, while the custom guide focuses more on the customization process itself, material and text options." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-custom-desk-clocks", title: "Best Custom Desk Clocks (2026)" },
   { href: "/guide/best-crystal-desk-clocks", title: "Best Crystal Desk Clocks (2026)" },
-  { href: "/guide/best-luxury-desk-clocks", title: "Best Luxury Desk Clocks (2026)" },
+  { href: "/guide/best-luxury-desk-clocks", title: "Best Luxury Desk Clocks (2026)" }
 ];

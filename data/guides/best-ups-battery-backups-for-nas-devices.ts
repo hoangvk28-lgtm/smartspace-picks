@@ -5,7 +5,7 @@ export const metaDescription = "6 UPS units we evaluated for NAS protection, wit
 export const mainKeyword = "UPS battery backup for NAS";
 export const introParagraphs = [
   "A UPS communicates remaining runtime to a NAS via USB or network, often using NUT (Network UPS Tools) or a vendor-proprietary protocol, if the shutdown trigger threshold isn't configured with sufficient margin, the NAS's RAID array can be caught mid-write when the battery finally depletes, risking data corruption despite having a UPS in place.",
-  "A dedicated NAS-specific UPS with vendor software integration (Synology, QNAP, TrueNAS compatibility) genuinely simplifies this setup versus a generic UPS you configure manually, though generic units work fine once configured correctly.",
+  "A dedicated NAS-specific UPS with vendor software integration (Synology, QNAP, TrueNAS compatibility) genuinely simplifies this setup versus a generic UPS you configure manually, though generic units work fine once configured correctly."
 ];
 export const lastUpdated = "2026-07-30";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Purpose-Built NAS UPS",
     name: "WALLECUBE NAS UPS Compatible for: Synology, Ugreen, TerraMaster, QNAP. 150W DC Uninterruptible Power Supply with Remote APP Control, HomeServer Protector Designed for DC NAS and Mini PC",
     price: "$79.00",
-    rating: "4.8 stars from 17 Amazon ratings",
-    reviews: "17 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31ML8Ta-OHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPD6PJ92?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best General-Purpose NAS UPS",
     name: "APC UPS 650VA/390W Battery Backup & Surge Protector for PC, NAS | BE650G1",
     price: "$109.99",
-    rating: "4.6 stars from 4,110 Amazon ratings",
-    reviews: "4,110 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31pgnLVo0dL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B005GZRUZW?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Higher-Capacity NAS UPS",
     name: "APC UPS 850VA/450W UPS Battery Backup & Surge Protector for PC, Router, NAS",
     price: "$137.70",
-    rating: "4.6 stars from 3,792 Amazon ratings",
-    reviews: "3,792 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/313IpZaRpEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B085JJZDFK?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget NAS UPS",
     name: "APC UPS 600VA/330W UPS Battery Backup for Computer, Router, NAS, BE600M1",
     price: "$83.99",
-    rating: "4.5 stars from 29,088 Amazon ratings",
-    reviews: "29,088 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41h0sXfkrSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01FWAZEIU?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Pure Sine Wave Option for Sensitive NAS Hardware",
     name: "CyberPower CP850PFCLCD PFC Sinewave UPS Battery Backup and Surge Protector",
     price: "$169.95",
-    rating: "4.4 stars from 896 Amazon ratings",
-    reviews: "896 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/317PvPHMHKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00429N18S?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Network/NAS Rack Setups",
     name: "Ubiquiti UniFi UPS Tower 1000VA/600W Uninterruptible Power Supply (UPS-Tower)",
     price: "$267.00",
-    rating: "4.3 stars from 31 Amazon ratings",
-    reviews: "31 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21U2VNukpiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVNH9RY2?tag=deskfinds0d-20",
     description:
@@ -120,14 +120,14 @@ export const products: GuideProduct[] = [
     pros: ["Integrates with existing UniFi network monitoring", "Higher capacity for combined NAS and networking equipment", "Clean tower design for shelf or rack placement", "Good rating on early review base"],
     cons: ["Smaller review base than established APC/CyberPower picks", "Premium price for the capacity offered", "Still requires manual NAS shutdown-signal configuration"],
     bestFor: "Buyers already using UniFi networking gear who want integrated monitoring",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Graceful shutdown signal compatibility with major NAS platforms", description: "Checked whether each pick supports USB or network-based shutdown signaling (NUT or vendor-proprietary) compatible with Synology, QNAP, TrueNAS, and similar platforms, since this is what actually prevents RAID corruption during an extended outage." },
   { title: "Purpose-built vs. general-purpose NAS compatibility", description: "Distinguished the one purpose-built NAS-specific UPS in this lineup from general-purpose UPS units explicitly rated for NAS use, since the tradeoffs (vendor-specific compatibility vs. broader flexibility) differ meaningfully." },
-  { title: "Capacity matched to single-bay vs. multi-bay NAS setups", description: "Ranked picks from entry-level 600VA (single-bay NAS) through 1000VA (NAS plus networking equipment) so buyers can size to their actual drive count and load." },
+  { title: "Capacity matched to single-bay vs. multi-bay NAS setups", description: "Ranked picks from entry-level 600VA (single-bay NAS) through 1000VA (NAS plus networking equipment) so buyers can size to their actual drive count and load." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -260,11 +260,11 @@ export const faq: FaqItem[] = [
   { q: "Should I buy a NAS-specific UPS or a general-purpose one?", a: "A purpose-built NAS UPS (like the WALLECUBE pick) simplifies setup with vendor app integration, but narrows compatibility to specific NAS brands and power types. A general-purpose UPS with NUT support works with nearly any NAS platform once configured correctly." },
   { q: "How much UPS capacity does my NAS actually need?", a: "It depends on your drive count. A single-bay NAS draws far less power than a multi-bay unit with several drives spinning simultaneously, size to your actual equipment rather than defaulting to the highest-capacity option." },
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers with a DC-powered NAS from a supported vendor who want purpose-built compatibility" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers with a DC-powered NAS from a supported vendor who want purpose-built compatibility At $79.00, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers with a DC-powered NAS from a supported vendor who want purpose-built compatibility At under $80, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-ups-battery-backups-with-replaceable-batteries", title: "Best UPS Battery Backups with Replaceable Batteries (2026)" },
   { href: "/guide/best-ups-battery-backups-for-computers-and-monitors", title: "Best UPS Battery Backups for Computers and Monitors (2026)" },
-  { href: "/guide/best-600va-ups-battery-backups", title: "Best 600VA UPS Battery Backups (2026)" },
+  { href: "/guide/best-600va-ups-battery-backups", title: "Best 600VA UPS Battery Backups (2026)" }
 ];

@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The highest weight capacity at the lowest price", "HOOBRO Printer Stand for Desk, 2-Tier Desktop Printer Shelf"],
         ["Rolling mobility to reposition your setup", "Asgolion Printer Table, 2-Tier Under Desk Printer Stand"],
         ["The highest weight capacity with warranty backing", "Gewudraw Printer Stand, Printer Table for Home Office"],
-        ["Reinforced bracing and a document-catching mesh", "VYUOL Printer Stand for Desk"],
+        ["Reinforced bracing and a document-catching mesh", "VYUOL Printer Stand for Desk"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $20", "HOOBRO ($19.99)"],
-        ["Under $22", "Asgolion ($21.99)"],
-        ["Under $23", "Gewudraw ($22.99)"],
-        ["Under $24", "VYUOL ($23.99)"],
+        ["Under $20", "HOOBRO (under $20)"],
+        ["Under $22", "Asgolion (under $25)"],
+        ["Under $23", "Gewudraw (under $25)"],
+        ["Under $24", "VYUOL (under $25)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Fixed Base vs Rolling Casters",
     cards: [
       { label: "Fixed base (HOOBRO, Gewudraw, VYUOL)", text: "Provides a stable, stationary platform without the added cost or complexity of caster wheels, better for a printer that stays in one spot." },
-      { label: "Rolling casters (Asgolion)", text: "Lets you reposition the stand easily between desk configurations or rooms, worth the tradeoff if your setup changes regularly." },
+      { label: "Rolling casters (Asgolion)", text: "Lets you reposition the stand easily between desk configurations or rooms, worth the tradeoff if your setup changes regularly." }
     ],
     note: "If your printer setup is permanent and won't move, a fixed-base pick like the HOOBRO saves a little money. If you rearrange your workspace often, the Asgolion's rolling casters add genuine convenience.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Light printers under 55 lbs total load", "HOOBRO"],
         ["Heavier printers or combined supplies up to 120 lbs", "Gewudraw"],
-        ["Unspecified capacity, standard home printers", "Asgolion or VYUOL"],
+        ["Unspecified capacity, standard home printers", "Asgolion or VYUOL"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Shared Home Office With Multiple Users Specifically",
     cards: [
       { label: "Look for", text: "Rolling casters with locking wheels, so the printer stand can be repositioned to accommodate different users' desk setups without needing to lift and carry it." },
-      { label: "In this comparison", text: "The Asgolion pick's four swivel casters with 2 locking wheels specifically support easy repositioning for a shared or frequently rearranged office space." },
+      { label: "In this comparison", text: "The Asgolion pick's four swivel casters with 2 locking wheels specifically support easy repositioning for a shared or frequently rearranged office space." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the highest stated weight capacity with warranty backing, where the Gewudraw pick delivers both at the top of this tier." },
-      { label: "Save if", text: "You just need a basic fixed stand for a lightweight printer, where the HOOBRO pick covers that for about $3 less." },
+      { label: "Save if", text: "You just need a basic fixed stand for a lightweight printer, where the HOOBRO pick covers that for about $3 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

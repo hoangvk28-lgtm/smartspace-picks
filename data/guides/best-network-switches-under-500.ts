@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     description: "NETGEAR 5-Port Gigabit Ethernet Unmanaged Network Switch (GS305) and is built around gigabit ethernet ports, positioning it for under 500 buyers specifically.\n\nPLUG-AND-PLAY UNMANAGED NETWORK SWITCH is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 500, though as with any networking purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["GIGABIT ETHERNET PORTS","PLUG-AND-PLAY UNMANAGED NETWORK SWITCH","FLEXIBLE MOUNTING OPTIONS"],
     pros: ["GIGABIT ETHERNET PORTS, confirmed directly in the listing's own spec details","PLUG-AND-PLAY UNMANAGED NETWORK SWITCH, confirmed directly in the listing's own spec details","FLEXIBLE MOUNTING OPTIONS, confirmed directly in the listing's own spec details"],
-    cons: ["At $13.49, worth comparing against similarly specced networking devices before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $15, worth comparing against similarly specced networking devices before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 500",
   }
 

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "best vertical mice for gaming";
 export const introParagraphs = [
   "Gaming-marketed vertical mice are a genuinely small niche, and the label 'gaming' doesn't guarantee the sensor and DPI quality of a dedicated gaming mouse at a similar price. This category tends to see less R&D investment than mainstream gaming mice, so it's worth checking actual DPI figures and buyer feedback on tracking accuracy rather than assuming parity just because a product uses gaming branding or RGB lighting.",
-  "We also looked at how comfortable each pick is for fast lateral movement common in FPS-style games specifically, since the vertical grip changes wrist mechanics in ways that can help or hurt depending on genre, and checked programmable button count and placement against typical needs for MMO or MOBA titles versus FPS titles. Adjustable weight is rare in this niche, more often fixed, so we noted that explicitly rather than assuming it's available.",
+  "We also looked at how comfortable each pick is for fast lateral movement common in FPS-style games specifically, since the vertical grip changes wrist mechanics in ways that can help or hurt depending on genre, and checked programmable button count and placement against typical needs for MMO or MOBA titles versus FPS titles. Adjustable weight is rare in this niche, more often fixed, so we noted that explicitly rather than assuming it's available."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Purpose-Built Gaming Vertical Mouse",
     name: "Attoe Gaming Mouse with 5D Rocker, Wireless Vertical Mouse with 2400 DPI",
     price: "$35.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "116 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41XVdqDE3aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9PDRYZK?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Crossover Pick",
     name: "Anker 2.4G Wireless Ergonomic Mouse, Right Hand Vertical Mouse",
     price: "$19.98",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "53,313 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31z5JT0yL+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BIFNTMC?tag=deskfinds0d-20",
     description:
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best for MMO-Style Button Needs",
     name: "Logitech MX Vertical Wireless Mouse Ergonomic Design",
     price: "Check current price on Amazon",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "14,970 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Ig2YzI5iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07FNJB8TT?tag=deskfinds0d-20",
     description:
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-DPI Budget Pick",
     name: "TECKNET Wired Mouse, Comfortable Ergonomic Mouse with 6400 DPI",
     price: "$19.19",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "3,694 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31vAjZuq+pL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CMC1F5WB?tag=deskfinds0d-20",
     description:
@@ -94,8 +94,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Joystick Control and Highest DPI",
     name: "zelotes Wired Gaming Mouse with Joystick, 10000 DPI, 11 Programmable Buttons",
     price: "$29.99",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "247 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31fim6uc3BL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0894QX7SK?tag=deskfinds0d-20",
     description:
@@ -111,17 +111,17 @@ export const products: GuideProduct[] = [
     badge: "Best Gaming Brand Vertical Pick",
     name: "Razer Pro Click V2 Vertical Wireless Mouse, 6 Button Ergonomic Design",
     price: "$99.99",
-    rating: "4.0 stars from Amazon ratings",
-    reviews: "461 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41DVlxxe4WL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DVD5RTZ5?tag=deskfinds0d-20",
     description:
-      "From an established gaming brand, this pairs a 6-button ergonomic vertical body with wireless connectivity, useful for gaming-adjacent buyers who want brand-name software support for remapping.\n\nIts smaller review sample and more moderate 4.0-star rating are worth weighing against the premium price, and its sensor is not positioned as a top-tier competitive gaming sensor despite the brand name.\n\n6 programmable buttons for remapping. That's a real strength, but weigh it against the flip side: smaller review base and more moderate 4.0-star rating.",
+      "From an established gaming brand, this pairs a 6-button ergonomic vertical body with wireless connectivity, useful for gaming-adjacent buyers who want brand-name software support for remapping.\n\n6 programmable buttons for remapping.",
     specs: ["Wireless connectivity", "6 programmable buttons", "Rechargeable battery", "Premium price point"],
     pros: ["Established gaming brand with software support", "6 programmable buttons for remapping", "Rechargeable battery", "Ergonomic vertical body"],
-    cons: ["Smaller review base and more moderate 4.0-star rating", "Premium price relative to its rating", "Sensor not positioned as top-tier for competitive play"],
+    cons: [ "Premium price relative to its rating", "Sensor not positioned as top-tier for competitive play"],
     bestFor: "Buyers who want a recognizable gaming brand's take on a vertical mouse with reliable remapping software.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -129,7 +129,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Sensor and DPI quality checked against gaming mice at similar price", description: "We compared stated DPI ceilings to dedicated gaming mice at similar prices rather than assuming 'gaming' branding implies equivalent sensor quality." },
   { title: "Fast lateral movement comfort weighed for FPS-style genres", description: "We considered how the vertical grip's wrist mechanics likely affect comfort during fast lateral movement common in FPS-style games." },
   { title: "Programmable button count matched against genre needs", description: "We checked whether button count and placement suit MMO or MOBA genres that need many shortcuts versus FPS genres that need fewer, faster inputs." },
-  { title: "RGB, software, and adjustable weight verified rather than assumed", description: "We noted where RGB customization, macro software, or adjustable weight are actually present versus absent, since this niche is more likely fixed-weight only." },
+  { title: "RGB, software, and adjustable weight verified rather than assumed", description: "We noted where RGB customization, macro software, or adjustable weight are actually present versus absent, since this niche is more likely fixed-weight only." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -256,11 +256,11 @@ export const faq: FaqItem[] = [
   { q: "Are vertical mice good for competitive gaming?", a: "It depends on genre and sensor quality. Fast FPS play generally benefits from a dedicated gaming mouse, while slower-paced genres are more forgiving of a vertical grip." },
   { q: "Do gaming-marketed vertical mice have as good a sensor as dedicated gaming mice?", a: "Not always. This niche often sees less R&D investment, so check the actual stated DPI ceiling rather than trusting the gaming label alone." },
   { q: "Can I use a non-gaming vertical mouse for casual gaming?", a: "Yes, for casual or slower-paced games a general ergonomic vertical mouse can work fine, though it won't match a dedicated gaming sensor for competitive play." },
-  { q: "Do vertical gaming mice have adjustable weight?", a: "Rarely. This niche is more likely to be fixed-weight only, so check the specific listing if adjustable weight matters to you." },
+  { q: "Do vertical gaming mice have adjustable weight?", a: "Rarely. This niche is more likely to be fixed-weight only, so check the specific listing if adjustable weight matters to you." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-vertical-mice", title: "Best Vertical Mice in 2026" },
   { href: "/guide/best-wired-vertical-mice", title: "Best Wired Vertical Mice in 2026" },
-  { href: "/guide/best-ergonomic-vertical-mice", title: "Best Ergonomic Vertical Mice in 2026" },
+  { href: "/guide/best-ergonomic-vertical-mice", title: "Best Ergonomic Vertical Mice in 2026" }
 ];

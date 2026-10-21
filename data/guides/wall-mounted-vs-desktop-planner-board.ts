@@ -12,7 +12,7 @@ export const wallMountedVsDesktopPlannerBoardGuide: Guide = {
     "wall planner vs desk planner",
     "desktop whiteboard worth it",
     "mounted planning board visibility",
-    "small desk planner board options",
+    "small desk planner board options"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const wallMountedVsDesktopPlannerBoardGuide: Guide = {
     "whiteboard-vs-corkboard",
     "magnetic-vs-non-magnetic-whiteboard",
     "under-desk-storage-options-explained",
-    "what-size-desk-do-i-need",
+    "what-size-desk-do-i-need"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const wallMountedVsDesktopPlannerBoardGuide: Guide = {
       question: "Which is better for a small desk in a small room?",
       answer:
         "A wall-mounted board is generally better for a small desk since it preserves desk surface space entirely, using vertical wall space instead, which is often more available than horizontal desk space in a compact room.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const wallMountedVsDesktopPlannerBoardGuide: Guide = {
     {
       heading: "Weighing Installation Effort Against Long-Term Placement",
       body: `If you're renting and hesitant to drill into walls, or you anticipate rearranging your workspace or desk location relatively soon, a desktop board's zero-installation setup and easy relocation offers real practical value despite its desk space tradeoff. If your desk setup is a stable, permanent fixture and you're comfortable with wall mounting, the improved visibility and desk space preservation of a wall-mounted board make it the generally stronger choice for sustained daily use.`,
-    },
+    }
   ],
 };

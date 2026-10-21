@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Factory-calibrated color accuracy for creative work", "ASUS ProArt PA247CV 24 Inch Professional Monitor"],
         ["Maximum screen size and speed", "Sceptre 32-inch 2K QHD Gaming Monitor"],
-        ["Maximum laptop charging power and wired Ethernet", "ASUS BE249CGN 24 Inch 96W Docking Monitor"],
+        ["Maximum laptop charging power and wired Ethernet", "ASUS BE249CGN 24 Inch 96W Docking Monitor"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["$165-$180", "ASUS ProArt PA247CV ($169.00) or Sceptre 32-inch QHD ($178.97)"],
-        ["$185-$190", "ASUS BE249CGN 96W Docking Monitor ($184.99) or ViewSonic VX2767U-2K ($189.99)"],
+        ["$165-$180", "ASUS ProArt PA247CV (under $170) or Sceptre 32-inch QHD (under $180)"],
+        ["$185-$190", "ASUS BE249CGN 96W Docking Monitor (under $190) or ViewSonic VX2767U-2K (under $190)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "24\" Color Accuracy vs 32\" Screen Size",
     cards: [
       { label: "24\" Factory-Calibrated (ASUS ProArt PA247CV)", text: "Delta E under 2 accuracy backed by Calman verification, ideal for photo editing or design work where color precision matters more than screen real estate." },
-      { label: "32\" Uncalibrated (Sceptre QHD)", text: "Significantly more screen space and a faster 210Hz refresh rate, but without factory calibration, better suited to gaming, general productivity, or media consumption." },
+      { label: "32\" Uncalibrated (Sceptre QHD)", text: "Significantly more screen space and a faster 210Hz refresh rate, but without factory calibration, better suited to gaming, general productivity, or media consumption." }
     ],
     note: "If your work involves matching on-screen colors to a final printed or exported result, the ASUS ProArt's calibration is worth prioritizing over the Sceptre's extra size.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your laptop's charging needs", "Recommended pick"],
       rows: [
         ["Under 65W (most ultrabooks)", "ASUS ProArt PA247CV or ViewSonic VX2767U-2K, both at 65W"],
-        ["65-96W (larger or gaming laptops)", "ASUS BE249CGN 24 Inch 96W Docking Monitor"],
+        ["65-96W (larger or gaming laptops)", "ASUS BE249CGN 24 Inch 96W Docking Monitor"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Growing Multi-Monitor Setup Specifically",
     cards: [
       { label: "Look for", text: "DisplayPort daisy-chain support, which lets you connect additional monitors from the first one without needing extra ports on your laptop or desktop." },
-      { label: "In this comparison", text: "The ASUS BE249CGN specifically supports DisplayPort daisy-chaining, making it the easiest pick to expand into a multi-monitor setup later." },
+      { label: "In this comparison", text: "The ASUS BE249CGN specifically supports DisplayPort daisy-chaining, making it the easiest pick to expand into a multi-monitor setup later." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You need maximum USB-C charging wattage for a power-hungry laptop, where the ASUS BE249CGN's 96W delivery is the strongest option in this guide." },
-      { label: "Save if", text: "A 24\" panel with solid color accuracy is enough, where the ASUS ProArt PA247CV delivers factory calibration for the lowest price in this comparison." },
+      { label: "Save if", text: "A 24\" panel with solid color accuracy is enough, where the ASUS ProArt PA247CV delivers factory calibration for the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

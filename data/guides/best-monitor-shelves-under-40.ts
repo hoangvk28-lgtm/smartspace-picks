@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Built-in USB charging with spacious storage", "Simple Trending 2-Tier Metal Dual Monitor Stand with USB"],
         ["Adjustable width for different desk configurations", "Klearlook Adjustable Foldable Monitor Riser with Storage Drawer"],
-        ["A natural bamboo look with flexible shelving", "Ufine Bamboo Laptop Stand for Desk with Storage"],
+        ["A natural bamboo look with flexible shelving", "Ufine Bamboo Laptop Stand for Desk with Storage"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["$32-$33", "Klearlook Foldable ($32.99) or Ufine Bamboo ($32.99)"],
-        ["$39-$40", "Simple Trending with USB ($39.97) or HOOBRO 2-Tier ($39.99)"],
+        ["$32-$33", "Klearlook Foldable (under $35) or Ufine Bamboo (under $35)"],
+        ["$39-$40", "Simple Trending with USB (under $40) or HOOBRO 2-Tier (under $40)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Fixed-Width vs Adjustable-Width Design",
     cards: [
       { label: "Fixed-Width (Simple Trending, HOOBRO, Ufine)", text: "Simpler, one-piece construction that works well once set up, but doesn't adapt if you rearrange your desk or change equipment later." },
-      { label: "Adjustable-Width (Klearlook)", text: "Folds to 3 different widths, genuinely useful if your desk setup changes or you want to fit a full-sized mechanical keyboard underneath." },
+      { label: "Adjustable-Width (Klearlook)", text: "Folds to 3 different widths, genuinely useful if your desk setup changes or you want to fit a full-sized mechanical keyboard underneath." }
     ],
     note: "If your desk configuration is stable and unlikely to change, a fixed-width pick works fine. If you anticipate rearranging your setup, the adjustable Klearlook pick offers more long-term flexibility.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your charging needs", "Recommended pick"],
       rows: [
         ["Want to charge a phone directly from the stand", "Simple Trending 2-Tier Metal Dual Monitor Stand with USB"],
-        ["No built-in charging needed", "Klearlook, Ufine Bamboo, or HOOBRO"],
+        ["No built-in charging needed", "Klearlook, Ufine Bamboo, or HOOBRO"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Full-Sized Mechanical Keyboard Specifically",
     cards: [
       { label: "Look for", text: "An adjustable-width design that can extend wide enough to fit a full-sized mechanical keyboard underneath comfortably." },
-      { label: "In this comparison", text: "The Klearlook pick's 20.5 inch maximum width is specifically designed to fit a full-sized mechanical keyboard underneath." },
+      { label: "In this comparison", text: "The Klearlook pick's 20.5 inch maximum width is specifically designed to fit a full-sized mechanical keyboard underneath." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want built-in USB charging and the most spacious 2-tier storage, where the Simple Trending pick delivers both features at the top of this comparison." },
-      { label: "Save if", text: "A bamboo aesthetic with repositionable storage covers your needs, where the Ufine pick delivers this for slightly less than the pricier alternatives." },
+      { label: "Save if", text: "A bamboo aesthetic with repositionable storage covers your needs, where the Ufine pick delivers this for slightly less than the pricier alternatives." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

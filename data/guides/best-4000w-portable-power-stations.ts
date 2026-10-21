@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $669.00",
+          "Under $700",
           "AFERIY P210 Solar Generator"
         ],
         [
-          "Around $699.00",
+          "Under $700",
           "ALLPOWERS R2500 V2 Portable Power Station"
         ],
         [
-          "Around $699.98",
+          "Under $700",
           "AFERIY P280 Portable Power Station"
         ],
         [
-          "Around $949.99",
+          "Under $950",
           "Anker SOLIX C2000 Gen 2 Portable Power Station"
         ],
         [
-          "Around $1,169.00",
+          "Under $1,200",
           "AFERIY 3840Wh Portable Power Station"
         ],
         [
-          "Around $1,199.00",
+          "Under $1,200",
           "ABOK Ark3600 Portable Power Station"
         ],
         [
-          "Around $1,499.00",
+          "Under $1,500",
           "P5000 Pro Portable Power Station"
         ],
         [
-          "Around $2,799.00",
+          "Under $2,800",
           "EcoFlow DELTA Pro 3 Portable Power Station"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "EcoFlow DELTA Pro 3 Portable Power Station is aimed at buyers prioritizing 4096wh (expandable to 48kwh), 4000w (12000w max)." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "EcoFlow DELTA Pro 3 Portable Power Station is aimed at buyers prioritizing 4096wh (expandable to 48kwh), 4000w (12000w max)." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-1000w-portable-power-stations","title":"Best 1000W Portable Power Stations in 2026"},{"href":"/guide/best-2000w-portable-power-stations","title":"Best 2000W Portable Power Stations in 2026"},{"href":"/guide/best-3000w-portable-power-stations","title":"Best 3000W Portable Power Stations in 2026"}];

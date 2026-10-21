@@ -232,11 +232,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "YCKJNB 86in Smart Board",
-        "text": "YCKJNB 86in Smart Board is aimed at buyers prioritizing 86in 4k, 13mp camera, 8-mic array At $2,499.00, it's the lowest-cost pick in this comparison."
+        "text": "YCKJNB 86in Smart Board is aimed at buyers prioritizing 86in 4k, 13mp camera, 8-mic array At under $2,500, it's the lowest-cost pick in this comparison."
       },
       {
         "label": "JAV 86in Smart Board Pro",
-        "text": "JAV 86in Smart Board Pro is aimed at buyers prioritizing 86in 4k, 48mp ai camera, 100w soundbar At $2,499.00, it sits at the higher end of this comparison's price range."
+        "text": "JAV 86in Smart Board Pro is aimed at buyers prioritizing 86in 4k, 48mp ai camera, 100w soundbar At under $2,500, it sits at the higher end of this comparison's price range."
       }
     ],
     "note": "Most buyers should default to YCKJNB 86in Smart Board unless the pricier pick's specific advantage applies to your situation."
@@ -280,7 +280,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "YCKJNB 86in Smart Board Buyers prioritizing 86in 4k, 13mp camera, 8-mic array. 85in 4K Smart Board (20-Point Touch) Buyers prioritizing 85in 4k, android 13, 20-point touch."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -332,7 +332,7 @@ export const faq = [
     "a": "Yes, in almost every case. An OPS (Open Pluggable Specification) slot is just an expansion bay, the actual Windows computer module that plugs into it is sold separately and can cost as much as a mid-range laptop. Confirm the OPS module price before assuming Windows compatibility is included in the board's sticker price."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", "a": "YCKJNB 86in Smart Board is aimed at buyers prioritizing 86in 4k, 13mp camera, 8-mic array" },
+  { "q": "Which product in this roundup earns the top overall recommendation?", "a": "YCKJNB 86in Smart Board is aimed at buyers prioritizing 86in 4k, 13mp camera, 8-mic array" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-86-inch-interactive-whiteboards","title":"8 Best 86-Inch Interactive Whiteboards"},{"href":"/guide/best-82-inch-interactive-whiteboards","title":"8 Best 82-Inch Interactive Whiteboards"},{"href":"/guide/best-large-interactive-whiteboards","title":"7 Best Large Interactive Whiteboards"}];

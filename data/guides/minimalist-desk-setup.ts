@@ -37,7 +37,7 @@ export const ideas: MinimalIdea[] = [
     summary: "Before buying anything, clear the desk completely and bring items back only if they earn their place.",
     body: [
       "Before buying anything new, remove every item from the desk and set it on the floor. Then bring things back one at a time, only if they serve a clear daily purpose. Most people discover that roughly half of what was on their desk can stay off permanently.",
-      "A minimalist desk setup works best when the surface has one clear job: giving you enough space to work. A desk mat placed at this stage helps define the working zone and makes everything that stays feel more intentional.",
+      "A minimalist desk setup works best when the surface has one clear job: giving you enough space to work. A desk mat placed at this stage helps define the working zone and makes everything that stays feel more intentional."
     ],
     productName: "Nordik Felt + Leather Desk Mat",
     productBrand: "Nordik",
@@ -55,7 +55,7 @@ export const ideas: MinimalIdea[] = [
     summary: "A desk mat makes the workspace feel intentional by unifying everything on the surface into one clean zone.",
     body: [
       "A desk mat is one of the easiest minimalist upgrades because it makes the setup feel intentional without adding extra objects. Choose a neutral color -- charcoal, slate, beige, or black -- a simple texture, and a size that fits your keyboard and mouse without covering the full desk.",
-      "A mat also makes it immediately obvious when something does not belong. Items that sit on the mat are part of the setup. Everything else can be stored, hidden, or removed.",
+      "A mat also makes it immediately obvious when something does not belong. Items that sit on the mat are part of the setup. Everything else can be stored, hidden, or removed."
     ],
     productName: "Nordik Felt + Leather Desk Mat",
     productBrand: "Nordik",
@@ -73,7 +73,7 @@ export const ideas: MinimalIdea[] = [
     summary: "One well-chosen organizer consolidates everything without the visual weight of multiple containers.",
     body: [
       "The most common clutter mistake on a minimalist desk is using five separate containers when one would do. A pen cup, a sticky note tray, a cable box, a business card holder, and a small basket each take up individual footprint and visual attention. A single slim organizer with compartments handles all of them in one object.",
-      "For a minimal look, choose an organizer with a natural material -- bamboo or wood -- or a single neutral color. Avoid chrome, heavily branded, or multi-color options that fight for attention against everything else on the desk.",
+      "For a minimal look, choose an organizer with a natural material -- bamboo or wood -- or a single neutral color. Avoid chrome, heavily branded, or multi-color options that fight for attention against everything else on the desk."
     ],
     productName: "Sorbus Bamboo Desk Organizer",
     productBrand: "Sorbus",
@@ -91,7 +91,7 @@ export const ideas: MinimalIdea[] = [
     summary: "A minimalist setup can look messy even with beautiful objects if cables are visible -- fix cables first.",
     body: [
       "Cables are the fastest way to ruin a minimalist desk setup. Even with a good desk mat and clean accessories, loose cables behind the monitor or hanging off the side of the desk immediately signal disorder. The fix is not buying more cable organizers to put on the desk -- it is routing cables completely out of sight.",
-      "An under-desk cable tray mounted beneath the desktop keeps the power strip, excess cable length, and adapters invisible. From the front, the desk looks clean regardless of how many devices are connected. Do this before adding any other accessories.",
+      "An under-desk cable tray mounted beneath the desktop keeps the power strip, excess cable length, and adapters invisible. From the front, the desk looks clean regardless of how many devices are connected. Do this before adding any other accessories."
     ],
     productName: "Cinati Under-Desk Cable Tray",
     productBrand: "Cinati",
@@ -109,7 +109,7 @@ export const ideas: MinimalIdea[] = [
     summary: "A slim wireless charging pad replaces one or two loose cables with a single flat object on the mat.",
     body: [
       "If your phone and earbuds support wireless charging, a slim pad can replace the most persistent source of desk cable clutter. Instead of a cable that needs to be plugged and unplugged throughout the day, a flat charger sits in a fixed position and the device simply lands on it.",
-      "For a minimalist desk, choose a flat pad rather than a vertical stand -- it has a lower profile and less visual weight. Keep it at the rear corner of the desk mat so it does not interrupt the main working area.",
+      "For a minimalist desk, choose a flat pad rather than a vertical stand -- it has a lower profile and less visual weight. Keep it at the rear corner of the desk mat so it does not interrupt the main working area."
     ],
     productName: "Belkin Wireless Charging Pad 10W",
     productBrand: "Belkin",
@@ -126,7 +126,7 @@ export const ideas: MinimalIdea[] = [
     summary: "Low-profile keyboard and compact mouse create open space around the hands and reduce visual weight.",
     body: [
       "A full-size keyboard with a number pad on a minimalist desk occupies roughly 18 inches of width and signals a busy, utilitarian setup. A tenkeyless or compact wireless keyboard removes about 4 inches of horizontal space and, more importantly, changes the visual weight of the entire surface.",
-      "Pair a slim keyboard with a compact wireless mouse and place both on the desk mat to keep the layout contained. For a clean look, choose a keyboard and mouse in matching neutral colors -- black, white, or gray. Avoid backlit or gaming-style designs with visible LEDs.",
+      "Pair a slim keyboard with a compact wireless mouse and place both on the desk mat to keep the layout contained. For a clean look, choose a keyboard and mouse in matching neutral colors -- black, white, or gray. Avoid backlit or gaming-style designs with visible LEDs."
     ],
     productName: "Logitech MX Keys Mini",
     productBrand: "Logitech",
@@ -149,7 +149,7 @@ export const ideas: MinimalIdea[] = [
     summary: "A monitor stand creates vertical space and a hidden storage zone that keeps the main desk area open.",
     body: [
       "A monitor resting flat on the desk takes up depth and makes the surface feel more occupied than it needs to be. A simple monitor stand raises the screen and creates usable space underneath for a keyboard when not in use, a small notebook, or nothing -- which still looks cleaner than a monitor sitting directly on the desk.",
-      "For a minimal setup, choose a riser with a natural material or a single solid color. Avoid risers with visible mesh patterns or branding. The stand should disappear visually rather than draw attention.",
+      "For a minimal setup, choose a riser with a natural material or a single solid color. Avoid risers with visible mesh patterns or branding. The stand should disappear visually rather than draw attention."
     ],
     productName: "Bamboo Monitor Riser With Drawer",
     productBrand: "Bamboo",
@@ -167,7 +167,7 @@ export const ideas: MinimalIdea[] = [
     summary: "A monitor light bar or clamp lamp keeps lighting focused without a base occupying desk space.",
     body: [
       "Lighting is essential, but a standard lamp base takes 30 to 50 square inches of desk space and adds vertical bulk that competes with the monitor. A clamp lamp attaches to the desk edge, and a monitor light bar clips to the top of the screen -- both provide focused task lighting with zero desk footprint.",
-      "For the most minimal look, a monitor light bar is the better choice: it has no visible body on the desk at all and illuminates the work surface with an asymmetric lens that does not reflect back on the screen.",
+      "For the most minimal look, a monitor light bar is the better choice: it has no visible body on the desk at all and illuminates the work surface with an asymmetric lens that does not reflect back on the screen."
     ],
     productName: "Quntis Monitor Light Bar",
     productBrand: "Quntis",
@@ -191,7 +191,7 @@ export const ideas: MinimalIdea[] = [
     summary: "An under-desk headphone hook removes one of the most visually bulky objects from the desktop.",
     body: [
       "Headphones left on the desk take up a surprising amount of visual space. Over-ear headphones are large, irregular in shape, and hard to place neatly. An under-desk headphone hook mounts beneath the desk edge with adhesive and holds the headphones out of sight but within arm's reach.",
-      "This single change often has a disproportionate impact on how clean the desk looks. It also prevents headphones from being knocked off the desk accidentally, which is a common source of driver damage.",
+      "This single change often has a disproportionate impact on how clean the desk looks. It also prevents headphones from being knocked off the desk accidentally, which is a common source of driver damage."
     ],
     productName: "Elevation Lab Under-Desk Headphone Hook",
     productBrand: "Elevation Lab",
@@ -208,7 +208,7 @@ export const ideas: MinimalIdea[] = [
     summary: "One small, intentional decor piece makes the setup feel personal without becoming clutter.",
     body: [
       "A minimalist desk does not have to feel empty or corporate. One small plant, a framed photo, a simple clock, or a minimal succulent adds personality without creating clutter. The rule is one, not several -- the moment decorative items outnumber functional ones, the setup loses its minimal character.",
-      "Artificial succulents are a practical choice for desks with limited natural light. They look the same year-round, require no water or soil, and do not shed. Place them at the corner of the desk mat rather than in the main working area.",
+      "Artificial succulents are a practical choice for desks with limited natural light. They look the same year-round, require no water or soil, and do not shed. Place them at the corner of the desk mat rather than in the main working area."
     ],
     productName: "Funarty Artificial Succulents",
     productBrand: "Funarty",
@@ -216,7 +216,7 @@ export const ideas: MinimalIdea[] = [
     price: "$15.99",
     amazonUrl: "https://www.amazon.com/dp/B08QZDK87C?tag=deskfinds0d-20",
     whyItBelongs: ["Adds organic warmth without any maintenance", "Works in any lighting condition", "Small enough to live at the desk edge without occupying work area"],
-  },
+  }
 ];
 
 export const atAGlanceItems = ideas.map((idea) => ({
@@ -242,7 +242,7 @@ export const checklistRows = [
   { item: "Monitor stand", why: "Raises screen and creates hidden storage underneath", bestFor: "Small desks" },
   { item: "Clamp lamp or light bar", why: "Provides focused lighting with zero desk footprint", bestFor: "Study and work lighting" },
   { item: "Headphone hook", why: "Removes the largest irregular item from the desktop", bestFor: "Audio users" },
-  { item: "One decor piece", why: "Adds personality without becoming clutter", bestFor: "Cozy minimal setups" },
+  { item: "One decor piece", why: "Adds personality without becoming clutter", bestFor: "Cozy minimal setups" }
 ];
 
 export const whatNotRows = [
@@ -253,7 +253,7 @@ export const whatNotRows = [
   { item: "Random notebooks you rarely open", reason: "One notebook is fine; a stack is not" },
   { item: "Unused charging cables left plugged in", reason: "A wireless charger or cable clip removes these from sight entirely" },
   { item: "Decor that blocks your working area", reason: "Anything between you and the keyboard is in the wrong place" },
-  { item: "More than one personal item", reason: "One plant, one photo, or one clock -- not all three" },
+  { item: "More than one personal item", reason: "One plant, one photo, or one clock -- not all three" }
 ];
 
 export const useCaseRows = [
@@ -262,7 +262,7 @@ export const useCaseRows = [
   { use: "Monitor setup", focus: "Vertical organization", products: "Monitor stand, desk mat, cable tray" },
   { use: "Study desk", focus: "Open writing surface", products: "Desk mat, lamp, one pen organizer" },
   { use: "Work from home", focus: "Daily comfort and clean look", products: "Monitor stand, slim keyboard, footrest" },
-  { use: "Bedroom desk", focus: "Visual calm for sleep environment", products: "Warm clamp lamp, neutral mat, hidden cables" },
+  { use: "Bedroom desk", focus: "Visual calm for sleep environment", products: "Warm clamp lamp, neutral mat, hidden cables" }
 ];
 
 export const faq: { question: string; answer: string }[] = [
@@ -300,5 +300,5 @@ export const faq: { question: string; answer: string }[] = [
     question: "Is a minimalist desk setup good for small spaces?",
     answer:
       "Yes -- a minimal setup is especially effective on small desks because it maximizes usable surface area. A clamp lamp, slim organizer, and hidden cables free up the most space. A monitor stand with a storage shelf adds a second layer without expanding the desk footprint. See our guide to small desk setup ideas for more.",
-  },
+  }
 ];

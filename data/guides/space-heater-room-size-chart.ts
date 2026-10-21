@@ -12,7 +12,7 @@ export const spaceHeaterRoomSizeChartGuide: Guide = {
     "space heater wattage for room size",
     "how many watts to heat a room",
     "best space heater for small office",
-    "space heater btu chart",
+    "space heater btu chart"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const spaceHeaterRoomSizeChartGuide: Guide = {
     "ceramic-vs-infrared-space-heater",
     "desk-fan-cfm-explained",
     "space-heater-safety-explained",
-    "desk-lamp-lumens-guide",
+    "desk-lamp-lumens-guide"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const spaceHeaterRoomSizeChartGuide: Guide = {
       question: "Can I use a 750-watt heater in a large room?",
       answer:
         "A 750-watt heater struggles to adequately heat anything beyond a very small area, roughly 75-100 square feet, in a larger room it will run constantly without reaching a comfortable temperature.",
-    },
+    }
   ],
   sections: [
     {
@@ -76,6 +76,6 @@ This assumes standard 8-foot ceilings and reasonable insulation; poorly insulate
     {
       heading: "Adjusting for Real-World Room Conditions",
       body: `The wattage chart above assumes reasonably average insulation and standard ceiling height, a room with large single-pane windows, poor door sealing, or a ceiling higher than 8 feet will need more effective wattage than its square footage alone suggests. If your room runs noticeably colder than expected with a properly sized heater, insulation and drafts are more likely culprits than the heater itself being underpowered.`,
-    },
+    }
   ],
 };

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "nas for time machine backup";
 export const introParagraphs = [
   "A NAS built for Time Machine has one requirement that overrides everything else right now: it must run Time Machine over SMB3 with Bonjour advertising, since Apple is removing AFP (Apple Filing Protocol) support starting in macOS 27, and any NAS still depending on AFP for Time Machine will simply stop working after that update. Past that non-negotiable, the differences come down to how well each NAS manages sparse bundle growth, multiple Macs on one box, and initial backup speed.",
-  "Below are 8 NAS devices we evaluated on SMB3 readiness, per-Mac quota management, RAM for running Time Machine alongside other services, and true cost with drives included, ranging from a $199.99 diskless 2-bay for a single MacBook to a $619.99 five-core 4-bay built for a household running Time Machine on several Macs at once.",
+  "Below are 8 NAS devices we evaluated on SMB3 readiness, per-Mac quota management, RAM for running Time Machine alongside other services, and true cost with drives included, ranging from an under-$200 diskless 2-bay for a single MacBook to an under-$650 five-core 4-bay built for a household running Time Machine on several Macs at once."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Built-in Time Machine shared folder wizard (SMB3 + Bonjour)",
       "Per-Mac quota setting in the same setup flow",
       "RAID 1 support",
-      "Fixed RAM, not user-upgradeable",
+      "Fixed RAM, not user-upgradeable"
     ],
     pros: [
       "Most streamlined Time Machine setup wizard in this list",
       "Per-Mac quota built directly into shared folder creation",
       "RAID 1 protects backup history from a single drive failure",
-      "Best-documented Time Machine troubleshooting resources",
+      "Best-documented Time Machine troubleshooting resources"
     ],
     cons: [
       "Diskless, needs 2 drives purchased separately",
       "2024+ DSM shows compatibility warnings for third-party drives",
-      "Soldered RAM limits multitasking beyond backup duty",
+      "Soldered RAM limits multitasking beyond backup duty"
     ],
     bestFor: "Households with 2-3 Macs who want the easiest Time Machine setup experience",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "SMB3-based Time Machine share support",
       "Snapshot-based versioning",
       "Higher-performance CPU for large sparse bundles",
-      "UGREEN OS app ecosystem",
+      "UGREEN OS app ecosystem"
     ],
     pros: [
       "Strong CPU headroom for large, fast-growing backup archives",
       "Snapshot versioning adds protection beyond Time Machine alone",
       "SMB3 support keeps it compatible as AFP is phased out",
-      "Handles concurrent backup plus other services well",
+      "Handles concurrent backup plus other services well"
     ],
     cons: [
       "Priciest 2-bay pick in this list",
       "Overkill for a single lightly used MacBook",
-      "Time Machine setup is less turnkey than Synology's dedicated wizard",
+      "Time Machine setup is less turnkey than Synology's dedicated wizard"
     ],
     bestFor: "MacBook Pro owners with large internal drives generating sizable backup archives",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Up to 64TB total supported capacity",
       "SMB3 Time Machine share support",
       "Entry-level CPU and RAM tier",
-      "Budget-friendly diskless enclosure",
+      "Budget-friendly diskless enclosure"
     ],
     pros: [
       "Cheapest diskless 2-bay in this list",
       "Supports high total capacity for future backup growth",
       "Simple setup focused on Time Machine",
-      "Good starting point for a single-Mac household",
+      "Good starting point for a single-Mac household"
     ],
     cons: [
       "Entry-level CPU limits running multiple simultaneous services",
       "Diskless, needs drives purchased separately",
-      "Time Machine SMB3 setup requires more manual configuration than Synology's wizard",
+      "Time Machine SMB3 setup requires more manual configuration than Synology's wizard"
     ],
     bestFor: "Single-Mac households who want Time Machine backup on a tight budget",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "8GB RAM (highest in this list for a 2-bay)",
       "2.5GbE networking",
       "SMB3 Time Machine shares, multiple Macs supported",
-      "QNAP QTS with full app store",
+      "QNAP QTS with full app store"
     ],
     pros: [
       "8GB RAM handles multiple simultaneous Time Machine backups smoothly",
       "2.5GbE speeds up first-time full backups on a matching network",
       "Full QNAP app ecosystem for future expansion",
-      "Each Mac gets its own independently managed shared folder",
+      "Each Mac gets its own independently managed shared folder"
     ],
     cons: [
       "Most expensive 2-bay pick in this list",
       "Overkill for a single Mac's backup needs",
-      "Diskless, drives add to total cost",
+      "Diskless, drives add to total cost"
     ],
     bestFor: "Households with 2+ Macs backing up to Time Machine at the same time",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "2.5GbE network port",
       "SMB3 Time Machine share support",
       "QNAP QTS operating system",
-      "Standard 2-bay RAID support",
+      "Standard 2-bay RAID support"
     ],
     pros: [
       "2.5GbE meaningfully speeds up the first full Time Machine backup",
       "QNAP's app store adds flexibility beyond pure backup",
       "Reasonable price for a 2.5GbE-equipped 2-bay",
-      "Solid choice for a MacBook with a large first backup",
+      "Solid choice for a MacBook with a large first backup"
     ],
     cons: [
       "2.5GbE benefit requires a matching router or switch, an extra cost",
       "On a standard gigabit network, speed matches non-2.5GbE picks",
-      "Diskless, drives sold separately",
+      "Diskless, drives sold separately"
     ],
     bestFor: "Buyers with a 2.5GbE network who want the fastest possible first Time Machine backup",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "2.5GbE networking",
       "1GB DDR4 RAM",
       "ADM OS with SMB3 Time Machine share support",
-      "4K media server support",
+      "4K media server support"
     ],
     pros: [
       "2.5GbE networking at entry-level pricing",
       "Quad-core CPU handles Time Machine's sparse bundle writes smoothly",
       "SMB3 support built in for macOS compatibility",
-      "Good value against similarly priced 2-bay options",
+      "Good value against similarly priced 2-bay options"
     ],
     cons: [
       "1GB RAM limits running much beyond Time Machine and light file sharing",
       "Smaller app ecosystem than Synology or QNAP",
-      "Diskless, drives sold separately",
+      "Diskless, drives sold separately"
     ],
     bestFor: "First-time NAS buyers who want 2.5GbE speed for Time Machine without paying more",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "4GB RAM",
       "2.5GbE LAN",
       "SMB3 Time Machine share support",
-      "Diskless enclosure",
+      "Diskless enclosure"
     ],
     pros: [
       "Intel x86 CPU and 4GB RAM outclass ARM-based budget rivals",
       "2.5GbE networking included",
       "Handles Time Machine plus light extra services comfortably",
-      "Competitive price for the hardware tier",
+      "Competitive price for the hardware tier"
     ],
     cons: [
       "Smaller software ecosystem than Synology or QNAP",
       "Diskless, drives sold separately",
-      "Less brand-name community support for Time Machine troubleshooting",
+      "Less brand-name community support for Time Machine troubleshooting"
     ],
     bestFor: "Buyers who want Intel-class CPU headroom for Time Machine plus other light services",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Intel Pentium Gold 8505 5-core CPU",
       "Supports RAID 5/6/10 configurations",
       "Handles multiple simultaneous Time Machine shares",
-      "Highest total capacity ceiling in this list",
+      "Highest total capacity ceiling in this list"
     ],
     pros: [
       "5-core Intel CPU handles multiple simultaneous Time Machine backups easily",
       "4 bays allow RAID 5/6/10 for better redundancy than a 2-bay",
       "Highest total capacity ceiling in this list",
-      "Room to add other services without impacting backup performance",
+      "Room to add other services without impacting backup performance"
     ],
     cons: [
       "Most expensive enclosure in this list",
       "Needs 4 matching drives, a significant added cost",
-      "More setup complexity than a simple 2-bay for a single Mac",
+      "More setup complexity than a simple 2-bay for a single Mac"
     ],
     bestFor: "Households running Time Machine on 3+ Macs who want RAID flexibility",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "True total cost including drives",
     description: "Factored diskless enclosure price against the real drive cost needed to make each pick fully operational for Time Machine, not just the sticker price.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -481,11 +481,11 @@ export const faq: FaqItem[] = [
   {
     q: "Do drive compatibility warnings mean I bought the wrong drive?",
     a: "Not necessarily. Some 2024-and-newer Plus-tier NAS models show a compatibility warning in the admin panel for any drive that isn't the manufacturer's own branded line, even when a reputable third-party NAS drive like Seagate IronWolf or WD Red works fine. It's worth knowing before you buy so the warning doesn't seem like a hardware failure.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-nas-for-automatic-computer-backup", title: "Best NAS for Automatic Computer Backup (2026)" },
   { href: "/guide/best-nas-for-plex-media-servers", title: "Best NAS for Plex Media Servers (2026)" },
-  { href: "/guide/best-nas-storage-for-home-office", title: "Best NAS Storage for Home Office (2026)" },
+  { href: "/guide/best-nas-storage-for-home-office", title: "Best NAS Storage for Home Office (2026)" }
 ];

@@ -5,7 +5,7 @@ export const metaDescription = "7 scanners we evaluated for real wireless use, w
 export const mainKeyword = "wireless document scanner";
 export const introParagraphs = [
   "\"Wireless\" conflates three distinct technologies: Wi-Fi Direct (peer-to-peer, no router needed), home-network Wi-Fi (requires a router, enables multi-user access), and Bluetooth (short-range, single-device pairing). We specify which mode each pick actually uses rather than treating wireless as one undifferentiated feature.",
-  "Also worth knowing: wireless scan transmission security is rarely disclosed, and wireless scan speed is meaningfully slower than USB for large batch or high-DPI jobs, large scanned files (10-30MB per page) can introduce latency or dropped connections mid-batch that a wired connection avoids.",
+  "Also worth knowing: wireless scan transmission security is rarely disclosed, and wireless scan speed is meaningfully slower than USB for large batch or high-DPI jobs, large scanned files (10-30MB per page) can introduce latency or dropped connections mid-batch that a wired connection avoids."
 ];
 export const lastUpdated = "2026-07-29";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Wireless Pick",
     name: "ScanSnap iX1300 Wireless or USB Double-Sided Color Document Scanner, White",
     price: "$279.99",
-    rating: "4.2 stars from 1,768 Amazon ratings",
-    reviews: "1,768 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41yWYf2uT0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FX5DWBK?tag=deskfinds0d-20",
     description:
@@ -42,12 +42,12 @@ export const products: GuideProduct[] = [
     badge: "Same Wireless Capability, Black Finish",
     name: "ScanSnap iX1300 Wireless or USB Double-Sided Color Document Scanner, Black",
     price: "$279.99",
-    rating: "4.2 stars from 1,768 Amazon ratings",
-    reviews: "1,768 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41VnXqJ86dL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FX5SRQT?tag=deskfinds0d-20",
     description:
-      "Identical home-network Wi-Fi capability to the rank-1 pick in a black finish, same standalone cloud-scanning and Chromebook support, same real-world caveat about large batch/high-DPI jobs running slower over Wi-Fi than a wired connection.\n\nWhat stands out here is same standalone cloud scanning as the white version, plus chromebook support via mobile app. The main tradeoff: same Wi-Fi speed tradeoff for large/high-DPI batches, so weigh that against the $279.99 price before buying.",
+      "Identical home-network Wi-Fi capability to the rank-1 pick in a black finish, same standalone cloud-scanning and Chromebook support, same real-world caveat about large batch/high-DPI jobs running slower over Wi-Fi than a wired connection.\n\nWhat stands out here is same standalone cloud scanning as the white version, plus chromebook support via mobile app. The main tradeoff: same Wi-Fi speed tradeoff for large/high-DPI batches, so weigh that against the under $300 price before buying.",
     specs: ["Home-network Wi-Fi + USB", "Scans to Mac/PC/mobile/cloud, works without a computer", "Chromebook scanning via mobile app", "30ppm duplex, auto de-skew"],
     pros: ["Same standalone cloud scanning as the white version", "Chromebook support via mobile app", "Black finish option", "30ppm duplex speed"],
     cons: ["Same Wi-Fi speed tradeoff for large/high-DPI batches", "No explicit encryption standard disclosed", "Same setup complexity as the white version"],
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Band-Capable Wireless Pick",
     name: "ScanSnap iX2500 Wireless or USB High-Speed Document Scanner",
     price: "Check current price",
-    rating: "4.4 stars from 326 Amazon ratings",
-    reviews: "326 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41wHhR2WCpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9B1H5VN?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Same Wi-Fi 6 Capability, Alternate Listing",
     name: "ScanSnap iX2500 Wireless or USB High-Speed Document Scanner (Alt. Listing)",
     price: "Check current price",
-    rating: "4.4 stars from 132 Amazon ratings",
-    reviews: "132 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41m9omvtbvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9B1PMTS?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Desktop Wireless Pick",
     name: "Epson Workforce ES-580W Wireless Color Duplex Desktop Document Scanner",
     price: "$379.99",
-    rating: "4.3 stars from 5,857 Amazon ratings",
-    reviews: "5,857 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Ty0waBx4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KQZWPYN?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "USB-Only Reference, No Wireless",
     name: "Brother DS-740D Duplex Compact Mobile Document Scanner",
     price: "$169.99",
-    rating: "4.3 stars from 2,294 Amazon ratings",
-    reviews: "2,294 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/415ddFXTF8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B083R3XYQN?tag=deskfinds0d-20",
     description:
@@ -127,8 +127,8 @@ export const products: GuideProduct[] = [
     badge: "USB-Powered Portable Reference",
     name: "Canon imageFORMULA R10 Portable Document Scanner, USB Powered, Duplex",
     price: "$184.00",
-    rating: "4.1 stars from 2,338 Amazon ratings",
-    reviews: "2,338 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/218Q14ube6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08FBHTD9B?tag=deskfinds0d-20",
     description:
@@ -137,14 +137,14 @@ export const products: GuideProduct[] = [
     pros: ["Explicit daily volume disclosure", "Genuine 20-sheet ADF hopper", "No wireless means no batch-speed tradeoff", "Genuinely portable at 1.7 lb"],
     cons: ["Not actually a wireless scanner", "Lower rating than the ScanSnap/Epson wireless picks", "Included only as an honest wired portable alternative"],
     bestFor: "Buyers who want portability and are fine with wired-only USB operation",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Wi-Fi Direct vs. home-network Wi-Fi vs. Bluetooth distinction", description: "Specified which wireless technology each pick actually uses, since these have genuinely different setup complexity, range, and multi-user access, rather than treating 'wireless' as one bucket." },
   { title: "Wireless vs. USB throughput for large batch/high-DPI jobs", description: "Noted that wireless transfer of large scanned files (10-30MB per page at archival DPI) introduces latency and potential dropped connections that a wired USB connection avoids." },
-  { title: "Encryption/security disclosure for wireless scan transmission", description: "Checked whether any listing discloses an encryption standard for scans transmitted over Wi-Fi, none of the picks in this guide explicitly confirm one, a real gap for sensitive document scanning." },
+  { title: "Encryption/security disclosure for wireless scan transmission", description: "Checked whether any listing discloses an encryption standard for scans transmitted over Wi-Fi, none of the picks in this guide explicitly confirm one, a real gap for sensitive document scanning." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -277,11 +277,11 @@ export const faq: FaqItem[] = [
   { q: "Should I use wireless or USB for a large batch scan job?", a: "USB, generally. Large scanned files at archival DPI can introduce latency or dropped connections over Wi-Fi mid-batch. Every wireless pick in this guide also supports a wired connection for this reason." },
   { q: "Can I scan directly to the cloud without a computer using these scanners?", a: "Yes, on the ScanSnap iX1300 and iX2500 picks in this guide, which support standalone scan-to-cloud over home-network Wi-Fi without needing a computer powered on." },
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers who want genuine standalone wireless scanning to cloud services or a Chromebook" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want the most modern wireless standard (Wi-Fi 6) with a fallback wired option At Check current price, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want the most modern wireless standard (Wi-Fi 6) with a fallback wired option At Check current price, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-wi-fi-document-scanners", title: "Best Wi-Fi Document Scanners (2026)" },
   { href: "/guide/best-document-scanners-for-computers", title: "Best Document Scanners for Computers (2026)" },
-  { href: "/guide/best-high-speed-document-scanners", title: "Best High-Speed Document Scanners (2026)" },
+  { href: "/guide/best-high-speed-document-scanners", title: "Best High-Speed Document Scanners (2026)" }
 ];

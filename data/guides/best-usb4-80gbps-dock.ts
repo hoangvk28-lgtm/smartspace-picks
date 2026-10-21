@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "This enclosure's officially named JH9480 controller delivers the full 80Gbps bandwidth for Thunderbolt 5 and USB4 v2 standards, specifically stated as 2x the performance of Thunderbolt 4 for ultra-smooth gaming, professional 3D rendering, and video editing. Its integrated 600W SFX power supply eliminates the need for extra power bricks while providing up to 450W of dedicated power directly to the graphics card.\n\nCompared to the OWC and WAVLINK picks above, this one's 5.5L compact chassis is specifically sized to fit high-end triple-fan graphics cards up to 340 x 154 x 57mm, a genuine eGPU-focused design rather than a general connectivity hub. Its listing transparently discloses that macOS support is limited to Intel-based Macs with specific AMD GPU models, and explicitly does not support NVIDIA GPUs or Bootcamp on macOS.\n\nBest for buyers who specifically want a dedicated eGPU enclosure with built-in power supply for gaming or rendering.",
     specs: ["JH9480 controller, 80Gbps bandwidth", "Built-in 600W SFX PSU, up to 450W to GPU", "140W USB PD laptop charging"],
     pros: ["Dedicated eGPU-focused design with built-in high-wattage power supply", "Fits high-end triple-fan GPUs up to 340 x 154 x 57mm", "Daisy chain support for additional monitors or storage"],
-    cons: ["macOS support explicitly limited to Intel Macs with specific AMD GPUs, not NVIDIA", "Highest price in this comparison at $359.99"],
+    cons: ["macOS support explicitly limited to Intel Macs with specific AMD GPUs, not NVIDIA", "Highest price in this comparison at under $400"],
     bestFor: "buyers who specifically want a dedicated eGPU enclosure with built-in power supply",
   },
   {
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Broad Thunderbolt compatibility with quiet operation", "OWC Thunderbolt 5 Hub 5-Port"],
         ["Built-in SSD caching for video editing", "WAVLINK Thunderbolt 5 Dock, 13-in-1 with NVMe M.2"],
         ["A dedicated eGPU enclosure for gaming or rendering", "TREBLEET 80Gbps eGPU Enclosure"],
-        ["The lowest price with genuine 80Gbps and dual-SSD storage", "80Gbps Thunderbolt 5 Mac mini Dock & Stand"],
+        ["The lowest price with genuine 80Gbps and dual-SSD storage", "80Gbps Thunderbolt 5 Mac mini Dock & Stand"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $180", "OWC Thunderbolt 5 Hub ($179.99)"],
-        ["Under $245", "WAVLINK Thunderbolt 5 Dock ($244.99)"],
-        ["Under $135", "80Gbps Mac mini Dock & Stand ($132.04)"],
-        ["Under $360", "TREBLEET 80Gbps eGPU Enclosure ($359.99)"],
+        ["Under $180", "OWC Thunderbolt 5 Hub (under $180)"],
+        ["Under $245", "WAVLINK Thunderbolt 5 Dock (under $250)"],
+        ["Under $135", "80Gbps Mac mini Dock & Stand (under $140)"],
+        ["Under $360", "TREBLEET 80Gbps eGPU Enclosure (under $400)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "General Connectivity Hub vs Dedicated eGPU Enclosure",
     cards: [
       { label: "General connectivity hub (OWC, WAVLINK, Mac mini Dock)", text: "Provides broad port expansion, displays, and optional storage for everyday productivity and creative work." },
-      { label: "Dedicated eGPU enclosure (TREBLEET)", text: "Specifically houses a full desktop graphics card with its own power supply, purpose-built for gaming and GPU-accelerated rendering." },
+      { label: "Dedicated eGPU enclosure (TREBLEET)", text: "Specifically houses a full desktop graphics card with its own power supply, purpose-built for gaming and GPU-accelerated rendering." }
     ],
     note: "If you need general connectivity, displays, and storage, the OWC or WAVLINK picks cover that well. If you specifically want to run a desktop-class GPU externally, the TREBLEET enclosure is purpose-built for that.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your GPU and platform", "Recommended pick"],
       rows: [
         ["Windows with NVIDIA or AMD GPU", "TREBLEET 80Gbps eGPU Enclosure"],
-        ["Intel Mac with specific AMD GPU", "TREBLEET 80Gbps eGPU Enclosure (AMD only, per manufacturer note)"],
+        ["Intel Mac with specific AMD GPU", "TREBLEET 80Gbps eGPU Enclosure (AMD only, per manufacturer note)"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For RAW Video Footage Caching Specifically",
     cards: [
       { label: "Look for", text: "A dock with a built-in high-speed PCIe M.2 SSD slot rated for at least 40-60Gbps, so you can store and edit high-bitrate RAW footage directly without an external drive enclosure." },
-      { label: "In this comparison", text: "The WAVLINK Thunderbolt 5 Dock specifically markets its PCIe Gen 4 x4 M.2 SSD slot at up to 64Gbps for exactly this RAW footage caching use case." },
+      { label: "In this comparison", text: "The WAVLINK Thunderbolt 5 Dock specifically markets its PCIe Gen 4 x4 M.2 SSD slot at up to 64Gbps for exactly this RAW footage caching use case." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You specifically want a dedicated eGPU enclosure with built-in high-wattage power supply for gaming or rendering, where the TREBLEET pick justifies its $359.99 price." },
-      { label: "Save if", text: "You specifically own a Mac mini M4 Pro and want genuine 80Gbps bandwidth with dual-SSD expansion, where the Mac mini Dock & Stand delivers that for $132.04, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You specifically want a dedicated eGPU enclosure with built-in high-wattage power supply for gaming or rendering, where the TREBLEET pick justifies its under $400 price." },
+      { label: "Save if", text: "You specifically own a Mac mini M4 Pro and want genuine 80Gbps bandwidth with dual-SSD expansion, where the Mac mini Dock & Stand delivers that for under $140, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

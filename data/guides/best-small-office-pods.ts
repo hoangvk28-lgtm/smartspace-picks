@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small office pods";
 export const introParagraphs = [
   "This guide overlaps heavily with our mini portable offices and one-person office pods guides, since the same limited pool of compact, solo-oriented products keeps surfacing as the smallest verified options in this niche. Rather than duplicate that content, we cross-reference both and focus here on quantifying \"small\" with actual stated dimensions.",
-  "One of these two picks discloses an exact exterior footprint (W55in D48in H92in), the other does not state dimensions in its title, worth asking the seller directly for exact measurements before assuming either fits a specific room.",
+  "One of these two picks discloses an exact exterior footprint (W55in D48in H92in), the other does not state dimensions in its title, worth asking the seller directly for exact measurements before assuming either fits a specific room."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -53,7 +53,7 @@ export const products: GuideProduct[] = [
     pros: ["Explicit 1-2 person occupancy range disclosed in the title", "Exact exterior dimensions disclosed (W55 x D48 x H92in)", "Mid-range price relative to the rest of this pool", "No star rating or review count to independently verify against the marketing copy"],
     cons: ["No star rating or review count available from Amazon", "No formal STC/NRC sound-isolation data disclosed", "No ventilation specs disclosed for two-occupant use"],
     bestFor: "Buyers who want exact exterior dimensions (W55in D48in H92in) before committing to a small-footprint pod.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -61,7 +61,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Quantified \"small\" with actual dimensions where available", description: "Used the exact exterior dimensions stated in listings where disclosed, rather than relying on marketing words like \"compact\" alone." },
   { title: "Cross-referenced overlapping guides rather than duplicating", description: "Confirmed this guide's product pool substantially overlaps with our mini portable offices and one-person office pods guides and cross-linked rather than presenting it as a distinct product set." },
   { title: "Mobility and footprint compared directly", description: "Compared wheel-based mobility against stated footprint dimensions to differentiate the two qualifying picks." },
-  { title: "Verified listing data only", description: "Used only prices, dimensions, and features actually printed in each Amazon listing, no invented ratings or review counts." },
+  { title: "Verified listing data only", description: "Used only prices, dimensions, and features actually printed in each Amazon listing, no invented ratings or review counts." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -177,11 +177,11 @@ export const faq: FaqItem[] = [
   { q: "How small are the smallest verified office pods on Amazon?", a: "One listing discloses an exact W55in D48in H92in exterior footprint, the smallest confirmed dimensions in this research pool, the other qualifying small pick does not state dimensions in its title." },
   { q: "Is this guide different from the mini portable offices guide?", a: "Not substantially in product selection, both guides draw from the same limited compact-pod pool, this guide adds dimension-focused framing." },
   { q: "Do small office pods still require freight delivery?", a: "Yes, even the smallest verified pods in this niche ship as large freight items requiring delivery and doorway clearance planning." },
-  { q: "Which small pod is best for an occasional second occupant?", a: "The 1-2 person pick with a disclosed W55in D48in footprint supports an occasional second occupant better than the strictly solo-marketed option." },
+  { q: "Which small pod is best for an occasional second occupant?", a: "The 1-2 person pick with a disclosed W55in D48in footprint supports an occasional second occupant better than the strictly solo-marketed option." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-portable-offices", title: "Best Mini Portable Offices (2026)" },
   { href: "/guide/best-one-person-office-pods", title: "Best One-Person Office Pods (2026)" },
-  { href: "/guide/best-office-pods-for-small-apartments", title: "Best Office Pods for Small Apartments (2026)" },
+  { href: "/guide/best-office-pods-for-small-apartments", title: "Best Office Pods for Small Apartments (2026)" }
 ];

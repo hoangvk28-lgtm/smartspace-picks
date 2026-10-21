@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $143.99",
+          "Under $150",
           "Tribesigns 55\" Industrial Executive Desk"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "Tribesigns 6.5FT Conference Table"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "Tribesigns 6FT Boat-Shaped Conference Table"
         ],
         [
-          "Around $189.99",
+          "Under $190",
           "IBF 70-Inch Large Computer Desk"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "TRIBEWOOD 63\" Industrial Executive Desk"
         ],
         [
-          "Around $350.00",
+          "Under $400",
           "Tribesigns 8FT Conference Table for 10"
         ],
         [
-          "Around $379.99",
+          "Under $400",
           "Tribesigns 8FT Conference Table for 10"
         ],
         [
-          "Around $379.99",
+          "Under $400",
           "Tribesigns 8FT Conference Table for 10"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Not inherently. High-density MDF and particle board with a laminate or melamine finish are standard in this category and hold up well to daily commercial use. Solid wood, veneer over engineered wood, or steel-reinforced builds cost more and matter most where long-term durability or a premium look is the priority."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "Tribesigns 8FT Conference Table for 10 is aimed at buyers prioritizing 94.49\"l x 47.24\"w x 29.53\"h top." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Tribesigns 8FT Conference Table for 10 is aimed at buyers prioritizing 94.49\"l x 47.24\"w x 29.53\"h top." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-modern-conference-tables","title":"Best Modern Conference Tables in 2026"},{"href":"/guide/best-black-conference-tables","title":"Best Black Conference Tables in 2026"},{"href":"/guide/best-white-conference-tables","title":"Best White Conference Tables in 2026"}];

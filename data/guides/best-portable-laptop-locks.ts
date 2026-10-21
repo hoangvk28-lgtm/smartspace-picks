@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable laptop locks";
 export const introParagraphs = [
   "Portable locks commonly reduce packed size through self-coiling cables, shorter cables, or compact heads, and retail wording can call a self-coiling cable retractable even without a genuine internal reel mechanism. We published real packed dimensions and usable cable reach rather than relying on a portable badge alone.",
-  "We compared the travel benefit directly against the limitations of shorter or self-coiling cables, since a genuinely portable lock trades away some anchor reach and cable mass compared to a full-size desk lock.",
+  "We compared the travel benefit directly against the limitations of shorter or self-coiling cables, since a genuinely portable lock trades away some anchor reach and cable mass compared to a full-size desk lock."
 ];
 export const lastUpdated = "2026-08-11";
 export const readTime = "8 min";
@@ -110,10 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "56",
     imageUrl: "https://m.media-amazon.com/images/I/21wh6b9wJwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CRKFVZ9L?tag=deskfinds0d-20",
-    description: "Not a self-coiling design, but a genuinely lightweight full-size 5-foot cable at the lowest price in this entire comparison, worth including if you don't need self-coiling compactness and just want the cheapest reasonably portable option. The 360-degree head pivot and one-handed slider attach keep setup quick.\n\nSitting just under Multplx Universal Laptop Security Lock, it's priced lower than Multplx Universal Laptop Security Lock. Here's the honest tradeoff: Lowest rating in this comparison at 3.9 stars. And here's what it gets you instead: Lowest price in this entire comparison. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Lightweight full-size cable, genuinely portable despite not self-coiling. On the other side, Not a self-coiling design like the other portable picks here. That's the main tradeoff to weigh against everything above.",
+    description: "Not a self-coiling design, but a genuinely lightweight full-size 5-foot cable at the lowest price in this entire comparison, worth including if you don't need self-coiling compactness and just want the cheapest reasonably portable option. The 360-degree head pivot and one-handed slider attach keep setup quick.\n\nSitting just under Multplx Universal Laptop Security Lock, it's priced lower than Multplx Universal Laptop Security Lock. And here's what it gets you instead: Lowest price in this entire comparison. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Lightweight full-size cable, genuinely portable despite not self-coiling. On the other side, Not a self-coiling design like the other portable picks here. That's the main tradeoff to weigh against everything above.",
     specs: ["5 ft anti-shearing cable, not self-coiling","Standard slot, resettable 4-wheel dial","One-handed slider attach"],
     pros: ["Lowest price in this entire comparison","Lightweight full-size cable, genuinely portable despite not self-coiling"],
-    cons: ["Lowest rating in this comparison at 3.9 stars","Not a self-coiling design like the other portable picks here"],
+    cons: ["Not a self-coiling design like the other portable picks here"],
     bestFor: "Budget travelers wanting the cheapest reasonably portable option, aware of the lower rating.",
   }
 ];
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Published real packed dimensions and usable cable reach", description: "We documented actual compressed and extended cable lengths rather than relying on a 'portable' badge without specifics." },
   { title: "Separated self-coiling cables from true internal-reel retractable products", description: "Every pick calling itself retractable here is actually a self-coiling design rather than a spring-loaded internal reel, and we described the mechanism accurately rather than repeating retail marketing language." },
   { title: "Compared cable construction without inventing a cut-resistance rating", description: "One pick documents a specific 5mm cable diameter, 30% thicker than standard. We surfaced that real spec rather than assigning an unverified cut-resistance number to every pick." },
-  { title: "Included keys, adapters, and anchor accessories in total travel bulk", description: "We factored in what actually needs to fit in a bag, not just the cable's own compressed length." },
+  { title: "Included keys, adapters, and anchor accessories in total travel bulk", description: "We factored in what actually needs to fit in a bag, not just the cable's own compressed length." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Are these locks actually retractable, or self-coiling?", a: "Every pick in this comparison labeled retractable is actually a self-coiling cable design rather than a true spring-loaded internal reel mechanism." },
   { q: "Is there a portable lock that covers both a laptop and a tablet?", a: "Yes, the I3C Laptop Cable Lock with an anchor plate covers Standard-slot laptops directly and slotless tablets or phones through the included adhesive plate." },
   { q: "Is there a portable lock without adhesive?", a: "Yes, the Multplx Universal Laptop Security Lock anchors through the audio port instead, avoiding adhesive residue entirely, though it's the priciest pick in this comparison." },
-  { q: "Do portable locks offer the same security as full-size cable locks?", a: "The thinner self-coiling cables here trade some cut-resistance mass for compactness. If cable strength matters more than packed size, consider the thicker documented cable pick or a full-size lock from our main laptop locks guide instead." },
+  { q: "Do portable locks offer the same security as full-size cable locks?", a: "The thinner self-coiling cables here trade some cut-resistance mass for compactness. If cable strength matters more than packed size, consider the thicker documented cable pick or a full-size lock from our main laptop locks guide instead." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-locks", title: "Best Laptop Locks (2026)" },
   { href: "/guide/best-laptop-lock-adapters", title: "Best Laptop Lock Adapters (2026)" },
-  { href: "/guide/best-usb-c-laptop-locks", title: "Best USB-C Laptop Locks (2026)" },
+  { href: "/guide/best-usb-c-laptop-locks", title: "Best USB-C Laptop Locks (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "aluminum mini PC cooling stands";
 export const introParagraphs = [
   "Aluminum Mini PC cooling stands are usually marketed as better heat-dissipating options, but the material name alone does not prove a meaningful thermal advantage. The stand still has to preserve the Mini PC's intake and exhaust path, and the aluminum must be part of the actual structure or heat-contact surface rather than a decorative coating.",
-  "This guide overlaps with our broader Best Mini PC Cooling Stands guide, but narrows the decision to five stands where the listing specifically confirms aluminum construction, whether aluminum alloy, aerospace-grade aluminum, or CNC-machined aluminum, rather than a vague metallic finish.",
+  "This guide overlaps with our broader Best Mini PC Cooling Stands guide, but narrows the decision to five stands where the listing specifically confirms aluminum construction, whether aluminum alloy, aerospace-grade aluminum, or CNC-machined aluminum, rather than a vague metallic finish."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "8 min";
@@ -33,7 +33,7 @@ export const products: GuideProduct[] = [
     description: "This listing specifies aerospace-grade aluminum construction with precision CNC machining, and explicitly names Mac mini and Mini PCs as compatible devices rather than a generic aluminum-look product. It combines the material with an active 120mm fan and a speed control switch for adjustable airflow.\n\nIt earns the top spot in this comparison over Aluminum Mini PC Cooler Stand with 120mm Fan for one main reason. Verified aluminum construction, not just an aluminum-look finish. On price, it comes in below Aluminum Mini PC Cooler Stand with 120mm Fan, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Explicitly compatible with Mac mini and Mini PCs. On the other side, Lightweight at 1 lb, benefits from a non-slip mat. That's the main tradeoff to weigh against everything above.",
     specs: ["Aerospace-grade aluminum, CNC machined","12025 fan, 2000 RPM, speed control switch","USB pass-through port","48kg rated load capacity"],
     pros: ["Verified aluminum construction, not just an aluminum-look finish","Explicitly compatible with Mac mini and Mini PCs","Adjustable fan speed","High rated load capacity"],
-    cons: ["Small review base (19 ratings)","Passive-mode cooling claim is manufacturer-stated, not independently verified","Lightweight at 1 lb, benefits from a non-slip mat"],
+    cons: ["Passive-mode cooling claim is manufacturer-stated, not independently verified","Lightweight at 1 lb, benefits from a non-slip mat"],
     bestFor: "Mac mini and Mini PC owners who want verified aluminum construction with active fan cooling in one stand.",
   },
   {
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Material authenticity", description: "We evaluated whether the product documentation identifies real aluminum structure, aerospace-grade, aircraft-grade, or CNC-machined, rather than a vague metallic finish, before including it in this list." },
   { title: "Thermal relevance", description: "We did not assume material conductivity translates directly into lower CPU or GPU temperatures, and prioritized listings with documented CFM or dBA figures where available." },
   { title: "Airflow compatibility", description: "We compared support geometry and vent clearance because aluminum is ineffective if the stand blocks the computer's own airflow." },
-  { title: "Value and desk impact", description: "We considered price, load rating, surface protection, and whether the material premium produces a practical ownership benefit versus a plastic or acrylic alternative." },
+  { title: "Value and desk impact", description: "We considered price, load rating, surface protection, and whether the material premium produces a practical ownership benefit versus a plastic or acrylic alternative." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "How can I tell if a stand is really aluminum?", a: "Look for specific language like aerospace-grade, aircraft-grade, or CNC-machined aluminum, which all five picks in this guide use. Treat vague terms like 'metallic finish' as cosmetic unless the structure is identified." },
   { q: "Does the stand need to touch the Mini PC to conduct heat?", a: "Direct contact can matter for conduction, but many stands primarily help by improving airflow around the chassis. The product's geometry and the Mini PC's vent layout determine how much material conduction matters in practice." },
   { q: "Can a heavy aluminum stand damage a desk?", a: "It can mark or scratch a surface if the feet or contact pads are poor. Check for protective silicone pads, smooth edges, and a stable base, all present on the picks in this guide." },
-  { q: "When is the aluminum price premium worth it?", a: "It's easier to justify when the stand offers verified metal construction, device-specific fit, and documented thermal benefit. Material branding alone isn't enough, which is why this guide only includes listings that specify real aluminum structure." },
+  { q: "When is the aluminum price premium worth it?", a: "It's easier to justify when the stand offers verified metal construction, device-specific fit, and documented thermal benefit. Material branding alone isn't enough, which is why this guide only includes listings that specify real aluminum structure." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pc-cooling-stands", title: "Best Mini PC Cooling Stands (2026)" },
   { href: "/guide/best-passive-mini-pc-cooling-stands", title: "Best Passive Mini PC Cooling Stands (2026)" },
-  { href: "/guide/best-mini-pc-stands-with-fans", title: "Best Mini PC Stands with Fans (2026)" },
+  { href: "/guide/best-mini-pc-stands-with-fans", title: "Best Mini PC Stands with Fans (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "ultrawide monitor for gaming";
 export const introParagraphs = [
   "An ultrawide monitor for gaming has to balance three things a normal 16:9 screen never has to worry about: refresh rate for competitive titles, curve radius for immersion without distortion, and how much neck rotation you're willing to tolerate during a long session. Most gaming ultrawides land at 34 inches and 3440x1440, though a handful of 45-inch and 49-inch options push further if you have the desk depth and viewing distance to support them.",
-  "Below are 8 ultrawide gaming monitors we evaluated on refresh rate, panel type, contrast, and real-world desk fit, ranging from a $279.99 165Hz VA panel to a $1,299 360Hz QD-OLED built for competitive esports.",
+  "Below are 8 ultrawide gaming monitors we evaluated on refresh rate, panel type, contrast, and real-world desk fit, ranging from an under-$300 165Hz VA panel to a $1,299 360Hz QD-OLED built for competitive esports."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -70,18 +70,18 @@ export const products: GuideProduct[] = [
       "165Hz, 1ms MPRT",
       "4000:1 contrast (highest VA contrast in this guide)",
       "DisplayHDR 400",
-      "Height adjustable, 3-year warranty",
+      "Height adjustable, 3-year warranty"
     ],
     pros: [
       "Most-reviewed pick in this entire guide",
       "Highest contrast ratio among VA picks here",
       "Height-adjustable stand included",
-      "Strong entry price for a curved 165Hz panel",
+      "Strong entry price for a curved 165Hz panel"
     ],
     cons: [
       "165Hz trails the 180Hz+ panels in this list",
       "VA panels can show slight smearing in fast-motion dark scenes",
-      "No USB-C or console mode",
+      "No USB-C or console mode"
     ],
     bestFor: "First-time ultrawide buyers who want a proven, budget-friendly 165Hz panel",
   },
@@ -102,18 +102,17 @@ export const products: GuideProduct[] = [
       "180Hz, 1ms GtG",
       "3000:1 contrast, 95% DCI-P3",
       "Dedicated console mode (only pick in this guide with one)",
-      "Height adjustable, 3-year warranty",
+      "Height adjustable, 3-year warranty"
     ],
     pros: [
-      "Highest-rated pick in this entire guide at 4.6 stars",
       "Only monitor in this guide with a dedicated console mode",
       "180Hz beats the entry-level VA picks",
-      "Strong 95% DCI-P3 color coverage",
+      "Strong 95% DCI-P3 color coverage"
     ],
     cons: [
       "Costs slightly more than the ASUS VG34VQL1B",
       "Still VA, not the deeper blacks of QD-OLED",
-      "Smaller review count than the ASUS pick, though higher rated",
+      "Smaller review count than the ASUS pick, though higher rated"
     ],
     bestFor: "Buyers who split time between PC and console and want the best-rated pick overall",
   },
@@ -134,18 +133,18 @@ export const products: GuideProduct[] = [
       "180Hz, 1ms MPRT",
       "90% DCI-P3",
       "4x USB 3.2 ports (most in this guide)",
-      "Built-in speakers, 3-year warranty",
+      "Built-in speakers, 3-year warranty"
     ],
     pros: [
       "Most USB ports of any monitor in this guide",
       "180Hz at the same price as the entry-level pick",
       "Built-in speakers reduce cable clutter",
-      "3-year warranty",
+      "3-year warranty"
     ],
     cons: [
       "90% DCI-P3 is lower than the AW3425DWM's 95%",
       "Smaller review sample than the top two picks",
-      "VA panel, not OLED-level contrast",
+      "VA panel, not OLED-level contrast"
     ],
     bestFor: "Buyers who want the most USB connectivity built into the monitor itself",
   },
@@ -166,18 +165,18 @@ export const products: GuideProduct[] = [
       "175Hz, 0.03ms",
       "1,500,000:1 contrast, HDR400 True Black",
       "USB-C",
-      "2-year warranty",
+      "2-year warranty"
     ],
     pros: [
       "Cheapest QD-OLED pick in this entire guide",
       "Massive contrast jump over any VA panel here",
       "0.03ms response time",
-      "USB-C for single-cable laptop setups",
+      "USB-C for single-cable laptop setups"
     ],
     cons: [
       "Shorter 2-year warranty than the VA picks' 3-year coverage",
       "175Hz is below the fastest QD-OLED picks in this guide",
-      "OLED panels carry a theoretical burn-in risk with static UI elements",
+      "OLED panels carry a theoretical burn-in risk with static UI elements"
     ],
     bestFor: "Budget-conscious buyers who want QD-OLED contrast without QD-OLED pricing",
   },
@@ -198,18 +197,18 @@ export const products: GuideProduct[] = [
       "240Hz (highest among 34\" QD-OLED picks here), 0.03ms",
       "1,500,000:1 contrast, 99.3% DCI-P3",
       "HDR TrueBlack 400",
-      "G-Sync + FreeSync Premium Pro, 3-year warranty",
+      "G-Sync + FreeSync Premium Pro, 3-year warranty"
     ],
     pros: [
       "Fastest refresh rate among the 34\" QD-OLED picks in this guide",
       "99.3% DCI-P3, the widest color gamut among the mid-tier picks",
       "Dual G-Sync + FreeSync Premium Pro support",
-      "Full 3-year warranty on an OLED panel",
+      "Full 3-year warranty on an OLED panel"
     ],
     cons: [
       "Over $100 more than the MSI QD-OLED for the refresh rate bump",
       "Still trails the 360Hz esports pick in this guide",
-      "OLED panels need some care around static content burn-in",
+      "OLED panels need some care around static content burn-in"
     ],
     bestFor: "Competitive players who want the fastest 34-inch QD-OLED without going to 45 inches",
   },
@@ -224,24 +223,24 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Ea5WkWNXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VQ48X5Q?tag=deskfinds0d-20",
     description:
-      "The AW3423DW is the only monitor in this guide certified G-Sync ULTIMATE, NVIDIA's highest tier of certification, which guarantees a stricter set of variable refresh rate and HDR performance standards than standard G-Sync compatibility. It runs at 175Hz with 0.1ms GtG and 1,000,000:1 contrast, plus 99.3% DCI-P3 for accurate color.\n\nAlienFX RGB lighting and 5 USB ports round out the package, and with 722 reviews it has the largest review base among the QD-OLED picks in this guide, giving buyers more real-world feedback to weigh against the newer, less-reviewed AW3425DW.\n\nWorth calling out specifically: largest review base among QD-OLED picks in this guide. The catch is 175Hz and 0.1ms trail the newer AW3425DW's specs.",
+      "The AW3423DW is the only monitor in this guide certified G-Sync ULTIMATE, NVIDIA's highest tier of certification, which guarantees a stricter set of variable refresh rate and HDR performance standards than standard G-Sync compatibility. It runs at 175Hz with 0.1ms GtG and 1,000,000:1 contrast, plus 99.3% DCI-P3 for accurate color.\n\nWorth calling out specifically: largest review base among QD-OLED picks in this guide. The catch is 175Hz and 0.1ms trail the newer AW3425DW's specs.",
     specs: [
       "34\" QD-OLED curved 1800R, 3440x1440",
       "175Hz, 0.1ms GtG",
       "1,000,000:1 contrast, 99.3% DCI-P3",
       "G-Sync ULTIMATE certified (only pick in this guide with this certification)",
-      "AlienFX RGB, 5x USB ports, 3-year warranty",
+      "AlienFX RGB, 5x USB ports, 3-year warranty"
     ],
     pros: [
       "Only pick in this guide with G-Sync ULTIMATE certification",
       "Largest review base among QD-OLED picks in this guide",
       "5 USB ports, more than most QD-OLED competitors",
-      "AlienFX RGB for setups built around lighting",
+      "AlienFX RGB for setups built around lighting"
     ],
     cons: [
       "175Hz and 0.1ms trail the newer AW3425DW's specs",
       "1,000,000:1 contrast is technically lower than the newer QD-OLED picks' 1,500,000:1",
-      "Slightly lower rating than the newer Alienware models in this guide",
+      "Slightly lower rating than the newer Alienware models in this guide"
     ],
     bestFor: "NVIDIA GPU owners who specifically want G-Sync ULTIMATE certification",
   },
@@ -262,18 +261,18 @@ export const products: GuideProduct[] = [
       "3440x1440, 240Hz, 0.03ms",
       "1,500,000:1 contrast, 98.5% DCI-P3",
       "HDR True Black 400",
-      "G-Sync + FreeSync Premium Pro",
+      "G-Sync + FreeSync Premium Pro"
     ],
     pros: [
       "Only 45-inch pick in this guide, a middle ground between 34\" and 49\"",
       "Tightest curve radius in this guide at 800R",
       "240Hz keeps pace with the fastest 34\" QD-OLED picks",
-      "Roughly 12% more screen area than a 49-inch 32:9 panel",
+      "Roughly 12% more screen area than a 49-inch 32:9 panel"
     ],
     cons: [
       "Needs meaningfully more desk depth than any 34-inch pick",
       "Smallest review count of the higher-tier picks in this guide",
-      "3440x1440 resolution stretched over 45 inches lowers pixel density versus the 34-inch panels",
+      "3440x1440 resolution stretched over 45 inches lowers pixel density versus the 34-inch panels"
     ],
     bestFor: "Buyers who want more immersion than 34 inches without committing to a full 49-inch desk footprint",
   },
@@ -288,27 +287,26 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51qaZikp67L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G31ZYMW3?tag=deskfinds0d-20",
     description:
-      "The PG34WCDN posts the fastest refresh rate in this entire guide at 360Hz, aimed squarely at competitive esports players who need every frame they can get. DisplayPort 2.1, USB-C at 90W, and a proximity sensor round out a feature set built for a dedicated gaming rig rather than a general-purpose desk monitor.\n\n99% DCI-P3 and HDR500 True Black keep image quality competitive with the rest of the QD-OLED lineup in this guide. Worth noting honestly: this is the most expensive pick here and currently has only 3 reviews on Amazon, a very small sample, so treat the 4.6-star rating as encouraging but not yet statistically meaningful the way the 700+ review picks in this guide are.\n\nA genuine advantage here is that displayPort 2.1 and 90W USB-C for a modern rig. The tradeoff is most expensive pick in this entire guide.",
+      "The PG34WCDN posts the fastest refresh rate in this entire guide at 360Hz, aimed squarely at competitive esports players who need every frame they can get. DisplayPort 2.1, USB-C at 90W, and a proximity sensor round out a feature set built for a dedicated gaming rig rather than a general-purpose desk monitor.\n\n99% DCI-P3 and HDR500 True Black keep image quality competitive with the rest of the QD-OLED lineup in this guide.\n\nA genuine advantage here is that displayPort 2.1 and 90W USB-C for a modern rig. The tradeoff is most expensive pick in this entire guide.",
     specs: [
       "34\" QD-OLED curved, 3440x1440",
       "360Hz (fastest in this entire guide), 0.03ms",
       "1,500,000:1 contrast, 99% DCI-P3",
       "HDR500 True Black, DisplayPort 2.1, USB-C 90W",
-      "Proximity sensor, 3-year warranty",
+      "Proximity sensor, 3-year warranty"
     ],
     pros: [
       "Fastest refresh rate in this entire guide at 360Hz",
       "DisplayPort 2.1 and 90W USB-C for a modern rig",
       "HDR500 True Black, higher HDR tier than most picks here",
-      "3-year warranty",
+      "3-year warranty"
     ],
     cons: [
       "Most expensive pick in this entire guide",
-      "Only 3 reviews at time of writing, far too small a sample to rely on alone",
-      "360Hz benefit is mostly realized only in competitive esports titles run at very high frame rates",
+      "360Hz benefit is mostly realized only in competitive esports titles run at very high frame rates"
     ],
     bestFor: "Competitive esports players chasing the highest refresh rate available, who understand the review sample is still tiny",
-  },
+  }
 ];
 
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
@@ -336,7 +334,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Value relative to review confidence",
     description:
       "Weighed price against review count and rating together, flagging picks like the PG34WCDN honestly where the specs are excellent but the review sample is still too small to fully trust.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -480,13 +478,13 @@ export const faq: FaqItem[] = [
     a: "The benefit of 360Hz, like the ASUS ROG Swift PG34WCDN in this guide, is most noticeable in competitive esports titles run at very high frame rates on a capable GPU. For casual or single-player gaming, the jump from 165Hz to 240Hz is far more noticeable than 240Hz to 360Hz, so most buyers are better served by one of the mid-tier picks in this guide.",
   },
   {
-    q: "Why does the ASUS ROG Swift PG34WCDN only have 3 reviews?",
-    a: "It's a newer, higher-priced release in this guide, so it simply hasn't accumulated review volume yet. Its 4.6-star rating is a good early signal but shouldn't be weighed the same as the AW3423DW's 722 reviews or the AW3425DWM's 604 reviews when deciding how much to trust the rating.",
-  },
+    q: "",
+    a: "It's a newer, higher-priced release in this guide, so it simply hasn't accumulated review volume yet.",
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-49-inch-ultrawide-monitor", title: "Best 49-Inch Ultrawide Monitors (2026)" },
   { href: "/guide/best-curved-ultrawide-monitor", title: "Best Curved Ultrawide Monitors (2026)" },
-  { href: "/guide/best-monitor-arm-for-ultrawide", title: "Best Monitor Arms for Ultrawide Monitors (2026)" },
+  { href: "/guide/best-monitor-arm-for-ultrawide", title: "Best Monitor Arms for Ultrawide Monitors (2026)" }
 ];

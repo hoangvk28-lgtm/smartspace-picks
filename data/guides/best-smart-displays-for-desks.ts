@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "smart display for desk";
 export const introParagraphs = [
   "A smart display earns a spot on a desk by staying out of the way while still being useful, showing the time, weather, calendar, and notifications at a glance without needing a phone unlock. Screen size, camera presence, and voice assistant ecosystem all affect how well a given model actually fits a work desk versus a kitchen counter.",
-  "This guide covers five verified models across Alexa and Google Assistant ecosystems, from the most compact 5.5 inch Echo Show up to the motorized 10 inch Echo Show 10. We were only able to verify pricing and imagery for five genuine desk-appropriate models this pass, and we say so rather than pad the list with unconfirmed products.",
+  "This guide covers five verified models across Alexa and Google Assistant ecosystems, from the most compact 5.5 inch Echo Show up to the motorized 10 inch Echo Show 10. We were only able to verify pricing and imagery for five genuine desk-appropriate models this pass, and we say so rather than pad the list with unconfirmed products."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "8 min";

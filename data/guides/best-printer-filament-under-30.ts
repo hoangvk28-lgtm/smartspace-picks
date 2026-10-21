@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51ModrXpxPL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H6FT6SY3?tag=deskfinds0d-20",
-    "description": "UGUESS PETG 3D Printer Filament leads with high toughness & impact resistance, backed by smooth print & solid layer bond, a combination aimed at as a filament built around a specific material's strengths rather than a universal choice for every print.\n\nSitting at $26.99, the top of this comparison's price range, it asks buyers to confirm the added capability is actually worth it over the more affordable picks here before paying the premium.\n\nUGUESS PETG 3D Printer Filament is the right call for buyers who want reliable, consistent-diameter filament for their specific printer and project type. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "UGUESS PETG 3D Printer Filament leads with high toughness & impact resistance, backed by smooth print & solid layer bond, a combination aimed at as a filament built around a specific material's strengths rather than a universal choice for every print.\n\nSitting at under $30, the top of this comparison's price range, it asks buyers to confirm the added capability is actually worth it over the more affordable picks here before paying the premium.\n\nUGUESS PETG 3D Printer Filament is the right call for buyers who want reliable, consistent-diameter filament for their specific printer and project type. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "High Toughness & Impact Resistance",
       "Smooth Print & Solid Layer Bond",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41gusC-ijWL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0C4TNQZYY?tag=deskfinds0d-20",
-    "description": "What stands out on Creality PLA 3D Printer Filament is cost-effective filament bundle, alongside smooth and stable printing, which is the main reason it earns a spot in this 3D printer filaments comparison.\n\nCompared to PETG Filament at $11.89, it costs more for real added capability, while sitting well below UGUESS PETG 3D Printer Filament at $26.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want reliable, consistent-diameter filament for their specific printer and project type. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "What stands out on Creality PLA 3D Printer Filament is cost-effective filament bundle, alongside smooth and stable printing, which is the main reason it earns a spot in this 3D printer filaments comparison.\n\nCompared to PETG Filament at under $15, it costs more for real added capability, while sitting well below UGUESS PETG 3D Printer Filament at under $30 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want reliable, consistent-diameter filament for their specific printer and project type. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Cost-Effective Filament Bundle",
       "Smooth and Stable Printing",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/512Q3S3G65L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DFCG5PZT?tag=deskfinds0d-20",
-    "description": "Creality PETG Filament 1.75mm is built around high performance & strength, paired with high transparent & glossy, positioning it as a filament built around a specific material's strengths rather than a universal choice for every print.\n\nIt lands between PETG Filament's $11.89 price floor and UGUESS PETG 3D Printer Filament's $26.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nCreality PETG Filament 1.75mm is the right call for buyers who want reliable, consistent-diameter filament for their specific printer and project type. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "Creality PETG Filament 1.75mm is built around high performance & strength, paired with high transparent & glossy, positioning it as a filament built around a specific material's strengths rather than a universal choice for every print.\n\nIt lands between PETG Filament's under $15 price floor and UGUESS PETG 3D Printer Filament's under $30 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nCreality PETG Filament 1.75mm is the right call for buyers who want reliable, consistent-diameter filament for their specific printer and project type. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "High Performance & Strength",
       "High Transparent & Glossy",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/411A00RvojL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09DKQR8HD?tag=deskfinds0d-20",
-    "description": "Polymaker ABS Filament Black 1KG 1.75mm is built around strong & heat-resistant abs filament, paired with low-odor abs for better printing experience, positioning it as a filament built around a specific material's strengths rather than a universal choice for every print.\n\nIt lands between PETG Filament's $11.89 price floor and UGUESS PETG 3D Printer Filament's $26.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nPolymaker ABS Filament Black 1KG 1.75mm is the right call for buyers who want reliable, consistent-diameter filament for their specific printer and project type. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "Polymaker ABS Filament Black 1KG 1.75mm is built around strong & heat-resistant abs filament, paired with low-odor abs for better printing experience, positioning it as a filament built around a specific material's strengths rather than a universal choice for every print.\n\nIt lands between PETG Filament's under $15 price floor and UGUESS PETG 3D Printer Filament's under $30 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nPolymaker ABS Filament Black 1KG 1.75mm is the right call for buyers who want reliable, consistent-diameter filament for their specific printer and project type. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Strong & Heat-resistant ABS Filament",
       "Low-odor ABS for Better Printing Experience",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41ywY7QfPeL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0F37VY5VZ?tag=deskfinds0d-20",
-    "description": "ELEGOO ABS 3D Printer Filament 1.75mm Black 1KG Strong Layer Adhesion is built around impact resistant & toughness, paired with superior heat & water resistant, positioning it as a filament built around a specific material's strengths rather than a universal choice for every print.\n\nCompared to PETG Filament at $11.89, it costs more for real added capability, while sitting well below UGUESS PETG 3D Printer Filament at $26.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want reliable, consistent-diameter filament for their specific printer and project type. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "ELEGOO ABS 3D Printer Filament 1.75mm Black 1KG Strong Layer Adhesion is built around impact resistant & toughness, paired with superior heat & water resistant, positioning it as a filament built around a specific material's strengths rather than a universal choice for every print.\n\nCompared to PETG Filament at under $15, it costs more for real added capability, while sitting well below UGUESS PETG 3D Printer Filament at under $30 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want reliable, consistent-diameter filament for their specific printer and project type. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Impact Resistant & Toughness",
       "Superior Heat & Water Resistant",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41noal2XZFL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D421Q2Q2?tag=deskfinds0d-20",
-    "description": "ELEGOO PLA 3D Printer Filament 1.75mm Black 1KG leads with high quality pla filament, backed by top-notch accuracy & consistent, a combination aimed at as a filament built around a specific material's strengths rather than a universal choice for every print.\n\nIt lands between PETG Filament's $11.89 price floor and UGUESS PETG 3D Printer Filament's $26.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nELEGOO PLA 3D Printer Filament 1.75mm Black 1KG is the right call for buyers who want reliable, consistent-diameter filament for their specific printer and project type. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "ELEGOO PLA 3D Printer Filament 1.75mm Black 1KG leads with high quality pla filament, backed by top-notch accuracy & consistent, a combination aimed at as a filament built around a specific material's strengths rather than a universal choice for every print.\n\nIt lands between PETG Filament's under $15 price floor and UGUESS PETG 3D Printer Filament's under $30 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nELEGOO PLA 3D Printer Filament 1.75mm Black 1KG is the right call for buyers who want reliable, consistent-diameter filament for their specific printer and project type. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "High Quality Pla Filament",
       "Top-notch Accuracy & Consistent",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51nFlzl68zL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DJS3PJVX?tag=deskfinds0d-20",
-    "description": "What stands out on SUNLU PETG Filament 1.75mm is petg filament 1.75mmsunlu petg 3d, alongside excellent layer adhesionpetg filament offers, which is the main reason it earns a spot in this 3D printer filaments comparison.\n\nCompared to PETG Filament at $11.89, it costs more for real added capability, while sitting well below UGUESS PETG 3D Printer Filament at $26.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want reliable, consistent-diameter filament for their specific printer and project type. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "What stands out on SUNLU PETG Filament 1.75mm is petg filament 1.75mmsunlu petg 3d, alongside excellent layer adhesionpetg filament offers, which is the main reason it earns a spot in this 3D printer filaments comparison.\n\nCompared to PETG Filament at under $15, it costs more for real added capability, while sitting well below UGUESS PETG 3D Printer Filament at under $30 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want reliable, consistent-diameter filament for their specific printer and project type. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "PETG Filament 1.75mmSUNLU PETG 3D",
       "Excellent Layer AdhesionPETG filament offers",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/517QcLU4BzL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0C8NP63GD?tag=deskfinds0d-20",
-    "description": "PETG Filament is built around [excellent petg filament]our petg combines, paired with [toughness-enhanced petg] our petg filament, positioning it as a filament built around a specific material's strengths rather than a universal choice for every print.\n\nPriced at $11.89, the lowest in this lineup, it trades some of the extras found on pricier picks here for a lower upfront cost, a reasonable tradeoff if your needs are basic.\n\nPETG Filament is the right call for buyers who want reliable, consistent-diameter filament for their specific printer and project type. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "PETG Filament is built around [excellent petg filament]our petg combines, paired with [toughness-enhanced petg] our petg filament, positioning it as a filament built around a specific material's strengths rather than a universal choice for every print.\n\nPriced at under $15, the lowest in this lineup, it trades some of the extras found on pricier picks here for a lower upfront cost, a reasonable tradeoff if your needs are basic.\n\nPETG Filament is the right call for buyers who want reliable, consistent-diameter filament for their specific printer and project type. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "[Excellent PETG Filament]Our PETG combines",
       "[Toughness-enhanced PETG] Our PETG filament",
@@ -321,35 +321,35 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $11.89",
+          "Under $15",
           "PETG Filament"
         ],
         [
-          "Around $12.59",
+          "Under $15",
           "SUNLU PETG Filament 1.75mm"
         ],
         [
-          "Around $13.99",
+          "Under $15",
           "ELEGOO PLA 3D Printer Filament 1.75mm Black 1KG"
         ],
         [
-          "Around $16.99",
+          "Under $20",
           "ELEGOO ABS 3D Printer Filament 1.75mm Black 1KG Strong Layer Adhesion"
         ],
         [
-          "Around $17.10",
+          "Under $20",
           "Polymaker ABS Filament Black 1KG 1.75mm"
         ],
         [
-          "Around $23.99",
+          "Under $25",
           "Creality PLA 3D Printer Filament"
         ],
         [
-          "Around $23.99",
+          "Under $25",
           "Creality PETG Filament 1.75mm"
         ],
         [
-          "Around $26.99",
+          "Under $30",
           "UGUESS PETG 3D Printer Filament"
         ]
       ]
@@ -360,11 +360,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "PETG Filament",
-        "text": "The lowest-priced pick in this comparison at $11.89, a solid choice if you don't need the extras the pricier picks carry."
+        "text": "The lowest-priced pick in this comparison at under $15, a solid choice if you don't need the extras the pricier picks carry."
       },
       {
         "label": "UGUESS PETG 3D Printer Filament",
-        "text": "The highest-priced pick at $26.99, worth it only if you'll actually use what that premium buys."
+        "text": "The highest-priced pick at under $30, worth it only if you'll actually use what that premium buys."
       }
     ],
     "note": "Default to PETG Filament unless the pricier pick's specific advantage genuinely applies to your situation."
@@ -424,7 +424,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "What's the real difference between the cheapest and most expensive pick here?",
-    "a": "PETG Filament at $11.89 covers the basics, while UGUESS PETG 3D Printer Filament at $26.99 adds tighter diameter tolerance and more consistent batch quality. Whether that's worth the difference depends on how critical dimensional accuracy is for your specific prints, since consistency matters more for functional parts than decorative ones."
+    "a": "PETG Filament at under $15 covers the basics, while UGUESS PETG 3D Printer Filament at under $30 adds tighter diameter tolerance and more consistent batch quality. Whether that's worth the difference depends on how critical dimensional accuracy is for your specific prints, since consistency matters more for functional parts than decorative ones."
   },
   {
     "q": "Should I use PLA, PETG, or ABS for my first prints?",
@@ -436,7 +436,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "Is there a solid middle-ground pick in this price range?",
-    "a": "Polymaker ABS Filament Black 1KG 1.75mm at $17.10 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
+    "a": "Polymaker ABS Filament Black 1KG 1.75mm at under $20 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
   },
   {
     "q": "What's the most common mistake buyers make shopping 3D printer filaments under $30?",

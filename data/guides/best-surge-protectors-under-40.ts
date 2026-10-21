@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A flat plug design with the highest warranty", "Eaton Tripp Lite TLP808B Flat Plug Surge Protector"],
         ["Maximum joule protection at a lower price", "ECHOGEAR ShockBlocker 8 Outlet Surge Protector"],
         ["Noise filtering for a home theater setup", "CyberPower HT812TC Home Theater Surge Protector"],
-        ["The highest joule rating at the lowest price", "Amazon Basics 12-Outlet Surge Protector, 4000 Joules"],
+        ["The highest joule rating at the lowest price", "Amazon Basics 12-Outlet Surge Protector, 4000 Joules"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $20", "Amazon Basics ($19.83)"],
-        ["Under $27", "CyberPower HT812TC ($26.72)"],
-        ["Under $30", "ECHOGEAR ShockBlocker ($29.99)"],
-        ["Under $35", "TLP808B ($34.72)"],
+        ["Under $20", "Amazon Basics (under $20)"],
+        ["Under $27", "CyberPower HT812TC (under $30)"],
+        ["Under $30", "ECHOGEAR ShockBlocker (under $30)"],
+        ["Under $35", "TLP808B (under $35)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Flat Plug vs Standard Plug",
     cards: [
       { label: "Flat plug (TLP808B)", text: "Lets furniture sit flush against the wall, a genuine space saver in a tight room where a bulky plug would create a gap." },
-      { label: "Standard plug (ECHOGEAR, CyberPower, Amazon Basics)", text: "Works fine in most setups but requires slightly more clearance behind furniture than a flat plug design." },
+      { label: "Standard plug (ECHOGEAR, CyberPower, Amazon Basics)", text: "Works fine in most setups but requires slightly more clearance behind furniture than a flat plug design." }
     ],
     note: "If your surge protector will sit directly behind a couch, bed, or desk pushed against the wall, the TLP808B's flat plug avoids the gap a standard plug creates.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Absolute highest joule rating", "Amazon Basics (4000J) or ECHOGEAR (3420J)"],
         ["Solid protection with a flat plug", "TLP808B (1440J)"],
-        ["AV-specific filtering over raw joules", "CyberPower HT812TC"],
+        ["AV-specific filtering over raw joules", "CyberPower HT812TC"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Room Where Furniture Sits Flush Against the Wall Specifically",
     cards: [
       { label: "Look for", text: "A flat plug design that doesn't create a gap between furniture and the wall, unlike a standard bulky plug." },
-      { label: "In this comparison", text: "The TLP808B's flat plug is specifically designed to let furniture move flush against the wall without obstruction." },
+      { label: "In this comparison", text: "The TLP808B's flat plug is specifically designed to let furniture move flush against the wall without obstruction." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a flat plug design and the highest documented warranty, where the TLP808B's $75,000 connected equipment insurance leads this comparison." },
-      { label: "Save if", text: "You want the highest raw joule rating without specialized features, where the Amazon Basics pick delivers 4000J for under $20." },
+      { label: "Save if", text: "You want the highest raw joule rating without specialized features, where the Amazon Basics pick delivers 4000J for under $20." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

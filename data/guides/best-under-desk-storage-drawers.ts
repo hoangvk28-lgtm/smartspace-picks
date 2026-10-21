@@ -32,8 +32,8 @@ export const products: GuideProduct[] = [
     badge: "Best Adhesive Option by Review Count",
     name: "YOOUSOO 2-Pack Under Desk Storage Drawer, Hidden Slide Out, Self-Adhesive, White",
     price: "~$15.99",
-    rating: "4.3 stars",
-    reviews: "1,999 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/yoousoo-2pack-adhesive.webp`,
     amazonUrl: "https://www.amazon.com/dp/B08B3XHWJD?tag=deskfinds0d-20",
     description:
@@ -41,14 +41,13 @@ export const products: GuideProduct[] = [
     specs: ["2-pack", "Self-adhesive", "No drill", "White"],
     pros: [
       "Most reviewed under desk drawer in roundup (1,999)",
-      "2-pack at $15.99 lowest per-drawer cost",
+      "2-pack at under $20 lowest per-drawer cost",
       "No drilling ideal for renters",
-      "White finish",
+      "White finish"
     ],
     cons: [
-      "4.3 stars lowest rating in roundup",
       "Adhesive fails on rough or textured surfaces",
-      "Lower weight limit than clamped alternatives",
+      "Lower weight limit than clamped alternatives"
     ],
     bestFor:
       "renters with smooth-underside desks who need light storage for small everyday items at the lowest price",
@@ -59,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best Premium Option with Lock",
     name: "Under Desk Drawer Slide-Out, Lockable Metal Storage with Cable Management, Double Drawers",
     price: "~$99.99",
-    rating: "4.5 stars",
-    reviews: "1,329 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/lockable-double-drawer.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0DRDJ3PVQ?tag=deskfinds0d-20",
     description:
@@ -69,13 +68,12 @@ export const products: GuideProduct[] = [
     pros: [
       "Only lockable drawer in this roundup",
       "Cable management integrated",
-      "Double drawer doubles storage",
-      "4.5 stars 1,329 reviews",
+      "Double drawer doubles storage"
     ],
     cons: [
-      "$99.99 highest price by a wide margin",
+      "Under $100 highest price by a wide margin",
       "Requires drilling, not renter-friendly",
-      "Overkill for basic pen and notepad storage",
+      "Overkill for basic pen and notepad storage"
     ],
     bestFor:
       "permanent home offices where document or item security is a priority",
@@ -86,8 +84,8 @@ export const products: GuideProduct[] = [
     badge: "Best Clamp-On: No Drilling, No Adhesive",
     name: "Homeify Under Desk Drawer Organizer Clamp-On, Mesh Metal, 1 Drawer, No Drill, Black",
     price: "~$21.99",
-    rating: "4.2 stars",
-    reviews: "889 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/homeify-clamp-on.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CKZJ43CR?tag=deskfinds0d-20",
     description:
@@ -97,12 +95,11 @@ export const products: GuideProduct[] = [
       "No drilling required, renter-friendly",
       "Removable without surface damage",
       "Metal mesh more durable than plastic",
-      "No adhesive dependency",
+      "No adhesive dependency"
     ],
     cons: [
-      "4.2 stars second lowest in roundup",
       "Requires desk edge within clamp range",
-      "Single drawer only",
+      "Single drawer only"
     ],
     bestFor:
       "renters with a desk edge within clamp range who want a removable under-desk drawer without adhesive",
@@ -113,23 +110,22 @@ export const products: GuideProduct[] = [
     badge: "Best Value Adhesive with Dividers",
     name: "Bostitch Konnect Under Desk Drawer, Self-Adhesive, 4 Customizable Dividers, 2-Pack, Black",
     price: "~$11.97",
-    rating: "4.6 stars",
-    reviews: "806 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/bostitch-konnect.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CJCJTVJ6?tag=deskfinds0d-20",
     description:
       "The Bostitch Konnect drawer uses a self-adhesive mount to attach to the underside of a desk without drilling, and each drawer includes four removable dividers that can be arranged to create separate compartments for different item types such as pens, small scissors, erasers, and sticky note pads. The ability to customize the internal layout is a meaningful advantage over drawers with a single open cavity, because items do not shift around or pile on top of each other when the drawer is opened or closed. A two-pack is included, allowing two drawers to be installed at different positions under the same desk or on separate desks.\n\nBostitch is a brand with a history in office products, which gives this drawer more name recognition than most generic options in this category. The adhesive requires a smooth, flat underside to bond properly, and the weight the drawer can hold is limited by the strength of the adhesive bond rather than the drawer structure itself. This is the most affordable option in the roundup for buyers who want organized, divided under-desk storage rather than a single open tray.",
     specs: ["2-pack", "4 dividers", "Self-adhesive", "Black"],
     pros: [
-      "Lowest price at $11.97 for 2 units",
-      "4.6 stars highest among adhesive picks",
+      "Lowest price at under $15 for 2 units",
       "Bostitch recognized office brand",
-      "4 customizable dividers per drawer",
+      "4 customizable dividers per drawer"
     ],
     cons: [
       "Adhesive weight limits apply",
       "Requires smooth flat desk underside",
-      "No lock",
+      "No lock"
     ],
     bestFor:
       "buyers wanting organized divided under-desk storage at the lowest price from a recognizable office brand",
@@ -140,8 +136,8 @@ export const products: GuideProduct[] = [
     badge: "Best System Approach with Three Sizes",
     name: "SVNNELP Under Desk Drawer 3-Pack (Large, Medium, Small), Slide Out, Clear Black",
     price: "~$30.99",
-    rating: "4.6 stars",
-    reviews: "364 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/svnnelp-3pack.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CX9GS4BC?tag=deskfinds0d-20",
     description:
@@ -149,14 +145,12 @@ export const products: GuideProduct[] = [
     specs: ["3-pack", "Three sizes", "Clear panels", "Self-adhesive"],
     pros: [
       "Three different sizes create an organized system",
-      "4.6 stars matches highest adhesive rating",
       "Clear panels show contents without opening",
-      "One purchase covers multiple storage needs",
+      "One purchase covers multiple storage needs"
     ],
     cons: [
-      "364 reviews relatively small sample",
       "Adhesive limits apply to all three units",
-      "Requires three smooth attachment points",
+      "Requires three smooth attachment points"
     ],
     bestFor:
       "buyers wanting an organized under-desk system with different drawer sizes for different item types",
@@ -167,8 +161,8 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Tier at Mid-Range",
     name: "Mofangtech Dual-Tier Under Desk Drawer, 2 Layers, 15.3 x 9.8 x 5.1 inches, Metal, Black",
     price: "~$54.99",
-    rating: "4.5 stars",
-    reviews: "192 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/mofangtech-dual-tier.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0F2MD4L4X?tag=deskfinds0d-20",
     description:
@@ -177,13 +171,11 @@ export const products: GuideProduct[] = [
     pros: [
       "Dual-tier doubles storage capacity",
       "Known dimensions allow clearance planning",
-      "Metal construction",
-      "4.5 stars",
+      "Metal construction"
     ],
     cons: [
       "5.1-inch height requires sufficient under-desk clearance",
-      "Requires drilling, not renter-friendly",
-      "192 reviews small sample",
+      "Requires drilling, not renter-friendly"
     ],
     bestFor:
       "permanent home offices with sufficient under-desk clearance who want double the storage of a single drawer",
@@ -194,22 +186,19 @@ export const products: GuideProduct[] = [
     badge: "Best Single-Layer Metal Option",
     name: "UNITEDPOWER Under Desk Drawer Storage, Pull-Out Hidden Counter Drawer, Metal, Black",
     price: "~$39.99",
-    rating: "4.6 stars",
-    reviews: "167 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/unitedpower-pullout.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0BY8PNXJ1?tag=deskfinds0d-20",
     description:
       "The UNITEDPOWER drawer is a single-layer pull-out unit that mounts to the underside of a desk via a bracket installation, providing a hidden storage compartment that slides out horizontally when needed and tucks completely out of sight when closed. The metal construction gives it more structural rigidity than plastic under-desk drawers and allows it to hold a reasonable load of office supplies without the drawer sagging or deforming over time. Because it is a single-layer design, the unit sits closer to the desk underside than dual-tier alternatives, which makes it a better fit for desks with limited vertical clearance between the underside and the user's legs. Installation requires drilling, so this is appropriate for homeowners or anyone in a permanent office setup who is comfortable with a fixed mount. The mid-range price point of a moderate amount positions this between the budget adhesive options and the premium lockable units in this roundup, making it the practical choice for a buyer who wants metal construction with a simple, clean single-drawer format without paying for a lock or dual tiers they do not need.",
     specs: ["Single layer", "Metal", "Pull-out", "Drill required"],
     pros: [
-      "4.6 stars among highest initial ratings in roundup",
       "Metal construction competitive at price",
-      "Compact single-layer format",
-    ],
+      "Compact single-layer format", "Pull-out design keeps items hidden"],
     cons: [
-      "167 reviews small sample",
       "Requires drilling, not renter-friendly",
-      "Single layer only",
+      "Single layer only"
     ],
     bestFor:
       "buyers wanting metal construction and a high initial rating at mid-range price who own the desk",
@@ -220,8 +209,8 @@ export const products: GuideProduct[] = [
     badge: "Premium Dual-Tier from Recognized Brand",
     name: "VIVO 16 inch Slide Out Dual-Tier Desk Drawer, Under Desk 2-Layer Storage, Black",
     price: "~$89.99",
-    rating: "4.2 stars",
-    reviews: "157 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/vivo-16-dual-tier.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CC6Y2L4K?tag=deskfinds0d-20",
     description:
@@ -230,16 +219,14 @@ export const products: GuideProduct[] = [
     pros: [
       "VIVO established brand in desk accessories",
       "16-inch width largest storage area in roundup",
-      "Dual-tier doubles capacity",
+      "Dual-tier doubles capacity"
     ],
     cons: [
-      "4.2 stars lowest in roundup",
-      "$89.99 close to lockable option at $99.99 with fewer features",
-      "157 reviews small sample",
+      "Under $90 close to lockable option at under $100 with fewer features"
     ],
     bestFor:
       "buyers who specifically want the VIVO brand and need a wide dual-tier drawer without a lock",
-  },
+  }
 ];
 
 export interface AtAGlanceRow {
@@ -279,8 +266,8 @@ export const faq: { q: string; a: string }[] = [
   },
   {
     q: "How much do under desk storage drawers cost?",
-    a: "Range is $11.97 (Bostitch Konnect 2-pack) to $99.99 (lockable metal double-drawer). Adhesive options range from $11.97 to $30.99. The clamp-on Homeify is $21.99. Bracket-mount options range from $39.99 to $99.99.",
-  },
+    a: "Range is under $15 (Bostitch Konnect 2-pack) to under $100 (lockable metal double-drawer). Adhesive options range from roughly $15 to $35. The clamp-on Homeify is under $25. Bracket-mount options range from roughly $40 to $100.",
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
@@ -299,5 +286,5 @@ export const relatedGuides: { href: string; title: string }[] = [
   {
     href: "/guide/best-desk-shelves-small-desks",
     title: "Best Desk Shelves for Small Desks (2026)",
-  },
+  }
 ];

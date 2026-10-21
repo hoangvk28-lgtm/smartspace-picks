@@ -12,7 +12,7 @@ export const streamingBackdropLightingExplainedGuide: Guide = {
     "how to light a green screen",
     "even lighting for streaming backdrop",
     "backdrop lighting shadows fix",
-    "streaming setup lighting placement",
+    "streaming setup lighting placement"
   ],
   heroImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const streamingBackdropLightingExplainedGuide: Guide = {
     "green-screen-vs-virtual-background",
     "ring-light-vs-key-light",
     "webcam-lighting-explained",
-    "desk-lamp-kelvin-color-temperature",
+    "desk-lamp-kelvin-color-temperature"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const streamingBackdropLightingExplainedGuide: Guide = {
       question: "Can I use natural window light for backdrop lighting?",
       answer:
         "Window light can work but is less consistent than dedicated artificial lighting, since it changes throughout the day and can create uneven brightness across the backdrop depending on window position, dedicated lights provide more reliable, controllable results.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const streamingBackdropLightingExplainedGuide: Guide = {
     {
       heading: "Why Your Own Shadow Is an Easy Mistake to Overlook",
       body: `A common oversight is positioning your face lighting in a way that inadvertently casts your own body's shadow onto the backdrop behind you, particularly if you're standing close to the backdrop or your key light is positioned at an angle that projects your silhouette backward. Maintaining reasonable distance from the backdrop and checking your setup for shadow overlap before an important recording or stream session catches this easily fixed but easily missed issue.`,
-    },
+    }
   ],
 };

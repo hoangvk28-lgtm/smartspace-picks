@@ -221,35 +221,35 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $16.99",
+          "Under $20",
           "UGREEN Tool-Free M.2 NVMe SSD Enclosure (10Gbps)"
         ],
         [
-          "Around $20.98",
+          "Under $25",
           "UGREEN USB-C Hard Drive Enclosure for 2.5-inch SATA SSD/HDD"
         ],
         [
-          "Around $73.99",
+          "Under $80",
           "UGREEN 40Gbps M.2 NVMe Enclosure (SSD Not Included)"
         ],
         [
-          "Around $103.99",
+          "Under $110",
           "TerraMaster D2-320 2-Bay USB RAID Enclosure (Diskless)"
         ],
         [
-          "Around $119.99",
+          "Under $120",
           "CENMATE Aluminum 4-Bay Hard Drive Enclosure (5Gbps)"
         ],
         [
-          "Around $159.98",
+          "Under $160",
           "UGREEN 80Gbps M.2 NVMe SSD Enclosure (SSD Not Included)"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "Sabrent 4-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC4B)"
         ],
         [
-          "Around $239.99",
+          "Under $250",
           "TerraMaster D6-320 6-Bay USB DAS Enclosure (Diskless)"
         ]
       ]
@@ -304,10 +304,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "UGREEN Tool-Free M.2 NVMe SSD Enclosure (10Gbps) is aimed at buyers prioritizing m.2 nvme enclosure, up to 8tb, 10gbps, at $16.99."
+        "text": "UGREEN Tool-Free M.2 NVMe SSD Enclosure (10Gbps) is aimed at buyers prioritizing m.2 nvme enclosure, up to 8tb, 10gbps, at under $20."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -359,7 +359,7 @@ export const faq = [
     "a": "Only if the specific enclosure documents hot-swap support, which most tool-free tray designs in this category do. Always check your specific product's hot-swap capability before removing a drive live, since not every budget enclosure supports it, especially some fixed-RAID-mode units."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "UGREEN Tool-Free M.2 NVMe SSD Enclosure (10Gbps) is aimed at buyers prioritizing m.2 nvme enclosure, up to 8tb, 10gbps." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "UGREEN Tool-Free M.2 NVMe SSD Enclosure (10Gbps) is aimed at buyers prioritizing m.2 nvme enclosure, up to 8tb, 10gbps." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-nvme-direct-attached-storage","title":"8 Best NVMe Direct-Attached Storage"},{"href":"/guide/best-thunderbolt-5-direct-attached-storage","title":"5 Best Thunderbolt 5 Direct-Attached Storage"},{"href":"/guide/best-usb4-das-storage","title":"8 Best USB4 DAS Storage Options"}];

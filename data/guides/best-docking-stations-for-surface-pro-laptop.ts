@@ -5,7 +5,7 @@ export const metaDescription =
   "8 best docking stations for Surface Pro and Surface Laptop in 2026, from certified Thunderbolt docks to budget USB-C hubs. Compare ports, power, and displays.";
 export const mainKeyword = "docking station for surface pro";
 export const introParagraphs = [
-  "A docking station for Surface Pro or Surface Laptop has to account for a quirk most generic docking guides skip over entirely: not every Surface generation even has a USB-C port capable of driving a dock. Surface Pro 7 and earlier, along with Surface Laptop 3 and earlier, relied mainly on Microsoft's proprietary Surface Connect port with only limited USB-C, while Surface Pro 8 through 11 and Surface Laptop 4 through 6 added full USB-C and Thunderbolt support that makes them compatible with the same docks used on any other Windows laptop.\n\nBelow are 8 docking stations we evaluated on port count, power delivery, display support, and how well each one fits Surface's tablet-first use pattern, where the device gets undocked and redocked far more often than a typical clamshell laptop, ranging from a $26.96 budget USB-C hub to a certified Thunderbolt 4 dock built for triple-display setups.",
+  "A docking station for Surface Pro or Surface Laptop has to account for a quirk most generic docking guides skip over entirely: not every Surface generation even has a USB-C port capable of driving a dock. Surface Pro 7 and earlier, along with Surface Laptop 3 and earlier, relied mainly on Microsoft's proprietary Surface Connect port with only limited USB-C, while Surface Pro 8 through 11 and Surface Laptop 4 through 6 added full USB-C and Thunderbolt support that makes them compatible with the same docks used on any other Windows laptop.\n\nBelow are 8 docking stations we evaluated on port count, power delivery, display support, and how well each one fits Surface's tablet-first use pattern, where the device gets undocked and redocked far more often than a typical clamshell laptop, ranging from an under-$30 budget USB-C hub to a certified Thunderbolt 4 dock built for triple-display setups."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -56,18 +56,18 @@ export const products: GuideProduct[] = [
       "Up to 160W max output",
       "Dual 4K display support",
       "10Gbps data transfer",
-      "Compatible with USB-C-equipped Windows laptops",
+      "Compatible with USB-C-equipped Windows laptops"
     ],
     pros: [
       "Highest port count in this list at 14",
       "Strong 160W max output for power-hungry setups",
       "Dual 4K display support",
-      "Fast 10Gbps data transfer",
+      "Fast 10Gbps data transfer"
     ],
     cons: [
       "Requires a Surface generation with full USB-C, not Surface Connect-only models",
       "Larger footprint than the compact travel-style picks",
-      "Pricier than the budget USB-C hub options",
+      "Pricier than the budget USB-C hub options"
     ],
     bestFor: "Buyers with a modern USB-C Surface who want maximum ports in one dock",
   },
@@ -88,18 +88,18 @@ export const products: GuideProduct[] = [
       "Dual 4K monitor support",
       "100W charging",
       "Driverless setup",
-      "16-in-1 port configuration",
+      "16-in-1 port configuration"
     ],
     pros: [
       "Certified Thunderbolt 4, not just USB4 compatible",
       "Dual 4K display support",
       "100W charging output",
-      "No driver installation needed",
+      "No driver installation needed"
     ],
     cons: [
       "Most expensive pick in this list",
       "Only worth the premium if your Surface actually has a Thunderbolt port",
-      "Larger than the compact travel docks",
+      "Larger than the compact travel docks"
     ],
     bestFor: "Buyers with a Thunderbolt-equipped Surface who want certified compatibility",
   },
@@ -120,18 +120,18 @@ export const products: GuideProduct[] = [
       "Dual 4K@60Hz HDMI",
       "10Gbps data transfer",
       "100W PD passthrough",
-      "Compact form factor",
+      "Compact form factor"
     ],
     pros: [
       "Cheapest pick in this guide by a wide margin",
       "Dual 4K@60Hz HDMI support",
       "Fast 10Gbps data transfer",
-      "Compact, easy to pack for travel",
+      "Compact, easy to pack for travel"
     ],
     cons: [
       "Fewer total ports than the higher-tier docks",
       "USB-C, not Thunderbolt certified",
-      "Real charging output runs below the rated 100W",
+      "Real charging output runs below the rated 100W"
     ],
     bestFor: "Budget-conscious buyers who mainly need dual monitors and basic ports",
   },
@@ -152,18 +152,18 @@ export const products: GuideProduct[] = [
       "Dual 4K HDMI or single 6K display",
       "100W charging",
       "Driverless",
-      "Compact desktop footprint",
+      "Compact desktop footprint"
     ],
     pros: [
       "Flexible display output, dual 4K or single 6K",
       "Certified Thunderbolt 4",
       "100W charging",
-      "No driver installation required",
+      "No driver installation required"
     ],
     cons: [
       "Pricier than the budget USB-C hub picks",
       "High refresh rate combos may need a firmware check on Surface hardware",
-      "Overkill for buyers who only need a single monitor",
+      "Overkill for buyers who only need a single monitor"
     ],
     bestFor: "Buyers running demanding multi-4K display setups from a Thunderbolt Surface",
   },
@@ -184,18 +184,18 @@ export const products: GuideProduct[] = [
       "Dual 4K monitor support",
       "85W PD passthrough",
       "Compact, travel-friendly size",
-      "USB-C connection",
+      "USB-C connection"
     ],
     pros: [
       "Most compact and portable dock in this guide",
       "Dual 4K monitor support",
       "Easy to pack for travel",
-      "Reasonable mid-range price",
+      "Reasonable mid-range price"
     ],
     cons: [
       "Lower max charging output than the higher-power docks",
       "Fewer ports than the 13/14-port picks",
-      "Not Thunderbolt certified",
+      "Not Thunderbolt certified"
     ],
     bestFor: "Surface owners who frequently undock and travel with their device",
   },
@@ -216,18 +216,18 @@ export const products: GuideProduct[] = [
       "2 HDMI ports for dual monitor output",
       "USB-C connection",
       "Compact desktop dock",
-      "Budget-friendly price point",
+      "Budget-friendly price point"
     ],
     pros: [
       "Low price for dual HDMI monitor support",
       "Straightforward setup, no drivers",
       "Compact footprint",
-      "Good starter dock for basic dual-display needs",
+      "Good starter dock for basic dual-display needs"
     ],
     cons: [
       "Not Thunderbolt certified",
       "Heavy simultaneous loads can cause bandwidth-related disconnects",
-      "Lower charging output than premium picks",
+      "Lower charging output than premium picks"
     ],
     bestFor: "Buyers who just need a low-cost dual-monitor setup for their Surface",
   },
@@ -248,18 +248,18 @@ export const products: GuideProduct[] = [
       "Dual monitor 4K@60Hz HDMI",
       "85W PD",
       "SD/TF card reader included",
-      "Nano compact form factor",
+      "Nano compact form factor"
     ],
     pros: [
       "Very low price for dual 4K@60Hz support",
       "Includes SD/TF card reader",
       "Compact nano form factor",
-      "Easy to travel with",
+      "Easy to travel with"
     ],
     cons: [
       "Not Thunderbolt certified",
       "Real charging speed runs below the rated 85W",
-      "Fewer total ports than higher-tier docks",
+      "Fewer total ports than higher-tier docks"
     ],
     bestFor: "Surface owners who also need a built-in card reader for photo/video files",
   },
@@ -280,21 +280,21 @@ export const products: GuideProduct[] = [
       "Supports 3 displays at once",
       "10Gbps USB-C data transfer",
       "Up to 100W max PD",
-      "Modular detachable design",
+      "Modular detachable design"
     ],
     pros: [
       "Supports 3 simultaneous displays",
       "Detachable hub adds travel flexibility",
       "Fast 10Gbps data transfer",
-      "Strong port count at 13-in-1",
+      "Strong port count at 13-in-1"
     ],
     cons: [
       "Not Thunderbolt certified, USB-C only",
       "Pricier than the basic dual-display picks",
-      "Detachable design adds a small learning curve",
+      "Detachable design adds a small learning curve"
     ],
     bestFor: "Buyers who need 3 displays and want a modular dock for travel",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -322,7 +322,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Portability for tablet-mode use",
     description: "Weighed dock size and detachability against Surface's frequent undock/redock pattern, since a bulkier fixed dock is a worse fit for a device used in tablet mode as often as docked.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -465,11 +465,11 @@ export const faq: FaqItem[] = [
   {
     q: "Why does my dock keep randomly disconnecting?",
     a: "Heavy simultaneous use, dual displays plus a fast file transfer plus a connected USB drive, can saturate the dock's USB bus and cause disconnects that look like a hardware failure but are really a bandwidth or load issue. A long, generic USB-C cable between the dock and the Surface is another common hidden cause worth ruling out.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-docking-stations-compatible-with-lenovo-laptops", title: "Best Docking Stations for Lenovo Laptops (2026)" },
   { href: "/guide/best-docking-stations-compatible-with-hp-dell-laptops", title: "Best Docking Stations for HP & Dell Laptops (2026)" },
-  { href: "/guide/best-docking-station-for-laptop", title: "Best Docking Stations for Laptops (2026)" },
+  { href: "/guide/best-docking-station-for-laptop", title: "Best Docking Stations for Laptops (2026)" }
 ];

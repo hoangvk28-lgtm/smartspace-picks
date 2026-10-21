@@ -139,7 +139,7 @@ export default async function BestVerticalLaptopStandsPage() {
     about: [
       { "@type": "Thing", name: "Vertical Laptop Stand" },
       { "@type": "Thing", name: "Desk Accessories" },
-      { "@type": "Thing", name: "Clamshell Mode Storage" },
+      { "@type": "Thing", name: "Clamshell Mode Storage" }
     ],
   };
 
@@ -149,7 +149,7 @@ export default async function BestVerticalLaptopStandsPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Vertical Laptop Stands", item: `${SITE_URL}/guide/best-vertical-laptop-stands` },
+      { "@type": "ListItem", position: 3, name: "Best Vertical Laptop Stands", item: `${SITE_URL}/guide/best-vertical-laptop-stands` }
     ],
   };
 
@@ -316,7 +316,7 @@ export default async function BestVerticalLaptopStandsPage() {
               <p className="text-sm text-ink-secondary">
                 <strong className="text-ink">best overall:</strong>{" "}
                 <a href="#omoton-single" className="font-bold text-ink hover:text-brand transition-colors">OMOTON Aluminum Vertical Laptop Stand</a>
-                 - 4.8 stars, lifetime warranty and widest adjustment range in this roundup.
+                 - Lifetime warranty and widest adjustment range in this roundup.
               </p>
             </div>
             <p className="text-sm text-ink-secondary pl-5">See the full rankings above for all eight picks with pros, cons, and best-for summaries.</p>

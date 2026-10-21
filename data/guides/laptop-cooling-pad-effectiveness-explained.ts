@@ -12,7 +12,7 @@ export const laptopCoolingPadEffectivenessExplainedGuide: Guide = {
     "do laptop cooling pads actually work",
     "laptop cooling pad temperature difference",
     "when to use a laptop cooling pad",
-    "laptop overheating fix cooling pad",
+    "laptop overheating fix cooling pad"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const laptopCoolingPadEffectivenessExplainedGuide: Guide = {
     "laptop-stand-vs-laptop-riser",
     "desk-fan-cfm-explained",
     "laptop-stand-height-chart",
-    "laptop-sleeve-vs-hard-case",
+    "laptop-sleeve-vs-hard-case"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const laptopCoolingPadEffectivenessExplainedGuide: Guide = {
       question: "Does using a laptop on a soft surface like a bed cause overheating?",
       answer:
         "Yes, soft surfaces like a bed or couch cushion can block or restrict a laptop's intake vents entirely, causing more significant overheating than using it on a hard desk surface, a cooling pad's rigid raised platform is particularly beneficial in this scenario.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const laptopCoolingPadEffectivenessExplainedGuide: Guide = {
     {
       heading: "The Bigger Problem a Cooling Pad Solves on Soft Surfaces",
       body: `Using a laptop directly on a bed, couch cushion, or lap without any rigid surface underneath can partially or fully block intake vents, causing far more significant overheating than the laptop would experience on a flat desk. In this specific scenario, a cooling pad's primary value isn't necessarily its fans, it's providing a rigid, elevated, ventilated surface that restores proper airflow the soft surface was blocking in the first place.`,
-    },
+    }
   ],
 };

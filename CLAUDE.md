@@ -418,7 +418,12 @@ The rendering itself (`components/guide/RichGuidePage.tsx`) is a faithful extrac
 
 - The `rating` and `reviews` fields may still exist in `data/guides/<slug>.ts` product data (useful internally for ranking/picking which product to feature), but they must never be rendered in the page output.
 - This applies to all guides going forward and required a retrofit pass across all existing guides on 2026-08-13 (regenerated via `scripts/generate-guide-page.mjs` after the template was stripped of rating/review markup).
+- This also covers prose: never write star ratings or review counts ("4.6 stars", "13,623 reviews", "nearly 19,000 ratings") in descriptions, pros/cons, specs, FAQ, verdict strings, or JSX copy. A 2026-10-21 cleanup removed ~9,800 such mentions from ~970 files that earlier batch generators had written into prose, then refilled FAQs/pros that dropped below minimums.
 - Do not reintroduce a rating/review display, an `AggregateRating`/`Review` schema populated with Amazon's numbers, or any UI element surfacing this data without explicit user sign-off.
+
+### FORBIDDEN: Exact prices in guide copy (added 2026-10-21)
+
+Never write an exact Amazon price (`"$23.39"`, `"It costs $89"`, `"Around $12.99"`) anywhere in rendered guide copy: product `description`, `pros`/`cons`/`specs`, `howToChoose` tables, `faq`, intros, `metaDescription`, or the `data/guides.ts` registry `description`. The site shows a "Check price" button instead of prices because static prices go stale (ISR caches up to 7 days) and Amazon's terms only allow displaying prices fetched from the API and refreshed frequently. Use buckets ("under $25", "$25 to $50") or relative wording ("the cheapest pick here", "slightly more than X"). Budget thresholds in titles/slugs ("Under $50") are fine. The `price` field may stay in product data for internal ranking but must never render. A 2026-10-21 cleanup converted ~9,400 exact-price mentions across ~1,800 guide files to buckets.
 
 ### Pros / Cons List Length (GuideProduct.pros / GuideProduct.cons)
 - **Every product needs at least 3-4 `pros` entries.** Two pros reads thin to a reader and undersells a pick even when the product is genuinely good — this was flagged as a real defect in a shipped batch. Cons can be fewer (2-3 is fine) since editorial judgment naturally surfaces fewer genuine drawbacks than strengths for a product that made the cut to begin with, but don't pad cons artificially just to hit a count.

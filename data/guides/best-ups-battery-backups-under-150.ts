@@ -4,7 +4,7 @@ export const metaTitle = "Best UPS Battery Backups Under $150";
 export const metaDescription = "We compared UPS battery backups under $150 by VA rating, ECO mode efficiency, and battery replacement, since larger capacity units appear at this tier.";
 export const mainKeyword = "best ups battery backups under $150";
 export const introParagraphs = [
-  "Under $150, UPS battery backups climb into 550-900VA territory with LCD status panels, ECO mode power-saving features, and higher-count outlet arrays, real capability upgrades over the smaller units clustered just under $100.",
+  "Under $150, UPS battery backups climb into 550-900VA territory with LCD status panels, ECO mode power-saving features, and higher-count outlet arrays, real capability upgrades over the smaller units clustered under $100.",
   "We compared this lineup on VA/wattage capacity, LCD panel information depth, and long-term battery serviceability, since these details determine whether a UPS comfortably runs a small desktop setup for a meaningful stretch or just barely covers a router during a brief outage."
 ];
 export const lastUpdated = "2026-09-14";
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Maximum capacity and the most battery-backup outlets", "CyberPower AVRG900LCD Intelligent LCD UPS"],
         ["Genuine ECO Mode energy savings with an LCD panel", "CyberPower EC850LCD Ecologic UPS"],
         ["Solid mid-size capacity with easy battery replacement", "APC Battery Backup, 650VA/390W"],
-        ["The lowest price with documented equipment protection", "APC Battery Backup, 550VA/330W"],
+        ["The lowest price with documented equipment protection", "APC Battery Backup, 550VA/330W"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $102", "APC 550VA ($101.13)"],
-        ["Under $110", "APC 650VA ($109.99)"],
-        ["Under $120", "CyberPower EC850LCD ($119.95)"],
-        ["Under $140", "CyberPower AVRG900LCD ($139.95)"],
+        ["Under $102", "APC 550VA (under $110)"],
+        ["Under $110", "APC 650VA (under $110)"],
+        ["Under $120", "CyberPower EC850LCD (under $120)"],
+        ["Under $140", "CyberPower AVRG900LCD (under $140)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "LCD Panel vs Basic Indicator Lights",
     cards: [
       { label: "LCD panel (AVRG900LCD, EC850LCD)", text: "Displays detailed, immediate battery and power condition information at a glance, easier to interpret than indicator lights alone." },
-      { label: "Basic indicators (APC 650VA, APC 550VA)", text: "Uses simple lights and audible alerts for status, sufficient for basic monitoring at a lower price." },
+      { label: "Basic indicators (APC 650VA, APC 550VA)", text: "Uses simple lights and audible alerts for status, sufficient for basic monitoring at a lower price." }
     ],
     note: "If you want detailed, real-time status information without checking an app, an LCD-equipped pick is worth the price difference. If basic status confirmation is enough, the APC picks save money.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Maximum capacity for a demanding setup", "AVRG900LCD (900VA)"],
         ["Solid mid-size capacity", "APC 650VA or CyberPower EC850LCD"],
-        ["Basic router and small device coverage", "APC 550VA"],
+        ["Basic router and small device coverage", "APC 550VA"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Home Office Trying to Minimize Standby Energy Costs Specifically",
     cards: [
       { label: "Look for", text: "A UPS with genuine ECO Mode that automatically cuts power to peripherals when the connected computer is off or sleeping." },
-      { label: "In this comparison", text: "The CyberPower EC850LCD's ECO Mode is specifically designed to reduce standby energy costs this way." },
+      { label: "In this comparison", text: "The CyberPower EC850LCD's ECO Mode is specifically designed to reduce standby energy costs this way." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the highest capacity and most battery-backup outlets with the strongest documented warranty, where the AVRG900LCD leads this comparison on all three fronts." },
-      { label: "Save if", text: "You want solid mid-size capacity and easy battery replacement without an LCD panel, where the APC 550VA covers that for the lowest price here." },
+      { label: "Save if", text: "You want solid mid-size capacity and easy battery replacement without an LCD panel, where the APC 550VA covers that for the lowest price here." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $101.99",
+          "Under $110",
           "Tribesigns 31.5\" Square Conference Table"
         ],
         [
-          "Around $125.26",
+          "Under $130",
           "LITTLE TREE 39-Inch Square Conference Table for 4"
         ],
         [
-          "Around $129.99",
+          "Under $130",
           "GIANTEX 6FT Conference Table for 8-10"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "Tribesigns 6FT Boat-Shaped Conference Table"
         ],
         [
-          "Around $209.99",
+          "Under $250",
           "Tribesigns 5FT Small Conference Table for 4-6"
         ],
         [
-          "Around $209.99",
+          "Under $250",
           "TRIBEWOOD 63-Inch Solid Wood Conference Table for 4-6"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "ECACAD 7FT Conference Table"
         ],
         [
-          "Around $269.99",
+          "Under $300",
           "TRIBEWOOD 5.24ft Solid Wood Conference Table for 6"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns 5FT Small Conference Table for 4-6 is aimed at buyers prioritizing 62.99\"w x 31.5\"d x 29.5\"h top." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns 5FT Small Conference Table for 4-6 is aimed at buyers prioritizing 62.99\"w x 31.5\"d x 29.5\"h top." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-10-ft-conference-tables","title":"Best 10 ft Conference Tables in 2026"},{"href":"/guide/best-6-ft-conference-tables","title":"Best 6 ft Conference Tables in 2026"},{"href":"/guide/best-8ft-conference-tables","title":"Best 8ft Conference Tables in 2026"}];

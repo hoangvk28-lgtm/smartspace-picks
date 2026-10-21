@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "standing desk with keyboard tray";
 export const introParagraphs = [
   "A keyboard tray is only ergonomically useful if it tilts negatively, meaning the front edge angles down and away from you, which keeps wrists in a neutral position instead of bending them upward. Most budget trays on Amazon are flat, and flat is still better than typing directly on a raised standing desk surface, but it is not the same as a genuine negative-tilt tray, and few listings are explicit about which angle they actually offer. We checked all 8 listings below for exactly what each one confirms about tray angle, size, and weight rating.",
-  "Two of the picks in this guide do not clearly confirm a keyboard tray in their own title or description, and we flag that honestly rather than assuming a model number implies a feature it does not state. A tray also eats into usable desktop depth, typically 6 to 8 inches, which matters more on desks already shallow to begin with. Below we rank 8 options with a clear read on tilt angle, tray depth cost, and weight rating for anyone who leans on the tray while typing.",
+  "Two of the picks in this guide do not clearly confirm a keyboard tray in their own title or description, and we flag that honestly rather than assuming a model number implies a feature it does not state. A tray also eats into usable desktop depth, typically 6 to 8 inches, which matters more on desks already shallow to begin with. Below we rank 8 options with a clear read on tilt angle, tray depth cost, and weight rating for anyone who leans on the tray while typing."
 ];
 export const lastUpdated = "2026-07-26";
 export const readTime = "11 min";
@@ -46,8 +46,8 @@ export const products: GuideProduct[] = [
     badge: "Best Confirmed Keyboard Tray, Full Desk",
     name: "OffiGo 55 Inch U Shaped Electric Standing Desk with Keyboard Tray, White",
     price: "$199.99",
-    rating: "4.7 stars from 503 Amazon ratings",
-    reviews: "503 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41TvmvIlxoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DFW9D66S?tag=deskfinds0d-20",
     description:
@@ -57,18 +57,17 @@ export const products: GuideProduct[] = [
       "Keyboard tray confirmed in title",
       "Tilt angle not specified",
       "White finish",
-      "Electric height adjustment",
+      "Electric height adjustment"
     ],
     pros: [
       "Keyboard tray explicitly confirmed in the listing",
       "U-shape adds wraparound work surface",
-      "Highest rating in this guide at 4.7 stars",
-      "Lower typing position than desk-surface typing",
+      "Lower typing position than desk-surface typing"
     ],
     cons: [
       "Tilt angle not specified, verify negative tilt before assuming",
       "Larger U-shaped footprint needs more floor space",
-      "Lower review count than some other picks",
+      "Lower review count than some other picks"
     ],
     bestFor: "Buyers who want a full U-shaped desk with a confirmed tray, if tilt angle is not a hard requirement",
   },
@@ -78,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Keyboard Tray Not Confirmed in Listing",
     name: "VIVO 36 Inch Height Adjustable Stand Up Desk Converter, V Series, Dual Monitor Riser",
     price: "$199.99",
-    rating: "4.6 stars from 10,101 Amazon ratings",
-    reviews: "10,101 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51Nha7Yua3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0784HWPN6?tag=deskfinds0d-20",
     description:
@@ -89,18 +88,18 @@ export const products: GuideProduct[] = [
       "Dual monitor riser workstation",
       "Keyboard tray not confirmed in listing",
       "Largest review base in this guide",
-      "Quick sit-to-stand mechanism",
+      "Quick sit-to-stand mechanism"
     ],
     pros: [
       "Massive review volume and strong overall rating",
       "Quick sit-to-stand mechanism",
       "Solid dual monitor support",
-      "Reputable, established converter brand",
+      "Reputable, established converter brand"
     ],
     cons: [
       "Keyboard tray not confirmed in the title or description",
       "Tilt angle unknown since tray presence itself is unconfirmed",
-      "Not a genuine keyboard-tray recommendation without verification",
+      "Not a genuine keyboard-tray recommendation without verification"
     ],
     bestFor: "Buyers focused on dual monitor conversion who will separately verify tray presence before assuming one exists",
   },
@@ -110,29 +109,26 @@ export const products: GuideProduct[] = [
     badge: "Best Confirmed Wide Keyboard Tray",
     name: "VIVO 32 Inch Desk Converter, K Series, Dual Monitor with Wide Keyboard Tray",
     price: "$139.99",
-    rating: "4.6 stars from 15,560 Amazon ratings",
-    reviews: "15,560 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075JYG2TB?tag=deskfinds0d-20",
     description:
-      "The K Series explicitly confirms a wide keyboard tray in its title, and it has by far the largest review base of any pick in this guide, which gives real confidence in its long-term reliability. It supports a dual monitor and laptop workstation on top while the tray sits below for typing.\n\nWide keyboard trays like this one generally have enough room for a full keyboard and a right-hand mouse platform, though left-handed mouse placement is rarely offered on any tray in this price range. As with the OffiGo pick, tilt angle is not explicitly stated, so verify negative tilt in the Q&A if that specific angle matters to you.\n\nMassive review base at over 15,500 ratings. Set against that, tilt angle not specified, verify negative tilt before assuming. Both matter when comparing it to the other picks here.",
+      "The K Series explicitly confirms a wide keyboard tray in its title, and it has by far the largest review base of any pick in this guide, which gives real confidence in its long-term reliability. It supports a dual monitor and laptop workstation on top while the tray sits below for typing.\n\nWide keyboard trays like this one generally have enough room for a full keyboard and a right-hand mouse platform, though left-handed mouse placement is rarely offered on any tray in this price range. As with the OffiGo pick, tilt angle is not explicitly stated, so verify negative tilt in the Q&A if that specific angle matters to you.\n\nSet against that, tilt angle not specified, verify negative tilt before assuming. Both matter when comparing it to the other picks here.",
     specs: [
       "32-inch tabletop converter",
       "Wide keyboard tray confirmed in title",
       "Dual monitor and laptop workstation",
       "Highest review count in this guide",
-      "Tilt angle not specified",
+      "Tilt angle not specified"
     ],
     pros: [
       "Wide keyboard tray explicitly confirmed",
-      "Massive review base at over 15,500 ratings",
-      "Supports both dual monitor and laptop use",
-      "Strong 4.6 star rating at high volume",
-    ],
+      "Supports both dual monitor and laptop use", "32 inch tabletop workstation space"],
     cons: [
       "Tilt angle not specified, verify negative tilt before assuming",
       "Left-hand mouse placement not offered",
-      "Reduces usable riser depth once the tray is deployed",
+      "Reduces usable riser depth once the tray is deployed"
     ],
     bestFor: "Buyers who want a confirmed wide tray with the strongest review track record in this guide",
   },
@@ -142,8 +138,8 @@ export const products: GuideProduct[] = [
     badge: "Keyboard Tray Not Confirmed, Model Number Hints Only",
     name: "VIVO Height Adjustable 42 Inch Standing Desk Converter with Dual Monitor Stand",
     price: "$219.99",
-    rating: "4.5 stars from 598 Amazon ratings",
-    reviews: "598 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41daFWT9JPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CNH9SQT7?tag=deskfinds0d-20",
     description:
@@ -153,18 +149,18 @@ export const products: GuideProduct[] = [
       "Dual 13 to 30 inch monitor stand",
       "Keyboard tray not confirmed despite KB in model number",
       "Sits on top of an existing desk",
-      "Solid rating for the category",
+      "Solid rating for the category"
     ],
     pros: [
       "Well-documented dual monitor stand range",
       "Solid rating and reasonable review base",
       "No floor assembly required",
-      "Good option for renters",
+      "Good option for renters"
     ],
     cons: [
       "Keyboard tray not explicitly confirmed in the listing",
       "Model number hint (KB) should not be assumed to mean tray",
-      "Reduces usable riser depth if a tray is in fact present",
+      "Reduces usable riser depth if a tray is in fact present"
     ],
     bestFor: "Buyers primarily wanting a dual monitor stand who will verify keyboard tray presence separately",
   },
@@ -174,8 +170,8 @@ export const products: GuideProduct[] = [
     badge: "Best Confirmed Tray on a Full Standing Desk",
     name: "ErGear Electric Standing Desk with Keyboard Tray, 44x24 Inches, Black",
     price: "$149.99",
-    rating: "4.5 stars from 280 Amazon ratings",
-    reviews: "280 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Vqj+7wfmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBQFGY9S?tag=deskfinds0d-20",
     description:
@@ -185,18 +181,17 @@ export const products: GuideProduct[] = [
       "Keyboard tray confirmed in title",
       "Black finish",
       "Electric height adjustment",
-      "Tilt angle not specified",
+      "Tilt angle not specified"
     ],
     pros: [
       "Keyboard tray explicitly confirmed on a full standing desk",
       "Dedicated desk design, not a tabletop conversion",
-      "Reasonable price for a tray-equipped full desk",
-      "Solid 4.5 star rating",
+      "Reasonable price for a tray-equipped full desk"
     ],
     cons: [
       "Tray further reduces an already moderate 24-inch depth",
       "Tilt angle not specified",
-      "Lower review count than the VIVO converters",
+      "Lower review count than the VIVO converters"
     ],
     bestFor: "Buyers who want a dedicated standing desk with a tray rather than converting an existing desk",
   },
@@ -206,8 +201,8 @@ export const products: GuideProduct[] = [
     badge: "Best Confirmed Tray with Storage",
     name: "AODK 55 Inch Standing Desk with Drawers and Keyboard Tray, Rustic Brown",
     price: "$199.98",
-    rating: "4.6 stars from 737 Amazon ratings",
-    reviews: "737 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41pe4BGTQxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CR1CM8JK?tag=deskfinds0d-20",
     description:
@@ -217,18 +212,17 @@ export const products: GuideProduct[] = [
       "Keyboard tray confirmed in title",
       "Rustic Brown finish",
       "Built-in drawer storage",
-      "Tilt angle not specified",
+      "Tilt angle not specified"
     ],
     pros: [
       "Both drawers and keyboard tray explicitly confirmed",
       "Wider 55-inch surface for a dedicated home office",
-      "Solid 4.6 star rating",
-      "Built-in storage reduces need for separate furniture",
+      "Built-in storage reduces need for separate furniture"
     ],
     cons: [
       "Drawer placement should be checked against tray slide range",
       "Tilt angle not specified",
-      "Larger footprint needs more floor space",
+      "Larger footprint needs more floor space"
     ],
     bestFor: "Buyers who want a confirmed keyboard tray plus built-in drawer storage in one desk",
   },
@@ -238,8 +232,8 @@ export const products: GuideProduct[] = [
     badge: "Best Confirmed Large Keyboard Tray",
     name: "SANODESK 42 Inch Electric Standing Desk Converter with Large Keyboard Tray",
     price: "$213.99",
-    rating: "4.5 stars from 54 Amazon ratings",
-    reviews: "54 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41IHCTuRt6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2H4X11C?tag=deskfinds0d-20",
     description:
@@ -249,18 +243,18 @@ export const products: GuideProduct[] = [
       "Large keyboard tray confirmed in title",
       "Dual monitor and laptop workstation",
       "Lower review count than other converters",
-      "Tilt angle not specified",
+      "Tilt angle not specified"
     ],
     pros: [
       "Large keyboard tray explicitly confirmed",
       "More tray room than standard-width alternatives",
       "Supports dual monitor and laptop use",
-      "Reasonable price for the feature set",
+      "Reasonable price for the feature set"
     ],
     cons: [
       "Lowest review count among the converters in this guide",
       "Tilt angle not specified",
-      "Less established track record than the high-volume VIVO picks",
+      "Less established track record than the high-volume VIVO picks"
     ],
     bestFor: "Buyers who specifically want a larger confirmed tray and are comfortable with a smaller review sample",
   },
@@ -270,8 +264,8 @@ export const products: GuideProduct[] = [
     badge: "Standalone Tray Add-On, Not a Full Desk",
     name: "AX WABER Keyboard Tray Under Desk Pull Out with Extra Sturdy Adjustable C Clamp Mount",
     price: "$41.99",
-    rating: "4.4 stars from 1,078 Amazon ratings",
-    reviews: "1,078 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/411n64r8kAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCFZV2GP?tag=deskfinds0d-20",
     description:
@@ -281,21 +275,21 @@ export const products: GuideProduct[] = [
       "27.3-inch slide-out platform, 32.5 inches including clamps",
       "Extra sturdy adjustable mount",
       "Black finish",
-      "Add-on for an existing desk",
+      "Add-on for an existing desk"
     ],
     pros: [
       "Low-cost way to add a tray to a desk that lacks one",
       "Sturdy C-clamp mount rated for lean pressure",
       "Large review base with a solid rating",
-      "Slide-out platform works with most standard desks",
+      "Slide-out platform works with most standard desks"
     ],
     cons: [
       "Not a full desk or converter, a different product category",
       "Requires a compatible desk edge for clamp mounting",
-      "Track extension length should be checked against your sitting distance",
+      "Track extension length should be checked against your sitting distance"
     ],
     bestFor: "Buyers who already own a standing desk without a tray and want a low-cost add-on",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +317,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Weight rating relative to lean pressure, not just static load",
     description: "Considered whether a tray's rated capacity accounts for the 20 to 25 pound lean pressure typing puts on the front edge, not just the static weight of a keyboard and mouse.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,12 +471,12 @@ export const faq: FaqItem[] = [
   {
     q: "Are left-handed mouse platforms available on these trays?",
     a: "Rarely. Most keyboard trays with an integrated mouse platform are built for right-hand use only, and none of the listings in this guide specifically confirm a left-hand option. Left-handed buyers should check current product photos closely before assuming accommodation exists.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-standing-desks-with-built-in-power-outlets", title: "Best Standing Desks with Built-In Power Outlets (2026)" },
   { href: "/guide/best-standing-desk-frames", title: "Best Standing Desk Frames for Desktop Compatibility (2026)" },
   { href: "/guide/best-standing-desks-for-short-people", title: "Best Standing Desks for Short People (2026)" },
-  { href: "/guide/best-standing-desks-under-1000", title: "Best Standing Desks Under $1,000 (2026)" },
+  { href: "/guide/best-standing-desks-under-1000", title: "Best Standing Desks Under $1,000 (2026)" }
 ];

@@ -5,7 +5,7 @@ export const metaDescription = "5 portable SSDs we evaluated for Xbox Series X a
 export const mainKeyword = "portable SSD for Xbox";
 export const introParagraphs = [
   "Xbox Series X/S handles external USB storage differently than PS5's storage/backup-only versus direct-play distinction, current-generation Xbox titles can generally be played directly from a certified external USB drive, worth verifying per specific drive rather than assuming PS5's limitations apply identically here.",
-  "Xbox Series S and Series X have different internal storage capacities and correspondingly different reliance patterns on external storage, worth addressing both consoles' distinct needs rather than treating 'Xbox' as one uniform platform.",
+  "Xbox Series S and Series X have different internal storage capacities and correspondingly different reliance patterns on external storage, worth addressing both consoles' distinct needs rather than treating 'Xbox' as one uniform platform."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Portable SSD for Xbox Series X and S Overall",
     name: "Seagate Storage Expansion Card 2TB Solid State Drive - NVMe SSD for Xbox Series X|S, Quick Resume, Plug & Play, Licensed (STJR2000400) Black",
     price: "$299.00",
-    rating: "4.8 stars from 30,738 Amazon ratings",
-    reviews: "30,738 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/316Its027kL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09BJYXMDW?tag=deskfinds0d-20",
     description: "The single largest review base of any pick in this guide and officially Microsoft-licensed, this NVMe expansion card supports full direct-play including Quick Resume, matching internal storage speed exactly.\n\nIt earns the top spot in this comparison over Seagate 2TB Game Drive for Xbox | USB 3.0 for one main reason. Officially Microsoft-licensed for guaranteed compatibility. On price, it's actually priced above Seagate 2TB Game Drive for Xbox | USB 3.0, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Full direct-play and Quick Resume, matching internal SSD performance. On the other side, Requires Xbox's proprietary expansion slot. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget USB Storage Pick",
     name: "Seagate 2TB Game Drive for Xbox | USB 3.0 (STKX2000400)",
     price: "$119.99",
-    rating: "4.5 stars from 20,657 Amazon ratings",
-    reviews: "20,657 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31+UCQHBazL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08Y1Q2KSZ?tag=deskfinds0d-20",
     description: "A large review base at a genuinely lower price than the NVMe expansion card, this USB 3.0 drive is appropriate for storing and backing up games rather than direct current-gen play.\n\nOne spot below Seagate Storage Expansion Card 2TB Solid State Drive in this ranking, it's priced lower than Seagate Storage Expansion Card 2TB Solid State Drive. The compromise here is straightforward: No Quick Resume support like the NVMe expansion card. What you gain in return: Large, well-established review base. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Significantly lower price than the NVMe expansion card. On the other side, Slower than the proprietary NVMe expansion card option. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best RGB Gaming-Focused Pick",
     name: "Western Digital 1TB P40 Game Drive SSD - Up to 2,000MB/s, RGB Lighting, Portable External Solid State Drive, Compatible with Playstation, Xbox, PC, & Mac",
     price: "$177.99",
-    rating: "4.7 stars from 1,598 Amazon ratings",
-    reviews: "1,598 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31szhVvwXYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09ZRD38D8?tag=deskfinds0d-20",
     description: "A genuinely cross-platform drive compatible with both Xbox and PlayStation, appropriate for a household with both consoles rather than an Xbox-exclusive purchase.\n\nSitting just under Seagate 2TB Game Drive for Xbox | USB 3.0, it costs more than Seagate 2TB Game Drive for Xbox | USB 3.0. Here's the honest tradeoff: Smaller review base than the Seagate options. And here's what it gets you instead: Genuinely cross-platform for multi-console households. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Solid review base and rating. On the other side, No Quick Resume like the proprietary expansion card. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Password-Protected Pick for Xbox Storage",
     name: "Western Digital 2TB My Passport SSD Portable External Solid State Drive, Gray, Sturdy and Blazing Fast, Password Protection with Hardware Encryption",
     price: "$350.99",
-    rating: "4.5 stars from 8,952 Amazon ratings",
-    reviews: "8,952 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/414q6k88+IL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08F1VVBL9?tag=deskfinds0d-20",
     description: "A large review base with genuine hardware encryption and password protection, a real advantage for a shared household Xbox where game library privacy or security matters.\n\nRanked just behind Western Digital 1TB P40 Game Drive SSD, it costs more than Western Digital 1TB P40 Game Drive SSD. The real tradeoff against that pick: Highest price among USB drives in this guide. In exchange, it offers this instead: Genuine hardware encryption and password protection. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Large, well-established review base. On the other side, Encryption overhead may modestly affect real-world transfer speed. That's the main tradeoff to weigh against everything above.",
@@ -90,7 +90,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Xbox-specific direct-play capability verified", description: "Verified actual current-generation Xbox direct-play support from external storage rather than assuming the same limitations found on PS5 apply identically to Xbox." },
   { title: "Xbox minimum USB speed requirement checked per product", description: "Verified Xbox's specific minimum USB 3.0 speed requirement for external storage per product to avoid console rejection issues." },
   { title: "Series S versus Series X distinct storage needs addressed", description: "Addressed both consoles' distinct storage-reliance needs, given their different internal storage capacities, rather than treating 'Xbox' as one uniform platform." },
-  { title: "Game Pass rotation usage pattern considered", description: "Tested against Xbox Game Pass library management, frequently installing/uninstalling rotating subscription titles, a distinct real-world usage pattern common among Xbox owners." },
+  { title: "Game Pass rotation usage pattern considered", description: "Tested against Xbox Game Pass library management, frequently installing/uninstalling rotating subscription titles, a distinct real-world usage pattern common among Xbox owners." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -233,11 +233,11 @@ export const faq: FaqItem[] = [
   { q: "Is the official Xbox expansion card better than a standard USB drive?", a: "For matching internal-storage performance, yes, it's the only option that fully replicates Quick Resume and internal SSD speed, a standard USB drive serves backup and backward-compatible use well instead." },
   { q: "Does Xbox Game Pass usage require a specific type of external drive?", a: "Frequent installing/uninstalling of rotating subscription titles benefits from a drive with fast write speed, verify direct-play support specifically if you want to avoid re-downloading titles repeatedly." },
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers wanting the exact internal-storage experience including Quick Resume" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting affordable storage for backward-compatible and backup use At $119.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting affordable storage for backward-compatible and backup use At under $120, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-ssds-for-steam-deck", title: "Best Portable SSDs for Steam Deck (2026)" },
   { href: "/guide/best-portable-ssds-for-backups", title: "Best Portable SSDs for Backups (2026)" },
-  { href: "/guide/best-usb4-portable-ssds", title: "Best USB4 Portable SSDs (2026)" },
+  { href: "/guide/best-usb4-portable-ssds", title: "Best USB4 Portable SSDs (2026)" }
 ];

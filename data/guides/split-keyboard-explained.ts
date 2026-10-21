@@ -12,7 +12,7 @@ export const splitKeyboardExplainedGuide: Guide = {
     "split keyboard worth it",
     "shoulder width typing position",
     "split keyboard learning curve",
-    "ergonomic keyboard shoulder strain",
+    "ergonomic keyboard shoulder strain"
   ],
   heroImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const splitKeyboardExplainedGuide: Guide = {
     "vertical-mouse-explained",
     "keyboard-size-chart",
     "mechanical-switch-types-explained",
-    "wrist-rest-explained",
+    "wrist-rest-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const splitKeyboardExplainedGuide: Guide = {
       question: "Does a split keyboard take up more desk space than a standard keyboard?",
       answer:
         "It can, particularly if split widely apart to match shoulder width, this increased footprint is worth factoring into desk space planning, especially on a smaller desk where the wider spread might compete with other items.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const splitKeyboardExplainedGuide: Guide = {
     {
       heading: "Why the Adjustment Period Shouldn't Be Mistaken for the Wrong Choice",
       body: `Switching to a split keyboard, particularly one with an unfamiliar key layout beyond just the physical split, genuinely requires a period of adjustment as your typing muscle memory adapts to the new hand positioning and possibly a different key arrangement, experiencing reduced typing speed or increased errors during this initial period is a normal, expected part of the transition rather than a sign the keyboard isn't working for you, most users who persist through this adjustment period report returning to or exceeding their previous typing speed once fully adapted, patience through this phase is genuinely necessary to fairly evaluate whether a split keyboard works for you long term.`,
-    },
+    }
   ],
 };

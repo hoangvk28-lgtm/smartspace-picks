@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/517WeovYvrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSJR2RZB?tag=deskfinds0d-20",
-    description: "Tecmojo's 12U open frame rack ships with two vented 1U shelves already in the box, which is a nice touch since most competitors sell shelves separately.\n\nIt's rated for 260 lbs floor-mounted but drops to 130 lbs if you wall-mount it instead, so plan your equipment load around which install method you're using.\n\nWhat stands out here is two vented shelves included instead of sold separately, plus anti-slip shelf stops keep gear from sliding. The main tradeoff: wall-mount capacity is half of floor-standing capacity, so weigh that against the $89.90 price before buying.",
+    description: "Tecmojo's 12U open frame rack ships with two vented 1U shelves already in the box, which is a nice touch since most competitors sell shelves separately.\n\nIt's rated for 260 lbs floor-mounted but drops to 130 lbs if you wall-mount it instead, so plan your equipment load around which install method you're using.\n\nWhat stands out here is two vented shelves included instead of sold separately, plus anti-slip shelf stops keep gear from sliding. The main tradeoff: wall-mount capacity is half of floor-standing capacity, so weigh that against the under $90 price before buying.",
     specs: ["12U, cold rolled steel frame","260 lb floor / 130 lb wall capacity","2 vented 1U shelves included"],
     pros: ["Two vented shelves included instead of sold separately","Anti-slip shelf stops keep gear from sliding","Stackable design lets you expand later"],
     cons: ["Wall-mount capacity is half of floor-standing capacity","Open frame offers no dust or theft protection"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41KuU2tlXhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C64X8J8R?tag=deskfinds0d-20",
-    description: "VEVOR's 12U open frame rack supports 500 lbs ground-mounted, dropping to 150 lbs if wall-mounted, and comes with a genuinely complete hardware kit down to a grounding wire.\n\nThe adjustable 23-40 inch depth range and roller casters mean it can flex to fit different equipment and rooms without buying a different SKU for each configuration.\n\nThe strongest case for this pick comes down to 500 lb ground-mounted rating handles heavier gear as well as grounding wire included, a detail many racks skip. The compromise here is that wall-mount capacity drops sharply to 150 lbs, so factor that in alongside the $89.90 asking price.",
+    description: "VEVOR's 12U open frame rack supports 500 lbs ground-mounted, dropping to 150 lbs if wall-mounted, and comes with a genuinely complete hardware kit down to a grounding wire.\n\nThe adjustable 23-40 inch depth range and roller casters mean it can flex to fit different equipment and rooms without buying a different SKU for each configuration.\n\nThe strongest case for this pick comes down to 500 lb ground-mounted rating handles heavier gear as well as grounding wire included, a detail many racks skip. The compromise here is that wall-mount capacity drops sharply to 150 lbs, so factor that in alongside the under $90 asking price.",
     specs: ["12U, 23-40\" adjustable depth","500 lb ground / 150 lb wall capacity","Casters and grounding wire included"],
     pros: ["500 lb ground-mounted rating handles heavier gear","Grounding wire included, a detail many racks skip","Top panel adds extra storage space"],
     cons: ["Wall-mount capacity drops sharply to 150 lbs","Open frame leaves cables and gear exposed"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41pK7n3UtDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00P1RJ9LS?tag=deskfinds0d-20",
-    description: "A compact 12U 4-post rack from StarTech, standing just 25 inches tall, purpose-built for utility closets and narrow spaces where a full-size server rack won't fit.\n\nIt still carries the full StarTech feature set: EIA/ECA-310-E compliance, cage nuts, cable hooks, and the same 2-year warranty backing the larger racks in their lineup.\n\nWhere this one earns its spot is only 25\" tall, fits narrow utility closets easily, and 1200 lb rating despite the compact size. Worth noting before buying: small size limits it to a handful of devices, which matters more at $249.99 than it would on a cheaper pick.",
+    description: "A compact 12U 4-post rack from StarTech, standing just 25 inches tall, purpose-built for utility closets and narrow spaces where a full-size server rack won't fit.\n\nIt still carries the full StarTech feature set: EIA/ECA-310-E compliance, cage nuts, cable hooks, and the same 2-year warranty backing the larger racks in their lineup.\n\nWhere this one earns its spot is only 25\" tall, fits narrow utility closets easily, and 1200 lb rating despite the compact size. Worth noting before buying: small size limits it to a handful of devices, which matters more at under $250 than it would on a cheaper pick.",
     specs: ["12U, 25\" tall, 22-40\" adjustable depth","1200 lb stationary weight capacity","Backed by 2-year warranty and lifetime support"],
     pros: ["Only 25\" tall, fits narrow utility closets easily","1200 lb rating despite the compact size","Same warranty and support as StarTech's larger racks"],
     cons: ["Small size limits it to a handful of devices","Still needs flat-pack assembly on delivery"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31t+0aeG+DL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CR5GS5X2?tag=deskfinds0d-20",
-    description: "At 30U this is one of the taller open-frame rolling racks in the AxcessAbles line, giving you real headroom for a growing home lab or studio rack without going to a fully enclosed cabinet.\n\nThe same 18-inch depth and removable side panel design carries over from the smaller models, so airflow and access stay consistent as you scale up in height.\n\nThis pick is best for buyers who value tall 30U build fits a growing equipment stack along with removable panels switch between open and closed setups. The catch is that tall and narrow footprint needs a stable floor, so decide if that's worth it at $299.99.",
+    description: "At 30U this is one of the taller open-frame rolling racks in the AxcessAbles line, giving you real headroom for a growing home lab or studio rack without going to a fully enclosed cabinet.\n\nThe same 18-inch depth and removable side panel design carries over from the smaller models, so airflow and access stay consistent as you scale up in height.\n\nThis pick is best for buyers who value tall 30U build fits a growing equipment stack along with removable panels switch between open and closed setups. The catch is that tall and narrow footprint needs a stable floor, so decide if that's worth it at under $300.",
     specs: ["30U height, 18\" depth","550 lb static / 440 lb rolling capacity","Removable vented side panels"],
     pros: ["Tall 30U build fits a growing equipment stack","Removable panels switch between open and closed setups","Includes both screw standards for mixed-brand gear"],
     cons: ["Tall and narrow footprint needs a stable floor","No lockable door for equipment security"],
@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $89.90",
+          "Under $90",
           "Tecmojo 12U Open Frame Network Rack"
         ],
         [
-          "Around $89.90",
+          "Under $90",
           "VEVOR 12U Open Frame Server Rack"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "AxcessAbles 12U Network Rack with Wheels"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "Raising Electronics 27U 4-Post Open Rack Frame"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "StarTech.com 12U Adjustable Depth Open Frame 4 Post Server Rack"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "AxcessAbles 22U Rolling IT Server Rack"
         ],
         [
-          "Around $278.16",
+          "Under $300",
           "RIVECO 25U Server Rack Adjustable Depth"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "AxcessAbles 30U Rolling Network Server Rack"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "AxcessAbles 12U Network Rack with Wheels is aimed at buyers prioritizing 18\" usable depth, 1.5mm steel frame." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "AxcessAbles 12U Network Rack with Wheels is aimed at buyers prioritizing 18\" usable depth, 1.5mm steel frame." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-small-server-racks-for-home","title":"Best Small Server Racks for Home in 2026"},{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"}];

@@ -12,7 +12,7 @@ export const deskPlantPotDrainageExplainedGuide: Guide = {
     "plant pot no drainage hole fix",
     "why plant pots need drainage",
     "desk plant water damage prevention",
-    "cachepot vs planter drainage",
+    "cachepot vs planter drainage"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskPlantPotDrainageExplainedGuide: Guide = {
     "desk-plant-types-for-beginners",
     "desk-plant-lighting-requirements",
     "desk-mat-vs-desk-pad",
-    "desk-beverage-spill-prevention",
+    "desk-beverage-spill-prevention"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskPlantPotDrainageExplainedGuide: Guide = {
       question: "Should I put a saucer under a plant pot even if it has drainage holes?",
       answer:
         "Yes, a saucer catches water draining through the holes, protecting your desk surface from water damage, without a saucer, drainage water goes directly onto whatever surface the pot sits on, a genuine desk protection concern.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const deskPlantPotDrainageExplainedGuide: Guide = {
     {
       heading: "Why the Cachepot Approach Solves Both the Aesthetic and Drainage Problem",
       body: `A cachepot setup, keeping a plant in its plastic nursery pot with drainage holes, then placing that entire nursery pot inside a more attractive decorative pot without its own drainage, lets you enjoy the visual appeal of a nicer container while still maintaining proper drainage practice, the key is remembering to remove the inner pot for actual watering and let it fully drain before returning it, rather than watering directly into the assembled setup where excess water would have nowhere to go and no visible way to alert you to a growing problem.`,
-    },
+    }
   ],
 };

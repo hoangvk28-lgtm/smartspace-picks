@@ -167,7 +167,7 @@ export default async function BestOfficeChairUnder100Page() {
             {[
               { label: "Meaningful (worth paying for)", color: "#16a34a", items: ["Adjustable lumbar support -- moves up/down or in/out", "Height-adjustable seat -- fits different desk heights", "Adjustable armrests -- especially flip-up or 3D", "Seat depth -- deeper fits taller, shallower fits shorter"] },
               { label: "Sounds good, matters less", color: "#d97706", items: ["'Headrest' -- most too low to be useful unless reclining", "'Breathable mesh' -- mesh quality varies a lot", "'Tilt lock' -- useful, but standard on most chairs here"] },
-              { label: "What most under-$100 chairs cannot do", color: "#dc2626", items: ["Adjust seat depth (slide forward/back)", "True 4D armrests (all axes)", "Meaningful recline beyond 120°"] },
+              { label: "What most under-$100 chairs cannot do", color: "#dc2626", items: ["Adjust seat depth (slide forward/back)", "True 4D armrests (all axes)", "Meaningful recline beyond 120°"] }
             ].map((col, i) => (
               <div key={i} className="p-4 rounded-xl border border-border bg-white">
                 <p className="text-xs font-bold uppercase tracking-widest mb-3" style={{ color: col.color }}>{col.label}</p>
@@ -231,7 +231,7 @@ export default async function BestOfficeChairUnder100Page() {
                 { room: "Dorm room", rec: "Amazon Basics -- compact, reliable, fits under standard dorm desks.", id: "#best-dorms" },
                 { room: "Home office (visible on video calls)", rec: "Sweetcrispy -- leather-look aesthetic works better on camera than mesh.", id: "#best-leather" },
                 { room: "Hot apartment or small room", rec: "Flysky -- mesh provides airflow that padded alternatives cannot.", id: "#best-mesh" },
-                { room: "Dedicated desk setup (ergonomics first)", rec: "CLATINA -- most adjustment options, best lumbar system in this price range.", id: "#best-overall" },
+                { room: "Dedicated desk setup (ergonomics first)", rec: "CLATINA -- most adjustment options, best lumbar system in this price range.", id: "#best-overall" }
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white">
                   <span className="font-bold text-brand text-xs shrink-0 mt-0.5">{item.room}:</span>
@@ -310,7 +310,7 @@ export default async function BestOfficeChairUnder100Page() {
                     { situation: "Chronic lower back pain", why: "Fixed lumbar won't adapt to your needs", consider: "$200+ with adjustable lumbar depth" },
                     { situation: "Over 230 lbs", why: "Weight rating is borderline on most picks", consider: "Sweetcrispy (280 lb) or $150+" },
                     { situation: "Remote work (daily video calls)", why: "Camera-facing appearance matters", consider: "Sweetcrispy leather-look or $150+" },
-                    { situation: "3+ year expected use", why: "Budget mesh degrades faster than expected", consider: "$200+" },
+                    { situation: "3+ year expected use", why: "Budget mesh degrades faster than expected", consider: "$200+" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink">{row.situation}</td>
@@ -321,7 +321,7 @@ export default async function BestOfficeChairUnder100Page() {
                 </tbody>
               </table>
             </div>
-            <p className="text-sm text-ink-secondary">The honest calculation: a $90 chair that needs replacing in 18 months costs $60/year. A $180 chair that lasts 5 years costs $36/year. If you sit daily, spending more upfront is cheaper long-term.</p>
+            <p className="text-sm text-ink-secondary">The honest calculation: a $90 chair that needs replacing in 18 months costs $60/year. A $180 chair that lasts 5 years costs under $40/year. If you sit daily, spending more upfront is cheaper long-term.</p>
           </section>
         </div>
 
@@ -369,7 +369,7 @@ export default async function BestOfficeChairUnder100Page() {
             {[
               { product: "CLATINA", context: "For most buyers in this price range", verdict: "is the best pick -- it has the most adjustment options and the only truly independent lumbar support under $100. If you sit 4--6 hours daily, this is worth the ~$85--95 price.", href: "#best-overall" },
               { product: "Amazon Basics Office Task Chair", context: "For dorm rooms and small spaces", verdict: "is more practical -- compact enough to fit in tight spaces, reliable Amazon Basics build quality, and a lower price.", href: "#best-dorms" },
-              { product: "FDW", context: "For buyers who want the lowest possible spend with a functional chair", verdict: "at ~$55--65 covers the basics.", href: "#best-budget" },
+              { product: "FDW", context: "For buyers who want the lowest possible spend with a functional chair", verdict: "at ~$55--65 covers the basics.", href: "#best-budget" }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
@@ -397,7 +397,7 @@ export default async function BestOfficeChairUnder100Page() {
               { href: "/guide/ergonomic-desk-setup", title: "Ergonomic Desk Setup Guide", desc: "The correct way to position everything at your desk" },
               { href: "/guide/best-dorm-items-under-25", title: "Best Dorm Items Under $25", desc: "25 high-impact dorm essentials on a student budget" },
               { href: "/guide/desk-setup-essentials", title: "Desk Setup Essentials", desc: "15 must-have items for any desk setup" },
-              { href: "/guide/best-desk-lamp-under-30", title: "Best Desk Lamp Under $30", desc: "Dorm-friendly desk lamps for studying" },
+              { href: "/guide/best-desk-lamp-under-30", title: "Best Desk Lamp Under $30", desc: "Dorm-friendly desk lamps for studying" }
             ].map((g) => (
               <Link prefetch={false} key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
                 <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">

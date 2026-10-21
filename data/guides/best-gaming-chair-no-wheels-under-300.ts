@@ -155,7 +155,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The cheapest genuinely wheel-free option", "GTPLAYER Floor Rocking Gaming Chair"],
         ["Swivel and multiple recline positions on a budget", "HOPERAN 360° Swivel Floor Gaming Chair"],
         ["A full-size recliner with massage function", "Dowinx Gaming Recliner Chair No Wheels"],
-        ["A recognized brand recliner with a cup holder", "RESPAWN 900 Gaming Recliner Chair"],
+        ["A recognized brand recliner with a cup holder", "RESPAWN 900 Gaming Recliner Chair"]
       ],
     },
   },
@@ -164,8 +164,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $110 (floor chairs)", "GTPLAYER Rocking ($44.99), HOPERAN ($79.99), or either GTPLAYER foldable ($98.98-$109.99)"],
-        ["$280 to $300 (recliners)", "Dowinx ($279.99) or RESPAWN 900 ($297.71)"],
+        ["Under $110 (floor chairs)", "GTPLAYER Rocking (under $45), HOPERAN (under $80), or either GTPLAYER foldable (under $100-under $110)"],
+        ["$280 to $300 (recliners)", "Dowinx (under $300) or RESPAWN 900 (under $300)"]
       ],
     },
   },
@@ -179,7 +179,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "Full-size recliner (Dowinx, RESPAWN)",
         text: "Raised seating on fixed legs with a footrest, built for extended sessions the way a standard gaming chair is, just without a rolling base.",
-      },
+      }
     ],
     note: "Choose based on why you want to avoid wheels: if it's about room space and a low-key setup, a floor chair fits; if it's about avoiding a rolling base while keeping full-size raised seating, a fixed-leg recliner is the better match.",
   },
@@ -189,7 +189,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Priority", "Recommended pick"],
       rows: [
         ["Simple rocking motion is fine", "GTPLAYER Floor Rocking Gaming Chair"],
-        ["Full 360-degree swivel wanted", "HOPERAN, either GTPLAYER foldable model, or RESPAWN 900"],
+        ["Full 360-degree swivel wanted", "HOPERAN, either GTPLAYER foldable model, or RESPAWN 900"]
       ],
     },
   },
@@ -203,7 +203,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "Dowinx and RESPAWN 900 are the two picks here built as full-size recliners with footrests for exactly this kind of extended use.",
-      },
+      }
     ],
   },
   {
@@ -211,14 +211,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You want full-size raised seating with a footrest for extended sessions: Dowinx ($279.99) or RESPAWN 900 ($297.71) both deliver that, with different bonus features (massage versus cup holder and swivel).",
+        text: "You want full-size raised seating with a footrest for extended sessions: Dowinx (under $300) or RESPAWN 900 (under $300) both deliver that, with different bonus features (massage versus cup holder and swivel).",
       },
       {
         label: "Save if",
-        text: "A compact floor chair fits your room and use case: GTPLAYER's rocking chair ($44.99) is wheel-free and functional for a fraction of the recliner picks' price.",
-      },
+        text: "A compact floor chair fits your room and use case: GTPLAYER's rocking chair (under $45) is wheel-free and functional for a fraction of the recliner picks' price.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -273,5 +273,5 @@ export const faq = [
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-gaming-chair-under-100", title: "Best Gaming Chairs Under $100" },
-  { href: "/guide/best-headset-for-work-under-30", title: "Best Headsets for Work Under $50" },
+  { href: "/guide/best-headset-for-work-under-30", title: "Best Headsets for Work Under $50" }
 ];

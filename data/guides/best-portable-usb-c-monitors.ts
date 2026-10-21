@@ -5,7 +5,7 @@ export const metaDescription = "5 portable USB-C monitors we evaluated, with a n
 export const mainKeyword = "portable usb-c monitor";
 export const introParagraphs = [
   "A portable USB-C monitor that draws power from your laptop's own battery rather than a separate power source can drain your laptop faster than expected, worth checking whether a specific model needs its own power adapter for extended use away from an outlet.",
-  "Panel brightness matters more for a portable monitor than a desk-bound one, since you'll often use it in varied lighting away from your controlled home office setup, worth checking nit ratings before assuming any portable panel is bright enough outdoors or in a bright room.",
+  "Panel brightness matters more for a portable monitor than a desk-bound one, since you'll often use it in varied lighting away from your controlled home office setup, worth checking nit ratings before assuming any portable panel is bright enough outdoors or in a bright room."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     badge: "Best Portable USB-C Monitor Overall",
     name: "ARZOPA Portable Monitor 15.6'' FHD 1080P - Ultra-Slim Portable Laptop Monitor with Kickstand - IPS Display for PC, MAC, Phone, Xbox, PS5 - USB C & HDMI Connectivity",
     price: "$79.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51qgAD7WZSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CH9XW8RK?tag=deskfinds0d-20",
@@ -42,7 +42,7 @@ export const products: GuideProduct[] = [
     badge: "Best Value Portable USB-C Pick",
     name: "InnoView Portable Monitor 15.6\" 1080P for Laptop with Protective Sleeve, Built-in 90 degrees Adjustable Stand",
     price: "$59.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51qgAD7WZSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09K3FWMPL?tag=deskfinds0d-20",
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     badge: "Best Portable Pick with Speakers",
     name: "cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB Travel Monitor with Speaker HDMI",
     price: "$109.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51qgAD7WZSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZLY26FW?tag=deskfinds0d-20",
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Value Pick",
     name: "Ingnok Portable Monitor for Laptop, 15.6 Inch USB C Screen Extender",
     price: "$69.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51qgAD7WZSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP7XRW9S?tag=deskfinds0d-20",
@@ -93,7 +93,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Gaming-Capable Portable Pick",
     name: "MNN 15.6\" FHD 60Hz Portable Monitor USB-C HDMI IPS HDR Gaming Laptop",
     price: "$49.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51qgAD7WZSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9NNWXVP?tag=deskfinds0d-20",
@@ -103,7 +103,7 @@ export const products: GuideProduct[] = [
     pros: ["Lowest price in this guide for a full-featured portable monitor", "HDR support and IPS panel for reasonable picture quality", "USB-C and HDMI dual connectivity", "Good entry point for testing the portable monitor format"],
     cons: ["Lower rating than other picks in this guide, verify current reviews", "USB-C power draw comes from your laptop by default", "Build quality less proven than higher-priced alternatives"],
     bestFor: "Budget-conscious buyers wanting to try a portable monitor at the lowest entry price",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -111,7 +111,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Power draw source considered for extended off-outlet use", description: "Considered whether a monitor draws power from the laptop's own battery by default, which can drain it faster than expected during extended travel use." },
   { title: "Brightness suitability for varied lighting weighted", description: "Weighted brightness ratings more heavily than for desk-bound monitors, since portable use often means varied lighting away from a controlled office setup." },
   { title: "Included accessories like sleeves and stands valued", description: "Valued genuinely useful included accessories like protective sleeves and adjustable stands that reduce the need for separate travel purchases." },
-  { title: "Multi-device compatibility checked for travel versatility", description: "Checked explicit multi-device compatibility claims across PCs, Macs, phones, and consoles for buyers wanting one monitor across multiple travel use cases." },
+  { title: "Multi-device compatibility checked for travel versatility", description: "Checked explicit multi-device compatibility claims across PCs, Macs, phones, and consoles for buyers wanting one monitor across multiple travel use cases." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -244,11 +244,11 @@ export const faq: FaqItem[] = [
   { q: "Do portable monitors come with a protective case?", a: "Not always, some include a protective sleeve while others require a separate purchase, check the specific listing." },
   { q: "Can a portable USB-C monitor work with consoles?", a: "Some explicitly support Xbox, PS5, or Switch alongside PC and Mac, check the specific listing for confirmed multi-device compatibility." },
   { q: "Do I need a special USB-C cable for a portable monitor?", a: "Yes, it needs to support DisplayPort Alt Mode and sufficient power delivery, a basic charging-only USB-C cable won't carry video signal even if it physically fits the port." },
-  { q: "Can I daisy-chain two portable USB-C monitors from one laptop port?", a: "Only if your laptop's specific USB-C port and GPU support that configuration, check your laptop's documentation since many single-cable setups max out at one external display per port." },
+  { q: "Can I daisy-chain two portable USB-C monitors from one laptop port?", a: "Only if your laptop's specific USB-C port and GPU support that configuration, check your laptop's documentation since many single-cable setups max out at one external display per port." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-usb-c-monitors", title: "Best USB-C Monitors (2026)" },
   { href: "/guide/best-small-usb-c-monitors", title: "Best Small USB-C Monitors (2026)" },
-  { href: "/guide/best-budget-usb-c-monitors", title: "Best Budget USB-C Monitors (2026)" },
+  { href: "/guide/best-budget-usb-c-monitors", title: "Best Budget USB-C Monitors (2026)" }
 ];

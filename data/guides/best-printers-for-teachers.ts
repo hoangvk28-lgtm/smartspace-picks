@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "printer for teachers";
 export const introParagraphs = [
   "A teacher's printing needs split into two very different jobs: a home printer for curriculum prep, grading rubrics, and parent letters, and a classroom printer built for daily worksheet volume that a district supply stipend, often just $100 to $200 a year, has to stretch to cover. Treating those as the same shopping decision leads to either overpaying for home use or underbuying for classroom volume.",
-  "Below are 8 printers for teachers we evaluated on cost per page against realistic school-year volume, color contrast quality for worksheets, and how well each fits a home versus classroom setting, ranging from a $99.99 basic all-in-one to a $284.99 color laser built for daily professional use.",
+  "Below are 8 printers for teachers we evaluated on cost per page against realistic school-year volume, color contrast quality for worksheets, and how well each fits a home versus classroom setting, ranging from an under-$100 basic all-in-one to an under-$300 color laser built for daily professional use."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Automatic duplex (2-sided) printing",
       "Copy and scan built in",
       "Wireless and mobile printing",
-      "Compact footprint for a classroom desk",
+      "Compact footprint for a classroom desk"
     ],
     pros: [
       "Lowest cost per page for high-volume worksheet printing",
       "Toner survives school breaks without drying out",
       "Duplex printing saves paper automatically",
-      "Built to last multiple school years",
+      "Built to last multiple school years"
     ],
     cons: [
       "No color output",
       "Highest upfront cost in this list, may exceed a single-year stipend",
-      "Overkill for light home grading use only",
+      "Overkill for light home grading use only"
     ],
     bestFor: "Classroom printers handling daily worksheet and handout volume",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "250-sheet paper tray",
       "Automatic duplex printing",
       "Wireless and mobile device compatible",
-      "Consistent contrast for printed worksheets and diagrams",
+      "Consistent contrast for printed worksheets and diagrams"
     ],
     pros: [
       "Strong, consistent color contrast for worksheets and diagrams",
       "Large 250-sheet tray reduces refill frequency",
       "Fast 19 PPM output speed",
-      "Toner does not dry out over school breaks",
+      "Toner does not dry out over school breaks"
     ],
     cons: [
       "Highest price in this list, likely exceeds a stipend alone",
       "Larger footprint than a compact laser",
-      "Color laser toner costs more per cartridge than mono",
+      "Color laser toner costs more per cartridge than mono"
     ],
     bestFor: "Shared department or school-purchased printers needing reliable color worksheets",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Built-in copier and scanner",
       "1.42-inch OLED display",
       "Compact design",
-      "Cartridge-based ink system",
+      "Cartridge-based ink system"
     ],
     pros: [
       "Affordable, leaves stipend budget for classroom needs",
       "Compact enough for a home office or kitchen desk",
       "Clear OLED display for quick status checks",
-      "Duplex printing built in",
+      "Duplex printing built in"
     ],
     cons: [
       "Not built for classroom-scale daily volume",
       "Cartridge ink costs more per page at higher volume",
-      "No automatic document feeder",
+      "No automatic document feeder"
     ],
     bestFor: "Home printing for grading, rubrics, and parent communication",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Automatic document feeder",
       "Automatic 2-sided printing",
       "1.4-inch color display",
-      "Cartridge-based ink system",
+      "Cartridge-based ink system"
     ],
     pros: [
       "Automatic document feeder speeds up scan-to-cloud grading",
       "Fits comfortably within a typical stipend budget",
       "Duplex printing saves paper on multi-page packets",
-      "Full feature set for the price",
+      "Full feature set for the price"
     ],
     cons: [
       "Cartridge ink costs more per page at high volume",
       "Not ideal for sustained daily classroom printing",
-      "Ink can dry out over long school breaks",
+      "Ink can dry out over long school breaks"
     ],
     bestFor: "Teachers building a scan-to-cloud paperless grading workflow",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Color print, scan, and copy",
       "Wireless printing",
       "Bottled ink refills included",
-      "Built for everyday, high-volume printing",
+      "Built for everyday, high-volume printing"
     ],
     pros: [
       "Low cost per page across a full school year",
       "Handles steady color and text worksheet volume well",
       "Scan and copy included",
-      "Stretches a limited annual stipend further",
+      "Stretches a limited annual stipend further"
     ],
     cons: [
       "Higher upfront price than a basic cartridge inkjet",
       "Larger footprint due to the ink tanks",
-      "No automatic document feeder",
+      "No automatic document feeder"
     ],
     bestFor: "Teachers printing steady color and text volume all year on a fixed stipend",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Print, scan, and copy",
       "Wireless printing (2.4GHz only)",
       "Compact footprint for an ink-tank printer",
-      "No automatic document feeder",
+      "No automatic document feeder"
     ],
     pros: [
       "2 years of ink included fits a stipend budget cycle well",
       "Ink-tank economics for ongoing worksheet volume",
       "Compact for an ink-tank printer",
-      "Lower upfront price than larger ink-tank models",
+      "Lower upfront price than larger ink-tank models"
     ],
     cons: [
       "2.4GHz-only wireless can be a setup snag on some routers",
       "No automatic document feeder",
-      "No automatic duplex printing listed",
+      "No automatic duplex printing listed"
     ],
     bestFor: "Teachers budgeting printer and ink costs against an annual stipend",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Automatic document feeder (ADF)",
       "Automatic duplex printing",
       "1-year Instant Ink trial included",
-      "Wireless and AI-capable printing",
+      "Wireless and AI-capable printing"
     ],
     pros: [
       "Full document workflow: fax, ADF, duplex",
       "Included Instant Ink trial lowers first-year ink cost",
       "Good color output for handouts and materials",
-      "Suits a home office setup well",
+      "Suits a home office setup well"
     ],
     cons: [
       "Inkjet cost per page rises after the Instant Ink trial ends",
       "Slower than laser picks for pure text volume",
-      "Not the most cost-efficient choice for classroom-scale printing",
+      "Not the most cost-efficient choice for classroom-scale printing"
     ],
     bestFor: "Home-office teacher printing needing fax and full document handling",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Color print, scan, and copy",
       "Wireless printing",
       "Bottled ink refills included",
-      "Larger footprint due to ink tanks",
+      "Larger footprint due to ink tanks"
     ],
     pros: [
       "Low cost per page across a full school year",
       "Handles both color and black-and-white worksheet volume well",
       "Scan and copy included",
-      "No cartridges to run out mid-print",
+      "No cartridges to run out mid-print"
     ],
     cons: [
       "Larger footprint than a compact cartridge inkjet",
       "Higher upfront price than a basic inkjet",
-      "No automatic document feeder",
+      "No automatic document feeder"
     ],
     bestFor: "Teachers printing a steady mix of color and black-and-white materials all year",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Durability across a school year",
     description: "Weighed how well each pick tolerates sitting idle over school breaks without ink drying out or requiring maintenance before the next term.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,12 +477,12 @@ export const faq: FaqItem[] = [
   {
     q: "Will my classroom or home printer survive sitting unused over school breaks?",
     a: "Cartridge-based inkjets are the most vulnerable to ink drying out over a multi-week break, wasting ink on cleaning cycles when you resume. Laser toner and ink-tank refills, used in picks like the DCP-L2640DW and Smart Tank 5101, hold up much better through winter, spring, or summer breaks without that waste.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-homeschooling", title: "Best Printers for Homeschooling (2026)" },
   { href: "/guide/best-printers-for-small-businesses", title: "Best Printers for Small Businesses (2026)" },
   { href: "/guide/best-easy-to-use-printers", title: "Best Easy-to-Use Printers (2026)" },
-  { href: "/guide/best-document-cameras-home-office", title: "Best Document Cameras for Home Office (2026)" },
+  { href: "/guide/best-document-cameras-home-office", title: "Best Document Cameras for Home Office (2026)" }
 ];

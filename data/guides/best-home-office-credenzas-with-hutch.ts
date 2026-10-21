@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $159.99",
+          "Under $160",
           "71\" Tall Bookshelf with 4 Drawers"
         ],
         [
-          "Around $219.99",
+          "Under $250",
           "71\" Tall Triple Wide Bookshelf with Storage Drawers & Doors"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "67\" Farmhouse L Shaped Desk with Hutch"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "72'' Tall File Bookcase with Power Outlet & Printer Stand"
         ],
         [
-          "Around $287.99",
+          "Under $300",
           "ModernMate 60\" File Cabinet with Drawers & Door"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "ModernMate 60\" Lateral File Cabinet with 3 Drawers"
         ],
         [
-          "Around $359.99",
+          "Under $400",
           "ModernMate 63\" Lateral File Cabinet with Lock"
         ],
         [
-          "Around $1,755.06",
+          "Under $1,800",
           "Coaster Home Furnishings Hartshill 5-Drawer Wood Credenza Desk with Hutch"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Coaster Home Furnishings Hartshill 5-Drawer Wood Credenza Desk with Hutch is aimed at buyers prioritizing 5 drawers, hutch with glass door." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Coaster Home Furnishings Hartshill 5-Drawer Wood Credenza Desk with Hutch is aimed at buyers prioritizing 5 drawers, hutch with glass door." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas-with-hutch","title":"Best Office Credenzas With Hutch in 2026"},{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"}];

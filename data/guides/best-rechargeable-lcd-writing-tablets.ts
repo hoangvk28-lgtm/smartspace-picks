@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "rechargeable lcd writing tablet";
 export const introParagraphs = [
   "Most LCD writing tablets use a small replaceable coin-cell battery rather than a rechargeable one, and that coin-cell battery typically lasts a very long time, often a year or more, before needing a swap, which is why genuinely rechargeable models are a small sub-category rather than the norm.",
-  "Current research confirmed only two products with explicit rechargeable, USB-based charging stated in their titles, both covered below. If you don't see a specific rechargeable claim on a listing, assume it uses a standard replaceable coin-cell battery instead.",
+  "Current research confirmed only two products with explicit rechargeable, USB-based charging stated in their titles, both covered below. If you don't see a specific rechargeable claim on a listing, assume it uses a standard replaceable coin-cell battery instead."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "6 min";
@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41PP1beSBsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FS73S8WZ?tag=deskfinds0d-20",
-    description: "Explicitly rechargeable via USB Type-C, confirmed in the product title, this 12 inch bezel-free screen avoids the need to keep spare coin-cell batteries on hand entirely. It earns the top spot in this comparison over Basic Calculator Notepad with 6.5 Inch LCD Writing Tablet for one main reason. Genuinely confirmed rechargeable via Type-C. On value, which is worth weighing if cost is your deciding factor between the two. Worth knowing before you decide: No coin-cell battery swaps ever needed. On the other side, Larger size less pocketable. That's the main tradeoff to weigh against everything above.\n\nThis pick is best for buyers who value genuinely confirmed rechargeable via Type-C along with no coin-cell battery swaps ever needed. The catch is that requires periodic recharging, unlike a long-lasting coin-cell, so decide if that's worth it at $29.99.",
+    description: "Explicitly rechargeable via USB Type-C, confirmed in the product title, this 12 inch bezel-free screen avoids the need to keep spare coin-cell batteries on hand entirely. It earns the top spot in this comparison over Basic Calculator Notepad with 6.5 Inch LCD Writing Tablet for one main reason. Genuinely confirmed rechargeable via Type-C. On value, which is worth weighing if cost is your deciding factor between the two. Worth knowing before you decide: No coin-cell battery swaps ever needed. On the other side, Larger size less pocketable. That's the main tradeoff to weigh against everything above.\n\nThis pick is best for buyers who value genuinely confirmed rechargeable via Type-C along with no coin-cell battery swaps ever needed. The catch is that requires periodic recharging, unlike a long-lasting coin-cell, so decide if that's worth it at under $30.",
     specs: ["12 inch bezel-free screen","USB Type-C rechargeable","Confirmed rechargeable in title","Large writing surface"],
     pros: ["Genuinely confirmed rechargeable via Type-C","No coin-cell battery swaps ever needed","Large 12 inch screen for detailed notes","Modern bezel-free design"],
     cons: ["Requires periodic recharging, unlike a long-lasting coin-cell","Does not save content once erased","Larger size less pocketable"],
@@ -59,7 +59,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Rechargeable claims verified against explicit title language", description: "Only classified a product as rechargeable if the listing title explicitly stated it, rather than assuming based on modern styling or other cues." },
   { title: "Coin-cell as the category default acknowledged transparently", description: "Confirmed that most LCD writing tablets in this category use a replaceable coin-cell battery, framing rechargeable models as the smaller exception, not the norm." },
   { title: "Full researched pool checked for other rechargeable candidates", description: "Reviewed all researched product titles for rechargeable or USB charging language before finalizing this as a two-product guide." },
-  { title: "Use case fit assessed for each confirmed rechargeable pick", description: "Evaluated screen size and added features, like the built-in calculator, to differentiate the two confirmed rechargeable options for different buyer needs." },
+  { title: "Use case fit assessed for each confirmed rechargeable pick", description: "Evaluated screen size and added features, like the built-in calculator, to differentiate the two confirmed rechargeable options for different buyer needs." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -177,11 +177,11 @@ export const faq: FaqItem[] = [
   { q: "Do most LCD writing tablets use rechargeable batteries?", a: "No, most use a small replaceable coin-cell battery that lasts a long time, often over a year, before needing a swap. Rechargeable models are a smaller sub-category." },
   { q: "How long does a coin-cell battery last in an LCD writing tablet?", a: "Often a year or more of regular use before it needs replacing, since the LCD display itself draws very little power." },
   { q: "Are there LCD writing tablets with a built-in calculator that are also rechargeable?", a: "Yes, one confirmed option in this research combines a rechargeable LCD notepad with a basic 12-digit calculator." },
-  { q: "Is a rechargeable LCD writing tablet worth the extra cost?", a: "It depends on preference, rechargeable avoids ever buying replacement batteries but needs periodic charging, while coin-cell models need no charging but eventually need a battery swap." },
+  { q: "Is a rechargeable LCD writing tablet worth the extra cost?", a: "It depends on preference, rechargeable avoids ever buying replacement batteries but needs periodic charging, while coin-cell models need no charging but eventually need a battery swap." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-lcd-writing-tablets-with-calculators", title: "Best LCD Writing Tablets with Calculators (2026)" },
   { href: "/guide/best-12-inch-lcd-writing-tablets", title: "Best 12 Inch LCD Writing Tablets (2026)" },
-  { href: "/guide/best-smart-lcd-writing-tablets", title: "Best Smart LCD Writing Tablets (2026)" },
+  { href: "/guide/best-smart-lcd-writing-tablets", title: "Best Smart LCD Writing Tablets (2026)" }
 ];

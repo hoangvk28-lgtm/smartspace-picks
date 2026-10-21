@@ -12,7 +12,7 @@ export const deskLampLumensGuideGuide: Guide = {
     "how many lumens for desk lamp",
     "desk lamp brightness chart",
     "lumens for reading lamp",
-    "desk lamp lux vs lumens",
+    "desk lamp lux vs lumens"
   ],
   heroImage: "https://images.unsplash.com/photo-1560890264-4b92305ee66e?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1560890264-4b92305ee66e?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskLampLumensGuideGuide: Guide = {
     "desk-lamps-small-desks",
     "best-desk-lamp-under-30",
     "best-clip-on-desk-lamp",
-    "best-small-desk-accessories",
+    "best-small-desk-accessories"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskLampLumensGuideGuide: Guide = {
       question: "How do I know a lamp's actual lumen output if it's not listed?",
       answer:
         "Check the listing for a stated lumen figure directly rather than relying on watts, since LED lamps produce vastly different lumens per watt than older incandescent or halogen bulbs. If no lumen figure is given at all, treat that as a red flag rather than assuming a reasonable default.",
-    },
+    }
   ],
   sections: [
     {
@@ -79,6 +79,6 @@ For computer-heavy work specifically, avoid positioning a bright lamp directly b
     {
       heading: "Choosing an Adjustable Lamp Over a Fixed One",
       body: `A lamp with adjustable brightness (either stepped settings or a continuous dimmer) covers more use cases than a fixed-brightness lamp, since your actual lighting need changes between typing, reading fine print, or sitting on a video call. If choosing between a high-lumen fixed lamp and a lower-max adjustable lamp at a similar price, the adjustable option generally offers more practical flexibility across a typical workday.`,
-    },
+    }
   ],
 };

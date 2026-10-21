@@ -12,7 +12,7 @@ export const deskGlobeVsWallMapDecorGuide: Guide = {
     "desk globe worth the space",
     "wall map vs globe office",
     "geographic decor home office",
-    "vintage globe desk accent",
+    "vintage globe desk accent"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskGlobeVsWallMapDecorGuide: Guide = {
     "desk-decor-clutter-balance",
     "wall-art-hanging-height-explained",
     "desk-accent-color-explained",
-    "framed-vs-frameless-desk-art",
+    "framed-vs-frameless-desk-art"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskGlobeVsWallMapDecorGuide: Guide = {
       question: "Should geographic decor serve a functional purpose beyond decoration?",
       answer:
         "It can, for someone in a field genuinely referencing geography, international business, travel planning, education, a globe or map serves real functional reference value beyond pure decoration, for others it's purely an aesthetic choice, which is also a perfectly valid reason to include it.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const deskGlobeVsWallMapDecorGuide: Guide = {
     {
       heading: "Why Small Desk Constraints Should Generally Favor the Wall-Mounted Option",
       body: `Following the broader principle that small desk setups benefit most from decor choices that don't compete with functional workspace, a wall map's complete avoidance of desk footprint makes it the generally more sensible default choice specifically for smaller desks, where every square inch of surface area matters more, reserve the desk globe specifically for larger desks with genuine surface space to spare, or for situations where the tactile interactive quality specifically matters enough to justify the space tradeoff even on a more constrained desk.`,
-    },
+    }
   ],
 };

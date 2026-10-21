@@ -12,7 +12,7 @@ export const printerTroubleshootingGuide: Guide = {
     "printer paper jam fix",
     "printer streaky lines fix",
     "printer offline error fix",
-    "printer printing slow fix",
+    "printer printing slow fix"
   ],
   heroImage: "https://images.unsplash.com/photo-1613395450289-e560907d9308?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1613395450289-e560907d9308?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const printerTroubleshootingGuide: Guide = {
     "inkjet-vs-laser-printer",
     "wifi-vs-usb-printer",
     "printer-page-yield-explained",
-    "toner-vs-ink-cost-explained",
+    "toner-vs-ink-cost-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const printerTroubleshootingGuide: Guide = {
       question: "Should I replace a cartridge that shows as low but still prints fine?",
       answer:
         "Not necessarily, the low-ink or low-toner warning is often conservative and cartridges frequently continue printing acceptable quality pages for a while after the warning appears, replace it only once actual print quality noticeably degrades.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ export const printerTroubleshootingGuide: Guide = {
     {
       heading: "Diagnosing Offline Errors as a Connectivity Issue First",
       body: `A printer showing as offline despite being powered on is almost always a connectivity problem rather than a hardware failure, check that the printer and computer are on the same WiFi network, that the printer isn't accidentally set to a paused state in your operating system's printer settings, and try restarting both the printer and your router before considering more involved troubleshooting steps.`,
-    },
+    }
   ],
 };

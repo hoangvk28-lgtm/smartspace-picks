@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable monitor for MacBook Pro";
 export const introParagraphs = [
   "The biggest thing competing portable-monitor roundups miss for MacBook Pro buyers is that display support depends on chip tier, not the word \"Pro\" on the box. Base M1/M2 13-inch MacBook Pro supports only one external display; M1 Pro/Max, M2 Pro/Max, M3 Pro/Max, and M4 Pro/Max support two external displays without needing clamshell mode. If you're buying a second portable monitor hoping for a third total screen, check your chip tier first, this guide won't repeat that mistake for you.",
-  "The 8 picks below are ranked with MacBook Pro's specific quirks in mind: none of them match the built-in display's 120Hz ProMotion or P3/XDR color, so we call out exactly how close (or far) each one gets, plus which ones use full-size HDMI instead of an adapter-dependent mini-HDMI port.",
+  "The 8 picks below are ranked with MacBook Pro's specific quirks in mind: none of them match the built-in display's 120Hz ProMotion or P3/XDR color, so we call out exactly how close (or far) each one gets, plus which ones use full-size HDMI instead of an adapter-dependent mini-HDMI port."
 ];
 export const lastUpdated = "2026-07-28";
 export const readTime = "11 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall for MacBook Pro",
     name: "cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C, 120Hz HDMI",
     price: "$164.98",
-    rating: "4.8 stars from 6,301 Amazon ratings",
-    reviews: "6,301 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41taGyfYchL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR8D6BQ3?tag=deskfinds0d-20",
     description: "This is the best all-around match for a MacBook Pro's Thunderbolt ports, with a 2.5K (2560x1600) 16:10 panel that mirrors the MacBook Pro's own aspect ratio for full-screen use without black bars, plus a full metal chassis and dual VESA mounting holes for a permanent desk setup. The 110% sRGB gamut is a real step above budget 1080p panels, though it's still well short of the MacBook Pro's 100% P3/XDR coverage.\n\nIt earns the top spot in this comparison over VisionOwl Portable Monitor 15.6 Inch 4K UHD 145% sRGB for one main reason. 16:10 ratio matches MacBook Pro's aspect ratio for clean full-screen use. On price, it comes in below VisionOwl Portable Monitor 15.6 Inch 4K UHD 145% sRGB, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Full-size HDMI, not mini-HDMI. On the other side, Uses one of your limited Thunderbolt ports. That's the main tradeoff to weigh against everything above.",
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Color-Critical Work",
     name: "VisionOwl Portable Monitor 15.6 Inch 4K UHD 145% sRGB",
     price: "$229.99",
-    rating: "4.8 stars from 2,044 Amazon ratings",
-    reviews: "2,044 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Vtb2coigL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVMC4BYJ?tag=deskfinds0d-20",
     description: "This is the most color-capable pick in this guide, and the closest a budget-tier portable monitor gets to the MacBook Pro's own wide-gamut XDR display, with a 4K panel and a claimed 145% sRGB gamut. It's still an 8-bit panel without HDR/XDR local dimming certification, so HDR content from a 14/16-inch mini-LED MacBook Pro will downgrade to SDR or render inaccurately here, don't expect an XDR-matching preview screen. One spot below cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C in this ranking, it costs more than cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C. The compromise here is straightforward: No real HDR/XDR certification despite 4K resolution, don't use for HDR grading decisions. What you gain in return: Highest color gamut claim in this guide. Whether that trade is worth it depends on which side matters more for your setup. Worth knowing before you decide: 4K resolution for detail-critical review work. On the other side, Highest price in this guide. That's the main tradeoff to weigh against everything above.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best 470-Nit Brightness",
     name: "VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz, 470 Nits",
     price: "$169.99",
-    rating: "4.8 stars from 3,365 Amazon ratings",
-    reviews: "3,365 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51kORE12J1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHP4MKMP?tag=deskfinds0d-20",
     description: "At 470 nits this is the brightest panel in this guide, genuinely useful for a MacBook Pro user working near a bright window, and it pairs that with 8-bit+2FRC color processing for smoother gradients than a basic 6-bit panel. The 16:10 ratio again matches MacBook Pro's own screen shape, and it ships with a full accessory kit including both a full-size HDMI cable and two USB-C cables.\n\nSitting just under VisionOwl Portable Monitor 15.6 Inch 4K UHD 145% sRGB, it's priced lower than VisionOwl Portable Monitor 15.6 Inch 4K UHD 145% sRGB. Here's the honest tradeoff: 144Hz exceeds MacBook Pro's 120Hz ProMotion ceiling, no perceptible benefit. And here's what it gets you instead: Brightest panel in this guide at 470 nits. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Complete accessory kit included out of the box. On the other side, Similar price to the cocopar top pick with a smaller review base. That's the main tradeoff to weigh against everything above.",
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     badge: "Best Large-Screen Budget Pick",
     name: "VisionOwl Portable Monitor for Laptop, 18.5 Inch FHD 100Hz",
     price: "$169.99",
-    rating: "4.8 stars from 2,044 Amazon ratings",
-    reviews: "2,044 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51+nqT75sRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CD3WJXWH?tag=deskfinds0d-20",
     description: "At 18.5 inches this is the largest screen at this price point in the guide, useful if your priority is raw screen real estate for spreadsheet or multi-window work rather than pixel density. The 1080p resolution spread across 18.5 inches means a lower pixel density than the 15.6-16-inch QHD picks above, text will look softer up close on this one.\n\nRanked just behind VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz, it costs more than VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz. The real tradeoff against that pick: Lower pixel density than the 15.6-16-inch QHD/4K picks. In exchange, it offers this instead: Largest, most spacious screen in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your source device.\n\nWorth knowing before you decide: Full-size HDMI, no adapter needed. On the other side, 100Hz, not a genuine ProMotion match. That's the main tradeoff to weigh against everything above.",
@@ -90,8 +90,8 @@ export const products: GuideProduct[] = [
     badge: "Best Large 2K Screen",
     name: "cocopar Portable Monitor 18.5 Inch 2K QHD 120Hz 120% sRGB",
     price: "$209.99",
-    rating: "4.8 stars from 6,301 Amazon ratings",
-    reviews: "6,301 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51OXc4g9NHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GGHPTLX9?tag=deskfinds0d-20",
     description: "This combines the 18.5-inch large-screen footprint with a genuine 2K QHD resolution instead of 1080p stretched over the same size, giving noticeably sharper text and a 120% sRGB gamut that's a real step above budget panels. The 120Hz refresh rate happens to line up closely with MacBook Pro's own 120Hz ProMotion ceiling, making this one of the better refresh-rate matches in this guide rather than an overshoot like the 144Hz picks.\n\nOne spot below VisionOwl Portable Monitor for Laptop in this ranking, it costs more than VisionOwl Portable Monitor for Laptop. The compromise here is straightforward: Heaviest pick in this guide at 2.48 lb. What you gain in return: 2K resolution avoids the soft-text problem of 1080p-at-18.5-inch panels. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: 120Hz is a close match to MacBook Pro's own ProMotion ceiling. On the other side, Still short of MacBook Pro's P3/XDR gamut. That's the main tradeoff to weigh against everything above.",
@@ -106,8 +106,8 @@ export const products: GuideProduct[] = [
     badge: "Budget Large Screen (FreeSync Wasted on Mac)",
     name: "EVICIV Portable Monitor 18.5 Inch 120Hz, 125% sRGB FreeSync",
     price: "$119.99",
-    rating: "4.4 stars from 10,899 Amazon ratings",
-    reviews: "10,899 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51OlDMVIAEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWXLCTGZ?tag=deskfinds0d-20",
     description: "This is the cheapest 18.5-inch pick in this guide and carries the largest review base of any large-format monitor here, but its headline FreeSync feature is built for AMD GPU-driven variable refresh, a feature MacBook Pro's own Apple Silicon graphics pipeline doesn't use the same way. Buy this for the 120Hz panel and 125% sRGB color, not for FreeSync, which won't do anything meaningful in a MacBook Pro setup.\n\nSitting just under cocopar Portable Monitor 18.5 Inch 2K QHD 120Hz 120% sRGB, it's priced lower than cocopar Portable Monitor 18.5 Inch 2K QHD 120Hz 120% sRGB. Here's the honest tradeoff: FreeSync marketing is irrelevant for MacBook Pro's Apple Silicon graphics. And here's what it gets you instead: Lowest price of the 18.5-inch picks. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Largest review base among large-format options here. On the other side, Lower rating than the VisionOwl/cocopar premium picks. That's the main tradeoff to weigh against everything above.",
@@ -122,8 +122,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick",
     name: "cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB",
     price: "$109.99",
-    rating: "4.8 stars from 6,301 Amazon ratings",
-    reviews: "6,301 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31y1n0H2EtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZLY26FW?tag=deskfinds0d-20",
     description: "This is a simpler 1080p, 60Hz panel without the QHD/4K ambitions of the picks above, but it still includes a full-size HDMI port and real VESA mounting holes, features some pricier competitors skip. At 85% sRGB, color accuracy is noticeably behind the premium picks in this guide, fine for email and documents, less so for any color-sensitive MacBook Pro work.\n\nRanked just behind EVICIV Portable Monitor 18.5 Inch 120Hz, it's priced lower than EVICIV Portable Monitor 18.5 Inch 120Hz. The real tradeoff against that pick: 85% sRGB is the weakest color gamut of the picks in this guide. In exchange, it offers this instead: Lowest price with a full-size HDMI port and real VESA holes. That's the swap that decides whether this pick or the one above it is the better fit for your source device.\n\nWorth knowing before you decide: Highest rating tier of the budget options here. On the other side, 1080p at 15.6 inches is a visible step down from MacBook Pro's Retina display. That's the main tradeoff to weigh against everything above.",
@@ -138,8 +138,8 @@ export const products: GuideProduct[] = [
     badge: "Most Reviewed",
     name: "KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover",
     price: "$62.99",
-    rating: "4.4 stars from 13,090 Amazon ratings",
-    reviews: "13,090 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51T7K-COzIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B088D8JG3L?tag=deskfinds0d-20",
     description: "This is the most reviewed monitor in this guide by a wide margin, and the cheapest, but it uses mini-HDMI rather than full-size HDMI, so a Thunderbolt/USB-C connection to your MacBook Pro is the more reliable path (which nearly all MacBook Pro models support natively). No VESA mounting holes here either, it's a fold-out cover-stand design only.\n\nOne spot below cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB in this ranking, it's priced lower than cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB. The compromise here is straightforward: Mini-HDMI only, no full-size HDMI port. What you gain in return: Largest review base of any pick in this guide. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Lowest price point. On the other side, Cover-stand offers only two fixed viewing angles. That's the main tradeoff to weigh against everything above.",
@@ -156,7 +156,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Color gamut versus MacBook Pro's own P3/XDR screen", description: "Compared each panel's stated sRGB/DCI-P3 coverage against MacBook Pro's 100% P3 built-in display, rather than treating any \"wide gamut\" claim as equivalent." },
   { title: "Refresh rate versus ProMotion", description: "Checked whether a monitor's refresh rate claim (120Hz, 144Hz, etc.) actually exceeds what MacBook Pro's own 120Hz ProMotion display runs at, since higher numbers don't add visible smoothness beyond that ceiling." },
   { title: "HDMI port type and Thunderbolt port usage", description: "Distinguished full-size HDMI from mini-HDMI, and noted that any pick used over Thunderbolt/USB-C consumes one of the MacBook Pro's 2-3 available Thunderbolt ports." },
-  { title: "VESA mounting and stand design", description: "Verified genuine VESA mounting holes versus fold-out cover-stands only, since a permanent-desk MacBook Pro setup benefits from real monitor-arm compatibility." },
+  { title: "VESA mounting and stand design", description: "Verified genuine VESA mounting holes versus fold-out cover-stands only, since a permanent-desk MacBook Pro setup benefits from real monitor-arm compatibility." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -293,12 +293,12 @@ export const faq: FaqItem[] = [
   { q: "Should I buy a 144Hz portable monitor for my MacBook Pro?", a: "It won't hurt, but it won't help either. MacBook Pro's own ProMotion display adapts up to 120Hz, so a 144Hz-rated external monitor driven from your Mac won't look any smoother than a 120Hz one." },
   { q: "Does using a portable monitor use up a Thunderbolt port I need for other things?", a: "Yes. MacBook Pro 14/16-inch models have only 2-3 Thunderbolt 4 ports total, and connecting a portable monitor uses one of them, worth planning around if you also run a dock, eGPU, or fast external SSD." },
   { q: "Which pick has a full-size HDMI port instead of mini-HDMI?", a: "All picks in this guide except the KYY 15.6\" (rank 8) use full-size HDMI. The KYY uses mini-HDMI and requires its included cable or your own adapter." },
-  { q: "Can I mount any of these on a monitor arm at my desk?", a: "Most picks in this guide have real VESA mounting holes (75x75mm on several models), letting you attach them to a standard monitor arm instead of relying on a fold-out cover-stand." },
+  { q: "Can I mount any of these on a monitor arm at my desk?", a: "Most picks in this guide have real VESA mounting holes (75x75mm on several models), letting you attach them to a standard monitor arm instead of relying on a fold-out cover-stand." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-hdmi-portable-monitors", title: "Best HDMI Portable Monitors (2026)" },
   { href: "/guide/best-portable-monitors-for-macbook-air", title: "Best Portable Monitors for MacBook Air (2026)" },
   { href: "/guide/usb-c-hub-vs-docking-station", title: "USB-C Hub vs Docking Station (2026)" },
-  { href: "/guide/best-monitor-under-100", title: "Best Monitor Under $100 (2026)" },
+  { href: "/guide/best-monitor-under-100", title: "Best Monitor Under $100 (2026)" }
 ];

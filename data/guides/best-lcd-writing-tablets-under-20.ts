@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["A compact adult tablet with dual erase methods", "LCD Writing Tablet for Adult: Mini 6.5 Inch with Cover Case"],
         ["A large color screen tablet for a child", "ORSEN LCD Writing Tablet 12 Inch"],
-        ["The crispest, most precise handwriting lines", "LCD Writing Tablet 6.5in Fine Tip with Leather Case"],
+        ["The crispest, most precise handwriting lines", "LCD Writing Tablet 6.5in Fine Tip with Leather Case"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $13", "Magnetic LCD Writing Tablet 13 Inch ($12.99)"],
-        ["$17-$18", "Mini 6.5 Inch Adult ($16.99), ORSEN 12 Inch Kids ($16.99), or Fine Tip 6.5in ($17.99)"],
+        ["Under $13", "Magnetic LCD Writing Tablet 13 Inch (under $15)"],
+        ["$17-$18", "Mini 6.5 Inch Adult (under $20), ORSEN 12 Inch Kids (under $20), or Fine Tip 6.5in (under $20)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Adult Precision Writing vs Kids' Drawing",
     cards: [
       { label: "Adult Precision (Mini 6.5\" or Fine Tip 6.5\")", text: "Fine stylus tips and palm-rejection technology built for legible, detailed notes, math work, and sketches, not casual coloring." },
-      { label: "Kids' Drawing (ORSEN 12\")", text: "Pressure-sensitive color lines and a larger, more forgiving screen built around a child's less precise hand and drawing needs." },
+      { label: "Kids' Drawing (ORSEN 12\")", text: "Pressure-sensitive color lines and a larger, more forgiving screen built around a child's less precise hand and drawing needs." }
     ],
     note: "If the tablet is mainly for an adult's daily notes, prioritize a fine-tip pick. If it's for a child's creative drawing, the larger color ORSEN screen serves that purpose better.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your preference", "Recommended pick"],
       rows: [
         ["Multiple erase options, including non-touch", "LCD Writing Tablet for Adult: Mini 6.5 Inch"],
-        ["Simple single push-button erase", "ORSEN 12 Inch, Fine Tip 6.5in, or Magnetic 13 Inch"],
+        ["Simple single push-button erase", "ORSEN 12 Inch, Fine Tip 6.5in, or Magnetic 13 Inch"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Note-Taking During Meetings Specifically",
     cards: [
       { label: "Look for", text: "A fine-tip stylus with palm-rejection technology, so your handwriting stays legible and your resting hand doesn't create stray marks." },
-      { label: "In this comparison", text: "The LCD Writing Tablet 6.5in Fine Tip is specifically built for this, with palm-rejection and precision line rendering ideal for meeting notes." },
+      { label: "In this comparison", text: "The LCD Writing Tablet 6.5in Fine Tip is specifically built for this, with palm-rejection and precision line rendering ideal for meeting notes." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the crispest possible handwriting for detailed work, where the Fine Tip 6.5in pick's precision stylus is the strongest choice here." },
-      { label: "Save if", text: "Screen size and fridge mounting matter more than writing precision, where the Magnetic 13 Inch pick is both the cheapest and largest option in this comparison." },
+      { label: "Save if", text: "Screen size and fridge mounting matter more than writing precision, where the Magnetic 13 Inch pick is both the cheapest and largest option in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -179,7 +179,7 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Is the fine-tip stylus on the $17.99 pick actually noticeably better than a standard stylus?", "a": "Yes, for detailed writing specifically, a fine-tip stylus produces thinner, more consistent lines that stay legible at small handwriting sizes, a real difference from thicker marker-style styluses that can make small text blur together." },
+  { "q": "Is the fine-tip stylus on the under $20 pick actually noticeably better than a standard stylus?", "a": "Yes, for detailed writing specifically, a fine-tip stylus produces thinner, more consistent lines that stay legible at small handwriting sizes, a real difference from thicker marker-style styluses that can make small text blur together." },
   { "q": "Can the ORSEN 12 Inch kids' tablet also work fine for adult note-taking if I don't mind the colorful screen?", "a": "Functionally yes, it will register writing from an adult's hand just as well as a child's, though it lacks the fine-tip precision and palm-rejection technology found on the adult-focused picks in this comparison, which matters more for detailed adult note-taking." },
   { "q": "Does the leather case on these tablets actually prevent screen damage, or is it just cosmetic?", "a": "A genuine leather or protective case, like those included with the Mini 6.5 Inch and Fine Tip 6.5in picks, does provide real physical protection against scratches and minor impacts when the tablet is in a bag, though it won't necessarily prevent damage from a serious drop or heavy impact." },
   { "q": "Why does the Magnetic 13 Inch tablet cost less than the smaller 6.5 inch precision tablets in this comparison?", "a": "Pricing at this range reflects the specific feature set more than screen size alone; the smaller precision tablets include fine-tip styluses, palm rejection, and premium cases that add cost, while the larger Magnetic tablet prioritizes screen size and rechargeable convenience over writing precision features." },

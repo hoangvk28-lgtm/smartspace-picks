@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desktop hanging file organizers";
 export const introParagraphs = [
   "\"Desktop\" here means a freestanding organizer that sits on your desk surface, distinct from the edge-hung and wall-mounted organizers covered in our other guides. Since it occupies desk-surface footprint rather than hanging elsewhere, we weighed that space consumption against its no-mounting convenience.",
-  "We also checked freestanding stability, since a fully-loaded desktop organizer carries a genuine tip-over risk if its base isn't proportioned well against its height.",
+  "We also checked freestanding stability, since a fully-loaded desktop organizer carries a genuine tip-over risk if its base isn't proportioned well against its height."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -104,7 +104,7 @@ export const products: GuideProduct[] = [
     pros: ["Highest document-separation capacity in this comparison", "Affordable for the capacity", "Mesh design allows visibility into contents", "Good rating"],
     cons: ["Requires drilling, not a genuine desktop product", "Taller design means some tiers are harder to reach", "Not desk-surface-sitting despite adjacent product category"],
     bestFor: "Buyers with a large document volume who need capacity beyond what a compact desktop organizer offers.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "\"Desktop\" naming accuracy verification", description: "We checked whether each product genuinely sits on the desk surface, or is actually wall-mounted or desk-edge hanging despite 'desktop' language in its title." },
   { title: "Desk-footprint consumption", description: "We weighed how much desk surface space a genuine freestanding design occupies against the space-saving benefit of wall or edge mounting." },
   { title: "Freestanding stability and tip-over resistance", description: "For genuine desktop-sitting designs, we checked base width relative to height for tip-over resistance when fully loaded." },
-  { title: "SERP overlap with related organizer guides", description: "We disclosed genuine product overlap with our hanging desk organizer and wall-hanging organizer guides rather than treating this as a fully separate category." },
+  { title: "SERP overlap with related organizer guides", description: "We disclosed genuine product overlap with our hanging desk organizer and wall-hanging organizer guides rather than treating this as a fully separate category." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -240,11 +240,11 @@ export const faq: FaqItem[] = [
   { q: "Will a freestanding desktop organizer tip over when loaded?", a: "Risk depends on the base width relative to height. The Mind Reader pick has a wide, stable base; regardless of design, load heavier items toward the bottom to reduce tip-over risk." },
   { q: "How much desk space does a desktop file organizer take up?", a: "This varies by product, but any genuine freestanding design will consume some desk surface footprint. If preserving desk space matters more, consider a wall-mounted or desk-edge-hanging alternative instead." },
   { q: "Is there a way to get hanging file storage without using any desk space?", a: "Yes, the Safco Onyx hangs from a desk edge without drilling and without consuming desk surface footprint, or a wall-mounted organizer frees desk space entirely at the cost of drilling." },
-  { q: "How is this different from your hanging desk organizers guide?", a: "This guide focuses specifically on genuine desktop-sitting designs versus wall or edge-mounted alternatives, while our broader hanging desk organizers guide covers the full range of mounting methods." },
+  { q: "How is this different from your hanging desk organizers guide?", a: "This guide focuses specifically on genuine desktop-sitting designs versus wall or edge-mounted alternatives, while our broader hanging desk organizers guide covers the full range of mounting methods." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-hanging-desk-organizers", title: "Best Hanging Desk Organizers (2026)" },
   { href: "/guide/best-hanging-file-organizers-for-desks", title: "Best Hanging File Organizers for Desks (2026)" },
-  { href: "/guide/best-wall-hanging-desk-organizers", title: "Best Wall-Hanging Desk Organizers (2026)" },
+  { href: "/guide/best-wall-hanging-desk-organizers", title: "Best Wall-Hanging Desk Organizers (2026)" }
 ];

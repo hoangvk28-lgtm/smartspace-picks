@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "The ioStation 24c combines a 2-channel audio interface with a physical production controller featuring a motorized fader and dedicated transport buttons, letting you control DAW playback, mixing, and recording without touching a mouse or keyboard, a genuinely different physical interaction model than any other pick in this comparison. Its XMAX-L mic preamps carry over from PreSonus's higher-end StudioLive mixer lineup.\n\nCompared to the Universal Audio Volt 2 pick above, this one prioritizes hands-on physical control over vintage tone-shaping, appealing to buyers who want tactile control surfaces for streaming, podcasting, or DAW mixing workflows. It includes the full Studio One Artist DAW plus Studio Magic Plug-In Suite as its bundled software.\n\nBest for buyers who specifically want a physical production controller with motorized fader for hands-on DAW control.",
     specs: ["2 XMAX-L mic preamps, motorized fader", "Dedicated transport controls, USB-C", "Studio One Artist + plugin suite included"],
     pros: ["Motorized fader and transport controls enable hands-on DAW mixing", "XMAX-L preamps borrowed from PreSonus's professional mixer line", "Includes full Studio One Artist DAW software"],
-    cons: ["Highest price in this tier at $249.99", "Physical controller adds bulk versus a simple 2-channel interface"],
+    cons: ["Highest price in this tier at under $250", "Physical controller adds bulk versus a simple 2-channel interface"],
     bestFor: "buyers who specifically want a physical production controller for hands-on DAW mixing",
   },
   {
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["2 channels of smart auto-gain for two-person recording", "Focusrite Scarlett 2i2 4th Gen USB Audio Interface"],
         ["Vintage tube-style preamp coloration", "Universal Audio Volt 2 USB Audio Interface"],
         ["A physical production controller for hands-on DAW mixing", "PreSonus ioStation 24c"],
-        ["Console-grade single-preamp quality at the lowest price", "Audient iD4 MKII USB Audio Interface"],
+        ["Console-grade single-preamp quality at the lowest price", "Audient iD4 MKII USB Audio Interface"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $186", "Audient iD4 MKII ($185.00)"],
-        ["Under $200", "Universal Audio Volt 2 ($199.00)"],
-        ["Under $225", "Focusrite Scarlett 2i2 4th Gen ($224.99)"],
-        ["Under $250", "PreSonus ioStation 24c ($249.99)"],
+        ["Under $186", "Audient iD4 MKII (under $190)"],
+        ["Under $200", "Universal Audio Volt 2 (under $200)"],
+        ["Under $225", "Focusrite Scarlett 2i2 4th Gen (under $250)"],
+        ["Under $250", "PreSonus ioStation 24c (under $250)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Clean Transparent Preamp vs Vintage-Colored Preamp",
     cards: [
       { label: "Clean, transparent preamp (Scarlett 2i2, Audient iD4, PreSonus ioStation)", text: "Captures the source signal as accurately as possible with no added coloration, better for recordings you plan to shape entirely in post-production." },
-      { label: "Vintage-colored preamp (Universal Audio Volt 2)", text: "Adds warm tube-style saturation and compression directly at the input stage, appealing to musicians who want that character baked in before it reaches the DAW." },
+      { label: "Vintage-colored preamp (Universal Audio Volt 2)", text: "Adds warm tube-style saturation and compression directly at the input stage, appealing to musicians who want that character baked in before it reaches the DAW." }
     ],
     note: "Most buyers should default to a clean, transparent preamp like the Audient iD4 unless you specifically want the vintage coloration the Volt 2 provides for music production.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your workflow preference", "Recommended pick"],
       rows: [
         ["Mouse-and-keyboard DAW control", "Focusrite Scarlett 2i2 4th Gen or Universal Audio Volt 2"],
-        ["Hands-on physical fader and transport control", "PreSonus ioStation 24c"],
+        ["Hands-on physical fader and transport control", "PreSonus ioStation 24c"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Two-Person Podcasts or Interviews Specifically",
     cards: [
       { label: "Look for", text: "2 simultaneous mic preamps with independent gain control per channel, so each speaker's voice can be leveled separately without one overpowering the other." },
-      { label: "In this comparison", text: "The Focusrite Scarlett 2i2 4th Gen specifically offers 2 channels of Auto Gain technology, automatically balancing both speakers without manual adjustment." },
+      { label: "In this comparison", text: "The Focusrite Scarlett 2i2 4th Gen specifically offers 2 channels of Auto Gain technology, automatically balancing both speakers without manual adjustment." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want hands-on physical mixing control with a motorized fader, where the PreSonus ioStation 24c justifies its higher $249.99 price with genuine tactile control hardware." },
-      { label: "Save if", text: "You want console-grade single-channel preamp quality without paying for a second channel you don't need, where the Audient iD4 MKII delivers that for $185.00." },
+      { label: "Spend more if", text: "You want hands-on physical mixing control with a motorized fader, where the PreSonus ioStation 24c justifies its higher under $250 price with genuine tactile control hardware." },
+      { label: "Save if", text: "You want console-grade single-channel preamp quality without paying for a second channel you don't need, where the Audient iD4 MKII delivers that for under $190." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

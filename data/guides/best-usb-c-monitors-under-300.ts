@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["4K resolution with a fast 120Hz refresh rate", "Dell 27 Monitor S2725QC 4K 120Hz"],
         ["Pantone-validated color accuracy for creative work", "ViewSonic VP2766-2K ColorPro 27 Inch"],
-        ["The largest, lowest-cost 4K screen", "CUNPU Z32UI06-TE 32 Inch 4K USB-C Monitor"],
+        ["The largest, lowest-cost 4K screen", "CUNPU Z32UI06-TE 32 Inch 4K USB-C Monitor"]
       ],
     },
   },
@@ -116,9 +116,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $225", "CUNPU Z32UI06-TE 32 Inch 4K ($219.99)"],
-        ["$225-$245", "ASUS ProArt PA278CV ($229.00) or ViewSonic VP2766-2K ($239.99)"],
-        ["Under $300", "Dell 27 Monitor S2725QC 4K 120Hz ($299.99)"],
+        ["Under $225", "CUNPU Z32UI06-TE 32 Inch 4K (under $250)"],
+        ["$225-$245", "ASUS ProArt PA278CV (under $250) or ViewSonic VP2766-2K (under $250)"],
+        ["Under $300", "Dell 27 Monitor S2725QC 4K 120Hz (under $300)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Calman Verified vs Pantone Validated",
     cards: [
       { label: "Calman Verified (ASUS ProArt PA278CV)", text: "Independently tests and confirms Delta E accuracy against a calibration standard, common in professional display verification." },
-      { label: "Pantone Validated (ViewSonic VP2766-2K)", text: "Certifies the display's color output specifically matches Pantone's reference color standards, relevant for design work tied to Pantone color matching." },
+      { label: "Pantone Validated (ViewSonic VP2766-2K)", text: "Certifies the display's color output specifically matches Pantone's reference color standards, relevant for design work tied to Pantone color matching." }
     ],
     note: "If your work specifically involves Pantone color matching (branding, print design), the ViewSonic pick's certification is the more directly relevant one. For general color-critical work, both certifications indicate genuine accuracy.",
   },
@@ -136,7 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your priority", "Recommended pick"],
       rows: [
         ["Highest wattage plus a multi-port USB-C hub", "ViewSonic VP2766-2K ColorPro 27 Inch (90W, 4 total USB-C ports)"],
-        ["Standard 65W charging for most ultrabooks", "Dell S2725QC, CUNPU 4K, or ASUS ProArt PA278CV"],
+        ["Standard 65W charging for most ultrabooks", "Dell S2725QC, CUNPU 4K, or ASUS ProArt PA278CV"]
       ],
     },
   },
@@ -144,16 +144,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Growing Multi-Monitor Workstation Specifically",
     cards: [
       { label: "Look for", text: "DisplayPort daisy-chain support with a stated maximum number of connected displays, since this determines how far your setup can expand from a single source." },
-      { label: "In this comparison", text: "The ASUS ProArt PA278CV supports daisy-chaining up to four displays, the strongest expansion feature in this guide." },
+      { label: "In this comparison", text: "The ASUS ProArt PA278CV supports daisy-chaining up to four displays, the strongest expansion feature in this guide." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want both 4K resolution and a fast 120Hz refresh rate together, where the Dell 27 Monitor S2725QC is the only pick in this guide combining both." },
-      { label: "Save if", text: "A large 4K screen without a high refresh rate covers your needs, where the CUNPU Z32UI06-TE delivers 4K for roughly $80 less than the Dell pick."},
+      { label: "Save if", text: "A large 4K screen without a high refresh rate covers your needs, where the CUNPU Z32UI06-TE delivers 4K for roughly $80 less than the Dell pick."}
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

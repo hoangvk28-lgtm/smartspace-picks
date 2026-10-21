@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "18-inch laptop cooling pads";
 export const introParagraphs = [
   "18-inch laptops are an extreme, heavy, high-heat-output gaming tier. Few cooling pads in our research pool explicitly confirm compatibility this large, most cap out around 17 or 19 inches without a precise 18-inch confirmation, so this guide is intentionally narrow rather than padded with a stretch fit.",
-  "We verified each pick's actual stated range against 18 inches specifically, and cover only the products whose listings genuinely support this extreme size class.",
+  "We verified each pick's actual stated range against 18 inches specifically, and cover only the products whose listings genuinely support this extreme size class."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "6 min";
@@ -75,7 +75,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine 18-inch verification", description: "We checked each product's stated range specifically against 18 inches, excluding pads whose range only nominally approaches this size without explicit confirmation." },
   { title: "Adequate cooling capacity at this extreme tier", description: "We prioritized documented airflow or temperature-drop figures, since 18-inch laptops are almost universally heavy, high-heat gaming or workstation machines." },
   { title: "Genuine product availability at this size", description: "We confirmed real product availability for this extreme laptop size tier rather than forcing a weak fit from a general-purpose pad." },
-  { title: "Price versus specialized capability", description: "We weighed the higher prices common at this tier against the genuinely stronger cooling capacity each pick offers." },
+  { title: "Price versus specialized capability", description: "We weighed the higher prices common at this tier against the genuinely stronger cooling capacity each pick offers." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -211,11 +211,11 @@ export const faq: FaqItem[] = [
   { q: "Do 18-inch laptops need more powerful cooling pads?", a: "Generally yes, since laptops this large are almost universally heavy gaming or workstation machines with substantial heat output under sustained load." },
   { q: "Is there a quiet option for an 18-inch laptop?", a: "Not really at this extreme size, all three picks here prioritize cooling capacity, and the strongest options reach 70dB at maximum operation. Expect audible fan noise under heavy load." },
   { q: "What if my laptop is actually 17.3 inches, not quite 18?", a: "Check our Best 17-Inch Laptop Cooling Pads guide, which has a broader selection of verified options at that more common size." },
-  { q: "Is the Razer pad's adaptive frame system worth it at this size?", a: "If you want automatic, software-controlled fan adjustment for the variable heat of heavy gaming, it's a genuine premium feature worth the higher price for some buyers." },
+  { q: "Is the Razer pad's adaptive frame system worth it at this size?", a: "If you want automatic, software-controlled fan adjustment for the variable heat of heavy gaming, it's a genuine premium feature worth the higher price for some buyers." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-17-inch-laptop-cooling-pads", title: "Best 17-Inch Laptop Cooling Pads (2026)" },
   { href: "/guide/best-gaming-laptop-cooling-pads", title: "Best Gaming Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-20-inch-laptop-cooling-pads", title: "Best 20-Inch Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-20-inch-laptop-cooling-pads", title: "Best 20-Inch Laptop Cooling Pads (2026)" }
 ];

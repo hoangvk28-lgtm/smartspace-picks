@@ -307,7 +307,7 @@ export default async function BestUsbHubForDeskPage() {
             { href: "#what-to-look-for", label: "What to look for" },
             { href: "#reviews", label: "Full reviews" },
             { href: "#which-hub", label: "Which hub?" },
-            { href: "#faq", label: "FAQ" },
+            { href: "#faq", label: "FAQ" }
           ].map(({ href, label }) => (
             <a key={href} href={href} className="px-3.5 py-2 rounded-full border border-border bg-white text-ink-secondary text-sm font-medium hover:border-brand hover:text-brand transition-colors">
               {label}
@@ -373,7 +373,7 @@ export default async function BestUsbHubForDeskPage() {
               ["Port count & variety (25%)", "Enough ports; mix of USB-A and USB-C where relevant; dedicated charging ports."],
               ["Power supply quality (20%)", "AC adapter wattage; stable voltage under full load."],
               ["Build quality (15%)", "Material (metal vs plastic), cable durability, port fit and feel."],
-              ["Value (10%)", "Price vs comparable options from the same brand tier."],
+              ["Value (10%)", "Price vs comparable options from the same brand tier."]
             ].map(([label, desc]) => (
               <div key={label as string} className="p-4 rounded-xl bg-white border border-border">
                 <p className="text-sm font-semibold text-ink mb-1">{label}</p>
@@ -419,7 +419,7 @@ export default async function BestUsbHubForDeskPage() {
             {[
               { href: "/guide/desk-upgrades-under-100", title: "10 Desk Upgrades Under $100", label: "Desk Setup" },
               { href: "/guide/best-under-desk-cable-trays", title: "Best Under Desk Cable Trays", label: "Desk Setup" },
-              { href: "/guide/best-clip-on-desk-lamp", title: "Best Clip-On Desk Lamps", label: "Desk Setup" },
+              { href: "/guide/best-clip-on-desk-lamp", title: "Best Clip-On Desk Lamps", label: "Desk Setup" }
             ].map((g) => (
               <Link prefetch={false} key={g.href} href={g.href} className="group p-4 rounded-xl border border-border bg-white hover:border-brand/40 hover:shadow-sm transition-all">
                 <span className="text-[10px] font-bold uppercase tracking-widest text-brand block mb-1">{g.label}</span>

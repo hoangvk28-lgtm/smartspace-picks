@@ -5,7 +5,7 @@ export const metaDescription = "5 KVM docking stations we evaluated, with a note
 export const mainKeyword = "kvm docking station";
 export const introParagraphs = [
   "A docking station's total power delivery budget is shared across laptop charging and any connected peripherals, verify this budget against your actual setup before assuming your laptop charges at full speed while also powering external drives or a second monitor.",
-  "Gigabit Ethernet support genuinely matters for buyers in offices with unreliable Wi-Fi, worth confirming a docking station includes wired networking if this is a priority rather than assuming every KVM dock includes it by default.",
+  "Gigabit Ethernet support genuinely matters for buyers in offices with unreliable Wi-Fi, worth confirming a docking station includes wired networking if this is a priority rather than assuming every KVM dock includes it by default."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "10 min";
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     badge: "Best KVM Docking Station Overall",
     name: "AV Access iDock P10 KVM Docking Station 2 Monitors 2 PC, GbE, EDID, 65W PD",
     price: "$179.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41Du+XSAPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCXN5P3T?tag=deskfinds0d-20",
@@ -42,7 +42,7 @@ export const products: GuideProduct[] = [
     badge: "Best Docking Station for Laptop and Desktop",
     name: "AV Access Dual Monitor KVM Docking Station for Laptop & Desktop (iDock C10)",
     price: "$225.61",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31KfwfvqAqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CW2JGRN4?tag=deskfinds0d-20",
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     badge: "Best Value Docking Station Pick",
     name: "AV Access Docking Station KVM Switch 2 Monitors 2 Laptops, 4K Dual Display",
     price: "$169.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41NY0yTE9kL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DD3X51XS?tag=deskfinds0d-20",
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     badge: "Best Thunderbolt Docking Station Pick",
     name: "Thunderbolt 4 KVM Switch 3 Monitors 2 Laptops 4K@60Hz, Displaylink USB C Docking Station 3 Monitor",
     price: "$295.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/419nisVPE2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVMKWZRP?tag=deskfinds0d-20",
@@ -93,7 +93,7 @@ export const products: GuideProduct[] = [
     badge: "Best Premium Dual-Monitor Docking Pick",
     name: "AV Access KVM Switch Dock 2 Monitors 2 Laptops, 4K KVM Switch Dual Monitor",
     price: "$233.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41e02xrYlyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP4PD3SM?tag=deskfinds0d-20",
@@ -103,7 +103,7 @@ export const products: GuideProduct[] = [
     pros: ["4K resolution support across dual monitors", "KVM switching between two laptops without cable swapping", "Robust feature set for a demanding dual-laptop setup", "Works with any monitor pair you choose"],
     cons: ["Higher price than simpler single-laptop docking solutions", "Verify the total power budget against your full peripheral setup", "Requires separate monitors, not all-in-one"],
     bestFor: "Buyers wanting premium 4K dual-monitor docking with seamless two-laptop switching",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -111,7 +111,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Total power budget checked against laptop charging plus peripherals", description: "Checked whether a docking station's total power delivery budget is clearly documented, since this is shared between laptop charging and any connected peripherals." },
   { title: "Gigabit Ethernet support confirmed rather than assumed universal", description: "Confirmed gigabit Ethernet support explicitly rather than assuming every KVM docking station includes wired networking by default." },
   { title: "Thunderbolt versus standard USB-C bandwidth considered", description: "Considered the meaningful bandwidth difference between Thunderbolt 4 and standard USB-C docking stations for demanding multi-monitor setups." },
-  { title: "EDID emulation weighted for persistent window layout across reconnects", description: "Weighted EDID emulation support for buyers wanting their window layout and resolution to persist across laptop disconnect and reconnect cycles." },
+  { title: "EDID emulation weighted for persistent window layout across reconnects", description: "Weighted EDID emulation support for buyers wanting their window layout and resolution to persist across laptop disconnect and reconnect cycles." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -244,11 +244,11 @@ export const faq: FaqItem[] = [
   { q: "Is Thunderbolt worth it for a docking station?", a: "If your laptop supports Thunderbolt, yes, it offers meaningfully more bandwidth for demanding multi-monitor setups than standard USB-C." },
   { q: "Why does my window layout reset when I reconnect my laptop to the dock?", a: "This usually means the dock lacks EDID emulation, without it your resolution and window arrangement may not persist across reconnects." },
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers wanting a well-rounded docking station with explicit Ethernet, EDID, and power delivery" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers switching between two laptops on dual 4K displays At $169.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers switching between two laptops on dual 4K displays At under $170, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-usb-c-docking-monitors", title: "Best USB-C Docking Monitors (2026)" },
   { href: "/guide/best-thunderbolt-kvm-switches", title: "Best Thunderbolt KVM Switches (2026)" },
-  { href: "/guide/best-kvm-switches-for-a-laptop-and-desktop", title: "Best KVM Switches for a Laptop and Desktop (2026)" },
+  { href: "/guide/best-kvm-switches-for-a-laptop-and-desktop", title: "Best KVM Switches for a Laptop and Desktop (2026)" }
 ];

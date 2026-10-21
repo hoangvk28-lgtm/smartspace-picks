@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "LayBurst 8FT Conference Table measures 94.4 L x 47.2 W x30.7 H and is built around dual stability reinforcement structure, positioning it for 48 inch buyers specifically.\n\nLarge-Sized Conference Table is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 48 inch, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["94.4 L x 47.2 W x30.7 H table dimensions","Dual Stability Reinforcement Structure","Large-Sized Conference Table"],
     pros: ["Dual Stability Reinforcement Structure, confirmed directly in the listing's own spec details","Large-Sized Conference Table, confirmed directly in the listing's own spec details","Cable Holes and Adjustable Footpads, confirmed directly in the listing's own spec details"],
-    cons: ["At $199.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $200, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 48 inch",
   },
   {
@@ -126,7 +126,7 @@ export const products: GuideProduct[] = [
     description: "LayBurst 8FT Conference Table measures 94.4 L x 47.2 W x30.7 H and is built around dual stability reinforcement structure, positioning it for 48 inch buyers specifically.\n\nLarge-Sized Conference Table is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 48 inch, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["94.4 L x 47.2 W x30.7 H table dimensions","Dual Stability Reinforcement Structure","Large-Sized Conference Table"],
     pros: ["Dual Stability Reinforcement Structure, confirmed directly in the listing's own spec details","Large-Sized Conference Table, confirmed directly in the listing's own spec details","Cable Holes and Adjustable Footpads, confirmed directly in the listing's own spec details"],
-    cons: ["At $229.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $250, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 48 inch",
   },
   {
@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 8FT Conference Table measures 94.49 L x 47.24 W x 29.53 H and is built around 10 people conference table, positioning it for 48 inch buyers specifically.\n\nSUPER STURDY CONSTRUCTION is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 48 inch, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["94.49 L x 47.24 W x 29.53 H table dimensions","10 PEOPLE CONFERENCE TABLE","SUPER STURDY CONSTRUCTION"],
     pros: ["10 PEOPLE CONFERENCE TABLE, confirmed directly in the listing's own spec details","SUPER STURDY CONSTRUCTION, confirmed directly in the listing's own spec details","GROMMET HOLES & ADJUSTABLE FOOT PADS, confirmed directly in the listing's own spec details"],
-    cons: ["At $379.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $400, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 48 inch",
   }
 
@@ -210,40 +210,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $101.99",
+          "Under $110",
           "Tribesigns 31.5\" Square Conference Table"
         ],
         [
-          "Around $125.26",
+          "Under $130",
           "LITTLE TREE 39-Inch Square Conference Table for 4"
         ],
         [
-          "Around $199.99",
+          "Under $200",
           "LayBurst 8FT Conference Table"
         ],
         [
-          "Around $209.99",
+          "Under $250",
           "Tribesigns 5FT Small Conference Table for 4-6"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "LayBurst 8FT Conference Table"
         ],
         [
-          "Around $239.99",
+          "Under $250",
           "Tribesigns 31.5\" Square Table Set of 2"
         ],
         [
-          "Around $379.99",
+          "Under $400",
           "Tribesigns 8FT Conference Table"
         ],
         [
-          "Around $479.99",
+          "Under $500",
           "Tribesigns 31.5\" Square Table Set of 4"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -291,7 +291,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "LITTLE TREE 39-Inch Square Conference Table for 4 is aimed at buyers prioritizing 39\" square top, seats 4." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "LITTLE TREE 39-Inch Square Conference Table for 4 is aimed at buyers prioritizing 39\" square top, seats 4." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-10-ft-conference-tables","title":"Best 10 ft Conference Tables in 2026"},{"href":"/guide/best-6-ft-conference-tables","title":"Best 6 ft Conference Tables in 2026"},{"href":"/guide/best-8ft-conference-tables","title":"Best 8ft Conference Tables in 2026"}];

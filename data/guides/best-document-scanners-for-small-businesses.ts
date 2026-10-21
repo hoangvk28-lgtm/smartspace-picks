@@ -5,7 +5,7 @@ export const metaDescription = "8 scanners we evaluated for small business use, 
 export const mainKeyword = "document scanner for small business";
 export const introParagraphs = [
   "Small businesses vary enormously in real monthly scan volume, a 3-person consulting firm versus a 15-person accounting office. Matching duty cycle rating to realistic volume matters more than generic 'business' labeling, we call out each pick's actual sustained capacity rather than just its ADF sheet count.",
-  "Also worth knowing: businesses adopting document management software (DocuWare, Laserfiche) that requires ISIS drivers may face an additional $50-200 licensing cost per scanner not included in the base purchase price, a hidden operating cost most business-scanner content omits.",
+  "Also worth knowing: businesses adopting document management software (DocuWare, Laserfiche) that requires ISIS drivers may face an additional $50-200 licensing cost per scanner not included in the base purchase price, a hidden operating cost most business-scanner content omits."
 ];
 export const lastUpdated = "2026-07-29";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Small Business Pick",
     name: "Epson Workforce ES-400 II High-Speed Color Duplex Desktop Document Scanner",
     price: "$299.99",
-    rating: "4.5 stars from 1,226 Amazon ratings",
-    reviews: "1,226 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41rW4JApydL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08P3YVH3X?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Volume Small Business Pick",
     name: "ScanSnap iX2400 High-Speed One-Touch Button Color Document Scanner",
     price: "$349.99",
-    rating: "4.5 stars from 991 Amazon ratings",
-    reviews: "991 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41LZ7HiXsPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FWGTB3S3?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best for the Smallest Teams",
     name: "Brother DS-640 Compact Mobile Document Scanner",
     price: "$134.99",
-    rating: "4.3 stars from 6,522 Amazon ratings",
-    reviews: "6,522 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Bx7Z39uKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B083R36CY4?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Cloud-Connected Small Business Pick",
     name: "Canon imageFORMULA R40II Office Document Scanner",
     price: "$253.00",
-    rating: "4.3 stars from 37 Amazon ratings",
-    reviews: "37 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41d2vOL+ThL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GJWWZ77J?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Plug-and-Scan Simplicity",
     name: "Canon imageFORMULA R30 Office Document Scanner",
     price: "$259.00",
-    rating: "4.1 stars from 350 Amazon ratings",
-    reviews: "350 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31j5kwbaiFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BWNTNGN5?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Office-Class Alternative",
     name: "Canon imageFORMULA DR-C225 II Office Document Scanner",
     price: "$267.00",
-    rating: "4.1 stars from 442 Amazon ratings",
-    reviews: "442 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/418QNsyyrDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07FPQZ6H8?tag=deskfinds0d-20",
     description:
@@ -127,8 +127,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Small Business Pick",
     name: "ScanSnap iX1300 Wireless or USB Double-Sided Color Document Scanner, White",
     price: "$279.99",
-    rating: "4.2 stars from 1,768 Amazon ratings",
-    reviews: "1,768 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41yWYf2uT0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FX5DWBK?tag=deskfinds0d-20",
     description:
@@ -144,8 +144,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wireless Small Business Pick",
     name: "Epson Workforce ES-580W Wireless Color Duplex Desktop Document Scanner",
     price: "$379.99",
-    rating: "4.3 stars from 5,857 Amazon ratings",
-    reviews: "5,857 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Ty0waBx4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KQZWPYN?tag=deskfinds0d-20",
     description:
@@ -154,14 +154,14 @@ export const products: GuideProduct[] = [
     pros: ["Largest review base among the wireless picks in this guide", "Wireless connectivity useful for flexible small-office layouts", "TWAIN driver for document management compatibility", "Searchable PDF OCR included"],
     cons: ["Highest price in this guide", "Multi-user network folder access needs IT configuration", "ISIS licensing cost not addressed"],
     bestFor: "Small businesses who want wireless flexibility with a proven track record at scale",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Duty cycle matched to realistic team size, not generic 'business' labeling", description: "Weighed each pick's realistic sustained capacity against small-team volume ranges (2-3 person consulting firm vs. 10-15 person office) rather than treating all 'business' scanners as one tier." },
   { title: "ISIS driver licensing cost disclosure", description: "Flagged that businesses adopting ISIS-dependent document management software (DocuWare, Laserfiche) may face an additional a competitive price-200 licensing cost per scanner not included in the base price, none of the picks here address this directly." },
-  { title: "Multi-user network scan-to-folder setup complexity", description: "Noted that shared scan-to-folder access across several employees typically requires IT-level network folder permissions setup, a real complexity factor invisible in single-user testing." },
+  { title: "Multi-user network scan-to-folder setup complexity", description: "Noted that shared scan-to-folder access across several employees typically requires IT-level network folder permissions setup, a real complexity factor invisible in single-user testing." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -294,11 +294,11 @@ export const faq: FaqItem[] = [
   { q: "Can multiple employees scan to the same shared network folder easily?", a: "It typically requires IT-level setup (network folder permissions, SMB configuration), even on scanners marketed as easy to use. Cloud-connected picks in this guide reduce this complexity for cloud destinations specifically." },
   { q: "Do these scanners meet compliance requirements for financial or HR document retention?", a: "Not confirmed for any pick in this guide. Regulated small businesses (health, finance, legal-adjacent) should verify encryption, audit trail metadata, and PDF/A compliance directly with the manufacturer before relying on any of these for compliance-sensitive scanning." },
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "Small teams who want reliable duplex batch scanning without enterprise-tier pricing" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Genuinely small teams (2-3 people) who don't want to overpay for enterprise-tier capacity At $134.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Genuinely small teams (2-3 people) who don't want to overpay for enterprise-tier capacity At under $140, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-document-scanners-for-accountants", title: "Best Document Scanners for Accountants (2026)" },
   { href: "/guide/best-document-scanners-for-computers", title: "Best Document Scanners for Computers (2026)" },
-  { href: "/guide/best-business-card-scanners", title: "Best Business Card Scanners (2026)" },
+  { href: "/guide/best-business-card-scanners", title: "Best Business Card Scanners (2026)" }
 ];

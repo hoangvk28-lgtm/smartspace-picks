@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Complete whole-home mesh coverage out of the box", "NETGEAR Orbi 370 Series WiFi 7 Mesh System (3-Pack)"],
         ["The fastest single-router tri-band speeds", "TP-Link Archer BE600 Tri-Band WiFi 7 Router"],
-        ["Tri-band speed at the lowest price here", "ASUS RT-BE90U Tri-Band WiFi 7 Router"],
+        ["Tri-band speed at the lowest price here", "ASUS RT-BE90U Tri-Band WiFi 7 Router"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $245", "ASUS RT-BE90U ($239.99) or D-Link R95 ($244.96)"],
-        ["$250-$300", "TP-Link Archer BE600 ($249.99) or NETGEAR Orbi 370 Mesh ($299.99)"],
+        ["Under $245", "ASUS RT-BE90U (under $250) or D-Link R95 (under $250)"],
+        ["$250-$300", "TP-Link Archer BE600 (under $250) or NETGEAR Orbi 370 Mesh (under $300)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "One Powerful Router vs a Complete Mesh System",
     cards: [
       { label: "One Powerful Router (TP-Link BE600, ASUS RT-BE90U, D-Link R95)", text: "Concentrates maximum speed into a single unit, best for a smaller or single-story home where one strong signal source reaches every room." },
-      { label: "Complete Mesh System (NETGEAR Orbi 370)", text: "Spreads three units throughout your home for consistent coverage across multiple floors or a larger, more spread-out layout, at the cost of lower per-unit peak speed." },
+      { label: "Complete Mesh System (NETGEAR Orbi 370)", text: "Spreads three units throughout your home for consistent coverage across multiple floors or a larger, more spread-out layout, at the cost of lower per-unit peak speed." }
     ],
     note: "If you've never had dead zone problems with a single router, a powerful tri-band router like the TP-Link BE600 is likely sufficient. If you have, the complete Orbi mesh system is the more reliable fix.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your wired connection needs", "Recommended pick"],
       rows: [
         ["A future-proof 10 Gbps port", "TP-Link Archer BE600 Tri-Band WiFi 7 Router"],
-        ["Solid multi-gig ports without needing 10 Gbps", "ASUS RT-BE90U or D-Link R95"],
+        ["Solid multi-gig ports without needing 10 Gbps", "ASUS RT-BE90U or D-Link R95"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Visible Living Room Placement Specifically",
     cards: [
       { label: "Look for", text: "A router with a stated design focus, since most routers are built for function over form and can look out of place in a visible living space." },
-      { label: "In this comparison", text: "The D-Link BE9500 R95 specifically markets its sculptured-wing design and hidden venting as a living-room-friendly aesthetic choice." },
+      { label: "In this comparison", text: "The D-Link BE9500 R95 specifically markets its sculptured-wing design and hidden venting as a living-room-friendly aesthetic choice." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You have a larger or multi-story home needing genuine whole-home mesh coverage, where the NETGEAR Orbi 370 Series delivers a complete 3-unit system out of the box." },
-      { label: "Save if", text: "A single fast tri-band router covers your space, where the ASUS RT-BE90U delivers genuine tri-band speed at the lowest price in this comparison." },
+      { label: "Save if", text: "A single fast tri-band router covers your space, where the ASUS RT-BE90U delivers genuine tri-band speed at the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

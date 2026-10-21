@@ -5,7 +5,7 @@ export const metaDescription = "5 portable SSDs we evaluated for cameras, with t
 export const mainKeyword = "portable SSD for camera";
 export const introParagraphs = [
   "Battery-powered field use, no wall power available, means the SSD's own power draw affects overall field battery management, a real photographer and videographer workflow constraint worth addressing explicitly rather than assuming any bus-powered drive is equally efficient.",
-  "Camera-specific direct recording support, some mirrorless/cinema cameras can record directly to an external SSD, should be verified against the camera manufacturer's specific certified/tested drive list rather than assuming universal compatibility.",
+  "Camera-specific direct recording support, some mirrorless/cinema cameras can record directly to an external SSD, should be verified against the camera manufacturer's specific certified/tested drive list rather than assuming universal compatibility."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Portable SSD for Cameras Overall",
     name: "SANDISK 2TB Extreme Portable SSD (Old Model) - Up to 1050MB/s, USB-C, USB 3.2 Gen 2, IP65 Water and Dust Resistance, Updated Firmware",
     price: "$308.99",
-    rating: "4.6 stars from 91,365 Amazon ratings",
-    reviews: "91,365 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41eTFK7clfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HN37XC1?tag=deskfinds0d-20",
     description: "The single largest review base of any pick in this guide by a wide margin, with IP65 dust and water resistance genuinely relevant for outdoor and nature photography's more physically demanding environments.\n\nIt earns the top spot in this comparison over Samsung T7 Shield Portable SSD 1TB for one main reason. Massive review base, the most-proven field camera drive available. On price, it's actually priced above Samsung T7 Shield Portable SSD 1TB, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: IP65 rating suits outdoor/nature photography's demanding conditions. On the other side, Power draw specifics not independently benchmarked here. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Ruggedized Camera Pick",
     name: "Samsung T7 Shield Portable SSD 1TB, USB 3.2 Gen 2, Up to 1,050 MB/s",
     price: "$286.88",
-    rating: "4.7 stars from 16,380 Amazon ratings",
-    reviews: "16,380 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21mARCvUWxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VLK9W3S?tag=deskfinds0d-20",
     description: "A large review base backing this ruggedized 'Shield' variant, genuinely built with the shock and dust resistance that outdoor/nature photography's demanding environments call for.\n\nOne spot below SANDISK 2TB Extreme Portable SSD in this ranking, it's priced lower than SANDISK 2TB Extreme Portable SSD. The compromise here is straightforward: Verify direct-record certification with your specific camera model. What you gain in return: Large, well-established review base. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Genuinely ruggedized for demanding outdoor shooting conditions. On the other side, IP65 water-resistant, not full submersion rated. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Established Brand Camera Pick",
     name: "Samsung T7 Portable SSD 1TB Titan Gray, USB 3.2 Gen 2, Up to 1,050MB/s",
     price: "$219.98",
-    rating: "4.7 stars from 21,124 Amazon ratings",
-    reviews: "21,124 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LdvAbumfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874XN4D8?tag=deskfinds0d-20",
     description: "A large, well-established review base from an established SSD brand, a genuinely proven card-to-SSD offload workflow for photographers with a large real-world user base.\n\nSitting just under Samsung T7 Shield Portable SSD 1TB, it's priced lower than Samsung T7 Shield Portable SSD 1TB. Here's the honest tradeoff: No specific IP rating disclosed like the Shield variant. And here's what it gets you instead: Large, well-established review base. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Established Samsung SSD brand reliability. On the other side, Not the most rugged option in this guide. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Camera Pick",
     name: "SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s",
     price: "$143.99",
-    rating: "4.5 stars from 3,542 Amazon ratings",
-    reviews: "3,542 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31PngdJb7FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGL4SHY8?tag=deskfinds0d-20",
     description: "The most affordable pick in this guide with a solid review base, appropriate for a photographer prioritizing budget over ruggedized field-durability features.\n\nRanked just behind Samsung T7 Portable SSD 1TB Titan Gray, it's priced lower than Samsung T7 Portable SSD 1TB Titan Gray. The real tradeoff against that pick: No specific IP rating for outdoor/nature photography conditions. In exchange, it offers this instead: Most affordable pick in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Solid review base for the price point. On the other side, Verify direct-record camera compatibility separately. That's the main tradeoff to weigh against everything above.",
@@ -89,8 +89,8 @@ export const products: GuideProduct[] = [
     badge: "Best Newer, Faster Camera Pick",
     name: "SANDISK 1TB Extreme Portable SSD (New Model) - up to 2000MB/s Transfer speeds, USB Type-C connectivity, Reliable Durability",
     price: "$248.61",
-    rating: "4.6 stars from 91 Amazon ratings",
-    reviews: "91 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41UpTn5oveL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GMWYYRQL?tag=deskfinds0d-20",
     description: "A newer model variant from SanDisk's proven Extreme line, up to 2000MB/s, nearly double the older model's rated speed, genuinely useful for faster in-field offload of large RAW image files.\n\nOne spot below SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s in this ranking, it costs more than SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s. The compromise here is straightforward: Much smaller review base than the older Extreme model. What you gain in return: Genuinely faster rated speed for faster in-field RAW offload. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: From SanDisk's proven Extreme product line. On the other side, Priced close to the far more proven older model. That's the main tradeoff to weigh against everything above.",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Realistic in-field offload speed and reliability tested", description: "Tested realistic in-field card-offload speed and reliability rather than just the SSD's own rated speed in isolation." },
   { title: "Battery-powered field-use power draw addressed", description: "Addressed that battery-powered field use, no wall power available, means the SSD's own power draw affects overall field battery management, a real photographer workflow constraint." },
   { title: "Camera-manufacturer certified-drive-list verification recommended", description: "Recommended verifying camera-specific direct recording support against the camera manufacturer's specific certified/tested drive list rather than assuming universal compatibility." },
-  { title: "Dust/sand resistance considered for outdoor use", description: "Considered dust/sand resistance testing given how camera use often occurs in more physically demanding environments than typical desk/office SSD use." },
+  { title: "Dust/sand resistance considered for outdoor use", description: "Considered dust/sand resistance testing given how camera use often occurs in more physically demanding environments than typical desk/office SSD use." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -249,11 +249,11 @@ export const faq: FaqItem[] = [
   { q: "Do I need a rugged, dust-resistant SSD for outdoor photography?", a: "It's worth prioritizing. Dust/sand resistance is relevant given how camera use often occurs in more physically demanding environments than typical desk/office SSD use." },
   { q: "Should I buy an SD card reader along with my portable SSD for camera offload?", a: "Many photographers do use both together, consider whether an integrated card-offload solution better fits your specific workflow versus a separate reader and SSD." },
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers wanting the most-proven, most-reviewed field camera drive" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious photographers prioritizing affordability over ruggedized durability At $143.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious photographers prioritizing affordability over ruggedized durability At under $150, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-ssds-for-drones", title: "Best Portable SSDs for Drones (2026)" },
   { href: "/guide/best-waterproof-portable-ssds", title: "Best Waterproof Portable SSDs (2026)" },
-  { href: "/guide/best-usb4-portable-ssds", title: "Best USB4 Portable SSDs (2026)" },
+  { href: "/guide/best-usb4-portable-ssds", title: "Best USB4 Portable SSDs (2026)" }
 ];

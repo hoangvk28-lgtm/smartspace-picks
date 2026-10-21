@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $259.99",
+          "Under $300",
           "Tribesigns 63-Inch Reception Desk with LED Lights"
         ],
         [
-          "Around $476.99",
+          "Under $500",
           "87\" 2-Person Reception Desk with Patented Double Top"
         ],
         [
-          "Around $998.88",
+          "Under $1,000",
           "79\" 2-Person Reception Desk with Counter"
         ],
         [
-          "Around $1,259.99",
+          "Under $1,300",
           "78.7\" 2-Person Reception Desk with Counter"
         ],
         [
-          "Around $1,259.99",
+          "Under $1,300",
           "78.7\" 2-Person Reception Desk with Counter"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "79\" 2-Person Reception Desk with Counter is aimed at buyers prioritizing 79\" desk, ~2-meter counter for 2 staff." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "79\" 2-Person Reception Desk with Counter is aimed at buyers prioritizing 79\" desk, ~2-meter counter for 2 staff." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-2-person-reception-desks","title":"best-2-person-reception-desks"},{"href":"/guide/best-two-person-reception-desks","title":"best-two-person-reception-desks"},{"href":"/guide/best-3-person-reception-desks","title":"best-3-person-reception-desks"}];

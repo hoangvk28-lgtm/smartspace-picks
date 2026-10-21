@@ -126,7 +126,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 6.5 FT Conference Room Table measures 6.5 FT and is built around spacious conference table, positioning it for gray buyers specifically.\n\nRobust Construction is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for gray, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["6.5 FT table dimensions","Spacious Conference Table","Robust Construction"],
     pros: ["Spacious Conference Table, confirmed directly in the listing's own spec details","Robust Construction, confirmed directly in the listing's own spec details","Multipurpose Use, confirmed directly in the listing's own spec details"],
-    cons: ["At $189.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $190, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for gray",
   },
   {
@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 6.5FT Conference Table for 6-8 People measures 6.5FT and is built around robust metal frame for enhanced stability, positioning it for gray buyers specifically.\n\nPremium Scratch-Resistant Desktop is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for gray, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["6.5FT table dimensions","Robust Metal Frame for Enhanced Stability","Premium Scratch-Resistant Desktop"],
     pros: ["Robust Metal Frame for Enhanced Stability, confirmed directly in the listing's own spec details","Premium Scratch-Resistant Desktop, confirmed directly in the listing's own spec details","Sleek Modern Aesthetic for Any Workspace, confirmed directly in the listing's own spec details"],
-    cons: ["At $189.41, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $190, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for gray",
   }
 
@@ -210,40 +210,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $179.99",
+          "Under $180",
           "Tribesigns 6FT Boat-Shaped Conference Table"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "Tribesigns 6FT Rectangle Conference Table"
         ],
         [
-          "Around $189.41",
+          "Under $190",
           "Tribesigns 6.5FT Conference Table for 6-8 People"
         ],
         [
-          "Around $189.99",
+          "Under $190",
           "Tribesigns 47-Inch Round Conference Table for 4-6"
         ],
         [
-          "Around $189.99",
+          "Under $190",
           "Tribesigns 6.5 FT Conference Room Table"
         ],
         [
-          "Around $369.99",
+          "Under $400",
           "Tribesigns 10.5FT Conference Table"
         ],
         [
-          "Around $379.99",
+          "Under $400",
           "Tribesigns 8FT Conference Table for 10"
         ],
         [
-          "Around $381.94",
+          "Under $400",
           "Flash Furniture 6-Foot Oval Conference Table"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -291,7 +291,7 @@ export const faq = [
     "a": "Not inherently. High-density MDF and particle board with a laminate or melamine finish are standard in this category and hold up well to daily commercial use. Solid wood, veneer over engineered wood, or steel-reinforced builds cost more and matter most where long-term durability or a premium look is the priority."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Tribesigns 6FT Boat-Shaped Conference Table is aimed at buyers prioritizing 70.86\"l x 35.43\"w x 29.52\"h boat-shaped top." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Tribesigns 6FT Boat-Shaped Conference Table is aimed at buyers prioritizing 70.86\"l x 35.43\"w x 29.52\"h boat-shaped top." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-modern-conference-tables","title":"Best Modern Conference Tables in 2026"},{"href":"/guide/best-black-conference-tables","title":"Best Black Conference Tables in 2026"},{"href":"/guide/best-white-conference-tables","title":"Best White Conference Tables in 2026"}];

@@ -12,7 +12,7 @@ export const howToMeasureDeskForMonitorArmGuide: Guide = {
     "monitor arm desk thickness",
     "monitor arm clamp clearance",
     "measure desk for clamp mount",
-    "monitor arm grommet vs clamp",
+    "monitor arm grommet vs clamp"
   ],
   heroImage: "https://images.unsplash.com/photo-1632064824547-e77c36851495?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1632064824547-e77c36851495?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const howToMeasureDeskForMonitorArmGuide: Guide = {
     "best-monitor-arm-desk-mounts",
     "monitor-stands-small-desks",
     "best-docking-stations-for-desk-setup",
-    "best-standing-desk-for-dual-monitors",
+    "best-standing-desk-for-dual-monitors"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const howToMeasureDeskForMonitorArmGuide: Guide = {
       question: "Should I measure my monitor before or after measuring the desk?",
       answer:
         "Measure both, since they answer two different compatibility questions: your desk's edge thickness and depth determine whether the mount physically attaches, while your monitor's weight and VESA pattern determine whether the arm can hold and connect to your specific screen.",
-    },
+    }
   ],
   sections: [
     {
@@ -85,6 +85,6 @@ Both clamp and grommet mounts extend some hardware below the desk surface, so ch
     {
       heading: "What to Do If Nothing Fits",
       body: `If your desk edge is outside every clamp mount's stated range and has no usable grommet hole, a freestanding monitor arm with its own weighted base (rather than a clamp or grommet mount) is the fallback option, since it sits on top of the desk surface rather than attaching to the edge at all.`,
-    },
+    }
   ],
 };

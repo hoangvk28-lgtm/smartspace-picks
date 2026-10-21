@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small safes";
 export const introParagraphs = [
   "Small safes span genuinely different protection categories: basic steel security boxes, hideable fire-resistant safes, and bolt-down units all get grouped under the same search term. We classified each pick by its actual protection type first rather than ranking them on one undifferentiated scale.",
-  "None of these listings had independently verified burglary-resistance ratings, so we're distinguishing basic theft deterrence, which most picks here offer, from certified burglary resistance, which none of them claim.",
+  "None of these listings had independently verified burglary-resistance ratings, so we're distinguishing basic theft deterrence, which most picks here offer, from certified burglary resistance, which none of them claim."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -62,9 +62,9 @@ export const products: GuideProduct[] = [
     reviews: "22969",
     imageUrl: "https://m.media-amazon.com/images/I/413jIpPxMOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B078MYJYD5?tag=deskfinds0d-20",
-    description: "Nearly 23,000 reviews is an enormous sample size for a safe, and the spec sheet explains why it's stayed popular: reinforced solid steel wall construction, dual steel door locking bolts, and a corrosion-resistant powder coat finish that holds up better than painted alternatives in a humid closet or garage. It also includes a magnetic auto-locking mechanism, so the door locks itself the moment you close it rather than requiring you to manually engage the bolts every time. At 9.05 x 6.69 x 6.69 inches exterior (6.29 x 8.9 x 5.12 interior), it's genuinely compact, this is meant for cash, a passport, or jewelry, not binders or a laptop. Two emergency keys ship in the box for backup access if you forget your code, and pre-drilled mounting holes with included bolts mean wall or floor anchoring is possible out of the box rather than needing separately purchased hardware. Worth calling out specifically: magnetic auto-locking door means you can't accidentally leave it unlocked. The catch is small interior, verify dimensions against your specific items before ordering.",
+    description: "It also includes a magnetic auto-locking mechanism, so the door locks itself the moment you close it rather than requiring you to manually engage the bolts every time. At 9.05 x 6.69 x 6.69 inches exterior (6.29 x 8.9 x 5.12 interior), it's genuinely compact, this is meant for cash, a passport, or jewelry, not binders or a laptop. Two emergency keys ship in the box for backup access if you forget your code, and pre-drilled mounting holes with included bolts mean wall or floor anchoring is possible out of the box rather than needing separately purchased hardware. Worth calling out specifically: magnetic auto-locking door means you can't accidentally leave it unlocked. The catch is small interior, verify dimensions against your specific items before ordering.",
     specs: ["0.2 cu ft (9.05×6.69×6.69 in ext, 6.29×8.9×5.12 in int)", "Dual steel locking bolts, magnetic auto-lock door", "Pre-drilled mounting holes + bolts included"],
-    pros: ["By far the largest review base in this comparison, at nearly 23,000 ratings", "Magnetic auto-locking door means you can't accidentally leave it unlocked", "Mounting bolts included, no separate hardware purchase needed"],
+    pros: [ "Magnetic auto-locking door means you can't accidentally leave it unlocked", "Mounting bolts included, no separate hardware purchase needed", "Dual steel locking bolts"],
     cons: ["Small interior, verify dimensions against your specific items before ordering", "No fire or water resistance claim"],
     bestFor: "Buyers wanting the single most proven small safe with self-locking convenience.",
   },
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0CRH68745?tag=deskfinds0d-20",
     description: "The same manufacturer and 4.6-rating track record as our top pick, scaled down to a 9.06 x 6.69 x 6.69 inch footprint (8.98 x 6.46 x 6.61 interior) for buyers who don't need the full 0.6 cubic foot capacity. It carries over the same SPHC steel body, two 0.71-inch reinforcement bolts, and hidden hinges, and it keeps the same USB-C emergency power interface for when an external power bank can revive a dead battery instead of leaving you locked out.\n\nThe package includes two emergency keys, two expansion bolts for mounting, a floor mat, and a user manual, essentially the same accessory bundle as the larger Bonsaii model. This specific listing hadn't accumulated a confirmed review count in our data pull, so weigh the strong Bonsaii track record on the sister product against the fact that this exact SKU is comparatively unproven.\n\nThe standout detail is that full accessory bundle: keys, mounting bolts, floor mat, manual. Balancing that out, no confirmed review count for this specific listing yet.",
     specs: ["0.23 cu ft (9.06×6.69×6.69 in ext, 8.98×6.46×6.61 in int)", "SPHC steel, two 0.71-inch reinforcement bolts, hidden hinges", "USB-C emergency power backup, same as the larger Bonsaii pick"],
-    pros: ["Same trusted Bonsaii construction and USB-C backup access in a smaller footprint", "Full accessory bundle: keys, mounting bolts, floor mat, manual"],
+    pros: ["Same trusted Bonsaii construction and USB-C backup access in a smaller footprint", "Full accessory bundle: keys, mounting bolts, floor mat, manual", "USB-C emergency power backup"],
     cons: ["No confirmed review count for this specific listing yet"],
     bestFor: "Buyers wanting the Bonsaii brand's backup-power convenience without the larger capacity.",
   },
@@ -128,7 +128,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B00CSMV7BE?tag=deskfinds0d-20",
     description: "This is the only safe in our lineup with pre-drilled mounting holes and all hardware included specifically for bolting to a floor or shelf, from a brand (Honeywell) with a longer institutional track record than most of the other manufacturers here. The cabinet and door are solid steel construction, backed by two solid steel live lock bolts and a programmable digital keypad, with two emergency override keys included in case the keypad ever fails. The scratch-resistant black powder coat finish is a small but real detail: cheaper powder coats chip and expose bare steel to rust over time, and Honeywell's listing specifically calls this out as scratch resistant rather than just painted. At a competitive price, this is the most expensive pick in our top tier, but the price reflects genuine anti-removal capability none of the cheaper picks confirm as clearly: a determined thief can't simply pick the safe up and walk away once it's bolted down. Established safe brand with a longer institutional track record. On the other hand, highest price in this comparison. Both are worth keeping in mind before deciding.",
     specs: ["Bolt-down mounting hardware + pre-drilled holes included", "Solid steel cabinet and door, 2 solid steel live lock bolts", "Scratch-resistant black powder coat finish, 2 emergency keys"],
-    pros: ["Only pick with confirmed factory bolt-down hardware included", "Established safe brand with a longer institutional track record"],
+    pros: ["Only pick with confirmed factory bolt-down hardware included", "Established safe brand with a longer institutional track record", "Two solid steel live lock bolts"],
     cons: ["Highest price in this comparison", "Bolting down requires suitable flooring or shelving to anchor into"],
     bestFor: "Buyers wanting genuine anti-removal security through factory-supported anchoring, not just a lock.",
   },
@@ -144,10 +144,10 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0DWMHJGHP?tag=deskfinds0d-20",
     description: "At 6.7 x 9.0 x 6.7 inches and 0.236 cubic feet, this is sized to sit in a drawer, cabinet, nightstand, or shelf without taking up much room, and the listing is explicit that emergency keys should never be stored inside the safe itself, a small but genuinely useful reminder for households setting this up for the first time. Access works two ways: digital password entry, or a documented manual process (remove the key cover on the left panel, turn the key counterclockwise while holding it, then rotate the knob clockwise).\n\nConstruction uses heavy-duty steel with a corrosion-resistant coating and two solid anti-pry bolts, and the package includes two emergency keys, two mounting bolts, a scratch-resistant carpet liner, and a manual, the same accessory completeness as the pricier picks here despite the lower price. While marketed toward kids, nothing about the construction is actually scaled down or simplified for that use case, it's the same security-grade hardware as the adult-focused picks, just positioned as a good first safe for teaching responsibility around a code and a key.\n\nA genuine advantage here is that complete accessory bundle (keys, mounting bolts, liner, manual) at a lower price than comparable picks. The tradeoff is that smaller review base than the top three picks.",
     specs: ["0.236 cu ft (6.7×9.0×6.7 in)", "2 anti-pry steel bolts, corrosion-resistant coating", "2 access methods: digital password or manual key turn"],
-    pros: ["Full-strength steel and bolt construction despite kid-focused marketing", "Complete accessory bundle (keys, mounting bolts, liner, manual) at a lower price than comparable picks"],
+    pros: ["Full-strength steel and bolt construction despite kid-focused marketing", "Complete accessory bundle (keys, mounting bolts, liner, manual) at a lower price than comparable picks", "Two anti-pry steel bolts"],
     cons: ["Smaller review base than the top three picks", "No fire or water resistance claim"],
     bestFor: "Households wanting a genuinely secure (not toy-grade) first safe for kids, or general dual code/key access.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Classified protection type before ranking", description: "We separated basic steel security boxes (theft deterrence only) from any pick claiming fire or water resistance, and flagged bolt-down capability as a distinct anti-removal feature rather than assuming all small safes offer equivalent protection." },
   { title: "Distinguished theft deterrence from certified burglary resistance", description: "None of these listings claim a certified UL burglary rating. We're calling this basic theft deterrence, useful against casual access but not verified against determined forced entry." },
   { title: "Weighed review base heavily given the wide spread", description: "Review counts here range from 0 to nearly 23,000. We treated that spread as a meaningful confidence signal, not a secondary detail." },
-  { title: "Flagged bolt-down support as a genuine anti-removal differentiator", description: "Only one pick confirms factory bolt-down installation. A small, light safe without anchoring can simply be carried away regardless of how strong its lock is." },
+  { title: "Flagged bolt-down support as a genuine anti-removal differentiator", description: "Only one pick confirms factory bolt-down installation. A small, light safe without anchoring can simply be carried away regardless of how strong its lock is." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -282,20 +282,21 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review count and rating together, not rating alone",
-    "explanation": "A 4.8-star rating from 12 reviews carries far less evaluation confidence than a 4.5-star rating from several thousand, since a small sample can be skewed by a handful of early, enthusiastic buyers before any long-term reliability issues would show up in later reviews.\n\nThis matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
+    "explanation": "This matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
   }
 ];
 
 export const faq: FaqItem[] = [
-  { q: "What's the best overall small safe?", a: "The Yuanshikj Small Steel Security Safe Box, with by far the largest confirmed review base in this comparison at nearly 23,000 reviews." },
+  
   { q: "Do any of these have fire protection?", a: "No, all eight picks here are basic steel security safes without a claimed fire or water rating. See our dedicated small fireproof safes guide for that protection type." },
   { q: "Is there an option that bolts to the floor?", a: "Yes, the Honeywell Bolt Down Small Safe Box is the only pick here with confirmed factory bolt-down support." },
   { q: "What's the largest capacity option?", a: "The Bonsaii Safe Box with Electronic Keypad at 0.6 cubic feet." },
   { q: "Is there a kid-friendly option?", a: "Yes, the PATRON Small Safe Box is explicitly marketed for kids alongside general home use." },
+  { q: "How should I position a small safe so it is hard to find?", a: "Choose a spot that is not obvious, such as a closet shelf, the back of a cabinet, or a low drawer. Anchor it if the model has mounting holes, since the Honeywell and Yuanshikj safes include pre-drilled holes. A hidden, anchored safe is much harder to steal than one sitting in plain view." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-safes-for-home", title: "Best Small Safes for Home (2026)" },
   { href: "/guide/best-small-fireproof-safes", title: "Best Small Fireproof Safes (2026)" },
-  { href: "/guide/best-small-safes-that-bolt-to-the-floor", title: "Best Small Safes That Bolt to the Floor (2026)" },
+  { href: "/guide/best-small-safes-that-bolt-to-the-floor", title: "Best Small Safes That Bolt to the Floor (2026)" }
 ];

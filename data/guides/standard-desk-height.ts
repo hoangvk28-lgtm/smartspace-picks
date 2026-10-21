@@ -13,7 +13,7 @@ export const standardDeskHeightGuide: Guide = {
     "ergonomic desk height",
     "correct desk height by height",
     "how to measure desk height",
-    "standing desk height",
+    "standing desk height"
   ],
   heroImage:
     "/images/guides/standard-desk-height/01-standard-desk-height-hero.webp",
@@ -27,7 +27,7 @@ export const standardDeskHeightGuide: Guide = {
     "best-standing-desk-under-300",
     "best-standing-desk-under-500",
     "best-ergonomic-chair-under-300",
-    "ergonomic-chair-vs-gaming-chair",
+    "ergonomic-chair-vs-gaming-chair"
   ],
   faq: [
     {
@@ -54,7 +54,7 @@ export const standardDeskHeightGuide: Guide = {
       question: "What is the ergonomic desk height for standing?",
       answer:
         "For standing use, the correct height is your standing elbow height, typically 40-45 inches for users between 5'7\" and 6'1\". Verify your specific measurement using the formula: height in inches x 0.63 = approximate standing desk height in inches.",
-    },
+    }
   ],
   sections: [
     {
@@ -166,6 +166,6 @@ Most standing desks have a height range of approximately 27"-47". Users under 5'
 - Replace with an adjustable standing desk
 
 **The standing desk solution:** If you find yourself constantly adjusting because no fixed height works throughout the day, an adjustable standing desk removes the problem entirely. See our [Best Standing Desks Under $300](/guide/best-standing-desk-under-300) guide for options starting at ~$200, or [Best Standing Desks Under $500](/guide/best-standing-desk-under-500) for dual-motor and L-shaped options.`,
-    },
+    }
   ],
 };

@@ -141,7 +141,7 @@ export const products: GuideProduct[] = [
     pros: ["36\" fireplace insert with adjustable flame and heat", "68.9\" width comfortably exceeds a 75\" TV's base", "Three cable cutouts for TV and fireplace wiring", "RGB LED accents add ambient lighting"],
     cons: ["Ships in two packages that may arrive separately", "Barn doors can block IR signals when fully closed", "Fireplace heater adds ongoing electrical draw"],
     bestFor: "Living rooms that want a supplemental heat source built into a stand sized for large screens.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -173,10 +173,10 @@ export const faq: { q: string; a: string }[] = [
   { q: "Does a wide TV stand also mount my 75 inch TV to the wall?", a: "No. Every stand in this guide supports the TV resting on its top surface rather than mounting it to the wall. If you want the TV wall-mounted with a console for media storage below, you need a separate wall mount rated for the TV's VESA pattern and weight, installed into wall studs, independent of the stand." },
   { q: "Will an electric fireplace TV stand work safely under a 75 inch TV?", a: "Yes, when sized correctly, like the jiteentarou pick in this guide which is rated for TVs from 65 to 80 inches. Check the fireplace insert's rated heat coverage and keep the compartment ventilated according to the manual, since the unit sits directly beneath a large, heat-sensitive display. Also plan for the stand and fireplace insert to arrive in separate packages." },
   { q: "Can enclosed cabinet doors block my remote from reaching a streaming box?", a: "Yes. Solid barn doors and closed wood cabinet fronts can attenuate infrared remote signals to devices stored behind them. The ALLSTAND pick in this guide uses an open-structure acrylic door to let signals through, and open shelving on several other picks avoids the issue entirely. If your equipment relies on IR control, prioritize open or acrylic-front storage over solid enclosed cabinets." },
-  { q: "Is a wider entertainment center, like a 105 inch set, worth it for just a 75 inch TV?", a: "It depends on your wall space and storage needs. A 105 inch set rated for TVs up to 100 inches, like the largest pick in this guide, gives a 75 inch TV substantial width margin and a very high weight rating, plus more cubby storage than a single console. It only makes sense if you have a long wall run to fill; for a typical living room, a 68 to 70 inch stand sized specifically for 75 inch TVs is usually the better fit." },
+  { q: "Is a wider entertainment center, like a 105 inch set, worth it for just a 75 inch TV?", a: "It depends on your wall space and storage needs. A 105 inch set rated for TVs up to 100 inches, like the largest pick in this guide, gives a 75 inch TV substantial width margin and a very high weight rating, plus more cubby storage than a single console. It only makes sense if you have a long wall run to fill; for a typical living room, a 68 to 70 inch stand sized specifically for 75 inch TVs is usually the better fit." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-tv-stand-for-55-inch-tv", title: "Best TV Stands for 55 Inch TVs (2026)" },
-  { href: "/guide/best-cable-management-boxes-for-desks", title: "Best Cable Management Boxes for Desks (2026)" },
+  { href: "/guide/best-cable-management-boxes-for-desks", title: "Best Cable Management Boxes for Desks (2026)" }
 ];

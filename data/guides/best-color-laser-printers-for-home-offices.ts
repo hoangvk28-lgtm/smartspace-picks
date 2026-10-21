@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "color laser printer for home office";
 export const introParagraphs = [
   "Genuine desktop color laser printers are rare and expensive in the home-office price range, since a color laser engine needs four separate toner drums instead of one. Of the 8 color printers we evaluated for this guide, only one, the Canon Color imageCLASS MF753Cdw II, is an actual color laser. The rest are ink-tank and cartridge inkjet printers, included honestly as the realistic alternatives most home offices end up buying instead, since a true color laser often costs 2-4x more than a comparable inkjet.",
-  "We label each pick by its real print technology rather than blending them under a single 'color laser' banner, because the two engines have very different cost, size, and photo-quality profiles. Below you'll find the one true color laser in this roundup, plus ink-tank and standard inkjet picks that cover the same color home-office use case at a fraction of the upfront cost.",
+  "We label each pick by its real print technology rather than blending them under a single 'color laser' banner, because the two engines have very different cost, size, and photo-quality profiles. Below you'll find the one true color laser in this roundup, plus ink-tank and standard inkjet picks that cover the same color home-office use case at a fraction of the upfront cost."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "11 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "35 ppm print speed",
       "Wireless duplex, scanner, copier, fax, ADF",
       "3-year limited warranty",
-      "No idle-ink drying risk",
+      "No idle-ink drying risk"
     ],
     pros: [
       "Genuine color laser, sharp text and crisp line graphics",
       "Fast 35 ppm rated speed",
       "Toner doesn't dry out during idle periods",
-      "Long 3-year warranty",
+      "Long 3-year warranty"
     ],
     cons: [
       "Highest upfront price in this list by a wide margin",
       "Much larger footprint than any inkjet here",
-      "Photo quality still trails a good inkjet for skin tones and gradients",
+      "Photo quality still trails a good inkjet for skin tones and gradients"
     ],
     bestFor: "Home offices that print color documents at real volume and want a genuine laser engine",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Up to 3 years of ink included",
       "2.4-inch color touchscreen",
       "Auto document feeder",
-      "18 ppm print speed",
+      "18 ppm print speed"
     ],
     pros: [
       "Better photo and gradient quality than color laser",
       "Up to 3 years of included ink lowers running cost",
       "Large color touchscreen and ADF",
-      "No cartridges to replace",
+      "No cartridges to replace"
     ],
     cons: [
       "Not a laser, text is slightly softer than the Canon pick",
       "Second-highest price in this list",
-      "Ink can still need a nozzle check after weeks of no use",
+      "Ink can still need a nozzle check after weeks of no use"
     ],
     bestFor: "Home offices that print a mix of color photos and documents and want lower running costs than laser",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "INKvestment higher-capacity cartridges",
       "1.8-inch color display",
       "Manual feed slot for envelopes",
-      "Refresh Subscription trial included",
+      "Refresh Subscription trial included"
     ],
     pros: [
       "Roughly 40% of the true laser's upfront price",
       "Higher-capacity cartridges than typical inkjets",
       "Manual feed slot for envelopes and thick stock",
-      "Simple color display",
+      "Simple color display"
     ],
     cons: [
       "Standard cartridges can dry out during idle periods",
       "Text is noticeably softer than the laser pick",
-      "Higher long-term cost per page than laser at real volume",
+      "Higher long-term cost per page than laser at real volume"
     ],
     bestFor: "A mid-price color option for home offices that print moderately and want to avoid the laser's upfront cost",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Auto document feeder, duplex printing",
       "3-month Instant Ink trial",
       "AI-capable setup",
-      "Compact all-in-one design",
+      "Compact all-in-one design"
     ],
     pros: [
       "Lowest-cost color all-in-one with an ADF in this list",
       "Duplex printing and Instant Ink trial included",
       "Compact footprint versus the laser pick",
-      "Good fit for light, occasional color printing",
+      "Good fit for light, occasional color printing"
     ],
     cons: [
       "Not a laser, cost per page rises with volume",
       "Standard cartridges can dry out unused",
-      "Overkill-avoidance only works at low print volume",
+      "Overkill-avoidance only works at low print volume"
     ],
     bestFor: "The cheapest realistic entry point into color home-office printing",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "2.7-inch color touchscreen",
       "Two paper trays",
       "INKvestment higher-capacity cartridges",
-      "Refresh Subscription trial included",
+      "Refresh Subscription trial included"
     ],
     pros: [
       "Two paper trays for mixed letterhead and plain paper",
       "Larger touchscreen than the J4355DW",
       "Higher-capacity INKvestment cartridges",
-      "Mid-price positioning between budget and laser",
+      "Mid-price positioning between budget and laser"
     ],
     cons: [
       "Not a laser, text softer than the Canon pick",
       "Pricier than the single-tray Brother and HP inkjets",
-      "Same idle-ink drying risk as other cartridge inkjets",
+      "Same idle-ink drying risk as other cartridge inkjets"
     ],
     bestFor: "Home offices that need letterhead and plain paper loaded separately",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Ethernet port plus wireless",
       "Scanner, copier, fax, ADF",
       "Cartridge-free bottle refill",
-      "Lower price than the ET-4950",
+      "Lower price than the ET-4950"
     ],
     pros: [
       "Ethernet port for a stable wired connection",
       "No cartridges, refill from bottles",
       "Full all-in-one feature set",
-      "Lower upfront price than the ET-4950",
+      "Lower upfront price than the ET-4950"
     ],
     cons: [
       "Not a laser, text softer than the Canon pick",
       "Smaller included ink supply than the ET-4950",
-      "Setup includes an initial ink-charging step",
+      "Setup includes an initial ink-charging step"
     ],
     bestFor: "Home offices that want a stable wired network connection without buying cartridges",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Auto document feeder, duplex printing",
       "3-month Instant Ink trial (subscription enrollment)",
       "AI-enabled setup",
-      "Lowest price in this list",
+      "Lowest price in this list"
     ],
     pros: [
       "Lowest upfront price in this roundup",
       "ADF and duplex printing included",
       "Instant Ink trial softens early cartridge cost",
-      "Compact footprint versus laser or ink-tank picks",
+      "Compact footprint versus laser or ink-tank picks"
     ],
     cons: [
       "Instant Ink subscription terms need to be tracked after the trial",
       "Not a laser, higher cost per page at real volume",
-      "Same idle-ink drying risk as other cartridge inkjets",
+      "Same idle-ink drying risk as other cartridge inkjets"
     ],
     bestFor: "The absolute lowest-cost way into color home-office printing, for light use only",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Photo-focused print quality",
       "Copier, scanner, fax, ADF",
       "AirPrint and Alexa compatible",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     pros: [
       "Better photo quality than the color laser pick",
       "Full all-in-one feature set with fax and ADF",
       "AirPrint and Alexa support",
-      "Reasonable mid-range price",
+      "Reasonable mid-range price"
     ],
     cons: [
       "Not a laser, text sharpness trails the Canon MF753Cdw II",
       "Standard cartridges carry idle-ink drying risk",
-      "Higher cost per page than laser at sustained volume",
+      "Higher cost per page than laser at sustained volume"
     ],
     bestFor: "Home offices that print photos as often as documents",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Feature set for home office workflows",
     description: "Checked ADF capacity, duplex printing, network connection options, and warranty length against what a home office actually uses day to day.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -466,11 +466,11 @@ export const faq: FaqItem[] = [
   {
     q: "Does color toner expire if I only print in black and white most of the time?",
     a: "Yes, opened color toner has a shelf life of roughly 2 years. If your household or office prints mostly black-and-white with occasional color, an ink-tank or cartridge inkjet avoids stocking color toner that may go unused long enough to matter.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-home-offices", title: "Best Printers for Home Offices (2026)" },
   { href: "/guide/best-printers-for-small-businesses", title: "Best Printers for Small Businesses (2026)" },
-  { href: "/guide/best-inkjet-printers-for-home-use", title: "Best Inkjet Printers for Home Use (2026)" },
+  { href: "/guide/best-inkjet-printers-for-home-use", title: "Best Inkjet Printers for Home Use (2026)" }
 ];

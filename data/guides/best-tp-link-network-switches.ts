@@ -260,11 +260,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "TP-Link TL-SG105 5-Port Gigabit Unmanaged Switch",
-        "text": "TP-Link TL-SG105 5-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 5 gigabit ports, qos + igmp snooping At $14.99, it's the lowest-cost pick in this comparison."
+        "text": "TP-Link TL-SG105 5-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 5 gigabit ports, qos + igmp snooping At under $15, it's the lowest-cost pick in this comparison."
       },
       {
         "label": "TP-Link TL-SG3452P 48-Port L2+ Managed PoE Switch",
-        "text": "TP-Link TL-SG3452P 48-Port L2+ Managed PoE Switch is aimed at buyers prioritizing 48x poe+ @384w, l2+ managed At $529.99, it sits at the higher end of this comparison's price range."
+        "text": "TP-Link TL-SG3452P 48-Port L2+ Managed PoE Switch is aimed at buyers prioritizing 48x poe+ @384w, l2+ managed At under $550, it sits at the higher end of this comparison's price range."
       }
     ],
     "note": "Most buyers should default to TP-Link TL-SG105 5-Port Gigabit Unmanaged Switch unless best 48-port l2+ managed poe specifically applies to your situation."
@@ -317,7 +317,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "TP-Link TL-SG105 5-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 5 gigabit ports, qos + igmp snooping"
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -357,7 +357,7 @@ export const faq = [
   { q: "Which pick in this comparison is best for the highest power or feature needs?", "a": "TP-Link TL-SG3452P 48-Port L2+ Managed PoE Switch is aimed at buyers prioritizing 48x poe+ @384w, l2+ managed" },
   { q: "Do I need a managed switch instead of one of these picks?", a: "Only if you need VLAN segmentation, port mirroring, or other configurable network management features, an unmanaged switch is simpler and sufficient for most small network setups." },
   { q: "Can I mix PoE and non-PoE devices on the same switch?", a: "Yes, PoE-capable switches auto-detect PoE devices and apply power accordingly, a non-PoE device connected to the same switch simply uses the port for data only." },
-  { q: "How do I know if a switch has enough ports for future expansion?", a: "Count your current devices plus any realistic near-term additions, then choose a switch with a small buffer rather than exactly matching your current device count." },
+  { q: "How do I know if a switch has enough ports for future expansion?", a: "Count your current devices plus any realistic near-term additions, then choose a switch with a small buffer rather than exactly matching your current device count." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-netgear-network-switches","title":"8 Best NETGEAR Network Switches in 2026"},{"href":"/guide/best-ugreen-network-switches","title":"best-ugreen-network-switches"},{"href":"/guide/best-managed-network-switches","title":"8 Best Managed Network Switches in 2026"}];

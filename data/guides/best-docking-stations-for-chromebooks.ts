@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "docking station for chromebook";
 export const introParagraphs = [
   "A docking station that works flawlessly on a Windows laptop can behave very differently once it's plugged into a Chromebook, since Chrome OS handles external displays, USB bandwidth, and power delivery on its own set of rules. Most Chromebooks only drive a single external display at 4K 60Hz over native USB-C DisplayPort Alt Mode, and getting a second monitor working at all usually means the dock relies on DisplayLink rather than Alt Mode alone.",
-  "Below are 8 docking stations for Chromebooks we evaluated on Chrome OS display compatibility, DisplayLink driver support, charging behavior at typical Chromebook wattages, and overall port layout, ranging from a budget-friendly 8-in-1 hub to a 12-in-1 dock built specifically with Chromebook certification in mind.",
+  "Below are 8 docking stations for Chromebooks we evaluated on Chrome OS display compatibility, DisplayLink driver support, charging behavior at typical Chromebook wattages, and overall port layout, ranging from a budget-friendly 8-in-1 hub to a 12-in-1 dock built specifically with Chromebook certification in mind."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Dual 4K display via DisplayLink",
       "60W charging",
       "12-in-1 port layout",
-      "Built-in Ethernet",
+      "Built-in Ethernet"
     ],
     pros: [
       "Only Chromebook-certified pick in this list",
       "True dual external display support via DisplayLink",
       "60W charging matches typical Chromebook wattage needs",
-      "Strong port variety for classroom or shared setups",
+      "Strong port variety for classroom or shared setups"
     ],
     cons: [
       "Requires installing the DisplayLink for ChromeOS extension",
       "Pricier than the single-display budget picks",
-      "Dual-display setup adds a driver step most Windows users skip",
+      "Dual-display setup adds a driver step most Windows users skip"
     ],
     bestFor: "Buyers who specifically need dual external monitors on a Chromebook",
   },
@@ -88,18 +88,18 @@ export const products: GuideProduct[] = [
       "100W USB-C Power Delivery",
       "Triple HDMI output (1x 4K 30Hz, 2x 1080p 60Hz)",
       "6x USB 5Gbps ports",
-      "Windows, macOS, ChromeOS compatible",
+      "Windows, macOS, ChromeOS compatible"
     ],
     pros: [
       "Full capability unlocked on Thunderbolt Chromebooks",
       "100W PD exceeds any Chromebook's charging requirement",
       "6 USB ports for a genuinely multi-device desk",
-      "Broad OS compatibility beyond just Chrome OS",
+      "Broad OS compatibility beyond just Chrome OS"
     ],
     cons: [
       "Triple-display capability is wasted on non-Thunderbolt Chromebooks",
       "Bulkier than the compact single-cable hubs",
-      "Higher price for capability most Chromebook owners won't use",
+      "Higher price for capability most Chromebook owners won't use"
     ],
     bestFor: "Owners of newer Thunderbolt-equipped Chromebooks who want full multi-monitor output",
   },
@@ -120,18 +120,18 @@ export const products: GuideProduct[] = [
       "65W charging",
       "Gigabit Ethernet",
       "USB-C + 3x USB-A 5Gbps",
-      "Driverless on Windows/ChromeOS",
+      "Driverless on Windows/ChromeOS"
     ],
     pros: [
       "Dual 4K 60Hz output at a lower price than the certified pick",
       "Driverless setup reduces Chrome OS configuration steps",
       "65W charging matches real Chromebook power needs",
-      "Includes Gigabit Ethernet",
+      "Includes Gigabit Ethernet"
     ],
     cons: [
       "Not officially Chromebook certified like the top pick",
       "Dual-display performance still depends on the laptop's own Alt Mode support",
-      "Fewer total ports than the 12-in-1 pick",
+      "Fewer total ports than the 12-in-1 pick"
     ],
     bestFor: "Buyers who want dual 4K monitors without paying for Chromebook-specific certification",
   },
@@ -152,18 +152,18 @@ export const products: GuideProduct[] = [
       "160W max output",
       "10Gbps fast data transfer",
       "Dual 4K displays",
-      "Real-Time Smart Interface display",
+      "Real-Time Smart Interface display"
     ],
     pros: [
       "160W output leaves large headroom for other connected devices",
       "Real-time status display helps diagnose connection issues",
       "Dual 4K display support",
-      "Fast 10Gbps data transfer",
+      "Fast 10Gbps data transfer"
     ],
     cons: [
       "Most of its 160W power ceiling goes unused by a Chromebook",
       "Premium price for capability beyond Chromebook needs",
-      "Best value when shared across multiple laptop types",
+      "Best value when shared across multiple laptop types"
     ],
     bestFor: "Households that dock both a Chromebook and a higher-power Windows or Mac laptop on the same unit",
   },
@@ -184,18 +184,18 @@ export const products: GuideProduct[] = [
       "Dual monitor via 2x HDMI",
       "85W Power Delivery",
       "1 Gbps Ethernet",
-      "SD card reader",
+      "SD card reader"
     ],
     pros: [
       "Lowest price in this list",
       "85W charging comfortably exceeds Chromebook power needs",
       "Includes an SD card reader most competitors skip",
-      "Compact 8-in-1 layout",
+      "Compact 8-in-1 layout"
     ],
     cons: [
       "Dual display support depends entirely on the Chromebook's own Alt Mode capability",
       "No DisplayLink chipset, so it won't add a second display on Alt-Mode-limited Chromebooks",
-      "Charger not included",
+      "Charger not included"
     ],
     bestFor: "Budget buyers whose Chromebook already supports one external display and just needs the ports",
   },
@@ -216,18 +216,18 @@ export const products: GuideProduct[] = [
       "Dual HDMI + DisplayPort",
       "100W PD passthrough",
       "4x USB-A + 2x USB-C",
-      "SD/TF card reader + audio",
+      "SD/TF card reader + audio"
     ],
     pros: [
       "Lowest price relative to port count in this list",
       "100W PD passthrough exceeds Chromebook charging needs",
       "SD/TF reader plus audio jack in one hub",
-      "Compact and portable",
+      "Compact and portable"
     ],
     cons: [
       "No DisplayLink chipset, dual display depends on the Chromebook's native Alt Mode support",
       "Generic branding with a shorter track record than Anker or Plugable",
-      "Video output ports may go partially unused on budget Chromebook models",
+      "Video output ports may go partially unused on budget Chromebook models"
     ],
     bestFor: "Buyers who want the most ports for the price and already know their Chromebook's display limits",
   },
@@ -248,18 +248,18 @@ export const products: GuideProduct[] = [
       "100W Power Delivery",
       "10Gbps USB A/C",
       "Gigabit Ethernet",
-      "SD/microSD reader + smart display",
+      "SD/microSD reader + smart display"
     ],
     pros: [
       "Triple 4K display capability, the highest ceiling in this list",
       "Built-in smart display for status at a glance",
       "100W PD well above Chromebook charging needs",
-      "Includes SD/microSD card reader",
+      "Includes SD/microSD card reader"
     ],
     cons: [
       "Triple-display capability requires a Thunderbolt Chromebook or non-Chromebook host to fully use",
       "Standard USB-C Chromebooks will only drive a fraction of its display outputs",
-      "Larger footprint than the compact budget hubs",
+      "Larger footprint than the compact budget hubs"
     ],
     bestFor: "Owners of Thunderbolt Chromebooks or mixed-device desks who want triple-monitor headroom",
   },
@@ -280,21 +280,21 @@ export const products: GuideProduct[] = [
       "100W Power Delivery",
       "10Gbps USB A/C",
       "Gigabit Ethernet",
-      "SD/TF reader + smart display",
+      "SD/TF reader + smart display"
     ],
     pros: [
       "Near-identical spec sheet to the top triple-display pick",
       "Smart display shows connection status at a glance",
       "100W PD covers any Chromebook's charging needs with room to spare",
-      "Broad Mac/Dell/HP compatibility listed",
+      "Broad Mac/Dell/HP compatibility listed"
     ],
     cons: [
       "Slightly pricier than the comparable Selore pick",
       "Same Alt Mode ceiling applies on standard Chromebooks",
-      "Smaller brand footprint than Anker or Plugable",
+      "Smaller brand footprint than Anker or Plugable"
     ],
     bestFor: "Buyers comparing triple-display dock options who want a close alternative to the top pick",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -322,7 +322,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value relative to Chromebook needs",
     description: "Scored whether a dock's premium features, like 160W output or triple 4K display, actually translate into a benefit for a Chromebook host rather than capability that goes unused.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -480,11 +480,11 @@ export const faq: FaqItem[] = [
   {
     q: "Is a Chromebook-certified dock worth paying more for?",
     a: "If dual external displays or classroom-scale reliability matter, yes. The Plugable 12-in-1 is the only pick in this list explicitly Chromebook certified, meaning its DisplayLink implementation and charging behavior have been verified against Chrome OS specifically rather than assumed compatible because it lists ChromeOS support generically.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-thunderbolt-4-docking-stations", title: "8 Best Thunderbolt 4 Docking Stations (2026)" },
   { href: "/guide/best-usb-c-docking-stations", title: "Best USB-C Docking Stations (2026)" },
-  { href: "/guide/best-budget-docking-stations-under-100", title: "8 Best Budget Docking Stations Under $100 (2026)" },
+  { href: "/guide/best-budget-docking-stations-under-100", title: "8 Best Budget Docking Stations Under $100 (2026)" }
 ];

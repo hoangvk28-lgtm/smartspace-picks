@@ -193,35 +193,35 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $129.99",
+          "Under $130",
           "CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB)"
         ],
         [
-          "Around $179.95",
+          "Under $180",
           "ORICO 4-Bay RAID Hard Drive Enclosure (88TB"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "QNAP TR-002-A-US 2-Bay USB-C DAS with Hardware RAID (Diskless)"
         ],
         [
-          "Around $199.95",
+          "Under $200",
           "ORICO RAID 5-Bay HDD Enclosure (110TB"
         ],
         [
-          "Around $219.00",
+          "Under $250",
           "QNAP TR-004 4-Bay USB-C DAS with Hardware RAID (Diskless)"
         ],
         [
-          "Around $229.00",
+          "Under $250",
           "960GB SAS 12Gb/s Enterprise SSD for Dell PowerEdge (G14 Tray)"
         ],
         [
-          "Around $409.00",
+          "Under $450",
           "Seagate Exos X16 16TB Enterprise SAS HDD (Renewed)"
         ],
         [
-          "Around $2,690.78",
+          "Under $2,700",
           "HP D2700 25-Bay 2.5-Inch SAS Disk Enclosure"
         ]
       ]
@@ -276,10 +276,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB) is aimed at buyers prioritizing 4-bay hardware raid, 8 modes, up to 80tb, at $129.99."
+        "text": "CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB) is aimed at buyers prioritizing 4-bay hardware raid, 8 modes, up to 80tb, at under $130."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -331,7 +331,7 @@ export const faq = [
     "a": "Only if the specific enclosure documents hot-swap support, which most tool-free tray designs in this category do. Always check your specific product's hot-swap capability before removing a drive live, since not every budget enclosure supports it, especially some fixed-RAID-mode units."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Seagate Exos X16 16TB Enterprise SAS HDD (Renewed) is aimed at buyers prioritizing 16tb sas 12gb/s, 7200 rpm, renewed." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Seagate Exos X16 16TB Enterprise SAS HDD (Renewed) is aimed at buyers prioritizing 16tb sas 12gb/s, 7200 rpm, renewed." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-hpe-das-storage","title":"Best HPE DAS Storage in 2026"},{"href":"/guide/best-dell-das-storage","title":"Best Dell DAS Storage in 2026"},{"href":"/guide/best-12-bay-direct-attached-storage","title":"5 Best 12-Bay Direct-Attached Storage"}];

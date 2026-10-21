@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41mpui1TIKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G7FQPTY3?tag=deskfinds0d-20",
-    description: "This is the same reliable TIQUS design covered in our under $10 guide, stepped up to a 10 inch screen while landing at the same $9.99 price as the smaller 9.25 inch 2-pack, effectively a free upgrade in screen size for buyers shopping in this comparison.\n\nLike the other TIQUS picks, it includes a lock button to protect written content and works with either the included stylus or a bare finger, giving you two full-size tablets for less than the single larger picks above.\n\nBest for buyers who want two full-size 10 inch tablets for less than the price of a single larger unit in this comparison.",
+    description: "This is the same reliable TIQUS design covered in our under $10 guide, stepped up to a 10 inch screen while landing at the same under $10 price as the smaller 9.25 inch 2-pack, effectively a free upgrade in screen size for buyers shopping in this comparison.\n\nLike the other TIQUS picks, it includes a lock button to protect written content and works with either the included stylus or a bare finger, giving you two full-size tablets for less than the single larger picks above.\n\nBest for buyers who want two full-size 10 inch tablets for less than the price of a single larger unit in this comparison.",
     specs: ["10\" LCD screen, 2-pack included", "Lock button, works with stylus or finger", "Same price as TIQUS's smaller 9.25\" 2-pack"],
     pros: ["Two full 10\" tablets for less than a single larger unit here", "Reliable lock-button functionality carried over from TIQUS's lineup", "Lowest total price in this comparison"],
     cons: ["Neither individual tablet matches the 13\" or 16\" screen sizes above", "No magnetic mounting or rechargeable battery"],
@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["The largest screen with rechargeable convenience", "Magnetic LCD Writing Tablet for Fridge, 13 Inch"],
         ["The single biggest screen at the lowest cost", "16 Inch Large LCD Writing Tablet"],
-        ["A pocketable tablet for travel", "6.5 Inch LCD Writing Tablet, Pocket Doodle Board"],
+        ["A pocketable tablet for travel", "6.5 Inch LCD Writing Tablet, Pocket Doodle Board"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $11", "16 Inch Large Tablet ($10.99) or 6.5 Inch Pocket Board ($10.99)"],
-        ["$10-$13", "TIQUS 10 Inch 2-Pack ($9.99) or Magnetic 13 Inch ($12.99)"],
+        ["Under $11", "16 Inch Large Tablet (under $15) or 6.5 Inch Pocket Board (under $15)"],
+        ["$10-$13", "TIQUS 10 Inch 2-Pack (under $10) or Magnetic 13 Inch (under $15)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Jumbo Screen vs Pocket Size",
     cards: [
       { label: "Jumbo Screen (13\" or 16\")", text: "Maximum writing space for detailed notes, sketches, or family message boards, but too bulky to easily carry in a bag or pocket." },
-      { label: "Pocket-Sized (6.5\")", text: "Fits easily in a pocket or small bag for travel and on-the-go use, at the cost of a much smaller usable writing area." },
+      { label: "Pocket-Sized (6.5\")", text: "Fits easily in a pocket or small bag for travel and on-the-go use, at the cost of a much smaller usable writing area." }
     ],
     note: "Choose based on where the tablet will actually live: a jumbo screen for a fixed spot at home, a pocket tablet for genuinely portable use.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your preference", "Recommended pick"],
       rows: [
         ["Rechargeable, no coin-cell hunting", "Magnetic LCD Writing Tablet for Fridge, 13 Inch"],
-        ["Simple replaceable coin-cell battery", "16 Inch Large Tablet, 6.5 Inch Pocket Board, or TIQUS 10 Inch 2-Pack"],
+        ["Simple replaceable coin-cell battery", "16 Inch Large Tablet, 6.5 Inch Pocket Board, or TIQUS 10 Inch 2-Pack"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Family Message Boards Specifically",
     cards: [
       { label: "Look for", text: "Magnetic mounting on a larger screen, so the board is both easy to place and big enough for a full grocery list or reminder note." },
-      { label: "In this comparison", text: "The Magnetic LCD Writing Tablet for Fridge, 13 Inch is the only pick here combining a large screen with magnetic mounting." },
+      { label: "In this comparison", text: "The Magnetic LCD Writing Tablet for Fridge, 13 Inch is the only pick here combining a large screen with magnetic mounting." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a rechargeable battery and the largest magnetic screen, where the 13 Inch Magnetic pick delivers both in this comparison." },
-      { label: "Save if", text: "Two smaller tablets cover your needs better than one large one, where the TIQUS 10 Inch 2-Pack costs the least in this comparison." },
+      { label: "Save if", text: "Two smaller tablets cover your needs better than one large one, where the TIQUS 10 Inch 2-Pack costs the least in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

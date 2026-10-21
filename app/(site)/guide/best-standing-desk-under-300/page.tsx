@@ -188,7 +188,7 @@ export default async function BestStandingDeskUnder300Page() {
     about: [
       { "@type": "Thing", name: "Standing Desks Under $300" },
       { "@type": "Thing", name: "Electric Height-Adjustable Desks" },
-      { "@type": "Thing", name: "Home Office Desks" },
+      { "@type": "Thing", name: "Home Office Desks" }
     ],
   };
 
@@ -208,7 +208,7 @@ export default async function BestStandingDeskUnder300Page() {
         position: 3,
         name: "Best Standing Desk Under $300",
         item: `${SITE_URL}/guide/best-standing-desk-under-300`,
-      },
+      }
     ],
   };
 
@@ -504,7 +504,7 @@ export default async function BestStandingDeskUnder300Page() {
                       factor: "Best for",
                       single: "Single monitor, light loads",
                       dual: "Dual monitors, typing-heavy work",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -574,7 +574,7 @@ export default async function BestStandingDeskUnder300Page() {
                       sitting: "~29-30\"",
                       standing: "~46\"+",
                       fits: "VIVO 55x24 only (48.4\" max)",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -636,7 +636,7 @@ export default async function BestStandingDeskUnder300Page() {
                       setup: "Needs built-in storage",
                       size: "48x24\" with drawers",
                       best: "Fezibo double drawer or SHW drawer",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -808,7 +808,7 @@ export default async function BestStandingDeskUnder300Page() {
                     need: "Most storage, small apartment",
                     pick: "Fezibo Double Drawer + Shelf",
                     why: "2 drawers + shelf replaces a separate drawer unit",
-                  },
+                  }
                 ].map((row, i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                     <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -883,7 +883,7 @@ export default async function BestStandingDeskUnder300Page() {
                     height: "6'4\"",
                     ideal: "~47\"+",
                     desks: "VIVO only (48.4\" max)",
-                  },
+                  }
                 ].map((row, i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                     <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -933,7 +933,7 @@ export default async function BestStandingDeskUnder300Page() {
                 label: "Wire management channels in the frame",
                 detail:
                   "The SHW with drawer includes a cable tray. Integrated wire channels routed through the legs are uncommon under $300.",
-              },
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-yellow-400 mt-2 shrink-0" />

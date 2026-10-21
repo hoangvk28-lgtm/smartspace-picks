@@ -12,7 +12,7 @@ export const monitorBezelThicknessExplainedGuide: Guide = {
     "thin bezel monitor multi monitor",
     "does bezel size matter",
     "seamless multi monitor setup",
-    "bezel gap dual monitor",
+    "bezel gap dual monitor"
   ],
   heroImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const monitorBezelThicknessExplainedGuide: Guide = {
     "matching-monitors-vs-mixed-monitors",
     "triple-monitor-setup-explained",
     "ultrawide-vs-dual-monitor",
-    "monitor-size-chart",
+    "monitor-size-chart"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const monitorBezelThicknessExplainedGuide: Guide = {
       question: "Should I prioritize thin bezels over other monitor specs for a multi-monitor setup?",
       answer:
         "Bezel thickness is worth factoring in but shouldn't override more functionally important specs like resolution, panel type, and refresh rate, treat it as one consideration among several rather than the primary deciding factor.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const monitorBezelThicknessExplainedGuide: Guide = {
     {
       heading: "Why Ultrawide Monitors Sidestep This Issue Entirely",
       body: `An ultrawide monitor's core advantage for spanning content specifically is having zero bezel interruption since it's physically one continuous screen rather than multiple separate screens placed adjacent to each other, if bezel gap interruption is a significant frustration in your current multi-monitor setup, particularly for content you frequently want to view as one continuous canvas, this is one of the strongest practical arguments for considering an ultrawide monitor as an alternative to a traditional multi-monitor arrangement.`,
-    },
+    }
   ],
 };

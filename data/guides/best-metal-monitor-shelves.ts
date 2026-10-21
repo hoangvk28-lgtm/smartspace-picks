@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "metal monitor shelf";
 export const introParagraphs = [
   "Metal shelves generally offer higher weight capacity than wood, glass, or acrylic alternatives, but sharp edges and unfinished welds are a real risk on lower-quality units, worth checking reviews specifically for complaints about rough edges before buying. Powder coating quality also varies, with cheaper coatings chipping or scratching more readily under daily use.",
-  "A metal shelf's feet can scratch a desk surface without rubber padding underneath, a detail easy to miss in product photos but worth checking in the spec list. Corrosion resistance also differs between stainless steel and standard coated steel, more relevant if the shelf will sit somewhere with real humidity exposure.",
+  "A metal shelf's feet can scratch a desk surface without rubber padding underneath, a detail easy to miss in product photos but worth checking in the spec list. Corrosion resistance also differs between stainless steel and standard coated steel, more relevant if the shelf will sit somewhere with real humidity exposure."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,13 +26,13 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Metal Monitor Shelf",
     name: "WALI Computer Monitor Stand for Desk, Adjustable Laptop Riser, up to 44 lbs",
     price: "$14.99",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "15,803 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31VzBQ+jwWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B094QTGHNZ?tag=deskfinds0d-20",
-    description: "For buyers wanting a dependable high-capacity metal build Built with a metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nIt earns the top spot in this comparison over HUANUO Monitor Riser for Desk for one main reason. Solid 4.7-star rating with 15,803 ratings. On price, it comes in below HUANUO Monitor Riser for Desk, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["44 lbs rated capacity (evenly distributed)","metal construction","Priced at $14.99","15,803 ratings on Amazon"],
-    pros: ["Solid 4.7-star rating with 15,803 ratings","Metal build appropriate for this use case","Reasonable price at $14.99","A metal-frame shelf rated to 44 lbs with a compact footprint."],
+    description: "For buyers wanting a dependable high-capacity metal build Built with a metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nIt earns the top spot in this comparison over HUANUO Monitor Riser for Desk for one main reason. On price, it comes in below HUANUO Monitor Riser for Desk, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","metal construction","Priced under $15"],
+    pros: ["Metal build appropriate for this use case","Reasonable price at under $15","A metal-frame shelf rated to 44 lbs with a compact footprint."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A metal-frame shelf rated to 44 lbs with a compact footprint.",
   },
@@ -42,13 +42,13 @@ export const products: GuideProduct[] = [
     badge: "Best Value Metal Monitor Shelf",
     name: "HUANUO Monitor Riser for Desk, Vented Laptop Shelf",
     price: "$15.99",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "15,385 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41kQEYuq+KL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B073VKC134?tag=deskfinds0d-20",
-    description: "For budget buyers wanting metal durability without a premium price Built with a metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nOne spot below WALI Computer Monitor Stand for Desk in this ranking, it costs more than WALI Computer Monitor Stand for Desk. The compromise here is straightforward: Rated capacity assumes evenly distributed weight, not a single point load. What you gain in return: Solid 4.8-star rating with 15,385 ratings. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["44 lbs rated capacity (evenly distributed)","metal construction","Priced at $15.99","15,385 ratings on Amazon"],
-    pros: ["Solid 4.8-star rating with 15,385 ratings","Metal build appropriate for this use case","Reasonable price at $15.99","A vented metal riser at a low price point with a strong capacity rating."],
+    description: "For budget buyers wanting metal durability without a premium price Built with a metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nOne spot below WALI Computer Monitor Stand for Desk in this ranking, it costs more than WALI Computer Monitor Stand for Desk. The compromise here is straightforward: Rated capacity assumes evenly distributed weight, not a single point load. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","metal construction","Priced under $20"],
+    pros: ["Metal build appropriate for this use case","Reasonable price at under $20","A vented metal riser at a low price point with a strong capacity rating."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A vented metal riser at a low price point with a strong capacity rating.",
   },
@@ -58,13 +58,13 @@ export const products: GuideProduct[] = [
     badge: "Best Metal Shelf with Mouse Pad",
     name: "Simple Trending 2-Tier Dual Monitor Stand with Mouse Pad, Metal, Black",
     price: "$25.39",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "888 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41D8O6S4MBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP1L1KS9?tag=deskfinds0d-20",
-    description: "For buyers wanting a metal build with an integrated accessory surface Built with a metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nSitting just under HUANUO Monitor Riser for Desk, it costs more than HUANUO Monitor Riser for Desk. Here's the honest tradeoff: Rated capacity assumes evenly distributed weight, not a single point load. And here's what it gets you instead: Solid 4.7-star rating with 888 ratings. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["44 lbs rated capacity (evenly distributed)","metal construction","Priced at $25.39","888 ratings on Amazon"],
-    pros: ["Solid 4.7-star rating with 888 ratings","Metal build appropriate for this use case","Reasonable price at $25.39","A 2-tier metal dual-monitor stand that includes a built-in mouse pad surface."],
+    description: "For buyers wanting a metal build with an integrated accessory surface Built with a metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nSitting just under HUANUO Monitor Riser for Desk, it costs more than HUANUO Monitor Riser for Desk. Here's the honest tradeoff: Rated capacity assumes evenly distributed weight, not a single point load. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","metal construction","Priced under $30"],
+    pros: ["Metal build appropriate for this use case","Reasonable price at under $30","A 2-tier metal dual-monitor stand that includes a built-in mouse pad surface."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A 2-tier metal dual-monitor stand that includes a built-in mouse pad surface.",
   },
@@ -74,13 +74,13 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity Metal VESA Stand",
     name: "Single LCD Monitor Free-Standing Desk Riser, Height Adjustable, VESA",
     price: "$21.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "9,032 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31-LBzENQIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07Q79ZZJ6?tag=deskfinds0d-20",
-    description: "For buyers with a heavy monitor who need genuine high-capacity metal support Built with a metal platform rated to 77 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nRanked just behind Simple Trending 2-Tier Dual Monitor Stand with Mouse Pad, it's priced lower than Simple Trending 2-Tier Dual Monitor Stand with Mouse Pad. The real tradeoff against that pick: Rated capacity assumes evenly distributed weight, not a single point load. In exchange, it offers this instead: Solid 4.6-star rating with 9,032 ratings. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["77 lbs rated capacity (evenly distributed)","metal construction","Priced at $21.99","9,032 ratings on Amazon"],
-    pros: ["Solid 4.6-star rating with 9,032 ratings","Metal build appropriate for this use case","Reasonable price at $21.99","A VESA-mount metal stand rated up to 77 lbs, among the highest capacity in this category."],
+    description: "For buyers with a heavy monitor who need genuine high-capacity metal support Built with a metal platform rated to 77 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nRanked just behind Simple Trending 2-Tier Dual Monitor Stand with Mouse Pad, it's priced lower than Simple Trending 2-Tier Dual Monitor Stand with Mouse Pad. The real tradeoff against that pick: Rated capacity assumes evenly distributed weight, not a single point load. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["77 lbs rated capacity (evenly distributed)","metal construction","Priced under $25"],
+    pros: ["Metal build appropriate for this use case","Reasonable price at under $25","A VESA-mount metal stand rated up to 77 lbs, among the highest capacity in this category."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A VESA-mount metal stand rated up to 77 lbs, among the highest capacity in this category.",
   }
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Weight capacity compared across metal builds", description: "Compared rated capacity across metal shelves, generally higher than wood, glass, or acrylic alternatives at similar price points." },
   { title: "Edge and weld quality checked in reviews", description: "Looked specifically for buyer complaints about sharp edges or rough welds, a real risk on lower-quality metal units." },
   { title: "Powder coating durability considered", description: "Weighted reviews mentioning coating chips or scratches developing under regular daily use." },
-  { title: "Desk-scratch and corrosion risk noted", description: "Checked for rubber feet or padding to prevent desk scratching, and considered stainless versus standard steel for corrosion resistance." },
+  { title: "Desk-scratch and corrosion risk noted", description: "Checked for rubber feet or padding to prevent desk scratching, and considered stainless versus standard steel for corrosion resistance." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -176,23 +176,19 @@ export const howToChoose: HowToChooseSection[] = [
       {
         "label": "Look for",
         "text": "A stated weight capacity with real margin above your monitor's actual weight, a rigid material like metal or thick wood, and a wide enough platform to support the monitor's full base without overhang."
-      },
-      {
-        "label": "In this comparison",
-        "text": "Simple Trending 2-Tier Dual Monitor Stand with Mouse Pad fits this specifically: Solid 4.7-star rating with 888 ratings."
       }
-    ]
+      ]
   },
   {
     "subheading": "When to Spend More",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want what Simple Trending 2-Tier Dual Monitor Stand with Mouse Pad offers: Solid 4.7-star rating with 888 ratings. That's a real functional upgrade over the budget picks here, not just a brand markup."
+        "text": "That's a real functional upgrade over the budget picks here, not just a brand markup."
       },
       {
         "label": "Save if",
-        "text": "WALI Computer Monitor Stand for Desk already covers the essentials: Solid 4.7-star rating with 15,803 ratings. The main thing you'd be paying extra for elsewhere in this list is capacity or storage you may not need."
+        "text": "The main thing you'd be paying extra for elsewhere in this list is capacity or storage you may not need."
       }
     ]
   }
@@ -225,11 +221,11 @@ export const faq: FaqItem[] = [
   { q: "Are metal monitor shelves stronger than wood ones?", a: "Generally yes, metal shelves tend to carry higher weight ratings than wood, glass, or acrylic alternatives at similar sizes." },
   { q: "Can a metal monitor shelf scratch my desk?", a: "It can if there's no rubber or felt padding on the feet, check the spec list or reviews for this detail before buying." },
   { q: "Do cheaper metal shelves have sharp edges?", a: "Some lower-quality units do have unfinished welds or sharp edges, check reviews specifically for edge-finish complaints." },
-  { q: "Does metal rust over time?", a: "Standard coated steel can corrode in humid conditions more than stainless steel, consider this if your desk sits somewhere humid." },
+  { q: "Does metal rust over time?", a: "Standard coated steel can corrode in humid conditions more than stainless steel, consider this if your desk sits somewhere humid." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-wooden-monitor-shelves", title: "Best Wooden Monitor Shelves (2026)" },
   { href: "/guide/best-glass-monitor-shelves", title: "Best Glass Monitor Shelves (2026)" },
-  { href: "/guide/best-monitor-shelves-for-desks", title: "Best Monitor Shelves for Desks (2026)" },
+  { href: "/guide/best-monitor-shelves-for-desks", title: "Best Monitor Shelves for Desks (2026)" }
 ];

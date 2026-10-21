@@ -220,10 +220,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "TP-Link TL-SG105 5-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 5 gigabit ports, qos + igmp snooping, at $14.99."
+        "text": "TP-Link TL-SG105 5-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 5 gigabit ports, qos + igmp snooping, at under $15."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -260,10 +260,10 @@ export const faq = [
   }
 ,
   { q: "Which pick in this comparison is the best overall choice?", a: "TP-Link TL-SG108S-M2 8-Port 2.5G Unmanaged Switch is aimed at buyers prioritizing 8x 2.5g ports, 40gbps capacity." },
-  { q: "Which pick offers the best value for a tight budget?", a: "TP-Link TL-SG105 5-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 5 gigabit ports, qos + igmp snooping, and at $14.99 it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $14.99 to $109.99, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Which pick offers the best value for a tight budget?", a: "TP-Link TL-SG105 5-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 5 gigabit ports, qos + igmp snooping, and at under $15 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $15 to $110, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
   { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "NETGEAR MS308 8-Port 2.5G Unmanaged Switch is aimed at buyers prioritizing 8x 2.5g ports, fanless. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
-  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "TP-Link TL-SG108S-M2 8-Port 2.5G Unmanaged Switch is aimed at buyers prioritizing 8x 2.5g ports, 40gbps capacity." },
+  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "TP-Link TL-SG108S-M2 8-Port 2.5G Unmanaged Switch is aimed at buyers prioritizing 8x 2.5g ports, 40gbps capacity." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-2-5gbe-network-switches","title":"8 Best 2.5GbE Network Switches in 2026"},{"href":"/guide/best-quiet-network-switches","title":"8 Best Quiet Network Switches in 2026"},{"href":"/guide/best-managed-network-switches","title":"8 Best Managed Network Switches in 2026"}];

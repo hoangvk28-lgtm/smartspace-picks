@@ -45,7 +45,7 @@ export const products: VintageDesk[] = [
       "Traditional style - not pure MCM (no tapered legs)",
       "Walnut is a finish color, not walnut wood species",
       "36.2\" width limits surface area for monitor plus keyboard simultaneously",
-      "Verify stock before purchasing - availability varies by color",
+      "Verify stock before purchasing - availability varies by color"
     ],
     skipIf:
       "Skip if you want authentic MCM tapered-leg design - the Linon Melissa (Rank 2) or Modway Render (Rank 3) are the MCM options. Skip if you need more than 36.2\" of surface width.",
@@ -53,13 +53,13 @@ export const products: VintageDesk[] = [
       "5 drawers in a 36.2\" footprint - exceptional storage density",
       "SAFAVIEH brand with established consistent quality",
       "Multiple finish options",
-      "Compact width suits tight rooms and apartments",
+      "Compact width suits tight rooms and apartments"
     ],
     cons: [
       "Traditional style - not pure MCM",
       "Walnut is a color finish, not walnut wood",
       "36.2\" limits surface area for monitor and keyboard together",
-      "Verify stock before purchasing",
+      "Verify stock before purchasing"
     ],
   },
   {
@@ -77,7 +77,7 @@ export const products: VintageDesk[] = [
     tradeoffs: [
       "Veneer desktop - not solid wood top, cannot be refinished if damaged",
       "Walnut is veneer color, not solid walnut species",
-      "Limited storage - check drawer count in current listing",
+      "Limited storage - check drawer count in current listing"
     ],
     skipIf:
       "Skip if you need solid wood throughout - the YEXINGlow (Rank 6 or 7) gives solid wood construction with MCM styling. Skip if you need significant drawer storage - the Landon (Rank 1) or SAFAVIEH Haven (Rank 5) have more drawers.",
@@ -85,12 +85,12 @@ export const products: VintageDesk[] = [
       "Most authentically MCM design on this list",
       "Solid wood tapered legs - a genuine MCM element, not just styling",
       "Linon brand with established consistent review history",
-      "Clean design works in apartments, bedrooms, and living room workspaces",
+      "Clean design works in apartments, bedrooms, and living room workspaces"
     ],
     cons: [
       "Veneer desktop - cannot be deeply refinished",
       "Walnut is veneer color, not walnut species",
-      "Limited storage",
+      "Limited storage"
     ],
   },
   {
@@ -108,7 +108,7 @@ export const products: VintageDesk[] = [
     tradeoffs: [
       "Laminate desktop - not wood surface, cannot be refinished",
       "Walnut is entirely a laminate color - no walnut wood anywhere in the top",
-      "No drawers - surface only, no built-in storage",
+      "No drawers - surface only, no built-in storage"
     ],
     skipIf:
       "Skip if you need storage drawers - the Landon (Rank 1) or YEXINGlow (Rank 6) have drawers. Skip if you want a wood surface rather than laminate - the Linon Melissa (Rank 2) has a veneer top.",
@@ -116,12 +116,12 @@ export const products: VintageDesk[] = [
       "Genuine tapered solid wood legs - the core MCM visual element",
       "Walnut laminate desktop is scratch-resistant and durable",
       "Most affordable MCM option on this list",
-      "Clean lines, no hutch - classic MCM proportions",
+      "Clean lines, no hutch - classic MCM proportions"
     ],
     cons: [
       "Laminate desktop - not wood surface",
       "Walnut is entirely a laminate color - no walnut wood in the top",
-      "No drawers",
+      "No drawers"
     ],
   },
   {
@@ -139,7 +139,7 @@ export const products: VintageDesk[] = [
     tradeoffs: [
       "Not pure MCM aesthetic - the black base elements move it toward contemporary",
       "Walnut is a finish, not walnut wood species",
-      "Lower review volume than SAFAVIEH's established Landon line",
+      "Lower review volume than SAFAVIEH's established Landon line"
     ],
     skipIf:
       "Skip if you want the authentic warm-wood-only MCM look - the Linon Melissa (Rank 2) is the purer MCM choice. Skip if you need drawers - the Landon (Rank 1) or Haven (Rank 5) have storage.",
@@ -147,12 +147,12 @@ export const products: VintageDesk[] = [
       "SAFAVIEH brand reliability",
       "Walnut and black combination suits modern-MCM interiors",
       "Clean lines, no overhead storage",
-      "Wood construction confirmed",
+      "Wood construction confirmed"
     ],
     cons: [
       "Not pure MCM - black base elements move it toward contemporary",
       "Walnut is a color finish, not walnut wood",
-      "Lower review volume than SAFAVIEH Landon",
+      "Lower review volume than SAFAVIEH Landon"
     ],
   },
   {
@@ -170,7 +170,7 @@ export const products: VintageDesk[] = [
     tradeoffs: [
       "Newer listing - lower review count than SAFAVIEH's established products",
       "Desert Brown is not a pure MCM color - more Americana/rustic than Scandinavian MCM",
-      "Verify current stock and availability",
+      "Verify current stock and availability"
     ],
     skipIf:
       "Skip if you specifically want the MCM tapered-leg look - the Desert Brown finish reads as rustic rather than Scandinavian MCM. Skip if stock is unavailable - verify before purchasing.",
@@ -178,12 +178,12 @@ export const products: VintageDesk[] = [
       "Solid wood construction throughout",
       "Two drawers - storage without sacrificing style",
       "SAFAVIEH brand consistency",
-      "Warm desert brown finish suits vintage-natural aesthetics",
+      "Warm desert brown finish suits vintage-natural aesthetics"
     ],
     cons: [
       "Newer listing - lower review count",
       "Not pure MCM color language",
-      "Verify current stock availability",
+      "Verify current stock availability"
     ],
   },
   {
@@ -201,7 +201,7 @@ export const products: VintageDesk[] = [
     tradeoffs: [
       "YEXINGlow is a newer brand with lower review volume",
       "Walnut tone is a finish - verify wood species in description",
-      "Check current availability before purchasing",
+      "Check current availability before purchasing"
     ],
     skipIf:
       "Skip if brand trust with extensive reviews is a priority - the Linon Melissa (Rank 2) has a more established review history. Skip if 47.2\" is too wide for your space - the YEXINGlow 39.4\" (Rank 7) gives the same desk at a smaller footprint.",
@@ -209,12 +209,12 @@ export const products: VintageDesk[] = [
       "47.2\" solid wood with MCM design and 2 drawers - rare combination",
       "Tapered legs give authentic MCM silhouette",
       "47\" width is practical for single-monitor setup",
-      "Solid wood throughout (verify in current listing)",
+      "Solid wood throughout (verify in current listing)"
     ],
     cons: [
       "YEXINGlow is a newer brand with lower review volume",
       "Walnut tone is a finish - verify wood species",
-      "Check current availability",
+      "Check current availability"
     ],
   },
   {
@@ -232,19 +232,19 @@ export const products: VintageDesk[] = [
     tradeoffs: [
       "39.4\" limits desk surface for larger monitor setups",
       "Lower review count - newer listing",
-      "Verify current availability",
+      "Verify current availability"
     ],
     skipIf:
       "Skip if you need 47\"+ of surface width - the YEXINGlow 47.2\" (Rank 6) gives the same desk at a larger footprint. Skip if you need more than a 24\" monitor without a monitor arm.",
     pros: [
       "Compact 39.4\" with solid wood, MCM design, and 2 drawers",
       "Fits tight bedroom and apartment spaces",
-      "Same construction as the 47.2\" at a smaller footprint",
+      "Same construction as the 47.2\" at a smaller footprint"
     ],
     cons: [
       "39.4\" limits surface for larger monitor setups",
       "Lower review count",
-      "Verify current availability",
+      "Verify current availability"
     ],
   },
   {
@@ -262,21 +262,21 @@ export const products: VintageDesk[] = [
     tradeoffs: [
       "Cherry finish is not MCM - different design era and color language",
       "MDF desktop - cannot be refinished, chips at edges over time",
-      "Lower trust signals vs higher-ranked alternatives",
+      "Lower trust signals vs higher-ranked alternatives"
     ],
     skipIf:
       "Use as backup only. If any higher-ranked pick is available, prioritize those. The Modway Render (Rank 3) is the next-most-accessible compact MCM desk if budget is constrained.",
     pros: [
       "Solid rubber wood legs - a real wood element",
       "41\" compact width",
-      "Available as backup when other listings are out of stock",
+      "Available as backup when other listings are out of stock"
     ],
     cons: [
       "Cherry finish is not MCM - different design era",
       "MDF desktop - cannot be refinished",
-      "Lower trust signals vs higher-ranked picks",
+      "Lower trust signals vs higher-ranked picks"
     ],
-  },
+  }
 ];
 
 export interface AtAGlanceRow {
@@ -313,7 +313,7 @@ export const faq: { q: string; a: string }[] = [
   {
     q: "Why do MCM desks suit apartments and small rooms?",
     a: "MCM desks have low visual weight - tapered legs create floor clearance, the horizontal profile reduces visual bulk, and the lack of overhead hutches keeps the ceiling line clear. In a small room, this makes the desk recede visually rather than dominate. Compared to a traditional executive desk with skirting panels and a hutch, an MCM desk in the same room makes the space feel significantly more open.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
@@ -332,5 +332,5 @@ export const relatedGuides: { href: string; title: string }[] = [
   {
     href: "/guide/best-wood-executive-desk",
     title: "Best Wood Executive Desks in 2026",
-  },
+  }
 ];

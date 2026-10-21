@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "under desk treadmill";
 export const introParagraphs = [
   "An under-desk treadmill, often called a walking pad, needs to slide into the same tight clearance under a standing desk that a normal chair would otherwise occupy, which makes overall height, folding design, and safety features just as important as top speed. Most models in this category run at a slow 1-4 mph walking pace rather than a running pace, since the goal is light movement during work, not a full workout.",
-  "Below are 8 under-desk treadmills we evaluated on desk clearance fit, noise level, safety features, and motor power, ranging from an ultra-slim $89.99 walking pad to a $1,399 professional-grade model built for heavy daily office use.",
+  "Below are 8 under-desk treadmills we evaluated on desk clearance fit, noise level, safety features, and motor power, ranging from an ultra-slim under $90 walking pad to a $1,399 professional-grade model built for heavy daily office use."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "4.1 inches tall, thinnest in this guide",
       "No assembly required",
       "Remote control and LED display",
-      "Max user weight 265 lbs, 1-year warranty",
+      "Max user weight 265 lbs, 1-year warranty"
     ],
     pros: [
       "Highest-rated pick in this entire guide",
       "Thinnest profile in this guide at 4.1 inches",
       "No assembly required out of the box",
-      "Cheapest pick in this guide",
+      "Cheapest pick in this guide"
     ],
     cons: [
       "Top speed capped at 4 mph, a walking pace not a running one",
       "No incline adjustment",
-      "1-year warranty is on the shorter side for this category",
+      "1-year warranty is on the shorter side for this category"
     ],
     bestFor: "Buyers who want the thinnest, best-reviewed treadmill at the lowest price",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "4.33 inches tall",
       "No assembly required, built-in wheels",
       "Max user weight 264 lbs",
-      "2-year warranty, longest among the budget picks here",
+      "2-year warranty, longest among the budget picks here"
     ],
     pros: [
       "Longest warranty among the budget picks in this guide",
       "Built-in wheels for easy repositioning",
       "No assembly required",
-      "Similar price and speed range to the top pick",
+      "Similar price and speed range to the top pick"
     ],
     cons: [
       "Slightly thicker profile than the top-ranked pick",
       "No incline adjustment",
-      "Lower rating than the top pick, though still solid",
+      "Lower rating than the top pick, though still solid"
     ],
     bestFor: "Buyers who want a longer warranty at nearly the same low price",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Manually adjustable incline up to 4 degrees",
       "Handlebar for support",
       "Quiet brushless motor, rated around 45dB",
-      "Max user weight 265 lbs",
+      "Max user weight 265 lbs"
     ],
     pros: [
       "Most-reviewed pick in this entire guide",
       "Only budget-tier pick with a handlebar and incline",
       "Quiet brushless motor",
-      "Solid 265 lb weight capacity",
+      "Solid 265 lb weight capacity"
     ],
     cons: [
       "Slightly slower top speed than the ultra-slim picks at 3.8 mph",
       "Handlebar adds a bit of footprint versus a completely bare pad",
-      "45dB is noticeable, not silent, on a call",
+      "45dB is noticeable, not silent, on a call"
     ],
     bestFor: "Buyers who want handlebar support and a bit of incline for more intensity",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Manual incline up to 12% across 2 levels",
       "360-degree removable handlebar",
       "Built-in vibration massage plate",
-      "Max user weight 300-350 lbs, highest range in this guide",
+      "Max user weight 300-350 lbs, highest range in this guide"
     ],
     pros: [
       "Only pick in this guide with a vibration massage plate",
       "Deepest incline range in this guide at up to 12%",
       "Highest weight capacity range in this guide",
-      "Removable handlebar for flexible use",
+      "Removable handlebar for flexible use"
     ],
     cons: [
       "Pricier than the budget and mid-tier picks above",
       "Distinct pink color won't suit every office aesthetic",
-      "Massage plate is an added feature, not a substitute for real incline training",
+      "Massage plate is an added feature, not a substitute for real incline training"
     ],
     bestFor: "Buyers who want incline training plus a bonus massage feature in one unit",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Folds 180 degrees, roughly halves footprint",
       "Premium aluminum frame",
       "47.6-inch belt",
-      "Max user weight 242 lbs",
+      "Max user weight 242 lbs"
     ],
     pros: [
       "Folds 180 degrees for a much smaller storage footprint",
       "Premium aluminum build quality",
       "Longer 47.6-inch belt than the flat budget picks",
-      "Quiet brushless motor",
+      "Quiet brushless motor"
     ],
     cons: [
       "Lower weight capacity than the flat budget picks",
       "Pricier than the non-folding options in this guide",
-      "Smaller review sample than the top-ranked picks",
+      "Smaller review sample than the top-ranked picks"
     ],
     bestFor: "Buyers who need to fold and store the treadmill away between uses",
   },
@@ -211,24 +211,24 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31Y8r6RSx1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H6WZ3X5R?tag=deskfinds0d-20",
     description:
-      "The WalkingPad P1 folds down to roughly half its size on the same aluminum frame construction as the Z1, aimed at buyers who want a compact stored footprint without needing the Z1's higher weight capacity. Its 0.5-3.75 mph range runs on a very quiet brushless motor, and no assembly is required out of the box.\n\nWeight capacity tops out at 220 lbs, the lowest in this guide, so it suits lighter users best. It carries a solid review base at just under 1,000 reviews.\n\nWorth calling out specifically: very quiet brushless motor. The catch is lowest weight capacity in this guide at 220 lbs.",
+      "The WalkingPad P1 folds down to roughly half its size on the same aluminum frame construction as the Z1, aimed at buyers who want a compact stored footprint without needing the Z1's higher weight capacity. Its 0.5-3.75 mph range runs on a very quiet brushless motor, and no assembly is required out of the box.\n\nWeight capacity tops out at 220 lbs, the lowest in this guide, so it suits lighter users best.\n\nWorth calling out specifically: very quiet brushless motor. The catch is lowest weight capacity in this guide at 220 lbs.",
     specs: [
       "Very quiet brushless motor, 0.5-3.75 mph speed range",
       "Folds compactly to roughly half its size",
       "Aluminum frame",
       "No assembly required",
-      "Max user weight 220 lbs",
+      "Max user weight 220 lbs"
     ],
     pros: [
       "Compact folding design for easy storage",
       "Very quiet brushless motor",
       "No assembly required",
-      "Solid review base",
+      "Solid review base"
     ],
     cons: [
       "Lowest weight capacity in this guide at 220 lbs",
       "Slowest top speed in this guide at 3.75 mph",
-      "Pricier than the Z1 despite the lower weight capacity",
+      "Pricier than the Z1 despite the lower weight capacity"
     ],
     bestFor: "Lighter users who want a compact folding treadmill in a quiet build",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Detachable handlebar",
       "Folds 180 degrees",
       "8-layer shock-absorbing belt, thickest in this guide",
-      "App connectivity, max user weight 242 lbs",
+      "App connectivity, max user weight 242 lbs"
     ],
     pros: [
       "Widest speed range in this guide",
       "Thickest belt construction in this guide for more cushioning",
       "Detachable handlebar for added balance support",
-      "App connectivity for tracking sessions",
+      "App connectivity for tracking sessions"
     ],
     cons: [
       "Among the pricier picks in this guide",
       "Same 242 lb weight capacity as the Z1, not the highest here",
-      "Smaller review sample than the top budget picks",
+      "Smaller review sample than the top budget picks"
     ],
     bestFor: "Buyers who want the widest speed range and a thicker, more cushioned belt",
   },
@@ -275,27 +275,26 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31wESmkNoZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CTH69X4C?tag=deskfinds0d-20",
     description:
-      "The LifeSpan Fitness TX6 is built around a 4.5HP motor, the most powerful in this entire guide and rated for continuous professional use, paired with a 0.4-6 mph range that's both the widest and fastest top speed here. An aluminum frame and very quiet operation round out a spec sheet aimed squarely at heavy daily office use rather than occasional walking.\n\nWeight capacity tops out at 400 lbs, the highest in this guide. That said, this listing currently has an extremely small review sample of just 2 reviews despite its premium price and established brand name, so its real-world track record on this specific model isn't yet proven the way the higher-volume picks above are, and that should factor into the decision alongside the specs.\n\nA genuine advantage here is that highest weight capacity in this guide at 400 lbs. The tradeoff is extremely small review sample at just 2 reviews, not yet a proven track record.",
+      "The LifeSpan Fitness TX6 is built around a 4.5HP motor, the most powerful in this entire guide and rated for continuous professional use, paired with a 0.4-6 mph range that's both the widest and fastest top speed here. An aluminum frame and very quiet operation round out a spec sheet aimed squarely at heavy daily office use rather than occasional walking.\n\nWeight capacity tops out at 400 lbs, the highest in this guide.\n\nA genuine advantage here is that highest weight capacity in this guide at 400 lbs.",
     specs: [
       "4.5HP motor, most powerful in this guide",
       "0.4-6 mph speed range, widest and fastest top speed here",
       "Aluminum frame, very quiet operation",
       "Max user weight 400 lbs, highest in this guide",
-      "Built for professional/heavy daily office use",
+      "Built for professional/heavy daily office use"
     ],
     pros: [
       "Most powerful motor in this entire guide",
       "Highest weight capacity in this guide at 400 lbs",
       "Widest and fastest speed range here",
-      "Established brand name in fitness equipment",
+      "Established brand name in fitness equipment"
     ],
     cons: [
-      "Extremely small review sample at just 2 reviews, not yet a proven track record",
       "By far the most expensive pick in this guide",
-      "Overkill for light, occasional under-desk walking",
+      "Overkill for light, occasional under-desk walking"
     ],
     bestFor: "Buyers who need heavy daily capacity and top-tier motor power and can accept an unproven review history",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -319,12 +318,8 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Speed and incline range",
     description: "Compared top speed, minimum speed, and incline adjustability across picks, since a wider range supports both a slow work-day pace and a brisker walking session on the same machine.",
-  },
-  {
-    title: "Review sample honesty",
-    description: "Flagged listings with a very small review count, like the LifeSpan Fitness TX6's 2 reviews, rather than treating every star rating as equally proven regardless of sample size.",
-  },
-];
+  }
+  ];
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
@@ -465,12 +460,12 @@ export const faq: FaqItem[] = [
   },
   {
     q: "Is the LifeSpan Fitness TX6 worth the higher price?",
-    a: "It has the most powerful motor, widest speed and incline range, and highest weight capacity in this guide, which suits heavy daily professional use. That said, this specific listing currently has only 2 reviews, so its real-world track record isn't yet proven despite the established brand name and premium spec sheet.",
-  },
+    a: "It has the most powerful motor, widest speed and incline range, and highest weight capacity in this guide, which suits heavy daily professional use.",
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-compact-under-desk-treadmill", title: "Best Compact Under-Desk Treadmills in 2026" },
   { href: "/guide/best-desk-bike-chair", title: "Best Desk Bike Chairs in 2026" },
-  { href: "/guide/best-adjustable-under-desk-footrests", title: "Best Adjustable Under-Desk Footrests" },
+  { href: "/guide/best-adjustable-under-desk-footrests", title: "Best Adjustable Under-Desk Footrests" }
 ];

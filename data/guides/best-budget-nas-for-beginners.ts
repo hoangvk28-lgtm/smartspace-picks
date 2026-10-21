@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "budget nas for beginners";
 export const introParagraphs = [
   "A first NAS purchase gets confusing fast because the sticker price on a diskless enclosure almost never tells the whole story. Add two NAS-grade drives to a budget 2-bay unit and the total investment often runs close to double the enclosure price alone, which is the single biggest surprise beginners run into after checkout.",
-  "Below are 8 budget NAS picks we evaluated for beginners, ranging from drives-included single-bay units that work out of the box to diskless 2-bay and 4-bay enclosures that need drives purchased separately, with total cost, setup complexity, and drive compatibility weighed alongside the enclosure price itself.",
+  "Below are 8 budget NAS picks we evaluated for beginners, ranging from drives-included single-bay units that work out of the box to diskless 2-bay and 4-bay enclosures that need drives purchased separately, with total cost, setup complexity, and drive compatibility weighed alongside the enclosure price itself."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Supports up to 64TB total capacity",
       "UGOS beginner-oriented software",
       "RAID 0/1 support",
-      "Gigabit Ethernet",
+      "Gigabit Ethernet"
     ],
     pros: [
       "Simpler software onboarding than most enterprise-style NAS brands",
       "Room to grow with 64TB max capacity",
       "RAID 1 mirroring protects against a single drive failure",
-      "Competitive enclosure-only price",
+      "Competitive enclosure-only price"
     ],
     cons: [
       "Diskless, so real cost is enclosure plus 2 drives",
       "Smaller app ecosystem than more established NAS brands",
-      "Newer platform with a shorter support track record",
+      "Newer platform with a shorter support track record"
     ],
     bestFor: "First-time buyers who want the simplest software experience in a diskless 2-bay unit",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Synology DSM software",
       "RAID 1 mirroring support",
       "Centralized file access and monitoring",
-      "Gigabit Ethernet",
+      "Gigabit Ethernet"
     ],
     pros: [
       "Most polished, wizard-driven setup software in this list",
       "Large library of official and community troubleshooting guides",
       "RAID 1 protects data from a single drive failure",
-      "Strong reputation for long-term software support",
+      "Strong reputation for long-term software support"
     ],
     cons: [
       "Priciest enclosure-only pick in this list",
       "Diskless, so drives add to total cost",
-      "Compatibility list for third-party drives can look restrictive to a new buyer",
+      "Compatibility list for third-party drives can look restrictive to a new buyer"
     ],
     bestFor: "Beginners who want the most guided software setup and are willing to pay more for it",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "No RAID (single drive)",
       "Gigabit Ethernet",
       "Home cloud and network storage functions",
-      "Preconfigured out of the box",
+      "Preconfigured out of the box"
     ],
     pros: [
       "Drive included, no separate drive purchase or compatibility research needed",
       "Fastest true beginner setup in this list",
       "Lower total cost than most diskless alternatives once drives are factored in",
-      "Works as home cloud storage with minimal configuration",
+      "Works as home cloud storage with minimal configuration"
     ],
     cons: [
       "No RAID redundancy, a drive failure means total data loss without a separate backup",
       "2TB capacity is limiting for media libraries",
-      "Single-bay design leaves no room to expand later",
+      "Single-bay design leaves no room to expand later"
     ],
     bestFor: "A true beginner who wants storage and backup running today without any drive shopping",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "No RAID (single drive)",
       "Gigabit Ethernet",
       "Home cloud and network storage functions",
-      "Preconfigured out of the box",
+      "Preconfigured out of the box"
     ],
     pros: [
       "6TB included capacity with no separate drive purchase",
       "Total cost is competitive with diskless 2-bay units plus drives",
       "Same simple setup as the 2TB LinkStation",
-      "Good fit for a growing photo or video collection",
+      "Good fit for a growing photo or video collection"
     ],
     cons: [
       "Still no RAID redundancy since it's single-bay",
       "No expansion path if you outgrow 6TB",
-      "A drive failure means total data loss without a separate backup",
+      "A drive failure means total data loss without a separate backup"
     ],
     bestFor: "Beginners who want more included capacity without adding RAID complexity",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "USB Type-C connection to a single host computer",
       "Hardware RAID 0/1/5/6/10",
       "Not network-accessible like true NAS",
-      "Tool-less drive trays",
+      "Tool-less drive trays"
     ],
     pros: [
       "4 bays of hardware RAID at a lower price than comparable true NAS",
       "Simple USB-C connection, no network configuration",
       "Good option for expanding a single computer's storage",
-      "Tool-less design is easy for a first-timer to load drives into",
+      "Tool-less design is easy for a first-timer to load drives into"
     ],
     cons: [
       "Not a true network NAS, only accessible from the connected computer",
       "Diskless, requiring separate drive purchases across 4 bays",
-      "Not the right pick if multi-device network access was the actual goal",
+      "Not the right pick if multi-device network access was the actual goal"
     ],
     bestFor: "Someone who actually wants RAID-protected expansion for one computer, not network storage",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Quad-core 1.7GHz CPU",
       "2.5GbE networking",
       "1GB DDR4 RAM",
-      "4K media server support",
+      "4K media server support"
     ],
     pros: [
       "2.5GbE networking is faster than most budget picks' Gigabit Ethernet",
       "Quad-core CPU handles 4K media transcoding",
       "Same price as the UGREEN pick with faster networking",
-      "Entry-level personal cloud functions built in",
+      "Entry-level personal cloud functions built in"
     ],
     cons: [
       "Diskless, so drives add to the real total cost",
       "2.5GbE only helps if your router and switch also support it",
-      "ADM software has a smaller community than Synology's DSM",
+      "ADM software has a smaller community than Synology's DSM"
     ],
     bestFor: "Beginners who want faster 2.5GbE networking without paying more than a Gigabit-only 2-bay unit",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Intel x86 quad-core CPU",
       "4GB RAM",
       "2.5GbE LAN",
-      "Multimedia server support",
+      "Multimedia server support"
     ],
     pros: [
       "Most powerful CPU and RAM combination among 2-bay picks in this list",
       "2.5GbE networking for faster transfers",
       "Strong headroom for adding apps later without feeling underpowered",
-      "Intel x86 architecture supports a wider software range than ARM-based budget NAS",
+      "Intel x86 architecture supports a wider software range than ARM-based budget NAS"
     ],
     cons: [
       "Highest price among the 2-bay diskless picks in this list",
       "More capability than a true beginner needs on day one",
-      "Diskless, so 2 drives add to the real total cost",
+      "Diskless, so 2 drives add to the real total cost"
     ],
     bestFor: "Beginners who expect to grow into heavier NAS use and want CPU headroom from the start",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "128GB M.2 PCIe 3.0 SSD onboard",
       "2 hard drive bays plus 3 M.2 SSD slots",
       "Dual LAN",
-      "Functions as mini PC, file server, and NAS",
+      "Functions as mini PC, file server, and NAS"
     ],
     pros: [
       "Doubles as a full mini PC and a 2-bay NAS in one device",
       "Dual LAN and onboard SSD add flexibility beyond a standard NAS appliance",
       "Good entry point for a beginner who wants to learn self-hosting",
-      "3 additional M.2 slots for further expansion",
+      "3 additional M.2 slots for further expansion"
     ],
     cons: [
       "Most expensive pick in this list",
       "Requires more technical setup than a purpose-built NAS appliance",
-      "Not the fastest path to simple automatic backup",
+      "Not the fastest path to simple automatic backup"
     ],
     bestFor: "A tech-curious beginner who wants a mini PC and NAS combined, not just simple backup",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Growth headroom",
     description: "Considered CPU, RAM, networking speed, and bay count against how much a beginner is likely to expand into heavier use, like transcoding or running additional apps, over time.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -481,11 +481,11 @@ export const faq: FaqItem[] = [
   {
     q: "Are third-party drive compatibility warnings a dealbreaker on budget NAS units?",
     a: "Usually not. Value-series NAS models tend to be the least restrictive about third-party drives, while stepping up to a Plus-series or higher model can show compatibility warnings that look scary but often only disable some vendor-specific health monitoring rather than blocking the drive from functioning. Check the specific warning's wording before assuming a drive won't work.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-nas-for-plex-media-servers", title: "Best NAS for Plex Media Servers (2026)" },
   { href: "/guide/best-2-bay-nas-for-home-offices", title: "Best 2-Bay NAS for Home Offices (2026)" },
-  { href: "/guide/best-nas-for-automatic-computer-backup", title: "Best NAS for Automatic Computer Backup (2026)" },
+  { href: "/guide/best-nas-for-automatic-computer-backup", title: "Best NAS for Automatic Computer Backup (2026)" }
 ];

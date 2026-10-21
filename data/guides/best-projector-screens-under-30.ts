@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The largest viewing area with double-sided projection", "Mdbebbron 120 inch Projector Screen, Foldable Anti-Crease"],
         ["Genuinely machine-washable fabric", "AAJK 100inch Outdoor Projector Screen, Anti Crease Portable"],
         ["The same washable quality at a lower price for smaller rooms", "AAJK 80inch Outdoor Projector Screen, Anti Crease Portable"],
-        ["The lowest possible price for occasional use", "Projector Screen, 100 inch Foldable Portable"],
+        ["The lowest possible price for occasional use", "Projector Screen, 100 inch Foldable Portable"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $12", "100 inch Foldable Portable ($11.99)"],
-        ["Under $19", "AAJK 80inch ($18.58)"],
-        ["Under $22", "AAJK 100inch ($21.28)"],
-        ["Under $25", "Mdbebbron 120inch ($24.99)"],
+        ["Under $12", "100 inch Foldable Portable (under $15)"],
+        ["Under $19", "AAJK 80inch (under $20)"],
+        ["Under $22", "AAJK 100inch (under $25)"],
+        ["Under $25", "Mdbebbron 120inch (under $25)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Machine-Washable vs Spot-Clean-Only Fabric",
     cards: [
       { label: "Machine-washable (AAJK 80in, AAJK 100in)", text: "Lets you toss the screen in the wash if it gets dusty or dirty from outdoor use, a genuine maintenance advantage." },
-      { label: "Spot-clean only (Mdbebbron, 100in Foldable)", text: "Requires more careful manual cleaning, though this matters less if the screen stays indoors in a clean environment." },
+      { label: "Spot-clean only (Mdbebbron, 100in Foldable)", text: "Requires more careful manual cleaning, though this matters less if the screen stays indoors in a clean environment." }
     ],
     note: "If you plan frequent outdoor use where the screen will get dusty or dirty, the AAJK picks' washable fabric is worth prioritizing. If your screen stays indoors in a clean space, any of the four picks work fine.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Smaller room, casual use", "AAJK 80inch (75in x 44in)"],
         ["Standard room", "AAJK 100inch (89in x 50in) or 100 inch Foldable"],
-        ["Larger room, maximum size", "Mdbebbron 120inch (104in x 58in)"],
+        ["Larger room, maximum size", "Mdbebbron 120inch (104in x 58in)"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a First-Time Buyer Testing Projector Screen Setups Specifically",
     cards: [
       { label: "Look for", text: "A screen that transparently sets expectations about its casual-use positioning rather than overselling professional-grade quality at a budget price." },
-      { label: "In this comparison", text: "The 100 inch Foldable pick's listing specifically and honestly states it's designed for casual use, not a heavy-duty professional screen, helping first-time buyers set accurate expectations." },
+      { label: "In this comparison", text: "The 100 inch Foldable pick's listing specifically and honestly states it's designed for casual use, not a heavy-duty professional screen, helping first-time buyers set accurate expectations." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the largest viewing area with double-sided projection flexibility, where the Mdbebbron pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You just need a basic screen for occasional casual use, where the 100 inch Foldable pick covers that for about $13 less." },
+      { label: "Save if", text: "You just need a basic screen for occasional casual use, where the 100 inch Foldable pick covers that for about $13 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

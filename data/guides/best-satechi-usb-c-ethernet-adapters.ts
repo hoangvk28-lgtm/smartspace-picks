@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31-zCi44-fL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B071SLP2B8?tag=deskfinds0d-20",
-    description: "A slim, compact Gigabit (10/100/1000Mbps) adapter with a modern brushed aluminum design meant to complement other Satechi and Apple accessories on a desk.\n\nTrue plug-and-play with no additional drivers or software needed, backed by Satechi's 2-year limited warranty and included user manual.\n\nThe strongest case for this pick comes down to brushed aluminum design matches other premium desk accessories as well as true plug-and-play, no drivers or software needed. The compromise here is that gigabit only, no multi-gig upgrade path in this specific model, so factor that in alongside the $29.99 asking price.",
+    description: "A slim, compact Gigabit (10/100/1000Mbps) adapter with a modern brushed aluminum design meant to complement other Satechi and Apple accessories on a desk.\n\nTrue plug-and-play with no additional drivers or software needed, backed by Satechi's 2-year limited warranty and included user manual.\n\nThe strongest case for this pick comes down to brushed aluminum design matches other premium desk accessories as well as true plug-and-play, no drivers or software needed. The compromise here is that gigabit only, no multi-gig upgrade path in this specific model, so factor that in alongside the under $30 asking price.",
     specs: ["10/100/1000Mbps Gigabit Ethernet","Brushed aluminum design","2-year limited warranty"],
     pros: ["Brushed aluminum design matches other premium desk accessories","True plug-and-play, no drivers or software needed","2-year limited warranty from an established brand","Small desk footprint"],
     cons: ["Gigabit only, no multi-gig upgrade path in this specific model","No PD charging or extra ports"],
@@ -75,10 +75,10 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/3166Jc3nU1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075FW7H5J?tag=deskfinds0d-20",
-    description: "An 8-in-1 hub combining 4K@60Hz HDMI, Gigabit Ethernet, USB-A 3.0, Micro/SD card readers, and up to 115W USB-C PD charging in one compact, durable aluminum build.\n\nDesigned specifically for everyday USB-C expansion on MacBook Air/Pro and compatible with Windows laptops and iPad Pro, backed by Satechi's 2-year limited warranty.\n\nThis pick is best for buyers who value 4K@60Hz HDMI output, a genuine step up from 30Hz hubs along with 115W PD charging, among the highest passthrough wattage in this cluster. The catch is that highest price of any hub in this comparison ($89.99), so decide if that's worth it at $89.99.",
+    description: "An 8-in-1 hub combining 4K@60Hz HDMI, Gigabit Ethernet, USB-A 3.0, Micro/SD card readers, and up to 115W USB-C PD charging in one compact, durable aluminum build.\n\nDesigned specifically for everyday USB-C expansion on MacBook Air/Pro and compatible with Windows laptops and iPad Pro, backed by Satechi's 2-year limited warranty.\n\nThis pick is best for buyers who value 4K@60Hz HDMI output, a genuine step up from 30Hz hubs along with 115W PD charging, among the highest passthrough wattage in this cluster. The catch is that highest price of any hub in this comparison (under $90), so decide if that's worth it at under $90.",
     specs: ["8-in-1: 4K@60Hz HDMI, Gigabit Ethernet, USB-A, SD/microSD, 115W PD","Compact aluminum build","2-year limited warranty"],
     pros: ["4K@60Hz HDMI output, a genuine step up from 30Hz hubs","115W PD charging, among the highest passthrough wattage in this cluster","SD and microSD card readers included for content workflows","2-year limited warranty from an established brand"],
-    cons: ["Highest price of any hub in this comparison ($89.99)","Larger footprint than a single-purpose Ethernet dongle"],
+    cons: ["Highest price of any hub in this comparison (under $90)","Larger footprint than a single-purpose Ethernet dongle"],
     bestFor: "buyers prioritizing 8-in-1: 4k@60hz hdmi, gigabit ethernet, usb-a, sd/microsd, 115w pd",
   }
 ];
@@ -142,19 +142,19 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $29.99",
+          "Under $30",
           "Satechi Aluminum USB-C to Gigabit Ethernet Adapter"
         ],
         [
-          "Around $39.99",
+          "Under $40",
           "Satechi USB-C to Ethernet Adapter 2.5Gbps"
         ],
         [
-          "Around $44.99",
+          "Under $45",
           "Satechi 4-in-1 USB-C Ethernet Adapter 2.5Gbps"
         ],
         [
-          "Around $89.99",
+          "Under $90",
           "Satechi 8-in-1 USB-C Hub V2"
         ]
       ]
@@ -209,10 +209,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "Satechi Aluminum USB-C to Gigabit Ethernet Adapter is aimed at buyers prioritizing 10/100/1000mbps gigabit ethernet, at $29.99."
+        "text": "Satechi Aluminum USB-C to Gigabit Ethernet Adapter is aimed at buyers prioritizing 10/100/1000mbps gigabit ethernet, at under $30."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -253,9 +253,9 @@ export const faq = [
   }
 ,
   { "q": "What's the single best pick to come out of this comparison?", a: "Satechi USB-C to Ethernet Adapter 2.5Gbps is aimed at buyers prioritizing 2.5gbps, ethernet pass-through on pcs." },
-  { q: "Which pick offers the best value for a tight budget?", a: "Satechi Aluminum USB-C to Gigabit Ethernet Adapter is aimed at buyers prioritizing 10/100/1000mbps gigabit ethernet, and at $29.99 it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $29.99 to $89.99, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
-  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Satechi 8-in-1 USB-C Hub V2 is aimed at buyers prioritizing 8-in-1: 4k@60hz hdmi, gigabit ethernet, usb-a, sd/microsd, 115w pd. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Satechi Aluminum USB-C to Gigabit Ethernet Adapter is aimed at buyers prioritizing 10/100/1000mbps gigabit ethernet, and at under $30 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $30 to $90, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Satechi 8-in-1 USB-C Hub V2 is aimed at buyers prioritizing 8-in-1: 4k@60hz hdmi, gigabit ethernet, usb-a, sd/microsd, 115w pd. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-usb-c-to-2-5gbe-ethernet-adapters","title":"8 Best USB-C to 2.5GbE Ethernet Adapters"},{"href":"/guide/best-usb-c-multiport-adapters-with-ethernet","title":"7 Best USB-C Multiport Adapters With Ethernet"},{"href":"/guide/best-ugreen-usb-c-ethernet-adapters","title":"5 Best UGREEN USB-C Ethernet Adapters"}];

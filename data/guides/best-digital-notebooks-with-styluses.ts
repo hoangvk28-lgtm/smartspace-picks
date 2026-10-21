@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook with stylus";
 export const introParagraphs = [
   "A stylus is standard across most of this product category, so simply having one isn't a real differentiator. What we actually compared is whether the pen is included in the purchase price versus needing to be bought separately, and whether it's an active pressure-sensitive pen or a passive one.",
-  "We also checked pen technology directly: battery-free electromagnetic pens (common on drawing-focused tablets) versus battery-powered active pens (common on E Ink devices), since replacement cost and charging behavior differ between the two.",
+  "We also checked pen technology directly: battery-free electromagnetic pens (common on drawing-focused tablets) versus battery-powered active pens (common on E Ink devices), since replacement cost and charging behavior differ between the two."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41StVO0JWOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DX234NWP?tag=deskfinds0d-20",
     description: "16384 pressure levels puts this well ahead of basic active-pen devices for anyone doing real sketching alongside note-taking, with the pen included in the listed price.\n\nIt earns the top spot in this comparison over XPPen 3 in 1 Color Digital Notebook 10.95\" for one main reason. Highest pressure sensitivity in this comparison. On price, it comes in below XPPen 3 in 1 Color Digital Notebook 10.95\", which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Pen included, not sold separately. On the other side, More expensive than the other options here. That's the main tradeoff to weigh against everything above.",
-    specs: ["16384 pressure levels","Pen included in price","329 reviews at 4.3 stars"],
+    specs: ["16384 pressure levels","Pen included in price"],
     pros: ["Highest pressure sensitivity in this comparison","Pen included, not sold separately"],
     cons: ["More expensive than the other options here"],
     bestFor: "Buyers who want real sketching-grade pressure sensitivity, not just basic note-taking.",
@@ -47,7 +47,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31dwpvU+C7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2SHL3DH?tag=deskfinds0d-20",
     description: "Same 16384-pressure-level pen included in the price, listed as a separate bundle at a higher cost, verify accessory differences on the current listing before choosing this over the cheaper option above.\n\nOne spot below XPPen 3 in 1 Color Digital Notebook 10.95\" in this ranking, it costs more than XPPen 3 in 1 Color Digital Notebook 10.95\". The compromise here is straightforward: Costs more than the other XPPen listing with a slightly lower rating. What you gain in return: Same high-pressure-sensitivity pen as the cheaper listing. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Same high-pressure-sensitivity pen as the cheaper listing. On the other side, Costs more than the other XPPen listing with a slightly lower rating. That's the main tradeoff to weigh against everything above.",
-    specs: ["16384 pressure levels","Pen included in price","180 reviews at 4.2 stars"],
+    specs: ["16384 pressure levels","Pen included in price"],
     pros: ["Same high-pressure-sensitivity pen as the cheaper listing"],
     cons: ["Costs more than the other XPPen listing with a slightly lower rating"],
     bestFor: "Buyers comparing XPPen bundles who should verify what extra accessories justify the higher price.",
@@ -63,7 +63,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31djMiO0-jL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GCDRFJQG?tag=deskfinds0d-20",
     description: "Pen included at a fraction of the cost of the pressure-sensitive drawing tablets above, with the largest review base in this comparison, though without the same pressure-level sophistication.\n\nSitting just under XPPen 3 in 1 Color Digital Notebook 10.95\", it's priced lower than XPPen 3 in 1 Color Digital Notebook 10.95\". Here's the honest tradeoff: Not built for pressure-sensitive sketching the way the higher-priced XPPen options are. And here's what it gets you instead: Lowest price with pen included. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Largest, most established review base here. On the other side, Not built for pressure-sensitive sketching the way the higher-priced XPPen options are. That's the main tradeoff to weigh against everything above.",
-    specs: ["Pen included in price","Bluetooth sync to phone","1,889 reviews at 4.4 stars"],
+    specs: ["Pen included in price","Bluetooth sync to phone"],
     pros: ["Lowest price with pen included","Largest, most established review base here"],
     cons: ["Not built for pressure-sensitive sketching the way the higher-priced XPPen options are"],
     bestFor: "Budget-focused buyers who want a pen included without paying for pro-level pressure sensitivity.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41PJ-F0w37L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BG2T9SGV?tag=deskfinds0d-20",
     description: "The pen here is battery-free, using electromagnetic resonance rather than an internal battery, one less thing to charge or lose track of, with the pen included in the price.\n\nRanked just behind XPPen Note Plus Digital Notebook with Pen, it costs more than XPPen Note Plus Digital Notebook with Pen. The real tradeoff against that pick: Slightly lower rating than the XPPen Note Plus. In exchange, it offers this instead: Battery-free pen removes a charging step entirely. That's the swap that decides whether this pick or the one above it is the better fit for your note-taking needs.\n\nWorth knowing before you decide: Doubles as a drawing tablet. On the other side, Slightly lower rating than the XPPen Note Plus. That's the main tradeoff to weigh against everything above.",
-    specs: ["Battery-free electromagnetic pen included","2-in-1 notebook/drawing tablet","671 reviews at 4.2 stars"],
+    specs: ["Battery-free electromagnetic pen included","2-in-1 notebook/drawing tablet"],
     pros: ["Battery-free pen removes a charging step entirely","Doubles as a drawing tablet"],
     cons: ["Slightly lower rating than the XPPen Note Plus"],
     bestFor: "Buyers who specifically want a pen that never needs charging.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Pen included vs. sold separately", description: "We verified whether the listed price includes the stylus outright, since a device that requires buying the pen separately isn't a fair price comparison against one that bundles it." },
   { title: "Pressure sensitivity as a real differentiator", description: "We compared actual pressure-level specs (16384 levels on the XPPen devices) rather than treating every included pen as equivalent." },
   { title: "Battery-free vs. battery-powered pen technology", description: "We noted where a pen uses electromagnetic resonance (no battery, no charging) versus an active battery-powered pen, since that affects long-term convenience and replacement cost." },
-  { title: "Bundle variance on premium devices", description: "For the Kindle Scribe lineup specifically, we flagged that pen tier bundled can vary by listing and should be verified before purchase." },
+  { title: "Bundle variance on premium devices", description: "For the Kindle Scribe lineup specifically, we flagged that pen tier bundled can vary by listing and should be verified before purchase." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,12 +242,13 @@ export const faq: FaqItem[] = [
   { q: "Does the stylus come included, or do I need to buy it separately?", a: "Varies by product. XPPen and HUION options here include the pen in the listed price. Verify Kindle Scribe listings specifically, since pen tier bundled can vary." },
   { q: "Which pen has the best pressure sensitivity?", a: "The XPPen 3 in 1 Color Digital Notebook, with 16384 pressure levels, the highest in this comparison." },
   { q: "Is a battery-free pen better?", a: "It depends on your priorities. Battery-free (HUION) means nothing to charge, but battery-powered active pens sometimes support more advanced features." },
-  { q: "What's the cheapest option with a pen included?", a: "The XPPen Note Plus at $69.98, with the pen bundled and 1,889 reviews backing it up." },
+  
   { q: "Why are two XPPen listings nearly identical?", a: "They use the same core pen and pressure-sensitivity technology at slightly different prices, check the current listing for exact bundle differences before choosing between them." },
+  { q: "How do I replace a worn stylus tip?", a: "Most stylus tips are removable and come with a few spares in the box. Pull the old tip out with the small tool included, then press in a new one. Replace the tip when writing feels scratchy to avoid damaging the screen." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks-under-200", title: "Best Digital Notebooks Under $200 (2026)" },
   { href: "/guide/best-digital-notebooks-for-sketching", title: "Best Digital Notebooks for Sketching (2026)" },
-  { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" },
+  { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" }
 ];

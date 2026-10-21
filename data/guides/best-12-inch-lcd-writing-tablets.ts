@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "12 inch lcd writing tablet";
 export const introParagraphs = [
   "12 inch screens are noticeably less common than 8.5 or 10 inch sizes in this category, so this guide covers the full available selection at this size rather than a filtered top pick list, an honest reflection of the current market rather than a padded ranking.",
-  "At this size, expect a real tradeoff between writing room and portability, a 12 inch screen suits sketching, diagrams, or multi-line lists far better than smaller sizes, but it takes up correspondingly more desk space and isn't as easy to slip into a bag.",
+  "At this size, expect a real tradeoff between writing room and portability, a 12 inch screen suits sketching, diagrams, or multi-line lists far better than smaller sizes, but it takes up correspondingly more desk space and isn't as easy to slip into a bag."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Full available selection confirmed at this size", description: "Verified this represents the complete set of genuinely 12 inch products in the researched pool, rather than a filtered subset padded with wrong-size items." },
   { title: "Rechargeable versus battery-powered noted for each pick", description: "Flagged which models charge via USB Type-C versus use a replaceable coin-cell battery, a real ownership difference at this larger size." },
   { title: "Per-unit value calculated for the available 2-pack", description: "Compared the 2-pack's per-screen cost against single-unit listings to assess genuine value at this size tier." },
-  { title: "Gift and travel marketing weighed for buyer intent", description: "Considered how gift-occasion or travel-specific marketing matches common reasons buyers search for a larger screen." },
+  { title: "Gift and travel marketing weighed for buyer intent", description: "Considered how gift-occasion or travel-specific marketing matches common reasons buyers search for a larger screen." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -238,11 +238,11 @@ export const faq: FaqItem[] = [
   { q: "Are there many 12 inch LCD writing tablet options available?", a: "Fewer than at 8.5 or 10 inches, this size is a smaller tier of the market, this guide covers the full genuinely 12 inch selection found in current research." },
   { q: "Is a 12 inch LCD writing tablet worth it over a 10 inch one?", a: "Only if you regularly need more writing room for sketching or longer lists, otherwise the extra desk space required may not be worth it." },
   { q: "Do 12 inch LCD writing tablets come in rechargeable versions?", a: "Yes, at least one 12 inch model in this size charges via USB Type-C rather than using a replaceable coin-cell battery." },
-  { q: "Are 12 inch LCD writing tablets suitable for adults?", a: "Yes, while several are marketed toward kids, the same underlying technology works well for adult sketching, planning, or note-taking." },
+  { q: "Are 12 inch LCD writing tablets suitable for adults?", a: "Yes, while several are marketed toward kids, the same underlying technology works well for adult sketching, planning, or note-taking." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-10-inch-lcd-writing-tablets", title: "Best 10 Inch LCD Writing Tablets (2026)" },
   { href: "/guide/best-16-inch-lcd-writing-tablets", title: "Best 16 Inch LCD Writing Tablets (2026)" },
-  { href: "/guide/best-large-lcd-writing-tablets", title: "Best Large LCD Writing Tablets (2026)" },
+  { href: "/guide/best-large-lcd-writing-tablets", title: "Best Large LCD Writing Tablets (2026)" }
 ];

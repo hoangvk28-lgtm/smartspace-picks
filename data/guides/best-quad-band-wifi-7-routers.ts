@@ -5,8 +5,7 @@ export const metaDescription =
   "4 quad-band Wi-Fi 7 routers we evaluated for real device-density benefits, and an honest look at whether your household actually needs one.";
 export const mainKeyword = "quad-band wifi 7 router";
 export const introParagraphs = [
-  "Quad-band Wi-Fi 7 routers add a second 5GHz radio on top of the standard 2.4/5/6GHz set, and the real benefit is device capacity in dense environments, not raw speed, worth correcting the 'faster' implication marketing often carries since genuine device-density gains typically only appear once you're running 30 or more simultaneously connected devices.",
-  "This is a small, expensive product category, worth honestly weighing against a well-configured tri-band router or mesh setup at a meaningfully lower price for a typical home, and note that the second radio's real value depends on band-steering logic actually routing devices to it, plus enough CPU and RAM headroom to run four simultaneous radio streams without bottlenecking.",
+  "This is a small, expensive product category, worth honestly weighing against a well-configured tri-band router or mesh setup at a meaningfully lower price for a typical home, and note that the second radio's real value depends on band-steering logic actually routing devices to it, plus enough CPU and RAM headroom to run four simultaneous radio streams without bottlenecking."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Quad-Band Gaming Pick",
     name: "ASUS ROG Rapture GT-BE98 Pro WiFi 7 Gaming Router",
     price: "$679.99",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "576 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31gp8DwYtwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPQYSXCW?tag=deskfinds0d-20",
     description:
@@ -43,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Quad-Band Pick",
     name: "TP-Link Archer BE24000 Quad-Band WiFi 7 Router (Archer BE900)",
     price: "$599.99",
-    rating: "4.1 stars from Amazon ratings",
-    reviews: "209 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Y2ow7rQiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BRD3P4XV?tag=deskfinds0d-20",
     description:
@@ -60,14 +59,14 @@ export const products: GuideProduct[] = [
     badge: "Best Mesh-Ready Quad-Band Pick",
     name: "TP-Link Deco 7 Elite BE95 Quad-Band WiFi 7 BE33000 Whole Home Mesh System",
     price: "$633.48",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "437 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21SZpiSQfaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CD9QCPS5?tag=deskfinds0d-20",
     description:
       "A 16-stream quad-band mesh system with 2x10G ports, appropriate for large homes wanting both quad-band device density and genuine whole-home mesh coverage in a single purchase.\n\nCombining quad-band radios with mesh adds real cost, worth honestly comparing against a standalone quad-band router or a tri-band mesh kit depending on whether your priority is device density or square footage.\n\nA genuine advantage here is that 16-stream configuration for very high total capacity. The tradeoff is that high combined cost for both quad-band and mesh hardware.",
     specs: ["Quad-band mesh system", "16-stream, BE33000 combined rating", "2x 10G ports", "Whole-home mesh coverage"],
-    pros: ["Combines quad-band device density with genuine mesh coverage", "16-stream configuration for very high total capacity", "2x 10G ports for fast wired backhaul or client connections", "Solid 4.2-star rating with a decent review base"],
+    pros: ["Combines quad-band device density with genuine mesh coverage", "16-stream configuration for very high total capacity", "2x 10G ports for fast wired backhaul or client connections"],
     cons: ["High combined cost for both quad-band and mesh hardware", "Overkill for households that need only one of density or coverage, not both", "Verify node count included matches your actual square footage needs"],
     bestFor: "Large homes wanting both quad-band device density and whole-home mesh coverage together",
   },
@@ -77,17 +76,17 @@ export const products: GuideProduct[] = [
     badge: "Best Larger-Home Quad-Band Mesh Pick",
     name: "TP-Link Deco 7 Elite BE95 BE33000 Quad-Band WiFi 7 Mesh System",
     price: "$899.99",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "437 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31ykFvpQjkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BRD7YGR6?tag=deskfinds0d-20",
     description:
       "A larger node-count configuration of the same Deco 7 Elite BE95 quad-band mesh platform, appropriate for buyers whose homes exceed 7,800 square feet and need extra nodes for genuine whole-home coverage.\n\nAt this price, honestly assess whether a typical home actually needs quad-band mesh capacity, since a well-configured tri-band mesh system at a meaningfully lower cost handles most households' real device counts and square footage.\n\nSame proven Deco 7 Elite BE95 quad-band platform. That said, highest price in this guide, a real premium over tri-band mesh alternatives. Neither should be a surprise once you know to look for it.",
     specs: ["Quad-band mesh system", "16-stream, BE33000 combined rating", "Covers up to 7,800 sq. ft.", "Additional node configuration"],
-    pros: ["Largest coverage footprint in this guide at up to 7,800 sq. ft.", "Same proven Deco 7 Elite BE95 quad-band platform", "16-stream configuration for very high device capacity", "Solid 4.2-star rating"],
+    pros: ["Largest coverage footprint in this guide at up to 7,800 sq. ft.", "Same proven Deco 7 Elite BE95 quad-band platform", "16-stream configuration for very high device capacity"],
     cons: ["Highest price in this guide, a real premium over tri-band mesh alternatives", "Genuine benefit only applies to very large homes or very high device counts", "Worth comparing against a tri-band mesh kit before committing to this price"],
     bestFor: "Very large homes exceeding 7,800 sq. ft. that genuinely need extra quad-band mesh nodes",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -95,7 +94,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Device-density benefit weighed against raw speed marketing", description: "Corrected the common 'faster' implication of quad-band marketing, since the real benefit is device capacity, not per-device throughput." },
   { title: "CPU and RAM headroom checked for genuine four-radio operation", description: "Noted that four simultaneous radio streams need real processing headroom, and budget quad-band units can bottleneck despite the extra radio." },
   { title: "Price weighed against a tri-band mesh alternative for typical homes", description: "Honestly compared quad-band pricing against a well-configured tri-band mesh setup for households below the genuine device-density threshold." },
-  { title: "Band-steering logic considered as the real determinant of second-radio value", description: "Noted that the second 5GHz radio's practical value depends on how effectively a router's band-steering logic actually uses it." },
+  { title: "Band-steering logic considered as the real determinant of second-radio value", description: "Noted that the second 5GHz radio's practical value depends on how effectively a router's band-steering logic actually uses it." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -222,11 +221,11 @@ export const faq: FaqItem[] = [
   { q: "Does quad-band Wi-Fi 7 make my internet faster?", a: "Not for a single device, its real benefit is handling more simultaneous devices without congestion, not raw per-device speed." },
   { q: "How many devices do I need before quad-band matters?", a: "Genuine device-density benefits typically only show up around 30 or more simultaneously connected devices in a household." },
   { q: "Is quad-band worth the price for a typical home?", a: "Usually not, a well-configured tri-band router or mesh system handles most households' real device counts at a meaningfully lower cost." },
-  { q: "Why do some quad-band routers bottleneck despite the extra radio?", a: "Running four radio streams needs real CPU and RAM headroom, and budget quad-band units sometimes lack the processing power to use the extra radio well." },
+  { q: "Why do some quad-band routers bottleneck despite the extra radio?", a: "Running four radio streams needs real CPU and RAM headroom, and budget quad-band units sometimes lack the processing power to use the extra radio well." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-tri-band-wifi-7-routers", title: "Best Tri-Band Wi-Fi 7 Routers (2026)" },
   { href: "/guide/best-mesh-wifi-7-routers", title: "Best Mesh Wi-Fi 7 Routers (2026)" },
-  { href: "/guide/best-wifi-7-routers-for-gaming", title: "Best Wi-Fi 7 Routers for Gaming (2026)" },
+  { href: "/guide/best-wifi-7-routers-for-gaming", title: "Best Wi-Fi 7 Routers for Gaming (2026)" }
 ];

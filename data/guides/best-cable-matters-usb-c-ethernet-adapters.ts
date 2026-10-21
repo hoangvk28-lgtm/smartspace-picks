@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41yhx+F7n-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8B7143W?tag=deskfinds0d-20",
-    description: "A straightforward Gigabit adapter supporting Wake-on-LAN, PXE booting, and MAC address cloning, genuine enterprise manageability features rarely found on budget adapters.\n\nAluminum housing with braided pigtail cable, works across Windows, macOS, Linux, ChromeOS, and iOS. Explicitly not for Nintendo Switch.\n\nWhat stands out here is supports Wake-on-LAN, PXE booting, and MAC address cloning, real IT-manageability features, plus plug-and-play with no drivers needed for standard use. The main tradeoff: explicitly not compatible with Nintendo Switch, so weigh that against the $14.99 price before buying.",
+    description: "A straightforward Gigabit adapter supporting Wake-on-LAN, PXE booting, and MAC address cloning, genuine enterprise manageability features rarely found on budget adapters.\n\nAluminum housing with braided pigtail cable, works across Windows, macOS, Linux, ChromeOS, and iOS. Explicitly not for Nintendo Switch.\n\nWhat stands out here is supports Wake-on-LAN, PXE booting, and MAC address cloning, real IT-manageability features, plus plug-and-play with no drivers needed for standard use. The main tradeoff: explicitly not compatible with Nintendo Switch, so weigh that against the under $15 price before buying.",
     specs: ["Gigabit Ethernet with WoL, PXE, MAC cloning","Aluminum housing, braided pigtail cable","Not for Nintendo Switch"],
     pros: ["Supports Wake-on-LAN, PXE booting, and MAC address cloning, real IT-manageability features","Plug-and-play with no drivers needed for standard use","Aluminum housing with braided cable for durability","Works across five major operating systems including iOS"],
     cons: ["Explicitly not compatible with Nintendo Switch","No PD charging on this specific model"],
@@ -230,11 +230,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Cable Matters USB-C to Gigabit Ethernet Adapter",
-        "text": "Cable Matters USB-C to Gigabit Ethernet Adapter is aimed at buyers prioritizing gigabit ethernet with wol, pxe, mac cloning At $14.99, it's the lowest-cost pick in this comparison."
+        "text": "Cable Matters USB-C to Gigabit Ethernet Adapter is aimed at buyers prioritizing gigabit ethernet with wol, pxe, mac cloning At under $15, it's the lowest-cost pick in this comparison."
       },
       {
         "label": "Cable Matters USB-C to 5Gb Ethernet with 140W Charging",
-        "text": "Cable Matters USB-C to 5Gb Ethernet with 140W Charging is aimed at buyers prioritizing 5gbps ethernet + 140w pd At $39.99, it sits at the higher end of this comparison's price range."
+        "text": "Cable Matters USB-C to 5Gb Ethernet with 140W Charging is aimed at buyers prioritizing 5gbps ethernet + 140w pd At under $40, it sits at the higher end of this comparison's price range."
       }
     ],
     "note": "Most buyers should default to Cable Matters USB-C to Gigabit Ethernet Adapter unless the pricier pick's specific advantage applies to your situation."
@@ -278,7 +278,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "Cable Matters USB-C to 5Gb Ethernet Adapter Buyers prioritizing 5000mbps ethernet, requires usb 3.2 gen 2+. Cable Matters USB-C to 2.5Gb Ethernet Adapter Buyers prioritizing 2.5gbps ethernet."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -319,9 +319,9 @@ export const faq = [
   }
 ,
   { q: "Which pick in this comparison is the best overall choice?", "a": "Cable Matters USB-C to 5Gb Ethernet Adapter is aimed at buyers prioritizing 5000mbps ethernet, requires usb 3.2 gen 2+" },
-  { q: "Which pick offers the best value for a tight budget?", "a": "Cable Matters USB-C to Gigabit Ethernet Adapter is aimed at buyers prioritizing gigabit ethernet with wol, pxe, mac cloning At $14.99, it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $14.99 to $39.99, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
-  { q: "Is the most expensive pick in this comparison worth the extra cost?", "a": "Cable Matters USB-C to 5Gb Ethernet with 140W Charging is aimed at buyers prioritizing 5gbps ethernet + 140w pd Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
+  { q: "Which pick offers the best value for a tight budget?", "a": "Cable Matters USB-C to Gigabit Ethernet Adapter is aimed at buyers prioritizing gigabit ethernet with wol, pxe, mac cloning At under $15, it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $15 to $40, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", "a": "Cable Matters USB-C to 5Gb Ethernet with 140W Charging is aimed at buyers prioritizing 5gbps ethernet + 140w pd Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-5gbe-usb-c-ethernet-adapters","title":"5 Best 5GbE USB-C Ethernet Adapters"},{"href":"/guide/best-usb-c-to-2-5gbe-ethernet-adapters","title":"8 Best USB-C to 2.5GbE Ethernet Adapters"},{"href":"/guide/best-usb-c-ethernet-adapters-with-100w-charging","title":"7 Best USB-C Ethernet Adapters With 100W Charging"}];

@@ -49,7 +49,7 @@ export const products: ClassHeadphone[] = [
       { label: "Mic", value: "Built-in, adequate for calls" },
       { label: "Weight", value: "147g" },
       { label: "Connectivity", value: "Bluetooth 5.2 + 3.5mm wired fallback" },
-      { label: "Foldable", value: "Yes -- flat fold for bag storage" },
+      { label: "Foldable", value: "Yes -- flat fold for bag storage" }
     ],
     pros: ["50-hour battery eliminates charging anxiety", "Lightest pick at 147g", "USB-C quick charge (90 min from 3 min)", "Foldable, Bluetooth 5.2", "Wired fallback via 3.5mm"],
     cons: ["On-ear (not over-ear) -- some find less comfortable over 3+ hours", "Built-in mic not as clear as boom mic"],
@@ -74,7 +74,7 @@ export const products: ClassHeadphone[] = [
       { label: "Connectivity", value: "USB-A (Chromebook certified, PC, Mac via USB)" },
       { label: "In-line controls", value: "Volume wheel + mute button" },
       { label: "Weight", value: "~165g" },
-      { label: "Cable length", value: "~2.3m" },
+      { label: "Cable length", value: "~2.3m" }
     ],
     pros: ["Best mic clarity in this roundup (boom proximity)", "No charging ever -- plug and use", "In-line mute for quick silencing during class", "Chromebook certified, works everywhere", "Lowest-cost pick with serious mic quality"],
     cons: ["Wired only", "USB-A may need adapter on newer MacBooks", "Less comfortable for casual listening vs dedicated headphones"],
@@ -99,7 +99,7 @@ export const products: ClassHeadphone[] = [
       { label: "Battery", value: "40 hours with ANC on (60 hours without)" },
       { label: "Transparency mode", value: "Yes" },
       { label: "Mic", value: "Built-in for calls" },
-      { label: "Bluetooth", value: "5.0" },
+      { label: "Bluetooth", value: "5.0" }
     ],
     pros: ["Hybrid ANC blocks real dorm/shared-room noise", "40h ANC battery -- best value in this price range", "Transparency mode for quick awareness", "Over-ear comfort for long sessions", "Affordable ANC"],
     cons: ["Heavier than Sony CH520 (300g+)", "Built-in mic adequate but not exceptional", "No USB-C (micro-USB charging)"],
@@ -123,7 +123,7 @@ export const products: ClassHeadphone[] = [
       { label: "Battery", value: "30+ hours" },
       { label: "Mic", value: "Built-in basic" },
       { label: "Foldable", value: "Yes -- compact for backpack" },
-      { label: "Bluetooth", value: "5.0" },
+      { label: "Bluetooth", value: "5.0" }
     ],
     pros: ["Lowest-cost wireless pick", "Foldable for backpack", "30h battery", "Adequate for casual class use"],
     cons: ["No ANC", "Basic mic -- not ideal for heavy participation", "On-ear cushions less plush than Studio Pro"],
@@ -148,7 +148,7 @@ export const products: ClassHeadphone[] = [
       { label: "Cushions", value: "Cloud foam + faux leather -- softer than competitors" },
       { label: "Mic", value: "Built-in with call controls" },
       { label: "EQ", value: "3 presets (EQ3)" },
-      { label: "Foldable", value: "Yes" },
+      { label: "Foldable", value: "Yes" }
     ],
     pros: ["Most comfortable cushions in this roundup", "50h battery", "EQ3 presets for lecture vs music", "Foldable", "Over-ear design better for 3+ hour sessions"],
     cons: ["Slightly heavier than Sony CH520", "No ANC", "Built-in mic adequate but not exceptional"],
@@ -173,12 +173,12 @@ export const products: ClassHeadphone[] = [
       { label: "Frequency response", value: "15Hz--20kHz" },
       { label: "Impedance", value: "47Ω" },
       { label: "Mic", value: "None (use laptop mic or separate USB mic)" },
-      { label: "Cable", value: "3m (designed for studio use)" },
+      { label: "Cable", value: "3m (designed for studio use)" }
     ],
     pros: ["Best audio accuracy in this roundup", "Closed-back passive isolation", "Studio-grade drivers -- accurate sound reproduction", "Durable professional build", "No charging ever"],
     cons: ["No mic -- need separate for class participation", "3m cable is long for desk use", "No wireless option"],
     bestForDetail: "Audio/music students, anyone prioritizing listening quality over mic quality, or those with a separate microphone for calls.",
-  },
+  }
 ];
 
 export const atAGlanceItems = products.map((p) => ({
@@ -199,7 +199,7 @@ export const headphoneVsHeadsetRows = [
   { feature: "Mic quality for calls", headphone: "Adequate", headset: "Better" },
   { feature: "Wireless available", headphone: "Yes", headset: "Usually wired" },
   { feature: "Comfort for 3+ hours", headphone: "Better (lighter)", headset: "Varies" },
-  { feature: "Best for", headphone: "Mostly listening (lectures, videos)", headset: "Heavy participation (seminars, group calls)" },
+  { feature: "Best for", headphone: "Mostly listening (lectures, videos)", headset: "Heavy participation (seminars, group calls)" }
 ];
 
 export const classByTypeRows = [
@@ -209,7 +209,7 @@ export const classByTypeRows = [
   { classType: "3+ hour blocks", need: "Max comfort cushions", pick: "JLab Studio Pro", id: "best-long-classes" },
   { classType: "Budget tight", need: "Wireless, covers basics", pick: "JLab Studio", id: "best-budget" },
   { classType: "Audio/music courses", need: "Best audio accuracy", pick: "ATH-M20x", id: "best-wired-audio" },
-  { classType: "Chromebook user", need: "Plug-and-play wired", pick: "Logitech H390", id: "best-wired-mic" },
+  { classType: "Chromebook user", need: "Plug-and-play wired", pick: "Logitech H390", id: "best-wired-mic" }
 ];
 
 export const faq: { question: string; answer: string }[] = [
@@ -232,5 +232,5 @@ export const faq: { question: string; answer: string }[] = [
   {
     question: "What headphones work best for Zoom classes?",
     answer: "Any headphone with a built-in mic works on Zoom. Use Zoom's 'Suppress background noise' setting (medium or high) in Audio settings to improve built-in mic performance. The Logitech H390 is the most reliable choice for consistent Zoom call quality.",
-  },
+  }
 ];

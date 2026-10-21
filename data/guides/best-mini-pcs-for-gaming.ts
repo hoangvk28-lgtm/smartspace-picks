@@ -5,7 +5,7 @@ export const metaDescription = "5 mini PCs for gaming we evaluated, with an hone
 export const mainKeyword = "mini pc for gaming";
 export const introParagraphs = [
   "Integrated graphics on even the best gaming-focused mini PCs remain meaningfully behind a dedicated desktop GPU, worth setting realistic expectations that a mini PC suits 1080p esports titles and moderate settings well, rather than expecting desktop-tower-level performance at maximum settings in demanding AAA titles.",
-  "Sustained gaming load generates significant heat in a compact case, worth checking reviews specifically for thermal throttling reports during extended gaming sessions rather than assuming benchmark numbers reflect real-world sustained performance.",
+  "Sustained gaming load generates significant heat in a compact case, worth checking reviews specifically for thermal throttling reports during extended gaming sessions rather than assuming benchmark numbers reflect real-world sustained performance."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     badge: "Best Mini PC for Gaming Overall",
     name: "GEEKOM A8 MAX Gaming Mini PC AMD Ryzen 9 8945HS 32GB DDR5 & 1TB SSD",
     price: "$999.00",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41dRSelt6aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G19ZF99R?tag=deskfinds0d-20",
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     badge: "Best High-AI-Performance Gaming Pick",
     name: "GEEKOM A9 Max High AI Productivity Mini PC,AMD Ryzen AI 9 HX 370(80 Tops)",
     price: "$1,299.00",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41OccK3d-wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLF2KYKN?tag=deskfinds0d-20",
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     badge: "Best Value Gaming Mini PC Pick",
     name: "GMKtec M5 Ultra Gaming Mini PC Ryzen 7 7730U (Upgraded 7430U/ 5825U), 32GB RAM 512GB SSD Dual NIC",
     price: "$499.98",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41mRy1hD2yL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FW43RV3D?tag=deskfinds0d-20",
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     badge: "Best Balanced Gaming Mini PC Pick",
     name: "GMKtec M6 Ultra Gaming Mini PC Ryzen 7640HS 32GB RAM DDR5 1TB SSD",
     price: "$599.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41ydc8fgeIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FLJQW1RD?tag=deskfinds0d-20",
@@ -89,7 +89,7 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Ryzen 5 Gaming Pick",
     name: "Beelink SER5 Pro Mini PC, AMD Ryzen 5 5625U(Up to 4.3GHz) 6C/12T",
     price: "$319.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41NGsh2eXOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C7437S8H?tag=deskfinds0d-20",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Realistic gaming performance expectations set against desktop GPU comparison", description: "Set honest expectations that integrated graphics on even the best gaming mini PCs remain meaningfully behind a dedicated desktop GPU for demanding AAA titles." },
   { title: "Sustained-load thermal performance weighted for extended gaming sessions", description: "Weighted sustained-load thermal performance reports for extended gaming sessions, since heat generation matters more than short benchmark numbers suggest." },
   { title: "RAM and storage matched to gaming library and multitasking needs", description: "Matched RAM and storage capacity to realistic gaming library size and multitasking needs alongside gameplay." },
-  { title: "Value assessed across budget, mid-range, and premium gaming tiers", description: "Assessed genuine value across different price tiers, identifying picks offering strong gaming capability relative to their cost." },
+  { title: "Value assessed across budget, mid-range, and premium gaming tiers", description: "Assessed genuine value across different price tiers, identifying picks offering strong gaming capability relative to their cost." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "How much RAM do I need for gaming on a mini PC?", a: "16GB covers lighter gaming, 32GB gives more headroom for a larger library and background multitasking during gameplay." },
   { q: "Is a budget gaming mini PC worth it?", a: "For lighter esports titles and older games, yes, but set realistic expectations for demanding modern AAA titles at higher settings." },
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers wanting the best realistic gaming performance achievable in mini PC form" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting both strong gaming capability and AI-accelerated productivity performance At $1,299.00, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting both strong gaming capability and AI-accelerated productivity performance At under $1,300, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pcs", title: "Best Mini PCs (2026)" },
   { href: "/guide/best-high-performance-mini-pcs", title: "Best High-Performance Mini PCs (2026)" },
-  { href: "/guide/best-mini-pcs-with-32gb-ram", title: "Best Mini PCs with 32GB RAM (2026)" },
+  { href: "/guide/best-mini-pcs-with-32gb-ram", title: "Best Mini PCs with 32GB RAM (2026)" }
 ];

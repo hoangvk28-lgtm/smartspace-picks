@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desktop pegboard";
 export const introParagraphs = [
   "Most products sold as desktop pegboards actually attach with a clamp rather than sitting freestanding with no mount at all, worth clarifying that distinction upfront since a genuinely mount-free, freestanding pegboard is uncommon in this category. What matters more in practice is how much of the desk's depth a clamp-mounted board's base or frame consumes, and how well it resists tipping once loaded with hooks, monitor mounts, or a shelf, rather than whether it technically sits loose on the surface.",
-  "A pegboard mounted vertically at the back of a desk creates real leverage once loaded, and that leverage is worse without a wall anchor behind it. Assembly time and hardware completeness also vary more than listings suggest, worth checking whether a board arrives mostly assembled or requires a genuine build session before it's usable.",
+  "A pegboard mounted vertically at the back of a desk creates real leverage once loaded, and that leverage is worse without a wall anchor behind it. Assembly time and hardware completeness also vary more than listings suggest, worth checking whether a board arrives mostly assembled or requires a genuine build session before it's usable."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Desktop Pegboard",
     name: "EUREKA ERGONOMIC Desk Pegboard with Dual Monitor Stands, LED Metal Pegboard, 43 x 34 Inch, White",
     price: "$179.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "156 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31ll21hyHHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DYJR7JLB?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Tip Resistance",
     name: "VIVO Steel Triple Clamp Desk Pegboard System with 2 Monitor Mounts and Storage Shelf, 47 x 31 Inch, Black",
     price: "$169.99",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "14 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51v-7P2kqkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DVDSJPL5?tag=deskfinds0d-20",
     description:
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Large Panel",
     name: "Sailret Clamp-On Metal Desk Pegboard with Dual Monitor Stand, 59x35 Inch Steel Privacy Panel",
     price: "$79.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "4 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41KLj-p7YnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G6K8HR11?tag=deskfinds0d-20",
     description:
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Add-On",
     name: "VIVO Articulating Single Monitor Pegboard Mount, Fits Pegboards up to 0.25 Inches Thick, Black",
     price: "$27.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "134 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41KnBv2BIKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLWM7K88?tag=deskfinds0d-20",
     description:
@@ -87,7 +87,7 @@ export const products: GuideProduct[] = [
     pros: ["Adds a genuine monitor arm to an existing pegboard setup", "Fits a wide range of screen sizes up to 32 inches", "Large, well-established review base", "Lower cost than buying a whole new integrated panel"],
     cons: ["Only works with boards using standard 1-inch hole spacing", "Adds forward leverage weight to whatever board it's mounted on", "Requires a compatible existing pegboard, sold separately"],
     bestFor: "Buyers who already own a compatible pegboard and want to add a monitor arm without a full new panel.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -95,7 +95,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Mount type disclosed accurately", description: "Checked whether each product is genuinely freestanding or, as is more common in this category, clamp-mounted, and described it accurately rather than assuming freestanding framing." },
   { title: "Desk footprint consumed by base or clamp", description: "Weighed how much desk depth each board's mount or base realistically consumes against its usable hanging surface." },
   { title: "Tip resistance under a loaded board", description: "Considered how each mount type resists tipping once loaded with hooks, monitor mounts, or a shelf, not just how it sits empty." },
-  { title: "Assembly and hardware completeness", description: "Weighed whether each listing indicates a straightforward setup or a longer build session, based on included hardware and product descriptions." },
+  { title: "Assembly and hardware completeness", description: "Weighed whether each listing indicates a straightforward setup or a longer build session, based on included hardware and product descriptions." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -226,11 +226,11 @@ export const faq: FaqItem[] = [
   { q: "Are desktop pegboards actually freestanding?", a: "Most products marketed this way are clamp-mounted to the desk edge rather than freestanding with no anchor, genuinely mount-free designs are uncommon in this category." },
   { q: "How much desk space does a desktop pegboard take up?", a: "It depends on the panel size and mount depth, larger boards consume more usable desk depth behind your keyboard, worth measuring before buying the widest option." },
   { q: "Can a loaded desktop pegboard tip over?", a: "A vertically mounted board carries real tipping leverage once loaded with hooks or a shelf, a multi-clamp mount resists this better than a single clamp point." },
-  { q: "Do desktop pegboards come fully assembled?", a: "It varies by product, some arrive mostly assembled while others require a genuine build session, check the listing's hardware description before ordering." },
+  { q: "Do desktop pegboards come fully assembled?", a: "It varies by product, some arrive mostly assembled while others require a genuine build session, check the listing's hardware description before ordering." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-pegboards", title: "Best Desk Pegboards (2026)" },
   { href: "/guide/best-clamp-on-desk-pegboards", title: "Best Clamp-On Desk Pegboards (2026)" },
-  { href: "/guide/best-desk-pegboards-with-shelves", title: "Best Desk Pegboards with Shelves (2026)" },
+  { href: "/guide/best-desk-pegboards-with-shelves", title: "Best Desk Pegboards with Shelves (2026)" }
 ];

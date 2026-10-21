@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $312.00",
+          "Under $350",
           "HON MOD Executive Desk Shell"
         ],
         [
-          "Around $347.00",
+          "Under $350",
           "HON Mod Reception Desk Shell"
         ],
         [
-          "Around $350.00",
+          "Under $400",
           "HON Mod Reception Desk Shell"
         ],
         [
-          "Around $350.00",
+          "Under $400",
           "HON Mod Reception Desk Shell"
         ],
         [
-          "Around $350.00",
+          "Under $400",
           "HON Mod Reception Desk Shell"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "HON Mod Reception Desk Shell is aimed at buyers prioritizing 72\"w reception desk shell, slate teak finish." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "HON Mod Reception Desk Shell is aimed at buyers prioritizing 72\"w reception desk shell, slate teak finish." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-ofs-reception-desks","title":"3 Best OFS Reception Desks in 2026"},{"href":"/guide/best-teknion-reception-desks","title":"best-teknion-reception-desks"},{"href":"/guide/best-enwork-reception-desks","title":"best-enwork-reception-desks"}];

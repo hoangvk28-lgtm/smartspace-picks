@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "weathertight portable file boxes";
 export const introParagraphs = [
   "\"Weathertight\" implies protection during outdoor transport or storage exposure, genuinely different from simple indoor spill resistance, and we looked past the marketing term to the actual seal or gasket quality at the lid closure, typically the real point of water ingress even on an otherwise well-constructed box.",
-  "This category suits a realistic outdoor or transport use case, like moving files during a relocation or storing records in a garage or shed, and we framed our evaluation around that genuine value proposition.",
+  "This category suits a realistic outdoor or transport use case, like moving files during a relocation or storing records in a garage or shed, and we framed our evaluation around that genuine value proposition."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "\"Weathertight\" vs. \"spill-resistant\" distinction", description: "We distinguished genuine outdoor weather protection from simple indoor spill resistance, since these represent different real-world protection scenarios." },
   { title: "Seal and gasket quality at the lid closure", description: "We looked specifically at the lid closure mechanism, typically the actual point of water ingress even on an otherwise well-constructed box." },
   { title: "Dedicated weather-focused product line verification", description: "We identified which picks belong to a genuine weather-focused product line (like IRIS USA's WeatherPro) versus a standard box included for comparison." },
-  { title: "Realistic outdoor/transport use case framing", description: "We framed this guide's evaluation around genuine outdoor use cases like moving files during a relocation or storing records in a garage or shed." },
+  { title: "Realistic outdoor/transport use case framing", description: "We framed this guide's evaluation around genuine outdoor use cases like moving files during a relocation or storing records in a garage or shed." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -224,11 +224,11 @@ export const faq: FaqItem[] = [
   { q: "Where do these boxes actually leak if they do?", a: "The lid seal or closure mechanism is typically the real point of water ingress, even on an otherwise well-built box. A latching lid provides more resistance here than a simple friction-fit lid." },
   { q: "Do I need a weathertight box for indoor desk use?", a: "Probably not. Dedicated weathertight construction is most valuable for genuine outdoor scenarios, like moving files during a relocation or storing records in a garage or shed with moisture exposure." },
   { q: "Which pick has the most proven weather-focused design?", a: "The IRIS USA WeatherPro File Box Organizer (32 Qt) belongs to a genuine weather-focused product line and carries a strong review count, real evidence of proven weathertight performance." },
-  { q: "Can I use a large storage box instead of a dedicated weathertight one?", a: "Yes, if you don't need genuine outdoor protection, a proven large box like the Storex pick may serve your needs without the dedicated weather-focused premium." },
+  { q: "Can I use a large storage box instead of a dedicated weathertight one?", a: "Yes, if you don't need genuine outdoor protection, a proven large box like the Storex pick may serve your needs without the dedicated weather-focused premium." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-large-portable-file-boxes", title: "Best Large Portable File Boxes (2026)" },
   { href: "/guide/best-fireproof-portable-file-boxes", title: "Best Fireproof Portable File Boxes (2026)" },
-  { href: "/guide/best-portable-file-boxes-with-lids", title: "Best Portable File Boxes with Lids (2026)" },
+  { href: "/guide/best-portable-file-boxes-with-lids", title: "Best Portable File Boxes with Lids (2026)" }
 ];

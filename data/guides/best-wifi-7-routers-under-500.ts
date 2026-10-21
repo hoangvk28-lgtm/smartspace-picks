@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Maximum coverage and device capacity for a large home", "TP-Link Deco 7 Pro Tri-Band WiFi 7 Mesh System (3-Pack)"],
         ["The same premium hardware at a smaller footprint", "TP-Link Deco 7 Pro Tri-Band WiFi 7 Mesh System (2-Pack)"],
-        ["Simple setup integrated with Amazon Echo devices", "Amazon eero 7 Dual-Band WiFi 7 Mesh System (3-Pack)"],
+        ["Simple setup integrated with Amazon Echo devices", "Amazon eero 7 Dual-Band WiFi 7 Mesh System (3-Pack)"]
       ],
     },
   },
@@ -116,9 +116,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $260", "TP-Link Archer BE600 single router ($249.99)"],
-        ["$310-$360", "Deco 7 Pro 2-Pack ($311.45) or eero 7 3-Pack ($359.99)"],
-        ["Under $400", "TP-Link Deco 7 Pro 3-Pack ($399.98)"],
+        ["Under $260", "TP-Link Archer BE600 single router (under $250)"],
+        ["$310-$360", "Deco 7 Pro 2-Pack (under $350) or eero 7 3-Pack (under $400)"],
+        ["Under $400", "TP-Link Deco 7 Pro 3-Pack (under $400)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "2-Pack vs 3-Pack Deco 7 Pro",
     cards: [
       { label: "2-Pack (5,800 sq. ft.)", text: "Identical hardware and features to the 3-pack, just calibrated to a smaller total footprint, the better value if your home comfortably fits within this coverage area." },
-      { label: "3-Pack (7,600 sq. ft.)", text: "The same per-unit hardware extended to a third unit, worth the roughly $90 premium if your home is larger or has a layout that benefits from a third access point." },
+      { label: "3-Pack (7,600 sq. ft.)", text: "The same per-unit hardware extended to a third unit, worth the roughly $90 premium if your home is larger or has a layout that benefits from a third access point." }
     ],
     note: "Measure or estimate your home's actual square footage before choosing between these two, since buying the 3-pack when the 2-pack would have sufficed wastes nearly $90 on unnecessary coverage.",
   },
@@ -136,7 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your existing setup", "Recommended pick"],
       rows: [
         ["Already using Amazon Echo devices or eero", "Amazon eero 7 Dual-Band WiFi 7 Mesh System"],
-        ["No existing smart home ecosystem commitment", "TP-Link Deco 7 Pro 2-Pack or 3-Pack"],
+        ["No existing smart home ecosystem commitment", "TP-Link Deco 7 Pro 2-Pack or 3-Pack"]
       ],
     },
   },
@@ -144,16 +144,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Large Households With Many Connected Devices Specifically",
     cards: [
       { label: "Look for", text: "A stated device capacity figure well above your household's actual device count, since smart home devices, phones, laptops, and streaming devices add up faster than most people expect." },
-      { label: "In this comparison", text: "Both TP-Link Deco 7 Pro packs state support for over 200 devices, meaningfully higher than the eero 7's 120+ device figure." },
+      { label: "In this comparison", text: "Both TP-Link Deco 7 Pro packs state support for over 200 devices, meaningfully higher than the eero 7's 120+ device figure." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You have a large home needing maximum coverage and device capacity, where the TP-Link Deco 7 Pro 3-Pack delivers the most complete solution in this comparison." },
-      { label: "Save if", text: "Your home doesn't need multi-unit mesh coverage, where the TP-Link Archer BE600 single router saves nearly $150 versus the cheapest mesh system here." },
+      { label: "Save if", text: "Your home doesn't need multi-unit mesh coverage, where the TP-Link Archer BE600 single router saves nearly $150 versus the cheapest mesh system here." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

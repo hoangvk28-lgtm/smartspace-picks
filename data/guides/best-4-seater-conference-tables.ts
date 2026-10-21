@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0H86C8ZH3?tag=deskfinds0d-20",
     description: "LITTLE TREE 47 Inches Round Conference Table for 4-6 measures 47 Inch and is built around premium e1 grade mdf construction, positioning it for 4 seater buyers specifically.\n\nBeyond that core spec, the listing describes construction suited to daily conference-room use, without unusual assembly or maintenance requirements.\n\nBest for buyers specifically looking for 4 seater, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["47 Inch table dimensions","Premium E1 Grade MDF Construction","Assembly hardware and instructions included per the listing"],
-    pros: ["Premium E1 Grade MDF Construction, confirmed directly in the listing's own spec details","Priced at $152.99, positioned for 4 seater shoppers specifically","Sized at 47 Inch, matching the space this guide is built around"],
-    cons: ["At $152.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    pros: ["Premium E1 Grade MDF Construction, confirmed directly in the listing's own spec details","Priced under $160, positioned for 4 seater shoppers specifically","Sized at 47 Inch, matching the space this guide is built around"],
+    cons: ["At under $160, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 4 seater",
   },
   {
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 47-Inch Round Conference Table for 4-6 People and is built around spacious 47-inch round design, positioning it for 4 seater buyers specifically.\n\nDurable Commercial-Grade Build is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 4 seater, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Spacious 47-Inch Round Design","Durable Commercial-Grade Build","Sturdy & Stable Foundation"],
     pros: ["Spacious 47-Inch Round Design, confirmed directly in the listing's own spec details","Durable Commercial-Grade Build, confirmed directly in the listing's own spec details","Sturdy & Stable Foundation, confirmed directly in the listing's own spec details"],
-    cons: ["At $189.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $190, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 4 seater",
   },
   {
@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 47-Inch Round Conference Table for 4-6 People and is built around spacious 47-inch round design, positioning it for 4 seater buyers specifically.\n\nDurable Commercial-Grade Build is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 4 seater, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Spacious 47-Inch Round Design","Durable Commercial-Grade Build","Sturdy & Stable Foundation"],
     pros: ["Spacious 47-Inch Round Design, confirmed directly in the listing's own spec details","Durable Commercial-Grade Build, confirmed directly in the listing's own spec details","Sturdy & Stable Foundation, confirmed directly in the listing's own spec details"],
-    cons: ["At $189.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $190, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 4 seater",
   }
 
@@ -210,40 +210,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $101.99",
+          "Under $110",
           "Tribesigns 31.5\" Square Conference Table"
         ],
         [
-          "Around $125.26",
+          "Under $130",
           "LITTLE TREE 39-Inch Square Conference Table for 4"
         ],
         [
-          "Around $152.99",
+          "Under $160",
           "LITTLE TREE 47 Inches Round Conference Table for 4-6"
         ],
         [
-          "Around $189.99",
+          "Under $190",
           "Tribesigns 47-Inch Round Conference Table for 4-6 People"
         ],
         [
-          "Around $189.99",
+          "Under $190",
           "Tribesigns 47-Inch Round Conference Table for 4-6 People"
         ],
         [
-          "Around $209.99",
+          "Under $250",
           "Tribesigns 5FT Small Conference Table for 4-6"
         ],
         [
-          "Around $239.99",
+          "Under $250",
           "Tribesigns 31.5\" Square Table Set of 2"
         ],
         [
-          "Around $479.99",
+          "Under $500",
           "Tribesigns 31.5\" Square Table Set of 4"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -291,7 +291,7 @@ export const faq = [
     "a": "Not inherently. High-density MDF and particle board with a laminate or melamine finish are standard in this category and hold up well to daily commercial use. Solid wood, veneer over engineered wood, or steel-reinforced builds cost more and matter most where long-term durability or a premium look is the priority."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "LITTLE TREE 39-Inch Square Conference Table for 4 is aimed at buyers prioritizing 39\" square top, seats 4." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "LITTLE TREE 39-Inch Square Conference Table for 4 is aimed at buyers prioritizing 39\" square top, seats 4." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-6-person-conference-tables","title":"Best 6-Person Conference Tables in 2026"},{"href":"/guide/best-10-person-conference-tables","title":"Best 10-Person Conference Tables in 2026"},{"href":"/guide/best-8-person-conference-tables","title":"Best 8-Person Conference Tables in 2026"}];

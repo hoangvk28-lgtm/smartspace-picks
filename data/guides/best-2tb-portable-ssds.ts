@@ -5,7 +5,7 @@ export const metaDescription = "4 genuinely 2TB portable SSDs we evaluated for l
 export const mainKeyword = "best 2tb portable ssd";
 export const introParagraphs = [
   "At 2TB, formatting overhead and decimal-to-binary reporting still cost you roughly 7 percent of advertised capacity, so plan on closer to 1.8TB of real usable space rather than a full 2000GB.",
-  "Larger-capacity drives are also a more common target for counterfeit fake-capacity firmware than smaller ones, so it is worth buying 2TB drives specifically from verified sellers and checking the actual formatted capacity immediately after your first connection.",
+  "Larger-capacity drives are also a more common target for counterfeit fake-capacity firmware than smaller ones, so it is worth buying 2TB drives specifically from verified sellers and checking the actual formatted capacity immediately after your first connection."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best 2TB Pick for Gaming and Media Libraries",
     name: "Seagate 2TB Game Drive for Xbox, USB 3.0 (STKX2000400)",
     price: "$119.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "20,657 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31+UCQHBazL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08Y1Q2KSZ?tag=deskfinds0d-20",
     description: "Seagate's Game Drive line offers a genuine 2TB of storage over USB 3.0, purpose-marketed for console game libraries but equally usable for general media storage.\n\nIt earns the top spot in this comparison over Samsung T7 Shield Portable SSD 2TB for one main reason. Genuine 2TB capacity at a reasonable price. On price, it comes in below Samsung T7 Shield Portable SSD 2TB, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Large, consistent review base. On the other side, Best for capacity-first buyers, not speed-first. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Rugged 2TB Pick",
     name: "Samsung T7 Shield Portable SSD 2TB, USB 3.2 Gen 2, Up to 1,050 MB/s",
     price: "$399.75",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "16,380 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21mARCvUWxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VLHR4JC?tag=deskfinds0d-20",
     description: "Samsung's T7 Shield scales up to a genuine 2TB behind its rugged shell, rated up to 1050MB/s over USB 3.2 Gen 2.\n\nOne spot below Seagate 2TB Game Drive for Xbox in this ranking, it costs more than Seagate 2TB Game Drive for Xbox. The compromise here is straightforward: Premium price versus USB 3.0 alternatives. What you gain in return: Genuine 2TB with rugged everyday protection. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Larger cache than the 1TB model delays the speed cliff. On the other side, Usable space will read below the advertised 2TB. That's the main tradeoff to weigh against everything above.",
@@ -57,14 +57,14 @@ export const products: GuideProduct[] = [
     badge: "Best High-Speed 2TB Pick",
     name: "Corsair EX400U 2TB USB4 Portable External Type-C SSD - Up to 4,000MB/s Read, 3,600MB/s Write, Thunderbolt 4, MagSafe, Includes 40Gbps Cable - Gray",
     price: "$399.99",
-    rating: "4.1 stars from Amazon ratings",
-    reviews: "382 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21F-0rmbcOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DR381N86?tag=deskfinds0d-20",
     description: "Corsair's EX400U 2TB pairs USB4 connectivity with Thunderbolt 4 compatibility, rated up to 4000MB/s read, a genuine speed tier above the USB 3.2 Gen 2 competition.\n\nSitting just under Samsung T7 Shield Portable SSD 2TB, it costs more than Samsung T7 Shield Portable SSD 2TB. Here's the honest tradeoff: Needs a USB4 or Thunderbolt host port to matter. And here's what it gets you instead: Genuine high-speed USB4 bridge for a large capacity drive. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: MagSafe compatibility adds real convenience for iPhone use. On the other side, Premium price versus USB 3.2 Gen 2 drives. That's the main tradeoff to weigh against everything above.",
     specs: ["2TB capacity","Up to 4000MB/s read rated","USB4, Thunderbolt 4 compatible","MagSafe compatible, includes 40Gbps cable"],
     pros: ["Genuine high-speed USB4 bridge for a large capacity drive","MagSafe compatibility adds real convenience for iPhone use","Includes a properly rated 40Gbps cable","Strong ceiling for demanding transfers"],
-    cons: ["Needs a USB4 or Thunderbolt host port to matter","More moderate 4.1-star rating, worth checking current reviews","Premium price versus USB 3.2 Gen 2 drives"],
+    cons: ["Needs a USB4 or Thunderbolt host port to matter","Premium price versus USB 3.2 Gen 2 drives"],
     bestFor: "Buyers who want top-tier speed at 2TB and have a compatible host port",
   },
   {
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value 2TB Pick",
     name: "SANDISK 2TB Extreme Portable SSD (Old Model) - Up to 1050MB/s, USB-C, USB 3.2 Gen 2, IP65 Water and Dust Resistance, Updated Firmware - SDSSDE61-2T00-G25",
     price: "$299.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "91,365 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41eTFK7clfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HN37XC1?tag=deskfinds0d-20",
     description: "SanDisk's Extreme 2TB (older model) delivers up to 1050MB/s with IP65 water and dust resistance, a well-rounded balance of capacity, durability, and price.\n\nRanked just behind Corsair EX400U 2TB USB4 Portable External Type-C SSD, it's priced lower than Corsair EX400U 2TB USB4 Portable External Type-C SSD. The real tradeoff against that pick: 1050MB/s ceiling trails the USB4 option here. In exchange, it offers this instead: Large, well-established review base. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: IP65 rating adds real everyday durability. On the other side, Sustained speed can dip after cache exhaustion. That's the main tradeoff to weigh against everything above.",

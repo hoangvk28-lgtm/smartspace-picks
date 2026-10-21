@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Flexibility between tripod and wall-mounted installation", "Portable Projector Screen with Stand, 100-inch 2-in-1"],
         ["Cinema-grade 1.5 gain material with the fastest setup", "Paris RHONE 100-inch Projector Screen with Stand"],
         ["An established brand with a compact, travel-friendly design", "Pyle 50 Inch Portable Projector Screen with Tripod Stand"],
-        ["Strong daytime or ambient-light viewing performance", "LEORFI 100 Inch Outdoor Projector Screen, Black Backing"],
+        ["Strong daytime or ambient-light viewing performance", "LEORFI 100 Inch Outdoor Projector Screen, Black Backing"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $90", "LEORFI ($89.99)"],
-        ["Under $97", "Pyle 50 Inch ($96.03)"],
-        ["Under $100", "2-in-1 ($99.98) or Paris RHONE ($99.99)"],
+        ["Under $90", "LEORFI (under $90)"],
+        ["Under $97", "Pyle 50 Inch (under $100)"],
+        ["Under $100", "2-in-1 (under $100) or Paris RHONE (under $100)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "2-in-1 Mounting Flexibility vs Tripod-Only Dedicated Design",
     cards: [
       { label: "2-in-1 flexibility (Portable 2-in-1)", text: "Lets you switch between tripod and wall-mount installation as your room setup changes over time." },
-      { label: "Tripod-only (Paris RHONE, Pyle, LEORFI)", text: "Focuses purely on tripod setup, generally simpler and faster to assemble without needing to consider wall-mount hardware." },
+      { label: "Tripod-only (Paris RHONE, Pyle, LEORFI)", text: "Focuses purely on tripod setup, generally simpler and faster to assemble without needing to consider wall-mount hardware." }
     ],
     note: "If your setup location might change, like moving between a permanent home theater wall and occasional outdoor use, the 2-in-1 pick's flexibility is worth having. If you know you'll always use a tripod setup, the dedicated tripod-only picks are simpler.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Fully darkened room", "Paris RHONE or Pyle 50 Inch"],
         ["Some ambient light or daytime viewing", "LEORFI (black backing, 1.5x gain)"],
-        ["Variable conditions, indoor and outdoor", "2-in-1 (flexible mounting)"],
+        ["Variable conditions, indoor and outdoor", "2-in-1 (flexible mounting)"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Buyer Setting Up a Semi-Permanent Home Theater Corner Specifically",
     cards: [
       { label: "Look for", text: "A 2-in-1 design offering both tripod and wall-mount options, so you can start with a tripod for testing placement before committing to a permanent wall installation." },
-      { label: "In this comparison", text: "The Portable 2-in-1 pick's dual installation methods specifically support testing a tripod setup first before deciding on permanent wall mounting." },
+      { label: "In this comparison", text: "The Portable 2-in-1 pick's dual installation methods specifically support testing a tripod setup first before deciding on permanent wall mounting." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the flexibility of 2-in-1 tripod or wall-mount installation, where that pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You specifically need strong daytime viewing performance without needing wall-mount flexibility, where the LEORFI pick covers that for about $10 less." },
+      { label: "Save if", text: "You specifically need strong daytime viewing performance without needing wall-mount flexibility, where the LEORFI pick covers that for about $10 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

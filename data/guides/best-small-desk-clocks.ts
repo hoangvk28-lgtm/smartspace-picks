@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small desk clock";
 export const introParagraphs = [
   "A small desk clock needs to earn its space on a crowded desk without becoming hard to read from a normal sitting distance, a genuine tradeoff every pick here makes differently. We're covering small as a general size category, roughly 4 to 6 inches, if you want the absolute smallest, most pocketable options specifically, see our mini desk clocks guide, which covers this same product pool ranked by compactness first.",
-  "All four picks below are genuinely analog, hands-based clocks rather than digital displays, since the small-format category in our verified research skews toward compact analog and travel-style designs.",
+  "All four picks below are genuinely analog, hands-based clocks rather than digital displays, since the small-format category in our verified research skews toward compact analog and travel-style designs."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "6 min";
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Face size checked against realistic desk-distance readability", description: "Verified each small clock's face size against typical desk viewing distance rather than assuming any compact clock is equally easy to read." },
   { title: "Material quality weighed against price at small sizes", description: "Compared real wood, bronze, gold, and plain plastic-adjacent finishes to see which small clocks deliver genuine material quality at their size." },
   { title: "Noise level confirmed for desk-adjacent placement", description: "Checked silent versus standard tick movement, since a small clock often sits closer to where you work than a wall clock would." },
-  { title: "Distinguished this guide's ranking from our mini desk clocks guide", description: "Ordered picks by overall small-size balance rather than pure compactness, which is the mini guide's specific focus." },
+  { title: "Distinguished this guide's ranking from our mini desk clocks guide", description: "Ordered picks by overall small-size balance rather than pure compactness, which is the mini guide's specific focus." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -226,11 +226,11 @@ export const faq: FaqItem[] = [
   { q: "What counts as a small desk clock?", a: "Generally clocks in the roughly 4 to 9 inch range, small enough to fit a desk corner without dominating it but still legible at a normal viewing distance." },
   { q: "What's the difference between this guide and your mini desk clocks guide?", a: "Both cover an overlapping product pool, but this guide ranks by overall balance of size and readability, while the mini guide ranks strictly by compactness." },
   { q: "Are small desk clocks harder to read?", a: "It depends on face size and viewing distance. A well-designed 4 to 5 inch face is legible at a normal desk distance, but becomes harder to read from across a room." },
-  { q: "Do small desk clocks tick loudly?", a: "It varies by model. Several picks in this guide are explicitly silent or non-ticking, check the listing if noise near your desk matters to you." },
+  { q: "Do small desk clocks tick loudly?", a: "It varies by model. Several picks in this guide are explicitly silent or non-ticking, check the listing if noise near your desk matters to you." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-desk-clocks", title: "Best Mini Desk Clocks (2026)" },
   { href: "/guide/best-analog-desk-clocks", title: "Best Analog Desk Clocks (2026)" },
-  { href: "/guide/best-desk-clocks", title: "Best Desk Clocks (2026)" },
+  { href: "/guide/best-desk-clocks", title: "Best Desk Clocks (2026)" }
 ];

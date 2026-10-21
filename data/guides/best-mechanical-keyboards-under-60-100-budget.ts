@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mechanical keyboard cheap";
 export const introParagraphs = [
   "A lot of Amazon listings labeled mechanical keyboard cheap are actually membrane boards using the word loosely, and switch quality at the true budget tier is rarely discussed honestly, lesser-known or clone switches can feel inconsistent even when the spec sheet says mechanical. So this list only includes the picks that are genuinely mechanical per their real product listings and verifiably priced under $100, rather than padding the count with membrane keyboards mislabeled as mechanical.",
-  "Below are 2 mechanical keyboards we evaluated on switch feel, hot-swap socket quality, and firmware support, a $56.79 full-size wired board and a $66.49 hot-swappable wireless 75% board, both genuinely mechanical and both under the $100 ceiling.",
+  "Below are 2 mechanical keyboards we evaluated on switch feel, hot-swap socket quality, and firmware support, an under-$60 full-size wired board and an under-$70 hot-swappable wireless 75% board, both genuinely mechanical and both under the $100 ceiling."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "7 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Pre-lubed Reaper switches",
       "2.4GHz / USB-C / Bluetooth 5.0",
       "RGB backlighting, rotary volume knob",
-      "PBT side-printed keycaps",
+      "PBT side-printed keycaps"
     ],
     pros: [
       "Genuinely hot-swappable with pre-lubed switches out of the box",
       "3 connection modes in one board",
       "75% layout keeps arrow keys, easier transition than 60%",
-      "Rotary knob adds physical volume control",
+      "Rotary knob adds physical volume control"
     ],
     cons: [
       "Above the $60 tier, closer to the $100 ceiling",
       "Fewer keycap set options for the compact right-side cluster",
-      "Wireless polling rate for gaming is not specified in the listing",
+      "Wireless polling rate for gaming is not specified in the listing"
     ],
     bestFor: "Buyers who want hot-swap flexibility and wireless in one budget board",
   },
@@ -89,21 +89,21 @@ export const products: GuideProduct[] = [
       "Wired USB connection",
       "Fixed mechanical switches, no hot-swap",
       "Aluminum-alloy top case",
-      "Logitech G HUB software support",
+      "Logitech G HUB software support"
     ],
     pros: [
       "Cheapest genuinely mechanical pick in this list",
       "Full-size layout, no learning curve for numpad users",
       "Backed by an established brand's longer-term software support",
-      "Aluminum-alloy top case at this price point",
+      "Aluminum-alloy top case at this price point"
     ],
     cons: [
       "No hot-swap sockets, switches are fixed",
       "Wired only, no wireless option",
-      "Full-size footprint pushes the mouse further right",
+      "Full-size footprint pushes the mouse further right"
     ],
     bestFor: "Buyers who want the cheapest reliable full-size mechanical board with established software support",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -131,7 +131,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed connection flexibility, hot-swap capability, and layout against price across the two picks that survived the mechanical-vs-membrane filtering.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -274,12 +274,12 @@ export const faq: FaqItem[] = [
   {
     q: "Do budget wireless mechanical keyboards have a lower polling rate than premium ones?",
     a: "Often yes. Budget wireless keyboards commonly poll at 125Hz or 250Hz, while premium wireless boards can reach up to 1000Hz for 1ms response. This mostly matters for competitive gaming rather than typing, and polling rate isn't always disclosed in budget listings, so check the specs closely if gaming responsiveness matters to you.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mechanical-keyboard-layouts-explained", title: "Mechanical Keyboard Layouts Explained + Picks (2026)" },
   { href: "/guide/best-ergonomic-keyboards-amazon-best-sellers", title: "Best Ergonomic Keyboards Amazon Best Sellers (2026)" },
   { href: "/guide/best-mechanical-keyboard-under-100", title: "Best Mechanical Keyboards Under $100 (2026)" },
-  { href: "/guide/best-mechanical-keyboards", title: "Best Mechanical Keyboards (2026)" },
+  { href: "/guide/best-mechanical-keyboards", title: "Best Mechanical Keyboards (2026)" }
 ];

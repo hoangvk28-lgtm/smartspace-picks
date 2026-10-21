@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "office storage carts with drawers";
 export const introParagraphs = [
   "A drawer cart's real value is in access and separation, not just total drawer count. We compared confirmed drawer counts, price, and review base across the current product pool rather than assuming more drawers is automatically better for every office.",
-  "None of these listings had an independently measured loaded-drawer-slide test, so we flagged that as a gap to weigh against your expected supply weight before assuming smooth operation under a full load.",
+  "None of these listings had an independently measured loaded-drawer-slide test, so we flagged that as a gap to weigh against your expected supply weight before assuming smooth operation under a full load."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
@@ -46,9 +46,9 @@ export const products: GuideProduct[] = [
     reviews: "1241",
     imageUrl: "https://m.media-amazon.com/images/I/41qgAWlMj7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G4281WTD?tag=deskfinds0d-20",
-    description: "Color-coded drawers here let you classify categories visually rather than relying on written labels, at the same 15.55\"D x 12.60\"W x 25.47\"H footprint as the LEHOM pick, with smooth slide tracks and ergonomic handles. The powder-coated steel frame adds water and rust resistance, holding the same 33 lb top plate / 11 lb per drawer capacity.\n\nFour universal wheels swivel 360 degrees with a locking option, and detailed installation videos walk through assembly. At over 1,200 reviews, this has meaningfully more buyer feedback than the LEHOM alternative despite the identical drawer count.\n\nColor-coded drawers speed up category identification. On the other hand, slightly lower rating and higher price than the LEHOM pick. Neither should be a surprise once you know to look for it.",
+    description: "Color-coded drawers here let you classify categories visually rather than relying on written labels, at the same 15.55\"D x 12.60\"W x 25.47\"H footprint as the LEHOM pick, with smooth slide tracks and ergonomic handles. The powder-coated steel frame adds water and rust resistance, holding the same 33 lb top plate / 11 lb per drawer capacity.\n\nFour universal wheels swivel 360 degrees with a locking option, and detailed installation videos walk through assembly.\n\nColor-coded drawers speed up category identification. On the other hand, slightly lower rating and higher price than the LEHOM pick. Neither should be a surprise once you know to look for it.",
     specs: ["8-drawer, color-coded, 15.55×12.60×25.47 in", "33 lb top plate, 11 lb per drawer, rust-resistant frame", "Video-guided assembly"],
-    pros: ["Much larger review base than the LEHOM pick at over 1,200 ratings", "Color-coded drawers speed up category identification"],
+    pros: [ "Color-coded drawers speed up category identification"],
     cons: ["Slightly lower rating and higher price than the LEHOM pick"],
     bestFor: "Buyers wanting 8 drawers with the largest proven track record.",
   },
@@ -62,9 +62,9 @@ export const products: GuideProduct[] = [
     reviews: "5040",
     imageUrl: "https://m.media-amazon.com/images/I/41ri7QTtJoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07Q4FHWV9?tag=deskfinds0d-20",
-    description: "At 14.25\"L x 12.05\"W x 26.44\"H with built-in drawer stops that prevent a loaded drawer from sliding all the way out and falling, this is genuinely built for daily classroom and office material organization. The wheels are removable entirely, roll it between desks when needed, then pull them off for stable, wobble-free placement in a fixed spot.\n\nMade in the USA with durable plastic construction and smooth-glide drawers, this has the single largest confirmed review base of any pick in this comparison at over 5,000 reviews, fewer drawers than the 8-10 drawer options, but by far the most proven track record.\n\nRemovable wheels convert between rolling and stationary use. That's a real strength, but weigh it against the flip side: fewer drawers than the higher-capacity options.",
+    description: "At 14.25\"L x 12.05\"W x 26.44\"H with built-in drawer stops that prevent a loaded drawer from sliding all the way out and falling, this is genuinely built for daily classroom and office material organization. The wheels are removable entirely, roll it between desks when needed, then pull them off for stable, wobble-free placement in a fixed spot.\n\nRemovable wheels convert between rolling and stationary use. That's a real strength, but weigh it against the flip side: fewer drawers than the higher-capacity options.",
     specs: ["4-drawer + organizer top, 14.25×12.05×26.44 in", "Removable wheels, built-in drawer stops", "Made in USA"],
-    pros: ["Largest confirmed review base by a wide margin at over 5,000 reviews", "Removable wheels convert between rolling and stationary use"],
+    pros: [ "Removable wheels convert between rolling and stationary use"],
     cons: ["Fewer drawers than the higher-capacity options"],
     bestFor: "Buyers wanting the single most proven drawer cart, capacity aside.",
   },
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     pros: ["Combines charging with genuine device storage compartments, unlike pure drawer carts"],
     cons: ["Lowest rating in this comparison", "Not a dedicated office-supply drawer cart"],
     bestFor: "Buyers who actually need combined laptop charging and storage, not pure office-supply drawers.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Drawer count weighed against review base and price together", description: "We compared drawer count from 4 to 10 against both price and review base, since a higher drawer count at a much smaller review base isn't automatically the better buy." },
   { title: "Duplicate listings flagged directly", description: "Two picks here (the 10-drawer wooden-tabletop cart) share identical rating and review data as separate listings; we disclosed this rather than presenting them as two distinct products." },
   { title: "Crossover products honestly separated from dedicated drawer carts", description: "One pick (JOXPRING) is genuinely a laptop charging cart rather than a pure office-supply drawer unit; we labeled it honestly rather than blending it into the ranking without context." },
-  { title: "Loaded drawer-slide behavior flagged as unverified", description: "None of these listings had an independently measured loaded-slide test, so we noted that as a gap to weigh against your expected supply weight." },
+  { title: "Loaded drawer-slide behavior flagged as unverified", description: "None of these listings had an independently measured loaded-slide test, so we noted that as a gap to weigh against your expected supply weight." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -280,14 +280,15 @@ export const buyingCriteria: BuyingCriterion[] = [
 
 export const faq: FaqItem[] = [
   { q: "What's the best overall drawer cart?", a: "The LEHOM Rolling Storage Cart with 8 Drawers, with the highest rating in this comparison." },
-  { q: "Which pick has the most drawers?", a: "The 10 Drawers Rolling Cart with Wooden Tabletop, at $98.99, available as two separate listings with identical data." },
-  { q: "What's the best value option?", a: "The IRIS USA 4-Drawer Rolling Storage Cart, with the largest confirmed review base at over 5,000 reviews." },
+  { q: "Which pick has the most drawers?", a: "The 10 Drawers Rolling Cart with Wooden Tabletop, at under $100, available as two separate listings with identical data." },
+  
   { q: "Is there a white drawer cart instead of black?", a: "Yes, the Goovilla Rolling Cart with 5 Drawers comes in white." },
   { q: "Is any pick here actually a laptop charging cart, not office storage?", a: "Yes, the JOXPRING pick is genuinely a laptop charging cart with storage compartments, included for buyers who need both functions together." },
+  { q: "What should I check before choosing a cart with many small drawers?", a: "Check the per-drawer weight limit and the inside depth, not just the drawer count. The 8-drawer carts here list 11 lbs per drawer, which suits stationery and supplies but not reams of paper or heavy binders. If you store larger items, the 4-drawer cart with a 150 lb frame rating and 12 by 16.5 inch drawers is a better match." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-office-storage-carts-on-wheels", title: "Best Office Storage Carts on Wheels (2026)" },
   { href: "/guide/best-office-supply-organizer-carts", title: "Best Office Supply Organizer Carts (2026)" },
-  { href: "/guide/best-laptop-storage-and-charging-carts", title: "Best Laptop Storage and Charging Carts (2026)" },
+  { href: "/guide/best-laptop-storage-and-charging-carts", title: "Best Laptop Storage and Charging Carts (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop locks";
 export const introParagraphs = [
   "Before ranking anything on price or rating, we sorted every candidate here by which physical security-slot standard it actually engages: Standard T-Bar, Dell/Alienware Wedge, Kensington Nano, or a slotless workaround for laptops with no dedicated slot at all. A cable lock that's a great value on paper is worthless if it doesn't physically seat in your laptop's slot.",
-  "We also evaluated the full security chain rather than just the cable: laptop attachment point, lock-head engagement, cable construction, and the fixed anchor you tether it to. A strong cable tethered to a light desk, or a lock head that doesn't fully seat, undermines the whole system regardless of how the cable itself is rated.",
+  "We also evaluated the full security chain rather than just the cable: laptop attachment point, lock-head engagement, cable construction, and the fixed anchor you tether it to. A strong cable tethered to a light desk, or a lock head that doesn't fully seat, undermines the whole system regardless of how the cable itself is rated."
 ];
 export const lastUpdated = "2026-08-11";
 export const readTime = "10 min";
@@ -94,10 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "56",
     imageUrl: "https://m.media-amazon.com/images/I/21wh6b9wJwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CRKFVZ9L?tag=deskfinds0d-20",
-    description: "The lowest-priced Standard-slot lock in this comparison, with a 5-foot carbon steel cable wrapped in an anti-shearing plastic sleeve to protect desk and table surfaces where it anchors. The lock head pivots a full 360 degrees and the cable rotates up to 90 degrees, preserving access to nearby ports without needing to unlock and reposition the whole unit.\n\nOne spot below Kensington Universal 3-in-1 Combination Laptop Lock in this ranking, it's priced lower than Kensington Universal 3-in-1 Combination Laptop Lock. The compromise here is straightforward: Lowest rating in this comparison at 3.9 stars. What you gain in return: Lowest price of any Standard-slot lock in this comparison. Whether that trade is worth it depends on which side matters more for your device.\n\nWorth knowing before you decide: Full head and cable rotation preserves port access. On the other side, Smaller review base than the top Standard-slot picks. That's the main tradeoff to weigh against everything above.",
+    description: "The lowest-priced Standard-slot lock in this comparison, with a 5-foot carbon steel cable wrapped in an anti-shearing plastic sleeve to protect desk and table surfaces where it anchors. The lock head pivots a full 360 degrees and the cable rotates up to 90 degrees, preserving access to nearby ports without needing to unlock and reposition the whole unit.\n\nOne spot below Kensington Universal 3-in-1 Combination Laptop Lock in this ranking, it's priced lower than Kensington Universal 3-in-1 Combination Laptop Lock. What you gain in return: Lowest price of any Standard-slot lock in this comparison. Whether that trade is worth it depends on which side matters more for your device.\n\nWorth knowing before you decide: Full head and cable rotation preserves port access. On the other side, Smaller review base than the top Standard-slot picks. That's the main tradeoff to weigh against everything above.",
     specs: ["Standard slot, resettable 4-wheel dial","5 ft anti-shearing cable","360-degree head pivot, one-handed slider attach"],
     pros: ["Lowest price of any Standard-slot lock in this comparison","Full head and cable rotation preserves port access"],
-    cons: ["Lowest rating in this comparison at 3.9 stars","Smaller review base than the top Standard-slot picks"],
+    cons: ["Smaller review base than the top Standard-slot picks"],
     bestFor: "Budget buyers on a Standard slot who've weighed the lower rating against the price.",
   },
   {
@@ -156,7 +156,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Evaluated the full security chain, not just the cable", description: "Laptop attachment, lock-head engagement, cable construction, and fixed-anchor quality were each weighed separately rather than judging a lock by cable thickness alone." },
   { title: "Checked documented incompatibility lists on non-Kensington picks", description: "The AOMGD locks publish specific incompatible models by name. We surfaced those exclusion lists directly instead of only listing what a lock supports." },
   { title: "Weighed review volume against rating to avoid overstating thin data", description: "Review counts range from 33 to over 1,400 across this comparison. We treated low-volume ratings as less confident evidence, not equal proof." },
-  { title: "Positioned every pick as a deterrent, not theft-proof protection", description: "No cable lock in this comparison, regardless of price or construction, is marketed or evaluated as guaranteed protection against a determined attacker with cutting tools." },
+  { title: "Positioned every pick as a deterrent, not theft-proof protection", description: "No cable lock in this comparison, regardless of price or construction, is marketed or evaluated as guaranteed protection against a determined attacker with cutting tools." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -291,11 +291,11 @@ export const faq: FaqItem[] = [
   { q: "How do I know which security slot my laptop has?", a: "Check your exact model against the manufacturer's lock compatibility documentation rather than guessing from the brand name, since slot type can differ even within one brand's lineup by model year." },
   { q: "What if my laptop has no security slot at all?", a: "Most current MacBook models fall into this category. Use an audio-port anchor like the Multplx pick above, or see our dedicated guide to laptop locks for MacBook Air for adapter and locking-station options." },
   { q: "Are cheaper unbranded locks as good as Kensington locks?", a: "The AOMGD 2-packs in this comparison offer real value at under $10 per lock, but they publish narrower, brand-specific incompatibility lists and lack the independent third-party testing Kensington documents on most of its lineup." },
-  { q: "Does a laptop lock fully prevent theft?", a: "No. Position any laptop lock as a theft deterrent that discourages casual, opportunistic theft, not a guarantee against a determined attacker with cutting tools." },
+  { q: "Does a laptop lock fully prevent theft?", a: "No. Position any laptop lock as a theft deterrent that discourages casual, opportunistic theft, not a guarantee against a determined attacker with cutting tools." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-kensington-laptop-locks", title: "Best Kensington Laptop Locks (2026)" },
   { href: "/guide/best-laptop-locks-for-macbook-air", title: "Best Laptop Locks for MacBook Air (2026)" },
-  { href: "/guide/best-laptop-lock-cables", title: "Best Laptop Lock Cables (2026)" },
+  { href: "/guide/best-laptop-lock-cables", title: "Best Laptop Lock Cables (2026)" }
 ];

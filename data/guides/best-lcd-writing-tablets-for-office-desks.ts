@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "LCD writing tablet for office desk";
 export const introParagraphs = [
   "We should be upfront: most LCD writing tablets currently listed on Amazon are marketed as children's doodle boards, not office tools. There isn't a wide dedicated professional LCD writing tablet subcategory readily available right now, so we picked the models best suited to a desk based on design, screen size, and simple single-button operation, and flagged the kid-oriented branding directly where it applies.",
-  "As a genuine desk tool, these work well as a quick-note pad, a phone-call memo board, or a to-do list you can wipe clean daily, without the paper waste of sticky notes.",
+  "As a genuine desk tool, these work well as a quick-note pad, a phone-call memo board, or a to-do list you can wipe clean daily, without the paper waste of sticky notes."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Disclosed the actual product pool honestly", description: "We found no dedicated professional LCD writing tablet subcategory currently available and said so directly, rather than repackaging kids' products as office tools without noting it." },
   { title: "Weighed desk-appropriate styling directly", description: "We ranked plainer, less cartoon-styled designs higher for buyers concerned with how the tablet looks on a visible or shared desk." },
   { title: "Considered portability between workspaces", description: "For hybrid and multi-location workers, we noted which options are specifically lightweight or travel-marketed." },
-  { title: "Evaluated the memory lock feature as a real whiteboard substitute", description: "We treated memory lock functionality as a genuine desk utility, comparable to a small dry-erase board, rather than a gimmick." },
+  { title: "Evaluated the memory lock feature as a real whiteboard substitute", description: "We treated memory lock functionality as a genuine desk utility, comparable to a small dry-erase board, rather than a gimmick." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,12 +242,12 @@ export const faq: FaqItem[] = [
   { q: "Are there LCD writing tablets made specifically for office use?", a: "We found no dedicated professional subcategory currently available in our research. Most current options are marketed toward children, though the technology works well as a desk memo pad." },
   { q: "Which option looks most professional?", a: "The 10 inch LCD Writing Tablet with PU Protective Cover has the plainest design in this comparison, without cartoon branding." },
   { q: "Can this replace a small desktop whiteboard?", a: "For a single running note, yes, but it can't hold multiple notes at once the way a physical whiteboard can. Consider a small desktop whiteboard if you need to track several items simultaneously." },
-  { q: "What's the cheapest functional option?", a: "The $5.99 LCD Writing Tablet Colorful, which includes a memory lock to keep a note visible until cleared." },
-  { q: "Is there a portable option for hybrid workers?", a: "Yes, the TEKFUN LCD Writing Tablet is explicitly marketed as lightweight and travel-friendly." },
+  { q: "What's the cheapest functional option?", a: "The under $6 LCD Writing Tablet Colorful, which includes a memory lock to keep a note visible until cleared." },
+  { q: "Is there a portable option for hybrid workers?", a: "Yes, the TEKFUN LCD Writing Tablet is explicitly marketed as lightweight and travel-friendly." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-lcd-writing-tablets-for-seniors", title: "Best LCD Writing Tablets for Seniors (2026)" },
   { href: "/guide/best-color-lcd-writing-tablets", title: "Best Color LCD Writing Tablets (2026)" },
-  { href: "/guide/best-compact-desktop-whiteboards", title: "Best Compact Desktop Whiteboards (2026)" },
+  { href: "/guide/best-compact-desktop-whiteboards", title: "Best Compact Desktop Whiteboards (2026)" }
 ];

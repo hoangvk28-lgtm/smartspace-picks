@@ -12,7 +12,7 @@ export const verticalMonitorOrientationExplainedGuide: Guide = {
     "portrait mode monitor for coding",
     "vertical monitor worth it",
     "rotating monitor arm requirement",
-    "portrait vs landscape second monitor",
+    "portrait vs landscape second monitor"
   ],
   heroImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const verticalMonitorOrientationExplainedGuide: Guide = {
     "matching-monitors-vs-mixed-monitors",
     "monitor-arm-desk-clamp-vs-grommet",
     "monitor-size-chart",
-    "triple-monitor-setup-explained",
+    "triple-monitor-setup-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const verticalMonitorOrientationExplainedGuide: Guide = {
       question: "Does image quality change when a monitor is rotated to portrait?",
       answer:
         "No, the panel itself doesn't change quality based on orientation, though viewing angles that were optimized for landscape use (like a wider horizontal viewing cone on some panel types) may feel slightly different when the monitor is rotated.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const verticalMonitorOrientationExplainedGuide: Guide = {
     {
       heading: "Why Both Hardware and Software Settings Need to Align",
       body: `Successfully using a vertical monitor requires two separate things to work together, a monitor arm or stand that physically supports rotating the monitor to portrait orientation (not every arm does, even some otherwise fully adjustable ones lack this pivot feature), and your operating system's display settings correctly configured to rotate the displayed image to match the physical orientation, missing either piece results in either a monitor that can't physically rotate, or one that's physically rotated but displaying a sideways image, both pieces need to be confirmed and configured together for the setup to actually work as intended.`,
-    },
+    }
   ],
 };

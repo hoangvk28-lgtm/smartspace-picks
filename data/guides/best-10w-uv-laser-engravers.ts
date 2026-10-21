@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "CRS 10W/15W UV laser marking machine UV Engraver for Leather/Glass/Wood/Acrylic/Plastic measures 175x175 and is built around laser class ii, 0.874mw output power, fda, positioning it for 10w uv buyers specifically.\n\nHigh-precision marking is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 10w uv, though as with any equipment purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["175x175 dimensions","Laser Class II, 0.874mW Output Power, FDA","High-precision marking"],
     pros: ["Laser Class II, 0.874mW Output Power, FDA, confirmed directly in the listing's own spec details","High-precision marking, confirmed directly in the listing's own spec details","Applicable to a wide range of materials, confirmed directly in the listing's own spec details"],
-    cons: ["At $3,599.00, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $3,600, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 10w uv",
   },
   {
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     description: "10W CRS UV Marking Machine, Precision Marking Engraver for Metal Plastic Glass, 175 175mm and is built around crs uv source for ultra-fine precision, positioning it for 10w uv buyers specifically.\n\n10W UV for Heat-Sensitive Materials is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 10w uv, though as with any equipment purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["CRS UV Source for Ultra-Fine Precision","10W UV for Heat-Sensitive Materials","175 175mm Field Lens for Fine Detail Marking"],
     pros: ["CRS UV Source for Ultra-Fine Precision, confirmed directly in the listing's own spec details","10W UV for Heat-Sensitive Materials, confirmed directly in the listing's own spec details","175 175mm Field Lens for Fine Detail Marking, confirmed directly in the listing's own spec details"],
-    cons: ["At $3,699.00, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $3,700, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 10w uv",
   },
   {
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "10W (0.874mW, Class 2) UV Laser Marking Machine Water Cooling UV Laser Engraver for Glass, measures 200x200 and is built around laser class ii, 0.874mw output power, fda, positioning it for 10w uv buyers specifically.\n\nLaser Source Power is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 10w uv, though as with any equipment purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["200x200 dimensions","Laser Class II, 0.874mW Output Power, FDA","Laser Source Power"],
     pros: ["Laser Class II, 0.874mW Output Power, FDA, confirmed directly in the listing's own spec details","Laser Source Power, confirmed directly in the listing's own spec details","Efficient Cooling, confirmed directly in the listing's own spec details"],
-    cons: ["At $5,299.00, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $5,300, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 10w uv",
   },
   {
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "10W CRS UV Marking Machine & Engraver with Electric Z-Axis, 70mm & 175mm Field Lenses, D80 and is built around crs uv source for ultra-fine precision, positioning it for 10w uv buyers specifically.\n\n10W UV for Heat-Sensitive Materials is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 10w uv, though as with any equipment purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["CRS UV Source for Ultra-Fine Precision","10W UV for Heat-Sensitive Materials","3D Crystal Inner Engraving with Electric Z-Axis"],
     pros: ["CRS UV Source for Ultra-Fine Precision, confirmed directly in the listing's own spec details","10W UV for Heat-Sensitive Materials, confirmed directly in the listing's own spec details","3D Crystal Inner Engraving with Electric Z-Axis, confirmed directly in the listing's own spec details"],
-    cons: ["At $4,199.00, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $4,200, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 10w uv",
   }
 

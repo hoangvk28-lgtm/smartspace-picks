@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31A-EwPiW6L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07C3M678F?tag=deskfinds0d-20",
-    "description": "This black iMissiu sling shares the cotton canvas, 2 steel clips, rubber-stopper mounts and headphone holder of the blue version. The rope adjusts from 300 to 600 mm, the stated maximum bearing weight is 80 kg and the desk limits are under 2.4 inches thick and under 62 inches long.\n\nIt costs $16.98, a cent less than the blue listing, so the color is the real choice. Compared with Auoinge it states a weight rating and a rope range in millimeters, though Auoinge's rope range is longer in inches.\n\nBest for people who prefer a dark sling that hides dust. The caveat is the same as the blue version: no cleaning method is stated and desk size limits apply.",
+    "description": "This black iMissiu sling shares the cotton canvas, 2 steel clips, rubber-stopper mounts and headphone holder of the blue version. The rope adjusts from 300 to 600 mm, the stated maximum bearing weight is 80 kg and the desk limits are under 2.4 inches thick and under 62 inches long.\n\nIt costs under $20, a cent less than the blue listing, so the color is the real choice. Compared with Auoinge it states a weight rating and a rope range in millimeters, though Auoinge's rope range is longer in inches.\n\nBest for people who prefer a dark sling that hides dust. The caveat is the same as the blue version: no cleaning method is stated and desk size limits apply.",
     "specs": [
       "Cotton canvas, steel clips",
       "80 kg maximum weight",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/516z50jHsEL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CNPFT3LD?tag=deskfinds0d-20",
-    "description": "Auoinge is a cotton canvas foot hammock with steel clips, rubber stoppers on the rope and a wooden bar, and a headphone holder. The listing says the rope adjusts from 12 to 25 inches and that the clips are fitted with rubber so they do not mark the desk.\n\nAt $15.59 it is the cheapest pick here and offers a longer rope range than iMissiu. It lists no weight rating and no desk thickness number in the highlights shown, unlike iMissiu.\n\nBest for the lowest price on a standard desk. The caveat is that the weight limit and desk thickness limit are not clear in the highlights, so check the product page.",
+    "description": "Auoinge is a cotton canvas foot hammock with steel clips, rubber stoppers on the rope and a wooden bar, and a headphone holder. The listing says the rope adjusts from 12 to 25 inches and that the clips are fitted with rubber so they do not mark the desk.\n\nAt under $20 it is the cheapest pick here and offers a longer rope range than iMissiu. It lists no weight rating and no desk thickness number in the highlights shown, unlike iMissiu.\n\nBest for the lowest price on a standard desk. The caveat is that the weight limit and desk thickness limit are not clear in the highlights, so check the product page.",
     "specs": [
       "Rope 12 to 25 inches",
       "Canvas, steel clips",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/318XlUzyGZL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B071S63HQF?tag=deskfinds0d-20",
-    "description": "DMcore, sold under the Auoinge brand, is a mini canvas hammock with the same fixed mounts and rubber stoppers as its sibling and a rope range of 12 to 25 inches. The listing describes it as an adjustable mini footrest stand made of premium cotton fabric.\n\nIt costs $15.91, about 32 cents more than Auoinge, and the feature lists are almost identical. Compared with iMissiu it is smaller and gives no stated weight limit.\n\nBest for small desks where a compact sling is enough. The caveat is little detail on dimensions and weight, so confirm both before ordering.",
+    "description": "DMcore, sold under the Auoinge brand, is a mini canvas hammock with the same fixed mounts and rubber stoppers as its sibling and a rope range of 12 to 25 inches. The listing describes it as an adjustable mini footrest stand made of premium cotton fabric.\n\nIt costs under $20, about 32 cents more than Auoinge, and the feature lists are almost identical. Compared with iMissiu it is smaller and gives no stated weight limit.\n\nBest for small desks where a compact sling is enough. The caveat is little detail on dimensions and weight, so confirm both before ordering.",
     "specs": [
       "Mini canvas hammock",
       "Rope 12 to 25 inches",
@@ -247,15 +247,15 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "$15.50 to $15.75",
+          "Under $20 to under $20",
           "Auoinge Foot Hammock with Headphone Holder"
         ],
         [
-          "$15.75 to $16",
+          "Under $20 to $16",
           "DMcore Canvas Foot Rest Hammock"
         ],
         [
-          "$16.50 to $17",
+          "Under $20 to $17",
           "iMissiu Foot Hammock, Black, Headphone Holder"
         ],
         [

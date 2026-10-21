@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31KeiKjYZ7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D99RQZCC?tag=deskfinds0d-20",
-    description: "The smallest model in GlobalRack's open frame series, this 15U rack shares the same adjustable 22-35 inch depth and quick-lock assembly as its 27U and 42U siblings.\n\nAt 900 lbs it's rated lower than the taller models, proportional to its shorter frame, but still handles a genuinely useful equipment load for a compact server room.\n\nThe strongest case for this pick comes down to under-20-minute assembly claim across the whole GlobalRack line as well as 900 lb rating handles a real compact server load. The compromise here is that lower capacity than GlobalRack's taller 27U and 42U models, so factor that in alongside the $131.99 asking price.",
+    description: "The smallest model in GlobalRack's open frame series, this 15U rack shares the same adjustable 22-35 inch depth and quick-lock assembly as its 27U and 42U siblings.\n\nAt 900 lbs it's rated lower than the taller models, proportional to its shorter frame, but still handles a genuinely useful equipment load for a compact server room.\n\nThe strongest case for this pick comes down to under-20-minute assembly claim across the whole GlobalRack line as well as 900 lb rating handles a real compact server load. The compromise here is that lower capacity than GlobalRack's taller 27U and 42U models, so factor that in alongside the under $140 asking price.",
     specs: ["15U, 31.5\"H, 22-35\" adjustable depth","900 lb weight capacity","Pre-installed square holes, M6 hardware included"],
     pros: ["Under-20-minute assembly claim across the whole GlobalRack line","900 lb rating handles a real compact server load","Consistent depth adjustment with GlobalRack's larger models"],
     cons: ["Lower capacity than GlobalRack's taller 27U and 42U models","Open frame offers no security or dust control"],
@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41YBKtX0S4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B084PB7GL8?tag=deskfinds0d-20",
-    description: "The 15U entry in StarTech's open frame lineup, standing 30 inches tall and offering the same 40-inch max mounting depth as their larger 18U and 42U models.\n\nIt's positioned as ideal for utility and server closets specifically, a size that splits the difference between the very compact 8U and 12U options and taller full-height racks.\n\nWhere this one earns its spot is 30\" height fits utility closets other sizes can't, and 40\" max depth matches StarTech's larger rack models. Worth noting before buying: flat-pack build still needs real assembly time, which matters more at $322.99 than it would on a cheaper pick.",
+    description: "The 15U entry in StarTech's open frame lineup, standing 30 inches tall and offering the same 40-inch max mounting depth as their larger 18U and 42U models.\n\nIt's positioned as ideal for utility and server closets specifically, a size that splits the difference between the very compact 8U and 12U options and taller full-height racks.\n\nWhere this one earns its spot is 30\" height fits utility closets other sizes can't, and 40\" max depth matches StarTech's larger rack models. Worth noting before buying: flat-pack build still needs real assembly time, which matters more at under $350 than it would on a cheaper pick.",
     specs: ["15U, 30\" tall, 22-40\" adjustable depth","1200 lb stationary weight capacity","Cage nuts and cable hooks included"],
     pros: ["30\" height fits utility closets other sizes can't","40\" max depth matches StarTech's larger rack models","Backed by the same 2-year warranty across StarTech's line"],
     cons: ["Flat-pack build still needs real assembly time","1200 lb rating trails the heaviest-duty enclosed cabinets"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41gX4UbKmFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B076VVY212?tag=deskfinds0d-20",
-    description: "A shorter 15U aluminum rack from Raising Electronics with a 31-inch post-to-post depth, rated for 400 lbs, a size aimed at smaller equipment stacks rather than dense server rooms.\n\nDepth adjusts in 1.5-inch increments, a bit coarser than some competitors' 1-inch steps, but still enough granularity to fit most standard equipment lengths.\n\nWhat stands out here is compact 15U height suits smaller equipment stacks, plus movable design eases repositioning during setup. The main tradeoff: 400 lb rating trails the heavier steel racks, so weigh that against the $209.99 price before buying.",
+    description: "A shorter 15U aluminum rack from Raising Electronics with a 31-inch post-to-post depth, rated for 400 lbs, a size aimed at smaller equipment stacks rather than dense server rooms.\n\nDepth adjusts in 1.5-inch increments, a bit coarser than some competitors' 1-inch steps, but still enough granularity to fit most standard equipment lengths.\n\nWhat stands out here is compact 15U height suits smaller equipment stacks, plus movable design eases repositioning during setup. The main tradeoff: 400 lb rating trails the heavier steel racks, so weigh that against the under $250 price before buying.",
     specs: ["15U, 37\"H x 21.75\"W, 31\" depth","400 lb weight capacity","1.5\" depth adjustment increments"],
     pros: ["Compact 15U height suits smaller equipment stacks","Movable design eases repositioning during setup","Square screw holes with M6 hardware included"],
     cons: ["400 lb rating trails the heavier steel racks","No casters included on this particular model"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41BqORR6Z8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01M9DQAMS?tag=deskfinds0d-20",
-    description: "A second 15U option from Raising Electronics, this one in cold rolled steel rather than aluminum, with a shorter 22-34 inch depth range for a more compact footprint.\n\nSame 400 lb rating as their aluminum 15U model, giving buyers a choice between the lighter aluminum build and this slightly heavier steel construction.\n\nThe strongest case for this pick comes down to steel build offers an alternative to the aluminum version as well as free-standing design is stable without extra bracing. The compromise here is that heavier steel frame than Raising Electronics' aluminum models, so factor that in alongside the $153.99 asking price.",
+    description: "A second 15U option from Raising Electronics, this one in cold rolled steel rather than aluminum, with a shorter 22-34 inch depth range for a more compact footprint.\n\nSame 400 lb rating as their aluminum 15U model, giving buyers a choice between the lighter aluminum build and this slightly heavier steel construction.\n\nThe strongest case for this pick comes down to steel build offers an alternative to the aluminum version as well as free-standing design is stable without extra bracing. The compromise here is that heavier steel frame than Raising Electronics' aluminum models, so factor that in alongside the under $160 asking price.",
     specs: ["15U, 32\"H x 21\"W, 22-34\" depth","400 lb weight capacity","Cold rolled steel construction"],
     pros: ["Steel build offers an alternative to the aluminum version","Free-standing design is stable without extra bracing","Square screw holes accept standard cage nut hardware"],
     cons: ["Heavier steel frame than Raising Electronics' aluminum models","400 lb rating still trails higher-capacity 15U racks"],
@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $115.90",
+          "Under $120",
           "VEVOR 15U Open Frame Server Rack"
         ],
         [
-          "Around $131.99",
+          "Under $140",
           "GlobalRack 15U Open Frame Server Rack"
         ],
         [
-          "Around $153.99",
+          "Under $160",
           "Raising Electronics Server Rack 4 Post Open Rack Frame"
         ],
         [
-          "Around $209.99",
+          "Under $250",
           "Raising Electronics Server Rack Open Frame Rack 4 Post"
         ],
         [
-          "Around $322.99",
+          "Under $350",
           "StarTech 15U 4-Post Server Rack"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "GlobalRack 15U Open Frame Server Rack is aimed at buyers prioritizing 15u, 31.5\"h, 22-35\" adjustable depth." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "GlobalRack 15U Open Frame Server Rack is aimed at buyers prioritizing 15u, 31.5\"h, 22-35\" adjustable depth." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-42u-server-racks","title":"Best 42U Server Racks in 2026"},{"href":"/guide/best-2u-server-racks","title":"Best 2U Server Racks in 2026"},{"href":"/guide/best-1u-server-racks","title":"Best 1U Server Racks in 2026"}];

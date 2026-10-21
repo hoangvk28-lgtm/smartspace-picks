@@ -129,20 +129,20 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $174.94",
+          "Under $180",
           "Renogy 200W Portable Solar Panel for Power Stations"
         ],
         [
-          "Around $799.99",
+          "Under $800",
           "Renogy Portable Power Station"
         ],
         [
-          "Around $998.99",
+          "Under $1,000",
           "Renogy Portable Power Station with 200W Portable Solar Panel"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -190,7 +190,7 @@ export const faq = [
     "a": "LiFePO4 (LFP) cells are generally considered more thermally stable than standard lithium-ion or lithium-polymer cells, with a lower risk of thermal runaway, and most current portable power stations have shifted to LFP for this reason. Still, verify UL or UL2743 safety certification directly rather than assuming chemistry alone guarantees safety."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Renogy Portable Power Station is aimed at buyers prioritizing 2048wh, 2400w (3600w surge)." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Renogy Portable Power Station is aimed at buyers prioritizing 2048wh, 2400w (3600w surge)." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

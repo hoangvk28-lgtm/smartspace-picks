@@ -5,8 +5,8 @@ export const metaDescription =
   "8 laptop cooling pads we verified were priced under $50 on 2026-08-08, compared on fan count, USB ports, and stated features, not just price alone.";
 export const mainKeyword = "laptop cooling pads under $50";
 export const introParagraphs = [
-  "This guide is a hard price ceiling, not a general budget framing. Every pick here was verified at strictly under $50.00 as of 2026-08-08, which is a different filter than our broader budget laptop cooling pads guide, since some pads we consider budget-tier elsewhere in this cluster can still price above $50 depending on configuration. All eight candidates checked for this guide passed the under-$50 test, so nothing was excluded here.",
-  "Amazon prices shift over time, so treat the prices listed below as accurate at verification time rather than a permanent guarantee. Confirm the current price on the product page before buying, since a pad that qualified at under $50 during our check could move above that line later.",
+  "This guide is a hard price ceiling, not a general budget framing. Every pick here was verified at strictly under $60 as of 2026-08-08, which is a different filter than our broader budget laptop cooling pads guide, since some pads we consider budget-tier elsewhere in this cluster can still price above $50 depending on configuration. All eight candidates checked for this guide passed the under-$50 test, so nothing was excluded here.",
+  "Amazon prices shift over time, so treat the prices listed below as accurate at verification time rather than a permanent guarantee. Confirm the current price on the product page before buying, since a pad that qualified at under $50 during our check could move above that line later."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "9 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Hard price ceiling verification", description: "We checked each listed price against the actual listing on 2026-08-08 and confirmed all eight picks were strictly at a budget-friendly price before including them." },
   { title: "Fan count and stated airflow", description: "We compared the actual number of fans and any stated RPM figures per listing, since fan count varies meaningfully even within this narrow price band." },
   { title: "USB hub and port count", description: "We noted how many USB ports each pad includes and whether they are dedicated to peripherals or shared with the pad's own power draw." },
-  { title: "Warranty and support transparency", description: "We recorded exactly what each listing states about warranty length or support programs, and noted plainly when a listing states none at all." },
+  { title: "Warranty and support transparency", description: "We recorded exactly what each listing states about warranty length or support programs, and noted plainly when a listing states none at all." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -287,15 +287,15 @@ export const buyingCriteria: BuyingCriterion[] = [
 ];
 
 export const faq: FaqItem[] = [
-  { q: "Are all these picks actually under $50?", a: "Yes. All eight were verified strictly under $50.00 as of 2026-08-08, and no candidate we checked for this guide had to be excluded for being at or above that price." },
+  { q: "Are all these picks actually under $50?", a: "Yes. All eight were verified strictly under $60 as of 2026-08-08, and no candidate we checked for this guide had to be excluded for being at or above that price." },
   { q: "How is this different from the budget laptop cooling pads guide?", a: "This guide applies a hard $50 price ceiling as the primary filter. The broader budget guide uses a similar honesty standard for stated features but is not capped at exactly $50, so its picks can occasionally price higher." },
   { q: "Will these prices stay the same?", a: "Not necessarily. Amazon prices shift over time, and this list reflects prices verified on 2026-08-08. Confirm the current price on the product page before buying." },
-  { q: "Which under-$50 pick has the most fans?", a: "Two picks in this guide state 5 fans: the AIMIUZI Laptop Cooling Pad at $20.99 and the Kootek Laptop Cooling Pad Cooler Stand at $24.99, both under half the $50 ceiling." },
-  { q: "Which under-$50 pick has the best warranty?", a: "The TECKNET Laptop Cooling Pad with Quiet Cooling Fan states a 30-day return policy plus a full 3-year warranty, the longest stated warranty of any pick in this guide." },
+  { q: "Which under-$50 pick has the most fans?", a: "Two picks in this guide state 5 fans: the AIMIUZI Laptop Cooling Pad at under $25 and the Kootek Laptop Cooling Pad Cooler Stand at under $25, both under half the $50 ceiling." },
+  { q: "Which under-$50 pick has the best warranty?", a: "The TECKNET Laptop Cooling Pad with Quiet Cooling Fan states a 30-day return policy plus a full 3-year warranty, the longest stated warranty of any pick in this guide." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-budget-laptop-cooling-pads", title: "Best Budget Laptop Cooling Pads (2026)" },
   { href: "/guide/best-premium-laptop-cooling-pads", title: "Best Premium Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" }
 ];

@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This extender's listing specifically states it extends a PoE++ connection to power PoE (15.4W), PoE+ (30W), and PoE++ (60W) devices, the widest documented power range in this comparison and double the maximum wattage of a standard PoE+ extender. Its NDAA and TAA compliance specifically enables use in US and Canada government networking deployments.\n\nCompared to the MokerLink and Revotech picks below, this one's 4-unit daisy chain reaching a total of 1640ft, combined with 3 years of TRENDnet Manufacturer Protection, gives it the longest documented distance and warranty in this comparison.\n\nBest for buyers who need to power PoE++ devices up to 60W with the longest warranty and daisy-chain distance.",
     specs: ["PoE++ support up to 60W per device", "4-unit daisy chain, up to 1640ft total", "3-year warranty, NDAA/TAA compliant"],
     pros: ["Supports PoE++ devices up to 60W, double a standard PoE+ extender", "Longest warranty in this comparison at 3 years", "NDAA and TAA compliance meets government procurement requirements"],
-    cons: ["Highest price in this comparison at $57.99", "No outdoor waterproof rating unlike the MokerLink pick"],
+    cons: ["Highest price in this comparison at under $60", "No outdoor waterproof rating unlike the MokerLink pick"],
     bestFor: "buyers who need to power PoE++ devices up to 60W with the longest warranty and daisy-chain distance",
   },
   {
@@ -77,7 +77,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0BDF3NB3D?tag=deskfinds0d-20",
     description: "This extender's listing specifically states a 6-unit cascade maximum reaching 700 meters (2296ft), the longest documented multi-unit cascade distance among the picks in this comparison, all while maintaining full 1000Mbps Gigabit transmission. Its automatic detection and protection function safeguards connected PoE equipment from damage due to incorrect installation.\n\nCompared to the TRENDnet, MokerLink, and LINOVISION picks above, this one's lowest price in this comparison combined with its exceptionally long cascade support delivers strong value for a straightforward two-device Gigabit installation needing extended reach.\n\nBest for buyers who want the lowest price with the longest possible multi-unit cascade distance.",
     specs: ["1 in 2 out, 30W input, 15.4W per output", "6-unit cascade for up to 700m (2296ft) total", "Full Gigabit 1000Mbps, auto-detection protection"],
-    pros: ["Lowest price in this comparison at $23.29", "Longest documented cascade distance at up to 2296ft", "Automatic protection against incorrect installation damage"],
+    pros: ["Lowest price in this comparison at under $25", "Longest documented cascade distance at up to 2296ft", "Automatic protection against incorrect installation damage"],
     cons: ["No PoE++ support, limited to standard PoE+ at 15.4W per output", "No outdoor waterproofing or surge protection disclosed"],
     bestFor: "buyers who want the lowest price with the longest possible multi-unit cascade distance",
   }
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["To power PoE++ devices up to 60W", "TRENDnet 2-Port Gigabit PoE++ Extender (TPE-BE200)"],
         ["Genuine IP67 outdoor durability with high wattage", "MokerLink IP67 Outdoor 2 Port Gigabit PoE Extender"],
         ["Surge protection and wide temperature tolerance", "LINOVISION 2 Ports Gigabit PoE Passthrough Switch"],
-        ["The lowest price with the longest cascade distance", "Revotech Gigabit 2 Port POE Extender"],
+        ["The lowest price with the longest cascade distance", "Revotech Gigabit 2 Port POE Extender"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $24", "Revotech Gigabit 2 Port ($23.29)"],
-        ["Under $30", "LINOVISION 2 Ports Passthrough ($29.99)"],
-        ["Under $50", "MokerLink IP67 Outdoor ($49.99)"],
-        ["Under $58", "TRENDnet TPE-BE200 ($57.99)"],
+        ["Under $24", "Revotech Gigabit 2 Port (under $25)"],
+        ["Under $30", "LINOVISION 2 Ports Passthrough (under $30)"],
+        ["Under $50", "MokerLink IP67 Outdoor (under $50)"],
+        ["Under $58", "TRENDnet TPE-BE200 (under $60)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "PoE++ High-Wattage Support vs Standard PoE+ Value",
     cards: [
       { label: "PoE++ high-wattage (TRENDnet, MokerLink)", text: "Both extend up to 60W or 90W per output, necessary for higher-power devices like PTZ cameras with heaters or advanced access points that standard PoE+ can't adequately power." },
-      { label: "Standard PoE+ value (LINOVISION, Revotech)", text: "Both cover typical PoE+ devices at 15.4W to 30W at a meaningfully lower price, sufficient for standard cameras, phones, and access points." },
+      { label: "Standard PoE+ value (LINOVISION, Revotech)", text: "Both cover typical PoE+ devices at 15.4W to 30W at a meaningfully lower price, sufficient for standard cameras, phones, and access points." }
     ],
     note: "If any of your devices specifically require PoE++ power (check the device's own power specification), the TRENDnet or MokerLink picks are necessary. If your devices are standard PoE or PoE+ equipment, the LINOVISION or Revotech picks deliver full Gigabit performance at a lower cost.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["Genuinely outdoor with high-wattage devices", "MokerLink IP67 Outdoor 2 Port Gigabit PoE Extender"],
         ["Harsh industrial with surge risk, standard wattage", "LINOVISION 2 Ports Gigabit PoE Passthrough Switch"],
-        ["Standard indoor installation", "TRENDnet TPE-BE200 or Revotech Gigabit 2 Port"],
+        ["Standard indoor installation", "TRENDnet TPE-BE200 or Revotech Gigabit 2 Port"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For a Heated PTZ Camera Requiring PoE++ Specifically",
     cards: [
       { label: "Look for", text: "An extender explicitly rated for PoE++ (IEEE 802.3bt) support at 60W or higher, since a heated outdoor PTZ camera often exceeds the 30W ceiling of standard PoE+." },
-      { label: "In this comparison", text: "Both the TRENDnet and MokerLink picks specifically support PoE++ at 60W and 90W respectively, making either suitable for a heated PTZ camera's higher power draw." },
+      { label: "In this comparison", text: "Both the TRENDnet and MokerLink picks specifically support PoE++ at 60W and 90W respectively, making either suitable for a heated PTZ camera's higher power draw." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You need to power PoE++ devices up to 60W with the longest warranty and daisy-chain distance, where the TRENDnet pick's $57.99 price is justified by that combination." },
-      { label: "Save if", text: "Your devices only need standard PoE+ power, where the Revotech pick delivers full Gigabit speed for $23.29, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You need to power PoE++ devices up to 60W with the longest warranty and daisy-chain distance, where the TRENDnet pick's under $60 price is justified by that combination." },
+      { label: "Save if", text: "Your devices only need standard PoE+ power, where the Revotech pick delivers full Gigabit speed for under $25, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital time display";
 export const introParagraphs = [
   "A digital time display prioritizes one thing above all: readability from across a room, without squinting at small hands or a dim screen. We compared confirmed digit and screen sizes, brightness controls, and time-accuracy features across real listings.",
-  "Several of these also include a calendar or alarm function, but we evaluated them here specifically on how well they perform as a standalone, easy-to-read time display first.",
+  "Several of these also include a calendar or alarm function, but we evaluated them here specifically on how well they perform as a standalone, easy-to-read time display first."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
@@ -97,9 +97,9 @@ export const products: GuideProduct[] = [
     description: "Clock with Day and Date for Elderly,7\" Large Display Digital Calendar Clock and is built around hd display & larg font, positioning it for a general-purpose desk accessory buyers specifically.\n\n20 Normal Alarms & 20 Custom Reminders is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for a general-purpose desk accessory, though as with any purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["HD Display & Larg Font","20 Normal Alarms & 20 Custom Reminders","One-Touch Sleep Mode & 10-Level Brightness"],
     pros: ["HD Display & Larg Font, confirmed directly in the listing's own spec details","20 Normal Alarms & 20 Custom Reminders, confirmed directly in the listing's own spec details","One-Touch Sleep Mode & 10-Level Brightness, confirmed directly in the listing's own spec details"],
-    cons: ["At $25.49, worth comparing against similarly specced desk accessories before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $30, worth comparing against similarly specced desk accessories before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for a general-purpose desk accessory",
-  },
+  }
 
 ];
 
@@ -108,7 +108,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Prioritized confirmed screen and digit size", description: "We verified actual screen dimensions where stated rather than assuming \"large display\" is consistent across listings." },
   { title: "Weighed brightness control as a real usability factor", description: "Auto-dimming and manual brightness options genuinely affect readability and eye strain in different lighting conditions throughout the day." },
   { title: "Evaluated time accuracy features directly", description: "We distinguished atomic radio-sync clocks, which self-correct, from standard clocks that require manual time adjustment." },
-  { title: "Noted color-display customization as a genuine accessibility feature", description: "Where a product offers multiple display color options, we flagged this as useful for buyers with specific contrast or readability needs." },
+  { title: "Noted color-display customization as a genuine accessibility feature", description: "Where a product offers multiple display color options, we flagged this as useful for buyers with specific contrast or readability needs." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -234,13 +234,13 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "Which display is the most accurate for time-keeping?", a: "The La Crosse Technology Atomic Full Calendar Clock, which uses atomic radio sync to self-correct continuously." },
   { q: "Is there an option that dims automatically at night?", a: "Yes, the SSYA 7 Inch Calendar Clock includes 5-level auto-dimming." },
-  { q: "What's the cheapest large display option?", a: "The Clock with Day and Date for Elderly, 7 inch, at $25.49." },
+  { q: "What's the cheapest large display option?", a: "The Clock with Day and Date for Elderly, 7 inch, at under $30." },
   { q: "Can I change the display color?", a: "Yes, the SSINI Digital Calendar Dementia Alarm Clock offers 5 display color options." },
-  { q: "How far away can these be read from?", a: "A 7 inch display typically reads comfortably from 6-8 feet in normal indoor lighting; for greater distances, prioritize the largest confirmed digit size and a backlit or auto-dimming model." },
+  { q: "How far away can these be read from?", a: "A 7 inch display typically reads comfortably from 6-8 feet in normal indoor lighting; for greater distances, prioritize the largest confirmed digit size and a backlit or auto-dimming model." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-day-clocks-with-calendars", title: "Best Day Clocks with Calendars (2026)" },
   { href: "/guide/best-large-digital-calendar-displays", title: "Best Large Digital Calendar Displays (2026)" },
-  { href: "/guide/best-desk-clocks-without-alarms", title: "Best Desk Clocks Without Alarms (2026)" },
+  { href: "/guide/best-desk-clocks-without-alarms", title: "Best Desk Clocks Without Alarms (2026)" }
 ];

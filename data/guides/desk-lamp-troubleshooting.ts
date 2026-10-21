@@ -12,7 +12,7 @@ export const deskLampTroubleshootingGuide: Guide = {
     "desk lamp flickering fix",
     "led lamp dimmer not working",
     "lamp arm won't stay in position",
-    "desk lamp clamp loose fix",
+    "desk lamp clamp loose fix"
   ],
   heroImage: "https://images.unsplash.com/photo-1560890264-4b92305ee66e?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1560890264-4b92305ee66e?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskLampTroubleshootingGuide: Guide = {
     "led-vs-halogen-desk-lamp",
     "dimmable-vs-fixed-brightness-desk-lamp",
     "desk-lamp-arm-reach-explained",
-    "clamp-lamp-vs-base-lamp",
+    "clamp-lamp-vs-base-lamp"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskLampTroubleshootingGuide: Guide = {
       question: "Should I replace the bulb or the whole lamp if the light won't turn on?",
       answer:
         "Try replacing the bulb first if it's a replaceable type, this resolves the issue in many cases, if the lamp uses a non-replaceable integrated LED and won't light up, the lamp itself likely needs replacement or repair.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ export const deskLampTroubleshootingGuide: Guide = {
     {
       heading: "Why Arm Joints Loosen Over Time and How to Address It",
       body: `A lamp arm's joints rely on friction or tension mechanisms to hold a set position against the arm's own weight, repeated adjustment over months or years gradually loosens this tension, resulting in an arm that slowly droops or won't hold the angle you set it to. Many quality lamps include a small tension adjustment screw at each joint specifically for this reason, checking your lamp's manual for this feature and periodically retightening as needed extends the lamp's useful positioning life without needing full replacement.`,
-    },
+    }
   ],
 };

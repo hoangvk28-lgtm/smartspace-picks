@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "best compact vertical mice for travel";
 export const introParagraphs = [
   "There's an unavoidable design tension in this category worth naming directly: compactness reduces the very body size and angle that makes a vertical mouse ergonomically effective in the first place. A 'compact vertical mouse' may genuinely offer less ergonomic benefit than a full-size one, since a smaller body often means a shallower tilt and less room for your hand to rest naturally. We're honest here that this is a real compromise, not a solved problem, and picked products that manage that tradeoff reasonably rather than claiming a compact design with no downside.",
-  "We also considered travel-specific durability, since a mouse that gets tossed into a bag repeatedly experiences different wear than one that sits on a desk permanently, and carried forward the same USB-A versus USB-C dongle adapter concern relevant to laptop use generally. Charging cable type is also a real travel-convenience factor: a USB-C charging cable is more likely to overlap with cables you're already packing for other devices than an older micro-USB cable would be.",
+  "We also considered travel-specific durability, since a mouse that gets tossed into a bag repeatedly experiences different wear than one that sits on a desk permanently, and carried forward the same USB-A versus USB-C dongle adapter concern relevant to laptop use generally. Charging cable type is also a real travel-convenience factor: a USB-C charging cable is more likely to overlap with cables you're already packing for other devices than an older micro-USB cable would be."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Travel Pick",
     name: "Bluetooth Wireless Arc Travel Mouse, Bluetooth 5.0/4.0 and 2.4G Tri-Mode",
     price: "$32.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "674 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31TnFhELhRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZWT3Q2Y?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Folding Travel Pick",
     name: "TECKNET Folding Wireless Mouse, 2.4G Travel Mouse, 3 Adjustable DPI",
     price: "$13.29",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "1,689 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41HPNeaiKoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07YCFYLVX?tag=deskfinds0d-20",
     description:
@@ -60,12 +60,12 @@ export const products: GuideProduct[] = [
     badge: "Best 2-in-1 Sliding Design",
     name: "DELUX Wireless Bluetooth Pocket Mouse, 2-in-1 Sliding Mouse",
     price: "$31.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "60 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Gy9aIft6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9KFSY9G?tag=deskfinds0d-20",
     description:
-      "A sliding 2-in-1 mechanism that expands from a pocket-sized form to a larger usable shape, a genuinely different approach to the compact-versus-ergonomic tension than a fixed-size compact mouse.\n\nThe review sample here is small, so weigh the strong 4.4-star rating against the limited number of reviews, and confirm current charging cable type before buying.\n\nGenuinely pocket-sized when collapsed. On the other hand, small review sample size, verify current feedback. Both are worth keeping in mind before deciding.",
+      "A sliding 2-in-1 mechanism that expands from a pocket-sized form to a larger usable shape, a genuinely different approach to the compact-versus-ergonomic tension than a fixed-size compact mouse.\n\nGenuinely pocket-sized when collapsed. On the other hand, small review sample size, verify current feedback. Both are worth keeping in mind before deciding.",
     specs: ["2-in-1 sliding expandable design", "Bluetooth connectivity", "Pocket-sized when collapsed", "Mid-range price point"],
     pros: ["Sliding mechanism offers a larger usable shape than a fixed compact body", "Genuinely pocket-sized when collapsed", "Bluetooth connectivity", "Strong rating despite a small sample"],
     cons: ["Small review sample size, verify current feedback", "Sliding mechanism adds a moving part that could wear over time", "Vertical angle still shallower than a full-size ergonomic mouse"],
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Pick With a More Pronounced Angle",
     name: "ProtoArc EM11 NL Wireless Ergonomic Vertical Mouse, Rechargeable",
     price: "$22.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "5,670 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31PGrLfkUxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CX18LHWS?tag=deskfinds0d-20",
     description:
@@ -94,8 +94,8 @@ export const products: GuideProduct[] = [
     badge: "Best Small-Hand Travel Pick",
     name: "Luhaso Ergonomic Vertical Wireless Mouse, 57 degree, Small/Medium Hands",
     price: "$19.99",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "57 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31ttLEqu0hL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GNMPGM7G?tag=deskfinds0d-20",
     description:
@@ -111,17 +111,17 @@ export const products: GuideProduct[] = [
     badge: "Best Ultra-Budget Compact Pick",
     name: "KUNSI Wired Ergonomic Mouse, USB Wired Vertical Mouse with adjustable DPI",
     price: "$9.99",
-    rating: "4.1 stars from Amazon ratings",
-    reviews: "181 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41VQ8m4r1iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F4JNS3PX?tag=deskfinds0d-20",
     description:
-      "The lowest price in this guide, a wired compact mouse with adjustable DPI, useful for travelers who don't mind packing a cable in exchange for zero dongle-loss risk and no charging to manage.\n\nIts 4.1-star rating is more moderate than the other picks here, and being wired rather than wireless is a real tradeoff against the freedom the other picks in this guide offer.\n\nWorth calling out specifically: no dongle to lose or battery to charge while traveling. The catch is more moderate 4.1-star rating than other picks.",
+      "The lowest price in this guide, a wired compact mouse with adjustable DPI, useful for travelers who don't mind packing a cable in exchange for zero dongle-loss risk and no charging to manage.\n\nWorth calling out specifically: no dongle to lose or battery to charge while traveling.",
     specs: ["Wired USB connection", "Adjustable DPI", "Compact ergonomic body", "Ultra-budget price point"],
     pros: ["Lowest price in this guide", "No dongle to lose or battery to charge while traveling", "Adjustable DPI even at this price tier", "Compact body"],
-    cons: ["More moderate 4.1-star rating than other picks", "Wired only, no wireless freedom of movement", "Smaller review sample size"],
+    cons: [ "Wired only, no wireless freedom of movement", "Smaller review sample size"],
     bestFor: "Budget-conscious travelers who don't mind a cable in exchange for zero dongle-loss risk.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -129,7 +129,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Compact-versus-ergonomic design tension named explicitly", description: "We were honest that a compact vertical mouse may offer meaningfully less ergonomic benefit than a full-size one, rather than claiming compactness with no tradeoff." },
   { title: "Genuine compactness verified against the standard-size picks", description: "We checked whether each pick is genuinely more compact than standard vertical mice, not just marginally smaller." },
   { title: "Travel-specific durability considered", description: "We considered how each design likely holds up to repeated packing and unpacking in a bag versus sitting permanently on a desk." },
-  { title: "Charging cable type and dongle adapter needs disclosed", description: "We noted charging cable type where known and carried forward the USB-A to USB-C dongle adapter concern relevant to travel and laptop use." },
+  { title: "Charging cable type and dongle adapter needs disclosed", description: "We noted charging cable type where known and carried forward the USB-A to USB-C dongle adapter concern relevant to travel and laptop use." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -256,11 +256,11 @@ export const faq: FaqItem[] = [
   { q: "Do compact vertical mice offer the same ergonomic benefit as full-size ones?", a: "Not always. Compactness often means a shallower angle and less hand support, so a compact vertical mouse may offer meaningfully less ergonomic benefit than a full-size one." },
   { q: "Are folding or sliding travel mice durable for frequent packing?", a: "Generally reasonable for occasional use, though moving parts like folding hinges or sliding mechanisms can wear over time with very frequent packing and unpacking." },
   { q: "Should I check the charging cable type before buying a travel mouse?", a: "Yes, a USB-C charging cable is more likely to overlap with cables you already pack for other devices than an older micro-USB cable, a real convenience factor." },
-  { q: "Do I need an adapter for a USB-A travel mouse dongle on a USB-C laptop?", a: "Yes, unless the mouse uses Bluetooth or ships with a USB-C dongle, you'll need a separate USB-A to USB-C adapter." },
+  { q: "Do I need an adapter for a USB-A travel mouse dongle on a USB-C laptop?", a: "Yes, unless the mouse uses Bluetooth or ships with a USB-C dongle, you'll need a separate USB-A to USB-C adapter." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-vertical-mice-for-laptops", title: "Best Vertical Mice for Laptops in 2026" },
   { href: "/guide/best-vertical-mice-for-small-hands", title: "Best Vertical Mice for Small Hands in 2026" },
-  { href: "/guide/best-usb-c-vertical-mice", title: "Best USB-C Vertical Mice in 2026" },
+  { href: "/guide/best-usb-c-vertical-mice", title: "Best USB-C Vertical Mice in 2026" }
 ];

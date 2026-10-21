@@ -5,7 +5,7 @@ export const metaDescription = "Eight electric kettles with temperature control 
 export const mainKeyword = "electric kettle with temperature control";
 export const introParagraphs = [
   "Temperature control matters because boiling water is wrong for a lot of what people actually brew. Green tea is commonly steeped near 175F, and pour-over coffee near 195 to 205F, so a kettle that only goes to 212F forces you to wait and guess. The question is what kind of control you are paying for: a handful of presets, a full dial in single-degree steps, or an app.",
-  "The eight kettles below span $25.26 to $101.89 and 1000W to 1750W. We compared them on listed specs: preset range, keep-warm duration, capacity, wattage, interior materials and extras like memory or app control. Listing claims about boil speed are best case, and a few have typographical errors that we excluded rather than repeat."
+  "The eight kettles below span roughly $30 to $110 and 1000W to 1750W. We compared them on listed specs: preset range, keep-warm duration, capacity, wattage, interior materials and extras like memory or app control. Listing claims about boil speed are best case, and a few have typographical errors that we excluded rather than repeat."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41M8SN-GUAL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FV857DSP?tag=deskfinds0d-20",
-    "description": "Mecity is a 1.7 liter, 1500W double-wall stainless kettle with a touch screen, 6 presets covering infant formula, green, white and oolong tea, coffee and boil, plus keep-warm mode. The listing claims no plastic contact with water and a 3 minute boil.\n\nIt combines a presets set named by drink with a no-plastic claim at $49.99, less than half of Cuisinart's CPK-17P1. Against YPJKR, it holds 0.7 liters more but gives fewer presets.\n\nBest for a family kettle with drink-based presets. The caveat is that 1500W is a heavy circuit load, and the boil time is best case.",
+    "description": "Mecity is a 1.7 liter, 1500W double-wall stainless kettle with a touch screen, 6 presets covering infant formula, green, white and oolong tea, coffee and boil, plus keep-warm mode. The listing claims no plastic contact with water and a 3 minute boil.\n\nIt combines a presets set named by drink with a no-plastic claim at under $50, less than half of Cuisinart's CPK-17P1. Against YPJKR, it holds 0.7 liters more but gives fewer presets.\n\nBest for a family kettle with drink-based presets. The caveat is that 1500W is a heavy circuit load, and the boil time is best case.",
     "specs": [
       "1.7L, 1500W, 6 presets",
       "Double wall stainless",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41KswjrPiAL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GZ43P4X4?tag=deskfinds0d-20",
-    "description": "This Cuisinart is a glass kettle with a touchscreen, temperature control from 110F to 212F, a dual-layer cool-touch design, a blue illumination indicator and a non-drip spout with a one-handed hinged lid.\n\nIts range starts lower than any other pick, at 110F, which helps with baby formula or delicate herbal teas. It costs $59.95, against $101.89 for the older Cuisinart model.\n\nChoose it for a wide range and a glass body. The caveat is that wattage and keep-warm length are not stated in the bullets we reviewed.",
+    "description": "This Cuisinart is a glass kettle with a touchscreen, temperature control from 110F to 212F, a dual-layer cool-touch design, a blue illumination indicator and a non-drip spout with a one-handed hinged lid.\n\nIts range starts lower than any other pick, at 110F, which helps with baby formula or delicate herbal teas. It costs under $60, against under $110 for the older Cuisinart model.\n\nChoose it for a wide range and a glass body. The caveat is that wattage and keep-warm length are not stated in the bullets we reviewed.",
     "specs": [
       "110F to 212F range",
       "Glass body, dual-layer cool touch",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41IzXCLbWnL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B003KYSLNQ?tag=deskfinds0d-20",
-    "description": "Cuisinart's CPK-17P1 is a 1.7 liter, 1500W kettle with 6 presets from 160F to 200F, one-touch controls with blue LEDs, a 30 minute keep-warm, boil-dry protection and a memory feature that lets you lift it off the base for 2 minutes without losing your place.\n\nThe memory feature is unique here, and the preset set targets tea types and French press. It costs $101.89, the highest in the group.\n\nBest for a long-standing design with a reliable preset layout. The caveat is price, and the presets stop at 200F with no full-boil preset named.",
+    "description": "Cuisinart's CPK-17P1 is a 1.7 liter, 1500W kettle with 6 presets from 160F to 200F, one-touch controls with blue LEDs, a 30 minute keep-warm, boil-dry protection and a memory feature that lets you lift it off the base for 2 minutes without losing your place.\n\nThe memory feature is unique here, and the preset set targets tea types and French press. It costs under $110, the highest in the group.\n\nBest for a long-standing design with a reliable preset layout. The caveat is price, and the presets stop at 200F with no full-boil preset named.",
     "specs": [
       "1.7L, 1500W, 6 presets",
       "160F to 200F range",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41ZX9uRVPBL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GV674841?tag=deskfinds0d-20",
-    "description": "YPJKR is a 1 liter, 1200W kettle with 7 settings that include 175F for green tea, 205F for pour-over and 212F for boiling, a 4 hour keep-warm, auto shut-off and a cool-touch exterior. It is built for 120V outlets.\n\nIt offers one more setting than Mecity and a longer hold, in a smaller body, at $39.98. Against NELO, it has a longer hold but a smaller capacity.\n\nChoose it for a one-person kettle with many presets. The caveat is the 1 liter size, and the listing does not name its interior material in the bullets we reviewed.",
+    "description": "YPJKR is a 1 liter, 1200W kettle with 7 settings that include 175F for green tea, 205F for pour-over and 212F for boiling, a 4 hour keep-warm, auto shut-off and a cool-touch exterior. It is built for 120V outlets.\n\nIt offers one more setting than Mecity and a longer hold, in a smaller body, at under $40. Against NELO, it has a longer hold but a smaller capacity.\n\nChoose it for a one-person kettle with many presets. The caveat is the 1 liter size, and the listing does not name its interior material in the bullets we reviewed.",
     "specs": [
       "1.0L, 1200W, 7 settings",
       "4 hour keep warm",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41tHxQ5M8FL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DB6HYWZQ?tag=deskfinds0d-20",
-    "description": "NELO is a 1.7 liter, 1100W cordless stainless kettle with 7 presets from 104F to 212F, a real-time display, a keep-warm that lasts up to 2 hours, a water level window and a cETL listing. It has auto shut-off and boil-dry protection.\n\nAt $25.26 it is by far the cheapest preset kettle and has a named lab mark, which many cheap rivals lack. Against YPJKR, it holds 0.7 liters more but keeps warm for a shorter 2 hours.\n\nBest for budget preset control. The caveat is that the brand is less established, and its 3 minute boil claim is best case.",
+    "description": "NELO is a 1.7 liter, 1100W cordless stainless kettle with 7 presets from 104F to 212F, a real-time display, a keep-warm that lasts up to 2 hours, a water level window and a cETL listing. It has auto shut-off and boil-dry protection.\n\nAt under $30 it is by far the cheapest preset kettle and has a named lab mark, which many cheap rivals lack. Against YPJKR, it holds 0.7 liters more but keeps warm for a shorter 2 hours.\n\nBest for budget preset control. The caveat is that the brand is less established, and its 3 minute boil claim is best case.",
     "specs": [
       "1.7L, 1100W, 7 presets",
       "104F to 212F, 2 hour hold",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41hqbRQpKCL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FGG17Z8C?tag=deskfinds0d-20",
-    "description": "Chefman Lightning is a 1.8 liter, 1750W borosilicate glass kettle with digital temperature selection, an automatic keep-hot function, a tricolor LED and a removable tea infuser. The listing says it boils 2 cups in as little as 2 minutes.\n\nIt has the highest wattage here, which makes it fastest but also the biggest circuit load. It costs $44.98, below Mecity, and it adds an infuser.\n\nChoose it for speed with an infuser. The caveat is that 1750W may exceed a dorm or office cap, and the listing's preset list is not detailed.",
+    "description": "Chefman Lightning is a 1.8 liter, 1750W borosilicate glass kettle with digital temperature selection, an automatic keep-hot function, a tricolor LED and a removable tea infuser. The listing says it boils 2 cups in as little as 2 minutes.\n\nIt has the highest wattage here, which makes it fastest but also the biggest circuit load. It costs under $45, below Mecity, and it adds an infuser.\n\nChoose it for speed with an infuser. The caveat is that 1750W may exceed a dorm or office cap, and the listing's preset list is not detailed.",
     "specs": [
       "1.8L, 1750W, glass",
       "Digital temperature selection",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/311BI8TWOyL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H6RP3YJZ?tag=deskfinds0d-20",
-    "description": "REGARSUN is a gooseneck with 7 temperature settings, a 0.65 mm precision spout, 1000W heating for about 0.9 liters, a stainless interior with no plastic water contact and a keep-warm of up to 24 hours. The cord rolls up under the base. The listing contains a clear typo in its boil time, which we ignore.\n\nIt is the gooseneck choice here at $59.99, and its boil first setting heats to 212F then cools to your selection. Against Govee, it adds a 24 hour hold but has no app.\n\nBest for a pour-over setup with many presets. The caveat is the 24 hour hold, which we treat as a claim, and the unreliable boil time.",
+    "description": "REGARSUN is a gooseneck with 7 temperature settings, a 0.65 mm precision spout, 1000W heating for about 0.9 liters, a stainless interior with no plastic water contact and a keep-warm of up to 24 hours. The cord rolls up under the base. The listing contains a clear typo in its boil time, which we ignore.\n\nIt is the gooseneck choice here at under $60, and its boil first setting heats to 212F then cools to your selection. Against Govee, it adds a 24 hour hold but has no app.\n\nBest for a pour-over setup with many presets. The caveat is the 24 hour hold, which we treat as a claim, and the unreliable boil time.",
     "specs": [
       "7 temperatures, 1000W",
       "0.65 mm gooseneck spout",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41aD9P0WaIL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09TSKDKCL?tag=deskfinds0d-20",
-    "description": "Govee has Bluetooth and WiFi with app and voice control, 4 easy presets plus an app range from 104F to 212F, 1200W for 0.8 liters with a 3 to 5 minute claim, a ready tone and a 304 stainless interior with NTC sensor shut-off.\n\nIt is the only smart kettle and costs $71.99, above REGARSUN. The app lets you set a precise temperature remotely, but the extra control is only useful if you use it.\n\nChoose it for app and voice control with a gooseneck pour. The caveat is that smart features add complexity, and capacity is only 0.8 liters.",
+    "description": "Govee has Bluetooth and WiFi with app and voice control, 4 easy presets plus an app range from 104F to 212F, 1200W for 0.8 liters with a 3 to 5 minute claim, a ready tone and a 304 stainless interior with NTC sensor shut-off.\n\nIt is the only smart kettle and costs under $80, above REGARSUN. The app lets you set a precise temperature remotely, but the extra control is only useful if you use it.\n\nChoose it for app and voice control with a gooseneck pour. The caveat is that smart features add complexity, and capacity is only 0.8 liters.",
     "specs": [
       "WiFi and Bluetooth, app control",
       "104F to 212F, 1200W",
@@ -291,7 +291,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     "title": "Value for price",
-    "description": "Prices from $25.26 to $101.89 were compared with documented features."
+    "description": "Prices from roughly $30 to $110 were compared with documented features."
   }
 ];
 

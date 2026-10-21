@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook for ipad users";
 export const introParagraphs = [
   "This search term is genuinely ambiguous, and it's worth clarifying before you buy anything. Some buyers searching \"digital notebook for iPad\" actually want a paper-like textured screen protector that makes writing on an existing iPad feel more like paper, a cheaper accessory that is not covered in this guide. Others want a standalone digital notebook device as an alternative to, or companion for, their iPad.",
-  "None of the verified products in our research pool are iPad accessories. They're all standalone devices, so this guide covers that second group: buyers considering a dedicated digital notebook device alongside or instead of their iPad.",
+  "None of the verified products in our research pool are iPad accessories. They're all standalone devices, so this guide covers that second group: buyers considering a dedicated digital notebook device alongside or instead of their iPad."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Search intent disambiguated before selecting any products", description: "Identified that this search term covers two different buyer intents, a paper-like iPad screen protector accessory or a standalone alternative device, and confirmed the verified research pool only contains the latter." },
   { title: "Confirmed no iPad-specific accessories exist in the research pool", description: "Verified every product here is standalone hardware, not an iPad case, screen protector, or stylus accessory, and reflected that honestly in the guide framing." },
   { title: "Companion vs replacement use case considered for each pick", description: "Assessed whether each device is best positioned as a full note-taking replacement for iPad use or a complementary device for a specific function like reading." },
-  { title: "Price weighed as an additional cost on top of an existing iPad", description: "Since buyers here likely already own an iPad, treated the price of each pick as an additional investment rather than a standalone budget decision." },
+  { title: "Price weighed as an additional cost on top of an existing iPad", description: "Since buyers here likely already own an iPad, treated the price of each pick as an additional investment rather than a standalone budget decision." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -226,11 +226,11 @@ export const faq: FaqItem[] = [
   { q: "Is there a digital notebook accessory that makes my iPad feel like paper?", a: "That would be a paper-like textured screen protector, a separate and cheaper accessory category not covered in this guide, which focuses on standalone digital notebook devices." },
   { q: "Should I buy a standalone digital notebook if I already have an iPad?", a: "Consider it if you want a distraction-free writing device separate from your iPad's apps and notifications, or a dedicated e-ink reading experience, otherwise your iPad may already cover your needs." },
   { q: "Do any of these digital notebooks connect directly to an iPad?", a: "They're standalone devices with their own apps and cloud sync, not iPad accessories or peripherals that plug into or attach to an iPad." },
-  { q: "What's the cheapest way to reduce iPad screen time for note-taking?", a: "A reusable paper notebook like the Rocketbook Core is the most budget-friendly standalone alternative, since it uses no screen at all until you choose to scan a page." },
+  { q: "What's the cheapest way to reduce iPad screen time for note-taking?", a: "A reusable paper notebook like the Rocketbook Core is the most budget-friendly standalone alternative, since it uses no screen at all until you choose to scan a page." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks-for-mac-users", title: "Best Digital Notebooks for Mac Users (2026)" },
   { href: "/guide/best-e-ink-digital-notebooks", title: "Best E-Ink Digital Notebooks (2026)" },
-  { href: "/guide/best-digital-notebooks-for-writers", title: "Best Digital Notebooks for Writers (2026)" },
+  { href: "/guide/best-digital-notebooks-for-writers", title: "Best Digital Notebooks for Writers (2026)" }
 ];

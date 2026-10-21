@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "This dock's 14-port design is specifically aimed at consolidating external hard drives, displays, speakers, and other peripherals through a single USB-C connection, more physical ports than either the StarTech or Lenovo picks in this comparison. Its included 180W power adapter delivers 100W of charging to the host laptop while still powering every connected peripheral simultaneously.\n\nCompared to the Lenovo pick above, this one prioritizes maximum port count and an all-metal durable casing over brand-specific optimization, appealing to buyers who connect many peripherals rather than just displays and a charger. Its dedicated power button lets you fully power down the dock for energy efficiency when not in use, a physical control the other picks in this comparison don't offer.\n\nBest for buyers who want the maximum port count for connecting many peripherals simultaneously.",
     specs: ["14 total ports, all-metal casing", "100W charging via included 180W adapter", "Dual monitor support up to 4K 120Hz"],
     pros: ["14 ports is the highest count in this comparison", "All-metal casing resists wear and minimizes heat buildup", "Dedicated power button for full dock shutdown"],
-    cons: ["Highest price in this comparison at $196.00", "Bulkier footprint than the StarTech or Lenovo picks"],
+    cons: ["Highest price in this comparison at under $200", "Bulkier footprint than the StarTech or Lenovo picks"],
     bestFor: "buyers who want the maximum port count for connecting many peripherals",
   },
   {
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Driverless cross-platform compatibility", "StarTech Driverless USB4 Dock"],
         ["A Lenovo-optimized dock with verified bandwidth", "Lenovo ThinkPad USB4 Dock 5000"],
         ["The maximum port count for many peripherals", "Razer USB 4 Dock, 14 Ports"],
-        ["Built-in NVMe storage expansion", "WAVLINK USB4 Docking Station with M.2 Enclosure"],
+        ["Built-in NVMe storage expansion", "WAVLINK USB4 Docking Station with M.2 Enclosure"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $140", "WAVLINK with M.2 Enclosure ($139.98)"],
-        ["Under $155", "StarTech Driverless ($139.99) or Lenovo ThinkPad 5000 ($154.99)"],
-        ["Under $200", "Razer USB 4 Dock ($196.00)"],
+        ["Under $140", "WAVLINK with M.2 Enclosure (under $140)"],
+        ["Under $155", "StarTech Driverless (under $140) or Lenovo ThinkPad 5000 (under $160)"],
+        ["Under $200", "Razer USB 4 Dock (under $200)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Driverless Setup vs Brand-Optimized Software",
     cards: [
       { label: "Driverless (StarTech)", text: "Works identically across macOS and Windows with no software install, ideal for shared or hot-desking environments with mixed devices." },
-      { label: "Brand-optimized (Lenovo ThinkPad 5000)", text: "Tuned specifically for ThinkPad hardware while still claiming broad OS compatibility, appealing if you're standardized on one laptop brand." },
+      { label: "Brand-optimized (Lenovo ThinkPad 5000)", text: "Tuned specifically for ThinkPad hardware while still claiming broad OS compatibility, appealing if you're standardized on one laptop brand." }
     ],
     note: "If your office mixes Mac and Windows devices, the StarTech's driverless design avoids compatibility exceptions. If you're a single-brand ThinkPad shop, the Lenovo pick's tuning is a safe default.",
   },
@@ -137,7 +137,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your display setup", "Recommended pick"],
       rows: [
         ["Dual 4K 144Hz or single 8K 60Hz", "StarTech Driverless or Lenovo ThinkPad 5000"],
-        ["Triple 4K 144Hz for creative work", "WAVLINK with M.2 Enclosure"],
+        ["Triple 4K 144Hz for creative work", "WAVLINK with M.2 Enclosure"]
       ],
     },
   },
@@ -145,16 +145,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Creative Professionals Specifically",
     cards: [
       { label: "Look for", text: "A built-in fast storage enclosure and triple-display support, so you can work directly off high-speed local storage while running multiple reference monitors." },
-      { label: "In this comparison", text: "The WAVLINK pick specifically includes an M.2 NVMe enclosure rated up to 2004MB/s read speeds alongside triple 4K 144Hz display support." },
+      { label: "In this comparison", text: "The WAVLINK pick specifically includes an M.2 NVMe enclosure rated up to 2004MB/s read speeds alongside triple 4K 144Hz display support." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You connect many peripherals and want the highest port count, where the Razer USB 4 Dock's 14 ports justify its $196.00 price." },
-      { label: "Save if", text: "You want verified 40Gbps bandwidth with strong display support at the lowest price, where the WAVLINK or StarTech picks deliver that under $140." },
+      { label: "Spend more if", text: "You connect many peripherals and want the highest port count, where the Razer USB 4 Dock's 14 ports justify its under $200 price." },
+      { label: "Save if", text: "You want verified 40Gbps bandwidth with strong display support at the lowest price, where the WAVLINK or StarTech picks deliver that under $140." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

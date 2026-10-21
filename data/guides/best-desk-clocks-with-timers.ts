@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desk clock with timer";
 export const introParagraphs = [
   "A genuine countdown timer, the kind you'd use for a focused work session or a kitchen-style task, is an uncommon feature on standard desk clocks. Most digital clocks include an alarm, which is a very different function: an alarm fires at a set time of day, while a timer counts down from a duration you set. Only two products in our verified inventory explicitly name a timer or countdown function.",
-  "We're covering both honestly, with a reduced list rather than stretching alarm-only clocks into this category. If a genuine countdown timer is a must-have feature, treat these two as your real options rather than assuming any \"multifunctional\" desk clock includes one.",
+  "We're covering both honestly, with a reduced list rather than stretching alarm-only clocks into this category. If a genuine countdown timer is a must-have feature, treat these two as your real options rather than assuming any \"multifunctional\" desk clock includes one."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "5 min";
@@ -59,7 +59,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified an explicit timer or countdown claim in the listing", description: "Included only the two products in our pool whose listings specifically name \"Timer\" or \"Countdown\" as a feature, rather than assuming an alarm function counts as a timer." },
   { title: "Distinguished a timer from an alarm clearly", description: "Confirmed the functional difference between a countdown timer and a time-of-day alarm, since these are frequently confused in casual searches." },
   { title: "Kept the list honest at two picks rather than padding it", description: "Declined to stretch alarm-only clocks into this category just to lengthen the list, since that would mislead buyers about actual functionality." },
-  { title: "Weighed price against feature completeness", description: "Compared the low-cost pen holder timer pick against the fuller-featured corded countdown clock so buyers can match spend to actual needs." },
+  { title: "Weighed price against feature completeness", description: "Compared the low-cost pen holder timer pick against the fuller-featured corded countdown clock so buyers can match spend to actual needs." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -193,11 +193,11 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "What's the difference between a timer and an alarm on a desk clock?", a: "An alarm triggers at a specific time of day, repeating daily. A timer counts down from a duration you set, useful for work sessions or short tasks, then resets." },
   { q: "Do most desk clocks have a countdown timer?", a: "No, it's an uncommon feature. Most digital desk clocks include an alarm function instead. Only two products in our verified pool explicitly name a timer or countdown feature." },
-  { q: "Which pick should I choose if I just want a basic timer?", a: "The Desk Pen Holder with Clock is the lowest cost option with an explicit timer function, plus it doubles as pen storage." },
+  { q: "Which pick should I choose if I just want a basic timer?", a: "The Desk Pen Holder with Clock is the lowest cost option with an explicit timer function, plus it doubles as pen storage." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-clock-and-pen-holder-combos", title: "Best Desk Clock and Pen Holder Combos (2026)" },
   { href: "/guide/best-led-desk-clocks", title: "Best LED Desk Clocks (2026)" },
-  { href: "/guide/best-desk-clocks-with-dates", title: "Best Desk Clocks with Date Displays (2026)" },
+  { href: "/guide/best-desk-clocks-with-dates", title: "Best Desk Clocks with Date Displays (2026)" }
 ];

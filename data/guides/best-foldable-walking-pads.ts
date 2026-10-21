@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31EwlWLi0KL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D2ZVB8DJ?tag=deskfinds0d-20",
-    "description": "The P1 folds completely in half, which the listing says cuts its footprint by 50% when stored flat. It has an aluminum unibody frame, a 16.5 inch wide walking belt and three control options.\n\nIt is the most expensive pad at $349, about $69 more than the Lastforever, but it is the only one built around a true fold-in-half deck with a premium aluminum finish. Its listing is lighter on motor and capacity figures than the ShineMaos or Lastforever.\n\nChoose it if you want a deck that disappears flat under a bed or sofa and a wider belt. The caveat is price and the thin horsepower detail.",
+    "description": "The P1 folds completely in half, which the listing says cuts its footprint by 50% when stored flat. It has an aluminum unibody frame, a 16.5 inch wide walking belt and three control options.\n\nIt is the most expensive pad at under $350, about $69 more than the Lastforever, but it is the only one built around a true fold-in-half deck with a premium aluminum finish. Its listing is lighter on motor and capacity figures than the ShineMaos or Lastforever.\n\nChoose it if you want a deck that disappears flat under a bed or sofa and a wider belt. The caveat is price and the thin horsepower detail.",
     "specs": [
       "Folds in half, 50% smaller",
       "16.5 inch wide belt",

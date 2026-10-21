@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "This pick includes four built-in USB 3.0 ports rated for up to 5Gbps transfer speed, the most USB ports in this comparison, with backward compatibility down to USB 2.0, 1.1, and 1.0 for older peripherals you might still be using.\n\nIts dual switch modes (push-button and wired desktop controller) and clear LED indicators match the flexibility of the pricier pick above, and it's backed by a stated 24-month after-sales service period.\n\nBest for buyers who want the most USB 3.0 ports in this comparison for connecting several peripherals at once.",
     specs: ["2-port HDMI KVM, 4K@60Hz support", "4x USB 3.0 ports, up to 5Gbps", "Dual switch modes, 24-month after-sales service"],
     pros: ["Most USB 3.0 ports in this comparison at four total", "Backward compatible with older USB 2.0/1.1/1.0 peripherals", "24-month after-sales service commitment"],
-    cons: ["Does not support keyboard hotkey switching per the listing", "Same $29.99-$29.69 price range as the top pick with similar specs"],
+    cons: ["Does not support keyboard hotkey switching per the listing", "Same under $30-under $30 price range as the top pick with similar specs"],
     bestFor: "buyers who want the most USB 3.0 ports for connecting multiple peripherals",
   }
 ];
@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["USB 3.0 speed and stable EDID handling", "HDMI KVM Switch 1 Monitor 2 Computers, 2 Port"],
         ["A complete kit with all cables included", "4K KVM Switch HDMI 2 Port Box"],
-        ["The most USB 3.0 ports for multiple peripherals", "TIGKTING USB 3.0 HDMI KVM Switch, 2 Port"],
+        ["The most USB 3.0 ports for multiple peripherals", "TIGKTING USB 3.0 HDMI KVM Switch, 2 Port"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $19", "HDMI KVM Switch, Wired Extend Controller ($16.99) or 4K KVM Switch Box ($18.99)"],
-        ["Under $30", "HDMI KVM Switch 2 Port ($29.69) or TIGKTING USB 3.0 ($29.99)"],
+        ["Under $19", "HDMI KVM Switch, Wired Extend Controller (under $20) or 4K KVM Switch Box (under $20)"],
+        ["Under $30", "HDMI KVM Switch 2 Port (under $30) or TIGKTING USB 3.0 (under $30)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "USB 2.0 vs USB 3.0 Ports",
     cards: [
       { label: "USB 2.0 (Wired Extend Controller pick)", text: "Fine for a basic keyboard and mouse, but noticeably slower for transferring files via a connected flash drive or external hard drive." },
-      { label: "USB 3.0 (Top pick and TIGKTING)", text: "Up to 5Gbps transfer speed, meaningfully faster for USB storage devices, scanners, and other data-heavy peripherals shared between computers." },
+      { label: "USB 3.0 (Top pick and TIGKTING)", text: "Up to 5Gbps transfer speed, meaningfully faster for USB storage devices, scanners, and other data-heavy peripherals shared between computers." }
     ],
     note: "If you only connect a keyboard and mouse, USB 2.0 is sufficient. If you regularly share a flash drive or external storage between computers, prioritize a USB 3.0 pick.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your situation", "Recommended pick"],
       rows: [
         ["You don't already have spare HDMI/USB cables", "4K KVM Switch HDMI 2 Port Box (cables included)"],
-        ["You already have compatible cables on hand", "Any pick in this comparison, cables aren't required"],
+        ["You already have compatible cables on hand", "Any pick in this comparison, cables aren't required"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Direct HDMI Setups Specifically",
     cards: [
       { label: "Look for", text: "A listing that explicitly states compatibility with HDMI adapters or conversion cables if your setup requires one, rather than assuming universal compatibility." },
-      { label: "In this comparison", text: "The HDMI KVM Switch with Wired Extend Controller explicitly warns against using adapters, so a direct HDMI-to-HDMI setup is required for stable performance." },
+      { label: "In this comparison", text: "The HDMI KVM Switch with Wired Extend Controller explicitly warns against using adapters, so a direct HDMI-to-HDMI setup is required for stable performance." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want maximum USB 3.0 ports for multiple peripherals, where the TIGKTING USB 3.0 pick offers four full-speed ports in this comparison." },
-      { label: "Save if", text: "A basic switch with included cables covers your needs, where the 4K KVM Switch HDMI 2 Port Box delivers a complete kit for under $19." },
+      { label: "Save if", text: "A basic switch with included cables covers your needs, where the 4K KVM Switch HDMI 2 Port Box delivers a complete kit for under $19." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

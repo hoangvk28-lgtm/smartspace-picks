@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mechanical desk clock";
 export const introParagraphs = [
   "In horology, mechanical almost always means a wind-up spring movement with no battery, keeping time through gears and an escapement rather than electronics. None of the products in our verified research pool are true wind-up mechanical clocks, that category is a rare, specialized, and considerably more expensive niche dominated by dedicated clockmakers, not something we found in general desk clock listings.",
-  "What we do have verified are flip clocks, which use a genuine internal gear system to physically flip each number card, a real mechanical action even though the clock itself is battery powered rather than wind-up. We're covering those here as the closest practical match, being explicit that they are not true wind-up mechanical movements, since conflating the two would be misleading.",
+  "What we do have verified are flip clocks, which use a genuine internal gear system to physically flip each number card, a real mechanical action even though the clock itself is battery powered rather than wind-up. We're covering those here as the closest practical match, being explicit that they are not true wind-up mechanical movements, since conflating the two would be misleading."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "7 min";
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed no true wind-up mechanical clocks exist in our verified research pool", description: "Searched specifically for wind-up, spring-driven mechanical desk clocks and did not find genuine matches in general desk clock listings, that category is dominated by specialized, higher-priced clockmakers." },
   { title: "Selected flip clocks as the closest genuine gear-driven alternative", description: "Chose products with a real internal gear mechanism that physically moves, rather than a printed retro face on a standard quartz movement, while being explicit these are battery powered, not wind-up." },
   { title: "Repeated the mechanical versus wind-up distinction across every product entry", description: "Restated in each pick's description that it is not a true wind-up movement, to avoid any reader coming away with a false impression from skimming a single section." },
-  { title: "Reduced product count to the flip clocks only", description: "Kept this guide to four gear-driven flip clocks rather than including unrelated digital or quartz analog clocks that have no genuine mechanical claim at all." },
+  { title: "Reduced product count to the flip clocks only", description: "Kept this guide to four gear-driven flip clocks rather than including unrelated digital or quartz analog clocks that have no genuine mechanical claim at all." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -230,11 +230,11 @@ export const faq: FaqItem[] = [
   { q: "Are any desk clocks in this guide truly mechanical wind-up clocks?", a: "No, none of the verified products we researched are true wind-up mechanical clocks. What we cover here are battery-powered flip clocks with a genuine gear-driven flip action, a different and more accessible category." },
   { q: "What's the difference between a flip clock and a true mechanical clock?", a: "A flip clock uses a real gear mechanism to physically flip number cards but runs on batteries. A true mechanical clock uses a wind-up spring and escapement with no battery at all, a separate, more specialized, pricier category." },
   { q: "Where can I find a genuine wind-up mechanical desk clock?", a: "Search specifically for wind-up clock or spring-driven movement, and expect to shop with specialized clockmakers rather than general desk accessory listings, at a noticeably higher price point." },
-  { q: "Do flip clocks make noise like a mechanical clock would?", a: "Most flip clocks produce an audible click each time a number flips, a genuine mechanical sound, though one model in this guide uses a silent electronic movement instead if that's preferable." },
+  { q: "Do flip clocks make noise like a mechanical clock would?", a: "Most flip clocks produce an audible click each time a number flips, a genuine mechanical sound, though one model in this guide uses a silent electronic movement instead if that's preferable." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-flip-desk-clocks", title: "Best Flip Desk Clocks (2026)" },
   { href: "/guide/best-vintage-desk-clocks", title: "Best Vintage Desk Clocks (2026)" },
-  { href: "/guide/best-desk-clocks", title: "Best Desk Clocks (2026)" },
+  { href: "/guide/best-desk-clocks", title: "Best Desk Clocks (2026)" }
 ];

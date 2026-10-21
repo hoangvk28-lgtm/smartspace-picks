@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "wooden desk clock";
 export const introParagraphs = [
   "Many desk clocks marketed with a wood-look or walnut-style finish are actually plastic or composite material printed to resemble wood grain, which makes shopping for a genuinely wood-material clock harder than it should be. Rather than pad this guide with wood-look products we couldn't verify as real wood, we're covering only the two clocks in our research pool with confirmed wood construction.",
-  "Both picks below take different approaches, a small minimalist analog clock built entirely from wood, and a flip clock that pairs a wood base with an electronic display. If neither fits your style, our modern and vintage desk clock guides cover a wider range of materials and finishes.",
+  "Both picks below take different approaches, a small minimalist analog clock built entirely from wood, and a flip clock that pairs a wood base with an electronic display. If neither fits your style, our modern and vintage desk clock guides cover a wider range of materials and finishes."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "5 min";
@@ -59,7 +59,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified genuine wood material from listing details before including any product", description: "Confirmed real wood construction claims in the product listing rather than assuming a wood-look finish or wood-toned plastic qualifies." },
   { title: "Declined to pad the list with wood-look plastic clocks", description: "Kept this guide to only the two confirmed wood-material products in our research pool rather than stretching wood-toned finishes to inflate the count." },
   { title: "Distinguished full wood construction from a wood base or accent", description: "Called out clearly which pick is entirely wood-built versus which uses wood only as a base component." },
-  { title: "Compared movement type and noise level for both picks", description: "Checked silent movement on both clocks, since a genuinely wood-material clock is often sat close to a desk where noise matters." },
+  { title: "Compared movement type and noise level for both picks", description: "Checked silent movement on both clocks, since a genuinely wood-material clock is often sat close to a desk where noise matters." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -181,11 +181,11 @@ export const faq: FaqItem[] = [
   { q: "Why does this guide only have two products?", a: "Genuinely wood-material desk clocks, confirmed real wood rather than a wood-look plastic finish, are a small category in our verified research. We chose accuracy over padding the list." },
   { q: "How do I know if a desk clock is really made of wood?", a: "Check the listing for explicit language like real wood or solid wood construction. A wood-look or wood-style description often means a printed plastic or composite finish instead." },
   { q: "Is the FOSA flip clock fully made of wood?", a: "No, only its base is wood, the display housing above it is a separate electronic flip mechanism." },
-  { q: "What if I want more wood clock options?", a: "Our research didn't turn up additional confirmed wood-material desk clocks at this time, check our modern or marble desk clock guides for other genuine material options." },
+  { q: "What if I want more wood clock options?", a: "Our research didn't turn up additional confirmed wood-material desk clocks at this time, check our modern or marble desk clock guides for other genuine material options." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-modern-desk-clocks", title: "Best Modern Desk Clocks (2026)" },
   { href: "/guide/best-flip-desk-clocks", title: "Best Flip Desk Clocks (2026)" },
-  { href: "/guide/best-marble-desk-clocks", title: "Best Marble Desk Clocks (2026)" },
+  { href: "/guide/best-marble-desk-clocks", title: "Best Marble Desk Clocks (2026)" }
 ];

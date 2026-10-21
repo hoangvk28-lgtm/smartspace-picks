@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "flexible gooseneck phone arms";
 export const introParagraphs = [
   "A gooseneck arm's whole value proposition is infinite-position flexibility, but that same flexibility is also its main failure mode: a design that gradually sags or drifts from its set position under a phone's weight undermines the point of buying one. Material gauge and construction quality separate the reliable holders from the drifters.",
-  "We prioritized picks with disclosed material specs (aluminum gauge, steel body) over vague \"flexible metal\" marketing language, and considered long-term repositioning durability as a genuine longevity factor for this bendable-mechanism product type.",
+  "We prioritized picks with disclosed material specs (aluminum gauge, steel body) over vague \"flexible metal\" marketing language, and considered long-term repositioning durability as a genuine longevity factor for this bendable-mechanism product type."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Hold-position reliability under weight", description: "We prioritized picks with disclosed reinforcement (material gauge, spring tension, or stiff-core engineering) over vague flexibility marketing." },
   { title: "Material gauge and construction transparency", description: "We favored listings that disclose specific material specs, like aluminum thickness or steel body construction, over generic 'flexible metal' claims." },
   { title: "Long-term repositioning durability", description: "We noted features like abrasion-resistant sleeves or reinforced joints that address wear from repeated bending over months of use." },
-  { title: "One-handed vs. two-handed adjustment tradeoff", description: "We disclosed whether each design's stiffness level requires one or two hands to reposition, a genuine usability tradeoff for this flexible-mechanism category." },
+  { title: "One-handed vs. two-handed adjustment tradeoff", description: "We disclosed whether each design's stiffness level requires one or two hands to reposition, a genuine usability tradeoff for this flexible-mechanism category." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -244,11 +244,11 @@ export const faq: FaqItem[] = [
   { q: "Which pick holds position most reliably under a heavy phone?", a: "The LISEN pick's steel body with shock-absorbing springs and adjustable tension knobs at each joint is the most mechanically reinforced option in this comparison." },
   { q: "Is a stiffer arm always better?", a: "Not necessarily. A stiffer core resists sagging better but requires two hands to reposition, less convenient if you adjust the angle frequently throughout the day." },
   { q: "Does material gauge actually matter for a gooseneck arm?", a: "Yes. A disclosed gauge, like the SAIJI pick's 8.5mm aluminum alloy, gives you a verifiable basis for durability expectations, unlike vague 'flexible metal' claims some competitors use." },
-  { q: "How do I prevent my gooseneck arm from wearing out faster?", a: "Avoid over-bending past the arm's natural range, and consider a pick with an abrasion-resistant outer sleeve, like the Lamicall nylon-braided option, if the arm regularly contacts desk objects during repositioning." },
+  { q: "How do I prevent my gooseneck arm from wearing out faster?", a: "Avoid over-bending past the arm's natural range, and consider a pick with an abrasion-resistant outer sleeve, like the Lamicall nylon-braided option, if the arm regularly contacts desk objects during repositioning." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-phone-arms", title: "Best Desk Phone Arms (2026)" },
   { href: "/guide/best-overhead-phone-arms-for-desks", title: "Best Overhead Phone Arms for Desks (2026)" },
-  { href: "/guide/best-clamp-on-phone-arms-for-desks", title: "Best Clamp-On Phone Arms for Desks (2026)" },
+  { href: "/guide/best-clamp-on-phone-arms-for-desks", title: "Best Clamp-On Phone Arms for Desks (2026)" }
 ];

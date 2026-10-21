@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "This projector's advanced cooling system operates at just 25 dB, the quietest stated noise level in this comparison, specifically engineered for late-night movies, bedrooms, and shared spaces without disturbing others. Its 3500 ANSI brightness with 99.8% wide color gamut delivers the highest stated brightness figure in this tier alongside HDR10 enhancement.\n\nCompared to the Daytime pick above, this one adds built-in Google TV with Google Voice Assistant for genuinely hands-free control, letting you search movies and adjust settings by speaking naturally rather than navigating menus. A 360-degree adjustable stand lets you project onto walls, ceilings, or any flat surface without needing an additional mounting accessory.\n\nBest for buyers who specifically want whisper-quiet operation with the highest stated brightness.",
     specs: ["Native 1080P, 4K decoding, 3500 ANSI lumens", "25 dB whisper-quiet cooling", "Built-in Google TV, Google Voice Assistant"],
     pros: ["Quietest stated cooling noise level in this comparison at 25 dB", "Highest stated brightness figure in this tier at 3500 ANSI", "Google Voice Assistant enables genuinely hands-free control"],
-    cons: ["Priced above this tier's stated ceiling at $539.99", "100,000 hour LED life is shorter than the top tier's rated lamps"],
+    cons: ["Priced above this tier's stated ceiling at under $550", "100,000 hour LED life is shorter than the top tier's rated lamps"],
     bestFor: "buyers who specifically want whisper-quiet operation with the highest brightness",
   },
   {
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Verified honest brightness with the longest warranty", "WiMiUS G2 Official Google TV, Real 1100 ANSI"],
         ["Strong daytime or bright-room performance", "Daytime Smart 4K Projector, 2000 ANSI Ultra Bright"],
         ["Whisper-quiet operation with the highest brightness", "VISSPL Google TV, 3500 ANSI, 25dB Quiet"],
-        ["The best value with 3000 ANSI brightness and Google TV", "HAPPRUN 3000 ANSI Google TV Projector"],
+        ["The best value with 3000 ANSI brightness and Google TV", "HAPPRUN 3000 ANSI Google TV Projector"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $400", "WiMiUS G2 ($399.99)"],
-        ["Under $410", "Daytime Smart 4K ($409.00)"],
-        ["Under $500", "HAPPRUN ($499.98)"],
-        ["Under $540", "VISSPL ($539.99)"],
+        ["Under $400", "WiMiUS G2 (under $400)"],
+        ["Under $410", "Daytime Smart 4K (under $450)"],
+        ["Under $500", "HAPPRUN (under $500)"],
+        ["Under $540", "VISSPL (under $550)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Verified Lower ANSI vs Higher Unverified ANSI Claims",
     cards: [
       { label: "Verified lower ANSI (WiMiUS, 1100 ANSI)", text: "Explicitly acknowledges its real brightness measurement and directly calls out inflated claims elsewhere in the market." },
-      { label: "Higher stated ANSI (VISSPL and HAPPRUN, 3000-3500 ANSI)", text: "States a higher brightness figure without the same explicit verification language, though still likely genuine given the established ANSI standard." },
+      { label: "Higher stated ANSI (VISSPL and HAPPRUN, 3000-3500 ANSI)", text: "States a higher brightness figure without the same explicit verification language, though still likely genuine given the established ANSI standard." }
     ],
     note: "If you specifically value a manufacturer's transparency about brightness measurement standards, the WiMiUS pick's explicit honesty is worth noting. If you need genuinely higher brightness for bright-room use, the VISSPL or HAPPRUN picks' higher ANSI figures better serve that need.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your noise sensitivity", "Recommended pick"],
       rows: [
         ["Standard living room use", "WiMiUS G2, Daytime, or HAPPRUN"],
-        ["Bedroom or shared quiet space", "VISSPL (25 dB whisper-quiet)"],
+        ["Bedroom or shared quiet space", "VISSPL (25 dB whisper-quiet)"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Household With Young Children Specifically",
     cards: [
       { label: "Look for", text: "Built-in Kids Mode with content filtering and multi-user profiles with PIN protection, rather than relying solely on external streaming app parental controls." },
-      { label: "In this comparison", text: "The WiMiUS G2 pick's built-in Kids Mode and PIN-protected multi-user profiles specifically address family content management at the projector level." },
+      { label: "In this comparison", text: "The WiMiUS G2 pick's built-in Kids Mode and PIN-protected multi-user profiles specifically address family content management at the projector level." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want whisper-quiet operation combined with the highest stated brightness, where the VISSPL pick delivers both at the top of this tier." },
-      { label: "Save if", text: "You want verified honest brightness with the longest warranty, where the WiMiUS G2 pick covers that for about $140 less." },
+      { label: "Save if", text: "You want verified honest brightness with the longest warranty, where the WiMiUS G2 pick covers that for about $140 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

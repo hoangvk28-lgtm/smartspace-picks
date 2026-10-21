@@ -12,7 +12,7 @@ export const videoConferencingTroubleshootingGuide: Guide = {
     "video call audio out of sync fix",
     "camera not detected video call fix",
     "video freezing during call fix",
-    "microphone not working zoom fix",
+    "microphone not working zoom fix"
   ],
   heroImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const videoConferencingTroubleshootingGuide: Guide = {
     "echo-cancellation-explained",
     "screen-sharing-resolution-explained",
     "webcam-troubleshooting",
-    "home-network-troubleshooting",
+    "home-network-troubleshooting"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const videoConferencingTroubleshootingGuide: Guide = {
       question: "Why does a call work fine on one device but have problems on another?",
       answer:
         "This points to a device-specific issue rather than a network or account problem, check for outdated software or drivers on the problematic device, and confirm hardware (camera, microphone) permissions are correctly configured specifically on that device.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const videoConferencingTroubleshootingGuide: Guide = {
     {
       heading: "Why Bandwidth-Related Issues Often Masquerade as Other Problems",
       body: `Insufficient available bandwidth can manifest as several seemingly different symptoms, audio and video falling out of sync, video becoming choppy or freezing, or even audio dropping out entirely, all stemming from the same underlying cause of the connection struggling to transmit data fast enough for smooth real-time communication, recognizing bandwidth as a common root cause for this range of different-looking symptoms helps focus troubleshooting efforts on connection-related fixes, closing other bandwidth-consuming applications, switching to a wired connection, or lowering video quality settings, rather than treating each symptom as requiring an entirely separate diagnosis and solution.`,
-    },
+    }
   ],
 };

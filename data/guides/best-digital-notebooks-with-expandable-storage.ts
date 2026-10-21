@@ -5,7 +5,7 @@ export const metaDescription = "Honest disclosure: true removable-card expandabl
 export const mainKeyword = "digital notebook expandable storage";
 export const introParagraphs = [
   "We need to correct an assumption here: none of the leading E Ink notebooks, Kindle Scribe, reMarkable, XPPen, BOOX, currently ship with a user-accessible microSD or removable storage slot as a standard feature across the board. What buyers actually control is which fixed storage tier they purchase.",
-  "So instead of a false expandable-storage roundup, we ranked these by their largest available fixed storage tier, since that's the real lever for anyone who needs more room for notes, PDFs, or books.",
+  "So instead of a false expandable-storage roundup, we ranked these by their largest available fixed storage tier, since that's the real lever for anyone who needs more room for notes, PDFs, or books."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41BunSeRP3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR4KXMKF?tag=deskfinds0d-20",
     description: "64GB fixed storage matched with Android's cloud-storage app flexibility, you can offload files to cloud services more easily than on closed ecosystems, effectively extending usable capacity even without a physical expansion slot.\n\nOne spot below Amazon Kindle Scribe Colorsoft 64GB in this ranking, it's priced lower than Amazon Kindle Scribe Colorsoft 64GB. The compromise here is straightforward: Still no physical removable card slot. What you gain in return: Same top-tier fixed storage as the Kindle Scribe Colorsoft. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Android cloud app flexibility extends practical usable capacity. On the other side, Still no physical removable card slot. That's the main tradeoff to weigh against everything above.",
-    specs: ["64GB fixed storage, 6GB RAM","Runs Android for cloud storage app flexibility","310 reviews at 4.3 stars"],
+    specs: ["64GB fixed storage, 6GB RAM","Runs Android for cloud storage app flexibility"],
     pros: ["Same top-tier fixed storage as the Kindle Scribe Colorsoft","Android cloud app flexibility extends practical usable capacity"],
     cons: ["Still no physical removable card slot"],
     bestFor: "Buyers who want to supplement fixed storage with flexible cloud app options via Android.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31vXCSmH+ML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D4JKM1S7?tag=deskfinds0d-20",
     description: "Same 64GB fixed capacity as the new Colorsoft above, in Like-New refurbished condition at less than half the price.\n\nSitting just under BOOX Note Air 5 C, it's priced lower than BOOX Note Air 5 C. Here's the honest tradeoff: Like-New condition means light cosmetic wear is possible. And here's what it gets you instead: Same top storage tier as the new Colorsoft at a fraction of the price. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Same top storage tier as the new Colorsoft at a fraction of the price. On the other side, Like-New condition means light cosmetic wear is possible. That's the main tradeoff to weigh against everything above.",
-    specs: ["64GB fixed storage, Like-New condition","425 reviews at 4.3 stars"],
+    specs: ["64GB fixed storage, Like-New condition"],
     pros: ["Same top storage tier as the new Colorsoft at a fraction of the price"],
     cons: ["Like-New condition means light cosmetic wear is possible"],
     bestFor: "Budget-focused buyers who want maximum storage without paying full price.",
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HDL3XJR?tag=deskfinds0d-20",
     description: "The largest, highest-rated review base of any device here, though storage is a fixed tier without a removable expansion option, same as the rest of the lineup.\n\nOne spot below Amazon Kindle Scribe in this ranking, it costs more than Amazon Kindle Scribe. The compromise here is straightforward: No removable storage expansion, same limitation as the rest of the lineup. What you gain in return: Largest, most proven review base in this comparison. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Largest, most proven review base in this comparison. On the other side, No removable storage expansion, same limitation as the rest of the lineup. That's the main tradeoff to weigh against everything above.",
-    specs: ["Fixed storage tier, check current spec","Marker Plus stylus included","1,354 reviews at 4.4 stars"],
+    specs: ["Fixed storage tier, check current spec","Marker Plus stylus included"],
     pros: ["Largest, most proven review base in this comparison"],
     cons: ["No removable storage expansion, same limitation as the rest of the lineup"],
     bestFor: "Buyers who prioritize the most field-tested device and can work within its fixed storage tier.",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Honest disclosure of no removable storage", description: "We verified no current leading E Ink notebook ships with a user-accessible microSD or removable card slot as standard, and said so directly." },
   { title: "Fixed storage tier as the real lever", description: "We ranked by the largest available fixed storage configuration for each product line, since that's what buyers actually control." },
   { title: "Price against storage tier", description: "We compared refurbished versus new pricing at the same storage tier, since the value gap can be significant." },
-  { title: "Cloud/Android flexibility as a partial substitute", description: "We noted where Android-based devices offer more flexible cloud storage app options that can extend practical usable capacity." },
+  { title: "Cloud/Android flexibility as a partial substitute", description: "We noted where Android-based devices offer more flexible cloud storage app options that can extend practical usable capacity." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Is refurbished a good way to get more storage for less?", a: "Yes, the Like-New 64GB Kindle Scribe costs less than half the price of the new Colorsoft for the same storage tier." },
   { q: "Does Android help with storage limitations?", a: "Indirectly, the BOOX Note Air 5 C's Android base allows more flexible cloud storage app options, which can supplement fixed on-device capacity." },
   { q: "How much storage do I actually need?", a: "Handwritten notes use very little space. If you plan to store a large PDF or book library, prioritize the 64GB tier over 16GB or 32GB options." },
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers who want maximum available storage and understand it's a fixed tier, not expandable." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers who want maximum available storage and understand it's a fixed tier, not expandable." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks-for-pdfs", title: "Best Digital Notebooks for PDFs (2026)" },
   { href: "/guide/best-refurbished-digital-notebooks", title: "Best Refurbished Digital Notebooks (2026)" },
-  { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" },
+  { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" }
 ];

@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $93.49",
+          "Under $100",
           "REHOOPEX Black Storage Cabinet with Doors"
         ],
         [
-          "Around $119.99",
+          "Under $120",
           "Smuxee Walnut Sideboard Cabinet"
         ],
         [
-          "Around $149.99",
+          "Under $150",
           "Buffet Cabinet"
         ],
         [
-          "Around $219.99",
+          "Under $250",
           "59\" Filing Cabinet with Lock Drawers fits Legal Size for Home Office"
         ],
         [
-          "Around $287.99",
+          "Under $300",
           "ModernMate 60\" File Cabinet with Drawers & Door"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "ModernMate 60\" Lateral File Cabinet with 3 Drawers"
         ],
         [
-          "Around $359.99",
+          "Under $400",
           "ModernMate 63\" Lateral File Cabinet with Lock"
         ],
         [
-          "Around $583.32",
+          "Under $600",
           "Bme Sideboard Georgina Solid Wood 2 Doors & 3 Drawers"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "ModernMate 63\" Lateral File Cabinet with Lock is aimed at buyers prioritizing 300 lb top load rating, 1.18in thick top." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "ModernMate 63\" Lateral File Cabinet with Lock is aimed at buyers prioritizing 300 lb top load rating, 1.18in thick top." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenza-file-cabinets","title":"Best Office Credenza File Cabinets in 2026"},{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"}];

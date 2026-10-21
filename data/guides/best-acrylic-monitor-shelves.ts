@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "acrylic monitor shelf";
 export const introParagraphs = [
   "Acrylic exposed to sustained UV light, such as sitting near a window, can gradually yellow and become more brittle over time, a real durability tradeoff that doesn't show up in a quick review. Acrylic also generally carries lower weight capacity than wood, metal, or glass given its more flexible material properties, worth checking the rated capacity against your actual monitor weight.",
-  "Scratches show up more visibly on a clear acrylic surface than on an opaque material, and thickness affects both flex and bowing under sustained load, a thin acrylic platform can visibly bow under a heavy monitor even within its rated capacity. Static electricity is another practical quirk, clear acrylic tends to attract visible dust more readily than other materials.",
+  "Scratches show up more visibly on a clear acrylic surface than on an opaque material, and thickness affects both flex and bowing under sustained load, a thin acrylic platform can visibly bow under a heavy monitor even within its rated capacity. Static electricity is another practical quirk, clear acrylic tends to attract visible dust more readily than other materials."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,13 +26,13 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Acrylic Monitor Shelf",
     name: "GoldOrcle Acrylic Monitor Stand Riser, Clear Computer Monitor Stand (Big)",
     price: "$25.99",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "603 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41iqiC3V+BL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BHNVC7HN?tag=deskfinds0d-20",
-    description: "For buyers wanting a genuinely sturdy acrylic option sized for a larger screen Built with a acrylic platform rated to 22 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nIt earns the top spot in this comparison over AMT Premium Acrylic Clear Monitor Riser for Home Office for one main reason. Solid 4.8-star rating with 603 ratings. On price, it's actually priced above AMT Premium Acrylic Clear Monitor Riser for Home Office, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Acrylic build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["22 lbs rated capacity (evenly distributed)","acrylic construction","Priced at $25.99","603 ratings on Amazon"],
-    pros: ["Solid 4.8-star rating with 603 ratings","Acrylic build appropriate for this use case","Reasonable price at $25.99","A larger clear acrylic riser designed for bigger monitors."],
+    description: "For buyers wanting a genuinely sturdy acrylic option sized for a larger screen Built with a acrylic platform rated to 22 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nIt earns the top spot in this comparison over AMT Premium Acrylic Clear Monitor Riser for Home Office for one main reason. On price, it's actually priced above AMT Premium Acrylic Clear Monitor Riser for Home Office, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Acrylic build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["22 lbs rated capacity (evenly distributed)","acrylic construction","Priced under $30"],
+    pros: ["Acrylic build appropriate for this use case","Reasonable price at under $30","A larger clear acrylic riser designed for bigger monitors."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A larger clear acrylic riser designed for bigger monitors.",
   },
@@ -42,13 +42,13 @@ export const products: GuideProduct[] = [
     badge: "Best Value Acrylic Monitor Shelf",
     name: "AMT Premium Acrylic Clear Monitor Riser for Home Office",
     price: "$21.39",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "2,613 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31U1QumsMxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B083JYX48S?tag=deskfinds0d-20",
-    description: "For buyers wanting an affordable acrylic option for home office use Built with a acrylic platform rated to 20 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nOne spot below GoldOrcle Acrylic Monitor Stand Riser in this ranking, it's priced lower than GoldOrcle Acrylic Monitor Stand Riser. The compromise here is straightforward: Rated capacity assumes evenly distributed weight, not a single point load. What you gain in return: Solid 4.7-star rating with 2,613 ratings. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Acrylic build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["20 lbs rated capacity (evenly distributed)","acrylic construction","Priced at $21.39","2,613 ratings on Amazon"],
-    pros: ["Solid 4.7-star rating with 2,613 ratings","Acrylic build appropriate for this use case","Reasonable price at $21.39","A premium clear acrylic riser at a moderate price point."],
+    description: "For buyers wanting an affordable acrylic option for home office use Built with a acrylic platform rated to 20 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nOne spot below GoldOrcle Acrylic Monitor Stand Riser in this ranking, it's priced lower than GoldOrcle Acrylic Monitor Stand Riser. The compromise here is straightforward: Rated capacity assumes evenly distributed weight, not a single point load. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Acrylic build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["20 lbs rated capacity (evenly distributed)","acrylic construction","Priced under $25"],
+    pros: ["Acrylic build appropriate for this use case","Reasonable price at under $25","A premium clear acrylic riser at a moderate price point."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A premium clear acrylic riser at a moderate price point.",
   },
@@ -58,13 +58,13 @@ export const products: GuideProduct[] = [
     badge: "Best 2-Tier Acrylic Shelf with Storage",
     name: "Egchi Clear Acrylic Monitor Stand Riser 2-Tier, 5.12 Inches High",
     price: "$27.99",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "1,492 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41nX4A5DLHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08KPQQ8B2?tag=deskfinds0d-20",
-    description: "For buyers wanting acrylic aesthetics plus a second storage tier Built with a acrylic platform rated to 22 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nSitting just under AMT Premium Acrylic Clear Monitor Riser for Home Office, it costs more than AMT Premium Acrylic Clear Monitor Riser for Home Office. Here's the honest tradeoff: Rated capacity assumes evenly distributed weight, not a single point load. And here's what it gets you instead: Solid 4.7-star rating with 1,492 ratings. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Acrylic build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["22 lbs rated capacity (evenly distributed)","acrylic construction","Priced at $27.99","1,492 ratings on Amazon"],
-    pros: ["Solid 4.7-star rating with 1,492 ratings","Acrylic build appropriate for this use case","Reasonable price at $27.99","A 2-tier clear acrylic organizer shelf standing about 5 inches high."],
+    description: "For buyers wanting acrylic aesthetics plus a second storage tier Built with a acrylic platform rated to 22 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nSitting just under AMT Premium Acrylic Clear Monitor Riser for Home Office, it costs more than AMT Premium Acrylic Clear Monitor Riser for Home Office. Here's the honest tradeoff: Rated capacity assumes evenly distributed weight, not a single point load. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Acrylic build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["22 lbs rated capacity (evenly distributed)","acrylic construction","Priced under $30"],
+    pros: ["Acrylic build appropriate for this use case","Reasonable price at under $30","A 2-tier clear acrylic organizer shelf standing about 5 inches high."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A 2-tier clear acrylic organizer shelf standing about 5 inches high.",
   },
@@ -74,13 +74,13 @@ export const products: GuideProduct[] = [
     badge: "Best Acrylic Shelf for a Minimalist Desk Look",
     name: "GoldOrcle Acrylic Monitor Stand Riser, Clear Computer Monitor Stand (Big)",
     price: "$25.99",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "603 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41iqiC3V+BL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BHNVC7HN?tag=deskfinds0d-20",
-    description: "For buyers who want the shelf to visually disappear on the desk Built with a acrylic platform rated to 22 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nRanked just behind Egchi Clear Acrylic Monitor Stand Riser 2-Tier, it's priced lower than Egchi Clear Acrylic Monitor Stand Riser 2-Tier. The real tradeoff against that pick: Rated capacity assumes evenly distributed weight, not a single point load. In exchange, it offers this instead: Solid 4.8-star rating with 603 ratings. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Acrylic build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["22 lbs rated capacity (evenly distributed)","acrylic construction","Priced at $25.99","603 ratings on Amazon"],
-    pros: ["Solid 4.8-star rating with 603 ratings","Acrylic build appropriate for this use case","Reasonable price at $25.99","The same larger clear acrylic riser, suited to buyers prioritizing a visually minimal desk aesthetic."],
+    description: "For buyers who want the shelf to visually disappear on the desk Built with a acrylic platform rated to 22 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nRanked just behind Egchi Clear Acrylic Monitor Stand Riser 2-Tier, it's priced lower than Egchi Clear Acrylic Monitor Stand Riser 2-Tier. The real tradeoff against that pick: Rated capacity assumes evenly distributed weight, not a single point load. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Acrylic build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["22 lbs rated capacity (evenly distributed)","acrylic construction","Priced under $30"],
+    pros: ["Acrylic build appropriate for this use case","Reasonable price at under $30","The same larger clear acrylic riser, suited to buyers prioritizing a visually minimal desk aesthetic."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "The same larger clear acrylic riser, suited to buyers prioritizing a visually minimal desk aesthetic.",
   }
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "UV yellowing risk considered", description: "Weighted sustained window-adjacent UV exposure as a real long-term durability concern for clear acrylic shelves." },
   { title: "Weight capacity compared against other materials", description: "Noted that acrylic generally carries lower capacity than wood, metal, or glass given its more flexible material properties." },
   { title: "Scratch visibility and thickness-dependent flex assessed", description: "Considered how visibly scratches show on a clear surface and how platform thickness affects bowing under load." },
-  { title: "Static dust attraction noted from buyer feedback", description: "Looked for reviews mentioning dust buildup, a known quirk of clear acrylic surfaces attracting static." },
+  { title: "Static dust attraction noted from buyer feedback", description: "Looked for reviews mentioning dust buildup, a known quirk of clear acrylic surfaces attracting static." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -176,23 +176,19 @@ export const howToChoose: HowToChooseSection[] = [
       {
         "label": "Look for",
         "text": "A stated weight capacity with real margin above your monitor's actual weight, a rigid material like metal or thick wood, and a wide enough platform to support the monitor's full base without overhang."
-      },
-      {
-        "label": "In this comparison",
-        "text": "Egchi Clear Acrylic Monitor Stand Riser 2-Tier fits this specifically: Solid 4.7-star rating with 1,492 ratings."
       }
-    ]
+      ]
   },
   {
     "subheading": "When to Spend More",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want what Egchi Clear Acrylic Monitor Stand Riser 2-Tier offers: Solid 4.7-star rating with 1,492 ratings. That's a real functional upgrade over the budget picks here, not just a brand markup."
+        "text": "That's a real functional upgrade over the budget picks here, not just a brand markup."
       },
       {
         "label": "Save if",
-        "text": "AMT Premium Acrylic Clear Monitor Riser for Home Office already covers the essentials: Solid 4.7-star rating with 2,613 ratings. The main thing you'd be paying extra for elsewhere in this list is capacity or storage you may not need."
+        "text": "The main thing you'd be paying extra for elsewhere in this list is capacity or storage you may not need."
       }
     ]
   }
@@ -225,11 +221,11 @@ export const faq: FaqItem[] = [
   { q: "Does acrylic yellow over time?", a: "It can with sustained UV exposure, such as sitting near a sunny window, gradually yellowing and becoming more brittle over months." },
   { q: "Is acrylic as strong as glass or metal for a monitor shelf?", a: "Generally no, acrylic's more flexible material properties mean lower weight capacity than wood, metal, or glass at a similar size." },
   { q: "Do acrylic shelves scratch easily?", a: "Scratches are more visible on clear acrylic than on opaque materials, careful handling and cleaning help keep the surface looking clean." },
-  { q: "Why does my acrylic shelf attract so much dust?", a: "Clear acrylic tends to build up static electricity, which attracts visible dust more readily than other shelf materials." },
+  { q: "Why does my acrylic shelf attract so much dust?", a: "Clear acrylic tends to build up static electricity, which attracts visible dust more readily than other shelf materials." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-glass-monitor-shelves", title: "Best Glass Monitor Shelves (2026)" },
   { href: "/guide/best-floating-monitor-shelves", title: "Best Floating Monitor Shelves (2026)" },
-  { href: "/guide/best-monitor-shelves-for-small-desks", title: "Best Monitor Shelves for Small Desks (2026)" },
+  { href: "/guide/best-monitor-shelves-for-small-desks", title: "Best Monitor Shelves for Small Desks (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop cooling pads for Lenovo Legion laptops";
 export const introParagraphs = [
   "Legion is Lenovo's primary premium gaming laptop line, heavier and hotter under sustained load than Lenovo's everyday laptops or its newer, more budget-friendly LOQ line. This guide focuses specifically on cooling pads that can keep up with Legion's chassis weight and heat output rather than treating all Lenovo laptops as one category.",
-  "None of these pads are Legion-exclusive hardware. They are universal-fit multi-fan cooling pads, so fit still depends on checking each pad's stated size and weight capacity against your specific Legion model. If you own a LOQ instead, our best-laptop-cooling-pads-for-lenovo-loq-laptops guide covers that distinct sub-line, and our best-laptop-cooling-pads-for-lenovo-laptops guide covers Lenovo's lineup more broadly.",
+  "None of these pads are Legion-exclusive hardware. They are universal-fit multi-fan cooling pads, so fit still depends on checking each pad's stated size and weight capacity against your specific Legion model. If you own a LOQ instead, our best-laptop-cooling-pads-for-lenovo-loq-laptops guide covers that distinct sub-line, and our best-laptop-cooling-pads-for-lenovo-laptops guide covers Lenovo's lineup more broadly."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -156,7 +156,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Legion's premium gaming heat and weight profile", description: "We evaluated each pad against Legion's heavier chassis and higher sustained heat output compared to Lenovo's everyday laptops and the more budget-friendly LOQ line." },
   { title: "Named-compatibility versus generic universal fit", description: "We gave extra weight to listings that explicitly name Lenovo Legion or specific Legion model numbers, while still flagging that even named compatibility should be verified against your exact generation." },
   { title: "Documented sustained-load cooling evidence", description: "We prioritized pads with a specific stated temperature drop under CPU and GPU load over vague cooling claims, given Legion's demanding gaming use case." },
-  { title: "Noise and control tradeoffs at high airflow", description: "We compared manual, automatic, and AI-driven fan control against the noise levels each generates, since Legion sessions can run long and noise matters over time." },
+  { title: "Noise and control tradeoffs at high airflow", description: "We compared manual, automatic, and AI-driven fan control against the noise levels each generates, since Legion sessions can run long and noise matters over time." }
 ];
 
 export const howToChoose: HowToChooseSection[] = [
@@ -291,11 +291,11 @@ export const faq: FaqItem[] = [
   { q: "Does Legion need a different cooling pad than LOQ?", a: "The two lines have different chassis and component profiles, so it's worth checking each separately. See our best-laptop-cooling-pads-for-lenovo-loq-laptops guide for LOQ-specific picks rather than assuming the same pad suits both equally." },
   { q: "Will a cooling pad that names Legion in the listing definitely fit my model?", a: "It's a stronger signal than a generic universal pad, but Legion spans multiple sub-lines and generations. Verify your exact Legion model against the listing's named compatibility before buying." },
   { q: "Is a higher fan count always better for Legion?", a: "Not automatically. Fan count matters most when it addresses your laptop's actual sustained heat load and the airflow lines up with your Legion model's actual vent layout, not just as a raw number." },
-  { q: "Should I choose automatic or manual fan control for Legion?", a: "It depends on your usage pattern. Automatic and AI-driven pads adjust to variable workloads without input, while manual turbo-fan pads let you set a fixed level yourself at a lower price." },
+  { q: "Should I choose automatic or manual fan control for Legion?", a: "It depends on your usage pattern. Automatic and AI-driven pads adjust to variable workloads without input, while manual turbo-fan pads let you set a fixed level yourself at a lower price." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-cooling-pads-for-lenovo-laptops", title: "Best Laptop Cooling Pads for Lenovo Laptops (2026)" },
   { href: "/guide/best-laptop-cooling-pads-for-lenovo-loq-laptops", title: "Best Laptop Cooling Pads for Lenovo LOQ Laptops (2026)" },
-  { href: "/guide/best-gaming-laptop-cooling-pads", title: "Best Gaming Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-gaming-laptop-cooling-pads", title: "Best Gaming Laptop Cooling Pads (2026)" }
 ];

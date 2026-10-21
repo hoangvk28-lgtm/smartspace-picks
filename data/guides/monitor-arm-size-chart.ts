@@ -12,7 +12,7 @@ export const monitorArmSizeChartGuide: Guide = {
     "monitor arm vesa size",
     "monitor arm clamp range",
     "monitor arm reach distance",
-    "monitor arm weight capacity",
+    "monitor arm weight capacity"
   ],
   heroImage: "https://images.unsplash.com/photo-1632064824547-e77c36851495?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1632064824547-e77c36851495?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const monitorArmSizeChartGuide: Guide = {
     "best-monitor-arm-desk-mounts",
     "best-ultrawide-monitor-arm",
     "best-monitor-arms",
-    "best-dual-monitor-arms",
+    "best-dual-monitor-arms"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const monitorArmSizeChartGuide: Guide = {
       question: "Do all monitor arms fit a grommet-mounted desk hole?",
       answer:
         "Most monitor arms include both a C-clamp and a grommet mount base in the box, letting you choose based on whether your desk has a pre-drilled cable grommet hole. Check the listing specifically confirms both mounting options if you're unsure which your desk supports.",
-    },
+    }
   ],
   sections: [
     {
@@ -87,6 +87,6 @@ Check your monitor's own spec sheet or the back panel directly (the four screw h
       body: `A monitor arm's horizontal reach determines how far the screen can extend from the clamp point toward you, useful for adjusting distance without moving the whole desk setup. Longer reach isn't automatically better: an arm extended to its maximum length has less stability and more visible sag over time than one used within the middle of its range.
 
 Weight capacity matters more than most buyers expect, since exceeding an arm's rated capacity causes it to droop or fail to hold position, even if the monitor physically attaches. Check your monitor's exact weight (usually listed in its spec sheet, often 8-15 lbs for a standard 24-27" monitor and up to 25 lbs for larger 4K or ultrawide panels) against the arm's stated capacity range, not just its maximum size compatibility.`,
-    },
+    }
   ],
 };

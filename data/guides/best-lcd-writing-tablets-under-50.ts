@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["The original, patent-holding brand with UV protection", "Boogie Board Basics Reusable Writing Pad"],
         ["The largest possible screen for shared or presentation use", "22 Inch Extra Large LCD Writing Tablet, Type-C Rechargeable"],
-        ["A large screen that still folds down for daily carrying", "14.3in Foldable LCD Writing Tablet"],
+        ["A large screen that still folds down for daily carrying", "14.3in Foldable LCD Writing Tablet"]
       ],
     },
   },
@@ -116,9 +116,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $30", "14.3in Foldable Tablet ($29.99)"],
-        ["$33-$40", "Boogie Board Jot ($33.39) or 22 Inch Extra Large ($39.99)"],
-        ["Under $44", "Boogie Board Basics ($43.99)"],
+        ["Under $30", "14.3in Foldable Tablet (under $30)"],
+        ["$33-$40", "Boogie Board Jot (under $35) or 22 Inch Extra Large (under $40)"],
+        ["Under $44", "Boogie Board Basics (under $45)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Established Brand vs Specialized Form Factor",
     cards: [
       { label: "Boogie Board (Basics or Jot)", text: "The original patent-holding brand behind LCD writing tablet technology, with stated durability testing and UV protection, at a price premium over generic alternatives." },
-      { label: "Specialized Form Factor (22\" Giant or 14.3\" Foldable)", text: "Generic-brand tablets built around a specific need, maximum screen size or genuine foldable portability, that Boogie Board's own current lineup doesn't offer at this size." },
+      { label: "Specialized Form Factor (22\" Giant or 14.3\" Foldable)", text: "Generic-brand tablets built around a specific need, maximum screen size or genuine foldable portability, that Boogie Board's own current lineup doesn't offer at this size." }
     ],
     note: "If brand trust and stated testing matter most, choose Boogie Board. If your priority is a specific screen size or portability feature, the specialized picks serve that need more directly.",
   },
@@ -137,7 +137,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Largest possible screen", "22 Inch Extra Large LCD Writing Tablet"],
         ["Large screen that still fits in a bag", "14.3in Foldable LCD Writing Tablet"],
-        ["Compact, magnetic-mountable size", "Boogie Board Jot Reusable Writing Tablet"],
+        ["Compact, magnetic-mountable size", "Boogie Board Jot Reusable Writing Tablet"]
       ],
     },
   },
@@ -145,16 +145,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Office Presentations and Mind Mapping Specifically",
     cards: [
       { label: "Look for", text: "A genuinely large screen specifically marketed as a whiteboard substitute, with a rechargeable battery for reliable extended use during meetings." },
-      { label: "In this comparison", text: "The 22 Inch Extra Large LCD Writing Tablet is specifically marketed for office presentations and mind mapping, with its jumbo screen and rechargeable battery." },
+      { label: "In this comparison", text: "The 22 Inch Extra Large LCD Writing Tablet is specifically marketed for office presentations and mind mapping, with its jumbo screen and rechargeable battery." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the trusted, patent-holding Boogie Board brand with stated UV protection and durability testing, where the Boogie Board Basics is the strongest choice in this comparison." },
-      { label: "Save if", text: "A large but genuinely portable tablet covers your needs, where the 14.3in Foldable pick is the cheapest option here while still offering a substantial screen." },
+      { label: "Save if", text: "A large but genuinely portable tablet covers your needs, where the 14.3in Foldable pick is the cheapest option here while still offering a substantial screen." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

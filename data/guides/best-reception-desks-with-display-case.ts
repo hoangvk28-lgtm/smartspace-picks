@@ -129,20 +129,20 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $249.99",
+          "Under $250",
           "WOODTIME Reception Desk with LED and Glass Display Shelves"
         ],
         [
-          "Around $289.99",
+          "Under $300",
           "AIEGLE Modern L-Shaped Reception Desk"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "AIEGLE Modern Reception Desk"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -190,7 +190,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "AIEGLE Modern Reception Desk is aimed at buyers prioritizing 59.1\"w desk with adjustable glass display shelves." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "AIEGLE Modern Reception Desk is aimed at buyers prioritizing 59.1\"w desk with adjustable glass display shelves." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-glass-reception-desks","title":"4 Best Glass Reception Desks in 2026"},{"href":"/guide/best-reception-desks-for-retail","title":"best-reception-desks-for-retail"},{"href":"/guide/best-modern-reception-desks","title":"best-modern-reception-desks"}];

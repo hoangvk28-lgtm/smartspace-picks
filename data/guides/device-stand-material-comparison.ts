@@ -12,7 +12,7 @@ export const deviceStandMaterialComparisonGuide: Guide = {
     "aluminum vs plastic phone stand",
     "wood phone stand durability",
     "best material for tablet stand",
-    "metal vs plastic device stand",
+    "metal vs plastic device stand"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deviceStandMaterialComparisonGuide: Guide = {
     "tablet-stand-vs-phone-stand",
     "phone-stand-angle-explained",
     "adjustable-tablet-arm-explained",
-    "wireless-charging-stand-explained",
+    "wireless-charging-stand-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deviceStandMaterialComparisonGuide: Guide = {
       question: "Does material affect how well a stand supports a heavier tablet?",
       answer:
         "Yes, a heavier tablet benefits from a stand with more mass and rigidity to prevent tipping or wobbling, aluminum's density gives it a natural advantage here over lighter plastic, which may need a wider base design to compensate for less material weight.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const deviceStandMaterialComparisonGuide: Guide = {
     {
       heading: "Why Aesthetic Preference Is a Legitimate Factor Alongside Function",
       body: `While aluminum generally wins on pure stability and durability metrics, material choice for a desk accessory also reasonably factors in how it looks and feels within your specific desk setup's aesthetic, a wood stand's warmer, more natural appearance appeals to some buyers specifically for this reason, even if it doesn't outperform aluminum on pure engineering metrics. Choosing based on genuine desk aesthetic preference, provided the stand still meets your functional stability needs, is a perfectly reasonable factor in the decision.`,
-    },
+    }
   ],
 };

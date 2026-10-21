@@ -33,23 +33,22 @@ export const products: GuideProduct[] = [
     badge: "Best Overall by Trust Signal",
     name: "VIVO Clamp-On 13 inch Above or Below Desk 2-Tier Shelving, Engineered Wood and Alloy Steel, Sit-Stand Compatible, Black",
     price: "~$49.99",
-    rating: "4.6 stars",
-    reviews: "799 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/vivo-13-2tier.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0BSB5T8YJ?tag=deskfinds0d-20",
     description:
       "A clamp-on shelf attaches to the desk edge using a C-clamp mechanism, so it floats above or below the surface without consuming any of the existing work area. This model offers two shelf tiers stacked vertically, which means a monitor, speaker, or small plant can sit on the upper level while cables or accessories occupy the lower one. The 13-inch width is intentionally narrow, making it practical for placement at either side of the monitor rather than spanning the full desk.\n\nSit-stand compatibility means the clamp is engineered to maintain its grip through repeated height-adjustment cycles, which standard clamps often fail to do over time. Engineered wood shelves are lighter than solid wood, which reduces strain on the clamp and the desk edge. Buyers with sit-stand desks who need a side shelf without giving up any desktop surface will find this the most practical option in the category.",
     specs: ["Sit-stand compatible", "13 inch wide", "2-tier", "C-clamp mount"],
     pros: [
-      "799 reviews most validated clamp-on shelf in roundup",
       "Sit-stand compatible maintains grip through height changes",
       "13-inch compact for side placement",
-      "2 tiers from one clamp footprint",
+      "2 tiers from one clamp footprint"
     ],
     cons: [
-      "$49.99 second highest in roundup",
+      "Under $50 second highest in roundup",
       "Engineered wood not solid wood",
-      "Verify clamp range matches desk thickness",
+      "Verify clamp range matches desk thickness"
     ],
     bestFor:
       "sit-stand desk owners wanting the most validated clamp-on side shelf that maintains grip through height adjustments",
@@ -60,23 +59,22 @@ export const products: GuideProduct[] = [
     badge: "Best Desktop Hutch Organizer (Surface-Mount)",
     name: "Snughome Desk Shelf 38.6 inch, 4-Tier Desktop Organizer Hutch, Pegboard Hooks, Rustic Brown",
     price: "~$51.99",
-    rating: "4.6 stars",
-    reviews: "317 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/snughome-hutch.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CYSXTHCX?tag=deskfinds0d-20",
     description:
       "A desktop hutch sits directly on the desk surface and rises vertically from there, functioning more like a bookcase that lives on the desk than a floating shelf. This unit spans 38.6 inches wide, which covers most of a standard 48-inch desk, and rises through four shelf tiers that can hold monitors, books, small plants, and office supplies at varying heights. The pegboard panel integrated into the back allows hooks to be repositioned for headphones, small bins, or cable organizers, so the storage configuration can be adjusted without tools.\n\nThe rustic brown finish combines lighter wood tones with warm grain patterns, which suits warm-toned office setups better than the matte black of most clamp-on alternatives. Because this sits on the desk, it reduces the available flat work surface by its footprint, so it works best on desks 48 inches or wider where a dedicated display and storage zone can be separated from the primary typing area. People who want the feel of a full desk hutch without wall mounting will find this a practical surface-level alternative.",
     specs: ["38.6 inch wide", "4-tier", "Pegboard hooks", "Surface-mount"],
     pros: [
-      "317 reviews at 4.6 stars second strongest validation",
       "Pegboard hook system is configurable",
       "4 tiers substantial vertical organization",
-      "Rustic brown warm aesthetic",
+      "Rustic brown warm aesthetic"
     ],
     cons: [
       "Sits on desk surface, not a clamp-on floating shelf",
       "38.6 inch wide too large for small desks under 40 inches",
-      "No sit-stand compatibility",
+      "No sit-stand compatibility"
     ],
     bestFor:
       "wide desks (40 inches or wider) where a comprehensive desktop hutch with configurable pegboard organization is the goal",
@@ -87,8 +85,8 @@ export const products: GuideProduct[] = [
     badge: "Best Natural Wood Clamp-On Shelf",
     name: "ART-GIFTREE Clamp On Desk Shelf 2-Tier, 12.5 inch, Natural Wood, 30 lbs, Dual C-Clamps, Brown",
     price: "~$31.99",
-    rating: "4.6 stars",
-    reviews: "252 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/art-giftree-natural-wood.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0DC6FTG2D?tag=deskfinds0d-20",
     description:
@@ -97,13 +95,11 @@ export const products: GuideProduct[] = [
     pros: [
       "Only natural wood clamp-on shelf in roundup",
       "Dual C-clamps more stable than single clamp",
-      "12.5 inch compact for side placement",
-      "4.6 stars matches VIVO at lower price",
+      "12.5 inch compact for side placement"
     ],
     cons: [
-      "252 reviews smaller than VIVO 799",
       "Natural wood requires moisture protection",
-      "No sit-stand compatibility rating",
+      "No sit-stand compatibility rating"
     ],
     bestFor:
       "warm-toned home offices and farmhouse setups where natural wood matches the desk aesthetic",
@@ -114,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best with Built-In Headphone Holder",
     name: "ARES WING 2-Tier Clamp-On Desk Shelf, 16 inch, Alloy Steel, 44 lbs, Headphone Holder, Black",
     price: "~$37.99",
-    rating: "4.3 stars",
-    reviews: "251 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/ares-wing-headphone.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0DP6F28DX?tag=deskfinds0d-20",
     description:
@@ -125,12 +121,11 @@ export const products: GuideProduct[] = [
       "Only clamp-on shelf with integrated headphone holder",
       "44-lb capacity highest among clamp-on shelves",
       "16-inch wider than 12-13 inch alternatives",
-      "Alloy steel durable",
+      "Alloy steel durable"
     ],
     cons: [
-      "4.3 stars second lowest in roundup",
       "No sit-stand compatibility rating",
-      "Black only",
+      "Black only"
     ],
     bestFor:
       "home office workers who use headphones daily and want a clamp-on shelf with a dedicated headphone holder",
@@ -141,8 +136,8 @@ export const products: GuideProduct[] = [
     badge: "Best with Fence Edge to Prevent Sliding",
     name: "Spacrea Clamp On Desk Shelf 2-Tier, Adjustable Height, Fence Edge, Double C-Clamps, Black",
     price: "~$27.99",
-    rating: "4.1 stars",
-    reviews: "243 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/spacrea-fence-edge.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0F4WZNFSF?tag=deskfinds0d-20",
     description:
@@ -152,12 +147,10 @@ export const products: GuideProduct[] = [
       "Fence edge prevents items from sliding off practical safety feature",
       "Adjustable height for positioning flexibility",
       "Double C-clamps stable mounting",
-      "Under $28 lowest price clamp-on",
+      "Under $28 lowest price clamp-on"
     ],
     cons: [
-      "4.1 stars lowest in roundup, verify current reviews before purchasing",
-      "243 reviews limited validation",
-      "No sit-stand compatibility",
+      "No sit-stand compatibility"
     ],
     bestFor:
       "buyers needing a fence-edge shelf to prevent items sliding who have checked current review quality before purchasing",
@@ -168,8 +161,8 @@ export const products: GuideProduct[] = [
     badge: "Best Industrial Pipe Aesthetic",
     name: "VIVO Clamp-On Premium 16 inch Industrial Pipe 2-Tier Shelf, 33 lbs Per Shelf, Sit-Stand Compatible, Black",
     price: "~$24.99",
-    rating: "4.4 stars",
-    reviews: "80 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/vivo-16-industrial-pipe.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0DG36FLFV?tag=deskfinds0d-20",
     description:
@@ -178,18 +171,17 @@ export const products: GuideProduct[] = [
       "Industrial pipe frame",
       "Sit-stand compatible",
       "16 inch",
-      "$24.99",
+      "Under $25"
     ],
     pros: [
-      "Lowest price in roundup at $24.99",
+      "Lowest price in roundup at under $25",
       "Industrial pipe aesthetic distinct style",
       "Sit-stand compatible",
-      "16 inch wider shelf surface",
+      "16 inch wider shelf surface"
     ],
     cons: [
-      "80 reviews small sample",
       "Industrial pipe does not suit warm traditional offices",
-      "Limited review validation for quality confidence",
+      "Limited review validation for quality confidence"
     ],
     bestFor:
       "industrial-style home offices where pipe frame matches the aesthetic and sit-stand compatibility is needed at budget price",
@@ -200,8 +192,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Extending the Desk Surface Toward You",
     name: "ART-GIFTREE Desk Extender 15 inch, Clamp-On, Height-Adjustable, 44 lbs, 4 Clamping Options, Black",
     price: "~$35.99",
-    rating: "4.5 stars",
-    reviews: "62 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/art-giftree-extender.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0FHJ1J7QQ?tag=deskfinds0d-20",
     description:
@@ -210,18 +202,17 @@ export const products: GuideProduct[] = [
       "Desk extender",
       "Height adjustable",
       "44 lbs",
-      "4 clamping options",
+      "4 clamping options"
     ],
     pros: [
       "Solves forearm support problem for shallow desks",
       "4 clamping options for different edge types",
       "Height adjustable",
-      "44-lb capacity",
+      "44-lb capacity"
     ],
     cons: [
-      "62 reviews small sample",
       "Single level vs 2-tier alternatives",
-      "No sit-stand compatibility rating",
+      "No sit-stand compatibility rating"
     ],
     bestFor:
       "buyers with a shallow desk who need the surface extended toward them for forearm and wrist support",
@@ -229,11 +220,11 @@ export const products: GuideProduct[] = [
   {
     id: "vivo-30-height-adj",
     rank: 8,
-    badge: "Widest Clamp-On Shelf Available (Verify: Only 13 Reviews)",
+    badge: "",
     name: "VIVO Clamp-On 30 inch Above or Below Desk 2-Tier Shelving, Patent-Pending, Height Adjustable, Sit-Stand Compatible, Black",
     price: "~$69.99",
-    rating: "4.9 stars",
-    reviews: "13 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/vivo-30-height-adj.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0FQPLKR1L?tag=deskfinds0d-20",
     description:
@@ -242,22 +233,21 @@ export const products: GuideProduct[] = [
       "30 inch wide",
       "Height-adjustable",
       "Sit-stand compatible",
-      "Patent-pending",
+      "Patent-pending"
     ],
     pros: [
       "30-inch widest clamp-on shelf in roundup",
       "Height-adjustable lower shelf",
       "VIVO brand credibility from other validated models",
-      "Sit-stand compatible",
+      "Sit-stand compatible"
     ],
     cons: [
-      "13 reviews do NOT treat 4.9 stars as a reliable signal",
-      "$69.99 highest in roundup",
-      "11 lbs per shelf lowest weight capacity",
+      "Under $70 highest in roundup",
+      "11 lbs per shelf lowest weight capacity"
     ],
     bestFor:
       "VIVO brand buyers wanting the widest clamp-on shelf available who understand the review count is insufficient for quality validation",
-  },
+  }
 ];
 
 export const faq: { q: string; a: string }[] = [
@@ -280,7 +270,7 @@ export const faq: { q: string; a: string }[] = [
   {
     q: "What is the difference between the ART-GIFTREE desk extender and a 2-tier clamp-on shelf?",
     a: "The desk extender is a single flat shelf that extends toward the user for forearm support or extra surface area. The 2-tier shelf adds a second level above the desk for vertical storage. They solve different problems: shallow desk footprint vs vertical storage.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
@@ -299,5 +289,5 @@ export const relatedGuides: { href: string; title: string }[] = [
   {
     href: "/guide/best-rolling-carts-home-office",
     title: "Best Rolling Carts for Home Offices (2026)",
-  },
+  }
 ];

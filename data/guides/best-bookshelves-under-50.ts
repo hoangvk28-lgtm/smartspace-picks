@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["The most documented weight capacity and a slim footprint", "Furinno Jaya 5-Tier Book Shelf"],
         ["The smallest possible footprint for a tight corner", "Furinno Fulda 3-Tier Narrow Bookshelf"],
-        ["Enclosed drawer storage alongside open shelving", "Furologee 4 Tier Bookshelf with Drawer"],
+        ["Enclosed drawer storage alongside open shelving", "Furologee 4 Tier Bookshelf with Drawer"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $28", "Furinno Fulda ($24.32) or Furinno Jaya ($27.20)"],
-        ["$40-$50", "Furologee with Drawer ($39.99) or Sweetcrispy ($49.99)"],
+        ["Under $28", "Furinno Fulda (under $25) or Furinno Jaya (under $30)"],
+        ["$40-$50", "Furologee with Drawer (under $40) or Sweetcrispy (under $50)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Narrow Space-Saving vs Wider Multi-Tier",
     cards: [
       { label: "Narrow (Furinno Fulda)", text: "Fits genuinely tight corners and entryways at just 7.9 inches wide, at the cost of lower total capacity and fewer tiers." },
-      { label: "Wider Multi-Tier (Furinno Jaya, Sweetcrispy)", text: "More total storage capacity and tiers, requiring more floor space but accommodating a larger book or item collection." },
+      { label: "Wider Multi-Tier (Furinno Jaya, Sweetcrispy)", text: "More total storage capacity and tiers, requiring more floor space but accommodating a larger book or item collection." }
     ],
     note: "Measure your actual available space before choosing; a narrow bookshelf that fits a tight corner is more useful than a wider one that doesn't physically fit.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your storage needs", "Recommended pick"],
       rows: [
         ["Heavier books or decor items", "Furinno Jaya (160 lb total, 35 lb bottom shelf)"],
-        ["Lighter items, small decor, or paperbacks", "Furinno Fulda (80 lb total capacity)"],
+        ["Lighter items, small decor, or paperbacks", "Furinno Fulda (80 lb total capacity)"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Households with Small Items to Hide Specifically",
     cards: [
       { label: "Look for", text: "A bookshelf with a built-in enclosed drawer, rather than relying entirely on open shelving for every item." },
-      { label: "In this comparison", text: "The Furologee 4 Tier Bookshelf is the only pick here with a removable fabric drawer for enclosed storage." },
+      { label: "In this comparison", text: "The Furologee 4 Tier Bookshelf is the only pick here with a removable fabric drawer for enclosed storage." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the most reinforced construction and are willing to drill an anti-tip bracket into the wall, where the Sweetcrispy pick delivers the most robust engineering here." },
-      { label: "Save if", text: "A slim, documented-capacity bookshelf covers your needs, where the Furinno Jaya delivers strong specs at a much lower price." },
+      { label: "Save if", text: "A slim, documented-capacity bookshelf covers your needs, where the Furinno Jaya delivers strong specs at a much lower price." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

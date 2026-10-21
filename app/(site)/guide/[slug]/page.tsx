@@ -171,7 +171,7 @@ const scoringCriteria = [
     weight: "15%",
     description:
       "Patterns from verified Amazon reviews — what real buyers praise and complain about most over time.",
-  },
+  }
 ];
 
 // ─── Page ─────────────────────────────────────────────────────────────────────
@@ -288,7 +288,7 @@ export default async function BuyingGuidePage({ params }: Props) {
   // ── Individual guide page ─────────────────────────────────────────────────
   const [guide, allProducts] = await Promise.all([
     getPublicGuideBySlug(slug),
-    getPublicProducts(),
+    getPublicProducts()
   ]);
   if (!guide) notFound();
 
@@ -325,7 +325,7 @@ export default async function BuyingGuidePage({ params }: Props) {
   const allSectionsOrdered = [
     ...(introSection ? [introSection] : []),
     ...middleSections,
-    ...(methodologySection ? [methodologySection] : []),
+    ...(methodologySection ? [methodologySection] : [])
   ];
   const { toc, processedBodies } = processGuideContent(allSectionsOrdered);
   const introBody = processedBodies[0] ?? "";
@@ -359,7 +359,7 @@ export default async function BuyingGuidePage({ params }: Props) {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: guide.title, item: `${SITE_URL}/guide/${slug}` },
+      { "@type": "ListItem", position: 3, name: guide.title, item: `${SITE_URL}/guide/${slug}` }
     ],
   };
 
@@ -394,7 +394,7 @@ export default async function BuyingGuidePage({ params }: Props) {
         <Breadcrumbs
           crumbs={[
             { label: "Buying Guides", href: "/guide" },
-            { label: guide.title },
+            { label: guide.title }
           ]}
         />
 

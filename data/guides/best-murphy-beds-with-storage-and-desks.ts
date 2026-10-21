@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "best murphy bed with storage and desk";
 export const introParagraphs = [
   "A Murphy bed that includes both storage and a desk isn't three separate pieces of furniture, it's one wall unit doing three jobs in the same footprint, and that combo design comes with its own tradeoffs that a bed-only or desk-only guide won't cover. The desk surface is shallower than a standalone desk, the storage shelves have real load limits near where your head ends up when the bed is down, and the whole assembled unit is heavy enough that professional installation is often the safer route rather than a DIY weekend project.",
-  "This guide focuses specifically on that 3-in-1 combo angle: how long it realistically takes to switch between office and bedroom mode, what the desk depth compromise actually costs you, and when professional installation is worth the added cost. Below are 8 Murphy beds with integrated storage and desks we researched, ranging from $429.99 to $1,239.99.",
+  "This guide focuses specifically on that 3-in-1 combo angle: how long it realistically takes to switch between office and bedroom mode, what the desk depth compromise actually costs you, and when professional installation is worth the added cost. Below are 8 Murphy beds with integrated storage and desks we researched, ranging from roughly $450 to $1,300."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "11 min";
@@ -46,8 +46,8 @@ export const products: GuideProduct[] = [
     badge: "Most Feature-Complete Combo Unit",
     name: "Merax Queen Size Murphy Bed with Desk and Lights, Power Outlet, Open Storage Shelves and Drawers",
     price: "$1,239.99",
-    rating: "4.4 stars from 4 Amazon ratings",
-    reviews: "4.4 stars from 4 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41WkdwEwOOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H33PY32C?tag=deskfinds0d-20",
     description:
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Fold-down desk with lights",
       "Built-in power outlet",
       "Open storage shelves and drawers",
-      "Antique white finish",
+      "Antique white finish"
     ],
     pros: [
       "Most complete feature set in this list",
       "Built-in lighting and power outlet at the desk",
       "Combines open shelves and closed drawers",
-      "Queen size fits most bedrooms as a real bed",
+      "Queen size fits most bedrooms as a real bed"
     ],
     cons: [
       "Highest price in this list",
       "Heaviest, most complex assembly likely needing professional installation",
-      "Very limited review count so far",
+      "Very limited review count so far"
     ],
     bestFor: "Buyers who want the most complete 3-in-1 combo unit and are prepared for professional installation",
   },
@@ -78,29 +78,29 @@ export const products: GuideProduct[] = [
     badge: "Best Value Full-Size Combo",
     name: "LUXOAK Full Murphy Cabinet Bed with Storage and Charging Station",
     price: "$429.99",
-    rating: "4.3 stars from 340 Amazon ratings",
-    reviews: "4.3 stars from 340 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41OSDWSbyZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G1C4H842?tag=deskfinds0d-20",
     description:
-      "The LUXOAK is the lowest priced combo unit in this list, a full-size cabinet bed with integrated storage and a charging station rather than a full desk workstation like the Merax. It's a strong entry point if your priority is closing off the sleeping space during the day rather than running a full home office from the same wall unit.\n\nA full-size mattress platform is more compact than queen, worth checking against your actual sleeping needs before ordering. With over 300 reviews, it has enough real buyer feedback to gauge long-term reliability, a useful data point for a lower-priced combo unit in this weight class.\n\nWorth calling out specifically: solid review base for a budget combo unit. The catch is no dedicated desk surface, storage and charging only.",
+      "The LUXOAK is the lowest priced combo unit in this list, a full-size cabinet bed with integrated storage and a charging station rather than a full desk workstation like the Merax. It's a strong entry point if your priority is closing off the sleeping space during the day rather than running a full home office from the same wall unit.\n\nA full-size mattress platform is more compact than queen, worth checking against your actual sleeping needs before ordering.\n\nWorth calling out specifically: solid review base for a budget combo unit. The catch is no dedicated desk surface, storage and charging only.",
     specs: [
       "Full size platform",
       "Integrated storage cabinet",
       "Built-in charging station",
       "Cabinet bed design",
-      "Space-saving wall bed",
+      "Space-saving wall bed"
     ],
     pros: [
       "Lowest price in this list",
       "Solid review base for a budget combo unit",
       "Integrated charging station",
-      "Full size fits smaller bedrooms",
+      "Full size fits smaller bedrooms"
     ],
     cons: [
       "No dedicated desk surface, storage and charging only",
       "Full size platform is smaller than queen",
-      "Still requires proper stud anchoring given assembled weight",
+      "Still requires proper stud anchoring given assembled weight"
     ],
     bestFor: "Budget-conscious buyers who want storage and charging without a full desk workstation",
   },
@@ -110,29 +110,29 @@ export const products: GuideProduct[] = [
     badge: "Queen Combo with Charging Station",
     name: "AMERLIFE Queen Murphy Bed with Storage and Charging Station",
     price: "$499.99",
-    rating: "4.2 stars from 396 Amazon ratings",
-    reviews: "4.2 stars from 396 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51Og-FctXuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGL5B76J?tag=deskfinds0d-20",
     description:
-      "This AMERLIFE offers queen size sleeping space with integrated storage and a charging station at a mid-range price, positioned between the budget LUXOAK and the higher-priced desk-equipped models. Like the LUXOAK, it skips a dedicated desk surface, so pair it with a separate small desk nearby if you need a real workstation during the day.\n\nWith nearly 400 reviews, it has a solid real-world feedback base for its price tier. As with any combo unit in this weight class, verify the wall it will mount to has proper stud spacing before ordering, since these units are not designed to hang on drywall alone.\n\nSolid review base. Set against that, no dedicated desk surface. Both matter when comparing it to the other picks here.",
+      "This AMERLIFE offers queen size sleeping space with integrated storage and a charging station at a mid-range price, positioned between the budget LUXOAK and the higher-priced desk-equipped models. Like the LUXOAK, it skips a dedicated desk surface, so pair it with a separate small desk nearby if you need a real workstation during the day.\n\nAs with any combo unit in this weight class, verify the wall it will mount to has proper stud spacing before ordering, since these units are not designed to hang on drywall alone.\n\nSolid review base. Set against that, no dedicated desk surface. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size platform",
       "Integrated storage cabinet",
       "Built-in charging station",
       "Space-saving wall bed design",
-      "No dedicated desk surface",
+      "No dedicated desk surface"
     ],
     pros: [
       "Queen size sleeping space",
       "Solid review base",
       "Built-in charging station",
-      "Mid-range price for a queen combo",
+      "Mid-range price for a queen combo"
     ],
     cons: [
       "No dedicated desk surface",
       "Requires proper stud anchoring for safe installation",
-      "Lower rating than the LUXOAK",
+      "Lower rating than the LUXOAK"
     ],
     bestFor: "Buyers who want queen size storage and charging without paying for a desk they won't use",
   },
@@ -142,8 +142,8 @@ export const products: GuideProduct[] = [
     badge: "Near-Identical Queen Combo at a Lower Price",
     name: "AMERLIFE Queen Murphy Bed with Storage and Charging Station",
     price: "$469.99",
-    rating: "4.2 stars from 396 Amazon ratings",
-    reviews: "4.2 stars from 396 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51ThmQNX7fL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJKJQ9SH?tag=deskfinds0d-20",
     description:
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Integrated storage cabinet",
       "Built-in charging station",
       "Space-saving wall bed design",
-      "No dedicated desk surface",
+      "No dedicated desk surface"
     ],
     pros: [
       "Currently priced lower than the near-identical sibling listing",
       "Same solid review base as the sibling listing",
       "Built-in charging station",
-      "Queen size sleeping space",
+      "Queen size sleeping space"
     ],
     cons: [
       "No dedicated desk surface",
       "Pricing between near-duplicate listings can shift, check both before buying",
-      "Requires proper stud anchoring for safe installation",
+      "Requires proper stud anchoring for safe installation"
     ],
     bestFor: "Buyers comparing near-duplicate AMERLIFE listings for the lower current price",
   },
@@ -174,8 +174,8 @@ export const products: GuideProduct[] = [
     badge: "Best with Included Mattress",
     name: "LUXOAK Queen Murphy Bed with 6-Inch Tri-Fold Memory Foam Mattress, Storage Drawer and Charging Station",
     price: "$699.99",
-    rating: "4.2 stars from 42 Amazon ratings",
-    reviews: "4.2 stars from 42 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41VsjmNEWaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2M8PP28?tag=deskfinds0d-20",
     description:
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Included 6 inch tri-fold memory foam mattress",
       "Storage drawer",
       "Built-in charging station",
-      "Space-saving design",
+      "Space-saving design"
     ],
     pros: [
       "Includes a purpose-built tri-fold mattress",
       "Storage drawer and charging station included",
       "Queen size sleeping space",
-      "Saves the cost and hassle of sourcing a separate mattress",
+      "Saves the cost and hassle of sourcing a separate mattress"
     ],
     cons: [
       "No dedicated desk surface",
       "Smaller review base than the AMERLIFE listings",
-      "Higher price than the storage-only AMERLIFE models",
+      "Higher price than the storage-only AMERLIFE models"
     ],
     bestFor: "Buyers who want a queen combo unit with the mattress included in the box",
   },
@@ -206,8 +206,8 @@ export const products: GuideProduct[] = [
     badge: "Full-Size Combo with Desk and Bookcase Storage",
     name: "MERITLINE Full Murphy Bed with Desk and Storage Shelves, Wood Hideaway Murphy Wall Bed with Storage Bookcase",
     price: "Not currently listed",
-    rating: "4.2 stars from 4 Amazon ratings",
-    reviews: "4.2 stars from 4 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/410wj4ur4iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FL6TKLRZ?tag=deskfinds0d-20",
     description:
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Fold-down desk",
       "Bookcase-style open storage shelves",
       "Wood construction",
-      "Hideaway wall bed design",
+      "Hideaway wall bed design"
     ],
     pros: [
       "True 3-in-1 combo in a full-size footprint",
       "Bookcase storage adds real shelving",
       "More compact than the queen combo units",
-      "Wood construction",
+      "Wood construction"
     ],
     cons: [
       "Very limited review count so far",
       "Price not currently listed",
-      "Full-size platform is smaller than queen",
+      "Full-size platform is smaller than queen"
     ],
     bestFor: "Smaller rooms that still want a full desk-plus-storage Murphy combo",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Fold-down desk",
       "Gas strut fold mechanism",
       "Wood construction",
-      "Space-saving wall cabinet design",
+      "Space-saving wall cabinet design"
     ],
     pros: [
       "Gas struts ease daily fold-up and fold-down effort",
       "Includes a fold-down desk",
       "Queen size sleeping space",
-      "Wood cabinet construction",
+      "Wood cabinet construction"
     ],
     cons: [
       "New listing, no established review history yet",
       "Professional installation still recommended given assembled weight",
-      "Desk surface depth is shallower than a standalone desk",
+      "Desk surface depth is shallower than a standalone desk"
     ],
     bestFor: "Buyers who plan to fold the bed up and down daily and want the easiest fold mechanism",
   },
@@ -270,32 +270,32 @@ export const products: GuideProduct[] = [
     badge: "Highest Stated Weight Rating with Fold-Down Desk",
     name: "Softa Queen Murphy Bed Cabinet with Storage Drawer, Charging Station, 1200 LBS Heavy Duty Wood Wall Bed with Fold-Down Desk",
     price: "$589.99",
-    rating: "5.0 stars from 1 Amazon rating",
-    reviews: "5.0 stars from 1 Amazon rating",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51zyMjMgUpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H25F5GNC?tag=deskfinds0d-20",
     description:
-      "The Softa states a 1200 lbs heavy duty weight rating, the highest stated capacity in this list, alongside a fold-down desk, storage drawer, and charging station, and it doesn't require a box spring, simplifying the mattress setup somewhat compared to units built for a standard mattress and foundation. That combination of desk, storage, and heavy-duty rated frame makes it a genuine full 3-in-1 unit.\n\nWith only a single review at the time of research, treat that 5.0 rating as a very early signal rather than a proven track record. As with every combo unit in this weight class, proper stud anchoring and likely professional installation matter given how much assembled weight a Murphy desk-and-storage cabinet carries once mounted.\n\nA genuine advantage here is that includes fold-down desk, storage, and charging station. The tradeoff is only a single review at time of research.",
+      "The Softa states a 1200 lbs heavy duty weight rating, the highest stated capacity in this list, alongside a fold-down desk, storage drawer, and charging station, and it doesn't require a box spring, simplifying the mattress setup somewhat compared to units built for a standard mattress and foundation. That combination of desk, storage, and heavy-duty rated frame makes it a genuine full 3-in-1 unit.\n\nAs with every combo unit in this weight class, proper stud anchoring and likely professional installation matter given how much assembled weight a Murphy desk-and-storage cabinet carries once mounted.\n\nA genuine advantage here is that includes fold-down desk, storage, and charging station. The tradeoff is only a single review at time of research.",
     specs: [
       "Queen size platform",
       "Fold-down desk",
       "Storage drawer and charging station",
       "1200 lbs stated heavy duty rating",
-      "No box spring needed",
+      "No box spring needed"
     ],
     pros: [
       "Highest stated weight rating in this list",
       "Includes fold-down desk, storage, and charging station",
       "No box spring required",
-      "Wood construction",
+      "Wood construction"
     ],
     cons: [
       "Only a single review at time of research",
       "Professional installation still recommended given assembled weight",
-      "Desk surface depth shallower than a standalone desk",
+      "Desk surface depth shallower than a standalone desk"
     ],
     bestFor: "Buyers who want the highest stated weight rating in a full desk-and-storage combo unit",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -328,7 +328,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Value for price at each combo feature tier",
     description:
       "Weighed platform size, desk inclusion, storage type, and stated weight rating against price across the range of price points in this comparison in this list.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -454,7 +454,7 @@ export const faq: FaqItem[] = [
   },
   {
     q: "Do I need professional installation for a Murphy bed with storage and a desk?",
-    a: "It's strongly recommended. A fully assembled unit in this combo category commonly weighs 300 to 600 lbs or more once the frame, storage cabinet, and desk hardware are all mounted, and that weight needs proper stud anchoring rather than drywall anchors alone. Professional installation typically runs $300 to $800 and is worth budgeting for upfront.",
+    a: "It's strongly recommended. A fully assembled unit in this combo category commonly weighs 300 to 600 lbs or more once the frame, storage cabinet, and desk hardware are all mounted, and that weight needs proper stud anchoring rather than drywall anchors alone. Professional installation typically runs under $850 and is worth budgeting for upfront.",
   },
   {
     q: "Is the desk on a Murphy bed combo unit as deep as a normal desk?",
@@ -471,11 +471,11 @@ export const faq: FaqItem[] = [
   {
     q: "Will a lowered Murphy bed block access to a nearby closet or wardrobe?",
     a: "It can, depending on room layout. The lowered mattress can physically block a wardrobe or closet door's swing path if it's positioned nearby, so check that clearance before finalizing placement rather than assuming both will be accessible at the same time.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-standing-desk-with-drawers", title: "Best Standing Desks with Drawers (2026)" },
   { href: "/guide/best-desk-hutches-with-storage", title: "Best Desk Hutches with Storage (2026)" },
-  { href: "/guide/best-rolling-carts-home-office", title: "Best Rolling Carts for Home Office (2026)" },
+  { href: "/guide/best-rolling-carts-home-office", title: "Best Rolling Carts for Home Office (2026)" }
 ];

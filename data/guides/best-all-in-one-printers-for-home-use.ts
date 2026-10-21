@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "all in one printer for home use";
 export const introParagraphs = [
   "All-in-one doesn't mean every printer here does the same four things equally well. Print, scan, copy, and fax get bundled together on the box, but most home buyers only regularly use two of those four, and paying for a fax line and a 50-sheet automatic document feeder you'll never touch is money that could go toward better scan quality or ink savings instead.",
-  "Below are 8 all-in-one printers we evaluated on which combination of features they actually deliver well, from bare-bones 2-in-1 units built for straightforward print-and-scan use to fuller 4-in-1 machines with automatic document feeders and fax lines still included for households that need them.",
+  "Below are 8 all-in-one printers we evaluated on which combination of features they actually deliver well, from bare-bones 2-in-1 units built for straightforward print-and-scan use to fuller 4-in-1 machines with automatic document feeders and fax lines still included for households that need them."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "No automatic document feeder",
       "3-month Instant Ink trial included",
       "Simple wireless setup",
-      "Compact, budget-friendly design",
+      "Compact, budget-friendly design"
     ],
     pros: [
       "Covers the 3 features most home users actually use",
       "Fast, simple wireless setup",
       "Low upfront price",
-      "Instant Ink trial simplifies early ink purchasing",
+      "Instant Ink trial simplifies early ink purchasing"
     ],
     cons: [
       "No automatic document feeder",
       "No fax line",
-      "Not built for high daily volume",
+      "Not built for high daily volume"
     ],
     bestFor: "Home buyers who only need print, scan, and copy without extras",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "No automatic document feeder",
       "Compact single-tray design",
       "1-year limited warranty",
-      "Easy setup process",
+      "Easy setup process"
     ],
     pros: [
       "Built-in duplex printing",
       "Compact single-tray footprint",
       "Affordable price",
-      "Simple setup",
+      "Simple setup"
     ],
     cons: [
       "No automatic document feeder",
       "No fax line",
-      "Limited to Letter/A4 paper size",
+      "Limited to Letter/A4 paper size"
     ],
     bestFor: "Small-space buyers who want duplex printing without extra bulk",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "1.42-inch OLED display",
       "Intuitive control panel",
       "No automatic document feeder",
-      "Compact design",
+      "Compact design"
     ],
     pros: [
       "Clear OLED display for status and settings",
       "Duplex printing built in",
       "Intuitive control panel",
-      "Compact footprint",
+      "Compact footprint"
     ],
     cons: [
       "No automatic document feeder",
       "No fax line",
-      "Cartridge ink costs more at high volume",
+      "Cartridge ink costs more at high volume"
     ],
     bestFor: "Buyers who want a clearer screen and easier daily controls",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Automatic document feeder",
       "Mobile printing support",
       "Wireless connectivity",
-      "Compact home printer design",
+      "Compact home printer design"
     ],
     pros: [
       "Automatic document feeder for multi-page scanning",
       "Full 4-in-1 feature set including fax",
       "Affordable given the feature count",
-      "Guided mobile printing setup",
+      "Guided mobile printing setup"
     ],
     cons: [
       "Fax feature adds a menu option most won't use",
       "Cartridge-based ink costs more at high volume",
-      "Not built for sustained high-volume printing",
+      "Not built for sustained high-volume printing"
     ],
     bestFor: "Households that scan multi-page documents regularly and want a fax option too",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "3-month Instant Ink trial included",
       "AI-capable printing features",
       "Home-office oriented design",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     pros: [
       "ADF and duplex printing both included",
       "Instant Ink trial reduces early ink cost",
       "Built for home-office volume",
-      "Reliable wireless setup",
+      "Reliable wireless setup"
     ],
     cons: [
       "Higher upfront price than basic 3-in-1 picks",
       "Overkill if you only need print and occasional scan",
-      "Cartridge costs return to normal after the trial",
+      "Cartridge costs return to normal after the trial"
     ],
     bestFor: "Home-office users who need ADF, duplex, and steady wireless printing together",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "AirPrint and Android compatible",
       "Works with Alexa",
       "Photo and document printing",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     pros: [
       "Fullest feature set of any pick in this list",
       "AirPrint and Alexa support",
       "Automatic document feeder included",
-      "Strong photo printing alongside documents",
+      "Strong photo printing alongside documents"
     ],
     cons: [
       "Most expensive pick in this list",
       "Overkill for buyers who only need 2-3 features",
-      "Larger footprint than the 3-in-1 picks",
+      "Larger footprint than the 3-in-1 picks"
     ],
     bestFor: "Buyers who want nearly every all-in-one feature and will actually use them",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "1.8-inch color display",
       "Manual feed slot for envelopes and cardstock",
       "Refresh Subscription ink trial included",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     pros: [
       "Manual feed slot for specialty paper",
       "Ink-tank system reduces per-page cost over time",
       "Color display for status and settings",
-      "Ink subscription trial included",
+      "Ink subscription trial included"
     ],
     cons: [
       "Automatic document feeder not confirmed in the listing, verify before buying if needed",
       "Higher upfront price than basic 3-in-1 picks",
-      "Ink-tank refills take longer than a cartridge swap",
+      "Ink-tank refills take longer than a cartridge swap"
     ],
     bestFor: "Buyers who regularly print on envelopes or specialty paper and want ink-tank economics",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "3-month Instant Ink trial included",
       "AI-capable printing features",
       "Home-office oriented design",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     pros: [
       "ADF and duplex printing both included",
       "Instant Ink trial reduces early ink cost",
       "Built for home-office volume",
-      "Comparable capability to the 8125e",
+      "Comparable capability to the 8125e"
     ],
     cons: [
       "Higher upfront price than basic 3-in-1 picks",
       "Overkill if you only need print and occasional scan",
-      "Cartridge costs return to normal after the trial",
+      "Cartridge costs return to normal after the trial"
     ],
     bestFor: "Buyers who want ADF and duplex printing at a competitive price",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Price relative to feature count",
     description: "Assessed whether the price scales reasonably with the number of genuinely useful features included, rather than assuming a higher price always means a better all-in-one for a given household.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -466,12 +466,12 @@ export const faq: FaqItem[] = [
   {
     q: "How do I scan documents directly to Google Drive or Dropbox?",
     a: "Most manufacturer apps, including HP Smart and Canon PRINT, support scan-to-cloud once you sign into your account within the app. Set this up right after unboxing so scanned receipts, contracts, or photos upload automatically instead of routing through your computer first.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-home-use", title: "Best Printers for Home Use (2026)" },
   { href: "/guide/best-wireless-printers-for-home-offices", title: "Best Wireless Printers for Home Offices (2026)" },
   { href: "/guide/best-printers-with-automatic-document-feeders", title: "Best Printers with Automatic Document Feeders (2026)" },
-  { href: "/guide/best-duplex-printers-for-home-offices", title: "Best Duplex Printers for Home Offices (2026)" },
+  { href: "/guide/best-duplex-printers-for-home-offices", title: "Best Duplex Printers for Home Offices (2026)" }
 ];

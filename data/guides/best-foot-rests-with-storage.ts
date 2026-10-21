@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31LBjp-WwCL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CJJV6HS7?tag=deskfinds0d-20",
-    "description": "BelugaHelper measures 17 x 13 x 13 inches and lists 43 L of hidden storage, a thickened foam cushion, side pockets and handles. The listing says it can double as a coffee table or bed-end seat.\n\nAt $25.99 it is the priciest pick, but it adds side pockets and handles that SONGMICS lacks. Versus AmasSmile it offers a slightly larger storage figure and extra carrying handles.\n\nBest for people who want pockets and handles on a folding ottoman. The caveat is the highest price in the group and no stated load rating in the highlights.",
+    "description": "BelugaHelper measures 17 x 13 x 13 inches and lists 43 L of hidden storage, a thickened foam cushion, side pockets and handles. The listing says it can double as a coffee table or bed-end seat.\n\nAt under $30 it is the priciest pick, but it adds side pockets and handles that SONGMICS lacks. Versus AmasSmile it offers a slightly larger storage figure and extra carrying handles.\n\nBest for people who want pockets and handles on a folding ottoman. The caveat is the highest price in the group and no stated load rating in the highlights.",
     "specs": [
       "17 x 13 x 13 inches, 43 L",
       "Side pockets and handles",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31L8UrHUs6L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DHVM8GRW?tag=deskfinds0d-20",
-    "description": "FaiPue is a 17 x 13 x 13 inch ottoman wrapped in plush wool-look fur with a thickened foam seat, 42 L of storage and a side pocket. It folds away when you do not need it.\n\nIt costs $23.39, about $2.50 below BelugaHelper and similar in size. Versus the leather picks it is softer to the touch but harder to wipe clean.\n\nBest for a dorm that wants a soft, decorative look. The caveat is that fur collects dust and cannot be wiped like leather, and the listing gives no load rating.",
+    "description": "FaiPue is a 17 x 13 x 13 inch ottoman wrapped in plush wool-look fur with a thickened foam seat, 42 L of storage and a side pocket. It folds away when you do not need it.\n\nIt costs under $25, about $3 below BelugaHelper and similar in size. Versus the leather picks it is softer to the touch but harder to wipe clean.\n\nBest for a dorm that wants a soft, decorative look. The caveat is that fur collects dust and cannot be wiped like leather, and the listing gives no load rating.",
     "specs": [
       "17 x 13 x 13 inches, 42 L",
       "Plush wool-look cover",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51njj6CK4cS._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0BW99P3Y6?tag=deskfinds0d-20",
-    "description": "LINMAGCO measures 12.2 x 16.1 x 12.2 inches with 8 gallons (32 L) of hidden storage and tool-free assembly. The listing says it comes in several styles including minimalist cube and modern designs.\n\nAt $23.99 it sits between FaiPue and SONGMICS Mazie on price and is about the same footprint as the Mazie. Compared with the 17 inch picks it gives up about 10 liters of space.\n\nBest for tighter corners where a 17 inch ottoman is too long. The caveat is the smaller 32 L volume and no listed load rating.",
+    "description": "LINMAGCO measures 12.2 x 16.1 x 12.2 inches with 8 gallons (32 L) of hidden storage and tool-free assembly. The listing says it comes in several styles including minimalist cube and modern designs.\n\nAt under $25 it sits between FaiPue and SONGMICS Mazie on price and is about the same footprint as the Mazie. Compared with the 17 inch picks it gives up about 10 liters of space.\n\nBest for tighter corners where a 17 inch ottoman is too long. The caveat is the smaller 32 L volume and no listed load rating.",
     "specs": [
       "12.2 x 16.1 x 12.2 inches",
       "8 gallons (32 L) storage",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/21ImKxZKQtL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D3V8FXS3?tag=deskfinds0d-20",
-    "description": "Zoes Homeware is a 16 x 12 x 12 inch velvet ottoman with a side pocket and four-layer construction, and it folds for storage. The listing describes the velvet as soft and plush.\n\nAt $19.99 it is one of the cheapest and the only velvet cover here. Versus SONGMICS Mazie it is lighter on stated details, with no capacity or load figure in the highlights.\n\nBest for people who want a velvet finish at a low price. The caveat is that the listing does not give storage volume or weight limit, so confirm both on the product page.",
+    "description": "Zoes Homeware is a 16 x 12 x 12 inch velvet ottoman with a side pocket and four-layer construction, and it folds for storage. The listing describes the velvet as soft and plush.\n\nAt under $20 it is one of the cheapest and the only velvet cover here. Versus SONGMICS Mazie it is lighter on stated details, with no capacity or load figure in the highlights.\n\nBest for people who want a velvet finish at a low price. The caveat is that the listing does not give storage volume or weight limit, so confirm both on the product page.",
     "specs": [
       "16 x 12 x 12 inches",
       "Velvet cover, side pocket",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41ECw1lbROL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0BJF1J71S?tag=deskfinds0d-20",
-    "description": "SONGMICS Mazie is a 12.2 x 16.1 x 12.2 inch ottoman with 8 gallons (32 L) of storage, solid MDF panels and a linen-look tufted surface. It supports up to 286 lbs.\n\nAt $18.67 it is the cheapest pick and states a solid load rating. Versus LINMAGCO it has the same footprint and volume but adds MDF panels and a stated weight limit.\n\nBest for the lowest price with a documented weight rating. The caveat is that 32 L is smaller than the 17 inch group, and 12 inches is still tall for under a desk.",
+    "description": "SONGMICS Mazie is a 12.2 x 16.1 x 12.2 inch ottoman with 8 gallons (32 L) of storage, solid MDF panels and a linen-look tufted surface. It supports up to 286 lbs.\n\nAt under $20 it is the cheapest pick and states a solid load rating. Versus LINMAGCO it has the same footprint and volume but adds MDF panels and a stated weight limit.\n\nBest for the lowest price with a documented weight rating. The caveat is that 32 L is smaller than the 17 inch group, and 12 inches is still tall for under a desk.",
     "specs": [
       "12.2 x 16.1 x 12.2 inches, 32 L",
       "286 lb load capacity",

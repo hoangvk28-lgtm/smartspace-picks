@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "foldable office pods";
 export const introParagraphs = [
   "None of the verified listings in this niche explicitly describe a folding mechanism, hinge system, or collapsible frame. Their titles use \"portable\" and \"mobile,\" not \"foldable,\" so we're describing these three picks accurately as portable rather than fabricating a foldable claim their listings don't make.",
-  "If a genuine fold-and-store design is a hard requirement, treat this as a category gap in current Amazon listings rather than assuming any of these products fold, ask the seller directly whether the structure disassembles or collapses versus arriving and staying in one fixed shape.",
+  "If a genuine fold-and-store design is a hard requirement, treat this as a category gap in current Amazon listings rather than assuming any of these products fold, ask the seller directly whether the structure disassembles or collapses versus arriving and staying in one fixed shape."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -70,7 +70,7 @@ export const products: GuideProduct[] = [
     pros: ["Solo occupancy pod on wheels for easier repositioning within a room", "Built-in table, LED lighting, and USB ports included", "One of the few listings in this pool to mention ventilation at all, though unverified", "Lowest price point among the fully-featured single-person pods in this pool"],
     cons: ["No star rating or review count available from Amazon", "\"Silent Ventilation\" is a marketing claim with no CFM or airflow-rate data to verify it", "Still requires freight delivery and floor-loading planning despite the wheels"],
     bestFor: "Buyers wanting the most mobile portable pod in this pool, on wheels, though still not described as foldable.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -78,7 +78,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Checked for explicit foldable language and found none", description: "Reviewed all nine verified listings in this niche for foldable, collapsible, or hinge-based language and found none, every product is described as \"portable\" or \"mobile\" instead, and we did not extend a foldable claim beyond what the titles state." },
   { title: "\"Portable\" used accurately per actual title language", description: "Described each pick using the actual portable/mobile language from its listing rather than a stronger foldable claim the manufacturer doesn't make." },
   { title: "Assembly and handling weight flagged as unknowns", description: "Flagged that fold-joint durability, assembly time, and real handling weight are not addressed in any listing, since no product is actually foldable, these specific concerns don't apply, but general assembly logistics still do." },
-  { title: "Verified listing data only", description: "Used only prices, dimensions, and features actually printed in each Amazon listing, no invented ratings or review counts." },
+  { title: "Verified listing data only", description: "Used only prices, dimensions, and features actually printed in each Amazon listing, no invented ratings or review counts." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -194,11 +194,11 @@ export const faq: FaqItem[] = [
   { q: "Are any of these office pods actually foldable?", a: "No, we checked all verified listings in this niche and found none described as foldable, collapsible, or hinge-based, every product uses \"portable\" or \"mobile\" language instead." },
   { q: "Does \"portable\" mean the pod folds for storage?", a: "Not based on current listings, \"portable\" here generally means the assembled structure can be repositioned or was shipped in parts, not that it folds flat." },
   { q: "Which pick is easiest to move once assembled?", a: "The mobile pod with wheels is the most repositionable option in this pool, though it is still not described as foldable." },
-  { q: "Should I still expect freight delivery for a \"portable\" pod?", a: "Yes, portable in this niche doesn't mean parcel shipping, expect a freight delivery appointment and on-site assembly regardless of the portable labeling." },
+  { q: "Should I still expect freight delivery for a \"portable\" pod?", a: "Yes, portable in this niche doesn't mean parcel shipping, expect a freight delivery appointment and on-site assembly regardless of the portable labeling." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-office-pods", title: "Best Portable Office Pods (2026)" },
   { href: "/guide/best-modular-office-pods", title: "Best Modular Office Pods (2026)" },
-  { href: "/guide/best-portable-work-pods", title: "Best Portable Work Pods (2026)" },
+  { href: "/guide/best-portable-work-pods", title: "Best Portable Work Pods (2026)" }
 ];

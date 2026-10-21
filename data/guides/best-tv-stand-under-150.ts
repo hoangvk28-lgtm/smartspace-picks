@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["A distinctive acrylic door design with strong capacity", "WLIVE 58\" Farmhouse TV Stand with Acrylic Doors"],
         ["Classic sliding barn doors with the highest weight capacity", "VASAGLE Farmhouse TV Stand with Sliding Barn Doors"],
-        ["The smoothest, quietest sliding door mechanism", "JUMMICO TV Stand with Sliding Barn Doors"],
+        ["The smoothest, quietest sliding door mechanism", "JUMMICO TV Stand with Sliding Barn Doors"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $115", "YESHOMY 58\" Farmhouse TV Stand ($110.49)"],
-        ["$116-$120", "WLIVE Acrylic Doors ($116.99), VASAGLE Barn Doors ($116.99), or JUMMICO Barn Doors ($119.99)"],
+        ["Under $115", "YESHOMY 58\" Farmhouse TV Stand (under $120)"],
+        ["$116-$120", "WLIVE Acrylic Doors (under $120), VASAGLE Barn Doors (under $120), or JUMMICO Barn Doors (under $120)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Acrylic Doors vs Solid Barn Doors",
     cards: [
       { label: "Frosted Acrylic (WLIVE)", text: "Lets a hint of light through while hiding clutter, keeping the room feeling more open, with a distinctive semi-transparent look." },
-      { label: "Solid Sliding Barn Doors (VASAGLE, JUMMICO, YESHOMY)", text: "Fully conceals cabinet contents for a cleaner, more traditional farmhouse look, at the cost of the light-through effect the acrylic pick offers." },
+      { label: "Solid Sliding Barn Doors (VASAGLE, JUMMICO, YESHOMY)", text: "Fully conceals cabinet contents for a cleaner, more traditional farmhouse look, at the cost of the light-through effect the acrylic pick offers." }
     ],
     note: "If you want cabinet contents fully hidden, choose a solid barn door pick. If you prefer a more open, airy feel while still hiding clutter, the WLIVE acrylic doors are the distinctive choice.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your TV weight", "Recommended pick"],
       rows: [
         ["Standard flat-panel TV under 150 lbs", "WLIVE 58\" Farmhouse TV Stand (150 lb capacity)"],
-        ["Heavier TV plus soundbar combination", "VASAGLE Farmhouse TV Stand (170 lb capacity)"],
+        ["Heavier TV plus soundbar combination", "VASAGLE Farmhouse TV Stand (170 lb capacity)"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Quiet Home Theater Setup Specifically",
     cards: [
       { label: "Look for", text: "A specifically engineered smooth-sliding door mechanism, since a squeaky or sticky sliding door can be a genuine annoyance during quiet movie nights." },
-      { label: "In this comparison", text: "The JUMMICO TV Stand specifically states its steel bar mechanism moves smoothly and without noise, addressing this concern directly." },
+      { label: "In this comparison", text: "The JUMMICO TV Stand specifically states its steel bar mechanism moves smoothly and without noise, addressing this concern directly." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the highest weight capacity or the most adjustable shelving, where the VASAGLE and JUMMICO picks respectively offer these advantages." },
-      { label: "Save if", text: "The core sliding barn door design covers your needs, where the YESHOMY pick delivers this at the lowest price in this comparison." },
+      { label: "Save if", text: "The core sliding barn door design covers your needs, where the YESHOMY pick delivers this at the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

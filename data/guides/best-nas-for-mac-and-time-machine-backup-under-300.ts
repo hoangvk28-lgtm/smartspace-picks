@@ -123,7 +123,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The lowest price with the highest capacity ceiling", "UGREEN NAS DH2300 2-Bay Desktop NAS"],
         ["A named, comparable CPU spec", "QNAP TS-233-US 2-Bay NAS"],
         ["Faster 2.5GbE network transfer speed", "Asustor Drivestor 2 Pro Gen2 AS3302T v2"],
-        ["The most polished Time Machine setup flow", "Synology DS223 Home & Office Backup Hub"],
+        ["The most polished Time Machine setup flow", "Synology DS223 Home & Office Backup Hub"]
       ],
     },
   },
@@ -132,8 +132,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $250", "UGREEN DH2300 ($199.99) or QNAP TS-233-US ($239.00)"],
-        ["Up to $300", "Asustor Drivestor 2 Pro ($282.99) or Synology DS223 ($284.99)"],
+        ["Under $250", "UGREEN DH2300 (under $200) or QNAP TS-233-US (under $250)"],
+        ["Up to $300", "Asustor Drivestor 2 Pro (under $300) or Synology DS223 (under $300)"]
       ],
     },
   },
@@ -147,7 +147,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "Newer NAS OS (UGREEN)",
         text: "Lower price and modern hardware, but with a shorter track record and less accumulated community troubleshooting resources.",
-      },
+      }
     ],
     note: "If this is your first NAS and you want the most documentation and community support available, Synology or QNAP's established software is the safer bet despite the higher price.",
   },
@@ -157,7 +157,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your network setup is", "Recommended pick"],
       rows: [
         ["Standard Gigabit Ethernet only", "UGREEN, QNAP, or Synology (all fine at standard Gigabit)"],
-        ["Already has 2.5GbE-capable router or adapter", "Asustor Drivestor 2 Pro Gen2 AS3302T v2"],
+        ["Already has 2.5GbE-capable router or adapter", "Asustor Drivestor 2 Pro Gen2 AS3302T v2"]
       ],
     },
   },
@@ -171,7 +171,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "The Asustor Drivestor 2 Pro's 2.5GbE port is the only one here that can meaningfully speed up that initial full backup, assuming compatible networking gear on both ends.",
-      },
+      }
     ],
   },
   {
@@ -179,14 +179,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You want the most polished, well-documented setup experience or faster network transfer: Synology's DS223 ($284.99) or Asustor's Drivestor 2 Pro ($282.99) both offer real advantages over the cheaper picks here.",
+        text: "You want the most polished, well-documented setup experience or faster network transfer: Synology's DS223 (under $300) or Asustor's Drivestor 2 Pro (under $300) both offer real advantages over the cheaper picks here.",
       },
       {
         label: "Save if",
-        text: "You just need reliable Time Machine backup storage without extra software polish: UGREEN's DH2300 ($199.99) covers that core function for the lowest price in this comparison.",
-      },
+        text: "You just need reliable Time Machine backup storage without extra software polish: UGREEN's DH2300 (under $200) covers that core function for the lowest price in this comparison.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -241,5 +241,5 @@ export const faq = [
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-nas-for-mac-and-time-machine-backup-under-700", title: "Best NAS for Mac Time Machine Backup Under $700" },
-  { href: "/guide/best-docking-stations-for-macbook-pro-under-500", title: "Best Docking Stations for MacBook Pro Under $150" },
+  { href: "/guide/best-docking-stations-for-macbook-pro-under-500", title: "Best Docking Stations for MacBook Pro Under $150" }
 ];

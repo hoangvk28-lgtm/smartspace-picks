@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "phone holder arms for desks";
 export const introParagraphs = [
   "\"Phone holder arm\" is largely interchangeable with \"phone arm\" and \"phone mount\" in how people search, and the product set overlaps heavily with our other desk phone arm guides. We keep this guide focused on holder-style clips specifically, meaning the spring or clamp mechanism that grips the phone itself.",
-  "Below are five verified picks ranging from simple spring-clip goosenecks to locking magic arms, evaluated on how securely the holder clip grips a phone with a case attached, not just a bare phone.",
+  "Below are five verified picks ranging from simple spring-clip goosenecks to locking magic arms, evaluated on how securely the holder clip grips a phone with a case attached, not just a bare phone."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -104,7 +104,7 @@ export const products: GuideProduct[] = [
     pros: ["Longest reach for routing around obstacles", "Braided sleeve resists abrasion", "Reputable brand with strong review count", "Flexible positioning"],
     cons: ["Standard clip, no tension adjustment", "Longer arm can sag more under weight", "Mid-range price for a basic clip"],
     bestFor: "Buyers who need the longest reach to route the arm around desk obstacles.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Holder clip width range", description: "We compared each clip's stated width tolerance against a phone plus a typical protective case, not just the bare device." },
   { title: "Grip security", description: "We evaluated spring-clip versus friction-locked holder mechanisms for how securely they grip during touch interaction." },
   { title: "Padding and scratch protection", description: "We checked for silicone or TPE padding inside the holder clip to prevent scratching the phone or case." },
-  { title: "Overlap with related phone arm guides", description: "We confirmed which picks are genuinely distinct holder-clip designs versus overlapping arm-length or clamp-base comparisons covered elsewhere." },
+  { title: "Overlap with related phone arm guides", description: "We confirmed which picks are genuinely distinct holder-clip designs versus overlapping arm-length or clamp-base comparisons covered elsewhere." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -240,11 +240,11 @@ export const faq: FaqItem[] = [
   { q: "Will the clip scratch my phone case?", a: "The MAGIPEA and LISEN picks use soft TPE or silicone padding inside the clip specifically to prevent scratching. Check for padding before buying if your case has a delicate finish." },
   { q: "What's the widest phone the clip on these arms can hold?", a: "The MAGIPEA pick's clip fits up to 7 inches wide, the widest range in this comparison, suited to larger phones with thick cases." },
   { q: "Do I need a magic arm instead of a simple spring clip?", a: "Only if you need the most secure grip for frequent touch interaction or heavier accessory swapping. For casual phone viewing, a spring clip holder is sufficient." },
-  { q: "Which arm has the longest reach?", a: "The Lamicall nylon-braided gooseneck reaches 38 inches, the longest in this comparison, useful for routing around desk obstacles." },
+  { q: "Which arm has the longest reach?", a: "The Lamicall nylon-braided gooseneck reaches 38 inches, the longest in this comparison, useful for routing around desk obstacles." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-phone-arms", title: "Best Desk Phone Arms (2026)" },
   { href: "/guide/best-desk-mounted-phone-arms", title: "Best Desk-Mounted Phone Arms (2026)" },
-  { href: "/guide/best-iphone-desk-arms", title: "Best iPhone Desk Arms (2026)" },
+  { href: "/guide/best-iphone-desk-arms", title: "Best iPhone Desk Arms (2026)" }
 ];

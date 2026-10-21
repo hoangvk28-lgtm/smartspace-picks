@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/419bTi80iWL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DQKY5K3X?tag=deskfinds0d-20",
-    "description": "Layron is a 45 oz microwave ramen cooker in polypropylene, listed as BPA free, dishwasher safe and rated from -20C to 100C. It has a sturdy side handle for lifting, and the listing says it can heat ramen, pasta, soup, cereal and oatmeal.\n\nAt $13.99 it is the practical cooking gift, no stove needed, and its size fits a full portion. Compared with the snack box, it keeps being useful after the snacks are gone.\n\nBest for a guy who lives on instant noodles and oatmeal. The caveat is that it relies on a shared microwave and is not an oven or stovetop vessel.",
+    "description": "Layron is a 45 oz microwave ramen cooker in polypropylene, listed as BPA free, dishwasher safe and rated from -20C to 100C. It has a sturdy side handle for lifting, and the listing says it can heat ramen, pasta, soup, cereal and oatmeal.\n\nAt under $15 it is the practical cooking gift, no stove needed, and its size fits a full portion. Compared with the snack box, it keeps being useful after the snacks are gone.\n\nBest for a guy who lives on instant noodles and oatmeal. The caveat is that it relies on a shared microwave and is not an oven or stovetop vessel.",
     "specs": [
       "45 oz capacity",
       "BPA free polypropylene",

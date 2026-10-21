@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable hanging file boxes";
 export const introParagraphs = [
   "Since most portable file boxes include hanging file rails by definition (that's what distinguishes a 'file box' from a simple storage bin), this guide centers specifically on rail standardization and durability rather than treating hanging-rail presence as a distinguishing feature on its own.",
-  "We verified rail spacing matches standard letter and legal hanging folder dimensions, since generic folders should fit without special sizing, and considered rail material durability under repeated file insertion and removal.",
+  "We verified rail spacing matches standard letter and legal hanging folder dimensions, since generic folders should fit without special sizing, and considered rail material durability under repeated file insertion and removal."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Rail spacing standardization", description: "We verified each pick's rail spacing accommodates standard letter or legal hanging folder dimensions, compatible with generically purchased folders." },
   { title: "Rail visibility and verification", description: "We favored mesh or transparent designs that let you visually confirm folder placement on the rails, a genuine usability benefit over a fully enclosed solid box." },
   { title: "Rail material durability", description: "We considered rail durability under repeated file insertion and removal, a genuine longevity concern for this core mechanism." },
-  { title: "Overlap disclosure with our general portable file box guide", description: "We noted that hanging rails are a near-universal feature across this category, so this guide centers on rail-specific verification rather than treating rail presence alone as differentiating." },
+  { title: "Overlap disclosure with our general portable file box guide", description: "We noted that hanging rails are a near-universal feature across this category, so this guide centers on rail-specific verification rather than treating rail presence alone as differentiating." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -224,11 +224,11 @@ export const faq: FaqItem[] = [
   { q: "Will generic hanging folders fit these rails?", a: "Yes, all five picks in this guide use standard letter or legal rail spacing compatible with generically purchased hanging folders, not proprietary sizing." },
   { q: "Can I see how my folders are organized on the rails without opening the box?", a: "The samstar mesh pick lets you visually verify folder placement through its open wire construction, a genuine convenience over a solid-walled enclosed box." },
   { q: "Do rails wear out with frequent use?", a: "It's possible with very frequent insertion and removal. Picks with strong, proven review histories, like the Pendaflex options, offer more confidence in long-term rail durability." },
-  { q: "Is this guide different from your general portable file box guide?", a: "This guide centers specifically on rail spacing standardization and durability, since hanging rails are a near-universal feature across the broader category covered in our general guide." },
+  { q: "Is this guide different from your general portable file box guide?", a: "This guide centers specifically on rail spacing standardization and durability, since hanging rails are a near-universal feature across the broader category covered in our general guide." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" },
   { href: "/guide/best-letter-size-portable-file-boxes", title: "Best Letter-Size Portable File Boxes (2026)" },
-  { href: "/guide/best-portable-file-boxes-for-legal-size-documents", title: "Best Portable File Boxes for Legal-Size Documents (2026)" },
+  { href: "/guide/best-portable-file-boxes-for-legal-size-documents", title: "Best Portable File Boxes for Legal-Size Documents (2026)" }
 ];

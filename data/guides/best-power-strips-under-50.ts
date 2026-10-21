@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31XSIHgsrBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C453CLSY?tag=deskfinds0d-20",
-    description: "At $39.99, this remains a genuinely capable hub-free smart strip in this comparison, with 6 individually controlled outlets and 3 USB ports connecting directly to WiFi and the Alexa app without needing a separate smart home hub. Its app-based scheduling automates on and off timing for daily routines without manual switching.\n\nCompared to the Kasa and Tapo picks above, it lacks per-outlet energy monitoring and Matter certification, but its lower price and straightforward Alexa integration make it a reasonable choice if you don't need those deeper smart home features.\n\nBest for buyers who want basic hub-free Alexa smart control without paying for energy monitoring or Matter support.",
+    description: "At under $40, this remains a genuinely capable hub-free smart strip in this comparison, with 6 individually controlled outlets and 3 USB ports connecting directly to WiFi and the Alexa app without needing a separate smart home hub. Its app-based scheduling automates on and off timing for daily routines without manual switching.\n\nCompared to the Kasa and Tapo picks above, it lacks per-outlet energy monitoring and Matter certification, but its lower price and straightforward Alexa integration make it a reasonable choice if you don't need those deeper smart home features.\n\nBest for buyers who want basic hub-free Alexa smart control without paying for energy monitoring or Matter support.",
     specs: ["6 individually controlled smart outlets, WiFi, Alexa only", "3 USB ports (2 USB-A, 1 USB-C)", "No hub required, app scheduling"],
     pros: ["Lowest price among the smart strips in this comparison", "No hub required, straightforward Alexa integration", "6 outlets controllable independently or grouped together"],
     cons: ["No per-outlet energy monitoring like the Kasa or Tapo picks", "No Matter certification, limited to Alexa ecosystem only"],
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Per-outlet energy data and the widest voice support", "Kasa Smart Plug Power Strip HS300"],
         ["The broadest smart home platform compatibility", "Tapo Smart Wi-Fi Power Strip, Matter"],
         ["Basic hub-free smart control at a lower price", "Amazon Basics Smart Plug Power Strip"],
-        ["Genuine metal durability over smart features", "CRST 8-Outlet Metal Power Strip"],
+        ["Genuine metal durability over smart features", "CRST 8-Outlet Metal Power Strip"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $38", "CRST 8-Outlet Metal ($37.99)"],
-        ["Under $40", "Amazon Basics Smart Plug ($39.99)"],
-        ["Under $42", "Tapo Matter ($41.99)"],
-        ["Under $48", "Kasa HS300 ($47.99)"],
+        ["Under $38", "CRST 8-Outlet Metal (under $40)"],
+        ["Under $40", "Amazon Basics Smart Plug (under $40)"],
+        ["Under $42", "Tapo Matter (under $45)"],
+        ["Under $48", "Kasa HS300 (under $50)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Matter Certification vs Single-Ecosystem Smart Control",
     cards: [
       { label: "Matter certified (Tapo)", text: "Works across Alexa, Google Home, Apple HomeKit, and SmartThings interchangeably, future-proofing against ecosystem changes." },
-      { label: "Single or dual ecosystem (Kasa, Amazon Basics)", text: "Ties you to specific voice assistants, though Kasa's broader Alexa, Google, and Cortana support covers most common setups." },
+      { label: "Single or dual ecosystem (Kasa, Amazon Basics)", text: "Ties you to specific voice assistants, though Kasa's broader Alexa, Google, and Cortana support covers most common setups." }
     ],
     note: "If you might switch smart home platforms later or already use HomeKit or SmartThings, the Tapo's Matter certification offers real future flexibility the other smart picks don't.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Detailed per-outlet consumption data", "Kasa HS300 or Tapo Matter"],
         ["Basic on/off smart control, no monitoring needed", "Amazon Basics Smart Plug"],
-        ["No monitoring, physical switches instead", "CRST 8-Outlet Metal"],
+        ["No monitoring, physical switches instead", "CRST 8-Outlet Metal"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Reducing a Home Office's Electricity Costs Specifically",
     cards: [
       { label: "Look for", text: "Per-outlet energy monitoring that identifies which specific connected device is drawing the most power, not just total strip consumption." },
-      { label: "In this comparison", text: "Both the Kasa HS300 and Tapo Matter picks let you check individual outlet consumption directly from their respective apps." },
+      { label: "In this comparison", text: "Both the Kasa HS300 and Tapo Matter picks let you check individual outlet consumption directly from their respective apps." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want per-outlet energy monitoring and the widest voice assistant support, where the Kasa HS300 delivers the most complete smart feature set in this comparison." },
-      { label: "Save if", text: "You want basic hub-free smart control without energy monitoring, where the Amazon Basics pick covers that for about $8 less than the Kasa." },
+      { label: "Save if", text: "You want basic hub-free smart control without energy monitoring, where the Amazon Basics pick covers that for about $8 less than the Kasa." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

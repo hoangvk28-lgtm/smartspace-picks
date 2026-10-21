@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop locks for desks";
 export const introParagraphs = [
   "Most laptop-lock roundups treat the cable as the whole product and give little attention to what it actually loops around. We evaluated the desk anchor as part of the security chain, since a strong cable secured to a removable or weak furniture component defeats the purpose.",
-  "This comparison mixes complete cable locks with dedicated desk-anchor accessories, since sit-stand desks, open-frame desks, and removable table components can all create weak or moving anchor points that need a purpose-built solution rather than just wrapping the cable around a table leg.",
+  "This comparison mixes complete cable locks with dedicated desk-anchor accessories, since sit-stand desks, open-frame desks, and removable table components can all create weak or moving anchor points that need a purpose-built solution rather than just wrapping the cable around a table leg."
 ];
 export const lastUpdated = "2026-08-11";
 export const readTime = "9 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Evaluated the fixed desk anchor as part of the security chain, not an afterthought", description: "We included dedicated anchor accessories directly in this comparison rather than assuming every desk has a closed structural loop the cable can wrap around." },
   { title: "Compared documented force-resistance figures where published", description: "Several anchors here document an 88 lbs pull-resistance figure. We surfaced that specific number rather than a vague 'strong' claim." },
   { title: "Distinguished single-desk anchors from multi-pack institutional options", description: "The 4-pack and 10-pack anchors serve genuinely different scales of deployment, and we sorted picks accordingly rather than ranking them identically to single anchors." },
-  { title: "Flagged which cable lock bundles its own anchor versus requiring a separate purchase", description: "Only one pick in this comparison includes both the cable lock and a desk anchor in one purchase, and we called that out explicitly." },
+  { title: "Flagged which cable lock bundles its own anchor versus requiring a separate purchase", description: "Only one pick in this comparison includes both the cable lock and a desk anchor in one purchase, and we called that out explicitly." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -290,11 +290,11 @@ export const faq: FaqItem[] = [
   { q: "What's the best overall desk anchor?", a: "The Kensington Desk Mount Anchor Accessory, for its combination of the largest confirmed review base among dedicated anchors and a mounting-tape option for desks you can't drill into." },
   { q: "Is there a cable lock that includes its own desk anchor?", a: "Yes, the Targus DEFCON T-Lock Resettable Combo Cable Lock is the only pick in this comparison that bundles a security base plate in the box." },
   { q: "How much force do these anchors actually resist?", a: "Several of the dedicated anchor accessories in this comparison document resisting up to 88 pounds of pull force." },
-  { q: "Is there an option for equipping multiple desks at once?", a: "Yes, the QWORK anchors come in 4-pack and 10-pack options, proportionate for a home office with several desks or an institutional deployment like a classroom." },
+  { q: "Is there an option for equipping multiple desks at once?", a: "Yes, the QWORK anchors come in 4-pack and 10-pack options, proportionate for a home office with several desks or an institutional deployment like a classroom." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-locks", title: "Best Laptop Locks (2026)" },
   { href: "/guide/best-portable-laptop-locks", title: "Best Portable Laptop Locks (2026)" },
-  { href: "/guide/best-keyed-laptop-locks", title: "Best Keyed Laptop Locks (2026)" },
+  { href: "/guide/best-keyed-laptop-locks", title: "Best Keyed Laptop Locks (2026)" }
 ];

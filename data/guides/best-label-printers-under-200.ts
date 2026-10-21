@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41J3wPInc6L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0027JBLV4?tag=deskfinds0d-20",
-    "description": "DYMO Label Printer LabelWriter 450 Direct Thermal Label Printer is built around eliminate the waste and hassle of sheet labels, paired with never buy ink again, positioning it as a label printer built for a specific volume and label type rather than general-purpose use.\n\nSitting at $199.95, the top of this comparison's price range, it asks buyers to confirm the added capability is actually worth it over the more affordable picks here before paying the premium.\n\nDYMO Label Printer LabelWriter 450 Direct Thermal Label Printer is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "DYMO Label Printer LabelWriter 450 Direct Thermal Label Printer is built around eliminate the waste and hassle of sheet labels, paired with never buy ink again, positioning it as a label printer built for a specific volume and label type rather than general-purpose use.\n\nSitting at under $200, the top of this comparison's price range, it asks buyers to confirm the added capability is actually worth it over the more affordable picks here before paying the premium.\n\nDYMO Label Printer LabelWriter 450 Direct Thermal Label Printer is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Eliminate The Waste And Hassle Of Sheet Labels",
       "Never Buy Ink Again",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/414zm7amdiL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0849TN9SZ?tag=deskfinds0d-20",
-    "description": "Zebra GX420t Thermal Transfer Label Printer (Renewed) leads with thermal transfer printing. prints durable, backed by built-in label peeler. integrated peeler, a combination aimed at as a label printer built for a specific volume and label type rather than general-purpose use.\n\nIt lands between Brother PT-E310BT Industrial Label Printer Bluetooth USB-C's $166.92 price floor and DYMO Label Printer LabelWriter 450 Direct Thermal Label Printer's $199.95 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nZebra GX420t Thermal Transfer Label Printer (Renewed) is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "Zebra GX420t Thermal Transfer Label Printer (Renewed) leads with thermal transfer printing. prints durable, backed by built-in label peeler. integrated peeler, a combination aimed at as a label printer built for a specific volume and label type rather than general-purpose use.\n\nIt lands between Brother PT-E310BT Industrial Label Printer Bluetooth USB-C's under $170 price floor and DYMO Label Printer LabelWriter 450 Direct Thermal Label Printer's under $200 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nZebra GX420t Thermal Transfer Label Printer (Renewed) is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Thermal Transfer Printing. Prints durable",
       "Built-In Label Peeler. Integrated peeler",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41w0Ao5wmRL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GRBGWV3V?tag=deskfinds0d-20",
-    "description": "CLABEL X1 4\" Thermal Transfer Label Printer for Small Business leads with professional labels last longer, backed by fast desktop printing for growing small businesses, a combination aimed at as a label printer built for a specific volume and label type rather than general-purpose use.\n\nCompared to Brother PT-E310BT Industrial Label Printer Bluetooth USB-C at $166.92, it costs more for real added capability, while sitting well below DYMO Label Printer LabelWriter 450 Direct Thermal Label Printer at $199.95 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "CLABEL X1 4\" Thermal Transfer Label Printer for Small Business leads with professional labels last longer, backed by fast desktop printing for growing small businesses, a combination aimed at as a label printer built for a specific volume and label type rather than general-purpose use.\n\nCompared to Brother PT-E310BT Industrial Label Printer Bluetooth USB-C at under $170, it costs more for real added capability, while sitting well below DYMO Label Printer LabelWriter 450 Direct Thermal Label Printer at under $200 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Professional Labels Last Longer",
       "Fast Desktop Printing for Growing Small Businesses",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41KwTwR3oLL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D4C7P2MS?tag=deskfinds0d-20",
-    "description": "Westinghouse Thermal Shipping Label Printer USB leads with thermal shipping label printer, backed by print quality, a combination aimed at as a label printer built for a specific volume and label type rather than general-purpose use.\n\nCompared to Brother PT-E310BT Industrial Label Printer Bluetooth USB-C at $166.92, it costs more for real added capability, while sitting well below DYMO Label Printer LabelWriter 450 Direct Thermal Label Printer at $199.95 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "Westinghouse Thermal Shipping Label Printer USB leads with thermal shipping label printer, backed by print quality, a combination aimed at as a label printer built for a specific volume and label type rather than general-purpose use.\n\nCompared to Brother PT-E310BT Industrial Label Printer Bluetooth USB-C at under $170, it costs more for real added capability, while sitting well below DYMO Label Printer LabelWriter 450 Direct Thermal Label Printer at under $200 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Thermal Shipping Label Printer",
       "Print Quality",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41KfwQxcBvS._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07V6M8KY6?tag=deskfinds0d-20",
-    "description": "Zebra ZD410 Direct Thermal Label Printer (Renewed) is built around compact thermal printer - small, paired with 2-inch print width - designed, positioning it as a label printer built for a specific volume and label type rather than general-purpose use.\n\nCompared to Brother PT-E310BT Industrial Label Printer Bluetooth USB-C at $166.92, it costs more for real added capability, while sitting well below DYMO Label Printer LabelWriter 450 Direct Thermal Label Printer at $199.95 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "Zebra ZD410 Direct Thermal Label Printer (Renewed) is built around compact thermal printer - small, paired with 2-inch print width - designed, positioning it as a label printer built for a specific volume and label type rather than general-purpose use.\n\nCompared to Brother PT-E310BT Industrial Label Printer Bluetooth USB-C at under $170, it costs more for real added capability, while sitting well below DYMO Label Printer LabelWriter 450 Direct Thermal Label Printer at under $200 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Compact Thermal Printer - Small",
       "2-Inch Print Width - Designed",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/417Gw0--pSL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07KCQ67Y1?tag=deskfinds0d-20",
-    "description": "Zebra GX420D Thermal Label Barcode Printer GX42-202410-000 (Renewed) leads with direct thermal printing technology prints, backed by 4-inch shipping & barcode label, a combination aimed at as a label printer built for a specific volume and label type rather than general-purpose use.\n\nIt lands between Brother PT-E310BT Industrial Label Printer Bluetooth USB-C's $166.92 price floor and DYMO Label Printer LabelWriter 450 Direct Thermal Label Printer's $199.95 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nZebra GX420D Thermal Label Barcode Printer GX42-202410-000 (Renewed) is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "Zebra GX420D Thermal Label Barcode Printer GX42-202410-000 (Renewed) leads with direct thermal printing technology prints, backed by 4-inch shipping & barcode label, a combination aimed at as a label printer built for a specific volume and label type rather than general-purpose use.\n\nIt lands between Brother PT-E310BT Industrial Label Printer Bluetooth USB-C's under $170 price floor and DYMO Label Printer LabelWriter 450 Direct Thermal Label Printer's under $200 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nZebra GX420D Thermal Label Barcode Printer GX42-202410-000 (Renewed) is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Direct Thermal Printing Technology Prints",
       "4-Inch Shipping & Barcode Label",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41qrmJQrMpL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B01MTWGMRR?tag=deskfinds0d-20",
-    "description": "What stands out on Brother QL-810W Professional Label Printer is easy connectivity, alongside print amazing black/red labels using, which is the main reason it earns a spot in this label printers comparison.\n\nIt lands between Brother PT-E310BT Industrial Label Printer Bluetooth USB-C's $166.92 price floor and DYMO Label Printer LabelWriter 450 Direct Thermal Label Printer's $199.95 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nBrother QL-810W Professional Label Printer is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on Brother QL-810W Professional Label Printer is easy connectivity, alongside print amazing black/red labels using, which is the main reason it earns a spot in this label printers comparison.\n\nIt lands between Brother PT-E310BT Industrial Label Printer Bluetooth USB-C's under $170 price floor and DYMO Label Printer LabelWriter 450 Direct Thermal Label Printer's under $200 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nBrother QL-810W Professional Label Printer is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Easy connectivity",
       "Print amazing black/red labels using",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41ae+HEPESL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D2Z42BW2?tag=deskfinds0d-20",
-    "description": "Brother PT-E310BT Industrial Label Printer Bluetooth USB-C is built around mid-size labeling, paired with create labels faster, positioning it as a label printer built for a specific volume and label type rather than general-purpose use.\n\nPriced at $166.92, the lowest in this lineup, it trades some of the extras found on pricier picks here for a lower upfront cost, a reasonable tradeoff if your needs are basic.\n\nBrother PT-E310BT Industrial Label Printer Bluetooth USB-C is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "Brother PT-E310BT Industrial Label Printer Bluetooth USB-C is built around mid-size labeling, paired with create labels faster, positioning it as a label printer built for a specific volume and label type rather than general-purpose use.\n\nPriced at under $170, the lowest in this lineup, it trades some of the extras found on pricier picks here for a lower upfront cost, a reasonable tradeoff if your needs are basic.\n\nBrother PT-E310BT Industrial Label Printer Bluetooth USB-C is the right call for buyers shipping or organizing regularly who want a dedicated label printer rather than a general-purpose inkjet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Mid-size Labeling",
       "Create Labels Faster",
@@ -325,11 +325,11 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $166.92",
+          "Under $170",
           "Brother PT-E310BT Industrial Label Printer Bluetooth USB-C"
         ],
         [
-          "Around $169.99",
+          "Under $170",
           "Brother QL-810W Professional Label Printer"
         ],
         [
@@ -337,23 +337,23 @@ export const howToChoose: HowToChooseSection[] = [
           "Zebra GX420D Thermal Label Barcode Printer GX42-202410-000 (Renewed)"
         ],
         [
-          "Around $174.99",
+          "Under $180",
           "Zebra ZD410 Direct Thermal Label Printer (Renewed)"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "CLABEL X1 4\" Thermal Transfer Label Printer for Small Business"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "Westinghouse Thermal Shipping Label Printer USB"
         ],
         [
-          "Around $183.91",
+          "Under $190",
           "Zebra GX420t Thermal Transfer Label Printer (Renewed)"
         ],
         [
-          "Around $199.95",
+          "Under $200",
           "DYMO Label Printer LabelWriter 450 Direct Thermal Label Printer"
         ]
       ]
@@ -364,11 +364,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Brother PT-E310BT Industrial Label Printer Bluetooth USB-C",
-        "text": "The lowest-priced pick in this comparison at $166.92, a solid choice if you don't need the extras the pricier picks carry."
+        "text": "The lowest-priced pick in this comparison at under $170, a solid choice if you don't need the extras the pricier picks carry."
       },
       {
         "label": "DYMO Label Printer LabelWriter 450 Direct Thermal Label Printer",
-        "text": "The highest-priced pick at $199.95, worth it only if you'll actually use what that premium buys."
+        "text": "The highest-priced pick at under $200, worth it only if you'll actually use what that premium buys."
       }
     ],
     "note": "Default to Brother PT-E310BT Industrial Label Printer Bluetooth USB-C unless the pricier pick's specific advantage genuinely applies to your situation."
@@ -428,7 +428,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "What's the real difference between the cheapest and most expensive pick here?",
-    "a": "Brother PT-E310BT Industrial Label Printer Bluetooth USB-C at $166.92 covers the basics, while DYMO Label Printer LabelWriter 450 Direct Thermal Label Printer at $199.95 adds faster print speed and broader connectivity options. Whether that's worth the difference depends on your actual printing volume, since speed and durability matter far more at business-level volume than for occasional personal use."
+    "a": "Brother PT-E310BT Industrial Label Printer Bluetooth USB-C at under $170 covers the basics, while DYMO Label Printer LabelWriter 450 Direct Thermal Label Printer at under $200 adds faster print speed and broader connectivity options. Whether that's worth the difference depends on your actual printing volume, since speed and durability matter far more at business-level volume than for occasional personal use."
   },
   {
     "q": "Do I need thermal transfer, or is direct thermal fine?",
@@ -440,7 +440,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "Is there a solid middle-ground pick in this price range?",
-    "a": "CLABEL X1 4\" Thermal Transfer Label Printer for Small Business at $179.99 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
+    "a": "CLABEL X1 4\" Thermal Transfer Label Printer for Small Business at under $180 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
   },
   {
     "q": "What's the most common mistake buyers make shopping label printers under $200?",

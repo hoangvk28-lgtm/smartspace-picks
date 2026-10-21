@@ -141,7 +141,7 @@ export default async function BestSmallKeyboardsPage() {
             { href: "#what-to-look-for", label: "What to look for" },
             { href: "#reviews", label: "Full reviews" },
             { href: "#comparison", label: "Comparison table" },
-            { href: "#faq", label: "FAQ" },
+            { href: "#faq", label: "FAQ" }
           ].map(({ href, label }) => (
             <a
               key={href}
@@ -189,7 +189,7 @@ export default async function BestSmallKeyboardsPage() {
                 icon: "🔧",
                 title: "Hot-swap sockets",
                 body: "Hot-swappable keyboards let you pull out and replace switches without soldering - a 2-minute process. This matters if you are new to mechanical keyboards and unsure of your preferred switch feel, or if you expect your preference to change. If you already know you want Brown tactile, Red linear, or Blue clicky and are confident in that choice, a non-hot-swap keyboard is a reasonable pick at the same or lower price.",
-              },
+              }
             ].map((item) => (
               <div key={item.title} className="flex gap-3 p-4 rounded-xl border border-border bg-white">
                 <span className="text-2xl shrink-0 mt-0.5">{item.icon}</span>
@@ -283,7 +283,7 @@ export default async function BestSmallKeyboardsPage() {
               ["Switch quality and typing experience", "Switch consistency, actuation feel, and noise level relative to price. Hot-swap capability was treated as a significant differentiator at each price tier."],
               ["Wireless reliability and battery", "Bluetooth multi-device support, 2.4 GHz availability, battery capacity, and real-world runtime claims verified against manufacturer documentation and verified buyer feedback."],
               ["Platform compatibility", "Whether the keyboard works on both Mac and Windows without key remapping workarounds, and how much effort the transition requires."],
-              ["Value for price", "Features delivered per dollar - the AULA F75 Pro scores highly here due to triple-mode wireless and gasket mount at under $65."],
+              ["Value for price", "Features delivered per dollar - the AULA F75 Pro scores highly here due to triple-mode wireless and gasket mount at under $65."]
             ].map(([label, desc]) => (
               <div key={label as string} className="p-4 rounded-xl bg-white border border-border">
                 <p className="text-sm font-semibold text-ink mb-1">{label}</p>
@@ -334,7 +334,7 @@ export default async function BestSmallKeyboardsPage() {
             {[
               { href: "/guide/laptop-stands-small-desks", title: "Best Laptop Stands for Small Desks", label: "Desk Setup" },
               { href: "/guide/monitor-stands-small-desks", title: "Best Monitor Stands for Small Desks", label: "Desk Setup" },
-              { href: "/guide/desk-lamps-small-desks", title: "Best Desk Lamps for Small Desks", label: "Desk Setup" },
+              { href: "/guide/desk-lamps-small-desks", title: "Best Desk Lamps for Small Desks", label: "Desk Setup" }
             ].map((g) => (
               <Link prefetch={false}
                 key={g.href}

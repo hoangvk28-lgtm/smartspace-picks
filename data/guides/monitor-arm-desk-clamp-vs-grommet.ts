@@ -12,7 +12,7 @@ export const monitorArmDeskClampVsGrommetGuide: Guide = {
     "monitor arm mounting options",
     "grommet hole desk requirement",
     "clamp mount desk thickness",
-    "multi monitor arm installation",
+    "multi monitor arm installation"
   ],
   heroImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const monitorArmDeskClampVsGrommetGuide: Guide = {
     "grommet-mount-vs-clamp-mount",
     "monitor-arm-weight-capacity-chart",
     "triple-monitor-setup-explained",
-    "how-to-measure-desk-for-monitor-arm",
+    "how-to-measure-desk-for-monitor-arm"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const monitorArmDeskClampVsGrommetGuide: Guide = {
       question: "Which mount type is better for a multi-arm setup supporting several monitors?",
       answer:
         "Either works, but check that your desk has enough usable edge space for multiple clamp mounts if going that route, or enough spaced-out grommet holes if using that method, spacing planning matters more than the mount type itself for a multi-arm configuration.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const monitorArmDeskClampVsGrommetGuide: Guide = {
     {
       heading: "Why Multi-Arm Setups Need Extra Spacing Consideration Regardless of Mount Type",
       body: `When mounting multiple monitor arms for a triple or larger monitor setup, the mounting method matters less than ensuring adequate physical spacing between mounting points, whether using clamps needing enough desk edge width for each clamp's footprint, or grommet holes needing enough separation to avoid the arms' bases interfering with each other, planning this spacing before installation, based on your specific desk's dimensions and how many arms you're installing, prevents a cramped or physically conflicting final setup regardless of which mounting type you ultimately choose.`,
-    },
+    }
   ],
 };

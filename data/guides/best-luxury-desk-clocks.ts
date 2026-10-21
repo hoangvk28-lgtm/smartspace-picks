@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "luxury desk clock";
 export const introParagraphs = [
   "We're using luxury here to mean genuine premium material paired with a price that reflects it, marble, crystal, and glass pieces rather than plastic clocks with luxury branding language. All five picks below sit at a meaningfully higher price point than the budget or mid-range clocks covered in our broader desk clocks guide, and each earns that price through material and craftsmanship, not marketing alone.",
-  "If you want the narrowest, most material-specific version of this list, see our marble desk clocks or crystal desk clocks guides, both of which are shorter, more focused honest guides covering those specific materials.",
+  "If you want the narrowest, most material-specific version of this list, see our marble desk clocks or crystal desk clocks guides, both of which are shorter, more focused honest guides covering those specific materials."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required genuine premium material or price to qualify", description: "Only included clocks with confirmed marble, crystal, glass, or mahogany material and a price that reflects genuine premium positioning, not luxury marketing language on a standard plastic clock." },
   { title: "Balanced purely decorative and functional luxury picks", description: "Included both display-first pieces like the marble clock and function-plus-luxury pieces like the alarm clock with included battery, since luxury doesn't have to mean purely decorative." },
   { title: "Compared price against material and craftsmanship, not brand alone", description: "Weighed each pick's price against its actual material and construction quality rather than assuming higher price alone signals genuine luxury." },
-  { title: "Pointed toward narrower material-specific guides where relevant", description: "Directed buyers who want the most focused version of this list to our separate marble and crystal desk clock guides, both shorter and material-specific." },
+  { title: "Pointed toward narrower material-specific guides where relevant", description: "Directed buyers who want the most focused version of this list to our separate marble and crystal desk clock guides, both shorter and material-specific." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -245,12 +245,12 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "What makes a desk clock genuinely luxury rather than just marketed that way?", a: "Confirmed premium material like marble, crystal, glass, or mahogany, paired with a price that reflects real craftsmanship, not just marketing language on a standard plastic clock." },
   { q: "Are luxury desk clocks purely decorative?", a: "Not always, some picks in this guide include a genuine alarm function and daily utility alongside premium material, while others are display-first statement pieces." },
-  { q: "What's the cheapest luxury desk clock in this guide?", a: "The Personalized Crystal Desk Clock at $49.99 is the most accessible entry point into genuine premium material in this guide." },
-  { q: "Should I get a marble or a crystal luxury clock?", a: "Marble offers more substantial scale and weight for a larger statement, while crystal offers premium material at a more compact size and lower price." },
+  { q: "What's the cheapest luxury desk clock in this guide?", a: "The Personalized Crystal Desk Clock at under $50 is the most accessible entry point into genuine premium material in this guide." },
+  { q: "Should I get a marble or a crystal luxury clock?", a: "Marble offers more substantial scale and weight for a larger statement, while crystal offers premium material at a more compact size and lower price." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-marble-desk-clocks", title: "Best Marble Desk Clocks (2026)" },
   { href: "/guide/best-crystal-desk-clocks", title: "Best Crystal Desk Clocks (2026)" },
-  { href: "/guide/best-personalized-desk-clocks", title: "Best Personalized Desk Clocks (2026)" },
+  { href: "/guide/best-personalized-desk-clocks", title: "Best Personalized Desk Clocks (2026)" }
 ];

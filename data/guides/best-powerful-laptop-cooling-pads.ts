@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "powerful laptop cooling pads";
 export const introParagraphs = [
   "'Powerful' shows up in a lot of laptop cooling pad titles, and it overlaps heavily with our high-RPM guide in this cluster, so it's worth being direct about what makes this list different. A pad earns a spot here based on the combination of documented RPM, airflow design (sealed pressure, concentrator nozzles, bottom intake), and a stated temperature-drop figure together, not any single spec in isolation. Our high-RPM guide ranks purely by fan speed; this guide asks whether 'powerful' actually means something broader and measurable, or is just a relabeled speed claim.",
-  "One pick here, the 13-fan cooler further down this list, illustrates the gap well: it markets itself as powerful cooling but publishes neither an RPM figure nor a temperature-drop claim, relying on fan count alone. We ranked it accordingly, below picks with more complete documented evidence.",
+  "One pick here, the 13-fan cooler further down this list, illustrates the gap well: it markets itself as powerful cooling but publishes neither an RPM figure nor a temperature-drop claim, relying on fan count alone. We ranked it accordingly, below picks with more complete documented evidence."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "10 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Decoded 'powerful' into measurable specs", description: "We required at least one of RPM, a stated temperature-drop figure, or a distinct cooling mechanism (like Peltier wattage) to be documented in the listing, and flagged picks that rely on fan count alone with no other evidence." },
   { title: "Cross-checked against documented RPM alone", description: "Where a pick also appears in our high-RPM guide, we noted that overlap directly rather than presenting 'powerful' as an unrelated new category." },
   { title: "Weighed airflow engineering, not just raw numbers", description: "Sealed pressure chambers, concentrator nozzles, and bottom-intake designs can make a moderate RPM figure translate into stronger effective cooling, which we factored in alongside raw speed." },
-  { title: "Considered mechanism diversity", description: "One pick uses thermoelectric Peltier cooling rather than fan RPM entirely, and we evaluated its wattage-based power claim on its own terms rather than forcing an RPM comparison that doesn't apply." },
+  { title: "Considered mechanism diversity", description: "One pick uses thermoelectric Peltier cooling rather than fan RPM entirely, and we evaluated its wattage-based power claim on its own terms rather than forcing an RPM comparison that doesn't apply." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -291,11 +291,11 @@ export const faq: FaqItem[] = [
   { q: "How do I know if a 'powerful' cooling pad claim is backed by real specs?", a: "Look for a documented RPM number, a stated temperature-drop percentage with test conditions, or a specific cooling mechanism and wattage. If none of those appear in the listing, the claim rests on fan count or marketing language alone." },
   { q: "Can a lower-RPM pad be more powerful than a higher-RPM one?", a: "Yes, if it uses sealed pressure chambers or concentrator nozzles to direct airflow more effectively. The Razer pick's 3000 RPM sealed design is a good example of engineering compensating for a lower raw speed number." },
   { q: "Is thermoelectric (Peltier) cooling more powerful than fan cooling?", a: "It's a different mechanism entirely, measured in watts rather than RPM, and tends to be much quieter. Whether it's 'more powerful' depends on your priorities, since it doesn't move air the way a fan-based pad does." },
-  { q: "Should I trust a cooling pad that only lists its fan count?", a: "Treat fan count alone as the weakest form of evidence for a 'powerful' claim. A documented RPM or CFM figure alongside the fan count is much more useful for comparison." },
+  { q: "Should I trust a cooling pad that only lists its fan count?", a: "Treat fan count alone as the weakest form of evidence for a 'powerful' claim. A documented RPM or CFM figure alongside the fan count is much more useful for comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-high-rpm-laptop-cooling-pads", title: "Best High-RPM Laptop Cooling Pads (2026)" },
   { href: "/guide/best-sealed-laptop-cooling-pads", title: "Best Sealed Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-gaming-laptop-cooling-pads", title: "Best Gaming Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-gaming-laptop-cooling-pads", title: "Best Gaming Laptop Cooling Pads (2026)" }
 ];

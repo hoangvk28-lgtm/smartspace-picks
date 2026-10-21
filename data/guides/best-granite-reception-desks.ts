@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $269.99",
+          "Under $300",
           "Zethvax 70.8\" Modern Reception Desk"
         ],
         [
-          "Around $349.99",
+          "Under $350",
           "LayBurst 86.8\" Large Reception Desk"
         ],
         [
-          "Around $2,899.99",
+          "Under $2,900",
           "Larnavo 72\" Reception Desk with Stone-Textured Top"
         ],
         [
-          "Around $3,199.99",
+          "Under $3,200",
           "Larnavo 78\" Curved Reception Desk with Stone Effect Top"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Larnavo 72\" Reception Desk with Stone-Textured Top is aimed at offices, corporate lobbies, and clinics wanting a minimalist stone-textured reception desk." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Larnavo 72\" Reception Desk with Stone-Textured Top is aimed at offices, corporate lobbies, and clinics wanting a minimalist stone-textured reception desk." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-marble-reception-desks","title":"best-marble-reception-desks"},{"href":"/guide/best-stone-reception-desks","title":"best-stone-reception-desks"},{"href":"/guide/best-quartz-reception-desks","title":"5 Best Quartz Reception Desks in 2026"}];

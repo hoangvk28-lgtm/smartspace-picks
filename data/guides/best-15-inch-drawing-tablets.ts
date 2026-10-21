@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $209.99",
+          "Under $250",
           "XPPen Artist 13.3 Pro 13.3\" Drawing Tablet with Screen"
         ],
         [
-          "Around $299.00",
+          "Under $300",
           "HUION Kamvas Pro 16 V2 Drawing Tablet"
         ],
         [
-          "Around $399.99",
+          "Under $400",
           "XPPen Artist 16 3rd Drawing Tablet"
         ],
         [
-          "Around $499.99",
+          "Under $500",
           "XPPen Artist Pro 16 Gen2"
         ],
         [
-          "Around $679.15",
+          "Under $700",
           "XENCELABS Pen Display 16 Lite"
         ],
         [
-          "Around $699.95",
+          "Under $700",
           "Wacom Cintiq 16"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "XPPen Artist 13.3 Pro 13.3\" Drawing Tablet with Screen is aimed at buyers prioritizing 13.3in full-laminated, 16,384 pressure." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "XPPen Artist 13.3 Pro 13.3\" Drawing Tablet with Screen is aimed at buyers prioritizing 13.3in full-laminated, 16,384 pressure." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-16-inch-drawing-tablets","title":"Best 16-Inch Drawing Tablets in 2026"},{"href":"/guide/best-24-inch-drawing-tablets","title":"Best 24-Inch Drawing Tablets in 2026"},{"href":"/guide/best-22-inch-drawing-tablets","title":"Best 22-Inch Drawing Tablets in 2026"}];

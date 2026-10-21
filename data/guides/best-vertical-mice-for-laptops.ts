@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "best vertical mice for laptops";
 export const introParagraphs = [
   "There's a real tension between what makes a vertical mouse ergonomically effective and what a laptop user typically prioritizes: portability. A genuinely comfortable ergonomic angle usually comes with a bulkier body than most laptop users want to carry around, so this guide is honest about that tradeoff rather than pretending you can have maximum ergonomic benefit and minimum bulk at the same time. We also checked dongle storage availability specifically for laptop use, since a loose USB receiver is easy to lose when you're packing up and moving locations regularly.",
-  "Battery life claims are usually based on steady desk use, not the more frequent power-cycling pattern of a laptop that goes to sleep and wakes up throughout a mobile day, so treat quoted battery life figures as optimistic. We also flagged the USB-A dongle compatibility gap for USB-C-only laptops, which requires a separate adapter, and noted that some vertical mice need a proper mousepad surface for reliable tracking, a real limitation if you often work from a coffee table, your lap, or an uneven café table.",
+  "Battery life claims are usually based on steady desk use, not the more frequent power-cycling pattern of a laptop that goes to sleep and wakes up throughout a mobile day, so treat quoted battery life figures as optimistic. We also flagged the USB-A dongle compatibility gap for USB-C-only laptops, which requires a separate adapter, and noted that some vertical mice need a proper mousepad surface for reliable tracking, a real limitation if you often work from a coffee table, your lap, or an uneven café table."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Laptop Pairing",
     name: "Anker 2.4G Wireless Ergonomic Mouse, Right Hand Vertical Mouse",
     price: "$19.98",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "53,313 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31z5JT0yL+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BIFNTMC?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Pick for Mobile Use",
     name: "Logitech Lift Vertical Ergonomic Wireless Mouse",
     price: "$57.40",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "13,635 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31nb5ALnDvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09J1TB35S?tag=deskfinds0d-20",
     description:
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Rechargeable Pick",
     name: "Lekvey Ergonomic Mouse, Rechargeable Vertical Wireless Mouse",
     price: "$24.98",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "15,431 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31rCoH07kzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07BFCVJZC?tag=deskfinds0d-20",
     description:
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Budget Pick",
     name: "ProtoArc EM11 NL Wireless Ergonomic Vertical Mouse, Rechargeable",
     price: "$22.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "5,670 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31PGrLfkUxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CX18LHWS?tag=deskfinds0d-20",
     description:
@@ -94,8 +94,8 @@ export const products: GuideProduct[] = [
     badge: "Best Small-Hand Laptop Pick",
     name: "Luhaso Ergonomic Vertical Wireless Mouse, 57 degree, Small/Medium Hands",
     price: "$19.99",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "57 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31ttLEqu0hL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GNMPGM7G?tag=deskfinds0d-20",
     description:
@@ -111,8 +111,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wired Laptop Pick",
     name: "TECKNET Wired Mouse, Comfortable Ergonomic Mouse with 6400 DPI",
     price: "$19.19",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "3,694 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31vAjZuq+pL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CMC1F5WB?tag=deskfinds0d-20",
     description:
@@ -128,8 +128,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wired Value Pick",
     name: "Anker USB Wired Vertical Mouse, Ergonomic Mouse for Computer and Laptop",
     price: "$25.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "9,039 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41h3oxMYtPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00FPAVUHC?tag=deskfinds0d-20",
     description:
@@ -145,8 +145,8 @@ export const products: GuideProduct[] = [
     badge: "Best Crossover Pick for Gaming on a Laptop",
     name: "Attoe Gaming Mouse with 5D Rocker, Wireless Vertical Mouse with 2400 DPI",
     price: "$35.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "116 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41XVdqDE3aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9PDRYZK?tag=deskfinds0d-20",
     description:
@@ -155,7 +155,7 @@ export const products: GuideProduct[] = [
     pros: ["Works for both laptop office tasks and casual gaming", "5D rocker button adds a genuinely extra input", "Budget-friendly for the feature set", "Wireless connectivity"],
     cons: ["Small review sample size, verify current feedback", "2400 DPI ceiling is modest compared to dedicated gaming mice", "Dongle storage not independently confirmed"],
     bestFor: "Laptop users who want one wireless mouse for both office work and occasional casual gaming.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -163,7 +163,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Portability weighed honestly against ergonomic bulk", description: "We addressed the real tension between a bulkier, more effective ergonomic design and a laptop user's usual portability priorities rather than glossing over it." },
   { title: "Dongle storage checked given higher mobile loss risk", description: "We noted whether each pick includes a dongle storage slot, since a loose USB receiver is easier to lose during frequent travel and repacking." },
   { title: "Battery life discussed against realistic mobile power-cycling", description: "We treated quoted battery life as a steady-desk-use figure and noted it will likely run shorter under a laptop's frequent sleep-wake pattern." },
-  { title: "USB-C compatibility gap and surface requirements disclosed", description: "We flagged the USB-A dongle adapter requirement for USB-C-only laptops and noted that some vertical mice need a proper mousepad surface for reliable tracking." },
+  { title: "USB-C compatibility gap and surface requirements disclosed", description: "We flagged the USB-A dongle adapter requirement for USB-C-only laptops and noted that some vertical mice need a proper mousepad surface for reliable tracking." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -290,11 +290,11 @@ export const faq: FaqItem[] = [
   { q: "Are vertical mice too bulky for laptop travel?", a: "Some are. There's a real tradeoff between ergonomic effectiveness and portability, so look for a more compact pick if travel bulk is a priority." },
   { q: "Do vertical mice work with USB-C-only laptops?", a: "Only with a USB-A to USB-C adapter unless the specific model uses Bluetooth or ships with a USB-C dongle, so check the connector type before buying." },
   { q: "Will my vertical mouse's battery last as long on the road as at my desk?", a: "Probably not quite as long. Quoted battery life is usually based on steady desk use, and a laptop's frequent sleep-wake cycling will likely drain it faster." },
-  { q: "Can I use a vertical mouse on my lap or a café table?", a: "It depends on the mouse. Some vertical mice need a proper mousepad or reasonably flat surface for reliable tracking, which can be a real limitation on uneven or soft surfaces." },
+  { q: "Can I use a vertical mouse on my lap or a café table?", a: "It depends on the mouse. Some vertical mice need a proper mousepad or reasonably flat surface for reliable tracking, which can be a real limitation on uneven or soft surfaces." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-compact-vertical-mice-for-travel", title: "Best Compact Vertical Mice for Travel in 2026" },
   { href: "/guide/best-usb-c-vertical-mice", title: "Best USB-C Vertical Mice in 2026" },
-  { href: "/guide/best-wireless-vertical-mice", title: "Best Wireless Vertical Mice in 2026" },
+  { href: "/guide/best-wireless-vertical-mice", title: "Best Wireless Vertical Mice in 2026" }
 ];

@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $95.99",
+          "Under $100",
           "PCIE 3.0 x16 22Gbps eGPU Dock with Thunderbolt 4 Cable"
         ],
         [
-          "Around $149.99",
+          "Under $150",
           "External GPU Dock Station"
         ],
         [
-          "Around $161.00",
+          "Under $170",
           "VIKINYEE Thunderbolt 3/4 eGPU Enclosure USB4 (VK-Y900)"
         ],
         [
-          "Around $189.00",
+          "Under $190",
           "Maskedfish eGPU Enclosure Thunderbolt 3/4 USB4 40Gbps PD 85W Charging (MK-L18)"
         ],
         [
-          "Around $189.50",
+          "Under $190",
           "TREBLEET 80Gbps eGPU Enclosure"
         ],
         [
-          "Around $279.99",
+          "Under $300",
           "External eGPU Enclosure with 240W PSU"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "ORARA eGPU Enclosure Thunderbolt 3/4/USB4 40Gbps with 750W PSU"
         ],
         [
-          "Around $599.99",
+          "Under $600",
           "Sonnet Breakaway Box 850 T5 eGPU Enclosure"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Thunderbolt and USB4 tunnel PCIe over a general-purpose port shared with other data, while OCuLink provides a more direct PCIe connection with typically lower overhead, but neither hot-plugs as easily and OCuLink support is far less common on laptops. Match the choice to what your specific host actually exposes."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Maskedfish eGPU Enclosure Thunderbolt 3/4 USB4 40Gbps PD 85W Charging (MK-L18) is aimed at buyers prioritizing jhl7540/7440 controller, pcie 4.0 x16 mode." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Maskedfish eGPU Enclosure Thunderbolt 3/4 USB4 40Gbps PD 85W Charging (MK-L18) is aimed at buyers prioritizing jhl7540/7440 controller, pcie 4.0 x16 mode." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-egpu-enclosures","title":"Best eGPU Enclosures in 2026"},{"href":"/guide/best-thunderbolt-egpu-enclosures","title":"Best Thunderbolt eGPU Enclosures in 2026"},{"href":"/guide/best-razer-egpu-enclosures","title":"Best Razer eGPU Enclosures in 2026"}];

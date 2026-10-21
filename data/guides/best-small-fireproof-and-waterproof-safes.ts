@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small fireproof and waterproof safes";
 export const introParagraphs = [
   "We need to be direct here: fire resistance and water resistance are two separate engineering claims, and one does not imply the other. Of the 7 verified fireproof safes in our research pool, only 2 separately document both a fire classification and a water-resistance verification. We're disclosing this directly rather than presenting all 7 as equally dual-rated.",
-  "For the 5 picks with fire protection documented but no separate water claim, we're noting that gap explicitly rather than assuming their steel construction happens to also be waterproof.",
+  "For the 5 picks with fire protection documented but no separate water claim, we're noting that gap explicitly rather than assuming their steel construction happens to also be waterproof."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -131,7 +131,7 @@ export const products: GuideProduct[] = [
     pros: ["Largest capacity in this comparison", "Three independent access methods with a dead-battery fallback"],
     cons: ["No documented water resistance", "Fire classification body and exact conditions not independently confirmed"],
     bestFor: "Buyers wanting maximum capacity and access flexibility for fire protection specifically.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified fire and water resistance as two independent claims", description: "We required each hazard to be separately documented rather than inferring water resistance from a fire rating or vice versa. Only 2 of 7 verified picks here document both." },
   { title: "Labeled fire-only picks honestly rather than blending them into a dual-rated ranking", description: "Five picks here have strong, well-documented fire protection but no confirmed water-resistance test. We flagged each one clearly rather than implying dual protection the listing doesn't state." },
   { title: "Excluded the inaccessible ASIN rather than fabricating its data", description: "One original candidate ASIN returned ItemNotAccessible from the product catalog API at research time. We excluded it and disclosed the gap rather than guessing at its water-resistance status." },
-  { title: "Compared access-recovery methods across both categories", description: "We noted whether each pick, dual-rated or fire-only, offers a documented dead-battery or lost-key recovery path, since this matters regardless of the water-resistance question." },
+  { title: "Compared access-recovery methods across both categories", description: "We noted whether each pick, dual-rated or fire-only, offers a documented dead-battery or lost-key recovery path, since this matters regardless of the water-resistance question." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -267,11 +267,11 @@ export const faq: FaqItem[] = [
   { q: "Does a fire rating automatically mean a safe is also waterproof?", a: "No. Fire resistance and water resistance are two separate engineering claims. We disclosed this directly since 5 of our 7 verified picks document fire protection only." },
   { q: "What's the best fire-only option if I don't need water resistance?", a: "The SentrySafe Fireproof Safe Box with Key Lock, with the most explicitly documented fire rating and a lifetime after-fire replacement guarantee." },
   { q: "Is there a dual-rated option with digital keypad access?", a: "No, both genuinely dual-rated picks here use key-only locks. For digital keypad access, the fire-only Honeywell Hideable Small Safe Box or the 1.3 Cub Small Fireproof Safe are the options." },
-  { q: "What's the largest capacity fire-only option?", a: "The 1.3 Cub Small Fireproof Safe for Home, at 1.3 cubic feet." },
+  { q: "What's the largest capacity fire-only option?", a: "The 1.3 Cub Small Fireproof Safe for Home, at 1.3 cubic feet." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-fireproof-safes", title: "Best Small Fireproof Safes (2026)" },
   { href: "/guide/best-small-safes-for-documents", title: "Best Small Safes for Documents (2026)" },
-  { href: "/guide/best-small-safes", title: "Best Small Safes (2026)" },
+  { href: "/guide/best-small-safes", title: "Best Small Safes (2026)" }
 ];

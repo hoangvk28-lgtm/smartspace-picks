@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Dual-position mounting that also serves as a privacy screen", "HUHOLE 32 x 12 Inch Clamp On Desk Pegboard"],
         ["The largest single panel with gaming-specific accessories", "Keepo Peg Board Wall Organizer for Gaming Setup"],
         ["A larger clamp-on panel with more accessories and colors", "PEGZONE Clamp on Desk Pegboard, 20.4\" x 16.5\""],
-        ["Steel construction and scalability at the lowest price", "Daanxw Peg Board Kit, Metal Pegboard"],
+        ["Steel construction and scalability at the lowest price", "Daanxw Peg Board Kit, Metal Pegboard"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $48", "Daanxw Metal ($47.99)"],
-        ["Under $56", "PEGZONE 20.4\"x16.5\" ($55.99)"],
-        ["Under $59", "Keepo Gaming Setup ($58.99)"],
-        ["Under $60", "HUHOLE 32x12 ($59.99)"],
+        ["Under $48", "Daanxw Metal (under $50)"],
+        ["Under $56", "PEGZONE 20.4\"x16.5\" (under $60)"],
+        ["Under $59", "Keepo Gaming Setup (under $60)"],
+        ["Under $60", "HUHOLE 32x12 (under $60)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Dual-Position Clamp Mount vs Fixed Wall or Desk Mounting",
     cards: [
       { label: "Dual-position clamp (HUHOLE)", text: "Mounts above the desk for daily access or below the desk as a cable management modesty panel, genuinely versatile placement." },
-      { label: "Fixed clamp or wall mount (PEGZONE, Keepo, Daanxw)", text: "Mounts in one specific position, simpler but less adaptable if your needs change over time." },
+      { label: "Fixed clamp or wall mount (PEGZONE, Keepo, Daanxw)", text: "Mounts in one specific position, simpler but less adaptable if your needs change over time." }
     ],
     note: "If you want the flexibility to reposition the pegboard between above-desk organization and below-desk cable hiding, the HUHOLE's dual-position design is worth the price premium. For a single fixed use case, the other picks are simpler and often cheaper.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Dedicated gaming room, largest single panel", "Keepo Gaming Setup (33x22 in)"],
         ["Multi-purpose desk with color-matched aesthetic", "PEGZONE 20.4\"x16.5\""],
-        ["Scalable wall project, standard accessories", "Daanxw Metal Pegboard"],
+        ["Scalable wall project, standard accessories", "Daanxw Metal Pegboard"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For an Open Office Needing Both Organization and Visual Privacy Specifically",
     cards: [
       { label: "Look for", text: "A pegboard specifically designed to double as a visual barrier or privacy screen, not just a storage panel." },
-      { label: "In this comparison", text: "The HUHOLE pick is specifically designed to block distractions and act as a visual barrier in an open office setting." },
+      { label: "In this comparison", text: "The HUHOLE pick is specifically designed to block distractions and act as a visual barrier in an open office setting." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want dual-position mounting that doubles as a privacy screen or cable management panel, where the HUHOLE pick delivers unique functionality no other pick here matches." },
-      { label: "Save if", text: "You want steel construction and scalable wall-mounted storage without needing clamp mounting or specialized functionality, where the Daanxw pick covers that for about $12 less." },
+      { label: "Save if", text: "You want steel construction and scalable wall-mounted storage without needing clamp mounting or specialized functionality, where the Daanxw pick covers that for about $12 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

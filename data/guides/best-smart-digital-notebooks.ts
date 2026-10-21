@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "smart digital notebook";
 export const introParagraphs = [
   "\"Smart\" in this category just means genuine app connectivity and cloud sync, and that shows up differently depending on which of the three product types you're looking at: a reusable paper notebook syncs after you scan a page, an e-ink device syncs digitally in the background, and a smart pen syncs live as you write.",
-  "We picked one strong example from each type plus a few more, so you can see how \"smart\" actually plays out across genuinely different hardware before deciding which workflow fits you.",
+  "We picked one strong example from each type plus a few more, so you can see how \"smart\" actually plays out across genuinely different hardware before deciding which workflow fits you."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "\"Smart\" defined per product type before comparing", description: "Explained that real-time sync (smart pens), background digital sync (e-ink devices), and scan-triggered sync (paper notebooks) are three genuinely different connectivity models before ranking any pick." },
   { title: "App and cloud integration confirmed from the listing", description: "Only credited cloud sync or app connectivity when explicitly stated for that specific product." },
   { title: "Cross-platform compatibility checked where claimed", description: "Verified whether a listing specifically states Android and iOS support versus a single platform." },
-  { title: "Price weighed against the connectivity model delivered", description: "Compared cost against whether a product delivers live real-time sync or a slower scan-based workflow, not price alone." },
+  { title: "Price weighed against the connectivity model delivered", description: "Compared cost against whether a product delivers live real-time sync or a slower scan-based workflow, not price alone." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -274,11 +274,11 @@ export const faq: FaqItem[] = [
   { q: "What makes a digital notebook \"smart\"?", a: "Genuine app connectivity and cloud sync, though the timing differs: smart pens sync live while writing, e-ink devices sync digital files automatically, and paper notebooks sync when you scan a page." },
   { q: "Do smart pens sync in real time?", a: "Yes, that is their defining feature, your handwriting is captured and synced to the app as you write, unlike a Rocketbook-style notebook that requires scanning afterward." },
   { q: "Is a Rocketbook considered a smart notebook?", a: "Yes, it's app-connected and syncs to cloud services, but the sync happens when you scan a completed page rather than in real time as you write." },
-  { q: "Do smart digital notebooks work on both Android and iOS?", a: "Many do, but always verify cross-platform support on the specific listing rather than assuming, since some products state one platform more explicitly than the other." },
+  { q: "Do smart digital notebooks work on both Android and iOS?", a: "Many do, but always verify cross-platform support on the specific listing rather than assuming, since some products state one platform more explicitly than the other." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks-with-cloud-sync", title: "Best Digital Notebooks with Cloud Sync (2026)" },
   { href: "/guide/best-electronic-digital-notebooks", title: "Best Electronic Digital Notebooks (2026)" },
-  { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" },
+  { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" }
 ];

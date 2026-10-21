@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "monitor arm desk mount";
 export const introParagraphs = [
   "Desk clamp, grommet base, freestanding, and wall mount get lumped together as one category, but each solves a different mounting problem. A clamp needs a solid, flat desk edge; a grommet needs an existing hole or a willingness to drill; and a wall mount skips the desk entirely, which matters if you're a renter or working on office furniture you can't modify.",
-  "Below are 8 monitor arm desk mounts we evaluated on mounting type, desk thickness tolerance, VESA compatibility, and whether each spec sheet actually accounts for how modern desks are built, ranging from a $19.98 tool-free clamp mount to a $239.99 Ergotron LX wall mount for desks that can't be clamped or drilled at all.",
+  "Below are 8 monitor arm desk mounts we evaluated on mounting type, desk thickness tolerance, VESA compatibility, and whether each spec sheet actually accounts for how modern desks are built, ranging from an under-$20 tool-free clamp mount to an under-$250 Ergotron LX wall mount for desks that can't be clamped or drilled at all."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -47,18 +47,18 @@ export const products: GuideProduct[] = [
       "7 to 25 lb capacity",
       "VESA 75x75mm or 100x100mm",
       "Clamp and grommet mounting compatible",
-      "Matte black finish",
+      "Matte black finish"
     ],
     pros: [
       "Both clamp and grommet mounting supported",
       "Wide 7 to 25 lb capacity band",
       "Fits curved and ultrawide displays up to 34\"",
-      "Proven long-term gas spring reliability",
+      "Proven long-term gas spring reliability"
     ],
     cons: [
       "Most expensive clamp/grommet pick in this list",
       "Needs a genuinely solid desk edge, not a hollow-core desktop",
-      "Standard VESA only, no adapter included for non-VESA monitors",
+      "Standard VESA only, no adapter included for non-VESA monitors"
     ],
     bestFor: "Buyers who want the most proven clamp and grommet mount with room to grow into a larger monitor",
   },
@@ -79,18 +79,18 @@ export const products: GuideProduct[] = [
       "4.4 to 19.8 lb capacity",
       "C-clamp and grommet base both included",
       "VESA mount, tilt, swivel, rotation",
-      "Under $35",
+      "Under $35"
     ],
     pros: [
       "Both clamp and grommet base included in one box",
       "Strong value at under $35",
       "Full tilt, swivel, and rotation",
-      "Covers a wide 13-32\" monitor range",
+      "Covers a wide 13-32\" monitor range"
     ],
     cons: [
       "Lighter-duty build than the Ergotron LX",
       "19.8 lb cap is tighter than premium picks",
-      "Same desk-thickness caution applies as any clamp mount",
+      "Same desk-thickness caution applies as any clamp mount"
     ],
     bestFor: "Buyers who want to try both clamp and grommet mounting without paying premium price",
   },
@@ -111,18 +111,18 @@ export const products: GuideProduct[] = [
       "Holds 19.8 lbs",
       "Tool-free VESA clamp mount, max VESA 100x100mm",
       "Built-in cable management",
-      "Under $20",
+      "Under $20"
     ],
     pros: [
       "Lowest price in this list",
       "Genuinely tool-free clamp installation",
       "Wide 13-34\" screen range",
-      "Built-in cable management",
+      "Built-in cable management"
     ],
     cons: [
       "100x100mm VESA cap excludes some larger panels",
       "Clamp-only, no grommet base included",
-      "Entry-level build, not for years of heavy daily use",
+      "Entry-level build, not for years of heavy daily use"
     ],
     bestFor: "First-time clamp mount buyers on a tight budget",
   },
@@ -143,18 +143,18 @@ export const products: GuideProduct[] = [
       "Holds up to 26.4 lbs",
       "VESA 75/100mm clamp mount",
       "Black finish",
-      "Under $20",
+      "Under $20"
     ],
     pros: [
       "26.4 lb capacity, highest among the budget clamp mounts",
       "Matches the lowest price point in this list",
       "Standard dual VESA pattern",
-      "Wide 13-34\" screen coverage",
+      "Wide 13-34\" screen coverage"
     ],
     cons: [
       "Clamp-only, no grommet base",
       "Basic hardware compared to the Ergotron picks",
-      "Needs the same solid desk edge as any clamp mount",
+      "Needs the same solid desk edge as any clamp mount"
     ],
     bestFor: "Budget buyers who want the highest weight ceiling from a clamp-only mount",
   },
@@ -175,18 +175,18 @@ export const products: GuideProduct[] = [
       "Max load 19.8 lbs",
       "Tool-free VESA, clamp and grommet base included",
       "Tilt, swivel, rotation",
-      "Under $30",
+      "Under $30"
     ],
     pros: [
       "Tool-free installation with a choice of clamp or grommet",
       "Under $30, strong value",
       "Full adjustment range",
-      "Both mounting bases included",
+      "Both mounting bases included"
     ],
     cons: [
       "19.8 lb cap limits it to lighter and mid-size panels",
       "Not rated for large 30\"+ ultrawide monitors",
-      "MechaSpring tension needs periodic checking under heavy daily use",
+      "MechaSpring tension needs periodic checking under heavy daily use"
     ],
     bestFor: "Buyers who want tool-free setup with the flexibility to choose clamp or grommet mounting",
   },
@@ -207,18 +207,18 @@ export const products: GuideProduct[] = [
       "Holds up to 44 lbs",
       "Dual C-clamp base",
       "Aluminum construction",
-      "Max VESA 100x100mm",
+      "Max VESA 100x100mm"
     ],
     pros: [
       "Dual clamp base adds real stability under heavy loads",
       "44 lb capacity, by far the highest in this list",
       "Purpose-built for 34-49\" ultrawide panels",
-      "Aluminum build for long-term load bearing",
+      "Aluminum build for long-term load bearing"
     ],
     cons: [
       "Needs more clear desk-underside space than a single-clamp mount",
       "Overkill and costlier than needed for a standard 24-27\" monitor",
-      "No grommet or wall mount option, clamp only",
+      "No grommet or wall mount option, clamp only"
     ],
     bestFor: "Buyers mounting a 34\" or larger ultrawide who need a dual clamp point for real stability",
   },
@@ -239,18 +239,18 @@ export const products: GuideProduct[] = [
       "4 to 22 lb capacity",
       "Clamp and grommet mounting compatible",
       "VESA 75x75mm or 100x100mm",
-      "White finish",
+      "White finish"
     ],
     pros: [
       "Both clamp and grommet mounting supported",
       "White finish option, uncommon in this category",
       "Fits curved and ultrawide displays up to 34\"",
-      "Premium build intended to hold tension longer",
+      "Premium build intended to hold tension longer"
     ],
     cons: [
       "Highest price in this list",
       "4 lb minimum may be too high for very light panels",
-      "Same desk-thickness caution applies as any clamp/grommet mount",
+      "Same desk-thickness caution applies as any clamp/grommet mount"
     ],
     bestFor: "Buyers who want a white-finish premium clamp/grommet mount for the long term",
   },
@@ -271,21 +271,21 @@ export const products: GuideProduct[] = [
       "7 to 25 lb capacity",
       "VESA wall mount, not a desk mount",
       "Polished aluminum",
-      "Requires wall stud installation",
+      "Requires wall stud installation"
     ],
     pros: [
       "Only wall mount option in this list, no desk clamp needed",
       "Solves glass desk and honeycomb desktop compatibility problems entirely",
       "Wide 7 to 25 lb capacity band",
-      "Fits monitors up to 34\"",
+      "Fits monitors up to 34\""
     ],
     cons: [
       "Requires a wall stud in the right location relative to your desk",
       "Installation is a different job than any clamp or grommet mount",
-      "Most expensive single-monitor pick in this list",
+      "Most expensive single-monitor pick in this list"
     ],
     bestFor: "Glass desks, honeycomb-core desktops, or rented furniture where clamping or drilling isn't an option",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -313,7 +313,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed mounting flexibility, weight capacity, and included hardware against price, from a tool-free clamp mount to a Ergotron wall mount.",
-  },
+  }
 ];
 
 export interface BuyingCriterion {
@@ -481,12 +481,12 @@ export const faq: FaqItem[] = [
   {
     q: "Do standing desks need a different monitor arm mount than regular desks?",
     a: "The mounting type (clamp, grommet, wall) can be the same, but a standing desk puts more stress on cable slack and clamp tension since the desk changes height repeatedly through the day. A more robust gas spring arm like the Ergotron LX handles that repeated cycling better than a lighter-duty budget clamp mount.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-monitor-arms", title: "8 Best Monitor Arms in 2026" },
   { href: "/guide/best-dual-monitor-arms", title: "8 Best Dual Monitor Arms in 2026" },
   { href: "/guide/best-monitor-arm-under-100", title: "7 Best Monitor Arms Under $100 in 2026: Picks for Every Desk Size" },
-  { href: "https://www.thepcjournal.com/guides/best-portable-monitors", title: "Best Portable Monitors (The PC Journal)" },
+  { href: "https://www.thepcjournal.com/guides/best-portable-monitors", title: "Best Portable Monitors (The PC Journal)" }
 ];

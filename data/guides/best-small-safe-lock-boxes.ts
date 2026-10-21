@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small safe lock boxes";
 export const introParagraphs = [
   "Lock boxes are generally lighter and easier to remove than a fixed, anchored safe, so we're evaluating tether or mounting options and carry weight directly rather than treating every lock box as equally theft-resistant. We're also disclosing where a listing itself states its steel construction has limits under pry tools or blunt force.",
-  "Several picks here are genuinely portable, built for travel or temporary use, while others are mountable steel boxes closer to a fixed safe. We're separating the two rather than ranking them on one undifferentiated scale.",
+  "Several picks here are genuinely portable, built for travel or temporary use, while others are mountable steel boxes closer to a fixed safe. We're separating the two rather than ranking them on one undifferentiated scale."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     pros: ["Explicit key-storage warning, a genuinely useful detail most listings skip"],
     cons: ["Compact capacity similar to other budget mountable options"],
     bestFor: "First-time buyers who'll appreciate the explicit setup and key-storage guidance.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Separated mountable steel boxes from genuinely portable travel lock boxes", description: "Several picks here include mounting hardware for real anchoring, while others (the Master Lock and Amazon Basics picks) are explicitly built for portability and travel with a tether cable rather than mounting bolts." },
   { title: "Passed through manufacturer disclosures about force-resistance limits honestly", description: "One listing directly states its thin metal casing may be compromised under pry tools or blunt force. We passed that disclosure along rather than smoothing it over into generic security language." },
   { title: "Checked for tether or anchor options on the travel-oriented picks specifically", description: "The Master Lock travel safe confirms a tether cable, a meaningfully different anti-removal approach than mounting bolts, useful in settings like hotel rooms where drilling isn't an option." },
-  { title: "Compared access-recovery methods across all eight picks", description: "We noted which picks confirm USB-C backup power, dual codes, or simple key backup, since a lock box with no recovery plan can leave you fully locked out." },
+  { title: "Compared access-recovery methods across all eight picks", description: "We noted which picks confirm USB-C backup power, dual codes, or simple key backup, since a lock box with no recovery plan can leave you fully locked out." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -263,7 +263,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review count and rating together, not rating alone",
-    "explanation": "A 4.8-star rating from 12 reviews carries far less evaluation confidence than a 4.5-star rating from several thousand, since a small sample can be skewed by a handful of early, enthusiastic buyers before any long-term reliability issues would show up in later reviews.\n\nThis matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
+    "explanation": "This matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
   }
 ];
 
@@ -272,11 +272,11 @@ export const faq: FaqItem[] = [
   { q: "Is there an option designed for travel?", a: "Yes, the Master Lock Small Travel Safe with Cable is built specifically for securing valuables to a fixed object in a hotel room or similar setting." },
   { q: "Is there a lock box explicitly rated for firearm storage?", a: "Yes, the Amazon Basics Portable Security Case explicitly names firearms alongside cash, jewelry, and documents." },
   { q: "Does any listing disclose its own security limitations?", a: "Yes, the KYODOLED Safe Box with Digital Keypad Lock directly states its metal casing may be compromised under pry tools or blunt force, an honest disclosure we're passing along." },
-  { q: "Which pick has a backup power option if the battery dies?", a: "The Bonsaii Small Safe Box confirms a USB-C interface supporting an external power bank for emergency access." },
+  { q: "Which pick has a backup power option if the battery dies?", a: "The Bonsaii Small Safe Box confirms a USB-C interface supporting an external power bank for emergency access." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-safe-boxes", title: "Best Small Safe Boxes (2026)" },
   { href: "/guide/best-portable-small-safes", title: "Best Portable Small Safes (2026)" },
-  { href: "/guide/best-small-safes-with-keys", title: "Best Small Safes With Keys (2026)" },
+  { href: "/guide/best-small-safes-with-keys", title: "Best Small Safes With Keys (2026)" }
 ];

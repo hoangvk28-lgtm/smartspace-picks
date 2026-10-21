@@ -12,7 +12,7 @@ export const verticalMouseExplainedGuide: Guide = {
     "vertical mouse worth it",
     "vertical mouse wrist pain",
     "learning curve vertical mouse",
-    "ergonomic mouse forearm position",
+    "ergonomic mouse forearm position"
   ],
   heroImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const verticalMouseExplainedGuide: Guide = {
     "mouse-grip-styles-explained",
     "wrist-rest-explained",
     "mouse-dpi-explained",
-    "wired-vs-wireless-mouse",
+    "wired-vs-wireless-mouse"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const verticalMouseExplainedGuide: Guide = {
       question: "Should I try a vertical mouse if I have no current wrist or forearm discomfort?",
       answer:
         "It's a reasonable experiment for anyone curious or wanting to proactively address posture, but the strongest case for switching applies specifically to people already experiencing discomfort that a standard mouse's pronated grip may be contributing to.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const verticalMouseExplainedGuide: Guide = {
     {
       heading: "Why Existing Discomfort Is the Strongest Predictor of Meaningful Benefit",
       body: `Since a vertical mouse's core benefit is specifically reducing pronation-related strain, someone who isn't experiencing any discomfort from their current mouse setup has less to potentially gain from switching, while someone experiencing genuine forearm or wrist discomfort that correlates with their mouse use has a much clearer, more targeted reason to try one, this doesn't mean people without current discomfort can't benefit or shouldn't try one out of curiosity, but it does mean expectations should be calibrated realistically based on whether an actual problem is being addressed versus experimenting without a specific issue to solve.`,
-    },
+    }
   ],
 };

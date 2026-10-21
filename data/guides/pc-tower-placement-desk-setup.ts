@@ -12,7 +12,7 @@ export const pcTowerPlacementDeskSetupGuide: Guide = {
     "pc tower under desk vs on desk",
     "computer tower airflow placement",
     "pc case desk space",
-    "tower placement cable length",
+    "tower placement cable length"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const pcTowerPlacementDeskSetupGuide: Guide = {
     "under-desk-storage-options-explained",
     "cable-management-types-explained",
     "desk-fan-cfm-explained",
-    "standing-desk-cable-management",
+    "standing-desk-cable-management"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const pcTowerPlacementDeskSetupGuide: Guide = {
       question: "Does tower placement affect noise level experienced at the desk?",
       answer:
         "Yes, a tower placed directly at leg or foot level under the desk can feel louder than one placed farther away or with some enclosure/distance dampening the sound, positioning and airflow needs sometimes need to be balanced against noise preference.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const pcTowerPlacementDeskSetupGuide: Guide = {
     {
       heading: "Why Elevating the Tower Off the Floor Provides a Meaningful, Simple Benefit",
       body: `A PC tower's intake fans draw in whatever air surrounds them, and floor-level air, especially on carpet, carries meaningfully more dust and debris than air at desk height, over time this can lead to more dust accumulation inside the tower, requiring more frequent internal cleaning to maintain proper cooling performance. A simple stand elevating the tower even a few inches off the floor reduces this dust intake and, as a secondary benefit, makes accessing rear ports or performing maintenance easier without needing to crouch down to floor level each time.`,
-    },
+    }
   ],
 };

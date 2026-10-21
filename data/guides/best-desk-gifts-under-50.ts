@@ -5,7 +5,7 @@ export const metaDescription = "Seven desk gifts priced at $50 or less, from wir
 export const mainKeyword = "desk gifts under $50";
 export const introParagraphs = [
   "Fifty dollars is a comfortable gift budget for a desk: enough for something useful, and not so much that it feels like a favor to return. The risk is clutter, since a desk is small real estate and a gift that does not earn its space ends up in a drawer.",
-  "We picked seven gifts that are each priced at $49.99 or less and that solve a small problem: a charger with a tray, a stand for headphones, a personalized plate or an organizer. For each we compared what the listing says about size, materials and use, and flagged which ones suit a compact desk."
+  "We picked seven gifts that are each priced under $50 or less and that solve a small problem: a charger with a tray, a stand for headphones, a personalized plate or an organizer. For each we compared what the listing says about size, materials and use, and flagged which ones suit a compact desk."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31IBkksxlYL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DKBP23MP?tag=deskfinds0d-20",
-    "description": "RHCSZ is a 4-piece set with a resume file paper tray, a stackable letter tray, a pencil cup and a sticky-note holder, with MDF inside and a wipe-clean leather-look surface. It holds A4 paper, pens and notepads.\n\nIt is the most expensive pick here at $49.99 and gives the most pieces, which suits someone with a lot of paperwork. Against the valet trays, it does not charge anything.\n\nBest for a new employee starting a full desk. The caveat is footprint, since four pieces take real space.",
+    "description": "RHCSZ is a 4-piece set with a resume file paper tray, a stackable letter tray, a pencil cup and a sticky-note holder, with MDF inside and a wipe-clean leather-look surface. It holds A4 paper, pens and notepads.\n\nIt is the most expensive pick here at under $50 and gives the most pieces, which suits someone with a lot of paperwork. Against the valet trays, it does not charge anything.\n\nBest for a new employee starting a full desk. The caveat is footprint, since four pieces take real space.",
     "specs": [
       "4 piece set",
       "Holds A4 paper",
@@ -247,7 +247,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     "title": "Price ceiling",
-    "description": "Each pick is listed at $49.99 or less at the time of our research."
+    "description": "Each pick is listed at $50 or less at the time of our research."
   },
   {
     "title": "Usefulness",

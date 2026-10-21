@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Maximum drawer storage plus charging and LED lighting", "VIAGDO Queen Bed Frame with 6 Drawers"],
         ["Simple, reliable storage without extra tech", "KOMFOTT Queen Size Wood Bed Frame with 2 Rolling Drawers"],
         ["The highest weight capacity with DIY headboard flexibility", "LIKIMIO Queen Bed Frame with 4 Storage Drawers"],
-        ["A finished, upscale wingback headboard design", "Feonase Queen Bed Frame with Upholstered Wingback Headboard"],
+        ["A finished, upscale wingback headboard design", "Feonase Queen Bed Frame with Upholstered Wingback Headboard"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $167", "Feonase Wingback Headboard ($166.14)"],
-        ["Under $170", "LIKIMIO 4 Storage Drawers ($169.99)"],
-        ["Under $190", "VIAGDO 6 Drawers ($189.99)"],
-        ["Under $200", "KOMFOTT 2 Rolling Drawers ($199.99)"],
+        ["Under $167", "Feonase Wingback Headboard (under $170)"],
+        ["Under $170", "LIKIMIO 4 Storage Drawers (under $170)"],
+        ["Under $190", "VIAGDO 6 Drawers (under $190)"],
+        ["Under $200", "KOMFOTT 2 Rolling Drawers (under $200)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Maximum Drawer Storage vs Finished Headboard Design",
     cards: [
       { label: "Maximum drawer storage (VIAGDO, LIKIMIO, KOMFOTT)", text: "Prioritizes organized under-bed storage capacity, ranging from 2 to 6 drawers, at the tradeoff of a simpler or DIY-customizable headboard." },
-      { label: "Finished wingback headboard (Feonase)", text: "Prioritizes a move-in-ready, upscale headboard look at the tradeoff of skipping built-in drawer storage entirely." },
+      { label: "Finished wingback headboard (Feonase)", text: "Prioritizes a move-in-ready, upscale headboard look at the tradeoff of skipping built-in drawer storage entirely." }
     ],
     note: "If organized storage is your priority, the VIAGDO's 6 drawers offer the most capacity in this tier. If you want a finished, elegant look without assembling drawer components, the Feonase pick delivers that directly.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your capacity need", "Recommended pick"],
       rows: [
         ["Maximum disclosed capacity (2 sleepers or heavy mattress)", "VIAGDO (1000 lbs) or Feonase (1000 lbs)"],
-        ["Strong capacity with DIY headboard flexibility", "LIKIMIO (880 lbs)"],
+        ["Strong capacity with DIY headboard flexibility", "LIKIMIO (880 lbs)"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Child Safety With Storage Drawers Specifically",
     cards: [
       { label: "Look for", text: "A specifically stated drawer locking mechanism that prevents accidental opening, especially important in households with young children who might pull on drawer handles." },
-      { label: "In this comparison", text: "The VIAGDO pick specifically states each of its 6 drawers includes a secure locking mechanism to prevent accidental opening, making them child-safe." },
+      { label: "In this comparison", text: "The VIAGDO pick specifically states each of its 6 drawers includes a secure locking mechanism to prevent accidental opening, making them child-safe." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want maximum drawer storage combined with built-in charging and LED lighting, where the VIAGDO pick justifies its price with that combined feature set." },
-      { label: "Save if", text: "You want a finished, upscale headboard without needing storage drawers, where the Feonase pick delivers that for $166.14, the lowest price in this tier." },
+      { label: "Save if", text: "You want a finished, upscale headboard without needing storage drawers, where the Feonase pick delivers that for under $170, the lowest price in this tier." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

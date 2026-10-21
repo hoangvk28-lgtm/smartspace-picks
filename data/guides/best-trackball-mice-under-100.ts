@@ -5,7 +5,7 @@ export const metaDescription = "Six trackball mice at or under $100 compared by 
 export const mainKeyword = "trackball mouse under 100";
 export const introParagraphs = [
   "A hundred dollars buys the brands that dominate trackball buying guides: Logitech, Kensington and ELECOM. At this level you are paying for support, software, build quality and refinements like fast charging, ruby bearings or a vertical shell with a metal wheel.",
-  "The six picks are listed at $99.99 or less and range from a wired Kensington ring to Logitech's flagship MX Ergo S. We compared them on listed specs: connection options, battery or cable, tilt, buttons and software. Price spreads inside this band are wide, from about $49 to $100, so the ranking leans on what each step actually adds."
+  "The six picks are listed at under $100 or less and range from a wired Kensington ring to Logitech's flagship MX Ergo S. We compared them on listed specs: connection options, battery or cable, tilt, buttons and software. Price spreads inside this band are wide, from about $49 to $100, so the ranking leans on what each step actually adds."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";

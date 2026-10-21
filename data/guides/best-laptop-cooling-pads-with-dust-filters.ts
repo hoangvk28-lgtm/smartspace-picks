@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop cooling pads with dust filters";
 export const introParagraphs = [
   "A sealed foam pressure gasket and a dust filter are two different things, and it's worth being direct about that distinction since several turbo-fan cooling pads use sealing language that sounds like dust protection without actually including a filter. Only four products in this research pool explicitly describe a dust filter, removable or replaceable, in their own listing. The rest may share a brand or a similar sealed-foam design, but do not document any filtration component.",
-  "This guide ranks the four genuinely filter-equipped pads first, then includes four honestly-labeled sealed pads without a documented filter, so you can see exactly what you're getting rather than assuming 'sealed' implies dust protection.",
+  "This guide ranks the four genuinely filter-equipped pads first, then includes four honestly-labeled sealed pads without a documented filter, so you can see exactly what you're getting rather than assuming 'sealed' implies dust protection."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "10 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Dust filter verification", description: "We only ranked a pick as filter-equipped where the listing explicitly describes a dust filter, removable or replaceable. Sealed-foam designs without that specific language were included honestly but ranked and labeled separately." },
   { title: "Maintenance type and schedule", description: "We distinguished between wash-and-reuse filters and fully replaceable consumable filters, and noted where a listing specifies a replacement schedule versus leaving maintenance vague." },
   { title: "Airflow penalty consideration", description: "We noted that filtering intake air can add some airflow resistance, and weighed each pick's documented RPM or temperature-drop claim alongside its filtration status rather than assuming filters have no performance tradeoff." },
-  { title: "Long-term dust control value", description: "We considered which picks frame dust filtration as extending laptop lifespan or reducing professional cleaning needs, since that's the practical benefit a filter is meant to deliver over time." },
+  { title: "Long-term dust control value", description: "We considered which picks frame dust filtration as extending laptop lifespan or reducing professional cleaning needs, since that's the practical benefit a filter is meant to deliver over time." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -291,11 +291,11 @@ export const faq: FaqItem[] = [
   { q: "Is a washable or replaceable dust filter better?", a: "It depends on your maintenance preference. A washable filter has no ongoing cost but needs manual cleaning, while a replaceable filter follows a documented schedule but requires buying replacements over time." },
   { q: "Does a dust filter reduce cooling performance?", a: "It can add slight airflow resistance compared to an unfiltered intake, though the picks in this guide with documented filters still report strong cooling specs alongside their filtration." },
   { q: "How often should I clean or replace a laptop cooling pad's dust filter?", a: "The IETS GT300 in this guide specifies replacing its filter every 2 to 6 months. Washable filters on the llano picks don't have a stated schedule, so clean them whenever visible buildup appears." },
-  { q: "Can I add a dust filter to a cooling pad that doesn't have one?", a: "Not typically as a supported feature. If dust filtration matters to you, choose one of the picks in this guide that documents a filter directly rather than assuming you can retrofit one onto a sealed-only design." },
+  { q: "Can I add a dust filter to a cooling pad that doesn't have one?", a: "Not typically as a supported feature. If dust filtration matters to you, choose one of the picks in this guide that documents a filter directly rather than assuming you can retrofit one onto a sealed-only design." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-sealed-laptop-cooling-pads", title: "Best Sealed Laptop Cooling Pads (2026)" },
   { href: "/guide/best-laptop-cooling-pads-with-external-power", title: "Best Laptop Cooling Pads with External Power (2026)" },
-  { href: "/guide/best-high-rpm-laptop-cooling-pads", title: "Best High-RPM Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-high-rpm-laptop-cooling-pads", title: "Best High-RPM Laptop Cooling Pads (2026)" }
 ];

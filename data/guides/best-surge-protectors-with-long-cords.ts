@@ -5,7 +5,7 @@ export const metaDescription = "5 long-cord surge protectors we evaluated, with 
 export const mainKeyword = "surge protector with long cord";
 export const introParagraphs = [
   "Long-cord surge protectors are sometimes chosen specifically to reach a distant outlet in a room addition, workshop, or other location that may already have less reliable electrical infrastructure, precisely the scenario where surge protection matters most, yet cord-quality shortcuts are common on budget long-cord products.",
-  "Voltage drop over a long cord run can affect the accuracy or responsiveness of the surge protection circuitry's own voltage-sensing, a technical interaction specific to surge protectors that basic long-cord power strips don't need to address.",
+  "Voltage drop over a long cord run can affect the accuracy or responsiveness of the surge protection circuitry's own voltage-sensing, a technical interaction specific to surge protectors that basic long-cord power strips don't need to address."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Long-Cord Surge Protector Overall",
     name: "Surge Protector Power Strip 15 Ft Cord, Ultra Thin Flat Extension Cord with 8 Outlets 4 USB Ports(2 USB C), Flat Plug Power Strip, 15 Ft Long Braided Power Cord for Home, Office, Dorm Room Essentials",
     price: "$19.99",
-    rating: "4.8 stars from 6,431 Amazon ratings",
-    reviews: "6,431 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41J0Gowt80L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CHMG5XHM?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best 12ft Long-Cord Surge Pick",
     name: "Mifaso 2 Pack Power Strip, 12FT Long Extension Cord, 1080J Surge Protector",
     price: "$31.99",
-    rating: "4.8 stars from 10,417 Amazon ratings",
-    reviews: "10,417 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41DQteekppL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08NP57YRG?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best 10ft Mid-Length Surge Pick",
     name: "SUPERDANNY Extension Cord, Flat Plug Surge Protector Power Strip, 10Ft",
     price: "$12.98",
-    rating: "4.8 stars from 6,583 Amazon ratings",
-    reviews: "6,583 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LXOWiw2vL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZ254SSR?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Multi-Outlet 10ft Surge Pick",
     name: "10Ft Extension Cord with Multiple Outlets, SUPERDANNY Flat Plug Surge Protector Power Strip 10 Ft Long Cord, 6 Outlets & 3 USB Ports, Charging Station for Home Office, College Dorm Room Essentials",
     price: "$12.99",
-    rating: "4.7 stars from 8,377 Amazon ratings",
-    reviews: "8,377 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31owpdc4AGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPFF7JN8?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Joule Long-Cord Surge Pick",
     name: "Surge Protector Power Strip 4800J, LeZone 10Ft Long Extension Cord Flat Plug, 12 Outlets 2 USB C 2 USB Ports, Wall Mountable, Desk Charging Station, Black",
     price: "$18.89",
-    rating: "4.7 stars from 2,666 Amazon ratings",
-    reviews: "2,666 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41eRaMa6u1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CN6V6M5F?tag=deskfinds0d-20",
     description:
@@ -110,7 +110,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "The irony of cord-quality cutting in exactly the locations that need protection most", description: "Emphasized that long-cord surge protectors often serve older or secondary electrical infrastructure locations, precisely where surge protection matters most, yet cord-quality shortcuts are common on budget long-cord products." },
   { title: "Voltage-sensing accuracy considered for surge circuitry at length", description: "Considered that voltage drop over a long cord run can affect the accuracy or responsiveness of the surge protection circuitry's own voltage-sensing baseline, a nuance specific to surge protectors, not basic power strips." },
-  { title: "UL 1449 certification verified specific to the long-cord product variant", description: "Emphasized verifying UL 1449 certification for the specific long-cord product itself, not assumed identical to a shorter-cord sibling model, since this certification is specifically about surge-suppression performance." },
+  { title: "UL 1449 certification verified specific to the long-cord product variant", description: "Emphasized verifying UL 1449 certification for the specific long-cord product itself, not assumed identical to a shorter-cord sibling model, since this certification is specifically about surge-suppression performance." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Should I coil the excess length of a long surge protector cord?", a: "Avoid coiling it tightly under sustained load. Bundled cords build up heat that can affect nearby MOV component temperature and longevity, let excess cord lay loosely instead." },
   { q: "Does a long-cord surge protector have the same certification as a shorter version?", a: "Don't assume so, verify UL 1449 certification specifically for the exact long-cord product you're buying, extended cord lengths can involve different safety testing considerations than standard-length products." },
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers who need to protect valuable equipment at a distant outlet" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who need a mid-length cord with genuine surge protection at a budget price At $12.98, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who need a mid-length cord with genuine surge protection at a budget price At under $15, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-power-strips-with-long-cords", title: "Best Power Strips with Long Cords (2026)" },
   { href: "/guide/best-flat-plug-surge-protectors", title: "Best Flat-Plug Surge Protectors (2026)" },
-  { href: "/guide/best-small-surge-protectors-for-travel", title: "Best Small Surge Protectors for Travel (2026)" },
+  { href: "/guide/best-small-surge-protectors-for-travel", title: "Best Small Surge Protectors for Travel (2026)" }
 ];

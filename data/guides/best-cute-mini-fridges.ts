@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31cdSbpqheL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HCY27WXZ?tag=deskfinds0d-20",
-    "description": "DEMULLER's pink fridge has a 45 liter body with a 0.8 cu ft freezer and a 1.6 cu ft fridge, a 7-level thermostat, a 38 dB noise level, two removable shelves and two leveling legs. It has a footprint of 14.9 by 14.6 inches.\n\nIt is the cheapest two-door pick here at $99.99, which is why it sits behind Saeoola and Upstreman despite its compact capacity. Against the Saeoola single door below, it has a real freezer but 0.7 cu ft less total space.\n\nBest for a single student on a budget who wants a cute fridge with a freezer. The caveat is the small fridge section, which fills up with a few days of groceries.",
+    "description": "DEMULLER's pink fridge has a 45 liter body with a 0.8 cu ft freezer and a 1.6 cu ft fridge, a 7-level thermostat, a 38 dB noise level, two removable shelves and two leveling legs. It has a footprint of 14.9 by 14.6 inches.\n\nIt is the cheapest two-door pick here at under $100, which is why it sits behind Saeoola and Upstreman despite its compact capacity. Against the Saeoola single door below, it has a real freezer but 0.7 cu ft less total space.\n\nBest for a single student on a budget who wants a cute fridge with a freezer. The caveat is the small fridge section, which fills up with a few days of groceries.",
     "specs": [
       "2.4 cu ft, 14.9 x 14.6 inch footprint",
       "0.8 cu ft freezer, 1.6 cu ft fridge",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41vyz5m1ezL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FL7KB7Y2?tag=deskfinds0d-20",
-    "description": "HAILANG is a white retro beverage fridge with a glass door, 3.2 cu ft, LED lighting, 7 temperature levels and adjustable shelves, sold for about 128 cans. It comes with a 180-day after-sale service promise.\n\nIt is the priciest pick in this guide at $209.99, and unlike the picks above it is aimed at drinks, not groceries or frozen food. Compared with the Frigidaire coral, you get a see-through door and far more room, but you give up the freezer-style chiller.\n\nBest for a dorm lounge or studio where the fridge doubles as a display of drinks. The caveat is that glass insulates less well than a solid door, and the listing does not state noise or energy figures.",
+    "description": "HAILANG is a white retro beverage fridge with a glass door, 3.2 cu ft, LED lighting, 7 temperature levels and adjustable shelves, sold for about 128 cans. It comes with a 180-day after-sale service promise.\n\nIt is the priciest pick in this guide at under $250, and unlike the picks above it is aimed at drinks, not groceries or frozen food. Compared with the Frigidaire coral, you get a see-through door and far more room, but you give up the freezer-style chiller.\n\nBest for a dorm lounge or studio where the fridge doubles as a display of drinks. The caveat is that glass insulates less well than a solid door, and the listing does not state noise or energy figures.",
     "specs": [
       "3.2 cu ft, glass door",
       "7 temperature levels",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/212ZjEJ7poL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0BQ5DGSXH?tag=deskfinds0d-20",
-    "description": "This pink Frigidaire is a 6 liter thermoelectric cooler that holds 9 cans, weighs about 3 pounds and has a carrying handle. It plugs into a wall outlet or a 12V car adapter, and the listing says it cools 26 to 28F below the room.\n\nIt is the cheapest pick in this guide at $34.99 and the only one that is not a real refrigerator. Next to the Frigidaire coral above, it trades capacity and compressor cooling for portability and a desk-friendly size.\n\nBest for skincare, a few cans or a gift. The caveat is the thermoelectric limit, which means it may not get cold enough in a hot room to store dairy or leftovers.",
+    "description": "This pink Frigidaire is a 6 liter thermoelectric cooler that holds 9 cans, weighs about 3 pounds and has a carrying handle. It plugs into a wall outlet or a 12V car adapter, and the listing says it cools 26 to 28F below the room.\n\nIt is the cheapest pick in this guide at under $35 and the only one that is not a real refrigerator. Next to the Frigidaire coral above, it trades capacity and compressor cooling for portability and a desk-friendly size.\n\nBest for skincare, a few cans or a gift. The caveat is the thermoelectric limit, which means it may not get cold enough in a hot room to store dairy or leftovers.",
     "specs": [
       "6 liters, 9 cans",
       "Cools 26 to 28F below room",
@@ -259,7 +259,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     "title": "Price for the look",
-    "description": "Prices from $34.99 to $209.99 were weighed against capacity and documented features."
+    "description": "Prices from roughly $35 to $250 were weighed against capacity and documented features."
   }
 ];
 

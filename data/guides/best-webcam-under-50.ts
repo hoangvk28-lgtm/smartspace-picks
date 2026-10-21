@@ -70,19 +70,19 @@ export const products: BudgetWebcam[] = [
       { label: "Microphone", value: "Built-in mono" },
       { label: "Connection", value: "USB-A (cable ~1.5 m)" },
       { label: "Compatibility", value: "Windows, macOS, Chrome OS — no driver" },
-      { label: "Privacy shutter", value: "Yes — built-in lens cover" },
+      { label: "Privacy shutter", value: "Yes — built-in lens cover" }
     ],
     pros: [
       "Truly plug-and-play — zero software or driver install",
       "Works on Chromebook out of the box",
       "Built-in privacy shutter — rare at this price from a major brand",
       "Logitech clip fits both thin-bezel laptops and thick monitors",
-      "Clean 1080p in good lighting at this price",
+      "Clean 1080p in good lighting at this price"
     ],
     cons: [
       "30 fps only — not for streaming",
       "Fixed focus (not ideal if you move around a lot)",
-      "Mono mic — not ideal for loud environments",
+      "Mono mic — not ideal for loud environments"
     ],
   },
   {
@@ -116,20 +116,20 @@ export const products: BudgetWebcam[] = [
       { label: "Microphone", value: "Built-in mono" },
       { label: "Connection", value: "USB-A (cable ~1.5 m)" },
       { label: "Compatibility", value: "Windows, macOS, Chrome OS — no driver" },
-      { label: "Privacy shutter", value: "No" },
+      { label: "Privacy shutter", value: "No" }
     ],
     pros: [
       "Logitech quality at $30 — strong brand trust",
       "Same plug-and-play as Brio 100, zero setup",
       "Chromebook compatible without drivers",
       "Compact clip footprint — nothing to store between calls",
-      "Reliable for daily Zoom/Teams/Google Meet",
+      "Reliable for daily Zoom/Teams/Google Meet"
     ],
     cons: [
       "Color accuracy softer than Brio 100 in fluorescent lighting",
       "No privacy shutter",
       "Mono mic",
-      "30 fps ceiling",
+      "30 fps ceiling"
     ],
   },
   {
@@ -163,20 +163,20 @@ export const products: BudgetWebcam[] = [
       { label: "Microphone", value: "Built-in stereo (2 mics)" },
       { label: "Connection", value: "USB-A (cable ~1.5 m)" },
       { label: "Compatibility", value: "Windows, macOS, Chrome OS — no driver" },
-      { label: "Privacy shutter", value: "Yes — physical lens cover" },
+      { label: "Privacy shutter", value: "Yes — physical lens cover" }
     ],
     pros: [
       "Physical privacy shutter — genuinely useful in shared rooms",
       "Stereo dual-mic outperforms most built-in laptop mics",
       "Smallest clip footprint in this roundup",
       "Manual focus ring for fine-tuning at tight desk distances",
-      "Plug-and-play on Chromebook verified",
+      "Plug-and-play on Chromebook verified"
     ],
     cons: [
       "Average low-light performance without supplemental lighting",
       "Manual focus requires one-time setup",
       "No autofocus (fixed after adjustment)",
-      "Build quality is entry-level — not as solid as Logitech",
+      "Build quality is entry-level — not as solid as Logitech"
     ],
   },
   {
@@ -210,20 +210,20 @@ export const products: BudgetWebcam[] = [
       { label: "Microphone", value: "Dual mic, hardware noise cancellation" },
       { label: "Connection", value: "USB-A" },
       { label: "Compatibility", value: "Windows, macOS, Chrome OS — no driver" },
-      { label: "Privacy shutter", value: "Yes — physical lens cover" },
+      { label: "Privacy shutter", value: "Yes — physical lens cover" }
     ],
     pros: [
       "Dual mic with real noise cancellation — best audio under $30",
       "Physical privacy shutter included",
       "Plug-and-play on Chromebook",
       "Consistent 1080p image in daylight conditions",
-      "EMEET is a dedicated conferencing brand — reliable for calls",
+      "EMEET is a dedicated conferencing brand — reliable for calls"
     ],
     cons: [
       "Slightly wider body than NexiGo — more monitor space used",
       "Fixed focus, no manual adjustment",
       "Average low-light performance",
-      "Video quality identical to cheaper models — you're paying for the mic",
+      "Video quality identical to cheaper models — you're paying for the mic"
     ],
   },
   {
@@ -257,22 +257,22 @@ export const products: BudgetWebcam[] = [
       { label: "Microphone", value: "Built-in mono" },
       { label: "Connection", value: "USB-A" },
       { label: "Compatibility", value: "Windows, macOS, Chrome OS — no driver" },
-      { label: "Privacy shutter", value: "No" },
+      { label: "Privacy shutter", value: "No" }
     ],
     pros: [
-      "Genuine 1080p from a real brand at $18",
+      "Genuine 1080p from a real brand at under $20",
       "Plug-and-play on Chromebook",
       "Compact clip — minimal monitor footprint",
       "Adequate for weekly Zoom/Google Meet calls",
-      "EMEET has real product support (not a ghost brand)",
+      "EMEET has real product support (not a ghost brand)"
     ],
     cons: [
       "Entry-level build quality — hinge not as solid as Logitech",
       "Below-average low-light performance",
       "Mono mic picks up background noise easily",
-      "Not built for daily multi-hour remote work sessions",
+      "Not built for daily multi-hour remote work sessions"
     ],
-  },
+  }
 ];
 
 // At-a-glance table rows
@@ -321,7 +321,7 @@ export const buyingCriteria: BuyingCriterion[] = [
     label: "Buyer Feedback",
     weight: "15%",
     description: "Synthesized from verified buyer reports — common failure modes, long-term durability observations, and real-world performance in non-ideal lighting.",
-  },
+  }
 ];
 
 // FAQ
@@ -370,5 +370,5 @@ export const faq: FaqItem[] = [
   {
     q: "Can I use one of these webcams on a laptop with no external monitor?",
     a: "Yes. All five picks clip onto laptop screens. Position the webcam on the top edge of your laptop lid — the same location as the built-in camera. The advantage over the built-in: you can reposition the external webcam slightly to the left or right to improve your angle, and the image quality will be noticeably better. For laptop-only setups, the NexiGo N60's compact clip is the easiest to reposition.",
-  },
+  }
 ];

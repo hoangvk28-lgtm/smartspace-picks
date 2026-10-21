@@ -5,7 +5,7 @@ export const metaDescription = "8 shredders with genuine pull-out bin designs, w
 export const mainKeyword = "shredder with pull-out bin";
 export const introParagraphs = [
   "A pull-out bin needs unobstructed clearance space in front of or behind the shredder to fully extend for emptying, a real placement constraint in a tucked-under-desk or corner cabinet location. We note this for each pick since it's rarely diagrammed in general shredder marketing.",
-  "Repeated pulling of a heavy, paper-filled bin on plastic slide rails can also cause wear leading to sticking or misalignment after months of regular use, a longevity factor short-term reviews don't capture but worth knowing before committing to daily heavy use.",
+  "Repeated pulling of a heavy, paper-filled bin on plastic slide rails can also cause wear leading to sticking or misalignment after months of regular use, a longevity factor short-term reviews don't capture but worth knowing before committing to daily heavy use."
 ];
 export const lastUpdated = "2026-07-28";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Safety-Focused Pull-Out Bin",
     name: "Fellowes 14C10 14-Sheet Cross-Cut Home Office Paper Shredder",
     price: "$107.82",
-    rating: "4.5 stars from 6,498 Amazon ratings",
-    reviews: "6,498 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41tx2mcz3eL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08YJ7V76J?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Largest Pull-Out Bin",
     name: "Bonsaii 18-Sheet Cross-Cut 60-Min Run Heavy Duty Paper Shredder",
     price: "$179.99",
-    rating: "4.6 stars from 10,748 Amazon ratings",
-    reviews: "10,748 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41FCXr1akDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00IOFD08C?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Pull-Out for Auto-Feed",
     name: "Bonsaii 120-Sheet Autofeed Micro-Cut 30-Min Run Heavy Duty Paper Shredder",
     price: "$179.99",
-    rating: "4.3 stars from 1,048 Amazon ratings",
-    reviews: "1,048 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31lBbbWrCsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSJ3K6T3?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Pull-Out Auto-Feed",
     name: "Bonsaii 100-Sheet Auto Feed Micro-Cut Paper Shredder Heavy Duty",
     price: "$126.99",
-    rating: "4.3 stars from 1,629 Amazon ratings",
-    reviews: "1,629 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31VvTJMBXPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DG2MGVMV?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Proven Pull-Out Track Record",
     name: "Aurora AU1210MA Professional Grade High Security 12-Sheet Micro-Cut Shredder",
     price: "$135.78",
-    rating: "4.7 stars from 9,126 Amazon ratings",
-    reviews: "9,126 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/413GY12YKjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CX4DZ4Z?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best Pull-Out with Casters for Repositioning",
     name: "Amazon Basics High Security Micro Cut Paper Shredder, 8 Sheet Capacity",
     price: "$74.61",
-    rating: "4.3 stars from 1,194 Amazon ratings",
-    reviews: "1,194 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41QmnUvb1tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6LXQTST?tag=deskfinds0d-20",
     description:
@@ -127,8 +127,8 @@ export const products: GuideProduct[] = [
     badge: "Good Bin-to-Capacity Balance",
     name: "BONSEN 14-Sheet Cross Cut Heavy Duty Paper Shredder for Home Office",
     price: "$84.99",
-    rating: "4.1 stars from 1,061 Amazon ratings",
-    reviews: "1,061 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LSE9gHSWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DTKBX3D9?tag=deskfinds0d-20",
     description:
@@ -144,8 +144,8 @@ export const products: GuideProduct[] = [
     badge: "Budget Pull-Out Pick",
     name: "Bonsaii 12-Sheet Cross Cut Heavy Duty Paper Shredder for Home Office",
     price: "$79.99",
-    rating: "4.5 stars from 1,685 Amazon ratings",
-    reviews: "1,685 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/310qS+3q87L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5XPJ524?tag=deskfinds0d-20",
     description:
@@ -154,14 +154,14 @@ export const products: GuideProduct[] = [
     pros: ["Large 5.5-gallon pull-out bin at a moderate price", "Transparent window reduces unnecessary pull-outs to check fill level", "Solid rating", "Jam-proof reverse system"],
     cons: ["Shorter run time than the premium picks in this guide", "12-sheet per-pass capacity limits total volume per session", "Slide-rail durability not independently confirmed long-term"],
     bestFor: "Budget-conscious buyers who want a large pull-out bin without paying premium prices",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Clearance space required to fully extend the bin", description: "Noted that every pull-out bin needs unobstructed space in front of or behind the shredder to extend fully, a real placement constraint for under-desk or corner-cabinet setups rarely diagrammed in general marketing." },
   { title: "Slide-rail durability signals from review volume and rating", description: "Weighed established brand reputation and large review bases as an indirect signal for slide-rail longevity, since short-term reviews don't directly test months of repeated heavy pulling." },
-  { title: "Static cling and caster mobility as usability factors", description: "Noted where cross-cut/micro-cut static buildup can make a pull-out bin appear emptier than it is, and where caster wheels let you reposition the whole unit instead of needing fixed clearance space." },
+  { title: "Static cling and caster mobility as usability factors", description: "Noted where cross-cut/micro-cut static buildup can make a pull-out bin appear emptier than it is, and where caster wheels let you reposition the whole unit instead of needing fixed clearance space." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -290,11 +290,11 @@ export const faq: FaqItem[] = [
   { q: "Why does my pull-out bin look empty when it isn't?", a: "Static electricity from cross-cut or micro-cut shredded paper can cause shreds to cling to the bin walls, especially during the pull-out motion, making the bin appear emptier than its actual fill level." },
   { q: "What if my shredder's location doesn't have room for the bin to pull out?", a: "Consider a model with caster wheels, like the Amazon Basics 8-sheet pick in this guide, which lets you roll the whole unit to a spot with clearance rather than needing fixed space at its permanent location." },
   { q: "Does a pull-out bin make a shredder easier to line with a trash bag?", a: "Yes, generally, a fully removable bin lets you line it with a standard bag the same way you would a trash can, while a fixed internal bin can be more awkward to bag." },
-  { q: "Can a pull-out bin be used separately from the shredder base?", a: "No, it's designed to slide out just far enough for emptying while still attached to the base unit, it's not a fully detachable container meant for separate use." },
+  { q: "Can a pull-out bin be used separately from the shredder base?", a: "No, it's designed to slide out just far enough for emptying while still attached to the base unit, it's not a fully detachable container meant for separate use." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-paper-shredders-with-large-bins", title: "Best Paper Shredders with Large Bins (2026)" },
   { href: "/guide/best-paper-shredders-on-wheels", title: "Best Paper Shredders on Wheels (2026)" },
-  { href: "/guide/best-quiet-paper-shredders", title: "Best Quiet Paper Shredders (2026)" },
+  { href: "/guide/best-quiet-paper-shredders", title: "Best Quiet Paper Shredders (2026)" }
 ];

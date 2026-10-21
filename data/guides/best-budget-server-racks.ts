@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/517WeovYvrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSJR2RZB?tag=deskfinds0d-20",
-    description: "Tecmojo's 12U open frame rack ships with two vented 1U shelves already in the box, which is a nice touch since most competitors sell shelves separately.\n\nIt's rated for 260 lbs floor-mounted but drops to 130 lbs if you wall-mount it instead, so plan your equipment load around which install method you're using.\n\nWhat stands out here is two vented shelves included instead of sold separately, plus anti-slip shelf stops keep gear from sliding. The main tradeoff: wall-mount capacity is half of floor-standing capacity, so weigh that against the $89.90 price before buying.",
+    description: "Tecmojo's 12U open frame rack ships with two vented 1U shelves already in the box, which is a nice touch since most competitors sell shelves separately.\n\nIt's rated for 260 lbs floor-mounted but drops to 130 lbs if you wall-mount it instead, so plan your equipment load around which install method you're using.\n\nWhat stands out here is two vented shelves included instead of sold separately, plus anti-slip shelf stops keep gear from sliding. The main tradeoff: wall-mount capacity is half of floor-standing capacity, so weigh that against the under $90 price before buying.",
     specs: ["12U, cold rolled steel frame","260 lb floor / 130 lb wall capacity","2 vented 1U shelves included"],
     pros: ["Two vented shelves included instead of sold separately","Anti-slip shelf stops keep gear from sliding","Stackable design lets you expand later"],
     cons: ["Wall-mount capacity is half of floor-standing capacity","Open frame offers no dust or theft protection"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41KuU2tlXhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C64X8J8R?tag=deskfinds0d-20",
-    description: "VEVOR's 12U open frame rack supports 500 lbs ground-mounted, dropping to 150 lbs if wall-mounted, and comes with a genuinely complete hardware kit down to a grounding wire.\n\nThe adjustable 23-40 inch depth range and roller casters mean it can flex to fit different equipment and rooms without buying a different SKU for each configuration.\n\nThe strongest case for this pick comes down to 500 lb ground-mounted rating handles heavier gear as well as grounding wire included, a detail many racks skip. The compromise here is that wall-mount capacity drops sharply to 150 lbs, so factor that in alongside the $89.90 asking price.",
+    description: "VEVOR's 12U open frame rack supports 500 lbs ground-mounted, dropping to 150 lbs if wall-mounted, and comes with a genuinely complete hardware kit down to a grounding wire.\n\nThe adjustable 23-40 inch depth range and roller casters mean it can flex to fit different equipment and rooms without buying a different SKU for each configuration.\n\nThe strongest case for this pick comes down to 500 lb ground-mounted rating handles heavier gear as well as grounding wire included, a detail many racks skip. The compromise here is that wall-mount capacity drops sharply to 150 lbs, so factor that in alongside the under $90 asking price.",
     specs: ["12U, 23-40\" adjustable depth","500 lb ground / 150 lb wall capacity","Casters and grounding wire included"],
     pros: ["500 lb ground-mounted rating handles heavier gear","Grounding wire included, a detail many racks skip","Top panel adds extra storage space"],
     cons: ["Wall-mount capacity drops sharply to 150 lbs","Open frame leaves cables and gear exposed"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41xxDN61aIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C64YY7G7?tag=deskfinds0d-20",
-    description: "The mid-size option in VEVOR's open frame lineup, this 20U rack keeps the same complete accessory kit as their smaller 12U and 15U models, just scaled up.\n\nGround-mounted capacity here is 200 lbs, notably lower than the 12U VEVOR model's 500 lb rating, so it's better suited to lighter networking gear than a dense server stack.\n\nWhere this one earns its spot is same complete hardware kit as VEVOR's smaller racks, and roller design makes repositioning simple. Worth noting before buying: 200 lb ground rating is notably lower than the 12U model, which matters more at $112.99 than it would on a cheaper pick.",
+    description: "The mid-size option in VEVOR's open frame lineup, this 20U rack keeps the same complete accessory kit as their smaller 12U and 15U models, just scaled up.\n\nGround-mounted capacity here is 200 lbs, notably lower than the 12U VEVOR model's 500 lb rating, so it's better suited to lighter networking gear than a dense server stack.\n\nWhere this one earns its spot is same complete hardware kit as VEVOR's smaller racks, and roller design makes repositioning simple. Worth noting before buying: 200 lb ground rating is notably lower than the 12U model, which matters more at under $120 than it would on a cheaper pick.",
     specs: ["20U, 23-40\" adjustable depth","200 lb ground / 150 lb wall capacity","Grounding wire and full hardware kit included"],
     pros: ["Same complete hardware kit as VEVOR's smaller racks","Roller design makes repositioning simple","Top panel adds extra storage space"],
     cons: ["200 lb ground rating is notably lower than the 12U model","Not suited to a dense heavy server load"],
@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31vbfmcEwKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D99FX253?tag=deskfinds0d-20",
-    description: "GlobalRack's 27U model brings the same adjustable 22-35 inch depth and quick-lock assembly as their 42U rack, just in a mid-height footprint that suits smaller server rooms.\n\nAt 1200 lbs it's rated lower than the 42U model, consistent with the shorter, lighter structure, but still handles a substantial equipment load for its size.\n\nWhat stands out here is under-20-minute assembly claim, genuinely quick to set up, plus 1200 lb capacity suits a real mid-size server load. The main tradeoff: shorter than the 42U model if you outgrow it, so weigh that against the $178.99 price before buying.",
+    description: "GlobalRack's 27U model brings the same adjustable 22-35 inch depth and quick-lock assembly as their 42U rack, just in a mid-height footprint that suits smaller server rooms.\n\nAt 1200 lbs it's rated lower than the 42U model, consistent with the shorter, lighter structure, but still handles a substantial equipment load for its size.\n\nWhat stands out here is under-20-minute assembly claim, genuinely quick to set up, plus 1200 lb capacity suits a real mid-size server load. The main tradeoff: shorter than the 42U model if you outgrow it, so weigh that against the under $180 price before buying.",
     specs: ["27U, 43.5\"H, 22-35\" adjustable depth","1200 lb weight capacity","Pre-installed square holes, M6 hardware included"],
     pros: ["Under-20-minute assembly claim, genuinely quick to set up","1200 lb capacity suits a real mid-size server load","Depth adjustment covers a wide equipment range"],
     cons: ["Shorter than the 42U model if you outgrow it","Open frame offers no dust or security protection"],
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31t+0aeG+DL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CR5GS5X2?tag=deskfinds0d-20",
-    description: "At 30U this is one of the taller open-frame rolling racks in the AxcessAbles line, giving you real headroom for a growing home lab or studio rack without going to a fully enclosed cabinet.\n\nThe same 18-inch depth and removable side panel design carries over from the smaller models, so airflow and access stay consistent as you scale up in height.\n\nWhere this one earns its spot is tall 30U build fits a growing equipment stack, and removable panels switch between open and closed setups. Worth noting before buying: tall and narrow footprint needs a stable floor, which matters more at $299.99 than it would on a cheaper pick.",
+    description: "At 30U this is one of the taller open-frame rolling racks in the AxcessAbles line, giving you real headroom for a growing home lab or studio rack without going to a fully enclosed cabinet.\n\nThe same 18-inch depth and removable side panel design carries over from the smaller models, so airflow and access stay consistent as you scale up in height.\n\nWhere this one earns its spot is tall 30U build fits a growing equipment stack, and removable panels switch between open and closed setups. Worth noting before buying: tall and narrow footprint needs a stable floor, which matters more at under $300 than it would on a cheaper pick.",
     specs: ["30U height, 18\" depth","550 lb static / 440 lb rolling capacity","Removable vented side panels"],
     pros: ["Tall 30U build fits a growing equipment stack","Removable panels switch between open and closed setups","Includes both screw standards for mixed-brand gear"],
     cons: ["Tall and narrow footprint needs a stable floor","No lockable door for equipment security"],
@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $89.90",
+          "Under $90",
           "Tecmojo 12U Open Frame Network Rack"
         ],
         [
-          "Around $89.90",
+          "Under $90",
           "VEVOR 12U Open Frame Server Rack"
         ],
         [
-          "Around $112.99",
+          "Under $120",
           "VEVOR 20U Open Frame Server Rack"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "AxcessAbles 12U Network Rack with Wheels"
         ],
         [
-          "Around $178.99",
+          "Under $180",
           "GlobalRack 27U Open Frame Server Rack"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "AxcessAbles 22U Rolling IT Server Rack"
         ],
         [
-          "Around $278.16",
+          "Under $300",
           "RIVECO 25U Server Rack Adjustable Depth"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "AxcessAbles 30U Rolling Network Server Rack"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "AxcessAbles 12U Network Rack with Wheels is aimed at buyers prioritizing 18\" usable depth, 1.5mm steel frame." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "AxcessAbles 12U Network Rack with Wheels is aimed at buyers prioritizing 18\" usable depth, 1.5mm steel frame." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

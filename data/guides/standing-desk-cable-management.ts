@@ -12,7 +12,7 @@ export const standingDeskCableManagementGuide: Guide = {
     "cable management for standing desk",
     "cables snagging when raising desk",
     "cable spine standing desk",
-    "vertical cable tray standing desk",
+    "vertical cable tray standing desk"
   ],
   heroImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const standingDeskCableManagementGuide: Guide = {
     "cable-management-types-explained",
     "standing-desk-height-chart",
     "single-motor-vs-dual-motor-standing-desk",
-    "desk-mat-vs-desk-pad",
+    "desk-mat-vs-desk-pad"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const standingDeskCableManagementGuide: Guide = {
       question: "Can under-desk cable trays interfere with the desk's raising mechanism?",
       answer:
         "Generally no if properly installed, but check clearance around the desk's motor and lifting mechanism before mounting a cable tray to ensure it doesn't obstruct moving parts, especially on desks with a centrally mounted motor or crossbar.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const standingDeskCableManagementGuide: Guide = {
     {
       heading: "Testing Your Setup at Maximum Height Before Calling It Done",
       body: `A cable management setup that looks fine at a mid-range desk height can reveal problems only visible at the desk's maximum standing height, where cables are stretched furthest. Always raise the desk to its highest setting as a final check, confirming no cable pulls taut, disconnects, or shows visible strain, catching this at setup time avoids a cable failure or disconnection surprise during actual daily use.`,
-    },
+    }
   ],
 };

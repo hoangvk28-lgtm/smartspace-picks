@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "best bluetooth vertical mice";
 export const introParagraphs = [
   "The main reason to choose Bluetooth over a 2.4GHz dongle is multi-device convenience, being able to pair one mouse across a desktop, a laptop, and a tablet and switch between them without swapping a physical receiver. That convenience can come with a small latency tradeoff versus a dedicated dongle, though whether it's actually perceptible depends on your use case; for general browsing and document work it's rarely noticeable, for fast precision tasks it's worth testing for yourself.",
-  "We also looked at how quickly each pick reconnects after your computer wakes from sleep, since a mouse that takes several seconds to reconnect every morning is a real daily annoyance, and noted Bluetooth version where it's stated, since newer versions generally offer better power efficiency and more stable connections. Where a product's exact Bluetooth version isn't clearly stated in its listing, we say so rather than guessing.",
+  "We also looked at how quickly each pick reconnects after your computer wakes from sleep, since a mouse that takes several seconds to reconnect every morning is a real daily annoyance, and noted Bluetooth version where it's stated, since newer versions generally offer better power efficiency and more stable connections. Where a product's exact Bluetooth version isn't clearly stated in its listing, we say so rather than guessing."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Bluetooth Pick",
     name: "Logitech MX Vertical Wireless Mouse Ergonomic Design",
     price: "Check current price on Amazon",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "14,970 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Ig2YzI5iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07FNJB8TT?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Bluetooth Pick",
     name: "Logitech Lift Vertical Ergonomic Wireless Mouse",
     price: "$57.40",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "13,635 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31nb5ALnDvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09J1TB35S?tag=deskfinds0d-20",
     description:
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Bluetooth Pick",
     name: "ProtoArc EM11 NL Wireless Ergonomic Vertical Mouse, Rechargeable",
     price: "$22.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "5,670 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31PGrLfkUxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CX18LHWS?tag=deskfinds0d-20",
     description:
@@ -77,15 +77,15 @@ export const products: GuideProduct[] = [
     badge: "Best for Buyers Wanting Extra Buttons Over Bluetooth",
     name: "Razer Pro Click V2 Vertical Wireless Mouse, 6 Button Ergonomic Design",
     price: "$99.99",
-    rating: "4.0 stars from Amazon ratings",
-    reviews: "461 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41DVlxxe4WL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DVD5RTZ5?tag=deskfinds0d-20",
     description:
-      "A 6-button layout gives more programmable options over Bluetooth than most budget picks, useful for buyers who want productivity shortcuts across paired devices rather than just basic navigation.\n\nIts review base is smaller and the average rating is more moderate than the other picks in this guide, so weigh that against the extra button count and brand's typical software support before choosing this over a better-reviewed alternative.\n\nRechargeable battery. That said, smaller review base and more moderate 4.0-star rating. Neither should be a surprise once you know to look for it.",
+      "A 6-button layout gives more programmable options over Bluetooth than most budget picks, useful for buyers who want productivity shortcuts across paired devices rather than just basic navigation.\n\nIts review base is smaller and the average rating is more moderate than the other picks in this guide, so weigh that against the extra button count and brand's typical software support before choosing this over a better-reviewed alternative.\n\nRechargeable battery. Neither should be a surprise once you know to look for it.",
     specs: ["Bluetooth connectivity", "6 programmable buttons", "Rechargeable battery", "Premium price point"],
     pros: ["More programmable buttons than most Bluetooth vertical mice", "Rechargeable battery", "Ergonomic vertical body", "Software support for button remapping across devices"],
-    cons: ["Smaller review base and more moderate 4.0-star rating", "Premium price relative to its rating", "Bluetooth version and reconnection speed not independently confirmed"],
+    cons: [ "Premium price relative to its rating", "Bluetooth version and reconnection speed not independently confirmed"],
     bestFor: "Buyers who want more programmable buttons over Bluetooth and are comfortable with a smaller review sample.",
   },
   {
@@ -94,8 +94,8 @@ export const products: GuideProduct[] = [
     badge: "Best Small-Hand Pick, Wireless Method Unconfirmed",
     name: "Luhaso Ergonomic Vertical Wireless Mouse, 57 degree, Small/Medium Hands",
     price: "$19.99",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "57 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31ttLEqu0hL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GNMPGM7G?tag=deskfinds0d-20",
     description:
@@ -111,8 +111,8 @@ export const products: GuideProduct[] = [
     badge: "Best Casual Gaming Crossover, Wireless Method Unconfirmed",
     name: "Attoe Gaming Mouse with 5D Rocker, Wireless Vertical Mouse with 2400 DPI",
     price: "$35.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "116 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41XVdqDE3aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9PDRYZK?tag=deskfinds0d-20",
     description:
@@ -121,7 +121,7 @@ export const products: GuideProduct[] = [
     pros: ["Wireless connectivity with an extra control input", "Budget-friendly for the feature set", "Works for both office and casual gaming use", "5D rocker button adds versatility"],
     cons: ["Bluetooth support not independently confirmed from the listing", "Small review sample size", "2400 DPI ceiling is modest for dedicated gaming use"],
     bestFor: "Buyers wanting a crossover office and casual gaming mouse, provided they confirm Bluetooth support before buying.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -129,7 +129,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Multi-device switching treated as Bluetooth's core advantage", description: "We weighed how well each pick supports pairing and switching across multiple devices, since that's the main reason to pick Bluetooth over a dongle." },
   { title: "Latency tradeoff disclosed rather than assumed negligible", description: "We noted that Bluetooth can introduce marginally more input latency than a 2.4GHz dongle, and flagged where this wasn't independently measurable from the listing." },
   { title: "Bluetooth version disclosed where stated", description: "We reported the Bluetooth version only where the listing states it, rather than guessing, since a newer version generally means better efficiency and stability." },
-  { title: "Reconnection speed after sleep considered a real daily factor", description: "We weighed buyer feedback on how quickly each mouse reconnects after a computer wakes from sleep, since a slow reconnect is a recurring daily annoyance." },
+  { title: "Reconnection speed after sleep considered a real daily factor", description: "We weighed buyer feedback on how quickly each mouse reconnects after a computer wakes from sleep, since a slow reconnect is a recurring daily annoyance." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -260,11 +260,11 @@ export const faq: FaqItem[] = [
   { q: "Is Bluetooth slower than a 2.4GHz dongle for a mouse?", a: "It can introduce marginally more latency, though this is rarely noticeable for everyday tasks like browsing and writing." },
   { q: "Why choose Bluetooth over a USB dongle mouse?", a: "Mainly for multi-device convenience, being able to pair one mouse across a desktop, laptop, and tablet without carrying a physical receiver." },
   { q: "Do Bluetooth vertical mice reconnect quickly after sleep?", a: "It varies by product. Check buyer reviews for reconnection speed feedback, since this is a real daily-use factor not always disclosed by the manufacturer." },
-  { q: "Does Bluetooth version matter for a vertical mouse?", a: "Generally yes, newer versions offer better efficiency and stability, but only rely on the version stated in the current listing rather than assuming one." },
+  { q: "Does Bluetooth version matter for a vertical mouse?", a: "Generally yes, newer versions offer better efficiency and stability, but only rely on the version stated in the current listing rather than assuming one." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-wireless-vertical-mice", title: "Best Wireless Vertical Mice in 2026" },
   { href: "/guide/best-multi-device-vertical-mice", title: "Best Multi-Device Vertical Mice in 2026" },
-  { href: "/guide/best-vertical-mice-for-mac", title: "Best Vertical Mice for Mac in 2026" },
+  { href: "/guide/best-vertical-mice-for-mac", title: "Best Vertical Mice for Mac in 2026" }
 ];

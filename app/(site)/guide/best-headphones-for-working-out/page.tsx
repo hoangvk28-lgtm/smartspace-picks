@@ -144,7 +144,7 @@ export default async function BestHeadphonesForWorkingOutPage() {
     about: [
       { "@type": "Thing", name: "Workout Headphones" },
       { "@type": "Thing", name: "Sport Earbuds" },
-      { "@type": "Thing", name: "Waterproof Headphones" },
+      { "@type": "Thing", name: "Waterproof Headphones" }
     ],
   };
   const breadcrumbSchema = {
@@ -153,7 +153,7 @@ export default async function BestHeadphonesForWorkingOutPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Headphones for Working Out", item: `${SITE_URL}/guide/best-headphones-for-working-out` },
+      { "@type": "ListItem", position: 3, name: "Best Headphones for Working Out", item: `${SITE_URL}/guide/best-headphones-for-working-out` }
     ],
   };
   const itemListSchema = {
@@ -307,7 +307,7 @@ export default async function BestHeadphonesForWorkingOutPage() {
                     { rating: "IPX7", desc: "Submerged to 1m for 30 min", best: "Running in rain, heavy sweat" },
                     { rating: "IP68", desc: "Full submersion plus dustproof", best: "Any workout, any condition" },
                     { rating: "IP55", desc: "Dust resistant plus water jets", best: "Running, outdoor use" },
-                    { rating: "IP57", desc: "Fully dustproof plus some submersion", best: "Gym and outdoor training" },
+                    { rating: "IP57", desc: "Fully dustproof plus some submersion", best: "Gym and outdoor training" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 text-ink-secondary text-xs">{row.desc}</td>
@@ -349,7 +349,7 @@ export default async function BestHeadphonesForWorkingOutPage() {
                     { budget: "Under $60", pick: "JBL Endurance Peak 3", why: "IP68 at this price is exceptional" },
                     { budget: "$60-$130", pick: "Jabra Elite 4 Active", why: "ANC plus transparency plus IP57 under $120" },
                     { budget: "$130-$200", pick: "Shokz OpenRun Pro 2 or Powerbeats Pro 2", why: "Best at their specific use case" },
-                    { budget: "$200+", pick: "Jabra Elite 8 Active Gen 2", why: "No meaningful compromise" },
+                    { budget: "$200+", pick: "Jabra Elite 8 Active Gen 2", why: "No meaningful compromise" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.budget}</td>
@@ -405,7 +405,7 @@ export default async function BestHeadphonesForWorkingOutPage() {
             {[
               { context: "Tightest budget", id: "jbl-endurance-peak-3", name: "JBL Endurance Peak 3", verdict: ", IP68 under $80, FlexSoft hooks, 40-hour total battery." },
               { context: "Run outdoors", id: "shokz-openrun-pro-2", name: "Shokz OpenRun Pro 2", verdict: ", open ears for safety, 12-hour battery, fits any gear." },
-              { context: "No-compromise workout earbuds", id: "jabra-elite-8-active-gen-2", name: "Jabra Elite 8 Active Gen 2", verdict: ", IP68 plus MIL-STD, best-in-class ANC, wireless charging case." },
+              { context: "No-compromise workout earbuds", id: "jabra-elite-8-active-gen-2", name: "Jabra Elite 8 Active Gen 2", verdict: ", IP68 plus MIL-STD, best-in-class ANC, wireless charging case." }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

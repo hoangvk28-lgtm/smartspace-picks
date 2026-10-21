@@ -139,7 +139,7 @@ export default async function BestVerticalMacBookStandsPage() {
     about: [
       { "@type": "Thing", name: "Vertical MacBook Stand" },
       { "@type": "Thing", name: "Desk Accessories" },
-      { "@type": "Thing", name: "MacBook Clamshell Mode" },
+      { "@type": "Thing", name: "MacBook Clamshell Mode" }
     ],
   };
 
@@ -149,7 +149,7 @@ export default async function BestVerticalMacBookStandsPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Vertical MacBook Stands", item: `${SITE_URL}/guide/best-vertical-macbook-stands` },
+      { "@type": "ListItem", position: 3, name: "Best Vertical MacBook Stands", item: `${SITE_URL}/guide/best-vertical-macbook-stands` }
     ],
   };
 
@@ -316,7 +316,7 @@ export default async function BestVerticalMacBookStandsPage() {
               <p className="text-sm text-ink-secondary">
                 <strong className="text-ink">best MacBook stand:</strong>{" "}
                 <a href="#omoton-single" className="font-bold text-ink hover:text-brand transition-colors">OMOTON Aluminum Vertical Laptop Stand</a>
-                 - 4.8 stars, lifetime warranty and universal fit for all MacBook models.
+                 - Lifetime warranty and universal fit for all MacBook models.
               </p>
             </div>
             <p className="text-sm text-ink-secondary pl-5">See the full rankings above for all eight picks with pros, cons, and best-for summaries.</p>

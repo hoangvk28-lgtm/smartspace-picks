@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $299.99",
+          "Under $300",
           "HUION KAMVAS 22"
         ],
         [
-          "Around $429.99",
+          "Under $450",
           "XPPen Artist 22R Pro Computer Graphics Tablet"
         ],
         [
-          "Around $429.99",
+          "Under $450",
           "XPPen Artist 22 Plus"
         ],
         [
-          "Around $679.15",
+          "Under $700",
           "XENCELABS Pen Display 16 Lite"
         ],
         [
-          "Around $939.99",
+          "Under $950",
           "XPPen Artist Pro 24 Gen2"
         ],
         [
-          "Around $1,061.65",
+          "Under $1,100",
           "Xencelabs Pen Display 16 Bundle with Quick Keys"
         ],
         [
-          "Around $1,299.95",
+          "Under $1,300",
           "Wacom Cintiq 24"
         ],
         [
-          "Around $1,499.95",
+          "Under $1,500",
           "Wacom Cintiq 24 Touch"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "XENCELABS Pen Display 16 Lite is aimed at buyers prioritizing 16in 4k oled, 1.07 billion colors." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "XENCELABS Pen Display 16 Lite is aimed at buyers prioritizing 16in 4k oled, 1.07 billion colors." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-affordable-drawing-tablets","title":"Best Affordable Drawing Tablets in 2026"},{"href":"/guide/best-budget-drawing-tablets","title":"Best Budget Drawing Tablets in 2026"},{"href":"/guide/best-cheap-drawing-tablets","title":"Best Cheap Drawing Tablets in 2026"}];

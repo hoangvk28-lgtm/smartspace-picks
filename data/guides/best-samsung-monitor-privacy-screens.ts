@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "samsung monitor privacy screen";
 export const introParagraphs = [
   "Samsung does not manufacture standalone monitor privacy filters as a product line. Every product here is a third-party filter sized to fit common Samsung monitor dimensions, from flat business displays to curved Odyssey gaming monitors.",
-  "We matched flat-monitor picks to Samsung's common 24 and 27 inch business sizes, and pointed curved Odyssey owners to our dedicated curved and 49 inch guides, since those monitors need a fundamentally different filter shape.",
+  "We matched flat-monitor picks to Samsung's common 24 and 27 inch business sizes, and pointed curved Odyssey owners to our dedicated curved and 49 inch guides, since those monitors need a fundamentally different filter shape."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified Samsung does not manufacture privacy filters", description: "We confirmed all results here are third-party filters and did not imply Samsung branding or certification unless the listing explicitly and specifically claimed it." },
   { title: "Distinguished flat business monitors from curved Odyssey gaming monitors", description: "Samsung sells both types, which need fundamentally different filter shapes; this guide focuses on flat models and cross-links to curved-specific guides." },
   { title: "Weighed hanging mounts for Samsung's thin-bezel designs", description: "We noted where a hanging-hook mount suits Samsung's minimal-bezel business monitors better than a traditional tab clip." },
-  { title: "Matched picks to Samsung's common flat monitor sizes", description: "We organized picks around Samsung's most common 24 and 27 inch flat business monitor sizes." },
+  { title: "Matched picks to Samsung's common flat monitor sizes", description: "We organized picks around Samsung's most common 24 and 27 inch flat business monitor sizes." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -249,7 +249,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
-    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nThis matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
   }
 ];
 
@@ -258,11 +258,11 @@ export const faq: FaqItem[] = [
   { q: "Does this guide cover curved Odyssey gaming monitors?", a: "No, this guide covers flat 16:9 Samsung monitors. For curved Odyssey models, check our dedicated curved and 49-inch curved monitor privacy screen guides." },
   { q: "What's the best option for a thin-bezel Samsung monitor?", a: "The [2-Pack] 24 Inch Privacy Screen, Hanging Removable, which grips a wider range of bezel shapes than a traditional clip." },
   { q: "What's the best option for a 27 inch Samsung monitor?", a: "The Peslv [2-Pack] 27 Inch Privacy Screen, with the largest review base at this size in our research." },
-  { q: "How do I know my Samsung monitor's exact dimensions?", a: "Check the model number on the rear label or Samsung's support site and look up the active display width and height directly." },
+  { q: "How do I know my Samsung monitor's exact dimensions?", a: "Check the model number on the rear label or Samsung's support site and look up the active display width and height directly." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-49-inch-curved-monitor-privacy-screens", title: "Best 49-Inch Curved Monitor Privacy Screens (2026)" },
   { href: "/guide/best-curved-monitor-privacy-screens", title: "Best Curved Monitor Privacy Screens (2026)" },
-  { href: "/guide/best-monitor-privacy-screens", title: "Best Monitor Privacy Screens (2026)" },
+  { href: "/guide/best-monitor-privacy-screens", title: "Best Monitor Privacy Screens (2026)" }
 ];

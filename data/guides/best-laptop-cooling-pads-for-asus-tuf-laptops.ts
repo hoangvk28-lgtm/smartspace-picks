@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop cooling pads for ASUS TUF laptops";
 export const introParagraphs = [
   "ASUS TUF is ASUS's mid-tier gaming sub-line, heavier and hotter under load than an ultrabook but generally more affordable than the premium ROG series. This guide is a narrower, more specific complement to our broader best-laptop-cooling-pads-for-asus-laptops guide, focused specifically on the chassis weight and sustained heat profile TUF models actually have rather than a generic ASUS recommendation.",
-  "None of the picks below are TUF-exclusive hardware. They are universal-fit multi-fan cooling pads, so fit depends on checking each pad's stated size, weight capacity, and fan placement against your specific TUF model rather than assuming any pad will work. If you want the full range of gaming-focused options beyond TUF, our best-gaming-laptop-cooling-pads guide covers that broader category.",
+  "None of the picks below are TUF-exclusive hardware. They are universal-fit multi-fan cooling pads, so fit depends on checking each pad's stated size, weight capacity, and fan placement against your specific TUF model rather than assuming any pad will work. If you want the full range of gaming-focused options beyond TUF, our best-gaming-laptop-cooling-pads guide covers that broader category."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -156,7 +156,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "TUF's mid-tier heat and weight profile", description: "We evaluated each pad against TUF's actual chassis weight and sustained gaming heat output, which sits between a light ultrabook and ASUS's premium ROG line, rather than treating all ASUS laptops as one category." },
   { title: "Rear-exhaust airflow compatibility", description: "We prioritized pads whose bottom air-intake design is explicitly built for rear-exhaust gaming laptops, a layout common to TUF chassis." },
   { title: "Documented cooling evidence", description: "We weighted pads with a stated, specific temperature drop under CPU and GPU load higher than pads with only a vague cooling claim." },
-  { title: "Noise and price tradeoffs at TUF's heat level", description: "We compared noise ratings and price against the airflow actually needed for TUF's mid-tier gaming heat, rather than defaulting to the loudest, most expensive option." },
+  { title: "Noise and price tradeoffs at TUF's heat level", description: "We compared noise ratings and price against the airflow actually needed for TUF's mid-tier gaming heat, rather than defaulting to the loudest, most expensive option." }
 ];
 
 export const howToChoose: HowToChooseSection[] = [
@@ -291,11 +291,11 @@ export const faq: FaqItem[] = [
   { q: "Do TUF laptops need more cooling than ASUS ultrabooks?", a: "Generally yes, since TUF is a gaming sub-line that produces more sustained heat under load than a typical ASUS ultrabook, though the exact need still depends on your specific model and workload." },
   { q: "Is TUF's cooling need the same as ROG's?", a: "Not necessarily. ROG is ASUS's premium gaming line and can run even hotter or heavier depending on the model, so a pad sized for TUF may not be the strongest option for a higher-end ROG chassis." },
   { q: "Will a universal cooling pad actually fit my TUF laptop?", a: "Most likely, since TUF chassis fall within common laptop size ranges, but always check the pad's stated footprint and weight capacity against your specific TUF model before buying." },
-  { q: "Why do some cooling pads mention rear-exhaust laptops specifically?", a: "TUF and similar gaming laptops often exhaust heat from the rear of the chassis. A pad designed with bottom air intake for rear-exhaust laptops aligns better with that airflow path than a pad built for a different vent layout." },
+  { q: "Why do some cooling pads mention rear-exhaust laptops specifically?", a: "TUF and similar gaming laptops often exhaust heat from the rear of the chassis. A pad designed with bottom air intake for rear-exhaust laptops aligns better with that airflow path than a pad built for a different vent layout." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-cooling-pads-for-asus-laptops", title: "Best Laptop Cooling Pads for ASUS Laptops (2026)" },
   { href: "/guide/best-gaming-laptop-cooling-pads", title: "Best Gaming Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" }
 ];

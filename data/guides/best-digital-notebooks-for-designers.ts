@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook for designers";
 export const introParagraphs = [
   "Worth saying upfront: none of the digital notebook devices in our research pool are specifically marketed or optimized for design and illustration work. These are note-taking devices with e-ink screens, not pressure-sensitive drawing tablets built for professional illustration. Designers who need a dedicated drawing surface should look at a graphics tablet, a genuinely different product category outside the scope of this guide.",
-  "What we've included here are the e-ink devices in this pool with the best stated drawing or sketching capability, appropriate for designers who want rough sketching, note-taking, and idea capture rather than production-quality illustration work.",
+  "What we've included here are the e-ink devices in this pool with the best stated drawing or sketching capability, appropriate for designers who want rough sketching, note-taking, and idea capture rather than production-quality illustration work."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Honest scope check performed before ranking anything", description: "Confirmed upfront that no product in this research pool is marketed as a dedicated illustration or graphics tablet, and framed every pick accordingly rather than overstating design capability." },
   { title: "Color and screen size weighed as the best available proxy for sketch quality", description: "Since none of these are true design tools, used color display and larger screen size as the closest available signal for sketching usefulness within this pool." },
   { title: "Note-taking vs illustration use case kept explicit throughout", description: "Every pick description distinguishes between rough sketching or idea capture and production-quality illustration work, which none of these devices are built for." },
-  { title: "Android app flexibility credited where relevant", description: "Noted where Android-based devices can install additional sketching apps, a modest but real advantage over closed single-purpose interfaces." },
+  { title: "Android app flexibility credited where relevant", description: "Noted where Android-based devices can install additional sketching apps, a modest but real advantage over closed single-purpose interfaces." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -258,11 +258,11 @@ export const faq: FaqItem[] = [
   { q: "Is a digital notebook a good drawing tablet for designers?", a: "Not really for production work, these are note-taking devices with e-ink screens, not dedicated illustration tablets. For professional drawing, look at a dedicated graphics tablet with an LCD or OLED display instead." },
   { q: "Can I sketch rough ideas on a digital notebook?", a: "Yes, they work reasonably well for rough concept sketches, idea capture, and mood notes, just not for detailed or production-quality illustration." },
   { q: "Why isn't e-ink good for detailed illustration work?", a: "E-ink screens have a slower refresh rate and more limited color depth than an LCD or OLED graphics tablet, making fast, detailed drawing work more difficult." },
-  { q: "What should a designer buy instead if they need real drawing capability?", a: "A dedicated graphics tablet built for illustration, a genuinely different product category from the note-taking digital notebooks covered in this guide." },
+  { q: "What should a designer buy instead if they need real drawing capability?", a: "A dedicated graphics tablet built for illustration, a genuinely different product category from the note-taking digital notebooks covered in this guide." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-color-digital-notebooks", title: "Best Color Digital Notebooks (2026)" },
   { href: "/guide/best-e-ink-digital-notebooks", title: "Best E-Ink Digital Notebooks (2026)" },
-  { href: "/guide/best-digital-notebooks-for-professionals", title: "Best Digital Notebooks for Professionals (2026)" },
+  { href: "/guide/best-digital-notebooks-for-professionals", title: "Best Digital Notebooks for Professionals (2026)" }
 ];

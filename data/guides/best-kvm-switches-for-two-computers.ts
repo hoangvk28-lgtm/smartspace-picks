@@ -5,7 +5,7 @@ export const metaDescription = "5 KVM switches for two computers we evaluated, w
 export const mainKeyword = "kvm switch for two computers";
 export const introParagraphs = [
   "Switching methods vary between models, hotkey combinations can occasionally conflict with a specific application's own keyboard shortcuts, worth checking whether a switch offers an alternative physical button or auto-detect method if hotkey conflicts become a problem in your workflow.",
-  "A two-computer KVM switch is one of the simplest KVM categories, but still verify EDID emulation and USB peripheral switching scope, since even a simple two-computer switch can shortchange these features at a lower price point.",
+  "A two-computer KVM switch is one of the simplest KVM categories, but still verify EDID emulation and USB peripheral switching scope, since even a simple two-computer switch can shortchange these features at a lower price point."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     badge: "Best KVM Switch for Two Computers Overall",
     name: "TIGKTING USB 3.0 HDMI KVM Switch 1 Monitors 2 Computers 4K60Hz KVM Switches 2 Ports for 2 PC 1 Monitor",
     price: "$29.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41EdJsfqo4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H2YVL93R?tag=deskfinds0d-20",
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     badge: "Best High-Resolution Pick for Two Computers",
     name: "UGREEN HDMI KVM Switch 1 Monitor 2 Computers, 8K@60Hz, Aluminum",
     price: "$64.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41K5Wvne7oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFFCPL26?tag=deskfinds0d-20",
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     badge: "Best Pick for Buyers Who Might Add More Computers",
     name: "USB3.0 KVM Switch HDMI 4K@60Hz for 4 Computers Share 1 Monitor, KVM Switch 4 Port with 3 USB",
     price: "$64.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51+oSuyEu7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BWNDX4VL?tag=deskfinds0d-20",
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick for Two Computers",
     name: "USB3.0 KVM Switch 2 Port HDMI, 4K@60Hz KVM Switch 1 Monitors 2 Computers with 3 USB3.0 Ports",
     price: "$32.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41uSOQO2ILL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFVBK4XQ?tag=deskfinds0d-20",
@@ -89,7 +89,7 @@ export const products: GuideProduct[] = [
     badge: "Best Ultra-Budget Pick for Two Computers",
     name: "Hearvo USB 3.0 HDMI KVM Switch for 2 Computers 1 Monitor, 4K@60Hz, S7232H",
     price: "$26.23",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41ll9M3dnWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5D4FK1H?tag=deskfinds0d-20",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Switching method conflicts with app hotkeys considered", description: "Considered that hotkey-based switching can occasionally conflict with an application's own keyboard shortcuts, checking for alternative switching methods where relevant." },
   { title: "EDID emulation and USB scope verified even for simple two-computer switches", description: "Verified that EDID emulation and USB peripheral switching scope aren't shortchanged even on simpler, budget-friendly two-computer switches." },
   { title: "Expansion room valued for buyers who might grow beyond two computers", description: "Valued switches supporting more than two computers for buyers who might expand their setup without needing to buy a new switch." },
-  { title: "Price-to-simplicity ratio weighed for the most common KVM use case", description: "Weighed price against genuine feature value for the straightforward, most common two-computer, one-monitor KVM use case." },
+  { title: "Price-to-simplicity ratio weighed for the most common KVM use case", description: "Weighed price against genuine feature value for the straightforward, most common two-computer, one-monitor KVM use case." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Should I buy a switch that supports more than two computers?", a: "If you might expand your setup later, a switch supporting more computers gives room to grow without buying a new one." },
   { q: "Is a budget two-computer KVM switch good enough for most people?", a: "For the most common simple use case, yes, a budget-friendly switch often covers the need well without needing premium features." },
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers with a straightforward two-computer, one-monitor setup wanting simplicity and value" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting the most affordable simple two-computer KVM switch At $26.23, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting the most affordable simple two-computer KVM switch At under $30, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-2-port-kvm-switches", title: "Best 2-Port KVM Switches (2026)" },
   { href: "/guide/best-kvm-switches-for-two-laptops", title: "Best KVM Switches for Two Laptops (2026)" },
-  { href: "/guide/best-kvm-switches-with-hotkey-switching", title: "Best KVM Switches with Hotkey Switching (2026)" },
+  { href: "/guide/best-kvm-switches-with-hotkey-switching", title: "Best KVM Switches with Hotkey Switching (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable outdoor office pods";
 export const introParagraphs = [
   "We reviewed the titles and descriptions of all nine verified office pod listings in this niche and found exactly one that explicitly claims indoor and outdoor use. We're not padding this list with indoor-only pods relabeled as outdoor-capable, verified outdoor-rated pods are genuinely rare on Amazon right now, and that scarcity itself is useful information before you shop.",
-  "An \"indoor and outdoor\" claim in a title is not the same as a documented weatherproof rating, before installing any pod outdoors, verify directly with the seller what weatherproofing standard it meets, how electrical components are protected from moisture, whether a foundation or anchoring system is included, and whether your local building code requires a permit for an outdoor structure of this size.",
+  "An \"indoor and outdoor\" claim in a title is not the same as a documented weatherproof rating, before installing any pod outdoors, verify directly with the seller what weatherproofing standard it meets, how electrical components are protected from moisture, whether a foundation or anchoring system is included, and whether your local building code requires a permit for an outdoor structure of this size."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "7 min";
@@ -36,7 +36,7 @@ export const products: GuideProduct[] = [
     pros: ["Only product in this research pool whose title explicitly claims outdoor use", "Multipurpose framing suits both meetings and general home office work", "Acoustic-focused interior design", "No star rating or review count to independently verify against the marketing copy"],
     cons: ["No star rating or review count available from Amazon", "No documented weatherproof rating, electrical safety spec, or anchoring system disclosed", "Price not returned by the listing data, check current Amazon price directly"],
     bestFor: "Buyers specifically wanting the one listing in this niche that explicitly states indoor and outdoor use, pending their own weatherproofing verification with the seller.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -44,7 +44,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Outdoor claims checked against actual title language", description: "Reviewed all nine verified listings in this niche and confirmed only one explicitly states indoor and outdoor use, we did not extend that claim to any other product." },
   { title: "Weatherproofing treated as unverified until confirmed", description: "Did not assume a documented weatherproof rating exists just because \"outdoor\" appears in a title, no listing in this niche discloses a specific weatherproofing standard." },
   { title: "Safety-relevant gaps flagged explicitly", description: "Flagged electrical safety, foundation/anchoring, and local permit requirements as buyer responsibilities to verify directly, since none of that is addressed in the listing." },
-  { title: "No padding with indoor-only products", description: "Chose not to list indoor-only pods as \"outdoor-capable\" options to hit a target product count, a single honestly-qualified pick is more useful than a padded list." },
+  { title: "No padding with indoor-only products", description: "Chose not to list indoor-only pods as \"outdoor-capable\" options to hit a target product count, a single honestly-qualified pick is more useful than a padded list." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -163,11 +163,11 @@ export const faq: FaqItem[] = [
   { q: "Are there multiple outdoor-rated office pods available on Amazon?", a: "No, our research found only one verified listing in this niche that explicitly claims indoor and outdoor use, genuinely outdoor-rated pods are rare in this category right now." },
   { q: "Does \"indoor and outdoor\" in the title mean it's weatherproof-tested?", a: "Not necessarily, no listing in this niche discloses a specific weatherproofing standard, confirm directly with the seller before an outdoor installation." },
   { q: "Do I need a permit to install an office pod outdoors?", a: "Possibly, depending on your local building code, check with your local building department before installation since the listing doesn't address this." },
-  { q: "Is it safe to run electricity to an outdoor office pod?", a: "Confirm with the seller how electrical components are protected from moisture, this is a real safety consideration not addressed in the listing." },
+  { q: "Is it safe to run electricity to an outdoor office pod?", a: "Confirm with the seller how electrical components are protected from moisture, this is a real safety consideration not addressed in the listing." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-office-pods", title: "Best Portable Office Pods (2026)" },
   { href: "/guide/best-home-office-booths", title: "Best Home Office Booths (2026)" },
-  { href: "/guide/best-office-pods-for-remote-work", title: "Best Office Pods for Remote Work (2026)" },
+  { href: "/guide/best-office-pods-for-remote-work", title: "Best Office Pods for Remote Work (2026)" }
 ];

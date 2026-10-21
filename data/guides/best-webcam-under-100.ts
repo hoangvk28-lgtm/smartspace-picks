@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31kikbnutzL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GCYZVCSD?tag=deskfinds0d-20",
-    "description": "NexiGo N680E Pro 4K Webcam with Ring Light is built around unmatched 4k streaming quality, paired with pdaf autofocus & enhanced audio clarity, positioning it as a webcam built for clear video calls and streaming rather than casual occasional use.\n\nIt lands between EMEET S600 4K Webcam for Streaming's $53.17 price floor and Logitech StreamCam Premium Webcam for Streaming and Content Creation's $99.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nNexiGo N680E Pro 4K Webcam with Ring Light is the right call for buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "NexiGo N680E Pro 4K Webcam with Ring Light is built around unmatched 4k streaming quality, paired with pdaf autofocus & enhanced audio clarity, positioning it as a webcam built for clear video calls and streaming rather than casual occasional use.\n\nIt lands between EMEET S600 4K Webcam for Streaming's under $60 price floor and Logitech StreamCam Premium Webcam for Streaming and Content Creation's under $100 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nNexiGo N680E Pro 4K Webcam with Ring Light is the right call for buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Unmatched 4K Streaming Quality",
       "PDAF Autofocus & Enhanced Audio Clarity",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41MO7oLvXTL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H5QGQYTP?tag=deskfinds0d-20",
-    "description": "NexiGo N960E Plus 4K Webcam with Ring Light & RF Remote is built around ultra hd 4k & fluid 60 fps streaming, paired with instant tof autofocus that keeps you sharp, positioning it as a webcam built for clear video calls and streaming rather than casual occasional use.\n\nIt lands between EMEET S600 4K Webcam for Streaming's $53.17 price floor and Logitech StreamCam Premium Webcam for Streaming and Content Creation's $99.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nNexiGo N960E Plus 4K Webcam with Ring Light & RF Remote is the right call for buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "NexiGo N960E Plus 4K Webcam with Ring Light & RF Remote is built around ultra hd 4k & fluid 60 fps streaming, paired with instant tof autofocus that keeps you sharp, positioning it as a webcam built for clear video calls and streaming rather than casual occasional use.\n\nIt lands between EMEET S600 4K Webcam for Streaming's under $60 price floor and Logitech StreamCam Premium Webcam for Streaming and Content Creation's under $100 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nNexiGo N960E Plus 4K Webcam with Ring Light & RF Remote is the right call for buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Ultra HD 4K & Fluid 60 fps Streaming",
       "Instant ToF Autofocus That Keeps You Sharp",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41LjzX+rhnL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07TZT4Q89?tag=deskfinds0d-20",
-    "description": "Logitech StreamCam Premium Webcam for Streaming and Content Creation is built around compatible with nintendo switch 2's, paired with full hd 1080p at 60 fps, positioning it as a webcam built for clear video calls and streaming rather than casual occasional use.\n\nSitting at $99.99, the top of this comparison's price range, it asks buyers to confirm the added capability is actually worth it over the more affordable picks here before paying the premium.\n\nLogitech StreamCam Premium Webcam for Streaming and Content Creation is the right call for buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "Logitech StreamCam Premium Webcam for Streaming and Content Creation is built around compatible with nintendo switch 2's, paired with full hd 1080p at 60 fps, positioning it as a webcam built for clear video calls and streaming rather than casual occasional use.\n\nSitting at under $100, the top of this comparison's price range, it asks buyers to confirm the added capability is actually worth it over the more affordable picks here before paying the premium.\n\nLogitech StreamCam Premium Webcam for Streaming and Content Creation is the right call for buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Compatible with Nintendo Switch 2's",
       "Full HD 1080p at 60 fps",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41zudY7PNYL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0BRKGMYBR?tag=deskfinds0d-20",
-    "description": "Angetube 4K AI Webcam for PC leads with ai tracking and advanced framing technology, backed by computer camera with advanced sensor technology, a combination aimed at as a webcam built for clear video calls and streaming rather than casual occasional use.\n\nCompared to EMEET S600 4K Webcam for Streaming at $53.17, it costs more for real added capability, while sitting well below Logitech StreamCam Premium Webcam for Streaming and Content Creation at $99.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "Angetube 4K AI Webcam for PC leads with ai tracking and advanced framing technology, backed by computer camera with advanced sensor technology, a combination aimed at as a webcam built for clear video calls and streaming rather than casual occasional use.\n\nCompared to EMEET S600 4K Webcam for Streaming at under $60, it costs more for real added capability, while sitting well below Logitech StreamCam Premium Webcam for Streaming and Content Creation at under $100 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "AI Tracking and Advanced Framing Technology",
       "Computer Camera with Advanced Sensor Technology",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41BDRjuWuvL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B006JH8T3S?tag=deskfinds0d-20",
-    "description": "What stands out on Logitech HD Pro Webcam C920 is full hd 1080p, alongside widescreen video calling and recording, which is the main reason it earns a spot in this webcams comparison.\n\nCompared to EMEET S600 4K Webcam for Streaming at $53.17, it costs more for real added capability, while sitting well below Logitech StreamCam Premium Webcam for Streaming and Content Creation at $99.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "What stands out on Logitech HD Pro Webcam C920 is full hd 1080p, alongside widescreen video calling and recording, which is the main reason it earns a spot in this webcams comparison.\n\nCompared to EMEET S600 4K Webcam for Streaming at under $60, it costs more for real added capability, while sitting well below Logitech StreamCam Premium Webcam for Streaming and Content Creation at under $100 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Full HD 1080p",
       "Widescreen Video Calling and Recording",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41FyP4WzKsL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CQJVSL1Z?tag=deskfinds0d-20",
-    "description": "Acer 4K Webcam for PC/Mac with All-Metal Unibody Sculpted is built around [4k premium image quality] with, paired with [so precise, it feels premium], positioning it as a webcam built for clear video calls and streaming rather than casual occasional use.\n\nCompared to EMEET S600 4K Webcam for Streaming at $53.17, it costs more for real added capability, while sitting well below Logitech StreamCam Premium Webcam for Streaming and Content Creation at $99.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "Acer 4K Webcam for PC/Mac with All-Metal Unibody Sculpted is built around [4k premium image quality] with, paired with [so precise, it feels premium], positioning it as a webcam built for clear video calls and streaming rather than casual occasional use.\n\nCompared to EMEET S600 4K Webcam for Streaming at under $60, it costs more for real added capability, while sitting well below Logitech StreamCam Premium Webcam for Streaming and Content Creation at under $100 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "[4K Premium Image Quality] With",
       "[So Precise, It Feels Premium]",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41AodZWBSsL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0G6L2WHKG?tag=deskfinds0d-20",
-    "description": "EMEET S600L 4K Webcam for Streaming with Light is built around advanced imaging & ring light, paired with 1/2.0\" sensor-driven professional 4k imaging, positioning it as a webcam built for clear video calls and streaming rather than casual occasional use.\n\nCompared to EMEET S600 4K Webcam for Streaming at $53.17, it costs more for real added capability, while sitting well below Logitech StreamCam Premium Webcam for Streaming and Content Creation at $99.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "EMEET S600L 4K Webcam for Streaming with Light is built around advanced imaging & ring light, paired with 1/2.0\" sensor-driven professional 4k imaging, positioning it as a webcam built for clear video calls and streaming rather than casual occasional use.\n\nCompared to EMEET S600 4K Webcam for Streaming at under $60, it costs more for real added capability, while sitting well below Logitech StreamCam Premium Webcam for Streaming and Content Creation at under $100 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Advanced Imaging & Ring Light",
       "1/2.0\" Sensor-Driven Professional 4K Imaging",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31wvP5Y4zyL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CYQ5P6T7?tag=deskfinds0d-20",
-    "description": "EMEET S600 4K Webcam for Streaming is built around unmatched 4k streaming quality, paired with advanced pdaf autofocus & light, positioning it as a webcam built for clear video calls and streaming rather than casual occasional use.\n\nPriced at $53.17, the lowest in this lineup, it trades some of the extras found on pricier picks here for a lower upfront cost, a reasonable tradeoff if your needs are basic.\n\nEMEET S600 4K Webcam for Streaming is the right call for buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "EMEET S600 4K Webcam for Streaming is built around unmatched 4k streaming quality, paired with advanced pdaf autofocus & light, positioning it as a webcam built for clear video calls and streaming rather than casual occasional use.\n\nPriced at under $60, the lowest in this lineup, it trades some of the extras found on pricier picks here for a lower upfront cost, a reasonable tradeoff if your needs are basic.\n\nEMEET S600 4K Webcam for Streaming is the right call for buyers who want reliably clear video for calls or streaming without stepping up to a dedicated camera setup. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Unmatched 4K Streaming Quality",
       "Advanced PDAF Autofocus & Light",
@@ -325,35 +325,35 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $53.17",
+          "Under $60",
           "EMEET S600 4K Webcam for Streaming"
         ],
         [
-          "Around $53.19",
+          "Under $60",
           "EMEET S600L 4K Webcam for Streaming with Light"
         ],
         [
-          "Around $56.37",
+          "Under $60",
           "Acer 4K Webcam for PC/Mac with All-Metal Unibody Sculpted"
         ],
         [
-          "Around $67.20",
+          "Under $70",
           "Logitech HD Pro Webcam C920"
         ],
         [
-          "Around $87.99",
+          "Under $90",
           "Angetube 4K AI Webcam for PC"
         ],
         [
-          "Around $99.99",
+          "Under $100",
           "NexiGo N680E Pro 4K Webcam with Ring Light"
         ],
         [
-          "Around $99.99",
+          "Under $100",
           "NexiGo N960E Plus 4K Webcam with Ring Light & RF Remote"
         ],
         [
-          "Around $99.99",
+          "Under $100",
           "Logitech StreamCam Premium Webcam for Streaming and Content Creation"
         ]
       ]
@@ -364,11 +364,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "EMEET S600 4K Webcam for Streaming",
-        "text": "The lowest-priced pick in this comparison at $53.17, a solid choice if you don't need the extras the pricier picks carry."
+        "text": "The lowest-priced pick in this comparison at under $60, a solid choice if you don't need the extras the pricier picks carry."
       },
       {
         "label": "Logitech StreamCam Premium Webcam for Streaming and Content Creation",
-        "text": "The highest-priced pick at $99.99, worth it only if you'll actually use what that premium buys."
+        "text": "The highest-priced pick at under $100, worth it only if you'll actually use what that premium buys."
       }
     ],
     "note": "Default to EMEET S600 4K Webcam for Streaming unless the pricier pick's specific advantage genuinely applies to your situation."
@@ -428,7 +428,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "What's the real difference between the cheapest and most expensive pick here?",
-    "a": "EMEET S600 4K Webcam for Streaming at $53.17 covers the basics, while Logitech StreamCam Premium Webcam for Streaming and Content Creation at $99.99 adds higher resolution, a ring light, or more advanced autofocus. Whether that's worth the difference depends on whether you're on video calls in low light or stream regularly, where the extra capability shows up, versus occasional daylight calls where it won't."
+    "a": "EMEET S600 4K Webcam for Streaming at under $60 covers the basics, while Logitech StreamCam Premium Webcam for Streaming and Content Creation at under $100 adds higher resolution, a ring light, or more advanced autofocus. Whether that's worth the difference depends on whether you're on video calls in low light or stream regularly, where the extra capability shows up, versus occasional daylight calls where it won't."
   },
   {
     "q": "Do I need 4K for video calls, or is 1080p enough?",
@@ -440,7 +440,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "Is there a solid middle-ground pick in this price range?",
-    "a": "Angetube 4K AI Webcam for PC at $87.99 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
+    "a": "Angetube 4K AI Webcam for PC at under $90 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
   },
   {
     "q": "What's the most common mistake buyers make shopping webcams under $100?",

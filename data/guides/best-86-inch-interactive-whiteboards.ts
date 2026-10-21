@@ -232,11 +232,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "JASZDOT 86in Smart Board",
-        "text": "JASZDOT 86in Smart Board is aimed at buyers prioritizing 86in 4k, android 14, 400+ nits At $2,499.00, it's the lowest-cost pick in this comparison."
+        "text": "JASZDOT 86in Smart Board is aimed at buyers prioritizing 86in 4k, android 14, 400+ nits At under $2,500, it's the lowest-cost pick in this comparison."
       },
       {
         "label": "LINGHUFOX 86in Dual-System Smart Board",
-        "text": "LINGHUFOX 86in Dual-System Smart Board is aimed at buyers prioritizing 86in 4k, windows 11 pro i5-13450hx + android 13 At $3,894.04, it sits at the higher end of this comparison's price range."
+        "text": "LINGHUFOX 86in Dual-System Smart Board is aimed at buyers prioritizing 86in 4k, windows 11 pro i5-13450hx + android 13 At under $3,900, it sits at the higher end of this comparison's price range."
       }
     ],
     "note": "Most buyers should default to JASZDOT 86in Smart Board unless the pricier pick's specific advantage applies to your situation."
@@ -280,7 +280,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "JASZDOT 86in Smart Board Buyers prioritizing 86in 4k, android 14, 400+ nits. JYXOIHUB 86in Dual-System Smart Board Buyers prioritizing 86in 4k, dual android + windows ops."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -332,7 +332,7 @@ export const faq = [
     "a": "A 75-inch or larger panel commonly weighs 80 to 150+ pounds depending on the model. Confirm your wall has proper stud backing or use a VESA-compatible mobile stand rated for that weight, and consider professional installation at this size rather than a DIY wall mount."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", "a": "JASZDOT 86in Smart Board is aimed at buyers prioritizing 86in 4k, android 14, 400+ nits" },
+  { "q": "What's the single best pick to come out of this comparison?", "a": "JASZDOT 86in Smart Board is aimed at buyers prioritizing 86in 4k, android 14, 400+ nits" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-98-inch-interactive-whiteboards","title":"5 Best 98-Inch Interactive Whiteboards"},{"href":"/guide/best-85-inch-interactive-whiteboards","title":"8 Best 85-Inch Interactive Whiteboards"},{"href":"/guide/best-large-interactive-whiteboards","title":"7 Best Large Interactive Whiteboards"}];

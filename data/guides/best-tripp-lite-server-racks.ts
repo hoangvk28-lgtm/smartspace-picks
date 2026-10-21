@@ -113,16 +113,16 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $797.93",
+          "Under $800",
           "Tripp Lite 18U Wall Mount Rack Enclosure"
         ],
         [
-          "Around $1,605.59",
+          "Under $1,700",
           "TRIPP LITE 42U Server Rack Enclosure Cabinet"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [

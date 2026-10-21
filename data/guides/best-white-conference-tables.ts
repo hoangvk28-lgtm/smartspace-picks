@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 6.5 FT Conference Room Table measures 6.5 FT and is built around spacious conference table, positioning it for white buyers specifically.\n\nRobust Construction is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for white, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["6.5 FT table dimensions","Spacious Conference Table","Robust Construction"],
     pros: ["Spacious Conference Table, confirmed directly in the listing's own spec details","Robust Construction, confirmed directly in the listing's own spec details","Multipurpose Use, confirmed directly in the listing's own spec details"],
-    cons: ["At $189.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $190, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for white",
   },
   {
@@ -126,7 +126,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 6.5FT Conference Table for 6-8 People measures 6.5FT and is built around robust metal frame for enhanced stability, positioning it for white buyers specifically.\n\nPremium Scratch-Resistant Desktop is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for white, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["6.5FT table dimensions","Robust Metal Frame for Enhanced Stability","Premium Scratch-Resistant Desktop"],
     pros: ["Robust Metal Frame for Enhanced Stability, confirmed directly in the listing's own spec details","Premium Scratch-Resistant Desktop, confirmed directly in the listing's own spec details","Sleek Modern Aesthetic for Any Workspace, confirmed directly in the listing's own spec details"],
-    cons: ["At $189.41, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $190, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for white",
   },
   {
@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns Conference Table and is built around sturdy construction, positioning it for white buyers specifically.\n\nLarge Size is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for white, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Sturdy Construction","Large Size","Foot Pads"],
     pros: ["Sturdy Construction, confirmed directly in the listing's own spec details","Large Size, confirmed directly in the listing's own spec details","Foot Pads, confirmed directly in the listing's own spec details"],
-    cons: ["At $189.62, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $190, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for white",
   }
 
@@ -210,40 +210,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $173.79",
+          "Under $180",
           "Loomie 8FT Boat-Shaped Conference Table with Grommet"
         ],
         [
-          "Around $189.41",
+          "Under $190",
           "Tribesigns 6.5FT Conference Table for 6-8 People"
         ],
         [
-          "Around $189.62",
+          "Under $190",
           "Tribesigns Conference Table"
         ],
         [
-          "Around $189.99",
+          "Under $190",
           "Tribesigns 6.5FT Conference Table"
         ],
         [
-          "Around $189.99",
+          "Under $190",
           "Tribesigns 6.5FT Conference Table for 6-8"
         ],
         [
-          "Around $189.99",
+          "Under $190",
           "Tribesigns 6.5 FT Conference Room Table"
         ],
         [
-          "Around $204.99",
+          "Under $250",
           "Tangkula 8FT Conference Table"
         ],
         [
-          "Around $379.99",
+          "Under $400",
           "Tribesigns 8FT Conference Table for 10"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -291,7 +291,7 @@ export const faq = [
     "a": "Not inherently. High-density MDF and particle board with a laminate or melamine finish are standard in this category and hold up well to daily commercial use. Solid wood, veneer over engineered wood, or steel-reinforced builds cost more and matter most where long-term durability or a premium look is the priority."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns 6.5FT Conference Table is aimed at buyers prioritizing 78.74\"l x 27.56\"w x 29.53\"h, white finish." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns 6.5FT Conference Table is aimed at buyers prioritizing 78.74\"l x 27.56\"w x 29.53\"h, white finish." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-modern-conference-tables","title":"Best Modern Conference Tables in 2026"},{"href":"/guide/best-black-conference-tables","title":"Best Black Conference Tables in 2026"},{"href":"/guide/best-executive-conference-tables","title":"Best Executive Conference Tables in 2026"}];

@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Newest firmware, touchscreen control", "GL.iNet GL-BE3600 Slate 7"],
         ["Highest VPN throughput", "GL.iNet GL-MT3600BE Beryl 7"],
         ["OpenWrt with lower price, Wi-Fi 6", "GL.iNet GL-MT3000 Beryl AX"],
-        ["Smallest size, lowest price", "GL.iNet GL-AR300M16 Mini"],
+        ["Smallest size, lowest price", "GL.iNet GL-AR300M16 Mini"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $37", "GL.iNet GL-AR300M16 Mini ($36.99)"],
-        ["Under $99", "GL.iNet GL-MT3000 Beryl AX ($98.99)"],
-        ["Under $130", "GL.iNet GL-MT3600BE Beryl 7 ($129.99)"],
-        ["Under $160", "GL.iNet GL-BE3600 Slate 7 ($159.99)"],
+        ["Under $37", "GL.iNet GL-AR300M16 Mini (under $40)"],
+        ["Under $99", "GL.iNet GL-MT3000 Beryl AX (under $100)"],
+        ["Under $130", "GL.iNet GL-MT3600BE Beryl 7 (under $130)"],
+        ["Under $160", "GL.iNet GL-BE3600 Slate 7 (under $160)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "OpenWrt 23.05 vs OpenWrt 21.02",
     cards: [
       { label: "OpenWrt 23.05 (Slate 7)", text: "The newer firmware version generally receives more current security patches and supports a broader range of up-to-date plugins." },
-      { label: "OpenWrt 21.02 (Beryl 7, Beryl AX, AR300M16)", text: "Still actively supported and stable, with a large existing plugin ecosystem, though not the absolute newest release." },
+      { label: "OpenWrt 21.02 (Beryl 7, Beryl AX, AR300M16)", text: "Still actively supported and stable, with a large existing plugin ecosystem, though not the absolute newest release." }
     ],
     note: "Firmware version matters most if you plan to install newer OpenWrt packages that specifically require a more recent kernel; for basic VPN and browsing use, either version works reliably.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["Wi-Fi 7 for maximum future-proofing", "GL.iNet Slate 7 or Beryl 7"],
         ["Wi-Fi 6 at a lower price", "GL.iNet Beryl AX"],
-        ["Basic connectivity, smallest size priority", "GL.iNet AR300M16 (2.4GHz-focused)"],
+        ["Basic connectivity, smallest size priority", "GL.iNet AR300M16 (2.4GHz-focused)"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For a Developer or Network Hobbyist Specifically",
     cards: [
       { label: "Look for", text: "The largest available RAM and flash storage, since installing multiple OpenWrt plugins simultaneously, like ad-blocking, VPN, and network monitoring tools together, requires more storage headroom than a minimal single-plugin setup." },
-      { label: "In this comparison", text: "The Slate 7 and Beryl 7 both specifically state 512MB storage, the most headroom in this comparison for running several OpenWrt plugins at once." },
+      { label: "In this comparison", text: "The Slate 7 and Beryl 7 both specifically state 512MB storage, the most headroom in this comparison for running several OpenWrt plugins at once." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the newest firmware with a touchscreen interface or the highest VPN throughput, where the Slate 7 or Beryl 7 near $130-160 deliver genuinely differentiated capability." },
-      { label: "Save if", text: "You want reliable OpenWrt customization without Wi-Fi 7 speed, where the Beryl AX or AR300M16 deliver that at a meaningfully lower price." },
+      { label: "Save if", text: "You want reliable OpenWrt customization without Wi-Fi 7 speed, where the Beryl AX or AR300M16 deliver that at a meaningfully lower price." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

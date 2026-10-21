@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Gen 2, Gen 4, or uncertain which generation", "Mini Mesh Wi-Fi Router (Gen 2/3/4/Mini)"],
         ["Confirmed Gen 3 or Mini, RV/travel use", "Mini Router Compatible with Gen 3/Mini/V4"],
         ["Also need standard ISP compatibility", "WiFi Router Mini (Starlink + standard ISP)"],
-        ["Want closely Starlink-matched hardware", "Compatible Starlink Mini Router"],
+        ["Want closely Starlink-matched hardware", "Compatible Starlink Mini Router"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $130", "Mini Router Compatible with Gen 3/Mini/V4 ($129.99)"],
-        ["Under $140", "WiFi Router Mini (Starlink + ISP) ($139.99)"],
-        ["Under $150", "Compatible Starlink Mini Router ($149.99)"],
-        ["Under $190", "Mini Mesh Wi-Fi Router (Gen 2/3/4/Mini) ($189.99)"],
+        ["Under $130", "Mini Router Compatible with Gen 3/Mini/V4 (under $130)"],
+        ["Under $140", "WiFi Router Mini (Starlink + ISP) (under $140)"],
+        ["Under $150", "Compatible Starlink Mini Router (under $150)"],
+        ["Under $190", "Mini Mesh Wi-Fi Router (Gen 2/3/4/Mini) (under $190)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Starlink-Exclusive vs Dual-Compatible Routers",
     cards: [
       { label: "Starlink-exclusive (Mini Mesh, Mini Router)", text: "Focused purely on extending or replacing Starlink coverage, appropriate if Starlink is your only or primary connection type." },
-      { label: "Dual-compatible (WiFi Router Mini)", text: "Works with both Starlink and a standard home ISP, useful if you split time between a Starlink-equipped property and a standard broadband connection elsewhere." },
+      { label: "Dual-compatible (WiFi Router Mini)", text: "Works with both Starlink and a standard home ISP, useful if you split time between a Starlink-equipped property and a standard broadband connection elsewhere." }
     ],
     note: "If you only ever use Starlink, a Starlink-exclusive router is simpler; if you regularly switch between Starlink and standard ISP connections, the dual-compatible pick avoids needing two separate routers.",
   },
@@ -130,7 +130,7 @@ export const howToChoose = [
       headers: ["Your installation", "Recommended pick"],
       rows: [
         ["Wall-mounted mesh expansion node", "Mini Mesh Wi-Fi Router (includes mounting hardware)"],
-        ["RV or mobile with tabletop placement", "Mini Router Compatible with Gen 3/Mini/V4 (includes stand)"],
+        ["RV or mobile with tabletop placement", "Mini Router Compatible with Gen 3/Mini/V4 (includes stand)"]
       ],
     },
   },
@@ -138,16 +138,16 @@ export const howToChoose = [
     subheading: "For an RV or Overlanding Setup Specifically",
     cards: [
       { label: "Look for", text: "A compact, lightweight design specifically marketed for RV or mobile use, plus confirmed compatibility with your exact Starlink generation, since RV Starlink setups commonly use the Mini or Gen 3 hardware." },
-      { label: "In this comparison", text: "The Mini Router Compatible with Gen 3/Mini/V4 specifically names RV use in its listing and includes a stand suited to a mobile installation." },
+      { label: "In this comparison", text: "The Mini Router Compatible with Gen 3/Mini/V4 specifically names RV use in its listing and includes a stand suited to a mobile installation." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want the broadest Starlink generation compatibility or need to support over 128 devices, where the Mini Mesh Wi-Fi Router's $189.99 price covers the widest range of Starlink hardware." },
-      { label: "Save if", text: "You've confirmed your exact Starlink generation is Gen 3 or Mini and want RV-friendly placement, where the $129.99 pick covers that specific need at the lowest price in this comparison." },
+      { label: "Spend more if", text: "You want the broadest Starlink generation compatibility or need to support over 128 devices, where the Mini Mesh Wi-Fi Router's under $190 price covers the widest range of Starlink hardware." },
+      { label: "Save if", text: "You've confirmed your exact Starlink generation is Gen 3 or Mini and want RV-friendly placement, where the under $130 pick covers that specific need at the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

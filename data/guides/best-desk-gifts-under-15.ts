@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41VOogTKiDL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B08691QYTY?tag=deskfinds0d-20",
-    "description": "XXXFLOWER's station is a wooden stand holding two heart-shaped glass bulb vases for rooting cuttings in water. The listing describes a vintage style that works for flowers, cuttings or arrangements.\n\nIt costs just under $14, between the succulents and the candle, but it takes the most effort because it needs fresh water and a cutting. It is more decorative than the pen holder and less practical.\n\nBest for a coworker who already has pothos or other houseplants to propagate. The caveat is that glass can break, and water on a desk near electronics is a risk.",
+    "description": "XXXFLOWER's station is a wooden stand holding two heart-shaped glass bulb vases for rooting cuttings in water. The listing describes a vintage style that works for flowers, cuttings or arrangements.\n\nIt costs under $14, between the succulents and the candle, but it takes the most effort because it needs fresh water and a cutting. It is more decorative than the pen holder and less practical.\n\nBest for a coworker who already has pothos or other houseplants to propagate. The caveat is that glass can break, and water on a desk near electronics is a risk.",
     "specs": [
       "Wooden stand, 2 glass vases",
       "Heart-shaped bulb design"
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/518xvqnhKBL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D21L48CB?tag=deskfinds0d-20",
-    "description": "LEADO is a 9 ounce lavender scented candle themed for a new job or promotion. The listing positions it as a funny and soothing gift for friends, coworkers or a boss.\n\nIt is the priciest item at $14.99, and it only works in offices that allow open flames. Unlike the succulents or sign, it gets used up.\n\nGood for someone who likes candles at home, or as a gift for a remote worker. The caveat is that many offices ban candles, so it may be better as a home gift.",
+    "description": "LEADO is a 9 ounce lavender scented candle themed for a new job or promotion. The listing positions it as a funny and soothing gift for friends, coworkers or a boss.\n\nIt is the priciest item at under $15, and it only works in offices that allow open flames. Unlike the succulents or sign, it gets used up.\n\nGood for someone who likes candles at home, or as a gift for a remote worker. The caveat is that many offices ban candles, so it may be better as a home gift.",
     "specs": [
       "9 oz lavender candle",
       "New job message design"
@@ -109,7 +109,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41F9hJXNvCL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GSW29NCJ?tag=deskfinds0d-20",
-    "description": "YanNook's sign is a 5 by 5 inch wooden plaque, 0.24 inches thick, printed with a Never Forget the Difference You Make message. It has a rustic wood-look frame.\n\nIt costs $9.99, less than the candle and plants, and it fits teachers, nurses and team leaders. It is flatter than the MOKANI holder and says more.\n\nA fine thank you gift for a mentor or teacher. The caveat is that the quote is fixed and sentimental, so it only suits the right audience.",
+    "description": "YanNook's sign is a 5 by 5 inch wooden plaque, 0.24 inches thick, printed with a Never Forget the Difference You Make message. It has a rustic wood-look frame.\n\nIt costs under $10, less than the candle and plants, and it fits teachers, nurses and team leaders. It is flatter than the MOKANI holder and says more.\n\nA fine thank you gift for a mentor or teacher. The caveat is that the quote is fixed and sentimental, so it only suits the right audience.",
     "specs": [
       "5 x 5 inch plaque",
       "0.24 inch thick wood",
@@ -137,7 +137,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51tV2XxWiGL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07BJFZDMC?tag=deskfinds0d-20",
-    "description": "MOKANI makes a cute elephant that holds pens and pencils in its trunk area, and can also work as a phone stand or makeup brush holder. The listing says it is made of wood plastic board.\n\nIt costs $7.99, less than the sign, and it is the most practical of the decorative items. It is smaller than the plants.\n\nGreat for a student or coworker with loose pens. The caveat is that it holds only a few items and the material is plastic composite.",
+    "description": "MOKANI makes a cute elephant that holds pens and pencils in its trunk area, and can also work as a phone stand or makeup brush holder. The listing says it is made of wood plastic board.\n\nIt costs under $8, less than the sign, and it is the most practical of the decorative items. It is smaller than the plants.\n\nGreat for a student or coworker with loose pens. The caveat is that it holds only a few items and the material is plastic composite.",
     "specs": [
       "Elephant shaped holder",
       "Pen, phone and brush use"
@@ -164,7 +164,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51Dd6pYiTHL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07XBW22YZ?tag=deskfinds0d-20",
-    "description": "Hongred sells a 6 in 1 pen with a ballpoint that takes four refills, a spirit level and a ruler among other tools. It is marketed as a gadget for men.\n\nAt $5.99 it is the cheapest of the six and the most useful at a workbench or shop. Compared with the elephant holder, it is something you carry.\n\nA good gag-gadget gift for a handy person. The caveat is that multitools are usually less comfortable to write with than a regular pen.",
+    "description": "Hongred sells a 6 in 1 pen with a ballpoint that takes four refills, a spirit level and a ruler among other tools. It is marketed as a gadget for men.\n\nAt under $6 it is the cheapest of the six and the most useful at a workbench or shop. Compared with the elephant holder, it is something you carry.\n\nA good gag-gadget gift for a handy person. The caveat is that multitools are usually less comfortable to write with than a regular pen.",
     "specs": [
       "6 in 1 multitool pen",
       "Ballpoint with 4 refills",
@@ -360,7 +360,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Save if",
-        "text": "It is a swap. Hongred 6 in 1 Multitool Pen and MOKANI Elephant Pen and Phone Holder cost $8 or less."
+        "text": "It is a swap. Hongred 6 in 1 Multitool Pen and MOKANI Elephant Pen and Phone Holder cost under $9 or less."
       }
     ]
   }

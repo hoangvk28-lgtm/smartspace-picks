@@ -288,7 +288,7 @@ export default async function BestDockingStationsPage() {
             {[
               { label: "Choose Thunderbolt 4 if:", items: ["Your laptop has a Thunderbolt port (look for the ⚡ symbol on the port)", "You run two 4K monitors or one 4K + one 1440p", "You need maximum stability and bandwidth (video editors, developers)", "You use a MacBook Pro or MacBook Air M3/M4"] },
               { label: "Choose USB4 if:", items: ["Your laptop has USB4 but not Thunderbolt (common on mid-range Windows laptops)", "You need two monitors at 4K60 without paying TB4 prices", "The Plugable USB4 dock is a strong choice here"] },
-              { label: "USB-C dock is enough if:", items: ["You only need one external monitor", "You want the most affordable single-cable desk solution", "You are not doing video editing or high-bandwidth work"] },
+              { label: "USB-C dock is enough if:", items: ["You only need one external monitor", "You want the most affordable single-cable desk solution", "You are not doing video editing or high-bandwidth work"] }
             ].map((col, i) => (
               <div key={i} className={`p-4 rounded-xl border ${i === 0 ? "border-brand/30 bg-brand/5" : "border-border bg-white"}`}>
                 <p className="text-xs font-bold text-ink uppercase tracking-wide mb-2">{col.label}</p>
@@ -310,7 +310,7 @@ export default async function BestDockingStationsPage() {
               {[
                 "MacBook (M1/M2/M3/M4): all ports are Thunderbolt -- get a TB4 dock",
                 "Dell XPS / HP Spectre / Lenovo ThinkPad X1: look for ⚡ on port or check spec sheet",
-                "Budget Windows laptops (under $800): likely USB-C only, not Thunderbolt -- get a USB4 or USB-C dock",
+                "Budget Windows laptops (under $800): likely USB-C only, not Thunderbolt -- get a USB4 or USB-C dock"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-1.5 text-xs text-ink-secondary">
                   <span className="w-1 h-1 rounded-full bg-brand-muted mt-1.5 shrink-0" />
@@ -341,7 +341,7 @@ export default async function BestDockingStationsPage() {
               { href: "#best-budget", label: "Best Budget" },
               { href: "#best-premium", label: "Best Premium" },
               { href: "#setup-guide", label: "5-step setup" },
-              { href: "#faq", label: "FAQ" },
+              { href: "#faq", label: "FAQ" }
             ].map((item) => (
               <a key={item.href} href={item.href} className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors">{item.label}</a>
             ))}
@@ -368,7 +368,7 @@ export default async function BestDockingStationsPage() {
                 { port: "MacBook (any M-series)", action: "Thunderbolt 4 ports -- any TB4 dock works" },
                 { port: "⚡ symbol on Windows laptop port", action: "Thunderbolt -- any TB3/TB4/TB5 dock works" },
                 { port: "USB4 symbol (two arrows)", action: "USB4 dock or TB4 dock in USB4 mode" },
-                { port: "USB-C with no symbol", action: "Standard USB-C -- use the Anker 8-in-1 or any USB-C dock, not Thunderbolt" },
+                { port: "USB-C with no symbol", action: "Standard USB-C -- use the Anker 8-in-1 or any USB-C dock, not Thunderbolt" }
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3 p-3 rounded-xl border border-border bg-white">
                   <span className="font-bold text-brand text-xs shrink-0 mt-0.5 whitespace-nowrap">{item.port}</span>
@@ -415,7 +415,7 @@ export default async function BestDockingStationsPage() {
                 { device: "External SSD or USB drive", port: "USB-A or USB-C" },
                 { device: "Wired headset / audio interface", port: "3.5mm or USB audio" },
                 { device: "Ethernet cable", port: "Gigabit or 2.5GbE port" },
-                { device: "SD card / camera", port: "SD card reader" },
+                { device: "SD card / camera", port: "SD card reader" }
               ].map((item, i) => (
                 <div key={i} className="flex items-center gap-2 p-3 rounded-xl border border-border bg-white">
                   <span className="font-semibold text-ink text-xs shrink-0">{item.device}</span>
@@ -463,7 +463,7 @@ export default async function BestDockingStationsPage() {
               {[
                 { option: "On the desk surface", desc: "Standard placement. The dock sits beside the laptop or monitor stand. Route the Thunderbolt/USB-C cable to the laptop and all peripheral cables into the dock." },
                 { option: "Under the desk (mounted)", desc: "Cleaner surface, all cables routed down and out of sight. Compatible with most docks via under-desk mounts or cable management trays." },
-                { option: "On a monitor arm shelf", desc: "Some monitor arms have a cable management shelf -- the dock clips onto the arm itself, removing it from the desk entirely." },
+                { option: "On a monitor arm shelf", desc: "Some monitor arms have a cable management shelf -- the dock clips onto the arm itself, removing it from the desk entirely." }
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white">
                   <span className="w-6 h-6 rounded-full bg-brand text-white flex items-center justify-center shrink-0 font-bold text-xs mt-0.5">{i + 1}</span>
@@ -485,7 +485,7 @@ export default async function BestDockingStationsPage() {
               { label: "Connection standard match", note: "Does the dock standard match what the laptop port can actually use? TB4 pricing is only justified for TB-equipped laptops." },
               { label: "Laptop charging wattage", note: "Is the dock's PD wattage sufficient to charge the laptop under real load -- not just at idle?" },
               { label: "Port coverage for real desks", note: "Does the port selection cover keyboard, mouse, webcam, Ethernet, SD, audio, and phone charging simultaneously?" },
-              { label: "Display output stability", note: "Stable at 4K@60Hz under sustained use, not just on cold boot. Multi-monitor stability is the most common failure mode on low-cost docks." },
+              { label: "Display output stability", note: "Stable at 4K@60Hz under sustained use, not just on cold boot. Multi-monitor stability is the most common failure mode on low-cost docks." }
             ].map((c, i) => (
               <div key={i} className="flex items-start gap-2">
                 <span className="w-5 h-5 rounded-full bg-brand-muted text-brand flex items-center justify-center shrink-0 font-bold text-[10px] mt-0.5">{i + 1}</span>
@@ -521,7 +521,7 @@ export default async function BestDockingStationsPage() {
             {[
               { product: "Anker 777 Thunderbolt 4", verdict: "is the best starting point. Twelve ports, 90W charging, two 4K monitors, Gigabit Ethernet, at a fair Thunderbolt price.", href: "#best-overall" },
               { product: "CalDigit TS4", verdict: "is the upgrade for MacBook Pro heavy users who need maximum stability and 2.5GbE.", href: "#best-macbook" },
-              { product: "Plugable USB4 Dual HDMI", verdict: "gives you the same 40 Gbps bandwidth and 4K@120Hz for significantly less money -- if your laptop has USB4 but not Thunderbolt.", href: "#best-usb4" },
+              { product: "Plugable USB4 Dual HDMI", verdict: "gives you the same 40 Gbps bandwidth and 4K@120Hz for significantly less money -- if your laptop has USB4 but not Thunderbolt.", href: "#best-usb4" }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
@@ -533,7 +533,7 @@ export default async function BestDockingStationsPage() {
             ))}
             <div className="mt-2 p-4 rounded-xl bg-red-50 border border-red-200">
               <p className="text-sm font-bold text-red-700 mb-1">Important:</p>
-              <p className="text-sm text-red-700">Do not buy a Thunderbolt dock if your laptop does not have a Thunderbolt port. The Anker 8-in-1 USB-C hub at $55--80 covers a single-monitor home office for any USB-C laptop without paying the Thunderbolt premium.</p>
+              <p className="text-sm text-red-700">Do not buy a Thunderbolt dock if your laptop does not have a Thunderbolt port. The Anker 8-in-1 USB-C hub at under $60--80 covers a single-monitor home office for any USB-C laptop without paying the Thunderbolt premium.</p>
             </div>
           </div>
         </section>
@@ -556,7 +556,7 @@ export default async function BestDockingStationsPage() {
               { href: "/guide/best-charging-stations-for-desk", title: "Best Charging Stations for Desk", desc: "If you need device charging, not monitor connectivity" },
               { href: "/guide/best-charging-stations-for-multiple-devices-desk", title: "Best Multi-Device Charging Stations", desc: "When monitors aren't the priority" },
               { href: "/guide/desk-setup-essentials", title: "Desk Setup Essentials", desc: "15 must-have items for any desk setup" },
-              { href: "/guide/ergonomic-desk-setup", title: "Ergonomic Desk Setup Guide", desc: "How to position everything correctly" },
+              { href: "/guide/ergonomic-desk-setup", title: "Ergonomic Desk Setup Guide", desc: "How to position everything correctly" }
             ].map((g) => (
               <Link prefetch={false} key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
                 <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">

@@ -5,7 +5,7 @@ export const metaDescription = "6 UPS units we evaluated at the 1000VA capacity 
 export const mainKeyword = "1000VA UPS battery backup";
 export const introParagraphs = [
   "1000VA-labeled UPS units don't all provide the same real usable wattage, in this guide alone they range from 600W to 800W depending on the specific design's power factor, check the actual watt rating before comparing two 1000VA units as equivalent.",
-  "This tier genuinely fits a standard desktop PC and monitor, or a lighter workstation load, without the premium of a 1500VA-plus pick meant for multi-monitor or demanding workstation setups.",
+  "This tier genuinely fits a standard desktop PC and monitor, or a lighter workstation load, without the premium of a 1500VA-plus pick meant for multi-monitor or demanding workstation setups."
 ];
 export const lastUpdated = "2026-07-30";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Real-Watt Ratio at 1000VA",
     name: "GOLDENMATE 1000VA/800W Lithium UPS Battery Backup & Surge Protector, White",
     price: "$199.48",
-    rating: "4.4 stars from 1,399 Amazon ratings",
-    reviews: "1,399 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41lBJ4oYPfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5QSYK69?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Pure Sine Wave 1000VA Pick",
     name: "CyberPower CP1000PFCLCD PFC Sinewave UPS Battery Backup and Surge Protector",
     price: "$179.95",
-    rating: "4.2 stars from 2,382 Amazon ratings",
-    reviews: "2,382 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31nDi+6Lz+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00429N192?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best AVR 1000VA Pick",
     name: "APC 1000VA/600W Pro UPS Battery Backup for Office Electronics, AVR, BX1000M",
     price: "$183.99",
-    rating: "4.5 stars from 2,697 Amazon ratings",
-    reviews: "2,697 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31VPmugfqML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06VY12HW4?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Intelligent LCD 1000VA Pick",
     name: "CyberPower CP1000AVRLCD Intelligent LCD UPS Battery Backup",
     price: "$175.95",
-    rating: "4.5 stars from 4,582 Amazon ratings",
-    reviews: "4,582 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31DlLYCaalL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000QZ3UG0?tag=deskfinds0d-20",
     description:
@@ -93,12 +93,12 @@ export const products: GuideProduct[] = [
     badge: "Alternate Lithium 1000VA Pick",
     name: "GOLDENMATE 1000VA/800W Lithium UPS Battery Backup & Surge Protector, Gray",
     price: "$199.99",
-    rating: "4.4 stars from 1,399 Amazon ratings",
-    reviews: "1,399 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41axhgC1IXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5QNMS8N?tag=deskfinds0d-20",
     description:
-      "Identical specs to the top pick in a gray finish, same 800W real capacity and lithium battery chemistry advantage, choose based on color preference for your desk setup rather than any functional difference.\n\nWhat stands out here is same strong real-watt ratio as the top pick, plus lithium battery longevity. The main tradeoff: same newer-brand track record considerations as the white variant, so weigh that against the $199.99 price before buying.",
+      "Identical specs to the top pick in a gray finish, same 800W real capacity and lithium battery chemistry advantage, choose based on color preference for your desk setup rather than any functional difference.\n\nWhat stands out here is same strong real-watt ratio as the top pick, plus lithium battery longevity. The main tradeoff: same newer-brand track record considerations as the white variant, so weigh that against the under $200 price before buying.",
     specs: ["1000VA/800W, lithium battery", "Above-average real-watt-to-VA ratio", "Surge protection", "Gray finish"],
     pros: ["Same strong real-watt ratio as the top pick", "Lithium battery longevity", "Solid rating base", "Gray finish option"],
     cons: ["Same newer-brand track record considerations as the white variant", "Not pure sine wave confirmed", "Marginally higher price than the white variant"],
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best Lower-Cost Step-Down Alternative",
     name: "APC 850VA/510W Pro UPS Battery Backup for Office Electronics, AVR, BX850M",
     price: "$161.99",
-    rating: "4.6 stars from 796 Amazon ratings",
-    reviews: "796 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31xnh5VoQ4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06WP9Q8ZN?tag=deskfinds0d-20",
     description:
@@ -120,14 +120,14 @@ export const products: GuideProduct[] = [
     pros: ["Highest rating of any pick in this guide", "Lower price than the true 1000VA-class picks", "AVR included", "Close real-watt capacity to the 1000VA tier"],
     cons: ["Technically a step below true 1000VA capacity", "Not pure sine wave", "Less headroom than the GOLDENMATE top pick"],
     bestFor: "Buyers who want near-1000VA capacity at a lower price",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Real watts across the 1000VA-labeled tier", description: "Checked the actual watt rating on each pick, since 1000VA-labeled units in this guide range from 600W to 800W of real capacity depending on design, a meaningful spread within a single VA label." },
   { title: "Appropriate use-case matching for a standard desktop or light workstation", description: "Confirmed each pick genuinely fits a standard PC and monitor or lighter workstation load, the natural middle tier between 850VA's single-monitor scope and 1500VA's multi-device headroom." },
-  { title: "Battery chemistry and topology as real differentiators", description: "Distinguished lithium-battery picks and the one genuinely pure sine wave option from standard lead-acid, modified sine wave designs, since these are real feature differences even within the same nominal capacity class." },
+  { title: "Battery chemistry and topology as real differentiators", description: "Distinguished lithium-battery picks and the one genuinely pure sine wave option from standard lead-acid, modified sine wave designs, since these are real feature differences even within the same nominal capacity class." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -245,11 +245,11 @@ export const faq: FaqItem[] = [
   { q: "What's the benefit of a lithium battery UPS at this capacity?", a: "Lithium battery chemistry generally handles heat and repeated charge cycles better over the long term than the lead-acid designs most competitors use, worth the modest price premium if longevity matters to you." },
   { q: "Should I buy an 850VA or 1000VA UPS?", a: "If your setup is a basic single-monitor desktop, an 850VA pick like the APC BX850M offers nearly equivalent real capacity at a lower price. If you want more headroom or a lithium battery, a 1000VA pick is the better choice." },
   { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want the most real wattage headroom at the 1000VA capacity tier" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want near-1000VA capacity at a lower price At $161.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want near-1000VA capacity at a lower price At under $170, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-850va-ups-battery-backups", title: "Best 850VA UPS Battery Backups (2026)" },
   { href: "/guide/best-ups-battery-backups-for-workstations", title: "Best UPS Battery Backups for Workstations (2026)" },
-  { href: "/guide/best-pure-sine-wave-ups", title: "Best Pure Sine Wave UPS Battery Backups (2026)" },
+  { href: "/guide/best-pure-sine-wave-ups", title: "Best Pure Sine Wave UPS Battery Backups (2026)" }
 ];

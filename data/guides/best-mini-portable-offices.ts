@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini portable offices";
 export const introParagraphs = [
   "None of the nine verified listings in this niche use the word \"mini\" or state a compact-specific size tier distinct from a standard single-occupant pod. Rather than force a mini category that doesn't clearly exist yet, we're featuring the two most compact-sounding, solo-oriented listings and being transparent that the sizing distinction is ours, not the manufacturer's.",
-  "A smaller enclosed volume also compounds the ventilation disclosure gap seen across this niche, less interior air volume means faster CO2 buildup for a given airflow rate, worth asking the seller directly about ventilation if you're specifically shopping for a compact pod for sustained daily use.",
+  "A smaller enclosed volume also compounds the ventilation disclosure gap seen across this niche, less interior air volume means faster CO2 buildup for a given airflow rate, worth asking the seller directly about ventilation if you're specifically shopping for a compact pod for sustained daily use."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -53,7 +53,7 @@ export const products: GuideProduct[] = [
     pros: ["Explicit 1-2 person occupancy range disclosed in the title", "Exact exterior dimensions disclosed (W55 x D48 x H92in)", "Mid-range price relative to the rest of this pool", "No star rating or review count to independently verify against the marketing copy"],
     cons: ["No star rating or review count available from Amazon", "No formal STC/NRC sound-isolation data disclosed", "No ventilation specs disclosed for two-occupant use"],
     bestFor: "Buyers wanting a small footprint that still fits an occasional second occupant.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -61,7 +61,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Checked for an explicit \"mini\" size tier", description: "Searched all nine verified listings for explicit mini or compact sizing language, found none, and disclosed that gap rather than inventing a size tier." },
   { title: "Selected by solo/mobile framing instead", description: "Used solo occupancy and mobility framing (wheels, single-person capacity) as the closest available proxy for a compact use case." },
   { title: "Ventilation-at-smaller-volume flagged as a compounding concern", description: "Noted that a smaller interior volume makes the niche-wide lack of disclosed ventilation specs more consequential, not less." },
-  { title: "Verified listing data only", description: "Used only prices, dimensions, and features actually printed in each Amazon listing, no invented ratings or review counts." },
+  { title: "Verified listing data only", description: "Used only prices, dimensions, and features actually printed in each Amazon listing, no invented ratings or review counts." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -188,11 +188,11 @@ export const faq: FaqItem[] = [
   { q: "Is there a true \"mini\" office pod category on Amazon?", a: "Not clearly, none of the verified listings in this niche use mini or compact-specific sizing language, we selected the most solo- and mobility-oriented options as the closest match." },
   { q: "Does a smaller pod have worse ventilation?", a: "Not necessarily worse, but the ventilation disclosure gap across this niche matters more in a smaller volume, since CO2 can build up faster, ask the seller directly." },
   { q: "Which pick is more mobile?", a: "The mobile solo pod is explicitly described with wheels and feet for repositioning, the 1-2 person pick does not mention wheels in its listing." },
-  { q: "Should I compare this guide to the small office pod guide?", a: "Yes, this guide and our small office pods guide draw from an overlapping, very limited product pool, cross-check both before deciding." },
+  { q: "Should I compare this guide to the small office pod guide?", a: "Yes, this guide and our small office pods guide draw from an overlapping, very limited product pool, cross-check both before deciding." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-office-pods", title: "Best Small Office Pods (2026)" },
   { href: "/guide/best-one-person-office-pods", title: "Best One-Person Office Pods (2026)" },
-  { href: "/guide/best-office-pods-for-small-apartments", title: "Best Office Pods for Small Apartments (2026)" },
+  { href: "/guide/best-office-pods-for-small-apartments", title: "Best Office Pods for Small Apartments (2026)" }
 ];

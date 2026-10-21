@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "printer for documents";
 export const introParagraphs = [
   "Printing a clean, professional-looking document is a different job than printing a photo, and the printer that wins one doesn't always win the other. Text sharpness, archival stability, and how a printer handles letterhead or pre-printed forms matter far more here than color accuracy or photo resolution.",
-  "Below are 8 printers we evaluated specifically for document output, spanning a dedicated monochrome laser, several color laser and inkjet all-in-ones with document-friendly features like auto document feeders and duplex printing. We explain honestly why laser text tends to look sharper than inkjet even at a lower stated resolution, and which picks are the better long-term fit for legal or archival paperwork.",
+  "Below are 8 printers we evaluated specifically for document output, spanning a dedicated monochrome laser, several color laser and inkjet all-in-ones with document-friendly features like auto document feeders and duplex printing. We explain honestly why laser text tends to look sharper than inkjet even at a lower stated resolution, and which picks are the better long-term fit for legal or archival paperwork."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Duplex printing",
       "Wireless + mobile printing",
       "Toner fuses to paper, doesn't feather",
-      "Archivally stable output",
+      "Archivally stable output"
     ],
     pros: [
       "Sharpest text output in this list",
       "Long archival stability for legal or important documents",
       "No idle-ink drying risk",
-      "Fast, consistent duplex printing",
+      "Fast, consistent duplex printing"
     ],
     cons: [
       "Monochrome only, no color printing",
       "Highest upfront price in this list",
-      "Overkill for light, mixed document and photo printing",
+      "Overkill for light, mixed document and photo printing"
     ],
     bestFor: "Text-heavy documents that need to stay sharp and legible for years",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Auto document feeder",
       "35 ppm print speed",
       "Duplex printing",
-      "3-year limited warranty",
+      "3-year limited warranty"
     ],
     pros: [
       "Laser-sharp text plus color capability",
       "Handles letterhead and colored stock cleanly",
       "Fast 35ppm output for higher document volume",
-      "Auto document feeder for multi-page scanning",
+      "Auto document feeder for multi-page scanning"
     ],
     cons: [
       "Highest price in this list by a wide margin",
       "Large footprint compared to inkjet all-in-ones",
-      "Overkill for light document printing",
+      "Overkill for light document printing"
     ],
     bestFor: "A household or small office needing sharp text plus color documents at real volume",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "19 ppm print speed",
       "250-sheet paper tray",
       "Duplex printing",
-      "Mobile device compatible",
+      "Mobile device compatible"
     ],
     pros: [
       "Laser-sharp text at a lower price than the imageCLASS",
       "Large 250-sheet tray reduces refill frequency",
       "Duplex printing standard",
-      "Clean letterhead and colored-stock handling",
+      "Clean letterhead and colored-stock handling"
     ],
     cons: [
       "No built-in scanner or ADF",
       "Slower than the higher-end Canon at 19ppm",
-      "Pricier than any inkjet in this list",
+      "Pricier than any inkjet in this list"
     ],
     bestFor: "Regular document output that wants laser quality without the highest-end price",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Duplex printing",
       "3-month Instant Ink trial",
       "Color inkjet output",
-      "AI-enabled setup",
+      "AI-enabled setup"
     ],
     pros: [
       "Auto document feeder for multi-page scanning",
       "Handles both text documents and color output",
       "Duplex printing standard",
-      "Lower upfront cost than any laser pick here",
+      "Lower upfront cost than any laser pick here"
     ],
     cons: [
       "Text edges softer than any laser pick",
       "Dye ink fades faster than toner over decades",
-      "Standard idle-ink drying risk of any cartridge inkjet",
+      "Standard idle-ink drying risk of any cartridge inkjet"
     ],
     bestFor: "Mixed text and color document printing without a laser's upfront cost",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Duplex printing",
       "3-month Instant Ink trial included",
       "Color inkjet output",
-      "AI-capable setup",
+      "AI-capable setup"
     ],
     pros: [
       "Same capable hardware as the 8125e",
       "Auto document feeder and duplex printing",
       "Good document quality for the price tier",
-      "More control over ink subscription choices",
+      "More control over ink subscription choices"
     ],
     cons: [
       "Text edges softer than any laser pick here",
       "Possible bleed on letterhead or pre-printed forms",
-      "Higher price than the 8125e without added document features",
+      "Higher price than the 8125e without added document features"
     ],
     bestFor: "Everyday document printing with a bit more control over ink subscription choices",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Built-in fax",
       "Mobile printing support",
       "Wireless all-in-one",
-      "Standard cartridge inkjet",
+      "Standard cartridge inkjet"
     ],
     pros: [
       "Auto document feeder at a budget price",
       "Built-in fax for households that still need it",
       "Mobile printing support",
-      "Low upfront cost",
+      "Low upfront cost"
     ],
     cons: [
       "Softer text edges than any laser pick",
       "Fax is a feature most households in 2026 won't use",
-      "Standard idle-ink drying risk of any cartridge inkjet",
+      "Standard idle-ink drying risk of any cartridge inkjet"
     ],
     bestFor: "Budget document scanning and printing with occasional multi-page needs",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Automatic 2-sided copy and scan",
       "2.7-inch color touchscreen",
       "Wireless color inkjet",
-      "Reduced cartridge replacement frequency",
+      "Reduced cartridge replacement frequency"
     ],
     pros: [
       "High-capacity cartridges reduce replacement frequency",
       "Automatic duplex copy and scan",
       "Color touchscreen simplifies multi-user households",
-      "Good fit for higher document volume without a laser",
+      "Good fit for higher document volume without a laser"
     ],
     cons: [
       "Text still softer than any laser pick here",
       "Higher price than standard inkjets",
-      "Dye ink less archivally stable than toner",
+      "Dye ink less archivally stable than toner"
     ],
     bestFor: "Higher-volume document printing that still wants inkjet color flexibility",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Duplex printing",
       "Intuitive control panel",
       "Compact design",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     pros: [
       "Compact footprint for light document use",
       "Duplex printing built in",
       "Clear OLED display",
-      "Low upfront cost",
+      "Low upfront cost"
     ],
     cons: [
       "Softer text than any laser pick here",
       "No auto document feeder",
-      "Best kept to lighter document volume",
+      "Best kept to lighter document volume"
     ],
     bestFor: "Light, occasional document printing in a small space",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for document-focused use",
     description: "Weighed upfront price against document output quality specifically, rather than photo quality or general feature count.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -473,11 +473,11 @@ export const faq: FaqItem[] = [
   {
     q: "Should I use matte or glossy paper for document printing?",
     a: "Matte paper is the better choice for document legibility, since it doesn't produce the glare that glossy finishes can create under overhead lighting. Save glossy paper for photos or marketing materials instead.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-low-volume-printing", title: "Best Printers for Low-Volume Printing (2026)" },
   { href: "/guide/best-printers-for-black-and-white-documents", title: "Best Printers for Black-and-White Documents (2026)" },
-  { href: "/guide/best-monochrome-laser-printers-for-home-offices", title: "Best Monochrome Laser Printers for Home Offices (2026)" },
+  { href: "/guide/best-monochrome-laser-printers-for-home-offices", title: "Best Monochrome Laser Printers for Home Offices (2026)" }
 ];

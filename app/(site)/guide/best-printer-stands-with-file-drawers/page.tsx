@@ -159,7 +159,7 @@ export default async function BestPrinterStandsWithFileDrawersPage() {
     about: [
       { "@type": "Thing", name: "Printer Stand" },
       { "@type": "Thing", name: "File Cabinet" },
-      { "@type": "Thing", name: "Home Office Storage" },
+      { "@type": "Thing", name: "Home Office Storage" }
     ],
   };
 
@@ -179,7 +179,7 @@ export default async function BestPrinterStandsWithFileDrawersPage() {
         position: 3,
         name: "Best Printer Stands with File Drawers",
         item: `${SITE_URL}/guide/best-printer-stands-with-file-drawers`,
-      },
+      }
     ],
   };
 
@@ -495,7 +495,7 @@ export default async function BestPrinterStandsWithFileDrawersPage() {
                   {[
                     { option: "2 drawers", bestFor: "Light filing needs, small footprint", notes: "Lower price, compact" },
                     { option: "3 drawers", bestFor: "Active filing, supplies storage, printer stand", notes: "Most versatile, rolling common" },
-                    { option: "4-5 drawers", bestFor: "Heavy filing needs or supply organization", notes: "Higher price, more stable base" },
+                    { option: "4-5 drawers", bestFor: "Heavy filing needs or supply organization", notes: "Higher price, more stable base" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.option}</td>
@@ -537,50 +537,50 @@ export default async function BestPrinterStandsWithFileDrawersPage() {
                 context: "Best overall by review count",
                 id: "devaise-rustic-3-drawer",
                 name: "DEVAISE Rustic 3-Drawer",
-                verdict: " - 5,343 reviews at 4.2 stars, lateral filing, open shelves, rolling casters.",
+                verdict: " - Lateral filing, open shelves, rolling casters.",
               },
               {
                 context: "Best confirmed file hanging under $60",
                 id: "vasagle-custos-snow-white",
                 name: "VASAGLE CUSTOS Snow White",
-                verdict: " - 3,264 reviews at 4.0 stars, confirmed A4/Letter hanging, white finish.",
+                verdict: " - Confirmed A4/Letter hanging, white finish.",
               },
               {
                 context: "Best rated fabric lateral option",
                 id: "devaise-fabric-3-drawer",
                 name: "DEVAISE Fabric 3-Drawer",
-                verdict: " - 2,940 reviews at 4.4 stars, fabric drawers, under $60.",
+                verdict: " - Fabric drawers, under $60.",
               },
               {
                 context: "Best vertical format with lock",
                 id: "vasagle-4-drawer-vertical",
                 name: "VASAGLE 4-Drawer Vertical",
-                verdict: " - 2,475 reviews at 4.0 stars, lockable drawers, ink black.",
+                verdict: " - Lockable drawers, ink black.",
               },
               {
                 context: "Best for maximum drawer compartments",
                 id: "devaise-5-drawer-white",
                 name: "DEVAISE 5-Drawer White",
-                verdict: " - 2,049 reviews at 4.4 stars, five drawers, white finish.",
+                verdict: " - Five drawers, white finish.",
               },
               {
                 context: "Best for extra workspace beside printer",
                 id: "gyiiyuo-2-drawer-extended",
                 name: "GYIIYUO Extended Desktop",
-                verdict: " - 1,400 reviews at 4.2 stars, 24-inch desk extension, under $60.",
+                verdict: " - 24-inch desk extension, under $60.",
               },
               {
                 context: "Best metal construction with lock",
                 id: "letaya-metal-locking",
                 name: "Letaya Metal 3-Drawer",
-                verdict: " - 1,329 reviews at 4.5 stars highest rating, metal build, locking drawers.",
+                verdict: " - Metal build, locking drawers.",
               },
               {
                 context: "Best farmhouse style with file hanging",
                 id: "vasagle-honey-brown",
                 name: "VASAGLE Honey Brown",
-                verdict: " - 1,311 reviews at 4.0 stars, confirmed A4/Letter hanging, honey brown finish.",
-              },
+                verdict: " - Confirmed A4/Letter hanging, honey brown finish.",
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

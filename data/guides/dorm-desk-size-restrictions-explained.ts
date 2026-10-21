@@ -12,7 +12,7 @@ export const dormDeskSizeRestrictionsExplainedGuide: Guide = {
     "typical dorm desk dimensions",
     "college dorm desk space planning",
     "small desk for dorm room",
-    "dorm room desk setup tips",
+    "dorm room desk setup tips"
   ],
   heroImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const dormDeskSizeRestrictionsExplainedGuide: Guide = {
     "desk-size-chart",
     "what-size-desk-do-i-need",
     "cable-management-types-explained",
-    "desk-organizer-types-explained",
+    "desk-organizer-types-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const dormDeskSizeRestrictionsExplainedGuide: Guide = {
       question: "Do dorm desks typically include built-in storage?",
       answer:
         "Many do include at least one or two drawers, but capacity is usually limited, supplementing with compact under-desk or shelf storage helps offset this built-in storage limitation without needing extra floor space for a separate storage unit.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ Always check your specific dorm's actual desk measurements before planning your 
     {
       heading: "Why Checking Housing Rules Before Buying Accessories Saves Frustration",
       body: `Different schools and dorm buildings have varying policies about what modifications are permitted, from prohibiting any wall drilling to restricting certain furniture additions, checking your specific housing agreement or asking your resident advisor before purchasing wall-mounted shelving, adhesive hooks, or other space-saving accessories avoids the frustration of buying items you later discover you can't actually install in your specific dorm room.`,
-    },
+    }
   ],
 };

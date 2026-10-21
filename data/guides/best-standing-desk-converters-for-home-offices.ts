@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "standing desk converter for home office";
 export const introParagraphs = [
   "A home office converter needs to hold up during video calls (no wobble when you lean in to type), manage cables cleanly through a full range of motion, and fit realistically into a room that's also living space, not just an office.",
-  "We prioritized picks with strong review histories that suggest reliable daily stability, since a converter that shakes during a call or creaks during height changes undermines the whole point of a dedicated home workspace.",
+  "We prioritized picks with strong review histories that suggest reliable daily stability, since a converter that shakes during a call or creaks during height changes undermines the whole point of a dedicated home workspace."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "9 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Weighed review volume as evidence of daily stability during video calls", description: "A large positive review base suggests reliable performance under regular use, relevant for a home office desk used for calls and focused work every day." },
   { title: "Considered desk footprint against realistic home office space", description: "We noted where a platform requires a large dedicated desk versus fitting comfortably into a smaller home office corner." },
   { title: "Flagged electric lift's specific benefit for frequent video calls", description: "We noted that quiet, quick electric adjustment is genuinely useful for repositioning between back-to-back meetings without an audible lever pull." },
-  { title: "Compared platform sizes for single-monitor versus multi-monitor home office setups", description: "We covered options from a standard 32 inch platform to a large 46 inch triple-monitor design, matching different home office scales." },
+  { title: "Compared platform sizes for single-monitor versus multi-monitor home office setups", description: "We covered options from a standard 32 inch platform to a large 46 inch triple-monitor design, matching different home office scales." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -254,7 +254,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
@@ -263,11 +263,11 @@ export const faq: FaqItem[] = [
   { q: "Is electric adjustment worth it for a home office?", a: "It's genuinely useful if you have frequent video calls, since it allows quiet, quick repositioning between meetings." },
   { q: "What if my home office needs multiple monitors?", a: "The Rocelco 46 inch Large Standing Desk Converter accommodates a serious multi-monitor setup, though it needs a dedicated large desk." },
   { q: "Will a converter wobble during video calls?", a: "This varies by product; we prioritized picks with substantial positive review histories as the best available signal against wobble issues." },
-  { q: "How do I manage cables with a home office converter?", a: "Verify enough cable slack for both seated and standing positions; most converters don't include dedicated cable management, so plan for this separately." },
+  { q: "How do I manage cables with a home office converter?", a: "Verify enough cable slack for both seated and standing positions; most converters don't include dedicated cable management, so plan for this separately." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-ergonomic-standing-desk-converters", title: "Best Ergonomic Standing Desk Converters (2026)" },
   { href: "/guide/best-standing-desk-converters-for-cubicles", title: "Best Standing Desk Converters for Cubicles (2026)" },
-  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
+  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" }
 ];

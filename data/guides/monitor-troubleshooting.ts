@@ -12,7 +12,7 @@ export const monitorTroubleshootingGuide: Guide = {
     "monitor flickering fix",
     "monitor no signal fix",
     "monitor wrong resolution fix",
-    "monitor color looks off fix",
+    "monitor color looks off fix"
   ],
   heroImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const monitorTroubleshootingGuide: Guide = {
     "monitor-vesa-compatibility-explained",
     "monitor-resolution-explained",
     "refresh-rate-explained",
-    "ips-vs-va-vs-tn-panel",
+    "ips-vs-va-vs-tn-panel"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const monitorTroubleshootingGuide: Guide = {
       question: "Why does my second monitor not get detected?",
       answer:
         "Confirm the cable and port both support video output (some laptop USB-C ports don't), try a different cable or port, and check your display settings to make sure the second monitor isn't set to duplicate or disabled in a multi-display configuration.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ export const monitorTroubleshootingGuide: Guide = {
     {
       heading: "Checking Software Settings Before a Hardware Diagnosis",
       body: `Many issues that look like monitor defects are actually software display settings, an incorrect resolution, refresh rate mismatch, or wrong color profile can all produce symptoms that mimic hardware problems. Open your operating system's display settings and verify the monitor is running at its native resolution and a supported refresh rate before concluding the monitor itself needs repair or replacement.`,
-    },
+    }
   ],
 };

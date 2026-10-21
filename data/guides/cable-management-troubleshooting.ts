@@ -12,7 +12,7 @@ export const cableManagementTroubleshootingGuide: Guide = {
     "cables always tangling desk",
     "cables snagging monitor arm",
     "cable pulling loose from device",
-    "messy desk cables fix",
+    "messy desk cables fix"
   ],
   heroImage: "https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const cableManagementTroubleshootingGuide: Guide = {
     "cable-management-types-explained",
     "velcro-vs-zip-ties-cable-management",
     "cable-clips-vs-cable-raceway",
-    "standing-desk-cable-management",
+    "standing-desk-cable-management"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const cableManagementTroubleshootingGuide: Guide = {
       question: "How do I manage cables for a setup I rearrange frequently?",
       answer:
         "Favor reusable solutions like velcro ties over permanent options like zip ties or fully enclosed raceways, and leave a bit of extra slack in cable runs to accommodate future repositioning without needing to completely redo the cable management.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const cableManagementTroubleshootingGuide: Guide = {
     {
       heading: "Planning Cable Slack for Moving Parts",
       body: `Any cable connected to a moving component, a monitor arm, an adjustable laptop stand, or a standing desk, needs enough slack to accommodate the full range of that component's motion without pulling taut at any position. Test the full range of motion after routing cables and before considering the setup finished, catching insufficient slack at this stage prevents a snagged or disconnected cable surprise during actual daily use later.`,
-    },
+    }
   ],
 };

@@ -12,7 +12,7 @@ export const stickyNoteSystemVsDigitalPlannerGuide: Guide = {
     "physical sticky notes vs app planner",
     "kanban sticky notes desk",
     "digital task list vs physical",
-    "best way to track tasks at desk",
+    "best way to track tasks at desk"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const stickyNoteSystemVsDigitalPlannerGuide: Guide = {
     "whiteboard-vs-corkboard",
     "whiteboard-size-guide",
     "desk-declutter-checklist",
-    "desk-organizer-types-explained",
+    "desk-organizer-types-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const stickyNoteSystemVsDigitalPlannerGuide: Guide = {
       question: "Why do some people prefer physical sticky notes despite digital tools being more feature-rich?",
       answer:
         "The physical act of writing and moving a note, plus its constant visible presence without needing to open an app, provides a tactile and ambient reminder quality some people find more effective for maintaining daily task awareness than a digital list.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ export const stickyNoteSystemVsDigitalPlannerGuide: Guide = {
     {
       heading: "Why Digital Tools Handle Complexity Physical Systems Can't",
       body: `Once task management involves reminders tied to specific times, recurring tasks, cross-referencing with a calendar, or needing to search back through past notes, a digital planner's structured data and searchability provide genuine functional advantages a physical sticky note system simply can't replicate. This is why many people find a hybrid approach effective, physical notes for the visible, immediate daily list, and a digital tool handling the more complex, longer-term planning layer underneath it.`,
-    },
+    }
   ],
 };

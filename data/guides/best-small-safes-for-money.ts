@@ -2,11 +2,11 @@ export const guideSlug = "best-small-safes-for-money";
 export const guideTitle = "8 Best Small Safes for Money in 2026";
 export const metaTitle = "Best Small Safes for Money (2026)";
 export const metaDescription =
-  "8 safes for cash storage compared on anti-removal anchoring, cash organization trays, and multi-user access, from a $13.49 lockbox to a mountable steel safe.";
+  "8 safes for cash storage compared on anti-removal anchoring, cash organization trays, and multi-user access, from an under-$15 lockbox to a mountable steel safe.";
 export const mainKeyword = "small safes for money";
 export const introParagraphs = [
   "Storing cash is security-led: anti-removal anchoring and controlled access matter more than a generic fireproof label. We compared confirmed mounting hardware, cash organization features like coin trays, and multi-code access across these picks rather than treating every cash box as equally theft-resistant.",
-  "We also checked whether each pick separates cash into denominations or compartments, since a genuinely useful money safe organizes what you're storing, not just locks it away in one open compartment.",
+  "We also checked whether each pick separates cash into denominations or compartments, since a genuinely useful money safe organizes what you're storing, not just locks it away in one open compartment."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     pros: ["Combination lock avoids key management for shared-access cash", "Manufacturer directly discloses this isn't for high-value storage, an honest limitation"],
     cons: ["Not mountable, explicitly not intended for high-security cash amounts"],
     bestFor: "Shared cash-handling situations (garage sales, events) needing quick combination access, not large sums.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Prioritized anti-removal anchoring for genuine cash security", description: "We checked whether mounting hardware ships in the box and can actually be installed, since an unanchored money safe can simply be carried away regardless of lock strength." },
   { title: "Compared cash-specific organization features", description: "Coin trays, denomination-splitting shelves, and compartment layouts genuinely matter for a money safe differently than a general valuables safe. We flagged which picks include dedicated cash organization." },
   { title: "Audited multi-user access options for shared cash handling", description: "Several picks support two independent codes, relevant for households or small businesses where multiple people need independent cash access without sharing one credential." },
-  { title: "Distinguished mountable safes from portable lockboxes honestly", description: "Two picks here are genuinely portable lockboxes rather than mountable safes; we disclosed manufacturer statements about their high-value-storage limitations directly rather than implying equivalent security." },
+  { title: "Distinguished mountable safes from portable lockboxes honestly", description: "Two picks here are genuinely portable lockboxes rather than mountable safes; we disclosed manufacturer statements about their high-value-storage limitations directly rather than implying equivalent security." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -282,7 +282,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review count and rating together, not rating alone",
-    "explanation": "A 4.8-star rating from 12 reviews carries far less evaluation confidence than a 4.5-star rating from several thousand, since a small sample can be skewed by a handful of early, enthusiastic buyers before any long-term reliability issues would show up in later reviews.\n\nThis matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
+    "explanation": "This matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
   }
 ];
 
@@ -290,12 +290,12 @@ export const faq: FaqItem[] = [
   { q: "What's the best overall money safe?", a: "The Yuanshikj Small Steel Security Safe Box, with genuine mounting hardware and a magnetic auto-locking door." },
   { q: "Is there an option for shared household or business cash access?", a: "Yes, the Digital Electronic Money Safe supports two independent access codes." },
   { q: "Which pick has the best cash organization?", a: "The KYODOLED Small Metal Lock Box, with a removable 5-compartment coin tray, though it's a portable lockbox, not a mountable safe." },
-  { q: "What's the cheapest option?", a: "The KYODOLED Small Metal Lock Box at $13.49, a portable lockbox suited to petty cash rather than large sums." },
-  { q: "Is there a combination-lock option that avoids managing a key?", a: "Yes, the KYODOLED Small Metal Combination Lock Box uses a 3-digit combination, though the manufacturer states it's not built for high-value storage." },
+  { q: "What's the cheapest option?", a: "The KYODOLED Small Metal Lock Box at under $15, a portable lockbox suited to petty cash rather than large sums." },
+  { q: "Is there a combination-lock option that avoids managing a key?", a: "Yes, the KYODOLED Small Metal Combination Lock Box uses a 3-digit combination, though the manufacturer states it's not built for high-value storage." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-safe-boxes", title: "Best Small Safe Boxes (2026)" },
   { href: "/guide/best-small-safe-boxes-for-money", title: "Best Small Safe Boxes for Money (2026)" },
-  { href: "/guide/best-small-safes", title: "Best Small Safes (2026)" },
+  { href: "/guide/best-small-safes", title: "Best Small Safes (2026)" }
 ];

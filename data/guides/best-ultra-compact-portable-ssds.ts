@@ -5,7 +5,7 @@ export const metaDescription = "4 ultra-compact portable SSDs we evaluated, weig
 export const mainKeyword = "best ultra compact portable ssd";
 export const introParagraphs = [
   "Ultra-compact enclosures have the least surface area for heat dissipation in the entire portable SSD category, making them the most prone to thermal throttling under sustained load, a central consideration worth weighing against their small size and weight.",
-  "Extremely compact drives also sometimes use a less robust connector attachment, such as a fixed, non-replaceable cable or a more fragile port, a real durability tradeoff worth checking alongside the true kit weight and size including any included cable or case, not just the bare drive's dimensions.",
+  "Extremely compact drives also sometimes use a less robust connector attachment, such as a fixed, non-replaceable cable or a more fragile port, a real durability tradeoff worth checking alongside the true kit weight and size including any included cable or case, not just the bare drive's dimensions."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Ultra-Compact Pick",
     name: "KingSpec Z5 512GB External SSD - 2100MB/s, Portable Solid State Hard Drives with RGB Light, Zinc Alloy Case, USB 3.2 Gen2x2 Interface",
     price: "$88.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "436 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31a33qlUGuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLV9GG54?tag=deskfinds0d-20",
     description: "The KingSpec Z5 packs a genuinely small 512GB footprint with a rated 2100MB/s speed, though that compact zinc alloy case has limited surface area for heat dissipation under sustained transfers. It earns the top spot in this comparison over Seagate Storage Expansion Card 2TB Solid State Drive for one main reason. Genuinely small, pocketable footprint. On value, which is worth weighing if cost is your deciding factor between the two. Worth knowing before you decide: High rated speed for the size. On the other side, 512GB may be limiting for larger libraries. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Ultra-Compact Pick for PS5-Certified Play",
     name: "Seagate Storage Expansion Card 2TB Solid State Drive - NVMe SSD for Xbox Series X|S, Quick Resume, Plug & Play, Licensed",
     price: "Check current price on Amazon",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "30,738 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/316Its027kL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09BJYXMDW?tag=deskfinds0d-20",
     description: "Seagate's Storage Expansion Card is a genuinely small internal NVMe card designed to fit inside the PS5's expansion slot, where the console's own internal cooling helps offset the card's own limited surface area.\n\nOne spot below KingSpec Z5 512GB External SSD in this ranking, it's priced lower than KingSpec Z5 512GB External SSD. The compromise here is straightforward: Only usable with a PS5's internal expansion slot, not general external storage. What you gain in return: PS5's internal cooling helps offset the card's compact size. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: No external cable or port to worry about durability-wise. On the other side, Requires opening the PS5 case to install. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Ultra-Compact Pick with Broad Compatibility",
     name: "Transcend ESD310 1TB External SSD, Up to 1,050MB/s, Dual USB Drive, 2-in-1 Type C & A, USB 3.2 Gen2 Portable SSD",
     price: "$239.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "2,340 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31HBU-HAxoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C3B32H9M?tag=deskfinds0d-20",
     description: "Transcend's ESD310 stays genuinely compact while offering both USB-C and USB-A connectors, useful if you want a small drive that skips carrying a separate adapter.\n\nSitting just under Seagate Storage Expansion Card 2TB Solid State Drive, pricing between it and Seagate Storage Expansion Card 2TB Solid State Drive isn't directly comparable here. Here's the honest tradeoff: Verify true kit weight and size including any included cable. And here's what it gets you instead: Genuinely compact with dual-connector flexibility built in. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Reduces the need for a separate adapter. On the other side, Compact size still carries the same thermal throttling risk as other ultra-compact drives. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Ultra-Compact Pick from a Established High-Volume Brand",
     name: "SANDISK 2TB Extreme Portable SSD (Old Model) - Up to 1050MB/s, USB-C, USB 3.2 Gen 2, IP65 Water and Dust Resistance, Updated Firmware - SDSSDE61-2T00-G25",
     price: "$299.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "91,365 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41eTFK7clfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HN37XC1?tag=deskfinds0d-20",
     description: "SanDisk's Extreme, while not the smallest drive in this group, remains genuinely compact and benefits from IP65 durability plus the largest verified review base in our entire research pool.\n\nRanked just behind Transcend ESD310 1TB External SSD, it costs more than Transcend ESD310 1TB External SSD. The real tradeoff against that pick: Not the absolute smallest option in this category. In exchange, it offers this instead: Slightly larger size aids heat dissipation versus the smallest ultra-compact drives. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Largest verified review base in our research pool. On the other side, Sustained speed can dip once cache fills. That's the main tradeoff to weigh against everything above.",

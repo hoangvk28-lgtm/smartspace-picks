@@ -13,7 +13,7 @@ export const bestWebcamForVideoCallsGuide: Guide = {
     "best webcam for microsoft teams",
     "logitech brio 100 review",
     "nexigo n60 for video calls",
-    "webcam for working from home",
+    "webcam for working from home"
   ],
   heroImage: "/images/guides/best-webcam-for-video-calls/webcam-for-video-calls-hero.webp",
   thumbnailImage: "/images/guides/best-webcam-for-video-calls/webcam-for-video-calls-hero.webp",
@@ -25,7 +25,7 @@ export const bestWebcamForVideoCallsGuide: Guide = {
     "best-budget-1080p-webcam",
     "best-webcams-for-home-office",
     "best-webcam-under-50",
-    "best-mechanical-keyboard-under-100",
+    "best-mechanical-keyboard-under-100"
   ],
   faq: [
     {
@@ -57,7 +57,7 @@ export const bestWebcamForVideoCallsGuide: Guide = {
       question: "Can I use a webcam on a laptop for video calls?",
       answer:
         "Yes. All webcams in this guide are plug-and-play via USB on Windows 10/11, macOS 10.14+, ChromeOS, and Linux - no additional drivers required. After connecting, open Zoom, Teams, or Google Meet Settings and select the webcam as the video input device. The external webcam will deliver significantly better video quality than most built-in laptop cameras, which are typically 720p with no autofocus.",
-    },
+    }
   ],
   sections: [
     {
@@ -330,6 +330,6 @@ Most people buying a webcam for video calls focus on resolution - but resolution
 **Mic quality:** Most participants judge call quality by audio, not video. A webcam with better mics (C920x dual stereo, Anker C200 AI dual) makes a noticeable difference in how clear you sound, especially in rooms with echo or background noise.
 
 **Platform certification:** Teams and Zoom certification means the webcam is tested for platform-specific features. For standard calls, non-certified webcams work fine. Certification matters for enterprise deployments with IT device policies.`,
-    },
+    }
   ],
 };

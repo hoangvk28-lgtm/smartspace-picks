@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The most diverse charging ports and a pull-out shelf", "Perledesign 3 Drawer File Cabinet, Black Walnut"],
         ["The same features in a lighter finish", "Perledesign 3 Drawer File Cabinet, White"],
         ["Genuine lock security and mechanical tip-prevention", "Letaya Lateral 3 Drawer File Cabinet with Lock"],
-        ["The most drawers and solid charging at the lowest price", "SEDETA 4 Drawers File Cabinet with Power Outlets"],
+        ["The most drawers and solid charging at the lowest price", "SEDETA 4 Drawers File Cabinet with Power Outlets"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $160", "SEDETA 4-Drawer ($159.99)"],
-        ["Under $180", "Letaya Lateral ($179.99)"],
-        ["Under $210", "Perledesign White ($209.99)"],
-        ["Under $230", "Perledesign Black Walnut ($229.99)"],
+        ["Under $160", "SEDETA 4-Drawer (under $160)"],
+        ["Under $180", "Letaya Lateral (under $180)"],
+        ["Under $210", "Perledesign White (under $250)"],
+        ["Under $230", "Perledesign Black Walnut (under $250)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Charging-Focused Design vs Security-Focused Design",
     cards: [
       { label: "Charging-focused (Perledesign picks, SEDETA)", text: "Prioritizes built-in power for devices, better suited to a busy home office charging multiple electronics regularly." },
-      { label: "Security-focused (Letaya Lateral)", text: "Prioritizes lock security and mechanical tip-prevention, better suited to sensitive document storage without charging needs." },
+      { label: "Security-focused (Letaya Lateral)", text: "Prioritizes lock security and mechanical tip-prevention, better suited to sensitive document storage without charging needs." }
     ],
     note: "If your priority is consolidating device charging at your filing cabinet, the Perledesign or SEDETA picks deliver that. If document security and tipping safety matter more, the Letaya Lateral's lock and interlock system address those needs directly.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Contemporary or Scandinavian, darker tones", "Perledesign Black Walnut"],
         ["Bright, minimalist spaces", "Perledesign White"],
-        ["Farmhouse or rustic styling", "SEDETA 4-Drawer"],
+        ["Farmhouse or rustic styling", "SEDETA 4-Drawer"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Home Office Running Multiple Devices Simultaneously Specifically",
     cards: [
       { label: "Look for", text: "A cabinet with both traditional outlets and modern USB/Type-C ports to cover both legacy and current device charging needs." },
-      { label: "In this comparison", text: "Both Perledesign picks specifically include outlets, USB, and Type-C ports together, covering the broadest range of device charging needs." },
+      { label: "In this comparison", text: "Both Perledesign picks specifically include outlets, USB, and Type-C ports together, covering the broadest range of device charging needs." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the most diverse charging port selection and a dedicated pull-out equipment shelf, where the Perledesign picks deliver both at the top of this tier's price range." },
-      { label: "Save if", text: "You want the most drawers with solid charging capability without needing a pull-out shelf, where the SEDETA pick covers that for about $70 less." },
+      { label: "Save if", text: "You want the most drawers with solid charging capability without needing a pull-out shelf, where the SEDETA pick covers that for about $70 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

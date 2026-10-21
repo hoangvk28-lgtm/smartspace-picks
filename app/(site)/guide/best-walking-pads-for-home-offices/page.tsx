@@ -158,7 +158,7 @@ export default async function BestWalkingPadsForHomeOfficesPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Walking Pads for Home Offices", item: `${SITE_URL}/guide/best-walking-pads-for-home-offices` },
+      { "@type": "ListItem", position: 3, name: "Best Walking Pads for Home Offices", item: `${SITE_URL}/guide/best-walking-pads-for-home-offices` }
     ],
   };
 

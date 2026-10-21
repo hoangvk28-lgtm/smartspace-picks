@@ -5,7 +5,7 @@ export const metaDescription = "6 UPS units we evaluated for Automatic Voltage R
 export const mainKeyword = "UPS battery backup with AVR";
 export const introParagraphs = [
   "AVR (Automatic Voltage Regulation) corrects moderate voltage fluctuations in-line, without switching to battery power, a distinction that directly extends battery lifespan since every unnecessary battery-mode switch during a minor brownout drains a charge cycle that a genuine outage would otherwise need.",
-  "AVR correction range varies significantly between models and determines how much brownout severity it can handle before switching to battery anyway, a UPS with a narrow range will still drain its battery during more severe sags that a wider-range AVR model could absorb without touching it.",
+  "AVR correction range varies significantly between models and determines how much brownout severity it can handle before switching to battery anyway, a UPS with a narrow range will still drain its battery during more severe sags that a wider-range AVR model could absorb without touching it."
 ];
 export const lastUpdated = "2026-07-30";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best AVR UPS Overall",
     name: "CyberPower CP1500PFCLCD PFC Sinewave UPS Battery Backup and Surge Protector, 1500VA/1000W, 12 Outlets, AVR, Mini Tower, UL Certified",
     price: "$219.99",
-    rating: "4.6 stars from 11,256 Amazon ratings",
-    reviews: "11,256 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31DYxDN0bTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00429N19W?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Intelligent AVR Display Pick",
     name: "CyberPower CP1500AVRLCD3 Intelligent LCD UPS Battery Backup",
     price: "$199.95",
-    rating: "4.5 stars from 3,392 Amazon ratings",
-    reviews: "3,392 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41OE+tVig0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BCMLLSHL?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best AVR Pick for PCs and Office Electronics",
     name: "APC UPS 1500VA/900W Battery Backup for PCs, Office Electronics, BX1500M",
     price: "$189.99",
-    rating: "4.5 stars from 13,112 Amazon ratings",
-    reviews: "13,112 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31p-5+FvTgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06VY6FXMM?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Mid-Capacity AVR Pick",
     name: "APC 1000VA/600W Pro UPS Battery Backup for Office Electronics, AVR, BX1000M",
     price: "$183.99",
-    rating: "4.5 stars from 2,697 Amazon ratings",
-    reviews: "2,697 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31VPmugfqML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06VY12HW4?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact AVR System",
     name: "CyberPower AVRG750U AVR UPS System, 750VA/450W, 12 Outlets, Compact",
     price: "$119.95",
-    rating: "4.5 stars from 1,032 Amazon ratings",
-    reviews: "1,032 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41bNhavHbjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00K8ZMTAQ?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best Intelligent LCD at Lower Capacity",
     name: "CyberPower CP1000AVRLCD Intelligent LCD UPS Battery Backup",
     price: "$175.95",
-    rating: "4.5 stars from 4,582 Amazon ratings",
-    reviews: "4,582 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31DlLYCaalL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000QZ3UG0?tag=deskfinds0d-20",
     description:
@@ -120,14 +120,14 @@ export const products: GuideProduct[] = [
     pros: ["Large, well-established review base", "Intelligent LCD for AVR/battery-mode visibility", "Solid capacity for a single-PC setup", "Reasonable price"],
     cons: ["AVR correction range not disclosed", "Not the highest capacity option here", "Standby power draw from AVR circuitry not quantified"],
     bestFor: "Buyers who want a well-proven mid-capacity AVR pick with status visibility",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "AVR's real battery-lifespan benefit, not just a feature checkbox", description: "Prioritized picks where AVR genuinely corrects brownouts in-line without switching to battery, since every unnecessary battery-mode switch on a minor sag drains a charge cycle a real outage would otherwise need." },
   { title: "Review base as evidence of long-term AVR reliability", description: "Weighed larger, more established review bases more heavily, since AVR reliability over years of real brownout events matters more than a spec-sheet claim." },
-  { title: "Capacity matched to realistic desk setups", description: "Ranked picks by whether their VA/W rating and outlet count genuinely fit a single-PC setup versus a full multi-device desktop, from budget 750VA options to full 1500VA/1000W picks." },
+  { title: "Capacity matched to realistic desk setups", description: "Ranked picks by whether their VA/W rating and outlet count genuinely fit a single-PC setup versus a full multi-device desktop, from budget 750VA options to full 1500VA/1000W picks." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -245,11 +245,11 @@ export const faq: FaqItem[] = [
   { q: "Does AVR use extra power all the time?", a: "Yes, marginally. The always-active voltage correction circuitry in AVR-equipped UPS units draws slightly more standby wattage than simpler battery-only backup models, a small but real tradeoff." },
   { q: "How do I know which AVR correction range a UPS offers?", a: "Manufacturers don't always disclose the exact AVR correction range (e.g., plus or minus 8% versus 15-20%). Check the product's detailed spec sheet where available, wider ranges handle more severe brownouts before switching to battery." },
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers who want the most-proven AVR pick for a full desktop setup" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers who want basic AVR brownout correction for a modest setup At $119.95, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers who want basic AVR brownout correction for a modest setup At under $120, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-pure-sine-wave-ups", title: "Best Pure Sine Wave UPS Battery Backups (2026)" },
   { href: "/guide/best-ups-battery-backups-with-replaceable-batteries", title: "Best UPS Battery Backups with Replaceable Batteries (2026)" },
-  { href: "/guide/best-ups-battery-backups-for-computers-and-monitors", title: "Best UPS Battery Backups for Computers and Monitors (2026)" },
+  { href: "/guide/best-ups-battery-backups-for-computers-and-monitors", title: "Best UPS Battery Backups for Computers and Monitors (2026)" }
 ];

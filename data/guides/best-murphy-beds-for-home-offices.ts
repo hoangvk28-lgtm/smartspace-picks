@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "murphy bed for home office";
 export const introParagraphs = [
   "Turning a murphy bed into a real home office setup involves more than picking a bed that folds up over a desk. The desk surface is usually shallow and thin, the fold-down lighting rarely reaches the keyboard once the room light is behind you, and a closed cabinet does nothing to soften your voice on video calls in a shared living room or studio apartment. This guide looks past the fold mechanism and storage drawers to the details that actually decide whether the desk side works for a full workday.",
-  "We focus on outlet planning, task lighting, monitor arm mounting limits on a shallow murphy desk, and acoustic considerations for shared spaces, angles most murphy bed guides skip entirely in favor of mattress size and wall clearance. Below are 8 murphy beds we evaluated for desk-side usability, ranging from a $197 vertical hardware kit to a $699.98 fully finished cabinet bed with built-in LED lighting.",
+  "We focus on outlet planning, task lighting, monitor arm mounting limits on a shallow murphy desk, and acoustic considerations for shared spaces, angles most murphy bed guides skip entirely in favor of mattress size and wall clearance. Below are 8 murphy beds we evaluated for desk-side usability, ranging from a $197 vertical hardware kit to an under-$700 fully finished cabinet bed with built-in LED lighting."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -46,8 +46,8 @@ export const products: GuideProduct[] = [
     badge: "Best Hardware Kit for a Custom Desk",
     name: "Create-A-Bed Queen Size Deluxe Murphy Bed Kit, Vertical",
     price: "$299.00",
-    rating: "4.6 stars",
-    reviews: "2,138 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51H6j9qVxwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00CYPV29W?tag=deskfinds0d-20",
     description:
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Gas piston lift assist",
       "Queen size, hardware only",
       "Requires custom cabinet build",
-      "Step-by-step installation guide included",
+      "Step-by-step installation guide included"
     ],
     pros: [
       "Full control over desk depth for monitor arm clamps",
       "Lets you plan outlet placement before install",
       "Gas piston assist for smooth folding",
-      "Lower cost than a finished cabinet bed",
+      "Lower cost than a finished cabinet bed"
     ],
     cons: [
       "No built-in desk lighting, budget for it separately",
       "Requires carpentry skill to build the cabinet",
-      "No acoustic panel or privacy feature included",
+      "No acoustic panel or privacy feature included"
     ],
     bestFor: "Buyers who want a deep, monitor-arm-ready desk built to their own specs",
   },
@@ -78,8 +78,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget DIY Kit",
     name: "Queen Size Murphy Bed Hardware Kit, Vertical Wall Bed Frame with Gas Pistons",
     price: "$197.00",
-    rating: "4.6 stars",
-    reviews: "1,610 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51h1vyv6ZdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B017701FUE?tag=deskfinds0d-20",
     description:
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Gas piston lift assist",
       "Queen size, hardware only",
       "3 step-by-step build guides included",
-      "Made in North America",
+      "Made in North America"
     ],
     pros: [
       "Lowest price on this list",
       "Custom desk depth for monitor arm compatibility",
       "Gas piston assist",
-      "Multiple build guides included",
+      "Multiple build guides included"
     ],
     cons: [
       "No desk lighting or acoustic features included",
       "Requires a full DIY cabinet build",
-      "Outlet planning is entirely on the buyer",
+      "Outlet planning is entirely on the buyer"
     ],
     bestFor: "Budget-focused DIY builders who want maximum desk customization",
   },
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Shared Living Room Privacy",
     name: "Yoobure Queen Murphy Bed with Charging Station, Rattan Frame with Storage Drawers",
     price: "$459.99",
-    rating: "4.5 stars",
-    reviews: "19 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51JtI3bjGFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GQM56Y2N?tag=deskfinds0d-20",
     description:
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Built-in charging station",
       "Storage drawers included",
       "Rattan-front cabinet design",
-      "Foldable platform base",
+      "Foldable platform base"
     ],
     pros: [
       "Finished look suited to shared living spaces",
       "Charging station built into the frame",
       "Storage drawers add organization",
-      "Rattan front adds some sound dampening",
+      "Rattan front adds some sound dampening"
     ],
     cons: [
       "Shallow desk surface, avoid heavy clamp-mount monitor arms",
       "Low review count for a newer listing",
-      "No dedicated desk task light included",
+      "No dedicated desk task light included"
     ],
     bestFor: "Shared living rooms or studios where the closed bed needs to look finished",
   },
@@ -142,8 +142,8 @@ export const products: GuideProduct[] = [
     badge: "Best Storage-Focused Cabinet Bed",
     name: "AMERLIFE Queen Murphy Bed with Storage and Charging Station",
     price: "$499.99",
-    rating: "4.2 stars",
-    reviews: "396 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51Og-FctXuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGL5B76J?tag=deskfinds0d-20",
     description:
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Side storage compartments",
       "Built-in charging station",
       "MDF cabinet construction",
-      "Foldable platform base",
+      "Foldable platform base"
     ],
     pros: [
       "Side storage keeps desk accessories organized",
       "Charging station included",
       "Mid-tier MDF build holds up better than particleboard",
-      "Finished look for shared spaces",
+      "Finished look for shared spaces"
     ],
     cons: [
       "Shallow desk surface, not rated for heavy monitor arms",
       "No included desk lighting",
-      "Higher price than the DIY hardware kits",
+      "Higher price than the DIY hardware kits"
     ],
     bestFor: "Buyers who want built-in storage alongside the desk without a DIY build",
   },
@@ -174,8 +174,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Chest-Style Option",
     name: "Hlivelood Full Size Murphy Chest Bed with Drawer and Charging Station, Rustic White",
     price: "$349.99",
-    rating: "4.2 stars",
-    reviews: "112 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/516I1SJ4lqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DNKM6NRF?tag=deskfinds0d-20",
     description:
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Single storage drawer",
       "Built-in charging station",
       "Particleboard cabinet construction",
-      "Rustic white finish",
+      "Rustic white finish"
     ],
     pros: [
       "Narrower footprint than a queen cabinet bed",
       "Lighter finish helps desk-side visibility",
       "Charging station included",
-      "Lower price than mid-tier MDF options",
+      "Lower price than mid-tier MDF options"
     ],
     cons: [
       "Budget particleboard build wears faster over years of daily use",
       "No dedicated desk task lighting",
-      "Full size mattress only, not queen",
+      "Full size mattress only, not queen"
     ],
     bestFor: "Smaller rooms that need a narrower cabinet footprint next to the desk",
   },
@@ -207,7 +207,7 @@ export const products: GuideProduct[] = [
     name: "Hlivelood Queen Size Murphy Bed with 2 LED Lights, Gas Struts, Brown",
     price: "$699.98",
     rating: "4 stars",
-    reviews: "141 Amazon ratings",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51XE-SiCWBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FFSTT5LQ?tag=deskfinds0d-20",
     description:
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "2 built-in LED lights",
       "Gas strut fold assist",
       "No box spring needed",
-      "Farmhouse wood cabinet finish",
+      "Farmhouse wood cabinet finish"
     ],
     pros: [
       "Only pick with built-in desk-side LED lighting",
       "Gas struts for smooth, controlled folding",
       "Finished farmhouse look for shared spaces",
-      "No separate task lamp needed",
+      "No separate task lamp needed"
     ],
     cons: [
       "Highest price on this list",
       "Shallow desk surface, still not rated for heavy monitor arms",
-      "Lower average rating than the hardware kits",
+      "Lower average rating than the hardware kits"
     ],
     bestFor: "Buyers who want built-in lighting instead of adding a separate desk lamp",
   },
@@ -239,7 +239,7 @@ export const products: GuideProduct[] = [
     name: "Hlivelood Queen Size Murphy Bed with 2 LED Lights, Gas Struts, Rustic White",
     price: "$639.99",
     rating: "4 stars",
-    reviews: "141 Amazon ratings",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/515sMh7j30L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXZVVHCG?tag=deskfinds0d-20",
     description:
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "2 built-in LED lights",
       "Gas strut fold assist",
       "No box spring needed",
-      "Rustic white cabinet finish",
+      "Rustic white cabinet finish"
     ],
     pros: [
       "Built-in LED desk lighting",
       "Lighter finish improves desk-side visibility",
       "Lower price than the brown LED version",
-      "Gas struts for smooth folding",
+      "Gas struts for smooth folding"
     ],
     cons: [
       "Shallow desk surface, not rated for heavy monitor arms",
       "No acoustic privacy feature for shared rooms",
-      "Lower average rating than the hardware kits",
+      "Lower average rating than the hardware kits"
     ],
     bestFor: "Buyers who want built-in lighting with a brighter, reflective cabinet finish",
   },
@@ -271,7 +271,7 @@ export const products: GuideProduct[] = [
     name: "LIVAUVEAD Twin Size Murphy Bed with Charging Station and Drawer, White",
     price: "$249.99",
     rating: "4 stars",
-    reviews: "120 Amazon ratings",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51iWQRI54lL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F13Q522K?tag=deskfinds0d-20",
     description:
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Built-in charging station",
       "Single storage drawer",
       "White cabinet finish",
-      "Foldable platform base",
+      "Foldable platform base"
     ],
     pros: [
       "Narrowest cabinet footprint on this list",
       "Charging station included",
       "Lighter finish aids desk visibility",
-      "Lowest price among the finished cabinet beds",
+      "Lowest price among the finished cabinet beds"
     ],
     cons: [
       "No built-in desk lighting",
       "Shallow desk surface, avoid heavy monitor arms",
-      "Twin mattress only, not suited to a shared bed use case",
+      "Twin mattress only, not suited to a shared bed use case"
     ],
     bestFor: "Small single-occupant home offices where floor width is the tightest constraint",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -328,7 +328,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Value for price",
     description:
       "Weighed desk usability features, lighting, and cabinet material quality against price across the range of price points in this comparison in this list.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -470,12 +470,12 @@ export const faq: FaqItem[] = [
   },
   {
     q: "Do budget murphy bed cabinets hold up as well as mid-tier ones?",
-    a: "Budget cabinets in the $249.99 to $349.99 range generally use particleboard or veneer, which is more prone to wear at drawer runners and hinges over years of daily folding compared to the MDF and dovetail joinery typical of mid-tier picks in the $459.99 to $699.98 range.",
-  },
+    a: "Budget cabinets in the roughly $250 to $350 range generally use particleboard or veneer, which is more prone to wear at drawer runners and hinges over years of daily folding compared to the MDF and dovetail joinery typical of mid-tier picks in the roughly $500 to $700 range.",
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-murphy-beds-for-small-spaces", title: "Best Murphy Beds for Small Spaces (2026)" },
   { href: "/guide/best-murphy-beds-with-desks", title: "Best Murphy Beds with Desks (2026)" },
-  { href: "/guide/best-filing-cabinets-for-home-offices", title: "Best Filing Cabinets for Home Offices (2026)" },
+  { href: "/guide/best-filing-cabinets-for-home-offices", title: "Best Filing Cabinets for Home Offices (2026)" }
 ];

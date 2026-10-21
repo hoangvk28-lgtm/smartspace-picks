@@ -12,7 +12,7 @@ export const usb4NvmeEnclosureExplainedGuide: Guide = {
     "what is an nvme enclosure",
     "usb4 vs usb-c nvme enclosure",
     "diy external ssd nvme enclosure",
-    "nvme enclosure speed explained",
+    "nvme enclosure speed explained"
   ],
   heroImage: "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const usb4NvmeEnclosureExplainedGuide: Guide = {
     "external-ssd-vs-hdd",
     "thunderbolt-vs-usb-c-explained",
     "external-drive-storage-size-chart",
-    "usb-c-power-delivery-explained",
+    "usb-c-power-delivery-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const usb4NvmeEnclosureExplainedGuide: Guide = {
       question: "Will any NVMe SSD fit in any enclosure?",
       answer:
         "Not universally, check that the enclosure supports your specific NVMe form factor (most commonly M.2 2280) and interface type (NVMe versus the older SATA-based M.2 drives, which aren't always compatible with NVMe-only enclosures).",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const usb4NvmeEnclosureExplainedGuide: Guide = {
     {
       heading: "Checking Compatibility Before Buying Components Separately",
       body: `When building your own external SSD from separate components, confirm the enclosure explicitly supports NVMe drives (not just any M.2 drive, since some M.2 drives use the older, incompatible SATA interface) and the correct physical size, most commonly the 2280 form factor. Checking these compatibility details before purchasing both pieces avoids the frustration of an enclosure and drive that physically or electrically don't work together.`,
-    },
+    }
   ],
 };

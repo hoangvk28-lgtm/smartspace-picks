@@ -161,7 +161,7 @@ export default async function BestRollingCartsHomeOfficePage() {
     about: [
       { "@type": "Thing", name: "Rolling Cart" },
       { "@type": "Thing", name: "Home Office Storage" },
-      { "@type": "Thing", name: "Mobile Storage" },
+      { "@type": "Thing", name: "Mobile Storage" }
     ],
   };
 
@@ -181,7 +181,7 @@ export default async function BestRollingCartsHomeOfficePage() {
         position: 3,
         name: "Best Rolling Carts for Home Offices",
         item: `${SITE_URL}/guide/best-rolling-carts-home-office`,
-      },
+      }
     ],
   };
 
@@ -521,7 +521,7 @@ export default async function BestRollingCartsHomeOfficePage() {
                       type: "Mobile file cabinet",
                       bestFor: "Active file storage plus mobility",
                       notes: "Letaya, most expensive in roundup",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -570,57 +570,57 @@ export default async function BestRollingCartsHomeOfficePage() {
                 id: "simple-houseware-3-tier",
                 name: "Simple Houseware 3-Tier",
                 verdict:
-                  " - 32,107 reviews at 4.7 stars, 22-lb shelf, 2 lockable casters.",
+                  " - 22-lb shelf, 2 lockable casters.",
               },
               {
                 context: "Best value with handle",
                 id: "pipishell-3-tier-handle",
                 name: "Pipishell 3-Tier",
                 verdict:
-                  " - 15,132 reviews at 4.6 stars, $28.46, handle for carrying.",
+                  " - Under $30, handle for carrying.",
               },
               {
                 context: "Best enclosed drawer cart",
                 id: "homz-4-drawer-black",
                 name: "HOMZ 4-Drawer Black",
                 verdict:
-                  " - 13,002 reviews at 4.5 stars, 4 drawers, 360-degree casters.",
+                  " - 4 drawers, 360-degree casters.",
               },
               {
                 context: "Best clear-drawer option",
                 id: "homz-3-tier-clear",
                 name: "HOMZ 3-Tier Clear",
                 verdict:
-                  " - 7,224 reviews at 4.6 stars, visible contents, removable wheels.",
+                  " - Visible contents, removable wheels.",
               },
               {
                 context: "Best for large-volume supply storage",
                 id: "ctsnslh-stackable-bins",
                 name: "CTSNSLH 93 Qt Bins",
                 verdict:
-                  " - 5,690 reviews at 4.5 stars, 93-quart capacity, under $31.",
+                  " - 93-quart capacity, under $31.",
               },
               {
                 context: "Best value for heavy printer support",
                 id: "goovilla-124lb-hybrid",
                 name: "Goovilla 124 lbs",
                 verdict:
-                  " - 3,559 reviews at 4.6 stars, $23.99 lowest price, 124-lb capacity.",
+                  " - Under $25 lowest price, 124-lb capacity.",
               },
               {
                 context: "Highest rated black metal cart",
                 id: "yasonic-3-tier-black",
                 name: "YASONIC Black Metal",
                 verdict:
-                  " - 1,773 reviews at 4.7 stars, 66-lb capacity, cups and hooks.",
+                  " - 66-lb capacity, cups and hooks.",
               },
               {
                 context: "Best for active file storage",
                 id: "letaya-mobile-file-cabinet",
                 name: "Letaya Mobile File Cabinet",
                 verdict:
-                  " - 1,329 reviews at 4.5 stars, locking drawers, file hanging, $99.99.",
-              },
+                  " - Locking drawers, file hanging, under $100.",
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

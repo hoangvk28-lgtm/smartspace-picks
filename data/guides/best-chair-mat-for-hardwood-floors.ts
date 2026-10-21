@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "chair mat for hardwood floors";
 export const introParagraphs = [
   "Hardwood floors need more caution than a generic hard floor, because some PVC mats can interact with certain wood finishes over years of constant contact, occasionally leading to discoloration or finish damage underneath the mat. Polyurethane, oil, and wax finishes each respond differently, and a mat sitting in one spot for years is a very different scenario than a mat that gets moved around regularly.",
-  "Below are 8 chair mats for hardwood floors we evaluated on grip, edge durability, and how likely each material is to affect a wood finish over the long haul, ranging from a $21.37 budget PVC pick to a $139.99 glass-hardness mat built specifically for buyers who don't want to risk their floor's finish.",
+  "Below are 8 chair mats for hardwood floors we evaluated on grip, edge durability, and how likely each material is to affect a wood finish over the long haul, ranging from an under-$25 budget PVC pick to an under-$140 glass-hardness mat built specifically for buyers who don't want to risk their floor's finish."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -57,18 +57,17 @@ export const products: GuideProduct[] = [
       "PVC, 1.5mm thick",
       "Frosted anti-slip top surface",
       "Smooth protective underside",
-      "BPA-free, transparent",
+      "BPA-free, transparent"
     ],
     pros: [
-      "Cheapest pick in this guide at $21.37",
+      "Cheapest pick in this guide at under $25",
       "Best rolling control among the budget picks",
-      "Massive review base at 12,138 ratings",
-      "Smooth underside protects the wood surface",
+      "Smooth underside protects the wood surface"
     ],
     cons: [
       "Standard PVC, not the gentlest option for premium hardwood finishes",
       "Thinner than the rigid glass-hardness pick",
-      "Transparent PVC can yellow slightly after a year or two",
+      "Transparent PVC can yellow slightly after a year or two"
     ],
     bestFor: "Budget buyers with an everyday hardwood or engineered hardwood floor",
   },
@@ -89,18 +88,17 @@ export const products: GuideProduct[] = [
       "PVC, 1.7mm thick",
       "Smooth gliding surface, rounded corners",
       "Will not curl, bend, or crack",
-      "Transparent",
+      "Transparent"
     ],
     pros: [
       "Resists curling better than thinner clear mats",
       "Rounded, easy-to-roll-over edges",
-      "Transparent finish blends into any room",
-      "Reliable 4.2-star rating",
+      "Transparent finish blends into any room"
     ],
     cons: [
       "Standard PVC underside, not rubber",
       "Best suited to polyurethane-finished floors over oil or wax finishes",
-      "Can develop a slight yellow tint over time",
+      "Can develop a slight yellow tint over time"
     ],
     bestFor: "Buyers who want a durable clear mat that won't curl on a polyurethane-finished floor",
   },
@@ -121,18 +119,18 @@ export const products: GuideProduct[] = [
       "PVC, 0.06\" thick",
       "Dual-sided: smooth down, matte grip up",
       "Transparent",
-      "Cheapest pick in this guide",
+      "Cheapest pick in this guide"
     ],
     pros: [
       "Cheapest pick in this guide",
       "Reversible design adds grip flexibility",
       "Compact width suits smaller desk footprints",
-      "Strong 3,457-rating review base",
+      "Strong 3,457-rating review base"
     ],
     cons: [
       "Narrower than the 36\"-wide picks",
       "Standard PVC underside, not rubber",
-      "Thinnest mat in this guide at 0.06\"",
+      "Thinnest mat in this guide at 0.06\""
     ],
     bestFor: "Budget buyers who want a reversible mat for everyday hardwood use",
   },
@@ -153,18 +151,17 @@ export const products: GuideProduct[] = [
       "PVC, 0.08\" thick",
       "Rattan-like woven pattern top",
       "Rubber non-slip base, no adhesive",
-      "Flame-retardant, waterproof, oil-resistant, heat-resistant",
+      "Flame-retardant, waterproof, oil-resistant, heat-resistant"
     ],
     pros: [
       "Most distinctive design in this guide",
       "Rubber base is gentler on hardwood finish long-term than plain PVC",
-      "No adhesive needed, less residue risk",
-      "Strong 4.4-star rating",
+      "No adhesive needed, less residue risk"
     ],
     cons: [
       "Pattern reduces transparency versus fully clear mats",
       "Pricier than the basic clear PVC budget picks",
-      "Not glass-level in scratch or finish-safety terms",
+      "Not glass-level in scratch or finish-safety terms"
     ],
     bestFor: "Buyers who want a distinctive look plus a gentler rubber base for their hardwood floor",
   },
@@ -185,18 +182,17 @@ export const products: GuideProduct[] = [
       "PVC + rubber backing",
       "Tested through 10,000+ durability cycles (per listing)",
       "Curl-free edges, water-resistant",
-      "Silent glide",
+      "Silent glide"
     ],
     pros: [
-      "Highest-rated PVC pick in this guide at 4.6 stars",
       "Rubber backing is gentler on hardwood finish than plain PVC",
       "Curl-free edges stay flat long-term",
-      "Distinctive Espresso color option",
+      "Distinctive Espresso color option"
     ],
     cons: [
       "Smaller review count than the top budget picks",
       "Still not glass-level hardness for zero finish-reaction risk",
-      "Espresso color rules out a clear, invisible look",
+      "Espresso color rules out a clear, invisible look"
     ],
     bestFor: "Buyers who want the best-rated PVC mat with backing that's easier on their hardwood finish",
   },
@@ -217,18 +213,17 @@ export const products: GuideProduct[] = [
       "Rigid material, 5mm thick",
       "Rated 1,400 lbs capacity",
       "Dual-use: hardwood or carpet",
-      "12-month warranty",
+      "12-month warranty"
     ],
     pros: [
       "Highest weight capacity in this guide at 1,400 lbs",
       "Thickest, most rigid pick short of the glass-level option",
-      "Works on both hardwood and carpet",
-      "Massive review base at 19,765 ratings",
+      "Works on both hardwood and carpet"
     ],
     cons: [
       "Pricier than every basic PVC pick in this list",
       "Not rated at glass-level hardness for finish safety",
-      "Heavier and less easy to reposition",
+      "Heavier and less easy to reposition"
     ],
     bestFor: "Buyers who want high capacity and might move the mat between hardwood and carpet",
   },
@@ -249,18 +244,18 @@ export const products: GuideProduct[] = [
       "Polycarbonate + ceramic composite, 0.25\" thick",
       "4H hardness rating (glass-level)",
       "Rated 1,500 lbs capacity",
-      "92-95% transparent, beveled edge, 6 residue-free anti-slip pads",
+      "92-95% transparent, beveled edge, 6 residue-free anti-slip pads"
     ],
     pros: [
       "Only glass-level 4H hardness rating in this guide",
       "Least likely material to react with any hardwood finish",
       "Highest weight capacity in this guide at 1,500 lbs",
-      "Residue-free anti-slip pads protect the finish",
+      "Residue-free anti-slip pads protect the finish"
     ],
     cons: [
       "Most expensive pick in this guide by a wide margin",
       "Smaller review sample than the popular budget picks",
-      "Thickness may feel like a bigger step-up transition for a chair",
+      "Thickness may feel like a bigger step-up transition for a chair"
     ],
     bestFor: "Buyers with a premium solid hardwood floor who want the least risk of finish damage",
   },
@@ -281,21 +276,20 @@ export const products: GuideProduct[] = [
       "PET, 0.087\" thick, double-layer",
       "Ships completely flat",
       "Will not bend, curl, crack, or leave divots",
-      "Slip-resistant backing, semi-transparent",
+      "Slip-resistant backing, semi-transparent"
     ],
     pros: [
       "PET is more chemically stable against hardwood finishes than standard PVC",
       "Ships flat, no curling to fight out of the box",
-      "Ultra-thick double-layer resists divots",
-      "High 4.6-star rating",
+      "Ultra-thick double-layer resists divots"
     ],
     cons: [
       "Very small review count so far",
       "Semi-transparent rather than fully clear",
-      "Smaller footprint than the larger dual-use picks",
+      "Smaller footprint than the larger dual-use picks"
     ],
     bestFor: "Buyers who want a chemically stable, ships-flat mat without paying glass-level prices",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +317,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed price against finish-safety and durability, the SHAREWIN and MESAILUP sit at opposite ends of that budget-to-peace-of-mind trade-off.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,11 +471,11 @@ export const faq: FaqItem[] = [
   {
     q: "How do I repair a scratch on my hardwood floor if one happens?",
     a: "A light surface scratch on a polyurethane finish can often be blended with a matching hardwood touch-up marker or stain pen. Deeper scratches or finish discoloration typically require a professional refinish of that section, which is why choosing a gentler mat material upfront is worth the extra cost on a floor you want to protect long-term.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-chair-mat-hard-floor", title: "Best Chair Mats for Hard Floors (2026)" },
   { href: "/guide/best-chair-mats-for-thick-carpet", title: "Best Chair Mats for Thick Carpet (2026)" },
-  { href: "/guide/best-office-chair-under-500", title: "Best Office Chairs Under $500 (2026)" },
+  { href: "/guide/best-office-chair-under-500", title: "Best Office Chairs Under $500 (2026)" }
 ];

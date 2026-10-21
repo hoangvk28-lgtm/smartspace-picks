@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desktop safes";
 export const introParagraphs = [
   "A safe sitting visibly on a desk is conspicuous and, unless it's genuinely anchored, easy to simply pick up and carry away. We required confirmed mounting hardware before recommending any pick here for desktop placement, rather than treating a locked-but-unanchored box as equivalent security.",
-  "We also checked footprint against realistic desk space, since a desktop safe competing with a monitor stand, keyboard, and paperwork needs to be genuinely compact, not just small compared to a floor safe.",
+  "We also checked footprint against realistic desk space, since a desktop safe competing with a monitor stand, keyboard, and paperwork needs to be genuinely compact, not just small compared to a floor safe."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     pros: ["Lockout cooldown genuinely deters code-guessing at a shared desk"],
     cons: ["Mounting hardware not explicitly confirmed in this listing, verify before assuming anchorable"],
     bestFor: "Buyers specifically worried about repeated code-guessing at a shared desk.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required confirmed mounting hardware before recommending desktop placement", description: "A visible desktop safe without anchoring can simply be picked up and carried away. We checked for confirmed pre-drilled holes and included hardware on every pick, flagging the one listing where this wasn't explicitly confirmed." },
   { title: "Weighed concealment options as an alternative to visible anchoring", description: "Two picks confirm peg-mounting or reserved anchor holes specifically designed for hiding the safe in a cabinet or wall near the desk rather than leaving it visibly on top." },
   { title: "Compared footprint against realistic desk space constraints", description: "We noted confirmed dimensions against a typical desk already holding a monitor, keyboard, and paperwork, rather than assuming any small safe fits comfortably." },
-  { title: "Checked for repeated-entry lockout as a desk-specific deterrent", description: "A shared workspace means more people have physical proximity to attempt guessing a code. We flagged which picks confirm a lockout cooldown after repeated wrong entries." },
+  { title: "Checked for repeated-entry lockout as a desk-specific deterrent", description: "A shared workspace means more people have physical proximity to attempt guessing a code. We flagged which picks confirm a lockout cooldown after repeated wrong entries." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -283,11 +283,11 @@ export const faq: FaqItem[] = [
   { q: "Is there an option that hides inside a drawer instead of sitting visibly on the desk?", a: "Yes, the Amazon Basics Small Slim Desk Drawer Security Safe is specifically designed for that placement." },
   { q: "Is there a concealed-mounting option rather than a visible desktop box?", a: "Yes, the Digital Electronic Money Safe uses a peg-mounting system for concealed placement on a shelf, wall, or cabinet." },
   { q: "Which pick has the best deterrent against repeated code-guessing?", a: "Both the Small Safe for Home (with an alarm and mute mode) and the Voncabay Money Safe Box (with a 5-minute lockout) address this directly." },
-  { q: "Do all these picks include mounting hardware?", a: "Seven of the eight explicitly confirm mounting hardware. One listing (Voncabay) doesn't explicitly confirm this, verify directly before assuming it's anchorable." },
+  { q: "Do all these picks include mounting hardware?", a: "Seven of the eight explicitly confirm mounting hardware. One listing (Voncabay) doesn't explicitly confirm this, verify directly before assuming it's anchorable." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-safes-for-offices", title: "Best Small Safes for Offices (2026)" },
   { href: "/guide/best-small-safes-that-bolt-to-the-floor", title: "Best Small Safes That Bolt to the Floor (2026)" },
-  { href: "/guide/best-hidden-small-safes", title: "Best Hidden Small Safes (2026)" },
+  { href: "/guide/best-hidden-small-safes", title: "Best Hidden Small Safes (2026)" }
 ];

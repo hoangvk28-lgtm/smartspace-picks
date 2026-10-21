@@ -48,7 +48,7 @@ export const products: DockProduct[] = [
     whyItWins: "The Anker 777 is the best balanced docking station for most home office and desk setups. Thunderbolt 4 delivers 40 Gbps of bandwidth, two 4K60 display outputs, and 90W laptop charging -- all from one Thunderbolt cable to your laptop. Twelve ports cover every peripheral a standard desk needs: USB-A for keyboard and mouse, USB-C for accessories, HDMI and DisplayPort for monitors, Gigabit Ethernet for wired network, and an SD card slot for cameras.",
     bodyParagraphs: [
       "The design is desk-friendly: a rectangular tower that stands upright or lies flat, with ports accessible on both front and back. The front-facing USB-A and USB-C ports are the practical detail -- you plug in USB drives or charge devices without reaching behind the unit.",
-      "At ~$150--180, it sits at a price where Thunderbolt 4 becomes genuinely accessible without the premium of CalDigit or OWC.",
+      "At ~$150--180, it sits at a price where Thunderbolt 4 becomes genuinely accessible without the premium of CalDigit or OWC."
     ],
     specs: [
       { label: "Connection", value: "Thunderbolt 4 (1x upstream to laptop)" },
@@ -56,19 +56,19 @@ export const products: DockProduct[] = [
       { label: "Displays", value: "2x 4K@60Hz (1x HDMI + 1x DisplayPort)" },
       { label: "Ports", value: "4x USB-A 3.2, 3x USB-C, 1x HDMI, 1x DisplayPort, 1x Gigabit Ethernet, 1x SD, 1x audio" },
       { label: "Data", value: "40 Gbps" },
-      { label: "Price", value: "~$150--180" },
+      { label: "Price", value: "~$150--180" }
     ],
     pros: [
       "Full TB4 bandwidth at accessible price",
       "90W laptop charging -- fast enough for MacBook Pro 14\"",
       "Front + back port layout for easy access",
       "12 ports covers every standard desk peripheral",
-      "Stable, reliable TB4 performance",
+      "Stable, reliable TB4 performance"
     ],
     cons: [
       "90W charging slightly low for MacBook Pro 16\" under heavy load (charges, just slowly)",
       "No wireless charging pad",
-      "No 2.5GbE -- Gigabit only",
+      "No 2.5GbE -- Gigabit only"
     ],
     bestFor: "Home office laptops -- MacBook Air, MacBook Pro 14\", Dell XPS, HP Spectre -- with one or two external monitors and standard desk peripherals.",
   },
@@ -87,7 +87,7 @@ export const products: DockProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B09GK8LBWS?tag=deskfinds0d-20",
     whyItWins: "The CalDigit TS4 is the reference dock for MacBook setups. Eighteen ports. 98W laptop charging -- enough to charge a MacBook Pro 14\" at full speed under heavy load. 2.5 Gigabit Ethernet -- twice as fast as standard Gigabit, important if you have a 2.5GbE router or NAS. The downstream Thunderbolt 4 port lets you daisy-chain another Thunderbolt device or a second high-res display.",
     bodyParagraphs: [
-      "The CalDigit TS4 is not cheap (~$200--250), but for a MacBook Pro desk setup where you want every peripheral connected through one dock with no compromises, it is the benchmark. Reviews consistently rate it the most stable, most compatible Thunderbolt 4 dock on the market.",
+      "The CalDigit TS4 is not cheap (~$200--250), but for a MacBook Pro desk setup where you want every peripheral connected through one dock with no compromises, it is the benchmark. Reviews consistently rate it the most stable, most compatible Thunderbolt 4 dock on the market."
     ],
     specs: [
       { label: "Connection", value: "Thunderbolt 4 (1x upstream to laptop)" },
@@ -95,7 +95,7 @@ export const products: DockProduct[] = [
       { label: "Displays", value: "2x 4K@60Hz (via downstream TB4 + USB-C)" },
       { label: "Ports", value: "18 total -- 3x TB4, 5x USB-A, 2x USB-C, 1x HDMI, 1x 2.5GbE, 1x SD, 1x microSD, 1x optical audio, 1x 3.5mm audio" },
       { label: "Data", value: "40 Gbps" },
-      { label: "Build", value: "Aluminum, premium" },
+      { label: "Build", value: "Aluminum, premium" }
     ],
     pros: [
       "18 ports -- most comprehensive in this roundup",
@@ -103,12 +103,12 @@ export const products: DockProduct[] = [
       "98W charging handles MacBook Pro 14\" at full load",
       "Most stable TB4 dock tested across long-term reviews",
       "Optical audio output -- rare on docks",
-      "microSD slot alongside standard SD",
+      "microSD slot alongside standard SD"
     ],
     cons: [
       "Priciest mainstream TB4 option at ~$200--250",
       "Large physical footprint -- needs desk space or shelf",
-      "Overkill for single-monitor setups",
+      "Overkill for single-monitor setups"
     ],
     bestFor: "MacBook Pro users with a multi-peripheral desk: two monitors, NAS or fast router, external SSD, SD card workflow, and full USB coverage.",
   },
@@ -127,25 +127,25 @@ export const products: DockProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0D59W5VFM?tag=deskfinds0d-20",
     whyItWins: "Most Thunderbolt 4 docks support two monitors. The Wavlink TB4 Triple Display Docking Station supports three -- at 4K resolution each -- from a single TB4 connection. For a productivity setup where you run a laptop screen plus two or three external monitors, this is the dock that makes it possible without daisy-chaining.",
     bodyParagraphs: [
-      "The 96W laptop charging handles MacBook Pro 14\" and most Windows laptops at full speed. Two front-facing USB-C fast-charge ports make it easy to charge a phone or external SSD without reaching behind the dock. The $199 price point makes triple-display TB4 accessible without the CalDigit premium.",
+      "The 96W laptop charging handles MacBook Pro 14\" and most Windows laptops at full speed. Two front-facing USB-C fast-charge ports make it easy to charge a phone or external SSD without reaching behind the dock. The $199 price point makes triple-display TB4 accessible without the CalDigit premium."
     ],
     specs: [
       { label: "Connection", value: "Thunderbolt 4 (1x upstream)" },
       { label: "Laptop charging", value: "96W" },
       { label: "Displays", value: "3 (2x HDMI + 1x downstream TB4)" },
       { label: "Ports", value: "2x HDMI 2.0, 4x USB-A 3.2, 2x USB-C (front, fast charge), 1x downstream TB4, 1x Gigabit Ethernet, 1x SD, 1x audio" },
-      { label: "Price", value: "~$199" },
+      { label: "Price", value: "~$199" }
     ],
     pros: [
       "Three simultaneous external displays from one TB4 cable",
       "96W laptop charging -- covers most pro laptops",
       "Two front-facing USB-C fast-charge ports",
-      "Good value for TB4 triple-display capability",
+      "Good value for TB4 triple-display capability"
     ],
     cons: [
       "Occasional instability reported under heavy simultaneous load",
       "Third display requires laptop's own display + TB4 downstream -- verify compatibility first",
-      "No 2.5GbE -- Gigabit Ethernet only",
+      "No 2.5GbE -- Gigabit Ethernet only"
     ],
     bestFor: "Productivity desks with a laptop + two or three external monitors, where a Thunderbolt laptop is available.",
   },
@@ -165,26 +165,26 @@ export const products: DockProduct[] = [
     whyItWins: "Not every laptop has a Thunderbolt port. Mid-range Windows laptops, Surface devices, and many business laptops from 2022--2024 have USB4 ports but not Thunderbolt. The Plugable USB4 Dual HDMI dock is purpose-built for these setups, delivering dual 4K@120Hz monitor output, 100W laptop charging, and a full port suite at a fraction of the TB4 price.",
     bodyParagraphs: [
       "The 4K@120Hz display output is a genuine differentiator -- most docks at this price cap at 4K@60Hz. For gaming desks or creative setups where high refresh rate matters, this detail is significant.",
-      "The USB4 standard operates at 40 Gbps -- matching Thunderbolt 4 bandwidth -- but without the Thunderbolt certification premium.",
+      "The USB4 standard operates at 40 Gbps -- matching Thunderbolt 4 bandwidth -- but without the Thunderbolt certification premium."
     ],
     specs: [
       { label: "Connection", value: "USB4 (1x upstream to laptop)" },
       { label: "Laptop charging", value: "100W" },
       { label: "Displays", value: "2x 4K@120Hz (via 2x HDMI 2.1)" },
       { label: "Ports", value: "4x USB-A 3.2, 1x USB-C, 2x HDMI 2.1, 1x SD card, 1x Gigabit Ethernet, 1x 3.5mm audio" },
-      { label: "Data", value: "40 Gbps (USB4)" },
+      { label: "Data", value: "40 Gbps (USB4)" }
     ],
     pros: [
       "Works on any USB4 laptop -- no Thunderbolt required",
       "4K@120Hz on both displays -- gaming/creative capable",
       "100W laptop charging",
       "Strong value vs. TB4 docks at similar function",
-      "40 Gbps USB4 bandwidth",
+      "40 Gbps USB4 bandwidth"
     ],
     cons: [
       "USB4 only -- not compatible with older USB-C-only laptops for full function",
       "Some thermal performance issues reported under sustained load",
-      "Gigabit Ethernet only (not 2.5GbE)",
+      "Gigabit Ethernet only (not 2.5GbE)"
     ],
     bestFor: "Windows laptop users on mid-range hardware with USB4 ports, dual-monitor desk setups, or anyone who wants 4K@120Hz without paying Thunderbolt prices.",
   },
@@ -204,27 +204,27 @@ export const products: DockProduct[] = [
     whyItWins: "Not every desk needs Thunderbolt. For a home office setup with one external monitor, a wired keyboard and mouse, and occasional USB drive use -- an 85W USB-C hub at ~$55--80 covers everything at a fraction of the TB4 price.",
     bodyParagraphs: [
       "The Anker 8-in-1 has an 85W Power Delivery pass-through port, an HDMI 2.0 output for a single 4K@60Hz display, three USB-A 3.0 ports, a USB-C data port, Gigabit Ethernet, and an SD card reader. No Thunderbolt needed -- any USB-C laptop works.",
-      "The compact 4.65-inch length means it sits neatly beside a laptop without dominating the desk. The Gigabit Ethernet inclusion at this price is the standout value detail -- most competitors at this tier omit it.",
+      "The compact 4.65-inch length means it sits neatly beside a laptop without dominating the desk. The Gigabit Ethernet inclusion at this price is the standout value detail -- most competitors at this tier omit it."
     ],
     specs: [
       { label: "Connection", value: "USB-C (any USB-C laptop)" },
       { label: "Laptop charging", value: "85W PD pass-through" },
       { label: "Displays", value: "1x 4K@60Hz (HDMI 2.0)" },
       { label: "Ports", value: "3x USB-A 3.0, 1x USB-C data, 1x HDMI, 1x Gigabit Ethernet, 1x SD card" },
-      { label: "Dimensions", value: "4.65 x 2.16 x 0.63 inches" },
+      { label: "Dimensions", value: "4.65 x 2.16 x 0.63 inches" }
     ],
     pros: [
       "Works with any USB-C laptop -- no Thunderbolt needed",
       "Gigabit Ethernet included at budget price",
       "85W PD charges most laptops adequately",
       "Compact 4.65-inch length",
-      "Strong value for a one-monitor desk",
+      "Strong value for a one-monitor desk"
     ],
     cons: [
       "Single monitor output only",
       "No Thunderbolt -- bandwidth limited vs TB4 docks",
       "85W may be insufficient for MacBook Pro 16\" under heavy load",
-      "No DisplayPort output -- HDMI only",
+      "No DisplayPort output -- HDMI only"
     ],
     bestFor: "Single-monitor home office setups, budget-conscious buyers, or any USB-C laptop user who needs Ethernet + USB expansion without spending $150+.",
   },
@@ -244,7 +244,7 @@ export const products: DockProduct[] = [
     whyItWins: "The CalDigit TS5 Plus is overkill for most home offices -- and exactly right for creative professionals, developers running dual external displays at 4K, and MacBook Pro M4 Max users who need every bit of bandwidth available. Twenty ports. 140W dedicated host charging with a 330W total power supply. Thunderbolt 5 bandwidth at 80--120 Gbps. Multiple 4K display support via four Thunderbolt ports. 2.5GbE Ethernet.",
     bodyParagraphs: [
       "The dedicated 140W host charging port -- backed by a 330W PSU -- ensures the laptop never dips into its battery under any load. MacBook Pro 16\" M4 Max charges at its maximum 140W rate. No other dock in this guide matches that capability.",
-      "At ~$350--420, it is a significant investment. For a desk that represents a professional's primary workstation, it is the most complete single-cable solution available in 2026.",
+      "At ~$350--420, it is a significant investment. For a desk that represents a professional's primary workstation, it is the most complete single-cable solution available in 2026."
     ],
     specs: [
       { label: "Connection", value: "Thunderbolt 5 (1x upstream)" },
@@ -252,23 +252,23 @@ export const products: DockProduct[] = [
       { label: "Displays", value: "Multi-display via 4x TB5 + HDMI 2.1 + DisplayPort 2.1" },
       { label: "Ports", value: "20 total -- 4x TB5, 4x USB-A, 2x USB-C, 1x HDMI 2.1, 1x DisplayPort 2.1, 1x 2.5GbE, 1x SD, 1x audio" },
       { label: "Data", value: "80--120 Gbps (TB5)" },
-      { label: "Ethernet", value: "10GbE (10-Gigabit)" },
+      { label: "Ethernet", value: "10GbE (10-Gigabit)" }
     ],
     pros: [
       "140W dedicated host charging -- MacBook Pro 16\" M4 Max at full speed",
       "20 ports covers any professional desk configuration",
       "Thunderbolt 5 bandwidth -- future-proof for years",
       "10GbE Ethernet (not just 2.5GbE)",
-      "Multiple simultaneous 4K/5K/6K display support",
+      "Multiple simultaneous 4K/5K/6K display support"
     ],
     cons: [
       "Requires Thunderbolt 5 laptop (MacBook Pro M4 Pro/Max, select new Windows laptops)",
       "$350--420 price -- serious investment",
       "Overkill for single-monitor or casual home office use",
-      "Large physical footprint",
+      "Large physical footprint"
     ],
     bestFor: "MacBook Pro M4 Pro/Max users, video editors, developers, or anyone building a permanent professional workstation where bandwidth, charging, and port coverage cannot be compromised.",
-  },
+  }
 ];
 
 export const atAGlanceItems = products.map((p) => ({
@@ -292,7 +292,7 @@ export const dockVsHubRows = [
   { feature: "SD card reader", dock: "Most docks", hub: "Some", charger: "No" },
   { feature: "Audio jack", dock: "Most docks", hub: "Some", charger: "No" },
   { feature: "Single-cable desk", dock: "Yes", hub: "No", charger: "No" },
-  { feature: "Price", dock: "$50--420", hub: "$20--80", charger: "$20--200" },
+  { feature: "Price", dock: "$50--420", hub: "$20--80", charger: "$20--200" }
 ];
 
 export const tbComparisonRows = [
@@ -300,14 +300,14 @@ export const tbComparisonRows = [
   { feature: "Max monitors", usbC: "1--2 (driver-dependent)", usb4: "2", tb4: "2 (up to 4 w/ daisy-chain)", tb5: "3--4" },
   { feature: "Laptop compatibility", usbC: "Any USB-C laptop", usb4: "USB4/TB laptops", tb4: "TB3/TB4/TB5 laptops", tb5: "TB5 laptops" },
   { feature: "Price premium", usbC: "Lowest", usb4: "Moderate", tb4: "High", tb5: "Highest" },
-  { feature: "Requires TB port on laptop", usbC: "No", usb4: "Yes (USB4 port)", tb4: "Yes (TB port)", tb5: "Yes (TB5 port)" },
+  { feature: "Requires TB port on laptop", usbC: "No", usb4: "Yes (USB4 port)", tb4: "Yes (TB port)", tb5: "Yes (TB5 port)" }
 ];
 
 export const monitorCountRows = [
   { count: "0 (laptop only)", needs: "USB-C hub is enough -- no dock needed" },
   { count: "1 external monitor", needs: "Any USB-C dock with HDMI works" },
   { count: "2 external monitors", needs: "USB4 or Thunderbolt 4 dock" },
-  { count: "3+ external monitors", needs: "Thunderbolt 4/5 with daisy-chain OR TB5 dock" },
+  { count: "3+ external monitors", needs: "Thunderbolt 4/5 with daisy-chain OR TB5 dock" }
 ];
 
 export const chargingWattageRows = [
@@ -315,7 +315,7 @@ export const chargingWattageRows = [
   { laptop: "MacBook Pro 14\" M4", minimum: "60W", recommended: "90W+" },
   { laptop: "MacBook Pro 16\" M4", minimum: "100W", recommended: "140W+" },
   { laptop: "Dell XPS 13/15", minimum: "45W", recommended: "65W+" },
-  { laptop: "Lenovo ThinkPad X1", minimum: "65W", recommended: "90W+" },
+  { laptop: "Lenovo ThinkPad X1", minimum: "65W", recommended: "90W+" }
 ];
 
 export const faq: { question: string; answer: string }[] = [
@@ -342,5 +342,5 @@ export const faq: { question: string; answer: string }[] = [
   {
     question: "What docking station works with a MacBook Air?",
     answer: "MacBook Air M3 and M4 have Thunderbolt 4 ports. Any TB4 dock works. The Anker 777 is the best value for MacBook Air -- 90W charging is sufficient (Air has a lower power draw than Pro), and the port selection covers any standard desk.",
-  },
+  }
 ];

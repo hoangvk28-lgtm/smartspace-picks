@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The most total outlets in a compact tower", "NTONPOWER 16 Outlet Tower Surge Protector"],
         ["Independent control over each outlet", "Chiefway 6Ft Power Strip with 6 Individual Switches"],
         ["To reach a distant outlet without an extension cord", "Power Strip Tower with 12 Outlets, 16.5 Ft Cord"],
-        ["Dual UL certification at the lowest price", "DEWENWILS 6-Outlet Power Strip, 15FT Long Cord"],
+        ["Dual UL certification at the lowest price", "DEWENWILS 6-Outlet Power Strip, 15FT Long Cord"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $18", "DEWENWILS ($17.99)"],
-        ["Under $19", "Chiefway ($18.99)"],
-        ["Under $20", "NTONPOWER Tower ($19.99) or 16.5 Ft Cord Tower ($19.99)"],
+        ["Under $18", "DEWENWILS (under $20)"],
+        ["Under $19", "Chiefway (under $20)"],
+        ["Under $20", "NTONPOWER Tower (under $20) or 16.5 Ft Cord Tower (under $20)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Individual Switches vs Master Switch Only",
     cards: [
       { label: "Individual switches (Chiefway)", text: "Lets you power off one specific device, like a lamp, without unplugging or affecting other connected devices." },
-      { label: "Master switch only (NTONPOWER, both tower picks, DEWENWILS)", text: "Simpler on/off control for the whole strip, sufficient if you don't need to selectively power devices independently." },
+      { label: "Master switch only (NTONPOWER, both tower picks, DEWENWILS)", text: "Simpler on/off control for the whole strip, sufficient if you don't need to selectively power devices independently." }
     ],
     note: "If you regularly want to turn off just one device, like a space heater at night, while keeping others powered, the Chiefway's individual switches are worth prioritizing.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Standard desk distance from an outlet", "NTONPOWER Tower (5 ft) or Chiefway (6 ft)"],
         ["A room away from the nearest outlet", "12 Outlet Tower with 16.5 Ft Cord"],
-        ["Long reach with certified safety", "DEWENWILS (15 ft)"],
+        ["Long reach with certified safety", "DEWENWILS (15 ft)"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Cruise Ship or Restricted-Surge-Protector Setting Specifically",
     cards: [
       { label: "Look for", text: "A power strip explicitly marketed as cruise-friendly, since many cruise lines prohibit strips with surge protection circuitry onboard." },
-      { label: "In this comparison", text: "The Chiefway pick is specifically designed without surge protection to remain compliant with cruise ship restrictions." },
+      { label: "In this comparison", text: "The Chiefway pick is specifically designed without surge protection to remain compliant with cruise ship restrictions." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the most total outlets or a dramatically longer cord, where the NTONPOWER Tower or the 16.5 Ft Cord Tower each deliver a genuine capability upgrade over the DEWENWILS budget pick." },
-      { label: "Save if", text: "You want solid dual UL certification and a long cord without extra outlets or towers, where the DEWENWILS pick covers that for the lowest price in this comparison." },
+      { label: "Save if", text: "You want solid dual UL certification and a long cord without extra outlets or towers, where the DEWENWILS pick covers that for the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "room divider screens";
 export const introParagraphs = [
   "A room divider screen trades storage capacity for something a bookcase can't offer: true portability, a lighter footprint, and a look that ranges from traditional Japanese shoji to modern frosted acrylic. Because screens fold flat and often weigh under 20 lbs, they're the easier pick for renters or anyone who needs to reconfigure a room often.",
-  "Below are 8 room divider screens we evaluated on panel material, how much light and sound they actually block, and folding hinge quality, ranging from a $34 handmade rattan weave to a $140 frosted acrylic panel that outlasts glass without the weight.",
+  "Below are 8 room divider screens we evaluated on panel material, how much light and sound they actually block, and folding hinge quality, ranging from a $34 handmade rattan weave to a $140 frosted acrylic panel that outlasts glass without the weight."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -51,24 +51,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51tB64reaAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00A7YV51C?tag=deskfinds0d-20",
     description:
-      "With over 7,000 ratings, this Roundhill screen is the best-selling pick in this list by a wide margin. Its printed plum-blossom pattern in red and black over a translucent rice paper panel gives it the most distinctive look here, closer to wall art than a plain divider.\n\nHardwood framing keeps it sturdy despite being the lightest pick in this list at just 11 lbs, and it needs no assembly, so it goes from box to standing divider in minutes.\n\nMost distinctive printed shoji pattern. That's a real strength, but weigh it against the flip side: rice paper panels are translucent, not fully private.",
+      "Its printed plum-blossom pattern in red and black over a translucent rice paper panel gives it the most distinctive look here, closer to wall art than a plain divider.\n\nHardwood framing keeps it sturdy despite being the lightest pick in this list at just 11 lbs, and it needs no assembly, so it goes from box to standing divider in minutes.\n\nMost distinctive printed shoji pattern. That's a real strength, but weigh it against the flip side: rice paper panels are translucent, not fully private.",
     specs: [
       "71\"W x 71\"H (4 panels)",
       "Hardwood + rice paper",
       "Printed plum-blossom pattern, translucent",
       "11 lbs (lightest pick in this list)",
-      "No assembly required",
+      "No assembly required"
     ],
     pros: [
-      "Best-selling pick with 7,081 ratings",
       "Most distinctive printed shoji pattern",
       "Lightest screen in this list at 11 lbs",
-      "Hardwood frame despite the low weight",
+      "Hardwood frame despite the low weight"
     ],
     cons: [
       "Rice paper panels are translucent, not fully private",
       "Printed pattern may not suit a minimalist room",
-      "Paper panels need gentle handling around kids or pets",
+      "Paper panels need gentle handling around kids or pets"
     ],
     bestFor: "Buyers who want the most proven, most distinctive printed shoji screen",
   },
@@ -83,23 +82,22 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51aORYQ0Y7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01LYKP60O?tag=deskfinds0d-20",
     description:
-      "The Giyano trades the traditional shoji look for an intricate white mosaic chip-themed frame, the most refined and modern design among the group. Pine and MDF construction is wrapped in non-woven fabric panels rather than rice paper, giving it a slightly different texture and feel.\n\nAt 70\"H x 70\"W it's sized to match most standard shoji screens, and like the rest of the Roundhill lineup it needs no assembly out of the box.\n\nWorth calling out specifically: strong 4.6-star rating across 3,422 ratings. The catch is pricier than most other picks in this list.",
+      "The Giyano trades the traditional shoji look for an intricate white mosaic chip-themed frame, the most refined and modern design among the group. Pine and MDF construction is wrapped in non-woven fabric panels rather than rice paper, giving it a slightly different texture and feel.\n\nAt 70\"H x 70\"W it's sized to match most standard shoji screens, and like the rest of the Roundhill lineup it needs no assembly out of the box.\n\nThe catch is pricier than most other picks in this list.",
     specs: [
       "70\"H x 70\"W (4 panels)",
       "Pine + MDF + non-woven fabric",
       "Intricate mosaic chip-themed frame",
-      "No assembly required",
+      "No assembly required"
     ],
     pros: [
       "Most refined mosaic design in this list",
-      "Strong 4.6-star rating across 3,422 ratings",
       "Fabric panels feel different from typical rice paper",
-      "No assembly required",
+      "No assembly required"
     ],
     cons: [
       "Pricier than most other picks in this list",
       "White finish shows dust and marks more visibly",
-      "Fabric panels are less traditional than shoji rice paper",
+      "Fabric panels are less traditional than shoji rice paper"
     ],
     bestFor: "Buyers who want a modern, refined mosaic look over a traditional shoji pattern",
   },
@@ -120,18 +118,18 @@ export const products: GuideProduct[] = [
       "Cherry wood + rice paper",
       "Translucent panels, two-way hinges",
       "15 lbs (lightest wood shoji in this list)",
-      "No assembly required",
+      "No assembly required"
     ],
     pros: [
       "Most authentic traditional shoji look",
       "Translucent panels let natural light through",
       "Two-way hinges for flexible folding",
-      "Lightest wood-framed pick at 15 lbs",
+      "Lightest wood-framed pick at 15 lbs"
     ],
     cons: [
       "Rice paper offers light diffusion, not real privacy",
       "Traditional paper needs gentle cleaning, no water or alcohol",
-      "May need paper touch-ups every 18-24 months in sunny rooms",
+      "May need paper touch-ups every 18-24 months in sunny rooms"
     ],
     bestFor: "Buyers who want an authentic traditional shoji look with natural light diffusion",
   },
@@ -151,18 +149,17 @@ export const products: GuideProduct[] = [
       "71\"H x 70.5\"W (4 panels)",
       "Eco wood + metal hinges",
       "Hand-woven mesh design",
-      "Eco-friendly, foldable, lightweight",
+      "Eco-friendly, foldable, lightweight"
     ],
     pros: [
-      "Most reviewed pick in this list at 7,623 ratings",
       "Distinctive hand-woven mesh look",
       "Eco-friendly wood construction",
-      "Lightweight and easy to fold",
+      "Lightweight and easy to fold"
     ],
     cons: [
       "Open mesh pattern offers less visual privacy than solid panels",
       "Lower star rating than the top shoji picks",
-      "Not ideal if full sound or sight blocking is the goal",
+      "Not ideal if full sound or sight blocking is the goal"
     ],
     bestFor: "Buyers who want a distinctive hand-woven look and don't need full opacity",
   },
@@ -177,24 +174,24 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/518FUSm-OqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07QQ25W3P?tag=deskfinds0d-20",
     description:
-      "At a competitive price, the RHF rattan screen is the cheapest pick in this list without sacrificing craftsmanship, its handmade 5-medallion diamond weave gives it a distinctly boho look that the modern acrylic and shoji picks don't offer. Two-way hinges make it flexible to position around furniture or corners. Rattan and wood construction keeps it lightweight, and like most picks here it arrives needing no assembly, straight out of the box and ready to unfold. Handmade diamond-weave pattern. That's a real strength, but weigh it against the flip side: open weave offers less privacy than solid panels.\n\nWhat stands out here is cheapest pick in this list at $34.28, plus handmade diamond-weave pattern. The main tradeoff: open weave offers less privacy than solid panels, so weigh that against the $34.28 price before buying.",
+      "At a competitive price, the RHF rattan screen is the cheapest pick in this list without sacrificing craftsmanship, its handmade 5-medallion diamond weave gives it a distinctly boho look that the modern acrylic and shoji picks don't offer. Two-way hinges make it flexible to position around furniture or corners. Rattan and wood construction keeps it lightweight, and like most picks here it arrives needing no assembly, straight out of the box and ready to unfold. Handmade diamond-weave pattern. That's a real strength, but weigh it against the flip side: open weave offers less privacy than solid panels.\n\nWhat stands out here is cheapest pick in this list at under $35, plus handmade diamond-weave pattern. The main tradeoff: open weave offers less privacy than solid panels, so weigh that against the under $35 price before buying.",
     specs: [
       "63\"W x 72\"H (4 panels)",
       "Rattan + wood",
       "Handmade 5-medallion diamond weave",
       "Two-way hinges",
-      "No assembly required",
+      "No assembly required"
     ],
     pros: [
-      "Cheapest pick in this list at $34.28",
+      "Cheapest pick in this list at under $35",
       "Handmade diamond-weave pattern",
       "Most boho aesthetic in this list",
-      "Two-way hinges for flexible positioning",
+      "Two-way hinges for flexible positioning"
     ],
     cons: [
       "Open weave offers less privacy than solid panels",
       "Rattan is less durable long-term than hardwood or acrylic",
-      "Narrower 63\" width than most other picks",
+      "Narrower 63\" width than most other picks"
     ],
     bestFor: "Budget-conscious buyers who want a handmade boho look",
   },
@@ -209,24 +206,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51j59-Hw-bL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CNP8K3GC?tag=deskfinds0d-20",
     description:
-      "JOSTYLE uses stainless steel 180-degree hinges instead of the standard metal hinges found on most screens in this list, a detail that matters since repeated folding is usually where screen hinges wear out first. Handmade pine framing keeps the natural wood look intact without paint or heavy stain.\n\nNon-woven fabric panels are odor-free out of the box, and like the rest of the shoji-style picks here, it arrives fully assembled and ready to unfold.\n\nWorth calling out specifically: handmade pine construction. The catch is smallest review sample in this list at 135 ratings.",
+      "JOSTYLE uses stainless steel 180-degree hinges instead of the standard metal hinges found on most screens in this list, a detail that matters since repeated folding is usually where screen hinges wear out first. Handmade pine framing keeps the natural wood look intact without paint or heavy stain.\n\nNon-woven fabric panels are odor-free out of the box, and like the rest of the shoji-style picks here, it arrives fully assembled and ready to unfold.\n\nWorth calling out specifically: handmade pine construction.",
     specs: [
       "70.9\"H x 69\"W (4 panels)",
       "Pine wood + non-woven fabric",
       "Stainless steel 180 degrees hinges",
       "Handmade pine, no odor",
-      "No assembly required",
+      "No assembly required"
     ],
     pros: [
       "Most durable stainless steel hinges in this list",
       "Handmade pine construction",
       "No off-gassing odor out of the box",
-      "No assembly required",
+      "No assembly required"
     ],
     cons: [
-      "Smallest review sample in this list at 135 ratings",
       "Fabric panels don't diffuse light like traditional rice paper",
-      "Mid-range price without the review volume to back it up yet",
+      "Mid-range price without the review volume to back it up yet"
     ],
     bestFor: "Buyers who want the hinges to be the most durable part of the screen",
   },
@@ -247,18 +243,18 @@ export const products: GuideProduct[] = [
       "Tung wood + MDF + non-woven fabric",
       "360 degrees bidirectional hinges",
       "Waterproof fabric panels",
-      "No assembly required",
+      "No assembly required"
     ],
     pros: [
       "Widest pick in this list at 95.3\"",
       "Most flexible 360 degrees bidirectional hinges",
       "Durable tung wood, holds up well against humidity",
-      "Waterproof fabric panels",
+      "Waterproof fabric panels"
     ],
     cons: [
       "Shorter 66.9\" height than most other picks",
       "Bulkier to fold and store given the extra panels",
-      "Smaller review sample than the top-selling picks",
+      "Smaller review sample than the top-selling picks"
     ],
     bestFor: "Wide rooms needing a 6-panel screen to fully span the space",
   },
@@ -278,21 +274,20 @@ export const products: GuideProduct[] = [
       "67\"H x 63\"W (4 panels)",
       "Premium acrylic + metal frame",
       "Shatter-resistant, ~3x more durable than glass",
-      "Diffuses light, stain-resistant",
+      "Diffuses light, stain-resistant"
     ],
     pros: [
       "Only frosted acrylic pick in this list",
       "More durable and shatter-resistant than glass",
       "Most modern, minimalist design",
-      "Stain-resistant surface",
+      "Stain-resistant surface"
     ],
     cons: [
       "Most expensive pick in this list",
-      "Smallest review sample at 69 ratings",
-      "Shorter 67\" height than most wood picks",
+      "Shorter 67\" height than most wood picks"
     ],
     bestFor: "Buyers who want a modern, more durable alternative to glass or paper panels",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -320,7 +315,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed panel material, hinge quality, and size against price, the RHF rattan screen and Svimi acrylic screen sit at opposite ends of that budget-to-material trade-off.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -460,11 +455,11 @@ export const faq: FaqItem[] = [
     q: "Which room divider screen is best for a wide room?",
     a: "The VEVOR 6-Panel spans 95.3 inches wide, the widest in this list, making it the best fit for open-concept rooms where a standard 4-panel screen wouldn't stretch far enough. Most other picks here use 4 panels and top out around 63-72 inches wide.",
   },
-  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers who want the most proven, most distinctive printed shoji screen" },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers who want the most proven, most distinctive printed shoji screen" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-room-divider-with-storage", title: "Best Room Dividers with Storage (2026)" },
   { href: "/guide/best-room-divider-with-shelves", title: "Best Room Dividers with Shelves (2026)" },
-  { href: "/guide/best-room-divider-freestanding", title: "Best Freestanding Room Dividers (2026)" },
+  { href: "/guide/best-room-divider-freestanding", title: "Best Freestanding Room Dividers (2026)" }
 ];

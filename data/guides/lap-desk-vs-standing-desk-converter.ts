@@ -81,11 +81,11 @@ export const picks: ComparePick[] = [
       "Independent height and angle adjustment for any posture",
       "Bamboo surface is cool, durable, and stable",
       "Folds flat against a wall for minimal storage footprint",
-      "Works on bed, sofa, or floor — truly versatile",
+      "Works on bed, sofa, or floor — truly versatile"
     ],
     tradeoffs: [
       "At the top of the lap desk price range",
-      "Legs can wobble on very soft mattresses",
+      "Legs can wobble on very soft mattresses"
     ],
   },
   {
@@ -103,11 +103,11 @@ export const picks: ComparePick[] = [
       "Built-in wrist rest reduces fatigue during long typing sessions",
       "Phone holder frees up desk space",
       "Lightweight at 2.1 lbs — easy to carry room to room",
-      "Affordable at under $40",
+      "Affordable at under $40"
     ],
     tradeoffs: [
       "Fixed flat angle — no height or tilt adjustment",
-      "Phone holder is plastic and can wobble",
+      "Phone holder is plastic and can wobble"
     ],
     redditNote:
       "Top recommendation in r/RemoteWork for couch workers who need a budget lap desk. Praised for the wrist rest at the price.",
@@ -127,11 +127,11 @@ export const picks: ComparePick[] = [
       "Built-in USB cooling fan prevents laptop overheating during extended sessions",
       "Bamboo surface dissipates heat better than plastic",
       "Tilt adjustment for comfortable typing angle",
-      "Large surface fits 15-inch laptops with room for a mouse",
+      "Large surface fits 15-inch laptops with room for a mouse"
     ],
     tradeoffs: [
       "No height adjustment — fixed leg height",
-      "USB fan adds a cable to manage",
+      "USB fan adds a cable to manage"
     ],
   },
   {
@@ -150,12 +150,12 @@ export const picks: ComparePick[] = [
       "Pneumatic spring for smooth one-hand height adjustment",
       "Separate keyboard tray keeps wrists at ergonomic angle while standing",
       "32-inch surface fits dual monitors",
-      "Sits on existing desk — no desk replacement needed",
+      "Sits on existing desk — no desk replacement needed"
     ],
     tradeoffs: [
       "Takes up permanent desk space when lowered",
       "32-inch width limits use on compact desks (under 40 in)",
-      "$120+ investment",
+      "$120+ investment"
     ],
   },
   {
@@ -173,13 +173,13 @@ export const picks: ComparePick[] = [
       "More affordable than VIVO while keeping spring-assisted lift",
       "31-inch surface fits standard single-monitor setups",
       "Separate keyboard tray for ergonomic typing while standing",
-      "Sturdy steel frame holds up to 33 lbs",
+      "Sturdy steel frame holds up to 33 lbs"
     ],
     tradeoffs: [
       "Slightly noisier spring mechanism vs VIVO",
-      "Less smooth lift action at heavier loads",
+      "Less smooth lift action at heavier loads"
     ],
-  },
+  }
 ];
 
 // ─── Head-to-head criteria ─────────────────────────────────────────────────────
@@ -208,7 +208,7 @@ export const headToHead: HeadToHead[] = [
     winner: "lapdesk",
     winnerLabel: "Lap Desk wins",
     summary:
-      "Lap desks start at $28 and top out at $100. Converters start at $80 and go past $200. If budget is the constraint, a lap desk is the practical choice.",
+      "Lap desks start at under $30 and top out at $100. Converters start at $80 and go past $200. If budget is the constraint, a lap desk is the practical choice.",
     lapSummary: "$28–$100 range. Entry-level is genuinely functional.",
     convSummary: "$80–$200+. Budget models sacrifice lift quality.",
   },
@@ -238,7 +238,7 @@ export const headToHead: HeadToHead[] = [
       "Converters are rigidly mounted on a desk — rock solid for typing, external mouse, and multiple monitors. Lap desks shift with body movement.",
     lapSummary: "Can shift on laps or soft surfaces. Not ideal for precise mouse work.",
     convSummary: "Desk-mounted. Completely stable for any input device.",
-  },
+  }
 ];
 
 // ─── Decision flowchart steps ─────────────────────────────────────────────────
@@ -280,7 +280,7 @@ export const flowSteps: FlowStep[] = [
     yesLabel: "Yes, I move around",
     noLabel: "No, fixed location",
     terminal: true,
-  },
+  }
 ];
 
 // ─── Scenarios ─────────────────────────────────────────────────────────────────
@@ -327,7 +327,7 @@ export const scenarios: Scenario[] = [
     price: "$80–$110",
     detail:
       "At 31 inches wide, the FLEXISPOT fits desks down to 36 inches without overhanging. Brings sit-stand capability to small-desk setups at $80–$110.",
-  },
+  }
 ];
 
 // ─── Common mistakes ──────────────────────────────────────────────────────────
@@ -348,7 +348,7 @@ export const mistakes = [
   {
     title: "Using a lap desk without a cooling pad on a hot laptop",
     body: "Lap desks reduce airflow under the laptop. For resource-intensive tasks (video editing, gaming), use a lap desk with a built-in cooling fan (like the Nnewvante) or add a USB cooling pad.",
-  },
+  }
 ];
 
 // ─── FAQ ──────────────────────────────────────────────────────────────────────
@@ -356,7 +356,7 @@ export const mistakes = [
 export const faq: Array<{ q: string; a: string }> = [
   {
     q: "Is a lap desk worth it?",
-    a: "Yes, if you regularly work or study on a couch, bed, or without a desk. A lap desk with a wrist rest (like the LapGear Home Office Pro at $28–$40) reduces neck strain and provides a stable typing surface. For 8-hour desk workers, a converter is a better investment.",
+    a: "Yes, if you regularly work or study on a couch, bed, or without a desk. A lap desk with a wrist rest (like the LapGear Home Office Pro at under $30–$40) reduces neck strain and provides a stable typing surface. For 8-hour desk workers, a converter is a better investment.",
   },
   {
     q: "Is a standing desk converter worth buying?",
@@ -373,7 +373,7 @@ export const faq: Array<{ q: string; a: string }> = [
   {
     q: "How long do you need to stand each day to benefit?",
     a: "Research suggests alternating sitting and standing every 30–60 minutes is more beneficial than extended standing. Total standing time of 2–4 hours per workday is a reasonable target. A converter that's easy to raise and lower encourages this habit more than one with friction-heavy mechanisms.",
-  },
+  }
 ];
 
 // ─── Summary table ─────────────────────────────────────────────────────────────
@@ -384,5 +384,5 @@ export const summaryTable = [
   { factor: "Ergonomics", lapdesk: "Better than nothing", converter: "Full sit-stand ergonomics" },
   { factor: "Standing work", lapdesk: "Not supported", converter: "Purpose-built for it" },
   { factor: "Desk space needed", lapdesk: "None", converter: "31–32 in permanent footprint" },
-  { factor: "Best for", lapdesk: "Couch/bed workers, students", converter: "6+ hr desk workers, back pain" },
+  { factor: "Best for", lapdesk: "Couch/bed workers, students", converter: "6+ hr desk workers, back pain" }
 ];

@@ -35,7 +35,7 @@ export const ideas: SetupIdea[] = [
     summary: "A clamp lamp attaches to the desk edge and frees up the entire surface from a bulky base.",
     body: [
       "A traditional base lamp takes up a footprint of six to twelve inches on a small desk. A clamp lamp mounts directly to the desk edge, sits above the work surface, and leaves the desktop completely clear. This single swap can feel like gaining a quarter of your desk back.",
-      "Look for a lamp with a flexible gooseneck so you can direct light exactly where you need it. Models with a built-in USB charging port on the base add extra value on a small desk where outlet access can be limited.",
+      "Look for a lamp with a flexible gooseneck so you can direct light exactly where you need it. Models with a built-in USB charging port on the base add extra value on a small desk where outlet access can be limited."
     ],
     productName: "Voncerus LED Clamp Desk Lamp",
     productType: "Clamp desk lamp",
@@ -53,7 +53,7 @@ export const ideas: SetupIdea[] = [
     summary: "A monitor light bar sits on top of the screen and illuminates the desk without any glare on the display.",
     body: [
       "A monitor light bar rests on the top edge of any flat-panel monitor and uses an asymmetric lens to light the desk surface without reflecting back into the screen. The result is a bright, even workspace with zero desk footprint and zero screen glare.",
-      "This is especially useful for anyone doing video calls or working with a second monitor, where a side lamp can cause uneven lighting in the frame. Most models are USB-powered directly from the monitor, so there is no extra cable to manage.",
+      "This is especially useful for anyone doing video calls or working with a second monitor, where a side lamp can cause uneven lighting in the frame. Most models are USB-powered directly from the monitor, so there is no extra cable to manage."
     ],
     productName: "Quntis Monitor Light Bar",
     productType: "Monitor light bar",
@@ -70,7 +70,7 @@ export const ideas: SetupIdea[] = [
     summary: "Elevating the monitor to eye level prevents neck strain and creates usable storage space underneath.",
     body: [
       "Placing a monitor at eye level is one of the most impactful ergonomic changes you can make. But a monitor stand also does something practical for a small desk: it turns the space underneath into storage. A riser with a built-in drawer can hold pens, sticky notes, charging cables, and small accessories that would otherwise be scattered across the desktop.",
-      "Bamboo models work well in small setups because they look clean without adding visual weight. Choose a riser that matches the width of your monitor rather than the full desk width to keep the proportions balanced.",
+      "Bamboo models work well in small setups because they look clean without adding visual weight. Choose a riser that matches the width of your monitor rather than the full desk width to keep the proportions balanced."
     ],
     productName: "Bamboo Monitor Riser With Drawer",
     productType: "Monitor stand with storage",
@@ -88,7 +88,7 @@ export const ideas: SetupIdea[] = [
     summary: "A foldable laptop stand raises the screen and tucks away when not in use, which a fixed riser cannot do.",
     body: [
       "If you work from a laptop on a small desk, propping it flat on the surface wastes vertical space and forces you to look downward. A foldable laptop stand solves both problems: it raises the screen to a better height and folds completely flat when you close up for the day, leaving the desk surface clear.",
-      "Pair the stand with a compact wireless keyboard and mouse for a dual-screen feel without adding much footprint. On a very small desk, a portable stand that weighs under a pound and collapses into a thin profile is often more practical than a heavy metal riser.",
+      "Pair the stand with a compact wireless keyboard and mouse for a dual-screen feel without adding much footprint. On a very small desk, a portable stand that weighs under a pound and collapses into a thin profile is often more practical than a heavy metal riser."
     ],
     productName: "Lamicall Foldable Laptop Stand",
     productType: "Foldable laptop stand",
@@ -105,7 +105,7 @@ export const ideas: SetupIdea[] = [
     summary: "A desk mat visually unifies the workspace and protects the surface while making the setup feel more intentional.",
     body: [
       "On a small desk, visual clutter is amplified by the limited surface area. A desk mat gives the workspace a defined boundary and pulls all the items on it into a cohesive zone. Even on a plain white desk, a dark or neutral mat immediately makes the setup look more considered.",
-      "Beyond aesthetics, a mat protects the desk surface from scratches and provides a smoother writing and mousing surface. Choose a mat that covers roughly 60 to 80 percent of the desk width rather than one that overhangs the edges, which can look oversized on a narrow desk.",
+      "Beyond aesthetics, a mat protects the desk surface from scratches and provides a smoother writing and mousing surface. Choose a mat that covers roughly 60 to 80 percent of the desk width rather than one that overhangs the edges, which can look oversized on a narrow desk."
     ],
     productName: "Nordik Felt Leather Desk Mat",
     productType: "Desk mat",
@@ -123,7 +123,7 @@ export const ideas: SetupIdea[] = [
     summary: "A under-desk cable tray hides power strips, excess cables, and adapters completely out of sight.",
     body: [
       "Visible cables are the single biggest contributor to a cluttered-looking small desk. An under-desk cable tray mounts beneath the desktop and holds your power strip, excess cable length, and adapters out of sight. From the front, the desk looks clean even if the cables are still there.",
-      "Metal mesh trays are the most durable option and allow airflow around charging bricks. Look for a tray that mounts with screws rather than adhesive, since adhesive brackets can pull away under the weight of a full power strip over time.",
+      "Metal mesh trays are the most durable option and allow airflow around charging bricks. Look for a tray that mounts with screws rather than adhesive, since adhesive brackets can pull away under the weight of a full power strip over time."
     ],
     productName: "Cinati Under-Desk Cable Tray",
     productType: "Under-desk cable tray",
@@ -141,7 +141,7 @@ export const ideas: SetupIdea[] = [
     summary: "Cable clips route individual cables along the desk edge so they stay off the surface and off the floor.",
     body: [
       "Even with a cable tray, the cables running from the tray to the monitor, keyboard, and other devices need to be guided. Adhesive cable clips stick to the back or underside of the desk and hold individual cables in place so they run in a straight line rather than coiling loosely on the surface.",
-      "These clips are inexpensive and reversible -- most peel off cleanly if you change the layout later. Apply them in a row along the rear edge of the desk to guide cables down the back leg and toward the cable tray, keeping the entire desktop surface free.",
+      "These clips are inexpensive and reversible -- most peel off cleanly if you change the layout later. Apply them in a row along the rear edge of the desk to guide cables down the back leg and toward the cable tray, keeping the entire desktop surface free."
     ],
     productName: "Austor Adhesive Cable Clips",
     productType: "Adhesive cable clips",
@@ -158,7 +158,7 @@ export const ideas: SetupIdea[] = [
     summary: "One well-chosen organizer consolidates small items without adding more surface clutter than it removes.",
     body: [
       "The mistake most people make is buying multiple organizers -- a pen cup, a phone stand, a sticky note holder, a business card tray -- and placing them all on a small desk. The result is more items on the desk, not fewer. One compact multi-compartment organizer that consolidates all of these is almost always the better choice.",
-      "Mesh organizers work well because they are visually lightweight -- you can see through them, which keeps the desk feeling open. Aim for something no wider than 10 inches so it does not dominate a narrow desk.",
+      "Mesh organizers work well because they are visually lightweight -- you can see through them, which keeps the desk feeling open. Aim for something no wider than 10 inches so it does not dominate a narrow desk."
     ],
     productName: "Comix Mesh Desk Organizer",
     productType: "Compact desk organizer",
@@ -176,7 +176,7 @@ export const ideas: SetupIdea[] = [
     summary: "A single USB hub replaces the tangle of individual adapters and dongles scattered around the desk.",
     body: [
       "A small desk often has limited outlets, and adding a separate charging brick for each device creates a mess of adapters and cables. A powered USB hub with six or seven ports consolidates all of this into one unit, which can then be mounted under the desk or placed at the back corner, out of the main work area.",
-      "Choose a hub with individual power switches per port so you can turn off charging for unused devices without unplugging them. This reduces standby draw and keeps the power strip cleaner.",
+      "Choose a hub with individual power switches per port so you can turn off charging for unused devices without unplugging them. This reduces standby draw and keeps the power strip cleaner."
     ],
     productName: "Anker 7-Port Powered USB Hub",
     productType: "Powered USB hub",
@@ -194,7 +194,7 @@ export const ideas: SetupIdea[] = [
     summary: "A compact footrest improves sitting posture at a fixed-height desk without requiring a new chair.",
     body: [
       "Most small desks are fixed-height, which means the chair height is often a compromise between elbow position and foot placement. If the desk height is correct for your arms, your feet may not rest flat on the floor. A footrest solves this by raising the floor to meet your feet rather than forcing you to choose between a hunched back and dangling legs.",
-      "Memory foam footrests are quieter and more comfortable than hard plastic ones, and they sit low enough to slide under the desk when not in use. Look for one with a non-slip bottom so it does not creep forward during the day.",
+      "Memory foam footrests are quieter and more comfortable than hard plastic ones, and they sit low enough to slide under the desk when not in use. Look for one with a non-slip bottom so it does not creep forward during the day."
     ],
     productName: "ComfiLife Memory Foam Footrest",
     productType: "Memory foam footrest",
@@ -211,7 +211,7 @@ export const ideas: SetupIdea[] = [
     summary: "A headphone hook mounts under the desk and keeps headphones off the surface without any drilling.",
     body: [
       "Headphones left on the desk take up a surprising amount of space, especially over-ear models. An under-desk headphone hook uses an adhesive or clamp mount to hang them directly beneath the desk edge, where they are easy to grab but completely out of the work zone.",
-      "This also prevents headphones from being knocked off the desk, which is a common cause of driver damage. Most hooks hold up to 15 pounds, which is more than enough for any over-ear headphones or a lightweight headset.",
+      "This also prevents headphones from being knocked off the desk, which is a common cause of driver damage. Most hooks hold up to 15 pounds, which is more than enough for any over-ear headphones or a lightweight headset."
     ],
     productName: "Elevation Lab Under-Desk Headphone Hook",
     productType: "Under-desk headphone hook",
@@ -228,7 +228,7 @@ export const ideas: SetupIdea[] = [
     summary: "A single small plant adds life to a minimal desk setup without adding visual clutter.",
     body: [
       "A small desk looks intentional and lived-in when it includes one personal element. A small succulent or potted plant is the most practical choice because it is compact, slow-growing, and requires minimal care. It also works well visually in any color palette -- green reads as neutral on a desk.",
-      "If you work in a room with limited natural light, artificial succulents are a completely reasonable alternative. Quality faux succulents are nearly indistinguishable from real ones at desk distance, and they require no watering, no soil, and no sunlight.",
+      "If you work in a room with limited natural light, artificial succulents are a completely reasonable alternative. Quality faux succulents are nearly indistinguishable from real ones at desk distance, and they require no watering, no soil, and no sunlight."
     ],
     productName: "Funarty Artificial Succulents",
     productType: "Artificial succulents",
@@ -245,7 +245,7 @@ export const ideas: SetupIdea[] = [
     summary: "A rolling cart provides extra storage adjacent to the desk and rolls away when not needed.",
     body: [
       "When a small desk simply does not have enough surface or drawer space, a slim rolling cart placed beside it effectively extends the desk's storage without adding to its footprint. The cart becomes a side table for the monitor, a printer stand, or extra drawer space, and it rolls out of the way when the room needs to serve a different purpose.",
-      "Three-tier carts work best because they provide storage at three heights: the top tier for active items, the middle for reference materials, and the bottom for heavier items like notebooks or a laptop bag. Look for a cart no wider than 12 inches so it fits alongside a narrow desk without blocking movement.",
+      "Three-tier carts work best because they provide storage at three heights: the top tier for active items, the middle for reference materials, and the bottom for heavier items like notebooks or a laptop bag. Look for a cart no wider than 12 inches so it fits alongside a narrow desk without blocking movement."
     ],
     productName: "SONGMICS 3-Tier Rolling Storage Cart",
     productType: "Slim rolling cart",
@@ -262,7 +262,7 @@ export const ideas: SetupIdea[] = [
     summary: "A wall pegboard adds flexible vertical storage without using any desk surface at all.",
     body: [
       "The wall above a small desk is almost always unused space. A pegboard mounted directly above the desk transforms that area into customizable storage for headphones, cables, stationery, a small shelf, or a hook for a bag. Because pegboard hooks are repositionable, the layout can change as the desk setup evolves.",
-      "This is particularly useful for setups where the desk is pushed against a wall. The pegboard also acts as a visual backdrop that can make the overall setup look more intentional, especially when the hooks and accessories are color-matched to the rest of the desk.",
+      "This is particularly useful for setups where the desk is pushed against a wall. The pegboard also acts as a visual backdrop that can make the overall setup look more intentional, especially when the hooks and accessories are color-matched to the rest of the desk."
     ],
     productName: "Kinpaw Wall Pegboard Organizer",
     productType: "Wall pegboard",
@@ -279,7 +279,7 @@ export const ideas: SetupIdea[] = [
     summary: "A desktop shelf creates a raised platform at the back of the desk for monitors, speakers, or books, freeing the lower surface.",
     body: [
       "A desktop shelf is different from a monitor stand: instead of lifting just the screen, it creates an elevated platform across the back portion of the desk that can hold the monitor, a small speaker, a plant, or books, while the desk surface below remains usable for active work. This effectively gives a small desk two work planes instead of one.",
-      "Choose a shelf with an open design (two legs rather than a solid panel) so you can tuck items underneath it. This keeps the desk feeling open rather than adding a wall of storage at the back.",
+      "Choose a shelf with an open design (two legs rather than a solid panel) so you can tuck items underneath it. This keeps the desk feeling open rather than adding a wall of storage at the back."
     ],
     productName: "SimpleHouseware Desktop Shelf Organizer",
     productType: "Desktop shelf riser",
@@ -287,7 +287,7 @@ export const ideas: SetupIdea[] = [
     amazonUrl: "https://www.amazon.com/dp/B09GM126DP?tag=deskfinds0d-20",
     whyItHelps: ["Creates a second work plane on a small desk", "Open leg design lets you store items below it", "Works for monitor + plant + speaker at once"],
     skipIf: "You already use a monitor arm that lifts the screen -- the arm accomplishes the same height goal and the shelf would just be redundant clutter.",
-  },
+  }
 ];
 
 export const atAGlanceItems = ideas.map((idea) => ({
@@ -310,7 +310,7 @@ export const checklistRows = [
   { area: "Cables", what: "Cable tray and adhesive clips", why: "Eliminates visual clutter below and behind" },
   { area: "Surface", what: "Desk mat", why: "Defines the work zone and unifies the look" },
   { area: "Vertical space", what: "Pegboard or desktop shelf", why: "Adds storage without touching the desk surface" },
-  { area: "Extras", what: "Headphone hook + USB hub", why: "Removes two common desk clutter sources" },
+  { area: "Extras", what: "Headphone hook + USB hub", why: "Removes two common desk clutter sources" }
 ];
 
 export const mistakes = [
@@ -319,7 +319,7 @@ export const mistakes = [
   { title: "Leaving cables visible on the surface", body: "Even a neat desk looks messy if cables are loose. Route them first before adding anything else." },
   { title: "Choosing accessories that are too wide", body: "A monitor stand or shelf that spans the full desk width can make the setup feel enclosed rather than open." },
   { title: "Ignoring the wall above the desk", body: "A pegboard or floating shelf can double usable storage without touching the desk at all." },
-  { title: "Skipping the desk mat", body: "Without a mat, the desk looks like a collection of objects. With a mat, it looks like a workspace." },
+  { title: "Skipping the desk mat", body: "Without a mat, the desk looks like a collection of objects. With a mat, it looks like a workspace." }
 ];
 
 export const faq: { question: string; answer: string }[] = [
@@ -352,5 +352,5 @@ export const faq: { question: string; answer: string }[] = [
     question: "How can I add storage to a small desk without making it cluttered?",
     answer:
       "Use vertical space: a monitor stand with a drawer handles small items, a desktop shelf adds a second layer at the rear, and a pegboard uses the wall. These approaches add storage without expanding the desk's horizontal footprint.",
-  },
+  }
 ];

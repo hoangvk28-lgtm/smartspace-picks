@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "2 bay nas home office";
 export const introParagraphs = [
   "A 2-bay NAS is the entry point for real home office network storage, but the sticker price on the enclosure is only part of the real cost. Two drives, and in some cases a faster switch to actually see the network speed gains, usually add several hundred dollars before the unit is doing anything useful.",
-  "Below are 8 diskless 2-bay NAS units we evaluated on true all-in cost, RAM upgradeability, and how honestly each brand handles RAID 1's storage math, ranging from a $199 entry-level Asustor box to a $519 expandable Synology unit built for small business use.",
+  "Below are 8 diskless 2-bay NAS units we evaluated on true all-in cost, RAM upgradeability, and how honestly each brand handles RAID 1's storage math, ranging from a $199 entry-level Asustor box to a $519 expandable Synology unit built for small business use."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "DSM operating system",
       "Value-series, soldered RAM (not upgradeable)",
       "Backup and basic surveillance monitoring focus",
-      "RAID 1 support",
+      "RAID 1 support"
     ],
     pros: [
       "Easiest software for first-time NAS buyers",
       "Solid all-around home office backup features",
       "Reasonable price for the DSM ecosystem",
-      "Supports basic property monitoring apps",
+      "Supports basic property monitoring apps"
     ],
     cons: [
       "Soldered RAM, no upgrade path if you add more apps later",
       "True cost climbs once drives are added",
-      "Value-series performance ceiling for heavier workloads",
+      "Value-series performance ceiling for heavier workloads"
     ],
     bestFor: "First-time NAS buyers who want Synology's easiest software",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "UGREEN NAS OS",
       "Content creator-focused hardware",
       "RAID 1 support",
-      "Diskless, drives sold separately",
+      "Diskless, drives sold separately"
     ],
     pros: [
       "Strong hardware for photo/video workflows",
       "Actively developed UGREEN NAS OS",
       "Good middle-tier pricing for the hardware included",
-      "2-bay flexibility for RAID 1 or JBOD",
+      "2-bay flexibility for RAID 1 or JBOD"
     ],
     cons: [
       "Smaller software ecosystem than Synology or QNAP",
       "Pricier than entry-level value-series NAS units",
-      "Still requires separate drive purchase to reach usable capacity",
+      "Still requires separate drive purchase to reach usable capacity"
     ],
     bestFor: "Home office users doing photo or video work who need more processing headroom",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "8GB RAM included",
       "QTS operating system",
       "Diskless, drives sold separately",
-      "Multi-app / container support",
+      "Multi-app / container support"
     ],
     pros: [
       "8GB RAM included avoids a future upgrade purchase",
       "Mature QTS app ecosystem",
       "Good fit for running multiple apps simultaneously",
-      "Desktop form factor with solid build quality",
+      "Desktop form factor with solid build quality"
     ],
     cons: [
       "Highest price among the value-tier options in this list",
       "Still needs drives purchased separately",
-      "Larger footprint than compact value-series units",
+      "Larger footprint than compact value-series units"
     ],
     bestFor: "Buyers who know they'll want to run Plex or multiple apps and don't want a RAM upgrade later",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "2.5GbE networking",
       "QTS operating system",
       "Diskless, drives sold separately",
-      "RAID 1 support",
+      "RAID 1 support"
     ],
     pros: [
       "2.5GbE built in at a moderate price",
       "Same mature QTS app ecosystem as pricier QNAP units",
       "Good balance of networking speed and price",
-      "Compact desktop footprint",
+      "Compact desktop footprint"
     ],
     cons: [
       "2.5GbE speed gains require a compatible router or switch",
       "Lower RAM than the TS-264 tier above it",
-      "Drives still purchased separately",
+      "Drives still purchased separately"
     ],
     bestFor: "Buyers who already have or plan to add a 2.5GbE switch",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Quad-core 1.7GHz CPU",
       "2.5GbE networking",
       "1GB DDR4 RAM (soldered)",
-      "4K media server support",
+      "4K media server support"
     ],
     pros: [
       "Cheapest genuine 2-bay diskless NAS in this list",
       "2.5GbE built in even at this price point",
       "Quad-core CPU is strong for the price tier",
-      "Good fit for basic file sharing and backup",
+      "Good fit for basic file sharing and backup"
     ],
     cons: [
       "1GB RAM is soldered, no upgrade path",
       "Not ideal if you plan to add Plex or heavier apps later",
-      "Asustor's app ecosystem is smaller than Synology or QNAP",
+      "Asustor's app ecosystem is smaller than Synology or QNAP"
     ],
     bestFor: "Budget-conscious buyers who mainly need basic file backup and sharing",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Intel x86 quad-core CPU",
       "4GB RAM",
       "2.5GbE LAN",
-      "TOS operating system",
+      "TOS operating system"
     ],
     pros: [
       "Intel x86 CPU outperforms ARM competitors at similar price",
       "4GB RAM is generous for this price tier",
       "2.5GbE included",
-      "Good multimedia server performance",
+      "Good multimedia server performance"
     ],
     cons: [
       "TOS software is less refined than Synology DSM",
       "Smaller third-party app selection",
-      "Drives purchased separately as with all diskless units",
+      "Drives purchased separately as with all diskless units"
     ],
     bestFor: "Buyers who prioritize raw CPU performance over software polish",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Supports up to 64TB total capacity",
       "UGREEN NAS OS",
       "Diskless, drives sold separately",
-      "RAID 1 support",
+      "RAID 1 support"
     ],
     pros: [
       "High 64TB capacity ceiling for future drive upgrades",
       "Matches the cheapest entry-level price in this list",
       "Actively developed UGREEN NAS OS",
-      "Solid choice for buyers planning to grow storage over time",
+      "Solid choice for buyers planning to grow storage over time"
     ],
     cons: [
       "Smaller app ecosystem than Synology or QNAP",
       "Reaching the 64TB ceiling requires a future drive purchase",
-      "Fewer third-party integrations currently available",
+      "Fewer third-party integrations currently available"
     ],
     bestFor: "Buyers who want room to add larger drives later without changing enclosures",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Upgradeable DDR4 RAM",
       "Expandable via Synology expansion units",
       "Private cloud, home and small business focus",
-      "DSM operating system",
+      "DSM operating system"
     ],
     pros: [
       "Upgradeable RAM avoids the value-series upgrade trap",
       "Expandable beyond 2 bays as storage needs grow",
       "Mature DSM software and app ecosystem",
-      "Strong choice for future-proofing",
+      "Strong choice for future-proofing"
     ],
     cons: [
       "Most expensive pick in this list",
       "2024+ compatibility warnings for non-Synology drives",
-      "Overkill if you only need basic file backup",
+      "Overkill if you only need basic file backup"
     ],
     bestFor: "Small business or growth-minded buyers who want upgradeable RAM and expansion room",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Drive compatibility policy",
     description: "Checked whether each brand restricts or warns against third-party drives, since Synology's 2024+ Plus-series models now flag non-Synology drives.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -466,11 +466,11 @@ export const faq: FaqItem[] = [
   {
     q: "Which 2-bay NAS in this list is best if I might add Plex later?",
     a: "The QNAP TS-264-8G-US ships with 8GB of RAM included, which covers Plex and several other apps without an upgrade purchase. The Synology DS725+ is the other strong option since its DDR4 RAM is upgradeable even though it ships with less RAM out of the box.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-nas-for-plex-media-servers", title: "Best NAS for Plex Media Servers (2026)" },
   { href: "/guide/best-nas-storage-devices", title: "Best NAS Storage Devices (2026)" },
-  { href: "/guide/best-nas-storage-for-home-office", title: "Best NAS Storage for Home Office (2026)" },
+  { href: "/guide/best-nas-storage-for-home-office", title: "Best NAS Storage for Home Office (2026)" }
 ];

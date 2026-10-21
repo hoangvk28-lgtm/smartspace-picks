@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "under-desk cup holders";
 export const introParagraphs = [
   "Mounting a cup holder underneath the desk rather than on its edge is a genuinely distinct placement, keeping the drink out of sight and off the visible desk surface entirely. The tradeoff is knee clearance impact and a less immediate reach than an edge-clamped holder.",
-  "We checked each pick's rotation range, since a holder that swings out from under the desk when needed and tucks away when not is meaningfully more usable than a fixed under-desk position.",
+  "We checked each pick's rotation range, since a holder that swings out from under the desk when needed and tucks away when not is meaningfully more usable than a fixed under-desk position."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Knee clearance impact", description: "We noted that under-desk placement can interfere with legroom, and favored compact or fully-rotating designs that minimize this impact." },
   { title: "Retrieval accessibility", description: "We evaluated whether reaching a hidden under-desk holder feels natural or requires an awkward, distracting reach." },
   { title: "Rotation range", description: "We prioritized picks with genuine 360° rotation, letting the holder swing into reach and then tuck away when not needed." },
-  { title: "Hybrid feature verification", description: "For multi-function picks, we verified the combined features are genuinely useful and well-reviewed, not token add-ons." },
+  { title: "Hybrid feature verification", description: "For multi-function picks, we verified the combined features are genuinely useful and well-reviewed, not token add-ons." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -244,11 +244,11 @@ export const faq: FaqItem[] = [
   { q: "How do I find my drink under the desk without looking?", a: "This is a genuine usability tradeoff of under-desk placement. A rotating holder that you position consistently in the same spot helps build muscle memory for reaching it without looking." },
   { q: "Can I mount a headphone hanger and cup holder together under my desk?", a: "Yes, the KDD 4-in-1 and 5-in-1 picks combine both functions on one under-desk clamp, saving separate mounting points." },
   { q: "Is under-desk mounting better than edge mounting?", a: "It's a tradeoff. Under-desk keeps your visible desk surface completely clear but requires reaching down and slightly out of sight. Edge mounting is faster to reach but takes up visible desk-edge space." },
-  { q: "Will the clamp fit my desk's underside construction?", a: "Check for cross-bracing or drawers that might limit available mounting surface underneath your specific desk before ordering, since this varies significantly by desk design." },
+  { q: "Will the clamp fit my desk's underside construction?", a: "Check for cross-bracing or drawers that might limit available mounting surface underneath your specific desk before ordering, since this varies significantly by desk design." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-cup-holders", title: "Best Desk Cup Holders (2026)" },
   { href: "/guide/best-desk-organizers-with-cup-holders", title: "Best Desk Organizers with Cup Holders (2026)" },
-  { href: "/guide/best-four-in-one-desk-cup-holders", title: "Best Four-in-One Desk Cup Holders (2026)" },
+  { href: "/guide/best-four-in-one-desk-cup-holders", title: "Best Four-in-One Desk Cup Holders (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable file cabinets on wheels";
 export const introParagraphs = [
   "\"Cabinet\" implies a larger, more substantial product than a \"box,\" and this guide reflects that: every pick here offers genuine multi-drawer capacity rather than a single hanging-file compartment, distinct from our wheeled file box research. At this larger scale, 'portable' is more accurately 'mobile', wheeled but not typically hand-carried.",
-  "We carried forward the wheel quality and locking mechanism considerations from our wheeled file box guide, applied here specifically to this larger cabinet scale.",
+  "We carried forward the wheel quality and locking mechanism considerations from our wheeled file box guide, applied here specifically to this larger cabinet scale."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -104,7 +104,7 @@ export const products: GuideProduct[] = [
     pros: ["Dual letter/legal compatibility", "Combines wheels and fireproof marketing", "Reasonable capacity for a single box", "Wheeled mobility"],
     cons: ["Highest price of the single-box picks here", "Moderate rating relative to top picks", "Verify fireproof rating documentation directly"],
     bestFor: "Buyers who want a wheeled, fireproof-marketed box supporting both document sizes.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine cabinet-scale vs. single-box distinction", description: "We clarified whether each product genuinely offers multi-drawer cabinet capacity or is actually a single wheeled box, since 'cabinet' implies meaningfully more scale." },
   { title: "Wheel locking mechanism at this larger scale", description: "We prioritized locking wheels for cabinet-scale products, since a heavier, larger wheeled unit benefits more from stationary stability than a lighter single box." },
   { title: "\"Portable\" vs. \"mobile\" honesty", description: "We scrutinized whether 'portable' claims are accurate at cabinet scale, since a genuinely cabinet-sized product is more honestly described as mobile (wheeled but not hand-carried) rather than portable in the lighter sense." },
-  { title: "Multi-drawer capacity verification", description: "We confirmed genuine multi-drawer capacity as this category's actual differentiating feature from our wheeled file box research." },
+  { title: "Multi-drawer capacity verification", description: "We confirmed genuine multi-drawer capacity as this category's actual differentiating feature from our wheeled file box research." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -240,11 +240,11 @@ export const faq: FaqItem[] = [
   { q: "Can I actually carry a wheeled file cabinet by hand?", a: "Generally no at genuine cabinet scale; these are more honestly described as mobile (wheeled) rather than truly hand-portable given their weight and size." },
   { q: "Should I get a locking wheel feature?", a: "Yes, especially at cabinet scale, since a heavier, larger unit benefits more from stationary stability than a lighter single box would." },
   { q: "How much capacity do these cabinets actually offer?", a: "The Sbanmao pick offers genuine 3-drawer capacity, meaningfully more than a single-compartment wheeled box. Check the specific drawer count for your realistic document volume needs." },
-  { q: "What if I don't need cabinet-scale capacity?", a: "Consider our best portable file boxes with wheels guide instead, which covers more appropriately scaled single-box options if your document volume doesn't require multiple drawers." },
+  { q: "What if I don't need cabinet-scale capacity?", a: "Consider our best portable file boxes with wheels guide instead, which covers more appropriately scaled single-box options if your document volume doesn't require multiple drawers." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-file-boxes-with-wheels", title: "Best Portable File Boxes with Wheels (2026)" },
   { href: "/guide/best-rolling-portable-file-boxes", title: "Best Rolling Portable File Boxes (2026)" },
-  { href: "/guide/best-portable-file-boxes-with-drawers", title: "Best Portable File Boxes with Drawers (2026)" },
+  { href: "/guide/best-portable-file-boxes-with-drawers", title: "Best Portable File Boxes with Drawers (2026)" }
 ];

@@ -365,7 +365,7 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Large beauty fridge",
-        "text": "Holds tall bottles and sorts items into zones, but is bigger and costs $135 to $140. Picks: Kikihouse and TABU."
+        "text": "Holds tall bottles and sorts items into zones, but is bigger and costs under $140 to $140. Picks: Kikihouse and TABU."
       },
       {
         "label": "4L cube",

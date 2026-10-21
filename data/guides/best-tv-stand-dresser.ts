@@ -13,7 +13,7 @@ export const heroImage =
 export const mainKeyword = "tv stand dresser";
 export const introParagraphs = [
   "A TV stand dresser combines a chest of drawers with a wide, low-profile top built to hold a television, which makes it a practical fit for bedrooms and studio apartments where floor space for two separate pieces simply doesn't exist. The best versions pair real drawer storage for clothing or linens with a sturdy top rated for common TV sizes, and many now add LED lighting and built-in charging outlets that a standalone dresser or stand won't offer.",
-  "Choosing one over a separate TV stand and dresser makes the most sense when floor space is tight or a single piece needs to anchor a small room, but it's worth going in with realistic expectations about drawer depth and weight distribution, both of which we cover in the buying criteria below.",
+  "Choosing one over a separate TV stand and dresser makes the most sense when floor space is tight or a single piece needs to anchor a small room, but it's worth going in with realistic expectations about drawer depth and weight distribution, both of which we cover in the buying criteria below."
 ];
 
 export interface GuideProduct {
@@ -50,8 +50,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick",
     name: "WLIVE 7 Drawer Dresser TV Stand (Black & Rustic Brown)",
     price: "$59.99",
-    rating: "4.4 stars",
-    reviews: "7,880 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/411OdMwDcHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B097Y4MLRT?tag=deskfinds0d-20",
     description:
@@ -62,18 +62,18 @@ export const products: GuideProduct[] = [
       "Water-resistant wood top",
       "Fits TV up to 45\"",
       "15-20 minute assembly",
-      "Black & rustic brown finish",
+      "Black & rustic brown finish"
     ],
     pros: [
-      "$59.99 lowest price in roundup",
+      "Under $60 lowest price in roundup",
       "Fast 15-20 minute assembly",
       "Water-resistant wood top",
-      "Sturdy steel frame",
+      "Sturdy steel frame"
     ],
     cons: [
       "45\" max TV size limits larger setups",
       "No LED lighting or charging outlets",
-      "Fabric drawers less rigid than wood drawers",
+      "Fabric drawers less rigid than wood drawers"
     ],
     bestFor: "Budget buyers who want a functional dresser and TV stand in one piece for a small bedroom.",
   },
@@ -83,8 +83,8 @@ export const products: GuideProduct[] = [
     badge: "Best White Finish",
     name: "WLIVE 7 Drawer Dresser TV Stand (White)",
     price: "$59.99",
-    rating: "4.4 stars",
-    reviews: "7,880 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41H8gk8T2nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B8NYH6CC?tag=deskfinds0d-20",
     description:
@@ -94,18 +94,18 @@ export const products: GuideProduct[] = [
       "4-way adjustable feet",
       "Fits TV up to 45\"",
       "White finish",
-      "Versatile for bedroom or closet",
+      "Versatile for bedroom or closet"
     ],
     pros: [
-      "$59.99 lowest price in roundup",
+      "Under $60 lowest price in roundup",
       "4-way adjustable feet for uneven floors",
       "Clean white finish suits bright rooms",
-      "Doubles as a closet dresser",
+      "Doubles as a closet dresser"
     ],
     cons: [
       "45\" max TV size limits larger setups",
       "No LED lighting or charging outlets",
-      "White finish shows scuffs more than darker colors",
+      "White finish shows scuffs more than darker colors"
     ],
     bestFor: "Buyers who want the budget WLIVE frame in a lighter finish for bedrooms or closets.",
   },
@@ -115,8 +115,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Large TVs",
     name: "Huuger 63\" 9 Drawer Dresser TV Stand (Rustic Brown)",
     price: "$79.99",
-    rating: "4.4 stars",
-    reviews: "1,901 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41dXwXVv-JL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CWR9TJV5?tag=deskfinds0d-20",
     description:
@@ -127,18 +127,18 @@ export const products: GuideProduct[] = [
       "8 adjustable feet",
       "Anti-tip hardware included",
       "Fits TV 55-70\"",
-      "300+ lb capacity",
+      "300+ lb capacity"
     ],
     pros: [
       "20\" drawer depth close to a real dresser",
       "Fits large 55-70\" TVs",
       "Anti-tip hardware included",
-      "300+ lb capacity",
+      "300+ lb capacity"
     ],
     cons: [
       "63\" width needs more wall space",
       "Rustic brown is the only available finish",
-      "Heavier piece, two-person assembly recommended",
+      "Heavier piece, two-person assembly recommended"
     ],
     bestFor: "Living rooms or large bedrooms replacing a separate TV stand and dresser with one wide piece.",
   },
@@ -148,8 +148,8 @@ export const products: GuideProduct[] = [
     badge: "Best LED Lighting",
     name: "Huuger 47\" LED TV Stand Dresser (6 Drawers)",
     price: "$84.99",
-    rating: "4.6 stars",
-    reviews: "977 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51sm2V5lIvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJY1LD1M?tag=deskfinds0d-20",
     description:
@@ -159,18 +159,17 @@ export const products: GuideProduct[] = [
       "App-controlled 6,000-color LED",
       "2 AC outlets + 2 USB + 1 USB-C",
       "Fits TV 43-55\"",
-      "47\" wide",
+      "47\" wide"
     ],
     pros: [
       "App-controlled LED lighting",
       "Built-in AC and USB charging",
-      "4.6 stars, highest rating in roundup",
-      "Fits common 43-55\" TV range",
+      "Fits common 43-55\" TV range"
     ],
     cons: [
-      "$84.99 higher than basic models",
+      "$85 higher than basic models",
       "6 drawers fewer than 8-12 drawer options",
-      "LED app adds setup complexity for some users",
+      "LED app adds setup complexity for some users"
     ],
     bestFor: "Buyers who want built-in charging and mood lighting alongside dresser storage.",
   },
@@ -180,8 +179,8 @@ export const products: GuideProduct[] = [
     badge: "Best Charging Station",
     name: "WLIVE 8 Drawer Dresser TV Stand (LED + Charging, Black)",
     price: "$79.99",
-    rating: "4.3 stars",
-    reviews: "2,787 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41GNB+ukutL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D6V1NVM1?tag=deskfinds0d-20",
     description:
@@ -191,18 +190,17 @@ export const products: GuideProduct[] = [
       "60,000-color LED",
       "2 AC + 2 USB charging station",
       "150 lb capacity",
-      "Fits TV 45-55\"",
+      "Fits TV 45-55\""
     ],
     pros: [
       "8 drawers for more storage",
       "Built-in LED and charging station",
       "Fits common 45-55\" TV range",
-      "Black finish hides scuffs well",
+      "Black finish hides scuffs well"
     ],
     cons: [
       "150 lb capacity lower than Huuger models",
-      "4.3 stars, lowest rating in roundup",
-      "LED strip requires separate power draw planning",
+      "LED strip requires separate power draw planning"
     ],
     bestFor: "Bedrooms that want built-in charging and lighting without paying for the widest frame.",
   },
@@ -212,8 +210,8 @@ export const products: GuideProduct[] = [
     badge: "Best for 65-70\" TVs",
     name: "Furologee 63\" LED TV Stand Dresser",
     price: "$80.99",
-    rating: "4.6 stars",
-    reviews: "183 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51etHqXwqpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FN3QRCH7?tag=deskfinds0d-20",
     description:
@@ -223,18 +221,16 @@ export const products: GuideProduct[] = [
       "60,000+ color LED",
       "3 AC + 2 USB",
       "4 ventilated open shelves",
-      "Fits TV 65-70\"",
+      "Fits TV 65-70\""
     ],
     pros: [
       "PU leather drawer fronts look upscale",
       "4 ventilated shelves for media devices",
-      "4.6 stars, tied for highest rating",
-      "Fits large 65-70\" TVs",
+      "Fits large 65-70\" TVs"
     ],
     cons: [
       "Only 6 drawers, fewer than most picks here",
-      "183 ratings, smallest review base in roundup",
-      "PU leather needs gentler cleaning than fabric",
+      "PU leather needs gentler cleaning than fabric"
     ],
     bestFor: "Living rooms with a large TV that want a more upscale-looking media console with drawer storage.",
   },
@@ -244,8 +240,8 @@ export const products: GuideProduct[] = [
     badge: "Best Build Quality",
     name: "SONGMICS BELLAH 8 Drawer Dresser TV Stand (Ink Black)",
     price: "$89.99",
-    rating: "4.2 stars",
-    reviews: "4,428 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Z9+nZ6V9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTZT93P7?tag=deskfinds0d-20",
     description:
@@ -256,18 +252,16 @@ export const products: GuideProduct[] = [
       "App-controlled 60,000-color LED",
       "2 AC + USB + USB-C",
       "57.8\" wide",
-      "Fits TV up to 65\"",
+      "Fits TV up to 65\""
     ],
     pros: [
       "Premium steel frame construction",
       "App-controlled LED and full charging suite",
-      "Fits TVs up to 65\"",
-      "4,428 ratings, strong review base",
+      "Fits TVs up to 65\""
     ],
     cons: [
-      "$89.99 higher price point",
-      "4.2 stars, lower than several cheaper picks",
-      "57.8\" width needs adequate wall space",
+      "$90 higher price point",
+      "57.8\" width needs adequate wall space"
     ],
     bestFor: "Buyers who prioritize sturdier steel construction and are willing to pay more for it.",
   },
@@ -277,8 +271,8 @@ export const products: GuideProduct[] = [
     badge: "Best Storage Capacity",
     name: "WLIVE 12 Drawer Wide Dresser TV Stand (Black, LED)",
     price: "$109.99",
-    rating: "4.3 stars",
-    reviews: "226 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41PoO7qfM-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9WV3CQ2?tag=deskfinds0d-20",
     description:
@@ -288,21 +282,20 @@ export const products: GuideProduct[] = [
       "60,000-color LED",
       "2 AC + 2 USB",
       "Fits TV 65-75\"",
-      "Most drawers in this roundup",
+      "Most drawers in this roundup"
     ],
     pros: [
       "12 drawers, most storage in roundup",
       "Fits large 65-75\" TVs",
       "Built-in LED and charging",
-      "66\" width suits large rooms",
+      "66\" width suits large rooms"
     ],
     cons: [
-      "$109.99 highest price in roundup",
-      "226 ratings, smallest review base",
-      "66\" width too large for small bedrooms",
+      "Under $110 highest price in roundup",
+      "66\" width too large for small bedrooms"
     ],
     bestFor: "Large rooms that want maximum drawer storage alongside a stand for a big-screen TV.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -348,10 +341,10 @@ export const faq: FaqItem[] = [
   {
     q: "Is a dresser and TV stand combo better than buying both separately?",
     a: "It depends on available floor space. A combo saves floor space and cost compared to buying a separate dresser and TV stand, which matters most in small bedrooms or studio apartments. In a larger room where floor space isn't constrained, two separate pieces can offer deeper drawers and a more flexible TV mounting height.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-tv-stand-for-bedroom", title: "Best TV Stands for Bedroom (2026)" },
-  { href: "/guide/best-tv-stand-with-storage", title: "Best TV Stands with Storage (2026)" },
+  { href: "/guide/best-tv-stand-with-storage", title: "Best TV Stands with Storage (2026)" }
 ];

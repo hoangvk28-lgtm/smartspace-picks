@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini pc for ai workloads";
 export const introParagraphs = [
   "Different AI workloads genuinely stress different hardware, local language model inference is memory-bandwidth-bound, image generation is more GPU-compute-bound, and transcription is often lighter on both, worth matching your specific workload to the right hardware profile rather than assuming any 'AI-capable' mini PC handles every task equally well.",
-  "Time-to-first-token and tokens-per-second are the metrics that actually matter for local language model workloads, not a generic TOPS rating alone, worth checking reviews or benchmarks reporting these specific numbers for your intended model size before buying.",
+  "Time-to-first-token and tokens-per-second are the metrics that actually matter for local language model workloads, not a generic TOPS rating alone, worth checking reviews or benchmarks reporting these specific numbers for your intended model size before buying."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Pick for Large Local Language Model Inference",
     name: "GMKtec EVO-X2 AI Mini PC AMD Ryzen Al Max+ 395 Up to 5.1GHz, 16C/32T",
     price: "$1,999.99",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "61 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41XUgWeu2EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F53QXNGH?tag=deskfinds0d-20",
     description: "A genuinely powerful 16-core, 32-thread Ryzen AI Max+ 395, appropriate for buyers running memory-bandwidth-intensive local language model inference workloads.\n\nIt earns the top spot in this comparison over GEEKOM A9 Max High AI Productivity Mini PC for one main reason. Genuinely strong memory bandwidth well-suited to LLM inference specifically. On price, it's actually priced above GEEKOM A9 Max High AI Productivity Mini PC, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: 16-core, 32-thread configuration for demanding workloads. On the other side, High price reflecting the specialized capability. That's the main tradeoff to weigh against everything above.",
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Balanced Pick Across Multiple AI Workload Types",
     name: "GEEKOM A9 Max High AI Productivity Mini PC,AMD Ryzen AI 9 HX 370(80 Tops)",
     price: "$1,299.00",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "397 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41OccK3d-wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLF2KYKN?tag=deskfinds0d-20",
     description: "A genuine 80 TOPS NPU alongside strong general processing, appropriate for buyers with mixed AI workload needs spanning inference, image generation, and transcription without specializing in just one.\n\nOne spot below GMKtec EVO-X2 AI Mini PC AMD Ryzen Al Max+ 395 Up to 5.1GHz in this ranking, it's priced lower than GMKtec EVO-X2 AI Mini PC AMD Ryzen Al Max+ 395 Up to 5.1GHz. The compromise here is straightforward: Not as specialized for pure memory-bandwidth-bound LLM inference as the top pick. What you gain in return: Genuinely balanced performance across multiple AI workload types. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Solid review base for real-world confidence. On the other side, Premium price relative to lighter-workload alternatives. That's the main tradeoff to weigh against everything above.",
@@ -74,13 +74,13 @@ export const products: GuideProduct[] = [
     badge: "Best Value Pick for Mixed AI Workloads",
     name: "GMKtec AI Mini PC Ryzen Al Max+ 395 (up to 5.1GHz)",
     price: "$2,100.00",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "14 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41XUgWeu2EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FKYZF9HL?tag=deskfinds0d-20",
-    description: "The same powerful Ryzen AI Max+ 395 processor appropriate for buyers wanting strong performance across mixed inference and image generation workloads.\n\nRanked just behind GMKtec K15 AI Mini PC Oculink with Intel Core Ultra 5 125U Processor, it costs more than GMKtec K15 AI Mini PC Oculink with Intel Core Ultra 5 125U Processor. The real tradeoff against that pick: Small review base, verify current reviews before purchase. In exchange, it offers this instead: Powerful Ryzen AI Max+ 395 for mixed inference and image generation workloads. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: High 4.5-star rating for confidence. On the other side, Verify the specific RAM configuration for your intended workload. That's the main tradeoff to weigh against everything above.",
+    description: "The same powerful Ryzen AI Max+ 395 processor appropriate for buyers wanting strong performance across mixed inference and image generation workloads.\n\nRanked just behind GMKtec K15 AI Mini PC Oculink with Intel Core Ultra 5 125U Processor, it costs more than GMKtec K15 AI Mini PC Oculink with Intel Core Ultra 5 125U Processor. The real tradeoff against that pick: Small review base, verify current reviews before purchase. In exchange, it offers this instead: Powerful Ryzen AI Max+ 395 for mixed inference and image generation workloads. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nOn the other side, Verify the specific RAM configuration for your intended workload. That's the main tradeoff to weigh against everything above.",
     specs: ["AMD Ryzen AI Max+ 395","Strong across mixed AI workload types","High review rating","Premium price point"],
-    pros: ["Powerful Ryzen AI Max+ 395 for mixed inference and image generation workloads","High 4.5-star rating for confidence","Strong memory bandwidth characteristics for demanding tasks","Good option for buyers not specializing in one specific workload type"],
+    pros: ["Powerful Ryzen AI Max+ 395 for mixed inference and image generation workloads","Strong memory bandwidth characteristics for demanding tasks","Good option for buyers not specializing in one specific workload type"],
     cons: ["Small review base, verify current reviews before purchase","Premium price relative to lighter-workload alternatives","Verify the specific RAM configuration for your intended workload"],
     bestFor: "Buyers wanting strong performance across mixed AI workload types without over-specializing",
   },
@@ -90,8 +90,8 @@ export const products: GuideProduct[] = [
     badge: "Best Intel-Based Pick for Mixed AI Workloads",
     name: "GEEKOM IT13 MAX AI Mini PC, Intel Ultra 9 185H (65W), DDR5 16GB 1TB SSD",
     price: "$799.00",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "342 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41YwrXXqc+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLF4KRYT?tag=deskfinds0d-20",
     description: "A genuine Intel Ultra 9 185H with a built-in NPU, appropriate for buyers wanting solid performance across everyday AI-adjacent tasks at a more accessible price.\n\nOne spot below GMKtec AI Mini PC Ryzen Al Max+ 395 in this ranking, it's priced lower than GMKtec AI Mini PC Ryzen Al Max+ 395. The compromise here is straightforward: 16GB RAM limits suitability for larger, more demanding AI models. What you gain in return: Genuine Intel Ultra 9 flagship platform with built-in NPU. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Solid review base for real-world confidence across varied tasks. On the other side, Not appropriate for the most memory-bandwidth-intensive workloads. That's the main tradeoff to weigh against everything above.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Workload type matched to appropriate hardware profile", description: "Matched local inference, image generation, and transcription workload types to the hardware profile each genuinely benefits from most." },
   { title: "Tokens-per-second and time-to-first-token weighted for LLM workloads", description: "Weighted these specific metrics for language model inference workloads over a generic TOPS rating alone." },
   { title: "Memory bandwidth distinguished from raw NPU TOPS rating", description: "Distinguished genuine memory bandwidth characteristics from raw NPU TOPS rating, since these matter differently across workload types." },
-  { title: "Price-to-workload-fit assessed rather than defaulting to the most powerful chip", description: "Assessed whether a buyer's specific workload actually justifies the most powerful and expensive chip, or whether a lighter option genuinely suffices." },
+  { title: "Price-to-workload-fit assessed rather than defaulting to the most powerful chip", description: "Assessed whether a buyer's specific workload actually justifies the most powerful and expensive chip, or whether a lighter option genuinely suffices." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Does the same mini PC work well for both LLM inference and image generation?", a: "Not necessarily optimally, these workloads stress different hardware characteristics, match your pick to your specific primary use case." },
   { q: "What metric matters most for local language model performance?", a: "Tokens-per-second and time-to-first-token, not a generic TOPS rating alone, check for these specific benchmark numbers." },
   { q: "Do I need the most powerful AI chip for transcription?", a: "No, transcription is generally a lighter workload, a less powerful and more affordable chip often suffices." },
-  { q: "Does memory bandwidth matter more than NPU TOPS rating?", a: "For memory-bandwidth-bound workloads like large language model inference, yes, this matters as much or more than raw TOPS rating." },
+  { q: "Does memory bandwidth matter more than NPU TOPS rating?", a: "For memory-bandwidth-bound workloads like large language model inference, yes, this matters as much or more than raw TOPS rating." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-ai-mini-pcs", title: "Best AI Mini PCs (2026)" },
   { href: "/guide/best-mini-pcs-with-64gb-ram", title: "Best Mini PCs with 64GB RAM (2026)" },
-  { href: "/guide/best-high-performance-mini-pcs", title: "Best High-Performance Mini PCs (2026)" },
+  { href: "/guide/best-high-performance-mini-pcs", title: "Best High-Performance Mini PCs (2026)" }
 ];

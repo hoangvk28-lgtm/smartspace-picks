@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31zHpuHoEwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01A6JQSOQ?tag=deskfinds0d-20",
-    description: "NavePoint's 2-post 42U rack uses a self-squaring structure with bolt-down provisions, aimed at giving open-frame stability without the extra material cost of a 4-post design.\n\nAt 330 lbs it's rated lower than 4-post alternatives at this height, so it fits lighter networking gear better than full server chassis stacks.\n\nThe strongest case for this pick comes down to self-squaring design adds stability without extra posts as well as floor mounting or casters, your choice at setup. The compromise here is that 330 lb rating is modest for a 42U rack, so factor that in alongside the $285.99 asking price.",
+    description: "NavePoint's 2-post 42U rack uses a self-squaring structure with bolt-down provisions, aimed at giving open-frame stability without the extra material cost of a 4-post design.\n\nAt 330 lbs it's rated lower than 4-post alternatives at this height, so it fits lighter networking gear better than full server chassis stacks.\n\nThe strongest case for this pick comes down to self-squaring design adds stability without extra posts as well as floor mounting or casters, your choice at setup. The compromise here is that 330 lb rating is modest for a 42U rack, so factor that in alongside the under $300 asking price.",
     specs: ["42U, 23.75\"L x 23.5\"W x 81.75\"H","330 lb weight capacity","Self-squaring bolt-down structure"],
     pros: ["Self-squaring design adds stability without extra posts","Floor mounting or casters, your choice at setup","Open frame keeps cable and equipment access simple"],
     cons: ["330 lb rating is modest for a 42U rack","2-post design offers less lateral support than 4-post"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31gccnVtvQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTRCWN6?tag=deskfinds0d-20",
-    description: "At 45U this is one of the tallest racks in the entire lineup, and NavePoint rates it for 881 lbs, notably higher than their smaller 2-post models thanks to a wider base footprint.\n\nBuilt-in cable hooks are called out specifically as useful for studio and network settings where cable organization tends to get messy fast at this scale.\n\nWhere this one earns its spot is 881 lb rating is high for a 2-post open rack, and cable hooks built in for studio-scale wiring. Worth noting before buying: 84\" height is taller than most home ceilings comfortably fit, which matters more at $303.99 than it would on a cheaper pick.",
+    description: "At 45U this is one of the tallest racks in the entire lineup, and NavePoint rates it for 881 lbs, notably higher than their smaller 2-post models thanks to a wider base footprint.\n\nBuilt-in cable hooks are called out specifically as useful for studio and network settings where cable organization tends to get messy fast at this scale.\n\nWhere this one earns its spot is 881 lb rating is high for a 2-post open rack, and cable hooks built in for studio-scale wiring. Worth noting before buying: 84\" height is taller than most home ceilings comfortably fit, which matters more at under $350 than it would on a cheaper pick.",
     specs: ["45U, 14.3\"L x 20\"W x 84\"H","881 lb weight capacity","Cable management hooks included"],
     pros: ["881 lb rating is high for a 2-post open rack","Cable hooks built in for studio-scale wiring","Self-squaring floor mount adds real stability"],
     cons: ["84\" height is taller than most home ceilings comfortably fit","2-post frame still needs floor bolting for full stability"],
@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $252.99",
+          "Under $300",
           "StarTech 42U 2-Post Open Frame Server Rack"
         ],
         [
-          "Around $269.30",
+          "Under $300",
           "Raising Electronics Server Rack 4 Post Open Frame"
         ],
         [
-          "Around $285.99",
+          "Under $300",
           "NavePoint 42U 2 Post Open Frame Server Rack with Casters"
         ],
         [
-          "Around $303.99",
+          "Under $350",
           "NavePoint 45U 2 Post Open Frame Server Rack"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "StarTech 42U 2-Post Open Frame Server Rack is aimed at buyers prioritizing 42u, 2-post open depth design." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "StarTech 42U 2-Post Open Frame Server Rack is aimed at buyers prioritizing 42u, 2-post open depth design." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-2-post-server-racks","title":"Best 2 Post Server Racks in 2026"},{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"}];

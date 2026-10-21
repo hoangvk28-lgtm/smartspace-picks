@@ -5,7 +5,7 @@ export const metaDescription = "5 speakerphones we evaluated for two-person offi
 export const mainKeyword = "speakerphone for two person office";
 export const introParagraphs = [
   "A 6-mic conference-room speakerphone is genuinely overkill for a two-person office where both people sit within a few feet of the device, a compact design with fewer mics handles this close-range use case just as well, often for a fraction of the price.",
-  "Portability matters more in a small shared office than a dedicated meeting room, a device that's easy to move between two people's desks or hand-off during a call is a real practical advantage this use case has that larger rooms don't.",
+  "Portability matters more in a small shared office than a dedicated meeting room, a device that's easy to move between two people's desks or hand-off during a call is a real practical advantage this use case has that larger rooms don't."
 ];
 export const lastUpdated = "2026-07-30";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Pick for Two-Person Offices",
     name: "Anker PowerConf S330 USB Speakerphone for Home Office, Plug and Play",
     price: "$71.99",
-    rating: "4.4 stars from 1,837 Amazon ratings",
-    reviews: "1,837 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41W4B0kTNoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FJ7LWX4?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Two-Person Pick",
     name: "EMEET M1A USB Speakerphone, Built-in Mics, 360 degrees Voice Pickup, Plug&Play",
     price: "$63.99",
-    rating: "4.4 stars from 435 Amazon ratings",
-    reviews: "435 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51Iv2SVmQfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09WWYKP42?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best 4-Mic Pick for a Slightly Larger Two-Person Space",
     name: "EMEET M0 Plus Conference Speaker and Microphone, 4 Mics 360 degrees Voice Pickup",
     price: "$52.23",
-    rating: "4.3 stars from 1,596 Amazon ratings",
-    reviews: "1,596 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51zfICZQrEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVZLS5GZ?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Portable Two-Person Pick",
     name: "Jabra Speak 510 (2025 Edition) Portable USB Bluetooth Speaker, Black",
     price: "$97.79",
-    rating: "4.7 stars from 164 Amazon ratings",
-    reviews: "164 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/413BTmTk1LL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FC3XV5DK?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Most Affordable Two-Person Pick",
     name: "Yealink SP92 Conference Speaker and Microphone with AI Noise Cancellation, 20H Call Time, 13ft Pick-up, 360 Omni Mic 50mm Full-Duplex Speaker, Bluetooth 5.3 USB Speakerphone for Teams",
     price: "$60.20",
-    rating: "4.2 stars from 127 Amazon ratings",
-    reviews: "127 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31E89kCEPNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F28HTJP3?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["AI noise cancellation and full-duplex audio at a low price", "More capability than strictly needed, genuine value", "Long call time if used portably", "Affordable"],
     cons: ["13ft pickup radius is overkill for a two-person space", "Smaller review base than Anker/Jabra alternatives", "Marketed primarily toward Teams rather than general use"],
     bestFor: "Two-person offices that want extra call-clarity features at a low price",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Right-sizing mic count to close-range, two-person use", description: "Prioritized compact 1-4 mic designs genuinely suited to two people sitting near the device, rather than recommending 6-mic conference-room hardware that's overkill for this use case." },
   { title: "Portability as a real practical advantage for shared small offices", description: "Weighed how easily each pick moves between two people's desks or gets handed off during a call, a genuine advantage a shared small office has over a fixed conference room." },
-  { title: "Value at close range over premium conference-room features", description: "Ranked picks by value for close-range use specifically, since premium conference-room features like Zoom Rooms certification or 6-mic arrays don't add real benefit at this scale." },
+  { title: "Value at close range over premium conference-room features", description: "Ranked picks by value for close-range use specifically, since premium conference-room features like Zoom Rooms certification or 6-mic arrays don't add real benefit at this scale." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -239,11 +239,11 @@ export const faq: FaqItem[] = [
   { q: "What's the most affordable speakerphone option for a small shared office?", a: "The EMEET M1A and Yealink SP92 are the most budget-friendly options in this guide, both offer more than adequate audio quality for close-range two-person calls without conference-room pricing." },
   { q: "Do I need platform certification for a two-person office speakerphone?", a: "Usually not essential. General USB/Bluetooth compatibility is typically sufficient for close-range calls between two people, formal platform certification matters more in larger rooms where audio pickup is more challenging." },
   { q: "Should two people share one speakerphone or each use a headset?", a: "A shared speakerphone works well when both people are speaking in the same conversation, while individual headsets suit a setup where each person takes separate calls, match the choice to how you actually use the space." },
-  { q: "Does a two-person speakerphone need a battery, or can it stay plugged in?", a: "Either works for a fixed desk setup where USB power is always available, a battery mainly matters if you'll move the speakerphone between rooms or use it away from a power source." },
+  { q: "Does a two-person speakerphone need a battery, or can it stay plugged in?", a: "Either works for a fixed desk setup where USB power is always available, a battery mainly matters if you'll move the speakerphone between rooms or use it away from a power source." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-speakerphones-for-small-meeting-rooms", title: "Best Speakerphones for Small Meeting Rooms (2026)" },
   { href: "/guide/best-noise-canceling-speakerphones", title: "Best Noise-Canceling Speakerphones (2026)" },
-  { href: "/guide/best-desk-privacy-panels-clamp-on", title: "Best Clamp-On Desk Privacy Panels (2026)" },
+  { href: "/guide/best-desk-privacy-panels-clamp-on", title: "Best Clamp-On Desk Privacy Panels (2026)" }
 ];

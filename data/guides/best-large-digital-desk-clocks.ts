@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "large digital desk clock";
 export const introParagraphs = [
   "A large digital desk clock prioritizes oversized, high-contrast digits over compact size, built for anyone who wants to check the time from across a room without leaning in to read a smaller display. We limited this list to the three clocks in our verified pool that explicitly market large display as a core feature, rather than including standard-size digital clocks that happen to also be legible.",
-  "All three genuinely emphasize readability, though they differ in power type and extra features, worth checking before you buy since a corded clock and a battery clock suit different desk setups.",
+  "All three genuinely emphasize readability, though they differ in power type and extra features, worth checking before you buy since a corded clock and a battery clock suit different desk setups."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "6 min";
@@ -75,7 +75,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed \"large display\" as an explicit named feature", description: "Limited this guide to clocks whose listings specifically describe a large display, rather than including standard-size clocks that happen to be legible." },
   { title: "Weighed power type against desk placement flexibility", description: "Noted which large clocks are battery or USB assisted versus corded, since a large corded clock needs a nearby outlet." },
   { title: "Checked extra features for genuine usefulness at scale", description: "Considered whether a large clock's added remote control or dimmer meaningfully improves the experience of using a bigger display." },
-  { title: "Compared footprint tradeoffs honestly", description: "Noted that a larger display inherently takes up more desk space, a real tradeoff against compact alternatives covered elsewhere on the site." },
+  { title: "Compared footprint tradeoffs honestly", description: "Noted that a larger display inherently takes up more desk space, a real tradeoff against compact alternatives covered elsewhere on the site." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -213,11 +213,11 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "How much desk space do these large clocks need?", a: "More than a compact clock, though exact dimensions vary by model. Check the specific listing measurements if desk space is tight." },
   { q: "Do all these large clocks need an outlet?", a: "Two of the three are corded and need a nearby outlet. The DreamSky pick does not require mains power per its listing, check the specific power source before buying." },
-  { q: "Which pick has the largest digits?", a: "The DreamSky Large Digital Clock is built specifically around senior-friendly large, high-contrast digits as its core feature." },
+  { q: "Which pick has the largest digits?", a: "The DreamSky Large Digital Clock is built specifically around senior-friendly large, high-contrast digits as its core feature." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-led-desk-clocks", title: "Best LED Desk Clocks (2026)" },
   { href: "/guide/best-desk-clocks-with-dates", title: "Best Desk Clocks with Date Displays (2026)" },
-  { href: "/guide/best-desk-clocks-with-temperature-displays", title: "Best Desk Clocks with Temperature Displays (2026)" },
+  { href: "/guide/best-desk-clocks-with-temperature-displays", title: "Best Desk Clocks with Temperature Displays (2026)" }
 ];

@@ -5,7 +5,7 @@ export const metaDescription = "5 air purifiers with built-in air quality sensor
 export const mainKeyword = "air purifier with air quality sensor";
 export const introParagraphs = [
   "Most built-in air quality sensors detect general PM2.5 particulate concentration, not VOCs, CO2, or specific gas-phase pollutants, meaning a good reading doesn't necessarily mean your air is clear of odor-causing or gas-phase compounds specifically.",
-  "A sensor-driven auto mode genuinely saves energy and reduces noise by ramping down when air quality improves, but it also means the fan runs slower during the exact periods you might want maximum capture, a real tradeoff between convenience and consistent performance.",
+  "A sensor-driven auto mode genuinely saves energy and reduces noise by ramping down when air quality improves, but it also means the fan runs slower during the exact periods you might want maximum capture, a real tradeoff between convenience and consistent performance."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Air Purifier with Air Quality Sensor Overall",
     name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
-    rating: "4.6 stars from 28,866 Amazon ratings",
-    reviews: "28,866 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419pAe7T0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTKAPUU?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Airflow Pick with Sensor",
     name: "Blueair Air Purifiers for Home Large Room, 211i Max Air Purifier for Bedroom, HEPASilent Technology Removes 99.97% of Airborne Viruses, Allergens, Dust, Mold, Odors, Air Quality Sensor",
     price: "$349.00",
-    rating: "4.5 stars from 3,559 Amazon ratings",
-    reviews: "3,559 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31K9NLoXncL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BN2MGV5H?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Smart App Pick with Sensor",
     name: "LEVOIT Smart Air Purifier for Home Large Room up to 1875 ft Vital 200S-P",
     price: "$174.99",
-    rating: "4.7 stars from 14,571 Amazon ratings",
-    reviews: "14,571 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick, No Sensor Tradeoff",
     name: "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom, H13 True HEPA Filter, 24db Filtration System Cleaner Odor Eliminators, Remove 99.97% Dust Smoke Mold Pollen, Core 300, White",
     price: "$89.99",
-    rating: "4.7 stars from 108,251 Amazon ratings",
-    reviews: "108,251 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Established Pick with PlasmaWave and Sensor Feedback",
     name: "WINIX 5520 Air Purifier with PlasmaWave Technology",
     price: "$179.99",
-    rating: "4.6 stars from 31,954 Amazon ratings",
-    reviews: "31,954 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Wb8TGSnPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT4F8T4L?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Large, well-established review base", "Sensor-driven auto mode with at-a-glance indicator light", "PlasmaWave addresses odor alongside particulate", "Proven, established design"],
     cons: ["Higher price than the budget pick", "Sensor still limited to general particulate detection", "Larger footprint than compact alternatives"],
     bestFor: "Buyers wanting a proven combination of sensor feedback and odor control",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Sensor specificity disclosed honestly", description: "Considered that most built-in sensors detect general PM2.5 particulate concentration, not VOCs, CO2, or specific gas-phase pollutants, and made that limitation clear rather than overselling sensor capability." },
   { title: "Auto-mode fan ramp-down tradeoff assessed", description: "Weighed that a sensor-driven auto mode saves energy and noise by ramping down when air quality improves, but also runs slower during those exact periods, a real tradeoff versus fixed-speed operation." },
-  { title: "Feedback method (app, display, indicator light) compared", description: "Distinguished between smart app history tracking, an on-unit numeric display, and a simple indicator light, since each offers a different level of detail and convenience." },
+  { title: "Feedback method (app, display, indicator light) compared", description: "Distinguished between smart app history tracking, an on-unit numeric display, and a simple indicator light, since each offers a different level of detail and convenience." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Is a smart app better than an on-unit display for air quality tracking?", a: "It depends on your needs. A smart app gives historical tracking of readings over time, useful for spotting patterns, while an on-unit display or indicator light gives a faster at-a-glance check without needing a phone." },
   { q: "Should I just run my air purifier at a fixed speed instead of auto mode?", a: "If you want consistent, predictable airflow regardless of momentary sensor readings, yes, a fixed manual speed avoids the fan ramp-down tradeoff that auto mode introduces." },
   { q: "How accurate are built-in air quality sensors compared to a dedicated monitor?", a: "Generally less precise, built-in sensors are tuned for relative change detection to drive auto mode rather than for displaying lab-grade absolute readings, a dedicated standalone monitor gives more precise numbers if that matters to you." },
-  { q: "Does an air quality sensor need periodic calibration or cleaning?", a: "Some models benefit from occasional sensor port cleaning since dust buildup on the sensor itself can skew readings over time, check the specific manufacturer's maintenance guidance." },
+  { q: "Does an air quality sensor need periodic calibration or cleaning?", a: "Some models benefit from occasional sensor port cleaning since dust buildup on the sensor itself can skew readings over time, check the specific manufacturer's maintenance guidance." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-smart-air-purifiers", title: "Best Smart Air Purifiers (2026)" },
   { href: "/guide/best-air-purifiers-for-vocs", title: "Best Air Purifiers for VOCs (2026)" },
-  { href: "/guide/best-energy-efficient-air-purifiers", title: "Best Energy-Efficient Air Purifiers (2026)" },
+  { href: "/guide/best-energy-efficient-air-purifiers", title: "Best Energy-Efficient Air Purifiers (2026)" }
 ];

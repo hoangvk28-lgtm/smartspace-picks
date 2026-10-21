@@ -193,36 +193,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $219.99",
+          "Under $250",
           "Tribesigns 7ft Conference Table for 6-8"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "ECACAD 7FT Conference Table"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "ECACAD 7FT Conference Table for 6-8"
         ],
         [
-          "Around $350.00",
+          "Under $400",
           "Tribesigns 8FT Conference Table for 10"
         ],
         [
-          "Around $369.99",
+          "Under $400",
           "Tribesigns 10.5FT Conference Table"
         ],
         [
-          "Around $389.99",
+          "Under $400",
           "Tribesigns 8ft Conference Table for 8-10"
         ],
         [
-          "Around $829.99",
+          "Under $850",
           "Tribesigns 7ft Conference Table for 6-8"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -270,7 +270,7 @@ export const faq = [
     "a": "Not inherently. High-density MDF and particle board with a laminate or melamine finish are standard in this category and hold up well to daily commercial use. Solid wood, veneer over engineered wood, or steel-reinforced builds cost more and matter most where long-term durability or a premium look is the priority."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "ECACAD 7FT Conference Table is aimed at buyers prioritizing 86.8\"l x 47.2\"w x 29.4\"h top." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "ECACAD 7FT Conference Table is aimed at buyers prioritizing 86.8\"l x 47.2\"w x 29.4\"h top." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-6-person-conference-tables","title":"Best 6-Person Conference Tables in 2026"},{"href":"/guide/best-10-person-conference-tables","title":"Best 10-Person Conference Tables in 2026"},{"href":"/guide/best-8-person-conference-tables","title":"Best 8-Person Conference Tables in 2026"}];

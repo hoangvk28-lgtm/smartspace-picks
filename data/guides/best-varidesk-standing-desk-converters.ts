@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "varidesk standing desk converter";
 export const introParagraphs = [
   "Vari still sells an active VariDesk converter lineup, but we only included models we could confirm as currently available rather than repeating older reviews of discontinued products.",
-  "The lineup spans a meaningful price range, from an essential two-tier model to a premium electric Pro Plus, and we compared them on actual current specs rather than assuming the brand name alone determines quality.",
+  "The lineup spans a meaningful price range, from an essential two-tier model to a premium electric Pro Plus, and we compared them on actual current specs rather than assuming the brand name alone determines quality."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -90,8 +90,8 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed current model availability before ranking", description: "We only included VariDesk converters we could verify as currently sold, rather than repeating reviews of discontinued models that remain indexed elsewhere." },
   { title: "Distinguished the two-tier Essential design from single-platform Pro Plus models", description: "These represent genuinely different ergonomic approaches within the same brand, and we did not treat them as interchangeable." },
-  { title: "Weighed the electric model's small review count honestly", description: "The only confirmed current electric VariDesk has just 27 reviews, and we flagged this directly rather than treating its rating with the same confidence as the established Pro Plus models." },
-  { title: "Compared price against the specific mechanism and platform size", description: "VariDesk pricing spans from an unconfirmed Essential price competitively for the largest Pro Plus, and we compared value within that context." },
+  
+  { title: "Compared price against the specific mechanism and platform size", description: "VariDesk pricing spans from an unconfirmed Essential price competitively for the largest Pro Plus, and we compared value within that context." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -222,7 +222,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
@@ -231,11 +231,11 @@ export const faq: FaqItem[] = [
   { q: "Does VariDesk make an electric model?", a: "Yes, the Vari Pro Plus 36 Electric, though it has a much smaller review base (27) than the manual models." },
   { q: "What's the largest current VariDesk?", a: "The Vari VariDesk Pro Plus 48, at 48 inches, also the most expensive in this comparison." },
   { q: "Is there a two-tier VariDesk option?", a: "Yes, the Vari VariDesk Essential 36 separates the monitor platform from the keyboard tray for independent height adjustment." },
-  { q: "Are all VariDesk products still available?", a: "No. Vari has discontinued some legacy models over time; we only included converters we could confirm as currently sold." },
+  { q: "Are all VariDesk products still available?", a: "No. Vari has discontinued some legacy models over time; we only included converters we could confirm as currently sold." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
   { href: "/guide/best-electric-standing-desk-converters", title: "Best Electric Standing Desk Converters (2026)" },
-  { href: "/guide/best-ergotron-standing-desk-converters", title: "Best Ergotron Standing Desk Converters (2026)" },
+  { href: "/guide/best-ergotron-standing-desk-converters", title: "Best Ergotron Standing Desk Converters (2026)" }
 ];

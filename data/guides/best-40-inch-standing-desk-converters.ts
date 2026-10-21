@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "40 inch standing desk converter";
 export const introParagraphs = [
   "40 inches sits between the more common 36 and 42 inch size tiers, and we required confirmed dimensions at this exact width rather than including nearby sizes rounded loosely in listings.",
-  "This size includes both electric and manual options across multiple brands, giving a genuine choice within this specific width.",
+  "This size includes both electric and manual options across multiple brands, giving a genuine choice within this specific width."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required confirmed 40 inch width where possible", description: "We prioritized products confirmed at this exact dimension, and clearly flagged nearby sizes (42 and 45 inches) included for comparison rather than presenting them as exact matches." },
   { title: "Compared electric and manual mechanisms at this size", description: "We noted the real price gap between VERSADESK's and FlexiSpot's electric options and the cheaper manual alternatives." },
   { title: "Disclosed size discrepancies transparently", description: "Where our confirmed data showed a nearby size rather than exactly 40 inches, we flagged this directly rather than rounding silently." },
-  { title: "Weighed review volume across the confirmed and nearby-size options", description: "We compared VERSADESK's substantial review base against smaller-reviewed FlexiSpot alternatives at similar and nearby sizes." },
+  { title: "Weighed review volume across the confirmed and nearby-size options", description: "We compared VERSADESK's substantial review base against smaller-reviewed FlexiSpot alternatives at similar and nearby sizes." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -238,20 +238,21 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
 export const faq: FaqItem[] = [
-  { q: "Which 40 inch converter has the most reviews?", a: "The VERSADESK PowerPro 40 Inch Electric Standing Desk Converter, with 497 reviews." },
-  { q: "What's the cheapest confirmed 40 inch option?", a: "The FLEXISPOT Standing Desk Converter 40 Inch Large Desk Riser at $139.99." },
+  
+  { q: "What's the cheapest confirmed 40 inch option?", a: "The FLEXISPOT Standing Desk Converter 40 Inch Large Desk Riser at under $140." },
   { q: "Is there a manual 40 inch converter?", a: "Yes, the FLEXISPOT Standing Desk Converter 40 Inch, a confirmed manual gas-spring option." },
   { q: "Should I consider a nearby size instead?", a: "If exact width isn't a hard constraint, our 36-inch or 42-inch guides offer more established review histories at those specific sizes." },
   { q: "Is there a 40 inch option with a keyboard tray?", a: "The closest confirmed match is the Rocelco pick, though it's actually 45 inches; verify against your specific desk space." },
+  { q: "How much weight can a 40 inch converter hold?", a: "Each model lists its own load rating, which covers everything on the platform including monitors, laptop, and accessories. Add up the weight of your gear and leave some headroom so the lift mechanism does not strain. Heavier setups are better matched to electric lifts than light manual ones." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-36-inch-standing-desk-converters", title: "Best 36-Inch Standing Desk Converters (2026)" },
   { href: "/guide/best-42-inch-standing-desk-converters", title: "Best 42-Inch Standing Desk Converters (2026)" },
-  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
+  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" }
 ];

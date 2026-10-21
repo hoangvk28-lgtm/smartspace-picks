@@ -12,7 +12,7 @@ export const usbCPowerDeliveryExplainedGuide: Guide = {
     "usb-c pd wattage guide",
     "how many watts to charge laptop",
     "usb-c power delivery for docking station",
-    "pd charger wattage explained",
+    "pd charger wattage explained"
   ],
   heroImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const usbCPowerDeliveryExplainedGuide: Guide = {
     "usb-c-docking-station-ports-chart",
     "docking-station-vs-usb-hub",
     "thunderbolt-vs-usb-c-explained",
-    "kvm-switch-explained",
+    "kvm-switch-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const usbCPowerDeliveryExplainedGuide: Guide = {
       question: "Can a high-wattage charger damage a device that needs less power?",
       answer:
         "No, USB-C Power Delivery negotiates the appropriate wattage between charger and device automatically, a device will only draw the power it actually needs even if the charger is capable of delivering more, so a higher-wattage charger works safely across multiple lower-power devices.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const usbCPowerDeliveryExplainedGuide: Guide = {
     {
       heading: "Why Higher Wattage Chargers Are Safe for Lower-Power Devices",
       body: `USB-C Power Delivery is a negotiated standard, meaning the charger and device communicate to agree on the appropriate power level for that specific device, rather than the charger simply pushing its maximum wattage regardless of what's plugged in. This is why a single high-wattage USB-C charger or dock can safely charge a phone, a tablet, and a laptop at different times, each device only draws what it actually needs.`,
-    },
+    }
   ],
 };

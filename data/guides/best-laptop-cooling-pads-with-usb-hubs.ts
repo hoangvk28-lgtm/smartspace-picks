@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop cooling pads with usb hubs";
 export const introParagraphs = [
   "A cooling pad with a built-in USB hub combines airflow and port expansion through the same upstream connection to your laptop. The hub only adds real value when its port count, speed, and power sharing with the fan are clearly understood, not just assumed from the word hub in the title.",
-  "This guide compares six pads whose real feature lists confirm a genuine multi-port hub beyond the pad's own power cable, checking port count and whether the hub shares a power budget with the cooling fans.",
+  "This guide compares six pads whose real feature lists confirm a genuine multi-port hub beyond the pad's own power cable, checking port count and whether the hub shares a power budget with the cooling fans."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed hub presence, not assumed", description: "We verified each product's real feature list explicitly confirms a multi-port USB hub beyond the pad's own power cable." },
   { title: "Port count and connector type", description: "We compared the number and type (USB-A, USB-C, 2.0, 3.0) of hub ports where the listing provides that detail." },
   { title: "Shared power budget consideration", description: "We noted whether the hub shares power with the cooling fan or operates on an independent data line, since this affects how much load the hub can handle." },
-  { title: "Hub accessibility while mounted", description: "We considered whether hub ports remain reachable while the laptop sits on the pad in normal use." },
+  { title: "Hub accessibility while mounted", description: "We considered whether hub ports remain reachable while the laptop sits on the pad in normal use." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -259,11 +259,11 @@ export const faq: FaqItem[] = [
   { q: "Does the hub slow down if the cooling fan is running at full speed?", a: "It depends on the design. Most pads share one upstream USB connection between the fan and hub. The IETS GT500 pick specifically states its hub has an independent data line, working separately from the fan." },
   { q: "What's the difference between USB 2.0 and 3.0 hub ports?", a: "USB 3.0 offers significantly faster data transfer speeds, useful for external drives. The KYOLLY pick explicitly documents both 3.0 and 2.0 ports, letting you match the right port to each device." },
   { q: "How many hub ports do I actually need?", a: "Consider your real peripheral count, a mouse and keyboard need just 2 ports, while a busier desk setup with drives and other accessories may benefit from the Targus pick's 4 ports." },
-  { q: "Is a cooling pad hub as good as a standalone USB hub?", a: "It's a reasonable convenience for basic peripherals, but a dedicated standalone hub may offer more ports, faster speeds, or independent power if your needs are more demanding." },
+  { q: "Is a cooling pad hub as good as a standalone USB hub?", a: "It's a reasonable convenience for basic peripherals, but a dedicated standalone hub may offer more ports, faster speeds, or independent power if your needs are more demanding." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-cooling-pads-with-external-power", title: "Best Laptop Cooling Pads with External Power (2026)" },
   { href: "/guide/best-usb-c-laptop-cooling-pads", title: "Best USB-C Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-gaming-laptop-cooling-pads", title: "Best Gaming Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-gaming-laptop-cooling-pads", title: "Best Gaming Laptop Cooling Pads (2026)" }
 ];

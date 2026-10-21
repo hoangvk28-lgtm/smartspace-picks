@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "bookshelf headboard";
 export const introParagraphs = [
   "A bookshelf headboard is a headboard with a built-in shelf for books, a phone, or a lamp right at the head of the bed. Most picks in this guide are sold headboard-only, meaning you'll attach them to your existing bed frame rather than getting a complete platform bed, so check your frame's headboard bracket compatibility before ordering.",
-  "We evaluated 8 bookshelf headboards on shelf storage, charging ports, LED lighting, and overall build quality, ranging from simple engineered-wood bookcase headboards to fully upholstered versions with built-in charging and lighting.",
+  "We evaluated 8 bookshelf headboards on shelf storage, charging ports, LED lighting, and overall build quality, ranging from simple engineered-wood bookcase headboards to fully upholstered versions with built-in charging and lighting."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -51,24 +51,24 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31PwR75ZxSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09DKBKC33?tag=deskfinds0d-20",
     description:
-      "The Sauder River Ranch stands out with a 5-year warranty, the longest of any pick in this list, backing an engineered wood bookcase headboard with 2 adjustable shelves in a rustic Grand Walnut finish. It's compatible with wireless Qi charging pads (charger sold separately) if you want to add charging later, and hidden cord access keeps any cables you do run out of sight.\n\nAt 62.36 inches wide and 40.63 inches tall, it fits both Full and Queen bed frames, giving it more flexibility than the Queen-only or King-only picks elsewhere in this guide. With over 1,200 reviews and a rustic modern look, it's a dependable, versatile choice for most bedrooms.\n\nFits both Full and Queen bed frames. Set against that, no built-in charging or LED, Qi charger sold separately. Both matter when comparing it to the other picks here.",
+      "The Sauder River Ranch stands out with a 5-year warranty, the longest of any pick in this list, backing an engineered wood bookcase headboard with 2 adjustable shelves in a rustic Grand Walnut finish. It's compatible with wireless Qi charging pads (charger sold separately) if you want to add charging later, and hidden cord access keeps any cables you do run out of sight.\n\nAt 62.36 inches wide and 40.63 inches tall, it fits both Full and Queen bed frames, giving it more flexibility than the Queen-only or King-only picks elsewhere in this guide.\n\nFits both Full and Queen bed frames. Set against that, no built-in charging or LED, Qi charger sold separately. Both matter when comparing it to the other picks here.",
     specs: [
       "Full/Queen, 62.36\"W x 40.63\"H",
       "Engineered wood, 2 adjustable shelves",
       "Wireless Qi-charging compatible (charger sold separately)",
       "Hidden cord access",
-      "5-year warranty",
+      "5-year warranty"
     ],
     pros: [
       "Longest warranty in this list at 5 years",
       "Fits both Full and Queen bed frames",
       "Adjustable shelves for flexible storage",
-      "Hidden cord access keeps cables tidy",
+      "Hidden cord access keeps cables tidy"
     ],
     cons: [
       "No built-in charging or LED, Qi charger sold separately",
       "Headboard only, needs a compatible bed frame",
-      "Rustic finish may not suit every decor style",
+      "Rustic finish may not suit every decor style"
     ],
     bestFor: "Buyers who want the longest warranty and Full/Queen flexibility in a simple bookcase headboard",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Engineered wood, 2 adjustable shelves",
       "Wireless Qi-charging compatible (charger sold separately)",
       "Hidden cord access",
-      "5-year warranty",
+      "5-year warranty"
     ],
     pros: [
       "Cleanest white finish in this list",
       "Same 5-year warranty as the walnut version",
       "Lower price than the Grand Walnut option",
-      "Blends with contemporary or traditional decor",
+      "Blends with contemporary or traditional decor"
     ],
     cons: [
       "No built-in charging or LED, Qi charger sold separately",
       "Headboard only, needs a compatible bed frame",
-      "White finish shows scuffs more than darker tones",
+      "White finish shows scuffs more than darker tones"
     ],
     bestFor: "Buyers who want the same reliable bookcase headboard in a brighter white finish at a lower price",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Particleboard + metal frame, 3-tier shelves",
       "3 AC outlets + 2 USB ports",
       "App/remote RGB LED, 60,000+ colors, music sync",
-      "Height adjustable, reversible left/right",
+      "Height adjustable, reversible left/right"
     ],
     pros: [
       "Most AC outlets among headboard-only picks (3)",
       "Reversible charging side for flexible mounting",
       "Height adjustable to fit different bed frames",
-      "60,000+ color RGB LED with music sync",
+      "60,000+ color RGB LED with music sync"
     ],
     cons: [
       "Particleboard construction less premium than solid wood picks",
       "Headboard only, needs a compatible bed frame",
-      "Mid-range rating compared to top picks in this list",
+      "Mid-range rating compared to top picks in this list"
     ],
     bestFor: "Buyers who want the most outlets and full LED features on a budget headboard",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Particleboard + metal + upholstery, full-coverage padding",
       "2 AC + 2 USB charging ports",
       "3-level height adjustable",
-      "Open shelves, vintage upholstered styling",
+      "Open shelves, vintage upholstered styling"
     ],
     pros: [
-      "Cheapest pick in this list at $84.99",
+      "Cheapest pick in this list at under $90",
       "Softest full-coverage padding of any headboard here",
       "3-level height adjustment",
-      "Available in 3 color options",
+      "Available in 3 color options"
     ],
     cons: [
       "Smallest review sample among the top picks",
       "Lowest weight and durability rating vs. solid wood options",
-      "Headboard only, needs a compatible bed frame",
+      "Headboard only, needs a compatible bed frame"
     ],
     bestFor: "Budget-conscious buyers who want a soft, comfortable bookshelf headboard with basic charging",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Engineered wood, 7 storage spaces + 2 shelves",
       "2 AC + 2 USB charging ports",
       "2 dedicated LED lights",
-      "Noise-free operation",
+      "Noise-free operation"
     ],
     pros: [
       "Most storage compartments in this list (7 spaces)",
       "2 dedicated LED reading lights",
       "Modern industrial wood styling",
-      "Fits both Queen and Full frames",
+      "Fits both Queen and Full frames"
     ],
     cons: [
       "Taller footprint (43\") needs more wall clearance",
       "More expensive than several other headboard-only picks",
-      "Headboard only, needs a compatible bed frame",
+      "Headboard only, needs a compatible bed frame"
     ],
     bestFor: "Buyers who want to consolidate the most storage compartments directly into the headboard",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Particleboard + steel, 3-tier adjustable shelves",
       "66 lb capacity per shelf",
       "2 AC + 4 USB charging ports",
-      "App/remote RGB LED with music sync",
+      "App/remote RGB LED with music sync"
     ],
     pros: [
       "Tallest headboard in this list at 54.8\"",
       "4 USB ports charge up to 6 devices at once",
       "66 lb capacity per shelf, sturdier than most",
-      "Velvet upholstery adds a premium look",
+      "Velvet upholstery adds a premium look"
     ],
     cons: [
       "Extra height needs more wall clearance",
       "Velvet fabric requires more upkeep than wood finishes",
-      "Headboard only, needs a compatible bed frame",
+      "Headboard only, needs a compatible bed frame"
     ],
     bestFor: "Buyers who want a tall, statement velvet headboard with strong per-shelf weight capacity",
   },
@@ -243,24 +243,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51nWR-jbrWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FGZY9XD5?tag=deskfinds0d-20",
     description:
-      "The HOOBRO is the only pick in this list with a hidden compartment specifically sized for pillows and blankets, in addition to 5 open cubbies for everyday items like books or a phone. A farmhouse white and walnut finish gives it a distinct barn-door look, and an anti-tip kit is included for added safety.\n\nCharging includes 2 AC outlets, 1 USB port, and 1 Type-C port, and music-sync LED lighting rounds out the feature set. If keeping bulky bedding out of sight while still having open shelf access is the priority, this is the only headboard here built for that.\n\nA genuine advantage here is that farmhouse barn-door styling stands out visually. The tradeoff is very small review sample so far (15 ratings).",
+      "The HOOBRO is the only pick in this list with a hidden compartment specifically sized for pillows and blankets, in addition to 5 open cubbies for everyday items like books or a phone. A farmhouse white and walnut finish gives it a distinct barn-door look, and an anti-tip kit is included for added safety.\n\nCharging includes 2 AC outlets, 1 USB port, and 1 Type-C port, and music-sync LED lighting rounds out the feature set. If keeping bulky bedding out of sight while still having open shelf access is the priority, this is the only headboard here built for that.\n\nA genuine advantage here is that farmhouse barn-door styling stands out visually.",
     specs: [
       "Queen, 63\"W x 47.8\"H",
       "Engineered wood, 5 open cubbies + hidden compartment",
       "2 AC + 1 USB + 1 Type-C charging",
       "Music-sync LED lighting",
-      "Anti-tip kit included",
+      "Anti-tip kit included"
     ],
     pros: [
       "Only pick with a hidden compartment for pillows/blankets",
       "Farmhouse barn-door styling stands out visually",
       "Anti-tip kit included for safety",
-      "Combines open cubbies with concealed storage",
+      "Combines open cubbies with concealed storage"
     ],
     cons: [
-      "Very small review sample so far (15 ratings)",
       "Headboard only, needs a compatible bed frame",
-      "Farmhouse look may not suit every bedroom style",
+      "Farmhouse look may not suit every bedroom style"
     ],
     bestFor: "Buyers who want a hidden compartment for pillows and blankets alongside open shelf storage",
   },
@@ -275,27 +274,25 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51EJOjv0eJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GN28HZQF?tag=deskfinds0d-20",
     description:
-      "The Apicizon is the only King-size headboard-only pick in this list, built from engineered wood with 2-tier shelves 11 inches deep, the deepest of any pick here, giving it room for larger books or bins. Two manual touch-controlled LED lights offer 3-speed brightness adjustment, a more tactile alternative to the app-controlled lighting on other picks.\n\nCharging covers 2 USB ports and 2 AC outlets, and the headboard is wall-mountable in addition to attaching to a bed frame. It's available in Brown, Black, White, or Espresso finishes to match a range of King-size bedroom setups.\n\nDeepest shelves here at 11 inches. On the other hand, smaller review sample (65 ratings). Neither should be a surprise once you know to look for it.",
+      "The Apicizon is the only King-size headboard-only pick in this list, built from engineered wood with 2-tier shelves 11 inches deep, the deepest of any pick here, giving it room for larger books or bins. Two manual touch-controlled LED lights offer 3-speed brightness adjustment, a more tactile alternative to the app-controlled lighting on other picks.\n\nCharging covers 2 USB ports and 2 AC outlets, and the headboard is wall-mountable in addition to attaching to a bed frame. It's available in Brown, Black, White, or Espresso finishes to match a range of King-size bedroom setups.\n\nDeepest shelves here at 11 inches. Neither should be a surprise once you know to look for it.",
     specs: [
       "King, 81\"W x 43.5\"H",
       "Engineered wood, 2-tier shelves 11\" deep",
       "2 USB + 2 AC outlets",
       "2 touch-controlled LED lights, 3-speed brightness",
-      "Wall-mountable, 4 finish options",
+      "Wall-mountable, 4 finish options"
     ],
     pros: [
       "Only King-size headboard-only pick in this list",
       "Deepest shelves here at 11 inches",
       "Touch-controlled LED with 3-speed brightness",
-      "Wall-mountable in addition to bed frame attachment",
+      "Wall-mountable in addition to bed frame attachment"
     ],
     cons: [
-      "Smaller review sample (65 ratings)",
-      "Lowest rating among the top picks at 4.1 stars",
-      "King size limits fit for smaller bedrooms",
+      "King size limits fit for smaller bedrooms"
     ],
     bestFor: "King-size shoppers who want the deepest shelving and touch-controlled LED lighting",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -344,16 +341,16 @@ export const faq: FaqItem[] = [
   },
   {
     q: "What is the most affordable bookshelf headboard here?",
-    a: "The YATINEY Queen Upholstered Bookshelf Headboard (Pick 4) is the most affordable at $84.99, with full-coverage soft padding and basic charging.",
+    a: "The YATINEY Queen Upholstered Bookshelf Headboard (Pick 4) is the most affordable at under $90, with full-coverage soft padding and basic charging.",
   },
   {
     q: "Can a bookshelf headboard hold as many books as a regular bookcase?",
     a: "No, not usually. Headboard shelves are generally designed for lighter loads, a lamp, a phone, or a couple of books, rather than the 30-100+ lbs per shelf a standalone bookcase can handle depending on its material. The Hzuaneri in this list stands out for specifying a 66 lb per-shelf rating, but most picks don't publish a shelf-specific number, so treat headboard shelves as light-duty unless stated otherwise.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-bookshelf-bed-frame", title: "Best Bookshelf Bed Frames in 2026" },
   { href: "/guide/best-bookshelf-nightstand", title: "Best Bookshelf Nightstands in 2026" },
-  { href: "/guide/best-bed-frame-with-headboard", title: "Best Bed Frames with Headboard in 2026" },
+  { href: "/guide/best-bed-frame-with-headboard", title: "Best Bed Frames with Headboard in 2026" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "16-inch laptop cooling pads";
 export const introParagraphs = [
   "16 inches is a newer laptop size tier, relevant to the recent MacBook Pro 16-inch and several premium Windows laptops. Since it sits between the widely common 15.6-inch class and larger gaming laptops, checking a pad's genuine stated range matters more here than at more established sizes.",
-  "This guide compares six pads whose stated ranges genuinely cover 16 inches, cross-referencing our MacBook Pro guide given the overlap with recent 16-inch Apple laptops.",
+  "This guide compares six pads whose stated ranges genuinely cover 16 inches, cross-referencing our MacBook Pro guide given the overlap with recent 16-inch Apple laptops."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine size-range verification", description: "We checked whether 16 inches genuinely sits within each product's stated range, flagging one pick whose range technically falls just short despite strong other specs." },
   { title: "MacBook Pro 16 overlap", description: "We cross-referenced our MacBook Pro cooling pad research given the overlap with recent 16-inch Apple laptops and their active-cooling design." },
   { title: "Documented performance figures", description: "We favored listings with specific noise or temperature-drop figures over vague marketing claims." },
-  { title: "Price versus performance tier", description: "We compared budget, mid-range, and premium options since this size class spans both value and high-performance laptops." },
+  { title: "Price versus performance tier", description: "We compared budget, mid-range, and premium options since this size class spans both value and high-performance laptops." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -259,11 +259,11 @@ export const faq: FaqItem[] = [
   { q: "Will a pad rated for 15.6 inches work for my 16-inch laptop?", a: "It might, but verify your laptop's actual base footprint first, since one product in this pool that otherwise scores well is stated only up to 15.6 inches." },
   { q: "What's the best pick for MacBook Pro 16?", a: "See our dedicated Best Laptop Cooling Pads for MacBook Pro guide for generation-specific considerations, since MacBook Pro's active internal cooling differs from a fanless MacBook Air." },
   { q: "Is the most expensive pick worth it?", a: "The Razer pad's adaptive frame system and automatic fan control are genuine premium features, worth it if you want smart, hands-off cooling management, less necessary if you're comfortable manually adjusting a simpler pad." },
-  { q: "What's the quietest option for a 16-inch laptop?", a: "The TECKNET with Phone Stand states a documented under-40dB figure, but confirm your laptop's base footprint fits within its 15.6-inch-rated surface first." },
+  { q: "What's the quietest option for a 16-inch laptop?", a: "The TECKNET with Phone Stand states a documented under-40dB figure, but confirm your laptop's base footprint fits within its 15.6-inch-rated surface first." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-cooling-pads-for-macbook-pro", title: "Best Laptop Cooling Pads for MacBook Pro (2026)" },
   { href: "/guide/best-15-6-inch-laptop-cooling-pads", title: "Best 15.6-Inch Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-17-inch-laptop-cooling-pads", title: "Best 17-Inch Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-17-inch-laptop-cooling-pads", title: "Best 17-Inch Laptop Cooling Pads (2026)" }
 ];

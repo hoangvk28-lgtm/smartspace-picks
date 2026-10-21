@@ -170,27 +170,27 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $10.93",
+          "Under $15",
           "TP-Link UE300C USB-C to Ethernet Adapter"
         ],
         [
-          "Around $15.53",
+          "Under $20",
           "Anker USB-C to Ethernet Adapter"
         ],
         [
-          "Around $15.99",
+          "Under $20",
           "uni USB-C to Ethernet Adapter 1Gbps"
         ],
         [
-          "Around $19.19",
+          "Under $20",
           "Cable Matters USB-C Ethernet Adapter with 140W Charging"
         ],
         [
-          "Around $34.99",
+          "Under $35",
           "Belkin USB-C Ethernet + Charge Adapter 100W"
         ],
         [
-          "Around $39.99",
+          "Under $40",
           "USB-C to Ethernet RJ45 + USB 3.0 Hub for Surface"
         ]
       ]
@@ -245,10 +245,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "TP-Link UE300C USB-C to Ethernet Adapter is aimed at buyers prioritizing 1gbps, driver-free including linux, at $10.93."
+        "text": "TP-Link UE300C USB-C to Ethernet Adapter is aimed at buyers prioritizing 1gbps, driver-free including linux, at under $15."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -285,10 +285,10 @@ export const faq = [
   }
 ,
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "Anker USB-C to Ethernet Adapter is aimed at buyers prioritizing 1gbps, usb-c 3.0." },
-  { q: "Which pick offers the best value for a tight budget?", a: "TP-Link UE300C USB-C to Ethernet Adapter is aimed at buyers prioritizing 1gbps, driver-free including linux, and at $10.93 it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $10.93 to $39.99, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Which pick offers the best value for a tight budget?", a: "TP-Link UE300C USB-C to Ethernet Adapter is aimed at buyers prioritizing 1gbps, driver-free including linux, and at under $15 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $15 to $40, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
   { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "USB-C to Ethernet RJ45 + USB 3.0 Hub for Surface is aimed at buyers prioritizing up to 1gbps ethernet + usb 3.0. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
-  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "Cable Matters USB-C Ethernet Adapter with 140W Charging is aimed at buyers prioritizing gigabit ethernet + 140w pd (28v/5a)." },
+  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "Cable Matters USB-C Ethernet Adapter with 140W Charging is aimed at buyers prioritizing gigabit ethernet + 140w pd (28v/5a)." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-usb-c-ethernet-adapters-with-wake-on-lan","title":"7 Best USB-C Ethernet Adapters With Wake-on-LAN"},{"href":"/guide/best-usb-c-to-gigabit-ethernet-adapters","title":"8 Best USB-C to Gigabit Ethernet Adapters"},{"href":"/guide/best-compact-usb-c-ethernet-adapters","title":"6 Best Compact USB-C Ethernet Adapters"}];

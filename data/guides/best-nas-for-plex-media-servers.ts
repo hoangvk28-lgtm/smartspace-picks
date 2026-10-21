@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "nas for plex media server";
 export const introParagraphs = [
   "A NAS built for Plex only needs serious CPU power if it will actually be asked to transcode video on the fly, and a large share of buyers who pay a premium for an Intel-based NAS never end up needing it. Most modern streaming clients, smart TVs, phones, tablets, and streaming boxes, support direct play of common H.264 and H.265 files, which means the NAS just serves the original file with almost no processing overhead regardless of whether it has an ARM or Intel chip inside.",
-  "Below are 8 NAS devices we evaluated for Plex use, ranging from a budget ARM box suited to a single-room direct play setup to an Intel Pentium Gold 4-bay NAS built for simultaneous multi-user transcoding and large libraries, with network speed and RAM requirements broken out so you can match the hardware to how you actually watch.",
+  "Below are 8 NAS devices we evaluated for Plex use, ranging from a budget ARM box suited to a single-room direct play setup to an Intel Pentium Gold 4-bay NAS built for simultaneous multi-user transcoding and large libraries, with network speed and RAM requirements broken out so you can match the hardware to how you actually watch."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -56,18 +56,18 @@ export const products: GuideProduct[] = [
       "4-bay NAS enclosure",
       "Intel Pentium Gold 5-core CPU",
       "Hardware transcode capable (Plex Pass required)",
-      "Supports RAID for expansion",
+      "Supports RAID for expansion"
     ],
     pros: [
       "Intel CPU handles real hardware transcoding, not just direct play",
       "4 bays leave room for a growing library",
       "Strong choice for multi-user simultaneous streaming",
-      "Expandable capacity over time",
+      "Expandable capacity over time"
     ],
     cons: [
       "Most expensive pick in this list",
       "Overkill if every client already supports direct play",
-      "Requires a Plex Pass subscription to unlock hardware transcoding",
+      "Requires a Plex Pass subscription to unlock hardware transcoding"
     ],
     bestFor: "Buyers who need real hardware transcoding and room to grow a library",
   },
@@ -87,18 +87,18 @@ export const products: GuideProduct[] = [
       "2-bay desktop NAS",
       "8GB RAM included",
       "Intel-class CPU for hardware transcoding",
-      "Compact desktop form factor",
+      "Compact desktop form factor"
     ],
     pros: [
       "8GB RAM handles large Plex libraries smoothly",
       "Built for genuine hardware transcoding",
       "Compact 2-bay footprint",
-      "Room to run other apps alongside Plex",
+      "Room to run other apps alongside Plex"
     ],
     cons: [
       "Only 2 bays limits total raw capacity",
       "Pricier than ARM-based 2-bay alternatives",
-      "Still needs a Plex Pass for hardware transcode",
+      "Still needs a Plex Pass for hardware transcode"
     ],
     bestFor: "Large Plex libraries with 5,000+ items that need serious metadata RAM",
   },
@@ -117,17 +117,17 @@ export const products: GuideProduct[] = [
     specs: [
       "2-bay NAS enclosure",
       "Mid-tier CPU for mixed workloads",
-      "Suited to media editing plus Plex serving",
+      "Suited to media editing plus Plex serving"
     ],
     pros: [
       "Good middle ground between budget ARM and premium Intel picks",
       "Enough headroom for occasional transcoding",
-      "Compact 2-bay size",
+      "Compact 2-bay size"
     ],
     cons: [
       "Only 2 bays caps total capacity",
       "Not as fast for transcoding as the 8GB QNAP or Pentium Gold UGREEN",
-      "Still benefits most from direct-play-capable clients",
+      "Still benefits most from direct-play-capable clients"
     ],
     bestFor: "Content creators who also run a modest Plex library on the side",
   },
@@ -147,17 +147,17 @@ export const products: GuideProduct[] = [
       "2-bay NAS",
       "Intel x86 quad-core CPU",
       "4GB RAM",
-      "2.5GbE LAN",
+      "2.5GbE LAN"
     ],
     pros: [
       "Cheapest Intel x86 NAS in this list",
       "2.5GbE networking supports multi-room 4K",
-      "Genuine hardware transcode capability if needed later",
+      "Genuine hardware transcode capability if needed later"
     ],
     cons: [
       "4GB RAM is tighter for very large libraries",
       "Only 2 bays",
-      "Still requires a Plex Pass to use hardware transcoding",
+      "Still requires a Plex Pass to use hardware transcoding"
     ],
     bestFor: "Buyers who want real Intel transcoding capability without the premium price",
   },
@@ -176,17 +176,17 @@ export const products: GuideProduct[] = [
     specs: [
       "2-bay desktop NAS",
       "2.5GbE LAN",
-      "Built for multi-room simultaneous streaming",
+      "Built for multi-room simultaneous streaming"
     ],
     pros: [
       "2.5GbE handles multiple simultaneous 4K streams",
       "Solid pick for multi-TV households",
-      "Compact desktop footprint",
+      "Compact desktop footprint"
     ],
     cons: [
       "CPU favors direct play over heavy transcoding",
       "Needs a 2.5GbE switch to fully benefit from the faster LAN",
-      "Only 2 bays",
+      "Only 2 bays"
     ],
     bestFor: "Multi-room households streaming 4K to more than one TV at once",
   },
@@ -206,17 +206,17 @@ export const products: GuideProduct[] = [
       "2-bay NAS",
       "Quad-core 1.7GHz ARM CPU",
       "2.5GbE networking",
-      "1GB DDR4 RAM",
+      "1GB DDR4 RAM"
     ],
     pros: [
       "Lowest price among 2.5GbE-equipped picks",
       "Handles direct play smoothly for compatible clients",
-      "Simple entry point for first-time NAS owners",
+      "Simple entry point for first-time NAS owners"
     ],
     cons: [
       "ARM CPU cannot hardware transcode at all",
       "1GB RAM limits very large library indexing",
-      "Only 2 bays",
+      "Only 2 bays"
     ],
     bestFor: "First-time NAS owners whose Plex clients already support direct play",
   },
@@ -235,17 +235,17 @@ export const products: GuideProduct[] = [
     specs: [
       "2-bay desktop NAS",
       "Supports up to 64TB total capacity",
-      "Diskless enclosure",
+      "Diskless enclosure"
     ],
     pros: [
       "High maximum capacity ceiling for the price",
       "Simple, budget-friendly entry point",
-      "Good fit for direct-play-only households",
+      "Good fit for direct-play-only households"
     ],
     cons: [
       "Not built for hardware transcoding",
       "Diskless, drives are an added cost",
-      "Only 2 bays",
+      "Only 2 bays"
     ],
     bestFor: "Budget buyers who want high capacity headroom without transcoding needs",
   },
@@ -264,20 +264,20 @@ export const products: GuideProduct[] = [
     specs: [
       "2-bay NAS",
       "DSM software platform",
-      "Built primarily for backup and file sharing",
+      "Built primarily for backup and file sharing"
     ],
     pros: [
       "DSM software makes running Plex alongside backup duties simple",
       "Well-suited to combined backup plus media serving",
-      "Reliable for direct-play households",
+      "Reliable for direct-play households"
     ],
     cons: [
       "Not built for hardware transcoding",
       "Plex is a secondary use case, not the primary design intent",
-      "Only 2 bays",
+      "Only 2 bays"
     ],
     bestFor: "Buyers who want one NAS to handle both backup and direct-play Plex duty",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -305,7 +305,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for the actual use case",
     description: "Weighed price against whether the buyer genuinely needs transcoding power, direct-play-only households get far more value from a cheaper ARM box.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -448,11 +448,11 @@ export const faq: FaqItem[] = [
   {
     q: "Can I use a diskless NAS for Plex right away?",
     a: "No, a diskless NAS like the UGREEN DH2300 ships without drives, so you'll need to purchase compatible hard drives or SSDs separately before setting up storage pools and installing Plex.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-nas-storage-devices", title: "Best NAS Storage Devices (2026)" },
   { href: "/guide/best-nas-storage-for-home-office", title: "Best NAS Storage for Home Office (2026)" },
-  { href: "/guide/best-4-bay-nas-for-home-offices", title: "Best 4-Bay NAS for Home Offices (2026)" },
+  { href: "/guide/best-4-bay-nas-for-home-offices", title: "Best 4-Bay NAS for Home Offices (2026)" }
 ];

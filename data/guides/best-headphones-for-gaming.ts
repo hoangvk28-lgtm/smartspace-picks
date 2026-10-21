@@ -50,7 +50,7 @@ export const products: GamingHeadset[] = [
     tradeoffs: [
       "Built-in mic only, no boom arm, background noise rejection is adequate but not best in class",
       "18-hour battery is shorter than mid-range and premium picks in this guide",
-      "Bass response is lighter than closed-back over-ear designs at the same price",
+      "Bass response is lighter than closed-back over-ear designs at the same price"
     ],
     skipIf:
       "You need deep bass or a boom mic for streaming. For pure gaming communication under $50 with wireless, nothing in this roundup matches its value.",
@@ -59,12 +59,12 @@ export const products: GamingHeadset[] = [
       "Lightest headset at 165g for long sessions",
       "3-minute fast charge gives 3 hours",
       "Simultaneous Bluetooth for phone calls",
-      "Dolby Atmos on PC, PS5 and Switch compatible",
+      "Dolby Atmos on PC, PS5 and Switch compatible"
     ],
     cons: [
       "Built-in mic only, no boom arm",
       "18-hour battery, shorter than competition",
-      "Lighter bass vs closed-back designs",
+      "Lighter bass vs closed-back designs"
     ],
   },
   {
@@ -85,7 +85,7 @@ export const products: GamingHeadset[] = [
     tradeoffs: [
       "Wired only, cable management at a gaming desk is a real consideration",
       "No active noise cancellation on the microphone",
-      "Volume and mic control only via inline slider",
+      "Volume and mic control only via inline slider"
     ],
     skipIf:
       "You want wireless. The Logitech G435 provides wireless at the same price. The Razer Kraken X is the right pick for wired performance and universal platform compatibility.",
@@ -94,12 +94,12 @@ export const products: GamingHeadset[] = [
       "7.1 Surround Sound via free Razer software",
       "Universal 3.5mm for all platforms",
       "Oval earcups reduce long-session fatigue",
-      "Lightweight aluminum frame",
+      "Lightweight aluminum frame"
     ],
     cons: [
       "Wired only, no wireless option",
       "No active noise cancellation",
-      "Inline slider only, no software EQ",
+      "Inline slider only, no software EQ"
     ],
   },
   {
@@ -120,7 +120,7 @@ export const products: GamingHeadset[] = [
     tradeoffs: [
       "Wired only, no wireless option",
       "USB-C dongle required for AI mic on PC, loses AI mic function when using 3.5mm on console",
-      "Sound signature is slightly bright, excellent for competitive audio but not the warmest for music",
+      "Sound signature is slightly bright, excellent for competitive audio but not the warmest for music"
     ],
     skipIf:
       "You specifically need wireless. For wired users who want a professional-grade microphone without spending $150+, this is the pick.",
@@ -129,12 +129,12 @@ export const products: GamingHeadset[] = [
       "USB-C and 3.5mm dual connectivity",
       "AirWeave memory foam breathes better than leatherette",
       "Retractable mic for clean desk appearance",
-      "SteelSeries Sonar EQ app with independent channel control",
+      "SteelSeries Sonar EQ app with independent channel control"
     ],
     cons: [
       "Wired only",
       "AI mic only active via USB-C on PC",
-      "Bright sound signature, not warm",
+      "Bright sound signature, not warm"
     ],
   },
   {
@@ -155,7 +155,7 @@ export const products: GamingHeadset[] = [
     tradeoffs: [
       "PC and PS5 only via 2.4GHz dongle, no Xbox wireless compatibility",
       "No Bluetooth secondary connection for simultaneous phone calls",
-      "Slightly heavier than budget wireless picks at around 300g",
+      "Slightly heavier than budget wireless picks at around 300g"
     ],
     skipIf:
       "You play on Xbox or want Bluetooth for simultaneous phone connectivity. Also consider the HyperX Cloud Alpha Wireless if battery life is your primary priority.",
@@ -164,12 +164,12 @@ export const products: GamingHeadset[] = [
       "DTS 7.1 Spatial Audio hardware-level processing",
       "53mm drivers for better low-frequency extension",
       "Detachable noise-cancelling boom mic",
-      "HyperX 2-year warranty",
+      "HyperX 2-year warranty"
     ],
     cons: [
       "PC and PS5 only, no Xbox support",
       "No Bluetooth for phone calls",
-      "Heavier at ~300g",
+      "Heavier at ~300g"
     ],
   },
   {
@@ -190,7 +190,7 @@ export const products: GamingHeadset[] = [
     tradeoffs: [
       "PC only, the 2.4GHz dongle does not support PS5, Xbox, or Switch",
       "No Bluetooth, single wireless connection mode only",
-      "300-hour rating is under controlled conditions, real-world use with mic on reduces this to approximately 100 to 150 hours",
+      "300-hour rating is under controlled conditions, real-world use with mic on reduces this to approximately 100 to 150 hours"
     ],
     skipIf:
       "You game on PS5 or console. The Sony INZONE H9 or Razer BlackShark V2 Pro are the right wireless picks for console. For PC-primary gamers who forget to charge peripherals, this solves that problem entirely.",
@@ -199,12 +199,12 @@ export const products: GamingHeadset[] = [
       "Dual Chamber Drivers reduce distortion",
       "Solid aluminum frame for durability",
       "Detachable noise-cancelling boom mic",
-      "Premium specs at mid-range pricing",
+      "Premium specs at mid-range pricing"
     ],
     cons: [
       "PC only, no PS5 or console support",
       "No Bluetooth",
-      "Real-world battery closer to 100-150 hours with mic active",
+      "Real-world battery closer to 100-150 hours with mic active"
     ],
   },
   {
@@ -225,7 +225,7 @@ export const products: GamingHeadset[] = [
     tradeoffs: [
       "No ANC, passive isolation only",
       "At $129-$159 it overlaps with the HyperX Cloud Alpha Wireless, buy the HyperX for battery, this one for mic quality and multi-platform",
-      "Leatherette earcups trap more heat than AirWeave during long sessions",
+      "Leatherette earcups trap more heat than AirWeave during long sessions"
     ],
     skipIf:
       "You need ANC for gaming in a loud environment. The Sony INZONE H9 adds active noise cancellation. For competitive PC and PS5 gaming where microphone clarity is the priority, this is the pick.",
@@ -234,12 +234,12 @@ export const products: GamingHeadset[] = [
       "70-hour battery, 2+ weeks of daily sessions",
       "Simultaneous 2.4GHz and Bluetooth",
       "50mm Triforce Titanium drivers tuned for FPS",
-      "SmartSwitch one-button mode toggle",
+      "SmartSwitch one-button mode toggle"
     ],
     cons: [
       "No active noise cancellation",
       "Leatherette cups trap heat",
-      "Higher price overlaps with HyperX Cloud Alpha Wireless",
+      "Higher price overlaps with HyperX Cloud Alpha Wireless"
     ],
   },
   {
@@ -258,9 +258,9 @@ export const products: GamingHeadset[] = [
     whyItWorks:
       "PS5 360 Spatial Sound certified with deep system-level integration, spatial audio quality noticeably better than third-party headsets. Active Noise Cancellation reduces ambient sound without removing the headset, the only pick in this roundup with ANC. Flip-to-mute microphone gives physical mute feedback by flipping the boom arm up. Dual connection: 2.4GHz for PC and PS5 gaming, Bluetooth for phone simultaneously. 32-hour battery for daily gaming. Sony gaming audio heritage delivers a well-tuned frequency response across game types.",
     tradeoffs: [
-      "Premium price at $198-$229, most expensive pick in this guide",
+      "Premium price at under $200-$229, most expensive pick in this guide",
       "PS5 optimization is its primary advantage, PC-only gamers can get similar ANC from Sony consumer headphones at comparable price",
-      "Microphone is solid but below the Razer BlackShark V2 Pro for raw clarity",
+      "Microphone is solid but below the Razer BlackShark V2 Pro for raw clarity"
     ],
     skipIf:
       "You only game on PC and do not own a PS5. The Razer BlackShark V2 Pro offers comparable wireless performance with a superior microphone for less money on PC. The INZONE H9 value is specifically in PS5 integration plus ANC.",
@@ -269,14 +269,14 @@ export const products: GamingHeadset[] = [
       "Active Noise Cancellation, only pick in this guide with ANC",
       "Flip-to-mute boom arm with physical feedback",
       "Simultaneous 2.4GHz gaming and Bluetooth phone",
-      "32-hour battery for daily use",
+      "32-hour battery for daily use"
     ],
     cons: [
-      "Most expensive at $198-$229",
+      "Most expensive at under $200-$229",
       "Primarily a PS5 headset, less value for PC-only gamers",
-      "Mic clarity below the Razer BlackShark V2 Pro",
+      "Mic clarity below the Razer BlackShark V2 Pro"
     ],
-  },
+  }
 ];
 
 export const atAGlanceRows = products.map((p) => ({
@@ -309,12 +309,12 @@ export const faq = [
   {
     q: "How important is headset weight for gaming?",
     a: "More important than most buyers expect. Under 250g is imperceptible after hours of wear. 250 to 350g is noticeable but comfortable. Over 350g causes neck fatigue during sessions over 3 to 4 hours. The Logitech G435 at 165g and Arctis Nova 3 at 145g are the lightest picks, both suitable for all-day use.",
-  },
+  }
 ];
 
 export const relatedGuides = [
   { title: "7 Best Headsets for Work: Budget to Premium", href: "/guide/best-headset-for-work" },
   { title: "7 Best Headphones for Working Out", href: "/guide/best-headphones-for-working-out" },
   { title: "Best Headphone Stands for Your Desk", href: "/guide/best-headphone-stand-desk" },
-  { title: "Best Headphones for Online Classes", href: "/guide/best-headphones-for-online-classes" },
+  { title: "Best Headphones for Online Classes", href: "/guide/best-headphones-for-online-classes" }
 ];

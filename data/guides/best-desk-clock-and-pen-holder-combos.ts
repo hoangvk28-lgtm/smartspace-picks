@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desk clock pen holder combo";
 export const introParagraphs = [
   "A desk clock and pen holder combo solves two small desk problems at once: a place to stand pens and pencils, and a clock face built right into that same footprint instead of taking up separate space. This is a genuinely well-represented category in our verified inventory, six distinct products, each pairing a digital clock display with stationery storage.",
-  "We compared these on both halves of the equation: how useful the clock display actually is (temperature, calendar, timer functions vary by model) and how practical the storage compartment is for real desk clutter, not just pens.",
+  "We compared these on both halves of the equation: how useful the clock display actually is (temperature, calendar, timer functions vary by model) and how practical the storage compartment is for real desk clutter, not just pens."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "9 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Weighed both halves of the combo separately", description: "Scored the clock display features and the storage compartment practicality independently rather than assuming a good clock implies good storage or vice versa." },
   { title: "Verified distinct features rather than assuming duplicate listings are identical", description: "Checked each listing individually to confirm genuinely distinct features (timer, wireless charging, night light) rather than assuming similar-looking products are functionally the same." },
   { title: "Checked perpetual calendar claims against listing wording", description: "Confirmed which picks specifically claim a perpetual calendar function, a genuine long-term convenience versus a standard date display that needs periodic resetting." },
-  { title: "Priced picks across a genuine budget-to-premium range", description: "Included the full range from the lowest cost basic organizer to the higher priced wireless charging combo, so buyers can match spend to actual desired features." },
+  { title: "Priced picks across a genuine budget-to-premium range", description: "Included the full range from the lowest cost basic organizer to the higher priced wireless charging combo, so buyers can match spend to actual desired features." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -262,11 +262,11 @@ export const faq: FaqItem[] = [
   { q: "Which of these combos has a genuine timer function?", a: "Only the Desk Pen Holder with Clock (the lowest priced pick here) explicitly names a timer function in its listing among these six products." },
   { q: "Do any of these charge my phone?", a: "Only the Desk Organizer with Wireless Charger includes a genuine wireless charging pad. The other five are pen holder and clock combos without charging features." },
   { q: "What does perpetual calendar mean?", a: "It means the date display is designed to stay accurate long-term without requiring a manual yearly reset, a genuine convenience over a standard date display." },
-  { q: "Are these combos good for a lot of pens?", a: "Storage capacity varies and isn't always detailed precisely in listings. Check the actual product photos for compartment size if you have more than a few pens and pencils to store." },
+  { q: "Are these combos good for a lot of pens?", a: "Storage capacity varies and isn't always detailed precisely in listings. Check the actual product photos for compartment size if you have more than a few pens and pencils to store." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-wireless-charging-desk-clocks", title: "Best Wireless Charging Desk Clock (2026)" },
   { href: "/guide/best-desk-clocks-with-timers", title: "Best Desk Clocks with Timers (2026)" },
-  { href: "/guide/best-desk-clocks-with-dates", title: "Best Desk Clocks with Date Displays (2026)" },
+  { href: "/guide/best-desk-clocks-with-dates", title: "Best Desk Clocks with Date Displays (2026)" }
 ];

@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41emPHEy6CL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B082NKBM62?tag=deskfinds0d-20",
-    "description": "HUANUO Under Desk Keyboard Tray leads with check fit before ordering -, backed by full-size slide out keyboard tray, a combination aimed at as an under-desk mounting solution built for a specific desk thickness rather than a universal fit.\n\nCompared to JINGCHENGMEI Large Under Desk Slide-Out Keyboard Tray at $42.99, it costs more for real added capability, while sitting well below VIVO Black Pole Mounted 26 x 10 in Keyboard Tray at $59.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want to free up desk surface space or lower their typing position for better ergonomics. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "HUANUO Under Desk Keyboard Tray leads with check fit before ordering -, backed by full-size slide out keyboard tray, a combination aimed at as an under-desk mounting solution built for a specific desk thickness rather than a universal fit.\n\nCompared to JINGCHENGMEI Large Under Desk Slide-Out Keyboard Tray at under $45, it costs more for real added capability, while sitting well below VIVO Black Pole Mounted 26 x 10 in Keyboard Tray at under $60 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want to free up desk surface space or lower their typing position for better ergonomics. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Check Fit Before Ordering -",
       "Full-Size Slide Out Keyboard Tray",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41BESYmPmaL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DSJS1P7K?tag=deskfinds0d-20",
-    "description": "What stands out on VIVO Black Clamp-on 23 x 10 in Rotating Keyboard Tray is comfortable typing angles, alongside 360 rotation for flexible placement, which is the main reason it earns a spot in this keyboard trays comparison.\n\nIt lands between JINGCHENGMEI Large Under Desk Slide-Out Keyboard Tray's $42.99 price floor and VIVO Black Pole Mounted 26 x 10 in Keyboard Tray's $59.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nVIVO Black Clamp-on 23 x 10 in Rotating Keyboard Tray is the right call for buyers who want to free up desk surface space or lower their typing position for better ergonomics. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on VIVO Black Clamp-on 23 x 10 in Rotating Keyboard Tray is comfortable typing angles, alongside 360 rotation for flexible placement, which is the main reason it earns a spot in this keyboard trays comparison.\n\nIt lands between JINGCHENGMEI Large Under Desk Slide-Out Keyboard Tray's under $45 price floor and VIVO Black Pole Mounted 26 x 10 in Keyboard Tray's under $60 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nVIVO Black Clamp-on 23 x 10 in Rotating Keyboard Tray is the right call for buyers who want to free up desk surface space or lower their typing position for better ergonomics. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Comfortable Typing Angles",
       "360 Rotation for Flexible Placement",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/414gJ2AhqmL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0BWSJLD92?tag=deskfinds0d-20",
-    "description": "VIVO Black Pole Mounted 26 x 10 in Keyboard Tray leads with universal pole mount keyboard tray, backed by adjustable tilt & rotation, a combination aimed at as an under-desk mounting solution built for a specific desk thickness rather than a universal fit.\n\nSitting at $59.99, the top of this comparison's price range, it asks buyers to confirm the added capability is actually worth it over the more affordable picks here before paying the premium.\n\nVIVO Black Pole Mounted 26 x 10 in Keyboard Tray is the right call for buyers who want to free up desk surface space or lower their typing position for better ergonomics. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "VIVO Black Pole Mounted 26 x 10 in Keyboard Tray leads with universal pole mount keyboard tray, backed by adjustable tilt & rotation, a combination aimed at as an under-desk mounting solution built for a specific desk thickness rather than a universal fit.\n\nSitting at under $60, the top of this comparison's price range, it asks buyers to confirm the added capability is actually worth it over the more affordable picks here before paying the premium.\n\nVIVO Black Pole Mounted 26 x 10 in Keyboard Tray is the right call for buyers who want to free up desk surface space or lower their typing position for better ergonomics. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Universal Pole Mount Keyboard Tray",
       "Adjustable Tilt & Rotation",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41fPSwj-HUL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CSHLC97C?tag=deskfinds0d-20",
-    "description": "VIVO Black Under Desk 27 x 11 in Adjustable Keyboard Tray is built around save desk space, paired with comfortable typing, positioning it as an under-desk mounting solution built for a specific desk thickness rather than a universal fit.\n\nCompared to JINGCHENGMEI Large Under Desk Slide-Out Keyboard Tray at $42.99, it costs more for real added capability, while sitting well below VIVO Black Pole Mounted 26 x 10 in Keyboard Tray at $59.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want to free up desk surface space or lower their typing position for better ergonomics. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "VIVO Black Under Desk 27 x 11 in Adjustable Keyboard Tray is built around save desk space, paired with comfortable typing, positioning it as an under-desk mounting solution built for a specific desk thickness rather than a universal fit.\n\nCompared to JINGCHENGMEI Large Under Desk Slide-Out Keyboard Tray at under $45, it costs more for real added capability, while sitting well below VIVO Black Pole Mounted 26 x 10 in Keyboard Tray at under $60 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want to free up desk surface space or lower their typing position for better ergonomics. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Save Desk Space",
       "Comfortable Typing",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/4171FTuE9QL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DQ192SY7?tag=deskfinds0d-20",
-    "description": "JINGCHENGMEI Large Under Desk Slide-Out Keyboard Tray is built around ample space, paired with sturdy and durable, positioning it as an under-desk mounting solution built for a specific desk thickness rather than a universal fit.\n\nAt $42.99, it's the most affordable pick in this comparison, so expect fewer extras than the pricier options here, but the core function holds up for buyers who don't need the added features those carry.\n\nThis pick best suits buyers who want to free up desk surface space or lower their typing position for better ergonomics. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "JINGCHENGMEI Large Under Desk Slide-Out Keyboard Tray is built around ample space, paired with sturdy and durable, positioning it as an under-desk mounting solution built for a specific desk thickness rather than a universal fit.\n\nAt under $45, it's the most affordable pick in this comparison, so expect fewer extras than the pricier options here, but the core function holds up for buyers who don't need the added features those carry.\n\nThis pick best suits buyers who want to free up desk surface space or lower their typing position for better ergonomics. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Ample Space",
       "Sturdy and Durable",
@@ -237,23 +237,23 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $42.99",
+          "Under $45",
           "JINGCHENGMEI Large Under Desk Slide-Out Keyboard Tray"
         ],
         [
-          "Around $49.99",
+          "Under $50",
           "VIVO Black Under Desk 27 x 11 in Adjustable Keyboard Tray"
         ],
         [
-          "Around $59.99",
+          "Under $60",
           "HUANUO Under Desk Keyboard Tray"
         ],
         [
-          "Around $59.99",
+          "Under $60",
           "VIVO Black Clamp-on 23 x 10 in Rotating Keyboard Tray"
         ],
         [
-          "Around $59.99",
+          "Under $60",
           "VIVO Black Pole Mounted 26 x 10 in Keyboard Tray"
         ]
       ]
@@ -264,11 +264,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "JINGCHENGMEI Large Under Desk Slide-Out Keyboard Tray",
-        "text": "The lowest-priced pick in this comparison at $42.99, a solid choice if you don't need the extras the pricier picks carry."
+        "text": "The lowest-priced pick in this comparison at under $45, a solid choice if you don't need the extras the pricier picks carry."
       },
       {
         "label": "VIVO Black Pole Mounted 26 x 10 in Keyboard Tray",
-        "text": "The highest-priced pick at $59.99, worth it only if you'll actually use what that premium buys."
+        "text": "The highest-priced pick at under $60, worth it only if you'll actually use what that premium buys."
       }
     ],
     "note": "Default to JINGCHENGMEI Large Under Desk Slide-Out Keyboard Tray unless the pricier pick's specific advantage genuinely applies to your situation."
@@ -328,7 +328,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "What's the real difference between the cheapest and most expensive pick here?",
-    "a": "JINGCHENGMEI Large Under Desk Slide-Out Keyboard Tray at $42.99 covers the basics, while VIVO Black Pole Mounted 26 x 10 in Keyboard Tray at $59.99 adds greater height and tilt adjustment range. Whether that's worth the difference depends on whether you need fine-tuned ergonomic positioning or a straightforward fixed surface works fine."
+    "a": "JINGCHENGMEI Large Under Desk Slide-Out Keyboard Tray at under $45 covers the basics, while VIVO Black Pole Mounted 26 x 10 in Keyboard Tray at under $60 adds greater height and tilt adjustment range. Whether that's worth the difference depends on whether you need fine-tuned ergonomic positioning or a straightforward fixed surface works fine."
   },
   {
     "q": "Will a keyboard tray fit under any desk?",
@@ -340,7 +340,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "Is there a solid middle-ground pick in this price range?",
-    "a": "HUANUO Under Desk Keyboard Tray at $59.99 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
+    "a": "HUANUO Under Desk Keyboard Tray at under $60 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
   },
   {
     "q": "What's the most common mistake buyers make shopping keyboard trays under $75?",

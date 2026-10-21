@@ -5,7 +5,7 @@ export const metaDescription = "5 desk clocks compared for actual brass or brass
 export const mainKeyword = "brass desk clock";
 export const introParagraphs = [
   "Genuine solid brass desk clocks are less common than brass-toned or brass-finish clocks. We checked each listing's described construction and flagged where a product is metal with a brass-like finish rather than confirmed solid brass.",
-  "This category overlaps somewhat with our gold desk clocks guide, since brass and gold finishes look similar and often come from the same manufacturers.",
+  "This category overlaps somewhat with our gold desk clocks guide, since brass and gold finishes look similar and often come from the same manufacturers."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51Ee1NBJrWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07WMVHP2J?tag=deskfinds0d-20",
     description: "A genuine metal body clock in a brass-adjacent gold tone, with the largest review base and highest rating in this comparison, non-ticking for quiet desk use.\n\nIt earns the top spot in this comparison over HZDHCLH Vintage Table Clock Battery Operated for one main reason. Largest review base and highest rating in this comparison. On price, it comes in below HZDHCLH Vintage Table Clock Battery Operated on price, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Non-ticking movement for quiet work. On the other side, Verify current listing for exact brass vs. brass-toned finish. That's the main tradeoff to weigh against everything above.",
-    specs: ["Metal body, gold/brass-toned finish","Non-ticking movement","1,700 reviews at 4.4 stars"],
+    specs: ["Metal body, gold/brass-toned finish","Non-ticking movement"],
     pros: ["Largest review base and highest rating in this comparison","Non-ticking movement for quiet work"],
     cons: ["Verify current listing for exact brass vs. brass-toned finish"],
     bestFor: "Buyers who want the most proven brass-toned clock at a reasonable price.",
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51vOzTtxG9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFDWS9R8?tag=deskfinds0d-20",
     description: "A mantel-style vintage clock with brass-tone detailing, battery operated, at a higher price than the basic table clocks in this comparison but with a smaller review base.\n\nOne spot below Maxspace Metal Golden Table Clock in this ranking, it costs more than Maxspace Metal Golden Table Clock. The compromise here is straightforward: Much smaller review base than the top pick. What you gain in return: More substantial mantel-style design than basic table clocks. Whether that trade is worth it depends on which side matters more to you.\n\nWorth knowing before you decide: More substantial mantel-style design than basic table clocks. On the other side, Much smaller review base than the top pick. That's the main tradeoff to weigh against everything above.",
-    specs: ["Mantel-style, vintage design","Battery operated","62 reviews at 4.3 stars"],
+    specs: ["Mantel-style, vintage design","Battery operated"],
     pros: ["More substantial mantel-style design than basic table clocks"],
     cons: ["Much smaller review base than the top pick"],
     bestFor: "Buyers who want a more substantial vintage mantel-style piece.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/4110W9wBQYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09SB6ZY4P?tag=deskfinds0d-20",
     description: "A genuine metal body clock at the lowest price in this comparison, with a large, well-established review base for the price point.\n\nSitting just under HZDHCLH Vintage Table Clock Battery Operated, it's priced lower than HZDHCLH Vintage Table Clock Battery Operated. Here's the honest tradeoff: Basic design compared to the mantel-style options. And here's what it gets you instead: Cheapest option with a genuine metal body. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Large, proven review base. On the other side, Basic design compared to the mantel-style options. That's the main tradeoff to weigh against everything above.",
-    specs: ["Metal body","Retro analog design","1,512 reviews at 4.4 stars"],
+    specs: ["Metal body","Retro analog design"],
     pros: ["Cheapest option with a genuine metal body","Large, proven review base"],
     cons: ["Basic design compared to the mantel-style options"],
     bestFor: "Budget-focused buyers who want a proven metal clock.",
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41+mFh63FwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK6R22KD?tag=deskfinds0d-20",
     description: "The largest, most premium option in this comparison, a mantel-style clock with a silent movement, at the highest price and a smaller review base.\n\nRanked just behind rjuwurv Metal Desk Clock, it costs more than rjuwurv Metal Desk Clock. The real tradeoff against that pick: Highest price and smallest review base. In exchange, it offers this instead: Largest, most substantial piece in this comparison. That's the swap that decides whether this pick or the one above it is the better fit for a given buyer.\n\nWorth knowing before you decide: Silent movement. On the other side, Highest price and smallest review base. That's the main tradeoff to weigh against everything above.",
-    specs: ["8.3 x 9.1 in, mantel style","Silent movement","63 reviews at 4.2 stars"],
+    specs: ["8.3 x 9.1 in, mantel style","Silent movement"],
     pros: ["Largest, most substantial piece in this comparison","Silent movement"],
     cons: ["Highest price and smallest review base"],
     bestFor: "Buyers who want the most substantial mantel-style piece and don't mind the premium.",
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41c1kZ9IKNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07PYN9YZN?tag=deskfinds0d-20",
     description: "A genuinely different mechanism, an auto-flip display rather than a traditional dial, with brass-adjacent retro styling, at a solid review base for its category.\n\nOne spot below QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3x9.1in in this ranking, it's priced lower than QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3x9.1in. The compromise here is straightforward: Same price tier as the mantel-style option above without the same substantial size. What you gain in return: Distinctive flip mechanism, not just another traditional dial. Whether that trade is worth it depends on which side matters more to you.\n\nWorth knowing before you decide: Solid review base. On the other side, Same price tier as the mantel-style option above without the same substantial size. That's the main tradeoff to weigh against everything above.",
-    specs: ["Auto-flip mechanism","Retro vintage design","822 reviews at 4.4 stars"],
+    specs: ["Auto-flip mechanism","Retro vintage design"],
     pros: ["Distinctive flip mechanism, not just another traditional dial","Solid review base"],
     cons: ["Same price tier as the mantel-style option above without the same substantial size"],
     bestFor: "Buyers who want a genuinely different flip-clock mechanism in a vintage brass-toned aesthetic.",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified brass vs. brass-toned finish per listing", description: "We checked each product's described construction and flagged where confirmation of solid brass versus a brass-colored finish wasn't clear." },
   { title: "Price against design substance", description: "We compared value from basic budget-tier metal clocks up to premium mantel-style pieces." },
   { title: "Movement type and mechanism", description: "We noted where a clock uses a distinctive mechanism (like the auto-flip mooas pick) versus a standard dial." },
-  { title: "Review volume and rating together", description: "We weighted both metrics, since some budget options have far larger, more proven review histories than pricier alternatives." },
+  { title: "Review volume and rating together", description: "We weighted both metrics, since some budget options have far larger, more proven review histories than pricier alternatives." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,15 +243,15 @@ export const buyingCriteria: BuyingCriterion[] = [
 
 export const faq: FaqItem[] = [
   { q: "Are these solid brass or brass-colored?", a: "Verify the current listing for each product, most are metal with a brass-toned finish rather than confirmed solid brass construction." },
-  { q: "Which is the most proven option?", a: "The Maxspace Metal Golden Table Clock, with 1,700 reviews at 4.4 stars." },
-  { q: "What's the cheapest option?", a: "The rjuwurv Metal Desk Clock at $9.99." },
+  
+  { q: "What's the cheapest option?", a: "The rjuwurv Metal Desk Clock at under $10." },
   { q: "Is there a non-traditional clock mechanism available?", a: "Yes, the mooas Flip Desk Clock uses an auto-flip display mechanism instead of a standard dial." },
   { q: "How does this overlap with your gold desk clocks guide?", a: "Substantially, brass and gold finishes are visually similar and often made by the same manufacturers, so check both guides for the full range of options." },
-  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers who want the most proven brass-toned clock at a reasonable price." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers who want the most proven brass-toned clock at a reasonable price." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-gold-desk-clocks", title: "Best Gold Desk Clocks (2026)" },
   { href: "/guide/best-bronze-desk-clocks", title: "Best Bronze Desk Clocks (2026)" },
-  { href: "/guide/best-desk-clocks", title: "Best Desk Clocks (2026)" },
+  { href: "/guide/best-desk-clocks", title: "Best Desk Clocks (2026)" }
 ];

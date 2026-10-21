@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41EkQzAr4kL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09S3YNSPJ?tag=deskfinds0d-20",
-    "description": "Honeywell is a 116 can fridge whose listing is short but clear: three pane glass door, electronic digital thermostat, slide out plastic coated shelving, adjustable legs and interior LED light. No dimensions, range or noise figure appear in the bullets.\n\nIt is the only pick that advertises three panes, which helps insulation, but the documentation is thinner than any of the 130 can models. At $199.99 it sits near EUHOMY on price.\n\nBest for a buyer who prioritizes the three pane door and a known brand. The caveat is that you must check the full spec sheet for temperature range and size.",
+    "description": "Honeywell is a 116 can fridge whose listing is short but clear: three pane glass door, electronic digital thermostat, slide out plastic coated shelving, adjustable legs and interior LED light. No dimensions, range or noise figure appear in the bullets.\n\nIt is the only pick that advertises three panes, which helps insulation, but the documentation is thinner than any of the 130 can models. At under $200 it sits near EUHOMY on price.\n\nBest for a buyer who prioritizes the three pane door and a known brand. The caveat is that you must check the full spec sheet for temperature range and size.",
     "specs": [
       "116 cans, three pane glass",
       "Digital thermostat",
@@ -341,7 +341,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "68 can class",
-        "text": "Fits a bedroom or dorm and costs $144 to $160, but bottoms out at 40F. Picks: Antarctic Star 68 Can and Electactic 68 Can."
+        "text": "Fits a bedroom or dorm and costs under $170, but bottoms out at 40F. Picks: Antarctic Star 68 Can and Electactic 68 Can."
       }
     ],
     "note": "Most bedrooms should choose the 68 can size, unless you entertain regularly."

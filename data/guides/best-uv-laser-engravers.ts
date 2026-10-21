@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "10W (0.874mW, Class 2) UV Laser Marking Machine Water Cooling UV Laser Engraver for Glass, measures 200x200 and is built around laser class ii, 0.874mw output power, fda, positioning it for uv buyers specifically.\n\nLaser Source Power is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for uv, though as with any equipment purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["200x200 dimensions","Laser Class II, 0.874mW Output Power, FDA","Laser Source Power"],
     pros: ["Laser Class II, 0.874mW Output Power, FDA, confirmed directly in the listing's own spec details","Laser Source Power, confirmed directly in the listing's own spec details","Efficient Cooling, confirmed directly in the listing's own spec details"],
-    cons: ["At $5,299.00, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $5,300, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for uv",
   }
 

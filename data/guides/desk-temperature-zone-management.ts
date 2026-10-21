@@ -12,7 +12,7 @@ export const deskTemperatureZoneManagementGuide: Guide = {
     "shared office different temperature preferences",
     "personal heating cooling at desk",
     "office thermostat disagreement solution",
-    "individual comfort shared workspace",
+    "individual comfort shared workspace"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskTemperatureZoneManagementGuide: Guide = {
     "desk-heated-blanket-vs-space-heater",
     "tower-fan-vs-desk-fan",
     "desk-cooling-pad-for-people-explained",
-    "how-many-outlets-do-you-need-desk-setup",
+    "how-many-outlets-do-you-need-desk-setup"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskTemperatureZoneManagementGuide: Guide = {
       question: "Can personal comfort devices actually resolve genuine, significant temperature disagreements?",
       answer:
         "For most everyday preference differences, yes, personal devices provide a practical individual solution, for a genuinely uncomfortable shared space temperature affecting multiple people, that may warrant a broader conversation about the shared thermostat setting itself rather than everyone individually compensating.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const deskTemperatureZoneManagementGuide: Guide = {
     {
       heading: "Why Device Noise and Visibility Deserve Different Levels of Workplace Consideration",
       body: `A heated lap blanket operates completely silently and remains entirely private to the person using it, making it essentially frictionless to introduce into a shared space without needing to consult coworkers first, a desk fan, by contrast, produces audible noise and visible movement that others nearby will notice and potentially be affected by, warranting a brief courtesy conversation before introducing it into a shared quiet space, recognizing this difference helps navigate personal comfort solutions in a way that respects the shared nature of the workspace appropriately based on each device's actual impact on others.`,
-    },
+    }
   ],
 };

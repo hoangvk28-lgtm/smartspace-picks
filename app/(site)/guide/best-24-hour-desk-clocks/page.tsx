@@ -143,7 +143,7 @@ export default async function Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best 24-Hour Desk Clocks", item: `${SITE_URL}/guide/best-24-hour-desk-clocks` },
+      { "@type": "ListItem", position: 3, name: "Best 24-Hour Desk Clocks", item: `${SITE_URL}/guide/best-24-hour-desk-clocks` }
     ],
   };
 

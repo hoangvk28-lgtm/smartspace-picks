@@ -5,7 +5,7 @@ export const metaDescription = "8 scanners we evaluated for business cards, with
 export const mainKeyword = "business card scanner";
 export const introParagraphs = [
   "Card OCR accuracy drops significantly on stylized fonts, low-contrast printing, and dark or foil-accented cards common in premium designs, standard OCR trained on document text struggles here, a gap untested in reviews using only plain white-background sample cards.",
-  "Also worth knowing: contact export format compatibility (vCard vs. CSV vs. proprietary app format) determines real CRM integration usability, a scanner exporting only a proprietary format creates real manual cleanup work importing into Salesforce, HubSpot, or similar platforms.",
+  "Also worth knowing: contact export format compatibility (vCard vs. CSV vs. proprietary app format) determines real CRM integration usability, a scanner exporting only a proprietary format creates real manual cleanup work importing into Salesforce, HubSpot, or similar platforms."
 ];
 export const lastUpdated = "2026-07-29";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best for High-Accuracy ID/Insurance Cards",
     name: "Medical Insurance Card and ID Card Scanner (w/Scan-ID LITE, for Windows)",
     price: "$189.00",
-    rating: "4.2 stars from 295 Amazon ratings",
-    reviews: "295 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41y2MW3hRZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00Z2GDAOK?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Dedicated Business Card Scanner",
     name: "Ambir ImageScan Pro 667 Business Card Scanner with AmbirScan Business Card",
     price: "$189.99",
-    rating: "3.6 stars from 46 Amazon ratings",
-    reviews: "46 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31lHBnbrcsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VSHQSKW?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Speed Vertical Card Scanner",
     name: "AMBIR ID Card and Business Card Scanner PS670ST-AS High Speed Single Sided Vertical USB Powered",
     price: "$220.17",
-    rating: "3.5 stars from 18 Amazon ratings",
-    reviews: "18 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31J0Q92KtrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CC9SRRL3?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best CRM-Focused Software Bundle",
     name: "PenPower WorldCard Pro Business Card Scanner",
     price: "$179.95",
-    rating: "3.4 stars from 798 Amazon ratings",
-    reviews: "798 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41TlodBP7BL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0075323W8?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Simplex Budget Card Scanner",
     name: "Ambir Technology PS667 Simplex A6 Card Scanner",
     price: "$168.99",
-    rating: "3.7 stars from 112 Amazon ratings",
-    reviews: "112 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21KARG3MEML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0018POCW8?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best General Scanner for Occasional Cards",
     name: "Brother DS-640 Compact Mobile Document Scanner",
     price: "$134.99",
-    rating: "4.3 stars from 6,522 Amazon ratings",
-    reviews: "6,522 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Bx7Z39uKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B083R36CY4?tag=deskfinds0d-20",
     description:
@@ -127,8 +127,8 @@ export const products: GuideProduct[] = [
     badge: "Best ADF Batch Card Scanning",
     name: "ScanSnap iX1300 Wireless or USB Double-Sided Color Document Scanner, White",
     price: "$279.99",
-    rating: "4.2 stars from 1,768 Amazon ratings",
-    reviews: "1,768 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41yWYf2uT0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FX5DWBK?tag=deskfinds0d-20",
     description:
@@ -144,8 +144,8 @@ export const products: GuideProduct[] = [
     badge: "Cloud-Connected Card Scanning Alternative",
     name: "Canon imageFORMULA R40II Office Document Scanner",
     price: "$253.00",
-    rating: "4.3 stars from 37 Amazon ratings",
-    reviews: "37 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41d2vOL+ThL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GJWWZ77J?tag=deskfinds0d-20",
     description:
@@ -154,14 +154,14 @@ export const products: GuideProduct[] = [
     pros: ["Handles cards alongside broader office document scanning", "Direct cloud connectivity", "Duplex scanning", "Easy setup"],
     cons: ["Smallest review count in this guide alongside the AMBIR PS670ST", "Not a dedicated card scanner or CRM-focused software", "OCR accuracy on stylized/dark cards not independently verified"],
     bestFor: "Buyers who want card scanning as part of a broader office document workflow",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "OCR accuracy on stylized, dark, and foil-accented cards", description: "Flagged that standard OCR trained on document text struggles with decorative business card fonts and dark/foil designs, an accuracy gap most reviews miss by testing only plain white-background sample cards." },
   { title: "Non-standard card size compatibility", description: "Noted that cards deviating from the standard 3.5x2 inch size (square, oversized, rounded corners) commonly cause feed jams in ADF-based card-scan modes, a real compatibility gap for creative-industry or international cards." },
-  { title: "Contact export format vs. real CRM import usability", description: "Distinguished basic proprietary/CSV export from vCard-compatible export that imports cleanly into Salesforce, HubSpot, or similar CRM platforms without manual cleanup." },
+  { title: "Contact export format vs. real CRM import usability", description: "Distinguished basic proprietary/CSV export from vCard-compatible export that imports cleanly into Salesforce, HubSpot, or similar CRM platforms without manual cleanup." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -294,11 +294,11 @@ export const faq: FaqItem[] = [
   { q: "Will scanned business cards import cleanly into my CRM?", a: "It depends on the export format. A scanner/app exporting only to a proprietary format or basic CSV without field mapping creates real manual cleanup work importing into Salesforce, HubSpot, or similar platforms, test the export format first." },
   { q: "Do these scanners handle duplicate contacts when I re-scan someone's updated card?", a: "This varies significantly by app and isn't independently confirmed for any pick in this guide. Duplicate detection and contact merging quality is a real database-feature gap worth testing directly if you scan repeat contacts often." },
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers who want the highest-rated card-optimized scan path, even if not business-card-specific" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who only occasionally need to digitize a business card alongside general documents At $134.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who only occasionally need to digitize a business card alongside general documents At under $140, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-document-scanners-for-small-businesses", title: "Best Document Scanners for Small Businesses (2026)" },
   { href: "/guide/best-receipt-scanners", title: "Best Receipt Scanners (2026)" },
-  { href: "/guide/best-document-scanners-with-ocr", title: "Best Document Scanners with OCR (2026)" },
+  { href: "/guide/best-document-scanners-with-ocr", title: "Best Document Scanners with OCR (2026)" }
 ];

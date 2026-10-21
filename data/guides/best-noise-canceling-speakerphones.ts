@@ -5,7 +5,7 @@ export const metaDescription = "6 speakerphones we evaluated for noise cancellat
 export const mainKeyword = "noise canceling speakerphone";
 export const introParagraphs = [
   "AI noise cancellation filters background sound (typing, HVAC hum, street noise) out of what the microphone picks up, it's a separate feature from echo cancellation, which prevents your own speaker output from feeding back into the mic, competitors often conflate the two under one 'noise canceling' label.",
-  "The number of physical microphones and their pickup radius matters more for real conference-room performance than a single 'AI noise canceling' marketing claim, more mics generally means better voice isolation across a larger table.",
+  "The number of physical microphones and their pickup radius matters more for real conference-room performance than a single 'AI noise canceling' marketing claim, more mics generally means better voice isolation across a larger table."
 ];
 export const lastUpdated = "2026-07-30";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best AI Noise Cancellation",
     name: "Yealink SP92 Conference Speaker and Microphone with AI Noise Cancellation, 20H Call Time, 13ft Pick-up, 360 Omni Mic 50mm Full-Duplex Speaker, Bluetooth 5.3 USB Speakerphone for Teams",
     price: "$60.20",
-    rating: "4.2 stars from 127 Amazon ratings",
-    reviews: "127 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31E89kCEPNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F28HTJP3?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Zoom-Certified Noise Cancellation",
     name: "Anker PowerConf Speakerphone, Zoom Certified Conference Speaker with 6 Mics",
     price: "$149.99",
-    rating: "4.4 stars from 5,801 Amazon ratings",
-    reviews: "5,801 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41x468UYHLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08CV6MGJH?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Premium Noise-Canceling Pick",
     name: "Jabra Speak2 55 Wireless Bluetooth Speakerphone (2025 Edition), Dark Grey",
     price: "$174.99",
-    rating: "4.5 stars from 67 Amazon ratings",
-    reviews: "67 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31EhqapD3KL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F4GCS5WG?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best 4-Mic Noise-Canceling Pick",
     name: "Jabra Speak2 40 Portable Speakerphone - 4 Noise-Cancelling Mics, Full-Range 50mm Portable Speaker, Wideband Audio and USB-A and USB-C Connections - Certified for Zoom and Google Meet - Dark Grey",
     price: "$146.99",
-    rating: "4.3 stars from 68 Amazon ratings",
-    reviews: "68 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31oHJerSTwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BWKTR73Y?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget 4-Mic Noise-Canceling Pick",
     name: "EMEET M0 Plus Conference Speaker and Microphone, 4 Mics 360 degrees Voice Pickup",
     price: "$52.23",
-    rating: "4.3 stars from 1,596 Amazon ratings",
-    reviews: "1,596 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51zfICZQrEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVZLS5GZ?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best Portable Noise-Canceling Pick",
     name: "Jabra Speak 510 (2025 Edition) Portable USB Bluetooth Speaker, Black",
     price: "$97.79",
-    rating: "4.7 stars from 164 Amazon ratings",
-    reviews: "164 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/413BTmTk1LL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FC3XV5DK?tag=deskfinds0d-20",
     description:
@@ -120,14 +120,14 @@ export const products: GuideProduct[] = [
     pros: ["Highest rating of any pick in this guide", "Genuinely portable for moving between spaces", "Established Jabra audio quality", "Both USB and Bluetooth connectivity"],
     cons: ["Modest review count as a newer release", "Fewer mics than the dedicated conference-room picks", "No specific platform certification listed"],
     bestFor: "Buyers who need a portable noise-canceling speakerphone for a desk that doubles as a meeting spot",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Noise cancellation vs. echo cancellation, treated as separate features", description: "Distinguished AI noise cancellation, which filters background sound from the mic pickup, from echo cancellation, which prevents speaker output from feeding back in, since competitors often blur these under one label." },
   { title: "Physical mic count as the real driver of voice isolation", description: "Weighed the number of physical microphones and pickup radius more heavily than marketing claims alone, since more mics genuinely improve voice isolation across a real conference table." },
-  { title: "Platform certification as confirmed, not assumed, compatibility", description: "Noted which picks carry explicit Zoom, Google Meet, or Teams certification versus general USB/Bluetooth compatibility, since certified compatibility reflects real platform testing." },
+  { title: "Platform certification as confirmed, not assumed, compatibility", description: "Noted which picks carry explicit Zoom, Google Meet, or Teams certification versus general USB/Bluetooth compatibility, since certified compatibility reflects real platform testing." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -256,11 +256,11 @@ export const faq: FaqItem[] = [
   { q: "Do I need a platform-certified speakerphone?", a: "If your team standardizes on Zoom, Google Meet, or Teams, a certified device has been specifically tested against that platform's audio pipeline. General USB/Bluetooth compatibility works with most software but isn't the same tested guarantee." },
   { q: "What's the difference between 360 degrees and directional mic pickup?", a: "A 360 degrees omni mic design works best for a small round table with people seated all around. A more directional pickup pattern can perform better across a narrow rectangular table where voices come from a more limited range of angles." },
   { q: "Does noise cancellation on a speakerphone remove background sound for everyone?", a: "No, it specifically cleans up what the microphone picks up and sends to other call participants, it doesn't reduce what you yourself hear from the room's own ambient noise." },
-  { q: "Can noise cancellation make my voice sound unnatural to call participants?", a: "In rare cases with aggressive processing, yes, check reviews for mentions of a robotic or clipped voice quality, since overly aggressive noise suppression can trade off some natural voice warmth for background noise removal." },
+  { q: "Can noise cancellation make my voice sound unnatural to call participants?", a: "In rare cases with aggressive processing, yes, check reviews for mentions of a robotic or clipped voice quality, since overly aggressive noise suppression can trade off some natural voice warmth for background noise removal." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-speakerphones-for-zoom", title: "Best Speakerphones for Zoom (2026)" },
   { href: "/guide/best-speakerphones-for-small-meeting-rooms", title: "Best Speakerphones for Small Meeting Rooms (2026)" },
-  { href: "/guide/best-speakerphones-for-google-meet", title: "Best Speakerphones for Google Meet (2026)" },
+  { href: "/guide/best-speakerphones-for-google-meet", title: "Best Speakerphones for Google Meet (2026)" }
 ];

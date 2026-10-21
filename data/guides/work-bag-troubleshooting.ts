@@ -12,7 +12,7 @@ export const workBagTroubleshootingGuide: Guide = {
     "backpack zipper broken fix",
     "bag strap worn out fix",
     "bag lost water resistance fix",
-    "laptop bag repair options",
+    "laptop bag repair options"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const workBagTroubleshootingGuide: Guide = {
     "water-resistant-vs-waterproof-bag",
     "laptop-bag-size-for-screen-size",
     "backpack-back-panel-ventilation-explained",
-    "anti-theft-backpack-features-explained",
+    "anti-theft-backpack-features-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const workBagTroubleshootingGuide: Guide = {
       question: "When does it make more sense to replace a bag rather than repair it?",
       answer:
         "If structural damage affects the bag's core support (a broken frame, torn main seams beyond simple stitching repair) or multiple failure points have accumulated simultaneously, replacement is often more practical than continuing to invest in incremental repairs.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const workBagTroubleshootingGuide: Guide = {
     {
       heading: "Why Restoring Water Resistance Is Often More Practical Than It Sounds",
       body: `A bag's original water-repellent coating naturally wears down over months or years of use and exposure to the elements, this is a normal, expected degradation rather than a manufacturing defect, and rather than assuming a bag that's lost its water resistance needs replacement, a fabric-specific waterproofing spray, readily available and inexpensive, can restore meaningful water-repellent function to the existing bag, extending its useful life considerably for a fraction of the cost of a full replacement.`,
-    },
+    }
   ],
 };

@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This dock's dual 4K 120Hz output specifically uses uncompressed video powered by your laptop's native GPU rather than DisplayLink software compression, delivering genuinely higher-fidelity dual-display output than compressed alternatives. Its listing explicitly states it is not compatible with macOS, positioning it specifically for Windows and ChromeOS driverless deployments.\n\nCompared to the Plugable and UGREEN picks below, this one's 2.5G Ethernet and support for PXE Boot and Wake-on-LAN are specifically aimed at IT-managed corporate deployments rather than a single home desk setup. Its built-in lock slots and VESA mounting compatibility further support secured, shared workspace environments.\n\nBest for buyers who want uncompressed native 4K 120Hz dual HDMI specifically for Windows or ChromeOS deployments.",
     specs: ["Dual 4K@120Hz native uncompressed video", "Driverless, Windows/ChromeOS only (not macOS)", "2.5GbE, PXE Boot, Wake-on-LAN"],
     pros: ["Native uncompressed video delivers higher fidelity than DisplayLink", "Dual 4K@120Hz exceeds the 60Hz ceiling of the other picks", "2.5GbE plus PXE Boot support IT-managed deployments"],
-    cons: ["Explicitly not compatible with macOS", "Highest price in this comparison at $199.99"],
+    cons: ["Explicitly not compatible with macOS", "Highest price in this comparison at under $200"],
     bestFor: "buyers who want native uncompressed dual 4K 120Hz specifically for Windows or ChromeOS",
   },
   {
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Native uncompressed dual 4K 120Hz for Windows", "StarTech Driverless USB4 Dock"],
         ["A complete, well-documented Windows desk setup", "Plugable USB-C Docking Station"],
         ["Dual HDMI at the lowest possible price", "UGREEN USB C Docking Station, 7-in-1"],
-        ["Dual-display support that actually works with MacBook", "MOKiN Laptop Docking Station, Dual Monitor"],
+        ["Dual-display support that actually works with MacBook", "MOKiN Laptop Docking Station, Dual Monitor"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $30", "UGREEN 7-in-1 ($29.99)"],
-        ["Under $115", "MOKiN Dual Monitor Dock ($111.14)"],
-        ["Under $120", "Plugable USB-C Docking Station ($119.95)"],
-        ["Under $200", "StarTech Driverless USB4 Dock ($199.99)"],
+        ["Under $30", "UGREEN 7-in-1 (under $30)"],
+        ["Under $115", "MOKiN Dual Monitor Dock (under $120)"],
+        ["Under $120", "Plugable USB-C Docking Station (under $120)"],
+        ["Under $200", "StarTech Driverless USB4 Dock (under $200)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Windows-Only Native Video vs Mac-Compatible Dual Display",
     cards: [
       { label: "Windows-only, native uncompressed (StarTech, Plugable)", text: "Delivers the highest fidelity dual-display output but explicitly excludes macOS or limits it to a single monitor." },
-      { label: "Mac-compatible dual display (MOKiN)", text: "Specifically supports MacBook dual-display mode, at the tradeoff of a bulkier vertical form factor." },
+      { label: "Mac-compatible dual display (MOKiN)", text: "Specifically supports MacBook dual-display mode, at the tradeoff of a bulkier vertical form factor." }
     ],
     note: "If you're on Windows and want the best possible dual-HDMI fidelity, the StarTech or Plugable picks deliver that. If you specifically need dual monitors on a MacBook, the MOKiN pick is the only one in this comparison that directly supports it.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your display need", "Recommended pick"],
       rows: [
         ["Standard 4K@60Hz dual display", "Plugable or UGREEN picks"],
-        ["Higher-refresh 4K@120Hz dual display", "StarTech Driverless USB4 Dock"],
+        ["Higher-refresh 4K@120Hz dual display", "StarTech Driverless USB4 Dock"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Shared or Corporate Desk Deployments Specifically",
     cards: [
       { label: "Look for", text: "Driverless plug-and-play operation, physical lock slots, and IT management features like PXE Boot and Wake-on-LAN for scalable deployment across many desks." },
-      { label: "In this comparison", text: "The StarTech pick specifically includes lock slots, VESA mounting compatibility, and PXE Boot/Wake-on-LAN support for IT-managed rollouts." },
+      { label: "In this comparison", text: "The StarTech pick specifically includes lock slots, VESA mounting compatibility, and PXE Boot/Wake-on-LAN support for IT-managed rollouts." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want native uncompressed 4K 120Hz dual HDMI with IT deployment features, where the StarTech pick justifies its $199.99 price." },
-      { label: "Save if", text: "You want basic dual 4K@60Hz HDMI on Windows at the lowest cost, where the UGREEN pick delivers that for $29.99." },
+      { label: "Spend more if", text: "You want native uncompressed 4K 120Hz dual HDMI with IT deployment features, where the StarTech pick justifies its under $200 price." },
+      { label: "Save if", text: "You want basic dual 4K@60Hz HDMI on Windows at the lowest cost, where the UGREEN pick delivers that for under $30." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

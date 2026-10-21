@@ -5,7 +5,7 @@ export const metaDescription = "5 small erasable whiteboards suited to at-home G
 export const mainKeyword = "desktop whiteboard for GRE";
 export const introParagraphs = [
   "At-home GRE and TOEFL testing generally permits one small erasable whiteboard for scratch work, shown to the proctor before and after erasing. We are not claiming any specific product here is officially ETS-approved - verify current requirements directly on the ETS website before your test date, since testing policies can change.",
-  "What we can rank is board size, erase speed, and camera visibility, all of which matter for a fast-paced at-home testing scenario where you need to work, show the board, and erase quickly under time pressure.",
+  "What we can rank is board size, erase speed, and camera visibility, all of which matter for a fast-paced at-home testing scenario where you need to work, show the board, and erase quickly under time pressure."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41aTFk156tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09C1VT7X8?tag=deskfinds0d-20",
     description: "Compact enough to sit within camera view during an at-home exam, with fast erasing and the highest rating in this comparison.",
-    specs: ["Glass surface, compact size", "1,524 reviews at 4.8 stars"],
+    specs: ["Glass surface, compact size"],
     pros: ["Highest rating in this comparison", "Compact size fits within typical webcam framing"],
     cons: ["Verify current ETS rules directly before your test date"],
     bestFor: "Test-takers who want the most proven compact glass board.",
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41+-w5AGGrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B089NL8QMN?tag=deskfinds0d-20",
     description: "The largest review base in this entire comparison, similarly compact and slightly cheaper than the top pick.",
-    specs: ["Glass surface, compact size", "2,500 reviews at 4.7 stars"],
+    specs: ["Glass surface, compact size"],
     pros: ["Largest review base in this comparison", "Slightly cheaper than the top-rated pick"],
     cons: ["Verify current ETS rules directly before your test date"],
     bestFor: "Test-takers who want the most-reviewed compact glass option.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41caJzrXfNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07RT4LWYY?tag=deskfinds0d-20",
     description: "The largest writing area in this comparison, useful for quantitative scratch work that needs more room than a compact glass board offers, double-sided for extended sessions.",
-    specs: ["16 x 12 in, double-sided, magnetic", "2,486 reviews at 4.8 stars"],
+    specs: ["16 x 12 in, double-sided, magnetic"],
     pros: ["Largest writing area for quantitative scratch work", "Double-sided for more room across a test session"],
     cons: ["Larger footprint may need repositioning to stay within camera view - check exam-specific camera requirements"],
     bestFor: "Test-takers who need more scratch space for complex quantitative work.",
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/4180Al3c9zL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09MZ5ZD4N?tag=deskfinds0d-20",
     description: "At 8x6 inches this is one of the smallest options here, cheaper than the larger glass boards, ideal for minimizing desk clutter during a proctored exam.",
-    specs: ["8 x 6 in, glass surface", "1,191 reviews at 4.7 stars"],
+    specs: ["8 x 6 in, glass surface"],
     pros: ["Smallest, most unobtrusive footprint for a proctored desk setup"],
     cons: ["Small writing area limits scratch work space"],
     bestFor: "Test-takers who want minimal desk clutter during the exam.",
@@ -94,11 +94,11 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41FLEFa9xDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVM9YJCS?tag=deskfinds0d-20",
     description: "Similar large writing area to the Tankee pick above at a lower price, useful for scratch-heavy sections without the higher cost.",
-    specs: ["16 x 12 in, double-sided, magnetic", "1,356 reviews at 4.6 stars"],
+    specs: ["16 x 12 in, double-sided, magnetic"],
     pros: ["Large writing area at a lower price than the Tankee equivalent"],
     cons: ["Larger footprint may need repositioning for camera visibility"],
     bestFor: "Budget-focused test-takers who still want ample scratch space.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "No claim of official ETS approval", description: "We did not claim any specific product is officially approved - we directed readers to verify current ETS rules directly, since testing policies can change." },
   { title: "Camera visibility and desk footprint", description: "We noted where a compact size fits more easily within typical webcam framing versus larger boards that may need repositioning." },
   { title: "Erase speed for time-pressured test scenarios", description: "We favored glass and magnetic surfaces that erase quickly and completely, relevant for showing an erased board to a proctor under time pressure." },
-  { title: "Review volume across board sizes", description: "We compared review evidence across both compact and larger board options, since test-takers have different scratch-space needs by section type." },
+  { title: "Review volume across board sizes", description: "We compared review evidence across both compact and larger board options, since test-takers have different scratch-space needs by section type." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -151,11 +151,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "TSJ OFFICE Small Desktop Whiteboard",
-        "text": "Test-takers who want minimal desk clutter during the exam. At $16.99, it's the lowest-cost pick in this comparison."
+        "text": "Test-takers who want minimal desk clutter during the exam. At under $20, it's the lowest-cost pick in this comparison."
       },
       {
         "label": "Small Desktop Glass Whiteboard Dry-Erase-Board",
-        "text": "Test-takers who want the most proven compact glass board. At $27.99, it sits at the higher end of this comparison's price range."
+        "text": "Test-takers who want the most proven compact glass board. At under $30, it sits at the higher end of this comparison's price range."
       }
     ],
     "note": "Most buyers should default to TSJ OFFICE Small Desktop Whiteboard unless best overall specifically applies to your situation."
@@ -208,7 +208,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "Test-takers who want minimal desk clutter during the exam."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -216,7 +216,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   { criterion: "Match board size to your section needs", explanation: "Quantitative-heavy sections may benefit from more scratch space (16x12 in); a compact board (8x6 in) keeps desk clutter minimal." },
   { criterion: "Check webcam framing with your specific desk setup", explanation: "A larger board may need repositioning to stay within camera view during a proctored exam - test this before your actual test date." },
   { criterion: "Prioritize fast, complete erasing", explanation: "You may need to show the board erased to a proctor quickly - glass and magnetic surfaces generally erase more cleanly than melamine." },
-  { criterion: "Use review volume as evidence of build reliability", explanation: "A large, established review base is useful evidence a board holds up to repeated writing and erasing during test preparation." },
+  { criterion: "Use review volume as evidence of build reliability", explanation: "A large, established review base is useful evidence a board holds up to repeated writing and erasing during test preparation." }
 ];
 
 export const faq: FaqItem[] = [
@@ -225,11 +225,11 @@ export const faq: FaqItem[] = [
   { q: "Do I need to show the board to the proctor?", a: "At-home testing generally requires showing the board before and after erasing, but confirm current specific requirements directly with ETS." },
   { q: "What's the most compact option?", a: "The TSJ OFFICE 8x6 glass board, useful for minimizing desk clutter." },
   { q: "Is this guide the same for both GRE and TOEFL?", a: "Both exams have similar at-home erasable-whiteboard allowances as of our research, but verify each exam's specific current rules separately since they can differ." },
-  { q: "Which pick in this comparison offers the most writing area for the price?", a: "Test-takers who want the most proven compact glass board." },
+  { q: "Which pick in this comparison offers the most writing area for the price?", a: "Test-takers who want the most proven compact glass board." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-compact-desktop-whiteboards", title: "Best Compact Desktop Whiteboards (2026)" },
   { href: "/guide/best-desktop-whiteboards", title: "Best Desktop Whiteboards (2026)" },
-  { href: "/guide/best-desktop-whiteboards-for-students", title: "Best Desktop Whiteboards for Students (2026)" },
+  { href: "/guide/best-desktop-whiteboards-for-students", title: "Best Desktop Whiteboards for Students (2026)" }
 ];

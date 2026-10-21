@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $197.99",
+          "Under $200",
           "Tribesigns 63-Inch U-Shaped Reception Desk with Private Panel"
         ],
         [
-          "Around $205.99",
+          "Under $250",
           "LITTLE TREE 57-Inch Boho Reception Counter"
         ],
         [
-          "Around $259.99",
+          "Under $300",
           "LEEMTORIG Vintage Solid Wood Writing Desk"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "LEEMTORIG Vintage Solid Wood Writing Desk with Drawers"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "LEEMTORIG Vintage Solid Wood Writing Desk with Drawers is aimed at buyers prioritizing 46\"w x 21.6\"d solid rubber wood top." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "LEEMTORIG Vintage Solid Wood Writing Desk with Drawers is aimed at buyers prioritizing 46\"w x 21.6\"d solid rubber wood top." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-antique-reception-desks","title":"best-antique-reception-desks"},{"href":"/guide/best-wood-reception-desks","title":"best-wood-reception-desks"},{"href":"/guide/best-vintage-hotel-reception-desks","title":"best-vintage-hotel-reception-desks"}];

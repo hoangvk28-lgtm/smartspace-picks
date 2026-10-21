@@ -5,7 +5,7 @@ export const metaDescription = "4 Thunderbolt and USB4 portable SSDs we evaluate
 export const mainKeyword = "best thunderbolt portable ssd";
 export const introParagraphs = [
   "Thunderbolt's theoretical bandwidth, 40 to 80Gbps depending on generation, often exceeds what a portable drive's actual NAND and controller can saturate, so many drives labeled 'Thunderbolt' do not fully use the interface's theoretical maximum in practice.",
-  "USB4 is Thunderbolt-compatible but not strictly identical, and the two drives here rated for USB4 rather than certified Thunderbolt are worth understanding on their own terms rather than assuming they behave exactly like a Thunderbolt-certified drive in every scenario.",
+  "USB4 is Thunderbolt-compatible but not strictly identical, and the two drives here rated for USB4 rather than certified Thunderbolt are worth understanding on their own terms rather than assuming they behave exactly like a Thunderbolt-certified drive in every scenario."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best True Thunderbolt 5 Pick",
     name: "SABRENT Rocket XTRM 5 2TB Thunderbolt 5 Portable SSD, 80Gbps Connection, Up to 64Gbps Transfer, Compatible with TB4 TB3 USB4 USB 3.2, Rugged Aluminum and Silicone",
     price: "$399.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "30 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Kx15NoFzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F7NZJ1SK?tag=deskfinds0d-20",
     description: "SABRENT's Rocket XTRM 5 is genuinely certified for Thunderbolt 5, rated up to 64Gbps transfer over an 80Gbps connection, with backward compatibility to Thunderbolt 4, Thunderbolt 3, and USB4.\n\nIt earns the top spot in this comparison over Corsair EX400U 2TB USB4 Portable External Type-C SSD for one main reason. Genuinely certified Thunderbolt 5 with broad backward compatibility. On price, it comes in below Corsair EX400U 2TB USB4 Portable External Type-C SSD, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Highest real-world ceiling in this comparison. On the other side, Premium price reflecting the top interface tier. That's the main tradeoff to weigh against everything above.",
@@ -41,14 +41,14 @@ export const products: GuideProduct[] = [
     badge: "Best Thunderbolt 4 Pick",
     name: "Corsair EX400U 2TB USB4 Portable External Type-C SSD - Up to 4,000MB/s Read, 3,600MB/s Write, Thunderbolt 4, MagSafe, Includes 40Gbps Cable - Gray",
     price: "$399.99",
-    rating: "4.1 stars from Amazon ratings",
-    reviews: "382 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21F-0rmbcOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DR381N86?tag=deskfinds0d-20",
-    description: "Corsair's EX400U 2TB is explicitly rated for Thunderbolt 4 compatibility alongside USB4, rated up to 4000MB/s read, and includes a properly certified 40Gbps cable.\n\nOne spot below SABRENT Rocket XTRM 5 2TB Thunderbolt 5 Portable SSD in this ranking, it costs more than SABRENT Rocket XTRM 5 2TB Thunderbolt 5 Portable SSD. The compromise here is straightforward: More moderate 4.1-star rating, worth checking current reviews. What you gain in return: Thunderbolt 4 certification guarantees a minimum bandwidth standard. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Includes a properly certified cable, avoiding a common bottleneck. On the other side, Premium price versus plain USB 3.2 Gen 2 drives. That's the main tradeoff to weigh against everything above.",
+    description: "Corsair's EX400U 2TB is explicitly rated for Thunderbolt 4 compatibility alongside USB4, rated up to 4000MB/s read, and includes a properly certified 40Gbps cable.\n\nOne spot below SABRENT Rocket XTRM 5 2TB Thunderbolt 5 Portable SSD in this ranking, it costs more than SABRENT Rocket XTRM 5 2TB Thunderbolt 5 Portable SSD. What you gain in return: Thunderbolt 4 certification guarantees a minimum bandwidth standard. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Includes a properly certified cable, avoiding a common bottleneck. On the other side, Premium price versus plain USB 3.2 Gen 2 drives. That's the main tradeoff to weigh against everything above.",
     specs: ["2TB capacity","Thunderbolt 4 compatible, USB4","Up to 4000MB/s read rated","Includes certified 40Gbps cable"],
     pros: ["Thunderbolt 4 certification guarantees a minimum bandwidth standard","Includes a properly certified cable, avoiding a common bottleneck","MagSafe compatibility adds real convenience","Strong ceiling for demanding, high-capacity transfers"],
-    cons: ["More moderate 4.1-star rating, worth checking current reviews","Needs a genuine Thunderbolt or USB4 host port","Premium price versus plain USB 3.2 Gen 2 drives"],
+    cons: ["Needs a genuine Thunderbolt or USB4 host port","Premium price versus plain USB 3.2 Gen 2 drives"],
     bestFor: "Buyers who want certified Thunderbolt 4 consistency across different laptops",
   },
   {
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best USB4 Pick (Thunderbolt-Compatible, Not Certified)",
     name: "Corsair EX400U Survivor 1TB USB4 External SSD - Up to 4000 MB/s, IP55 Rugged Drive, Plug & Play for PC, Mac & iPad - Black",
     price: "$238.58",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "60 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21K3rg5MWlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVMGFPHT?tag=deskfinds0d-20",
     description: "Corsair's EX400U Survivor 1TB is rated for USB4, which is genuinely Thunderbolt-compatible but not identically certified, worth understanding as a real distinction rather than treating USB4 and Thunderbolt as interchangeable labels.\n\nSitting just under Corsair EX400U 2TB USB4 Portable External Type-C SSD, it's priced lower than Corsair EX400U 2TB USB4 Portable External Type-C SSD. Here's the honest tradeoff: Not formally Thunderbolt-certified, a real distinction from the labeled Thunderbolt picks. And here's what it gets you instead: Thunderbolt-compatible speed at a lower price than certified drives. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: IP55 rating adds real everyday durability. On the other side, Smaller review base than mainstream picks. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best USB4 Value Pick",
     name: "Corsair EX400U Survivor 2TB USB4 External SSD - Up to 4000 MB/s, IP55 Rugged Drive, Plug & Play for PC, Mac & iPad - Black",
     price: "$429.99",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "60 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21K3rg5MWlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVMLZJ1D?tag=deskfinds0d-20",
     description: "Corsair's EX400U Survivor 2TB scales the same USB4, Thunderbolt-compatible bridge to a larger capacity, useful for buyers who want both real speed and a bigger library without the premium of certified Thunderbolt branding.\n\nRanked just behind Corsair EX400U Survivor 1TB USB4 External SSD, it costs more than Corsair EX400U Survivor 1TB USB4 External SSD. The real tradeoff against that pick: Not formally Thunderbolt-certified. In exchange, it offers this instead: Thunderbolt-compatible speed at a larger 2TB capacity. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: IP55 rating adds real everyday durability. On the other side, Smaller review base than mainstream picks. That's the main tradeoff to weigh against everything above.",

@@ -129,20 +129,20 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $939.99",
+          "Under $950",
           "XPPen Artist Pro 24 Gen2"
         ],
         [
-          "Around $1,299.95",
+          "Under $1,300",
           "Wacom Cintiq 24"
         ],
         [
-          "Around $1,499.95",
+          "Under $1,500",
           "Wacom Cintiq 24 Touch"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -190,7 +190,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Wacom Cintiq 24 is aimed at buyers prioritizing 23.8in qhd (2560x1440), pro pen 3." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Wacom Cintiq 24 is aimed at buyers prioritizing 23.8in qhd (2560x1440), pro pen 3." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-16-inch-drawing-tablets","title":"Best 16-Inch Drawing Tablets in 2026"},{"href":"/guide/best-22-inch-drawing-tablets","title":"Best 22-Inch Drawing Tablets in 2026"},{"href":"/guide/best-13-inch-drawing-tablets","title":"Best 13-Inch Drawing Tablets in 2026"}];

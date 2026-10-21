@@ -5,7 +5,7 @@ export const metaDescription = "5 air purifiers we evaluated for allergies, with
 export const mainKeyword = "air purifier for allergies";
 export const introParagraphs = [
   "Allergist-recommended guidance specifies 4-5 air changes per hour (ACH) for meaningful allergy symptom relief, a specific, checkable target that almost no consumer air purifier marketing states, verify a unit's real ACH against your room size to confirm it meets this threshold.",
-  "Some allergy sufferers are also sensitive to ozone byproduct from ionizer-equipped units, creating a real risk that an allergy purifier with an ionizer feature could exacerbate respiratory symptoms rather than help.",
+  "Some allergy sufferers are also sensitive to ozone byproduct from ionizer-equipped units, creating a real risk that an allergy purifier with an ionizer feature could exacerbate respiratory symptoms rather than help."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Air Purifier for Allergies Overall",
     name: "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom, H13 True HEPA Filter, 24db Filtration System Cleaner Odor Eliminators, Remove 99.97% Dust Smoke Mold Pollen, Core 300, White",
     price: "$89.99",
-    rating: "4.7 stars from 108,251 Amazon ratings",
-    reviews: "108,251 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Established Brand Allergy Pick",
     name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
-    rating: "4.6 stars from 28,866 Amazon ratings",
-    reviews: "28,866 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419pAe7T0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTKAPUU?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Smart Pick for Seasonal Adjustment",
     name: "LEVOIT Smart Air Purifier for Home Large Room up to 1875 ft Vital 200S-P",
     price: "$174.99",
-    rating: "4.7 stars from 14,571 Amazon ratings",
-    reviews: "14,571 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best White Finish Alternative",
     name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH(W), White",
     price: "$229.99",
-    rating: "4.6 stars from 28,866 Amazon ratings",
-    reviews: "28,866 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31pCHKKqN2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01728NLRG?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Allergy Pick",
     name: "Membrane Solutions MSA3 Air Purifier for Home",
     price: "$99.39",
-    rating: "4.5 stars from 10,110 Amazon ratings",
-    reviews: "10,110 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31CcBFzC6wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08ND7C7P4?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["More affordable than premium alternatives", "Solid review base", "Compact design", "Reasonable performance for the price"],
     cons: ["Verify certified True HEPA vs. HEPA-type claim for dander capture", "No 4-5 ACH target verification available", "No smart features"],
     bestFor: "Budget-conscious allergy sufferers who will verify HEPA certification specifics",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Explicit 4-5 ACH target verification against room size", description: "Emphasized verifying a unit's real air-changes-per-hour against room size for allergist-recommended effectiveness, a specific, checkable target that almost no consumer marketing states directly." },
   { title: "Ozone-byproduct risk flagged specifically for allergy-sensitive buyers", description: "Noted that some allergy sufferers are also sensitive to ozone byproduct from ionizer-equipped units, creating a real risk that an ionizer feature could exacerbate respiratory symptoms." },
-  { title: "Seasonal ACH-need adjustment guidance for peak pollen periods", description: "Provided guidance for seasonal allergy sufferers who may need higher ACH during specific pollen seasons than year-round, since a unit sized for average need may underperform during peak weeks." },
+  { title: "Seasonal ACH-need adjustment guidance for peak pollen periods", description: "Provided guidance for seasonal allergy sufferers who may need higher ACH during specific pollen seasons than year-round, since a unit sized for average need may underperform during peak weeks." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Do I need a bigger air purifier during allergy season?", a: "Possibly. Seasonal allergy sufferers may need higher ACH during specific pollen seasons than year-round, a unit sized for average need may underperform during peak weeks, consider extra headroom or smart scheduling." },
   { q: "Does air purifier placement matter for allergy relief?", a: "Yes. Allergens like dust mite debris and pet dander settle on surfaces and are only recirculated into the air by disturbance, walking, cleaning, purifier placement and timing relative to cleaning activity affects real exposure reduction." },
   { q: "Will an air purifier eliminate allergy symptoms completely?", a: "No, it reduces airborne allergen load but doesn't address allergens already settled on surfaces, bedding, or carpets, regular cleaning alongside filtration gives more complete symptom relief than either alone." },
-  { q: "Is a true HEPA filter necessary for allergy relief, or does HEPA-type work too?", a: "True HEPA is the meaningful distinction, it captures 99.97% of particles at 0.3 microns under a tested standard, while HEPA-type or HEPA-like filters aren't held to that same verified performance threshold." },
+  { q: "Is a true HEPA filter necessary for allergy relief, or does HEPA-type work too?", a: "True HEPA is the meaningful distinction, it captures 99.97% of particles at 0.3 microns under a tested standard, while HEPA-type or HEPA-like filters aren't held to that same verified performance threshold." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-hepa-air-purifiers", title: "Best HEPA Air Purifiers (2026)" },
   { href: "/guide/best-ozone-free-air-purifiers", title: "Best Ozone-Free Air Purifiers (2026)" },
-  { href: "/guide/best-air-purifiers-for-dust", title: "Best Air Purifiers for Dust (2026)" },
+  { href: "/guide/best-air-purifiers-for-dust", title: "Best Air Purifiers for Dust (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "hanging file organizers for desks";
 export const introParagraphs = [
   "This is a more specific use case than our general hanging desk organizers guide: dedicated hanging file or folder storage. We verified letter versus legal size folder compatibility explicitly, since this varies by product and represents a genuinely different internal dimension requirement.",
-  "We also checked folder tab visibility and labeling accessibility, a real filing-system usability factor beyond simply holding the folders.",
+  "We also checked folder tab visibility and labeling accessibility, a real filing-system usability factor beyond simply holding the folders."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -104,7 +104,7 @@ export const products: GuideProduct[] = [
     pros: ["No drilling or clamping required at all", "Letter size compatibility confirmed", "Multiple compartments for mixed storage", "Good rating"],
     cons: ["Consumes desk surface footprint", "Not legal-size compatible", "Smaller capacity than dedicated wall organizers"],
     bestFor: "Buyers with letter-size documents who want zero-mounting hanging file storage.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Letter vs. legal size folder compatibility", description: "We checked whether each organizer's internal dimensions explicitly accommodate letter, legal, or both folder sizes." },
   { title: "Realistic loaded weight capacity", description: "We verified capacity claims against a realistically loaded set of hanging file folders, which can be substantial with paper documents." },
   { title: "Folder tab visibility and labeling accessibility", description: "We favored mesh or open designs that let you read folder tabs without pulling files out, a genuine filing-system usability factor." },
-  { title: "Attachment method disclosure", description: "We clearly noted whether each pick requires wall drilling, hangs from a desk edge, or sits freestanding on the desk surface." },
+  { title: "Attachment method disclosure", description: "We clearly noted whether each pick requires wall drilling, hangs from a desk edge, or sits freestanding on the desk surface." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -240,11 +240,11 @@ export const faq: FaqItem[] = [
   { q: "How much weight can a hanging file organizer hold?", a: "This depends heavily on the specific design and mounting method. Metal wall-mounted organizers with stud mounting generally handle a full load of hanging file folders well; verify the specific product's rated capacity." },
   { q: "Can I see folder labels without pulling files out?", a: "The Simple Trending mesh design offers the best tab visibility in this comparison, letting you scan labels at a glance through the open mesh construction." },
   { q: "Is there a no-drill option for hanging file storage?", a: "Yes, the Safco Onyx hangs from a desk edge without drilling, and the Mind Reader Desktop Organizer requires no mounting at all, sitting freestanding on your desk surface." },
-  { q: "Should I get a hanging organizer or a portable file box instead?", a: "If your filing needs involve transport between locations rather than permanent desk-area storage, a portable file box from our dedicated guides may better serve you." },
+  { q: "Should I get a hanging organizer or a portable file box instead?", a: "If your filing needs involve transport between locations rather than permanent desk-area storage, a portable file box from our dedicated guides may better serve you." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-hanging-desk-organizers", title: "Best Hanging Desk Organizers (2026)" },
   { href: "/guide/best-desktop-hanging-file-organizers", title: "Best Desktop Hanging File Organizers (2026)" },
-  { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" },
+  { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" }
 ];

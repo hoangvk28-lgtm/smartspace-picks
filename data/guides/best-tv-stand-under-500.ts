@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Genuine large-room heating capability", "OKD 70\" Fireplace TV Stand, Thick Block Media Console"],
         ["The largest fireplace insert plus drawer storage", "PRAISUN 70'' Fireplace TV Stand with 42'' Electric Fireplace"],
-        ["Core fireplace features while saving significantly", "AMERLIFE 70\" Fluted Fireplace TV Stand"],
+        ["Core fireplace features while saving significantly", "AMERLIFE 70\" Fluted Fireplace TV Stand"]
       ],
     },
   },
@@ -116,9 +116,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $190", "YESHOMY 58\" Fireplace TV Stand ($188.99)"],
-        ["Under $250", "AMERLIFE 70\" Fluted Fireplace ($249.99)"],
-        ["Under $400", "OKD 70\" Fireplace ($399.99) or PRAISUN 70'' Fireplace ($399.99)"],
+        ["Under $190", "YESHOMY 58\" Fireplace TV Stand (under $190)"],
+        ["Under $250", "AMERLIFE 70\" Fluted Fireplace (under $250)"],
+        ["Under $400", "OKD 70\" Fireplace (under $400) or PRAISUN 70'' Fireplace (under $400)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Open Cabinets vs Storage Drawers",
     cards: [
       { label: "Open Cabinets and Shelves (OKD, AMERLIFE, YESHOMY)", text: "Keeps media equipment visible and easily accessible, better suited to devices you access frequently like a game console or streaming box." },
-      { label: "Storage Drawers (PRAISUN)", text: "Fully conceals smaller items like remotes, chargers, and cables behind smooth-gliding drawers, better suited to keeping small clutter out of sight entirely." },
+      { label: "Storage Drawers (PRAISUN)", text: "Fully conceals smaller items like remotes, chargers, and cables behind smooth-gliding drawers, better suited to keeping small clutter out of sight entirely." }
     ],
     note: "If you frequently swap cables or access your media devices, open cabinets are more convenient. If you want small items like remotes fully hidden, PRAISUN's drawer design is the better fit.",
   },
@@ -136,7 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your room size", "Recommended pick"],
       rows: [
         ["Large room needing real supplemental heat (up to 1,000 sq. ft.)", "OKD 70\" Fireplace TV Stand (5,000 BTU rated)"],
-        ["Smaller room or mainly ambiance-focused use", "AMERLIFE 70\" Fluted Fireplace or YESHOMY 58\" Fireplace"],
+        ["Smaller room or mainly ambiance-focused use", "AMERLIFE 70\" Fluted Fireplace or YESHOMY 58\" Fireplace"]
       ],
     },
   },
@@ -144,16 +144,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Households With Young Children Specifically",
     cards: [
       { label: "Look for", text: "A specific child-safety heat lock or turn-off function, beyond basic overheat protection, that lets you disable the heating element entirely while keeping the flame display active." },
-      { label: "In this comparison", text: "The PRAISUN 70'' Fireplace TV Stand specifically states a lock or turn-off heat function for peace of mind around kids or pets." },
+      { label: "In this comparison", text: "The PRAISUN 70'' Fireplace TV Stand specifically states a lock or turn-off heat function for peace of mind around kids or pets." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You need genuine large-room heating or the largest fireplace insert with drawer storage, where the OKD and PRAISUN picks lead this comparison respectively." },
-      { label: "Save if", text: "Core fireplace ambiance and storage cover your needs, where the AMERLIFE or YESHOMY picks deliver genuine fireplace functionality for $150-210 less." },
+      { label: "Save if", text: "Core fireplace ambiance and storage cover your needs, where the AMERLIFE or YESHOMY picks deliver genuine fireplace functionality for $150-210 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -175,7 +175,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Two Picks at an Identical Price Can Differ Substantially in Which Specific Features They Prioritize",
-    "explanation": "The OKD and PRAISUN picks in this comparison are both priced at $399.99 but differ meaningfully, OKD prioritizes maximum BTU heating output and a larger stated coverage area, while PRAISUN prioritizes the largest fireplace insert size and drawer-based storage. When two options land at the same price point, look past the shared price tag to compare which specific features each one actually prioritizes against your own real needs."
+    "explanation": "The OKD and PRAISUN picks in this comparison are both priced under $400 but differ meaningfully, OKD prioritizes maximum BTU heating output and a larger stated coverage area, while PRAISUN prioritizes the largest fireplace insert size and drawer-based storage. When two options land at the same price point, look past the shared price tag to compare which specific features each one actually prioritizes against your own real needs."
   }
 ];
 

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "white standing desk converter";
 export const introParagraphs = [
   "White is primarily a finish option rather than a distinct product category, so we only included converters where white is explicitly confirmed in the current listing rather than assuming any popular converter comes in this color.",
-  "This is a genuinely narrower selection than the full converter market, since most current listings default to black.",
+  "This is a genuinely narrower selection than the full converter market, since most current listings default to black."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required explicit white confirmation in the product listing", description: "We prioritized products with \"white\" directly stated in the title, rather than assuming any popular converter comes in this finish." },
   { title: "Flagged where a same-model listing's confirmed color needs live verification", description: "For one pick, our data confirmed black rather than white for a specific ASIN sharing a base model with a confirmed white variant; we disclosed this rather than guessing." },
   { title: "Compared price between color variants of the same base model where possible", description: "We noted where a white variant's price differs from its black counterpart at the same platform size." },
-  { title: "Covered a range of sizes within the confirmed white product pool", description: "We included compact, standard, corner, and large white options rather than only the most common size." },
+  { title: "Covered a range of sizes within the confirmed white product pool", description: "We included compact, standard, corner, and large white options rather than only the most common size." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -238,20 +238,20 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
 export const faq: FaqItem[] = [
   { q: "Which white converter has the most reviews?", a: "The VIVO White 42 in Standing Desk Converter, sharing VIVO's large K Series review pool of 15,583." },
-  { q: "What's the cheapest confirmed white converter?", a: "The Aconcept Extra-Slim White Lift Standing Desk Converter at $49.99." },
+  { q: "What's the cheapest confirmed white converter?", a: "The Aconcept Extra-Slim White Lift Standing Desk Converter at under $50." },
   { q: "Is there a white corner desk converter?", a: "Yes, the Aconcept 32 inch White Corner Height Adjustable Standing Desk Converter." },
   { q: "What's the largest confirmed white platform?", a: "The VIVO White 48 in Standing Desk Converter, at 48 inches." },
-  { q: "What if white isn't available when I check?", a: "Color inventory shifts over time; check the current listing or consider our general standing desk converter guide for proven alternatives in other colors." },
+  { q: "What if white isn't available when I check?", a: "Color inventory shifts over time; check the current listing or consider our general standing desk converter guide for proven alternatives in other colors." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-black-standing-desk-converters", title: "Best Black Standing Desk Converters (2026)" },
   { href: "/guide/best-corner-standing-desk-converters", title: "Best Corner Standing Desk Converters (2026)" },
-  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
+  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" }
 ];

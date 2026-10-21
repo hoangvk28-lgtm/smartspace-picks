@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "standing desk converters under $100";
 export const introParagraphs = [
   "We applied a strict $100 price ceiling to the base converter itself, since prices shift over time, always verify the current listing price directly before ordering.",
-  "Even at this ceiling, we required a meaningful review history and a reasonable rating, rejecting the absolute cheapest unproven listings that don't demonstrate real buyer satisfaction.",
+  "Even at this ceiling, we required a meaningful review history and a reasonable rating, rejecting the absolute cheapest unproven listings that don't demonstrate real buyer satisfaction."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -80,7 +80,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B08GKXXT22?tag=deskfinds0d-20",
     description: "A genuinely slim design confirmed right at a competitive price, with a strong review base for this specific low-profile design. Ranked just behind VIVO Black 28 in Standing Desk Converter, it costs more than VIVO Black 28 in Standing Desk Converter. The real tradeoff against that pick: Compact platform, limited surface for multiple devices. In exchange, it offers this instead: Confirmed right at a competitive price, strong review base for a slim design. That's the swap that decides whether this pick or the one above it is the better fit for your desk. Worth knowing before you decide: Confirmed right at a competitive price, strong review base for a slim design. On the other side, Compact platform, limited surface for multiple devices. That's the main tradeoff to weigh against everything above.",
     specs: ["Ultra-slim single-top compact design"],
-    pros: ["Confirmed right at $99.99, strong review base for a slim design"],
+    pros: ["Confirmed right at under $100, strong review base for a slim design"],
     cons: ["Compact platform, limited surface for multiple devices"],
     bestFor: "Budget-focused buyers who specifically want a thin-profile design under $100.",
   },
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Applied a strict $100 price ceiling with live-check disclosure", description: "We flagged where a pick was slightly at a premium price at research time, since sale pricing and inventory shift regularly." },
   { title: "Required a minimum quality bar even at this strict price ceiling", description: "We rejected unproven listings with minimal reviews or low ratings, since the cheapest price isn't a genuine value without evidence of real-world reliability." },
   { title: "Distinguished confirmed under-$100 pricing from picks worth checking for sales", description: "We noted which picks are firmly confirmed under the ceiling versus which are worth watching for promotional pricing." },
-  { title: "Weighed review volume as the primary differentiator among similarly priced options", description: "Several picks cluster at exactly a competitive price; we compared their review volume and rating to differentiate them." },
+  { title: "Weighed review volume as the primary differentiator among similarly priced options", description: "Several picks cluster at exactly a competitive price; we compared their review volume and rating to differentiate them." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -254,20 +254,20 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
 export const faq: FaqItem[] = [
   { q: "What's the best value converter under $100?", a: "The VIVO Black 28 in Standing Desk Converter, with the largest review base and highest rating among confirmed under-$100 options." },
-  { q: "What's the cheapest converter overall?", a: "The Aconcept Extra-Slim 24 x 14 inch Standing Desk Converter at $49.99." },
-  { q: "Is the most-reviewed converter under $100?", a: "It's priced marginally above at research time ($107.99); check the current listing since pricing fluctuates." },
-  { q: "Are there multiple options at exactly $99.99?", a: "Yes, several VIVO models cluster at this price; we compared review volume and rating to differentiate them." },
-  { q: "Should I trust the cheapest option's quality?", a: "We required a minimum review history and rating for inclusion even at the lowest prices, but weigh the smaller review base of the cheapest pick against the more established alternatives." },
+  { q: "What's the cheapest converter overall?", a: "The Aconcept Extra-Slim 24 x 14 inch Standing Desk Converter at under $50." },
+  { q: "Is the most-reviewed converter under $100?", a: "It's priced marginally above at research time (under $110); check the current listing since pricing fluctuates." },
+  { q: "Are there multiple options at exactly under $100?", a: "Yes, several VIVO models cluster at this price; we compared review volume and rating to differentiate them." },
+  { q: "Should I trust the cheapest option's quality?", a: "We required a minimum review history and rating for inclusion even at the lowest prices, but weigh the smaller review base of the cheapest pick against the more established alternatives." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-budget-standing-desk-converters", title: "Best Budget Standing Desk Converters (2026)" },
   { href: "/guide/best-compact-standing-desk-converters", title: "Best Compact Standing Desk Converters (2026)" },
-  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
+  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" }
 ];

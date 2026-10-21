@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["The broadest USB port variety at the lowest price", "Hearvo USB 3.0 HDMI KVM Switch S7232H"],
         ["An established, travel-friendly brand", "IOGEAR 2-Port Full HD KVM Switch (GCS32HU)"],
-        ["A hybrid USB-C MacBook + HDMI desktop setup", "MT-VIKI 4K Hybrid Type USB-C HDMI KVM Switch"],
+        ["A hybrid USB-C MacBook + HDMI desktop setup", "MT-VIKI 4K Hybrid Type USB-C HDMI KVM Switch"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $40", "Hearvo S7232H ($34.99) or IOGEAR GCS32HU ($39.99)"],
-        ["$45-$52", "MT-VIKI Hybrid ($45.99) or Cable Matters Dual USB-C ($51.99)"],
+        ["Under $40", "Hearvo S7232H (under $35) or IOGEAR GCS32HU (under $40)"],
+        ["$45-$52", "MT-VIKI Hybrid (under $50) or Cable Matters Dual USB-C (under $60)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Hybrid USB-C+HDMI vs Dual USB-C Only",
     cards: [
       { label: "Hybrid (MT-VIKI)", text: "Accepts one USB-C laptop and one HDMI desktop simultaneously, solving a genuinely common mixed-setup problem, with 65W charging included." },
-      { label: "Dual USB-C Only (Cable Matters)", text: "Requires both connected devices to be USB-C laptops with DisplayPort Alt Mode support, delivering dual extended 4K displays but no charging." },
+      { label: "Dual USB-C Only (Cable Matters)", text: "Requires both connected devices to be USB-C laptops with DisplayPort Alt Mode support, delivering dual extended 4K displays but no charging." }
     ],
     note: "Choose based on your actual computer types: a mixed MacBook-and-desktop setup needs the hybrid design, while two modern USB-C laptops benefit more from the dual-display Cable Matters pick.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your resolution requirement", "Recommended pick"],
       rows: [
         ["Genuine 4K@60Hz support", "Hearvo S7232H, MT-VIKI Hybrid, or Cable Matters Dual USB-C"],
-        ["Standard 1080p/1920x1200 is sufficient", "IOGEAR 2-Port Full HD KVM Switch"],
+        ["Standard 1080p/1920x1200 is sufficient", "IOGEAR 2-Port Full HD KVM Switch"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a MacBook and Desktop PC Setup Specifically",
     cards: [
       { label: "Look for", text: "A hybrid switch accepting both USB-C and HDMI inputs simultaneously, since a MacBook and desktop typically use different connection types." },
-      { label: "In this comparison", text: "The MT-VIKI 4K Hybrid Type USB-C HDMI KVM Switch is specifically designed for exactly this MacBook-plus-desktop combination." },
+      { label: "In this comparison", text: "The MT-VIKI 4K Hybrid Type USB-C HDMI KVM Switch is specifically designed for exactly this MacBook-plus-desktop combination." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You have two modern USB-C laptops and want genuine dual extended 4K displays, where the Cable Matters pick delivers this specific capability." },
-      { label: "Save if", text: "A standard HDMI-only setup with broad USB compatibility covers your needs, where the Hearvo S7232H offers the most USB ports at the lowest price here." },
+      { label: "Save if", text: "A standard HDMI-only setup with broad USB compatibility covers your needs, where the Hearvo S7232H offers the most USB ports at the lowest price here." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This extender's listing specifically states an IP55 waterproof housing with reliable surge protection for genuinely outdoor use, delivering 2.5Gbps adaptive speed alongside 90W PoE++ input split into 30W PoE+ output per port. Its 3-level cascade support reaches up to 1312ft total distance while maintaining VLAN isolation across all three output ports.\n\nCompared to the DIN-rail and Ztyuav picks below, this one's IP55 outdoor rating makes it the only genuinely weatherproof pick in this comparison, suited for outdoor WiFi bridges and security surveillance deployments that need multi-gig speed.\n\nBest for buyers who need genuine outdoor waterproofing alongside 2.5Gbps speed and VLAN isolation.",
     specs: ["IP55 waterproof, 2.5Gbps adaptive speed", "90W PoE++ input, 30W PoE+ output per port", "VLAN isolation, 3-level cascade to 1312ft"],
     pros: ["Only genuinely outdoor-rated pick in this comparison at IP55", "VLAN isolation on all three output ports improves security", "Longest documented cascade distance at up to 1312ft"],
-    cons: ["Highest price in this comparison at $42.98", "30W per-port output ceiling matches the other picks despite the higher price"],
+    cons: ["Highest price in this comparison at under $45", "30W per-port output ceiling matches the other picks despite the higher price"],
     bestFor: "buyers who need genuine outdoor waterproofing alongside 2.5Gbps speed",
   },
   {
@@ -77,7 +77,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0H2LWZR2Z?tag=deskfinds0d-20",
     description: "This extender's listing specifically states desktop, DIN-rail, or wall mount flexibility in a sturdy ABS polymer casing, at the lowest price in this comparison while still delivering the same 90W PoE++ input and 2.5Gbps adaptive speed as the pricier picks. Its One Key VLAN mode isolates output ports 2 through 4 from each other when enabled via dipswitch.\n\nCompared to the outdoor-rated Ztyuav pick above, this one omits the IP55 waterproof rating in favor of the lowest price in this comparison, a reasonable tradeoff for a purely indoor 2.5GbE deployment.\n\nBest for buyers who want the lowest price for an indoor 2.5GbE deployment with mounting flexibility.",
     specs: ["Desktop, DIN-rail, or wall mount flexibility", "90W PoE++ input, 30W PoE+ output per port", "100/1000/2500Mbps, optional VLAN via dipswitch"],
-    pros: ["Lowest price in this comparison at $34.99", "Same core 2.5Gbps speed and wattage as the pricier picks", "Flexible desktop, DIN-rail, or wall mount options"],
+    pros: ["Lowest price in this comparison at under $35", "Same core 2.5Gbps speed and wattage as the pricier picks", "Flexible desktop, DIN-rail, or wall mount options"],
     cons: ["No IP55 or other stated outdoor waterproof rating", "Total output power is shared at 30W across all ports combined"],
     bestFor: "buyers who want the lowest price for an indoor 2.5GbE deployment",
   }
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Genuine outdoor waterproofing with always-on VLAN isolation", "YuanLey Outdoor 2.5 Gigabit PoE Extender"],
         ["DIN-rail mounting for an indoor industrial installation", "YuanLey 4 Port 2.5G PoE Extender (Mini, DIN-Rail)"],
         ["IP55 outdoor capability with optional VLAN at a lower price", "Ztyuav 4 Port Outdoor 2.5Gbps PoE Extender"],
-        ["The lowest price for an indoor 2.5GbE deployment", "Ztyuav 4 Port 2.5Gbps PoE Extender (DIN-Rail)"],
+        ["The lowest price for an indoor 2.5GbE deployment", "Ztyuav 4 Port 2.5Gbps PoE Extender (DIN-Rail)"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $35", "Ztyuav DIN-Rail pick ($34.99)"],
-        ["Under $36", "Ztyuav Outdoor pick ($35.99)"],
-        ["Under $40", "YuanLey Mini DIN-Rail pick ($39.98)"],
-        ["Under $43", "YuanLey Outdoor pick ($42.98)"],
+        ["Under $35", "Ztyuav DIN-Rail pick (under $35)"],
+        ["Under $36", "Ztyuav Outdoor pick (under $40)"],
+        ["Under $40", "YuanLey Mini DIN-Rail pick (under $40)"],
+        ["Under $43", "YuanLey Outdoor pick (under $45)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Outdoor Waterproofing vs Indoor DIN-Rail Flexibility",
     cards: [
       { label: "Outdoor waterproofing (both YuanLey and Ztyuav Outdoor picks)", text: "IP55-rated housings suit outdoor security cameras, wireless bridges, and exposed installations." },
-      { label: "Indoor DIN-rail flexibility (both DIN-Rail picks)", text: "No specific waterproof rating, but genuine DIN-rail mounting for control cabinets and industrial indoor deployments." },
+      { label: "Indoor DIN-rail flexibility (both DIN-Rail picks)", text: "No specific waterproof rating, but genuine DIN-rail mounting for control cabinets and industrial indoor deployments." }
     ],
     note: "If your installation faces real outdoor weather exposure, choose one of the IP55-rated picks. If you're mounting inside a control cabinet or indoor industrial enclosure, the DIN-rail picks deliver the same core performance at a lower price.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["Always-on VLAN isolation for maximum default security", "YuanLey Outdoor 2.5 Gigabit PoE Extender"],
         ["Optional VLAN toggle to enable only when needed", "Either Ztyuav pick"],
-        ["No specific VLAN preference", "YuanLey Mini DIN-Rail pick (lowest indoor price with VLAN)"],
+        ["No specific VLAN preference", "YuanLey Mini DIN-Rail pick (lowest indoor price with VLAN)"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For a WiFi 6E or WiFi 7 Access Point Deployment Specifically",
     cards: [
       { label: "Look for", text: "A genuine 2.5Gbps-rated extender rather than a standard Gigabit unit, since modern WiFi 6E and WiFi 7 access points can exceed 1Gbps throughput under ideal conditions and benefit from the extra headroom." },
-      { label: "In this comparison", text: "All four picks specifically support 2.5Gbps adaptive speed, making any of them suitable for a multi-gig access point deployment, with the choice coming down to outdoor versus indoor mounting needs." },
+      { label: "In this comparison", text: "All four picks specifically support 2.5Gbps adaptive speed, making any of them suitable for a multi-gig access point deployment, with the choice coming down to outdoor versus indoor mounting needs." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You need genuine outdoor waterproofing with always-on VLAN isolation as a default security posture, where the YuanLey Outdoor pick's $42.98 price is justified by that combination." },
-      { label: "Save if", text: "Your deployment is indoor and you don't need a waterproof rating, where the Ztyuav DIN-Rail pick delivers the same core 2.5Gbps performance for $34.99, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You need genuine outdoor waterproofing with always-on VLAN isolation as a default security posture, where the YuanLey Outdoor pick's under $45 price is justified by that combination." },
+      { label: "Save if", text: "Your deployment is indoor and you don't need a waterproof rating, where the Ztyuav DIN-Rail pick delivers the same core 2.5Gbps performance for under $35, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

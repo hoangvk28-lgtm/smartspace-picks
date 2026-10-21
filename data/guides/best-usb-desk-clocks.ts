@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "usb desk clock";
 export const introParagraphs = [
   "\"USB desk clock\" is genuinely ambiguous, similar to how \"USB whiteboard\" confuses buyers looking for a physical board versus a literal digital device. Here it could mean a clock that runs on USB power, or a clock with a USB port built in for charging your phone. In our verified inventory, we found clocks of the second type, a charging port on the clock, but none that are themselves powered via USB as their primary source.",
-  "To be explicit: both picks below run on mains power or batteries as their main power source, and include a USB port purely as a convenience for charging your own devices. If you specifically want a clock powered by USB itself, that's a different and much smaller subset of listings, so verify power source carefully before assuming any \"USB clock\" listing means that.",
+  "To be explicit: both picks below run on mains power or batteries as their main power source, and include a USB port purely as a convenience for charging your own devices. If you specifically want a clock powered by USB itself, that's a different and much smaller subset of listings, so verify power source carefully before assuming any \"USB clock\" listing means that."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "5 min";
@@ -59,7 +59,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Clarified the naming ambiguity before selecting products", description: "Determined that \"USB desk clock\" most likely means a clock with a USB charging port, not one powered via USB, and stated that distinction upfront, mirroring how we handle similarly ambiguous product category names." },
   { title: "Verified primary power source separately from USB port presence", description: "Checked each listing to confirm the clock's actual power source (mains or battery) rather than assuming a USB port meant USB-powered operation." },
   { title: "Selected picks based on genuine USB charging functionality", description: "Limited this guide to the two clocks in our verified pool that explicitly include a USB charging port, rather than stretching the category to unrelated products." },
-  { title: "Explicitly labeled the port function in every product description", description: "Called out in each pick that the USB port charges your own devices and does not power the clock itself, avoiding any misleading implication." },
+  { title: "Explicitly labeled the port function in every product description", description: "Called out in each pick that the USB port charges your own devices and does not power the clock itself, avoiding any misleading implication." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -193,11 +193,11 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "Do these clocks run on USB power?", a: "No, both picks in this guide are mains powered with battery backup. Their USB ports are for charging your own devices, not for powering the clock itself." },
   { q: "How many USB ports do these clocks have?", a: "The JALL clock has two USB ports, while the DreamSky clock has one. Both charge at standard USB speeds, not fast charging." },
-  { q: "Is a USB desk clock the same as a USB-powered clock?", a: "Not necessarily. Most \"USB desk clock\" listings refer to a charging port on the clock, not the clock's own power source. Check the listing specifics to confirm which type you're buying." },
+  { q: "Is a USB desk clock the same as a USB-powered clock?", a: "Not necessarily. Most \"USB desk clock\" listings refer to a charging port on the clock, not the clock's own power source. Check the listing specifics to confirm which type you're buying." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-wireless-charging-desk-clocks", title: "Best Wireless Charging Desk Clocks (2026)" },
   { href: "/guide/best-led-desk-clocks", title: "Best LED Desk Clocks (2026)" },
-  { href: "/guide/best-large-digital-desk-clocks", title: "Best Large Digital Desk Clocks (2026)" },
+  { href: "/guide/best-large-digital-desk-clocks", title: "Best Large Digital Desk Clocks (2026)" }
 ];

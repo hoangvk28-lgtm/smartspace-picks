@@ -2,11 +2,11 @@ export const guideSlug = "best-nightstand-2-drawer";
 export const guideTitle = "8 Best 2-Drawer Nightstands in 2026";
 export const metaTitle = "Best 2-Drawer Nightstands in 2026 (Certified, LED, and Budget Picks)";
 export const metaDescription =
-  "8 best 2-drawer nightstands in 2026, from a $21.99 budget pick to a certified charging model and a lifetime-warranty set. Compare height, ports, and capacity.";
+  "8 best 2-drawer nightstands in 2026, from an under-$25 budget pick to a certified charging model and a lifetime-warranty set. Compare height, ports, and capacity.";
 export const mainKeyword = "2 drawer nightstand";
 export const introParagraphs = [
   "A 2-drawer nightstand is the most common size for a small bedroom, but that doesn't make every model interchangeable. Height needs to land close to your mattress top, weight capacity varies a lot by material, and any built-in charging feature is only worth trusting if the electrical components carry a real certification.",
-  "Below are 8 2-drawer nightstands we evaluated on height range, drawer capacity, charging port quality, and price, ranging from a $21.99 no-frills pick to a $269.98 mid-century set of two with a lifetime warranty.",
+  "Below are 8 2-drawer nightstands we evaluated on height range, drawer capacity, charging port quality, and price, ranging from an under-$25 no-frills pick to an under-$300 mid-century set of two with a lifetime warranty."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -64,24 +64,24 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/4148oCjs9pL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0953928GW?tag=deskfinds0d-20",
     description:
-      "The WLIVE 2-Drawer is the most reviewed nightstand in this entire niche, with over 21,000 ratings behind its simple MDF and steel-frame build. Two fabric drawers sit above a water-resistant wooden top, and 4 self-leveling feet keep it stable on uneven flooring.\n\nIt skips charging features entirely, which keeps assembly to about 15 minutes and keeps the price low. If you don't need built-in ports, this is the safest choice simply because there's no electrical component to worry about.\n\nNo electrical components to worry about. Set against that, no charging ports at all. Both matter when comparing it to the other picks here.",
+      "Two fabric drawers sit above a water-resistant wooden top, and 4 self-leveling feet keep it stable on uneven flooring.\n\nIt skips charging features entirely, which keeps assembly to about 15 minutes and keeps the price low. If you don't need built-in ports, this is the safest choice simply because there's no electrical component to worry about.\n\nNo electrical components to worry about. Set against that, no charging ports at all. Both matter when comparing it to the other picks here.",
     specs: [
       "15.7\"L x 11.8\"W x 20.9\"H",
       "MDF + steel frame",
       "2 fabric drawers",
       "No charging ports",
-      "Water-resistant wooden top, 4 self-leveling feet, ~15-min assembly",
+      "Water-resistant wooden top, 4 self-leveling feet, ~15-min assembly"
     ],
     pros: [
       "Most-reviewed pick in this entire niche",
       "No electrical components to worry about",
       "Fast ~15-minute assembly",
-      "Self-leveling feet for uneven floors",
+      "Self-leveling feet for uneven floors"
     ],
     cons: [
       "No charging ports at all",
       "20.9\" height suits only low platform beds",
-      "Simple design with fewer features than charging picks",
+      "Simple design with fewer features than charging picks"
     ],
     bestFor: "Buyers who want the most proven, simplest pick with no charging needs",
   },
@@ -96,24 +96,24 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41rJvH8XJkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BS98NNCN?tag=deskfinds0d-20",
     description:
-      "The Yoobure is the only pick in this list with FCC and ETL certification on its charging components, the kind of tested overcurrent and short-circuit protection worth prioritizing on any nightstand you plan to plug in overnight. Engineered wood and a steel frame back a 100 lb capacity rating, the highest among the charging-enabled picks here.\n\nIt includes 2 USB ports and 2 outlets on a 6.5ft cord, and it carries the highest rating in this list at 4.6 stars.\n\nA genuine advantage here is that highest capacity among charging picks at 100 lbs. The tradeoff is pricier than the non-charging budget picks.",
+      "The Yoobure is the only pick in this list with FCC and ETL certification on its charging components, the kind of tested overcurrent and short-circuit protection worth prioritizing on any nightstand you plan to plug in overnight. Engineered wood and a steel frame back a 100 lb capacity rating, the highest among the charging-enabled picks here.\n\nA genuine advantage here is that highest capacity among charging picks at 100 lbs. The tradeoff is pricier than the non-charging budget picks.",
     specs: [
       "15.75\"L x 11.81\"W x 23.62\"H",
       "Engineered wood + steel",
       "2 fabric drawers",
       "2 USB + 2 outlets, 6.5ft cord",
-      "FCC & ETL certified, 100 lb capacity",
+      "FCC & ETL certified, 100 lb capacity"
     ],
     pros: [
       "Only FCC & ETL certified pick in this list",
       "Highest capacity among charging picks at 100 lbs",
       "Highest star rating in this list at 4.6",
-      "Long 6.5ft cord for flexible outlet placement",
+      "Long 6.5ft cord for flexible outlet placement"
     ],
     cons: [
       "Pricier than the non-charging budget picks",
       "23.62\" height suits low to mid-height beds",
-      "Smaller review count than the best-selling pick",
+      "Smaller review count than the best-selling pick"
     ],
     bestFor: "Buyers who want a certified, tested electrical charging nightstand",
   },
@@ -134,18 +134,17 @@ export const products: GuideProduct[] = [
       "P2 particleboard + powder-coated steel",
       "2 fabric drawers",
       "2 AC + 1 USB-A + 1 USB-C",
-      "LED: 60,000 colors, 12 scene modes, music sync, app control",
+      "LED: 60,000 colors, 12 scene modes, music sync, app control"
     ],
     pros: [
       "Most colors and modes of any LED pick here at 60,000 colors",
       "Includes USB-C alongside USB-A",
-      "Music sync and app control",
-      "Strong 4.6-star rating",
+      "Music sync and app control"
     ],
     cons: [
       "No electrical safety certification listed",
       "23.6\" height suits lower to mid-height beds",
-      "Particleboard construction, not solid wood",
+      "Particleboard construction, not solid wood"
     ],
     bestFor: "Buyers who want the most advanced LED lighting on a budget nightstand",
   },
@@ -166,18 +165,18 @@ export const products: GuideProduct[] = [
       "P2 particleboard + powder-coated steel",
       "2 fabric drawers",
       "2 AC + 1 USB-A + 1 USB-C",
-      "Stain-resistant top",
+      "Stain-resistant top"
     ],
     pros: [
       "Best-selling pick among the charging-enabled options",
       "USB-C included alongside USB-A",
       "Stain-resistant top",
-      "Powder-coated steel frame",
+      "Powder-coated steel frame"
     ],
     cons: [
       "No electrical safety certification listed",
       "23.6\" height suits lower to mid-height beds",
-      "Particleboard build, not solid wood",
+      "Particleboard build, not solid wood"
     ],
     bestFor: "Buyers who want a proven, best-selling charging nightstand",
   },
@@ -198,18 +197,17 @@ export const products: GuideProduct[] = [
       "Engineered wood + metal",
       "2 fabric drawers, 2-tier shelves",
       "2 outlets + 2 USB",
-      "Includes 2 S-hooks, 50 lb capacity",
+      "Includes 2 S-hooks, 50 lb capacity"
     ],
     pros: [
       "Only pick that includes S-hooks for hanging items",
       "Solid 50 lb capacity rating",
-      "Lower 22.25\" height suits low platform beds",
-      "Strong review base at 3,630 ratings",
+      "Lower 22.25\" height suits low platform beds"
     ],
     cons: [
       "No electrical safety certification listed",
       "Deeper 14.96\" footprint than some slimmer picks",
-      "White finish shows scuffs more visibly",
+      "White finish shows scuffs more visibly"
     ],
     bestFor: "Buyers who want somewhere to hang a bag or headphones off the nightstand",
   },
@@ -230,18 +228,18 @@ export const products: GuideProduct[] = [
       "Metal frame + engineered wood",
       "2 fabric drawers",
       "No charging ports",
-      "Water-resistant top, arch handles, end-stop design, 44 lb capacity, ~15-min assembly",
+      "Water-resistant top, arch handles, end-stop design, 44 lb capacity, ~15-min assembly"
     ],
     pros: [
       "Cheapest pick in this entire list",
       "End-stop design prevents drawers pulling all the way out",
       "Water-resistant top",
-      "Fast ~15-minute assembly",
+      "Fast ~15-minute assembly"
     ],
     cons: [
       "No charging ports at all",
       "20\" height suits only low platform beds",
-      "44 lb capacity is on the lower end",
+      "44 lb capacity is on the lower end"
     ],
     bestFor: "Budget-conscious buyers who don't need charging features",
   },
@@ -262,18 +260,18 @@ export const products: GuideProduct[] = [
       "MDF + steel",
       "2 fabric drawers",
       "3 USB ports (2 front + 1 back LED) + 2 AC",
-      "RGB LED via iStrip+ app, waterproof top, 55 lb capacity",
+      "RGB LED via iStrip+ app, waterproof top, 55 lb capacity"
     ],
     pros: [
       "Most USB ports in this list at 3 total",
       "Highest capacity in this list at 55 lbs",
       "Waterproof top surface",
-      "App-controlled RGB LED",
+      "App-controlled RGB LED"
     ],
     cons: [
       "No electrical safety certification listed",
       "Priciest single-unit pick in this list",
-      "Smaller review sample than the top sellers",
+      "Smaller review sample than the top sellers"
     ],
     bestFor: "Buyers who want the most USB ports and highest capacity in a single unit",
   },
@@ -294,21 +292,21 @@ export const products: GuideProduct[] = [
       "MDF + particleboard + pinewood legs",
       "SET OF 2, 2 easy-glide drawers per table",
       "No charging ports",
-      "Brass hardware, tapered pinewood legs, lifetime warranty + 100-day money back",
+      "Brass hardware, tapered pinewood legs, lifetime warranty + 100-day money back"
     ],
     pros: [
       "Only pick with a lifetime warranty and 100-day money-back guarantee",
       "Most premium, design-forward look in this list",
       "Matched set of 2 for both sides of the bed",
-      "Brass hardware and tapered pinewood legs",
+      "Brass hardware and tapered pinewood legs"
     ],
     cons: [
       "Most expensive pick in this list by a wide margin",
       "No charging ports at all",
-      "23.5\" height suits low to mid-height beds only",
+      "23.5\" height suits low to mid-height beds only"
     ],
     bestFor: "Buyers who want the most premium design and the strongest warranty backing",
-  },
+  }
 ];
 
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
@@ -336,7 +334,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Value for price",
     description:
       "Weighed height, capacity, certification, and included features against price, from the cheapest pick to the lifetime-warranty set.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -482,11 +480,11 @@ export const faq: FaqItem[] = [
   {
     q: "Is USB-C or USB-A more important on a nightstand in 2026?",
     a: "USB-C matters more for most buyers now, since current phones and laptops largely charge over USB-C. A nightstand with only USB-A ports is now the less useful configuration. The Huuger Black LED, Huuger Rustic Brown, and Yoobure all include at least one USB-C port.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-nightstand-3-drawer", title: "Best 3-Drawer Nightstands (2026)" },
   { href: "/guide/best-nightstand-white", title: "Best White Nightstands (2026)" },
-  { href: "/guide/best-charging-stations-for-bedside-table", title: "Best Charging Stations for a Bedside Table (2026)" },
+  { href: "/guide/best-charging-stations-for-bedside-table", title: "Best Charging Stations for a Bedside Table (2026)" }
 ];

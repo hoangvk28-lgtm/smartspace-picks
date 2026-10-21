@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Multi-location outdoor monitoring plus atomic time", "DreamSky Weather Station Indoor Outdoor Thermometer, Atomic Clock"],
         ["A color display for faster multi-metric reading", "Newentor Weather Station Wireless Indoor Outdoor Thermometer"],
-        ["Atomic accuracy and indoor climate without outdoor sensors", "Geevon Digital Atomic Alarm Clock with 2 USB Ports"],
+        ["Atomic accuracy and indoor climate without outdoor sensors", "Geevon Digital Atomic Alarm Clock with 2 USB Ports"]
       ],
     },
   },
@@ -116,9 +116,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $26", "Geevon Atomic Clock ($25.99)"],
-        ["$32", "Maxspace Wooden Table Clock ($31.99)"],
-        ["Under $40", "DreamSky Weather Station ($39.99) or Newentor Weather Station ($39.99)"],
+        ["Under $26", "Geevon Atomic Clock (under $30)"],
+        ["$32", "Maxspace Wooden Table Clock (under $35)"],
+        ["Under $40", "DreamSky Weather Station (under $40) or Newentor Weather Station (under $40)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Full Weather Station vs Indoor-Only Atomic Clock",
     cards: [
       { label: "Full Weather Station (DreamSky, Newentor)", text: "Genuine outdoor temperature and humidity monitoring plus weather forecasting, worth the premium if you actually want to track outdoor conditions." },
-      { label: "Indoor-Only Atomic Clock (Geevon)", text: "Atomic time accuracy and indoor climate monitoring at a meaningful discount, sufficient if you don't need outdoor sensor data." },
+      { label: "Indoor-Only Atomic Clock (Geevon)", text: "Atomic time accuracy and indoor climate monitoring at a meaningful discount, sufficient if you don't need outdoor sensor data." }
     ],
     note: "If you genuinely want to check outdoor conditions without stepping outside or checking your phone, a full weather station earns its price premium. If indoor monitoring is all you need, the Geevon pick saves real money.",
   },
@@ -136,7 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your display preference", "Recommended pick"],
       rows: [
         ["Color-coded display for faster reading", "Newentor Weather Station Wireless Indoor Outdoor Thermometer"],
-        ["Standard monochrome display", "DreamSky Weather Station or Geevon Atomic Clock"],
+        ["Standard monochrome display", "DreamSky Weather Station or Geevon Atomic Clock"]
       ],
     },
   },
@@ -144,16 +144,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Monitoring Multiple Locations Specifically",
     cards: [
       { label: "Look for", text: "A weather station supporting multiple wireless outdoor sensors, so you can track conditions in different spots like a garage, greenhouse, or backyard simultaneously." },
-      { label: "In this comparison", text: "Both the DreamSky and Newentor weather stations support up to 3 outdoor sensors, with one included and additional sensors available separately." },
+      { label: "In this comparison", text: "Both the DreamSky and Newentor weather stations support up to 3 outdoor sensors, with one included and additional sensors available separately." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want genuine outdoor temperature monitoring and weather forecasting, where the DreamSky and Newentor weather stations both deliver this capability at the top of this comparison." },
-      { label: "Save if", text: "Indoor atomic accuracy and USB charging cover your needs, where the Geevon pick delivers this for $14 less than the full weather stations." },
+      { label: "Save if", text: "Indoor atomic accuracy and USB charging cover your needs, where the Geevon pick delivers this for $14 less than the full weather stations." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

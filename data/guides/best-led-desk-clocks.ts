@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "led desk clock";
 export const introParagraphs = [
   "LED desk clocks trade the quiet analog dial for a bright digital readout, and most models in this category bundle in extras like temperature, date, and humidity that a plain analog clock can't show at a glance. The tradeoff is power: some run on batteries, some plug into a wall outlet, and a couple charge devices over USB, so it matters which one you're actually looking at before you buy.",
-  "We narrowed this list to LED models that genuinely earn a spot on a desk rather than a nightstand, factoring in display brightness control, how legible the numbers are from a normal seated distance, and whether the extra readouts (temperature, humidity, date) are accurate enough to be useful rather than decorative.",
+  "We narrowed this list to LED models that genuinely earn a spot on a desk rather than a nightstand, factoring in display brightness control, how legible the numbers are from a normal seated distance, and whether the extra readouts (temperature, humidity, date) are accurate enough to be useful rather than decorative."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Power source verified against the listing, not assumed", description: "Checked whether each clock is battery, corded, or USB powered directly from listing details, since desk placement often depends on outlet access." },
   { title: "Extra readouts checked for genuine usefulness", description: "Evaluated whether temperature, humidity, and date readouts add real desk utility versus being unused marketing bullet points." },
   { title: "Display legibility weighed against desk viewing distance", description: "Considered digit size and brightness control relative to typical seated desk distance, not the longer viewing distances used in wall clock marketing." },
-  { title: "Extra hardware features scored for real convenience", description: "Weighed remote controls, USB charging ports, and dimmers by how much they actually reduce daily friction versus adding unused buttons." },
+  { title: "Extra hardware features scored for real convenience", description: "Weighed remote controls, USB charging ports, and dimmers by how much they actually reduce daily friction versus adding unused buttons." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -246,11 +246,11 @@ export const faq: FaqItem[] = [
   { q: "Do LED desk clocks need an outlet?", a: "It depends on the model. Some run on batteries only, some are corded and require an outlet, and a couple add USB ports for charging while still running on their own power source. Check the specific listing before buying." },
   { q: "Does auto DST mean the clock connects to WiFi?", a: "No. Auto DST adjustment is a built-in scheduling feature, not a WiFi or internet connection. None of the clocks in this guide connect to an app or network." },
   { q: "Are the temperature and humidity readouts accurate?", a: "They're useful as a general indicator rather than a precisely calibrated reading. Treat them as a convenience feature, not a scientific instrument." },
-  { q: "Can I charge my phone from these clocks?", a: "The JALL and DreamSky models include USB charging ports on the unit itself, useful for topping off a phone without an extra charger on the desk." },
+  { q: "Can I charge my phone from these clocks?", a: "The JALL and DreamSky models include USB charging ports on the unit itself, useful for topping off a phone without an extra charger on the desk." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-clocks-with-temperature-displays", title: "Best Desk Clocks with Temperature Displays (2026)" },
   { href: "/guide/best-desk-clocks-with-dates", title: "Best Desk Clocks with Dates (2026)" },
-  { href: "/guide/best-large-digital-desk-clocks", title: "Best Large Digital Desk Clocks (2026)" },
+  { href: "/guide/best-large-digital-desk-clocks", title: "Best Large Digital Desk Clocks (2026)" }
 ];

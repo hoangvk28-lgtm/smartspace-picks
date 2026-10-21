@@ -12,7 +12,7 @@ export const deskOrganizerTypesExplainedGuide: Guide = {
     "drawer organizer vs desktop caddy",
     "modular desk organizer system",
     "best desk organizer for small space",
-    "desk organizer types comparison",
+    "desk organizer types comparison"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskOrganizerTypesExplainedGuide: Guide = {
     "desk-drawer-organizer-vs-tray",
     "cable-management-types-explained",
     "desk-size-chart",
-    "monitor-stand-with-storage-explained",
+    "monitor-stand-with-storage-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskOrganizerTypesExplainedGuide: Guide = {
       question: "Do I need different organizers for different desk zones?",
       answer:
         "This can help, a small caddy for immediate reach items near your dominant hand, a drawer organizer for less frequently accessed supplies, and separate cable management for cords, addresses different needs rather than trying to solve everything with one organizer type.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const deskOrganizerTypesExplainedGuide: Guide = {
     {
       heading: "Why Small Desks Benefit Most From Enclosed Storage",
       body: `On a small desk, every square inch of visible surface area is more valuable, since desktop items directly compete with your actual working space (keyboard, mouse, monitor placement). Drawer-based organization or wall-mounted solutions keep supplies accessible without permanently occupying desk surface, a meaningful advantage on a small desk where a desktop caddy's footprint represents a larger proportion of total available space than it would on a larger desk.`,
-    },
+    }
   ],
 };

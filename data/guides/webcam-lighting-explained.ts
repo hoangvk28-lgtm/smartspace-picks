@@ -12,7 +12,7 @@ export const webcamLightingExplainedGuide: Guide = {
     "how to improve webcam lighting",
     "why does my webcam look grainy",
     "video call lighting setup",
-    "webcam vs lighting quality",
+    "webcam vs lighting quality"
   ],
   heroImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const webcamLightingExplainedGuide: Guide = {
     "webcam-resolution-explained",
     "ring-light-vs-key-light",
     "webcam-fov-explained",
-    "desk-lamp-kelvin-color-temperature",
+    "desk-lamp-kelvin-color-temperature"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const webcamLightingExplainedGuide: Guide = {
       question: "Do I need an expensive lighting setup for good video call quality?",
       answer:
         "No, even an inexpensive ring light or a well-positioned desk lamp facing your face makes a significant visible difference, professional-grade lighting setups offer diminishing returns for standard video calls compared to the initial improvement from any adequate front-facing light source.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const webcamLightingExplainedGuide: Guide = {
     {
       heading: "The Most Common Lighting Mistake to Avoid",
       body: `Sitting with a window or bright light source behind you is the single most common video call lighting mistake, since your camera exposes for the brightest part of the frame, typically the window, leaving your face underexposed and dark by comparison. Simply repositioning your desk so a window or lamp faces you instead, or adding a front-facing light if no natural light is available, resolves this issue without any equipment upgrade.`,
-    },
+    }
   ],
 };

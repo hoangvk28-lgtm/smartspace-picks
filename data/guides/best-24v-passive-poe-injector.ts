@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Standard AC outlet, basic device", "24volt Passive PoE Injector 24W (Ubiquiti replacement)"],
         ["Solar panel or battery, remote install", "PoE Texas 24V Passive PoE Injector"],
         ["Standard AC outlet, Gigabit device", "EN15G-24-3 Gigabit PoE Injector 24V 15W"],
-        ["Lowest cost basic Ubiquiti replacement", "24volt Passive PoE Injector Adapter 100Mbps"],
+        ["Lowest cost basic Ubiquiti replacement", "24volt Passive PoE Injector Adapter 100Mbps"]
       ],
     },
   },
@@ -109,9 +109,9 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $9", "24volt Passive PoE Injector Adapter ($8.98)"],
-        ["Under $13", "24volt Passive PoE Injector 24W ($12.90)"],
-        ["Under $20", "EN15G-24-3 or PoE Texas (both under $20)"],
+        ["Under $9", "24volt Passive PoE Injector Adapter (under $9)"],
+        ["Under $13", "24volt Passive PoE Injector 24W (under $15)"],
+        ["Under $20", "EN15G-24-3 or PoE Texas (both under $20)"]
       ],
     },
   },
@@ -119,7 +119,7 @@ export const howToChoose = [
     subheading: "Passive PoE vs Standard 802.3af/at PoE",
     cards: [
       { label: "Passive PoE (this entire comparison)", text: "Applies a fixed voltage with no negotiation, common on older Ubiquiti airMAX and some UniFi hardware, and will not work with standard 802.3af/at devices or vice versa." },
-      { label: "Standard 802.3af/at PoE", text: "Negotiates power with the connected device automatically, common on modern IP cameras, VoIP phones, and newer access points; see our best-poe-injector guide for that category." },
+      { label: "Standard 802.3af/at PoE", text: "Negotiates power with the connected device automatically, common on modern IP cameras, VoIP phones, and newer access points; see our best-poe-injector guide for that category." }
     ],
     note: "Check your specific device's documentation for whether it expects passive or standard PoE before buying, since the two are not interchangeable and connecting the wrong type typically just fails to power the device.",
   },
@@ -130,7 +130,7 @@ export const howToChoose = [
       rows: [
         ["100Mbps device", "24volt Passive PoE Injector 24W or the budget replacement pick"],
         ["Gigabit device, standard AC power", "EN15G-24-3 Gigabit PoE Injector"],
-        ["Gigabit device, DC/solar power", "PoE Texas 24V Passive PoE Injector"],
+        ["Gigabit device, DC/solar power", "PoE Texas 24V Passive PoE Injector"]
       ],
     },
   },
@@ -138,16 +138,16 @@ export const howToChoose = [
     subheading: "For a Solar-Powered CCTV or Remote Radio Installation Specifically",
     cards: [
       { label: "Look for", text: "An injector that explicitly accepts a wide DC input range rather than requiring standard AC power, since remote and solar installations often have variable voltage from a battery or panel." },
-      { label: "In this comparison", text: "The PoE Texas pick specifically accepts a 12-60V DC input range and names solar CCTV and RV solar setups as intended use cases." },
+      { label: "In this comparison", text: "The PoE Texas pick specifically accepts a 12-60V DC input range and names solar CCTV and RV solar setups as intended use cases." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You're powering a remote solar or DC-based installation, or need Gigabit speed, where the PoE Texas or EN15G-24-3 picks near $20 justify their price with genuine capability differences." },
-      { label: "Save if", text: "You just need a basic direct replacement for an original Ubiquiti 24V passive adapter, where the $8.98 budget pick covers that need reliably." },
+      { label: "Save if", text: "You just need a basic direct replacement for an original Ubiquiti 24V passive adapter, where the under $9 budget pick covers that need reliably." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

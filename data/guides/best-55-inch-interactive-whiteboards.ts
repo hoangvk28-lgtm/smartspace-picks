@@ -232,11 +232,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "JASZDOT 55in Smart Board",
-        "text": "JASZDOT 55in Smart Board is aimed at buyers prioritizing 55in 4k, android 14, 400+ nits At $1,199.00, it's the lowest-cost pick in this comparison."
+        "text": "JASZDOT 55in Smart Board is aimed at buyers prioritizing 55in 4k, android 14, 400+ nits At under $1,200, it's the lowest-cost pick in this comparison."
       },
       {
         "label": "BIG VUE Plus 55in Smart Board",
-        "text": "BIG VUE Plus 55in Smart Board is aimed at buyers prioritizing 55in 4k, 256gb storage, 60-point touch At $994.99, it sits at the higher end of this comparison's price range."
+        "text": "BIG VUE Plus 55in Smart Board is aimed at buyers prioritizing 55in 4k, 256gb storage, 60-point touch At under $1,000, it sits at the higher end of this comparison's price range."
       }
     ],
     "note": "Most buyers should default to JASZDOT 55in Smart Board unless the pricier pick's specific advantage applies to your situation."
@@ -280,7 +280,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "BIG VUE Plus 55in Smart Board Buyers prioritizing 55in 4k, 256gb storage, 60-point touch. JASZDOT 55in Smart Board Buyers prioritizing 55in 4k, android 14, 400+ nits."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -332,7 +332,7 @@ export const faq = [
     "a": "Yes, in almost every case. An OPS (Open Pluggable Specification) slot is just an expansion bay, the actual Windows computer module that plugs into it is sold separately and can cost as much as a mid-range laptop. Confirm the OPS module price before assuming Windows compatibility is included in the board's sticker price."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", "a": "BIG VUE Plus 55in Smart Board is aimed at buyers prioritizing 55in 4k, 256gb storage, 60-point touch" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", "a": "BIG VUE Plus 55in Smart Board is aimed at buyers prioritizing 55in 4k, 256gb storage, 60-point touch" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-65-inch-interactive-whiteboards","title":"8 Best 65-Inch Interactive Whiteboards"},{"href":"/guide/best-small-interactive-whiteboards","title":"7 Best Small Interactive Whiteboards"},{"href":"/guide/best-budget-interactive-whiteboards","title":"7 Best Budget Interactive Whiteboards"}];

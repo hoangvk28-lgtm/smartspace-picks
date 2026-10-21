@@ -193,36 +193,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $153.90",
+          "Under $160",
           "Genmitsu CNC 3018-PRO Router Kit"
         ],
         [
-          "Around $160.00",
+          "Under $170",
           "TTC3018 CNC Router Machine 3-Axis Engraving Machine Metal Engraver"
         ],
         [
-          "Around $242.10",
+          "Under $250",
           "SainSmart Genmitsu 3018-PROVer V2 CNC Router Machine for Beginners"
         ],
         [
-          "Around $269.00",
+          "Under $300",
           "Genmitsu 3018-PROVer V2 CNC Milling Machine for Beginners"
         ],
         [
-          "Around $341.05",
+          "Under $350",
           "WolfPawn CNC Router Machine 4040-PRO for Metal Acrylic Cutting Milling"
         ],
         [
-          "Around $449.10",
+          "Under $450",
           "Genmitsu 3020-PRO MAX V2 CNC Router Machine"
         ],
         [
-          "Around $487.20",
+          "Under $500",
           "Genmitsu 3020-PRO Ultra CNC Router Machine"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -270,7 +270,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "SainSmart Genmitsu 3018-PROVer V2 CNC Router Machine for Beginners is aimed at buyers prioritizing pre-assembled gantry + spoilboard, sub-1hr setup." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "SainSmart Genmitsu 3018-PROVer V2 CNC Router Machine for Beginners is aimed at buyers prioritizing pre-assembled gantry + spoilboard, sub-1hr setup." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-budget-desktop-cnc-machines","title":"Best Budget Desktop CNC Machines in 2026"},{"href":"/guide/best-desktop-cnc-machines-under-1000","title":"Best Desktop CNC Machines Under $1000 in 2026"},{"href":"/guide/best-desktop-cnc-machines","title":"Best Desktop CNC Machines in 2026"}];

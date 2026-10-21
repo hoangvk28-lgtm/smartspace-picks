@@ -140,7 +140,7 @@ export default async function Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best White Bed Frames", item: `${SITE_URL}/guide/best-bed-frame-white` },
+      { "@type": "ListItem", position: 3, name: "Best White Bed Frames", item: `${SITE_URL}/guide/best-bed-frame-white` }
     ],
   };
 
@@ -245,7 +245,7 @@ export default async function Page() {
 
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>White bed frames brighten up small bedrooms and pair with almost any color scheme, but the category spans everything from plain powder-coated metal platforms to upholstered velvet wingback headboards with built-in storage.</p>
-          <p>Below are 8 white bed frames we evaluated on style, weight capacity, and extra features like drawers and charging ports, ranging from a $49.97 minimalist metal platform to a fully-loaded velvet frame with LED shelving and USB charging.</p>
+          <p>Below are 8 white bed frames we evaluated on style, weight capacity, and extra features like drawers and charging ports, ranging from an under-$50 minimalist metal platform to a fully-loaded velvet frame with LED shelving and USB charging.</p>
         </section>
 
         {buyingCriteria.length > 0 && (

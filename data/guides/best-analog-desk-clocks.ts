@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "analog desk clock";
 export const introParagraphs = [
   "Analog means hands on a dial rather than an LED or LCD numeric display, and we've excluded every digital product from this guide entirely so buyers specifically wanting hands-based timekeeping don't have to sift through digital picks. The four clocks below span a real size and material range, from a compact wood clock to a larger gold-toned mantel piece.",
-  "If you want a digital display with date, temperature, or alarm features instead, see our digital desk clocks guide, which covers that separate product pool.",
+  "If you want a digital display with date, temperature, or alarm features instead, see our digital desk clocks guide, which covers that separate product pool."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "6 min";
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed every pick uses genuine analog hands, not a printed digital face", description: "Excluded all LED and LCD digital displays from this guide entirely, verifying each pick uses a real analog movement with physical hands." },
   { title: "Face size checked against realistic desk-distance readability", description: "Compared how legible each analog face is from a normal sitting distance, since hand-based clocks vary more in readability than digital displays at the same size." },
   { title: "Movement noise level verified from listing details", description: "Checked silent versus standard tick movement for each pick, since analog movements are the category where ticking noise is most likely to matter." },
-  { title: "Material and finish variety assessed across the pool", description: "Compared wood, bronze, and gold finishes to give buyers genuine style options rather than ranking purely on price." },
+  { title: "Material and finish variety assessed across the pool", description: "Compared wood, bronze, and gold finishes to give buyers genuine style options rather than ranking purely on price." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -226,11 +226,11 @@ export const faq: FaqItem[] = [
   { q: "What does analog mean for a desk clock?", a: "It means the clock uses physical hands on a dial to show time, rather than an LED or LCD digital display. This guide excludes digital clocks entirely." },
   { q: "Do analog clocks always tick?", a: "Standard analog movements do tick audibly, but many modern analog clocks, including every pick in this guide, use a silent or non-ticking movement instead." },
   { q: "Which analog clock in this guide is easiest to read from a distance?", a: "The QIYAODECO gold mantel clock has the largest face at 8.3 by 9.1 inches, making it the most legible from across a room among these picks." },
-  { q: "Is there a digital version of this guide?", a: "Yes, see our digital desk clocks guide for LED and LCD display clocks with features like date, temperature, and alarms." },
+  { q: "Is there a digital version of this guide?", a: "Yes, see our digital desk clocks guide for LED and LCD display clocks with features like date, temperature, and alarms." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-desk-clocks", title: "Best Digital Desk Clocks (2026)" },
   { href: "/guide/best-small-desk-clocks", title: "Best Small Desk Clocks (2026)" },
-  { href: "/guide/best-desk-clocks", title: "Best Desk Clocks (2026)" },
+  { href: "/guide/best-desk-clocks", title: "Best Desk Clocks (2026)" }
 ];

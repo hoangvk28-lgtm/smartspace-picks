@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $79.99",
+          "Under $80",
           "6-Port 10Gbe Ethernet Switch Unmanaged"
         ],
         [
-          "Around $84.99",
+          "Under $90",
           "TRENDnet 6-Port 10G Switch"
         ],
         [
-          "Around $139.98",
+          "Under $140",
           "10-Port 10G Ethernet Switch Unmanaged"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "TP-Link TL-SX105"
         ],
         [
-          "Around $251.98",
+          "Under $300",
           "8-Port 10G Ethernet Switch Unmanaged"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "No. The total PoE budget is shared across all active PoE ports, so if you power several high-draw devices simultaneously, the switch may not be able to deliver every port's maximum rated wattage at the same time. Check the total budget against your actual device count and power needs."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "TP-Link TL-SX105 is aimed at buyers prioritizing 5x true 10g ports, 100gbps capacity." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "TP-Link TL-SX105 is aimed at buyers prioritizing 5x true 10g ports, 100gbps capacity." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-10gbe-switches","title":"Best 10GbE Switches in 2026"},{"href":"/guide/best-netgear-10gbe-switches","title":"Best NETGEAR 10GbE Switches in 2026"},{"href":"/guide/best-8-port-10gbe-switches","title":"Best 8-Port 10GbE Switches in 2026"}];

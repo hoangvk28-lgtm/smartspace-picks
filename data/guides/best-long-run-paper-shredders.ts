@@ -5,7 +5,7 @@ export const metaDescription = "8 shredders ranked by real continuous run time, 
 export const mainKeyword = "continuous-duty paper shredder";
 export const introParagraphs = [
   "A '60-minute continuous run' rating assumes consistent, light paper feeding under lab conditions. Real bulk-shredding sessions with mixed paper weights and staples will often hit the thermal limit before the rated time, an optimistic-lab-condition gap we account for by ranking based on the disclosed run time relative to bin capacity and cooldown period together, not the run-time number alone.",
-  "Cooldown time after hitting the run-time limit varies significantly, some picks need 10 minutes, others 40-60, a real difference that can double the actual time needed to shred a large document purge.",
+  "Cooldown time after hitting the run-time limit varies significantly, some picks need 10 minutes, others 40-60, a real difference that can double the actual time needed to shred a large document purge."
 ];
 export const lastUpdated = "2026-07-28";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Long-Run Pick",
     name: "Aurora AU1210MA Professional Grade High Security 12-Sheet Micro-Cut Shredder",
     price: "$135.78",
-    rating: "4.7 stars from 9,126 Amazon ratings",
-    reviews: "9,126 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/413GY12YKjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CX4DZ4Z?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity Long-Run Pick",
     name: "Bonsaii 18-Sheet Cross-Cut 60-Min Run Heavy Duty Paper Shredder",
     price: "$179.99",
-    rating: "4.6 stars from 10,748 Amazon ratings",
-    reviews: "10,748 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41FCXr1akDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00IOFD08C?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Auto-Feed Long Run",
     name: "QUIETLEMON 100-Sheet Auto Feed Paper Shredder, 40 Min Non-Stop",
     price: "$123.49",
-    rating: "3.8 stars from 137 Amazon ratings",
-    reviews: "137 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31+FGUUD5bL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GFD6JYH1?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Largest Auto-Feed Hopper for Bulk Sessions",
     name: "Bonsaii 120-Sheet Autofeed Micro-Cut 30-Min Run Heavy Duty Paper Shredder",
     price: "$179.99",
-    rating: "4.3 stars from 1,048 Amazon ratings",
-    reviews: "1,048 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31lBbbWrCsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSJ3K6T3?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Auto-Feed for Long Sessions",
     name: "Bonsaii 100-Sheet Auto Feed Micro-Cut Paper Shredder Heavy Duty",
     price: "$126.99",
-    rating: "4.3 stars from 1,629 Amazon ratings",
-    reviews: "1,629 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31VvTJMBXPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DG2MGVMV?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best Manual Long-Run Middle Ground",
     name: "BONSEN 14-Sheet Cross Cut Heavy Duty Paper Shredder for Home Office",
     price: "$84.99",
-    rating: "4.1 stars from 1,061 Amazon ratings",
-    reviews: "1,061 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LSE9gHSWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DTKBX3D9?tag=deskfinds0d-20",
     description:
@@ -127,8 +127,8 @@ export const products: GuideProduct[] = [
     badge: "Budget Middle Ground",
     name: "Bonsaii 12-Sheet Cross Cut Heavy Duty Paper Shredder for Home Office",
     price: "$79.99",
-    rating: "4.5 stars from 1,685 Amazon ratings",
-    reviews: "1,685 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/310qS+3q87L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5XPJ524?tag=deskfinds0d-20",
     description:
@@ -144,8 +144,8 @@ export const products: GuideProduct[] = [
     badge: "Shortest Run Time, Included as the Honest Budget Floor",
     name: "Bonsaii 12-Sheet Cross Cut Paper Shredder, 5.5 Gal Home Office Heavy Duty",
     price: "$55.24",
-    rating: "4.5 stars from 8,974 Amazon ratings",
-    reviews: "8,974 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31H0gGU7jHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09N991KVT?tag=deskfinds0d-20",
     description:
@@ -154,14 +154,14 @@ export const products: GuideProduct[] = [
     pros: ["Lowest price in this guide", "Compact footprint", "Strong rating for light use", "Reasonable for occasional shredding needs"],
     cons: ["Shortest continuous run time in this guide by a wide margin", "Not suited for a genuine bulk document purge", "Frequent cooldown breaks needed for larger sessions"],
     bestFor: "Buyers with light, occasional shredding needs who don't actually require long-run capability",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Run time combined with cooldown, not run time alone", description: "Ranked picks by how much of a real bulk-purge session they can handle before requiring a cooldown, factoring in both the continuous run time and the recovery period, not just the headline minutes figure." },
   { title: "Real mixed-paper sessions versus ideal single-weight lab ratings", description: "Noted that manufacturer run-time ratings assume consistent, light paper feeding, a real bulk purge with mixed weights and staples will typically hit the thermal limit sooner than the rated time." },
-  { title: "Bin capacity as a secondary bottleneck", description: "Checked whether bin size matches the shredded volume a full run would actually produce, since a small bin can force emptying stops before the motor's duty cycle limit is even reached." },
+  { title: "Bin capacity as a secondary bottleneck", description: "Checked whether bin size matches the shredded volume a full run would actually produce, since a small bin can force emptying stops before the motor's duty cycle limit is even reached." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -294,11 +294,11 @@ export const faq: FaqItem[] = [
   { q: "Is an auto-feed shredder better than a long-run manual one for a big purge?", a: "Often yes for total effort, even with a shorter rated run time, an auto-feed hopper processes documents with far less hands-on feeding than a manual shredder, meaningfully reducing the real time and effort of a large purge." },
   { q: "Can bin size limit how long I can actually shred, even if the motor could keep running?", a: "Yes. A small bin can force an emptying stop well before the motor's rated duty cycle limit is reached. Check that bin capacity and run time are proportionally matched, like the Bonsaii 18-sheet pick's 6-gallon bin paired with its 60-minute run." },
   { q: "What happens if I exceed a shredder's rated continuous run time?", a: "Most models include a thermal auto-shutoff that forces a cooldown period before resuming, continuing to force paper through past this point risks motor damage rather than simply working slower." },
-  { q: "Do long-run shredders cost more to buy than standard models?", a: "Often yes, a motor and cooling design rated for extended continuous operation typically commands a price premium over a basic shredder rated for shorter intermittent bursts." },
+  { q: "Do long-run shredders cost more to buy than standard models?", a: "Often yes, a motor and cooling design rated for extended continuous operation typically commands a price premium over a basic shredder rated for shorter intermittent bursts." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-paper-shredders-that-dont-overheat", title: "Best Paper Shredders That Don't Overheat (2026)" },
   { href: "/guide/best-paper-shredders-with-large-bins", title: "Best Paper Shredders with Large Bins (2026)" },
-  { href: "/guide/best-auto-feed-paper-shredders", title: "Best Auto-Feed Paper Shredders (2026)" },
+  { href: "/guide/best-auto-feed-paper-shredders", title: "Best Auto-Feed Paper Shredders (2026)" }
 ];

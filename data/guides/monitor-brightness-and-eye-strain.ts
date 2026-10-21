@@ -12,7 +12,7 @@ export const monitorBrightnessAndEyeStrainGuide: Guide = {
     "correct monitor brightness for eyes",
     "monitor too bright eye strain",
     "matching screen brightness to room",
-    "best brightness setting for eye comfort",
+    "best brightness setting for eye comfort"
   ],
   heroImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const monitorBrightnessAndEyeStrainGuide: Guide = {
     "20-20-20-rule-explained",
     "blue-light-glasses-explained",
     "desk-lamp-lumens-guide",
-    "monitor-resolution-explained",
+    "monitor-resolution-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const monitorBrightnessAndEyeStrainGuide: Guide = {
       question: "Does monitor brightness affect eye strain more than blue light?",
       answer:
         "Brightness mismatch with ambient lighting is more consistently cited as a factor in digital eye strain than blue light exposure specifically, making brightness adjustment a more evidence-supported first step for reducing screen discomfort.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const monitorBrightnessAndEyeStrainGuide: Guide = {
     {
       heading: "Why Static Brightness Settings Don't Account for the Full Day",
       body: `Ambient light changes meaningfully between a bright midday room and a dim evening space, a brightness setting comfortable in the afternoon can feel jarringly bright in a darkened room later, while a setting calibrated for evening use may feel too dim during a well-lit day. Adjusting brightness as your environment changes, either manually or through an ambient light sensor feature if your display includes one, maintains that comfortable match throughout the full workday rather than only at one point in it.`,
-    },
+    }
   ],
 };

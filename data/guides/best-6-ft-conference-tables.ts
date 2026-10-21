@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $129.99",
+          "Under $130",
           "GIANTEX 6FT Conference Table for 8-10"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "Tribesigns 6.5FT Conference Table"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "Tribesigns 6.5FT Rectangle Conference Table (Table Only)"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "Tribesigns 6FT Boat-Shaped Conference Table"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "Tribesigns 6FT Boat-Shaped Conference Table"
         ],
         [
-          "Around $189.99",
+          "Under $190",
           "Tribesigns 6FT Rustic Conference Table"
         ],
         [
-          "Around $218.49",
+          "Under $250",
           "Tribesigns 6FT Conference Table with Pedestal Base"
         ],
         [
-          "Around $381.94",
+          "Under $400",
           "Flash Furniture 6-Foot Oval Conference Table"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Tribesigns 6.5FT Rectangle Conference Table (Table Only) is aimed at buyers prioritizing 78.74\"w x 27.55\"d x 29.52\"h rectangle." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Tribesigns 6.5FT Rectangle Conference Table (Table Only) is aimed at buyers prioritizing 78.74\"w x 27.55\"d x 29.52\"h rectangle." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-10-ft-conference-tables","title":"Best 10 ft Conference Tables in 2026"},{"href":"/guide/best-8ft-conference-tables","title":"Best 8ft Conference Tables in 2026"},{"href":"/guide/best-8-ft-conference-tables","title":"Best 8 ft Conference Tables in 2026"}];

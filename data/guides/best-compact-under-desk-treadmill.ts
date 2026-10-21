@@ -5,7 +5,7 @@ export const metaDescription = "4 best compact under-desk treadmills in 2026 for
 export const mainKeyword = "under desk treadmill small";
 export const introParagraphs = [
   "A compact under-desk treadmill is built specifically around one constraint: fitting into the narrow gap between the floor and the underside of a desk without needing to be dragged out for every walking session. That means overall thickness matters more here than in the wider treadmill category, since a couple extra inches of height can be the difference between sliding smoothly under a desk and not fitting at all.",
-  "Below are 4 compact under-desk treadmills we evaluated specifically on thickness, weight, and how well each one fits a genuinely tight desk clearance, ranging from a $79.99 lightweight pad to a $119.89 model with a handlebar and incline.",
+  "Below are 4 compact under-desk treadmills we evaluated specifically on thickness, weight, and how well each one fits a genuinely tight desk clearance, ranging from an under-$80 lightweight pad to an under-$120 model with a handlebar and incline."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "8 min";
@@ -56,18 +56,18 @@ export const products: GuideProduct[] = [
       "4.1 inches tall",
       "Carbon steel frame, anti-slip belt",
       "LED display, remote control, built-in wheels",
-      "No assembly required",
+      "No assembly required"
     ],
     pros: [
       "Highest-rated pick in this entire guide",
       "Among the thinnest profiles in this guide",
       "No assembly required",
-      "Built-in wheels for easy repositioning",
+      "Built-in wheels for easy repositioning"
     ],
     cons: [
       "No incline adjustment",
       "No handlebar for balance support",
-      "Top speed capped at 4 mph",
+      "Top speed capped at 4 mph"
     ],
     bestFor: "Buyers who want the thinnest, best-reviewed compact treadmill",
   },
@@ -88,18 +88,18 @@ export const products: GuideProduct[] = [
       "4.33 inches tall",
       "Carbon steel frame, 5-layer anti-slip belt",
       "Silicone shock absorbers, built-in wheels",
-      "2-year warranty, longest in this guide",
+      "2-year warranty, longest in this guide"
     ],
     pros: [
       "Longest warranty in this guide at 2 years",
       "Still a compact 4.33-inch profile",
       "No assembly required",
-      "Silicone shock absorbers add cushioning",
+      "Silicone shock absorbers add cushioning"
     ],
     cons: [
       "Slightly thicker than the Buztrio",
       "No incline adjustment",
-      "No handlebar for balance support",
+      "No handlebar for balance support"
     ],
     bestFor: "Buyers who want the longest warranty on a compact treadmill",
   },
@@ -119,18 +119,18 @@ export const products: GuideProduct[] = [
       "2.0HP vortex quiet motor, 0.6-4 mph speed range",
       "About 10.5cm (4.1 inches) thick",
       "Lightest pick in this guide",
-      "Omnidirectional wheels",
+      "Omnidirectional wheels"
     ],
     pros: [
       "Cheapest pick in this entire guide",
       "Thinnest and lightest profile in this guide",
       "Omnidirectional wheels for easy repositioning",
-      "Quiet vortex motor design",
+      "Quiet vortex motor design"
     ],
     cons: [
       "Lower rating than the top two picks",
       "No incline adjustment",
-      "No handlebar for balance support",
+      "No handlebar for balance support"
     ],
     bestFor: "Buyers who want the lightest, cheapest treadmill that's still ultra-thin",
   },
@@ -151,21 +151,21 @@ export const products: GuideProduct[] = [
       "Manually adjustable incline up to 4 degrees",
       "Handlebar for support, only pick in this guide with one",
       "Max user weight 265 lbs",
-      "Quiet motor, rated around 45dB",
+      "Quiet motor, rated around 45dB"
     ],
     pros: [
       "Most-reviewed pick in this entire guide",
       "Only pick in this guide with a handlebar",
       "Only pick in this guide with incline adjustment",
-      "Solid 265 lb weight capacity",
+      "Solid 265 lb weight capacity"
     ],
     cons: [
       "Thicker and pricier than the other 3 picks in this guide",
       "Slightly slower top speed at 3.8 mph",
-      "Handlebar adds a bit of footprint versus a bare pad",
+      "Handlebar adds a bit of footprint versus a bare pad"
     ],
     bestFor: "Buyers who want handlebar support and incline in a still-compact footprint",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -189,7 +189,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Feature tradeoffs at a compact size",
     description: "Compared which picks add a handlebar or incline versus which stay completely flat and bare, since added features generally come with a small increase in thickness or footprint.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -327,13 +327,13 @@ export const faq: FaqItem[] = [
   },
   {
     q: "Which compact treadmill is the cheapest?",
-    a: "The Rythkore Walking Pad is the cheapest pick in this guide at $79.99, and it's also the lightest, making it easy to slide fully out of the way after a walking session.",
+    a: "The Rythkore Walking Pad is the cheapest pick in this guide at under $80, and it's also the lightest, making it easy to slide fully out of the way after a walking session.",
   },
-  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers who want the thinnest, best-reviewed compact treadmill" },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers who want the thinnest, best-reviewed compact treadmill" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-under-desk-treadmill", title: "Best Under-Desk Treadmills in 2026" },
   { href: "/guide/best-desk-bike-chair", title: "Best Desk Bike Chairs in 2026" },
-  { href: "/guide/best-adjustable-under-desk-footrests", title: "Best Adjustable Under-Desk Footrests" },
+  { href: "/guide/best-adjustable-under-desk-footrests", title: "Best Adjustable Under-Desk Footrests" }
 ];

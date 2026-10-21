@@ -193,36 +193,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $197.99",
+          "Under $200",
           "YITAHOME 94.5\" Boat Shaped Conference Table with Power Outlets"
         ],
         [
-          "Around $219.99",
+          "Under $250",
           "Giantex 6FT Conference Table with Power Outlets"
         ],
         [
-          "Around $236.99",
+          "Under $250",
           "YITAHOME 70.8\" Boat Shaped Conference Table with Power Outlets"
         ],
         [
-          "Around $899.00",
+          "Under $900",
           "8FT Conference Table for 8-10"
         ],
         [
-          "Around $1,749.99",
+          "Under $1,800",
           "10ft Conference Table with Built-In Power Outlet"
         ],
         [
-          "Around $1,749.99",
+          "Under $1,800",
           "ZIMASYA Conference Table with Power Outlets & USB"
         ],
         [
-          "Around $1,749.99",
+          "Under $1,800",
           "10FT Conference Table with Charging Stations"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -270,7 +270,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "8FT Conference Table for 8-10 is aimed at buyers prioritizing 95\"x48\"x30\", seats 8-10." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "8FT Conference Table for 8-10 is aimed at buyers prioritizing 95\"x48\"x30\", seats 8-10." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-conference-tables-with-built-in-power","title":"Best Conference Tables With Built-In Power in 2026"},{"href":"/guide/best-conference-tables-with-power-outlets","title":"Best Conference Tables With Power Outlets in 2026"},{"href":"/guide/best-conference-tables-with-outlets","title":"Best Conference Tables With Outlets in 2026"}];

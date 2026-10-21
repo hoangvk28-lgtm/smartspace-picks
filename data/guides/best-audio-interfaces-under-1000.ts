@@ -237,7 +237,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Define the large I/O prosumer capability floor",
-    "explanation": "Define the large I/O prosumer capability floor: Current 18i20 at $799.99 fits. ADAT, talkback, monitor switching and rack I/O should distinguish the tier. This matters directly when comparing the picks in this guide, since two products near the same price point often differ meaningfully on this exact point once you look past the headline spec. Check the specific listing for this detail rather than assuming parity across similarly priced options, and weigh it against your actual use case before deciding between two close picks in this price tier."
+    "explanation": "Define the large I/O prosumer capability floor: Current 18i20 at under $800 fits. ADAT, talkback, monitor switching and rack I/O should distinguish the tier. This matters directly when comparing the picks in this guide, since two products near the same price point often differ meaningfully on this exact point once you look past the headline spec. Check the specific listing for this detail rather than assuming parity across similarly priced options, and weigh it against your actual use case before deciding between two close picks in this price tier."
   },
   {
     "criterion": "Make simultaneous analog I/O + preamp gain/EIN the primary",

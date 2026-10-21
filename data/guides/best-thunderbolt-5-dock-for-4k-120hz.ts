@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0DX8FS8KC?tag=deskfinds0d-20",
     description: "This dock's listing specifically discloses that Windows Thunderbolt 5 hosts can drive three 4K@144Hz displays, while Mac hosts are limited to two 6K@60Hz or 8K@60Hz displays, or dual 4K@240Hz specifically on Macs that support these resolutions, a transparent platform-specific breakdown rather than a single blended spec. Its Bandwidth Boost feature shifts up to 120Gb/s toward displays when ultra high-refresh monitors are connected.\n\nCompared to the Lenovo pick above, this one's 90W sustained power delivery across all 9 connected devices simultaneously, backed by a 180W power supply and Offline Charging that works even when not connected to a host, is a genuinely differentiated feature for shared desk setups.\n\nBest for buyers who want the lowest price in this comparison with transparent platform-specific refresh rate documentation.",
     specs: ["3x 4K@144Hz (Windows) or dual 4K@240Hz (Mac)", "80Gb/s base, up to 120Gb/s Bandwidth Boost", "90W sustained PD across 9 ports, Offline Charging"],
-    pros: ["Lowest price in this comparison at $249.99", "Transparent platform-specific refresh rate documentation for Windows vs Mac", "Offline Charging works even without a connected host"],
+    pros: ["Lowest price in this comparison at under $250", "Transparent platform-specific refresh rate documentation for Windows vs Mac", "Offline Charging works even without a connected host"],
     cons: ["Triple display support is Windows-only, not available on macOS", "Base M1 to M3 Macs do not support dual displays at all"],
     bestFor: "buyers who want the lowest price with transparent platform-specific refresh rate documentation",
   },
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "This dock's listing specifically highlights a modular dock design with swappable module capability, letting you upgrade the dock's capabilities over time rather than replacing the entire unit when your needs change, a genuinely distinct approach among the picks in this comparison. Its SuperBoost technology delivers fast charging and data transfer at up to 40GB/s, and its port mix includes 2x DisplayPort 2.1, 1x HDMI 2.1, and 2x Thunderbolt 5.\n\nCompared to the CalDigit pick above, this one's 180W power adapter and broader OS compatibility spanning macOS, Windows 10, Windows 11, and Ubuntu OS makes it a more platform-agnostic choice for a mixed-device household or office.\n\nBest for buyers who want a future-upgradeable modular dock design with the broadest listed OS compatibility.",
     specs: ["2x DP2.1, 1x HDMI 2.1, 2x Thunderbolt 5 ports", "180W power adapter, modular swappable design", "macOS, Windows 10/11, Ubuntu OS compatible"],
     pros: ["Modular swappable design allows future upgrades without full replacement", "Broadest listed OS compatibility including Ubuntu", "SuperBoost technology delivers fast 40GB/s data transfer"],
-    cons: ["Highest price in this comparison at $445.99", "Listing does not specify an exact 120Hz or 240Hz refresh rate ceiling"],
+    cons: ["Highest price in this comparison at under $450", "Listing does not specify an exact 120Hz or 240Hz refresh rate ceiling"],
     bestFor: "buyers who want a future-upgradeable modular dock with the broadest OS compatibility",
   }
 ];
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Four displays with mixed 4K@240Hz and 4K@120Hz", "Lenovo ThinkPad Thunderbolt 5 Smart Dock 7500"],
         ["Triple 4K@144Hz on Windows or dual 4K@240Hz on Mac", "CalDigit E5 Thunderbolt 5 Element 5 Hub"],
         ["Triple 4K@144Hz specifically on MacBook Pro", "Brydge ProDock Trio TB5 MacBook Docking Station"],
-        ["General 4K multi-display without a specific refresh spec", "Dell SD25TB5 Pro Thunderbolt 5 Smart Dock"],
+        ["General 4K multi-display without a specific refresh spec", "Dell SD25TB5 Pro Thunderbolt 5 Smart Dock"]
       ],
     },
   },
@@ -109,9 +109,9 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $250", "CalDigit E5 Thunderbolt 5 Element 5 Hub ($249.99)"],
-        ["Under $400", "Lenovo ThinkPad Smart Dock 7500 ($368.00) or Brydge ProDock Trio ($399.00)"],
-        ["Under $450", "Dell SD25TB5 Pro ($445.99)"],
+        ["Under $250", "CalDigit E5 Thunderbolt 5 Element 5 Hub (under $250)"],
+        ["Under $400", "Lenovo ThinkPad Smart Dock 7500 (under $400) or Brydge ProDock Trio (under $400)"],
+        ["Under $450", "Dell SD25TB5 Pro (under $450)"]
       ],
     },
   },
@@ -119,7 +119,7 @@ export const howToChoose = [
     subheading: "Windows High-Refresh vs Mac High-Refresh",
     cards: [
       { label: "Windows high-refresh (Lenovo, CalDigit)", text: "Windows Thunderbolt 5 hosts on the Lenovo and CalDigit picks can reach triple 4K displays at 144Hz or higher, a configuration not available on macOS through the same docks." },
-      { label: "Mac high-refresh (Brydge, CalDigit)", text: "macOS is generally limited to fewer simultaneous high-refresh displays than Windows on the same hardware, with the Brydge and CalDigit picks both explicitly capping Mac display count below their Windows-side maximums." },
+      { label: "Mac high-refresh (Brydge, CalDigit)", text: "macOS is generally limited to fewer simultaneous high-refresh displays than Windows on the same hardware, with the Brydge and CalDigit picks both explicitly capping Mac display count below their Windows-side maximums." }
     ],
     note: "If you're on Windows and want the most simultaneous high-refresh displays, the Lenovo or CalDigit picks give you that headroom. If you're on a MacBook Pro specifically, the Brydge pick's honest per-chip disclosure helps you know exactly what to expect before buying.",
   },
@@ -130,7 +130,7 @@ export const howToChoose = [
       rows: [
         ["Maximum 180W charging for a demanding workstation laptop", "Lenovo ThinkPad Smart Dock 7500 or Dell SD25TB5 Pro"],
         ["140W charging for a MacBook Pro", "Brydge ProDock Trio TB5"],
-        ["Charging even when the dock isn't connected to a host", "CalDigit E5 (Offline Charging feature)"],
+        ["Charging even when the dock isn't connected to a host", "CalDigit E5 (Offline Charging feature)"]
       ],
     },
   },
@@ -138,16 +138,16 @@ export const howToChoose = [
     subheading: "For IT-Managed Office Fleets Specifically",
     cards: [
       { label: "Look for", text: "Remote fleet management capability that lets IT administrators configure, update, and diagnose docks across an organization without physically visiting each desk." },
-      { label: "In this comparison", text: "The Lenovo ThinkPad Smart Dock 7500 specifically includes Lenovo Accessories Fleet Manager, a cloud-based AWS-powered tool built for exactly this use case." },
+      { label: "In this comparison", text: "The Lenovo ThinkPad Smart Dock 7500 specifically includes Lenovo Accessories Fleet Manager, a cloud-based AWS-powered tool built for exactly this use case." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You need the most granular four-display refresh rate breakdown and enterprise fleet management, where the Lenovo pick's $368.00 price is justified by its IT-management features." },
-      { label: "Save if", text: "You mainly need dual or triple high-refresh displays without enterprise features, where the CalDigit E5 delivers that for $249.99, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You need the most granular four-display refresh rate breakdown and enterprise fleet management, where the Lenovo pick's under $400 price is justified by its IT-management features." },
+      { label: "Save if", text: "You mainly need dual or triple high-refresh displays without enterprise features, where the CalDigit E5 delivers that for under $250, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

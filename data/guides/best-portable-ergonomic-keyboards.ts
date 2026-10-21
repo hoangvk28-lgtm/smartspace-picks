@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable ergonomic keyboard";
 export const introParagraphs = [
   "Portability and genuine ergonomic benefit are frequently in tension, a truly compact travel keyboard often has to sacrifice some of the split or tenting features that make an ergonomic keyboard actually helpful, worth stating this tradeoff directly rather than assuming 'portable' and 'ergonomic' are automatically compatible. It's worth distinguishing genuinely foldable or split-and-collapsible keyboards that retain real ergonomic benefit from keyboards that are simply smaller and more travel-friendly while sacrificing more of the ergonomic design in the process.",
-  "Also worth checking, whether a protective case or pouch is actually bundled or sold separately, since a folding or hinged travel keyboard sees more packing wear than a stationary desk keyboard, and true weight matters too, since folding hinges can add enough bulk to partially offset the size reduction you were expecting.",
+  "Also worth checking, whether a protective case or pouch is actually bundled or sold separately, since a folding or hinged travel keyboard sees more packing wear than a stationary desk keyboard, and true weight matters too, since folding hinges can add enough bulk to partially offset the size reduction you were expecting."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Foldable Split Pick",
     name: "MEETION Foldable Ergonomic Bluetooth Keyboard, Split, Portable, Black",
     price: "$28.49",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "45 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41JiJNItp9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GCZNDB69?tag=deskfinds0d-20",
     description: "A genuinely foldable and split keyboard designed specifically for travel, retaining more real ergonomic benefit than a simply-smaller non-split travel keyboard. Its lower price and smaller review count reflect a newer, more niche product category.\n\nIt earns the top spot in this comparison over ProtoArc XK03 Ergonomic Foldable Keyboard for iPad for one main reason. Genuinely split, not just smaller. On price, it comes in below ProtoArc XK03 Ergonomic Foldable Keyboard for iPad, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Retains real ergonomic benefit while folding for travel. On the other side, Hinge mechanism adds some bulk versus a flat non-folding keyboard. That's the main tradeoff to weigh against everything above.",
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best for iPad and Tablet Travel",
     name: "ProtoArc XK03 Ergonomic Foldable Keyboard for iPad, iPhone, Tablet, Laptop",
     price: "$55.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "489 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Qw9A3JiYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D3HG7XZL?tag=deskfinds0d-20",
     description: "A foldable ergonomic keyboard designed for cross-device travel use with tablets and phones alongside laptops, carrying a stronger verified review base than the split MEETION pick above. Its folding mechanism prioritizes a compact form factor across multiple device types over a fully split ergonomic layout.\n\nOne spot below MEETION Foldable Ergonomic Bluetooth Keyboard in this ranking, it costs more than MEETION Foldable Ergonomic Bluetooth Keyboard. The compromise here is straightforward: Verify true split ergonomic benefit versus simple folding compactness. What you gain in return: Strong verified review base for a portable keyboard. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Works across tablets, phones, and laptops. On the other side, Case bundling should be verified on current listing. That's the main tradeoff to weigh against everything above.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best Foldable Combo for Business Travel",
     name: "ProtoArc XKM03 Ergonomic Foldable Keyboard Mouse for Business and Travel",
     price: "$64.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "232 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/415vm4OOObL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CWKPLHLH?tag=deskfinds0d-20",
     description: "A folding keyboard and mouse combo marketed specifically for business travel, useful for buyers who want a matched portable pair rather than sourcing a compact mouse separately. Its combined weight and bag footprint should be checked against the standalone keyboard-only picks in this guide.\n\nSitting just under ProtoArc XK03 Ergonomic Foldable Keyboard for iPad, it costs more than ProtoArc XK03 Ergonomic Foldable Keyboard for iPad. Here's the honest tradeoff: Higher combined weight than a keyboard-only pick. And here's what it gets you instead: Matched keyboard and mouse in one travel purchase. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Solid verified review base. On the other side, Higher price than standalone folding keyboards. That's the main tradeoff to weigh against everything above.",
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact 2-in-1 Travel Pick",
     name: "Perixx PERIDUO-606II 2-in-1 Wireless Compact Ergonomic Keyboard",
     price: "$69.99",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "21 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/3120zwwhcDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GMQMKVKF?tag=deskfinds0d-20",
     description: "A compact 2-in-1 wireless keyboard built around a smaller travel-friendly footprint rather than a fully split or folding mechanism, useful for buyers who want a smaller keyboard for a bag without a hinge to manage. It carries the highest rating among the picks in this guide, though its review base is still small.\n\nRanked just behind ProtoArc XKM03 Ergonomic Foldable Keyboard Mouse for Business and Travel, it costs more than ProtoArc XKM03 Ergonomic Foldable Keyboard Mouse for Business and Travel. The real tradeoff against that pick: Smaller verified review base. In exchange, it offers this instead: Highest rating among portable picks here. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: No folding hinge to wear out over repeated trips. On the other side, Not a folding design, so footprint reduction is more modest. That's the main tradeoff to weigh against everything above.",
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine split/foldable ergonomic benefit vs. simple compactness", description: "Distinguished keyboards that fold while retaining real split ergonomic benefit from those that are simply smaller and sacrifice more ergonomic design for portability." },
   { title: "Travel-specific durability", description: "Considered hinge and fold-cycle wear relevant to travel use, based on verified buyer feedback, rather than assuming desk-keyboard durability standards apply directly." },
   { title: "Case or pouch bundling", description: "Noted, where disclosed, whether a protective case ships with the keyboard versus requiring a separate purchase for travel protection." },
-  { title: "True packed weight, including hinges", description: "Weighed actual weight rather than assumed compactness, since folding mechanisms can add hinge weight that partially offsets the size reduction." },
+  { title: "True packed weight, including hinges", description: "Weighed actual weight rather than assumed compactness, since folding mechanisms can add hinge weight that partially offsets the size reduction." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -210,11 +210,11 @@ export const faq: FaqItem[] = [
   { q: "Do portable ergonomic keyboards sacrifice ergonomic benefit for size?", a: "Often somewhat, yes, a genuinely split or foldable design retains more benefit than a keyboard that's simply made smaller, check which type you're buying." },
   { q: "Does a folding keyboard include a carrying case?", a: "Not always, verify the current listing since some folding keyboards ship with a case and others require a separate purchase for travel protection." },
   { q: "Are folding keyboards actually lighter than standard ones?", a: "Usually, but the hinge mechanism adds some weight, check the true packed weight rather than assuming size reduction directly translates to proportional weight savings." },
-  { q: "How durable are folding keyboards over repeated travel?", a: "This varies by model, look for buyer feedback specifically about hinge wear after months of daily folding rather than assuming desk-keyboard durability standards apply." },
+  { q: "How durable are folding keyboards over repeated travel?", a: "This varies by model, look for buyer feedback specifically about hinge wear after months of daily folding rather than assuming desk-keyboard durability standards apply." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-compact-ergonomic-keyboards", title: "Best Compact Ergonomic Keyboards (2026)" },
   { href: "/guide/best-ergonomic-keyboards-for-laptops", title: "Best Ergonomic Keyboards for Laptops (2026)" },
-  { href: "/guide/best-rechargeable-ergonomic-keyboards", title: "Best Rechargeable Ergonomic Keyboards (2026)" },
+  { href: "/guide/best-rechargeable-ergonomic-keyboards", title: "Best Rechargeable Ergonomic Keyboards (2026)" }
 ];

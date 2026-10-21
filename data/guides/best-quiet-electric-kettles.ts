@@ -5,7 +5,7 @@ export const metaDescription = "Seven electric kettles for noise-sensitive space
 export const mainKeyword = "quiet electric kettle";
 export const introParagraphs = [
   "Almost no kettle listing publishes a measured noise figure, and that is the first thing to know before shopping for a quiet one. Noise comes from the rolling boil, the click of the switch and, on some models, a beeper at shut-off. What listings do describe is construction, and double-wall bodies, thermostat type and concealed-style bases are the honest signals available.",
-  "Seven kettles made the list from $29.98 to $62.99. Only one of them states a decibel figure, and that is a manufacturer claim we cannot verify, so we treat it as a lead, not a result. We compared the group on listed specs: double-wall construction, thermostat type, capacity, wattage, interior materials, presets and shut-off behavior. If a quiet kettle matters to you, buyer feedback on noise is worth reading before you commit."
+  "Seven kettles made the list from roughly $30 to $70. Only one of them states a decibel figure, and that is a manufacturer claim we cannot verify, so we treat it as a lead, not a result. We compared the group on listed specs: double-wall construction, thermostat type, capacity, wattage, interior materials, presets and shut-off behavior. If a quiet kettle matters to you, buyer feedback on noise is worth reading before you commit."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31CSn5S6P9L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B095WN628M?tag=deskfinds0d-20",
-    "description": "COOKTRON is a 1.7 liter, 1500W double-wall kettle whose listing claims quiet heating at less than 30 dB, an unverified seller figure. The inner pot, lid, rim and spout are 304 stainless, and it has a Strix thermostat, auto shut-off, boil-dry protection and a 360 degree base. The outer shell is BPA-free plastic.\n\nIt is the only kettle that makes a specific noise claim, and at $34.01 it costs less than most doubled-wall rivals. Against Yoochu, it states a thermostat brand and a noise figure.\n\nBest for a bedroom or open office where noise matters. The caveat is that the dB claim is unproven, and the outer shell is plastic.",
+    "description": "COOKTRON is a 1.7 liter, 1500W double-wall kettle whose listing claims quiet heating at less than 30 dB, an unverified seller figure. The inner pot, lid, rim and spout are 304 stainless, and it has a Strix thermostat, auto shut-off, boil-dry protection and a 360 degree base. The outer shell is BPA-free plastic.\n\nIt is the only kettle that makes a specific noise claim, and at under $35 it costs less than most doubled-wall rivals. Against Yoochu, it states a thermostat brand and a noise figure.\n\nBest for a bedroom or open office where noise matters. The caveat is that the dB claim is unproven, and the outer shell is plastic.",
     "specs": [
       "1.7L, 1500W, double wall",
       "Strix thermostat",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31VHYcz2eUL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GCHK4M88?tag=deskfinds0d-20",
-    "description": "Yoochu is a 1.7 liter, 1500W double-wall kettle with 304 stainless on every water-contact surface, a wide opening and a lid that opens at 45 degrees to prevent splashing. The listing says it boils 1.7 liters in 6 minutes and auto shuts off at boil or dry.\n\nIts double wall insulates both heat and some of the boil, but the listing makes no noise claim. It costs $29.98, the lowest of the group.\n\nChoose it for a double-wall build on a budget. The caveat is that quiet is not stated, so rely on the design and buyer feedback.",
+    "description": "Yoochu is a 1.7 liter, 1500W double-wall kettle with 304 stainless on every water-contact surface, a wide opening and a lid that opens at 45 degrees to prevent splashing. The listing says it boils 1.7 liters in 6 minutes and auto shuts off at boil or dry.\n\nIts double wall insulates both heat and some of the boil, but the listing makes no noise claim. It costs under $30, the lowest of the group.\n\nChoose it for a double-wall build on a budget. The caveat is that quiet is not stated, so rely on the design and buyer feedback.",
     "specs": [
       "1.7L, 1500W, double wall",
       "304 stainless on all water parts",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/412XfurEBDL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GS1FPXCK?tag=deskfinds0d-20",
-    "description": "Cosori's stainless 1.7 liter kettle uses 304 stainless on the spout, inner lid and filter, a plastic-free water level indicator and internal level markings. A blue LED turns off when boiling finishes, and a Strix thermostat handles shut-off. The listing says it retains heat better than Cosori's glass model.\n\nIt costs $31.99 and has no double wall named, unlike COOKTRON. The Strix shut-off gives a clean click rather than a beeper.\n\nBest for a plastic-free path with a dependable thermostat. The caveat is that no noise claim or wall design is stated, so quiet is unknown.",
+    "description": "Cosori's stainless 1.7 liter kettle uses 304 stainless on the spout, inner lid and filter, a plastic-free water level indicator and internal level markings. A blue LED turns off when boiling finishes, and a Strix thermostat handles shut-off. The listing says it retains heat better than Cosori's glass model.\n\nIt costs under $35 and has no double wall named, unlike COOKTRON. The Strix shut-off gives a clean click rather than a beeper.\n\nBest for a plastic-free path with a dependable thermostat. The caveat is that no noise claim or wall design is stated, so quiet is unknown.",
     "specs": [
       "1.7L stainless",
       "Plastic-free spout, lid, filter",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31taEiXna7L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DD5FH26S?tag=deskfinds0d-20",
-    "description": "Cuisinart's Soho is a 1 liter double-wall kettle with a stainless interior, one-touch operation, auto shut-off with overheat and boil-dry protection, cord storage in the base and a limited 3 year warranty. The listing says it stays cool to the touch.\n\nIt is the most compact double-wall pick and carries a 3 year warranty, which COOKTRON does not state. It costs $49.95, about $16 more than COOKTRON.\n\nChoose it for a small footprint and a longer warranty. The caveat is price, and noise is not described.",
+    "description": "Cuisinart's Soho is a 1 liter double-wall kettle with a stainless interior, one-touch operation, auto shut-off with overheat and boil-dry protection, cord storage in the base and a limited 3 year warranty. The listing says it stays cool to the touch.\n\nIt is the most compact double-wall pick and carries a 3 year warranty, which COOKTRON does not state. It costs under $50, about $16 more than COOKTRON.\n\nChoose it for a small footprint and a longer warranty. The caveat is price, and noise is not described.",
     "specs": [
       "1.0L, double wall",
       "Stainless interior",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41kRMc+eilL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FD9TD752?tag=deskfinds0d-20",
-    "description": "Mecity is a 1.7 liter, 1500W double-wall stainless kettle with a touch screen, six presets and keep-warm, and a listing that claims no plastic contact with water. The two-layer insulation keeps the outside cool.\n\nPresets let you heat only to the temperature you need, which can shorten a loud rolling boil. It costs $49.99 and is the only quiet-candidate here with presets plus a double wall.\n\nBest for a household that wants presets and a cool body. The caveat is that the listing does not claim quiet, and a preset below boil is only a possible noise help.",
+    "description": "Mecity is a 1.7 liter, 1500W double-wall stainless kettle with a touch screen, six presets and keep-warm, and a listing that claims no plastic contact with water. The two-layer insulation keeps the outside cool.\n\nPresets let you heat only to the temperature you need, which can shorten a loud rolling boil. It costs under $50 and is the only quiet-candidate here with presets plus a double wall.\n\nBest for a household that wants presets and a cool body. The caveat is that the listing does not claim quiet, and a preset below boil is only a possible noise help.",
     "specs": [
       "1.7L, 1500W, double wall",
       "6 presets, keep-warm",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31a0u6kJbFL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GYPVM45R?tag=deskfinds0d-20",
-    "description": "Epeios is a 0.9 liter, 1200W gooseneck with 1F adjustment from 100 to 212F, a 7 mm spout, a built-in brew timer, an LED display, a 60 minute keep-warm and 304 stainless on all water-contact surfaces. A boil time claim in the listing is garbled, so we ignore it.\n\nA 1200W element is less intense than the 1500W models, which can mean a gentler boil. It costs $59.48, near the top.\n\nChoose it for a gooseneck with a timer in a quieter-wattage class. The caveat is that no noise claim is made, and the gentler wattage is an inference, not a promise.",
+    "description": "Epeios is a 0.9 liter, 1200W gooseneck with 1F adjustment from 100 to 212F, a 7 mm spout, a built-in brew timer, an LED display, a 60 minute keep-warm and 304 stainless on all water-contact surfaces. A boil time claim in the listing is garbled, so we ignore it.\n\nA 1200W element is less intense than the 1500W models, which can mean a gentler boil. It costs under $60, near the top.\n\nChoose it for a gooseneck with a timer in a quieter-wattage class. The caveat is that no noise claim is made, and the gentler wattage is an inference, not a promise.",
     "specs": [
       "0.9L, 1200W, 1F steps",
       "7 mm gooseneck, brew timer",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31uIZeBbrUL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07T1CH2HH?tag=deskfinds0d-20",
-    "description": "Cosori's gooseneck is a 0.8 liter kettle with five presets, a hold-temperature function of up to 1 hour, a counterbalanced handle and an interior, lid and spout of 304 stainless with no plastic contact.\n\nIt is the priciest at $62.99 and has fewer presets than Epeios offers steps, but it names a counterbalanced handle for steady pours. Neither gooseneck claims quiet operation.\n\nBest for a premium pour-over kettle with a plastic-free path. The caveat is cost and the absence of any noise detail.",
+    "description": "Cosori's gooseneck is a 0.8 liter kettle with five presets, a hold-temperature function of up to 1 hour, a counterbalanced handle and an interior, lid and spout of 304 stainless with no plastic contact.\n\nIt is the priciest at under $70 and has fewer presets than Epeios offers steps, but it names a counterbalanced handle for steady pours. Neither gooseneck claims quiet operation.\n\nBest for a premium pour-over kettle with a plastic-free path. The caveat is cost and the absence of any noise detail.",
     "specs": [
       "0.8L gooseneck, 5 presets",
       "Hold up to 1 hour",
@@ -263,7 +263,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     "title": "Value for price",
-    "description": "Prices from $29.98 to $62.99 were compared with documented features."
+    "description": "Prices from roughly $30 to $70 were compared with documented features."
   }
 ];
 

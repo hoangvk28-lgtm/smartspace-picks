@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31EY34Xz3hL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F23M858F?tag=deskfinds0d-20",
-    description: "This is the only drive in this comparison that doubles the capacity of the 128GB options while still landing under $50, at 256GB for $43.69. Rated speed is 500MB/s over USB 3.1, and it includes both a USB-C to USB-A cable and a separate USB-A to USB-C adapter, covering older USB-A-only laptops and newer USB-C-only ones from the same box.\n\nThe tradeoff against the SSK pick above is a modest 50MB/s speed difference in exchange for double the capacity, which is the more useful trade for anyone storing more than a handful of large files. Its aluminum housing is rated by the listing for shock and dust resistance, and the compact 85.9 x 41 x 10mm size is genuinely pocket-sized rather than a marketing description that still requires a bag.\n\nBest for buyers who have outgrown a 128GB drive but don't want to spend more than $50, especially anyone who regularly works with game installs, video clips, or large photo libraries where 128GB fills up within a few sessions.",
+    description: "This is the only drive in this comparison that doubles the capacity of the 128GB options while still landing under $50, at 256GB for under $45. Rated speed is 500MB/s over USB 3.1, and it includes both a USB-C to USB-A cable and a separate USB-A to USB-C adapter, covering older USB-A-only laptops and newer USB-C-only ones from the same box.\n\nThe tradeoff against the SSK pick above is a modest 50MB/s speed difference in exchange for double the capacity, which is the more useful trade for anyone storing more than a handful of large files. Its aluminum housing is rated by the listing for shock and dust resistance, and the compact 85.9 x 41 x 10mm size is genuinely pocket-sized rather than a marketing description that still requires a bag.\n\nBest for buyers who have outgrown a 128GB drive but don't want to spend more than $50, especially anyone who regularly works with game installs, video clips, or large photo libraries where 128GB fills up within a few sessions.",
     specs: ["256GB capacity at 500MB/s USB 3.1", "Includes both USB-C-to-A cable and USB-A-to-C adapter", "Compact aluminum body, 85.9x41x10mm"],
     pros: ["Double the capacity of the 128GB picks for a few dollars more", "Covers both USB-C and USB-A hosts out of the box", "Genuinely pocket-sized, not just marketed that way"],
     cons: ["50MB/s slower rated speed than the fastest pick here", "Aluminum housing shows fingerprints and light scuffs over time"],
@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["The fastest transfer speed available under $50", "SSK 128GB Portable SSD"],
         ["The absolute lowest price for a real SSD", "LINTYLE 128GB External SSD"],
-        ["More storage without exceeding $50", "KEXIN 256GB External SSD"],
+        ["More storage without exceeding $50", "KEXIN 256GB External SSD"]
       ],
     },
   },
@@ -116,9 +116,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $30", "LINTYLE 128GB External SSD ($28.49)"],
-        ["$35-$45", "SSK 128GB Portable SSD ($38.99) or KEXIN 256GB External SSD ($43.69)"],
-        ["$45-$50", "Aiibe 256GB External SSD ($45.99)"],
+        ["Under $30", "LINTYLE 128GB External SSD (under $30)"],
+        ["$35-$45", "SSK 128GB Portable SSD (under $40) or KEXIN 256GB External SSD (under $45)"],
+        ["$45-$50", "Aiibe 256GB External SSD (under $50)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "128GB vs 256GB",
     cards: [
       { label: "128GB (SSK, LINTYLE)", text: "Cheaper and plenty for documents, photos, and moderate video, but fills up fast with game installs or 4K footage. Best if you already have a primary storage drive and this is a quick-transfer or backup companion." },
-      { label: "256GB (KEXIN, Aiibe)", text: "A few dollars more for double the room, the better default for anyone unsure how much they'll actually store on it. Best if this drive is doing double duty as a small working archive, not just a transfer tool." },
+      { label: "256GB (KEXIN, Aiibe)", text: "A few dollars more for double the room, the better default for anyone unsure how much they'll actually store on it. Best if this drive is doing double duty as a small working archive, not just a transfer tool." }
     ],
     note: "Most buyers should default to a 256GB pick like the KEXIN unless the lower price of a 128GB drive genuinely matters more than the extra headroom.",
   },
@@ -136,7 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your setup", "Recommended pick"],
       rows: [
         ["Mostly USB-C devices (newer laptops, USB-C iPhone)", "LINTYLE 128GB External SSD"],
-        ["Mix of USB-A and USB-C devices", "SSK 128GB Portable SSD or KEXIN 256GB External SSD"],
+        ["Mix of USB-A and USB-C devices", "SSK 128GB Portable SSD or KEXIN 256GB External SSD"]
       ],
     },
   },
@@ -144,16 +144,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Photo and Video Transfer Specifically",
     cards: [
       { label: "Look for", text: "A rated speed of at least 500MB/s and a stated capacity that comfortably fits your typical shoot size, since 4K video and RAW photo batches consume space quickly." },
-      { label: "In this comparison", text: "The SSK 128GB Portable SSD rates highest at 550MB/s for pure speed, while the KEXIN 256GB External SSD better balances speed and room for a full shoot's worth of files." },
+      { label: "In this comparison", text: "The SSK 128GB Portable SSD rates highest at 550MB/s for pure speed, while the KEXIN 256GB External SSD better balances speed and room for a full shoot's worth of files." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You need SMART health reporting or guaranteed TRIM support for long-term reliability tracking, features that are inconsistent on USB 3.x drives at this price and generally require stepping up to a USB4 or Thunderbolt drive to get reliably." },
-      { label: "Save if", text: "You mainly need a quick-transfer drive for documents and photos between two or three devices, where the LINTYLE 128GB External SSD or KEXIN 256GB External SSD already cover the need without paying for capability you won't use." },
+      { label: "Save if", text: "You mainly need a quick-transfer drive for documents and photos between two or three devices, where the LINTYLE 128GB External SSD or KEXIN 256GB External SSD already cover the need without paying for capability you won't use." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

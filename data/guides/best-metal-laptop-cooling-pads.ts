@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "metal laptop cooling pads";
 export const introParagraphs = [
   "A metal laptop cooling pad does not automatically run cooler than a plastic one. Metal can conduct heat away from the laptop's base faster than plastic, but only a handful of pads in this niche actually use a full aluminum or steel chassis. Many listings mention a metal mesh top over an otherwise plastic frame, which is a different thing entirely and worth knowing before you pay a premium for a 'metal' pad.",
-  "This guide checked each listing's stated materials against its marketing language. We ranked pads with a genuine aluminum or steel body above pads that only use a metal mesh surface, and we call out the difference plainly in each review rather than let the word 'metal' do unearned work in a product title.",
+  "This guide checked each listing's stated materials against its marketing language. We ranked pads with a genuine aluminum or steel body above pads that only use a metal mesh surface, and we call out the difference plainly in each review rather than let the word 'metal' do unearned work in a product title."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "10 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Material verification", description: "We checked each listing's own feature copy for an explicit aluminum, steel, or metal-alloy claim, and separated genuine metal-body pads from pads that only describe a metal mesh top." },
   { title: "Weight and portability tradeoff", description: "We compared stated weights, since a real metal chassis adds bulk versus plastic or a mesh-top design, which matters for anyone who carries a pad in a laptop bag." },
   { title: "Airflow design independent of material", description: "We evaluated fan count, RPM, and coverage pattern separately from material claims, since a plastic pad with strong fans can outperform a metal pad with a weak one." },
-  { title: "Noise and structural tradeoffs", description: "We weighed documented noise figures and frame rigidity together, since metal frames can transmit fan vibration differently than plastic ones." },
+  { title: "Noise and structural tradeoffs", description: "We weighed documented noise figures and frame rigidity together, since metal frames can transmit fan vibration differently than plastic ones." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -291,11 +291,11 @@ export const faq: FaqItem[] = [
   { q: "How can I tell if a 'metal' cooling pad is really metal?", a: "Check the listing's material description specifically for 'aluminum alloy,' 'steel,' or similar language applied to the panel or frame, not just the mesh surface. Several listings in this category describe only a metal mesh top." },
   { q: "Are metal cooling pads heavier than plastic ones?", a: "Generally yes. A genuinely metal-bodied pad in this guide weighs more than mesh-top or plastic alternatives of similar size, which is worth factoring in if you travel with your pad." },
   { q: "Is a metal frame noisier than plastic?", a: "It can be. Rigid metal frames sometimes resonate with fan vibration in a way plastic housings absorb more of. Check buyer feedback for rattling complaints specifically on metal-bodied models." },
-  { q: "Should I pay more for a metal cooling pad?", a: "Only if you have a specific reason to want conductive heat transfer or added structural rigidity. Several non-metal pads in this list document stronger fan performance at a lower price." },
+  { q: "Should I pay more for a metal cooling pad?", a: "Only if you have a specific reason to want conductive heat transfer or added structural rigidity. Several non-metal pads in this list document stronger fan performance at a lower price." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" },
   { href: "/guide/best-high-rpm-laptop-cooling-pads", title: "Best High-RPM Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-rgb-laptop-cooling-pads", title: "Best RGB Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-rgb-laptop-cooling-pads", title: "Best RGB Laptop Cooling Pads (2026)" }
 ];

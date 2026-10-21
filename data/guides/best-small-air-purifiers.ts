@@ -5,7 +5,7 @@ export const metaDescription = "5 small air purifiers we evaluated, with the CAD
 export const mainKeyword = "small air purifier";
 export const introParagraphs = [
   "A small footprint often comes with a smaller fan and less filter surface area, meaning a genuinely lower CADR (Clean Air Delivery Rate) than the compact size alone would suggest, worth checking the actual coverage rating rather than assuming small equals sufficient.",
-  "Desktop-sized units are appropriate for a single small room or a desk zone specifically, not a whole small apartment, a scope mismatch that leads to disappointing results when a compact unit is asked to cover more space than it's rated for.",
+  "Desktop-sized units are appropriate for a single small room or a desk zone specifically, not a whole small apartment, a scope mismatch that leads to disappointing results when a compact unit is asked to cover more space than it's rated for."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Small Air Purifier Overall",
     name: "Medify MA-35 Air Purifier with H13 True HEPA Filter | 330 sq ft Coverage | for Allergies, Pets, Smoke, Smokers, Dust, Odors | Quiet 99.9% Removal to 0.1 Microns | White, 1-Pack",
     price: "$107.99",
-    rating: "3.9 stars from 197 Amazon ratings",
-    reviews: "197 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51SEA4kds4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08GQ9BQB4?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Small Air Purifier for Proven Reliability",
     name: "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom, H13 True HEPA Filter, 24db Filtration System Cleaner Odor Eliminators, Remove 99.97% Dust Smoke Mold Pollen, Core 300, White",
     price: "$89.99",
-    rating: "4.7 stars from 108,251 Amazon ratings",
-    reviews: "108,251 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Small Air Purifier",
     name: "MOOKA Air Purifiers for Home Large Room, PR1 HEPA Air Purifier",
     price: "$79.99",
-    rating: "4.6 stars from 4,454 Amazon ratings",
-    reviews: "4,454 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51nlbgobV2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCBC8KKV?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Ultra-Compact Small Air Purifier",
     name: "MOOKA Small Air Purifier for Bedroom",
     price: "$45.30",
-    rating: "4.5 stars from 9,252 Amazon ratings",
-    reviews: "9,252 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41zOBElZS-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08PJQ3MWB?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Small Air Purifier with Largest Track Record",
     name: "Germ Guardian True HEPA Filter Air Purifier for Home",
     price: "$80.74",
-    rating: "4.6 stars from 63,485 Amazon ratings",
-    reviews: "63,485 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/316AtkHoSdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004VGIGVY?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Large, well-established review base", "Compact footprint for a small room", "True HEPA filtration", "Reasonable price"],
     cons: ["Not rated for a whole small apartment", "No filter indicator", "Fewer smart features than premium alternatives"],
     bestFor: "Small bedrooms or home offices wanting a proven compact pick",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "CADR relative to compact footprint", description: "Considered that a small footprint often comes with a smaller fan and less filter surface area, meaning a genuinely lower CADR than the compact size alone would suggest." },
   { title: "Realistic scope: single room versus whole apartment", description: "Weighed that desktop-sized units are appropriate for a single small room or a desk zone specifically, not a whole small apartment." },
-  { title: "Disclosed coverage rating verified against claims", description: "Checked whether each pick published a genuine coverage or CADR figure rather than relying on compact size alone to imply adequate performance." },
+  { title: "Disclosed coverage rating verified against claims", description: "Checked whether each pick published a genuine coverage or CADR figure rather than relying on compact size alone to imply adequate performance." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "What should I check before buying a compact air purifier?", a: "Verify it has a genuine disclosed coverage or CADR rating rather than assuming its small size alone implies adequate performance for your specific room." },
   { q: "Should I buy one compact unit or several for a small multi-room apartment?", a: "Several is often better. A studio or small apartment with multiple distinct areas typically does better with one compact unit per room than a single unit expected to cover everything." },
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers wanting a compact unit with a genuinely disclosed coverage rating" },
-  { q: "Which pick offers the best value for a tight budget?", a: "A desk zone or personal space rather than a full small bedroom At $45.30, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "A desk zone or personal space rather than a full small bedroom At under $50, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-compact-air-purifiers-for-desks", title: "Best Compact Air Purifiers for Desks (2026)" },
   { href: "/guide/best-desktop-air-purifiers", title: "Best Desktop Air Purifiers (2026)" },
-  { href: "/guide/best-portable-air-purifiers", title: "Best Portable Air Purifiers (2026)" },
+  { href: "/guide/best-portable-air-purifiers", title: "Best Portable Air Purifiers (2026)" }
 ];

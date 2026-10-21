@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "printer for college students";
 export const introParagraphs = [
   "The right printer for a college student depends heavily on what you're actually studying, an architecture student printing large drafts has almost nothing in common with a law student running through hundreds of pages of case text, yet most buying guides treat every student the same. Scan needs vary just as much, a single signed form is a different job than a stack of handwritten problem sets a professor wants digitized.",
-  "Below are 8 printers for college students we evaluated on cost-per-page against a realistic 200-400 page semester volume, scan capability for common assignment types, and compatibility with the school-issued Chromebooks and locked-down Windows laptops many students are required to use.",
+  "Below are 8 printers for college students we evaluated on cost-per-page against a realistic 200-400 page semester volume, scan capability for common assignment types, and compatibility with the school-issued Chromebooks and locked-down Windows laptops many students are required to use."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Print, scan, copy",
       "3-month Instant Ink trial included",
       "AI-capable",
-      "Compact design",
+      "Compact design"
     ],
     pros: [
       "Solid general-purpose pick for undeclared or non-technical majors",
       "Included ink trial reduces upfront ink cost",
       "Compact footprint for a dorm or apartment desk",
-      "Simple wireless setup",
+      "Simple wireless setup"
     ],
     cons: [
       "Not optimized for any single major's specific needs",
       "Instant Ink subscription cost applies after the trial",
-      "No auto document feeder",
+      "No auto document feeder"
     ],
     bestFor: "Students in general education or undeclared majors with mixed print needs",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Duplex printing",
       "Print, copy, scan",
       "Compact desktop footprint",
-      "1-year limited warranty",
+      "1-year limited warranty"
     ],
     pros: [
       "Strong color output for design and art coursework",
       "Duplex printing for double-sided project pages",
       "Compact enough for a shared studio or dorm desk",
-      "Lower price than most photo-focused printers",
+      "Lower price than most photo-focused printers"
     ],
     cons: [
       "Higher cost-per-page than laser picks in this list",
       "Not built for large-format architecture drafts",
-      "Ink can dry out if printing is infrequent",
+      "Ink can dry out if printing is infrequent"
     ],
     bestFor: "Art, design, and other visually heavy coursework needing color output",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Mobile printing support",
       "Black and white output",
       "Includes Refresh Subscription trial",
-      "Works with Alexa",
+      "Works with Alexa"
     ],
     pros: [
       "Lowest cost-per-page for high-volume text printing",
       "Toner doesn't dry out over school breaks",
       "Mobile printing support",
-      "Compact for a laser printer",
+      "Compact for a laser printer"
     ],
     cons: [
       "Black and white output only",
       "Higher upfront price than entry inkjets",
-      "Not suited to color-heavy coursework",
+      "Not suited to color-heavy coursework"
     ],
     bestFor: "Law, business, and other high-volume text-reading majors",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Built-in fax",
       "Mobile printing support",
       "Print, scan, copy, fax",
-      "White finish",
+      "White finish"
     ],
     pros: [
       "Auto document feeder for multi-page scanning",
       "Mobile printing from a phone",
       "Handles single scans and stacks equally well",
-      "Reasonable price for the added feeder",
+      "Reasonable price for the added feeder"
     ],
     cons: [
       "Larger footprint than flatbed-only printers",
       "Color inkjet cost-per-page still applies for color jobs",
-      "Fax feature is rarely used by most students",
+      "Fax feature is rarely used by most students"
     ],
     bestFor: "Students who regularly scan multi-page problem sets or signed documents",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Basic home printing focus",
       "Compact, lightweight body",
       "Print, scan, copy",
-      "White finish",
+      "White finish"
     ],
     pros: [
       "Lowest price among full all-in-ones in this list",
       "Compact and easy to fit on a small desk",
       "Simple wireless setup",
-      "Covers basic essay and worksheet printing",
+      "Covers basic essay and worksheet printing"
     ],
     cons: [
       "No auto document feeder",
       "Higher cost-per-page than a laser at high volume",
-      "Not ideal for color-heavy or high-volume majors",
+      "Not ideal for color-heavy or high-volume majors"
     ],
     bestFor: "Budget-conscious students with light, general printing needs",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Mobile and tablet printing support",
       "Print, scan, copy",
       "Black finish",
-      "Compact desktop design",
+      "Compact desktop design"
     ],
     pros: [
       "Strong mobile and tablet printing support for restricted devices",
       "Black finish resists visible smudging",
       "Reliable wireless pairing on personal networks",
-      "Print, scan, and copy in one unit",
+      "Print, scan, and copy in one unit"
     ],
     cons: [
       "Highest price among the inkjet picks in this list",
       "No document feeder for multi-page scans",
-      "School-managed Windows builds may still block driver installs regardless",
+      "School-managed Windows builds may still block driver installs regardless"
     ],
     bestFor: "Students using a school-issued Chromebook or locked-down Windows laptop",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Supports 8.5x11\" Letter and A4",
       "300 DPI resolution",
       "iOS, Android, and laptop compatible",
-      "No ink or toner cartridges",
+      "No ink or toner cartridges"
     ],
     pros: [
       "No cost-per-page ink or toner expense",
       "Works directly from a phone over Bluetooth",
       "No driver installation needed for any device",
-      "Extremely light and packable",
+      "Extremely light and packable"
     ],
     cons: [
       "Thermal prints fade over time",
       "Black-and-white output only",
-      "Not realistic as a primary printer for heavy semester volume",
+      "Not realistic as a primary printer for heavy semester volume"
     ],
     bestFor: "Students with very light printing needs who mostly use library printers",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Black finish",
       "Print, scan, copy",
       "Fuller control panel layout",
-      "Compact desktop design",
+      "Compact desktop design"
     ],
     pros: [
       "Most complete feature set in this list",
       "Good fit for shared group or roommate printing",
       "Reliable wireless setup",
-      "Black finish resists visible smudging",
+      "Black finish resists visible smudging"
     ],
     cons: [
       "Highest price in this list",
       "Overkill for a single student with light printing needs",
-      "Color inkjet cost-per-page still applies for color jobs",
+      "Color inkjet cost-per-page still applies for color jobs"
     ],
     bestFor: "Roommates or project groups splitting the cost of one shared printer",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for a student budget",
     description: "Weighed upfront price against expected semester ink or toner cost, since the cheapest printer to buy isn't always the cheapest to run for a full term.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,11 +477,11 @@ export const faq: FaqItem[] = [
   {
     q: "Is it cheaper to print at the library or buy my own printer?",
     a: "For light printing needs, campus library or lab printing fees per semester can come out cheaper than buying a printer plus ink over a full college stay. For students who print regularly or plan to share the cost with roommates or a project group, owning a printer usually works out cheaper over time.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-dorm-rooms", title: "Best Printers for Dorm Rooms (2026)" },
   { href: "/guide/best-printers-for-remote-workers", title: "Best Printers for Remote Workers (2026)" },
-  { href: "/guide/25-best-dorm-items-under-25", title: "25 Best Dorm Items Under $25 (2026)" },
+  { href: "/guide/25-best-dorm-items-under-25", title: "25 Best Dorm Items Under $25 (2026)" }
 ];

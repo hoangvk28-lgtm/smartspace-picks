@@ -5,7 +5,7 @@ export const metaDescription = "5 KVM switches for Mac we evaluated, with a note
 export const mainKeyword = "kvm switch for mac";
 export const introParagraphs = [
   "macOS handles external display resolution through its own 'Looks like' scaling system, worth verifying a switch's EDID emulation is confirmed to work correctly on Mac specifically rather than assuming a switch primarily tested on Windows performs identically when connected to a Mac.",
-  "Apple Silicon Macs have chip-generation-specific external display limits, some base M-series chips support only one external display natively, worth confirming your specific Mac model's external display capability before assuming a switch can drive your intended monitor count.",
+  "Apple Silicon Macs have chip-generation-specific external display limits, some base M-series chips support only one external display natively, worth confirming your specific Mac model's external display capability before assuming a switch can drive your intended monitor count."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     badge: "Best KVM Switch for Mac Overall",
     name: "UGREEN HDMI KVM Switch 1 Monitor 2 Computers, 8K@60Hz, Aluminum",
     price: "$64.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41K5Wvne7oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFFCPL26?tag=deskfinds0d-20",
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     badge: "Best Multi-Monitor Pick for Mac",
     name: "UGREEN 8K@60Hz HDMI Displayport KVM Switch 3 Monitors 2 Computers, Aluminum",
     price: "$92.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41r-g4mzwpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G34NJ11Y?tag=deskfinds0d-20",
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Monitor Pick for Mac",
     name: "UGREEN HDMI KVM Switch 2 Monitors 2 Computers 4K@60Hz, with 4 USB 3.0 Ports",
     price: "$69.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41ZrB2w7oOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXF66SWR?tag=deskfinds0d-20",
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick for Mac",
     name: "USB3.0 KVM Switch 2 Port HDMI, 4K@60Hz KVM Switch 1 Monitors 2 Computers with 3 USB3.0 Ports",
     price: "$32.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41uSOQO2ILL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFVBK4XQ?tag=deskfinds0d-20",
@@ -89,7 +89,7 @@ export const products: GuideProduct[] = [
     badge: "Best Ultra-Budget Pick for Mac",
     name: "Hearvo USB 3.0 HDMI KVM Switch for 2 Computers 1 Monitor, 4K@60Hz, S7232H",
     price: "$26.23",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41ll9M3dnWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5D4FK1H?tag=deskfinds0d-20",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "EDID emulation verified specifically for Mac compatibility", description: "Verified whether EDID emulation is confirmed to work correctly on Mac specifically, since macOS handles external display resolution differently than Windows." },
   { title: "Apple Silicon chip-generation display limits flagged", description: "Flagged that Apple Silicon Macs have chip-generation-specific external display limits, recommending buyers confirm their specific model's capability first." },
   { title: "Monitor count support matched to Mac chip variant capability", description: "Matched single, dual, and triple-monitor switch options against which Mac chip variants can actually support that many external displays." },
-  { title: "Peripheral compatibility considered for typical creative Mac workflows", description: "Considered USB peripheral switching reliability for external drives and other peripherals common in creative Mac workflows." },
+  { title: "Peripheral compatibility considered for typical creative Mac workflows", description: "Considered USB peripheral switching reliability for external drives and other peripherals common in creative Mac workflows." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -227,11 +227,11 @@ export const faq: FaqItem[] = [
   { q: "Should I buy a three-monitor KVM switch for my Mac?", a: "Only if your specific Mac chip variant can drive that many external displays, verify this before buying a switch with more capability than your Mac supports." },
   { q: "Do budget KVM switches work well with Mac?", a: "They can, but verify EDID emulation and peripheral compatibility specifically for Mac through current reviews regardless of price." },
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Mac buyers wanting a high-resolution-ceiling switch with reliable build quality" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious Mac buyers wanting the most affordable simple KVM switch At $26.23, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious Mac buyers wanting the most affordable simple KVM switch At under $30, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-kvm-switches-for-mac-mini", title: "Best KVM Switches for Mac Mini (2026)" },
   { href: "/guide/best-kvm-switches-for-mac-and-pc", title: "Best KVM Switches for Mac and PC (2026)" },
-  { href: "/guide/best-4k-kvm-switches", title: "Best 4K KVM Switches (2026)" },
+  { href: "/guide/best-4k-kvm-switches", title: "Best 4K KVM Switches (2026)" }
 ];

@@ -184,7 +184,7 @@ export default async function BestErgonomicChairUnder300Page() {
     about: [
       { "@type": "Thing", name: "Ergonomic Chairs Under $300" },
       { "@type": "Thing", name: "Home Office Chairs" },
-      { "@type": "Thing", name: "Lumbar Support Chairs" },
+      { "@type": "Thing", name: "Lumbar Support Chairs" }
     ],
   };
 
@@ -204,7 +204,7 @@ export default async function BestErgonomicChairUnder300Page() {
         position: 3,
         name: "Best Ergonomic Chair Under $300",
         item: `${SITE_URL}/guide/best-ergonomic-chair-under-300`,
-      },
+      }
     ],
   };
 
@@ -507,7 +507,7 @@ export default async function BestErgonomicChairUnder300Page() {
                       what: "Senses weight shift and adjusts automatically",
                       best: "Users who change posture frequently and dislike manual readjustment",
                       guide: "Sihoo Doro C300",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs whitespace-nowrap">
@@ -575,7 +575,7 @@ export default async function BestErgonomicChairUnder300Page() {
                       adj: "Height + pivot + forward/back + width",
                       limit: "Most complete - longer setup time",
                       guide: "Nouhaus Ergo3D, Duramont",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -643,7 +643,7 @@ export default async function BestErgonomicChairUnder300Page() {
                       mesh: "Sihoo C300, M57, Nouhaus, TRALT",
                       foam: "Duramont, CASASIO",
                       hdf: "Gabrylly, Hbada, Marsail",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -801,7 +801,7 @@ export default async function BestErgonomicChairUnder300Page() {
                     situation: "Mid-range, upgrading from a basic chair",
                     pick: "Marsail Ergonomic",
                     why: "3D armrests + 2D lumbar at $150-$200 mid-range price",
-                  },
+                  }
                 ].map((row, i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                     <td className="px-4 py-3 text-ink text-xs font-medium">{row.situation}</td>
@@ -868,7 +868,7 @@ export default async function BestErgonomicChairUnder300Page() {
                 name: "Duramont Ergonomic",
                 verdict:
                   ": 4D lumbar (most adjustment axes in this guide), memory foam seat, rollerblade wheels, 155 deg recline for hard-floor setups.",
-              },
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

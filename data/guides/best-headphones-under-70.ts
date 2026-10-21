@@ -49,17 +49,17 @@ export const products: Budget70Headphone[] = [
     tradeoffs: [
       "No ANC",
       "30mm drivers smaller than most competitors 40mm",
-      "On-ear design can feel tight after 2 to 3 hours",
+      "On-ear design can feel tight after 2 to 3 hours"
     ],
     skipIf:
-      "ANC is essential. The Soundcore Q20i at $55 to $70 delivers 4-microphone hybrid ANC.",
+      "ANC is essential. The Soundcore Q20i at under $60 to $70 delivers 4-microphone hybrid ANC.",
     pros: [
       "Sony brand quality and support",
       "Multipoint Bluetooth (2 devices)",
       "Quick Charge (3 min = 60 min)",
       "50h battery",
       "Lightest in guide at 147g",
-      "USB-C charging",
+      "USB-C charging"
     ],
     cons: ["No ANC", "30mm drivers", "On-ear pressure on long sessions"],
   },
@@ -81,7 +81,7 @@ export const products: Budget70Headphone[] = [
     tradeoffs: [
       "14h battery is the lowest of the wireless picks",
       "Bluetooth 4.2 (older spec, not 5.x)",
-      "No ANC, plainer aesthetic",
+      "No ANC, plainer aesthetic"
     ],
     skipIf:
       "Battery life is a top concern. The Sony WH-CH520 at 50h or Life Q30 at 40h ANC-on are better for longevity.",
@@ -90,7 +90,7 @@ export const products: Budget70Headphone[] = [
       "Best call clarity in the guide",
       "Lightweight (140g) fold-flat",
       "Includes 3.5mm AUX cable",
-      "USB-C charging",
+      "USB-C charging"
     ],
     cons: ["14h battery, lowest wireless pick", "Bluetooth 4.2", "No ANC"],
   },
@@ -112,7 +112,7 @@ export const products: Budget70Headphone[] = [
     tradeoffs: [
       "No multipoint Bluetooth",
       "Price fluctuates, confirm under $70 before buying",
-      "ANC strongest at low-frequency noise, less effective against voices",
+      "ANC strongest at low-frequency noise, less effective against voices"
     ],
     skipIf:
       "You want LDAC Hi-Res wireless audio. The Space Q45 adds LDAC when on sale under $70.",
@@ -122,12 +122,12 @@ export const products: Budget70Headphone[] = [
       "Transparency mode",
       "Hi-Res Audio certified",
       "App EQ",
-      "USB-C charging",
+      "USB-C charging"
     ],
     cons: [
       "No multipoint Bluetooth",
       "Price fluctuates",
-      "ANC less effective on voices",
+      "ANC less effective on voices"
     ],
   },
   {
@@ -146,23 +146,23 @@ export const products: Budget70Headphone[] = [
     whyItWorks:
       "LDAC codec transmits up to 990kbps vs Bluetooth SBC's 328kbps; on an Android phone or LDAC-compatible source the Space Q45 delivers Hi-Res wireless audio quality that headphones at $100 or more with only SBC or AAC cannot match; adaptive ANC automatically adjusts based on ambient noise; 50h with ANC on; multipoint Bluetooth; MSRP about $100 but regularly drops to $57 to $75; when on sale under $70 this is exceptional value",
     tradeoffs: [
-      "MSRP about $100, only under $70 on sale, verify before buying",
+      "MSRP about $100, under $70 on sale, verify before buying",
       "LDAC only benefits Android users, iPhone falls back to AAC",
-      "Slightly bulkier than other over-ear picks",
+      "Slightly bulkier than other over-ear picks"
     ],
     skipIf:
-      "Current price is above $70. The Soundcore Q20i at $55 is the reliable under-$70 ANC alternative.",
+      "Current price is above $70. The Soundcore Q20i at under $60 is the reliable under-$70 ANC alternative.",
     pros: [
       "LDAC Hi-Res wireless (best audio quality of wireless picks)",
       "Adaptive ANC",
       "50h with ANC on",
       "Multipoint Bluetooth (2 devices)",
-      "App EQ",
+      "App EQ"
     ],
     cons: [
-      "Only under $70 on sale, price fluctuates",
+      "Under $70 on sale, price fluctuates",
       "LDAC limited to Android",
-      "Slightly bulkier",
+      "Slightly bulkier"
     ],
   },
   {
@@ -183,7 +183,7 @@ export const products: Budget70Headphone[] = [
     tradeoffs: [
       "No inline microphone on standard model",
       "Wired only via 3m coiled cable",
-      "Not practical for commuting",
+      "Not practical for commuting"
     ],
     skipIf:
       "You need wireless. There is no wireless equivalent at this price that matches studio monitor audio accuracy.",
@@ -192,7 +192,7 @@ export const products: Budget70Headphone[] = [
       "Professional monitor heritage (ATH M-Series)",
       "Excellent passive isolation (closed-back)",
       "No battery to charge",
-      "Includes 6.3mm adapter",
+      "Includes 6.3mm adapter"
     ],
     cons: ["No inline mic", "Wired 3m coil only", "Not for commuting"],
   },
@@ -212,9 +212,9 @@ export const products: Budget70Headphone[] = [
     whyItWorks:
       "HyperX Cloud Series has a decade-long track record in gaming audio; DTS Headphone:X spatial audio delivers positional audio for games and movies; 50mm drivers produce fuller bass response than any headphone in the other categories; swivel-to-mute mic arm eliminates software muting; memory foam ear cushions; works on PC, PS5, PS4, Xbox Series, Nintendo Switch, and mobile via 3.5mm without adapters; the right single headset for students who game and study on the same setup",
     tradeoffs: [
-      "Wired only, no Bluetooth (wireless versions start at $99)",
+      "Wired only, no Bluetooth (wireless versions start at under $100)",
       "Gaming-tuned sound signature, not neutral",
-      "3.5mm cable management on a small desk",
+      "3.5mm cable management on a small desk"
     ],
     skipIf:
       "You do not game. The Sony WH-CH520 or ATH-M30x are better for study-only use cases.",
@@ -224,12 +224,12 @@ export const products: Budget70Headphone[] = [
       "50mm drivers",
       "Swivel-to-mute mic",
       "Universal 3.5mm compatibility (PC + console + mobile)",
-      "Memory foam cushions",
+      "Memory foam cushions"
     ],
     cons: [
       "Wired only",
       "Gaming-colored sound not neutral for music",
-      "Cable on small desk",
+      "Cable on small desk"
     ],
   },
   {
@@ -250,7 +250,7 @@ export const products: Budget70Headphone[] = [
     tradeoffs: [
       "MSRP $99, only worth buying when discounted to $50 to $70, verify price",
       "IPX2 only, not gym-grade waterproof",
-      "Full features require Samsung Galaxy device",
+      "Full features require Samsung Galaxy device"
     ],
     skipIf:
       "You use an iPhone or non-Samsung Android. Full Galaxy Wearable features require Samsung. The Soundcore P40i is a better choice for non-Samsung users.",
@@ -259,14 +259,14 @@ export const products: Budget70Headphone[] = [
       "ANC effective for ambient noise",
       "3-mic array with wind reduction",
       "USB-C charging",
-      "Find My Mobile support",
+      "Find My Mobile support"
     ],
     cons: [
       "MSRP $99, must be at sale price",
       "IPX2 only",
-      "Full features require Samsung device",
+      "Full features require Samsung device"
     ],
-  },
+  }
 ];
 
 export const atAGlanceRows = products.map((p) => ({
@@ -300,7 +300,7 @@ export const faq = [
   {
     q: "Should I buy the Samsung Galaxy Buds FE at regular price?",
     a: "No. At $99 MSRP there are better options. The Galaxy Buds FE is good value specifically when discounted to $50 to $70. Always verify the current price before purchasing.",
-  },
+  }
 ];
 
 export const relatedGuides = [
@@ -309,5 +309,5 @@ export const relatedGuides = [
     href: "/guide/best-headphones-for-gaming",
     title: "Best Headphones for Gaming",
   },
-  { href: "/guide/best-headset-for-work", title: "Best Headset for Work" },
+  { href: "/guide/best-headset-for-work", title: "Best Headset for Work" }
 ];

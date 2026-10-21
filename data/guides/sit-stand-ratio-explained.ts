@@ -12,7 +12,7 @@ export const sitStandRatioExplainedGuide: Guide = {
     "how much should i stand at desk",
     "sit stand desk schedule",
     "standing desk time recommendations",
-    "building standing desk habit",
+    "building standing desk habit"
   ],
   heroImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const sitStandRatioExplainedGuide: Guide = {
     "standing-desk-height-chart",
     "standing-desk-footrest-explained",
     "balance-board-vs-anti-fatigue-mat",
-    "20-20-20-rule-explained",
+    "20-20-20-rule-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const sitStandRatioExplainedGuide: Guide = {
       question: "Does a reminder app or timer help maintain a consistent sit-stand ratio?",
       answer:
         "Yes, many people find a scheduled reminder more reliable than trying to remember on their own, especially during focused work when time awareness fades, some standing desks include built-in reminder features specifically for this purpose.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const sitStandRatioExplainedGuide: Guide = {
     {
       heading: "Why Linking Standing to Specific Activities Creates a More Sustainable Habit",
       body: `Trying to remember to switch positions based purely on elapsed time, standing for exactly 20 minutes every hour, for example, often breaks down during genuinely focused work when time awareness naturally fades, associating standing specifically with certain recurring activities instead, standing during every phone call, or every time you check email, creates a more natural, activity-triggered habit that doesn't depend on remembering to check a clock or timer, this approach tends to be more sustainable over the long term than a purely schedule-based system for most people.`,
-    },
+    }
   ],
 };

@@ -7,7 +7,7 @@ export const mainKeyword = "white under-desk PC mount";
 export const introParagraphs = [
   "Similar to color-specific research generally, this article cross-references the underlying structural mounting research rather than treating white as an independent product category with its own engineering considerations, since the color itself doesn't change a mount's clamping mechanism or weight capacity.",
   "White-finished mount visibility under a desk deserves real consideration, a less discreet color choice for a typically hidden accessory, since white may be more noticeable in a dark under-desk space than the more common black default.",
-  "White finish durability, scratches and marks from PC installation and removal, plus dust visibility, should be tested given how visibly white surfaces show wear and dust accumulation, a maintenance concern worth understanding before choosing this color for an accessory you'll handle repeatedly.",
+  "White finish durability, scratches and marks from PC installation and removal, plus dust visibility, should be tested given how visibly white surfaces show wear and dust accumulation, a maintenance concern worth understanding before choosing this color for an accessory you'll handle repeatedly."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -27,8 +27,8 @@ export const products: GuideProduct[] = [
     badge: "Best White Under-Desk PC Mount Overall",
     name: "Heavy Duty Under Desk PC Holder, Up to 77 lbs Load Capacity - Adjustable Computer Tower Holder - Under Desk Computer Mount (White)",
     price: "$49.90",
-    rating: "4.6 stars from 433 Amazon ratings",
-    reviews: "433 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31U1NGkx4qL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGQPHDBM?tag=deskfinds0d-20",
     description:
@@ -44,8 +44,8 @@ export const products: GuideProduct[] = [
     badge: "Best Multi-Size White Pick",
     name: "Under Desk PC Mount - Fits 3 Fixed Desk Leg Sizes, CPU Holder Under Desk",
     price: "$39.97",
-    rating: "4.5 stars from 36 Amazon ratings",
-    reviews: "36 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419ye650cxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GQSS7YDX?tag=deskfinds0d-20",
     description:
@@ -61,8 +61,8 @@ export const products: GuideProduct[] = [
     badge: "Best Disclosed-Capacity White Pick",
     name: "TOPSKY Under Desk PC Mount, No Drill CPU Holder, 50 lb Capacity White",
     price: "$49.99",
-    rating: "4.0 stars from 80 Amazon ratings",
-    reviews: "80 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31lQbs8TW9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHMXC54Q?tag=deskfinds0d-20",
     description:
@@ -78,8 +78,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity White Pick",
     name: "monTEK Under Desk PC Mount, Fits 16.1-25.6\" PC Cases, Max 66lbs, White",
     price: "$71.99",
-    rating: "4.2 stars from 46 Amazon ratings",
-    reviews: "46 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31+gGe7234L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHVD4QZ6?tag=deskfinds0d-20",
     description:
@@ -95,12 +95,12 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Budget White Pick",
     name: "Under Desk PC Mount for Standing Desk, Clamp-On PC Holder",
     price: "$29.99",
-    rating: "5.0 stars from 7 Amazon ratings",
-    reviews: "7 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41nnlE-s2-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GX68WXL3?tag=deskfinds0d-20",
     description:
-      "The lowest price in this guide with a clamp-on design explicitly marketed for standing desks, a genuine consideration if your desk changes height and needs a mount rated for that repeated movement.\\n\\nWith only 7 reviews, this carries limited real-world evidence of long-term white-finish durability despite the perfect rating, treat this as a promising budget option rather than a heavily proven pick.\n\nSet against the monTEK Under Desk PC Mount, the tradeoff here comes down to price versus disclosed weight capacity, not a straightforward upgrade or downgrade either way.\n\nWorth knowing before you decide: Explicitly designed for standing desk height changes. On the other side, Very small review base, weigh the perfect rating with appropriate caution. That's the main tradeoff to weigh against your specific case and desk setup.",
+      "Set against the monTEK Under Desk PC Mount, the tradeoff here comes down to price versus disclosed weight capacity, not a straightforward upgrade or downgrade either way.\n\nWorth knowing before you decide: Explicitly designed for standing desk height changes. On the other side, Very small review base, weigh the perfect rating with appropriate caution. That's the main tradeoff to weigh against your specific case and desk setup.",
     specs: ["Clamp-on design for standing desks","Lowest price in this guide","White finish","Small but perfect review sample"],
     pros: ["Lowest price in this guide","Explicitly designed for standing desk height changes","Perfect rating, though from a small sample","Compact clamp-on design"],
     cons: ["Very small review base, weigh the perfect rating with appropriate caution","Weight capacity not as explicitly disclosed as other picks","Limited long-term evidence of white-finish wear resistance specifically"],
@@ -114,7 +114,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Under-desk visibility and discretion considered for white specifically", description: "Addressed white-finished mount visibility under a desk, a less discreet color choice for a typically hidden accessory, since white may be more noticeable in a dark under-desk space than black." },
   { title: "White-finish wear and dust visibility tested, consistent with prior color research", description: "Tested white finish durability, scratches and marks from PC installation/removal and dust visibility, given how visibly white surfaces show wear and dust accumulation." },
   { title: "Color-matching motivation addressed as the primary buyer driver", description: "Addressed color-matching with white or light-colored desk furniture as the primary buyer motivation for choosing this color specifically, rather than treating color choice as arbitrary." },
-  { title: "Availability and price parity verified against black or standard options", description: "Verified availability and price parity with black/standard color options, since specialty colors sometimes carry a premium or have more limited size/weight-capacity options within the same product line." },
+  { title: "Availability and price parity verified against black or standard options", description: "Verified availability and price parity with black/standard color options, since specialty colors sometimes carry a premium or have more limited size/weight-capacity options within the same product line." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -251,11 +251,11 @@ export const faq: FaqItem[] = [
   { q: "Will a white PC mount show scratches and dust more than black?", a: "Yes, generally. White finish durability shows scratches and marks from PC installation and removal, plus dust accumulation, more visibly than darker colors." },
   { q: "Should I choose white specifically to match my desk furniture?", a: "This is the primary legitimate reason to choose white, color-matching with existing white or light-colored desk furniture is the main buyer motivation for this color specifically." },
   { q: "Do white PC mounts cost more than black ones?", a: "Not always, verify this for the specific product, our research found at least one white variant priced identically to its black counterpart, but specialty colors can sometimes carry a premium." },
-  { q: "Is a white PC mount the same product as the black version, just a different color?", a: "Often yes, verify this by checking whether the weight capacity, dimensions, and mounting mechanism match the black variant exactly, confirming it's genuinely the same underlying product." },
+  { q: "Is a white PC mount the same product as the black version, just a different color?", a: "Often yes, verify this by checking whether the weight capacity, dimensions, and mounting mechanism match the black variant exactly, confirming it's genuinely the same underlying product." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-under-desk-pc-mounts-without-screws", title: "Best Under-Desk PC Mounts Without Screws (2026)" },
   { href: "/guide/best-under-desk-pc-mount-brackets", title: "Best Under-Desk PC Mount Brackets (2026)" },
-  { href: "/guide/best-white-monitor-shelves", title: "Best White Monitor Shelves (2026)" },
+  { href: "/guide/best-white-monitor-shelves", title: "Best White Monitor Shelves (2026)" }
 ];

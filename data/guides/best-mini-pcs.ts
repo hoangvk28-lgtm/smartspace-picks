@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini pc";
 export const introParagraphs = [
   "Some budget mini PCs solder RAM and storage directly to the motherboard, meaning no future upgrade path, worth checking whether RAM and SSD are user-replaceable before buying if you might want to expand capacity later rather than replacing the entire unit.",
-  "A mini PC's thermal design under sustained load matters more than its rated processor speed on paper, a cramped case with inadequate cooling can throttle performance well below what the chip is technically capable of, worth checking reviews specifically for sustained-load thermal reports.",
+  "A mini PC's thermal design under sustained load matters more than its rated processor speed on paper, a cramped case with inadequate cooling can throttle performance well below what the chip is technically capable of, worth checking reviews specifically for sustained-load thermal reports."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "10 min";
@@ -26,7 +26,7 @@ export const products: GuideProduct[] = [
     badge: "Best Mini PC Overall",
     name: "GEEKOM A6 Mini PC, Ryzen 7 6800H, 16GB DDR5 Upgradable RAM 1TB PCIe 4.0 SSD",
     price: "$549.00",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/415bG0b3CeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DRP316J1?tag=deskfinds0d-20",
@@ -42,7 +42,7 @@ export const products: GuideProduct[] = [
     badge: "Best High-Performance Mini PC Pick",
     name: "GEEKOM [2026 Edition Multitasking Mini PC A7 MAX with AMD Ryzen 9 7940HS",
     price: "$649.00",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41HfTCupHML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2C2CDR4?tag=deskfinds0d-20",
@@ -58,7 +58,7 @@ export const products: GuideProduct[] = [
     badge: "Best Mini PC with Fast Storage and RAM",
     name: "BOSGAME P6 Ryzen 9 6900HX Mini PC, 24GB RAM 4800MT/s 1TB PCIe4.0 SSD",
     price: "$539.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51wdKUl+ERL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPC1J2L3?tag=deskfinds0d-20",
@@ -74,7 +74,7 @@ export const products: GuideProduct[] = [
     badge: "Best Premium High-RAM Mini PC Pick",
     name: "Beelink SER9 MAX Mini PC, Ryzen 7 H255 8C/16T, 64GB DDR5 RAM 1TB SSD",
     price: "$1,179.00",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/312DTHCV2TL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWSLBS9B?tag=deskfinds0d-20",
@@ -90,7 +90,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Windows 11 Pro Mini PC Pick",
     name: "ACEMAGIC Mini PC Windows 11 Pro, AMD Ryzen R2544 16GB DDR4 RAM 256 SSD 28W",
     price: "$339.00",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41C5eN3lttL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DMCRSBNT?tag=deskfinds0d-20",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Upgradability checked rather than assumed universal", description: "Checked whether RAM and storage are explicitly documented as user-upgradable, since some budget mini PCs solder these components with no future upgrade path." },
   { title: "Sustained-load thermal performance weighted over rated processor speed alone", description: "Weighted sustained-load thermal performance reports more heavily than rated processor speed on paper, since a cramped case can throttle performance well below the chip's technical capability." },
   { title: "RAM and storage capacity matched to realistic multitasking needs", description: "Matched RAM and storage capacity against realistic multitasking, virtualization, or professional workload needs rather than assuming more is always necessary." },
-  { title: "Power draw considered for energy efficiency and heat generation", description: "Considered power draw specs for buyers prioritizing energy efficiency or wanting to minimize heat generation in a compact desk space." },
+  { title: "Power draw considered for energy efficiency and heat generation", description: "Considered power draw specs for buyers prioritizing energy efficiency or wanting to minimize heat generation in a compact desk space." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Can I upgrade the RAM in a mini PC later?", a: "Not always, some budget mini PCs solder RAM directly to the motherboard, verify this is user-upgradable before buying if you might want more later." },
   { q: "Does a mini PC throttle under heavy use?", a: "It can if the thermal design is inadequate for sustained load, check reviews specifically for sustained-load thermal performance reports, not just rated processor speed." },
   { q: "How much RAM do I actually need in a mini PC?", a: "16GB covers typical everyday productivity, 32GB or more benefits heavy multitasking, and 64GB suits virtualization or professional workloads." },
-  { q: "Does a mini PC's power draw matter much?", a: "It affects both energy cost and heat generation, a lower-wattage model is worth considering if you run it continuously in a compact space." },
+  { q: "Does a mini PC's power draw matter much?", a: "It affects both energy cost and heat generation, a lower-wattage model is worth considering if you run it continuously in a compact space." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pcs-for-gaming", title: "Best Mini PCs for Gaming (2026)" },
   { href: "/guide/best-budget-mini-pcs", title: "Best Budget Mini PCs (2026)" },
-  { href: "/guide/best-mini-pcs-with-32gb-ram", title: "Best Mini PCs with 32GB RAM (2026)" },
+  { href: "/guide/best-mini-pcs-with-32gb-ram", title: "Best Mini PCs with 32GB RAM (2026)" }
 ];

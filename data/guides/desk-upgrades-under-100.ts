@@ -54,7 +54,7 @@ export const upgrades: Upgrade[] = [
           { label: "Fits", value: "13\"-32\", 4.4-19.8 lbs" },
           { label: "Mount", value: "C-clamp or grommet" },
           { label: "Motion", value: "Gas-spring, tool-free" },
-          { label: "VESA", value: "75x75 and 100x100mm" },
+          { label: "VESA", value: "75x75 and 100x100mm" }
         ],
       },
       {
@@ -70,9 +70,9 @@ export const upgrades: Upgrade[] = [
           { label: "Fits", value: "13\"-32\" per arm, 4.4-19.8 lbs each" },
           { label: "Arms", value: "Fully independent" },
           { label: "Mount", value: "C-clamp or grommet" },
-          { label: "VESA", value: "75x75 and 100x100mm" },
+          { label: "VESA", value: "75x75 and 100x100mm" }
         ],
-      },
+      }
     ],
   },
   {
@@ -94,7 +94,7 @@ export const upgrades: Upgrade[] = [
         specs: [
           { label: "Fits", value: "Laptops up to 17\"" },
           { label: "Mount", value: "C-clamp or grommet" },
-          { label: "Adjustment", value: "Fully adjustable extension" },
+          { label: "Adjustment", value: "Fully adjustable extension" }
         ],
       },
       {
@@ -111,9 +111,9 @@ export const upgrades: Upgrade[] = [
         specs: [
           { label: "Monitor", value: "Up to 32\", VESA 75/100mm" },
           { label: "Laptop tray", value: "Up to 17\"" },
-          { label: "Mount", value: "C-clamp or grommet, single point" },
+          { label: "Mount", value: "C-clamp or grommet, single point" }
         ],
-      },
+      }
     ],
   },
   {
@@ -136,7 +136,7 @@ export const upgrades: Upgrade[] = [
           { label: "Layout", value: "Full-size" },
           { label: "Wireless", value: "2.4G, USB nano receiver" },
           { label: "Extras", value: "Built-in palm rest, phone holder slot" },
-          { label: "Battery", value: "Sleep mode (battery saving)" },
+          { label: "Battery", value: "Sleep mode (battery saving)" }
         ],
       },
       {
@@ -152,7 +152,7 @@ export const upgrades: Upgrade[] = [
           { label: "Layout", value: "Full-size, wave-curved" },
           { label: "Wireless", value: "2.4G, 3-level DPI mouse" },
           { label: "Extras", value: "Cushioned palm rest" },
-          { label: "Compatibility", value: "PC, Mac, Windows" },
+          { label: "Compatibility", value: "PC, Mac, Windows" }
         ],
       },
       {
@@ -168,9 +168,9 @@ export const upgrades: Upgrade[] = [
           { label: "Design", value: "Split/colorblock, wave layout" },
           { label: "Wireless", value: "2.4G" },
           { label: "Extras", value: "Wrist rest included" },
-          { label: "Compatibility", value: "PC/laptop/Mac" },
+          { label: "Compatibility", value: "PC/laptop/Mac" }
         ],
-      },
+      }
     ],
   },
   {
@@ -192,9 +192,9 @@ export const upgrades: Upgrade[] = [
           { label: "Mount", value: "Clamps to desk edge" },
           { label: "Support", value: "Full forearm + wrist platform" },
           { label: "Motion", value: "Rotates to follow arm movement" },
-          { label: "Adjustment", value: "Height adjustable" },
+          { label: "Adjustment", value: "Height adjustable" }
         ],
-      },
+      }
     ],
   },
   {
@@ -217,9 +217,9 @@ export const upgrades: Upgrade[] = [
           { label: "Heights", value: "2.75\" / 4.75\" / 6.75\"" },
           { label: "Surface", value: "Textured non-slip" },
           { label: "Tilt", value: "Adjustable angle" },
-          { label: "Bonus", value: "Built-in laptop stand on top platform" },
+          { label: "Bonus", value: "Built-in laptop stand on top platform" }
         ],
-      },
+      }
     ],
   },
   {
@@ -243,7 +243,7 @@ export const upgrades: Upgrade[] = [
           { label: "Port 2", value: "USB-C PD 18W (phone/tablet)" },
           { label: "Port 3", value: "USB-A (legacy devices)" },
           { label: "Total", value: "108W output" },
-          { label: "Compat.", value: "MacBook M1-M4, iPhone 16, iPad Pro" },
+          { label: "Compat.", value: "MacBook M1-M4, iPhone 16, iPad Pro" }
         ],
       },
       {
@@ -259,9 +259,9 @@ export const upgrades: Upgrade[] = [
           { label: "Outlets", value: "3 AC + 2 USB-A + 4 USB-C" },
           { label: "Output", value: "100W total USB" },
           { label: "Surge", value: "300J protection" },
-          { label: "Cord", value: "5ft flat-plug" },
+          { label: "Cord", value: "5ft flat-plug" }
         ],
-      },
+      }
     ],
   },
   {
@@ -284,9 +284,9 @@ export const upgrades: Upgrade[] = [
           { label: "Ports", value: "7 data (USB 3.0, 5Gbps) + 3 smart charging" },
           { label: "Switches", value: "Individual LED per port" },
           { label: "Power", value: "Included 60W AC adapter" },
-          { label: "Compat.", value: "Mac, PC, PS5, Xbox" },
+          { label: "Compat.", value: "Mac, PC, PS5, Xbox" }
         ],
-      },
+      }
     ],
   },
   {
@@ -309,11 +309,11 @@ export const upgrades: Upgrade[] = [
           { label: "Fits", value: "Power strips up to 14\" long" },
           { label: "Openings", value: "Two cable entry/exit points" },
           { label: "Exterior", value: "12.75\" x 5\" x 4.5\"" },
-          { label: "Colors", value: "Black or white" },
+          { label: "Colors", value: "Black or white" }
         ],
-      },
+      }
     ],
-  },
+  }
 ];
 
 export const impactTable = [
@@ -323,7 +323,7 @@ export const impactTable = [
   { type: "Footrest", dailyImpact: 4, timeToFeel: "1 week", costRange: "$25-$35" },
   { type: "USB-C charging station", dailyImpact: 3, timeToFeel: "Immediately", costRange: "$50-$80" },
   { type: "Powered USB hub", dailyImpact: 3, timeToFeel: "Immediately", costRange: "$20-$45" },
-  { type: "Cable management", dailyImpact: 3, timeToFeel: "Immediately", costRange: "$10-$25" },
+  { type: "Cable management", dailyImpact: 3, timeToFeel: "Immediately", costRange: "$10-$25" }
 ];
 
 export const priorityGuide = [
@@ -356,7 +356,7 @@ export const priorityGuide = [
     recommendation: "HUANUO single arm (~$40) + D-Line cable box (~$12)",
     reason: "The arm frees desk space; the cable box cleans up what's underneath. Two products, one afternoon, immediately noticeable result.",
     upgradeSlug: "monitor-arm",
-  },
+  }
 ];
 
 export const beforeYouBuy = [
@@ -371,7 +371,7 @@ export const beforeYouBuy = [
   {
     title: "Is your desk surface smooth enough for adhesive mounts?",
     body: "For drawers, shelves, or armrests with VHB tape, the surface needs to be clean, dry, and non-porous. VHB tape doesn't bond well to textured, matte-finish, or dirty surfaces. Wipe with isopropyl alcohol before applying.",
-  },
+  }
 ];
 
 export const quickReference = [
@@ -387,7 +387,7 @@ export const quickReference = [
   { upgrade: "6A - USB-C charging station", name: "Satechi 108W Pro", id: "satechi-108w", amazonUrl: "https://www.amazon.com/dp/B082TL2J9D?tag=deskfinds0d-20" },
   { upgrade: "6B - Power + USB hub", name: "Anker 9-in-1 100W", id: "anker-9in1", amazonUrl: "https://www.amazon.com/dp/B0CSFQQVVT?tag=deskfinds0d-20" },
   { upgrade: "7 - Powered USB hub", name: "Sabrent 10-Port Hub", id: "sabrent-10port", amazonUrl: "https://www.amazon.com/dp/B0797NWDCB?tag=deskfinds0d-20" },
-  { upgrade: "8 - Cable management", name: "D-Line Cable Box Large", id: "dline-cable-box", amazonUrl: "https://www.amazon.com/dp/B00B1EO1Z4?tag=deskfinds0d-20" },
+  { upgrade: "8 - Cable management", name: "D-Line Cable Box Large", id: "dline-cable-box", amazonUrl: "https://www.amazon.com/dp/B00B1EO1Z4?tag=deskfinds0d-20" }
 ];
 
 export const faq: Array<{ q: string; a: string }> = [
@@ -414,5 +414,5 @@ export const faq: Array<{ q: string; a: string }> = [
   {
     q: "Does wireless keyboard/mouse connectivity cause lag for gaming?",
     a: "For productivity use, 2.4G wireless keyboards and mice are effectively indistinguishable from wired at human perception speeds. For competitive gaming (sub-1ms input latency matters), wired or premium gaming wireless is preferable. The Trueque and Wave Keys combos are productivity-grade wireless -- excellent for everything except competitive FPS or rhythm games.",
-  },
+  }
 ];

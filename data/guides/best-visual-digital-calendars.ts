@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "visual digital calendar";
 export const introParagraphs = [
   "A visual digital calendar is one where the display itself is the point, a touchscreen month view, a photo-frame mode, or a color chore chart, rather than a small readout that just shows the date and time. Because of that, we're intentionally covering fewer products in this guide than in our broader digital calendar roundups.",
-  "The rechargeable clock-and-notepad boards we cover elsewhere on the site are genuinely useful devices, but they show only a small text date readout, not a visual layout in the sense most people mean by this search. We left them out here rather than stretch the definition to pad the list.",
+  "The rechargeable clock-and-notepad boards we cover elsewhere on the site are genuinely useful devices, but they show only a small text date readout, not a visual layout in the sense most people mean by this search. We left them out here rather than stretch the definition to pad the list."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "7 min";

@@ -5,7 +5,7 @@ export const metaDescription = "Magnetic-mount portable SSDs are a genuinely sma
 export const mainKeyword = "best magnetic portable ssd";
 export const introParagraphs = [
   "Magnetic-mount portable SSDs, drives designed to attach directly via a magnetic array like MagSafe rather than sitting loose on a desk, are a genuinely small product category, and our research turned up limited verified options at the time of writing.",
-  "Rather than pad this guide with drives that are not actually magnetic just to hit a longer list, we are presenting the one standout verified option we found and explaining what to look for if you are evaluating other magnetic drives on your own.",
+  "Rather than pad this guide with drives that are not actually magnetic just to hit a longer list, we are presenting the one standout verified option we found and explaining what to look for if you are evaluating other magnetic drives on your own."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -25,14 +25,14 @@ export const products: GuideProduct[] = [
     badge: "The Standout Verified Magnetic Pick",
     name: "Corsair EX400U 2TB USB4 Portable External Type-C SSD - Up to 4,000MB/s Read, 3,600MB/s Write, Thunderbolt 4, MagSafe, Includes 40Gbps Cable - Gray",
     price: "$399.99",
-    rating: "4.1 stars from Amazon ratings",
-    reviews: "382 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21F-0rmbcOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DR381N86?tag=deskfinds0d-20",
     description: "Corsair's EX400U 2TB is explicitly built with MagSafe compatibility, meaning it is designed to align and attach to a MagSafe-equipped iPhone's magnet array directly, a genuine magnetic-mount feature rather than an implied one.\n\nIt earns the top spot in this comparison for one main reason. Genuinely designed with MagSafe magnetic compatibility.\n\nWorth knowing before you decide: Strong USB4 and Thunderbolt 4 compatible speed alongside the magnetic feature. On the other side, Premium price versus non-magnetic portable SSDs. That's the main tradeoff to weigh against everything above.",
     specs: ["2TB capacity","MagSafe compatible magnetic mount","Up to 4000MB/s read rated","USB4, Thunderbolt 4 compatible, includes 40Gbps cable"],
     pros: ["Genuinely designed with MagSafe magnetic compatibility","Strong USB4 and Thunderbolt 4 compatible speed alongside the magnetic feature","Includes a properly rated cable","Large 2TB capacity for a magnetic-mount drive"],
-    cons: ["Magnet holding strength should be checked against your specific case and cable weight","More moderate 4.1-star rating, worth checking current reviews","Premium price versus non-magnetic portable SSDs"],
+    cons: ["Magnet holding strength should be checked against your specific case and cable weight","Premium price versus non-magnetic portable SSDs"],
     bestFor: "Buyers who specifically want a genuine MagSafe-compatible magnetic-mount portable SSD",
   }
 ];
@@ -60,7 +60,7 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $399.99",
+          "Under $400",
           "Corsair EX400U 2TB USB4 Portable External Type-C SSD"
         ]
       ]
@@ -92,7 +92,7 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "Here's what you get for $399.99: Genuinely designed with MagSafe magnetic compatibility. If that's what you're after, the tradeoffs in its cons list probably won't bother you either."
+        "text": "Here's what you get for under $400: Genuinely designed with MagSafe magnetic compatibility. If that's what you're after, the tradeoffs in its cons list probably won't bother you either."
       },
       {
         "label": "Save if",

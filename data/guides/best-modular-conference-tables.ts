@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $289.88",
+          "Under $300",
           "Okeysen Flip-Top Mobile Conference Table"
         ],
         [
-          "Around $519.99",
+          "Under $550",
           "Conference Room Tables"
         ],
         [
-          "Around $604.79",
+          "Under $650",
           "Folding Conference Room Tables with Wheels"
         ],
         [
-          "Around $648.00",
+          "Under $650",
           "Folding Conference Table with Wheels"
         ],
         [
-          "Around $1,380.00",
+          "Under $1,400",
           "JNMDLAKO Modular Conference Table with Wheels"
         ],
         [
-          "Around $1,520.00",
+          "Under $1,600",
           "Modular Conference Table with Modesty Panel"
         ],
         [
-          "Around $1,568.60",
+          "Under $1,600",
           "8-Pack Modular Folding Conference Tables with Wheels"
         ],
         [
-          "Around $1,812.23",
+          "Under $1,900",
           "Folding Conference Room Tables with Wheels"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Not inherently. High-density MDF and particle board with a laminate or melamine finish are standard in this category and hold up well to daily commercial use. Solid wood, veneer over engineered wood, or steel-reinforced builds cost more and matter most where long-term durability or a premium look is the priority."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Modular Conference Table with Modesty Panel is aimed at buyers prioritizing 4 size options: 47.2\" to 70.8\"." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Modular Conference Table with Modesty Panel is aimed at buyers prioritizing 4 size options: 47.2\" to 70.8\"." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-conference-tables","title":"Best Conference Tables in 2026"},{"href":"/guide/best-narrow-conference-tables","title":"Best Narrow Conference Tables in 2026"},{"href":"/guide/best-conference-tables-with-chairs","title":"Best Conference Tables With Chairs in 2026"}];

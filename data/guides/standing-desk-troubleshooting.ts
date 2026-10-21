@@ -12,7 +12,7 @@ export const standingDeskTroubleshootingGuide: Guide = {
     "standing desk not raising fix",
     "standing desk uneven lift fix",
     "standing desk memory settings not working",
-    "standing desk wobble fix",
+    "standing desk wobble fix"
   ],
   heroImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const standingDeskTroubleshootingGuide: Guide = {
     "single-motor-vs-dual-motor-standing-desk",
     "standing-desk-weight-capacity-explained",
     "standing-desk-cable-management",
-    "standing-desk-height-chart",
+    "standing-desk-height-chart"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const standingDeskTroubleshootingGuide: Guide = {
       question: "Should I recalibrate my standing desk periodically?",
       answer:
         "Recalibration is mainly needed after a power loss, an error code, or noticeable performance changes like uneven lifting, rather than as routine scheduled maintenance, check your specific desk's manual for when recalibration is recommended.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const standingDeskTroubleshootingGuide: Guide = {
     {
       heading: "Distinguishing Normal Wobble From an Actual Problem",
       body: `Some wobble at maximum standing height is a normal characteristic of the standing desk category generally, since the legs experience more leverage-related flex the higher and more extended they become, this isn't necessarily a defect. Excessive wobble, however, particularly if it's new or worsening, often traces back to loose leg bolts that work themselves loose over time with regular height adjustment, or an uneven floor that wasn't accounted for during initial setup, checking and tightening all leg bolts is a simple first step before assuming a more serious mechanical issue.`,
-    },
+    }
   ],
 };

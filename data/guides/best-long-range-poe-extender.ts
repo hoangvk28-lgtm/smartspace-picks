@@ -100,7 +100,7 @@ export const howToChoose = [
         ["The most detailed distance-to-power documentation", "Intellinet Outdoor PoE+ Extender Kit"],
         ["A fully buried, concealed underground installation", "FASTCALBING Waterproof Direct Burial PoE Extender"],
         ["Explicit surge protection in a remote location", "PROCET Gigabit PoE Extender Outdoor"],
-        ["The greatest possible total distance", "LINOVISION Long Distance Outdoor PoE Extender"],
+        ["The greatest possible total distance", "LINOVISION Long Distance Outdoor PoE Extender"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $70", "FASTCALBING Direct Burial Extender ($69.99)"],
-        ["Under $79", "PROCET Gigabit PoE Extender ($78.49)"],
-        ["Under $90", "LINOVISION Long Distance Extender ($89.99)"],
-        ["Under $160", "Intellinet Outdoor PoE+ Extender Kit ($159.99)"],
+        ["Under $70", "FASTCALBING Direct Burial Extender (under $70)"],
+        ["Under $79", "PROCET Gigabit PoE Extender (under $80)"],
+        ["Under $90", "LINOVISION Long Distance Extender (under $90)"],
+        ["Under $160", "Intellinet Outdoor PoE+ Extender Kit (under $160)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Maximum Distance vs Maintained Speed",
     cards: [
       { label: "Maximum distance (LINOVISION, Intellinet)", text: "These picks reach the longest total distances in this comparison, up to 2600ft and 3280ft respectively, but both specifically disclose reduced bandwidth well before reaching that maximum range." },
-      { label: "Maintained speed at shorter range (FASTCALBING)", text: "This pick maintains a full 100Mbps across its more modest 100m extension without the same dramatic speed drop-off at extreme distance." },
+      { label: "Maintained speed at shorter range (FASTCALBING)", text: "This pick maintains a full 100Mbps across its more modest 100m extension without the same dramatic speed drop-off at extreme distance." }
     ],
     note: "If your device needs consistent bandwidth and your distance need is moderate, the FASTCALBING's maintained speed is the better fit. If you need to reach an extreme distance and your device doesn't need high bandwidth, the LINOVISION or Intellinet's greater reach is worth the speed tradeoff.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["Underground burial as part of the cable run", "FASTCALBING Waterproof Direct Burial PoE Extender"],
         ["Remote farm, ranch, or industrial site prone to surges", "PROCET Gigabit PoE Extender Outdoor"],
-        ["Standard outdoor pole or wall mount", "Intellinet Outdoor PoE+ Extender Kit"],
+        ["Standard outdoor pole or wall mount", "Intellinet Outdoor PoE+ Extender Kit"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For a Lightning-Prone or Rural Installation Specifically",
     cards: [
       { label: "Look for", text: "Explicit surge protection with a stated voltage rating, since rural and elevated installations face genuinely higher exposure to electrical surges from nearby lightning strikes." },
-      { label: "In this comparison", text: "The PROCET pick specifically states 6KV surge protection, a concrete rating most competing extenders in this price range don't disclose." },
+      { label: "In this comparison", text: "The PROCET pick specifically states 6KV surge protection, a concrete rating most competing extenders in this price range don't disclose." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want the most detailed distance-to-power documentation and broadest PoE standard support, where the Intellinet's $159.99 price is justified by that level of disclosure." },
-      { label: "Save if", text: "You need a direct burial installation with maintained speed over a moderate distance, where the FASTCALBING delivers that for $69.99, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You want the most detailed distance-to-power documentation and broadest PoE standard support, where the Intellinet's under $160 price is justified by that level of disclosure." },
+      { label: "Save if", text: "You need a direct burial installation with maintained speed over a moderate distance, where the FASTCALBING delivers that for under $70, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

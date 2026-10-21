@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "This projector's dual 36W stereo speakers with certified Dolby Audio deliver full 360-degree surround stereo, the highest stated speaker wattage in this comparison, genuinely reducing the need for external soundbars. Its 1200 ANSI lumens delivers vivid images without needing a fully darkened room, ideal for daytime viewing.\n\nCompared to the X7 and KOGATA picks, this one specifically advertises US-based lifetime technical support alongside a 1-year hassle-free return policy, a support commitment worth noting for buyers wary of overseas customer service. Its AI voice remote lets you search movies, adjust playback, or check weather with simple spoken commands.\n\nBest for buyers who specifically want US-based support with the highest speaker wattage in this tier.",
     specs: ["Native 1080P, 4K/8K decoding, 1200 ANSI lumens", "Dual 36W Dolby speakers", "US-based lifetime technical support"],
     pros: ["Highest speaker wattage in this comparison at dual 36W", "US-based lifetime technical support and 1-year return policy", "AI voice remote simplifies navigation and search"],
-    cons: ["Priced above this tier's stated ceiling at $345.00", "Remote batteries sold separately, not included"],
+    cons: ["Priced above this tier's stated ceiling at under $350", "Remote batteries sold separately, not included"],
     bestFor: "buyers who specifically want US-based support with the highest speaker wattage",
   },
   {
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "This projector's 2000 ANSI lumens brightness paired with a 20000:1 contrast ratio and 95% color gamut delivers richer light and dark level details than the lower-brightness picks in this comparison, ensuring vivid images day or night. Its AI smart screen adjustment achieves a clear rectangular picture within 5 seconds of startup through auto focus and 6D auto-keystone technology.\n\nCompared to the Google TV-Licensed pick above, this one adds bidirectional Bluetooth 5.2 letting you use the projector as a Bluetooth speaker for music playback beyond just projection use. Its dual HDMI and USB ports plus AV and headphone jack provide the most complete connectivity in this comparison.\n\nBest for buyers who want the highest stated brightness with the most complete connectivity options.",
     specs: ["4K decoding, 2000 ANSI lumens, 20000:1 contrast", "8W speaker, bidirectional Bluetooth 5.2", "HDMIx2, USBx2, AV, headphone jack"],
     pros: ["Highest stated brightness in this comparison at 2000 ANSI lumens", "Bidirectional Bluetooth lets it double as a standalone speaker", "Most complete port selection with dual HDMI and USB"],
-    cons: ["Priced above this tier's stated ceiling at $359.99", "Autofocus fails if the unit sits at more than a 15 degree angle"],
+    cons: ["Priced above this tier's stated ceiling at under $400", "Autofocus fails if the unit sits at more than a 15 degree angle"],
     bestFor: "buyers who want the highest brightness with the most complete connectivity",
   }
 ];
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The longest lamp life with a short-throw design", "X7 1500 ANSI Smart Projector, Native 1080P, 125% sRGB"],
         ["Dual Dolby and DTS audio certification", "KOGATA 4K-Projector with Dolby Audio and DTS"],
         ["US-based support with the highest speaker wattage", "1200 ANSI Google TV-Licensed Projector, Dual 36W Dolby"],
-        ["The highest brightness with the most complete connectivity", "HAPPRUN 2000 ANSI 4K Decoding Projector"],
+        ["The highest brightness with the most complete connectivity", "HAPPRUN 2000 ANSI 4K Decoding Projector"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $290", "X7 ($285.00)"],
-        ["Under $310", "KOGATA ($309.79)"],
-        ["Under $350", "Google TV-Licensed ($345.00)"],
-        ["Under $360", "HAPPRUN ($359.99)"],
+        ["Under $290", "X7 (under $300)"],
+        ["Under $310", "KOGATA (under $350)"],
+        ["Under $350", "Google TV-Licensed (under $350)"],
+        ["Under $360", "HAPPRUN (under $400)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Long Lamp Life vs Certified Audio Standards",
     cards: [
       { label: "Long lamp life (X7, 100,000 hours)", text: "Prioritizes years of dependable operation without needing a lamp replacement, worth it for daily long-term use." },
-      { label: "Certified audio (KOGATA, Dolby and DTS)", text: "Prioritizes formally certified sound quality standards over lamp longevity claims." },
+      { label: "Certified audio (KOGATA, Dolby and DTS)", text: "Prioritizes formally certified sound quality standards over lamp longevity claims." }
     ],
     note: "If you plan years of daily use and want assurance against needing a lamp replacement, the X7's 100,000-hour rating is worth prioritizing. If audio quality with formal certification matters more to your viewing experience, the KOGATA pick's dual certification delivers that.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["US-based lifetime support explicitly stated", "Google TV-Licensed"],
         ["Lifetime technical support, general", "KOGATA"],
-        ["Standard manufacturer support", "X7 or HAPPRUN"],
+        ["Standard manufacturer support", "X7 or HAPPRUN"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Music and Concert Content Viewer Specifically",
     cards: [
       { label: "Look for", text: "Dual audio certification like both Dolby and DTS, since these formal standards specifically optimize different types of audio content for accuracy and immersion." },
-      { label: "In this comparison", text: "The KOGATA pick's dual Dolby and DTS certification specifically caters to music, instrumental, and concert-style content beyond standard movie dialogue." },
+      { label: "In this comparison", text: "The KOGATA pick's dual Dolby and DTS certification specifically caters to music, instrumental, and concert-style content beyond standard movie dialogue." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the highest brightness with the most complete connectivity options, where the HAPPRUN pick delivers both at the top of this tier." },
-      { label: "Save if", text: "You want the longest lamp life with a short-throw design for small spaces, where the X7 pick covers that for about $75 less." },
+      { label: "Save if", text: "You want the longest lamp life with a short-throw design for small spaces, where the X7 pick covers that for about $75 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

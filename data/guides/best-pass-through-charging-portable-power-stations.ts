@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $359.00",
+          "Under $400",
           "PECRON F1000LFP Power Station"
         ],
         [
-          "Around $448.99",
+          "Under $450",
           "BLUETTI Elite 100 V2 Portable Power Station"
         ],
         [
-          "Around $489.00",
+          "Under $500",
           "OUPES Mega 1 Lite Portable Power Station"
         ],
         [
-          "Around $499.00",
+          "Under $500",
           "EcoFlow DELTA 3 Classic Portable Power Station"
         ],
         [
-          "Around $499.00",
+          "Under $500",
           "Jackery Explorer 1000 v2 Portable Power Station"
         ],
         [
-          "Around $529.99",
+          "Under $550",
           "Anker SOLIX C1000 Gen 2 Portable Power Station"
         ],
         [
-          "Around $669.00",
+          "Under $700",
           "AFERIY P210 Solar Generator"
         ],
         [
-          "Around $699.99",
+          "Under $700",
           "UDPOWER S2400 Portable Power Station"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", "a": "BLUETTI Elite 100 V2 Portable Power Station is aimed at buyers prioritizing 1024wh, 1800w (2700w power lifting)" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", "a": "BLUETTI Elite 100 V2 Portable Power Station is aimed at buyers prioritizing 1024wh, 1800w (2700w power lifting)" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

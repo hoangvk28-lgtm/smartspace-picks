@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["A genuinely distinctive retro flip-clock design", "mooas Classic Modern Wood Mini Flip Desk Clock"],
         ["The most comprehensive weather and time monitoring", "DreamSky Weather Station Indoor Outdoor Thermometer, Atomic Clock"],
-        ["A color-coded display with dual alarm support", "Newentor Weather Station Wireless Indoor Outdoor Thermometer"],
+        ["A color-coded display with dual alarm support", "Newentor Weather Station Wireless Indoor Outdoor Thermometer"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $32", "Maxspace Wooden Table Clock ($31.99)"],
-        ["$40-$50", "DreamSky Weather Station ($39.99), Newentor Weather Station ($39.99), or mooas Flip Clock ($49.90)"],
+        ["Under $32", "Maxspace Wooden Table Clock (under $35)"],
+        ["$40-$50", "DreamSky Weather Station (under $40), Newentor Weather Station (under $40), or mooas Flip Clock (under $50)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Design Statement vs Functional Comprehensiveness",
     cards: [
       { label: "Design Statement (mooas Flip Clock)", text: "A genuinely distinctive mechanical flip design and wood grain that doubles as a decor piece, prioritizing character over feature depth." },
-      { label: "Functional Comprehensiveness (DreamSky, Newentor)", text: "Maximum monitoring capability with outdoor sensors and forecasting, prioritizing data and features over aesthetic distinctiveness." },
+      { label: "Functional Comprehensiveness (DreamSky, Newentor)", text: "Maximum monitoring capability with outdoor sensors and forecasting, prioritizing data and features over aesthetic distinctiveness." }
     ],
     note: "If the clock is meant to be a conversation piece or decor statement, the mooas flip clock delivers that character. If you want maximum practical monitoring capability, the weather stations serve that need better.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your maintenance tolerance", "Recommended pick"],
       rows: [
         ["Minimal maintenance, single battery only", "Maxspace Wooden Table Clock"],
-        ["Willing to manage multiple sensors and batteries", "DreamSky or Newentor Weather Station"],
+        ["Willing to manage multiple sensors and batteries", "DreamSky or Newentor Weather Station"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Desk That Doubles as a Design Showcase Specifically",
     cards: [
       { label: "Look for", text: "A clock with genuine mechanical or material distinctiveness, not just another flat digital or standard analog display." },
-      { label: "In this comparison", text: "The mooas Classic Modern Wood Mini Flip Desk Clock's auto-flip mechanism and sapele wood grain make it the clear choice for a desk meant to showcase design character." },
+      { label: "In this comparison", text: "The mooas Classic Modern Wood Mini Flip Desk Clock's auto-flip mechanism and sapele wood grain make it the clear choice for a desk meant to showcase design character." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a genuinely distinctive retro flip-clock mechanism as a design statement, where the mooas pick is the only option in this comparison offering this mechanical character." },
-      { label: "Save if", text: "Simple, quiet, low-maintenance timekeeping covers your needs, where the Maxspace analog pick delivers this at the lowest price in this comparison." },
+      { label: "Save if", text: "Simple, quiet, low-maintenance timekeeping covers your needs, where the Maxspace analog pick delivers this at the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -166,7 +166,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Two Weather Stations at the Same Price Can Differ Meaningfully in Display Technology",
-    "explanation": "The DreamSky and Newentor weather stations in this comparison share nearly identical core specs, sensor support, forecasting, calibration period, at the same $39.99 price, but differ specifically in display technology, monochrome versus color LCD. When two products overlap this closely in core functionality, a secondary differentiator like display color can be the deciding factor based on your personal preference for how you want to visually parse the information."
+    "explanation": "The DreamSky and Newentor weather stations in this comparison share nearly identical core specs, sensor support, forecasting, calibration period, at the same under $40 price, but differ specifically in display technology, monochrome versus color LCD. When two products overlap this closely in core functionality, a secondary differentiator like display color can be the deciding factor based on your personal preference for how you want to visually parse the information."
   },
   {
     "criterion": "A D-Type Battery Requirement Is Less Common Than AA or AAA, Worth Confirming You Have One on Hand",

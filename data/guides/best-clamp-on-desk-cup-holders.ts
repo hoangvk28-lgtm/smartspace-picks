@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "clamp-on desk cup holders";
 export const introParagraphs = [
   "Nearly every desk cup holder is clamp-mounted by default, so this guide narrows in on the clamp mechanism itself, since a cup holder bears more sustained, often off-balance weight than lighter clamp-on accessories like phone arms. A clamp that holds a phone fine can still shift under a full 32oz tumbler.",
-  "We prioritized picks with disclosed metal clamp construction and protective padding at the contact points, since desk marking risk is a real cosmetic concern under this category's sustained clamping torque.",
+  "We prioritized picks with disclosed metal clamp construction and protective padding at the contact points, since desk marking risk is a real cosmetic concern under this category's sustained clamping torque."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Clamp torque under sustained load", description: "We favored picks with proven review history and metal or heavily reinforced construction, since a cup holder's clamp bears more sustained weight than a lighter accessory clamp." },
   { title: "Desk surface marking risk", description: "We checked for protective padding at the clamp jaws given the firmer torque this category typically requires to hold a full drink securely." },
   { title: "Desk edge thickness compatibility", description: "We compared clamp opening ranges against common desk edge thicknesses, including standing-desk tops." },
-  { title: "Material durability", description: "We weighed metal versus reinforced plastic clamp construction for how well each holds its grip strength under repeated tightening." },
+  { title: "Material durability", description: "We weighed metal versus reinforced plastic clamp construction for how well each holds its grip strength under repeated tightening." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -229,11 +229,11 @@ export const faq: FaqItem[] = [
   { q: "Will the clamp mark my desk?", a: "Not if it includes protective padding at the clamp jaws, present on all five picks here. Avoid over-tightening on soft or lacquered wood finishes regardless of padding." },
   { q: "How much weight does a full drink actually put on the clamp?", a: "A 32oz tumbler filled with ice and liquid can weigh over 2 pounds, often unevenly distributed in the cavity. This is why we favored well-reviewed, proven clamp designs over unverified new listings." },
   { q: "Can I fit an oversized tumbler like a Yeti or Stanley?", a: "The OOKUU pick's large cavity fits most oversized tumblers. Check the exact diameter spec on the last pick above if you want to verify before ordering." },
-  { q: "How is this different from your general desk cup holder guide?", a: "This guide focuses specifically on clamp mechanism durability, since nearly all desk cup holders are clamp-based. The general guide covers a wider range including rotating and hybrid designs." },
+  { q: "How is this different from your general desk cup holder guide?", a: "This guide focuses specifically on clamp mechanism durability, since nearly all desk cup holders are clamp-based. The general guide covers a wider range including rotating and hybrid designs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-cup-holders", title: "Best Desk Cup Holders (2026)" },
   { href: "/guide/best-clip-on-desk-cup-holders", title: "Best Clip-On Desk Cup Holders (2026)" },
-  { href: "/guide/best-anti-spill-desk-cup-holders", title: "Best Anti-Spill Desk Cup Holders (2026)" },
+  { href: "/guide/best-anti-spill-desk-cup-holders", title: "Best Anti-Spill Desk Cup Holders (2026)" }
 ];

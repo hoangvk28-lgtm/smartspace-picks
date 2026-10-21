@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41uVNtRQfHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07Y8THDMW?tag=deskfinds0d-20",
-    description: "A shallower 32-inch-deep alternative to Sysracks' 39-inch cabinet, still packing four roof-mounted fans and an 8-way PDU for a rack rated to hold 1600 lbs static.\n\nThe front glass door is perforated for extra airflow while the rear stays solid metal, splitting the difference between visibility up front and dust protection in back.\n\nThe strongest case for this pick comes down to 1600 lb static rating handles a dense server stack as well as 8-way PDU included instead of bought separately. The compromise here is that 32\" depth is still tight for some full servers, so factor that in alongside the $1,250.10 asking price.",
+    description: "A shallower 32-inch-deep alternative to Sysracks' 39-inch cabinet, still packing four roof-mounted fans and an 8-way PDU for a rack rated to hold 1600 lbs static.\n\nThe front glass door is perforated for extra airflow while the rear stays solid metal, splitting the difference between visibility up front and dust protection in back.\n\nThe strongest case for this pick comes down to 1600 lb static rating handles a dense server stack as well as 8-way PDU included instead of bought separately. The compromise here is that 32\" depth is still tight for some full servers, so factor that in alongside the under $1,300 asking price.",
     specs: ["42U, 32\" deep, 1600 lb static rating","4 roof-mounted fans, 8-way PDU","Perforated glass front, solid metal rear door"],
     pros: ["1600 lb static rating handles a dense server stack","8-way PDU included instead of bought separately","Perforated front door boosts airflow without losing visibility"],
     cons: ["32\" depth is still tight for some full servers","Casters need leveling feet for a permanent install"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41xTLkXQqlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CMPFK79Q?tag=deskfinds0d-20",
-    description: "A near-identical sibling to the earlier 39-inch-deep home lab cabinet but with a slightly shallower 35-inch depth, useful if your room has a bit less clearance to work with.\n\nThe feature set carries over directly: 1600 lb static rating, locking glass door, integrated cooling fans, and an included PDU and shelf for a ready-to-deploy home lab setup.\n\nWhere this one earns its spot is slightly shallower 35\" depth fits tighter rooms, and 1600 lb rating matches full commercial-grade cabinets. Worth noting before buying: still a large cabinet needing dedicated floor space, which matters more at $1,185.00 than it would on a cheaper pick.",
+    description: "A near-identical sibling to the earlier 39-inch-deep home lab cabinet but with a slightly shallower 35-inch depth, useful if your room has a bit less clearance to work with.\n\nThe feature set carries over directly: 1600 lb static rating, locking glass door, integrated cooling fans, and an included PDU and shelf for a ready-to-deploy home lab setup.\n\nWhere this one earns its spot is slightly shallower 35\" depth fits tighter rooms, and 1600 lb rating matches full commercial-grade cabinets. Worth noting before buying: still a large cabinet needing dedicated floor space, which matters more at under $1,200 than it would on a cheaper pick.",
     specs: ["42U, 35\" deep, 1600 lb static rating","Integrated cooling fans and ventilation","PDU, shelf, casters, and leveling feet included"],
     pros: ["Slightly shallower 35\" depth fits tighter rooms","1600 lb rating matches full commercial-grade cabinets","Comes ready to deploy with PDU and shelf"],
     cons: ["Still a large cabinet needing dedicated floor space","Glass door requires regular dusting to stay clear"],
@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $459.00",
+          "Under $500",
           "18U Wall Mount Server Rack Cabinet"
         ],
         [
-          "Around $469.99",
+          "Under $500",
           "NavePoint 22U Server Cabinet Wall Mount Rack Enclosure"
         ],
         [
-          "Around $1,185.00",
+          "Under $1,200",
           "42U Home Server Rack Cabinet"
         ],
         [
-          "Around $1,250.10",
+          "Under $1,300",
           "Sysracks 42U Server Rack Cabinet"
         ],
         [
-          "Around $1,339.97",
+          "Under $1,400",
           "42U Server Rack Cabinet"
         ],
         [
-          "Around $1,389.00",
+          "Under $1,400",
           "Sysracks 42U Server Rack Cabinet"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Sysracks 42U Server Rack Cabinet is aimed at buyers prioritizing 42u, 39\" deep enclosure." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Sysracks 42U Server Rack Cabinet is aimed at buyers prioritizing 42u, 39\" deep enclosure." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-rack-fans","title":"Best Server Rack Fans in 2026"},{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"}];

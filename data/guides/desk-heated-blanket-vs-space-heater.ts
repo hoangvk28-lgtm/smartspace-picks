@@ -12,7 +12,7 @@ export const deskHeatedBlanketVsSpaceHeaterGuide: Guide = {
     "heated lap blanket for office",
     "personal warmth vs room heater",
     "energy efficient desk warmth",
-    "cold office desk solution",
+    "cold office desk solution"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskHeatedBlanketVsSpaceHeaterGuide: Guide = {
     "space-heater-room-size-chart",
     "ceramic-vs-infrared-space-heater",
     "space-heater-safety-explained",
-    "how-many-outlets-do-you-need-desk-setup",
+    "how-many-outlets-do-you-need-desk-setup"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskHeatedBlanketVsSpaceHeaterGuide: Guide = {
       question: "Which is better for an office where only your desk area feels cold, not the whole room?",
       answer:
         "A heated blanket or a small personal warmer addresses this localized cold spot more efficiently than a space heater, which would work to warm the surrounding room even if only your specific desk position feels uncomfortably cold.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const deskHeatedBlanketVsSpaceHeaterGuide: Guide = {
     {
       heading: "Why Correctly Diagnosing Whole-Room vs Personal Cold Matters for Choosing the Right Tool",
       body: `Before choosing between these two solutions, it's worth briefly diagnosing whether the cold sensation is genuinely localized to your body at your desk position, in which case a heated blanket efficiently solves it, or whether the entire room actually runs cold regardless of where you sit, in which case a space heater's broader warming addresses the real underlying issue more effectively, choosing based on this honest assessment, rather than defaulting to whichever solution comes to mind first, leads to a more efficient and appropriately scoped fix for your actual situation.`,
-    },
+    }
   ],
 };

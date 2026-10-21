@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "wifi desk clock";
 export const introParagraphs = [
   "A genuine WiFi desk clock connects to your home network and syncs its time automatically from an internet time server, often alongside weather or calendar features. That functionality overlaps heavily with smart displays, screen devices like an Echo Show or Nest Hub style device that show a clock face plus connected features, a different, broader category we cover in our best smart displays for desks guide.",
-  "None of the desk-clock-specific products in our verified inventory have WiFi connectivity. What we found instead are digital clocks with auto DST adjustment, which is genuinely useful but works on a completely different mechanism than WiFi sync, and it's easy to confuse the two. We're covering those as the closest practical non-WiFi alternative, with the distinction made explicit.",
+  "None of the desk-clock-specific products in our verified inventory have WiFi connectivity. What we found instead are digital clocks with auto DST adjustment, which is genuinely useful but works on a completely different mechanism than WiFi sync, and it's easy to confuse the two. We're covering those as the closest practical non-WiFi alternative, with the distinction made explicit."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "6 min";
@@ -59,7 +59,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed no genuine WiFi-connected desk clocks exist in our research pool", description: "Verified that none of the desk-clock-specific listings we researched involve any WiFi or network sync feature, avoiding any implied claim of that functionality." },
   { title: "Clarified the auto DST versus WiFi sync distinction explicitly", description: "Explained that auto DST adjustment runs on an internal schedule, not a network connection, a distinction that's easy to miss given similar marketing language." },
   { title: "Pointed toward the category that actually delivers WiFi sync", description: "Directed readers wanting genuine network time sync toward smart displays, the category that actually offers that feature at the desk clock price point." },
-  { title: "Selected picks based on the closest practical automated features", description: "Prioritized clocks with genuine auto-adjustment and sensor features as the closest non-connected alternative to a WiFi-synced clock." },
+  { title: "Selected picks based on the closest practical automated features", description: "Prioritized clocks with genuine auto-adjustment and sensor features as the closest non-connected alternative to a WiFi-synced clock." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -193,11 +193,11 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "Do these clocks connect to WiFi?", a: "No, neither pick in this guide connects to WiFi or a network. Their auto DST feature runs on a built-in schedule instead." },
   { q: "What's the difference between auto DST and WiFi sync?", a: "Auto DST adjusts the clock on a pre-programmed internal schedule. WiFi sync connects to an internet time server continuously for exact accuracy. They solve a similar problem through different mechanisms." },
-  { q: "Where can I find a genuine WiFi-connected clock?", a: "Search specifically for \"smart display\" rather than \"WiFi desk clock,\" since genuine network time sync is most commonly bundled into that broader product category." },
+  { q: "Where can I find a genuine WiFi-connected clock?", a: "Search specifically for \"smart display\" rather than \"WiFi desk clock,\" since genuine network time sync is most commonly bundled into that broader product category." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-smart-displays-for-desks", title: "Best Smart Displays for Desks (2026)" },
   { href: "/guide/best-smart-desk-clocks", title: "Best Smart Desk Clocks (2026)" },
-  { href: "/guide/best-led-desk-clocks", title: "Best LED Desk Clocks (2026)" },
+  { href: "/guide/best-led-desk-clocks", title: "Best LED Desk Clocks (2026)" }
 ];

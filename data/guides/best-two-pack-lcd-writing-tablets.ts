@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "two pack lcd writing tablet";
 export const introParagraphs = [
   "A 2-pack is a practical choice if you want one LCD writing tablet for a desk and another for a kitchen, bag, or a second family member, usually at a better per-unit price than buying two single units separately.",
-  "We verified each pick below is genuinely labeled a 2-pack in its listing title, larger multi-packs like a 12-pack exist in this category but are a different value proposition entirely and were excluded from this specific 2-pack roundup.",
+  "We verified each pick below is genuinely labeled a 2-pack in its listing title, larger multi-packs like a 12-pack exist in this category but are a different value proposition entirely and were excluded from this specific 2-pack roundup."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "7 min";
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Pack size verified against listing titles specifically", description: "Confirmed each pick is explicitly labeled a 2-pack in its title, excluding larger multi-packs like a 12-pack which represent a different value proposition." },
   { title: "Per-unit value calculated across different screen sizes", description: "Compared per-screen cost across 8.5, 12, and 16 inch 2-packs to help buyers assess value relative to screen size, not just total price." },
   { title: "Household use cases matched to specific 2-pack picks", description: "Differentiated picks suited to two adults, two children, or two rooms in a household based on styling and screen size." },
-  { title: "Memory lock and other features checked across confirmed 2-packs", description: "Noted where memory lock or other functional features are included on both units of a confirmed 2-pack." },
+  { title: "Memory lock and other features checked across confirmed 2-packs", description: "Noted where memory lock or other functional features are included on both units of a confirmed 2-pack." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -226,11 +226,11 @@ export const faq: FaqItem[] = [
   { q: "Is a 2-pack always cheaper per unit than buying two single tablets?", a: "Usually yes, but calculate the per-screen price to confirm, since single-unit pricing varies significantly across brands and sizes." },
   { q: "Are all 'multi-pack' LCD writing tablets actually 2-packs?", a: "No, some listings are 12-packs or other counts, always check the specific number stated in the product title before buying." },
   { q: "Can I get a large-screen 2-pack?", a: "Yes, a confirmed 2-pack exists at the rare 16 inch size, offering strong value given how uncommon large individual units are." },
-  { q: "Do 2-pack LCD writing tablets come in different colors per unit?", a: "Some do, useful for distinguishing ownership if the pack is intended for two different people, like siblings." },
+  { q: "Do 2-pack LCD writing tablets come in different colors per unit?", a: "Some do, useful for distinguishing ownership if the pack is intended for two different people, like siblings." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-8-5-inch-lcd-writing-tablets", title: "Best 8.5 Inch LCD Writing Tablets (2026)" },
   { href: "/guide/best-16-inch-lcd-writing-tablets", title: "Best 16 Inch LCD Writing Tablets (2026)" },
-  { href: "/guide/best-lcd-writing-tablets-with-memory", title: "Best LCD Writing Tablets with Memory Lock (2026)" },
+  { href: "/guide/best-lcd-writing-tablets-with-memory", title: "Best LCD Writing Tablets with Memory Lock (2026)" }
 ];

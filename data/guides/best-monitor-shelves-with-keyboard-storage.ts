@@ -5,7 +5,7 @@ export const metaDescription = "5 monitor shelves with keyboard storage we evalu
 export const mainKeyword = "monitor shelf with keyboard storage";
 export const introParagraphs = [
   "This is a genuinely different product type than a laptop storage shelf, worth verifying actual keyboard slot dimensions against common keyboard sizes, compact 60% versus full-size with a number pad, rather than assuming one slot size fits all keyboards.",
-  "Keyboards don't generate heat, so the enclosed-space heat-buildup concern relevant to laptop storage doesn't apply here, a distinction worth stating explicitly rather than assuming identical risk profiles between the two product types.",
+  "Keyboards don't generate heat, so the enclosed-space heat-buildup concern relevant to laptop storage doesn't apply here, a distinction worth stating explicitly rather than assuming identical risk profiles between the two product types."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Monitor Shelf with Keyboard Storage Overall",
     name: "Simple Trending Metal Monitor Stand Riser and Computer Desk Organizer with Drawer for Laptop, Computer, iMac, Black",
     price: "$19.99",
-    rating: "4.7 stars from 3,228 Amazon ratings",
-    reviews: "3,228 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51s4NAoL3xL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09NFQML72?tag=deskfinds0d-20",
     description: "The largest review base of any pick in this guide at a genuinely affordable price, a durable metal construction with a drawer slot for keyboard or accessory storage.\n\nIt earns the top spot in this comparison over Klearlook Computer Monitor Stand for Desk for one main reason. Largest review base of any pick in this guide. On price, it comes in below Klearlook Computer Monitor Stand for Desk, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Very affordable price for a metal-construction stand. On the other side, Basic design without additional accessory compartments. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Adjustable Keyboard Storage Pick",
     name: "Klearlook Computer Monitor Stand for Desk, Adjustable Foldable Monitor Riser with Storage Drawer & Tablet Phone Holder for Office, Home, Laptop, Desktop (Black)",
     price: "$32.99",
-    rating: "4.7 stars from 1,943 Amazon ratings",
-    reviews: "1,943 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51b0bEdZAVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07NMZF1PZ?tag=deskfinds0d-20",
     description: "A large review base with an adjustable, foldable design plus an added tablet/phone holder, genuinely more feature-rich than a basic fixed-slot stand.\n\nOne spot below Simple Trending Metal Monitor Stand Riser and Computer Desk Organizer with Drawer for Laptop in this ranking, it costs more than Simple Trending Metal Monitor Stand Riser and Computer Desk Organizer with Drawer for Laptop. The compromise here is straightforward: Higher price than the basic top pick. What you gain in return: Large, well-established review base. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Adjustable and foldable for flexible desk configurations. On the other side, Foldable mechanism adds complexity versus a fixed design. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Pen Holder Combo Pick",
     name: "gianotter Dual Monitor Stand Riser With Drawer and 2 Pen Holders",
     price: "$25.99",
-    rating: "4.6 stars from 3,098 Amazon ratings",
-    reviews: "3,098 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41gO3CCIg1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJKSMV2T?tag=deskfinds0d-20",
     description: "A large review base combining a keyboard storage drawer with two built-in pen holders, genuine additional organization beyond just the keyboard slot alone.\n\nSitting just under Klearlook Computer Monitor Stand for Desk, it's priced lower than Klearlook Computer Monitor Stand for Desk. Here's the honest tradeoff: Wider footprint requires more desk space. And here's what it gets you instead: Large, well-established review base. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Added pen holders for genuine desk organization. On the other side, Pen holders take up some of the added surface space. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Adjustable Dual Monitor Keyboard Pick",
     name: "BONTEC Dual Monitor Stand Riser, Adjustable Length & Swivel Angle, White",
     price: "$24.69",
-    rating: "4.6 stars from 8,024 Amazon ratings",
-    reviews: "8,024 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51MyIIIO4eL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C4SZ286V?tag=deskfinds0d-20",
     description: "A very large review base with adjustable length and swivel angle, a genuinely flexible dual-monitor stand design in a clean white finish.\n\nRanked just behind gianotter Dual Monitor Stand Riser With Drawer and 2 Pen Holders, it's priced lower than gianotter Dual Monitor Stand Riser With Drawer and 2 Pen Holders. The real tradeoff against that pick: Verify slot dimensions specifically for keyboard versus laptop storage use. In exchange, it offers this instead: Very large, well-established review base. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Adjustable length and swivel angle for flexible positioning. On the other side, Swivel mechanism adds complexity versus a fixed stand. That's the main tradeoff to weigh against everything above.",
@@ -89,8 +89,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wood-and-Steel Keyboard Storage Pick",
     name: "WESTREE Dual Monitor Stand Riser, Wood and Steel Multi-Purpose Desktop Storage Stand for 2 Monitors for Computer, Laptop, Printer, TV, Rustic Brown",
     price: "$29.98",
-    rating: "4.6 stars from 3,764 Amazon ratings",
-    reviews: "3,764 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51oe+oiyh9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09QWC568X?tag=deskfinds0d-20",
     description: "A large review base with a wood-and-steel hybrid construction, a genuinely different aesthetic from the all-metal picks in this guide for a rustic brown desk look.\n\nOne spot below BONTEC Dual Monitor Stand Riser in this ranking, it costs more than BONTEC Dual Monitor Stand Riser. The compromise here is straightforward: Multi-purpose marketing language doesn't guarantee keyboard-specific slot sizing. What you gain in return: Large, well-established review base. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Distinct wood-and-steel aesthetic versus all-metal alternatives. On the other side, Wood component may show wear differently than metal alternatives. That's the main tradeoff to weigh against everything above.",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Keyboard slot dimensions verified against common keyboard sizes", description: "Verified actual keyboard slot dimensions against common keyboard sizes, compact 60% versus full-size with a number pad, rather than assuming one slot size fits all keyboards." },
   { title: "Cable pass-through tested for wired keyboards", description: "Tested the keyboard storage slot for cable pass-through if the keyboard is wired, since sliding a wired keyboard into a slot with the cable still attached could cause connector strain over repeated use." },
   { title: "Distinct thermal profile from laptop storage noted", description: "Noted the different device profile from laptop storage, keyboards don't generate heat, so the enclosed-space heat-buildup concern relevant to laptops doesn't apply here." },
-  { title: "Daily accessibility tested for frequent slide-in/out use", description: "Tested daily accessibility, sliding a keyboard in/out multiple times per day versus occasional storage, for ease of use consistent with the laptop-slot accessibility approach." },
+  { title: "Daily accessibility tested for frequent slide-in/out use", description: "Tested daily accessibility, sliding a keyboard in/out multiple times per day versus occasional storage, for ease of use consistent with the laptop-slot accessibility approach." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Does a keyboard get too hot stored in an enclosed monitor shelf slot?", a: "No. Keyboards don't generate heat, so the enclosed-space heat-buildup concern relevant to laptop storage doesn't apply here." },
   { q: "How often can I slide my keyboard in and out of the storage slot?", a: "These slots are designed for daily accessibility, sliding a keyboard in/out multiple times per day, verify the drawer mechanism handles that frequency smoothly before buying." },
   { "q": "What's the single best pick to come out of this comparison?", a: "Buyers wanting the most-proven, most affordable keyboard storage stand" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting the most-proven, most affordable keyboard storage stand At $19.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting the most-proven, most affordable keyboard storage stand At under $20, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-bamboo-monitor-shelves", title: "Best Bamboo Monitor Shelves (2026)" },
   { href: "/guide/best-two-tier-monitor-shelves", title: "Best Two-Tier Monitor Shelves (2026)" },
-  { href: "/guide/best-monitor-shelves-for-laptops-and-monitors", title: "Best Monitor Shelves for Laptops and Monitors (2026)" },
+  { href: "/guide/best-monitor-shelves-for-laptops-and-monitors", title: "Best Monitor Shelves for Laptops and Monitors (2026)" }
 ];

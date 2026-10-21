@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "rolling printer stand";
 export const introParagraphs = [
   "A rolling printer stand needs to do two things a fixed shelf never has to worry about: hold the printer level while it prints and roll smoothly out of the way when you need the floor space back. That means caster quality, not just shelf count, is often the difference between a stand that stays put and one that drifts a few inches every time you press a button on the printer.",
-  "Below are 8 rolling printer stands we evaluated on caster type, locking ability, per-shelf capacity, and how stable each one stays mid-print, ranging from dedicated printer carts with cable cutouts to general-purpose rolling utility carts that happen to work just as well under a compact printer.",
+  "Below are 8 rolling printer stands we evaluated on caster type, locking ability, per-shelf capacity, and how stable each one stays mid-print, ranging from dedicated printer carts with cable cutouts to general-purpose rolling utility carts that happen to work just as well under a compact printer."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Locking caster wheels",
       "Built-in storage drawer",
       "Cable management cutouts",
-      "Sized for under-desk rolling use",
+      "Sized for under-desk rolling use"
     ],
     pros: [
       "Purpose-built printer cart with cable cutouts",
       "Locking wheels hold position during printing",
       "Storage drawer included for paper or ink",
-      "Compact enough to roll under a desk",
+      "Compact enough to roll under a desk"
     ],
     cons: [
       "Single shelf plus drawer limits total storage",
       "Plastic casters can mark hardwood over time",
-      "Not tall enough for a bulky all-in-one printer",
+      "Not tall enough for a bulky all-in-one printer"
     ],
     bestFor: "Buyers who want a dedicated rolling printer cart with locking wheels and a drawer",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "2-tier rolling table design",
       "Built-in drawer",
       "Rolling casters",
-      "Sized for full-size all-in-one printers",
+      "Sized for full-size all-in-one printers"
     ],
     pros: [
       "Largest top surface in this list",
       "2-tier design adds a full lower shelf",
       "Drawer keeps small supplies contained",
-      "Handles bulkier all-in-one printers",
+      "Handles bulkier all-in-one printers"
     ],
     cons: [
       "Larger footprint needs more rolling clearance",
       "Heavier to reposition than smaller carts",
-      "Casters are not independently lockable per wheel",
+      "Casters are not independently lockable per wheel"
     ],
     bestFor: "Buyers with a full-size all-in-one printer that needs real surface area",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "24\" extended desktop surface",
       "Rolling casters",
       "Fabric drawer fronts",
-      "Side storage bag included",
+      "Side storage bag included"
     ],
     pros: [
       "Doubles as real file storage, not just a printer perch",
       "Extended top gives more surface than a standard cabinet",
       "Rolls easily thanks to caster base",
-      "Side bag adds extra catch-all storage",
+      "Side bag adds extra catch-all storage"
     ],
     cons: [
       "Marketed as a file cabinet first, printer stand second",
       "Fabric drawers hold less weight than metal drawers",
-      "Bulkier footprint than a slim printer-specific cart",
+      "Bulkier footprint than a slim printer-specific cart"
     ],
     bestFor: "Buyers who want a rolling printer surface combined with real file drawer storage",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Rolling caster base",
       "Rustic brown finish",
       "Flat top surface for printer placement",
-      "Mobile file cabinet design",
+      "Mobile file cabinet design"
     ],
     pros: [
       "3 full drawers of lateral file storage",
       "Wide flat top gives a stable printer platform",
       "Furniture-style finish blends into a room",
-      "Casters make repositioning simple",
+      "Casters make repositioning simple"
     ],
     cons: [
       "Most expensive pick in this list",
       "Wider lateral footprint than narrow carts",
-      "Not designed with cable cutouts for a printer",
+      "Not designed with cable cutouts for a printer"
     ],
     bestFor: "Buyers who want a rolling printer surface plus a full lateral filing cabinet",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Heavy duty steel frame",
       "4 caster wheels",
       "White finish",
-      "General-purpose utility cart design",
+      "General-purpose utility cart design"
     ],
     pros: [
       "Sturdy heavy-duty metal construction",
       "3 full shelves for printer plus supplies",
       "Budget-friendly relative to dedicated printer carts",
-      "Open design means no cable cutouts needed",
+      "Open design means no cable cutouts needed"
     ],
     cons: [
       "Not marketed or designed specifically for printers",
       "No drawer for hiding small supplies",
-      "Casters are basic, not premium locking wheels",
+      "Casters are basic, not premium locking wheels"
     ],
     bestFor: "Budget-conscious buyers who want a flexible rolling cart that works well for a printer",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Built-in push handle",
       "Slim footprint",
       "4 rolling wheels",
-      "White finish",
+      "White finish"
     ],
     pros: [
       "Slim footprint fits tight rooms well",
       "Push handle makes rolling easier one-handed",
       "3 tiers for printer plus supply storage",
-      "Lowest price among the metal utility cart picks",
+      "Lowest price among the metal utility cart picks"
     ],
     cons: [
       "Not printer-specific, no cable routing features",
       "Lighter-gauge metal than the heavy duty picks",
-      "Top shelf lip is shallow for larger printers",
+      "Top shelf lip is shallow for larger printers"
     ],
     bestFor: "Small rooms that need the narrowest possible rolling footprint",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Built-in handle",
       "4 caster wheels",
       "Lightweight frame",
-      "White finish",
+      "White finish"
     ],
     pros: [
       "Lightest pick in this list to move around",
       "Lowest price of any rolling option here",
       "Plastic frame will not rust or scuff floors",
-      "Handle makes one-handed rolling simple",
+      "Handle makes one-handed rolling simple"
     ],
     cons: [
       "Lower weight capacity than metal utility carts",
       "Not designed with printers in mind",
-      "Plastic shelves flex more under a heavier printer",
+      "Plastic shelves flex more under a heavier printer"
     ],
     bestFor: "Buyers who want the lightest, cheapest rolling option for a compact printer",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Black finish",
       "4 caster wheels",
       "Metal frame construction",
-      "General-purpose utility cart design",
+      "General-purpose utility cart design"
     ],
     pros: [
       "Modern black finish stands out from typical white carts",
       "Solid metal frame for the price",
       "3 tiers for printer plus supply storage",
-      "Rolls smoothly on 4 caster wheels",
+      "Rolls smoothly on 4 caster wheels"
     ],
     cons: [
       "Not printer-specific, no cable cutouts",
       "No drawer for hiding small items",
-      "Casters are basic rather than locking",
+      "Casters are basic rather than locking"
     ],
     bestFor: "Buyers who want a rolling cart with a modern black finish instead of white",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Purpose-built versus flexible utility design",
     description: "Distinguished dedicated printer carts with cable cutouts and drawers from general-purpose rolling utility carts, and evaluated each honestly against what it was actually designed to do.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -466,11 +466,11 @@ export const faq: FaqItem[] = [
   {
     q: "Are these rolling stands sturdy enough for a heavier laser all-in-one printer?",
     a: "Metal-framed picks like the DEVAISE, Simple Houseware, and YASONIC handle a heavier laser printer better than the lighter plastic Sywhitta cart. Check the stand's stated capacity against your printer's actual weight, and favor a wider caster base if the printer sits on the upper end of the weight range.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desktop-printer-stands", title: "Best Desktop Printer Stands (2026)" },
   { href: "/guide/best-printer-cabinets-for-home-offices", title: "Best Printer Cabinets for Home Offices (2026)" },
-  { href: "/guide/best-printer-stands-with-file-drawers", title: "Best Printer Stands with File Drawers (2026)" },
+  { href: "/guide/best-printer-stands-with-file-drawers", title: "Best Printer Stands with File Drawers (2026)" }
 ];

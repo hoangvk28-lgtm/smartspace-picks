@@ -193,36 +193,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $179.99",
+          "Under $180",
           "MARBERO 237Wh Solar Generator with 60W Solar Panel Included"
         ],
         [
-          "Around $180.49",
+          "Under $190",
           "EnginStar Portable Power Station 300W with 60W Foldable Solar Panel"
         ],
         [
-          "Around $189.96",
+          "Under $190",
           "ZeroKor 300W Portable Power Station with 60W Solar Panel Included"
         ],
         [
-          "Around $218.98",
+          "Under $250",
           "BLUETTI Elite 30 V2 Portable Power Station"
         ],
         [
-          "Around $259.00",
+          "Under $300",
           "Jackery Explorer 300 Portable Power Station"
         ],
         [
-          "Around $339.00",
+          "Under $350",
           "Jackery Solar Generator 300 and 40W Solar Panel"
         ],
         [
-          "Around $499.00",
+          "Under $500",
           "Jackery Explorer 1000 v2 Portable Power Station"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -270,7 +270,7 @@ export const faq = [
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "Jackery Explorer 300 Portable Power Station is aimed at buyers prioritizing 292wh, 300w (600w surge), 7.5 lbs." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Jackery Explorer 300 Portable Power Station is aimed at buyers prioritizing 292wh, 300w (600w surge), 7.5 lbs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"},{"href":"/guide/best-portable-power-stations-for-home-use","title":"Best Portable Power Stations for Home Use in 2026"}];

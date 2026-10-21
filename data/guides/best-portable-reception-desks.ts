@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "WOHOMO Folding Desk, 31.5\" Foldable Computer Table for Small Spaces, Oak and is built around small folding desk for small spaces, positioning it for portable buyers specifically.\n\nFolding Desk is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for portable, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Small Folding Desk for Small Spaces","Folding Desk","Hided Small Desk"],
     pros: ["Small Folding Desk for Small Spaces, confirmed directly in the listing's own spec details","Folding Desk, confirmed directly in the listing's own spec details","Hided Small Desk, confirmed directly in the listing's own spec details"],
-    cons: ["At $53.99, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $60, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for portable",
   },
   {
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     description: "Frylr Small Folding Computer Desk Portable 35.8 Inch Foldable Laptop Table, No-Assembly, measures 35.8 Inch and is built around no tools needed designed for ultimate convenience, positioning it for portable buyers specifically.\n\nEnjoy long-lasting support with a thick tabletop is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for portable, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["35.8 Inch dimensions","No Tools Needed Designed for ultimate convenience","Enjoy long-lasting support with a thick tabletop"],
     pros: ["No Tools Needed Designed for ultimate convenience, confirmed directly in the listing's own spec details","Enjoy long-lasting support with a thick tabletop, confirmed directly in the listing's own spec details","- The eco-friendly, low-VOC woodgrain surface reduces, confirmed directly in the listing's own spec details"],
-    cons: ["At $49.93, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $50, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for portable",
   },
   {
@@ -129,20 +129,20 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $49.93",
+          "Under $50",
           "Frylr Small Folding Computer Desk Portable 35.8 Inch Foldable Laptop Table"
         ],
         [
-          "Around $53.99",
+          "Under $60",
           "WOHOMO Folding Desk"
         ],
         [
-          "Around $84.99",
+          "Under $90",
           "Small Portable Standing Rolling Desk"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -190,7 +190,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "WOHOMO Folding Desk is aimed at buyers looking for portable." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "WOHOMO Folding Desk is aimed at buyers looking for portable." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-mobile-reception-desks","title":"4 Best Mobile Reception Desks in 2026"},{"href":"/guide/best-reception-desks-on-wheels","title":"4 Best Reception Desks on Wheels in 2026"},{"href":"/guide/best-reception-desks-for-restaurant","title":"best-reception-desks-for-restaurant"}];

@@ -51,23 +51,23 @@ export const products: BudgetMonitor[] = [
     tradeoffs: [
       "250 nits adequate indoors, not for bright sunlit rooms",
       "Tilt-only stand with no height or swivel adjustment",
-      "Single HDMI port, no DisplayPort",
+      "Single HDMI port, no DisplayPort"
     ],
     skipIf:
-      "Your desk is large and you want the standard 24-inch size. The LG 24MR400-B at $85 to $100 is the reliable IPS 24-inch pick.",
+      "Your desk is large and you want the standard 24-inch size. The LG 24MR400-B at under $90 to $100 is the reliable IPS 24-inch pick.",
     pros: [
       "Lowest price at $70",
       "4-year advance replacement warranty (unique at this price)",
       "IPS 99% sRGB accurate colors",
       "100Hz + FreeSync",
       "Smallest footprint (21.5 inches)",
-      "LowBlue Mode + flicker-free",
+      "LowBlue Mode + flicker-free"
     ],
     cons: [
       "250 nits brightness only",
       "Tilt-only stand",
       "Single HDMI port",
-      "21.5 inches smaller than other picks",
+      "21.5 inches smaller than other picks"
     ],
   },
   {
@@ -90,7 +90,7 @@ export const products: BudgetMonitor[] = [
       "250 nits same brightness limitation as Philips",
       "Tilt-only stand",
       "Single HDMI port",
-      "Slightly higher price than alternatives",
+      "Slightly higher price than alternatives"
     ],
     skipIf:
       "Budget is firmly $70. The Philips 221V8LB delivers the same panel quality and 100Hz with a 4-year warranty at $70.",
@@ -100,13 +100,13 @@ export const products: BudgetMonitor[] = [
       "100Hz + AMD FreeSync",
       "Reader Mode for extended study",
       "OnScreen Control software",
-      "Dual input HDMI + D-Sub",
+      "Dual input HDMI + D-Sub"
     ],
     cons: [
       "250 nits brightness",
       "Tilt-only stand",
       "Single HDMI port",
-      "Slightly more expensive",
+      "Slightly more expensive"
     ],
   },
   {
@@ -129,7 +129,7 @@ export const products: BudgetMonitor[] = [
       "75Hz only, lower than IPS competitors at similar price",
       "VA response time slower than IPS, visible ghosting in fast games",
       "Narrower viewing angles than IPS, color shifts off-center",
-      "No Adaptive Sync",
+      "No Adaptive Sync"
     ],
     skipIf:
       "You game competitively or need fast response times. VA's slower pixel response causes ghosting in fast FPS games.",
@@ -139,13 +139,13 @@ export const products: BudgetMonitor[] = [
       "300 nits, highest brightness in the guide",
       "2x HDMI ports for two sources",
       "Built-in 2x2W speakers",
-      "VESA mount included",
+      "VESA mount included"
     ],
     cons: [
       "75Hz only",
       "Slower VA response time vs IPS",
       "Narrower viewing angles",
-      "No Adaptive Sync",
+      "No Adaptive Sync"
     ],
   },
   {
@@ -167,7 +167,7 @@ export const products: BudgetMonitor[] = [
     tradeoffs: [
       "VESA 75x75mm not standard 100x100mm, some monitor arms require adapter",
       "180Hz has little benefit for study and productivity use",
-      "Sansui is a smaller brand with less established support",
+      "Sansui is a smaller brand with less established support"
     ],
     skipIf:
       "You do not game or prioritize refresh rate. The Philips or LG IPS picks at $70 to $100 are better value for study-only use.",
@@ -177,12 +177,12 @@ export const products: BudgetMonitor[] = [
       "110% sRGB vivid colors",
       "300 nits brightness",
       "DisplayPort 1.4 + HDMI 2.0",
-      "HDMI cable included",
+      "HDMI cable included"
     ],
     cons: [
       "VESA 75x75mm needs adapter for some monitor arms",
       "180Hz mainly benefits gaming",
-      "Sansui smaller brand",
+      "Sansui smaller brand"
     ],
   },
   {
@@ -205,7 +205,7 @@ export const products: BudgetMonitor[] = [
       "Price fluctuates, verify at or under $100 before buying",
       "Requires GPU capable of 1440p output (check your laptop or desktop)",
       "5ms response time slower than Sansui for fast gaming",
-      "KTC is a newer brand with limited long-term track record",
+      "KTC is a newer brand with limited long-term track record"
     ],
     skipIf:
       "Your laptop GPU does not support 1440p output, or the price is currently above $100. The LG 24MR400-B is the safe 1080p alternative.",
@@ -215,13 +215,13 @@ export const products: BudgetMonitor[] = [
       "HDR10 support",
       "FreeSync + G-Sync compatible",
       "Zero-frame three-sided borderless",
-      "HDMI 2.0 + DisplayPort 1.4",
+      "HDMI 2.0 + DisplayPort 1.4"
     ],
     cons: [
       "Price fluctuates above $100, verify before buying",
       "Requires 1440p-capable GPU",
       "5ms response time",
-      "KTC newer brand",
+      "KTC newer brand"
     ],
   },
   {
@@ -244,7 +244,7 @@ export const products: BudgetMonitor[] = [
       "75Hz, the lowest refresh rate of the IPS picks",
       "250 nits, adequate indoors only",
       "No AMD FreeSync or Adaptive Sync",
-      "Single HDMI port",
+      "Single HDMI port"
     ],
     skipIf:
       "You prioritize refresh rate or plan to game. The 75Hz refresh is the limitation here vs 100Hz IPS alternatives.",
@@ -254,13 +254,13 @@ export const products: BudgetMonitor[] = [
       "AOC established budget monitor brand",
       "LowBlue Mode + flicker-free",
       "VESA 100x100mm",
-      "Lowest priced 24-inch IPS in the guide at $80 to $90",
+      "Lowest priced 24-inch IPS in the guide at $80 to $90"
     ],
     cons: [
       "75Hz, lowest IPS refresh in the guide",
       "250 nits only",
       "No Adaptive Sync",
-      "Single HDMI",
+      "Single HDMI"
     ],
   },
   {
@@ -283,7 +283,7 @@ export const products: BudgetMonitor[] = [
       "75Hz, lower than IPS competitors at similar price",
       "VESA 75x75mm (not 100x100mm), check monitor arm compatibility",
       "2x2W speakers functional, not audiophile quality",
-      "250 nits brightness",
+      "250 nits brightness"
     ],
     skipIf:
       "You already have desktop speakers. The LG 24MR400-B at similar price delivers 100Hz and better brand support without speakers.",
@@ -292,15 +292,15 @@ export const products: BudgetMonitor[] = [
       "2x HDMI ports (laptop + gaming console)",
       "IPS 99% sRGB accurate colors",
       "Matte anti-glare finish",
-      "Clean flat design",
+      "Clean flat design"
     ],
     cons: [
       "75Hz, lower than IPS competitors",
       "VESA 75x75mm needs adapter for some arms",
       "Speakers functional only, not premium",
-      "250 nits only",
+      "250 nits only"
     ],
-  },
+  }
 ];
 
 export const atAGlanceRows = products.map((p) => ({
@@ -338,7 +338,7 @@ export const faq = [
   {
     q: "What monitor accessories do I actually need?",
     a: "A monitor arm ($25 to $30) solves the tilt-only stand limitation common to all picks in this guide and saves desk surface. An HDMI cable if your monitor does not include one (the Sansui does). A USB hub since no monitor under $100 has USB ports. A cable management tray if you want a clean desk.",
-  },
+  }
 ];
 
 export const relatedGuides = [
@@ -347,5 +347,5 @@ export const relatedGuides = [
     title: "Best Monitor Stands for Small Desks",
   },
   { href: "/guide/best-small-keyboards", title: "Best Small Keyboards" },
-  { href: "/guide/desk-setup-essentials", title: "Desk Setup Essentials" },
+  { href: "/guide/desk-setup-essentials", title: "Desk Setup Essentials" }
 ];

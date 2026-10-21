@@ -151,19 +151,19 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $179.99",
+          "Under $180",
           "QNAP TR-002-A-US 2-Bay USB-C DAS with Hardware RAID (Diskless)"
         ],
         [
-          "Around $219.00",
+          "Under $250",
           "QNAP TR-004 4-Bay USB-C DAS with Hardware RAID (Diskless)"
         ],
         [
-          "Around $799.00",
+          "Under $800",
           "QNAP TL-D810TC4-US 8-Bay Desktop DAS/JBOD Expansion"
         ],
         [
-          "Around $899.00",
+          "Under $900",
           "QNAP TL-R1200C-RP 12-Bay Rackmount JBOD Enclosure"
         ]
       ]
@@ -208,7 +208,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "QNAP TR-004 4-Bay USB-C DAS with Hardware RAID (Diskless) is aimed at buyers prioritizing 4x 3.5in bays, hardware raid 0/1/5/jbod; QNAP TR-002-A-US 2-Bay USB-C DAS with Hardware RAID (Diskless) is aimed at buyers prioritizing 2-bay hardware raid 0/1/jbod."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -260,7 +260,7 @@ export const faq = [
     "a": "Only if the specific enclosure documents hot-swap support, which most tool-free tray designs in this category do. Always check your specific product's hot-swap capability before removing a drive live, since not every budget enclosure supports it, especially some fixed-RAID-mode units."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "QNAP TR-004 4-Bay USB-C DAS with Hardware RAID (Diskless) is aimed at buyers prioritizing 4x 3.5in bays, hardware raid 0/1/5/jbod." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "QNAP TR-004 4-Bay USB-C DAS with Hardware RAID (Diskless) is aimed at buyers prioritizing 4x 3.5in bays, hardware raid 0/1/5/jbod." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-raid-direct-attached-storage","title":"8 Best RAID Direct-Attached Storage"},{"href":"/guide/best-12-bay-direct-attached-storage","title":"5 Best 12-Bay Direct-Attached Storage"},{"href":"/guide/best-8-bay-das-storage","title":"6 Best 8-Bay DAS Storage Options"}];

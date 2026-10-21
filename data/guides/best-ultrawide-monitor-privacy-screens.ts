@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "ultrawide monitor privacy screen";
 export const introParagraphs = [
   "Our research confirmed a genuine, well-reviewed selection of filters for 21:9 ultrawide monitors at 30 and 34 inch. We did not find generic-fit filters for 32:9 super-ultrawide monitors (like 49 inch models); those require model-specific filters cut for each exact monitor.",
-  "If you own a 49 inch, 32:9 super-ultrawide, check our dedicated 49-inch curved monitor guide instead, since standard 21:9 filters will not fit that shape.",
+  "If you own a 49 inch, 32:9 super-ultrawide, check our dedicated 49-inch curved monitor guide instead, since standard 21:9 filters will not fit that shape."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed genuine 21:9 fit for every pick", description: "We verified every pick here as a genuine 21:9 ultrawide filter rather than assuming diagonal size alone determines compatibility." },
   { title: "Disclosed the lack of generic-fit 32:9 super-ultrawide filters", description: "We found no generic-fit filter for 32:9 super-ultrawide monitors like 49 inch models; those require model-specific filters, which we cover in a dedicated guide." },
   { title: "Split 30 inch and 34 inch as genuinely different product pools", description: "We compared 30 inch and 34 inch picks separately, since these represent different monitor sizes within the broader ultrawide category." },
-  { title: "Noted bundled features and their impact on price", description: "We flagged where anti-glare, blue-light filtering, UV protection, and anti-scratch features are bundled, since this affects value beyond the base price." },
+  { title: "Noted bundled features and their impact on price", description: "We flagged where anti-glare, blue-light filtering, UV protection, and anti-scratch features are bundled, since this affects value beyond the base price." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -265,20 +265,21 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
-    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nThis matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
   }
 ];
 
 export const faq: FaqItem[] = [
-  { q: "Which ultrawide privacy screen has the most reviews?", a: "The [2 Pack] 34 Inch Privacy Screen for Curved Monitor, with 6,437 reviews at a 4.2 rating." },
+  
   { q: "Is there a filter for 49 inch super-ultrawide monitors?", a: "Not a generic-fit one. 32:9 super-ultrawides need model-specific filters; check our dedicated 49-inch curved monitor guide." },
   { q: "What's the best option for a 30 inch ultrawide?", a: "The ACONETMAX 30 Inches Privacy Screen Filter has the most bundled features, while the APeiSi alternative has a larger review base." },
-  { q: "What's the cheapest 34 inch option?", a: "The 34 Inch Computer Privacy Screen Filter at $49.99, though it has the lowest rating among the 34 inch picks." },
+  { q: "What's the cheapest 34 inch option?", a: "The 34 Inch Computer Privacy Screen Filter at under $50, though it has the lowest rating among the 34 inch picks." },
   { q: "Do all ultrawide filters fit curved monitors?", a: "Most picks here are confirmed curved-compatible, but verify this explicitly on any specific listing rather than assuming from the ultrawide category alone." },
+  { q: "How do I install a privacy filter on a curved ultrawide monitor?", a: "Clean the screen, then attach the filter using the mounting method in the listing, such as tabs or hooks. Filters labeled curved-compatible, like the Mamol and ACONETMAX units, flex slightly to follow the curve. Work slowly and avoid creasing the film while fitting it." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-34-inch-curved-monitor-privacy-screens", title: "Best 34-Inch Curved Monitor Privacy Screens (2026)" },
   { href: "/guide/best-49-inch-curved-monitor-privacy-screens", title: "Best 49-Inch Curved Monitor Privacy Screens (2026)" },
-  { href: "/guide/best-curved-monitor-privacy-screens", title: "Best Curved Monitor Privacy Screens (2026)" },
+  { href: "/guide/best-curved-monitor-privacy-screens", title: "Best Curved Monitor Privacy Screens (2026)" }
 ];

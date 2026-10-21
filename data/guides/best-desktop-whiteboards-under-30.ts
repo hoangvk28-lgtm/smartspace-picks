@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["A glass board with drawer storage for the keyboard gap", "TSJ OFFICE Small Desktop Whiteboard, Glass Dry Erase Board with Drawer"],
         ["The most compact, paper-sized glass board", "U Brands Desk Whiteboard Easel, Glass Dry Erase Board"],
-        ["A handcrafted, furniture-grade look with segmented storage", "Yeoux Glass Desktop Whiteboard with Wood Organizer"],
+        ["A handcrafted, furniture-grade look with segmented storage", "Yeoux Glass Desktop Whiteboard with Wood Organizer"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $18", "U Brands Desk Whiteboard Easel ($17.75)"],
-        ["$25-$30", "TSJ OFFICE ($24.69), Yeoux ($25.99), or Quartet ($29.76)"],
+        ["Under $18", "U Brands Desk Whiteboard Easel (under $20)"],
+        ["$25-$30", "TSJ OFFICE (under $25), Yeoux (under $30), or Quartet (under $30)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Glass Surface vs Storage Depth Priority",
     cards: [
       { label: "Compact Glass, Minimal Storage (U Brands)", text: "Prioritizes a genuinely glass surface in the smallest footprint, without dedicated drawer or compartment storage." },
-      { label: "Glass Plus Organized Storage (TSJ, Yeoux, Quartet)", text: "Combines the glass surface upgrade with dedicated drawers or compartments for markers and accessories." },
+      { label: "Glass Plus Organized Storage (TSJ, Yeoux, Quartet)", text: "Combines the glass surface upgrade with dedicated drawers or compartments for markers and accessories." }
     ],
     note: "If desk space is extremely tight, the compact U Brands pick fits best. If you want the glass upgrade plus genuine accessory organization, the other three picks deliver more complete functionality.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your desk aesthetic", "Recommended pick"],
       rows: [
         ["Standard white board, functional look", "TSJ OFFICE or U Brands"],
-        ["Upscale hardwood or contemporary black finish", "Yeoux (hardwood) or Quartet (black glass)"],
+        ["Upscale hardwood or contemporary black finish", "Yeoux (hardwood) or Quartet (black glass)"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Air Quality Conscious Buyers Specifically",
     cards: [
       { label: "Look for", text: "A specific, named third-party certification for low emissions, rather than a generic \"eco-friendly\" or \"non-toxic\" marketing claim." },
-      { label: "In this comparison", text: "The Quartet Glass Dry Erase White Board is the only pick specifically stating GREENGUARD Gold Certification for low emissions." },
+      { label: "In this comparison", text: "The Quartet Glass Dry Erase White Board is the only pick specifically stating GREENGUARD Gold Certification for low emissions." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want GREENGUARD Gold Certified materials or a handcrafted hardwood look, where the Quartet and Yeoux picks respectively deliver these features." },
-      { label: "Save if", text: "A compact glass board covers your needs, where the U Brands pick delivers genuine glass quality at the lowest price in this comparison." },
+      { label: "Save if", text: "A compact glass board covers your needs, where the U Brands pick delivers genuine glass quality at the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

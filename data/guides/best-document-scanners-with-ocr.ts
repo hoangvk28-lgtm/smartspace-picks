@@ -5,7 +5,7 @@ export const metaDescription = "8 scanners with bundled OCR, with an honest note
 export const mainKeyword = "document scanner with OCR";
 export const introParagraphs = [
   "Bundled OCR engines range from full ABBYY FineReader licenses to stripped-down proprietary utilities with a fraction of the capability, both marketed as 'includes OCR' with no distinction made. We identify what software each pick actually bundles rather than treating the checkbox as equivalent everywhere.",
-  "Also worth knowing: OCR accuracy depends heavily on scan resolution and source document quality, not solely software quality, a 200 DPI scan of a faxed or low-contrast document will produce meaningfully worse text accuracy than a clean 300 DPI original. Handwriting recognition also remains poor across nearly all consumer bundled software.",
+  "Also worth knowing: OCR accuracy depends heavily on scan resolution and source document quality, not solely software quality, a 200 DPI scan of a faxed or low-contrast document will produce meaningfully worse text accuracy than a clean 300 DPI original. Handwriting recognition also remains poor across nearly all consumer bundled software."
 ];
 export const lastUpdated = "2026-07-29";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall OCR Pick",
     name: "ScanSnap iX2500 Wireless or USB High-Speed Document Scanner",
     price: "Check current price",
-    rating: "4.4 stars from 326 Amazon ratings",
-    reviews: "326 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41wHhR2WCpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9B1H5VN?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Searchable PDF OCR",
     name: "Epson Workforce ES-580W Wireless Color Duplex Desktop Document Scanner",
     price: "$379.99",
-    rating: "4.3 stars from 5,857 Amazon ratings",
-    reviews: "5,857 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Ty0waBx4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KQZWPYN?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact OCR Pick",
     name: "ScanSnap iX1300 Wireless or USB Double-Sided Color Document Scanner, White",
     price: "$279.99",
-    rating: "4.2 stars from 1,768 Amazon ratings",
-    reviews: "1,768 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41yWYf2uT0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FX5DWBK?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best OCR Plus Office Conversion",
     name: "Epson Workforce ES-400 II High-Speed Color Duplex Desktop Document Scanner",
     price: "$299.99",
-    rating: "4.5 stars from 1,226 Amazon ratings",
-    reviews: "1,226 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41rW4JApydL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08P3YVH3X?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Office-Class OCR Alternative",
     name: "Canon imageFORMULA DR-C225 II Office Document Scanner",
     price: "$267.00",
-    rating: "4.1 stars from 442 Amazon ratings",
-    reviews: "442 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/418QNsyyrDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07FPQZ6H8?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Budget OCR-Included Pick",
     name: "Brother DS-640 Compact Mobile Document Scanner",
     price: "$134.99",
-    rating: "4.3 stars from 6,522 Amazon ratings",
-    reviews: "6,522 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Bx7Z39uKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B083R36CY4?tag=deskfinds0d-20",
     description:
@@ -127,8 +127,8 @@ export const products: GuideProduct[] = [
     badge: "Portable OCR Pick",
     name: "Canon imageFORMULA R10 Portable Document Scanner, USB Powered, Duplex",
     price: "$184.00",
-    rating: "4.1 stars from 2,338 Amazon ratings",
-    reviews: "2,338 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/218Q14ube6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08FBHTD9B?tag=deskfinds0d-20",
     description:
@@ -144,8 +144,8 @@ export const products: GuideProduct[] = [
     badge: "Cloud-Connected OCR Alternative",
     name: "Canon imageFORMULA R40II Office Document Scanner",
     price: "$253.00",
-    rating: "4.3 stars from 37 Amazon ratings",
-    reviews: "37 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41d2vOL+ThL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GJWWZ77J?tag=deskfinds0d-20",
     description:
@@ -154,14 +154,14 @@ export const products: GuideProduct[] = [
     pros: ["Cloud connectivity alongside bundled OCR", "Duplex scanning", "Wide document type support", "Easy setup"],
     cons: ["Smallest review count in this guide", "No specific OCR engine identity disclosed", "Newer, less-established listing"],
     bestFor: "Buyers who want cloud-connected scanning with bundled OCR in a newer office-class model",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "OCR software identity and capability disclosure", description: "Checked whether each listing identifies its bundled OCR software specifically, since some scanners include a full-featured engine while others bundle a limited proprietary tool under a similar-sounding 'includes OCR' claim." },
   { title: "Scan resolution's effect on OCR accuracy", description: "Noted that OCR accuracy depends heavily on scan DPI and source document quality, not solely software quality, a 200 DPI scan of a low-contrast document produces meaningfully worse text extraction than a clean 300 DPI original." },
-  { title: "Handwriting OCR limitation disclosure", description: "Flagged that standard OCR bundled with every pick in this guide is optimized for printed text; handwritten notes, signatures, and cursive fields are recognized poorly or not at all across the board." },
+  { title: "Handwriting OCR limitation disclosure", description: "Flagged that standard OCR bundled with every pick in this guide is optimized for printed text; handwritten notes, signatures, and cursive fields are recognized poorly or not at all across the board." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -294,11 +294,11 @@ export const faq: FaqItem[] = [
   { q: "Can these scanners convert my handwritten notes into searchable text?", a: "Not reliably. Standard OCR bundled with every pick in this guide is optimized for printed text; handwritten notes, signatures, and cursive fields are recognized poorly or not at all." },
   { q: "Will OCR slow down a large batch scanning job?", a: "Yes, generally. OCR processing speed typically lags well behind scan speed, meaning a large batch scan can create an OCR processing backlog even on a fast-scanning device." },
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers who want the deepest OCR-to-file-organization integration at high scan speed" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want the deepest OCR-to-file-organization integration at high scan speed At Check current price, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want the deepest OCR-to-file-organization integration at high scan speed At Check current price, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-document-scanners-for-searchable-pdfs", title: "Best Document Scanners for Searchable PDFs (2026)" },
   { href: "/guide/best-document-scanners-for-computers", title: "Best Document Scanners for Computers (2026)" },
-  { href: "/guide/best-high-speed-document-scanners", title: "Best High-Speed Document Scanners (2026)" },
+  { href: "/guide/best-high-speed-document-scanners", title: "Best High-Speed Document Scanners (2026)" }
 ];

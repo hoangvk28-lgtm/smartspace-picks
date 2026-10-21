@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $349.99",
+          "Under $350",
           "Trggivs 13FT Conference Table for 10-14"
         ],
         [
-          "Around $449.99",
+          "Under $450",
           "Tribesigns 12FT Conference Table for 12-14"
         ],
         [
-          "Around $689.99",
+          "Under $700",
           "Bonzy Home 14FT Conference Table for 16"
         ],
         [
-          "Around $689.99",
+          "Under $700",
           "13FT Conference Table for 16 Person"
         ],
         [
-          "Around $889.99",
+          "Under $900",
           "Tribesigns 12FT Conference Table for 14-16"
         ],
         [
-          "Around $889.99",
+          "Under $900",
           "Tribesigns 12FT Conference Table for 14-16"
         ],
         [
-          "Around $999.99",
+          "Under $1,000",
           "Bonzy Home 20ft Conference Table for 24"
         ],
         [
-          "Around $1,199.99",
+          "Under $1,200",
           "Tribesigns 18ft Conference Table for 20-24 People"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Not inherently. High-density MDF and particle board with a laminate or melamine finish are standard in this category and hold up well to daily commercial use. Solid wood, veneer over engineered wood, or steel-reinforced builds cost more and matter most where long-term durability or a premium look is the priority."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Tribesigns 12FT Conference Table for 14-16 is aimed at buyers prioritizing 12ft combined (set of 4), dark brown, all-wood." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Tribesigns 12FT Conference Table for 14-16 is aimed at buyers prioritizing 12ft combined (set of 4), dark brown, all-wood." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-6-person-conference-tables","title":"Best 6-Person Conference Tables in 2026"},{"href":"/guide/best-10-person-conference-tables","title":"Best 10-Person Conference Tables in 2026"},{"href":"/guide/best-8-person-conference-tables","title":"Best 8-Person Conference Tables in 2026"}];

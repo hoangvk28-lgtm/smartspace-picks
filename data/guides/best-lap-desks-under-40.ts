@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The highest weight capacity and largest surface", "SONGMICS Bed Laptop Desk, Foldable, Adjustable Height"],
         ["Purpose-tuned ergonomic viewing angles", "AboveTEK Adjustable Laptop Lap Desk, 3 Ergonomic Angles"],
         ["A mouse pad usable by either hand", "AboveTEK Portable Laptop Lap Desk w/Retractable Mouse Pad Tray"],
-        ["The most tilt positions at the lowest price", "HUANUO Lap Desk with 8 Adjustable Angles"],
+        ["The most tilt positions at the lowest price", "HUANUO Lap Desk with 8 Adjustable Angles"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $20", "HUANUO 8 Angles ($19.99)"],
-        ["Under $26", "AboveTEK Retractable Mouse Pad ($25.99)"],
-        ["Under $30", "AboveTEK 3 Ergonomic Angles ($29.99)"],
-        ["Under $34", "SONGMICS Foldable ($33.99)"],
+        ["Under $20", "HUANUO 8 Angles (under $20)"],
+        ["Under $26", "AboveTEK Retractable Mouse Pad (under $30)"],
+        ["Under $30", "AboveTEK 3 Ergonomic Angles (under $30)"],
+        ["Under $34", "SONGMICS Foldable (under $35)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Fine-Grained Tilt Range vs Specific Ergonomic Angles",
     cards: [
       { label: "Fine-grained range (SONGMICS 120 degrees, HUANUO 8 positions)", text: "Offers more granular control to find your exact preferred angle through many small adjustment steps." },
-      { label: "Specific ergonomic angles (AboveTEK 3-angle)", text: "Offers fewer but purpose-tuned angles specifically selected to reduce strain, simpler to choose from." },
+      { label: "Specific ergonomic angles (AboveTEK 3-angle)", text: "Offers fewer but purpose-tuned angles specifically selected to reduce strain, simpler to choose from." }
     ],
     note: "If you like fine-tuning your exact preferred angle, the SONGMICS or HUANUO's wider range of positions offers more control. If you'd rather choose from a few pre-optimized angles, the AboveTEK 3-angle pick simplifies that decision.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Laptop plus tablet or reading material together", "SONGMICS (15.7x22 in)"],
         ["Standard laptop use with mouse pad", "Either AboveTEK pick"],
-        ["Compact laptop-only use", "HUANUO (14.8x11 in)"],
+        ["Compact laptop-only use", "HUANUO (14.8x11 in)"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Left-Handed Mouse Users Specifically",
     cards: [
       { label: "Look for", text: "A retractable mouse pad tray that extends on both the left and right sides rather than one fixed side only." },
-      { label: "In this comparison", text: "The AboveTEK Retractable Mouse Pad pick is specifically designed to extend both directions for either-handed use." },
+      { label: "In this comparison", text: "The AboveTEK Retractable Mouse Pad pick is specifically designed to extend both directions for either-handed use." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the highest weight capacity and largest surface with the widest adjustment range, where the SONGMICS pick leads this comparison on all three fronts." },
-      { label: "Save if", text: "You just want multiple tilt positions without extra features, where the HUANUO pick delivers 8 positions for under $20." },
+      { label: "Save if", text: "You just want multiple tilt positions without extra features, where the HUANUO pick delivers 8 positions for under $20." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

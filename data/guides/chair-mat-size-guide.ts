@@ -12,7 +12,7 @@ export const chairMatSizeGuideGuide: Guide = {
     "what size chair mat do i need",
     "chair mat dimensions for desk",
     "chair mat coverage area",
-    "how big should office chair mat be",
+    "how big should office chair mat be"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const chairMatSizeGuideGuide: Guide = {
     "chair-mat-types-explained",
     "desk-size-chart",
     "office-chair-caster-types-explained",
-    "anti-fatigue-mat-explained",
+    "anti-fatigue-mat-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const chairMatSizeGuideGuide: Guide = {
       question: "What happens if my chair mat is too small?",
       answer:
         "Casters frequently rolling off the edge of an undersized mat defeats much of its protective purpose, exposing the floor to the same caster contact the mat was meant to prevent, right at the edges where you actually roll most often.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const chairMatSizeGuideGuide: Guide = {
     {
       heading: "Why L-Shaped Desks Need Special Sizing Consideration",
       body: `An L-shaped or corner desk setup means your chair's rolling range covers a wider, differently shaped floor area than a single straight desk, a standard rectangular mat sized for a straight desk often leaves one section of an L-shaped desk's floor area unprotected. Look specifically for corner-shaped chair mats designed for this desk configuration, or size a rectangular mat generously enough to cover the full combined footprint if a corner-specific option isn't available or practical for your space.`,
-    },
+    }
   ],
 };

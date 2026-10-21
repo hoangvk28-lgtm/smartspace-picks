@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook for work";
 export const introParagraphs = [
   "Work note-taking needs vary enough that the right product type genuinely depends on your role: a reusable paper notebook suits quick meeting notes you'll file digitally later, an e-ink tablet suits anyone doing sustained daily writing or document markup, and a smart pen set suits buyers who want live-synced notes without switching from paper.",
-  "We picked a mix across all three types here so you can match the workflow to your actual job rather than assuming one category fits every professional.",
+  "We picked a mix across all three types here so you can match the workflow to your actual job rather than assuming one category fits every professional."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Workflow fit assessed for professional note-taking", description: "Weighed whether each pick suits live meeting capture, after-the-fact filing, or sustained daily writing, since professional needs vary by role." },
   { title: "Document annotation and markup capability considered", description: "Noted which picks offer color display or larger screens genuinely useful for marking up documents versus plain note capture." },
   { title: "Battery life weighed for back-to-back meeting days", description: "Considered whether a device can realistically last through a full workday or week of meetings without charging." },
-  { title: "Price weighed against professional daily-use frequency", description: "Compared cost against how often a working professional would realistically use the device, not against casual or occasional use." },
+  { title: "Price weighed against professional daily-use frequency", description: "Compared cost against how often a working professional would realistically use the device, not against casual or occasional use." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -274,11 +274,11 @@ export const faq: FaqItem[] = [
   { q: "What's the best digital notebook for taking meeting notes?", a: "It depends on your workflow: a Rocketbook is cheapest for filing notes after meetings, a smart pen set syncs live during the meeting, and an e-ink tablet suits daily sustained note-taking." },
   { q: "Are digital notebooks good for annotating work documents?", a: "Color e-ink devices like the reMarkable Paper Pro or Kindle Scribe Colorsoft are well suited to document markup, black-and-white options work fine for plain notes." },
   { q: "Do digital notebooks sync notes automatically for work use?", a: "It varies by type: e-ink devices sync digital files automatically, smart pens sync in real time as you write, and paper notebooks sync only when you scan a page." },
-  { q: "Is a premium e-ink tablet worth it for work?", a: "If you write or annotate daily, the long battery life and focused interface are worth the investment, for occasional notes a cheaper paper notebook may suffice." },
+  { q: "Is a premium e-ink tablet worth it for work?", a: "If you write or annotate daily, the long battery life and focused interface are worth the investment, for occasional notes a cheaper paper notebook may suffice." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks-for-meetings", title: "Best Digital Notebooks for Meetings (2026)" },
   { href: "/guide/best-digital-notebooks-for-professionals", title: "Best Digital Notebooks for Professionals (2026)" },
-  { href: "/guide/best-digital-notebooks-for-note-taking", title: "Best Digital Notebooks for Note Taking (2026)" },
+  { href: "/guide/best-digital-notebooks-for-note-taking", title: "Best Digital Notebooks for Note Taking (2026)" }
 ];

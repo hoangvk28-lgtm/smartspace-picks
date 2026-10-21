@@ -1,11 +1,11 @@
 export const guideSlug = "best-trackball-mice-under-30";
 export const guideTitle = "5 Best Trackball Mice Under $30 in 2026";
 export const metaTitle = "Best Trackball Mice Under $30 in 2026";
-export const metaDescription = "Five trackball mice priced at $29.99 or less, compared by tilt, battery, pairing and handheld options, for anyone testing a trackball without a big spend.";
+export const metaDescription = "Five trackball mice priced at $30 or less, compared by tilt, battery, pairing and handheld options, for anyone testing a trackball without a big spend.";
 export const mainKeyword = "trackball mouse under 30";
 export const introParagraphs = [
   "Thirty dollars is enough to find out whether a trackball suits you, which is the real question for a first-timer. The learning curve is a week or two, and a cheap model lets you survive that without regret if the idea does not stick.",
-  "All five picks below are listed at $29.99 or less. They split into rechargeable tilted thumb balls, an AAA-powered one, a vertical 55 degree body and a tiny wired handheld. We compared them on listed specs and warranty text, and we note where a spec sheet is thin. Cheap listings often skip details such as battery life, so read the page before ordering."
+  "All five picks below are listed at under $30 or less. They split into rechargeable tilted thumb balls, an AAA-powered one, a vertical 55 degree body and a tiny wired handheld. We compared them on listed specs and warranty text, and we note where a spec sheet is thin. Cheap listings often skip details such as battery life, so read the page before ordering."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -191,7 +191,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     "title": "Feature set for the price",
-    "description": "We compared tilt, battery, DPI range and buttons across five models listed at $29.99 or less."
+    "description": "We compared tilt, battery, DPI range and buttons across five models listed at under $30 or less."
   },
   {
     "title": "Support and warranty",
@@ -258,11 +258,11 @@ export const howToChoose: HowToChooseSection[] = [
           "EDJO Wireless Thumb Trackball Mouse, 30 Degree Tilt"
         ],
         [
-          "$27.50 to $28",
+          "Under $30 to $28",
           "MicroPack Vertical Wireless Trackball Mouse (55 Degree)"
         ],
         [
-          "$27 to $27.50",
+          "$27 to under $30",
           "J-Tech Digital Wireless Thumb Trackball Mouse (V728)"
         ],
         [

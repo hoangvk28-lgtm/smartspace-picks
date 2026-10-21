@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $38.99",
+          "Under $40",
           "UGEE M708 Drawing Tablet"
         ],
         [
-          "Around $39.99",
+          "Under $40",
           "UGEE M708 V2 Drawing Tablet"
         ],
         [
-          "Around $132.90",
+          "Under $140",
           "UGEE UE12 11.6 inch Drawing Tablet with Screen"
         ],
         [
-          "Around $176.89",
+          "Under $180",
           "UGEE UE16 15.4 inch Drawing Tablet with Screen"
         ],
         [
-          "Around $259.99",
+          "Under $300",
           "UGEE Pad Drawing Tablet No Computer Needed"
         ],
         [
-          "Around $429.99",
+          "Under $450",
           "UGEE 14.25\" Standalone Drawing Pad"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "UGEE Pad Drawing Tablet No Computer Needed is aimed at buyers prioritizing 10.36in 2k (277 ppi), android 14." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "UGEE Pad Drawing Tablet No Computer Needed is aimed at buyers prioritizing 10.36in 2k (277 ppi), android 14." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"},{"href":"/guide/best-wacom-drawing-tablets","title":"Best Wacom Drawing Tablets in 2026"},{"href":"/guide/best-drawing-tablets-with-screens","title":"Best Drawing Tablets With Screens in 2026"}];

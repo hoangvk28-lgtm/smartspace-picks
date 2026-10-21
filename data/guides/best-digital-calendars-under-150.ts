@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The longest warranty with expandable photo storage", "15in Digital Calendar Wall Touch Screen, Chore Chart, Photo Frame"],
         ["Tool-free mounting with voice-based event creation", "15.6in Smart Digital Calendar, Family Hub Planner"],
         ["The lowest price with flexible mounting included", "Westsee 15.6in Digital Calendar, No Subscription Smart Family Planner"],
-        ["Accessibility-focused design for multi-generational households", "Digital Calendar, 15.6-inch Smart Family Calendar with Touch Screen"],
+        ["Accessibility-focused design for multi-generational households", "Digital Calendar, 15.6-inch Smart Family Calendar with Touch Screen"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $140", "Smart Family Calendar with Touch Screen ($139.98)"],
-        ["Under $150", "Westsee ($149.99)"],
-        ["Under $160", "Family Hub Planner ($159.99)"],
-        ["Under $168", "Wall Touch Screen with AI Photo Restoration ($167.99)"],
+        ["Under $140", "Smart Family Calendar with Touch Screen (under $140)"],
+        ["Under $150", "Westsee (under $150)"],
+        ["Under $160", "Family Hub Planner (under $160)"],
+        ["Under $168", "Wall Touch Screen with AI Photo Restoration (under $170)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Tool-Free Mounting vs Traditional Hardware Kit Installation",
     cards: [
       { label: "Tool-free mounting (Family Hub Planner)", text: "Uses a thumb nut design for installation in under 30 seconds without drilling or a screwdriver." },
-      { label: "Traditional hardware kit (Wall Touch Screen, Westsee, Smart Family Calendar)", text: "Requires standard mounting hardware and tools, a more involved but still manageable setup process." },
+      { label: "Traditional hardware kit (Wall Touch Screen, Westsee, Smart Family Calendar)", text: "Requires standard mounting hardware and tools, a more involved but still manageable setup process." }
     ],
     note: "If you want the fastest possible setup without any tools, the Family Hub Planner's tool-free design is worth prioritizing. If a slightly longer setup with standard hardware doesn't bother you, the other three picks offer similar core functionality.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Multi-generational household with seniors and children", "Smart Family Calendar with Touch Screen"],
         ["Family managing youth sports schedules", "Family Hub Planner (TeamSnap sync)"],
-        ["Standard family wanting maximum warranty security", "Wall Touch Screen with 2-year warranty"],
+        ["Standard family wanting maximum warranty security", "Wall Touch Screen with 2-year warranty"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Household Managing Youth Sports Schedules Specifically",
     cards: [
       { label: "Look for", text: "Direct sync support for TeamSnap or similar youth sports scheduling platforms, not just the standard personal calendar apps like Google or Outlook." },
-      { label: "In this comparison", text: "The Family Hub Planner pick's specific TeamSnap sync support directly addresses households juggling multiple children's sports team schedules alongside personal calendars." },
+      { label: "In this comparison", text: "The Family Hub Planner pick's specific TeamSnap sync support directly addresses households juggling multiple children's sports team schedules alongside personal calendars." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the longest warranty coverage with expandable photo storage, where the Wall Touch Screen pick delivers both at the top of this tier." },
-      { label: "Save if", text: "You want the full 15.6 inch experience with accessibility-focused design, where the Smart Family Calendar with Touch Screen pick covers that for about $28 less." },
+      { label: "Save if", text: "You want the full 15.6 inch experience with accessibility-focused design, where the Smart Family Calendar with Touch Screen pick covers that for about $28 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

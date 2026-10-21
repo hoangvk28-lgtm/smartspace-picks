@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Fastest wired uplink speed", "GL.iNet GL-MT3000 Beryl AX"],
         ["Fastest VPN throughput and NAS", "GL.iNet GL-AXT1800 Slate AX"],
         ["Easiest setup without OpenWrt", "TP-Link Roam 6 AX1500"],
-        ["Budget with Gigabit ports", "GL.iNet GL-SFT1200 Opal"],
+        ["Budget with Gigabit ports", "GL.iNet GL-SFT1200 Opal"]
       ],
     },
   },
@@ -109,9 +109,9 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $40", "TP-Link Roam 6 AX1500 or GL.iNet Opal (both $39.99)"],
-        ["Under $100", "GL.iNet GL-MT3000 Beryl AX ($98.99)"],
-        ["Under $120", "GL.iNet GL-AXT1800 Slate AX ($119.99)"],
+        ["Under $40", "TP-Link Roam 6 AX1500 or GL.iNet Opal (both under $40)"],
+        ["Under $100", "GL.iNet GL-MT3000 Beryl AX (under $100)"],
+        ["Under $120", "GL.iNet GL-AXT1800 Slate AX (under $120)"]
       ],
     },
   },
@@ -119,7 +119,7 @@ export const howToChoose = [
     subheading: "OpenWrt vs Simplified Firmware",
     cards: [
       { label: "OpenWrt (Beryl AX, Slate AX)", text: "Offers deep customization with thousands of plug-ins, ideal for tech-savvy travelers who want full control over VPN configuration and network behavior." },
-      { label: "Simplified firmware (Roam 6, Opal)", text: "A mode-based setup that's faster to configure for a non-technical traveler who just needs reliable Wi-Fi security without deep customization." },
+      { label: "Simplified firmware (Roam 6, Opal)", text: "A mode-based setup that's faster to configure for a non-technical traveler who just needs reliable Wi-Fi security without deep customization." }
     ],
     note: "Most casual travelers should default to a simplified-firmware router; choose OpenWrt specifically if you want to customize VPN routing rules or install additional network utilities.",
   },
@@ -129,7 +129,7 @@ export const howToChoose = [
       headers: ["Your bandwidth need", "Recommended pick"],
       rows: [
         ["Wi-Fi 6 for multiple 4K streams or video calls", "GL.iNet Beryl AX, Slate AX, or TP-Link Roam 6"],
-        ["Basic browsing and email, budget priority", "GL.iNet GL-SFT1200 Opal (AC1200)"],
+        ["Basic browsing and email, budget priority", "GL.iNet GL-SFT1200 Opal (AC1200)"]
       ],
     },
   },
@@ -137,16 +137,16 @@ export const howToChoose = [
     subheading: "For Frequent Hotel Wi-Fi Use Specifically",
     cards: [
       { label: "Look for", text: "A dedicated hotspot or repeater mode that converts a shared public network into your own private, secured network, plus WPA3 support to protect against password brute-force attacks on that private network." },
-      { label: "In this comparison", text: "All four picks support converting public or hotel Wi-Fi into a private network, with the Beryl AX and Slate AX specifically adding WPA3 protocol support." },
+      { label: "In this comparison", text: "All four picks support converting public or hotel Wi-Fi into a private network, with the Beryl AX and Slate AX specifically adding WPA3 protocol support." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the fastest wired uplink or VPN throughput plus deep OpenWrt customization, where the Beryl AX or Slate AX near $100-120 deliver genuinely faster performance and more configuration depth." },
-      { label: "Save if", text: "You want reliable Wi-Fi 6 security with simple setup, where the TP-Link Roam 6 at $39.99 covers that need without OpenWrt's added complexity." },
+      { label: "Save if", text: "You want reliable Wi-Fi 6 security with simple setup, where the TP-Link Roam 6 at under $40 covers that need without OpenWrt's added complexity." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

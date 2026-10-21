@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small TL-30 safes";
 export const introParagraphs = [
   "We need to be direct here: TL-30 is a higher formal UL 687 burglary-resistance classification than TL-15, requiring a safe to resist a broader set of tools for at least 30 minutes under controlled UL testing. None of the candidate ASINs in our research pool carry a verified TL-30 classification, and none should be presumed to given their consumer-grade weight and price.",
-  "Rather than substitute unrated consumer safes for a specialist certification, we're disclosing this directly and presenting the strongest consumer-grade security safes from our broader research, alongside guidance on where to find genuinely TL-30 certified products.",
+  "Rather than substitute unrated consumer safes for a specialist certification, we're disclosing this directly and presenting the strongest consumer-grade security safes from our broader research, alongside guidance on where to find genuinely TL-30 certified products."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     pros: ["Genuine, verifiable UL fire classification, a real formal credential in a different category"],
     cons: ["No evidence of UL 687 TL-30 burglary-resistance testing", "Portable design, opposite of genuine TL-30 construction"],
     bestFor: "Buyers wanting genuine fire protection, understanding this is unrelated to burglary-resistance rating.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified TL-30 classification claims against actual evidence, not marketing language", description: "TL-30 is a formal, higher-tier UL 687 classification requiring documented testing. None of our researched candidates provide evidence of this certification, so we disclosed the gap directly." },
   { title: "Distinguished genuine formal certifications (fire, gun-safe) from burglary-resistance claims", description: "Two picks here carry genuine formal credentials, UL fire classification and CA DOJ gun-safe certification, which we noted as real but entirely distinct from TL-30 burglary resistance." },
   { title: "Compared consumer-safe weight and construction against typical TL-30 unit specifications", description: "Genuine TL-30 safes typically weigh hundreds of pounds and require professional installation, dramatically different from the 20-60 pound consumer safes in this comparison, which we stated directly." },
-  { title: "Directed buyers toward genuine high-security channels rather than substituting unrated products", description: "For buyers with an actual TL-30 requirement, we recommend a specialist high-security safe dealer with UL Product iQ-verifiable certification, not the consumer products in this comparison." },
+  { title: "Directed buyers toward genuine high-security channels rather than substituting unrated products", description: "For buyers with an actual TL-30 requirement, we recommend a specialist high-security safe dealer with UL Product iQ-verifiable certification, not the consumer products in this comparison." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -283,11 +283,11 @@ export const faq: FaqItem[] = [
   { q: "What's the difference between TL-15 and TL-30?", a: "TL-30 requires a safe to resist a broader set of burglary tools for at least 30 minutes, a higher standard than TL-15's 15-minute requirement, both under UL 687 testing." },
   { q: "Where can I find a genuinely TL-30 certified safe?", a: "Search for a specialist high-security safe dealer and verify the exact model's certification through UL Product iQ directly, rather than trusting a general marketplace listing's claim." },
   { q: "Why don't any consumer safes in this price range have TL-30 certification?", a: "Genuine TL-30 safes are a specialist, professionally installed product category typically weighing hundreds of pounds and priced well beyond consumer safes, a fundamentally different product tier." },
-  { q: "Is there a pick here with any genuine formal certification?", a: "Yes, two picks carry real credentials: a UL fire classification and a California DOJ gun-safe certification, though both are distinct from and not a substitute for TL-30 burglary resistance." },
+  { q: "Is there a pick here with any genuine formal certification?", a: "Yes, two picks carry real credentials: a UL fire classification and a California DOJ gun-safe certification, though both are distinct from and not a substitute for TL-30 burglary resistance." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-tl-15-safes", title: "Best Small TL-15 Safes (2026)" },
   { href: "/guide/best-small-fireproof-safes", title: "Best Small Fireproof Safes (2026)" },
-  { href: "/guide/best-small-safes-that-bolt-to-the-floor", title: "Best Small Safes That Bolt to the Floor (2026)" },
+  { href: "/guide/best-small-safes-that-bolt-to-the-floor", title: "Best Small Safes That Bolt to the Floor (2026)" }
 ];

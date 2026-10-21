@@ -49,7 +49,7 @@ export const products: DocumentCamera[] = [
       "Fixed arm height limits maximum coverage area",
       "Built-in microphone is basic",
       "USB only, no HDMI",
-      "Not suitable for A3 documents or large open books",
+      "Not suitable for A3 documents or large open books"
     ],
     skipIf:
       "You regularly share A3 pages, large textbooks, or need to connect directly to a classroom projector; step up to INSWAN INS-2 or IPEVO VZ-R Ultra.",
@@ -59,13 +59,13 @@ export const products: DocumentCamera[] = [
       "Autofocus with built-in LED light",
       "Compact footprint",
       "Works with Zoom, Teams, Meet, Skype",
-      "Compatible with Windows, Mac, iPad, Chromebook",
+      "Compatible with Windows, Mac, iPad, Chromebook"
     ],
     cons: [
       "A4 coverage only",
       "Basic built-in microphone",
       "No HDMI output",
-      "Limited arm height adjustment",
+      "Limited arm height adjustment"
     ],
   },
   {
@@ -85,7 +85,7 @@ export const products: DocumentCamera[] = [
       "Most well-rounded document camera for regular home office use; 8MP Sony sensor delivers sharp consistent image quality across different lighting conditions; multi-jointed arm lets you position over documents, objects, or at face height for regular video calls; AI-enhanced microphone with noise cancellation reduces keyboard and room noise noticeably; works with Zoom, Teams, Google Meet, Skype as plug-and-play USB camera.",
     tradeoffs: [
       "8MP is sufficient for most tasks but outclassed by 13MP models for fine detail",
-      "No HDMI output, cannot connect to projector without laptop",
+      "No HDMI output, cannot connect to projector without laptop"
     ],
     skipIf:
       "You teach in a physical classroom and need to project directly to a screen without a laptop; IPEVO VZ-R Ultra handles that with dual HDMI and USB output.",
@@ -94,12 +94,12 @@ export const products: DocumentCamera[] = [
       "AI noise-cancelling microphone",
       "Multi-jointed flexible arm for versatile positioning",
       "Plug-and-play USB, no drivers needed",
-      "Works as face webcam or overhead document camera",
+      "Works as face webcam or overhead document camera"
     ],
     cons: [
       "No HDMI output",
       "8MP limited for fine detail work",
-      "Needs laptop to connect to projector",
+      "Needs laptop to connect to projector"
     ],
   },
   {
@@ -120,7 +120,7 @@ export const products: DocumentCamera[] = [
     tradeoffs: [
       "Detachable design introduces slight connection wobble when handheld that can make live video jitter",
       "Smaller and less stable base footprint at maximum arm extension",
-      "Best as hybrid tool rather than pure document camera",
+      "Best as hybrid tool rather than pure document camera"
     ],
     skipIf:
       "You use it exclusively for flat document capture; IPEVO V4K PRO or INSWAN INS-2 will give cleaner static overhead shots for less complexity.",
@@ -129,12 +129,12 @@ export const products: DocumentCamera[] = [
       "Ideal for 3D object demos from any angle",
       "Versatile positioning beyond fixed overhead",
       "Autofocus with LED light",
-      "Built-in microphone included",
+      "Built-in microphone included"
     ],
     cons: [
       "Wobble when handheld during live video",
       "Less stable base than standard cameras",
-      "More complex than a standard document camera",
+      "More complex than a standard document camera"
     ],
   },
   {
@@ -155,7 +155,7 @@ export const products: DocumentCamera[] = [
     tradeoffs: [
       "Arm height needs correct setup to cover full A3 page",
       "No HDMI output",
-      "OCR software is Windows-only, Mac users get full camera function but not OCR",
+      "OCR software is Windows-only, Mac users get full camera function but not OCR"
     ],
     skipIf:
       "You are a Mac-primary user who specifically needs OCR functionality; for Mac-based document capture, IPEVO V4K PRO with third-party OCR software is a better fit.",
@@ -164,12 +164,12 @@ export const products: DocumentCamera[] = [
       "A3 page coverage in single frame",
       "OCR software included, converts text at ~96% accuracy",
       "Replaces need for separate flatbed scanner",
-      "Multiple language OCR support",
+      "Multiple language OCR support"
     ],
     cons: [
       "No HDMI output",
       "OCR is Windows-only",
-      "Arm setup requires initial calibration for full A3 coverage",
+      "Arm setup requires initial calibration for full A3 coverage"
     ],
   },
   {
@@ -190,7 +190,7 @@ export const products: DocumentCamera[] = [
     tradeoffs: [
       "120-degree FOV introduces slight barrel distortion at extreme edges",
       "Wider angle reduces effective magnification for small fine-detail work",
-      "Priced higher than standard V4K PRO for feature most solo WFH users will not fully use",
+      "Priced higher than standard V4K PRO for feature most solo WFH users will not fully use"
     ],
     skipIf:
       "You primarily capture A4-size documents or smaller; standard IPEVO V4K PRO covers A4 comfortably at lower price.",
@@ -198,12 +198,12 @@ export const products: DocumentCamera[] = [
       "120-degree wide field of view",
       "4K Sony CMOS sensor",
       "AI noise-cancelling microphone",
-      "A3 and large open-book coverage without maximum arm height",
+      "A3 and large open-book coverage without maximum arm height"
     ],
     cons: [
       "Barrel distortion at extreme edges",
       "Less effective magnification for fine detail",
-      "Overkill for A4-only use cases",
+      "Overkill for A4-only use cases"
     ],
   },
   {
@@ -224,7 +224,7 @@ export const products: DocumentCamera[] = [
     tradeoffs: [
       "$150 premium is specifically for HDMI direct-to-projector capability",
       "If home office only, INSWAN INS-2 at $100 gives comparable image quality",
-      "Stand is more functional than premium in build feel",
+      "Stand is more functional than premium in build feel"
     ],
     skipIf:
       "You work entirely from home and never need to project to a display without a computer; INSWAN INS-2 delivers similar 13MP image quality at $50 less.",
@@ -233,12 +233,12 @@ export const products: DocumentCamera[] = [
       "13MP 4K image quality",
       "Dual HDMI and USB modes",
       "No laptop required for classroom projection",
-      "Compatible with Mac, Windows, Chromebook",
+      "Compatible with Mac, Windows, Chromebook"
     ],
     cons: [
       "Premium price justified only if using HDMI mode",
       "Functional rather than premium build quality",
-      "INSWAN INS-2 matches image quality at $50 less for home-only use",
+      "INSWAN INS-2 matches image quality at $50 less for home-only use"
     ],
   },
   {
@@ -260,7 +260,7 @@ export const products: DocumentCamera[] = [
       "Wireless mode requires IDocCam app and stable local WiFi",
       "Wireless latency adds small delay compared to USB or HDMI",
       "Highest price on list at $200",
-      "Image quality in USB mode matches standard V4K PRO rather than higher-resolution 13MP models",
+      "Image quality in USB mode matches standard V4K PRO rather than higher-resolution 13MP models"
     ],
     skipIf:
       "You always work at a fixed desk; WiFi capability is the reason for the price premium, and a cable-based camera at $80 delivers the same quality for stationary use.",
@@ -269,15 +269,15 @@ export const products: DocumentCamera[] = [
       "Three connection modes: WiFi, HDMI, and USB",
       "Works with iPad and Android tablets via IDocCam app",
       "Ideal for mobile classroom teaching",
-      "HDMI direct-to-projector mode also included",
+      "HDMI direct-to-projector mode also included"
     ],
     cons: [
       "Highest price on the list at $200",
       "Wireless latency compared to wired modes",
       "Requires IDocCam app and stable WiFi",
-      "8MP, not 13MP like VZ-R Ultra",
+      "8MP, not 13MP like VZ-R Ultra"
     ],
-  },
+  }
 ];
 
 export const atAGlanceRows = products.map((p) => ({
@@ -324,11 +324,11 @@ export const faq = [
   {
     q: "Do I need a wireless document camera?",
     a: "Only if you move the camera between locations during use. For a fixed home office desk, a USB cable is more reliable and adds no latency. Wireless mode is most useful for classroom teachers who position the camera at student desks or walk around the room during demonstrations. The IPEVO VZ-X is the only wireless option on this list.",
-  },
+  }
 ];
 
 export const relatedGuides = [
   { title: "7 Best Headsets for Work: Budget to Premium", href: "/guide/best-headset-for-work" },
   { title: "7 Best Webcams for Home Office in 2026", href: "/guide/best-webcams-for-home-office" },
-  { title: "Ergonomic Desk Setup Guide", href: "/guide/ergonomic-desk-setup" },
+  { title: "Ergonomic Desk Setup Guide", href: "/guide/ergonomic-desk-setup" }
 ];

@@ -212,35 +212,35 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $16.99",
+          "Under $20",
           "UGREEN Tool-Free M.2 NVMe SSD Enclosure (10Gbps)"
         ],
         [
-          "Around $57.99",
+          "Under $60",
           "CENMATE Aluminum 2-Bay Hard Drive Enclosure (Daisy-Chain)"
         ],
         [
-          "Around $74.99",
+          "Under $80",
           "CENMATE Aluminum 3-Bay Hard Drive Enclosure (Daisy-Chain)"
         ],
         [
-          "Around $109.99",
+          "Under $110",
           "ORICO 5-Bay Hard Drive Enclosure (5Gbps USB 3.0)"
         ],
         [
-          "Around $119.99",
+          "Under $120",
           "CENMATE Aluminum 4-Bay Hard Drive Enclosure (5Gbps)"
         ],
         [
-          "Around $151.99",
+          "Under $160",
           "TerraMaster D4-320 4-Bay USB DAS Enclosure (Diskless)"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "Sabrent 4-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC4B)"
         ],
         [
-          "Around $239.99",
+          "Under $250",
           "TerraMaster D6-320 6-Bay USB DAS Enclosure (Diskless)"
         ]
       ]
@@ -295,10 +295,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "UGREEN Tool-Free M.2 NVMe SSD Enclosure (10Gbps) is aimed at buyers prioritizing m.2 nvme enclosure, up to 8tb, 10gbps, at $16.99."
+        "text": "UGREEN Tool-Free M.2 NVMe SSD Enclosure (10Gbps) is aimed at buyers prioritizing m.2 nvme enclosure, up to 8tb, 10gbps, at under $20."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -350,7 +350,7 @@ export const faq = [
     "a": "Warranty terms vary meaningfully by brand in this category, from 1 year (often extendable to 2 with registration) on enclosures like Sabrent's docks, up to 5 years on premium products like OWC's Envoy Ultra. Check the specific product's warranty length before assuming it matches a competitor's."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "CENMATE Aluminum 4-Bay Hard Drive Enclosure (5Gbps) is aimed at buyers prioritizing 4-bay, 2.5/3.5in, up to 80tb total." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "CENMATE Aluminum 4-Bay Hard Drive Enclosure (5Gbps) is aimed at buyers prioritizing 4-bay, 2.5/3.5in, up to 80tb total." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-usb-das-storage","title":"8 Best USB DAS Storage Options"},{"href":"/guide/best-usb4-das-storage","title":"8 Best USB4 DAS Storage Options"},{"href":"/guide/best-das-storage-enclosures","title":"8 Best DAS Storage Enclosures in 2026"}];

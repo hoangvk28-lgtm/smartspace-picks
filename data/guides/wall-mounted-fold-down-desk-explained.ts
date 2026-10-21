@@ -12,7 +12,7 @@ export const wallMountedFoldDownDeskExplainedGuide: Guide = {
     "murphy desk worth it",
     "fold down desk small apartment",
     "wall mounted desk weight limit",
-    "space saving desk options",
+    "space saving desk options"
   ],
   heroImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const wallMountedFoldDownDeskExplainedGuide: Guide = {
     "dorm-desk-size-restrictions-explained",
     "what-size-desk-do-i-need",
     "shelf-weight-capacity-explained",
-    "under-desk-storage-options-explained",
+    "under-desk-storage-options-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const wallMountedFoldDownDeskExplainedGuide: Guide = {
       question: "Can I leave items on a fold-down desk when folding it away?",
       answer:
         "Generally no, most fold-down desks need to be cleared before folding back against the wall, this is worth considering if you tend to leave work in progress on your desk surface, since you'll need to plan for regularly clearing and resetting the space.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const wallMountedFoldDownDeskExplainedGuide: Guide = {
     {
       heading: "Why Weight Capacity Deserves Extra Scrutiny for This Desk Type",
       body: `A fold-down desk's hinge mechanism and wall mounting bear the entire load of the desk surface and everything on it while unfolded and in use, generally a more demanding structural requirement than a standard four-legged desk that distributes weight straight down to the floor. This is why fold-down desks often carry lower weight ratings than comparable fixed desks, checking this rating carefully against your actual equipment (a desktop computer and multiple monitors add up quickly) before committing to this desk type avoids a disappointing mismatch after purchase.`,
-    },
+    }
   ],
 };

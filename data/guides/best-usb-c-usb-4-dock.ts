@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A detachable dock-plus-hub combo with cross-brand compatibility", "Anker Nano Laptop Docking Station"],
         ["Enterprise IT fleet management features", "Lenovo ThinkPad Universal USB-C Dock"],
         ["A compact, dual-interface (USB-C and USB-A) dock", "HP USB-C/A Universal Dock G2"],
-        ["Dual 4K displays at the lowest price with a sustainability disclosure", "Lenovo USB-C Dual Display Travel Dock"],
+        ["Dual 4K displays at the lowest price with a sustainability disclosure", "Lenovo USB-C Dual Display Travel Dock"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $62", "Lenovo USB-C Dual Display Travel Dock ($61.99)"],
-        ["Under $103", "HP USB-C/A Universal Dock G2 ($102.19)"],
-        ["Under $120", "Anker Nano Laptop Docking Station ($119.99)"],
-        ["Under $126", "Lenovo ThinkPad Universal USB-C Dock ($125.80)"],
+        ["Under $62", "Lenovo USB-C Dual Display Travel Dock (under $70)"],
+        ["Under $103", "HP USB-C/A Universal Dock G2 (under $110)"],
+        ["Under $120", "Anker Nano Laptop Docking Station (under $120)"],
+        ["Under $126", "Lenovo ThinkPad Universal USB-C Dock (under $130)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Home Office Dock vs Enterprise IT-Managed Dock",
     cards: [
       { label: "Home office dock (Anker, HP, Lenovo Travel Dock)", text: "Prioritizes ease of setup and cross-brand compatibility for a single user's desk, without enterprise deployment overhead." },
-      { label: "Enterprise IT-managed dock (Lenovo ThinkPad Universal)", text: "Adds automatic firmware updates, PXE boot, and remote device management specifically for corporate IT departments managing many docks." },
+      { label: "Enterprise IT-managed dock (Lenovo ThinkPad Universal)", text: "Adds automatic firmware updates, PXE boot, and remote device management specifically for corporate IT departments managing many docks." }
     ],
     note: "If you're outfitting a single home office desk, any of the non-enterprise picks work well. If you're an IT administrator deploying docks across many employee desks, the ThinkPad Universal Dock's management features are worth the focus.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your laptop mix", "Recommended pick"],
       rows: [
         ["Mixed Dell, Lenovo, and HP laptops", "Anker Nano Laptop Docking Station (confirmed cross-brand)"],
-        ["Both USB-C and older USB-A laptops", "HP USB-C/A Universal Dock G2"],
+        ["Both USB-C and older USB-A laptops", "HP USB-C/A Universal Dock G2"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Remote and Hybrid Workers Specifically",
     cards: [
       { label: "Look for", text: "A dock with an always-on USB port for continuous device charging and genuine universal USB-C compatibility, so the same dock works reliably whether you're in the office or working from home." },
-      { label: "In this comparison", text: "The Lenovo USB-C Dual Display Travel Dock specifically includes an always-on USB port and engineered universal compatibility for exactly this remote/hybrid use case." },
+      { label: "In this comparison", text: "The Lenovo USB-C Dual Display Travel Dock specifically includes an always-on USB port and engineered universal compatibility for exactly this remote/hybrid use case." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You specifically need enterprise IT fleet management features like automatic firmware updates and remote device monitoring, where the Lenovo ThinkPad Universal Dock justifies its $125.80 price." },
-      { label: "Save if", text: "You want dual 4K display support with a genuine sustainability disclosure, where the Lenovo Travel Dock delivers that for $61.99, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You specifically need enterprise IT fleet management features like automatic firmware updates and remote device monitoring, where the Lenovo ThinkPad Universal Dock justifies its under $130 price." },
+      { label: "Save if", text: "You want dual 4K display support with a genuine sustainability disclosure, where the Lenovo Travel Dock delivers that for under $70, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

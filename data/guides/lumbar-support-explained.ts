@@ -12,7 +12,7 @@ export const lumbarSupportExplainedGuide: Guide = {
     "adjustable lumbar support chair",
     "fixed lumbar support office chair",
     "how to check lumbar support fit",
-    "office chair lower back support",
+    "office chair lower back support"
   ],
   heroImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const lumbarSupportExplainedGuide: Guide = {
     "office-chair-size-chart",
     "how-to-measure-office-chair-fit",
     "mesh-vs-fabric-office-chair",
-    "ergonomic-chair-vs-gaming-chair",
+    "ergonomic-chair-vs-gaming-chair"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const lumbarSupportExplainedGuide: Guide = {
       question: "What happens if lumbar support is positioned wrong for my back?",
       answer:
         "Poorly positioned lumbar support can push against the wrong part of your spine, causing discomfort or encouraging you to sit away from the backrest entirely to avoid the pressure, defeating the purpose of having lumbar support at all.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const lumbarSupportExplainedGuide: Guide = {
     {
       heading: "Checking Fit Before You Commit to a Chair",
       body: `Sit all the way back against the backrest in your normal posture and notice where the lumbar support contacts your back. If it lines up with the natural inward curve just above your belt line, it's likely a good fit. If you find yourself unconsciously shifting position to avoid or seek out support, that's a sign the fixed lumbar placement doesn't match your body, and an adjustable lumbar chair would likely serve you better.`,
-    },
+    }
   ],
 };

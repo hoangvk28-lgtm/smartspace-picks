@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "gaming desk pegboard";
 export const introParagraphs = [
   "Gaming-specific accessory compatibility, headset hooks, controller mounts, cable organizers, should be verified against standard pegboard hole-spacing compatibility, since gaming-branded organizer kits may use proprietary mounting rather than standard hooks.",
-  "Weight capacity for gaming-specific hung items, heavier gaming headsets, controller charging docks, should be tested against realistic gaming-accessory weights rather than generic office-accessory weight assumptions.",
+  "Weight capacity for gaming-specific hung items, heavier gaming headsets, controller charging docks, should be tested against realistic gaming-accessory weights rather than generic office-accessory weight assumptions."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Gaming Desk Pegboard Overall",
     name: "PEGZONE Clamp on Desk Pegboard, 16.5\" x 12.6\", with 10 Accessories, Black",
     price: "$37.99",
-    rating: "4.7 stars from 392 Amazon ratings",
-    reviews: "392 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41MYGQyCPSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJ9G6F49?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best White Gaming Pegboard Pick",
     name: "PEGZONE Clamp on Desk Pegboard, 16.5\" x 12.6\", with 10 Accessories, White",
     price: "$35.99",
-    rating: "4.7 stars from 392 Amazon ratings",
-    reviews: "392 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41L0K5UFHAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJ9HJGLB?tag=deskfinds0d-20",
     description:
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wall-Mounted Gaming Pegboard Pick",
     name: "Keepo Peg Board Wall Organizer for Gaming Setup, Pegboard with Adhesives & Screw Mounts, Includes Peg Board Accessories for Gaming Accessories, Tech Storage & Office Organization (Black, 33″×22″)",
     price: "$58.99",
-    rating: "4.3 stars from 251 Amazon ratings",
-    reviews: "251 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41cKMuT+q0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DHRMN1CK?tag=deskfinds0d-20",
     description:
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Modular Gaming Pegboard Pick",
     name: "Zestify Pegboard Wall Organizer Kit, Modular Storage System, Black",
     price: "$38.99",
-    rating: "4.3 stars from 367 Amazon ratings",
-    reviews: "367 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/4159H0T34aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CHMZNFB8?tag=deskfinds0d-20",
     description:
@@ -94,8 +94,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Review-Volume Gaming Pegboard Pick",
     name: "Keepo Peg Board Wall Organizer, Plastic Pegboard Panels, Modular Peg Board Storage System for Home Office, Craft Room, Gaming Setup (Tan Brown, 22″×22″)",
     price: "$45.99",
-    rating: "4.3 stars from 1,790 Amazon ratings",
-    reviews: "1,790 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51q0NC8hQPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09NCZ53X9?tag=deskfinds0d-20",
     description:
@@ -104,7 +104,7 @@ export const products: GuideProduct[] = [
     pros: ["By far the largest review base of any pick in this guide", "Genuinely modular and expandable system", "Multi-use design suits gaming and other organization needs", "Proven track record from massive review volume"],
     cons: ["Plastic construction has a different weight-capacity profile than metal", "Tan brown color may not match darker gaming aesthetics", "Verify capacity for heavier gaming-specific accessories"],
     bestFor: "Buyers wanting the most-proven pegboard with massive real-world evidence",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Gaming-specific accessory hole-spacing compatibility verified", description: "Verified gaming-specific accessory compatibility, headset hooks, controller mounts, cable organizers, against standard pegboard hole-spacing rather than assuming universal compatibility." },
   { title: "Realistic gaming-accessory weight capacity tested", description: "Tested weight capacity for gaming-specific hung items, heavier gaming headsets, controller charging docks, against realistic gaming-accessory weights rather than generic office-accessory assumptions." },
   { title: "Cross-referenced with foundational pegboard research", description: "Cross-referenced the general desk pegboard foundational research for hole-spacing and material-quality gaps that apply regardless of gaming branding." },
-  { title: "Aesthetic gaming-matching treated as secondary to functional quality", description: "Addressed aesthetic gaming-desk-matching, color schemes and styling, as a secondary consideration distinct from functional pegboard quality." },
+  { title: "Aesthetic gaming-matching treated as secondary to functional quality", description: "Addressed aesthetic gaming-desk-matching, color schemes and styling, as a secondary consideration distinct from functional pegboard quality." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -244,11 +244,11 @@ export const faq: FaqItem[] = [
   { q: "Can a gaming pegboard hold a heavy headset and controller charging dock?", a: "Verify the weight capacity against these specific heavier gaming accessory weights, generic office-accessory weight assumptions don't account for how much heavier these items are." },
   { q: "Is RGB lighting on a gaming pegboard worth the extra cost?", a: "Evaluate the genuine lighting quality and customization software where marketed, don't assume RGB is a simple aesthetic bonus without checking actual functionality." },
   { q: "Should I prioritize gaming aesthetics or functional quality when choosing a pegboard?", a: "Prioritize functional quality, hole-spacing compatibility and weight capacity, first, aesthetic gaming-desk-matching is a genuine but secondary consideration." },
-  { q: "How much weight should I plan for on a gaming pegboard?", a: "A headset, charging dock, and loaded controller stand together can exceed 2-3 lbs combined, size your pegboard's capacity against this realistic combined load rather than a single lightweight item." },
+  { q: "How much weight should I plan for on a gaming pegboard?", a: "A headset, charging dock, and loaded controller stand together can exceed 2-3 lbs combined, size your pegboard's capacity against this realistic combined load rather than a single lightweight item." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-aesthetic-desk-pegboards", title: "Best Aesthetic Desk Pegboards (2026)" },
   { href: "/guide/best-computer-desks-with-pegboards", title: "Best Computer Desks with Pegboards (2026)" },
-  { href: "/guide/best-desk-hutches-with-pegboards", title: "Best Desk Hutches with Pegboards (2026)" },
+  { href: "/guide/best-desk-hutches-with-pegboards", title: "Best Desk Hutches with Pegboards (2026)" }
 ];

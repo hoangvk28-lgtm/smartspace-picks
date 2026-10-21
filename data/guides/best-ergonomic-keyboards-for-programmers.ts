@@ -6,7 +6,7 @@ export const mainKeyword = "ergonomic keyboard for programmers";
 export const introParagraphs = [
   "This article differentiates from a task-based 'for coding' framing by clarifying whether 'programmers' as a job-title-based framing meaningfully differs, or whether these should be considered together to avoid duplicated content covering essentially the same audience.",
   "Programmable macro key availability for IDE-specific shortcuts, build, debug, run commands, deserves verification as a genuinely relevant feature for this professional audience, distinct from general coding-task keycap-legend clarity alone.",
-  "Long-term RSI prevention is a particularly relevant concern for programmers given the profession's high daily keyboard-use hours, worth weighting ergonomic-design-tier decoding and RSI-focused actuation force disclosure more heavily given this audience's occupational risk profile.",
+  "Long-term RSI prevention is a particularly relevant concern for programmers given the profession's high daily keyboard-use hours, worth weighting ergonomic-design-tier decoding and RSI-focused actuation force disclosure more heavily given this audience's occupational risk profile."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Ergonomic Keyboard for Programmers Overall",
     name: "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest",
     price: "$129.99",
-    rating: "4.5 stars from 7,992 Amazon ratings",
-    reviews: "7,992 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41EsewSK2nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZWK2TQT?tag=deskfinds0d-20",
     description: "A very large review base and the highest rating in this guide, this premium tier represents the kind of investment this professional audience's higher willingness to pay for quality genuinely justifies, given how many daily hours a programmer's hands spend on a keyboard.\n\nIt earns the top spot in this comparison over Perixx PERIBOARD-335RD Wired Ergonomic Mechanical Compact Keyboard for one main reason. Very large, well-established review base. On price, it's actually priced above Perixx PERIBOARD-335RD Wired Ergonomic Mechanical Compact Keyboard, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Genuine ergonomic engineering appropriate for high occupational RSI risk. On the other side, Larger footprint than a compact keyboard due to the split, tented design. That's the main tradeoff to weigh against everything above.",
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Pick with IDE-Relevant Programmable Keys",
     name: "Perixx PERIBOARD-335RD Wired Ergonomic Mechanical Compact Keyboard - Low-Profile Red Linear Switches - Programmable Feature with Macro Keys - Compatible with Windows and Mac OS X - US English",
     price: "$49.99",
-    rating: "4.0 stars from 60 Amazon ratings",
-    reviews: "60 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51yI4NqNkGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BLZPLWX4?tag=deskfinds0d-20",
     description: "Genuine programmable macro keys are directly relevant for this professional audience specifically, letting a programmer assign IDE-specific shortcuts, build, debug, run commands, to dedicated keys rather than reaching for multi-key combinations throughout the workday.\n\nOne spot below Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest in this ranking, it's priced lower than Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest. The compromise here is straightforward: Smaller review base limits confidence in long-term durability. What you gain in return: Genuine programmable macro keys for IDE-specific build/debug/run shortcuts. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Distinct professional-workflow value beyond general coding keycap clarity. On the other side, Lower RSI-prevention emphasis than the dedicated ergonomic top pick. That's the main tradeoff to weigh against everything above.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Pick for High Daily Keyboard-Use Hours",
     name: "Perixx PERIBOARD-512B Wired Ergonomic Keyboard - Split Keyboard, Wrist Rest, Natural Typing - Wired USB Connectivity - US English - Black",
     price: "$44.99",
-    rating: "4.4 stars from 9,553 Amazon ratings",
-    reviews: "9,553 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41MgdS5CMFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075GZVD4T?tag=deskfinds0d-20",
     description: "A very large review base at a fraction of the premium pick's price, this genuine split layout provides meaningful RSI-prevention benefit for programmers not yet ready to invest in the premium tenting-adjustable option.\n\nSitting just under Perixx PERIBOARD-335RD Wired Ergonomic Mechanical Compact Keyboard, it's priced lower than Perixx PERIBOARD-335RD Wired Ergonomic Mechanical Compact Keyboard. Here's the honest tradeoff: No tenting adjustability like the premium top pick. And here's what it gets you instead: Very large, well-established review base at a budget-friendly price. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Genuine split-layout RSI-prevention benefit without the premium price tag. On the other side, Wired-only, no wireless flexibility for buyers wanting that. That's the main tradeoff to weigh against everything above.",
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     badge: "Best Pick with Cross-Reference to Multi-Device Workflows",
     name: "Nulea Ergonomic Split Keyboard Wireless Cushioned Wrist Rest Rechargeable",
     price: "$49.99",
-    rating: "4.5 stars from 219 Amazon ratings",
-    reviews: "219 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41nJBsy2cuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G3PCSK8B?tag=deskfinds0d-20",
     description: "A solid rating with a genuinely cushioned wrist rest, relevant to this profession's multi-monitor and multi-device workflow common among programmers switching between a laptop and desktop, or multiple monitors, throughout the workday.\n\nRanked just behind Perixx PERIBOARD-512B Wired Ergonomic Keyboard, it costs more than Perixx PERIBOARD-512B Wired Ergonomic Keyboard. The real tradeoff against that pick: Smaller review base than the more established picks in this guide. In exchange, it offers this instead: Genuinely cushioned wrist rest addresses wrist-pressure discomfort specifically. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Rechargeable, avoiding disposable battery costs over daily professional use. On the other side, No programmable macro keys for IDE-specific shortcuts. That's the main tradeoff to weigh against everything above.",
@@ -90,8 +90,8 @@ export const products: GuideProduct[] = [
     badge: "Best Mechanical Feedback Pick for Programmers",
     name: "Logitech G413 TKL SE Mechanical Gaming Keyboard - Black",
     price: "$69.99",
-    rating: "4.6 stars from 1,047 Amazon ratings",
-    reviews: "1,047 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31hUfgJWI9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08Z7J4KV3?tag=deskfinds0d-20",
     description: "The highest average rating in this guide, this genuinely mechanical TKL keyboard offers consistent tactile feedback well suited to a programmer's high daily volume of rapid, repetitive keystrokes across a full workday.\n\nOne spot below Nulea Ergonomic Split Keyboard Wireless Cushioned Wrist Rest Rechargeable in this ranking, it costs more than Nulea Ergonomic Split Keyboard Wireless Cushioned Wrist Rest Rechargeable. The compromise here is straightforward: No split or tenting ergonomic layout, lower RSI-prevention emphasis than dedicated ergonomic picks. What you gain in return: Highest average rating of any pick in this guide. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Genuine mechanical switch feedback suited to high-volume daily coding. On the other side, No programmable macro keys for IDE-specific shortcuts. That's the main tradeoff to weigh against everything above.",
@@ -108,7 +108,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "IDE-specific programmable macro key verification distinct from general clarity", description: "Verified programmable macro key availability for IDE-specific shortcuts, build, debug, run commands, distinct from general coding-task keycap-legend clarity alone." },
   { title: "Multi-device/multi-monitor workflow relevance cross-referenced", description: "Cross-referenced multi-device keyboard research given programmers' common multi-monitor/multi-device workflow, switching between a laptop and desktop or multiple monitors." },
   { title: "RSI-prevention weighted more heavily for this occupational risk profile", description: "Weighted ergonomic-design-tier decoding and RSI-focused actuation force disclosure more heavily given this profession's high daily keyboard-use hours and occupational risk profile." },
-  { title: "Premium-tier recommendation skew verified for this audience's investment willingness", description: "Verified whether recommendations should skew toward higher-tier products given this professional audience's likely higher willingness to invest, rather than budget options more appropriate for casual buyers." },
+  { title: "Premium-tier recommendation skew verified for this audience's investment willingness", description: "Verified whether recommendations should skew toward higher-tier products given this professional audience's likely higher willingness to invest, rather than budget options more appropriate for casual buyers." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -229,11 +229,11 @@ export const faq: FaqItem[] = [
   { q: "Should I get a keyboard with programmable macro keys as a programmer?", a: "It's genuinely useful if your workflow involves repetitive IDE commands, programmable macro keys for build, debug, and run shortcuts are distinct from general coding keycap clarity and can meaningfully improve daily efficiency." },
   { q: "Do I need the most expensive ergonomic keyboard as a programmer?", a: "Not necessarily, while this audience often has higher willingness to invest in premium options, a genuine budget split-layout keyboard still delivers real RSI-prevention benefit if the premium price isn't justified yet for your situation." },
   { q: "Does a multi-monitor programmer workflow affect which ergonomic keyboard I should buy?", a: "It can, if you commonly switch between a laptop and desktop or multiple monitors, cross-reference multi-device keyboard research to find a pick that handles that switching reliably." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Programmers wanting the most ergonomically engineered layout, prioritizing long-term RSI prevention" },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Programmers wanting the most ergonomically engineered layout, prioritizing long-term RSI prevention" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-ergonomic-keyboards-for-coding", title: "Best Ergonomic Keyboards for Coding (2026)" },
   { href: "/guide/best-multi-device-ergonomic-keyboards", title: "Best Multi-Device Ergonomic Keyboards (2026)" },
-  { href: "/guide/best-tkl-ergonomic-keyboards", title: "Best TKL Ergonomic Keyboards (2026)" },
+  { href: "/guide/best-tkl-ergonomic-keyboards", title: "Best TKL Ergonomic Keyboards (2026)" }
 ];

@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31wC8rrgOeL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H6ZXB9C5?tag=deskfinds0d-20",
-    "description": "The Z3 has a 47.2 by 15.7 inch belt, a whisper-quiet brushless motor for 1 to 4 mph, 8-layer cushioning, a 15 degree tilted display and a 180 degree fold. It ships fully assembled.\n\nIt is the most expensive pick at $559, and its belt is narrower than the G1's 17 inches while being very slightly longer. It tops out at 4 mph, so it is more of a desk walker than the G1.\n\nBest for a tall person who walks during calls and prizes quiet and cushioning. The caveat is the price, which is $160 more than the G1 and several times the budget picks.",
+    "description": "The Z3 has a 47.2 by 15.7 inch belt, a whisper-quiet brushless motor for 1 to 4 mph, 8-layer cushioning, a 15 degree tilted display and a 180 degree fold. It ships fully assembled.\n\nIt is the most expensive pick at under $600, and its belt is narrower than the G1's 17 inches while being very slightly longer. It tops out at 4 mph, so it is more of a desk walker than the G1.\n\nBest for a tall person who walks during calls and prizes quiet and cushioning. The caveat is the price, which is $160 more than the G1 and several times the budget picks.",
     "specs": [
       "47.2 x 15.7 inch belt",
       "1 to 4 mph, brushless motor",

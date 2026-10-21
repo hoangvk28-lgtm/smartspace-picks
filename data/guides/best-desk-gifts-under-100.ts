@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31chuvXWiZS._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B073G984Q7?tag=deskfinds0d-20",
-    "description": "The Swinging Sticks is a kinetic sculpture driven by a double pendulum and powered by four AA batteries that are not included. The aluminum sticks rotate continuously, and the listing says it runs nearly silently with a faint tick.\n\nIt is the highest priced pick at $98, with a bigger visual impact than the MISDENK ball. Compared with the speaker, it is art with no utility.\n\nGreat for an executive desk or lobby. The caveat is batteries and price, because it provides no function.",
+    "description": "The Swinging Sticks is a kinetic sculpture driven by a double pendulum and powered by four AA batteries that are not included. The aluminum sticks rotate continuously, and the listing says it runs nearly silently with a faint tick.\n\nIt is the highest priced pick at under $100, with a bigger visual impact than the MISDENK ball. Compared with the speaker, it is art with no utility.\n\nGreat for an executive desk or lobby. The caveat is batteries and price, because it provides no function.",
     "specs": [
       "Double pendulum design",
       "4 AA batteries required",

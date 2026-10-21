@@ -5,7 +5,7 @@ export const metaDescription = "5 compact power strips we evaluated for small de
 export const mainKeyword = "compact power strip";
 export const introParagraphs = [
   "Compact size almost always means reduced outlet count or tighter outlet spacing, a tradeoff rarely quantified against the space actually saved, a compact strip saves a modest amount of desk space while sacrificing outlet count or spacing usability.",
-  "Small-desk buyers often need the strip to sit in an unusual position, a corner, tucked beside a monitor stand, where cord exit direction and length matter more than on a standard desk with more placement flexibility.",
+  "Small-desk buyers often need the strip to sit in an unusual position, a corner, tucked beside a monitor stand, where cord exit direction and length matter more than on a standard desk with more placement flexibility."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Power Strip Overall",
     name: "Olcorife Flat Plug Power Strip with 5 FT Extension Cord, 6 Outlets 3 USB Ports(1 USB C), 3 Sided Outlet Extender for Home Office Travel Dorm Room Essentials, White",
     price: "$9.99",
-    rating: "4.6 stars from 6,242 Amazon ratings",
-    reviews: "6,242 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21HCB-DymBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BJ1SWDNB?tag=deskfinds0d-20",
     description: "A genuinely compact 3-sided design with 6 outlets and 3 USB ports (including 1 USB-C), a solid balance of small footprint and real capacity. Flat plug for tight wall clearance on a small desk.\n\nIt earns the top spot in this comparison over TESSAN Small Flat Plug Power Strip for one main reason. 3-sided design fits wider adapters despite compact size. On price, it comes in below TESSAN Small Flat Plug Power Strip, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Includes a USB-C port. On the other side, Flat plug still requires strip-body placement space. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Ultra-Compact Pick",
     name: "TESSAN Small Flat Plug Power Strip, Ultra Thin Extension Cord 5 ft, Grey",
     price: "$16.99",
-    rating: "4.8 stars from 3,879 Amazon ratings",
-    reviews: "3,879 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31mZFgA530L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BJ1G18T3?tag=deskfinds0d-20",
     description: "A genuinely ultra-thin, small design for the tightest desk corners or beside a monitor stand, with a strong rating base. Flat plug for wall clearance.\n\nOne spot below Olcorife Flat Plug Power Strip with 5 FT Extension Cord in this ranking, it costs more than Olcorife Flat Plug Power Strip with 5 FT Extension Cord. The compromise here is straightforward: Fewer outlets than the 6-outlet alternatives. What you gain in return: Genuinely the smallest footprint in this guide. Whether that trade is worth it depends on which side matters more for your needs.\n\nWorth knowing before you decide: Strong rating base. On the other side, Verify outlet count matches your actual device needs. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Short-Cord Compact Pick",
     name: "One Beat Power Strip Surge Protector, 1Ft Short Extension Cord Flat Plug",
     price: "$15.99",
-    rating: "4.7 stars from 12,978 Amazon ratings",
-    reviews: "12,978 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31mmZ8+YtxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKJKL5DF?tag=deskfinds0d-20",
     description: "A genuinely short 1ft cord, ideal if your small desk sits directly against or very close to a wall outlet, avoiding excess cord to manage in a tight space. Large, well-established review base.\n\nSitting just under TESSAN Small Flat Plug Power Strip, it's priced lower than TESSAN Small Flat Plug Power Strip. Here's the honest tradeoff: Only suitable if your desk sits very close to the outlet. And here's what it gets you instead: Shortest cord genuinely eliminates excess cable clutter. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Large, well-established review base. On the other side, No USB ports confirmed. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Pick with USB-C",
     name: "One Beat Power Strip with USB C, 3 Outlets 4 USB Ports (22.5W/4.5A), 6ft",
     price: "$12.99",
-    rating: "4.8 stars from 28,893 Amazon ratings",
-    reviews: "28,893 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41KswK3B2OL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07V32PJ59?tag=deskfinds0d-20",
     description: "A large, well-established review base at a genuinely low price, with 4 USB ports including USB-C alongside 3 outlets, a reasonable charging-focused compact option.\n\nRanked just behind One Beat Power Strip Surge Protector, it's priced lower than One Beat Power Strip Surge Protector. The real tradeoff against that pick: Only 3 AC outlets. In exchange, it offers this instead: Largest review base of any pick in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: 4 USB ports including USB-C. On the other side, Shared USB power budget across 4 ports. That's the main tradeoff to weigh against everything above.",
@@ -89,8 +89,8 @@ export const products: GuideProduct[] = [
     badge: "Best Higher-Capacity Compact Alternative",
     name: "Surge Protector Power Strip - CHCORE 5Ft Braided Extension Cord with 8 Outlets with 4 USB (2 USB C) Charging Ports, Flat Plug Multi Plug Outlet Extender Charging Station for Home Office, ETL, White",
     price: "$9.99",
-    rating: "4.6 stars from 8,127 Amazon ratings",
-    reviews: "8,127 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41eM1NkEevL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DC6GXZSV?tag=deskfinds0d-20",
     description: "8 outlets and 4 USB ports (2 USB-C) at a genuinely low price, more capacity than the truly compact picks in this guide if you're willing to accept a slightly larger footprint. Braided cord for durability.\n\nOne spot below One Beat Power Strip with USB C in this ranking, it's priced lower than One Beat Power Strip with USB C. The compromise here is straightforward: Larger footprint than the truly compact picks in this guide. What you gain in return: Highest outlet count among these compact-adjacent picks. Whether that trade is worth it depends on which side matters more for your needs.\n\nWorth knowing before you decide: Very affordable for the capacity offered. On the other side, Not the smallest option here. That's the main tradeoff to weigh against everything above.",
@@ -105,7 +105,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Space-saved-versus-outlet-count-sacrificed ratio quantified", description: "Compared each pick's compact footprint against how much outlet count or spacing it sacrifices, rather than treating 'compact' as a blanket positive without a tradeoff." },
   { title: "Cord exit angle and length matched to constrained small-desk placement", description: "Considered cord length and exit direction specifically for small-desk scenarios like corners or beside a monitor stand, where placement flexibility is more limited than on a standard desk." },
-  { title: "Surge protection verified explicitly, not assumed from compact size", description: "Checked that compact size doesn't correlate with reduced or absent surge protection compared to full-size strips at a similar price point." },
+  { title: "Surge protection verified explicitly, not assumed from compact size", description: "Checked that compact size doesn't correlate with reduced or absent surge protection compared to full-size strips at a similar price point." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -237,12 +237,12 @@ export const faq: FaqItem[] = [
   { q: "What cord length should I get for a small desk?", a: "It depends on your desk's distance from the wall outlet. If your desk sits directly against the wall, a short cord (like a 1ft option) eliminates excess cable clutter entirely, small desks have less placement flexibility, making cord length more constraining than on a larger desk." },
   { q: "Should I consider a clamp-on strip instead of a compact surface strip for a small desk?", a: "If desk surface area is your primary constraint, yes. Clamp-on or under-desk mounting options free up surface space entirely, worth considering over simply choosing the smallest surface-sitting strip available." },
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers who want a genuine balance of compact footprint and real outlet spacing" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want a genuine balance of compact footprint and real outlet spacing At $9.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want a genuine balance of compact footprint and real outlet spacing At under $10, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-power-strips-for-travel-and-desks", title: "Best Small Power Strips for Travel and Desks (2026)" },
   { href: "/guide/best-clamp-on-power-strips-for-desks", title: "Best Clamp-On Power Strips for Desks (2026)" },
   { href: "/guide/best-flat-plug-power-strips", title: "Best Flat-Plug Power Strips (2026)" },
-  { href: "https://gardeningisezee.com/growing/best-elevated-garden-beds", title: "Making the most of a small space outdoors too? Best Elevated Garden Beds (Gardening Is Ezee)" },
+  { href: "https://gardeningisezee.com/growing/best-elevated-garden-beds", title: "Making the most of a small space outdoors too? Best Elevated Garden Beds (Gardening Is Ezee)" }
 ];

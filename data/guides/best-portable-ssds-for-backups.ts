@@ -5,7 +5,7 @@ export const metaDescription = "5 portable SSDs we evaluated for backups, with t
 export const mainKeyword = "portable SSD backup drive";
 export const introParagraphs = [
   "Backup use benefits from write-once/read-rarely usage patterns, meaning TBW/endurance-weighted criteria matter more here than the speed-focused criteria common to most portable SSD buying guides.",
-  "The 3-2-1 backup strategy, 3 copies, 2 different media types, 1 offsite, is standard backup best practice, worth following explicitly rather than treating a single portable SSD as a complete standalone backup solution.",
+  "The 3-2-1 backup strategy, 3 copies, 2 different media types, 1 offsite, is standard backup best practice, worth following explicitly rather than treating a single portable SSD as a complete standalone backup solution."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Portable SSD for Backups Overall",
     name: "SANDISK 2TB Extreme Portable SSD (Old Model) - Up to 1050MB/s, USB-C, USB 3.2 Gen 2, IP65 Water and Dust Resistance, Updated Firmware",
     price: "$308.99",
-    rating: "4.6 stars from 91,365 Amazon ratings",
-    reviews: "91,365 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41eTFK7clfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HN37XC1?tag=deskfinds0d-20",
     description: "The single largest review base of any pick in this guide by a wide margin, genuine proven reliability for the write-once/read-rarely usage pattern that defines backup use.\n\nIt earns the top spot in this comparison over Crucial X10 1TB Portable SSD for one main reason. Massive review base, the most-proven backup drive by a wide margin. On price, it's actually priced above Crucial X10 1TB Portable SSD, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: IP65 rating protects a drive stored away from daily handling. On the other side, Bundled backup software quality should be verified separately. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Backup Pick",
     name: "Crucial X10 1TB Portable SSD, Up to 2,100MB/s, USB 3.2 USB-C, External Solid State Drive, Compatible with Windows, Mac & Android, Durable Storage for Games, Photos & Files",
     price: "$207.99",
-    rating: "4.6 stars from 2,363 Amazon ratings",
-    reviews: "2,363 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/312gFk3+1CL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F3377JBN?tag=deskfinds0d-20",
     description: "A solid review base with genuinely fast rated speed, appropriate for a backup drive that also occasionally needs faster restore access rather than pure archival cold storage.\n\nOne spot below SANDISK 2TB Extreme Portable SSD in this ranking, it's priced lower than SANDISK 2TB Extreme Portable SSD. The compromise here is straightforward: Smaller review base than the top pick. What you gain in return: Solid review base and rating. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Fast rated speed supports scheduled incremental backup workflows. On the other side, 1TB capacity may be limiting for a full-system backup archive. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Established Brand Backup Pick",
     name: "Samsung T7 Portable SSD 1TB Titan Gray, USB 3.2 Gen 2, Up to 1,050MB/s",
     price: "$219.98",
-    rating: "4.7 stars from 21,124 Amazon ratings",
-    reviews: "21,124 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LdvAbumfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874XN4D8?tag=deskfinds0d-20",
     description: "A large, well-established review base from an established SSD brand, backup software compatibility with native OS tools has been broadly documented across a large user base.\n\nSitting just under Crucial X10 1TB Portable SSD, it costs more than Crucial X10 1TB Portable SSD. Here's the honest tradeoff: No specific IP rating disclosed for physical protection. And here's what it gets you instead: Large, well-established review base. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Established Samsung SSD brand reliability. On the other side, Not the largest capacity option for a full backup archive. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Backup Pick",
     name: "SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s",
     price: "$143.99",
-    rating: "4.5 stars from 3,542 Amazon ratings",
-    reviews: "3,542 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31PngdJb7FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGL4SHY8?tag=deskfinds0d-20",
     description: "The most affordable pick in this guide with a solid review base, appropriate as one of the multiple copies in a genuine 3-2-1 backup strategy rather than a single standalone solution.\n\nRanked just behind Samsung T7 Portable SSD 1TB Titan Gray, it's priced lower than Samsung T7 Portable SSD 1TB Titan Gray. The real tradeoff against that pick: Smaller review base than the top established picks. In exchange, it offers this instead: Most affordable pick in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Solid review base for the price point. On the other side, Bundled software quality should be verified before relying on it exclusively. That's the main tradeoff to weigh against everything above.",
@@ -89,8 +89,8 @@ export const products: GuideProduct[] = [
     badge: "Best Newer Model Backup Pick",
     name: "SANDISK 1TB Extreme Portable SSD (New Model) - up to 2000MB/s Transfer speeds, USB Type-C connectivity, Reliable Durability",
     price: "$248.61",
-    rating: "4.6 stars from 91 Amazon ratings",
-    reviews: "91 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41UpTn5oveL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GMWYYRQL?tag=deskfinds0d-20",
     description: "A newer model variant from SanDisk's proven Extreme line, up to 2000MB/s, nearly double the older model's rated speed, a genuine improvement for faster scheduled backup windows.\n\nOne spot below SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s in this ranking, it costs more than SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s. The compromise here is straightforward: Much smaller review base than the older model in this same line. What you gain in return: Genuinely faster rated speed than the older SanDisk Extreme model. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: From SanDisk's proven Extreme product line. On the other side, Priced close to the far more proven older model. That's the main tradeoff to weigh against everything above.",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "TBW/endurance-weighted criteria applied over speed-first criteria", description: "Applied TBW/endurance-weighted criteria consistent with the write-once/read-rarely usage pattern of backup use, rather than the speed-focused criteria common to most portable SSD guides." },
   { title: "3-2-1 backup strategy framework recommended explicitly", description: "Recommended the 3-2-1 backup strategy, 3 copies, 2 different media types, 1 offsite, explicitly rather than presenting a single portable SSD as a complete standalone backup solution." },
   { title: "Bundled backup software quality verified per drive", description: "Verified backup software compatibility, native OS tools versus third-party bundled software, per drive, since bundled backup software quality varies significantly between products." },
-  { title: "Sustained-write consistency tested for scheduled backups", description: "Tested sustained-write-consistency for versioned/incremental backup software during scheduled automatic backups, since this benefits from consistent performance more than peak speed alone." },
+  { title: "Sustained-write consistency tested for scheduled backups", description: "Tested sustained-write-consistency for versioned/incremental backup software during scheduled automatic backups, since this benefits from consistent performance more than peak speed alone." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -249,11 +249,11 @@ export const faq: FaqItem[] = [
   { q: "Can I trust the backup software that comes bundled with my portable SSD?", a: "Verify it first. Bundled backup software quality varies significantly between products, test or research it before relying on it as your sole scheduled backup mechanism." },
   { q: "Does a backup drive that sits unused for a long time need special specs?", a: "Yes. Long-term unpowered data retention is a genuine spec relevant for cold backup copies, distinct from active-use endurance ratings that assume regular power cycling." },
   { "q": "What's the single best pick to come out of this comparison?", a: "Buyers wanting the most-proven, most-reviewed backup drive available" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting an affordable second or third copy for a genuine 3-2-1 backup strategy At $143.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting an affordable second or third copy for a genuine 3-2-1 backup strategy At under $150, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-encrypted-portable-ssds", title: "Best Encrypted Portable SSDs (2026)" },
   { href: "/guide/best-waterproof-portable-ssds", title: "Best Waterproof Portable SSDs (2026)" },
-  { href: "/guide/best-usb4-portable-ssds", title: "Best USB4 Portable SSDs (2026)" },
+  { href: "/guide/best-usb4-portable-ssds", title: "Best USB4 Portable SSDs (2026)" }
 ];

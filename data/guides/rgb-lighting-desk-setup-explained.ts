@@ -12,7 +12,7 @@ export const rgbLightingDeskSetupExplainedGuide: Guide = {
     "rgb bias lighting benefits",
     "desk led strip lighting setup",
     "rgb sync software explained",
-    "ambient lighting behind monitor",
+    "ambient lighting behind monitor"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const rgbLightingDeskSetupExplainedGuide: Guide = {
     "gaming-desk-vs-office-desk",
     "monitor-brightness-and-eye-strain",
     "screen-glare-reduction-explained",
-    "desk-lamp-kelvin-color-temperature",
+    "desk-lamp-kelvin-color-temperature"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const rgbLightingDeskSetupExplainedGuide: Guide = {
       question: "Do I need a smart hub or app to control desk RGB lighting?",
       answer:
         "Many RGB lighting products include their own app or hub for control, some also integrate with existing smart home systems, check the specific product's control method and whether it fits your existing setup before assuming universal compatibility.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const rgbLightingDeskSetupExplainedGuide: Guide = {
     {
       heading: "Why More Colorful and Dynamic Isn't Automatically Better",
       body: `It's easy to assume that if soft bias lighting helps, more vibrant or dynamic RGB lighting effects must help even more, but this isn't the case, rapidly changing colors or overly bright, saturated lighting positioned within your peripheral vision can become its own source of distraction and visual fatigue, working against the calm, steady quality that makes bias lighting genuinely beneficial in the first place. Reserve dynamic, colorful RGB effects for purely decorative purposes and keep functional bias lighting simple, steady, and neutral in color.`,
-    },
+    }
   ],
 };

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small fireproof safes";
 export const introParagraphs = [
   "We required a documented fire-protection basis before ranking any pick here: a classification body, stated duration, and test temperature, rather than accepting the word fireproof as sufficient on its own. One original candidate ASIN was not accessible through the product catalog at research time, so we're presenting the 7 we could verify.",
-  "We also separated the fire claim from water resistance, since not every pick here documents both, and we're flagging exactly which protection each one covers rather than assuming a fireproof safe automatically handles flooding too.",
+  "We also separated the fire claim from water resistance, since not every pick here documents both, and we're flagging exactly which protection each one covers rather than assuming a fireproof safe automatically handles flooding too."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -131,7 +131,7 @@ export const products: GuideProduct[] = [
     pros: ["Largest capacity in this comparison at 1.3 cubic feet", "Three independent access methods with a documented dead-battery fallback"],
     cons: ["Fire classification body and exact test conditions not independently confirmed in this listing"],
     bestFor: "Buyers wanting maximum capacity and access flexibility alongside fire protection.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required a documented fire-protection basis, not just the word fireproof", description: "We looked for a classification body (UL, ETL), a stated duration, and a test temperature before treating any pick as genuinely fire-rated, rather than accepting marketing language alone." },
   { title: "Separated fire protection from water protection", description: "Several picks here document both UL fire classification and separate ETL water verification; others document fire only. We flagged this distinction directly rather than assuming one implies the other." },
   { title: "Distinguished paper-document protection from digital-media protection", description: "Multiple SentrySafe picks separately certify protection for paper documents versus CDs, DVDs, and USB drives, which have different heat sensitivity. We noted where both were independently confirmed." },
-  { title: "Excluded the inaccessible ASIN rather than fabricating its data", description: "One original candidate ASIN returned ItemNotAccessible from the product catalog API at research time. We excluded it and disclosed the gap rather than guessing." },
+  { title: "Excluded the inaccessible ASIN rather than fabricating its data", description: "One original candidate ASIN returned ItemNotAccessible from the product catalog API at research time. We excluded it and disclosed the gap rather than guessing." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -152,14 +152,14 @@ export const howToChoose: HowToChooseSection[] = [
         ["Most explicitly documented certification", "SentrySafe Fireproof Safe Box with Key Lock (UL + lifetime guarantee)"],
         ["Both fire and water protection documented", "SentrySafe Black Fireproof and Waterproof Safe"],
         ["Travel portability", "SentrySafe Fireproof Safe, Chest Lock Box for Home or Travel"],
-        ["Largest capacity", "1.3 Cub Small Fireproof Safe for Home"],
+        ["Largest capacity", "1.3 Cub Small Fireproof Safe for Home"]
       ],
     },
   },
   {
     subheading: "Reading a Fire Rating Correctly",
     note: "A genuine fire classification states three things: the certifying body (UL or ETL), the duration (commonly 30 minutes across these picks), and the test temperature (commonly 1550°F). If a listing states none of these three, treat its fireproof claim as unverified marketing language rather than a real classification, regardless of how confident the listing sounds.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -167,7 +167,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   { criterion: "Check whether water protection is separately documented, not assumed", explanation: "Several picks here document fire and water resistance as two independent certifications. A fire-rated safe is not automatically flood-safe unless that's separately stated." },
   { criterion: "Confirm whether digital media is covered separately from paper documents", explanation: "CDs, DVDs, and USB drives are more heat-sensitive than paper. Several SentrySafe picks here document ETL verification specifically for digital media, a separate claim from the paper-document UL rating." },
   { criterion: "Weigh bolt-down hardware inclusion as a genuine anti-removal feature", explanation: "A fireproof safe that survives a fire but gets carried out by an intruder beforehand hasn't protected anything. Check whether mounting hardware is included, not sold separately." },
-  { criterion: "Consider access method against your actual emergency scenario", explanation: "Key-only access requires finding the key during a stressful evacuation; digital keypad access with a documented battery backup avoids that dependency, worth weighing against your household's habits." },
+  { criterion: "Consider access method against your actual emergency scenario", explanation: "Key-only access requires finding the key during a stressful evacuation; digital keypad access with a documented battery backup avoids that dependency, worth weighing against your household's habits." }
 ];
 
 export const faq: FaqItem[] = [
@@ -175,11 +175,11 @@ export const faq: FaqItem[] = [
   { q: "Is there an option rated for both fire and water protection?", a: "Yes, the SentrySafe Black Fireproof and Waterproof Safe and the SentrySafe Dark Gray Fireproof and Waterproof Safe both separately document fire and water resistance." },
   { q: "Which pick has a digital keypad instead of a key-only lock?", a: "The Honeywell Hideable Small Safe Box and the 1.3 Cub Small Fireproof Safe both offer digital code access alongside backup keys." },
   { q: "What's the largest-capacity fireproof safe here?", a: "The 1.3 Cub Small Fireproof Safe for Home, at 1.3 cubic feet." },
-  { q: "Why does this list have 7 products instead of 8?", a: "One original candidate ASIN was not accessible through the Amazon catalog API at research time, so we excluded it rather than fabricating its data." },
+  { q: "Why does this list have 7 products instead of 8?", a: "One original candidate ASIN was not accessible through the Amazon catalog API at research time, so we excluded it rather than fabricating its data." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-fireproof-and-waterproof-safes", title: "Best Small Fireproof and Waterproof Safes (2026)" },
   { href: "/guide/best-small-safes-for-documents", title: "Best Small Safes for Documents (2026)" },
-  { href: "/guide/best-small-safes", title: "Best Small Safes (2026)" },
+  { href: "/guide/best-small-safes", title: "Best Small Safes (2026)" }
 ];

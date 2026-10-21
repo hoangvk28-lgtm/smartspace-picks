@@ -177,31 +177,31 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $13.49",
+          "Under $15",
           "NETGEAR GS305 5-Port Gigabit Unmanaged Switch"
         ],
         [
-          "Around $14.99",
+          "Under $15",
           "TP-Link TL-SG105 5-Port Gigabit Unmanaged Switch"
         ],
         [
-          "Around $18.99",
+          "Under $20",
           "NETGEAR GS308 8-Port Gigabit Unmanaged Switch"
         ],
         [
-          "Around $19.79",
+          "Under $20",
           "TP-Link TL-SG108 8-Port Gigabit Unmanaged Switch"
         ],
         [
-          "Around $34.99",
+          "Under $35",
           "TP-Link TL-SG105S-M2 5-Port 2.5G Unmanaged Switch"
         ],
         [
-          "Around $59.99",
+          "Under $60",
           "TP-Link TL-SG108S-M2 8-Port 2.5G Unmanaged Switch"
         ],
         [
-          "Around $109.99",
+          "Under $110",
           "NETGEAR MS308 8-Port 2.5G Unmanaged Switch"
         ]
       ]
@@ -256,10 +256,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "NETGEAR GS305 5-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 5 gigabit ports, fanless, at $13.49."
+        "text": "NETGEAR GS305 5-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 5 gigabit ports, fanless, at under $15."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -296,10 +296,10 @@ export const faq = [
   }
 ,
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "TP-Link TL-SG105 5-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 5 gigabit ports, qos + igmp snooping." },
-  { q: "Which pick offers the best value for a tight budget?", a: "NETGEAR GS305 5-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 5 gigabit ports, fanless, and at $13.49 it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $13.49 to $109.99, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Which pick offers the best value for a tight budget?", a: "NETGEAR GS305 5-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 5 gigabit ports, fanless, and at under $15 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $15 to $110, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
   { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "NETGEAR MS308 8-Port 2.5G Unmanaged Switch is aimed at buyers prioritizing 8x 2.5g ports, fanless. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
-  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "TP-Link TL-SG108 8-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 8 gigabit ports, shielded metal housing." },
+  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "TP-Link TL-SG108 8-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 8 gigabit ports, shielded metal housing." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-network-switches-for-home","title":"7 Best Network Switches for Home Use"},{"href":"/guide/best-mini-network-switches","title":"8 Best Mini Network Switches in 2026"},{"href":"/guide/best-desktop-network-switches","title":"8 Best Desktop Network Switches in 2026"}];

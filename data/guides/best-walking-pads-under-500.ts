@@ -371,7 +371,7 @@ export const howToChoose: HowToChooseSection[] = [
 export interface FaqItem { q: string; a: string; }
 export const faq: FaqItem[] = [
   {
-    "q": "What do I get above $300 that I do not at $260?",
+    "q": "What do I get above $300 that I do not at under $300?",
     "a": "Mostly longer belts and app libraries. Cheaper pads often list larger capacity."
   },
   {

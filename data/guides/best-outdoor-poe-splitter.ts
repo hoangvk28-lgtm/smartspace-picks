@@ -77,7 +77,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0B63DDC8C?tag=deskfinds0d-20",
     description: "This splitter's listing specifically describes a sender-and-receiver design that runs two nearby IP cameras on one cable back to your switch, with the receiver unit's weatherproof RJ45 connectors allowing full outdoor exposure at the lowest price in this comparison. Its plug-and-play design requires no configuration on standard PoE network switches.\n\nCompared to the higher-power DC-conversion picks above, this one solves a genuinely different problem, combining two nearby cameras onto one cable run rather than converting PoE to a specific DC voltage, at a fraction of the price.\n\nBest for buyers who need to run two nearby outdoor cameras on one cable at the lowest price in this comparison.",
     specs: ["Sender + receiver combiner design", "Weatherproof RJ45 on receiver unit", "Runs 2 cameras on 1 cable, plug and play"],
-    pros: ["Lowest price in this comparison at $8.88", "Reduces cabling costs for two nearby outdoor cameras", "Weatherproof receiver connectors allow full outdoor exposure"],
+    pros: ["Lowest price in this comparison at under $9", "Reduces cabling costs for two nearby outdoor cameras", "Weatherproof receiver connectors allow full outdoor exposure"],
     cons: ["Solves a different problem (combining cameras) than DC voltage conversion", "Only works on standard PoE network switches"],
     bestFor: "buyers who need to run two nearby outdoor cameras on one cable at the lowest price",
   }
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Genuine IP67 protection with high wattage and 2.5Gbps speed", "MokerLink IP67 Outdoor 2.5 Gigabit PoE Splitter"],
         ["Extreme temperature tolerance or TAA compliance", "IPOE-175S Industrial IP67 802.3bt PoE++ Splitter"],
         ["Powering a 24V wireless bridge or access point outdoors", "REVODATA Waterproof Gigabit 48V to 24V PoE Converter"],
-        ["Running two nearby outdoor cameras on one cable cheaply", "Ethernet Splitter, Waterproof PoE Combiner Splitter Adapter"],
+        ["Running two nearby outdoor cameras on one cable cheaply", "Ethernet Splitter, Waterproof PoE Combiner Splitter Adapter"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $9", "Waterproof PoE Combiner Splitter Adapter ($8.88)"],
-        ["Under $18", "REVODATA 48V to 24V PoE Converter ($17.19)"],
-        ["Under $69", "MokerLink IP67 2.5 Gigabit Splitter ($68.99)"],
-        ["Under $168", "IPOE-175S Industrial Splitter ($167.20)"],
+        ["Under $9", "Waterproof PoE Combiner Splitter Adapter (under $9)"],
+        ["Under $18", "REVODATA 48V to 24V PoE Converter (under $20)"],
+        ["Under $69", "MokerLink IP67 2.5 Gigabit Splitter (under $70)"],
+        ["Under $168", "IPOE-175S Industrial Splitter (under $170)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Basic Camera Combining vs High-Power DC Conversion",
     cards: [
       { label: "Basic camera combining (Combiner Splitter)", text: "Solves cable-routing problems for two nearby cameras at the lowest price, without converting PoE to a specific DC voltage." },
-      { label: "High-power DC conversion (MokerLink, IPOE-175S)", text: "Both convert PoE to a specific DC voltage at high wattage, suited to powering non-PoE devices with real power requirements." },
+      { label: "High-power DC conversion (MokerLink, IPOE-175S)", text: "Both convert PoE to a specific DC voltage at high wattage, suited to powering non-PoE devices with real power requirements." }
     ],
     note: "If your problem is cable routing for two nearby cameras, the combiner splitter is the cheapest fix. If you need to convert PoE to actual DC power for a non-PoE device, the MokerLink or IPOE-175S picks deliver that capability.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["12V DC output", "MokerLink IP67 Outdoor 2.5 Gigabit PoE Splitter"],
         ["24V DC output", "REVODATA Waterproof Gigabit 48V to 24V PoE Converter"],
-        ["No voltage conversion, just combining cameras", "Ethernet Splitter, Waterproof PoE Combiner Splitter Adapter"],
+        ["No voltage conversion, just combining cameras", "Ethernet Splitter, Waterproof PoE Combiner Splitter Adapter"]
       ],
     },
   },
@@ -139,22 +139,22 @@ export const howToChoose = [
     subheading: "For a Government or Institutional Outdoor Deployment Specifically",
     cards: [
       { label: "Look for", text: "TAA compliance and an extreme operating temperature rating if your organization has specific federal procurement requirements or your installation faces genuinely extreme climate exposure." },
-      { label: "In this comparison", text: "The IPOE-175S is the only pick specifically stating TAA compliance alongside its extreme -40C to 75C temperature range." },
+      { label: "In this comparison", text: "The IPOE-175S is the only pick specifically stating TAA compliance alongside its extreme -40C to 75C temperature range." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You have government procurement requirements or face genuinely extreme temperature exposure, where the IPOE-175S's $167.20 price is justified by its TAA compliance and extreme temperature rating." },
-      { label: "Save if", text: "You just need to combine two nearby outdoor cameras onto one cable, where the Combiner Splitter delivers that for $8.88, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You have government procurement requirements or face genuinely extreme temperature exposure, where the IPOE-175S's under $170 price is justified by its TAA compliance and extreme temperature rating." },
+      { label: "Save if", text: "You just need to combine two nearby outdoor cameras onto one cable, where the Combiner Splitter delivers that for under $9, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Outdoor PoE Splitter Prices Span an Enormous Range Because They Solve Genuinely Different Problems",
-    "explanation": "The picks in this comparison range from $8.88 for a basic camera-combiner splitter to $167.20 for a TAA-compliant industrial unit with extreme temperature tolerance, a nearly 20-fold price difference reflecting genuinely different product categories rather than one being simply a worse deal than the other. This matters significantly since comparing these products purely on price without understanding what problem each one actually solves would lead to a mismatched purchase. Identify your actual specific need (combining cameras, converting to a specific DC voltage, extreme temperature tolerance, or procurement compliance) before comparing prices, since these outdoor splitters aren't interchangeable despite sharing the same general category."
+    "explanation": "The picks in this comparison range from under $9 for a basic camera-combiner splitter to under $170 for a TAA-compliant industrial unit with extreme temperature tolerance, a nearly 20-fold price difference reflecting genuinely different product categories rather than one being simply a worse deal than the other. This matters significantly since comparing these products purely on price without understanding what problem each one actually solves would lead to a mismatched purchase. Identify your actual specific need (combining cameras, converting to a specific DC voltage, extreme temperature tolerance, or procurement compliance) before comparing prices, since these outdoor splitters aren't interchangeable despite sharing the same general category."
   },
   {
     "criterion": "IP67 Waterproofing Must Specifically Extend to Cable Connection Points, Not Just the Main Housing Body",

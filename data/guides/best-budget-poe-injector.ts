@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Recognized brand, higher power ceiling", "TP-Link TL-PI4818G 48V/18W"],
         ["Documented UL/CE/FCC certification", "PoE Texas Single-Port Mode A 48V 15W"],
         ["Integrated wall-mount design", "PoE Texas Single-Port Mode B 48V 15W"],
-        ["Absolute lowest price", "15V 1A Passive PoE Injector 2-Port"],
+        ["Absolute lowest price", "15V 1A Passive PoE Injector 2-Port"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $8", "15V 1A Passive PoE Injector ($7.09)"],
-        ["Under $13", "TP-Link TL-PI4818G ($12.99)"],
-        ["Under $14", "PoE Texas Single-Port Mode A ($13.99)"],
-        ["Under $17", "PoE Texas Single-Port Mode B ($16.99)"],
+        ["Under $8", "15V 1A Passive PoE Injector (under $8)"],
+        ["Under $13", "TP-Link TL-PI4818G (under $15)"],
+        ["Under $14", "PoE Texas Single-Port Mode A (under $15)"],
+        ["Under $17", "PoE Texas Single-Port Mode B (under $20)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Gigabit vs 100Mbps at the Budget Tier",
     cards: [
       { label: "Gigabit (TP-Link, both PoE Texas picks)", text: "Worth the modest price premium for most standard-definition to mid-resolution IP cameras and access points at this budget tier." },
-      { label: "100Mbps (15V ultra-budget pick)", text: "Acceptable only for a genuinely low-bandwidth device where the absolute lowest price outweighs the speed limitation." },
+      { label: "100Mbps (15V ultra-budget pick)", text: "Acceptable only for a genuinely low-bandwidth device where the absolute lowest price outweighs the speed limitation." }
     ],
     note: "Check your specific device's actual bandwidth need before choosing the ultra-budget 100Mbps option purely to save a few dollars.",
   },
@@ -130,7 +130,7 @@ export const howToChoose = [
       headers: ["What you need confirmed", "Recommended pick"],
       rows: [
         ["UL, CE, and FCC certification named", "PoE Texas Single-Port Mode A 48V 15W"],
-        ["No specific certification requirement", "TP-Link TL-PI4818G or the ultra-budget pick"],
+        ["No specific certification requirement", "TP-Link TL-PI4818G or the ultra-budget pick"]
       ],
     },
   },
@@ -138,16 +138,16 @@ export const howToChoose = [
     subheading: "For a First-Time Budget PoE Buyer Specifically",
     cards: [
       { label: "Look for", text: "A stated Gigabit port speed and at minimum a named brand or basic electrical protection list, since the very cheapest options can sacrifice both speed and certification to hit the lowest possible price." },
-      { label: "In this comparison", text: "The TP-Link pick balances a recognized brand name, Gigabit speed, and a competitive budget price, a reasonable default for a first-time buyer." },
+      { label: "In this comparison", text: "The TP-Link pick balances a recognized brand name, Gigabit speed, and a competitive budget price, a reasonable default for a first-time buyer." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want documented UL/CE/FCC certification or Mode B negotiation for a specific device, where the PoE Texas picks near $14-17 justify their price with those specific features." },
-      { label: "Save if", text: "You have a genuinely low-bandwidth 15V device and price is the primary concern, where the $7.09 ultra-budget pick covers that specific need." },
+      { label: "Save if", text: "You have a genuinely low-bandwidth 15V device and price is the primary concern, where the under $8 ultra-budget pick covers that specific need." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -5,7 +5,7 @@ export const metaDescription = "4 rugged portable SSDs we evaluated, decoding th
 export const mainKeyword = "best rugged portable ssd";
 export const introParagraphs = [
   "Not all 'rugged' or 'IP-rated' portable SSDs mean the same thing, an IP55 rating and an IP65 rating describe genuinely different levels of dust and water resistance, and it is worth decoding the specific number rather than treating any IP rating as an equivalent durability claim.",
-  "Rugged casing also generally trades against heat dissipation, a bulkier reinforced enclosure has less airflow than a slim one, so the toughest-rated drive is not automatically the best performer on a long sustained transfer.",
+  "Rugged casing also generally trades against heat dissipation, a bulkier reinforced enclosure has less airflow than a slim one, so the toughest-rated drive is not automatically the best performer on a long sustained transfer."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Rugged Pick",
     name: "Samsung T7 Shield Portable SSD 1TB, USB 3.2 Gen 2, Up to 1,050 MB/s",
     price: "$286.88",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "16,380 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21mARCvUWxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VLK9W3S?tag=deskfinds0d-20",
     description: "Samsung's T7 Shield combines a rugged rubberized shell with genuine USB 3.2 Gen 2 speed up to 1050MB/s, though it does not carry a formal IP rating number in its listing, worth confirming directly if a certified rating matters to you.\n\nIt earns the top spot in this comparison over SANDISK 2TB Extreme Portable SSD for one main reason. Genuine drop-resistant rubberized shell design. On price, it comes in below SANDISK 2TB Extreme Portable SSD, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Reliable, well-reviewed platform. On the other side, Drop-test conditions are not independently standardized across brands. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best IP65-Rated Pick",
     name: "SANDISK 2TB Extreme Portable SSD (Old Model) - Up to 1050MB/s, USB-C, USB 3.2 Gen 2, IP65 Water and Dust Resistance, Updated Firmware - SDSSDE61-2T00-G25",
     price: "$299.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "91,365 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41eTFK7clfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HN37XC1?tag=deskfinds0d-20",
     description: "SanDisk's Extreme carries an explicit IP65 rating, meaning it is fully dust-tight and protected against low-pressure water jets, a genuinely higher water-resistance tier than an IP55 rating.\n\nOne spot below Samsung T7 Shield Portable SSD 1TB in this ranking, it costs more than Samsung T7 Shield Portable SSD 1TB. The compromise here is straightforward: IP65 protects against water jets, not submersion, a real distinction. What you gain in return: IP65 is a genuinely higher-tier certified water resistance rating. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Large 2TB capacity. On the other side, Bulkier than an uncertified slim drive. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best IP55-Rated Pick with High Speed",
     name: "Corsair EX400U Survivor 1TB USB4 External SSD - Up to 4000 MB/s, IP55 Rugged Drive, Plug & Play for PC, Mac & iPad - Black",
     price: "$238.58",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "60 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21K3rg5MWlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVMGFPHT?tag=deskfinds0d-20",
     description: "Corsair's EX400U Survivor carries an explicit IP55 rating alongside a genuinely fast USB4 bridge rated up to 4000MB/s.\n\nSitting just under SANDISK 2TB Extreme Portable SSD, it's priced lower than SANDISK 2TB Extreme Portable SSD. Here's the honest tradeoff: IP55 is a lower water-resistance tier than IP65, understand the real difference. And here's what it gets you instead: Fast USB4 bridge combined with a certified IP rating. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Genuine everyday dust and splash protection. On the other side, Smaller review base than mainstream picks. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Large-Capacity Rugged Pick",
     name: "Samsung T7 Shield Portable SSD 2TB, USB 3.2 Gen 2, Up to 1,050 MB/s",
     price: "$399.75",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "16,380 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21mARCvUWxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VLHR4JC?tag=deskfinds0d-20",
     description: "Samsung's T7 Shield 2TB scales the same rugged rubberized shell up to a larger capacity, useful for buyers who need both drop resistance and a bigger library.\n\nRanked just behind Corsair EX400U Survivor 1TB USB4 External SSD, it costs more than Corsair EX400U Survivor 1TB USB4 External SSD. The real tradeoff against that pick: No formal certified IP rating number listed. In exchange, it offers this instead: Genuine drop-resistant design at a larger 2TB capacity. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Slightly better heat dissipation than the smallest rugged drives. On the other side, Premium price versus non-rugged 2TB drives. That's the main tradeoff to weigh against everything above.",

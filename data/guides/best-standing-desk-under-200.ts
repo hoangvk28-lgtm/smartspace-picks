@@ -51,7 +51,7 @@ export const products: StandingDesk200[] = [
     tradeoffs: [
       'Single motor - some lateral movement at 47" max height',
       "One-piece top cannot be swapped for a different surface",
-      "May run $150-180 vs $120-150 for budget alternatives",
+      "May run $150-180 vs $120-150 for budget alternatives"
     ],
     skipIf:
       "Budget is strictly under $130. The FEZIBO Basic or Marsail at $120-150 deliver the same core standing desk function with a 1-year warranty.",
@@ -60,12 +60,12 @@ export const products: StandingDesk200[] = [
       "1-inch seamless desktop thicker than 0.75-inch alternatives",
       "4 memory presets + anti-collision sensor",
       "FlexiSpot brand reliability and US support",
-      "Multiple color combinations available",
+      "Multiple color combinations available"
     ],
     cons: [
       "Single motor",
       "1-piece top not swappable",
-      "Priced $30-50 higher than budget alternatives",
+      "Priced $30-50 higher than budget alternatives"
     ],
   },
   {
@@ -87,7 +87,7 @@ export const products: StandingDesk200[] = [
     tradeoffs: [
       "1-year warranty vs EN1's 3-year / 2-year",
       '46.5" max height - users over 6\'1" should check other options',
-      "3 presets vs 4 on EN1",
+      "3 presets vs 4 on EN1"
     ],
     skipIf:
       "You want the best warranty coverage. The FlexiSpot EN1 at $150-180 adds a 3-year frame warranty and a sturdier desktop for $30-50 more.",
@@ -96,12 +96,12 @@ export const products: StandingDesk200[] = [
       "176 lb capacity at budget price",
       "Anti-collision sensor included",
       "Multiple color options including Rustic Brown and White",
-      "Consistently in stock",
+      "Consistently in stock"
     ],
     cons: [
       "1-year warranty only",
       '46.5" max height limit',
-      "3 memory presets vs 4",
+      "3 memory presets vs 4"
     ],
   },
   {
@@ -124,7 +124,7 @@ export const products: StandingDesk200[] = [
       "110 lb capacity - lowest in this guide due to drawer mechanism",
       '45.5" max height - 2 inches lower than most competitors',
       "Single motor",
-      "Drawer mechanism adds assembly complexity",
+      "Drawer mechanism adds assembly complexity"
     ],
     skipIf:
       "You plan to load two heavy monitors plus a desktop PC. Verify total weight stays under 110 lbs. Standard setups with two 27-inch monitors and peripherals typically total 35-45 lbs, well within the limit.",
@@ -133,13 +133,13 @@ export const products: StandingDesk200[] = [
       "Cable management tray included",
       "4 memory presets",
       "Multiple wood-finish color options",
-      "Eliminates need for additional furniture",
+      "Eliminates need for additional furniture"
     ],
     cons: [
       "110 lb capacity - lowest in this guide",
       '45.5" max height',
       "Added assembly complexity",
-      "Single motor",
+      "Single motor"
     ],
   },
   {
@@ -161,7 +161,7 @@ export const products: StandingDesk200[] = [
     tradeoffs: [
       "1-year warranty vs FlexiSpot 3-year / 2-year",
       "Newer brand with shorter track record than FlexiSpot",
-      "Black, White, Natural only - fewer colors than FEZIBO",
+      "Black, White, Natural only - fewer colors than FEZIBO"
     ],
     skipIf:
       "Brand track record and warranty length matter most. The FlexiSpot EN1 at $150-180 has a 3-year warranty and longer market history.",
@@ -170,12 +170,12 @@ export const products: StandingDesk200[] = [
       "4 memory presets + 176 lb capacity at $120-150",
       "Anti-collision sensor",
       "Competitive pricing vs similarly-spec'd desks",
-      "Best accessory package at this price",
+      "Best accessory package at this price"
     ],
     cons: [
       "1-year warranty",
       "Newer brand - shorter reliability track record",
-      "Limited color options",
+      "Limited color options"
     ],
   },
   {
@@ -197,7 +197,7 @@ export const products: StandingDesk200[] = [
     tradeoffs: [
       '40x24" surface is tight for dual monitors',
       "Black only - no color options",
-      "3 memory presets vs 4",
+      "3 memory presets vs 4"
     ],
     skipIf:
       "You plan to run two monitors. 40 inches is too narrow for comfortable dual-monitor positioning. Go to the 48x24 options above.",
@@ -206,13 +206,13 @@ export const products: StandingDesk200[] = [
       "Fits rooms where 48-inch width does not work",
       "176 lb capacity despite smaller size",
       "Anti-collision sensor",
-      "Ideal for dorm rooms and compact setups",
+      "Ideal for dorm rooms and compact setups"
     ],
     cons: [
       "Too narrow for dual monitors",
       "Black only",
       "3 memory presets",
-      "Less future-proof than 48-inch surface",
+      "Less future-proof than 48-inch surface"
     ],
   },
   {
@@ -234,7 +234,7 @@ export const products: StandingDesk200[] = [
     tradeoffs: [
       "1-year warranty",
       "Higher price than FEZIBO or Marsail for comparable specs",
-      "Limited availability in some regions",
+      "Limited availability in some regions"
     ],
     skipIf:
       "You are over 5 feet 4 inches and do not prioritize the low minimum height or Natural colorway. The Marsail or FEZIBO deliver the same capacity at lower cost.",
@@ -243,14 +243,14 @@ export const products: StandingDesk200[] = [
       "Natural colorway - furniture-grade aesthetic",
       "White/white-frame option cleanest monochrome setup",
       "4 memory presets + 176 lb capacity",
-      "Anti-collision sensor",
+      "Anti-collision sensor"
     ],
     cons: [
       "1-year warranty",
       "Higher price for same spec as Marsail",
-      "Limited regional availability",
+      "Limited regional availability"
     ],
-  },
+  }
 ];
 
 export interface AtAGlanceRow {
@@ -298,7 +298,7 @@ export const faq: FaqItem[] = [
   {
     q: "What is the weight limit for these desks?",
     a: "Most desks in this guide are rated at 176 lbs, well above any realistic home office setup. The exception is the SHW 48x24 with Drawer at 110 lbs due to its built-in drawer mechanism. A typical home office load - two 27-inch monitors (12-15 lbs each), a laptop (4-5 lbs), keyboard, mouse, and accessories (5-10 lbs) - totals roughly 35-45 lbs, well within the 110 lb SHW limit for standard setups.",
-  },
+  }
 ];
 
 export const relatedGuides = [
@@ -317,5 +317,5 @@ export const relatedGuides = [
   {
     href: "/guide/best-monitor-arm-under-100",
     title: "Best Monitor Arm Under $100",
-  },
+  }
 ];

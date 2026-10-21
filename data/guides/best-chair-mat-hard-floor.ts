@@ -2,11 +2,11 @@ export const guideSlug = "best-chair-mat-hard-floor";
 export const guideTitle = "8 Best Chair Mats for Hard Floors in 2026";
 export const metaTitle = "Best Chair Mat for Hard Floor in 2026 (Wood, Tile, Vinyl & Concrete)";
 export const metaDescription =
-  "8 best chair mats for hard floors in 2026, from a $18.99 budget PVC pick to a tempered glass mat that never yellows. Compare backing type and floor fit.";
+  "8 best chair mats for hard floors in 2026, from an under-$20 budget PVC pick to a tempered glass mat that never yellows. Compare backing type and floor fit.";
 export const mainKeyword = "chair mat for hard floor";
 export const introParagraphs = [
   "Not every hard floor needs the same chair mat. Hardwood, laminate, tile, vinyl, and polished concrete each react differently to a chair's casters, and the backing that keeps a mat from sliding on tile can behave completely differently on laminate. Before spending anything, it's also worth asking whether a mat is even necessary, since vinyl plank and sealed concrete are already scratch-resistant enough that many buyers can skip a mat entirely and save the money.",
-  "Below are 8 chair mats for hard floors we evaluated on backing grip, floor-surface compatibility, and long-term durability, ranging from an $18.99 budget TPR mat built to cut rolling noise to a $60.99 tempered glass pick that resists the yellowing clear PVC mats develop after a year or two on the floor.",
+  "Below are 8 chair mats for hard floors we evaluated on backing grip, floor-surface compatibility, and long-term durability, ranging from an under $20 budget TPR mat built to cut rolling noise to an under-$70 tempered glass pick that resists the yellowing clear PVC mats develop after a year or two on the floor."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "TPR material, 0.16\" thick",
       "Non-slip adsorption backing",
       "Trimmable to custom size",
-      "Reduces rolling noise",
+      "Reduces rolling noise"
     ],
     pros: [
-      "Cheapest pick in this guide at $18.99",
+      "Cheapest pick in this guide at under $20",
       "Only pick built specifically for noise reduction",
       "Can be trimmed to fit an odd-shaped space",
-      "Non-slip backing needs no adhesive",
+      "Non-slip backing needs no adhesive"
     ],
     cons: [
       "Lowest star rating in this guide",
       "Opaque black finish won't suit buyers wanting a clear look",
-      "Thinner material than the rigid glass and 5mm picks",
+      "Thinner material than the rigid glass and 5mm picks"
     ],
     bestFor: "Buyers on a tight budget who also want quieter chair rolling",
   },
@@ -89,18 +89,17 @@ export const products: GuideProduct[] = [
       "PVC, 0.07\" (1.7mm) thick",
       "Smooth gliding surface, rounded corners",
       "Will not curl, bend, or crack over time",
-      "Hard floor use only",
+      "Hard floor use only"
     ],
     pros: [
       "Rounded corners reduce tripping and snagging",
       "Resists curling better than thinner clear mats",
-      "Transparent finish blends with any decor",
-      "Strong 4.2-star rating across 2,920 ratings",
+      "Transparent finish blends with any decor"
     ],
     cons: [
       "Clear PVC can yellow slightly after a year or two",
       "Not rated for carpet use",
-      "No textured grip side like the dual-sided pick below",
+      "No textured grip side like the dual-sided pick below"
     ],
     bestFor: "Buyers who want a clear mat that resists curling long-term",
   },
@@ -121,18 +120,18 @@ export const products: GuideProduct[] = [
       "PVC, 0.06\" thick",
       "Dual-sided: smooth glide side + textured grip side",
       "Matte finish increases traction",
-      "Transparent, any hard floor",
+      "Transparent, any hard floor"
     ],
     pros: [
       "Only reversible dual-sided design in this guide",
       "Textured side adds grip on slicker floors",
       "Compact 30\" width suits tighter desk spots",
-      "Large 3,457-rating review base",
+      "Large 3,457-rating review base"
     ],
     cons: [
       "Narrower than the 36\"-wide picks",
       "Clear finish can yellow over time like other PVC mats",
-      "Thinnest PVC mat in this guide at 0.06\"",
+      "Thinnest PVC mat in this guide at 0.06\""
     ],
     bestFor: "Buyers who want one mat that adapts to two floor-grip needs",
   },
@@ -153,18 +152,18 @@ export const products: GuideProduct[] = [
       "PVC, 2mm thick",
       "Anti-slide coating underside",
       "Dull polish top finish (hides scratches)",
-      "Works on wood, tile, laminate, vinyl, stone, concrete",
+      "Works on wood, tile, laminate, vinyl, stone, concrete"
     ],
     pros: [
       "Backing designed to grip across nearly every hard floor type",
       "Dull polish finish hides light scratches well",
       "Odorless, BPA-free, no lead or cadmium",
-      "Largest review base of any pick in this guide at 10,646",
+      "Largest review base of any pick in this guide at 10,646"
     ],
     cons: [
       "Suction-style backing grips less aggressively than true rubber",
       "Thinner than the 5mm and glass picks",
-      "Clear finish still susceptible to gradual yellowing",
+      "Clear finish still susceptible to gradual yellowing"
     ],
     bestFor: "Buyers unsure which hard floor type they have and want one mat that works everywhere",
   },
@@ -185,18 +184,17 @@ export const products: GuideProduct[] = [
       "PVC, 0.08\" thick",
       "Rattan-like woven pattern top",
       "Rubber non-slip base, no adhesive needed",
-      "Flame-retardant, waterproof, oil-resistant, heat-resistant",
+      "Flame-retardant, waterproof, oil-resistant, heat-resistant"
     ],
     pros: [
       "Most distinctive design in this guide",
       "Rubber base grips without adhesive residue",
-      "Broader durability rating than typical clear PVC",
-      "Strong 4.4-star rating",
+      "Broader durability rating than typical clear PVC"
     ],
     cons: [
       "Pattern is more visible than fully clear mats",
       "Pricier than the basic clear PVC budget picks",
-      "Smaller review sample than the top budget pick",
+      "Smaller review sample than the top budget pick"
     ],
     bestFor: "Buyers who want a mat that doubles as a visible design feature",
   },
@@ -217,18 +215,17 @@ export const products: GuideProduct[] = [
       "PVC + rubber backing",
       "Tested through 10,000+ durability cycles (per listing)",
       "Curl-free flat edges, water-resistant",
-      "Silent glide",
+      "Silent glide"
     ],
     pros: [
-      "Highest-rated PVC pick in this guide at 4.6 stars",
       "Rubber backing grips more reliably than PVC alone",
       "Curl-free edges stay flat long-term",
-      "Distinctive Espresso color option",
+      "Distinctive Espresso color option"
     ],
     cons: [
       "Smaller review count than the budget best-sellers",
       "Pricier than the basic clear PVC picks",
-      "Espresso color won't suit buyers wanting a clear, invisible mat",
+      "Espresso color won't suit buyers wanting a clear, invisible mat"
     ],
     bestFor: "Buyers who want the best-rated PVC mat with genuine rubber grip",
   },
@@ -249,18 +246,17 @@ export const products: GuideProduct[] = [
       "Rigid material, 5mm thick",
       "Rated 1,400 lbs capacity",
       "Dual-use: hard floor or carpet",
-      "12-month warranty",
+      "12-month warranty"
     ],
     pros: [
       "Highest weight capacity in this guide at 1,400 lbs",
       "Thickest, most rigid non-glass pick",
-      "Works on both hard floors and carpet",
-      "Massive review base at 19,765 ratings",
+      "Works on both hard floors and carpet"
     ],
     cons: [
       "Pricier than every PVC pick in this list",
       "Rigid material is heavier and harder to reposition",
-      "Still technically plastic, not as scratch-immune as glass",
+      "Still technically plastic, not as scratch-immune as glass"
     ],
     bestFor: "Buyers who want the highest weight capacity and may move the mat between hard floor and carpet",
   },
@@ -281,21 +277,21 @@ export const products: GuideProduct[] = [
       "Tempered glass, 5mm thick",
       "Rated 1,200 lbs capacity",
       "4 anti-slip pads",
-      "BPA-free, phthalate-free, odorless, dual-use",
+      "BPA-free, phthalate-free, odorless, dual-use"
     ],
     pros: [
       "Only pick that will not yellow or scratch over time",
       "Highest star rating among the premium picks at 4.6",
       "Works dual-use on carpet or hard floor",
-      "Anti-slip pads keep it firmly in place",
+      "Anti-slip pads keep it firmly in place"
     ],
     cons: [
       "Most expensive pick in this guide",
       "Heavier and less flexible to reposition than plastic mats",
-      "Glass edges require careful handling during setup",
+      "Glass edges require careful handling during setup"
     ],
     bestFor: "Buyers who want a chair mat that will still look brand new years from now",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +319,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed price against thickness, backing quality, and expected lifespan, the Sycoodeal and GLSLAND sit at opposite ends of that budget-to-durability trade-off.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,11 +473,11 @@ export const faq: FaqItem[] = [
   {
     q: "What's the highest weight capacity chair mat in this guide?",
     a: "The MuArts Crystal Clear 5mm mat is rated for up to 1,400 lbs, the highest capacity in this guide, and works dual-use on either hard floors or carpet. The GLSLAND Tempered Glass mat follows closely at 1,200 lbs.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-chair-mat-for-hardwood-floors", title: "Best Chair Mats for Hardwood Floors (2026)" },
   { href: "/guide/best-chair-mats-for-thick-carpet", title: "Best Chair Mats for Thick Carpet (2026)" },
-  { href: "/guide/best-office-chair-under-300", title: "Best Office Chairs Under $300 (2026)" },
+  { href: "/guide/best-office-chair-under-300", title: "Best Office Chairs Under $300 (2026)" }
 ];

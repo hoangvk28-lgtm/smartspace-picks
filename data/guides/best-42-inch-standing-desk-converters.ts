@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "42 inch standing desk converter";
 export const introParagraphs = [
   "42 inches is a large, well-populated current size tier, spanning manual VIVO converters, FlexiSpot and VIVO electric options, and TechOrbits' MDF wood design, all confirmed at this specific width.",
-  "We compared these directly on mechanism type and price within the 42 inch tier, since this size supports serious dual-monitor or monitor-plus-laptop setups across multiple brands.",
+  "We compared these directly on mechanism type and price within the 42 inch tier, since this size supports serious dual-monitor or monitor-plus-laptop setups across multiple brands."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "9 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required confirmed 42 inch platform width", description: "We verified this exact dimension across manual, electric, and wood-construction options rather than including rounded nearby sizes." },
   { title: "Distinguished manual and electric mechanisms at this specific size", description: "We compared the real price gap between manual and electric options, all confirmed at 42 inches." },
   { title: "Flagged the confirmed wood-construction option separately", description: "We noted TechOrbits as the only confirmed MDF wood platform at this size, distinct from the metal-frame VIVO and FlexiSpot alternatives." },
-  { title: "Included a confirmed color variant for the top pick", description: "We noted the white finish version of VIVO's 42 inch design shares the same proven review pool as the black original." },
+  { title: "Included a confirmed color variant for the top pick", description: "We noted the white finish version of VIVO's 42 inch design shares the same proven review pool as the black original." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -254,7 +254,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
@@ -262,12 +262,12 @@ export const faq: FaqItem[] = [
   { q: "Which 42 inch converter has the most reviews?", a: "The VIVO Black 42 in Standing Desk Converter, sharing VIVO's massive K Series review pool." },
   { q: "Is there an electric 42 inch converter?", a: "Yes, both the FLEXISPOT 42 Inch Electric Motor Desk Converter and the VIVO Black 42 inch Electric Desk Converter." },
   { q: "Is there a wood-construction 42 inch converter?", a: "Yes, the TechOrbits Standing Desk Converter, 42 Inch, confirmed genuine MDF wood construction." },
-  { q: "What's the cheapest confirmed 42 inch option?", a: "The FLEXISPOT Standing Desk Converter 42 Inch, Extra Large Ergonomic, at $149.99." },
-  { q: "Is there a white 42 inch converter?", a: "Yes, the VIVO White 42 in Standing Desk Converter, DESK-V042KW, sharing the same proven review pool as the black version." },
+  { q: "What's the cheapest confirmed 42 inch option?", a: "The FLEXISPOT Standing Desk Converter 42 Inch, Extra Large Ergonomic, at under $150." },
+  { q: "Is there a white 42 inch converter?", a: "Yes, the VIVO White 42 in Standing Desk Converter, DESK-V042KW, sharing the same proven review pool as the black version." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-40-inch-standing-desk-converters", title: "Best 40-Inch Standing Desk Converters (2026)" },
   { href: "/guide/best-45-inch-standing-desk-converters", title: "Best 45-Inch Standing Desk Converters (2026)" },
-  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
+  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" }
 ];

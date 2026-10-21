@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41fHyzzgGJL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H2CPC85N?tag=deskfinds0d-20",
-    "description": "DOGHLY is a 1.7 cu ft single-door fridge with a top freezer compartment, a 7-level thermostat and a stainless steel finish. The listing quotes a noise level under 38 dB and says the freezer can hold ice cream and ice cubes.\n\nAt $69.99 it is the cheapest compressor pick here by $20. The listing also quotes an adjustable thermostat range of 13F to 44F, which is a different, colder scale than the 32F to 50F ranges on rivals, so the numbers are not directly comparable. Against Frestec, you give up the defrost button for a lower price.\n\nBest for the tightest budget that still wants a freezer. The caveat is that the stated temperature range is unusual, so check the manual for what each dial level really means.",
+    "description": "DOGHLY is a 1.7 cu ft single-door fridge with a top freezer compartment, a 7-level thermostat and a stainless steel finish. The listing quotes a noise level under 38 dB and says the freezer can hold ice cream and ice cubes.\n\nAt under $70 it is the cheapest compressor pick here by $20. The listing also quotes an adjustable thermostat range of 13F to 44F, which is a different, colder scale than the 32F to 50F ranges on rivals, so the numbers are not directly comparable. Against Frestec, you give up the defrost button for a lower price.\n\nBest for the tightest budget that still wants a freezer. The caveat is that the stated temperature range is unusual, so check the manual for what each dial level really means.",
     "specs": [
       "1.7 cu ft, top freezer",
       "7 level thermostat",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31ddArcpIwL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CKGSBYYP?tag=deskfinds0d-20",
-    "description": "Igloo lists 1.6 cu ft with slide-out shelves, door bins for can dispensers and tall bottles, a bottle rack, and adjustable glass shelves. It is a single-door fridge with a freezer combo.\n\nIts selling point versus Feelfunn and EUHOMY at the same $119.99 is shelving: slide-out shelves are easier to reach than fixed ones. The listing, however, gives no noise level, no dimensions and no temperature range, so you are choosing on layout alone.\n\nBest for someone who values organizing cans and tall bottles. The caveat is the thin technical data, so verify height and noise in the manual or Q and A.",
+    "description": "Igloo lists 1.6 cu ft with slide-out shelves, door bins for can dispensers and tall bottles, a bottle rack, and adjustable glass shelves. It is a single-door fridge with a freezer combo.\n\nIts selling point versus Feelfunn and EUHOMY at the same under $120 is shelving: slide-out shelves are easier to reach than fixed ones. The listing, however, gives no noise level, no dimensions and no temperature range, so you are choosing on layout alone.\n\nBest for someone who values organizing cans and tall bottles. The caveat is the thin technical data, so verify height and noise in the manual or Q and A.",
     "specs": [
       "1.6 cu ft with freezer",
       "Slide-out and glass shelves",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/313Qnq14uEL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B003UV4IXG?tag=deskfinds0d-20",
-    "description": "Koolatron lists 1.7 cu ft (48 L) and runs on either 12V DC or 110V AC, so it works in a truck or RV as well as a room. It uses a heat pump unit with thermoelectric heat pipe technology, has a stainless and black finish, door storage, a reversible door and a removable wire shelf.\n\nIt is the most expensive pick by a wide margin at $309.74, about $190 more than the compressor models. In return you get the travel power options and a recessed handle with enclosed coils for a flush fit. Its cooling method is different from the compressor models above, so it follows a different performance profile.\n\nBest for a trucker, camper or anyone who needs both car and wall power. The caveat is the price, and for a plain dorm room the cheaper picks do the same job.",
+    "description": "Koolatron lists 1.7 cu ft (48 L) and runs on either 12V DC or 110V AC, so it works in a truck or RV as well as a room. It uses a heat pump unit with thermoelectric heat pipe technology, has a stainless and black finish, door storage, a reversible door and a removable wire shelf.\n\nIt is the most expensive pick by a wide margin at under $350, about $190 more than the compressor models. In return you get the travel power options and a recessed handle with enclosed coils for a flush fit. Its cooling method is different from the compressor models above, so it follows a different performance profile.\n\nBest for a trucker, camper or anyone who needs both car and wall power. The caveat is the price, and for a plain dorm room the cheaper picks do the same job.",
     "specs": [
       "1.7 cu ft, 48 liters",
       "12V DC and 110V AC power",
@@ -287,7 +287,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     "title": "Value for price",
-    "description": "Prices from $69.99 to $309.74 were weighed against documented specs."
+    "description": "Prices from roughly $70 to $350 were weighed against documented specs."
   }
 ];
 

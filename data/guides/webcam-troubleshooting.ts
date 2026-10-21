@@ -12,7 +12,7 @@ export const webcamTroubleshootingGuide: Guide = {
     "webcam not detected fix",
     "webcam grainy video fix",
     "webcam autofocus hunting fix",
-    "webcam audio out of sync",
+    "webcam audio out of sync"
   ],
   heroImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const webcamTroubleshootingGuide: Guide = {
     "webcam-lighting-explained",
     "webcam-resolution-explained",
     "webcam-fov-explained",
-    "webcam-mount-types-explained",
+    "webcam-mount-types-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const webcamTroubleshootingGuide: Guide = {
       question: "Why does my webcam work in one app but not another?",
       answer:
         "This usually means camera permissions are granted for one application but not another, check your operating system's privacy or permissions settings to confirm each specific application has been granted camera access.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ export const webcamTroubleshootingGuide: Guide = {
     {
       heading: "Why Lighting Fixes More Problems Than It Seems",
       body: `Grainy video and even some autofocus hunting issues trace back to inadequate or inconsistent lighting rather than a camera defect, a webcam struggling with too little light boosts its sensor gain, introducing visible noise, and inconsistent shifting light (like fluctuating window light) can confuse autofocus systems trying to lock onto a stable subject. Adding a stable, adequate front-facing light source resolves a surprising number of webcam quality complaints without any hardware changes.`,
-    },
+    }
   ],
 };

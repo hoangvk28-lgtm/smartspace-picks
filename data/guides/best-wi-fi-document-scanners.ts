@@ -5,7 +5,7 @@ export const metaDescription = "7 scanners we evaluated for real Wi-Fi network u
 export const mainKeyword = "Wi-Fi document scanner";
 export const introParagraphs = [
   "Wi-Fi scan-to-folder typically requires the destination computer to remain on and network-discoverable, unlike scan-to-cloud. Wi-Fi convenience marketing implies standalone operation that doesn't always exist for folder-based destinations, we clarify which mode each pick actually needs.",
-  "Also worth checking: WPA2-Enterprise (802.1X) corporate/university networks are frequently unsupported by consumer-grade Wi-Fi scanners, requiring IT-assisted workarounds or a dedicated guest network, an environment-specific compatibility gap worth verifying before buying for an office setting.",
+  "Also worth checking: WPA2-Enterprise (802.1X) corporate/university networks are frequently unsupported by consumer-grade Wi-Fi scanners, requiring IT-assisted workarounds or a dedicated guest network, an environment-specific compatibility gap worth verifying before buying for an office setting."
 ];
 export const lastUpdated = "2026-07-29";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wi-Fi 6 Pick",
     name: "ScanSnap iX2500 Wireless or USB High-Speed Document Scanner",
     price: "Check current price",
-    rating: "4.4 stars from 326 Amazon ratings",
-    reviews: "326 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41wHhR2WCpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9B1H5VN?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Same Wi-Fi 6 Capability, Alternate Listing",
     name: "ScanSnap iX2500 Wireless or USB High-Speed Document Scanner (Alt. Listing)",
     price: "Check current price",
-    rating: "4.4 stars from 132 Amazon ratings",
-    reviews: "132 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41m9omvtbvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9B1PMTS?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Standalone Cloud Scan-to-Folder Alternative",
     name: "ScanSnap iX1300 Wireless or USB Double-Sided Color Document Scanner, White",
     price: "$279.99",
-    rating: "4.2 stars from 1,768 Amazon ratings",
-    reviews: "1,768 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41yWYf2uT0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FX5DWBK?tag=deskfinds0d-20",
     description:
@@ -76,12 +76,12 @@ export const products: GuideProduct[] = [
     badge: "Same Wi-Fi Capability, Black Finish",
     name: "ScanSnap iX1300 Wireless or USB Double-Sided Color Document Scanner, Black",
     price: "$279.99",
-    rating: "4.2 stars from 1,768 Amazon ratings",
-    reviews: "1,768 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41VnXqJ86dL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FX5SRQT?tag=deskfinds0d-20",
     description:
-      "Identical Wi-Fi capability to the rank-3 pick in a black finish, same standalone cloud scanning and Chromebook support, same scan-to-folder host-PC caveat and unconfirmed 802.1X compatibility.\n\nWhat stands out here is same standalone cloud scanning as the white version, plus chromebook support via mobile app. The main tradeoff: same scan-to-folder host-PC requirement, so weigh that against the $279.99 price before buying.",
+      "Identical Wi-Fi capability to the rank-3 pick in a black finish, same standalone cloud scanning and Chromebook support, same scan-to-folder host-PC caveat and unconfirmed 802.1X compatibility.\n\nWhat stands out here is same standalone cloud scanning as the white version, plus chromebook support via mobile app. The main tradeoff: same scan-to-folder host-PC requirement, so weigh that against the under $300 price before buying.",
     specs: ["Home-network Wi-Fi", "Standalone scan-to-cloud, Chromebook support", "30ppm duplex", "Auto de-skew, color optimization"],
     pros: ["Same standalone cloud scanning as the white version", "Chromebook support via mobile app", "Black finish option", "30ppm duplex speed"],
     cons: ["Same scan-to-folder host-PC requirement", "Same unconfirmed 802.1X compatibility", "Single-band Wi-Fi"],
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Desktop Wi-Fi Pick",
     name: "Epson Workforce ES-580W Wireless Color Duplex Desktop Document Scanner",
     price: "$379.99",
-    rating: "4.3 stars from 5,857 Amazon ratings",
-    reviews: "5,857 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Ty0waBx4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KQZWPYN?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "USB-Only Reference, No Wi-Fi",
     name: "Brother DS-640 Compact Mobile Document Scanner",
     price: "$134.99",
-    rating: "4.3 stars from 6,522 Amazon ratings",
-    reviews: "6,522 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Bx7Z39uKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B083R36CY4?tag=deskfinds0d-20",
     description:
@@ -127,8 +127,8 @@ export const products: GuideProduct[] = [
     badge: "Wired Desktop Reference",
     name: "Epson Workforce ES-400 II High-Speed Color Duplex Desktop Document Scanner",
     price: "$299.99",
-    rating: "4.5 stars from 1,226 Amazon ratings",
-    reviews: "1,226 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41rW4JApydL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08P3YVH3X?tag=deskfinds0d-20",
     description:
@@ -137,14 +137,14 @@ export const products: GuideProduct[] = [
     pros: ["Highest rating in this guide", "No Wi-Fi network compatibility questions at all", "Genuine duplex ADF for sustained batch work", "TWAIN driver for document management"],
     cons: ["Not actually a Wi-Fi scanner", "Included only as an honest wired alternative", "Desktop footprint, no Wi-Fi flexibility"],
     bestFor: "Buyers who want the highest-rated pick and are fine with wired-only USB",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Scan-to-folder host-PC requirement vs. standalone cloud operation", description: "Distinguished picks that genuinely operate standalone for cloud destinations from the likely requirement that scan-to-folder needs a host PC to remain on and network-discoverable, a distinction Wi-Fi marketing rarely clarifies." },
   { title: "Dual-band vs. single-band Wi-Fi disclosure", description: "Noted where a pick supports dual-band (2.4GHz + 5GHz) Wi-Fi 6 for better interference resistance in crowded environments versus single-band 2.4GHz-only connectivity." },
-  { title: "WPA2-Enterprise (802.1X) corporate network compatibility", description: "Flagged that none of the picks in this guide explicitly confirm compatibility with enterprise authentication (certificate-based, not just a shared password), a real gap for corporate/university network buyers." },
+  { title: "WPA2-Enterprise (802.1X) corporate network compatibility", description: "Flagged that none of the picks in this guide explicitly confirm compatibility with enterprise authentication (certificate-based, not just a shared password), a real gap for corporate/university network buyers." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -277,11 +277,11 @@ export const faq: FaqItem[] = [
   { q: "Does Wi-Fi 6 make a real difference for a document scanner?", a: "Yes, in crowded wireless environments. Wi-Fi 6, dual-band-capable scanners can connect on the less congested 5GHz band, more resistant to interference than single-band 2.4GHz-only scanners in busy home or office networks." },
   { q: "Where should I place a Wi-Fi scanner for the best connection?", a: "Avoid closets, behind monitors, or low shelves. Consumer scanner Wi-Fi antennas are weaker than router-grade hardware, and placement meaningfully affects real-world range and reliability." },
   { "q": "What's the single best pick to come out of this comparison?", a: "Buyers in crowded Wi-Fi environments who want standalone cloud scanning" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers in crowded Wi-Fi environments who want standalone cloud scanning At Check current price, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers in crowded Wi-Fi environments who want standalone cloud scanning At Check current price, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-wireless-document-scanners", title: "Best Wireless Document Scanners (2026)" },
   { href: "/guide/best-document-scanners-for-computers", title: "Best Document Scanners for Computers (2026)" },
-  { href: "/guide/best-document-scanners-for-small-businesses", title: "Best Document Scanners for Small Businesses (2026)" },
+  { href: "/guide/best-document-scanners-for-small-businesses", title: "Best Document Scanners for Small Businesses (2026)" }
 ];

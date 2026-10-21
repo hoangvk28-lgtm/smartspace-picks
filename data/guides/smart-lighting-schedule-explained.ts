@@ -12,7 +12,7 @@ export const smartLightingScheduleExplainedGuide: Guide = {
     "automated desk lighting schedule",
     "color temperature schedule throughout day",
     "smart light circadian rhythm desk",
-    "scheduling desk lamp brightness changes",
+    "scheduling desk lamp brightness changes"
   ],
   heroImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const smartLightingScheduleExplainedGuide: Guide = {
     "desk-lamp-kelvin-color-temperature",
     "smart-desk-lamp-features-explained",
     "task-lighting-vs-ambient-lighting",
-    "monitor-brightness-and-eye-strain",
+    "monitor-brightness-and-eye-strain"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const smartLightingScheduleExplainedGuide: Guide = {
       question: "Can I combine a lighting schedule with manual voice or app control for exceptions?",
       answer:
         "Yes, most smart lighting systems allow manual override of a scheduled setting at any time via voice command or app control, letting you deviate from the schedule for a specific need, like extra brightness for a detailed task, without disrupting the underlying automated schedule.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const smartLightingScheduleExplainedGuide: Guide = {
     {
       heading: "Why Precision Matters Less Than Consistent General Direction",
       body: `It's worth recognizing that the benefit of a lighting schedule comes from the general directional pattern, cooler and brighter earlier, warmer and dimmer later, rather than requiring scientifically precise timing calibrated to your exact individual circadian rhythm, a reasonably approximate schedule still provides meaningful benefit, this means you don't need to research and configure a highly precise, personalized schedule to get real value, a sensible general pattern applied consistently is more valuable than an overly precise schedule you never actually get around to properly configuring in the first place.`,
-    },
+    }
   ],
 };

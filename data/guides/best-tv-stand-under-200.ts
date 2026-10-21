@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["The highest weight capacity and waterproof durability", "LINSY HOME Farmhouse TV Stand with Glass Door Storage"],
         ["App-controllable LED ambiance lighting", "OneBlis 58\" LED Farmhouse TV Stand with Glass Door Storage"],
-        ["An 80\" TV with a modern low-profile design", "OKD 70\" Modern TV Stand, Thick Block Media Console"],
+        ["An 80\" TV with a modern low-profile design", "OKD 70\" Modern TV Stand, Thick Block Media Console"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $100", "AUXSOUL 70 Inch Mid Century Modern ($99.99)"],
-        ["$156-$180", "LINSY HOME ($156.25), OneBlis LED ($164.99), or OKD Modern ($179.99)"],
+        ["Under $100", "AUXSOUL 70 Inch Mid Century Modern (under $100)"],
+        ["$156-$180", "LINSY HOME (under $160), OneBlis LED (under $170), or OKD Modern (under $180)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Farmhouse Glass Doors vs Modern Low-Profile",
     cards: [
       { label: "Farmhouse Glass Doors (LINSY HOME, OneBlis)", text: "Traditional or vintage-grid glass cabinets suited to farmhouse, rustic, or transitional living room decor styles." },
-      { label: "Modern Low-Profile (OKD)", text: "Clean-lined, wall-mount-friendly design at 22 inches tall, better suited to contemporary or minimalist interiors." },
+      { label: "Modern Low-Profile (OKD)", text: "Clean-lined, wall-mount-friendly design at 22 inches tall, better suited to contemporary or minimalist interiors." }
     ],
     note: "Choose based on your room's existing decor style, since both approaches deliver comparable functional storage and TV support at this price.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your TV size", "Recommended pick"],
       rows: [
         ["Up to 65\"", "LINSY HOME or OneBlis LED Farmhouse picks"],
-        ["Up to 80\"", "OKD 70\" Modern TV Stand or AUXSOUL 70 Inch Mid Century"],
+        ["Up to 80\"", "OKD 70\" Modern TV Stand or AUXSOUL 70 Inch Mid Century"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Movie Night Ambiance Specifically",
     cards: [
       { label: "Look for", text: "App-controllable LED lighting with adjustable brightness, rather than a fixed-color light strip with only an on/off switch." },
-      { label: "In this comparison", text: "The OneBlis 58\" LED Farmhouse TV Stand is the only pick offering app-based control over brightness and color for customized movie night ambiance." },
+      { label: "In this comparison", text: "The OneBlis 58\" LED Farmhouse TV Stand is the only pick offering app-based control over brightness and color for customized movie night ambiance." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the highest weight capacity and waterproof glass cabinet durability, where the LINSY HOME pick leads this comparison at 360 lbs capacity." },
-      { label: "Save if", text: "You need 80\" TV compatibility without glass doors or LED lighting, where the AUXSOUL pick saves $60-80 versus the pricier alternatives here." },
+      { label: "Save if", text: "You need 80\" TV compatibility without glass doors or LED lighting, where the AUXSOUL pick saves $60-80 versus the pricier alternatives here." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

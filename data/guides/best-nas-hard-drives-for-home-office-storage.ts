@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "nas hard drives for home office";
 export const introParagraphs = [
   "Searching for a NAS hard drive for home office storage almost always turns up a mixed bag of results, bare internal drives, diskless NAS enclosures you fill yourself, and drives-included bundles that work straight out of the box. These are three genuinely different purchases, and buying the wrong one for your situation means either paying for bays you don't need or ending up with a single drive and no enclosure to put it in.",
-  "Below are 8 picks we evaluated across that full spectrum, from a single 8TB CMR internal drive built for RAID duty to 2-bay and 4-bay enclosures at different price points, plus a couple of drives-included options for buyers who want to skip the separate-drive-purchase step entirely. Each entry below is labeled for exactly what it is, drive, enclosure, or bundle, so you know precisely what arrives at your door.",
+  "Below are 8 picks we evaluated across that full spectrum, from a single 8TB CMR internal drive built for RAID duty to 2-bay and 4-bay enclosures at different price points, plus a couple of drives-included options for buyers who want to skip the separate-drive-purchase step entirely. Each entry below is labeled for exactly what it is, drive, enclosure, or bundle, so you know precisely what arrives at your door."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "CMR (not SMR), safe for RAID rebuilds",
       "256MB cache, 5640 RPM",
       "SATA 6 Gb/s interface",
-      "Bare drive only, no enclosure included",
+      "Bare drive only, no enclosure included"
     ],
     pros: [
       "CMR recording is stable for RAID arrays",
       "256MB cache suited to sustained NAS workloads",
       "Straightforward drop-in upgrade for an existing empty bay",
-      "Reputable NAS-grade drive line",
+      "Reputable NAS-grade drive line"
     ],
     cons: [
       "Requires a separate NAS enclosure you supply yourself",
       "Not usable on its own without a compatible bay",
-      "Single-drive purchase, no redundancy unless you buy a second",
+      "Single-drive purchase, no redundancy unless you buy a second"
     ],
     bestFor: "Buyers who already own a NAS enclosure and need a reliable CMR drive to fill an empty bay",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "No drives included, buyer supplies compatible 3.5\" or 2.5\" drives",
       "RAID 1 or combined-capacity configurations",
       "Aimed at content creator workflows",
-      "Requires separate drive purchase to become functional",
+      "Requires separate drive purchase to become functional"
     ],
     pros: [
       "Flexible drive choice, pair with CMR drives for RAID stability",
       "RAID 1 support for redundancy across 2 bays",
       "Solid fit for photo and video working files",
-      "Compact 2-bay footprint for a home office",
+      "Compact 2-bay footprint for a home office"
     ],
     cons: [
       "Ships with zero storage, drives are a separate cost",
       "2 bays cap total capacity lower than 4-bay units",
-      "Setup requires configuring RAID after installing drives",
+      "Setup requires configuring RAID after installing drives"
     ],
     bestFor: "Content creators who want a 2-bay enclosure and plan to install their own CMR drives",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Intel Pentium Gold 8505 5-Core CPU",
       "Supports RAID 5 / RAID 10 configurations",
       "No drives included",
-      "Handles transcoding and multi-service workloads",
+      "Handles transcoding and multi-service workloads"
     ],
     pros: [
       "5-core CPU supports transcoding and background services",
       "4 bays enable RAID 5/10 for better redundancy math",
       "Strong compute headroom beyond simple file storage",
-      "Scales capacity well as storage needs grow",
+      "Scales capacity well as storage needs grow"
     ],
     cons: [
       "Highest combined cost once 4 drives are added",
       "Diskless, adds real setup time before first use",
-      "Larger footprint than a 2-bay unit",
+      "Larger footprint than a 2-bay unit"
     ],
     bestFor: "Home offices that want RAID 5/10 redundancy and compute headroom across 4 self-supplied drives",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Supports up to 64TB total (drives sold separately)",
       "Compact desktop form factor",
       "Entry-level pricing among enclosures in this list",
-      "Basic 2-bay RAID support",
+      "Basic 2-bay RAID support"
     ],
     pros: [
       "Lowest-priced enclosure in this list",
       "Straightforward 2-bay setup for basic redundancy",
       "Supports substantial total capacity with the right drives",
-      "Compact desktop footprint",
+      "Compact desktop footprint"
     ],
     cons: [
       "Diskless, still requires a separate drive purchase",
       "Less compute headroom than the Pentium Gold-based unit",
-      "2 bays limit long-term expansion",
+      "2 bays limit long-term expansion"
     ],
     bestFor: "Budget-conscious buyers who want basic 2-bay redundancy without paying for extra CPU power",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Intel CPU with hardware transcoding",
       "Synology DSM software platform",
       "RAID 1 mirrored redundancy support",
-      "No drives included",
+      "No drives included"
     ],
     pros: [
       "Hardware transcoding aids media streaming and photo backup",
       "Synology DSM is a mature, well-documented NAS OS",
       "Simple RAID 1 setup for straightforward redundancy",
-      "Reputable brand with long firmware support windows",
+      "Reputable brand with long firmware support windows"
     ],
     cons: [
       "Diskless, drives are an added cost",
       "2 bays cap total capacity and RAID flexibility",
-      "Priced above some 2-bay competitors",
+      "Priced above some 2-bay competitors"
     ],
     bestFor: "Buyers who want Synology's DSM software and hardware transcoding for a media-adjacent home office NAS",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Synology DSM software platform",
       "Supports RAID 5 / RAID 10",
       "No drives included",
-      "Designed for expanding storage needs",
+      "Designed for expanding storage needs"
     ],
     pros: [
       "4 bays support real redundancy via RAID 5/10",
       "Synology DSM's mature software ecosystem",
       "Room to grow capacity over time",
-      "Strong long-term firmware support reputation",
+      "Strong long-term firmware support reputation"
     ],
     cons: [
       "Highest enclosure price in this list before drives",
       "Diskless, drive cost adds substantially to total spend",
-      "Larger footprint than a 2-bay unit",
+      "Larger footprint than a 2-bay unit"
     ],
     bestFor: "Home offices anticipating growing storage needs who want Synology's software with 4-bay RAID flexibility",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Ready to use out of the box, no separate drive purchase",
       "Works as home cloud or network storage",
       "No RAID redundancy (single bay)",
-      "Simplest setup in this list",
+      "Simplest setup in this list"
     ],
     pros: [
       "Drive included, nothing else to buy before setup",
       "Simplest, fastest setup of any pick here",
       "Lowest all-in cost for working network storage",
-      "Good fit for a basic home cloud or backup target",
+      "Good fit for a basic home cloud or backup target"
     ],
     cons: [
       "Single bay means zero RAID redundancy",
       "4TB capacity is modest next to the multi-bay picks",
-      "Not a substitute for a real backup strategy",
+      "Not a substitute for a real backup strategy"
     ],
     bestFor: "Buyers who want a drives-included NAS out of the box with no separate drive purchase or RAID setup",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Synology DSM software platform",
       "Supports RAID 5 / RAID 10",
       "No drives included",
-      "Positioned for backup and file sharing over heavy transcoding",
+      "Positioned for backup and file sharing over heavy transcoding"
     ],
     pros: [
       "More affordable entry into Synology's 4-bay lineup",
       "RAID 5/10 support for real redundancy",
       "Good fit for backup, file sharing, and basic surveillance storage",
-      "Synology DSM software ecosystem",
+      "Synology DSM software ecosystem"
     ],
     cons: [
       "Diskless, drives are a separate cost",
       "Less CPU headroom than the DS925+ for transcoding-heavy use",
-      "4 bays still need careful drive selection to avoid SMR pitfalls",
+      "4 bays still need careful drive selection to avoid SMR pitfalls"
     ],
     bestFor: "Family or small-office buyers who want affordable 4-bay Synology redundancy for backup and file sharing",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Total cost including drives",
     description: "Factored in that diskless enclosures require a separate drive purchase, so total cost of ownership was compared against drives-included bundles rather than sticker price alone.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -470,11 +470,11 @@ export const faq: FaqItem[] = [
   {
     q: "Why does vibration matter in a 4-bay NAS but not as much in a single drive?",
     a: "Once you're running 3 or 4 spinning drives together in one enclosure, sympathetic vibration between drives can cause read errors on drives that aren't built to compensate for it. NAS-grade drives include vibration compensation firmware specifically for this, while ordinary desktop drives do not, which is one more reason to avoid repurposing a spare desktop drive in a multi-bay NAS.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-nas-storage-for-home-office", title: "8 Best NAS Storage Devices for Home Office in 2026" },
   { href: "/guide/best-nas-for-plex-media-servers", title: "8 Best NAS for Plex Media Servers in 2026" },
-  { href: "/guide/best-nas-storage-devices", title: "8 Best NAS Storage Devices in 2026" },
+  { href: "/guide/best-nas-storage-devices", title: "8 Best NAS Storage Devices in 2026" }
 ];

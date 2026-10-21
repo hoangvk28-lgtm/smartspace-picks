@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "ergotron standing desk converter";
 export const introParagraphs = [
   "We need to be direct here: the specific Ergotron WorkFit converter ASINs we attempted to verify were not accessible through our product data source at research time, meaning we could not confirm current pricing, ratings, or availability for Ergotron's converter lineup the way we could for other brands in this research.",
-  "Ergotron is a genuine, established brand in this category with real current products (the WorkFit-TL and WorkFit-TX lines), but we're disclosing this verification gap directly rather than presenting unconfirmed data as if it were verified.",
+  "Ergotron is a genuine, established brand in this category with real current products (the WorkFit-TL and WorkFit-TX lines), but we're disclosing this verification gap directly rather than presenting unconfirmed data as if it were verified."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "6 min";
@@ -75,7 +75,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Disclosed the data verification gap honestly", description: "We attempted to verify current Ergotron WorkFit converter listings and could not confirm pricing, rating, or availability data through our product source, and said so directly rather than presenting unverified figures." },
   { title: "Selected verified alternatives across comparable price tiers", description: "We chose well-reviewed converters from other brands spanning budget, mid-range, and premium price points, since we couldn't verify where Ergotron's current lineup lands." },
   { title: "Recommended checking Ergotron's official source directly", description: "For buyers specifically wanting the Ergotron brand, we pointed to Ergotron's own site as the authoritative current source rather than guessing at figures." },
-  { title: "Did not fabricate Ergotron pricing, ratings, or specs", description: "Rather than estimate or assume current WorkFit data to complete this guide, we disclosed the gap and provided genuinely verified alternatives instead." },
+  { title: "Did not fabricate Ergotron pricing, ratings, or specs", description: "Rather than estimate or assume current WorkFit data to complete this guide, we disclosed the gap and provided genuinely verified alternatives instead." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -206,7 +206,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
@@ -215,11 +215,11 @@ export const faq: FaqItem[] = [
   { q: "Is Ergotron still a real standing desk converter brand?", a: "Yes, Ergotron maintains the WorkFit-TL and WorkFit-TX converter lines; check ergotron.com directly for current specs and pricing." },
   { q: "What's a comparable premium alternative to Ergotron?", a: "The Vari VariDesk Pro Plus 36, a verified premium-tier converter from another established ergonomic brand." },
   { q: "What's a budget alternative if Ergotron is too expensive?", a: "The VIVO Black 26 in Standing Desk Converter, a verified low-cost option with a large review base." },
-  { q: "Should I trust unverified Ergotron listings I find elsewhere?", a: "Verify current pricing and specs directly on Ergotron's official site or a major retailer before purchasing, since we could not independently confirm this data." },
+  { q: "Should I trust unverified Ergotron listings I find elsewhere?", a: "Verify current pricing and specs directly on Ergotron's official site or a major retailer before purchasing, since we could not independently confirm this data." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-varidesk-standing-desk-converters", title: "Best VariDesk Standing Desk Converters (2026)" },
   { href: "/guide/best-gas-spring-standing-desk-converters", title: "Best Gas-Spring Standing Desk Converters (2026)" },
-  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
+  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" }
 ];

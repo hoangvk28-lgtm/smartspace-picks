@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "gaming desk cup holders";
 export const introParagraphs = [
   "Honesty note upfront: none of the verified products for this keyword carry genuine gaming-specific features like RGB lighting or gamer branding. They are the same general-purpose clamp cup holders covered in our other guides, relevant here mainly because gaming setups concentrate a lot of expensive PC and peripheral equipment in one place.",
-  "We weighted spill-proximity-to-electronics risk even more heavily than our computer desk guide, since a gaming desk often has a graphics card, mechanical keyboard, and multiple peripherals all within splash range of a spill.",
+  "We weighted spill-proximity-to-electronics risk even more heavily than our computer desk guide, since a gaming desk often has a graphics card, mechanical keyboard, and multiple peripherals all within splash range of a spill."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine gaming relevance vs. general-purpose fit", description: "We disclosed that none of these picks carry RGB or gaming aesthetic features, and identified which ones have genuine gaming-relevant specs like large tumbler capacity or controller storage." },
   { title: "Heightened spill-proximity-to-electronics risk", description: "We weighted spill resistance even more heavily than our general computer desk guide, given the concentration of expensive PC and peripheral equipment on a typical gaming desk." },
   { title: "Tip and bump resistance under active gameplay", description: "We favored deep, covered cavity designs that resist accidental bumps during intense gameplay moments." },
-  { title: "Desk-edge clamp compatibility", description: "We checked clamp opening ranges against common gaming desk edge types, including curved and RGB-lit desk designs." },
+  { title: "Desk-edge clamp compatibility", description: "We checked clamp opening ranges against common gaming desk edge types, including curved and RGB-lit desk designs." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -244,11 +244,11 @@ export const faq: FaqItem[] = [
   { q: "Why does spill risk matter more on a gaming desk?", a: "Gaming desks typically concentrate more expensive equipment, like a graphics card and mechanical keyboard, within splash range of a spill compared to a general desk, and fast reactive gameplay increases accidental bump risk." },
   { q: "Which pick holds the largest tumbler for long gaming sessions?", a: "The 4 in 1 Metal Clip On Cup Holder is explicitly rated for cups up to 40oz, the largest disclosed capacity in this comparison." },
   { q: "Can I store my controller or headset with these holders?", a: "The KDD 5-in-1 pick combines a cup holder with controller storage and a headphone hanger on one clamp, useful for consolidating gaming accessories." },
-  { q: "Should I get a rotating cup holder for gaming?", a: "It's a worthwhile extra safety margin, letting you swing the cup out of the way during fast, reactive gameplay moments where accidental bumps are more likely." },
+  { q: "Should I get a rotating cup holder for gaming?", a: "It's a worthwhile extra safety margin, letting you swing the cup out of the way during fast, reactive gameplay moments where accidental bumps are more likely." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-computer-desk-cup-holders", title: "Best Computer Desk Cup Holders (2026)" },
   { href: "/guide/best-gaming-desk-phone-holders", title: "Best Gaming Desk Phone Holders (2026)" },
-  { href: "/guide/best-four-in-one-desk-cup-holders", title: "Best Four-in-One Desk Cup Holders (2026)" },
+  { href: "/guide/best-four-in-one-desk-cup-holders", title: "Best Four-in-One Desk Cup Holders (2026)" }
 ];

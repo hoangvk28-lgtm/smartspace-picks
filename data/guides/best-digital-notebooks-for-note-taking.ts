@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook for note taking";
 export const introParagraphs = [
   "Good note-taking depends on writing feel and how easily you can find a note later, and both vary meaningfully across the three digital notebook types. We focused this guide on picks with genuinely useful note-organization features rather than just general specs.",
-  "Where a listing states handwriting search or text conversion, we noted it, since finding a specific note later is often more valuable for note-taking than the writing experience itself.",
+  "Where a listing states handwriting search or text conversion, we noted it, since finding a specific note later is often more valuable for note-taking than the writing experience itself."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Writing feel and organization weighed for note-taking specifically", description: "Prioritized paper-like writing texture and digital folder or cloud organization features relevant to finding notes later, not just general specs." },
   { title: "Search and handwriting conversion verified per listing", description: "Only credited OCR or handwriting search when explicitly stated for that specific product, and flagged where accuracy should be checked against current reviews." },
   { title: "Real-time vs scan-later capture distinguished clearly", description: "Separated products that sync live as you write from those that require a scan step afterward, since this materially affects how quickly a note becomes searchable." },
-  { title: "Price weighed against note-taking-specific features", description: "Compared cost against features directly relevant to taking and finding notes, such as OCR, audio recording, and folder organization." },
+  { title: "Price weighed against note-taking-specific features", description: "Compared cost against features directly relevant to taking and finding notes, such as OCR, audio recording, and folder organization." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -274,11 +274,11 @@ export const faq: FaqItem[] = [
   { q: "What's the best type of digital notebook for note-taking?", a: "It depends on your priority: an e-ink tablet like the reMarkable 2 offers the best writing feel and digital organization, a smart pen offers real-time search, and a Rocketbook offers the cheapest way to digitize notes." },
   { q: "Can I search my handwritten notes on a digital notebook?", a: "Some products state OCR or handwriting search features, verify accuracy on the specific listing and check current reviews since this is a software feature that changes over time." },
   { q: "Do digital notebooks make notes available in real time?", a: "Smart pen sets and e-ink devices generally do, while reusable paper notebooks like Rocketbook require scanning a page before it becomes searchable digitally." },
-  { q: "Is writing on an e-ink screen comfortable for long note sessions?", a: "Many buyers find e-ink devices like the reMarkable 2 close to a paper-like writing feel, more comfortable than a glass tablet screen for extended use." },
+  { q: "Is writing on an e-ink screen comfortable for long note sessions?", a: "Many buyers find e-ink devices like the reMarkable 2 close to a paper-like writing feel, more comfortable than a glass tablet screen for extended use." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks-with-handwriting-conversion", title: "Best Digital Notebooks with Handwriting Conversion (2026)" },
   { href: "/guide/best-digital-notebooks-for-writers", title: "Best Digital Notebooks for Writers (2026)" },
-  { href: "/guide/best-smart-digital-notebooks", title: "Best Smart Digital Notebooks (2026)" },
+  { href: "/guide/best-smart-digital-notebooks", title: "Best Smart Digital Notebooks (2026)" }
 ];

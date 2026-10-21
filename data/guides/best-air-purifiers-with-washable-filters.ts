@@ -5,7 +5,7 @@ export const metaDescription = "5 air purifiers with washable filters we evaluat
 export const mainKeyword = "air purifier with washable filter";
 export const introParagraphs = [
   "Washable pre-filters typically only capture larger particles like dust and pet hair, and are usually paired with a separate non-washable HEPA or carbon filter that still requires periodic replacement, washable filter marketing sometimes implies eliminating the entire ongoing filter cost, which it doesn't.",
-  "Washing frequency and proper drying time matter, incomplete drying before reinstalling can promote mold growth inside the unit, a real maintenance responsibility rarely explained with specific guidance.",
+  "Washing frequency and proper drying time matter, incomplete drying before reinstalling can promote mold growth inside the unit, a real maintenance responsibility rarely explained with specific guidance."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Air Purifier with Washable Filter Overall",
     name: "LEVOIT Air Purifier for Home Pets Bedroom Up to 1073Ft2 Washable Pre-Filter",
     price: "$119.99",
-    rating: "4.7 stars from 11,367 Amazon ratings",
-    reviews: "11,367 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/415AbiHqgpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BNDM2RNG?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Filter-Indicator Pick",
     name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
-    rating: "4.6 stars from 28,866 Amazon ratings",
-    reviews: "28,866 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419pAe7T0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTKAPUU?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best White Finish Alternative",
     name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH(W), White",
     price: "$229.99",
-    rating: "4.6 stars from 28,866 Amazon ratings",
-    reviews: "28,866 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31pCHKKqN2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01728NLRG?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick, Verify Washable Component",
     name: "Membrane Solutions MSA3 Air Purifier for Home",
     price: "$99.39",
-    rating: "4.5 stars from 10,110 Amazon ratings",
-    reviews: "10,110 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31CcBFzC6wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08ND7C7P4?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Smart Pick with Washable Component",
     name: "LEVOIT Smart Air Purifier for Home Large Room up to 1875 ft Vital 200S-P",
     price: "$174.99",
-    rating: "4.7 stars from 14,571 Amazon ratings",
-    reviews: "14,571 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Smart app control for monitoring filter status", "Large rated coverage", "Large, well-established review base", "Genuine capacity for a demanding room"],
     cons: ["Verify washable component and cleaning-method restrictions", "Higher price than compact alternatives", "Main filter still requires periodic replacement"],
     bestFor: "Buyers who want smart monitoring alongside a washable filter component",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Which specific filter stage is washable, clearly disclosed", description: "Clarified which filter stage is washable (typically a pre-filter only) versus which still requires disposable replacement (HEPA or carbon), rather than letting 'washable filter' marketing imply the whole system is maintenance-free." },
   { title: "Washing frequency and drying guidance to prevent mold risk", description: "Flagged that washing frequency and proper drying time before reinstalling matter, since incomplete drying can promote mold growth inside the unit, a real maintenance responsibility rarely explained with specific guidance." },
-  { title: "Fully washable vs. partially washable distinguished as different cost tiers", description: "Distinguished a fully washable-filter unit (rarer, no disposable stage at all) from a unit with only a washable pre-filter alongside a still-disposable main filter, genuinely different total-cost-of-ownership categories." },
+  { title: "Fully washable vs. partially washable distinguished as different cost tiers", description: "Distinguished a fully washable-filter unit (rarer, no disposable stage at all) from a unit with only a washable pre-filter alongside a still-disposable main filter, genuinely different total-cost-of-ownership categories." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -239,11 +239,11 @@ export const faq: FaqItem[] = [
   { q: "Can I use soap to clean a washable air purifier filter?", a: "Check the manufacturer's specific guidance first. Some manufacturers explicitly void warranty coverage if a washable filter is cleaned with anything beyond plain water, since soap or detergent residue can damage certain filter media." },
   { q: "What's the difference between fully washable and partially washable air purifiers?", a: "A fully washable-filter unit has no disposable stage at all, a genuinely rarer product tier. A partially washable unit has only a washable pre-filter alongside a still-disposable main filter, these are different total-cost-of-ownership categories." },
   { q: "How often should I wash a washable air purifier filter?", a: "Check the specific manufacturer's recommended interval, typically every 2-4 weeks for a pre-filter, and always let it fully air-dry before reinstalling to avoid mold growth inside the unit." },
-  { q: "Does a washable filter capture particles as effectively as a disposable HEPA filter?", a: "Not usually to the same standard, washable filters generally target larger particles like hair and dust, while a true HEPA stage still handles the finer 0.3-micron particle capture a washable filter alone can't match." },
+  { q: "Does a washable filter capture particles as effectively as a disposable HEPA filter?", a: "Not usually to the same standard, washable filters generally target larger particles like hair and dust, while a true HEPA stage still handles the finer 0.3-micron particle capture a washable filter alone can't match." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-hepa-air-purifiers", title: "Best HEPA Air Purifiers (2026)" },
   { href: "/guide/best-hepa-and-carbon-air-purifiers", title: "Best HEPA and Carbon Air Purifiers (2026)" },
-  { href: "/guide/best-air-purifiers-for-dust-and-pet-hair", title: "Best Air Purifiers for Dust and Pet Hair (2026)" },
+  { href: "/guide/best-air-purifiers-for-dust-and-pet-hair", title: "Best Air Purifiers for Dust and Pet Hair (2026)" }
 ];

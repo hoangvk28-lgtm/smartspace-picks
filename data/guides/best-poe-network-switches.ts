@@ -201,31 +201,31 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $37.97",
+          "Under $40",
           "UGREEN 10-Port PoE Switch (8x PoE+ @60W)"
         ],
         [
-          "Around $44.99",
+          "Under $45",
           "NETGEAR GS305P 5-Port PoE Gigabit Switch"
         ],
         [
-          "Around $44.99",
+          "Under $45",
           "TP-Link TL-SG1005P 5-Port Gigabit PoE Switch"
         ],
         [
-          "Around $59.99",
+          "Under $60",
           "TP-Link LS108GP 8-Port PoE Gigabit Switch"
         ],
         [
-          "Around $79.99",
+          "Under $80",
           "NETGEAR GS308EP 8-Port PoE+ Smart Managed Switch"
         ],
         [
-          "Around $748.95",
+          "Under $750",
           "Ubiquiti UniFi USW-Pro-24-PoE Layer 3 Switch"
         ],
         [
-          "Around $899.90",
+          "Under $900",
           "Ubiquiti UniFi USW-Pro-48-PoE Layer 3 Switch"
         ]
       ]
@@ -270,7 +270,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "NETGEAR GS305P 5-Port PoE Gigabit Switch is aimed at buyers prioritizing 5 ports, 4x poe+ at 63w total; TP-Link TL-SG1005P 5-Port Gigabit PoE Switch is aimed at buyers prioritizing 4x poe+ ports @65w total, 1 uplink."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -311,9 +311,9 @@ export const faq = [
   }
 ,
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "NETGEAR GS305P 5-Port PoE Gigabit Switch is aimed at buyers prioritizing 5 ports, 4x poe+ at 63w total." },
-  { q: "Which pick offers the best value for a tight budget?", a: "UGREEN 10-Port PoE Switch (8x PoE+ @60W) is aimed at buyers prioritizing 8x poe+ @60w + 2 uplinks, and at $37.97 it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $37.97 to $899.90, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
-  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Ubiquiti UniFi USW-Pro-48-PoE Layer 3 Switch is aimed at buyers prioritizing 48-port layer 3 managed, poe. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
+  { q: "Which pick offers the best value for a tight budget?", a: "UGREEN 10-Port PoE Switch (8x PoE+ @60W) is aimed at buyers prioritizing 8x poe+ @60w + 2 uplinks, and at under $40 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $40 to $900, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Ubiquiti UniFi USW-Pro-48-PoE Layer 3 Switch is aimed at buyers prioritizing 48-port layer 3 managed, poe. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-8-port-poe-network-switches","title":"5 Best 8-Port PoE Network Switches in 2026"},{"href":"/guide/best-24-port-poe-network-switches","title":"5 Best 24-Port PoE Network Switches in 2026"},{"href":"/guide/best-poe-powered-network-switches","title":"5 Best PoE-Powered Network Switches in 2026"}];

@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31t+0aeG+DL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CR5GS5X2?tag=deskfinds0d-20",
-    description: "At 30U this is one of the taller open-frame rolling racks in the AxcessAbles line, giving you real headroom for a growing home lab or studio rack without going to a fully enclosed cabinet.\n\nThe same 18-inch depth and removable side panel design carries over from the smaller models, so airflow and access stay consistent as you scale up in height.\n\nWhat stands out here is tall 30U build fits a growing equipment stack, plus removable panels switch between open and closed setups. The main tradeoff: tall and narrow footprint needs a stable floor, so weigh that against the $299.99 price before buying.",
+    description: "At 30U this is one of the taller open-frame rolling racks in the AxcessAbles line, giving you real headroom for a growing home lab or studio rack without going to a fully enclosed cabinet.\n\nThe same 18-inch depth and removable side panel design carries over from the smaller models, so airflow and access stay consistent as you scale up in height.\n\nWhat stands out here is tall 30U build fits a growing equipment stack, plus removable panels switch between open and closed setups. The main tradeoff: tall and narrow footprint needs a stable floor, so weigh that against the under $300 price before buying.",
     specs: ["30U height, 18\" depth","550 lb static / 440 lb rolling capacity","Removable vented side panels"],
     pros: ["Tall 30U build fits a growing equipment stack","Removable panels switch between open and closed setups","Includes both screw standards for mixed-brand gear"],
     cons: ["Tall and narrow footprint needs a stable floor","No lockable door for equipment security"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41KuU2tlXhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C64X8J8R?tag=deskfinds0d-20",
-    description: "VEVOR's 12U open frame rack supports 500 lbs ground-mounted, dropping to 150 lbs if wall-mounted, and comes with a genuinely complete hardware kit down to a grounding wire.\n\nThe adjustable 23-40 inch depth range and roller casters mean it can flex to fit different equipment and rooms without buying a different SKU for each configuration.\n\nThe strongest case for this pick comes down to 500 lb ground-mounted rating handles heavier gear as well as grounding wire included, a detail many racks skip. The compromise here is that wall-mount capacity drops sharply to 150 lbs, so factor that in alongside the $89.90 asking price.",
+    description: "VEVOR's 12U open frame rack supports 500 lbs ground-mounted, dropping to 150 lbs if wall-mounted, and comes with a genuinely complete hardware kit down to a grounding wire.\n\nThe adjustable 23-40 inch depth range and roller casters mean it can flex to fit different equipment and rooms without buying a different SKU for each configuration.\n\nThe strongest case for this pick comes down to 500 lb ground-mounted rating handles heavier gear as well as grounding wire included, a detail many racks skip. The compromise here is that wall-mount capacity drops sharply to 150 lbs, so factor that in alongside the under $90 asking price.",
     specs: ["12U, 23-40\" adjustable depth","500 lb ground / 150 lb wall capacity","Casters and grounding wire included"],
     pros: ["500 lb ground-mounted rating handles heavier gear","Grounding wire included, a detail many racks skip","Top panel adds extra storage space"],
     cons: ["Wall-mount capacity drops sharply to 150 lbs","Open frame leaves cables and gear exposed"],
@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41+goJVNtmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00O6GNLQE?tag=deskfinds0d-20",
-    description: "The 25U version of StarTech's 4-post open frame family carries the same EIA/ECA-310-E compliance and 2-year warranty as its 42U sibling, just in a shorter footprint that fits smaller server rooms.\n\nAt 1200 lbs stationary capacity it's rated slightly lower than the 42U model, which tracks since it's a shorter, lighter structure overall.\n\nThis pick is best for buyers who value shorter 25U height fits rooms with limited ceiling space along with same 2-year warranty and lifetime support as larger models. The catch is that 1200 lb rating is lower than the taller 42U version, so decide if that's worth it at $334.99.",
+    description: "The 25U version of StarTech's 4-post open frame family carries the same EIA/ECA-310-E compliance and 2-year warranty as its 42U sibling, just in a shorter footprint that fits smaller server rooms.\n\nAt 1200 lbs stationary capacity it's rated slightly lower than the 42U model, which tracks since it's a shorter, lighter structure overall.\n\nThis pick is best for buyers who value shorter 25U height fits rooms with limited ceiling space along with same 2-year warranty and lifetime support as larger models. The catch is that 1200 lb rating is lower than the taller 42U version, so decide if that's worth it at under $350.",
     specs: ["25U, 22-40\" adjustable depth, 48-51\" tall","1200 lb stationary weight capacity","Casters, levelers, and cable hooks included"],
     pros: ["Shorter 25U height fits rooms with limited ceiling space","Same 2-year warranty and lifetime support as larger models","Cage nuts and cable hooks included in the kit"],
     cons: ["1200 lb rating is lower than the taller 42U version","Still needs flat-pack assembly on arrival"],
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31YAeSy9C2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D9B577G8?tag=deskfinds0d-20",
-    description: "A 4-post open frame rack rated for 1900 lbs, built from 2mm cold rolled steel for extra rigidity compared to the thinner-gauge racks in this category.\n\nDepth adjusts across a 22-35 inch range, and the listing specifically calls out compatibility with data centers, broadcast studios, and home lab setups alike, giving it a fairly broad use case.\n\nThe strongest case for this pick comes down to 2mm steel gauge is thicker than most in this class as well as 1900 lb rating handles a dense full-height stack. The compromise here is that full 80\" height needs a tall dedicated room, so factor that in alongside the $251.99 asking price.",
+    description: "A 4-post open frame rack rated for 1900 lbs, built from 2mm cold rolled steel for extra rigidity compared to the thinner-gauge racks in this category.\n\nDepth adjusts across a 22-35 inch range, and the listing specifically calls out compatibility with data centers, broadcast studios, and home lab setups alike, giving it a fairly broad use case.\n\nThe strongest case for this pick comes down to 2mm steel gauge is thicker than most in this class as well as 1900 lb rating handles a dense full-height stack. The compromise here is that full 80\" height needs a tall dedicated room, so factor that in alongside the under $300 asking price.",
     specs: ["42U, 22-35\" adjustable depth, 2mm steel","1900 lb weight capacity","Pre-installed square holes, cage nuts included"],
     pros: ["2mm steel gauge is thicker than most in this class","1900 lb rating handles a dense full-height stack","Assembly is genuinely quick, under 20 minutes claimed"],
     cons: ["Full 80\" height needs a tall dedicated room","Open frame means no dust or access control"],
@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $89.90",
+          "Under $90",
           "VEVOR 12U Open Frame Server Rack"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "AxcessAbles 12U Network Rack with Wheels"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "Raising Electronics 27U 4-Post Open Rack Frame"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "AxcessAbles 22U Rolling IT Server Rack"
         ],
         [
-          "Around $251.99",
+          "Under $300",
           "GlobalRack 42U Open Frame Server Rack"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "AxcessAbles 30U Rolling Network Server Rack"
         ],
         [
-          "Around $334.99",
+          "Under $350",
           "StarTech.com 25U Open Frame Server Rack"
         ],
         [
-          "Around $357.99",
+          "Under $400",
           "StarTech 42U 4-Post Open Frame Rack"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "AxcessAbles 12U Network Rack with Wheels is aimed at buyers prioritizing 18\" usable depth, 1.5mm steel frame." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "AxcessAbles 12U Network Rack with Wheels is aimed at buyers prioritizing 18\" usable depth, 1.5mm steel frame." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

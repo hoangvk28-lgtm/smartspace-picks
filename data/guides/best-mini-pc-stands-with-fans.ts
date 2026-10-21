@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini PC stands with fans";
 export const introParagraphs = [
   "Mini PC stands with fans combine two jobs: they physically support the computer and actively move air beneath or around it. That hybrid design can be useful for sustained workloads, but it introduces three linked compatibility questions: whether the stand is stable, whether the fan aligns with the Mini PC's vents, and whether the extra cooling is worth the fan noise.",
-  "This guide overlaps with our broader Best Mini PC Cooling Stands guide, but excludes passive-only stands and focuses specifically on the active, fan-equipped subset. Only four products in our research pool genuinely combine a Mini PC-relevant stand with an integrated fan, so this list is intentionally short rather than padded with generic laptop stands.",
+  "This guide overlaps with our broader Best Mini PC Cooling Stands guide, but excludes passive-only stands and focuses specifically on the active, fan-equipped subset. Only four products in our research pool genuinely combine a Mini PC-relevant stand with an integrated fan, so this list is intentionally short rather than padded with generic laptop stands."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "7 min";
@@ -46,10 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "19",
     imageUrl: "https://m.media-amazon.com/images/I/41rvTsVvGiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FJLK2894?tag=deskfinds0d-20",
-    description: "This stand explicitly names Mac mini and Mini PCs as intended devices, pairing aerospace-grade aluminum with a 12025 fan and a speed control switch. The listing states an 8 to 20 degree Celsius reduction under passive cooling alone, with the fan available for heavier loads.\n\nOne spot below Aluminum Mini PC Cooler Stand with 120mm Fan in this ranking, it's priced lower than Aluminum Mini PC Cooler Stand with 120mm Fan. The compromise here is straightforward: Small review base (19 ratings). What you gain in return: Explicitly compatible with Mac mini and similar Mini PC chassis. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Adjustable fan speed to balance noise and airflow. On the other side, Lightweight at 1 lb, benefits from a non-slip desk mat. That's the main tradeoff to weigh against everything above.",
+    description: "This stand explicitly names Mac mini and Mini PCs as intended devices, pairing aerospace-grade aluminum with a 12025 fan and a speed control switch. The listing states an 8 to 20 degree Celsius reduction under passive cooling alone, with the fan available for heavier loads.\n\nOne spot below Aluminum Mini PC Cooler Stand with 120mm Fan in this ranking, it's priced lower than Aluminum Mini PC Cooler Stand with 120mm Fan. What you gain in return: Explicitly compatible with Mac mini and similar Mini PC chassis. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Adjustable fan speed to balance noise and airflow. On the other side, Lightweight at 1 lb, benefits from a non-slip desk mat. That's the main tradeoff to weigh against everything above.",
     specs: ["Aerospace-grade aluminum","12025 fan, 2000 RPM, speed control switch","USB pass-through port","48kg rated load capacity"],
     pros: ["Explicitly compatible with Mac mini and similar Mini PC chassis","Adjustable fan speed to balance noise and airflow","USB pass-through preserves a port","High rated load capacity"],
-    cons: ["Small review base (19 ratings)","Passive-mode cooling claim is manufacturer-stated, not independently verified","Lightweight at 1 lb, benefits from a non-slip desk mat"],
+    cons: ["Passive-mode cooling claim is manufacturer-stated, not independently verified","Lightweight at 1 lb, benefits from a non-slip desk mat"],
     bestFor: "Mac mini owners who want an active stand explicitly marketed for their chassis shape.",
   },
   {
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Active cooling value", description: "We evaluated whether the fan adds a plausible sustained-load advantage over simple elevation, and excluded any passive-only stand from this narrower list." },
   { title: "Vent compatibility", description: "We compared fan location and airflow openings against different Mini PC chassis, favoring listings that explicitly name Mac mini or Mini PC compatibility." },
   { title: "Noise control", description: "We compared fixed and adjustable fan speed and gave more weight to listings publishing a specific dBA figure." },
-  { title: "Structural design", description: "We considered frame rigidity, load rating, and mounting method, including off-desk options, as part of one combined stand system." },
+  { title: "Structural design", description: "We considered frame rigidity, load rating, and mounting method, including off-desk options, as part of one combined stand system." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -212,11 +212,11 @@ export const faq: FaqItem[] = [
   { q: "Why does this guide only have 4 products?", a: "Genuinely Mini PC-relevant stands that also include an active fan are a narrow category. We'd rather list four verified options than pad the list with generic laptop cooling stands that aren't built for a Mini PC's vent layout." },
   { q: "Is adjustable fan speed worth having?", a: "It can be useful when the Mini PC alternates between light office tasks and long heavy workloads. Lower speed can reduce unnecessary noise during lighter use." },
   { q: "Can the fan make cooling worse?", a: "Yes, if the stand blocks an intake, pushes air against the wrong vent, or creates recirculation. Vent alignment remains more important than fan count or RPM." },
-  { q: "What should I check besides cooling?", a: "Check stand rigidity, anti-slip contact, vibration, cable clearance, and whether the active fan can be cleaned over time. Also confirm your specific Mini PC or Mac mini generation matches the stand's stated compatibility." },
+  { q: "What should I check besides cooling?", a: "Check stand rigidity, anti-slip contact, vibration, cable clearance, and whether the active fan can be cleaned over time. Also confirm your specific Mini PC or Mac mini generation matches the stand's stated compatibility." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pc-cooling-stands", title: "Best Mini PC Cooling Stands (2026)" },
   { href: "/guide/best-passive-mini-pc-cooling-stands", title: "Best Passive Mini PC Cooling Stands (2026)" },
-  { href: "/guide/best-aluminum-mini-pc-cooling-stands", title: "Best Aluminum Mini PC Cooling Stands (2026)" },
+  { href: "/guide/best-aluminum-mini-pc-cooling-stands", title: "Best Aluminum Mini PC Cooling Stands (2026)" }
 ];

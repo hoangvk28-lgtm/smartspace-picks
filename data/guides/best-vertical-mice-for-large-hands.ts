@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "best vertical mice for large hands";
 export const introParagraphs = [
   "A product labeled or perceived as suited to 'large hands' doesn't always provide genuine full-palm coverage. Some vertical mice are only marginally larger than standard-size options, which isn't the same as a body genuinely built to support a larger hand end to end. We checked actual dimensions where available and weighed buyer feedback specifically from larger-handed users rather than assuming size alone from a product photo.",
-  "Finger-to-button reach is also a distinct consideration from overall length or width. The vertical body height in particular determines whether your fingers rest naturally on the primary buttons or have to stretch, so we looked at that specifically rather than just overall footprint. Grip style matters too: a mouse that suits a palm grip well may feel different for a claw grip, and larger-handed buyers tend to favor palm grip more often, so we noted where that distinction is relevant.",
+  "Finger-to-button reach is also a distinct consideration from overall length or width. The vertical body height in particular determines whether your fingers rest naturally on the primary buttons or have to stretch, so we looked at that specifically rather than just overall footprint. Grip style matters too: a mouse that suits a palm grip well may feel different for a claw grip, and larger-handed buyers tend to favor palm grip more often, so we noted where that distinction is relevant."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Full-Palm Support Pick",
     name: "Logitech MX Vertical Wireless Mouse Ergonomic Design",
     price: "Check current price on Amazon",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "14,970 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Ig2YzI5iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07FNJB8TT?tag=deskfinds0d-20",
     description:
@@ -43,14 +43,14 @@ export const products: GuideProduct[] = [
     badge: "Best Established Full-Size Design",
     name: "Evoluent - World's Original Vertical Mouse, Wired Ergonomic Mouse",
     price: "$89.95",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "2,295 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31o5C5jFQAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00427TAIK?tag=deskfinds0d-20",
     description:
       "One of the longest-standing full-size vertical mouse designs in the category, with a body genuinely built for larger hands rather than a recent, untested size claim.\n\nThe wired connection eliminates battery weight, and the established design has a long track record of buyer feedback specifically addressing fit for larger hands.\n\nNo battery weight adds to the lighter overall feel. That said, premium price for a wired-only mouse. Neither should be a surprise once you know to look for it.",
     specs: ["Full-size established body design", "Wired USB connection", "No battery weight", "Premium price point"],
-    pros: ["Long-established full-size design with real large-hand fit feedback", "No battery weight adds to the lighter overall feel", "Solid 4.4-star rating across a meaningful sample", "Well-suited to palm grip users"],
+    pros: ["Long-established full-size design with real large-hand fit feedback", "No battery weight adds to the lighter overall feel", "Well-suited to palm grip users"],
     cons: ["Premium price for a wired-only mouse", "No wireless option", "Body height may not suit a claw grip"],
     bestFor: "Larger-handed buyers who want an established, well-reviewed full-size wired design.",
   },
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Mid-Size Pick",
     name: "Lekvey Ergonomic Mouse, Rechargeable Vertical Wireless Mouse",
     price: "$24.98",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "15,431 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31rCoH07kzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07BFCVJZC?tag=deskfinds0d-20",
     description:
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Wired Pick for Larger Hands",
     name: "TECKNET Wired Mouse, Comfortable Ergonomic Mouse with 6400 DPI",
     price: "$19.19",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "3,694 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31vAjZuq+pL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CMC1F5WB?tag=deskfinds0d-20",
     description:
@@ -94,15 +94,15 @@ export const products: GuideProduct[] = [
     badge: "Best 6-Button Pick for Larger Hands",
     name: "Razer Pro Click V2 Vertical Wireless Mouse, 6 Button Ergonomic Design",
     price: "$99.99",
-    rating: "4.0 stars from Amazon ratings",
-    reviews: "461 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41DVlxxe4WL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DVD5RTZ5?tag=deskfinds0d-20",
     description:
-      "A 6-button vertical body with a wireless connection, offering more programmable options for larger hands that have room to comfortably reach extra side buttons without an overextended grip.\n\nIts smaller review base and more moderate 4.0-star rating are worth weighing against the premium price and extra button count before choosing this over the better-reviewed picks above.\n\nThe standout detail is that rechargeable battery. Balancing that out, smaller review base and more moderate 4.0-star rating.",
+      "A 6-button vertical body with a wireless connection, offering more programmable options for larger hands that have room to comfortably reach extra side buttons without an overextended grip.\n\nThe standout detail is that rechargeable battery.",
     specs: ["6 programmable buttons", "Wireless connectivity", "Rechargeable battery", "Premium price point"],
     pros: ["More programmable buttons for larger hands to reach comfortably", "Rechargeable battery", "Ergonomic vertical body", "Software support for remapping"],
-    cons: ["Smaller review base and more moderate 4.0-star rating", "Premium price relative to its rating", "Body dimensions not independently confirmed as large-hand-specific"],
+    cons: [ "Premium price relative to its rating", "Body dimensions not independently confirmed as large-hand-specific"],
     bestFor: "Larger-handed buyers who want more programmable buttons within comfortable reach.",
   },
   {
@@ -111,8 +111,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick to Try First",
     name: "ProtoArc EM11 NL Wireless Ergonomic Vertical Mouse, Rechargeable",
     price: "$22.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "5,670 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31PGrLfkUxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CX18LHWS?tag=deskfinds0d-20",
     description:
@@ -128,15 +128,15 @@ export const products: GuideProduct[] = [
     badge: "Best Adjustable Positioning Pick",
     name: "KINESIS DXT2 Ergonomic Vertical Mouse (RF Wireless)",
     price: "$104.00",
-    rating: "4.1 stars from Amazon ratings",
-    reviews: "269 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/310x3mOUwBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00F0Y3IIW?tag=deskfinds0d-20",
     description:
-      "A specialist ergonomic design built around adjustable positioning, relevant to larger-handed buyers who want to fine-tune hand placement rather than accept one fixed body shape.\n\nThe premium price and a more moderate 4.1-star rating are worth weighing against the more mainstream, better-reviewed picks in this guide, and the brand's RF wireless connectivity is distinct from typical Bluetooth or 2.4GHz dongle setups.\n\nRF wireless connectivity. On the other hand, more moderate 4.1-star rating than other picks in this guide. Both are worth keeping in mind before deciding.",
+      "A specialist ergonomic design built around adjustable positioning, relevant to larger-handed buyers who want to fine-tune hand placement rather than accept one fixed body shape.\n\nRF wireless connectivity. Both are worth keeping in mind before deciding.",
     specs: ["Adjustable ergonomic positioning", "RF wireless connectivity", "Specialist ergonomic brand", "Premium price point"],
     pros: ["Adjustable positioning suits varied larger-hand shapes", "RF wireless connectivity", "Distinct design approach from mainstream vertical mice", "Specialist ergonomic brand with an established track record"],
-    cons: ["More moderate 4.1-star rating than other picks in this guide", "Premium price", "Body dimensions not independently confirmed as large-hand-specific"],
+    cons: [ "Premium price", "Body dimensions not independently confirmed as large-hand-specific"],
     bestFor: "Larger-handed buyers who want adjustable positioning from a specialist ergonomic brand.",
   },
   {
@@ -145,8 +145,8 @@ export const products: GuideProduct[] = [
     badge: "Best Pick With Extra Input Options",
     name: "zelotes Wired Gaming Mouse with Joystick, 10000 DPI, 11 Programmable Buttons",
     price: "$29.99",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "247 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31fim6uc3BL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0894QX7SK?tag=deskfinds0d-20",
     description:
@@ -155,7 +155,7 @@ export const products: GuideProduct[] = [
     pros: ["11 programmable buttons give larger hands more inputs to spread across", "Joystick control is a genuinely unique extra", "Wired connection avoids battery weight", "Budget-friendly price"],
     cons: ["Vertical tilt angle less documented than dedicated ergonomic picks", "Leans more gaming-oriented than purely ergonomic", "Smaller review sample than the top picks"],
     bestFor: "Larger-handed buyers who want extra input options and don't mind a gaming-oriented shape.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -163,7 +163,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine palm-support adequacy tested against large-hand claims", description: "We checked whether a pick provides real full-palm coverage rather than assuming any product labeled or perceived as large-hand-friendly does." },
   { title: "Finger-to-button reach checked via vertical body height", description: "We looked specifically at vertical body height, not just overall length or width, since that determines whether fingers rest naturally on the primary buttons." },
   { title: "Actual dimensions verified rather than assumed marginally bigger", description: "We distinguished picks genuinely built for larger hands from ones that are only marginally bigger than standard-size options." },
-  { title: "Grip style compatibility considered as a fit factor", description: "We noted where a pick suits a palm grip better than a claw grip, since larger-handed buyers more often favor palm grip." },
+  { title: "Grip style compatibility considered as a fit factor", description: "We noted where a pick suits a palm grip better than a claw grip, since larger-handed buyers more often favor palm grip." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -290,11 +290,11 @@ export const faq: FaqItem[] = [
   { q: "Do 'large hand' labeled vertical mice always fit large hands well?", a: "Not always. Some are only marginally bigger than standard options rather than genuinely built for full-palm coverage, so check actual dimensions and buyer feedback." },
   { q: "What matters more for large hands, mouse length or body height?", a: "Vertical body height matters more for finger-to-button reach, since it determines whether your fingers rest naturally on the primary buttons." },
   { q: "Is palm grip or claw grip better for large hands on a vertical mouse?", a: "Larger-handed buyers tend to favor a palm grip, and taller vertical mice generally suit that grip style better than a claw grip." },
-  { q: "Are there many genuinely large-hand-specific vertical mice?", a: "Fewer than you'd expect. Most vertical mice are designed around an average hand size, so check specifically for full-size, full-palm-support designs." },
+  { q: "Are there many genuinely large-hand-specific vertical mice?", a: "Fewer than you'd expect. Most vertical mice are designed around an average hand size, so check specifically for full-size, full-palm-support designs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-vertical-mice-for-small-hands", title: "Best Vertical Mice for Small Hands in 2026" },
   { href: "/guide/best-wired-vertical-mice", title: "Best Wired Vertical Mice in 2026" },
-  { href: "/guide/best-ergonomic-vertical-mice", title: "Best Ergonomic Vertical Mice in 2026" },
+  { href: "/guide/best-ergonomic-vertical-mice", title: "Best Ergonomic Vertical Mice in 2026" }
 ];

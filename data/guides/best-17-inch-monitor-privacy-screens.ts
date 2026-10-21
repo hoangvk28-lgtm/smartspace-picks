@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "17 inch monitor privacy screen";
 export const introParagraphs = [
   "17 inch is a genuinely smaller product pool than the more common 24 and 27 inch sizes, and it's also where a common mix-up happens: a 17 inch desktop monitor and a 17.3 inch laptop screen are different sizes that require different filters.",
-  "We confirmed three real 17 inch and 17.3 inch products, and we're calling out the size distinction explicitly since one of our confirmed picks specifically states it does not fit the other size.",
+  "We confirmed three real 17 inch and 17.3 inch products, and we're calling out the size distinction explicitly since one of our confirmed picks specifically states it does not fit the other size."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
@@ -75,7 +75,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Flagged the 17 inch versus 17.3 inch mix-up directly", description: "One of our confirmed picks explicitly states it does not fit 17.3 inch screens, and we made this distinction the central organizing point of this guide." },
   { title: "Disclosed the smaller confirmed product pool at this size", description: "17 inch has a genuinely smaller selection of dedicated desktop filters in current listings than 24 or 27 inch, and we said so rather than padding the list." },
   { title: "Verified exact active dimensions where listed", description: "We prioritized picks that state exact width and height rather than relying on the diagonal size claim alone." },
-  { title: "Separated desktop and laptop use cases clearly", description: "We labeled the 17.3 inch pick explicitly as a laptop filter, not a substitute for a 17 inch desktop monitor filter." },
+  { title: "Separated desktop and laptop use cases clearly", description: "We labeled the 17.3 inch pick explicitly as a laptop filter, not a substitute for a 17 inch desktop monitor filter." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -201,7 +201,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
-    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nThis matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
   }
 ];
 
@@ -210,11 +210,11 @@ export const faq: FaqItem[] = [
   { q: "What's the best option for a 17 inch desktop monitor?", a: "The Privacy Screen Filter for 17 Inches Desktop Computer Monitor for budget, or the TomDetm 17 Inch Monitor Privacy Screen if you want bundled blue-light filtering." },
   { q: "What's the best option for a 17.3 inch laptop?", a: "The SightPro 17.3 Inch 16:9 Laptop Privacy Screen Filter, which also has by far the largest review base in this comparison." },
   { q: "Why is the selection smaller than for 24 inch monitors?", a: "17 inch has fewer confirmed dedicated filter listings in current inventory than the more common 24 and 27 inch sizes." },
-  { q: "How do I know my monitor's exact size?", a: "Check the manufacturer's specifications or measure the active display area directly, rather than relying on the diagonal size printed on the box." },
+  { q: "How do I know my monitor's exact size?", a: "Check the manufacturer's specifications or measure the active display area directly, rather than relying on the diagonal size printed on the box." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-monitor-privacy-screens", title: "Best Laptop Monitor Privacy Screens (2026)" },
   { href: "/guide/best-19-inch-monitor-privacy-screens", title: "Best 19-Inch Monitor Privacy Screens (2026)" },
-  { href: "/guide/best-monitor-privacy-screens", title: "Best Monitor Privacy Screens (2026)" },
+  { href: "/guide/best-monitor-privacy-screens", title: "Best Monitor Privacy Screens (2026)" }
 ];

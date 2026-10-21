@@ -5,7 +5,7 @@ export const metaDescription = "5 USB-C docking monitors we evaluated, with a no
 export const mainKeyword = "usb-c docking monitor";
 export const introParagraphs = [
   "EDID emulation is a small but genuinely important feature, without it a docking monitor may not remember your window layout and resolution settings after you disconnect and reconnect your laptop, forcing you to rearrange windows every time.",
-  "A docking monitor's total downstream power budget is shared between charging your laptop and powering any connected peripherals, worth checking this budget against your actual peripheral setup rather than assuming everything can run at full power simultaneously.",
+  "A docking monitor's total downstream power budget is shared between charging your laptop and powering any connected peripherals, worth checking this budget against your actual peripheral setup rather than assuming everything can run at full power simultaneously."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     badge: "Best USB-C Docking Monitor Setup Overall",
     name: "AV Access iDock P10 KVM Docking Station 2 Monitors 2 PC, GbE, EDID, 65W PD",
     price: "$179.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41Du+XSAPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCXN5P3T?tag=deskfinds0d-20",
@@ -42,7 +42,7 @@ export const products: GuideProduct[] = [
     badge: "Best All-in-One Docking Monitor Pick",
     name: "ASUS 24\" USB-C Docking Monitor (BE249CGN) - IPS, 120Hz, Frameless, RJ45, Speakers, Height Adjustable",
     price: "$188.96",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41LA4JXX5oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FWHF97TT?tag=deskfinds0d-20",
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Monitor Docking Pick for Laptop and Desktop",
     name: "AV Access Dual Monitor KVM Docking Station for Laptop & Desktop (iDock C10)",
     price: "$225.61",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31KfwfvqAqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CW2JGRN4?tag=deskfinds0d-20",
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     badge: "Best Value Docking Station Pick",
     name: "AV Access Docking Station KVM Switch 2 Monitors 2 Laptops, 4K Dual Display",
     price: "$169.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41NY0yTE9kL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DD3X51XS?tag=deskfinds0d-20",
@@ -93,7 +93,7 @@ export const products: GuideProduct[] = [
     badge: "Best 4K Docking Pick for Two Laptops",
     name: "AV Access KVM Switch Dock 2 Monitors 2 Laptops, 4K KVM Switch Dual Monitor",
     price: "$233.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41e02xrYlyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP4PD3SM?tag=deskfinds0d-20",
@@ -103,7 +103,7 @@ export const products: GuideProduct[] = [
     pros: ["4K resolution support across dual monitors", "KVM switching between two laptops without cable swapping", "Robust feature set for a demanding dual-laptop setup", "Works with any monitor pair you choose"],
     cons: ["Higher price than simpler single-laptop docking solutions", "Verify EDID emulation behavior through current reviews", "Requires separate monitors, not all-in-one"],
     bestFor: "Buyers wanting premium 4K dual-monitor docking with seamless two-laptop switching",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -111,7 +111,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "EDID emulation support checked where explicitly documented", description: "Checked whether EDID emulation is explicitly documented, since without it a docking setup may not remember window layout and resolution across disconnect cycles." },
   { title: "Downstream power budget considered against typical peripheral loads", description: "Considered a dock's total downstream power budget against typical peripheral loads, since laptop charging and peripheral power are often shared from one budget." },
   { title: "All-in-one versus dock-plus-monitor flexibility weighed", description: "Weighed the simplicity of an all-in-one docking monitor against the flexibility of a separate dock paired with monitors of your choosing." },
-  { title: "KVM switching capability valued for multi-device workflows", description: "Valued genuine KVM switching capability for buyers running multiple laptops or a laptop-and-desktop combination who want to avoid manual cable swapping." },
+  { title: "KVM switching capability valued for multi-device workflows", description: "Valued genuine KVM switching capability for buyers running multiple laptops or a laptop-and-desktop combination who want to avoid manual cable swapping." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -240,11 +240,11 @@ export const faq: FaqItem[] = [
   { q: "Should I buy an all-in-one docking monitor or a separate dock?", a: "An all-in-one is simpler to set up, a separate dock gives you flexibility to pair it with monitors you already own or prefer." },
   { q: "Is KVM switching worth it for a docking setup?", a: "If you run multiple laptops or a laptop-and-desktop combination, yes, it lets you switch devices without manually swapping cables." },
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers wanting explicit EDID emulation for a seamless reconnect experience" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers switching between two laptops on dual 4K displays At $169.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers switching between two laptops on dual 4K displays At under $170, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-usb-c-monitors-with-usb-hubs", title: "Best USB-C Monitors with USB Hubs (2026)" },
   { href: "/guide/best-usb-c-monitors-with-kvm-switches", title: "Best USB-C Monitors with KVM Switches (2026)" },
-  { href: "/guide/best-kvm-docking-stations", title: "Best KVM Docking Stations (2026)" },
+  { href: "/guide/best-kvm-docking-stations", title: "Best KVM Docking Stations (2026)" }
 ];

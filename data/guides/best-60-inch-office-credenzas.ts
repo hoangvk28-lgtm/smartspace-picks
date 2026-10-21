@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     description: "ComfyCorner 60\" Buffet Cabinet with Storage, Sideboard Buffet Table Black and is built around ample buffet cabinet with storage, positioning it for 60 inch buyers specifically.\n\nVersatile Credenza Storage Cabinet is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 60 inch, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Ample Buffet Cabinet with Storage","Versatile Credenza Storage Cabinet","Sturdy Sideboard Buffet Cabinet"],
     pros: ["Ample Buffet Cabinet with Storage, confirmed directly in the listing's own spec details","Versatile Credenza Storage Cabinet, confirmed directly in the listing's own spec details","Sturdy Sideboard Buffet Cabinet, confirmed directly in the listing's own spec details"],
-    cons: ["At $199.99, worth comparing against similarly specced office credenzas before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $200, worth comparing against similarly specced office credenzas before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 60 inch",
   }
 
@@ -210,40 +210,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $179.99",
+          "Under $180",
           "60\" Buffet Cabinet with Storage"
         ],
         [
-          "Around $199.99",
+          "Under $200",
           "ComfyCorner 60\" Buffet Cabinet with Storage"
         ],
         [
-          "Around $204.82",
+          "Under $250",
           "SAVOR LIFE 60-Inch Sideboard Buffet Cabinet with Glass Doors"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "63'' Sideboard Buffet Cabinet with 4 Sliding Doors"
         ],
         [
-          "Around $279.99",
+          "Under $300",
           "67\" Fluted Walnut Buffet Cabinet with Storage"
         ],
         [
-          "Around $287.99",
+          "Under $300",
           "ModernMate 60\" File Cabinet with Drawers & Door"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "ModernMate 60\" Lateral File Cabinet with 3 Drawers"
         ],
         [
-          "Around $359.99",
+          "Under $400",
           "ModernMate 63\" Lateral File Cabinet with Lock"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -291,7 +291,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", "a": "ModernMate 60\" File Cabinet with Drawers & Door is aimed at buyers prioritizing 60in wide, 6 open compartments, 3 drawers" },
+  { "q": "What's the single best pick to come out of this comparison?", "a": "ModernMate 60\" File Cabinet with Drawers & Door is aimed at buyers prioritizing 60in wide, 6 open compartments, 3 drawers" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-72-inch-office-credenzas","title":"Best 72-Inch Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"}];

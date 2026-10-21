@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "art deco desk clock";
 export const introParagraphs = [
   "Art deco design means bold geometric symmetry, stepped or fan shapes, and often polished stone, chrome, or brass accents. We researched our verified inventory specifically for this look and, like mid-century modern, industrial, and nautical desk clocks, found it to be a thin category, mainstream clock listings rarely commit to a specific historical design movement.",
-  "We're covering one pick here with a genuine premium material, polished marble, that echoes the luxe materiality art deco pieces often use, while being explicit that the listing doesn't market it as art deco styled. See our mid-century modern desk clocks guide for the same honest treatment applied to a different niche style, both share the same underlying inventory gap.",
+  "We're covering one pick here with a genuine premium material, polished marble, that echoes the luxe materiality art deco pieces often use, while being explicit that the listing doesn't market it as art deco styled. See our mid-century modern desk clocks guide for the same honest treatment applied to a different niche style, both share the same underlying inventory gap."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "5 min";
@@ -43,7 +43,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine art deco styled products searched for and not found", description: "Searched our verified inventory specifically for stepped geometric shapes, fan motifs, and chrome or brass accents and did not find a genuine match." },
   { title: "Declined to relabel a premium clock as art deco styled", description: "Avoided stretching a marble clock's premium material into a claim of specific historical styling the listing itself does not make." },
   { title: "Included one alternative only with a clear caveat", description: "Kept a single closest-available pick based on genuine material quality rather than omitting product coverage entirely." },
-  { title: "Cross-referenced the other thin style-niche guides", description: "Connected this guide to the mid-century modern, industrial, and nautical desk clock searches, all sharing the same underlying inventory gap." },
+  { title: "Cross-referenced the other thin style-niche guides", description: "Connected this guide to the mid-century modern, industrial, and nautical desk clock searches, all sharing the same underlying inventory gap." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -61,7 +61,7 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $95.00",
+          "Under $100",
           "Luxurious Marble Desk Clock"
         ]
       ]
@@ -102,7 +102,7 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "Here's what you get for $95.00: Genuine polished marble material, echoing art deco's luxe material use. If that's what you're after, the tradeoffs in its cons list probably won't bother you either."
+        "text": "Here's what you get for under $100: Genuine polished marble material, echoing art deco's luxe material use. If that's what you're after, the tradeoffs in its cons list probably won't bother you either."
       },
       {
         "label": "Save if",
@@ -138,11 +138,11 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "Why don't you have more art deco desk clock picks?", a: "Our verified product research did not turn up genuine art deco styled desk clocks. Rather than mislabel a generic clock, we're covering the gap honestly with one closest available alternative." },
   { q: "Is the Luxurious Marble Desk Clock actually art deco styled?", a: "No. It's a premium marble clock we're including as the closest available alternative for material quality, clearly caveated as not genuinely art deco styled." },
-  { q: "Where can I find a genuine art deco desk clock?", a: "Dedicated decor and antique-style retailers, or a more specific search like \"art deco clock\" rather than \"desk clock,\" tend to surface more style-committed results." },
+  { q: "Where can I find a genuine art deco desk clock?", a: "Dedicated decor and antique-style retailers, or a more specific search like \"art deco clock\" rather than \"desk clock,\" tend to surface more style-committed results." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mid-century-modern-desk-clocks", title: "Mid-Century Modern Desk Clocks in 2026" },
   { href: "/guide/best-executive-desk-clocks", title: "Best Executive Desk Clocks (2026)" },
-  { href: "/guide/best-minimalist-desk-clocks", title: "Best Minimalist Desk Clocks (2026)" },
+  { href: "/guide/best-minimalist-desk-clocks", title: "Best Minimalist Desk Clocks (2026)" }
 ];

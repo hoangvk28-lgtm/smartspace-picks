@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This hub's 4 Thunderbolt 5/USB4 v2 ports each support up to 64Gb/s PCIe for 6,200MB/s performance with ultra-fast Thunderbolt SSDs, while the overall dock delivers 80Gb/s standard performance with a Bandwidth Boost feature that shifts up to 120Gb/s to displays automatically when high-refresh monitors are connected. Its Offline Charging feature specifically lets you charge connected devices even when the hub isn't connected to a host computer.\n\nCompared to the other picks in this comparison, this one's 180W power supply provides sustained 90W power delivery across all 9 total ports simultaneously with no slow drain or loss of charge as more devices connect. Its listing specifically discloses that base M1-M3 Macs do not support dual displays, while triple displays require a Windows Thunderbolt 5 host specifically.\n\nBest for buyers who want the highest per-port bandwidth with sustained power delivery across every connected device.",
     specs: ["4x Thunderbolt 5/USB4 v2 ports, 80Gb/s + 120Gb/s Bandwidth Boost", "90W sustained power delivery across 9 total ports", "Offline Charging without a host computer connected"],
     pros: ["Highest per-port bandwidth in this comparison at up to 64Gb/s PCIe", "Offline Charging works without a host computer connected", "Sustained 90W power delivery across all 9 ports simultaneously"],
-    cons: ["Highest price in this comparison at $249.99", "Full functionality requires a Thunderbolt 5 or USB4 v2 host"],
+    cons: ["Highest price in this comparison at under $250", "Full functionality requires a Thunderbolt 5 or USB4 v2 host"],
     bestFor: "buyers who want the highest per-port bandwidth with sustained power across every device",
   },
   {
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The highest per-port bandwidth with sustained power", "CalDigit E5 Thunderbolt 5 Element 5 Hub"],
         ["A simple 4-port hub without extra peripheral ports", "OWC Thunderbolt Hub 5-Port"],
         ["A travel-friendly, compact 4-port dock", "Amazon Basics Thunderbolt 4 Pro Docking Station"],
-        ["A complete 8-in-1 solution with a bundled charger", "UGREEN 8-in-1 Thunderbolt 4 Docking Station"],
+        ["A complete 8-in-1 solution with a bundled charger", "UGREEN 8-in-1 Thunderbolt 4 Docking Station"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $130", "OWC Thunderbolt Hub 5-Port ($129.99)"],
-        ["Under $180", "UGREEN 8-in-1 ($179.99)"],
-        ["Under $215", "Amazon Basics Thunderbolt 4 Pro ($213.75)"],
-        ["Under $250", "CalDigit E5 ($249.99)"],
+        ["Under $130", "OWC Thunderbolt Hub 5-Port (under $130)"],
+        ["Under $180", "UGREEN 8-in-1 (under $180)"],
+        ["Under $215", "Amazon Basics Thunderbolt 4 Pro (under $250)"],
+        ["Under $250", "CalDigit E5 (under $250)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Simple 4-Port Hub vs Full-Featured Multi-Peripheral Dock",
     cards: [
       { label: "Simple 4-port hub (OWC)", text: "Focuses purely on the core Thunderbolt/USB4 expansion without extra peripheral ports, at a lower price." },
-      { label: "Full-featured dock (CalDigit E5, UGREEN 8-in-1)", text: "Adds Ethernet, card readers, and additional USB-A ports alongside the 4 Thunderbolt/USB4 connections for a more complete desk setup." },
+      { label: "Full-featured dock (CalDigit E5, UGREEN 8-in-1)", text: "Adds Ethernet, card readers, and additional USB-A ports alongside the 4 Thunderbolt/USB4 connections for a more complete desk setup." }
     ],
     note: "If you specifically need only Thunderbolt/USB4 expansion for SSDs and displays, the OWC hub's focused design saves money. If you want one dock to cover networking and additional peripherals too, the CalDigit or UGREEN picks are more complete.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your usage pattern", "Recommended pick"],
       rows: [
         ["Permanent desk setup with maximum bandwidth", "CalDigit E5"],
-        ["Travel between locations regularly", "Amazon Basics Thunderbolt 4 Pro Docking Station"],
+        ["Travel between locations regularly", "Amazon Basics Thunderbolt 4 Pro Docking Station"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For SSD-Heavy Storage Workflows Specifically",
     cards: [
       { label: "Look for", text: "The highest stated per-port PCIe bandwidth figure, since connecting multiple Thunderbolt SSDs simultaneously benefits directly from each port's individual maximum throughput." },
-      { label: "In this comparison", text: "The CalDigit E5 specifically states each of its 4 Thunderbolt 5 ports supports up to 6,200MB/s performance for ultra-fast Thunderbolt SSDs." },
+      { label: "In this comparison", text: "The CalDigit E5 specifically states each of its 4 Thunderbolt 5 ports supports up to 6,200MB/s performance for ultra-fast Thunderbolt SSDs." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want the highest per-port bandwidth with sustained power across every connected device, where the CalDigit E5 justifies its $249.99 price." },
-      { label: "Save if", text: "You just need a straightforward 4-port Thunderbolt hub without extra features, where the OWC pick delivers that for $129.99." },
+      { label: "Spend more if", text: "You want the highest per-port bandwidth with sustained power across every connected device, where the CalDigit E5 justifies its under $250 price." },
+      { label: "Save if", text: "You just need a straightforward 4-port Thunderbolt hub without extra features, where the OWC pick delivers that for under $130." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -209,36 +209,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $179.99",
+          "Under $180",
           "Tribesigns 6FT Boat-Shaped Conference Table"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "Tribesigns 6FT Boat-Shaped Conference Table"
         ],
         [
-          "Around $197.99",
+          "Under $200",
           "YITAHOME 94.5\" Boat Shaped Conference Table with Power Outlets"
         ],
         [
-          "Around $236.99",
+          "Under $250",
           "YITAHOME 70.8\" Boat Shaped Conference Table with Power Outlets"
         ],
         [
-          "Around $254.99",
+          "Under $300",
           "Tribesigns 8FT Boat-Shaped Conference Table"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "Tribesigns 8FT Boat-Shaped Conference Table"
         ],
         [
-          "Around $1,128.95",
+          "Under $1,200",
           "Mayline Aberdeen 6' Boat-Shaped Conference Table"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -286,7 +286,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns 8FT Boat-Shaped Conference Table is aimed at buyers prioritizing 94.5\"l x 47.24\"w x 29.52\"h boat-shaped top." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns 8FT Boat-Shaped Conference Table is aimed at buyers prioritizing 94.5\"l x 47.24\"w x 29.52\"h boat-shaped top." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-rectangular-conference-tables","title":"Best Rectangular Conference Tables in 2026"},{"href":"/guide/best-oval-conference-tables","title":"Best Oval Conference Tables in 2026"},{"href":"/guide/best-round-conference-tables","title":"Best Round Conference Tables in 2026"}];

@@ -12,7 +12,7 @@ export const singleCableVsDualCableDockingGuide: Guide = {
     "single cable docking station setup",
     "why does my dock need two cables",
     "usb-c dock power limitation",
-    "docking station second cable needed",
+    "docking station second cable needed"
   ],
   heroImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const singleCableVsDualCableDockingGuide: Guide = {
     "docking-station-vs-usb-hub",
     "usb-c-power-delivery-explained",
     "thunderbolt-vs-usb-c-explained",
-    "docking-station-troubleshooting",
+    "docking-station-troubleshooting"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const singleCableVsDualCableDockingGuide: Guide = {
       question: "How do I know if a dock needs a second cable before I buy it?",
       answer:
         "Check the product listing's technical specifications or connection diagram, docks requiring a second power cable typically state this clearly since it's relevant setup information buyers need before purchasing.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const singleCableVsDualCableDockingGuide: Guide = {
     {
       heading: "Checking Your Actual Needs Before Buying",
       body: `If your setup involves a single monitor and standard peripherals, a single-cable dock almost certainly covers your needs without complication. If you're planning dual high-resolution monitors or know your laptop's port has more limited power delivery, check the specific dock's connection requirements in its documentation before buying, so you're not surprised by an unexpected second cable requirement after purchase.`,
-    },
+    }
   ],
 };

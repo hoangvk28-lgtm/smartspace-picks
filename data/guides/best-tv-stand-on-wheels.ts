@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     description: "This tall cart is built for standing presentations, video conferencing, and classrooms rather than living rooms. It supports 37 to 70 inch TVs up to 110 lbs and tilts plus or minus 10 degrees to cut glare from overhead lights. Two of the four heavy-duty casters lock firmly for stability while presenting or gaming. A dual-shelf design separates a 22 lb mid-level A/V shelf from a dedicated upper webcam tray, which most single-shelf carts do not offer. Mount-It backs the frame with a lifetime warranty, longer than most competitors in this category, and setup takes 30 to 45 minutes with labeled hardware and video instructions. Worth calling out specifically: lifetime frame warranty. The catch is pricing is mid-range pricing.",
     specs: ["37-70\" TVs, up to 110 lbs", "Tilts ±10°", "2 locking casters", "Dual shelf + webcam tray", "VESA up to 600x400mm", "Lifetime warranty"],
     pros: ["Dedicated webcam tray plus A/V shelf", "Lifetime frame warranty", "Tilt reduces glare during presentations", "Rolls on hardwood, tile, and outdoor surfaces"],
-    cons: ["$136.99 is mid-range pricing", "Only half the casters lock", "70\" max TV size, smaller than some rivals"],
+    cons: ["under $140 is mid-range pricing", "Only half the casters lock", "70\" max TV size, smaller than some rivals"],
     bestFor: "Conference rooms, classrooms, and home offices running frequent video calls or presentations.",
   },
   {
@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     description: "PERLESMITH's cart covers the widest TV size range in this roundup, 32 to 85 inches, though weight capacity tops out at 100 lbs, slightly below the 110 lb carts at similar price points. Hollow vertical tubes route cables internally instead of leaving them exposed, and the mount tilts -10 to +5 degrees for glare control. Lockable caster wheels keep the cart stationary once positioned, and height adjusts from about 39 to 59 inches. A camera shelf sits above the main A/V shelf for a webcam or small conferencing device. No wall drilling is required, making this a straightforward option for renters who still want a large-screen setup. A genuine advantage here is that internal cable routing hides cords. The tradeoff is competitively priced, the priciest pick here.",
     specs: ["32-85\" TVs, up to 100 lbs", "39.37\"-59.06\" height", "Lockable caster wheels", "Tilts -10°/+5°", "Internal cable routing", "Camera shelf + A/V shelf"],
     pros: ["Widest TV size range, up to 85 inches", "Internal cable routing hides cords", "No wall drilling needed", "Separate camera shelf"],
-    cons: ["$189.99, the priciest pick here", "100 lb capacity lower than similarly priced rivals", "Base width not listed for stability comparison"],
+    cons: ["under $190, the priciest pick here", "100 lb capacity lower than similarly priced rivals", "Base width not listed for stability comparison"],
     bestFor: "Buyers with a large-screen TV who want the widest documented size compatibility in a rolling stand.",
   },
   {
@@ -123,7 +123,7 @@ export const products: GuideProduct[] = [
     description: "This is the heavy-duty option in the roundup, built from heavy-gauge welded steel with a wide base to support TVs from 55 up to 120 inches and as much as 250 lbs, more than double the capacity of most rolling stands here. VESA compatibility extends to 800x600mm, covering large commercial and home theater displays that smaller carts cannot mount. The wheels are upgraded, 360-degree swivel casters with a lock feature that prevents side-to-side drift, important given how much more mass this cart moves compared to a standard 32 to 75 inch stand. A height-adjustable shelf holds up to 44 lbs of components, and the price reflects the larger frame and higher-grade steel. Fits screens up to 120 inches. On the other hand, a competitive price, most expensive pick here. Neither should be a surprise once you know to look for it.",
     specs: ["55-120\" TVs, up to 250 lbs", "VESA up to 800x600mm", "Locking swivel casters", "Height-adjustable 44 lb shelf", "Heavy-gauge welded steel", "Wide stability base"],
     pros: ["250 lb capacity, highest in this roundup", "Fits screens up to 120 inches", "Wide base improves tip-over resistance", "Locking casters prevent drift under heavy load"],
-    cons: ["$249.99, most expensive pick here", "Overkill for a single 55 inch TV", "Larger footprint needs more floor clearance"],
+    cons: ["under $250, most expensive pick here", "Overkill for a single 55 inch TV", "Larger footprint needs more floor clearance"],
     bestFor: "Large-screen or commercial displays where standard rolling stands do not have enough rated capacity.",
   },
   {
@@ -157,7 +157,7 @@ export const products: GuideProduct[] = [
     pros: ["Only pick here with landscape-to-portrait rotation", "All wheels lock", "Iron base reduces breakage risk vs glass", "40° swivel for flexible viewing angles"],
     cons: ["88 lb capacity, lower than fixed-orientation rivals at this price", "75\" max TV size is smaller than several competitors", "Rotating mechanism adds a moving part that can wear over time"],
     bestFor: "Content creators, gamers, or retail displays that need portrait-mode rotation, not just side-to-side rolling.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -189,11 +189,11 @@ export const faq: { q: string; a: string }[] = [
   { q: "Will a rolling TV stand tip over?", a: "It can, especially with a narrow base, an off-center TV, or rolling over an uneven threshold like a door strip. Choose a stand with a documented wide base footprint and stay within the rated weight capacity. Locking the wheels once the cart is positioned also reduces drift that can contribute to tipping." },
   { q: "Do rolling TV stands work on carpet?", a: "Most will, but wheel size and material matter. Large rubber wheels roll over carpet pile more easily than small hard plastic casters, which can catch and make the cart harder to push in a straight line. If your room is fully carpeted, favor a model with larger wheels rather than the smallest, lightest casters." },
   { q: "What is the difference between a rolling TV stand and a fixed TV cart for presentations?", a: "Presentation-focused rolling carts, like the Mount-It Tall Mobile TV Cart in this guide, typically add tilt adjustment, a taller height range, and a dedicated webcam or camera tray on top of the standard A/V shelf. A basic living-room rolling stand usually skips the tilt and camera tray in favor of a lower price and shorter height range." },
-  { q: "Can I mount any TV on a rolling stand?", a: "Only if your TV's VESA hole pattern falls within the stand's supported range, commonly 100x100mm up to 600x400mm on the models in this guide, and your TV's actual weight is under the stand's rated capacity. Screen size alone does not guarantee compatibility, since VESA pattern and weight vary by TV model even at the same screen size." },
+  { q: "Can I mount any TV on a rolling stand?", a: "Only if your TV's VESA hole pattern falls within the stand's supported range, commonly 100x100mm up to 600x400mm on the models in this guide, and your TV's actual weight is under the stand's rated capacity. Screen size alone does not guarantee compatibility, since VESA pattern and weight vary by TV model even at the same screen size." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-tv-stand-for-55-inch-tv", title: "Best TV Stands for 55 Inch TVs (2026)" },
   { href: "/guide/best-cable-management-boxes-for-desks", title: "Best Cable Management Boxes for Desks (2026)" },
-  { href: "/guide/best-under-desk-storage-drawers", title: "Best Under Desk Storage Drawers (2026)" },
+  { href: "/guide/best-under-desk-storage-drawers", title: "Best Under Desk Storage Drawers (2026)" }
 ];

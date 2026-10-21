@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41uVNtRQfHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07Y8THDMW?tag=deskfinds0d-20",
-    description: "A shallower 32-inch-deep alternative to Sysracks' 39-inch cabinet, still packing four roof-mounted fans and an 8-way PDU for a rack rated to hold 1600 lbs static.\n\nThe front glass door is perforated for extra airflow while the rear stays solid metal, splitting the difference between visibility up front and dust protection in back.\n\nWhat stands out here is 1600 lb static rating handles a dense server stack, plus 8-way PDU included instead of bought separately. The main tradeoff: 32\" depth is still tight for some full servers, so weigh that against the $1,250.10 price before buying.",
+    description: "A shallower 32-inch-deep alternative to Sysracks' 39-inch cabinet, still packing four roof-mounted fans and an 8-way PDU for a rack rated to hold 1600 lbs static.\n\nThe front glass door is perforated for extra airflow while the rear stays solid metal, splitting the difference between visibility up front and dust protection in back.\n\nWhat stands out here is 1600 lb static rating handles a dense server stack, plus 8-way PDU included instead of bought separately. The main tradeoff: 32\" depth is still tight for some full servers, so weigh that against the under $1,300 price before buying.",
     specs: ["42U, 32\" deep, 1600 lb static rating","4 roof-mounted fans, 8-way PDU","Perforated glass front, solid metal rear door"],
     pros: ["1600 lb static rating handles a dense server stack","8-way PDU included instead of bought separately","Perforated front door boosts airflow without losing visibility"],
     cons: ["32\" depth is still tight for some full servers","Casters need leveling feet for a permanent install"],
@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31rbqK+-O9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BSB242CM?tag=deskfinds0d-20",
-    description: "The smallest wall cabinet in Tecmojo's lineup, this 6U model is meant for a handful of switches and a small NAS rather than anything server-sized.\n\nIt shares the same reversible door and lockable side panel design as the larger 12U and 18U versions, so the security features don't shrink along with the unit.\n\nWhat stands out here is small footprint fits tight home office closets, plus reversible door swing matches either wall layout. The main tradeoff: 6U ceiling limits you to a handful of devices, so weigh that against the $99.90 price before buying.",
+    description: "The smallest wall cabinet in Tecmojo's lineup, this 6U model is meant for a handful of switches and a small NAS rather than anything server-sized.\n\nIt shares the same reversible door and lockable side panel design as the larger 12U and 18U versions, so the security features don't shrink along with the unit.\n\nWhat stands out here is small footprint fits tight home office closets, plus reversible door swing matches either wall layout. The main tradeoff: 6U ceiling limits you to a handful of devices, so weigh that against the under $100 price before buying.",
     specs: ["6U, 13.78\"H x 21.65\"W x 17.72\"D","110 lb capacity","Lockable glass door, cooling fan"],
     pros: ["Small footprint fits tight home office closets","Reversible door swing matches either wall layout","Cooling fan included despite the compact size"],
     cons: ["6U ceiling limits you to a handful of devices","Not deep enough for full-size server chassis"],
@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $99.90",
+          "Under $100",
           "Tecmojo 6U Wall Mount Server Cabinet"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "AxcessAbles 12U Network Rack with Wheels"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "AxcessAbles 22U Rolling IT Server Rack"
         ],
         [
-          "Around $876.99",
+          "Under $900",
           "StarTech 22U 4-Post Server Cabinet"
         ],
         [
-          "Around $1,250.10",
+          "Under $1,300",
           "Sysracks 42U Server Rack Cabinet"
         ],
         [
-          "Around $1,389.00",
+          "Under $1,400",
           "Sysracks 42U Server Rack Cabinet"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Sysracks 42U Server Rack Cabinet is aimed at buyers prioritizing 42u, 39\" deep enclosure." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Sysracks 42U Server Rack Cabinet is aimed at buyers prioritizing 42u, 39\" deep enclosure." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-lockable-server-racks","title":"Best Lockable Server Racks in 2026"},{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"}];

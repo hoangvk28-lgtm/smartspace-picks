@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "best vertical mice";
 export const introParagraphs = [
   "\"Vertical mouse\" is not one design. The actual tilt angle, body size, and button layout vary a lot between products marketed identically as ergonomic, and those differences, not the vertical shape itself, are what determine whether a specific mouse fits your hand. Check the listing photos and specs for the approximate degree of tilt and the stated hand-size fit before assuming any vertical mouse will feel the same as another.",
-  "Expect a real adjustment period after switching, typically one to three weeks, during which your accuracy and speed with the new grip can temporarily drop below what you were used to with a standard mouse. This is rarely mentioned in marketing that implies instant comfort and productivity gains. Most vertical mice are also sized for an average to large hand, so if you have smaller or larger hands, pay closer attention to the size-specific picks in this guide rather than assuming a one-size-fits-all claim applies to you.",
+  "Expect a real adjustment period after switching, typically one to three weeks, during which your accuracy and speed with the new grip can temporarily drop below what you were used to with a standard mouse. This is rarely mentioned in marketing that implies instant comfort and productivity gains. Most vertical mice are also sized for an average to large hand, so if you have smaller or larger hands, pay closer attention to the size-specific picks in this guide rather than assuming a one-size-fits-all claim applies to you."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Value",
     name: "Anker 2.4G Wireless Ergonomic Mouse, Right Hand Vertical Mouse USB Receiver",
     price: "$19.98",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "53,313 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31z5JT0yL+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BIFNTMC?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best Premium Pick",
     name: "Logitech MX Vertical Wireless Mouse Ergonomic Design",
     price: "Check current price on Amazon",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "14,970 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Ig2YzI5iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07FNJB8TT?tag=deskfinds0d-20",
     description:
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best Rechargeable Budget Pick",
     name: "Lekvey Ergonomic Mouse, Rechargeable Vertical Wireless Mouse",
     price: "$24.98",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "15,431 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31rCoH07kzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07BFCVJZC?tag=deskfinds0d-20",
     description:
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Precision Work",
     name: "Logitech Lift Vertical Ergonomic Wireless Mouse",
     price: "$57.40",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "13,635 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31nb5ALnDvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09J1TB35S?tag=deskfinds0d-20",
     description:
@@ -94,14 +94,14 @@ export const products: GuideProduct[] = [
     badge: "Best Established Wired Design",
     name: "Evoluent - World's Original Vertical Mouse, Wired Ergonomic Mouse",
     price: "$89.95",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "2,295 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31o5C5jFQAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00427TAIK?tag=deskfinds0d-20",
     description:
       "One of the longest-standing designs in the vertical mouse category, wired rather than wireless, which eliminates battery weight entirely for a lighter, more consistent feel in hand over long sessions.\n\nThe premium price reflects an established, well-reviewed design rather than a newer untested one. Buyers who want a wireless option should look elsewhere in this guide, since this model is wired-only.\n\nLong-established, well-reviewed design. That said, premium price for a wired-only mouse. Neither should be a surprise once you know to look for it.",
     specs: ["Wired USB connection", "Fixed ergonomic tilt angle", "No battery, lighter body", "Premium price point"],
-    pros: ["No battery weight, a genuine ergonomic advantage", "Long-established, well-reviewed design", "Consistent 4.4-star rating across a meaningful sample", "Fixed angle avoids weight changes over time"],
+    pros: ["No battery weight, a genuine ergonomic advantage", "Long-established, well-reviewed design", "Fixed angle avoids weight changes over time"],
     cons: ["Premium price for a wired-only mouse", "No wireless option", "Cable drag on the tilted body possible, check buyer feedback"],
     bestFor: "Buyers who want an established, well-reviewed wired design and don't need wireless freedom.",
   },
@@ -111,8 +111,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Rechargeable Wireless Pick",
     name: "ProtoArc EM11 NL Wireless Ergonomic Vertical Mouse, Rechargeable",
     price: "$22.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "5,670 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31PGrLfkUxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CX18LHWS?tag=deskfinds0d-20",
     description:
@@ -128,8 +128,8 @@ export const products: GuideProduct[] = [
     badge: "Best Mid-Range Wired Pick",
     name: "Anker USB Wired Vertical Mouse, Ergonomic Mouse for Computer and Laptop",
     price: "$25.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "9,039 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41h3oxMYtPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00FPAVUHC?tag=deskfinds0d-20",
     description:
@@ -145,8 +145,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Wired Pick",
     name: "TECKNET Wired Mouse, Comfortable Ergonomic Mouse with 6400 DPI",
     price: "$19.19",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "3,694 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31vAjZuq+pL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CMC1F5WB?tag=deskfinds0d-20",
     description:
@@ -155,7 +155,7 @@ export const products: GuideProduct[] = [
     pros: ["Lowest price in this guide", "Adjustable DPI sensor", "No battery weight", "Strong review rating for the price"],
     cons: ["Standard rather than braided cable, may move less freely", "No wireless option", "Fewer established years on the market than the Evoluent design"],
     bestFor: "Budget-conscious buyers who want a wired vertical mouse with adjustable DPI at the lowest price in this guide.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -163,7 +163,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Vertical angle and body size disclosed per product", description: "We checked stated tilt angle and body dimensions for each pick rather than treating 'vertical' as a single interchangeable design." },
   { title: "Adjustment period expectations set explicitly", description: "We weighed how steep each mouse's angle is against the likely length of the one to three week adjustment period buyers should expect." },
   { title: "Hand-size fit checked against a range of buyers", description: "We looked at whether each pick is marketed and reviewed as suiting average, smaller, or larger hands rather than assuming a universal fit." },
-  { title: "Cross-brand spec comparability flagged where relevant", description: "We noted where spec sheets alone can't substitute for a hands-on trial, since angle and comfort ratings aren't standardized across brands." },
+  { title: "Cross-brand spec comparability flagged where relevant", description: "We noted where spec sheets alone can't substitute for a hands-on trial, since angle and comfort ratings aren't standardized across brands." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -294,11 +294,11 @@ export const faq: FaqItem[] = [
   { q: "How long does it take to get used to a vertical mouse?", a: "Most buyers report a one to three week adjustment period where accuracy and speed are temporarily lower than with a standard mouse before comfort improves." },
   { q: "Do all vertical mice have the same tilt angle?", a: "No, tilt angle varies significantly by product. Check the specific listing for the stated angle rather than assuming all vertical mice feel the same." },
   { q: "Are vertical mice good for smaller hands?", a: "Many vertical mice are sized for average to large hands. If you have smaller hands, look for a guide or listing that specifically addresses hand-size fit." },
-  { q: "Is a more expensive vertical mouse always better?", a: "Not necessarily. Higher prices often reflect build materials, connectivity options, and software rather than a fundamentally different ergonomic mechanism." },
+  { q: "Is a more expensive vertical mouse always better?", a: "Not necessarily. Higher prices often reflect build materials, connectivity options, and software rather than a fundamentally different ergonomic mechanism." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-ergonomic-vertical-mice", title: "Best Ergonomic Vertical Mice in 2026" },
   { href: "/guide/best-wireless-vertical-mice", title: "Best Wireless Vertical Mice in 2026" },
-  { href: "/guide/best-vertical-mice-for-small-hands", title: "Best Vertical Mice for Small Hands in 2026" },
+  { href: "/guide/best-vertical-mice-for-small-hands", title: "Best Vertical Mice for Small Hands in 2026" }
 ];

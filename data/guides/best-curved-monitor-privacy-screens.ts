@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "curved monitor privacy screen";
 export const introParagraphs = [
   "A standard flat privacy filter does not sit flush against a curved monitor. We only included products in this comparison that explicitly confirm curved compatibility, most of them sized for 34 inch 21:9 ultrawide curved monitors, the most common curved format.",
-  "This is a genuinely narrower product pool than the flat-monitor filter categories in our broader research; if your curved monitor is a size or aspect ratio not covered here, verify curved compatibility directly on the listing before assuming a flat filter from another guide will work.",
+  "This is a genuinely narrower product pool than the flat-monitor filter categories in our broader research; if your curved monitor is a size or aspect ratio not covered here, verify curved compatibility directly on the listing before assuming a flat filter from another guide will work."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required explicit curved compatibility for eligibility", description: "We excluded standard flat filters even at matching diagonal sizes, since a flat filter does not conform properly to a curved panel." },
   { title: "Disclosed the narrower product pool honestly", description: "Curved-compatible filters are a genuinely smaller category than flat-monitor filters in our research, and we said so rather than padding the list with flat alternatives." },
   { title: "Distinguished 34 inch ultrawide from 27 inch curved options", description: "We separated the more common 34 inch 21:9 curved format from the less common curved 27 inch size, since these serve different monitor types." },
-  { title: "Noted where a curved-compatible filter also works on flat screens", description: "We flagged which pick offers dual compatibility, useful if you might switch to a flat monitor later." },
+  { title: "Noted where a curved-compatible filter also works on flat screens", description: "We flagged which pick offers dual compatibility, useful if you might switch to a flat monitor later." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -217,7 +217,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
-    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nThis matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
   }
 ];
 
@@ -225,12 +225,12 @@ export const faq: FaqItem[] = [
   { q: "Will a flat privacy filter work on my curved monitor?", a: "No. A flat filter will not conform to a curved panel and will lift or gap at the edges. Only choose filters that explicitly confirm curved compatibility." },
   { q: "What's the most common curved monitor size for these filters?", a: "34 inch, 21:9 aspect ratio ultrawide curved monitors are the most commonly covered size in our research." },
   { q: "Is there an option for a curved 27 inch monitor?", a: "Yes, the infoWall 2-Pack 27 Inch Computer Privacy Screen Filter is confirmed compatible with curved 27 inch monitors." },
-  { q: "What's the cheapest 34 inch curved option?", a: "The ZYY 34 Inch Curved Computer Privacy Screen at $66.99." },
-  { q: "Which pick has the most reviews?", a: "The [2 Pack] 34 Inch Privacy Screen for Curved Monitor, with 6,437 reviews at a 4.2 rating." },
-];
+  { q: "What's the cheapest 34 inch curved option?", a: "The ZYY 34 Inch Curved Computer Privacy Screen at under $70." },
+  { q: "Can a curved filter be reused on a different monitor?", a: "Slide-in or clip-on filters can often be moved to another monitor of the same size and curve, while adhesive types usually cannot. Check whether the listing calls it removable. Store it flat in a protective sleeve between uses." }
+  ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-ultrawide-monitor-privacy-screens", title: "Best Ultrawide Monitor Privacy Screens (2026)" },
   { href: "/guide/best-34-inch-curved-monitor-privacy-screens", title: "Best 34-Inch Curved Monitor Privacy Screens (2026)" },
-  { href: "/guide/best-monitor-privacy-screens", title: "Best Monitor Privacy Screens (2026)" },
+  { href: "/guide/best-monitor-privacy-screens", title: "Best Monitor Privacy Screens (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "rolling portable file boxes";
 export const introParagraphs = [
   "\"Rolling\" overlaps substantially with our wheeled portable file box research, and this guide clarifies whether it represents distinct terminology for the same wheeled product category or a genuinely larger, more cabinet-like product, similar to the box-vs-cabinet distinction we identified in our file cabinets on wheels research.",
-  "We carried forward the wheel quality, locking mechanism, and weight-capacity gaps from our wheeled box guide, verified specifically for the picks in this comparison.",
+  "We carried forward the wheel quality, locking mechanism, and weight-capacity gaps from our wheeled box guide, verified specifically for the picks in this comparison."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "\"Rolling\" vs. \"with wheels\" terminology distinction", description: "We assessed whether 'rolling' represents distinct terminology for the same wheeled product category or a genuinely larger, more cabinet-like product." },
   { title: "Wheel quality and rolling smoothness", description: "We carried forward carpet versus hard-floor rolling performance considerations from our wheeled box research, applied specifically to these picks." },
   { title: "Review count honesty for premium unproven listings", description: "We flagged a premium-sounding pick with an extremely small review count, weighed honestly against a more proven, budget-friendly alternative." },
-  { title: "Wheeled vs. hand-carried genuine comparison", description: "We included non-wheeled alternatives directly so buyers can honestly assess whether they need rolling mobility at all." },
+  { title: "Wheeled vs. hand-carried genuine comparison", description: "We included non-wheeled alternatives directly so buyers can honestly assess whether they need rolling mobility at all." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -228,11 +228,11 @@ export const faq: FaqItem[] = [
   { q: "Should I trust a premium-priced rolling box with very few reviews?", a: "Weigh this carefully. A high price and impressive material description doesn't guarantee proven reliability; a more affordable, well-reviewed alternative may be the safer choice." },
   { q: "Do I actually need a rolling file box?", a: "Only if you regularly move a heavy, fully loaded box between locations. For lighter or occasional carrying, a simple handle without wheels may be more practical." },
   { q: "Will the wheels roll well on carpet?", a: "Performance varies by flooring, similar to our broader wheeled box research findings. Small caster wheels generally perform better on hard floors than thick carpet." },
-  { q: "What's the most proven rolling file box in this comparison?", a: "The DocSafe Fireproof 2-Layer File Box with Wheels has a substantially stronger review count than the premium aluminum alternative, real evidence of proven rolling reliability." },
+  { q: "What's the most proven rolling file box in this comparison?", a: "The DocSafe Fireproof 2-Layer File Box with Wheels has a substantially stronger review count than the premium aluminum alternative, real evidence of proven rolling reliability." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-file-boxes-with-wheels", title: "Best Portable File Boxes with Wheels (2026)" },
   { href: "/guide/best-portable-file-cabinets-on-wheels", title: "Best Portable File Cabinets on Wheels (2026)" },
-  { href: "/guide/best-lockable-portable-file-boxes", title: "Best Lockable Portable File Boxes (2026)" },
+  { href: "/guide/best-lockable-portable-file-boxes", title: "Best Lockable Portable File Boxes (2026)" }
 ];

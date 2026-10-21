@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "world time desk clock";
 export const introParagraphs = [
   "A world time desk clock is about the broader idea of seeing time anywhere on the globe at a glance, less about tracking a specific fixed set of cities you work with and more a general reference for a desk. Our verified inventory has two genuine picks in this space, which is also the exact product pool covered in our best multi-time zone desk clocks guide from a more work-coordination-focused angle.",
-  "We're covering the same two clocks here with that broader framing: think of these as desk reference pieces for global awareness rather than a dedicated tool for tracking three specific remote colleagues. If the practical, work-coordination angle is closer to what you actually need, our multi-time zone guide may read more usefully.",
+  "We're covering the same two clocks here with that broader framing: think of these as desk reference pieces for global awareness rather than a dedicated tool for tracking three specific remote colleagues. If the practical, work-coordination angle is closer to what you actually need, our multi-time zone guide may read more usefully."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "5 min";
@@ -59,7 +59,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Framed evaluation around general global reference, not specific city tracking", description: "Judged each pick on how well it serves as a broad \"see time anywhere\" desk reference rather than a tool for tracking specific named colleagues or offices." },
   { title: "Verified genuine multi-zone display from each listing", description: "Confirmed both picks explicitly show more than one time zone simultaneously rather than relying on a vague \"world clock\" product name." },
   { title: "Kept the list honest at two picks rather than padding it", description: "Limited this guide to the two products in our verified pool genuinely suited to a world time reference use case." },
-  { title: "Cross-checked against the multi-time zone desk clocks guide", description: "Confirmed this guide and its near-duplicate sibling cover the same two products with different framing, avoiding duplicated prose or rankings." },
+  { title: "Cross-checked against the multi-time zone desk clocks guide", description: "Confirmed this guide and its near-duplicate sibling cover the same two products with different framing, avoiding duplicated prose or rankings." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -180,11 +180,11 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "Is a world time clock different from a multi-time zone clock?", a: "Not really, in our verified inventory they're the same two products. The difference is framing: world time emphasizes broad global reference, multi-time zone emphasizes tracking specific cities for work." },
   { q: "How many zones do these clocks show?", a: "The Design Factory desktop clock shows 3 fixed zones. The Multiple World Clock shows a broader set per its listing, check the specific product for exact zone count." },
-  { q: "Do these clocks update automatically for daylight saving time in other zones?", a: "Not automatically across all zones. These are physical clocks without app or WiFi connectivity, so zone accuracy depends on manual setup or fixed factory configuration." },
+  { q: "Do these clocks update automatically for daylight saving time in other zones?", a: "Not automatically across all zones. These are physical clocks without app or WiFi connectivity, so zone accuracy depends on manual setup or fixed factory configuration." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-multi-time-zone-desk-clocks", title: "Best Multi-Time Zone Desk Clocks (2026)" },
   { href: "/guide/best-executive-desk-clocks", title: "Best Executive Desk Clocks (2026)" },
-  { href: "/guide/best-led-desk-clocks", title: "Best LED Desk Clocks (2026)" },
+  { href: "/guide/best-led-desk-clocks", title: "Best LED Desk Clocks (2026)" }
 ];

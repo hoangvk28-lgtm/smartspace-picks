@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "lateral filing cabinet";
 export const introParagraphs = [
   "A lot of listings labeled 'lateral filing cabinet' on Amazon are actually narrow vertical pedestal cabinets wearing the keyword for search visibility, not true side-opening lateral units. That distinction matters because a genuine lateral cabinet needs clearance for its full width in front of every drawer, while a vertical cabinet needs less floor space but holds fewer hanging files per drawer and opens differently. We're flagging that difference honestly in this guide rather than calling every wide-ish 2-drawer cabinet lateral just because the word appears in its title.",
-  "Below are 8 file cabinets we evaluated for genuine lateral versus vertical construction, front clearance needs, file orientation support, and top surface load capacity for workspace use. Two picks are confirmed genuinely lateral by their listed dimensions and description, and the rest are narrower vertical or mobile pedestal cabinets included as honest budget or small-footprint alternatives, clearly marked as such.",
+  "Below are 8 file cabinets we evaluated for genuine lateral versus vertical construction, front clearance needs, file orientation support, and top surface load capacity for workspace use. Two picks are confirmed genuinely lateral by their listed dimensions and description, and the rest are narrower vertical or mobile pedestal cabinets included as honest budget or small-footprint alternatives, clearly marked as such."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -46,8 +46,8 @@ export const products: GuideProduct[] = [
     badge: "Genuinely Lateral, Best Overall",
     name: "Letaya 2 Drawer File Cabinet with Lock, Metal Lateral Filing Cabinet for Home Office",
     price: "$99.99",
-    rating: "4.2 stars",
-    reviews: "1,671 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31ukHwAN+yL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTNJY2HB?tag=deskfinds0d-20",
     description:
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "2 locking drawers",
       "Hanging file support for Letter/Legal/A4",
       "Metal construction",
-      "Anti-tip drawer interlock",
+      "Anti-tip drawer interlock"
     ],
     pros: [
       "Confirmed true lateral footprint by dimensions",
       "Wide file view for faster browsing",
       "Locking drawers included",
-      "Solid metal build",
+      "Solid metal build"
     ],
     cons: [
       "Needs full-width front clearance to open drawers",
       "Only one drawer opens at a time due to the anti-tip interlock",
-      "Wider footprint won't fit every small office layout",
+      "Wider footprint won't fit every small office layout"
     ],
     bestFor: "Buyers who specifically need a true lateral cabinet and have the front clearance for it",
   },
@@ -78,8 +78,8 @@ export const products: GuideProduct[] = [
     badge: "Genuinely Lateral, Most Drawers",
     name: "DEVAISE 3-Drawer Mobile File Cabinet, Lateral Filing Cabinet, Rustic Brown",
     price: "$94.99",
-    rating: "4.2 stars",
-    reviews: "2,444 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51vzgnkbcjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0989HLF81?tag=deskfinds0d-20",
     description:
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Rolling casters",
       "Wood-look rustic brown finish",
       "Hanging file support",
-      "Mobile design",
+      "Mobile design"
     ],
     pros: [
       "Confirmed true lateral construction",
       "Extra third drawer over the 2-drawer lateral pick",
       "Casters allow repositioning away from clearance conflicts",
-      "Attractive finish for visible placement",
+      "Attractive finish for visible placement"
     ],
     cons: [
       "Still needs full-width front clearance when in use",
       "Only one drawer opens at a time",
-      "Casters add a small amount of height to check under desks",
+      "Casters add a small amount of height to check under desks"
     ],
     bestFor: "Buyers who want a third lateral drawer and the flexibility to reposition the cabinet",
   },
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Vertical Pedestal, Not True Lateral",
     name: "DEVAISE 2 Drawer Metal File Cabinet, Fully Assembled, Under Desk, Black",
     price: "$129.99",
-    rating: "4.5 stars",
-    reviews: "1,681 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31wnmQx3CxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08G53L8B5?tag=deskfinds0d-20",
     description:
@@ -121,18 +121,17 @@ export const products: GuideProduct[] = [
       "Fully assembled",
       "Fits under a standard desk",
       "Lock included",
-      "Letter/Legal/A4 support",
+      "Letter/Legal/A4 support"
     ],
     pros: [
       "Smallest footprint of the higher-rated picks",
       "Fully assembled, no setup required",
-      "Fits under most desks",
-      "Strong 4.5 star rating",
+      "Fits under most desks"
     ],
     cons: [
       "Not a true lateral cabinet despite category placement",
       "Fewer files visible per drawer than a lateral cabinet",
-      "Narrower drawers hold less per pull than a lateral drawer",
+      "Narrower drawers hold less per pull than a lateral drawer"
     ],
     bestFor: "Buyers who need under-desk vertical storage, not genuine lateral filing",
   },
@@ -142,8 +141,8 @@ export const products: GuideProduct[] = [
     badge: "Vertical Mobile, Best Under-Desk Capacity",
     name: "Letaya 3 Drawer Mobile File Cabinet with Lock, Under Desk Metal Filing Cabinets",
     price: "$99.99",
-    rating: "4.5 stars",
-    reviews: "1,373 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Nz-Myx-1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09YVJN8R7?tag=deskfinds0d-20",
     description:
@@ -153,18 +152,18 @@ export const products: GuideProduct[] = [
       "3 locking drawers",
       "Fully assembled",
       "Fits under desk",
-      "Letter/Legal/A4 support",
+      "Letter/Legal/A4 support"
     ],
     pros: [
       "Three drawers for more sorting capacity",
       "Fully assembled",
       "Small footprint fits under most desks",
-      "Strong rating and large review base",
+      "Strong rating and large review base"
     ],
     cons: [
       "Not a true lateral cabinet despite category placement",
       "Narrower drawers than a lateral file",
-      "Fewer files visible per drawer at a glance",
+      "Fewer files visible per drawer at a glance"
     ],
     bestFor: "Buyers who want more under-desk drawer capacity without a lateral cabinet's width",
   },
@@ -174,8 +173,8 @@ export const products: GuideProduct[] = [
     badge: "Vertical Mobile with Extended Desktop",
     name: "GYIIYUO 2 Drawer File Cabinet with 24-Inch Extended Desktop, Mobile Filing Cabinet",
     price: "$56.99",
-    rating: "4.2 stars",
-    reviews: "1,425 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Aix6uWuJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBZ98D94?tag=deskfinds0d-20",
     description:
@@ -185,18 +184,18 @@ export const products: GuideProduct[] = [
       "24 inch extended desktop surface",
       "Side storage bag",
       "Fabric drawer",
-      "Rolling casters",
+      "Rolling casters"
     ],
     pros: [
       "Extended desktop adds usable surface, not just storage",
       "Lowest price on this list",
       "Side bag for small extra storage",
-      "Mobile casters for repositioning",
+      "Mobile casters for repositioning"
     ],
     cons: [
       "Not a true lateral cabinet",
       "Top surface load capacity likely limited for heavy printer plus monitor setups",
-      "Fabric drawer less durable than metal over years of use",
+      "Fabric drawer less durable than metal over years of use"
     ],
     bestFor: "Buyers who want a small desk extension and light storage together, not lateral filing",
   },
@@ -206,8 +205,8 @@ export const products: GuideProduct[] = [
     badge: "Vertical, Smallest True Footprint",
     name: "VASAGLE CUSTOS 2-Drawer File Cabinet, Small Rolling Filing Cabinet for Home Office",
     price: "$52.99",
-    rating: "4.1 stars",
-    reviews: "7,901 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31xyJKdJz-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BQJ5WL24?tag=deskfinds0d-20",
     description:
@@ -217,18 +216,18 @@ export const products: GuideProduct[] = [
       "2 drawers",
       "Rolling casters",
       "Doubles as printer stand",
-      "Matte black finish",
+      "Matte black finish"
     ],
     pros: [
       "Largest review base on this list",
       "Genuinely smallest footprint here",
       "Doubles as a printer stand",
-      "Affordable price",
+      "Affordable price"
     ],
     cons: [
       "Not a lateral cabinet, despite appearing in lateral search results",
       "Narrower drawers than any lateral pick",
-      "Smaller top surface load capacity than a full lateral cabinet",
+      "Smaller top surface load capacity than a full lateral cabinet"
     ],
     bestFor: "Buyers who actually want the smallest possible footprint, not true lateral capacity",
   },
@@ -239,7 +238,7 @@ export const products: GuideProduct[] = [
     name: "BYNSOE 2 Drawer File Cabinet with Lock, Vertical Filing Storage Cabinet",
     price: "$64.99",
     rating: "4 stars",
-    reviews: "1,303 Amazon ratings",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31VM3xK++PL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D9XYD75W?tag=deskfinds0d-20",
     description:
@@ -249,18 +248,18 @@ export const products: GuideProduct[] = [
       "2 locking drawers",
       "Steel construction",
       "Letter size file support",
-      "Assembly required",
+      "Assembly required"
     ],
     pros: [
       "Clearly labeled vertical design, no ambiguity",
       "Lock included",
       "Affordable steel build",
-      "Reasonable size for a small office corner",
+      "Reasonable size for a small office corner"
     ],
     cons: [
       "Assembly required",
       "Not suitable if you specifically need lateral filing",
-      "Lower rating than the other picks on this list",
+      "Lower rating than the other picks on this list"
     ],
     bestFor: "Budget buyers who are fine with a vertical cabinet, clearly not seeking true lateral filing",
   },
@@ -270,8 +269,8 @@ export const products: GuideProduct[] = [
     badge: "Vertical Mobile, Best Design Accent",
     name: "3 Drawers Fluted Mobile File Cabinet with Lock, Rolling Printer Stand Table, Oak",
     price: "$109.99",
-    rating: "4.1 stars",
-    reviews: "66 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51et6Q1hCpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GJZPVMG8?tag=deskfinds0d-20",
     description:
@@ -281,21 +280,21 @@ export const products: GuideProduct[] = [
       "3 drawers",
       "Fluted oak wood front",
       "Lock included",
-      "Rolling printer stand top",
+      "Rolling printer stand top"
     ],
     pros: [
       "Distinctive fluted design accent",
       "Doubles as a printer stand",
       "Lock included",
-      "Rolling mobility",
+      "Rolling mobility"
     ],
     cons: [
       "Smallest review sample on this list",
       "Not a lateral cabinet",
-      "Narrower drawers limit hanging file capacity",
+      "Narrower drawers limit hanging file capacity"
     ],
     bestFor: "Buyers who want a decorative rolling printer stand with light drawer storage, not lateral filing",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -328,7 +327,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Value for price",
     description:
       "Weighed genuine lateral versus vertical construction, drawer count, and finish quality against price across the range of price points in this comparison in this list.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -471,11 +470,11 @@ export const faq: FaqItem[] = [
   {
     q: "Why does a small vertical cabinet keep appearing in lateral filing cabinet search results?",
     a: "Many sellers use the word 'lateral' in a listing title for search visibility even when the product is a narrow vertical pedestal cabinet by its actual dimensions. Check the listed width and depth directly. A true lateral cabinet runs roughly 28 to 36 inches wide and shallow front to back, while a vertical cabinet is typically 15 to 18 inches wide and deeper.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-filing-cabinets-for-home-offices", title: "Best Filing Cabinets for Home Offices (2026)" },
   { href: "/guide/best-filing-cabinets-for-small-spaces", title: "Best Filing Cabinets for Small Spaces (2026)" },
-  { href: "/guide/best-rolling-filing-cabinets", title: "Best Rolling Filing Cabinets (2026)" },
+  { href: "/guide/best-rolling-filing-cabinets", title: "Best Rolling Filing Cabinets (2026)" }
 ];

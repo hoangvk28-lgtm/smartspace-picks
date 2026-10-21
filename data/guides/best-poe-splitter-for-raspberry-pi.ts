@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This HAT's listing specifically states an onboard high-speed active cooling fan combined with 5V USB-A and 12V header outputs, letting it power additional external devices beyond just the Raspberry Pi itself, a genuinely more versatile output configuration than a single-output HAT. Its fully isolated switch mode power supply (SMPS) with an MP8676 buck chip provides real electrical isolation.\n\nCompared to the UCTRONICS and LoveRPi picks below, this one's dual output design specifically supporting both USB-A and 12V header connections gives it flexibility to power a fan, display, or other accessory alongside the Pi.\n\nBest for buyers who want to power additional external accessories alongside the Raspberry Pi from the same HAT.",
     specs: ["802.3af/at compliant, isolated SMPS", "5V USB-A + 12V header dual outputs", "Onboard active cooling fan, MP8676 buck chip"],
     pros: ["Dual output design powers additional accessories beyond the Pi", "Onboard active cooling fan improves heat dissipation", "Supports both 802.3af and higher-power 802.3at standards"],
-    cons: ["Highest price in this comparison at $24.99", "Larger footprint than the compact UCTRONICS pick"],
+    cons: ["Highest price in this comparison at under $25", "Larger footprint than the compact UCTRONICS pick"],
     bestFor: "buyers who want to power additional external accessories alongside the Raspberry Pi",
   },
   {
@@ -61,7 +61,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B07XB5PR9J?tag=deskfinds0d-20",
     description: "This HAT's listing specifically states galvanic isolation up to 3KV, designed for IEEE 802.3af, 802.3at, and passive DC 48V network switches, a notably higher isolation rating built specifically for applications with non-compliant switches lacking their own PSE-side isolation. Its listing specifically frames the product around powering five, ten, or twenty Raspberry Pi boards through a single PoE switch for cluster node deployments.\n\nCompared to the waveshare and UCTRONICS picks above, this one's explicit cluster-computing framing and 3KV isolation target buyers building an on-premise Pi cluster rather than a single standalone board.\n\nBest for buyers building a multi-board Raspberry Pi cluster who need higher isolation and simplified cable management.",
     specs: ["3KV galvanic isolation, 802.3af/at/passive DC 48V", "Built for multi-board cluster deployments", "Lowest price in this comparison"],
-    pros: ["Lowest price in this comparison at $15.01", "3KV isolation rating exceeds standard HAT designs", "Specifically designed and marketed for multi-board cluster deployments"],
+    pros: ["Lowest price in this comparison at under $20", "3KV isolation rating exceeds standard HAT designs", "Specifically designed and marketed for multi-board cluster deployments"],
     cons: ["Requires removing non-essential heatsinks before installation", "Explicitly needs a ventilated case with active cooling fan"],
     bestFor: "buyers building a multi-board Raspberry Pi cluster who need higher isolation",
   },
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "This HAT's listing specifically states compatibility with the Raspberry Pi Zero, Zero W, and Zero 2 W boards, a genuinely different Pi form factor than the Pi 4B/3B+ HATs in this comparison, since the compact Zero series has no native Ethernet or PoE support of its own. Its integrated RTL8152B Ethernet chip adds a 10/100M RJ45 port alongside 3 extended USB 2.0/1.1 ports.\n\nCompared to the Pi 4/3B+ HATs above, this one includes a quality ABS case with two interchangeable lids, adding both PoE power and genuinely new Ethernet and USB connectivity that the Zero series doesn't natively have.\n\nBest for Raspberry Pi Zero owners who need to add both PoE power and Ethernet connectivity in one HAT.",
     specs: ["For Raspberry Pi Zero/Zero W/2 W", "Adds RJ45 Ethernet + 3 USB 2.0/1.1 ports", "802.3af compliant, includes ABS case with 2 lids"],
     pros: ["Specifically designed for the Pi Zero series, which lacks native Ethernet", "Adds both PoE power and new Ethernet/USB connectivity in one HAT", "Includes a case with interchangeable lids"],
-    cons: ["Highest price in this comparison at $33.99", "Not compatible with Pi 4B/3B+ boards, only the Zero series"],
+    cons: ["Highest price in this comparison at under $35", "Not compatible with Pi 4B/3B+ boards, only the Zero series"],
     bestFor: "Raspberry Pi Zero owners who need to add both PoE power and Ethernet connectivity",
   }
 ];
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["To power additional accessories alongside the Pi", "waveshare Power Over Ethernet (PoE) HAT"],
         ["The smallest HAT footprint for a compact case", "UCTRONICS PoE HAT for Raspberry Pi 4B/3B+"],
         ["Higher isolation for a multi-board cluster deployment", "LoveRPi Power-Over-Ethernet (PoE) HAT, 3KV Isolated"],
-        ["PoE power plus new Ethernet/USB for a Pi Zero", "Waveshare PoE Ethernet USB HUB HAT for Raspberry Pi Zero"],
+        ["PoE power plus new Ethernet/USB for a Pi Zero", "Waveshare PoE Ethernet USB HUB HAT for Raspberry Pi Zero"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $16", "LoveRPi 3KV Isolated HAT ($15.01)"],
-        ["Under $19", "UCTRONICS PoE HAT ($18.99)"],
-        ["Under $25", "waveshare PoE HAT ($24.99)"],
-        ["Under $34", "Waveshare PoE Ethernet USB HUB HAT ($33.99)"],
+        ["Under $16", "LoveRPi 3KV Isolated HAT (under $20)"],
+        ["Under $19", "UCTRONICS PoE HAT (under $20)"],
+        ["Under $25", "waveshare PoE HAT (under $25)"],
+        ["Under $34", "Waveshare PoE Ethernet USB HUB HAT (under $35)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Single-Board Convenience vs Multi-Board Cluster Design",
     cards: [
       { label: "Single-board convenience (waveshare, UCTRONICS)", text: "Both are optimized for a single Raspberry Pi 4B or 3B+, with the waveshare adding accessory power output and UCTRONICS prioritizing a compact footprint." },
-      { label: "Multi-board cluster design (LoveRPi)", text: "Specifically built and marketed for powering five, ten, or twenty Pi boards from one PoE switch, with higher 3KV isolation for that demanding use case." },
+      { label: "Multi-board cluster design (LoveRPi)", text: "Specifically built and marketed for powering five, ten, or twenty Pi boards from one PoE switch, with higher 3KV isolation for that demanding use case." }
     ],
     note: "If you're running a single Raspberry Pi, the waveshare or UCTRONICS picks fit that need well. If you're building a Pi cluster with multiple boards on one PoE switch, the LoveRPi's cluster-specific design and higher isolation are worth prioritizing.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["Raspberry Pi 4B or 3B+", "waveshare, UCTRONICS, or LoveRPi HAT"],
         ["Raspberry Pi Zero/Zero W/2 W", "Waveshare PoE Ethernet USB HUB HAT"],
-        ["Multiple Pi 4B units in a cluster", "LoveRPi 3KV Isolated HAT"],
+        ["Multiple Pi 4B units in a cluster", "LoveRPi 3KV Isolated HAT"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For a Raspberry Pi Zero Project Specifically",
     cards: [
       { label: "Look for", text: "A HAT that adds genuine Ethernet connectivity, not just power, since the Pi Zero series has no native Ethernet port at all unlike the Pi 4B or 3B+." },
-      { label: "In this comparison", text: "The Waveshare PoE Ethernet USB HUB HAT specifically adds an RJ45 Ethernet port and 3 USB ports to the Pi Zero, solving both the power and connectivity gap at once." },
+      { label: "In this comparison", text: "The Waveshare PoE Ethernet USB HUB HAT specifically adds an RJ45 Ethernet port and 3 USB ports to the Pi Zero, solving both the power and connectivity gap at once." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You're adding a Pi Zero to your network and need both PoE power and new Ethernet/USB connectivity, where the Waveshare HUB HAT's $33.99 price is justified by solving both needs at once." },
-      { label: "Save if", text: "You're building a multi-board Pi cluster and want higher isolation, where the LoveRPi 3KV HAT delivers that for $15.01, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You're adding a Pi Zero to your network and need both PoE power and new Ethernet/USB connectivity, where the Waveshare HUB HAT's under $35 price is justified by solving both needs at once." },
+      { label: "Save if", text: "You're building a multi-board Pi cluster and want higher isolation, where the LoveRPi 3KV HAT delivers that for under $20, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "printer for chromebook";
 export const introParagraphs = [
   "Chromebooks can't install traditional manufacturer print drivers the way Windows or Mac can, so printing depends on a different technical path: driverless printing over IPP Everywhere, the standard that replaced Google Cloud Print. This constraint is rarely explained clearly, which leaves buyers assuming any wireless printer will simply work with ChromeOS.",
-  "Below are 7 printers we evaluated for standard wireless and AirPrint-style protocol support, the kind that generally works with ChromeOS's driverless printing setup. None of these listings explicitly advertise ChromeOS or IPP Everywhere certification in their titles, so we're framing this honestly: check the specific model's current Chromebook compatibility page before buying rather than assuming support from wireless capability alone.",
+  "Below are 7 printers we evaluated for standard wireless and AirPrint-style protocol support, the kind that generally works with ChromeOS's driverless printing setup. None of these listings explicitly advertise ChromeOS or IPP Everywhere certification in their titles, so we're framing this honestly: check the specific model's current Chromebook compatibility page before buying rather than assuming support from wireless capability alone."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "9 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Standard wireless protocol support",
       "3-month Instant Ink trial included",
       "AI-capable setup features",
-      "Compact footprint",
+      "Compact footprint"
     ],
     pros: [
       "Low upfront cost",
       "Standard wireless generally compatible with ChromeOS driverless printing",
       "Compact for small desks",
-      "Simple setup",
+      "Simple setup"
     ],
     cons: [
       "No explicit ChromeOS/IPP Everywhere certification listed",
       "Limited print settings from ChromeOS versus a full driver install on other platforms",
-      "Standard cartridges, higher cost per page",
+      "Standard cartridges, higher cost per page"
     ],
     bestFor: "A budget Chromebook household with light printing needs",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Built-in fax",
       "Standard wireless protocol support",
       "Mobile printing support",
-      "Low price point",
+      "Low price point"
     ],
     pros: [
       "ADF useful for ChromeOS built-in scanning",
       "Low upfront cost",
       "Standard wireless generally compatible with ChromeOS driverless printing",
-      "Compact for tight desk space",
+      "Compact for tight desk space"
     ],
     cons: [
       "No explicit ChromeOS/IPP Everywhere certification listed",
       "ChromeOS print settings are more limited than a full driver install",
-      "Standard cartridges carry idle-ink drying risk",
+      "Standard cartridges carry idle-ink drying risk"
     ],
     bestFor: "A Chromebook household that also scans multi-page documents regularly",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Standard wireless protocol support",
       "Scan and copy included",
       "Lower long-run ink cost",
-      "Compact for a small desk",
+      "Compact for a small desk"
     ],
     pros: [
       "Lower long-run ink cost for regular Chromebook printing",
       "Standard wireless generally compatible with ChromeOS driverless printing",
       "No cartridge to replace often",
-      "Simple refill process",
+      "Simple refill process"
     ],
     cons: [
       "No explicit ChromeOS/IPP Everywhere certification listed",
       "Higher upfront cost than the cheapest cartridge inkjets",
-      "Basic feature set, no ADF",
+      "Basic feature set, no ADF"
     ],
     bestFor: "A Chromebook household that prints regularly and wants lower ink cost over time",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Automatic document feeder",
       "Ethernet + wireless connectivity",
       "Scan, copy, fax included",
-      "Lower long-run ink cost",
+      "Lower long-run ink cost"
     ],
     pros: [
       "Ethernet option as a wireless-driverless-printing fallback",
       "ADF for multi-page scanning",
       "Lower long-run ink cost",
-      "Fax available if needed",
+      "Fax available if needed"
     ],
     cons: [
       "No explicit ChromeOS/IPP Everywhere certification listed",
       "Larger footprint than the ET-2800",
-      "Pricier than the entry cartridge inkjets",
+      "Pricier than the entry cartridge inkjets"
     ],
     bestFor: "A Chromebook home office wanting a wired fallback option and ADF",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Automatic duplex printing",
       "Standard wireless protocol support",
       "LC501 series ink cartridges",
-      "Mid-budget pricing",
+      "Mid-budget pricing"
     ],
     pros: [
       "Display helps confirm network status during ChromeOS setup",
       "Duplex printing included",
       "Standard wireless generally compatible with ChromeOS driverless printing",
-      "Reasonable price for the feature set",
+      "Reasonable price for the feature set"
     ],
     cons: [
       "No explicit ChromeOS/IPP Everywhere certification listed",
       "Standard cartridges, ongoing ink cost",
-      "ChromeOS print settings are more limited than a full driver install",
+      "ChromeOS print settings are more limited than a full driver install"
     ],
     bestFor: "A Chromebook household that wants an on-device screen for connection troubleshooting",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Duplex printing",
       "Standard wireless protocol support",
       "Works with Alexa",
-      "250-sheet paper tray",
+      "250-sheet paper tray"
     ],
     pros: [
       "Lower cost per page for text-heavy Chromebook printing",
       "Duplex printing built in",
       "Standard wireless generally compatible with ChromeOS driverless printing",
-      "Large paper tray reduces refills",
+      "Large paper tray reduces refills"
     ],
     cons: [
       "No explicit ChromeOS/IPP Everywhere certification listed",
       "Monochrome only",
-      "Higher upfront price than the inkjet picks",
+      "Higher upfront price than the inkjet picks"
     ],
     bestFor: "A Chromebook household with high, mostly text-based print volume",
   },
@@ -249,21 +249,21 @@ export const products: GuideProduct[] = [
       "Wireless all-in-one",
       "Works with Alexa",
       "Standard cartridge inkjet",
-      "Compact design",
+      "Compact design"
     ],
     pros: [
       "Advertised AirPrint support suggests broader driverless protocol compatibility",
       "Wireless all-in-one with scan and copy",
       "Works with Alexa",
-      "Mid-range price for the feature set",
+      "Mid-range price for the feature set"
     ],
     cons: [
       "AirPrint support doesn't guarantee full IPP Everywhere ChromeOS certification",
       "Standard cartridges, ongoing ink cost",
-      "No ADF included",
+      "No ADF included"
     ],
     bestFor: "A Chromebook household that wants the closest thing to a confirmed driverless-friendly protocol in this list",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -291,7 +291,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for a Chromebook-first household",
     description: "Balanced upfront cost and long-run ink cost against the reality that a Chromebook household can't use every advanced driver feature a printer offers on Windows or Mac.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -441,11 +441,11 @@ export const faq: FaqItem[] = [
   {
     q: "None of these printers say \"Chromebook compatible\" on the box. Is that a problem?",
     a: "It's common across the printer market, not unique to these models. Most manufacturers don't prominently advertise IPP Everywhere or Chromebook certification even when a printer supports it. Search the exact model name plus \"IPP Everywhere\" or \"Chromebook\" on the manufacturer's current support page to confirm before purchasing.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-home-offices", title: "Best Printers for Home Offices (2026)" },
   { href: "/guide/best-printers-for-home-use", title: "Best Printers for Home Use (2026)" },
-  { href: "/guide/best-easy-to-use-printers", title: "Best Easy-to-Use Printers (2026)" },
+  { href: "/guide/best-easy-to-use-printers", title: "Best Easy-to-Use Printers (2026)" }
 ];

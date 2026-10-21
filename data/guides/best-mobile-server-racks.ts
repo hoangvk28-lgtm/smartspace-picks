@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41UbZyPLlCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZX57Z5G?tag=deskfinds0d-20",
-    description: "A compact 6U open-frame rack built on a robust 4-post construction, small enough to tuck into a corner while still handling AV systems, NAS devices, and small servers.\n\nUniversal wheels with brakes add stability once positioned, and the listing notes 9U and 12U versions are also available if you outgrow this size later.\n\nWhere this one earns its spot is compact size tucks easily into a corner setup, and brake-equipped wheels add stability once positioned. Worth noting before buying: 6U ceiling limits it to a small device count, which matters more at $89.99 than it would on a cheaper pick.",
+    description: "A compact 6U open-frame rack built on a robust 4-post construction, small enough to tuck into a corner while still handling AV systems, NAS devices, and small servers.\n\nUniversal wheels with brakes add stability once positioned, and the listing notes 9U and 12U versions are also available if you outgrow this size later.\n\nWhere this one earns its spot is compact size tucks easily into a corner setup, and brake-equipped wheels add stability once positioned. Worth noting before buying: 6U ceiling limits it to a small device count, which matters more at under $90 than it would on a cheaper pick.",
     specs: ["6U, 15.75\"W x 19.49\"D x 15.31\"H","4-post construction","Universal wheels with brakes"],
     pros: ["Compact size tucks easily into a corner setup","Brake-equipped wheels add stability once positioned","Same series scales up to 9U or 12U if needed"],
     cons: ["6U ceiling limits it to a small device count","No weight rating listed, worth confirming before heavy use"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31t+0aeG+DL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CR5GS5X2?tag=deskfinds0d-20",
-    description: "At 30U this is one of the taller open-frame rolling racks in the AxcessAbles line, giving you real headroom for a growing home lab or studio rack without going to a fully enclosed cabinet.\n\nThe same 18-inch depth and removable side panel design carries over from the smaller models, so airflow and access stay consistent as you scale up in height.\n\nWhat stands out here is tall 30U build fits a growing equipment stack, plus removable panels switch between open and closed setups. The main tradeoff: tall and narrow footprint needs a stable floor, so weigh that against the $299.99 price before buying.",
+    description: "At 30U this is one of the taller open-frame rolling racks in the AxcessAbles line, giving you real headroom for a growing home lab or studio rack without going to a fully enclosed cabinet.\n\nThe same 18-inch depth and removable side panel design carries over from the smaller models, so airflow and access stay consistent as you scale up in height.\n\nWhat stands out here is tall 30U build fits a growing equipment stack, plus removable panels switch between open and closed setups. The main tradeoff: tall and narrow footprint needs a stable floor, so weigh that against the under $300 price before buying.",
     specs: ["30U height, 18\" depth","550 lb static / 440 lb rolling capacity","Removable vented side panels"],
     pros: ["Tall 30U build fits a growing equipment stack","Removable panels switch between open and closed setups","Includes both screw standards for mixed-brand gear"],
     cons: ["Tall and narrow footprint needs a stable floor","No lockable door for equipment security"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41LZVOCQNSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D7K26K1R?tag=deskfinds0d-20",
-    description: "AxcessAbles' 12U rack includes both 10-32 and cage nut compatible rails in one frame, plus a wall mount kit, giving genuine flexibility for either floor or wall installation.\n\nIt ships with two 2U shelves and a full cage nut tool included, useful accessories the listing bundles rather than selling separately.\n\nWhere this one earns its spot is both wall mount kit and casters included in one purchase, and two 2U shelves and a cage nut tool bundled in. Worth noting before buying: capacity drops noticeably once wheels are installed, which matters more at $159.99 than it would on a cheaper pick.",
+    description: "AxcessAbles' 12U rack includes both 10-32 and cage nut compatible rails in one frame, plus a wall mount kit, giving genuine flexibility for either floor or wall installation.\n\nIt ships with two 2U shelves and a full cage nut tool included, useful accessories the listing bundles rather than selling separately.\n\nWhere this one earns its spot is both wall mount kit and casters included in one purchase, and two 2U shelves and a cage nut tool bundled in. Worth noting before buying: capacity drops noticeably once wheels are installed, which matters more at under $160 than it would on a cheaper pick.",
     specs: ["12U, 18\"x20\"x23.5\" with wheels","330 lb (wheels) / 440 lb (no wheels) capacity","2x 2U shelves, wall mount kit included"],
     pros: ["Both wall mount kit and casters included in one purchase","Two 2U shelves and a cage nut tool bundled in","Fits both 10-32 and cage nut mounting hardware"],
     cons: ["Capacity drops noticeably once wheels are installed","No front door leaves equipment fully exposed"],
@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $89.99",
+          "Under $90",
           "6U Open Frame Server Rack with Wheels"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "AxcessAbles 12U Network Rack with Wheels"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "AxcessAbles 12U Open Frame Network & AV Rack with Casters"
         ],
         [
-          "Around $171.99",
+          "Under $180",
           "12U Rack with Caster Wheels"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "AxcessAbles 22U Rolling IT Server Rack"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "AxcessAbles 30U Rolling Network Server Rack"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "6U Open Frame Server Rack with Wheels is aimed at buyers prioritizing 6u, 15.75\"w x 19.49\"d x 15.31\"h." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "6U Open Frame Server Rack with Wheels is aimed at buyers prioritizing 6u, 15.75\"w x 19.49\"d x 15.31\"h." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-rolling-server-racks","title":"Best Rolling Server Racks in 2026"},{"href":"/guide/best-server-racks-on-wheels","title":"Best Server Racks on Wheels in 2026"},{"href":"/guide/best-portable-server-racks","title":"Best Portable Server Racks in 2026"}];

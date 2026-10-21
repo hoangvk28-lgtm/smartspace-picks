@@ -172,7 +172,7 @@ export default async function BestElectricStandingDeskPage() {
     about: [
       { "@type": "Thing", name: "Electric Standing Desk" },
       { "@type": "Thing", name: "Motorized Desk" },
-      { "@type": "Thing", name: "Height Adjustable Desk" },
+      { "@type": "Thing", name: "Height Adjustable Desk" }
     ],
   };
 
@@ -192,7 +192,7 @@ export default async function BestElectricStandingDeskPage() {
         position: 3,
         name: "Best Electric Standing Desks",
         item: `${SITE_URL}/guide/best-electric-standing-desk`,
-      },
+      }
     ],
   };
 
@@ -256,7 +256,7 @@ export default async function BestElectricStandingDeskPage() {
             Six electric standing desks ranked by sales volume, review count,
             motor reliability, and height range. All picks are one-piece
             complete desks with a desktop surface included, currently in stock,
-            and rated 4.5 stars or higher.
+
           </p>
           <div className="flex flex-wrap items-center gap-4 mt-5 pt-5 border-t border-border">
             <div className="flex items-center gap-2 text-sm text-ink-secondary">
@@ -461,7 +461,7 @@ export default async function BestElectricStandingDeskPage() {
                       { user: "5'0\" to 5'4\"", standing: "35\" to 39\"", max: "40\"+" },
                       { user: "5'5\" to 5'9\"", standing: "39\" to 43\"", max: "44\"+" },
                       { user: "5'10\" to 6'0\"", standing: "43\" to 46\"", max: "47\"+" },
-                      { user: "6'1\" to 6'4\"", standing: "46\" to 49\"", max: "50\"+" },
+                      { user: "6'1\" to 6'4\"", standing: "46\" to 49\"", max: "50\"+" }
                     ].map((row, i) => (
                       <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                         <td className="px-4 py-3 font-medium text-ink text-xs">{row.user}</td>
@@ -548,7 +548,7 @@ export default async function BestElectricStandingDeskPage() {
                     { type: "Single motor, 2-stage", stability: "Moderate wobble at max height", noise: "45 to 55 dB", price: "Under $300" },
                     { type: "Single motor, 3-stage", stability: "Improved rigidity", noise: "45 to 52 dB", price: "$250 to $400" },
                     { type: "Dual motor, 2-stage", stability: "Noticeably more stable", noise: "40 to 50 dB", price: "$350 to $600" },
-                    { type: "Dual motor, 3-stage", stability: "Best in class", noise: "38 to 48 dB", price: "$500+" },
+                    { type: "Dual motor, 3-stage", stability: "Best in class", noise: "38 to 48 dB", price: "$500+" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.type}</td>
@@ -578,7 +578,7 @@ export default async function BestElectricStandingDeskPage() {
                   {[
                     { width: "48 inches", fits: "Single monitor or dual 24\" with arm", notes: "Minimum for dual-monitor comfort" },
                     { width: "55 inches", fits: "Dual 24\" to 27\" monitors", notes: "Comfortable side-by-side layout" },
-                    { width: "60 inches", fits: "Dual 27\"+ or ultrawide", notes: "Full workstation without compromise" },
+                    { width: "60 inches", fits: "Dual 27\"+ or ultrawide", notes: "Full workstation without compromise" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.width}</td>
@@ -635,7 +635,7 @@ export default async function BestElectricStandingDeskPage() {
                 context: "Best overall by sales volume and review count",
                 id: "ergear-48x24",
                 name: "ErGear 48x24\"",
-                verdict: " - No.1 Best Seller, 11,000+ reviews at 4.5 stars, 47.6\" max height.",
+                verdict: " - No.1 Best Seller, 47.6\" max height.",
               },
               {
                 context: "Best budget option under $200",
@@ -647,13 +647,13 @@ export default async function BestElectricStandingDeskPage() {
                 context: "Best brand with the longest warranty",
                 id: "flexispot-en1-48x24",
                 name: "FlexiSpot EN1",
-                verdict: " - 5-year warranty, 12,471 reviews, one-piece desktop construction.",
+                verdict: " - 5-year warranty, one-piece desktop construction.",
               },
               {
                 context: "Best Amazon's Choice rating",
                 id: "fezibo-48x24",
                 name: "FEZIBO 48x24\"",
-                verdict: " - 4.6 stars at 4,552 reviews, Amazon's Choice badge.",
+                verdict: " - Amazon's Choice badge.",
               },
               {
                 context: "Best wide surface for dual monitors",
@@ -665,8 +665,8 @@ export default async function BestElectricStandingDeskPage() {
                 context: "Best simple home office pick with top rating",
                 id: "huanuo-48x24",
                 name: "HUANUO 48x24\"",
-                verdict: " - 4.6 stars tied for highest on this list, monitor accessory brand background.",
-              },
+                verdict: " - Monitor accessory brand background.",
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

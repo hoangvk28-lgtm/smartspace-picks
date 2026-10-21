@@ -12,7 +12,7 @@ export const portableMonitorPowerRequirementsGuide: Guide = {
     "portable monitor single cable usb c",
     "does portable monitor need separate power",
     "laptop usb c power delivery for monitor",
-    "portable monitor power bank",
+    "portable monitor power bank"
   ],
   heroImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const portableMonitorPowerRequirementsGuide: Guide = {
     "portable-monitor-vs-laptop-screen-extender",
     "usb-c-power-delivery-explained",
     "thunderbolt-vs-usb-c-explained",
-    "usb-c-docking-station-ports-chart",
+    "usb-c-docking-station-ports-chart"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const portableMonitorPowerRequirementsGuide: Guide = {
       question: "How do I know if my laptop supports single-cable portable monitor operation?",
       answer:
         "Check your laptop's specifications for USB-C DisplayPort Alt Mode support (for video) combined with sufficient power delivery output, both capabilities need to be present on the same port for a true single-cable setup to work as intended.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const portableMonitorPowerRequirementsGuide: Guide = {
     {
       heading: "Why Battery Impact Matters Even in a Successful Single-Cable Setup",
       body: `Even when a laptop's USB-C port does successfully support single-cable portable monitor operation, this convenience comes at the cost of the laptop supplying power to the monitor from its own battery whenever not simultaneously connected to a wall charger, for extended unplugged use, this accelerated battery drain is a real tradeoff worth factoring into how long you can realistically work away from a power outlet with this setup, a separately powered portable monitor, while requiring an additional cable or power source, avoids this specific drain on the laptop's own battery.`,
-    },
+    }
   ],
 };

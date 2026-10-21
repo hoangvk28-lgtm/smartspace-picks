@@ -12,7 +12,7 @@ export const magsafeVsStandardPhoneMountGuide: Guide = {
     "magsafe mount worth it",
     "standard phone mount vs magnetic",
     "magsafe compatibility non iphone",
-    "magnetic phone mount alignment",
+    "magnetic phone mount alignment"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const magsafeVsStandardPhoneMountGuide: Guide = {
     "wireless-charging-stand-explained",
     "tablet-stand-vs-phone-stand",
     "adjustable-tablet-arm-explained",
-    "usb-c-power-delivery-explained",
+    "usb-c-power-delivery-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const magsafeVsStandardPhoneMountGuide: Guide = {
       question: "Is it worth buying a MagSafe-compatible case for a non-iPhone to use MagSafe mounts?",
       answer:
         "If you specifically want the convenience and charging alignment benefits of MagSafe-style mounting and already have compatible mounts, a case with embedded compatible magnets is a reasonable way to gain those benefits without an iPhone.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const magsafeVsStandardPhoneMountGuide: Guide = {
     {
       heading: "Why Device Compatibility Remains MagSafe's Real Limitation",
       body: `Despite its genuine convenience advantages, MagSafe's magnetic mounting system is fundamentally an Apple ecosystem feature built around iPhone hardware, non-iPhone users need a specifically compatible case with embedded magnets to access these mounts at all, an extra requirement and cost that iPhone users don't face. For a household or office with mixed device types, a standard mount's broader native compatibility may be the more practical universal choice despite lacking MagSafe's alignment convenience.`,
-    },
+    }
   ],
 };

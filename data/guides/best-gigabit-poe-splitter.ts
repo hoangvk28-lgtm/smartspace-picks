@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This splitter's listing specifically states a voltage gear selector offering either 12V at up to 4.25A or 24V at up to 2.12A, both reaching a genuine 51W maximum power regardless of which voltage you select, the highest wattage in this comparison. Its full Gigabit 10/100/1000Mbps speed handles demanding high-bandwidth devices without bottlenecking.\n\nCompared to the Procet pick below, this one's specifically named compatibility with PTZ cameras, DVRs, NVRs, LED strip lights, monitors, and even speakers, humidifiers, and oil diffusers shows genuinely broad application beyond just cameras.\n\nBest for buyers who need the highest wattage in this comparison at either 12V or 24V for a demanding device.",
     specs: ["12V/4.25A or 24V/2.12A, both up to 51W", "Full Gigabit 1000Mbps, IEEE 802.3bt/at/af", "Includes DC terminal connector, DC cable, Cat5e cable"],
     pros: ["Highest wattage in this comparison at 51W regardless of voltage selected", "Broad named compatibility across cameras, LED lights, and other devices", "Includes all necessary cables and connectors in the package"],
-    cons: ["Highest price in this comparison at $49.99", "Requires an 802.3bt PoE++ source for full compatibility"],
+    cons: ["Highest price in this comparison at under $50", "Requires an 802.3bt PoE++ source for full compatibility"],
     bestFor: "buyers who need the highest wattage in this comparison at either 12V or 24V",
   },
   {
@@ -77,7 +77,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B09CYGW46K?tag=deskfinds0d-20",
     description: "This splitter's listing specifically states auto-detection that provides appropriate power output to connected devices, up to a max 24W (12V/2A) via a 5.5x2.5mm connector, while maintaining full Gigabit speed at the lowest single-unit price in this comparison. Its multiple protection features include isolation circuit, short-circuit, and overvoltage protection.\n\nCompared to the SICSOLINK 2-pack pick above, this one's single-unit format suits buyers who only need to convert one device without paying for a second unit they won't use.\n\nBest for buyers who only need one Gigabit 12V splitter at the lowest price in this comparison.",
     specs: ["12V/2A (24W), 5.5x2.5mm connector, Gigabit speed", "Auto-detect appropriate power output", "Isolation, short-circuit, overvoltage protection"],
-    pros: ["Lowest single-unit price in this comparison at $13.59", "Full Gigabit speed at a budget-friendly price", "Multiple protection features safeguard connected equipment"],
+    pros: ["Lowest single-unit price in this comparison at under $15", "Full Gigabit speed at a budget-friendly price", "Multiple protection features safeguard connected equipment"],
     cons: ["Single unit only, no multi-pack value like the SICSOLINK pick", "No selectable voltage or industrial housing like the pricier picks"],
     bestFor: "buyers who only need one Gigabit 12V splitter at the lowest price",
   }
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["The highest wattage at either 12V or 24V", "802.3bt Gigabit PoE++ Splitter to 12V/24V, 51W"],
         ["A metal industrial housing with 6KV surge protection", "Procet Gigabit PoE Splitter 12V/24V DC 25W"],
         ["Two units at a low per-unit price", "SICSOLINK 2-Pack Gigabit Active PoE Splitter"],
-        ["The lowest price for a single 12V unit", "Revotech Gigabit PoE Splitter 48V to 12V 2A"],
+        ["The lowest price for a single 12V unit", "Revotech Gigabit PoE Splitter 48V to 12V 2A"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $14", "Revotech Gigabit Splitter ($13.59)"],
-        ["Under $16", "SICSOLINK 2-Pack ($15.98)"],
-        ["Under $40", "Procet Gigabit Splitter ($39.00)"],
-        ["Under $50", "802.3bt Gigabit PoE++ Splitter, 51W ($49.99)"],
+        ["Under $14", "Revotech Gigabit Splitter (under $15)"],
+        ["Under $16", "SICSOLINK 2-Pack (under $20)"],
+        ["Under $40", "Procet Gigabit Splitter (under $40)"],
+        ["Under $50", "802.3bt Gigabit PoE++ Splitter, 51W (under $50)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Maximum Wattage vs Budget Value",
     cards: [
       { label: "Maximum wattage (51W, Procet)", text: "Both offer selectable voltage and higher power ceilings, suited to demanding PTZ cameras and industrial deployments." },
-      { label: "Budget value (SICSOLINK, Revotech)", text: "Both deliver full Gigabit speed and 24W at 12V for standard cameras and access points at a fraction of the price." },
+      { label: "Budget value (SICSOLINK, Revotech)", text: "Both deliver full Gigabit speed and 24W at 12V for standard cameras and access points at a fraction of the price." }
     ],
     note: "If your device needs more than 24W or requires 24V, the 51W or Procet picks are worth the investment. For a standard 12V camera or access point, the SICSOLINK or Revotech picks deliver full Gigabit performance at a much lower cost.",
   },
@@ -130,7 +130,7 @@ export const howToChoose = [
       headers: ["Your device's voltage need", "Recommended pick"],
       rows: [
         ["Fixed 12V only", "SICSOLINK 2-Pack or Revotech Gigabit Splitter"],
-        ["Selectable 12V or 24V", "802.3bt Gigabit PoE++ Splitter or Procet Splitter"],
+        ["Selectable 12V or 24V", "802.3bt Gigabit PoE++ Splitter or Procet Splitter"]
       ],
     },
   },
@@ -138,16 +138,16 @@ export const howToChoose = [
     subheading: "For a High-Power PTZ Camera or LED Lighting Installation Specifically",
     cards: [
       { label: "Look for", text: "A splitter with genuinely high wattage output and voltage selectability, since PTZ cameras with motorized functions and LED lighting installations often need more power and different voltages than a standard fixed camera." },
-      { label: "In this comparison", text: "The 802.3bt Gigabit PoE++ Splitter specifically names PTZ cameras and LED strip lights among its supported applications, with 51W available at either voltage." },
+      { label: "In this comparison", text: "The 802.3bt Gigabit PoE++ Splitter specifically names PTZ cameras and LED strip lights among its supported applications, with 51W available at either voltage." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You need the highest wattage in this comparison for a demanding PTZ camera or LED installation, where the 51W pick's $49.99 price is justified by that power ceiling." },
-      { label: "Save if", text: "You just need a standard 12V Gigabit splitter for a basic camera, where the Revotech pick delivers that for $13.59, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You need the highest wattage in this comparison for a demanding PTZ camera or LED installation, where the 51W pick's under $50 price is justified by that power ceiling." },
+      { label: "Save if", text: "You just need a standard 12V Gigabit splitter for a basic camera, where the Revotech pick delivers that for under $15, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

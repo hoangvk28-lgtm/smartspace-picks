@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/5113YGxzkgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FKFZQHL1?tag=deskfinds0d-20",
-    description: "A 12-inch Full HD display with full lamination minimizes parallax between stylus and screen, paired with an anti-glare coating for a genuinely paper-like feel. The tablet comes loaded with top-tier drawing and animation apps including Sketchbook, Krita, Infinite Painter, and Flipaclip. Four bonus items worth noting ship included: a tablet case, drawing glove, universal power adapter, and pre-applied screen protector. An octa-core CPU with 6GB RAM and 128GB storage ensures smooth performance across creative tasks and general entertainment use.\n\nThe strongest case for this pick comes down to ships preloaded with genuinely capable apps like Krita as well as four bonus items worth a stated $50 included. The compromise here is that 128GB storage is fixed with no stated expansion, so factor that in alongside the $224.95 asking price.",
+    description: "A 12-inch Full HD display with full lamination minimizes parallax between stylus and screen, paired with an anti-glare coating for a genuinely paper-like feel. The tablet comes loaded with top-tier drawing and animation apps including Sketchbook, Krita, Infinite Painter, and Flipaclip. Four bonus items worth noting ship included: a tablet case, drawing glove, universal power adapter, and pre-applied screen protector. An octa-core CPU with 6GB RAM and 128GB storage ensures smooth performance across creative tasks and general entertainment use.\n\nThe strongest case for this pick comes down to ships preloaded with genuinely capable apps like Krita as well as four bonus items worth a stated $50 included. The compromise here is that 128GB storage is fixed with no stated expansion, so factor that in alongside the under $250 asking price.",
     specs: ["12in Full HD, full-laminated screen","6GB RAM, 128GB storage","Preloaded: Sketchbook, Krita, Infinite Painter"],
     pros: ["Ships preloaded with genuinely capable apps like Krita","Four bonus items worth a stated $50 included","Full lamination minimizes parallax for accurate strokes"],
     cons: ["128GB storage is fixed with no stated expansion","Octa-core CPU is modest next to flagship standalone tablets"],
@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $161.49",
+          "Under $170",
           "Frunsi T8 Standalone Drawing Tablet 8inch Drawing Tablet No Computer Needed"
         ],
         [
-          "Around $199.95",
+          "Under $200",
           "Frunsi RubensTab T11 Pro standalone Drawing Tablet"
         ],
         [
-          "Around $224.95",
+          "Under $250",
           "RubensTab T12 Standalone Drawing Tablet"
         ],
         [
-          "Around $284.95",
+          "Under $300",
           "RubensTab T14 Drawing Tablet No Computer Needed"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Frunsi T8 Standalone Drawing Tablet 8inch Drawing Tablet No Computer Needed is aimed at buyers prioritizing 8in display, android 13, standalone." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Frunsi T8 Standalone Drawing Tablet 8inch Drawing Tablet No Computer Needed is aimed at buyers prioritizing 8in display, android 13, standalone." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"},{"href":"/guide/best-wacom-drawing-tablets","title":"Best Wacom Drawing Tablets in 2026"},{"href":"/guide/best-drawing-tablets-with-screens","title":"Best Drawing Tablets With Screens in 2026"}];

@@ -140,7 +140,7 @@ export default async function Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Office Chairs Under $300", item: `${SITE_URL}/guide/best-office-chair-under-300` },
+      { "@type": "ListItem", position: 3, name: "Best Office Chairs Under $300", item: `${SITE_URL}/guide/best-office-chair-under-300` }
     ],
   };
 
@@ -245,7 +245,7 @@ export default async function Page() {
 
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>A good ergonomic office chair under $300 should include adjustable lumbar height (not just depth), a seat height range that fits your body, and a warranty of at least 3 years - all three are achievable at this budget.</p>
-          <p>This guide covers eight office chairs under $300 ranked by adjustability, warranty length, mesh vs padded construction, and price - from the Branch Ergonomic at $299 with a 7-year warranty to the Hbada white mesh under $190.</p>
+          <p>This guide covers eight office chairs under $300 ranked by adjustability, warranty length, mesh vs padded construction, and price - from the Branch Ergonomic at under $300 with a 7-year warranty to the Hbada white mesh under $190.</p>
           <p>If you are looking to step up the quality, see our <a href='/guide/best-office-chair-under-500' className='text-brand hover:underline'>best office chairs under $500</a> guide for mid-range options.</p>
         </section>
 

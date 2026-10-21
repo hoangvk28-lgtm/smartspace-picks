@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51Lhpuh-ZML._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0BPLFGJ3B?tag=deskfinds0d-20",
-    "description": "Bedsure's throw is a checkered jacquard fleece in sage green, sized 50 by 60 inches and made of microfiber. The listing calls it soft and lightweight, with a shaggy texture.\n\nIt is the priciest here at $14.99, and it is the only item that covers a student on a cold night, unlike the smaller gadgets. Compared with the pillow cover, it takes more room in a bag.\n\nBest as the main gift in a budget care package. The caveat is size: at 50 by 60 inches it is a lap throw, not full bed coverage for a Twin XL.",
+    "description": "Bedsure's throw is a checkered jacquard fleece in sage green, sized 50 by 60 inches and made of microfiber. The listing calls it soft and lightweight, with a shaggy texture.\n\nIt is the priciest here at under $15, and it is the only item that covers a student on a cold night, unlike the smaller gadgets. Compared with the pillow cover, it takes more room in a bag.\n\nBest as the main gift in a budget care package. The caveat is size: at 50 by 60 inches it is a lap throw, not full bed coverage for a Twin XL.",
     "specs": [
       "50 x 60 inch throw",
       "Checkered jacquard fleece",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31KaUIU71LL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CF95VX1J?tag=deskfinds0d-20",
-    "description": "Lovskoo is a tower-style power strip with eight universal sockets and three USB ports sharing a 5 volt, 2.1 amp total, with each port up to 2.1 amps. The vertical tower design is meant to save space.\n\nAt $8.99 it costs less than the throw and does a job nothing else here can, which is giving a bed or desk more outlets. Unlike the flashlight, it is a plug-in item that housing may regulate.\n\nChoose it for a student with few outlets. The caveat is that some schools ban power strips or multi-plug adapters, and others require surge protection, so confirm the rules and do not daisy-chain strips.",
+    "description": "Lovskoo is a tower-style power strip with eight universal sockets and three USB ports sharing a 5 volt, 2.1 amp total, with each port up to 2.1 amps. The vertical tower design is meant to save space.\n\nAt under $9 it costs less than the throw and does a job nothing else here can, which is giving a bed or desk more outlets. Unlike the flashlight, it is a plug-in item that housing may regulate.\n\nChoose it for a student with few outlets. The caveat is that some schools ban power strips or multi-plug adapters, and others require surge protection, so confirm the rules and do not daisy-chain strips.",
     "specs": [
       "8 sockets, 3 USB ports",
       "USB 5V/2.1A total",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51-WqcraUbL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09PMKBHF1?tag=deskfinds0d-20",
-    "description": "Victoper sells a two pack of zoomable LED flashlights with five modes, including low, medium, high, SOS and strobe. The body is described as aircraft grade alloy with a hard anodized finish.\n\nIt costs $9.99, about the same as the pillow cover, and gives two lights for a roommate pair. Unlike the sewing kit, it is useful in a power cut.\n\nA good practical gift for a student in a shared room. The caveat is that the listing does not say which batteries are included, so check before relying on them.",
+    "description": "Victoper sells a two pack of zoomable LED flashlights with five modes, including low, medium, high, SOS and strobe. The body is described as aircraft grade alloy with a hard anodized finish.\n\nIt costs under $10, about the same as the pillow cover, and gives two lights for a roommate pair. Unlike the sewing kit, it is useful in a power cut.\n\nA good practical gift for a student in a shared room. The caveat is that the listing does not say which batteries are included, so check before relying on them.",
     "specs": [
       "2 pack, 5 light modes",
       "Zoomable beam",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41KLCOHCENL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H2J1KB42?tag=deskfinds0d-20",
-    "description": "SYLLHRZGB's pillow cover is 12 by 20 inches and made from a soft fabric, designed for college dorm rooms with a hugs from home message. The listing notes the cover is sold without the pillow insert.\n\nAt $9.99 it costs $5 less than the throw and gives the bed a sentimental touch. It is smaller than the vines but easier to ship.\n\nChoose this for a parent far away from a student. The caveat is that you must supply a 12 by 20 inch insert, which is an unusual size.",
+    "description": "SYLLHRZGB's pillow cover is 12 by 20 inches and made from a soft fabric, designed for college dorm rooms with a hugs from home message. The listing notes the cover is sold without the pillow insert.\n\nAt under $10 it costs $5 less than the throw and gives the bed a sentimental touch. It is smaller than the vines but easier to ship.\n\nChoose this for a parent far away from a student. The caveat is that you must supply a 12 by 20 inch insert, which is an unusual size.",
     "specs": [
       "12 x 20 inch cover",
       "Soft fabric",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/512-hjXieSL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0BXKB7QF6?tag=deskfinds0d-20",
-    "description": "Coquimbo is a compact sewing kit with thread, needles, scissors, buttons, a thimble and a measuring tape. The listing says it suits travelers and beginners.\n\nIt costs $6.98, the second cheapest here, and handles repairs that no other gift on this list can. Compared with the flashlights, it is used less often but matters when a button pops.\n\nA smart stocking stuffer for a first year student. The caveat is that basic kits include small scissors and cheap needles, so heavy repairs need a better set.",
+    "description": "Coquimbo is a compact sewing kit with thread, needles, scissors, buttons, a thimble and a measuring tape. The listing says it suits travelers and beginners.\n\nIt costs under $7, the second cheapest here, and handles repairs that no other gift on this list can. Compared with the flashlights, it is used less often but matters when a button pops.\n\nA smart stocking stuffer for a first year student. The caveat is that basic kits include small scissors and cheap needles, so heavy repairs need a better set.",
     "specs": [
       "Thread, needles, scissors",
       "Buttons, thimble, tape",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51hVuIhvwhL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0F27G9WVW?tag=deskfinds0d-20",
-    "description": "Freyalife sells 12 faux ivy vines totaling 86 feet, each about 7.2 feet long. The leaves are listed as artificial and suitable for homes, classrooms and dorms.\n\nIt is the lowest priced pick at $4.99 and covers the most wall, unlike the pillow cover, which covers just a bed. It does not hold anything or provide light.\n\nGood for an aesthetic dorm wall. The caveat is that fake plants collect dust and need removable hooks to hang.",
+    "description": "Freyalife sells 12 faux ivy vines totaling 86 feet, each about 7.2 feet long. The leaves are listed as artificial and suitable for homes, classrooms and dorms.\n\nIt is the lowest priced pick at under $5 and covers the most wall, unlike the pillow cover, which covers just a bed. It does not hold anything or provide light.\n\nGood for an aesthetic dorm wall. The caveat is that fake plants collect dust and need removable hooks to hang.",
     "specs": [
       "12 vines, 86 feet total",
       "About 7.2 feet each"

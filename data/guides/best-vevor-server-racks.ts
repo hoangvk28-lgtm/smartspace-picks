@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41KuU2tlXhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C64X8J8R?tag=deskfinds0d-20",
-    description: "VEVOR's 12U open frame rack supports 500 lbs ground-mounted, dropping to 150 lbs if wall-mounted, and comes with a genuinely complete hardware kit down to a grounding wire.\n\nThe adjustable 23-40 inch depth range and roller casters mean it can flex to fit different equipment and rooms without buying a different SKU for each configuration.\n\nWhat stands out here is 500 lb ground-mounted rating handles heavier gear, plus grounding wire included, a detail many racks skip. The main tradeoff: wall-mount capacity drops sharply to 150 lbs, so weigh that against the $89.90 price before buying.",
+    description: "VEVOR's 12U open frame rack supports 500 lbs ground-mounted, dropping to 150 lbs if wall-mounted, and comes with a genuinely complete hardware kit down to a grounding wire.\n\nThe adjustable 23-40 inch depth range and roller casters mean it can flex to fit different equipment and rooms without buying a different SKU for each configuration.\n\nWhat stands out here is 500 lb ground-mounted rating handles heavier gear, plus grounding wire included, a detail many racks skip. The main tradeoff: wall-mount capacity drops sharply to 150 lbs, so weigh that against the under $90 price before buying.",
     specs: ["12U, 23-40\" adjustable depth","500 lb ground / 150 lb wall capacity","Casters and grounding wire included"],
     pros: ["500 lb ground-mounted rating handles heavier gear","Grounding wire included, a detail many racks skip","Top panel adds extra storage space"],
     cons: ["Wall-mount capacity drops sharply to 150 lbs","Open frame leaves cables and gear exposed"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41xxDN61aIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C64YY7G7?tag=deskfinds0d-20",
-    description: "The mid-size option in VEVOR's open frame lineup, this 20U rack keeps the same complete accessory kit as their smaller 12U and 15U models, just scaled up.\n\nGround-mounted capacity here is 200 lbs, notably lower than the 12U VEVOR model's 500 lb rating, so it's better suited to lighter networking gear than a dense server stack.\n\nWhere this one earns its spot is same complete hardware kit as VEVOR's smaller racks, and roller design makes repositioning simple. Worth noting before buying: 200 lb ground rating is notably lower than the 12U model, which matters more at $112.99 than it would on a cheaper pick.",
+    description: "The mid-size option in VEVOR's open frame lineup, this 20U rack keeps the same complete accessory kit as their smaller 12U and 15U models, just scaled up.\n\nGround-mounted capacity here is 200 lbs, notably lower than the 12U VEVOR model's 500 lb rating, so it's better suited to lighter networking gear than a dense server stack.\n\nWhere this one earns its spot is same complete hardware kit as VEVOR's smaller racks, and roller design makes repositioning simple. Worth noting before buying: 200 lb ground rating is notably lower than the 12U model, which matters more at under $120 than it would on a cheaper pick.",
     specs: ["20U, 23-40\" adjustable depth","200 lb ground / 150 lb wall capacity","Grounding wire and full hardware kit included"],
     pros: ["Same complete hardware kit as VEVOR's smaller racks","Roller design makes repositioning simple","Top panel adds extra storage space"],
     cons: ["200 lb ground rating is notably lower than the 12U model","Not suited to a dense heavy server load"],
@@ -129,20 +129,20 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $89.90",
+          "Under $90",
           "VEVOR 12U Open Frame Server Rack"
         ],
         [
-          "Around $112.99",
+          "Under $120",
           "VEVOR 20U Open Frame Server Rack"
         ],
         [
-          "Around $115.90",
+          "Under $120",
           "VEVOR 15U Open Frame Server Rack"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -190,7 +190,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "VEVOR 12U Open Frame Server Rack is aimed at buyers prioritizing 12u, 23-40\" adjustable depth." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "VEVOR 12U Open Frame Server Rack is aimed at buyers prioritizing 12u, 23-40\" adjustable depth." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

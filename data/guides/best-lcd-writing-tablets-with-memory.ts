@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "lcd writing tablet with memory";
 export const introParagraphs = [
   "'Memory lock' on an LCD writing tablet could easily be misread as a feature that saves your notes, but that is not what it does. A memory lock is a physical switch or button that prevents the screen from accidentally erasing, keeping your current writing visible until you unlock it, not a digital save function.",
-  "If what you actually want is for your writing to be saved somewhere retrievable after you erase the screen, only a genuine Bluetooth sync-capable model delivers that, we've included one such option below as the clear alternative for buyers who came here looking for real data retention rather than a lock switch.",
+  "If what you actually want is for your writing to be saved somewhere retrievable after you erase the screen, only a genuine Bluetooth sync-capable model delivers that, we've included one such option below as the clear alternative for buyers who came here looking for real data retention rather than a lock switch."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "7 min";
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Memory lock terminology clarified before ranking picks", description: "Led with an explicit distinction between a memory lock switch and genuine note-saving, since this is the single biggest point of buyer confusion for this search term." },
   { title: "Memory lock function verified from listing titles", description: "Confirmed each memory lock pick explicitly states the feature in its title rather than inferring it from general 'digital' branding." },
   { title: "Genuine save-capable alternative included transparently", description: "Added the one Bluetooth sync-capable model as a clearly labeled alternative for buyers whose actual need is data retention, not erase protection." },
-  { title: "Value compared across single and multi-pack memory lock options", description: "Compared per-unit pricing across the memory lock 2-packs to help buyers assess genuine value." },
+  { title: "Value compared across single and multi-pack memory lock options", description: "Compared per-unit pricing across the memory lock 2-packs to help buyers assess genuine value." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -217,11 +217,11 @@ export const faq: FaqItem[] = [
   { q: "Does a memory lock save my notes on an LCD writing tablet?", a: "No, a memory lock only prevents the screen from being accidentally erased. It does not save or store your writing anywhere digitally." },
   { q: "What is the difference between memory lock and Bluetooth sync?", a: "Memory lock is a physical switch preventing accidental erasing. Bluetooth sync genuinely saves your handwritten notes to an app before you erase the screen, a completely different feature." },
   { q: "Which LCD writing tablet actually saves my notes?", a: "The Boogie Board Sync is the genuine option, it connects via Bluetooth to save notes to an app, unlike the memory lock models in this guide." },
-  { q: "Is a memory lock feature worth having?", a: "Yes, if you want to display a note or drawing for a while without it accidentally clearing, it's a genuinely useful physical safeguard, just not a save function." },
+  { q: "Is a memory lock feature worth having?", a: "Yes, if you want to display a note or drawing for a while without it accidentally clearing, it's a genuinely useful physical safeguard, just not a save function." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-lcd-writing-tablets-for-note-taking", title: "Best LCD Writing Tablets for Note-Taking (2026)" },
   { href: "/guide/best-reusable-lcd-writing-tablets", title: "Best Reusable LCD Writing Tablets (2026)" },
-  { href: "/guide/best-smart-lcd-writing-tablets", title: "Best Smart LCD Writing Tablets (2026)" },
+  { href: "/guide/best-smart-lcd-writing-tablets", title: "Best Smart LCD Writing Tablets (2026)" }
 ];

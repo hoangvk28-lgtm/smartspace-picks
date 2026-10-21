@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $522.49",
+          "Under $550",
           "L-Shaped Reception Desk with Curved Corner and Vertical Slats"
         ],
         [
-          "Around $949.99",
+          "Under $950",
           "Romig Marque Curved ADA-Compliant Reception Station"
         ],
         [
-          "Around $949.99",
+          "Under $950",
           "Romig Marque Curved ADA-Compliant Reception Station"
         ],
         [
-          "Around $1,192.84",
+          "Under $1,200",
           "Romig Marque Curved Single-Unit Reception Workstation"
         ],
         [
-          "Around $1,469.00",
+          "Under $1,500",
           "Fully Assembled Curved Reception Desk"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Romig Marque Curved Single-Unit Reception Workstation is aimed at buyers prioritizing 72\"w x 32\"d curved single-unit desk." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Romig Marque Curved Single-Unit Reception Workstation is aimed at buyers prioritizing 72\"w x 32\"d curved single-unit desk." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks","title":"8 Best Reception Desks in 2026"},{"href":"/guide/best-round-reception-desks","title":"6 Best Round Reception Desks in 2026"},{"href":"/guide/best-l-shaped-reception-desks","title":"7 Best L-Shaped Reception Desks in 2026"}];

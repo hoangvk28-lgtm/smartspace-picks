@@ -161,7 +161,7 @@ export default async function BestDeskHutchesSmallDesksPage() {
     about: [
       { "@type": "Thing", name: "Desk Hutch" },
       { "@type": "Thing", name: "Small Desk Organization" },
-      { "@type": "Thing", name: "Desktop Storage" },
+      { "@type": "Thing", name: "Desktop Storage" }
     ],
   };
 
@@ -181,7 +181,7 @@ export default async function BestDeskHutchesSmallDesksPage() {
         position: 3,
         name: "Best Desk Hutches for Small Desks",
         item: `${SITE_URL}/guide/best-desk-hutches-for-small-desks`,
-      },
+      }
     ],
   };
 
@@ -523,7 +523,7 @@ export default async function BestDeskHutchesSmallDesksPage() {
                       type: "Pegboard hutch",
                       bestFor: "Hanging headphones, cables, and accessories",
                       notes: "Snughome pegboard rustic and black models",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -571,50 +571,50 @@ export default async function BestDeskHutchesSmallDesksPage() {
                 context: "Best overall by reviews",
                 id: "furinno-classic-37w",
                 name: "Furinno Classic 5-Shelf 37-inch",
-                verdict: " - 39,764 reviews at 4.2 stars, 5 shelves, fits monitors up to 24 inches.",
+                verdict: " - 5 shelves, fits monitors up to 24 inches.",
               },
               {
                 context: "Best budget pick",
                 id: "jerry-maggie-adjustable",
                 name: "Jerry and Maggie Adjustable",
-                verdict: " - 12,304 reviews at 4.4 stars, $24.99, adjustable width.",
+                verdict: " - Under $25, adjustable width.",
               },
               {
                 context: "Best rustic brown finish",
                 id: "snughome-4tier-rustic",
                 name: "Snughome 38.6-inch Rustic Brown",
-                verdict: " - 454 reviews at 4.7 stars, $46.99, highest rating in roundup.",
+                verdict: " - Under $50, highest rating in roundup.",
               },
               {
                 context: "Best pegboard option",
                 id: "snughome-4tier-pegboard",
                 name: "Snughome 38.6-inch Pegboard",
-                verdict: " - 321 reviews at 4.6 stars, $51.99, hook-ready panel included.",
+                verdict: " - Under $60, hook-ready panel included.",
               },
               {
                 context: "Best black pegboard",
                 id: "snughome-black-pegboard",
                 name: "Snughome Black Pegboard",
-                verdict: " - 321 reviews at 4.6 stars, $56.99, all-black finish for dark setups.",
+                verdict: " - Under $60, all-black finish for dark setups.",
               },
               {
                 context: "Best adjustable shelf",
                 id: "nutikas-adjustable",
                 name: "NUTIKAS 16-28 inch Adjustable",
-                verdict: " - 556 reviews at 4.3 stars, $25.97, best fit for very narrow desks.",
+                verdict: " - Under $30, best fit for very narrow desks.",
               },
               {
                 context: "Best minimal pick",
                 id: "furinno-5shelf-small",
                 name: "Furinno Classic 5-Shelf",
-                verdict: " - 770 reviews at 4.3 stars, $17.13, lowest price in roundup.",
+                verdict: " - Under $20, lowest price in roundup.",
               },
               {
                 context: "Best ultra-compact",
                 id: "yigang-3tier",
                 name: "YIGANG 3-Tier 29-inch",
-                verdict: " - 70 reviews at 4.2 stars, $21.99, 29-inch fixed-width compact option.",
-              },
+                verdict: " - Under $25, 29-inch fixed-width compact option.",
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

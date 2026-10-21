@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "standing desk converter with keyboard tray";
 export const introParagraphs = [
   "A true keyboard tray is a separate tier from the monitor platform, not just a lower lip on a single-level surface. This distinction matters because a genuine two-tier design lets you set keyboard height independently from monitor height, better matching real ergonomic needs.",
-  "We prioritized picks explicitly confirmed as dual-tier designs, since a single-platform converter moves the keyboard and monitor together regardless of what the listing calls its surface.",
+  "We prioritized picks explicitly confirmed as dual-tier designs, since a single-platform converter moves the keyboard and monitor together regardless of what the listing calls its surface."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required a genuine dual-tier design, not a single-level surface", description: "We only included converters with an actual separate keyboard tier below the monitor platform, distinguishing them from single-platform designs." },
   { title: "Flagged the one pick with a genuinely retractable tray mechanism", description: "We noted this as a distinct feature from the fixed lower-tier designs on the other picks, useful for buyers who want the option to slide the tray away entirely." },
   { title: "Compared platform sizes across the dual-tier category", description: "We covered 32 to 45 inch two-tier designs, matching different desk space and monitor setup needs." },
-  { title: "Noted where electric lift combines with a genuine keyboard tray", description: "We flagged this specific combination as worth its price premium for buyers who want both features together." },
+  { title: "Noted where electric lift combines with a genuine keyboard tray", description: "We flagged this specific combination as worth its price premium for buyers who want both features together." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -254,7 +254,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
@@ -263,11 +263,11 @@ export const faq: FaqItem[] = [
   { q: "Is there a retractable keyboard tray option?", a: "Yes, the Rocelco 45 inch Standing Desk Converter has a slide-out retractable tray, unlike the fixed lower tiers on other picks." },
   { q: "Do these keyboard trays adjust height independently from the monitor platform?", a: "Generally no, most two-tier designs move the tray and platform together on the same lift; verify explicitly if independent adjustment matters to you." },
   { q: "Is there an electric option with a keyboard tray?", a: "Yes, the FLEXISPOT 40 Inch Electric Standing Desk Converter combines a genuine keyboard tray with electric lift." },
-  { q: "What's the widest keyboard tray option?", a: "The FITUEYES Height Adjustable Standing Desk 36 Inch offers a wider tray than the standard 32 inch tier." },
+  { q: "What's the widest keyboard tray option?", a: "The FITUEYES Height Adjustable Standing Desk 36 Inch offers a wider tray than the standard 32 inch tier." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-ergonomic-standing-desk-converters", title: "Best Ergonomic Standing Desk Converters (2026)" },
   { href: "/guide/best-electric-standing-desk-converters", title: "Best Electric Standing Desk Converters (2026)" },
-  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
+  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" }
 ];

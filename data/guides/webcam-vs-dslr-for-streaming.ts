@@ -12,7 +12,7 @@ export const webcamVsDslrForStreamingGuide: Guide = {
     "use dslr as webcam",
     "mirrorless camera for video calls",
     "webcam vs dedicated camera quality",
-    "capture card for dslr streaming",
+    "capture card for dslr streaming"
   ],
   heroImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const webcamVsDslrForStreamingGuide: Guide = {
     "webcam-resolution-explained",
     "webcam-fov-explained",
     "green-screen-vs-virtual-background",
-    "webcam-lighting-explained",
+    "webcam-lighting-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const webcamVsDslrForStreamingGuide: Guide = {
       question: "Can camera autofocus cause problems during a video call or stream?",
       answer:
         "Yes, some autofocus systems can hunt or refocus unexpectedly if something moves in the foreground or background, manually setting focus or using a camera with reliable, fast autofocus tracking specifically for faces helps avoid this issue.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const webcamVsDslrForStreamingGuide: Guide = {
     {
       heading: "Why the Added Complexity Genuinely Isn't Worth It for Casual Use",
       body: `Setting up a DSLR as a webcam involves real additional cost (a capture card, potentially a dummy battery adapter for continuous power) and setup complexity (configuring the camera's video output settings, managing focus, ensuring it doesn't sleep or shut off) that meaningfully exceeds a webcam's simple plug-and-play experience. For someone attending occasional video calls where image quality isn't a primary professional concern, this added complexity represents real friction without proportional benefit, reserve the DSLR setup for situations where video quality genuinely matters to your work or audience.`,
-    },
+    }
   ],
 };

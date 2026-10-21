@@ -108,7 +108,7 @@ export default async function BestMonitorLightBarsUnder50Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Monitor Light Bars Under $50", item: `${SITE_URL}/guide/best-monitor-light-bars-under-50` },
+      { "@type": "ListItem", position: 3, name: "Best Monitor Light Bars Under $50", item: `${SITE_URL}/guide/best-monitor-light-bars-under-50` }
     ],
   };
 
@@ -239,7 +239,7 @@ export default async function BestMonitorLightBarsUnder50Page() {
             <div className="p-4 rounded-xl border border-border bg-white">
               <h3 className="text-base font-bold text-ink mb-2">Quntis Dominates This Category</h3>
               <p className="text-sm text-ink-secondary leading-relaxed">
-                The Quntis Computer Monitor Lamp at $39.95 has 13,623 reviews at 4.6 stars.
+
                 No other brand in this price range comes close to that review count, which
                 makes it the default choice when validation is the primary decision factor.
                 Competitors like LYMAX and YEELIGHT offer comparable specifications at slightly
@@ -247,10 +247,10 @@ export default async function BestMonitorLightBarsUnder50Page() {
               </p>
             </div>
             <div className="p-4 rounded-xl border border-border bg-white">
-              <h3 className="text-base font-bold text-ink mb-2">RGB vs White-Only Under $50</h3>
+              <h3 className="text-base font-bold text-ink mb-2">RGB vs White-Under $50</h3>
               <p className="text-sm text-ink-secondary leading-relaxed">
                 RGB backlight options are available under $50: the Quntis RGB 15.7-inch at
-                $31.99 and the Quntis with Backlight at $49.99. Both include the standard white
+                under $35 and the Quntis with Backlight at under $50. Both include the standard white
                 front task light plus rear RGB or backlight color. The white-only options
                 (standard Quntis, YEELIGHT, LYMAX) are simpler and have higher review counts
                 in this price range, indicating they are the more common purchase.
@@ -292,11 +292,11 @@ export default async function BestMonitorLightBarsUnder50Page() {
                 </thead>
                 <tbody>
                   {[
-                    { bar: "Quntis Auto-Dimming", price: "$39.95", feature: "13,623 reviews, most validated" },
-                    { bar: "Quntis with Backlight", price: "$49.99", feature: "Bias backlight + wireless remote" },
-                    { bar: "Quntis with Remote", price: "$31.99", feature: "Wireless remote under $35" },
-                    { bar: "YEELIGHT Budget", price: "$25.99", feature: "Lowest price, stepless dimming" },
-                    { bar: "SAMPHON RGB", price: "$16.99", feature: "Sub-$20 dual light" },
+                    { bar: "Quntis Auto-Dimming", price: "under $40", feature: "" },
+                    { bar: "Quntis with Backlight", price: "under $50", feature: "Bias backlight + wireless remote" },
+                    { bar: "Quntis with Remote", price: "under $35", feature: "Wireless remote under $35" },
+                    { bar: "YEELIGHT Budget", price: "under $30", feature: "Lowest price, stepless dimming" },
+                    { bar: "SAMPHON RGB", price: "under $20", feature: "Sub-$20 dual light" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.bar}</td>
@@ -325,14 +325,14 @@ export default async function BestMonitorLightBarsUnder50Page() {
           <h2 className="text-xl font-bold text-ink mb-5 tracking-tight">Bottom Line</h2>
           <div className="space-y-4">
             {[
-              { context: "Best overall under $50", id: "quntis-monitor-lamp-budget", name: "Quntis Computer Monitor Lamp", verdict: " - 13,623 reviews at 4.6 stars, $39.95, most validated under-$50 option." },
-              { context: "Best with backlight", id: "quntis-with-backlight", name: "Quntis with Backlight and Remote", verdict: " - 971 reviews at 4.7 stars, $49.99, highest rated in roundup with bias light." },
-              { context: "Best with remote under $35", id: "quntis-with-remote", name: "Quntis with Remote and Auto-Dimming", verdict: " - 208 reviews at 4.7 stars, $31.99, wireless remote at lowest remote price." },
-              { context: "Best RGB under $35", id: "quntis-rgb-15inch", name: "Quntis RGB 15.7-inch 24 Modes", verdict: " - 1,188 reviews at 4.5 stars, $31.99, most reviews of any RGB model under $35." },
-              { context: "Best budget", id: "yeelight-light-bar", name: "YEELIGHT Monitor Light Bar", verdict: " - 286 reviews at 4.6 stars, $25.99, lowest price with full 2700K-6500K range." },
-              { context: "Best LYMAX standard", id: "lymax-light-bar", name: "LYMAX Standard USB-C", verdict: " - 165 reviews at 4.4 stars, $29.99, gravity damper clip plus USB-C power." },
-              { context: "Best LYMAX with remote", id: "lymax-with-remote", name: "LYMAX with Remote and Backlight", verdict: " - 125 reviews at 4.6 stars, $32.99, remote plus backlight under $35." },
-              { context: "Best under $20", id: "samphon-rgb", name: "SAMPHON RGB Dual Light", verdict: " - 82 reviews at 4.1 stars, $16.99, only sub-$20 option with both front and RGB backlight." },
+              { context: "Best overall under $50", id: "quntis-monitor-lamp-budget", name: "Quntis Computer Monitor Lamp", verdict: " - Under $40, most validated under-$50 option." },
+              { context: "Best with backlight", id: "quntis-with-backlight", name: "Quntis with Backlight and Remote", verdict: " - Under $50, highest rated in roundup with bias light." },
+              { context: "Best with remote under $35", id: "quntis-with-remote", name: "Quntis with Remote and Auto-Dimming", verdict: " - Under $35, wireless remote at lowest remote price." },
+              { context: "Best RGB under $35", id: "quntis-rgb-15inch", name: "Quntis RGB 15.7-inch 24 Modes", verdict: " - Under $35, most reviews of any RGB model under $35." },
+              { context: "Best budget", id: "yeelight-light-bar", name: "YEELIGHT Monitor Light Bar", verdict: " - Under $30, lowest price with full 2700K-6500K range." },
+              { context: "Best LYMAX standard", id: "lymax-light-bar", name: "LYMAX Standard USB-C", verdict: " - Under $30, gravity damper clip plus USB-C power." },
+              { context: "Best LYMAX with remote", id: "lymax-with-remote", name: "LYMAX with Remote and Backlight", verdict: " - Under $35, remote plus backlight under $35." },
+              { context: "Best under $20", id: "samphon-rgb", name: "SAMPHON RGB Dual Light", verdict: " - Under $20, only sub-$20 option with both front and RGB backlight." }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

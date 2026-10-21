@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41Szlhl10ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYPVNBTQ?tag=deskfinds0d-20",
-    description: "Satechi's Pro model remains the only pick in this comparison rated for drives up to 16TB, double the 8TB ceiling every other enclosure here states, which matters specifically if you're building a large archival or personal NAS-style backup drive rather than a working scratch disk.\n\nAt $99.99, it sits below the SABRENT and Lexar picks in price while adding a CES award-winning design credential, a 2-year limited warranty, and a full accessory bundle in the box, a thermal pad, silicone installation pin, clear case, and USB4 cable, that the cheaper picks in this comparison don't consistently include.\n\nBest for buyers specifically planning to use a 10TB or larger SSD, where every other pick's 8TB ceiling would be a real limitation, and who want the accessory bundle included rather than bought separately.",
+    description: "Satechi's Pro model remains the only pick in this comparison rated for drives up to 16TB, double the 8TB ceiling every other enclosure here states, which matters specifically if you're building a large archival or personal NAS-style backup drive rather than a working scratch disk.\n\nAt under $100, it sits below the SABRENT and Lexar picks in price while adding a CES award-winning design credential, a 2-year limited warranty, and a full accessory bundle in the box, a thermal pad, silicone installation pin, clear case, and USB4 cable, that the cheaper picks in this comparison don't consistently include.\n\nBest for buyers specifically planning to use a 10TB or larger SSD, where every other pick's 8TB ceiling would be a real limitation, and who want the accessory bundle included rather than bought separately.",
     specs: ["Supports up to 16TB, 2230-2280", "PCI-E Gen 4x4, up to 3840MB/s", "2-year limited warranty, full accessory bundle"],
     pros: ["Only pick in this tier rated past 8TB", "Full accessory bundle included in the box", "CES award-winning design with 2-year warranty"],
     cons: ["Polycarbonate casing rather than aluminum", "Stated speed slightly below SABRENT's USB4 ceiling"],
@@ -155,7 +155,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The lowest price with active cooling", "Cable Matters 40Gbps USB4 / Thunderbolt 4 SSD Enclosure"],
         ["A certified Intel Thunderbolt chip", "ACASIS 40Gbps M.2 NVMe SSD Enclosure (TBU405 Pro)"],
         ["A recognized brand warranty", "Lexar E750 40Gbps M.2 NVMe SSD Enclosure"],
-        ["Capacity beyond 8TB", "Satechi USB4 NVMe SSD Pro Enclosure"],
+        ["Capacity beyond 8TB", "Satechi USB4 NVMe SSD Pro Enclosure"]
       ],
     },
   },
@@ -164,9 +164,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $60", "Cable Matters ($49.99) or Rosewill ($59.99)"],
-        ["$60 to $90", "ACASIS ($71.99), Lexar E750 ($89.99), or SABRENT ($89.99)"],
-        ["Up to $150", "Satechi USB4 NVMe SSD Pro Enclosure ($99.99)"],
+        ["Under $60", "Cable Matters (under $50) or Rosewill (under $60)"],
+        ["$60 to $90", "ACASIS (under $80), Lexar E750 (under $90), or SABRENT (under $90)"],
+        ["Up to $150", "Satechi USB4 NVMe SSD Pro Enclosure (under $100)"]
       ],
     },
   },
@@ -180,7 +180,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "Certified Intel JHL7440 chip (ACASIS)",
         text: "A licensed Thunderbolt-certified chip Intel provides to premium accessory makers, with slightly lower tested speeds but explicit Mac-hardware validation.",
-      },
+      }
     ],
     note: "Most buyers should default to an ASM2464PD-based pick like Cable Matters or Lexar for raw speed, unless you specifically want Intel's own certified chip and tested Mac compatibility, in which case ACASIS is the pick here.",
   },
@@ -192,7 +192,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A PCIe Gen4 drive like a Sabrent Rocket 4 Plus", "SABRENT USB4 NVMe SSD Enclosure"],
         ["A standard NVMe drive up to 8TB", "Cable Matters, Rosewill, ACASIS, or Lexar"],
         ["A SATA M.2 or mSATA drive", "None of these enclosures, all require PCIe NVMe"],
-        ["Larger than 8TB", "Satechi USB4 NVMe SSD Pro Enclosure"],
+        ["Larger than 8TB", "Satechi USB4 NVMe SSD Pro Enclosure"]
       ],
     },
   },
@@ -206,7 +206,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "ACASIS is the only pick that names specific M1/M2/M3 Pro and Max MacBook and iPad Pro testing directly in its listing.",
-      },
+      }
     ],
   },
   {
@@ -214,14 +214,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You need a documented brand warranty or capacity past 8TB: Lexar's E750 ($89.99) carries a 2-year warranty from a recognized storage brand, and Satechi's Pro model ($99.99) is the only pick here rated past 8TB.",
+        text: "You need a documented brand warranty or capacity past 8TB: Lexar's E750 (under $90) carries a 2-year warranty from a recognized storage brand, and Satechi's Pro model (under $100) is the only pick here rated past 8TB.",
       },
       {
         label: "Save if",
-        text: "You're running a standard-capacity single-sided SSD and don't need a name-brand warranty: Cable Matters ($49.99) matches the core speed and cooling of pricier picks here for less than half the cost.",
-      },
+        text: "You're running a standard-capacity single-sided SSD and don't need a name-brand warranty: Cable Matters (under $50) matches the core speed and cooling of pricier picks here for less than half the cost.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -277,5 +277,5 @@ export const faq = [
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-usb4-nvme-enclosures-under-100", title: "Best USB4 NVMe Enclosures Under $100" },
   { href: "/guide/best-thunderbolt-4-nvme-enclosures", title: "Best Thunderbolt 4 NVMe Enclosures" },
-  { href: "/guide/best-nvme-enclosures-under-500", title: "Best NVMe Enclosures Under $500" },
+  { href: "/guide/best-nvme-enclosures-under-500", title: "Best NVMe Enclosures Under $500" }
 ];

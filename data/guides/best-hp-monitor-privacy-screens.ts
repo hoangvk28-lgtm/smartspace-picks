@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "hp monitor privacy screen";
 export const introParagraphs = [
   "We need to be upfront: HP does not manufacture monitor privacy filters. Every product searchable under \"HP monitor privacy screen\" is a third-party filter sized to fit common HP monitor dimensions, not a certified HP accessory.",
-  "What actually determines fit is your exact HP monitor's active width, height, and aspect ratio, not the brand name in the filter's listing title. We matched picks to the most common HP monitor sizes (22, 24, and 27 inch, all standard 16:9) and flagged where you need to verify your specific model.",
+  "What actually determines fit is your exact HP monitor's active width, height, and aspect ratio, not the brand name in the filter's listing title. We matched picks to the most common HP monitor sizes (22, 24, and 27 inch, all standard 16:9) and flagged where you need to verify your specific model."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -78,9 +78,9 @@ export const products: GuideProduct[] = [
     reviews: "70",
     imageUrl: "https://m.media-amazon.com/images/I/41k059xiB9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVRQTXC8?tag=deskfinds0d-20",
-    description: "Some of HP's smaller and older business monitors use a 16:10 aspect ratio rather than 16:9, and this pick is specifically sized for that ratio at 22 inches.\n\nRanked just behind [2 Pack] 27 Inch Computer Monitor Privacy Screen, it's priced lower than [2 Pack] 27 Inch Computer Monitor Privacy Screen. The real tradeoff against that pick: Only fits 16:10 monitors, confirm your HP model's exact aspect ratio first. In exchange, it offers this instead: Specifically sized for 16:10, relevant for older or compact HP business monitors. That's the swap that decides whether this pick or the one above it is the better fit for your screen.\n\nWorth knowing before you decide: Strong 4.6 rating. On the other side, Only fits 16:10 monitors, confirm your HP model's exact aspect ratio first. That's the main tradeoff to weigh against everything above.",
+    description: "Some of HP's smaller and older business monitors use a 16:10 aspect ratio rather than 16:9, and this pick is specifically sized for that ratio at 22 inches.\n\nRanked just behind [2 Pack] 27 Inch Computer Monitor Privacy Screen, it's priced lower than [2 Pack] 27 Inch Computer Monitor Privacy Screen. The real tradeoff against that pick: Only fits 16:10 monitors, confirm your HP model's exact aspect ratio first. In exchange, it offers this instead: Specifically sized for 16:10, relevant for older or compact HP business monitors. That's the swap that decides whether this pick or the one above it is the better fit for your screen.\n\nOn the other side, Only fits 16:10 monitors, confirm your HP model's exact aspect ratio first. That's the main tradeoff to weigh against everything above.",
     specs: ["22 inch, 16:10 aspect ratio","2-pack"],
-    pros: ["Specifically sized for 16:10, relevant for older or compact HP business monitors","Strong 4.6 rating"],
+    pros: ["Specifically sized for 16:10, relevant for older or compact HP business monitors"],
     cons: ["Only fits 16:10 monitors, confirm your HP model's exact aspect ratio first"],
     bestFor: "Buyers with an older or compact HP monitor that uses a 16:10 aspect ratio instead of 16:9.",
   },
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified HP does not manufacture privacy filters", description: "We confirmed all results here are third-party filters and did not imply HP branding or certification unless the listing explicitly and specifically claimed it." },
   { title: "Matched picks to HP's common monitor sizes and aspect ratios", description: "We organized picks around HP's most common 22, 24, and 27 inch monitor sizes, including the 16:10 aspect ratio used on some older or compact models." },
   { title: "Flagged the aspect-ratio trap directly", description: "We specifically called out that some HP monitors use 16:10 rather than 16:9, since assuming 16:9 across all HP models is a common buyer mistake." },
-  { title: "Weighed review volume within each size tier separately", description: "We compared review counts within the same size and aspect ratio, since a 24 inch filter's review base isn't a useful comparison against a 22 inch filter's." },
+  { title: "Weighed review volume within each size tier separately", description: "We compared review counts within the same size and aspect ratio, since a 24 inch filter's review base isn't a useful comparison against a 22 inch filter's." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -249,7 +249,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
-    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nThis matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
   }
 ];
 
@@ -258,11 +258,11 @@ export const faq: FaqItem[] = [
   { q: "Which pick explicitly mentions HP compatibility?", a: "The IPROKKO [2-Pack] 24 Inch Computer Privacy Screen Filter is the only pick here that lists HP among its stated compatible brands." },
   { q: "Are all HP monitors 16:9?", a: "No. Most current HP monitors are 16:9, but some older or compact business models use a 16:10 aspect ratio. Check your exact model before ordering." },
   { q: "What's the best option for a 27 inch HP monitor?", a: "The [2 Pack] 27 Inch Computer Monitor Privacy Screen, which also adds blue-light filtering." },
-  { q: "How do I know my HP monitor's exact dimensions?", a: "Check the model number on the rear label and look up its active display width and height directly, rather than relying on the diagonal size alone." },
+  { q: "How do I know my HP monitor's exact dimensions?", a: "Check the model number on the rear label and look up its active display width and height directly, rather than relying on the diagonal size alone." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-dell-monitor-privacy-screens", title: "Best Dell Monitor Privacy Screens (2026)" },
   { href: "/guide/best-lenovo-monitor-privacy-screens", title: "Best Lenovo Monitor Privacy Screens (2026)" },
-  { href: "/guide/best-monitor-privacy-screens", title: "Best Monitor Privacy Screens (2026)" },
+  { href: "/guide/best-monitor-privacy-screens", title: "Best Monitor Privacy Screens (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "printer stand for 2 printers";
 export const introParagraphs = [
   "A stand that genuinely fits two printers side by side or stacked on separate tiers is rarer than the search term suggests. Most products sold as printer stands are actually mobile file cabinets with a single flat top and a stack of drawers underneath, built to hold one printer plus paperwork rather than two machines at once.",
-  "Below are 8 printer stands and file cabinets we evaluated on tier count, top surface width, and per-shelf weight rating, since a stand rated for 100 lbs total can still have a top shelf that can't safely hold a heavier laser printer. We call out honestly which picks actually offer two usable printer surfaces and which are better suited to one printer plus supply storage, or to buying two side by side.",
+  "Below are 8 printer stands and file cabinets we evaluated on tier count, top surface width, and per-shelf weight rating, since a stand rated for 100 lbs total can still have a top shelf that can't safely hold a heavier laser printer. We call out honestly which picks actually offer two usable printer surfaces and which are better suited to one printer plus supply storage, or to buying two side by side."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Genuine 2-tier cart design",
       "1 storage drawer between tiers",
       "Locking caster wheels",
-      "Best true dual-printer fit in this list",
+      "Best true dual-printer fit in this list"
     ],
     pros: [
       "Only pick in this list with two real, separate flat tiers",
       "Storage drawer keeps paper and cables off both surfaces",
       "Locking wheels for repositioning",
-      "Budget price for a genuine two-tier design",
+      "Budget price for a genuine two-tier design"
     ],
     cons: [
       "Neither tier is very deep for oversized all-in-ones",
       "Lower tier requires bending down to load paper",
-      "Lighter-duty frame than a steel file cabinet",
+      "Lighter-duty frame than a steel file cabinet"
     ],
     bestFor: "Buyers who actually want two separate printers on one stand",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "3 lateral file drawers",
       "Rustic brown wood-look finish",
       "Casters for mobility",
-      "Best as one printer plus filing storage",
+      "Best as one printer plus filing storage"
     ],
     pros: [
       "Generous filing capacity across 3 drawers",
       "Furniture-grade finish rather than a utility look",
       "Wide enough top for a full-size printer",
-      "Mobile on casters",
+      "Mobile on casters"
     ],
     cons: [
       "Single tier only, not a two-printer stand on its own",
       "Bulkier footprint than the rolling carts in this list",
-      "Heavier to reposition when fully loaded with files",
+      "Heavier to reposition when fully loaded with files"
     ],
     bestFor: "One printer plus real document filing, or as half of a matched two-cabinet setup",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "2 drawers, fits A4/Letter",
       "Fabric side storage bag",
       "Rolling casters",
-      "Light brown finish",
+      "Light brown finish"
     ],
     pros: [
       "Widest single top surface in this list at 24 inches",
       "Fits two compact machines side by side",
       "Fabric side bag adds extra storage",
-      "Budget-friendly for the surface size",
+      "Budget-friendly for the surface size"
     ],
     cons: [
       "Still one tier, not a stacked two-printer design",
       "Only 2 drawers versus the 3-7 drawer picks",
-      "Width alone won't fit two full-size printers",
+      "Width alone won't fit two full-size printers"
     ],
     bestFor: "Two compact machines placed side by side rather than stacked",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "7 drawers total",
       "Rolling casters",
       "Best for combined two-printer supply storage",
-      "Compact vertical footprint",
+      "Compact vertical footprint"
     ],
     pros: [
       "Most total drawer storage in this list",
       "Useful for organizing supplies for two printers at once",
       "Rolls easily to sit beside a second stand",
-      "Compact vertical footprint for tight spaces",
+      "Compact vertical footprint for tight spaces"
     ],
     cons: [
       "Single top surface holds only one printer",
       "Narrower drawers than a wide lateral file cabinet",
-      "Not marketed with a specific per-shelf weight rating",
+      "Not marketed with a specific per-shelf weight rating"
     ],
     bestFor: "Centralizing supply storage for a two-printer setup",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "3 drawers",
       "Wood-look finish",
       "Low profile for under-desk fit",
-      "Compact footprint",
+      "Compact footprint"
     ],
     pros: [
       "Attractive wood finish over typical office beige",
       "Low profile slides under most desks",
       "Solid 3-drawer storage",
-      "Competitive price for the finish quality",
+      "Competitive price for the finish quality"
     ],
     cons: [
       "Single tier, holds one printer at a time",
       "Under-desk height limits printer size on top",
-      "Fewer drawers than the 7-drawer OLIXIS",
+      "Fewer drawers than the 7-drawer OLIXIS"
     ],
     bestFor: "One printer under a desk with a nicer wood finish than typical cabinets",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "2 drawers for A4/Letter documents",
       "Matte black finish",
       "Rolling base",
-      "Smallest footprint in this list",
+      "Smallest footprint in this list"
     ],
     pros: [
       "Smallest, most space-efficient footprint here",
       "Matte black finish matches modern office decor",
       "Fits tight corners a wider cabinet can't",
-      "Rolls easily on its base",
+      "Rolls easily on its base"
     ],
     cons: [
       "Too narrow for a second printer beside the first",
       "Only 2 drawers, less filing space than the DEVAISE",
-      "Single tier, not a stacked two-printer design",
+      "Single tier, not a stacked two-printer design"
     ],
     bestFor: "A compact single-printer stand meant to be paired with a matching second unit",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Single flat top surface",
       "Built-in cable management channels",
       "1 storage drawer",
-      "Locking wheels",
+      "Locking wheels"
     ],
     pros: [
       "Purpose-built cable routing, useful across a two-printer setup",
       "Low profile fits under most desks",
       "Storage drawer keeps paper at hand",
-      "Locking wheels for stability while printing",
+      "Locking wheels for stability while printing"
     ],
     cons: [
       "Single tier, one printer per unit",
       "Lower height limits larger all-in-ones",
-      "Best value comes from buying two to match",
+      "Best value comes from buying two to match"
     ],
     bestFor: "Buyers who want tidy cable routing on each of two matched stands",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "3 drawers, letter/legal size",
       "Lock for drawer security",
       "All-metal construction",
-      "Fully assembled",
+      "Fully assembled"
     ],
     pros: [
       "Lockable drawers for shared or semi-public offices",
       "Sturdier all-metal build than particleboard picks",
       "Fully assembled out of the box",
-      "Solid letter/legal filing capacity",
+      "Solid letter/legal filing capacity"
     ],
     cons: [
       "Highest price in this list",
       "Single tier, one printer per unit",
-      "Heavier than the particleboard or MDF picks",
+      "Heavier than the particleboard or MDF picks"
     ],
     bestFor: "A lockable, secure single-printer cabinet for a shared office",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for a matched-pair setup",
     description: "Weighed price against build quality for buyers who realistically need to purchase two matching single-tier units rather than one dual-tier stand.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -462,11 +462,11 @@ export const faq: FaqItem[] = [
   {
     q: "What's the best option if I need two full-size printers accessible at once?",
     a: "Buy two matching single-tier units and place them side by side rather than trying to stack two full-size machines on one small stand. The DEVAISE, VASAGLE CUSTOS, and HUANUO in this list all work well as a matched pair, and picking two of the same model keeps the setup visually consistent.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-home-use", title: "Best Printers for Home Use (2026)" },
   { href: "/guide/best-printers-for-home-offices", title: "Best Printers for Home Offices (2026)" },
-  { href: "/guide/best-printer-stands-with-storage", title: "Best Printer Stands with Storage (2026)" },
+  { href: "/guide/best-printer-stands-with-storage", title: "Best Printer Stands with Storage (2026)" }
 ];

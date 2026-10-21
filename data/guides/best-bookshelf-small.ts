@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "bookshelf small";
 export const introParagraphs = [
   "A small bookshelf earns its keep in rooms where a full-size bookcase simply won't fit, tucking into a sofa side, the foot of a bed, or a sliver of wall beside a doorway without eating up the room.",
-  "Below are 8 small bookshelves we evaluated on footprint, weight capacity, and standout features like removable drawers or built-in lighting, ranging from ultra-low end tables to slim tree-style units under 8 inches wide.",
+  "Below are 8 small bookshelves we evaluated on footprint, weight capacity, and standout features like removable drawers or built-in lighting, ranging from ultra-low end tables to slim tree-style units under 8 inches wide."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -51,24 +51,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Qjs1SwnfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CDFTGTHC?tag=deskfinds0d-20",
     description:
-      "The MNEETRUNG holds the highest rating in this entire list at 4.8 stars, and its low 27.6-inch profile is a genuine advantage: it's short enough to sit at the foot of a bed, beside a sofa, or as a low nightstand without blocking sightlines across the room. An X-frame with cross bars and a backboard keeps it rigid despite the compact size.\n\nAt 15.7 inches wide and rated for 50 lbs total, it's small but sturdy, and its low profile genuinely doubles as an end table or nightstand rather than just being marketed that way.\n\nLow 27.6\" profile fits the foot of a bed or sofa side. On the other hand, lower total capacity than the Homeiju pick. Neither should be a surprise once you know to look for it.",
+      "An X-frame with cross bars and a backboard keeps it rigid despite the compact size.\n\nAt 15.7 inches wide and rated for 50 lbs total, it's small but sturdy, and its low profile genuinely doubles as an end table or nightstand rather than just being marketed that way.\n\nLow 27.6\" profile fits the foot of a bed or sofa side. On the other hand, lower total capacity than the Homeiju pick. Neither should be a surprise once you know to look for it.",
     specs: [
       "15.7\"W x 11.8\"D x 27.6\"H",
       "Metal + MDF",
       "X-frame + cross bars + backboard",
       "50 lb total capacity",
-      "Adjustable feet",
+      "Adjustable feet"
     ],
     pros: [
-      "Highest rating in this list at 4.8 stars",
       "Low 27.6\" profile fits the foot of a bed or sofa side",
       "X-frame construction adds real rigidity",
-      "Genuinely doubles as an end table or nightstand",
+      "Genuinely doubles as an end table or nightstand"
     ],
     cons: [
       "Lower total capacity than the Homeiju pick",
       "Only 3 tiers limits total storage",
-      "Compact size isn't meant for a large book collection",
+      "Compact size isn't meant for a large book collection"
     ],
     bestFor: "Buyers who want a low-profile small bookshelf that doubles as an end table or nightstand",
   },
@@ -89,18 +88,17 @@ export const products: GuideProduct[] = [
       "Carbon steel + MDF",
       "X-wire + side tube reinforcement",
       "220 lb total capacity",
-      "Adjustable legs, rust-proof coating",
+      "Adjustable legs, rust-proof coating"
     ],
     pros: [
       "Highest total capacity in this list at 220 lbs",
       "Genuine carbon steel frame",
       "Sturdiest small bookshelf here",
-      "Rust-proof and scratch-resistant coating",
+      "Rust-proof and scratch-resistant coating"
     ],
     cons: [
       "Slightly pricier than the MNEETRUNG",
-      "Lower rating than the MNEETRUNG at 4.6 stars",
-      "Only 3 tiers limits total storage",
+      "Only 3 tiers limits total storage"
     ],
     bestFor: "Buyers who want the sturdiest, highest-capacity small bookshelf available",
   },
@@ -115,24 +113,22 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415vIfh-KPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B074NHRZQX?tag=deskfinds0d-20",
     description:
-      "The Furinno LUDER is the smallest and cheapest pick in this entire list, just 12 inches wide, and it backs that footprint up with over 26,000 ratings, more reviews than any other product in this guide. FSC-certified composite wood is E1 certified for low emissions, and a closed back panel adds a bit of extra rigidity most open-back cube shelves lack. At just 13 lbs, it's light enough to move around easily, and its tiny footprint makes it the easiest pick here to squeeze into the tightest corner or a narrow gap between furniture. Worth calling out specifically: cheapest pick in this list. The catch is smallest capacity, fits fewer items than larger picks.",
+      "FSC-certified composite wood is E1 certified for low emissions, and a closed back panel adds a bit of extra rigidity most open-back cube shelves lack. At just 13 lbs, it's light enough to move around easily, and its tiny footprint makes it the easiest pick here to squeeze into the tightest corner or a narrow gap between furniture. Worth calling out specifically: cheapest pick in this list. The catch is smallest capacity, fits fewer items than larger picks.",
     specs: [
       "9.3\"D x 12\"W x 31.5\"H",
       "FSC-certified composite wood",
       "E1 certified, odorless",
       "Closed back panel",
-      "1-year warranty",
+      "1-year warranty"
     ],
     pros: [
       "Smallest footprint in this list at just 12\" wide",
-      "Cheapest pick in this list at $25.16",
-      "FSC-certified with over 26,000 ratings",
-      "Lightweight at 13 lbs, easy to move",
+      "Cheapest pick in this list at under $30",
+      "Lightweight at 13 lbs, easy to move"
     ],
     cons: [
       "Smallest capacity, fits fewer items than larger picks",
-      "Lower rating than the top picks at 4.4 stars",
-      "Only 3 cubes limit total storage",
+      "Only 3 cubes limit total storage"
     ],
     bestFor: "The tightest corners and smallest rooms where every inch of footprint counts",
   },
@@ -147,25 +143,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41rhhKsDC1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08XX3XYBB?tag=deskfinds0d-20",
     description:
-      "The Furinno PASIR is built from 95 to 100 percent recycled materials, the most sustainable pick in this list, while still delivering nearly 27,000 ratings at a solid 4.4-star average. FSC-certified composite wood forms 3 open shelves backed by a solid panel, rated for 80 lbs total.\n\nAt a low 31.5 inches tall and a wider 23.7 inches across, it sits nicely under a window or along a low wall in a small room, offering more shelf surface area than the narrower LUDER pick while keeping the same compact height.\n\nLow 31.5\" profile fits under a window. Set against that, wider footprint than the narrower small bookshelves. Both matter when comparing it to the other picks here.",
+      "FSC-certified composite wood forms 3 open shelves backed by a solid panel, rated for 80 lbs total.\n\nAt a low 31.5 inches tall and a wider 23.7 inches across, it sits nicely under a window or along a low wall in a small room, offering more shelf surface area than the narrower LUDER pick while keeping the same compact height.\n\nLow 31.5\" profile fits under a window. Set against that, wider footprint than the narrower small bookshelves. Both matter when comparing it to the other picks here.",
     specs: [
       "9.7\"D x 23.7\"W x 31.5\"H",
       "FSC-certified composite wood",
       "3 open shelves + back panel",
       "80 lb total capacity",
       "95-100% recycled materials",
-      "1-year warranty",
+      "1-year warranty"
     ],
     pros: [
       "95-100% recycled materials, most sustainable pick here",
       "Low 31.5\" profile fits under a window",
-      "Wider shelf surface than the LUDER pick",
-      "Nearly 27,000 ratings",
+      "Wider shelf surface than the LUDER pick"
     ],
     cons: [
       "Wider footprint than the narrower small bookshelves",
-      "Same 4.4-star rating as the cheaper LUDER",
-      "Only 3 tiers",
+      "Only 3 tiers"
     ],
     bestFor: "Eco-conscious buyers who want a low-profile shelf that fits under a window",
   },
@@ -187,18 +181,18 @@ export const products: GuideProduct[] = [
       "40 lb/shelf capacity",
       "Back panel",
       "3 installation methods",
-      "Anti-tip kit, adjustable feet",
+      "Anti-tip kit, adjustable feet"
     ],
     pros: [
       "Highest per-shelf capacity among small bookshelves at 40 lbs",
       "3 installation configurations for layout flexibility",
       "Fast assembly",
-      "Budget-friendly at $26.99",
+      "Budget-friendly at under $30"
     ],
     cons: [
       "Fewer reviews than the Furinno picks",
       "Only 3 tiers",
-      "Narrower shelf surface than the PASIR",
+      "Narrower shelf surface than the PASIR"
     ],
     bestFor: "Buyers who want installation flexibility plus the highest per-shelf capacity in this list",
   },
@@ -220,18 +214,17 @@ export const products: GuideProduct[] = [
       "1 removable fabric drawer",
       "Backboard",
       "30 lb/shelf (150 lb total)",
-      "Lightweight at 18.46 lbs",
+      "Lightweight at 18.46 lbs"
     ],
     pros: [
       "5 shelves plus a drawer in a compact 10.6\"-deep footprint",
       "Most storage per square foot in this list",
       "Lightweight and easy to move",
-      "Backboard adds stability",
+      "Backboard adds stability"
     ],
     cons: [
       "Taller than the ultra-low picks, less of a true nightstand replacement",
-      "Fabric drawer less durable than a hard-sided one",
-      "Lower rating than the top picks at 4.4 stars",
+      "Fabric drawer less durable than a hard-sided one"
     ],
     bestFor: "Buyers who want the most shelves and storage packed into the smallest footprint",
   },
@@ -252,18 +245,17 @@ export const products: GuideProduct[] = [
       "MDF",
       "6 tiers + 2 joinable open cabinets",
       "Tree design + backboard",
-      "Anti-tip kit",
+      "Anti-tip kit"
     ],
     pros: [
       "Slimmest pick in this list at just 7.9\" wide",
       "6 tiers plus 2 drawers in a tiny footprint",
-      "Fits behind a sofa or beside a bed",
-      "Solid 4.6-star rating",
+      "Fits behind a sofa or beside a bed"
     ],
     cons: [
       "Narrow shelves limit wider items",
       "MDF only, no metal reinforcement",
-      "Taller footprint than the ultra-low picks",
+      "Taller footprint than the ultra-low picks"
     ],
     bestFor: "The tightest gaps behind furniture where width matters more than depth",
   },
@@ -284,21 +276,21 @@ export const products: GuideProduct[] = [
       "Engineered wood + metal",
       "16+ color RGB LED with adjustable switch",
       "7.1\" depth",
-      "Anti-tip kit, non-slip pads",
+      "Anti-tip kit, non-slip pads"
     ],
     pros: [
       "Thinnest depth in this list at 7.1\"",
       "16+ color RGB LED lighting, the only lit pick here",
       "Best decor accent piece in this list",
-      "Fits neatly behind a sofa or beside a cabinet",
+      "Fits neatly behind a sofa or beside a cabinet"
     ],
     cons: [
       "Fewer reviews than the Furinno and MNEETRUNG picks",
       "LED feature requires power access nearby",
-      "Narrower shelves than the wider PASIR pick",
+      "Narrower shelves than the wider PASIR pick"
     ],
     bestFor: "Buyers who want a small bookshelf that doubles as a lit decor accent piece",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -325,17 +317,14 @@ export const buyingCriteria: BuyingCriterion[] = [
 ];
 
 export const faq: FaqItem[] = [
-  {
-    q: "What is the best small bookshelf overall?",
-    a: "The MNEETRUNG 3-Tier Industrial Small Bookshelf (Pick 1) is the best overall choice, holding the highest rating in this list at 4.8 stars and a low profile that doubles as an end table or nightstand.",
-  },
+  
   {
     q: "Which small bookshelf has the highest weight capacity?",
     a: "The Homeiju 3-Tier Small Industrial Bookcase (Pick 2) has the highest total capacity in this list at 220 lbs, thanks to its carbon steel frame.",
   },
   {
     q: "What is the smallest bookshelf in this list?",
-    a: "The Furinno LUDER 3-Cube Bookshelf (Pick 3) is the smallest and cheapest pick, just 12 inches wide and $25.16.",
+    a: "The Furinno LUDER 3-Cube Bookshelf (Pick 3) is the smallest and cheapest pick, just 12 inches wide and under $30.",
   },
   {
     q: "Is there a small bookshelf with a drawer?",
@@ -352,11 +341,11 @@ export const faq: FaqItem[] = [
   {
     q: "Can a small bookshelf still hold a lot of weight?",
     a: "Yes, if the frame material supports it. The Homeiju keeps a compact footprint but uses a carbon steel frame to reach 220 lbs total, more than double what a similarly sized particleboard or composite-wood shelf typically handles, so don't assume a small unit means a low weight limit.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-bookshelf-3-tier", title: "Best 3-Tier Bookshelves in 2026" },
   { href: "/guide/best-bookshelf-ladder", title: "Best Ladder Bookshelves in 2026" },
-  { href: "/guide/best-bookshelf-for-bedroom", title: "Best Bookshelves for Bedroom in 2026" },
+  { href: "/guide/best-bookshelf-for-bedroom", title: "Best Bookshelves for Bedroom in 2026" }
 ];

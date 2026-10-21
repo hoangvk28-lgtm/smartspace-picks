@@ -208,35 +208,35 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $129.99",
+          "Under $130",
           "CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB)"
         ],
         [
-          "Around $179.95",
+          "Under $180",
           "ORICO 4-Bay RAID Hard Drive Enclosure (88TB"
         ],
         [
-          "Around $199.95",
+          "Under $200",
           "ORICO RAID 5-Bay HDD Enclosure (110TB"
         ],
         [
-          "Around $219.00",
+          "Under $250",
           "QNAP TR-004 4-Bay USB-C DAS with Hardware RAID (Diskless)"
         ],
         [
-          "Around $224.99",
+          "Under $250",
           "TerraMaster D8 Hybrid HDD+NVMe Enclosure (Diskless)"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "Sabrent 4-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC4B)"
         ],
         [
-          "Around $239.99",
+          "Under $250",
           "TerraMaster D6-320 6-Bay USB DAS Enclosure (Diskless)"
         ],
         [
-          "Around $279.95",
+          "Under $300",
           "Sabrent 5-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC5B)"
         ]
       ]
@@ -291,10 +291,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB) is aimed at buyers prioritizing 4-bay hardware raid, 8 modes, up to 80tb, at $129.99."
+        "text": "CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB) is aimed at buyers prioritizing 4-bay hardware raid, 8 modes, up to 80tb, at under $130."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -346,7 +346,7 @@ export const faq = [
     "a": "Only if the specific enclosure documents hot-swap support, which most tool-free tray designs in this category do. Always check your specific product's hot-swap capability before removing a drive live, since not every budget enclosure supports it, especially some fixed-RAID-mode units."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Sabrent 5-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC5B) is aimed at buyers prioritizing 5x 3.5in bays, 10gbps usb-c." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Sabrent 5-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC5B) is aimed at buyers prioritizing 5x 3.5in bays, 10gbps usb-c." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-raid-direct-attached-storage","title":"8 Best RAID Direct-Attached Storage"},{"href":"/guide/best-direct-attached-storage-with-raid","title":"8 Best Direct-Attached Storage With RAID"},{"href":"/guide/best-jbod-direct-attached-storage","title":"8 Best JBOD Direct-Attached Storage"}];

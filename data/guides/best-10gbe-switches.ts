@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $141.30",
+          "Under $150",
           "MikroTik CRS305-1G-4S+in Network Switch"
         ],
         [
-          "Around $156.98",
+          "Under $160",
           "5-Port 10Gb RJ45 Web Managed Ethernet Switch"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "TP-Link TL-SX105"
         ],
         [
-          "Around $251.98",
+          "Under $300",
           "8-Port 10G Ethernet Switch Unmanaged"
         ],
         [
-          "Around $554.99",
+          "Under $600",
           "NETGEAR 10-Port 10G Multi-Gigabit Smart Managed Switch (MS510TXM)"
         ],
         [
-          "Around $605.81",
+          "Under $650",
           "MikroTik CRS312-4C+8XG-RM Network Switch"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "No. The total PoE budget is shared across all active PoE ports, so if you power several high-draw devices simultaneously, the switch may not be able to deliver every port's maximum rated wattage at the same time. Check the total budget against your actual device count and power needs."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "TP-Link TL-SX105 is aimed at buyers prioritizing 5x true 10g ports, 100gbps capacity." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "TP-Link TL-SX105 is aimed at buyers prioritizing 5x true 10g ports, 100gbps capacity." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-netgear-10gbe-switches","title":"Best NETGEAR 10GbE Switches in 2026"},{"href":"/guide/best-8-port-10gbe-switches","title":"Best 8-Port 10GbE Switches in 2026"},{"href":"/guide/best-mikrotik-10gbe-switches","title":"Best MikroTik 10GbE Switches in 2026"}];

@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $159.99",
+          "Under $160",
           "Tribesigns 6.5FT Conference Table"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "Tribesigns 6.5FT Rectangle Conference Table (Table Only)"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "ECACAD 7FT Conference Table"
         ],
         [
-          "Around $349.99",
+          "Under $350",
           "Tribesigns 8ft Conference Table for 10"
         ],
         [
-          "Around $350.00",
+          "Under $400",
           "Tribesigns 8FT Conference Table for 10"
         ],
         [
-          "Around $379.99",
+          "Under $400",
           "Tribesigns 8FT Conference Table for 10"
         ],
         [
-          "Around $379.99",
+          "Under $400",
           "Tribesigns 8FT Conference Table for 10"
         ],
         [
-          "Around $389.99",
+          "Under $400",
           "Tribesigns 8ft Conference Table for 8-10"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Tribesigns 8ft Conference Table for 8-10 is aimed at buyers prioritizing 94.48\"w x 47.24\"d top, walnut & black finish." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Tribesigns 8ft Conference Table for 8-10 is aimed at buyers prioritizing 94.48\"w x 47.24\"d top, walnut & black finish." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-oval-conference-tables","title":"Best Oval Conference Tables in 2026"},{"href":"/guide/best-boat-shaped-conference-tables","title":"Best Boat Shaped Conference Tables in 2026"},{"href":"/guide/best-round-conference-tables","title":"Best Round Conference Tables in 2026"}];

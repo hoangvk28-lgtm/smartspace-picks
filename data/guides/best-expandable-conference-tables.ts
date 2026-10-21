@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "Correll 24\"x72\" Premium Flip Top Nesting Table measures 24\"x72\" and is built around size, positioning it for expandable buyers specifically.\n\nSecure height adjustment with 2 set screws is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for expandable, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["24\"x72\" table dimensions","SIZE","Secure height adjustment with 2 set screws"],
     pros: ["SIZE, confirmed directly in the listing's own spec details","Secure height adjustment with 2 set screws, confirmed directly in the listing's own spec details","Top: Thermal Fused Laminate (TFL) top resists, confirmed directly in the listing's own spec details"],
-    cons: ["At $624.60, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $650, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for expandable",
   },
   {
@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $229.98",
+          "Under $250",
           "43.3-59in Extendable Round Conference Table for 4-8"
         ],
         [
-          "Around $244.99",
+          "Under $250",
           "Jluomei Extendable Round Table"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "Tribesigns 8FT Boat-Shaped Conference Table"
         ],
         [
-          "Around $349.99",
+          "Under $350",
           "Tribesigns 8ft Conference Table for 10"
         ],
         [
-          "Around $350.00",
+          "Under $400",
           "Tribesigns 8FT Conference Table for 10"
         ],
         [
-          "Around $389.99",
+          "Under $400",
           "Tribesigns 8ft Conference Table for 8-10"
         ],
         [
-          "Around $624.60",
+          "Under $650",
           "Correll 24\"x72\" Premium Flip Top Nesting Table"
         ],
         [
-          "Around $699.89",
+          "Under $700",
           "8FT Extendable Oval Conference Table"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "8FT Extendable Oval Conference Table is aimed at buyers prioritizing extends 43.3\" to 94.6\", seats 4 to 10." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "8FT Extendable Oval Conference Table is aimed at buyers prioritizing extends 43.3\" to 94.6\", seats 4 to 10." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-conference-tables","title":"Best Conference Tables in 2026"},{"href":"/guide/best-conference-tables-with-chairs","title":"Best Conference Tables With Chairs in 2026"},{"href":"/guide/best-rectangular-conference-tables","title":"Best Rectangular Conference Tables in 2026"}];

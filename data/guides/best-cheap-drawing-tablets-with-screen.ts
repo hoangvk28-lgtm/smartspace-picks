@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $132.90",
+          "Under $140",
           "UGEE UE12 11.6 inch Drawing Tablet with Screen"
         ],
         [
-          "Around $142.49",
+          "Under $150",
           "VEIKK VK1200 V2 Drawing Tablet with Screen"
         ],
         [
-          "Around $149.99",
+          "Under $150",
           "GAOMON PD1161 Drawing Tablet with Screen"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "XP-PEN Artist12 11.6 Inch FHD Drawing Monitor Pen Display"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "GAOMON PD1161 Drawing Tablet with Screen is aimed at buyers prioritizing 11.6in fhd ips, 72% ntsc gamut." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "GAOMON PD1161 Drawing Tablet with Screen is aimed at buyers prioritizing 11.6in fhd ips, 72% ntsc gamut." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets-with-screens","title":"Best Drawing Tablets With Screens in 2026"},{"href":"/guide/best-affordable-drawing-tablets-with-screen","title":"Best Affordable Drawing Tablets With Screen in 2026"},{"href":"/guide/best-with-screen-cheap-drawing-tablets","title":"Best With Screen Cheap Drawing Tablets in 2026"}];

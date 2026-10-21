@@ -12,7 +12,7 @@ export const monitorDistanceAndHeightForEyeComfortGuide: Guide = {
     "correct monitor viewing distance",
     "monitor height for eye level",
     "monitor position eye strain",
-    "how far should monitor be from eyes",
+    "how far should monitor be from eyes"
   ],
   heroImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const monitorDistanceAndHeightForEyeComfortGuide: Guide = {
     "monitor-brightness-and-eye-strain",
     "20-20-20-rule-explained",
     "monitor-size-chart",
-    "how-to-measure-office-chair-fit",
+    "how-to-measure-office-chair-fit"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const monitorDistanceAndHeightForEyeComfortGuide: Guide = {
       question: "Should multiple monitors be positioned at the same height and distance?",
       answer:
         "Ideally yes, if you use a primary and secondary monitor together regularly, keeping both at similar height and distance minimizes the postural adjustment needed when shifting focus between them throughout the day.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ Top of screen should sit at or slightly below seated eye level regardless of siz
     {
       heading: "Why Multi-Monitor Setups Need Consistent Positioning",
       body: `When using two or more monitors regularly, inconsistent height or distance between them means your neck and eyes need to readjust every time you shift attention from one screen to the other, throughout the entire workday. Taking the time to align both monitors at matching height and roughly similar distance reduces this repeated postural adjustment, making a multi-monitor setup feel more like a single cohesive workspace than two separately positioned screens.`,
-    },
+    }
   ],
 };

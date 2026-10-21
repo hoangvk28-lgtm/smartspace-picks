@@ -12,7 +12,7 @@ export const wiredVsWirelessMouseGuide: Guide = {
     "wireless mouse latency gaming",
     "wired mouse vs wireless reliability",
     "best mouse for competitive gaming",
-    "wireless mouse battery life",
+    "wireless mouse battery life"
   ],
   heroImage: "https://images.unsplash.com/photo-1598662779094-110c2bad80b5?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1598662779094-110c2bad80b5?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const wiredVsWirelessMouseGuide: Guide = {
     "mouse-dpi-explained",
     "mechanical-switch-types-explained",
     "mouse-grip-styles-explained",
-    "cable-management-types-explained",
+    "cable-management-types-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const wiredVsWirelessMouseGuide: Guide = {
       question: "Is Bluetooth or a USB receiver better for a wireless mouse?",
       answer:
         "A dedicated USB receiver (sometimes called a dongle) generally offers more reliable, lower-latency connection than Bluetooth, Bluetooth's advantage is not using up a USB port, useful if ports are limited, but at some cost to connection reliability and latency.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const wiredVsWirelessMouseGuide: Guide = {
     {
       heading: "Weighing Desk Cleanliness Against Battery Management",
       body: `A wireless mouse's main everyday benefit is a cleaner desk without a cable dragging or catching during use, particularly noticeable on a smaller desk where cable management is more constrained. The tradeoff is needing to periodically charge or replace batteries, a minor inconvenience for most users but worth considering if you'd find an unexpectedly dead mouse mid-task more frustrating than dealing with a cable.`,
-    },
+    }
   ],
 };

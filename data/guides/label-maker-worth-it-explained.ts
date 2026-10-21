@@ -12,7 +12,7 @@ export const labelMakerWorthItExplainedGuide: Guide = {
     "label maker uses home office",
     "label maker tape cost",
     "handwritten labels vs label maker",
-    "organizing with a label maker",
+    "organizing with a label maker"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const labelMakerWorthItExplainedGuide: Guide = {
     "desk-drawer-organizer-vs-tray",
     "desk-organizer-types-explained",
     "under-desk-storage-options-explained",
-    "desk-declutter-checklist",
+    "desk-declutter-checklist"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const labelMakerWorthItExplainedGuide: Guide = {
       question: "Do label makers require special skills or software to use?",
       answer:
         "No, modern label makers are designed for straightforward direct typing and printing, some connect to a smartphone app for additional font and design options, but basic functional labeling requires no special skill beyond typing the text.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const labelMakerWorthItExplainedGuide: Guide = {
     {
       heading: "Why the Value Scales With How Much You Actually Reorganize",
       body: `A label maker's genuine value increases with how frequently your organizational system changes, since reprinting a fresh label takes moments and produces a clean result every time, while repeatedly crossing out and rewriting a handwritten label becomes messy and harder to read after a few revisions. If your home office storage setup is relatively stable and rarely needs updating, this ongoing benefit matters less, if you're actively iterating on your organization system, a label maker's quick, clean relabeling capability provides more sustained value.`,
-    },
+    }
   ],
 };

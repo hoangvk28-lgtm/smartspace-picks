@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 8ft Conference Table measures 8ft and is built around spacious 8-10 person capacity, positioning it for under 1000 buyers specifically.\n\nElegant Walnut & Black Aesthetic is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 1000, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["8ft table dimensions","Spacious 8-10 Person Capacity","Elegant Walnut & Black Aesthetic"],
     pros: ["Spacious 8-10 Person Capacity, confirmed directly in the listing's own spec details","Elegant Walnut & Black Aesthetic, confirmed directly in the listing's own spec details","Integrated Cable Management, confirmed directly in the listing's own spec details"],
-    cons: ["At $389.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $400, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 1000",
   },
   {
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 14-16 People Conference Table measures 12 FT and is built around all wood construction, positioning it for under 1000 buyers specifically.\n\nAmple Space for Success is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 1000, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["12 FT table dimensions","All Wood Construction","Ample Space for Success"],
     pros: ["All Wood Construction, confirmed directly in the listing's own spec details","Ample Space for Success, confirmed directly in the listing's own spec details","Business Office Furniture, confirmed directly in the listing's own spec details"],
-    cons: ["At $889.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $900, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 1000",
   },
   {
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 10.5FT Conference Table measures 10.5FT and is built around durable & sturdy construction, positioning it for under 1000 buyers specifically.\n\nPerfect Size for Brainstorming is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 1000, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["10.5FT table dimensions","Durable & Sturdy Construction","Perfect Size for Brainstorming"],
     pros: ["Durable & Sturdy Construction, confirmed directly in the listing's own spec details","Perfect Size for Brainstorming, confirmed directly in the listing's own spec details","Versatile Usage, confirmed directly in the listing's own spec details"],
-    cons: ["At $389.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $400, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 1000",
   },
   {
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 12FT Conference Table measures 12FT and is built around all wood construction, positioning it for under 1000 buyers specifically.\n\nAmple Space for Success is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 1000, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["12FT table dimensions","All Wood Construction","Ample Space for Success"],
     pros: ["All Wood Construction, confirmed directly in the listing's own spec details","Ample Space for Success, confirmed directly in the listing's own spec details","Business Office Furniture, confirmed directly in the listing's own spec details"],
-    cons: ["At $427.49, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $450, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 1000",
   },
   {
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns Conference Table measures 10 ft and is built around robust build & versatile layout options, positioning it for under 1000 buyers specifically.\n\nModern Minimalist Style is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 1000, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["10 ft table dimensions","Robust Build & Versatile Layout Options","Modern Minimalist Style"],
     pros: ["Robust Build & Versatile Layout Options, confirmed directly in the listing's own spec details","Modern Minimalist Style, confirmed directly in the listing's own spec details","Elegant & Sturdy Base, confirmed directly in the listing's own spec details"],
-    cons: ["At $389.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $400, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 1000",
   },
   {
@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "Bonzy Home 12FT Conference Table measures 12FT and is built around versatile 4-piece design, positioning it for under 1000 buyers specifically.\n\nModern Design is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 1000, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["12FT table dimensions","Versatile 4-Piece Design","Modern Design"],
     pros: ["Versatile 4-Piece Design, confirmed directly in the listing's own spec details","Modern Design, confirmed directly in the listing's own spec details","Super Sturdy Construction, confirmed directly in the listing's own spec details"],
-    cons: ["At $639.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $650, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 1000",
   },
   {
@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 10.5FT Conference Table measures 10.5FT and is built around durable & sturdy construction, positioning it for under 1000 buyers specifically.\n\nPerfect Size for Brainstorming is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 1000, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["10.5FT table dimensions","Durable & Sturdy Construction","Perfect Size for Brainstorming"],
     pros: ["Durable & Sturdy Construction, confirmed directly in the listing's own spec details","Perfect Size for Brainstorming, confirmed directly in the listing's own spec details","Versatile Usage, confirmed directly in the listing's own spec details"],
-    cons: ["At $389.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $400, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 1000",
   }
 

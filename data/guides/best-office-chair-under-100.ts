@@ -38,17 +38,17 @@ export const products: BudgetChair[] = [
     brand: "GTPLAYER",
     bestFor: "Larger frames, high weight capacity, reclining breaks",
     price: "~$239.99",
-    priceRange: "~$239.99",
+    priceRange: "~under $250",
     imageUrl: "https://m.media-amazon.com/images/I/41j10VNsNEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVHCSFSQ?tag=deskfinds0d-20",
-    whyItWins: "Based on specs, this is a step up in price from every other pick in this guide -- at $239.99 it is well above the $100 ceiling this roundup is built around, so it is included here as a pricier alternative rather than a budget pick. What it adds for that price is a heavy-duty frame built for bigger and taller users, a 150 degree reclining backrest, and a footrest that the sub-$100 picks in this guide do not offer.",
+    whyItWins: "Based on specs, this is a step up in price from every other pick in this guide -- at under $250 it is well above the $100 ceiling this roundup is built around, so it is included here as a pricier alternative rather than a budget pick. What it adds for that price is a heavy-duty frame built for bigger and taller users, a 150 degree reclining backrest, and a footrest that the sub-$100 picks in this guide do not offer.",
     bodyParagraph: "The adjustable lumbar pillow and thickened armrests are aimed at long sitting sessions rather than quick desk work, and the breathable mesh helps offset the heat that reclining gaming-chair frames tend to trap. If your priority is weight capacity and recline rather than staying under $100, this is worth the difference.",
     specs: [
       { label: "Frame", value: "Big and tall heavy-duty gaming-chair frame" },
       { label: "Recline", value: "150-degree reclining backrest" },
       { label: "Extras", value: "Adjustable lumbar pillow, pull-out footrest" },
       { label: "Armrests", value: "Thickened padded armrests" },
-      { label: "Back", value: "Breathable mesh" },
+      { label: "Back", value: "Breathable mesh" }
     ],
     pros: ["Reclines to 150 degrees -- rare in this price category", "Built-in footrest for breaks without leaving the desk", "Higher weight capacity than the other picks in this guide", "Thickened armrests and lumbar pillow add comfort for long sessions"],
     cons: ["Priced well above the guide's $100 ceiling -- a genuine step up in cost", "Larger gaming-chair footprint -- less compact than the mesh task chairs above", "Reclining frames add bulk that some small desks and dorm rooms cannot spare"],
@@ -62,18 +62,18 @@ export const products: BudgetChair[] = [
     brand: "HUANUO",
     bestFor: "3D armrest adjustability just above $100",
     price: "~$109.99",
-    priceRange: "~$109.99",
+    priceRange: "~under $110",
     imageUrl: "https://m.media-amazon.com/images/I/51a98NB4vsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQ4LCBY5?tag=deskfinds0d-20",
-    whyItWins: "At $109.99, the HUANUO is priced just above this guide's $100 ceiling, so we are describing it honestly as a slight step up in price rather than an under-$100 pick. Based on specs, the tradeoff is 3D adjustable armrests and dedicated adjustable lumbar support -- the same category of adjustability the CLATINA offers at the top of this list, in a different chair.",
+    whyItWins: "At under $110, the HUANUO is priced just above this guide's $100 ceiling, so we are describing it honestly as a slight step up in price rather than an under-$100 pick. Based on specs, the tradeoff is 3D adjustable armrests and dedicated adjustable lumbar support -- the same category of adjustability the CLATINA offers at the top of this list, in a different chair.",
     bodyParagraph: "For buyers who compared several picks in this guide and want a second option with similar ergonomic adjustability, the HUANUO is a reasonable near-budget alternative. It is not meaningfully more capable than the CLATINA at rank 1, so treat it as a backup option if that listing is unavailable rather than a clear upgrade.",
     specs: [
       { label: "Armrests", value: "3D adjustable (height, angle, pivot)" },
       { label: "Lumbar", value: "Adjustable lumbar support" },
-      { label: "Seat height", value: "Adjustable pneumatic" },
+      { label: "Seat height", value: "Adjustable pneumatic" }
     ],
     pros: ["3D adjustable armrests at a similar tier to the CLATINA", "Adjustable lumbar support", "Standard ergonomic task-chair footprint"],
-    cons: ["Priced just above the guide's $100 ceiling ($109.99)", "Does not clearly outperform the CLATINA at rank 1", "Fewer documented specs than the top picks in this guide"],
+    cons: ["Priced just above the guide's $100 ceiling (under $110)", "Does not clearly outperform the CLATINA at rank 1", "Fewer documented specs than the top picks in this guide"],
     bestForDetail: "Buyers comparing multiple near-$100 options who want a second 3D-armrest chair to cross-shop against the CLATINA.",
   },
   {
@@ -84,18 +84,18 @@ export const products: BudgetChair[] = [
     brand: "QuelSoft",
     bestFor: "High-back support for buyers spending above $100",
     price: "~$169.99",
-    priceRange: "~$169.99",
+    priceRange: "~under $170",
     imageUrl: "https://m.media-amazon.com/images/I/41kJmp5juSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GKNKGYPV?tag=deskfinds0d-20",
-    whyItWins: "At $169.99, the QuelSoft is priced well above this guide's $100 target, so we are describing it plainly as a premium alternative for buyers willing to spend more rather than claiming it fits the budget theme. Based on specs, it offers a high-back design with 3D lumbar support, which is a more complete lumbar system than most of the fixed-lumbar chairs in the sub-$100 section above.",
+    whyItWins: "At under $170, the QuelSoft is priced well above this guide's $100 target, so we are describing it plainly as a premium alternative for buyers willing to spend more rather than claiming it fits the budget theme. Based on specs, it offers a high-back design with 3D lumbar support, which is a more complete lumbar system than most of the fixed-lumbar chairs in the sub-$100 section above.",
     bodyParagraph: "This is a pick for readers who came to this guide for chair research generally but have a higher budget than $100 -- the high-back frame and 3D lumbar support target the same all-day comfort as the CLATINA, at a materially higher price point.",
     specs: [
       { label: "Back", value: "High-back design" },
       { label: "Lumbar", value: "3D lumbar support" },
-      { label: "Use case", value: "Office and home computer chair" },
+      { label: "Use case", value: "Office and home computer chair" }
     ],
     pros: ["3D lumbar support in a high-back frame", "Aimed at all-day comfort similar to the top picks in this guide", "Clean, simple design suited to a home office"],
-    cons: ["Priced at $169.99 -- well above this guide's $100 focus", "Not a budget pick despite appearing alongside them here", "Less documented adjustability than the CLATINA's 3D armrests"],
+    cons: ["Priced under $170 -- well above this guide's $100 focus", "Not a budget pick despite appearing alongside them here", "Less documented adjustability than the CLATINA's 3D armrests"],
     bestForDetail: "Readers researching office chairs generally who have more than $100 to spend and want a high-back, 3D-lumbar option.",
   },
   {
@@ -117,7 +117,7 @@ export const products: BudgetChair[] = [
       { label: "Armrests", value: "3D adjustable (height, angle, pivot)" },
       { label: "Seat height", value: "Adjustable (standard pneumatic)" },
       { label: "Seat", value: "Thick foam cushion" },
-      { label: "Weight capacity", value: "~275 lbs" },
+      { label: "Weight capacity", value: "~275 lbs" }
     ],
     pros: ["Independent lumbar adjusts to your back, not fixed", "3D armrests -- most flexibility in this roundup", "Thick padded seat stays comfortable longer", "Clean all-black professional look"],
     cons: ["Assembly takes 20--30 minutes", "Mesh durability unverified over 2+ years", "Not ideal for users under 5'4\" -- seat height may be too high at minimum"],
@@ -142,7 +142,7 @@ export const products: BudgetChair[] = [
       { label: "Armrests", value: "Flip-up (fold flat when not in use)" },
       { label: "Seat", value: "Mesh and foam composite" },
       { label: "Seat height", value: "Adjustable" },
-      { label: "Weight capacity", value: "~250 lbs" },
+      { label: "Weight capacity", value: "~250 lbs" }
     ],
     pros: ["Mesh back and seat -- best airflow in this roundup", "Flip-up arms -- slides fully under small desks", "Lower price than CLATINA", "Lighter weight -- easier to move"],
     cons: ["Lumbar support is fixed curve, not adjustable", "Less padding than CLATINA -- harder surfaces for longer sits", "Arms flip up but do not adjust height"],
@@ -166,7 +166,7 @@ export const products: BudgetChair[] = [
       { label: "Lumbar", value: "Built-in ergonomic lumbar support" },
       { label: "Armrests", value: "Adjustable (height)" },
       { label: "Seat", value: "Padded foam seat cushion" },
-      { label: "Seat height", value: "Adjustable pneumatic" },
+      { label: "Seat height", value: "Adjustable pneumatic" }
     ],
     pros: ["Most-reviewed pick -- large sample of real-world feedback", "S-curve back design promotes natural spine alignment", "Consistent positive feedback on lumbar support", "Mid-range price"],
     cons: ["Armrests adjust only in height (not 3D)", "Seat cushion is standard foam -- may compress over months of heavy use"],
@@ -191,7 +191,7 @@ export const products: BudgetChair[] = [
       { label: "Armrests", value: "Fixed padded armrests" },
       { label: "Seat", value: "Padded seat cushion" },
       { label: "Seat height", value: "Adjustable pneumatic" },
-      { label: "Brand", value: "Amazon Basics -- reliable build quality" },
+      { label: "Brand", value: "Amazon Basics -- reliable build quality" }
     ],
     pros: ["Amazon Basics reliability -- consistent build quality", "Compact dimensions -- good for small dorm and apartment spaces", "Pneumatic height adjustment for any desk height", "Easy assembly, ships quickly"],
     cons: ["Fixed armrests -- no adjustability", "Less lumbar support than CLATINA or Sytas", "Not designed for 8+ hour sessions"],
@@ -216,7 +216,7 @@ export const products: BudgetChair[] = [
       { label: "Armrests", value: "Flip-up" },
       { label: "Seat", value: "PU leather padded seat, heavy-duty foam" },
       { label: "Seat height", value: "Adjustable" },
-      { label: "Weight capacity", value: "280+ lbs -- higher than mesh competitors" },
+      { label: "Weight capacity", value: "280+ lbs -- higher than mesh competitors" }
     ],
     pros: ["Leather-look aesthetic -- fits bedroom desk setups better than mesh", "Higher weight capacity than most in this range", "Flip-up arms for compact storage", "Padded seat comfortable for shorter sessions"],
     cons: ["PU leather runs hotter than mesh -- less airflow", "Lumbar is fixed curve, not adjustable", "PU leather may crack at seams over 2--3 years of daily use"],
@@ -240,12 +240,12 @@ export const products: BudgetChair[] = [
       { label: "Lumbar", value: "Basic lumbar pillow (fixed)" },
       { label: "Armrests", value: "Fixed (not adjustable)" },
       { label: "Seat", value: "PU leather padded" },
-      { label: "Seat height", value: "Adjustable" },
+      { label: "Seat height", value: "Adjustable" }
     ],
     pros: ["Lowest price in this roundup (~$50--65)", "Functional for moderate daily use", "Classic executive look", "Easy assembly"],
     cons: ["Fixed armrests -- no adjustability", "Basic fixed lumbar -- may not align with your back", "PU leather quality lower than higher-priced picks", "Not suitable for 8+ hours of daily use"],
     bestForDetail: "Budget-first buyers, occasional use, or a secondary workspace chair.",
-  },
+  }
 ];
 
 export const atAGlanceItems = products.map((p) => ({
@@ -265,14 +265,14 @@ export const sittingDurationRows = [
   { duration: "< 2 hours", minimum: "Basic height adjustment", pick: "FDW", id: "best-budget" },
   { duration: "2--4 hours", minimum: "Lumbar support, adjustable arms", pick: "Flysky, Amazon Basics", id: "best-mesh" },
   { duration: "4--8 hours", minimum: "Independent lumbar, padded seat", pick: "CLATINA, Sytas", id: "best-overall" },
-  { duration: "8+ hours", minimum: "Consider upgrading budget to $150+", pick: "-- Budget too low --", id: "best-overall" },
+  { duration: "8+ hours", minimum: "Consider upgrading budget to $150+", pick: "-- Budget too low --", id: "best-overall" }
 ];
 
 export const heightMatchRows = [
   { height: "Under 5'3\" (160 cm)", seatHeight: "16--17\" (40--43 cm)", picks: "Flysky, Amazon Basics (lower minimums)" },
   { height: "5'3\"--5'7\" (160--170 cm)", seatHeight: "17--19\" (43--48 cm)", picks: "All picks in this guide" },
   { height: "5'7\"--6'0\" (170--183 cm)", seatHeight: "19--21\" (48--53 cm)", picks: "CLATINA, Sytas, Sweetcrispy" },
-  { height: "Over 6'0\" (183 cm+)", seatHeight: "21\"+ (53 cm+)", picks: "FDW max height, or consider $150+ chairs" },
+  { height: "Over 6'0\" (183 cm+)", seatHeight: "21\"+ (53 cm+)", picks: "FDW max height, or consider $150+ chairs" }
 ];
 
 export const smallDeskRows = [
@@ -281,7 +281,7 @@ export const smallDeskRows = [
   { chair: "Amazon Basics", armType: "Fixed", fits: "Partially -- compact body helps" },
   { chair: "CLATINA", armType: "3D adjustable", fits: "Partially -- can pivot inward" },
   { chair: "Sytas", armType: "Height-adjustable", fits: "Partially" },
-  { chair: "FDW", armType: "Fixed", fits: "Cannot adjust -- may block small desk" },
+  { chair: "FDW", armType: "Fixed", fits: "Cannot adjust -- may block small desk" }
 ];
 
 export const warrantyRows = [
@@ -290,7 +290,7 @@ export const warrantyRows = [
   { chair: "Sytas B09BB6LZNK", warranty: "1 year", returnWindow: "30-day Amazon return" },
   { chair: "Amazon Basics B00IFHPVEU", warranty: "1 year", returnWindow: "30-day Amazon return" },
   { chair: "Sweetcrispy B0CDGKQSQ3", warranty: "1 year", returnWindow: "30-day Amazon return" },
-  { chair: "FDW B08JGGJZY2", warranty: "1 year", returnWindow: "30-day Amazon return" },
+  { chair: "FDW B08JGGJZY2", warranty: "1 year", returnWindow: "30-day Amazon return" }
 ];
 
 export const faq: { question: string; answer: string }[] = [
@@ -313,5 +313,5 @@ export const faq: { question: string; answer: string }[] = [
   {
     question: "What should I look for in a budget office chair for a dorm?",
     answer: "Compact dimensions (fits under standard dorm desks), flip-up or removable armrests (allows the chair to slide fully under), and a lightweight design (easy to move in a small room). The Amazon Basics Office Task Chair covers the compact and reliable requirements. Flysky's flip-up arms are the best for desk clearance.",
-  },
+  }
 ];

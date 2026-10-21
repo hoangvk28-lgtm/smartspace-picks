@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 8ft Conference Table measures 8ft and is built around spacious 8-10 person capacity, positioning it for u shaped buyers specifically.\n\nElegant Walnut & Black Aesthetic is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for u shaped, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["8ft table dimensions","Spacious 8-10 Person Capacity","Elegant Walnut & Black Aesthetic"],
     pros: ["Spacious 8-10 Person Capacity, confirmed directly in the listing's own spec details","Elegant Walnut & Black Aesthetic, confirmed directly in the listing's own spec details","Integrated Cable Management, confirmed directly in the listing's own spec details"],
-    cons: ["At $389.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $400, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for u shaped",
   },
   {
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     description: "JNMDLAKO Conference Table and is built around fan-shaped folding design for maximum space utilization:, positioning it for u shaped buyers specifically.\n\n360 Silent Universal Wheels for Flexible Mobility: is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for u shaped, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Fan-Shaped Folding Design for Maximum Space Utilization:","360 Silent Universal Wheels for Flexible Mobility:","Modular Splicing for Versatile Conference Configurations: Unlock"],
     pros: ["Fan-Shaped Folding Design for Maximum Space Utilization:, confirmed directly in the listing's own spec details","360 Silent Universal Wheels for Flexible Mobility:, confirmed directly in the listing's own spec details","Modular Splicing for Versatile Conference Configurations: Unlock, confirmed directly in the listing's own spec details"],
-    cons: ["At $990.00, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $1,000, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for u shaped",
   },
   {
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 6FT Conference Table measures 70.86L x 35.43W x 29.52H and is built around assemble the team, positioning it for u shaped buyers specifically.\n\nLong-Lasting Quality is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for u shaped, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["70.86L x 35.43W x 29.52H table dimensions","Assemble the Team","Long-Lasting Quality"],
     pros: ["Assemble the Team, confirmed directly in the listing's own spec details","Long-Lasting Quality, confirmed directly in the listing's own spec details","Multi-purpose, confirmed directly in the listing's own spec details"],
-    cons: ["At $152.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $160, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for u shaped",
   },
   {
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "2 Pack Folding Conference Table and is built around effortless quick folding, positioning it for u shaped buyers specifically.\n\nSMOOTH LOCKABLE SILENT WHEELS is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for u shaped, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["EFFORTLESS QUICK FOLDING","SMOOTH LOCKABLE SILENT WHEELS","4 SIZES: Flip top training room table"],
     pros: ["EFFORTLESS QUICK FOLDING, confirmed directly in the listing's own spec details","SMOOTH LOCKABLE SILENT WHEELS, confirmed directly in the listing's own spec details","4 SIZES: Flip top training room table, confirmed directly in the listing's own spec details"],
-    cons: ["At $709.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $750, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for u shaped",
   },
   {
@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $152.99",
+          "Under $160",
           "Tribesigns 6FT Conference Table"
         ],
         [
-          "Around $289.88",
+          "Under $300",
           "Okeysen Flip-Top Mobile Conference Table"
         ],
         [
-          "Around $389.99",
+          "Under $400",
           "Tribesigns 8ft Conference Table"
         ],
         [
-          "Around $579.99",
+          "Under $600",
           "2-20 Person Folding Conference Table with Wheels"
         ],
         [
-          "Around $604.79",
+          "Under $650",
           "Folding Conference Room Tables with Wheels"
         ],
         [
-          "Around $709.99",
+          "Under $750",
           "2 Pack Folding Conference Table"
         ],
         [
-          "Around $990.00",
+          "Under $1,000",
           "JNMDLAKO Conference Table"
         ],
         [
-          "Around $1,520.00",
+          "Under $1,600",
           "Modular Conference Table with Modesty Panel"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Tribesigns 8ft Conference Table is aimed at buyers looking for u shaped." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Tribesigns 8ft Conference Table is aimed at buyers looking for u shaped." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-rectangular-conference-tables","title":"Best Rectangular Conference Tables in 2026"},{"href":"/guide/best-oval-conference-tables","title":"Best Oval Conference Tables in 2026"},{"href":"/guide/best-boat-shaped-conference-tables","title":"Best Boat Shaped Conference Tables in 2026"}];

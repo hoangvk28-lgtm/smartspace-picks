@@ -129,20 +129,20 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $751.19",
+          "Under $800",
           "Genmitsu 3030-PROVer Ultra CNC Router Machine with MDF Grid Spoilboard"
         ],
         [
-          "Around $809.10",
+          "Under $850",
           "Genmitsu 3030-PROVer Ultra CNC Router Machine for Metal"
         ],
         [
-          "Around $890.80",
+          "Under $900",
           "Genmitsu 3030-PROVer Ultra CNC Router Machine + 7in HD Touchscreen 4-Axis Offline Controller"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -190,7 +190,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", "a": "Genmitsu 3030-PROVer Ultra CNC Router Machine for Metal is aimed at buyers prioritizing 710w spindle, +/-0.03mm precision" },
+  { "q": "What's the single best pick to come out of this comparison?", "a": "Genmitsu 3030-PROVer Ultra CNC Router Machine for Metal is aimed at buyers prioritizing 710w spindle, +/-0.03mm precision" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-3020-desktop-cnc-machines","title":"Best 3020 Desktop CNC Machines in 2026"},{"href":"/guide/best-3020-pro-ultra-desktop-cnc-machines","title":"Best 3020 Pro Ultra Desktop CNC Machines in 2026"},{"href":"/guide/best-3018-desktop-cnc-machines","title":"Best 3018 Desktop CNC Machines in 2026"}];

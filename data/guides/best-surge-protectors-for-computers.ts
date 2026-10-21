@@ -5,7 +5,7 @@ export const metaDescription = "5 surge protectors we evaluated for computer set
 export const mainKeyword = "computer surge protector";
 export const introParagraphs = [
   "A surge protector protects against externally-sourced surges (grid fluctuations, nearby lightning) but does nothing for internally-generated power supply failures or other internal PC hardware faults, a scope limitation worth understanding clearly.",
-  "Multiple computer-adjacent devices (monitor, external drives, networking equipment) sharing one surge protector reach the joule rating's cumulative capacity faster than a single-device setup, a load consideration specific to how a typical computer workstation actually uses this product.",
+  "Multiple computer-adjacent devices (monitor, external drives, networking equipment) sharing one surge protector reach the joule rating's cumulative capacity faster than a single-device setup, a load consideration specific to how a typical computer workstation actually uses this product."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Surge Protector for Computers Overall",
     name: "Power Strip, ALESTOR Surge Protector with 12 Outlets and 4 USB Ports, 6 Feet Extension Cord, 2700 Joules, ETL Listed, Black",
     price: "$21.98",
-    rating: "4.8 stars from 50,501 Amazon ratings",
-    reviews: "50,501 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41PsJYHqW7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08P5LRY37?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Joule Computer Pick",
     name: "Surge Protector Power Strip 4800J, LeZone 10Ft Long Extension Cord Flat Plug, 12 Outlets 2 USB C 2 USB Ports, Wall Mountable, Desk Charging Station, Black",
     price: "$18.89",
-    rating: "4.7 stars from 2,666 Amazon ratings",
-    reviews: "2,666 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41eRaMa6u1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CN6V6M5F?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Computer Surge Protector",
     name: "HANYCONY Surge Protector Power Strip, 1080J, 5 Ft Braided Extension Cord",
     price: "$11.99",
-    rating: "4.8 stars from 67,972 Amazon ratings",
-    reviews: "67,972 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41w1NL7yU4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B092J8LPWR?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best UL-Listed Computer Pick",
     name: "Belkin 12-Outlet Surge Protector Power Strip w/ 12 AC Outlets & 8ft Flat Plug, UL-Listed Heavy-Duty Extension Cord for Home, Office, Travel, Computer, Laptop, Charger - 3,780 Joules of Protection",
     price: "$28.95",
-    rating: "4.8 stars from 3,281 Amazon ratings",
-    reviews: "3,281 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/415tn9cXV7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6S6TPRH?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Computer Pick with USB Charging",
     name: "Surge Protector Power Strip - Nuetsa Flat Plug Extension Cord with 8 Outlets and 4 USB Ports, 6 Feet Power Cord, 2700 Joules, ETL Listed, Black",
     price: "$13.99",
-    rating: "4.7 stars from 44,144 Amazon ratings",
-    reviews: "44,144 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41J41Z-k38L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09F2XPJ47?tag=deskfinds0d-20",
     description:
@@ -110,7 +110,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "External surge protection scope explicitly clarified", description: "Distinguished what a surge protector actually addresses (external grid fluctuations, nearby lightning) from what it doesn't (internal PC hardware faults or power supply failures), a scope limitation buyers sometimes conflate." },
   { title: "Multi-device joule budget depletion for a full workstation", description: "Considered that a computer setup with monitor, external drives, and networking equipment sharing one surge protector depletes the joule budget faster than a single-device setup." },
-  { title: "Connected-equipment warranty payout verified against realistic replacement cost", description: "Checked whether any listed connected-equipment warranty's claim limit realistically covers a computer setup's actual replacement cost, rather than assuming coverage matches expectations." },
+  { title: "Connected-equipment warranty payout verified against realistic replacement cost", description: "Checked whether any listed connected-equipment warranty's claim limit realistically covers a computer setup's actual replacement cost, rather than assuming coverage matches expectations." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -247,11 +247,11 @@ export const faq: FaqItem[] = [
   { q: "Will a connected-equipment warranty actually cover my computer if it's damaged?", a: "Only up to the warranty's payout cap, and only if you meet documentation requirements. Verify the specific limit covers your realistic replacement cost before relying on this coverage." },
   { q: "Do computer surge protectors protect my network connection too?", a: "Only if they include Ethernet or coax pass-through protection, a separate feature from AC outlet surge protection that many computer-focused strips lack, verify this specifically if your network equipment needs protection." },
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers with a full computer setup including monitor and peripherals" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with a basic single PC and monitor setup At $11.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with a basic single PC and monitor setup At under $15, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-surge-protector-power-strips", title: "Best Surge Protector Power Strips (2026)" },
   { href: "/guide/best-surge-protectors-for-gaming-pcs", title: "Best Surge Protectors for Gaming PCs (2026)" },
-  { href: "/guide/best-desktop-surge-protectors", title: "Best Desktop Surge Protectors (2026)" },
+  { href: "/guide/best-desktop-surge-protectors", title: "Best Desktop Surge Protectors (2026)" }
 ];

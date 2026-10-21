@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "chromebook and laptop charging carts";
 export const introParagraphs = [
   "A cart holding both Chromebooks and thicker laptops needs slot geometry that actually fits both device shapes, not just a listing that mentions both device names. We compared confirmed device counts and explicit mixed-fleet claims rather than assuming any classroom cart handles a genuinely mixed fleet the same way.",
-  "Only some of these listings explicitly confirm mixed Chromebook and laptop compatibility; we're noting which do and which are general-purpose carts that may still work but weren't specifically documented for a mixed fleet.",
+  "Only some of these listings explicitly confirm mixed Chromebook and laptop compatibility; we're noting which do and which are general-purpose carts that may still work but weren't specifically documented for a mixed fleet."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -78,9 +78,9 @@ export const products: GuideProduct[] = [
     reviews: "78",
     imageUrl: "https://m.media-amazon.com/images/I/41gKt63zFUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B57QJ8QC?tag=deskfinds0d-20",
-    description: "Ships 95% assembled with independently locking front and back doors and a ventilated American-style steel frame, though the listing doesn't explicitly name Chromebook and laptop compatibility together the way the POCHAR picks do. At 78 reviews, it has the deepest track record of any cart in this comparison.\n\nA proven general-purpose cart worth considering if you don't specifically need explicit mixed-fleet documentation, just reliable 20-device charging.\n\n95% pre-assembled, minimal setup delay. That said, no explicit mixed Chromebook/laptop claim in the listing. Neither should be a surprise once you know to look for it.",
+    description: "Ships 95% assembled with independently locking front and back doors and a ventilated American-style steel frame, though the listing doesn't explicitly name Chromebook and laptop compatibility together the way the POCHAR picks do.\n\nA proven general-purpose cart worth considering if you don't specifically need explicit mixed-fleet documentation, just reliable 20-device charging.\n\n95% pre-assembled, minimal setup delay. That said, no explicit mixed Chromebook/laptop claim in the listing. Neither should be a surprise once you know to look for it.",
     specs: ["95% pre-assembled, black finish", "20-device capacity, independent front/back locks", "No explicit Chromebook naming in the listing"],
-    pros: ["Largest confirmed review base in this comparison at 78 reviews", "95% pre-assembled, minimal setup delay"],
+    pros: [ "95% pre-assembled, minimal setup delay"],
     cons: ["No explicit mixed Chromebook/laptop claim in the listing"],
     bestFor: "Buyers wanting the most proven general cart without requiring explicit mixed-fleet documentation.",
   },
@@ -142,21 +142,20 @@ export const products: GuideProduct[] = [
     reviews: "3",
     imageUrl: "https://m.media-amazon.com/images/I/414IVCsREhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GM4PVW9H?tag=deskfinds0d-20",
-    description: "Explicitly names Chromebook, iPad, and tablet compatibility at the highest confirmed capacity in this comparison, up to 15.6-inch screens, with integrated power strips carrying both surge and ground fault protection. Zig-zag cable routing plus 32 individual cable organizers keep cords manageable at this scale.\n\nAn open rack design allows quick visibility during device distribution, with numbered slots for daily organization. A very thin review base of just 3, so treat the perfect rating as an early signal rather than a settled track record.\n\nThe standout detail is that open rack design and numbered slots ease large-fleet distribution. Balancing that out, very thin review base of only 3 reviews.",
+    description: "Explicitly names Chromebook, iPad, and tablet compatibility at the highest confirmed capacity in this comparison, up to 15.6-inch screens, with integrated power strips carrying both surge and ground fault protection. Zig-zag cable routing plus 32 individual cable organizers keep cords manageable at this scale.\n\nAn open rack design allows quick visibility during device distribution, with numbered slots for daily organization. A very thin review base of just 3, so treat the perfect rating as an early signal rather than a settled track record.\n\nThe standout detail is that open rack design and numbered slots ease large-fleet distribution.",
     specs: ["32-device capacity, up to 15.6\" screens, explicit Chromebook naming", "Surge + ground fault protection, 32 cable organizers", "Numbered slots, open rack design"],
     pros: ["Highest capacity with explicit Chromebook naming", "Open rack design and numbered slots ease large-fleet distribution"],
-    cons: ["Very thin review base of only 3 reviews"],
+    cons: [],
     bestFor: "Larger mixed Chromebook/iPad/tablet fleets wanting maximum confirmed capacity.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Explicit mixed-fleet naming distinguished from general-purpose carts", description: "We separated listings that specifically name Chromebook and laptop (or Chromebook and iPad/tablet) compatibility from general-purpose carts that don't make that claim, rather than assuming every classroom cart handles a mixed fleet equally well." },
   { title: "14-inch screen limits treated as an implicit Chromebook-fit signal", description: "K-12-oriented carts with a 14-inch screen cap strongly suggest Chromebook-scale compatibility even without explicit naming, which we noted as a secondary signal, not a confirmed claim." },
-  { title: "Capacity and price compared within the mixed-fleet-confirmed group", description: "Among carts that do explicitly confirm mixed-device compatibility, we compared 20- to 32-device capacity against price to find the best value at each scale." },
-  { title: "Review base weighted against explicit-claim confidence", description: "A cart with an explicit mixed-fleet claim but only 3-11 reviews still carries real evaluation risk, which we flagged directly rather than treating the claim itself as sufficient proof." },
-];
+  { title: "Capacity and price compared within the mixed-fleet-confirmed group", description: "Among carts that do explicitly confirm mixed-device compatibility, we compared 20- to 32-device capacity against price to find the best value at each scale." }
+  ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
@@ -287,11 +286,11 @@ export const faq: FaqItem[] = [
   { q: "Is there a smaller option for a 20-device Chromebook/iPad classroom?", a: "Yes, the POCHAR 20 Device Laptop Charging Cart explicitly names iPad and Chromebook compatibility." },
   { q: "What's the highest-capacity mixed-fleet option?", a: "The Plugsharge 32-Device Laptop Charging Cart, explicitly naming Chromebook, iPad, and tablet compatibility." },
   { q: "Do the Meteteel carts specifically confirm Chromebook compatibility?", a: "No, the listings don't explicitly name Chromebook and laptop together, though they're the most reviewed general-purpose carts in this comparison." },
-  { q: "What's the best value option for an iPad/Chromebook fleet?", a: "The Pearington 20 Device Mobile Charging and Storage Cart, which explicitly names Chromebook compatibility at a lower price than the Meteteel picks." },
+  { q: "What's the best value option for an iPad/Chromebook fleet?", a: "The Pearington 20 Device Mobile Charging and Storage Cart, which explicitly names Chromebook compatibility at a lower price than the Meteteel picks." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-20-laptop-charging-carts", title: "Best 20-Laptop Charging Carts (2026)" },
   { href: "/guide/best-30-laptop-charging-carts", title: "Best 30-Laptop Charging Carts (2026)" },
-  { href: "/guide/best-laptop-charging-carts-for-schools", title: "Best Laptop Charging Carts for Schools (2026)" },
+  { href: "/guide/best-laptop-charging-carts-for-schools", title: "Best Laptop Charging Carts for Schools (2026)" }
 ];

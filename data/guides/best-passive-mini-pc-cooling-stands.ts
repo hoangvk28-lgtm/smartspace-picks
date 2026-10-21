@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "passive mini PC cooling stands";
 export const introParagraphs = [
   "Passive Mini PC cooling stands use elevation, open airflow, and sometimes heat-conductive material without adding a fan. Their main advantage is genuinely silent operation, but their cooling capacity is usually more limited than an active fan-equipped stand, so they are best evaluated as airflow and heat-spreading aids rather than replacements for strong active cooling.",
-  "This guide overlaps with our broader Best Mini PC Cooling Stands guide, but excludes any stand with active fans and focuses only on the zero-fan subset. All three products here are device-specific, built for Mac mini/Studio, Intel NUC, or Beelink chassis rather than being generic risers, which is a genuine advantage for passive designs since material contact and vent clearance matter more without a fan to compensate.",
+  "This guide overlaps with our broader Best Mini PC Cooling Stands guide, but excludes any stand with active fans and focuses only on the zero-fan subset. All three products here are device-specific, built for Mac mini/Studio, Intel NUC, or Beelink chassis rather than being generic risers, which is a genuine advantage for passive designs since material contact and vent clearance matter more without a fan to compensate."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "6 min";
@@ -75,7 +75,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Passive cooling mechanism", description: "We evaluated whether each stand improves natural airflow or conductive heat spreading without powered airflow, and excluded any fan-equipped stand from this narrower list." },
   { title: "Device-specific fit", description: "We prioritized stands built for a specific chassis, Mac mini/Studio, Intel NUC, or Beelink, over generic risers, since material contact and vent alignment matter more without a fan to compensate for a poor fit." },
   { title: "Material authenticity", description: "We compared stated construction materials, aluminum versus acrylic, and what that means for heat conduction versus simple mechanical elevation." },
-  { title: "Cooling limitation disclosure", description: "We weighed the modest realistic gains of passive-only cooling against the genuine benefit of zero added noise, rather than overstating what elevation alone can achieve." },
+  { title: "Cooling limitation disclosure", description: "We weighed the modest realistic gains of passive-only cooling against the genuine benefit of zero added noise, rather than overstating what elevation alone can achieve." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -179,11 +179,11 @@ export const faq: FaqItem[] = [
   { q: "Can a passive stand stop thermal throttling?", a: "Sometimes, if restricted airflow was the main cause. For a Mini PC that already runs very hot under sustained load, passive elevation alone may not provide enough thermal improvement." },
   { q: "Why does this guide only have 3 products?", a: "Genuinely device-specific passive Mini PC stands are a narrow category. We'd rather list three verified, purpose-built options than pad the list with generic laptop risers that weren't built around any Mini PC's vent layout." },
   { q: "Is material especially important for passive cooling?", a: "It can be more relevant because there's no fan to add airflow. Even so, genuine contact area and vent clearance still determine whether a material's conductivity actually helps." },
-  { q: "When should I choose an active stand instead?", a: "Choose active cooling when sustained-load temperatures remain high and the elevation from a passive stand isn't enough. See our Best Mini PC Stands with Fans guide for active alternatives." },
+  { q: "When should I choose an active stand instead?", a: "Choose active cooling when sustained-load temperatures remain high and the elevation from a passive stand isn't enough. See our Best Mini PC Stands with Fans guide for active alternatives." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pc-cooling-stands", title: "Best Mini PC Cooling Stands (2026)" },
   { href: "/guide/best-mini-pc-stands-with-fans", title: "Best Mini PC Stands with Fans (2026)" },
-  { href: "/guide/best-aluminum-mini-pc-cooling-stands", title: "Best Aluminum Mini PC Cooling Stands (2026)" },
+  { href: "/guide/best-aluminum-mini-pc-cooling-stands", title: "Best Aluminum Mini PC Cooling Stands (2026)" }
 ];

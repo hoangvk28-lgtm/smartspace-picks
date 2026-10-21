@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31FDAqE+ibL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CKGD4DQG?tag=deskfinds0d-20",
-    description: "The white 4-post version of NavePoint's 42U rack, differing from the 2-post white model mainly in the added stability of a fourth support post at the same 661 lb capacity.\n\nAt 79 inches tall and 18.33 inches wide, it's slightly narrower than the 2-post version, which can matter in especially tight rooms.\n\nWhat stands out here is 4-post frame adds stability the 2-post version lacks, plus slightly narrower footprint than the 2-post white model. The main tradeoff: same 661 lb cap as the 2-post version despite extra posts, so weigh that against the $437.99 price before buying.",
+    description: "The white 4-post version of NavePoint's 42U rack, differing from the 2-post white model mainly in the added stability of a fourth support post at the same 661 lb capacity.\n\nAt 79 inches tall and 18.33 inches wide, it's slightly narrower than the 2-post version, which can matter in especially tight rooms.\n\nWhat stands out here is 4-post frame adds stability the 2-post version lacks, plus slightly narrower footprint than the 2-post white model. The main tradeoff: same 661 lb cap as the 2-post version despite extra posts, so weigh that against the under $450 price before buying.",
     specs: ["42U, 79\"H x 18.33\"W, 22-40\"D","661 lb weight capacity","4-post open frame design"],
     pros: ["4-post frame adds stability the 2-post version lacks","Slightly narrower footprint than the 2-post white model","Adjustable depth range fits varied equipment lengths"],
     cons: ["Same 661 lb cap as the 2-post version despite extra posts","79\" height still needs a tall room to fit"],
@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $297.99",
+          "Under $300",
           "NavePoint 42U 2 Post Rack Open Frame"
         ],
         [
-          "Around $389.99",
+          "Under $400",
           "NavePoint 25U 4-Post Open Frame Server Rack"
         ],
         [
-          "Around $437.99",
+          "Under $450",
           "NavePoint 42U 4 Post Rack Open Frame"
         ],
         [
-          "Around $1,099.00",
+          "Under $1,100",
           "Tecmojo 42U Server Rack Network Cabinet"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Tecmojo 42U Server Rack Network Cabinet is aimed at buyers prioritizing 42u, 31.5\"d x 23.6\"w." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Tecmojo 42U Server Rack Network Cabinet is aimed at buyers prioritizing 42u, 31.5\"d x 23.6\"w." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

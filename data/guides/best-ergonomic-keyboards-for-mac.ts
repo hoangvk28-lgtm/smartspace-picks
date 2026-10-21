@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "ergonomic keyboard for mac";
 export const introParagraphs = [
   "Not every ergonomic keyboard marketed as Mac-compatible actually ships with correct out-of-box Command and Option key labeling, many require manual remapping through System Settings even if they technically work once configured, worth verifying which is true for a specific listing before assuming universal plug-and-play compatibility. Native macOS media key support, brightness and volume specifically, is a separate thing worth checking too, since some models need a workaround rather than working natively.",
-  "Switching away from Apple's own Magic Keyboard also means leaving an integrated ecosystem, worth going in with realistic expectations about that transition, and Mac-specific printed keycap legends genuinely help daily usability versus a generic Windows-labeled board where you have to remember which key does what.",
+  "Switching away from Apple's own Magic Keyboard also means leaving an integrated ecosystem, worth going in with realistic expectations about that transition, and Mac-specific printed keycap legends genuinely help daily usability versus a generic Windows-labeled board where you have to remember which key does what."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Dedicated Mac Layout Pick",
     name: "Logitech Wave Keys for Mac Wireless Ergonomic Keyboard - Off White",
     price: "$69.95",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "343 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ogsiz47VL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BTNZSXLG?tag=deskfinds0d-20",
     description: "A dedicated Mac-layout variant of the Wave Keys design with Command and Option keys printed correctly out of the box, distinct from the standard Windows-oriented version. This avoids the manual remapping many general ergonomic keyboards require when used with a Mac.\n\nIt earns the top spot in this comparison over Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest for one main reason. Correct Command and Option labeling out of the box. On price, it comes in below Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: No manual remapping needed for basic modifier keys. On the other side, Less ergonomic benefit than a true split design. That's the main tradeoff to weigh against everything above.",
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Split Pick for Mac Users",
     name: "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest",
     price: "$129.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "7,992 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41EsewSK2nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZWK2TQT?tag=deskfinds0d-20",
     description: "This split keyboard is sold primarily in a Windows-oriented layout, so verify current listings for whether a dedicated Mac variant exists before assuming out-of-box Command and Option labeling. Many Mac users successfully remap modifier keys through System Settings, but that's a manual step, not automatic compatibility.\n\nOne spot below Logitech Wave Keys for Mac Wireless Ergonomic Keyboard in this ranking, it costs more than Logitech Wave Keys for Mac Wireless Ergonomic Keyboard. The compromise here is straightforward: Verify whether a dedicated Mac layout variant exists. What you gain in return: Largest verified review base among Mac-usable picks. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Strong true split ergonomic design. On the other side, Highest price in this guide. That's the main tradeoff to weigh against everything above.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick for Mac Users",
     name: "Logitech Wave Keys Wireless Ergonomic Keyboard - Graphite",
     price: "$59.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "2,972 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/4114VdW9JcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BTNY72VD?tag=deskfinds0d-20",
     description: "The standard Windows-oriented Wave Keys, priced lower than the dedicated Mac variant above, usable with a Mac after manually remapping Command and Option through System Settings. If budget matters more than out-of-box Mac labeling, this is a lower-cost path to the same wave ergonomic design.\n\nSitting just under Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest, it's priced lower than Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest. Here's the honest tradeoff: Requires manual Command/Option remapping for Mac use. And here's what it gets you instead: Lower price than the dedicated Mac-layout version. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Same wave ergonomic design and comfort. On the other side, Verify macOS media key support before buying. That's the main tradeoff to weigh against everything above.",
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     badge: "Best Premium Pick for Mac Users",
     name: "Microsoft Surface Ergonomic Wireless Keyboard, Gray",
     price: "$229.95",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "1,033 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/515R435nUaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01MFCTRZM?tag=deskfinds0d-20",
     description: "A premium curved ergonomic keyboard designed primarily for Windows, requiring the same manual Command and Option remapping approach as any general-purpose keyboard when paired with a Mac. Its premium build and cushioned palm rest are the draw here rather than any native Mac-specific design.\n\nRanked just behind Logitech Wave Keys Wireless Ergonomic Keyboard, it costs more than Logitech Wave Keys Wireless Ergonomic Keyboard. The real tradeoff against that pick: No dedicated Mac keycap legends. In exchange, it offers this instead: Premium build and finish. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Works with Mac after manual remapping. On the other side, Highest price in this guide, without Mac-native design to match. That's the main tradeoff to weigh against everything above.",
@@ -90,8 +90,8 @@ export const products: GuideProduct[] = [
     badge: "Best Backlit Pick, Mac-Usable via Remapping",
     name: "ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard, Full Size, Black",
     price: "$79.99",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "1,488 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41q4ds4LGsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCVVBT3C?tag=deskfinds0d-20",
     description: "A Windows-oriented full-size backlit keyboard, usable on a Mac over Bluetooth after manually remapping Command and Option through System Settings like the Ergo K860 and Wave Keys Graphite above. Its backlit keys and number pad add functionality not covered by the dedicated Mac-layout Wave Keys, at the cost of native modifier labeling.\n\nOne spot below Microsoft Surface Ergonomic Wireless Keyboard in this ranking, it's priced lower than Microsoft Surface Ergonomic Wireless Keyboard. The compromise here is straightforward: No dedicated Mac keycap legends. What you gain in return: Number pad and backlighting not on the dedicated Mac-layout Wave Keys. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Works with Mac after manual remapping. On the other side, Verify macOS media key support before buying. That's the main tradeoff to weigh against everything above.",
@@ -106,8 +106,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Backlit Pick, Mac-Usable via Remapping",
     name: "ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard, Full Size, Gray",
     price: "$69.99",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "1,488 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41b1vrBnYfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQ4T5M8C?tag=deskfinds0d-20",
     description: "The gray colorway of the full-size EK01 Plus, priced slightly below its black counterpart above and usable with a Mac through the same manual remapping process. It's a reasonable value pick for Mac users who want backlighting and a number pad without paying the dedicated Mac-layout Wave Keys premium.\n\nSitting just under ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard, it's priced lower than ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard. Here's the honest tradeoff: No dedicated Mac keycap legends. And here's what it gets you instead: Lowest price among the backlit ProtoArc picks here. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Number pad included. On the other side, Verify macOS media key support before buying. That's the main tradeoff to weigh against everything above.",
@@ -122,8 +122,8 @@ export const products: GuideProduct[] = [
     badge: "Best Colorway Pick, Mac-Usable via Remapping",
     name: "Logitech Wave Keys Wireless Ergonomic Keyboard - Rose",
     price: "$59.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "2,972 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/418t+cQnsOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BTNZWYT5?tag=deskfinds0d-20",
     description: "The Rose colorway of the standard Windows-oriented Wave Keys, priced the same as the Graphite version above and requiring the same manual Command and Option remapping for Mac use. Choose this over Graphite purely on color preference, since the underlying remapping requirement and ergonomic design are identical.\n\nRanked just behind ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard, it's priced lower than ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard. The real tradeoff against that pick: Requires manual Command/Option remapping for Mac use. In exchange, it offers this instead: Same wave ergonomic design as the Graphite version. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Distinct Rose colorway option. On the other side, Verify macOS media key support before buying. That's the main tradeoff to weigh against everything above.",
@@ -138,8 +138,8 @@ export const products: GuideProduct[] = [
     badge: "Best Keyboard and Mouse Combo, Mac-Usable via Remapping",
     name: "ProtoArc EKM02 Wave Keys Ergonomic Wireless Keyboard and Mouse, Black",
     price: "$65.99",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "46 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41tPXfJxdzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GQ95XNQX?tag=deskfinds0d-20",
     description: "A wave-style keyboard and mouse combo carrying the highest rating in this guide, usable on a Mac over Bluetooth after remapping modifier keys the same way as the other Windows-oriented picks above. Buying keyboard and mouse together avoids sourcing a separate ergonomic mouse for Mac use.\n\nOne spot below Logitech Wave Keys Wireless Ergonomic Keyboard in this ranking, it costs more than Logitech Wave Keys Wireless Ergonomic Keyboard. The compromise here is straightforward: Smaller verified review base than established picks. What you gain in return: Highest rating among Mac-usable picks in this guide. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Matched keyboard and mouse in one purchase. On the other side, Requires manual Command/Option remapping. That's the main tradeoff to weigh against everything above.",
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Out-of-box modifier key accuracy", description: "Verified whether Command and Option keys are printed and mapped correctly out of the box versus requiring manual remapping through System Settings." },
   { title: "Native macOS media key support", description: "Checked, where disclosed, whether brightness and volume keys work natively on macOS versus needing a workaround or third-party utility." },
   { title: "Dedicated Mac variant availability", description: "Noted whether a distinct Mac-layout version exists separate from the standard Windows-oriented product, since not every ergonomic keyboard offers one." },
-  { title: "Transition away from the Magic Keyboard ecosystem", description: "Considered the broader context of switching from Apple's integrated Magic Keyboard to a third-party ergonomic keyboard, including setup friction." },
+  { title: "Transition away from the Magic Keyboard ecosystem", description: "Considered the broader context of switching from Apple's integrated Magic Keyboard to a third-party ergonomic keyboard, including setup friction." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -274,11 +274,11 @@ export const faq: FaqItem[] = [
   { q: "Do all ergonomic keyboards work correctly with a Mac out of the box?", a: "Not always, many require manually remapping Command and Option keys through System Settings unless you buy a dedicated Mac-layout variant." },
   { q: "Do ergonomic keyboards support Mac media keys like brightness and volume?", a: "It varies, verify current listings and buyer feedback since native macOS media key support isn't guaranteed even on Mac-labeled keyboards." },
   { q: "Is a dedicated Mac-layout keyboard worth the extra cost?", a: "If correct out-of-box Command and Option labeling matters to you, yes, otherwise a standard version with manual remapping can work just as well ergonomically." },
-  { q: "Can I use a Windows-labeled ergonomic keyboard with my Mac?", a: "Generally yes, after remapping the modifier keys manually through System Settings, though the physical key labels won't match the actual function." },
+  { q: "Can I use a Windows-labeled ergonomic keyboard with my Mac?", a: "Generally yes, after remapping the modifier keys manually through System Settings, though the physical key labels won't match the actual function." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-multi-device-ergonomic-keyboards", title: "Best Multi-Device Ergonomic Keyboards (2026)" },
   { href: "/guide/best-bluetooth-ergonomic-keyboards", title: "Best Bluetooth Ergonomic Keyboards (2026)" },
-  { href: "/guide/best-ergonomic-keyboards", title: "Best Ergonomic Keyboards (2026)" },
+  { href: "/guide/best-ergonomic-keyboards", title: "Best Ergonomic Keyboards (2026)" }
 ];

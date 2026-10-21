@@ -12,7 +12,7 @@ export const deskPhotoFrameDigitalVsPhysicalGuide: Guide = {
     "digital photo frame worth it desk",
     "rotating photo frame office",
     "physical frame vs digital display",
-    "desk photo frame power outlet",
+    "desk photo frame power outlet"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskPhotoFrameDigitalVsPhysicalGuide: Guide = {
     "framed-vs-frameless-desk-art",
     "desk-decor-clutter-balance",
     "how-many-outlets-do-you-need-desk-setup",
-    "smart-plug-desk-setup-explained",
+    "smart-plug-desk-setup-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskPhotoFrameDigitalVsPhysicalGuide: Guide = {
       question: "Which is more cost-effective for displaying multiple photos?",
       answer:
         "A single digital frame displaying a rotating gallery is often more cost-effective and space-efficient than purchasing and displaying multiple physical frames to show the same number of photos, though this depends on how many photos you actually want visible.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const deskPhotoFrameDigitalVsPhysicalGuide: Guide = {
     {
       heading: "Why Simplicity Has Its Own Genuine, Lasting Value",
       body: `A physical photo frame's complete lack of electronics means it will look and function exactly the same in ten years as it does today, no software becoming outdated, no internal component eventually failing, no need to ever think about it again once placed, this durability and simplicity is a genuine value proposition of its own, distinct from the photo variety a digital frame offers, for someone who values a decor choice they can set once and never need to maintain, troubleshoot, or eventually replace due to electronic failure, this simplicity represents a real, lasting advantage worth weighing against digital's rotating gallery convenience.`,
-    },
+    }
   ],
 };

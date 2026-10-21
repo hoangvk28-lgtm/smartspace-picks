@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "clip-on monitor shelf";
 export const introParagraphs = [
   "\"Clip-on\" and \"clamp-on\" are sometimes used interchangeably in listings for what is genuinely the same C-clamp mechanism, so it's worth checking the actual hardware description rather than assuming the word choice tells you the mounting is different. Where a real distinction exists, a clip-on mechanism tends to be a smaller, simpler design with a narrower compatible desk-edge thickness range and typically lower weight capacity than a full C-clamp.",
-  "Clean removal without marks or damage is this category's specific selling point for buyers who rent or don't want to commit to a permanent-feeling mount, worth checking reviews specifically for post-removal desk condition rather than just initial install ease. As with clamp-on shelves, the same leverage-related capacity reduction and desk-edge compatibility checks still apply.",
+  "Clean removal without marks or damage is this category's specific selling point for buyers who rent or don't want to commit to a permanent-feeling mount, worth checking reviews specifically for post-removal desk condition rather than just initial install ease. As with clamp-on shelves, the same leverage-related capacity reduction and desk-edge compatibility checks still apply."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,13 +26,13 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Clip/Clamp-On Shelf",
     name: "VIVO Black Clamp-on Large 40 inch Ergonomic Desk Shelf, Dual Monitor Riser",
     price: "$69.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "474 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41YgGiEdSPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07S868SFX?tag=deskfinds0d-20",
-    description: "For buyers wanting a large mounted platform and who have confirmed the desk-edge fit first Built with a clamp-mount metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nIt earns the top spot in this comparison over Snughome 38.6\" Desktop Organizer Shelf for one main reason. Solid 4.6-star rating with 474 ratings. On price, it's actually priced above Snughome 38.6\" Desktop Organizer Shelf, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Clamp-mount metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["44 lbs rated capacity (evenly distributed)","clamp-mount metal construction","Priced at $69.99","474 ratings on Amazon"],
-    pros: ["Solid 4.6-star rating with 474 ratings","Clamp-mount metal build appropriate for this use case","Reasonable price at $69.99","A large 40 inch C-clamp shelf, worth checking the exact hardware description since 'clip-on' and 'clamp-on' overlap in this product's own marketing."],
+    description: "For buyers wanting a large mounted platform and who have confirmed the desk-edge fit first Built with a clamp-mount metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nIt earns the top spot in this comparison over Snughome 38.6\" Desktop Organizer Shelf for one main reason. On price, it's actually priced above Snughome 38.6\" Desktop Organizer Shelf, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Clamp-mount metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","clamp-mount metal construction","Priced under $70"],
+    pros: ["Clamp-mount metal build appropriate for this use case","Reasonable price at under $70","A large 40 inch C-clamp shelf, worth checking the exact hardware description since 'clip-on' and 'clamp-on' overlap in this product's own marketing."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A large 40 inch C-clamp shelf, worth checking the exact hardware description since 'clip-on' and 'clamp-on' overlap in this product's own marketing.",
   },
@@ -42,13 +42,13 @@ export const products: GuideProduct[] = [
     badge: "Best Larger Desk Hutch-Style Shelf",
     name: "Snughome 38.6\" Desktop Organizer Shelf, 4-Tier Desk Display Rack with Pegboard",
     price: "$65.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "330 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51y3uAmYlhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D9882DJK?tag=deskfinds0d-20",
-    description: "For buyers wanting substantially more storage than a simple clip-on platform provides Built with a wood platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nOne spot below VIVO Black Clamp-on Large 40 inch Ergonomic Desk Shelf in this ranking, it's priced lower than VIVO Black Clamp-on Large 40 inch Ergonomic Desk Shelf. The compromise here is straightforward: Rated capacity assumes evenly distributed weight, not a single point load. What you gain in return: Solid 4.5-star rating with 330 ratings. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["44 lbs rated capacity (evenly distributed)","wood construction","Priced at $65.99","330 ratings on Amazon"],
-    pros: ["Solid 4.5-star rating with 330 ratings","Wood build appropriate for this use case","Reasonable price at $65.99","A 38.6 inch desk hutch shelf with 4 tiers and pegboard hooks, a different mounting style worth comparing against a simple clip mechanism."],
+    description: "For buyers wanting substantially more storage than a simple clip-on platform provides Built with a wood platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nOne spot below VIVO Black Clamp-on Large 40 inch Ergonomic Desk Shelf in this ranking, it's priced lower than VIVO Black Clamp-on Large 40 inch Ergonomic Desk Shelf. The compromise here is straightforward: Rated capacity assumes evenly distributed weight, not a single point load. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","wood construction","Priced under $70"],
+    pros: ["Wood build appropriate for this use case","Reasonable price at under $70","A 38.6 inch desk hutch shelf with 4 tiers and pegboard hooks, a different mounting style worth comparing against a simple clip mechanism."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A 38.6 inch desk hutch shelf with 4 tiers and pegboard hooks, a different mounting style worth comparing against a simple clip mechanism.",
   },
@@ -58,13 +58,13 @@ export const products: GuideProduct[] = [
     badge: "Best Reversible Clip/Clamp Shelf for Either Desk Side",
     name: "Gaxomo 30-Inch Desktop Clamp-on Shelf & Monitor Riser, Holds 44 lbs",
     price: "$49.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "42 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31azforOz-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GD7SNZDD?tag=deskfinds0d-20",
-    description: "For buyers wanting mounting flexibility across different desk orientations Built with a clamp-mount metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nSitting just under Snughome 38.6\" Desktop Organizer Shelf, it's priced lower than Snughome 38.6\" Desktop Organizer Shelf. Here's the honest tradeoff: Rated capacity assumes evenly distributed weight, not a single point load. And here's what it gets you instead: Solid 4.3-star rating with 42 ratings. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Clamp-mount metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["44 lbs rated capacity (evenly distributed)","clamp-mount metal construction","Priced at $49.99","42 ratings on Amazon"],
-    pros: ["Solid 4.3-star rating with 42 ratings","Clamp-mount metal build appropriate for this use case","Reasonable price at $49.99","A 30 inch reversible clamp shelf that fits either side of the desk."],
+    description: "For buyers wanting mounting flexibility across different desk orientations Built with a clamp-mount metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nSitting just under Snughome 38.6\" Desktop Organizer Shelf, it's priced lower than Snughome 38.6\" Desktop Organizer Shelf. Here's the honest tradeoff: Rated capacity assumes evenly distributed weight, not a single point load. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Clamp-mount metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","clamp-mount metal construction","Priced under $50"],
+    pros: ["Clamp-mount metal build appropriate for this use case","Reasonable price at under $50","A 30 inch reversible clamp shelf that fits either side of the desk."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A 30 inch reversible clamp shelf that fits either side of the desk.",
   },
@@ -74,13 +74,13 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Clip-On Shelf for a Narrow Desk Edge",
     name: "Gaxomo 15-Inch Desktop Clamp-on Shelf & Monitor Riser, Holds 44 lbs",
     price: "$29.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "42 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31S0U8qAB0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GD7X2T74?tag=deskfinds0d-20",
-    description: "For buyers wanting the smallest, simplest mounted platform for one lighter item Built with a clamp-mount metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nRanked just behind Gaxomo 30-Inch Desktop Clamp-on Shelf & Monitor Riser, it's priced lower than Gaxomo 30-Inch Desktop Clamp-on Shelf & Monitor Riser. The real tradeoff against that pick: Rated capacity assumes evenly distributed weight, not a single point load. In exchange, it offers this instead: Solid 4.3-star rating with 42 ratings. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Clamp-mount metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["44 lbs rated capacity (evenly distributed)","clamp-mount metal construction","Priced at $29.99","42 ratings on Amazon"],
-    pros: ["Solid 4.3-star rating with 42 ratings","Clamp-mount metal build appropriate for this use case","Reasonable price at $29.99","A smaller 15 inch clamp shelf, closer in scale to what many buyers picture when they search for a clip-on design."],
+    description: "For buyers wanting the smallest, simplest mounted platform for one lighter item Built with a clamp-mount metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nRanked just behind Gaxomo 30-Inch Desktop Clamp-on Shelf & Monitor Riser, it's priced lower than Gaxomo 30-Inch Desktop Clamp-on Shelf & Monitor Riser. The real tradeoff against that pick: Rated capacity assumes evenly distributed weight, not a single point load. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Clamp-mount metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","clamp-mount metal construction","Priced under $30"],
+    pros: ["Clamp-mount metal build appropriate for this use case","Reasonable price at under $30","A smaller 15 inch clamp shelf, closer in scale to what many buyers picture when they search for a clip-on design."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A smaller 15 inch clamp shelf, closer in scale to what many buyers picture when they search for a clip-on design.",
   }
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Clip-on versus clamp-on terminology checked against actual hardware", description: "Verified whether each listing's clip-on or clamp-on label reflects a genuinely different mechanism or the same C-clamp design under different marketing." },
   { title: "Desk-edge thickness range compared across mechanism types", description: "Noted that clip-on designs often have a narrower compatible thickness range than larger clamp shelves." },
   { title: "Clean removal checked in buyer feedback", description: "Looked for reviews specifically addressing whether the shelf leaves marks or damage after removal, this category's specific selling point." },
-  { title: "Leverage-related capacity caution carried forward", description: "Applied the same leverage-stress capacity reduction consideration from clamp-mounted shelves to clip mechanisms." },
+  { title: "Leverage-related capacity caution carried forward", description: "Applied the same leverage-stress capacity reduction consideration from clamp-mounted shelves to clip mechanisms." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -176,23 +176,19 @@ export const howToChoose: HowToChooseSection[] = [
       {
         "label": "Look for",
         "text": "A stated weight capacity with real margin above your monitor's actual weight, a rigid material like metal or thick wood, and a wide enough platform to support the monitor's full base without overhang."
-      },
-      {
-        "label": "In this comparison",
-        "text": "VIVO Black Clamp-on Large 40 inch Ergonomic Desk Shelf fits this specifically: Solid 4.6-star rating with 474 ratings."
       }
-    ]
+      ]
   },
   {
     "subheading": "When to Spend More",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want what VIVO Black Clamp-on Large 40 inch Ergonomic Desk Shelf offers: Solid 4.6-star rating with 474 ratings. That's a real functional upgrade over the budget picks here, not just a brand markup."
+        "text": "That's a real functional upgrade over the budget picks here, not just a brand markup."
       },
       {
         "label": "Save if",
-        "text": "Gaxomo 15-Inch Desktop Clamp-on Shelf & Monitor Riser already covers the essentials: Solid 4.3-star rating with 42 ratings. The main thing you'd be paying extra for elsewhere in this list is capacity or storage you may not need."
+        "text": "The main thing you'd be paying extra for elsewhere in this list is capacity or storage you may not need."
       }
     ]
   }
@@ -225,11 +221,11 @@ export const faq: FaqItem[] = [
   { q: "Is a clip-on monitor shelf different from a clamp-on one?", a: "Sometimes not, some listings use the terms interchangeably for the same C-clamp hardware. Where they differ, clip-on tends to mean smaller and simpler with a narrower desk-edge range." },
   { q: "Do clip-on shelves leave marks when removed?", a: "It depends on the specific product, clean removal without marks is this category's main selling point, check reviews for post-removal desk condition." },
   { q: "Do clip-on shelves fit thinner desk edges than clamp-on ones?", a: "Often yes, given their generally smaller and simpler mechanism, but always check the specific compatible thickness range before buying." },
-  { q: "Are clip-on shelves as strong as clamp-on ones?", a: "Generally lower capacity given the smaller mechanism, verify the specific rating against your intended load." },
+  { q: "Are clip-on shelves as strong as clamp-on ones?", a: "Generally lower capacity given the smaller mechanism, verify the specific rating against your intended load." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-clamp-on-monitor-shelves", title: "Best Clamp-On Monitor Shelves (2026)" },
   { href: "/guide/best-floating-monitor-shelves", title: "Best Floating Monitor Shelves (2026)" },
-  { href: "/guide/best-wall-mounted-monitor-shelves", title: "Best Wall-Mounted Monitor Shelves (2026)" },
+  { href: "/guide/best-wall-mounted-monitor-shelves", title: "Best Wall-Mounted Monitor Shelves (2026)" }
 ];

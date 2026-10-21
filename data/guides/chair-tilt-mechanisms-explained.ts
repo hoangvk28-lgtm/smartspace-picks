@@ -12,7 +12,7 @@ export const chairTiltMechanismsExplainedGuide: Guide = {
     "synchro tilt vs knee tilt chair",
     "office chair recline mechanism",
     "tilt lock office chair",
-    "office chair tilt tension",
+    "office chair tilt tension"
   ],
   heroImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const chairTiltMechanismsExplainedGuide: Guide = {
     "lumbar-support-explained",
     "office-chair-size-chart",
     "ergonomic-chair-vs-gaming-chair",
-    "how-to-measure-office-chair-fit",
+    "how-to-measure-office-chair-fit"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const chairTiltMechanismsExplainedGuide: Guide = {
       question: "Do all office chairs have a tilt mechanism?",
       answer:
         "No, some basic task chairs have a fixed, non-reclining backrest, while ergonomic chairs almost always include some form of tilt mechanism as a core comfort and movement feature for extended sitting sessions.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const chairTiltMechanismsExplainedGuide: Guide = {
     {
       heading: "Choosing Based on How You Actually Work",
       body: `If you shift positions frequently throughout the day, alternating between upright focus and a reclined thinking posture, a synchro-tilt mechanism with adjustable tension supports that movement well. If your work requires a consistently stable, upright position, like detailed drawing or precise desk tasks, a tilt lock feature lets you disable the recline entirely when you need the chair to stay put.`,
-    },
+    }
   ],
 };

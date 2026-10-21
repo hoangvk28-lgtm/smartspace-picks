@@ -1,11 +1,11 @@
 export const guideSlug = "best-trackball-mice-under-50";
 export const guideTitle = "5 Best Trackball Mice Under $50 in 2026";
 export const metaTitle = "Best Trackball Mice Under $50 in 2026";
-export const metaDescription = "Five trackball mice at $49.99 or less compared by ball size, tilt, vertical grip, battery claims and device pairing for mid-budget desks.";
+export const metaDescription = "Five trackball mice at $50 or less compared by ball size, tilt, vertical grip, battery claims and device pairing for mid-budget desks.";
 export const mainKeyword = "trackball mouse under 50";
 export const introParagraphs = [
   "Fifty dollars opens up larger balls, vertical shells and longer battery claims that the sub-$30 group skips. It is also where a few extras start to matter: a 44mm finger ball, 120 days between charges or a tilt hinge that actually adjusts.",
-  "The five picks are all listed at $49.99 or less, and they cover a tilting thumb ball, two 44mm finger balls, a vertical SANWA and an ambidextrous YUMQUA that runs on AAA. We compared them on listed specs, such as ball size, angle and battery claims. Because the listings are from lesser-known brands, we also noted how clearly each states its details."
+  "The five picks are all listed at $50 or less, and they cover a tilting thumb ball, two 44mm finger balls, a vertical SANWA and an ambidextrous YUMQUA that runs on AAA. We compared them on listed specs, such as ball size, angle and battery claims. Because the listings are from lesser-known brands, we also noted how clearly each states its details."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";

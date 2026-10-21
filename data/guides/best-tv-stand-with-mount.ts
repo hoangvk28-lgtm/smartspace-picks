@@ -159,7 +159,7 @@ export const products: GuideProduct[] = [
     pros: ["4 cord ports spread across the back panel", "Open cubby layout works well with storage bins", "150 lb top surface capacity", "Neutral espresso finish"],
     cons: ["Mount rated well below the top surface capacity at 65 lbs", "Price not consistently listed, confirm before buying", "No swivel or tilt on the mount"],
     bestFor: "Buyers who want organized open-cubby storage alongside a built-in mount for TVs up to 65 lbs.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -191,10 +191,10 @@ export const faq: { q: string; a: string }[] = [
   { q: "Can I swivel or tilt the TV on these stands?", a: "It depends on the model. The MJOMKN swivels up to 34 degrees each direction and the FITUEYES 70 inch model swivels 25 degrees, while the Mount-It! MI-864 and the Walker Edison 60 inch console are fixed with no swivel or tilt adjustment. If your couch or bed is off-center from the TV wall, prioritize a swivel-rated mount over a fixed one." },
   { q: "Do these stands require drilling into the wall?", a: "No. Every pick in this guide mounts the TV to the console's own back panel or steel pole rather than to the wall, so there is no wall drilling and no stud-finding required. This makes them a common choice for renters who cannot drill into walls, though you should still anchor the console itself to a wall stud with an anti-tip strap for safety." },
   { q: "What is a 3-in-1 TV stand with mount?", a: "On the Whalen Payton pick in this guide, 3-in-1 means the TV can be attached to the built-in mount arm with tilt and swivel, set directly on the console's flat top surface without using the mount, or removed from the stand altogether if you later add a separate wall mount. Most other integrated-mount stands only support the mount configuration." },
-  { q: "How much weight can the mount on a TV stand with mount actually hold?", a: "It varies by model and is usually lower than the stand's overall furniture weight rating. In this guide, mount ratings range from 65 lbs on the Walker Edison Wren Classic up to 110 lbs on the FITUEYES 70 inch swivel model. Weigh or look up your TV's actual weight, not just its screen size, and compare it to the mount's specific rating before buying." },
+  { q: "How much weight can the mount on a TV stand with mount actually hold?", a: "It varies by model and is usually lower than the stand's overall furniture weight rating. In this guide, mount ratings range from 65 lbs on the Walker Edison Wren Classic up to 110 lbs on the FITUEYES 70 inch swivel model. Weigh or look up your TV's actual weight, not just its screen size, and compare it to the mount's specific rating before buying." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-tv-stand-for-55-inch-tv", title: "Best TV Stands for 55 Inch TVs (2026)" },
-  { href: "/guide/best-cable-management-boxes-for-desks", title: "Best Cable Management Boxes for Desks (2026)" },
+  { href: "/guide/best-cable-management-boxes-for-desks", title: "Best Cable Management Boxes for Desks (2026)" }
 ];

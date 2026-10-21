@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $286.56",
+          "Under $300",
           "Alera Valencia Series 72 by 24 by 29-1/2-Inch Credenza Shell"
         ],
         [
-          "Around $287.99",
+          "Under $300",
           "ModernMate 60\" File Cabinet with Drawers & Door"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "ModernMate 60\" Lateral File Cabinet with 3 Drawers"
         ],
         [
-          "Around $315.00",
+          "Under $350",
           "HON HONLCS7224LT1 72 in. Shell Credenza Mahogany"
         ],
         [
-          "Around $359.99",
+          "Under $400",
           "ModernMate 63\" Lateral File Cabinet with Lock"
         ],
         [
-          "Around $629.99",
+          "Under $650",
           "63\" L Shaped Executive Standing Desk with 3 Drawers"
         ],
         [
-          "Around $849.99",
+          "Under $850",
           "71\" L Shaped Executive Standing Desk"
         ],
         [
-          "Around $1,755.06",
+          "Under $1,800",
           "Coaster Home Furnishings Hartshill 5-Drawer Wood Credenza Desk with Hutch"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "ModernMate 63\" Lateral File Cabinet with Lock is aimed at buyers prioritizing 300 lb top load rating, 1.18in thick top." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "ModernMate 63\" Lateral File Cabinet with Lock is aimed at buyers prioritizing 300 lb top load rating, 1.18in thick top." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"},{"href":"/guide/best-office-credenzas-with-storage","title":"Best Office Credenzas With Storage in 2026"}];

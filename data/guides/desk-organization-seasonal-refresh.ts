@@ -12,7 +12,7 @@ export const deskOrganizationSeasonalRefreshGuide: Guide = {
     "quarterly desk declutter routine",
     "seasonal home office refresh checklist",
     "reassess desk setup periodically",
-    "desk organization maintenance schedule",
+    "desk organization maintenance schedule"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskOrganizationSeasonalRefreshGuide: Guide = {
     "desk-declutter-checklist",
     "ergonomic-assessment-checklist",
     "cable-management-troubleshooting",
-    "desk-decor-clutter-balance",
+    "desk-decor-clutter-balance"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskOrganizationSeasonalRefreshGuide: Guide = {
       question: "What's a sign my desk setup needs more frequent refreshes than every season?",
       answer:
         "If you notice significant clutter or disorganization building up well before the next scheduled seasonal check, this suggests either your current organizational systems aren't quite matched to your actual workflow, or a more frequent refresh cadence would better suit your specific accumulation pace.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ export const deskOrganizationSeasonalRefreshGuide: Guide = {
     {
       heading: "Why the Refresh Should Stay Moderate Rather Than Becoming an Overwhelming Task",
       body: `Framing a seasonal refresh as a complete organizational overhaul each time makes the task feel large and effortful enough that it's easy to postpone or skip entirely, treating it instead as a moderate, focused check-in, working through a specific checklist rather than starting from a blank slate, keeps the task appropriately scoped and genuinely sustainable as an ongoing practice, the goal is catching and correcting drift, not rebuilding your entire desk setup from scratch every three months, keeping this distinction clear helps the habit actually stick long term rather than becoming another task that gets deprioritized when time is limited.`,
-    },
+    }
   ],
 };

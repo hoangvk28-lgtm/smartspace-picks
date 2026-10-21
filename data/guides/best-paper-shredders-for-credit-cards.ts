@@ -5,7 +5,7 @@ export const metaDescription = "8 shredders we evaluated for credit card destruc
 export const mainKeyword = "paper shredder for credit cards";
 export const introParagraphs = [
   "Not all shredders with a card slot achieve the same destruction security for an embedded chip. A basic cross-cut may render a card visually unreadable while leaving chip fragments large enough to theoretically extract data; genuine security needs cross-cut or micro-cut at a sufficiently fine particle size. We prioritize P-4-rated picks below and note particle dimensions where disclosed.",
-  "Also worth knowing: card shredding wears blades faster than paper alone, since plastic is harder on cutting edges, frequent card shredding can accelerate blade dulling and increase paper jam frequency over time, a compounding wear effect worth factoring into how often you'll actually use this feature.",
+  "Also worth knowing: card shredding wears blades faster than paper alone, since plastic is harder on cutting edges, frequent card shredding can accelerate blade dulling and increase paper jam frequency over time, a compounding wear effect worth factoring into how often you'll actually use this feature."
 ];
 export const lastUpdated = "2026-07-28";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Micro-Cut Card Security",
     name: "Amazon Basics 8-Sheet High Security Cross Cut Paper and Credit Card Shredder",
     price: "$33.16",
-    rating: "4.3 stars from 77,112 Amazon ratings",
-    reviews: "77,112 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31QbluTUmKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6LZ8S34?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Same Security, White Finish",
     name: "Amazon Basics 8-Sheet Cross Cut Paper and Credit Card Shredder for Security, White",
     price: "$33.16",
-    rating: "4.3 stars from 77,112 Amazon ratings",
-    reviews: "77,112 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31WGmZ4xo0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6LXGNY1?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Higher Paper Capacity, Lower Card Security (P-3)",
     name: "Amazon Basics 12-Sheet Cross-Cut Paper and Credit Card Shredder",
     price: "$58.00",
-    rating: "4.3 stars from 77,112 Amazon ratings",
-    reviews: "77,112 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31GNS0CdNOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6LZG69W?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Micro-Cut with Pull-Out Bin",
     name: "Amazon Basics High Security Micro Cut Paper Shredder, 8 Sheet Capacity",
     price: "$74.61",
-    rating: "4.3 stars from 1,194 Amazon ratings",
-    reviews: "1,194 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41QmnUvb1tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6LXQTST?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity Micro-Cut for Cards",
     name: "Bonsaii 15-Sheet Cross Cut Paper Shredder for Home Office Heavy Duty",
     price: "$79.99",
-    rating: "4.5 stars from 1,517 Amazon ratings",
-    reviews: "1,517 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31sWapqhQCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJR7KXJX?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Good Balance of Capacity and Bin Size",
     name: "Bonsaii 10-Sheet Heavy Duty Cross Cut Paper Shredder for Home Office",
     price: "$53.09",
-    rating: "4.4 stars from 9,810 Amazon ratings",
-    reviews: "9,810 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31wkQYg97oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09MHR4457?tag=deskfinds0d-20",
     description:
@@ -127,8 +127,8 @@ export const products: GuideProduct[] = [
     badge: "Fine Particle Micro-Cut Alternative",
     name: "Bonsaii Micro Cut Paper Shredder, 10-Sheet, Home Office, 5.5-Gallon bin",
     price: "$59.49",
-    rating: "4.5 stars from 8,974 Amazon ratings",
-    reviews: "8,974 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31jH9nhLBBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKXGNDLT?tag=deskfinds0d-20",
     description:
@@ -144,8 +144,8 @@ export const products: GuideProduct[] = [
     badge: "Budget Card-Capable Pick",
     name: "Bonsaii 12-Sheet Cross Cut Heavy Duty Paper Shredder for Home Office",
     price: "$79.99",
-    rating: "4.5 stars from 1,685 Amazon ratings",
-    reviews: "1,685 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/310qS+3q87L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5XPJ524?tag=deskfinds0d-20",
     description:
@@ -154,14 +154,14 @@ export const products: GuideProduct[] = [
     pros: ["Long 15-minute continuous run time", "Shreds CDs and credit cards alongside high paper volume", "Jam-proof reverse system", "Solid rating"],
     cons: ["Not the finest particle size in this guide", "Not suitable for metal credit cards", "Card shredding is a secondary feature, not the primary design focus"],
     bestFor: "Buyers who mostly shred paper but want occasional card-destruction capability built in",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Particle size disclosed for genuine chip-destruction security", description: "Compared each pick's actual disclosed particle dimensions rather than treating any P-4 rating or 'shreds credit cards' claim as equivalent, since finer particles genuinely destroy chip and magnetic stripe data more completely." },
   { title: "P-3 vs. P-4 security level for card destruction specifically", description: "Distinguished picks rated P-3 (coarser particles) from P-4 (finer particles) for card destruction, a real security-level difference beyond just 'has a card slot.'" },
-  { title: "Blade wear from card shredding versus paper alone", description: "Noted that plastic cards wear blades faster than paper, a compounding factor for buyers who shred cards frequently rather than occasionally." },
+  { title: "Blade wear from card shredding versus paper alone", description: "Noted that plastic cards wear blades faster than paper, a compounding factor for buyers who shred cards frequently rather than occasionally." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -294,11 +294,11 @@ export const faq: FaqItem[] = [
   { q: "Will shredding credit cards regularly wear out my shredder faster?", a: "Yes. Plastic cards are harder on shredder blades than paper alone, so frequent card shredding accelerates blade dulling and can increase paper jam frequency over time compared to paper-only use." },
   { q: "Which pick in this guide has the finest particle size for card security?", a: "The Amazon Basics 8-sheet micro-cut pick with a pull-out bin (rank 4) discloses the finest particle size in this guide at 4.5 x 12mm, genuinely superior chip-destruction security compared to the coarser P-3 and standard P-4 alternatives." },
   { "q": "What's the single best pick to come out of this comparison?", a: "Buyers who want the finest confirmed particle size for genuine chip-destruction security" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want the finest confirmed particle size for genuine chip-destruction security At $33.16, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want the finest confirmed particle size for genuine chip-destruction security At under $35, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-paper-shredders-for-staples-and-paper-clips", title: "Best Paper Shredders for Staples and Paper Clips (2026)" },
   { href: "/guide/best-8-sheet-paper-shredders", title: "Best 8-Sheet Paper Shredders (2026)" },
-  { href: "/guide/best-paper-shredders-under-100", title: "Best Paper Shredders Under $100 (2026)" },
+  { href: "/guide/best-paper-shredders-under-100", title: "Best Paper Shredders Under $100 (2026)" }
 ];

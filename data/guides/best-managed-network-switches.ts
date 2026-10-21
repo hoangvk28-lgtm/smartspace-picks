@@ -200,31 +200,31 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $18.98",
+          "Under $20",
           "NETGEAR GS305E 5-Port Easy Smart Managed Switch"
         ],
         [
-          "Around $23.99",
+          "Under $25",
           "NETGEAR GS308E 8-Port Easy Smart Managed Switch"
         ],
         [
-          "Around $24.99",
+          "Under $25",
           "TP-Link TL-SG108E 8-Port Easy Smart Switch"
         ],
         [
-          "Around $79.99",
+          "Under $80",
           "NETGEAR GS308EP 8-Port PoE+ Smart Managed Switch"
         ],
         [
-          "Around $99.99",
+          "Under $100",
           "TP-Link TL-SG1024DE 24-Port Easy Smart Switch"
         ],
         [
-          "Around $147.88",
+          "Under $150",
           "Ubiquiti UniFi US-8-60W Managed PoE Switch"
         ],
         [
-          "Around $748.95",
+          "Under $750",
           "Ubiquiti UniFi USW-Pro-24-PoE Layer 3 Switch"
         ]
       ]
@@ -279,10 +279,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "NETGEAR GS305E 5-Port Easy Smart Managed Switch is aimed at buyers prioritizing 5 ports, easy smart managed, at $18.98."
+        "text": "NETGEAR GS305E 5-Port Easy Smart Managed Switch is aimed at buyers prioritizing 5 ports, easy smart managed, at under $20."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -323,9 +323,9 @@ export const faq = [
   }
 ,
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "TP-Link TL-SG108E 8-Port Easy Smart Switch is aimed at buyers prioritizing 8 ports, 32 simultaneous vlans." },
-  { q: "Which pick offers the best value for a tight budget?", a: "NETGEAR GS305E 5-Port Easy Smart Managed Switch is aimed at buyers prioritizing 5 ports, easy smart managed, and at $18.98 it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $18.98 to $748.95, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
-  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Ubiquiti UniFi USW-Pro-24-PoE Layer 3 Switch is aimed at buyers prioritizing 24-port layer 3 managed. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
+  { q: "Which pick offers the best value for a tight budget?", a: "NETGEAR GS305E 5-Port Easy Smart Managed Switch is aimed at buyers prioritizing 5 ports, easy smart managed, and at under $20 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $20 to $750, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Ubiquiti UniFi USW-Pro-24-PoE Layer 3 Switch is aimed at buyers prioritizing 24-port layer 3 managed. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-layer-3-network-switches","title":"3 Best Layer 3 Network Switches in 2026"},{"href":"/guide/best-layer-2-network-switches","title":"6 Best Layer 2 Network Switches in 2026"},{"href":"/guide/best-smart-network-switches","title":"8 Best Smart Network Switches in 2026"}];

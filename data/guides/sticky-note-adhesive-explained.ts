@@ -12,7 +12,7 @@ export const stickyNoteAdhesiveExplainedGuide: Guide = {
     "why do sticky notes fall off",
     "super sticky notes vs regular",
     "sticky note adhesive for monitors",
-    "best sticky notes that stay stuck",
+    "best sticky notes that stay stuck"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const stickyNoteAdhesiveExplainedGuide: Guide = {
     "sticky-note-system-vs-digital-planner",
     "whiteboard-vs-corkboard",
     "desk-organizer-types-explained",
-    "gel-vs-ballpoint-pen-explained",
+    "gel-vs-ballpoint-pen-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const stickyNoteAdhesiveExplainedGuide: Guide = {
       question: "Can temperature affect how well sticky notes stay attached?",
       answer:
         "Yes, adhesive can become less effective in very cold conditions and, less intuitively, can sometimes leave more residue or degrade faster in very hot conditions, extreme temperature storage isn't ideal for maintaining a sticky note pad's adhesive quality.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const stickyNoteAdhesiveExplainedGuide: Guide = {
     {
       heading: "Why Surface Texture Matters More Than Most People Realize",
       body: `A sticky note's adhesive strip only makes actual contact with the tiny fraction of a surface it can physically touch, a smooth, clean surface like glass or a monitor bezel maximizes this contact area, while a textured surface like unfinished wood, a fabric-covered board, or a dusty shelf reduces the effective contact area significantly, explaining why the same sticky note that holds perfectly on a monitor might repeatedly fall off a corkboard's uneven surface, choosing super sticky variants specifically for these more challenging surfaces addresses this directly.`,
-    },
+    }
   ],
 };

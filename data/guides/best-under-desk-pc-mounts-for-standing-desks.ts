@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "under desk pc mount for standing desk";
 export const introParagraphs = [
   "A PC's substantial weight adds meaningfully to a standing desk's dynamic lift load, worth checking your desk motor's rated lift capacity against your desk's existing load plus the mounted PC's weight, rather than assuming any standing desk handles any mounted PC weight without issue.",
-  "Cable slack needs to accommodate the desk's full height-adjustment range without straining connectors at either extreme, worth calculating against your desk's actual travel distance, and repeated height-cycling introduces vibration and flex at the mount's connection points over time in a way a fixed-height desk mount never experiences.",
+  "Cable slack needs to accommodate the desk's full height-adjustment range without straining connectors at either extreme, worth calculating against your desk's actual travel distance, and repeated height-cycling introduces vibration and flex at the mount's connection points over time in a way a fixed-height desk mount never experiences."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Standing Desks Overall",
     name: "VIVO Adjustable Clamp-on Desk Leg PC Mount, Under Desk PC Mount, MOUNT-PC01C",
     price: "$39.99",
-    rating: "4.1 stars from Amazon ratings",
-    reviews: "396 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31eCcCtZEoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BHF5W87B?tag=deskfinds0d-20",
     description:
@@ -43,14 +43,14 @@ export const products: GuideProduct[] = [
     badge: "Best Clamp-On Leg Pick for Standing Desks",
     name: "JOY worker Under Desk PC Mount for Standing Desk, Clamp-On Leg CPU Holder",
     price: "$43.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "54 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/416Qk72eERL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCY4Q147?tag=deskfinds0d-20",
     description:
-      "Explicitly marketed for standing desk use, this clamp-on leg mount carries a strong 4.5-star rating that suggests reasonable confidence in surviving repeated height-cycling, though weigh this against the more moderate review count relative to the top pick.\\n\\nAs with any leg-clamped mount, calculate your cable slack against your desk's full travel distance before installing, so cables aren't strained taut at either the lowest or highest setting.\n\nSet against the VIVO Adjustable Clamp, the tradeoff here comes down to price versus disclosed weight capacity, not a straightforward upgrade or downgrade either way.\n\nWorth knowing before you decide: Leg-clamp design travels with height adjustment. On the other side, Smaller review base than the top pick. That's the main tradeoff to weigh against your specific case and desk setup.",
+      "Set against the VIVO Adjustable Clamp, the tradeoff here comes down to price versus disclosed weight capacity, not a straightforward upgrade or downgrade either way.\n\nWorth knowing before you decide: Leg-clamp design travels with height adjustment. On the other side, Smaller review base than the top pick. That's the main tradeoff to weigh against your specific case and desk setup.",
     specs: ["Clamp-on leg design for standing desks","Strong rating","Moderate review base","Mid-range price"],
-    pros: ["Strong 4.5-star rating specifically for standing desk use","Leg-clamp design travels with height adjustment","Reasonable price for the rating quality","Explicitly marketed for this use case"],
+    pros: ["Leg-clamp design travels with height adjustment","Reasonable price for the rating quality","Explicitly marketed for this use case"],
     cons: ["Smaller review base than the top pick","Calculate cable slack against your desk's full travel range before install","Vibration at connection points should be checked periodically over time"],
     bestFor: "Buyers wanting a strongly rated, purpose-marketed standing desk mount",
   },
@@ -60,15 +60,15 @@ export const products: GuideProduct[] = [
     badge: "Best Reinforced Pick for Standing Desks",
     name: "JOY worker Under Desk PC Mount with Protective Arms, Clamp-On Leg CPU Mount",
     price: "$52.99",
-    rating: "4.0 stars from Amazon ratings",
-    reviews: "47 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31jUgclGAWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FBTV38DN?tag=deskfinds0d-20",
     description:
       "The added protective arms give extra lateral support to the mounted case, a genuine benefit during height transitions where off-center load can cause wobble, especially at the top and bottom of a standing desk's travel range.\\n\\nThis is a higher price point in this guide, appropriate for buyers specifically concerned about stability during frequent height cycling rather than the most budget-conscious shoppers.\n\nRelative to the JOY worker Under Desk PC Mount for Standing Desk, this pick leans toward a different priority, whether that's a higher capacity rating, a lower price, or a mounting method suited to a different install situation.\n\nWorth knowing before you decide: Leg-clamp design travels with the desk. On the other side, Highest price in this guide. That's the main tradeoff to weigh against your specific case and desk setup.",
     specs: ["Protective arms for lateral support","Clamp-on leg design","Higher price for reinforcement","Moderate review base"],
     pros: ["Protective arms add lateral stability during height transitions","Leg-clamp design travels with the desk","Reduces off-center wobble risk versus a basic clamp","Purpose-built for standing desk use"],
-    cons: ["Highest price in this guide","More moderate 4.0-star rating and smaller review base","Verify your desk motor's rated lift capacity against the total added weight"],
+    cons: ["Highest price in this guide","Verify your desk motor's rated lift capacity against the total added weight"],
     bestFor: "Buyers wanting extra lateral stability during frequent height transitions",
   },
   {
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick for Standing Desks",
     name: "Under Desk PC Mount & CPU Holder, No-Drill Clamp-On Stand for Standing Desk (Fits 75x45mm Square Legs)",
     price: "$25.99",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "12 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41GUZbBysDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G4VWDDQF?tag=deskfinds0d-20",
     description:
@@ -95,7 +95,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Cable slack checked against full height-adjustment range", description: "Considered whether cable slack accommodates a standing desk's full travel distance without straining connectors at either the lowest or highest setting." },
   { title: "Added dynamic lift load weighed against desk motor capacity", description: "Weighed how a mounted PC's substantial weight adds to a standing desk's dynamic lift load, rather than assuming any standing desk handles any mounted PC weight." },
   { title: "Height-cycling stress on mount connection points considered", description: "Considered how repeated height-cycling introduces vibration and flex at the mount's connection points over time, a stress pattern a fixed-height desk mount never experiences." },
-  { title: "Clearance verified across the full motion range", description: "Checked whether the mounted PC avoids contact with the floor or a crossbar at the desk's lowest setting, and noted off-center-load wobble risk during height transitions." },
+  { title: "Clearance verified across the full motion range", description: "Checked whether the mounted PC avoids contact with the floor or a crossbar at the desk's lowest setting, and noted off-center-load wobble risk during height transitions." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -218,11 +218,11 @@ export const faq: FaqItem[] = [
   { q: "Will mounting a PC under my standing desk overload the lift motor?", a: "It can if you don't check, add the PC's real weight to your desk's existing load and compare against the motor's rated lift capacity before assuming any standing desk handles any mounted PC weight." },
   { q: "How much cable slack do I need for a standing desk PC mount?", a: "Enough to comfortably reach both the lowest and highest height settings without straining connectors, measure your desk's actual travel distance before routing cables." },
   { q: "Should I clamp to the desk leg or the desktop surface for a standing desk?", a: "A leg-mounted clamp travels with the desk through its full height range, which generally avoids the cable-slack and clearance issues a desktop-clamped mount can run into at extreme heights." },
-  { q: "Does repeated height-cycling loosen a PC mount over time?", a: "It can introduce vibration and flex at the connection points over time, a stress pattern a fixed-height desk mount never experiences, worth periodically checking mount tightness." },
+  { q: "Does repeated height-cycling loosen a PC mount over time?", a: "It can introduce vibration and flex at the connection points over time, a stress pattern a fixed-height desk mount never experiences, worth periodically checking mount tightness." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-under-desk-pc-mounts", title: "Best Under-Desk PC Mounts (2026)" },
   { href: "/guide/best-clamp-on-under-desk-pc-mounts", title: "Best Clamp-On Under-Desk PC Mounts (2026)" },
-  { href: "/guide/best-adjustable-under-desk-footrests", title: "Best Adjustable Under-Desk Footrests (2026)" },
+  { href: "/guide/best-adjustable-under-desk-footrests", title: "Best Adjustable Under-Desk Footrests (2026)" }
 ];

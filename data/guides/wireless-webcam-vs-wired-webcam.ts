@@ -12,7 +12,7 @@ export const wirelessWebcamVsWiredWebcamGuide: Guide = {
     "wireless webcam reliability",
     "wired webcam video quality",
     "battery powered webcam worth it",
-    "usb webcam vs wireless webcam",
+    "usb webcam vs wireless webcam"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const wirelessWebcamVsWiredWebcamGuide: Guide = {
     "webcam-resolution-explained",
     "fully-wireless-desk-setup-explained",
     "wireless-interference-desk-explained",
-    "webcam-mount-types-explained",
+    "webcam-mount-types-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const wirelessWebcamVsWiredWebcamGuide: Guide = {
       question: "Does a wireless webcam's video quality differ from a comparable wired model?",
       answer:
         "Video quality can be more inconsistent for wireless transmission due to potential signal interference affecting bitrate or introducing compression artifacts, a wired connection provides a more consistent, predictable data pathway for maintaining the camera's full intended video quality.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const wirelessWebcamVsWiredWebcamGuide: Guide = {
     {
       heading: "Why Battery Management Adds Real Friction for a Device Used During Important Calls",
       body: `A wired webcam never needs charging or battery monitoring, it simply works whenever your computer is on and the cable is connected, a genuinely wireless webcam introduces an entirely new failure mode, a dead battery, at precisely the worst possible moment, right before or during an important video call, this added friction and risk, combined with the video quality and reliability considerations already discussed, is why most people find the minimal mobility benefit of a wireless webcam isn't worth the tradeoff for a device that stays in essentially one fixed desk position anyway.`,
-    },
+    }
   ],
 };

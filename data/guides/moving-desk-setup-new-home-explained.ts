@@ -12,7 +12,7 @@ export const movingDeskSetupNewHomeExplainedGuide: Guide = {
     "disassemble desk setup for move",
     "label cables before moving desk",
     "reassessing desk setup new room",
-    "packing monitor and desk equipment",
+    "packing monitor and desk equipment"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const movingDeskSetupNewHomeExplainedGuide: Guide = {
     "cable-management-troubleshooting",
     "what-size-desk-do-i-need",
     "ergonomic-assessment-checklist",
-    "monitor-arm-desk-clamp-vs-grommet",
+    "monitor-arm-desk-clamp-vs-grommet"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const movingDeskSetupNewHomeExplainedGuide: Guide = {
       question: "Is it worth disassembling a monitor arm or standing desk fully, or moving it assembled?",
       answer:
         "This depends on the specific furniture's size and your moving method, larger items generally need at least partial disassembly for transport, check the specific product's manual for recommended disassembly and reassembly procedures if uncertain.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const movingDeskSetupNewHomeExplainedGuide: Guide = {
     {
       heading: "Why a Move Represents a Genuine Opportunity to Reassess Rather Than Just Replicate",
       body: `It's a natural instinct to simply recreate your previous desk setup exactly as it was in the new space, but a new room almost certainly has different window placement affecting natural light and glare, different outlet locations, and different overall dimensions, treating the move as an opportunity to genuinely reassess your setup against these new specific characteristics, rather than assuming your previous layout choices transfer directly, often surfaces improvements you wouldn't have otherwise considered, this is a low-cost moment to reconsider layout decisions precisely because you're already handling and repositioning everything anyway.`,
-    },
+    }
   ],
 };

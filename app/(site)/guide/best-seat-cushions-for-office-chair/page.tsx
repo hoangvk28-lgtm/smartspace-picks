@@ -140,7 +140,7 @@ export default async function BestSeatCushionsPage() {
     about: [
       { "@type": "Thing", name: "Seat Cushion" },
       { "@type": "Thing", name: "Coccyx Cushion" },
-      { "@type": "Thing", name: "Office Chair Cushion" },
+      { "@type": "Thing", name: "Office Chair Cushion" }
     ],
   };
   const breadcrumbSchema = {
@@ -149,7 +149,7 @@ export default async function BestSeatCushionsPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Seat Cushions for Office Chair", item: `${SITE_URL}/guide/best-seat-cushions-for-office-chair` },
+      { "@type": "ListItem", position: 3, name: "Best Seat Cushions for Office Chair", item: `${SITE_URL}/guide/best-seat-cushions-for-office-chair` }
     ],
   };
   const itemListSchema = {
@@ -327,7 +327,7 @@ export default async function BestSeatCushionsPage() {
                   {[
                     { material: "Standard memory foam", heat: "Warm after 1-2 hours", lifespan: "6-12 months", best: "Cool rooms, moderate use" },
                     { material: "Gel-infused foam", heat: "Cooler than standard", lifespan: "6-12 months", best: "Warm offices, summer use" },
-                    { material: "Extra-dense foam", heat: "Cooler than standard", lifespan: "12-24 months", best: "8+ hour daily sitting" },
+                    { material: "Extra-dense foam", heat: "Cooler than standard", lifespan: "12-24 months", best: "8+ hour daily sitting" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.material}</td>
@@ -368,7 +368,7 @@ export default async function BestSeatCushionsPage() {
                     { problem: "Seat padding worn completely flat", helps: "Yes - buys 12-24 months" },
                     { problem: "Lower back pain from lumbar gap", helps: "No - need lumbar pillow or better chair" },
                     { problem: "Chair seat pan wrong width or depth", helps: "No - cushion does not change dimensions" },
-                    { problem: "No height adjustment on chair", helps: "Partially - raises height but limits further adjustment" },
+                    { problem: "No height adjustment on chair", helps: "Partially - raises height but limits further adjustment" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.problem}</td>
@@ -423,7 +423,7 @@ export default async function BestSeatCushionsPage() {
             {[
               { context: "Testing if a cushion helps, tightest budget", id: "xtreme-comforts", name: "Xtreme Comforts Memory Foam", verdict: ": coccyx cutout, non-slip bottom, washable cover at $30." },
               { context: "Daily WFH with tailbone or coccyx pain", id: "comfilife-premium-memory-foam", name: "ComfiLife Premium Memory Foam", verdict: ": best-proportioned coccyx cutout, durable foam, fits most chairs at $35." },
-              { context: "All-day sitting without acute tailbone pain", id: "cushion-lab-patented", name: "Cushion Lab Patented Pressure Relief", verdict: ": extra-dense foam holds shape through 8-hour daily use, charcoal foam runs cooler at $70." },
+              { context: "All-day sitting without acute tailbone pain", id: "cushion-lab-patented", name: "Cushion Lab Patented Pressure Relief", verdict: ": extra-dense foam holds shape through 8-hour daily use, charcoal foam runs cooler at $70." }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

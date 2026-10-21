@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "VIVO Black 32 inch Standing Desk Riser, DESK-V000S measures 32 inch and is built around create instant active standing, positioning it for under 500 buyers specifically.\n\nSpace-Efficient 32\" Surface: The top surface measures is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 500, though as with any purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["32 inch dimensions","Create Instant Active Standing","Space-Efficient 32\" Surface: The top surface measures"],
     pros: ["Create Instant Active Standing, confirmed directly in the listing's own spec details","Space-Efficient 32\" Surface: The top surface measures, confirmed directly in the listing's own spec details","Sturdy Steel Construction, confirmed directly in the listing's own spec details"],
-    cons: ["At $109.99, worth comparing against similarly specced desk accessories before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $110, worth comparing against similarly specced desk accessories before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 500",
   },
   {
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     description: "VIVO Black 32 in Standing Desk Converter, DESK-V000K and is built around create instant active standing - vivo s, positioning it for under 500 buyers specifically.\n\nSpace Efficient 31.5\" Surface - The top is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 500, though as with any purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Create Instant Active Standing - VIVO s","Space Efficient 31.5\" Surface - The top","Strong 33 lbs Lift Assist - Go"],
     pros: ["Create Instant Active Standing - VIVO s, confirmed directly in the listing's own spec details","Space Efficient 31.5\" Surface - The top, confirmed directly in the listing's own spec details","Strong 33 lbs Lift Assist - Go, confirmed directly in the listing's own spec details"],
-    cons: ["At $139.99, worth comparing against similarly specced desk accessories before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $140, worth comparing against similarly specced desk accessories before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 500",
   },
   {
@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "JYLH JOYSEEKER 32\" Standing Desk Converter, Quick Sit to Stand Desk Riser and is built around compact design, positioning it for under 500 buyers specifically.\n\nSturdy X-lift Structure is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 500, though as with any purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Compact Design","Sturdy X-lift Structure","Straight Up & Down Movement"],
     pros: ["Compact Design, confirmed directly in the listing's own spec details","Sturdy X-lift Structure, confirmed directly in the listing's own spec details","Straight Up & Down Movement, confirmed directly in the listing's own spec details"],
-    cons: ["At $110.49, worth comparing against similarly specced desk accessories before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $120, worth comparing against similarly specced desk accessories before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 500",
   }
 
@@ -254,7 +254,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Define the premium manual/electric capability floor",
-    "explanation": "Define the premium manual/electric capability floor: Current Vari Pro Plus 36 Electric sits at $499, so electric lift and stronger dual-monitor capability become legitimate differentiators. Reject products that meet the price ceiling but fail the core use-case minimum. This matters directly when comparing the picks in this guide, since two products near the same price point often differ meaningfully on this exact point once you look past the headline spec. Check the specific listing for this detail rather than assuming parity across similarly priced options, and weigh it against your actual use case before deciding between two close picks in this price tier."
+    "explanation": "Define the premium manual/electric capability floor: Current Vari Pro Plus 36 Electric sits at under $500, so electric lift and stronger dual-monitor capability become legitimate differentiators. Reject products that meet the price ceiling but fail the core use-case minimum. This matters directly when comparing the picks in this guide, since two products near the same price point often differ meaningfully on this exact point once you look past the headline spec. Check the specific listing for this detail rather than assuming parity across similarly priced options, and weigh it against your actual use case before deciding between two close picks in this price tier."
   },
   {
     "criterion": "Build a threshold-specific comparison for true sit-stand",

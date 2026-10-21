@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "budget ergonomic keyboard";
 export const introParagraphs = [
   "It's worth being upfront that 'ergonomic' at any price doesn't guarantee a meaningful design benefit, budget-tier keyboards are more likely to be membrane-based, one-piece designs with minimal split or tenting adjustability compared to pricier options, worth verifying which genuine design tier a specific budget listing actually offers rather than assuming the label alone means much. We applied extra scrutiny to whether the genuinely beneficial but costlier features, real split layout, column stagger, tenting, survive price-cutting at each specific price point.",
-  "Build quality and durability under sustained daily use are also more likely compromised at this tier, worth weighing warranty length as a real ownership-cost factor and checking return and exchange friendliness specifically if you're a first-time ergonomic-keyboard buyer testing the concept before committing to something pricier.",
+  "Build quality and durability under sustained daily use are also more likely compromised at this tier, worth weighing warranty length as a real ownership-cost factor and checking return and exchange friendliness specifically if you're a first-time ergonomic-keyboard buyer testing the concept before committing to something pricier."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Budget Pick",
     name: "Perixx PERIBOARD-512B Wired Ergonomic Keyboard - Split Keyboard with Wrist Rest",
     price: "$44.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "9,553 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41MgdS5CMFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075GZVD4T?tag=deskfinds0d-20",
     description: "A genuinely split, fixed-angle keyboard at a budget price, an example of real split design surviving at a lower price point rather than a one-piece board marketed as ergonomic. Its largest verified review base among budget picks here is a reassuring signal for a first-time ergonomic buyer testing the concept.\n\nIt earns the top spot in this comparison over Arteck Split Ergonomic Keyboard with Palm Rest for one main reason. Genuine split design surviving at a budget price. On price, it comes in below Arteck Split Ergonomic Keyboard with Palm Rest, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Largest verified review base in this guide. On the other side, Check current listing for specific warranty length. That's the main tradeoff to weigh against everything above.",
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wireless Budget Pick",
     name: "Arteck Split Ergonomic Keyboard with Palm Rest, 2.4G USB Wireless",
     price: "$54.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "1,624 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41O4m5cUOVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BKKYRQ31?tag=deskfinds0d-20",
     description: "Another genuinely split keyboard at a budget-adjacent price, this time wireless over a stable 2.4G receiver, showing that real split ergonomic design isn't exclusive to wired budget options. Its built-in cushioned palm rest is included, no separate accessory purchase needed.\n\nOne spot below Perixx PERIBOARD-512B Wired Ergonomic Keyboard in this ranking, it costs more than Perixx PERIBOARD-512B Wired Ergonomic Keyboard. The compromise here is straightforward: Fixed split angle, not tenting-adjustable. What you gain in return: Genuine split design with wireless convenience. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Built-in palm rest, no extra purchase. On the other side, Windows-focused compatibility. That's the main tradeoff to weigh against everything above.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best Backlit Budget Pick",
     name: "Arteck Split Ergonomic Keyboard with Palm Rest, USB Wired Backlit Keyboard",
     price: "$53.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "1,166 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51mIgAEAexL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CGL8X4H6?tag=deskfinds0d-20",
     description: "A genuinely split, backlit keyboard at a budget-adjacent price, another example of real ergonomic design tier surviving price-cutting rather than a compromised one-piece board. Its wired connection removes any backlight battery-life tradeoff entirely.\n\nSitting just under Arteck Split Ergonomic Keyboard with Palm Rest, it's priced lower than Arteck Split Ergonomic Keyboard with Palm Rest. Here's the honest tradeoff: Build quality under sustained daily use is unverified long-term. And here's what it gets you instead: Genuine split design with backlighting included. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: No backlight battery-life tradeoff since it's wired. On the other side, Check current listing for specific warranty length. That's the main tradeoff to weigh against everything above.",
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Combo Pick",
     name: "Wireless Keyboard and Mouse Combo, 2.4G Ergonomic Wave Keys, Black",
     price: "$34.97",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "2,121 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41PN1jDkweL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DX791FXY?tag=deskfinds0d-20",
     description: "A budget wireless combo using a wave-style, one-piece ergonomic keyboard shape rather than a true split, a common tradeoff at this price tier worth acknowledging directly rather than implying it delivers the same ergonomic benefit as the split picks above. Its solid verified review base and low price make it an accessible entry point for a matched keyboard and mouse set.\n\nRanked just behind Arteck Split Ergonomic Keyboard with Palm Rest, it's priced lower than Arteck Split Ergonomic Keyboard with Palm Rest. The real tradeoff against that pick: One-piece wave shape, not a true split design. In exchange, it offers this instead: Lowest price in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Solid verified review base. On the other side, Check current listing for specific warranty length. That's the main tradeoff to weigh against everything above.",
@@ -90,8 +90,8 @@ export const products: GuideProduct[] = [
     badge: "Best Rechargeable Budget Combo Pick",
     name: "SABLUTE Ergonomic Wireless Keyboard and Mouse Combo, Rechargeable 4000mAh",
     price: "$51.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "368 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51sxkeGyuJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FJWMGFF5?tag=deskfinds0d-20",
     description: "A rechargeable wireless combo at a budget-adjacent price, avoiding disposable battery costs over time compared to combos requiring replaceable batteries. As with the wave-style combo above, verify whether this specific design offers true split ergonomics or a one-piece curved shape before assuming maximum ergonomic benefit at this price.\n\nOne spot below Wireless Keyboard and Mouse Combo in this ranking, it costs more than Wireless Keyboard and Mouse Combo. The compromise here is straightforward: Verify true split vs one-piece ergonomic design on current listing. What you gain in return: Rechargeable battery avoids disposable battery costs. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Solid review base. On the other side, Check current listing for specific warranty length. That's the main tradeoff to weigh against everything above.",
@@ -106,8 +106,8 @@ export const products: GuideProduct[] = [
     badge: "Best Lowest-Price One-Piece Pick",
     name: "X9 Wired Ergonomic Keyboard - Comfortable Typing, Ergonomic Full Size",
     price: "$29.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "1,141 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41LVGOn5JLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08G1WNS6F?tag=deskfinds0d-20",
     description: "A one-piece curved keyboard at one of the lowest prices in this guide, worth being direct that this is a one-piece shape rather than genuine split design, a common tradeoff at this price tier. Its high rating relative to price is a reasonable signal, though verify recent buyer feedback for durability under sustained daily use.\n\nSitting just under SABLUTE Ergonomic Wireless Keyboard and Mouse Combo, it's priced lower than SABLUTE Ergonomic Wireless Keyboard and Mouse Combo. Here's the honest tradeoff: One-piece shape, not a true split design. And here's what it gets you instead: One of the lowest prices in this guide. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: High rating relative to price. On the other side, Check current listing for specific warranty length. That's the main tradeoff to weigh against everything above.",
@@ -122,8 +122,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick with Included Wrist Rest",
     name: "RECCAZR Ergonomic Keyboard, Wired Computer USB Keyboard with Wrist Rest",
     price: "$29.98",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "280 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419u8a5c96L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DMDJB6G2?tag=deskfinds0d-20",
     description: "A low-cost wired keyboard that includes an attached wrist rest out of the box, a small added value at nearly the same price as the X9 pick above. As with any budget one-piece keyboard, this isn't a genuine split design, verify your ergonomic expectations against what this price tier actually delivers.\n\nRanked just behind X9 Wired Ergonomic Keyboard, it's priced lower than X9 Wired Ergonomic Keyboard. The real tradeoff against that pick: One-piece shape, not a true split design. In exchange, it offers this instead: Attached wrist rest included at a low price. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Simple plug-and-play setup. On the other side, Check current listing for specific warranty length. That's the main tradeoff to weigh against everything above.",
@@ -138,8 +138,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Backlit Wrist Rest Pick",
     name: "MEETION Wired Ergonomic Keyboard with Backlit Keys and Wrist Rest",
     price: "$35.99",
-    rating: "3.4 stars from Amazon ratings",
-    reviews: "21 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41kuxYbya+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GXKJWH2H?tag=deskfinds0d-20",
     description: "A wired keyboard combining backlit keys with a built-in wrist rest at a low price, drawing illumination power directly from the USB port with no battery-life tradeoff. Its rating and review base are both notably lower than the other picks in this guide, worth treating as a lighter-weight signal until more buyer feedback accumulates.\n\nOne spot below RECCAZR Ergonomic Keyboard in this ranking, it costs more than RECCAZR Ergonomic Keyboard. The compromise here is straightforward: Lowest rating among budget picks in this guide. What you gain in return: Backlit keys with no battery-life tradeoff since it's wired. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Attached wrist rest included. On the other side, Check current listing for specific warranty length. That's the main tradeoff to weigh against everything above.",
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine design tier verification at each price point", description: "Verified whether genuinely beneficial split, column-stagger, or tenting features survive price-cutting, rather than assuming 'ergonomic' at any price guarantees a meaningful design benefit." },
   { title: "Build quality and durability scrutiny for budget tier", description: "Applied heightened scrutiny to build quality and durability under sustained daily use, more likely compromised at this price tier than premium options." },
   { title: "Warranty length as a real ownership-cost factor", description: "Compared warranty length across picks, where disclosed, as a genuine ownership-cost consideration rather than an afterthought at the budget tier." },
-  { title: "Return and exchange friendliness for first-time buyers", description: "Highlighted return and exchange friendliness specifically for first-time ergonomic-keyboard buyers testing the concept before a bigger investment." },
+  { title: "Return and exchange friendliness for first-time buyers", description: "Highlighted return and exchange friendliness specifically for first-time ergonomic-keyboard buyers testing the concept before a bigger investment." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -289,11 +289,11 @@ export const faq: FaqItem[] = [
   { q: "Do budget ergonomic keyboards actually have real split design?", a: "Some do, verify the specific listing since budget-tier keyboards are more likely to be one-piece designs marketed as ergonomic rather than genuine split layouts." },
   { q: "Is build quality worse on budget ergonomic keyboards?", a: "Often somewhat, yes, build quality and durability under sustained daily use are more likely compromised at this tier, check recent buyer feedback for durability signals." },
   { q: "Should I check warranty length on a budget ergonomic keyboard?", a: "Yes, warranty length is a real ownership-cost factor that varies meaningfully between manufacturers at the budget tier." },
-  { q: "Is it easy to return a budget ergonomic keyboard if it doesn't suit me?", a: "This varies by retailer and manufacturer, prioritize return-friendly listings if you're a first-time buyer testing whether the ergonomic concept works for you." },
+  { q: "Is it easy to return a budget ergonomic keyboard if it doesn't suit me?", a: "This varies by retailer and manufacturer, prioritize return-friendly listings if you're a first-time buyer testing whether the ergonomic concept works for you." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-ergonomic-keyboards-under-100", title: "Best Ergonomic Keyboards Under $100 (2026)" },
   { href: "/guide/best-wired-ergonomic-keyboards", title: "Best Wired Ergonomic Keyboards (2026)" },
-  { href: "/guide/best-ergonomic-keyboards", title: "Best Ergonomic Keyboards (2026)" },
+  { href: "/guide/best-ergonomic-keyboards", title: "Best Ergonomic Keyboards (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable office pods";
 export const introParagraphs = [
   "No established office-pod brand (Framery, Zenbooth, Room, Cubicall) currently sells on Amazon, every option in this niche comes from a generic or private-label manufacturer, which is not necessarily a dealbreaker but does mean brand reputation and long-term parts support are largely unverifiable.",
-  "Because none of these listings publish independent ratings, we leaned on what each title and description actually states rather than star ratings or review counts, and we flag where a claim like outdoor use or ventilation is unverified marketing language rather than tested spec.",
+  "Because none of these listings publish independent ratings, we leaned on what each title and description actually states rather than star ratings or review counts, and we flag where a claim like outdoor use or ventilation is unverified marketing language rather than tested spec."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "10 min";
@@ -104,7 +104,7 @@ export const products: GuideProduct[] = [
     pros: ["Only product in this research pool whose title explicitly claims outdoor use", "Multipurpose framing suits both meetings and general home office work", "Acoustic-focused interior design", "No star rating or review count to independently verify against the marketing copy"],
     cons: ["No star rating or review count available from Amazon", "No documented weatherproof rating, electrical safety spec, or anchoring system disclosed", "Price not returned by the listing data, check current Amazon price directly"],
     bestFor: "Buyers considering an outdoor installation who will independently verify weatherproofing.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified listing data only", description: "Used only the price, dimensions, and occupancy claims actually printed in each Amazon listing, no invented ratings or review counts for any product in this niche." },
   { title: "Marketing language flagged, not repeated as fact", description: "Treated words like \"soundproof,\" \"silent,\" and \"outdoor\" as marketing claims and checked whether each listing backed them with any dimension or test data before repeating them as differentiators." },
   { title: "Installation logistics weighted heavily", description: "Weighted freight delivery, assembly crew needs, and floor-loading requirements as seriously as interior comfort, since these are large structures, not standard furniture." },
-  { title: "Brand landscape disclosed", description: "Confirmed no established office-pod brand currently sells on Amazon and disclosed that fact rather than implying brand-name quality where none exists." },
+  { title: "Brand landscape disclosed", description: "Confirmed no established office-pod brand currently sells on Amazon and disclosed that fact rather than implying brand-name quality where none exists." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -229,11 +229,11 @@ export const faq: FaqItem[] = [
   { q: "Do these pods have good ventilation?", a: "Most listings don't disclose ventilation specs at all. Ask the seller for an airflow rate or CFM figure before buying if you plan multi-hour use." },
   { q: "Is \"soundproof\" in the title a guarantee of real sound isolation?", a: "No, none of the verified listings in this niche publish formal STC or NRC test data, treat \"soundproof\" as a marketing description rather than a verified spec." },
   { q: "How is a portable office pod delivered?", a: "Expect freight delivery and multi-person assembly rather than standard parcel shipping, given the size and weight of these structures." },
-  { q: "Why don't these listings show star ratings?", a: "These are newer, lower-volume listings from private-label manufacturers, Amazon's API returned no rating or review count data for any product in this research pool." },
+  { q: "Why don't these listings show star ratings?", a: "These are newer, lower-volume listings from private-label manufacturers, Amazon's API returned no rating or review count data for any product in this research pool." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-office-pods-for-sale", title: "Best Portable Office Pods for Sale (2026)" },
   { href: "/guide/best-portable-work-pods", title: "Best Portable Work Pods (2026)" },
-  { href: "/guide/best-portable-office-booths", title: "Best Portable Office Booths (2026)" },
+  { href: "/guide/best-portable-office-booths", title: "Best Portable Office Booths (2026)" }
 ];

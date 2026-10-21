@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "red LCD writing tablet";
 export const introParagraphs = [
   "Our original candidate ASINs were mostly inaccessible, so we researched the current real product pool. We found strong LCD writing tablets generally, but confirmed red as a specific color option is limited in current listings, most color variants we found are blue, pink, or black.",
-  "We're ranking the strongest LCD writing tablets available and flagging where you'll need to verify red is a current color option on the live listing before ordering.",
+  "We're ranking the strongest LCD writing tablets available and flagging where you'll need to verify red is a current color option on the live listing before ordering."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Honest disclosure of limited confirmed red options", description: "We researched the current LCD writing tablet market and found color variants concentrated in blue, pink, and black, confirmed red options are limited, and we disclosed this directly." },
   { title: "Ranked by overall tablet quality first", description: "Since red-specific data is limited, we ranked by general product quality (features, price, design) and flagged where color needs verification." },
   { title: "Noted evidence of multi-color product lines", description: "Where we found the same design sold in multiple confirmed colors, we noted this as evidence red may also be an available variant worth checking." },
-  { title: "Price compared across the available product pool", description: "We compared value from a basic tablet to a more professional design." },
+  { title: "Price compared across the available product pool", description: "We compared value from a basic tablet to a more professional design." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -240,14 +240,14 @@ export const buyingCriteria: BuyingCriterion[] = [
 
 export const faq: FaqItem[] = [
   { q: "Is red confirmed available for these tablets?", a: "Not consistently in our research, most confirmed color data shows blue, pink, or black variants. Verify red availability directly on each current listing." },
-  { q: "What's the cheapest option?", a: "The LCD Writing Tablet Colorful 10 Inch at $5.99, confirmed in blue and pink variants, check for red." },
+  { q: "What's the cheapest option?", a: "The LCD Writing Tablet Colorful 10 Inch at under $6, confirmed in blue and pink variants, check for red." },
   { q: "Is there a more professional-looking option?", a: "Yes, the 10 inch LCD Writing Tablet with PU Protective Cover, more suited to adult/office use than the kids-focused designs." },
   { q: "Should I check a different color guide instead?", a: "Our broader color LCD writing tablets guide covers the wider product pool with confirmed multi-color options." },
-  { q: "Do any of these have a memory lock feature?", a: "Yes, the $5.99 LCD Writing Tablet Colorful options both include a memory lock to prevent accidental erasure." },
+  { q: "Do any of these have a memory lock feature?", a: "Yes, the under $6 LCD Writing Tablet Colorful options both include a memory lock to prevent accidental erasure." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-color-lcd-writing-tablets", title: "Best Color LCD Writing Tablets (2026)" },
   { href: "/guide/best-lcd-writing-tablets-for-office-desks", title: "Best LCD Writing Tablets for Office Desks (2026)" },
-  { href: "/guide/best-lcd-writing-tablets", title: "Best LCD Writing Tablets (2026)" },
+  { href: "/guide/best-lcd-writing-tablets", title: "Best LCD Writing Tablets (2026)" }
 ];

@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     description: "This splitter's listing specifically states two DC outputs functioning simultaneously, a fixed 24V output alongside an adjustable 3-36V output with a real-time voltage LED display panel, a genuinely unique dual-output design among the picks in this comparison. Its wide 3-36V adjustable range ensures compatibility with diverse devices including PTZ cameras, door controllers, and adjustable LED fill lights.\n\nCompared to the single-output picks above, this one can power two separate devices with entirely different voltage requirements from one splitter, backed by 6kV surge immunity and 8kV ESD protection for industrial reliability.\n\nBest for buyers who need to power two devices with different voltage requirements simultaneously from one splitter.",
     specs: ["Simultaneous 24V + adjustable 3-36V outputs", "6kV surge immunity, 8kV ESD protection", "Dual-sided DIN-rail mount, -20C to 75C range"],
     pros: ["Two simultaneous DC outputs power devices with different voltage needs", "Real-time voltage LED display for the adjustable output", "6kV surge and 8kV ESD protection for industrial reliability"],
-    cons: ["Highest price in this comparison at $119.99", "Requires a genuine IEEE 802.3bt PoE source, explicitly incompatible with passive BT injectors"],
+    cons: ["Highest price in this comparison at under $120", "Requires a genuine IEEE 802.3bt PoE source, explicitly incompatible with passive BT injectors"],
     bestFor: "buyers who need to power two devices with different voltage requirements simultaneously",
   },
   {
@@ -77,7 +77,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B09BQZ5ZX3?tag=deskfinds0d-20",
     description: "This splitter's listing specifically states a selectable DC12V or DC24V output alongside an optional passive PoE output mode for wireless APs and bridges, delivered through a full metal design supporting both DIN-rail and wall-mount installation. Its compact 3.23-inch by 2.11-inch by 0.98-inch dimensions save space in crowded control cabinets.\n\nCompared to the higher-wattage picks above, this one's lower 30W power ceiling and lower price make it the most accessible entry point into DIN-rail PoE splitting for standard-wattage industrial devices.\n\nBest for buyers who want the lowest price for a metal DIN-rail splitter with selectable 12V/24V output.",
     specs: ["Selectable DC12V or DC24V, 30W max", "Full metal housing, compact 82.0x53.6x25.0mm", "DIN-rail and wall mount, optional passive PoE output"],
-    pros: ["Lowest price in this comparison at $49.00", "Selectable 12V or 24V output covers standard device needs", "Compact size saves space in crowded control cabinets"],
+    pros: ["Lowest price in this comparison at under $50", "Selectable 12V or 24V output covers standard device needs", "Compact size saves space in crowded control cabinets"],
     cons: ["Lower 30W ceiling than the 60-90W picks in this comparison", "Passive PoE output mode explicitly not recommended for regular devices"],
     bestFor: "buyers who want the lowest price for a metal DIN-rail splitter with selectable output",
   }
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Flexible DC connector options for 12V devices", "Industrial Din-Rail 802.3bt 60W Gigabit PoE++ Splitter"],
         ["To power two different-voltage devices simultaneously", "LINOVISION Industrial Gigabit 90W with 2 DC Outputs"],
         ["Switchable multi-voltage output at a lower price", "ThePoEstore 90W Industrial Gigabit POE++ Splitter"],
-        ["The lowest price for a metal DIN-rail splitter", "LINOVISION Industrial Gigabit 30W PoE Splitter"],
+        ["The lowest price for a metal DIN-rail splitter", "LINOVISION Industrial Gigabit 30W PoE Splitter"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $50", "LINOVISION Industrial 30W ($49.00)"],
-        ["Under $70", "ThePoEstore 90W Splitter ($69.99)"],
-        ["Under $80", "Industrial Din-Rail 60W Splitter ($79.99)"],
-        ["Under $120", "LINOVISION 90W with 2 DC Outputs ($119.99)"],
+        ["Under $50", "LINOVISION Industrial 30W (under $50)"],
+        ["Under $70", "ThePoEstore 90W Splitter (under $70)"],
+        ["Under $80", "Industrial Din-Rail 60W Splitter (under $80)"],
+        ["Under $120", "LINOVISION 90W with 2 DC Outputs (under $120)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Simultaneous Dual Output vs Single Switchable Output",
     cards: [
       { label: "Simultaneous dual output (LINOVISION 90W 2-Output)", text: "Powers two different-voltage devices at the same time from one splitter, ideal for a PTZ camera plus a separate access control reader needing different voltages." },
-      { label: "Single switchable output (ThePoEstore, Industrial 60W)", text: "Delivers one voltage at a time selected via switch or terminal, sufficient if you only need to power one device or multiple devices at the same voltage." },
+      { label: "Single switchable output (ThePoEstore, Industrial 60W)", text: "Delivers one voltage at a time selected via switch or terminal, sufficient if you only need to power one device or multiple devices at the same voltage." }
     ],
     note: "If your installation genuinely needs to power two devices with different voltage requirements from one splitter, the LINOVISION dual-output pick justifies its higher price. If all your devices share the same voltage need, a single-output switchable splitter is more cost-effective.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["Standard 30W for basic devices", "LINOVISION Industrial Gigabit 30W PoE Splitter"],
         ["51-60W for moderate demand devices", "Industrial Din-Rail 802.3bt 60W Gigabit PoE++ Splitter"],
-        ["Up to 72-90W for the most demanding equipment", "ThePoEstore 90W or LINOVISION 90W 2-Output"],
+        ["Up to 72-90W for the most demanding equipment", "ThePoEstore 90W or LINOVISION 90W 2-Output"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For a Control Cabinet With Multiple Voltage-Different Devices Specifically",
     cards: [
       { label: "Look for", text: "A splitter with genuine simultaneous dual-voltage output rather than a single switchable output, if your cabinet needs to power devices with different voltage requirements from the same PoE source at once." },
-      { label: "In this comparison", text: "The LINOVISION 90W pick with 2 DC Outputs is specifically designed for exactly this scenario, providing both a fixed 24V and an adjustable 3-36V output simultaneously." },
+      { label: "In this comparison", text: "The LINOVISION 90W pick with 2 DC Outputs is specifically designed for exactly this scenario, providing both a fixed 24V and an adjustable 3-36V output simultaneously." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You need to power two devices with different voltage requirements at once from a single splitter, where the LINOVISION 90W pick's $119.99 price is justified by that simultaneous dual-output design." },
-      { label: "Save if", text: "You just need a standard 12V or 24V output for one or a few devices, where the LINOVISION 30W pick delivers that for $49.00, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You need to power two devices with different voltage requirements at once from a single splitter, where the LINOVISION 90W pick's under $120 price is justified by that simultaneous dual-output design." },
+      { label: "Save if", text: "You just need a standard 12V or 24V output for one or a few devices, where the LINOVISION 30W pick delivers that for under $50, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

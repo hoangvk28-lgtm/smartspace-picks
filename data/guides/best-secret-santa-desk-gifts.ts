@@ -5,7 +5,7 @@ export const metaDescription = "Seven desk gifts for office Secret Santa exchang
 export const mainKeyword = "secret santa desk gifts";
 export const introParagraphs = [
   "Secret Santa is a strange kind of gift giving: you buy for someone whose tastes you half know, with a spending cap everyone is quietly trying to hit but not exceed. The winning gifts are inoffensive, small and fun to open.",
-  "These seven picks run from $5.99 to $24.99 and were chosen for broad appeal rather than depth. We compared price, size, material and tone, and we flag the picks that need a name or a niche interest, since a wrong guess is the commonest failure. One pick is a 24-pack, which suits a team swap but not a single exchange."
+  "These seven picks run from roughly $6 to $25 and were chosen for broad appeal rather than depth. We compared price, size, material and tone, and we flag the picks that need a name or a niche interest, since a wrong guess is the commonest failure. One pick is a 24-pack, which suits a team swap but not a single exchange."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";

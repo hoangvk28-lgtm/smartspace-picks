@@ -12,7 +12,7 @@ export const dockingStationTroubleshootingGuide: Guide = {
     "docking station monitor not detected",
     "docking station slow charging fix",
     "usb devices disconnecting dock",
-    "docking station not working laptop",
+    "docking station not working laptop"
   ],
   heroImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const dockingStationTroubleshootingGuide: Guide = {
     "usb-c-docking-station-ports-chart",
     "usb-c-power-delivery-explained",
     "thunderbolt-vs-usb-c-explained",
-    "docking-station-vs-usb-hub",
+    "docking-station-vs-usb-hub"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const dockingStationTroubleshootingGuide: Guide = {
       question: "Should I update my docking station's drivers or firmware?",
       answer:
         "Yes, especially for docks using a DisplayLink chip or other specialized hardware, manufacturers periodically release driver and firmware updates that fix compatibility issues and improve stability, check the manufacturer's website periodically for updates.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const dockingStationTroubleshootingGuide: Guide = {
     {
       heading: "Keeping Drivers and Firmware Updated",
       body: `Docking stations, especially those using a DisplayLink chip to enable additional displays beyond a laptop's native GPU capability, rely on software drivers that manufacturers periodically update to fix bugs and improve compatibility with newer operating system versions. If you experience intermittent issues that don't trace back to a cable or power problem, checking for and installing the latest driver or firmware update from the manufacturer's website is a worthwhile troubleshooting step before assuming the hardware itself is at fault.`,
-    },
+    }
   ],
 };

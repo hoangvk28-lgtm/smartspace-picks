@@ -5,7 +5,7 @@ export const metaDescription = "5 compact travel surge protectors we evaluated, 
 export const mainKeyword = "small surge protector";
 export const introParagraphs = [
   "International power infrastructure quality varies significantly, and a traveler most needs reliable surge protection specifically in regions or buildings with less consistent grid power, yet a 120V-only US surge protector provides zero protection value internationally since it can't be safely used on a 230V circuit without a separate voltage converter.",
-  "Ultra-compact travel surge protectors are especially likely to cut joule rating to save size and weight, precisely in the use case, unfamiliar electrical infrastructure, where protection arguably matters most.",
+  "Ultra-compact travel surge protectors are especially likely to cut joule rating to save size and weight, precisely in the use case, unfamiliar electrical infrastructure, where protection arguably matters most."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,12 +25,12 @@ export const products: GuideProduct[] = [
     badge: "Best Small Surge Protector for Travel Overall",
     name: "Eaton Tripp Lite SPIKECUBE Single Outlet Surge Protector Power Strip, 600 Joule Rating, Diagnostic LEDs, Portable Direct Plug-in Outlet Extender, Lifetime Manufacturer's Guarantee & $5,000 Insurance",
     price: "$15.53",
-    rating: "4.7 stars from 6,466 Amazon ratings",
-    reviews: "6,466 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31ovehM96AL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00006B81E?tag=deskfinds0d-20",
     description:
-      "Explicitly compact at just 2.5 inches tall, genuinely designed for suitcase or laptop bag packing, with 600 joules of disclosed surge protection and diagnostic LEDs. Includes lifetime guarantee and a competitive price connected equipment insurance.\\\n\\\nThis is a 120V US-market design, it is not a voltage converter, verify voltage compatibility separately before international travel. It leads this comparison on the strength of its balance of disclosed joule rating, outlet count, and review base, worth weighing directly against the [ETL Listed] Cable Matters 1350J Single Outlet Surge Protector. Worth knowing before you decide: 600 joules with diagnostic LEDs for status visibility. On the other side, 120V-only, not usable internationally without a separate converter. That's the main tradeoff to weigh against your own equipment and outlet needs.\n\nWhere this one earns its spot is genuinely compact for suitcase or laptop bag packing, and 600 joules with diagnostic LEDs for status visibility. Worth noting before buying: 120V-only, not usable internationally without a separate converter, which matters more at $15.53 than it would on a cheaper pick.",
+      "Explicitly compact at just 2.5 inches tall, genuinely designed for suitcase or laptop bag packing, with 600 joules of disclosed surge protection and diagnostic LEDs. Includes lifetime guarantee and a competitive price connected equipment insurance.\\\n\\\nThis is a 120V US-market design, it is not a voltage converter, verify voltage compatibility separately before international travel. It leads this comparison on the strength of its balance of disclosed joule rating, outlet count, and review base, worth weighing directly against the [ETL Listed] Cable Matters 1350J Single Outlet Surge Protector. Worth knowing before you decide: 600 joules with diagnostic LEDs for status visibility. On the other side, 120V-only, not usable internationally without a separate converter. That's the main tradeoff to weigh against your own equipment and outlet needs.\n\nWhere this one earns its spot is genuinely compact for suitcase or laptop bag packing, and 600 joules with diagnostic LEDs for status visibility. Worth noting before buying: 120V-only, not usable internationally without a separate converter, which matters more at under $20 than it would on a cheaper pick.",
     specs: ["Single outlet, 600 joules","2.5in tall, portable direct-plug design","Diagnostic LEDs","Lifetime guarantee, $5,000 insurance"],
     pros: ["Genuinely compact for suitcase or laptop bag packing","600 joules with diagnostic LEDs for status visibility","Lifetime guarantee and connected equipment insurance","Large, well-established review base"],
     cons: ["120V-only, not usable internationally without a separate converter","Single outlet only","400/500/500 clamping voltage not the lowest available"],
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Joule Compact Travel Pick",
     name: "[ETL Listed] Cable Matters 1350J Single Outlet Surge Protector, White",
     price: "$9.99",
-    rating: "4.7 stars from 2,241 Amazon ratings",
-    reviews: "2,241 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31e0JpMEJvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09NP7VSNK?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best 2-Pack Travel Pick",
     name: "[ETL Listed] Cable Matters 2-Pack 1350J Single Outlet Surge Protector",
     price: "$17.99",
-    rating: "4.7 stars from 2,241 Amazon ratings",
-    reviews: "2,241 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/314n2Zz2FhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BNW64BPF?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Multi-Pack Travel Pick",
     name: "Single Surge Protector Plug, Grounded Outlet Wall Tap Adapter with Indicator Light, 1 Outlet,245J/125V, ETL, White, 4Pack",
     price: "$11.69",
-    rating: "4.6 stars from 5,166 Amazon ratings",
-    reviews: "5,166 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31wknFuDByL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07Q3DJL3W?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Single-Outlet High-Joule Travel Pick",
     name: "TESSAN Single Outlet Wall Surge Protector with 1050J Surge Protector, Grey",
     price: "$9.99",
-    rating: "4.7 stars from 208 Amazon ratings",
-    reviews: "208 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21sqvh28s1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1T9R63P?tag=deskfinds0d-20",
     description:
@@ -110,7 +110,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Domestic-only scope limitation stated clearly for every pick", description: "Explicitly noted that every pick in this guide is a 120V US-market design, not a voltage converter, correcting the assumption that a travel surge protector solves international electrical protection universally." },
   { title: "Joule rating verified against typical compact-travel-unit cost-cutting", description: "Flagged that ultra-compact travel surge protectors are especially likely to cut joule rating to save size and weight, precisely the use case where protection matters most given unfamiliar electrical infrastructure." },
-  { title: "MOV physical-shock sensitivity considered for suitcase-packing stress", description: "Noted that a physically stressed MOV component could degrade performance in a less obvious, partial way than a basic power strip's simple conductor, a durability nuance specific to this surge-protection subcategory under travel packing stress." },
+  { title: "MOV physical-shock sensitivity considered for suitcase-packing stress", description: "Noted that a physically stressed MOV component could degrade performance in a less obvious, partial way than a basic power strip's simple conductor, a durability nuance specific to this surge-protection subcategory under travel packing stress." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "What should international travelers use for surge protection?", a: "Either a dedicated voltage-converting device with its own surge protection rating, or accept that a US-market travel surge protector is domestic-travel-only, don't assume one product solves both needs." },
   { q: "Does suitcase packing damage a travel surge protector's MOV components?", a: "It can, in a less obvious way than a basic power strip. A physically stressed MOV component from repeated packing and impact can degrade performance partially rather than simply working or not working." },
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "Domestic US travelers who want a compact, well-insured single-outlet surge protector" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want above-average joule capacity in a genuinely compact travel design At $9.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want above-average joule capacity in a genuinely compact travel design At under $10, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-travel-power-strips", title: "Best Travel Power Strips (2026)" },
   { href: "/guide/best-single-outlet-surge-protectors", title: "Best Single-Outlet Surge Protectors (2026)" },
-  { href: "/guide/best-cruise-approved-power-strips", title: "Best Cruise-Approved Power Strips (2026)" },
+  { href: "/guide/best-cruise-approved-power-strips", title: "Best Cruise-Approved Power Strips (2026)" }
 ];

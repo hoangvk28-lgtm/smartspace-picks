@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "personal small safes";
 export const introParagraphs = [
   "Personal storage prioritizes discreet fit and individual access over institutional theft resistance, since the goal is usually privacy from roommates or family rather than defending against a break-in. We compared confirmed interior dimensions against realistic personal items, passports, wallets, medication, and evaluated access methods for a single user rather than a shared household.",
-  "We also checked portability versus mounting, since a personal safe used in a dorm or rental may need to move with you rather than stay bolted in one place.",
+  "We also checked portability versus mounting, since a personal safe used in a dorm or rental may need to move with you rather than stay bolted in one place."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     pros: ["Wide flat interior specifically suits passports and personal documents without folding"],
     cons: ["Manufacturer discloses thin casing has limited force resistance"],
     bestFor: "Buyers storing flat personal documents like a passport or checkbook.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Prioritized privacy from roommates or family over institutional theft resistance", description: "Personal safes are usually about discretion in a shared living space, not defending against a break-in. We weighted self-locking design, lockout deterrents, and discreet fit accordingly." },
   { title: "Checked portability for dorm, rental, and moving scenarios", description: "The Master Lock and Amazon Basics picks are genuinely portable via tether or carry design; the mountable steel options assume a more permanent personal storage location." },
   { title: "Verified interior dimensions against realistic personal items", description: "We checked confirmed interior measurements against passports, wallets, medication, and small jewelry rather than assuming any small safe fits a personal item set equally well." },
-  { title: "Passed through manufacturer force-resistance disclosures honestly", description: "One listing directly states its thin casing has limits under pry tools. We flagged this since a personal safe's threat model (roommate curiosity) differs from a high-security threat model." },
+  { title: "Passed through manufacturer force-resistance disclosures honestly", description: "One listing directly states its thin casing has limits under pry tools. We flagged this since a personal safe's threat model (roommate curiosity) differs from a high-security threat model." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -278,7 +278,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review count and rating together, not rating alone",
-    "explanation": "A 4.8-star rating from 12 reviews carries far less evaluation confidence than a 4.5-star rating from several thousand, since a small sample can be skewed by a handful of early, enthusiastic buyers before any long-term reliability issues would show up in later reviews.\n\nThis matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
+    "explanation": "This matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
   }
 ];
 
@@ -287,11 +287,11 @@ export const faq: FaqItem[] = [
   { q: "Is there a self-locking option so I don't forget to lock it?", a: "Yes, the Yuanshikj Small Steel Security Safe Box uses a magnetic auto-locking door that secures itself the moment you close it." },
   { q: "Which pick best fits a passport without folding it?", a: "The KYODOLED Safe Box with Digital Keypad Lock, with a wide flat interior at 11.7 x 9.12 x 2.75 inches." },
   { q: "Is there an option for occasional trusted access by someone else?", a: "Yes, the Digital Electronic Money Safe supports two independent access codes." },
-  { q: "Do these safes resist a determined break-in?", a: "Not necessarily. These are built primarily for privacy from roommates or family, not forced entry. For genuine high-security needs, look toward a heavier bolt-down safe." },
+  { q: "Do these safes resist a determined break-in?", a: "Not necessarily. These are built primarily for privacy from roommates or family, not forced entry. For genuine high-security needs, look toward a heavier bolt-down safe." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-small-safes", title: "Best Portable Small Safes (2026)" },
   { href: "/guide/best-small-safes-for-dorm-rooms", title: "Best Small Safes for Dorm Rooms (2026)" },
-  { href: "/guide/best-small-safe-lock-boxes", title: "Best Small Safe Lock Boxes (2026)" },
+  { href: "/guide/best-small-safe-lock-boxes", title: "Best Small Safe Lock Boxes (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini pc for home office";
 export const introParagraphs = [
   "Everyday reliability, measured through a large, consistent review base, genuinely matters more for a home office machine than a marginally higher benchmark score, worth checking review volume and consistency rather than chasing the single fastest spec sheet.",
-  "RAM headroom for realistic home office multitasking, video calls plus multiple browser windows plus a document editor running simultaneously, is worth confirming against your actual workflow rather than assuming any modern mini PC handles this comfortably.",
+  "RAM headroom for realistic home office multitasking, video calls plus multiple browser windows plus a document editor running simultaneously, is worth confirming against your actual workflow rather than assuming any modern mini PC handles this comfortably."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -42,13 +42,13 @@ export const products: GuideProduct[] = [
     badge: "Best Well-Reviewed Home Office Pick",
     name: "BOSGAME P4 Ultra Mini PC Gaming, Ryzen 7 7730U, 16GB RAM 1TB PCIe3.0 SSD",
     price: "$418.98",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "199 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51I+6dQFNyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GCH917SW?tag=deskfinds0d-20",
-    description: "A genuinely well-reviewed build with a high 4.7-star rating, appropriate for buyers wanting proven everyday reliability for home office work.\n\nOne spot below GMKtec M2 Pro S Mini PC Intel Core i7-1185G7 in this ranking, it's priced lower than GMKtec M2 Pro S Mini PC Intel Core i7-1185G7. The compromise here is straightforward: Gaming branding suggests general use rather than purpose-built office design. What you gain in return: High 4.7-star rating with a solid review base. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: 16GB RAM covers realistic home office multitasking. On the other side, Confirm output ports match your peripherals. That's the main tradeoff to weigh against everything above.",
+    description: "One spot below GMKtec M2 Pro S Mini PC Intel Core i7-1185G7 in this ranking, it's priced lower than GMKtec M2 Pro S Mini PC Intel Core i7-1185G7. The compromise here is straightforward: Gaming branding suggests general use rather than purpose-built office design. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: 16GB RAM covers realistic home office multitasking. On the other side, Confirm output ports match your peripherals. That's the main tradeoff to weigh against everything above.",
     specs: ["AMD Ryzen 7 7730U","16GB RAM","1TB PCIe SSD","High review rating"],
-    pros: ["High 4.7-star rating with a solid review base","16GB RAM covers realistic home office multitasking","1TB SSD for ample document and file storage","Efficient U-class chip for always-on operation"],
+    pros: ["16GB RAM covers realistic home office multitasking","1TB SSD for ample document and file storage","Efficient U-class chip for always-on operation"],
     cons: ["Gaming branding suggests general use rather than purpose-built office design","Verify integrated graphics driver maturity for your specific monitor setup","Confirm output ports match your peripherals"],
     bestFor: "Buyers wanting a well-reviewed, reliable everyday home office machine",
   },
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Everyday reliability weighted over marginal benchmark differences", description: "Weighted review volume and consistency more heavily than a marginally higher benchmark score, since real-world reliability matters more for daily office use." },
   { title: "RAM headroom checked against realistic multitasking workflows", description: "Checked RAM headroom against realistic home office multitasking, video calls plus browser windows plus document editing simultaneously." },
   { title: "Intel versus AMD driver maturity considered for office peripherals", description: "Considered driver maturity for video calls, multi-monitor setups, and common office peripherals across Intel and AMD platforms." },
-  { title: "Price weighted against genuine chip tier for budget-conscious buyers", description: "Weighted price against the genuine processor tier offered, distinguishing real value from a low sticker price alone." },
+  { title: "Price weighted against genuine chip tier for budget-conscious buyers", description: "Weighted price against the genuine processor tier offered, distinguishing real value from a low sticker price alone." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -226,11 +226,11 @@ export const faq: FaqItem[] = [
   { q: "What matters more for a home office mini PC, benchmarks or reviews?", a: "Everyday reliability from a large, consistent review base genuinely matters more than a marginally higher benchmark score." },
   { q: "How much RAM do I need for home office multitasking?", a: "16GB comfortably covers video calls plus multiple browser windows plus document editing simultaneously, 8GB suits lighter workflows." },
   { q: "Is Intel or AMD better for a home office mini PC?", a: "Intel generally has more mature driver support for video calls and multi-monitor setups in some cases, but both work well for typical office tasks." },
-  { q: "Do I need a powerful chip for a home office computer?", a: "Not necessarily, match the chip tier to your actual workflow, lighter tasks like email and browsing don't need a high-end processor." },
+  { q: "Do I need a powerful chip for a home office computer?", a: "Not necessarily, match the chip tier to your actual workflow, lighter tasks like email and browsing don't need a high-end processor." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-quiet-mini-pcs-for-home-offices", title: "Best Quiet Mini PCs for Home Offices (2026)" },
   { href: "/guide/best-mini-pcs-under-500", title: "Best Mini PCs Under $500 (2026)" },
-  { href: "/guide/best-mini-pcs-for-small-desks", title: "Best Mini PCs for Small Desks (2026)" },
+  { href: "/guide/best-mini-pcs-for-small-desks", title: "Best Mini PCs for Small Desks (2026)" }
 ];

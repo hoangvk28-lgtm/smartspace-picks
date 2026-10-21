@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Zero ink dependency and portability", "HPRT Portable Inkless Thermal Printer"],
         ["The lowest-price genuine supertank printer", "Epson EcoTank ET-2400 Wireless Color All-in-One"],
         ["A document feeder for multi-page scanning", "HP Smart Tank Plus 651 Wireless All-in-One"],
-        ["A documented print speed and bundled extra ink", "Epson EcoTank ET-2800 (with Extra Ink Bottle)"],
+        ["A documented print speed and bundled extra ink", "Epson EcoTank ET-2800 (with Extra Ink Bottle)"]
       ],
     },
   },
@@ -149,7 +149,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Price range", "Recommended pick"],
       rows: [
         ["Under $50", "HPRT Portable Inkless Thermal Printer"],
-        ["$190 to $250", "Epson EcoTank ET-2400, ET-2803, ET-2800, or HP Smart Tank Plus 651"],
+        ["$190 to $250", "Epson EcoTank ET-2400, ET-2803, ET-2800, or HP Smart Tank Plus 651"]
       ],
     },
   },
@@ -163,7 +163,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "Ink-tank supertank (all Epson and HP picks)",
         text: "Uses standard paper and produces full-color, photo-quality output, refilled from ink bottles that last far longer than cartridges without any subscription.",
-      },
+      }
     ],
     note: "If you need color printing or standard document quality, choose a supertank model; if you only need occasional black and white output and value portability, the thermal printer is a genuinely different, lighter-weight option.",
   },
@@ -173,7 +173,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Priority", "Recommended pick"],
       rows: [
         ["Single-sheet printing is fine", "Epson EcoTank ET-2400 or ET-2803"],
-        ["Regular multi-page scanning or copying", "HP Smart Tank Plus 651 Wireless All-in-One"],
+        ["Regular multi-page scanning or copying", "HP Smart Tank Plus 651 Wireless All-in-One"]
       ],
     },
   },
@@ -187,7 +187,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "The Epson EcoTank ET-2803 states the highest color yield at up to 7,500 pages per fill among the picks here.",
-      },
+      }
     ],
   },
   {
@@ -195,14 +195,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You regularly scan or copy multi-page documents: HP Smart Tank Plus 651 ($249.89) is the only pick here with an automatic document feeder.",
+        text: "You regularly scan or copy multi-page documents: HP Smart Tank Plus 651 (under $250) is the only pick here with an automatic document feeder.",
       },
       {
         label: "Save if",
-        text: "You just need reliable cartridge-free printing without extra features: the Epson EcoTank ET-2400 ($189.99) covers that core need at the lowest supertank price here.",
-      },
+        text: "You just need reliable cartridge-free printing without extra features: the Epson EcoTank ET-2400 (under $190) covers that core need at the lowest supertank price here.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -257,5 +257,5 @@ export const faq = [
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-budget-printers-for-home-offices", title: "Best Budget Printers for Home Offices" },
-  { href: "/guide/best-cartridge-free-printers", title: "Best Cartridge-Free Printers" },
+  { href: "/guide/best-cartridge-free-printers", title: "Best Cartridge-Free Printers" }
 ];

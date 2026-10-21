@@ -12,7 +12,7 @@ export const dryEyesFromScreenUseExplainedGuide: Guide = {
     "why do my eyes feel dry at computer",
     "screen use blink rate",
     "dry eyes from monitor fix",
-    "humidifier for dry eyes desk",
+    "humidifier for dry eyes desk"
   ],
   heroImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const dryEyesFromScreenUseExplainedGuide: Guide = {
     "20-20-20-rule-explained",
     "monitor-brightness-and-eye-strain",
     "humidifier-room-size-chart",
-    "screen-glare-reduction-explained",
+    "screen-glare-reduction-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const dryEyesFromScreenUseExplainedGuide: Guide = {
       question: "Should I see a doctor if dry eyes from screen use don't improve?",
       answer:
         "If dry eye discomfort persists despite adjusting habits, humidity, and trying artificial tears, consulting an eye care professional is worthwhile, since persistent dry eye can have other underlying causes beyond screen use alone.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const dryEyesFromScreenUseExplainedGuide: Guide = {
     {
       heading: "Why Environmental Humidity Compounds the Problem",
       body: `Dry indoor air, common during winter heating season or in air-conditioned spaces, accelerates the rate at which tear film evaporates from the eye's surface, meaning the same reduced blink rate from screen use causes more noticeable discomfort in a dry room than it would in a more humid environment. Addressing room humidity alongside conscious blinking habits tackles both contributing factors simultaneously rather than relying on behavioral change alone.`,
-    },
+    }
   ],
 };

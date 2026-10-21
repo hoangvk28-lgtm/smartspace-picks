@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Quiet low-profile switches with smart illumination", "Logitech MX Mechanical Wireless Illuminated Keyboard"],
         ["On-board display controls with gaming performance", "Logitech G316 X 98 Mechanical Gaming Keyboard"],
         ["The most sophisticated acoustic foam engineering", "Keychron K10 Max QMK Wireless Custom Mechanical Keyboard"],
-        ["QMK programmability and comfort at the lowest price", "Keychron V5 Max Custom Wireless Mechanical Keyboard"],
+        ["QMK programmability and comfort at the lowest price", "Keychron V5 Max Custom Wireless Mechanical Keyboard"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $105", "Keychron V5 Max ($104.99)"],
-        ["Under $120", "Logitech G316 X or Keychron K10 Max (both $119.99)"],
-        ["Under $160", "Logitech MX Mechanical ($159.99)"],
+        ["Under $105", "Keychron V5 Max (under $110)"],
+        ["Under $120", "Logitech G316 X or Keychron K10 Max (both under $120)"],
+        ["Under $160", "Logitech MX Mechanical (under $160)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Quiet Office Use vs Competitive Gaming Performance",
     cards: [
       { label: "Quiet office use (Logitech MX Mechanical)", text: "Uses low-profile switches specifically engineered to reduce typing noise, ideal for shared offices or video calls." },
-      { label: "Competitive gaming (Logitech G316 X)", text: "Prioritizes an 8kHz report rate and on-board display controls over quiet operation, better for fast-paced gameplay." },
+      { label: "Competitive gaming (Logitech G316 X)", text: "Prioritizes an 8kHz report rate and on-board display controls over quiet operation, better for fast-paced gameplay." }
     ],
     note: "If your primary use is office work or calls where typing noise matters, the Logitech MX Mechanical's low-profile design is worth prioritizing. If competitive gaming performance is the priority, the Logitech G316 X's higher report rate and gaming-focused features are the better fit.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Open-source QMK firmware", "Keychron K10 Max or V5 Max"],
         ["Proprietary G HUB gaming software", "Logitech G316 X"],
-        ["Proprietary Logi Options+ with Flow", "Logitech MX Mechanical"],
+        ["Proprietary Logi Options+ with Flow", "Logitech MX Mechanical"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Hybrid Work Setup Moving Between Multiple Computers Specifically",
     cards: [
       { label: "Look for", text: "Cross-computer control software like Logitech's Flow feature, which lets one keyboard and mouse control multiple computers seamlessly without manual device switching." },
-      { label: "In this comparison", text: "The Logitech MX Mechanical's Flow support specifically enables seamless cross-computer control, a feature none of the Keychron picks in this tier offer." },
+      { label: "In this comparison", text: "The Logitech MX Mechanical's Flow support specifically enables seamless cross-computer control, a feature none of the Keychron picks in this tier offer." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want quiet low-profile switches with smart illumination and cross-computer Flow support, where the Logitech MX Mechanical delivers all three at the top of this tier." },
-      { label: "Save if", text: "You want full QMK programmability with solid gasket-mount comfort, where the Keychron V5 Max covers that for about $55 less." },
+      { label: "Save if", text: "You want full QMK programmability with solid gasket-mount comfort, where the Keychron V5 Max covers that for about $55 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

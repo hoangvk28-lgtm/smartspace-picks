@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop cooling pads for Dell XPS laptops";
 export const introParagraphs = [
   "Dell XPS is a compact premium ultrabook line, lighter and less heat-intensive than a gaming laptop, which puts it on a different cooling profile from Dell's broader lineup covered in our best-laptop-cooling-pads-for-dell-laptops guide. This guide narrows the picks down to what actually suits XPS's slim chassis and everyday workload.",
-  "XPS's compact chassis can place intake and exhaust vents differently than bulkier laptops, so a universal pad's fan positions are not guaranteed to line up with your specific XPS model's vents. None of these pads are XPS-exclusive hardware, so check the vent-location note in each product's description and the stated size range before assuming any pad is a match.",
+  "XPS's compact chassis can place intake and exhaust vents differently than bulkier laptops, so a universal pad's fan positions are not guaranteed to line up with your specific XPS model's vents. None of these pads are XPS-exclusive hardware, so check the vent-location note in each product's description and the stated size range before assuming any pad is a match."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -156,7 +156,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "XPS's compact, lighter heat profile", description: "We evaluated each pad against XPS's typically lighter cooling needs compared to a gaming laptop, rather than defaulting to the highest fan count available." },
   { title: "Vent placement honesty", description: "We flagged that XPS's compact chassis can place intake and exhaust vents differently than the bulkier laptops these universal pads are often designed around, and noted this as a real fit consideration in each product description." },
   { title: "Portability match", description: "We weighted slim, lightweight pads higher given XPS's own travel-friendly design, while still including higher-airflow options for heavier creative workloads." },
-  { title: "Aesthetic and desk-space fit", description: "We noted where a pad's RGB lighting or gaming-oriented design might clash with XPS's minimalist build, without penalizing pads purely on looks." },
+  { title: "Aesthetic and desk-space fit", description: "We noted where a pad's RGB lighting or gaming-oriented design might clash with XPS's minimalist build, without penalizing pads purely on looks." }
 ];
 
 export const howToChoose: HowToChooseSection[] = [
@@ -291,11 +291,11 @@ export const faq: FaqItem[] = [
   { q: "Will a cooling pad's fans actually line up with my XPS's vents?", a: "Not guaranteed. XPS's compact chassis can place intake and exhaust vents differently than the bulkier laptops many universal pads are designed around, so check your specific model's vent location before buying." },
   { q: "Does XPS need as much cooling as a gaming laptop?", a: "Generally no. XPS is a compact premium ultrabook line with a lighter thermal load than a gaming laptop, so a slim, quieter pad is usually sufficient unless you run sustained creative workloads." },
   { q: "What if I'm not sure where my XPS's vents are located?", a: "A pad with many smaller fans spread broadly across the surface, rather than one or two large fans in a fixed position, can partially hedge against uncertainty about exact vent placement." },
-  { q: "Is a lap-use cooling mat a good option for XPS?", a: "It can be, especially if you often work away from a desk. A soft lap mat like the Targus pick provides modest cooling with more comfort, though a rigid elevated stand offers more airflow for demanding workloads." },
+  { q: "Is a lap-use cooling mat a good option for XPS?", a: "It can be, especially if you often work away from a desk. A soft lap mat like the Targus pick provides modest cooling with more comfort, though a rigid elevated stand offers more airflow for demanding workloads." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-cooling-pads-for-dell-laptops", title: "Best Laptop Cooling Pads for Dell Laptops (2026)" },
   { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-premium-laptop-cooling-pads", title: "Best Premium Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-premium-laptop-cooling-pads", title: "Best Premium Laptop Cooling Pads (2026)" }
 ];

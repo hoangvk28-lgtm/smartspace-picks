@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "horizontal under desk pc mount";
 export const introParagraphs = [
   "Horizontal orientation requires meaningfully more under-desk clearance width and depth than vertical mounting, worth measuring your desk's actual under-desk space before assuming any mount that supports horizontal orientation will physically fit, and cable routing differs in this orientation since ports face a different direction relative to where you sit, worth verifying realistic cable-access ergonomics rather than assuming it matches vertical mounting.",
-  "Airflow through a horizontally-oriented case can differ from how the case was originally designed, since some cases are optimized for vertical airflow specifically, worth noting this thermal consideration, and heavy graphics cards not designed for horizontal mounting can experience sag differently since gravity now pulls in a different direction relative to the PCIe slot, a genuine consideration for a GPU-equipped tower.",
+  "Airflow through a horizontally-oriented case can differ from how the case was originally designed, since some cases are optimized for vertical airflow specifically, worth noting this thermal consideration, and heavy graphics cards not designed for horizontal mounting can experience sag differently since gravity now pulls in a different direction relative to the PCIe slot, a genuine consideration for a GPU-equipped tower."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Horizontal Mount Overall",
     name: "PUTORSEN Under Desk PC Mount for Full/Mid-Tower Cases, Vertical/Horizontal CPU Holder up to 77 lbs",
     price: "$37.49",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "44 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41H5F8LUWzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GWGZCWWX?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Mid/Mini-Tower Horizontal Mounting",
     name: "PUTORSEN Under Desk PC Mount for Mid/Mini-Tower Cases, Vertical/Horizontal CPU Holder up to 77 lbs",
     price: "$37.98",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "44 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31FzJr+WRPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZXWGNRY?tag=deskfinds0d-20",
     description:
@@ -60,14 +60,14 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity Adjustable Pick",
     name: "Heavy Duty Under Desk PC Holder, Up to 77 lbs Load Capacity, Adjustable Computer Tower Holder",
     price: "$49.90",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "433 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31DzC4Wn1JL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGQR4DNJ?tag=deskfinds0d-20",
     description:
       "Adjustable and rated for 77 pounds with a strong review base, this mount's adjustable design accommodates horizontal positioning for buyers with limited vertical under-desk space, though verify orientation flexibility specifics against your exact clearance.\\n\\nDust accumulation on the now-upward-facing top surface is a genuine consideration for horizontal orientation, worth factoring into cleaning routines that a vertically-mounted side panel wouldn't need.\n\nRelative to the PUTORSEN Under Desk PC Mount for Mid/Mini, this pick leans toward a different priority, whether that's a higher capacity rating, a lower price, or a mounting method suited to a different install situation.\n\nWorth knowing before you decide: Adjustable design accommodates varied desk clearance. On the other side, Verify orientation flexibility specifics against your exact under-desk space. That's the main tradeoff to weigh against your specific case and desk setup.",
     specs: ["Up to 77 lbs capacity","Adjustable positioning","Strong review base","Mid-range price"],
-    pros: ["High 77lb capacity with a strong, sizable review base","Adjustable design accommodates varied desk clearance","Strong 4.6-star rating","Reasonable price for the capacity"],
+    pros: ["High 77lb capacity with a strong, sizable review base","Adjustable design accommodates varied desk clearance","Reasonable price for the capacity"],
     cons: ["Verify orientation flexibility specifics against your exact under-desk space","Dust accumulates on the upward-facing top surface in horizontal mode","Airflow design suited to the case's original vertical orientation may be affected"],
     bestFor: "Buyers wanting high capacity and adjustability for a horizontal setup",
   },
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Pick for Limited Clearance",
     name: "Heavy Duty Under Desk PC Mount, Height Adjustable, Max Load 66 lbs, Black",
     price: "$45.58",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "49 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41uzdCGRrbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G6YWLKQH?tag=deskfinds0d-20",
     description:
@@ -95,7 +95,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Under-desk clearance requirements checked for horizontal mode", description: "Checked that horizontal orientation requires meaningfully more under-desk clearance width and depth than vertical mounting, against common desk dimensions." },
   { title: "Cable routing ergonomics verified for horizontal port orientation", description: "Verified realistic cable-access ergonomics given that ports face a different direction relative to the user in horizontal orientation compared to vertical." },
   { title: "Case airflow orientation impact considered", description: "Noted that airflow through a horizontally-oriented case may differ from the case's originally intended vertical airflow design, a real thermal consideration." },
-  { title: "GPU sag and dust accumulation in horizontal mode noted", description: "Noted that heavy graphics cards not designed for horizontal mounting can sag differently, and dust accumulates on the now-upward-facing top surface differently than vertical side panels." },
+  { title: "GPU sag and dust accumulation in horizontal mode noted", description: "Noted that heavy graphics cards not designed for horizontal mounting can sag differently, and dust accumulates on the now-upward-facing top surface differently than vertical side panels." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -230,11 +230,11 @@ export const faq: FaqItem[] = [
   { q: "Does a horizontal PC mount need more space than a vertical one?", a: "Yes, meaningfully more under-desk width and depth, measure your actual available space against the mount's horizontal footprint before ordering." },
   { q: "Will cable access be harder with a horizontally mounted PC?", a: "It can be different, ports face a different direction relative to where you sit, verify realistic access for your specific desk layout before committing to horizontal mounting." },
   { q: "Does horizontal mounting affect my PC's cooling?", a: "It can, some cases are optimized for vertical airflow specifically, so horizontal orientation may shift thermal performance for a case generating meaningful heat." },
-  { q: "Is horizontal mounting bad for my graphics card?", a: "It can increase sag risk for a heavy GPU not designed for horizontal mounting, since gravity pulls in a different direction relative to the PCIe slot." },
+  { q: "Is horizontal mounting bad for my graphics card?", a: "It can increase sag risk for a heavy GPU not designed for horizontal mounting, since gravity pulls in a different direction relative to the PCIe slot." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-under-desk-gaming-pc-mounts", title: "Best Under-Desk Gaming PC Mounts (2026)" },
   { href: "/guide/best-heavy-duty-under-desk-pc-mounts", title: "Best Heavy-Duty Under-Desk PC Mounts (2026)" },
-  { href: "/guide/best-under-desk-pc-tower-holders", title: "Best Under-Desk PC Tower Holders (2026)" },
+  { href: "/guide/best-under-desk-pc-tower-holders", title: "Best Under-Desk PC Tower Holders (2026)" }
 ];

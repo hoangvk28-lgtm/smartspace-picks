@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "fanless mini pc";
 export const introParagraphs = [
   "Fanless designs genuinely limit sustained processing power compared to actively cooled models, since passive cooling can't dissipate heat as aggressively, appropriate for light everyday tasks rather than heavy, sustained workloads that would cause a fanless chip to throttle noticeably.",
-  "Fanless mini PCs are commonly paired with efficient, lower-power processors like the N100 or N150 series specifically because these chips generate less heat to begin with, worth understanding this pairing is deliberate rather than assuming any powerful processor can be made fanless without performance trade-offs.",
+  "Fanless mini PCs are commonly paired with efficient, lower-power processors like the N100 or N150 series specifically because these chips generate less heat to begin with, worth understanding this pairing is deliberate rather than assuming any powerful processor can be made fanless without performance trade-offs."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -26,7 +26,7 @@ export const products: GuideProduct[] = [
     badge: "Best Fanless Mini PC Overall",
     name: "MINIX Z150-0dB Fanless Mini PC, Intel N150 (Upgraded N100), 16GB DDR4/512GB PCIe Gen3 x 4 SSD/4K Dual",
     price: "$449.90",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41IjiC3RdaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZX5DWS5?tag=deskfinds0d-20",
@@ -42,7 +42,7 @@ export const products: GuideProduct[] = [
     badge: "Best Fanless Pick with Windows 11 Pro",
     name: "MeLE Quieter4C N150 Fanless Mini PC with Win-11-Pro 16GB RAM DDR4 512GB SSD",
     price: "$549.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/511RCdDwIEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZGRLFLQ?tag=deskfinds0d-20",
@@ -58,7 +58,7 @@ export const products: GuideProduct[] = [
     badge: "Best Value Fanless Pick",
     name: "MeLE Fanless Mini PC Quieter 4C N150, 16GB RAM 512GB Storage, Win11 Pro",
     price: "$449.98",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51bh0tba6dL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1KCNPQV?tag=deskfinds0d-20",
@@ -74,7 +74,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Fanless-Class Pick",
     name: "GMKtec Mini PC Computers Intel N95 Processor (Turbo 3.4GHz)",
     price: "$249.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41C8DZtap0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GFCMGHJT?tag=deskfinds0d-20",
@@ -90,7 +90,7 @@ export const products: GuideProduct[] = [
     badge: "Best Fanless-Adjacent Pick with Generous Storage",
     name: "QAZIPO Mini PC, 13th Twin Lake N150 (up to 3.6GHz), 16GB RAM 512GB SSD",
     price: "$309.00",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41WgxeHNYYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT68M444?tag=deskfinds0d-20",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Sustained processing power limitation of fanless designs acknowledged honestly", description: "Acknowledged honestly that fanless designs genuinely limit sustained processing power compared to actively cooled models, appropriate for light tasks rather than heavy workloads." },
   { title: "Deliberate pairing of efficient chips with fanless designs explained", description: "Explained that fanless mini PCs are commonly paired with efficient, low-power processors specifically because these chips generate less heat, not an arbitrary combination." },
   { title: "Explicit fanless branding verified rather than assumed", description: "Verified explicit fanless branding where claimed, rather than assuming any efficient-chip mini PC is necessarily fanless without confirmation." },
-  { title: "RAM and storage headroom differentiated across fanless configurations", description: "Differentiated RAM and storage headroom across various fanless configurations, since these vary meaningfully even among similarly efficient chips." },
+  { title: "RAM and storage headroom differentiated across fanless configurations", description: "Differentiated RAM and storage headroom across various fanless configurations, since these vary meaningfully even among similarly efficient chips." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Do fanless mini PCs perform as well as actively cooled ones?", a: "Not under sustained heavy load, passive cooling genuinely limits sustained processing power compared to active cooling, appropriate for light everyday tasks." },
   { q: "Why do fanless mini PCs use N100 or N150 chips?", a: "These efficient processors generate less heat to begin with, making fanless designs practical, this pairing is deliberate rather than arbitrary." },
   { q: "Is every N100 or N150 mini PC fanless?", a: "Not necessarily, verify explicit fanless branding rather than assuming any efficient-chip mini PC is automatically fanless." },
-  { q: "Can a fanless mini PC handle heavy multitasking?", a: "Generally not well for sustained periods, these are best suited to light everyday tasks rather than heavy, sustained workloads." },
+  { q: "Can a fanless mini PC handle heavy multitasking?", a: "Generally not well for sustained periods, these are best suited to light everyday tasks rather than heavy, sustained workloads." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-n100-mini-pcs", title: "Best N100 Mini PCs (2026)" },
   { href: "/guide/best-n150-mini-pcs", title: "Best N150 Mini PCs (2026)" },
-  { href: "/guide/best-mini-pcs-with-16gb-ram", title: "Best Mini PCs with 16GB RAM (2026)" },
+  { href: "/guide/best-mini-pcs-with-16gb-ram", title: "Best Mini PCs with 16GB RAM (2026)" }
 ];

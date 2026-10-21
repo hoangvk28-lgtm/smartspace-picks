@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["An Intel NUC with its factory bracket", "HumanCentric Mounting Bracket for Intel NUC"],
         ["A specific NUC 13/12/11/10/8/7/6/5 generation", "Bedycoon Mounting Bracket for Intel NUC"],
         ["A monitor with an occupied VESA port", "IFCASE Metal VESA Extension Plate"],
-        ["A Dell OptiPlex Micro or Lenovo ThinkCentre Tiny", "JINGCHENGMEI Mini PC Wall Mount"],
+        ["A Dell OptiPlex Micro or Lenovo ThinkCentre Tiny", "JINGCHENGMEI Mini PC Wall Mount"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $10", "JINGCHENGMEI ($9.99)"],
-        ["Under $13", "IFCASE ($12.99) or Bedycoon ($13.99)"],
-        ["Under $15", "HumanCentric NUC bracket ($14.99)"],
+        ["Under $10", "JINGCHENGMEI (under $10)"],
+        ["Under $13", "IFCASE (under $15) or Bedycoon (under $15)"],
+        ["Under $15", "HumanCentric NUC bracket (under $15)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Complete Kits vs Requires Your Own Bracket",
     cards: [
       { label: "Complete kits (Bedycoon, IFCASE, JINGCHENGMEI)", text: "Work as standalone mounting solutions without needing an additional factory bracket from your PC's manufacturer." },
-      { label: "Extension plate only (HumanCentric)", text: "Requires you already have your NUC's original factory mounting bracket, since this plate only bridges that bracket to a VESA arm." },
+      { label: "Extension plate only (HumanCentric)", text: "Requires you already have your NUC's original factory mounting bracket, since this plate only bridges that bracket to a VESA arm." }
     ],
     note: "Check whether you still have your mini PC's original factory bracket before buying an extension-plate-only pick like the HumanCentric option.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Intel NUC (any recent generation)", "Bedycoon or HumanCentric NUC brackets"],
         ["Dell OptiPlex Micro or Lenovo ThinkCentre Tiny", "JINGCHENGMEI Mini PC Wall Mount"],
-        ["Any brand behind an already-mounted monitor", "IFCASE Metal VESA Extension Plate"],
+        ["Any brand behind an already-mounted monitor", "IFCASE Metal VESA Extension Plate"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Multi-Monitor Desk Setup Specifically",
     cards: [
       { label: "Look for", text: "A VESA extension solution that works around an already-occupied monitor mount point rather than requiring a free VESA port." },
-      { label: "In this comparison", text: "The IFCASE Metal VESA Extension Plate is specifically designed to solve this exact occupied-port problem." },
+      { label: "In this comparison", text: "The IFCASE Metal VESA Extension Plate is specifically designed to solve this exact occupied-port problem." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want direct maker support and confirmed compatibility for a specific NUC generation, where the HumanCentric or Bedycoon picks both offer detailed compatibility documentation." },
-      { label: "Save if", text: "You own a Dell OptiPlex Micro or Lenovo ThinkCentre Tiny and want the lowest price, where the JINGCHENGMEI pick covers 3 mounting scenarios for under $10." },
+      { label: "Save if", text: "You own a Dell OptiPlex Micro or Lenovo ThinkCentre Tiny and want the lowest price, where the JINGCHENGMEI pick covers 3 mounting scenarios for under $10." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

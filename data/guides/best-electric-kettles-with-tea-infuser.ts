@@ -5,7 +5,7 @@ export const metaDescription = "Eight electric kettles with a built-in tea infus
 export const mainKeyword = "electric kettle with tea infuser";
 export const introParagraphs = [
   "Brewing loose-leaf tea in the kettle itself saves a teapot and a step, but it only works well if the kettle also controls temperature. Green and white teas turn bitter well above roughly 175 to 185F, and a kettle that can only boil gives you a bitter cup however good the infuser basket is.",
-  "The eight kettles here range from $28.99 to $329.95 and combine an infuser with very different amounts of control. We compared them on listed specs: infuser design, presets and step size, capacity, interior and glass materials, keep-warm and cleaning access. A kettle that steeps tea in the same water you boil will also pick up tea residue, so cleaning matters more than usual."
+  "The eight kettles here range from roughly $30 to $350 and combine an infuser with very different amounts of control. We compared them on listed specs: infuser design, presets and step size, capacity, interior and glass materials, keep-warm and cleaning access. A kettle that steeps tea in the same water you boil will also pick up tea residue, so cleaning matters more than usual."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41Nov7bMGFL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H9RB9WM2?tag=deskfinds0d-20",
-    "description": "Cosori has 6 presets from 165F to boiling on Strix technology, a 60 minute keep-warm, no plastic contact with water and a 1.7 liter body. The infuser lifts out whole to stop steeping, and a button opens its lid to add leaves or water. It lists 3 minute boiling tested with 2 cups.\n\nIt pairs a lifting infuser, which gives you control over steeping time, with a plastic-free claim at $49.99, far below Breville's $329.95. Against Aigostar, it adds a keep-warm and a defined preset range.\n\nBest for brewing several teas in one family kettle. The caveat is that presets start at 165F, so a cooler 150F brew is not covered.",
+    "description": "Cosori has 6 presets from 165F to boiling on Strix technology, a 60 minute keep-warm, no plastic contact with water and a 1.7 liter body. The infuser lifts out whole to stop steeping, and a button opens its lid to add leaves or water. It lists 3 minute boiling tested with 2 cups.\n\nIt pairs a lifting infuser, which gives you control over steeping time, with a plastic-free claim at under $50, far below Breville's under $350. Against Aigostar, it adds a keep-warm and a defined preset range.\n\nBest for brewing several teas in one family kettle. The caveat is that presets start at 165F, so a cooler 150F brew is not covered.",
     "specs": [
       "1.7L, 6 presets from 165F",
       "Lift-out infuser with lid",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41b1Z5L+GnL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D1C18CN3?tag=deskfinds0d-20",
-    "description": "INTASTING is a 1 liter borosilicate glass kettle at 1200W with 1F control, a non-drip V-shaped nozzle, an anti-scalding lid, an auto memory of your last temperature and time and a hold of up to 1 hour. The listing says the opening is wide for cleaning.\n\nIt offers the finest temperature steps here, and the memory function recalls your usual brew. It costs $67.98, about $18 more than Cosori.\n\nChoose it for precise temperature on a smaller kettle. The caveat is that 1 liter is small for groups, and the listing does not describe the infuser in detail.",
+    "description": "INTASTING is a 1 liter borosilicate glass kettle at 1200W with 1F control, a non-drip V-shaped nozzle, an anti-scalding lid, an auto memory of your last temperature and time and a hold of up to 1 hour. The listing says the opening is wide for cleaning.\n\nIt offers the finest temperature steps here, and the memory function recalls your usual brew. It costs under $70, about $18 more than Cosori.\n\nChoose it for precise temperature on a smaller kettle. The caveat is that 1 liter is small for groups, and the listing does not describe the infuser in detail.",
     "specs": [
       "1L glass, 1200W, 1F steps",
       "Auto memory of last settings",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/419eNQj7QWL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0BXM9M13H?tag=deskfinds0d-20",
-    "description": "Magic Mill has pre-programmed settings, a keep-warm function, rapid boil and auto shut-off, with a removable mesh infuser described as plastic-free. The listing is light on numbers: no capacity, wattage or preset range appears in the bullets we reviewed.\n\nIts selling point is the removable plastic-free infuser, and it costs $53.99, between Cosori and INTASTING. Against Cosori, it has less documentation on temperatures.\n\nBest for someone who prioritizes a plastic-free infuser. The caveat is the thin spec sheet, so check capacity and presets before buying.",
+    "description": "Magic Mill has pre-programmed settings, a keep-warm function, rapid boil and auto shut-off, with a removable mesh infuser described as plastic-free. The listing is light on numbers: no capacity, wattage or preset range appears in the bullets we reviewed.\n\nIts selling point is the removable plastic-free infuser, and it costs under $60, between Cosori and INTASTING. Against Cosori, it has less documentation on temperatures.\n\nBest for someone who prioritizes a plastic-free infuser. The caveat is the thin spec sheet, so check capacity and presets before buying.",
     "specs": [
       "Pre-programmed temperature settings",
       "Removable mesh infuser",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41UFyAZbzEL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H3NJJ9JD?tag=deskfinds0d-20",
-    "description": "Narcissus is a 1.8 liter, 1200W borosilicate glass kettle with a stainless infuser, temperature control in 5F steps from 100 to 212F and a built-in mesh filter that accepts flowers, leaves, herbs and bags. The listing says it keeps liquids warm, but the hold description is inconsistent, citing both 6 hours and 10 minutes.\n\nIt is the largest on the list apart from PULZO at $38.68, and it gives fine steps at a low price. Against Aigostar, it has a wider temperature range but a confusing hold description.\n\nChoose it for big batches of herbal and flower tea. The caveat is that the keep-warm claim contradicts itself.",
+    "description": "Narcissus is a 1.8 liter, 1200W borosilicate glass kettle with a stainless infuser, temperature control in 5F steps from 100 to 212F and a built-in mesh filter that accepts flowers, leaves, herbs and bags. The listing says it keeps liquids warm, but the hold description is inconsistent, citing both 6 hours and 10 minutes.\n\nIt is the largest on the list apart from PULZO at under $40, and it gives fine steps at a low price. Against Aigostar, it has a wider temperature range but a confusing hold description.\n\nChoose it for big batches of herbal and flower tea. The caveat is that the keep-warm claim contradicts itself.",
     "specs": [
       "1.8L glass, 1200W",
       "100F to 212F in 5F steps",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/514t+i7XMDL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B089CVHW5K?tag=deskfinds0d-20",
-    "description": "Aigostar is a 1.7 liter, 1500W kettle in thickened borosilicate glass and 304 stainless steel with 5 presets shown by LED color, an auto shut-off within 30 seconds of reaching the set temperature, boil-dry protection and a 360 degree base.\n\nColor-coded presets make it easy to see the target at a glance, and it costs $35.99, about $14 less than Cosori. It lacks Cosori's lift-out infuser detail.\n\nBest for a glass kettle with simple presets. The caveat is that 1500W is a heavy circuit load, and infuser details are limited.",
+    "description": "Aigostar is a 1.7 liter, 1500W kettle in thickened borosilicate glass and 304 stainless steel with 5 presets shown by LED color, an auto shut-off within 30 seconds of reaching the set temperature, boil-dry protection and a 360 degree base.\n\nColor-coded presets make it easy to see the target at a glance, and it costs under $40, about $14 less than Cosori. It lacks Cosori's lift-out infuser detail.\n\nBest for a glass kettle with simple presets. The caveat is that 1500W is a heavy circuit load, and infuser details are limited.",
     "specs": [
       "1.7L, 1500W glass and 304 steel",
       "5 presets, LED color indicator",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41Ikd-J1tpL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0888F15LM?tag=deskfinds0d-20",
-    "description": "Taylor Swoden is a 1 liter borosilicate glass kettle with a concealed heating element, a removable stainless infuser with a separate lid and a keep-warm that holds 176F to 185F after boiling. The listing says boiling takes 3 to 5 minutes and blue lights show the boil.\n\nIts keep-warm temperature is set for green and white tea, and it costs $28.99, the lowest here. It has no temperature presets, unlike Aigostar.\n\nChoose it for a cheap infuser kettle with a ready tea-range hold. The caveat is that there are no presets, so you cannot select other temperatures.",
+    "description": "Taylor Swoden is a 1 liter borosilicate glass kettle with a concealed heating element, a removable stainless infuser with a separate lid and a keep-warm that holds 176F to 185F after boiling. The listing says boiling takes 3 to 5 minutes and blue lights show the boil.\n\nIts keep-warm temperature is set for green and white tea, and it costs under $30, the lowest here. It has no temperature presets, unlike Aigostar.\n\nChoose it for a cheap infuser kettle with a ready tea-range hold. The caveat is that there are no presets, so you cannot select other temperatures.",
     "specs": [
       "1L glass, concealed element",
       "Keep-warm 176F to 185F",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/417bpYkqpCL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HFRHQ59L?tag=deskfinds0d-20",
-    "description": "PULZO is a 3 liter glass beverage dispenser kettle at 1000W with a drip-free spigot, a removable infuser, a 360 degree base, 10 presets including black, green, fruit and scented teas, and 6 or 24 hour keep-warm. The listing says it boils 3 liters in 3 minutes.\n\nIt is the biggest by far and costs $109.99, serving up to 15 cups. Against Cosori, it offers a tap and hot or iced tea making, but the boil claim is unlikely at 1000W.\n\nBest for parties and offices serving many people. The caveat is the high price and a 3 minute boil claim we treat with caution.",
+    "description": "PULZO is a 3 liter glass beverage dispenser kettle at 1000W with a drip-free spigot, a removable infuser, a 360 degree base, 10 presets including black, green, fruit and scented teas, and 6 or 24 hour keep-warm. The listing says it boils 3 liters in 3 minutes.\n\nIt is the biggest by far and costs under $110, serving up to 15 cups. Against Cosori, it offers a tap and hot or iced tea making, but the boil claim is unlikely at 1000W.\n\nBest for parties and offices serving many people. The caveat is the high price and a 3 minute boil claim we treat with caution.",
     "specs": [
       "3L glass dispenser, 1000W",
       "10 presets, drip-free spigot",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41DIHVGIfkL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B003LNOPSG?tag=deskfinds0d-20",
-    "description": "Breville's tea maker has a fully automated basket that lowers into water at exact temperatures and agitates the leaves, 5 presets for green, white, oolong, herbal and black teas, a timer and a keep-warm of up to 60 minutes.\n\nIt automates steeping time and temperature, which no other pick does, but it costs $329.95, more than three times PULZO. Against Cosori, it removes the manual lift-out step entirely.\n\nChoose it if you brew tea daily and want it automated. The caveat is cost, and capacity and wattage are not in the bullets we reviewed.",
+    "description": "Breville's tea maker has a fully automated basket that lowers into water at exact temperatures and agitates the leaves, 5 presets for green, white, oolong, herbal and black teas, a timer and a keep-warm of up to 60 minutes.\n\nIt automates steeping time and temperature, which no other pick does, but it costs under $350, more than three times PULZO. Against Cosori, it removes the manual lift-out step entirely.\n\nChoose it if you brew tea daily and want it automated. The caveat is cost, and capacity and wattage are not in the bullets we reviewed.",
     "specs": [
       "Automated lowering tea basket",
       "5 presets for tea types",
@@ -291,7 +291,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     "title": "Value for price",
-    "description": "Prices from $28.99 to $329.95 were compared with documented features."
+    "description": "Prices from roughly $30 to $350 were compared with documented features."
   }
 ];
 

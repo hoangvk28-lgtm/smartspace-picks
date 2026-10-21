@@ -5,7 +5,7 @@ export const metaDescription = "5 air purifiers we evaluated for pet hair, with 
 export const mainKeyword = "air purifier for pet hair";
 export const introParagraphs = [
   "Pet hair mats onto a pre-filter mesh faster than household dust alone, meaning a washable pre-filter genuinely needs weekly attention in a pet home rather than the monthly cadence a dust-only estimate would suggest.",
-  "A higher CFM (airflow) rating matters more for pet hair than for odor alone, since hair particles are physically larger and heavier than smoke or gas molecules, requiring more air movement to actually capture them before they settle.",
+  "A higher CFM (airflow) rating matters more for pet hair than for odor alone, since hair particles are physically larger and heavier than smoke or gas molecules, requiring more air movement to actually capture them before they settle."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Air Purifier for Pet Hair Overall",
     name: "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom, H13 True HEPA Filter, 24db Filtration System Cleaner Odor Eliminators, Remove 99.97% Dust Smoke Mold Pollen, Core 300, White",
     price: "$89.99",
-    rating: "4.7 stars from 108,251 Amazon ratings",
-    reviews: "108,251 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-CFM Pick for Pet Hair",
     name: "Blueair Air Purifiers for Home Large Room, 211i Max Air Purifier for Bedroom, HEPASilent Technology Removes 99.97% of Airborne Viruses, Allergens, Dust, Mold, Odors, Air Quality Sensor",
     price: "$349.00",
-    rating: "4.5 stars from 3,559 Amazon ratings",
-    reviews: "3,559 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31K9NLoXncL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BN2MGV5H?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pet Hair Pick",
     name: "Germ Guardian True HEPA Filter Air Purifier for Home",
     price: "$80.74",
-    rating: "4.6 stars from 63,485 Amazon ratings",
-    reviews: "63,485 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/316AtkHoSdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004VGIGVY?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Coverage Multi-Pet Pick",
     name: "LEVOIT Smart Air Purifier for Home Large Room up to 1875 ft Vital 200S-P",
     price: "$174.99",
-    rating: "4.7 stars from 14,571 Amazon ratings",
-    reviews: "14,571 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Pick with Pet Odor Control",
     name: "WINIX 5520 Air Purifier with PlasmaWave Technology",
     price: "$179.99",
-    rating: "4.6 stars from 31,954 Amazon ratings",
-    reviews: "31,954 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Wb8TGSnPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT4F8T4L?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Large, well-established review base", "PlasmaWave addresses pet odor alongside hair filtration", "True HEPA captures pet hair effectively", "Proven, established design"],
     cons: ["Higher price than the top pick", "PlasmaWave doesn't replace mechanical pre-filter cleaning", "Larger footprint than compact alternatives"],
     bestFor: "Pet owners wanting odor control alongside hair filtration",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Pre-filter matting rate for pet hair specifically", description: "Considered that pet hair mats onto a pre-filter mesh faster than household dust alone, meaning a washable pre-filter needs weekly attention in a pet home." },
   { title: "CFM and airflow relevance to particle weight", description: "Weighed that higher airflow matters more for pet hair than odor alone, since hair particles are physically larger and heavier than gas molecules and need more air movement to be captured." },
-  { title: "Household pet load matched to coverage and airflow", description: "Distinguished a single-pet moderate hair load from a multi-pet or heavy-shedding-breed household, matching coverage and airflow headroom to the real load." },
+  { title: "Household pet load matched to coverage and airflow", description: "Distinguished a single-pet moderate hair load from a multi-pet or heavy-shedding-breed household, matching coverage and airflow headroom to the real load." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Do I need a bigger air purifier for multiple pets?", a: "Likely yes. More pets mean proportionally more hair mass moving through the pre-filter, so a multi-pet household benefits from extra coverage and airflow headroom over a standard-capacity unit." },
   { q: "Does an odor-neutralizing feature reduce how often I need to clean the pre-filter?", a: "No. Technology like PlasmaWave addresses pet odor as an added layer, it doesn't replace the mechanical pre-filter cleaning that pet hair still requires on a weekly basis." },
   { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the most-proven pick for pet hair" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Single-pet homes with a moderate hair load on a budget At $80.74, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Single-pet homes with a moderate hair load on a budget At under $90, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-air-purifiers-for-dust-and-pet-hair", title: "Best Air Purifiers for Dust and Pet Hair (2026)" },
   { href: "/guide/best-air-purifiers-for-pet-owners", title: "Best Air Purifiers for Pet Owners (2026)" },
-  { href: "/guide/best-air-purifiers-for-dust", title: "Best Air Purifiers for Dust (2026)" },
+  { href: "/guide/best-air-purifiers-for-dust", title: "Best Air Purifiers for Dust (2026)" }
 ];

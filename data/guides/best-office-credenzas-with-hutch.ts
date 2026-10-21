@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $237.99",
+          "Under $250",
           "Sauder Heritage Hill Hutch For 404944"
         ],
         [
-          "Around $239.99",
+          "Under $250",
           "47.2\" Executive Office Desk with Hutch and 3 Drawers"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "72'' Tall File Bookcase with Power Outlet & Printer Stand"
         ],
         [
-          "Around $287.99",
+          "Under $300",
           "ModernMate 60\" File Cabinet with Drawers & Door"
         ],
         [
-          "Around $289.99",
+          "Under $300",
           "67\" x 65\" L Shaped Desk with Hutch"
         ],
         [
-          "Around $389.99",
+          "Under $400",
           "67\" Farmhouse Executive L Shaped Desk with Hutch"
         ],
         [
-          "Around $449.99",
+          "Under $450",
           "76\" Height Executive Desk with Hutch"
         ],
         [
-          "Around $1,289.35",
+          "Under $1,300",
           "NBF Credenza Desk with Hutch Storage for Executive Office"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Sauder Heritage Hill Hutch For 404944 is aimed at buyers prioritizing hutch attachment for sauder 404944 credenza only." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Sauder Heritage Hill Hutch For 404944 is aimed at buyers prioritizing hutch attachment for sauder 404944 credenza only." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-home-office-credenzas-with-hutch","title":"Best Home Office Credenzas With Hutch in 2026"},{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"}];

@@ -129,20 +129,20 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $169.99",
+          "Under $170",
           "Tribesigns Reception Desk with Counter"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "Kikihouse 63\" Fluted Reception Desk with LED"
         ],
         [
-          "Around $649.99",
+          "Under $650",
           "Anzhap 71\" L-Shaped Reception Desk"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -190,7 +190,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Anzhap 71\" L-Shaped Reception Desk is aimed at buyers prioritizing 71\" l-shaped desk, two-tone walnut & stone gray finish." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Anzhap 71\" L-Shaped Reception Desk is aimed at buyers prioritizing 71\" l-shaped desk, two-tone walnut & stone gray finish." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-marble-reception-desks","title":"best-marble-reception-desks"},{"href":"/guide/best-granite-reception-desks","title":"best-granite-reception-desks"},{"href":"/guide/best-quartz-reception-desks","title":"best-quartz-reception-desks"}];

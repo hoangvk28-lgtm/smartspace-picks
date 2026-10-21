@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["The highest weight capacity with an elegant design", "TVU 6-Tier Wooden Bookshelf, 76 Inch Tall"],
         ["Placement flexibility, freestanding or wall-flush", "Tribesigns 5-Tier Ladder Bookshelf"],
-        ["Genuine glass-door dust-free display", "Loomie 78.7\" Tall 5-Tier Bookcase with Glass Doors"],
+        ["Genuine glass-door dust-free display", "Loomie 78.7\" Tall 5-Tier Bookcase with Glass Doors"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["$112-$116", "HOMISSUE ($112.99) or Loomie Glass Doors ($115.99)"],
-        ["$139-$150", "Tribesigns Ladder ($139.99) or TVU ($149.99)"],
+        ["$112-$116", "HOMISSUE (under $120) or Loomie Glass Doors (under $120)"],
+        ["$139-$150", "Tribesigns Ladder (under $140) or TVU (under $150)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Open Shelving vs Glass-Door Display",
     cards: [
       { label: "Open Shelving (TVU, Tribesigns, HOMISSUE)", text: "Maximum visibility and easy access to items, but no dust protection over time." },
-      { label: "Glass-Door Display (Loomie)", text: "Protects displayed items from dust while still showing them off, at the cost of needing to open a door for access." },
+      { label: "Glass-Door Display (Loomie)", text: "Protects displayed items from dust while still showing them off, at the cost of needing to open a door for access." }
     ],
     note: "If you're displaying collectibles or items sensitive to dust, the Loomie glass-door pick is worth its premium. For everyday book access, open shelving is more convenient.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your storage needs", "Recommended pick"],
       rows: [
         ["Maximum total capacity for a large collection", "TVU 6-Tier (300 lb total capacity)"],
-        ["Highest per-shelf capacity for heavy individual items", "Loomie Glass Doors (80 lb per shelf)"],
+        ["Highest per-shelf capacity for heavy individual items", "Loomie Glass Doors (80 lb per shelf)"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Cozy Reading Corner Specifically",
     cards: [
       { label: "Look for", text: "A bookshelf with a genuinely functional lower cabinet space that can double as seating, not just standard storage." },
-      { label: "In this comparison", "text": "The Loomie 78.7\" Tall Bookcase's deep lower cabinet is specifically designed to double as a reading nook with a cushion added." },
+      { label: "In this comparison", "text": "The Loomie 78.7\" Tall Bookcase's deep lower cabinet is specifically designed to double as a reading nook with a cushion added." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the highest total weight capacity and an elegant decor-elevating design, where the TVU pick leads this comparison at 300 lbs total capacity." },
-      { label: "Save if", text: "A back-panel design with high stability engineering covers your needs, where the HOMISSUE pick delivers this at the lowest price in this comparison." },
+      { label: "Save if", text: "A back-panel design with high stability engineering covers your needs, where the HOMISSUE pick delivers this at the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $59.77",
+          "Under $60",
           "ZeroKor Portable Power Station"
         ],
         [
-          "Around $99.99",
+          "Under $100",
           "Duracell M100 Portable Charging Hub"
         ],
         [
-          "Around $109.00",
+          "Under $110",
           "ALLPOWERS VOLIX P300 Portable Power Station"
         ],
         [
-          "Around $119.98",
+          "Under $120",
           "ZeroKor Portable Power Station with 40W Solar Panel"
         ],
         [
-          "Around $129.98",
+          "Under $130",
           "ZeroKor Portable Power Station 300W"
         ],
         [
-          "Around $249.00",
+          "Under $250",
           "Duracell M250 Portable Charging Hub"
         ],
         [
-          "Around $259.00",
+          "Under $300",
           "Jackery Explorer 300 Portable Power Station"
         ],
         [
-          "Around $499.00",
+          "Under $500",
           "Jackery Explorer 1000 v2 Portable Power Station"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Duracell M250 Portable Charging Hub is aimed at buyers prioritizing 250w, 4.5 lbs." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Duracell M250 Portable Charging Hub is aimed at buyers prioritizing 250w, 4.5 lbs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

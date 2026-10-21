@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     badge: "Lowest Minimum Height",
     name: "ErGear 35 x 20 Inch Low Height Electric Standing Desk",
     price: "$109.99",
-    rating: "4.6 stars from 19 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/ergear-low-height-kids.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0GDDH14P5?tag=deskfinds0d-20",
@@ -67,7 +67,7 @@ export const products: GuideProduct[] = [
     badge: "Best Overall",
     name: "HUANUO 32-Inch Small Electric Standing Desk",
     price: "$75.99",
-    rating: "4.6 stars from 2,226 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/huanuo-32-small-electric.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0F9X3FDYY?tag=deskfinds0d-20",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     badge: "Best Frame-Only Flexibility",
     name: "TOPSKY Dual Motor Electric Standing Desk Frame",
     price: "$150.99",
-    rating: "4.6 stars from 4,345 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/topsky-dual-motor-frame.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B08C2LC3H2?tag=deskfinds0d-20",
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     badge: "Best with Memory Presets",
     name: "FLEXISPOT E6 3-Stage Dual Motor Standing Desk 55x28",
     price: "$284.99",
-    rating: "4.4 stars from 311 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/flexispot-e6-standard.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0BVQMQMY2?tag=deskfinds0d-20",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     badge: "Best Bamboo Desktop",
     name: "FlexiSpot E6 Bamboo 3-Stage Dual Motor Standing Desk 55x28",
     price: "$329.99",
-    rating: "4.4 stars from 763 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/flexispot-e6-bamboo.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B09DYF1SRQ?tag=deskfinds0d-20",
@@ -131,7 +131,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Rolling Desk",
     name: "QZMDSM Portable Rolling Desk on Wheels, 32 Inch",
     price: "$49.99",
-    rating: "4.4 stars from 1,899 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/qzmdsm-rolling-desk.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0BVR3RKLZ?tag=deskfinds0d-20",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     badge: "Best Converter for a Low Existing Desk",
     name: "Aconcept Extra-Slim 24 x 14 Inch Standing Desk Converter",
     price: "$49.99",
-    rating: "4.0 stars from 61 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/aconcept-desk-converter.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0D1C9LBN5?tag=deskfinds0d-20",
@@ -163,7 +163,7 @@ export const products: GuideProduct[] = [
     badge: "Best Rolling Laptop Cart",
     name: "Techni Mobili Sit-to-Stand Rolling Laptop Cart",
     price: "$28.80",
-    rating: "4.5 stars from 7,239 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/techni-mobili-laptop-cart.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B003M96GY0?tag=deskfinds0d-20",
@@ -172,7 +172,7 @@ export const products: GuideProduct[] = [
     pros: ["Lowest price in this guide", "Highest review count here", "Rolls between rooms easily", "Compact for tight spaces"],
     cons: ["Small top fits laptop only", "Manual adjustment, no presets", "Not suited to dual monitors"],
     bestFor: "Short users who need a budget laptop-only standing station that rolls between rooms.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -203,7 +203,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Adjustment type and presets", description: "Electric desks were assessed on memory preset count for shared-desk convenience; manual desks were assessed on adjustment ease." },
   { title: "Desktop size vs. footprint", description: "We weighed desktop width against typical small-room space, since compact desks suited to short users often trade surface area for a lower frame." },
   { title: "Stability at low height", description: "Dual-motor and 3-stage frames were favored for steadier lift at low settings versus single-motor 2-stage frames." },
-  { title: "Value and buyer feedback", description: "Price was weighed against verified Amazon rating volume and consistency across each listing." },
+  { title: "Value and buyer feedback", description: "Price was weighed against verified Amazon rating volume and consistency across each listing." }
 ];
 
 export const howToChoose: HowToChooseSection[] = [
@@ -307,12 +307,12 @@ export const faq: { q: string; a: string }[] = [
   { q: "Do all standing desks go low enough for shorter users?", a: "No. Many standard standing desks have a minimum height around 28 to 29 inches, which can still feel too high for users under about 5'2\". Desks with a 3-stage frame, or dedicated low-height models, reach lower minimum settings than typical 2-stage electric desks." },
   { q: "Why does my keyboard tray feel too low when my desk is set for my height?", a: "At a desk set near its lowest setting, around 22 inches, a keyboard tray mounted underneath can drop to 18 to 20 inches, below the roughly 23-inch height that's comfortable for typing. If you're using a desk set unusually low, consider skipping the tray and typing directly on the desktop instead." },
   { q: "Do I need a monitor arm if I'm short and my desk is set low?", a: "Likely yes. When the desk surface sits low to match a shorter user's ergonomic typing height, a monitor resting directly on the desktop can end up below eye level, forcing the neck to bend down. A monitor arm raises the screen independently of the desk height and avoids that strain." },
-  { q: "Can I just use a desk converter instead of buying a new standing desk?", a: "Yes, if your existing desk is already at a comfortable seated height for you. A converter sits on top of your current desk and lifts a monitor or laptop for standing use, which avoids the problem of a full standing-desk frame not reaching low enough, since your existing desk sets the base height." },
+  { q: "Can I just use a desk converter instead of buying a new standing desk?", a: "Yes, if your existing desk is already at a comfortable seated height for you. A converter sits on top of your current desk and lifts a monitor or laptop for standing use, which avoids the problem of a full standing-desk frame not reaching low enough, since your existing desk sets the base height." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-standing-desks-with-storage", title: "Best Standing Desks with Storage (2026)" },
   { href: "/guide/best-4-leg-standing-desks", title: "Best 4-Leg Standing Desks (2026)" },
   { href: "/guide/best-small-standing-desk", title: "Best Small Standing Desks (2026)" },
-  { href: "/guide/best-standing-desk-for-tall-person", title: "Best Standing Desks for Tall People (2026)" },
+  { href: "/guide/best-standing-desk-for-tall-person", title: "Best Standing Desks for Tall People (2026)" }
 ];

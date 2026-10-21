@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["A simple, reliable clock with a nightlight", "Amazon Basics Small Digital Oval Alarm Clock"],
         ["A fully cordless clock for anywhere placement", "Sharp Battery Alarm Clock, Soft-Touch Case"],
-        ["A foldable clock specifically for travel", "Betus Digital Travel Alarm Clock, Foldable"],
+        ["A foldable clock specifically for travel", "Betus Digital Travel Alarm Clock, Foldable"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $9", "Shudyear Mini Digital Clock ($5.99) or Betus Travel Clock ($8.55)"],
-        ["$9-$10", "Amazon Basics ($9.99) or Sharp Battery Clock ($9.99)"],
+        ["Under $9", "Shudyear Mini Digital Clock (under $6) or Betus Travel Clock (under $9)"],
+        ["$9-$10", "Amazon Basics (under $10) or Sharp Battery Clock (under $10)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "AC-Powered vs Fully Battery-Operated",
     cards: [
       { label: "AC-Powered with Battery Backup (Amazon Basics)", text: "Stays illuminated continuously when plugged in, with battery backup only for settings retention during an outage, not full standalone operation." },
-      { label: "Fully Battery-Operated (Sharp, Betus, Shudyear)", text: "Runs entirely on batteries, letting you place it anywhere without needing a nearby outlet, though the display isn't always continuously lit." },
+      { label: "Fully Battery-Operated (Sharp, Betus, Shudyear)", text: "Runs entirely on batteries, letting you place it anywhere without needing a nearby outlet, though the display isn't always continuously lit." }
     ],
     note: "If you want the clock always visible without a cord in the way, a fully battery-operated pick offers more placement freedom. If constant illumination matters more, an AC-powered clock is the more reliable choice.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your mobility needs", "Recommended pick"],
       rows: [
         ["Frequent travel or packing into a bag", "Betus Digital Travel Alarm Clock, Foldable"],
-        ["A fixed desk location, no travel needed", "Amazon Basics or Sharp Battery Clock"],
+        ["A fixed desk location, no travel needed", "Amazon Basics or Sharp Battery Clock"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Tight or Unusual Space Specifically",
     cards: [
       { label: "Look for", text: "The smallest possible footprint, ideally with an adhesive mounting option for surfaces where a standing clock wouldn't fit." },
-      { label: "In this comparison", text: "The Shudyear Small Digital Clock's 1.4 x 2.4 inch size with adhesive mounting fits virtually any tight space or unconventional surface." },
+      { label: "In this comparison", text: "The Shudyear Small Digital Clock's 1.4 x 2.4 inch size with adhesive mounting fits virtually any tight space or unconventional surface." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a built-in nightlight alongside reliable timekeeping, where the Amazon Basics pick delivers this dual function at the top of this price range." },
-      { label: "Save if", text: "A basic, ultra-compact clock covers your needs, where the Shudyear Mini Digital Clock delivers the lowest price in this entire comparison." },
+      { label: "Save if", text: "A basic, ultra-compact clock covers your needs, where the Shudyear Mini Digital Clock delivers the lowest price in this entire comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

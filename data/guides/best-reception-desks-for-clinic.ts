@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $369.99",
+          "Under $400",
           "63\" Reception Desk with Dual-Level Counter and LED"
         ],
         [
-          "Around $417.99",
+          "Under $450",
           "Zethvax L-Shaped Reception Desk"
         ],
         [
-          "Around $869.95",
+          "Under $900",
           "Offices To Go L-Shaped Reception Desk with Transaction Top"
         ],
         [
-          "Around $1,659.00",
+          "Under $1,700",
           "Exsunnyfit Fully Assembled Curved Reception Desk"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Exsunnyfit Fully Assembled Curved Reception Desk is aimed at buyers prioritizing 70.8\"l x 23.6\"d x 39.3\"h, fully assembled." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Exsunnyfit Fully Assembled Curved Reception Desk is aimed at buyers prioritizing 70.8\"l x 23.6\"d x 39.3\"h, fully assembled." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks-for-medical","title":"best-reception-desks-for-medical"},{"href":"/guide/best-reception-desks-for-dental","title":"4 Best Reception Desks for Dental in 2026"},{"href":"/guide/best-reception-desks-for-hospital","title":"best-reception-desks-for-hospital"}];

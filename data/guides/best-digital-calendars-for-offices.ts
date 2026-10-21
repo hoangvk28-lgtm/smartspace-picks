@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital calendar for office";
 export const introParagraphs = [
   "Office use changes what matters in a digital calendar: shared visibility, a professional look, and in some cases genuine account sync for scheduling across a team, rather than the chore-chart and meal-planning features aimed at households.",
-  "This guide prioritizes picks that suit a business or office setting specifically, including one model explicitly marketed for office and business use, alongside the touchscreen calendars whose sync features work equally well for a shared office schedule as for a family one.",
+  "This guide prioritizes picks that suit a business or office setting specifically, including one model explicitly marketed for office and business use, alongside the touchscreen calendars whose sync features work equally well for a shared office schedule as for a family one."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "8 min";

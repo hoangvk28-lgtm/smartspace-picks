@@ -12,7 +12,7 @@ export const wristRestExplainedGuide: Guide = {
     "do wrist rests actually help",
     "how to use a wrist rest correctly",
     "wrist rest for carpal tunnel",
-    "keyboard wrist rest vs no rest",
+    "keyboard wrist rest vs no rest"
   ],
   heroImage: "https://images.unsplash.com/photo-1598662779094-110c2bad80b5?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1598662779094-110c2bad80b5?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const wristRestExplainedGuide: Guide = {
     "mechanical-switch-types-explained",
     "how-to-measure-office-chair-fit",
     "keyboard-size-chart",
-    "mouse-grip-styles-explained",
+    "mouse-grip-styles-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const wristRestExplainedGuide: Guide = {
       question: "Do I need a wrist rest for both keyboard and mouse?",
       answer:
         "Many ergonomic setups include a wrist rest for both, since both hands benefit from support during pauses, but this depends on your desk setup and whether you experience discomfort at both the keyboard and mouse positions specifically.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const wristRestExplainedGuide: Guide = {
     {
       heading: "Setting Realistic Expectations for What It Can Fix",
       body: `A wrist rest is a comfort accessory that can reduce pressure point discomfort from resting wrists on a hard, sharp desk edge during pauses, it isn't a treatment or cure for existing repetitive strain conditions like carpal tunnel syndrome. If you're experiencing ongoing wrist pain beyond typical desk fatigue, addressing overall keyboard/mouse positioning and consulting a medical professional is more appropriate than expecting an accessory alone to resolve it.`,
-    },
+    }
   ],
 };

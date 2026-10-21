@@ -5,7 +5,7 @@ export const metaDescription = "5 portable SSDs we evaluated for Steam Deck, wit
 export const mainKeyword = "portable SSD for Steam Deck";
 export const introParagraphs = [
   "Steam Deck's specific USB-C port bandwidth and power delivery characteristics should be verified against the SSD's requirements, since the Deck's port may not provide full power for all bus-powered drives.",
-  "SteamOS file system compatibility should be verified for the SSD's pre-formatted file system, exFAT works broadly, but native Linux formats might not be readily accessible without additional configuration on this Linux-based platform.",
+  "SteamOS file system compatibility should be verified for the SSD's pre-formatted file system, exFAT works broadly, but native Linux formats might not be readily accessible without additional configuration on this Linux-based platform."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Portable SSD for Steam Deck Overall",
     name: "Transcend ESD310 1TB External SSD, Up to 1,050MB/s, Dual USB Drive for iPhone/iPad/Mac/Pixel/Tesla/Steam Deck/ROG Ally/MSI Claw/Android/PS5, 2-in-1 Type C & A, USB 3.2 Gen2 Portable SSD",
     price: "$239.99",
-    rating: "4.6 stars from 2,340 Amazon ratings",
-    reviews: "2,340 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31HBU-HAxoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C3B32H9M?tag=deskfinds0d-20",
     description: "Explicitly marketed and tested for Steam Deck compatibility, alongside other handheld gaming devices like ROG Ally and MSI Claw, a solid review base backing this as a genuinely proven handheld-gaming pick.\n\nIt earns the top spot in this comparison over Samsung T7 Portable SSD 1TB Titan Gray for one main reason. Explicitly marketed and tested for Steam Deck compatibility. On price, it's actually priced above Samsung T7 Portable SSD 1TB Titan Gray, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Works across other handhelds too (ROG Ally, MSI Claw). On the other side, Power draw from the Deck's battery should be considered for portable play. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Established Brand Steam Deck Pick",
     name: "Samsung T7 Portable SSD 1TB Titan Gray, USB 3.2 Gen 2, Up to 1,050MB/s",
     price: "$219.98",
-    rating: "4.7 stars from 21,124 Amazon ratings",
-    reviews: "21,124 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LdvAbumfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874XN4D8?tag=deskfinds0d-20",
     description: "A large, well-established review base from an established SSD brand, exFAT pre-formatting works broadly across SteamOS without requiring additional configuration for most users.\n\nOne spot below Transcend ESD310 1TB External SSD in this ranking, it's priced lower than Transcend ESD310 1TB External SSD. The compromise here is straightforward: Not explicitly marketed for Steam Deck specifically like the top pick. What you gain in return: Large, well-established review base. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Established Samsung SSD brand reliability. On the other side, Physical form-factor fit with a dock/stand should be checked separately. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Steam Deck Pick",
     name: "SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s",
     price: "$143.99",
-    rating: "4.5 stars from 3,542 Amazon ratings",
-    reviews: "3,542 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31PngdJb7FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGL4SHY8?tag=deskfinds0d-20",
     description: "The most affordable pick in this guide with a solid review base, appropriate for a Steam Deck owner wanting basic game library expansion without demanding docked living-room setups.\n\nSitting just under Samsung T7 Portable SSD 1TB Titan Gray, it's priced lower than Samsung T7 Portable SSD 1TB Titan Gray. Here's the honest tradeoff: Smaller review base than the top established picks. And here's what it gets you instead: Most affordable pick in this guide. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Solid review base for the price point. On the other side, Not explicitly tested for Steam Deck like the top pick. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Fast, Compact Steam Deck Pick",
     name: "KingSpec Z5 512GB External SSD - 2100MB/s, Portable Solid State Hard Drives with RGB Light, Zinc Alloy Case, USB 3.2 Gen2x2 Interface, Compatible with Mobile Phone/PS4/Laptop/TV/PC",
     price: "$88.99",
-    rating: "4.6 stars from 436 Amazon ratings",
-    reviews: "436 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31a33qlUGuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLV9GG54?tag=deskfinds0d-20",
     description: "A genuinely fast 2100MB/s rated speed in a compact zinc alloy case, appropriate for a Steam Deck owner wanting quick load times for external-drive-installed games at an affordable price.\n\nRanked just behind SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s, it's priced lower than SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s. The real tradeoff against that pick: Smallest capacity in this guide at 512GB. In exchange, it offers this instead: Fastest rated speed in this guide for quicker game load times. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Most affordable pick alongside the SSK option. On the other side, Verify SteamOS exFAT handling and Steam client migration support directly. That's the main tradeoff to weigh against everything above.",
@@ -89,8 +89,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity Steam Deck Pick",
     name: "SANDISK 2TB Extreme Portable SSD (Old Model) - Up to 1050MB/s, USB-C, USB 3.2 Gen 2, IP65 Water and Dust Resistance, Updated Firmware",
     price: "$308.99",
-    rating: "4.6 stars from 91,365 Amazon ratings",
-    reviews: "91,365 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41eTFK7clfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HN37XC1?tag=deskfinds0d-20",
     description: "The single largest review base of any pick in this guide by a wide margin, 2TB capacity genuinely supports a much larger game library than the Deck's internal storage alone.\n\nOne spot below KingSpec Z5 512GB External SSD in this ranking, it costs more than KingSpec Z5 512GB External SSD. The compromise here is straightforward: Higher price than the budget picks in this guide. What you gain in return: Massive review base, the most-proven portable gaming drive available. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: 2TB capacity supports a much larger game library. On the other side, Physical dock/stand fit should be checked for this specific form factor. That's the main tradeoff to weigh against everything above.",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Steam Deck USB-C bandwidth and power delivery verified", description: "Verified Steam Deck-specific USB-C port bandwidth and power delivery characteristics against SSD requirements, since the Deck's port may not provide full power for all bus-powered drives." },
   { title: "SteamOS/Linux file system compatibility checked", description: "Verified SteamOS/Linux file system compatibility for pre-formatted drives, since exFAT works broadly but native Linux formats might not be readily accessible without additional configuration." },
   { title: "Dock/stand physical form-factor fit considered", description: "Tested dock/stand-accessory physical form-factor compatibility for realistic desk/living-room setup scenarios." },
-  { title: "Steam client game migration support verified", description: "Verified Steam client's actual support for game library migration between the Deck's internal storage and an external SSD, moving installed games without full re-download." },
+  { title: "Steam client game migration support verified", description: "Verified Steam client's actual support for game library migration between the Deck's internal storage and an external SSD, moving installed games without full re-download." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -249,11 +249,11 @@ export const faq: FaqItem[] = [
   { q: "Can I move installed games between my Steam Deck's internal storage and an external SSD without re-downloading?", a: "This depends on actual Steam client support at your current SteamOS version, verify this capability directly rather than assuming it works universally." },
   { q: "Will my portable SSD fit well when my Steam Deck is docked?", a: "Check the physical form-factor compatibility with your specific dock or stand accessory, a bulkier drive may not fit comfortably alongside other cables in a docked setup." },
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers wanting a drive explicitly marketed and tested for Steam Deck and other handhelds" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Steam Deck owners wanting fast load times in a compact, affordable drive At $88.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Steam Deck owners wanting fast load times in a compact, affordable drive At under $90, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-ssds-for-xbox-series-x-and-s", title: "Best Portable SSDs for Xbox Series X and S (2026)" },
   { href: "/guide/best-portable-ssds-for-ipad", title: "Best Portable SSDs for iPad (2026)" },
-  { href: "/guide/best-usb4-portable-ssds", title: "Best USB4 Portable SSDs (2026)" },
+  { href: "/guide/best-usb4-portable-ssds", title: "Best USB4 Portable SSDs (2026)" }
 ];

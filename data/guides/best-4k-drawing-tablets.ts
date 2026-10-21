@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $629.00",
+          "Under $650",
           "HUION Kamvas Pro 16 Plus"
         ],
         [
-          "Around $679.15",
+          "Under $700",
           "XENCELABS Pen Display 16 Lite"
         ],
         [
-          "Around $719.99",
+          "Under $750",
           "XPPen Artist Pro 19 Gen2"
         ],
         [
-          "Around $939.99",
+          "Under $950",
           "XPPen Artist Pro 24 Gen2"
         ],
         [
-          "Around $1,061.65",
+          "Under $1,100",
           "Xencelabs Pen Display 16 Bundle with Quick Keys"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "XPPen Artist Pro 19 Gen2 is aimed at buyers prioritizing 18.4in 4k uhd, calman-verified Delta E<1.5." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "XPPen Artist Pro 19 Gen2 is aimed at buyers prioritizing 18.4in 4k uhd, calman-verified Delta E<1.5." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"},{"href":"/guide/best-wacom-drawing-tablets","title":"Best Wacom Drawing Tablets in 2026"},{"href":"/guide/best-drawing-tablets-with-screens","title":"Best Drawing Tablets With Screens in 2026"}];

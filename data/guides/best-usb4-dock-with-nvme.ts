@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The fastest NVMe enclosure with premium multi-display support", "Satechi Thunderbolt 5 CubeDock"],
         ["NVMe expansion with broad compatibility at a low price", "UGREEN Revodok NVMe 10-in-1 Docking Station"],
         ["A purpose-built stand for a 2024 Mac mini M4/M4 Pro", "Qwiizlab Mac mini USB Hub & Stand"],
-        ["The lowest possible price for basic NVMe expansion", "USB C Hub 6-in-1 with M.2 NVMe SSD Enclosure"],
+        ["The lowest possible price for basic NVMe expansion", "USB C Hub 6-in-1 with M.2 NVMe SSD Enclosure"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $30", "USB C Hub 6-in-1 ($28.99)"],
-        ["Under $60", "UGREEN Revodok NVMe 10-in-1 ($59.99)"],
-        ["Under $70", "Qwiizlab Mac mini USB Hub & Stand ($69.99)"],
-        ["Under $400", "Satechi Thunderbolt 5 CubeDock ($399.99)"],
+        ["Under $30", "USB C Hub 6-in-1 (under $30)"],
+        ["Under $60", "UGREEN Revodok NVMe 10-in-1 (under $60)"],
+        ["Under $70", "Qwiizlab Mac mini USB Hub & Stand (under $70)"],
+        ["Under $400", "Satechi Thunderbolt 5 CubeDock (under $400)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Premium All-in-One vs Budget Storage Expansion",
     cards: [
       { label: "Premium all-in-one (Satechi CubeDock)", text: "Combines the fastest NVMe speed with high-end multi-display support in one unit, at a significant price premium." },
-      { label: "Budget storage expansion (UGREEN, USB C Hub)", text: "Covers the core need of adding NVMe storage plus basic connectivity at a fraction of the premium option's cost." },
+      { label: "Budget storage expansion (UGREEN, USB C Hub)", text: "Covers the core need of adding NVMe storage plus basic connectivity at a fraction of the premium option's cost." }
     ],
     note: "If you need genuinely fast storage alongside demanding multi-monitor work, the Satechi CubeDock is worth the investment. If you just want to add fast storage to your existing setup affordably, either budget pick covers that well.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your device", "Recommended pick"],
       rows: [
         ["2024 Mac mini M4 or M4 Pro specifically", "Qwiizlab Mac mini USB Hub & Stand"],
-        ["Any modern MacBook, Windows laptop, or older Mac mini", "UGREEN Revodok NVMe 10-in-1"],
+        ["Any modern MacBook, Windows laptop, or older Mac mini", "UGREEN Revodok NVMe 10-in-1"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Video Editors Working Directly Off the Dock's Storage Specifically",
     cards: [
       { label: "Look for", text: "A high stated MB/s enclosure speed and active cooling, so sustained large file access during editing doesn't bottleneck or thermal-throttle." },
-      { label: "In this comparison", text: "The Satechi CubeDock specifically states up to 6000MB/s with an adaptive cooling system engineered for sustained heavy workloads like long renders." },
+      { label: "In this comparison", text: "The Satechi CubeDock specifically states up to 6000MB/s with an adaptive cooling system engineered for sustained heavy workloads like long renders." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want the fastest possible enclosure speed with premium multi-display support built in, where the Satechi CubeDock justifies its $399.99 price." },
-      { label: "Save if", text: "You just need basic NVMe storage expansion and display output, where the USB C Hub 6-in-1 delivers that for $28.99." },
+      { label: "Spend more if", text: "You want the fastest possible enclosure speed with premium multi-display support built in, where the Satechi CubeDock justifies its under $400 price." },
+      { label: "Save if", text: "You just need basic NVMe storage expansion and display output, where the USB C Hub 6-in-1 delivers that for under $30." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

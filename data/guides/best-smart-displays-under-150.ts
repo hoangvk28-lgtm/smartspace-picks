@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A larger 8-inch screen at a lower price", "Like-New Amazon Echo Show 8"],
         ["Genuine Google Assistant compatibility", "Google Nest Hub (1st Gen), 7-inch Display"],
         ["A nightstand-focused alarm clock with WiFi extension", "Amazon Echo Spot, Smart Alarm Clock"],
-        ["The most affordable new Alexa smart display", "Amazon Echo Show 5, Smart Display"],
+        ["The most affordable new Alexa smart display", "Amazon Echo Show 5, Smart Display"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $100", "Echo Show 5 ($99.99)"],
-        ["Under $110", "Google Nest Hub ($109.99) or Echo Spot ($109.99)"],
-        ["Under $135", "Like-New Echo Show 8 ($134.99)"],
+        ["Under $100", "Echo Show 5 (under $100)"],
+        ["Under $110", "Google Nest Hub (under $110) or Echo Spot (under $110)"],
+        ["Under $135", "Like-New Echo Show 8 (under $140)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Alexa vs Google Assistant Ecosystem",
     cards: [
       { label: "Alexa (Echo Show 5, Echo Show 8, Echo Spot)", text: "Integrates with Amazon's broader Alexa smart home ecosystem, ideal if you already own other Echo devices or Alexa-compatible smart home gear." },
-      { label: "Google Assistant (Nest Hub)", text: "Integrates with Google's ecosystem instead, the better fit if your smart home devices already work with Google Home or Google Assistant." },
+      { label: "Google Assistant (Nest Hub)", text: "Integrates with Google's ecosystem instead, the better fit if your smart home devices already work with Google Home or Google Assistant." }
     ],
     note: "Check which ecosystem your existing smart lights, plugs, or cameras support before choosing, since mixing ecosystems can mean losing voice control over some devices.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["General browsing, video calls, recipes", "Like-New Echo Show 8 (8 in) or Nest Hub (7 in)"],
         ["Compact bedside or desk use", "Echo Show 5 (5.5 in)"],
-        ["Nightstand alarm clock specifically", "Echo Spot (round display)"],
+        ["Nightstand alarm clock specifically", "Echo Spot (round display)"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Video Calling with Family Specifically",
     cards: [
       { label: "Look for", text: "A larger screen with a higher-resolution camera and auto-framing technology for a more natural calling experience." },
-      { label: "In this comparison", text: "The Like-New Echo Show 8's 13 MP auto-framing camera offers the most capable video calling experience here." },
+      { label: "In this comparison", text: "The Like-New Echo Show 8's 13 MP auto-framing camera offers the most capable video calling experience here." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a larger screen and built-in smart home hub, where the Like-New Echo Show 8 delivers both at a price still under $135." },
-      { label: "Save if", text: "You just want a basic, affordable entry into smart displays, where the Echo Show 5 covers that for under $100." },
+      { label: "Save if", text: "You just want a basic, affordable entry into smart displays, where the Echo Show 5 covers that for under $100." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

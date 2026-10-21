@@ -252,7 +252,7 @@ export default async function BestSmallDeskChargingStationsPage() {
               { href: "#best-budget", label: "Best Budget" },
               { href: "#how-to-choose", label: "How to choose" },
               { href: "#setup-tips", label: "Setup tips" },
-              { href: "#faq", label: "FAQ" },
+              { href: "#faq", label: "FAQ" }
             ].map((item) => (
               <a key={item.href} href={item.href} className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors">
                 {item.label}
@@ -327,7 +327,7 @@ export default async function BestSmallDeskChargingStationsPage() {
             <div className="grid sm:grid-cols-2 gap-4 mb-4">
               {[
                 { label: "Flat chargers", example: "Anker Nano, Anker 615", desc: "Spread across the desk surface. What you see in the spec sheet is what you get -- the footprint is the footprint." },
-                { label: "Vertical chargers", example: "Anker 525", desc: "Trade horizontal area for height. The base dimensions are similar, but the unit rises upward. On a small desk, vertical chargers feel less intrusive because they don't spread into your working zone -- they just stand in a corner." },
+                { label: "Vertical chargers", example: "Anker 525", desc: "Trade horizontal area for height. The base dimensions are similar, but the unit rises upward. On a small desk, vertical chargers feel less intrusive because they don't spread into your working zone -- they just stand in a corner." }
               ].map((item, i) => (
                 <div key={i} className="p-4 rounded-xl border border-border bg-white">
                   <p className="font-bold text-ink text-sm mb-1">{item.label} <span className="text-xs font-normal text-ink-muted">({item.example})</span></p>
@@ -353,7 +353,7 @@ export default async function BestSmallDeskChargingStationsPage() {
                   {[
                     "You're in an Apple ecosystem and use the 3-in-1 wireless stand",
                     "Your phone always stays in the same spot on the desk while charging",
-                    "You want a truly cable-free desk surface aesthetic",
+                    "You want a truly cable-free desk surface aesthetic"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-1.5 text-xs text-ink">
                       <span className="w-1.5 h-1.5 rounded-full bg-cta mt-1.5 shrink-0" />
@@ -368,7 +368,7 @@ export default async function BestSmallDeskChargingStationsPage() {
                   {[
                     "You charge different devices each day",
                     "You need to charge a laptop too",
-                    "Budget matters (wireless adds ~$20--40 vs. a comparable wired option)",
+                    "Budget matters (wireless adds ~$20--40 vs. a comparable wired option)"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-1.5 text-xs text-ink">
                       <span className="w-1.5 h-1.5 rounded-full bg-amber-500 mt-1.5 shrink-0" />
@@ -395,7 +395,7 @@ export default async function BestSmallDeskChargingStationsPage() {
                 { item: "Use short cables (30 cm / 1 ft)", desc: "A 30 cm USB-C cable keeps a phone close to the charger with almost no slack. Standard 1-meter cables pile up in loops on small desks." },
                 { item: "Cable clips along the desk edge", desc: "Small adhesive clips (available in packs for under $5) route cables along the back edge of the desk and down to the charger. Invisible from the front." },
                 { item: "Choose a charger with a built-in cord", desc: "The Anker 615 and Anker 525 have built-in cords routed to the wall -- one less loose cable on your desk surface." },
-                { item: "Mount under the desk if possible", desc: "For the cleanest possible small-desk surface, an under-desk power station completely removes the charger from your surface." },
+                { item: "Mount under the desk if possible", desc: "For the cleanest possible small-desk surface, an under-desk power station completely removes the charger from your surface." }
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3 p-3 rounded-xl border border-border bg-white">
                   <span className="w-6 h-6 rounded-full bg-brand text-white flex items-center justify-center shrink-0 font-bold text-xs mt-0.5">{i + 1}</span>
@@ -418,7 +418,7 @@ export default async function BestSmallDeskChargingStationsPage() {
               {[
                 "A laptop needs at least 65W from a single USB-C port to charge while in use",
                 "On a small desk, that often means choosing a charger with fewer ports to keep the footprint minimal",
-                "The Anker Nano, Anker 615, and Anker 525 all support 65W USB-C -- but their total wattage means other devices charge more slowly when the laptop is connected",
+                "The Anker Nano, Anker 615, and Anker 525 all support 65W USB-C -- but their total wattage means other devices charge more slowly when the laptop is connected"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-2 text-sm text-ink-secondary">
                   <span className="w-1.5 h-1.5 rounded-full bg-brand mt-2 shrink-0" />
@@ -461,7 +461,7 @@ export default async function BestSmallDeskChargingStationsPage() {
               { label: "Footprint as primary filter", note: "Every pick was measured and verified against the charging zones available on 60--120 cm wide desks." },
               { label: "Vertical vs flat real-world fit", note: "Not just base dimensions -- how the unit actually feels on a crowded desk with keyboard, monitor, and other accessories in place." },
               { label: "Port mix for small-desk users", note: "USB-C PD for laptop and modern device charging, USB-A for accessories, AC outlets for lamps and adapters." },
-              { label: "Value at price point", note: "Each pick was evaluated on what it delivers relative to its price, with a specific eye on the budget segment where features are most constrained." },
+              { label: "Value at price point", note: "Each pick was evaluated on what it delivers relative to its price, with a specific eye on the budget segment where features are most constrained." }
             ].map((c, i) => (
               <div key={i} className="flex items-start gap-2">
                 <span className="w-5 h-5 rounded-full bg-brand-muted text-brand flex items-center justify-center shrink-0 font-bold text-[10px] mt-0.5">{i + 1}</span>
@@ -497,7 +497,7 @@ export default async function BestSmallDeskChargingStationsPage() {
             {[
               { product: "Anker Nano 6-in-1", verdict: "is the right pick for most small desks: the smallest base area for a full-function charger, two AC outlets included, GaN technology, and a flat profile that disappears in a back corner.", href: "#best-overall" },
               { product: "Anker PowerPort 5", verdict: "is the call for desks genuinely tight on space and budget -- its minimal footprint and under-$20 price mean the decision is low-risk.", href: "#best-budget" },
-              { product: "Anker MagSafe 3-in-1 Qi2", verdict: "is the answer for all-Apple setups wanting zero cables on the desk surface -- it trades wired ports for a dramatically cleaner desk aesthetic.", href: "#best-wireless" },
+              { product: "Anker MagSafe 3-in-1 Qi2", verdict: "is the answer for all-Apple setups wanting zero cables on the desk surface -- it trades wired ports for a dramatically cleaner desk aesthetic.", href: "#best-wireless" }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
@@ -536,7 +536,7 @@ export default async function BestSmallDeskChargingStationsPage() {
               { href: "/guide/best-charging-stations-for-desk", title: "Best Charging Stations for Desk", desc: "Full roundup across all categories -- wired, wireless, and multi-device" },
               { href: "/guide/best-wireless-charging-stations-for-desk", title: "Best Wireless Charging Stations for Desk", desc: "If you want to go cable-free" },
               { href: "/guide/small-desk-setup", title: "Small Desk Setup Ideas", desc: "15 practical ideas for building a better compact workspace" },
-              { href: "/guide/best-under-desk-cable-trays", title: "Best Under-Desk Cable Trays", desc: "Remove the charger from the surface entirely" },
+              { href: "/guide/best-under-desk-cable-trays", title: "Best Under-Desk Cable Trays", desc: "Remove the charger from the surface entirely" }
             ].map((g) => (
               <Link prefetch={false} key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
                 <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">

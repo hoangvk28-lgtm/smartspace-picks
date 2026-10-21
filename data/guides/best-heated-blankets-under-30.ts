@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41+N1ZIG6HL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H6S9H944?tag=deskfinds0d-20",
-    "description": "Poouthym is the lowest priced throw here at $22.99. It has five heat settings from 86 to 113 degrees, a 10 hour auto-off and ETL certification, with flannel on one side and faux rabbit fur on the other.\n\nVersus Mlivrom, it gives you a plusher feel but a fixed 10 hour cutoff, which is long for a nap. Against CAROMIO, it has fewer settings but a lower price and a longer timeout.\n\nA good all-round budget pick for a couch or desk chair. The caveat is the 10 hour auto-off, which is too long to rely on as a safety margin if you doze off often.",
+    "description": "Poouthym is the lowest priced throw here at under $25. It has five heat settings from 86 to 113 degrees, a 10 hour auto-off and ETL certification, with flannel on one side and faux rabbit fur on the other.\n\nVersus Mlivrom, it gives you a plusher feel but a fixed 10 hour cutoff, which is long for a nap. Against CAROMIO, it has fewer settings but a lower price and a longer timeout.\n\nA good all-round budget pick for a couch or desk chair. The caveat is the 10 hour auto-off, which is too long to rely on as a safety margin if you doze off often.",
     "specs": [
       "5 levels, 86 to 113F",
       "10 hour auto shut-off",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51J8M8Qpk-L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H4Q6SWZQ?tag=deskfinds0d-20",
-    "description": "EHEYCIGA offers nine heat settings from 85 to 110 degrees, a 10 hour auto-off and ETL certification with overheat protection. The faux fur and sherpa throw measures 50 by 60 inches, and the controller detaches for washing.\n\nIt has the most heat steps of the plug-in throws, and it is priced at the $29.99 ceiling, the same as the Tenswa poncho. Against CAROMIO, it offers finer control but a much longer shutoff.\n\nChoose it for a cold office or couch where you want to dial in the exact warmth. The caveat is that its maximum of 110 degrees is lower than CAROMIO's listed 115.",
+    "description": "EHEYCIGA offers nine heat settings from 85 to 110 degrees, a 10 hour auto-off and ETL certification with overheat protection. The faux fur and sherpa throw measures 50 by 60 inches, and the controller detaches for washing.\n\nIt has the most heat steps of the plug-in throws, and it is priced at the under $30 ceiling, the same as the Tenswa poncho. Against CAROMIO, it offers finer control but a much longer shutoff.\n\nChoose it for a cold office or couch where you want to dial in the exact warmth. The caveat is that its maximum of 110 degrees is lower than CAROMIO's listed 115.",
     "specs": [
       "9 levels, 85 to 110F",
       "10 hour auto shut-off",
@@ -339,7 +339,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Save if",
-        "text": "You only need basic warmth on a couch. Poouthym Wave Fleece Heated Throw is the lowest priced at $22.99."
+        "text": "You only need basic warmth on a couch. Poouthym Wave Fleece Heated Throw is the lowest priced under $25."
       }
     ]
   }

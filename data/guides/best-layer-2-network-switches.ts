@@ -161,27 +161,27 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $23.99",
+          "Under $25",
           "NETGEAR GS308E 8-Port Easy Smart Managed Switch"
         ],
         [
-          "Around $24.99",
+          "Under $25",
           "TP-Link TL-SG108E 8-Port Easy Smart Switch"
         ],
         [
-          "Around $53.23",
+          "Under $60",
           "8-Port 2.5Gb Web Managed Switch"
         ],
         [
-          "Around $107.02",
+          "Under $110",
           "Omada ES210X-M2 8-Port 2.5G Easy Managed Switch"
         ],
         [
-          "Around $134.90",
+          "Under $140",
           "TP-Link TL-SG1016PE 16-Port PoE Easy Smart Switch"
         ],
         [
-          "Around $515.29",
+          "Under $550",
           "Fortinet FortiSwitch 124F"
         ]
       ]
@@ -236,10 +236,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "NETGEAR GS308E 8-Port Easy Smart Managed Switch is aimed at buyers prioritizing 8 ports, up to 64 vlans, at $23.99."
+        "text": "NETGEAR GS308E 8-Port Easy Smart Managed Switch is aimed at buyers prioritizing 8 ports, up to 64 vlans, at under $25."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -276,10 +276,10 @@ export const faq = [
   }
 ,
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "TP-Link TL-SG108E 8-Port Easy Smart Switch is aimed at buyers prioritizing 8 ports, 32 simultaneous vlans." },
-  { q: "Which pick offers the best value for a tight budget?", a: "NETGEAR GS308E 8-Port Easy Smart Managed Switch is aimed at buyers prioritizing 8 ports, up to 64 vlans, and at $23.99 it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $23.99 to $515.29, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Which pick offers the best value for a tight budget?", a: "NETGEAR GS308E 8-Port Easy Smart Managed Switch is aimed at buyers prioritizing 8 ports, up to 64 vlans, and at under $25 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $25 to $550, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
   { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Fortinet FortiSwitch 124F is aimed at buyers prioritizing 24 ge + 4 sfp+ ports, fanless. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
-  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "Omada ES210X-M2 8-Port 2.5G Easy Managed Switch is aimed at buyers prioritizing 8x 2.5g ports, omada managed." },
+  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "Omada ES210X-M2 8-Port 2.5G Easy Managed Switch is aimed at buyers prioritizing 8x 2.5g ports, omada managed." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-managed-network-switches","title":"8 Best Managed Network Switches in 2026"},{"href":"/guide/best-layer-3-network-switches","title":"3 Best Layer 3 Network Switches in 2026"},{"href":"/guide/best-2-5gbe-network-switches","title":"8 Best 2.5GbE Network Switches in 2026"}];

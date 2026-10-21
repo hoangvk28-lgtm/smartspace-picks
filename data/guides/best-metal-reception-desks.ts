@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $143.99",
+          "Under $150",
           "Tribesigns 55\" Industrial Executive Desk"
         ],
         [
-          "Around $169.99",
+          "Under $170",
           "Tribesigns Reception Desk with Counter"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "AIEGLE L-Shaped Reception Desk Counter with Lockable Drawers"
         ],
         [
-          "Around $957.85",
+          "Under $1,000",
           "Global Industrial Pedestal Shop Desk with 4 Lockable Drawers"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Global Industrial Pedestal Shop Desk with 4 Lockable Drawers is aimed at buyers prioritizing 4 lockable drawers with cylinder lock + padlock hasp." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Global Industrial Pedestal Shop Desk with 4 Lockable Drawers is aimed at buyers prioritizing 4 lockable drawers with cylinder lock + padlock hasp." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-industrial-reception-desks","title":"4 Best Industrial Reception Desks in 2026"},{"href":"/guide/best-black-reception-desks","title":"best-black-reception-desks"},{"href":"/guide/best-gray-reception-desks","title":"best-gray-reception-desks"}];

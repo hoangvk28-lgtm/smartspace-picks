@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "biometric small safes";
 export const introParagraphs = [
   "We need to be direct here: of the confirmed candidates in our research pool, only 4 use genuine fingerprint scanning. The rest are keypad-only safes that don't offer biometric access at all, and one original candidate ASIN was not accessible through the product catalog. We're presenting the 4 true biometric picks first, with the non-biometric alternatives disclosed honestly afterward.",
-  "For the true biometric picks, we compared fingerprint capacity, recognition speed, and backup access method, since a fingerprint scanner is only as reliable as its fallback when the scanner fails or a fingerprint won't read.",
+  "For the true biometric picks, we compared fingerprint capacity, recognition speed, and backup access method, since a fingerprint scanner is only as reliable as its fallback when the scanner fails or a fingerprint won't read."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -131,7 +131,7 @@ export const products: GuideProduct[] = [
     pros: ["Lowest price in this entire comparison"],
     cons: ["No fingerprint access at all, despite appearing in biometric search results"],
     bestFor: "Budget-conscious buyers accepting keypad-only access instead of fingerprint.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified genuine fingerprint scanning before ranking as biometric", description: "Only 4 of our 7 confirmed candidates actually offer fingerprint access. We labeled the other 3 honestly as keypad-only rather than implying biometric capability they don't have." },
   { title: "Compared fingerprint capacity and recognition speed across the true biometric picks", description: "All 4 genuine biometric picks confirm up to 30 stored fingerprints with 0.3-second recognition, a consistent spec we verified directly rather than assuming." },
   { title: "Audited backup access method for when the fingerprint scanner fails", description: "We checked whether each biometric pick offers a documented PIN, key, or power backup, since a scanner alone with no fallback risks a full lockout." },
-  { title: "Excluded the inaccessible ASIN rather than fabricating its data", description: "One original candidate ASIN returned ItemNotAccessible from the product catalog API at research time. We excluded it and disclosed the gap rather than guessing." },
+  { title: "Excluded the inaccessible ASIN rather than fabricating its data", description: "One original candidate ASIN returned ItemNotAccessible from the product catalog API at research time. We excluded it and disclosed the gap rather than guessing." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -247,7 +247,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review count and rating together, not rating alone",
-    "explanation": "A 4.8-star rating from 12 reviews carries far less evaluation confidence than a 4.5-star rating from several thousand, since a small sample can be skewed by a handful of early, enthusiastic buyers before any long-term reliability issues would show up in later reviews.\n\nThis matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
+    "explanation": "This matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
   }
 ];
 
@@ -256,11 +256,11 @@ export const faq: FaqItem[] = [
   { q: "What's the best overall true biometric safe?", a: "The Grimtron 20LB Biometric Safe, with the fastest confirmed recognition speed and the most layered access methods." },
   { q: "Is there a biometric safe specifically for jewelry?", a: "Yes, both the VALINIRT Jewelry Safe and the Jewelry Safe for Home with Drawers offer dedicated jewelry organization alongside fingerprint access." },
   { q: "Is there a biometric option that's also rated for a firearm?", a: "Yes, the Jewelry Safe for Home with Drawers is explicitly dual-rated as both a jewelry safe and a gun safe for pistols." },
-  { q: "What happens if the fingerprint scanner fails or doesn't recognize my print?", a: "All 4 true biometric picks confirm a backup PIN or key. Check the specific backup method for your chosen pick before relying on fingerprint access alone." },
+  { q: "What happens if the fingerprint scanner fails or doesn't recognize my print?", a: "All 4 true biometric picks confirm a backup PIN or key. Check the specific backup method for your chosen pick before relying on fingerprint access alone." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-fingerprint-small-safes", title: "Best Fingerprint Small Safes (2026)" },
   { href: "/guide/best-small-jewelry-safes", title: "Best Small Jewelry Safes (2026)" },
-  { href: "/guide/best-small-safes-with-keypads", title: "Best Small Safes With Keypads (2026)" },
+  { href: "/guide/best-small-safes-with-keypads", title: "Best Small Safes With Keypads (2026)" }
 ];

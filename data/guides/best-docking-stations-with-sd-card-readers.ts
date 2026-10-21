@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "docking station sd card reader";
 export const introParagraphs = [
   "A docking station's built-in SD card reader looks like a convenience feature until you realize almost all of them top out at UHS-I speeds, typically 80 to 90 MB/s in real-world transfers, while modern UHS-II cards are rated for 200 to 280 MB/s. That gap matters a lot if you're a photographer or videographer offloading large card libraries regularly rather than the occasional phone photo backup.",
-  "Below are 8 docking stations with SD card readers we evaluated on card reader speed class, port count, display support, and power delivery, so you can match the right dock to how often and how fast you actually need to move files off a card.",
+  "Below are 8 docking stations with SD card readers we evaluated on card reader speed class, port count, display support, and power delivery, so you can match the right dock to how often and how fast you actually need to move files off a card."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Dual HDMI, 4K support",
       "1 Gbps Ethernet",
       "85W Power Delivery",
-      "UHS-I SD card reader",
+      "UHS-I SD card reader"
     ],
     pros: [
       "Lowest price in this list",
       "Dual HDMI for a 2-monitor setup",
       "85W PD keeps most laptops charged",
-      "Compact enough for a small desk",
+      "Compact enough for a small desk"
     ],
     cons: [
       "UHS-I reader speed only, a bottleneck for UHS-II cards",
       "No dedicated microSD slot",
-      "Basic port selection compared to pricier docks",
+      "Basic port selection compared to pricier docks"
     ],
     bestFor: "Occasional SD card use on a tight budget",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "100W charging, driverless",
       "4K dual HDMI or single 6K display",
       "6x USB ports, Ethernet",
-      "Built-in SD card reader",
+      "Built-in SD card reader"
     ],
     pros: [
       "Thunderbolt certified for reliable Mac compatibility",
       "100W charging covers even power-hungry MacBook Pro models",
       "Flexible display output, dual 4K or single 6K",
-      "Driverless setup on Mac",
+      "Driverless setup on Mac"
     ],
     cons: [
       "SD reader speed doesn't scale with the Thunderbolt upstream connection",
       "Pricier than USB-C-only alternatives with similar reader speed",
-      "Best value is Mac-specific",
+      "Best value is Mac-specific"
     ],
     bestFor: "MacBook owners who want Thunderbolt reliability with a built-in card slot",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Dual 4K@60Hz or single 8K display",
       "90W charging",
       "2.5 Gigabit Ethernet",
-      "SD/TF 4.0 card reader",
+      "SD/TF 4.0 card reader"
     ],
     pros: [
       "SD/TF 4.0 reader spec is faster than typical UHS-I docks",
       "2.5GbE networking outpaces most competing docks",
       "High-end display flexibility with 8K single-monitor support",
-      "90W charging for demanding laptops",
+      "90W charging for demanding laptops"
     ],
     cons: [
       "Highest price in this list",
       "2.5GbE only helps if your network hardware also supports it",
-      "Overkill for occasional, light SD card use",
+      "Overkill for occasional, light SD card use"
     ],
     bestFor: "Photographers and video editors who need genuinely fast card transfers, not just convenience",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Triple display (2 HDMI + 1 DP)",
       "10Gbps USB-C, 5Gbps USB-A",
       "85W charging",
-      "UHS-I SD card reader",
+      "UHS-I SD card reader"
     ],
     pros: [
       "Genuine triple-display support, more than most SD-reader docks",
       "Fast 10Gbps USB-C data port for external SSDs",
       "85W charging",
-      "Reasonable price for the port count",
+      "Reasonable price for the port count"
     ],
     cons: [
       "SD reader is UHS-I convenience speed, not built for fast card libraries",
       "No microSD-specific slot",
-      "Triple display needs a compatible laptop GPU/driver setup",
+      "Triple display needs a compatible laptop GPU/driver setup"
     ],
     bestFor: "Buyers who want triple monitors first and treat the SD reader as a bonus",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Dual HDMI 4K + DisplayPort",
       "100W PD passthrough charging",
       "4 USB + 2 USB-C ports, Ethernet",
-      "SD and TF (microSD) card slots",
+      "SD and TF (microSD) card slots"
     ],
     pros: [
       "Covers both SD and microSD in one dock",
       "Very competitive price for the port count",
       "100W PD passthrough charging",
-      "Broad laptop brand compatibility",
+      "Broad laptop brand compatibility"
     ],
     cons: [
       "UHS-I speed ceiling on both card slots",
       "Generic build quality compared to name-brand docks",
-      "No Thunderbolt option at this price tier",
+      "No Thunderbolt option at this price tier"
     ],
     bestFor: "Budget buyers who want both SD and microSD slots without paying more",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Dual HDMI 4K or single 8K",
       "100W Power Delivery",
       "Gigabit Ethernet",
-      "SD/TF 3.0 card reader",
+      "SD/TF 3.0 card reader"
     ],
     pros: [
       "Very compact footprint",
       "Lowest price among UGREEN's SD-reader docks in this list",
       "100W PD",
-      "Flexible display output options",
+      "Flexible display output options"
     ],
     cons: [
       "Real-world card speed lands closer to UHS-I than true UHS-II",
       "Small size means fewer total ports than larger docks",
-      "USB-A/C data ports are 5Gbps, not 10Gbps",
+      "USB-A/C data ports are 5Gbps, not 10Gbps"
     ],
     bestFor: "Buyers who want a small footprint dock without giving up a card reader",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Smart display (weather, system info)",
       "100W PD",
       "10Gbps USB A/C",
-      "SD/microSD card reader",
+      "SD/microSD card reader"
     ],
     pros: [
       "Unusual smart display extra for at-a-glance info",
       "Genuine triple 4K display support",
       "10Gbps data ports for fast external drives",
-      "Covers both SD and microSD formats",
+      "Covers both SD and microSD formats"
     ],
     cons: [
       "Card reader speed is standard, not the dock's strongest feature",
       "Smart display is a novelty some buyers won't use",
-      "Mid-range price higher than basic dual-HDMI docks",
+      "Mid-range price higher than basic dual-HDMI docks"
     ],
     bestFor: "Buyers who want triple displays and a smart glance-info display alongside a card slot",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Smart display",
       "10G USB A/C",
       "100W PD, Gigabit Ethernet",
-      "SD/TF card reader",
+      "SD/TF card reader"
     ],
     pros: [
       "Broad cross-brand laptop compatibility",
       "Triple display plus smart display extra",
       "10G data ports",
-      "Covers both SD and TF card formats",
+      "Covers both SD and TF card formats"
     ],
     cons: [
       "Slightly pricier than the comparable Selore pick",
       "Standard-speed card reader, not UHS-II class",
-      "Smart display feature overlaps closely with a competing pick",
+      "Smart display feature overlaps closely with a competing pick"
     ],
     bestFor: "Buyers who want the broadest brand compatibility in a triple-display dock with a card slot",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for stated speed claims",
     description: "Weighed price against actual delivered card reader performance rather than marketing terms like '4.0' or '3.0' that don't always map directly to UHS speed classes.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -481,11 +481,11 @@ export const faq: FaqItem[] = [
   {
     q: "Will a UHS-II rated card actually run at UHS-II speed in a dock's SD slot?",
     a: "Only if the dock's reader itself supports UHS-II. A high-speed-rated card is limited by the slowest link in the chain, so a UHS-II card in a UHS-I dock reader will perform at UHS-I speeds. Check the dock's actual reader spec, not just your card's rating, before expecting faster transfers.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-displaylink-docking-stations", title: "Best DisplayLink Docking Stations (2026)" },
   { href: "/guide/best-triple-monitor-docking-stations", title: "Best Triple-Monitor Docking Stations (2026)" },
-  { href: "/guide/best-thunderbolt-4-docking-stations", title: "Best Thunderbolt 4 Docking Stations (2026)" },
+  { href: "/guide/best-thunderbolt-4-docking-stations", title: "Best Thunderbolt 4 Docking Stations (2026)" }
 ];

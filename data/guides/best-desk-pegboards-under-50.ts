@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Steel construction with standard accessory compatibility", "Daanxw Peg Board Kit, Metal Pegboard"],
         ["The largest panels with the widest accessory variety", "MULSAME Pegboard Combination Kit, 25.2\" x 25.2\""],
         ["A gaming-oriented accessory set that's still versatile", "Zestify Pegboard Wall Organizer Kit"],
-        ["Steel clamp-on mounting without wall access", "PEGZONE Clamp on Desk Pegboard"],
+        ["Steel clamp-on mounting without wall access", "PEGZONE Clamp on Desk Pegboard"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $39", "Zestify ($38.99)"],
-        ["Under $40", "MULSAME ($39.99) or PEGZONE ($39.99)"],
-        ["Under $48", "Daanxw Metal ($47.99)"],
+        ["Under $39", "Zestify (under $40)"],
+        ["Under $40", "MULSAME (under $40) or PEGZONE (under $40)"],
+        ["Under $48", "Daanxw Metal (under $50)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Steel vs Plastic Panel Construction",
     cards: [
       { label: "Steel (Daanxw, PEGZONE)", text: "Powder-coated for scratch resistance and long-term durability, better suited to heavier items and years of daily use." },
-      { label: "ABS/HIPS plastic (MULSAME, Zestify)", text: "Lighter weight and often includes more accessories at a similar price, suited to lighter everyday items." },
+      { label: "ABS/HIPS plastic (MULSAME, Zestify)", text: "Lighter weight and often includes more accessories at a similar price, suited to lighter everyday items." }
     ],
     note: "If you're storing heavier tools or expect years of heavy daily use, steel construction like the Daanxw pick offers more durability. For lighter items with a bigger accessory variety, the plastic kits deliver strong value.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["A full wall, scalable up to 72x12 inches", "Daanxw Metal Pegboard"],
         ["A large single combination area at 25.2x25.2 inches", "MULSAME Combination Kit"],
-        ["A moderate desk-corner setup", "PEGZONE Clamp On"],
+        ["A moderate desk-corner setup", "PEGZONE Clamp On"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For an Entire Wall Organization Project Specifically",
     cards: [
       { label: "Look for", text: "Panels specifically designed to combine into larger configurations, with standard hole spacing for accessory compatibility." },
-      { label: "In this comparison", text: "The Daanxw Metal Pegboard's scalable design up to 72x12 inches is specifically built for larger wall organization projects." },
+      { label: "In this comparison", text: "The Daanxw Metal Pegboard's scalable design up to 72x12 inches is specifically built for larger wall organization projects." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want steel construction and standard accessory compatibility for a scalable pegboard wall, where the Daanxw pick leads this comparison on durability and expandability." },
-      { label: "Save if", text: "You want a large combination kit with a wide accessory variety without needing steel construction, where the MULSAME pick delivers that for about $8 less." },
+      { label: "Save if", text: "You want a large combination kit with a wide accessory variety without needing steel construction, where the MULSAME pick delivers that for about $8 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

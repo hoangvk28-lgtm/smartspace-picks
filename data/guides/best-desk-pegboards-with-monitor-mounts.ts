@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desk pegboard with monitor mount";
 export const introParagraphs = [
   "Combining a monitor arm's leverage load with a pegboard's own hook-accessory load asks meaningfully more of the panel's rigidity than hooks alone, worth checking that a board's frame and mount are actually built to handle both loads together rather than assuming a pegboard rated for hooks automatically handles a monitor arm too. This hybrid design also commands a real price premium over buying separately, worth comparing the bundled price against a standalone pegboard plus a separate monitor arm before assuming the combo is the better value.",
-  "If the monitor arm and the hanging hooks share the same mounting points or sit in adjacent board space, moving the arm to adjust your screen can interfere with nearby hung accessories, worth thinking through your actual desk layout before committing to a specific panel. It's also worth checking the arm's own VESA compatibility, 75x75 versus 100x100, against your specific monitor before assuming any built-in arm fits any screen.",
+  "If the monitor arm and the hanging hooks share the same mounting points or sit in adjacent board space, moving the arm to adjust your screen can interfere with nearby hung accessories, worth thinking through your actual desk layout before committing to a specific panel. It's also worth checking the arm's own VESA compatibility, 75x75 versus 100x100, against your specific monitor before assuming any built-in arm fits any screen."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Pegboard with Monitor Mounts",
     name: "EUREKA ERGONOMIC Desk Pegboard with Dual Monitor Stands, LED Metal Pegboard, 43 x 34 Inch, White",
     price: "$179.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "156 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31ll21hyHHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DYJR7JLB?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Wide Dual-Monitor Setups",
     name: "EUREKA ERGONOMIC Desk Pegboard Dual Monitor Stand 59x34 White",
     price: "$269.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "156 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41i2tZZC1xL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F3TN7G3F?tag=deskfinds0d-20",
     description:
@@ -60,14 +60,14 @@ export const products: GuideProduct[] = [
     badge: "Best Value Combined System",
     name: "VIVO Steel Triple Clamp Desk Pegboard System with 2 Monitor Mounts and Storage Shelf, 47 x 31 Inch, Black",
     price: "$169.99",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "14 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51v-7P2kqkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DVDSJPL5?tag=deskfinds0d-20",
     description:
       "A triple-clamp steel system bundling two monitor mounts, a storage shelf, and pegboard hooks together, appropriate for buyers wanting the most included features for a moderate price relative to the other integrated options.\n\nThe monitor mounts here fit screens up to 32 inches, worth checking this covers your specific monitor size and VESA pattern, and the triple clamp gives real rigidity for the combined arm, shelf, and hook load.\n\nWorth calling out specifically: triple clamp gives real rigidity for the combined load. The catch is small review count so far.",
     specs: ["47 x 31 inch steel panel", "2 monitor mounts, fits up to 32 inch screens", "Storage shelf included", "Triple clamp mount"],
-    pros: ["Bundles monitor mounts, shelf, and hooks at a moderate price", "Triple clamp gives real rigidity for the combined load", "Fits screens up to 32 inches on the included mounts", "Strong 4.7-star rating"],
+    pros: ["Bundles monitor mounts, shelf, and hooks at a moderate price", "Triple clamp gives real rigidity for the combined load", "Fits screens up to 32 inches on the included mounts"],
     cons: ["Small review count so far", "Shared board space between shelf and mounts may limit hook placement", "Verify VESA pattern compatibility before ordering"],
     bestFor: "Buyers wanting the most bundled features, monitor mounts plus a shelf plus hooks, at a moderate price.",
   },
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Add-On Monitor Mount for an Existing Pegboard",
     name: "VIVO Articulating Single Monitor Pegboard Mount, Fits Pegboards up to 0.25 Inches Thick, Black",
     price: "$27.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "134 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41KnBv2BIKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLWM7K88?tag=deskfinds0d-20",
     description:
@@ -87,7 +87,7 @@ export const products: GuideProduct[] = [
     pros: ["Meaningfully cheaper than an all-in-one combined system if you already own a pegboard", "Fits a wide range of screen sizes up to 32 inches", "Large, well-established review base", "Articulating arm gives real positioning flexibility"],
     cons: ["Only compatible with boards using standard 1-inch hole spacing", "Your existing pegboard's rigidity may not be rated for combined arm and hook loads", "Single monitor only, not a dual setup"],
     bestFor: "Buyers who already own a rigid, standard-spacing pegboard and want the cheapest path to add a monitor arm.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -95,7 +95,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Combined-load rigidity verified", description: "Checked whether each board's frame and mount construction is built to handle a monitor arm's leverage together with hook-accessory weight, not hooks alone." },
   { title: "Price premium weighed against buying separately", description: "Compared each combined system's price against a standalone pegboard plus a separate monitor arm to assess whether the bundle is genuinely better value." },
   { title: "Arm-and-hook interference in shared board space", description: "Considered whether the monitor arm and hanging hooks share mounting points or adjacent space, which could cause the arm to interfere with nearby accessories." },
-  { title: "VESA compatibility disclosed clearly", description: "Verified each built-in or add-on arm's VESA pattern, 75x75 or 100x100, against common monitor compatibility rather than assuming universal fit." },
+  { title: "VESA compatibility disclosed clearly", description: "Verified each built-in or add-on arm's VESA pattern, 75x75 or 100x100, against common monitor compatibility rather than assuming universal fit." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -226,11 +226,11 @@ export const faq: FaqItem[] = [
   { q: "Is a pegboard with a monitor mount worth it over buying separately?", a: "It depends, combined systems carry a real price premium, compare the bundle cost against a standalone pegboard plus a separate arm, especially if you already own one of the two." },
   { q: "Can a pegboard's hooks interfere with the monitor arm?", a: "It can, if the arm and hooks share mounting points or adjacent board space, moving the arm to adjust your screen may bump nearby hung accessories, consider your layout before buying." },
   { q: "Does every monitor arm fit every monitor's VESA pattern?", a: "No, arms use either a 75x75 or 100x100 VESA pattern, verify this matches your specific monitor before assuming a built-in or add-on arm fits." },
-  { q: "Can I add a monitor arm to a pegboard I already own?", a: "Yes, as long as your board uses standard 1-inch hole spacing and its frame is rigid enough to handle the arm's leverage on top of your existing hook load." },
+  { q: "Can I add a monitor arm to a pegboard I already own?", a: "Yes, as long as your board uses standard 1-inch hole spacing and its frame is rigid enough to handle the arm's leverage on top of your existing hook load." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-pegboard-organizers", title: "Best Desk Pegboard Organizers (2026)" },
   { href: "/guide/best-desktop-pegboards", title: "Best Desktop Pegboards (2026)" },
-  { href: "/guide/best-desk-pegboards", title: "Best Desk Pegboards (2026)" },
+  { href: "/guide/best-desk-pegboards", title: "Best Desk Pegboards (2026)" }
 ];

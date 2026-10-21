@@ -12,7 +12,7 @@ export const hangingFolderVsManilaFolderGuide: Guide = {
     "do i need both hanging and manila folders",
     "filing system folder types",
     "manila folder inside hanging folder",
-    "organizing filing cabinet folders",
+    "organizing filing cabinet folders"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const hangingFolderVsManilaFolderGuide: Guide = {
     "filing-cabinet-vs-file-box",
     "rolling-file-cart-vs-stationary-cabinet",
     "label-maker-worth-it-explained",
-    "document-scanning-vs-physical-storage",
+    "document-scanning-vs-physical-storage"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const hangingFolderVsManilaFolderGuide: Guide = {
       question: "Does this two-folder system work the same in a portable file box as a filing cabinet?",
       answer:
         "Yes, the same hanging-folder-plus-manila-folder principle applies in file boxes designed to accommodate hanging folders, providing the same structural and organizational benefit in a smaller, more portable storage container.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const hangingFolderVsManilaFolderGuide: Guide = {
     {
       heading: "Why Two-Level Labeling Provides Genuinely Faster Document Retrieval",
       body: `Labeling only the hanging folder tells you which broad category to look in, but still requires flipping through potentially many documents within that category to find a specific item, adding a second label on each manila folder inside lets you narrow down to the specific sub-topic immediately upon opening the correct hanging folder, this two-level labeling system, category then sub-topic, mirrors how most people naturally think about finding a specific document, broadly first, then narrowing down, making the actual document retrieval process noticeably faster than a single-level filing approach.`,
-    },
+    }
   ],
 };

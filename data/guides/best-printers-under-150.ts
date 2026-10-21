@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "printers under $150";
 export const introParagraphs = [
   "At the $150 ceiling, you get real choice: full-featured inkjet all-in-ones with duplex printing and document feeders, a genuine monochrome laser, and enough room to think seriously about whether an ink-tank system's math works for your household or office before committing.",
-  "Below are 6 printers we evaluated at this price tier, all verified to genuinely fall under $150, ranked on true cost per page, feature completeness, and fit for different print volumes.",
+  "Below are 6 printers we evaluated at this price tier, all verified to genuinely fall under $150, ranked on true cost per page, feature completeness, and fit for different print volumes."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "9 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Print only, no scan or copy",
       "Wireless and mobile printing",
       "Works with Alexa",
-      "Compact footprint",
+      "Compact footprint"
     ],
     pros: [
       "Lowest cost per page for text-heavy printing in this list",
       "Toner doesn't dry out during slow weeks",
       "Compact for a laser printer",
-      "Reliable wireless setup",
+      "Reliable wireless setup"
     ],
     cons: [
       "No scan or copy functions",
       "No color output",
-      "Higher upfront cost than the inkjets in this list",
+      "Higher upfront cost than the inkjets in this list"
     ],
     bestFor: "Home offices printing mostly black-and-white text documents",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Print only",
       "Wireless connectivity",
       "Compact footprint",
-      "1-year limited warranty",
+      "1-year limited warranty"
     ],
     pros: [
       "Lowest price laser option in this list",
       "Low true cost per page for text printing",
       "Compact footprint",
-      "Fast for monochrome text output",
+      "Fast for monochrome text output"
     ],
     cons: [
       "No scan or copy",
       "No color",
-      "Fewer connectivity options than the pricier Brother laser",
+      "Fewer connectivity options than the pricier Brother laser"
     ],
     bestFor: "Budget-conscious buyers who want laser economics without the higher Brother price",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Automatic duplex printing",
       "1.42-inch OLED display",
       "Intuitive control panel",
-      "Compact design",
+      "Compact design"
     ],
     pros: [
       "Clearest display and controls in this list",
       "Duplex printing included",
       "Full print, scan, copy function set",
-      "Comfortably under budget",
+      "Comfortably under budget"
     ],
     cons: [
       "Combined color cartridge design",
       "No fax or document feeder",
-      "Cartridge cost rises with heavy printing",
+      "Cartridge cost rises with heavy printing"
     ],
     bestFor: "Home users who want the easiest day-to-day control panel experience",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Automatic document feeder (ADF)",
       "Mobile printing support",
       "Wireless connectivity",
-      "Compact design",
+      "Compact design"
     ],
     pros: [
       "Includes ADF and fax at a low price point",
       "Full document workflow support",
       "Wireless and mobile printing",
-      "Leaves budget room under the $150 ceiling",
+      "Leaves budget room under the $150 ceiling"
     ],
     cons: [
       "Combined color cartridge design",
       "No automatic duplex printing",
-      "Entry-tier build quality",
+      "Entry-tier build quality"
     ],
     bestFor: "Home offices needing fax and document feeding without spending near the full budget",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "3-month Instant Ink trial included",
       "Wireless printing",
       "Compact footprint",
-      "AI-capable printing features",
+      "AI-capable printing features"
     ],
     pros: [
       "Lowest price in this list",
       "Instant Ink trial offsets early ink cost",
       "Simple wireless setup",
-      "Frees up budget for accessories or paper",
+      "Frees up budget for accessories or paper"
     ],
     cons: [
       "Combined color cartridge design",
       "No automatic duplex printing",
-      "Best suited to light, occasional printing",
+      "Best suited to light, occasional printing"
     ],
     bestFor: "Light home printing where saving budget matters most",
   },
@@ -217,21 +217,21 @@ export const products: GuideProduct[] = [
       "Automatic duplex (2-sided) printing",
       "Wireless printing",
       "Compact design",
-      "Easy setup process",
+      "Easy setup process"
     ],
     pros: [
       "Automatic duplex printing at the lowest price in this list",
       "Full print, scan, copy function set",
       "Simple setup",
-      "1-year limited warranty included",
+      "1-year limited warranty included"
     ],
     cons: [
       "Combined color cartridge design",
       "No automatic document feeder",
-      "Entry-tier build quality",
+      "Entry-tier build quality"
     ],
     bestFor: "Buyers who want duplex printing while spending the least under $150",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -259,7 +259,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Budget headroom for different needs",
     description: "Considered how much of the ceiling each pick actually uses, since a pick leaves more room to spend on paper, ink, or accessories than a one.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -409,12 +409,12 @@ export const faq: FaqItem[] = [
   {
     q: "Do all printers under $150 include duplex printing?",
     a: "No. In this list, only the Canon PIXMA TS4320 and TS6520 include automatic duplex printing. Check the spec sheet directly rather than assuming it's standard once you're spending near $150.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-under-100", title: "Best Printers Under $100 (2026)" },
   { href: "/guide/best-printers-under-200", title: "Best Printers Under $200 (2026)" },
   { href: "/guide/best-budget-laser-printers", title: "Best Budget Laser Printers (2026)" },
-  { href: "/guide/best-printers-for-home-offices", title: "Best Printers for Home Offices (2026)" },
+  { href: "/guide/best-printers-for-home-offices", title: "Best Printers for Home Offices (2026)" }
 ];

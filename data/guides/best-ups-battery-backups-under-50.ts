@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The longest backup runtime available", "VISLONE Mini UPS Battery Backup, 13500mAh"],
         ["Multiple simultaneous output ports at different voltages", "Mini UPS Battery Backup for Router, 6000mAh"],
         ["A purpose-built connector for 12V outdoor cameras", "DC 12V-2A Mini UPS Battery Backup, 6000mAh"],
-        ["The lowest price to try mini UPS backup", "fosa USB 2A Uninterruptible Power Supply, 2600mAh"],
+        ["The lowest price to try mini UPS backup", "fosa USB 2A Uninterruptible Power Supply, 2600mAh"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $18", "fosa ($17.69) or DC 12V-2A ($17.99)"],
-        ["Under $28", "Mini UPS for Router, 6000mAh ($27.99)"],
-        ["Under $32", "VISLONE 13500mAh ($31.99)"],
+        ["Under $18", "fosa (under $20) or DC 12V-2A (under $20)"],
+        ["Under $28", "Mini UPS for Router, 6000mAh (under $30)"],
+        ["Under $32", "VISLONE 13500mAh (under $35)"]
       ],
     },
   },
@@ -130,7 +130,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Maximum runtime for extended outages", "VISLONE (13500mAh)"],
         ["Moderate runtime with multiple output ports", "Mini UPS for Router (6000mAh)"],
-        ["Basic short-outage coverage", "fosa (2600mAh) or DC 12V-2A (6000mAh)"],
+        ["Basic short-outage coverage", "fosa (2600mAh) or DC 12V-2A (6000mAh)"]
       ],
     },
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Multi-Voltage Output vs Single-Purpose Design",
     cards: [
       { label: "Multi-voltage (VISLONE, Mini UPS for Router)", text: "Supports 5V, 9V, and 12V devices from one unit, useful if you have multiple different devices to back up." },
-      { label: "Single-purpose 12V (DC 12V-2A)", text: "Matches one specific device type, like outdoor cameras, with a purpose-built connector, but less flexible for other devices." },
+      { label: "Single-purpose 12V (DC 12V-2A)", text: "Matches one specific device type, like outdoor cameras, with a purpose-built connector, but less flexible for other devices." }
     ],
     note: "If you're backing up just one specific 12V camera, the purpose-built connector on the DC 12V-2A pick may fit more precisely. For mixed devices, a multi-voltage pick offers more flexibility.",
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Home Security Camera System Specifically",
     cards: [
       { label: "Look for", text: "A mini UPS with a connector size matching your camera's specific power interface, not just a generic USB output." },
-      { label: "In this comparison", text: "The DC 12V-2A pick's 5mm/2.1mm interface is specifically sized for common outdoor camera connectors." },
+      { label: "In this comparison", text: "The DC 12V-2A pick's 5mm/2.1mm interface is specifically sized for common outdoor camera connectors." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the longest possible runtime during an outage, where the VISLONE's 13500mAh capacity significantly exceeds the budget picks in this comparison." },
-      { label: "Save if", text: "You just need basic short-outage coverage for one small device, where the fosa or DC 12V-2A picks cover that for under $18." },
+      { label: "Save if", text: "You just need basic short-outage coverage for one small device, where the fosa or DC 12V-2A picks cover that for under $18." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

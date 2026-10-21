@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Maximum capacity with USB charging and warranty", "CyberPower SL700U Standby UPS"],
         ["Concrete runtime figures and the most outlets", "Eaton Tripp Lite INTERNET550U"],
         ["USB charging with a matching warranty at a lower price", "CyberPower ST625U Standby UPS"],
-        ["A UPS purpose-built for computer and router protection", "APC BE600M1 UPS Battery Backup"],
+        ["A UPS purpose-built for computer and router protection", "APC BE600M1 UPS Battery Backup"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $79", "Eaton Tripp Lite INTERNET550U ($78.95)"],
-        ["Under $80", "CyberPower ST625U ($79.95)"],
-        ["Under $84", "APC BE600M1 ($83.99)"],
-        ["Under $90", "CyberPower SL700U ($89.95)"],
+        ["Under $79", "Eaton Tripp Lite INTERNET550U (under $80)"],
+        ["Under $80", "CyberPower ST625U (under $80)"],
+        ["Under $84", "APC BE600M1 (under $90)"],
+        ["Under $90", "CyberPower SL700U (under $90)"]
       ],
     },
   },
@@ -132,7 +132,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Highest capacity for demanding setups", "CyberPower SL700U (700VA)"],
         ["Moderate capacity with USB charging", "CyberPower ST625U (625VA)"],
         ["Computer and router specific sizing", "APC BE600M1 (600VA)"],
-        ["Detailed runtime transparency", "Eaton Tripp Lite INTERNET550U (550VA)"],
+        ["Detailed runtime transparency", "Eaton Tripp Lite INTERNET550U (550VA)"]
       ],
     },
   },
@@ -140,7 +140,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "USB Charging vs Maximum Outlet Count",
     cards: [
       { label: "USB charging (SL700U, ST625U)", text: "Adds convenient device charging directly from the UPS, useful for keeping a phone charged during setup or an outage." },
-      { label: "Maximum outlet count (INTERNET550U)", text: "Prioritizes 10 total outlets over USB ports, better if you have many AC devices to connect rather than needing USB charging." },
+      { label: "Maximum outlet count (INTERNET550U)", text: "Prioritizes 10 total outlets over USB ports, better if you have many AC devices to connect rather than needing USB charging." }
     ],
     note: "If you want to charge a phone or tablet directly from the UPS, prioritize a pick with USB ports. If you need to connect many separate AC devices, the INTERNET550U's 10 outlets offer more total connections.",
   },
@@ -148,16 +148,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Home Office With Both a Computer and a Phone to Keep Charged Specifically",
     cards: [
       { label: "Look for", text: "A UPS with both battery-backup AC outlets and a USB port that continues functioning during an actual power outage." },
-      { label: "In this comparison", text: "The APC BE600M1's built-in 1.5A USB port specifically continues working during outages, keeping a phone charged alongside the computer." },
+      { label: "In this comparison", text: "The APC BE600M1's built-in 1.5A USB port specifically continues working during outages, keeping a phone charged alongside the computer." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the highest capacity with the strongest USB charging and warranty combination, where the CyberPower SL700U delivers the most complete package in this comparison." },
-      { label: "Save if", text: "You want USB charging with the same $100,000 warranty tier at a lower price, where the CyberPower ST625U covers that for about $10 less." },
+      { label: "Save if", text: "You want USB charging with the same $100,000 warranty tier at a lower price, where the CyberPower ST625U covers that for about $10 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

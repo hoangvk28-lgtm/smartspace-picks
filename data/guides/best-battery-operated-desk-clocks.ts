@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "battery operated desk clock";
 export const introParagraphs = [
   "A battery operated desk clock can sit anywhere on your desk without needing a nearby outlet, a real placement advantage over corded digital clocks. We checked each pick below against its listing to confirm genuine battery power rather than assuming, since several desk clocks in our broader research are actually corded and easy to mistake for battery models at a glance.",
-  "This list spans flip clocks, analog clocks, and battery powered digital displays, all confirmed cordless. If you specifically want a corded digital clock with more display features instead, see our digital desk clocks guide, which covers both power types.",
+  "This list spans flip clocks, analog clocks, and battery powered digital displays, all confirmed cordless. If you specifically want a corded digital clock with more display features instead, see our digital desk clocks guide, which covers both power types."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "9 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified battery power source from listing details for every pick", description: "Confirmed each product's listing explicitly states battery operation rather than assuming, since several similar-looking digital clocks in our broader research are actually corded." },
   { title: "Excluded corded models entirely, even well-reviewed ones", description: "Kept any confirmed corded digital clock out of this list regardless of its other features, to avoid misleading buyers specifically seeking cordless placement flexibility." },
   { title: "Compared decorative scale against confirmed cordless convenience", description: "Included both compact and larger statement-piece clocks to show that battery power doesn't limit you to small or purely functional designs." },
-  { title: "Checked silent versus standard movement across the confirmed cordless pool", description: "Noted noise level for each battery powered pick, since cordless placement often means the clock sits closer to where you work." },
+  { title: "Checked silent versus standard movement across the confirmed cordless pool", description: "Noted noise level for each battery powered pick, since cordless placement often means the clock sits closer to where you work." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -294,11 +294,11 @@ export const faq: FaqItem[] = [
   { q: "How do I know if a desk clock is really battery operated?", a: "Check the listing explicitly states battery operated or battery powered. Some clocks that look similar in photos are actually corded, don't assume from appearance alone." },
   { q: "Are flip clocks always battery powered?", a: "The flip clocks in this guide are confirmed battery powered, but always check the specific listing since power source can vary by model." },
   { q: "Can I get a battery powered digital clock with extra features?", a: "Yes, the WallarGe pick in this guide is confirmed battery powered and includes date, temperature, and humidity display alongside the time." },
-  { q: "What's the best battery clock for moving between rooms?", a: "The Peakeep Travel Alarm Clock is the most genuinely portable confirmed battery pick in this guide, designed specifically for travel and relocation." },
+  { q: "What's the best battery clock for moving between rooms?", a: "The Peakeep Travel Alarm Clock is the most genuinely portable confirmed battery pick in this guide, designed specifically for travel and relocation." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-desk-clocks", title: "Best Digital Desk Clocks (2026)" },
   { href: "/guide/best-flip-desk-clocks", title: "Best Flip Desk Clocks (2026)" },
-  { href: "/guide/best-desk-clocks", title: "Best Desk Clocks (2026)" },
+  { href: "/guide/best-desk-clocks", title: "Best Desk Clocks (2026)" }
 ];

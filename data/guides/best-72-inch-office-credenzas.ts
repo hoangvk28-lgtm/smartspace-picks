@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $240.00",
+          "Under $250",
           "HON HONLCS7224LS1 72 in. Shell Credenza Slate Teak"
         ],
         [
-          "Around $286.56",
+          "Under $300",
           "Alera Valencia Series 72 by 24 by 29-1/2-Inch Credenza Shell"
         ],
         [
-          "Around $289.99",
+          "Under $300",
           "71\" Large Sideboard Buffet Cabinet with 3 Drawers and 6 Barn Doors"
         ],
         [
-          "Around $315.00",
+          "Under $350",
           "HON HONLCS7224LT1 72 in. Shell Credenza Mahogany"
         ],
         [
-          "Around $328.41",
+          "Under $350",
           "71\" Large Buffet Cabinet with 6 Soft-Close Doors and 2 Sliding Drawers"
         ],
         [
-          "Around $329.99",
+          "Under $350",
           "71\" Large Sideboard Buffet Cabinet with 6 Barn Doors and 2 Drawers"
         ],
         [
-          "Around $359.99",
+          "Under $400",
           "72\" Modern Sideboard Buffet Cabinet with Vertical Grooved Doors"
         ],
         [
-          "Around $1,329.48",
+          "Under $1,400",
           "Hon Credenza with Knee Space"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "HON HONLCS7224LT1 72 in. Shell Credenza Mahogany is aimed at buyers prioritizing 72in wide shell, mahogany finish." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "HON HONLCS7224LT1 72 in. Shell Credenza Mahogany is aimed at buyers prioritizing 72in wide shell, mahogany finish." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-60-inch-office-credenzas","title":"Best 60-Inch Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"}];

@@ -61,7 +61,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B08JS45B89?tag=deskfinds0d-20",
     description: "This adapter's listing specifically solves a different problem than a straight-line distance extender: running two IP cameras mounted near each other back to a switch or NVR over a single cable run, cutting cabling costs specifically for a two-camera corner installation. Its Splitter Unit comes with weatherproof RJ45 connectors and a full IP68 rating for direct exposure to rain, sleet, snow, and sun.\n\nCompared to the LINOVISION and coax picks above, this one's specifically stated compatibility with both Mode A and Mode B PoE, working across all standard PoE switches, NVRs, and cameras, gives it the broadest documented compatibility in this comparison at the lowest price.\n\nBest for buyers who need to run two nearby cameras over a single cable rather than extending distance to one camera.",
     specs: ["Combines 2 cameras onto 1 cable run, IP68 splitter", "Mode A and Mode B PoE compatible", "Works with all standard 802.3af/at switches and NVRs"],
-    pros: ["Lowest price in this comparison at $19.99", "Broadest documented compatibility across Mode A and B PoE", "IP68-rated splitter can be fully exposed to weather"],
+    pros: ["Lowest price in this comparison at under $20", "Broadest documented compatibility across Mode A and B PoE", "IP68-rated splitter can be fully exposed to weather"],
     cons: ["Solves a different problem (combining 2 cameras) rather than extending distance", "Not designed for a single camera mounted far from the switch"],
     bestFor: "buyers who need to run two nearby cameras over a single cable rather than extending distance",
   },
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["A single camera very far from your switch", "LINOVISION Long Distance Outdoor PoE Extender"],
         ["Upgrading an existing analog CCTV system to IP", "PoE Over Coax Converter BNC to Ethernet (EOC)"],
         ["Two cameras mounted near each other, far from the switch", "IPCamPower POE Combiner Splitter Adapter"],
-        ["Need full Gigabit speed without a distance tradeoff", "Gigabit PoE+ Extender Outdoor IP67 Waterproof"],
+        ["Need full Gigabit speed without a distance tradeoff", "Gigabit PoE+ Extender Outdoor IP67 Waterproof"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $20", "IPCamPower POE Combiner Splitter Adapter ($19.99)"],
-        ["Under $66", "Gigabit PoE+ Extender Outdoor IP67 ($65.99)"],
-        ["Under $80", "PoE Over Coax Converter EOC ($79.11)"],
-        ["Under $90", "LINOVISION Long Distance Extender ($89.99)"],
+        ["Under $20", "IPCamPower POE Combiner Splitter Adapter (under $20)"],
+        ["Under $66", "Gigabit PoE+ Extender Outdoor IP67 (under $70)"],
+        ["Under $80", "PoE Over Coax Converter EOC (under $80)"],
+        ["Under $90", "LINOVISION Long Distance Extender (under $90)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Maximum Distance vs Full Gigabit Speed",
     cards: [
       { label: "Maximum distance (LINOVISION)", text: "Reaches up to 2600ft in paired mode, but bandwidth drops to just 10Mbps past 1960ft, a real tradeoff for cameras with modest bandwidth needs at extreme distance." },
-      { label: "Full Gigabit speed (Gigabit PoE+ Extender)", text: "Maintains full 1000Mbps bandwidth over a shorter 330ft range, better suited to high-resolution cameras that need their full bitrate preserved." },
+      { label: "Full Gigabit speed (Gigabit PoE+ Extender)", text: "Maintains full 1000Mbps bandwidth over a shorter 330ft range, better suited to high-resolution cameras that need their full bitrate preserved." }
     ],
     note: "If your camera is extremely far away and doesn't need high bitrate (a basic monitoring camera), the LINOVISION's extreme distance is the right tradeoff. If you're running a high-resolution camera that needs its full bandwidth, the Gigabit extender keeps that intact over a more modest distance.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["Existing RG59/RG6/RG11 coax from an old analog system", "PoE Over Coax Converter BNC to Ethernet (EOC)"],
         ["New Cat5e/Cat6 Ethernet runs", "LINOVISION Long Distance Extender or Gigabit PoE+ Extender"],
-        ["One existing cable run needing to serve two nearby cameras", "IPCamPower POE Combiner Splitter Adapter"],
+        ["One existing cable run needing to serve two nearby cameras", "IPCamPower POE Combiner Splitter Adapter"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For a Harsh Outdoor Climate Specifically",
     cards: [
       { label: "Look for", text: "An extender with an explicitly wide operating temperature range beyond just an IP waterproof rating, since extreme heat or cold can affect electronics even in a weatherproof enclosure." },
-      { label: "In this comparison", text: "The Gigabit PoE+ Extender Outdoor specifically states a -40F to 158F operating range, the widest temperature tolerance of any pick here." },
+      { label: "In this comparison", text: "The Gigabit PoE+ Extender Outdoor specifically states a -40F to 158F operating range, the widest temperature tolerance of any pick here." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You need to reach an extreme distance and can tolerate reduced bandwidth at the far end, where the LINOVISION's $89.99 price buys genuinely more reach than any other pick here." },
-      { label: "Save if", text: "You're combining two nearby cameras onto one cable run rather than extending a single long distance, where the IPCamPower splitter delivers that for $19.99, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You need to reach an extreme distance and can tolerate reduced bandwidth at the far end, where the LINOVISION's under $90 price buys genuinely more reach than any other pick here." },
+      { label: "Save if", text: "You're combining two nearby cameras onto one cable run rather than extending a single long distance, where the IPCamPower splitter delivers that for under $20, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

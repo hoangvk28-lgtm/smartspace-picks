@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A flexible tiered warranty with a complete accessory package", "OWC Express 1M2 40Gb/s Portable NVMe SSD Enclosure"],
         ["Genuinely tool-free installation with quality lab testing", "Lexar E750 40Gbps M.2 NVMe SSD Enclosure"],
         ["Intel-certified genuine Thunderbolt 3 technology", "SABRENT Thunderbolt 3 M.2 NVMe SSD Enclosure"],
-        ["Established engineering with the most flexible port compatibility", "ICY BOX 40Gbps M.2 NVMe SSD Enclosure, Tool-Free Aluminum"],
+        ["Established engineering with the most flexible port compatibility", "ICY BOX 40Gbps M.2 NVMe SSD Enclosure, Tool-Free Aluminum"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $80", "ICY BOX ($79.99)"],
-        ["Under $89", "OWC ($88.99)"],
-        ["Under $90", "Lexar E750 or SABRENT (both $89.99)"],
+        ["Under $80", "ICY BOX (under $80)"],
+        ["Under $89", "OWC (under $90)"],
+        ["Under $90", "Lexar E750 or SABRENT (both under $90)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Genuine Thunderbolt 3 Certification vs Broader USB4 Compatibility",
     cards: [
       { label: "Genuine Thunderbolt 3 (SABRENT)", text: "Provides formal Intel certification specifically for Thunderbolt 3, but requires a genuine Thunderbolt 3 port and won't work with standard USB-C." },
-      { label: "Broader USB4/Thunderbolt compatibility (OWC, Lexar, ICY BOX)", text: "Works across a wider range of port types including USB4 and standard USB-C, more flexible for varied device connections." },
+      { label: "Broader USB4/Thunderbolt compatibility (OWC, Lexar, ICY BOX)", text: "Works across a wider range of port types including USB4 and standard USB-C, more flexible for varied device connections." }
     ],
     note: "If you specifically have a Thunderbolt 3 port and want formally certified technology, the SABRENT pick delivers that. If you need broader compatibility across different computers and port types, the other three picks offer more flexibility.",
   },
@@ -137,7 +137,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your installation preference", "Recommended pick"],
       rows: [
         ["Fully tool-free, no screwdriver needed", "Lexar E750, SABRENT, or ICY BOX"],
-        ["Comfortable using an included screwdriver", "OWC (screwdriver included)"],
+        ["Comfortable using an included screwdriver", "OWC (screwdriver included)"]
       ],
     },
   },
@@ -145,16 +145,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Buyer Prioritizing Long-Term Warranty Security Specifically",
     cards: [
       { label: "Look for", text: "A tiered warranty structure that extends coverage further when purchasing a complete solution, rather than a single flat warranty period regardless of configuration." },
-      { label: "In this comparison", text: "The OWC pick's tiered warranty specifically extends to 3 years when purchased as a complete solution with an OWC SSD, longer than the flat 24-month coverage on the ICY BOX pick." },
+      { label: "In this comparison", text: "The OWC pick's tiered warranty specifically extends to 3 years when purchased as a complete solution with an OWC SSD, longer than the flat 24-month coverage on the ICY BOX pick." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a flexible tiered warranty with a complete accessory package, where the OWC pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You want established brand engineering with flexible compatibility, where the ICY BOX pick covers that for about $9 less." },
+      { label: "Save if", text: "You want established brand engineering with flexible compatibility, where the ICY BOX pick covers that for about $9 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

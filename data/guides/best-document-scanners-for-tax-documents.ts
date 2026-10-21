@@ -5,7 +5,7 @@ export const metaDescription = "6 scanners we evaluated for tax document digitiz
 export const mainKeyword = "document scanner for tax documents";
 export const introParagraphs = [
   "Archival-quality scanning (600 DPI) is necessary for long-term legibility over the 3-7 year retention window tax documents typically need, but is significantly slower per page than standard 300 DPI, a tradeoff rarely explained in tax-document-specific content.",
-  "Also worth knowing: sensitive data on tax documents (SSNs, account numbers) requires encryption and secure storage practices beyond generic 'cloud backup' claims, and a one-time multi-year backlog digitization project has different needs (high ADF capacity, sustained duty cycle) than lighter ongoing annual scanning.",
+  "Also worth knowing: sensitive data on tax documents (SSNs, account numbers) requires encryption and secure storage practices beyond generic 'cloud backup' claims, and a one-time multi-year backlog digitization project has different needs (high ADF capacity, sustained duty cycle) than lighter ongoing annual scanning."
 ];
 export const lastUpdated = "2026-07-29";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best for One-Time Multi-Year Backlog Digitization",
     name: "ScanSnap iX2400 High-Speed One-Touch Button Color Document Scanner",
     price: "$349.99",
-    rating: "4.5 stars from 991 Amazon ratings",
-    reviews: "991 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41LZ7HiXsPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FWGTB3S3?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Ongoing Annual Tax Scanning",
     name: "Epson Workforce ES-400 II High-Speed Color Duplex Desktop Document Scanner",
     price: "$299.99",
-    rating: "4.5 stars from 1,226 Amazon ratings",
-    reviews: "1,226 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41rW4JApydL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08P3YVH3X?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Explicit Volume Planning for Tax Season",
     name: "Canon imageFORMULA R10 Portable Document Scanner, USB Powered, Duplex",
     price: "$184.00",
-    rating: "4.1 stars from 2,338 Amazon ratings",
-    reviews: "2,338 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/218Q14ube6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08FBHTD9B?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Cloud-Filed Annual Tax Scanning",
     name: "ScanSnap iX1300 Wireless or USB Double-Sided Color Document Scanner, White",
     price: "$279.99",
-    rating: "4.2 stars from 1,768 Amazon ratings",
-    reviews: "1,768 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41yWYf2uT0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FX5DWBK?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Budget Occasional Tax Document Pick",
     name: "HP Small USB Document & Photo Scanner for Portable 1-Sided Sheetfed Digital Scanning",
     price: "$139.99",
-    rating: "4.3 stars from 385 Amazon ratings",
-    reviews: "385 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/4143ozv-CML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6NL3HFX?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wireless Tax Document Pick",
     name: "Epson Workforce ES-580W Wireless Color Duplex Desktop Document Scanner",
     price: "$379.99",
-    rating: "4.3 stars from 5,857 Amazon ratings",
-    reviews: "5,857 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Ty0waBx4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KQZWPYN?tag=deskfinds0d-20",
     description:
@@ -120,14 +120,14 @@ export const products: GuideProduct[] = [
     pros: ["Largest review base among the picks in this guide", "Wireless flexibility for document storage location", "Searchable PDF OCR for finding tax documents later", "TWAIN driver compatibility"],
     cons: ["Highest price in this guide", "No specific encryption standard confirmed for wireless transmission", "No tax form auto-recognition"],
     bestFor: "Buyers who want wireless tax document scanning with the most proven track record",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "One-time backlog digitization vs. ongoing annual scanning, sized separately", description: "Distinguished picks suited to a one-time large multi-year backlog project (high ADF capacity, sustained duty cycle) from ones better matched to lighter ongoing annual scanning, since these are genuinely different use cases with different sizing needs." },
   { title: "Sensitive data encryption verification for SSN/account-number content", description: "Checked whether any listing confirms an encryption standard for cloud storage or wireless transmission, none of the picks in this guide do, a real gap for tax documents containing highly sensitive personal data." },
-  { title: "Archival DPI speed tradeoff for long-term legibility", description: "Noted that 600 DPI archival scanning, recommended for the 3-7 year retention window tax documents typically need, takes considerably longer per page than standard 300 DPI." },
+  { title: "Archival DPI speed tradeoff for long-term legibility", description: "Noted that 600 DPI archival scanning, recommended for the 3-7 year retention window tax documents typically need, takes considerably longer per page than standard 300 DPI." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -260,11 +260,11 @@ export const faq: FaqItem[] = [
   { q: "Is it safe to store scanned tax documents with SSNs in cloud storage?", a: "Only if your cloud provider uses appropriate encryption, and none of the scanners in this guide confirm a specific encryption standard themselves. Verify your chosen cloud storage provider's security practices separately." },
   { q: "Do any of these scanners automatically recognize and label W-2s or 1099s?", a: "No. Tax form auto-recognition is a specialized feature some tax-prep software offers, none of the picks in this guide confirm this capability, expect to organize scanned tax forms manually." },
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers with a one-time multi-year backlog of paper tax records to digitize" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers with modest annual tax document scanning needs At $139.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers with modest annual tax document scanning needs At under $140, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-document-scanners-for-accountants", title: "Best Document Scanners for Accountants (2026)" },
   { href: "/guide/best-document-scanners-for-invoices", title: "Best Document Scanners for Invoices (2026)" },
-  { href: "/guide/best-receipt-scanners", title: "Best Receipt Scanners (2026)" },
+  { href: "/guide/best-receipt-scanners", title: "Best Receipt Scanners (2026)" }
 ];

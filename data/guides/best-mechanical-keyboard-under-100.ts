@@ -48,11 +48,11 @@ export const products: MechKeyboard100[] = [
       "https://m.media-amazon.com/images/I/41Lei8oGwfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F38DZG3J?tag=deskfinds0d-20",
     whyItWorks:
-      "The Aula F108 Pro is the only full-size, 104-key option in this guide, which matters for buyers who rely on a dedicated number pad for spreadsheet or accounting work rather than the TKL and 75% layouts the rest of this list favors. An 8000mAh battery is roughly double the capacity of the RK84's 4000mAh cell, and the built-in screen displays battery level, connection mode, and basic customization feedback without needing companion software running in the background. Hot-swappable sockets and a knob for quick volume or media control round out the feature set at just under $90.\n\nTriple connectivity (Bluetooth, 2.4GHz, and wired) covers most desk setups, and the RGB backlighting is fully programmable through the board's own controls. The main tradeoff against the 75% and TKL boards elsewhere in this guide is desk footprint: a full-size 104-key layout takes up several extra inches of desk width that a TKL or 75% board would free up.",
+      "The Aula F108 Pro is the only full-size, 104-key option in this guide, which matters for buyers who rely on a dedicated number pad for spreadsheet or accounting work rather than the TKL and 75% layouts the rest of this list favors. An 8000mAh battery is roughly double the capacity of the RK84's 4000mAh cell, and the built-in screen displays battery level, connection mode, and basic customization feedback without needing companion software running in the background. Hot-swappable sockets and a knob for quick volume or media control round out the feature set at under $90.\n\nTriple connectivity (Bluetooth, 2.4GHz, and wired) covers most desk setups, and the RGB backlighting is fully programmable through the board's own controls. The main tradeoff against the 75% and TKL boards elsewhere in this guide is desk footprint: a full-size 104-key layout takes up several extra inches of desk width that a TKL or 75% board would free up.",
     tradeoffs: [
       "Full-size 104-key layout takes up more desk width than the TKL or 75% boards elsewhere in this guide",
       "8000mAh battery and screen add weight versus the more compact wireless options",
-      "Verify current listing for exact switch options included at time of purchase",
+      "Verify current listing for exact switch options included at time of purchase"
     ],
     skipIf:
       "Desk space is tight. The RK Royal Kludge RK84 (75% layout) or Keychron C3 Pro (TKL) reclaim several inches of desk width if a number pad is not required.",
@@ -60,12 +60,12 @@ export const products: MechKeyboard100[] = [
       "Full-size 104-key layout with dedicated number pad, the only one in this guide",
       "8000mAh battery, roughly double the capacity of the RK84",
       "Built-in screen for battery and mode feedback",
-      "Hot-swappable switches and triple connectivity under $90",
+      "Hot-swappable switches and triple connectivity under $90"
     ],
     cons: [
       "Largest footprint in this guide, not suited to tight desks",
       "Heavier than the compact wireless options due to the battery and screen",
-      "Confirm current switch options on the listing before ordering",
+      "Confirm current switch options on the listing before ordering"
     ],
   },
   {
@@ -88,7 +88,7 @@ export const products: MechKeyboard100[] = [
     tradeoffs: [
       "Blue switches click audibly on every keystroke, noticeable on video calls or in shared rooms",
       "No hot-swap, switch changes require soldering",
-      "Tray mount gives a harsher, louder typing feel than the gasket-mount picks in this guide",
+      "Tray mount gives a harsher, louder typing feel than the gasket-mount picks in this guide"
     ],
     skipIf:
       "You want a quieter switch for calls, or hot-swap flexibility. The Keychron C3 Pro at a similar price point adds both gasket mount and hot-swap.",
@@ -96,12 +96,12 @@ export const products: MechKeyboard100[] = [
       "Lowest price in this guide at under $40",
       "Distinctive retro typewriter-style round keycaps and case design",
       "RGB backlighting included",
-      "Full-size 104-key layout with number pad",
+      "Full-size 104-key layout with number pad"
     ],
     cons: [
       "Blue switches are loud, not ideal for calls or shared spaces",
       "No hot-swap, soldering required to change switches",
-      "Tray mount, harsher feel than gasket-mount alternatives in this guide",
+      "Tray mount, harsher feel than gasket-mount alternatives in this guide"
     ],
   },
   {
@@ -120,11 +120,11 @@ export const products: MechKeyboard100[] = [
       "https://m.media-amazon.com/images/I/41v3KhzCFRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FGGZK4X7?tag=deskfinds0d-20",
     whyItWorks:
-      "The ROG Strix Scope II X pairs factory pre-lubed ROG NX Snow V2 linear switches with hot-swap sockets and PBT keycaps, a combination that puts it near the top of this guide's feature list for buyers who want a full-size wired board with a premium switch feel out of the box. Pre-lubed switches mean smoother keystrokes without the aftermarket lubing process some enthusiasts do themselves on cheaper boards, and the gasket-mounted design with sound dampening foam is aimed at reducing the hollow, clacky resonance common on tray-mount boards at this price.\n\nAt just under $95, it is priced close to the ceiling of this guide's under-$100 range, competing directly with the Keychron V1 and Epomaker TH80 Pro for the higher end of the budget. The full-size 100% layout, rather than the 75% layout of the V1 and TH80 Pro, is the deciding factor for buyers who need a dedicated number pad and are willing to trade the smaller footprint for it.",
+      "The ROG Strix Scope II X pairs factory pre-lubed ROG NX Snow V2 linear switches with hot-swap sockets and PBT keycaps, a combination that puts it near the top of this guide's feature list for buyers who want a full-size wired board with a premium switch feel out of the box. Pre-lubed switches mean smoother keystrokes without the aftermarket lubing process some enthusiasts do themselves on cheaper boards, and the gasket-mounted design with sound dampening foam is aimed at reducing the hollow, clacky resonance common on tray-mount boards at this price.\n\nAt under $95, it is priced close to the ceiling of this guide's under-$100 range, competing directly with the Keychron V1 and Epomaker TH80 Pro for the higher end of the budget. The full-size 100% layout, rather than the 75% layout of the V1 and TH80 Pro, is the deciding factor for buyers who need a dedicated number pad and are willing to trade the smaller footprint for it.",
     tradeoffs: [
       "Full-size layout takes up more desk width than the 75% Keychron V1 or Epomaker TH80 Pro",
       "Wired only, no wireless option on this model",
-      "Priced near the top of this guide's under-$100 range",
+      "Priced near the top of this guide's under-$100 range"
     ],
     skipIf:
       "Desk space is tight or a number pad is not needed. The Keychron V1 (75%) offers double-gasket mount and QMK/VIA in a smaller footprint for a similar price.",
@@ -132,12 +132,12 @@ export const products: MechKeyboard100[] = [
       "Pre-lubed ROG NX Snow V2 linear switches, smoother out of the box than unlubed alternatives",
       "Hot-swap sockets with PBT keycaps",
       "Gasket-mounted with sound dampening foam",
-      "Full-size 100% layout with dedicated number pad",
+      "Full-size 100% layout with dedicated number pad"
     ],
     cons: [
       "Full-size footprint, larger than the 75% picks elsewhere in this guide",
       "Wired only",
-      "Near the top of this guide's price range",
+      "Near the top of this guide's price range"
     ],
   },
   {
@@ -160,7 +160,7 @@ export const products: MechKeyboard100[] = [
       "Tray mount - each keystroke vibrates directly into the case, louder and harsher feel than gasket",
       "Non-hot-swap - switch replacement requires soldering",
       "ABS keycaps develop sheen with extended use",
-      "No RGB, single-color LED only on many variants",
+      "No RGB, single-color LED only on many variants"
     ],
     skipIf:
       "Budget allows $40-50. The Keychron C3 Pro adds gasket mount, hot-swap 3/5-pin, QMK/VIA, and RGB for $12 more - the feature gap is significant.",
@@ -169,13 +169,13 @@ export const products: MechKeyboard100[] = [
       "Proven since 2015 - tens of thousands of reviews",
       "Metal top frame for rigidity",
       "Cherry MX-compatible switches and keycaps",
-      "Best first mechanical keyboard at this price",
+      "Best first mechanical keyboard at this price"
     ],
     cons: [
       "Tray mount - harsh feel and louder",
       "No hot-swap - soldering required to change switches",
       "ABS keycaps shine over time",
-      "Limited features vs $40+ options",
+      "Limited features vs $40+ options"
     ],
   },
   {
@@ -197,7 +197,7 @@ export const products: MechKeyboard100[] = [
     tradeoffs: [
       "ABS keycaps - develop shiny surface in 6-12 months with heavy use",
       "TKL layout only - no compact 75% option in C3 Pro line",
-      "Wired only - no wireless option in C3 Pro",
+      "Wired only - no wireless option in C3 Pro"
     ],
     skipIf:
       "You need wireless. The RK Royal Kludge RK84 at $60-70 adds triple-mode wireless (BT 5.0 + 2.4GHz + USB-C) for $20 more.",
@@ -206,12 +206,12 @@ export const products: MechKeyboard100[] = [
       "QMK/VIA programmable - remap any key in browser",
       "Hot-swap 3/5-pin at $40 - switch changes without soldering",
       "USB-C detachable cable",
-      "Keychron brand reliability",
+      "Keychron brand reliability"
     ],
     cons: [
       "ABS keycaps - shines over time",
       "Wired only",
-      "TKL 87% only - no 75% option",
+      "TKL 87% only - no 75% option"
     ],
   },
   {
@@ -233,21 +233,21 @@ export const products: MechKeyboard100[] = [
     tradeoffs: [
       "Tray mount - harsher feel than gasket",
       "No hot-swap - soldering required for switch changes",
-      "Higher price than C3 Pro without adding hot-swap or wireless",
+      "Higher price than C3 Pro without adding hot-swap or wireless"
     ],
     skipIf:
-      "Hot-swap compatibility is important. The Keychron V1 at $69-84 adds gasket mount and QMK/VIA to PBT keycaps for $15-30 more.",
+      "Hot-swap compatibility is important. The Keychron V1 at under $70-84 adds gasket mount and QMK/VIA to PBT keycaps for $15-30 more.",
     pros: [
       "PBT double-shot keycaps included - legends never fade",
       "Pre-lubed Akko CS switches - smoother factory feel",
       "Detachable USB-C cable",
       "Distinctive Horizon colorway",
-      "Cherry-profile legends",
+      "Cherry-profile legends"
     ],
     cons: [
       "Tray mount",
       "No hot-swap",
-      "Higher price than C3 Pro without wireless or hot-swap",
+      "Higher price than C3 Pro without wireless or hot-swap"
     ],
   },
   {
@@ -270,22 +270,22 @@ export const products: MechKeyboard100[] = [
       "Tray mount - harsher feel than gasket",
       "ABS keycaps - shines over time",
       "No QMK/VIA - proprietary remapping software only",
-      "2.4GHz dongle required for fastest wireless response",
+      "2.4GHz dongle required for fastest wireless response"
     ],
     skipIf:
-      "Wired is acceptable and gasket mount or QMK/VIA matters most. The Keychron C3 Pro at $40-50 or V1 at $69-84 are better for typed-feel and programmability.",
+      "Wired is acceptable and gasket mount or QMK/VIA matters most. The Keychron C3 Pro at $40-50 or V1 at under $70-84 are better for typed-feel and programmability.",
     pros: [
       "Triple wireless (BT 5.0 + 2.4GHz + USB-C) with 3-device BT pairing",
       "4000mAh battery - months of use without backlight",
       "75% layout - compact but keeps F-row and arrows",
       "Hot-swap 3/5-pin on wireless board at $60-70",
-      "Clean desk - no cable required",
+      "Clean desk - no cable required"
     ],
     cons: [
       "Tray mount",
       "ABS keycaps shine over time",
       "No QMK/VIA",
-      "Needs 2.4GHz dongle for lowest latency",
+      "Needs 2.4GHz dongle for lowest latency"
     ],
   },
   {
@@ -306,22 +306,22 @@ export const products: MechKeyboard100[] = [
       "Double-gasket mount, PBT double-shot keycaps, QMK/VIA programmability, and hot-swap 3/5-pin sockets in a 75% form factor. Double-gasket is two layers of silicone dampening - softer and bouncier typing feel than single-gasket designs. The difference is most apparent during 1-2+ hour typing sessions. PBT double-shot legends are a second layer of plastic, not ink or dye - they cannot fade. Most recommended wired mechanical keyboard under $100 for home office daily use.",
     tradeoffs: [
       "Wired only - V1 Max adds wireless at ~$109",
-      "Highest price wired option in guide at $69-84",
-      "Red/Brown switches only in standard V1 (Blue in separate V1 Blue variant)",
+      "Highest price wired option in guide at under $70-84",
+      "Red/Brown switches only in standard V1 (Blue in separate V1 Blue variant)"
     ],
     skipIf:
-      "You need wireless. The Epomaker TH80 Pro at $75-90 or RK Royal Kludge RK84 at $60-70 add triple-mode wireless.",
+      "You need wireless. The Epomaker TH80 Pro at under $80-90 or RK Royal Kludge RK84 at $60-70 add triple-mode wireless.",
     pros: [
       "Double-gasket mount - softest typing feel in guide",
       "PBT double-shot - legends never fade",
       "QMK/VIA programmable - best key customization",
       "Hot-swap 3/5-pin",
-      "75% layout - compact with full F-row and arrows",
+      "75% layout - compact with full F-row and arrows"
     ],
     cons: [
       "Wired only (V1 Max ~$109 for wireless)",
-      "Highest wired price at $69-84",
-      "Red/Brown switch options only in V1 (Blue is separate model)",
+      "Highest wired price at under $70-84",
+      "Red/Brown switch options only in V1 (Blue is separate model)"
     ],
   },
   {
@@ -342,26 +342,26 @@ export const products: MechKeyboard100[] = [
       "Adds three features the RK84 lacks: PBT double-shot keycaps, a physical volume knob, and south-facing RGB LEDs. South-facing LEDs shine through the front of keycaps rather than directly into the user's eyes - more visible legends under the light. Silicone dampening foam reduces hollow resonance. Gateron Pro switches are factory pre-lubed. For wireless buyers who want PBT keycaps plus volume knob plus best feature set under $100, this is the pick.",
     tradeoffs: [
       "Not a true gasket mount - PCB + silicone foam is softer than tray but not as soft as double-gasket",
-      "Higher price at $75-90 than RK84",
+      "Higher price at under $80-90 than RK84",
       "No QMK/VIA - proprietary remapping only",
-      "Slightly less hot-swap compatible switch brand variety than Keychron",
+      "Slightly less hot-swap compatible switch brand variety than Keychron"
     ],
     skipIf:
-      "Wired use only and QMK/VIA matters. The Keychron V1 at $69-84 has better typing feel and full QMK/VIA without wireless premium.",
+      "Wired use only and QMK/VIA matters. The Keychron V1 at under $70-84 has better typing feel and full QMK/VIA without wireless premium.",
     pros: [
       "PBT double-shot + wireless - rare combination under $100",
       "Physical volume knob",
       "South-facing RGB - better keycap illumination",
       "Silicone foam dampening",
-      "Gateron Pro pre-lubed switches",
+      "Gateron Pro pre-lubed switches"
     ],
     cons: [
       "Not true gasket mount",
       "No QMK/VIA",
       "Higher price than RK84",
-      "Limited Gateron Pro hot-swap variety",
+      "Limited Gateron Pro hot-swap variety"
     ],
-  },
+  }
 ];
 
 export interface AtAGlanceRow {
@@ -409,7 +409,7 @@ export const faq: FaqItem[] = [
   {
     q: "What is QMK/VIA and do I need it?",
     a: "QMK is open-source keyboard firmware. VIA is a browser-based graphical interface to remap any key without programming. Common uses: Caps Lock to Escape, media controls on an Fn layer, macro keys. Takes 5 minutes, changes persist on the keyboard through battery cycles and USB reconnects. Keychron C3 Pro and V1 include QMK/VIA. RK84 and Epomaker TH80 Pro use proprietary remapping software only.",
-  },
+  }
 ];
 
 export const relatedGuides = [
@@ -428,5 +428,5 @@ export const relatedGuides = [
   {
     href: "/guide/ultrawide-vs-dual-monitor",
     title: "Ultrawide vs Dual Monitor",
-  },
+  }
 ];

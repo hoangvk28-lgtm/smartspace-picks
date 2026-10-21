@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51KJIKGXIZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BSRL6XD3?tag=deskfinds0d-20",
-    description: "This is a studio-first take on the rack cabinet, with a flat oak-colored top specifically designed as usable desk space for a laptop or mixer above the equipment stack.\n\nEVA pads attach to the bottom feet to reduce vibration and protect wood floors, a thoughtful touch for a rack meant to live in a home studio rather than a server closet.\n\nThis pick is best for buyers who value oak top doubles as real desk space above the rack along with EVA pads protect wood floors and cut vibration. The catch is that studio-focused design, less suited to dense IT gear, so decide if that's worth it at $188.24.",
+    description: "This is a studio-first take on the rack cabinet, with a flat oak-colored top specifically designed as usable desk space for a laptop or mixer above the equipment stack.\n\nEVA pads attach to the bottom feet to reduce vibration and protect wood floors, a thoughtful touch for a rack meant to live in a home studio rather than a server closet.\n\nThis pick is best for buyers who value oak top doubles as real desk space above the rack along with EVA pads protect wood floors and cut vibration. The catch is that studio-focused design, less suited to dense IT gear, so decide if that's worth it at under $190.",
     specs: ["12U, black steel frame","Flat oak top workstation surface","EVA vibration-reducing floor pads included"],
     pros: ["Oak top doubles as real desk space above the rack","EVA pads protect wood floors and cut vibration","Steel frame with reinforced joints feels sturdy"],
     cons: ["Studio-focused design, less suited to dense IT gear","No weight rating listed for the rack itself"],
@@ -113,16 +113,16 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $188.24",
+          "Under $190",
           "GEARit 12U Audio Rack with Flat Oak Top"
         ],
         [
-          "Around $205.00",
+          "Under $250",
           "AV Gear Rack 24U Home Audio & Video Storage Cabinet"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [

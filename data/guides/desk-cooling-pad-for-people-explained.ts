@@ -12,7 +12,7 @@ export const deskCoolingPadForPeopleExplainedGuide: Guide = {
     "gel seat cushion cooling",
     "ventilated cushion office chair",
     "hot sweaty office chair fix",
-    "cooling cushion worth it desk",
+    "cooling cushion worth it desk"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskCoolingPadForPeopleExplainedGuide: Guide = {
     "mesh-vs-fabric-office-chair",
     "tower-fan-vs-desk-fan",
     "office-chair-size-chart",
-    "lumbar-support-explained",
+    "lumbar-support-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskCoolingPadForPeopleExplainedGuide: Guide = {
       question: "Can I add a cooling pad to any office chair regardless of its existing material?",
       answer:
         "Yes generally, cooling pads are typically designed as add-on accessories compatible with most standard chair seat shapes and sizes, check the specific product's size compatibility against your chair before assuming a universal fit.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const deskCoolingPadForPeopleExplainedGuide: Guide = {
     {
       heading: "Why These Pads Work as a Supplement, Not a Complete Climate Solution",
       body: `A cooling seat pad's mechanism, whether gel-based heat dispersion or ventilation-based air circulation, works by managing heat specifically at the point of body contact with the seat, it doesn't and can't lower the ambient room temperature the way air conditioning would, this means a cooling pad provides genuine, noticeable relief for the specific discomfort of a hot, sweaty seat contact area, but shouldn't be expected to solve a broader problem of an uncomfortably warm room overall, understanding this distinction helps set appropriate expectations for what this specific, relatively inexpensive accessory can and can't address.`,
-    },
+    }
   ],
 };

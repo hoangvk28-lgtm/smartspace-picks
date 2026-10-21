@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "WAINLUXPRO K10 Laser Engraver, 5W Output Fully Enclosed Class 1 Safety, 0.01mm Spot Precision, and is built around class 1 certified & safe for home, positioning it for wainlux buyers specifically.\n\nHIGH-PRECISION LASER ENGRAVING & CUTTING - Powerful is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for wainlux, though as with any equipment purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["CLASS 1 CERTIFIED & SAFE FOR HOME","HIGH-PRECISION LASER ENGRAVING & CUTTING - Powerful","3-IN-1 CONNECTIVITY: WIFI/USB/OFFLINE - This desktop laser"],
     pros: ["CLASS 1 CERTIFIED & SAFE FOR HOME, confirmed directly in the listing's own spec details","HIGH-PRECISION LASER ENGRAVING & CUTTING - Powerful, confirmed directly in the listing's own spec details","3-IN-1 CONNECTIVITY: WIFI/USB/OFFLINE - This desktop laser, confirmed directly in the listing's own spec details"],
-    cons: ["At $159.99, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $160, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for wainlux",
   },
   {
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     description: "Laser Engraver WAINLUX K6 Pro, 3000mW Laser Engraving Machine, 0.05mm Accuracy, BT Connection and is built around simple connect& smart control you can connect, positioning it for wainlux buyers specifically.\n\nUltra-Fine 0.05mm Laser Spot for Precision Results is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for wainlux, though as with any equipment purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["SIMPLE CONNECT& SMART CONTROL You can connect","Ultra-Fine 0.05mm Laser Spot for Precision Results","EASY-TO-USE & ENGRAVE SAFELY"],
     pros: ["SIMPLE CONNECT& SMART CONTROL You can connect, confirmed directly in the listing's own spec details","Ultra-Fine 0.05mm Laser Spot for Precision Results, confirmed directly in the listing's own spec details","EASY-TO-USE & ENGRAVE SAFELY, confirmed directly in the listing's own spec details"],
-    cons: ["At $99.74, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $100, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for wainlux",
   },
   {
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "WAINLUX K8 Mini Laser Engraver, Laser Engraving Machine, 10000mW Fully Enclosed with Viewable and is built around safely&assembly, positioning it for wainlux buyers specifically.\n\nSmart Camera&Humanized Degign is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for wainlux, though as with any equipment purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["SAFELY&ASSEMBLY","Smart Camera&Humanized Degign","POWERFUL&ACCURATE"],
     pros: ["SAFELY&ASSEMBLY, confirmed directly in the listing's own spec details","Smart Camera&Humanized Degign, confirmed directly in the listing's own spec details","POWERFUL&ACCURATE, confirmed directly in the listing's own spec details"],
-    cons: ["At $399.99, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $400, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for wainlux",
   },
   {
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "WAINLUX X2 10W Laser Engraver Machine with Enclosure, 0.01mm Ultra-Precision Laser Cutter measures 150x200 and is built around powerful engraving and cutting functions, positioning it for wainlux buyers specifically.\n\nSafe and Convenient to Use is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for wainlux, though as with any equipment purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["150x200 dimensions","Powerful Engraving and Cutting Functions","Safe and Convenient to Use"],
     pros: ["Powerful Engraving and Cutting Functions, confirmed directly in the listing's own spec details","Safe and Convenient to Use, confirmed directly in the listing's own spec details","High Precision and High-speed Engraving, confirmed directly in the listing's own spec details"],
-    cons: ["At $269.99, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $300, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for wainlux",
   },
   {
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     description: "WAINLUX X2 3W Laser Engraver, Desktop CNC Laser Cutter, 200x150mm Work Area, APP Control, High measures 200x150 and is built around pre-assembled & ready to create, positioning it for wainlux buyers specifically.\n\nProfessional 3w Laser In Compact Desktop Design is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for wainlux, though as with any equipment purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["200x150 dimensions","Pre-Assembled & Ready To Create","Professional 3w Laser In Compact Desktop Design"],
     pros: ["Pre-Assembled & Ready To Create, confirmed directly in the listing's own spec details","Professional 3w Laser In Compact Desktop Design, confirmed directly in the listing's own spec details","High Precision 0.01mm Engraving In 200x150mm Work, confirmed directly in the listing's own spec details"],
-    cons: ["At $85.49, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $90, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for wainlux",
   }
 

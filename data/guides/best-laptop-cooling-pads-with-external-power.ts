@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop cooling pads with external power";
 export const introParagraphs = [
   "Most laptop cooling pads draw their power directly from your laptop's own USB port, which means the fans compete with whatever else is drawing from that same port, and running on battery means the pad draws from your laptop's battery too. A genuinely externally-powered pad, one that includes a separate wall adapter, avoids both of those constraints entirely. Based on our research, only two products in this specific pool include a confirmed external power adapter in the box.",
-  "This guide leads with those two confirmed picks, followed by two products with a documented but not fully confirmed external power option, and closes with four honestly-labeled USB-only pads that remain strong on cooling merits even though they don't offer external power.",
+  "This guide leads with those two confirmed picks, followed by two products with a documented but not fully confirmed external power option, and closes with four honestly-labeled USB-only pads that remain strong on cooling merits even though they don't offer external power."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "10 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "External power confirmation", description: "We only ranked a pick as confirmed external power where the listing's box contents explicitly list a separate adapter. Ambiguous 'compatible with an adapter' language was labeled honestly as unconfirmed rather than treated the same as a confirmed inclusion." },
   { title: "Adapter inclusion versus compatibility", description: "We distinguished between products that include an adapter in the box and products that are merely compatible with a separately purchased adapter, since only one guarantees external power without an extra purchase." },
   { title: "Brand consistency check", description: "We noted that external power is not consistent across an entire manufacturer's lineup, flagging specific model variants that do or don't include this feature even under the same brand." },
-  { title: "Practical tradeoffs of external power", description: "We weighed the added cable and adapter management against the benefit of not drawing from a laptop's USB port or battery, since external power is a genuine convenience tradeoff, not a strictly better option in every scenario." },
+  { title: "Practical tradeoffs of external power", description: "We weighed the added cable and adapter management against the benefit of not drawing from a laptop's USB port or battery, since external power is a genuine convenience tradeoff, not a strictly better option in every scenario." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -291,11 +291,11 @@ export const faq: FaqItem[] = [
   { q: "What's the difference between 'external power compatible' and 'external power included'?", a: "'Compatible' usually means you can use a separately purchased adapter to power the unit, while 'included' means the adapter comes in the box. Always check which claim a specific listing is actually making." },
   { q: "Does external power drain my laptop's battery less?", a: "Yes, an externally-powered cooling pad draws from a wall adapter rather than your laptop's USB port, so it has no impact on your laptop's battery, unlike USB-powered pads." },
   { q: "Is external power always better than USB power for a cooling pad?", a: "Not necessarily. If you mainly use your laptop plugged into wall power already, the practical benefit shrinks. External power matters most for frequent unplugged use or when running the pad alongside other USB peripherals." },
-  { q: "Why do some models from the same brand have external power and others don't?", a: "Manufacturers often position external power as a premium feature on select higher-end models within their lineup. Always check the specific model number's listing rather than assuming brand-wide consistency." },
+  { q: "Why do some models from the same brand have external power and others don't?", a: "Manufacturers often position external power as a premium feature on select higher-end models within their lineup. Always check the specific model number's listing rather than assuming brand-wide consistency." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-usb-powered-laptop-cooling-pads", title: "Best USB-Powered Laptop Cooling Pads (2026)" },
   { href: "/guide/best-laptop-cooling-pads-with-dust-filters", title: "Best Laptop Cooling Pads with Dust Filters (2026)" },
-  { href: "/guide/best-sealed-laptop-cooling-pads", title: "Best Sealed Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-sealed-laptop-cooling-pads", title: "Best Sealed Laptop Cooling Pads (2026)" }
 ];

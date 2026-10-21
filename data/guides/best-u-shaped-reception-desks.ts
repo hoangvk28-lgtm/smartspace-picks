@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $197.99",
+          "Under $200",
           "Tribesigns 63-Inch U-Shaped Reception Desk with Private Panel"
         ],
         [
-          "Around $699.99",
+          "Under $700",
           "VIVO Black U-Shaped Standing Desk"
         ],
         [
-          "Around $792.27",
+          "Under $800",
           "Bestar Logan U or L Shaped Desk with Hutch"
         ],
         [
-          "Around $816.74",
+          "Under $850",
           "Bestar Logan U or L Shaped Desk with Hutch"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Tribesigns 63-Inch U-Shaped Reception Desk with Private Panel is aimed at buyers prioritizing 63\"l x 24\"w u-shaped two-tier surface." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Tribesigns 63-Inch U-Shaped Reception Desk with Private Panel is aimed at buyers prioritizing 63\"l x 24\"w u-shaped two-tier surface." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-l-shaped-reception-desks","title":"best-l-shaped-reception-desks"},{"href":"/guide/best-u-shaped-reception-desks-with-counter","title":"4 Best U-Shaped Reception Desks with Counter in 2026"},{"href":"/guide/best-standing-reception-desks","title":"best-standing-reception-desks"}];

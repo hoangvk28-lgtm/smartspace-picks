@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["One large, versatile tablet for the whole household", "TEKFUN 15\" LCD Writing Tablet Whiteboard Style"],
         ["Maximum usable space in a compact footprint", "LCD Writing Tablet 11.5in, Bezel-Free Digital Notepad"],
-        ["More writing capacity before needing to erase", "LCD Writing Tablet for Adults, 10.5\" Double-Sided Full Screen"],
+        ["More writing capacity before needing to erase", "LCD Writing Tablet for Adults, 10.5\" Double-Sided Full Screen"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $22", "LCD Writing Tablet 11.5in Bezel-Free ($21.59)"],
-        ["$24-$27", "10.5\" Double-Sided ($24.58), TEKFUN 15\" ($26.99), or 12in Rechargeable Bezel-Free ($26.99)"],
+        ["Under $22", "LCD Writing Tablet 11.5in Bezel-Free (under $25)"],
+        ["$24-$27", "10.5\" Double-Sided (under $25), TEKFUN 15\" (under $30), or 12in Rechargeable Bezel-Free (under $30)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Rechargeable Battery vs Replaceable Battery",
     cards: [
       { label: "Rechargeable (12in Type-C pick)", text: "Never need to buy a specific replacement battery, just plug in via USB-C when it runs low, though the built-in battery will eventually degrade over years of use." },
-      { label: "Replaceable Battery (TEKFUN, 11.5in Bezel-Free, 10.5\" Double-Sided)", text: "Swap in a fresh battery indefinitely once the current one dies, at the cost of needing to keep spares or find the right size when it eventually runs out." },
+      { label: "Replaceable Battery (TEKFUN, 11.5in Bezel-Free, 10.5\" Double-Sided)", text: "Swap in a fresh battery indefinitely once the current one dies, at the cost of needing to keep spares or find the right size when it eventually runs out." }
     ],
     note: "If long-term battery longevity matters most, a replaceable battery design lets you keep the tablet working indefinitely with fresh batteries.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your priority", "Recommended pick"],
       rows: [
         ["Maximum usable space per inch of footprint", "LCD Writing Tablet 11.5in Bezel-Free or 12in Rechargeable Bezel-Free"],
-        ["Maximum total writing capacity per session", "LCD Writing Tablet for Adults, 10.5\" Double-Sided Full Screen"],
+        ["Maximum total writing capacity per session", "LCD Writing Tablet for Adults, 10.5\" Double-Sided Full Screen"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Shared Family Tablet Specifically",
     cards: [
       { label: "Look for", text: "A larger, presentable design that doesn't look like a children's toy, suitable for homework, professional notes, and household use all in one device." },
-      { label: "In this comparison", text: "The TEKFUN 15\" Whiteboard Style tablet is specifically designed and marketed for exactly this kind of broad household use." },
+      { label: "In this comparison", text: "The TEKFUN 15\" Whiteboard Style tablet is specifically designed and marketed for exactly this kind of broad household use." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want both a rechargeable battery and a bezel-free precision screen together, where the 12in Rechargeable Bezel-Free pick combines both features in this comparison." },
-      { label: "Save if", text: "A bezel-free design without rechargeable charging covers your needs, where the 11.5in Bezel-Free pick is the cheapest option here." },
+      { label: "Save if", text: "A bezel-free design without rechargeable charging covers your needs, where the 11.5in Bezel-Free pick is the cheapest option here." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

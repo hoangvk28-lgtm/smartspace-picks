@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $129.99",
+          "Under $130",
           "GRECELL Portable Power Station 330W"
         ],
         [
-          "Around $284.98",
+          "Under $300",
           "GRECELL 999Wh Solar Generator 1000W Portable Power Station"
         ],
         [
-          "Around $289.99",
+          "Under $300",
           "GRECELL 999Wh Portable Power Station 1000W for Outdoor & Home"
         ],
         [
-          "Around $499.98",
+          "Under $500",
           "2400W Portable Power Station"
         ],
         [
-          "Around $499.99",
+          "Under $500",
           "2400W Solar Generator for Home Use"
         ],
         [
-          "Around $1,289.99",
+          "Under $1,300",
           "GRECELL H2400 Portable Power Station"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "LiFePO4 (LFP) cells are generally considered more thermally stable than standard lithium-ion or lithium-polymer cells, with a lower risk of thermal runaway, and most current portable power stations have shifted to LFP for this reason. Still, verify UL or UL2743 safety certification directly rather than assuming chemistry alone guarantees safety."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "GRECELL 999Wh Portable Power Station 1000W for Outdoor & Home is aimed at buyers prioritizing 999wh, 1000w (2000w peak), 17 lbs." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "GRECELL 999Wh Portable Power Station 1000W for Outdoor & Home is aimed at buyers prioritizing 999wh, 1000w (2000w peak), 17 lbs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

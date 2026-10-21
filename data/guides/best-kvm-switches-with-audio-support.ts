@@ -5,7 +5,7 @@ export const metaDescription = "5 KVM switches we evaluated for audio support, w
 export const mainKeyword = "kvm switch with audio support";
 export const introParagraphs = [
   "Audio carried over HDMI typically switches automatically alongside the video signal, but a separate 3.5mm audio jack for a dedicated speaker or headset setup often needs manual switching on many switches, worth confirming which audio path a specific model actually supports before assuming full automatic audio switching.",
-  "Not every KVM switch with 'audio support' switches audio output and microphone input together, some only handle speaker output while leaving microphone switching as a separate manual step, worth checking this specifically if you use a headset for calls across both computers.",
+  "Not every KVM switch with 'audio support' switches audio output and microphone input together, some only handle speaker output while leaving microphone switching as a separate manual step, worth checking this specifically if you use a headset for calls across both computers."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     badge: "Best KVM Switch with HDMI-Carried Audio Overall",
     name: "UGREEN HDMI KVM Switch 1 Monitor 2 Computers, 8K@60Hz, Aluminum",
     price: "$64.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41K5Wvne7oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFFCPL26?tag=deskfinds0d-20",
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Monitor Pick with HDMI Audio",
     name: "UGREEN HDMI KVM Switch 2 Monitors 2 Computers 4K@60Hz, with 4 USB 3.0 Ports",
     price: "$69.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41ZrB2w7oOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXF66SWR?tag=deskfinds0d-20",
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     badge: "Best Multi-Format Pick with HDMI Audio",
     name: "UGREEN 8K@60Hz HDMI Displayport KVM Switch 3 Monitors 2 Computers, Aluminum",
     price: "$92.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41r-g4mzwpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G34NJ11Y?tag=deskfinds0d-20",
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick with HDMI Audio",
     name: "USB3.0 KVM Switch 2 Port HDMI, 4K@60Hz KVM Switch 1 Monitors 2 Computers with 3 USB3.0 Ports",
     price: "$32.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41uSOQO2ILL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFVBK4XQ?tag=deskfinds0d-20",
@@ -89,7 +89,7 @@ export const products: GuideProduct[] = [
     badge: "Best Ultra-Budget Pick with HDMI Audio",
     name: "Hearvo USB 3.0 HDMI KVM Switch for 2 Computers 1 Monitor, 4K@60Hz, S7232H",
     price: "$26.23",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41ll9M3dnWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5D4FK1H?tag=deskfinds0d-20",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "HDMI-carried audio distinguished from separate 3.5mm jack switching", description: "Distinguished audio carried automatically over HDMI from a separate 3.5mm audio jack, which often requires manual switching on many models." },
   { title: "Microphone switching checked separately from speaker output", description: "Checked whether microphone input switches together with speaker output, since not every 'audio support' switch handles both together." },
   { title: "USB headset compatibility considered as an alternative audio path", description: "Considered USB port availability and switching reliability for buyers using a USB headset rather than 3.5mm or HDMI-carried audio." },
-  { title: "Monitor's own audio capability factored in alongside the switch", description: "Factored in that a monitor's own speaker or audio output capability matters alongside the switch's audio-carrying capability." },
+  { title: "Monitor's own audio capability factored in alongside the switch", description: "Factored in that a monitor's own speaker or audio output capability matters alongside the switch's audio-carrying capability." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -227,11 +227,11 @@ export const faq: FaqItem[] = [
   { q: "Can I use a USB headset instead of worrying about audio switching?", a: "Yes, this bypasses HDMI or 3.5mm audio switching questions by routing audio through USB peripheral switching instead." },
   { q: "Do I need a monitor with speakers for a KVM switch's audio to work?", a: "The switch's audio-carrying capability only matters if your monitor itself has working speakers or audio output, verify both." },
   { q: "Which pick in this comparison is the best overall choice?", a: "Buyers using monitor speakers or HDMI-connected audio wanting automatic switching" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting the most affordable HDMI-carried audio switching At $26.23, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting the most affordable HDMI-carried audio switching At under $30, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-hdmi-kvm-switches", title: "Best HDMI KVM Switches (2026)" },
   { href: "/guide/best-usb-kvm-switches", title: "Best USB KVM Switches (2026)" },
-  { href: "/guide/best-kvm-switches-for-gaming", title: "Best KVM Switches for Gaming (2026)" },
+  { href: "/guide/best-kvm-switches-for-gaming", title: "Best KVM Switches for Gaming (2026)" }
 ];

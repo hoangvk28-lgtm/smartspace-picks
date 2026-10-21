@@ -81,11 +81,11 @@ export const picks: ComparePick[] = [
       "Covers the full desk surface — protects from scratches and spills",
       "Smooth PU leather top works well with optical mice",
       "Non-slip rubber base stays in place without adhesive",
-      "Wipes clean in seconds — spill-resistant surface",
+      "Wipes clean in seconds — spill-resistant surface"
     ],
     tradeoffs: [
       "PU leather can feel warm in summer",
-      "Edges may curl if stored rolled for a long time",
+      "Edges may curl if stored rolled for a long time"
     ],
     redditNote:
       "Frequently recommended in r/battlestations for budget desk protection. Popular with people who want a clean, minimal desk aesthetic.",
@@ -104,12 +104,12 @@ export const picks: ComparePick[] = [
     whyItWorks: [
       "Dual-sided: PU leather for smooth mousing, felt for a softer look",
       "Felt side protects surface better from impact",
-      "Budget price at $18–$25",
-      "Available in multiple colors to match desk setups",
+      "Budget price at under $20–$25",
+      "Available in multiple colors to match desk setups"
     ],
     tradeoffs: [
       "Thinner than single-sided mats — less padding",
-      "Felt side attracts dust and lint",
+      "Felt side attracts dust and lint"
     ],
   },
   {
@@ -127,11 +127,11 @@ export const picks: ComparePick[] = [
       "Wool felt has a premium, textured look that elevates minimalist setups",
       "Largest coverage at 35.4 × 17.3 in — fits wide desks",
       "Soft surface muffles keyboard noise",
-      "Natural material stays cool even in warm climates",
+      "Natural material stays cool even in warm climates"
     ],
     tradeoffs: [
       "Felt surface is less smooth for gaming mice at high DPI",
-      "Harder to clean spills vs PU leather",
+      "Harder to clean spills vs PU leather"
     ],
   },
   {
@@ -150,11 +150,11 @@ export const picks: ComparePick[] = [
       "Consistent surface texture works with all optical and laser mice",
       "Stitched edges prevent fraying after months of use",
       "Premium feel at a $10–$18 price",
-      "Matches Logitech's Studio Series keyboard and mouse aesthetics",
+      "Matches Logitech's Studio Series keyboard and mouse aesthetics"
     ],
     tradeoffs: [
       "Standard size only — doesn't cover the full desk",
-      "Not waterproof — spills seep through",
+      "Not waterproof — spills seep through"
     ],
   },
   {
@@ -172,15 +172,15 @@ export const picks: ComparePick[] = [
       "XL size covers keyboard and mouse zone completely",
       "Micro-weave cloth optimized for fast mouse movements and precision",
       "Thick 3mm base absorbs desk vibration",
-      "Best value for gaming use at $14–$19",
+      "Best value for gaming use at under $15–$19"
     ],
     tradeoffs: [
       "Gaming aesthetic (dark color, logo) — not ideal for minimalist setups",
-      "Cloth surface absorbs spills — needs careful maintenance",
+      "Cloth surface absorbs spills — needs careful maintenance"
     ],
     redditNote:
       "Consistent top pick in r/MouseReview for budget extended pads. Praised for surface speed and durability.",
-  },
+  }
 ];
 
 // ─── Head-to-head criteria ─────────────────────────────────────────────────────
@@ -227,7 +227,7 @@ export const headToHead: HeadToHead[] = [
     winner: "pad",
     winnerLabel: "Mouse Pad wins",
     summary:
-      "Mouse pads start at $10 and a quality pick costs $10–$19. Desk mats start at $18 and a quality mat runs $20–$30. Both are affordable, but pads are cheaper per dollar of value.",
+      "Mouse pads start at $10 and a quality pick costs $10–$19. Desk mats start at under $20 and a quality mat runs $20–$30. Both are affordable, but pads are cheaper per dollar of value.",
     matSummary: "$18–$30 for a quality mat. Still affordable.",
     padSummary: "$10–$19 for an excellent pad. Lowest entry cost.",
   },
@@ -239,7 +239,7 @@ export const headToHead: HeadToHead[] = [
       "PU leather desk mats wipe clean with a damp cloth in seconds. Cloth mouse pads absorb spills and require hand washing. For coffee-prone desks, mats win on maintenance.",
     matSummary: "PU leather: wipe clean instantly. Felt: harder to clean.",
     padSummary: "Cloth pads absorb spills and need washing. Longer drying time.",
-  },
+  }
 ];
 
 // ─── Decision flowchart steps ─────────────────────────────────────────────────
@@ -281,7 +281,7 @@ export const flowSteps: FlowStep[] = [
     yesLabel: "Yes, precision work",
     noLabel: "No, general desk use",
     terminal: true,
-  },
+  }
 ];
 
 // ─── Scenarios ─────────────────────────────────────────────────────────────────
@@ -326,7 +326,7 @@ export const scenarios: Scenario[] = [
     price: "$10–$18",
     detail:
       "At $10–$18, the Logitech Studio Series gives you stitched edges, consistent tracking, and a quality feel that justifies the cost over a $5 no-name pad. Simple and reliable.",
-  },
+  }
 ];
 
 // ─── Common mistakes ──────────────────────────────────────────────────────────
@@ -347,7 +347,7 @@ export const mistakes = [
   {
     title: "Assuming a desk mat replaces a proper mouse pad for gaming",
     body: "Leather desk mats have inconsistent texture — fine for work mice at 800–1600 DPI, but at 3200+ DPI used in competitive gaming, dedicated gaming cloth pads track more accurately. Use a gaming pad on top of the mat if you need both desk protection and precision.",
-  },
+  }
 ];
 
 // ─── FAQ ──────────────────────────────────────────────────────────────────────
@@ -376,7 +376,7 @@ export const faq: Array<{ q: string; a: string }> = [
   {
     q: "Are extended mouse pads the same as desk mats?",
     a: "They overlap but are not identical. Extended mouse pads (like the Ktrio XL) are cloth-based and optimized for mouse tracking — they cover the keyboard and mouse zone but are typically thinner and gaming-focused. Desk mats are usually PU leather or felt, thicker, and focused on desk protection and aesthetics over tracking performance.",
-  },
+  }
 ];
 
 // ─── Summary table ─────────────────────────────────────────────────────────────
@@ -387,5 +387,5 @@ export const summaryTable = [
   { factor: "Desk protection", mat: "Full surface protection", pad: "Mouse area only" },
   { factor: "Aesthetics", mat: "Unified desk look", pad: "Standalone piece" },
   { factor: "Price", mat: "$18–$30", pad: "$10–$19" },
-  { factor: "Cleaning", mat: "PU leather: wipe clean", pad: "Cloth: hand wash needed" },
+  { factor: "Cleaning", mat: "PU leather: wipe clean", pad: "Cloth: hand wash needed" }
 ];

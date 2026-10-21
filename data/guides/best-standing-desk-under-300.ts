@@ -51,21 +51,21 @@ export const products: StandingDesk300[] = [
     tradeoffs: [
       "Single motor - more lateral movement at max height vs dual",
       '46.5" max height - limited for users 6\'1"+',
-      "One-piece top cannot be swapped independently",
+      "One-piece top cannot be swapped independently"
     ],
     skipIf:
-      'You are 6\'1" or taller. The VIVO 55x24 at $230-$270 reaches 48.4" standing height.',
+      'You are 6\'1" or taller. The VIVO 55x24 at under $250-$270 reaches 48.4" standing height.',
     pros: [
       "One-piece seamless desktop - cleaner look",
       "176 lb capacity",
       "4 memory presets + anti-collision",
       "FlexiSpot brand reliability",
-      "Multiple color combinations",
+      "Multiple color combinations"
     ],
     cons: [
       "Single motor - wobble at max height",
       '46.5" max height limits taller users',
-      "One-piece top not swappable",
+      "One-piece top not swappable"
     ],
   },
   {
@@ -88,7 +88,7 @@ export const products: StandingDesk300[] = [
       "Larger footprint - not ideal for very small rooms",
       "Single motor",
       "3 memory presets vs 4 on FlexiSpot EN1",
-      "Light Wood color may show wear faster",
+      "Light Wood color may show wear faster"
     ],
     skipIf:
       "You have a small room or only need a single monitor. The FlexiSpot EN1 at $150-$250 is the better value for standard setups.",
@@ -97,13 +97,13 @@ export const products: StandingDesk300[] = [
       '48.4" max height for users up to 6\'2"',
       "3-year warranty - longest for complete desks here",
       "Anti-collision protection",
-      "Multiple color options",
+      "Multiple color options"
     ],
     cons: [
       "Larger footprint",
       "Single motor",
       "3 presets vs 4",
-      "Light Wood shows wear faster",
+      "Light Wood shows wear faster"
     ],
   },
   {
@@ -126,7 +126,7 @@ export const products: StandingDesk300[] = [
       '45.5" max height - not suitable for users 6\'0"+',
       "Splice-board top (two-piece) - visible center seam",
       "Slightly heavier to move and assemble",
-      "1-2 year warranty shorter than EN1 or VIVO",
+      "1-2 year warranty shorter than EN1 or VIVO"
     ],
     skipIf:
       "You are 6'0\" or taller. The 45.5\" max height cannot reach ergonomic standing position for users above that height.",
@@ -135,13 +135,13 @@ export const products: StandingDesk300[] = [
       '27.3" min height - good for shorter users',
       "4 memory presets + anti-collision",
       "Under 50dB - quieter than most single-motor options",
-      "White/Natural colorway",
+      "White/Natural colorway"
     ],
     cons: [
       '45.5" max height - not for users 6\'0"+',
       "Splice-board top with visible seam",
       "Heavier assembly",
-      "1-2 year warranty",
+      "1-2 year warranty"
     ],
   },
   {
@@ -163,7 +163,7 @@ export const products: StandingDesk300[] = [
     tradeoffs: [
       "45.3\" max standing height - restrictive for users 5'10\"+",
       "1-year warranty only",
-      "154 lb capacity - lighter than EN1 or VIVO",
+      "154 lb capacity - lighter than EN1 or VIVO"
     ],
     skipIf:
       "You are over 5'10\". The 45.3\" max height cannot reach ergonomic standing position for taller users.",
@@ -171,12 +171,12 @@ export const products: StandingDesk300[] = [
       "Built-in drawer + cable management tray included",
       "Digital LED height display",
       "Multiple finish options (Oak, Maple, Black, White)",
-      "Among the most affordable here",
+      "Among the most affordable here"
     ],
     cons: [
       '45.3" max height - limits users 5\'10"+',
       "1-year warranty",
-      "154 lb capacity - lowest here",
+      "154 lb capacity - lowest here"
     ],
   },
   {
@@ -199,7 +199,7 @@ export const products: StandingDesk300[] = [
       "No desktop included - total cost requires adding a top ($40-$150+ depending on choice)",
       "110 lb capacity - lowest in this guide",
       "Only 2 memory presets",
-      "Not turnkey - requires selecting and purchasing a compatible top",
+      "Not turnkey - requires selecting and purchasing a compatible top"
     ],
     skipIf:
       "You want a ready-to-use desk. Total cost with IKEA LINNMON ($60) is $180-$230, similar to EN1 but with more effort.",
@@ -208,13 +208,13 @@ export const products: StandingDesk300[] = [
       'Fits tops from 43"-83" - maximum size flexibility',
       '47.6" max height - excellent for taller users',
       "IKEA compatible",
-      "2-year FlexiSpot warranty",
+      "2-year FlexiSpot warranty"
     ],
     cons: [
       "No desktop included - additional cost required",
       "110 lb capacity - lowest here",
       "Only 2 memory presets",
-      "Not ready-to-use",
+      "Not ready-to-use"
     ],
   },
   {
@@ -234,10 +234,10 @@ export const products: StandingDesk300[] = [
     whyItWorks:
       "5-year warranty (2.5-5x longer than all other desks in this guide). Commercial T-style leg frame - the same used in Vari's office furniture line. Tool-free assembly in 30 minutes. Vari is a standing desk specialist brand. Hazel Wood finish suits warm desk aesthetics.",
     tradeoffs: [
-      "Highest price in this guide at $295-$299",
+      "Highest price in this guide at under $300-$299",
       "150 lb capacity - slightly lower than EN1 or VIVO",
       "Single motor",
-      "Two-piece laminate top - visible seam",
+      "Two-piece laminate top - visible seam"
     ],
     skipIf:
       "Budget is under $250. The FlexiSpot EN1 provides a one-piece top at lower cost if you do not need the 5-year warranty.",
@@ -246,13 +246,13 @@ export const products: StandingDesk300[] = [
       "Tool-free assembly in 30 min",
       "Commercial T-style frame",
       "Vari specialist brand support",
-      "Hazel Wood finish suits warm aesthetics",
+      "Hazel Wood finish suits warm aesthetics"
     ],
     cons: [
-      "Highest price at $295-$299",
+      "Highest price at under $300-$299",
       "150 lb capacity slightly lower",
       "Single motor",
-      "Two-piece laminate top",
+      "Two-piece laminate top"
     ],
   },
   {
@@ -275,7 +275,7 @@ export const products: StandingDesk300[] = [
       '45.5" max height - not suitable for users 6\'0"+',
       "Single motor",
       "Heavier and more complex assembly",
-      "Rustic Brown is the primary available colorway",
+      "Rustic Brown is the primary available colorway"
     ],
     skipIf:
       "You do not need extra storage. The FlexiSpot EN1 is lighter, simpler, and has a seamless one-piece top at similar pricing.",
@@ -284,15 +284,15 @@ export const products: StandingDesk300[] = [
       "176 lb capacity",
       "Anti-collision sensor",
       "Eliminates need for separate under-desk storage",
-      "Replaces desk + drawer unit",
+      "Replaces desk + drawer unit"
     ],
     cons: [
       '45.5" max height - not for 6\'0"+',
       "Single motor",
       "Heavier assembly",
-      "Limited to Rustic Brown colorway",
+      "Limited to Rustic Brown colorway"
     ],
-  },
+  }
 ];
 
 export interface AtAGlanceRow {
@@ -340,7 +340,7 @@ export const faq: FaqItem[] = [
   {
     q: "Can I pair a standing desk with an IKEA ALEX drawer unit?",
     a: 'Yes - the ALEX drawer unit (depth: 23.2") fits under most 24"-deep standing desks when at sitting height. At standing height the desk rises above the ALEX unit. The FlexiSpot EC1 frame is the most documented option for IKEA pairings.',
-  },
+  }
 ];
 
 export const relatedGuides = [
@@ -363,5 +363,5 @@ export const relatedGuides = [
   {
     href: "/guide/ergonomic-desk-setup",
     title: "Ergonomic Desk Setup Guide",
-  },
+  }
 ];

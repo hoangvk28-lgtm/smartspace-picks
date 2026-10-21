@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "dual monitor standing desk converter";
 export const introParagraphs = [
   "Dual-monitor converters split into two real product types: wide platforms with enough surface area for two monitor bases, and converters with an integrated dual-VESA mount built in. We checked which type each pick actually is rather than assuming any wide platform automatically supports two screens well.",
-  "A wider platform also means a larger base footprint and higher potential load, so we noted where this matters for desk fit alongside the monitor support itself.",
+  "A wider platform also means a larger base footprint and higher potential load, so we noted where this matters for desk fit alongside the monitor support itself."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "9 min";
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Distinguished open platforms from integrated monitor mounts", description: "We flagged which picks have a dedicated dual-monitor arm system versus simply enough open surface area for separate monitor bases, since these serve different setups differently." },
   { title: "Verified VESA-mount picks state a specific size range", description: "For integrated mount options, we noted the stated compatible monitor size range rather than assuming universal fit." },
   { title: "Weighed electric lift for heavier dual-monitor loads", description: "We flagged where electric adjustment offers a genuine advantage over manual gas-spring lift when carrying two monitors' combined weight." },
-  { title: "Compared platform width against base footprint requirements", description: "Wider platforms need a larger base on the existing desk, and we noted this tradeoff for buyers with limited desk depth." },
+  { title: "Compared platform width against base footprint requirements", description: "Wider platforms need a larger base on the existing desk, and we noted this tradeoff for buyers with limited desk depth." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -270,7 +270,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
@@ -279,11 +279,11 @@ export const faq: FaqItem[] = [
   { q: "What's the most proven dual-monitor option?", a: "The Vari VariDesk Pro Plus 48, at 48 inches wide, with a strong review base from an established brand." },
   { q: "Is there a budget option for dual monitors?", a: "Yes, the FITUEYES Height Adjustable Standing Desk 36 Inch, an open platform at a lower price than the premium alternatives." },
   { q: "Should I get electric or manual for a dual-monitor setup?", a: "Electric adjustment handles the heavier combined weight of two monitors more easily; manual gas-spring converters are cheaper but may feel harder to adjust under more load." },
-  { q: "What monitor size range do integrated mounts support?", a: "The VIVO integrated mount option is rated for 13 to 30 inch monitors; verify your specific displays fall within the stated range for any integrated mount." },
+  { q: "What monitor size range do integrated mounts support?", a: "The VIVO integrated mount option is rated for 13 to 30 inch monitors; verify your specific displays fall within the stated range for any integrated mount." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-standing-desk-converters-with-monitor-mounts", title: "Best Standing Desk Converters with Monitor Mounts (2026)" },
   { href: "/guide/best-3-monitor-standing-desk-converters", title: "Best 3-Monitor Standing Desk Converters (2026)" },
-  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
+  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" }
 ];

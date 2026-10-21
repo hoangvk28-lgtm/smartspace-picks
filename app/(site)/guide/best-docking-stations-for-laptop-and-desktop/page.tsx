@@ -182,7 +182,7 @@ export default async function DockingLaptopDesktopPage() {
           <div className="grid sm:grid-cols-2 gap-4 mb-5">
             {[
               { label: "Standard Docking Station", items: ["Connects one laptop to monitors, Ethernet, and peripherals via one cable", "When you switch to your desktop, you disconnect from the dock and plug into the desktop directly", "Fine if your desk is used by one computer at a time, with a few minutes to re-plug"] },
-              { label: "KVM Docking Station", items: ["Connects two computers to the same monitors, keyboard, and mouse", "A button (or hotkey) switches the entire peripheral set between Computer A and Computer B -- monitors change input, keyboard and mouse swap, instantly", "No cable unplugging. No re-plugging. One press or hotkey"] },
+              { label: "KVM Docking Station", items: ["Connects two computers to the same monitors, keyboard, and mouse", "A button (or hotkey) switches the entire peripheral set between Computer A and Computer B -- monitors change input, keyboard and mouse swap, instantly", "No cable unplugging. No re-plugging. One press or hotkey"] }
             ].map((col, i) => (
               <div key={i} className={`p-4 rounded-xl border ${i === 1 ? "border-brand/30 bg-brand/5" : "border-border bg-white"}`}>
                 <p className="font-bold text-ink text-sm mb-2">{col.label}</p>
@@ -226,7 +226,7 @@ export default async function DockingLaptopDesktopPage() {
           <div className="grid sm:grid-cols-2 gap-4 mb-4">
             {[
               { label: "Desktop benefits from a dock when", items: ["The desktop has a Thunderbolt or USB4 port and you want to expand bandwidth", "You are using a KVM setup and both computers need to connect via the same dock", "The desktop lacks a specific port (e.g., older desktop, no USB-C)"] },
-              { label: "Desktop does NOT need a dock when", items: ["It already has HDMI/DP outputs for monitors", "It has enough USB-A ports for keyboard, mouse, and accessories", "It has an Ethernet port", "You plan to switch manually between laptop and desktop cables"] },
+              { label: "Desktop does NOT need a dock when", items: ["It already has HDMI/DP outputs for monitors", "It has enough USB-A ports for keyboard, mouse, and accessories", "It has an Ethernet port", "You plan to switch manually between laptop and desktop cables"] }
             ].map((col, i) => (
               <div key={i} className={`p-4 rounded-xl border ${i === 0 ? "border-cta/30 bg-cta-light/20" : "border-red-200 bg-red-50"}`}>
                 <p className="text-xs font-bold uppercase tracking-widest mb-2" style={{ color: i === 0 ? "#16a34a" : "#dc2626" }}>{col.label}</p>
@@ -302,7 +302,7 @@ export default async function DockingLaptopDesktopPage() {
             {[
               { product: "StarTech USB-C KVM Dock", context: "For daily switching between two computers", verdict: "is the only pick that eliminates cable handling. Both computers stay connected, one button switches everything. Worth the $300+ if you switch multiple times daily.", href: "#best-kvm" },
               { product: "Plugable USB4 11-in-1", context: "For occasional switching or single-host use", verdict: "gives you the best display output (4K@120Hz) and bandwidth for the price. The cable swap is a 10-second trade-off for $150+ in savings.", href: "#best-usb4" },
-              { product: "Selore 8-in-1", context: "For tight budgets", verdict: "costs under $55 and handles a functional dual-monitor desk with any USB-C computer.", href: "#best-budget" },
+              { product: "Selore 8-in-1", context: "For tight budgets", verdict: "costs under $55 and handles a functional dual-monitor desk with any USB-C computer.", href: "#best-budget" }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
@@ -330,7 +330,7 @@ export default async function DockingLaptopDesktopPage() {
               { href: "/guide/best-docking-stations-for-desk-setup", title: "Best Docking Stations for Desk Setup", desc: "Full docking station guide for single-computer setups" },
               { href: "/guide/best-charging-stations-for-desk", title: "Best Charging Stations for Desk", desc: "Device charging without monitor connectivity" },
               { href: "/guide/under-desk-charging-station", title: "Best Under-Desk Charging Stations", desc: "Hide the dock and cables under the desk" },
-              { href: "/guide/ergonomic-desk-setup", title: "Ergonomic Desk Setup Guide", desc: "How to position everything correctly" },
+              { href: "/guide/ergonomic-desk-setup", title: "Ergonomic Desk Setup Guide", desc: "How to position everything correctly" }
             ].map((g) => (
               <Link prefetch={false} key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
                 <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">

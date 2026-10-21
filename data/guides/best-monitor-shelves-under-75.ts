@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["The highest weight capacity with hardwood craftsmanship", "Nordik Dual Monitor Stand Riser, Hardwood Acacia Monitor Shelf"],
         ["A reconfigurable stand for an L-desk or corner setup", "ROCDEER Dual Monitor Stand Riser, Customizable Configuration"],
-        ["Solid bamboo capacity while saving versus the priciest picks", "ROCDEER Bamboo Monitor Stand Riser with Drawer"],
+        ["Solid bamboo capacity while saving versus the priciest picks", "ROCDEER Bamboo Monitor Stand Riser with Drawer"]
       ],
     },
   },
@@ -116,9 +116,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $40", "HOOBRO 2-Tier Dual Monitor Stand ($39.99)"],
-        ["$50-$60", "ROCDEER Bamboo ($49.99) or ROCDEER Customizable ($59.99)"],
-        ["Under $70", "Nordik Hardwood Acacia ($69.97)"],
+        ["Under $40", "HOOBRO 2-Tier Dual Monitor Stand (under $40)"],
+        ["$50-$60", "ROCDEER Bamboo (under $50) or ROCDEER Customizable (under $60)"],
+        ["Under $70", "Nordik Hardwood Acacia (under $70)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Solid Hardwood vs Bamboo Construction",
     cards: [
       { label: "Solid Acacia Hardwood (Nordik)", text: "Hand-polished, genuinely one-of-a-kind grain patterns with the highest weight capacity in this comparison, at a price premium for the material quality." },
-      { label: "FSC-Certified Bamboo (ROCDEER picks)", text: "Still genuinely sustainable and sturdy with a 100-130 lb capacity, at a meaningfully lower price than solid hardwood." },
+      { label: "FSC-Certified Bamboo (ROCDEER picks)", text: "Still genuinely sustainable and sturdy with a 100-130 lb capacity, at a meaningfully lower price than solid hardwood." }
     ],
     note: "If maximum weight capacity and unique hardwood character matter most, the Nordik pick justifies its premium. For most standard desk setups, the bamboo picks deliver excellent value at a lower cost.",
   },
@@ -136,7 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your desk type", "Recommended pick"],
       rows: [
         ["Standard rectangular desk, single or dual monitor", "Nordik Hardwood, ROCDEER Bamboo, or HOOBRO"],
-        ["L-desk, corner desk, or 3-monitor setup", "ROCDEER Customizable Configuration (modular design)"],
+        ["L-desk, corner desk, or 3-monitor setup", "ROCDEER Customizable Configuration (modular design)"]
       ],
     },
   },
@@ -144,16 +144,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Corner or L-Shaped Desk Specifically",
     cards: [
       { label: "Look for", text: "A genuinely modular stand that can separate into multiple individual shelves, rather than one fixed rectangular platform that won't fit an angled desk layout." },
-      { label: "In this comparison", text: "The ROCDEER Customizable Configuration is specifically patented for this modular reconfiguration, splitting into 2 or 3 separate shelves as needed." },
+      { label: "In this comparison", text: "The ROCDEER Customizable Configuration is specifically patented for this modular reconfiguration, splitting into 2 or 3 separate shelves as needed." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the highest weight capacity and genuinely unique hardwood craftsmanship, where the Nordik pick delivers 200 lbs of capacity and hand-polished Acacia wood." },
-      { label: "Save if", text: "Straightforward dual-monitor support covers your needs, where the HOOBRO pick delivers this at nearly half the price of the Nordik pick." },
+      { label: "Save if", text: "Straightforward dual-monitor support covers your needs, where the HOOBRO pick delivers this at nearly half the price of the Nordik pick." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -171,7 +171,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "FSC Certification Appears at Multiple Price Points, Not Just the Priciest Option",
-    "explanation": "Both ROCDEER picks in this comparison, at $49.99 and $59.99, carry the same FSC certification as pricier sustainable furniture options, demonstrating that responsible sourcing doesn't require paying the absolute highest price in a comparison. If sustainable material sourcing matters to your purchase decision, check for this specific certification across the full price range rather than assuming only the most expensive pick offers it."
+    "explanation": "Both ROCDEER picks in this comparison, at under $50 and under $60, carry the same FSC certification as pricier sustainable furniture options, demonstrating that responsible sourcing doesn't require paying the absolute highest price in a comparison. If sustainable material sourcing matters to your purchase decision, check for this specific certification across the full price range rather than assuming only the most expensive pick offers it."
   },
   {
     "criterion": "Height-Adjustable Legs Solve a Different Problem Than Height-Adjustable Platforms",

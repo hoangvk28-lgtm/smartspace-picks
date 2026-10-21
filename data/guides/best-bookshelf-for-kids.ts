@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "bookshelf for kids";
 export const introParagraphs = [
   "A good kids' bookshelf does more than store books, it should help young children pick titles by their covers, sit low enough for a toddler to reach independently, and hold up to daily use in a nursery or playroom.",
-  "Below are 8 kids' bookshelves we evaluated on safety, design, and storage style, ranging from front-facing sling pockets that display covers to genuine Montessori-inspired shelving and combined book-and-toy organizers.",
+  "Below are 8 kids' bookshelves we evaluated on safety, design, and storage style, ranging from front-facing sling pockets that display covers to genuine Montessori-inspired shelving and combined book-and-toy organizers."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -51,24 +51,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41aYmEEowHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07Q55HRS1?tag=deskfinds0d-20",
     description:
-      "The Humble Crew is the best-selling kids' bookshelf on the market by a wide margin, with nearly 38,000 ratings backing its 4.6-star average. Four deep nylon fabric pockets hold books front-facing rather than spine-out, so young kids can spot the cover art and pick titles on their own well before they're reading independently. Rounded child-safe corners and a lightweight engineered-wood frame at just 12.6 lbs total make it easy to place freestanding in a nursery or playroom without tipping risk, and the low price makes it an easy first bookshelf. Worth calling out specifically: front-facing pockets let kids choose books by cover. The catch is smaller capacity than the 6-tier Humble Crew.",
+      "Four deep nylon fabric pockets hold books front-facing rather than spine-out, so young kids can spot the cover art and pick titles on their own well before they're reading independently. Rounded child-safe corners and a lightweight engineered-wood frame at just 12.6 lbs total make it easy to place freestanding in a nursery or playroom without tipping risk, and the low price makes it an easy first bookshelf. Worth calling out specifically: front-facing pockets let kids choose books by cover. The catch is smaller capacity than the 6-tier Humble Crew.",
     specs: [
       "25\"W x 10.6\"D x 23.5\"H",
       "Engineered wood + 4 nylon fabric front-facing pockets",
       "12.6 lb total weight",
       "Rounded child-safe corners",
-      "Freestanding, ages 3+",
+      "Freestanding, ages 3+"
     ],
     pros: [
-      "Best-selling kids' bookshelf with nearly 38,000 ratings",
       "Front-facing pockets let kids choose books by cover",
       "Rounded safety corners",
-      "Cheapest pick in this list at $24.99",
+      "Cheapest pick in this list at under $25"
     ],
     cons: [
       "Smaller capacity than the 6-tier Humble Crew",
       "Fabric pockets less durable than solid wood shelving",
-      "No enclosed storage for toys",
+      "No enclosed storage for toys"
     ],
     bestFor: "First-time buyers who want the most proven, budget-friendly front-facing kids' bookshelf",
   },
@@ -89,18 +88,17 @@ export const products: GuideProduct[] = [
       "Engineered wood + 6 nylon fabric front-facing pockets",
       "25% more storage than standard Humble Crew size",
       "Rounded corners",
-      "Freestanding, ages 3+",
+      "Freestanding, ages 3+"
     ],
     pros: [
       "Highest-capacity front-facing pick with 6 tiers",
       "25% more storage than the standard Humble Crew size",
-      "Highest rating in this list at 4.7 stars",
-      "Same trusted rounded-corner safety design",
+      "Same trusted rounded-corner safety design"
     ],
     cons: [
       "Pricier than the standard 4-tier Humble Crew",
       "Taller footprint needs more wall clearance",
-      "Fewer total ratings than the standard size",
+      "Fewer total ratings than the standard size"
     ],
     bestFor: "Families who need more front-facing book storage than the standard 4-tier size provides",
   },
@@ -121,18 +119,18 @@ export const products: GuideProduct[] = [
       "Engineered wood + recycled polyester fabric",
       "Made from 8 recycled plastic bottles per unit",
       "Holds 35 books",
-      "52.5 lb total, ages 3+",
+      "52.5 lb total, ages 3+"
     ],
     pros: [
       "Most eco-friendly pick, fabric made from recycled plastic bottles",
       "Holds up to 35 books",
       "Nordic-inspired design suits modern nurseries",
-      "Sturdier, more substantial build",
+      "Sturdier, more substantial build"
     ],
     cons: [
       "Pricier than the Humble Crew picks",
       "Fewer tiers than the 6-tier Humble Crew",
-      "Heavier, less portable than lightweight alternatives",
+      "Heavier, less portable than lightweight alternatives"
     ],
     bestFor: "Eco-conscious parents who want genuine recycled materials in a nursery-ready design",
   },
@@ -153,18 +151,18 @@ export const products: GuideProduct[] = [
       "FSC-certified engineered wood + cotton sling pockets",
       "Rounded corners",
       "11.65 lbs, lightweight",
-      "Simple assembly",
+      "Simple assembly"
     ],
     pros: [
       "FSC-certified eco-friendly wood",
       "Lightest freestanding pick in this list at 11.65 lbs",
       "Compact 12\" depth fits small rooms",
-      "Simple assembly",
+      "Simple assembly"
     ],
     cons: [
       "Lower total book capacity than the 3 Sprouts",
       "Lightweight build feels less substantial than heavier picks",
-      "No enclosed storage for toys",
+      "No enclosed storage for toys"
     ],
     bestFor: "Small bedrooms or playrooms where a lightweight, easy-to-move bookshelf matters most",
   },
@@ -185,18 +183,18 @@ export const products: GuideProduct[] = [
       "Solid pine wood (not MDF or melamine)",
       "2 cotton canvas drawers",
       "Paint-free, formaldehyde-free finish",
-      "Hand-polished rounded corners",
+      "Hand-polished rounded corners"
     ],
     pros: [
       "Genuinely solid pine wood, not MDF or melamine",
       "Paint-free, formaldehyde-free finish",
       "2 cotton drawers add hidden storage",
-      "Safest pick for a nursery or toddler room",
+      "Safest pick for a nursery or toddler room"
     ],
     cons: [
       "Fewer total ratings than the top sellers",
       "Pricier than the fabric-pocket picks",
-      "Heavier than the lightweight UTEX",
+      "Heavier than the lightweight UTEX"
     ],
     bestFor: "Parents who want genuine solid wood construction with no paint or formaldehyde concerns in a nursery",
   },
@@ -217,18 +215,17 @@ export const products: GuideProduct[] = [
       "Solid wood, scalloped design",
       "3 tiers, front-facing display",
       "Low toddler-friendly height",
-      "Freestanding",
+      "Freestanding"
     ],
     pros: [
       "True Montessori-inspired scalloped design",
       "Low toddler-friendly height encourages independence",
-      "Solid wood construction",
-      "Strong 4.6-star rating",
+      "Solid wood construction"
     ],
     cons: [
       "Only 3 tiers, less capacity than the 4- and 6-tier picks",
       "Pricier than the entry-level Humble Crew picks",
-      "Low height means less floor-to-ceiling storage",
+      "Low height means less floor-to-ceiling storage"
     ],
     bestFor: "Parents who want a genuine Montessori-style shelf that lets toddlers pick books independently",
   },
@@ -249,18 +246,18 @@ export const products: GuideProduct[] = [
       "Solid pine wood",
       "12 bins (4 large + 8 small) + 6 shelves",
       "Front-extended base to prevent tipping",
-      "Rounded edges",
+      "Rounded edges"
     ],
     pros: [
       "Most storage capacity combining books and toys",
       "12 bins total for organized sorting",
       "Solid pine construction",
-      "Front-extended base resists tipping",
+      "Front-extended base resists tipping"
     ],
     cons: [
       "Widest pick in this list at 52.3\", needs more wall space",
       "Pricier than the book-only picks",
-      "Bins take up space that could otherwise hold more books",
+      "Bins take up space that could otherwise hold more books"
     ],
     bestFor: "Playrooms that need one unit to organize both books and toys",
   },
@@ -275,27 +272,26 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/416Ts2QVKNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G6LC4C9T?tag=deskfinds0d-20",
     description:
-      "The COZPAW's standout feature is a movable drawer on 360-degree wheels, letting a child roll toy or book storage exactly where they're playing rather than walking back and forth to a fixed shelf. It combines 3 tiers of open display with 5 sling pockets, mixing three different storage styles into one oak-finished unit.\n\nBuilt from MDF and rated for 65 lbs total, with rounded edges throughout, it's a versatile pick for a playroom where flexibility matters as much as raw capacity.\n\nA genuine advantage here is that combines open display, sling pockets, and rolling drawer storage. The tradeoff is lowest rating in this list at 4.4 stars.",
+      "The COZPAW's standout feature is a movable drawer on 360-degree wheels, letting a child roll toy or book storage exactly where they're playing rather than walking back and forth to a fixed shelf. It combines 3 tiers of open display with 5 sling pockets, mixing three different storage styles into one oak-finished unit.\n\nBuilt from MDF and rated for 65 lbs total, with rounded edges throughout, it's a versatile pick for a playroom where flexibility matters as much as raw capacity.\n\nA genuine advantage here is that combines open display, sling pockets, and rolling drawer storage.",
     specs: [
       "35.4\"W x 15.7\"D x 31.5\"H",
       "MDF",
       "3-tier display + 5 sling pockets + 1 movable drawer on 360° wheels",
       "Rounded edges",
-      "65 lb total",
+      "65 lb total"
     ],
     pros: [
       "Unique 360°-wheel movable drawer",
       "Combines open display, sling pockets, and rolling drawer storage",
       "Most versatile storage mix in this list",
-      "Attractive oak finish",
+      "Attractive oak finish"
     ],
     cons: [
-      "Lowest rating in this list at 4.4 stars",
       "Fewer total ratings than the top sellers",
-      "MDF construction, not solid wood",
+      "MDF construction, not solid wood"
     ],
     bestFor: "Playrooms where a child benefits from rolling, repositionable storage alongside fixed shelving",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -322,10 +318,7 @@ export const buyingCriteria: BuyingCriterion[] = [
 ];
 
 export const faq: FaqItem[] = [
-  {
-    q: "What is the best bookshelf for kids overall?",
-    a: "The Humble Crew 4-Tier Front-Facing Kids Bookshelf (Pick 1) is the best overall choice, the best-selling kids' bookshelf on the market with nearly 38,000 ratings and a low $24.99 price.",
-  },
+  
   {
     q: "Which kids' bookshelf is the most eco-friendly?",
     a: "The 3 Sprouts 4-Tier Recycled Kids Bookshelf (Pick 3) uses fabric pockets made from roughly 8 recycled plastic bottles per unit.",
@@ -353,11 +346,11 @@ export const faq: FaqItem[] = [
   {
     q: "What bookshelf height is best for my child's age?",
     a: "For toddlers around 1-3 years old, a low, scalloped design like the SpaceAid Montessori Bookshelf works best since it lets them reach and choose books entirely on their own. For older kids around 4-8, a taller 4-tier unit like the Humble Crew or UTEX is fine as long as the top shelf isn't so high they need to climb to reach it, and it's anchored to the wall regardless of height.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-bookshelf-3-tier", title: "Best 3-Tier Bookshelves in 2026" },
   { href: "/guide/best-bookshelf-white", title: "Best White Bookshelves in 2026" },
-  { href: "/guide/best-bookshelf-small", title: "Best Small Bookshelves in 2026" },
+  { href: "/guide/best-bookshelf-small", title: "Best Small Bookshelves in 2026" }
 ];

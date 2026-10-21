@@ -5,7 +5,7 @@ export const metaDescription = "5 UPS units we evaluated at the 850VA capacity t
 export const mainKeyword = "850VA UPS battery backup";
 export const introParagraphs = [
   "An 850VA rating typically translates to around 450-510W of real usable capacity, a genuine step up from the 600VA tier, enough headroom for a basic PC and monitor combination rather than just a single router or NAS device.",
-  "This tier sits in a useful middle ground, more real capacity than a 600VA entry unit without paying the premium of a 1000VA-plus pick, appropriate if your setup is a standard single-monitor desktop rather than a demanding multi-device or multi-monitor build.",
+  "This tier sits in a useful middle ground, more real capacity than a 600VA entry unit without paying the premium of a 1000VA-plus pick, appropriate if your setup is a standard single-monitor desktop rather than a demanding multi-device or multi-monitor build."
 ];
 export const lastUpdated = "2026-07-30";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best 850VA UPS Overall",
     name: "APC 850VA/510W Pro UPS Battery Backup for Office Electronics, AVR, BX850M",
     price: "$161.99",
-    rating: "4.6 stars from 796 Amazon ratings",
-    reviews: "796 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31xnh5VoQ4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06WP9Q8ZN?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Proven 850VA-Class Alternative",
     name: "APC UPS 650VA/390W Battery Backup & Surge Protector for PC, NAS | BE650G1",
     price: "$109.99",
-    rating: "4.6 stars from 4,110 Amazon ratings",
-    reviews: "4,110 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31pgnLVo0dL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B005GZRUZW?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget 850VA-Class Pick",
     name: "APC UPS 850VA/450W UPS Battery Backup & Surge Protector for PC, Router, NAS",
     price: "$137.70",
-    rating: "4.6 stars from 3,792 Amazon ratings",
-    reviews: "3,792 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/313IpZaRpEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B085JJZDFK?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Pure Sine Wave 850VA Pick",
     name: "CyberPower CP850PFCLCD PFC Sinewave UPS Battery Backup and Surge Protector",
     price: "$169.95",
-    rating: "4.4 stars from 896 Amazon ratings",
-    reviews: "896 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/317PvPHMHKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00429N18S?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Intelligent LCD 850VA Pick",
     name: "CyberPower CP850AVRLCD Intelligent LCD UPS Battery Backup",
     price: "$164.95",
-    rating: "4.4 stars from 543 Amazon ratings",
-    reviews: "543 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Y6I8mjmKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000RZPK1W?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Intelligent LCD for load/AVR status visibility", "AVR included", "Reasonable price at this tier", "Compact footprint"],
     cons: ["Smallest review base among 850VA-class picks here", "Not pure sine wave", "No coax/Ethernet surge protection confirmed"],
     bestFor: "Buyers who want real-time load and AVR status visibility at this capacity",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Real watts across the 850VA-labeled tier", description: "Checked the actual watt rating on each pick, since products labeled 850VA-class in this guide range from 390W to 510W of real capacity depending on design, a meaningful spread within a single VA label." },
   { title: "Appropriate use-case matching for a basic PC and monitor", description: "Confirmed each pick genuinely fits a standard single-monitor desktop setup, the natural step up from 600VA's single-device scope, without assuming this tier handles a multi-monitor build." },
-  { title: "Pure sine wave and AVR as real differentiators within this tier", description: "Distinguished the one genuinely pure sine wave option and the AVR-equipped picks from basic standby designs, since these are real feature differences even within the same nominal capacity class." },
+  { title: "Pure sine wave and AVR as real differentiators within this tier", description: "Distinguished the one genuinely pure sine wave option and the AVR-equipped picks from basic standby designs, since these are real feature differences even within the same nominal capacity class." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Do I need pure sine wave at the 850VA tier?", a: "If your PC has an active power factor correction (APFC) power supply, standard on most desktops built in the last decade, yes. The CyberPower CP850PFCLCD is the pure sine wave option at this capacity tier in this guide." },
   { q: "What's the difference between 850VA and 1000VA UPS units?", a: "The real usable wattage gap is meaningful but not huge, roughly 450-510W at 850VA versus 600-800W at 1000VA depending on design, enough to matter for a multi-device or higher-performance setup." },
   { q: "Which pick in this comparison is the best overall choice?", a: "Buyers with a basic PC and single monitor combination" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want a proven, budget-friendly alternative at the lower end of this capacity range At $109.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want a proven, budget-friendly alternative at the lower end of this capacity range At under $110, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-600va-ups-battery-backups", title: "Best 600VA UPS Battery Backups (2026)" },
   { href: "/guide/best-1000va-ups-battery-backups", title: "Best 1000VA UPS Battery Backups (2026)" },
-  { href: "/guide/best-ups-battery-backups-for-computers-and-monitors", title: "Best UPS Battery Backups for Computers and Monitors (2026)" },
+  { href: "/guide/best-ups-battery-backups-for-computers-and-monitors", title: "Best UPS Battery Backups for Computers and Monitors (2026)" }
 ];

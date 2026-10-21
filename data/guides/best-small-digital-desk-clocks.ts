@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small digital desk clock";
 export const introParagraphs = [
   "We set a real bar for this category: small in footprint, but still legible from a normal seated desk distance. A tiny clock with unreadable numbers isn't actually useful, so digit size and display contrast mattered as much as overall size.",
-  "This overlaps with our black desk clocks guide for the digital picks specifically, since black is the most common housing color in this compact digital category.",
+  "This overlaps with our black desk clocks guide for the digital picks specifically, since black is the most common housing color in this compact digital category."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41zup4v0gaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYST53T6?tag=deskfinds0d-20",
     description: "Large numbers specifically, addressing the compact-but-legible requirement directly, with by far the largest review base of any pick here.\n\nIt earns the top spot in this comparison over AMIR Digital Alarm Clock for one main reason. Largest review base and highest rating in this comparison. On price, it's actually priced above AMIR Digital Alarm Clock, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Large numbers specifically prioritize legibility. On the other side, Wooden body is slightly larger than the most minimal picks. That's the main tradeoff to weigh against everything above.",
-    specs: ["Digital display, large numbers","6,039 reviews at 4.6 stars"],
+    specs: ["Digital display, large numbers"],
     pros: ["Largest review base and highest rating in this comparison","Large numbers specifically prioritize legibility"],
     cons: ["Wooden body is slightly larger than the most minimal picks"],
     bestFor: "Buyers who want the most legible, most proven compact digital clock.",
@@ -47,7 +47,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31lCkRe812L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B093FJ45JJ?tag=deskfinds0d-20",
     description: "By far the largest review base in this comparison, showing widespread adoption at a low price, though with a noticeably lower rating than the other picks, worth reading current reviews for common complaints.\n\nOne spot below DreamSky Wooden Digital Alarm Clock for Bedroom Living Room in this ranking, it's priced lower than DreamSky Wooden Digital Alarm Clock for Bedroom Living Room. The compromise here is straightforward: Noticeably lower rating than the other picks, check current reviews for specific complaints. What you gain in return: Largest review base in this entire comparison. Whether that trade is worth it depends on which side matters more to you.\n\nWorth knowing before you decide: Cheapest option, tied with the Lamisola pick. On the other side, Noticeably lower rating than the other picks, check current reviews for specific complaints. That's the main tradeoff to weigh against everything above.",
-    specs: ["LED digital display","Battery-powered","11,246 reviews at 3.8 stars"],
+    specs: ["LED digital display","Battery-powered"],
     pros: ["Largest review base in this entire comparison","Cheapest option, tied with the Lamisola pick"],
     cons: ["Noticeably lower rating than the other picks, check current reviews for specific complaints"],
     bestFor: "Buyers who want the most widely-purchased budget option and are comfortable weighing its lower rating.",
@@ -63,7 +63,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41RTGQppK1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CCYBV2WX?tag=deskfinds0d-20",
     description: "Not strictly digital, an analog dial, but included as the honest compact/quiet alternative for buyers who assumed \"digital\" but would actually prefer a silent analog face at this small size.\n\nSitting just under AMIR Digital Alarm Clock, it costs more than AMIR Digital Alarm Clock. Here's the honest tradeoff: Analog, not digital, verify this matches what you're picturing. And here's what it gets you instead: Genuinely silent, non-ticking operation. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Small, compact footprint. On the other side, Analog, not digital, verify this matches what you're picturing. That's the main tradeoff to weigh against everything above.",
-    specs: ["4 inch analog dial","Non-ticking movement","274 reviews at 4.2 stars"],
+    specs: ["4 inch analog dial","Non-ticking movement"],
     pros: ["Genuinely silent, non-ticking operation","Small, compact footprint"],
     cons: ["Analog, not digital, verify this matches what you're picturing"],
     bestFor: "Buyers open to a small analog clock rather than strictly digital.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41D7sGB-aQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GCFGS5QJ?tag=deskfinds0d-20",
     description: "At 3.5 inches this is the smallest true footprint in this comparison, battery-powered, at a strong rating despite the smaller review base.\n\nRanked just behind JALL Analog Alarm Clock, it's priced lower than JALL Analog Alarm Clock. The real tradeoff against that pick: Smaller review base than the top picks. In exchange, it offers this instead: Smallest footprint in this comparison. That's the swap that decides whether this pick or the one above it is the better fit for a given buyer.\n\nWorth knowing before you decide: Strong rating despite smaller review base. On the other side, Smaller review base than the top picks. That's the main tradeoff to weigh against everything above.",
-    specs: ["3.5 inch, battery-powered","68 reviews at 4.5 stars"],
+    specs: ["3.5 inch, battery-powered"],
     pros: ["Smallest footprint in this comparison","Strong rating despite smaller review base"],
     cons: ["Smaller review base than the top picks"],
     bestFor: "Buyers who want the smallest possible digital clock footprint.",
@@ -95,7 +95,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41HXEjNzdTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D4DJ5TYP?tag=deskfinds0d-20",
     description: "A slim-profile mirror-surface digital design with the second-largest review base in this comparison, tied for the highest rating.\n\nOne spot below Lamisola 3.5 Inch Small Desk Battery Clock in this ranking, it costs more than Lamisola 3.5 Inch Small Desk Battery Clock. The compromise here is straightforward: Mirror finish may not suit every desk aesthetic. What you gain in return: Tied for highest rating in this comparison. Whether that trade is worth it depends on which side matters more to you.\n\nWorth knowing before you decide: Slim profile minimizes desk footprint. On the other side, Mirror finish may not suit every desk aesthetic. That's the main tradeoff to weigh against everything above.",
-    specs: ["Slim mirror-surface design","2,643 reviews at 4.6 stars"],
+    specs: ["Slim mirror-surface design"],
     pros: ["Tied for highest rating in this comparison","Slim profile minimizes desk footprint"],
     cons: ["Mirror finish may not suit every desk aesthetic"],
     bestFor: "Buyers who want a slim, well-proven digital clock with a modern finish.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Legibility required alongside compact size", description: "We specifically favored products advertising large numbers or high-contrast displays, since a small clock that's unreadable defeats the purpose." },
   { title: "Genuine footprint comparison", description: "We compared actual physical size across products, noting the Lamisola pick as the smallest true footprint here." },
   { title: "Review volume weighed honestly against rating", description: "We flagged where the largest review base (AMIR) carries a notably lower rating than smaller-volume competitors." },
-  { title: "Included one analog alternative for silence", description: "We noted the JALL analog pick as an honest alternative for buyers who want silence and compact size more than strictly digital numbers." },
+  { title: "Included one analog alternative for silence", description: "We noted the JALL analog pick as an honest alternative for buyers who want silence and compact size more than strictly digital numbers." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,15 +243,17 @@ export const buyingCriteria: BuyingCriterion[] = [
 ];
 
 export const faq: FaqItem[] = [
-  { q: "Which has the most reviews?", a: "The AMIR Digital Alarm Clock, with 11,246 reviews, though at a noticeably lower rating (3.8) than the other picks." },
-  { q: "Which is the highest-rated?", a: "The DreamSky Wooden Digital Alarm Clock and the Peakeep Slim Digital Mirror Clock are tied at 4.6 stars." },
+  
+  
   { q: "What's the smallest footprint?", a: "The Lamisola 3.5 Inch Small Desk Clock." },
   { q: "Is there a silent option?", a: "The JALL Analog Alarm Clock is genuinely silent and non-ticking, though it's analog rather than digital." },
-  { q: "What's the cheapest option?", a: "The Lamisola and AMIR clocks are tied at $9.99." },
+  { q: "What's the cheapest option?", a: "The Lamisola and AMIR clocks are tied at under $10." },
+  { q: "Do small digital clocks need to be plugged in?", a: "Not all of them. The AMIR LED clock and the Lamisola 3.5 inch clock are battery-powered, which keeps cables off a tight desk. Battery models are easier to place anywhere, but you will need to replace the batteries occasionally." },
+  { q: "Are mirror-surface digital clocks hard to read in daylight?", a: "They can be, because the mirrored face reflects bright light and the display looks dimmer. The Peakeep mirror clock works best in a bedroom or shaded corner. For a bright office, a plain dark face such as the DreamSky is easier to read." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-black-desk-clocks", title: "Best Black Desk Clocks (2026)" },
   { href: "/guide/best-desk-clocks-without-alarms", title: "Best Desk Clocks Without Alarms (2026)" },
-  { href: "/guide/best-desk-clocks", title: "Best Desk Clocks (2026)" },
+  { href: "/guide/best-desk-clocks", title: "Best Desk Clocks (2026)" }
 ];

@@ -12,7 +12,7 @@ export const deskCandleSafetyExplainedGuide: Guide = {
     "candle safety near laptop",
     "flameless candle for desk alternative",
     "candle placement office fire risk",
-    "wax warmer vs candle safety",
+    "wax warmer vs candle safety"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskCandleSafetyExplainedGuide: Guide = {
     "desk-humidifier-vs-diffuser",
     "space-heater-safety-explained",
     "desk-decor-clutter-balance",
-    "how-many-outlets-do-you-need-desk-setup",
+    "how-many-outlets-do-you-need-desk-setup"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskCandleSafetyExplainedGuide: Guide = {
       question: "Does candle placement on a cluttered desk increase risk beyond the flame itself?",
       answer:
         "Yes, a cluttered desk surface increases the chance of papers or other flammable items being accidentally knocked into or near the flame, or of the candle itself being tipped over, keeping a clear zone around a lit candle reduces this compounding risk.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const deskCandleSafetyExplainedGuide: Guide = {
     {
       heading: "Why Flameless Alternatives Genuinely Deliver Comparable Ambiance Benefit",
       body: `Modern flameless LED candles have improved significantly in replicating the visual warmth and flickering ambiance of a real flame, closing much of the aesthetic gap that once made flameless alternatives feel like an obvious compromise, combined with the complete elimination of open-flame fire risk, this makes flameless candles a genuinely reasonable choice specifically for a desk setting, rather than a lesser substitute you're settling for, the ambiance benefit that motivates candle use in the first place can be achieved without the corresponding fire risk that a traditional candle introduces to an already risk-elevated desk environment.`,
-    },
+    }
   ],
 };

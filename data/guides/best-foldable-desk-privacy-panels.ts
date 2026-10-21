@@ -5,7 +5,7 @@ export const metaDescription = "5 foldable desk privacy panels we evaluated, wit
 export const mainKeyword = "foldable desk privacy panel";
 export const introParagraphs = [
   "Foldable privacy panels fold flat for easy storage or transport, a genuine advantage over a fixed clamp-on panel, but the tradeoff is generally less rigidity, a foldable panel can wobble or shift under daily bumping in a way a mechanically clamped panel won't.",
-  "The number of fold panels and their hinge quality determines how well a foldable design holds its shape once set up, more panels generally means a more stable freestanding shape, but also more hinge points that can loosen over time.",
+  "The number of fold panels and their hinge quality determines how well a foldable design holds its shape once set up, more panels generally means a more stable freestanding shape, but also more hinge points that can loosen over time."
 ];
 export const lastUpdated = "2026-07-30";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Foldable Felt Privacy Panel",
     name: "Poola Voidra Foldable Felt Desk Privacy Panel 16 x 48 Inches, Acoustic Partition, Noise Reducing Desk Divider, Privacy Table Screen with 4 Bases & 8 Mini Crown Clips for Open Workspace Office Home",
     price: "$32.99",
-    rating: "5.0 stars from 2 Amazon ratings",
-    reviews: "2 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51TKKfxMxNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTQM26FB?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Multi-Panel Foldable Set",
     name: "Eorbow 6 Pack Acoustic Desk Privacy Panel, 24\" x 16\" Freestanding Desk Dividers, Noise Reducing Table Partition with Support Feet, Stand Up Sound Proof Pad for Office Classroom Home",
     price: "$28.37",
-    rating: "3.6 stars from 7 Amazon ratings",
-    reviews: "7 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51bb1Hf-33L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8B7N5K6?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Large Foldable Panel",
     name: "Dunzoom Large Desk Dividers for Students Acoustic Portable Fold Classroom Table Privacy Felt Boards for Workstation Office Home Furniture Partition Dividers(Retro,47.3 x 15.7 Inch)",
     price: "$43.99",
-    rating: "4.9 stars from 10 Amazon ratings",
-    reviews: "10 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41KEH+uK0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GL8CKJMS?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget 3-Fold Pick",
     name: "2 Pack Desk Dividers for Students, 3-Fold Privacy Screens, Testing Dividers",
     price: "$12.99",
-    rating: "4.5 stars from 110 Amazon ratings",
-    reviews: "110 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Zm-DQqOUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F7R7GKQS?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Premium Foldable Office Partition",
     name: "KERRAM 3 Panel Foldable Office Partitions, Mobile Cubicle Wall with Wheels",
     price: "$399.99",
-    rating: "4.8 stars from 14 Amazon ratings",
-    reviews: "14 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31d7CVpkJCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FYPHYYRV?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Full mobile cubicle wall rather than a desktop panel", "Wheeled for easy repositioning", "Strong early rating", "Genuine room-dividing scale"],
     cons: ["Much higher price than desktop privacy panels", "Overkill if you just need per-desk privacy", "Larger footprint requires floor space to store or maneuver"],
     bestFor: "Buyers who need a full mobile room-dividing partition rather than a desktop panel",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Rigidity vs. storage convenience tradeoff", description: "Weighed how well each foldable design holds its shape under daily bumping against how easily it folds flat for storage, since these are genuinely competing priorities in a foldable design." },
   { title: "Panel count and hinge quality for freestanding stability", description: "Considered how panel count and hinge/fold points affect a design's ability to hold a stable freestanding shape once set up, more panels can mean more stability but also more points that can loosen over time." },
-  { title: "Scale-appropriate matching, desktop panel vs. full partition", description: "Distinguished genuine desktop-scale privacy panels from the one full mobile cubicle wall in this guide, since these serve different needs at very different price points." },
+  { title: "Scale-appropriate matching, desktop panel vs. full partition", description: "Distinguished genuine desktop-scale privacy panels from the one full mobile cubicle wall in this guide, since these serve different needs at very different price points." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -228,11 +228,11 @@ export const faq: FaqItem[] = [
   { q: "How many panels should a foldable privacy screen have?", a: "More panels generally create a more stable freestanding shape, but also add hinge points that can loosen over time. A 3-fold design is a reasonable middle ground for most single-desk use." },
   { q: "What's the difference between a foldable desk panel and a mobile cubicle wall?", a: "A foldable desk panel is a compact, desktop-scale privacy screen. A mobile cubicle wall (like the KERRAM pick in this guide) is a full room-height partition on wheels, a much larger and pricier product serving a different need." },
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers who want a foldable panel with modest sound absorption and flexible configuration" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers who need simple visual privacy for occasional or testing use At $12.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers who need simple visual privacy for occasional or testing use At under $15, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-privacy-panels-clamp-on", title: "Best Clamp-On Desk Privacy Panels (2026)" },
   { href: "/guide/best-portable-desk-privacy-screens", title: "Best Portable Desk Privacy Screens (2026)" },
-  { href: "/guide/best-sound-absorbing-desk-privacy-panels", title: "Best Sound-Absorbing Desk Privacy Panels (2026)" },
+  { href: "/guide/best-sound-absorbing-desk-privacy-panels", title: "Best Sound-Absorbing Desk Privacy Panels (2026)" }
 ];

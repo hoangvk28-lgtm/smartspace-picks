@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A specific Dell OptiPlex Micro model", "Mini PC Mount for Dell OptiPlex Micro"],
         ["A GMKtec G3 Plus, G1, M3 Plus, or M2", "Mini PC Mount for GMKtec with Cable Straps"],
         ["Mac Mini, Xbox, or Intel NUC needing precise height", "5-Level Height Adjustable Bracket"],
-        ["Any small PC needing maximum flexibility", "Mount-It! Adjustable Thin Client Mount"],
+        ["Any small PC needing maximum flexibility", "Mount-It! Adjustable Thin Client Mount"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $23", "5-Level Height Adjustable Bracket ($22.99)"],
-        ["Under $24", "Dell OptiPlex Mount ($23.99) or GMKtec Mount ($23.99)"],
-        ["Under $28", "Mount-It! Adjustable Thin Client Mount ($27.99)"],
+        ["Under $23", "5-Level Height Adjustable Bracket (under $25)"],
+        ["Under $24", "Dell OptiPlex Mount (under $25) or GMKtec Mount (under $25)"],
+        ["Under $28", "Mount-It! Adjustable Thin Client Mount (under $30)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Brand-Specific vs Universal Adjustable",
     cards: [
       { label: "Brand-specific (Dell OptiPlex Mount, GMKtec Mount)", text: "Hardware matched exactly to a specific manufacturer's dimensions, offering a more confident, precise fit for that exact device." },
-      { label: "Universal adjustable (5-Level Bracket, Mount-It!)", text: "Sliding arms accommodate a wider range of devices, useful if you're unsure of long-term brand loyalty or own a less common model." },
+      { label: "Universal adjustable (5-Level Bracket, Mount-It!)", text: "Sliding arms accommodate a wider range of devices, useful if you're unsure of long-term brand loyalty or own a less common model." }
     ],
     note: "If your device matches a brand-specific mount's exact compatibility list, that precision is usually worth choosing over a generic universal bracket.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Pole-clamp mounting to a monitor arm", "Mount-It! Adjustable Thin Client Mount"],
         ["Wall, VESA, or under desk with power adapter management", "Dell OptiPlex Mount"],
-        ["Under desk only, with precise height control", "5-Level Height Adjustable Bracket"],
+        ["Under desk only, with precise height control", "5-Level Height Adjustable Bracket"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Home Office Video Call Setup Specifically",
     cards: [
       { label: "Look for", text: "Precise height adjustment to position a mini PC connected to a webcam or capture device at an optimal, accessible height." },
-      { label: "In this comparison", text: "The 5-Level Height Adjustable Bracket's granular vertical control suits this kind of precision positioning need well." },
+      { label: "In this comparison", text: "The 5-Level Height Adjustable Bracket's granular vertical control suits this kind of precision positioning need well." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the widest mounting flexibility backed by a lifetime warranty, where the Mount-It! pick's pole-clamp option and long-term warranty justify the price over brand-specific alternatives." },
-      { label: "Save if", text: "Your device matches a brand-specific mount's exact compatibility list, where the Dell OptiPlex or GMKtec picks deliver a precisely matched fit for about $4 less." },
+      { label: "Save if", text: "Your device matches a brand-specific mount's exact compatibility list, where the Dell OptiPlex or GMKtec picks deliver a precisely matched fit for about $4 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

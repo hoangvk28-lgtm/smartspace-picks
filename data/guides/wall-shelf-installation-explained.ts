@@ -12,7 +12,7 @@ export const wallShelfInstallationExplainedGuide: Guide = {
     "how to install a wall shelf",
     "finding studs for shelf mounting",
     "drywall anchor for shelf",
-    "leveling a wall shelf",
+    "leveling a wall shelf"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const wallShelfInstallationExplainedGuide: Guide = {
     "shelf-weight-capacity-explained",
     "floating-shelf-vs-bookcase",
     "open-shelving-vs-closed-cabinet",
-    "whiteboard-size-guide",
+    "whiteboard-size-guide"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const wallShelfInstallationExplainedGuide: Guide = {
       question: "How many mounting points does a shelf typically need?",
       answer:
         "This depends on shelf length and expected load, a short, lightly loaded shelf may need only two mounting points, while a longer or heavily loaded shelf benefits from three or more points distributed across its width for more even weight support.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ export const wallShelfInstallationExplainedGuide: Guide = {
     {
       heading: "Why Leveling During, Not After, Installation Matters",
       body: `Checking and adjusting level before fully tightening mounting screws is significantly easier than attempting to fix an unlevel shelf after installation is complete, since correcting it afterward often means removing and re-drilling new holes. Taking the extra few minutes to verify level at each stage of installation, rather than only checking once everything is fully secured, prevents the need for rework and ensures both a professional appearance and even weight distribution across the shelf once loaded.`,
-    },
+    }
   ],
 };

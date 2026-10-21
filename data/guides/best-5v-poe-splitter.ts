@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51maAWVXnwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B079D99Y3Y?tag=deskfinds0d-20",
-    description: "This adapter's listing specifically confirms a 4-pack format at DC 5V 2.4A (12W max) output with full IEEE 802.3af compliance, delivering genuine per-unit value for buyers converting multiple Dropcam, Raspberry Pi, or IP camera devices at once. Its Micro USB jack matches the same connector type as the UCTRONICS pick above.\n\nCompared to the single-unit picks in this comparison, this one's 4-pack pricing works out to roughly $7.25 per unit, a meaningfully lower per-device cost for a multi-device deployment than buying four single units separately.\n\nBest for buyers converting multiple Micro USB devices at once who want the best per-unit value.",
+    description: "This adapter's listing specifically confirms a 4-pack format at DC 5V 2.4A (12W max) output with full IEEE 802.3af compliance, delivering genuine per-unit value for buyers converting multiple Dropcam, Raspberry Pi, or IP camera devices at once. Its Micro USB jack matches the same connector type as the UCTRONICS pick above.\n\nCompared to the single-unit picks in this comparison, this one's 4-pack pricing works out to under $8 per unit, a meaningfully lower per-device cost for a multi-device deployment than buying four single units separately.\n\nBest for buyers converting multiple Micro USB devices at once who want the best per-unit value.",
     specs: ["5V 2.4A Micro USB, 12W max, 4-pack", "IEEE 802.3af compliant, 100Mbps", "44-56V input from PoE switch or injector"],
     pros: ["4-pack delivers strong per-unit value for multiple devices", "Consistent Micro USB connector matches common Raspberry Pi and camera needs", "Full IEEE 802.3af compliance for standard PoE compatibility"],
     cons: ["100Mbps speed only, not Gigabit", "Higher total price than single-unit picks if you only need one splitter"],
@@ -99,7 +99,7 @@ export const howToChoose = [
       rows: [
         ["Micro USB (Raspberry Pi 2/3, older tablets)", "UCTRONICS Micro USB Active PoE Splitter or Gigabit pick"],
         ["USB-A (Fire TV Stick, Roku, Echo Dot)", "Active PoE Splitter USB A 5V 2.4A"],
-        ["Multiple Micro USB devices at once", "ANVISION 4-Pack Active PoE Splitter"],
+        ["Multiple Micro USB devices at once", "ANVISION 4-Pack Active PoE Splitter"]
       ],
     },
   },
@@ -108,10 +108,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $10", "Active PoE Splitter USB A ($9.99)"],
-        ["Under $11", "UCTRONICS Micro USB Splitter ($10.89)"],
-        ["Under $14", "Gigabit Micro USB PoE Splitter ($13.99)"],
-        ["Under $29", "ANVISION 4-Pack ($28.98, ~$7.25 per unit)"],
+        ["Under $10", "Active PoE Splitter USB A (under $10)"],
+        ["Under $11", "UCTRONICS Micro USB Splitter (under $15)"],
+        ["Under $14", "Gigabit Micro USB PoE Splitter (under $15)"],
+        ["Under $29", "ANVISION 4-Pack (under $30, ~under $8 per unit)"]
       ],
     },
   },
@@ -119,7 +119,7 @@ export const howToChoose = [
     subheading: "Gigabit Speed vs Standard 100Mbps for Raspberry Pi",
     cards: [
       { label: "Gigabit speed (Gigabit Micro USB pick)", text: "Delivers full 1000Mbps data alongside 3A power, the better fit for a Raspberry Pi 4 running network-intensive applications." },
-      { label: "Standard 100Mbps (UCTRONICS, ANVISION)", text: "Adequate for a Raspberry Pi 2/3 or basic streaming device that doesn't need Gigabit throughput." },
+      { label: "Standard 100Mbps (UCTRONICS, ANVISION)", text: "Adequate for a Raspberry Pi 2/3 or basic streaming device that doesn't need Gigabit throughput." }
     ],
     note: "If you're powering a Raspberry Pi 4 or a device running demanding network applications, the Gigabit pick's extra bandwidth and amperage are worth the modest price increase. For older Pi models or simple devices, the standard-speed picks perform just as well for less.",
   },
@@ -129,7 +129,7 @@ export const howToChoose = [
       headers: ["Number of devices to power", "Recommended pick"],
       rows: [
         ["Just one device", "UCTRONICS, Gigabit pick, or USB-A pick depending on connector"],
-        ["Multiple Micro USB devices", "ANVISION 4-Pack Active PoE Splitter"],
+        ["Multiple Micro USB devices", "ANVISION 4-Pack Active PoE Splitter"]
       ],
     },
   },
@@ -137,16 +137,16 @@ export const howToChoose = [
     subheading: "For a Smart Home Device Cluster Specifically",
     cards: [
       { label: "Look for", text: "The correct connector type for your specific smart home devices, since USB-A and Micro USB are not interchangeable, and confirm the splitter's amperage matches or exceeds your device's actual power draw." },
-      { label: "In this comparison", text: "The USB-A pick specifically names Fire TV Stick, Roku, and Echo Dot compatibility, common devices in a typical smart home entertainment setup." },
+      { label: "In this comparison", text: "The USB-A pick specifically names Fire TV Stick, Roku, and Echo Dot compatibility, common devices in a typical smart home entertainment setup." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You're powering a Raspberry Pi 4 or another device that benefits from Gigabit speed and higher amperage, where the Gigabit Micro USB pick's $13.99 price is justified by that performance." },
-      { label: "Save if", text: "You're powering a single basic USB-A device like a streaming stick, where the USB-A pick delivers that for $9.99, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You're powering a Raspberry Pi 4 or another device that benefits from Gigabit speed and higher amperage, where the Gigabit Micro USB pick's under $15 price is justified by that performance." },
+      { label: "Save if", text: "You're powering a single basic USB-A device like a streaming stick, where the USB-A pick delivers that for under $10, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -168,7 +168,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Multi-Pack Pricing Delivers Real Per-Unit Savings Only When You Actually Need That Many Splitters",
-    "explanation": "The ANVISION 4-pack works out to roughly $7.25 per unit, a meaningfully lower cost per splitter than buying four single-unit UCTRONICS or Gigabit picks separately, but only delivers real value if you genuinely need to convert four separate devices at once. This matters if you're deploying multiple Raspberry Pi units, cameras, or similar devices simultaneously, where the per-unit savings add up, and matters less if you only need one splitter, where the single-unit picks avoid paying for three splitters you won't use. Calculate the actual number of devices you need to convert before choosing between a multi-pack and single-unit purchase."
+    "explanation": "The ANVISION 4-pack works out to under $8 per unit, a meaningfully lower cost per splitter than buying four single-unit UCTRONICS or Gigabit picks separately, but only delivers real value if you genuinely need to convert four separate devices at once. This matters if you're deploying multiple Raspberry Pi units, cameras, or similar devices simultaneously, where the per-unit savings add up, and matters less if you only need one splitter, where the single-unit picks avoid paying for three splitters you won't use. Calculate the actual number of devices you need to convert before choosing between a multi-pack and single-unit purchase."
   }
 ];
 

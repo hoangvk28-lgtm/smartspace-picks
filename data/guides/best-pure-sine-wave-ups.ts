@@ -5,7 +5,7 @@ export const metaDescription = "7 pure sine wave UPS units we evaluated, with th
 export const mainKeyword = "pure sine wave UPS battery backup";
 export const introParagraphs = [
   "Modified sine wave output is specifically incompatible with the active power factor correction (APFC) circuitry found in the vast majority of desktop PC power supplies built in the last decade, running APFC equipment on a modified sine wave UPS during an outage can cause audible buzzing, overheating, reduced efficiency, or unexpected shutdown mid-outage, the exact scenario the UPS exists to prevent.",
-  "That said, pure sine wave isn't a universal upgrade every setup needs, simple electronics without APFC and basic network gear generally run fine on modified sine wave, and pure sine wave units command a real 30-50% price premium worth weighing against what's actually plugged in.",
+  "That said, pure sine wave isn't a universal upgrade every setup needs, simple electronics without APFC and basic network gear generally run fine on modified sine wave, and pure sine wave units command a real 30-50% price premium worth weighing against what's actually plugged in."
 ];
 export const lastUpdated = "2026-07-30";
 export const readTime = "9 min";
@@ -25,12 +25,12 @@ export const products: GuideProduct[] = [
     badge: "Best Pure Sine Wave UPS Overall",
     name: "APC UPS 1500VA/900W Pure Sine Wave UPS for Computer, Electronics, BR1500MS2",
     price: "$299.99",
-    rating: "4.5 stars from 3,467 Amazon ratings",
-    reviews: "3,467 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31rIE-toOYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08GRY1W93?tag=deskfinds0d-20",
     description:
-      "Explicitly listed as active-PFC compatible, meaning it's designed to work cleanly with the APFC power supplies found in essentially all modern desktop PCs, avoiding the buzzing and overheating that modified sine wave units can trigger on this exact hardware. Up to 73 minutes of runtime at 100W gives real headroom for a full desktop setup during an outage. At a competitive price, this genuinely commands the 30-50% premium pure sine wave designs typically carry over modified sine wave, worth it specifically because APFC power supplies are now the desktop standard, not a niche case. A genuine advantage here is that strong runtime headroom at 100W load. The tradeoff is that real price premium over modified sine wave models.\n\nWhere this one earns its spot is explicit APFC compatibility avoids buzzing/overheating on modern PC power supplies, and strong runtime headroom at 100W load. Worth noting before buying: real price premium over modified sine wave models, which matters more at $299.99 than it would on a cheaper pick.",
+      "Explicitly listed as active-PFC compatible, meaning it's designed to work cleanly with the APFC power supplies found in essentially all modern desktop PCs, avoiding the buzzing and overheating that modified sine wave units can trigger on this exact hardware. Up to 73 minutes of runtime at 100W gives real headroom for a full desktop setup during an outage. At a competitive price, this genuinely commands the 30-50% premium pure sine wave designs typically carry over modified sine wave, worth it specifically because APFC power supplies are now the desktop standard, not a niche case. A genuine advantage here is that strong runtime headroom at 100W load. The tradeoff is that real price premium over modified sine wave models.\n\nWhere this one earns its spot is explicit APFC compatibility avoids buzzing/overheating on modern PC power supplies, and strong runtime headroom at 100W load. Worth noting before buying: real price premium over modified sine wave models, which matters more at under $300 than it would on a cheaper pick.",
     specs: ["1500VA/900W, pure sine wave", "Active PFC compatible design", "10 outlets, coax/Ethernet surge protection", "Replaceable battery, USB-C/A charging ports"],
     pros: ["Explicit APFC compatibility avoids buzzing/overheating on modern PC power supplies", "Strong runtime headroom at 100W load", "User-replaceable battery", "Large, well-established review base"],
     cons: ["Real price premium over modified sine wave models", "Overkill if connected equipment lacks APFC power supplies", "Larger footprint than compact battery-only models"],
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Mid-Capacity Pure Sine Wave Pick",
     name: "APC UPS 1000VA/600W Pure Sine Wave UPS for Computer, Electronics, BR1000MS",
     price: "$191.43",
-    rating: "4.4 stars from 1,579 Amazon ratings",
-    reviews: "1,579 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41mMZ5UlDyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0779KYKLB?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best PFC Sinewave with AVR",
     name: "CyberPower CP1500PFCLCD PFC Sinewave UPS Battery Backup and Surge Protector, 1500VA/1000W, 12 Outlets, AVR, Mini Tower, UL Certified",
     price: "$219.99",
-    rating: "4.6 stars from 11,256 Amazon ratings",
-    reviews: "11,256 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31DYxDN0bTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00429N19W?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Mid-Capacity PFC Sinewave Alternative",
     name: "CyberPower CP1000PFCLCD PFC Sinewave UPS Battery Backup and Surge Protector",
     price: "$179.95",
-    rating: "4.2 stars from 2,382 Amazon ratings",
-    reviews: "2,382 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31nDi+6Lz+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00429N192?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Pure Sine Wave Pick",
     name: "CyberPower CP850PFCLCD PFC Sinewave UPS Battery Backup and Surge Protector",
     price: "$169.95",
-    rating: "4.4 stars from 896 Amazon ratings",
-    reviews: "896 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/317PvPHMHKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00429N18S?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best Line-Interactive Pure Sine Wave Pick",
     name: "APC Smart-UPS 1500VA/900W Line Interactive UPS with SmartConnect, SMC1500C",
     price: "$581.99",
-    rating: "4.5 stars from 602 Amazon ratings",
-    reviews: "602 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/319TmSlbEUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B077Y62GSJ?tag=deskfinds0d-20",
     description:
@@ -127,8 +127,8 @@ export const products: GuideProduct[] = [
     badge: "Best Lithium Pure Sine Wave Pick",
     name: "GOLDENMATE 1000VA/800W Lithium UPS Battery Backup & Surge Protector, White",
     price: "$199.48",
-    rating: "4.4 stars from 1,399 Amazon ratings",
-    reviews: "1,399 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41lBJ4oYPfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5QSYK69?tag=deskfinds0d-20",
     description:
@@ -137,14 +137,14 @@ export const products: GuideProduct[] = [
     pros: ["Lithium battery chemistry, generally better long-term charge-cycle life than lead-acid", "Competitive price at this capacity tier", "Genuine pure sine wave APFC compatibility", "Solid rating base"],
     cons: ["Newer entrant with less long-term track record than APC/CyberPower", "Not user-replaceable in the same established ecosystem as APC batteries", "Mid-tier capacity, not for heavy multi-device loads"],
     bestFor: "Buyers who want lithium battery longevity in a pure sine wave UPS",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Explicit APFC power supply compatibility", description: "Prioritized picks that explicitly confirm active-PFC compatible design, since the vast majority of desktop PC power supplies built in the last decade use APFC circuitry that modified sine wave units can't cleanly power." },
   { title: "Price premium weighed against genuine need", description: "Compared each pure sine wave pick's price against modified sine wave equivalents at the same VA rating, since the 30-50% premium is only worth paying if connected equipment actually has APFC power supplies or sensitive electronics." },
-  { title: "Capacity matched to realistic desktop loads", description: "Ranked picks by whether their VA/W rating and outlet count genuinely fit a single-PC setup versus a full multi-device desktop, rather than assuming bigger is always better." },
+  { title: "Capacity matched to realistic desktop loads", description: "Ranked picks by whether their VA/W rating and outlet count genuinely fit a single-PC setup versus a full multi-device desktop, rather than assuming bigger is always better." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -277,11 +277,11 @@ export const faq: FaqItem[] = [
   { q: "Is pure sine wave worth the extra cost for basic electronics?", a: "Not necessarily. Simple network equipment and basic electronics without APFC power supplies generally run fine on modified sine wave, save the 30-50% premium for equipment that actually needs it." },
   { q: "Does pure sine wave affect UPS battery runtime?", a: "Sometimes marginally. Pure sine wave inverter designs can be slightly less efficient than simpler modified sine wave designs at the same VA rating, though the difference is usually small in practice." },
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers running modern APFC-equipped desktop PCs who need genuine outage protection" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers with a single APFC-equipped PC and modest power needs At $169.95, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers with a single APFC-equipped PC and modest power needs At under $170, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-ups-battery-backups-with-avr", title: "Best UPS Battery Backups with AVR (2026)" },
   { href: "/guide/best-ups-battery-backups-for-computers-and-monitors", title: "Best UPS Battery Backups for Computers and Monitors (2026)" },
-  { href: "/guide/best-1000va-ups-battery-backups", title: "Best 1000VA UPS Battery Backups (2026)" },
+  { href: "/guide/best-1000va-ups-battery-backups", title: "Best 1000VA UPS Battery Backups (2026)" }
 ];

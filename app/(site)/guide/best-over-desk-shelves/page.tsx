@@ -161,7 +161,7 @@ export default async function BestOverDeskShelvesPage() {
     about: [
       { "@type": "Thing", name: "Clamp-On Desk Shelf" },
       { "@type": "Thing", name: "Desk Shelving" },
-      { "@type": "Thing", name: "Home Office Storage" },
+      { "@type": "Thing", name: "Home Office Storage" }
     ],
   };
 
@@ -181,7 +181,7 @@ export default async function BestOverDeskShelvesPage() {
         position: 3,
         name: "Best Over Desk Shelves",
         item: `${SITE_URL}/guide/best-over-desk-shelves`,
-      },
+      }
     ],
   };
 
@@ -513,7 +513,7 @@ export default async function BestOverDeskShelvesPage() {
                       type: "Desktop hutch",
                       bestFor: "Full-width vertical organization",
                       notes: "Snughome 38.6 inch, surface-mount",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -562,57 +562,57 @@ export default async function BestOverDeskShelvesPage() {
                 id: "vivo-13-2tier-clamp",
                 name: "VIVO 13-inch 2-Tier",
                 verdict:
-                  " - 799 reviews at 4.6 stars, sit-stand compatible, compact 13-inch side shelf.",
+                  " - Sit-stand compatible, compact 13-inch side shelf.",
               },
               {
                 context: "Best desktop hutch",
                 id: "snughome-desk-hutch",
                 name: "Snughome Hutch",
                 verdict:
-                  " - 317 reviews at 4.6 stars, pegboard hooks, 4-tier, rustic brown.",
+                  " - Pegboard hooks, 4-tier, rustic brown.",
               },
               {
                 context: "Best natural wood clamp-on",
                 id: "art-giftree-natural-wood",
                 name: "ART-GIFTREE Natural Wood",
                 verdict:
-                  " - 252 reviews at 4.6 stars, dual C-clamps, 30 lbs.",
+                  " - Dual C-clamps, 30 lbs.",
               },
               {
                 context: "Best with headphone holder",
                 id: "ares-wing-headphone",
                 name: "ARES WING Headphone",
                 verdict:
-                  " - 251 reviews at 4.3 stars, 44-lb capacity, 16-inch wide.",
+                  " - 44-lb capacity, 16-inch wide.",
               },
               {
                 context: "Best fence edge (verify reviews)",
                 id: "spacrea-fence-edge",
                 name: "Spacrea Fence Edge",
                 verdict:
-                  " - 243 reviews at 4.1 stars, check current quality before buying.",
+                  " - Check current quality before buying.",
               },
               {
                 context: "Best industrial pipe aesthetic",
                 id: "vivo-16-industrial-pipe",
                 name: "VIVO 16 Industrial Pipe",
                 verdict:
-                  " - 80 reviews at 4.4 stars, $24.99 lowest, sit-stand compatible.",
+                  " - Under $25 lowest, sit-stand compatible.",
               },
               {
                 context: "Best for forearm support",
                 id: "art-giftree-desk-extender",
                 name: "ART-GIFTREE Extender",
                 verdict:
-                  " - 62 reviews at 4.5 stars, extends surface, 44 lbs, 4 clamping options.",
+                  " - Extends surface, 44 lbs, 4 clamping options.",
               },
               {
                 context: "Widest clamp-on (low reviews)",
                 id: "vivo-30-height-adj",
                 name: "VIVO 30-inch Wide",
                 verdict:
-                  " - 13 reviews at 4.9 stars, do not treat rating as signal, widest available.",
-              },
+                  " - Do not treat rating as signal, widest available.",
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "printer for occasional use";
 export const introParagraphs = [
   "Occasional use isn't one thing, weekly, monthly, and quarterly printing carry very different ink-drying risk profiles, and the printer that suits a weekly user isn't necessarily the right pick for someone printing a boarding pass once a quarter. Basic inkjets and one inkless thermal model dominate this list because they avoid the higher upfront cost of ink-tank printers that only pays off at real volume.",
-  "Below are 8 printers we evaluated for occasional use, weighing ink dry-out risk, jam-free reliability after idle stretches, and low upfront cost over raw print speed or volume capacity, ranging from a $53.97 inkless thermal printer to a $139.00 basic all-in-one.",
+  "Below are 8 printers we evaluated for occasional use, weighing ink dry-out risk, jam-free reliability after idle stretches, and low upfront cost over raw print speed or volume capacity, ranging from an under-$60 inkless thermal printer to an under-$140 basic all-in-one."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "9 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "3-month Instant Ink trial included",
       "Wireless printing",
       "AI-capable printing features",
-      "Compact, budget-friendly design",
+      "Compact, budget-friendly design"
     ],
     pros: [
       "Very low upfront price",
       "Simple setup for infrequent use",
       "Scan and copy included",
-      "Instant Ink trial softens early ink costs",
+      "Instant Ink trial softens early ink costs"
     ],
     cons: [
       "Cartridge ink can dry out over long idle stretches",
       "No automatic document feeder",
-      "Not built for high-volume printing",
+      "Not built for high-volume printing"
     ],
     bestFor: "Households printing a handful of times a month who want the lowest upfront cost",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Built-in copier and scanner",
       "Compact design",
       "Easy setup",
-      "1 year limited warranty",
+      "1 year limited warranty"
     ],
     pros: [
       "One of the cheapest printers in this list",
       "Compact footprint",
       "Duplex printing included",
-      "Simple setup",
+      "Simple setup"
     ],
     cons: [
       "Cartridge ink can dry out during long idle periods",
       "No automatic document feeder",
-      "Basic feature set overall",
+      "Basic feature set overall"
     ],
     bestFor: "Buyers prioritizing the lowest possible upfront price for infrequent printing",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Built-in copier and scanner",
       "1.42-inch OLED display",
       "Intuitive control panel",
-      "Compact design",
+      "Compact design"
     ],
     pros: [
       "OLED display simplifies status checks after idle periods",
       "Duplex printing built in",
       "Compact footprint",
-      "Straightforward control panel",
+      "Straightforward control panel"
     ],
     cons: [
       "Cartridge ink can dry out with infrequent use",
       "No automatic document feeder",
-      "First print after idle time may need a quality check",
+      "First print after idle time may need a quality check"
     ],
     bestFor: "Occasional users who want an easy way to check printer status between uses",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Mobile printing support",
       "Built-in fax (legacy feature)",
       "Wireless connectivity",
-      "Compact home printer design",
+      "Compact home printer design"
     ],
     pros: [
       "Auto document feeder at a budget price",
       "Mobile printing from phone or tablet",
       "Low upfront price for the feature set",
-      "Simple setup",
+      "Simple setup"
     ],
     cons: [
       "Cartridge ink costs more per page than ink-tank models at real volume",
       "Fax feature is unnecessary for most households",
-      "Not built for sustained daily high-volume printing",
+      "Not built for sustained daily high-volume printing"
     ],
     bestFor: "Occasional users who periodically need to scan a small stack of documents",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Wireless printing",
       "Basic home printing focus",
       "White finish",
-      "Compact design",
+      "Compact design"
     ],
     pros: [
       "Lowest price in this list",
       "No unnecessary extra features to pay for",
       "Simple setup",
-      "Compact footprint",
+      "Compact footprint"
     ],
     cons: [
       "Cartridge ink can dry out with infrequent use",
       "No automatic document feeder",
-      "Basic feature set with no fax or ADF",
+      "Basic feature set with no fax or ADF"
     ],
     bestFor: "Households that print only occasionally and want the simplest, cheapest option",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Mobile and tablet printing emphasis",
       "Wireless connectivity",
       "No automatic document feeder",
-      "Cartridge-based ink system",
+      "Cartridge-based ink system"
     ],
     pros: [
       "Strong tablet and mobile printing support",
       "Simple print, scan, copy feature set",
       "Reliable wireless setup",
-      "Good for occasional phone-based printing",
+      "Good for occasional phone-based printing"
     ],
     cons: [
       "Higher price than the more basic picks in this list",
       "No automatic document feeder",
-      "Cartridge ink costs more at higher volume than an ink tank",
+      "Cartridge ink costs more at higher volume than an ink tank"
     ],
     bestFor: "Occasional users who mostly print from a phone or tablet",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Wireless printing",
       "Photo-capable output",
       "Compact design",
-      "Cartridge-based ink system",
+      "Cartridge-based ink system"
     ],
     pros: [
       "Better photo output than most picks in this list",
       "Simple print, scan, copy feature set",
       "Reliable wireless setup",
-      "Good all-around performer for occasional mixed use",
+      "Good all-around performer for occasional mixed use"
     ],
     cons: [
       "Priciest cartridge-based pick in this list",
       "No automatic document feeder",
-      "Ink can dry out over long idle stretches like the other cartridge picks",
+      "Ink can dry out over long idle stretches like the other cartridge picks"
     ],
     bestFor: "Occasional users who want better photo quality for infrequent photo prints",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Supports 8.5 x 11 inch US Letter and A4",
       "300 DPI resolution",
       "Bluetooth connectivity",
-      "Compatible with iOS, Android, laptop",
+      "Compatible with iOS, Android, laptop"
     ],
     pros: [
       "No ink to dry out, ever, genuinely zero-maintenance for rare use",
       "Lowest price in this list",
       "Portable, works well for travel or car use",
-      "Simple Bluetooth setup",
+      "Simple Bluetooth setup"
     ],
     cons: [
       "Thermal paper costs more per page than standard paper",
       "Print quality and longevity is lower than ink or toner on regular paper",
-      "Not suited to documents you need to keep long-term",
+      "Not suited to documents you need to keep long-term"
     ],
     bestFor: "Extremely infrequent printers who want zero ink maintenance and don't mind thermal paper limits",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Storage footprint",
     description: "Factored in physical size, since an occasional-use printer is more likely to be stored away in a closet or cabinet between uses rather than left permanently on a desk.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,12 +477,12 @@ export const faq: FaqItem[] = [
   {
     q: "Is it worth buying an ink-tank printer if I only print occasionally?",
     a: "Usually not. Ink-tank printers only pay back their higher upfront price at real volume, hundreds of pages a month. For occasional use, a basic cartridge inkjet or the inkless thermal option in this list is almost always the more cost-effective choice.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-high-volume-printing", title: "Best Printers for High-Volume Printing (2026)" },
   { href: "/guide/best-printers-with-cheap-ink", title: "Best Printers with Cheap Ink (2026)" },
   { href: "/guide/best-easy-to-use-printers", title: "Best Easy-to-Use Printers (2026)" },
-  { href: "/guide/best-printers-for-dorm-rooms", title: "Best Printers for Dorm Rooms (2026)" },
+  { href: "/guide/best-printers-for-dorm-rooms", title: "Best Printers for Dorm Rooms (2026)" }
 ];

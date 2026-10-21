@@ -99,7 +99,7 @@ export const howToChoose = [
       rows: [
         ["Standard/Gen 3/V5 dish (RJ45 Ethernet cable)", "Starlink Ethernet Adapter Kit or LYANSO Coupler"],
         ["Starlink Mini power cord (DC barrel)", "RVSPARK DC Adapter or STARGEAR DC Extender"],
-        ["Mixed household with both dish types", "One Ethernet coupler plus one DC coupler"],
+        ["Mixed household with both dish types", "One Ethernet coupler plus one DC coupler"]
       ],
     },
   },
@@ -108,10 +108,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $9", "LYANSO Waterproof Ethernet Coupler ($8.99)"],
-        ["Under $10", "RVSPARK DC Female to Female Adapter ($9.99)"],
-        ["Under $13", "Starlink Ethernet Adapter Kit ($12.99)"],
-        ["Under $16", "STARGEAR DC Power Cord Extender ($15.99)"],
+        ["Under $9", "LYANSO Waterproof Ethernet Coupler (under $9)"],
+        ["Under $10", "RVSPARK DC Female to Female Adapter (under $10)"],
+        ["Under $13", "Starlink Ethernet Adapter Kit (under $15)"],
+        ["Under $16", "STARGEAR DC Power Cord Extender (under $20)"]
       ],
     },
   },
@@ -119,7 +119,7 @@ export const howToChoose = [
     subheading: "Broadest Compatibility vs Exact Gasket Match",
     cards: [
       { label: "Broadest compatibility (Starlink Ethernet Adapter Kit)", text: "Explicitly supports Gen 3, Mini and Mini X, Standard 4/4X, V5, plus third-party PoE injectors, ideal if you're not certain of your exact dish generation or want flexibility for future equipment." },
-      { label: "Exact gasket match (LYANSO)", text: "Specifically engineered to match the Starlink cable's own rubber gasket for a seamless factory-like seal, at a lower price than the broader-compatibility pick." },
+      { label: "Exact gasket match (LYANSO)", text: "Specifically engineered to match the Starlink cable's own rubber gasket for a seamless factory-like seal, at a lower price than the broader-compatibility pick." }
     ],
     note: "If you want maximum flexibility across Starlink generations and future PoE equipment, the broader-compatibility pick is worth its slightly higher price. If you know your exact dish model and want the closest factory-matched seal, the LYANSO pick delivers that for less.",
   },
@@ -130,7 +130,7 @@ export const howToChoose = [
       rows: [
         ["Rooftop, extreme temperature exposure", "Starlink Ethernet Adapter Kit (-40F to 185F rated)"],
         ["RV, marine, or off-grid mobile setup", "RVSPARK DC Adapter or STARGEAR DC Extender"],
-        ["Standard outdoor residential mounting", "LYANSO Waterproof Ethernet Coupler"],
+        ["Standard outdoor residential mounting", "LYANSO Waterproof Ethernet Coupler"]
       ],
     },
   },
@@ -138,16 +138,16 @@ export const howToChoose = [
     subheading: "For a Mobile or RV Starlink Mini Setup Specifically",
     cards: [
       { label: "Look for", text: "A DC barrel coupler specifically rated for vibration and shock resistance, since a mobile setup faces more physical stress than a fixed residential installation." },
-      { label: "In this comparison", text: "The RVSPARK pick specifically states a rugged PC housing built to withstand daily vibrations, shocks, and wear in vehicles and RVs." },
+      { label: "In this comparison", text: "The RVSPARK pick specifically states a rugged PC housing built to withstand daily vibrations, shocks, and wear in vehicles and RVs." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want the broadest compatibility across Starlink generations plus third-party PoE equipment and an extreme temperature rating, where the Starlink Ethernet Adapter Kit's $12.99 price is justified by that flexibility." },
-      { label: "Save if", text: "You know your exact dish model and just need a solid gasket-matched extension, where the LYANSO pick delivers that for $8.99, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You want the broadest compatibility across Starlink generations plus third-party PoE equipment and an extreme temperature rating, where the Starlink Ethernet Adapter Kit's under $15 price is justified by that flexibility." },
+      { label: "Save if", text: "You know your exact dish model and just need a solid gasket-matched extension, where the LYANSO pick delivers that for under $9, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

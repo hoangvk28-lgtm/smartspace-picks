@@ -158,7 +158,7 @@ export default async function BestCableManagementBoxesPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Cable Management Boxes", item: `${SITE_URL}/guide/best-cable-management-boxes` },
+      { "@type": "ListItem", position: 3, name: "Best Cable Management Boxes", item: `${SITE_URL}/guide/best-cable-management-boxes` }
     ],
   };
 

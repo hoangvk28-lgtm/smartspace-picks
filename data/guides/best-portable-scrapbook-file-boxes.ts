@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable scrapbook file box";
 export const introParagraphs = [
   "We required confirmed 12x12 inch compatibility for the true scrapbook-specific picks, since standard letter-size file boxes don't fit scrapbook paper and page protectors. We also included well-reviewed letter-size options for buyers whose scrapbook materials fit smaller dimensions.",
-  "\"Made in USA\" and archival-quality claims matter more in this category than most file storage, since scrapbook materials are often irreplaceable, we noted where a product specifically addresses this.",
+  "\"Made in USA\" and archival-quality claims matter more in this category than most file storage, since scrapbook materials are often irreplaceable, we noted where a product specifically addresses this."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -63,7 +63,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41PdCI0nCgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08T6P8LB6?tag=deskfinds0d-20",
     description: "A letter-size file box, not a genuine 12x12 scrapbook fit, but with by far the largest review base in this comparison, included for scrapbook supplies and materials that fit standard letter dimensions.\n\nSitting just under Citylife 3 PCS Plastic Storage Bins with Latching Lids Portable Project Case, it's priced lower than Citylife 3 PCS Plastic Storage Bins with Latching Lids Portable Project Case. Here's the honest tradeoff: Letter size, not confirmed 12x12 scrapbook compatible. And here's what it gets you instead: Largest, most established review base in this comparison. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Largest, most established review base in this comparison. On the other side, Letter size, not confirmed 12x12 scrapbook compatible. That's the main tradeoff to weigh against everything above.",
-    specs: ["Letter size, file rails","5,076 reviews at 4.4 stars"],
+    specs: ["Letter size, file rails"],
     pros: ["Largest, most established review base in this comparison"],
     cons: ["Letter size, not confirmed 12x12 scrapbook compatible"],
     bestFor: "Buyers with smaller-format scrapbook materials that fit letter-size storage.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified genuine 12x12 inch compatibility where claimed", description: "We confirmed which products actually state 12x12 inch compatibility versus those sized for A4 or letter materials instead." },
   { title: "Distinguished true scrapbook-specific products from general storage", description: "We separated the IRIS USA scrapbook-specific case from general clear plastic storage totes that happen to work for smaller craft supplies." },
   { title: "Archival quality and Made in USA noted where present", description: "We flagged where a product specifically addresses archival-safe or domestic manufacturing claims, relevant for buyers storing irreplaceable materials." },
-  { title: "Review volume weighted for the letter-size alternatives", description: "We prioritized established review history for the general-purpose picks included as alternatives to the true 12x12 option." },
+  { title: "Review volume weighted for the letter-size alternatives", description: "We prioritized established review history for the general-purpose picks included as alternatives to the true 12x12 option." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -236,14 +236,15 @@ export const buyingCriteria: BuyingCriterion[] = [
 
 export const faq: FaqItem[] = [
   { q: "Which is confirmed to fit full 12x12 inch scrapbook pages?", a: "The IRIS USA Scrapbook Case, made in the USA, is the only pick here with explicitly confirmed 12x12 inch compatibility." },
-  { q: "Which has the most reviews?", a: "The Pendaflex Portable File Box, with 5,076 reviews, though it's letter size, not confirmed 12x12." },
+  
   { q: "Is there a multi-pack option?", a: "Yes, both the IRIS USA (6-pack) and Citylife (3-pack) options come in multi-packs." },
   { q: "What if my scrapbook materials are smaller than 12x12?", a: "The letter-size Pendaflex and Staples picks, or the A4-size LonlyEagle pick, may be more appropriate and offer strong review evidence." },
   { q: "Are these secure for transport?", a: "The Citylife pick specifically includes latching lids for secure transport." },
+  { q: "How should I pack scrapbook pages so they do not bend in a case?", a: "Lay the pages flat and keep the stack within the case height so the lid closes without pressing on the top page. The IRIS USA case is confirmed for 12 by 12 inch pages, and the clear cases let you see what is inside without opening. Interleave sheets with protective paper if the pages have raised embellishments." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-plastic-file-boxes-with-handles", title: "Best Portable Plastic File Boxes with Handles (2026)" },
   { href: "/guide/best-portable-file-organizer-boxes", title: "Best Portable File Organizer Boxes (2026)" },
-  { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" },
+  { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" }
 ];

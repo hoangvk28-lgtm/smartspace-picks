@@ -155,7 +155,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Hardware transcoding for home media streaming", "Synology DS225+ Private Cloud Media Server"],
         ["The most detailed spec sheet plus NVMe caching", "Asustor AS5402T, 2-Bay NAS"],
         ["4 bays to separate backup from other storage", "Synology DS425+ Private Cloud Media Server"],
-        ["The strongest named CPU for multiple workloads", "UGREEN NAS DXP4800 Plus 4-Bay"],
+        ["The strongest named CPU for multiple workloads", "UGREEN NAS DXP4800 Plus 4-Bay"]
       ],
     },
   },
@@ -165,7 +165,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Price range", "Recommended pick"],
       rows: [
         ["$360 to $410 (2-bay)", "Synology DS225+, UGREEN DXP2800, or Asustor AS5402T"],
-        ["$600 to $700 (4-bay)", "Synology DS425+, UGREEN DXP4800 Plus, or Synology DS925+"],
+        ["$600 to $700 (4-bay)", "Synology DS425+, UGREEN DXP4800 Plus, or Synology DS925+"]
       ],
     },
   },
@@ -179,7 +179,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "4-Bay (DS425+, DXP4800 Plus, DS925+)",
         text: "Lets you dedicate two bays to a Time Machine RAID 1 mirror while using the remaining two bays as a completely separate storage pool for other data.",
-      },
+      }
     ],
     note: "If Time Machine backup is your only real use case, a 2-bay unit is sufficient; if you also want general file storage or media serving on the same NAS, a 4-bay design keeps that storage genuinely separate.",
   },
@@ -190,7 +190,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Just Time Machine backup, occasional file access", "Any pick in this comparison handles this comfortably"],
         ["Time Machine plus home media transcoding", "Synology DS225+ Private Cloud Media Server"],
-        ["Time Machine plus multiple simultaneous heavy tasks", "UGREEN NAS DXP4800 Plus (strongest named CPU)"],
+        ["Time Machine plus multiple simultaneous heavy tasks", "UGREEN NAS DXP4800 Plus (strongest named CPU)"]
       ],
     },
   },
@@ -204,7 +204,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "Asustor's AS5402T with its 4 M.2 NVMe slots and dual 2.5GbE ports is the pick here specifically built for that kind of active workload.",
-      },
+      }
     ],
   },
   {
@@ -212,14 +212,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You want 4 bays to separate Time Machine backup from other storage, or the strongest named CPU for multiple simultaneous tasks: the DS425+ ($599.99) or UGREEN DXP4800 Plus ($619.99) both deliver real upgrades over the 2-bay picks.",
+        text: "You want 4 bays to separate Time Machine backup from other storage, or the strongest named CPU for multiple simultaneous tasks: the DS425+ (under $600) or UGREEN DXP4800 Plus (under $650) both deliver real upgrades over the 2-bay picks.",
       },
       {
         label: "Save if",
-        text: "You mainly need reliable Time Machine backup with some home media streaming: the Synology DS225+ ($364.99) covers both well without paying for 4-bay capacity you may not need.",
-      },
+        text: "You mainly need reliable Time Machine backup with some home media streaming: the Synology DS225+ (under $400) covers both well without paying for 4-bay capacity you may not need.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -274,5 +274,5 @@ export const faq = [
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-nas-for-mac-and-time-machine-backup-under-300", title: "Best NAS for Mac Time Machine Backup Under $300" },
-  { href: "/guide/best-docking-stations-for-macbook-pro-under-500", title: "Best Docking Stations for MacBook Pro Under $150" },
+  { href: "/guide/best-docking-stations-for-macbook-pro-under-500", title: "Best Docking Stations for MacBook Pro Under $150" }
 ];

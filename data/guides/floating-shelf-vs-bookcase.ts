@@ -12,7 +12,7 @@ export const floatingShelfVsBookcaseGuide: Guide = {
     "floating shelves home office",
     "bookcase vs wall shelf storage",
     "small office shelving options",
-    "floating shelf weight limit",
+    "floating shelf weight limit"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const floatingShelfVsBookcaseGuide: Guide = {
     "pegboard-desk-organization-explained",
     "under-desk-storage-options-explained",
     "what-size-desk-do-i-need",
-    "desk-declutter-checklist",
+    "desk-declutter-checklist"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const floatingShelfVsBookcaseGuide: Guide = {
       question: "Can I combine floating shelves and a bookcase in the same office?",
       answer:
         "Yes, many home offices use a bookcase for bulk book storage and floating shelves above the desk for frequently accessed reference items or decorative display, combining the strengths of both rather than choosing exclusively one or the other.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const floatingShelfVsBookcaseGuide: Guide = {
     {
       heading: "Choosing Based on Your Actual Storage Volume",
       body: `If you have a substantial collection of books or reference materials needing organized storage, a bookcase's multiple full-width shelves provide more total capacity and a simpler way to browse and organize a larger collection. If your storage needs are more modest, a curated selection of frequently referenced items, decorative pieces, or a small collection, floating shelves accomplish this while preserving valuable floor space in a smaller room.`,
-    },
+    }
   ],
 };

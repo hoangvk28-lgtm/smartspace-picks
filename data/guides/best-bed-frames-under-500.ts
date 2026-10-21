@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This frame is crafted entirely from solid wood without any MDF, particleboard, or veneer, a construction standard the listing states ensures a lifespan of decades rather than just surviving normal wear. Its 2 large solid wood storage drawers use high-quality soft-close slides for smooth, quiet closing, a meaningfully more refined mechanism than the simple rolling casters found on cheaper drawer-equipped frames.\n\nCompared to the AMERLIFE pick below, this one features an extra-high 45.2-inch headboard specifically designed to provide full back and shoulder support while reading or browsing on your phone, eliminating the need for extra pillows propped against the headboard. Its 1.5-inch headboard shelf adds a convenient spot for glasses or a phone within easy reach.\n\nBest for buyers who want genuinely solid wood drawers with soft-close slides and a tall, functional headboard shelf.",
     specs: ["100% solid wood, no MDF or particleboard", "Soft-close drawer slides on 2 solid wood drawers", "45.2 inch headboard with 1.5 inch shelf"],
     pros: ["100% solid wood construction with no MDF or particleboard", "Soft-close drawer slides for genuinely quiet operation", "Extra-tall 45.2 inch headboard with a functional shelf"],
-    cons: ["Ships in two separate boxes, which may arrive at different times", "Highest price in this tier at $419.98"],
+    cons: ["Ships in two separate boxes, which may arrive at different times", "Highest price in this tier at under $450"],
     bestFor: "buyers who want genuinely solid wood drawer construction with soft-close slides",
   },
   {
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Genuinely solid wood drawers with soft-close slides", "SUCSSRICH Solid Wood Queen Size Bed Frame"],
         ["A tall headboard with flexible drawer configuration", "AMERLIFE Solid Wood Queen Storage Bed Frame"],
         ["A distinctly curved, boho-style headboard", "Walker Edison Queen Boho Arched Headboard Bed"],
-        ["A plush, fully upholstered curved headboard", "Walker Edison Chantelle Modern Curved Upholstered Bed"],
+        ["A plush, fully upholstered curved headboard", "Walker Edison Chantelle Modern Curved Upholstered Bed"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $350", "Walker Edison Chantelle ($349.99)"],
-        ["Under $355", "Walker Edison Boho Arched ($353.99)"],
-        ["Under $360", "AMERLIFE Solid Wood Storage Bed ($359.99)"],
-        ["Under $420", "SUCSSRICH Solid Wood Bed Frame ($419.98)"],
+        ["Under $350", "Walker Edison Chantelle (under $350)"],
+        ["Under $355", "Walker Edison Boho Arched (under $400)"],
+        ["Under $360", "AMERLIFE Solid Wood Storage Bed (under $400)"],
+        ["Under $420", "SUCSSRICH Solid Wood Bed Frame (under $450)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Storage-Focused Frame vs Headboard-Design-Focused Frame",
     cards: [
       { label: "Storage-focused (SUCSSRICH, AMERLIFE)", text: "Prioritizes genuine solid wood drawer storage with soft-close or flexible drawer configurations, at the tradeoff of a more functional than decorative headboard." },
-      { label: "Headboard-design-focused (Walker Edison Boho Arched, Walker Edison Chantelle)", text: "Prioritizes a distinctly sculptural or curved headboard silhouette, at the tradeoff of skipping built-in storage drawers entirely." },
+      { label: "Headboard-design-focused (Walker Edison Boho Arched, Walker Edison Chantelle)", text: "Prioritizes a distinctly sculptural or curved headboard silhouette, at the tradeoff of skipping built-in storage drawers entirely." }
     ],
     note: "If under-bed storage is a genuine need, the SUCSSRICH or AMERLIFE picks deliver real drawer capacity. If a striking headboard design matters more than storage, either Walker Edison pick delivers a distinctive look without drawers.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Tall functional wood headboard with a shelf", "SUCSSRICH (45.2 inch) or AMERLIFE (50 inch)"],
         ["Curved solid wood headboard", "Walker Edison Boho Arched"],
-        ["Curved upholstered velvet headboard", "Walker Edison Chantelle"],
+        ["Curved upholstered velvet headboard", "Walker Edison Chantelle"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Frequent Movers or Renters Specifically",
     cards: [
       { label: "Look for", text: "A lighter overall frame weight and simpler construction that's easier to disassemble, transport, and reassemble at a new location without needing help from multiple people." },
-      { label: "In this comparison", text: "The Walker Edison Boho Arched pick specifically discloses a lightweight 70 lb overall frame weight, notably easier to move than a drawer-laden frame like the SUCSSRICH or AMERLIFE picks." },
+      { label: "In this comparison", text: "The Walker Edison Boho Arched pick specifically discloses a lightweight 70 lb overall frame weight, notably easier to move than a drawer-laden frame like the SUCSSRICH or AMERLIFE picks." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want genuinely solid wood drawer construction with soft-close slides, where the SUCSSRICH pick justifies its $419.98 price with that refined mechanism and no-MDF construction claim." },
-      { label: "Save if", text: "You want a distinctly styled headboard without needing storage drawers, where either Walker Edison pick delivers that for under $355." },
+      { label: "Spend more if", text: "You want genuinely solid wood drawer construction with soft-close slides, where the SUCSSRICH pick justifies its under $450 price with that refined mechanism and no-MDF construction claim." },
+      { label: "Save if", text: "You want a distinctly styled headboard without needing storage drawers, where either Walker Edison pick delivers that for under $355." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -185,7 +185,7 @@ export const buyingCriteria = [
 export const faq = [
   { "q": "Does the SUCSSRICH bed frame's two-box shipping mean I need to wait for both boxes before starting assembly?", "a": "Yes, since the frame components are split across two boxes that may arrive on different days, it's worth waiting for both boxes to arrive and confirming all parts are present before beginning assembly to avoid getting partway through and discovering missing components." },
   { "q": "What's the most common mistake buyers make when choosing between a storage-drawer frame and a headboard-design-focused frame at this price?", "a": "Prioritizing a striking headboard design like the Walker Edison picks without considering whether they actually need under-bed storage, then later regretting the lack of drawers when a storage-focused option like the SUCSSRICH or AMERLIFE frame would have served their practical needs better." },
-  { "q": "Is the AMERLIFE frame worth choosing over the SUCSSRICH if soft-close drawers aren't important to me?", "a": "If soft-close drawer slides aren't a priority, the AMERLIFE's lower $359.99 price, taller 50-inch headboard, and higher 1300 lb weight capacity make it a strong value alternative to the SUCSSRICH's more refined but pricier drawer mechanism." },
+  { "q": "Is the AMERLIFE frame worth choosing over the SUCSSRICH if soft-close drawers aren't important to me?", "a": "If soft-close drawer slides aren't a priority, the AMERLIFE's lower under $400 price, taller 50-inch headboard, and higher 1300 lb weight capacity make it a strong value alternative to the SUCSSRICH's more refined but pricier drawer mechanism." },
   { "q": "How do I clean the Walker Edison Chantelle's velvet upholstered headboard if it gets stained?", "a": "Spot-cleaning with a manufacturer-recommended fabric cleaner appropriate for velvet is generally the safest approach, and checking the specific care instructions included with the frame before attempting to clean any stain is worth doing to avoid damaging the velvet's texture." },
   { "q": "Can the Walker Edison Boho Arched frame support the same weight as the storage-drawer frames in this comparison?", "a": "The listing doesn't disclose a specific weight capacity figure the way the AMERLIFE frame's 1300 lbs is stated, so if maximum disclosed weight capacity is a priority, the AMERLIFE or SUCSSRICH picks provide more concrete reassurance on that specific spec." },
   { "q": "Do any of these frames come pre-assembled, or will I need to build them from scratch?", "a": "All four picks in this comparison require self-assembly with included tools and instructions, though the Walker Edison Chantelle specifically states an assembly time under 60 minutes despite its more elaborate curved upholstered design." }

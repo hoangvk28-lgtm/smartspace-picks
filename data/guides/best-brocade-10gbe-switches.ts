@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $69.99",
+          "Under $70",
           "TP-Link TL-SG1024S"
         ],
         [
-          "Around $69.99",
+          "Under $70",
           "NETGEAR 24-Port Gigabit Unmanaged Switch (GS324)"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "NETGEAR 24-Port PoE Gigabit Unmanaged Switch (GS324P)"
         ],
         [
-          "Around $440.00",
+          "Under $450",
           "Cisco SG350-10P Managed Switch"
         ],
         [
-          "Around $669.90",
+          "Under $700",
           "Cisco Catalyst 1300-12XT-2X Managed Switch"
         ],
         [
-          "Around $1,450.00",
+          "Under $1,500",
           "Cisco Meraki Cloud Managed MS225-24P"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "No. The total PoE budget is shared across all active PoE ports, so if you power several high-draw devices simultaneously, the switch may not be able to deliver every port's maximum rated wattage at the same time. Check the total budget against your actual device count and power needs."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Cisco SG350-10P Managed Switch is aimed at buyers prioritizing 8x 1g + 2x combo sfp, 62w poe." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Cisco SG350-10P Managed Switch is aimed at buyers prioritizing 8x 1g + 2x combo sfp, 62w poe." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-netgear-10gbe-switches","title":"Best NETGEAR 10GbE Switches in 2026"},{"href":"/guide/best-mikrotik-10gbe-switches","title":"Best MikroTik 10GbE Switches in 2026"},{"href":"/guide/best-cisco-10gbe-switches","title":"Best Cisco 10GbE Switches in 2026"}];

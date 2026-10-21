@@ -12,7 +12,7 @@ export const laptopPrivacyScreenExplainedGuide: Guide = {
     "do i need a privacy screen",
     "laptop privacy filter brightness",
     "privacy screen for coworking space",
-    "laptop screen protector privacy",
+    "laptop screen protector privacy"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const laptopPrivacyScreenExplainedGuide: Guide = {
     "laptop-sleeve-vs-hard-case",
     "laptop-stand-vs-laptop-riser",
     "monitor-resolution-explained",
-    "ips-vs-va-vs-tn-panel",
+    "ips-vs-va-vs-tn-panel"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const laptopPrivacyScreenExplainedGuide: Guide = {
       question: "Can I remove and reapply a privacy screen easily?",
       answer:
         "Most laptop privacy screens attach via static cling or a removable adhesive strip along the edges, designed to be removed and reapplied without residue, though repeated removal can reduce cling effectiveness over time depending on the specific product.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const laptopPrivacyScreenExplainedGuide: Guide = {
     {
       heading: "Deciding If Your Actual Work Environment Justifies It",
       body: `If you work exclusively from a private home office where no one else is positioned to view your screen from an angle, a privacy screen adds a real usability cost without addressing any actual risk you face. If you regularly work in a coworking space, coffee shop, or on public transit while handling sensitive client data, financial information, or confidential documents, the added privacy is a worthwhile tradeoff against the reduced brightness.`,
-    },
+    }
   ],
 };

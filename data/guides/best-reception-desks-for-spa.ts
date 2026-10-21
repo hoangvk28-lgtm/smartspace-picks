@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $159.99",
+          "Under $160",
           "42.1\" Fluted Round-Corner Reception Desk"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "Kikihouse 63\" Fluted Reception Desk with LED"
         ],
         [
-          "Around $599.99",
+          "Under $600",
           "47\" Reception Desk with LED and Power Outlets"
         ],
         [
-          "Around $1,098.00",
+          "Under $1,100",
           "M2 Retail Reed Reception Desk for Beauty Salons and Spas"
         ],
         [
-          "Around $1,538.00",
+          "Under $1,600",
           "M2 Retail Upgraded Reeded Reception Desk"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "M2 Retail Reed Reception Desk for Beauty Salons and Spas is aimed at buyers prioritizing 39\"w x 20\"d x 39\"h compact desk." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "M2 Retail Reed Reception Desk for Beauty Salons and Spas is aimed at buyers prioritizing 39\"w x 20\"d x 39\"h compact desk." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks-for-beauty-salon","title":"6 Best Reception Desks for Beauty Salon in 2026"},{"href":"/guide/best-reception-desks-for-salon","title":"6 Best Reception Desks for Salon in 2026"},{"href":"/guide/best-reception-desks-for-nail-salon","title":"best-reception-desks-for-nail-salon"}];

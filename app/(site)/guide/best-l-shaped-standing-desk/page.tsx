@@ -175,7 +175,7 @@ export default async function BestLShapedStandingDeskPage() {
     about: [
       { "@type": "Thing", name: "L-Shaped Standing Desk" },
       { "@type": "Thing", name: "Corner Standing Desk" },
-      { "@type": "Thing", name: "Electric Desk" },
+      { "@type": "Thing", name: "Electric Desk" }
     ],
   };
 
@@ -195,7 +195,7 @@ export default async function BestLShapedStandingDeskPage() {
         position: 3,
         name: "Best L-Shaped Standing Desks",
         item: `${SITE_URL}/guide/best-l-shaped-standing-desk`,
-      },
+      }
     ],
   };
 
@@ -450,7 +450,7 @@ export default async function BestLShapedStandingDeskPage() {
                       how: "Only the main section is motorized. The return section stays at sitting height permanently",
                       best: "Buyers who only need the main section at standing height and use the return as a fixed secondary surface",
                       limit: "You cannot stand and use both sections simultaneously at the same height",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.type}</td>
@@ -566,7 +566,7 @@ export default async function BestLShapedStandingDeskPage() {
                     { size: "55\" L-shaped", main: "55\" + 2\" clearance", ret: "40-45\" + 2\" clearance", setup: "Small corner office, spare bedroom" },
                     { size: "59x40\"", main: "59\" + 2\" clearance", ret: "40\" + 2\" clearance", setup: "Tighter corners, budget home office" },
                     { size: "63x55\"", main: "63\" + 2\" clearance", ret: "55\" + 2\" clearance", setup: "Standard dedicated office corner" },
-                    { size: "70x73\"", main: "70\" + 2\" clearance", ret: "73\" + 2\" clearance", setup: "Large dedicated office room only" },
+                    { size: "70x73\"", main: "70\" + 2\" clearance", ret: "73\" + 2\" clearance", setup: "Large dedicated office room only" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.size}</td>
@@ -596,7 +596,7 @@ export default async function BestLShapedStandingDeskPage() {
                 <tbody>
                   {[
                     { motor: "Single motor", how: "One motor drives both leg columns via a crossbar", suit: "Adequate for lighter loads; more torque stress on the corner joint at max height" },
-                    { motor: "Dual motor", how: "Each leg column has its own motor, sharing the load evenly", suit: "Better for L-shapes; reduces corner joint flex at max height under heavy monitor setups" },
+                    { motor: "Dual motor", how: "Each leg column has its own motor, sharing the load evenly", suit: "Better for L-shapes; reduces corner joint flex at max height under heavy monitor setups" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.motor}</td>
@@ -652,7 +652,7 @@ export default async function BestLShapedStandingDeskPage() {
                 context: "Best overall, highest review count",
                 id: "vivo-63x55",
                 name: "VIVO 63x55\" Reversible L-Shaped Standing Desk",
-                verdict: " - dual motor, 4.6 stars at 1,738 reviews, reversible orientation.",
+                verdict: " - Dual motor, reversible orientation.",
               },
               {
                 context: "Best with storage, 63 inch main section",
@@ -664,7 +664,7 @@ export default async function BestLShapedStandingDeskPage() {
                 context: "Best budget, smaller footprint",
                 id: "acrolix-59x40",
                 name: "Acrolix L-Shaped Electric Standing Desk 59x40\"",
-                verdict: " - 824 reviews, smaller footprint for tighter corners.",
+                verdict: " - Smaller footprint for tighter corners.",
               },
               {
                 context: "Best gaming setup",
@@ -689,7 +689,7 @@ export default async function BestLShapedStandingDeskPage() {
                 id: "sedeta-59-drawers",
                 name: "SEDETA 59 Inch L-Shaped Electric with Drawers",
                 verdict: " - drawer plus 59\" L-shaped at the lowest price tier on this list.",
-              },
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

@@ -12,7 +12,7 @@ export const deskFanVsAcForGamingSetupGuide: Guide = {
     "gaming pc room too hot fix",
     "desk fan for gaming heat",
     "ac vs fan for computer room",
-    "cooling a hot gaming room",
+    "cooling a hot gaming room"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskFanVsAcForGamingSetupGuide: Guide = {
     "desk-fan-cfm-explained",
     "pc-tower-placement-desk-setup",
     "space-heater-room-size-chart",
-    "air-purifier-cadr-explained",
+    "air-purifier-cadr-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskFanVsAcForGamingSetupGuide: Guide = {
       question: "Can better PC case airflow reduce room heat output overall?",
       answer:
         "A more efficient PC cooling setup can reduce how much heat escapes into the room somewhat, but the PC's total power consumption ultimately converts to heat regardless of how efficiently that heat is managed within the case, better case airflow mainly helps the PC's own internal temperatures rather than dramatically reducing total room heat output.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const deskFanVsAcForGamingSetupGuide: Guide = {
     {
       heading: "Why Actual PC Performance Impact Signals When Fans Aren't Enough",
       body: `If your gaming PC shows signs of thermal throttling, reduced performance specifically correlating with sustained heavy use in a warm room, this indicates the ambient room temperature itself has become genuinely too high for adequate cooling, a scenario where a fan's air circulation improvement likely isn't sufficient and a real reduction in ambient temperature via air conditioning becomes the more effective and arguably necessary solution, both for your comfort and your hardware's actual performance and longevity.`,
-    },
+    }
   ],
 };

@@ -6,7 +6,7 @@ export const mainKeyword = "right-handed vertical mouse";
 export const introParagraphs = [
   "Since most vertical mice on the market default to right-handed design without explicit labeling, worth clarifying what specifically distinguishes a product deliberately marketed as 'right-handed' from the unmarked default right-handed products that dominate this entire category.",
   "The vast majority of general vertical mouse buying content already implicitly covers right-handed products by default, worth identifying what additional value a right-handed-specific search provides beyond that existing broader coverage.",
-  "This framing likely exists mainly to serve buyers explicitly searching 'right-handed,' perhaps after learning left-handed options are limited, worth acknowledging that search-intent context rather than presenting right-handed framing as a functionally distinct product category.",
+  "This framing likely exists mainly to serve buyers explicitly searching 'right-handed,' perhaps after learning left-handed options are limited, worth acknowledging that search-intent context rather than presenting right-handed framing as a functionally distinct product category."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Right-Handed Vertical Mouse Overall",
     name: "Anker 2.4G Wireless Ergonomic Mouse, Right Hand Vertical Mouse USB Receiver",
     price: "$20.99",
-    rating: "4.2 stars from 53,313 Amazon ratings",
-    reviews: "53,313 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31z5JT0yL+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BIFNTMC?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best Refined Right-Hand-Optimized Pick",
     name: "Logitech Lift Vertical Ergonomic Wireless Mouse - Graphite",
     price: "$57.40",
-    rating: "4.4 stars from 13,635 Amazon ratings",
-    reviews: "13,635 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31nb5ALnDvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09J1TB35S?tag=deskfinds0d-20",
     description:
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best Right-Handed Pick with Color Option",
     name: "Logitech Lift Vertical Ergonomic Wireless Mouse - Off White",
     price: "$58.99",
-    rating: "4.4 stars from 13,635 Amazon ratings",
-    reviews: "13,635 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31lhXsHgD-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B098JK6G5N?tag=deskfinds0d-20",
     description:
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Right-Handed Pick",
     name: "ProtoArc EM11 NL Wireless Ergonomic Vertical Mouse, Rechargeable, Black",
     price: "$22.99",
-    rating: "4.4 stars from 5,670 Amazon ratings",
-    reviews: "5,670 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31PGrLfkUxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CX18LHWS?tag=deskfinds0d-20",
     description:
@@ -94,8 +94,8 @@ export const products: GuideProduct[] = [
     badge: "Best Right-Handed Pick with More Buttons",
     name: "TECKNET Ergonomic Mouse, Wireless Bluetooth Vertical Mouse, 4800 DPI Optical Tracking, 6 Adjustable DPI, Quiet Clicks, 2.4GHz with USB A Receiver, 12 Months Battery, 6 Buttons, Wide Compatibility",
     price: "$20.99",
-    rating: "4.4 stars from 12,710 Amazon ratings",
-    reviews: "12,710 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31UoLhAJ4zL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DG5SW7F4?tag=deskfinds0d-20",
     description:
@@ -104,7 +104,7 @@ export const products: GuideProduct[] = [
     pros: ["Very large review base, strong real-world evidence", "6 buttons for more programmable functionality", "Long 12-month quoted battery life", "Quiet clicks as a genuine bonus feature"],
     cons: ["No separate left-handed variant to confirm deliberate right-hand optimization", "Standard curve, not a specifically refined right-hand shape", "More buttons add complexity some buyers may not need"],
     bestFor: "Buyers wanting extra programmable buttons alongside the standard right-hand default",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -113,7 +113,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Overlap with general vertical mouse research acknowledged explicitly", description: "Acknowledged that general 'best vertical mice' content already implicitly covers right-handed products by default, identifying what additional value a right-handed-specific framing provides." },
   { title: "Search-intent context acknowledged for buyers seeking right-handed options explicitly", description: "Acknowledged that this framing exists mainly to serve buyers explicitly searching 'right-handed,' perhaps after learning left-handed options are limited, rather than presenting this as a functionally distinct category." },
   { title: "Most-refined right-hand-specific ergonomic curves identified", description: "Differentiated toward identifying which products offer the most refined right-hand-specific ergonomic curves compared to more generic or ambidextrous-leaning designs." },
-  { title: "Right-hand-optimized versus ambidextrous tradeoff considered", description: "Considered the tradeoff between choosing a deliberately right-hand-optimized design versus an ambidextrous option, similar to the framing relevant for left-handed buyers." },
+  { title: "Right-hand-optimized versus ambidextrous tradeoff considered", description: "Considered the tradeoff between choosing a deliberately right-hand-optimized design versus an ambidextrous option, similar to the framing relevant for left-handed buyers." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Should I buy a right-hand-optimized mouse or an ambidextrous one?", a: "A deliberately right-hand-shaped curve generally fits more precisely, while an ambidextrous design offers more flexibility if you occasionally switch hands or share the mouse with someone else." },
   { q: "Why would I search for 'right-handed vertical mouse' specifically?", a: "This framing largely exists to serve buyers explicitly searching after discovering left-handed options are limited, a genuinely useful search even though most of the category already defaults to right-handed." },
   { q: "Does a bigger review base matter more for right-handed mice than other categories?", a: "It's a strong signal here specifically, since right-handed vertical mice represent the market default, the largest review bases genuinely reflect the deepest accumulated real-world evidence for that exact ergonomic curve." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the single most-proven, explicitly labeled right-handed pick" },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the single most-proven, explicitly labeled right-handed pick" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-multi-device-vertical-mice", title: "Best Multi-Device Vertical Mice (2026)" },
   { href: "/guide/best-silent-vertical-mice", title: "Best Silent Vertical Mice (2026)" },
-  { href: "/guide/best-rechargeable-vertical-mice", title: "Best Rechargeable Vertical Mice (2026)" },
+  { href: "/guide/best-rechargeable-vertical-mice", title: "Best Rechargeable Vertical Mice (2026)" }
 ];

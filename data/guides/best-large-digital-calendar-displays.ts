@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "large digital calendar display";
 export const introParagraphs = [
   "Large digital calendar displays are touchscreen family organizers, ranging from around $60 to $370, that sync with existing calendar accounts and often add chore charts or shared to-do lists. Screen size and subscription requirements vary meaningfully across this price range.",
-  "We flagged which of these explicitly advertise no subscription requirement, since a touchscreen calendar that requires an ongoing paid plan is a materially different long-term purchase than a one-time-cost device.",
+  "We flagged which of these explicitly advertise no subscription requirement, since a touchscreen calendar that requires an ongoing paid plan is a materially different long-term purchase than a one-time-cost device."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "9 min";
@@ -129,7 +129,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Flagged subscription requirements where explicitly stated", description: "We noted which listings explicitly advertise no subscription requirement versus those where this wasn't confirmed, since it's a real long-term cost factor." },
   { title: "Compared confirmed screen sizes across a wide price range", description: "This category spans from a 10.1 inch model at a competitive price unit to a 21.5 inch model at a competitive price unit, and we compared value within and across these size tiers." },
   { title: "Weighed brand track record where relevant", description: "We noted where a product comes from an established family-calendar brand (Skylight) versus general electronics brands entering the category." },
-  { title: "Distinguished countertop displays from wall-mounted command centers", description: "The largest screen size here functions more like a wall-mounted family hub than the smaller countertop-oriented units." },
+  { title: "Distinguished countertop displays from wall-mounted command centers", description: "The largest screen size here functions more like a wall-mounted family hub than the smaller countertop-oriented units." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,14 +243,14 @@ export const buyingCriteria: BuyingCriterion[] = [
 
 export const faq: FaqItem[] = [
   { q: "Do these require a monthly subscription?", a: "It varies. The Cotoala and Airzeen 10.1 inch picks explicitly advertise no subscription requirement; verify subscription terms directly for the other picks before buying." },
-  { q: "What's the cheapest option?", a: "The Cotoala 10.1 inch Smart Digital Calendar at $59.99, also confirmed subscription-free." },
+  { q: "What's the cheapest option?", a: "The Cotoala 10.1 inch Smart Digital Calendar at under $60, also confirmed subscription-free." },
   { q: "What's the largest screen available?", a: "The Apolosign 21.5 inch Digital Calendar, roughly double the diagonal size of the standard 10.1 inch options." },
   { q: "Which is best for tracking kids' chores?", a: "The Skylight Calendar and Dragon Touch pick both include dedicated chore chart features." },
-  { q: "Is a larger screen worth the extra cost?", a: "It depends on placement. A 21.5 inch screen suits a wall-mounted family command center, while a 10.1 inch screen is more appropriate for a countertop or entryway." },
+  { q: "Is a larger screen worth the extra cost?", a: "It depends on placement. A 21.5 inch screen suits a wall-mounted family command center, while a 10.1 inch screen is more appropriate for a countertop or entryway." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-day-clocks-with-calendars", title: "Best Day Clocks with Calendars (2026)" },
   { href: "/guide/best-time-displays", title: "Best Time Displays (2026)" },
-  { href: "/guide/best-smart-display-tablets", title: "Best Smart Display Tablets (2026)" },
+  { href: "/guide/best-smart-display-tablets", title: "Best Smart Display Tablets (2026)" }
 ];

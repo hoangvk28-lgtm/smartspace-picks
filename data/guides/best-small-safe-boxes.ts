@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small safe boxes";
 export const introParagraphs = [
   "Safe box is a loose term covering everything from a mountable steel security safe to a lightweight portable lockbox, and the two aren't equally resistant to being carried away by a thief. We classified each pick by its actual construction and mounting capability rather than treating every safe box as the same product.",
-  "We also checked whether each pick includes mounting hardware directly in the box, since a safe box that's genuinely anchorable is a meaningfully different purchase from one that only locks its door.",
+  "We also checked whether each pick includes mounting hardware directly in the box, since a safe box that's genuinely anchorable is a meaningfully different purchase from one that only locks its door."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     pros: ["Lowest price in this entire comparison by a wide margin", "Removable coin tray adds genuine small-item organization"],
     cons: ["Not mountable, provides basic privacy rather than genuine theft deterrence"],
     bestFor: "Buyers needing basic privacy for petty cash or medication, not anchored security.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Classified mountable security boxes separately from portable lockboxes", description: "Seven picks here are genuinely mountable steel security boxes with included hardware; one is a true portable lockbox. We labeled the distinction directly rather than ranking them on one undifferentiated scale." },
   { title: "Verified mounting hardware inclusion, not just door locking", description: "We checked whether pre-drilled holes and expansion bolts ship in the box, since an unanchored box, however well locked, can simply be carried away." },
   { title: "Compared access-recovery methods across picks", description: "Several picks confirm USB-C or external battery backup for dead-battery scenarios; others rely on key-only backup. We noted which offers a genuine recovery path versus which requires finding a physical key." },
-  { title: "Distinguished genuine theft deterrence from basic privacy", description: "The one true portable lockbox here offers basic privacy, not anchored security. We labeled it honestly rather than implying equivalent protection to the mountable steel boxes." },
+  { title: "Distinguished genuine theft deterrence from basic privacy", description: "The one true portable lockbox here offers basic privacy, not anchored security. We labeled it honestly rather than implying equivalent protection to the mountable steel boxes." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -263,7 +263,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review count and rating together, not rating alone",
-    "explanation": "A 4.8-star rating from 12 reviews carries far less evaluation confidence than a 4.5-star rating from several thousand, since a small sample can be skewed by a handful of early, enthusiastic buyers before any long-term reliability issues would show up in later reviews.\n\nThis matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
+    "explanation": "This matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
   }
 ];
 
@@ -272,11 +272,11 @@ export const faq: FaqItem[] = [
   { q: "Is there a portable lockbox rather than a mountable safe?", a: "Yes, the KYODOLED Small Metal Lock Box is a true portable lockbox offering basic privacy rather than anchored security, at the lowest price in this comparison." },
   { q: "Which pick has the largest mountable capacity?", a: "The Bonsaii Safe Box with Electronic Keypad at 0.6 cubic feet." },
   { q: "Is there an option with a dead-battery backup?", a: "Yes, the Bonsaii Small Safe Box confirms a USB-C interface supporting an external power bank if the internal battery dies." },
-  { q: "What happens if I lose the physical key?", a: "The [UPGRADED] Small Safes for Home pick offers a serial-number-based backup key replacement service; most other picks require keeping a spare key stored separately from the safe." },
+  { q: "What happens if I lose the physical key?", a: "The [UPGRADED] Small Safes for Home pick offers a serial-number-based backup key replacement service; most other picks require keeping a spare key stored separately from the safe." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-safe-lock-boxes", title: "Best Small Safe Lock Boxes (2026)" },
   { href: "/guide/best-small-safes", title: "Best Small Safes (2026)" },
-  { href: "/guide/best-small-safes-for-money", title: "Best Small Safes for Money (2026)" },
+  { href: "/guide/best-small-safes-for-money", title: "Best Small Safes for Money (2026)" }
 ];

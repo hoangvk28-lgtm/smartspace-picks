@@ -12,7 +12,7 @@ export const standingDeskHeightChartGuide: Guide = {
     "correct standing desk height by height",
     "standing desk elbow height",
     "standing desk height for tall person",
-    "how to set standing desk height",
+    "how to set standing desk height"
   ],
   heroImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const standingDeskHeightChartGuide: Guide = {
     "standing-desk-weight-capacity-explained",
     "standing-desk-converter-vs-full-standing-desk",
     "anti-fatigue-mat-explained",
-    "standard-desk-height",
+    "standard-desk-height"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const standingDeskHeightChartGuide: Guide = {
       question: "Do I need a different height if I wear different shoes?",
       answer:
         "Technically yes, since shoe height changes your standing eye and elbow level slightly, most people don't need to readjust for minor differences, but if you regularly switch between very different shoe heights, minor desk height adjustment can help maintain proper positioning.",
-    },
+    }
   ],
   sections: [
     {
@@ -76,6 +76,6 @@ These are starting estimates, individual arm length and torso proportions mean y
     {
       heading: "Why Monitor Height Needs to Move With the Desk",
       body: `A monitor positioned at correct eye level while sitting will sit too low once the desk raises to standing height, since your eye level itself rises when you stand. A monitor arm that adjusts along with the desk, or a habit of manually readjusting monitor height when switching positions, keeps your neck in proper alignment in both sitting and standing modes, skipping this adjustment undermines much of the ergonomic benefit of switching positions in the first place.`,
-    },
+    }
   ],
 };

@@ -12,7 +12,7 @@ export const dockingStationVsUsbHubGuide: Guide = {
     "usb hub vs docking station difference",
     "do i need a docking station or hub",
     "usb-c hub with display output",
-    "laptop dock single cable setup",
+    "laptop dock single cable setup"
   ],
   heroImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const dockingStationVsUsbHubGuide: Guide = {
     "usb-c-docking-station-ports-chart",
     "usb-c-power-delivery-explained",
     "thunderbolt-vs-usb-c-explained",
-    "kvm-switch-explained",
+    "kvm-switch-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const dockingStationVsUsbHubGuide: Guide = {
       question: "Can I use a docking station for a single-cable desk setup?",
       answer:
         "Yes, this is one of a docking station's core benefits, connecting a single cable from your laptop to the dock gives you access to all your monitors, peripherals, and laptop charging simultaneously, without plugging in each device separately.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const dockingStationVsUsbHubGuide: Guide = {
     {
       heading: "When a Simpler USB Hub Is All You Need",
       body: `If you don't need to charge your laptop through the same device, only connect one external monitor, and mainly just need a couple of extra USB ports for a mouse and external drive, a basic USB-C hub covers this need at a lower cost than a full docking station. Reserve the docking station investment for setups genuinely benefiting from consolidated charging, multi-monitor output, and multiple peripherals through one connection.`,
-    },
+    }
   ],
 };

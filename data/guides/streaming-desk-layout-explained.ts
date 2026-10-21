@@ -12,7 +12,7 @@ export const streamingDeskLayoutExplainedGuide: Guide = {
     "how to arrange streaming desk",
     "camera position for streaming desk",
     "streaming setup cable management",
-    "desk layout for content creator",
+    "desk layout for content creator"
   ],
   heroImage: "https://images.unsplash.com/photo-1634041323797-b9fdef9d18f7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1634041323797-b9fdef9d18f7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const streamingDeskLayoutExplainedGuide: Guide = {
     "webcam-mount-types-explained",
     "microphone-arm-reach-chart",
     "audio-mixer-vs-audio-interface",
-    "cable-management-types-explained",
+    "cable-management-types-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const streamingDeskLayoutExplainedGuide: Guide = {
       question: "Does lighting placement affect overall desk layout decisions?",
       answer:
         "Yes, lighting needs to be positioned in front of you without appearing directly in frame, which affects where other equipment like monitor arms or shelving can be placed without physically blocking the light's path to your face.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const streamingDeskLayoutExplainedGuide: Guide = {
     {
       heading: "Why Cable Routing Affects Both Appearance and Practical Function",
       body: `Beyond the visual benefit of a clean on-camera appearance, properly routed cables along the back and underside of a streaming desk also serve a practical function, preventing cables from being in the way of frequently used equipment like a microphone boom arm's range of motion or a webcam's positioning adjustments. Planning cable routes as part of the initial desk layout, rather than as an afterthought once equipment is already placed, avoids needing to redo routing later when a cable turns out to interfere with equipment movement.`,
-    },
+    }
   ],
 };

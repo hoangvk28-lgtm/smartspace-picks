@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41Q53q5a44L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FJBB2YTY?tag=deskfinds0d-20",
-    "description": "Wikabex is the only stepless footrest in this group, and it is built entirely from carbon steel with a high-density foam cushion on top. You raise or lower it with your foot, across a listed range of 2.7 to 13.1 inches, so there is no bending down mid-match and no fixed steps to settle for. The listing says it needs no tools or setup.\n\nCompared with Ciao Stilista, which also reaches the upper range but moves in six pin-locked steps, Wikabex lets you land on any height in between. That precision costs money: at $79.99 it is nearly twice the price of Ciao Stilista and double YEASHEIN. It is also a patent-pending design with little track record to lean on.\n\nChoose it if you change posture often, switch between a desk chair and a taller gaming chair, or share the footrest with someone of a different height. The caveat is the price, and the listing gives no weight limit, so confirm capacity before buying if you are a heavier user.",
+    "description": "Wikabex is the only stepless footrest in this group, and it is built entirely from carbon steel with a high-density foam cushion on top. You raise or lower it with your foot, across a listed range of 2.7 to 13.1 inches, so there is no bending down mid-match and no fixed steps to settle for. The listing says it needs no tools or setup.\n\nCompared with Ciao Stilista, which also reaches the upper range but moves in six pin-locked steps, Wikabex lets you land on any height in between. That precision costs money: at under $80 it is nearly twice the price of Ciao Stilista and double YEASHEIN. It is also a patent-pending design with little track record to lean on.\n\nChoose it if you change posture often, switch between a desk chair and a taller gaming chair, or share the footrest with someone of a different height. The caveat is the price, and the listing gives no weight limit, so confirm capacity before buying if you are a heavier user.",
     "specs": [
       "2.7 to 13.1 inch stepless range",
       "Carbon steel build",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41FqNLNu7hL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HCNMWFYG?tag=deskfinds0d-20",
-    "description": "FOXHIVE is a bamboo footrest with a 1.8 cm (0.7 inch) thick board that works three ways: flat and stable, reversed, or as a rocker with the cushion. It offers 6 height settings, which the listing contrasts with basic stools that have only a couple.\n\nIt costs $33.99, about $6 less than YEASHEIN, and uses bamboo instead of steel and foam. Compared with PEGZONE it offers far more heights, though PEGZONE has split pedals that let each foot move independently.\n\nBest for gamers who like a natural material and want rocking as an option. The caveat is that the highlights give no tilt degrees or weight rating.",
+    "description": "FOXHIVE is a bamboo footrest with a 1.8 cm (0.7 inch) thick board that works three ways: flat and stable, reversed, or as a rocker with the cushion. It offers 6 height settings, which the listing contrasts with basic stools that have only a couple.\n\nIt costs under $35, about $6 less than YEASHEIN, and uses bamboo instead of steel and foam. Compared with PEGZONE it offers far more heights, though PEGZONE has split pedals that let each foot move independently.\n\nBest for gamers who like a natural material and want rocking as an option. The caveat is that the highlights give no tilt degrees or weight rating.",
     "specs": [
       "Bamboo 1.8 cm board",
       "6 heights",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41gpHmjIfYL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FP1H249F?tag=deskfinds0d-20",
-    "description": "PEGZONE has two height settings, 4.9 and 5.9 inches, flexible angles, and a split-pedal design so each foot can move independently. The surface adds a massage texture and a roller.\n\nAt $29.99 it is the cheapest of the more active designs, but it has fewer heights than FOXHIVE. Compared with CushZone it is more engaging for fidgeting but gives you no cushion.\n\nBest for players who rarely keep their feet still and sit at a standard height. The caveat is that two heights may not match a tall gaming chair, and the listing gives no weight rating.",
+    "description": "PEGZONE has two height settings, 4.9 and 5.9 inches, flexible angles, and a split-pedal design so each foot can move independently. The surface adds a massage texture and a roller.\n\nAt under $30 it is the cheapest of the more active designs, but it has fewer heights than FOXHIVE. Compared with CushZone it is more engaging for fidgeting but gives you no cushion.\n\nBest for players who rarely keep their feet still and sit at a standard height. The caveat is that two heights may not match a tall gaming chair, and the listing gives no weight rating.",
     "specs": [
       "2 heights",
       "Split pedals",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51DsgfVF3zL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0B7HZNMPZ?tag=deskfinds0d-20",
-    "description": "CushZone is a two-piece foam footrest that stacks to a total height of 6 inches or splits into two lower pieces. It has a non-slip bottom and a removable cover that unzips for cleaning.\n\nAt $16.99 it is the cheapest pick here and the simplest, with no tilt, no steel and no massage. Against C Cushion Lab it offers the same idea of a soft foam rest at less than a third of the price.\n\nA sensible starter for a first footrest or a secondary one at a console chair. The caveat is limited height and no stated weight rating or dimensions in the highlights.",
+    "description": "CushZone is a two-piece foam footrest that stacks to a total height of 6 inches or splits into two lower pieces. It has a non-slip bottom and a removable cover that unzips for cleaning.\n\nAt under $20 it is the cheapest pick here and the simplest, with no tilt, no steel and no massage. Against C Cushion Lab it offers the same idea of a soft foam rest at less than a third of the price.\n\nA sensible starter for a first footrest or a secondary one at a console chair. The caveat is limited height and no stated weight rating or dimensions in the highlights.",
     "specs": [
       "Two-piece, 6 inches total",
       "Non-slip bottom",
@@ -239,7 +239,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Price versus features",
-    "explanation": "Prices here run from $16.99 to $79.99, but the extra money buys adjustment and build, not necessarily comfort. If you only need a low rest, CushZone does the job. Compare which adjustments you will actually use before paying more."
+    "explanation": "Prices here run from roughly $20 to $80, but the extra money buys adjustment and build, not necessarily comfort. If you only need a low rest, CushZone does the job. Compare which adjustments you will actually use before paying more."
   }
 ];
 

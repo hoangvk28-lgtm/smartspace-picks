@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "letter-size portable file boxes";
 export const introParagraphs = [
   "This overlaps substantially with our general portable file boxes guide, since letter-size is the most common US document size and likely the implicit default for most listings. This guide's value is confirming explicit letter-size sizing for buyers who want that certainty rather than assuming compatibility.",
-  "Letter-size hanging folders are the most universally available folder size, a genuine convenience benefit of choosing this standard sizing over legal or A4 alternatives.",
+  "Letter-size hanging folders are the most universally available folder size, a genuine convenience benefit of choosing this standard sizing over legal or A4 alternatives."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Explicit letter-size confirmation", description: "We verified each pick's listing explicitly confirms letter size rather than assuming compatibility from a general 'file box' label." },
   { title: "Genuine hanging file rail verification", description: "We confirmed rail compatibility for standard letter-size hanging folders on each pick." },
   { title: "Proven review track record", description: "We favored picks with substantial review history as real evidence of reliable long-term performance for this most common document size." },
-  { title: "Value across single, 2-pack, and 4-pack options", description: "We compared per-unit value across different pack sizes to match buyers' realistic quantity needs." },
+  { title: "Value across single, 2-pack, and 4-pack options", description: "We compared per-unit value across different pack sizes to match buyers' realistic quantity needs." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -224,11 +224,11 @@ export const faq: FaqItem[] = [
   { q: "Are letter-size hanging folders easy to find?", a: "Yes, they're the most universally available folder size at any office supply retailer, a genuine sourcing convenience over legal or A4 alternatives." },
   { q: "Should I buy a single box or a multi-pack?", a: "If you only need one box, buy individually. For multiple boxes, a 2-pack or 4-pack generally offers better per-unit value." },
   { q: "How is this different from your general portable file box guide?", a: "This guide narrows specifically to explicitly confirmed letter-size boxes, useful if you want that certainty rather than assuming compatibility from a general listing." },
-  { q: "Do these boxes have genuine hanging file rails?", a: "Yes, all five picks in this guide confirm genuine hanging file rail compatibility for standard letter-size folders." },
+  { q: "Do these boxes have genuine hanging file rails?", a: "Yes, all five picks in this guide confirm genuine hanging file rail compatibility for standard letter-size folders." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" },
   { href: "/guide/best-portable-file-boxes-for-legal-size-documents", title: "Best Portable File Boxes for Legal-Size Documents (2026)" },
-  { href: "/guide/best-small-portable-file-boxes", title: "Best Small Portable File Boxes (2026)" },
+  { href: "/guide/best-small-portable-file-boxes", title: "Best Small Portable File Boxes (2026)" }
 ];

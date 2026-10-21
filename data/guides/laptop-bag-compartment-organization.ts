@@ -12,7 +12,7 @@ export const laptopBagCompartmentOrganizationGuide: Guide = {
     "dedicated laptop sleeve bag",
     "bag organization pockets for cables",
     "why laptop compartment matters",
-    "bag capacity vs organization",
+    "bag capacity vs organization"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const laptopBagCompartmentOrganizationGuide: Guide = {
     "laptop-backpack-vs-messenger-bag",
     "cable-sleeve-size-chart",
     "laptop-sleeve-vs-hard-case",
-    "desk-organizer-types-explained",
+    "desk-organizer-types-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const laptopBagCompartmentOrganizationGuide: Guide = {
       question: "Should I organize a bag by item type or by frequency of access?",
       answer:
         "A hybrid approach often works best, keeping the laptop in its dedicated protective compartment regardless of access frequency, while organizing other items, frequently needed things in easily accessible outer pockets, less frequently needed items deeper in the main compartment.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const laptopBagCompartmentOrganizationGuide: Guide = {
     {
       heading: "Why Organization Often Matters More Than Total Capacity for Daily Use",
       body: `A bag with generous total capacity but no internal structure or dedicated pockets often becomes a place where small items, cables, adapters, a phone charger, get lost or tangled among larger items, turning a quick task like grabbing a charging cable into an unnecessarily frustrating search. A moderately sized bag with well-designed dedicated pockets for these smaller items frequently provides a more genuinely efficient daily experience than simply having more overall space without the organizational structure to use it well.`,
-    },
+    }
   ],
 };

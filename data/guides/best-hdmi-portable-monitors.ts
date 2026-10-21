@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "HDMI portable monitor";
 export const introParagraphs = [
   "HDMI portable monitor searches usually come from a different need than USB-C portable monitor searches. If you're connecting a PS5, an Xbox Series X|S, a Nintendo Switch dock, or an older PC or laptop that only outputs HDMI, USB-C alt-mode monitors are the wrong tool since none of those devices output video over USB-C. The 7 picks below all include real HDMI input, and we call out exactly which ones use full-size HDMI versus mini-HDMI, and which ones need a separate USB power cable to actually turn on.",
-  "The single biggest gotcha with HDMI portable monitors is power. HDMI carries video only, never power, so every monitor here still needs a USB cable run to a wall adapter, a powered USB port, or a second port on your laptop just to light up the screen. Below we rank these 7 monitors on port type, panel quality, stand design, and how much of a hassle the power setup actually is, not just on spec-sheet resolution numbers.",
+  "The single biggest gotcha with HDMI portable monitors is power. HDMI carries video only, never power, so every monitor here still needs a USB cable run to a wall adapter, a powered USB port, or a second port on your laptop just to light up the screen. Below we rank these 7 monitors on port type, panel quality, stand design, and how much of a hassle the power setup actually is, not just on spec-sheet resolution numbers."
 ];
 export const lastUpdated = "2026-07-28";
 export const readTime = "10 min";
@@ -46,8 +46,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall",
     name: "KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover",
     price: "$62.99",
-    rating: "4.4 stars from 13,089 Amazon ratings",
-    reviews: "13,089 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51T7K-COzIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B088D8JG3L?tag=deskfinds0d-20",
     description: "This is the most reviewed pick in this guide, and it earns that volume with a straightforward feature set: a 15.6-inch 1080p IPS panel, two USB-C ports, and a mini-HDMI input that covers PCs, consoles, and older laptops without needing a USB-C alt-mode source. The magnetic smart cover doubles as a stand with two viewing angle grooves.\n\nIt earns the top spot in this comparison over cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB Travel Monitor with Speaker HDMI USB-C for one main reason. Largest review base of any pick in this guide by a wide margin. On price, it comes in below cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB Travel Monitor with Speaker HDMI USB-C, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Includes a mini-HDMI-to-HDMI cable in the box. On the other side, Still needs a separate USB power cable even when using HDMI. That's the main tradeoff to weigh against everything above.",
@@ -62,13 +62,13 @@ export const products: GuideProduct[] = [
     badge: "Highest Rated, VESA Mountable",
     name: "cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB Travel Monitor with Speaker HDMI USB-C",
     price: "$109.99",
-    rating: "4.8 stars from 6,300 Amazon ratings",
-    reviews: "6,300 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31y1n0H2EtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZLY26FW?tag=deskfinds0d-20",
-    description: "This is the highest-rated monitor in this guide at 4.8 stars, and it is the only pick with a real full-size HDMI port alongside two USB-C ports, so there is no mini-HDMI adapter to lose or fail. An 85% sRGB IPS panel with 178-degree viewing angles makes it a genuine step up in color accuracy over the budget picks here, and built-in VESA mounting holes let it attach to a monitor arm instead of relying on the folding cover.\n\nOne spot below KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover in this ranking, it costs more than KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover. The compromise here is straightforward: Highest price in this guide. What you gain in return: Highest rating in this guide at 4.8 stars. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Full-size HDMI port, no mini-HDMI adapter required. On the other side, Still requires separate USB power when running over HDMI. That's the main tradeoff to weigh against everything above.",
+    description: "An 85% sRGB IPS panel with 178-degree viewing angles makes it a genuine step up in color accuracy over the budget picks here, and built-in VESA mounting holes let it attach to a monitor arm instead of relying on the folding cover.\n\nOne spot below KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover in this ranking, it costs more than KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover. The compromise here is straightforward: Highest price in this guide. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Full-size HDMI port, no mini-HDMI adapter required. On the other side, Still requires separate USB power when running over HDMI. That's the main tradeoff to weigh against everything above.",
     specs: ["15.6-inch 1080P IPS, 85% sRGB, 178° viewing angle","2x full-featured USB-C + 1x full-size HDMI","VESA mountable (two mounting holes on the back)","1.5 lb without cover, 4mm slimmest point","Smart stand case included"],
-    pros: ["Highest rating in this guide at 4.8 stars","Full-size HDMI port, no mini-HDMI adapter required","VESA mount holes for a monitor arm, not just a folding cover-stand","Stronger color accuracy (85% sRGB) than most budget portable monitors"],
+    pros: ["Full-size HDMI port, no mini-HDMI adapter required","VESA mount holes for a monitor arm, not just a folding cover-stand","Stronger color accuracy (85% sRGB) than most budget portable monitors"],
     cons: ["Highest price in this guide","Heavier stand-and-cover combo (2.4 lb) if you keep the case attached","Still requires separate USB power when running over HDMI"],
     bestFor: "Buyers who want a full-size HDMI port, better color accuracy, and the option to VESA-mount it",
   },
@@ -78,8 +78,8 @@ export const products: GuideProduct[] = [
     badge: "Best Full-Size HDMI for Older PCs",
     name: "UPERFECT Portable Monitor, 15.6\" IPS 1920x1080 FHD Eye Care Travel Screen",
     price: "$65.99",
-    rating: "4.5 stars from 5,189 Amazon ratings",
-    reviews: "5,189 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41GAXbxIzZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07TWGBG3P?tag=deskfinds0d-20",
     description: "This is the pick to reach for if your source device is an older PC, a desktop with only a graphics card HDMI port, or a console, since it has a standard full-size HDMI input plus dual Type-C and an OTG port for a mouse or keyboard. The 75x75mm VESA mount on the back is a genuinely useful inclusion at this price, letting it attach to a standard monitor arm instead of only sitting on its folding cover.\n\nSitting just under cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB Travel Monitor with Speaker HDMI USB-C, it's priced lower than cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB Travel Monitor with Speaker HDMI USB-C. Here's the honest tradeoff: Eye-care tuning prioritizes work use over gaming responsiveness. And here's what it gets you instead: Full-size HDMI port, not mini-HDMI. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: OTG port lets you plug in a mouse or keyboard directly. On the other side, Still needs separate USB power over HDMI. That's the main tradeoff to weigh against everything above.",
@@ -94,8 +94,8 @@ export const products: GuideProduct[] = [
     badge: "Best Warranty and Build Quality",
     name: "ASUS ZenScreen 15.6\" Portable Monitor for Laptop (MB169CK)",
     price: "$89.00",
-    rating: "4.4 stars from 2,879 Amazon ratings",
-    reviews: "2,879 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41I0gueZ9NL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPFYVPBG?tag=deskfinds0d-20",
     description: "ASUS backs this ZenScreen with a 3-year warranty, longer than any other pick in this guide, and pairs it with TUV-certified low blue light and flicker-free eye-care certification rather than an uncertified marketing claim. It uses dual USB-C ports plus mini-HDMI, and a 360-degree kickstand replaces the folding-cover design most budget picks rely on.\n\nRanked just behind UPERFECT Portable Monitor, it costs more than UPERFECT Portable Monitor. The real tradeoff against that pick: Mini-HDMI, not full-size HDMI, so console/older-PC users need to check cable fit. In exchange, it offers this instead: Longest warranty in this guide at 3 years. That's the swap that decides whether this pick or the one above it is the better fit for your source device.\n\nWorth knowing before you decide: TUV-certified eye care, not just an unverified marketing claim. On the other side, Costs more than the KYY and UPERFECT picks without a large spec advantage. That's the main tradeoff to weigh against everything above.",
@@ -110,13 +110,13 @@ export const products: GuideProduct[] = [
     badge: "Best Built-In Kickstand",
     name: "ARZOPA Portable Monitor 15.6'' FHD 1080P - Ultra-Slim with Kickstand",
     price: "$79.99",
-    rating: "4.6 stars from 3,042 Amazon ratings",
-    reviews: "3,042 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51qgAD7WZSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CH9XW8RK?tag=deskfinds0d-20",
     description: "ARZOPA builds a kickstand directly into the monitor's metal housing here, rather than relying on a separate folding cover, which means one less accessory to lose or misplace on trips. It supports duplicate, extend, and second-screen display modes and lists compatibility with PS3, PS4, PS5, and Xbox alongside laptops, PCs, and Macs.\n\nOne spot below ASUS ZenScreen 15.6\" Portable Monitor for Laptop in this ranking, it's priced lower than ASUS ZenScreen 15.6\" Portable Monitor for Laptop. The compromise here is straightforward: Built-in kickstand adds a bit of thickness versus the slimmest cover-stand designs. What you gain in return: Kickstand is built into the housing, nothing extra to carry or lose. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Broad listed console compatibility including PS5. On the other side, No VESA mount option, kickstand only. That's the main tradeoff to weigh against everything above.",
     specs: ["15.6-inch FHD IPS, 1920x1080","USB-C & HDMI connectivity","Built-in kickstand, metal housing","1.6 lb, 0.35-inch profile","Listed compatibility: PS3/PS4/PS5/Xbox/Switch"],
-    pros: ["Kickstand is built into the housing, nothing extra to carry or lose","Broad listed console compatibility including PS5","Durable metal build compared to plastic-only competitors","Strong rating at 4.6 stars"],
+    pros: ["Kickstand is built into the housing, nothing extra to carry or lose","Broad listed console compatibility including PS5","Durable metal build compared to plastic-only competitors"],
     cons: ["Built-in kickstand adds a bit of thickness versus the slimmest cover-stand designs","Confirm your exact HDMI port size for console use before buying","No VESA mount option, kickstand only"],
     bestFor: "Buyers who want a stand that's always attached and ready, especially for frequent console hookups",
   },
@@ -126,8 +126,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Console Gaming Bundle",
     name: "KYY Portable Monitor 15.6'' FHD 1080P USB C HDMI Gaming Monitor Ultra-Slim IPS Display",
     price: "$62.99",
-    rating: "4.5 stars from 5,126 Amazon ratings",
-    reviews: "5,126 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51zvuRNUGoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B088TLQR3K?tag=deskfinds0d-20",
     description: "This second KYY model ships with a mini-HDMI-to-HDMI cable, a screen protector film, and two USB-C cables in the box, which removes the most common first-hour frustration with console setups: discovering after unboxing that you don't have the right cable. HDR mode and a 1000:1 contrast ratio are aimed squarely at gaming and video use rather than pure office work.\n\nSitting just under ARZOPA Portable Monitor 15.6'' FHD 1080P, it's priced lower than ARZOPA Portable Monitor 15.6'' FHD 1080P. Here's the honest tradeoff: Still mini-HDMI, not full-size HDMI. And here's what it gets you instead: Ships with the mini-HDMI-to-HDMI cable already in the box. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: HDR mode and higher contrast ratio suit console and video use. On the other side, Requires separate USB power alongside the HDMI video connection. That's the main tradeoff to weigh against everything above.",
@@ -142,8 +142,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick",
     name: "MNN 15.6\" FHD 60Hz Portable Monitor USB-C HDMI IPS HDR Gaming Laptop",
     price: "$49.99",
-    rating: "4.3 stars from 11,979 Amazon ratings",
-    reviews: "11,979 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/5130Dsp2DML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9NNWXVP?tag=deskfinds0d-20",
     description: "At a competitive price, this is the least expensive pick in this guide, and it still carries a large review base and a 1080p IPS panel with HDR mode and multiple display modes including copy, extended, and portrait. Dual full-feature USB-C ports handle laptop and phone connections, and an HDMI path is available for console and older-device use. Ranked just behind KYY Portable Monitor 15.6'' FHD 1080P USB C HDMI Gaming Monitor Ultra-Slim IPS Display, it's priced lower than KYY Portable Monitor 15.6'' FHD 1080P USB C HDMI Gaming Monitor Ultra-Slim IPS Display. The real tradeoff against that pick: Slightly lower rating (4.3) than the other picks in this guide. In exchange, it offers this instead: Lowest price of any pick in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your source device. Worth knowing before you decide: Large review base for a budget-tier monitor. On the other side, No VESA mount option. That's the main tradeoff to weigh against everything above.",
@@ -179,7 +179,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Listed device and console compatibility",
     description: "Cross-checked each listing's stated compatibility with PC, Mac, phone, and specific consoles (PS4, PS5, Xbox, Switch) rather than assuming generic 'wide compatibility' marketing covers every device equally.",
-  },
+  }
 ];
 
 export interface HowToChooseSection {
@@ -284,7 +284,7 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want what cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB Travel Monitor with Speaker HDMI USB-C offers: Highest rating in this guide at 4.8 stars. That's a real functional upgrade over the budget picks here, not just a brand markup."
+        "text": "That's a real functional upgrade over the budget picks here, not just a brand markup."
       },
       {
         "label": "Save if",
@@ -341,12 +341,12 @@ export const faq: FaqItem[] = [
   {
     q: "Can I mount an HDMI portable monitor on a monitor arm?",
     a: "Only if it has real VESA mounting holes, not just a fold-out cover-stand. In this guide, the cocopar (2 mounting holes) and UPERFECT (75x75mm VESA pattern) support monitor arm mounting; the others rely on a cover-stand or built-in kickstand instead.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-tablet-stands-for-desk", title: "Best Tablet Stands for Desk (2026)" },
   { href: "/guide/usb-c-hub-vs-docking-station", title: "USB-C Hub vs Docking Station (2026)" },
   { href: "/guide/best-monitor-under-100", title: "Best Monitor Under $100 (2026)" },
-  { href: "/guide/best-webcam-for-video-calls", title: "Best Webcam for Video Calls (2026)" },
+  { href: "/guide/best-webcam-for-video-calls", title: "Best Webcam for Video Calls (2026)" }
 ];

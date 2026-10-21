@@ -5,7 +5,7 @@ export const metaDescription = "5 KVM switches for two laptops we evaluated, wit
 export const mainKeyword = "kvm switch for two laptops";
 export const introParagraphs = [
   "Switching between two laptops through USB-C often requires both laptop ports to support DisplayPort Alt Mode video output, not just one, worth verifying both your laptops' specific USB-C ports carry video before assuming a USB-C KVM switch works symmetrically across both devices.",
-  "Two laptops connecting to one switch usually means two separate power adapters stay in use, since a KVM switch's power delivery typically only charges one connected device at a time even while switching video and peripherals for both.",
+  "Two laptops connecting to one switch usually means two separate power adapters stay in use, since a KVM switch's power delivery typically only charges one connected device at a time even while switching video and peripherals for both."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     badge: "Best KVM Switch for Two Laptops Overall",
     name: "AV Access Docking Station KVM Switch 2 Monitors 2 Laptops, 4K Dual Display",
     price: "$169.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41NY0yTE9kL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DD3X51XS?tag=deskfinds0d-20",
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     badge: "Best Premium Pick for Two Laptops",
     name: "AV Access KVM Switch Dock 2 Monitors 2 Laptops, 4K KVM Switch Dual Monitor",
     price: "$233.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41e02xrYlyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP4PD3SM?tag=deskfinds0d-20",
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     badge: "Best Thunderbolt Pick for Two Laptops",
     name: "Thunderbolt 4 KVM Switch 3 Monitors 2 Laptops 4K@60Hz, Displaylink USB C Docking Station 3 Monitor",
     price: "$295.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/419nisVPE2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVMKWZRP?tag=deskfinds0d-20",
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick for a Simple Two-Laptop Setup",
     name: "KVM Switch 1 Monitors 2 Computers 4K@60Hz USB C HDMI KVM Switch 2 Port for 1 Laptop 1 Desktop",
     price: "$55.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41BxNjK7PrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GY4R958W?tag=deskfinds0d-20",
@@ -89,7 +89,7 @@ export const products: GuideProduct[] = [
     badge: "Best Simple Value Pick for Two Laptops",
     name: "TIGKTING USB 3.0 HDMI KVM Switch 1 Monitors 2 Computers 4K60Hz KVM Switches 2 Ports for 2 PC 1 Monitor",
     price: "$29.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41EdJsfqo4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H2YVL93R?tag=deskfinds0d-20",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Symmetric USB-C video support across both laptops verified", description: "Verified whether a switch's USB-C ports genuinely support video from both connected laptops, since not every laptop's USB-C port outputs video symmetrically." },
   { title: "Power delivery behavior for both laptops clarified", description: "Clarified that a KVM switch's power delivery typically only charges one connected device at a time, even while switching video and peripherals for both." },
   { title: "HDMI as a compatibility fallback considered", description: "Considered HDMI-based switches as a straightforward alternative for buyers whose laptops don't both support USB-C video output." },
-  { title: "Monitor count needs matched to actual two-laptop workflows", description: "Matched single-monitor and dual-monitor switch options against buyers' actual two-laptop workflow needs." },
+  { title: "Monitor count needs matched to actual two-laptop workflows", description: "Matched single-monitor and dual-monitor switch options against buyers' actual two-laptop workflow needs." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Should I use HDMI instead of USB-C for a two-laptop KVM switch?", a: "If either laptop's USB-C video support is uncertain, HDMI avoids that compatibility question entirely." },
   { q: "Do I need a dual-monitor switch for two laptops?", a: "Only if you want a full workspace switch, a single-monitor switch is simpler and sufficient for many two-laptop workflows." },
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers with two laptops wanting a budget-friendly dedicated switching solution" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers with two laptops using HDMI output wanting a simple, budget-friendly switch At $29.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers with two laptops using HDMI output wanting a simple, budget-friendly switch At under $30, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-kvm-switches-for-a-laptop-and-desktop", title: "Best KVM Switches for a Laptop and Desktop (2026)" },
   { href: "/guide/best-usb-c-kvm-switches", title: "Best USB-C KVM Switches (2026)" },
-  { href: "/guide/best-kvm-switches-for-two-computers", title: "Best KVM Switches for Two Computers (2026)" },
+  { href: "/guide/best-kvm-switches-for-two-computers", title: "Best KVM Switches for Two Computers (2026)" }
 ];

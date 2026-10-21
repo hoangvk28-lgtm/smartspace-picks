@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31BynObXkZL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D82LCXWP?tag=deskfinds0d-20",
-    "description": "What stands out on Cherry KC 200 MX Mechanical Office Keyboard with New MX2A switches. Modern Design with Metal Plate Frame. (Bronze W/MX2A Brown Switch) (Renewed) is cherry mx2a switches, alongside white led indicators built into, which is the main reason it earns a spot in this mechanical keyboards comparison.\n\nAt $49.99, it's the most expensive pick in this comparison, and that premium needs to be justified by genuinely using the extra features it carries over the cheaper options here.\n\nThis pick best suits buyers who know their preferred switch feel and layout size and want a reliable board without custom-building one. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "What stands out on Cherry KC 200 MX Mechanical Office Keyboard with New MX2A switches. Modern Design with Metal Plate Frame. (Bronze W/MX2A Brown Switch) (Renewed) is cherry mx2a switches, alongside white led indicators built into, which is the main reason it earns a spot in this mechanical keyboards comparison.\n\nAt under $50, it's the most expensive pick in this comparison, and that premium needs to be justified by genuinely using the extra features it carries over the cheaper options here.\n\nThis pick best suits buyers who know their preferred switch feel and layout size and want a reliable board without custom-building one. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "CHERRY MX2A Switches",
       "White LED indicators built into",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41bWjX9agqL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CDX5XGLK?tag=deskfinds0d-20",
-    "description": "Redragon K673 PRO Wireless 81-Key RGB Gasket Gaming Keyboard is built around one-knob simplicity, paired with switch devices without re-pairing, zero, positioning it as a keyboard built around a specific switch and layout choice rather than a one-size-fits-all pick.\n\nCompared to Guiheng Wired Portable 60% Mechanical Gaming Keyboard at $14.99, it costs more for real added capability, while sitting well below Cherry KC 200 MX Mechanical Office Keyboard with New MX2A switches. Modern Design with Metal Plate Frame. (Bronze W/MX2A Brown Switch) (Renewed) at $49.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who know their preferred switch feel and layout size and want a reliable board without custom-building one. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "Redragon K673 PRO Wireless 81-Key RGB Gasket Gaming Keyboard is built around one-knob simplicity, paired with switch devices without re-pairing, zero, positioning it as a keyboard built around a specific switch and layout choice rather than a one-size-fits-all pick.\n\nCompared to Guiheng Wired Portable 60% Mechanical Gaming Keyboard at under $15, it costs more for real added capability, while sitting well below Cherry KC 200 MX Mechanical Office Keyboard with New MX2A switches. Modern Design with Metal Plate Frame. (Bronze W/MX2A Brown Switch) (Renewed) at under $50 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who know their preferred switch feel and layout size and want a reliable board without custom-building one. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "One-Knob Simplicity",
       "Switch Devices Without Re-Pairing, Zero",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41EqBb555-L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DT43NNNF?tag=deskfinds0d-20",
-    "description": "What stands out on AULA WIN68 HE Mechanical Gaming Keyboard 60% is fast trigger gaming keyboard, alongside hall effect keyboard with magnetic switch, which is the main reason it earns a spot in this mechanical keyboards comparison.\n\nIt lands between Guiheng Wired Portable 60% Mechanical Gaming Keyboard's $14.99 price floor and Cherry KC 200 MX Mechanical Office Keyboard with New MX2A switches. Modern Design with Metal Plate Frame. (Bronze W/MX2A Brown Switch) (Renewed)'s $49.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nAULA WIN68 HE Mechanical Gaming Keyboard 60% is the right call for buyers who know their preferred switch feel and layout size and want a reliable board without custom-building one. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on AULA WIN68 HE Mechanical Gaming Keyboard 60% is fast trigger gaming keyboard, alongside hall effect keyboard with magnetic switch, which is the main reason it earns a spot in this mechanical keyboards comparison.\n\nIt lands between Guiheng Wired Portable 60% Mechanical Gaming Keyboard's under $15 price floor and Cherry KC 200 MX Mechanical Office Keyboard with New MX2A switches. Modern Design with Metal Plate Frame. (Bronze W/MX2A Brown Switch) (Renewed)'s under $50 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nAULA WIN68 HE Mechanical Gaming Keyboard 60% is the right call for buyers who know their preferred switch feel and layout size and want a reliable board without custom-building one. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Fast Trigger Gaming Keyboard",
       "Hall Effect Keyboard with Magnetic Switch",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31DLUK0J+OL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0F3891T7N?tag=deskfinds0d-20",
-    "description": "What stands out on ZMX H60 Aluminum Keyboard Case is full aluminum keyboard shell, alongside designed for keyboard enthusiasts, which is the main reason it earns a spot in this mechanical keyboards comparison.\n\nCompared to Guiheng Wired Portable 60% Mechanical Gaming Keyboard at $14.99, it costs more for real added capability, while sitting well below Cherry KC 200 MX Mechanical Office Keyboard with New MX2A switches. Modern Design with Metal Plate Frame. (Bronze W/MX2A Brown Switch) (Renewed) at $49.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who know their preferred switch feel and layout size and want a reliable board without custom-building one. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "What stands out on ZMX H60 Aluminum Keyboard Case is full aluminum keyboard shell, alongside designed for keyboard enthusiasts, which is the main reason it earns a spot in this mechanical keyboards comparison.\n\nCompared to Guiheng Wired Portable 60% Mechanical Gaming Keyboard at under $15, it costs more for real added capability, while sitting well below Cherry KC 200 MX Mechanical Office Keyboard with New MX2A switches. Modern Design with Metal Plate Frame. (Bronze W/MX2A Brown Switch) (Renewed) at under $50 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who know their preferred switch feel and layout size and want a reliable board without custom-building one. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Full Aluminum Keyboard Shell",
       "Designed for Keyboard Enthusiasts",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41EckzKo9lL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09BVCVTBC?tag=deskfinds0d-20",
-    "description": "Redragon K617 Wired 60% Compact Hot-Swap RGB Gaming Mechanical Keyboard is built around 60% compact, more room to, paired with swap switches without soldering, smooth, positioning it as a keyboard built around a specific switch and layout choice rather than a one-size-fits-all pick.\n\nIt lands between Guiheng Wired Portable 60% Mechanical Gaming Keyboard's $14.99 price floor and Cherry KC 200 MX Mechanical Office Keyboard with New MX2A switches. Modern Design with Metal Plate Frame. (Bronze W/MX2A Brown Switch) (Renewed)'s $49.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nRedragon K617 Wired 60% Compact Hot-Swap RGB Gaming Mechanical Keyboard is the right call for buyers who know their preferred switch feel and layout size and want a reliable board without custom-building one. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "Redragon K617 Wired 60% Compact Hot-Swap RGB Gaming Mechanical Keyboard is built around 60% compact, more room to, paired with swap switches without soldering, smooth, positioning it as a keyboard built around a specific switch and layout choice rather than a one-size-fits-all pick.\n\nIt lands between Guiheng Wired Portable 60% Mechanical Gaming Keyboard's under $15 price floor and Cherry KC 200 MX Mechanical Office Keyboard with New MX2A switches. Modern Design with Metal Plate Frame. (Bronze W/MX2A Brown Switch) (Renewed)'s under $50 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nRedragon K617 Wired 60% Compact Hot-Swap RGB Gaming Mechanical Keyboard is the right call for buyers who know their preferred switch feel and layout size and want a reliable board without custom-building one. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "60% Compact, More Room to",
       "Swap Switches Without Soldering, Smooth",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41rdq+-JA+L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CS2BJWXS?tag=deskfinds0d-20",
-    "description": "Newmen GM326 Mechanical Keyboard leads with [75% mechanical keyboard with rainbow, backed by [hot swappable linear mechanical keyboard], a combination aimed at as a keyboard built around a specific switch and layout choice rather than a one-size-fits-all pick.\n\nCompared to Guiheng Wired Portable 60% Mechanical Gaming Keyboard at $14.99, it costs more for real added capability, while sitting well below Cherry KC 200 MX Mechanical Office Keyboard with New MX2A switches. Modern Design with Metal Plate Frame. (Bronze W/MX2A Brown Switch) (Renewed) at $49.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who know their preferred switch feel and layout size and want a reliable board without custom-building one. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "Newmen GM326 Mechanical Keyboard leads with [75% mechanical keyboard with rainbow, backed by [hot swappable linear mechanical keyboard], a combination aimed at as a keyboard built around a specific switch and layout choice rather than a one-size-fits-all pick.\n\nCompared to Guiheng Wired Portable 60% Mechanical Gaming Keyboard at under $15, it costs more for real added capability, while sitting well below Cherry KC 200 MX Mechanical Office Keyboard with New MX2A switches. Modern Design with Metal Plate Frame. (Bronze W/MX2A Brown Switch) (Renewed) at under $50 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who know their preferred switch feel and layout size and want a reliable board without custom-building one. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "[75% Mechanical Keyboard with Rainbow",
       "[Hot Swappable Linear Mechanical Keyboard]",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/414Qy4CwK4L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B099PTK6PY?tag=deskfinds0d-20",
-    "description": "FANTECH Maxfit61 60% Mechanical Keyboard leads with your keyboard, your way: designed, backed by mini 60% keyboard layout, a combination aimed at as a keyboard built around a specific switch and layout choice rather than a one-size-fits-all pick.\n\nCompared to Guiheng Wired Portable 60% Mechanical Gaming Keyboard at $14.99, it costs more for real added capability, while sitting well below Cherry KC 200 MX Mechanical Office Keyboard with New MX2A switches. Modern Design with Metal Plate Frame. (Bronze W/MX2A Brown Switch) (Renewed) at $49.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who know their preferred switch feel and layout size and want a reliable board without custom-building one. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "FANTECH Maxfit61 60% Mechanical Keyboard leads with your keyboard, your way: designed, backed by mini 60% keyboard layout, a combination aimed at as a keyboard built around a specific switch and layout choice rather than a one-size-fits-all pick.\n\nCompared to Guiheng Wired Portable 60% Mechanical Gaming Keyboard at under $15, it costs more for real added capability, while sitting well below Cherry KC 200 MX Mechanical Office Keyboard with New MX2A switches. Modern Design with Metal Plate Frame. (Bronze W/MX2A Brown Switch) (Renewed) at under $50 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who know their preferred switch feel and layout size and want a reliable board without custom-building one. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "YOUR Keyboard, YOUR Way: Designed",
       "Mini 60% Keyboard layout",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41K1Vb7VVyL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DT1CMZVY?tag=deskfinds0d-20",
-    "description": "What stands out on Guiheng Wired Portable 60% Mechanical Gaming Keyboard is this wired gaming keyboard featured, alongside professional mechanical feeling keys, 68, which is the main reason it earns a spot in this mechanical keyboards comparison.\n\nAt $14.99, it's the most affordable pick in this comparison, so expect fewer extras than the pricier options here, but the core function holds up for buyers who don't need the added features those carry.\n\nThis pick best suits buyers who know their preferred switch feel and layout size and want a reliable board without custom-building one. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "What stands out on Guiheng Wired Portable 60% Mechanical Gaming Keyboard is this wired gaming keyboard featured, alongside professional mechanical feeling keys, 68, which is the main reason it earns a spot in this mechanical keyboards comparison.\n\nAt under $15, it's the most affordable pick in this comparison, so expect fewer extras than the pricier options here, but the core function holds up for buyers who don't need the added features those carry.\n\nThis pick best suits buyers who know their preferred switch feel and layout size and want a reliable board without custom-building one. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "This wired gaming keyboard featured",
       "Professional Mechanical feeling Keys, 68",
@@ -325,35 +325,35 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $14.99",
+          "Under $15",
           "Guiheng Wired Portable 60% Mechanical Gaming Keyboard"
         ],
         [
-          "Around $19.99",
+          "Under $20",
           "FANTECH Maxfit61 60% Mechanical Keyboard"
         ],
         [
-          "Around $25.99",
+          "Under $30",
           "Newmen GM326 Mechanical Keyboard"
         ],
         [
-          "Around $29.99",
+          "Under $30",
           "ZMX H60 Aluminum Keyboard Case"
         ],
         [
-          "Around $29.99",
+          "Under $30",
           "Redragon K617 Wired 60% Compact Hot-Swap RGB Gaming Mechanical Keyboard"
         ],
         [
-          "Around $39.99",
+          "Under $40",
           "AULA WIN68 HE Mechanical Gaming Keyboard 60%"
         ],
         [
-          "Around $46.99",
+          "Under $50",
           "Redragon K673 PRO Wireless 81-Key RGB Gasket Gaming Keyboard"
         ],
         [
-          "Around $49.99",
+          "Under $50",
           "Cherry KC 200 MX Mechanical Office Keyboard with New MX2A switches. Modern Design with Metal Plate Frame. (Bronze W/MX2A Brown Switch) (Renewed)"
         ]
       ]
@@ -364,11 +364,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Guiheng Wired Portable 60% Mechanical Gaming Keyboard",
-        "text": "The lowest-priced pick in this comparison at $14.99, a solid choice if you don't need the extras the pricier picks carry."
+        "text": "The lowest-priced pick in this comparison at under $15, a solid choice if you don't need the extras the pricier picks carry."
       },
       {
         "label": "Cherry KC 200 MX Mechanical Office Keyboard with New MX2A switches. Modern Design with Metal Plate Frame. (Bronze W/MX2A Brown Switch) (Renewed)",
-        "text": "The highest-priced pick at $49.99, worth it only if you'll actually use what that premium buys."
+        "text": "The highest-priced pick at under $50, worth it only if you'll actually use what that premium buys."
       }
     ],
     "note": "Default to Guiheng Wired Portable 60% Mechanical Gaming Keyboard unless the pricier pick's specific advantage genuinely applies to your situation."
@@ -428,7 +428,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "What's the real difference between the cheapest and most expensive pick here?",
-    "a": "Guiheng Wired Portable 60% Mechanical Gaming Keyboard at $14.99 covers the basics, while Cherry KC 200 MX Mechanical Office Keyboard with New MX2A switches. Modern Design with Metal Plate Frame. (Bronze W/MX2A Brown Switch) (Renewed) at $49.99 adds wireless connectivity and hot-swap switch flexibility. Whether that's worth the difference depends on whether you value the flexibility to change switches or go cable-free, versus a straightforward wired board that just works."
+    "a": "Guiheng Wired Portable 60% Mechanical Gaming Keyboard at under $15 covers the basics, while Cherry KC 200 MX Mechanical Office Keyboard with New MX2A switches. Modern Design with Metal Plate Frame. (Bronze W/MX2A Brown Switch) (Renewed) at under $50 adds wireless connectivity and hot-swap switch flexibility. Whether that's worth the difference depends on whether you value the flexibility to change switches or go cable-free, versus a straightforward wired board that just works."
   },
   {
     "q": "What's the difference between linear, tactile, and clicky switches?",
@@ -440,7 +440,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "Is there a solid middle-ground pick in this price range?",
-    "a": "Redragon K617 Wired 60% Compact Hot-Swap RGB Gaming Mechanical Keyboard at $29.99 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
+    "a": "Redragon K617 Wired 60% Compact Hot-Swap RGB Gaming Mechanical Keyboard at under $30 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
   },
   {
     "q": "What's the most common mistake buyers make shopping mechanical keyboards under $50?",

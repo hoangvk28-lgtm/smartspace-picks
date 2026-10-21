@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $179.99",
+          "Under $180",
           "Tribesigns 6.5FT Rectangle Conference Table (Table Only)"
         ],
         [
-          "Around $189.99",
+          "Under $190",
           "Tribesigns 6FT Rustic Conference Table"
         ],
         [
-          "Around $209.99",
+          "Under $250",
           "TRIBEWOOD 63-Inch Solid Wood Conference Table for 4-6"
         ],
         [
-          "Around $259.99",
+          "Under $300",
           "Tribesigns 5.25FT Solid Wood Conference Table for 4-6"
         ],
         [
-          "Around $269.99",
+          "Under $300",
           "TRIBEWOOD 5.24ft Solid Wood Conference Table for 6"
         ],
         [
-          "Around $269.99",
+          "Under $300",
           "Sleekform 6FT Wooden Folding Banquet Table"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "Tribesigns 8FT Boat-Shaped Conference Table"
         ],
         [
-          "Around $489.99",
+          "Under $500",
           "TRIBEWOOD 10FT Solid Wood Conference Table for 10-12"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "TRIBEWOOD 10FT Solid Wood Conference Table for 10-12 is aimed at buyers prioritizing 10ft solid wood table, seats 10-12." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "TRIBEWOOD 10FT Solid Wood Conference Table for 10-12 is aimed at buyers prioritizing 10ft solid wood table, seats 10-12." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-solid-wood-conference-tables","title":"Best Solid Wood Conference Tables in 2026"},{"href":"/guide/best-live-edge-conference-tables","title":"Best Live-Edge Conference Tables in 2026"},{"href":"/guide/best-walnut-conference-tables","title":"Best Walnut Conference Tables in 2026"}];

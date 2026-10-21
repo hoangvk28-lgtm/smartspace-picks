@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "printer for low volume printing";
 export const introParagraphs = [
   "Most printer buying guides are written for people who print a lot. That's the wrong lens for a household that prints a handful of pages a week, since the cheapest printer up front is often not the cheapest printer to actually own once ink cost and idle-cartridge risk are factored in.",
-  "Below are 8 printers we evaluated specifically for low-volume home use, defined loosely as under 20 pages a month at the light end up to a few hundred pages a month at the heavier end of this tier. We break down real monthly ink cost by volume tier, the hidden cost of startup calibration pages, and when a laser printer actually beats an ink-tank model for someone who barely prints at all.",
+  "Below are 8 printers we evaluated specifically for low-volume home use, defined loosely as under 20 pages a month at the light end up to a few hundred pages a month at the heavier end of this tier. We break down real monthly ink cost by volume tier, the hidden cost of startup calibration pages, and when a laser printer actually beats an ink-tank model for someone who barely prints at all."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "3-month Instant Ink trial included",
       "Standard cartridge inkjet",
       "Lowest upfront price in this list",
-      "AI-capable setup features",
+      "AI-capable setup features"
     ],
     pros: [
       "Lowest upfront cost in this list",
       "Instant Ink trial reduces first cartridge spend",
       "Compact wireless all-in-one",
-      "Straightforward setup",
+      "Straightforward setup"
     ],
     cons: [
       "Standard cartridges can dry out with infrequent use",
       "Higher long-term ink cost than an ink-tank printer at moderate volume",
-      "Fewer scan features than pricier all-in-ones",
+      "Fewer scan features than pricier all-in-ones"
     ],
     bestFor: "The lightest occasional printing on the smallest possible budget",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Duplex (double-sided) printing",
       "Copier/scanner built in",
       "1-year limited warranty",
-      "Easy setup",
+      "Easy setup"
     ],
     pros: [
       "Compact footprint fits small spaces",
       "Duplex printing saves paper",
       "1-year warranty included",
-      "Simple, quick setup",
+      "Simple, quick setup"
     ],
     cons: [
       "Best suited to lighter print volumes",
       "Standard cartridges, same idle-ink risk as other inkjets",
-      "Fewer connectivity options than pricier models",
+      "Fewer connectivity options than pricier models"
     ],
     bestFor: "Small spaces and the lightest, most occasional home printing",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Duplex printing",
       "Intuitive control panel",
       "Compact design",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     pros: [
       "Clear OLED display simplifies multi-user households",
       "Duplex printing built in",
       "Compact footprint",
-      "Reasonable price for the added display",
+      "Reasonable price for the added display"
     ],
     cons: [
       "Standard cartridges, not an ink-tank system",
       "Best value at lower monthly print volumes",
-      "Pricier than the base TS3720",
+      "Pricier than the base TS3720"
     ],
     bestFor: "A low-volume household where more than one person shares the printer",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Built-in fax",
       "Mobile printing support",
       "Wireless all-in-one",
-      "Standard cartridge inkjet",
+      "Standard cartridge inkjet"
     ],
     pros: [
       "Auto document feeder for occasional multi-page scanning",
       "Built-in fax, useful for the rare household that still needs it",
       "Competitive low-volume price",
-      "Mobile printing support",
+      "Mobile printing support"
     ],
     cons: [
       "Fax is a feature most low-volume households won't use",
       "Same idle-ink drying risk as any cartridge inkjet",
-      "No ink-tank option for anyone whose volume creeps up",
+      "No ink-tank option for anyone whose volume creeps up"
     ],
     bestFor: "A low-volume household that occasionally needs to scan or fax paperwork",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Print, scan, copy",
       "No duplex printing",
       "Compact design",
-      "Cheapest all-in-one on this list",
+      "Cheapest all-in-one on this list"
     ],
     pros: [
       "Lowest price for a full print/scan/copy unit",
       "Simple setup for infrequent use",
       "Compact footprint",
-      "Wireless printing included",
+      "Wireless printing included"
     ],
     cons: [
       "No auto duplex printing",
       "Fewer features than the TS4320 or TS6520",
-      "Standard idle-ink risk of any cartridge inkjet",
+      "Standard idle-ink risk of any cartridge inkjet"
     ],
     bestFor: "The absolute lightest, most occasional all-in-one printing need",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Wireless all-in-one",
       "Print, scan, copy",
       "Standard cartridge inkjet",
-      "Compact design",
+      "Compact design"
     ],
     pros: [
       "Reliable mobile and tablet printing",
       "Simple all-in-one feature set",
       "Compact footprint",
-      "Wireless setup",
+      "Wireless setup"
     ],
     cons: [
       "Pricier than other PIXMA picks without duplex printing",
       "No display for menu navigation",
-      "Same idle-ink risk at low volume",
+      "Same idle-ink risk at low volume"
     ],
     bestFor: "A low-volume household that prints mostly from a phone or tablet",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Display and intuitive controls",
       "Good photo print quality",
       "Wireless all-in-one",
-      "Standard cartridge inkjet",
+      "Standard cartridge inkjet"
     ],
     pros: [
       "Most full-featured pick in this list",
       "Duplex printing and a real display",
       "Solid photo output for occasional use",
-      "Wireless setup",
+      "Wireless setup"
     ],
     cons: [
       "Highest price among the standard inkjets here",
       "Overkill for the lightest occasional printing",
-      "Same idle-ink drying risk as any cartridge inkjet",
+      "Same idle-ink drying risk as any cartridge inkjet"
     ],
     bestFor: "A low-volume household that wants a more full-featured printer despite light use",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Bluetooth wireless connection",
       "Supports 8.5x11-inch US Letter and A4",
       "300 DPI resolution",
-      "No ink or toner to dry out or expire",
+      "No ink or toner to dry out or expire"
     ],
     pros: [
       "Zero idle-ink risk, ideal for true occasional use",
       "Portable, works with phone or laptop",
       "No cartridges or toner to buy",
-      "Compact for travel or small spaces",
+      "Compact for travel or small spaces"
     ],
     cons: [
       "Not a substitute for a full inkjet or laser printer",
       "Thermal paper costs more per page and fades over time",
-      "Lower print quality than standard inkjet or laser output",
+      "Lower print quality than standard inkjet or laser output"
     ],
     bestFor: "Genuinely rare, portable printing where zero ink maintenance matters more than output quality",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Feature fit for occasional household use",
     description: "Checked duplex printing, display quality, and mobile printing against what an infrequent home user actually benefits from, not office-grade features nobody at this volume needs.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -456,7 +456,7 @@ export const howToChoose: HowToChooseSection[] = [
 export const faq: FaqItem[] = [
   {
     q: "What counts as low-volume printing?",
-    a: "Roughly under 20 pages a month is occasional use, 20-100 pages a month is low but regular, and 100-500 pages a month is moderate volume. Most households overestimate how much they actually print, so it's worth checking your last month's page count before choosing a printer.",
+    a: "Under 20 pages a month is occasional use, 20-100 pages a month is low but regular, and 100-500 pages a month is moderate volume. Most households overestimate how much they actually print, so it's worth checking your last month's page count before choosing a printer.",
   },
   {
     q: "Is a cheap inkjet actually cheaper for low-volume printing?",
@@ -477,11 +477,11 @@ export const faq: FaqItem[] = [
   {
     q: "Is the inkless thermal printer a good main printer?",
     a: "No. The MT610Pro is a specialty pick for genuinely rare, portable printing where avoiding ink maintenance matters more than print quality. For anything beyond occasional use, a standard inkjet from this list will serve better and cost less per page.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-home-use", title: "Best Printers for Home Use (2026)" },
   { href: "/guide/best-printers-for-documents", title: "Best Printers for Documents (2026)" },
-  { href: "/guide/best-easy-to-use-printers", title: "Best Easy-to-Use Printers (2026)" },
+  { href: "/guide/best-easy-to-use-printers", title: "Best Easy-to-Use Printers (2026)" }
 ];

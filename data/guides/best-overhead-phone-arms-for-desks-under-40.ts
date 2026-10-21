@@ -155,7 +155,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The cheapest phone-only mount in this tier", "LISEN Cell Phone Holder, Overhead Phone Mount"],
         ["Built-in lighting for content creation", "Evershop Ring Light Overhead Camera Phone Mount"],
         ["A versatile mount for phones and small cameras", "SMALLRIG 22\" Magic Arm Clamp"],
-        ["Switching between a phone and an action camera", "NEEWER 22\" Magic Arm w Desk C Clamp"],
+        ["Switching between a phone and an action camera", "NEEWER 22\" Magic Arm w Desk C Clamp"]
       ],
     },
   },
@@ -164,8 +164,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $25", "LISEN ($19.68), Lamicall Gooseneck ($19.99), or Lamicall Nylon ($24.99)"],
-        ["$25 to $35", "Evershop Ring Light ($29.99), SMALLRIG ($33.90), or NEEWER ($33.99)"],
+        ["Under $25", "LISEN (under $20), Lamicall Gooseneck (under $20), or Lamicall Nylon (under $25)"],
+        ["$25 to $35", "Evershop Ring Light (under $30), SMALLRIG (under $35), or NEEWER (under $35)"]
       ],
     },
   },
@@ -179,7 +179,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "Camera-style magic arm (SMALLRIG, NEEWER)",
         text: "Rated for a specific load capacity (600g/21oz on SMALLRIG) and uses a standard threaded mount, so it can hold a small camera, light, or microphone in addition to a phone clamp.",
-      },
+      }
     ],
     note: "If you only ever mount a phone, a phone-specific gooseneck is lighter and cheaper; if you shoot with a mix of phone, action camera, and lights, a magic arm's versatility is worth the extra cost.",
   },
@@ -190,7 +190,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Cooking or craft video recording with lighting", "Evershop Ring Light Overhead Camera Phone Mount"],
         ["Switching between phone and action camera", "NEEWER 22\" Magic Arm w Desk C Clamp"],
-        ["Simple hands-free video calls or bed viewing", "Lamicall Gooseneck Bed Phone Holder"],
+        ["Simple hands-free video calls or bed viewing", "Lamicall Gooseneck Bed Phone Holder"]
       ],
     },
   },
@@ -204,7 +204,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "The Evershop ring light pick and the SMALLRIG/NEEWER magic arms all use standard threaded mounting rather than a phone-only clamp.",
-      },
+      }
     ],
   },
   {
@@ -212,14 +212,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You want a mount that can also hold a small camera or light later, not just a phone: SMALLRIG ($33.90) or NEEWER ($33.99) use standard threaded mounts with a stated load capacity.",
+        text: "You want a mount that can also hold a small camera or light later, not just a phone: SMALLRIG (under $35) or NEEWER (under $35) use standard threaded mounts with a stated load capacity.",
       },
       {
         label: "Save if",
-        text: "You only need to mount a phone and nothing else: LISEN ($19.68) covers that core need for roughly half the price of the magic-arm picks here.",
-      },
+        text: "You only need to mount a phone and nothing else: LISEN (under $20) covers that core need for roughly half the price of the magic-arm picks here.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -274,5 +274,5 @@ export const faq = [
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-overhead-phone-arms-for-desks-under-20", title: "Best Overhead Phone Arms for Desks Under $20" },
-  { href: "/guide/best-overhead-phone-arms-for-desks", title: "Best Overhead Phone Arms for Desks" },
+  { href: "/guide/best-overhead-phone-arms-for-desks", title: "Best Overhead Phone Arms for Desks" }
 ];

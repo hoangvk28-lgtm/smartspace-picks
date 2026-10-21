@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "19 inch monitor privacy screen";
 export const introParagraphs = [
   "19 inch monitors are increasingly uncommon in current desktop setups, and the privacy filter market reflects that: we confirmed exactly one dedicated 19 inch filter in our research, rather than the wide selection available at 24 or 27 inch.",
-  "Rather than pad this list with filters that don't actually fit a 19 inch screen, we're presenting the one confirmed genuine option directly, along with honest guidance for buyers whose exact monitor isn't covered.",
+  "Rather than pad this list with filters that don't actually fit a 19 inch screen, we're presenting the one confirmed genuine option directly, along with honest guidance for buyers whose exact monitor isn't covered."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "6 min";
@@ -43,7 +43,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Disclosed the narrow product pool honestly", description: "19 inch monitors are increasingly uncommon, and we confirmed only one dedicated filter in current listings rather than padding this guide with poor fits." },
   { title: "Verified the confirmed pick's exact aspect ratio", description: "We confirmed the one genuine 19 inch option is specifically 16:10, relevant since 19 inch monitors historically spanned both 16:9 and 16:10." },
   { title: "Did not substitute a nearby size as an equivalent", description: "We chose not to recommend a 20 or 22 inch filter as a stand-in, since a filter at the wrong size will not fit a 19 inch monitor properly." },
-  { title: "Provided guidance for buyers whose exact model isn't covered", description: "For monitors that don't match this confirmed option, we outlined how to verify fit against a nearby size rather than guessing." },
+  { title: "Provided guidance for buyers whose exact model isn't covered", description: "For monitors that don't match this confirmed option, we outlined how to verify fit against a nearby size rather than guessing." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -61,7 +61,7 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $24.99",
+          "Under $25",
           "[2-Pack] 19 Inch Monitor Privacy Screen"
         ]
       ]
@@ -73,7 +73,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
-    "note": "With only one pick in this comparison, there's no second option to weigh rating against review count. [2-Pack] 19 Inch Monitor Privacy Screen carries a 4.3 rating on 121 reviews, worth checking against fresher listings before you buy."
+    "note": ""
   },
   {
     "subheading": "For Matching Your Exact Aspect Ratio Specifically",
@@ -93,7 +93,7 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "Here's what you get for $24.99: The only confirmed genuine 19 inch filter we found. If that's what you're after, the tradeoffs in its cons list probably won't bother you either."
+        "text": "Here's what you get for under $25: The only confirmed genuine 19 inch filter we found. If that's what you're after, the tradeoffs in its cons list probably won't bother you either."
       },
       {
         "label": "Save if",
@@ -122,7 +122,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
-    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nThis matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
   }
 ];
 
@@ -131,11 +131,11 @@ export const faq: FaqItem[] = [
   { q: "Is the confirmed pick 16:9 or 16:10?", a: "It's 16:10. Verify your specific 19 inch monitor's aspect ratio before ordering, since 19 inch monitors historically came in both ratios." },
   { q: "What if my 19 inch monitor isn't 16:10?", a: "Check our 20-inch or 22-inch guides for the closest available match, and measure your monitor's exact active dimensions before ordering." },
   { q: "Why is the selection so limited at this size?", a: "19 inch monitors are increasingly uncommon in current desktop setups, and filter manufacturers have shifted production toward more common sizes like 24 and 27 inch." },
-  { q: "Does the confirmed pick include any bonus features?", a: "Yes, it bundles anti-glare and blue-light filtering alongside the privacy function." },
+  { q: "Does the confirmed pick include any bonus features?", a: "Yes, it bundles anti-glare and blue-light filtering alongside the privacy function." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-20-inch-monitor-privacy-screens", title: "Best 20-Inch Monitor Privacy Screens (2026)" },
   { href: "/guide/best-22-inch-monitor-privacy-screens", title: "Best 22-Inch Monitor Privacy Screens (2026)" },
-  { href: "/guide/best-monitor-privacy-screens", title: "Best Monitor Privacy Screens (2026)" },
+  { href: "/guide/best-monitor-privacy-screens", title: "Best Monitor Privacy Screens (2026)" }
 ];

@@ -173,7 +173,7 @@ export default async function Best2DrawerWoodFileCabinetsPage() {
     about: [
       { "@type": "Thing", name: "2-Drawer Wood File Cabinet" },
       { "@type": "Thing", name: "Wood Filing Cabinet" },
-      { "@type": "Thing", name: "Home Office Storage" },
+      { "@type": "Thing", name: "Home Office Storage" }
     ],
   };
 
@@ -193,7 +193,7 @@ export default async function Best2DrawerWoodFileCabinetsPage() {
         position: 3,
         name: "Best 2-Drawer Wood File Cabinets",
         item: `${SITE_URL}/guide/best-2-drawer-wood-file-cabinets`,
-      },
+      }
     ],
   };
 
@@ -468,7 +468,7 @@ export default async function Best2DrawerWoodFileCabinetsPage() {
                     {[
                       { count: "2-drawer vertical", use: "Active files + archived files divided by year", height: "Desk height (26 to 30 inches)" },
                       { count: "3-drawer vertical", use: "3 active categories or expanded archive", height: "Slightly taller (30 to 36 inches)" },
-                      { count: "2-drawer lateral", use: "Wider files or credenza-height furniture piece", height: "Low profile (20 to 24 inches)" },
+                      { count: "2-drawer lateral", use: "Wider files or credenza-height furniture piece", height: "Low profile (20 to 24 inches)" }
                     ].map((row, i) => (
                       <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                         <td className="px-4 py-3 font-medium text-ink text-xs">{row.count}</td>
@@ -573,7 +573,7 @@ export default async function Best2DrawerWoodFileCabinetsPage() {
                     { finish: "White with lock", works: "Same as snow white, adds document security", pick: "VASAGLE CUSTOS Locking White (Pick 2)" },
                     { finish: "Honey brown", works: "Warm walnut, oak, reclaimed wood desks", pick: "VASAGLE Honey Brown (Pick 3)" },
                     { finish: "Rustic gray", works: "Industrial, farmhouse-adjacent, eclectic", pick: "VINGLI Rustic Gray with Lock (Pick 4)" },
-                    { finish: "Oak with rattan", works: "Boho, coastal, natural-material interiors", pick: "VINGLI Rattan Lateral Oak (Pick 5)" },
+                    { finish: "Oak with rattan", works: "Boho, coastal, natural-material interiors", pick: "VINGLI Rattan Lateral Oak (Pick 5)" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.finish}</td>
@@ -605,7 +605,7 @@ export default async function Best2DrawerWoodFileCabinetsPage() {
                     { situation: "Lock at lowest price", pick: "VINGLI Rustic Gray" },
                     { situation: "Farmhouse or warm-toned office", pick: "VASAGLE Honey Brown" },
                     { situation: "Design-forward, decorative piece", pick: "VINGLI Rattan Lateral Oak" },
-                    { situation: "Best ratings, open to metal", pick: "DEVAISE Metal White (non-wood alternative)" },
+                    { situation: "Best ratings, open to metal", pick: "DEVAISE Metal White (non-wood alternative)" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.situation}</td>
@@ -660,7 +660,7 @@ export default async function Best2DrawerWoodFileCabinetsPage() {
                 context: "Best overall by review count and value",
                 id: "vasagle-custos-snow-white",
                 name: "VASAGLE CUSTOS Snow White",
-                verdict: " - 3,262 reviews at 4.0 stars, most affordable pick, clean neutral finish.",
+                verdict: " - Most affordable pick, clean neutral finish.",
               },
               {
                 context: "Best white cabinet with lock",
@@ -672,7 +672,7 @@ export default async function Best2DrawerWoodFileCabinetsPage() {
                 context: "Best for farmhouse and warm-toned offices",
                 id: "vasagle-honey-brown",
                 name: "VASAGLE Honey Brown",
-                verdict: " - 1,310 reviews at 4.0 stars, honey brown finish pairs with warm wood desks.",
+                verdict: " - Honey brown finish pairs with warm wood desks.",
               },
               {
                 context: "Best rustic finish with lock at competitive price",
@@ -685,7 +685,7 @@ export default async function Best2DrawerWoodFileCabinetsPage() {
                 id: "vingli-rattan-oak",
                 name: "VINGLI Rattan Lateral Oak",
                 verdict: " - Real woven rattan drawer fronts, lateral format, the most furniture-like piece on this list.",
-              },
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

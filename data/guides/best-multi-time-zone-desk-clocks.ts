@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "multi time zone desk clock";
 export const introParagraphs = [
   "A multi-time zone desk clock displays several specific locations at once, built for tracking, say, your team in New York, London, and Tokyo without doing mental math. This is a small category in our verified inventory, just two genuine picks, so we're covering both honestly rather than padding the list.",
-  "This guide focuses on the practical angle: tracking specific named cities or zones for work coordination. If your interest is broader, more of a \"see time anywhere in the world\" display than tracking particular cities you work with, see our best world time desk clocks guide, which covers the same two products from that wider framing.",
+  "This guide focuses on the practical angle: tracking specific named cities or zones for work coordination. If your interest is broader, more of a \"see time anywhere in the world\" display than tracking particular cities you work with, see our best world time desk clocks guide, which covers the same two products from that wider framing."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "5 min";
@@ -59,7 +59,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified genuine multi-zone functionality from each listing", description: "Confirmed each pick explicitly displays more than one time zone simultaneously, rather than assuming from a generic \"world clock\" product name." },
   { title: "Checked desktop suitability versus wall-first design", description: "Considered whether each clock is genuinely sized and designed for a desk, or primarily a wall clock that could sit on a desk as a secondary use." },
   { title: "Kept the list honest at two picks rather than padding it", description: "Limited this guide to the two products in our verified pool that genuinely fit the multi-zone category, rather than stretching unrelated clocks to fill out a longer list." },
-  { title: "Cross-checked against the world time desk clocks guide", description: "Confirmed this guide and its near-duplicate sibling cover the same two products with different framing, avoiding duplicated prose or rankings." },
+  { title: "Cross-checked against the world time desk clocks guide", description: "Confirmed this guide and its near-duplicate sibling cover the same two products with different framing, avoiding duplicated prose or rankings." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -180,11 +180,11 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "How many time zones can these clocks show?", a: "The Design Factory desktop clock shows 3 fixed zones. The Multiple World Clock shows several zones per its listing, check the specific product for exact zone count." },
   { q: "Is this the same as a world time desk clock?", a: "Essentially the same two products, yes. This guide frames them around tracking specific named cities, while our world time desk clocks guide frames them more broadly around seeing time anywhere in the world." },
-  { q: "Do these clocks sync automatically over the internet?", a: "No, both are physical clocks without app or WiFi connectivity. Zones are set manually or come with fixed factory labeling." },
+  { q: "Do these clocks sync automatically over the internet?", a: "No, both are physical clocks without app or WiFi connectivity. Zones are set manually or come with fixed factory labeling." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-world-time-desk-clocks", title: "Best World Time Desk Clocks (2026)" },
   { href: "/guide/best-executive-desk-clocks", title: "Best Executive Desk Clocks (2026)" },
-  { href: "/guide/best-led-desk-clocks", title: "Best LED Desk Clocks (2026)" },
+  { href: "/guide/best-led-desk-clocks", title: "Best LED Desk Clocks (2026)" }
 ];

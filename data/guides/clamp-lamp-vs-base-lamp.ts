@@ -12,7 +12,7 @@ export const clampLampVsBaseLampGuide: Guide = {
     "clamp desk lamp vs stand lamp",
     "desk lamp mounting options",
     "clamp lamp desk thickness",
-    "base lamp stability desk",
+    "base lamp stability desk"
   ],
   heroImage: "https://images.unsplash.com/photo-1560890264-4b92305ee66e?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1560890264-4b92305ee66e?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const clampLampVsBaseLampGuide: Guide = {
     "task-lighting-vs-ambient-lighting",
     "dimmable-vs-fixed-brightness-desk-lamp",
     "desk-size-chart",
-    "grommet-mount-vs-clamp-mount",
+    "grommet-mount-vs-clamp-mount"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const clampLampVsBaseLampGuide: Guide = {
       question: "Does a clamp lamp damage the desk edge it attaches to?",
       answer:
         "A properly designed clamp with rubber or felt padding at the contact points shouldn't damage most desk finishes, check for this padding on the specific clamp model, and be more cautious with glass or high-gloss desk surfaces that scratch more easily.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const clampLampVsBaseLampGuide: Guide = {
     {
       heading: "Checking Clamp Compatibility Before Buying",
       body: `A clamp lamp's mounting range needs to match your specific desk's edge thickness, most clamps accommodate a range of common thicknesses, but an unusually thick standing desk edge or an unusually thin glass desk could fall outside a given clamp's stated range. Measuring your desk's edge thickness at the intended mounting point before purchasing avoids the disappointment of a clamp lamp that doesn't actually fit once it arrives.`,
-    },
+    }
   ],
 };

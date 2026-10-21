@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $129.98",
+          "Under $130",
           "Mitlvge 23.62\" Tall 5.0 Cu Ft Extra Large Home Safe"
         ],
         [
-          "Around $139.99",
+          "Under $140",
           "5.2 Cu Ft Large Fireproof Safe with Combination Lock"
         ],
         [
-          "Around $142.99",
+          "Under $150",
           "Omethey 5.0 Cu Ft Extra Large Safe with Deposit Slot"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "6.2 Cu Ft Large Home Safe with 3 Removable Shelves"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "WASJOYE 4.0 Cu Ft Large Cabinet Safe with Type-C Port"
         ],
         [
-          "Around $239.99",
+          "Under $250",
           "Mitlvge 35-Min Real Fireproof Safe"
         ],
         [
-          "Around $369.99",
+          "Under $400",
           "31.5\" Large Fireproof Waterproof Safe with Biometric Access"
         ],
         [
-          "Around $699.99",
+          "Under $700",
           "9.8 Cu Ft Extra Large Biometric Fireproof Waterproof Safe"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "6.2 Cu Ft Large Home Safe with 3 Removable Shelves is aimed at buyers prioritizing 6.2 cu ft, 42mm thick door, 39.6 lbs." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "6.2 Cu Ft Large Home Safe with 3 Removable Shelves is aimed at buyers prioritizing 6.2 cu ft, 42mm thick door, 39.6 lbs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-large-fireproof-safes","title":"Best Large Fireproof Safes in 2026"},{"href":"/guide/best-large-fireproof-safes-for-home","title":"Best Large Fireproof Safes for Home in 2026"},{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"}];

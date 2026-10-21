@@ -12,7 +12,7 @@ export const ergonomicAssessmentChecklistGuide: Guide = {
     "diy ergonomic desk assessment",
     "checking desk setup ergonomics",
     "self assessment home office posture",
-    "ergonomic checklist before buying accessories",
+    "ergonomic checklist before buying accessories"
   ],
   heroImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const ergonomicAssessmentChecklistGuide: Guide = {
     "seat-cushion-vs-lumbar-pillow",
     "how-to-measure-office-chair-fit",
     "monitor-distance-and-height-for-eye-comfort",
-    "ergonomic-accessories-troubleshooting",
+    "ergonomic-accessories-troubleshooting"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const ergonomicAssessmentChecklistGuide: Guide = {
       question: "Does this self-assessment replace a professional ergonomic evaluation?",
       answer:
         "No, a self-assessment is a useful starting point for catching common, obvious issues, but if you're experiencing persistent pain or discomfort despite reasonable adjustments, a professional ergonomic assessment can identify more nuanced issues a self-check might miss.",
-    },
+    }
   ],
   sections: [
     {
@@ -76,6 +76,6 @@ export const ergonomicAssessmentChecklistGuide: Guide = {
     {
       heading: "Why Periodic Rechecking Catches Drift That Happens Gradually",
       body: `Ergonomic setups don't necessarily stay correctly configured indefinitely once initially set up correctly, chairs can loosen or shift settings over time, monitor arms can droop, and perhaps most commonly, your own posture habits can gradually drift without you consciously noticing, since this drift happens slowly, it's easy to not notice you've gradually settled into a worse position over weeks or months, a periodic deliberate recheck against this kind of checklist catches this gradual drift before it becomes a significant, harder-to-reverse habit or contributes to genuine discomfort.`,
-    },
+    }
   ],
 };

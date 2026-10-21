@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mechanical keyboard";
 export const introParagraphs = [
   "A mechanical keyboard swaps the rubber dome under a standard keyboard for individual mechanical switches, which changes how it feels, sounds, and holds up over years of typing. That switch choice matters more than most buyers realize going in, clicky switches feel great solo but can be genuinely disruptive on a Zoom call, while linear or Hall effect switches suit different needs entirely for gaming versus office work.",
-  "Below are 8 mechanical keyboards we evaluated on switch type, keycap material, noise profile, and build quality, ranging from a $25.49 hot-swappable budget board to a $144.99 Hall effect keyboard with true rapid trigger. Each pick is matched to a specific use case, gaming, office, or work-from-home Zoom calls, rather than ranked as one universal best.",
+  "Below are 8 mechanical keyboards we evaluated on switch type, keycap material, noise profile, and build quality, ranging from an under-$30 hot-swappable budget board to an under-$150 Hall effect keyboard with true rapid trigger. Each pick is matched to a specific use case, gaming, office, or work-from-home Zoom calls, rather than ranked as one universal best."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Blue clicky switches",
       "RGB LED backlight",
       "ABS keycaps",
-      "Anti-ghosting, spill-resistant",
+      "Anti-ghosting, spill-resistant"
     ],
     pros: [
       "Lowest price in this list",
       "Full 104-key layout with number pad",
       "Distinct tactile click feedback",
-      "RGB backlighting included",
+      "RGB backlighting included"
     ],
     cons: [
       "Blue switches are the loudest option here, poor fit for shared spaces or Zoom calls",
       "ABS keycaps will show shine within months of regular use",
-      "Not hot-swappable, switches cannot be changed",
+      "Not hot-swappable, switches cannot be changed"
     ],
     bestFor: "Budget buyers who want a taste of clicky mechanical feedback",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Brown tactile switches",
       "Bluetooth 5.1 or wired USB",
       "White LED backlight",
-      "N-key rollover",
+      "N-key rollover"
     ],
     pros: [
       "Tactile brown switches are quieter than clicky blue switches",
       "Wireless latency is effectively unnoticeable at roughly 1ms",
       "Compact 96% layout saves desk space over a full 104-key board",
-      "Wired fallback avoids battery dependency",
+      "Wired fallback avoids battery dependency"
     ],
     cons: [
       "Not hot-swappable on this version",
       "ABS keycaps wear faster than PBT over time",
-      "Backlight is single-color white, not RGB",
+      "Backlight is single-color white, not RGB"
     ],
     bestFor: "Buyers who want reliable wireless mechanical typing without gaming-tier pricing",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Brown tactile switches",
       "Wired USB-C with braided cable",
       "Mac and Windows compatible",
-      "Retro color ABS keycaps",
+      "Retro color ABS keycaps"
     ],
     pros: [
       "Simple, reliable wired connection",
       "Braided USB-C cable resists fraying",
       "Full number pad for spreadsheet-heavy work",
-      "Compatible across Mac and Windows",
+      "Compatible across Mac and Windows"
     ],
     cons: [
       "ABS keycaps will show wear over a year of use",
       "No RGB or wireless option on this model",
-      "Full-size footprint takes up more desk space",
+      "Full-size footprint takes up more desk space"
     ],
     bestFor: "Buyers who want a dependable full-size wired board without gaming extras",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Tactile low-profile switches",
       "Lightspeed wireless, roughly 1ms latency",
       "Compact footprint without number pad",
-      "Aluminum top plate",
+      "Aluminum top plate"
     ],
     pros: [
       "Low-profile switches reduce noise and finger travel",
       "Lightspeed wireless is effectively as fast as wired",
       "TKL layout frees up desk space for mouse movement",
-      "Aluminum build feels sturdier than plastic-only boards",
+      "Aluminum build feels sturdier than plastic-only boards"
     ],
     cons: [
       "Higher price than the wired picks in this list",
       "No number pad for spreadsheet-heavy work",
-      "Low-profile switches are not hot-swappable on this model",
+      "Low-profile switches are not hot-swappable on this model"
     ],
     bestFor: "Gamers who want a compact, quieter, low-latency wireless board",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Pre-lubed MLX Red linear switches",
       "Factory sound dampening foam",
       "1000Hz polling rate",
-      "SOCD input handling, double-shot ABS keycaps",
+      "SOCD input handling, double-shot ABS keycaps"
     ],
     pros: [
       "Linear switches plus dampening foam are notably quieter than clicky boards",
       "1000Hz polling rate suits competitive gaming",
       "Pre-lubed switches feel smoother out of the box",
-      "TKL layout saves desk space",
+      "TKL layout saves desk space"
     ],
     cons: [
       "Wired only, no wireless option",
       "Linear switches lack tactile feedback some typists prefer",
-      "RGB adds some cost over a non-RGB equivalent",
+      "RGB adds some cost over a non-RGB equivalent"
     ],
     bestFor: "Buyers who want quiet linear switches without giving up gaming-grade response",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Clicky mechanical switches",
       "Detachable USB cable",
       "Compact, travel-friendly design",
-      "Built for competitive gaming feedback",
+      "Built for competitive gaming feedback"
     ],
     pros: [
       "Sharp, distinct clicky feedback for tactile typists",
       "Detachable cable simplifies transport",
       "Compact TKL footprint",
-      "Proven Logitech switch durability",
+      "Proven Logitech switch durability"
     ],
     cons: [
       "Loudest switch type here alongside the RisoPhy, disruptive on calls",
       "Wired only",
-      "Not hot-swappable",
+      "Not hot-swappable"
     ],
     bestFor: "Enthusiasts who specifically want loud, crisp clicky feedback for solo use",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Double-shot PBT keycaps",
       "11 programmable RGB backlit modes",
       "Anti-ghosting",
-      "Wired connection",
+      "Wired connection"
     ],
     pros: [
       "Hot-swappable sockets allow future switch upgrades",
       "PBT keycaps resist shine better than the ABS on similarly priced boards",
       "Very low price for hot-swap support",
-      "11 RGB lighting modes included",
+      "11 RGB lighting modes included"
     ],
     cons: [
       "Wired only, no wireless option",
       "Build materials are basic outside the keycaps",
-      "Stock switches are unbranded, not a premium switch brand",
+      "Stock switches are unbranded, not a premium switch brand"
     ],
     bestFor: "Budget buyers who want room to experiment with different switches later",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Red linear switches, hot-swappable",
       "Sound-absorbing foam",
       "2 included keycap sets, mixed colors",
-      "Wired connection",
+      "Wired connection"
     ],
     pros: [
       "Full-size layout with extra hotkeys for media/macro control",
       "Sound-absorbing foam reduces hollow keyboard resonance",
       "Hot-swap sockets allow future switch changes",
-      "Two keycap sets included at no extra cost",
+      "Two keycap sets included at no extra cost"
     ],
     cons: [
       "Wired only",
       "Larger footprint than the TKL picks in this list",
-      "Keycaps included are ABS, not the PBT found on the smaller Redragon pick",
+      "Keycaps included are ABS, not the PBT found on the smaller Redragon pick"
     ],
     bestFor: "Buyers who want a full-size hot-swappable board with extra hotkeys",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Upgrade path and hot-swap support",
     description: "Noted which boards offer hot-swappable switch sockets, letting a buyer change switch feel later without soldering, extending the useful life of a budget keyboard.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -466,11 +466,11 @@ export const faq: FaqItem[] = [
   {
     q: "What does hot-swappable mean and is it worth paying for?",
     a: "A hot-swappable keyboard has sockets under the keycaps that let you remove and replace individual switches without soldering. Both Redragon picks in this list support hot-swapping, which is worth prioritizing on a budget keyboard since it lets you change the feel or noise level later without buying an entirely new board.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-wireless-mechanical-keyboards", title: "8 Best Wireless Mechanical Keyboards (2026)" },
   { href: "/guide/best-ergonomic-keyboards-for-wrist-pain-carpal-tunnel", title: "8 Best Ergonomic Keyboards for Wrist Pain and Carpal Tunnel (2026)" },
-  { href: "/guide/best-mechanical-keyboard-under-100", title: "Best Mechanical Keyboards Under $100 (2026)" },
+  { href: "/guide/best-mechanical-keyboard-under-100", title: "Best Mechanical Keyboards Under $100 (2026)" }
 ];

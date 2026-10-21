@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "manual standing desk converter";
 export const introParagraphs = [
   "Manual, gas-spring converters use a counterbalanced lift rather than a motor, meaning no power outlet is needed and there's no motor noise or wait time during height changes, though the adjustment force can vary depending on how the counterbalance is tuned for your specific load.",
-  "We compared platform sizes from 26 to 46 inches across a range of prices, all using the same basic gas-spring lift approach rather than push-button electric mechanisms.",
+  "We compared platform sizes from 26 to 46 inches across a range of prices, all using the same basic gas-spring lift approach rather than push-button electric mechanisms."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "9 min";
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed genuine gas-spring manual mechanisms", description: "We verified every pick here uses a manual counterbalanced lift rather than an electric motor, since this changes both price and adjustment behavior." },
   { title: "Compared platform sizes across a wide range", description: "We covered 26 to 46 inches, since manual converters span a wide range of surface areas for different desk setups." },
   { title: "Weighed load capacity against platform size for larger picks", description: "For the largest triple-monitor platform, we flagged the need to verify the load range against actual monitor weight, since a wider platform under gas-spring tension behaves differently under heavier load." },
-  { title: "Compared review volume within similar price and size tiers", description: "We noted where a pick's review base is notably smaller than a similarly priced and sized alternative, useful context for buyers comparing close options." },
+  { title: "Compared review volume within similar price and size tiers", description: "We noted where a pick's review base is notably smaller than a similarly priced and sized alternative, useful context for buyers comparing close options." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -270,7 +270,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
@@ -279,11 +279,11 @@ export const faq: FaqItem[] = [
   { q: "What's the most compact manual option?", a: "The VIVO Black 26 in Standing Desk Converter, also the cheapest in this comparison." },
   { q: "Is there a manual option for triple monitors?", a: "Yes, the Rocelco 46 inch Large Standing Desk Converter, with an explicit triple-monitor mount." },
   { q: "Do manual converters need a power outlet?", a: "No, gas-spring manual converters adjust instantly with a lever or handle and require no power source." },
-  { q: "Why does adjustment force vary between converters?", a: "Gas-spring counterbalance mechanisms are tuned for a specific weight range; a load significantly lighter or heavier than intended can make the lift feel too easy or too hard." },
+  { q: "Why does adjustment force vary between converters?", a: "Gas-spring counterbalance mechanisms are tuned for a specific weight range; a load significantly lighter or heavier than intended can make the lift feel too easy or too hard." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-electric-standing-desk-converters", title: "Best Electric Standing Desk Converters (2026)" },
   { href: "/guide/best-gas-spring-standing-desk-converters", title: "Best Gas-Spring Standing Desk Converters (2026)" },
-  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
+  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" }
 ];

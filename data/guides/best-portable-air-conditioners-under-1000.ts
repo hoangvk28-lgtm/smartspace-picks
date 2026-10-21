@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "Garvee 14,000 BTU AC Unit, 3-in-1 Portable Air Conditioner and is built around 3-in-1 portable air conditioner: enjoy cool air, positioning it for under 1000 buyers specifically.\n\nComfort Sleep Mode is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 1000, though as with any appliance purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["3-in-1 Portable Air Conditioner: Enjoy cool air","Comfort Sleep Mode","Quick Window Installation"],
     pros: ["3-in-1 Portable Air Conditioner: Enjoy cool air, confirmed directly in the listing's own spec details","Comfort Sleep Mode, confirmed directly in the listing's own spec details","Quick Window Installation, confirmed directly in the listing's own spec details"],
-    cons: ["At $308.80, worth comparing against similarly specced portable air conditioners before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $350, worth comparing against similarly specced portable air conditioners before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 1000",
   },
   {
@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "Midea 8,500 BTU ASHRAE Portable Air Conditioner, Cools up to 150 Sq. Ft. and is built around smartcool - midea 8,500 btu ashrae (5,000, positioning it for under 1000 buyers specifically.\n\nSMART CONTROL - Control your portable AC is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 1000, though as with any appliance purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["SMARTCOOL - Midea 8,500 BTU ASHRAE (5,000","SMART CONTROL - Control your portable AC","EFFORTLESS OPERATION - Enjoy the simplicity"],
     pros: ["SMARTCOOL - Midea 8,500 BTU ASHRAE (5,000, confirmed directly in the listing's own spec details","SMART CONTROL - Control your portable AC, confirmed directly in the listing's own spec details","EFFORTLESS OPERATION - Enjoy the simplicity, confirmed directly in the listing's own spec details"],
-    cons: ["At $199.99, worth comparing against similarly specced portable air conditioners before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $200, worth comparing against similarly specced portable air conditioners before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 1000",
   },
   {

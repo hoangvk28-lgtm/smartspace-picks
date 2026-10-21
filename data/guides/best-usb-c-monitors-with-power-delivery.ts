@@ -5,7 +5,7 @@ export const metaDescription = "5 USB-C monitors with power delivery we evaluate
 export const mainKeyword = "usb-c monitor with power delivery";
 export const introParagraphs = [
   "Matching the monitor's actual power delivery wattage to your laptop's charging requirement is the single most important spec here, since a 65W-rated monitor won't fully charge a 90W or higher gaming or workstation laptop even while displaying video correctly.",
-  "Power delivery wattage is usually printed in the fine print of a spec sheet, not the headline marketing copy, worth digging into the actual listing details rather than assuming any 'USB-C with power delivery' monitor meets your specific laptop's needs.",
+  "Power delivery wattage is usually printed in the fine print of a spec sheet, not the headline marketing copy, worth digging into the actual listing details rather than assuming any 'USB-C with power delivery' monitor meets your specific laptop's needs."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     badge: "Best USB-C Power Delivery Monitor Overall",
     name: "Philips 34 Inch Curved Computer Monitor UWQHD 100Hz USB-C PD VA, 346E2CUAE",
     price: "$309.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41qiWKr6LML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08KFSMGJ8?tag=deskfinds0d-20",
@@ -42,7 +42,7 @@ export const products: GuideProduct[] = [
     badge: "Best QHD Power Delivery Pick",
     name: "Dell 27 Plus QHD USB-C Monitor - S2725DC - 27-inch QHD (2560x1440) 144Hz Display",
     price: "$249.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41uYhQ+-HGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GD21577Z?tag=deskfinds0d-20",
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     badge: "Best 4K Power Delivery Pick",
     name: "Dell 27 Monitor S2725QC, 4K UHD IPS, 120Hz, 99% sRGB, 4ms, FreeSync Premium",
     price: "$312.81",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41WGJRiwq3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1GFD44G?tag=deskfinds0d-20",
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     badge: "Best Value QHD Power Delivery Pick",
     name: "Dell S2722DC Monitor - 27-inch WQHD (2560x1440) 75Hz Display, AMD FreeSync, Built in Speakers",
     price: "$229.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41DSJsc4qKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09BXXWT6K?tag=deskfinds0d-20",
@@ -93,7 +93,7 @@ export const products: GuideProduct[] = [
     badge: "Best Ultrawide Power Delivery Pick",
     name: "LG 34U650A-B 34-inch UltraWide WQHD (3440 x 1440) IPS Curved Wide Computer Monitor, 100Hz",
     price: "$396.26",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41z0BPiXo6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FNQDB6JY?tag=deskfinds0d-20",
@@ -103,7 +103,7 @@ export const products: GuideProduct[] = [
     pros: ["Genuine ultrawide workspace for multitasking without a multi-monitor setup", "IPS panel for consistent viewing angles across the curve", "100Hz refresh rate for smoother motion", "Single-cable USB-C power delivery"],
     cons: ["Highest price in this guide", "Verify PD wattage against your laptop's actual charging requirement", "Large curved size needs generous desk space"],
     bestFor: "Buyers wanting maximum ultrawide workspace with consistent IPS color and single-cable charging",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -111,7 +111,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "PD wattage checked against typical laptop charging classes", description: "Checked available power delivery wattage information against typical laptop charging classes, from lightweight ultrabooks to power-hungry gaming laptops." },
   { title: "Wattage documentation clarity weighted", description: "Weighted how clearly a manufacturer documents actual PD wattage in spec sheets, since this information is often buried in fine print rather than headline marketing." },
   { title: "Refresh rate and resolution weighed against stated use case", description: "Weighed refresh rate and resolution combinations against whether a monitor suits productivity, creative color work, or casual gaming." },
-  { title: "Panel technology considered for viewing angle consistency", description: "Considered IPS versus VA panel technology trade-offs for viewing angle consistency, particularly relevant on larger curved panels." },
+  { title: "Panel technology considered for viewing angle consistency", description: "Considered IPS versus VA panel technology trade-offs for viewing angle consistency, particularly relevant on larger curved panels." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -240,11 +240,11 @@ export const faq: FaqItem[] = [
   { q: "Do all USB-C monitors labeled 'power delivery' support the same wattage?", a: "No, wattage varies significantly between models, verify the exact figure against your laptop's charging requirement rather than assuming." },
   { q: "Does a curved ultrawide monitor support power delivery the same as a flat one?", a: "It can, but verify the exact wattage on the specific model, curved and flat monitors don't automatically share the same PD specs." },
   { "q": "What's the single best pick to come out of this comparison?", a: "Buyers wanting a large curved single-cable setup who verify PD wattage matches their laptop" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting reliable QHD power delivery with built-in speakers At $229.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting reliable QHD power delivery with built-in speakers At under $250, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-usb-c-monitors", title: "Best USB-C Monitors (2026)" },
   { href: "/guide/best-usb-c-monitors-with-usb-hubs", title: "Best USB-C Monitors with USB Hubs (2026)" },
-  { href: "/guide/best-4k-usb-c-monitors", title: "Best 4K USB-C Monitors (2026)" },
+  { href: "/guide/best-4k-usb-c-monitors", title: "Best 4K USB-C Monitors (2026)" }
 ];

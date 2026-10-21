@@ -193,36 +193,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $22.99",
+          "Under $25",
           "UGEE Q6 Drawing Tablet for Android Phone"
         ],
         [
-          "Around $22.99",
+          "Under $25",
           "UGEE Q6 Drawing Tablet for Android Phone"
         ],
         [
-          "Around $24.99",
+          "Under $25",
           "HUION H420X Graphics Tablet with 8192 Level Pen Pressure"
         ],
         [
-          "Around $27.99",
+          "Under $30",
           "HUION Inspiroy H640P 6x4 inch Drawing Tablet 8192 Pen Pressure"
         ],
         [
-          "Around $28.99",
+          "Under $30",
           "XPPen StarG640 Digital Graphic Tablet 6x4 Inch Art Tablet with Battery-Free Stylus"
         ],
         [
-          "Around $41.79",
+          "Under $45",
           "HUION Inspiroy H1060P Graphics Drawing Tablet"
         ],
         [
-          "Around $44.99",
+          "Under $45",
           "XPPen Deco 01 V3 10x6 Drawing Tablet"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -270,7 +270,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "UGEE Q6 Drawing Tablet for Android Phone is aimed at buyers prioritizing 6.5x4in, 249g, vertical mobile layout." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "UGEE Q6 Drawing Tablet for Android Phone is aimed at buyers prioritizing 6.5x4in, 249g, vertical mobile layout." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets-for-android","title":"Best Drawing Tablets for Android in 2026"},{"href":"/guide/best-drawing-tablets-for-phone","title":"Best Drawing Tablets for Phone in 2026"},{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"}];

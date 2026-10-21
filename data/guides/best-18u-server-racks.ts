@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31JM9wq8g1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B084NXSLTG?tag=deskfinds0d-20",
-    description: "StarTech's 18U open frame rack stands just 35 inches tall, a genuinely manageable size for utility and server closets that can't fit a full 42U cabinet.\n\nThe 40-inch maximum mounting depth is deeper than most racks this size, letting it accommodate longer server chassis that a shallower 18U rack might not fit.\n\nWhat stands out here is 35\" height fits narrow closets other racks can't, plus 40\" max depth handles longer server chassis. The main tradeoff: flat-pack shipping still needs real assembly time, so weigh that against the $329.99 price before buying.",
+    description: "StarTech's 18U open frame rack stands just 35 inches tall, a genuinely manageable size for utility and server closets that can't fit a full 42U cabinet.\n\nThe 40-inch maximum mounting depth is deeper than most racks this size, letting it accommodate longer server chassis that a shallower 18U rack might not fit.\n\nWhat stands out here is 35\" height fits narrow closets other racks can't, plus 40\" max depth handles longer server chassis. The main tradeoff: flat-pack shipping still needs real assembly time, so weigh that against the under $350 price before buying.",
     specs: ["18U, 35\" tall, 22-40\" adjustable depth","1200 lb stationary weight capacity","Cable management hooks, cage nuts included"],
     pros: ["35\" height fits narrow closets other racks can't","40\" max depth handles longer server chassis","Backed by StarTech's 2-year warranty"],
     cons: ["Flat-pack shipping still needs real assembly time","1200 lb rating trails the taller 4-post models"],
@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31McOrnKWIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CCNM1L31?tag=deskfinds0d-20",
-    description: "This 18U wall cabinet is Tecmojo's largest wall-mount option, built with a top-mounted fan and the same reversible door design that runs across their smaller cabinets.\n\nAt 34.76 inches tall it's still compact enough for a closet, but 18U gives real room for switches, a patch panel, and a couple of small servers together.\n\nThe strongest case for this pick comes down to 18U gives real room without a floor-standing footprint as well as reversible door fits either side of the wall. The compromise here is that 110 lb capacity is light for 18U of gear, so factor that in alongside the $289.90 asking price.",
+    description: "This 18U wall cabinet is Tecmojo's largest wall-mount option, built with a top-mounted fan and the same reversible door design that runs across their smaller cabinets.\n\nAt 34.76 inches tall it's still compact enough for a closet, but 18U gives real room for switches, a patch panel, and a couple of small servers together.\n\nThe strongest case for this pick comes down to 18U gives real room without a floor-standing footprint as well as reversible door fits either side of the wall. The compromise here is that 110 lb capacity is light for 18U of gear, so factor that in alongside the under $300 asking price.",
     specs: ["18U, 21.65\"L x 17.72\"D x 34.76\"H","110 lb capacity","Top fan, lockable glass door"],
     pros: ["18U gives real room without a floor-standing footprint","Reversible door fits either side of the wall","Removable top and bottom panels ease cabling"],
     cons: ["110 lb capacity is light for 18U of gear","14.2\" inner depth rules out full-size servers"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31vD0wVm4tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSK8CHJL?tag=deskfinds0d-20",
-    description: "This 18U wall rack's standout feature is a 180-degree swing gate that opens from either side, giving genuinely flexible rear cable access compared to fixed-panel wall racks.\n\nIt can switch between square-hole and threaded-hole installation on the fly, useful if you're mixing equipment brands with different mounting hardware requirements.\n\nThis pick is best for buyers who value 180-degree swing gate opens rear access from either side along with switches between square and threaded holes as needed. The catch is that 55 lb sliding load rating is notably lower than static, so decide if that's worth it at $159.90.",
+    description: "This 18U wall rack's standout feature is a 180-degree swing gate that opens from either side, giving genuinely flexible rear cable access compared to fixed-panel wall racks.\n\nIt can switch between square-hole and threaded-hole installation on the fly, useful if you're mixing equipment brands with different mounting hardware requirements.\n\nThis pick is best for buyers who value 180-degree swing gate opens rear access from either side along with switches between square and threaded holes as needed. The catch is that 55 lb sliding load rating is notably lower than static, so decide if that's worth it at under $160.",
     specs: ["18U, 24\" depth, 16\" mounting hole spacing","110 lb static / 55 lb sliding capacity","180-degree swing gate"],
     pros: ["180-degree swing gate opens rear access from either side","Switches between square and threaded holes as needed","Available across 6U to 18U for consistent sizing"],
     cons: ["55 lb sliding load rating is notably lower than static","Open frame gives no enclosed dust protection"],
@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $159.90",
+          "Under $160",
           "Tecmojo 18U Wall Mount Server Rack"
         ],
         [
-          "Around $289.90",
+          "Under $300",
           "Tecmojo 18U Wall Mount Rack Network Cabinet"
         ],
         [
-          "Around $329.99",
+          "Under $350",
           "StarTech 18U 4-Post Server Rack"
         ],
         [
-          "Around $399.90",
+          "Under $400",
           "Tecmojo 18U Wall Mount Rack"
         ],
         [
-          "Around $731.99",
+          "Under $750",
           "StarTech 18U 4-Post Server Cabinet"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "StarTech 18U 4-Post Server Rack is aimed at buyers prioritizing 18u, 35\" tall, 22-40\" adjustable depth." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "StarTech 18U 4-Post Server Rack is aimed at buyers prioritizing 18u, 35\" tall, 22-40\" adjustable depth." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-42u-server-racks","title":"Best 42U Server Racks in 2026"},{"href":"/guide/best-2u-server-racks","title":"Best 2U Server Racks in 2026"},{"href":"/guide/best-1u-server-racks","title":"Best 1U Server Racks in 2026"}];

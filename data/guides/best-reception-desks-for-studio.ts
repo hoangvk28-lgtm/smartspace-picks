@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $79.90",
+          "Under $80",
           "VEVOR Reception Desk"
         ],
         [
-          "Around $99.82",
+          "Under $100",
           "IGERI Small Black Reception Desk with Lock"
         ],
         [
-          "Around $159.90",
+          "Under $160",
           "Small Reception Desk with Drawer"
         ],
         [
-          "Around $169.99",
+          "Under $170",
           "Tribesigns Reception Desk with Counter"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Small Reception Desk with Drawer is aimed at buyers prioritizing 23.6-inch wide compact desk." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Small Reception Desk with Drawer is aimed at buyers prioritizing 23.6-inch wide compact desk." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-compact-reception-desks","title":"best-compact-reception-desks"},{"href":"/guide/best-reception-desks-for-salon","title":"best-reception-desks-for-salon"},{"href":"/guide/best-modern-reception-desks","title":"best-modern-reception-desks"}];

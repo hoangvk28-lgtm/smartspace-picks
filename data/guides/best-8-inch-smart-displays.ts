@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "8 inch smart display";
 export const introParagraphs = [
   "We're being upfront here rather than guessing: an 8 inch class smart display genuinely exists on the market, Amazon's Echo Show 8 lineup, but we could not independently confirm current pricing and product imagery for it through our verified research pass this time. Rather than publish an unverified price or a placeholder image, we're not including it as a scored pick in this guide.",
-  "What we can honestly recommend instead are the closest verified alternatives from our research: the compact 7 inch Nest Hub just below this size class, and the 10.1 inch Echo Show 10 just above it. If an 8 inch Echo Show specifically is what you're after, search \"Echo Show 8\" directly on Amazon and check current pricing and reviews there, since we don't want to publish unverified numbers here.",
+  "What we can honestly recommend instead are the closest verified alternatives from our research: the compact 7 inch Nest Hub just below this size class, and the 10.1 inch Echo Show 10 just above it. If an 8 inch Echo Show specifically is what you're after, search \"Echo Show 8\" directly on Amazon and check current pricing and reviews there, since we don't want to publish unverified numbers here."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "5 min";

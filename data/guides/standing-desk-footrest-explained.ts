@@ -12,7 +12,7 @@ export const standingDeskFootrestExplainedGuide: Guide = {
     "footrest for standing desk worth it",
     "foot rail standing desk",
     "reduce standing fatigue footrest",
-    "standing desk foot elevation benefit",
+    "standing desk foot elevation benefit"
   ],
   heroImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const standingDeskFootrestExplainedGuide: Guide = {
     "balance-board-vs-anti-fatigue-mat",
     "anti-fatigue-mat-explained",
     "standing-desk-height-chart",
-    "how-to-measure-office-chair-fit",
+    "how-to-measure-office-chair-fit"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const standingDeskFootrestExplainedGuide: Guide = {
       question: "Can a simple low box or step substitute for a purpose-built footrest?",
       answer:
         "Yes functionally, a stable, appropriately sized box or step can provide the same basic elevation benefit as a dedicated footrest product, a purpose-built footrest typically offers a more comfortable, curved surface and sometimes a rocking or rolling design for additional benefit.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const standingDeskFootrestExplainedGuide: Guide = {
     {
       heading: "Why Combining Multiple Standing Aids Often Works Better Than Choosing Just One",
       body: `Since a footrest and an anti-fatigue mat address standing fatigue through genuinely different mechanisms, postural variation versus cushioned micro-movement encouragement, using them together provides complementary rather than redundant benefits, someone experiencing significant standing fatigue from long daily standing desk sessions is likely to find more relief combining both tools than relying on either one alone, treating this as an additive strategy rather than needing to choose a single "best" standing fatigue solution.`,
-    },
+    }
   ],
 };

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "wood standing desk converter";
 export const introParagraphs = [
   "\"Wood\" converter listings span genuinely different construction: MDF wood composite, real bamboo, and standard laminate finishes marketed with wood-adjacent branding. We checked what each product's listing actually confirms rather than assuming any wood-branded name means solid material.",
-  "We prioritized products that specifically state their core material (MDF wood, real bamboo) over generic listings that just use \"wood\" as a style descriptor.",
+  "We prioritized products that specifically state their core material (MDF wood, real bamboo) over generic listings that just use \"wood\" as a style descriptor."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Distinguished confirmed MDF wood from confirmed bamboo construction", description: "These are genuinely different materials with different weight, scratch resistance, and moisture behavior, and we did not treat them as interchangeable." },
   { title: "Required explicit material confirmation in the product listing", description: "We prioritized products stating \"MDF wood\" or \"bamboo\" directly rather than assuming any converter with wood-adjacent branding uses solid material." },
   { title: "Flagged one pick's unconfirmed material honestly", description: "Where our specific data pull didn't confirm wood construction for a strong corner-desk option, we disclosed this rather than assuming it matched the other picks." },
-  { title: "Compared price within each confirmed material category separately", description: "We noted value within the MDF wood group and the bamboo group separately, since these represent different cost structures." },
+  { title: "Compared price within each confirmed material category separately", description: "We noted value within the MDF wood group and the bamboo group separately, since these represent different cost structures." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -238,20 +238,21 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
 export const faq: FaqItem[] = [
   { q: "What's the difference between MDF wood and bamboo converters?", a: "MDF is a dense engineered wood composite; bamboo is a distinct plant material often chosen for its faster renewability. Both are genuine materials, not just cosmetic finishes." },
-  { q: "Which wood converter has the most reviews?", a: "The TechOrbits Standing Desk Converter, 32 inch, MDF Wood, with 2,847 reviews." },
+  
   { q: "Is there a genuine bamboo option?", a: "Yes, both the VIVO Real Bamboo 32 inch Standing Desk Converter and the more compact Amazer 22 inch Bamboo Desk Riser confirm real bamboo construction." },
-  { q: "What's the cheapest confirmed wood or bamboo option?", a: "The Amazer 22 inch Standing Desk Converter, Bamboo Desk Riser, at $64.99." },
+  { q: "What's the cheapest confirmed wood or bamboo option?", a: "The Amazer 22 inch Standing Desk Converter, Bamboo Desk Riser, at under $70." },
   { q: "Are all wood-branded converters actually solid wood?", a: "No, some use a wood-look laminate finish over composite materials; we only included products explicitly confirming MDF wood or real bamboo construction." },
+  { q: "How do I care for a wood or bamboo converter surface?", a: "Wipe it with a slightly damp cloth and dry it straight away. Avoid standing water or hot mugs directly on the surface. Bamboo and MDF both react badly to spills that sit for long." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-bamboo-standing-desk-converters", title: "Best Bamboo Standing Desk Converters (2026)" },
   { href: "/guide/best-techorbits-standing-desk-converters", title: "Best TechOrbits Standing Desk Converters (2026)" },
-  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
+  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" }
 ];

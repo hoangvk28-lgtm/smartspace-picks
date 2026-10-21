@@ -5,7 +5,7 @@ export const metaDescription = "5 video lights we evaluated for adjustable color
 export const mainKeyword = "adjustable color temperature video lighting";
 export const introParagraphs = [
   "Color temperature is measured in Kelvin, a wider adjustable range (like 2500K-6500K, from warm to daylight) matters more for genuinely matching mixed room lighting conditions than simply having a certain number of preset steps within a narrower range.",
-  "Adjustable temperature helps you match your face's lighting to your room's ambient light or window daylight, avoiding a mismatched color cast that reads as unnatural on camera even when brightness is otherwise fine.",
+  "Adjustable temperature helps you match your face's lighting to your room's ambient light or window daylight, avoiding a mismatched color cast that reads as unnatural on camera even when brightness is otherwise fine."
 ];
 export const lastUpdated = "2026-07-30";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wide Kelvin Range Pick",
     name: "RALENO 9\" LED Video Light, 2500K-6500K Camera Light with Desk Stand",
     price: "$39.99",
-    rating: "4.5 stars from 2,975 Amazon ratings",
-    reviews: "2,975 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41WMggt9RXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B087CZ85GV?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-CRI Adjustable Pick",
     name: "Zoom Lighting for Computer, Adjustable Desk Lighting for Video Calls, 30 Light Modes Video Conference Light, Desk Ring Light with Stand for Webcam, Meetings, Live Stream, Home Office. CRI 97.8",
     price: "$36.99",
-    rating: "4.5 stars from 719 Amazon ratings",
-    reviews: "719 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Phq+HhoVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D2XMLRL3?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Proven Adjustable Ring Light",
     name: "Desk Ring Light with Stand for Computer, Desk Light for Video Recording",
     price: "$32.86",
-    rating: "4.3 stars from 3,872 Amazon ratings",
-    reviews: "3,872 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41r5nA1roKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B095741MZS?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Full-Screen Adjustable Pick",
     name: "ALTSON 10in Zoom Lighting for Computer, Full-Screen LED Video Conference Light, Desk Ring Light with Stand and Phone Holder for Video Call, Webcam, Home Office, Podcast, Online Meeting, Live Streaming",
     price: "$19.37",
-    rating: "4.2 stars from 105 Amazon ratings",
-    reviews: "105 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41g7ORMo68L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F4KR9R2D?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Adjustable Clip-On",
     name: "Video Conference Lighting Kit, Ring Light Clip on Laptop Monitor with 5 Dimmable Color & 5 Brightness Level for Webcam Lighting/Zoom Lighting/Remote Working/Self Broadcasting and Live Streaming, etc.",
     price: "$17.74",
-    rating: "4.4 stars from 6,958 Amazon ratings",
-    reviews: "6,958 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41A4zdsn9bL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08YJPJLFV?tag=deskfinds0d-20",
     description:
@@ -110,7 +110,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Kelvin range width as the real adjustability metric", description: "Prioritized picks disclosing a specific, wide Kelvin range (like 2500K-6500K), since range width matters more for matching varied ambient lighting than a certain number of preset steps within a narrower range." },
   { title: "CRI disclosure alongside temperature adjustability", description: "Noted which picks combine adjustable color temperature with a disclosed high CRI rating, since both together produce the most natural, accurate look on camera." },
-  { title: "Mode count and granularity for fine-tuned control", description: "Weighed picks offering many distinct light modes as providing more granular control, useful for buyers who want to dial in an exact combination rather than choosing between a few presets." },
+  { title: "Mode count and granularity for fine-tuned control", description: "Weighed picks offering many distinct light modes as providing more granular control, useful for buyers who want to dial in an exact combination rather than choosing between a few presets." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -228,11 +228,11 @@ export const faq: FaqItem[] = [
   { q: "What color temperature should I use for a video call?", a: "Match it to your room's ambient light, warmer settings (lower Kelvin, around 2700-3000K) suit incandescent-lit rooms, cooler settings (higher Kelvin, around 5000-6500K) suit daylight or fluorescent-lit spaces, mismatching creates an unnatural color cast." },
   { q: "Do I need 30 light modes or is a simpler adjustable light enough?", a: "It depends on how precisely you want to dial in your setup. Many modes offer finer control but take longer to navigate, a simpler 5-step adjustable light is often enough for most home office video call needs." },
   { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want the widest color temperature range for matching varied ambient light" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers who want basic adjustable color temperature At $17.74, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers who want basic adjustable color temperature At under $20, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-clip-on-video-lighting", title: "Best Clip-On Video Lighting (2026)" },
   { href: "/guide/best-battery-powered-video-lighting", title: "Best Battery-Powered Video Lighting (2026)" },
-  { href: "/guide/best-desk-lights-for-video-calls", title: "Best Desk Lights for Video Calls (2026)" },
+  { href: "/guide/best-desk-lights-for-video-calls", title: "Best Desk Lights for Video Calls (2026)" }
 ];

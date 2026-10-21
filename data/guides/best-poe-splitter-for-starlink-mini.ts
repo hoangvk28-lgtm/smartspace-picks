@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This kit's listing specifically states industrial-grade protection with +/-8KV surge protection and +/-15KV ESD air discharge protection rated Class A, the most detailed electrical safety specification among the picks in this comparison. Its 150W injector plus isolated 100W splitter combination delivers genuinely reliable power for demanding Starlink Mini setups.\n\nCompared to the SURVADV and XLTTYWL picks below, this one's specifically stated wide temperature range spanning -20C to 70C for its two components, plus storage temperature down to -40C, targets the most extreme outdoor deployment conditions.\n\nBest for buyers who want the most detailed electrical protection specifications for a demanding outdoor Starlink Mini setup.",
     specs: ["150W injector + 100W isolated splitter", "+/-8KV surge, +/-15KV ESD Class A protection", "-20C to 70C operating range, 100m Gigabit range"],
     pros: ["Most detailed electrical protection specifications in this comparison", "Wide temperature range suits extreme outdoor conditions", "Purpose-built specifically for Starlink Mini's exact power requirements"],
-    cons: ["Highest price in this comparison at $99.99", "No specific IP waterproof rating unlike the IP68 pick below"],
+    cons: ["Highest price in this comparison at under $100", "No specific IP waterproof rating unlike the IP68 pick below"],
     bestFor: "buyers who want the most detailed electrical protection for a demanding outdoor setup",
   },
   {
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0H6JB492Z?tag=deskfinds0d-20",
     description: "This splitter's listing specifically states an IP68 protection rating certified to withstand prolonged immersion in water and heavy downpours, a genuinely higher water resistance standard than the other picks in this comparison at the lowest price. Its reinforced locking connectors are specifically designed to prevent accidental disconnection from vehicle vibration or strong winds.\n\nCompared to the EDUP LOVE pick above, this one's specific framing around RV, marine, and overlanding use, combined with its true submersion-rated housing, makes it the strongest choice for a mobile Starlink Mini setup facing genuine water exposure.\n\nBest for buyers in an RV, marine, or overlanding setup who need genuine submersion-level waterproofing.",
     specs: ["IP68 waterproof, certified for prolonged submersion", "48V/2.5A output, Gigabit 100m range", "Reinforced locking connectors, heavy-duty ABS"],
-    pros: ["Lowest price in this comparison at $36.99", "IP68 rating is the highest water resistance standard here", "Reinforced connectors resist vibration-related disconnection"],
+    pros: ["Lowest price in this comparison at under $40", "IP68 rating is the highest water resistance standard here", "Reinforced connectors resist vibration-related disconnection"],
     cons: ["Does not specify a surge protection voltage rating like the EDUP LOVE pick", "Lower total power delivery than the 150W injector kits"],
     bestFor: "buyers in an RV, marine, or overlanding setup who need genuine submersion-level waterproofing",
   },
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["The most detailed electrical protection specifications", "EDUP LOVE Starlink Mini PoE Injector 150W & Isolated Splitter"],
         ["Genuine IP68 submersion-level waterproofing", "IP68 Waterproof DC PoE Injector Splitter"],
         ["Reliable power for streaming and gaming at a moderate price", "SURVADV 150W Starlink Mini PoE Splitter Adapter Set"],
-        ["Integration with your existing Starlink Mini cable", "XLTTYWL 150W GigE PoE Injector Splitter & Adapter"],
+        ["Integration with your existing Starlink Mini cable", "XLTTYWL 150W GigE PoE Injector Splitter & Adapter"]
       ],
     },
   },
@@ -109,9 +109,9 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $37", "IP68 Waterproof DC PoE Injector Splitter ($36.99)"],
-        ["Under $63", "SURVADV or XLTTYWL 150W Kit (both $62.99)"],
-        ["Under $100", "EDUP LOVE 150W Injector & Isolated Splitter ($99.99)"],
+        ["Under $37", "IP68 Waterproof DC PoE Injector Splitter (under $40)"],
+        ["Under $63", "SURVADV or XLTTYWL 150W Kit (both under $70)"],
+        ["Under $100", "EDUP LOVE 150W Injector & Isolated Splitter (under $100)"]
       ],
     },
   },
@@ -119,7 +119,7 @@ export const howToChoose = [
     subheading: "IP68 Waterproofing vs Detailed Electrical Protection",
     cards: [
       { label: "IP68 waterproofing (IP68 pick)", text: "Certified for prolonged water immersion, the strongest choice for genuine marine, RV, or heavy-rain exposure at the lowest price in this comparison." },
-      { label: "Detailed electrical protection (EDUP LOVE)", text: "Named surge and ESD protection ratings with the widest temperature range, prioritizing electrical safety over water submersion certification." },
+      { label: "Detailed electrical protection (EDUP LOVE)", text: "Named surge and ESD protection ratings with the widest temperature range, prioritizing electrical safety over water submersion certification." }
     ],
     note: "If your Starlink Mini faces genuine water exposure like on a boat or in heavy rain, the IP68 pick's submersion rating is the priority. If lightning and electrical surge protection matter more for your location, the EDUP LOVE pick's detailed protection specs are worth the higher price.",
   },
@@ -130,7 +130,7 @@ export const howToChoose = [
       rows: [
         ["RV, marine, or overlanding with water exposure", "IP68 Waterproof DC PoE Injector Splitter"],
         ["Fixed outdoor installation with lightning risk", "EDUP LOVE 150W Injector & Isolated Splitter"],
-        ["Want to keep using the original Starlink Mini cable", "XLTTYWL 150W GigE PoE Injector Splitter & Adapter"],
+        ["Want to keep using the original Starlink Mini cable", "XLTTYWL 150W GigE PoE Injector Splitter & Adapter"]
       ],
     },
   },
@@ -138,16 +138,16 @@ export const howToChoose = [
     subheading: "For a Roof-Mounted Vehicle Installation Specifically",
     cards: [
       { label: "Look for", text: "Reinforced locking connectors specifically designed to resist accidental disconnection from vehicle vibration or wind while driving, alongside genuine weatherproofing for constant outdoor exposure." },
-      { label: "In this comparison", text: "The IP68 pick specifically names reinforced locking connectors built to prevent disconnection from vehicle vibration or strong winds, ideal for a roof-mounted RV or vehicle setup." },
+      { label: "In this comparison", text: "The IP68 pick specifically names reinforced locking connectors built to prevent disconnection from vehicle vibration or strong winds, ideal for a roof-mounted RV or vehicle setup." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want the most detailed surge and ESD protection specifications for a fixed outdoor installation with real lightning exposure risk, where the EDUP LOVE pick's $99.99 price is justified by that protection level." },
-      { label: "Save if", text: "You need genuine waterproofing for a mobile RV or marine setup, where the IP68 pick delivers that for $36.99, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You want the most detailed surge and ESD protection specifications for a fixed outdoor installation with real lightning exposure risk, where the EDUP LOVE pick's under $100 price is justified by that protection level." },
+      { label: "Save if", text: "You need genuine waterproofing for a mobile RV or marine setup, where the IP68 pick delivers that for under $40, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "25 inch monitor privacy screen";
 export const introParagraphs = [
   "25 inch sits between the far more common 24 and 27 inch sizes, and the filter selection reflects that: fewer dedicated options than the mainstream sizes, but a real, well-reviewed selection of three confirmed picks.",
-  "All three are matched 2-packs at similar prices, so this comparison comes down mostly to rating and review volume rather than a wide range of formats or price tiers.",
+  "All three are matched 2-packs at similar prices, so this comparison comes down mostly to rating and review volume rather than a wide range of formats or price tiers."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "6 min";
@@ -75,7 +75,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed genuine 25 inch, 16:9 fit for every pick", description: "We verified every pick here as a genuine 25 inch filter rather than assuming diagonal size alone determines compatibility with the more common 24 inch tier." },
   { title: "Disclosed the smaller confirmed product pool honestly", description: "25 inch has fewer dedicated filter listings than 24 or 27 inch, and we presented exactly what we found rather than padding the list with mismatched sizes." },
   { title: "Weighed rating against review volume across similarly priced options", description: "All three confirmed picks are matched 2-packs at similar prices, so we compared rating and review count as the primary differentiators." },
-  { title: "Noted bundled blue-light and anti-glare features consistently", description: "All three picks bundle at least one of these extras, and we compared the specific combinations directly." },
+  { title: "Noted bundled blue-light and anti-glare features consistently", description: "All three picks bundle at least one of these extras, and we compared the specific combinations directly." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -201,20 +201,21 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
-    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nThis matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
   }
 ];
 
 export const faq: FaqItem[] = [
-  { q: "Which 25 inch privacy screen has the most reviews?", a: "The [2 Pack] 25 Inch Computer Monitor Privacy Screen, with 938 reviews at a 4.3 rating." },
+  
   { q: "What's the highest-rated 25 inch option?", a: "The Vxaop [2-Pack] 25 Inch Computer Privacy Screen Filter at 4.6." },
-  { q: "What's the cheapest 25 inch option?", a: "The [2-Pack] 25 Inch Monitor Privacy Screen at $36.99." },
+  { q: "What's the cheapest 25 inch option?", a: "The [2-Pack] 25 Inch Monitor Privacy Screen at under $40." },
   { q: "Is 25 inch the same as 24 inch?", a: "No, they're close but distinct sizes. Confirm your monitor's exact diagonal before ordering." },
   { q: "Do all these bundle extra features?", a: "Yes, all three confirmed picks bundle either blue-light filtering, anti-glare, or both alongside privacy." },
+  { q: "What is the safest way to clean a privacy filter?", a: "Use a dry microfiber cloth first, and add a very light dampening only for stubborn smudges. Avoid ammonia-based glass cleaners and rough paper towels, because they can scratch or haze the coating. Spray the cloth, never the filter itself." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-24-inch-monitor-privacy-screens", title: "Best 24-Inch Monitor Privacy Screens (2026)" },
   { href: "/guide/best-27-inch-monitor-privacy-screens", title: "Best 27-Inch Monitor Privacy Screens (2026)" },
-  { href: "/guide/best-monitor-privacy-screens", title: "Best Monitor Privacy Screens (2026)" },
+  { href: "/guide/best-monitor-privacy-screens", title: "Best Monitor Privacy Screens (2026)" }
 ];

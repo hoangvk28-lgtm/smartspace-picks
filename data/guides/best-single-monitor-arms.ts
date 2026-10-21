@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "monitor arm single";
 export const introParagraphs = [
   "A single monitor arm looks simple on the spec sheet, weight capacity and VESA size, but two of the most common complaints from long-term owners never show up there: gas spring sag after a year or two of daily adjustment, and noticeable wobble when typing on a mechanical keyboard or leaning on the desk. Both are normal wear, not defects, and some arms handle them far better than others.",
-  "Below are 8 single monitor arms we evaluated on reach versus desk depth, gas spring quality, and how they hold up over years of repositioning, from a $19.99 budget clamp to a $199 premium arm built for daily use. Matching arm reach to your actual desk depth, not just the monitor size range, is where most single-arm buyers get it wrong.",
+  "Below are 8 single monitor arms we evaluated on reach versus desk depth, gas spring quality, and how they hold up over years of repositioning, from an under-$20 budget clamp to a $199 premium arm built for daily use. Matching arm reach to your actual desk depth, not just the monitor size range, is where most single-arm buyers get it wrong."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -56,18 +56,18 @@ export const products: GuideProduct[] = [
       "13-32 inch monitor compatibility",
       "Holds 4.4 to 19.8 lbs",
       "VESA mount with clamp and grommet base",
-      "Full-motion tilt, swivel, rotation",
+      "Full-motion tilt, swivel, rotation"
     ],
     pros: [
       "Strong value for the price",
       "Works with both clamp and grommet desk mounting",
       "Fits a broad 13-32 inch monitor range",
-      "Full-motion adjustability",
+      "Full-motion adjustability"
     ],
     cons: [
       "4.4 lb minimum load can under-tension the lightest monitors",
       "Not rated for curved or ultrawide panels",
-      "Standard gas spring, not a premium mechanism",
+      "Standard gas spring, not a premium mechanism"
     ],
     bestFor: "Buyers who want the best balance of price and features for a standard monitor",
   },
@@ -88,18 +88,18 @@ export const products: GuideProduct[] = [
       "MechaSpring mechanism for smoother adjustment",
       "Max load 19.8 lbs",
       "Tool-free VESA mount",
-      "C-clamp or grommet base",
+      "C-clamp or grommet base"
     ],
     pros: [
       "Smoother, more even resistance than a standard gas spring",
       "Tool-free VESA head for quick setup",
       "Good fit for frequent repositioning, including standing desks",
-      "Flexible clamp or grommet base mounting",
+      "Flexible clamp or grommet base mounting"
     ],
     cons: [
       "Same 19.8 lb ceiling as the cheaper FlowLift",
       "Not rated for curved or ultrawide monitors",
-      "Slightly pricier than the base FlowLift for the smoother mechanism",
+      "Slightly pricier than the base FlowLift for the smoother mechanism"
     ],
     bestFor: "Standing desk users who adjust their monitor position often",
   },
@@ -120,18 +120,18 @@ export const products: GuideProduct[] = [
       "Holds up to 19.8 lbs total",
       "Max VESA 100x100mm",
       "Tool-free installation",
-      "Built-in cable management channel",
+      "Built-in cable management channel"
     ],
     pros: [
       "Lowest price in this list",
       "Tool-free VESA mounting",
       "Built-in cable management channel",
-      "Fits a wide 13-34 inch monitor range",
+      "Fits a wide 13-34 inch monitor range"
     ],
     cons: [
       "More adjustment friction than the FlowLift Pro's smoother mechanism",
       "Basic clamp hardware, risk of overtightening on thin desktops",
-      "No premium tension-adjustment screw for long-term sag",
+      "No premium tension-adjustment screw for long-term sag"
     ],
     bestFor: "Budget-conscious buyers with a standard flat monitor",
   },
@@ -151,18 +151,18 @@ export const products: GuideProduct[] = [
       "13-34 inch monitor compatibility",
       "Regular screens up to 32 inches supported",
       "26.4 lb total capacity",
-      "VESA 75/100mm",
+      "VESA 75/100mm"
     ],
     pros: [
       "26.4 lb capacity, higher than most budget arms here",
       "Wide 13-34 inch monitor compatibility",
       "Low price relative to its weight rating",
-      "Standard VESA 75/100mm fits most monitors",
+      "Standard VESA 75/100mm fits most monitors"
     ],
     cons: [
       "Cable management is minimal",
       "No C-clamp and grommet base choice",
-      "Not rated for curved or ultrawide panels",
+      "Not rated for curved or ultrawide panels"
     ],
     bestFor: "Buyers with a heavier 32-inch monitor who want extra capacity headroom",
   },
@@ -182,18 +182,18 @@ export const products: GuideProduct[] = [
       "Fits monitors up to 32 inches",
       "VESA 75/100mm mount",
       "Mechanical spring mount",
-      "Compact base footprint",
+      "Compact base footprint"
     ],
     pros: [
       "Compact footprint suits small desks",
       "Standard VESA 75/100mm fits most monitors",
       "Steady mechanical spring resistance",
-      "Mid-range price for its feature set",
+      "Mid-range price for its feature set"
     ],
     cons: [
       "Weight rating not disclosed as clearly as the WALI or TitanLift picks",
       "Fewer accessories bundled than the Ergotron picks",
-      "Not built for curved or ultrawide monitors",
+      "Not built for curved or ultrawide monitors"
     ],
     bestFor: "Buyers with a shallow or small desk who want a compact single arm",
   },
@@ -213,18 +213,18 @@ export const products: GuideProduct[] = [
       "Fits flat, curved, and ultrawide monitors up to 34 inches",
       "7 to 25 lb capacity",
       "VESA 75x75mm or 100x100mm",
-      "Matte black finish",
+      "Matte black finish"
     ],
     pros: [
       "Rated for curved and ultrawide panels, not just flat monitors",
       "Premium gas spring with a retightenable tension screw",
       "Wide 7-25 lb capacity range",
-      "Reputable brand with long-term reliability",
+      "Reputable brand with long-term reliability"
     ],
     cons: [
       "Significantly more expensive than the budget arms here",
       "Warranty covers defects, not normal gas spring wear",
-      "Larger arm may be more than a compact desk setup needs",
+      "Larger arm may be more than a compact desk setup needs"
     ],
     bestFor: "Buyers with a curved or ultrawide monitor who want a long-term reliable arm",
   },
@@ -244,18 +244,18 @@ export const products: GuideProduct[] = [
       "Fits flat, curved, and ultrawide monitors up to 34 inches",
       "4 to 22 lb capacity",
       "VESA 75x75mm or 100x100mm",
-      "White finish",
+      "White finish"
     ],
     pros: [
       "Long warranty coverage for manufacturing defects",
       "Refined joint design for smoother long-term adjustment",
       "Wide monitor compatibility including curved and ultrawide",
-      "Includes a retightenable tension screw for gas spring sag",
+      "Includes a retightenable tension screw for gas spring sag"
     ],
     cons: [
       "Highest price in this list",
       "22 lb ceiling slightly lower than the standard LX",
-      "Warranty terms often misunderstood as covering all wear",
+      "Warranty terms often misunderstood as covering all wear"
     ],
     bestFor: "Buyers who want the longest warranty and clearest long-term support",
   },
@@ -276,21 +276,21 @@ export const products: GuideProduct[] = [
       "Holds up to 44 lbs",
       "Aluminum construction",
       "Dual C-clamp base",
-      "Max VESA 100x100mm",
+      "Max VESA 100x100mm"
     ],
     pros: [
       "44 lb rating, the highest in this list",
       "Rated for screens up to 49 inches",
       "Aluminum build reduces wobble under typing or desk pressure",
-      "Dual C-clamp base resists tipping under weight",
+      "Dual C-clamp base resists tipping under weight"
     ],
     cons: [
       "Priced above the mid-tier picks in this list",
       "Larger arm footprint needs more desk clearance",
-      "Max VESA 100x100mm may not fit every ultrawide monitor's mounting pattern",
+      "Max VESA 100x100mm may not fit every ultrawide monitor's mounting pattern"
     ],
     bestFor: "Buyers with a large or heavy ultrawide monitor who need maximum capacity",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -318,7 +318,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for weight capacity",
     description: "Weighed price against rated weight capacity, since a heavier monitor justifies paying more for the TitanLift or Ergotron picks over the budget options.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -476,12 +476,12 @@ export const faq: FaqItem[] = [
   {
     q: "Does a longer warranty mean the arm won't sag over time?",
     a: "No. A long warranty, like Ergotron's on the LX and LX Pro, covers manufacturing defects, not the normal gas spring sag that happens naturally after years of adjustment. That's a separate issue from what the warranty is designed to cover.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-monitor-arms-for-laptop", title: "8 Best Monitor Arms for Laptop in 2026" },
   { href: "/guide/best-monitor-arm-mounts-under-50", title: "8 Best Monitor Arm Mounts Under $50 in 2026" },
   { href: "/guide/best-dual-monitor-arms", title: "Best Dual Monitor Arms" },
-  { href: "/guide/best-monitor-arm-desk-mounts", title: "Best Monitor Arm Desk Mounts" },
+  { href: "/guide/best-monitor-arm-desk-mounts", title: "Best Monitor Arm Desk Mounts" }
 ];

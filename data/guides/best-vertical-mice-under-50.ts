@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Triple-mode connectivity and programmable buttons", "AOC Ergonomic Mouse, 2.4GHz Wireless Bluetooth Vertical"],
         ["A precise fit for large hands with horizontal scroll", "ProtoArc EM11 Pro Ergonomic Mouse for Large Hands"],
         ["Dual-mode connectivity and a palm rest at a lower price", "J-Tech Digital Wireless Vertical Mouse"],
-        ["Ergonomist-certified design with exceptional battery life", "Logitech Lift Vertical Ergonomic Wireless Mouse"],
+        ["Ergonomist-certified design with exceptional battery life", "Logitech Lift Vertical Ergonomic Wireless Mouse"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $30", "J-Tech Digital ($29.95)"],
-        ["Under $40", "AOC ($39.99)"],
-        ["Under $53", "ProtoArc EM11 Pro ($52.99)"],
-        ["Under $65", "Logitech Lift ($64.99)"],
+        ["Under $30", "J-Tech Digital (under $30)"],
+        ["Under $40", "AOC (under $40)"],
+        ["Under $53", "ProtoArc EM11 Pro (under $60)"],
+        ["Under $65", "Logitech Lift (under $70)"]
       ],
     },
   },
@@ -131,7 +131,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Small to medium", "Logitech Lift or AOC"],
         ["Medium to large", "J-Tech Digital"],
-        ["Large (7.5-8.5 in)", "ProtoArc EM11 Pro"],
+        ["Large (7.5-8.5 in)", "ProtoArc EM11 Pro"]
       ],
     },
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Fully Programmable Buttons vs Fixed-Function Buttons",
     cards: [
       { label: "Fully programmable (AOC, ProtoArc EM11 Pro)", text: "Lets you customize each button's function to match your specific workflow, like assigning copy/paste or app shortcuts." },
-      { label: "Fixed-function (J-Tech Digital, Logitech Lift)", text: "Buttons perform preset functions like back/forward or Back to Desktop, simpler but less adaptable to unique workflows." },
+      { label: "Fixed-function (J-Tech Digital, Logitech Lift)", text: "Buttons perform preset functions like back/forward or Back to Desktop, simpler but less adaptable to unique workflows." }
     ],
     note: "If you have specific repetitive shortcuts you'd benefit from mapping to a button, the AOC or ProtoArc EM11 Pro's programmability is worth prioritizing. For general use, fixed-function buttons work fine.",
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Buyers Who Need Documented Ergonomic Credentials Specifically",
     cards: [
       { label: "Look for", text: "Explicit ergonomist testing and certification language, not just general ergonomic design claims." },
-      { label: "In this comparison", text: "The Logitech Lift is the only pick explicitly stating it was designed, developed, tested, and approved by leading ergonomists." },
+      { label: "In this comparison", text: "The Logitech Lift is the only pick explicitly stating it was designed, developed, tested, and approved by leading ergonomists." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want documented ergonomist certification and exceptionally long battery life, where the Logitech Lift leads this comparison on both fronts." },
-      { label: "Save if", text: "You want solid dual-mode connectivity and a palm rest without needing full programmability, where the J-Tech Digital pick covers that at the lowest price here." },
+      { label: "Save if", text: "You want solid dual-mode connectivity and a palm rest without needing full programmability, where the J-Tech Digital pick covers that at the lowest price here." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

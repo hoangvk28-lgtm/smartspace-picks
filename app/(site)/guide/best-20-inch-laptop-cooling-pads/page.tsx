@@ -143,7 +143,7 @@ export default async function Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best 20-Inch Laptop Cooling Pads in 2026 (Honest Category Guide)", item: `${SITE_URL}/guide/best-20-inch-laptop-cooling-pads` },
+      { "@type": "ListItem", position: 3, name: "Best 20-Inch Laptop Cooling Pads in 2026 (Honest Category Guide)", item: `${SITE_URL}/guide/best-20-inch-laptop-cooling-pads` }
     ],
   };
 

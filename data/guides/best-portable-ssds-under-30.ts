@@ -91,7 +91,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["A drive that plugs directly into a USB-C phone", "ORICO 64GB USB Flash Drive SSD"],
         ["The most capacity for the least money", "TDRVODA 128GB Portable External SSD"],
-        ["A recognized storage brand name", "Lexar 128GB Dual Drive D500 SSD"],
+        ["A recognized storage brand name", "Lexar 128GB Dual Drive D500 SSD"]
       ],
     },
   },
@@ -100,9 +100,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $18", "TDRVODA 128GB Portable External SSD ($17.95)"],
-        ["$18-$20", "ORICO 64GB USB Flash Drive SSD ($18.99)"],
-        ["$25-$30", "Lexar 128GB Dual Drive D500 SSD ($29.99)"],
+        ["Under $18", "TDRVODA 128GB Portable External SSD (under $20)"],
+        ["$18-$20", "ORICO 64GB USB Flash Drive SSD (under $20)"],
+        ["$25-$30", "Lexar 128GB Dual Drive D500 SSD (under $30)"]
       ],
     },
   },
@@ -110,7 +110,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "64GB vs 128GB",
     cards: [
       { label: "64GB (ORICO)", text: "Enough for documents, a modest photo library, or quick file transfers, but tight for video. Best as a phone-storage extender rather than a general-purpose drive." },
-      { label: "128GB (TDRVODA, Lexar)", text: "More comfortable everyday capacity for the same or lower price in the TDRVODA's case. Best as a general-purpose transfer or backup drive rather than a phone-specific accessory." },
+      { label: "128GB (TDRVODA, Lexar)", text: "More comfortable everyday capacity for the same or lower price in the TDRVODA's case. Best as a general-purpose transfer or backup drive rather than a phone-specific accessory." }
     ],
     note: "Most buyers should default to a 128GB option like the TDRVODA unless the ORICO's specific USB-C-phone convenience matters more than raw capacity.",
   },
@@ -120,7 +120,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your devices", "Recommended pick"],
       rows: [
         ["Mostly USB-C devices only", "ORICO 64GB USB Flash Drive SSD or TDRVODA 128GB Portable External SSD"],
-        ["Mix of USB-A and USB-C devices", "Lexar 128GB Dual Drive D500 SSD"],
+        ["Mix of USB-A and USB-C devices", "Lexar 128GB Dual Drive D500 SSD"]
       ],
     },
   },
@@ -128,16 +128,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For USB-C iPhone Backup Specifically",
     cards: [
       { label: "Look for", text: "A listing that explicitly names your iPhone model as compatible, since Lightning-port and USB-C iPhones aren't interchangeable, and not every drive supports both." },
-      { label: "In this comparison", text: "The ORICO 64GB USB Flash Drive SSD specifically lists iPhone 16 and 17 series compatibility, making it the clearest confirmed fit for current USB-C iPhones." },
+      { label: "In this comparison", text: "The ORICO 64GB USB Flash Drive SSD specifically lists iPhone 16 and 17 series compatibility, making it the clearest confirmed fit for current USB-C iPhones." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You've had reliability problems with unfamiliar-brand electronics before and specifically want the Lexar 128GB Dual Drive D500 SSD's established brand name, even without a documented speed advantage over the cheaper picks." },
-      { label: "Save if", text: "You just need a basic transfer or backup drive and don't have a specific brand preference, where the TDRVODA 128GB Portable External SSD covers the same 128GB capacity for roughly $12 less." },
+      { label: "Save if", text: "You just need a basic transfer or backup drive and don't have a specific brand preference, where the TDRVODA 128GB Portable External SSD covers the same 128GB capacity for roughly $12 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

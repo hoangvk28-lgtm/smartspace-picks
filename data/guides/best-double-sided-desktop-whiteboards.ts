@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "double-sided desktop whiteboard";
 export const introParagraphs = [
   "A double-sided whiteboard genuinely gives you two writing surfaces in one desk footprint, but what's actually printed or usable on that second side varies by product and often isn't spelled out in the listing title. Every board below is confirmed double-sided per its own listing, and we flag where the second side's content or template isn't detailed, so check listing images if that specific detail matters to you.",
-  "Double-sided construction also adds some weight and thickness compared to a single-sided board, and if the board rotates within its stand, that rotation mechanism is a real durability point that unboxing photos can't confirm holds up over repeated use. Treat both as buyer-advisory checks worth reading current reviews for.",
+  "Double-sided construction also adds some weight and thickness compared to a single-sided board, and if the board rotates within its stand, that rotation mechanism is a real durability point that unboxing photos can't confirm holds up over repeated use. Treat both as buyer-advisory checks worth reading current reviews for."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "8 min";
@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08R3V1YTB?tag=deskfinds0d-20",
     description:
-      "A 16x12 inch double-sided board with a stand, magnetic on the surface per the listing, giving a solid balance of size and price among the double-sided picks here.\n\nWhether both sides are identical blank surfaces or one includes a template isn't detailed in the listing, so check product images if that distinction matters to your use case.\n\nWhat stands out here is largest writing area among the more affordable double-sided picks, plus magnetic surface adds note-holding flexibility. The main tradeoff: whether either side includes a template isn't confirmed, check images, so weigh that against the $17.99 price before buying.",
+      "A 16x12 inch double-sided board with a stand, magnetic on the surface per the listing, giving a solid balance of size and price among the double-sided picks here.\n\nWhether both sides are identical blank surfaces or one includes a template isn't detailed in the listing, so check product images if that distinction matters to your use case.\n\nWhat stands out here is largest writing area among the more affordable double-sided picks, plus magnetic surface adds note-holding flexibility. The main tradeoff: whether either side includes a template isn't confirmed, check images, so weigh that against the under $20 price before buying.",
     specs: ["16\" x 12\" writing surface, double-sided", "Magnetic dry erase surface", "Includes stand", "Balanced size and price"],
     pros: ["Largest writing area among the more affordable double-sided picks", "Magnetic surface adds note-holding flexibility", "Includes a stand", "Reasonable price for the size"],
     cons: ["Whether either side includes a template isn't confirmed, check images", "Rotation mechanism durability not detailed in listing", "Surface material not specified"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41FLEFa9xDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVM9YJCS?tag=deskfinds0d-20",
     description:
-      "Same 16x12 double-sided, magnetic, stand-equipped combination as our overall pick, from a different brand, a nearly equivalent alternative if you prefer AMUSIGHT's specific build.\n\nAs with the pick above, second-side content isn't detailed in the listing, so verify via images if you need a specific template on either face.\n\nThe strongest case for this pick comes down to double-sided for two independent writing surfaces as well as magnetic surface adds flexibility. The compromise here is that whether either side includes a template isn't confirmed, so factor that in alongside the $19.99 asking price.",
+      "Same 16x12 double-sided, magnetic, stand-equipped combination as our overall pick, from a different brand, a nearly equivalent alternative if you prefer AMUSIGHT's specific build.\n\nAs with the pick above, second-side content isn't detailed in the listing, so verify via images if you need a specific template on either face.\n\nThe strongest case for this pick comes down to double-sided for two independent writing surfaces as well as magnetic surface adds flexibility. The compromise here is that whether either side includes a template isn't confirmed, so factor that in alongside the under $20 asking price.",
     specs: ["16\" x 12\" writing surface, double-sided", "Magnetic dry erase surface", "Includes stand", "Comparable to our overall pick"],
     pros: ["Double-sided for two independent writing surfaces", "Magnetic surface adds flexibility", "Includes a stand", "Comparable spec set to our top pick"],
     cons: ["Whether either side includes a template isn't confirmed", "Rotation mechanism durability not detailed", "Functionally overlaps with our overall pick"],
@@ -99,12 +99,12 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/4139fisIqSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VL1QL8F?tag=deskfinds0d-20",
     description:
-      "The lowest price of any double-sided board in this guide, 16x12 inches with a stand, described as portable, suggesting a lighter overall construction.\n\nA reasonable entry point for two writing surfaces without paying for glass or extra features, though as with the other budget picks, second-side content and rotation durability aren't detailed.\n\nWhat stands out here is lowest price of any double-sided pick here, plus two writing surfaces in one footprint. The main tradeoff: whether either side includes a template isn't confirmed, so weigh that against the $12.62 price before buying.",
+      "The lowest price of any double-sided board in this guide, 16x12 inches with a stand, described as portable, suggesting a lighter overall construction.\n\nA reasonable entry point for two writing surfaces without paying for glass or extra features, though as with the other budget picks, second-side content and rotation durability aren't detailed.\n\nWhat stands out here is lowest price of any double-sided pick here, plus two writing surfaces in one footprint. The main tradeoff: whether either side includes a template isn't confirmed, so weigh that against the under $15 price before buying.",
     specs: ["16\" x 12\" writing surface, double-sided", "Magnetic dry erase surface", "Includes stand", "Lowest price in this guide"],
     pros: ["Lowest price of any double-sided pick here", "Two writing surfaces in one footprint", "Explicitly described as portable", "Includes a stand"],
     cons: ["Whether either side includes a template isn't confirmed", "Portable framing suggests lighter build, verify stability via reviews", "Rotation mechanism durability not detailed"],
     bestFor: "Budget-conscious buyers wanting two writing surfaces without paying a premium.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed genuine double-sided construction per listing", description: "Only included boards whose listing explicitly states double-sided, rather than assuming a board is dual-surface from a generic description." },
   { title: "Flagged unconfirmed second-side content as a buyer-advisory gap", description: "Noted where listings don't specify whether the second side is blank or templated, rather than assuming both sides are identical." },
   { title: "Considered rotation mechanism durability as a buyer-advisory check", description: "Flagged that a board's rotating stand mechanism (if present) is a real durability point that can't be confirmed from listing photos alone." },
-  { title: "Weighed weight and thickness tradeoffs of dual-sided construction", description: "Noted that double-sided boards are generally heavier and thicker than single-sided equivalents, a tradeoff worth factoring into stand stability expectations." },
+  { title: "Weighed weight and thickness tradeoffs of dual-sided construction", description: "Noted that double-sided boards are generally heavier and thicker than single-sided equivalents, a tradeoff worth factoring into stand stability expectations." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Same combination, alternate brand", "AMUSIGHT Double-Sided 16\"x12\""],
         ["Genuine calendar content on one side", "14\"x10\" Whiteboard with Magnetic Calendar"],
         ["Smallest double-sided footprint", "NC Magnetic Mini Double-Sided Board"],
-        ["Lowest price for two writing surfaces", "MaxGear 16\"x12\" Double-Sided"],
+        ["Lowest price for two writing surfaces", "MaxGear 16\"x12\" Double-Sided"]
       ],
     },
   },
@@ -151,15 +151,15 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $12.62",
+          "Under $15",
           "MaxGear Dry Erase Board with Stand"
         ],
         [
-          "Around $17.99",
+          "Under $20",
           "White Board with Stand"
         ],
         [
-          "Around $19.99",
+          "Under $20",
           "AMUSIGHT Double-Sided Magnetic White Board with Stand"
         ]
       ]
@@ -177,7 +177,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "MaxGear Dry Erase Board with Stand is aimed at Budget-conscious buyers wanting two writing surfaces without paying a premium."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -185,7 +185,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   { criterion: "Check if the second side has a template or is blank", explanation: "Most listings don't specify this. Check product images if you specifically need a calendar or grid on one side rather than two blank surfaces. At every price point in this comparison's $13 to $20 range, second side has template varies enough between listings that assuming it scales with price is a real way to get burned. Confirm second side has template directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best." },
   { criterion: "Ask whether the rotation mechanism will hold up", explanation: "If the board rotates within its stand, that's a wear point over repeated use. Check current reviews for durability complaints before buying. Two picks priced close together, anywhere in this comparison's $13-$20 band, can still land on opposite ends of whether rotation mechanism will, so price alone is a poor proxy for it here. Compare the stated figure for whether rotation mechanism will across two or three similar listings side by side before trusting any single seller's number at face value." },
   { criterion: "Factor in extra weight and thickness", explanation: "Double-sided boards tend to be heavier and thicker than single-sided equivalents, which can affect stand stability while writing. Products at the low end near $13 and the high end near $20 of this comparison don't always handle extra weight thickness the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of extra weight thickness, since that's often where the honest, unfiltered answer actually shows up." },
-  { criterion: "Verify erasability independently for each side", explanation: "Ghosting resistance can vary between the two surfaces of a double-sided board. Check buyer reviews for how each side holds up separately. Across this comparison's $13 to $20 range, erasability independently each side is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check erasability independently each side against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out." },
+  { criterion: "Verify erasability independently for each side", explanation: "Ghosting resistance can vary between the two surfaces of a double-sided board. Check buyer reviews for how each side holds up separately. Across this comparison's $13 to $20 range, erasability independently each side is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check erasability independently each side against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out." }
 ];
 
 export const faq: FaqItem[] = [
@@ -194,11 +194,11 @@ export const faq: FaqItem[] = [
   { q: "Are double-sided whiteboards heavier than single-sided ones?", a: "Generally yes, the dual-surface construction adds some weight and thickness compared to a single-sided board." },
   { q: "Is a double-sided whiteboard worth it over a single-sided one?", a: "If you want two independent writing surfaces in one desk footprint, yes. If you'll only ever use one side, a single-sided board is a simpler, lighter option." },
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "White Board with Stand is aimed at Buyers wanting a balanced, general-purpose double-sided board at a fair price." },
-  { q: "Which pick offers the best value for a tight budget?", a: "MaxGear Dry Erase Board with Stand is aimed at Budget-conscious buyers wanting two writing surfaces without paying a premium, and at $12.62 it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "MaxGear Dry Erase Board with Stand is aimed at Budget-conscious buyers wanting two writing surfaces without paying a premium, and at under $15 it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desktop-whiteboards-with-stands", title: "Best Desktop Whiteboards with Stands (2026)" },
   { href: "/guide/best-mini-desktop-whiteboards", title: "Best Mini Desktop Whiteboards (2026)" },
-  { href: "/guide/best-desktop-whiteboards", title: "Best Desktop Whiteboards (2026)" },
+  { href: "/guide/best-desktop-whiteboards", title: "Best Desktop Whiteboards (2026)" }
 ];

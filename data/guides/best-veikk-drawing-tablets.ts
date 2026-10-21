@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $43.62",
+          "Under $45",
           "VEIKK A30 Drawing Tablet 10x6 Graphic Tablet"
         ],
         [
-          "Around $142.49",
+          "Under $150",
           "VEIKK VK1200 V2 Drawing Tablet with Screen"
         ],
         [
-          "Around $151.99",
+          "Under $160",
           "VEIKK VK1200 V3 11.6\" Drawing Tablet with Screen"
         ],
         [
-          "Around $227.99",
+          "Under $250",
           "VEIKK Studio 16 Drawing Tablet with Screen"
         ],
         [
-          "Around $309.99",
+          "Under $350",
           "VEIKK VK2200PRO 21.5 Inch Drawing Tablet with Screen"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "VEIKK A30 Drawing Tablet 10x6 Graphic Tablet is aimed at buyers prioritizing 10x6in area, touch pad + 4 touch keys." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "VEIKK A30 Drawing Tablet 10x6 Graphic Tablet is aimed at buyers prioritizing 10x6in area, touch pad + 4 touch keys." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"},{"href":"/guide/best-wacom-drawing-tablets","title":"Best Wacom Drawing Tablets in 2026"},{"href":"/guide/best-drawing-tablets-with-screens","title":"Best Drawing Tablets With Screens in 2026"}];

@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Lowest price, carrier flexibility", "KUMA Connect PRO 4G LTE Cellular Router"],
         ["No-SIM bundled data plan, flexible tiers", "TravlFi JourneyXTR LTE RV WiFi Router"],
         ["Permanent weatherproof rooftop install", "Winegard Connect 2.0 4G WF2-435"],
-        ["Maximum 5G speed and reliability", "TravlFi XTR Pro 5G Router"],
+        ["Maximum 5G speed and reliability", "TravlFi XTR Pro 5G Router"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $180", "KUMA Connect PRO 4G LTE Cellular Router ($179.99)"],
-        ["Under $245", "TravlFi JourneyXTR LTE RV WiFi Router ($242.44)"],
-        ["Under $430", "Winegard Connect 2.0 4G WF2-435 ($428.41)"],
-        ["Under $450", "TravlFi XTR Pro 5G Router ($449.00)"],
+        ["Under $180", "KUMA Connect PRO 4G LTE Cellular Router (under $180)"],
+        ["Under $245", "TravlFi JourneyXTR LTE RV WiFi Router (under $250)"],
+        ["Under $430", "Winegard Connect 2.0 4G WF2-435 (under $450)"],
+        ["Under $450", "TravlFi XTR Pro 5G Router (under $450)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Bring-Your-Own-SIM vs Bundled eSIM Data Plans",
     cards: [
       { label: "Bring-your-own-SIM (KUMA)", text: "Lets you choose the specific carrier with the best coverage in your typical travel areas and shop around for the best data plan rates independently." },
-      { label: "Bundled eSIM (both TravlFi picks)", text: "Removes the SIM research and sourcing step entirely, with flexible prepaid tiers matched to your actual travel schedule." },
+      { label: "Bundled eSIM (both TravlFi picks)", text: "Removes the SIM research and sourcing step entirely, with flexible prepaid tiers matched to your actual travel schedule." }
     ],
     note: "If you already know which carrier has the best coverage where you travel, bring-your-own-SIM offers more control; if you want simplicity without researching carrier options, the bundled eSIM systems remove that step.",
   },
@@ -130,7 +130,7 @@ export const howToChoose = [
       headers: ["Your setup", "Recommended pick"],
       rows: [
         ["Portable, moves between vehicles", "KUMA Connect PRO or either TravlFi router"],
-        ["Permanent, one dedicated RV", "Winegard Connect 2.0 rooftop system"],
+        ["Permanent, one dedicated RV", "Winegard Connect 2.0 rooftop system"]
       ],
     },
   },
@@ -138,16 +138,16 @@ export const howToChoose = [
     subheading: "For Full-Time RV Living or Remote Work Specifically",
     cards: [
       { label: "Look for", text: "The highest available connection speed and multiple network access for redundancy, since a dropped connection during a work call or video meeting is a more serious problem for full-time remote workers than for occasional recreational campers." },
-      { label: "In this comparison", text: "The TravlFi XTR Pro specifically offers 5G speed and multiple network access, the most robust option in this comparison for demanding, consistent connectivity needs." },
+      { label: "In this comparison", text: "The TravlFi XTR Pro specifically offers 5G speed and multiple network access, the most robust option in this comparison for demanding, consistent connectivity needs." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You need permanent weatherproof rooftop installation or the fastest available 5G speed for full-time remote work, where the Winegard or TravlFi XTR Pro justify their higher price." },
-      { label: "Save if", text: "You want reliable connectivity with carrier flexibility for occasional RV trips, where the KUMA Connect PRO covers that need at the lowest price in this comparison." },
+      { label: "Save if", text: "You want reliable connectivity with carrier flexibility for occasional RV trips, where the KUMA Connect PRO covers that need at the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

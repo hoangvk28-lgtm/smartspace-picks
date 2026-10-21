@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mount-it standing desk converter";
 export const introParagraphs = [
   "Mount-It! currently sells compact, dual-monitor, triple-monitor electric, and standard gas-spring converter variants, supporting a genuine brand comparison rather than a single undifferentiated list.",
-  "We compared these current models directly on platform size, mount type, and price, since Mount-It!'s lineup spans a wide range of use cases within the same brand.",
+  "We compared these current models directly on platform size, mount type, and price, since Mount-It!'s lineup spans a wide range of use cases within the same brand."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed current Mount-It! model availability", description: "We only included converters we could verify as currently sold rather than assuming the full historical Mount-It! catalog remains available." },
   { title: "Distinguished integrated mount from open-platform designs", description: "We flagged which Mount-It! models include dedicated monitor mounts versus open surface area, since this changes real-world setup." },
   { title: "Weighed the triple-monitor electric model's lower rating honestly", description: "This model has both the lowest rating and smallest review base in the current lineup, and we disclosed this directly rather than glossing over it because it's the specialized top-tier option." },
-  { title: "Compared price across Mount-It!'s full current range", description: "Mount-It! pricing spans from a budget compact option to a premium triple-monitor electric model, and we compared value across that range." },
+  { title: "Compared price across Mount-It!'s full current range", description: "Mount-It! pricing spans from a budget compact option to a premium triple-monitor electric model, and we compared value across that range." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -254,20 +254,20 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
 export const faq: FaqItem[] = [
   { q: "Which Mount-It! converter is highest rated?", a: "The Mount-It! Standing Desk Converter 32 x 22 with Gas Spring Lift, at 4.6." },
-  { q: "Which Mount-It! converter has the most reviews?", a: "The Mount-It! Standing Desk Converter, Compact Design, with 381 reviews." },
+  { q: "Which Mount-It! converter has the most reviews?", a: "The Mount-It!" },
   { q: "Is the triple-monitor Mount-It! converter well-reviewed?", a: "It has the lowest rating (3.8) and smallest review base (63) in Mount-It!'s current lineup, though it's their only current triple-monitor electric option." },
-  { q: "What's the cheapest current Mount-It! converter?", a: "The Mount-It! Height Adjustable Standing Desk Converter at 30 inches, priced at $128.97." },
-  { q: "Does Mount-It! make a dual-monitor mount option?", a: "Yes, the Mount-It! Standing Desk Converter Dual Monitor includes two dedicated monitor mounts." },
+  { q: "What's the cheapest current Mount-It! converter?", a: "The Mount-It! Height Adjustable Standing Desk Converter at 30 inches, priced under $130." },
+  { q: "Does Mount-It! make a dual-monitor mount option?", a: "Yes, the Mount-It! Standing Desk Converter Dual Monitor includes two dedicated monitor mounts." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-dual-monitor-standing-desk-converters", title: "Best Dual Monitor Standing Desk Converters (2026)" },
   { href: "/guide/best-3-monitor-standing-desk-converters", title: "Best 3-Monitor Standing Desk Converters (2026)" },
-  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
+  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" }
 ];

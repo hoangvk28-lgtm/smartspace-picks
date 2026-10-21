@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Independent KVM/USB switching with Multi-Stream Transport", "ATEN CS1922 2-Port USB 3.0 4K DisplayPort KVMP Switch"],
         ["A complete 15-in-1 docking station with triple monitors", "JCYMELE USB-C KVM Switch, 3 Monitors 2 Computers, 100W PD"],
-        ["A daily work-laptop-plus-personal-desktop workflow", "AV Access KVM Switch, 2 Monitors 2 Computers, USB-C"],
+        ["A daily work-laptop-plus-personal-desktop workflow", "AV Access KVM Switch, 2 Monitors 2 Computers, USB-C"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $150", "ATEN US3311 2-Port USB-C KVM Switch ($149.99)"],
-        ["$183-$200", "ATEN CS1922 ($183.99), JCYMELE ($199.99), or AV Access ($199.99)"],
+        ["Under $150", "ATEN US3311 2-Port USB-C KVM Switch (under $150)"],
+        ["$183-$200", "ATEN CS1922 (under $190), JCYMELE (under $200), or AV Access (under $200)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Independent Switching vs Unified Docking",
     cards: [
       { label: "Independent Switching (ATEN CS1922)", text: "Lets KVM control and USB peripheral focus point to different computers simultaneously, a specific professional capability for transferring files between active systems." },
-      { label: "Unified Docking (JCYMELE or AV Access)", text: "Switches all signals together as one unit, simpler conceptually and paired with far more total docking ports for a complete workstation replacement." },
+      { label: "Unified Docking (JCYMELE or AV Access)", text: "Switches all signals together as one unit, simpler conceptually and paired with far more total docking ports for a complete workstation replacement." }
     ],
     note: "Independent switching is a niche but genuinely useful capability for specific professional workflows. Most buyers benefit more from the comprehensive docking approach.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your docking needs", "Recommended pick"],
       rows: [
         ["Maximum ports (Ethernet, SD card, extra USB)", "JCYMELE 15-in-1 Dock or AV Access Complete Dock"],
-        ["Compact, minimal docking beyond core KVM function", "ATEN US3311 or ATEN CS1922"],
+        ["Compact, minimal docking beyond core KVM function", "ATEN US3311 or ATEN CS1922"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Hybrid Work Setups Specifically",
     cards: [
       { label: "Look for", text: "A switch specifically engineered around a work-laptop-plus-personal-computer scenario, with charging and full docking built in." },
-      { label: "In this comparison", text: "The AV Access KVM Switch is specifically marketed and designed for exactly this daily work-laptop-and-personal-desktop workflow." },
+      { label: "In this comparison", text: "The AV Access KVM Switch is specifically marketed and designed for exactly this daily work-laptop-and-personal-desktop workflow." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You need a complete 15-in-1 docking station with triple-monitor support, where the JCYMELE pick delivers the most comprehensive feature set in this comparison." },
-      { label: "Save if", text: "A compact single-monitor dock with strong charging covers your needs, where the ATEN US3311 saves $50 versus the full docking stations here." },
+      { label: "Save if", text: "A compact single-monitor dock with strong charging covers your needs, where the ATEN US3311 saves $50 versus the full docking stations here." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

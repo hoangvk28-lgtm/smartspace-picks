@@ -12,7 +12,7 @@ export const seatCushionVsLumbarPillowGuide: Guide = {
     "seat cushion for tailbone pain",
     "lumbar pillow for office chair",
     "which cushion for back pain desk",
-    "coccyx cushion vs lumbar support",
+    "coccyx cushion vs lumbar support"
   ],
   heroImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const seatCushionVsLumbarPillowGuide: Guide = {
     "lumbar-support-explained",
     "office-chair-size-chart",
     "how-to-measure-office-chair-fit",
-    "mesh-vs-fabric-office-chair",
+    "mesh-vs-fabric-office-chair"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const seatCushionVsLumbarPillowGuide: Guide = {
       question: "Should I try adjusting my chair's built-in settings before adding cushions?",
       answer:
         "Yes, if your chair has adjustable lumbar support or seat depth, trying these built-in adjustments first is worth doing before adding external cushions, since a properly adjusted chair may resolve the discomfort without needing additional accessories at all.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const seatCushionVsLumbarPillowGuide: Guide = {
     {
       heading: "Why Checking Built-In Chair Adjustments First Can Save an Unnecessary Purchase",
       body: `Many office chairs include adjustable lumbar support and sometimes seat depth adjustment built directly into the chair itself, before purchasing an external cushion or pillow, checking whether your existing chair's built-in adjustments are actually optimized for your body, many people never fully adjust these settings from factory defaults, might resolve the discomfort without needing any additional accessory purchase at all, this simple, free troubleshooting step is worth trying first before assuming an external accessory is necessary.`,
-    },
+    }
   ],
 };

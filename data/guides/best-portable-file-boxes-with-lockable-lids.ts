@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable file boxes with lockable lids";
 export const introParagraphs = [
   "This overlaps significantly with our broader lockable portable file boxes guide, narrowed here specifically to lid-integrated locking mechanisms rather than a separate front-panel lock or other lock placement. A lid-integrated lock has different engineering requirements than a separate lock, and we verified this placement specifically for each pick.",
-  "We carried forward the lock-mechanism-type decoding and realistic-security-expectation-setting from our broader lockable file box research, since the same honesty principles apply here.",
+  "We carried forward the lock-mechanism-type decoding and realistic-security-expectation-setting from our broader lockable file box research, since the same honesty principles apply here."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Lid-specific lock placement verification", description: "We confirmed whether each pick's locking mechanism is genuinely integrated into the lid closure itself, distinct from a separate front-panel lock." },
   { title: "Lock mechanism type decoding", description: "We carried forward the key/combination/basic-latch decoding from our broader lockable file box research, applied specifically to lid-integrated designs." },
   { title: "Realistic security expectation setting", description: "We were explicit that these remain deterrent-level locks, not safe-grade security against determined tampering." },
-  { title: "SERP/product overlap disclosure", description: "We noted the substantial overlap with our general lockable portable file boxes guide, since lid-integrated locks are one of the more common lock placements in that broader category." },
+  { title: "SERP/product overlap disclosure", description: "We noted the substantial overlap with our general lockable portable file boxes guide, since lid-integrated locks are one of the more common lock placements in that broader category." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -224,11 +224,11 @@ export const faq: FaqItem[] = [
   { q: "How secure is a lid-integrated lock really?", a: "These are deterrent-level locks appropriate for preventing casual access, not safe-grade security against a determined person with tools. For truly sensitive documents, consider a dedicated safe instead." },
   { q: "Which pick has the most secure lid-lock mechanism?", a: "The Vaultz Dual Lock pick uses two separate lid-locking points, genuinely more resistant to prying open at a single weak point than a single-lock design." },
   { q: "Is every box marketed as 'lockable' actually genuinely locked?", a: "No, some listings use this term loosely for a secure latch rather than a genuine key or combination lock. Verify the specific mechanism in the product description before assuming real lid-lock security." },
-  { q: "Should I look at your broader lockable file box guide instead?", a: "If you're open to other lock placements beyond the lid specifically (like a separate front-panel lock), yes, that guide offers a wider comparison across all lock types and placements." },
+  { q: "Should I look at your broader lockable file box guide instead?", a: "If you're open to other lock placements beyond the lid specifically (like a separate front-panel lock), yes, that guide offers a wider comparison across all lock types and placements." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-lockable-portable-file-boxes", title: "Best Lockable Portable File Boxes (2026)" },
   { href: "/guide/best-portable-file-boxes-with-lids", title: "Best Portable File Boxes with Lids (2026)" },
-  { href: "/guide/best-fireproof-portable-file-boxes", title: "Best Fireproof Portable File Boxes (2026)" },
+  { href: "/guide/best-fireproof-portable-file-boxes", title: "Best Fireproof Portable File Boxes (2026)" }
 ];

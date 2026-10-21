@@ -12,7 +12,7 @@ export const cableClipsVsCableRacewayGuide: Guide = {
     "desk cable clips vs raceway",
     "cable raceway for wall cables",
     "hide desk cables solution",
-    "cable management under desk",
+    "cable management under desk"
   ],
   heroImage: "https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const cableClipsVsCableRacewayGuide: Guide = {
     "cable-management-types-explained",
     "velcro-vs-zip-ties-cable-management",
     "standing-desk-cable-management",
-    "cable-sleeve-size-chart",
+    "cable-sleeve-size-chart"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const cableClipsVsCableRacewayGuide: Guide = {
       question: "Which is better for a small number of cables versus many?",
       answer:
         "Cable clips are more practical and cost-effective for a small number of individual cables needing simple routing, a raceway becomes more valuable when managing a larger bundle of cables running along the same path, like behind a desk or along a wall.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const cableClipsVsCableRacewayGuide: Guide = {
     {
       heading: "Considering How Often You'll Need Access",
       body: `If your cable setup is likely to change, adding devices, swapping peripherals, individual clips offer more flexibility since each cable can be added or removed independently without disturbing others. A raceway's enclosed design, while visually cleaner, can make individual cable changes slightly more cumbersome depending on the specific product's cover design, check for an easily removable or hinged cover if you anticipate needing frequent access.`,
-    },
+    }
   ],
 };

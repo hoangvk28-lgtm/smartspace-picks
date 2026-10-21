@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Genuine anchoring grip on carpet", "BesWin Office Chair Mat for Carpet, 30in x 48in"],
         ["A safe, straightforward hardwood option", "Kuyal Clear Chair Mat for Hardwood Floor, 30in x 48in"],
         ["Larger hardwood coverage", "Kuyal Clear Chair Mat for Hardwood Floor, 36in x 48in"],
-        ["A brand-name carpet mat with precise compatibility", "HON Office Chair Mat for Carpet, Heavy Duty"],
+        ["A brand-name carpet mat with precise compatibility", "HON Office Chair Mat for Carpet, Heavy Duty"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $30", "BesWin ($29.99)"],
-        ["Under $31", "Kuyal 30in ($30.95)"],
-        ["Under $33", "Kuyal 36in ($32.95)"],
-        ["Under $36", "HON ($35.98)"],
+        ["Under $30", "BesWin (under $30)"],
+        ["Under $31", "Kuyal 30in (under $35)"],
+        ["Under $33", "Kuyal 36in (under $35)"],
+        ["Under $36", "HON (under $40)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Studded Carpet Backing vs Anti-Slide Hardwood Coating",
     cards: [
       { label: "Studded carpet backing (BesWin, HON)", text: "Uses small spikes or a gripping texture that anchors into carpet fibers, essential for staying in place on carpeted floors." },
-      { label: "Anti-slide hardwood coating (Kuyal picks)", text: "Uses a smooth coating that relies on surface friction against a flat hard floor rather than anchoring into fibers." },
+      { label: "Anti-slide hardwood coating (Kuyal picks)", text: "Uses a smooth coating that relies on surface friction against a flat hard floor rather than anchoring into fibers." }
     ],
     note: "Never use a studded carpet mat on hardwood, since the spikes can scratch the floor. Never rely on a smooth hardwood mat for carpet, since it will slide without anything to grip into the fibers.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Compact desk area", "BesWin or Kuyal 30in (both 30in x 48in)"],
         ["Standard coverage with more width", "Kuyal 36in x 48in"],
-        ["Standard coverage with extended lip", "HON (36in x 48in with lip)"],
+        ["Standard coverage with extended lip", "HON (36in x 48in with lip)"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Rental Apartment With Carpet Specifically",
     cards: [
       { label: "Look for", text: "A studded carpet mat with a stated pile-thickness compatibility, since using the wrong grip type risks either sliding or subtle carpet damage that could affect a security deposit." },
-      { label: "In this comparison", text: "The HON pick's precise 1/4 inch pile compatibility spec helps confirm it matches typical rental-grade low pile carpet before you buy." },
+      { label: "In this comparison", text: "The HON pick's precise 1/4 inch pile compatibility spec helps confirm it matches typical rental-grade low pile carpet before you buy." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a brand-name carpet mat with a precise pile-thickness spec and extended lip coverage, where the HON pick delivers both at the top of this tier." },
-      { label: "Save if", text: "You just need basic carpet anchoring without extra brand or lip features, where the BesWin pick covers that for about $6 less." },
+      { label: "Save if", text: "You just need basic carpet anchoring without extra brand or lip features, where the BesWin pick covers that for about $6 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

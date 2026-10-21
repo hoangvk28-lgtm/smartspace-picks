@@ -12,7 +12,7 @@ export const officeChairTroubleshootingGuide: Guide = {
     "office chair sinking fix",
     "office chair squeaking fix",
     "office chair leaning to one side",
-    "office chair recline stuck",
+    "office chair recline stuck"
   ],
   heroImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const officeChairTroubleshootingGuide: Guide = {
     "office-chair-weight-capacity-explained",
     "chair-tilt-mechanisms-explained",
     "office-chair-caster-types-explained",
-    "office-chair-size-chart",
+    "office-chair-size-chart"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const officeChairTroubleshootingGuide: Guide = {
       question: "Why is my chair's recline stuck in one position?",
       answer:
         "A stuck recline can mean the tilt lock lever is engaged (check for a lever near the tilt tension knob), or in some cases a worn mechanism has seized, try cycling the lock lever fully before assuming a mechanical failure.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ export const officeChairTroubleshootingGuide: Guide = {
     {
       heading: "When a Problem Signals It's Time to Replace the Chair",
       body: `Some issues, like a persistently squeaking mechanism after lubrication, or a frame that visibly flexes or cracks under normal weight, point to a deeper structural problem rather than a simple wear-and-tear fix. If a chair has multiple compounding issues after several years of daily use, or the mechanism itself has visibly seized or cracked, replacement is generally more practical than continuing to chase individual repairs.`,
-    },
+    }
   ],
 };

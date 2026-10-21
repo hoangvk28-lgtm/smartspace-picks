@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small jewelry safes with drawers";
 export const introParagraphs = [
   "We required an actual sliding or pop-open drawer mechanism before ranking a pick as drawer-equipped, rather than counting a removable shelf as a drawer. One original candidate ASIN was not accessible through the product catalog at research time, so we're presenting the 7 we could verify.",
-  "We also checked drawer retention, whether items stay contained when the safe is moved or the door opens, since a drawer that slides freely can spill jewelry inside the safe body.",
+  "We also checked drawer retention, whether items stay contained when the safe is moved or the door opens, since a drawer that slides freely can spill jewelry inside the safe body."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -131,7 +131,7 @@ export const products: GuideProduct[] = [
     pros: ["Felt-lined interior genuinely protects jewelry even without a dedicated drawer"],
     cons: ["Removable shelf only, not a true sliding drawer despite similar organizational benefit"],
     bestFor: "Buyers wanting basic layered organization and jewelry-safe scratch protection at a lower price.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required a genuine sliding or pop-open drawer mechanism, not a removable shelf", description: "Only one pick here confirms a true slide-away drawer system. We labeled the others honestly, fixed tiered layouts, removable shelves, or general open compartments, rather than implying drawer functionality they don't have." },
   { title: "Distinguished 'fits inside a drawer' from 'has an internal drawer'", description: "One pick is designed to be mounted inside an existing furniture drawer, a meaningfully different concept from a safe containing its own internal sliding drawer, which we clarified directly." },
   { title: "Compared retention and organization features across drawer and non-drawer picks", description: "We checked for dividers, anti-tangle hooks, and felt lining regardless of drawer mechanism, since these genuinely affect jewelry protection independent of whether the storage slides." },
-  { title: "Excluded the inaccessible ASIN rather than fabricating its data", description: "One original candidate ASIN returned ItemNotAccessible from the product catalog API at research time. We excluded it and disclosed the gap rather than guessing." },
+  { title: "Excluded the inaccessible ASIN rather than fabricating its data", description: "One original candidate ASIN returned ItemNotAccessible from the product catalog API at research time. We excluded it and disclosed the gap rather than guessing." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -267,11 +267,11 @@ export const faq: FaqItem[] = [
   { q: "Is the VALINIRT jewelry safe's tiered interior a drawer?", a: "No, it's a fixed three-tier layout, not a sliding drawer, though it offers extensive dedicated jewelry organization." },
   { q: "What does 'fits inside a drawer' mean for the Amazon Basics pick?", a: "That safe is designed to be mounted inside your existing furniture drawer, it doesn't have its own internal sliding drawer." },
   { q: "Which pick has the widest interior for a large jewelry collection?", a: "The SentrySafe Shelf Safe, at 16.8 x 11.6 x 6.9 inches, though it's a general shelf, not a dedicated drawer system." },
-  { q: "Why does this list have 7 products instead of 8?", a: "One original candidate ASIN was not accessible through the Amazon catalog API at research time, so we excluded it rather than fabricating its data." },
+  { q: "Why does this list have 7 products instead of 8?", a: "One original candidate ASIN was not accessible through the Amazon catalog API at research time, so we excluded it rather than fabricating its data." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-jewelry-safes", title: "Best Small Jewelry Safes (2026)" },
   { href: "/guide/best-biometric-small-safes", title: "Best Biometric Small Safes (2026)" },
-  { href: "/guide/best-desktop-safes", title: "Best Desktop Safes (2026)" },
+  { href: "/guide/best-desktop-safes", title: "Best Desktop Safes (2026)" }
 ];

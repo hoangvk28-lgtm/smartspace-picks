@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "Lenovo mini PC mount";
 export const introParagraphs = [
   "The current Amazon product pool for this search is universal VESA brackets rather than Lenovo-branded accessories. Lenovo does publish its own official VESA Mount and VESA Mount II accessories for the ThinkCentre Tiny lineup, which is worth checking directly for guaranteed fit.",
-  "We compared the third-party options here on general VESA compatibility and review evidence, since Lenovo-specific fit data isn't available from these particular listings.",
+  "We compared the third-party options here on general VESA compatibility and review evidence, since Lenovo-specific fit data isn't available from these particular listings."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41nWvL8pqlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KY3LHVG?tag=deskfinds0d-20",
     description: "The largest review base in this comparison, a general-purpose VESA bracket that should fit compact ThinkCentre Tiny models within its stated depth range.\n\nIt earns the top spot in this comparison over Monzlteck Adjustable Small Device Wall Mount Or VESA Mount Behind the Monitor for one main reason. Largest, most proven review base in this comparison. On price, it's actually priced above Monzlteck Adjustable Small Device Wall Mount Or VESA Mount Behind the Monitor, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Largest, most proven review base in this comparison. On the other side, Not marketed specifically for Lenovo, verify depth compatibility with your model. That's the main tradeoff to weigh against everything above.",
-    specs: ["Fits 0.65-2.55 in device depth","75x75 and 100x100mm VESA","702 reviews at 4.4 stars"],
+    specs: ["Fits 0.65-2.55 in device depth","75x75 and 100x100mm VESA"],
     pros: ["Largest, most proven review base in this comparison"],
     cons: ["Not marketed specifically for Lenovo, verify depth compatibility with your model"],
     bestFor: "Buyers who want the most proven general bracket and will verify Lenovo-model fit themselves.",
@@ -47,7 +47,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31l-EL12D-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJ7BK9CM?tag=deskfinds0d-20",
     description: "The highest rating in this comparison, flexible wall or VESA mounting that should accommodate compact ThinkCentre Tiny devices, at a lower price than the top pick.\n\nOne spot below HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm in this ranking, it's priced lower than HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm. The compromise here is straightforward: Not marketed specifically for Lenovo devices. What you gain in return: Highest rating in this comparison. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Flexible wall or VESA mounting. On the other side, Not marketed specifically for Lenovo devices. That's the main tradeoff to weigh against everything above.",
-    specs: ["Wall mount or VESA behind-monitor mount","190 reviews at 4.6 stars"],
+    specs: ["Wall mount or VESA behind-monitor mount"],
     pros: ["Highest rating in this comparison","Flexible wall or VESA mounting"],
     cons: ["Not marketed specifically for Lenovo devices"],
     bestFor: "Buyers who want the highest-rated general bracket at a lower price.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DB5RQH7V?tag=deskfinds0d-20",
     description: "Supports under-desk, wall, and monitor-arm mounting, versatile for different Lenovo workstation setups, at a lower price with a smaller review base.\n\nRanked just behind Yimaut Adjustable Mini PC Vesa Mount Bracket Behind Monitor, it's priced lower than Yimaut Adjustable Mini PC Vesa Mount Bracket Behind Monitor. The real tradeoff against that pick: Smaller review base than the top picks. In exchange, it offers this instead: Multiple mounting locations for different desk setups. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Multiple mounting locations for different desk setups. On the other side, Smaller review base than the top picks. That's the main tradeoff to weigh against everything above.",
-    specs: ["Under-desk, wall, or monitor-arm mount","40 reviews at 4.4 stars"],
+    specs: ["Under-desk, wall, or monitor-arm mount"],
     pros: ["Multiple mounting locations for different desk setups"],
     cons: ["Smaller review base than the top picks"],
     bestFor: "Buyers who want mounting-location flexibility for a Lenovo workstation setup.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Honest disclosure: universal brackets, not Lenovo-exclusive", description: "We verified none of these are official Lenovo accessories with a confirmed ThinkCentre Tiny generation fit matrix, and flagged Lenovo's own official VESA Mount options as a cross-reference." },
   { title: "Compatibility claims checked, not assumed", description: "We noted where a listing names specific brands versus offering only general VESA compatibility." },
   { title: "Device depth/width range against typical ThinkCentre Tiny dimensions", description: "We compared each bracket's stated compatible range, recommending buyers verify their specific Lenovo model's exact dimensions." },
-  { title: "Review volume as general reliability evidence", description: "Since Lenovo-specific fit data isn't independently verifiable from these listings, we weighted general review history for overall build quality." },
+  { title: "Review volume as general reliability evidence", description: "Since Lenovo-specific fit data isn't independently verifiable from these listings, we weighted general review history for overall build quality." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -230,13 +230,15 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "Does Lenovo make its own official mounting bracket?", a: "Yes, Lenovo's VESA Mount and VESA Mount II accessories are documented directly for the ThinkCentre Tiny lineup, offering guaranteed fit." },
   { q: "Are the products here Lenovo-branded?", a: "No, these are third-party universal VESA brackets, not official Lenovo accessories." },
-  { q: "Which has the most reviews?", a: "The HumanCentric Thin Client Mount Bracket, with 702 reviews at 4.4 stars." },
-  { q: "What's the highest-rated third-party option?", a: "The Monzlteck Adjustable Small Device Wall Mount, at 4.6 stars." },
+  
+  
   { q: "Should I use a third-party bracket or Lenovo's official accessory?", a: "Lenovo's official accessory guarantees fit for the ThinkCentre Tiny lineup; third-party brackets may cost less but require verifying your specific model's dimensions." },
+  { q: "How snug should a ThinkCentre Tiny sit in a third-party bracket?", a: "The case should seat firmly within the bracket's stated width or depth range with no wobble. Compare your unit's measurements with the HumanCentric (0.65 to 2.55 inches of depth) and StarTech (0.7 to 2.8 inches of depth) ranges. The Yimaut listing does not name Lenovo, so measure carefully before choosing it." },
+  { q: "Which bracket suits moving a Lenovo mini PC between desks?", a: "Pick a bracket that supports several mounting positions so you are not tied to one setup. The Adjustable Thin Client bracket lists under-desk, wall and monitor-arm mounting, and the Monzlteck mount offers wall or behind-monitor placement. That flexibility makes a later desk change less of a project." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pc-mounts-for-dell-computers", title: "Best Mini PC Mounts for Dell Computers (2026)" },
   { href: "/guide/best-mini-pc-mounts-for-hp-computers", title: "Best Mini PC Mounts for HP Computers (2026)" },
-  { href: "/guide/best-mini-pc-desk-mounts", title: "Best Mini PC Desk Mounts (2026)" },
+  { href: "/guide/best-mini-pc-desk-mounts", title: "Best Mini PC Desk Mounts (2026)" }
 ];

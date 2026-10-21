@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Genuine atomic time accuracy plus climate monitoring", "Geevon Digital Atomic Alarm Clock with 2 USB Ports"],
         ["A genuinely quiet analog wood clock", "Maxspace Wooden Table Clock, 8in Silent Non-Ticking"],
-        ["An always-visible display for a room without outlets", "Srubambi Battery Operated Small Alarm Clock"],
+        ["An always-visible display for a room without outlets", "Srubambi Battery Operated Small Alarm Clock"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $20", "Srubambi Battery Operated ($18.99) or DreamSky Wooden ($19.99)"],
-        ["$26-$32", "Geevon Atomic Clock ($25.99) or Maxspace Wooden Table Clock ($31.99)"],
+        ["Under $20", "Srubambi Battery Operated (under $20) or DreamSky Wooden (under $20)"],
+        ["$26-$32", "Geevon Atomic Clock (under $30) or Maxspace Wooden Table Clock (under $35)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Analog Wood vs Digital Display",
     cards: [
       { label: "Analog Wood (Maxspace)", text: "Silent non-ticking movement and genuine wood construction, a classic look without digital features like USB charging or atomic sync." },
-      { label: "Digital Display (Geevon, Srubambi, DreamSky)", text: "Offers modern conveniences like atomic sync, USB charging, or always-on visibility, at the cost of a more electronic aesthetic." },
+      { label: "Digital Display (Geevon, Srubambi, DreamSky)", text: "Offers modern conveniences like atomic sync, USB charging, or always-on visibility, at the cost of a more electronic aesthetic." }
     ],
     note: "If you prefer a quiet, classic look without digital features, the Maxspace analog pick fits that need. For modern conveniences like atomic accuracy or USB charging, a digital pick serves better.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your room setup", "Recommended pick"],
       rows: [
         ["No convenient outlet, need always-visible display", "Srubambi Battery Operated Small Alarm Clock"],
-        ["Outlet available, want full digital features", "Geevon Atomic Clock or DreamSky Wooden"],
+        ["Outlet available, want full digital features", "Geevon Atomic Clock or DreamSky Wooden"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Monitoring Indoor Air Quality Specifically",
     cards: [
       { label: "Look for", text: "A clock displaying both temperature and humidity readings, since humidity specifically affects comfort and potential mold risk in ways temperature alone doesn't capture." },
-      { label: "In this comparison", text: "The Geevon Digital Atomic Alarm Clock is the only pick here displaying both indoor temperature and humidity alongside timekeeping." },
+      { label: "In this comparison", text: "The Geevon Digital Atomic Alarm Clock is the only pick here displaying both indoor temperature and humidity alongside timekeeping." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want genuine atomic time accuracy plus comprehensive climate monitoring, where the Geevon pick delivers both features at the top of this comparison." },
-      { label: "Save if", text: "A wood-and-digital hybrid design covers your needs, where the DreamSky pick delivers this combination at the lowest price here." },
+      { label: "Save if", text: "A wood-and-digital hybrid design covers your needs, where the DreamSky pick delivers this combination at the lowest price here." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Maximum charging wattage and resolution", "ATEN US3311 2-Port USB-C KVM Switch"],
         ["Fast switching with confirmed Apple Silicon support", "ATEN US3310 2-Port 4K HDMI USB-C KVM Dock"],
-        ["Triple-monitor output across four computers", "HDMI Displayport KVM Switch, 3 Monitor 4 Computer"],
+        ["Triple-monitor output across four computers", "HDMI Displayport KVM Switch, 3 Monitor 4 Computer"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $113", "HDMI Displayport 3-Monitor 4-Computer switch ($112.99)"],
-        ["$140-$150", "Hybrid 4-Port EDID switch ($139.99), ATEN US3311 ($149.99), or ATEN US3310 ($149.99)"],
+        ["Under $113", "HDMI Displayport 3-Monitor 4-Computer switch (under $120)"],
+        ["$140-$150", "Hybrid 4-Port EDID switch (under $140), ATEN US3311 (under $150), or ATEN US3310 (under $150)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "ATEN US3311 vs US3310",
     cards: [
       { label: "US3311 (Higher Resolution)", text: "100W charging and up to 144Hz refresh rate for buyers who prioritize the sharpest, smoothest display over the fastest possible switch time." },
-      { label: "US3310 (Faster Switching)", text: "85W charging with a stated 2-second lag-free switch time and confirmed Apple M1/M2 compatibility, better for buyers switching frequently between mixed devices." },
+      { label: "US3310 (Faster Switching)", text: "85W charging with a stated 2-second lag-free switch time and confirmed Apple M1/M2 compatibility, better for buyers switching frequently between mixed devices." }
     ],
     note: "If you switch between computers dozens of times a day, the US3310's fast switching matters more. If display quality is your priority, the US3311's higher resolution ceiling wins.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your monitor setup", "Recommended pick"],
       rows: [
         ["Single monitor, docking-focused", "ATEN US3311 or ATEN US3310"],
-        ["Triple monitors across multiple computers", "HDMI Displayport KVM Switch, 3 Monitor 4 Computer"],
+        ["Triple monitors across multiple computers", "HDMI Displayport KVM Switch, 3 Monitor 4 Computer"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Mixed Laptop-and-Desktop Office Specifically",
     cards: [
       { label: "Look for", text: "A hybrid-input switch accepting different connector combinations simultaneously, since a mixed office often pairs a USB-C laptop with desktops using varied ports." },
-      { label: "In this comparison", text: "The Hybrid 4-Port KVM Switch with EDID Emulator specifically accepts USB-C, DisplayPort, and HDMI inputs together across four different computers." },
+      { label: "In this comparison", text: "The Hybrid 4-Port KVM Switch with EDID Emulator specifically accepts USB-C, DisplayPort, and HDMI inputs together across four different computers." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want maximum charging wattage and the highest resolution ceiling in a compact docking switch, where the ATEN US3311 leads this comparison." },
-      { label: "Save if", text: "Triple-monitor, multi-computer scaling matters more than charging or docking features, where the HDMI Displayport 3-Monitor pick costs less while still delivering high resolution." },
+      { label: "Save if", text: "Triple-monitor, multi-computer scaling matters more than charging or docking features, where the HDMI Displayport 3-Monitor pick costs less while still delivering high resolution." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

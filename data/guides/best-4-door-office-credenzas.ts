@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $149.99",
+          "Under $150",
           "Buffet Cabinet"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "Sideboard Buffet Cabinet"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "60\" Buffet Cabinet with Storage"
         ],
         [
-          "Around $195.29",
+          "Under $200",
           "62.28'' Sideboard Buffet Cabinet with Storage"
         ],
         [
-          "Around $204.82",
+          "Under $250",
           "SAVOR LIFE 60-Inch Sideboard Buffet Cabinet with Glass Doors"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "63'' Sideboard Buffet Cabinet with 4 Sliding Doors"
         ],
         [
-          "Around $279.99",
+          "Under $300",
           "67\" Fluted Walnut Buffet Cabinet with Storage"
         ],
         [
-          "Around $287.99",
+          "Under $300",
           "ModernMate 60\" File Cabinet with Drawers & Door"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", "a": "63'' Sideboard Buffet Cabinet with 4 Sliding Doors is aimed at buyers prioritizing 63in wide, tsca-certified p2-grade wood" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", "a": "63'' Sideboard Buffet Cabinet with 4 Sliding Doors is aimed at buyers prioritizing 63in wide, tsca-certified p2-grade wood" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas-with-doors","title":"Best Office Credenzas With Doors in 2026"},{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"}];

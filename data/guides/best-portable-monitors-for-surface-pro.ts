@@ -5,7 +5,7 @@ export const metaDescription = "7 portable monitors we evaluated for Surface Pro
 export const mainKeyword = "portable monitor for Surface Pro";
 export const introParagraphs = [
   "Surface Pro's proprietary Surface Connect port carries power only, never video, only the USB-C port (or Mini DisplayPort on some models) can output display signal. Buyers assuming the charging port doubles as a video port are a common source of \"monitor not detected\" confusion, one this guide won't repeat.",
-  "The 7 picks below also account for Surface Pro's built-in kickstand, which needs 4-6 inches of desk depth behind the device, adding a monitor's own stand behind that can exceed a small desk's usable depth. We flag which picks keep a low stand footprint.",
+  "The 7 picks below also account for Surface Pro's built-in kickstand, which needs 4-6 inches of desk depth behind the device, adding a monitor's own stand behind that can exceed a small desk's usable depth. We flag which picks keep a low stand footprint."
 ];
 export const lastUpdated = "2026-07-28";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall for Surface Pro",
     name: "cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB",
     price: "$109.99",
-    rating: "4.8 stars from 6,301 Amazon ratings",
-    reviews: "6,301 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31y1n0H2EtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZLY26FW?tag=deskfinds0d-20",
     description: "This connects to Surface Pro's USB-C port (never the Surface Connect port, which carries no video signal), and its real VESA mounting holes let you skip stacking a second stand behind Surface Pro's own kickstand entirely by mounting it on an arm instead. That sidesteps the desk-depth conflict a fold-out cover-stand would create.\n\nIt earns the top spot in this comparison over VisionOwl Portable Monitor for Laptop for one main reason. VESA mount avoids stacking a stand behind Surface Pro's kickstand. On price, it comes in below VisionOwl Portable Monitor for Laptop, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Full-size HDMI included. On the other side, Cover-stand version, if used instead of VESA, adds desk depth. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Large Screen, VESA Mountable",
     name: "VisionOwl Portable Monitor for Laptop, 18.5 Inch FHD 100Hz",
     price: "$169.99",
-    rating: "4.8 stars from 2,044 Amazon ratings",
-    reviews: "2,044 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51+nqT75sRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CD3WJXWH?tag=deskfinds0d-20",
     description: "At 18.5 inches, this gives Surface Pro users significantly more screen real estate for split-screen multitasking than the 15.6-inch picks, and its 75x75mm VESA holes again let you skip the stand-stacking problem by mounting on an arm. Connects via USB-C, leaving Surface Connect free for charging.\n\nOne spot below cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB in this ranking, it costs more than cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB. The compromise here is straightforward: Heavier and bulkier than the 15.6-inch picks. What you gain in return: Largest screen in this guide. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: VESA mountable to avoid stand-stacking. On the other side, 1080p at 18.5 inches looks softer than smaller high-density panels. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Sharp 2.5K Panel",
     name: "cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C, 120Hz HDMI",
     price: "$164.98",
-    rating: "4.8 stars from 6,301 Amazon ratings",
-    reviews: "6,301 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41taGyfYchL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR8D6BQ3?tag=deskfinds0d-20",
     description: "A genuine step up in sharpness over the 1080p picks here, with a metal chassis and dual VESA holes for a clean arm-mounted setup that avoids competing with Surface Pro's own kickstand for desk depth. Note that Surface Pro X and Surface Pro 9 5G run Windows on ARM, and some portable monitor touch/driver utilities have historically had incomplete ARM64 support, this panel doesn't require any driver utility, so it's unaffected either way.\n\nSitting just under VisionOwl Portable Monitor for Laptop, it's priced lower than VisionOwl Portable Monitor for Laptop. Here's the honest tradeoff: Priciest pick here. And here's what it gets you instead: Sharpest panel in this guide. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: No driver dependency, so ARM Surface models aren't a concern. On the other side, Larger than the 15.6-inch picks. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Cheapest, Most Reviewed",
     name: "KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover",
     price: "$62.99",
-    rating: "4.4 stars from 13,090 Amazon ratings",
-    reviews: "13,090 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51T7K-COzIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B088D8JG3L?tag=deskfinds0d-20",
     description: "The cheapest and most reviewed pick here, connecting over USB-C to Surface Pro's one full-function port while Surface Connect handles power. It has no VESA holes, only a fold-out cover-stand, which stacked behind Surface Pro's own kickstand can push past a small desk's usable depth, measure your desk before assuming it fits.\n\nRanked just behind cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C, it's priced lower than cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C. The real tradeoff against that pick: No VESA mount, cover-stand only. In exchange, it offers this instead: Cheapest pick in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your source device.\n\nWorth knowing before you decide: Largest review base. On the other side, Mini-HDMI only. That's the main tradeoff to weigh against everything above.",
@@ -89,8 +89,8 @@ export const products: GuideProduct[] = [
     badge: "Best Mid-Range 2.5K Pick",
     name: "Upperizon Portable Monitor 16 inch 2K QHD 106% sRGB, 144Hz USB-C, 120Hz HDMI",
     price: "$149.99",
-    rating: "4.7 stars from 1,156 Amazon ratings",
-    reviews: "1,156 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41r1U1sCYNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT44HPT3?tag=deskfinds0d-20",
     description: "A sharper alternative to the cocopar 16-inch pick at a lower price, with the same VESA-mount advantage for avoiding a Surface Pro desk-depth conflict. Includes a full accessory kit and a 30W PD adapter for standalone charging if you'd rather not rely on Surface Connect at your desk.\n\nOne spot below KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover in this ranking, it costs more than KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover. The compromise here is straightforward: Smaller review base than the top picks. What you gain in return: Sharp 2.5K panel at a mid-range price. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: VESA mountable. On the other side, Not the cheapest option. That's the main tradeoff to weigh against everything above.",
@@ -105,8 +105,8 @@ export const products: GuideProduct[] = [
     badge: "Best Color Accuracy",
     name: "VisionOwl Portable Monitor 15.6 Inch 4K UHD 145% sRGB",
     price: "$229.99",
-    rating: "4.8 stars from 2,044 Amazon ratings",
-    reviews: "2,044 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Vtb2coigL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVMC4BYJ?tag=deskfinds0d-20",
     description: "The most color-capable panel in this guide, useful if you use Surface Pro with a stylus for design or photo work and want an accurate secondary display. VESA mountable, sidestepping the kickstand-depth conflict other cover-stand picks create.\n\nSitting just under Upperizon Portable Monitor 16 inch 2K QHD 106% sRGB, it costs more than Upperizon Portable Monitor 16 inch 2K QHD 106% sRGB. Here's the honest tradeoff: Highest price here. And here's what it gets you instead: Highest color gamut in this guide. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: 4K resolution. On the other side, Overkill for basic document/browsing use. That's the main tradeoff to weigh against everything above.",
@@ -121,8 +121,8 @@ export const products: GuideProduct[] = [
     badge: "Best Large 2K Screen",
     name: "cocopar Portable Monitor 18.5 Inch 2K QHD 120Hz 120% sRGB",
     price: "$209.99",
-    rating: "4.8 stars from 6,301 Amazon ratings",
-    reviews: "6,301 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51OXc4g9NHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GGHPTLX9?tag=deskfinds0d-20",
     description: "The largest and sharpest combination in this guide, a genuine 2K panel at 18.5 inches rather than 1080p stretched over the same size. VESA mountable, again avoiding the stand-stacking desk-depth issue.\n\nRanked just behind VisionOwl Portable Monitor 15.6 Inch 4K UHD 145% sRGB, it's priced lower than VisionOwl Portable Monitor 15.6 Inch 4K UHD 145% sRGB. The real tradeoff against that pick: Heaviest pick in this guide. In exchange, it offers this instead: Largest, sharpest combination here. That's the swap that decides whether this pick or the one above it is the better fit for your source device.\n\nWorth knowing before you decide: VESA mountable. On the other side, Overkill if you mainly need a basic second screen. That's the main tradeoff to weigh against everything above.",
@@ -137,7 +137,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Surface Connect vs. USB-C video capability", description: "Confirmed each pick connects via Surface Pro's USB-C port, since the proprietary Surface Connect port carries power only, never video signal." },
   { title: "Desk-depth conflict with Surface Pro's own kickstand", description: "Distinguished VESA-mountable picks (which avoid stacking a second stand) from cover-stand-only picks, which add real desk depth behind Surface Pro's built-in kickstand." },
-  { title: "Single USB-C port budget", description: "Noted that most Surface Pro models have only one full-function USB-C port, so connecting a monitor over USB-C means relying on Surface Connect for simultaneous charging." },
+  { title: "Single USB-C port budget", description: "Noted that most Surface Pro models have only one full-function USB-C port, so connecting a monitor over USB-C means relying on Surface Connect for simultaneous charging." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -274,11 +274,11 @@ export const faq: FaqItem[] = [
   { q: "Can I charge my Surface Pro while using a portable monitor?", a: "Yes, connect the monitor's video cable to the USB-C port and use Surface Connect for charging simultaneously, that's the standard setup since Surface Connect is dedicated to power." },
   { q: "Do I need special drivers for a portable monitor on Surface Pro X (ARM)?", a: "Not for any of the 7 picks in this guide, none require DisplayLink or touch driver utilities. If you're considering a touchscreen monitor elsewhere, verify ARM64 driver support first." },
   { q: "Which pick in this comparison is the best overall choice?", a: "Surface Pro owners who want to VESA-mount rather than stack stands on a small desk" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-focused Surface Pro owners with enough desk depth for two stacked stands At $62.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-focused Surface Pro owners with enough desk depth for two stacked stands At under $70, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-monitors-for-macbook-pro", title: "Best Portable Monitors for MacBook Pro (2026)" },
   { href: "/guide/best-hdmi-portable-monitors", title: "Best HDMI Portable Monitors (2026)" },
-  { href: "/guide/usb-c-hub-vs-docking-station", title: "USB-C Hub vs Docking Station (2026)" },
+  { href: "/guide/usb-c-hub-vs-docking-station", title: "USB-C Hub vs Docking Station (2026)" }
 ];

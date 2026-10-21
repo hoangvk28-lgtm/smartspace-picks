@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $59.77",
+          "Under $60",
           "ZeroKor Portable Power Station"
         ],
         [
-          "Around $109.00",
+          "Under $110",
           "ALLPOWERS VOLIX P300 Portable Power Station"
         ],
         [
-          "Around $119.98",
+          "Under $120",
           "ZeroKor Portable Power Station with 40W Solar Panel"
         ],
         [
-          "Around $129.98",
+          "Under $130",
           "ZeroKor Portable Power Station 300W"
         ],
         [
-          "Around $189.96",
+          "Under $190",
           "ZeroKor 300W Portable Power Station with 60W Solar Panel Included"
         ],
         [
-          "Around $199.98",
+          "Under $200",
           "ZeroKor Portable Solar Generator Kit"
         ],
         [
-          "Around $259.00",
+          "Under $300",
           "Jackery Explorer 300 Portable Power Station"
         ],
         [
-          "Around $499.00",
+          "Under $500",
           "Jackery Explorer 1000 v2 Portable Power Station"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "ZeroKor 300W Portable Power Station with 60W Solar Panel Included is aimed at buyers prioritizing includes 60w solar panel, 20.5% efficiency." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "ZeroKor 300W Portable Power Station with 60W Solar Panel Included is aimed at buyers prioritizing includes 60w solar panel, 20.5% efficiency." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

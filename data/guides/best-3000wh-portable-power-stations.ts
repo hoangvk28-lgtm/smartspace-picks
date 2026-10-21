@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $699.98",
+          "Under $700",
           "AFERIY P280 Portable Power Station"
         ],
         [
-          "Around $799.00",
+          "Under $800",
           "OSCAL PowerMax 3600 PE Portable Power Station"
         ],
         [
-          "Around $899.00",
+          "Under $900",
           "PECRON F3000LFP Portable Power Station"
         ],
         [
-          "Around $999.00",
+          "Under $1,000",
           "PECRON E3600LFP Portable Power Station"
         ],
         [
-          "Around $1,169.00",
+          "Under $1,200",
           "AFERIY 3840Wh Portable Power Station"
         ],
         [
-          "Around $1,199.00",
+          "Under $1,200",
           "ABOK Ark3600 Portable Power Station"
         ],
         [
-          "Around $1,199.00",
+          "Under $1,200",
           "OSCAL PowerMax 3600 PE Portable Power Station with 400W Solar Panel"
         ],
         [
-          "Around $1,299.00",
+          "Under $1,300",
           "PECRON E3800LFP Portable Power Station"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "LiFePO4 (LFP) cells are generally considered more thermally stable than standard lithium-ion or lithium-polymer cells, with a lower risk of thermal runaway, and most current portable power stations have shifted to LFP for this reason. Still, verify UL or UL2743 safety certification directly rather than assuming chemistry alone guarantees safety."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "ABOK Ark3600 Portable Power Station is aimed at buyers prioritizing 3840wh (expandable to 11,520wh), 3600w." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "ABOK Ark3600 Portable Power Station is aimed at buyers prioritizing 3840wh (expandable to 11,520wh), 3600w." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-1000wh-portable-power-stations","title":"Best 1000Wh Portable Power Stations in 2026"},{"href":"/guide/best-500wh-portable-power-stations","title":"Best 500Wh Portable Power Stations in 2026"},{"href":"/guide/best-2000wh-portable-power-stations","title":"Best 2000Wh Portable Power Stations in 2026"}];

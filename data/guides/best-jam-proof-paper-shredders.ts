@@ -5,7 +5,7 @@ export const metaDescription = "8 shredders with genuine anti-jam auto-reverse s
 export const mainKeyword = "jam-proof paper shredder";
 export const introParagraphs = [
   "\"Jam-proof\" almost never means mechanically impossible to jam, it typically means a sensor detects excess sheet thickness and automatically reverses or ejects before a full jam occurs, still requiring some manual intervention in edge cases. We verify which picks have an explicit auto-reverse or anti-jam system disclosed in their own listing.",
-  "Also worth knowing: a shredder's rated sheet capacity and its real jam threshold are different numbers. A shredder rated for 12 sheets may begin jamming closer to 9-10 real-world sheets of slightly heavier paper, the anti-jam sensor is often compensating for an inflated capacity rating rather than truly extending capability.",
+  "Also worth knowing: a shredder's rated sheet capacity and its real jam threshold are different numbers. A shredder rated for 12 sheets may begin jamming closer to 9-10 real-world sheets of slightly heavier paper, the anti-jam sensor is often compensating for an inflated capacity rating rather than truly extending capability."
 ];
 export const lastUpdated = "2026-07-28";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Patented Anti-Jam Cutter",
     name: "Woolsche Paper Shredder, 10-Sheet Cross Cut with 3.43-Gallon Basket",
     price: "$42.49",
-    rating: "4.2 stars from 5,520 Amazon ratings",
-    reviews: "5,520 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41zfmPVp5NL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FFHG8TZ?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Auto-Feed with Anti-Jam",
     name: "Bonsaii 120-Sheet Autofeed Micro-Cut 30-Min Run Heavy Duty Paper Shredder",
     price: "$179.99",
-    rating: "4.3 stars from 1,048 Amazon ratings",
-    reviews: "1,048 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31lBbbWrCsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSJ3K6T3?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Auto-Reverse Auto-Feed",
     name: "Bonsaii 100-Sheet Auto Feed Micro-Cut Paper Shredder Heavy Duty",
     price: "$126.99",
-    rating: "4.3 stars from 1,629 Amazon ratings",
-    reviews: "1,629 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31VvTJMBXPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DG2MGVMV?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Proven Track Record",
     name: "Aurora AU1210MA Professional Grade High Security 12-Sheet Micro-Cut Shredder",
     price: "$135.78",
-    rating: "4.7 stars from 9,126 Amazon ratings",
-    reviews: "9,126 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/413GY12YKjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CX4DZ4Z?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity Anti-Jam",
     name: "Bonsaii 18-Sheet Cross-Cut 60-Min Run Heavy Duty Paper Shredder",
     price: "$179.99",
-    rating: "4.6 stars from 10,748 Amazon ratings",
-    reviews: "10,748 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41FCXr1akDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00IOFD08C?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best Named Jam-Proof System",
     name: "Bonsaii 12-Sheet Cross Cut Heavy Duty Paper Shredder for Home Office",
     price: "$79.99",
-    rating: "4.5 stars from 1,685 Amazon ratings",
-    reviews: "1,685 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/310qS+3q87L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5XPJ524?tag=deskfinds0d-20",
     description:
@@ -127,8 +127,8 @@ export const products: GuideProduct[] = [
     badge: "Best Smart Sensor Disclosure",
     name: "BONSEN 14-Sheet Cross Cut Heavy Duty Paper Shredder for Home Office",
     price: "$84.99",
-    rating: "4.1 stars from 1,061 Amazon ratings",
-    reviews: "1,061 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LSE9gHSWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DTKBX3D9?tag=deskfinds0d-20",
     description:
@@ -144,8 +144,8 @@ export const products: GuideProduct[] = [
     badge: "Budget Anti-Jam Pick",
     name: "Bonsaii 12-Sheet Cross Cut Paper Shredder, 5.5 Gal Home Office Heavy Duty",
     price: "$55.24",
-    rating: "4.5 stars from 8,974 Amazon ratings",
-    reviews: "8,974 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31H0gGU7jHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09N991KVT?tag=deskfinds0d-20",
     description:
@@ -154,14 +154,14 @@ export const products: GuideProduct[] = [
     pros: ["Lowest price in this guide", "Confirmed auto start/stop/reverse anti-jam function", "Compact footprint", "Strong rating and review base"],
     cons: ["Shortest continuous run time in this guide", "12-sheet rated capacity is an upper bound, not a real-world guarantee", "Basic anti-jam system without additional sensor detail"],
     bestFor: "Budget-focused buyers who want confirmed basic anti-jam functionality",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Clarifying 'jam-proof' as sensing-and-reverse, not mechanically impossible", description: "Verified whether each listing's anti-jam claim is an explicit named system (auto-reverse, sensor-based) rather than assuming any 'jam-proof' marketing means zero jams are possible." },
   { title: "Real-world jam threshold vs. rated sheet capacity", description: "Treated each pick's rated sheet capacity as an upper bound rather than a guarantee, since real-world jam resistance with slightly heavier paper is typically lower than the advertised number." },
-  { title: "Staple/clip-specific jam resistance versus generic paper jam resistance", description: "Noted that a shredder's blade set rated for staples and clips is a separate claim from generic paper-jam resistance, both matter independently for real-world reliability." },
+  { title: "Staple/clip-specific jam resistance versus generic paper jam resistance", description: "Noted that a shredder's blade set rated for staples and clips is a separate claim from generic paper-jam resistance, both matter independently for real-world reliability." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -294,11 +294,11 @@ export const faq: FaqItem[] = [
   { q: "Are staples and paper clips handled the same as generic paper jam resistance?", a: "No, they're separate claims. A shredder can be excellent at avoiding paper-stack jams while still jamming on staples or clips if the blade set isn't specifically rated for fasteners. Check the listing explicitly." },
   { q: "Which pick in this guide has the most detailed anti-jam disclosure?", a: "The BONSEN 14-sheet pick (rank 7) explicitly names a 'Smart Jam-Proof System' with real-time indicator lights for overheat and overload status, giving more visibility than a silent auto-reverse alone." },
   { q: "Does jam-proof technology mean I can exceed the stated sheet capacity?", a: "No, anti-jam features reduce jams within the rated capacity by sensing overload before it happens, they don't expand how many sheets the shredder can actually process at once." },
-  { q: "What should I do if my jam-proof shredder still jams?", a: "Stop feeding paper, let the auto-reverse clear what it can, then manually remove any remaining stuck sheets after powering off, forcing more paper through an active jam risks motor damage even on an anti-jam model." },
+  { q: "What should I do if my jam-proof shredder still jams?", a: "Stop feeding paper, let the auto-reverse clear what it can, then manually remove any remaining stuck sheets after powering off, forcing more paper through an active jam risks motor damage even on an anti-jam model." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-paper-shredders-for-staples-and-paper-clips", title: "Best Paper Shredders for Staples and Paper Clips (2026)" },
   { href: "/guide/best-auto-feed-paper-shredders", title: "Best Auto-Feed Paper Shredders (2026)" },
-  { href: "/guide/best-long-run-paper-shredders", title: "Best Long-Run Paper Shredders (2026)" },
+  { href: "/guide/best-long-run-paper-shredders", title: "Best Long-Run Paper Shredders (2026)" }
 ];

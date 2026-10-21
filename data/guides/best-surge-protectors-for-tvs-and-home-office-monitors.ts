@@ -5,7 +5,7 @@ export const metaDescription = "5 surge protectors we evaluated for TVs and moni
 export const mainKeyword = "surge protector for TV";
 export const introParagraphs = [
   "Large OLED and high-refresh monitors and TVs draw more sustained wattage than older LCDs, and clamping voltage and response time matter more for panel electronics than for simpler devices, since modern panel driver electronics are more sensitive to voltage transients.",
-  "Multi-monitor home office setups share one surge protector's joule budget across several expensive panels simultaneously, meaning the effective per-panel protection depth is lower than the headline joule rating implies for a single-TV living room setup.",
+  "Multi-monitor home office setups share one surge protector's joule budget across several expensive panels simultaneously, meaning the effective per-panel protection depth is lower than the headline joule rating implies for a single-TV living room setup."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Surge Protector for TVs and Monitors Overall",
     name: "Surge Protector Power Strip 4800J, LeZone 10Ft Long Extension Cord Flat Plug, 12 Outlets 2 USB C 2 USB Ports, Wall Mountable, Desk Charging Station, Black",
     price: "$18.89",
-    rating: "4.7 stars from 2,666 Amazon ratings",
-    reviews: "2,666 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41eRaMa6u1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CN6V6M5F?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Joule Alternative",
     name: "Amazon Basics 12-Outlet Surge Protector Power Strip, 4000 Joules, 8ft Extension Cord, Rectangle, for Home, Office, Gaming Room, Black",
     price: "$19.83",
-    rating: "4.8 stars from 535 Amazon ratings",
-    reviews: "535 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/3148JhvbR6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1XH8NJP?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best UL-Listed TV and Monitor Pick",
     name: "Belkin 12-Outlet Surge Protector Power Strip w/ 12 AC Outlets & 8ft Flat Plug, UL-Listed Heavy-Duty Extension Cord for Home, Office, Travel, Computer, Laptop, Charger - 3,780 Joules of Protection",
     price: "$28.95",
-    rating: "4.8 stars from 3,281 Amazon ratings",
-    reviews: "3,281 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/415tn9cXV7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6S6TPRH?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Mid-Tier TV and Monitor Pick",
     name: "Power Strip, ALESTOR Surge Protector with 12 Outlets and 4 USB Ports, 6 Feet Extension Cord, 2700 Joules, ETL Listed, Black",
     price: "$21.98",
-    rating: "4.8 stars from 50,501 Amazon ratings",
-    reviews: "50,501 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41PsJYHqW7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08P5LRY37?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Single-Display Pick",
     name: "HANYCONY Surge Protector Power Strip, 1080J, 5 Ft Braided Extension Cord",
     price: "$11.99",
-    rating: "4.8 stars from 67,972 Amazon ratings",
-    reviews: "67,972 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41w1NL7yU4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B092J8LPWR?tag=deskfinds0d-20",
     description:
@@ -110,7 +110,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Modern panel electronics sensitivity considered beyond just joule rating", description: "Noted that clamping voltage and response time matter more for modern OLED or high-refresh panel electronics than for simpler devices, since these are more sensitive to voltage transients than older, simpler displays." },
   { title: "Multi-monitor shared-budget-per-panel calculation for home office setups", description: "Considered that multi-monitor home office setups share one surge protector's joule budget across several expensive panels simultaneously, meaning effective per-panel protection depth is lower than a single-TV living room framing implies." },
-  { title: "Connected-equipment warranty documentation requirements flagged upfront", description: "Noted that warranty claim documentation, proof of purchase for both the display and the surge protector, and specific installation requirements should be understood upfront given the substantial claim amounts involved with displays." },
+  { title: "Connected-equipment warranty documentation requirements flagged upfront", description: "Noted that warranty claim documentation, proof of purchase for both the display and the surge protector, and specific installation requirements should be understood upfront given the substantial claim amounts involved with displays." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -247,11 +247,11 @@ export const faq: FaqItem[] = [
   { q: "What do I need to file a warranty claim if my TV is damaged by a surge?", a: "Typically proof of purchase for both the TV and the surge protector, plus specific installation requirements, understand these documentation requirements upfront given how substantial a display claim amount can be." },
   { q: "Is a wall-mounted TV's surge protector harder to check for status?", a: "Often yes. Wall-mounted TVs or monitors commonly route the surge protector's cord and connections behind the wall or entertainment unit, inheriting the same indicator-light visibility concerns as other hidden-mounting scenarios." },
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers with a multi-monitor home office or TV setup wanting maximum joule headroom" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with a single TV or monitor setup At $11.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with a single TV or monitor setup At under $15, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-surge-protectors-for-computers", title: "Best Surge Protectors for Computers (2026)" },
   { href: "/guide/best-high-joule-surge-protectors-for-computers", title: "Best High-Joule Surge Protectors for Computers (2026)" },
-  { href: "/guide/best-wall-mounted-power-strips", title: "Best Wall-Mounted Power Strips (2026)" },
+  { href: "/guide/best-wall-mounted-power-strips", title: "Best Wall-Mounted Power Strips (2026)" }
 ];

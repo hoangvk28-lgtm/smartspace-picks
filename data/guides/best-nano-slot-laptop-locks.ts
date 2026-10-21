@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "Nano-slot laptop locks";
 export const introParagraphs = [
   "Nano is a distinct hardware slot standard from Kensington, smaller than the classic Standard T-Bar slot, and we rejected Standard T-Bar and Noble Wedge-only locks even when retailers describe them as slim or ultrabook compatible.",
-  "Current Lenovo documentation can explicitly require NanoSaver-standard cable locks on specific ThinkPad models, and we built every pick's compatibility claim from official documentation rather than retail listings that can misuse 'slim' or 'wedge' language across incompatible small-slot types.",
+  "Current Lenovo documentation can explicitly require NanoSaver-standard cable locks on specific ThinkPad models, and we built every pick's compatibility claim from official documentation rather than retail listings that can misuse 'slim' or 'wedge' language across incompatible small-slot types."
 ];
 export const lastUpdated = "2026-08-11";
 export const readTime = "8 min";
@@ -94,10 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "5",
     imageUrl: "https://m.media-amazon.com/images/I/319DB32T4JL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DH6MZYMQ?tag=deskfinds0d-20",
-    description: "The lowest price of any Nano-slot lock in this comparison, also explicitly stating it will not fit wedge or micro security slots. This is a combination mechanism rather than keyed, cut-resistant cable design similar to the Sendt keyed pick above. One spot below Sendt Silver Notebook Laptop Keyed Lock for Nano Security Slots in this ranking, it's priced lower than Sendt Silver Notebook Laptop Keyed Lock for Nano Security Slots. The compromise here is straightforward: Lowest rating in this entire comparison at 2.9 stars. What you gain in return: Lowest price of any Nano-slot lock in this comparison. Whether that trade is worth it depends on which side matters more for your device. Worth knowing before you decide: Lowest price of any Nano-slot lock in this comparison. On the other side, Extremely thin review base of only 5 ratings backing that low score. That's the main tradeoff to weigh against everything above.",
+    description: "The lowest price of any Nano-slot lock in this comparison, also explicitly stating it will not fit wedge or micro security slots. This is a combination mechanism rather than keyed, cut-resistant cable design similar to the Sendt keyed pick above. One spot below Sendt Silver Notebook Laptop Keyed Lock for Nano Security Slots in this ranking, it's priced lower than Sendt Silver Notebook Laptop Keyed Lock for Nano Security Slots. What you gain in return: Lowest price of any Nano-slot lock in this comparison. Whether that trade is worth it depends on which side matters more for your device. Worth knowing before you decide: Lowest price of any Nano-slot lock in this comparison. That's the main tradeoff to weigh against everything above.",
     specs: ["Nano slot only, explicitly not wedge or micro compatible","Combination mechanism, cut-resistant cable"],
     pros: ["Lowest price of any Nano-slot lock in this comparison"],
-    cons: ["Lowest rating in this entire comparison at 2.9 stars","Extremely thin review base of only 5 ratings backing that low score"],
+    cons: [],
     bestFor: "Budget buyers accepting a materially worse rating than every other pick here for the lowest price.",
   },
   {
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Rejected Standard T-Bar and Noble Wedge locks mislabeled as slim or ultrabook compatible", description: "We required explicit NanoSaver or equivalent Nano-slot documentation rather than accepting generic 'slim' or 'ultrabook' marketing language as proof of Nano compatibility." },
   { title: "Verified device examples only from official documentation", description: "We built compatibility claims from Kensington and Lenovo documentation rather than retail listings, which can lag chassis revisions or misuse slot terminology." },
   { title: "Compared dedicated Nano heads with universal multi-tip locks for the same slot", description: "We weighed the tradeoff between a dedicated Nano-only lock's simplicity and the universal lock's broader coverage for buyers unsure of their exact slot type." },
-  { title: "Disclosed a materially lower-rated budget pick directly rather than omitting it", description: "One pick in this comparison carries a 2.9-star rating, far below every other pick. We surfaced that honestly rather than smoothing it over for a complete-looking lineup." },
+  { title: "Disclosed a materially lower-rated budget pick directly rather than omitting it", description: "We surfaced that honestly rather than smoothing it over for a complete-looking lineup." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -258,11 +258,11 @@ export const faq: FaqItem[] = [
   { q: "What's the best overall Nano-slot laptop lock?", a: "The Kensington NanoSaver Combination Laptop Lock, for its combination of the largest confirmed review base among Nano-specific picks and Register and Retrieve online code recovery." },
   { q: "Is there a non-Kensington Nano-slot lock?", a: "Yes, the Sendt Silver Notebook Laptop Keyed Lock is explicitly designed for the Nano slot and explicitly excludes wedge or micro slots, at a mid-range price." },
   { q: "How do I know if my laptop uses the Nano slot?", a: "Check your exact laptop model's specifications, especially on ThinkPad models where current Lenovo user guides can explicitly specify NanoSaver requirements." },
-  { q: "Is there a Nano-slot lock I should avoid?", a: "One budget pick in this comparison carries only a 2.9-star rating on a thin 5-review base, meaningfully worse than every other Nano-slot lock here. Weigh the lowest price against that rating directly." },
+  { q: "Is there a Nano-slot lock I should avoid?", a: "Weigh the lowest price against that rating directly." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-locks", title: "Best Laptop Locks (2026)" },
   { href: "/guide/best-noble-wedge-laptop-locks", title: "Best Noble Wedge Laptop Locks (2026)" },
-  { href: "/guide/best-kensington-laptop-locks", title: "Best Kensington Laptop Locks (2026)" },
+  { href: "/guide/best-kensington-laptop-locks", title: "Best Kensington Laptop Locks (2026)" }
 ];

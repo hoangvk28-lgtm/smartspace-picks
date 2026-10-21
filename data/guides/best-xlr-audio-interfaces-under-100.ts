@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This interface's switchable Air mode adds extra clarity to acoustic instruments, a feature specifically inherited from Focusrite's higher-end professional interfaces. Its high-performance converters enable recording and mixing at up to 24-bit/192kHz, and Gain Halos provide visual feedback to help you avoid unwanted clipping or distortion during recording.\n\nCompared to the MAONO P2 pick below, this one includes a genuinely substantial software bundle featuring Pro Tools Intro+, Ableton Live Lite, Cubase LE, and the Hitmaker Expansion suite of effects and instruments. A 3-year warranty backs the hardware wherever you are in the world, longer than typical budget interface coverage.\n\nBest for buyers who want an established brand with substantial bundled software and a 3-year warranty.",
     specs: ["1 mic preamp, 24-bit/192kHz, Air mode", "Pro Tools Intro+, Ableton Live Lite, Cubase LE included", "3-year worldwide warranty"],
     pros: ["Substantial software bundle worth hundreds of dollars", "3-year warranty exceeds typical budget interface coverage", "Air mode adds professional clarity to acoustic recordings"],
-    cons: ["Single mic preamp limits simultaneous multi-mic recording", "Priced above this tier's stated ceiling at $119.99"],
+    cons: ["Single mic preamp limits simultaneous multi-mic recording", "Priced above this tier's stated ceiling at under $120"],
     bestFor: "buyers who want substantial bundled software with a 3-year warranty",
   },
   {
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Substantial bundled software with a 3-year warranty", "Focusrite Scarlett Solo 3rd Gen USB-C Audio Interface"],
         ["Dual XLR inputs with simultaneous multi-device recording", "MAONO P2 Hybrid USB Audio Interface, Dual XLR"],
         ["The most substantial bundled software value at the lowest price", "PreSonus AudioBox 96 25th Anniversary USB Audio Interface"],
-        ["A specifically stated dynamic range with clipping protection", "BlueAVS USB Audio Interface, 2-In/4-Out with Dual XLR/TRS"],
+        ["A specifically stated dynamic range with clipping protection", "BlueAVS USB Audio Interface, 2-In/4-Out with Dual XLR/TRS"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $95", "PreSonus ($94.99)"],
-        ["Under $97", "BlueAVS ($96.99)"],
-        ["Under $120", "Scarlett Solo or MAONO P2 (both $119.99)"],
+        ["Under $95", "PreSonus (under $100)"],
+        ["Under $97", "BlueAVS (under $100)"],
+        ["Under $120", "Scarlett Solo or MAONO P2 (both under $120)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Single Mic Preamp vs Dual XLR Inputs",
     cards: [
       { label: "Single mic preamp (Focusrite Scarlett Solo)", text: "Sufficient for solo podcasting, streaming, or single-vocalist recording, backed by strong bundled software." },
-      { label: "Dual XLR inputs (MAONO P2, PreSonus, BlueAVS)", text: "Supports recording two microphones simultaneously, better for interviews, co-hosted podcasts, or duo performances." },
+      { label: "Dual XLR inputs (MAONO P2, PreSonus, BlueAVS)", text: "Supports recording two microphones simultaneously, better for interviews, co-hosted podcasts, or duo performances." }
     ],
     note: "If you're recording solo content, the Scarlett Solo's single preamp with excellent bundled software is a strong value. If you regularly record with a second person or instrument, one of the dual-input picks is worth prioritizing.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Established, industry-standard software suite", "Focusrite Scarlett Solo (Pro Tools, Ableton, Cubase)"],
         ["Maximum stated dollar value bundle", "PreSonus AudioBox 96 ($1,000+ in software)"],
-        ["Newer proprietary creator-focused software", "MAONO P2 (ProStudio 2)"],
+        ["Newer proprietary creator-focused software", "MAONO P2 (ProStudio 2)"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Co-Hosted Podcast or Interview Format Specifically",
     cards: [
       { label: "Look for", text: "Dual XLR inputs with independent gain and mute controls for each channel, so both hosts or guests can be recorded and managed separately." },
-      { label: "In this comparison", text: "The MAONO P2 and BlueAVS picks both specifically offer dual XLR inputs with independent controls, directly supporting a two-person recording format." },
+      { label: "In this comparison", text: "The MAONO P2 and BlueAVS picks both specifically offer dual XLR inputs with independent controls, directly supporting a two-person recording format." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want an established brand with substantial bundled software and the longest warranty, where the Focusrite Scarlett Solo delivers that at the top of this tier." },
-      { label: "Save if", text: "You want the most substantial software value with solid Class-A preamps, where the PreSonus AudioBox 96 covers that for about $25 less." },
+      { label: "Save if", text: "You want the most substantial software value with solid Class-A preamps, where the PreSonus AudioBox 96 covers that for about $25 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -5,7 +5,7 @@ export const metaDescription = "5 budget USB-C monitors we evaluated, with a not
 export const mainKeyword = "budget usb-c monitor";
 export const introParagraphs = [
   "A lower price often correlates with lower power delivery wattage, verify this still meets your laptop's charging needs rather than assuming any budget USB-C monitor handles single-cable charging the same way a pricier model does.",
-  "Budget doesn't have to mean a compromised panel, several genuinely solid IPS panels with good color and viewing angles are available at accessible prices, worth checking panel type specifically rather than assuming price alone determines quality.",
+  "Budget doesn't have to mean a compromised panel, several genuinely solid IPS panels with good color and viewing angles are available at accessible prices, worth checking panel type specifically rather than assuming price alone determines quality."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget USB-C Monitor Overall",
     name: "ViewSonic VA2448-MHU 24 Inch 1080p Monitor, IPS Display with 120Hz for Everyday Productivity",
     price: "$99.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41ye7a0oJkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHZVYNQ2?tag=deskfinds0d-20",
@@ -42,7 +42,7 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Budget Pick",
     name: "Samsung 22\" (S30GD) Essential Monitor with IPS Panel and Tilt Only Stand",
     price: "$79.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41tqJnA68CL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK46JV64?tag=deskfinds0d-20",
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Curved Pick",
     name: "SANSUI Curved Monitor 27 inch 120Hz USB Type-C Computer Monitor",
     price: "$109.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/518zREWknqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DB8HLNPN?tag=deskfinds0d-20",
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Gaming-Capable Pick",
     name: "ViewSonic VX2416A 24 Inch 1080p Gaming Monitor, IPS Display with 120Hz and 1ms for Smooth Motion",
     price: "$109.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41jwWmarZtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZ3KWC3P?tag=deskfinds0d-20",
@@ -93,7 +93,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget QHD Pick",
     name: "Dell S2722DC Monitor - 27-inch WQHD (2560x1440) 75Hz Display, AMD FreeSync, Built in Speakers",
     price: "$229.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41DSJsc4qKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09BXXWT6K?tag=deskfinds0d-20",
@@ -103,7 +103,7 @@ export const products: GuideProduct[] = [
     pros: ["QHD resolution at a relatively accessible price for this resolution tier", "Built-in speakers avoid separate audio equipment", "AMD FreeSync for smoother casual gaming motion", "Reliable Dell build quality"],
     cons: ["Highest price in this guide, though still budget-friendly for QHD", "Standard 75Hz refresh rate, not high-refresh gaming tier", "Verify power delivery wattage against your laptop's charging requirement"],
     bestFor: "Budget-conscious buyers wanting to step up to QHD resolution without a full premium price",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -111,7 +111,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Power delivery wattage checked against typical budget-tier expectations", description: "Checked whether lower-priced monitors still document reasonable power delivery wattage, since a lower price often correlates with reduced charging capability." },
   { title: "Panel type verified rather than assuming budget means compromised quality", description: "Verified genuine IPS panel type on budget picks, since several solid options exist at accessible prices without a compromised panel." },
   { title: "Refresh rate and response time value assessed at budget price points", description: "Assessed whether budget monitors still offer genuine refresh rate or response time value rather than assuming these features are exclusive to premium models." },
-  { title: "Price-to-feature ratio weighed across the full budget tier", description: "Weighed price against genuine feature value across the budget tier, identifying picks that offer disproportionate value for their price." },
+  { title: "Price-to-feature ratio weighed across the full budget tier", description: "Weighed price against genuine feature value across the budget tier, identifying picks that offer disproportionate value for their price." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -244,11 +244,11 @@ export const faq: FaqItem[] = [
   { q: "Can I get a high refresh rate on a budget monitor?", a: "Yes, several budget monitors in this guide offer surprisingly high 120Hz refresh rates, this feature isn't exclusive to premium models." },
   { q: "Is it worth stepping up from 1080p to QHD on a budget?", a: "It depends on your priorities, QHD monitors cost more even at the budget tier, weigh the resolution benefit against staying within a stricter budget." },
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "Budget-conscious buyers wanting a genuine IPS panel with surprisingly high refresh rate" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting reliable Samsung panel quality in a compact size At $79.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting reliable Samsung panel quality in a compact size At under $80, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-usb-c-monitors", title: "Best USB-C Monitors (2026)" },
   { href: "/guide/best-24-inch-usb-c-monitors", title: "Best 24-Inch USB-C Monitors (2026)" },
-  { href: "/guide/best-small-usb-c-monitors", title: "Best Small USB-C Monitors (2026)" },
+  { href: "/guide/best-small-usb-c-monitors", title: "Best Small USB-C Monitors (2026)" }
 ];

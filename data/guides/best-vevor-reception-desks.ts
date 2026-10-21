@@ -113,16 +113,16 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $79.90",
+          "Under $80",
           "VEVOR Reception Desk"
         ],
         [
-          "Around $261.90",
+          "Under $300",
           "VEVOR Reception Desk"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [

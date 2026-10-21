@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "This dock is specifically engineered exclusively for the Mac ecosystem, described as the world's first docking station utilizing dual 80/120Gbps silicon architecture, delivering display support up to two 8K@60Hz or four 6K@60Hz monitors simultaneously on MacBook Pro M-Series Max systems. Its triple-layer thermal system combines an NTC-controlled fan, internal copper heat sinks, and a floating chassis design creating a chimney effect for sustained cooling during 24/7 operation.\n\nCompared to the OWC and Sonnet picks above, this one's 4 dedicated 80/120Gbps downstream ports are specifically designed for connecting multiple high-speed RAID arrays simultaneously while maintaining 140W PD passthrough. Its 26-in-1 interface count includes an Optical Audio Toslink port for lossless sound and an independent 45W PD USB-C port specifically for fast-charging an iPad or iPhone without extra adapters.\n\nBest for buyers who specifically own a MacBook Pro M-Series Max and want maximum display and RAID array connectivity.",
     specs: ["Dual 80/120Gbps silicon, Mac-exclusive", "10Gbps Ethernet, 4x 80/120Gbps downstream ports", "Triple-layer thermal system for 24/7 sustained operation"],
     pros: ["Genuinely novel dual-silicon architecture for maximum Mac throughput", "Triple-layer cooling specifically engineered for sustained 24/7 use", "Independent 45W USB-C port for fast-charging phones and tablets"],
-    cons: ["Highest price in this comparison at $649.99", "Exclusively designed for Mac, not compatible with Windows workflows"],
+    cons: ["Highest price in this comparison at under $650", "Exclusively designed for Mac, not compatible with Windows workflows"],
     bestFor: "buyers who specifically own a MacBook Pro M-Series Max and need maximum RAID and display connectivity",
   }
 ];
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Dual 10GbE ports for two separate networks", "OWC Thunderbolt 5 Dual 10GbE Network Dock"],
         ["Built-in NVMe storage combined with 10GbE", "Sonnet Echo 21 Thunderbolt 5 SuperDock"],
         ["The same core capability at a lower price", "Sonnet Echo 20 Thunderbolt 5 SecureDock"],
-        ["Maximum display and RAID connectivity for Mac Pro Max", "iVANKY 26-in-1 FusionDock Ultra"],
+        ["Maximum display and RAID connectivity for Mac Pro Max", "iVANKY 26-in-1 FusionDock Ultra"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $450", "Sonnet Echo 20 SecureDock ($449.99)"],
-        ["Under $500", "OWC Dual 10GbE Dock or Sonnet Echo 21 (both $499.99)"],
-        ["Under $650", "iVANKY 26-in-1 FusionDock Ultra ($649.99)"],
+        ["Under $450", "Sonnet Echo 20 SecureDock (under $450)"],
+        ["Under $500", "OWC Dual 10GbE Dock or Sonnet Echo 21 (both under $500)"],
+        ["Under $650", "iVANKY 26-in-1 FusionDock Ultra (under $650)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Cross-Platform Dock vs Mac-Exclusive Dock",
     cards: [
       { label: "Cross-platform (OWC, Sonnet picks)", text: "Works across Mac, Windows, Chromebook, and iPad Pro, giving genuine flexibility if your workflow spans multiple platforms." },
-      { label: "Mac-exclusive (iVANKY FusionDock Ultra)", text: "Engineered specifically for Mac's dual-silicon architecture, delivering maximum throughput but only for MacBook Pro M-Series Max systems." },
+      { label: "Mac-exclusive (iVANKY FusionDock Ultra)", text: "Engineered specifically for Mac's dual-silicon architecture, delivering maximum throughput but only for MacBook Pro M-Series Max systems." }
     ],
     note: "If you work across Mac and Windows or use non-Mac devices, the OWC or Sonnet picks are the safer, more flexible choice. If you specifically own a MacBook Pro M-Series Max and want the absolute maximum Mac-optimized performance, the iVANKY pick delivers that.",
   },
@@ -137,7 +137,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your storage need", "Recommended pick"],
       rows: [
         ["Built-in NVMe storage expansion", "Sonnet Echo 21 SuperDock"],
-        ["No built-in storage needed", "OWC Dual 10GbE Dock or Sonnet Echo 20"],
+        ["No built-in storage needed", "OWC Dual 10GbE Dock or Sonnet Echo 20"]
       ],
     },
   },
@@ -145,22 +145,22 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For NAS-Connected Home or Studio Networks Specifically",
     cards: [
       { label: "Look for", text: "A dock specifically documented to work with standard Cat6 or Cat6A cabling, so you can connect to your existing NAS setup without needing specialized network hardware." },
-      { label: "In this comparison", text: "The Sonnet Echo 20 SecureDock specifically states its 10GbE is designed for ultra-fast NAS connections using standard Cat6 or Cat6A cabling." },
+      { label: "In this comparison", text: "The Sonnet Echo 20 SecureDock specifically states its 10GbE is designed for ultra-fast NAS connections using standard Cat6 or Cat6A cabling." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You specifically own a MacBook Pro M-Series Max and want maximum RAID array and display connectivity, where the iVANKY FusionDock Ultra justifies its $649.99 price." },
-      { label: "Save if", text: "You want the same core 10GbE and display capability without a storage slot, where the Sonnet Echo 20 delivers that for $449.99, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You specifically own a MacBook Pro M-Series Max and want maximum RAID array and display connectivity, where the iVANKY FusionDock Ultra justifies its under $650 price." },
+      { label: "Save if", text: "You want the same core 10GbE and display capability without a storage slot, where the Sonnet Echo 20 delivers that for under $450, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Docks With Built-in 10GbE Consistently Cost More Because the Underlying Network Chip and Cooling Requirements Are Genuinely More Complex",
-    "explanation": "All four picks in this comparison cluster at $449.99 or higher, reflecting the real engineering cost of integrating genuine 10 Gigabit Ethernet alongside Thunderbolt 5 data and display bandwidth in a single dock, since 10GbE controllers generate meaningfully more heat and require more sophisticated power delivery than standard Gigabit Ethernet. This matters if you're comparing this tier against cheaper docks with only 2.5GbE or standard Gigabit Ethernet, where the price jump reflects genuine hardware complexity rather than pure brand markup. Expect to pay a premium for genuine 10GbE integration compared to more common 1GbE or 2.5GbE dock options, since this reflects real component and engineering cost differences, not just marketing positioning."
+    "explanation": "All four picks in this comparison cluster at under $450 or higher, reflecting the real engineering cost of integrating genuine 10 Gigabit Ethernet alongside Thunderbolt 5 data and display bandwidth in a single dock, since 10GbE controllers generate meaningfully more heat and require more sophisticated power delivery than standard Gigabit Ethernet. This matters if you're comparing this tier against cheaper docks with only 2.5GbE or standard Gigabit Ethernet, where the price jump reflects genuine hardware complexity rather than pure brand markup. Expect to pay a premium for genuine 10GbE integration compared to more common 1GbE or 2.5GbE dock options, since this reflects real component and engineering cost differences, not just marketing positioning."
   },
   {
     "criterion": "Dual 10GbE Ports Serve a Genuinely Different Use Case Than a Single 10GbE Port Plus Storage Expansion",

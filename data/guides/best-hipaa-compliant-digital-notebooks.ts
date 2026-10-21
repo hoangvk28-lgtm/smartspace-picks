@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "HIPAA compliant digital notebook";
 export const introParagraphs = [
   "We need to be direct about this: HIPAA compliance is a property of a covered entity's data-handling practices and business associate agreements, not a certification any consumer notebook manufacturer issues for its hardware. No product below is independently HIPAA-certified, and no retailer listing claiming otherwise should be taken at face value.",
-  "What we can honestly evaluate is each device's on-device encryption, whether its cloud service will sign a Business Associate Agreement (BAA) for healthcare use, and how sensitive data is handled during cloud sync. This is a starting point for your own compliance review, not a substitute for it, consult your organization's compliance officer before using any consumer device for protected health information.",
+  "What we can honestly evaluate is each device's on-device encryption, whether its cloud service will sign a Business Associate Agreement (BAA) for healthcare use, and how sensitive data is handled during cloud sync. This is a starting point for your own compliance review, not a substitute for it, consult your organization's compliance officer before using any consumer device for protected health information."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "No false compliance claims", description: "We stated directly that no product here is independently HIPAA-certified, and that compliance is a property of your organization's data-handling practices, not the hardware alone." },
   { title: "Offline capability as a risk-reduction option", description: "We noted which devices can operate fully offline without cloud sync, since that removes a major category of data-handling questions for sensitive notes." },
   { title: "BAA availability, or lack thereof", description: "We checked whether each ecosystem offers a Business Associate Agreement at the consumer product level and found none currently do." },
-  { title: "Data-handling responsibility, not just device specs", description: "We distinguished closed cloud-first ecosystems from more open, locally-controllable ones, since that affects how much control you retain over sensitive data." },
+  { title: "Data-handling responsibility, not just device specs", description: "We distinguished closed cloud-first ecosystems from more open, locally-controllable ones, since that affects how much control you retain over sensitive data." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Can I use one of these for patient notes?", a: "Only after a full compliance review by your organization. This guide covers relevant hardware factors (encryption, offline capability) as a starting point, not a green light for healthcare use." },
   { q: "Which device lets me avoid cloud data-handling questions?", a: "reMarkable devices can operate fully offline without cloud sync, which removes a major category of compliance questions if that fits your workflow." },
   { q: "Does any of these ecosystems offer a BAA?", a: "Not at the consumer product level, as far as we could verify. Contact the vendor directly for current enterprise or healthcare-specific offerings if you need one." },
-  { q: "What should I actually check before using one of these for sensitive data?", a: "On-device encryption, whether cloud sync is required or optional, data retention practices, and, most importantly, sign-off from your organization's compliance officer." },
+  { q: "What should I actually check before using one of these for sensitive data?", a: "On-device encryption, whether cloud sync is required or optional, data retention practices, and, most importantly, sign-off from your organization's compliance officer." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks-that-feel-like-paper", title: "Best Digital Notebooks That Feel Like Paper (2026)" },
   { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" },
-  { href: "/guide/best-digital-notebooks-for-handwriting", title: "Best Digital Notebooks for Handwriting (2026)" },
+  { href: "/guide/best-digital-notebooks-for-handwriting", title: "Best Digital Notebooks for Handwriting (2026)" }
 ];

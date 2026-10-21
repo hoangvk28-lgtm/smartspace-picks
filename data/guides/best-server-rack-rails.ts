@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41vyzPjra9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKSR9C2J?tag=deskfinds0d-20",
-    description: "This shelf stands out for its weight rating: 242 lbs, well above the 44-110 lb range typical of cantilever shelves, because it's a full 4-post design rather than a 2-point cantilever.\n\nAdjustable depth from 13.5 to 31.8 inches lets it fit racks of different sizes, and the vented design still supports airflow despite the much sturdier build.\n\nThis pick is best for buyers who value 242 lb rating far exceeds typical cantilever shelves along with adjustable depth fits a wide range of rack sizes. The catch is that 4-post mount needs support on all sides, so decide if that's worth it at $69.90.",
+    description: "This shelf stands out for its weight rating: 242 lbs, well above the 44-110 lb range typical of cantilever shelves, because it's a full 4-post design rather than a 2-point cantilever.\n\nAdjustable depth from 13.5 to 31.8 inches lets it fit racks of different sizes, and the vented design still supports airflow despite the much sturdier build.\n\nThis pick is best for buyers who value 242 lb rating far exceeds typical cantilever shelves along with adjustable depth fits a wide range of rack sizes. The catch is that 4-post mount needs support on all sides, so decide if that's worth it at under $70.",
     specs: ["1U, adjustable 13.5-31.8\" depth","242 lb weight capacity","SPCC cold rolled steel, 4-post mount"],
     pros: ["242 lb rating far exceeds typical cantilever shelves","Adjustable depth fits a wide range of rack sizes","Can flip to save space when not fully loaded"],
     cons: ["4-post mount needs support on all sides","Heavier duty build costs more than basic shelves"],
@@ -129,20 +129,20 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $59.90",
+          "Under $60",
           "Tecmojo 2-Pack 1U Universal Rack Mount Rails"
         ],
         [
-          "Around $69.90",
+          "Under $70",
           "Tecmojo 1U 4-Post Vented Server Rack Mount Shelf"
         ],
         [
-          "Around $70.71",
+          "Under $80",
           "StarTech 1U 4-Post Vented Rack Shelf"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -190,7 +190,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "Tecmojo 2-Pack 1U Universal Rack Mount Rails is aimed at buyers prioritizing 1u, adjustable 20.9-32\" depth, 2-pack." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Tecmojo 2-Pack 1U Universal Rack Mount Rails is aimed at buyers prioritizing 1u, adjustable 20.9-32\" depth, 2-pack." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

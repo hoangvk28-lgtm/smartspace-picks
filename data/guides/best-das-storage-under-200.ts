@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["The most engineered drive security and quietest operation", "TERRAMASTER D4-320 External Hard Drive Enclosure, 4-Bay"],
         ["The widest RAID mode variety", "ORICO RAID 5 Bay RAID HDD Enclosure"],
-        ["RAID support at a lower price", "Yottamaster 5 Bay RAID Hard Drive Enclosure"],
+        ["RAID support at a lower price", "Yottamaster 5 Bay RAID Hard Drive Enclosure"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $132", "CENMATE 10Gbps ($119.99) or Yottamaster RAID ($131.75)"],
-        ["$170-$180", "TERRAMASTER D4-320 ($170.99) or ORICO RAID ($178.77)"],
+        ["Under $132", "CENMATE 10Gbps (under $120) or Yottamaster RAID (under $140)"],
+        ["$170-$180", "TERRAMASTER D4-320 (under $180) or ORICO RAID (under $180)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Push-Lock Tray Engineering vs Basic Tool-Free Trays",
     cards: [
       { label: "Push-Lock Trays (TERRAMASTER)", text: "Automatically secures each tray upon insertion, specifically preventing accidental disconnection during use or transport." },
-      { label: "Basic Tool-Free Trays (ORICO, Yottamaster, CENMATE)", text: "Still tool-free for easy installation, but without the same automatic locking engineering." },
+      { label: "Basic Tool-Free Trays (ORICO, Yottamaster, CENMATE)", text: "Still tool-free for easy installation, but without the same automatic locking engineering." }
     ],
     note: "If you move the enclosure frequently or want maximum confidence against accidental drive disconnection, the TERRAMASTER's Push-lock design is a genuine engineering advantage worth its price premium.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your RAID priority", "Recommended pick"],
       rows: [
         ["Maximum RAID mode variety (8 options)", "ORICO RAID 5 Bay RAID HDD Enclosure"],
-        ["Core RAID modes at a lower price", "Yottamaster 5 Bay RAID Hard Drive Enclosure"],
+        ["Core RAID modes at a lower price", "Yottamaster 5 Bay RAID Hard Drive Enclosure"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Quiet Home Office Specifically",
     cards: [
       { label: "Look for", text: "A specific disclosed decibel measurement for standby and active noise levels, rather than a vague \"quiet\" claim." },
-      { label: "In this comparison", text: "The TERRAMASTER D4-320 specifically states below 21dB(A) in standby mode, the most concrete quiet-operation claim here." },
+      { label: "In this comparison", text: "The TERRAMASTER D4-320 specifically states below 21dB(A) in standby mode, the most concrete quiet-operation claim here." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want engineered drive security and the quietest operation, where the TERRAMASTER D4-320's Push-lock design and noise disclosure lead this comparison." },
-      { label: "Save if", text: "Genuine 10Gbps speed without RAID or Push-lock engineering covers your needs, where the CENMATE pick delivers this at the lowest price here." },
+      { label: "Save if", text: "Genuine 10Gbps speed without RAID or Push-lock engineering covers your needs, where the CENMATE pick delivers this at the lowest price here." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

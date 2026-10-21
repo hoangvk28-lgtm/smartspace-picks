@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "clamp on under desk pc mount";
 export const introParagraphs = [
   "Clamp compatibility against varied desk-edge thickness carries heightened consequences here versus lighter clamp-on accessories, given the PC's substantial weight, worth measuring your specific desk edge before assuming a universal fit, and a heavy, swinging PC mass creates fundamentally different physics stress on a clamp than lighter items, worth checking holding capacity under this heavier, more dynamic load including incidental bumps rather than just static weight alone.",
-  "A sufficiently heavy PC relative to a lighter desk's own stability could risk tipping the entire desk, not just failing the clamp, worth addressing directly if you have a lighter desk, and clamp placement should be checked against any integrated cable trays or under-desk drawers that could obstruct mounting, with dual-point clamp designs generally offering more stability than a single-point clamp under this kind of dynamic load.",
+  "A sufficiently heavy PC relative to a lighter desk's own stability could risk tipping the entire desk, not just failing the clamp, worth addressing directly if you have a lighter desk, and clamp placement should be checked against any integrated cable trays or under-desk drawers that could obstruct mounting, with dual-point clamp designs generally offering more stability than a single-point clamp under this kind of dynamic load."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Clamp-On Pick Overall",
     name: "VIVO Adjustable Clamp-on Desk Leg PC Mount, Under Desk PC Mount, MOUNT-PC01C",
     price: "$39.99",
-    rating: "4.1 stars from Amazon ratings",
-    reviews: "396 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31eCcCtZEoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BHF5W87B?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best Swivel Desktop-Edge Clamp",
     name: "VIVO Adjustable Clamp-On Desk 3.5 to 7.8 Wide Office PC Mount, MOUNT-PCC1S",
     price: "$39.99",
-    rating: "3.8 stars from Amazon ratings",
-    reviews: "12 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31doCXKzW0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GF95FV2V?tag=deskfinds0d-20",
     description:
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best No-Drilling Heavy-Duty Clamp",
     name: "TooCust Adjustable Under Desk PC Mount, Heavy Duty No Drilling Clamp Mount",
     price: "$61.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "83 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31MLrg3bEyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJ4PF7Q7?tag=deskfinds0d-20",
     description:
@@ -77,14 +77,14 @@ export const products: GuideProduct[] = [
     badge: "Best Value Clamp-On Pick",
     name: "JOY worker Under Desk PC Mount for Standing Desk, Clamp-On Leg CPU Holder",
     price: "$43.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "54 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/416Qk72eERL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCY4Q147?tag=deskfinds0d-20",
     description:
-      "A strong 4.5-star rating backs this leg-clamped mount, appropriate for buyers wanting reliable holding without desktop-edge thickness concerns, at a reasonable mid-range price.\\n\\nAs a leg clamp, it's less likely to risk desk-tipping than a desktop-edge clamp on a lighter desk, since the load transfers through the leg's own structural point rather than levering against the desktop edge.\n\nCompared with the TooCust Adjustable Under Desk PC Mount above, this pick trades some of that pick's proven track record for a different balance of price and capacity, worth weighing against your own priorities.\n\nWorth knowing before you decide: Leg-clamp design avoids desktop-edge thickness issues. On the other side, Verify desk leg shape and thickness compatibility. That's the main tradeoff to weigh against your specific case and desk setup.",
+      "Compared with the TooCust Adjustable Under Desk PC Mount above, this pick trades some of that pick's proven track record for a different balance of price and capacity, worth weighing against your own priorities.\n\nWorth knowing before you decide: Leg-clamp design avoids desktop-edge thickness issues. On the other side, Verify desk leg shape and thickness compatibility. That's the main tradeoff to weigh against your specific case and desk setup.",
     specs: ["Clamp-on leg design","Strong rating","Mid-range price","Standing desk compatible"],
-    pros: ["Strong 4.5-star rating","Leg-clamp design avoids desktop-edge thickness issues","Lower desk-tipping risk than an edge clamp on a lighter desk","Reasonable price for the rating quality"],
+    pros: ["Leg-clamp design avoids desktop-edge thickness issues","Lower desk-tipping risk than an edge clamp on a lighter desk","Reasonable price for the rating quality"],
     cons: ["Verify desk leg shape and thickness compatibility","Smaller review base than the largest-volume picks","Check obstruction against nearby cable trays or under-desk accessories"],
     bestFor: "Buyers wanting reliable leg-clamped holding at a reasonable price",
   }
@@ -95,7 +95,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Desk-edge or leg thickness compatibility checked", description: "Checked clamp compatibility against varied desk-edge or leg thickness, a heightened concern here given the PC's substantial weight versus lighter clamp-on accessories." },
   { title: "Holding capacity evaluated under dynamic, not just static, load", description: "Evaluated holding capacity under a heavy, swinging PC mass and incidental bumps, not just a static weight figure alone." },
   { title: "Desk-tipping risk considered for lighter desks", description: "Considered whether a sufficiently heavy PC relative to a lighter desk's own stability could risk tipping the entire desk, not just failing the clamp." },
-  { title: "Clamp placement checked against cable trays and drawers", description: "Checked clamp placement for obstruction against integrated cable trays or under-desk drawers, and compared single-point versus dual-point clamp stability." },
+  { title: "Clamp placement checked against cable trays and drawers", description: "Checked clamp placement for obstruction against integrated cable trays or under-desk drawers, and compared single-point versus dual-point clamp stability." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -222,11 +222,11 @@ export const faq: FaqItem[] = [
   { q: "Will a clamp-on PC mount fit any desk edge?", a: "Not automatically, measure your desk's edge or leg thickness and compare against the clamp's stated compatibility range before ordering." },
   { q: "Can a heavy PC clamped to my desk tip the whole desk over?", a: "It's a real risk on a lighter desk, if your desk itself is lightweight, consider a leg-clamped mount instead of a desktop-edge clamp to reduce this risk." },
   { q: "Does a clamp need to hold more than the PC's static weight?", a: "Yes, a heavy, swinging PC mass and incidental bumps create more dynamic stress than a static weight figure alone reflects, check for holding capacity under that kind of load." },
-  { q: "Will a clamp-on mount conflict with my desk's cable tray or drawer?", a: "It can, check the clamp's footprint against any integrated cable management or under-desk storage before finalizing where you mount it." },
+  { q: "Will a clamp-on mount conflict with my desk's cable tray or drawer?", a: "It can, check the clamp's footprint against any integrated cable management or under-desk storage before finalizing where you mount it." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-no-drill-under-desk-pc-mounts", title: "Best No-Drill Under-Desk PC Mounts (2026)" },
   { href: "/guide/best-under-desk-pc-mounts-for-standing-desks", title: "Best Under-Desk PC Mounts for Standing Desks (2026)" },
-  { href: "/guide/best-under-desk-cable-trays", title: "Best Under-Desk Cable Trays (2026)" },
+  { href: "/guide/best-under-desk-cable-trays", title: "Best Under-Desk Cable Trays (2026)" }
 ];

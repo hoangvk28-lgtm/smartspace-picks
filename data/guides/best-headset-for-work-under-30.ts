@@ -123,7 +123,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["USB-A and USB-C compatibility at the lowest price", "AOC USB Headset with Microphone for PC"],
         ["A mic that tucks away when not in use", "Logitech H390 Wired Headset (Rose or Black)"],
         ["Connectivity flexibility (USB or 3.5mm)", "JIAMQISHI USB Headset with Microphone"],
-        ["A recognized brand name", "Logitech H390 Wired Headset"],
+        ["A recognized brand name", "Logitech H390 Wired Headset"]
       ],
     },
   },
@@ -132,8 +132,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $20", "AOC ($17.18) or Logitech H390 Rose ($19.88)"],
-        ["$21 to $30", "Logitech H390 Black ($20.99) or JIAMQISHI ($29.99)"],
+        ["Under $20", "AOC (under $20) or Logitech H390 Rose (under $20)"],
+        ["$21 to $30", "Logitech H390 Black (under $25) or JIAMQISHI (under $30)"]
       ],
     },
   },
@@ -147,7 +147,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "Rotating, tuck-away mic (both Logitech H390 colors)",
         text: "Can rotate up and out of the way entirely when you're just listening to music or a video rather than on a call, a small but real convenience.",
-      },
+      }
     ],
     note: "If you switch frequently between calls and general audio listening throughout the day, the Logitech H390's tuck-away mic is a genuine convenience the fixed-boom picks don't offer.",
   },
@@ -158,7 +158,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["USB-A port", "Any pick in this comparison"],
         ["USB-C port only", "AOC USB Headset with Microphone for PC"],
-        ["3.5mm jack, no USB port", "JIAMQISHI USB Headset with Microphone"],
+        ["3.5mm jack, no USB port", "JIAMQISHI USB Headset with Microphone"]
       ],
     },
   },
@@ -172,7 +172,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "Both AOC and JIAMQISHI specifically mention protein-memory foam ear cushions designed for all-day comfort.",
-      },
+      }
     ],
   },
   {
@@ -180,14 +180,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You want connectivity flexibility across USB and 3.5mm devices: JIAMQISHI ($29.99) is the only pick here covering both connection types.",
+        text: "You want connectivity flexibility across USB and 3.5mm devices: JIAMQISHI (under $30) is the only pick here covering both connection types.",
       },
       {
         label: "Save if",
-        text: "You just need reliable basic wired calling with USB-C support: AOC ($17.18) covers that at the lowest price in this comparison.",
-      },
+        text: "You just need reliable basic wired calling with USB-C support: AOC (under $20) covers that at the lowest price in this comparison.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -242,5 +242,5 @@ export const faq = [
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-headset-for-work-under-70", title: "Best Headsets for Work Under $70" },
-  { href: "/guide/best-headphones-for-online-classes", title: "Best Headphones for Online Classes" },
+  { href: "/guide/best-headphones-for-online-classes", title: "Best Headphones for Online Classes" }
 ];

@@ -12,7 +12,7 @@ export const officeChairSizeChartGuide: Guide = {
     "office chair sizing guide",
     "office chair weight capacity chart",
     "office chair seat depth by height",
-    "big and tall office chair size",
+    "big and tall office chair size"
   ],
   heroImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const officeChairSizeChartGuide: Guide = {
     "ergonomic-chair-vs-gaming-chair",
     "how-to-measure-office-chair-fit",
     "mesh-vs-fabric-office-chair",
-    "office-chair-weight-capacity-explained",
+    "office-chair-weight-capacity-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const officeChairSizeChartGuide: Guide = {
       question: "Can a petite person use a standard office chair?",
       answer:
         "Often not comfortably, a standard chair's seat depth and height range can leave a petite user's feet dangling or their knees pressed against the seat edge, a chair specifically sized for shorter users or one with a highly adjustable seat depth works better.",
-    },
+    }
   ],
   sections: [
     {
@@ -83,6 +83,6 @@ export const officeChairSizeChartGuide: Guide = {
     {
       heading: "Weight Capacity Is About Durability, Not Just Safety",
       body: `A chair's weight rating isn't only about immediate safety, a chair used daily at close to its maximum rated weight wears out its gas cylinder, casters, and frame welds faster than one with meaningful headroom. Buying a chair rated well above your actual weight extends its usable lifespan even if you never approach the stated maximum.`,
-    },
+    }
   ],
 };

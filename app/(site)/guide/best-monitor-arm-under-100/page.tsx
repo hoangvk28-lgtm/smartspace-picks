@@ -184,7 +184,7 @@ export default async function BestMonitorArmUnder100Page() {
     about: [
       { "@type": "Thing", name: "Monitor Arms Under $100" },
       { "@type": "Thing", name: "Desk Monitor Mounts" },
-      { "@type": "Thing", name: "Home Office Desk Accessories" },
+      { "@type": "Thing", name: "Home Office Desk Accessories" }
     ],
   };
 
@@ -204,7 +204,7 @@ export default async function BestMonitorArmUnder100Page() {
         position: 3,
         name: "Best Monitor Arm Under $100",
         item: `${SITE_URL}/guide/best-monitor-arm-under-100`,
-      },
+      }
     ],
   };
 
@@ -286,7 +286,7 @@ export default async function BestMonitorArmUnder100Page() {
             arm returns that entire surface while simultaneously enabling precise
             height, tilt, and rotation adjustments that no fixed stand can
             provide. Under $100 covers the full practical range for most home
-            office setups: from proven spring arms at $29 to heavy-duty
+            office setups: from proven spring arms at under $30 to heavy-duty
             pneumatic arms rated for 49-inch ultrawides at $99.
           </p>
           <div className="flex flex-wrap items-center gap-4 mt-5 pt-5 border-t border-border">
@@ -418,7 +418,7 @@ export default async function BestMonitorArmUnder100Page() {
           </p>
           <p>
             Under $100 covers the full practical range for most home office
-            setups: from proven spring arms at $29 to heavy-duty pneumatic arms
+            setups: from proven spring arms at under $30 to heavy-duty pneumatic arms
             rated for 49-inch ultrawides at $99. This guide covers seven arms
             across that range - matched to monitor size, weight, desk type, and
             standing desk compatibility. If you are also choosing a monitor, see
@@ -476,7 +476,7 @@ export default async function BestMonitorArmUnder100Page() {
                       pattern: "200x100mm",
                       when: "Some 34-49 inch ultrawides",
                       compat: "VIVO V101G1 with adapter; verify before ordering",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -541,7 +541,7 @@ export default async function BestMonitorArmUnder100Page() {
                       size: '49" superultrawide',
                       weight: "22-30 lbs",
                       minCap: "38 lbs",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -617,7 +617,7 @@ export default async function BestMonitorArmUnder100Page() {
                       factor: "Examples in guide",
                       gas: "VIVO V101G1, Amazon Basics",
                       spring: "North Bayou F80",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -783,7 +783,7 @@ export default async function BestMonitorArmUnder100Page() {
                     stand: '10-12"',
                     arm: '1-2"',
                     recovered: '8-11"',
-                  },
+                  }
                 ].map((row, i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                     <td className="px-4 py-3 font-medium text-ink text-xs">

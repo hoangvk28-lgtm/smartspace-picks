@@ -5,7 +5,7 @@ export const metaDescription = "Verified 8TB portable SSD listings were not avai
 export const mainKeyword = "best 8tb portable ssd";
 export const introParagraphs = [
   "We researched this guide expecting to find genuinely verified 8TB portable SSDs, and honestly, we did not find listings we could confidently verify at that capacity, so this guide focuses on the highest-capacity portable SSDs that are genuinely available and verified right now.",
-  "If your workflow truly requires 4TB or 8TB in a single drive, check current Amazon listings directly, since availability changes, and treat any unusually cheap high-capacity listing with real suspicion until you see verified buyer feedback confirming the actual formatted capacity.",
+  "If your workflow truly requires 4TB or 8TB in a single drive, check current Amazon listings directly, since availability changes, and treat any unusually cheap high-capacity listing with real suspicion until you see verified buyer feedback confirming the actual formatted capacity."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -25,14 +25,14 @@ export const products: GuideProduct[] = [
     badge: "Best Available High-Capacity Pick for Speed",
     name: "Corsair EX400U 2TB USB4 Portable External Type-C SSD - Up to 4,000MB/s Read, 3,600MB/s Write, Thunderbolt 4, MagSafe, Includes 40Gbps Cable - Gray",
     price: "$399.99",
-    rating: "4.1 stars from Amazon ratings",
-    reviews: "382 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21F-0rmbcOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DR381N86?tag=deskfinds0d-20",
-    description: "Corsair's EX400U 2TB remains the fastest genuinely verified high-capacity option available now, rated up to 4000MB/s over a USB4 and Thunderbolt 4 compatible bridge.\n\nIt earns the top spot in this comparison over Samsung T7 Shield Portable SSD 2TB for one main reason. Fastest genuinely verified high-capacity option available now. On price, it's actually priced above Samsung T7 Shield Portable SSD 2TB, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: MagSafe compatibility adds real convenience. On the other side, More moderate 4.1-star rating, worth checking current reviews. That's the main tradeoff to weigh against everything above.",
+    description: "Corsair's EX400U 2TB remains the fastest genuinely verified high-capacity option available now, rated up to 4000MB/s over a USB4 and Thunderbolt 4 compatible bridge.\n\nIt earns the top spot in this comparison over Samsung T7 Shield Portable SSD 2TB for one main reason. Fastest genuinely verified high-capacity option available now. On price, it's actually priced above Samsung T7 Shield Portable SSD 2TB, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: MagSafe compatibility adds real convenience. That's the main tradeoff to weigh against everything above.",
     specs: ["2TB capacity (highest verified, available now)","Up to 4000MB/s read rated","USB4, Thunderbolt 4 compatible","MagSafe compatible"],
     pros: ["Fastest genuinely verified high-capacity option available now","MagSafe compatibility adds real convenience","Includes a properly rated 40Gbps cable","Strong ceiling for demanding transfers"],
-    cons: ["Not an 8TB drive, verify your actual capacity need","Needs a USB4 or Thunderbolt host port to matter","More moderate 4.1-star rating, worth checking current reviews"],
+    cons: ["Not an 8TB drive, verify your actual capacity need","Needs a USB4 or Thunderbolt host port to matter"],
     bestFor: "Buyers who need real speed at the highest capacity available now",
   },
   {
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Available High-Capacity Pick for Reliability",
     name: "Samsung T7 Shield Portable SSD 2TB, USB 3.2 Gen 2, Up to 1,050 MB/s",
     price: "$399.75",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "16,380 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21mARCvUWxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VLHR4JC?tag=deskfinds0d-20",
     description: "Samsung's T7 Shield 2TB is the most heavily reviewed high-capacity option we could genuinely verify as available now, backed by a rugged shell and consistent track record.\n\nOne spot below Corsair EX400U 2TB USB4 Portable External Type-C SSD in this ranking, it's priced lower than Corsair EX400U 2TB USB4 Portable External Type-C SSD. The compromise here is straightforward: Not an 8TB drive, verify your actual capacity need. What you gain in return: Most heavily reviewed available high-capacity option. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Rugged shell adds real everyday protection. On the other side, Premium price versus USB 3.0 alternatives. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Available High-Capacity Budget Pick",
     name: "Seagate 2TB Game Drive for Xbox, USB 3.0 (STKX2000400)",
     price: "$119.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "20,657 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31+UCQHBazL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08Y1Q2KSZ?tag=deskfinds0d-20",
     description: "Seagate's Game Drive 2TB is the most affordable way to reach the highest genuinely verified capacity available right now.\n\nSitting just under Samsung T7 Shield Portable SSD 2TB, it's priced lower than Samsung T7 Shield Portable SSD 2TB. Here's the honest tradeoff: Not an 8TB drive, verify your actual capacity need. And here's what it gets you instead: Most affordable path to the highest verified capacity now. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Large, consistent review base. On the other side, Bulkier design than slim ultraportables. That's the main tradeoff to weigh against everything above.",

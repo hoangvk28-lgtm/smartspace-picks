@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "anti-spill desk cup holders";
 export const introParagraphs = [
   "\"Anti-spill\" is a common marketing claim on nearly every cup holder listing, so this guide is the most rigorous spill-resistance comparison across our cup holder research, the benchmark other guides' spill-resistance claims are measured against. We looked past the label to the actual mechanism, a deep, form-fitting cavity versus a simple flat ring, since these represent genuinely different levels of real protection.",
-  "All five picks below use a covered or deep cavity design, verified through their construction details rather than accepted purely from the listing's title.",
+  "All five picks below use a covered or deep cavity design, verified through their construction details rather than accepted purely from the listing's title."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Actual mechanism, not marketing claims", description: "We identified whether each 'anti-spill' claim is backed by a genuine deep, form-fitting cavity or a simple flat ring, and disclosed the difference." },
   { title: "Realistic incidental bump resistance", description: "We prioritized picks with strong verified review history as a proxy for real-world performance under actual knee bumps and elbow knocks, not just static undisturbed conditions." },
   { title: "Container shape compatibility", description: "We noted whether a mechanism performs consistently across both narrow bottles and wide mugs, or is optimized for only one shape." },
-  { title: "Benchmark standard for this whole product category", description: "We treated this guide as the strictest spill-resistance bar in our cup holder research, since every pick here is explicitly marketed as anti-spill." },
+  { title: "Benchmark standard for this whole product category", description: "We treated this guide as the strictest spill-resistance bar in our cup holder research, since every pick here is explicitly marketed as anti-spill." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -244,11 +244,11 @@ export const faq: FaqItem[] = [
   { q: "How do I know if a cup holder's anti-spill claim is genuine?", a: "Check product images for actual cavity depth and coverage, and weigh strong review history as evidence of real-world bump resistance rather than trusting the title alone." },
   { q: "Which pick offers the most protection against a hard bump?", a: "The OOKUU Deeper Desk Cup Holder has the deepest cavity in this comparison, providing the most containment margin against a harder incidental knock." },
   { q: "Do these holders work for both bottles and mugs?", a: "The GUNKING pick has verified performance across both narrow and wide container shapes based on its strong review history. Check cavity diameter for your specific container before buying any pick." },
-  { q: "Is a more expensive anti-spill holder always more protective?", a: "Not necessarily. The Universal pick at a mid-range price carries the highest rating in this comparison, showing that price alone doesn't determine genuine spill-resistance quality." },
+  { q: "Is a more expensive anti-spill holder always more protective?", a: "Not necessarily. The Universal pick at a mid-range price carries the highest rating in this comparison, showing that price alone doesn't determine genuine spill-resistance quality." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-cup-holders", title: "Best Desk Cup Holders (2026)" },
   { href: "/guide/best-clamp-on-desk-cup-holders", title: "Best Clamp-On Desk Cup Holders (2026)" },
-  { href: "/guide/best-coffee-cup-holders-for-desks", title: "Best Coffee Cup Holders for Desks (2026)" },
+  { href: "/guide/best-coffee-cup-holders-for-desks", title: "Best Coffee Cup Holders for Desks (2026)" }
 ];

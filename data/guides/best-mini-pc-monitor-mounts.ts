@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini PC monitor mounts";
 export const introParagraphs = [
   "This guide starts from a different question than a typical VESA hardware comparison: how do you attach a Mini PC to your monitor specifically, framed around the monitor as the goal rather than the mounting spec as the starting point. In practice, that overlaps heavily with our dedicated VESA Mini PC mounts guide, because attaching to a monitor almost always means using its VESA holes.",
-  "We verified this honestly rather than assuming it: every product in this guide attaches via the same 75x75 or 100x100mm VESA hole pattern, not a different clip or adhesive mechanism. If you came here specifically wondering whether some non-VESA way to attach a Mini PC to a monitor exists among mainstream products, the honest answer based on what we found is no, VESA is the mechanism, and this guide picks the mounts best suited to that goal.",
+  "We verified this honestly rather than assuming it: every product in this guide attaches via the same 75x75 or 100x100mm VESA hole pattern, not a different clip or adhesive mechanism. If you came here specifically wondering whether some non-VESA way to attach a Mini PC to a monitor exists among mainstream products, the honest answer based on what we found is no, VESA is the mechanism, and this guide picks the mounts best suited to that goal."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "9 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine monitor-attachment mechanism", description: "We verified whether each product actually attaches to the monitor itself via its VESA holes, rather than a separate clip or adhesive method, and reported honestly that VESA is the mechanism behind every pick here." },
   { title: "Fit against your specific monitor setup", description: "We compared whether attaching a Mini PC uses the monitor's own VESA point exclusively, versus offering wall or under-desk alternatives if you decide against monitor attachment later." },
   { title: "Combined weight honesty", description: "We flagged which listings publish a combined device-plus-monitor weight rating versus only a device-only figure, since attaching to a monitor adds weight to whatever that monitor's stand or arm is already carrying." },
-  { title: "Device-specific vs universal attachment", description: "We separated brackets built for one named chassis from universal adjustable brackets, since a rigid device-specific fit and broad compatibility are different tradeoffs depending on your exact Mini PC." },
+  { title: "Device-specific vs universal attachment", description: "We separated brackets built for one named chassis from universal adjustable brackets, since a rigid device-specific fit and broad compatibility are different tradeoffs depending on your exact Mini PC." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -276,11 +276,11 @@ export const faq: FaqItem[] = [
   { q: "Is there a non-VESA way to attach a Mini PC to a monitor?", a: "Based on what we found among mainstream products, no. Every mount in this guide uses the monitor's standard 75x75 or 100x100mm VESA holes rather than a separate clip or adhesive system." },
   { q: "Can I attach a Mini PC to my monitor if it's on an arm?", a: "It depends on whether your arm has a separate attachment point or whether it shares the monitor's own VESA holes. If they share the same point, you generally cannot use both a monitor arm and a piggybacked Mini PC mount at once." },
   { q: "Does attaching a Mini PC to my monitor affect the monitor's own weight rating?", a: "Yes. The Mini PC and its mount add weight to whatever the monitor's stand or arm already carries. A bracket with a published combined weight rating is the safer choice if your monitor is already near its limit." },
-  { q: "What if my exact Mini PC model isn't listed as compatible?", a: "A universal adjustable bracket, like the ones from HumanCentric or the Adjustable Thin Client options in this guide, covers a wide range of device widths and brands even without a named compatibility list." },
+  { q: "What if my exact Mini PC model isn't listed as compatible?", a: "A universal adjustable bracket, like the ones from HumanCentric or the Adjustable Thin Client options in this guide, covers a wide range of device widths and brands even without a named compatibility list." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-vesa-mini-pc-mounts", title: "Best VESA Mini PC Mounts (2026)" },
   { href: "/guide/best-mini-pc-mounts", title: "Best Mini PC Mounts (2026)" },
-  { href: "/guide/best-universal-mini-pc-mounts", title: "Best Universal Mini PC Mounts (2026)" },
+  { href: "/guide/best-universal-mini-pc-mounts", title: "Best Universal Mini PC Mounts (2026)" }
 ];

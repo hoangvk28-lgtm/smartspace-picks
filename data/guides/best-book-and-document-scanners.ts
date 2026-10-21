@@ -5,7 +5,7 @@ export const metaDescription = "8 scanners we evaluated for both book and docume
 export const mainKeyword = "book and document scanner";
 export const introParagraphs = [
   "Book scanning (overhead cradle scanners for bound pages) and document scanning (sheetfed ADF scanners for loose pages) are genuinely different technologies solving different problems, and no single scanner in this lineup does both jobs equally well.",
-  "If you need both, the honest recommendation is often two devices rather than one compromise pick, this guide splits recommendations by which task actually matters more for your situation rather than pretending one scanner covers everything.",
+  "If you need both, the honest recommendation is often two devices rather than one compromise pick, this guide splits recommendations by which task actually matters more for your situation rather than pretending one scanner covers everything."
 ];
 export const lastUpdated = "2026-07-29";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overhead Book Scanner",
     name: "CZUR ET24 Pro Book Scanner, A3 Overhead Scanner with Auto-Flatten Curve Correction",
     price: "$649.00",
-    rating: "4.4 stars from 318 Amazon ratings",
-    reviews: "318 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41AkGJtV+CL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BM92YPHW?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Document Scanner (Not for Books)",
     name: "ScanSnap iX2400 High-Speed One-Touch Button Color Document Scanner",
     price: "$349.99",
-    rating: "4.5 stars from 991 Amazon ratings",
-    reviews: "991 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41LZ7HiXsPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FWGTB3S3?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Book Scanner",
     name: "CZUR Shine Ultra Book Scanner, Portable Overhead Scanner with Auto-Flatten",
     price: "$199.00",
-    rating: "4.4 stars from 488 Amazon ratings",
-    reviews: "488 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LQNyy7U0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08NSJQ65L?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Photos and Loose Documents",
     name: "Canon RS40 Photo/Document Scanner, USB Powered, Compact",
     price: "$329.00",
-    rating: "4.0 stars from 562 Amazon ratings",
-    reviews: "562 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41VkoizD+9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCBVYMC6?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Large-Format Book Scanner",
     name: "VIISAN Large Format A2/A3 Book and Document Scanner, Overhead Design",
     price: "$408.99",
-    rating: "4.1 stars from 102 Amazon ratings",
-    reviews: "102 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41OkxTvAv+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09TRFK7D2?tag=deskfinds0d-20",
     description:
@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     badge: "Newest Dual-Purpose Attempt",
     name: "VIISAN S48 Duo Book and Document Scanner, Overhead with ADF Attachment",
     price: "$649.99",
-    rating: "5.0 stars from 1 Amazon rating",
+    rating: "",
     reviews: "1 rating",
     imageUrl: "https://m.media-amazon.com/images/I/41LGj+P7TPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GXZJ5FC6?tag=deskfinds0d-20",
@@ -127,8 +127,8 @@ export const products: GuideProduct[] = [
     badge: "Alternate Document-Only Pairing Pick",
     name: "Epson Workforce ES-400 II High-Speed Color Duplex Desktop Document Scanner",
     price: "$299.99",
-    rating: "4.5 stars from 1,226 Amazon ratings",
-    reviews: "1,226 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41rW4JApydL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08P3YVH3X?tag=deskfinds0d-20",
     description:
@@ -144,8 +144,8 @@ export const products: GuideProduct[] = [
     badge: "Most Compact Pairing Pick",
     name: "ScanSnap iX1300 Wireless or USB Double-Sided Color Document Scanner, White",
     price: "$279.99",
-    rating: "4.2 stars from 1,768 Amazon ratings",
-    reviews: "1,768 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41yWYf2uT0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FX5DWBK?tag=deskfinds0d-20",
     description:
@@ -154,14 +154,14 @@ export const products: GuideProduct[] = [
     pros: ["Most compact pairing option here", "Wireless flexibility", "Good balance of speed and footprint", "Large review base"],
     cons: ["Cannot scan bound books", "Lower ADF capacity than the ScanSnap iX2400", "Still requires a separate book scanner"],
     bestFor: "Buyers with limited desk space who need a compact document-scanning pairing partner",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Honest split between book scanning and document scanning capability", description: "Rather than force-fit one 'best overall' pick, we evaluated overhead book scanners and sheetfed document scanners as genuinely separate categories, since no single product here does both jobs well." },
   { title: "Spine-curve correction as the real differentiator for book scanning", description: "Checked which overhead scanners offer auto-flatten curve correction, the technology that actually solves the bound-page curvature problem near the spine, versus which are just cameras on a stand." },
-  { title: "Review-base scrutiny for the combined-use attempt", description: "Flagged the one product attempting to bridge both use cases (VIISAN S48 Duo) as unproven given its single-rating history, rather than recommending it on concept alone." },
+  { title: "Review-base scrutiny for the combined-use attempt", description: "Flagged the one product attempting to bridge both use cases (VIISAN S48 Duo) as unproven given its single-rating history, rather than recommending it on concept alone." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -294,11 +294,11 @@ export const faq: FaqItem[] = [
   { q: "Can I feed a book through a document scanner's ADF?", a: "No, and you shouldn't try. Feeding bound pages through an automatic document feeder risks damaging the binding. Document ADF scanners are built for loose, single sheets only." },
   { q: "Should I buy two scanners if I need both books and documents digitized?", a: "For most buyers, yes. Pairing a dedicated overhead book scanner (like the CZUR ET24 Pro) with a dedicated ADF document scanner (like the ScanSnap iX2400) will outperform any single combined-use product currently available." },
   { q: "Which pick in this comparison is the best overall choice?", a: "Buyers whose primary need is digitizing bound books, not loose documents" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with occasional book digitization needs At $199.00, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with occasional book digitization needs At under $200, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-document-scanners-for-small-businesses", title: "Best Document Scanners for Small Businesses (2026)" },
   { href: "/guide/best-compact-document-scanners", title: "Best Compact Document Scanners (2026)" },
-  { href: "/guide/best-high-speed-document-scanners", title: "Best High-Speed Document Scanners (2026)" },
+  { href: "/guide/best-high-speed-document-scanners", title: "Best High-Speed Document Scanners (2026)" }
 ];

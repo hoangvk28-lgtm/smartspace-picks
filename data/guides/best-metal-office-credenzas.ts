@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $89.99",
+          "Under $90",
           "DEVAISE Office File Cabinet"
         ],
         [
-          "Around $104.99",
+          "Under $110",
           "DEVAISE 5-Drawer Wood Drawer Cabinet"
         ],
         [
-          "Around $119.99",
+          "Under $120",
           "Homieasy Vertical Filing Cabinet with Bookshelf"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "44\" File Cabinet"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "44\" File Cabinet with 2 Drawers"
         ],
         [
-          "Around $169.99",
+          "Under $170",
           "Modern File Cabinet with Drawers for Letter-Sized File and Door"
         ],
         [
-          "Around $189.99",
+          "Under $190",
           "44\" File Cabinet with Lock"
         ],
         [
-          "Around $193.99",
+          "Under $200",
           "44\" File Cabinet with Lock"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "44\" File Cabinet with Lock is aimed at buyers prioritizing 4 industrial casters, 350 lb rated load." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "44\" File Cabinet with Lock is aimed at buyers prioritizing 4 industrial casters, 350 lb rated load." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"},{"href":"/guide/best-office-credenzas-with-storage","title":"Best Office Credenzas With Storage in 2026"}];

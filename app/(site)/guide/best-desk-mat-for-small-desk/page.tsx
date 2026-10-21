@@ -129,7 +129,7 @@ export default async function BestDeskMatPage() {
             { href: "#what-to-look-for", label: "What to look for" },
             { href: "#reviews", label: "Full reviews" },
             { href: "#materials", label: "Materials comparison" },
-            { href: "#faq", label: "FAQ" },
+            { href: "#faq", label: "FAQ" }
           ].map(({ href, label }) => (
             <a key={href} href={href} className="px-3.5 py-2 rounded-full border border-border bg-white text-ink-secondary text-sm font-medium hover:border-brand hover:text-brand transition-colors">
               {label}
@@ -218,7 +218,7 @@ export default async function BestDeskMatPage() {
               ["Non-Slip Performance (25%)", "Shifting during sustained typing and heavy mouse use sessions"],
               ["Material Quality (20%)", "Surface texture, edge construction, durability over time"],
               ["Ease of Cleaning (15%)", "Wipe-clean performance, spill resistance in real use"],
-              ["Value (15%)", "Price relative to comparable options from same tier"],
+              ["Value (15%)", "Price relative to comparable options from same tier"]
             ].map(([label, desc]) => (
               <div key={label as string} className="p-4 rounded-xl bg-white border border-border">
                 <p className="text-sm font-semibold text-ink mb-1">{label}</p>
@@ -251,7 +251,7 @@ export default async function BestDeskMatPage() {
             {[
               { label: "Best Overall", name: "Nordik Gray Leather 35x17\"", id: "nordik-gray-leather", color: "#dcfce7", text: "#15803d" },
               { label: "Best Eco-Friendly", name: "Nordik Cork-Leather", id: "nordik-cork-leather", color: "#fff7ed", text: "#c2410c" },
-              { label: "Best for Gaming+Office", name: "DESKMATEC Snow Leopard", id: "deskmatec-snow-leopard", color: "#fdf4ff", text: "#7e22ce" },
+              { label: "Best for Gaming+Office", name: "DESKMATEC Snow Leopard", id: "deskmatec-snow-leopard", color: "#fdf4ff", text: "#7e22ce" }
             ].map((v) => (
               <div key={v.id} className="p-5 rounded-2xl border" style={{ background: v.color, borderColor: v.color }}>
                 <p className="text-xs font-bold uppercase tracking-wide mb-2" style={{ color: v.text }}>{v.label}</p>
@@ -286,7 +286,7 @@ export default async function BestDeskMatPage() {
             {[
               { href: "/guide/best-clip-on-desk-lamp", title: "Best Clip-On Desk Lamps for Small Desks", label: "Desk Setup" },
               { href: "/guide/monitor-stands-small-desks", title: "Best Monitor Stands for Small Desks", label: "Desk Setup" },
-              { href: "/guide/best-usb-hub-for-desk", title: "Best USB Hub for Desk", label: "Desk Setup" },
+              { href: "/guide/best-usb-hub-for-desk", title: "Best USB Hub for Desk", label: "Desk Setup" }
             ].map((g) => (
               <Link prefetch={false} key={g.href} href={g.href} className="group p-4 rounded-xl border border-border bg-white hover:border-brand/40 hover:shadow-sm transition-all">
                 <span className="text-[10px] font-bold uppercase tracking-widest text-brand block mb-1">{g.label}</span>

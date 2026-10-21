@@ -12,7 +12,7 @@ export const wifi6VsWifi5ExplainedGuide: Guide = {
     "is wifi 6 worth upgrading",
     "wifi 6 vs wifi 5 speed difference",
     "wifi 6 router for home office",
-    "wifi 6 multiple devices benefit",
+    "wifi 6 multiple devices benefit"
   ],
   heroImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const wifi6VsWifi5ExplainedGuide: Guide = {
     "mesh-wifi-vs-single-router",
     "ethernet-vs-wifi-for-desk-setup",
     "usb-c-docking-station-ports-chart",
-    "vpn-for-remote-work-explained",
+    "vpn-for-remote-work-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const wifi6VsWifi5ExplainedGuide: Guide = {
       question: "Does WiFi 6 improve range compared to WiFi 5?",
       answer:
         "Range improvements are more modest than the efficiency and multi-device handling gains, WiFi 6 doesn't dramatically extend coverage distance on its own, a mesh system remains the more direct solution for actual coverage area problems.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const wifi6VsWifi5ExplainedGuide: Guide = {
     {
       heading: "Why Both Ends of the Connection Need to Support WiFi 6",
       body: `A common point of confusion is assuming a WiFi 6 router alone delivers WiFi 6 speeds to every connected device, but the actual connection speed is limited by the lower-capability end, if your laptop or phone only supports WiFi 5, that specific device connects at WiFi 5 speeds regardless of the router's capability. Before upgrading a router specifically for WiFi 6 benefits, confirm your actual devices, especially ones handling demanding tasks, support WiFi 6 themselves to realize the improvement.`,
-    },
+    }
   ],
 };

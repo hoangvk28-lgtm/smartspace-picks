@@ -12,7 +12,7 @@ export const howToMeasureDeskClearanceForBoomArmGuide: Guide = {
     "microphone boom arm clamp fit",
     "desk thickness for boom arm",
     "boom arm desk clamp size",
-    "grommet mount vs clamp mount microphone",
+    "grommet mount vs clamp mount microphone"
   ],
   heroImage: "https://images.unsplash.com/photo-1634041323797-b9fdef9d18f7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1634041323797-b9fdef9d18f7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const howToMeasureDeskClearanceForBoomArmGuide: Guide = {
     "microphone-arm-reach-chart",
     "boom-arm-vs-desk-stand-microphone",
     "grommet-mount-vs-clamp-mount",
-    "c-clamp-vs-bolt-through-mount",
+    "c-clamp-vs-bolt-through-mount"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const howToMeasureDeskClearanceForBoomArmGuide: Guide = {
       question: "What if my desk is thicker than the clamp's maximum range?",
       answer:
         "You'll need a boom arm with a larger clamp range, or a heavy weighted desk stand instead, since forcing an undersized clamp onto a desk thicker than its rated range risks a loose, unstable mount.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const howToMeasureDeskClearanceForBoomArmGuide: Guide = {
     {
       heading: "Checking Underneath the Desk Too",
       body: `A clamp mount's screw mechanism extends below the desk surface to tighten against the underside, so confirm there's no drawer, support bracket, or cable tray directly underneath the spot you plan to clamp that would block the clamp from closing properly. This is an easy step to skip but causes real fitting problems if a support beam sits exactly where the clamp needs to grip.`,
-    },
+    }
   ],
 };

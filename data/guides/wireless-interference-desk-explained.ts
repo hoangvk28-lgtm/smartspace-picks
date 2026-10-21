@@ -12,7 +12,7 @@ export const wirelessInterferenceDeskExplainedGuide: Guide = {
     "wireless mouse keyboard interference",
     "multiple wireless devices lag",
     "2.4ghz interference desk setup",
-    "wireless connection dropping fix",
+    "wireless connection dropping fix"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const wirelessInterferenceDeskExplainedGuide: Guide = {
     "bluetooth-vs-usb-dongle-explained",
     "fully-wireless-desk-setup-explained",
     "wifi-6-vs-wifi-5-explained",
-    "wired-vs-wireless-mouse",
+    "wired-vs-wireless-mouse"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const wirelessInterferenceDeskExplainedGuide: Guide = {
       question: "Should I switch to Bluetooth if I'm experiencing 2.4GHz dongle interference?",
       answer:
         "This can help in some cases since Bluetooth uses a different communication protocol within the same general frequency band with different interference characteristics, though Bluetooth isn't entirely immune to interference either, testing both connection types in your specific environment helps identify which performs more reliably.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const wirelessInterferenceDeskExplainedGuide: Guide = {
     {
       heading: "Why Physical Positioning Adjustments Often Resolve Interference More Effectively Than Software Fixes",
       body: `Since wireless interference is fundamentally a physical signal propagation issue, competing radio waves in shared space, physical solutions like repositioning dongles for a clearer line of sight to their paired device, using a USB extension cable to move a dongle away from other interference sources like the back of a metal computer case, or simply spacing multiple dongles farther apart, often resolve interference issues more directly and effectively than software-based troubleshooting, understanding interference as a physical rather than purely software problem points toward these physical layout adjustments as the more likely effective fix.`,
-    },
+    }
   ],
 };

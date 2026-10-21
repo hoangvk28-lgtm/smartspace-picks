@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "oled portable monitor";
 export const introParagraphs = [
   "OLED's genuine per-pixel contrast and true blacks deliver a real visual upgrade over IPS panels, worth weighing this against OLED's known burn-in risk with static content like taskbars or logos left on screen for extended periods.",
-  "Peak brightness on portable OLED panels is typically lower than premium IPS alternatives, worth checking specific nit ratings if you plan to use the monitor in bright environments rather than assuming OLED always looks best in every lighting condition.",
+  "Peak brightness on portable OLED panels is typically lower than premium IPS alternatives, worth checking specific nit ratings if you plan to use the monitor in bright environments rather than assuming OLED always looks best in every lighting condition."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine per-pixel contrast weighed against real burn-in risk", description: "Weighed OLED's genuine per-pixel contrast and true blacks against the real, known risk of burn-in with static content displayed for extended periods." },
   { title: "Peak brightness checked against typical use environment", description: "Checked specific peak brightness ratings for buyers who plan to use the monitor in bright environments, since OLED peak brightness is typically lower than premium IPS." },
   { title: "Resolution and pixel density assessed for creative work suitability", description: "Assessed resolution and pixel density specifically for buyers doing detailed creative or design work on the OLED panel." },
-  { title: "Price premium weighed against genuine picture quality upgrade", description: "Weighed OLED's price premium against the genuine picture quality upgrade it delivers over IPS alternatives." },
+  { title: "Price premium weighed against genuine picture quality upgrade", description: "Weighed OLED's price premium against the genuine picture quality upgrade it delivers over IPS alternatives." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -207,11 +207,11 @@ export const faq: FaqItem[] = [
   { q: "Do OLED portable monitors have burn-in risk?", a: "Yes, this is a real, known risk with static content like taskbars or logos left on screen for extended periods, be mindful of this." },
   { q: "Is OLED brighter than IPS for portable monitors?", a: "Not typically, OLED peak brightness is generally lower than premium IPS alternatives, check specific nit ratings for bright environments." },
   { q: "Is an OLED portable monitor worth the price premium?", a: "It depends on your priorities, OLED delivers genuinely better contrast and true blacks, weigh this against the added cost." },
-  { q: "Can I get a touchscreen OLED portable monitor?", a: "Yes, some models combine OLED picture quality with touchscreen functionality, verify the genuine multitouch point count first." },
+  { q: "Can I get a touchscreen OLED portable monitor?", a: "Yes, some models combine OLED picture quality with touchscreen functionality, verify the genuine multitouch point count first." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-touchscreen-portable-monitors", title: "Best Touchscreen Portable Monitors (2026)" },
   { href: "/guide/best-portable-monitors-for-photo-editing", title: "Best Portable Monitors for Photo Editing (2026)" },
-  { href: "/guide/best-4k-usb-c-monitors", title: "Best 4K USB-C Monitors (2026)" },
+  { href: "/guide/best-4k-usb-c-monitors", title: "Best 4K USB-C Monitors (2026)" }
 ];

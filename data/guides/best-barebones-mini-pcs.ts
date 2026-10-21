@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "barebones mini pc";
 export const introParagraphs = [
   "A barebones mini PC's low sticker price excludes RAM, storage, and sometimes an operating system, worth calculating the true configured cost including these components before comparing the price directly against a complete, fully configured system.",
-  "Barebone kits vary in exactly what's included, some come with a case and cooling but no RAM or SSD, others are closer to a component kit requiring more assembly, worth checking exactly what's included and what installation difficulty to expect before buying.",
+  "Barebone kits vary in exactly what's included, some come with a case and cooling but no RAM or SSD, others are closer to a component kit requiring more assembly, worth checking exactly what's included and what installation difficulty to expect before buying."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,13 +26,13 @@ export const products: GuideProduct[] = [
     badge: "Best High-Performance Barebone Overall",
     name: "MINISFORUM Mini PC AI X1 Pro Barebone with AMD Ryzen AI 9 HX370(12Cores/24 Threads)&AMD Radeon",
     price: "$695.00",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "7 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21j26jIVLGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G32PTF92?tag=deskfinds0d-20",
-    description: "A genuinely powerful Ryzen AI 9 HX370 barebone with 12 cores and 24 threads, appropriate for buyers wanting flagship-tier performance who don't mind adding their own RAM and storage.\n\nIt earns the top spot in this comparison over Reatan X7 AI AMD Ryzen 7 255 Oculink Gaming Mini PC(Upgraded 8745HS) for one main reason. Genuinely flagship-tier processor performance in a barebone kit. On price, it's actually priced above Reatan X7 AI AMD Ryzen 7 255 Oculink Gaming Mini PC(Upgraded 8745HS), which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: High 4.8-star rating despite the small review base. On the other side, Requires separate OS purchase and installation. That's the main tradeoff to weigh against everything above.",
+    description: "A genuinely powerful Ryzen AI 9 HX370 barebone with 12 cores and 24 threads, appropriate for buyers wanting flagship-tier performance who don't mind adding their own RAM and storage.\n\nIt earns the top spot in this comparison over Reatan X7 AI AMD Ryzen 7 255 Oculink Gaming Mini PC(Upgraded 8745HS) for one main reason. Genuinely flagship-tier processor performance in a barebone kit. On price, it's actually priced above Reatan X7 AI AMD Ryzen 7 255 Oculink Gaming Mini PC(Upgraded 8745HS), which is worth weighing if cost is your deciding factor between the two.\n\nOn the other side, Requires separate OS purchase and installation. That's the main tradeoff to weigh against everything above.",
     specs: ["AMD Ryzen AI 9 HX370, 12C/24T","AMD Radeon integrated graphics","Barebone, no RAM/SSD/OS included","High review rating"],
-    pros: ["Genuinely flagship-tier processor performance in a barebone kit","High 4.8-star rating despite the small review base","Strong integrated graphics included","Flexibility to choose your own fast RAM and SSD"],
+    pros: ["Genuinely flagship-tier processor performance in a barebone kit","Strong integrated graphics included","Flexibility to choose your own fast RAM and SSD"],
     cons: ["Small review base, verify current reviews before purchase","Total configured cost adds up significantly with fast RAM and SSD","Requires separate OS purchase and installation"],
     bestFor: "Buyers wanting flagship-tier barebone performance who want to choose their own RAM and SSD",
   },
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Barebone Pick",
     name: "Reatan X7 AI AMD Ryzen 7 255 Oculink Gaming Mini PC(Upgraded 8745HS), Barebone Mini PC(NO RAM)",
     price: "$299.00",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "61 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41IHm6E8uFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2BGVKSL?tag=deskfinds0d-20",
     description: "A genuinely capable Ryzen 7 255 barebone with OCuLink connectivity, appropriate for buyers wanting eGPU expansion flexibility alongside a lower base price.\n\nOne spot below MINISFORUM Mini PC AI X1 Pro Barebone with AMD Ryzen AI 9 HX370(12Cores/24 Threads)&AMD Radeon in this ranking, it's priced lower than MINISFORUM Mini PC AI X1 Pro Barebone with AMD Ryzen AI 9 HX370(12Cores/24 Threads)&AMD Radeon. The compromise here is straightforward: Requires separate RAM, SSD, and OS purchase. What you gain in return: OCuLink connectivity genuinely useful for future eGPU expansion. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Solid review base for confidence at this price point. On the other side, OCuLink eGPU expansion adds further cost if pursued. That's the main tradeoff to weigh against everything above.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Barebone Pick",
     name: "Barebone Mini PC, AMD Ryzen 5 3500U (up to 3.7GHz), Without RAM/SSD/OS",
     price: "$179.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "63 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LlCbf8wEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GX667HRM?tag=deskfinds0d-20",
     description: "The most budget-friendly barebone in this guide, appropriate for buyers wanting a genuinely low entry price and willing to source their own components.\n\nSitting just under Reatan X7 AI AMD Ryzen 7 255 Oculink Gaming Mini PC(Upgraded 8745HS), it's priced lower than Reatan X7 AI AMD Ryzen 7 255 Oculink Gaming Mini PC(Upgraded 8745HS). Here's the honest tradeoff: Requires separate RAM, SSD, and OS purchase, adding significant total cost. And here's what it gets you instead: Very budget-friendly base price for the barebone chassis. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Solid review base for confidence at this price point. On the other side, Verify true total configured cost against complete budget systems. That's the main tradeoff to weigh against everything above.",
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "True configured cost calculated including RAM, SSD, and OS", description: "Calculated the true configured cost including RAM, storage, and operating system, rather than comparing bare sticker prices against complete systems." },
   { title: "Exactly what's included in each barebone kit verified", description: "Verified exactly what's included in each barebone kit, since this varies from a case-and-cooling-only kit to something closer to a component kit." },
   { title: "Chip performance tier weighted for matching component investment", description: "Weighted chip performance tier to help buyers match their RAM and SSD investment appropriately, avoiding pairing a flagship chip with budget components or vice versa." },
-  { title: "Expansion capability like OCuLink valued for barebone flexibility", description: "Valued genuine expansion capability like OCuLink for eGPU support, since barebone buyers often prioritize future flexibility." },
+  { title: "Expansion capability like OCuLink valued for barebone flexibility", description: "Valued genuine expansion capability like OCuLink for eGPU support, since barebone buyers often prioritize future flexibility." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -226,11 +226,11 @@ export const faq: FaqItem[] = [
   { q: "Is a barebone mini PC actually cheaper than a complete system?", a: "Not always, factor in RAM, storage, and OS costs, the true configured cost can approach or exceed a complete system's price." },
   { q: "What's included in a barebone mini PC kit?", a: "This varies, some include a case and cooling but no RAM or SSD, others are closer to component kits, verify the specific listing." },
   { q: "Do I need to buy Windows separately for a barebone mini PC?", a: "Usually yes, most barebone kits don't include an OS, factor this cost into your total budget." },
-  { q: "Is OCuLink worth having on a barebone mini PC?", a: "If you might want to add an external GPU later, yes, this gives genuine future expansion flexibility." },
+  { q: "Is OCuLink worth having on a barebone mini PC?", a: "If you might want to add an external GPU later, yes, this gives genuine future expansion flexibility." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-upgradeable-mini-pcs", title: "Best Upgradeable Mini PCs (2026)" },
   { href: "/guide/best-mini-pcs-with-oculink", title: "Best Mini PCs with OCuLink (2026)" },
-  { href: "/guide/best-mini-pcs-under-300", title: "Best Mini PCs Under $300 (2026)" },
+  { href: "/guide/best-mini-pcs-under-300", title: "Best Mini PCs Under $300 (2026)" }
 ];

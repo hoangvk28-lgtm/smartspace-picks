@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "nas for computer backup";
 export const introParagraphs = [
   "A NAS built for automatic computer backup needs to run scheduled jobs without babysitting, which means the real differentiators are RAM headroom for background backup software, RAID support so one failed drive doesn't take your only copy with it, and a quota system that stops a single laptop's backup history from silently filling the whole array. Scheduling the backup is the easy part; keeping it running unattended for years is what separates a good pick from a frustrating one.",
-  "Below are 8 NAS devices we evaluated on backup software support, RAID and drive-bay flexibility, RAM for running Active Backup or similar tools alongside other services, and total cost once drives are factored in, ranging from a $199.99 diskless 2-bay for a single home PC to a $619.99 five-core 4-bay built for backing up several computers at once.",
+  "Below are 8 NAS devices we evaluated on backup software support, RAID and drive-bay flexibility, RAM for running Active Backup or similar tools alongside other services, and total cost once drives are factored in, ranging from an under-$200 diskless 2-bay for a single home PC to an under-$650 five-core 4-bay built for backing up several computers at once."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Active Backup for Business (free, full PC/Mac image backup)",
       "RAID 1 support",
       "DSM scheduler for versioned backups",
-      "Fixed RAM, not user-upgradeable",
+      "Fixed RAM, not user-upgradeable"
     ],
     pros: [
       "Active Backup for Business handles multiple computers with deduplication",
       "DSM's backup scheduling is the most mature in this list",
       "RAID 1 protects against a single drive failure",
-      "Well-documented setup process for backup specifically",
+      "Well-documented setup process for backup specifically"
     ],
     cons: [
       "Diskless, needs 2 drives purchased separately",
       "Soldered RAM limits running backup alongside heavy extra apps",
-      "2024+ DSM shows compatibility warnings for non-Synology drives",
+      "2024+ DSM shows compatibility warnings for non-Synology drives"
     ],
     bestFor: "Households backing up 2-3 computers who want Synology's dedicated backup software",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Scheduled rsync and cloud-sync backup jobs",
       "Snapshot-based versioning",
       "Higher-performance CPU for large file sets",
-      "UGREEN OS app ecosystem",
+      "UGREEN OS app ecosystem"
     ],
     pros: [
       "Handles large incremental backups without stalling",
       "Snapshot versioning protects against ransomware and mistakes",
       "Multiple backup job types beyond just PC image backup",
-      "Strong CPU headroom for concurrent tasks",
+      "Strong CPU headroom for concurrent tasks"
     ],
     cons: [
       "Priciest 2-bay pick in this list",
       "Overkill for backing up a single lightweight laptop",
-      "Newer OS ecosystem with less community documentation than DSM",
+      "Newer OS ecosystem with less community documentation than DSM"
     ],
     bestFor: "Buyers backing up large media or project files, not just documents",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Up to 64TB total supported capacity",
       "Scheduled backup jobs via UGREEN OS",
       "Entry-level CPU and RAM tier",
-      "Budget-friendly diskless enclosure",
+      "Budget-friendly diskless enclosure"
     ],
     pros: [
       "Cheapest diskless 2-bay in this list",
       "Supports high total capacity for its price",
       "Simple setup focused on core backup function",
-      "Good starting point for a first NAS backup setup",
+      "Good starting point for a first NAS backup setup"
     ],
     cons: [
       "Entry-level CPU limits running multiple simultaneous services",
       "Diskless, needs drives purchased separately",
-      "Fewer advanced backup features than the Synology or QNAP picks",
+      "Fewer advanced backup features than the Synology or QNAP picks"
     ],
     bestFor: "Budget buyers backing up a single computer who don't need extra NAS apps",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "2.5GbE network port",
       "Hybrid Backup Sync for scheduled local/cloud jobs",
       "QNAP QTS operating system",
-      "Standard 2-bay RAID support",
+      "Standard 2-bay RAID support"
     ],
     pros: [
       "2.5GbE port meaningfully speeds up large backups on a matching network",
       "Hybrid Backup Sync covers both local and cloud backup destinations",
       "QNAP's app store adds flexibility beyond pure backup",
-      "Reasonable price for a 2.5GbE-equipped 2-bay",
+      "Reasonable price for a 2.5GbE-equipped 2-bay"
     ],
     cons: [
       "2.5GbE benefit requires a 2.5GbE router or switch, an extra cost",
       "On a standard gigabit network, speed matches non-2.5GbE picks",
-      "Diskless, drives sold separately",
+      "Diskless, drives sold separately"
     ],
     bestFor: "Buyers with (or planning) a 2.5GbE home network who want faster first backups",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "2.5GbE networking",
       "1GB DDR4 RAM",
       "ADM OS backup apps for Windows and Mac",
-      "4K media server support",
+      "4K media server support"
     ],
     pros: [
       "2.5GbE networking at entry-level pricing",
       "Quad-core CPU handles scheduled backup jobs smoothly",
       "Backup apps cover both Windows and Mac clients",
-      "Good value against similarly priced 2-bay options",
+      "Good value against similarly priced 2-bay options"
     ],
     cons: [
       "1GB RAM limits running much beyond backup and light file sharing",
       "Smaller app ecosystem than Synology or QNAP",
-      "Diskless, drives sold separately",
+      "Diskless, drives sold separately"
     ],
     bestFor: "First-time NAS buyers who want 2.5GbE speed without paying more than the budget tier",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "4GB RAM",
       "2.5GbE LAN",
       "TOS scheduled backup support",
-      "Diskless enclosure",
+      "Diskless enclosure"
     ],
     pros: [
       "Intel x86 CPU and 4GB RAM outclass ARM-based budget rivals",
       "2.5GbE networking included",
       "Handles backup plus light extra services comfortably",
-      "Competitive price for the hardware tier",
+      "Competitive price for the hardware tier"
     ],
     cons: [
       "Smaller software ecosystem than Synology or QNAP",
       "Diskless, drives sold separately",
-      "Less brand-name community support for troubleshooting",
+      "Less brand-name community support for troubleshooting"
     ],
     bestFor: "Buyers who want Intel-class CPU headroom for backup plus other light services",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "8GB RAM (highest in this list for a 2-bay)",
       "2.5GbE networking",
       "Hybrid Backup Sync for local + cloud jobs",
-      "QNAP QTS with full app store",
+      "QNAP QTS with full app store"
     ],
     pros: [
       "8GB RAM handles multiple concurrent backup jobs without slowdown",
       "Strong headroom for cloud replication alongside local backup",
       "Full QNAP app ecosystem for future expansion",
-      "2.5GbE networking included",
+      "2.5GbE networking included"
     ],
     cons: [
       "Most expensive 2-bay pick in this list",
       "Overkill if you're only backing up one computer",
-      "Diskless, drives add to total cost",
+      "Diskless, drives add to total cost"
     ],
     bestFor: "Buyers who want to run several concurrent backup and cloud-sync jobs without a bottleneck",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Intel Pentium Gold 8505 5-core CPU",
       "Supports RAID 5/6/10 configurations",
       "Handles multiple simultaneous backup jobs",
-      "Highest total capacity ceiling in this list",
+      "Highest total capacity ceiling in this list"
     ],
     pros: [
       "5-core Intel CPU handles multiple simultaneous backup jobs easily",
       "4 bays allow RAID 5/6/10 for better redundancy than a 2-bay",
       "Highest total capacity ceiling in this list",
-      "Room to add other services without impacting backup performance",
+      "Room to add other services without impacting backup performance"
     ],
     cons: [
       "Most expensive enclosure in this list",
       "Needs 4 matching drives, a significant added cost",
-      "More setup complexity than a simple 2-bay for a single computer",
+      "More setup complexity than a simple 2-bay for a single computer"
     ],
     bestFor: "Households or small offices backing up 3+ computers who want RAID flexibility",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "True total cost including drives",
     description: "Factored diskless enclosure price against the real drive cost needed to make each pick fully operational, not just the sticker price.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -481,11 +481,11 @@ export const faq: FaqItem[] = [
   {
     q: "Is a 2-bay NAS enough for backing up 2 computers?",
     a: "Yes, for 2 computers with typical document and photo backup needs, a 2-bay NAS like the Synology DS223 works well as long as you set a quota per computer so one machine's backup history doesn't consume the whole array. For 3 or more computers, or heavier media backup, a 4-bay with more RAM handles concurrent jobs more comfortably.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-nas-for-mac-and-time-machine-backup", title: "Best NAS for Mac and Time Machine Backup (2026)" },
   { href: "/guide/best-nas-for-plex-media-servers", title: "Best NAS for Plex Media Servers (2026)" },
-  { href: "/guide/best-nas-storage-for-home-office", title: "Best NAS Storage for Home Office (2026)" },
+  { href: "/guide/best-nas-storage-for-home-office", title: "Best NAS Storage for Home Office (2026)" }
 ];

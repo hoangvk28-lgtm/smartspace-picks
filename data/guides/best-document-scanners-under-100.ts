@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     description: "Unlike the handheld wand scanners in the lower price tier, this is a true sheet-fed scanner: you feed a single page in and it pulls the sheet through automatically at up to 15 pages per minute, a meaningfully faster and more hands-off process than dragging a wand. It scans one-sided at up to 1200 DPI and handles paper sizes from 2 by 2.9 inches up to 8.5 by 14 inches.\n\nIts free HP WorkScan software adds auto-scan and size detection along with cropping and background cleanup, features none of the flatbed or wand scanners in this comparison offer.\n\nBest for buyers who want automatic sheet feeding rather than manual page handling, even at a simplex, single-sided scan.",
     specs: ["Sheet-fed, 15ppm, up to 1200 DPI", "One-sided simplex scanning, USB 2.0 powered", "HP WorkScan software with auto-crop and cleanup"],
     pros: ["Automatic sheet feeding, no manual page dragging needed", "15ppm scan speed, faster than any wand scanner", "Free WorkScan software adds auto-crop and cleanup"],
-    cons: ["Simplex only, can't scan both sides in one pass", "Priciest pick in this comparison at $139.99"],
+    cons: ["Simplex only, can't scan both sides in one pass", "Priciest pick in this comparison at under $140"],
     bestFor: "buyers who want automatic sheet feeding without paying for duplex scanning",
   },
   {
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A reliable flatbed scan at the lowest price", "Canon Canoscan Lide 300 Scanner"],
         ["Automatic sheet feeding without manual dragging", "HP HPPS100 Mobile Document & Photo Scanner"],
         ["The cheapest possible portable option", "Hczrc Portable Handheld Scanner"],
-        ["A wand that handles bound book pages", "AOZBZ Portable Handheld Document Scanner"],
+        ["A wand that handles bound book pages", "AOZBZ Portable Handheld Document Scanner"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $57", "Hczrc ($53.99) or AOZBZ ($56.99)"],
-        ["Under $70", "Canon Canoscan Lide 300 ($69.99)"],
-        ["Under $140", "HP HPPS100 ($139.99)"],
+        ["Under $57", "Hczrc (under $60) or AOZBZ (under $60)"],
+        ["Under $70", "Canon Canoscan Lide 300 (under $70)"],
+        ["Under $140", "HP HPPS100 (under $140)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Automatic Feeding vs Manual Scanning",
     cards: [
       { label: "Automatic feed (HP HPPS100)", text: "Pulls a single page through the scanner mechanically at 15ppm, faster and more consistent than manual technique, but simplex only." },
-      { label: "Manual scanning (Canon flatbed, Hczrc, AOZBZ)", text: "Either lays a page flat under a lid or requires a hand-dragged wand pass, both slower per page but cheaper." },
+      { label: "Manual scanning (Canon flatbed, Hczrc, AOZBZ)", text: "Either lays a page flat under a lid or requires a hand-dragged wand pass, both slower per page but cheaper." }
     ],
     note: "If you regularly scan multi-page stacks, the HP's automatic feed saves real time despite its higher price and simplex limitation.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Quick reference copies of receipts", "Hczrc or AOZBZ at 300 DPI mode"],
         ["Documents needing clear detail later", "HP HPPS100 at 1200 DPI"],
-        ["General desk-based document and photo scanning", "Canon Canoscan Lide 300 Scanner"],
+        ["General desk-based document and photo scanning", "Canon Canoscan Lide 300 Scanner"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Scanning Multi-Page Stacks Specifically",
     cards: [
       { label: "Look for", text: "Automatic sheet feeding rather than a manual flatbed or wand process that requires handling each page individually." },
-      { label: "In this comparison", text: "The HP HPPS100 is the only pick with true automatic sheet feeding at 15 pages per minute." },
+      { label: "In this comparison", text: "The HP HPPS100 is the only pick with true automatic sheet feeding at 15 pages per minute." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want faster, hands-off multi-page scanning, where the HP HPPS100's automatic feed justifies its higher price over the manual picks." },
-      { label: "Save if", text: "You mainly scan single pages occasionally, where the Canon Canoscan Lide 300 delivers a reliable flatbed scan for under $70." },
+      { label: "Save if", text: "You mainly scan single pages occasionally, where the Canon Canoscan Lide 300 delivers a reliable flatbed scan for under $70." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Maximum flanking storage with integrated charging", "Hlivelood Queen Size Murphy Bed with 2 Storage Cabinets and LED Lights"],
         ["The highest weight capacity and flexible installation", "Wilding Wallbeds Murphy Bed Frame Queen DIY Hardware Kit"],
         ["A complete mattress-included bundle with in-bed charging", "CECER Queen Murphy Bed with Mattress, Storage and Charging Station"],
-        ["A mattress-included, drilling-free option at the lowest price", "PUREMIND Murphy Bed Queen with Mattress Included"],
+        ["A mattress-included, drilling-free option at the lowest price", "PUREMIND Murphy Bed Queen with Mattress Included"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $700", "PUREMIND ($698.98)"],
-        ["Under $730", "CECER ($729.98)"],
-        ["Under $880", "Wilding Wallbeds ($875.00)"],
-        ["Under $1000", "Hlivelood ($999.99)"],
+        ["Under $700", "PUREMIND (under $700)"],
+        ["Under $730", "CECER (under $750)"],
+        ["Under $880", "Wilding Wallbeds (under $900)"],
+        ["Under $1000", "Hlivelood (under $1,000)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Mattress-Included Bundle vs Hardware-Only or Bring-Your-Own Mattress",
     cards: [
       { label: "Mattress included (CECER, PUREMIND)", text: "Removes the guesswork of finding a mattress that folds properly, with the frame and mattress engineered together as a matched set." },
-      { label: "Bring your own mattress (Hlivelood, Wilding Wallbeds)", text: "Offers more flexibility to use a mattress you already own or prefer, but requires careful checking of thickness and weight compatibility." },
+      { label: "Bring your own mattress (Hlivelood, Wilding Wallbeds)", text: "Offers more flexibility to use a mattress you already own or prefer, but requires careful checking of thickness and weight compatibility." }
     ],
     note: "If you don't already own a compatible mattress or want to avoid the compatibility guesswork entirely, the CECER or PUREMIND's included mattress is genuinely convenient. If you have a specific mattress you already love, the Hlivelood or Wilding Wallbeds let you use it, provided it fits the stated specs.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Renting, no drilling allowed", "PUREMIND (freestanding)"],
         ["Own home, flexible closet or wall install", "Wilding Wallbeds"],
-        ["Own home, permanent wall mount with storage", "Hlivelood or CECER"],
+        ["Own home, permanent wall mount with storage", "Hlivelood or CECER"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Guest Bedroom That Doubles as a Home Office Specifically",
     cards: [
       { label: "Look for", text: "Built-in charging ports positioned conveniently for both bed use and desk-adjacent device charging, plus ample storage to keep guest bedding out of sight during workdays." },
-      { label: "In this comparison", text: "The CECER pick's 2 USB ports and 2 AC outlets alongside its storage drawer specifically support a dual-purpose guest room and home office setup." },
+      { label: "In this comparison", text: "The CECER pick's 2 USB ports and 2 AC outlets alongside its storage drawer specifically support a dual-purpose guest room and home office setup." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want maximum flanking storage cabinets with integrated charging and LED lighting, where the Hlivelood pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You want a complete mattress-included bundle without needing extensive storage, where the PUREMIND pick covers that for about $301 less." },
+      { label: "Save if", text: "You want a complete mattress-included bundle without needing extensive storage, where the PUREMIND pick covers that for about $301 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

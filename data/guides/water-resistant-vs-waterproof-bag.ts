@@ -12,7 +12,7 @@ export const waterResistantVsWaterproofBagGuide: Guide = {
     "water resistant bag laptop protection",
     "is waterproof bag worth it",
     "water resistant vs waterproof difference",
-    "bag rain protection laptop",
+    "bag rain protection laptop"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const waterResistantVsWaterproofBagGuide: Guide = {
     "laptop-backpack-vs-messenger-bag",
     "laptop-bag-compartment-organization",
     "laptop-sleeve-vs-hard-case",
-    "laptop-privacy-screen-explained",
+    "laptop-privacy-screen-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const waterResistantVsWaterproofBagGuide: Guide = {
       question: "Does zipper design affect a bag's actual water resistance?",
       answer:
         "Yes significantly, even a bag made from water-resistant fabric can let water in through standard zippers, which aren't sealed, genuinely waterproof bags typically use specially sealed or water-resistant zippers to address this common weak point.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const waterResistantVsWaterproofBagGuide: Guide = {
     {
       heading: "Why Actual Usage Conditions Should Determine Which Level You Need",
       body: `If your typical commute involves brief outdoor exposure, a short walk between a car and building entrance, occasional light rain, water-resistant protection adequately handles this realistic use case without paying for waterproofing you won't fully utilize. If you regularly walk longer distances in unpredictable weather, wait at outdoor transit stops during rain, or otherwise face genuine sustained wet conditions, the added reliability of true waterproof construction represents a worthwhile investment specifically because it addresses a real, recurring risk to your laptop and other bag contents.`,
-    },
+    }
   ],
 };

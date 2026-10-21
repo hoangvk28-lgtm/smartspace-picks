@@ -12,7 +12,7 @@ export const twentyTwentyTwentyRuleExplainedGuide: Guide = {
     "what is the 20-20-20 rule",
     "eye strain break rule",
     "how to remember 20-20-20 rule",
-    "screen break habit for eyes",
+    "screen break habit for eyes"
   ],
   heroImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const twentyTwentyTwentyRuleExplainedGuide: Guide = {
     "blue-light-glasses-explained",
     "monitor-brightness-and-eye-strain",
     "monitor-size-chart",
-    "how-to-measure-office-chair-fit",
+    "how-to-measure-office-chair-fit"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const twentyTwentyTwentyRuleExplainedGuide: Guide = {
       question: "Is 20 feet an exact requirement or just a rough guideline?",
       answer:
         "It's a rough, memorable guideline rather than a precise scientific threshold, the core principle is shifting focus to a substantially farther distance than your screen for a meaningful break, exact distance matters less than genuinely changing focus point and duration.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const twentyTwentyTwentyRuleExplainedGuide: Guide = {
     {
       heading: "Making the Habit Actually Stick",
       body: `Knowing the rule and consistently following it are different challenges, since it's easy to lose track of time during focused work. Setting a recurring timer, using a dedicated eye-break app, or enabling a built-in reminder feature if your operating system or browser offers one removes the need to consciously remember, turning the 20-20-20 rule into an automatic prompt rather than something you have to actively recall during an absorbing work session.`,
-    },
+    }
   ],
 };

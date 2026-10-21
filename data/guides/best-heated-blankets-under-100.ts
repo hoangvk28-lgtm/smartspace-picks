@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41A7w7zAjHL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D52VQJV1?tag=deskfinds0d-20",
-    "description": "HychYAYA is a cordless 70 by 40 inch heated blanket with a 20,000 mAh battery included, three heat levels and nine heating zones. It is powered by USB and the listing says the battery runs it at home, in the office or in a car.\n\nIt is the cheapest model here at $52.99, and unlike the greenoak style USB blankets, the battery is included. It heats less than corded models and covers less area.\n\nBest for a drafty office or car where there is no outlet. The caveat is that runtime depends on heat setting and the listing excerpt we reviewed does not give hours.",
+    "description": "HychYAYA is a cordless 70 by 40 inch heated blanket with a 20,000 mAh battery included, three heat levels and nine heating zones. It is powered by USB and the listing says the battery runs it at home, in the office or in a car.\n\nIt is the cheapest model here at under $60, and unlike the greenoak style USB blankets, the battery is included. It heats less than corded models and covers less area.\n\nBest for a drafty office or car where there is no outlet. The caveat is that runtime depends on heat setting and the listing excerpt we reviewed does not give hours.",
     "specs": [
       "20,000 mAh battery included",
       "3 levels, 9 heating zones",
@@ -395,7 +395,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Save if",
-        "text": "You only need a cordless fix. HychYAYA Cordless Battery Heated Blanket is $52.99 with the battery included."
+        "text": "You only need a cordless fix. HychYAYA Cordless Battery Heated Blanket is under $60 with the battery included."
       }
     ]
   }

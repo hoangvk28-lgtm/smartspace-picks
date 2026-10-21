@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $67.99",
+          "Under $70",
           "SentrySafe Fireproof & Waterproof Document Box"
         ],
         [
-          "Around $72.79",
+          "Under $80",
           "SentrySafe 0.28 Cu Ft Fireproof & Waterproof Chest"
         ],
         [
-          "Around $105.32",
+          "Under $110",
           "SentrySafe Charcoal Gray Waterproof & Fireproof Safe with Keypad"
         ],
         [
-          "Around $127.48",
+          "Under $130",
           "DAYI 2.0 Cu Ft Home Safe with Fireproof/Waterproof Bag"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "SentrySafe 0.81 Cu Ft Fireproof & Waterproof Shelf Safe"
         ],
         [
-          "Around $489.99",
+          "Under $500",
           "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "Not exactly. Fire insulation, shelving, and door hardware all take up interior volume, so the nominal cubic-foot figure is always somewhat larger than what you can actually pack inside. Check interior dimensions and shelf layout, not just the headline capacity number."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe is aimed at buyers prioritizing 2.05 cu ft, ul 1hr at 1700-degreef." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe is aimed at buyers prioritizing 2.05 cu ft, ul 1hr at 1700-degreef." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"},{"href":"/guide/best-fireproof-safes-for-home","title":"Best Fireproof Safes for Home in 2026"},{"href":"/guide/best-fireproof-safes-for-document","title":"Best Fireproof Safes for Document in 2026"}];

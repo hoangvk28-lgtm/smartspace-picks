@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "1.2 Cubic Feet Small Fire Safe Box for Home, Fireproof Lock Box, Security Money Safe with and is built around personal small safe for home, positioning it for 1 5 cubic feet buyers specifically.\n\nANTI-THEFT ALARM & ANCHORING DESIGN is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 1 5 cubic feet, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["PERSONAL SMALL SAFE FOR HOME","ANTI-THEFT ALARM & ANCHORING DESIGN","COMBINATION LOCK BOX"],
     pros: ["PERSONAL SMALL SAFE FOR HOME, confirmed directly in the listing's own spec details","ANTI-THEFT ALARM & ANCHORING DESIGN, confirmed directly in the listing's own spec details","COMBINATION LOCK BOX, confirmed directly in the listing's own spec details"],
-    cons: ["At $69.99, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $70, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 1 5 cubic feet",
   },
   {
@@ -193,36 +193,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $69.99",
+          "Under $70",
           "1.2 Cubic Feet Small Fire Safe Box for Home"
         ],
         [
-          "Around $109.99",
+          "Under $110",
           "BlackSmith 1.5 Cu Ft Auto-Open Biometric Safe"
         ],
         [
-          "Around $161.49",
+          "Under $170",
           "1.2 Cu Ft Fireproof Safe Box with Digital Keypad"
         ],
         [
-          "Around $224.99",
+          "Under $250",
           "SentrySafe Fireproof & Waterproof Dial Combination Safe"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "SentrySafe 0.81 Cu Ft Fireproof & Waterproof Shelf Safe"
         ],
         [
-          "Around $259.00",
+          "Under $300",
           "SentrySafe 1.23 Cu Ft Digital Push Button Safe"
         ],
         [
-          "Around $787.00",
+          "Under $800",
           "Hollon Safe HS-610E 2-Hour Fireproof Office Safe"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -270,7 +270,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", "a": "BlackSmith 1.5 Cu Ft Auto-Open Biometric Safe is aimed at buyers prioritizing 1.5 cu ft, 0.1s biometric unlock" },
+  { "q": "Which product in this roundup earns the top overall recommendation?", "a": "BlackSmith 1.5 Cu Ft Auto-Open Biometric Safe is aimed at buyers prioritizing 1.5 cu ft, 0.1s biometric unlock" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-2-cu-ft-fireproof-safes","title":"Best 2 Cu ft Fireproof Safes in 2026"},{"href":"/guide/best-2-cubic-feet-fireproof-safes","title":"Best 2 Cubic Feet Fireproof Safes in 2026"},{"href":"/guide/best-4-cu-ft-fireproof-safes","title":"Best 4 Cu ft Fireproof Safes in 2026"}];

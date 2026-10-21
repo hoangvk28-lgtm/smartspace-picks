@@ -5,7 +5,7 @@ export const metaDescription = "Eight portable travel electric kettles compared 
 export const mainKeyword = "travel electric kettle";
 export const introParagraphs = [
   "A travel kettle has to survive three things a home kettle never meets: a suitcase, a hotel outlet and a country with a different mains voltage. That last one is the trap, because a single-voltage kettle plugged into a 230V wall can be ruined in seconds, while a dual-voltage one just needs a plug adapter. The first question for any travel kettle is therefore not size or price but which voltage it accepts.",
-  "The eight below run from a $13.99 collapsible silicone model to a $49.99 12-preset boiler. We compared them on listed specs: voltage range, wattage, capacity, temperature presets, steel grade, safety features and what comes in the box. Boil times on travel listings vary widely and several are garbled in the text, so we avoid relying on them."
+  "The eight below run from an under-$15 collapsible silicone model to an under-$50 12-preset boiler. We compared them on listed specs: voltage range, wattage, capacity, temperature presets, steel grade, safety features and what comes in the box. Boil times on travel listings vary widely and several are garbled in the text, so we avoid relying on them."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41y-Cl9zTZL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H82KPYKV?tag=deskfinds0d-20",
-    "description": "LUUPONKO runs on 100V to 240V, has a 316 stainless interior with double-wall construction, six presets from 113F to 212F with a real-time LCD, and a lid window to see boiling. A pressure relief lid is described.\n\nIt combines worldwide voltage with the more corrosion-resistant 316 steel at $29.99, below Jettle and Ikago. Against HULLIARD, it adds a lid window but states no carry case.\n\nBest for international travel with tea and coffee temperature needs. The caveat is that the listing says output varies with regional voltage, so boil time will differ abroad.",
+    "description": "LUUPONKO runs on 100V to 240V, has a 316 stainless interior with double-wall construction, six presets from 113F to 212F with a real-time LCD, and a lid window to see boiling. A pressure relief lid is described.\n\nIt combines worldwide voltage with the more corrosion-resistant 316 steel at under $30, below Jettle and Ikago. Against HULLIARD, it adds a lid window but states no carry case.\n\nBest for international travel with tea and coffee temperature needs. The caveat is that the listing says output varies with regional voltage, so boil time will differ abroad.",
     "specs": [
       "100V to 240V dual voltage",
       "316 stainless, double wall",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41zxe9-hDML._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DJ3NH26F?tag=deskfinds0d-20",
-    "description": "HULLIARD is a 450 ml, 100 to 240V kettle with 316 stainless, six presets from 113F to 212F, a real-time LCD, auto shut-off and boil-dry protection. It ships with a custom-fit thermal case and stands 8.7 inches tall.\n\nIts included case is the main difference from LUUPONKO, which states none. It costs $29.96, almost identical to LUUPONKO.\n\nChoose it if you want a protected pack-away kettle. The caveat is that a stated boil time in the listing reads inconsistently, so we do not rely on it.",
+    "description": "HULLIARD is a 450 ml, 100 to 240V kettle with 316 stainless, six presets from 113F to 212F, a real-time LCD, auto shut-off and boil-dry protection. It ships with a custom-fit thermal case and stands 8.7 inches tall.\n\nIts included case is the main difference from LUUPONKO, which states none. It costs under $30, almost identical to LUUPONKO.\n\nChoose it if you want a protected pack-away kettle. The caveat is that a stated boil time in the listing reads inconsistently, so we do not rely on it.",
     "specs": [
       "450ml, 100V to 240V",
       "316 stainless, 6 presets",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41rnxAZ7bIL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CMZFDWXS?tag=deskfinds0d-20",
-    "description": "HDQ adapts automatically across 110 to 240V, with an LCD touch screen offering six presets from 113F to 212F, a double-wall 316 stainless build and keep-warm mode. The listing says 6 to 8 minutes to 212F and notes it is not rechargeable.\n\nAutomatic adaptation means no voltage switch to forget, unlike manual-switch designs. At $26.99 it is cheaper than HULLIARD but states no carry accessories.\n\nBest for travelers who do not want to flip a switch. The caveat is that the listing says nothing about a case or cleaning brush.",
+    "description": "HDQ adapts automatically across 110 to 240V, with an LCD touch screen offering six presets from 113F to 212F, a double-wall 316 stainless build and keep-warm mode. The listing says 6 to 8 minutes to 212F and notes it is not rechargeable.\n\nAutomatic adaptation means no voltage switch to forget, unlike manual-switch designs. At under $30 it is cheaper than HULLIARD but states no carry accessories.\n\nBest for travelers who do not want to flip a switch. The caveat is that the listing says nothing about a case or cleaning brush.",
     "specs": [
       "110V to 240V automatic",
       "LCD touch, 6 presets",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31IlQmW9utL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CZQT1HG3?tag=deskfinds0d-20",
-    "description": "Ceaplot is a 350 ml, 110 to 240V kettle with an inner pot of 304 steel and an anti-limescale coating, four presets at 122F, 175F, 195F and 212F, an LCD display and a 9 inch height at about 1 pound. The kit includes a detachable cord, a cleaning brush and a storage bag.\n\nIts presets are chosen for baby formula, tea, coffee and boiling, which is a practical set. At $24.99 it is the cheapest of the full-featured dual-voltage models.\n\nBest for travelers who want a complete kit. The caveat is that it uses 304 steel rather than 316, and 350 ml is small.",
+    "description": "Ceaplot is a 350 ml, 110 to 240V kettle with an inner pot of 304 steel and an anti-limescale coating, four presets at 122F, 175F, 195F and 212F, an LCD display and a 9 inch height at about 1 pound. The kit includes a detachable cord, a cleaning brush and a storage bag.\n\nIts presets are chosen for baby formula, tea, coffee and boiling, which is a practical set. At under $25 it is the cheapest of the full-featured dual-voltage models.\n\nBest for travelers who want a complete kit. The caveat is that it uses 304 steel rather than 316, and 350 ml is small.",
     "specs": [
       "350ml, 110V to 240V",
       "Presets 122F, 175F, 195F, 212F",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41dmwrqF++L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GYXC8MPN?tag=deskfinds0d-20",
-    "description": "Ikago is a UL certified, 120V kettle with a 316 stainless interior, 1F temperature steps from 104F to 212F, a double-wall cool-touch body and 6 hour insulation, doubling as a cup. It runs at 350W for 450 ml.\n\nIt is the only UL-certified and insulated pick, which suits hotel rooms and drinking directly. At $35.14, it costs more than the dual-voltage models, and it is 120V only.\n\nChoose it for US travel with a precise temperature. The caveat is that 120V only means it is not for international use.",
+    "description": "Ikago is a UL certified, 120V kettle with a 316 stainless interior, 1F temperature steps from 104F to 212F, a double-wall cool-touch body and 6 hour insulation, doubling as a cup. It runs at 350W for 450 ml.\n\nIt is the only UL-certified and insulated pick, which suits hotel rooms and drinking directly. At under $40, it costs more than the dual-voltage models, and it is 120V only.\n\nChoose it for US travel with a precise temperature. The caveat is that 120V only means it is not for international use.",
     "specs": [
       "350W, 450 ml, 120V",
       "1F steps, 104F to 212F",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41GkXUEnV6L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0F1F9DQ4H?tag=deskfinds0d-20",
-    "description": "Rzlinn holds 450 ml at 300W with four NTC presets of 113, 131, 176 and 212F, 316 stainless lining, a one-way pressure release valve and a lid that auto-locks while boiling. The listing says boiling takes about 10 minutes.\n\nIts locking lid is the most safety-focused here, but it is 120V only and slower at 300W. It costs $28.99.\n\nBest for a safer lid on US trips. The caveat is the slow 300W heating, and you must not grasp the lid to pour.",
+    "description": "Rzlinn holds 450 ml at 300W with four NTC presets of 113, 131, 176 and 212F, 316 stainless lining, a one-way pressure release valve and a lid that auto-locks while boiling. The listing says boiling takes about 10 minutes.\n\nIts locking lid is the most safety-focused here, but it is 120V only and slower at 300W. It costs under $30.\n\nBest for a safer lid on US trips. The caveat is the slow 300W heating, and you must not grasp the lid to pour.",
     "specs": [
       "300W, 450 ml, 120V",
       "4 presets, 113F to 212F",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31ebkq3ydkL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0BFTMM5PC?tag=deskfinds0d-20",
-    "description": "Jettle is a 450 ml kettle with 12 temperature settings from 104F to 212F on an LED display, a 304 stainless interior, a steam vent and a slim 3.3 by 3.3 by 9.8 inch body weighing 1.54 pounds, with a 34.5 inch cord. It is for North America 110V.\n\nIt offers the finest control and the longest cord, and costs $49.99, the most here. The listing's boil time text is garbled, so we do not rely on it.\n\nChoose it for precise tea or coffee temperatures on North American trips. The caveat is the price and the 110V-only design.",
+    "description": "Jettle is a 450 ml kettle with 12 temperature settings from 104F to 212F on an LED display, a 304 stainless interior, a steam vent and a slim 3.3 by 3.3 by 9.8 inch body weighing 1.54 pounds, with a 34.5 inch cord. It is for North America 110V.\n\nIt offers the finest control and the longest cord, and costs under $50, the most here. The listing's boil time text is garbled, so we do not rely on it.\n\nChoose it for precise tea or coffee temperatures on North American trips. The caveat is the price and the 110V-only design.",
     "specs": [
       "12 settings, 104F to 212F",
       "450 ml, 110V, 1.54 lbs",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31oztKc+DnL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B08S7LMHMY?tag=deskfinds0d-20",
-    "description": "UpdateClassic is a foldable 0.6 liter, 600W kettle with a food-grade silicone body and a 304 stainless base, folding to 7.2 by 5.2 by 3.8 inches. It shuts off automatically when empty, and the listing claims boiling in 4 to 6 minutes.\n\nIt is the cheapest at $13.99 and the most packable, but silicone touches the water, unlike the all-steel kettles. It has no stated voltage range.\n\nBest for a very tight bag on a small budget. The caveat is that the silicone water contact and the lack of a stated voltage range make it a poor international choice.",
+    "description": "UpdateClassic is a foldable 0.6 liter, 600W kettle with a food-grade silicone body and a 304 stainless base, folding to 7.2 by 5.2 by 3.8 inches. It shuts off automatically when empty, and the listing claims boiling in 4 to 6 minutes.\n\nIt is the cheapest at under $15 and the most packable, but silicone touches the water, unlike the all-steel kettles. It has no stated voltage range.\n\nBest for a very tight bag on a small budget. The caveat is that the silicone water contact and the lack of a stated voltage range make it a poor international choice.",
     "specs": [
       "0.6L, 600W",
       "Silicone body, 304 steel base",
@@ -291,7 +291,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     "title": "Value for price",
-    "description": "Prices from $13.99 to $49.99 were compared with documented features."
+    "description": "Prices from roughly $15 to $50 were compared with documented features."
   }
 ];
 

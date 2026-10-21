@@ -12,7 +12,7 @@ export const phoneStandAngleExplainedGuide: Guide = {
     "best phone stand angle for desk",
     "phone stand angle for video calls",
     "adjustable angle phone stand",
-    "phone viewing angle neck strain",
+    "phone viewing angle neck strain"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const phoneStandAngleExplainedGuide: Guide = {
     "tablet-stand-vs-phone-stand",
     "monitor-distance-and-height-for-eye-comfort",
     "wireless-charging-stand-explained",
-    "adjustable-tablet-arm-explained",
+    "adjustable-tablet-arm-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const phoneStandAngleExplainedGuide: Guide = {
       question: "Should phone stand height factor into the angle decision too?",
       answer:
         "Yes, angle and height work together, a phone positioned too low on the desk may need a steeper angle to reach comfortable eye level, while a phone raised higher (on a riser or stand with height adjustment) may need a shallower angle for the same comfortable viewing experience.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const phoneStandAngleExplainedGuide: Guide = {
     {
       heading: "Why an Adjustable Stand Serves Varied Daily Uses Better",
       body: `Since the ideal angle genuinely differs between video calls, extended content viewing, and quick reference glancing while typing, a fixed-angle stand inevitably compromises on some of these use cases in favor of others. An adjustable stand, even one with just a few different angle positions rather than infinite adjustment, lets you match the angle to whatever specific task you're using your phone for at that moment, a small but genuinely useful flexibility for a desk phone stand used throughout a varied workday.`,
-    },
+    }
   ],
 };

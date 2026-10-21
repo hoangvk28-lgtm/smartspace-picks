@@ -12,7 +12,7 @@ export const monitorResolutionExplainedGuide: Guide = {
     "1080p vs 1440p monitor",
     "1440p vs 4k monitor for work",
     "best resolution for 27 inch monitor",
-    "does resolution matter for productivity",
+    "does resolution matter for productivity"
   ],
   heroImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const monitorResolutionExplainedGuide: Guide = {
     "monitor-size-chart",
     "refresh-rate-explained",
     "ultrawide-vs-dual-monitor",
-    "monitor-arm-size-chart",
+    "monitor-arm-size-chart"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const monitorResolutionExplainedGuide: Guide = {
       question: "Can I use Windows or macOS scaling to make 4K text bigger?",
       answer:
         "Yes, both operating systems support display scaling that makes 4K text and UI elements larger and easier to read while still benefiting from the sharper pixel detail, without scaling, 4K text at typical monitor sizes can appear too small to read comfortably.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const monitorResolutionExplainedGuide: Guide = {
     {
       heading: "Balancing Resolution Against GPU Capability",
       body: `For general office work, web browsing, and document editing, even a modest GPU handles 1440p or 4K without issue since these tasks aren't graphically demanding. For gaming or GPU-intensive creative work, resolution choice should factor in your actual graphics card's capability, jumping to 4K with a GPU that struggles to render games smoothly at that resolution leads to a frustrating mismatch between display quality and actual performance.`,
-    },
+    }
   ],
 };

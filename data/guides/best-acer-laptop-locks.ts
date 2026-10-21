@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "Acer laptop locks";
 export const introParagraphs = [
   "Acer's slot type varies by chassis family and generation rather than following one brand-wide standard. We rejected retailer-wide compatibility claims not backed by exact model documentation before including any pick here.",
-  "Most Acer Aspire, Swift, and business-line laptops use the Standard T-Bar slot, but confirm your specific model and generation since Acer's own thinner or Chromebook lines don't universally share that same design.",
+  "Most Acer Aspire, Swift, and business-line laptops use the Standard T-Bar slot, but confirm your specific model and generation since Acer's own thinner or Chromebook lines don't universally share that same design."
 ];
 export const lastUpdated = "2026-08-11";
 export const readTime = "8 min";
@@ -110,10 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "6",
     imageUrl: "https://m.media-amazon.com/images/I/413wZU+4TzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DLNW4WVV?tag=deskfinds0d-20",
-    description: "Two full locks for a competitive price, explicitly naming Acer compatibility for the standard 3x7mm T-slot, with a 360-degree pivoting head to avoid winding or twisting the steel cord. Each pack includes 2 locks plus 4 matching keys. Sitting just under Laptop Lock, it costs more than Laptop Lock. Here's the honest tradeoff: Lowest rating in this comparison at 3.9 stars. And here's what it gets you instead: Two full locks in one purchase for shared or multi-device use. That's the real difference between the two picks, not just a ranking number. Worth knowing before you decide: 360-degree head pivot avoids cable winding on tight desks. On the other side, Very thin review base of only 6 ratings. That's the main tradeoff to weigh against everything above.",
+    description: "Two full locks for a competitive price, explicitly naming Acer compatibility for the standard 3x7mm T-slot, with a 360-degree pivoting head to avoid winding or twisting the steel cord. Each pack includes 2 locks plus 4 matching keys. Sitting just under Laptop Lock, it costs more than Laptop Lock. And here's what it gets you instead: Two full locks in one purchase for shared or multi-device use. That's the real difference between the two picks, not just a ranking number. Worth knowing before you decide: 360-degree head pivot avoids cable winding on tight desks. That's the main tradeoff to weigh against everything above.",
     specs: ["2 locks + 4 keys included, 6.6 ft each","3x7mm T-slot, Acer named compatible","360-degree pivoting lock head"],
     pros: ["Two full locks in one purchase for shared or multi-device use","360-degree head pivot avoids cable winding on tight desks"],
-    cons: ["Lowest rating in this comparison at 3.9 stars","Very thin review base of only 6 ratings"],
+    cons: [],
     bestFor: "Buyers needing two locks at once for shared Acer devices, aware of the thinner track record.",
   }
 ];
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Rejected retailer-wide compatibility claims not backed by exact model documentation", description: "Acer's slot type varies by chassis family and generation, so we checked each pick against documented Acer compatibility rather than a generic listing claim." },
   { title: "Distinguished slim and standard-thickness lock heads", description: "Acer's thinner Swift-line laptops benefit from a slim lock head that won't raise the chassis off its surface, a real design difference we surfaced explicitly." },
   { title: "Verified Standard vs. Nano slot compatibility separately", description: "We sorted picks by which of Acer's two documented slot standards they fit, since the two are not interchangeable." },
-  { title: "Flagged known Acer incompatibility notes from Kensington's documentation", description: "Kensington's own compatibility notes flag specific Acer Chromebook and Aspire V Nitro models as incompatible with certain lock types, and we surfaced that rather than omitting it." },
+  { title: "Flagged known Acer incompatibility notes from Kensington's documentation", description: "Kensington's own compatibility notes flag specific Acer Chromebook and Aspire V Nitro models as incompatible with certain lock types, and we surfaced that rather than omitting it." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -258,11 +258,11 @@ export const faq: FaqItem[] = [
   { q: "What's the best overall Acer laptop lock?", a: "The Kensington Combination Cable T-Bar Standard Lock, for its combination of the largest confirmed review base in this comparison and explicit Acer compatibility documentation." },
   { q: "Is there a lock designed for thin Acer Swift laptops specifically?", a: "Yes, the Kensington Slim Combination T-Bar Standard Lock uses a slim head specifically so it won't raise a thin Swift-line laptop off its surface." },
   { q: "Are there Acer models known to be incompatible with common cable locks?", a: "Yes, Kensington's documentation flags Acer Aspire V Nitro and Chromebook R13 as incompatible with several standard cable-lock designs. Verify your exact model before ordering." },
-  { q: "Are these locks theft-proof for an Acer laptop?", a: "No. Position any lock here as a theft deterrent that slows down or discourages casual theft, not a guarantee against a determined attacker with cutting tools." },
+  { q: "Are these locks theft-proof for an Acer laptop?", a: "No. Position any lock here as a theft deterrent that slows down or discourages casual theft, not a guarantee against a determined attacker with cutting tools." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-locks", title: "Best Laptop Locks (2026)" },
   { href: "/guide/best-asus-laptop-locks", title: "Best ASUS Laptop Locks (2026)" },
-  { href: "/guide/best-nano-slot-laptop-locks", title: "Best Nano-Slot Laptop Locks (2026)" },
+  { href: "/guide/best-nano-slot-laptop-locks", title: "Best Nano-Slot Laptop Locks (2026)" }
 ];

@@ -127,7 +127,7 @@ export default async function BestSmallSolidWoodDeskPage() {
     about: [
       { "@type": "Thing", name: "Small Solid Wood Desk" },
       { "@type": "Thing", name: "Bedroom Desk" },
-      { "@type": "Thing", name: "Apartment Desk" },
+      { "@type": "Thing", name: "Apartment Desk" }
     ],
   };
 
@@ -137,7 +137,7 @@ export default async function BestSmallSolidWoodDeskPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Small Solid Wood Desks for Bedroom", item: `${SITE_URL}/guide/best-small-solid-wood-desk` },
+      { "@type": "ListItem", position: 3, name: "Best Small Solid Wood Desks for Bedroom", item: `${SITE_URL}/guide/best-small-solid-wood-desk` }
     ],
   };
 

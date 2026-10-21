@@ -223,7 +223,7 @@ export default async function BestDeskLampUnder30Page() {
             <div className="grid sm:grid-cols-2 gap-3">
               {[
                 { label: "Avoid", items: ["Harsh cool-white (6500K) lights spread light broadly and disrupt sleep", "Freestanding lamps that angle light upward into the room"] },
-                { label: "Prefer", items: ["Directional lamps (gooseneck, adjustable arm) focus light on desk only", "Warm settings (2700K--3000K) significantly less disruptive", "Lower brightness levels (20--40%) focused on desk surface"] },
+                { label: "Prefer", items: ["Directional lamps (gooseneck, adjustable arm) focus light on desk only", "Warm settings (2700K--3000K) significantly less disruptive", "Lower brightness levels (20--40%) focused on desk surface"] }
               ].map((col, i) => (
                 <div key={i} className={`p-4 rounded-xl border ${i === 0 ? "border-red-200 bg-red-50" : "border-cta/30 bg-cta-light/20"}`}>
                   <p className="text-xs font-bold uppercase tracking-widest mb-2" style={{ color: i === 0 ? "#dc2626" : "#16a34a" }}>{col.label}</p>
@@ -319,7 +319,7 @@ export default async function BestDeskLampUnder30Page() {
             {[
               { product: "Lepro (B08LMPCX3D)", context: "For most students", verdict: "-- 800 lumens, 25 light combinations, USB-powered, Forbes vetted. Under $25, covers every study scenario.", href: "#best-overall" },
               { product: "iVict clamp (B0C462K8S4)", context: "For small desks under 80 cm", verdict: "-- clips to the desk edge, zero surface footprint, flexible gooseneck, under $22.", href: "#best-clamp" },
-              { product: "iVict Gooseneck Clamp (B0BLK6RFGH)", context: "For dorm rooms with roommates", verdict: "-- directional warm-dimmable light that does not disturb a sleeping roommate.", href: "#best-dorm" },
+              { product: "iVict Gooseneck Clamp (B0BLK6RFGH)", context: "For dorm rooms with roommates", verdict: "-- directional warm-dimmable light that does not disturb a sleeping roommate.", href: "#best-dorm" }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
@@ -347,7 +347,7 @@ export default async function BestDeskLampUnder30Page() {
               { href: "/guide/best-dorm-items-under-25", title: "Best Dorm Items Under $25", desc: "25 high-impact dorm essentials on a student budget" },
               { href: "/guide/small-desk-setup", title: "Small Desk Setup Ideas", desc: "15 practical ideas for compact workspace setups" },
               { href: "/guide/desk-setup-essentials", title: "Desk Setup Essentials", desc: "15 must-have items for any desk setup" },
-              { href: "/guide/ergonomic-desk-setup", title: "Ergonomic Desk Setup", desc: "The correct way to position everything at your desk" },
+              { href: "/guide/ergonomic-desk-setup", title: "Ergonomic Desk Setup", desc: "The correct way to position everything at your desk" }
             ].map((g) => (
               <Link prefetch={false} key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
                 <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">

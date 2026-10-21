@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "modern desk clock";
 export const introParagraphs = [
   "We define modern here as minimalist, clean-lined, or polished contemporary design, deliberately excluding the flip clocks and gold-toned pieces covered in our vintage, retro, and antique-style guides. The four picks below span a silent minimalist wood clock, two polished marble pieces, and a no-frills digital display, all sharing a genuinely contemporary look rather than a throwback one.",
-  "If a vintage flip-clock mechanism or a warm antique-adjacent look actually appeals to you more, our vintage and antique-style desk clock guides cover that different aesthetic direction.",
+  "If a vintage flip-clock mechanism or a warm antique-adjacent look actually appeals to you more, our vintage and antique-style desk clock guides cover that different aesthetic direction."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "7 min";
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Selected only clocks with genuinely contemporary styling", description: "Excluded flip clocks, gold-toned pieces, and any vintage-leaning design from this guide, keeping the pool focused on minimalist or polished modern aesthetics." },
   { title: "Balanced minimalist and statement-piece modern styles", description: "Included both an understated wood clock and a bolder marble statement piece to cover the range of what modern styling can mean on a desk." },
   { title: "Confirmed listing language supports the modern label", description: "Prioritized products explicitly described as modern in their listings over ones we would have had to relabel ourselves." },
-  { title: "Covered both analog and digital modern options", description: "Included one modern-styled digital display alongside analog picks, since modern styling isn't exclusive to either display type." },
+  { title: "Covered both analog and digital modern options", description: "Included one modern-styled digital display alongside analog picks, since modern styling isn't exclusive to either display type." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -225,12 +225,12 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "What makes a desk clock modern rather than vintage?", a: "Modern styling means clean lines, minimal ornamentation, and a contemporary silhouette, while vintage styling leans into older design cues like flip mechanisms or warm gold tones. This guide excludes vintage-leaning picks entirely." },
   { q: "Are modern desk clocks always digital?", a: "No, several picks in this guide use genuine analog hands with a modern, minimalist face design. Modern refers to styling, not display type." },
-  { q: "Which modern desk clock is the most affordable?", a: "The LED corded digital clock at $25.99 is the most affordable pick in this guide, followed closely by the Navaris wood analog clock." },
-  { q: "Can a modern desk clock also be silent?", a: "Yes, several picks here use silent or non-ticking movements, a clean modern look and quiet operation aren't mutually exclusive." },
+  { q: "Which modern desk clock is the most affordable?", a: "The LED corded digital clock at under $30 is the most affordable pick in this guide, followed closely by the Navaris wood analog clock." },
+  { q: "Can a modern desk clock also be silent?", a: "Yes, several picks here use silent or non-ticking movements, a clean modern look and quiet operation aren't mutually exclusive." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-vintage-desk-clocks", title: "Best Vintage Desk Clocks (2026)" },
   { href: "/guide/best-marble-desk-clocks", title: "Best Marble Desk Clocks (2026)" },
-  { href: "/guide/best-analog-desk-clocks", title: "Best Analog Desk Clocks (2026)" },
+  { href: "/guide/best-analog-desk-clocks", title: "Best Analog Desk Clocks (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini pc for home server";
 export const introParagraphs = [
   "24/7 reliability for a home server depends more on idle power draw, sustained thermal behavior, and auto-power-on recovery after a power outage than on raw processor speed, worth checking these specifically rather than assuming a fast chip automatically makes a good always-on server.",
-  "Headless operation (running without a monitor attached) needs explicit verification, some mini PCs behave unpredictably or fail to boot without a display connected, worth confirming this before committing to a server closet or rack setup without a monitor.",
+  "Headless operation (running without a monitor attached) needs explicit verification, some mini PCs behave unpredictably or fail to boot without a display connected, worth confirming this before committing to a server closet or rack setup without a monitor."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,13 +26,13 @@ export const products: GuideProduct[] = [
     badge: "Best Mini PC for Home Servers Overall",
     name: "BOSGAME P4 Ultra Mini PC Gaming, Ryzen 7 7730U, 16GB RAM 1TB PCIe3.0 SSD",
     price: "$418.98",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "199 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51I+6dQFNyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GCH917SW?tag=deskfinds0d-20",
-    description: "A genuinely well-reviewed Ryzen 7 7730U build with 16GB RAM and 1TB SSD, a U-class chip appropriate for the efficient, always-on power draw a home server needs.\n\nIt earns the top spot in this comparison over GMKtec G11 Mini PC Ryzen Embedded R2514 16GB DDR4 RAM 256GB PCIe M.2 SSD for one main reason. High 4.7-star rating with a solid review base. On price, it's actually priced above GMKtec G11 Mini PC Ryzen Embedded R2514 16GB DDR4 RAM 256GB PCIe M.2 SSD, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Efficient U-class chip appropriate for 24/7 idle power draw. On the other side, Gaming branding suggests this isn't purpose-built for server use. That's the main tradeoff to weigh against everything above.",
+    description: "A genuinely well-reviewed Ryzen 7 7730U build with 16GB RAM and 1TB SSD, a U-class chip appropriate for the efficient, always-on power draw a home server needs.\n\nIt earns the top spot in this comparison over GMKtec G11 Mini PC Ryzen Embedded R2514 16GB DDR4 RAM 256GB PCIe M.2 SSD for one main reason. On price, it's actually priced above GMKtec G11 Mini PC Ryzen Embedded R2514 16GB DDR4 RAM 256GB PCIe M.2 SSD, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Efficient U-class chip appropriate for 24/7 idle power draw. On the other side, Gaming branding suggests this isn't purpose-built for server use. That's the main tradeoff to weigh against everything above.",
     specs: ["AMD Ryzen 7 7730U (efficient U-class)","16GB RAM","1TB PCIe SSD","High review rating"],
-    pros: ["High 4.7-star rating with a solid review base","Efficient U-class chip appropriate for 24/7 idle power draw","1TB fast storage for server workloads","16GB RAM covers typical home server needs"],
+    pros: ["Efficient U-class chip appropriate for 24/7 idle power draw","1TB fast storage for server workloads","16GB RAM covers typical home server needs"],
     cons: ["Verify auto-power-on-after-outage behavior through current reviews","Verify headless boot behavior without a monitor attached","Gaming branding suggests this isn't purpose-built for server use"],
     bestFor: "Buyers wanting a well-reviewed, efficient mini PC for always-on home server duties",
   },
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Low-Power Efficient Server Pick",
     name: "GMKtec G11 Mini PC Ryzen Embedded R2514 16GB DDR4 RAM 256GB PCIe M.2 SSD",
     price: "$309.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "435 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41y2SJA4I2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CXSRR796?tag=deskfinds0d-20",
     description: "A genuinely low-power Ryzen Embedded chip designed for efficient, always-on operation, appropriate for buyers prioritizing minimal 24/7 idle power draw for a home server.\n\nOne spot below BOSGAME P4 Ultra Mini PC Gaming in this ranking, it's priced lower than BOSGAME P4 Ultra Mini PC Gaming. The compromise here is straightforward: 256GB SSD may need expansion for larger server storage needs. What you gain in return: Genuinely low-power embedded chip designed for always-on operation. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Solid review base for confidence in continuous server use. On the other side, Embedded chip trades peak performance for efficiency. That's the main tradeoff to weigh against everything above.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best Home Server Pick with Dual NIC",
     name: "GMKtec M5 Ultra Gaming Mini PC Ryzen 7 7730U (Upgraded 7430U/ 5825U), 32GB RAM 512GB SSD Dual NIC",
     price: "$499.98",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "965 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41mRy1hD2yL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FW43RV3D?tag=deskfinds0d-20",
     description: "Dual NIC networking is a genuine advantage for home server use, appropriate for buyers wanting network segmentation, bonding, or router/firewall duties alongside general server workloads.\n\nSitting just under GMKtec G11 Mini PC Ryzen Embedded R2514 16GB DDR4 RAM 256GB PCIe M.2 SSD, it costs more than GMKtec G11 Mini PC Ryzen Embedded R2514 16GB DDR4 RAM 256GB PCIe M.2 SSD. Here's the honest tradeoff: Verify auto-power-on-after-outage behavior through current reviews. And here's what it gets you instead: Dual NIC networking genuinely useful for server-specific networking needs. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: 32GB RAM for running multiple services or VMs. On the other side, 512GB SSD may need expansion for larger storage needs. That's the main tradeoff to weigh against everything above.",
@@ -74,14 +74,14 @@ export const products: GuideProduct[] = [
     badge: "Best Value Home Server Pick",
     name: "BOSGAME P4 Ultra Mini PC Ryzen 7 7730U 16GB DDR4 1TB PCIe SSD",
     price: "$429.00",
-    rating: "4.0 stars from Amazon ratings",
-    reviews: "608 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41vyA6W1KWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBYB71GJ?tag=deskfinds0d-20",
-    description: "The same efficient Ryzen 7 7730U with 16GB RAM and 1TB PCIe SSD, appropriate for buyers wanting a straightforward home server build at a reasonable price.\n\nRanked just behind GMKtec M5 Ultra Gaming Mini PC Ryzen 7 7730U, it's priced lower than GMKtec M5 Ultra Gaming Mini PC Ryzen 7 7730U. The real tradeoff against that pick: More moderate 4.0-star rating, verify current reviews for reliability reports. In exchange, it offers this instead: Large review base for real-world reliability data. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Efficient U-class chip for 24/7 operation. On the other side, Verify headless boot behavior without a monitor attached. That's the main tradeoff to weigh against everything above.",
+    description: "The same efficient Ryzen 7 7730U with 16GB RAM and 1TB PCIe SSD, appropriate for buyers wanting a straightforward home server build at a reasonable price.\n\nRanked just behind GMKtec M5 Ultra Gaming Mini PC Ryzen 7 7730U, it's priced lower than GMKtec M5 Ultra Gaming Mini PC Ryzen 7 7730U. In exchange, it offers this instead: Large review base for real-world reliability data. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Efficient U-class chip for 24/7 operation. On the other side, Verify headless boot behavior without a monitor attached. That's the main tradeoff to weigh against everything above.",
     specs: ["AMD Ryzen 7 7730U","16GB DDR4 RAM","1TB PCIe SSD","Large review base"],
     pros: ["Large review base for real-world reliability data","Efficient U-class chip for 24/7 operation","1TB fast storage for server workloads","Reasonable price for the spec combination"],
-    cons: ["More moderate 4.0-star rating, verify current reviews for reliability reports","Verify auto-power-on-after-outage behavior specifically","Verify headless boot behavior without a monitor attached"],
+    cons: ["Verify auto-power-on-after-outage behavior specifically","Verify headless boot behavior without a monitor attached"],
     bestFor: "Budget-conscious buyers wanting a straightforward efficient home server build",
   },
   {
@@ -90,8 +90,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-RAM Home Server Pick",
     name: "GMKtec Gaming Mini PC Ryzen 7640HS (Beats 6800H/6800U) 16GB DDR5 512GB NVMe SSD Dual NIC",
     price: "$459.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "485 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ydc8fgeIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FLDC98GC?tag=deskfinds0d-20",
     description: "A genuine HS-class Ryzen 7640HS with dual NIC networking, appropriate for buyers wanting stronger sustained performance alongside server-specific networking capability.\n\nOne spot below BOSGAME P4 Ultra Mini PC Ryzen 7 7730U 16GB DDR4 1TB PCIe SSD in this ranking, it costs more than BOSGAME P4 Ultra Mini PC Ryzen 7 7730U 16GB DDR4 1TB PCIe SSD. The compromise here is straightforward: HS-class chip draws more idle power than a dedicated efficient U-class or embedded chip. What you gain in return: Genuine HS-class chip for stronger sustained server performance. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Dual NIC networking for server-specific network needs. On the other side, Higher price than the most budget-focused server picks. That's the main tradeoff to weigh against everything above.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "24/7 reliability factors weighted over raw processor speed", description: "Weighted idle power draw, sustained thermal behavior, and auto-power-on recovery more heavily than raw processor speed for genuine 24/7 server reliability." },
   { title: "Headless operation verification flagged as a real consideration", description: "Flagged that headless operation without a monitor attached needs explicit verification, since some mini PCs behave unpredictably without a display connected." },
   { title: "Dual NIC networking valued for server-specific network needs", description: "Valued genuine dual NIC networking for buyers wanting network segmentation, bonding, or router/firewall duties alongside general server workloads." },
-  { title: "Chip efficiency class matched to 24/7 idle power priorities", description: "Matched chip efficiency class (embedded, U-class, HS-class) to buyers' priorities between minimal idle power draw and stronger sustained performance." },
+  { title: "Chip efficiency class matched to 24/7 idle power priorities", description: "Matched chip efficiency class (embedded, U-class, HS-class) to buyers' priorities between minimal idle power draw and stronger sustained performance." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Does a faster processor make a better home server?", a: "Not necessarily, 24/7 reliability depends more on idle power draw, sustained thermals, and auto-power-on recovery than on raw processor speed." },
   { q: "Will my mini PC boot without a monitor attached?", a: "Not always reliably, headless operation needs explicit verification, some mini PCs behave unpredictably without a display connected." },
   { q: "Does a home server need to recover automatically after a power outage?", a: "Yes, verify auto-power-on-after-outage behavior specifically, since an unattended server needs to come back online without manual intervention." },
-  { q: "Is dual NIC networking useful for a home server?", a: "Yes, if you want network segmentation, bonding, or router/firewall duties alongside general server workloads." },
+  { q: "Is dual NIC networking useful for a home server?", a: "Yes, if you want network segmentation, bonding, or router/firewall duties alongside general server workloads." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pcs-for-nas-builds", title: "Best Mini PCs for NAS Builds (2026)" },
   { href: "/guide/best-mini-pcs-for-plex-servers", title: "Best Mini PCs for Plex Servers (2026)" },
-  { href: "/guide/best-fanless-mini-pcs", title: "Best Fanless Mini PCs (2026)" },
+  { href: "/guide/best-fanless-mini-pcs", title: "Best Fanless Mini PCs (2026)" }
 ];

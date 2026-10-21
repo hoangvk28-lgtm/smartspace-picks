@@ -5,7 +5,7 @@ export const metaDescription = "6 clip-on video lights we evaluated, with the CR
 export const mainKeyword = "clip-on video lighting";
 export const introParagraphs = [
   "A light's CRI (Color Rendering Index) determines how accurately it renders skin tones and colors on camera, a high CRI (95+) genuinely matters more for looking natural on a video call than raw brightness or a wide color temperature range, yet many listings bury or omit this spec entirely.",
-  "Clip mechanism thickness range matters just as much as for desk privacy panels, verify the clip fits your specific monitor or laptop screen thickness before assuming any clip-on light works universally.",
+  "Clip mechanism thickness range matters just as much as for desk privacy panels, verify the clip fits your specific monitor or laptop screen thickness before assuming any clip-on light works universally."
 ];
 export const lastUpdated = "2026-07-30";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Clip-On Video Light Overall",
     name: "Cyezcor Video Conference Lighting Kit, Ring Light for Monitor Clip On",
     price: "$19.98",
-    rating: "4.3 stars from 13,957 Amazon ratings",
-    reviews: "13,957 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41bsrlr6hiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08LZKSMRH?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best 5-Color 5-Brightness Clip-On Pick",
     name: "Video Conference Lighting Kit, Ring Light Clip on Laptop Monitor with 5 Dimmable Color & 5 Brightness Level for Webcam Lighting/Zoom Lighting/Remote Working/Self Broadcasting and Live Streaming, etc.",
     price: "$17.74",
-    rating: "4.4 stars from 6,958 Amazon ratings",
-    reviews: "6,958 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41A4zdsn9bL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08YJPJLFV?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-CRI Clip-On Pick",
     name: "ALTSON 60 LED Portable Selfie Light Video Conference Lighting with Clip & Camera Tripod Adapter Rechargeable 2200mAh CRI 97+, 3 Light Modes for Phone iPhone Webcam Laptop Photo Makeup",
     price: "$13.77",
-    rating: "4.6 stars from 6,170 Amazon ratings",
-    reviews: "6,170 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41DFP3dJ-xL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C2C9QT91?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Desk Clip-On Pick",
     name: "Evershop Ring Light for Laptop Desk Clip On,Small Computer Video Conference Lighting with Stand for Phone/Webcam/Monitor,5\" Portable Mini LED Selfie Light Desktop for Zoom Meeting/Video Call/Recording",
     price: "$21.99",
-    rating: "4.4 stars from 1,469 Amazon ratings",
-    reviews: "1,469 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51taeRRFx3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BLHHV648?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Simple On-Camera Clip Light",
     name: "InnoGear Ring Light for Computer On-Camera Monitor Video Conference Light",
     price: "$18.99",
-    rating: "4.2 stars from 375 Amazon ratings",
-    reviews: "375 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/414SjSteZVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F6TYSX29?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget 360 degrees Clip-On Pick",
     name: "Anautin Ring Light for Video Conference Lighting,360 degreesAdjustable,Portable LED Video Conference Lighting for Monitor,Laptop&Desktop Computer,Streaming Light for Zoom Meetings, Selfie Makeup, Video Calls",
     price: "$10.60",
-    rating: "4.4 stars from 152 Amazon ratings",
-    reviews: "152 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41P6ZIeAUXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FLPR9ZBK?tag=deskfinds0d-20",
     description:
@@ -127,7 +127,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "CRI disclosure as a real differentiator, not brightness alone", description: "Flagged which picks explicitly disclose a CRI (Color Rendering Index) rating, since accurate skin-tone rendering on camera depends more on this spec than raw brightness or color temperature range." },
   { title: "Clip mounting flexibility and fit", description: "Considered whether each pick offers just clip mounting or also a stand option, and noted that clip thickness compatibility with your specific screen should be verified regardless of which pick you choose." },
-  { title: "Review base as evidence of reliable real-world clip fit and build quality", description: "Weighed larger, more established review bases more heavily as evidence that a clip-on design fits a wide range of monitors and laptops reliably." },
+  { title: "Review base as evidence of reliable real-world clip fit and build quality", description: "Weighed larger, more established review bases more heavily as evidence that a clip-on design fits a wide range of monitors and laptops reliably." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -245,11 +245,11 @@ export const faq: FaqItem[] = [
   { q: "Is a rechargeable clip-on light better than a USB-powered one?", a: "It depends on your setup. A rechargeable battery frees you from being tethered to a USB port during calls, genuinely useful for a portable or frequently repositioned setup, though verify the battery life matches your typical call length." },
   { q: "Do I need adjustable color temperature on a clip-on light?", a: "It helps match the light to your room's ambient lighting throughout the day, a light with multiple color temperature and brightness settings offers more control than a fixed-setting design, though it's not essential if your lighting conditions stay consistent." },
   { q: "Can a clip-on light damage my monitor or laptop lid?", a: "A properly rated clip with padded jaws shouldn't mark most finishes, but check the specific listing's stated clip grip strength and padding material before clamping onto a thin or glossy screen edge repeatedly." },
-  { q: "Is USB power enough for a clip-on video light, or does it need a wall outlet?", a: "Most clip-on lights draw modest enough power to run from a laptop or powered USB hub, check the specific listed power draw if you're also running other USB devices from the same limited source." },
+  { q: "Is USB power enough for a clip-on video light, or does it need a wall outlet?", a: "Most clip-on lights draw modest enough power to run from a laptop or powered USB hub, check the specific listed power draw if you're also running other USB devices from the same limited source." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-battery-powered-video-lighting", title: "Best Battery-Powered Video Lighting (2026)" },
   { href: "/guide/best-adjustable-temperature-video-lighting", title: "Best Adjustable-Temperature Video Lighting (2026)" },
-  { href: "/guide/best-desk-lights-for-video-calls", title: "Best Desk Lights for Video Calls (2026)" },
+  { href: "/guide/best-desk-lights-for-video-calls", title: "Best Desk Lights for Video Calls (2026)" }
 ];

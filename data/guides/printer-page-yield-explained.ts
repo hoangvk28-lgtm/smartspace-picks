@@ -12,7 +12,7 @@ export const printerPageYieldExplainedGuide: Guide = {
     "what is printer page yield",
     "toner cartridge page yield meaning",
     "ink cartridge page count real",
-    "high yield vs standard cartridge",
+    "high yield vs standard cartridge"
   ],
   heroImage: "https://images.unsplash.com/photo-1613395450289-e560907d9308?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1613395450289-e560907d9308?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const printerPageYieldExplainedGuide: Guide = {
     "inkjet-vs-laser-printer",
     "toner-vs-ink-cost-explained",
     "printer-troubleshooting",
-    "wifi-vs-usb-printer",
+    "wifi-vs-usb-printer"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const printerPageYieldExplainedGuide: Guide = {
       question: "Is a higher page yield always better value?",
       answer:
         "Generally yes if you print enough volume to use the cartridge before it degrades or the printer becomes outdated, but for very infrequent printing, a lower-yield cartridge with a lower upfront cost might make more practical sense.",
-    },
+    }
   ],
   sections: [
     {
@@ -72,6 +72,6 @@ export const printerPageYieldExplainedGuide: Guide = {
     {
       heading: "Using Page Yield to Actually Compare Cartridges",
       body: `Since the test methodology is standardized across manufacturers, page yield numbers are still useful for comparing cartridges against each other, even if your real-world page count differs from the advertised figure. Divide cartridge price by stated page yield to get a rough cost-per-page figure for comparing standard versus high-yield options or comparing between printer models before buying.`,
-    },
+    }
   ],
 };

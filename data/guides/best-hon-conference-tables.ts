@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $229.99",
+          "Under $250",
           "ECACAD 7FT Conference Table"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "Tribesigns 8FT Boat-Shaped Conference Table"
         ],
         [
-          "Around $312.00",
+          "Under $350",
           "HON MOD Executive Desk Shell"
         ],
         [
-          "Around $312.00",
+          "Under $350",
           "HON MOD Executive Desk Shell"
         ],
         [
-          "Around $349.99",
+          "Under $350",
           "Tribesigns 8ft Conference Table for 10"
         ],
         [
-          "Around $350.00",
+          "Under $400",
           "Tribesigns 8FT Conference Table for 10"
         ],
         [
-          "Around $379.99",
+          "Under $400",
           "Tribesigns 8FT Conference Table for 10"
         ],
         [
-          "Around $389.99",
+          "Under $400",
           "Tribesigns 8ft Conference Table for 8-10"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "HON MOD Executive Desk Shell is aimed at buyers prioritizing 72\"w x 30\"d x 29\"h, 1.18\" laminate top." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "HON MOD Executive Desk Shell is aimed at buyers prioritizing 72\"w x 30\"d x 29\"h, 1.18\" laminate top." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-steelcase-conference-tables","title":"Best Steelcase Conference Tables in 2026"},{"href":"/guide/best-herman-miller-conference-tables","title":"Best Herman Miller Conference Tables in 2026"},{"href":"/guide/best-enwork-conference-tables","title":"Best Enwork Conference Tables in 2026"}];

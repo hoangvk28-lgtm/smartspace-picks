@@ -112,7 +112,7 @@ export default async function BestDeskHutchesWithStoragePage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Desk Hutches with Storage", item: `${SITE_URL}/guide/best-desk-hutches-with-storage` },
+      { "@type": "ListItem", position: 3, name: "Best Desk Hutches with Storage", item: `${SITE_URL}/guide/best-desk-hutches-with-storage` }
     ],
   };
 
@@ -298,7 +298,7 @@ export default async function BestDeskHutchesWithStoragePage() {
                     { type: "Drawer hutch", bestFor: "Small items, supplies, cables", notes: "ChooChoo, Marbrasse, Furinno drawer models" },
                     { type: "Pegboard hutch", bestFor: "Frequently accessed accessories", notes: "Marbrasse pegboard with hooks" },
                     { type: "Door + shelf hutch", bestFor: "Larger concealed storage", notes: "Bush Furniture Cabot model" },
-                    { type: "Cubby + basket", bestFor: "Flexible semi-enclosed storage", notes: "Open cubbies with optional basket inserts" },
+                    { type: "Cubby + basket", bestFor: "Flexible semi-enclosed storage", notes: "Open cubbies with optional basket inserts" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.type}</td>
@@ -328,14 +328,14 @@ export default async function BestDeskHutchesWithStoragePage() {
           <h2 className="text-xl font-bold text-ink mb-5 tracking-tight">Bottom Line</h2>
           <div className="space-y-4">
             {[
-              { context: "Best overall with storage", id: "marbrasse-4tier-storage", name: "Marbrasse 4-Tier Desktop Organizer with Drawer", verdict: " - 2,714 reviews at 4.4 stars, $41.98, most validated drawer model." },
-              { context: "Best pegboard", id: "marbrasse-pegboard-hutch", name: "Marbrasse Desktop Hutch with Pegboard", verdict: " - 312 reviews at 4.5 stars, $49.99, flexible accessory organization." },
-              { context: "Best premium with doors", id: "bush-cabot-storage", name: "Bush Furniture Cabot Hutch with Doors", verdict: " - 1,087 reviews at 4.6 stars, $129.99, fully enclosed with adjustable shelves." },
-              { context: "Best compact drawer", id: "choochoo-drawer-storage", name: "ChooChoo Desktop Bookshelf with Drawer", verdict: " - 564 reviews at 4.6 stars, $59.99, 5 shelves plus 1 drawer." },
-              { context: "Best mid-range", id: "bestier-storage-hutch", name: "Bestier Desktop Hutch with Storage", verdict: " - 523 reviews at 4.5 stars, $59.99, adjustable shelves with enclosed section." },
-              { context: "Best for dorm storage", id: "hoobro-led-storage", name: "HOOBRO Desktop Bookcase with Outlets and Drawer", verdict: " - 193 reviews at 4.6 stars, $49.99, LED, outlets, and drawer combined." },
-              { context: "Best wide storage", id: "choochoo-wide-storage", name: "ChooChoo 48-inch with Storage", verdict: " - 847 reviews at 4.5 stars, $64.99, largest hutch with enclosed storage option." },
-              { context: "Best budget drawer", id: "furinno-drawer-budget", name: "Furinno Basic Hutch with Drawer", verdict: " - 314 reviews at 4.3 stars, $34.99, entry-level enclosed storage." },
+              { context: "Best overall with storage", id: "marbrasse-4tier-storage", name: "Marbrasse 4-Tier Desktop Organizer with Drawer", verdict: " - Under $45, most validated drawer model." },
+              { context: "Best pegboard", id: "marbrasse-pegboard-hutch", name: "Marbrasse Desktop Hutch with Pegboard", verdict: " - Under $50, flexible accessory organization." },
+              { context: "Best premium with doors", id: "bush-cabot-storage", name: "Bush Furniture Cabot Hutch with Doors", verdict: " - Under $130, fully enclosed with adjustable shelves." },
+              { context: "Best compact drawer", id: "choochoo-drawer-storage", name: "ChooChoo Desktop Bookshelf with Drawer", verdict: " - Under $60, 5 shelves plus 1 drawer." },
+              { context: "Best mid-range", id: "bestier-storage-hutch", name: "Bestier Desktop Hutch with Storage", verdict: " - Under $60, adjustable shelves with enclosed section." },
+              { context: "Best for dorm storage", id: "hoobro-led-storage", name: "HOOBRO Desktop Bookcase with Outlets and Drawer", verdict: " - Under $50, LED, outlets, and drawer combined." },
+              { context: "Best wide storage", id: "choochoo-wide-storage", name: "ChooChoo 48-inch with Storage", verdict: " - Under $70, largest hutch with enclosed storage option." },
+              { context: "Best budget drawer", id: "furinno-drawer-budget", name: "Furinno Basic Hutch with Drawer", verdict: " - Under $35, entry-level enclosed storage." }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $1,169.00",
+          "Under $1,200",
           "AFERIY 3840Wh Portable Power Station"
         ],
         [
-          "Around $1,199.00",
+          "Under $1,200",
           "ABOK Ark3600 Portable Power Station"
         ],
         [
-          "Around $1,299.00",
+          "Under $1,300",
           "PECRON E3800LFP Portable Power Station"
         ],
         [
-          "Around $1,499.00",
+          "Under $1,500",
           "P5000 Pro Portable Power Station"
         ],
         [
-          "Around $1,799.99",
+          "Under $1,800",
           "OUPES Guardian 6000 V2 Portable Power Station"
         ],
         [
-          "Around $1,899.00",
+          "Under $1,900",
           "Jackery HomePower 3600 Plus Portable Power Station"
         ],
         [
-          "Around $2,097.00",
+          "Under $2,100",
           "PECRON Two E3600LFP Power Stations with 240V Double Voltage Hub"
         ],
         [
-          "Around $2,799.00",
+          "Under $2,800",
           "EcoFlow DELTA Pro 3 Portable Power Station"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "LiFePO4 (LFP) cells are generally considered more thermally stable than standard lithium-ion or lithium-polymer cells, with a lower risk of thermal runaway, and most current portable power stations have shifted to LFP for this reason. Still, verify UL or UL2743 safety certification directly rather than assuming chemistry alone guarantees safety."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "P5000 Pro Portable Power Station is aimed at buyers prioritizing 5120wh, 3600w, 112 lbs (39% lighter class)." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "P5000 Pro Portable Power Station is aimed at buyers prioritizing 5120wh, 3600w, 112 lbs (39% lighter class)." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-1000wh-portable-power-stations","title":"Best 1000Wh Portable Power Stations in 2026"},{"href":"/guide/best-500wh-portable-power-stations","title":"Best 500Wh Portable Power Stations in 2026"},{"href":"/guide/best-2000wh-portable-power-stations","title":"Best 2000Wh Portable Power Stations in 2026"}];

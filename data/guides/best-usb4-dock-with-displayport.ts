@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This dock's integrated USB4 cable is built directly into the unit, combining high-speed data, power delivery, and display support through one permanently attached connection rather than a separate cable that could be lost or swapped for a lower-quality one. Its combination of HDMI 2.1 and DisplayPort 1.4 outputs gives you two genuinely different connector types for whatever displays you have on hand.\n\nCompared to the StarTech and Plugable picks below, this one's 100W USB Power Delivery covers demanding laptops while its comprehensive USB-A and USB-C port selection handles a wide range of peripherals. Its built-in Gigabit Ethernet ensures stable wired network access independent of Wi-Fi conditions.\n\nBest for buyers who want an integrated cable design with both HDMI 2.1 and DisplayPort 1.4 outputs in one dock.",
     specs: ["Integrated USB4 cable, HDMI 2.1 + DisplayPort 1.4", "100W USB Power Delivery", "Gigabit Ethernet, comprehensive USB-A/USB-C ports"],
     pros: ["Integrated cable design eliminates a separate cable to lose or swap", "Both HDMI 2.1 and DisplayPort 1.4 outputs in one dock", "100W charging covers demanding laptops"],
-    cons: ["Highest price in this comparison at $259.99", "Integrated cable can't be replaced if damaged, unlike a detachable one"],
+    cons: ["Highest price in this comparison at under $300", "Integrated cable can't be replaced if damaged, unlike a detachable one"],
     bestFor: "buyers who want an integrated cable design with both HDMI 2.1 and DisplayPort 1.4",
   },
   {
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["An integrated cable with both HDMI 2.1 and DisplayPort 1.4", "Lenovo USB4 Smart Dock 5500"],
         ["Native uncompressed video for BYOD deployments", "StarTech Driverless USB-C Dual DisplayPort Dock"],
         ["Native uncompressed video at the lowest price", "StarTech Driverless Thunderbolt 3 Mini Dock"],
-        ["Office productivity displays with honest DisplayLink disclosure", "Plugable Dual DisplayPort & HDMI Docking Station"],
+        ["Office productivity displays with honest DisplayLink disclosure", "Plugable Dual DisplayPort & HDMI Docking Station"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $32", "StarTech Thunderbolt 3 Mini Dock ($31.99)"],
-        ["Under $110", "StarTech BYOD Dock ($109.99)"],
-        ["Under $160", "Plugable Dual DisplayPort & HDMI ($159.99)"],
-        ["Under $260", "Lenovo USB4 Smart Dock 5500 ($259.99)"],
+        ["Under $32", "StarTech Thunderbolt 3 Mini Dock (under $35)"],
+        ["Under $110", "StarTech BYOD Dock (under $110)"],
+        ["Under $160", "Plugable Dual DisplayPort & HDMI (under $160)"],
+        ["Under $260", "Lenovo USB4 Smart Dock 5500 (under $300)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Native GPU Video vs DisplayLink Compression",
     cards: [
       { label: "Native GPU video (both StarTech picks)", text: "Delivers uncompressed video with full gaming and protected content support, since it's powered directly by your laptop's own graphics hardware." },
-      { label: "DisplayLink compression (Plugable)", text: "Explicitly does not support gaming or protected content playback like Netflix or Hulu, since the video is processed in software rather than passed through natively." },
+      { label: "DisplayLink compression (Plugable)", text: "Explicitly does not support gaming or protected content playback like Netflix or Hulu, since the video is processed in software rather than passed through natively." }
     ],
     note: "If you need to game or stream protected video content through your external monitors, choose a native-video dock like either StarTech pick. If you only need displays for office productivity and web browsing, the Plugable DisplayLink dock's tradeoffs won't matter.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your setup context", "Recommended pick"],
       rows: [
         ["Corporate BYOD or shared workspace deployment", "StarTech Driverless USB-C Dual DisplayPort Dock"],
-        ["Single home office desk", "Lenovo USB4 Smart Dock 5500 or StarTech Mini Dock"],
+        ["Single home office desk", "Lenovo USB4 Smart Dock 5500 or StarTech Mini Dock"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Gaming or Streaming Protected Video Specifically",
     cards: [
       { label: "Look for", text: "A dock explicitly stating native, uncompressed video output rather than DisplayLink technology, since DisplayLink-based docks specifically cannot handle gaming or HDCP-protected content like Netflix." },
-      { label: "In this comparison", text: "Both StarTech picks specifically state native GPU-powered video with no software compression, directly supporting gaming and protected content playback." },
+      { label: "In this comparison", text: "Both StarTech picks specifically state native GPU-powered video with no software compression, directly supporting gaming and protected content playback." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want an integrated cable design with both HDMI 2.1 and DisplayPort 1.4 outputs in one dock, where the Lenovo pick justifies its $259.99 price." },
-      { label: "Save if", text: "You want native uncompressed dual DisplayPort output at the lowest possible price, where the StarTech Mini Dock delivers that for $31.99." },
+      { label: "Spend more if", text: "You want an integrated cable design with both HDMI 2.1 and DisplayPort 1.4 outputs in one dock, where the Lenovo pick justifies its under $300 price." },
+      { label: "Save if", text: "You want native uncompressed dual DisplayPort output at the lowest possible price, where the StarTech Mini Dock delivers that for under $35." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

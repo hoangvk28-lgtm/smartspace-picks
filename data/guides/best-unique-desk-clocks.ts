@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "unique desk clock";
 export const introParagraphs = [
   "We're defining unique here specifically as genuine rarity, a mechanism or material you don't commonly see in a desk accessory, rather than the broader eye-catching angle covered in our cool desk clocks guide. That means leaning harder into the flip-clock mechanism as a mechanically uncommon design and the marble and crystal materials as genuinely rare choices for a desk object, more than a typical plastic or metal clock.",
-  "This list shares products with our cool desk clocks guide since the underlying inventory covering genuinely distinctive clocks is limited, but the ranking and reasoning differ, read both if you're deciding between broad visual appeal and specific material or mechanical rarity.",
+  "This list shares products with our cool desk clocks guide since the underlying inventory covering genuinely distinctive clocks is limited, but the ranking and reasoning differ, read both if you're deciding between broad visual appeal and specific material or mechanical rarity."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "7 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Defined uniqueness as genuine rarity, not just visual appeal", description: "Ranked picks specifically by how uncommon their material or mechanism is compared to the broader desk clock market, a narrower lens than our cool desk clocks guide." },
   { title: "Distinguished material rarity from mechanism rarity", description: "Separated marble and crystal, rare for material, from flip clocks, rare for mechanism, and ranked accordingly rather than treating all forms of distinctiveness the same." },
   { title: "Compared this list's product pool against our cool desk clocks guide deliberately", description: "Acknowledged the overlapping inventory and intentionally reordered and reframed the reasoning around rarity specifically, rather than duplicating that guide's ranking." },
-  { title: "Excluded broadly popular styles even if visually striking", description: "Kept more common design categories like plain digital and analog clocks out of this list entirely, since popularity works against the rarity criteria this guide is built around." },
+  { title: "Excluded broadly popular styles even if visually striking", description: "Kept more common design categories like plain digital and analog clocks out of this list entirely, since popularity works against the rarity criteria this guide is built around." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -246,11 +246,11 @@ export const faq: FaqItem[] = [
   { q: "What makes a desk clock unique in this guide's ranking?", a: "Genuine rarity, either in material, like crystal or marble, or in mechanism, like a gear-driven flip clock, compared to the broader desk clock market." },
   { q: "What's the difference between this guide and your cool desk clocks guide?", a: "This guide ranks by strict rarity of material or mechanism, while the cool guide uses a broader definition of eye-catching appeal, using an overlapping but differently ordered product pool." },
   { q: "Is a crystal or a marble clock more unique?", a: "Both are genuinely rare materials for this category. Crystal rewards close inspection at a compact size, while marble makes a larger, more immediate statement." },
-  { q: "Are flip clocks considered unique?", a: "Yes, a gear-driven flip mechanism is uncommon compared to the standard hands or LED display used by most desk clocks, making it a genuine mechanism-based rarity pick." },
+  { q: "Are flip clocks considered unique?", a: "Yes, a gear-driven flip mechanism is uncommon compared to the standard hands or LED display used by most desk clocks, making it a genuine mechanism-based rarity pick." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-cool-desk-clocks", title: "Best Cool Desk Clocks (2026)" },
   { href: "/guide/best-crystal-desk-clocks", title: "Best Crystal Desk Clocks (2026)" },
-  { href: "/guide/best-marble-desk-clocks", title: "Best Marble Desk Clocks (2026)" },
+  { href: "/guide/best-marble-desk-clocks", title: "Best Marble Desk Clocks (2026)" }
 ];

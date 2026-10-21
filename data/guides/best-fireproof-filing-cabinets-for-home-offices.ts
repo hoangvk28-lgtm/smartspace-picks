@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "fireproof filing cabinet for home office";
 export const introParagraphs = [
   "Important honesty note before anything else: none of the cabinets in this guide carry a confirmed UL or ETL fireproof certification in their product listings. Fireproof is a specific, testable claim, backed by UL Class 350 for paper protection or UL Class 150 for digital media protection, and a cabinet that does not list this certification should not be assumed to survive a house fire. Every product below is a standard steel filing cabinet, included here as a security-and-durability alternative for buyers researching this category, not as a verified fireproof unit.",
-  "This guide compares 6 standard filing cabinets we evaluated based on product specs and buyer feedback, chosen because their steel construction and locking mechanisms are the closest available options to fire-resistant qualities within this search category, while being transparent that none confirm an actual fire rating. If genuine fire protection for documents or digital media is a real requirement, a dedicated fireproof safe with a stated UL Class 350 or 150 rating and a specific duration rating, such as 30 minutes or 1 hour, is what you should look for instead, and none of the picks below are a substitute for that. Prices range from $44.99 for a compact steel cabinet to $144.99 for a large lockable storage cabinet.",
+  "This guide compares 6 standard filing cabinets we evaluated based on product specs and buyer feedback, chosen because their steel construction and locking mechanisms are the closest available options to fire-resistant qualities within this search category, while being transparent that none confirm an actual fire rating. If genuine fire protection for documents or digital media is a real requirement, a dedicated fireproof safe with a stated UL Class 350 or 150 rating and a specific duration rating, such as 30 minutes or 1 hour, is what you should look for instead, and none of the picks below are a substitute for that. Prices range from under $45 for a compact steel cabinet to under $150 for a large lockable storage cabinet."
 ];
 export const lastUpdated = "2026-07-26";
 export const readTime = "9 min";
@@ -46,27 +46,27 @@ export const products: GuideProduct[] = [
     badge: "Heaviest-Duty Steel Cabinet, Not Fireproof-Certified",
     name: "Yizosh Metal Garage Storage Cabinet with 2 Doors and 5 Adjustable Shelves, Steel Lockable Cabinet",
     price: "$144.99",
-    rating: "4.4 stars from 5,174 Amazon ratings",
-    reviews: "5,174 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31VGu0v5vDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B3MB5F56?tag=deskfinds0d-20",
     description:
-      "Honesty check: this listing does not state any UL or ETL fireproof certification, so despite its 71-inch steel body and lockable doors, it should be treated as a heavy-duty storage cabinet rather than a fire-rated safe. Its all-steel construction and 5 adjustable shelves give it the largest and most robust build in this list, with the biggest review base by a wide margin at 5,174 ratings.\n\nIf your main goal is a genuinely fireproof unit, this cabinet is not it, regardless of how solid its steel construction feels. It is included here as the sturdiest standard cabinet in this search category, a reasonable choice for general lockable storage and document security against casual access, but not against fire.\n\nLargest review base at 5,174 ratings. On the other hand, no UL or ETL fireproof certification of any kind. Both are worth keeping in mind before deciding.",
+      "Honesty check: this listing does not state any UL or ETL fireproof certification, so despite its 71-inch steel body and lockable doors, it should be treated as a heavy-duty storage cabinet rather than a fire-rated safe.\n\nIf your main goal is a genuinely fireproof unit, this cabinet is not it, regardless of how solid its steel construction feels. It is included here as the sturdiest standard cabinet in this search category, a reasonable choice for general lockable storage and document security against casual access, but not against fire.\n\nOn the other hand, no UL or ETL fireproof certification of any kind. Both are worth keeping in mind before deciding.",
     specs: [
       "2 doors, 5 adjustable shelves",
       "All-steel construction with lock",
       "71 inches tall",
-      "No fireproof certification stated",
+      "No fireproof certification stated"
     ],
     pros: [
       "Heaviest, most robust all-steel build in this list",
-      "Largest review base at 5,174 ratings",
       "Lockable for general document security",
+      "Five adjustable shelves fit varied box sizes",
     ],
     cons: [
       "No UL or ETL fireproof certification of any kind",
       "Not marketed or built as a fire-rated safe",
-      "Large footprint may not suit a small home office",
+      "Large footprint may not suit a small home office"
     ],
     bestFor: "Buyers who want the sturdiest standard steel cabinet for security, understanding it offers no fire protection",
   },
@@ -76,27 +76,27 @@ export const products: GuideProduct[] = [
     badge: "Best Locking Steel Cabinet, Not Fireproof-Certified",
     name: "Letaya Mobile File Cabinet with Lock, 2 Drawer Under Desk Metal Rolling Filing Cabinet",
     price: "$104.99",
-    rating: "4.5 stars from 1,373 Amazon ratings",
-    reviews: "1,373 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31jEnVOg-UL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CR18R9YM?tag=deskfinds0d-20",
     description:
-      "Honesty check: no fireproof or fire-resistant claim appears anywhere in this listing, so treat it strictly as a locking metal cabinet, not a fire-safety product. It ships fully assembled and fits letter, legal, and A4 hanging files, with rolling casters for under-desk placement.\n\nAt 4.5 stars across 1,373 ratings, it has the strongest feedback in this list. The lock adds protection against casual access to sensitive documents, which is a real and useful feature, but it is a completely separate function from fire protection and should not be confused with one.\n\nA genuine advantage here is that strong 4.5-star rating across 1,373 reviews. The tradeoff is that no fireproof or fire-resistant claim in the listing.",
+      "Honesty check: no fireproof or fire-resistant claim appears anywhere in this listing, so treat it strictly as a locking metal cabinet, not a fire-safety product. It ships fully assembled and fits letter, legal, and A4 hanging files, with rolling casters for under-desk placement.\n\nThe lock adds protection against casual access to sensitive documents, which is a real and useful feature, but it is a completely separate function from fire protection and should not be confused with one.\n\nThe tradeoff is that no fireproof or fire-resistant claim in the listing.",
     specs: [
       "2 drawers, fully assembled",
       "Metal construction with lock",
       "Fits letter, legal, A4 files",
-      "No fireproof certification stated",
+      "No fireproof certification stated"
     ],
     pros: [
       "Fully assembled, no setup required",
-      "Strong 4.5-star rating across 1,373 reviews",
       "Locking mechanism for basic access security",
+      "Rolling design slides under a desk",
     ],
     cons: [
       "No fireproof or fire-resistant claim in the listing",
       "Steel gauge not disclosed",
-      "Lock protects against access, not fire or heat damage",
+      "Lock protects against access, not fire or heat damage"
     ],
     bestFor: "Buyers who want a well-reviewed locking cabinet for access security, not fire protection",
   },
@@ -106,27 +106,27 @@ export const products: GuideProduct[] = [
     badge: "Best Fully Assembled 3-Drawer, Not Fireproof-Certified",
     name: "Letaya 3 Drawer Mobile File Cabinet with Lock, Under Desk Metal Filing Cabinet",
     price: "$99.99",
-    rating: "4.5 stars from 1,373 Amazon ratings",
-    reviews: "1,373 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Nz-Myx-1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09YVJN8R7?tag=deskfinds0d-20",
     description:
-      "Honesty check: this three-drawer cabinet's listing makes no fireproof or fire-resistant claim, so it is a standard metal filing cabinet included as a budget-friendly alternative, not a fire-rated unit. It ships fully assembled and fits letter, legal, and A4 hanging files across its three drawers.\n\nAt 4.5 stars across 1,373 ratings, feedback is strong. If document security against casual access is your goal, the lock on the top drawer serves that purpose reasonably well, but it offers no meaningful protection in an actual fire.\n\nStrong 4.5-star rating across 1,373 reviews. That said, no fireproof or fire-resistant claim in the listing. Neither should be a surprise once you know to look for it.",
+      "Honesty check: this three-drawer cabinet's listing makes no fireproof or fire-resistant claim, so it is a standard metal filing cabinet included as a budget-friendly alternative, not a fire-rated unit. It ships fully assembled and fits letter, legal, and A4 hanging files across its three drawers.\n\nIf document security against casual access is your goal, the lock on the top drawer serves that purpose reasonably well, but it offers no meaningful protection in an actual fire.\n\nThat said, no fireproof or fire-resistant claim in the listing. Neither should be a surprise once you know to look for it.",
     specs: [
       "3 drawers, fully assembled",
       "Fits letter, legal, A4 hanging files",
       "Locking mechanism included",
-      "No fireproof certification stated",
+      "No fireproof certification stated"
     ],
     pros: [
       "Fully assembled, no setup time required",
-      "Strong 4.5-star rating across 1,373 reviews",
       "Fits multiple hanging file sizes",
+      "Three drawers hold letter, legal and A4 hanging files",
     ],
     cons: [
       "No fireproof or fire-resistant claim in the listing",
       "Lock secures against access only, not fire or heat",
-      "Steel gauge not disclosed",
+      "Steel gauge not disclosed"
     ],
     bestFor: "Buyers who want a reliable standard 3-drawer cabinet, not a fire-rated unit",
   },
@@ -136,27 +136,27 @@ export const products: GuideProduct[] = [
     badge: "Best Lateral Steel Cabinet, Not Fireproof-Certified",
     name: "Letaya 2 Drawer File Cabinet with Lock, Metal Lateral Filing Cabinet",
     price: "$99.99",
-    rating: "4.2 stars from 1,671 Amazon ratings",
-    reviews: "1,671 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31ukHwAN+yL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTNJY2HB?tag=deskfinds0d-20",
     description:
-      "Honesty check: this lateral cabinet's listing does not mention fireproofing, fire resistance, or any UL/ETL certification, so it should be evaluated purely as a standard metal filing cabinet. Its wider lateral drawer body fits letter, legal, and A4 hanging files and needs more side clearance than a vertical cabinet.\n\nWith 1,671 ratings at 4.2 stars, feedback is solid. If you came to this category specifically for fire protection, this cabinet does not deliver it, though it remains a reasonable lateral filing option for general document storage and lockable access security.\n\nWorth calling out specifically: lateral design needs less front-to-back clearance. The catch is no fireproof or fire-resistant claim in the listing.",
+      "Honesty check: this lateral cabinet's listing does not mention fireproofing, fire resistance, or any UL/ETL certification, so it should be evaluated purely as a standard metal filing cabinet. Its wider lateral drawer body fits letter, legal, and A4 hanging files and needs more side clearance than a vertical cabinet.\n\nIf you came to this category specifically for fire protection, this cabinet does not deliver it, though it remains a reasonable lateral filing option for general document storage and lockable access security.\n\nWorth calling out specifically: lateral design needs less front-to-back clearance. The catch is no fireproof or fire-resistant claim in the listing.",
     specs: [
       "2 drawers, lateral orientation",
       "Metal construction with lock",
       "Fits letter, legal, A4 files",
-      "No fireproof certification stated",
+      "No fireproof certification stated"
     ],
     pros: [
-      "Solid 4.2-star rating across 1,671 reviews",
       "Lateral design needs less front-to-back clearance",
       "Locking mechanism included",
+      "Lateral layout opens along the wide side",
     ],
     cons: [
       "No fireproof or fire-resistant claim in the listing",
       "Needs more side clearance than vertical cabinets",
-      "Steel gauge not disclosed",
+      "Steel gauge not disclosed"
     ],
     bestFor: "Buyers who want a lateral standard cabinet and have separately sourced real fire protection elsewhere",
   },
@@ -166,27 +166,27 @@ export const products: GuideProduct[] = [
     badge: "Most Affordable, Not Fireproof-Certified",
     name: "GYIIYUO 2 Drawer File Cabinet with 24 Inch Extended Desktop, Mobile Filing Cabinet",
     price: "$56.99",
-    rating: "4.2 stars from 1,425 Amazon ratings",
-    reviews: "1,425 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Aix6uWuJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBZ98D94?tag=deskfinds0d-20",
     description:
-      "Honesty check: no fireproof, fire-resistant, or certification claim appears in this listing. Its fabric drawer fronts and extended 24-inch desktop surface make it a budget-friendly general filing and small workspace option, not a fire-safety product of any kind. At a competitive price with a 4.2-star rating across 1,425 reviews, it is the most affordable pick in this guide. Fabric drawers are also less heat and flame resistant than steel, so of all the picks here, this is the least suited to even a loose analogy of fire resistance, and buyers seeking genuine fireproofing should look elsewhere entirely. Most affordable pick in this list. Set against that, no fireproof or fire-resistant claim in the listing. Both matter when comparing it to the other picks here.",
+      "Honesty check: no fireproof, fire-resistant, or certification claim appears in this listing. Its fabric drawer fronts and extended 24-inch desktop surface make it a budget-friendly general filing and small workspace option, not a fire-safety product of any kind. Fabric drawers are also less heat and flame resistant than steel, so of all the picks here, this is the least suited to even a loose analogy of fire resistance, and buyers seeking genuine fireproofing should look elsewhere entirely. Most affordable pick in this list. Set against that, no fireproof or fire-resistant claim in the listing. Both matter when comparing it to the other picks here.",
     specs: [
       "2 drawers, fabric drawer fronts",
       "24-inch extended desktop surface",
       "Mobile casters with side bag",
-      "No fireproof certification stated",
+      "No fireproof certification stated"
     ],
     pros: [
       "Extended desktop adds usable surface space",
       "Most affordable pick in this list",
-      "Solid 4.2-star rating across 1,425 reviews",
+      "24 inch top surface adds workspace",
     ],
     cons: [
       "No fireproof or fire-resistant claim in the listing",
       "Fabric drawers offer less fire and heat resistance than steel",
-      "Not a true all-metal cabinet",
+      "Not a true all-metal cabinet"
     ],
     bestFor: "Budget buyers who accept this offers no fire protection and want general filing plus desk space",
   },
@@ -196,30 +196,30 @@ export const products: GuideProduct[] = [
     badge: "Most Compact Steel Cabinet, Not Fireproof-Certified",
     name: "SISESOL 2 Drawer File Cabinet with Lock, Narrow Vertical Filing Cabinet",
     price: "$44.99",
-    rating: "4.2 stars from 616 Amazon ratings",
-    reviews: "616 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31cXnfFFSML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQL795FX?tag=deskfinds0d-20",
     description:
-      "Honesty check: like every other pick in this guide, this listing makes no fireproof or fire-resistant claim, so it is a standard narrow steel cabinet, not a fire-safety product. It fits letter, A4, and legal files and is the lowest-priced pick here, with a compact footprint that suits tight home offices.\n\nAt 4.2 stars across 616 ratings, feedback is solid for its price point. If space and budget are your priorities and you are storing non-critical documents, this is a reasonable standard cabinet, but treat any resemblance to fire resistance as coincidental rather than certified.\n\nThe standout detail is that compact footprint suits tight home offices. Balancing that out, no fireproof or fire-resistant claim in the listing.",
+      "Honesty check: like every other pick in this guide, this listing makes no fireproof or fire-resistant claim, so it is a standard narrow steel cabinet, not a fire-safety product. It fits letter, A4, and legal files and is the lowest-priced pick here, with a compact footprint that suits tight home offices.\n\nIf space and budget are your priorities and you are storing non-critical documents, this is a reasonable standard cabinet, but treat any resemblance to fire resistance as coincidental rather than certified.\n\nThe standout detail is that compact footprint suits tight home offices. Balancing that out, no fireproof or fire-resistant claim in the listing.",
     specs: [
       "2 drawers, narrow vertical design",
       "Lock included",
       "Fits letter, A4, legal files",
-      "No fireproof certification stated",
+      "No fireproof certification stated"
     ],
     pros: [
       "Lowest price in this list",
       "Compact footprint suits tight home offices",
-      "Solid 4.2-star rating across 616 reviews",
+      "Narrow vertical shape saves floor space",
     ],
     cons: [
       "No fireproof or fire-resistant claim in the listing",
       "Smaller review base than the top-rated picks",
-      "Steel gauge not specified",
+      "Steel gauge not specified"
     ],
     bestFor: "Space and budget-conscious buyers storing non-critical documents, not seeking fire protection",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -252,7 +252,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Value for price given the absence of fire protection",
     description:
       "Compared price against build quality and feedback for each pick, factoring in that price differences here reflect drawer count and material, not any degree of fire resistance, since none is present.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -395,12 +395,12 @@ export const faq: FaqItem[] = [
   {
     q: "Why does this guide include cabinets with no fireproof rating at all?",
     a: "Because these are the actual products that surface when searching this category, and we would rather tell you plainly that none are certified than imply otherwise. If genuine fire protection matters to you, we recommend buying a dedicated, certified fireproof safe instead of any product in this guide.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-locking-filing-cabinets", title: "Best Locking Filing Cabinets (2026)" },
   { href: "/guide/best-metal-filing-cabinets", title: "Best Metal Filing Cabinets (2026)" },
   { href: "/guide/best-filing-cabinets-for-home-offices", title: "Best Filing Cabinets for Home Offices (2026)" },
-  { href: "/guide/best-filing-cabinets-for-small-spaces", title: "Best Filing Cabinets for Small Spaces (2026)" },
+  { href: "/guide/best-filing-cabinets-for-small-spaces", title: "Best Filing Cabinets for Small Spaces (2026)" }
 ];

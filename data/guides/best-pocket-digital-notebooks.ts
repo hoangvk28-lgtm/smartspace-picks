@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "pocket digital notebook";
 export const introParagraphs = [
   "This overlaps heavily with our small digital notebooks guide because the current product pool for both searches is the same: Rocketbook's reusable-paper lineup in different sizes. What we changed here is the test itself, instead of just ranking by page dimensions, we checked which sizes actually fit a real jacket pocket versus which ones only fit in a bag.",
-  "Only one size in the entire lineup passes an actual coat-pocket test without the folio or cover adding bulk that defeats the purpose. Everything else here is a bag-pocket or backpack-pocket fit, which is a meaningfully different use case.",
+  "Only one size in the entire lineup passes an actual coat-pocket test without the folio or cover adding bulk that defeats the purpose. Everything else here is a bag-pocket or backpack-pocket fit, which is a meaningfully different use case."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -46,8 +46,8 @@ export const products: GuideProduct[] = [
     reviews: "11,065",
     imageUrl: "https://m.media-amazon.com/images/I/41E9SFRPDeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CZF628C?tag=deskfinds0d-20",
-    description: "Same mini footprint as the pick above but spiral-bound, which fits a bag pocket or backpack front pocket more comfortably than a coat pocket because the spiral adds a little rigidity and width. With over 11,000 reviews it's the most-tested option at this size.\n\nOne spot below Rocketbook Mini Reusable Smart Notepad in this ranking, it's priced lower than Rocketbook Mini Reusable Smart Notepad. The compromise here is straightforward: Spiral binding adds bulk versus the notepad-format Mini. What you gain in return: Largest review base of any small-format pick, useful evidence on long-term wear. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Lowest price here. On the other side, Better suited to a bag pocket than a coat pocket. That's the main tradeoff to weigh against everything above.",
-    specs: ["Mini spiral-bound size","11,065 reviews at 4.4 stars","Reusable via damp-cloth erase"],
+    description: "Same mini footprint as the pick above but spiral-bound, which fits a bag pocket or backpack front pocket more comfortably than a coat pocket because the spiral adds a little rigidity and width.\n\nOne spot below Rocketbook Mini Reusable Smart Notepad in this ranking, it's priced lower than Rocketbook Mini Reusable Smart Notepad. The compromise here is straightforward: Spiral binding adds bulk versus the notepad-format Mini. What you gain in return: Largest review base of any small-format pick, useful evidence on long-term wear. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Lowest price here. On the other side, Better suited to a bag pocket than a coat pocket. That's the main tradeoff to weigh against everything above.",
+    specs: ["Mini spiral-bound size","Reusable via damp-cloth erase"],
     pros: ["Largest review base of any small-format pick, useful evidence on long-term wear","Lowest price here"],
     cons: ["Spiral binding adds bulk versus the notepad-format Mini","Better suited to a bag pocket than a coat pocket"],
     bestFor: "Buyers who want the most field-tested pocket-size option and don't mind a bag pocket rather than a coat pocket.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41VG6OVaZCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHYZ32M?tag=deskfinds0d-20",
     description: "Same executive footprint as the Core above, but with built-in planner and calendar page templates, and a much larger review base (23,751) to back up long-term durability claims. This is a bag-pocket size, not a coat-pocket size.\n\nRanked just behind Rocketbook Core Reusable Smart Notebook, it costs more than Rocketbook Core Reusable Smart Notebook. The real tradeoff against that pick: Not coat-pocket size. In exchange, it offers this instead: Second-largest review base in this comparison. That's the swap that decides whether this pick or the one above it is the better fit for your note-taking needs.\n\nWorth knowing before you decide: Planner templates add function beyond blank pages. On the other side, Costs more than the plain Core notebook at the same size. That's the main tradeoff to weigh against everything above.",
-    specs: ["6 x 8.8 in, planner templates built in","23,751 reviews at 4.4 stars","Reusable via damp-cloth erase"],
+    specs: ["6 x 8.8 in, planner templates built in","Reusable via damp-cloth erase"],
     pros: ["Second-largest review base in this comparison","Planner templates add function beyond blank pages"],
     cons: ["Not coat-pocket size","Costs more than the plain Core notebook at the same size"],
     bestFor: "Buyers who want a proven, well-reviewed bag-size notebook with built-in planning pages.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Actual jacket-pocket fit", description: "We checked dimensions against a standard men's and women's jacket breast pocket, not just \"smaller than letter size.\" Only the 3.5x5.5 in Mini passes this test." },
   { title: "Bag/backpack-pocket fit", description: "For sizes that fail the coat-pocket test, we checked whether they fit a typical bag or backpack front pocket instead, since that's a genuinely different but still relevant use case." },
   { title: "Writing area given up per size step", description: "We tracked how much page space is lost going from letter size down to Executive down to Mini, so buyers can weigh portability against how often they'll need to scan and erase." },
-  { title: "Review volume as durability evidence", description: "Because every product here is physically erased and reused hundreds of times, we weighted review count heavily as evidence the erase mechanism holds up." },
+  { title: "Review volume as durability evidence", description: "Because every product here is physically erased and reused hundreds of times, we weighted review count heavily as evidence the erase mechanism holds up." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Is this different from the small digital notebooks guide?", a: "The product pool overlaps almost completely, but this guide specifically tests coat-pocket versus bag-pocket fit rather than just ranking by page size." },
   { q: "Do I need a special pen?", a: "Yes, Pilot FriXion pens, usually included. A standard pen will not erase off the page." },
   { q: "Why include a full letter-size notebook in a pocket guide?", a: "To show how much writing area you give up by choosing a pocket-size option, and because it's still one of the most relevant products in the same product line." },
-  { q: "How do I get notes off the page?", a: "Scan or photograph each page with the Rocketbook app before wiping it with a damp cloth. There's no live wireless sync." },
+  { q: "How do I get notes off the page?", a: "Scan or photograph each page with the Rocketbook app before wiping it with a damp cloth. There's no live wireless sync." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-digital-notebooks", title: "Best Small Digital Notebooks (2026)" },
   { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" },
-  { href: "/guide/best-reusable-digital-notebooks", title: "Best Reusable Digital Notebooks (2026)" },
+  { href: "/guide/best-reusable-digital-notebooks", title: "Best Reusable Digital Notebooks (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "USB-C laptop cooling pads";
 export const introParagraphs = [
   "Most laptop cooling pads on the market use USB-A, and it's worth saying plainly: several listings that show up under general cooling pad searches explicitly state their cable is USB-to-USB (USB-A to USB-A) and note that Type-C laptops need a separate adapter. That's not a flaw, it's just the older, more universal connector, but it's not the same thing as a genuinely USB-C-cabled product.",
-  "This guide separates the pads that actually include a USB-C connector or cable from the ones that use USB-A and require an adapter for MacBooks and other USB-C-only laptops. We feature the genuinely USB-C picks first and clearly label the USB-A picks so you're not misled by a category search into buying the wrong connector type.",
+  "This guide separates the pads that actually include a USB-C connector or cable from the ones that use USB-A and require an adapter for MacBooks and other USB-C-only laptops. We feature the genuinely USB-C picks first and clearly label the USB-A picks so you're not misled by a category search into buying the wrong connector type."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "10 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Connector verification, not category assumption", description: "We checked each listing's actual cable and port description rather than assuming a modern-looking product includes USB-C. Several explicitly state USB-A only and require an adapter for Type-C laptops." },
   { title: "Distinguished port presence from cable inclusion", description: "We separated cases where a USB-C port is physically present on the pad from cases where only a USB-C cable is included for connecting to the laptop, since these solve different problems." },
   { title: "Charging versus data-only USB-C ports", description: "Where a pick includes USB-C ports on its hub, we noted whether the listing states they support charging or data only, since that affects what you can actually plug in." },
-  { title: "Honest inclusion of USB-A-only picks", description: "We kept strong USB-A-only pads in this guide with clear labeling rather than hiding them, since buyers comparing this category benefit from seeing the full connector landscape." },
+  { title: "Honest inclusion of USB-A-only picks", description: "We kept strong USB-A-only pads in this guide with clear labeling rather than hiding them, since buyers comparing this category benefit from seeing the full connector landscape." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -291,11 +291,11 @@ export const faq: FaqItem[] = [
   { q: "What's the difference between a USB-C cable and a USB-C port on a cooling pad?", a: "A USB-C cable lets you connect the pad to a Type-C laptop port. A USB-C port on the pad's own hub is a separate feature for connecting Type-C peripherals. A pad can have one without the other." },
   { q: "Can I use a USB-A cooling pad with a USB-C-only laptop?", a: "Yes, with a USB-C to USB-A adapter, which is inexpensive and widely available. Several strong cooling pads in this guide are USB-A only but work fine once an adapter is in the loop." },
   { q: "Do USB-C ports on cooling pad hubs support charging?", a: "Not always. Some hubs, like the Tilted Nation pick's 4-port hub, explicitly state their USB-C ports are for data only, not charging." },
-  { q: "Why do two pads from the same brand differ on USB-C support?", a: "Manufacturers often sell multiple models side by side with different connector configurations. Always check the specific model's listing rather than assuming consistency across a brand's lineup." },
+  { q: "Why do two pads from the same brand differ on USB-C support?", a: "Manufacturers often sell multiple models side by side with different connector configurations. Always check the specific model's listing rather than assuming consistency across a brand's lineup." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-usb-powered-laptop-cooling-pads", title: "Best USB-Powered Laptop Cooling Pads (2026)" },
   { href: "/guide/best-laptop-cooling-pads-with-usb-hubs", title: "Best Laptop Cooling Pads with USB Hubs (2026)" },
-  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" }
 ];

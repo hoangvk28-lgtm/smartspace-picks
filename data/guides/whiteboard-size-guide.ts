@@ -12,7 +12,7 @@ export const whiteboardSizeGuideGuide: Guide = {
     "what size whiteboard for home office",
     "small whiteboard vs large whiteboard",
     "whiteboard size for wall space",
-    "whiteboard dimensions guide",
+    "whiteboard dimensions guide"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const whiteboardSizeGuideGuide: Guide = {
     "wall-mounted-vs-desktop-planner-board",
     "whiteboard-vs-corkboard",
     "magnetic-vs-non-magnetic-whiteboard",
-    "desk-size-chart",
+    "desk-size-chart"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const whiteboardSizeGuideGuide: Guide = {
       question: "Should I measure before buying a whiteboard?",
       answer:
         "Yes, always measure your intended wall space before buying, checking both the board's dimensions against available wall area and confirming enough clearance from furniture, outlets, or other wall fixtures in that location.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const whiteboardSizeGuideGuide: Guide = {
     {
       heading: "Checking Clearance Beyond Just the Board's Own Dimensions",
       body: `Beyond the whiteboard's stated dimensions, confirm there's adequate clearance around the intended mounting location, enough space to comfortably write across the entire board without bumping into nearby furniture, and clear access to any outlets or switches that might be near the mounting area. This full-picture measurement check before buying prevents the disappointment of a board that technically fits the wall but creates practical friction in daily use.`,
-    },
+    }
   ],
 };

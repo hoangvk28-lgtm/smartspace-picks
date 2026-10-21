@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51NIKwkUZAL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H7VWWP3J?tag=deskfinds0d-20",
-    "description": "Monitor Memo Board 15.75\"x6.5\" is built around ultra-versatile desk accessories & office, paired with professional visible task reminder &, positioning it as a dedicated display stand for sticky notes or memos rather than a generic desk organizer.\n\nAt $14.99, it's the most expensive pick in this comparison, and that premium needs to be justified by genuinely using the extra features it carries over the cheaper options here.\n\nThis pick best suits buyers who want sticky notes or reminders visible at eye level instead of buried in a drawer or stuck to a monitor bezel. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "Monitor Memo Board 15.75\"x6.5\" is built around ultra-versatile desk accessories & office, paired with professional visible task reminder &, positioning it as a dedicated display stand for sticky notes or memos rather than a generic desk organizer.\n\nAt under $15, it's the most expensive pick in this comparison, and that premium needs to be justified by genuinely using the extra features it carries over the cheaper options here.\n\nThis pick best suits buyers who want sticky notes or reminders visible at eye level instead of buried in a drawer or stuck to a monitor bezel. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Ultra-Versatile Desk Accessories & Office",
       "Professional Visible Task Reminder &",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41Cp2xVcF3L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FM7KWDWY?tag=deskfinds0d-20",
-    "description": "BTSKY Golden Glass Sticky Note Holder for 3x3 Inch Sticky Notes is built around elegant gold-trimmed glass holder, paired with perfect fit for 3x3 inch notes, positioning it as a dedicated display stand for sticky notes or memos rather than a generic desk organizer.\n\nCompared to BOSSCASA Acrylic Sticky Note Holder at $5.99, it costs more for real added capability, while sitting well below Monitor Memo Board 15.75\"x6.5\" at $14.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want sticky notes or reminders visible at eye level instead of buried in a drawer or stuck to a monitor bezel. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "BTSKY Golden Glass Sticky Note Holder for 3x3 Inch Sticky Notes is built around elegant gold-trimmed glass holder, paired with perfect fit for 3x3 inch notes, positioning it as a dedicated display stand for sticky notes or memos rather than a generic desk organizer.\n\nCompared to BOSSCASA Acrylic Sticky Note Holder at under $6, it costs more for real added capability, while sitting well below Monitor Memo Board 15.75\"x6.5\" at under $15 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want sticky notes or reminders visible at eye level instead of buried in a drawer or stuck to a monitor bezel. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Elegant Gold-Trimmed Glass Holder",
       "Perfect Fit for 3x3 Inch Notes",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31T7HWhc3LL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GZKGLY7N?tag=deskfinds0d-20",
-    "description": "BTSKY Acrylic Monitor Memo Board Holder-15.8\"x4.7\" leads with adhesive-free screen protection, backed by compact & space-saving design, a combination aimed at as a dedicated display stand for sticky notes or memos rather than a generic desk organizer.\n\nIt lands between BOSSCASA Acrylic Sticky Note Holder's $5.99 price floor and Monitor Memo Board 15.75\"x6.5\"'s $14.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nBTSKY Acrylic Monitor Memo Board Holder-15.8\"x4.7\" is the right call for buyers who want sticky notes or reminders visible at eye level instead of buried in a drawer or stuck to a monitor bezel. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "BTSKY Acrylic Monitor Memo Board Holder-15.8\"x4.7\" leads with adhesive-free screen protection, backed by compact & space-saving design, a combination aimed at as a dedicated display stand for sticky notes or memos rather than a generic desk organizer.\n\nIt lands between BOSSCASA Acrylic Sticky Note Holder's under $6 price floor and Monitor Memo Board 15.75\"x6.5\"'s under $15 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nBTSKY Acrylic Monitor Memo Board Holder-15.8\"x4.7\" is the right call for buyers who want sticky notes or reminders visible at eye level instead of buried in a drawer or stuck to a monitor bezel. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Adhesive-Free Screen Protection",
       "Compact & Space-Saving Design",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41DJvJcjWLL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GZ3BCDLJ?tag=deskfinds0d-20",
-    "description": "What stands out on Acrylic Monitor Memo Board Holder 14\"x5\" is innovative adhesive-free design, alongside extra-large panel, which is the main reason it earns a spot in this note holders comparison.\n\nIt lands between BOSSCASA Acrylic Sticky Note Holder's $5.99 price floor and Monitor Memo Board 15.75\"x6.5\"'s $14.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nAcrylic Monitor Memo Board Holder 14\"x5\" is the right call for buyers who want sticky notes or reminders visible at eye level instead of buried in a drawer or stuck to a monitor bezel. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on Acrylic Monitor Memo Board Holder 14\"x5\" is innovative adhesive-free design, alongside extra-large panel, which is the main reason it earns a spot in this note holders comparison.\n\nIt lands between BOSSCASA Acrylic Sticky Note Holder's under $6 price floor and Monitor Memo Board 15.75\"x6.5\"'s under $15 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nAcrylic Monitor Memo Board Holder 14\"x5\" is the right call for buyers who want sticky notes or reminders visible at eye level instead of buried in a drawer or stuck to a monitor bezel. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Innovative Adhesive-Free Design",
       "Extra-Large Panel",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41Zq-0LrSOL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FPRLP8D5?tag=deskfinds0d-20",
-    "description": "What stands out on Detachable Acrylic Monitor Memo Board & Memo Message Board Holder by Computer Screen Sticky Note Stand Message Panel Reminder for Office Desk Accessories.2PCS Black is easy to carry:it can be, alongside declutters your desk:tired of a, which is the main reason it earns a spot in this note holders comparison.\n\nIt lands between BOSSCASA Acrylic Sticky Note Holder's $5.99 price floor and Monitor Memo Board 15.75\"x6.5\"'s $14.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nDetachable Acrylic Monitor Memo Board & Memo Message Board Holder by Computer Screen Sticky Note Stand Message Panel Reminder for Office Desk Accessories.2PCS Black is the right call for buyers who want sticky notes or reminders visible at eye level instead of buried in a drawer or stuck to a monitor bezel. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on Detachable Acrylic Monitor Memo Board & Memo Message Board Holder by Computer Screen Sticky Note Stand Message Panel Reminder for Office Desk Accessories.2PCS Black is easy to carry:it can be, alongside declutters your desk:tired of a, which is the main reason it earns a spot in this note holders comparison.\n\nIt lands between BOSSCASA Acrylic Sticky Note Holder's under $6 price floor and Monitor Memo Board 15.75\"x6.5\"'s under $15 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nDetachable Acrylic Monitor Memo Board & Memo Message Board Holder by Computer Screen Sticky Note Stand Message Panel Reminder for Office Desk Accessories.2PCS Black is the right call for buyers who want sticky notes or reminders visible at eye level instead of buried in a drawer or stuck to a monitor bezel. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Easy to Carry:It can be",
       "Declutters Your Desk:Tired of a",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31NdovgvrQL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H6FQCGQ6?tag=deskfinds0d-20",
-    "description": "What stands out on 1-Pack Freestanding Monitor Memo Board with Base is freestanding design with stable base, alongside no-adhesive & no-damage desktop organizer, which is the main reason it earns a spot in this note holders comparison.\n\nCompared to BOSSCASA Acrylic Sticky Note Holder at $5.99, it costs more for real added capability, while sitting well below Monitor Memo Board 15.75\"x6.5\" at $14.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want sticky notes or reminders visible at eye level instead of buried in a drawer or stuck to a monitor bezel. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "What stands out on 1-Pack Freestanding Monitor Memo Board with Base is freestanding design with stable base, alongside no-adhesive & no-damage desktop organizer, which is the main reason it earns a spot in this note holders comparison.\n\nCompared to BOSSCASA Acrylic Sticky Note Holder at under $6, it costs more for real added capability, while sitting well below Monitor Memo Board 15.75\"x6.5\" at under $15 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want sticky notes or reminders visible at eye level instead of buried in a drawer or stuck to a monitor bezel. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Freestanding Design with Stable Base",
       "No-Adhesive & No-Damage Desktop Organizer",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41hxYpEZ-NL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0BPBBC9QP?tag=deskfinds0d-20",
-    "description": "BOSSCASA Acrylic Sticky Note Holder leads with self-stick note pad holder, backed by easy access, a combination aimed at as a dedicated display stand for sticky notes or memos rather than a generic desk organizer.\n\nPriced at $5.99, the lowest in this lineup, it trades some of the extras found on pricier picks here for a lower upfront cost, a reasonable tradeoff if your needs are basic.\n\nBOSSCASA Acrylic Sticky Note Holder is the right call for buyers who want sticky notes or reminders visible at eye level instead of buried in a drawer or stuck to a monitor bezel. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "BOSSCASA Acrylic Sticky Note Holder leads with self-stick note pad holder, backed by easy access, a combination aimed at as a dedicated display stand for sticky notes or memos rather than a generic desk organizer.\n\nPriced at under $6, the lowest in this lineup, it trades some of the extras found on pricier picks here for a lower upfront cost, a reasonable tradeoff if your needs are basic.\n\nBOSSCASA Acrylic Sticky Note Holder is the right call for buyers who want sticky notes or reminders visible at eye level instead of buried in a drawer or stuck to a monitor bezel. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Self-Stick Note Pad Holder",
       "Easy Access",
@@ -293,31 +293,31 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $5.99",
+          "Under $6",
           "BOSSCASA Acrylic Sticky Note Holder"
         ],
         [
-          "Around $6.79",
+          "Under $7",
           "1-Pack Freestanding Monitor Memo Board with Base"
         ],
         [
-          "Around $9.98",
+          "Under $10",
           "Detachable Acrylic Monitor Memo Board & Memo Message Board Holder by Computer Screen Sticky Note Stand Message Panel Reminder for Office Desk Accessories.2PCS Black"
         ],
         [
-          "Around $11.49",
+          "Under $15",
           "Acrylic Monitor Memo Board Holder 14\"x5\""
         ],
         [
-          "Around $12.99",
+          "Under $15",
           "BTSKY Golden Glass Sticky Note Holder for 3x3 Inch Sticky Notes"
         ],
         [
-          "Around $12.99",
+          "Under $15",
           "BTSKY Acrylic Monitor Memo Board Holder-15.8\"x4.7\""
         ],
         [
-          "Around $14.99",
+          "Under $15",
           "Monitor Memo Board 15.75\"x6.5\""
         ]
       ]
@@ -328,11 +328,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "BOSSCASA Acrylic Sticky Note Holder",
-        "text": "The lowest-priced pick in this comparison at $5.99, a solid choice if you don't need the extras the pricier picks carry."
+        "text": "The lowest-priced pick in this comparison at under $6, a solid choice if you don't need the extras the pricier picks carry."
       },
       {
         "label": "Monitor Memo Board 15.75\"x6.5\"",
-        "text": "The highest-priced pick at $14.99, worth it only if you'll actually use what that premium buys."
+        "text": "The highest-priced pick at under $15, worth it only if you'll actually use what that premium buys."
       }
     ],
     "note": "Default to BOSSCASA Acrylic Sticky Note Holder unless the pricier pick's specific advantage genuinely applies to your situation."
@@ -392,7 +392,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "What's the real difference between the cheapest and most expensive pick here?",
-    "a": "BOSSCASA Acrylic Sticky Note Holder at $5.99 covers the basics, while Monitor Memo Board 15.75\"x6.5\" at $14.99 adds a larger display area and double-sided visibility. Whether that's worth the difference depends on whether you need to save desk space with a monitor mount or prefer a traditional freestanding display."
+    "a": "BOSSCASA Acrylic Sticky Note Holder at under $6 covers the basics, while Monitor Memo Board 15.75\"x6.5\" at under $15 adds a larger display area and double-sided visibility. Whether that's worth the difference depends on whether you need to save desk space with a monitor mount or prefer a traditional freestanding display."
   },
   {
     "q": "Should I get a freestanding or monitor-mounted note holder?",
@@ -404,7 +404,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "Is there a solid middle-ground pick in this price range?",
-    "a": "Acrylic Monitor Memo Board Holder 14\"x5\" at $11.49 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
+    "a": "Acrylic Monitor Memo Board Holder 14\"x5\" at under $15 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
   },
   {
     "q": "What's the most common mistake buyers make shopping note holders under $15?",

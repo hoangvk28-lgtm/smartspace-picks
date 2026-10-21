@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Wireless daisy chain without a physical cable", "Wireless Conference Speaker, 2-in-1 Daisy Chain for 30 People"],
         ["An extension mic for extra-large or irregular rooms", "RayBit Conference Speaker with Wireless Dongle and Daisy Chain"],
         ["A satellite-mic setup with expansion to 25 attendees", "EMEET Luna Plus Kit + Luna USB Bluetooth Speakerphone"],
-        ["An established brand without kit complexity", "Yealink CP900 USB Speakerphone with BT50"],
+        ["An established brand without kit complexity", "Yealink CP900 USB Speakerphone with BT50"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $170", "RayBit ($169.99)"],
-        ["Under $185", "EMEET Luna Plus + Luna Bundle ($184.78)"],
-        ["Under $192", "Yealink CP900 ($191.67)"],
-        ["Under $212", "Wireless Daisy Chain for 30 People ($211.65)"],
+        ["Under $170", "RayBit (under $170)"],
+        ["Under $185", "EMEET Luna Plus + Luna Bundle (under $190)"],
+        ["Under $192", "Yealink CP900 (under $200)"],
+        ["Under $212", "Wireless Daisy Chain for 30 People (under $250)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Wireless Cascading vs Wired Daisy Chain",
     cards: [
       { label: "Wireless cascading (Wireless Daisy Chain pick)", text: "Avoids running a physical cable between two units, more convenient for rooms where the two placement points aren't close together." },
-      { label: "Wired daisy chain (EMEET Luna Plus bundle)", text: "Trades cable-routing convenience for a more stable, interference-free connection, better in electronically noisy office environments." },
+      { label: "Wired daisy chain (EMEET Luna Plus bundle)", text: "Trades cable-routing convenience for a more stable, interference-free connection, better in electronically noisy office environments." }
     ],
     note: "If your two speakerphone placements are far apart or awkward to cable together, the wireless cascading option is worth the tradeoff. If your office has significant electronic interference, the wired EMEET bundle's stability claim is the safer bet.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Extra-large or irregularly shaped single room", "RayBit with extension mic"],
         ["Standard large conference room, single unit", "Yealink CP900"],
-        ["Two-zone room needing cascaded coverage", "Wireless Daisy Chain pick or EMEET Luna Plus bundle"],
+        ["Two-zone room needing cascaded coverage", "Wireless Daisy Chain pick or EMEET Luna Plus bundle"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Growing Company Outfitting Multiple Meeting Rooms Specifically",
     cards: [
       { label: "Look for", text: "An established brand with a broader product line spanning multiple price tiers, so future purchases for other rooms can standardize on the same ecosystem." },
-      { label: "In this comparison", text: "The Yealink CP900 pick's established brand presence, also represented in this series' lower tiers, specifically supports standardizing hardware across multiple rooms over time." },
+      { label: "In this comparison", text: "The Yealink CP900 pick's established brand presence, also represented in this series' lower tiers, specifically supports standardizing hardware across multiple rooms over time." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You need wireless daisy chain cascading for a two-zone room without cable routing, where the Wireless Daisy Chain pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You need extra-large room coverage via an extension mic without cascading complexity, where the RayBit pick covers that for about $42 less." },
+      { label: "Save if", text: "You need extra-large room coverage via an extension mic without cascading complexity, where the RayBit pick covers that for about $42 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

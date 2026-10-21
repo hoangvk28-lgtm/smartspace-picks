@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "Delivers up to 80Gbps over USB4 V2, described by Satechi as comparable to next-generation Thunderbolt-class performance for 8K video and professional workflows, with active thermal cooling to prevent throttling during long transfers.\n\nThe precision-milled aluminum housing is built desk-first rather than pocket-first, supporting 2280 NVMe SSDs up to 8TB. Ships with a Thunderbolt 5 cable, screwdriver and 4 screws, and a thermal pad, backed by Satechi's 2-year limited warranty.",
     specs: ["Up to 80Gbps USB4 V2","2280 only, up to 8TB","Precision-milled aluminum, desk-first design"],
     pros: ["Precision-milled aluminum housing built for a permanent desk setup","2-year limited warranty from an established accessory brand","Ships with a genuine Thunderbolt 5 cable included","Active thermal cooling for sustained transfers"],
-    cons: ["2280 only, no support for shorter M.2 sizes like 2230/2242","Priced at the top of this cluster ($199.99)"],
+    cons: ["2280 only, no support for shorter M.2 sizes like 2230/2242","Priced at the top of this cluster (under $200)"],
     bestFor: "buyers prioritizing up to 80gbps usb4 v2",
   }
 ];

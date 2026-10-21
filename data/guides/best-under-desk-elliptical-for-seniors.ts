@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "under desk elliptical for seniors";
 export const introParagraphs = [
   "For senior buyers, an under desk elliptical needs more than just a small footprint, it needs a remote that avoids bending down to adjust settings, stable low-impact motion, and ideally a motor that can move the pedals without requiring sustained active leg-driving effort. Several picks below add this passive, motorized movement on top of a standard manual design, which changes who each one is really built for.",
-  "Below are 8 under desk ellipticals we evaluated on remote convenience, passive versus active pedaling effort, noise level, and stability, ranging from a $59.99 lightweight portable pick to a $199.99 model with built-in red light therapy.",
+  "Below are 8 under desk ellipticals we evaluated on remote convenience, passive versus active pedaling effort, noise level, and stability, ranging from an under-$60 lightweight portable pick to an under-$200 model with built-in red light therapy."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "18-inch stride, low-impact motion",
       "25.4 lbs, battery powered",
       "LCD display + Bluetooth to Cubii App",
-      "Max user weight: 150 lbs",
+      "Max user weight: 150 lbs"
     ],
     pros: [
       "Gentle, low-impact motion that's easy on joints",
       "Simple LCD display, no app required to use it",
       "Lightweight and easy to position",
-      "Most proven pick in this guide",
+      "Most proven pick in this guide"
     ],
     cons: [
       "Requires active pedaling effort, not motorized",
       "150 lb max user weight is the lowest in this guide",
-      "No remote control, requires reaching down to adjust resistance",
+      "No remote control, requires reaching down to adjust resistance"
     ],
     bestFor: "Seniors who want a proven, low-impact manual pick and don't need a remote",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Forward/reverse, silent operation",
       "Remote control included",
       "Alloy steel frame, 2-year warranty",
-      "Max user weight: 500 lbs",
+      "Max user weight: 500 lbs"
     ],
     pros: [
       "Cheapest electric pick in this guide",
       "Highest weight capacity in this guide at 500 lbs",
       "Remote control avoids bending down",
-      "Both manual speeds and automatic programs available",
+      "Both manual speeds and automatic programs available"
     ],
     cons: [
       "Smaller review sample than the Cubii JR1",
       "No app connectivity for progress tracking",
-      "Automatic programs may move faster than some users prefer starting out",
+      "Automatic programs may move faster than some users prefer starting out"
     ],
     bestFor: "Seniors who want an affordable motorized pick with the highest weight capacity",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Ships fully assembled",
       "16-inch stride, remote control",
       "1-year warranty + 3-month return window",
-      "Max user weight: 500 lbs",
+      "Max user weight: 500 lbs"
     ],
     pros: [
       "Most-reviewed electric pick in this guide",
       "Ships fully assembled",
       "500 lb weight capacity",
-      "Lifetime after-sales support offered",
+      "Lifetime after-sales support offered"
     ],
     cons: [
       "Shorter warranty than the Putnen's 2 years",
       "No app connectivity",
-      "Similar feature set to the Putnen at a nearly identical price",
+      "Similar feature set to the Putnen at a nearly identical price"
     ],
     bestFor: "Seniors who want the most-reviewed motorized pick with easy setup",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Rated at 15dB (quietest in this guide)",
       "LED touchscreen + remote control",
       "11 lbs (lightest in this guide)",
-      "Max user weight: 250 lbs",
+      "Max user weight: 250 lbs"
     ],
     pros: [
       "Quietest pick in this guide at 15dB",
       "Lightest pick, easiest to lift and reposition",
       "Most automatic programs at 12",
-      "Both touchscreen and remote control options",
+      "Both touchscreen and remote control options"
     ],
     cons: [
       "250 lb max user weight is lower than the Putnen or GUGTTR",
       "Smaller review sample than the top picks",
-      "60W motor is lighter-duty than some other electric picks",
+      "60W motor is lighter-duty than some other electric picks"
     ],
     bestFor: "Seniors who want the quietest, lightest motorized pick to move around easily",
   },
@@ -185,18 +185,17 @@ export const products: GuideProduct[] = [
       "Remote control included",
       "LCD: time, speed, calories, distance",
       "6.5kg with built-in carry handle",
-      "Max user weight: 200 lbs",
+      "Max user weight: 200 lbs"
     ],
     pros: [
       "Cheapest pick in this entire guide",
       "Lightest and most portable, with a built-in carry handle",
-      "Tied for the highest rating in this guide at 4.6 stars",
-      "Wide speed range from 13 to 105 RPM",
+      "Wide speed range from 13 to 105 RPM"
     ],
     cons: [
       "200 lb max user weight is on the lower end of this guide",
       "Smaller frame may feel less sturdy than heavier steel-frame picks",
-      "Air resistance may feel less consistent than magnetic resistance at low speeds",
+      "Air resistance may feel less consistent than magnetic resistance at low speeds"
     ],
     bestFor: "Seniors who want the cheapest, most portable pick to carry between rooms",
   },
@@ -217,18 +216,17 @@ export const products: GuideProduct[] = [
       "Forward/reverse, non-slip pedals",
       "Works standing or seated (only manual dual-mode pick)",
       "LCD + müüv app",
-      "Max user weight: 250 lbs",
+      "Max user weight: 250 lbs"
     ],
     pros: [
       "Only manual pick with standing or seated flexibility",
       "Non-slip pedals add footing stability",
       "250 lb weight capacity",
-      "Well-established, widely reviewed pick",
+      "Well-established, widely reviewed pick"
     ],
     cons: [
       "Requires active pedaling effort, no motorized option",
-      "4.3 rating is the lowest among the top picks in this guide",
-      "No remote control, requires reaching down to adjust",
+      "No remote control, requires reaching down to adjust"
     ],
     bestFor: "Seniors who want to alternate between standing and seated use without a motor",
   },
@@ -243,24 +241,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41vsz0zWT9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMT1XCHJ?tag=deskfinds0d-20",
     description:
-      "The LifePro AutoGlide combines an electric motorized mode with a manual mode, 10 speeds in each, and forward/reverse direction across both. It's the only pick in this guide with built-in red light therapy, 630nm and 660nm LEDs on each pedal, marketed for reducing inflammation and supporting rehab, a feature worth researching against your own needs before relying on it.\n\nA remote plus LCD cover controls, and its 500 lb max user weight matches the highest capacity picks in this guide. Worth noting: with only 60 reviews, its track record is far smaller than every other pick here, so treat early impressions with some caution.\n\nWorth calling out specifically: both motorized and manual modes in one unit. The catch is only 60 reviews, far smaller sample than every other pick in this guide.",
+      "The LifePro AutoGlide combines an electric motorized mode with a manual mode, 10 speeds in each, and forward/reverse direction across both. It's the only pick in this guide with built-in red light therapy, 630nm and 660nm LEDs on each pedal, marketed for reducing inflammation and supporting rehab, a feature worth researching against your own needs before relying on it.\n\nA remote plus LCD cover controls, and its 500 lb max user weight matches the highest capacity picks in this guide.\n\nWorth calling out specifically: both motorized and manual modes in one unit.",
     specs: [
       "Electric motorized + manual mode, 10 speeds per mode",
       "Forward/reverse",
       "Built-in red light therapy (630nm/660nm LEDs)",
       "Remote + LCD, lifetime customer support",
-      "Max user weight: 500 lbs",
+      "Max user weight: 500 lbs"
     ],
     pros: [
       "Only pick with built-in red light therapy",
       "Both motorized and manual modes in one unit",
       "500 lb weight capacity",
-      "Lifetime customer support offered",
+      "Lifetime customer support offered"
     ],
     cons: [
-      "Only 60 reviews, far smaller sample than every other pick in this guide",
       "Most expensive pick in this guide",
-      "Red light therapy benefit claims should be researched independently before relying on them",
+      "Red light therapy benefit claims should be researched independently before relying on them"
     ],
     bestFor: "Seniors specifically interested in red light therapy alongside motorized movement, with the caveat of a limited review history",
   },
@@ -281,21 +278,20 @@ export const products: GuideProduct[] = [
       "Hand-held remote on 6-foot cord (longest in this guide)",
       "Automatic 15-minute timer",
       "Foldable pedals, floor mat included",
-      "Max user weight: 286 lbs",
+      "Max user weight: 286 lbs"
     ],
     pros: [
       "Longest remote cord in this guide at 6 feet",
       "Fully passive movement, no active pedaling needed",
       "Works for both arms and legs",
-      "Includes a floor mat",
+      "Includes a floor mat"
     ],
     cons: [
       "286 lb max user weight is lower than the Putnen or GUGTTR",
-      "4.3 rating is on the lower end for this guide",
-      "Passive-only design, no manual resistance mode",
+      "Passive-only design, no manual resistance mode"
     ],
     bestFor: "Seniors who want the remote to stay within easy reach at all times",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +319,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed motor type, weight capacity, and included features like remotes or warranties against price, from the Yagud to the LifePro AutoGlide.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -468,7 +464,7 @@ export const faq: FaqItem[] = [
   },
   {
     q: "Is the LifePro AutoGlide's red light therapy feature worth it?",
-    a: "It's the only pick in this guide with built-in red light therapy, marketed for reducing inflammation and supporting rehab, but it has only 60 reviews backing it, a far smaller track record than the other picks here. Research the therapy claims independently and treat it as a newer, less-proven feature rather than a guaranteed benefit.",
+    a: "Research the therapy claims independently and treat it as a newer, less-proven feature rather than a guaranteed benefit.",
   },
   {
     q: "How quiet are these under desk ellipticals for seniors during a video call?",
@@ -477,11 +473,11 @@ export const faq: FaqItem[] = [
   {
     q: "Do any of these picks work standing instead of seated?",
     a: "The Stamina InMotion E1000 is the only pick in this guide built to work both standing and seated, giving flexibility to alternate positions. Every other pick is designed for seated use under a desk.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-under-desk-elliptical", title: "Best Under Desk Ellipticals (2026)" },
   { href: "/guide/best-under-desk-bike-pedal-exerciser", title: "Best Under Desk Bike Pedal Exercisers (2026)" },
-  { href: "/guide/best-rocking-footrests-under-desk", title: "Best Rocking Footrests Under Desk (2026)" },
+  { href: "/guide/best-rocking-footrests-under-desk", title: "Best Rocking Footrests Under Desk (2026)" }
 ];

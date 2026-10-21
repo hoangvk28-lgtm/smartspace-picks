@@ -221,35 +221,35 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $13.49",
+          "Under $15",
           "NETGEAR GS305 5-Port Gigabit Unmanaged Switch"
         ],
         [
-          "Around $18.98",
+          "Under $20",
           "NETGEAR GS305E 5-Port Easy Smart Managed Switch"
         ],
         [
-          "Around $18.99",
+          "Under $20",
           "NETGEAR GS308 8-Port Gigabit Unmanaged Switch"
         ],
         [
-          "Around $23.99",
+          "Under $25",
           "NETGEAR GS308E 8-Port Easy Smart Managed Switch"
         ],
         [
-          "Around $44.99",
+          "Under $45",
           "NETGEAR GS305P 5-Port PoE Gigabit Switch"
         ],
         [
-          "Around $69.99",
+          "Under $70",
           "NETGEAR GS324 24-Port Gigabit Unmanaged Switch"
         ],
         [
-          "Around $69.99",
+          "Under $70",
           "NETGEAR GS316v3 16-Port Fanless Unmanaged Switch"
         ],
         [
-          "Around $79.99",
+          "Under $80",
           "NETGEAR GS308EP 8-Port PoE+ Smart Managed Switch"
         ]
       ]
@@ -304,10 +304,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "NETGEAR GS305 5-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 5 gigabit ports, fanless, at $13.49."
+        "text": "NETGEAR GS305 5-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 5 gigabit ports, fanless, at under $15."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -348,9 +348,9 @@ export const faq = [
   }
 ,
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "NETGEAR GS305 5-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 5 gigabit ports, fanless." },
-  { q: "Which pick offers the best value for a tight budget?", a: "NETGEAR GS305 5-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 5 gigabit ports, fanless, and at $13.49 it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $13.49 to $79.99, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
-  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "NETGEAR GS308EP 8-Port PoE+ Smart Managed Switch is aimed at buyers prioritizing 8x poe+ ports @62w, easy smart managed. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
+  { q: "Which pick offers the best value for a tight budget?", a: "NETGEAR GS305 5-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 5 gigabit ports, fanless, and at under $15 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $15 to $80, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "NETGEAR GS308EP 8-Port PoE+ Smart Managed Switch is aimed at buyers prioritizing 8x poe+ ports @62w, easy smart managed. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-poe-network-switches","title":"7 Best PoE Network Switches in 2026"},{"href":"/guide/best-managed-network-switches","title":"8 Best Managed Network Switches in 2026"},{"href":"/guide/best-unmanaged-network-switches","title":"7 Best Unmanaged Network Switches in 2026"}];

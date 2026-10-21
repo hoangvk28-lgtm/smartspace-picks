@@ -108,7 +108,7 @@ export default async function BestWhiteDeskHutchesPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best White Desk Hutches", item: `${SITE_URL}/guide/best-white-desk-hutches` },
+      { "@type": "ListItem", position: 3, name: "Best White Desk Hutches", item: `${SITE_URL}/guide/best-white-desk-hutches` }
     ],
   };
 
@@ -297,7 +297,7 @@ export default async function BestWhiteDeskHutchesPage() {
                     { type: "Pure white open shelf", bestFor: "Minimalist and modern setups", notes: "Furinno and Snughome white models" },
                     { type: "White with wood accents", bestFor: "Warm modern or Scandinavian look", notes: "Tangkula white and wood hybrid" },
                     { type: "White with drawer", bestFor: "Clean look plus concealed storage", notes: "ChooChoo white drawer model, Tangkula" },
-                    { type: "Premium pure white", bestFor: "Home office with coordinated furniture", notes: "Bush Furniture Cabot White model" },
+                    { type: "Premium pure white", bestFor: "Home office with coordinated furniture", notes: "Bush Furniture Cabot White model" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.type}</td>
@@ -327,14 +327,14 @@ export default async function BestWhiteDeskHutchesPage() {
           <h2 className="text-xl font-bold text-ink mb-5 tracking-tight">Bottom Line</h2>
           <div className="space-y-4">
             {[
-              { context: "Best overall white", id: "furinno-5shelf-white", name: "Furinno Turn-N-Tube 5-Shelf White", verdict: " - 29,411 reviews at 4.2 stars, $35.99, most validated white hutch in category." },
-              { context: "Best white with drawer", id: "tangkula-white-drawer", name: "Tangkula Desktop Bookshelf White with Drawer", verdict: " - 564 reviews at 4.5 stars, $79.99, premium white with drawer and anti-tip." },
-              { context: "Best white for dorm", id: "snughome-white-31", name: "Snughome 31.9-inch White", verdict: " - 122 reviews at 4.7 stars, $42.99, compact white for dorm desks." },
-              { context: "Best premium white", id: "bush-cabot-white", name: "Bush Furniture Cabot Pure White", verdict: " - 1,087 reviews at 4.6 stars, $129.99, fully enclosed with doors and shelves." },
-              { context: "Best mid-range white", id: "choochoo-white-48", name: "ChooChoo 48-inch White Hutch", verdict: " - 847 reviews at 4.5 stars, $64.99, wide white hutch for 48-inch desks." },
-              { context: "Best white 7-shelf", id: "choochoo-7shelf-white", name: "ChooChoo 7-Shelf White 37W", verdict: " - 129 reviews at 4.4 stars, $56.99, tallest white storage option." },
-              { context: "Best white with LED", id: "hoobro-white-led", name: "HOOBRO White Bookcase with LED", verdict: " - 193 reviews at 4.6 stars, $49.99, white finish with LED and power outlets." },
-              { context: "Best budget white", id: "furinno-3shelf-white", name: "Furinno Basic 3-Tier White", verdict: " - 314 reviews at 4.3 stars, $24.99, entry-level white hutch." },
+              { context: "Best overall white", id: "furinno-5shelf-white", name: "Furinno Turn-N-Tube 5-Shelf White", verdict: " - Under $40, most validated white hutch in category." },
+              { context: "Best white with drawer", id: "tangkula-white-drawer", name: "Tangkula Desktop Bookshelf White with Drawer", verdict: " - Under $80, premium white with drawer and anti-tip." },
+              { context: "Best white for dorm", id: "snughome-white-31", name: "Snughome 31.9-inch White", verdict: " - Under $45, compact white for dorm desks." },
+              { context: "Best premium white", id: "bush-cabot-white", name: "Bush Furniture Cabot Pure White", verdict: " - Under $130, fully enclosed with doors and shelves." },
+              { context: "Best mid-range white", id: "choochoo-white-48", name: "ChooChoo 48-inch White Hutch", verdict: " - Under $70, wide white hutch for 48-inch desks." },
+              { context: "Best white 7-shelf", id: "choochoo-7shelf-white", name: "ChooChoo 7-Shelf White 37W", verdict: " - Under $60, tallest white storage option." },
+              { context: "Best white with LED", id: "hoobro-white-led", name: "HOOBRO White Bookcase with LED", verdict: " - Under $50, white finish with LED and power outlets." },
+              { context: "Best budget white", id: "furinno-3shelf-white", name: "Furinno Basic 3-Tier White", verdict: " - Under $25, entry-level white hutch." }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

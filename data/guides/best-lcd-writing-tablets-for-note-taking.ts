@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "lcd writing tablet for note taking";
 export const introParagraphs = [
   "Before buying an LCD writing tablet for note-taking, understand the key limitation: most models in this category cannot save what you write, they only display it until you press the erase button, at which point it is gone permanently with no recovery option.",
-  "Only one product in this list, the Boogie Board Sync, offers genuine Bluetooth save-to-app capability, making it the only pick here suited to buyers who need to keep and reference notes later. The other five are included as capable scratchpads for buyers who only need to jot something down temporarily, not archive it.",
+  "Only one product in this list, the Boogie Board Sync, offers genuine Bluetooth save-to-app capability, making it the only pick here suited to buyers who need to keep and reference notes later. The other five are included as capable scratchpads for buyers who only need to jot something down temporarily, not archive it."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Save capability verified and flagged as the primary differentiator", description: "Explicitly separated the single Bluetooth sync-capable model from the rest, since this is the single most important distinction for note-taking buyers." },
   { title: "Screen size weighted against realistic note length", description: "Evaluated whether a given size suits brief reminders or extended meeting notes, since note-taking use cases vary widely." },
   { title: "Erase mechanism durability checked for frequent use", description: "Note-taking implies frequent erase cycles throughout a day, so mechanism durability was weighted more heavily than in general-purpose picks." },
-  { title: "Hands-free usability considered for call-based note-taking", description: "Evaluated kickstand and mounting options for buyers who want to write notes while on a phone call." },
+  { title: "Hands-free usability considered for call-based note-taking", description: "Evaluated kickstand and mounting options for buyers who want to write notes while on a phone call." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -254,11 +254,11 @@ export const faq: FaqItem[] = [
   { q: "Can I save notes on a regular LCD writing tablet?", a: "No, most LCD writing tablets erase permanently once you press the button, with no way to recover the content. Only Bluetooth sync-capable models save notes." },
   { q: "Which LCD writing tablet actually saves my notes?", a: "The Boogie Board Sync is the genuine option here, it syncs handwritten notes to an app over Bluetooth before you erase the screen." },
   { q: "Is a plain LCD writing tablet still useful for note-taking?", a: "Yes, for temporary notes like call reminders or brainstorming you'll transcribe elsewhere, a plain scratchpad works well and costs much less than a sync-capable model." },
-  { q: "What size is best for meeting notes?", a: "An 11.5 to 12 inch screen gives enough room for detailed meeting notes, while a compact 6.5 to 9.5 inch screen suits brief reminders." },
+  { q: "What size is best for meeting notes?", a: "An 11.5 to 12 inch screen gives enough room for detailed meeting notes, while a compact 6.5 to 9.5 inch screen suits brief reminders." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-smart-lcd-writing-tablets", title: "Best Smart LCD Writing Tablets (2026)" },
   { href: "/guide/best-lcd-writing-tablets-for-work", title: "Best LCD Writing Tablets for Work (2026)" },
-  { href: "/guide/best-lcd-writing-tablets-with-memory", title: "Best LCD Writing Tablets with Memory Lock (2026)" },
+  { href: "/guide/best-lcd-writing-tablets-with-memory", title: "Best LCD Writing Tablets with Memory Lock (2026)" }
 ];

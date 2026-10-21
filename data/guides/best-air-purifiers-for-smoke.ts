@@ -5,7 +5,7 @@ export const metaDescription = "5 air purifiers we evaluated for smoke, with the
 export const mainKeyword = "air purifier for smoke";
 export const introParagraphs = [
   "A general CADR (Clean Air Delivery Rate) rating doesn't tell you the smoke-specific CADR, which is often meaningfully lower than the dust or pollen number printed on the same box, since smoke particles are finer and behave differently in airflow.",
-  "Activated carbon mass, not just HEPA filtration, is what actually captures smoke odor at the molecular level, a HEPA-only unit removes visible particulate but does little for the lingering smell without a substantial carbon stage.",
+  "Activated carbon mass, not just HEPA filtration, is what actually captures smoke odor at the molecular level, a HEPA-only unit removes visible particulate but does little for the lingering smell without a substantial carbon stage."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Air Purifier for Smoke Overall",
     name: "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom, H13 True HEPA Filter, 24db Filtration System Cleaner Odor Eliminators, Remove 99.97% Dust Smoke Mold Pollen, Core 300, White",
     price: "$89.99",
-    rating: "4.7 stars from 108,251 Amazon ratings",
-    reviews: "108,251 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Lingering Smoke Odor",
     name: "WINIX 5520 Air Purifier with PlasmaWave Technology",
     price: "$179.99",
-    rating: "4.6 stars from 31,954 Amazon ratings",
-    reviews: "31,954 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Wb8TGSnPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT4F8T4L?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity Smoke Pick",
     name: "Nuwave OxyPure Smart Air Purifier",
     price: "$799.99",
-    rating: "4.6 stars from 616 Amazon ratings",
-    reviews: "616 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31CulL9tCOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08K3R8QPF?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Smoke Pick",
     name: "Germ Guardian True HEPA Filter Air Purifier for Home",
     price: "$80.74",
-    rating: "4.6 stars from 63,485 Amazon ratings",
-    reviews: "63,485 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/316AtkHoSdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004VGIGVY?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Coverage Smoke Pick",
     name: "LEVOIT Smart Air Purifier for Home Large Room up to 1875 ft Vital 200S-P",
     price: "$174.99",
-    rating: "4.7 stars from 14,571 Amazon ratings",
-    reviews: "14,571 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Large rated coverage compensates for lower smoke-specific CADR", "Smart app control for monitoring", "Large, well-established review base", "Genuine headroom for a larger room"],
     cons: ["Higher price than budget alternatives", "Larger footprint than compact picks", "Smoke-specific CADR not separately published, sizing up is still the safest approach"],
     bestFor: "Larger rooms affected by smoke needing extra coverage headroom",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Smoke-specific CADR versus general CADR", description: "Considered that a general CADR rating doesn't tell you the smoke-specific CADR, which is often meaningfully lower than the dust or pollen number on the same box." },
   { title: "Carbon mass as the actual odor-capture mechanism", description: "Weighed that activated carbon mass, not HEPA filtration alone, is what actually captures smoke odor at the molecular level, a HEPA-only unit does little for lingering smell." },
-  { title: "Exposure intensity matched to filtration depth", description: "Distinguished occasional light smoke exposure from heavy or persistent exposure (wildfire season, indoor smoking), matching filtration depth and coverage to the real scenario." },
+  { title: "Exposure intensity matched to filtration depth", description: "Distinguished occasional light smoke exposure from heavy or persistent exposure (wildfire season, indoor smoking), matching filtration depth and coverage to the real scenario." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -247,11 +247,11 @@ export const faq: FaqItem[] = [
   { q: "Do I need a more powerful air purifier for wildfire smoke season?", a: "Yes. Heavy or persistent smoke exposure like wildfire season needs deeper carbon mass and multi-stage filtration than a standard budget unit designed for occasional light exposure." },
   { q: "Should I size up coverage rating for a smoke-affected room?", a: "Yes. Since a general CADR rating overstates real smoke-clearing speed for that specific space, choosing a unit rated for a larger room than your actual space gives useful real-world headroom." },
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers wanting the most-proven pick for smoke particulate" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with occasional light smoke exposure At $80.74, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with occasional light smoke exposure At under $90, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-air-purifiers-for-odors", title: "Best Air Purifiers for Odors (2026)" },
   { href: "/guide/best-air-purifiers-for-vocs", title: "Best Air Purifiers for VOCs (2026)" },
-  { href: "/guide/best-hepa-and-carbon-air-purifiers", title: "Best HEPA and Carbon Air Purifiers (2026)" },
+  { href: "/guide/best-hepa-and-carbon-air-purifiers", title: "Best HEPA and Carbon Air Purifiers (2026)" }
 ];

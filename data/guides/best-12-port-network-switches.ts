@@ -109,7 +109,7 @@ export const faq = [
   { "q": "Is USB-C or DC power better for a 12-port switch?", "a": "USB-C power offers more flexible power source options including portable power banks, while a dedicated DC adapter typically provides more stable continuous power for a permanently installed switch." },
   { "q": "Can a 12-port switch handle PoE devices?", "a": "Check the specific listing, PoE support and total power budget vary significantly between models and aren't guaranteed on every 12-port unit regardless of port count." },
   { "q": "Is a 12-port switch overkill for a small home network?", "a": "If you have fewer than 8 wired devices currently and don't anticipate significant growth, an 8-port switch likely covers your needs at a lower price." },
-  { "q": "Do 12-port switches support Gigabit speed on every port?", "a": "Check the specific listing, most current 12-port switches are Gigabit-rated across all ports, but verify this explicitly rather than assuming from the port count alone." },
+  { "q": "Do 12-port switches support Gigabit speed on every port?", "a": "Check the specific listing, most current 12-port switches are Gigabit-rated across all ports, but verify this explicitly rather than assuming from the port count alone." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-8-port-network-switches","title":"7 Best 8-Port Network Switches in 2026"},{"href":"/guide/best-16-port-network-switches","title":"5 Best 16-Port Network Switches in 2026"},{"href":"/guide/best-10-port-network-switches","title":"6 Best 10-Port Network Switches in 2026"}];

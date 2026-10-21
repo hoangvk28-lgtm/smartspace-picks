@@ -12,7 +12,7 @@ export const deskDecorClutterBalanceGuide: Guide = {
     "how much decor is too much desk",
     "personalizing desk without clutter",
     "desk decor item limit",
-    "minimal desk decor ideas",
+    "minimal desk decor ideas"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskDecorClutterBalanceGuide: Guide = {
     "desk-declutter-checklist",
     "desk-plant-types-for-beginners",
     "wall-art-hanging-height-explained",
-    "desk-caddy-vs-pen-cup",
+    "desk-caddy-vs-pen-cup"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskDecorClutterBalanceGuide: Guide = {
       question: "How do I know if my desk decor has crossed into clutter?",
       answer:
         "If decorative items are encroaching on your actual functional workspace, requiring you to move things aside to work comfortably, or if the desk feels visually busy rather than personalized, these are signs decor has tipped from personalization into genuine clutter.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const deskDecorClutterBalanceGuide: Guide = {
     {
       heading: "Why Functional Decor Solves the Clutter Tension More Elegantly",
       body: `The tension between wanting a personalized, decorated desk and wanting to avoid clutter can be substantially reduced by favoring decorative items that also serve a genuine function, an attractive ceramic pen holder personalizes the space while doing real organizational work, rather than existing purely as decoration, this approach lets you add personality to a desk without every decorative choice directly competing with functional workspace for the same limited surface area.`,
-    },
+    }
   ],
 };

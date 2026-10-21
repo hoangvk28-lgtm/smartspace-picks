@@ -124,7 +124,7 @@ export default async function BestVintageWoodenDeskPage() {
     about: [
       { "@type": "Thing", name: "Vintage Wooden Desk" },
       { "@type": "Thing", name: "Mid-Century Modern Desk" },
-      { "@type": "Thing", name: "Retro Home Office Desk" },
+      { "@type": "Thing", name: "Retro Home Office Desk" }
     ],
   };
 
@@ -134,7 +134,7 @@ export default async function BestVintageWoodenDeskPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Vintage and Mid-Century Modern Wooden Desks", item: `${SITE_URL}/guide/best-vintage-wooden-desk` },
+      { "@type": "ListItem", position: 3, name: "Best Vintage and Mid-Century Modern Wooden Desks", item: `${SITE_URL}/guide/best-vintage-wooden-desk` }
     ],
   };
 

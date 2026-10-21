@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "tv stand and coffee table set";
 export const introParagraphs = [
   "A matching TV stand and coffee table set solves the furniture-shopping problem of piecing together separate items that never quite match in finish or style. Buying a set also tends to cost less than sourcing each piece individually from different brands.",
-  "We evaluated these eight TV stand and coffee table sets based on product specs and buyer feedback, ranking them by piece count, storage and charging features, and overall value across budget, mid-range, and premium price points.",
+  "We evaluated these eight TV stand and coffee table sets based on product specs and buyer feedback, ranking them by piece count, storage and charging features, and overall value across budget, mid-range, and premium price points."
 ];
 export const lastUpdated = "2026-07-16";
 export const readTime = "11 min";
@@ -46,14 +46,14 @@ export const products: GuideProduct[] = [
     badge: "Best Overall",
     name: "AMERLIFE 4-Piece Farmhouse Table Set - Sliding Barn Door TV Stand 66\" + Coffee Table + 2 End Tables, Distressed White",
     price: "$369.99",
-    rating: "4.5 stars",
-    reviews: "342 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41OeECurvrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C2Q1NK5D?tag=deskfinds0d-20",
-    description: "The AMERLIFE 4-Piece set pairs a 66-inch sliding barn door TV stand with a matching coffee table and two end tables, giving a living room a fully coordinated farmhouse look in one purchase. A built-in charging station with USB ports on the end tables keeps phones and tablets topped off without a separate power strip cluttering the space. The distressed white finish carries across all four pieces so nothing looks mismatched once assembled. With 342 ratings at 4.5 stars, it has a solid track record for a set at this price, and the 66-inch TV stand comfortably supports large televisions while the barn door slides smoothly to conceal media components. Built-in charging station with USB ports. That's a real strength, but weigh it against the flip side: pricing is the second-highest price in this guide.",
+    description: "The AMERLIFE 4-Piece set pairs a 66-inch sliding barn door TV stand with a matching coffee table and two end tables, giving a living room a fully coordinated farmhouse look in one purchase. A built-in charging station with USB ports on the end tables keeps phones and tablets topped off without a separate power strip cluttering the space. The distressed white finish carries across all four pieces so nothing looks mismatched once assembled. Built-in charging station with USB ports. That's a real strength, but weigh it against the flip side: pricing is the second-highest price in this guide.",
     specs: ["4-piece matching set", "66\" sliding barn door TV stand", "Coffee table + 2 end tables", "Built-in charging station with USB ports", "Distressed white farmhouse finish"],
-    pros: ["Full 4-piece matching set in one purchase", "Built-in charging station with USB ports", "66\" TV stand fits large televisions", "4.5 stars across 342 ratings"],
-    cons: ["$369.99 is the second-highest price in this guide", "Barn door styling won't suit every decor", "Larger footprint needs a spacious living room"],
+    pros: ["Full 4-piece matching set in one purchase", "Built-in charging station with USB ports", "66\" TV stand fits large televisions"],
+    cons: ["under $400 is the second-highest price in this guide", "Barn door styling won't suit every decor", "Larger footprint needs a spacious living room"],
     bestFor: "Buyers who want a complete matching farmhouse living room set with charging built in.",
   },
   {
@@ -62,13 +62,13 @@ export const products: GuideProduct[] = [
     badge: "Best Value",
     name: "AMERLIFE 3-Piece Farmhouse Living Room Table Set",
     price: "$182.68",
-    rating: "4.6 stars",
-    reviews: "489 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51w+bjHKjxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BWTPD1M1?tag=deskfinds0d-20",
-    description: "The AMERLIFE 3-Piece set delivers a matching farmhouse TV stand, coffee table, and end table at a budget-friendly price, making it the best value option in this guide. Built-in USB charging ports carry over from the brand's larger 4-piece set, so buyers don't have to spend more to get that convenience feature. With 489 ratings at 4.6 stars, it holds the highest rating of any set in this guide, suggesting strong buyer satisfaction at this price point. The distressed white farmhouse finish matches across all three pieces, and the smaller 3-piece footprint suits living rooms that don't need a full 4 or 5-piece collection. Worth calling out specifically: 4.6 stars, highest rating in this guide. The catch is 3 pieces only, no second end table.",
+    description: "The AMERLIFE 3-Piece set delivers a matching farmhouse TV stand, coffee table, and end table at a budget-friendly price, making it the best value option in this guide. Built-in USB charging ports carry over from the brand's larger 4-piece set, so buyers don't have to spend more to get that convenience feature. The distressed white farmhouse finish matches across all three pieces, and the smaller 3-piece footprint suits living rooms that don't need a full 4 or 5-piece collection. The catch is 3 pieces only, no second end table.",
     specs: ["3-piece matching set", "Built-in USB charging ports", "Distressed white farmhouse finish", "Compact footprint vs larger sets"],
-    pros: ["Under $200, best value in this guide", "4.6 stars, highest rating in this guide", "Built-in USB charging ports", "489 ratings, strong review count"],
+    pros: ["Under $200, best value in this guide", "Built-in USB charging ports", "3-piece matching farmhouse set"],
     cons: ["3 pieces only, no second end table", "No fireplace or premium upgrade options", "Smaller TV stand than the 4-piece set"],
     bestFor: "Budget-conscious buyers who want a matching farmhouse set with charging without paying for extra pieces.",
   },
@@ -78,14 +78,14 @@ export const products: GuideProduct[] = [
     badge: "Most Complete Set",
     name: "AMERLIFE 5-Piece Farmhouse Table Set with 3D Electric Fireplace",
     price: "$479.99",
-    rating: "4.3 stars",
-    reviews: "38 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41RSPaVKQ7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D7W6RWN9?tag=deskfinds0d-20",
-    description: "The AMERLIFE 5-Piece set is the most complete collection in this guide, including a TV stand with a built-in 3D electric fireplace insert alongside a coffee table and two end tables. The fireplace adds ambient heat and a visual centerpiece that none of the other sets in this guide offer, turning the TV stand into a functional fireplace console. It is the second most expensive option here, reflecting the added fireplace hardware and extra piece count. With 38 ratings at 4.3 stars it has the smallest review sample in this guide, so buyers should weigh the limited feedback against the unique fireplace feature when deciding. Built-in 3D electric fireplace insert. Set against that, a competitive price, second-highest price in this guide. Both matter when comparing it to the other picks here.",
+    description: "The AMERLIFE 5-Piece set is the most complete collection in this guide, including a TV stand with a built-in 3D electric fireplace insert alongside a coffee table and two end tables. The fireplace adds ambient heat and a visual centerpiece that none of the other sets in this guide offer, turning the TV stand into a functional fireplace console. It is the second most expensive option here, reflecting the added fireplace hardware and extra piece count. Built-in 3D electric fireplace insert. Set against that, a competitive price, second-highest price in this guide. Both matter when comparing it to the other picks here.",
     specs: ["5-piece matching set", "Built-in 3D electric fireplace insert", "Coffee table + 2 end tables", "Farmhouse styling", "Built-in charging station with USB ports"],
     pros: ["Most complete set, 5 matching pieces", "Built-in 3D electric fireplace insert", "Charging station with USB ports included", "Farmhouse finish matches across all pieces"],
-    cons: ["$479.99, second-highest price in this guide", "Only 38 ratings, smallest sample size here", "Fireplace insert adds installation complexity"],
+    cons: ["under $500, second-highest price in this guide", "Fireplace insert adds installation complexity"],
     bestFor: "Buyers who want a fireplace console as the centerpiece of a fully matched living room set.",
   },
   {
@@ -94,14 +94,14 @@ export const products: GuideProduct[] = [
     badge: "Best Mid-Century Style",
     name: "Furniway Living Room Table Sets of 2",
     price: "$259.99",
-    rating: "5.0 stars",
-    reviews: "14 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51+TP7ifpfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8316KH3?tag=deskfinds0d-20",
-    description: "The Furniway 2-piece set brings a mid-century modern aesthetic to this guide with a cohesive vintage walnut finish across its TV stand and coffee table. The wood coffee table includes storage, and the design leans toward a warmer, more retro look than the farmhouse-styled sets that dominate this list.\n\nThe set carries a perfect 5.0 star rating, though from a small sample of 14 ratings, so it should be read as an early positive signal rather than a large-scale track record. For buyers who specifically want mid-century styling instead of farmhouse or modern looks, this is the clearest option in this guide.\n\nA genuine advantage here is that distinct mid-century modern aesthetic. The tradeoff is only 14 ratings, small sample size.",
+    description: "The Furniway 2-piece set brings a mid-century modern aesthetic to this guide with a cohesive vintage walnut finish across its TV stand and coffee table. The wood coffee table includes storage, and the design leans toward a warmer, more retro look than the farmhouse-styled sets that dominate this list.\n\nFor buyers who specifically want mid-century styling instead of farmhouse or modern looks, this is the clearest option in this guide.\n\nA genuine advantage here is that distinct mid-century modern aesthetic.",
     specs: ["2-piece matching set", "Mid-century modern design", "Vintage walnut finish", "Coffee table with storage"],
-    pros: ["5.0 stars, highest rating in this guide", "Distinct mid-century modern aesthetic", "Coffee table includes storage", "Cohesive walnut finish across both pieces"],
-    cons: ["Only 14 ratings, small sample size", "2 pieces only, no end tables", "No charging station or USB ports"],
+    pros: [ "Distinct mid-century modern aesthetic", "Coffee table includes storage", "Cohesive walnut finish across both pieces"],
+    cons: [ "2 pieces only, no end tables", "No charging station or USB ports"],
     bestFor: "Buyers who want a mid-century modern look instead of farmhouse styling.",
   },
   {
@@ -110,14 +110,14 @@ export const products: GuideProduct[] = [
     badge: "Best Mid-Range Farmhouse",
     name: "SAVOR LIFE Farmhouse TV Stand and Coffee Table Set 4",
     price: "$549.99",
-    rating: "4.4 stars",
-    reviews: "12 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41kQEu44twL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FP2B4V21?tag=deskfinds0d-20",
-    description: "The SAVOR LIFE 4-piece set brings the same farmhouse aesthetic as the AMERLIFE sets in this guide, with a matching TV stand, coffee table, and end tables in a coordinated rustic finish. It sits in the upper-middle price range of this guide, positioned above the AMERLIFE 3 and 4-piece sets. With 4.4 stars from 12 ratings, early feedback is positive but the sample size is small. Buyers who like the farmhouse look of the AMERLIFE sets but want a different brand's take on the style have a comparable alternative here at a higher price point. 4.4 stars in early reviews. On the other hand, a competitive price, third-highest price in this guide. Neither should be a surprise once you know to look for it.",
+    description: "The SAVOR LIFE 4-piece set brings the same farmhouse aesthetic as the AMERLIFE sets in this guide, with a matching TV stand, coffee table, and end tables in a coordinated rustic finish. It sits in the upper-middle price range of this guide, positioned above the AMERLIFE 3 and 4-piece sets. Buyers who like the farmhouse look of the AMERLIFE sets but want a different brand's take on the style have a comparable alternative here at a higher price point. On the other hand, a competitive price, third-highest price in this guide. Neither should be a surprise once you know to look for it.",
     specs: ["4-piece matching set", "Farmhouse rustic finish", "TV console + coffee table + 2 end tables", "Coordinated design across all pieces"],
-    pros: ["Full 4-piece matching farmhouse set", "4.4 stars in early reviews", "Rustic finish coordinated across all pieces", "Alternative to AMERLIFE's farmhouse lineup"],
-    cons: ["$549.99, third-highest price in this guide", "Only 12 ratings, small sample size", "No charging station mentioned"],
+    pros: ["Full 4-piece matching farmhouse set", "Rustic finish coordinated across all pieces", "Alternative to AMERLIFE's farmhouse lineup"],
+    cons: ["under $550, third-highest price in this guide", "No charging station mentioned"],
     bestFor: "Buyers who want a farmhouse-style 4-piece set from a different brand than AMERLIFE.",
   },
   {
@@ -126,16 +126,16 @@ export const products: GuideProduct[] = [
     badge: "Best for Larger Living Rooms",
     name: "Coffee Table and TV Stand Set of 2",
     price: "$189.99",
-    rating: "3.9 stars",
-    reviews: "107 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41T7QpJL2JL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G7GV193L?tag=deskfinds0d-20",
-    description: "This 2-piece modern set pairs a 76.4-inch TV console with an oval coffee table, the longest TV stand of any set in this guide, making it well suited to larger living rooms with generous wall space. The oval coffee table shape offers a softer, more rounded alternative to the rectangular tables found in the farmhouse sets on this list. It undercuts most other sets in price, though its 3.9 star rating from 107 reviews is the lowest in this guide, suggesting buyers should read reviews carefully before committing. The larger console offers ample storage and surface area for media components and decor. genuinely affordable. That's a real strength, but weigh it against the flip side: 3.9 stars, lowest rating in this guide.",
+    description: "This 2-piece modern set pairs a 76.4-inch TV console with an oval coffee table, the longest TV stand of any set in this guide, making it well suited to larger living rooms with generous wall space. The oval coffee table shape offers a softer, more rounded alternative to the rectangular tables found in the farmhouse sets on this list. The larger console offers ample storage and surface area for media components and decor. genuinely affordable.",
     specs: ["2-piece matching set", "76.4\" TV console", "Oval coffee table with storage", "Modern design"],
-    pros: ["76.4\" TV console, longest in this guide", "Affordable at $189.99", "Oval coffee table offers a distinct shape", "Suited to larger living rooms"],
-    cons: ["3.9 stars, lowest rating in this guide", "Large footprint won't fit smaller rooms", "Only 2 pieces, no end tables"],
+    pros: ["76.4\" TV console, longest in this guide", "Affordable at under $190", "Oval coffee table offers a distinct shape", "Suited to larger living rooms"],
+    cons: [ "Large footprint won't fit smaller rooms", "Only 2 pieces, no end tables"],
     bestFor: "Buyers with larger living rooms who want an extra-long TV console at an affordable price.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -166,10 +166,10 @@ export const faq: FaqItem[] = [
   { q: "How do I know what size TV stand I need in a set?", a: "Measure your television's width and choose a TV stand that is roughly equal to or slightly wider than the TV for proportional support. The sets in this guide range from a 59-inch stand up to a 76.4-inch console, so match the stand length to both your TV size and available wall space." },
   { q: "Do TV stand and coffee table sets with charging stations require an outlet nearby?", a: "Yes. Built-in charging stations on end tables or TV stands, like the ones on the AMERLIFE sets, still need to be plugged into a wall outlet via an included cord. They eliminate the need for a separate power strip but not the need for a nearby outlet." },
   { q: "Are farmhouse-style sets the only option, or are there other styles?", a: "This guide includes farmhouse sets from AMERLIFE and SAVOR LIFE, a mid-century modern set from Furniway, and a modern oval-table set. Farmhouse is the most common style among matching sets currently available, but mid-century and modern alternatives exist for buyers who prefer a different aesthetic." },
-  { q: "Is a 5-piece set with a fireplace worth the extra cost over a 3 or 4-piece set?", a: "It depends on whether you want the fireplace as a functional heat source and visual centerpiece. The AMERLIFE 5-piece set costs roughly $300 more than the brand's 3-piece set, and that premium is almost entirely attributable to the fireplace insert and extra end table rather than a higher-quality build." },
+  { q: "Is a 5-piece set with a fireplace worth the extra cost over a 3 or 4-piece set?", a: "It depends on whether you want the fireplace as a functional heat source and visual centerpiece. The AMERLIFE 5-piece set costs roughly $300 more than the brand's 3-piece set, and that premium is almost entirely attributable to the fireplace insert and extra end table rather than a higher-quality build." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-tv-stand-small", title: "Best Small TV Stands (2026)" },
-  { href: "/guide/best-tv-stand-bookshelf", title: "Best TV Stand Bookshelf Combos (2026)" },
+  { href: "/guide/best-tv-stand-bookshelf", title: "Best TV Stand Bookshelf Combos (2026)" }
 ];

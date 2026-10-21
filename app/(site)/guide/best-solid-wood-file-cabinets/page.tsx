@@ -172,7 +172,7 @@ export default async function BestSolidWoodFileCabinetsPage() {
     about: [
       { "@type": "Thing", name: "Solid Wood File Cabinet" },
       { "@type": "Thing", name: "Wood File Cabinet" },
-      { "@type": "Thing", name: "Home Office Furniture" },
+      { "@type": "Thing", name: "Home Office Furniture" }
     ],
   };
 
@@ -192,7 +192,7 @@ export default async function BestSolidWoodFileCabinetsPage() {
         position: 3,
         name: "Best Solid Wood File Cabinets",
         item: `${SITE_URL}/guide/best-solid-wood-file-cabinets`,
-      },
+      }
     ],
   };
 
@@ -532,7 +532,7 @@ export default async function BestSolidWoodFileCabinetsPage() {
                 mass-market retailers. If solid hardwood construction is a firm
                 requirement, expect to spend $500 or more and purchase from a
                 specialty wood furniture retailer. The Martin Furniture Oxford
-                at $499 is the only pick in this roundup that may use
+                at under $500 is the only pick in this roundup that may use
                 higher-grade materials - verify on the current listing before
                 purchasing.
               </p>
@@ -562,7 +562,7 @@ export default async function BestSolidWoodFileCabinetsPage() {
                       format: "Vertical",
                       bestFor:
                         "Tight spaces with limited wall width, narrow footprint, front-to-back drawer access",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -608,42 +608,42 @@ export default async function BestSolidWoodFileCabinetsPage() {
                 id: "bush-home-key-west-white-oak",
                 name: "Bush Home Key West, Pure White Oak",
                 verdict:
-                  " - 4,283 reviews at 4.4 stars, white oak finish, locking drawers, letter and legal compatible.",
+                  " - White oak finish, locking drawers, letter and legal compatible.",
               },
               {
                 context: "Best vintage-inspired warm finish",
                 id: "sauder-palladia-vintage-oak",
                 name: "Sauder Palladia, Vintage Oak",
                 verdict:
-                  " - 1,741 reviews at 4.0 stars, warm aged-wood look, trusted Sauder quality.",
+                  " - Warm aged-wood look, trusted Sauder quality.",
               },
               {
                 context: "Best dark wood-look option",
                 id: "sauder-edge-water-estate-black",
                 name: "Sauder Edge Water, Estate Black",
                 verdict:
-                  " - 979 reviews at 4.3 stars, rich dark finish, pairs with espresso and walnut desks.",
+                  " - Rich dark finish, pairs with espresso and walnut desks.",
               },
               {
                 context: "Best cherry finish lateral cabinet",
                 id: "bush-home-cabot-harvest-cherry",
                 name: "Bush Home Cabot, Harvest Cherry",
                 verdict:
-                  " - 972 reviews at 4.3 stars, warm cherry tone for traditional home office setups.",
+                  " - Warm cherry tone for traditional home office setups.",
               },
               {
                 context: "Best walnut finish option",
                 id: "sauder-clifford-place-grand-walnut",
                 name: "Sauder Clifford Place, Grand Walnut",
                 verdict:
-                  " - 465 reviews at 4.0 stars, on-trend walnut finish for mid-century and modern offices.",
+                  " - On-trend walnut finish for mid-century and modern offices.",
               },
               {
                 context: "Best compact vertical pick",
                 id: "realspace-vertical-mulled-cherry",
                 name: "Realspace Vertical, Mulled Cherry",
                 verdict:
-                  " - 195 reviews at 4.3 stars, narrow footprint, 17-inch depth for tight spaces.",
+                  " - Narrow footprint, 17-inch depth for tight spaces.",
               },
               {
                 context: "Premium fully assembled pick",
@@ -651,7 +651,7 @@ export default async function BestSolidWoodFileCabinetsPage() {
                 name: "Martin Furniture Huntington Oxford, Oak",
                 verdict:
                   " - $499, fully assembled, verify material quality on current listing before purchasing.",
-              },
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

@@ -5,7 +5,7 @@ export const metaDescription = "5 BE19000 Wi-Fi 7 routers we evaluated, the top-
 export const mainKeyword = "BE19000 Wi-Fi 7 router";
 export const introParagraphs = [
   "At this extreme flagship tier, genuine client hardware that can meaningfully exploit this capacity remains rare, this level of theoretical headroom is almost entirely future-facing for the foreseeable future rather than something most connected devices can use today.",
-  "CPU and processing capability needed to route traffic across this many simultaneous high-bandwidth streams matters as much as radio hardware capability, routing throughput can bottleneck even flagship-tier radio hardware if the processor can't keep pace.",
+  "CPU and processing capability needed to route traffic across this many simultaneous high-bandwidth streams matters as much as radio hardware capability, routing throughput can bottleneck even flagship-tier radio hardware if the processor can't keep pace."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best BE19000 Wi-Fi 7 Router Overall",
     name: "TP-Link Tri-Band BE19000 WiFi 7 Router (Archer BE800) | 12-Stream 19 Gbps | 2x10G + 4x2.5G Ports | LED Screen, 8 High-Performance Antennas | VPN, Easy Mesh, HomeShield, Private IoT",
     price: "$329.99",
-    rating: "4.0 stars from 503 Amazon ratings",
-    reviews: "503 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/416sP+jL17L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C4VZWTM7?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Gaming-Focused BE19000 Pick",
     name: "TP-Link Tri-Band BE19000 Wi-Fi 7 Gaming Router Archer GE800 | 12-Stream | 2x10G + 4x2.5G Ports, USB 3.0 | Turbo Acceleration, Dedicated Gaming Port & Panel, RGB Lighting",
     price: "$499.99",
-    rating: "3.7 stars from 312 Amazon ratings",
-    reviews: "312 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31tjKndkUFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D7MSQG4T?tag=deskfinds0d-20",
     description:
@@ -52,7 +52,7 @@ export const products: GuideProduct[] = [
     pros: ["Dedicated gaming port and panel for prioritized gaming traffic", "Same core hardware capability as the standard BE800", "Turbo acceleration feature for gaming priority", "RGB lighting for gaming aesthetics"],
     cons: ["Notably lower average rating than the standard variant at a much higher price", "Significant price premium over the near-identical standard model", "Very few devices can currently exploit this level of capacity regardless of gaming features"],
     bestFor: "Gaming enthusiasts specifically wanting a dedicated gaming port on flagship hardware",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -60,7 +60,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Honest client-hardware capability assessment", description: "Assessed whether genuine client hardware exists that can meaningfully exploit this capacity, or whether this remains almost entirely theoretical headroom for the foreseeable future." },
   { title: "CPU and routing throughput verified, not just radio hardware", description: "Verified that CPU/processing capability needed to route traffic across this many simultaneous high-bandwidth streams is adequate, since routing throughput can bottleneck even flagship-tier radio hardware." },
   { title: "Decoded '19000' number at its most exaggerated scale", description: "Decoded '19000' into its per-band split and realistic per-device speed, an even more exaggerated gap between the marketed number and achievable real-world speed given how large this headline figure is." },
-  { title: "Price premium weighed against genuine benefit", description: "Honestly assessed the price premium at this top tier against genuine benefit for typical or even enthusiast home users, given how few connected devices can currently exploit this level of theoretical capacity." },
+  { title: "Price premium weighed against genuine benefit", description: "Honestly assessed the price premium at this top tier against genuine benefit for typical or even enthusiast home users, given how few connected devices can currently exploit this level of theoretical capacity." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -189,11 +189,11 @@ export const faq: FaqItem[] = [
   { q: "What does the '19000' number in BE19000 actually mean?", a: "It's a combined theoretical maximum across all three radio bands, an even more exaggerated gap between the marketed figure and any single device's achievable real-world speed than lower Wi-Fi 7 tiers." },
   { q: "Is BE19000 worth the price premium over BE9300 for a typical home?", a: "For most typical or even enthusiast home users, honestly, often not, unless you specifically need dual 10G wired ports or want genuine multi-year future-proofing headroom." },
   { q: "Do I need client devices that support Wi-Fi 7's full speed to benefit from BE19000?", a: "Partially, BE19000 still improves connections for older devices through general hardware upgrades, but its top-tier bandwidth specifically requires genuinely Wi-Fi 7 capable client hardware to use fully." },
-  { q: "Is BE19000 a good choice if I don't have multi-gigabit internet service?", a: "Its flagship wired ports go unused without matching internet speed, but its wireless capacity can still benefit a household running many simultaneous high-bandwidth local devices regardless of your internet plan speed." },
+  { q: "Is BE19000 a good choice if I don't have multi-gigabit internet service?", a: "Its flagship wired ports go unused without matching internet speed, but its wireless capacity can still benefit a household running many simultaneous high-bandwidth local devices regardless of your internet plan speed." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-be9300-wifi-7-routers", title: "Best BE9300 Wi-Fi 7 Routers (2026)" },
   { href: "/guide/best-multi-gig-wifi-7-routers", title: "Best Multi-Gig Wi-Fi 7 Routers (2026)" },
-  { href: "/guide/best-wifi-7-routers-for-nas-setups", title: "Best Wi-Fi 7 Routers for NAS Setups (2026)" },
+  { href: "/guide/best-wifi-7-routers-for-nas-setups", title: "Best Wi-Fi 7 Routers for NAS Setups (2026)" }
 ];

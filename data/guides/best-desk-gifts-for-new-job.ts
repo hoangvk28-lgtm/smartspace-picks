@@ -5,7 +5,7 @@ export const metaDescription = "Seven congratulations gifts for a new job, from 
 export const mainKeyword = "desk gifts for new job";
 export const introParagraphs = [
   "A new job gift lands best when it does two things: it says congratulations, and it gives the person something to put on a desk that is still bare. Anything too large, too personal or too fragile can become a burden for someone still working out where things go.",
-  "The seven picks here lean small and light. They range from a $39 boxed set with a blanket and mug to a $3.49 stack of flip signs, and we compared them on what each listing states about contents, size, material and tone. Tone matters here more than in other gift categories, so we flag which ones are sentimental and which are playful."
+  "The seven picks here lean small and light. They range from a $39 boxed set with a blanket and mug to an under-$4 stack of flip signs, and we compared them on what each listing states about contents, size, material and tone. Tone matters here more than in other gift categories, so we flag which ones are sentimental and which are playful."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41XH4OoRhZL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FY5YCTSF?tag=deskfinds0d-20",
-    "description": "Hesuuho is a pen with Moonstone, Labradorite and Green Aventurine accents, packaged in a gift box with a next-chapter message card, meant for everyday writing.\n\nIt costs about $9.60 and is a useful object, unlike the crochet star. Against the steel sign, it is for daily use.\n\nBest for someone who takes notes. The caveat is that the stones are decoration, and we do not rely on any energy claims.",
+    "description": "Hesuuho is a pen with Moonstone, Labradorite and Green Aventurine accents, packaged in a gift box with a next-chapter message card, meant for everyday writing.\n\nIt costs under $10 and is a useful object, unlike the crochet star. Against the steel sign, it is for daily use.\n\nBest for someone who takes notes. The caveat is that the stones are decoration, and we do not rely on any energy claims.",
     "specs": [
       "Crystal accent pen",
       "Gift box and card",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51PDefOwODL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DN644C6D?tag=deskfinds0d-20",
-    "description": "Fancy Land makes a stack of 30 double-sided flip signs, measuring about 8 by 4.3 inches, printed on thick reusable paper with marble patterns and funny messages.\n\nIt is the cheapest at about $3.50 and offers variety. Against SunyJone, the jokes change daily.\n\nBest for a fun add-on to another gift. The caveat is that paper is less durable than metal or acrylic.",
+    "description": "Fancy Land makes a stack of 30 double-sided flip signs, measuring about 8 by 4.3 inches, printed on thick reusable paper with marble patterns and funny messages.\n\nIt is the cheapest at under $4 and offers variety. Against SunyJone, the jokes change daily.\n\nBest for a fun add-on to another gift. The caveat is that paper is less durable than metal or acrylic.",
     "specs": [
       "30 flip messages",
       "About 8 x 4.3 inches",

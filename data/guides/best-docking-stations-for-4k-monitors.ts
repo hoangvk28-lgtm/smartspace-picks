@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "docking station for 4k monitor";
 export const introParagraphs = [
   "A dock advertised as supporting \"4K\" doesn't guarantee a smooth image. Plenty of budget docks only push 4K at 30Hz, which shows up as visible motion blur on the mouse cursor and in video, and driving two 4K@60Hz displays at once needs roughly 30Gbps of bandwidth that not every port standard can actually deliver.",
-  "Below are 8 docking stations for 4K monitors we evaluated on true refresh rate, single versus dual 4K support, HDR passthrough, and price, so you can match the dock's actual bandwidth to what your monitor setup needs instead of assuming any \"4K dock\" performs the same.",
+  "Below are 8 docking stations for 4K monitors we evaluated on true refresh rate, single versus dual 4K support, HDR passthrough, and price, so you can match the dock's actual bandwidth to what your monitor setup needs instead of assuming any \"4K dock\" performs the same."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "100W charging",
       "Single 6K or dual 4K@60Hz displays",
       "6x USB ports, SD card reader, Ethernet",
-      "Driverless setup",
+      "Driverless setup"
     ],
     pros: [
       "True 4K@60Hz on both displays simultaneously",
       "Thunderbolt 4 bandwidth has real headroom left over for data",
       "Driverless, Thunderbolt certified",
-      "Strong port selection beyond just displays",
+      "Strong port selection beyond just displays"
     ],
     cons: [
       "Pricier than the budget DisplayLink-based docks",
       "Requires a Thunderbolt 4 or Thunderbolt 3 port on the laptop",
-      "No triple-display support like the Anker Nano 13-in-1",
+      "No triple-display support like the Anker Nano 13-in-1"
     ],
     bestFor: "Buyers who want guaranteed true 4K@60Hz on two monitors with bandwidth to spare",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "2x HDMI, 2x DisplayPort",
       "130W power delivery",
       "5x USB, Gigabit Ethernet",
-      "Mac and Windows compatible",
+      "Mac and Windows compatible"
     ],
     pros: [
       "True 60Hz on dual 4K, not the 30Hz budget-dock trap",
       "130W charging, higher than most DisplayLink docks",
       "13-in-1 port selection",
-      "Works on both Mac and Windows",
+      "Works on both Mac and Windows"
     ],
     cons: [
       "DisplayLink software adds a small amount of input lag versus native Thunderbolt",
       "Needs the DisplayLink driver installed on first setup",
-      "No SD card slot",
+      "No SD card slot"
     ],
     bestFor: "Dual 4K@60Hz setups on a laptop without Thunderbolt",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "DisplayLink-based display driving",
       "USB-C and USB-A host connection options",
       "Broad laptop and OS compatibility",
-      "Universal docking design",
+      "Universal docking design"
     ],
     pros: [
       "Cheapest true dual-4K@60Hz pick in this guide",
       "Works over both USB-C and USB-A hosts",
       "Broad compatibility with older and newer laptops",
-      "Simple universal setup",
+      "Simple universal setup"
     ],
     cons: [
       "DisplayLink software driver adds a touch of input lag",
       "Not ideal for fast-motion video editing or gaming",
-      "Fewer total ports than the WAVLINK 13-in-1 above it",
+      "Fewer total ports than the WAVLINK 13-in-1 above it"
     ],
     bestFor: "Buyers who want true dual 4K@60Hz on the tightest budget",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "14 ports, 160W max output",
       "10Gbps fast data transfer",
       "Audio and Ethernet ports",
-      "Cross-brand laptop compatibility",
+      "Cross-brand laptop compatibility"
     ],
     pros: [
       "Widest port selection in this list at 14 ports",
       "Fast 10Gbps data transfer alongside dual 4K",
       "Real-time smart interface for connection status",
-      "Cross-brand compatibility",
+      "Cross-brand compatibility"
     ],
     cons: [
       "Larger footprint than the more compact budget hubs",
       "No Thunderbolt certification like the Plugable dock",
-      "160W is shared across all ports, not dedicated per device",
+      "160W is shared across all ports, not dedicated per device"
     ],
     bestFor: "Buyers who want dual 4K plus the widest port selection in one dock",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "100W USB-C power delivery",
       "6x USB 5Gbps ports",
       "DisplayLink-based display driving",
-      "Windows, macOS, ChromeOS compatible",
+      "Windows, macOS, ChromeOS compatible"
     ],
     pros: [
       "Only true triple-display pick in this list",
       "100W charging over USB-C",
       "Broad OS compatibility including ChromeOS",
-      "Strong port count for the price",
+      "Strong port count for the price"
     ],
     cons: [
       "The 4K output is capped at 30Hz, causing visible motion blur",
       "Not suited to smooth video or gaming on the 4K display",
-      "DisplayLink software adds a small amount of input lag",
+      "DisplayLink software adds a small amount of input lag"
     ],
     bestFor: "Buyers who need three displays and can put the 4K@30Hz output on a secondary reference monitor",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "100W power delivery",
       "5Gbps USB-C and USB-A data ports",
       "Gigabit Ethernet, SD/TF card reader",
-      "Compatible with HP, Dell, and more",
+      "Compatible with HP, Dell, and more"
     ],
     pros: [
       "Cheapest pick in this list by a wide margin",
       "True 4K@60Hz on dual displays",
       "Option for single 8K@30Hz if you have one high-res monitor",
-      "Solid 10-in-1 port selection for the price",
+      "Solid 10-in-1 port selection for the price"
     ],
     cons: [
       "8K mode drops to 30Hz, same tradeoff as budget 4K docks",
       "No DisplayPort, HDMI only",
-      "Fewer USB ports than the pricier multi-port docks",
+      "Fewer USB ports than the pricier multi-port docks"
     ],
     bestFor: "Budget buyers who want true 4K@60Hz on two monitors without paying for Thunderbolt",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "85W power delivery",
       "1 Gbps Ethernet hub",
       "SD card reader",
-      "Compact 8-in-1 design",
+      "Compact 8-in-1 design"
     ],
     pros: [
       "Cheapest dual-4K-capable dock in this list",
       "Compact footprint",
       "Includes Ethernet and SD card reader",
-      "Simple, no-driver setup",
+      "Simple, no-driver setup"
     ],
     cons: [
       "Charger not included",
       "85W is lower than most other picks here",
-      "Actual refresh rate depends on your monitor's own HDMI version too",
+      "Actual refresh rate depends on your monitor's own HDMI version too"
     ],
     bestFor: "Budget home offices that want dual 4K displays without extra ports they won't use",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Detachable 6-in-1 hub",
       "10 Gbps USB-C data",
       "3x USB-A, Audio, SD/TF, Ethernet",
-      "100W max power delivery",
+      "100W max power delivery"
     ],
     pros: [
       "3-display support in a compact, detachable design",
       "Fast 10Gbps USB-C data transfer",
       "Good port variety including SD/TF and Ethernet",
-      "Detachable hub adds travel flexibility",
+      "Detachable hub adds travel flexibility"
     ],
     cons: [
       "HDR10 passthrough depends on exact HDMI version, not guaranteed on every port",
       "Not Thunderbolt certified",
-      "100W max is shared, not guaranteed per port",
+      "100W max is shared, not guaranteed per port"
     ],
     bestFor: "Buyers who want 3 displays and the flexibility of a detachable hub for travel",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed true refresh rate and display count against price, the UGREEN Revodok Pro 210 and Plugable Thunderbolt 4 dock sit at opposite ends of that spectrum.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -485,11 +485,11 @@ export const faq: FaqItem[] = [
   {
     q: "Is 4K@60Hz different on a Mac than on Windows?",
     a: "Yes. macOS defaults to 2x HiDPI scaling at 4K, which needs more from the GPU, and a DisplayLink-based dock can't fully replicate macOS's native HiDPI scaling, sometimes looking slightly less sharp than a native Thunderbolt connection. If image sharpness matters most on a Mac, a Thunderbolt-certified dock is the safer choice.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-docking-stations-for-laptop-and-desktop", title: "Best Docking Stations for Laptop and Desktop (2026)" },
   { href: "/guide/best-docking-stations-for-desk-setup", title: "Best Docking Stations for Desk Setup (2026)" },
-  { href: "/guide/best-docking-stations-compatible-with-hp-dell-laptops", title: "Best Docking Stations Compatible with HP & Dell Laptops (2026)" },
+  { href: "/guide/best-docking-stations-compatible-with-hp-dell-laptops", title: "Best Docking Stations Compatible with HP & Dell Laptops (2026)" }
 ];

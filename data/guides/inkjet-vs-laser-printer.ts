@@ -12,7 +12,7 @@ export const inkjetVsLaserPrinterGuide: Guide = {
     "laser printer vs inkjet cost",
     "which printer is cheaper to run",
     "inkjet vs laser for photos",
-    "best printer type for home office",
+    "best printer type for home office"
   ],
   heroImage: "https://images.unsplash.com/photo-1613395450289-e560907d9308?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1613395450289-e560907d9308?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const inkjetVsLaserPrinterGuide: Guide = {
     "printer-page-yield-explained",
     "wifi-vs-usb-printer",
     "printer-troubleshooting",
-    "toner-vs-ink-cost-explained",
+    "toner-vs-ink-cost-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const inkjetVsLaserPrinterGuide: Guide = {
       question: "Is a laser printer worth it for a home office that prints occasionally?",
       answer:
         "It depends on print volume, if you print only occasionally, an inkjet's lower upfront cost may outweigh laser's per-page savings, since you won't print enough pages to offset a laser printer's typically higher initial price.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ export const inkjetVsLaserPrinterGuide: Guide = {
     {
       heading: "Considering What You Actually Print",
       body: `If most of your printing is text documents, forms, or shipping labels, laser is the more practical and cost-effective choice. If you regularly print photos or color-rich documents, an inkjet's smoother color blending produces noticeably better results, and some households find a hybrid approach, laser for text volume plus an inexpensive inkjet for occasional photos, works better than trying to cover both needs with one printer type.`,
-    },
+    }
   ],
 };

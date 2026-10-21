@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "heavy duty under desk pc mount";
 export const introParagraphs = [
   "A 'heavy-duty' label should be verified against the actual quoted maximum weight and, where possible, real buyer feedback near that capacity, not just trusted at face value, since a mount's hardware rated for heavy use also needs to be checked against your desk's own structural capacity, a heavy-duty mount bolted or clamped to a lighter-duty desk stresses the desk itself, not just the mount.",
-  "This tier should specifically account for genuinely large modern towers, multiple drives, a discrete GPU, extra cooling hardware, and a full-size power supply, rather than the generic mid-tower assumption most budget mounts are rated against, and multiple-anchor-point designs generally indicate a more genuinely reinforced mount than a single-point mechanism carrying a similarly high advertised rating.",
+  "This tier should specifically account for genuinely large modern towers, multiple drives, a discrete GPU, extra cooling hardware, and a full-size power supply, rather than the generic mid-tower assumption most budget mounts are rated against, and multiple-anchor-point designs generally indicate a more genuinely reinforced mount than a single-point mechanism carrying a similarly high advertised rating."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Heavy-Duty Pick Overall",
     name: "Heavy Duty Under Desk PC Mount, Height Adjustable, Max Load 66 lbs, Black",
     price: "$45.58",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "49 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41uzdCGRrbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G6YWLKQH?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best Proven Heavy-Duty Pick",
     name: "VIVO Heavy Duty Adjustable Under-Desk PC Mount, Supports up to 66 lbs, MOUNT-PC04B",
     price: "$59.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "222 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31t8nBX+HEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBB2W47P?tag=deskfinds0d-20",
     description:
@@ -60,14 +60,14 @@ export const products: GuideProduct[] = [
     badge: "Best Highest-Capacity Pick",
     name: "Heavy Duty Under Desk PC Holder, Up to 77 lbs Load Capacity, Adjustable Computer Tower Holder",
     price: "$49.90",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "433 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31DzC4Wn1JL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGQR4DNJ?tag=deskfinds0d-20",
     description:
-      "The highest disclosed capacity in this guide at 77 pounds, appropriate for the heaviest realistic modern towers with multiple drives, extra cooling, and a full-size power supply, backed by a sizable review base and strong rating.\\n\\nAt this weight class, double-check your desk's own structural rating specifically, a genuinely heavy tower stresses the desk itself through the mount's anchor points, not just the mount hardware.\n\nRelative to the VIVO Heavy Duty Adjustable Under, this pick leans toward a different priority, whether that's a higher capacity rating, a lower price, or a mounting method suited to a different install situation.\n\nWorth knowing before you decide: Strong 4.6-star rating across a sizable review base. On the other side, At this weight class, your desk's own structural capacity matters as much as the mount's rating. That's the main tradeoff to weigh against your specific case and desk setup.",
+      "The highest disclosed capacity in this guide at 77 pounds, appropriate for the heaviest realistic modern towers with multiple drives, extra cooling, and a full-size power supply, backed by a sizable review base and strong rating.\\n\\nAt this weight class, double-check your desk's own structural rating specifically, a genuinely heavy tower stresses the desk itself through the mount's anchor points, not just the mount hardware.\n\nRelative to the VIVO Heavy Duty Adjustable Under, this pick leans toward a different priority, whether that's a higher capacity rating, a lower price, or a mounting method suited to a different install situation.\n\nOn the other side, At this weight class, your desk's own structural capacity matters as much as the mount's rating. That's the main tradeoff to weigh against your specific case and desk setup.",
     specs: ["Up to 77 lbs capacity","Adjustable width design","Sizable review base","Strong rating"],
-    pros: ["Highest disclosed capacity of any pick in this guide","Strong 4.6-star rating across a sizable review base","Adjustable fit for varied case widths","Reasonable price for the stated capacity"],
+    pros: ["Highest disclosed capacity of any pick in this guide","Adjustable fit for varied case widths","Reasonable price for the stated capacity"],
     cons: ["At this weight class, your desk's own structural capacity matters as much as the mount's rating","Verify anchor-point count for genuine reinforcement","Adjustment mechanism should be checked for holding position under full load"],
     bestFor: "Buyers with the heaviest realistic modern towers needing maximum disclosed capacity",
   },
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Multi-Orientation Heavy-Duty Pick",
     name: "PUTORSEN Under Desk PC Mount for Full/Mid-Tower Cases, Vertical/Horizontal CPU Holder up to 77 lbs",
     price: "$37.49",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "44 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41H5F8LUWzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GWGZCWWX?tag=deskfinds0d-20",
     description:
@@ -95,7 +95,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Disclosed capacity weighed against verified buyer feedback near that limit", description: "Weighed each mount's quoted maximum weight against available buyer feedback, rather than trusting a spec-sheet number at face value alone." },
   { title: "Desk structural capacity considered alongside mount rating", description: "Considered that heavy-duty mounting hardware also stresses the desk itself through its anchor points, not just the mount, worth checking your desk's own rated capacity too." },
   { title: "Realistic large modern tower weight used, not generic mid-tower", description: "Evaluated capacity against genuinely large modern towers, multiple drives, a discrete GPU, extra cooling, and a full-size power supply, not the generic mid-tower assumption." },
-  { title: "Anchor-point design checked for genuine reinforcement", description: "Checked for multiple-anchor-point designs as a signal of genuine reinforcement, distinct from a single-point mechanism simply carrying a higher advertised number." },
+  { title: "Anchor-point design checked for genuine reinforcement", description: "Checked for multiple-anchor-point designs as a signal of genuine reinforcement, distinct from a single-point mechanism simply carrying a higher advertised number." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -230,11 +230,11 @@ export const faq: FaqItem[] = [
   { q: "Does a 'heavy-duty' label guarantee a mount actually holds its rated weight?", a: "Not automatically, verify the specific disclosed weight figure and check for buyer feedback near that limit rather than trusting the label alone." },
   { q: "Can a heavy-duty PC mount damage my desk?", a: "It's possible if your desk isn't structurally rated for the combined load, a heavy-duty mount's anchor points transfer weight directly into the desk, so check your desk's own capacity too." },
   { q: "How much does a fully loaded modern gaming tower actually weigh?", a: "Often more than a generic mid-tower assumption suggests, factor in multiple drives, a discrete GPU, extra cooling hardware, and a full-size power supply when checking capacity." },
-  { q: "Does a mount with multiple anchor points hold weight better than a single clamp?", a: "Generally yes, multiple anchor points distribute load more reliably and indicate a more genuinely reinforced design than a single-point mechanism with a similarly high advertised rating." },
+  { q: "Does a mount with multiple anchor points hold weight better than a single clamp?", a: "Generally yes, multiple anchor points distribute load more reliably and indicate a more genuinely reinforced design than a single-point mechanism with a similarly high advertised rating." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-under-desk-pc-mounts", title: "Best Under-Desk PC Mounts (2026)" },
   { href: "/guide/best-under-desk-gaming-pc-mounts", title: "Best Under-Desk Gaming PC Mounts (2026)" },
-  { href: "/guide/best-adjustable-under-desk-pc-mounts", title: "Best Adjustable Under-Desk PC Mounts (2026)" },
+  { href: "/guide/best-adjustable-under-desk-pc-mounts", title: "Best Adjustable Under-Desk PC Mounts (2026)" }
 ];

@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     description: "This dock's listing specifically calls out remote management capabilities that let IT teams update firmware over Wi-Fi without a connected PC, alongside enterprise-grade WPA3 encryption and physical security lock slots, a genuinely more security-conscious feature set than a standard consumer dock. Its power delivery matches the same 300W (Dell) and 240W (non-Dell) split as the pick above.\n\nCompared to the base SD25TB5 Pro pick above, this bundle specifically includes Zoomspeed DisplayPort and HDMI cables, an Ethernet cable, and a cleaning cloth, a more complete out-of-box kit aimed at IT departments equipping many desks at once.\n\nBest for IT-managed enterprise deployments that need remote firmware management and WPA3 security.",
     specs: ["300W (Dell) or 240W (non-Dell), remote firmware update over Wi-Fi", "WPA3 encryption, physical security lock slots", "Dual TB5, 2x DP2.1, 1x HDMI 2.1, 2.5Gb Ethernet"],
     pros: ["Remote firmware updates over Wi-Fi without a connected PC", "WPA3 encryption and physical lock slots suit enterprise deployments", "Complete cable bundle included for IT department rollout"],
-    cons: ["Highest price in this comparison at $459.96", "Enterprise security features add no benefit for a single home user"],
+    cons: ["Highest price in this comparison at under $500", "Enterprise security features add no benefit for a single home user"],
     bestFor: "IT-managed enterprise deployments that need remote firmware management and WPA3 security",
   },
   {
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "This dock's 330W power supply is specifically built to provide sustained power delivery at all times for the host charging port as well as all remaining ports simultaneously, a meaningfully different claim than a dynamically shared power budget since every connected device gets its allocated power regardless of load. Its 140W host charging specifically covers demanding laptops such as the 16-inch M3/M4/M5 Pro and Max series MacBook Pro.\n\nCompared to the Dell picks above, this one's 20 total ports and dual independent USB controllers deliver the most comprehensive connectivity in this comparison, aimed at a workstation running many simultaneous high-power peripherals alongside its display output.\n\nBest for buyers who want the largest power supply and most comprehensive port count for a fully loaded workstation.",
     specs: ["330W power supply, 140W sustained host charging", "20 total ports, dual independent USB controllers", "80Gb/s data, up to 120Gb/s Bandwidth Boost"],
     pros: ["330W power supply is the largest in this comparison", "Sustained power delivery across all 20 ports regardless of load", "140W charging covers demanding 16-inch MacBook Pro Max models"],
-    cons: ["Highest price in this comparison at $499.99", "Not brand-specific power tiering like the Dell picks above"],
+    cons: ["Highest price in this comparison at under $500", "Not brand-specific power tiering like the Dell picks above"],
     bestFor: "buyers who want the largest power supply and most comprehensive port count",
   },
   {
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Widest OS compatibility with honest power disclosure", "Dell SD25TB5 Pro 300W 12-Port"],
         ["Enterprise remote management and WPA3 security", "Dell Pro SD25TB5 (Enterprise Bundle)"],
         ["Maximum power supply and port count", "CalDigit TS5 Plus Thunderbolt 5 Docking Station"],
-        ["Genuine 240W power at a lower price", "CalDigit TS5 Thunderbolt 5 Dock, 15 Port"],
+        ["Genuine 240W power at a lower price", "CalDigit TS5 Thunderbolt 5 Dock, 15 Port"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $390", "Dell SD25TB5 Pro 300W 12-Port ($389.89)"],
-        ["Under $400", "CalDigit TS5, 15 Port ($399.95)"],
-        ["Under $460", "Dell Pro Enterprise Bundle ($459.96)"],
-        ["Under $500", "CalDigit TS5 Plus ($499.99)"],
+        ["Under $390", "Dell SD25TB5 Pro 300W 12-Port (under $400)"],
+        ["Under $400", "CalDigit TS5, 15 Port (under $400)"],
+        ["Under $460", "Dell Pro Enterprise Bundle (under $500)"],
+        ["Under $500", "CalDigit TS5 Plus (under $500)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Brand-Specific Power Tiering vs Universal Sustained Power",
     cards: [
       { label: "Brand-specific tiering (Dell picks)", text: "Both Dell docks specifically deliver 300W to Dell systems but only 240W to non-Dell systems, a real distinction that matters if your laptop isn't a Dell." },
-      { label: "Universal sustained power (CalDigit picks)", text: "The CalDigit docks specifically state sustained power delivery across all ports regardless of connected system brand, a more predictable figure across different laptop brands." },
+      { label: "Universal sustained power (CalDigit picks)", text: "The CalDigit docks specifically state sustained power delivery across all ports regardless of connected system brand, a more predictable figure across different laptop brands." }
     ],
     note: "If you use a Dell laptop, the Dell picks' full 300W is a real advantage. If you use a mixed-brand household or a non-Dell laptop, the CalDigit picks' brand-agnostic sustained power delivery may be the more reliable choice.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["IT-managed enterprise fleet needing remote management", "Dell Pro SD25TB5 (Enterprise Bundle)"],
         ["Personal home office with a Dell laptop", "Dell SD25TB5 Pro 300W 12-Port"],
-        ["Personal home office with a non-Dell laptop", "CalDigit TS5 or TS5 Plus"],
+        ["Personal home office with a non-Dell laptop", "CalDigit TS5 or TS5 Plus"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For a Fully Loaded Multi-Device Workstation Specifically",
     cards: [
       { label: "Look for", text: "A dock with a large power supply specifically rated to sustain full power across every connected port simultaneously, not just a headline peak wattage that may only apply with fewer devices connected." },
-      { label: "In this comparison", text: "The CalDigit TS5 Plus's 330W power supply is specifically built to sustain power across all 20 ports, making it the strongest fit for a fully loaded multi-device workstation." },
+      { label: "In this comparison", text: "The CalDigit TS5 Plus's 330W power supply is specifically built to sustain power across all 20 ports, making it the strongest fit for a fully loaded multi-device workstation." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You need enterprise remote management and WPA3 security for an IT-managed fleet, where the Dell Pro Enterprise Bundle's $459.96 price is justified by those features." },
-      { label: "Save if", text: "You want genuine 240W power delivery with strong port count, where the CalDigit TS5, 15 Port delivers that for $399.95, a lower price than the flagship Plus model." },
+      { label: "Spend more if", text: "You need enterprise remote management and WPA3 security for an IT-managed fleet, where the Dell Pro Enterprise Bundle's under $500 price is justified by those features." },
+      { label: "Save if", text: "You want genuine 240W power delivery with strong port count, where the CalDigit TS5, 15 Port delivers that for under $400, a lower price than the flagship Plus model." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

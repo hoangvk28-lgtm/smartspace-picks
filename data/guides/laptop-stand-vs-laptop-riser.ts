@@ -12,7 +12,7 @@ export const laptopStandVsLaptopRiserGuide: Guide = {
     "laptop riser vs stand difference",
     "adjustable laptop stand vs fixed riser",
     "portable laptop stand for travel",
-    "laptop cooling stand vs riser",
+    "laptop cooling stand vs riser"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const laptopStandVsLaptopRiserGuide: Guide = {
     "laptop-stand-height-chart",
     "laptop-stand-vs-external-monitor",
     "external-keyboard-mouse-with-laptop-stand",
-    "desk-fan-cfm-explained",
+    "desk-fan-cfm-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const laptopStandVsLaptopRiserGuide: Guide = {
       question: "Which should I buy if I travel frequently with my laptop?",
       answer:
         "A compact, lightweight, foldable riser or portable stand designed specifically for travel is the better choice, prioritizing low weight and pack size over the extensive adjustability features of a full desk-based stand.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const laptopStandVsLaptopRiserGuide: Guide = {
     {
       heading: "Choosing Based on Where You'll Actually Use It",
       body: `If your laptop lives permanently at one desk, an adjustable stand lets you dial in the exact height for your specific eye level and desk setup, worth the added bulk since it stays in place. If you travel frequently and need to set up ergonomic elevation in different locations, a lightweight, foldable riser prioritizes portability, accepting a less precise fit in exchange for convenience.`,
-    },
+    }
   ],
 };

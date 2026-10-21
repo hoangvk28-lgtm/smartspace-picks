@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Queen size with built-in storage and charging", "AMERLIFE Queen Murphy Bed with Storage and Charging Station"],
         ["A stated weight capacity with sideboard-style looks", "SOFTSEA Twin Size Horizontal Murphy Bed"],
         ["Full size at the lowest price with organized bedding", "Harper & Bright Designs Full Size Horizontal Murphy Bed Frame"],
-        ["The highest weight capacity and universal size fit", "Wilding Wallbeds Murphy Bed Kit, All Sizes"],
+        ["The highest weight capacity and universal size fit", "Wilding Wallbeds Murphy Bed Kit, All Sizes"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $350", "Wilding Wallbeds ($349.00)"],
-        ["Under $380", "Harper & Bright ($375.99)"],
-        ["Under $430", "SOFTSEA Twin ($429.99)"],
-        ["Under $500", "AMERLIFE ($499.99)"],
+        ["Under $350", "Wilding Wallbeds (under $350)"],
+        ["Under $380", "Harper & Bright (under $400)"],
+        ["Under $430", "SOFTSEA Twin (under $450)"],
+        ["Under $500", "AMERLIFE (under $500)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Complete Cabinet Bed vs Hardware-Only Kit",
     cards: [
       { label: "Complete cabinet bed (AMERLIFE, SOFTSEA, Harper & Bright)", text: "Arrives ready to assemble as a finished piece, no separate lumber sourcing or cutting required." },
-      { label: "Hardware-only kit (Wilding Wallbeds)", text: "Offers the highest weight capacity and universal size flexibility, but requires you to build or source your own cabinet structure." },
+      { label: "Hardware-only kit (Wilding Wallbeds)", text: "Offers the highest weight capacity and universal size flexibility, but requires you to build or source your own cabinet structure." }
     ],
     note: "If you want a straightforward assembly without a construction project, any of the three complete cabinet beds work well. If maximum weight capacity and size flexibility matter more than convenience, the Wilding Wallbeds kit is worth the added build effort.",
   },
@@ -140,7 +140,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Built-in drawer and charging station", "AMERLIFE"],
         ["Bedding stays organized during storage", "Harper & Bright"],
         ["Sideboard-style closed appearance", "SOFTSEA Twin"],
-        ["No storage needed, just the mechanism", "Wilding Wallbeds"],
+        ["No storage needed, just the mechanism", "Wilding Wallbeds"]
       ],
     },
   },
@@ -148,16 +148,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Guest Room Used Only a Few Times a Year Specifically",
     cards: [
       { label: "Look for", text: "Built-in storage for spare bedding and pillows, so the guest room doesn't need dedicated closet space for infrequently used linens." },
-      { label: "In this comparison", text: "The AMERLIFE pick's dedicated drawer for pillows and built-in storage specifically addresses the need to keep guest bedding accessible but out of sight between uses." },
+      { label: "In this comparison", text: "The AMERLIFE pick's dedicated drawer for pillows and built-in storage specifically addresses the need to keep guest bedding accessible but out of sight between uses." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want queen size with genuine built-in storage and charging in one complete piece, where the AMERLIFE pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You want the highest weight capacity and don't mind building your own cabinet, where the Wilding Wallbeds kit covers that for about $151 less." },
+      { label: "Save if", text: "You want the highest weight capacity and don't mind building your own cabinet, where the Wilding Wallbeds kit covers that for about $151 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "slim portable file boxes";
 export const introParagraphs = [
   "\"Slim\" implies reduced width or depth for a narrow storage footprint, distinct from \"small\" which implies overall reduced size in all dimensions. This guide focuses specifically on genuinely narrow-footprint boxes, useful for fitting into a narrow shelf or closet space rather than simply having less overall capacity.",
-  "We verified hanging file rail compatibility at this narrower width specifically, since reduced width can affect whether standard-width hanging folders fit properly.",
+  "We verified hanging file rail compatibility at this narrower width specifically, since reduced width can affect whether standard-width hanging folders fit properly."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "\"Slim\" vs. \"small\" dimension-based distinction", description: "We distinguished genuine width/depth reduction (slim) from overall size reduction (small), since these represent different buyer needs." },
   { title: "Narrower-width hanging file rail compatibility", description: "We verified whether standard-width hanging folders still fit properly at this reduced width." },
   { title: "Review count honesty for dedicated 'slim' listings", description: "We flagged that several dedicated slim-labeled products carry very small review counts, and included proven alternatives with naturally narrower profiles for comparison." },
-  { title: "Storage footprint benefit verification", description: "We confirmed genuine narrow-footprint value for fitting into a narrow shelf or closet space, this framing's core value proposition." },
+  { title: "Storage footprint benefit verification", description: "We confirmed genuine narrow-footprint value for fitting into a narrow shelf or closet space, this framing's core value proposition." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -224,11 +224,11 @@ export const faq: FaqItem[] = [
   { q: "Will standard hanging folders fit in a slim box?", a: "This varies by the specific product's internal width. Verify against standard hanging folder dimensions before ordering, since reduced width can affect proper fit." },
   { q: "Are dedicated 'slim' labeled products well-reviewed?", a: "Several in this category carry small review counts. Consider a naturally narrower alternative with stronger reviews, like the BALEINE or Staples tote picks, if proven reliability matters more to you." },
   { q: "How much narrower is a slim box than a standard one?", a: "This varies by product. Compare the specific slim listing's dimensions directly against the brand's standard-width version if available, to see the exact width savings." },
-  { q: "Is a slim box a good choice for a narrow closet shelf?", a: "Yes, this is the core value proposition of a genuinely slim design, verify the specific product's width against your available shelf space before ordering." },
+  { q: "Is a slim box a good choice for a narrow closet shelf?", a: "Yes, this is the core value proposition of a genuinely slim design, verify the specific product's width against your available shelf space before ordering." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-portable-file-boxes", title: "Best Small Portable File Boxes (2026)" },
   { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" },
-  { href: "/guide/best-letter-size-portable-file-boxes", title: "Best Letter-Size Portable File Boxes (2026)" },
+  { href: "/guide/best-letter-size-portable-file-boxes", title: "Best Letter-Size Portable File Boxes (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "glass monitor shelf";
 export const introParagraphs = [
   "Tempered versus untempered glass is a genuine safety distinction, not a marketing detail, tempered glass breaks into small blunt pieces under stress while untempered glass can shatter into sharp shards. Check whether a listing specifically states tempered glass before assuming any glass shelf handles impact the same way.",
-  "Glass shelves generally carry lower weight capacity than metal or wood at a comparable thickness, and thicker glass adds both strength and base weight to the unit itself. Edge finish also matters for injury risk, a polished edge is meaningfully safer to handle than a raw-cut one, and fingerprints show up more visibly on glass than on other materials, a real ongoing maintenance tradeoff.",
+  "Glass shelves generally carry lower weight capacity than metal or wood at a comparable thickness, and thicker glass adds both strength and base weight to the unit itself. Edge finish also matters for injury risk, a polished edge is meaningfully safer to handle than a raw-cut one, and fingerprints show up more visibly on glass than on other materials, a real ongoing maintenance tradeoff."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,13 +26,13 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Glass Monitor Shelf",
     name: "Hemudu Clear Glass Monitor Riser, Triangle Desktop Corner Stand",
     price: "$22.95",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "3,636 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31hCjmkrRXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07DDBJHPT?tag=deskfinds0d-20",
-    description: "For buyers wanting a genuinely tempered glass option with a compact corner-fit design Built with a glass platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nIt earns the top spot in this comparison over Hemudu Clear Glass Monitor Riser with Height Adjustable Desktop Stand for one main reason. Solid 4.8-star rating with 3,636 ratings. On price, it comes in below Hemudu Clear Glass Monitor Riser with Height Adjustable Desktop Stand, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Glass build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["44 lbs rated capacity (evenly distributed)","glass construction","Priced at $22.95","3,636 ratings on Amazon"],
-    pros: ["Solid 4.8-star rating with 3,636 ratings","Glass build appropriate for this use case","Reasonable price at $22.95","A clear glass triangle corner riser for monitors and laptops."],
+    description: "For buyers wanting a genuinely tempered glass option with a compact corner-fit design Built with a glass platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nIt earns the top spot in this comparison over Hemudu Clear Glass Monitor Riser with Height Adjustable Desktop Stand for one main reason. On price, it comes in below Hemudu Clear Glass Monitor Riser with Height Adjustable Desktop Stand, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Glass build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","glass construction","Priced under $25"],
+    pros: ["Glass build appropriate for this use case","Reasonable price at under $25","A clear glass triangle corner riser for monitors and laptops."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A clear glass triangle corner riser for monitors and laptops.",
   },
@@ -42,13 +42,13 @@ export const products: GuideProduct[] = [
     badge: "Best Height-Adjustable Glass Shelf",
     name: "Hemudu Clear Glass Monitor Riser with Height Adjustable Desktop Stand",
     price: "$29.99",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "2,507 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21eXbRxogUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B071G5KX3X?tag=deskfinds0d-20",
-    description: "For buyers wanting glass aesthetics with some height flexibility Built with a glass platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nOne spot below Hemudu Clear Glass Monitor Riser in this ranking, it costs more than Hemudu Clear Glass Monitor Riser. The compromise here is straightforward: Rated capacity assumes evenly distributed weight, not a single point load. What you gain in return: Solid 4.8-star rating with 2,507 ratings. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Glass build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["44 lbs rated capacity (evenly distributed)","glass construction","Priced at $29.99","2,507 ratings on Amazon"],
-    pros: ["Solid 4.8-star rating with 2,507 ratings","Glass build appropriate for this use case","Reasonable price at $29.99","A clear glass riser with height adjustment for flat-screen monitors and other devices."],
+    description: "For buyers wanting glass aesthetics with some height flexibility Built with a glass platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nOne spot below Hemudu Clear Glass Monitor Riser in this ranking, it costs more than Hemudu Clear Glass Monitor Riser. The compromise here is straightforward: Rated capacity assumes evenly distributed weight, not a single point load. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Glass build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","glass construction","Priced under $30"],
+    pros: ["Glass build appropriate for this use case","Reasonable price at under $30","A clear glass riser with height adjustment for flat-screen monitors and other devices."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A clear glass riser with height adjustment for flat-screen monitors and other devices.",
   },
@@ -58,13 +58,13 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Glass Corner Riser",
     name: "Hemudu Clear Glass Monitor Riser, Triangle Desktop Corner Stand",
     price: "$22.95",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "3,636 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31hCjmkrRXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07DDBJHPT?tag=deskfinds0d-20",
-    description: "For buyers wanting a small-footprint glass option specifically for a desk corner Built with a glass platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nSitting just under Hemudu Clear Glass Monitor Riser with Height Adjustable Desktop Stand, it's priced lower than Hemudu Clear Glass Monitor Riser with Height Adjustable Desktop Stand. Here's the honest tradeoff: Rated capacity assumes evenly distributed weight, not a single point load. And here's what it gets you instead: Solid 4.8-star rating with 3,636 ratings. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Glass build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["44 lbs rated capacity (evenly distributed)","glass construction","Priced at $22.95","3,636 ratings on Amazon"],
-    pros: ["Solid 4.8-star rating with 3,636 ratings","Glass build appropriate for this use case","Reasonable price at $22.95","The same clear glass triangle riser, sized for tight corner placement on smaller desks."],
+    description: "For buyers wanting a small-footprint glass option specifically for a desk corner Built with a glass platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nSitting just under Hemudu Clear Glass Monitor Riser with Height Adjustable Desktop Stand, it's priced lower than Hemudu Clear Glass Monitor Riser with Height Adjustable Desktop Stand. Here's the honest tradeoff: Rated capacity assumes evenly distributed weight, not a single point load. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Glass build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","glass construction","Priced under $25"],
+    pros: ["Glass build appropriate for this use case","Reasonable price at under $25","The same clear glass triangle riser, sized for tight corner placement on smaller desks."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "The same clear glass triangle riser, sized for tight corner placement on smaller desks.",
   },
@@ -74,13 +74,13 @@ export const products: GuideProduct[] = [
     badge: "Best Multi-Device Glass Riser",
     name: "Hemudu Clear Glass Monitor Riser with Height Adjustable Desktop Stand",
     price: "$29.99",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "2,507 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21eXbRxogUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B071G5KX3X?tag=deskfinds0d-20",
-    description: "For buyers wanting one glass riser flexible enough for multiple device types Built with a glass platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nRanked just behind Hemudu Clear Glass Monitor Riser, it costs more than Hemudu Clear Glass Monitor Riser. The real tradeoff against that pick: Rated capacity assumes evenly distributed weight, not a single point load. In exchange, it offers this instead: Solid 4.8-star rating with 2,507 ratings. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Glass build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["44 lbs rated capacity (evenly distributed)","glass construction","Priced at $29.99","2,507 ratings on Amazon"],
-    pros: ["Solid 4.8-star rating with 2,507 ratings","Glass build appropriate for this use case","Reasonable price at $29.99","The same adjustable clear glass riser, suited to supporting a TV, laptop, or game console in addition to a monitor."],
+    description: "For buyers wanting one glass riser flexible enough for multiple device types Built with a glass platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nRanked just behind Hemudu Clear Glass Monitor Riser, it costs more than Hemudu Clear Glass Monitor Riser. The real tradeoff against that pick: Rated capacity assumes evenly distributed weight, not a single point load. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Glass build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","glass construction","Priced under $30"],
+    pros: ["Glass build appropriate for this use case","Reasonable price at under $30","The same adjustable clear glass riser, suited to supporting a TV, laptop, or game console in addition to a monitor."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "The same adjustable clear glass riser, suited to supporting a TV, laptop, or game console in addition to a monitor.",
   }
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Tempered versus untempered glass disclosed", description: "Checked listings for explicit tempered glass claims, a genuine safety distinction in shatter pattern under impact." },
   { title: "Weight capacity compared against metal and wood at similar thickness", description: "Noted that glass generally carries lower capacity than metal or wood shelves of comparable thickness." },
   { title: "Edge finish and injury risk assessed", description: "Distinguished polished edges from raw-cut edges, a real factor in handling injury risk." },
-  { title: "Fingerprint and smudge visibility considered", description: "Weighted the real maintenance tradeoff of visible smudges on a clear glass surface versus opaque materials." },
+  { title: "Fingerprint and smudge visibility considered", description: "Weighted the real maintenance tradeoff of visible smudges on a clear glass surface versus opaque materials." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -168,23 +168,19 @@ export const howToChoose: HowToChooseSection[] = [
       {
         "label": "Look for",
         "text": "A stated weight capacity with real margin above your monitor's actual weight, a rigid material like metal or thick wood, and a wide enough platform to support the monitor's full base without overhang."
-      },
-      {
-        "label": "In this comparison",
-        "text": "Hemudu Clear Glass Monitor Riser with Height Adjustable Desktop Stand fits this specifically: Solid 4.8-star rating with 2,507 ratings."
       }
-    ]
+      ]
   },
   {
     "subheading": "When to Spend More",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want what Hemudu Clear Glass Monitor Riser with Height Adjustable Desktop Stand offers: Solid 4.8-star rating with 2,507 ratings. That's a real functional upgrade over the budget picks here, not just a brand markup."
+        "text": "That's a real functional upgrade over the budget picks here, not just a brand markup."
       },
       {
         "label": "Save if",
-        "text": "Hemudu Clear Glass Monitor Riser already covers the essentials: Solid 4.8-star rating with 3,636 ratings. The main thing you'd be paying extra for elsewhere in this list is capacity or storage you may not need."
+        "text": "The main thing you'd be paying extra for elsewhere in this list is capacity or storage you may not need."
       }
     ]
   }
@@ -217,11 +213,11 @@ export const faq: FaqItem[] = [
   { q: "Is glass safe to use for a monitor shelf?", a: "Tempered glass is designed to break into small, blunter pieces under stress, making it meaningfully safer than untempered glass, which can shatter into sharp shards. Confirm tempered glass in the listing." },
   { q: "Can a glass shelf hold as much weight as a metal one?", a: "Usually less at a comparable thickness, glass shelves generally carry lower weight capacity than metal or wood alternatives." },
   { q: "Do glass shelves show fingerprints easily?", a: "Yes, smudges and fingerprints are more visible on clear glass than on opaque materials, a real ongoing maintenance tradeoff." },
-  { q: "Does the edge finish on a glass shelf matter?", a: "Yes, a polished edge is safer to handle than a raw-cut edge, worth checking listing photos or reviews for edge finish quality." },
+  { q: "Does the edge finish on a glass shelf matter?", a: "Yes, a polished edge is safer to handle than a raw-cut edge, worth checking listing photos or reviews for edge finish quality." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-acrylic-monitor-shelves", title: "Best Acrylic Monitor Shelves (2026)" },
   { href: "/guide/best-metal-monitor-shelves", title: "Best Metal Monitor Shelves (2026)" },
-  { href: "/guide/best-corner-monitor-shelves", title: "Best Corner Monitor Shelves (2026)" },
+  { href: "/guide/best-corner-monitor-shelves", title: "Best Corner Monitor Shelves (2026)" }
 ];

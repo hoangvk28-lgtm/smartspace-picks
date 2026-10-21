@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $369.99",
+          "Under $400",
           "Tribesigns 10.5FT Conference Table"
         ],
         [
-          "Around $389.99",
+          "Under $400",
           "Tribesigns 10ft Conference Table for 8-12"
         ],
         [
-          "Around $489.99",
+          "Under $500",
           "TRIBEWOOD 10FT Solid Wood Conference Table for 10-12"
         ],
         [
-          "Around $1,749.99",
+          "Under $1,800",
           "10FT Conference Table with Charging Stations"
         ],
         [
-          "Around $1,749.99",
+          "Under $1,800",
           "10ft Conference Table with Built-In Power Outlet"
         ],
         [
-          "Around $1,799.00",
+          "Under $1,800",
           "OfficeSimpli 10ft Conference Table"
         ],
         [
-          "Around $1,935.99",
+          "Under $2,000",
           "GOF 10FT Conference Table & 8 Chairs Set"
         ],
         [
-          "Around $1,947.00",
+          "Under $2,000",
           "GOF 10FT Conference Table & 8 Chairs Set"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "Tribesigns 10ft Conference Table for 8-12 is aimed at buyers prioritizing 10ft table, 2-piece mdf top, 3.35\" thickened edge." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Tribesigns 10ft Conference Table for 8-12 is aimed at buyers prioritizing 10ft table, 2-piece mdf top, 3.35\" thickened edge." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-6-ft-conference-tables","title":"Best 6 ft Conference Tables in 2026"},{"href":"/guide/best-8ft-conference-tables","title":"Best 8ft Conference Tables in 2026"},{"href":"/guide/best-8-ft-conference-tables","title":"Best 8 ft Conference Tables in 2026"}];

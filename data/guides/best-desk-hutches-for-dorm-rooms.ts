@@ -43,12 +43,12 @@ export const products: GuideProduct[] = [
     pros: [
       "Six individual shelves for the most storage subdivision in this roundup",
       "Rustic brown finish suits wood-tone dorm furniture",
-      "Compact three-tier design fits standard dorm desks",
+      "Compact three-tier design fits standard dorm desks"
     ],
     cons: [
       "No established review history yet to confirm long-term sturdiness",
       "No drawer for concealed storage",
-      "Rustic finish may not match white-heavy dorm decor",
+      "Rustic finish may not match white-heavy dorm decor"
     ],
     bestFor: "Students who want the most individual shelf compartments for separating textbooks and supplies by subject",
   },
@@ -58,23 +58,22 @@ export const products: GuideProduct[] = [
     badge: "Best Overall",
     name: "Furinno Classic 5-Shelf Desktop Hutch, 37-inch Wide",
     price: "Check price",
-    rating: "4.2 stars",
-    reviews: "39,764 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/furinno-5shelf.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0F5GQNHRN?tag=deskfinds0d-20",
     description:
       "The Furinno 37-inch hutch is the most-reviewed desk hutch available and fits standard dorm desks in the 36-40 inch range without overhanging the sides. Five open shelves give vertical storage for textbooks, a small plant, folders, and desk supplies in a format that takes no floor space.\n\nAt its price point, the build is lightweight particleboard suited for paper and supplies rather than heavy equipment. Dorm buyers who want maximum shelf count at minimum cost consistently rank it as the default choice before looking at pricier alternatives.",
     specs: ["37 inches wide", "5 shelves", "Open design", "Lightweight"],
     pros: [
-      "Nearly 40,000 reviews at 4.2 stars",
       "Five shelves for textbooks and supplies",
       "Fits standard dorm desks",
-      "Lightweight and easy to move out at semester end",
+      "Lightweight and easy to move out at semester end"
     ],
     cons: [
       "Particleboard construction limits shelf load",
       "No drawer or concealed storage",
-      "Open shelves show clutter",
+      "Open shelves show clutter"
     ],
     bestFor: "Dorm buyers who want maximum shelf count at the lowest possible cost",
   },
@@ -84,8 +83,8 @@ export const products: GuideProduct[] = [
     badge: "Best with Drawer",
     name: "ChooChoo Desktop Bookshelf with Drawer, White, 36.4-inch",
     price: "$79.99",
-    rating: "4.6 stars",
-    reviews: "564 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/choochoo-drawer-white.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CWLCHKZD?tag=deskfinds0d-20",
     description:
@@ -94,13 +93,12 @@ export const products: GuideProduct[] = [
     pros: [
       "Pull-out drawer for concealed storage",
       "White finish works with most dorm furniture",
-      "Five shelves plus drawer combination",
-      "4.6 stars across 564 reviews",
+      "Five shelves plus drawer combination"
     ],
     cons: [
-      "$59.99 price point is higher than basic models",
+      "Under $60 price point is higher than basic models",
       "Drawer is smaller than it appears in photos",
-      "Assembly takes 30-45 minutes",
+      "Assembly takes 30-45 minutes"
     ],
     bestFor:
       "Students who need concealed storage for cables and small items alongside open shelves",
@@ -111,8 +109,8 @@ export const products: GuideProduct[] = [
     badge: "Best Premium Pick",
     name: "Tangkula Desktop Bookshelf, 5 Shelves, 3-Tier, White",
     price: "$79.99",
-    rating: "4.5 stars",
-    reviews: "564 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/tangkula-white.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0C2KR6BVM?tag=deskfinds0d-20",
     description:
@@ -122,12 +120,12 @@ export const products: GuideProduct[] = [
       "Anti-tip kit included for safety",
       "Sturdier build than budget options",
       "Three-tier design separates storage zones visually",
-      "Good long-term investment for multi-year use",
+      "Good long-term investment for multi-year use"
     ],
     cons: [
-      "$79.99 is the highest price in this roundup",
+      "Under $80 is the highest price in this roundup",
       "Heavier to transport at semester end",
-      "More shelf sections to organize",
+      "More shelf sections to organize"
     ],
     bestFor:
       "Students who want a premium build that can last multiple semesters or move home after graduation",
@@ -138,8 +136,8 @@ export const products: GuideProduct[] = [
     badge: "Best with LED + Outlets",
     name: "HOOBRO Desktop Bookcase with LED Light Strip and Outlets",
     price: "$61.99",
-    rating: "4.6 stars",
-    reviews: "193 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/hoobro-led-outlets.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CRV7VNDW?tag=deskfinds0d-20",
     description:
@@ -149,12 +147,12 @@ export const products: GuideProduct[] = [
       "2 AC outlets and 2 USB ports built in",
       "LED light strip for ambient desk lighting",
       "Under $50 price with significant features",
-      "Reduces need for a separate lamp or power strip",
+      "Reduces need for a separate lamp or power strip"
     ],
     cons: [
       "Two-tier design offers less shelf space than five-shelf models",
       "Cord management for the LED adds some clutter",
-      "Limited review count at 193",
+      "Limited review count at 193"
     ],
     bestFor:
       "Dorm students short on outlets who want built-in lighting and power access on their desk",
@@ -165,23 +163,21 @@ export const products: GuideProduct[] = [
     badge: "Best Compact 31-inch",
     name: "Snughome 31.9-inch Desk Shelf, 3-Tier, Rustic Brown",
     price: "$42.99",
-    rating: "4.7 stars",
-    reviews: "122 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/snughome-31-rustic.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0D94266LY?tag=deskfinds0d-20",
     description:
-      "The Snughome 31.9-inch hutch is the most compact fixed-width model in this roundup, fitting dorm desks that run under 33 inches wide. The three-tier format and rustic brown finish give a warmer look than the white-finish options and work well with natural-wood or walnut-tone dorm furniture.\n\nAt 4.7 stars it holds the highest rating in this roundup despite having only 122 reviews. Students with shorter desks or who share a desk surface with a roommate tend to prefer the narrower format over a 37-inch model.",
+      "The Snughome 31.9-inch hutch is the most compact fixed-width model in this roundup, fitting dorm desks that run under 33 inches wide. The three-tier format and rustic brown finish give a warmer look than the white-finish options and work well with natural-wood or walnut-tone dorm furniture.\n\nStudents with shorter desks or who share a desk surface with a roommate tend to prefer the narrower format over a 37-inch model.",
     specs: ["31.9 inches wide", "3 tiers", "Rustic brown finish", "Compact footprint"],
     pros: [
-      "4.7-star rating, highest in this roundup",
       "31.9-inch width for narrow dorm desks",
       "Warm rustic brown finish",
-      "Compact footprint leaves more desk surface free",
+      "Compact footprint leaves more desk surface free"
     ],
     cons: [
-      "Only 122 reviews, smaller feedback base",
       "Three tiers vs five shelves on wider models",
-      "Rustic finish may clash with white-heavy dorm furniture",
+      "Rustic finish may clash with white-heavy dorm furniture"
     ],
     bestFor:
       "Students with narrower dorm desks or shared desk surfaces who prefer a rustic finish",
@@ -192,23 +188,22 @@ export const products: GuideProduct[] = [
     badge: "Best 38-inch Rustic",
     name: "Snughome 38.6-inch Desk Shelf, 4-Tier, Rustic Brown",
     price: "$47.99",
-    rating: "4.7 stars",
-    reviews: "454 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/snughome-38-rustic.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CJ8YDWNY?tag=deskfinds0d-20",
     description:
-      "The Snughome 38.6-inch four-tier hutch is the wider version of the compact model above and suits standard dorm desks in the 36-40 inch range. Four open tiers provide enough storage for textbooks, binders, a small speaker, and basic supplies with room to spare for display items.\n\nWith 454 reviews at 4.7 stars, it has the strongest combined review count and rating of any hutch in this dorm roundup. Students who want a rustic-finish hutch wide enough to frame a 24-inch monitor tend to prefer this over the 31.9-inch model.",
+      "The Snughome 38.6-inch four-tier hutch is the wider version of the compact model above and suits standard dorm desks in the 36-40 inch range. Four open tiers provide enough storage for textbooks, binders, a small speaker, and basic supplies with room to spare for display items.\n\nStudents who want a rustic-finish hutch wide enough to frame a 24-inch monitor tend to prefer this over the 31.9-inch model.",
     specs: ["38.6 inches wide", "4 tiers", "Rustic brown finish"],
     pros: [
-      "4.7 stars across 454 reviews",
       "38.6-inch width fits standard dorm desks",
       "Four tiers for books, binders, and supplies",
-      "Warm rustic finish for non-clinical dorm aesthetic",
+      "Warm rustic finish for non-clinical dorm aesthetic"
     ],
     cons: [
       "Four tiers vs five shelves on the Furinno",
-      "$46.99 is higher than the Furinno at similar width",
-      "No drawer or concealed storage",
+      "Under $50 is higher than the Furinno at similar width",
+      "No drawer or concealed storage"
     ],
     bestFor:
       "Dorm students who want the highest-rated rustic hutch at full dorm-desk width",
@@ -219,8 +214,8 @@ export const products: GuideProduct[] = [
     badge: "Best Tall Bookshelf",
     name: "ChooChoo Desktop Bookshelf, 7 Shelves, White, 37W x 33.5H",
     price: "$53.99",
-    rating: "4.4 stars",
-    reviews: "129 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/choochoo-7shelf.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CWKYVDCP?tag=deskfinds0d-20",
     description:
@@ -230,12 +225,11 @@ export const products: GuideProduct[] = [
       "Seven shelves for maximum textbook storage",
       "33.5 inches tall for high vertical reach",
       "37-inch width fits standard dorm desks",
-      "White finish for versatile pairing",
+      "White finish for versatile pairing"
     ],
     cons: [
       "Upper shelves difficult to access while seated",
-      "Height may feel imposing on smaller dorm desks",
-      "Only 129 reviews, limited feedback",
+      "Height may feel imposing on smaller dorm desks"
     ],
     bestFor:
       "Students with large textbook collections who prioritize storage volume over all other features",
@@ -246,8 +240,8 @@ export const products: GuideProduct[] = [
     badge: "Best Black Option",
     name: "Marbrasse Desk Shelf with Drawer, 40-inch Wide, 4-Tier, Black",
     price: "$42.98",
-    rating: "4.3 stars",
-    reviews: "134 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/marbrasse-drawer-black.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0DJ8MD6P5?tag=deskfinds0d-20",
     description:
@@ -257,16 +251,15 @@ export const products: GuideProduct[] = [
       "Black finish for dark or gaming-style setups",
       "Drawer for concealed storage under $42",
       "40-inch width suits larger dorm desks",
-      "Undercuts ChooChoo drawer model by $18",
+      "Undercuts ChooChoo drawer model by $18"
     ],
     cons: [
-      "Only 134 reviews, limited buyer feedback",
       "40-inch width may overhang narrower dorm desks",
-      "Black finish shows dust prominently",
+      "Black finish shows dust prominently"
     ],
     bestFor:
       "Dorm students who want a black-finish hutch with a drawer at a budget-friendly price",
-  },
+  }
 ];
 
 export const faq: { q: string; a: string }[] = [
@@ -284,17 +277,17 @@ export const faq: { q: string; a: string }[] = [
   },
   {
     q: "Is a hutch with outlets and LED lights worth it for a dorm?",
-    a: "If your dorm room has limited wall outlets, a hutch like the HOOBRO with two AC outlets and two USB ports eliminates the need for a separate power strip on the desk. The LED strip replaces a small desk lamp. For students in older dorms with limited outlets, the combined value of these features at $49.99 is significant.",
+    a: "If your dorm room has limited wall outlets, a hutch like the HOOBRO with two AC outlets and two USB ports eliminates the need for a separate power strip on the desk. The LED strip replaces a small desk lamp. For students in older dorms with limited outlets, the combined value of these features at under $50 is significant.",
   },
   {
     q: "How do I keep a desk hutch stable without drilling into the dorm wall?",
     a: "Most desk hutches in this roundup are stable enough on a flat desk surface without wall anchoring. The Tangkula includes an anti-tip kit for additional security without wall attachment. Placing heavier items on lower shelves and lighter items higher up reduces the center of gravity and prevents tipping in most normal-use conditions.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-hutches", title: "Best Desk Hutches (2026)" },
   { href: "/guide/best-desk-hutches-for-small-desks", title: "Best Desk Hutches for Small Desks (2026)" },
   { href: "/guide/small-desk-organization-ideas", title: "Small Desk Organization Ideas" },
-  { href: "/guide/best-desk-shelves-small-desks", title: "Best Desk Shelves for Small Desks (2026)" },
+  { href: "/guide/best-desk-shelves-small-desks", title: "Best Desk Shelves for Small Desks (2026)" }
 ];

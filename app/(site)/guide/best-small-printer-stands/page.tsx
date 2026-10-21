@@ -162,7 +162,7 @@ export default async function BestSmallPrinterStandsPage() {
     about: [
       { "@type": "Thing", name: "Printer Stand" },
       { "@type": "Thing", name: "Home Office Cart" },
-      { "@type": "Thing", name: "Compact Storage" },
+      { "@type": "Thing", name: "Compact Storage" }
     ],
   };
 
@@ -182,7 +182,7 @@ export default async function BestSmallPrinterStandsPage() {
         position: 3,
         name: "Best Small Printer Stands",
         item: `${SITE_URL}/guide/best-small-printer-stands`,
-      },
+      }
     ],
   };
 
@@ -506,7 +506,7 @@ export default async function BestSmallPrinterStandsPage() {
                       option: "Under-desk height",
                       bestFor: "Sliding printer storage under desk",
                       notes: "VASAGLE 13.4 inch only option",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -555,57 +555,57 @@ export default async function BestSmallPrinterStandsPage() {
                 id: "huanuo-narrow-14in",
                 name: "HUANUO 14.1 inch",
                 verdict:
-                  " - 6,293 reviews at 4.5 stars, narrowest at 14.1 inches, cable management built in.",
+                  " - Narrowest at 14.1 inches, cable management built in.",
               },
               {
                 context: "Best under-desk height",
                 id: "vasagle-under-desk",
                 name: "VASAGLE 13.4 inch",
                 verdict:
-                  " - 1,784 reviews at 4.7 stars, slides under standard desks, 99-lb capacity.",
+                  " - Slides under standard desks, 99-lb capacity.",
               },
               {
                 context: "Best rustic brown validated option",
                 id: "hoobro-2-tier-rustic",
                 name: "HOOBRO 2-Tier Rustic",
                 verdict:
-                  " - 2,359 reviews at 4.5 stars, 88-lb capacity, under $33.",
+                  " - 88-lb capacity, under $33.",
               },
               {
                 context: "Best 3-tier with power outlet",
                 id: "hoobro-3-tier-power",
                 name: "HOOBRO 3-Tier",
                 verdict:
-                  " - 976 reviews at 4.5 stars, power outlet and USB ports under $35.",
+                  " - Power outlet and USB ports under $35.",
               },
               {
                 context: "Best white with power outlet",
                 id: "tutotak-white-power",
                 name: "TUTOTAK White",
                 verdict:
-                  " - 780 reviews at 4.4 stars, lowest-priced white option with outlet.",
+                  " - Lowest-priced white option with outlet.",
               },
               {
                 context: "Best lowest-priced with outlet",
                 id: "hoobro-charging-station",
                 name: "HOOBRO Charging Station",
                 verdict:
-                  " - $26.99 lowest with power outlet, rustic brown, 708 reviews.",
+                  " - Under $30 lowest with power outlet, rustic brown",
               },
               {
                 context: "Best for large all-in-one printers",
                 id: "yaohuoo-22x15-fabric",
                 name: "YAOHUOO 22x15",
                 verdict:
-                  " - 924 reviews at 4.5 stars, 22-inch surface, fabric drawer.",
+                  " - 22-inch surface, fabric drawer.",
               },
               {
                 context: "Best structural stability",
                 id: "vyuol-3-tier-dual-rod",
                 name: "VYUOL Dual-Rod",
                 verdict:
-                  " - 228 reviews at 4.7 stars, dual-rod frame reduces wobble.",
-              },
+                  " - Dual-rod frame reduces wobble.",
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

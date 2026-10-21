@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "home smart display";
 export const introParagraphs = [
   "A home smart display is meant to live in a shared household space, a kitchen, hallway, or family room, syncing calendars and chore charts for everyone in the house rather than sitting on one person's desk.",
-  "We prioritized larger screen sizes and confirmed calendar sync features here, since a shared household display benefits from being readable at a glance by multiple family members from across a room.",
+  "We prioritized larger screen sizes and confirmed calendar sync features here, since a shared household display benefits from being readable at a glance by multiple family members from across a room."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     pros: ["Cheapest smart display in our entire research", "Explicitly subscription-free"],
     cons: ["Noticeably smaller screen than the other picks in this comparison"],
     bestFor: "Households on a budget or testing whether a shared smart display is useful before upgrading.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Prioritized larger, room-visible screen sizes", description: "Since a home smart display is meant for shared household visibility, we favored 15+ inch options over the compact tablet-style tier for this specific comparison." },
   { title: "Flagged subscription requirements where explicitly confirmed", description: "We noted which listings explicitly advertise no subscription requirement, a meaningful long-term cost factor for a household device." },
   { title: "Compared same-size options across brands directly", description: "Two 15.6 inch options here differ meaningfully in price, and we compared what specifically justifies the gap rather than assuming price alone reflects quality." },
-  { title: "Weighed brand track record for a daily-use household device", description: "We noted where a product comes from an established family-calendar brand versus a newer entrant, relevant for a device meant to run daily for years." },
+  { title: "Weighed brand track record for a daily-use household device", description: "We noted where a product comes from an established family-calendar brand versus a newer entrant, relevant for a device meant to run daily for years." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -222,13 +222,13 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "What's the largest home smart display available?", a: "The Apolosign 21.5 inch Digital Calendar, by far the largest screen in our research, roughly double the diagonal size of the standard 10.1 inch tier." },
   { q: "Do these require a subscription?", a: "It varies. The Airzeen, Westsee, and Cotoala picks explicitly advertise no subscription requirement; verify subscription terms directly for the Apolosign and Skylight picks before buying." },
-  { q: "What's the cheapest option?", a: "The Cotoala 10.1 inch Smart Digital Calendar at $59.99, though its screen is noticeably smaller than the other picks here." },
+  { q: "What's the cheapest option?", a: "The Cotoala 10.1 inch Smart Digital Calendar at under $60, though its screen is noticeably smaller than the other picks here." },
   { q: "Which is the best value at a larger screen size?", a: "The Westsee 15.6 inch Digital Calendar, priced lower than the similarly-sized Airzeen and Skylight picks while also confirmed subscription-free." },
-  { q: "How far away can these be read from?", a: "A 10.1 inch screen reads clearly up close but loses readability from across a room; for viewing from 8+ feet away, prioritize the 15.6 inch or 21.5 inch tiers." },
+  { q: "How far away can these be read from?", a: "A 10.1 inch screen reads clearly up close but loses readability from across a room; for viewing from 8+ feet away, prioritize the 15.6 inch or 21.5 inch tiers." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-smart-display-tablets", title: "Best Smart Display Tablets (2026)" },
   { href: "/guide/best-large-digital-calendar-displays", title: "Best Large Digital Calendar Displays (2026)" },
-  { href: "/guide/best-day-clocks-with-calendars", title: "Best Day Clocks with Calendars (2026)" },
+  { href: "/guide/best-day-clocks-with-calendars", title: "Best Day Clocks with Calendars (2026)" }
 ];

@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/319cRp-xxlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVWYJ54W?tag=deskfinds0d-20",
-    description: "This dock's Intel EVO certification is a genuine third-party validation process covering real-world performance, battery efficiency, and connectivity testing, distinct from a manufacturer's own uncertified performance claims and a genuine differentiator among alternatives to the pricier flagship docks. At $199.99, it undercuts flagship 15-plus-port docks substantially while still delivering 120Gbps Thunderbolt 5 speeds and 140W Power Delivery.\n\nAs an alternative specifically for buyers who want independently verified reliability without paying flagship prices, this dock's 8K display support and Intel certification give real assurance that a cheaper uncertified dock from a lesser-known brand can't match.\n\nBest for buyers who want independently certified reliability as a lower-cost alternative to flagship docks.",
+    description: "This dock's Intel EVO certification is a genuine third-party validation process covering real-world performance, battery efficiency, and connectivity testing, distinct from a manufacturer's own uncertified performance claims and a genuine differentiator among alternatives to the pricier flagship docks. At under $200, it undercuts flagship 15-plus-port docks substantially while still delivering 120Gbps Thunderbolt 5 speeds and 140W Power Delivery.\n\nAs an alternative specifically for buyers who want independently verified reliability without paying flagship prices, this dock's 8K display support and Intel certification give real assurance that a cheaper uncertified dock from a lesser-known brand can't match.\n\nBest for buyers who want independently certified reliability as a lower-cost alternative to flagship docks.",
     specs: ["Intel EVO certified, 120Gbps Thunderbolt 5", "140W PD, 8K display support", "Lower price than flagship 15+ port docks"],
     pros: ["Intel EVO certification is genuine independent third-party validation", "Significantly lower price than flagship docks with similar core specs", "8K display support despite the lower price point"],
     cons: ["Fewer total ports than a full flagship dock", "Display count is lower than docks specifically built for multi-monitor setups"],
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Want independently certified reliability at a lower price", "WAVLINK Intel EVO Certified Thunderbolt 5 Dock"],
         ["Windows business deployment needing IT management tools", "Kensington SD5010T5 Thunderbolt 5 Docking Station"],
         ["Mac user wanting granular per-chip display documentation", "StarTech Thunderbolt 5 Universal Docking Station"],
-        ["Budget-conscious buyer wanting strong core performance", "UGREEN 13-in-1 Thunderbolt 5 Dock"],
+        ["Budget-conscious buyer wanting strong core performance", "UGREEN 13-in-1 Thunderbolt 5 Dock"]
       ],
     },
   },
@@ -109,9 +109,9 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended alternative"],
       rows: [
-        ["Under $200", "WAVLINK Intel EVO Certified Dock ($199.99)"],
-        ["Under $300", "UGREEN 13-in-1 ($274.99) or Kensington SD5010T5 ($295.47)"],
-        ["Under $360", "StarTech Universal Docking Station ($351.58)"],
+        ["Under $200", "WAVLINK Intel EVO Certified Dock (under $200)"],
+        ["Under $300", "UGREEN 13-in-1 (under $300) or Kensington SD5010T5 (under $300)"],
+        ["Under $360", "StarTech Universal Docking Station (under $400)"]
       ],
     },
   },
@@ -119,7 +119,7 @@ export const howToChoose = [
     subheading: "Certified Reliability vs Platform-Specific Optimization",
     cards: [
       { label: "Certified reliability (WAVLINK)", text: "Intel EVO certification gives independently verified performance and efficiency testing, a real assurance signal at a lower price than platform-specialized alternatives." },
-      { label: "Platform-specific optimization (Kensington, StarTech)", text: "These alternatives specifically optimize for one platform, Windows business IT or Mac chip-specific display support, rather than chasing a broad certification." },
+      { label: "Platform-specific optimization (Kensington, StarTech)", text: "These alternatives specifically optimize for one platform, Windows business IT or Mac chip-specific display support, rather than chasing a broad certification." }
     ],
     note: "If independent validation matters most and you're platform-agnostic, the WAVLINK's Intel EVO certification is a strong signal. If you're deep in one ecosystem, the Kensington or StarTech picks are built specifically around that platform's real needs.",
   },
@@ -130,7 +130,7 @@ export const howToChoose = [
       rows: [
         ["Corporate IT-managed Windows fleet", "Kensington SD5010T5 Thunderbolt 5 Docking Station"],
         ["Personal home office, single Mac", "StarTech Thunderbolt 5 Universal Docking Station"],
-        ["Budget home office, either platform", "UGREEN 13-in-1 or WAVLINK Intel EVO Certified"],
+        ["Budget home office, either platform", "UGREEN 13-in-1 or WAVLINK Intel EVO Certified"]
       ],
     },
   },
@@ -138,16 +138,16 @@ export const howToChoose = [
     subheading: "For Sustainability-Conscious Corporate Buyers Specifically",
     cards: [
       { label: "Look for", text: "Concrete, named sustainability disclosures like recycled material percentages and certified packaging, rather than vague eco-marketing language, if corporate sustainability reporting is a factor in your purchase." },
-      { label: "In this comparison", text: "The Kensington SD5010T5 specifically states 100% post-consumer recycled aluminum casing delivered in FSC-certified packaging." },
+      { label: "In this comparison", text: "The Kensington SD5010T5 specifically states 100% post-consumer recycled aluminum casing delivered in FSC-certified packaging." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You're a Mac user who wants the most granular per-chip display documentation, where the StarTech pick's $351.58 price is justified by that level of detail." },
-      { label: "Save if", text: "You want strong core Thunderbolt 5 performance with independent certification, where the WAVLINK pick delivers that for $199.99, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You're a Mac user who wants the most granular per-chip display documentation, where the StarTech pick's under $400 price is justified by that level of detail." },
+      { label: "Save if", text: "You want strong core Thunderbolt 5 performance with independent certification, where the WAVLINK pick delivers that for under $200, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -161,7 +161,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "A Cheaper Alternative Isn't Automatically a Worse Choice if It Specifically Fits Your Actual Use Case",
-    "explanation": "The WAVLINK pick's $199.99 price is meaningfully lower than the flagship docks it's positioned as an alternative to, yet it still delivers Intel EVO certification and 120Gbps Thunderbolt 5 speeds, showing that a lower price doesn't automatically mean a worse real-world fit for buyers who don't need a flagship's full port count or feature set. This matters if you're tempted to default to the most expensive, most-marketed option assuming it's always the safest choice, and matters less if your workflow genuinely requires a flagship's maximum port count and features. Match a dock's actual feature set to your real use case rather than assuming higher price always means better value for your specific situation."
+    "explanation": "The WAVLINK pick's under $200 price is meaningfully lower than the flagship docks it's positioned as an alternative to, yet it still delivers Intel EVO certification and 120Gbps Thunderbolt 5 speeds, showing that a lower price doesn't automatically mean a worse real-world fit for buyers who don't need a flagship's full port count or feature set. This matters if you're tempted to default to the most expensive, most-marketed option assuming it's always the safest choice, and matters less if your workflow genuinely requires a flagship's maximum port count and features. Match a dock's actual feature set to your real use case rather than assuming higher price always means better value for your specific situation."
   },
   {
     "criterion": "Named Sustainability Disclosures Are More Meaningful and Checkable Than General Eco-Marketing Claims",

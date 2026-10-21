@@ -177,28 +177,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $42.17",
+          "Under $45",
           "XPPen Deco mini7W 7x4 inch Bluetooth 5.0 Graphic Tablet"
         ],
         [
-          "Around $50.99",
+          "Under $60",
           "GAOMON WH851 Bluetooth Graphics Drawing Tablet"
         ],
         [
-          "Around $69.95",
+          "Under $70",
           "Wacom Intuos Small"
         ],
         [
-          "Around $79.99",
+          "Under $80",
           "XPPen Deco LW Wireless Drawing Tablet"
         ],
         [
-          "Around $129.95",
+          "Under $130",
           "Wacom Intuos Medium"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -246,7 +246,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "GAOMON WH851 Bluetooth Graphics Drawing Tablet is aimed at buyers prioritizing 8x5in area, 16384 pressure levels." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "GAOMON WH851 Bluetooth Graphics Drawing Tablet is aimed at buyers prioritizing 8x5in area, 16384 pressure levels." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-bluetooth-drawing-tablets","title":"Best Bluetooth Drawing Tablets in 2026"},{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"},{"href":"/guide/best-wacom-drawing-tablets","title":"Best Wacom Drawing Tablets in 2026"}];

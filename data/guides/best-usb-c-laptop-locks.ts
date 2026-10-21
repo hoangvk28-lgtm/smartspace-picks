@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "USB-C laptop locks";
 export const introParagraphs = [
   "Physical USB-C laptop locks solve the no-slot problem by occupying an I/O port instead of a dedicated security slot, a fundamentally different mechanical risk than a reinforced Kensington-style slot, since force gets transferred through the connector area rather than a purpose-built anchor.",
-  "We're disclosing this directly: only one of the four candidates that surface under this search term is a genuine physical anti-theft lock. The other three are USB-C data-blocking port plugs, which prevent unauthorized charging or data transfer but do nothing to stop someone from physically taking the laptop.",
+  "We're disclosing this directly: only one of the four candidates that surface under this search term is a genuine physical anti-theft lock. The other three are USB-C data-blocking port plugs, which prevent unauthorized charging or data transfer but do nothing to stop someone from physically taking the laptop."
 ];
 export const lastUpdated = "2026-08-11";
 export const readTime = "8 min";
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required a physical anti-removal mechanism to count as a genuine anti-theft lock", description: "We excluded data-blocking port plugs, USB security keys, and other login-authentication accessories from being ranked as physical theft protection, and disclosed the mismatch directly instead." },
   { title: "Verified connector orientation and USB-C security-slot chassis clearance", description: "We checked whether each physical lock requires a dedicated USB-C security slot versus a generic USB-C port, since only certain laptops have the specialized slot the PortLock requires." },
   { title: "Disclosed whether the occupied port loses charging, display, or data use while locked", description: "We noted directly that the port-based products in this comparison occupy the connector, with no documented pass-through functionality." },
-  { title: "Treated port stress and possible connector damage as a separate risk from a dedicated security slot", description: "Force transferred through a USB-C connector carries different mechanical risk than a purpose-built Kensington-style security slot, and we surfaced that distinction rather than treating all USB-C attachment methods as equivalent." },
+  { title: "Treated port stress and possible connector damage as a separate risk from a dedicated security slot", description: "Force transferred through a USB-C connector carries different mechanical risk than a purpose-built Kensington-style security slot, and we surfaced that distinction rather than treating all USB-C attachment methods as equivalent." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -226,11 +226,11 @@ export const faq: FaqItem[] = [
   { q: "What's the best USB-C physical laptop lock?", a: "The Kensington PortLock Keyed Laptop Lock for USB-C Slots, the only pick in this comparison built specifically for laptops with a genuine USB-C security slot, including current Dell XPS 14/16 and recent MacBook generations." },
   { q: "What if my laptop doesn't have a dedicated USB-C security slot?", a: "Use the Kensington Computer Lock Adapter Kit instead, which attaches via an adhesive plate rather than requiring a specialized USB-C security slot." },
   { q: "What do USB-C port blockers actually protect against?", a: "They prevent unauthorized charging (juice jacking) and data transfer through the port. They do not provide any physical anti-theft protection for the laptop itself." },
-  { q: "Should I buy a physical lock or a port blocker?", a: "They solve different problems. If you need both physical theft deterrence and data-port protection, consider using a physical lock on one USB-C port and a blocker on any remaining ports." },
+  { q: "Should I buy a physical lock or a port blocker?", a: "They solve different problems. If you need both physical theft deterrence and data-port protection, consider using a physical lock on one USB-C port and a blocker on any remaining ports." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-locks-for-dell-xps", title: "Best Laptop Locks for Dell XPS (2026)" },
   { href: "/guide/best-laptop-lock-adapters", title: "Best Laptop Lock Adapters (2026)" },
-  { href: "/guide/best-laptop-locks", title: "Best Laptop Locks (2026)" },
+  { href: "/guide/best-laptop-locks", title: "Best Laptop Locks (2026)" }
 ];

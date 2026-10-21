@@ -61,7 +61,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0DPKL911T?tag=deskfinds0d-20",
     description: "This hub's listing specifically states it safely delivers up to 140 watts to charge the most power-hungry notebook computer, and can create three separate daisy chains of devices, even bus-powered ones, removable from one chain without affecting the others. Its fanless aluminum enclosure keeps operation quiet and cool without active cooling components that could eventually wear out or add noise.\n\nCompared to the UGREEN and Plugable picks above, this one is the lowest price in this comparison by a wide margin while still delivering the full 140W charging spec, though it trades away an Ethernet port and higher total port count that the pricier picks include.\n\nBest for buyers who want the lowest price for genuine 140W charging without needing extensive additional ports.",
     specs: ["140W charging, fanless aluminum enclosure", "80Gb/s data, up to 120Gb/s display bandwidth", "3 daisy chains supported, up to three 8K displays"],
-    pros: ["Lowest price in this comparison at $179.99", "Fanless design runs quietly with no moving parts to wear out", "Supports three independent daisy chains of devices"],
+    pros: ["Lowest price in this comparison at under $180", "Fanless design runs quietly with no moving parts to wear out", "Supports three independent daisy chains of devices"],
     cons: ["No Ethernet port included, unlike the pricier picks in this comparison", "Only 3 USB ports total, a more minimal port count"],
     bestFor: "buyers who want the lowest price for genuine 140W charging without extensive extra ports",
   },
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "This dock's 140W host charging is backed by a 240W power supply that sustains full power across all 15 ports simultaneously, a meaningfully different claim than a dynamically shared power budget since every connected device gets its allocated power regardless of what else is plugged in. Its 140W charging specifically covers demanding 16-inch M3/M4/M5 Pro and Max series MacBook Pro models.\n\nCompared to the UGREEN, Plugable, and OWC picks above, this one trades a lower price for the most comprehensive total connectivity in this comparison, with UHS-II SD and microSD card readers built directly into an aluminum heat sink chassis engineered to dissipate the heat from its substantial power delivery.\n\nBest for buyers who want a 240W power supply that sustains full 140W charging regardless of how many other devices are connected.",
     specs: ["140W sustained charging backed by 240W power supply", "15 total ports, dual 8K@60Hz displays", "UHS-II SD/microSD readers, aluminum heat sink chassis"],
     pros: ["240W power supply sustains full power across all 15 ports simultaneously", "140W charging is not dynamically shared, unlike some competing docks", "Most comprehensive total port count in this comparison"],
-    cons: ["Highest price in this comparison at $399.95", "Larger 240W power supply takes up more desk or floor space"],
+    cons: ["Highest price in this comparison at under $400", "Larger 240W power supply takes up more desk or floor space"],
     bestFor: "buyers who want sustained 140W charging regardless of how many other devices are connected",
   }
 ];
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Sustained 140W regardless of other connected devices", "CalDigit TS5 Thunderbolt 5 Dock"],
         ["Honest dynamic allocation disclosure with a compact adapter", "UGREEN 13-in-1 Thunderbolt 5 Dock"],
         ["140W charging with third-party editorial recognition", "Plugable Thunderbolt 5 Docking Station"],
-        ["The lowest price for genuine 140W charging", "OWC Thunderbolt 5 Hub 5-Port"],
+        ["The lowest price for genuine 140W charging", "OWC Thunderbolt 5 Hub 5-Port"]
       ],
     },
   },
@@ -109,9 +109,9 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $180", "OWC Thunderbolt 5 Hub 5-Port ($179.99)"],
-        ["Under $300", "UGREEN 13-in-1 ($274.99) or Plugable TBT-UDT3 ($299.95)"],
-        ["Under $400", "CalDigit TS5 Thunderbolt 5 Dock ($399.95)"],
+        ["Under $180", "OWC Thunderbolt 5 Hub 5-Port (under $180)"],
+        ["Under $300", "UGREEN 13-in-1 (under $300) or Plugable TBT-UDT3 (under $300)"],
+        ["Under $400", "CalDigit TS5 Thunderbolt 5 Dock (under $400)"]
       ],
     },
   },
@@ -119,7 +119,7 @@ export const howToChoose = [
     subheading: "Sustained Power Supply vs Dynamically Shared Power",
     cards: [
       { label: "Sustained power (CalDigit TS5)", text: "A 240W power supply backs this dock's 140W charging, meaning every connected device gets its allocated power regardless of how many others are plugged in simultaneously." },
-      { label: "Dynamically shared power (UGREEN, OWC)", text: "These docks specifically disclose that their 140W is allocated dynamically between laptop charging and powering other devices, meaning heavy simultaneous device use could reduce available laptop charging power." },
+      { label: "Dynamically shared power (UGREEN, OWC)", text: "These docks specifically disclose that their 140W is allocated dynamically between laptop charging and powering other devices, meaning heavy simultaneous device use could reduce available laptop charging power." }
     ],
     note: "If you regularly run many high-power peripherals alongside your laptop, the CalDigit's sustained power delivery avoids any real-world power competition. If your setup is lighter, the UGREEN or OWC picks deliver genuine value at a lower price.",
   },
@@ -130,7 +130,7 @@ export const howToChoose = [
       rows: [
         ["Minimal, just charging plus a couple of accessories", "OWC Thunderbolt 5 Hub 5-Port"],
         ["A balanced 13-in-1 port mix with Ethernet", "UGREEN 13-in-1 Thunderbolt 5 Dock"],
-        ["Maximum 15-port connectivity", "CalDigit TS5 Thunderbolt 5 Dock"],
+        ["Maximum 15-port connectivity", "CalDigit TS5 Thunderbolt 5 Dock"]
       ],
     },
   },
@@ -138,16 +138,16 @@ export const howToChoose = [
     subheading: "For a Minimal Travel-Friendly Setup Specifically",
     cards: [
       { label: "Look for", text: "A compact, fanless dock design with genuine 140W charging but without excess ports you won't use while traveling, keeping bulk and weight down." },
-      { label: "In this comparison", text: "The OWC Thunderbolt 5 Hub's fanless aluminum enclosure and minimal 5-port design make it the most travel-appropriate pick here." },
+      { label: "In this comparison", text: "The OWC Thunderbolt 5 Hub's fanless aluminum enclosure and minimal 5-port design make it the most travel-appropriate pick here." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You run many simultaneous high-power devices and want guaranteed sustained 140W charging regardless of load, where the CalDigit TS5's $399.95 price delivers that assurance." },
-      { label: "Save if", text: "You mainly need reliable 140W laptop charging without extensive extra ports, where the OWC Thunderbolt 5 Hub delivers that for $179.99, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You run many simultaneous high-power devices and want guaranteed sustained 140W charging regardless of load, where the CalDigit TS5's under $400 price delivers that assurance." },
+      { label: "Save if", text: "You mainly need reliable 140W laptop charging without extensive extra ports, where the OWC Thunderbolt 5 Hub delivers that for under $180, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

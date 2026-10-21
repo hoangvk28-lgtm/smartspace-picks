@@ -12,7 +12,7 @@ export const humidifierRoomSizeChartGuide: Guide = {
     "humidifier size for room",
     "how big humidifier do i need",
     "humidifier tank capacity guide",
-    "best humidifier for small office",
+    "best humidifier for small office"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const humidifierRoomSizeChartGuide: Guide = {
     "space-heater-room-size-chart",
     "desk-fan-cfm-explained",
     "space-heater-safety-explained",
-    "desk-lamp-lumens-guide",
+    "desk-lamp-lumens-guide"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const humidifierRoomSizeChartGuide: Guide = {
       question: "Does room humidity level affect how big a humidifier I need?",
       answer:
         "Yes, a very dry climate or heating season requires more consistent output to maintain comfortable humidity than a moderately humid environment, so consider your local climate alongside room size when choosing capacity.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const humidifierRoomSizeChartGuide: Guide = {
     {
       heading: "Adjusting for Climate and Heating Season",
       body: `A humidifier appropriately sized for a room in a moderate climate may struggle to keep up during a dry winter heating season, when indoor air dries out significantly faster. If you live somewhere with a pronounced dry season, consider sizing up slightly from the standard room-size chart, or plan to run the humidifier at a higher output setting during those months.`,
-    },
+    }
   ],
 };

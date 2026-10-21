@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $143.99",
+          "Under $150",
           "43\" Wood File Cabinet with Power Outlet"
         ],
         [
-          "Around $149.99",
+          "Under $150",
           "SEDETA Fluted 2 Drawer Filing Cabinet with 2 Sliding Doors for Home Office"
         ],
         [
-          "Around $174.99",
+          "Under $180",
           "Lateral File Cabinet with Charging Station"
         ],
         [
-          "Around $219.99",
+          "Under $250",
           "59\" Filing Cabinet with Lock Drawers fits Legal Size for Home Office"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "72'' Tall File Bookcase with Power Outlet & Printer Stand"
         ],
         [
-          "Around $269.99",
+          "Under $300",
           "ModernMate 4 Drawer File Cabinet with Lock"
         ],
         [
-          "Around $287.99",
+          "Under $300",
           "ModernMate 60\" File Cabinet with Drawers & Door"
         ],
         [
-          "Around $359.99",
+          "Under $400",
           "ModernMate 63\" Lateral File Cabinet with Lock"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", "a": "59\" Filing Cabinet with Lock Drawers fits Legal Size for Home Office is aimed at buyers prioritizing 59in desktop, 2 lockable drawers" },
+  { "q": "Which product in this roundup earns the top overall recommendation?", "a": "59\" Filing Cabinet with Lock Drawers fits Legal Size for Home Office is aimed at buyers prioritizing 59in desktop, 2 lockable drawers" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"},{"href":"/guide/best-office-credenzas-with-file-storage","title":"Best Office Credenzas With File Storage in 2026"},{"href":"/guide/best-home-office-credenzas-with-file-drawers","title":"Best Home Office Credenzas With File Drawers in 2026"}];

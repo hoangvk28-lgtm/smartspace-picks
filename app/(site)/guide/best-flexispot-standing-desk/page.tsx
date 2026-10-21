@@ -175,7 +175,7 @@ export default async function BestFlexiSpotStandingDeskPage() {
     about: [
       { "@type": "Thing", name: "FlexiSpot Standing Desk" },
       { "@type": "Thing", name: "Electric Standing Desk" },
-      { "@type": "Thing", name: "Height Adjustable Desk" },
+      { "@type": "Thing", name: "Height Adjustable Desk" }
     ],
   };
 
@@ -195,7 +195,7 @@ export default async function BestFlexiSpotStandingDeskPage() {
         position: 3,
         name: "Best FlexiSpot Standing Desks",
         item: `${SITE_URL}/guide/best-flexispot-standing-desk`,
-      },
+      }
     ],
   };
 
@@ -543,7 +543,7 @@ export default async function BestFlexiSpotStandingDeskPage() {
                       type: "Frame only",
                       stages: "3-stage",
                       bestFor: "Custom desktop surface, higher load capacity",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.tier}</td>
@@ -588,7 +588,7 @@ export default async function BestFlexiSpotStandingDeskPage() {
                       range: "22\" to 50\" typical",
                       stability: "Noticeably more rigid at max height",
                       models: "E5, E7, E7 Pro (frame only)",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.type}</td>
@@ -651,7 +651,7 @@ export default async function BestFlexiSpotStandingDeskPage() {
                 context: "Best overall, most reviews, proven quality",
                 id: "flexispot-en1-48x24",
                 name: "FlexiSpot EN1 48x24\"",
-                verdict: " - 12,000+ reviews, 5-year warranty, one-piece desktop.",
+                verdict: " - 5-year warranty, one-piece desktop.",
               },
               {
                 context: "27\"+ monitor without a monitor arm",
@@ -663,7 +663,7 @@ export default async function BestFlexiSpotStandingDeskPage() {
                 context: "Dual monitor setup, more horizontal space",
                 id: "flexispot-en2-55x28",
                 name: "FlexiSpot EN2 55x28\"",
-                verdict: " - 4.6 stars, 7\" wider than EN1, 28\" comfortable depth.",
+                verdict: " - 7\" wider than EN1, 28\" comfortable depth.",
               },
               {
                 context: "Need drawer storage and USB charging",
@@ -676,7 +676,7 @@ export default async function BestFlexiSpotStandingDeskPage() {
                 id: "flexispot-bamboo-60x30",
                 name: "FlexiSpot Bamboo 60x30\"",
                 verdict: " - solid bamboo, Janka 1,300 to 1,800 lbf, largest footprint.",
-              },
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

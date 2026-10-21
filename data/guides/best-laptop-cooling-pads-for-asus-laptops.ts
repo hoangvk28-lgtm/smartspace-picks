@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop cooling pads for ASUS laptops";
 export const introParagraphs = [
   "ASUS spans both ultrabook and gaming laptop categories under one brand name. Thin ZenBook and VivoBook ultrabooks run cool and light, while ROG and TUF gaming laptops push far more heat through a heavier chassis. A cooling pad that suits one line rarely suits the other, so matching the pad to your specific ASUS laptop matters more than picking whatever pad is rated highest overall.",
-  "Almost every pad in this guide is a universal-fit multi-fan design rather than an ASUS-exclusive product, so we evaluated each one by its stated size range, weight capacity, and airflow output against typical ZenBook, VivoBook, ROG, and TUF footprints rather than assuming the ASUS name on a listing guarantees a good fit. If you own a TUF gaming laptop specifically, our narrower ASUS TUF cooling pad guide picks up where this one leaves off.",
+  "Almost every pad in this guide is a universal-fit multi-fan design rather than an ASUS-exclusive product, so we evaluated each one by its stated size range, weight capacity, and airflow output against typical ZenBook, VivoBook, ROG, and TUF footprints rather than assuming the ASUS name on a listing guarantees a good fit. If you own a TUF gaming laptop specifically, our narrower ASUS TUF cooling pad guide picks up where this one leaves off."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Chassis size and weight match", description: "We compared each pad's stated size range and load capacity against typical ZenBook, VivoBook, ROG, and TUF dimensions rather than assuming ASUS-branded compatibility claims applied evenly across every ASUS line." },
   { title: "Airflow output for the workload", description: "We weighed single large turbo fans against multi-fan arrays based on which ASUS line they suit, since a thin ZenBook and a loaded ROG chassis have very different cooling needs." },
   { title: "Noise level for the use case", description: "We factored in stated noise figures, since a ZenBook used for calls in a shared space benefits from a quieter pad than a TUF gaming laptop used for evening sessions." },
-  { title: "Build and port practicality", description: "We evaluated USB passthrough design, height adjustment range, and material quality as everyday ownership factors, not just headline fan specs." },
+  { title: "Build and port practicality", description: "We evaluated USB passthrough design, height adjustment range, and material quality as everyday ownership factors, not just headline fan specs." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -292,11 +292,11 @@ export const faq: FaqItem[] = [
   { q: "How much cooler will a pad actually make my ASUS laptop run?", a: "This depends on how well the pad's airflow lines up with your laptop's real vents. Manufacturer-stated temperature drops are a helpful reference point, but based on product specs alone they should be treated as best-case figures rather than guarantees." },
   { q: "Is a cooling pad necessary for a TUF gaming laptop specifically?", a: "It depends on your workload. Light or moderate use rarely needs one, but extended gaming or creative sessions can benefit from added airflow. Our dedicated ASUS TUF cooling pad guide covers this sub-line in more depth." },
   { q: "Will a cooling pad void my ASUS warranty?", a: "External cooling pads that simply sit under the laptop do not open or modify the device, so they do not typically affect an ASUS warranty. Always check your specific warranty terms if you are uncertain." },
-  { q: "What is more important, fan count or fan size?", a: "Neither wins outright. A single large fan concentrates airflow on one spot, which suits a laptop with one hot zone, while multiple smaller fans spread weaker airflow more broadly, which suits a laptop that runs warm across a larger surface." },
+  { q: "What is more important, fan count or fan size?", a: "Neither wins outright. A single large fan concentrates airflow on one spot, which suits a laptop with one hot zone, while multiple smaller fans spread weaker airflow more broadly, which suits a laptop that runs warm across a larger surface." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-cooling-pads-for-asus-tuf-laptops", title: "Best Laptop Cooling Pads for ASUS TUF Laptops" },
   { href: "/guide/best-gaming-laptop-cooling-pads", title: "Best Gaming Laptop Cooling Pads" },
-  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads" },
+  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads" }
 ];

@@ -12,7 +12,7 @@ export const smartPlugVsSmartOutletExplainedGuide: Guide = {
     "smart outlet installation vs plug",
     "renter friendly smart home device",
     "in wall smart outlet worth it",
-    "plug in smart device vs wired",
+    "plug in smart device vs wired"
   ],
   heroImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const smartPlugVsSmartOutletExplainedGuide: Guide = {
     "smart-plug-desk-setup-explained",
     "how-many-outlets-do-you-need-desk-setup",
     "power-strip-vs-surge-protector",
-    "smart-desk-troubleshooting",
+    "smart-desk-troubleshooting"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const smartPlugVsSmartOutletExplainedGuide: Guide = {
       question: "Which option is more cost-effective for a single desk device?",
       answer:
         "A smart plug is generally more cost-effective for controlling one or two devices, since it avoids installation labor costs entirely, a smart outlet's higher total cost (device plus installation) makes more sense for a permanent home improvement across multiple outlets rather than a single desk need.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const smartPlugVsSmartOutletExplainedGuide: Guide = {
     {
       heading: "Why the Decision for Homeowners Comes Down to Permanence and Investment Scope",
       body: `For a homeowner considering smart outlets, the decision reasonably comes down to how many locations and how permanently you want smart control integrated into your home's electrical infrastructure, a single desk device is rarely worth the installation cost and effort of a dedicated smart outlet when a smart plug accomplishes the same functional result at lower cost and effort, smart outlets make more practical sense as part of a broader, planned home electrical update affecting multiple rooms or outlets simultaneously, where the aesthetic and integration benefits justify the more involved installation process across that larger scope.`,
-    },
+    }
   ],
 };

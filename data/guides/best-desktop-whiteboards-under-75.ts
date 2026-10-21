@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["The largest board that doubles as a privacy divider", "VIVO White Glass 23 x 19 in Tabletop Dry Erase Board"],
         ["Certified low-VOC materials with maximum magnets", "ECR4Kids MessageStor Glass Dry-Erase Board with Storage Stand"],
-        ["A stable adjustable stand with a long warranty at lower cost", "ZHIDIAN Magnetic Glass Whiteboard Desktop Easel, 16x12"],
+        ["A stable adjustable stand with a long warranty at lower cost", "ZHIDIAN Magnetic Glass Whiteboard Desktop Easel, 16x12"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $34", "AMUSIGHT 24x18 ($33.34)"],
-        ["$54-$70", "ZHIDIAN Adjustable Easel ($53.99), ECR4Kids ($66.47), or VIVO ($69.99)"],
+        ["Under $34", "AMUSIGHT 24x18 (under $35)"],
+        ["$54-$70", "ZHIDIAN Adjustable Easel (under $60), ECR4Kids (under $70), or VIVO (under $70)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Privacy Partition vs Standard Writing Surface",
     cards: [
       { label: "Privacy Partition (VIVO, ECR4Kids)", text: "Tall enough and specifically designed to create real visual separation in a cubicle or shared desk environment, beyond just a writing surface." },
-      { label: "Standard Writing Surface (ZHIDIAN, AMUSIGHT)", text: "Focuses purely on the writing and stand function without the taller partition-style sizing." },
+      { label: "Standard Writing Surface (ZHIDIAN, AMUSIGHT)", text: "Focuses purely on the writing and stand function without the taller partition-style sizing." }
     ],
     note: "If you specifically need privacy from a neighboring desk or cubicle, the VIVO or ECR4Kids picks serve that dual purpose. If you just need a writing surface, the other two picks are more cost-effective.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your priority", "Recommended pick"],
       rows: [
         ["Verified low-VOC certification for shared spaces", "ECR4Kids MessageStor (UL GREENGUARD Gold Certified)"],
-        ["No specific certification requirement", "VIVO, ZHIDIAN, or AMUSIGHT"],
+        ["No specific certification requirement", "VIVO, ZHIDIAN, or AMUSIGHT"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Cubicle or Shared Office Desk Specifically",
     cards: [
       { label: "Look for", text: "A board specifically designed with partition-style height and a stable, non-skid base, rather than a flat board that only lies down on the desk." },
-      { label: "In this comparison", text: "Both the VIVO and ECR4Kids picks are specifically designed to function as a genuine privacy divider in a cubicle or shared desk setting." },
+      { label: "In this comparison", text: "Both the VIVO and ECR4Kids picks are specifically designed to function as a genuine privacy divider in a cubicle or shared desk setting." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a genuine privacy partition with certified low-VOC materials, where the VIVO and ECR4Kids picks respectively lead this comparison." },
-      { label: "Save if", text: "A large writing surface without partition functionality covers your needs, where the AMUSIGHT pick delivers this at the lowest price here." },
+      { label: "Save if", text: "A large writing surface without partition functionality covers your needs, where the AMUSIGHT pick delivers this at the lowest price here." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

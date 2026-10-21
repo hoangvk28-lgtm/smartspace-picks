@@ -255,11 +255,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB)",
-        "text": "CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB) is aimed at buyers prioritizing 4-bay hardware raid, 8 modes, up to 80tb At $129.99, it's the lowest-cost pick in this comparison."
+        "text": "CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB) is aimed at buyers prioritizing 4-bay hardware raid, 8 modes, up to 80tb At under $130, it's the lowest-cost pick in this comparison."
       },
       {
         "label": "QNAP TL-D810TC4-US 8-Bay Desktop DAS/JBOD Expansion",
-        "text": "QNAP TL-D810TC4-US 8-Bay Desktop DAS/JBOD Expansion is aimed at buyers prioritizing 8-bay desktop, up to 10gbps At $799.00, it sits at the higher end of this comparison's price range."
+        "text": "QNAP TL-D810TC4-US 8-Bay Desktop DAS/JBOD Expansion is aimed at buyers prioritizing 8-bay desktop, up to 10gbps At under $800, it sits at the higher end of this comparison's price range."
       }
     ],
     "note": "Most buyers should default to CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB) unless the pricier pick's specific advantage applies to your situation."
@@ -290,7 +290,7 @@ export const howToChoose: HowToChooseSection[] = [
       }
     ],
     "note": "Default to CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB) unless the pricier pick's specific advantage genuinely applies to your situation."
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -342,7 +342,7 @@ export const faq = [
     "a": "Only if the specific enclosure documents hot-swap support, which most tool-free tray designs in this category do. Always check your specific product's hot-swap capability before removing a drive live, since not every budget enclosure supports it, especially some fixed-RAID-mode units."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", "a": "CENMATE Aluminum 8-Bay Hard Drive Enclosure (5Gbps) is aimed at buyers prioritizing 8-bay, up to 160tb total" },
+  { "q": "What's the single best pick to come out of this comparison?", "a": "CENMATE Aluminum 8-Bay Hard Drive Enclosure (5Gbps) is aimed at buyers prioritizing 8-bay, up to 160tb total" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-8-bay-direct-attached-storage","title":"6 Best 8-Bay Direct-Attached Storage"},{"href":"/guide/best-12-bay-direct-attached-storage","title":"5 Best 12-Bay Direct-Attached Storage"},{"href":"/guide/best-6-bay-direct-attached-storage","title":"6 Best 6-Bay Direct-Attached Storage"}];

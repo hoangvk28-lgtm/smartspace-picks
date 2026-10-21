@@ -5,7 +5,7 @@ export const metaDescription = "5 ultrawide USB-C monitors we evaluated, with a 
 export const mainKeyword = "ultrawide usb-c monitor";
 export const introParagraphs = [
   "Not all applications handle a 21:9 or 32:9 ultrawide aspect ratio gracefully, some older or poorly optimized software stretches content or displays with black bars rather than genuinely expanding to fill the extra horizontal space.",
-  "An ultrawide monitor can replace a dual-monitor setup for many workflows, but window-snapping software becomes far more useful on an ultrawide than a standard panel, worth planning for this rather than assuming default OS window management is sufficient.",
+  "An ultrawide monitor can replace a dual-monitor setup for many workflows, but window-snapping software becomes far more useful on an ultrawide than a standard panel, worth planning for this rather than assuming default OS window management is sufficient."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     badge: "Best Ultrawide USB-C Monitor Overall",
     name: "Deco Gear 49 Inch Curved Ultrawide Monitor, 5120x1440 Dual QHD 32:9 1500R VA Display, HDR400",
     price: "$449.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41hpKXhqKnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H1VFKC84?tag=deskfinds0d-20",
@@ -42,7 +42,7 @@ export const products: GuideProduct[] = [
     badge: "Best 21:9 Ultrawide Productivity Pick",
     name: "Dell 34 Monitor S3425DW, WQHD VA, 120Hz, FreeSync Premium, Eye Comfort",
     price: "$379.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41oTaXgx2fL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1H325FN?tag=deskfinds0d-20",
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     badge: "Best High-Refresh Ultrawide Pick",
     name: "Pixio PXC348C Neo 34 inch 180Hz Refresh Rate UWQHD 1440p Ultrawide Resolution 1000R Curve",
     price: "$249.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41TB04lWCrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DR3YBSL4?tag=deskfinds0d-20",
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     badge: "Best Premium Ultrawide Pick",
     name: "SAMSUNG Viewfinity S65UA Series 34-Inch Ultrawide QHD Curved Monitor, 100Hz, USB-C, HDR10",
     price: "$414.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51jbyzHVvdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BLT79X2G?tag=deskfinds0d-20",
@@ -93,7 +93,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Entry Ultrawide-Adjacent Pick",
     name: "SANSUI Curved Monitor 27 inch 120Hz USB Type-C Computer Monitor",
     price: "$109.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/518zREWknqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DB8HLNPN?tag=deskfinds0d-20",
@@ -103,7 +103,7 @@ export const products: GuideProduct[] = [
     pros: ["Budget-friendly price to test curved and wide-format preferences", "120Hz refresh rate for smoother motion", "USB-C single-cable connectivity", "Good entry point before a true ultrawide investment"],
     cons: ["Not a true ultrawide aspect ratio, verify this matches your expectations", "Less workspace than a genuine 21:9 or 32:9 panel", "Verify USB-C power delivery wattage against your laptop"],
     bestFor: "Budget-conscious buyers testing wide-format preferences before a true ultrawide purchase",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -111,7 +111,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Software compatibility with extreme aspect ratios considered", description: "Considered that not all applications handle a 21:9 or 32:9 aspect ratio gracefully, some stretch content or display with black bars rather than expanding." },
   { title: "Window-snapping software need flagged for ultrawide buyers", description: "Flagged that window-snapping software becomes far more useful on an ultrawide than a standard panel, since default OS window management often isn't sufficient." },
   { title: "21:9 versus 32:9 trade-offs weighed for workspace versus compatibility", description: "Weighed a standard 21:9 ultrawide's broader software compatibility against a 32:9 super-ultrawide's more extreme workspace." },
-  { title: "Curve radius and refresh rate matched to stated use case", description: "Matched curve radius and refresh rate combinations against whether a monitor suits productivity, gaming, or a hybrid use case." },
+  { title: "Curve radius and refresh rate matched to stated use case", description: "Matched curve radius and refresh rate combinations against whether a monitor suits productivity, gaming, or a hybrid use case." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -244,11 +244,11 @@ export const faq: FaqItem[] = [
   { q: "Should I get a 21:9 or 32:9 ultrawide?", a: "21:9 has broader software compatibility and needs less desk space, 32:9 offers more extreme workspace that can fully replace a dual-monitor setup." },
   { q: "Can an ultrawide monitor replace two separate monitors?", a: "A large enough super-ultrawide, especially 32:9, can genuinely replace a dual-monitor setup for many workflows." },
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers wanting to fully replace a dual-monitor setup with one seamless super-ultrawide panel" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers testing wide-format preferences before a true ultrawide purchase At $109.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers testing wide-format preferences before a true ultrawide purchase At under $110, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-curved-usb-c-monitors", title: "Best Curved USB-C Monitors (2026)" },
   { href: "/guide/best-34-inch-usb-c-monitors", title: "Best 34-Inch USB-C Monitors (2026)" },
-  { href: "/guide/best-usb-c-monitors-for-dual-monitor-setups", title: "Best USB-C Monitors for Dual-Monitor Setups (2026)" },
+  { href: "/guide/best-usb-c-monitors-for-dual-monitor-setups", title: "Best USB-C Monitors for Dual-Monitor Setups (2026)" }
 ];

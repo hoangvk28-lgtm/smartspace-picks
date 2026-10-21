@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook for handwriting";
 export const introParagraphs = [
   "Every device here supports handwriting as its core input method, but they differ in whether handwriting is converted to searchable text automatically, and how well recognition performs across cursive versus print.",
-  "We prioritized devices with confirmed handwriting-to-text conversion and noted where that feature requires a subscription rather than being included.",
+  "We prioritized devices with confirmed handwriting-to-text conversion and noted where that feature requires a subscription rather than being included."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -47,7 +47,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HDL3XJR?tag=deskfinds0d-20",
     description: "The largest, highest-rated review base of any device here, with handwriting conversion available though full features require the paid Connect subscription.\n\nOne spot below Amazon Kindle Scribe in this ranking, it costs more than Amazon Kindle Scribe. The compromise here is straightforward: Full handwriting conversion features require reMarkable Connect subscription. What you gain in return: Largest, most proven review base in this comparison. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Largest, most proven review base in this comparison. On the other side, Full handwriting conversion features require reMarkable Connect subscription. That's the main tradeoff to weigh against everything above.",
-    specs: ["Marker Plus stylus included","Handwriting conversion available","1,354 reviews at 4.4 stars"],
+    specs: ["Marker Plus stylus included","Handwriting conversion available"],
     pros: ["Largest, most proven review base in this comparison"],
     cons: ["Full handwriting conversion features require reMarkable Connect subscription"],
     bestFor: "Buyers who want the most field-tested writing feel and don't mind a subscription for full conversion features.",
@@ -63,7 +63,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41StVO0JWOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DX234NWP?tag=deskfinds0d-20",
     description: "Handwriting recognition included at the lowest price in this comparison, with 16384 pressure levels for a smoother writing feel across varying pen pressure.\n\nSitting just under reMarkable 2 with Marker Plus, it's priced lower than reMarkable 2 with Marker Plus. Here's the honest tradeoff: Smaller review base than Kindle Scribe or reMarkable. And here's what it gets you instead: Lowest price with handwriting conversion included. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: High pressure sensitivity for a smoother writing feel. On the other side, Smaller review base than Kindle Scribe or reMarkable. That's the main tradeoff to weigh against everything above.",
-    specs: ["16384 pressure levels","Handwriting-to-text conversion included","329 reviews at 4.3 stars"],
+    specs: ["16384 pressure levels","Handwriting-to-text conversion included"],
     pros: ["Lowest price with handwriting conversion included","High pressure sensitivity for a smoother writing feel"],
     cons: ["Smaller review base than Kindle Scribe or reMarkable"],
     bestFor: "Budget-focused buyers who want handwriting conversion without a subscription.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31KAykcDD+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVKBLJK2?tag=deskfinds0d-20",
     description: "Same handwriting conversion capability as the reMarkable 2 in a distraction-free, newer device with a smaller review base.\n\nRanked just behind XPPen 3 in 1 Color Digital Notebook 10.95\", it costs more than XPPen 3 in 1 Color Digital Notebook 10.95\". The real tradeoff against that pick: Much smaller review base than the reMarkable 2. In exchange, it offers this instead: Distraction-free design, no app-store clutter. That's the swap that decides whether this pick or the one above it is the better fit for your note-taking needs.\n\nWorth knowing before you decide: Distraction-free design, no app-store clutter. On the other side, Much smaller review base than the reMarkable 2. That's the main tradeoff to weigh against everything above.",
-    specs: ["Marker stylus included","Handwriting conversion available","18 reviews at 4.1 stars"],
+    specs: ["Marker stylus included","Handwriting conversion available"],
     pros: ["Distraction-free design, no app-store clutter"],
     cons: ["Much smaller review base than the reMarkable 2"],
     bestFor: "Buyers who want a focused writing device without app distractions.",
@@ -95,7 +95,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41BunSeRP3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR4KXMKF?tag=deskfinds0d-20",
     description: "Runs Android, so it supports third-party handwriting-recognition apps beyond the built-in tools, and offers a genuine color display for reviewing notes.\n\nOne spot below reMarkable Paper Pure with Marker in this ranking, it costs more than reMarkable Paper Pure with Marker. The compromise here is straightforward: More expensive than the base Kindle Scribe or XPPen options. What you gain in return: Access to third-party handwriting apps via Android. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Only true color E Ink display in this comparison. On the other side, More expensive than the base Kindle Scribe or XPPen options. That's the main tradeoff to weigh against everything above.",
-    specs: ["Color E Ink display","Runs Android, supports third-party apps","310 reviews at 4.3 stars"],
+    specs: ["Color E Ink display","Runs Android, supports third-party apps"],
     pros: ["Access to third-party handwriting apps via Android","Only true color E Ink display in this comparison"],
     cons: ["More expensive than the base Kindle Scribe or XPPen options"],
     bestFor: "Buyers who want the flexibility of third-party handwriting apps and color notes.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed handwriting-to-text conversion", description: "We verified each device actually offers handwriting recognition rather than assuming it based on category." },
   { title: "Subscription dependence", description: "We flagged where full conversion features require a paid plan (reMarkable Connect) versus what's included at purchase (Kindle Scribe, XPPen)." },
   { title: "Writing surface feel", description: "We noted textured E Ink displays and stylus friction as factors in the actual writing experience, not just the conversion feature." },
-  { title: "Review volume for recognition-accuracy confidence", description: "Since recognition accuracy is hard to verify from specs, we weighted established review history for real-world evidence." },
+  { title: "Review volume for recognition-accuracy confidence", description: "Since recognition accuracy is hard to verify from specs, we weighted established review history for real-world evidence." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,12 +242,12 @@ export const faq: FaqItem[] = [
   { q: "Which devices include handwriting-to-text conversion without a subscription?", a: "Kindle Scribe and XPPen include this in the purchase price. reMarkable requires the paid Connect subscription for full conversion features." },
   { q: "Which has the best writing feel?", a: "The reMarkable 2 has the largest, most established review base specifically speaking to writing feel, though the XPPen's higher pressure sensitivity is a real advantage for varied pressure." },
   { q: "Can I use third-party handwriting apps?", a: "Yes, on the BOOX Note Air 5 C, since it runs Android and supports third-party apps beyond the built-in tools." },
-  { q: "What's the cheapest option with handwriting conversion included?", a: "The XPPen 3 in 1 Color Digital Notebook at $299.98." },
-  { q: "Does recognition work for cursive as well as print?", a: "Varies by device and firmware, check the current listing and recent reviews for specifics on your particular handwriting style." },
+  { q: "What's the cheapest option with handwriting conversion included?", a: "The XPPen 3 in 1 Color Digital Notebook at under $300." },
+  { q: "Does recognition work for cursive as well as print?", a: "Varies by device and firmware, check the current listing and recent reviews for specifics on your particular handwriting style." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks-that-feel-like-paper", title: "Best Digital Notebooks That Feel Like Paper (2026)" },
   { href: "/guide/best-ai-digital-notebooks", title: "Best AI Digital Notebooks (2026)" },
-  { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" },
+  { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" }
 ];

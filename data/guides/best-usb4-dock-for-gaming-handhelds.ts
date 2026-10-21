@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The highest HDMI refresh rate for lag-free gaming", "BenQ GR10 USB4 Gaming Docking Station"],
         ["Charging matched to specific Turbo Modes at the lowest price", "JSAUX 4-in-1 Docking Station"],
         ["A genuinely portable, travel-friendly dock", "Razer Handheld Dock Chroma"],
-        ["Maximum active cooling to prevent throttling", "Handheld Gaming Console Dock with Dual RGB Fans"],
+        ["Maximum active cooling to prevent throttling", "Handheld Gaming Console Dock with Dual RGB Fans"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $21", "JSAUX 4-in-1 ($20.89)"],
-        ["Under $43", "Dual RGB Fans Dock ($42.70)"],
-        ["Under $80", "Razer Handheld Dock Chroma ($79.99)"],
-        ["Under $110", "BenQ GR10 ($109.00)"],
+        ["Under $21", "JSAUX 4-in-1 (under $25)"],
+        ["Under $43", "Dual RGB Fans Dock (under $45)"],
+        ["Under $80", "Razer Handheld Dock Chroma (under $80)"],
+        ["Under $110", "BenQ GR10 (under $110)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Home Desk Dock vs Travel-Friendly Dock",
     cards: [
       { label: "Home desk dock (BenQ GR10, RGB Fans dock)", text: "Prioritizes maximum refresh rate and cooling for a permanent TV or desk setup, at the cost of a bulkier, less portable design." },
-      { label: "Travel-friendly dock (Razer Handheld Dock Chroma)", text: "Prioritizes a collapsible, lightweight design for gaming on the go, trading some cooling and refresh-rate ceiling for portability." },
+      { label: "Travel-friendly dock (Razer Handheld Dock Chroma)", text: "Prioritizes a collapsible, lightweight design for gaming on the go, trading some cooling and refresh-rate ceiling for portability." }
     ],
     note: "If the dock lives permanently connected to your TV, the BenQ or RGB Fans docks maximize performance. If you travel with your handheld regularly, the Razer's collapsible design is worth the tradeoff.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your handheld", "Recommended pick"],
       rows: [
         ["ROG Ally/Ally X or ROG Xbox Ally series", "JSAUX 4-in-1, specifically matched to named Turbo Mode wattages"],
-        ["Steam Deck, Legion Go, or MSI Claw", "Any of the four picks support full-speed charging"],
+        ["Steam Deck, Legion Go, or MSI Claw", "Any of the four picks support full-speed charging"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Cloud Gaming and Streaming Specifically",
     cards: [
       { label: "Look for", text: "A dock with fast wired Ethernet (2.5Gb or better) specifically to minimize latency and stuttering during cloud gaming sessions like Moonlight or GeForce NOW." },
-      { label: "In this comparison", text: "The BenQ GR10 specifically states its 2.5Gb Ethernet supports stable streaming with Moonlight and GeForce NOW." },
+      { label: "In this comparison", text: "The BenQ GR10 specifically states its 2.5Gb Ethernet supports stable streaming with Moonlight and GeForce NOW." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want the highest HDMI refresh rate for lag-free high-refresh gameplay on a TV, where the BenQ GR10's HDMI 2.1 justifies its $109.00 price." },
-      { label: "Save if", text: "You want charging specifically matched to your handheld's Turbo Mode at the lowest price, where the JSAUX dock delivers that for $20.89." },
+      { label: "Spend more if", text: "You want the highest HDMI refresh rate for lag-free high-refresh gameplay on a TV, where the BenQ GR10's HDMI 2.1 justifies its under $110 price." },
+      { label: "Save if", text: "You want charging specifically matched to your handheld's Turbo Mode at the lowest price, where the JSAUX dock delivers that for under $25." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

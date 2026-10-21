@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/518MOT1TsOL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GGRTRCQ8?tag=deskfinds0d-20",
-    "description": "Tarevaniwa is a 60 piece kit: 20 wooden phone stands and 20 motivational pens packed in white organza bags, with 10 different inspirational quotes. The stand is adjustable and removable, and includes a charging port so a phone can charge without being lifted off.\n\nAt $35.90 for 20 recipients it works out to under $2 per person, slightly under Sosation and Roowest below, and you get two usable items per person instead of one decorative plaque. Against LUAVIARU's notebook kits it costs more but gives a phone stand with a cable slot.\n\nBest for a department or volunteer team where everyone gets the same practical bag. The caveat is the organza bags still need filling and handing out, and the quotes are generic rather than personal.",
+    "description": "Tarevaniwa is a 60 piece kit: 20 wooden phone stands and 20 motivational pens packed in white organza bags, with 10 different inspirational quotes. The stand is adjustable and removable, and includes a charging port so a phone can charge without being lifted off.\n\nAt under $40 for 20 recipients it works out to under $2 per person, slightly under Sosation and Roowest below, and you get two usable items per person instead of one decorative plaque. Against LUAVIARU's notebook kits it costs more but gives a phone stand with a cable slot.\n\nBest for a department or volunteer team where everyone gets the same practical bag. The caveat is the organza bags still need filling and handing out, and the quotes are generic rather than personal.",
     "specs": [
       "20 stands plus 20 pens",
       "Charging port in the stand",
@@ -55,14 +55,14 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41hduolQ9bL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GL87RFCT?tag=deskfinds0d-20",
-    "description": "Sosation is a 24 pack of foldable, warning-sign-shaped plastic phone stands with a small built-in mirror, printed with the line 'A Little Sign Of Appreciation' in a yellow base with six colors of accents. The stand holds a phone horizontally or vertically and folds flat for storage.\n\nIt costs about $1.79 per piece, close to Tarevaniwa's price per head, but delivers a single joke item rather than a stand plus a pen. Compared with Roowest's ceramic plaques it is lighter, more playful, and far less likely to break in a drawer.\n\nBest for a large office or admin team that appreciates humor. The caveat is plastic construction, so it reads as a small token rather than a keepsake.",
+    "description": "Sosation is a 24 pack of foldable, warning-sign-shaped plastic phone stands with a small built-in mirror, printed with the line 'A Little Sign Of Appreciation' in a yellow base with six colors of accents. The stand holds a phone horizontally or vertically and folds flat for storage.\n\nIt costs under $2 per piece, close to Tarevaniwa's price per head, but delivers a single joke item rather than a stand plus a pen. Compared with Roowest's ceramic plaques it is lighter, more playful, and far less likely to break in a drawer.\n\nBest for a large office or admin team that appreciates humor. The caveat is plastic construction, so it reads as a small token rather than a keepsake.",
     "specs": [
       "24 foldable stands",
       "Built-in small mirror",
       "Horizontal or vertical phone hold"
     ],
     "pros": [
-      "24 pieces for $42.99",
+      "24 pieces for under $45",
       "Mirror adds a bonus use",
       "Folds flat for storage",
       "Funny warning sign look"
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/513IRfQPwgL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0C2PW8TSK?tag=deskfinds0d-20",
-    "description": "Roowest ships 20 ceramic plaques, about 3.94 inches square, each with an embossed quote and a matching solid wood stand about 4.33 inches wide. There are 10 different quotes, 2 of each, and a soft cork back protects surfaces.\n\nThe ceramic is the key difference from Sosation and Tarevaniwa: it feels like a keepsake and sits on a shelf nicely, yet it is breakable and does nothing functional. Next to LUAVIARU's notebooks it costs about $2.10 per head, which is the highest per-person cost among the bulk packs.\n\nBest for farewell gifts or recognition week where a decorative item is the point. The caveat is the weight and fragility if the gifts need to be shipped or mailed to remote staff.",
+    "description": "Roowest ships 20 ceramic plaques, about 3.94 inches square, each with an embossed quote and a matching solid wood stand about 4.33 inches wide. There are 10 different quotes, 2 of each, and a soft cork back protects surfaces.\n\nThe ceramic is the key difference from Sosation and Tarevaniwa: it feels like a keepsake and sits on a shelf nicely, yet it is breakable and does nothing functional. Next to LUAVIARU's notebooks it costs under $3 per head, which is the highest per-person cost among the bulk packs.\n\nBest for farewell gifts or recognition week where a decorative item is the point. The caveat is the weight and fragility if the gifts need to be shipped or mailed to remote staff.",
     "specs": [
       "20 ceramic plaques, 3.94 inch",
       "Solid wood stands included",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51dVaAeEARL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0G8ZLT24Q?tag=deskfinds0d-20",
-    "description": "LUAVIARU is 10 sets of a small notebook plus a motivational pen, 20 pieces in total, in 10 different colors each with its own quote, in a boho style.\n\nWith 10 recipients at $15.99, the cost works out to about $1.60 per set, the lowest per-person cost of the bulk packs. Compared with Tarevaniwa you get no phone stand, but everything in the box is something people use right away at a meeting.\n\nBest for small teams of up to 10 or as a table gift at an event. The caveat is that notebooks are small, so it is a token of thanks rather than a premium present.",
+    "description": "LUAVIARU is 10 sets of a small notebook plus a motivational pen, 20 pieces in total, in 10 different colors each with its own quote, in a boho style.\n\nWith 10 recipients at under $20, the cost works out to under $2 per set, the lowest per-person cost of the bulk packs. Compared with Tarevaniwa you get no phone stand, but everything in the box is something people use right away at a meeting.\n\nBest for small teams of up to 10 or as a table gift at an event. The caveat is that notebooks are small, so it is a token of thanks rather than a premium present.",
     "specs": [
       "10 notebooks plus 10 pens",
       "10 colors, unique quotes",
@@ -219,7 +219,7 @@ export interface BuyingCriterion { criterion: string; explanation: string; }
 export const buyingCriteria: BuyingCriterion[] = [
   {
     "criterion": "Cost per recipient, not pack price",
-    "explanation": "A pack price like $42.99 looks high until you divide it by the head count, and a $9.99 single gift looks cheap until you need twenty. Always divide the price by the number of people, and compare that figure across options. Check the pack count in the title and bullets, since some listings count items while others count sets."
+    "explanation": "A pack price like under $45 looks high until you divide it by the head count, and an under-$10 single gift looks cheap until you need twenty. Always divide the price by the number of people, and compare that figure across options. Check the pack count in the title and bullets, since some listings count items while others count sets."
   },
   {
     "criterion": "Practical use versus decor",
@@ -337,7 +337,7 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Bulk pack",
-        "text": "One order covers a whole team at roughly $1.60 to $2.10 each, but the items are uniform and small. That is Tarevaniwa, Sosation, Roowest and LUAVIARU."
+        "text": "One order covers a whole team at roughly $2 to $3 each, but the items are uniform and small. That is Tarevaniwa, Sosation, Roowest and LUAVIARU."
       },
       {
         "label": "Single gift",

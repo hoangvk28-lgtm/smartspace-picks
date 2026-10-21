@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $279.99",
+          "Under $300",
           "External eGPU Enclosure with 240W PSU"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "ORARA eGPU Enclosure Thunderbolt 3/4/USB4 40Gbps with 750W PSU"
         ],
         [
-          "Around $329.99",
+          "Under $350",
           "OWC Mercury Helios 5S Thunderbolt 5 80Gb/s PCIe Expansion"
         ],
         [
-          "Around $399.99",
+          "Under $400",
           "Sonnet eGPU Breakaway Box 750"
         ],
         [
-          "Around $399.99",
+          "Under $400",
           "Sonnet eGPU Breakaway Box 750ex"
         ],
         [
-          "Around $599.99",
+          "Under $600",
           "Sonnet Breakaway Box 850 T5 eGPU Enclosure"
         ],
         [
-          "Around $629.99",
+          "Under $650",
           "Plugable Thunderbolt 5 AI eGPU Enclosure & Dock"
         ],
         [
-          "Around $4,999.97",
+          "Under $5,000",
           "GIGABYTE AORUS RTX 5090 AI Box Graphics Card"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Thunderbolt and USB4 tunnel PCIe over a general-purpose port shared with other data, while OCuLink provides a more direct PCIe connection with typically lower overhead, but neither hot-plugs as easily and OCuLink support is far less common on laptops. Match the choice to what your specific host actually exposes."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Plugable Thunderbolt 5 AI eGPU Enclosure & Dock is aimed at buyers prioritizing 850w psu (80+ gold), 600w dedicated to gpu." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Plugable Thunderbolt 5 AI eGPU Enclosure & Dock is aimed at buyers prioritizing 850w psu (80+ gold), 600w dedicated to gpu." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-egpu-enclosures-for-rtx-4090","title":"Best eGPU Enclosures for RTX 4090 in 2026"},{"href":"/guide/best-egpu-enclosures-for-rtx-3060","title":"Best eGPU Enclosures for RTX 3060 in 2026"},{"href":"/guide/best-egpu-enclosures-for-rtx-3080","title":"Best eGPU Enclosures for RTX 3080 in 2026"}];

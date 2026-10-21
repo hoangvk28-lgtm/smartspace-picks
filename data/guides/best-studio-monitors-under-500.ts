@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "PreSonus Eris 3.5 Powered Studio Monitors, Pair 3.5 Active Near and is built around trusted studio-quality sound, positioning it for under 500 buyers specifically.\n\nPOWERFUL, DISTORTION-FREE SOUND is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 500, though as with any audio equipment purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["TRUSTED STUDIO-QUALITY SOUND","POWERFUL, DISTORTION-FREE SOUND","ACCURATE, POWERFUL SOUND"],
     pros: ["TRUSTED STUDIO-QUALITY SOUND, confirmed directly in the listing's own spec details","POWERFUL, DISTORTION-FREE SOUND, confirmed directly in the listing's own spec details","ACCURATE, POWERFUL SOUND, confirmed directly in the listing's own spec details"],
-    cons: ["At $99.99 per pair, worth comparing against similarly specced studio monitors before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $100 per pair, worth comparing against similarly specced studio monitors before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 500",
   },
   {
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     description: "Ortizan C7 Powered Studio Monitors Pair with Bluetooth 5.3, White and is built around multiple inputs, positioning it for under 500 buyers specifically.\n\nHIFI BOOKSHELF SPEAKERS is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 500, though as with any audio equipment purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Multiple INPUTS","HIFI BOOKSHELF SPEAKERS","3.5 INCH CARBON FIBER SPEAKER AND 0.75inch"],
     pros: ["Multiple INPUTS, confirmed directly in the listing's own spec details","HIFI BOOKSHELF SPEAKERS, confirmed directly in the listing's own spec details","3.5 INCH CARBON FIBER SPEAKER AND 0.75inch, confirmed directly in the listing's own spec details"],
-    cons: ["At $79.99 per pair, worth comparing against similarly specced studio monitors before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $80 per pair, worth comparing against similarly specced studio monitors before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 500",
   }
 

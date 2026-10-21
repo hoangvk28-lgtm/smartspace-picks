@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Maximum duplex throughput at a desk", "Canon imageFORMULA R40II Office Document Scanner"],
         ["Wireless scanning with a compact footprint", "ScanSnap iX1300 Wireless Double-Sided Color Document Scanner"],
         ["Duplex scanning in a portable body", "Canon imageFORMULA R10 Portable Document Scanner"],
-        ["The lowest price for occasional single-page scans", "Epson Workforce ES-50 Compact Mobile Document Scanner"],
+        ["The lowest price for occasional single-page scans", "Epson Workforce ES-50 Compact Mobile Document Scanner"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $150", "Epson ES-50 ($146.00)"],
-        ["Under $185", "Canon imageFORMULA R10 ($183.90)"],
-        ["Under $280", "Canon imageFORMULA R40II ($253.00) or ScanSnap iX1300 ($279.99)"],
+        ["Under $150", "Epson ES-50 (under $150)"],
+        ["Under $185", "Canon imageFORMULA R10 (under $190)"],
+        ["Under $280", "Canon imageFORMULA R40II (under $300) or ScanSnap iX1300 (under $300)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Desktop Duplex vs Portable Duplex",
     cards: [
       { label: "Desktop duplex (Canon R40II, ScanSnap iX1300)", text: "Delivers 30-45ppm duplex speed with 60-sheet or wireless features, built for regular multi-page scanning sessions at a fixed location." },
-      { label: "Portable duplex (Canon R10)", text: "Scans both sides at a much more modest 12ppm with a 20-sheet feeder, but stays genuinely lightweight and USB-powered for travel." },
+      { label: "Portable duplex (Canon R10)", text: "Scans both sides at a much more modest 12ppm with a 20-sheet feeder, but stays genuinely lightweight and USB-powered for travel." }
     ],
     note: "If you scan in one location regularly, a desktop duplex model's speed and feeder capacity save real time. If you need duplex on the go, the R10 is the only genuinely portable option here that still captures both sides.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Single pages, occasionally", "Epson ES-50"],
         ["Small stacks up to 20 sheets", "Canon imageFORMULA R10"],
-        ["Larger stacks up to 60 sheets", "Canon imageFORMULA R40II"],
+        ["Larger stacks up to 60 sheets", "Canon imageFORMULA R40II"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Shared Home Office Without a Dedicated Scanning PC Specifically",
     cards: [
       { label: "Look for", text: "Genuine Wi-Fi connectivity that lets multiple devices scan without a direct cable connection to one computer." },
-      { label: "In this comparison", text: "The ScanSnap iX1300 is the only pick with real wireless scanning, letting it work without being tethered to a single PC." },
+      { label: "In this comparison", text: "The ScanSnap iX1300 is the only pick with real wireless scanning, letting it work without being tethered to a single PC." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You regularly scan large stacks of two-sided documents, where the Canon R40II's 60-sheet, 45ppm duplex feeder saves real time over the portable options." },
-      { label: "Save if", text: "You mostly scan single pages occasionally, where the Epson ES-50 covers that need at less than half the price of any duplex pick here." },
+      { label: "Save if", text: "You mostly scan single pages occasionally, where the Epson ES-50 covers that need at less than half the price of any duplex pick here." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

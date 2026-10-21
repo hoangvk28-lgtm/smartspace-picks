@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "1.2 Cubic Feet Small Fire Safe Box for Home, Fireproof Lock Box, Security Money Safe with and is built around personal small safe for home, positioning it for 0 18 cu ft buyers specifically.\n\nANTI-THEFT ALARM & ANCHORING DESIGN is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 0 18 cu ft, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["PERSONAL SMALL SAFE FOR HOME","ANTI-THEFT ALARM & ANCHORING DESIGN","COMBINATION LOCK BOX"],
     pros: ["PERSONAL SMALL SAFE FOR HOME, confirmed directly in the listing's own spec details","ANTI-THEFT ALARM & ANCHORING DESIGN, confirmed directly in the listing's own spec details","COMBINATION LOCK BOX, confirmed directly in the listing's own spec details"],
-    cons: ["At $69.99, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $70, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 0 18 cu ft",
   },
   {
@@ -209,36 +209,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $29.98",
+          "Under $30",
           "0.30 Cu Ft Small Home Safe with Fireproof Bag"
         ],
         [
-          "Around $31.33",
+          "Under $35",
           "DocSafe 5200 degreesF Fireproof Document Organizer"
         ],
         [
-          "Around $31.99",
+          "Under $35",
           "Voncabay 0.23 Cu Ft Digital Money Safe Box"
         ],
         [
-          "Around $39.98",
+          "Under $40",
           "SentrySafe 0.18 Cu Ft Fireproof Chest with Key Lock"
         ],
         [
-          "Around $39.99",
+          "Under $40",
           "KYODOLED Fireproof Lock Box with Dual Combination and Key Lock"
         ],
         [
-          "Around $69.99",
+          "Under $70",
           "1.2 Cubic Feet Small Fire Safe Box for Home"
         ],
         [
-          "Around $72.79",
+          "Under $80",
           "SentrySafe 0.28 Cu Ft Fireproof & Waterproof Chest"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -286,7 +286,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", "a": "SentrySafe 0.18 Cu Ft Fireproof Chest with Key Lock is aimed at buyers prioritizing 0.18 cu ft, 13 lbs, ul 1/2hr at 1550 degreesf" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", "a": "SentrySafe 0.18 Cu Ft Fireproof Chest with Key Lock is aimed at buyers prioritizing 0.18 cu ft, 13 lbs, ul 1/2hr at 1550 degreesf" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-2-cu-ft-fireproof-safes","title":"Best 2 Cu ft Fireproof Safes in 2026"},{"href":"/guide/best-2-cubic-feet-fireproof-safes","title":"Best 2 Cubic Feet Fireproof Safes in 2026"},{"href":"/guide/best-4-cu-ft-fireproof-safes","title":"Best 4 Cu ft Fireproof Safes in 2026"}];

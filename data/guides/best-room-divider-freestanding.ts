@@ -5,8 +5,7 @@ export const metaDescription =
   "8 best freestanding room dividers in 2026, from authentic shoji screens to wheeled fabric panels. Compare panel count, weight, and no-assembly setup.";
 export const mainKeyword = "room dividers free standing";
 export const introParagraphs = [
-  "A freestanding room divider needs to do the opposite job of a wall-mounted bookcase: stand on its own, angle into a stable zigzag, and fold flat when you want the room back. That means panel count, hinge type, and base footprint matter more here than raw weight capacity.",
-  "Below are 8 freestanding room dividers we evaluated on stability without wall support, material quality, and how easily they set up, ranging from a $31 lightweight single panel to a 6-panel authentic shoji screen with nearly 5,000 ratings.",
+  "A freestanding room divider needs to do the opposite job of a wall-mounted bookcase: stand on its own, angle into a stable zigzag, and fold flat when you want the room back. That means panel count, hinge type, and base footprint matter more here than raw weight capacity."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -51,24 +50,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51xVErogV9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00YFQ3F52?tag=deskfinds0d-20",
     description:
-      "With nearly 4,800 ratings, Legacy Decor's shoji screen is the best-selling freestanding divider in this list by a wide margin. A real solid wood grid, not printed vinyl or laminate, holds translucent rice-paper-style panels that let daylight filter through while still creating a genuine visual boundary.\n\nAt 22 lbs it's the lightest 6-panel wood screen here, and two-way hinges plus a fully assembled, ready-to-unfold design mean it goes from box to standing in minutes.\n\nGenuine solid wood grid, not printed vinyl. That's a real strength, but weigh it against the flip side: most expensive pick in this list.",
+      "A real solid wood grid, not printed vinyl or laminate, holds translucent rice-paper-style panels that let daylight filter through while still creating a genuine visual boundary.\n\nAt 22 lbs it's the lightest 6-panel wood screen here, and two-way hinges plus a fully assembled, ready-to-unfold design mean it goes from box to standing in minutes.\n\nGenuine solid wood grid, not printed vinyl. That's a real strength, but weigh it against the flip side: most expensive pick in this list.",
     specs: [
       "105\"W x 71\"H (6 panels)",
       "Solid wood frame + translucent panels",
       "No assembly required",
       "Two-way hinges",
-      "22 lbs (lightest 6-panel wood screen here)",
+      "22 lbs (lightest 6-panel wood screen here)"
     ],
     pros: [
-      "Best-selling pick with 4,805 ratings",
       "Genuine solid wood grid, not printed vinyl",
       "Translucent panels let light filter through",
-      "Lightest 6-panel wood screen in this list at 22 lbs",
+      "Lightest 6-panel wood screen in this list at 22 lbs"
     ],
     cons: [
       "Most expensive pick in this list",
       "Translucent panels offer less full privacy than opaque fabric",
-      "Wide 105\" span needs a proportionally wide room",
+      "Wide 105\" span needs a proportionally wide room"
     ],
     bestFor: "Buyers who want the most-proven, authentic wood shoji screen",
   },
@@ -89,18 +87,18 @@ export const products: GuideProduct[] = [
       "Rattan-style frame + 100% woven fabric",
       "No assembly required",
       "Two-way hinges",
-      "5-medallion diamond weave pattern",
+      "5-medallion diamond weave pattern"
     ],
     pros: [
       "Handmade diamond weave pattern",
-      "Cheapest quality pick in this list at $34.28",
+      "Cheapest quality pick in this list at under $35",
       "Bohemian, artisanal aesthetic",
-      "No assembly required",
+      "No assembly required"
     ],
     cons: [
       "Narrower 63\" width than most other picks",
       "Woven fabric is less durable than solid wood or thick polyester",
-      "Rattan-style construction shows wear faster in high-traffic spots",
+      "Rattan-style construction shows wear faster in high-traffic spots"
     ],
     bestFor: "Buyers who want a handcrafted, boho-styled divider without a high price tag",
   },
@@ -121,18 +119,17 @@ export const products: GuideProduct[] = [
       "HDPE + steel frame",
       "UV protected + waterproof fabric",
       "4 stiffeners for stability",
-      "8.8 lbs (lightest in this list)",
+      "8.8 lbs (lightest in this list)"
     ],
     pros: [
       "Lightest divider in this list at 8.8 lbs",
       "Single-panel design needs no angling for stability",
       "UV protected and waterproof, suitable near a window or patio door",
-      "Easiest to move or store of any pick here",
+      "Easiest to move or store of any pick here"
     ],
     cons: [
       "Single panel offers less width coverage per unit than multi-panel screens",
-      "4.3-star rating is on the lower end of this list",
-      "Less decorative than the wood or rattan alternatives",
+      "Less decorative than the wood or rattan alternatives"
     ],
     bestFor: "Buyers who want the lightest, simplest single-panel divider to move often",
   },
@@ -147,24 +144,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31IhKdy8YFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BQMR29TC?tag=deskfinds0d-20",
     description:
-      "HOMSCREENER's steel-frame screen covers 88 inches wide, the widest 4-panel pick in this list, using a heavier 240g polyester coating than most competing fabric screens. Triple-buckle hinges and extra-wide 17.7-inch feet give it a noticeably more stable base than thinner-footed alternatives.\n\nThe fabric is treated to resist wrinkling, so it looks presentable straight out of the box rather than needing to hang and relax first.\n\nA genuine advantage here is that thicker 240g fabric than most competing screens. The tradeoff is lowest rating in this list at 4.1 stars.",
+      "HOMSCREENER's steel-frame screen covers 88 inches wide, the widest 4-panel pick in this list, using a heavier 240g polyester coating than most competing fabric screens. Triple-buckle hinges and extra-wide 17.7-inch feet give it a noticeably more stable base than thinner-footed alternatives.\n\nThe fabric is treated to resist wrinkling, so it looks presentable straight out of the box rather than needing to hang and relax first.\n\nA genuine advantage here is that thicker 240g fabric than most competing screens.",
     specs: [
       "88\"W x 71.3\"H (4 panels)",
       "240g polyester + steel frame",
       "Triple-buckle hinges",
       "17.7\" wide feet",
-      "Wrinkle-resistant fabric",
+      "Wrinkle-resistant fabric"
     ],
     pros: [
       "Widest 4-panel pick in this list at 88 inches",
       "Thicker 240g fabric than most competing screens",
       "Extra-wide 17.7\" feet add stability",
-      "Wrinkle-resistant, looks finished immediately",
+      "Wrinkle-resistant, looks finished immediately"
     ],
     cons: [
-      "Lowest rating in this list at 4.1 stars",
       "Fabric panels offer less structure than solid wood",
-      "Wide feet need more floor clearance than a slimmer base",
+      "Wide feet need more floor clearance than a slimmer base"
     ],
     bestFor: "Buyers who need the widest coverage from a 4-panel fabric screen",
   },
@@ -185,18 +181,17 @@ export const products: GuideProduct[] = [
       "180g polyester + iron powder-coated frame",
       "Wider support feet",
       "1-year warranty",
-      "5 configuration options",
+      "5 configuration options"
     ],
     pros: [
       "Widest divider in this list at 120 inches",
       "Reconfigurable from 2 to 6 panels for different room widths",
       "1-year warranty, uncommon among fabric screens",
-      "Wider feet add stability across its long span",
+      "Wider feet add stability across its long span"
     ],
     cons: [
       "Large, heavy package to unbox and set up",
-      "4.2-star rating trails the top picks",
-      "Full 120\" span needs a genuinely wide room",
+      "Full 120\" span needs a genuinely wide room"
     ],
     bestFor: "Large rooms that need the widest possible single divider",
   },
@@ -211,24 +206,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51eN5STzThL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0135AV5XC?tag=deskfinds0d-20",
     description:
-      "FDW's hand-woven wood mesh is the most-reviewed pick in this entire list at over 7,600 ratings, combining an eco wood frame with a classic woven-mesh panel design that reads as more substantial than a fabric screen without the price of a full solid-wood shoji.\n\nAt 15.4 lbs it folds down compactly for storage, and metal hinges hold up better over repeated folding than the plastic hinges found on some cheaper fabric screens.\n\nWorth calling out specifically: hand-woven mesh looks more substantial than plain fabric. The catch is mesh weave offers less full privacy than a solid panel.",
+      "At 15.4 lbs it folds down compactly for storage, and metal hinges hold up better over repeated folding than the plastic hinges found on some cheaper fabric screens.\n\nWorth calling out specifically: hand-woven mesh looks more substantial than plain fabric. The catch is mesh weave offers less full privacy than a solid panel.",
     specs: [
       "70.5\"W x 71\"H (4 panels)",
       "Wood frame + hand-woven mesh",
       "Metal hinges",
       "15.4 lbs",
-      "Foldable, compact storage",
+      "Foldable, compact storage"
     ],
     pros: [
-      "Most-reviewed pick in this entire list at 7,623 ratings",
       "Hand-woven mesh looks more substantial than plain fabric",
       "Metal hinges outlast plastic alternatives",
-      "Lightweight and foldable for storage",
+      "Lightweight and foldable for storage"
     ],
     cons: [
       "Mesh weave offers less full privacy than a solid panel",
       "Narrower than the widest picks in this list",
-      "Eco wood is lighter-duty than a solid hardwood frame",
+      "Eco wood is lighter-duty than a solid hardwood frame"
     ],
     bestFor: "Buyers who want the most-proven wood-look divider at a mid-range price",
   },
@@ -243,24 +237,22 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/412nDJFwHPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMDTGYK2?tag=deskfinds0d-20",
     description:
-      "SUNALLY is the only divider in this list mounted on lockable wheels, letting you roll it to a new position and lock it in place rather than lifting and repositioning a static base. That's a genuine advantage if your room's layout changes often, like a shared home office that becomes a guest space on weekends.\n\n240g polyester fabric over a powder-coated steel frame with extended, widened feet keeps it stable even with the added weight and mobility of the wheels.\n\nEasiest to reposition of any pick here. Set against that, smallest review sample among the fabric screens at 554 ratings. Both matter when comparing it to the other picks here.",
+      "SUNALLY is the only divider in this list mounted on lockable wheels, letting you roll it to a new position and lock it in place rather than lifting and repositioning a static base. That's a genuine advantage if your room's layout changes often, like a shared home office that becomes a guest space on weekends.\n\n240g polyester fabric over a powder-coated steel frame with extended, widened feet keeps it stable even with the added weight and mobility of the wheels.\n\nEasiest to reposition of any pick here. Both matter when comparing it to the other picks here.",
     specs: [
       "88\"W x 72\"H (4 panels)",
       "240g polyester + powder-coated steel",
       "Lockable wheels (unique in this list)",
       "Extended, widened feet",
-      "88\" width",
+      "88\" width"
     ],
     pros: [
       "Only pick in this list with lockable wheels",
       "Easiest to reposition of any pick here",
       "Thick 240g fabric",
-      "Extended feet keep it stable despite the wheels",
+      "Extended feet keep it stable despite the wheels"
     ],
     cons: [
-      "Smallest review sample among the fabric screens at 554 ratings",
-      "Wheels add bulk to the base compared to a flat-footed screen",
-      "4.2-star rating trails the top picks",
+      "Wheels add bulk to the base compared to a flat-footed screen"
     ],
     bestFor: "Rooms where the layout changes often and you need to roll the divider around",
   },
@@ -281,21 +273,21 @@ export const products: GuideProduct[] = [
       "Paulownia wood frame + PP panels",
       "Arched top design",
       "No assembly required",
-      "90-day warranty",
+      "90-day warranty"
     ],
     pros: [
       "PP panels are more durable than traditional paper-fiber weave",
       "Arched top adds a more finished silhouette",
       "No assembly required",
-      "Wide 106.3\" coverage",
+      "Wide 106.3\" coverage"
     ],
     cons: [
       "Second most expensive pick in this list",
       "Smaller review sample than the best-selling picks",
-      "PP panels have a more synthetic look than natural wood or rattan",
+      "PP panels have a more synthetic look than natural wood or rattan"
     ],
     bestFor: "Buyers who want a woven-look screen that holds up better than paper-fiber alternatives",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +315,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed panel count, material quality, and included features like warranties or wheels against price across a range of price points in this comparison.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -466,11 +458,11 @@ export const faq: FaqItem[] = [
   {
     q: "What's the actual footprint of a screen once it's set up?",
     a: "A screen's listed width is measured flat and unfolded. Once you angle the panels into the zigzag needed for freestanding stability, the real footprint shrinks by roughly 30-40% compared to that flat measurement, so leave extra room when planning where it will go.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-room-divider-studio-apartment", title: "Best Room Dividers for Studio Apartments (2026)" },
   { href: "/guide/best-room-divider-with-shelves", title: "Best Room Dividers with Shelves (2026)" },
-  { href: "/guide/best-room-divider-bookcase", title: "Best Room Divider Bookcases (2026)" },
+  { href: "/guide/best-room-divider-bookcase", title: "Best Room Divider Bookcases (2026)" }
 ];

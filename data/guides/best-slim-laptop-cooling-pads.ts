@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "slim laptop cooling pads";
 export const introParagraphs = [
   "Slim cooling pads trade thickness for travel convenience, but slim is a relative descriptor unless a listing actually states it. This can reduce fan depth or fan size, so a thinner pad is only a good choice when the reduced bulk doesn't erase too much of the thermal benefit you're buying it for.",
-  "This guide compares five pads whose own listings explicitly use the word slim or portable, overlapping with our broader portable cooling pads guide but focused specifically here on verified thinness and the cooling capacity tradeoff that comes with it.",
+  "This guide compares five pads whose own listings explicitly use the word slim or portable, overlapping with our broader portable cooling pads guide but focused specifically here on verified thinness and the cooling capacity tradeoff that comes with it."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine slim branding verification", description: "We prioritized products whose own listings explicitly state slim, thin, or a comparable descriptor, rather than assuming any smaller pad qualifies." },
   { title: "Cooling capacity tradeoff disclosure", description: "We compared fan count and design against the reduced thickness, since slim designs often sacrifice some airflow for the thinner profile." },
   { title: "Bag and travel portability", description: "We considered explicit portability language and lightweight construction relevant to carrying the pad, overlapping with our portable cooling pads guide." },
-  { title: "USB connector type", description: "We checked which pads offer USB-C compatibility, relevant for buyers with newer USB-C-only laptops wanting a slim solution without an adapter." },
+  { title: "USB connector type", description: "We checked which pads offer USB-C compatibility, relevant for buyers with newer USB-C-only laptops wanting a slim solution without an adapter." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Do slim pads cool as well as bulkier ones?", a: "Generally not quite as well, slim designs typically use fewer or smaller fans. This is a reasonable tradeoff for light use but less ideal for sustained gaming or rendering." },
   { q: "Which slim pad works with USB-C laptops?", a: "The TECKNET 12-15.6\" pick offers both USB-C and USB-A ports, useful if your laptop only has USB-C connectivity." },
   { q: "Is this guide different from the portable cooling pads guide?", a: "They overlap significantly. This guide focuses specifically on verified thinness, while the portable guide also weighs total weight and setup simplicity more broadly." },
-  { q: "Can a slim pad still have height adjustment?", a: "Yes, several picks in this guide still offer 2 or more height settings despite their thin profile." },
+  { q: "Can a slim pad still have height adjustment?", a: "Yes, several picks in this guide still offer 2 or more height settings despite their thin profile." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-laptop-cooling-pads", title: "Best Portable Laptop Cooling Pads (2026)" },
   { href: "/guide/best-foldable-laptop-cooling-pads", title: "Best Foldable Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" }
 ];

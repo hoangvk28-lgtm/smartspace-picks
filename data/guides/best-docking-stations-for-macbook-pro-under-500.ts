@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The lowest price with genuine Thunderbolt 4", "UGREEN 8-in-1 Thunderbolt 4 Docking Station"],
         ["Validated M4/M5 compatibility and an SD card slot", "Plugable Thunderbolt 4 Dock for M4/M5 MacBook"],
         ["Maximum bandwidth for a Thunderbolt 5 Mac", "Anker Prime TB5 Docking Station"],
-        ["Maximum port count and 2.5GbE networking", "CalDigit TS4, 18 Port Thunderbolt 4 Dock"],
+        ["Maximum port count and 2.5GbE networking", "CalDigit TS4, 18 Port Thunderbolt 4 Dock"]
       ],
     },
   },
@@ -148,8 +148,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["$175 to $200", "UGREEN ($174.99) or Plugable ($199.95)"],
-        ["$320 to $500", "Anker Prime TB5 ($319.99), CalDigit TS4 ($379.99), or CalDigit TS5 PLUS ($499.99)"],
+        ["$175 to $200", "UGREEN (under $180) or Plugable (under $200)"],
+        ["$320 to $500", "Anker Prime TB5 (under $350), CalDigit TS4 (under $400), or CalDigit TS5 PLUS (under $500)"]
       ],
     },
   },
@@ -163,7 +163,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "Thunderbolt 5 (Anker Prime TB5, CalDigit TS5 PLUS)",
         text: "Up to 120Gbps bandwidth and dual 8K display support, but only usable at full speed if your specific MacBook Pro has a Thunderbolt 5-capable port.",
-      },
+      }
     ],
     note: "Check your exact MacBook Pro model's port specification before paying extra for Thunderbolt 5: if your Mac only has Thunderbolt 4 ports, a TB5 dock still works but caps at TB4 speeds.",
   },
@@ -173,7 +173,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your MacBook Pro is", "Recommended pick"],
       rows: [
         ["13-14\" model (typically 67-96W charger)", "UGREEN (85W) or Plugable (100W)"],
-        ["16\" model (typically 140W charger)", "Anker Prime TB5 or CalDigit TS5 PLUS (both 140W)"],
+        ["16\" model (typically 140W charger)", "Anker Prime TB5 or CalDigit TS5 PLUS (both 140W)"]
       ],
     },
   },
@@ -187,7 +187,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "Plugable's dock includes a built-in SD card slot, while CalDigit's TS4 and TS5 PLUS both add 2.5GbE or faster networking for large file transfers.",
-      },
+      }
     ],
   },
   {
@@ -195,14 +195,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You run a 16\" MacBook Pro needing full 140W charging or a Thunderbolt 5-capable Mac wanting maximum bandwidth: Anker Prime TB5 ($319.99) or CalDigit TS5 PLUS ($499.99) are built for exactly that.",
+        text: "You run a 16\" MacBook Pro needing full 140W charging or a Thunderbolt 5-capable Mac wanting maximum bandwidth: Anker Prime TB5 (under $350) or CalDigit TS5 PLUS (under $500) are built for exactly that.",
       },
       {
         label: "Save if",
-        text: "You have a 13-14\" MacBook Pro and standard display needs: UGREEN's Thunderbolt 4 dock ($174.99) delivers genuine Mac-certified performance for the lowest price here.",
-      },
+        text: "You have a 13-14\" MacBook Pro and standard display needs: UGREEN's Thunderbolt 4 dock (under $180) delivers genuine Mac-certified performance for the lowest price here.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -257,5 +257,5 @@ export const faq = [
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-thunderbolt-4-docking-stations", title: "Best Thunderbolt 4 Docking Stations" },
-  { href: "/guide/best-docking-stations-for-dell-laptops-under-260", title: "Best Docking Stations for Dell Laptops Under $260" },
+  { href: "/guide/best-docking-stations-for-dell-laptops-under-260", title: "Best Docking Stations for Dell Laptops Under $260" }
 ];

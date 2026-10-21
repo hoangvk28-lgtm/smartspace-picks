@@ -367,7 +367,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Save if",
-        "text": "It is a casual or group gift. Hoewina Gel Memory Foam Wrist Rest Set and NKNZLY Foldable Phone Stand 2 Pack cost $8 or less and still get daily use."
+        "text": "It is a casual or group gift. Hoewina Gel Memory Foam Wrist Rest Set and NKNZLY Foldable Phone Stand 2 Pack cost under $9 or less and still get daily use."
       }
     ]
   }

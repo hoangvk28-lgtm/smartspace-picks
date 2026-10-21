@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desk clock with date display";
 export const introParagraphs = [
   "A desk clock with a date display shows the day, month, and often the day of the week alongside the time, useful for anyone who wants a quick glance without checking a phone. This product pool overlaps heavily with our best desk clocks with temperature displays guide, since nearly every clock that shows the date also shows temperature. We're leading with the date feature here instead, so if temperature matters more to you, that guide covers largely the same picks from a different angle.",
-  "All five picks below genuinely display the date per their listings, and most add day-of-week alongside it, a small but genuinely useful detail if you tend to lose track of what day it is at a desk.",
+  "All five picks below genuinely display the date per their listings, and most add day-of-week alongside it, a small but genuinely useful detail if you tend to lose track of what day it is at a desk."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified date display was explicitly stated in each listing", description: "Confirmed date readout was a named feature in the product title or bullet points, prioritizing picks that also show day-of-week." },
   { title: "Checked whether auto DST keeps the date accurate automatically", description: "Noted which picks adjust automatically for daylight saving time versus requiring a manual reset twice a year." },
   { title: "Weighed display size against date legibility", description: "Considered digit size specifically for date and day-of-week readability, not just time display." },
-  { title: "Cross-checked against the temperature displays guide", description: "Confirmed this guide and its overlapping sibling share a product pool with different framing, avoiding duplicated prose or identical rankings." },
+  { title: "Cross-checked against the temperature displays guide", description: "Confirmed this guide and its overlapping sibling share a product pool with different framing, avoiding duplicated prose or identical rankings." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -245,11 +245,11 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "Do these clocks show the day of the week too?", a: "Most do, based on their listings, though the DreamSky pick is built specifically around large, clear date and day-of-week display if that's your top priority." },
   { q: "How is this different from the temperature displays guide?", a: "Heavy overlap in the actual product pool. This guide leads with the date feature, the temperature guide leads with that feature instead, covering much of the same picks from a different angle." },
-  { q: "Do I need to manually reset the date twice a year?", a: "Only if the clock lacks auto DST adjustment. Models with that feature, like the WallarGe and the remote-controlled pick, update the date automatically through daylight saving time changes." },
+  { q: "Do I need to manually reset the date twice a year?", a: "Only if the clock lacks auto DST adjustment. Models with that feature, like the WallarGe and the remote-controlled pick, update the date automatically through daylight saving time changes." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-clocks-with-temperature-displays", title: "Best Desk Clocks with Temperature Displays (2026)" },
   { href: "/guide/best-large-digital-desk-clocks", title: "Best Large Digital Desk Clocks (2026)" },
-  { href: "/guide/best-led-desk-clocks", title: "Best LED Desk Clocks (2026)" },
+  { href: "/guide/best-led-desk-clocks", title: "Best LED Desk Clocks (2026)" }
 ];

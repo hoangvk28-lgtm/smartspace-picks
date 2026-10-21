@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small safes for dorm rooms";
 export const introParagraphs = [
   "Dorm rooms usually prohibit permanent wall drilling, so we prioritized tether-cable and portable designs over mounting-hardware-dependent safes, and flagged where a pick's anchoring assumes permissions a dorm resident won't have. One original candidate ASIN was not accessible through the product catalog at research time.",
-  "We also weighed roommate privacy specifically, since a dorm safe's main threat model is usually a roommate or visitor, not a break-in, which changes which features actually matter.",
+  "We also weighed roommate privacy specifically, since a dorm safe's main threat model is usually a roommate or visitor, not a break-in, which changes which features actually matter."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -131,7 +131,7 @@ export const products: GuideProduct[] = [
     pros: ["USB-C emergency power backup uses a phone charger a student already has on hand"],
     cons: ["No confirmed usage history for this specific listing yet"],
     bestFor: "Students wanting dead-battery protection using equipment they already own.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Prioritized tether or portable designs over drilling-dependent mounting", description: "Most dorm housing prohibits permanent wall drilling. We weighted tether-cable and genuinely portable picks accordingly, rather than assuming every buyer can freely install mounting hardware." },
   { title: "Matched features to the actual dorm threat model: roommates and guests, not break-ins", description: "One pick specifically frames its alarm deterrent around roommate and guest access. We recognized this as matching the real dorm security concern more than generic burglary resistance." },
   { title: "Weighted move-out portability as a genuine dorm-specific factor", description: "A safe that requires unmounting at semester's end is more friction than a genuinely portable one. We flagged this tradeoff directly." },
-  { title: "Excluded the inaccessible ASIN rather than fabricating its data", description: "One original candidate ASIN returned ItemNotAccessible from the product catalog API at research time. We excluded it and disclosed the gap rather than guessing." },
+  { title: "Excluded the inaccessible ASIN rather than fabricating its data", description: "One original candidate ASIN returned ItemNotAccessible from the product catalog API at research time. We excluded it and disclosed the gap rather than guessing." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -266,7 +266,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review count and rating together, not rating alone",
-    "explanation": "A 4.8-star rating from 12 reviews carries far less evaluation confidence than a 4.5-star rating from several thousand, since a small sample can be skewed by a handful of early, enthusiastic buyers before any long-term reliability issues would show up in later reviews.\n\nThis matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
+    "explanation": "This matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
   }
 ];
 
@@ -275,11 +275,11 @@ export const faq: FaqItem[] = [
   { q: "Is there an option specifically marketed for dorm use?", a: "Yes, the SentrySafe Small Safe with Combination Lock is explicitly marketed by the manufacturer for office or dorm use." },
   { q: "What's easiest to move out at the end of the semester?", a: "The Amazon Basics Portable Security Case, which requires no unmounting since it was never fixed in place." },
   { q: "Is there an option specifically designed to deter roommates rather than burglars?", a: "Yes, the Small Safe for Home is explicitly framed by the manufacturer around roommate, guest, and landlord access deterrence." },
-  { q: "Why does this list have 7 products instead of 8?", a: "One original candidate ASIN was not accessible through the Amazon catalog API at research time, so we excluded it rather than fabricating its data." },
+  { q: "Why does this list have 7 products instead of 8?", a: "One original candidate ASIN was not accessible through the Amazon catalog API at research time, so we excluded it rather than fabricating its data." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-personal-small-safes", title: "Best Personal Small Safes (2026)" },
   { href: "/guide/best-portable-small-safes", title: "Best Portable Small Safes (2026)" },
-  { href: "/guide/best-small-safes-for-apartments", title: "Best Small Safes for Apartments (2026)" },
+  { href: "/guide/best-small-safes-for-apartments", title: "Best Small Safes for Apartments (2026)" }
 ];

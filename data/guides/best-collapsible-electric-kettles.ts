@@ -5,7 +5,7 @@ export const metaDescription = "Seven collapsible silicone electric kettles comp
 export const mainKeyword = "collapsible electric kettle";
 export const introParagraphs = [
   "A collapsible kettle trades a rigid steel body for a silicone wall that folds down to about two inches thick, usually with a stainless steel heating plate in the base. The packing win is real, but it comes with two trade-offs worth knowing before you buy: hot water touches silicone, and these kettles tend to ship with a manual voltage switch that is easy to leave on the wrong setting.",
-  "The seven kettles here cover 0.55 to 0.85 liters and $14.99 to $47.89. We compared them on listed specs: folded dimensions and weight where given, wattage, capacity, voltage handling, temperature options and the safety shut-offs each listing names. Boil times vary and several listings are loose with them, so we treat them as rough claims."
+  "The seven kettles here cover 0.55 to 0.85 liters and roughly $15 to $50. We compared them on listed specs: folded dimensions and weight where given, wattage, capacity, voltage handling, temperature options and the safety shut-offs each listing names. Boil times vary and several listings are loose with them, so we treat them as rough claims."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31epFsKfZAL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CLD1BLB5?tag=deskfinds0d-20",
-    "description": "AUCOO holds 700 ml at 850W, with 11 temperature settings from 108F to 212F on an LCD, smart keep-warm and automatic detection of 110 to 220V. It uses food-grade silicone and 304 stainless steel with triple automatic shut-off.\n\nIt is the only collapsible pick with a wide temperature menu and automatic voltage detection, which removes the risk of a wrong switch. At $35.99 it costs less than LOUTYTUO but more than the basic folding models.\n\nBest for travelers who want tea temperatures and no voltage switch. The caveat is that silicone still touches the water, and the 4 to 5 minute boil claim is best case.",
+    "description": "AUCOO holds 700 ml at 850W, with 11 temperature settings from 108F to 212F on an LCD, smart keep-warm and automatic detection of 110 to 220V. It uses food-grade silicone and 304 stainless steel with triple automatic shut-off.\n\nIt is the only collapsible pick with a wide temperature menu and automatic voltage detection, which removes the risk of a wrong switch. At under $40 it costs less than LOUTYTUO but more than the basic folding models.\n\nBest for travelers who want tea temperatures and no voltage switch. The caveat is that silicone still touches the water, and the 4 to 5 minute boil claim is best case.",
     "specs": [
       "700 ml, 850W",
       "11 settings, 108F to 212F",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31lV2L7EcIL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DBZSDT6L?tag=deskfinds0d-20",
-    "description": "Xfbaozxy is a 700 ml, 850W, 110V foldable kettle with a 304 stainless heating plate, a five-speed temperature selector including keep-warm, milk and tea settings, and triple automatic power-off protection.\n\nIt matches AUCOO's capacity and wattage for $13.60 less, but it is 110V only and has five speeds instead of eleven. Against T-magitic, it offers far more power.\n\nChoose it for a powerful folding kettle in North America. The caveat is the 110V-only design, which makes it unsuitable for international use.",
+    "description": "Xfbaozxy is a 700 ml, 850W, 110V foldable kettle with a 304 stainless heating plate, a five-speed temperature selector including keep-warm, milk and tea settings, and triple automatic power-off protection.\n\nIt matches AUCOO's capacity and wattage for $14 less, but it is 110V only and has five speeds instead of eleven. Against T-magitic, it offers far more power.\n\nChoose it for a powerful folding kettle in North America. The caveat is the 110V-only design, which makes it unsuitable for international use.",
     "specs": [
       "700 ml, 850W, 110V",
       "5 speeds including keep-warm",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41T9DxqC54L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07YRT7WJ9?tag=deskfinds0d-20",
-    "description": "T-magitic folds to 6.5 by 6.3 by 2.1 inches and weighs 1.42 pounds, with a one-button start and a 110V or 220V switch on the base. The listing says it boils in 3 to 5 minutes and keeps water warm once it falls below 75 degrees.\n\nIt is the middle of the group on weight and price at $29.98, with a manual switch rather than automatic voltage detection. Against LOUTYTUO, it lacks the zipper bag but costs $18 less.\n\nBest for travelers who accept a manual voltage switch. The caveat is that you must set the switch to the right voltage before plugging in, and no temperature presets are listed.",
+    "description": "T-magitic folds to 6.5 by 6.3 by 2.1 inches and weighs 1.42 pounds, with a one-button start and a 110V or 220V switch on the base. The listing says it boils in 3 to 5 minutes and keeps water warm once it falls below 75 degrees.\n\nIt is the middle of the group on weight and price at under $30, with a manual switch rather than automatic voltage detection. Against LOUTYTUO, it lacks the zipper bag but costs $18 less.\n\nBest for travelers who accept a manual voltage switch. The caveat is that you must set the switch to the right voltage before plugging in, and no temperature presets are listed.",
     "specs": [
       "Folds to 6.5 x 6.3 x 2.1 inches",
       "110V or 220V base switch",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31dw8wqegTL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D2R3LPT9?tag=deskfinds0d-20",
-    "description": "DOFQQG folds to 5.9 by 5.5 by 1.9 inches and weighs 0.94 pounds, with a food-grade silicone body and stainless steel heating plate. The listing says it boils in about 4 minutes and keeps water warm automatically.\n\nIt is the lightest and thinnest of the group at $28.99, lighter than T-magitic by half a pound. Wattage and voltage range are not stated in the listing text we reviewed.\n\nChoose it if weight is your top concern. The caveat is that missing power and voltage details make it risky for international trips.",
+    "description": "DOFQQG folds to 5.9 by 5.5 by 1.9 inches and weighs 0.94 pounds, with a food-grade silicone body and stainless steel heating plate. The listing says it boils in about 4 minutes and keeps water warm automatically.\n\nIt is the lightest and thinnest of the group at under $30, lighter than T-magitic by half a pound. Wattage and voltage range are not stated in the listing text we reviewed.\n\nChoose it if weight is your top concern. The caveat is that missing power and voltage details make it risky for international trips.",
     "specs": [
       "Folds to 5.9 x 5.5 x 1.9 inches",
       "0.94 lb",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41yCKF1LyjL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07PRGXQBS?tag=deskfinds0d-20",
-    "description": "LOUTYTUO is a 0.55 liter kettle that folds to 170 by 139 by 132 mm and opens to 149 by 139 by 50 mm, with a stainless heating plate and lid, a detachable cord and handle and a zipper storage bag. A voltage switch on the base covers 110V and 220V.\n\nIt has the best packing story, with removable cord and handle and a bag, but it costs $47.89, the most here. Against AUCOO, it holds less and has no temperature control.\n\nBest for a camper who values packing accessories. The caveat is the high price and the manual voltage switch.",
+    "description": "LOUTYTUO is a 0.55 liter kettle that folds to 170 by 139 by 132 mm and opens to 149 by 139 by 50 mm, with a stainless heating plate and lid, a detachable cord and handle and a zipper storage bag. A voltage switch on the base covers 110V and 220V.\n\nIt has the best packing story, with removable cord and handle and a bag, but it costs under $50, the most here. Against AUCOO, it holds less and has no temperature control.\n\nBest for a camper who values packing accessories. The caveat is the high price and the manual voltage switch.",
     "specs": [
       "0.55L, folds to 170 x 139 x 132 mm",
       "Detachable cord and handle",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31CjpvzeNTL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07NMT99NB?tag=deskfinds0d-20",
-    "description": "Brentwood is a 0.85 quart, dual-voltage collapsible kettle with a concealed heating element, listed with a collapsible body for travel and a package weight of 1.5 pounds. The listing is sparse.\n\nIt costs $31.65 and is the only one that names a concealed element, which matters under some dorm policies. Against T-magitic, it gives less detail about folded size or wattage.\n\nChoose it for a named concealed element from a known appliance brand. The caveat is the thin spec sheet, so check wattage on the label before relying on it.",
+    "description": "Brentwood is a 0.85 quart, dual-voltage collapsible kettle with a concealed heating element, listed with a collapsible body for travel and a package weight of 1.5 pounds. The listing is sparse.\n\nIt costs under $35 and is the only one that names a concealed element, which matters under some dorm policies. Against T-magitic, it gives less detail about folded size or wattage.\n\nChoose it for a named concealed element from a known appliance brand. The caveat is the thin spec sheet, so check wattage on the label before relying on it.",
     "specs": [
       "0.85 qt capacity",
       "Concealed heating element",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31YCyjWyUaL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H6J4P3TS?tag=deskfinds0d-20",
-    "description": "UpdateClassic is a 0.6 liter, 600W foldable kettle with food-grade silicone and a 304 stainless steel base, folding to 7.2 by 5.2 by 3.8 inches. The listing says it boils in 4 to 6 minutes and shuts off when empty.\n\nIt is the cheapest at $14.99 and also the thickest when folded, about 3.8 inches against under 2 for the DOFQQG. It states no voltage range.\n\nBest for occasional use on a tight budget. The caveat is that the listing gives no voltage range, so it is a risky buy for international trips.",
+    "description": "UpdateClassic is a 0.6 liter, 600W foldable kettle with food-grade silicone and a 304 stainless steel base, folding to 7.2 by 5.2 by 3.8 inches. The listing says it boils in 4 to 6 minutes and shuts off when empty.\n\nIt is the cheapest at under $15 and also the thickest when folded, about 3.8 inches against under 2 for the DOFQQG. It states no voltage range.\n\nBest for occasional use on a tight budget. The caveat is that the listing gives no voltage range, so it is a risky buy for international trips.",
     "specs": [
       "0.6L, 600W",
       "Folds to 7.2 x 5.2 x 3.8 inches",
@@ -263,7 +263,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     "title": "Value for price",
-    "description": "Prices from $14.99 to $47.89 were compared with documented features."
+    "description": "Prices from roughly $15 to $50 were compared with documented features."
   }
 ];
 

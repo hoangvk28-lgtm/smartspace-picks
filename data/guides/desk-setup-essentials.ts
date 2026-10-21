@@ -49,7 +49,7 @@ export const items: EssentialItem[] = [
     whyWePicked: [
       "Clamp mount attaches to the desk edge -- zero surface footprint, all the light you need",
       "10 brightness levels + 3 color modes (warm/neutral/cool) cover every use case from late-night reading to afternoon focus sessions",
-      "USB powered -- plugs into any power strip port, no outlet slot consumed",
+      "USB powered -- plugs into any power strip port, no outlet slot consumed"
     ],
     skipIf: "Your desk already has good overhead task lighting or you prefer a base lamp with more wattage.",
     budgetAlt: {
@@ -75,7 +75,7 @@ export const items: EssentialItem[] = [
     whyWePicked: [
       "Asymmetric optical design projects light down onto your desk, not onto the screen -- no reflections or glare",
       "Auto-dimming ambient sensor adjusts brightness as room light changes",
-      "Sits on the monitor frame with no extra arm or clamp -- the cleanest possible setup",
+      "Sits on the monitor frame with no extra arm or clamp -- the cleanest possible setup"
     ],
     skipIf: "You primarily use a laptop without an external monitor -- a clamp lamp (#1) is more versatile.",
   },
@@ -94,7 +94,7 @@ export const items: EssentialItem[] = [
     whyWePicked: [
       "4.7\" of elevation brings most 24-27\" monitors to the correct viewing height for seated posture",
       "Pull-out drawer underneath hides a wireless receiver, cables, small accessories, or a notebook out of sight",
-      "22\" wide bamboo platform fits most monitors and ultrawide screens without overhang",
+      "22\" wide bamboo platform fits most monitors and ultrawide screens without overhang"
     ],
     skipIf: "You already use a monitor arm -- an arm eliminates the stand footprint entirely and gives more adjustability.",
     budgetAlt: {
@@ -119,8 +119,7 @@ export const items: EssentialItem[] = [
       "If you work from a laptop, a stand is one of the most impactful purchases you can make. When your laptop sits flat on a desk, the screen top is 4-6 inches below where it should be for a neutral neck position -- you're angling down for every hour you work.",
     whyWePicked: [
       "Aluminum construction doesn't flex or wobble under laptop weight over time -- plastic stands develop instability within months",
-      "Folds flat to under 0.4\" for carrying between rooms or packing for travel",
-      "20,000+ ratings at 4.6 stars -- the most validated laptop stand at this price point",
+      "Folds flat to under 0.4\" for carrying between rooms or packing for travel"
     ],
     skipIf: "You primarily work at a desktop setup -- skip this and consider a monitor arm instead.",
   },
@@ -139,7 +138,7 @@ export const items: EssentialItem[] = [
     whyWePicked: [
       "35x17\" covers the full keyboard-and-mouse zone on any desk from 36\" to 42\" wide",
       "Non-slip suede backing -- didn't shift once during a full day of typing and mousing in testing",
-      "Stitched edges last for years; cheaper wrapped-edge mats peel within 3-6 months",
+      "Stitched edges last for years; cheaper wrapped-edge mats peel within 3-6 months"
     ],
     skipIf: "Your desk is under 30\" wide -- a 10x12\" mouse pad works better than a full mat that would dominate the surface.",
   },
@@ -158,7 +157,7 @@ export const items: EssentialItem[] = [
     whyWePicked: [
       "C-clamp mount requires no drilling -- attaches to the desk edge and removes cleanly when you change desks",
       "Steel mesh holds a standard 6-outlet power strip plus adapter bricks off the floor and out of sight",
-      "Fits desk edges 0.4\"–2.5\" thick -- works on most IKEA and apartment desks",
+      "Fits desk edges 0.4\"–2.5\" thick -- works on most IKEA and apartment desks"
     ],
     skipIf: "Your desk already has built-in cable routing or a back panel that hides cables.",
     budgetAlt: {
@@ -184,7 +183,7 @@ export const items: EssentialItem[] = [
     whyWePicked: [
       "8 compartments with different depths handle pens, scissors, sticky notes, phone, charger, and accessories without mixing them",
       "Pull-out drawer conceals small items that don't need to be visible (earbuds, USB drives, clips)",
-      "Mesh construction shows contents at a glance -- no opening drawers to find things",
+      "Mesh construction shows contents at a glance -- no opening drawers to find things"
     ],
     skipIf: "You prefer a completely clear desk with everything inside drawers -- a drawer organizer insert (#8 below) is a better fit.",
     budgetAlt: {
@@ -209,8 +208,7 @@ export const items: EssentialItem[] = [
       "Modern laptops ship with 2-4 USB ports. A desk setup with a mouse, keyboard, external drive, webcam, card reader, and USB lamp needs 6-8. An unpowered hub draws electricity from your laptop and drops connections under load -- a powered hub has its own AC adapter and stays stable under full use.",
     whyWePicked: [
       "Powered by 36W AC adapter -- consistent performance with all 7 ports in use simultaneously",
-      "BC 1.2 dedicated charging port delivers real 2A fast-charging to phones, not just 0.5A trickle",
-      "30,000+ ratings at 4.6 stars with Anker's 18-month warranty -- the most validated powered hub at this price",
+      "BC 1.2 dedicated charging port delivers real 2A fast-charging to phones, not just 0.5A trickle"
     ],
     skipIf: "You primarily use USB-C devices -- a USB-C hub (SABRENT B0CXZ448XL) is a better fit for MacBook and modern laptop users.",
     budgetAlt: {
@@ -218,7 +216,7 @@ export const items: EssentialItem[] = [
       asin: "B00P936188",
       amazonUrl: "https://www.amazon.com/dp/B00P936188?tag=deskfinds0d-20",
       price: "$19–$26",
-      why: "6-port 60W USB charging station -- for charging devices only (no data), 4.8 stars at 26K reviews",
+      why: "",
     },
   },
   {
@@ -236,7 +234,7 @@ export const items: EssentialItem[] = [
     whyWePicked: [
       "Mounts under the desk with 3M adhesive -- zero surface footprint, headphones hang below and are immediately accessible",
       "Holds two pairs of headphones simultaneously -- useful for setups with both over-ear and in-ear options",
-      "Medical-grade silicone with steel reinforcement -- won't scratch headband padding over time",
+      "Medical-grade silicone with steel reinforcement -- won't scratch headband padding over time"
     ],
     skipIf: "You want headphones visible on your desk as a display piece -- a desktop headphone stand looks better but takes 3-4 inches of surface.",
   },
@@ -254,8 +252,7 @@ export const items: EssentialItem[] = [
       "A footrest addresses a posture gap that most people don't notice until they sit at a desk for four hours straight. If your desk is at standard height (29-30\") and your feet don't rest flat on the floor at a 90° knee angle in your normal typing position, there's low-level tension building in your lower back that you feel as fatigue by mid-afternoon.",
     whyWePicked: [
       "Adjustable height and tilt calibrates to your exact desk and chair combination",
-      "Memory foam surface reduces foot pressure compared to rigid wooden footrests",
-      "20,000+ ratings at 4.5 stars -- the most validated footrest across this price range",
+      "Memory foam surface reduces foot pressure compared to rigid wooden footrests"
     ],
     skipIf: "Your feet rest comfortably flat on the floor when typing. Test: sit in your normal position and check if your knees are at 90° -- if yes, skip this.",
   },
@@ -273,8 +270,7 @@ export const items: EssentialItem[] = [
       "One small plant is often the difference between a desk that looks functional and one that looks intentional. The case for artificial: real succulents need specific light levels that most desk positions can't provide consistently, and a dying plant looks worse than no plant at all.",
     whyWePicked: [
       "5 different varieties in white ceramic pots -- looks curated rather than like a single prop",
-      "Zero maintenance -- no watering schedule, no adjusting for light, looks the same on day 300 as day 1",
-      "12,000+ ratings at 4.6 stars -- the most reviewed artificial succulent set available",
+      "Zero maintenance -- no watering schedule, no adjusting for light, looks the same on day 300 as day 1"
     ],
     skipIf: "Your desk gets consistent bright indirect light -- a real ZZ plant or pothos would look better and improve air quality.",
   },
@@ -293,10 +289,10 @@ export const items: EssentialItem[] = [
     whyWePicked: [
       "Flip-to-start gravity activation -- no buttons, just rotate to your chosen interval and the countdown begins",
       "11 preset intervals from 1 to 90 minutes cover everything from quick tasks to deep work sessions",
-      "Three alert modes (sound/vibrate/silent) -- silent mode is essential for shared spaces and late-night sessions",
+      "Three alert modes (sound/vibrate/silent) -- silent mode is essential for shared spaces and late-night sessions"
     ],
     skipIf: "You already have a reliable focus routine -- this is for people who struggle with starting tasks or time-boxing work sessions.",
-  },
+  }
 ];
 
 // AtAGlance items -- required by template
@@ -323,7 +319,7 @@ export const checklist = [
   { area: "Headphones", item: "Under-desk headphone hook", why: "Removes headphones from surface, frees 4+ sq inches" },
   { area: "Comfort", item: "Under-desk footrest", why: "Fills gap between floor and feet for neutral posture" },
   { area: "Focus", item: "Pomodoro timer", why: "Physical time commitment improves task initiation" },
-  { area: "Aesthetic", item: "One small plant or decor item", why: "Makes setup feel intentional, not just functional" },
+  { area: "Aesthetic", item: "One small plant or decor item", why: "Makes setup feel intentional, not just functional" }
 ];
 
 export const dontNeedYet = [
@@ -332,7 +328,7 @@ export const dontNeedYet = [
   { item: "Expensive speakers", reason: "Headphones do the same job for less" },
   { item: "Multiple storage boxes", reason: "Buy one organizer first, then see what else you actually need" },
   { item: "Oversized decor", reason: "A 6-inch plant and a framed photo are enough for a small desk" },
-  { item: "Standing desk converter", reason: "A good footrest and posture habit outperforms a converter at a fraction of the cost" },
+  { item: "Standing desk converter", reason: "A good footrest and posture habit outperforms a converter at a fraction of the cost" }
 ];
 
 export interface HowToChooseSection {
@@ -346,7 +342,7 @@ export const howToChoose: HowToChooseSection[] = [
   { icon: "📏", tip: "Measure your desk before buying", body: "A 35\" desk mat on a 32\" desk hangs off the edge. A monitor stand too wide for your monitor looks unbalanced. Measure width, depth, and edge thickness before any purchase." },
   { icon: "🔌", tip: "Solve power first", body: "A powered USB hub and cable tray should come before aesthetic items. Getting all devices connected cleanly changes the baseline of your setup. Everything else looks better after this is fixed." },
   { icon: "🪑", tip: "Ergonomics before aesthetics", body: "Monitor stand, laptop stand, and footrest affect you physically every day. A desk plant looks good; a monitor at the wrong height causes neck tension over months." },
-  { icon: "💰", tip: "Set a total budget, not a per-item budget", body: "Buying 15 accessories at 'just $20 each' adds up to $300. Decide on a total first -- $100, $150, $200 -- then prioritize within it." },
+  { icon: "💰", tip: "Set a total budget, not a per-item budget", body: "Buying 15 accessories at 'just $20 each' adds up to $300. Decide on a total first -- $100, $150, $200 -- then prioritize within it." }
 ];
 
 export const faq: Array<{ q: string; a: string }> = [
@@ -355,5 +351,5 @@ export const faq: Array<{ q: string; a: string }> = [
   { q: "What should every work-from-home desk have?", a: "Beyond the basics (monitor, keyboard, mouse): a powered USB hub for connecting everything, a clamp desk lamp or monitor light bar, cable management, and a headphone hook. These four items address the practical daily-use gaps in most home office setups." },
   { q: "Are desk accessories worth buying?", a: "The right ones are. A $20 cable tray and a $15 headphone hook have immediate, visible impact every day. A $50 RGB light strip has zero functional benefit. The criterion is: does this make my workspace easier to use or more comfortable? If yes, worth it. If it's purely decorative, probably not." },
   { q: "What should I buy first for a better desk setup?", a: "A cable management tray -- it costs $20, takes 5 minutes, and immediately makes everything else look more intentional. Second: a desk lamp with a clamp mount. These two purchases change the baseline of any desk setup before anything else." },
-  { q: "How can I improve my desk setup on a budget?", a: "Under $50 combination: cable clips ($8), a headphone hook ($12), and a compact desk organizer ($18). These three eliminate the most common visual clutter on any desk. Under $100: add a desk mat ($35) and you've transformed the setup's appearance without touching the monitor or lighting." },
+  { q: "How can I improve my desk setup on a budget?", a: "Under $50 combination: cable clips (under $9), a headphone hook (under $15), and a compact desk organizer (under $20). These three eliminate the most common visual clutter on any desk. Under $100: add a desk mat ($35) and you've transformed the setup's appearance without touching the monitor or lighting." }
 ];

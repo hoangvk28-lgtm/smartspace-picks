@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41NwGFpjGML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DHSCG98F?tag=deskfinds0d-20",
-    description: "Same GIANTEX round-tabletop platform in an all-white finish: 1\" thickened tabletop, elevated corner shelf, and a built-in-lock drawer with two keys. The 2-tier open shelf below handles bags or sundries, with 3-position adjustability to match different storage needs.\n\nWhat stands out here is all-white finish matches bright, modern salon or retail interiors, plus 3-position adjustable shelving. The main tradeoff: engineered wood, not solid material, so weigh that against the $99.99 price before buying.",
+    description: "Same GIANTEX round-tabletop platform in an all-white finish: 1\" thickened tabletop, elevated corner shelf, and a built-in-lock drawer with two keys. The 2-tier open shelf below handles bags or sundries, with 3-position adjustability to match different storage needs.\n\nWhat stands out here is all-white finish matches bright, modern salon or retail interiors, plus 3-position adjustable shelving. The main tradeoff: engineered wood, not solid material, so weigh that against the under $100 price before buying.",
     specs: ["Round tabletop, 1\" thickened panel, white finish","Lockable drawer with 2 keys","3-position adjustable 2-tier open shelf"],
     pros: ["All-white finish matches bright, modern salon or retail interiors","3-position adjustable shelving","Compact footprint for tight entryways"],
     cons: ["Engineered wood, not solid material","No cable management feature listed"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41JN+JAnm2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8B95G8T?tag=deskfinds0d-20",
-    description: "Same GIANTEX round-tabletop platform in a brown-and-white finish: 1\" thickened tabletop, elevated corner shelf, and built-in-lock drawer with two keys. The 2-tier open shelf below handles bags or sundries with 3-position adjustability.\n\nThe strongest case for this pick comes down to brown & white finish suits warmer retail or boutique interiors as well as 3-position adjustable shelving. The compromise here is that engineered wood, not solid material, so factor that in alongside the $69.99 asking price.",
+    description: "Same GIANTEX round-tabletop platform in a brown-and-white finish: 1\" thickened tabletop, elevated corner shelf, and built-in-lock drawer with two keys. The 2-tier open shelf below handles bags or sundries with 3-position adjustability.\n\nThe strongest case for this pick comes down to brown & white finish suits warmer retail or boutique interiors as well as 3-position adjustable shelving. The compromise here is that engineered wood, not solid material, so factor that in alongside the under $70 asking price.",
     specs: ["Round tabletop, 1\" thickened panel, brown & white finish","Lockable drawer with 2 keys","3-position adjustable 2-tier open shelf"],
     pros: ["Brown & white finish suits warmer retail or boutique interiors","3-position adjustable shelving","Lowest-priced option in the GIANTEX round-desk lineup"],
     cons: ["Engineered wood, not solid material","No cable management feature listed"],
@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $69.99",
+          "Under $70",
           "GIANTEX Reception Desk"
         ],
         [
-          "Around $89.99",
+          "Under $90",
           "GIANTEX Reception Desk with Round Tabletop and Corner Shelf"
         ],
         [
-          "Around $94.99",
+          "Under $100",
           "GIANTEX Reception Desk"
         ],
         [
-          "Around $99.99",
+          "Under $100",
           "GIANTEX Reception Desk"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "42.1\" Fluted Round-Corner Reception Desk"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "GIANTEX Reception Desk with Round Tabletop and Corner Shelf is aimed at buyers prioritizing round tabletop, 1\" thickened panel." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "GIANTEX Reception Desk with Round Tabletop and Corner Shelf is aimed at buyers prioritizing round tabletop, 1\" thickened panel." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-curved-reception-desks","title":"5 Best Curved Reception Desks in 2026"},{"href":"/guide/best-oval-reception-desks","title":"best-oval-reception-desks"},{"href":"/guide/best-compact-reception-desks","title":"best-compact-reception-desks"}];

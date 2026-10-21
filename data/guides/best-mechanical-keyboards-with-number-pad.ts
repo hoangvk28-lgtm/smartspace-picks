@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mechanical keyboard with number pad";
 export const introParagraphs = [
   "A mechanical keyboard with a number pad means a genuinely full-size or 104-108 key layout, not a tenkeyless or 75 percent board with the numpad marketed as optional. That distinction matters more than most listings let on, since a lot of full-size looking keyboards on Amazon quietly drop the numpad to save desk space, and a board that keeps it needs roughly 4 extra inches of desk width to sit flat next to a mouse.",
-  "Below are 7 mechanical keyboards we evaluated that genuinely include a full numpad based on verified key counts and layout descriptions in their real listings, ranging from a $28.99 104-key budget board to a $157 low-profile wireless option, so spreadsheet and data-entry work stays fast without reaching for a separate numpad.",
+  "Below are 7 mechanical keyboards we evaluated that genuinely include a full numpad based on verified key counts and layout descriptions in their real listings, ranging from an under-$30 104-key budget board to a $157 low-profile wireless option, so spreadsheet and data-entry work stays fast without reaching for a separate numpad."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "9 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Blue clicky switches",
       "RGB LED backlight",
       "Anti-ghosting, spill-resistant",
-      "Wired USB connection",
+      "Wired USB connection"
     ],
     pros: [
       "Cheapest genuinely full-size numpad option in this list",
       "104-key layout confirmed, not a marketing approximation",
       "Spill-resistant and anti-ghosting at a budget price",
-      "Ultra-slim keycap profile",
+      "Ultra-slim keycap profile"
     ],
     cons: [
       "Blue switches are the loudest switch type, poor for shared spaces",
       "ABS keycaps wear and shine faster than PBT",
-      "Wired only, no wireless option",
+      "Wired only, no wireless option"
     ],
     bestFor: "Buyers who want a confirmed full numpad on the lowest budget",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Hot-swappable Keychron K Pro Brown switches",
       "Physical volume knob",
       "QMK/VIA programmable",
-      "Wired, Mac/Windows/Linux compatible",
+      "Wired, Mac/Windows/Linux compatible"
     ],
     pros: [
       "Confirmed full-size layout with a dedicated volume knob",
       "Hot-swappable switches for later customization",
       "Full QMK/VIA remapping support",
-      "Cross-platform compatibility",
+      "Cross-platform compatibility"
     ],
     cons: [
       "Wired only, no Bluetooth option on this model",
       "Pricier than the Redragon and RisoPhy picks",
-      "Brown switches still register a light tactile bump, not silent",
+      "Brown switches still register a light tactile bump, not silent"
     ],
     bestFor: "Buyers who want remapping, hot-swap switches, and a volume knob together",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "2.4GHz + Bluetooth wireless",
       "Hot-swappable Gateron Brown switches",
       "QMK programmable, RGB backlight",
-      "Mac/Windows/Linux compatible",
+      "Mac/Windows/Linux compatible"
     ],
     pros: [
       "Confirmed full-size wireless layout, numpad intact",
       "Dual 2.4GHz and Bluetooth connectivity",
       "Hot-swappable switches for future changes",
-      "Full QMK remapping support",
+      "Full QMK remapping support"
     ],
     cons: [
       "Most expensive pick in this list alongside the Banana switch variant",
       "Wireless full-size boards drain battery faster with RGB left on",
-      "Brown switches are tactile, not a silent switch type",
+      "Brown switches are tactile, not a silent switch type"
     ],
     bestFor: "Buyers who want a cable-free desk without losing the numpad",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Hot-swappable Keychron K Pro Brown switches",
       "Frosted, semi-translucent case",
       "QMK/VIA programmable",
-      "Wired, Mac/Windows/Linux compatible",
+      "Wired, Mac/Windows/Linux compatible"
     ],
     pros: [
       "Same confirmed full-size platform as the Knob Version, lower price",
       "Hot-swappable switches included",
       "Full QMK/VIA remapping",
-      "Distinctive frosted case finish",
+      "Distinctive frosted case finish"
     ],
     cons: [
       "No volume knob or wireless option",
       "Brown switches are tactile, not silent",
-      "Translucent case shows dust more than a solid finish",
+      "Translucent case shows dust more than a solid finish"
     ],
     bestFor: "Buyers who want the V6 platform's numpad and hot-swap switches at a lower price",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Red linear switches, hot-swappable",
       "Sound-absorbing foam inside the case",
       "2 sets of mixed-color keycaps included",
-      "Wired USB connection",
+      "Wired USB connection"
     ],
     pros: [
       "Confirmed 108-key layout with extra hotkeys beyond a standard numpad",
       "Sound-absorbing foam and hot-swappable sockets at a budget price",
       "Two keycap sets included for customization",
-      "Red linear switches are quieter than clicky Blue",
+      "Red linear switches are quieter than clicky Blue"
     ],
     cons: [
       "Wired only",
       "Not remappable via QMK/VIA like the Keychron picks",
-      "Foam dampening reduces but does not eliminate switch and stab noise",
+      "Foam dampening reduces but does not eliminate switch and stab noise"
     ],
     bestFor: "Buyers who want the most numpad and hotkeys per dollar",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Hot-swappable Gateron Banana linear switches",
       "2.4GHz + Bluetooth wireless",
       "QMK programmable, RGB backlight",
-      "Mac/Windows/Linux compatible",
+      "Mac/Windows/Linux compatible"
     ],
     pros: [
       "Confirmed full-size wireless layout with numpad",
       "Smooth linear switch better suited to fast repeated numpad entry",
       "Hot-swappable if switch preference changes later",
-      "Same QMK remapping support as the Brown-switch variant",
+      "Same QMK remapping support as the Brown-switch variant"
     ],
     cons: [
       "Same premium price as the Brown-switch V6 Max",
       "Linear switches give less physical feedback than tactile Brown",
-      "Wireless full-size boards need more frequent charging with RGB on",
+      "Wireless full-size boards need more frequent charging with RGB on"
     ],
     bestFor: "Buyers who specifically want a linear switch feel for fast numeric entry",
   },
@@ -249,21 +249,21 @@ export const products: GuideProduct[] = [
       "Low-profile tactile mechanical switches",
       "Multi-device Bluetooth + Logi Bolt receiver",
       "Backlit, illuminated keys",
-      "Rechargeable battery",
+      "Rechargeable battery"
     ],
     pros: [
       "Confirmed full-size numpad in a slimmer low-profile body",
       "Multi-device switching across up to 3 computers",
       "Premium build and illuminated keys",
-      "Low-profile switches feel closer to a laptop keyboard",
+      "Low-profile switches feel closer to a laptop keyboard"
     ],
     cons: [
       "Most expensive pick in this list",
       "Not hot-swappable or QMK programmable like the Keychron boards",
-      "Low-profile switch feel is a different typing experience than standard mechanical switches",
+      "Low-profile switch feel is a different typing experience than standard mechanical switches"
     ],
     bestFor: "Buyers who want a premium, low-profile full-size numpad board with multi-device switching",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -291,7 +291,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed confirmed numpad functionality, switch quality, and extras like a volume knob or multi-device pairing against price, from a wired budget board to a premium wireless pick.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -434,12 +434,12 @@ export const faq: FaqItem[] = [
   {
     q: "Are numpad keys different from the main keyboard keys?",
     a: "Numpad keys get used less often than the main alpha cluster, so their switches and stabilizers are less broken in and can feel slightly stiffer when a board is new. This typically evens out with regular use rather than indicating a defect, but it is worth knowing going in.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-quiet-mechanical-keyboard-switches", title: "Best Quiet Mechanical Keyboard Switches (2026)" },
   { href: "/guide/best-mechanical-keyboards", title: "Best Mechanical Keyboards (2026)" },
   { href: "/guide/best-wireless-mechanical-keyboards", title: "Best Wireless Mechanical Keyboards (2026)" },
-  { href: "/guide/best-mechanical-keyboard-under-100", title: "Best Mechanical Keyboards Under $100 (2026)" },
+  { href: "/guide/best-mechanical-keyboard-under-100", title: "Best Mechanical Keyboards Under $100 (2026)" }
 ];

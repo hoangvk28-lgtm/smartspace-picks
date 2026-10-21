@@ -363,7 +363,7 @@ export default async function BestUnderDeskCableTraysPage() {
           <div className="flex flex-col items-center text-center">
             <h2 className="text-xl font-bold text-ink mb-3">Final Verdict</h2>
             <p className="text-sm text-ink-secondary leading-relaxed max-w-2xl mb-4">
-              For most wood desk setups: the <strong>No-Drill Adhesive Tray</strong> at $34-44 is the best single purchase - strong adhesive, 15+ lb capacity, and easy installation with no commitment to screw holes. On a tighter budget, the <strong>QiaoYoubang 2-pack</strong> at $18-25 covers most desks with two open-mesh trays. For glass desks and standing desks, the <strong>Scandinavian Hub Clamp Tray</strong> is the only correct choice - adhesive will not hold on glass. If you need cables completely hidden, budget for the <strong>Humanscale NeatTech</strong> ($120-150) or the <strong>BTOD Ultimate Box</strong> ($240+).
+              For most wood desk setups: the <strong>No-Drill Adhesive Tray</strong> at under $35-44 is the best single purchase - strong adhesive, 15+ lb capacity, and easy installation with no commitment to screw holes. On a tighter budget, the <strong>QiaoYoubang 2-pack</strong> at under $20-25 covers most desks with two open-mesh trays. For glass desks and standing desks, the <strong>Scandinavian Hub Clamp Tray</strong> is the only correct choice - adhesive will not hold on glass. If you need cables completely hidden, budget for the <strong>Humanscale NeatTech</strong> ($120-150) or the <strong>BTOD Ultimate Box</strong> ($240+).
             </p>
             <a
               href="#no-drill-adhesive-cable-tray"

@@ -12,7 +12,7 @@ export const documentRetentionScheduleExplainedGuide: Guide = {
     "how long to keep tax documents",
     "when to shred old bank statements",
     "document retention timeframe guide",
-    "how long keep receipts records",
+    "how long keep receipts records"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const documentRetentionScheduleExplainedGuide: Guide = {
     "document-scanning-vs-physical-storage",
     "paper-shredder-security-levels-explained",
     "filing-cabinet-vs-file-box",
-    "fireproof-document-storage-explained",
+    "fireproof-document-storage-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const documentRetentionScheduleExplainedGuide: Guide = {
       question: "What documents should I never discard regardless of any retention schedule?",
       answer:
         "Permanent records like birth certificates, social security cards, property deeds, and marriage or divorce certificates should generally be retained indefinitely, these fall outside typical retention schedules since they represent permanent identity or ownership records.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const documentRetentionScheduleExplainedGuide: Guide = {
     {
       heading: "Why Permanent Records Require an Entirely Different Mental Category",
       body: `Documents representing fundamental identity or ownership status, birth certificates, property deeds, marriage certificates, aren't really subject to a "retention schedule" in the same sense as financial paperwork, since they don't have a point at which they become obsolete or unnecessary to retain, treating these as a permanently retained category from the start, rather than accidentally including them in a periodic document purge alongside genuinely disposable paperwork, prevents the serious mistake of discarding something that can be extremely difficult or costly to replace later.`,
-    },
+    }
   ],
 };

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "cool desk clock";
 export const introParagraphs = [
   "Cool is subjective, so we're defining it here as a genuine visual or mechanical hook, something that makes a clock stand out on a desk beyond simply telling time. That covers flip clocks with real moving parts and marble or crystal pieces with a striking material presence. Our unique desk clocks guide covers this same general pool with a narrower lens, leaning harder into novelty and material rarity specifically, worth reading both if you're deciding between a broadly cool desk statement and a genuinely uncommon piece.",
-  "We kept purely functional digital and plain analog clocks out of this list entirely, they belong in our broader desk clocks or digital desk clocks guides instead.",
+  "We kept purely functional digital and plain analog clocks out of this list entirely, they belong in our broader desk clocks or digital desk clocks guides instead."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "7 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Prioritized a genuine visual or mechanical hook over pure function", description: "Selected picks specifically for what makes them interesting to look at or watch, excluding purely functional plain digital or analog clocks from this list entirely." },
   { title: "Balanced motion-based cool factor against material-based cool factor", description: "Included both flip clocks, which move, and marble or crystal pieces, which are static but visually and texturally distinctive, rather than assuming cool only means moving parts." },
   { title: "Cross-checked against our unique desk clocks guide to avoid duplicate framing", description: "Ordered and worded this list around broad visual appeal, while our unique guide leans harder into rarity and novelty specifically as its defining lens." },
-  { title: "Excluded plain functional clocks regardless of price", description: "Kept purely practical digital and basic analog clocks out of this list even where they're well reviewed, since they don't fit a cool-factor lens." },
+  { title: "Excluded plain functional clocks regardless of price", description: "Kept purely practical digital and basic analog clocks out of this list even where they're well reviewed, since they don't fit a cool-factor lens." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -246,11 +246,11 @@ export const faq: FaqItem[] = [
   { q: "What makes a desk clock cool rather than just functional?", a: "In this guide, a genuine visual or mechanical hook, like a flip clock's moving parts or marble and crystal's distinctive material, rather than a plain functional display." },
   { q: "What's the difference between this guide and your unique desk clocks guide?", a: "This guide covers broadly eye-catching clocks, while the unique guide leans harder into genuine rarity and novelty as its specific focus, using an overlapping but differently framed product pool." },
   { q: "Do flip clocks make noise?", a: "Most gear-driven flip clocks click audibly on each flip. One pick in this guide, the FOSA clock, uses a silent electronic movement instead if that matters to you." },
-  { q: "Is marble or crystal a better cool-factor pick?", a: "It depends on preference, marble offers more substantial weight and presence, while crystal offers a subtler, light-catching quality in a more compact size." },
+  { q: "Is marble or crystal a better cool-factor pick?", a: "It depends on preference, marble offers more substantial weight and presence, while crystal offers a subtler, light-catching quality in a more compact size." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-unique-desk-clocks", title: "Best Unique Desk Clocks (2026)" },
   { href: "/guide/best-flip-desk-clocks", title: "Best Flip Desk Clocks (2026)" },
-  { href: "/guide/best-marble-desk-clocks", title: "Best Marble Desk Clocks (2026)" },
+  { href: "/guide/best-marble-desk-clocks", title: "Best Marble Desk Clocks (2026)" }
 ];

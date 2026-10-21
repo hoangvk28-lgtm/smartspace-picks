@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41xWOqVUm1L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GYN72GBX?tag=deskfinds0d-20",
-    "description": "What stands out on TEEALUBAN 3 Drawer File Cabinet with Lock is less assembly to do, alongside files and supplies, kept separate, which is the main reason it earns a spot in this file drawers comparison.\n\nCompared to Sbanmao Letter/Legal Rolling File Cabinet at $47.99, it costs more for real added capability, while sitting well below Guizeeopo Filing Cabinets for Home Office at $89.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who need letter or legal-size filing storage that fits under or beside a desk rather than a full-size cabinet. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "What stands out on TEEALUBAN 3 Drawer File Cabinet with Lock is less assembly to do, alongside files and supplies, kept separate, which is the main reason it earns a spot in this file drawers comparison.\n\nCompared to Sbanmao Letter/Legal Rolling File Cabinet at under $50, it costs more for real added capability, while sitting well below Guizeeopo Filing Cabinets for Home Office at under $90 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who need letter or legal-size filing storage that fits under or beside a desk rather than a full-size cabinet. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Less Assembly To Do",
       "FILES AND SUPPLIES, KEPT SEPARATE",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31p41n-BWgL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D7ZX359V?tag=deskfinds0d-20",
-    "description": "Guizeeopo Filing Cabinets for Home Office leads with ample storage space, backed by easy mobility and secure locking, a combination aimed at as a mobile filing solution built for a home office rather than a full-size commercial cabinet.\n\nAt $89.99, it's the most expensive pick in this comparison, and that premium needs to be justified by genuinely using the extra features it carries over the cheaper options here.\n\nThis pick best suits buyers who need letter or legal-size filing storage that fits under or beside a desk rather than a full-size cabinet. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "Guizeeopo Filing Cabinets for Home Office leads with ample storage space, backed by easy mobility and secure locking, a combination aimed at as a mobile filing solution built for a home office rather than a full-size commercial cabinet.\n\nAt under $90, it's the most expensive pick in this comparison, and that premium needs to be justified by genuinely using the extra features it carries over the cheaper options here.\n\nThis pick best suits buyers who need letter or legal-size filing storage that fits under or beside a desk rather than a full-size cabinet. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Ample Storage Space",
       "Easy Mobility and Secure Locking",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/313I8sNtU5L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HBJJNXLB?tag=deskfinds0d-20",
-    "description": "Fully Assembled 3-Drawer Mobile File Cabinet with Lock is built around flexible 3-drawer organization, paired with fits common file sizes, positioning it as a mobile filing solution built for a home office rather than a full-size commercial cabinet.\n\nCompared to Sbanmao Letter/Legal Rolling File Cabinet at $47.99, it costs more for real added capability, while sitting well below Guizeeopo Filing Cabinets for Home Office at $89.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who need letter or legal-size filing storage that fits under or beside a desk rather than a full-size cabinet. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "Fully Assembled 3-Drawer Mobile File Cabinet with Lock is built around flexible 3-drawer organization, paired with fits common file sizes, positioning it as a mobile filing solution built for a home office rather than a full-size commercial cabinet.\n\nCompared to Sbanmao Letter/Legal Rolling File Cabinet at under $50, it costs more for real added capability, while sitting well below Guizeeopo Filing Cabinets for Home Office at under $90 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who need letter or legal-size filing storage that fits under or beside a desk rather than a full-size cabinet. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Flexible 3-Drawer Organization",
       "Fits Common File Sizes",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31j5JS+oRlL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GCCS2XVM?tag=deskfinds0d-20",
-    "description": "Approgreent 2 Drawer Metal File Cabinet is built around fully assembled steel filing cabinet, paired with smooth mobility + secure locking, positioning it as a mobile filing solution built for a home office rather than a full-size commercial cabinet.\n\nIt lands between Sbanmao Letter/Legal Rolling File Cabinet's $47.99 price floor and Guizeeopo Filing Cabinets for Home Office's $89.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nApprogreent 2 Drawer Metal File Cabinet is the right call for buyers who need letter or legal-size filing storage that fits under or beside a desk rather than a full-size cabinet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "Approgreent 2 Drawer Metal File Cabinet is built around fully assembled steel filing cabinet, paired with smooth mobility + secure locking, positioning it as a mobile filing solution built for a home office rather than a full-size commercial cabinet.\n\nIt lands between Sbanmao Letter/Legal Rolling File Cabinet's under $50 price floor and Guizeeopo Filing Cabinets for Home Office's under $90 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nApprogreent 2 Drawer Metal File Cabinet is the right call for buyers who need letter or legal-size filing storage that fits under or beside a desk rather than a full-size cabinet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Fully Assembled Steel Filing Cabinet",
       "Smooth Mobility + Secure Locking",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31nJEclXALL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DW8YLF5B?tag=deskfinds0d-20",
-    "description": "What stands out on Polup 2 Drawer Rolling File Cabinet with Lock for Home Office is sturdy and secure, alongside smooth operation and mobility, which is the main reason it earns a spot in this file drawers comparison.\n\nIt lands between Sbanmao Letter/Legal Rolling File Cabinet's $47.99 price floor and Guizeeopo Filing Cabinets for Home Office's $89.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nPolup 2 Drawer Rolling File Cabinet with Lock for Home Office is the right call for buyers who need letter or legal-size filing storage that fits under or beside a desk rather than a full-size cabinet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on Polup 2 Drawer Rolling File Cabinet with Lock for Home Office is sturdy and secure, alongside smooth operation and mobility, which is the main reason it earns a spot in this file drawers comparison.\n\nIt lands between Sbanmao Letter/Legal Rolling File Cabinet's under $50 price floor and Guizeeopo Filing Cabinets for Home Office's under $90 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nPolup 2 Drawer Rolling File Cabinet with Lock for Home Office is the right call for buyers who need letter or legal-size filing storage that fits under or beside a desk rather than a full-size cabinet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Sturdy And Secure",
       "Smooth Operation And Mobility",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/3134XzLGRbL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CC5WSR6M?tag=deskfinds0d-20",
-    "description": "What stands out on SISESOL 2 Drawer File Cabinet with Lock and Wheels is secure storage, alongside full extension, which is the main reason it earns a spot in this file drawers comparison.\n\nCompared to Sbanmao Letter/Legal Rolling File Cabinet at $47.99, it costs more for real added capability, while sitting well below Guizeeopo Filing Cabinets for Home Office at $89.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who need letter or legal-size filing storage that fits under or beside a desk rather than a full-size cabinet. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "What stands out on SISESOL 2 Drawer File Cabinet with Lock and Wheels is secure storage, alongside full extension, which is the main reason it earns a spot in this file drawers comparison.\n\nCompared to Sbanmao Letter/Legal Rolling File Cabinet at under $50, it costs more for real added capability, while sitting well below Guizeeopo Filing Cabinets for Home Office at under $90 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who need letter or legal-size filing storage that fits under or beside a desk rather than a full-size cabinet. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Secure Storage",
       "Full Extension",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41rFu1dpqML._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FZJFKV9Q?tag=deskfinds0d-20",
-    "description": "VASAGLE 2-Drawer File Cabinet is built around simply modern for seamless room integration, paired with efficient file-storage solution, positioning it as a mobile filing solution built for a home office rather than a full-size commercial cabinet.\n\nIt lands between Sbanmao Letter/Legal Rolling File Cabinet's $47.99 price floor and Guizeeopo Filing Cabinets for Home Office's $89.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nVASAGLE 2-Drawer File Cabinet is the right call for buyers who need letter or legal-size filing storage that fits under or beside a desk rather than a full-size cabinet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "VASAGLE 2-Drawer File Cabinet is built around simply modern for seamless room integration, paired with efficient file-storage solution, positioning it as a mobile filing solution built for a home office rather than a full-size commercial cabinet.\n\nIt lands between Sbanmao Letter/Legal Rolling File Cabinet's under $50 price floor and Guizeeopo Filing Cabinets for Home Office's under $90 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nVASAGLE 2-Drawer File Cabinet is the right call for buyers who need letter or legal-size filing storage that fits under or beside a desk rather than a full-size cabinet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Simply Modern for Seamless Room Integration",
       "Efficient File-Storage Solution",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41SEektIsgL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0F1JD9DT1?tag=deskfinds0d-20",
-    "description": "Sbanmao Letter/Legal Rolling File Cabinet leads with letter/legal size, backed by wide application, a combination aimed at as a mobile filing solution built for a home office rather than a full-size commercial cabinet.\n\nPriced at $47.99, the lowest in this lineup, it trades some of the extras found on pricier picks here for a lower upfront cost, a reasonable tradeoff if your needs are basic.\n\nSbanmao Letter/Legal Rolling File Cabinet is the right call for buyers who need letter or legal-size filing storage that fits under or beside a desk rather than a full-size cabinet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "Sbanmao Letter/Legal Rolling File Cabinet leads with letter/legal size, backed by wide application, a combination aimed at as a mobile filing solution built for a home office rather than a full-size commercial cabinet.\n\nPriced at under $50, the lowest in this lineup, it trades some of the extras found on pricier picks here for a lower upfront cost, a reasonable tradeoff if your needs are basic.\n\nSbanmao Letter/Legal Rolling File Cabinet is the right call for buyers who need letter or legal-size filing storage that fits under or beside a desk rather than a full-size cabinet. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Letter/Legal Size",
       "Wide Application",
@@ -321,35 +321,35 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $47.99",
+          "Under $50",
           "Sbanmao Letter/Legal Rolling File Cabinet"
         ],
         [
-          "Around $49.99",
+          "Under $50",
           "SISESOL 2 Drawer File Cabinet with Lock and Wheels"
         ],
         [
-          "Around $49.99",
+          "Under $50",
           "VASAGLE 2-Drawer File Cabinet"
         ],
         [
-          "Around $59.84",
+          "Under $60",
           "Polup 2 Drawer Rolling File Cabinet with Lock for Home Office"
         ],
         [
-          "Around $79.99",
+          "Under $80",
           "Approgreent 2 Drawer Metal File Cabinet"
         ],
         [
-          "Around $88.99",
+          "Under $90",
           "Fully Assembled 3-Drawer Mobile File Cabinet with Lock"
         ],
         [
-          "Around $89.99",
+          "Under $90",
           "TEEALUBAN 3 Drawer File Cabinet with Lock"
         ],
         [
-          "Around $89.99",
+          "Under $90",
           "Guizeeopo Filing Cabinets for Home Office"
         ]
       ]
@@ -360,11 +360,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Sbanmao Letter/Legal Rolling File Cabinet",
-        "text": "The lowest-priced pick in this comparison at $47.99, a solid choice if you don't need the extras the pricier picks carry."
+        "text": "The lowest-priced pick in this comparison at under $50, a solid choice if you don't need the extras the pricier picks carry."
       },
       {
         "label": "Guizeeopo Filing Cabinets for Home Office",
-        "text": "The highest-priced pick at $89.99, worth it only if you'll actually use what that premium buys."
+        "text": "The highest-priced pick at under $90, worth it only if you'll actually use what that premium buys."
       }
     ],
     "note": "Default to Sbanmao Letter/Legal Rolling File Cabinet unless the pricier pick's specific advantage genuinely applies to your situation."
@@ -424,7 +424,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "What's the real difference between the cheapest and most expensive pick here?",
-    "a": "Sbanmao Letter/Legal Rolling File Cabinet at $47.99 covers the basics, while Guizeeopo Filing Cabinets for Home Office at $89.99 adds legal-size capacity and smoother ball-bearing glides. Whether that's worth the difference depends on whether you need legal-size document storage or letter-size is enough, and how much you value smooth drawer operation under a full load."
+    "a": "Sbanmao Letter/Legal Rolling File Cabinet at under $50 covers the basics, while Guizeeopo Filing Cabinets for Home Office at under $90 adds legal-size capacity and smoother ball-bearing glides. Whether that's worth the difference depends on whether you need legal-size document storage or letter-size is enough, and how much you value smooth drawer operation under a full load."
   },
   {
     "q": "Do I need legal-size or is letter-size enough?",
@@ -436,7 +436,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "Is there a solid middle-ground pick in this price range?",
-    "a": "Approgreent 2 Drawer Metal File Cabinet at $79.99 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
+    "a": "Approgreent 2 Drawer Metal File Cabinet at under $80 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
   },
   {
     "q": "What's the most common mistake buyers make shopping file drawers under $100?",

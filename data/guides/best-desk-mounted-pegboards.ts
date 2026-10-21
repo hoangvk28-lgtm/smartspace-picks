@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desk mounted pegboard";
 export const introParagraphs = [
   "Desk-mounted pegboards attach in a few genuinely different ways, clamp, screw-in, or adhesive, and each carries a different tradeoff worth weighing before buying. A screw-mounted board is the most permanent and generally the most secure, but it isn't renter-friendly and leaves holes that need patching later. Adhesive mounting avoids that but raises a real weight-limit-versus-leverage concern, especially for a board hung vertically, since adhesive strips rated for a flat load may not hold the same weight once it's pulling at an angle.",
-  "It's worth checking whether a board's mounting hardware actually ships in the box or has to be bought separately, and if screws are involved, what size hole they leave, since a smaller screw is easier to patch if you move out or rearrange your setup later.",
+  "It's worth checking whether a board's mounting hardware actually ships in the box or has to be bought separately, and if screws are involved, what size hole they leave, since a smaller screw is easier to patch if you move out or rearrange your setup later."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Clamp-Mounted Pick",
     name: "EUREKA ERGONOMIC Desk Pegboard with Dual Monitor Stands, LED Metal Pegboard, 43 x 34 Inch, White",
     price: "$179.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "156 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31ll21hyHHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DYJR7JLB?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Wide Desks",
     name: "EUREKA ERGONOMIC Desk Pegboard Dual Monitor Stand 59x34 White",
     price: "$269.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "156 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41i2tZZC1xL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F3TN7G3F?tag=deskfinds0d-20",
     description:
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Clamp-Mounted Pick",
     name: "Sailret Clamp-On Metal Desk Pegboard with Dual Monitor Stand, 59x35 Inch Steel Privacy Panel",
     price: "$79.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "4 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41KLj-p7YnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G6K8HR11?tag=deskfinds0d-20",
     description:
@@ -77,17 +77,17 @@ export const products: GuideProduct[] = [
     badge: "Best Multi-Point Mount",
     name: "VIVO Steel Triple Clamp Desk Pegboard System with 2 Monitor Mounts and Storage Shelf, 47 x 31 Inch, Black",
     price: "$169.99",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "14 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51v-7P2kqkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DVDSJPL5?tag=deskfinds0d-20",
     description:
       "A triple clamp mount spreads the load across three points on the desk edge rather than relying on one, giving more of the security a permanent mount offers while remaining fully removable.\n\nThis matters most once a shelf and monitor mounts are added, since each adds its own load to the mount, worth checking desk edge space for all three clamps before ordering.\n\nWorth calling out specifically: no drilling or adhesive required. The catch is requires more desk edge space than a single-clamp design.",
     specs: ["47 x 31 inch steel panel", "Triple clamp mount, no drilling", "2 monitor mounts included", "Storage shelf included"],
-    pros: ["Triple clamp gives near-permanent stability while staying removable", "No drilling or adhesive required", "Includes monitor mounts and shelf hardware in the box", "Strong 4.7-star rating"],
+    pros: ["Triple clamp gives near-permanent stability while staying removable", "No drilling or adhesive required", "Includes monitor mounts and shelf hardware in the box"],
     cons: ["Requires more desk edge space than a single-clamp design", "Small review count so far", "Higher price than single-clamp alternatives"],
     bestFor: "Buyers wanting near-permanent mount stability without drilling or adhesive.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -95,7 +95,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Mounting method breadth", description: "Considered clamp, screw-in, and adhesive mounting methods across the category, distinguishing this guide's broader scope from a clamp-only comparison." },
   { title: "Renter-friendliness of each mount type", description: "Weighed whether a mount leaves permanent holes or marks against how easily it can be removed and the desk restored." },
   { title: "Mounting hardware completeness", description: "Checked whether each product includes mounting hardware in the box versus requiring a separate purchase." },
-  { title: "Weight capacity versus leverage for non-clamp mounts", description: "Weighed adhesive and screw-mount weight limits against the extra leverage a vertically hung board applies compared to a flat-mounted accessory." },
+  { title: "Weight capacity versus leverage for non-clamp mounts", description: "Weighed adhesive and screw-mount weight limits against the extra leverage a vertically hung board applies compared to a flat-mounted accessory." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -226,11 +226,11 @@ export const faq: FaqItem[] = [
   { q: "What's the difference between clamp-on and desk-mounted pegboards?", a: "Desk-mounted covers a broader range of mounting methods including clamp, screw-in, and adhesive, while clamp-on refers specifically to the clamp method." },
   { q: "Is a screw-mounted pegboard better than a clamp-on one?", a: "Screw mounting is generally more secure and permanent, but it isn't renter-friendly and leaves holes to patch, a clamp mount is fully removable with no marks." },
   { q: "Can adhesive strips hold a vertical pegboard safely?", a: "It depends on the rated weight limit, adhesive rated for a flat load may not hold the same weight once pulling at an angle on a vertical board, check the specific rating." },
-  { q: "Does mounting hardware come included?", a: "It varies by product, some include full hardware kits while others assume you already have screws or a clamp, check the listing before ordering." },
+  { q: "Does mounting hardware come included?", a: "It varies by product, some include full hardware kits while others assume you already have screws or a clamp, check the listing before ordering." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-clamp-on-desk-pegboards", title: "Best Clamp-On Desk Pegboards (2026)" },
   { href: "/guide/best-desk-pegboards", title: "Best Desk Pegboards (2026)" },
-  { href: "/guide/best-desk-pegboards-for-standing-desks", title: "Best Desk Pegboards for Standing Desks (2026)" },
+  { href: "/guide/best-desk-pegboards-for-standing-desks", title: "Best Desk Pegboards for Standing Desks (2026)" }
 ];

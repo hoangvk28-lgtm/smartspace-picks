@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A finished look for a visible home office", "Wansimoo Office Chair Mat for Hardwood and Tile Floor"],
         ["Third-party tested scratch and crack resistance", "GORILLA GRIP Office Chair Mat for Hard Floors"],
         ["Your existing floor visible beneath the mat", "Azadx Office Chair Mat for Hardwood Floor"],
-        ["The largest clear coverage area", "Yecaye Office Chair Mat for Hardwood Floor"],
+        ["The largest clear coverage area", "Yecaye Office Chair Mat for Hardwood Floor"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $19", "Wansimoo ($18.99)"],
-        ["Under $22", "GORILLA GRIP ($21.99)"],
-        ["Under $25", "Azadx ($23.98)"],
-        ["Under $26", "Yecaye ($25.99)"],
+        ["Under $19", "Wansimoo (under $20)"],
+        ["Under $22", "GORILLA GRIP (under $25)"],
+        ["Under $25", "Azadx (under $25)"],
+        ["Under $26", "Yecaye (under $30)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Woven Opaque vs Clear PVC Design",
     cards: [
       { label: "Woven opaque (Wansimoo)", text: "Adds a finished decorative look that hides the floor underneath, better if the mat itself should look intentional in a visible space." },
-      { label: "Clear PVC (GORILLA GRIP, Azadx, Yecaye)", text: "Lets your existing hardwood or tile floor show through completely, better if you want the mat to be functionally invisible." },
+      { label: "Clear PVC (GORILLA GRIP, Azadx, Yecaye)", text: "Lets your existing hardwood or tile floor show through completely, better if you want the mat to be functionally invisible." }
     ],
     note: "If you'd rather the mat blend into the room's decor, the Wansimoo pick's woven design does that. If you want your actual floor to remain visible, any of the three clear PVC picks accomplish that.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Compact desk area", "Azadx (30in x 48in)"],
         ["Narrow but wide layout", "GORILLA GRIP (45in x 28in)"],
-        ["Standard single-chair coverage", "Wansimoo or Yecaye (both 36in x 48in)"],
+        ["Standard single-chair coverage", "Wansimoo or Yecaye (both 36in x 48in)"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Shared or Rented Space Specifically",
     cards: [
       { label: "Look for", text: "A fully clear, non-slip mat that protects the floor without altering its appearance, since landlords or roommates may object to a visibly different mat." },
-      { label: "In this comparison", text: "The Azadx pick's fully transparent design specifically preserves the visible appearance of your existing hard floor while still protecting it." },
+      { label: "In this comparison", text: "The Azadx pick's fully transparent design specifically preserves the visible appearance of your existing hard floor while still protecting it." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want third-party tested durability against scratching and cracking, where the GORILLA GRIP pick backs its claims with actual testing." },
-      { label: "Save if", text: "You just need basic hard-floor protection without extra testing claims, where the Wansimoo pick covers that for about $3 less." },
+      { label: "Save if", text: "You just need basic hard-floor protection without extra testing claims, where the Wansimoo pick covers that for about $3 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

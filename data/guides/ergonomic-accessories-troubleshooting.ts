@@ -12,7 +12,7 @@ export const ergonomicAccessoriesTroubleshootingGuide: Guide = {
     "seat cushion flattening over time",
     "footrest sliding on floor fix",
     "still uncomfortable with ergonomic accessories",
-    "lumbar pillow not staying in place",
+    "lumbar pillow not staying in place"
   ],
   heroImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const ergonomicAccessoriesTroubleshootingGuide: Guide = {
     "seat-cushion-vs-lumbar-pillow",
     "office-footrest-types-explained",
     "palm-rest-laptop-typing-explained",
-    "lumbar-support-explained",
+    "lumbar-support-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const ergonomicAccessoriesTroubleshootingGuide: Guide = {
       question: "Should I consult a professional if ergonomic accessories don't resolve persistent discomfort?",
       answer:
         "Yes, if discomfort persists significantly despite reasonable ergonomic adjustments and accessories, consulting a physical therapist or occupational health professional can identify underlying issues that a general ergonomic accessory approach might not fully address.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const ergonomicAccessoriesTroubleshootingGuide: Guide = {
     {
       heading: "Why Persistent Discomfort Despite Multiple Accessories Signals a Deeper Issue",
       body: `If you've added several ergonomic accessories, a cushion, a lumbar pillow, a footrest, and still experience meaningful discomfort, this pattern suggests the accessories are compensating for symptoms rather than the underlying setup issue actually being resolved, at this point it's worth stepping back and reassessing more fundamental factors, chair height relative to desk height, monitor position and distance, overall posture habits throughout the day, since accessories work best as refinements to an already reasonably correct baseline setup, not as a substitute for getting those fundamentals right in the first place.`,
-    },
+    }
   ],
 };

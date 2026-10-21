@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital desk calendar";
 export const introParagraphs = [
   "A digital desk calendar can mean two very different products: a full touchscreen display that syncs your Google, Outlook, or iCloud calendar and shows a month view, or a smaller rechargeable notepad with a digital clock and date readout. Both are legitimate answers depending on what you actually want on your desk.",
-  "This guide covers the full range so you can pick the right category first, then the right model within it. We call out clearly which picks genuinely sync a calendar account and which are simpler clock-and-notepad devices, so you don't buy a $24 notepad expecting Google Calendar sync it was never built to do.",
+  "This guide covers the full range so you can pick the right category first, then the right model within it. We call out clearly which picks genuinely sync a calendar account and which are simpler clock-and-notepad devices, so you don't buy a $24 notepad expecting Google Calendar sync it was never built to do."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "9 min";

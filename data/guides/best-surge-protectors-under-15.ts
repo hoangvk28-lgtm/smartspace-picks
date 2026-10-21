@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The highest joule rating with a documented warranty", "Philips 6-Outlet Extender Surge Protector"],
         ["3 lines of protection and fireproof construction", "SANUS On-Wall Low Profile Fireproof Surge Protector"],
         ["Wide outlet spacing for bulky chargers", "GE Pro 6-Outlet Extender, Spaced Wall Tap"],
-        ["Maximum protection in the smallest footprint", "TESSAN Single Outlet Wall Surge Protector"],
+        ["Maximum protection in the smallest footprint", "TESSAN Single Outlet Wall Surge Protector"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $10", "TESSAN Single Outlet ($9.99)"],
-        ["Under $12", "Philips ($11.49) or SANUS ($11.99)"],
-        ["Under $14", "GE Pro Spaced Wall Tap ($13.72)"],
+        ["Under $10", "TESSAN Single Outlet (under $10)"],
+        ["Under $12", "Philips (under $15) or SANUS (under $15)"],
+        ["Under $14", "GE Pro Spaced Wall Tap (under $15)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "6-Outlet Wall Tap vs Single-Outlet Design",
     cards: [
       { label: "6-outlet wall tap (Philips, SANUS, GE Pro)", text: "Expands one outlet into six for multiple devices, ideal for a desk or entertainment center with several plugs." },
-      { label: "Single outlet (TESSAN)", text: "Protects just one device but in the smallest, most travel-friendly footprint with the highest joule rating in this comparison." },
+      { label: "Single outlet (TESSAN)", text: "Protects just one device but in the smallest, most travel-friendly footprint with the highest joule rating in this comparison." }
     ],
     note: "If you need to protect multiple devices from one outlet, a wall tap is the practical choice. If you're protecting one specific device or traveling, the compact single-outlet design offers more protection per cubic inch.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Multiple lines of protection", "SANUS (3 lines)"],
         ["Highest joule rating for multi-outlet use", "Philips (900J)"],
-        ["Basic protection with wide spacing", "GE Pro (560J, wide spacing)"],
+        ["Basic protection with wide spacing", "GE Pro (560J, wide spacing)"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Dorm Room or Small Apartment Specifically",
     cards: [
       { label: "Look for", text: "A low-profile wall tap that fits directly against the outlet without cord clutter, freeing up floor space entirely." },
-      { label: "In this comparison", text: "The SANUS pick's ultra-low 1.25 inch profile is specifically built for this kind of space-constrained setup." },
+      { label: "In this comparison", text: "The SANUS pick's ultra-low 1.25 inch profile is specifically built for this kind of space-constrained setup." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want multiple lines of protection or the highest joule rating with a documented warranty, where the SANUS or Philips picks each deliver a genuine protection upgrade." },
-      { label: "Save if", text: "You just need to protect one device with maximum joule protection, where the TESSAN pick delivers 1050J for under $10." },
+      { label: "Save if", text: "You just need to protect one device with maximum joule protection, where the TESSAN pick delivers 1050J for under $10." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

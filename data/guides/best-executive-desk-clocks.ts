@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "executive desk clock";
 export const introParagraphs = [
   "An executive desk clock trades LED readouts and alarm features for material quality and presentation, the kind of piece that looks right on a manager's desk or works as a corporate gift. We limited this list to genuinely premium picks in our verified pool: two clocks explicitly branded and marketed as executive gifts, plus one marble clock whose material quality fits the same upscale office context.",
-  "None of these have digital extras like temperature or date display, that's not the point of an executive clock, the value here is in material, finish, and in two cases, custom engraving for gifting.",
+  "None of these have digital extras like temperature or date display, that's not the point of an executive clock, the value here is in material, finish, and in two cases, custom engraving for gifting."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "6 min";
@@ -75,7 +75,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified genuine executive branding or material presence", description: "Included only clocks explicitly branded for executive gifting or built from a premium material that fits an upscale office context, not generic clocks with a formal-sounding name." },
   { title: "Checked personalization options as a real differentiator", description: "Noted which picks offer genuine custom engraving versus which rely purely on material quality, since these serve different buying occasions." },
   { title: "Weighed material and finish over digital feature sets", description: "Scored these picks on construction quality and presentation rather than digital extras like temperature or date, which aren't the point of this category." },
-  { title: "Compared price against occasion fit", description: "Considered whether each pick's price makes sense for a personal desk purchase versus a corporate gifting occasion." },
+  { title: "Compared price against occasion fit", description: "Considered whether each pick's price makes sense for a personal desk purchase versus a corporate gifting occasion." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -213,11 +213,11 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "Can these clocks be personalized?", a: "The two Executive Gift Shoppe picks offer custom engraving. The Luxurious Marble Desk Clock does not include a personalization option." },
   { q: "How long does engraving take?", a: "Custom engraving typically extends the order and shipping timeline beyond a standard clock purchase, plan ahead if you're buying for a specific date." },
-  { q: "Do executive desk clocks have alarms or digital features?", a: "Generally no. These picks prioritize material quality and presentation over digital extras like temperature or date display, which are more common on budget LED clocks." },
+  { q: "Do executive desk clocks have alarms or digital features?", a: "Generally no. These picks prioritize material quality and presentation over digital extras like temperature or date display, which are more common on budget LED clocks." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-multi-time-zone-desk-clocks", title: "Best Multi-Time Zone Desk Clocks (2026)" },
   { href: "/guide/best-world-time-desk-clocks", title: "Best World Time Desk Clocks (2026)" },
-  { href: "/guide/best-art-deco-desk-clocks", title: "Art Deco Desk Clocks in 2026" },
+  { href: "/guide/best-art-deco-desk-clocks", title: "Art Deco Desk Clocks in 2026" }
 ];

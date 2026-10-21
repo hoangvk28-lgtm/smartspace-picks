@@ -5,7 +5,7 @@ export const metaDescription = "7 portable monitors we evaluated for Mini PCs, w
 export const mainKeyword = "portable monitor for mini PC";
 export const introParagraphs = [
   "Mini PCs are always mains-powered, so the battery-drain framing common in laptop portable-monitor roundups doesn't apply here, that copy-pasted concern wastes space that should go toward what actually matters: port bandwidth. Many budget Mini PCs (Beelink, budget NUC-style units) ship with HDMI 2.0, not 2.1, capping 4K at 60Hz with no VRR or high-bandwidth support, a real mismatch if you pair one with a 4K120 or 165Hz-rated monitor.",
-  "We also flag which picks support VESA piggyback mounting, a genuine compact-desk win since many Mini PCs already include their own VESA mount for attaching behind a primary monitor.",
+  "We also flag which picks support VESA piggyback mounting, a genuine compact-desk win since many Mini PCs already include their own VESA mount for attaching behind a primary monitor."
 ];
 export const lastUpdated = "2026-07-28";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall for Mini PC",
     name: "cocopar Portable Monitor 18.5 Inch 2K QHD 120Hz 120% sRGB",
     price: "$209.99",
-    rating: "4.8 stars from 6,301 Amazon ratings",
-    reviews: "6,301 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51OXc4g9NHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GGHPTLX9?tag=deskfinds0d-20",
     description: "A genuine 2K panel with full-size HDMI and real VESA holes, letting you piggyback-mount it on the same arm as a Mini PC that already has its own VESA bracket, a compact-desk win most competitors never mention. Its 120Hz refresh rate is well within reach of HDMI 2.0's bandwidth at this resolution, no mismatch here.\n\nIt earns the top spot in this comparison over EVICIV Portable Monitor 18.5 Inch 120Hz for one main reason. VESA piggyback-mountable alongside a Mini PC's own bracket. On price, it's actually priced above EVICIV Portable Monitor 18.5 Inch 120Hz, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: 2K/120Hz is realistically achievable over HDMI 2.0. On the other side, USB-C video output depends on your specific Mini PC's port capability. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Large Screen",
     name: "EVICIV Portable Monitor 18.5 Inch 120Hz, 125% sRGB FreeSync",
     price: "$119.99",
-    rating: "4.4 stars from 10,899 Amazon ratings",
-    reviews: "10,899 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51OlDMVIAEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWXLCTGZ?tag=deskfinds0d-20",
     description: "FreeSync here actually matters for a Mini PC in a way it doesn't for a MacBook, since many budget Mini PCs use AMD-integrated graphics that support variable refresh, worth checking your specific Mini PC's GPU before counting on it. Its 360-degree adjustable VESA bracket is unusually flexible for piggyback mounting alongside a Mini PC.\n\nOne spot below cocopar Portable Monitor 18.5 Inch 2K QHD 120Hz 120% sRGB in this ranking, it's priced lower than cocopar Portable Monitor 18.5 Inch 2K QHD 120Hz 120% sRGB. The compromise here is straightforward: FreeSync benefit depends entirely on your Mini PC's specific GPU. What you gain in return: FreeSync can genuinely help on AMD-graphics Mini PCs. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: 360 degrees adjustable VESA bracket for flexible piggyback mounting. On the other side, 1080p, not a sharp 2K panel. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Multi-Display Setups",
     name: "VisionOwl Portable Monitor for Laptop, 18.5 Inch FHD 100Hz",
     price: "$169.99",
-    rating: "4.8 stars from 2,044 Amazon ratings",
-    reviews: "2,044 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51+nqT75sRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CD3WJXWH?tag=deskfinds0d-20",
     description: "If you're driving three displays off one Mini PC (its own primary monitor plus two portable monitors like this one), be aware that display controller bandwidth often splits across outputs, sometimes forcing one to drop to 30Hz or reduced resolution, an interaction most multi-monitor guides never calculate. This pick's modest 1080p/100Hz spec is realistic to sustain even under that kind of bandwidth split.\n\nSitting just under EVICIV Portable Monitor 18.5 Inch 120Hz, it costs more than EVICIV Portable Monitor 18.5 Inch 120Hz. Here's the honest tradeoff: 1080p, not the sharpest option here. And here's what it gets you instead: Modest spec is realistic to sustain in a 3-display bandwidth-split setup. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Full-size HDMI. On the other side, 100Hz has limited benefit if your Mini PC caps at 60Hz anyway. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Eye-Care Build for Long Sessions",
     name: "Upperizon Portable Monitor 18.5 inch FHD 125% sRGB 100Hz",
     price: "$159.98",
-    rating: "4.8 stars from 1,146 Amazon ratings",
-    reviews: "1,146 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/511f4ilCSyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C9GNMDX3?tag=deskfinds0d-20",
     description: "A well-built 18.5-inch alternative with a full-size HDMI port, VESA mount, and blue-light/flicker-free eye care, useful if your Mini PC setup runs long unattended sessions (a home server dashboard, for instance). At 125% sRGB it's a genuine step above the entry-level EVICIV pick, though not dramatically so.\n\nRanked just behind VisionOwl Portable Monitor for Laptop, it's priced lower than VisionOwl Portable Monitor for Laptop. The real tradeoff against that pick: Smaller review base than the more established picks. In exchange, it offers this instead: Eye-care flicker-free backlight for long unattended sessions. That's the swap that decides whether this pick or the one above it is the better fit for your source device.\n\nWorth knowing before you decide: Aluminum build with good heat dissipation. On the other side, Higher price than EVICIV. That's the main tradeoff to weigh against everything above.",
@@ -89,8 +89,8 @@ export const products: GuideProduct[] = [
     badge: "Best Sharp 2.5K Panel",
     name: "VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz, 470 Nits",
     price: "$169.99",
-    rating: "4.8 stars from 3,365 Amazon ratings",
-    reviews: "3,365 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51kORE12J1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHP4MKMP?tag=deskfinds0d-20",
     description: "This panel's 2.5K resolution and 144Hz claim genuinely need HDMI 2.1 or a capable USB-C DisplayPort Alt Mode source to reach full spec, verify your specific Mini PC's HDMI version before assuming you'll hit 144Hz over that port. A budget Mini PC's HDMI 2.0 port will still drive this at 1440p/60Hz reliably, just not the full 144Hz.\n\nOne spot below Upperizon Portable Monitor 18.5 inch FHD 125% sRGB 100Hz in this ranking, it costs more than Upperizon Portable Monitor 18.5 inch FHD 125% sRGB 100Hz. The compromise here is straightforward: 144Hz requires HDMI 2.1 or capable USB-C, verify your Mini PC's port version. What you gain in return: Sharp 2.5K panel. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Brightest pick in this guide at 470 nits. On the other side, 110% sRGB, not the highest gamut available. That's the main tradeoff to weigh against everything above.",
@@ -105,8 +105,8 @@ export const products: GuideProduct[] = [
     badge: "Best Metal Build Quality",
     name: "cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C, 120Hz HDMI",
     price: "$164.98",
-    rating: "4.8 stars from 6,301 Amazon ratings",
-    reviews: "6,301 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41taGyfYchL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR8D6BQ3?tag=deskfinds0d-20",
     description: "A full metal chassis and dual VESA holes make this a durable pick for a Mini PC setup that stays put at one desk. Its HDMI port is explicitly rated for 120Hz, a more honest number than 144Hz-over-HDMI claims some competitors quietly cap lower, verify which port (USB-C vs. HDMI) you're actually using for the full refresh rate.\n\nSitting just under VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz, it's priced lower than VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz. Here's the honest tradeoff: 144Hz only achievable over USB-C, not HDMI. And here's what it gets you instead: Metal build quality. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Honest HDMI-specific refresh rate spec (120Hz). On the other side, Smaller screen than the large-format options. That's the main tradeoff to weigh against everything above.",
@@ -121,8 +121,8 @@ export const products: GuideProduct[] = [
     badge: "Best Bright 2K Panel",
     name: "VisionOwl Portable Monitor 18.5 Inch 2K QHD 120Hz Second Screen",
     price: "$229.99",
-    rating: "4.8 stars from 3,365 Amazon ratings",
-    reviews: "3,365 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51qArK7ES4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GS6M3BZK?tag=deskfinds0d-20",
     description: "At 500 nits peak brightness (locked to 300 nits over USB-C alone, full brightness requires the included power adapter), this is a genuinely bright large-format option for a Mini PC desk near a window. VESA mountable for piggyback setups alongside your Mini PC's own bracket.\n\nRanked just behind cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C, it costs more than cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C. The real tradeoff against that pick: Highest price in this guide. In exchange, it offers this instead: Brightest large-format pick in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your source device.\n\nWorth knowing before you decide: 2K resolution. On the other side, Heaviest pick at 2.5 lb. That's the main tradeoff to weigh against everything above.",
@@ -137,7 +137,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "HDMI 2.0 vs. 2.1 bandwidth reality", description: "Checked whether each panel's rated refresh rate is realistically achievable over a budget Mini PC's likely HDMI 2.0 port, versus requiring HDMI 2.1 or capable USB-C DisplayPort Alt Mode." },
   { title: "VESA piggyback mounting compatibility", description: "Verified genuine VESA mounting holes for piggyback-mounting alongside a Mini PC's own VESA bracket, a compact-desk setup angle most competitors don't address." },
-  { title: "Reframing away from irrelevant battery-drain copy", description: "Excluded any laptop-style battery-drain framing since Mini PCs are always mains-powered, that concern doesn't apply here." },
+  { title: "Reframing away from irrelevant battery-drain copy", description: "Excluded any laptop-style battery-drain framing since Mini PCs are always mains-powered, that concern doesn't apply here." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -274,11 +274,11 @@ export const faq: FaqItem[] = [
   { q: "Can I mount a portable monitor on the same arm as my Mini PC?", a: "Yes, if both have VESA mounting holes. Many Mini PCs include their own VESA bracket, and a VESA-compatible portable monitor like the cocopar 18.5\" or VisionOwl picks in this guide can piggyback-mount alongside it." },
   { q: "Does a portable monitor drain my Mini PC's battery?", a: "No, this concern doesn't apply. Mini PCs are always mains-powered, so there's no battery to drain, unlike the laptop-specific power-budget concerns covered in our MacBook Air guide." },
   { q: "What monitor size works best for a dual-screen Mini PC desk setup?", a: "A 15.6\" to 17.3\" portable monitor matched to your Mini PC's own display size keeps the two screens visually consistent side by side, while a smaller 13.3\" panel suits a compact or secondary vertical-mount role next to a larger primary display." },
-  { q: "Can I use a portable monitor as my Mini PC's only display?", a: "Yes, as long as the port and refresh rate match your Mini PC's actual output capability; just confirm the monitor includes a built-in kickstand or VESA mount since a Mini PC setup typically has no laptop lid to lean the screen against." },
+  { q: "Can I use a portable monitor as my Mini PC's only display?", a: "Yes, as long as the port and refresh rate match your Mini PC's actual output capability; just confirm the monitor includes a built-in kickstand or VESA mount since a Mini PC setup typically has no laptop lid to lean the screen against." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/usb-c-hub-vs-docking-station", title: "USB-C Hub vs Docking Station (2026)" },
   { href: "/guide/best-hdmi-portable-monitors", title: "Best HDMI Portable Monitors (2026)" },
-  { href: "/guide/best-monitor-under-100", title: "Best Monitor Under $100 (2026)" },
+  { href: "/guide/best-monitor-under-100", title: "Best Monitor Under $100 (2026)" }
 ];

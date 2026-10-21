@@ -161,7 +161,7 @@ export default async function BestWallMountedDesksSmallSpacesPage() {
     about: [
       { "@type": "Thing", name: "Wall-Mounted Desk" },
       { "@type": "Thing", name: "Fold-Down Desk" },
-      { "@type": "Thing", name: "Murphy Desk" },
+      { "@type": "Thing", name: "Murphy Desk" }
     ],
   };
 
@@ -181,7 +181,7 @@ export default async function BestWallMountedDesksSmallSpacesPage() {
         position: 3,
         name: "Best Wall-Mounted Desks for Small Spaces",
         item: `${SITE_URL}/guide/best-wall-mounted-desks-small-spaces`,
-      },
+      }
     ],
   };
 
@@ -509,7 +509,7 @@ export default async function BestWallMountedDesksSmallSpacesPage() {
                     {
                       type: "Ladder desk",
                       bestFor: "Permanent daily use with vertical storage",
-                      notes: "Nathan James 1,216 reviews 4.7 stars",
+                      notes: "",
                     },
                     {
                       type: "Fold-down Murphy desk",
@@ -521,7 +521,7 @@ export default async function BestWallMountedDesksSmallSpacesPage() {
                       type: "Floating wall desk",
                       bestFor: "Permanent full-size surface",
                       notes: "Modway 60-inch, low reviews",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -570,57 +570,57 @@ export default async function BestWallMountedDesksSmallSpacesPage() {
                 id: "nathan-james-ladder",
                 name: "Nathan James Ladder",
                 verdict:
-                  " - 1,216 reviews at 4.7 stars, 73-inch height, industrial, permanent ladder desk.",
+                  " - 73-inch height, industrial, permanent ladder desk.",
               },
               {
                 context: "Most-reviewed fold-down",
                 id: "tangkula-murphy-white",
                 name: "Tangkula Murphy White",
                 verdict:
-                  " - 988 reviews at 4.2 stars, storage shelves, white, zero footprint when closed.",
+                  " - Storage shelves, white, zero footprint when closed.",
               },
               {
                 context: "Best fold-down rating and reviews balance",
                 id: "haotian-sobuy-black",
                 name: "Haotian SoBuy Black",
                 verdict:
-                  " - 955 reviews at 4.6 stars, black finish, storage shelves, under $100.",
+                  " - Black finish, storage shelves, under $100.",
               },
               {
                 context: "Only fold-down with chalkboard",
                 id: "homcom-chalkboard",
                 name: "HOMCOM Chalkboard",
                 verdict:
-                  " - 675 reviews at 4.4 stars, 9 shelves, integrated chalkboard.",
+                  " - 9 shelves, integrated chalkboard.",
               },
               {
                 context: "Best fold-down with enclosed storage",
                 id: "yusing-enclosed-compartments",
                 name: "YUSING Enclosed",
                 verdict:
-                  " - 642 reviews at 4.3 stars, enclosed compartments, white, under $70.",
+                  " - Enclosed compartments, white, under $70.",
               },
               {
                 context: "Best budget fold-down (no shelves)",
                 id: "teamix-simple-budget",
                 name: "TEAMIX Budget",
                 verdict:
-                  " - 502 reviews at 4.3 stars, $39.99 lowest price, 80 lbs.",
+                  " - Under $40 lowest price, 80 lbs.",
               },
               {
                 context: "Only fold-down with VESA mount (verify reviews)",
                 id: "arrowstone-vesa-mount",
                 name: "ARROWSTONE VESA",
                 verdict:
-                  " - 66 reviews at 3.9 stars, verify quality, 200 lbs, monitor stays wall-mounted.",
+                  " - Verify quality, 200 lbs, monitor stays wall-mounted.",
               },
               {
                 context: "Best permanent floating desk",
                 id: "modway-floating-desk",
                 name: "Modway Floating 60-inch",
                 verdict:
-                  " - 42 reviews at 3.9 stars, buy on feature set not reviews, keyboard tray and 2 drawers.",
-              },
+                  " - Buy on feature set not reviews, keyboard tray and 2 drawers.",
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

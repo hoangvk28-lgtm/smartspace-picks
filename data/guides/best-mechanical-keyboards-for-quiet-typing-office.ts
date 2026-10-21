@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mechanical keyboard for typing";
 export const introParagraphs = [
   "A keyboard for a shared office or an open-plan desk has one non-negotiable requirement that most mechanical keyboard marketing ignores: it can't be heard three desks away. Clicky and even standard tactile switches are loud enough to distract coworkers and get picked up by a nearby conference-call microphone, so the picks below lean toward silent or low-profile mechanical switches, with a couple of genuinely quiet non-mechanical alternatives included and labeled honestly rather than mislabeled to fit the theme.",
-  "Below are 8 keyboards we evaluated for quiet office typing, based on product specs, switch type, and real listing details rather than marketing claims, ranging from a $38 budget low-profile mechanical board to a $160 Mac-ready mechanical keyboard with quiet tactile switches.",
+  "Below are 8 keyboards we evaluated for quiet office typing, based on product specs, switch type, and real listing details rather than marketing claims, ranging from a $38 budget low-profile mechanical board to a $160 Mac-ready mechanical keyboard with quiet tactile switches."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -56,18 +56,18 @@ export const products: GuideProduct[] = [
       "Full-size layout, wireless (Bluetooth or Logi Bolt receiver)",
       "Low-profile tactile mechanical switches",
       "Backlit keys with auto-adjusting brightness",
-      "Rechargeable battery",
+      "Rechargeable battery"
     ],
     pros: [
       "Genuine mechanical switches tuned for quiet typing",
       "Backlit keys for low-light offices",
       "Wireless with a rechargeable battery",
-      "Full-size layout for spreadsheet-heavy work",
+      "Full-size layout for spreadsheet-heavy work"
     ],
     cons: [
       "Higher price than membrane office keyboards",
       "Not hot-swappable if a switch fails",
-      "Full-size footprint takes up more desk space than a TKL board",
+      "Full-size footprint takes up more desk space than a TKL board"
     ],
     bestFor: "Buyers who want a genuinely mechanical, quiet, full-size keyboard for daily office typing",
   },
@@ -87,18 +87,18 @@ export const products: GuideProduct[] = [
       "75% compact layout, no number pad",
       "Low-profile tactile mechanical switches",
       "Mac-native keycaps and shortcuts",
-      "Wireless, rechargeable via USB-C",
+      "Wireless, rechargeable via USB-C"
     ],
     pros: [
       "Compact footprint frees up desk space",
       "Genuine mechanical switches, quiet tactile feel",
       "Mac keycaps out of the box",
-      "Wireless with rechargeable battery",
+      "Wireless with rechargeable battery"
     ],
     cons: [
       "No number pad for spreadsheet-heavy work",
       "Premium price for a compact board",
-      "Mac-first layout needs remapping for Windows use",
+      "Mac-first layout needs remapping for Windows use"
     ],
     bestFor: "Mac desks that want a quiet compact mechanical keyboard without a number pad",
   },
@@ -118,18 +118,18 @@ export const products: GuideProduct[] = [
       "75% compact layout, no number pad",
       "Low-profile tactile mechanical switches",
       "Mac-native keycaps and shortcuts",
-      "Wireless, rechargeable via USB-C",
+      "Wireless, rechargeable via USB-C"
     ],
     pros: [
       "Lighter finish suits bright desk setups",
       "Genuine mechanical switches, quiet tactile feel",
       "Mac keycaps out of the box",
-      "Same compact footprint as the Space Grey version",
+      "Same compact footprint as the Space Grey version"
     ],
     cons: [
       "No number pad for spreadsheet-heavy work",
       "Premium price for a compact board",
-      "Lighter finish shows fingerprints more than darker colors",
+      "Lighter finish shows fingerprints more than darker colors"
     ],
     bestFor: "Buyers who want the MX Mechanical Mini Mac in a lighter finish",
   },
@@ -149,18 +149,18 @@ export const products: GuideProduct[] = [
       "Full-size layout with number pad",
       "Ultra-thin low-profile mechanical switches",
       "ZMK firmware, custom keymap support",
-      "2.4GHz / Bluetooth 5.2 / wired USB-C",
+      "2.4GHz / Bluetooth 5.2 / wired USB-C"
     ],
     pros: [
       "Most affordable true mechanical pick in this list",
       "Full-size layout with a number pad",
       "Marketed and tuned specifically for quiet typing",
-      "Three connection modes for flexibility",
+      "Three connection modes for flexibility"
     ],
     cons: [
       "ZMK keymap customization has a learning curve",
       "Fewer keycap and switch customization options than hot-swap boards",
-      "Slim profile means less finger travel than a taller mechanical board",
+      "Slim profile means less finger travel than a taller mechanical board"
     ],
     bestFor: "Budget-conscious buyers who still want a genuinely mechanical, full-size quiet keyboard",
   },
@@ -180,18 +180,18 @@ export const products: GuideProduct[] = [
       "Full 104-key layout with number pad",
       "Tactile brown mechanical switches",
       "USB-C braided cable, wired only",
-      "ABS retro color keycaps",
+      "ABS retro color keycaps"
     ],
     pros: [
       "Budget-friendly full-size mechanical keyboard",
       "Tactile brown switches are quieter than clicky blues",
       "Wired connection avoids battery management",
-      "Compatible with Mac and Windows",
+      "Compatible with Mac and Windows"
     ],
     cons: [
       "Wired only, no wireless option",
       "Brown switches are quieter than blues but not silent",
-      "ABS keycaps wear shinier over time than PBT",
+      "ABS keycaps wear shinier over time than PBT"
     ],
     bestFor: "Buyers who want an affordable full-size mechanical board and don't mind a wired connection",
   },
@@ -211,18 +211,18 @@ export const products: GuideProduct[] = [
       "Full-size layout with number pad",
       "Low-profile scissor switches (not mechanical)",
       "Backlit keys, auto-adjusting brightness",
-      "Wireless, rechargeable battery",
+      "Wireless, rechargeable battery"
     ],
     pros: [
       "One of the quietest keyboards in this list",
       "Comfortable low-profile scissor switches",
       "Backlit for low-light offices",
-      "Long battery life on a single charge",
+      "Long battery life on a single charge"
     ],
     cons: [
       "Not a mechanical keyboard despite the mechanical keyboard search intent",
       "No tactile mechanical bump for typists who prefer that feel",
-      "Higher price than a typical membrane keyboard",
+      "Higher price than a typical membrane keyboard"
     ],
     bestFor: "Buyers who prioritize the quietest possible typing over a mechanical switch feel",
   },
@@ -242,18 +242,18 @@ export const products: GuideProduct[] = [
       "Full-size layout with number pad",
       "Low-profile scissor switches (not mechanical)",
       "Backlit keys, auto-adjusting brightness",
-      "Wireless, rechargeable battery",
+      "Wireless, rechargeable battery"
     ],
     pros: [
       "One of the quietest keyboards in this list",
       "Darker finish hides smudges well",
       "Comfortable low-profile scissor switches",
-      "Long battery life on a single charge",
+      "Long battery life on a single charge"
     ],
     cons: [
       "Not a mechanical keyboard despite the mechanical keyboard search intent",
       "No tactile mechanical bump for typists who prefer that feel",
-      "Higher price than a typical membrane keyboard",
+      "Higher price than a typical membrane keyboard"
     ],
     bestFor: "Buyers who want the quietest MX Keys S option in a darker finish",
   },
@@ -273,21 +273,21 @@ export const products: GuideProduct[] = [
       "75% compact layout, no number pad",
       "Low-profile scissor switches (not mechanical)",
       "Backlit keys, auto-adjusting brightness",
-      "Wireless, rechargeable battery",
+      "Wireless, rechargeable battery"
     ],
     pros: [
       "Smallest, most affordable pick in this list",
       "Near-silent scissor-switch typing",
       "Backlit for low-light use",
-      "Compact footprint fits tight desks",
+      "Compact footprint fits tight desks"
     ],
     cons: [
       "Not a mechanical keyboard despite the mechanical keyboard search intent",
       "No number pad",
-      "Smaller keys than a full-size board, which some typists find cramped",
+      "Smaller keys than a full-size board, which some typists find cramped"
     ],
     bestFor: "Small desks that want the quietest possible compact keyboard",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -315,7 +315,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed switch quality and features against price, from the budget mechanical pick to the premium Mac-ready mechanical board.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -457,13 +457,13 @@ export const faq: FaqItem[] = [
   },
   {
     q: "Which pick is best if I want a genuinely mechanical keyboard on a tight budget?",
-    a: "The Keychron B6 Pro at $38.24 is the cheapest true mechanical pick in this list, and it's specifically marketed and tuned for quiet typing with a full-size layout including a number pad. The Keychron C2 is a close second at $43.31 if you don't mind a wired-only connection.",
-  },
+    a: "The Keychron B6 Pro at under $40 is the cheapest true mechanical pick in this list, and it's specifically marketed and tuned for quiet typing with a full-size layout including a number pad. The Keychron C2 is a close second at under $45 if you don't mind a wired-only connection.",
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mechanical-keyboard-and-mouse-combos", title: "Best Mechanical Keyboard and Mouse Combos (2026)" },
   { href: "/guide/best-mechanical-keyboards-for-mac", title: "Best Mechanical Keyboards for Mac (2026)" },
   { href: "/guide/best-mechanical-keyboard-under-100", title: "Best Mechanical Keyboard Under $100 (2026)" },
-  { href: "https://www.theofficejournal.com/desk-setup/best-mechanical-keyboards-for-quiet-typing-office", title: "Best Quiet Mechanical Keyboards for an Office (The Office Journal)" },
+  { href: "https://www.theofficejournal.com/desk-setup/best-mechanical-keyboards-for-quiet-typing-office", title: "Best Quiet Mechanical Keyboards for an Office (The Office Journal)" }
 ];

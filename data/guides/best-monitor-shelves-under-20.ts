@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["The sturdiest build with the most storage", "gianotter Monitor Stand with Drawer and 2 Pen Holders"],
         ["The lowest price with genuine adjustability", "WALI Computer Monitor Stand, Adjustable Laptop Riser"],
-        ["Storage for larger items like a game console", "Simple Trending Metal Monitor Stand Riser with Drawer"],
+        ["Storage for larger items like a game console", "Simple Trending Metal Monitor Stand Riser with Drawer"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $10", "WALI Computer Monitor Stand ($9.49)"],
-        ["$19-$20", "OPNICE 2-Tier ($19.79), gianotter ($19.99), or Simple Trending ($19.99)"],
+        ["Under $10", "WALI Computer Monitor Stand (under $10)"],
+        ["$19-$20", "OPNICE 2-Tier (under $20), gianotter (under $20), or Simple Trending (under $20)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Plastic vs Wood-and-Metal Construction",
     cards: [
       { label: "Plastic (WALI)", text: "Lightweight, vented for cooling, and the cheapest option, sufficient for a standard monitor without needing extra storage features." },
-      { label: "Wood-and-Metal (gianotter, OPNICE)", text: "More finished look with genuine storage features like drawers and pen holders, at a modest price premium over plain plastic." },
+      { label: "Wood-and-Metal (gianotter, OPNICE)", text: "More finished look with genuine storage features like drawers and pen holders, at a modest price premium over plain plastic." }
     ],
     note: "If you just need a basic height boost, the WALI plastic riser covers it. If you want integrated desk organization too, the wood-and-metal picks deliver more value per dollar.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["What you need to store", "Recommended pick"],
       rows: [
         ["Pens, small supplies, files", "gianotter or OPNICE (drawer + pen holders)"],
-        ["Larger items like a game console or cable box", "Simple Trending Metal Monitor Stand Riser"],
+        ["Larger items like a game console or cable box", "Simple Trending Metal Monitor Stand Riser"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Maximum Desk Cooling Specifically",
     cards: [
       { label: "Look for", text: "A vented platform design that allows airflow around your monitor or laptop, reducing heat buildup during extended use." },
-      { label: "In this comparison", text: "The WALI Computer Monitor Stand specifically features a vented platform designed to prevent device overheating." },
+      { label: "In this comparison", text: "The WALI Computer Monitor Stand specifically features a vented platform designed to prevent device overheating." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the highest weight capacity and most integrated storage, where the gianotter pick delivers both in this comparison." },
-      { label: "Save if", text: "A simple adjustable riser covers your needs, where the WALI pick offers genuine height adjustability at the lowest price here." },
+      { label: "Save if", text: "A simple adjustable riser covers your needs, where the WALI pick offers genuine height adjustability at the lowest price here." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

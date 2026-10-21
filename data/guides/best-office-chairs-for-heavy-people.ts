@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "best office chair for heavy people";
 export const introParagraphs = [
   "Buying a chair for a heavier body means paying closer attention to stated weight capacity than most listings encourage. A marketed capacity number is typically a static or best-case rating, and the actual dynamic load on a chair frame, cylinder, and casters rises when you sit down, shift, lean, or stand up repeatedly through the day. The safest approach is to buy at least 50 pounds above your actual body weight, not right up to the marketed limit.",
-  "This guide covers 8 office chairs from a shared product set, all marketed toward larger or taller users with stated capacities ranging from 330 to 500 pounds and prices from $99.50 to $212.90. We don't have manufacturer data on exact steel gauge, cylinder class, or foam density for these listings, so where a spec isn't explicitly stated we say so rather than inventing a number.",
+  "This guide covers 8 office chairs from a shared product set, all marketed toward larger or taller users with stated capacities ranging from 330 to 500 pounds and prices from roughly $100 to $250. We don't have manufacturer data on exact steel gauge, cylinder class, or foam density for these listings, so where a spec isn't explicitly stated we say so rather than inventing a number."
 ];
 export const lastUpdated = "2026-07-26";
 export const readTime = "10 min";
@@ -46,8 +46,8 @@ export const products: GuideProduct[] = [
     badge: "400 lb Capacity, Best Overall",
     name: "GTPLAYER Big and Tall Gaming Chair 400lbs Heavy Duty Office Chair with Foot Rest and Ergonomic Pocket Spring Lumbar Support, High Back 3D Saddle Shaped Cushion for Back Pain Relief, Matte-Black",
     price: "$179.47",
-    rating: "4.5 stars from 34,180 Amazon ratings",
-    reviews: "4.5 stars from 34,180 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41lDR7qjYlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXTWTCWS?tag=deskfinds0d-20",
     description:
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Pocket spring lumbar support",
       "3D saddle shaped cushion",
       "High back design",
-      "Includes foot rest",
+      "Includes foot rest"
     ],
     pros: [
       "Largest review base in this list by far",
       "Strong stated capacity with the largest safety margin at 350 lb actual body weight",
       "Pocket spring lumbar support",
-      "Includes foot rest",
+      "Includes foot rest"
     ],
     cons: [
       "Foam density and cylinder class not stated in listing",
       "Bulkier footprint than slim task chairs",
-      "Higher price than several other picks",
+      "Higher price than several other picks"
     ],
     bestFor: "Heavy users up to roughly 350 lbs who want the most-reviewed option in this list",
   },
@@ -78,8 +78,8 @@ export const products: GuideProduct[] = [
     badge: "500 lb Capacity, Widest Seat",
     name: "500lbs Big and Tall Office Chair Adjustable Lumbar Support for Back Pain, Extra Wide Seat Executive Office Chair Thick Armrest Pad, Heavy Duty Base and Upgraded Wheels, Ergonomic Comfy Computer Desk Chair",
     price: "$143.98",
-    rating: "4.6 stars from 165 Amazon ratings",
-    reviews: "4.6 stars from 165 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41tetnrTgxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GF9TKQTW?tag=deskfinds0d-20",
     description:
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Extra wide seat",
       "Thick armrest pad",
       "Heavy duty base and upgraded wheels",
-      "Adjustable lumbar support",
+      "Adjustable lumbar support"
     ],
     pros: [
       "Highest stated capacity in this list",
       "Extra wide seat for actual body clearance, not just frame rating",
       "Heavy duty base and upgraded wheels called out directly",
-      "Highest rating in this list",
+      "Highest rating in this list"
     ],
     cons: [
       "Much smaller review pool than the top picks",
       "Higher price than several other options",
-      "Cylinder class and foam density not stated",
+      "Cylinder class and foam density not stated"
     ],
     bestFor: "The heaviest users in this list who need both maximum capacity and genuine seat width",
   },
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "400 lb Capacity, Breathable Mesh",
     name: "Fizzin Ergonomic Office Chair, 400 LBS Computer Chairs with Adjustable Lumbar Support, Breathable Mesh Desk Chair Ergonomic with Thickened Cushion, Comfy Home Office Desk Chair, Black",
     price: "$109.99",
-    rating: "4.4 stars from 546 Amazon ratings",
-    reviews: "4.4 stars from 546 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41k6biuoUcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F62NG547?tag=deskfinds0d-20",
     description:
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Breathable mesh construction",
       "Thickened cushion",
       "Adjustable lumbar support",
-      "Ergonomic desk chair design",
+      "Ergonomic desk chair design"
     ],
     pros: [
       "Breathable mesh suits heavier users who run warm",
       "400 lb stated capacity with a reasonable safety margin",
       "Adjustable lumbar support",
-      "Mid-range price for the capacity",
+      "Mid-range price for the capacity"
     ],
     cons: [
       "Cushion thickness described but not a stated foam density",
       "Smaller review pool than the top picks",
-      "Cylinder class not specified",
+      "Cylinder class not specified"
     ],
     bestFor: "Heavy users up to roughly 350 lbs who want breathable mesh over leather or PU",
   },
@@ -142,8 +142,8 @@ export const products: GuideProduct[] = [
     badge: "400 lb Capacity, Reinforced Steel Frame",
     name: "LEMBERI Big and Tall Gaming Chair 400lb Capacity, Heavy-Duty Office Chair with Reinforced Footrest, Wide Seat High Back PC Desk Chair with Linkage Armrests, Thickened Steel Frame, PU Leather, Red",
     price: "$99.50",
-    rating: "4.4 stars from 10,760 Amazon ratings",
-    reviews: "4.4 stars from 10,760 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41rkQ70Jb6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09B3FJHHT?tag=deskfinds0d-20",
     description:
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Thickened steel frame",
       "Reinforced footrest",
       "Linkage armrests",
-      "PU leather upholstery",
+      "PU leather upholstery"
     ],
     pros: [
       "Thickened steel frame explicitly stated, a durability proxy",
       "Lowest price in this list",
       "Large review base",
-      "Reinforced footrest included",
+      "Reinforced footrest included"
     ],
     cons: [
       "PU leather runs warmer than mesh over long sessions",
       "Exact steel gauge not specified numerically",
-      "Cylinder class not stated",
+      "Cylinder class not stated"
     ],
     bestFor: "Budget-conscious heavy users who want an explicitly reinforced steel frame",
   },
@@ -174,8 +174,8 @@ export const products: GuideProduct[] = [
     badge: "500 lb Capacity, Quiet Casters",
     name: "Indulgear 500lbs Big and Tall Office Chair, Heavy Duty Office Chair for Heavy People, High Back Executive Desk Chair with Adjustable Lumbar Support, Quiet Rubber Wheel, Pocket Spring Cushion",
     price: "$169.98",
-    rating: "4.3 stars from 555 Amazon ratings",
-    reviews: "4.3 stars from 555 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41kNDnGgiRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CDCQMGSH?tag=deskfinds0d-20",
     description:
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Quiet rubber wheel casters",
       "Pocket spring cushion",
       "Adjustable lumbar support",
-      "High back executive design",
+      "High back executive design"
     ],
     pros: [
       "Matches the highest stated capacity in this list",
       "Quiet rubber wheels suit shared spaces",
       "Pocket spring cushion",
-      "Marketed specifically for heavy users",
+      "Marketed specifically for heavy users"
     ],
     cons: [
       "Smaller review pool than the top picks",
       "Foam density and cylinder class not stated",
-      "Higher price relative to its review volume",
+      "Higher price relative to its review volume"
     ],
     bestFor: "Heavy users who want a top-tier capacity claim plus quiet casters for shared spaces",
   },
@@ -206,8 +206,8 @@ export const products: GuideProduct[] = [
     badge: "Big and Tall, Headrest and Tilt Lock",
     name: "GABRYLLY Ergonomic Office Chair, High Back Home Desk Chair with Headrest, Flip-Up Arms, 90-120 Degree Tilt Lock and Wide Cushion, Big and Tall Mesh Chairs for Man Woman, Black Task Chair",
     price: "$212.90",
-    rating: "4.4 stars from 14,478 Amazon ratings",
-    reviews: "4.4 stars from 14,478 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41TqMt5cRYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07Y8BXBX8?tag=deskfinds0d-20",
     description:
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Confirmed headrest",
       "Flip-up arms",
       "90-120 degree tilt lock",
-      "Wide cushion",
+      "Wide cushion"
     ],
     pros: [
       "Confirmed headrest and flip-up arms",
       "Wide tilt lock range for reclining",
       "Large review base",
-      "Wide cushion for bigger frames",
+      "Wide cushion for bigger frames"
     ],
     cons: [
       "No specific numeric weight capacity stated in listing",
       "Highest price in this list",
-      "Verify actual capacity with the seller before buying for a heavier body weight",
+      "Verify actual capacity with the seller before buying for a heavier body weight"
     ],
     bestFor: "Buyers who want confirmed headrest and tilt features but should verify capacity directly with the seller",
   },
@@ -238,8 +238,8 @@ export const products: GuideProduct[] = [
     badge: "330 lb Capacity, Lower Tier",
     name: "TRALT Office Chair Ergonomic Desk Chair, 330 LBS Home Mesh Office Desk Chairs with Wheels, Comfortable Gaming Chairs, Black",
     price: "$125.99",
-    rating: "4.3 stars from 6,155 Amazon ratings",
-    reviews: "4.3 stars from 6,155 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51lpZXXyViL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CG6V2XGS?tag=deskfinds0d-20",
     description:
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Mesh construction",
       "Rolling wheels",
       "Ergonomic desk chair design",
-      "Lowest stated capacity in this list",
+      "Lowest stated capacity in this list"
     ],
     pros: [
       "Mesh construction for breathability",
       "Reasonable review base",
       "Lower price than the highest capacity picks",
-      "Simple, straightforward design",
+      "Simple, straightforward design"
     ],
     cons: [
       "Lowest stated capacity in this list",
       "Buffer rule puts comfortable body weight around 280 lbs, lower than other picks here",
-      "Foam density and cylinder class not stated",
+      "Foam density and cylinder class not stated"
     ],
     bestFor: "Buyers at the lighter end of this guide's range, roughly up to 280 lbs actual body weight",
   },
@@ -270,8 +270,8 @@ export const products: GuideProduct[] = [
     badge: "Capacity Not Stated, Verify Before Buying",
     name: "TRALT Office Chair, Ergonomic Desk Chair with Adjustable Lumbar Support, Mesh Computer Chair, Executive Chairs for Home Office Comfortable Lumbar Support, Black",
     price: "$107.99",
-    rating: "4.3 stars from 4,362 Amazon ratings",
-    reviews: "4.3 stars from 4,362 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/412WYSRjpfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CQD3K8PJ?tag=deskfinds0d-20",
     description:
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Adjustable lumbar support",
       "Mesh construction",
       "Executive styling",
-      "Solid review base",
+      "Solid review base"
     ],
     pros: [
       "Adjustable lumbar support",
       "Mesh construction for breathability",
       "Decent review base",
-      "Reasonable price",
+      "Reasonable price"
     ],
     cons: [
       "No stated weight capacity, can't apply the buffer rule",
       "Not verifiably suited to heavier body weights without seller confirmation",
-      "Cylinder class and foam density not stated",
+      "Cylinder class and foam density not stated"
     ],
     bestFor: "General home office use where a specific heavy-capacity rating isn't required, pending seller confirmation",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -328,7 +328,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Value for capacity tier",
     description:
       "Weighed price against stated capacity, review volume, and any explicitly stated frame or material reinforcement, not marketing language or price alone.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -482,11 +482,11 @@ export const faq: FaqItem[] = [
   {
     q: "What should I do if a chair doesn't list a specific weight capacity?",
     a: "Two chairs in this list, the GABRYLLY and the second TRALT model, are marketed toward bigger users or general home office use without stating an exact numeric capacity. Don't assume big and tall marketing alone guarantees a specific safe weight, contact the seller to confirm an actual rating before ordering.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-office-chairs-for-big-and-tall-users", title: "Best Office Chairs for Big and Tall Users (2026)" },
   { href: "/guide/best-office-chairs-with-adjustable-lumbar-support", title: "Best Office Chairs with Adjustable Lumbar Support (2026)" },
-  { href: "/guide/best-reclining-office-chairs-with-footrests", title: "Best Reclining Office Chairs with Footrests (2026)" },
+  { href: "/guide/best-reclining-office-chairs-with-footrests", title: "Best Reclining Office Chairs with Footrests (2026)" }
 ];

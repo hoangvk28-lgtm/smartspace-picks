@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "foldable laptop cooling pads";
 export const introParagraphs = [
   "A truly \"foldable\" cooling pad, one with a literal hinge mechanism that folds flat for storage, is a narrower category than the search term suggests. Most products marketed as portable laptop cooling pads use fixed height-adjustment legs, not a genuine folding hinge, and don't collapse into a meaningfully flatter shape.",
-  "We checked the real feature lists of every cooling pad in our research pool and found no product that explicitly confirms a genuine folding-hinge mechanism. This guide covers the closest practical alternative, a lightweight portable stand that does fold flat, and is honest that it's a laptop stand rather than a cooling pad with a fan.",
+  "We checked the real feature lists of every cooling pad in our research pool and found no product that explicitly confirms a genuine folding-hinge mechanism. This guide covers the closest practical alternative, a lightweight portable stand that does fold flat, and is honest that it's a laptop stand rather than a cooling pad with a fan."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "5 min";
@@ -43,7 +43,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine folding mechanism verification", description: "We checked every product's real feature list for an explicit fold claim, and found only one product genuinely confirming a folding design." },
   { title: "Honest category clarification", description: "We distinguished genuine folding-hinge stands from height-adjustable pads that merely collapse their legs, a meaningfully different mechanism." },
   { title: "Cooling mechanism disclosure", description: "We were explicit that the one genuine match is a passive, fan-free stand, not an active-cooling pad, since buyers searching for a cooling pad may expect a fan." },
-  { title: "Realistic expectations", description: "We set honest expectations about the modest cooling benefit of a fanless, elevation-only design compared to an active fan pad." },
+  { title: "Realistic expectations", description: "We set honest expectations about the modest cooling benefit of a fanless, elevation-only design compared to an active fan pad." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -61,7 +61,7 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $14.24",
+          "Under $15",
           "Gogoonike Adjustable Laptop Stand for Desk"
         ]
       ]
@@ -93,7 +93,7 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "Here's what you get for $14.24: Explicitly and genuinely foldable per its own listing. If that's what you're after, the tradeoffs in its cons list probably won't bother you either."
+        "text": "Here's what you get for under $15: Explicitly and genuinely foldable per its own listing. If that's what you're after, the tradeoffs in its cons list probably won't bother you either."
       },
       {
         "label": "Save if",
@@ -131,11 +131,11 @@ export const faq: FaqItem[] = [
   { q: "Does the foldable pick have a fan?", a: "No, it's a passive metal riser that cools through elevation and open ventilation, not active airflow. If you specifically need fan-based cooling, see our portable cooling pads guide instead." },
   { q: "What's the difference between foldable and height-adjustable?", a: "A genuinely foldable product collapses into a meaningfully flatter shape for storage. Height-adjustable legs, common on most cooling pads, only change the elevation angle without folding flat." },
   { q: "Is a foldable stand as good as an active cooling pad?", a: "It provides a more modest cooling benefit since there's no fan. It's a reasonable choice for light use and travel convenience, not for sustained heavy workloads." },
-  { q: "Should I search for something else if I want active cooling that also folds?", a: "Based on our research, that combination doesn't currently exist as a clearly labeled product. Choose either a genuine fold mechanism with passive cooling, or an active fan pad from our portable guide without a true fold hinge." },
+  { q: "Should I search for something else if I want active cooling that also folds?", a: "Based on our research, that combination doesn't currently exist as a clearly labeled product. Choose either a genuine fold mechanism with passive cooling, or an active fan pad from our portable guide without a true fold hinge." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-laptop-cooling-pads", title: "Best Portable Laptop Cooling Pads (2026)" },
   { href: "/guide/best-slim-laptop-cooling-pads", title: "Best Slim Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-passive-laptop-cooling-pads", title: "Best Passive Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-passive-laptop-cooling-pads", title: "Best Passive Laptop Cooling Pads (2026)" }
 ];

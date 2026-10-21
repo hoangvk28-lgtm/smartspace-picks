@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A dedicated lock spot and small-item organizer", "IRIS USA File Box Organizer with Lid"],
         ["A tight, moisture-sealing lid for storage", "Staples Hanging File Folder Box, Snap Lid, Clear"],
         ["The lowest price with padlock-ready latch", "Plastic Storage Bin Portable File Box, Lockable Lid"],
-        ["A permanently attached lid with organizer tray", "Staples File Box Portable Storage Tote, Clear Plastic"],
+        ["A permanently attached lid with organizer tray", "Staples File Box Portable Storage Tote, Clear Plastic"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $16", "Lockable Lid Storage Bin ($15.75)"],
-        ["Under $19", "IRIS USA ($18.99) or Staples Snap Lid ($18.99)"],
-        ["Under $20", "Staples Portable Storage Tote ($19.99)"],
+        ["Under $16", "Lockable Lid Storage Bin (under $20)"],
+        ["Under $19", "IRIS USA (under $20) or Staples Snap Lid (under $20)"],
+        ["Under $20", "Staples Portable Storage Tote (under $20)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Dedicated Lock Spot vs Padlock-Ready Latch",
     cards: [
       { label: "Dedicated lock spot (IRIS USA)", text: "A built-in hardware point specifically engineered to accept a lock, aimed at professionals securing sensitive documents." },
-      { label: "Padlock-ready latch (Lockable Lid Storage Bin)", text: "A sturdy latch that accepts a small padlock or zip tie, offering similar security at a lower price without a dedicated lock housing." },
+      { label: "Padlock-ready latch (Lockable Lid Storage Bin)", text: "A sturdy latch that accepts a small padlock or zip tie, offering similar security at a lower price without a dedicated lock housing." }
     ],
     note: "Both approaches require you to supply your own lock. The IRIS pick's dedicated spot is purpose-built for this, while the lockable-lid bin repurposes its latch for the same function at a lower price.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Lid stays attached, can't be lost", "Staples Portable Storage Tote (hinged)"],
         ["Lid snaps tight for moisture sealing", "Staples Snap Lid Clear"],
-        ["Lid latches with organizer compartments", "IRIS USA File Box Organizer"],
+        ["Lid latches with organizer compartments", "IRIS USA File Box Organizer"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Financial or Legal Document Storage Specifically",
     cards: [
       { label: "Look for", text: "A dedicated lock spot or padlock-compatible latch, not just a snap-on lid, since sensitive documents warrant an actual securable closure." },
-      { label: "In this comparison", text: "The IRIS USA pick's dedicated lock spot is specifically marketed toward bankers and financial professionals handling sensitive paperwork." },
+      { label: "In this comparison", text: "The IRIS USA pick's dedicated lock spot is specifically marketed toward bankers and financial professionals handling sensitive paperwork." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a permanently attached hinged lid and built-in organizer tray, where the Staples Portable Storage Tote delivers both for about $4 more than the budget lockable-lid pick." },
-      { label: "Save if", text: "You just need a padlock-ready latch without extra organizer features, where the Lockable Lid Storage Bin covers that for the lowest price in this comparison." },
+      { label: "Save if", text: "You just need a padlock-ready latch without extra organizer features, where the Lockable Lid Storage Bin covers that for the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

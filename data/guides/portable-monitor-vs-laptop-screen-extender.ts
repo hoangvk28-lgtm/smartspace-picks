@@ -12,7 +12,7 @@ export const portableMonitorVsLaptopScreenExtenderGuide: Guide = {
     "laptop screen extender worth it",
     "portable monitor for travel",
     "attachable second screen laptop",
-    "usb c portable display",
+    "usb c portable display"
   ],
   heroImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const portableMonitorVsLaptopScreenExtenderGuide: Guide = {
     "ultrawide-vs-dual-monitor",
     "usb-c-power-delivery-explained",
     "laptop-stand-vs-external-monitor",
-    "monitor-size-chart",
+    "monitor-size-chart"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const portableMonitorVsLaptopScreenExtenderGuide: Guide = {
       question: "Which is better for someone who primarily works at a stable desk, not while traveling?",
       answer:
         "For primarily stationary desk use, a standard external monitor on a proper stand or arm typically provides better ergonomics and screen real estate than either a portable monitor or screen extender, both of which are optimized more for travel convenience.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const portableMonitorVsLaptopScreenExtenderGuide: Guide = {
     {
       heading: "Why Neither Option Fully Replaces a Proper Desk Monitor Setup",
       body: `Both portable monitors and screen extenders are optimized specifically for travel convenience and quick setup in temporary locations, prioritizing compactness and portability over the ergonomic positioning flexibility, larger screen real estate, and stable mounting a proper monitor arm and full-size external monitor provide, for someone who primarily works from one stable desk location, a standard external monitor setup remains the better choice, reserve portable monitors or screen extenders specifically for situations involving genuine travel or temporary work locations away from a primary desk setup.`,
-    },
+    }
   ],
 };

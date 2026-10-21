@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "room divider bookcase";
 export const introParagraphs = [
   "A room divider bookcase has to earn its keep from both sides. Unlike a bookshelf pushed against a wall, it sits in the open, so its back looks almost as important as its front, and it needs to be stable enough to stand freely without tipping.",
-  "Below are 7 room divider bookcases we evaluated on width, total capacity, and how well they hold up as a genuine freestanding divider, ranging from a slim S-shaped geometric rack to a 70-inch-wide etagere built for splitting a large open-concept room.",
+  "Below are 7 room divider bookcases we evaluated on width, total capacity, and how well they hold up as a genuine freestanding divider, ranging from a slim S-shaped geometric rack to a 70-inch-wide etagere built for splitting a large open-concept room."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -51,24 +51,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/416nixYaeVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07PNFY7Q1?tag=deskfinds0d-20",
     description:
-      "The VASAGLE CUSTOS is the best-selling pick in this entire list, with over 7,500 ratings, and it's explicitly designed and marketed as a freestanding room divider rather than a bookshelf pressed into double duty. Its open, five-tier frame lets light pass through while still visually breaking up a shared living space.\n\nEach shelf handles 33 lbs for a 165 lb total, built on a particleboard frame with an anti-tip kit included, a genuinely important detail on a piece meant to stand in the open rather than against a wall.\n\nExplicitly designed and marketed as a room divider. That's a real strength, but weigh it against the flip side: not finished distinctly on both sides like a purpose-built divider.",
+      "Its open, five-tier frame lets light pass through while still visually breaking up a shared living space.\n\nEach shelf handles 33 lbs for a 165 lb total, built on a particleboard frame with an anti-tip kit included, a genuinely important detail on a piece meant to stand in the open rather than against a wall.\n\nExplicitly designed and marketed as a room divider. That's a real strength, but weigh it against the flip side: not finished distinctly on both sides like a purpose-built divider.",
     specs: [
       "27.6\"W x 9.4\"D x 62.6\"H",
       "Particleboard construction",
       "Freestanding design marketed as a room divider",
       "33 lb/shelf (165 lb total)",
-      "Anti-tip kit included",
+      "Anti-tip kit included"
     ],
     pros: [
-      "Best-selling pick in this list with 7,547 ratings",
       "Explicitly designed and marketed as a room divider",
       "Open frame lets light pass through the room",
-      "Solid 33 lb per-shelf capacity",
+      "Solid 33 lb per-shelf capacity"
     ],
     cons: [
       "Not finished distinctly on both sides like a purpose-built divider",
       "Mid-range width may not fully divide a very large room",
-      "Particleboard shelves, not solid wood",
+      "Particleboard shelves, not solid wood"
     ],
     bestFor: "Buyers who want the most proven, best-reviewed room divider bookcase",
   },
@@ -89,18 +88,18 @@ export const products: GuideProduct[] = [
       "P2 MDF + metal",
       "S-shaped design, usable as divider, wine rack, or TV stand",
       "30 lb/shelf (180 lb total)",
-      "Anti-tip kit included",
+      "Anti-tip kit included"
     ],
     pros: [
       "Distinctive S-shaped geometric design",
       "Most versatile pick with 3 different placement options",
       "Artistic silhouette doubles as a decor statement",
-      "Solid 180 lb total capacity",
+      "Solid 180 lb total capacity"
     ],
     cons: [
       "Narrower 14.96\" width means less shelf surface per section",
       "Unconventional shape may not suit a minimalist room",
-      "Fewer reviews than the best-selling picks here",
+      "Fewer reviews than the best-selling picks here"
     ],
     bestFor: "A room divider that might later double as a wine rack or TV stand",
   },
@@ -121,18 +120,18 @@ export const products: GuideProduct[] = [
       "P2 MDF + powder-coated metal",
       "S-shaped room-divider rack",
       "30 lb/shelf (150 lb total)",
-      "Waterproof + anti-scratch, non-slip leg pads",
+      "Waterproof + anti-scratch, non-slip leg pads"
     ],
     pros: [
       "Same versatile S-shaped design in a modern black oak tone",
       "Waterproof and scratch-resistant finish",
       "Non-slip leg pads add stability",
-      "Suits contemporary and minimalist rooms",
+      "Suits contemporary and minimalist rooms"
     ],
     cons: [
       "Slightly lower total capacity than the rustic brown version",
       "Narrower width limits shelf surface per section",
-      "Same modest review count as its rustic sibling",
+      "Same modest review count as its rustic sibling"
     ],
     bestFor: "A modern room that wants the S-shaped divider design in a darker tone",
   },
@@ -153,18 +152,18 @@ export const products: GuideProduct[] = [
       "P2 MDF + iron",
       "220 lb/shelf, 1,320 lb total (highest in this list)",
       "70.9\" wide (widest in this list)",
-      "Back fence + 2 anti-toppling brackets",
+      "Back fence + 2 anti-toppling brackets"
     ],
     pros: [
       "Highest total capacity in this list at 1,320 lbs",
       "Widest pick here at 70.9 inches, ideal for large rooms",
       "Back fence keeps items from falling off the rear",
-      "Two anti-toppling brackets for a freestanding piece this size",
+      "Two anti-toppling brackets for a freestanding piece this size"
     ],
     cons: [
       "Most expensive pick in this list by a large margin",
       "Its size requires a genuinely large room to make sense",
-      "Heavier and more involved to assemble than the smaller picks",
+      "Heavier and more involved to assemble than the smaller picks"
     ],
     bestFor: "Dividing a large open-concept room that needs serious capacity",
   },
@@ -179,24 +178,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41bs1PbxlkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D3D378LB?tag=deskfinds0d-20",
     description:
-      "The NUMENN Triple Column is the highest-rated pick in this list at 4.8 stars, built around three vertical columns and 14 open shelves that create visual rhythm when viewed as a room divider. Engineered wood and metal combine for a 70 lb per-shelf rating, the highest among the standard-size dividers here.\n\nAdjustable shelves let you customize the spacing per column, and an X-support bar plus adjustable feet keep the vintage brown frame steady as a freestanding piece.\n\nTriple-column design with 14 open shelves. That's a real strength, but weigh it against the flip side: narrower overall width than the widest dividers here.",
+      "Engineered wood and metal combine for a 70 lb per-shelf rating, the highest among the standard-size dividers here.\n\nAdjustable shelves let you customize the spacing per column, and an X-support bar plus adjustable feet keep the vintage brown frame steady as a freestanding piece.\n\nTriple-column design with 14 open shelves. That's a real strength, but weigh it against the flip side: narrower overall width than the widest dividers here.",
     specs: [
       "49.4\"W x 10.2\"D x 66.9\"H",
       "Engineered wood + metal",
       "3 columns + 14 open shelves",
       "70 lb/shelf (highest among standard-size picks)",
-      "Adjustable shelves, X-support bar, adjustable feet",
+      "Adjustable shelves, X-support bar, adjustable feet"
     ],
     pros: [
-      "Highest rating in this list at 4.8 stars",
       "Triple-column design with 14 open shelves",
       "Highest per-shelf capacity among standard-size room dividers",
-      "Adjustable shelf spacing per column",
+      "Adjustable shelf spacing per column"
     ],
     cons: [
       "Narrower overall width than the widest dividers here",
       "Assembly is more involved with three separate columns",
-      "Vintage brown tone won't suit every room",
+      "Vintage brown tone won't suit every room"
     ],
     bestFor: "Buyers who want the highest-rated, most customizable column-style divider",
   },
@@ -217,18 +215,18 @@ export const products: GuideProduct[] = [
       "Engineered wood + metal",
       "450 lb total capacity",
       "Top edge guard",
-      "Adjustable foot pads, waterproof + scratch-resistant",
+      "Adjustable foot pads, waterproof + scratch-resistant"
     ],
     pros: [
       "Second-highest total capacity in this list at 450 lbs",
       "Wide 47-inch frame suits mid-to-large rooms",
       "Top edge guard prevents items falling off",
-      "Waterproof and scratch-resistant finish",
+      "Waterproof and scratch-resistant finish"
     ],
     cons: [
       "Fewer reviews than most other picks in this list",
       "Large footprint needs a room with real open space",
-      "Pricier than the mid-tier options here",
+      "Pricier than the mid-tier options here"
     ],
     bestFor: "A wide, sturdy divider for a mid-to-large open room",
   },
@@ -249,21 +247,21 @@ export const products: GuideProduct[] = [
       "100% bamboo",
       "528 lb total capacity, 12 shelves",
       "44 lb/shelf",
-      "Anti-tip device, lightweight bamboo build",
+      "Anti-tip device, lightweight bamboo build"
     ],
     pros: [
       "Only genuine bamboo pick in this list",
       "528 lb total capacity despite the lightweight material",
       "Easiest to reposition if you rearrange your room",
-      "Best-looking white bamboo finish",
+      "Best-looking white bamboo finish"
     ],
     cons: [
       "Bamboo finish may show wear differently than painted wood",
       "Not as heavy-duty feeling as the steel-reinforced picks",
-      "Mid-range width won't divide a very large room on its own",
+      "Mid-range width won't divide a very large room on its own"
     ],
     bestFor: "A lightweight, movable room divider that's easy to reposition later",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -290,10 +288,7 @@ export const buyingCriteria: BuyingCriterion[] = [
 ];
 
 export const faq: FaqItem[] = [
-  {
-    q: "What's the best bookcase for dividing a room?",
-    a: "The VASAGLE CUSTOS 5-Tier Room Divider Bookshelf is the top pick, explicitly designed and marketed as a freestanding room divider and the best-selling option in this list with over 7,500 ratings.",
-  },
+  
   {
     q: "Which room divider bookcase has the highest weight capacity?",
     a: "The IRONCK Triple Wide 6-Tier Etagere has the highest capacity in this list at 1,320 lbs total, and it's also the widest pick at 70.9 inches.",
@@ -310,18 +305,15 @@ export const faq: FaqItem[] = [
     q: "Do room divider bookcases need to be anchored?",
     a: "Yes, when possible, but a true divider is walked around on both sides, so it can't always be wall-strapped like a standard bookshelf. Every pick in this list includes some form of anti-tip kit or toppling bracket, and a wide, heavy base with a low center of gravity matters just as much for staying upright without a wall connection.",
   },
-  {
-    q: "Which room divider bookcase is rated highest by buyers?",
-    a: "The NUMENN Triple Column 5-Tier Bookshelf has the highest rating in this list at 4.8 stars, combined with the highest per-shelf capacity among standard-size dividers.",
-  },
+  
   {
     q: "What height room divider bookcase should I choose?",
     a: "It depends on how much separation you want. A half-wall-height piece around 3-4.5 feet tall only creates a visual boundary and keeps the room feeling connected, while a taller unit in the 72-84 inch range creates real privacy between the two areas without reaching the ceiling in most homes. Whichever height you choose, leave at least 3 feet of walking clearance around it.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-bookshelf-room-divider", title: "Best Bookshelf Room Dividers (2026)" },
   { href: "/guide/best-bookshelf-for-bedroom", title: "Best Bookshelves for Bedroom (2026)" },
-  { href: "/guide/best-bookshelf-l-shaped", title: "Best L-Shaped Bookshelves (2026)" },
+  { href: "/guide/best-bookshelf-l-shaped", title: "Best L-Shaped Bookshelves (2026)" }
 ];

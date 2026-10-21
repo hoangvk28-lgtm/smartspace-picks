@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini PC mounting brackets";
 export const introParagraphs = [
   "The word 'bracket' gets used loosely in this category, and it is worth clarifying upfront what you are actually buying. Some listings ship a standalone bracket that still needs separate wall or VESA attachment hardware, while most of the products commonly called brackets are actually complete mount kits with screws, straps, and wall or VESA hardware already included. We checked each listing's real contents rather than assuming the word 'bracket' in the title means less hardware than the word 'mount'.",
-  "Based on the actual feature lists, every product in this guide ships as a complete kit rather than a bare bracket requiring a separate purchase, which is worth knowing before you add a second item to your cart expecting to need it. Beyond that clarification, this guide compares bracket material, load-bearing strength, and universal versus model-specific sizing.",
+  "Based on the actual feature lists, every product in this guide ships as a complete kit rather than a bare bracket requiring a separate purchase, which is worth knowing before you add a second item to your cart expecting to need it. Beyond that clarification, this guide compares bracket material, load-bearing strength, and universal versus model-specific sizing."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Complete kit vs bracket-only clarity", description: "We checked each listing's actual contents to confirm whether it ships as a complete mount kit or a bare bracket needing separate hardware, and reported this honestly rather than assuming from the product title." },
   { title: "Bracket material and load-bearing strength", description: "We compared steel, metal, and strap-based constructions against their stated weight ratings, since material choice directly affects how confidently a bracket holds a Mini PC over years of use." },
   { title: "Universal vs model-specific sizing tradeoffs", description: "We separated brackets built for one named chassis from universal adjustable brackets, since a rigid model-specific fit and broad multi-device compatibility solve different problems." },
-  { title: "Complete installation cost", description: "We evaluated whether the price shown includes everything needed for installation, or whether a buyer should budget for additional wall or VESA hardware beyond what is in the box." },
+  { title: "Complete installation cost", description: "We evaluated whether the price shown includes everything needed for installation, or whether a buyer should budget for additional wall or VESA hardware beyond what is in the box." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -280,11 +280,11 @@ export const faq: FaqItem[] = [
   { q: "Is a steel bracket always stronger than a strap-based one?", a: "For rigidity, generally yes. A strap-based bracket trades some load-bearing rigidity for the ability to fit devices of irregular or varying shapes, which a fixed steel bracket cannot always accommodate." },
   { q: "Should I buy a universal bracket or a model-specific one?", a: "A model-specific bracket, matched to your exact Mini PC chassis, holds more rigidly if your model is on the compatibility list. A universal adjustable bracket is the safer default if your model is not covered or if you expect to remount a different device later." },
   { q: "What's the actual difference between a 'bracket' and a 'mount' in this category?", a: "Based on the products checked for this guide, there isn't a reliable technical difference; both terms are used for complete kits and for standalone components depending on the specific listing. Check the included-items list rather than relying on the word choice in the title." },
-  { q: "Do bracket weight ratings account for a docking station or accessory attached to the Mini PC?", a: "Usually not unless explicitly stated. Most ratings assume a bare Mini PC, so check for a combined weight figure if you plan to mount a Mini PC alongside a dock or other accessory." },
+  { q: "Do bracket weight ratings account for a docking station or accessory attached to the Mini PC?", a: "Usually not unless explicitly stated. Most ratings assume a bare Mini PC, so check for a combined weight figure if you plan to mount a Mini PC alongside a dock or other accessory." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-universal-mini-pc-mounts", title: "Best Universal Mini PC Mounts (2026)" },
   { href: "/guide/best-mini-pc-mounts", title: "Best Mini PC Mounts (2026)" },
-  { href: "/guide/best-mini-pc-wall-mounts", title: "Best Mini PC Wall Mounts (2026)" },
+  { href: "/guide/best-mini-pc-wall-mounts", title: "Best Mini PC Wall Mounts (2026)" }
 ];

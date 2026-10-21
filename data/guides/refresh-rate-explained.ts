@@ -12,7 +12,7 @@ export const refreshRateExplainedGuide: Guide = {
     "60hz vs 144hz monitor",
     "144hz vs 240hz gaming",
     "do i need high refresh rate monitor",
-    "refresh rate for office work",
+    "refresh rate for office work"
   ],
   heroImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const refreshRateExplainedGuide: Guide = {
     "monitor-resolution-explained",
     "monitor-size-chart",
     "latency-explained",
-    "ultrawide-vs-dual-monitor",
+    "ultrawide-vs-dual-monitor"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const refreshRateExplainedGuide: Guide = {
       question: "Does higher refresh rate reduce eye strain?",
       answer:
         "Some users report less eye strain at higher refresh rates due to smoother motion and reduced flicker perception, though this varies by individual and isn't as universally significant a factor as the gaming responsiveness benefit.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const refreshRateExplainedGuide: Guide = {
     {
       heading: "Deciding If You Actually Need a Higher Refresh Rate",
       body: `If your desk setup is used primarily for office work, writing, or browsing, a 60Hz monitor delivers everything you need without any practical downside. If gaming, especially fast-paced or competitive gaming, is a regular part of your use, a 144Hz monitor paired with a GPU capable of hitting that frame rate provides a genuinely noticeable improvement worth the added cost over a standard 60Hz panel.`,
-    },
+    }
   ],
 };

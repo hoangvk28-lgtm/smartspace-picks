@@ -81,12 +81,12 @@ export const picks: ComparePick[] = [
       "7 ports covers most laptop workflows (display + USB + card reader)",
       "4K@30Hz HDMI for crisp monitor output",
       "85W PD keeps your laptop charged while working",
-      "Compact bus-powered — no separate power brick needed",
+      "Compact bus-powered — no separate power brick needed"
     ],
     tradeoffs: [
       "One HDMI only — no dual-display support",
       "USB-A ports share bandwidth at heavy loads",
-      "No Ethernet port",
+      "No Ethernet port"
     ],
     redditNote:
       "Consistently recommended in r/laptops and r/MacBookPro for everyday WFH use. Praised for reliability over years of daily use.",
@@ -107,11 +107,11 @@ export const picks: ComparePick[] = [
       "Adds Ethernet over the 341 — faster, more stable internet",
       "100W PD handles power-hungry 15-inch MacBooks",
       "Still compact enough for a laptop bag",
-      "Well-built aluminum housing runs cool",
+      "Well-built aluminum housing runs cool"
     ],
     tradeoffs: [
       "Single HDMI — no dual-monitor setup",
-      "More expensive than most 7-in-1 hubs",
+      "More expensive than most 7-in-1 hubs"
     ],
   },
   {
@@ -130,12 +130,12 @@ export const picks: ComparePick[] = [
       "Dual 4K HDMI + DisplayPort for triple-display setups",
       "13 ports — replaces every dongle on your desk",
       "Own power adapter — no bandwidth throttling",
-      "Works as a permanent desk hub, just swap the laptop cable",
+      "Works as a permanent desk hub, just swap the laptop cable"
     ],
     tradeoffs: [
       "Requires a power outlet — not truly portable",
       "$120+ investment vs a $35 hub",
-      "Overkill for single-monitor setups",
+      "Overkill for single-monitor setups"
     ],
   },
   {
@@ -154,11 +154,11 @@ export const picks: ComparePick[] = [
       "Supports dual 4K@60Hz output — for power users",
       "100W PD covers the most demanding laptops",
       "Compact for a triple-display dock",
-      "Anker reliability backing a premium feature set",
+      "Anker reliability backing a premium feature set"
     ],
     tradeoffs: [
       "Pricier than the 575 13-in-1 for fewer total ports",
-      "Requires compatible Thunderbolt 3/4 or USB4 laptop for full dual-4K",
+      "Requires compatible Thunderbolt 3/4 or USB4 laptop for full dual-4K"
     ],
   },
   {
@@ -176,13 +176,13 @@ export const picks: ComparePick[] = [
       "Slim profile fits a laptop sleeve or shirt pocket",
       "100W PD for fast charging on the go",
       "Folds away cleanly — no dangling cables",
-      "All-metal body survives daily pack/unpack cycles",
+      "All-metal body survives daily pack/unpack cycles"
     ],
     tradeoffs: [
       "No Ethernet — Wi-Fi only on the road",
-      "4K@30Hz only (not 60Hz)",
+      "4K@30Hz only (not 60Hz)"
     ],
-  },
+  }
 ];
 
 // ─── Head-to-head criteria ─────────────────────────────────────────────────────
@@ -241,7 +241,7 @@ export const headToHead: HeadToHead[] = [
       "Both are plug-and-play, but hubs have fewer cables and no power adapter to route. Docks require power cable + laptop cable + peripherals — more cable management needed.",
     hubSummary: "One cable from laptop. Minimal desk clutter.",
     dockSummary: "Power brick + laptop cable + peripherals. More cable management.",
-  },
+  }
 ];
 
 // ─── Decision flowchart steps ─────────────────────────────────────────────────
@@ -283,7 +283,7 @@ export const flowSteps: FlowStep[] = [
     yesLabel: "Yes, one-cable desk",
     noLabel: "No, a few cables is fine",
     terminal: true,
-  },
+  }
 ];
 
 // ─── Scenarios ─────────────────────────────────────────────────────────────────
@@ -328,7 +328,7 @@ export const scenarios: Scenario[] = [
     price: "$28–$40",
     detail:
       "The Anker 341 sits flat under a monitor or clips out of sight. Adds 4K output, USB-A ports, and card reader for $28–$40 without cluttering a compact desk.",
-  },
+  }
 ];
 
 // ─── Common mistakes ──────────────────────────────────────────────────────────
@@ -349,7 +349,7 @@ export const mistakes = [
   {
     title: "Assuming all hubs charge at the rated wattage",
     body: "A hub rated '100W PD' still shares the laptop's USB-C power budget. Under heavy GPU or CPU load, effective charging may drop to 60–70W. For MacBook Pro 16-inch or gaming laptops, verify the hub's active PD delivery with reviews.",
-  },
+  }
 ];
 
 // ─── FAQ ──────────────────────────────────────────────────────────────────────
@@ -378,7 +378,7 @@ export const faq: Array<{ q: string; a: string }> = [
   {
     q: "Can I use a USB-C hub with a gaming laptop?",
     a: "Yes for data, charging, and display. However, gaming laptops with high TDP may require 100W+ to charge under gaming load — verify the hub's PD wattage. The Anker 555 or 575 dock handles most gaming laptops at idle to moderate load.",
-  },
+  }
 ];
 
 // ─── Summary table ─────────────────────────────────────────────────────────────
@@ -389,5 +389,5 @@ export const summaryTable = [
   { factor: "Display support", hub: "Single 4K (usually 30Hz)", dock: "Dual/triple 4K@60Hz" },
   { factor: "Port count", hub: "7–8 ports", dock: "12–13 ports" },
   { factor: "Power delivery", hub: "85–100W (shared budget)", dock: "85–100W (dedicated adapter)" },
-  { factor: "Best for", hub: "Commuters, small desks", dock: "Power users, permanent setups" },
+  { factor: "Best for", hub: "Commuters, small desks", dock: "Power users, permanent setups" }
 ];

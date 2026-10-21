@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "four-in-one desk cup holders";
 export const introParagraphs = [
   "\"Four-in-one\" alone doesn't specify which four functions a given product combines, so we decoded each pick's actual feature set rather than assuming a standard combination. Common pairings across this research include a cup holder, headphone hanger, accessory hooks, and either wire routing holes or controller storage.",
-  "We verified each claimed function independently, since a multi-function product risks each individual feature being a compromised version compared to a dedicated single-purpose product.",
+  "We verified each claimed function independently, since a multi-function product risks each individual feature being a compromised version compared to a dedicated single-purpose product."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Decoding the specific four functions per product", description: "We identified exactly which four features each 'four-in-one' listing combines, since this varies meaningfully across the category." },
   { title: "Independent quality verification per function", description: "We checked whether each claimed function is genuinely useful and well-executed, not a compromised afterthought to justify the combined framing." },
   { title: "Combo value vs. four separate purchases", description: "We weighed whether the combined product offers real space-saving and cost value over buying four dedicated single-purpose accessories." },
-  { title: "Compound-load structural stability", description: "We considered stability when all four functions are loaded simultaneously, a full cup, hung headphones, and stored accessories all at once." },
+  { title: "Compound-load structural stability", description: "We considered stability when all four functions are loaded simultaneously, a full cup, hung headphones, and stored accessories all at once." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -244,11 +244,11 @@ export const faq: FaqItem[] = [
   { q: "Is a four-in-one holder better value than buying separately?", a: "For the KDD lineup, generally yes, since it prices competitively with a standalone cup holder alone. For less-proven budget options, compare the price against basic single-function alternatives before assuming better value." },
   { q: "Will each function work as well as a dedicated single-purpose product?", a: "Not necessarily. A combined design can compromise individual features compared to a dedicated product. The KDD lineup has strong review histories suggesting each function performs well; less-reviewed picks carry more uncertainty." },
   { q: "Can all four functions be used at the same time without stability issues?", a: "The well-reviewed picks in this comparison, particularly the KDD lineup, have strong track records supporting simultaneous use. For less-reviewed products, treat compound-load stability as unverified." },
-  { q: "Which pick has the most functions verified as genuinely useful?", a: "The KDD 4-in-1 Desk Cup Holder has the strongest review history in this comparison, giving the most confidence that all its combined functions perform as claimed." },
+  { q: "Which pick has the most functions verified as genuinely useful?", a: "The KDD 4-in-1 Desk Cup Holder has the strongest review history in this comparison, giving the most confidence that all its combined functions perform as claimed." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-organizers-with-cup-holders", title: "Best Desk Organizers with Cup Holders (2026)" },
   { href: "/guide/best-under-desk-cup-holders", title: "Best Under-Desk Cup Holders (2026)" },
-  { href: "/guide/best-hanging-desk-organizers", title: "Best Hanging Desk Organizers (2026)" },
+  { href: "/guide/best-hanging-desk-organizers", title: "Best Hanging Desk Organizers (2026)" }
 ];

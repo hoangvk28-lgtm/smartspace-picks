@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "murphy bed for small spaces";
 export const introParagraphs = [
   "Fitting a murphy bed into a small room comes down to two measurements almost no listing states clearly: your ceiling height and your room depth once the bed is lowered. A vertical queen murphy bed needs a taller ceiling than most people expect, and even when it technically fits, the floor space it occupies when open can conflict with a door swing or block a heating vent you forgot to check.",
-  "This guide focuses on the small-space decision that matters most, vertical versus horizontal orientation and the room clearance each actually requires, rather than repeating desk-integration details covered elsewhere. Below are 8 picks we evaluated based on product specs and buyer feedback, ranging from a $197.00 DIY hardware kit to a $699.98 assembled cabinet bed, with honest notes on which ones are bare mechanisms versus finished furniture.",
+  "This guide focuses on the small-space decision that matters most, vertical versus horizontal orientation and the room clearance each actually requires, rather than repeating desk-integration details covered elsewhere. Below are 8 picks we evaluated based on product specs and buyer feedback, ranging from an under-$200 DIY hardware kit to an under-$700 assembled cabinet bed, with honest notes on which ones are bare mechanisms versus finished furniture."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -46,27 +46,27 @@ export const products: GuideProduct[] = [
     badge: "Best Vertical Kit for Standard Ceilings",
     name: "Create-A-Bed Queen Size Deluxe Murphy Bed Kit, Vertical",
     price: "$299.00",
-    rating: "4.6 stars from 2,138 Amazon ratings",
-    reviews: "2,138 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51H6j9qVxwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00CYPV29W?tag=deskfinds0d-20",
     description:
-      "This is a vertical mechanism, meaning the queen mattress stands on its head end when folded up, which needs roughly an 88-inch tall cabinet and a minimum 8-foot ceiling once you account for anchor clearance above. It is a bare hardware kit, not a finished cabinet, so the small-space math ultimately depends on the cabinet dimensions you or a contractor build around it.\n\nFor small rooms with standard 8-foot ceilings, vertical orientation is common, but measure your actual ceiling height before committing since anchor hardware needs a few extra inches of clearance above the cabinet top. With 2,138 ratings at 4.6 stars, it has strong buyer feedback for the mechanism itself.\n\nStrong review base at 2,138 ratings. That's a real strength, but weigh it against the flip side: bare mechanism, cabinet build is separate.",
+      "This is a vertical mechanism, meaning the queen mattress stands on its head end when folded up, which needs roughly an 88-inch tall cabinet and a minimum 8-foot ceiling once you account for anchor clearance above. It is a bare hardware kit, not a finished cabinet, so the small-space math ultimately depends on the cabinet dimensions you or a contractor build around it.\n\nFor small rooms with standard 8-foot ceilings, vertical orientation is common, but measure your actual ceiling height before committing since anchor hardware needs a few extra inches of clearance above the cabinet top.\n\nThat's a real strength, but weigh it against the flip side: bare mechanism, cabinet build is separate.",
     specs: [
       "Vertical queen size mechanism",
       "Needs approximately 8-foot minimum ceiling",
       "Gas piston operation",
-      "Hardware kit, cabinet not included",
+      "Hardware kit, cabinet not included"
     ],
     pros: [
       "Smooth, controlled piston operation",
-      "Strong review base at 2,138 ratings",
       "Standard vertical orientation works with most 8-foot ceilings",
+      "Hardware kit lets you size the cabinet yourself",
     ],
     cons: [
       "Bare mechanism, cabinet build is separate",
       "Needs a genuine 8-foot-plus ceiling for anchor clearance",
-      "Not suitable for rooms with sloped or lower ceilings",
+      "Not suitable for rooms with sloped or lower ceilings"
     ],
     bestFor: "Small rooms with standard 8-foot or taller ceilings and a DIY cabinet build planned",
   },
@@ -76,27 +76,27 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Vertical Kit",
     name: "Queen Size Murphy Bed Hardware Kit, Vertical Wall Bed Frame with Gas Pistons",
     price: "$197.00",
-    rating: "4.6 stars from 1,610 Amazon ratings",
-    reviews: "1,610 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51h1vyv6ZdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B017701FUE?tag=deskfinds0d-20",
     description:
-      "Like the Create-A-Bed kit, this is a vertical mechanism needing the same approximate 8-foot ceiling clearance, and it is the lowest-cost kit in this list. It is a bare hardware kit, not an assembled cabinet, so small-space buyers need to plan a cabinet build that fits their specific room dimensions. Because vertical orientation projects the full mattress length, roughly 85-90 inches, from the wall when open, measure your room depth carefully, not just ceiling height, before choosing this over a horizontal option. With 1,610 ratings at 4.6 stars, buyer feedback is strong. Worth calling out specifically: large review base at 1,610 ratings. The catch is bare mechanism, cabinet build is separate.",
+      "Like the Create-A-Bed kit, this is a vertical mechanism needing the same approximate 8-foot ceiling clearance, and it is the lowest-cost kit in this list. It is a bare hardware kit, not an assembled cabinet, so small-space buyers need to plan a cabinet build that fits their specific room dimensions. Because vertical orientation projects the full mattress length, roughly 85-90 inches, from the wall when open, measure your room depth carefully, not just ceiling height, before choosing this over a horizontal option. The catch is bare mechanism, cabinet build is separate.",
     specs: [
       "Vertical queen size mechanism",
       "Needs approximately 8-foot minimum ceiling",
       "Gas piston operation",
-      "3 step-by-step build guides included",
+      "3 step-by-step build guides included"
     ],
     pros: [
       "Lowest price mechanism in this list",
-      "Large review base at 1,610 ratings",
       "Detailed build guides for a custom small-space cabinet",
+      "Gas piston lift for controlled lowering",
     ],
     cons: [
       "Bare mechanism, cabinet build is separate",
       "Needs a genuine 8-foot-plus ceiling",
-      "Not suitable for rooms with lower or sloped ceilings",
+      "Not suitable for rooms with lower or sloped ceilings"
     ],
     bestFor: "Budget-focused small-space buyers with a standard ceiling height and a DIY build planned",
   },
@@ -106,27 +106,26 @@ export const products: GuideProduct[] = [
     badge: "Best Assembled Cabinet, Compact Storage",
     name: "Yoobure Queen Murphy Bed with Charging Station, Rattan Cabinet Bed with Storage Drawers",
     price: "$459.99",
-    rating: "4.5 stars from 19 Amazon ratings",
-    reviews: "19 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51JtI3bjGFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GQM56Y2N?tag=deskfinds0d-20",
     description:
-      "This fully assembled cabinet bed includes storage drawers that help a small room double its function without adding separate furniture, a genuine small-space advantage over the bare hardware kits above. Its foldable platform design still needs the same wall-anchoring and room-depth planning as any queen murphy bed.\n\nWith only 19 ratings, feedback volume is thin, so weigh that against the convenience of a fully assembled unit. As with any murphy bed, confirm your wall can anchor to studs spanning at least two 16-inch-on-center studs before installation, since drywall alone cannot support the mechanism.\n\nFully assembled, no separate cabinet build needed. Set against that, very small review base at 19 ratings. Both matter when comparing it to the other picks here.",
+      "This fully assembled cabinet bed includes storage drawers that help a small room double its function without adding separate furniture, a genuine small-space advantage over the bare hardware kits above. Its foldable platform design still needs the same wall-anchoring and room-depth planning as any queen murphy bed.\n\nAs with any murphy bed, confirm your wall can anchor to studs spanning at least two 16-inch-on-center studs before installation, since drywall alone cannot support the mechanism.\n\nFully assembled, no separate cabinet build needed. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size foldable platform",
       "Built-in storage drawers and charging station",
       "Fully assembled cabinet",
-      "Rattan finish",
+      "Rattan finish"
     ],
     pros: [
       "Storage drawers add small-space function",
       "Fully assembled, no separate cabinet build needed",
-      "Charging station is a useful small-room convenience",
+      "Charging station is a useful small-room convenience"
     ],
     cons: [
-      "Very small review base at 19 ratings",
       "Higher price than bare hardware kits",
-      "Still requires stud-anchored wall installation",
+      "Still requires stud-anchored wall installation"
     ],
     bestFor: "Small rooms that want an assembled storage bed without a DIY cabinet build",
   },
@@ -136,27 +135,27 @@ export const products: GuideProduct[] = [
     badge: "Best Storage-Focused Assembled Cabinet",
     name: "AMERLIFE Queen Murphy Bed with Storage and Charging Station",
     price: "$499.99",
-    rating: "4.2 stars from 396 Amazon ratings",
-    reviews: "396 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51Og-FctXuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGL5B76J?tag=deskfinds0d-20",
     description:
-      "AMERLIFE's cabinet is fully assembled with built-in storage, which matters in a small space where a separate dresser or shelving unit isn't an option. At 396 ratings and a 4.2-star average, it has more established buyer feedback than the Yoobure pick above at a similar price point.\n\nFor vertical queen cabinets like this one, plan for roughly 13-14 feet of room depth to comfortably accommodate the bed projecting out when lowered, plus walking space around it. Rooms shorter than that should consider a horizontal or twin-size alternative instead.\n\nA genuine advantage here is that built-in storage suits small rooms without extra furniture. The tradeoff is needs roughly 13-14 feet of room depth when open.",
+      "AMERLIFE's cabinet is fully assembled with built-in storage, which matters in a small space where a separate dresser or shelving unit isn't an option.\n\nFor vertical queen cabinets like this one, plan for roughly 13-14 feet of room depth to comfortably accommodate the bed projecting out when lowered, plus walking space around it. Rooms shorter than that should consider a horizontal or twin-size alternative instead.\n\nA genuine advantage here is that built-in storage suits small rooms without extra furniture. The tradeoff is needs roughly 13-14 feet of room depth when open.",
     specs: [
       "Queen size murphy bed",
       "Built-in storage compartments and charging station",
       "Assembled cabinet design",
-      "Vertical orientation",
+      "Vertical orientation"
     ],
     pros: [
-      "Solid 4.2-star rating across 396 reviews",
       "Built-in storage suits small rooms without extra furniture",
       "Fully assembled, no cabinet build needed",
+      "Charging station built in beside the bed",
     ],
     cons: [
       "Needs roughly 13-14 feet of room depth when open",
       "Higher price than DIY kits",
-      "Requires stud-anchored wall installation",
+      "Requires stud-anchored wall installation"
     ],
     bestFor: "Small rooms with enough depth for a vertical queen bed that also need built-in storage",
   },
@@ -166,27 +165,26 @@ export const products: GuideProduct[] = [
     badge: "Best for Tighter Room Depth",
     name: "Hlivelood Full Size Murphy Chest Bed with Drawer and Charging Station",
     price: "$349.99",
-    rating: "4.2 stars from 112 Amazon ratings",
-    reviews: "112 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/516I1SJ4lqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DNKM6NRF?tag=deskfinds0d-20",
     description:
-      "Full size rather than queen, this chest bed needs less room depth when open than the queen picks in this list, a genuine advantage for a truly small room. Its chest cabinet format also gives it a smaller closed footprint that reads more like a dresser than a full wall unit.\n\nAt 112 ratings and 4.2 stars, feedback is moderate but consistent. As with all vertical murphy beds, confirm your ceiling clears roughly 8 feet before buying, and check that no inward-swinging door or floor vent sits in the space the bed occupies when down.\n\nCompact chest cabinet footprint when closed. That's a real strength, but weigh it against the flip side: smaller sleeping space than queen picks.",
+      "Full size rather than queen, this chest bed needs less room depth when open than the queen picks in this list, a genuine advantage for a truly small room. Its chest cabinet format also gives it a smaller closed footprint that reads more like a dresser than a full wall unit.\n\nAs with all vertical murphy beds, confirm your ceiling clears roughly 8 feet before buying, and check that no inward-swinging door or floor vent sits in the space the bed occupies when down.\n\nCompact chest cabinet footprint when closed. That's a real strength, but weigh it against the flip side: smaller sleeping space than queen picks.",
     specs: [
       "Full size murphy bed",
       "Chest cabinet with drawer and charging station",
       "Smaller footprint than queen options",
-      "Farmhouse wood finish",
+      "Farmhouse wood finish"
     ],
     pros: [
       "Full size needs less room depth than queen",
       "Compact chest cabinet footprint when closed",
-      "Charging station and drawer add function",
+      "Charging station and drawer add function"
     ],
     cons: [
       "Smaller sleeping space than queen picks",
-      "Moderate review base at 112 ratings",
-      "Still needs roughly 8-foot ceiling clearance",
+      "Still needs roughly 8-foot ceiling clearance"
     ],
     bestFor: "Small rooms too tight for a queen murphy bed but with standard ceiling height",
   },
@@ -196,27 +194,27 @@ export const products: GuideProduct[] = [
     badge: "Best with Lighting for Windowless Small Rooms",
     name: "Hlivelood Queen Size Murphy Bed with 2 LED Lights, Rustic White",
     price: "$639.99",
-    rating: "4.0 stars from 141 Amazon ratings",
-    reviews: "141 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/515sMh7j30L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXZVVHCG?tag=deskfinds0d-20",
     description:
-      "Built-in LED lighting is a genuine small-room benefit, useful when a compact space lacks a nearby lamp outlet or has limited natural light. As a vertical queen cabinet, it needs the same roughly 8-foot ceiling and 13-14 foot room depth as other queen picks here. Gas struts provide a controlled fold, and the no-box-spring design keeps the cabinet interior compact. At a competitive price with a 4.0-star rating across 141 reviews, it is a premium option best justified by the lighting feature if your small room needs it. Worth calling out specifically: gas struts give controlled, smooth operation. The catch is needs the same room depth and ceiling clearance as other queen picks.",
+      "Built-in LED lighting is a genuine small-room benefit, useful when a compact space lacks a nearby lamp outlet or has limited natural light. As a vertical queen cabinet, it needs the same roughly 8-foot ceiling and 13-14 foot room depth as other queen picks here. Gas struts provide a controlled fold, and the no-box-spring design keeps the cabinet interior compact. Worth calling out specifically: gas struts give controlled, smooth operation. The catch is needs the same room depth and ceiling clearance as other queen picks.",
     specs: [
       "Queen size murphy bed, vertical",
       "2 built-in LED lights",
       "Gas strut mechanism",
-      "No box spring needed",
+      "No box spring needed"
     ],
     pros: [
       "Built-in LED lighting suits a windowless small room",
       "Gas struts give controlled, smooth operation",
-      "No box spring simplifies cabinet depth",
+      "No box spring simplifies cabinet depth"
     ],
     cons: [
       "Needs the same room depth and ceiling clearance as other queen picks",
       "Higher price for the lighting feature",
-      "Lowest rating among the assembled cabinet picks",
+      "Lowest rating among the assembled cabinet picks"
     ],
     bestFor: "Small rooms lacking good ambient lighting near the bed area",
   },
@@ -226,27 +224,27 @@ export const products: GuideProduct[] = [
     badge: "Same Build, Brown Finish",
     name: "Hlivelood Queen Size Murphy Bed with 2 LED Lights, Brown",
     price: "$699.98",
-    rating: "4.0 stars from 141 Amazon ratings",
-    reviews: "141 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51XE-SiCWBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FFSTT5LQ?tag=deskfinds0d-20",
     description:
-      "This is the same LED-equipped vertical queen cabinet as the white pick above, in a brown finish and priced a moderate amount higher, with identical room depth and ceiling clearance requirements. Choose based on finish preference rather than function. The shared 141-review base and 4.0-star rating apply to both finishes, and the same door-swing and vent-blocking checks apply before installation regardless of color choice. Gas struts give smooth, controlled operation. Set against that, highest price in this list. Both matter when comparing it to the other picks here.",
+      "This is the same LED-equipped vertical queen cabinet as the white pick above, in a brown finish and priced a moderate amount higher, with identical room depth and ceiling clearance requirements. Choose based on finish preference rather than function. Gas struts give smooth, controlled operation. Set against that, highest price in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size murphy bed, vertical",
       "2 built-in LED lights",
       "Gas strut mechanism",
-      "Brown wood finish",
+      "Brown wood finish"
     ],
     pros: [
       "Built-in LED lighting",
       "Gas struts give smooth, controlled operation",
-      "No box spring needed",
+      "No box spring needed"
     ],
     cons: [
       "Highest price in this list",
       "Same room depth and ceiling needs as the white version",
-      "Identical function to the cheaper white finish",
+      "Identical function to the cheaper white finish"
     ],
     bestFor: "Buyers who prefer a brown finish and have already confirmed room depth and ceiling clearance",
   },
@@ -256,30 +254,29 @@ export const products: GuideProduct[] = [
     badge: "Best for Very Tight Rooms",
     name: "LIVAUVEAD Twin Size Murphy Bed with Charging Station and Drawer, White",
     price: "$249.99",
-    rating: "4.0 stars from 120 Amazon ratings",
-    reviews: "120 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51iWQRI54lL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F13Q522K?tag=deskfinds0d-20",
     description:
-      "As the smallest sleeping footprint in this list, the twin size cabinet needs the least room depth when open of any pick here, a genuine advantage for a true micro-room like a small studio corner or a guest space under 10 feet deep. It still requires roughly the same 8-foot ceiling clearance as the queen and full-size vertical picks. At a competitive price with a 4.0-star rating across 120 reviews, it is one of the more affordable assembled options and the clearest choice when room depth, not ceiling height, is the binding constraint. A genuine advantage here is that affordable price for an assembled unit. The tradeoff is twin size limits sleeping capacity.",
+      "As the smallest sleeping footprint in this list, the twin size cabinet needs the least room depth when open of any pick here, a genuine advantage for a true micro-room like a small studio corner or a guest space under 10 feet deep. It still requires roughly the same 8-foot ceiling clearance as the queen and full-size vertical picks. A genuine advantage here is that affordable price for an assembled unit. The tradeoff is twin size limits sleeping capacity.",
     specs: [
       "Twin size murphy bed, vertical",
       "Smallest room-depth footprint in this list",
       "Charging station and drawer included",
-      "White finish",
+      "White finish"
     ],
     pros: [
       "Smallest room depth requirement in this list",
       "Affordable price for an assembled unit",
-      "Charging station and drawer add convenience",
+      "Charging station and drawer add convenience"
     ],
     cons: [
       "Twin size limits sleeping capacity",
-      "Still needs roughly 8-foot ceiling clearance",
-      "Moderate review base at 120 ratings",
+      "Still needs roughly 8-foot ceiling clearance"
     ],
     bestFor: "Very tight rooms under about 10 feet deep where twin size is an acceptable trade-off",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -312,7 +309,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Value for price across room-size fit",
     description:
       "Weighed price against how well the sleeping size and cabinet dimensions matched genuinely small room constraints, not just overall product quality.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -455,11 +452,11 @@ export const faq: FaqItem[] = [
   {
     q: "Should I choose a DIY hardware kit or an assembled cabinet for a small room?",
     a: "A DIY kit like the Create-A-Bed Queen Deluxe or Queen Murphy Hardware Kit lets you build a cabinet sized exactly to your room's ceiling and depth constraints, useful if your space is right at the edge of standard requirements. An assembled cabinet like the AMERLIFE or Yoobure comes in fixed dimensions, simpler to install but less flexible for an unusual room.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-murphy-beds-with-desks", title: "Best Murphy Beds with Desks (2026)" },
   { href: "/guide/best-filing-cabinets-for-home-offices", title: "Best Filing Cabinets for Home Offices (2026)" },
-  { href: "/guide/best-office-chairs-for-long-hours", title: "Best Office Chairs for Long Hours (2026)" },
+  { href: "/guide/best-office-chairs-for-long-hours", title: "Best Office Chairs for Long Hours (2026)" }
 ];

@@ -5,7 +5,7 @@ export const metaDescription = "5 combined HEPA and carbon air purifiers we eval
 export const mainKeyword = "air purifier with HEPA and carbon filter";
 export const introParagraphs = [
   "Carbon filter mass and thickness varies enormously between HEPA plus carbon products, a thin carbon pre-filter layer performs far worse against odors and VOCs than a substantial dedicated carbon filter stage, a real capability spectrum hidden behind identical marketing language.",
-  "Combined HEPA plus carbon units are priced at a premium over HEPA-only units, buyers in low-odor, low-VOC environments may be paying for carbon capability they don't need, match the purchase to your actual odor-control requirements.",
+  "Combined HEPA plus carbon units are priced at a premium over HEPA-only units, buyers in low-odor, low-VOC environments may be paying for carbon capability they don't need, match the purchase to your actual odor-control requirements."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best HEPA and Carbon Air Purifier Overall",
     name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
-    rating: "4.6 stars from 28,866 Amazon ratings",
-    reviews: "28,866 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419pAe7T0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTKAPUU?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best White Finish Alternative",
     name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH(W), White",
     price: "$229.99",
-    rating: "4.6 stars from 28,866 Amazon ratings",
-    reviews: "28,866 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31pCHKKqN2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01728NLRG?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Combined Pick",
     name: "Membrane Solutions MSA3 Air Purifier for Home",
     price: "$99.39",
-    rating: "4.5 stars from 10,110 Amazon ratings",
-    reviews: "10,110 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31CcBFzC6wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08ND7C7P4?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Smart Combined Pick",
     name: "LEVOIT Smart Air Purifier for Home Large Room up to 1875 ft Vital 200S-P",
     price: "$174.99",
-    rating: "4.7 stars from 14,571 Amazon ratings",
-    reviews: "14,571 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact HEPA Pick, Verify Carbon Separately",
     name: "Air Purifiers for Bedroom, FULMINARE H13 True HEPA Air Filter, Quiet Air Cleaner With Night Light, Portable Small Air Purifier for Home, Office, Living Room",
     price: "$24.99",
-    rating: "4.4 stars from 5,517 Amazon ratings",
-    reviews: "5,517 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/414NIpA+xLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B4ZSKPNL?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Certified True HEPA H13 filtration", "Portable with a useful night light feature", "Affordable", "Compact design"],
     cons: ["No substantial carbon layer confirmed for odor control", "Lower rating than other picks in this guide", "Smaller filter media, frequent replacement"],
     bestFor: "Budget-conscious buyers whose primary need is HEPA particulate filtration",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Carbon filter mass and thickness disclosure, not just presence as a checkbox", description: "Compared carbon filter substantiality where disclosed, since a thin carbon pre-filter layer performs far worse against odors than a substantial dedicated carbon stage, despite identical marketing language." },
   { title: "Separate replacement schedule verification for combined cartridges", description: "Checked whether HEPA and carbon components share one combined replacement cartridge or replace independently, flagging premature-replacement waste risk for combined designs." },
-  { title: "Needs-matching guidance against genuine odor-control requirements", description: "Provided guidance for buyers in low-odor environments who may be paying for carbon capability they don't need, rather than universally recommending the combined product." },
+  { title: "Needs-matching guidance against genuine odor-control requirements", description: "Provided guidance for buyers in low-odor environments who may be paying for carbon capability they don't need, rather than universally recommending the combined product." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Do I need a combined HEPA and carbon purifier if I don't have odor problems?", a: "Probably not. Buyers in low-odor, low-VOC environments, a well-ventilated home office with no cooking or smoking nearby, may be paying for carbon capability they don't actually need, a HEPA-only unit may suffice." },
   { q: "Does it matter whether carbon or HEPA filters air first?", a: "It can affect performance and lifespan. Carbon-first designs can protect the HEPA layer from some particulate load, while HEPA-first designs may expose carbon media to already-cleaned air, this design detail is rarely disclosed by manufacturers." },
   { q: "Do HEPA and carbon filters need replacing at the same time?", a: "Not always, carbon media typically saturates faster than HEPA fiber, check whether the specific unit uses a combined single filter or separate replaceable stages, since that determines whether you're forced to replace both together." },
-  { q: "Is a combined HEPA-carbon filter better than two separate filter stages?", a: "A combined filter is simpler to maintain with one replacement schedule, while separate stages let you replace only the saturated carbon layer without discarding still-usable HEPA media, a real cost tradeoff depending on your usage pattern." },
+  { q: "Is a combined HEPA-carbon filter better than two separate filter stages?", a: "A combined filter is simpler to maintain with one replacement schedule, while separate stages let you replace only the saturated carbon layer without discarding still-usable HEPA media, a real cost tradeoff depending on your usage pattern." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-hepa-air-purifiers", title: "Best HEPA Air Purifiers (2026)" },
   { href: "/guide/best-air-purifiers-for-odors", title: "Best Air Purifiers for Odors (2026)" },
-  { href: "/guide/best-air-purifiers-for-smoke", title: "Best Air Purifiers for Smoke (2026)" },
+  { href: "/guide/best-air-purifiers-for-smoke", title: "Best Air Purifiers for Smoke (2026)" }
 ];

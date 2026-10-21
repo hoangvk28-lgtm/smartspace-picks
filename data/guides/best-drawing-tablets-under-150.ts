@@ -285,7 +285,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Define the larger screenless capability floor",
-    "explanation": "Define the larger screenless capability floor: Current Wacom One M $149.95 fits; larger area and better ergonomics should lead. Do not expand the list with products that fail the core category definition just to reach a target number of picks. This matters directly when comparing the picks in this guide, since two products near the same price point often differ meaningfully on this exact point once you look past the headline spec. Check the specific listing for this detail rather than assuming parity across similarly priced options, and weigh it against your actual use case before deciding between two close picks in this price tier."
+    "explanation": "Define the larger screenless capability floor: Current Wacom One M under $150 fits; larger area and better ergonomics should lead. Do not expand the list with products that fail the core category definition just to reach a target number of picks. This matters directly when comparing the picks in this guide, since two products near the same price point often differ meaningfully on this exact point once you look past the headline spec. Check the specific listing for this detail rather than assuming parity across similarly priced options, and weigh it against your actual use case before deciding between two close picks in this price tier."
   },
   {
     "criterion": "Make tablet architecture/active area + pen activation/line",

@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41TozfOUChL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B076JCYJKZ?tag=deskfinds0d-20",
-    "description": "The MF-2320M shares the 12V 20W carbon fiber platform with a stated far infrared wavelength of 8 to 15 micrometers, green and red LED level lights and a 2 hour auto-off. The cable and heating elements detach from the shoes.\n\nIt is the priciest pair at $79.98 and sells by size, with the listing's Size M fitting feet up to size 41. Against the MF-2010N, you pay about $20 more for a size-based fit and detachable elements, not extra heat.\n\nChoose it if you need a sized fit or want elements you can remove. The caveat is cost, and the listing's health-range wording is marketing we did not weigh.",
+    "description": "The MF-2320M shares the 12V 20W carbon fiber platform with a stated far infrared wavelength of 8 to 15 micrometers, green and red LED level lights and a 2 hour auto-off. The cable and heating elements detach from the shoes.\n\nIt is the priciest pair at under $80 and sells by size, with the listing's Size M fitting feet up to size 41. Against the MF-2010N, you pay about $20 more for a size-based fit and detachable elements, not extra heat.\n\nChoose it if you need a sized fit or want elements you can remove. The caveat is cost, and the listing's health-range wording is marketing we did not weigh.",
     "specs": [
       "12V 2A, 20W",
       "8 to 15 micrometer infrared",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41P+lqcJW1L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DHXPX8W8?tag=deskfinds0d-20",
-    "description": "PWTEK is a pad with 35 natural jade stones, a controller offering 30 to 240 minute timers and 104 to 140F settings, auto shut-off and a memory function. It is used on the floor or lap rather than worn.\n\nIt is the cheapest pad here at $29.99 and has the widest timer range, but its heating style is a stone-lined pad, different from the ObboMed boots. The listing makes bold claims about negative ions and joint relief that we did not weigh.\n\nChoose it for a floor pad with a long timer. The caveat is that the jade and wellness language is promotional, and you should confirm the warm-up time because the listing says to wait ten minutes.",
+    "description": "PWTEK is a pad with 35 natural jade stones, a controller offering 30 to 240 minute timers and 104 to 140F settings, auto shut-off and a memory function. It is used on the floor or lap rather than worn.\n\nIt is the cheapest pad here at under $30 and has the widest timer range, but its heating style is a stone-lined pad, different from the ObboMed boots. The listing makes bold claims about negative ions and joint relief that we did not weigh.\n\nChoose it for a floor pad with a long timer. The caveat is that the jade and wellness language is promotional, and you should confirm the warm-up time because the listing says to wait ten minutes.",
     "specs": [
       "35 natural jade stones",
       "30 to 240 minute timer",
@@ -235,7 +235,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     "title": "Value for price",
-    "description": "Prices from $27.99 to $79.98 were compared against what each listing documents."
+    "description": "Prices from roughly $30 to $80 were compared against what each listing documents."
   }
 ];
 

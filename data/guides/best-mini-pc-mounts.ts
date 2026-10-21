@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini PC mounts";
 export const introParagraphs = [
   "A Mini PC mount only earns its keep if it solves the problem it was bought for: getting a small computer off the desk without blocking its vents, overloading the surface it attaches to, or making the ports impossible to reach. Before comparing individual products, it helps to separate mounting method from mounting hardware, because a mount rated for under-desk use is not automatically a good wall mount, and a VESA-only bracket cannot substitute for a stud-anchored wall plate.",
-  "This guide covers the full mounting category: behind-monitor, under-desk, and wall-mounted options side by side. If you already know you want VESA-specific hardware or a wall-only setup, our narrower guides on VESA mounts and wall mounts dig deeper into those two methods specifically, while this guide is the place to start if you are still deciding which mounting location fits your desk.",
+  "This guide covers the full mounting category: behind-monitor, under-desk, and wall-mounted options side by side. If you already know you want VESA-specific hardware or a wall-only setup, our narrower guides on VESA mounts and wall mounts dig deeper into those two methods specifically, while this guide is the place to start if you are still deciding which mounting location fits your desk."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "9 min";
@@ -156,7 +156,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Load capacity realism", description: "We compared each mount's stated weight rating against typical Mini PC weights, and flagged listings that publish a combined device-plus-monitor figure versus those that only rate the bare device." },
   { title: "Airflow clearance when mounted", description: "We looked at whether the mount's design, open-frame versus solid backing, keeps a mounted Mini PC's intake and exhaust clear rather than trapping heat against a plate." },
   { title: "Port access after mounting", description: "We evaluated whether ports stay reachable once the device is mounted, since a Mini PC tucked under a desk or behind a monitor is only convenient if you are not fighting cable access every time you plug something in." },
-  { title: "Genuine location fit", description: "We treated behind-monitor, under-desk, and wall mounting as three real, different use cases rather than interchangeable marketing bullet points, and scored each mount on how well it actually serves its stated location." },
+  { title: "Genuine location fit", description: "We treated behind-monitor, under-desk, and wall mounting as three real, different use cases rather than interchangeable marketing bullet points, and scored each mount on how well it actually serves its stated location." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -281,11 +281,11 @@ export const faq: FaqItem[] = [
   { q: "Is a drywall anchor strong enough for a wall-mounted Mini PC?", a: "It can hold a very light device for light use, but a stud is the more reliable anchor point for anything left mounted long-term, since drywall anchors are more prone to slow pull-out failure under sustained load or repeated cable tension." },
   { q: "Does a higher weight rating always mean a better mount?", a: "Not for a bare Mini PC, since most only weigh 1 to 3 pounds and any mount here clears that easily. A higher rating matters only if you are adding a docking station, NAS enclosure, or piggybacking on a monitor's VESA point." },
   { q: "Will mounting my Mini PC make it run hotter?", a: "Only if the mount traps its intake or exhaust against a solid surface or an enclosed space. Open-frame mounts with real clearance on multiple sides avoid this problem; a mount pressed into a tight under-desk cubby needs its own clearance check regardless of the bracket's design." },
-  { q: "How is this guide different from the VESA mount and wall mount guides on this site?", a: "This guide compares all three mounting methods side by side so you can decide which fits your desk first. Our VESA mount guide and wall mount guide each narrow into one specific method with more depth on that method's particular tradeoffs." },
+  { q: "How is this guide different from the VESA mount and wall mount guides on this site?", a: "This guide compares all three mounting methods side by side so you can decide which fits your desk first. Our VESA mount guide and wall mount guide each narrow into one specific method with more depth on that method's particular tradeoffs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-vesa-mini-pc-mounts", title: "Best VESA Mini PC Mounts (2026)" },
   { href: "/guide/best-mini-pc-wall-mounts", title: "Best Mini PC Wall Mounts (2026)" },
-  { href: "/guide/best-mini-pc-cooling-stands", title: "Best Mini PC Cooling Stands (2026)" },
+  { href: "/guide/best-mini-pc-cooling-stands", title: "Best Mini PC Cooling Stands (2026)" }
 ];

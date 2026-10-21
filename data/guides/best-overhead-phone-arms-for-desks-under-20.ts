@@ -123,7 +123,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Per-joint tension control", "LISEN Cell Phone Holder, Overhead Phone Mount"],
         ["The lowest price with a stated warranty", "SAIJI Gooseneck Bed Phone Holder"],
         ["A wider clamp for a thick desk or bed frame", "MAGIPEA Gooseneck Phone Holder for Bed"],
-        ["An arm resistant to long-term sagging", "Lamicall Gooseneck Bed Phone Holder"],
+        ["An arm resistant to long-term sagging", "Lamicall Gooseneck Bed Phone Holder"]
       ],
     },
   },
@@ -132,8 +132,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $15", "SAIJI ($12.99) or MAGIPEA ($14.99)"],
-        ["Up to $20", "LISEN ($19.68) or Lamicall ($19.99)"],
+        ["Under $15", "SAIJI (under $15) or MAGIPEA (under $15)"],
+        ["Up to $20", "LISEN (under $20) or Lamicall (under $20)"]
       ],
     },
   },
@@ -147,7 +147,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "Aluminum or aluminum-magnesium alloy (SAIJI, MAGIPEA, Lamicall)",
         text: "Lighter and generally cheaper, with quality varying by exact alloy: aluminum-magnesium alloy specifically resists sagging better than plain aluminum over time.",
-      },
+      }
     ],
     note: "If you've had a cheap gooseneck arm sag before, prioritize LISEN's steel body or Lamicall's aluminum-magnesium alloy core over a plain aluminum arm.",
   },
@@ -158,7 +158,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["4.0-6.3 inches", "SAIJI Gooseneck Bed Phone Holder"],
         ["3.5-7 inches (larger phones)", "MAGIPEA Gooseneck Phone Holder for Bed"],
-        ["4-7 inches", "Lamicall Gooseneck Bed Phone Holder"],
+        ["4-7 inches", "Lamicall Gooseneck Bed Phone Holder"]
       ],
     },
   },
@@ -172,7 +172,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "MAGIPEA's 3-inch clamp opening and 360-degree rotation clamp are specifically built for exactly this overhead cooking and craft-video use case.",
-      },
+      }
     ],
   },
   {
@@ -180,14 +180,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You want per-joint tension adjustment or a core material built to resist sagging over months of daily use: LISEN ($19.68) or Lamicall ($19.99) are the two picks here built specifically around that durability concern.",
+        text: "You want per-joint tension adjustment or a core material built to resist sagging over months of daily use: LISEN (under $20) or Lamicall (under $20) are the two picks here built specifically around that durability concern.",
       },
       {
         label: "Save if",
-        text: "You just need a basic overhead mount for occasional use: SAIJI ($12.99) covers the core function with a stated 12-month replacement policy for less than the pricier picks here.",
-      },
+        text: "You just need a basic overhead mount for occasional use: SAIJI (under $15) covers the core function with a stated 12-month replacement policy for less than the pricier picks here.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -242,5 +242,5 @@ export const faq = [
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-overhead-phone-arms-for-desks-under-40", title: "Best Overhead Phone Arms for Desks Under $40" },
-  { href: "/guide/best-overhead-phone-arms-for-desks", title: "Best Overhead Phone Arms for Desks" },
+  { href: "/guide/best-overhead-phone-arms-for-desks", title: "Best Overhead Phone Arms for Desks" }
 ];

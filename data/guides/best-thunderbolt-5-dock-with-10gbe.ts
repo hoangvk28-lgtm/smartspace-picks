@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "This dock's listing specifically states it supports up to two 8K@60Hz displays or four 6K@60Hz monitors simultaneously on a MacBook Pro with an M-series Max chip, a genuinely high display count built specifically for the Mac ecosystem rather than as a general cross-platform afterthought. Its triple-layer thermal system combines an NTC-controlled fan, internal copper heat sinks, and a floating chassis design specifically engineered to sustain 120Gbps peak performance during 24/7 operation.\n\nCompared to the CalDigit and Sonnet picks above, this one is exclusively Mac-focused rather than cross-platform, and its 10Gbps RJ45 Ethernet port pairs with four dedicated 80/120Gbps USB-C downstream ports at 15W each for connecting multiple high-speed RAID arrays.\n\nBest for MacBook Pro Max-chip owners who want the highest simultaneous display count with 10GbE in a Mac-only dock.",
     specs: ["10Gbps Ethernet, quad 6K@60Hz or dual 8K@60Hz (Mac only)", "Triple-layer thermal system with active cooling fan", "4x dedicated 80/120Gbps USB-C downstream ports"],
     pros: ["Highest simultaneous display count of any pick in this comparison", "Triple-layer cooling system built to sustain peak performance 24/7", "Four dedicated high-speed downstream ports for RAID arrays"],
-    cons: ["Highest price in this comparison at $649.99", "Exclusively for Mac, not usable with Windows or Chromebook hosts"],
+    cons: ["Highest price in this comparison at under $650", "Exclusively for Mac, not usable with Windows or Chromebook hosts"],
     bestFor: "MacBook Pro Max-chip owners who want the highest simultaneous display count with 10GbE",
   }
 ];
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["The most total ports with flexible backward-compatible Ethernet", "CalDigit TS5 Plus Thunderbolt 5 Docking Station"],
         ["Built-in NVMe storage expansion alongside 10GbE", "Sonnet Echo 21 Thunderbolt 5 SuperDock"],
         ["Strong 10GbE and display support at a lower price", "Sonnet Echo 20 Thunderbolt 5 SecureDock"],
-        ["The highest simultaneous display count on a Mac", "iVANKY 26-in-1 FusionDock Ultra"],
+        ["The highest simultaneous display count on a Mac", "iVANKY 26-in-1 FusionDock Ultra"]
       ],
     },
   },
@@ -109,9 +109,9 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $450", "Sonnet Echo 20 SecureDock ($449.99)"],
-        ["Under $500", "CalDigit TS5 Plus or Sonnet Echo 21 (both $499.99)"],
-        ["Under $650", "iVANKY 26-in-1 FusionDock Ultra ($649.99)"],
+        ["Under $450", "Sonnet Echo 20 SecureDock (under $450)"],
+        ["Under $500", "CalDigit TS5 Plus or Sonnet Echo 21 (both under $500)"],
+        ["Under $650", "iVANKY 26-in-1 FusionDock Ultra (under $650)"]
       ],
     },
   },
@@ -119,7 +119,7 @@ export const howToChoose = [
     subheading: "Cross-Platform Flexibility vs Mac-Optimized Performance",
     cards: [
       { label: "Cross-platform (CalDigit, Sonnet Echo 21/20)", text: "These docks work across Mac, Windows, Chromebook, and iPad Pro, trading peak Mac-specific display count for broader device compatibility." },
-      { label: "Mac-optimized (iVANKY FusionDock Ultra)", text: "Built exclusively for the Mac ecosystem with a dual-chip architecture, unlocking a higher simultaneous display count on M-series Max chips than the cross-platform picks support." },
+      { label: "Mac-optimized (iVANKY FusionDock Ultra)", text: "Built exclusively for the Mac ecosystem with a dual-chip architecture, unlocking a higher simultaneous display count on M-series Max chips than the cross-platform picks support." }
     ],
     note: "If you work across multiple operating systems, default to the CalDigit or Sonnet picks. If you're committed to a MacBook Pro Max-chip workflow with several external displays, the iVANKY's Mac-exclusive design delivers more display headroom.",
   },
@@ -130,7 +130,7 @@ export const howToChoose = [
       rows: [
         ["Want internal NVMe storage without a separate enclosure", "Sonnet Echo 21 Thunderbolt 5 SuperDock"],
         ["Already have external storage and don't need it built in", "Sonnet Echo 20 Thunderbolt 5 SecureDock"],
-        ["Running multiple external RAID arrays instead", "iVANKY 26-in-1 FusionDock Ultra"],
+        ["Running multiple external RAID arrays instead", "iVANKY 26-in-1 FusionDock Ultra"]
       ],
     },
   },
@@ -138,16 +138,16 @@ export const howToChoose = [
     subheading: "For Home Office NAS Backup Specifically",
     cards: [
       { label: "Look for", text: "A 10GbE port that works with standard Cat6 or Cat6A cabling you likely already have run, rather than requiring specialty cabling or hardware." },
-      { label: "In this comparison", text: "The Sonnet Echo 20 SecureDock specifically states standard Cat6/Cat6A compatibility, making it a straightforward drop-in for an existing home office network." },
+      { label: "In this comparison", text: "The Sonnet Echo 20 SecureDock specifically states standard Cat6/Cat6A compatibility, making it a straightforward drop-in for an existing home office network." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You're a MacBook Pro Max-chip user running multiple high-resolution displays, where the iVANKY FusionDock Ultra's $649.99 price buys genuinely more display headroom than any other pick here." },
-      { label: "Save if", text: "You want strong 10GbE and Thunderbolt 5 performance without NVMe storage expansion, where the Sonnet Echo 20 delivers that for $449.99, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You're a MacBook Pro Max-chip user running multiple high-resolution displays, where the iVANKY FusionDock Ultra's under $650 price buys genuinely more display headroom than any other pick here." },
+      { label: "Save if", text: "You want strong 10GbE and Thunderbolt 5 performance without NVMe storage expansion, where the Sonnet Echo 20 delivers that for under $450, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -176,7 +176,7 @@ export const buyingCriteria = [
 export const faq = [
   { "q": "Do I need a driver install for the 10GbE port on every dock in this comparison?", "a": "The CalDigit TS5 Plus specifically requires a Windows driver install for full 10 Gigabit Ethernet speed, so checking each listing's setup requirements before buying, especially if you're on Windows, is worth doing rather than assuming plug-and-play operation." },
   { "q": "What's the most common mistake buyers make when choosing a Thunderbolt 5 dock with 10GbE?", "a": "Assuming any USB-C laptop will get full Ethernet functionality through the dock, when Ethernet over Thunderbolt specifically requires a genuine Thunderbolt-based host or a PCIe-capable USB4 host to work at all." },
-  { "q": "Is the Sonnet Echo 21 worth the same price as the CalDigit TS5 Plus if I don't need built-in NVMe storage?", "a": "If you don't need the built-in NVMe SSD slot, the CalDigit TS5 Plus's higher total port count and dual USB controller design likely deliver more everyday value at the same $499.99 price." },
+  { "q": "Is the Sonnet Echo 21 worth the same price as the CalDigit TS5 Plus if I don't need built-in NVMe storage?", "a": "If you don't need the built-in NVMe SSD slot, the CalDigit TS5 Plus's higher total port count and dual USB controller design likely deliver more everyday value at the same under $500 price." },
   { "q": "Will the iVANKY FusionDock Ultra work with my Windows laptop?", "a": "No, the iVANKY FusionDock Ultra is specifically built exclusively for the Mac ecosystem and will not work as advertised with a Windows or Chromebook laptop, so Windows users should choose one of the cross-platform picks instead." },
   { "q": "How much faster is 10GbE really compared to the 1GbE port on a typical dock?", "a": "10 Gigabit Ethernet delivers 10 times the throughput of standard 1GbE, which is genuinely noticeable when transferring large files to a NAS or fast network storage, though the real-world benefit depends on your network and storage device also supporting those speeds." },
   { "q": "Can I add my own NVMe SSD to any of these docks, or only the ones with a dedicated slot?", "a": "Only the Sonnet Echo 21 in this comparison has a dedicated built-in M.2 NVMe slot for internal storage expansion; the other three picks would require a separate external SSD enclosure connected to one of their USB or Thunderbolt ports instead." }

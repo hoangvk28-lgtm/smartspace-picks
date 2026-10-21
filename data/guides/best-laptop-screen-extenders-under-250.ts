@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Maximum vertical workspace with 1200P resolution", "S12 Triple Portable Monitor 16\" 1200P"],
         ["Genuine triple-screen productivity at a lower cost", "ZUMWALT P7 Triple Portable Monitor 15.6\""],
-        ["One extra detachable screen without triple-screen complexity", "Laptop Screen Extender 15.6\" Detachable (Slim 0.27\")"],
+        ["One extra detachable screen without triple-screen complexity", "Laptop Screen Extender 15.6\" Detachable (Slim 0.27\")"]
       ],
     },
   },
@@ -116,9 +116,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $130", "Laptop Screen Extender 15.6\" Detachable ($110.48) or Cevaton 15.6\" Detachable ($125.98)"],
-        ["$185-$195", "ZUMWALT P7 Triple Portable Monitor 15.6\" ($189.99)"],
-        ["Under $250", "S12 Triple Portable Monitor 16\" 1200P ($249.98)"],
+        ["Under $130", "Laptop Screen Extender 15.6\" Detachable (under $120) or Cevaton 15.6\" Detachable (under $130)"],
+        ["$185-$195", "ZUMWALT P7 Triple Portable Monitor 15.6\" (under $190)"],
+        ["Under $250", "S12 Triple Portable Monitor 16\" 1200P (under $250)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "1080P 16:9 vs 1200P 16:10",
     cards: [
       { label: "1080P 16:9 (ZUMWALT P7)", text: "Standard resolution and aspect ratio, sharp enough for most productivity and media use, at a meaningfully lower price than the 1200P alternative." },
-      { label: "1200P 16:10 (S12)", text: "Taller aspect ratio shows more vertical content per screen, genuinely useful for coding, spreadsheets, and document-heavy work, for roughly $60 more." },
+      { label: "1200P 16:10 (S12)", text: "Taller aspect ratio shows more vertical content per screen, genuinely useful for coding, spreadsheets, and document-heavy work, for roughly $60 more." }
     ],
     note: "If your work involves long documents, spreadsheets, or code, the extra vertical space of 1200P 16:10 is worth the premium. Otherwise, the 1080P triple-screen pick delivers the same core productivity boost for less.",
   },
@@ -136,7 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Build priority", "Recommended pick"],
       rows: [
         ["Premium CNC-machined aluminum with cooling design", "S12 Triple Portable Monitor 16\" 1200P"],
-        ["Standard aluminum shell at a lower price", "ZUMWALT P7 Triple Portable Monitor 15.6\""],
+        ["Standard aluminum shell at a lower price", "ZUMWALT P7 Triple Portable Monitor 15.6\""]
       ],
     },
   },
@@ -144,16 +144,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Coding and Spreadsheet Work Specifically",
     cards: [
       { label: "Look for", text: "A 16:10 or taller aspect ratio and 1200P or higher resolution, since these show more lines of code or spreadsheet rows without scrolling." },
-      { label: "In this comparison", text: "The S12 Triple Portable Monitor 16\" 1200P is the clear choice, offering both the taller ratio and sharper resolution over the 1080P triple-screen alternative." },
+      { label: "In this comparison", text: "The S12 Triple Portable Monitor 16\" 1200P is the clear choice, offering both the taller ratio and sharper resolution over the 1080P triple-screen alternative." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You do coding, spreadsheet, or document-heavy work where the extra vertical space of the S12 Triple Portable Monitor 16\" 1200P genuinely improves your workflow." },
-      { label: "Save if", text: "A detachable single screen covers your needs, where the Laptop Screen Extender 15.6\" Detachable at $110.48 saves well over $100 versus either triple-screen pick." },
+      { label: "Save if", text: "A detachable single screen covers your needs, where the Laptop Screen Extender 15.6\" Detachable at under $120 saves well over $100 versus either triple-screen pick." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

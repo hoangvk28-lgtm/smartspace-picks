@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41es0jh9nwL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H74XGQH6?tag=deskfinds0d-20",
-    "description": "Secluded Valley uses a 20000 mAh battery for up to 16 hours, with a double-sided flannel of 800 g and a hood. It has 3 temperature settings started by holding the button.\n\nIt is the only cordless pick, and the priciest at $65.98. Against FIGERM, you give up timer precision and certification details but gain freedom to walk.\n\nGood for offices without a nearby outlet or for commutes. The caveat is the weight of the pack and the listing's lack of stated degrees, so test the lowest setting first.",
+    "description": "Secluded Valley uses a 20000 mAh battery for up to 16 hours, with a double-sided flannel of 800 g and a hood. It has 3 temperature settings started by holding the button.\n\nIt is the only cordless pick, and the priciest at under $70. Against FIGERM, you give up timer precision and certification details but gain freedom to walk.\n\nGood for offices without a nearby outlet or for commutes. The caveat is the weight of the pack and the listing's lack of stated degrees, so test the lowest setting first.",
     "specs": [
       "20000 mAh, up to 16 hours",
       "3 temperature settings",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51QIrqZYz6L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H2YTYLYH?tag=deskfinds0d-20",
-    "description": "BEARKISS is a 50 by 60 inch throw in flannel and sherpa with 9 heat levels, an auto-off timer of up to 10 hours and ETL and FCC marks. It is machine washable and available in larger sizes.\n\nIt costs $29.99, about $7 less than Bedsure, and gives more heat levels but no preheat. Against Aheadpret, it has a longer timer window.\n\nChoose it for a budget throw with more heat steps. The caveat is that cord length and wattage are not listed.",
+    "description": "BEARKISS is a 50 by 60 inch throw in flannel and sherpa with 9 heat levels, an auto-off timer of up to 10 hours and ETL and FCC marks. It is machine washable and available in larger sizes.\n\nIt costs under $30, about $7 less than Bedsure, and gives more heat levels but no preheat. Against Aheadpret, it has a longer timer window.\n\nChoose it for a budget throw with more heat steps. The caveat is that cord length and wattage are not listed.",
     "specs": [
       "9 heat levels",
       "Up to 10 hour auto-off",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51obJOs1hxL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0F2SXSFSV?tag=deskfinds0d-20",
-    "description": "Aheadpret is a jacquard heated throw with 5 heat levels, a one button controller and a 3 hour auto-off. The listing cites ETL and FCC certification and says it is hand or machine washable after removing the controller.\n\nThe 3 hour auto-off is the shortest plug-in cutoff here, which is safer for unattended use than BEARKISS's 10 hours. It costs $26.99 and has fewer levels than Bedsure.\n\nBest for an office where you step away often. The caveat is the short cutoff, which means restarting during long work blocks.",
+    "description": "Aheadpret is a jacquard heated throw with 5 heat levels, a one button controller and a 3 hour auto-off. The listing cites ETL and FCC certification and says it is hand or machine washable after removing the controller.\n\nThe 3 hour auto-off is the shortest plug-in cutoff here, which is safer for unattended use than BEARKISS's 10 hours. It costs under $30 and has fewer levels than Bedsure.\n\nBest for an office where you step away often. The caveat is the short cutoff, which means restarting during long work blocks.",
     "specs": [
       "5 heat levels",
       "3 hour auto-off",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41xPFrKYMOL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H2XRJNHF?tag=deskfinds0d-20",
-    "description": "RAYVOICE offers 10 heating settings from 86 to 131F and 5 timers of 1, 2, 4, 6 or 8 hours in a 50 by 60 inch pink plaid throw. The listing says over 85 percent heat coverage and recommends against machine washing.\n\nIt has the widest range of heat settings, but its no-machine-wash instruction makes it harder to clean than BEARKISS or Aheadpret. At $33.29 it costs about $3 more than BEARKISS.\n\nChoose it if you want 10 steps of control. The caveat is the washing restriction and no stated certification marks.",
+    "description": "RAYVOICE offers 10 heating settings from 86 to 131F and 5 timers of 1, 2, 4, 6 or 8 hours in a 50 by 60 inch pink plaid throw. The listing says over 85 percent heat coverage and recommends against machine washing.\n\nIt has the widest range of heat settings, but its no-machine-wash instruction makes it harder to clean than BEARKISS or Aheadpret. At under $35 it costs about $3 more than BEARKISS.\n\nChoose it if you want 10 steps of control. The caveat is the washing restriction and no stated certification marks.",
     "specs": [
       "10 settings, 86F to 131F",
       "5 timers, 1 to 8 hours",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41S3NJ5V7XL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0G1B7SD3C?tag=deskfinds0d-20",
-    "description": "Syglawnd is a small USB heated blanket with hand pockets and knee warming areas, powered from a laptop, power bank or car adapter. The listing mentions overheat protection but gives no temperatures or timers.\n\nIt is the cheapest and smallest pick at $23.49 and works on a USB port, unlike the wall-powered throws. Against Aheadpret, it covers less area but travels easily.\n\nBest for cubicles with a USB port and no outlet. The caveat is that USB heat is low power, so expect mild warmth, and the listing is vague on specs.",
+    "description": "Syglawnd is a small USB heated blanket with hand pockets and knee warming areas, powered from a laptop, power bank or car adapter. The listing mentions overheat protection but gives no temperatures or timers.\n\nIt is the cheapest and smallest pick at under $25 and works on a USB port, unlike the wall-powered throws. Against Aheadpret, it covers less area but travels easily.\n\nBest for cubicles with a USB port and no outlet. The caveat is that USB heat is low power, so expect mild warmth, and the listing is vague on specs.",
     "specs": [
       "USB powered lap blanket",
       "Hand pockets, knee zones",

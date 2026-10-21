@@ -129,20 +129,20 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $167.99",
+          "Under $170",
           "NETGEAR 10-Port PoE Gigabit Smart Managed Switch (GS110TP)"
         ],
         [
-          "Around $554.99",
+          "Under $600",
           "NETGEAR 10-Port 10G Multi-Gigabit Smart Managed Switch (MS510TXM)"
         ],
         [
-          "Around $689.99",
+          "Under $700",
           "NETGEAR 10-Port 10G Multi-Gig PoE Smart Managed Switch (MS510TXUP)"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -190,7 +190,7 @@ export const faq = [
     "a": "No. The total PoE budget is shared across all active PoE ports, so if you power several high-draw devices simultaneously, the switch may not be able to deliver every port's maximum rated wattage at the same time. Check the total budget against your actual device count and power needs."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "NETGEAR 10-Port 10G Multi-Gigabit Smart Managed Switch (MS510TXM) is aimed at buyers prioritizing 4x 10g + 4x 2.5g + 2x 10g sfp+ ports." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "NETGEAR 10-Port 10G Multi-Gigabit Smart Managed Switch (MS510TXM) is aimed at buyers prioritizing 4x 10g + 4x 2.5g + 2x 10g sfp+ ports." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-mikrotik-10gbe-switches","title":"Best MikroTik 10GbE Switches in 2026"},{"href":"/guide/best-cisco-10gbe-switches","title":"Best Cisco 10GbE Switches in 2026"},{"href":"/guide/best-qnap-10gbe-switches","title":"Best QNAP 10GbE Switches in 2026"}];

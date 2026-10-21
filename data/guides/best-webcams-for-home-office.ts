@@ -53,7 +53,7 @@ export const products: HomeOfficeWebcam[] = [
       "720p shows limits if participants view you on a large monitor",
       "Fixed-focus lens softens at unusual angles",
       "USB-A only, no USB-C option",
-      "Not suitable for streaming or recording",
+      "Not suitable for streaming or recording"
     ],
     skipIf:
       "You record tutorial videos, teach online classes with movement, or participants frequently complain about video quality.",
@@ -62,13 +62,13 @@ export const products: HomeOfficeWebcam[] = [
       "Under $40, lowest price on the list",
       "TrueColor technology for decent lighting handling",
       "Noise-cancelling microphone",
-      "Plug-and-play, no setup required",
+      "Plug-and-play, no setup required"
     ],
     cons: [
       "720p only, shows limits on large monitors",
       "Fixed focus lens",
       "USB-A only, no USB-C",
-      "Not suited for streaming or local recording",
+      "Not suited for streaming or local recording"
     ],
   },
   {
@@ -90,7 +90,7 @@ export const products: HomeOfficeWebcam[] = [
     tradeoffs: [
       "Zoom certification but not Teams-certified out of the box",
       "Works fine with Teams as USB camera but without certified-driver privileges",
-      "2K resolution advantage disappears entirely if connection throttles video quality",
+      "2K resolution advantage disappears entirely if connection throttles video quality"
     ],
     skipIf:
       "You are in a committed Teams-only shop wanting certified experience; step up to Brio 300 instead.",
@@ -99,12 +99,12 @@ export const products: HomeOfficeWebcam[] = [
       "Three adjustable FOV settings: 65, 78, and 95 degrees",
       "Dual AI noise-cancelling microphones",
       "Built-in sliding privacy cover",
-      "Zoom certified",
+      "Zoom certified"
     ],
     cons: [
       "Not Teams-certified",
       "2K advantage lost on throttled connections",
-      "Software required to adjust FOV",
+      "Software required to adjust FOV"
     ],
   },
   {
@@ -127,7 +127,7 @@ export const products: HomeOfficeWebcam[] = [
       "30fps cap means motion is not silky smooth for fast movement",
       "No USB-C",
       "Logitech Capture software is optional but bloated",
-      "Newer cameras with better low-light sensors available at similar price",
+      "Newer cameras with better low-light sensors available at similar price"
     ],
     skipIf:
       "You sit at a standing desk and move between sit and stand during calls; fixed framing will leave you out of frame when standing; look at OBSBOT Meet SE for AI auto-framing.",
@@ -137,13 +137,13 @@ export const products: HomeOfficeWebcam[] = [
       "Glass lens for better low-light performance",
       "Dual omni-directional microphones",
       "Privacy shutter included",
-      "Teams and Zoom certified",
+      "Teams and Zoom certified"
     ],
     cons: [
       "30fps cap, not ideal for fast movement",
       "USB-A only, no USB-C",
       "No AI auto-framing",
-      "Logitech Capture software can be bloated",
+      "Logitech Capture software can be bloated"
     ],
   },
   {
@@ -165,7 +165,7 @@ export const products: HomeOfficeWebcam[] = [
     tradeoffs: [
       "1080p at 30fps only, no higher frame rate",
       "Fixed 70-degree FOV, slightly narrower than average",
-      "No AI framing",
+      "No AI framing"
     ],
     skipIf:
       "You need wider frame coverage for dual-monitor setup or want smoother motion; OBSBOT Meet SE gives more at $100.",
@@ -174,12 +174,12 @@ export const products: HomeOfficeWebcam[] = [
       "USB-C for Mac users",
       "Auto light correction for backlit environments",
       "Noise-reduction microphone",
-      "Built-in privacy shutter",
+      "Built-in privacy shutter"
     ],
     cons: [
       "1080p at 30fps only",
       "Narrow 70-degree FOV",
-      "No AI auto-framing",
+      "No AI auto-framing"
     ],
   },
   {
@@ -201,7 +201,7 @@ export const products: HomeOfficeWebcam[] = [
     tradeoffs: [
       "AI framing can be jittery when you make small movements it misreads",
       "Auto-tracking adds small processing delay",
-      "Not the right camera for someone wanting a static, locked-off shot",
+      "Not the right camera for someone wanting a static, locked-off shot"
     ],
     skipIf:
       "You sit at a fixed desk, never move during calls, and just want the cleanest possible static shot; Brio 300 or C920S delivers better still-frame consistency for less money.",
@@ -210,12 +210,12 @@ export const products: HomeOfficeWebcam[] = [
       "AI auto-framing tracks person or switches to group mode",
       "1/2.8-inch sensor with staggered HDR",
       "Gesture control for hands-free camera adjustment",
-      "Teams and Zoom certified",
+      "Teams and Zoom certified"
     ],
     cons: [
       "AI framing jittery on small movements",
       "Tracking adds processing delay",
-      "Not ideal for static locked-off shots",
+      "Not ideal for static locked-off shots"
     ],
   },
   {
@@ -237,7 +237,7 @@ export const products: HomeOfficeWebcam[] = [
     tradeoffs: [
       "Zoom certified but not Teams or Meet certified at driver level",
       "AI framing smoother than OBSBOT Meet SE but less aggressive in how far it will zoom to keep you in frame",
-      "Software-dependent for FOV adjustment",
+      "Software-dependent for FOV adjustment"
     ],
     skipIf:
       "Your primary platform is Teams and you want certified driver experience; look at Logitech Brio 300 or step up to Insta360 Link 2C.",
@@ -247,12 +247,12 @@ export const products: HomeOfficeWebcam[] = [
       "HDR mode for mixed lighting",
       "Adjustable FOV: 65, 78, and 90 degrees",
       "Noise-cancelling microphones",
-      "Premium build quality for the price",
+      "Premium build quality for the price"
     ],
     cons: [
       "Zoom only, not Teams or Meet certified",
       "Software required for FOV adjustment",
-      "Less aggressive AI framing reach than OBSBOT",
+      "Less aggressive AI framing reach than OBSBOT"
     ],
   },
   {
@@ -274,7 +274,7 @@ export const products: HomeOfficeWebcam[] = [
     tradeoffs: [
       "4K advantage entirely wasted if only used for Zoom calls",
       "Motorized tracking makes faint noise in very quiet rooms",
-      "Insta360 software required to unlock advanced features and adds background process",
+      "Insta360 software required to unlock advanced features and adds background process"
     ],
     skipIf:
       "Your use case is purely meetings with no local recording or streaming; Anker PowerConf C300 at $130 delivers 90% of call quality at meaningfully lower price.",
@@ -284,15 +284,15 @@ export const products: HomeOfficeWebcam[] = [
       "AI tracking with motorized gimbal",
       "Certified for Teams, Zoom, and Google Meet",
       "Magnetic monitor mount, no clip needed",
-      "Gesture control included",
+      "Gesture control included"
     ],
     cons: [
       "4K advantage wasted for meetings-only use",
       "Motor noise audible in quiet rooms",
       "Requires Insta360 software for advanced features",
-      "Premium price at $180",
+      "Premium price at $180"
     ],
-  },
+  }
 ];
 
 export const atAGlanceRows = products.map((p) => ({
@@ -334,11 +334,11 @@ export const faq = [
   {
     q: "Which webcam is best for a standing desk?",
     a: "Any webcam with AI auto-framing. The OBSBOT Meet SE or Anker PowerConf C300 both adjust their zoom and crop as you transition between sitting and standing. Fixed cameras like the Logitech C920S will frame you correctly for one height only.",
-  },
+  }
 ];
 
 export const relatedGuides = [
   { title: "7 Best Headsets for Work: Budget to Premium", href: "/guide/best-headset-for-work" },
   { title: "7 Best Document Cameras for Home Office and Teaching", href: "/guide/best-document-cameras-home-office" },
-  { title: "Ergonomic Desk Setup Guide", href: "/guide/ergonomic-desk-setup" },
+  { title: "Ergonomic Desk Setup Guide", href: "/guide/ergonomic-desk-setup" }
 ];

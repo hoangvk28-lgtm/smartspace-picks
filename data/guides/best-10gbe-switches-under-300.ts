@@ -237,7 +237,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Define the compact full-10G crossover capability floor",
-    "explanation": "Define the compact full-10G crossover capability floor: Current QSW-3205-5T at $279 provides five native 10GBASE-T ports. Five true 10G ports should now be a realistic floor. Do not expand the list with products that fail the core category definition just to reach a target number of picks. This matters directly when comparing the picks in this guide, since two products near the same price point often differ meaningfully on this exact point once you look past the headline spec. Check the specific listing for this detail rather than assuming parity across similarly priced options, and weigh it against your actual use case before deciding between two close picks in this price tier."
+    "explanation": "Define the compact full-10G crossover capability floor: Current QSW-3205-5T at under $300 provides five native 10GBASE-T ports. Five true 10G ports should now be a realistic floor. Do not expand the list with products that fail the core category definition just to reach a target number of picks. This matters directly when comparing the picks in this guide, since two products near the same price point often differ meaningfully on this exact point once you look past the headline spec. Check the specific listing for this detail rather than assuming parity across similarly priced options, and weigh it against your actual use case before deciding between two close picks in this price tier."
   },
   {
     "criterion": "Make simultaneously usable 10G ports + RJ45/SFP+ media",

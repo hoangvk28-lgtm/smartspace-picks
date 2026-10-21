@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Large, easy-to-read numbers plus USB charging", "DreamSky Small Digital Alarm Clock, Large Big Numbers"],
         ["A genuinely decorative, elegant design", "Peakeep Slim Digital Mirror Aesthetic Alarm Clock"],
-        ["Ambient mood lighting with dual-device charging", "Digital Alarm Clock with 10 Color Changing Night Light"],
+        ["Ambient mood lighting with dual-device charging", "Digital Alarm Clock with 10 Color Changing Night Light"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $17", "Peakeep Battery Powered ($16.99)"],
-        ["$19-$20", "DreamSky ($18.99), Peakeep Mirror ($18.99), or Color Night Light ($19.99)"],
+        ["Under $17", "Peakeep Battery Powered (under $20)"],
+        ["$19-$20", "DreamSky (under $20), Peakeep Mirror (under $20), or Color Night Light (under $20)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "AC-Powered Features vs Fully Cordless Freedom",
     cards: [
       { label: "AC-Powered (DreamSky, Peakeep Mirror, Color Night Light)", text: "Unlocks USB charging ports and continuous ambient lighting, features that require a steady power source to function." },
-      { label: "Fully Cordless (Peakeep Battery Powered)", text: "Complete placement freedom anywhere in the room, without USB charging capability since it isn't connected to power." },
+      { label: "Fully Cordless (Peakeep Battery Powered)", text: "Complete placement freedom anywhere in the room, without USB charging capability since it isn't connected to power." }
     ],
     note: "If you want USB charging or continuous ambient lighting, you'll need an AC-powered pick. If cordless placement flexibility matters more, the battery-only Peakeep pick is the better fit.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your lighting sensitivity", "Recommended pick"],
       rows: [
         ["Want the most granular brightness control", "Peakeep Slim Digital Mirror (6 dimmer levels)"],
-        ["Want automatic adjustment without manual settings", "Peakeep Battery Powered (auto-dimmer)"],
+        ["Want automatic adjustment without manual settings", "Peakeep Battery Powered (auto-dimmer)"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Charging Multiple Devices Overnight Specifically",
     cards: [
       { label: "Look for", text: "A clock with more than one USB port, ideally covering both USB-A and USB-C connector types for different devices." },
-      { label: "In this comparison", text: "The Digital Alarm Clock with Color Night Light is the only pick here with both USB-A and USB-C ports for charging two devices simultaneously." },
+      { label: "In this comparison", text: "The Digital Alarm Clock with Color Night Light is the only pick here with both USB-A and USB-C ports for charging two devices simultaneously." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want ambient mood lighting and dual-device USB charging, where the Color Night Light pick delivers both features at the top of this price range." },
-      { label: "Save if", text: "A cordless clock with automatic dimming covers your needs, where the Peakeep Battery Powered pick delivers this at the lowest price in this comparison." },
+      { label: "Save if", text: "A cordless clock with automatic dimming covers your needs, where the Peakeep Battery Powered pick delivers this at the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31h8tZtHo7L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GWRJKD53?tag=deskfinds0d-20",
-    "description": "Rboiye is a 17.7 inch chrome steel ring with a 2.1 inch center hole, tool-free clamping and a scratch-resistant coating. The listing says it is not compatible with tapered or non-standard cylinders.\n\nIt is $0.51 cheaper than Kaleurrier, a good middle size at 17.7 inches. The listing advises the ring should be larger than your seat, which this size meets on most stools.\n\nBest for a standard stool or bar chair. The caveat is the same cylinder fit check as the others.",
+    "description": "Rboiye is a 17.7 inch chrome steel ring with a 2.1 inch center hole, tool-free clamping and a scratch-resistant coating. The listing says it is not compatible with tapered or non-standard cylinders.\n\nIt is $1 cheaper than Kaleurrier, a good middle size at 17.7 inches. The listing advises the ring should be larger than your seat, which this size meets on most stools.\n\nBest for a standard stool or bar chair. The caveat is the same cylinder fit check as the others.",
     "specs": [
       "17.7 inch chrome steel ring",
       "2.1 inch center hole",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41d4YrTuGXL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B089LXT4MG?tag=deskfinds0d-20",
-    "description": "Kaleurrier is a 16 inch metal ring with a 2.1 inch center hole, a plastic liner inside the hub to protect the gas lift, black spokes and height adjustment locked with a screw. It comes with a one-year warranty.\n\nIt costs about $0.50 more than Rboiye and is the smallest ring here. The plastic liner protects the cylinder from scratches.\n\nBest for a shorter stool where space matters. The caveat is that a 16 inch ring is a smaller foot area.",
+    "description": "Kaleurrier is a 16 inch metal ring with a 2.1 inch center hole, a plastic liner inside the hub to protect the gas lift, black spokes and height adjustment locked with a screw. It comes with a one-year warranty.\n\nIt costs about $1 more than Rboiye and is the smallest ring here. The plastic liner protects the cylinder from scratches.\n\nBest for a shorter stool where space matters. The caveat is that a 16 inch ring is a smaller foot area.",
     "specs": [
       "16 inch metal ring",
       "Plastic hub liner protects cylinder",

@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["The highest refresh rate at the lowest price", "msi PRO MP242 E14C 24-inch 144Hz"],
         ["Competitive gaming with Variable Refresh Rate", "ViewSonic VX2416A 24 Inch 120Hz Gaming Monitor"],
-        ["Confirmed passthrough laptop charging", "ViewSonic VA2448-MHU 24 Inch 120Hz"],
+        ["Confirmed passthrough laptop charging", "ViewSonic VA2448-MHU 24 Inch 120Hz"]
       ],
     },
   },
@@ -116,9 +116,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $90", "msi PRO MP242 E14C 24-inch 144Hz ($84.99)"],
-        ["$95-$115", "BenQ GW2490C 23.8\" 144Hz ($99.99) or ViewSonic VX2416A ($109.99)"],
-        ["$125-$130", "ViewSonic VA2448-MHU 24 Inch 120Hz ($129.99)"],
+        ["Under $90", "msi PRO MP242 E14C 24-inch 144Hz (under $90)"],
+        ["$95-$115", "BenQ GW2490C 23.8\" 144Hz (under $100) or ViewSonic VX2416A (under $110)"],
+        ["$125-$130", "ViewSonic VA2448-MHU 24 Inch 120Hz (under $130)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Gaming-Tuned vs Office-Tuned Panels",
     cards: [
       { label: "Gaming-Tuned (ViewSonic VX2416A)", text: "1ms response time and Variable Refresh Rate specifically target competitive gaming, where every millisecond of input lag matters." },
-      { label: "Office-Tuned (BenQ GW2490C, msi PRO MP242)", text: "Built around eye-care features and reliable long-session use, with 144Hz still smoothing everyday scrolling and multitasking even without gaming-specific tuning." },
+      { label: "Office-Tuned (BenQ GW2490C, msi PRO MP242)", text: "Built around eye-care features and reliable long-session use, with 144Hz still smoothing everyday scrolling and multitasking even without gaming-specific tuning." }
     ],
     note: "If you split time between gaming and work, the msi PRO MP242 or ViewSonic VX2416A both handle either reasonably well since both offer at least 120Hz.",
   },
@@ -136,7 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your priority", "Recommended pick"],
       rows: [
         ["Confirmed passthrough laptop charging", "ViewSonic VA2448-MHU 24 Inch 120Hz"],
-        ["USB-C for video and data only, charging not confirmed", "msi PRO MP242, ViewSonic VX2416A, or BenQ GW2490C"],
+        ["USB-C for video and data only, charging not confirmed", "msi PRO MP242, ViewSonic VX2416A, or BenQ GW2490C"]
       ],
     },
   },
@@ -144,16 +144,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Extended Workdays Specifically",
     cards: [
       { label: "Look for", text: "Explicit flicker-free and low blue light certifications, ideally from a named third party like TUV Rheinland, rather than a generic \"eye comfort\" claim." },
-      { label: "In this comparison", text: "The msi PRO MP242 E14C states TUV Rheinland certification directly, while the BenQ GW2490C's Eye-Care suite is specifically framed around long office and study sessions." },
+      { label: "In this comparison", text: "The msi PRO MP242 E14C states TUV Rheinland certification directly, while the BenQ GW2490C's Eye-Care suite is specifically framed around long office and study sessions." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You specifically need confirmed passthrough laptop charging through the monitor's own power adapter, where the ViewSonic VA2448-MHU is the clear choice in this guide." },
-      { label: "Save if", text: "You just want the highest refresh rate for smoother everyday use, where the msi PRO MP242 E14C delivers 144Hz for under $85." },
+      { label: "Save if", text: "You just want the highest refresh rate for smoother everyday use, where the msi PRO MP242 E14C delivers 144Hz for under $85." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

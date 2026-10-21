@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Distinctive styling with strong safety engineering", "AMERLIFE 70\" Fluted Fireplace TV Stand"],
         ["A genuine fireplace at the lowest price", "YESHOMY 58\" Fireplace TV Stand"],
-        ["The largest fireplace and most flame colors", "PRETZI 70\" Modern Fireplace TV Stand with 40\" Electric Fireplace"],
+        ["The largest fireplace and most flame colors", "PRETZI 70\" Modern Fireplace TV Stand with 40\" Electric Fireplace"]
       ],
     },
   },
@@ -116,9 +116,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $160", "PRETZI 70\" Fireplace ($159.99)"],
-        ["$180-$190", "OKD Modern Non-Fireplace ($179.99) or YESHOMY Fireplace ($188.99)"],
-        ["Under $250", "AMERLIFE Fluted Fireplace ($249.99)"],
+        ["Under $160", "PRETZI 70\" Fireplace (under $160)"],
+        ["$180-$190", "OKD Modern Non-Fireplace (under $180) or YESHOMY Fireplace (under $190)"],
+        ["Under $250", "AMERLIFE Fluted Fireplace (under $250)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Fireplace vs No Fireplace",
     cards: [
       { label: "Fireplace-Equipped (AMERLIFE, YESHOMY, PRETZI)", text: "Adds genuine ambiance and heating output, a meaningful upgrade for cold climates or buyers who want the cozy visual effect, at the cost of more complex wiring and safety considerations." },
-      { label: "No Fireplace (OKD)", text: "Simpler setup with strong TV size and weight capacity, better suited to warmer climates, rental restrictions on heating appliances, or buyers who just don't want the added feature." },
+      { label: "No Fireplace (OKD)", text: "Simpler setup with strong TV size and weight capacity, better suited to warmer climates, rental restrictions on heating appliances, or buyers who just don't want the added feature." }
     ],
     note: "A fireplace TV stand is a genuinely different purchase than a standard console. Choose based on whether you'll actually use the heating and ambiance feature regularly, not just because it's available at this price.",
   },
@@ -136,7 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your priority", "Recommended pick"],
       rows: [
         ["Largest fireplace insert and most flame colors", "PRETZI 70\" Fireplace (40\" insert, 20 LED colors)"],
-        ["More distinctive fluted styling with 8 flame colors", "AMERLIFE 70\" Fluted Fireplace TV Stand"],
+        ["More distinctive fluted styling with 8 flame colors", "AMERLIFE 70\" Fluted Fireplace TV Stand"]
       ],
     },
   },
@@ -144,16 +144,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Year-Round Use in Varying Climates Specifically",
     cards: [
       { label: "Look for", text: "A fireplace that can run its flame display without heat, useful for warmer months when you want the ambiance but not the added warmth." },
-      { label: "In this comparison", text: "The AMERLIFE 70\" Fluted Fireplace TV Stand specifically states its display can run with or without heat, ideal for year-round use." },
+      { label: "In this comparison", text: "The AMERLIFE 70\" Fluted Fireplace TV Stand specifically states its display can run with or without heat, ideal for year-round use." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want distinctive fluted styling with genuine safety engineering, where the AMERLIFE pick delivers anti-tip design and overheat protection in this comparison." },
-      { label: "Save if", text: "You don't need a fireplace, where the OKD Modern TV Stand delivers 80\" TV compatibility and strong weight capacity without the added cost and complexity." },
+      { label: "Save if", text: "You don't need a fireplace, where the OKD Modern TV Stand delivers 80\" TV compatibility and strong weight capacity without the added cost and complexity." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

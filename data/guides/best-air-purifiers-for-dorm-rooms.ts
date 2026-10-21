@@ -5,7 +5,7 @@ export const metaDescription = "5 air purifiers we evaluated for dorm rooms, wit
 export const mainKeyword = "air purifier dorm";
 export const introParagraphs = [
   "Many universities have specific fire-safety or electrical policies restricting certain appliance types or wattage in dorm rooms, verify your specific school's housing policy before assuming any air purifier is automatically permitted.",
-  "Dorm rooms are frequently small, shared, and poorly ventilated with variable furniture arrangements each semester, sizing guidance should account for shared occupancy and furniture-crowded conditions rather than assuming an empty-room CADR test applies.",
+  "Dorm rooms are frequently small, shared, and poorly ventilated with variable furniture arrangements each semester, sizing guidance should account for shared occupancy and furniture-crowded conditions rather than assuming an empty-room CADR test applies."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Air Purifier for Dorm Rooms Overall",
     name: "Levoit Air Purifiers for Bedroom Home Pets Dorm Room, Small Air Purifiers",
     price: "$49.99",
-    rating: "4.6 stars from 44,671 Amazon ratings",
-    reviews: "44,671 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ODC2Uu41L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09GTRVJQM?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Quiet Dorm Pick for Roommate Situations",
     name: "Levoit Air Purifiers for Home Bedroom Dorm Room, Small Quiet Air Purifiers",
     price: "$44.99",
-    rating: "4.6 stars from 44,671 Amazon ratings",
-    reviews: "44,671 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31e6d46ZnyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09LMF648R?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Certified HEPA Dorm Pick",
     name: "Air Purifiers for Bedroom, FULMINARE H13 True HEPA Air Filter, Quiet Air Cleaner With Night Light, Portable Small Air Purifier for Home, Office, Living Room",
     price: "$24.99",
-    rating: "4.4 stars from 5,517 Amazon ratings",
-    reviews: "5,517 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/414NIpA+xLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B4ZSKPNL?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Dorm Pick",
     name: "VOOPNU Air Purifiers for Home, High Efficiency Filter Up to 1076 Ft2, White",
     price: "$26.99",
-    rating: "4.5 stars from 4,026 Amazon ratings",
-    reviews: "4,026 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41BE3lVftQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DY4S3HP2?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Storage-Friendly Pick",
     name: "Purivortex Air Purifiers for Bedroom, Covers Up to 880 Sq Ft, PX500 Black",
     price: "$32.99",
-    rating: "4.5 stars from 2,997 Amazon ratings",
-    reviews: "2,997 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Apo3YcVHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9SL7894?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Solid review base", "Affordable price", "Compact, storage-friendly design", "Genuine headroom for shared occupancy"],
     cons: ["Verify your school's specific appliance policy", "Verify realistic outlet availability alongside other dorm appliances", "No smart features"],
     bestFor: "Buyers who want a compact, storage-friendly purifier for dorm move-out logistics",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "University policy compliance flagged as a first-step consideration", description: "Emphasized verifying a specific school's fire-safety or electrical wattage policy for personal appliances before assuming any purifier is automatically permitted in a dorm room." },
   { title: "Shared-occupancy, furniture-crowded room sizing adjustment", description: "Adjusted sizing guidance for shared dorm rooms with variable furniture arrangements each semester, rather than assuming an empty-room CADR test applies." },
-  { title: "Move-in/move-out storage and shared-outlet practical constraints", description: "Considered dorm-specific practical constraints like limited storage over summer break and shared mini-fridge or microwave outlet competition, rarely addressed in general small-room purifier guidance." },
+  { title: "Move-in/move-out storage and shared-outlet practical constraints", description: "Considered dorm-specific practical constraints like limited storage over summer break and shared mini-fridge or microwave outlet competition, rarely addressed in general small-room purifier guidance." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Do I need my roommate's agreement to run an air purifier overnight?", a: "It's worth discussing. Roommate noise tolerance and shared-space etiquette introduce a joint-decision noise threshold distinct from a single-occupant bedroom, talk to your roommate before committing to overnight operation." },
   { q: "How do I handle a dorm air purifier during summer break?", a: "Consider its storage footprint when moving out, dorm move-in and move-out logistics mean limited storage space over summer, a more compact purifier is genuinely easier to manage during this transition." },
   { q: "Do dorms typically allow air purifiers, or are there restrictions?", a: "Policies vary by school, check your specific dorm's appliance rules before buying, some restrict wattage or require UL certification, which most mainstream air purifier brands already meet." },
-  { q: "Is a quiet air purifier important for a shared dorm room?", a: "Yes, genuinely more than in a private room, since a roommate sharing the same space has no control over the noise, prioritize a low decibel rating at the speed you'd actually run it overnight." },
+  { q: "Is a quiet air purifier important for a shared dorm room?", a: "Yes, genuinely more than in a private room, since a roommate sharing the same space has no control over the noise, prioritize a low decibel rating at the speed you'd actually run it overnight." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-air-purifiers-for-small-rooms", title: "Best Air Purifiers for Small Rooms (2026)" },
   { href: "/guide/best-air-purifiers-for-bedrooms-and-home-offices", title: "Best Air Purifiers for Bedrooms and Home Offices (2026)" },
-  { href: "/guide/best-ozone-free-air-purifiers", title: "Best Ozone-Free Air Purifiers (2026)" },
+  { href: "/guide/best-ozone-free-air-purifiers", title: "Best Ozone-Free Air Purifiers (2026)" }
 ];

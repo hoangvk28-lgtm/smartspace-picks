@@ -5,7 +5,7 @@ export const metaDescription = "5 DisplayPort KVM switches we evaluated, with a 
 export const mainKeyword = "displayport kvm switch";
 export const introParagraphs = [
   "DisplayPort generally supports higher refresh rates than HDMI at the same resolution, worth choosing a DisplayPort-based switch specifically if high refresh rate matters more to you than broad device compatibility, since HDMI remains more universally supported across consumer electronics.",
-  "DisplayPort's daisy-chaining capability via Multi-Stream Transport is a genuine advantage over most HDMI switches, worth considering if you might want to expand your monitor chain later without replacing the switch itself.",
+  "DisplayPort's daisy-chaining capability via Multi-Stream Transport is a genuine advantage over most HDMI switches, worth considering if you might want to expand your monitor chain later without replacing the switch itself."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     badge: "Best DisplayPort KVM Switch Overall",
     name: "Displayport KVM Switch 2 Monitors 2 Computers 4K@144Hz USB3.0 KVM Switch for 2 Computers Share",
     price: "$69.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/316j7WYjfbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GYMRCQ7X?tag=deskfinds0d-20",
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Monitor DisplayPort Pick",
     name: "UGREEN 8K@60Hz Displayport KVM Switch 2 Monitors 2 Computers, Aluminum",
     price: "$74.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41jfRwJIO6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXF5Z23S?tag=deskfinds0d-20",
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     badge: "Best Single-Monitor DisplayPort Pick",
     name: "UGREEN 8K@60Hz Displayport KVM Switch 1 Monitors 2 Computers, Aluminum",
     price: "$54.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41WJ-pVY9oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTPW6ZMN?tag=deskfinds0d-20",
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     badge: "Best Multi-Format Pick with DisplayPort",
     name: "UGREEN 8K@60Hz HDMI Displayport KVM Switch 3 Monitors 2 Computers, Aluminum",
     price: "$92.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41r-g4mzwpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G34NJ11Y?tag=deskfinds0d-20",
@@ -89,7 +89,7 @@ export const products: GuideProduct[] = [
     badge: "Best DisplayPort-Capable Docking Pick",
     name: "AV Access 8K DisplayPort KVM Docking Station 3 Monitors 2 PCs, 6 DP Cables",
     price: "$249.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41nIPKpmEQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CRDQW4GT?tag=deskfinds0d-20",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "DisplayPort's refresh rate advantage over HDMI considered", description: "Considered that DisplayPort generally supports higher refresh rates than HDMI at the same resolution, weighing this advantage for buyers prioritizing smooth motion." },
   { title: "Daisy-chaining capability via MST valued where relevant", description: "Valued DisplayPort's Multi-Stream Transport daisy-chaining capability, a genuine advantage over most HDMI switches for buyers wanting to expand their monitor chain later." },
   { title: "Device compatibility trade-off acknowledged honestly", description: "Acknowledged that DisplayPort requires DisplayPort-equipped monitors and computers, less universally supported than HDMI across consumer electronics." },
-  { title: "Included cable quality valued for DisplayPort-focused docking solutions", description: "Valued genuinely included certified DisplayPort cables, which reduce the hassle and cost of sourcing separate high-quality cables." },
+  { title: "Included cable quality valued for DisplayPort-focused docking solutions", description: "Valued genuinely included certified DisplayPort cables, which reduce the hassle and cost of sourcing separate high-quality cables." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -227,11 +227,11 @@ export const faq: FaqItem[] = [
   { q: "Do all my devices need DisplayPort to use a DisplayPort KVM switch?", a: "Yes, verify your monitors and computers actually have DisplayPort connectivity before buying, since this is less universal than HDMI." },
   { q: "Do DisplayPort KVM switches come with cables?", a: "Not always, some premium docking solutions include certified DisplayPort cables, which genuinely reduces sourcing hassle." },
   { "q": "What's the single best pick to come out of this comparison?", a: "Buyers wanting the highest achievable refresh rate on a dual-monitor DisplayPort setup" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers with a single-monitor DisplayPort setup wanting a high resolution ceiling at a moderate price At $54.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers with a single-monitor DisplayPort setup wanting a high resolution ceiling at a moderate price At under $60, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-hdmi-kvm-switches", title: "Best HDMI KVM Switches (2026)" },
   { href: "/guide/best-4k-kvm-switches", title: "Best 4K KVM Switches (2026)" },
-  { href: "/guide/best-triple-monitor-kvm-switches", title: "Best Triple-Monitor KVM Switches (2026)" },
+  { href: "/guide/best-triple-monitor-kvm-switches", title: "Best Triple-Monitor KVM Switches (2026)" }
 ];

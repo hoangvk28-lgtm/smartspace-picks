@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $2,499.00",
+          "Under $2,500",
           "Carvera Air Desktop CNC by MAKERA"
         ],
         [
-          "Around $2,997.00",
+          "Under $3,000",
           "Carvera Air Desktop CNC with 4th Axis Rotary & Add-on"
         ],
         [
-          "Around $3,197.00",
+          "Under $3,200",
           "Carvera Air Desktop CNC with 4th Axis & PCB Kit"
         ],
         [
-          "Around $9,989.00",
+          "Under $10,000",
           "Xmachine XM-100 Desktop 5 Axis CNC Milling Machine with Automatic Tool Changer"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Carvera Air Desktop CNC with 4th Axis & PCB Kit is aimed at buyers prioritizing 4th axis: 3.6in dia x 7.9in rotary work area." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Carvera Air Desktop CNC with 4th Axis & PCB Kit is aimed at buyers prioritizing 4th axis: 3.6in dia x 7.9in rotary work area." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desktop-cnc-machines","title":"Best Desktop CNC Machines in 2026"},{"href":"/guide/best-desktop-cnc-mills","title":"Best Desktop CNC Mills in 2026"},{"href":"/guide/best-cutter-desktop-cnc-machines","title":"Best Cutter Desktop CNC Machines in 2026"}];

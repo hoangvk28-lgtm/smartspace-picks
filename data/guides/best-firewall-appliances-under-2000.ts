@@ -269,7 +269,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Define the branch/rack crossover capability floor",
-    "explanation": "Define the branch/rack crossover capability floor: Current 8200 MAX at $1,749 enters. Rackability, 10GbE-class interfaces, redundancy/support and sustained throughput should rise sharply. Reject products that meet the price ceiling but fail the core use-case minimum. This matters directly when comparing the picks in this guide, since two products near the same price point often differ meaningfully on this exact point once you look past the headline spec. Check the specific listing for this detail rather than assuming parity across similarly priced options, and weigh it against your actual use case before deciding between two close picks in this price tier."
+    "explanation": "Define the branch/rack crossover capability floor: Current 8200 MAX at under $1,800 enters. Rackability, 10GbE-class interfaces, redundancy/support and sustained throughput should rise sharply. Reject products that meet the price ceiling but fail the core use-case minimum. This matters directly when comparing the picks in this guide, since two products near the same price point often differ meaningfully on this exact point once you look past the headline spec. Check the specific listing for this detail rather than assuming parity across similarly priced options, and weigh it against your actual use case before deciding between two close picks in this price tier."
   },
   {
     "criterion": "Build a threshold-specific comparison for NIC topology +",

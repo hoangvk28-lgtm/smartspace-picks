@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     description: "Rotary Roller Y Axis Rotary Roller Engraving Module and is built around material, positioning it for rotary attachments for buyers specifically.\n\nAdjustable is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for rotary attachments for, though as with any equipment purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Material","Adjustable","Applications"],
     pros: ["Material, confirmed directly in the listing's own spec details","Adjustable, confirmed directly in the listing's own spec details","Applications, confirmed directly in the listing's own spec details"],
-    cons: ["At $34.85, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $35, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for rotary attachments for",
   },
   {
@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "Artilume Laser Rotary Roller 360 Y-Axis Rotary Module and is built around rotates 360 degrees, positioning it for rotary attachments for buyers specifically.\n\nEffortless Engraving is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for rotary attachments for, though as with any equipment purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Rotates 360 Degrees","Effortless Engraving","Built to Last with Versatile Compatibility"],
     pros: ["Rotates 360 Degrees, confirmed directly in the listing's own spec details","Effortless Engraving, confirmed directly in the listing's own spec details","Built to Last with Versatile Compatibility, confirmed directly in the listing's own spec details"],
-    cons: ["At $59.00, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $60, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for rotary attachments for",
   }
 
@@ -292,7 +292,7 @@ export const faq = [
     "a": "Diode and CO2 lasers typically mark or engrave coated metal but cannot cut through bare metal; that requires a fiber laser, a different source architecture entirely."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who specifically want designed for smooth y-axis rotary motion, the acmer m4 laser rotary" },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who specifically want designed for smooth y-axis rotary motion, the acmer m4 laser rotary" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-laser-engravers","title":"Best Laser Engravers"},{"href":"/guide/best-laser-engravers-for-wood","title":"Best Laser Engravers for Wood"},{"href":"/guide/best-portable-laser-engravers","title":"Best Portable Laser Engravers"}];

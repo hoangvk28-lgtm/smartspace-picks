@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small safes for home";
 export const introParagraphs = [
   "A home safe needs to fit realistically in a closet, cabinet, or bedroom, with an access plan the whole household can actually use. We compared confirmed capacity, access method, and protection type across these picks, and flagged the one listing here that specifically claims fire resistance versus the others that only offer basic theft deterrence.",
-  "None of these listings had independently verified anchoring instructions specific to common home substrates like drywall over wood studs, so we're noting that as something to confirm directly before installation.",
+  "None of these listings had independently verified anchoring instructions specific to common home substrates like drywall over wood studs, so we're noting that as something to confirm directly before installation."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     reviews: "22969",
     imageUrl: "https://m.media-amazon.com/images/I/413jIpPxMOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B078MYJYD5?tag=deskfinds0d-20",
-    description: "With nearly 23,000 reviews, this is by a wide margin the most bought and reviewed small safe on the market, and for a household deciding between a dozen similar-looking options, that sample size alone is a meaningful signal. It's built from reinforced solid steel with dual door locking bolts and a corrosion-resistant powder coat finish, which matters if the safe ends up in a garage, basement, or humid closet rather than climate-controlled.\n\nThe magnetic auto-locking door is the standout household feature: it locks itself the instant you close it, so there's no risk of a kid or guest finding it accidentally left open. At 9.05 x 6.69 x 6.69 inches exterior, it's genuinely compact, sized for cash, a passport, or jewelry rather than a stack of files, and two emergency keys ship in the box in case someone in the household forgets the code.\n\nWorth calling out specifically: self-locking door removes the risk of an accidentally unsecured safe. The catch is compact interior, verify your household's specific items fit before buying.",
+    description: "It's built from reinforced solid steel with dual door locking bolts and a corrosion-resistant powder coat finish, which matters if the safe ends up in a garage, basement, or humid closet rather than climate-controlled.\n\nThe magnetic auto-locking door is the standout household feature: it locks itself the instant you close it, so there's no risk of a kid or guest finding it accidentally left open. At 9.05 x 6.69 x 6.69 inches exterior, it's genuinely compact, sized for cash, a passport, or jewelry rather than a stack of files, and two emergency keys ship in the box in case someone in the household forgets the code.\n\nWorth calling out specifically: self-locking door removes the risk of an accidentally unsecured safe. The catch is compact interior, verify your household's specific items fit before buying.",
     specs: ["0.2 cu ft (9.05×6.69×6.69 in ext, 6.29×8.9×5.12 in int)", "Dual steel locking bolts, magnetic auto-lock door", "Pre-drilled mounting holes + bolts included"],
     pros: ["By far the largest and most proven review base of any safe in this comparison", "Self-locking door removes the risk of an accidentally unsecured safe", "Mounting hardware included for wall or floor anchoring"],
     cons: ["Compact interior, verify your household's specific items fit before buying", "No fire or water resistance claim"],
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     pros: ["Full-strength steel and bolt construction despite kid-focused marketing", "Explicit reminder against storing keys inside the safe, a common household mistake", "Complete accessory bundle at a lower price than comparable picks"],
     cons: ["Smaller review base than the top three picks", "No fire or water resistance claim"],
     bestFor: "Households wanting a genuinely secure (not toy-grade) first safe for a kid, or a second unit for shared family use.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Separated the one confirmed fireproof pick from basic security safes", description: "Only one listing (the 1.3 cubic foot pick) claims fire protection. We flagged this clearly rather than implying the other seven offer equivalent disaster protection." },
   { title: "Weighed anchoring for households wanting anti-removal security", description: "Only the Honeywell bolt-down pick confirms factory anchor support, a meaningful differentiator for households worried about a small, light safe being carried away." },
   { title: "Matched capacity against realistic home placement", description: "We compared 0.23 to 1.3 cubic foot capacity directly, since household document and cash storage needs vary meaningfully by family size and use case." },
-  { title: "Noted kid-inclusive design as a genuine household differentiator", description: "The PATRON pick specifically markets to households with kids, a distinct use case from the general security-focused picks." },
+  { title: "Noted kid-inclusive design as a genuine household differentiator", description: "The PATRON pick specifically markets to households with kids, a distinct use case from the general security-focused picks." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -282,20 +282,21 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review count and rating together, not rating alone",
-    "explanation": "A 4.8-star rating from 12 reviews carries far less evaluation confidence than a 4.5-star rating from several thousand, since a small sample can be skewed by a handful of early, enthusiastic buyers before any long-term reliability issues would show up in later reviews.\n\nThis matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
+    "explanation": "This matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
   }
 ];
 
 export const faq: FaqItem[] = [
   { q: "What's the best overall small safe for home?", a: "The Bonsaii Safe Box with Electronic Keypad, with the largest confirmed capacity among the top-rated picks in this comparison." },
   { q: "Is there a fireproof option?", a: "Yes, the 1.3 Cub Small Fireproof Safe for Home is the only pick here that specifically claims fire protection." },
-  { q: "Which pick has the most proven track record?", a: "The Yuanshikj Small Steel Security Safe Box, with by far the largest review base at nearly 23,000 reviews." },
+  
   { q: "Is there an option that bolts down for anti-removal security?", a: "Yes, the Honeywell Bolt Down Small Safe Box is the only pick here with confirmed factory bolt-down support." },
   { q: "Is there a kid-friendly option?", a: "Yes, the PATRON Small Safe Box is explicitly marketed for households with kids." },
+  { q: "What should I do before mounting a small safe to a shelf or wall?", a: "Check what surface the safe will be fixed to and use the bolts supplied. The Yuanshikj and Honeywell safes include pre-drilled mounting holes, so you can anchor them to a stud or shelf. Mounting makes it much harder for a thief to simply carry the safe away." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-safes", title: "Best Small Safes (2026)" },
   { href: "/guide/best-small-fireproof-safes", title: "Best Small Fireproof Safes (2026)" },
-  { href: "/guide/best-small-safes-for-closets", title: "Best Small Safes for Closets (2026)" },
+  { href: "/guide/best-small-safes-for-closets", title: "Best Small Safes for Closets (2026)" }
 ];

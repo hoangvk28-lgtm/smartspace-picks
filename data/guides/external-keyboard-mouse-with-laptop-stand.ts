@@ -12,7 +12,7 @@ export const externalKeyboardMouseWithLaptopStandGuide: Guide = {
     "do i need external keyboard with laptop stand",
     "laptop stand ergonomics keyboard",
     "wireless keyboard mouse for laptop setup",
-    "laptop riser typing position",
+    "laptop riser typing position"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const externalKeyboardMouseWithLaptopStandGuide: Guide = {
     "laptop-stand-height-chart",
     "laptop-stand-vs-external-monitor",
     "tkl-vs-full-size-keyboard",
-    "how-to-measure-office-chair-fit",
+    "how-to-measure-office-chair-fit"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const externalKeyboardMouseWithLaptopStandGuide: Guide = {
       question: "Is a compact keyboard better than a full-size one for this setup?",
       answer:
         "A more compact keyboard (TKL or smaller) leaves more room for mouse movement on a laptop stand setup, particularly useful if desk space is limited, though this is a matter of preference rather than a strict requirement.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const externalKeyboardMouseWithLaptopStandGuide: Guide = {
     {
       heading: "Setting Up the External Devices Correctly",
       body: `Position the external keyboard and mouse at the same height and distance you'd use for a standalone desktop setup, roughly at elbow height with your shoulders relaxed and wrists straight rather than bent up or down. This positioning guidance is identical to standard desktop ergonomics, the laptop stand simply relocates the screen while the external keyboard and mouse maintain proper hand and arm positioning independently.`,
-    },
+    }
   ],
 };

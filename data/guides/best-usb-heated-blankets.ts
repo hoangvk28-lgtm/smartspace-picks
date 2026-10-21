@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41T-lGhDU-L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HD68RC7T?tag=deskfinds0d-20",
-    "description": "TKOWTB is a throw-sized blanket of 150 by 160 cm with three heat levels, a memory function that recalls your last temperature and a 1 to 4 hour auto shut-off. The listing mentions overheat protection and a dual controller.\n\nIt is the largest USB piece here, so it covers a lap and more, unlike the shawls. At $61.29 it sits between Junbig and greenoak, but its listing gives no wattage, which is a flag for a USB blanket this size.\n\nBest for a bigger throw on a couch or a large chair. The caveat is that the power requirement is unclear, so confirm what adapter or bank the seller says to use.",
+    "description": "TKOWTB is a throw-sized blanket of 150 by 160 cm with three heat levels, a memory function that recalls your last temperature and a 1 to 4 hour auto shut-off. The listing mentions overheat protection and a dual controller.\n\nIt is the largest USB piece here, so it covers a lap and more, unlike the shawls. At under $70 it sits between Junbig and greenoak, but its listing gives no wattage, which is a flag for a USB blanket this size.\n\nBest for a bigger throw on a couch or a large chair. The caveat is that the power requirement is unclear, so confirm what adapter or bank the seller says to use.",
     "specs": [
       "150 x 160 cm",
       "3 levels with memory",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51raA440I1L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FR95FDH4?tag=deskfinds0d-20",
-    "description": "Tuanse sells two small USB blankets of about 25.59 by 35.43 inches, powered by 5V USB from a power bank or computer. It lists 3 temperature settings, a timer, a waterproof controller and a warm-up of 3 to 5 minutes.\n\nIt is the only multi-piece set here and costs $38.99, which suits a pair of desks or a road trip. Against Nekewe, it covers more area but offers less detail on materials.\n\nBest for sharing between two people or using as lap blankets. The caveat is that the 3 to 5 minute warm-up is slower than the shawls, and the temperatures are not stated.",
+    "description": "Tuanse sells two small USB blankets of about 25.59 by 35.43 inches, powered by 5V USB from a power bank or computer. It lists 3 temperature settings, a timer, a waterproof controller and a warm-up of 3 to 5 minutes.\n\nIt is the only multi-piece set here and costs under $40, which suits a pair of desks or a road trip. Against Nekewe, it covers more area but offers less detail on materials.\n\nBest for sharing between two people or using as lap blankets. The caveat is that the 3 to 5 minute warm-up is slower than the shawls, and the temperatures are not stated.",
     "specs": [
       "Two 25 x 35 inch blankets",
       "5V USB, 3 settings and timer",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51i-nexaj6L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HLL4KT92?tag=deskfinds0d-20",
-    "description": "This zip-front shawl has three settings at about 95, 113 and 131F, a roomy cape shape and a hidden USB connection. It runs on 5V with 10W input, and the fabric is a textured knit with plush lining.\n\nIt is one of the few USB listings with a stated power rating, at $34.99, well below greenoak. Compared with Nekewe, it covers shoulders and arms, not just a kneepad area.\n\nChoose it for a hands-free shawl at a modest price. The caveat is that the 10W rating means you need a source that can supply it, and no timer is mentioned.",
+    "description": "This zip-front shawl has three settings at about 95, 113 and 131F, a roomy cape shape and a hidden USB connection. It runs on 5V with 10W input, and the fabric is a textured knit with plush lining.\n\nIt is one of the few USB listings with a stated power rating, at under $35, well below greenoak. Compared with Nekewe, it covers shoulders and arms, not just a kneepad area.\n\nChoose it for a hands-free shawl at a modest price. The caveat is that the 10W rating means you need a source that can supply it, and no timer is mentioned.",
     "specs": [
       "5V, 10W USB input",
       "95F, 113F, 131F",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41onYxygzVL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07J5RJZYP?tag=deskfinds0d-20",
-    "description": "Nekewe is a small fleece shawl measuring 18 by 32 inches with a 12 by 8 inch heated area using carbon fiber, powered by USB from a computer or power bank. The heating inner set can be taken out for washing.\n\nAt $21.99 it is the cheapest piece here and the smallest, so it warms only a patch, unlike greenoak or Junbig. Against the generic shawl above, it has a removable heating set but no heat settings listed.\n\nBest for a shoulder or knee warm-up at a desk. The caveat is the small heated area and thin specs, and the listing's circulation wording is something we did not rely on.",
+    "description": "Nekewe is a small fleece shawl measuring 18 by 32 inches with a 12 by 8 inch heated area using carbon fiber, powered by USB from a computer or power bank. The heating inner set can be taken out for washing.\n\nAt under $25 it is the cheapest piece here and the smallest, so it warms only a patch, unlike greenoak or Junbig. Against the generic shawl above, it has a removable heating set but no heat settings listed.\n\nBest for a shoulder or knee warm-up at a desk. The caveat is the small heated area and thin specs, and the listing's circulation wording is something we did not rely on.",
     "specs": [
       "18 x 32 inch fleece",
       "12 x 8 inch heated area",
@@ -235,7 +235,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     "title": "Value for price",
-    "description": "Prices from $21.99 to $65.99 were compared with documented features."
+    "description": "Prices from roughly $25 to $70 were compared with documented features."
   }
 ];
 

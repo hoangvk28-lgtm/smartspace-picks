@@ -161,7 +161,7 @@ export default async function BestClampOnDeskDrawersPage() {
     about: [
       { "@type": "Thing", name: "Desk Drawer" },
       { "@type": "Thing", name: "Home Office Organization" },
-      { "@type": "Thing", name: "Under Desk Storage" },
+      { "@type": "Thing", name: "Under Desk Storage" }
     ],
   };
 
@@ -181,7 +181,7 @@ export default async function BestClampOnDeskDrawersPage() {
         position: 3,
         name: "Best Clamp-On Desk Drawers",
         item: `${SITE_URL}/guide/best-clamp-on-desk-drawers`,
-      },
+      }
     ],
   };
 
@@ -512,8 +512,8 @@ export default async function BestClampOnDeskDrawersPage() {
                     {
                       format: "Swivel drawer",
                       bestFor: "Corner desks, angled sitting positions",
-                      notes: "Euyona 4.6 stars best validated swivel",
-                    },
+                      notes: "",
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -561,50 +561,50 @@ export default async function BestClampOnDeskDrawersPage() {
                 context: "Best overall by reviews",
                 id: "vivo-keyboard-tray-drawer",
                 name: "VIVO Keyboard Tray",
-                verdict: " - 13,973 reviews at 4.4 stars, ergonomic tray plus pencil drawer.",
+                verdict: " - Ergonomic tray plus pencil drawer.",
               },
               {
                 context: "Best for smaller desks",
                 id: "bontec-keyboard-tray",
                 name: "BONTEC KMT01",
-                verdict: " - 5,492 reviews at 4.4 stars, 25.6-inch width.",
+                verdict: " - 25.6-inch width.",
               },
               {
                 context: "Best pure clamp drawer by reviews",
                 id: "homeify-2-drawer-clamp",
                 name: "Homeify 2-Drawer",
-                verdict: " - 889 reviews at 4.2 stars, 2 drawers, renter-friendly.",
+                verdict: " - 2 drawers, renter-friendly.",
               },
               {
                 context: "Best swivel drawer",
                 id: "euyona-360-swivel",
                 name: "Euyona 360-Degree",
-                verdict: " - 446 reviews at 4.6 stars, rotating for corner desks.",
+                verdict: " - Rotating for corner desks.",
               },
               {
                 context: "Corner system (low rating, verify first)",
                 id: "vivo-corner-system",
                 name: "VIVO Corner System",
-                verdict: " - 3.9 stars from 108 reviews, verify before purchasing.",
+                verdict: " - Verify before purchasing.",
               },
               {
                 context: "Best for sit-stand desks",
                 id: "vivo-22-sit-stand",
                 name: "VIVO 22 inch Sit-Stand",
-                verdict: " - 63 reviews at 4.4 stars, only sit-stand rated pure drawer.",
+                verdict: " - Only sit-stand rated pure drawer.",
               },
               {
                 context: "Best budget adjustable clamp",
                 id: "inldy-adjustable-clamp",
                 name: "INLDY Adjustable",
-                verdict: " - 66 reviews at 4.4 stars, lowest price at $24.99.",
+                verdict: " - Lowest price at under $25.",
               },
               {
                 context: "Budget swivel alternative",
                 id: "rhblme-360-swivel",
                 name: "RHBLME 360-Degree",
-                verdict: " - 54 reviews at 4.2 stars, insufficient sample for confident buy.",
-              },
+                verdict: " - Insufficient sample for confident buy.",
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

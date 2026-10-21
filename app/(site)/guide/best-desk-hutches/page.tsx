@@ -130,7 +130,7 @@ export default async function BestDeskHutchesPage() {
     about: [
       { "@type": "Thing", name: "Desk Hutch" },
       { "@type": "Thing", name: "Desktop Storage" },
-      { "@type": "Thing", name: "Home Office Organization" },
+      { "@type": "Thing", name: "Home Office Organization" }
     ],
   };
 
@@ -140,7 +140,7 @@ export default async function BestDeskHutchesPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Desk Hutches", item: `${SITE_URL}/guide/best-desk-hutches` },
+      { "@type": "ListItem", position: 3, name: "Best Desk Hutches", item: `${SITE_URL}/guide/best-desk-hutches` }
     ],
   };
 
@@ -342,7 +342,7 @@ export default async function BestDeskHutchesPage() {
                     { type: "Above-desk shelf hutch", bestFor: "No-install vertical storage", notes: "Furinno, Sorbus, ChooChoo models" },
                     { type: "Wall-mounted floating hutch", bestFor: "Maximum desk surface clearance", notes: "TANGKULA floating shelf unit" },
                     { type: "With drawers", bestFor: "Concealed storage", notes: "Marbrasse, Bush Furniture models" },
-                    { type: "Bookcase-style hutch", bestFor: "Maximum book and document storage", notes: "Bush Furniture Cabot model" },
+                    { type: "Bookcase-style hutch", bestFor: "Maximum book and document storage", notes: "Bush Furniture Cabot model" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.type}</td>
@@ -372,14 +372,14 @@ export default async function BestDeskHutchesPage() {
           <h2 className="text-xl font-bold text-ink mb-5 tracking-tight">Bottom Line</h2>
           <div className="space-y-4">
             {[
-              { context: "Best overall", id: "furinno-turn-n-tube-5shelf", name: "Furinno Turn-N-Tube 5-Shelf", verdict: " - 29,411 reviews at 4.2 stars, $35.99, most validated desk hutch in this roundup." },
-              { context: "Best wall-mounted", id: "tangkula-floating-hutch", name: "TANGKULA Floating Shelf Wall Hutch", verdict: " - 1,139 reviews at 4.5 stars, $79.99, keeps desk surface fully clear." },
-              { context: "Best with drawer", id: "marbrasse-4tier-drawer", name: "Marbrasse 4-Tier with Drawer", verdict: " - 2,714 reviews at 4.4 stars, $41.98, most reviews of any drawer model." },
-              { context: "Best premium", id: "bush-cabot-hutch", name: "Bush Furniture Cabot Hutch", verdict: " - 1,087 reviews at 4.6 stars, $129.99, fully enclosed bookcase-style with adjustable shelves." },
-              { context: "Best small", id: "sorbus-2tier-hutch", name: "Sorbus 2-Tier Desktop Hutch", verdict: " - 1,022 reviews at 4.4 stars, $39.99, best for desks under 36 inches." },
-              { context: "Best 48-inch", id: "choochoo-48inch-hutch", name: "ChooChoo 48-inch Desktop Hutch", verdict: " - 847 reviews at 4.5 stars, $64.99, widest hutch for 48-inch or larger desks." },
-              { context: "Best adjustable", id: "bestier-adjustable-hutch", name: "Bestier Adjustable Shelf Hutch", verdict: " - 523 reviews at 4.5 stars, $59.99, adjustable shelf heights for monitor-over-monitor." },
-              { context: "Best under $30", id: "furinno-basic-3tier", name: "Furinno Basic 3-Tier 37W", verdict: " - 314 reviews at 4.3 stars, $24.99, entry-level open shelf." },
+              { context: "Best overall", id: "furinno-turn-n-tube-5shelf", name: "Furinno Turn-N-Tube 5-Shelf", verdict: " - Under $40, most validated desk hutch in this roundup." },
+              { context: "Best wall-mounted", id: "tangkula-floating-hutch", name: "TANGKULA Floating Shelf Wall Hutch", verdict: " - Under $80, keeps desk surface fully clear." },
+              { context: "Best with drawer", id: "marbrasse-4tier-drawer", name: "Marbrasse 4-Tier with Drawer", verdict: " - Under $45, most reviews of any drawer model." },
+              { context: "Best premium", id: "bush-cabot-hutch", name: "Bush Furniture Cabot Hutch", verdict: " - Under $130, fully enclosed bookcase-style with adjustable shelves." },
+              { context: "Best small", id: "sorbus-2tier-hutch", name: "Sorbus 2-Tier Desktop Hutch", verdict: " - Under $40, best for desks under 36 inches." },
+              { context: "Best 48-inch", id: "choochoo-48inch-hutch", name: "ChooChoo 48-inch Desktop Hutch", verdict: " - Under $70, widest hutch for 48-inch or larger desks." },
+              { context: "Best adjustable", id: "bestier-adjustable-hutch", name: "Bestier Adjustable Shelf Hutch", verdict: " - Under $60, adjustable shelf heights for monitor-over-monitor." },
+              { context: "Best under $30", id: "furinno-basic-3tier", name: "Furinno Basic 3-Tier 37W", verdict: " - Under $25, entry-level open shelf." }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

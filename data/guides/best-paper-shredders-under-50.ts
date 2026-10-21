@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/315Bim2fwZL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B00Q3KFX8U?tag=deskfinds0d-20",
-    "description": "Amazon Basics 6 Sheet High Security Micro-Cut Paper and Credit Card Shredder is built around micro-cut shredder turns paper into, paired with shreds up to 6 sheets, positioning it as a shredder built for a specific security level and sheet volume rather than general use.\n\nAt $47.54, it's the most expensive pick in this comparison, and that premium needs to be justified by genuinely using the extra features it carries over the cheaper options here.\n\nThis pick best suits buyers who want genuinely secure document destruction without stepping up to a commercial-grade machine. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "Amazon Basics 6 Sheet High Security Micro-Cut Paper and Credit Card Shredder is built around micro-cut shredder turns paper into, paired with shreds up to 6 sheets, positioning it as a shredder built for a specific security level and sheet volume rather than general use.\n\nAt under $50, it's the most expensive pick in this comparison, and that premium needs to be justified by genuinely using the extra features it carries over the cheaper options here.\n\nThis pick best suits buyers who want genuinely secure document destruction without stepping up to a commercial-grade machine. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Micro-cut shredder turns paper into",
       "Shreds up to 6 sheets",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31XH8nx4fDL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GXF6VCZ8?tag=deskfinds0d-20",
-    "description": "12-Sheet Cross Cut Paper Shredder leads with 12-sheet capacity & p-4 high, backed by 5-min continuous shredding & jam-free reverse, a combination aimed at as a shredder built for a specific security level and sheet volume rather than general use.\n\nCompared to Bonsaii 6-Sheet Cross Cut Paper Shredder for Home at $31.99, it costs more for real added capability, while sitting well below Amazon Basics 6 Sheet High Security Micro-Cut Paper and Credit Card Shredder at $47.54 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want genuinely secure document destruction without stepping up to a commercial-grade machine. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "12-Sheet Cross Cut Paper Shredder leads with 12-sheet capacity & p-4 high, backed by 5-min continuous shredding & jam-free reverse, a combination aimed at as a shredder built for a specific security level and sheet volume rather than general use.\n\nCompared to Bonsaii 6-Sheet Cross Cut Paper Shredder for Home at under $35, it costs more for real added capability, while sitting well below Amazon Basics 6 Sheet High Security Micro-Cut Paper and Credit Card Shredder at under $50 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want genuinely secure document destruction without stepping up to a commercial-grade machine. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "12-SHEET CAPACITY & P-4 HIGH",
       "5-min Continuous Shredding & Jam-free Reverse",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31v6KFKAtqL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07WDH92NN?tag=deskfinds0d-20",
-    "description": "Bonsaii 6-Sheet Micro Cut Paper Shredder for Home leads with p-4 high security level, backed by micro cut paper shredder, a combination aimed at as a shredder built for a specific security level and sheet volume rather than general use.\n\nIt lands between Bonsaii 6-Sheet Cross Cut Paper Shredder for Home's $31.99 price floor and Amazon Basics 6 Sheet High Security Micro-Cut Paper and Credit Card Shredder's $47.54 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nBonsaii 6-Sheet Micro Cut Paper Shredder for Home is the right call for buyers who want genuinely secure document destruction without stepping up to a commercial-grade machine. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "Bonsaii 6-Sheet Micro Cut Paper Shredder for Home leads with p-4 high security level, backed by micro cut paper shredder, a combination aimed at as a shredder built for a specific security level and sheet volume rather than general use.\n\nIt lands between Bonsaii 6-Sheet Cross Cut Paper Shredder for Home's under $35 price floor and Amazon Basics 6 Sheet High Security Micro-Cut Paper and Credit Card Shredder's under $50 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nBonsaii 6-Sheet Micro Cut Paper Shredder for Home is the right call for buyers who want genuinely secure document destruction without stepping up to a commercial-grade machine. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "P-4 High Security Level",
       "Micro Cut Paper Shredder",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31kejyZdksL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DDPNWR32?tag=deskfinds0d-20",
-    "description": "Amazon Basics 6-Sheet High Security Cross-Cut Paper and Credit Card Shredder is built around high security level, paired with efficient shredding capacity, positioning it as a shredder built for a specific security level and sheet volume rather than general use.\n\nCompared to Bonsaii 6-Sheet Cross Cut Paper Shredder for Home at $31.99, it costs more for real added capability, while sitting well below Amazon Basics 6 Sheet High Security Micro-Cut Paper and Credit Card Shredder at $47.54 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want genuinely secure document destruction without stepping up to a commercial-grade machine. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "Amazon Basics 6-Sheet High Security Cross-Cut Paper and Credit Card Shredder is built around high security level, paired with efficient shredding capacity, positioning it as a shredder built for a specific security level and sheet volume rather than general use.\n\nCompared to Bonsaii 6-Sheet Cross Cut Paper Shredder for Home at under $35, it costs more for real added capability, while sitting well below Amazon Basics 6 Sheet High Security Micro-Cut Paper and Credit Card Shredder at under $50 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want genuinely secure document destruction without stepping up to a commercial-grade machine. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "High Security Level",
       "Efficient Shredding Capacity",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41R3dsJ1InL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DCK2TTTW?tag=deskfinds0d-20",
-    "description": "What stands out on Locksworth 8-Sheet Micro Cut Paper Shredder P-4 High Security for Home Office Use with Handle is high-security shredding, alongside easy operation, which is the main reason it earns a spot in this paper shredders comparison.\n\nIt lands between Bonsaii 6-Sheet Cross Cut Paper Shredder for Home's $31.99 price floor and Amazon Basics 6 Sheet High Security Micro-Cut Paper and Credit Card Shredder's $47.54 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nLocksworth 8-Sheet Micro Cut Paper Shredder P-4 High Security for Home Office Use with Handle is the right call for buyers who want genuinely secure document destruction without stepping up to a commercial-grade machine. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on Locksworth 8-Sheet Micro Cut Paper Shredder P-4 High Security for Home Office Use with Handle is high-security shredding, alongside easy operation, which is the main reason it earns a spot in this paper shredders comparison.\n\nIt lands between Bonsaii 6-Sheet Cross Cut Paper Shredder for Home's under $35 price floor and Amazon Basics 6 Sheet High Security Micro-Cut Paper and Credit Card Shredder's under $50 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nLocksworth 8-Sheet Micro Cut Paper Shredder P-4 High Security for Home Office Use with Handle is the right call for buyers who want genuinely secure document destruction without stepping up to a commercial-grade machine. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "High-Security Shredding",
       "Easy Operation",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/318l1lkClrL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DQTNZCWN?tag=deskfinds0d-20",
-    "description": "Bonsaii 6-Sheet Cross Cut Paper Shredder for Home is built around cross cut & credit card paper shredder, paired with continuous performance, positioning it as a shredder built for a specific security level and sheet volume rather than general use.\n\nPriced at $31.99, the lowest in this lineup, it trades some of the extras found on pricier picks here for a lower upfront cost, a reasonable tradeoff if your needs are basic.\n\nBonsaii 6-Sheet Cross Cut Paper Shredder for Home is the right call for buyers who want genuinely secure document destruction without stepping up to a commercial-grade machine. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "Bonsaii 6-Sheet Cross Cut Paper Shredder for Home is built around cross cut & credit card paper shredder, paired with continuous performance, positioning it as a shredder built for a specific security level and sheet volume rather than general use.\n\nPriced at under $35, the lowest in this lineup, it trades some of the extras found on pricier picks here for a lower upfront cost, a reasonable tradeoff if your needs are basic.\n\nBonsaii 6-Sheet Cross Cut Paper Shredder for Home is the right call for buyers who want genuinely secure document destruction without stepping up to a commercial-grade machine. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Cross Cut & Credit Card Paper Shredder",
       "Continuous Performance",
@@ -269,27 +269,27 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $31.99",
+          "Under $35",
           "Bonsaii 6-Sheet Cross Cut Paper Shredder for Home"
         ],
         [
-          "Around $35.90",
+          "Under $40",
           "Locksworth 8-Sheet Micro Cut Paper Shredder P-4 High Security for Home Office Use with Handle"
         ],
         [
-          "Around $36.74",
+          "Under $40",
           "Amazon Basics 6-Sheet High Security Cross-Cut Paper and Credit Card Shredder"
         ],
         [
-          "Around $37.79",
+          "Under $40",
           "Bonsaii 6-Sheet Micro Cut Paper Shredder for Home"
         ],
         [
-          "Around $44.54",
+          "Under $45",
           "12-Sheet Cross Cut Paper Shredder"
         ],
         [
-          "Around $47.54",
+          "Under $50",
           "Amazon Basics 6 Sheet High Security Micro-Cut Paper and Credit Card Shredder"
         ]
       ]
@@ -300,11 +300,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Bonsaii 6-Sheet Cross Cut Paper Shredder for Home",
-        "text": "The lowest-priced pick in this comparison at $31.99, a solid choice if you don't need the extras the pricier picks carry."
+        "text": "The lowest-priced pick in this comparison at under $35, a solid choice if you don't need the extras the pricier picks carry."
       },
       {
         "label": "Amazon Basics 6 Sheet High Security Micro-Cut Paper and Credit Card Shredder",
-        "text": "The highest-priced pick at $47.54, worth it only if you'll actually use what that premium buys."
+        "text": "The highest-priced pick at under $50, worth it only if you'll actually use what that premium buys."
       }
     ],
     "note": "Default to Bonsaii 6-Sheet Cross Cut Paper Shredder for Home unless the pricier pick's specific advantage genuinely applies to your situation."
@@ -364,7 +364,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "What's the real difference between the cheapest and most expensive pick here?",
-    "a": "Bonsaii 6-Sheet Cross Cut Paper Shredder for Home at $31.99 covers the basics, while Amazon Basics 6 Sheet High Security Micro-Cut Paper and Credit Card Shredder at $47.54 adds a higher security rating and longer continuous run time. Whether that's worth the difference depends on how sensitive your documents are and how large your typical shredding batches tend to be."
+    "a": "Bonsaii 6-Sheet Cross Cut Paper Shredder for Home at under $35 covers the basics, while Amazon Basics 6 Sheet High Security Micro-Cut Paper and Credit Card Shredder at under $50 adds a higher security rating and longer continuous run time. Whether that's worth the difference depends on how sensitive your documents are and how large your typical shredding batches tend to be."
   },
   {
     "q": "What security level do I actually need?",
@@ -376,7 +376,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "Is there a solid middle-ground pick in this price range?",
-    "a": "Bonsaii 6-Sheet Micro Cut Paper Shredder for Home at $37.79 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
+    "a": "Bonsaii 6-Sheet Micro Cut Paper Shredder for Home at under $40 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
   },
   {
     "q": "What's the most common mistake buyers make shopping paper shredders under $50?",

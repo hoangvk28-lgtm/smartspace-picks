@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/315SN2EjmvL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GVMHPNG4?tag=deskfinds0d-20",
-    "description": "BLACK+DECKER is a 1.1 cubic foot, 1000 watt microwave measuring 20.6 by 16.5 by 11.8 inches, with six one-touch presets, 10 power levels, an express cook feature and a control panel lock. The finish is fingerprint resistant.\n\nAt $89.94 it costs about the same as the Frigidaire, and it states its exterior size. Compared with the Farberware, it costs $30 less with the same 1000 watts.\n\nChoose it for an apartment or office kitchen. The caveat is its width of 20.6 inches, which is too big for a dorm shelf.",
+    "description": "BLACK+DECKER is a 1.1 cubic foot, 1000 watt microwave measuring 20.6 by 16.5 by 11.8 inches, with six one-touch presets, 10 power levels, an express cook feature and a control panel lock. The finish is fingerprint resistant.\n\nAt under $90 it costs about the same as the Frigidaire, and it states its exterior size. Compared with the Farberware, it costs $30 less with the same 1000 watts.\n\nChoose it for an apartment or office kitchen. The caveat is its width of 20.6 inches, which is too big for a dorm shelf.",
     "specs": [
       "1.1 cu ft, 1000W",
       "6 presets, 10 power levels",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/317qAptE6jL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B074278JDB?tag=deskfinds0d-20",
-    "description": "Frigidaire is a 1.1 cubic foot, 1000 watt microwave with a stainless exterior, a white interior, an interior light, child lock, a digital display and an auto cook menu. The listing gives the size as 21 by 18 by 15 inches and 35 pounds.\n\nIt costs $89, about the same as BLACK+DECKER, and weighs more than the compact units. It has a stainless finish where the Black+Decker is black.\n\nBest for a kitchen where look matters. The caveat is weight and footprint.",
+    "description": "Frigidaire is a 1.1 cubic foot, 1000 watt microwave with a stainless exterior, a white interior, an interior light, child lock, a digital display and an auto cook menu. The listing gives the size as 21 by 18 by 15 inches and 35 pounds.\n\nIt costs under $90, about the same as BLACK+DECKER, and weighs more than the compact units. It has a stainless finish where the Black+Decker is black.\n\nBest for a kitchen where look matters. The caveat is weight and footprint.",
     "specs": [
       "1.1 cu ft, 1000W",
       "Stainless, white interior",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41lofKDrw0L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B01EIZSF6I?tag=deskfinds0d-20",
-    "description": "Farberware is a 1.1 cubic foot, 1000 watt stainless microwave with ten power levels, six one-touch settings, express cooking buttons for 1 to 6 minutes, and an add 30 seconds control. The interior is easy to clean and has a light.\n\nIt costs $119.99, about $30 more than BLACK+DECKER and Frigidaire, which have similar specs.\n\nChoose it if you like Farberware. The caveat is that the price gap is not backed by new features in the listing.",
+    "description": "Farberware is a 1.1 cubic foot, 1000 watt stainless microwave with ten power levels, six one-touch settings, express cooking buttons for 1 to 6 minutes, and an add 30 seconds control. The interior is easy to clean and has a light.\n\nIt costs under $120, about $30 more than BLACK+DECKER and Frigidaire, which have similar specs.\n\nChoose it if you like Farberware. The caveat is that the price gap is not backed by new features in the listing.",
     "specs": [
       "1.1 cu ft, 1000W",
       "10 power levels, 6 one-touch",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41Tozfv8XeL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CCGFGLVG?tag=deskfinds0d-20",
-    "description": "Chefman is a 0.9 cubic foot, 900 watt stainless microwave with a mute option, an eco mode that turns off the display, memory function, multiphase cooking and six presets.\n\nIt is the only one here with a mute option, which matters in shared rooms. It costs $109.99 and offers less power than the 1000 watt models.\n\nBest for a shared dorm kitchen or bedroom. The caveat is that 900 watts needs a little longer than package times.",
+    "description": "Chefman is a 0.9 cubic foot, 900 watt stainless microwave with a mute option, an eco mode that turns off the display, memory function, multiphase cooking and six presets.\n\nIt is the only one here with a mute option, which matters in shared rooms. It costs under $110 and offers less power than the 1000 watt models.\n\nBest for a shared dorm kitchen or bedroom. The caveat is that 900 watts needs a little longer than package times.",
     "specs": [
       "0.9 cu ft, 900W",
       "Mute option, eco mode",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/417zsTbXhlL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09SBV7GJK?tag=deskfinds0d-20",
-    "description": "Nostalgia is a retro styled 0.9 cubic foot, 800 watt microwave with 12 preset settings, a delay timer, express cooking and an LED clock. The chrome handle and accents give it a vintage look.\n\nIt costs the same as Chefman at $109.99 but has lower power and no mute option. It has the most presets.\n\nChoose it if you want a retro look. The caveat is the 800 watt power.",
+    "description": "Nostalgia is a retro styled 0.9 cubic foot, 800 watt microwave with 12 preset settings, a delay timer, express cooking and an LED clock. The chrome handle and accents give it a vintage look.\n\nIt costs the same as Chefman at under $110 but has lower power and no mute option. It has the most presets.\n\nChoose it if you want a retro look. The caveat is the 800 watt power.",
     "specs": [
       "0.9 cu ft, 800W",
       "12 preset settings",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41H1GWPpSHL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09XJG597V?tag=deskfinds0d-20",
-    "description": "BLACK+DECKER's compact microwave is 0.7 cubic feet and 700 watts, with a 10 inch turntable, interior dimensions of 14.2 by 12.8 by 8.1 inches, six one-touch programs, LED lighting and a child lock. The front is a handless white design.\n\nIt costs $81.27, the lowest price here, and it lists a turntable size, which most listings omit. It is much smaller than the 1.1 models.\n\nPerfect for a dorm shelf or small office. The caveat is that a 10 inch turntable fits a smaller plate than a standard 10 to 11 inch dinner plate.",
+    "description": "BLACK+DECKER's compact microwave is 0.7 cubic feet and 700 watts, with a 10 inch turntable, interior dimensions of 14.2 by 12.8 by 8.1 inches, six one-touch programs, LED lighting and a child lock. The front is a handless white design.\n\nIt costs under $90, the lowest price here, and it lists a turntable size, which most listings omit. It is much smaller than the 1.1 models.\n\nPerfect for a dorm shelf or small office. The caveat is that a 10 inch turntable fits a smaller plate than a standard 10 to 11 inch dinner plate.",
     "specs": [
       "0.7 cu ft, 700W",
       "10 inch turntable",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/21AmqlRQtwL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B00BGTNY8O?tag=deskfinds0d-20",
-    "description": "Commercial Chef is a 0.6 cubic foot, 700 watt microwave with a mechanical dial timer from 30 seconds to 30 minutes, six power levels and a push button door. It measures 17.75 by 13.44 by 9.56 inches and weighs 23.1 pounds.\n\nIt is the smallest here and costs $97.49, more than BLACK+DECKER 0.7 at $81.27. It has no digital display.\n\nBest for someone who wants simple dials. The caveat is price versus the digital 0.7 model.",
+    "description": "Commercial Chef is a 0.6 cubic foot, 700 watt microwave with a mechanical dial timer from 30 seconds to 30 minutes, six power levels and a push button door. It measures 17.75 by 13.44 by 9.56 inches and weighs 23.1 pounds.\n\nIt is the smallest here and costs under $100, more than BLACK+DECKER 0.7 at under $90. It has no digital display.\n\nBest for someone who wants simple dials. The caveat is price versus the digital 0.7 model.",
     "specs": [
       "0.6 cu ft, 700W",
       "Mechanical dial timer",
@@ -391,7 +391,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Save if",
-        "text": "You only reheat. BLACK+DECKER 0.7 Cu Ft 700W Compact Microwave costs $81.27."
+        "text": "You only reheat. BLACK+DECKER 0.7 Cu Ft 700W Compact Microwave costs under $90."
       }
     ]
   }

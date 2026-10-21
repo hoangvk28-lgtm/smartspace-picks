@@ -29,7 +29,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0HDRZSFWV?tag=deskfinds0d-20",
     description: "This extender's listing specifically states a full 1000Mbps Gigabit transmission speed across its 100m extension range, avoiding the bandwidth compromise that some 2-port extenders accept when extended further. Its IP65 outdoor waterproof rating and compact size make it suitable for both indoor and outdoor 2-device installations.\n\nCompared to the NICGIGA and REVODATA picks below, this one's combination of full Gigabit speed and outdoor waterproofing at the lowest price in this comparison gives it the strongest overall balance for a typical two-camera or two-access-point setup.\n\nBest for buyers who want full Gigabit speed with outdoor waterproofing at the lowest price in this comparison.",
     specs: ["1 in 2 out, Gigabit 1000Mbps, IP65 waterproof", "100m (328ft) extension distance", "IEEE 802.3af/at compatible, plug-and-play"],
-    pros: ["Lowest price in this comparison at $22.49", "Full Gigabit speed maintained across the extension range", "IP65 waterproof rating suits both indoor and outdoor installations"],
+    pros: ["Lowest price in this comparison at under $25", "Full Gigabit speed maintained across the extension range", "IP65 waterproof rating suits both indoor and outdoor installations"],
     cons: ["Fixed 100m range without a longer-distance mode like the REVODATA pick", "Compact size limits it to powering exactly two devices"],
     bestFor: "buyers who want full Gigabit speed with outdoor waterproofing at the lowest price",
   },
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0C1B9X2PF?tag=deskfinds0d-20",
     description: "This extender's listing specifically states a 1-year warranty backed by lifetime technical support and an unconditional 30-day return policy, a more comprehensive support commitment than the other picks in this comparison at a similarly low price. Its 2-3 unit cascade support extends coverage while maintaining Gigabit 1000Mbps transmission.\n\nCompared to the VIMIN pick above, this one's specific note that only 48V PoE devices are supported, rather than a broader voltage range, is an honest disclosure that helps avoid a compatibility mismatch with an unusual PoE device.\n\nBest for buyers who want the strongest warranty and support commitment at the lowest price in this comparison.",
     specs: ["1 in 2 out, Gigabit 1000Mbps", "2-3 unit cascade support, auto-detection", "1-year warranty, lifetime technical support, 30-day returns"],
-    pros: ["Lowest price in this comparison at $21.99", "Lifetime technical support and unconditional 30-day returns", "Honest disclosure of 48V-only PoE device compatibility"],
+    pros: ["Lowest price in this comparison at under $25", "Lifetime technical support and unconditional 30-day returns", "Honest disclosure of 48V-only PoE device compatibility"],
     cons: ["Explicitly limited to 48V PoE devices, not a broader voltage range", "No outdoor waterproof rating unlike the VIMIN or REVODATA picks"],
     bestFor: "buyers who want the strongest warranty and support commitment at the lowest price",
   },
@@ -61,7 +61,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0D7HHWNXL?tag=deskfinds0d-20",
     description: "This extender's listing specifically includes a toggle switch to choose between 100m at 100Mbps for access points and cameras, or 250m at a reduced 10Mbps specifically recommended for surveillance cameras, a genuinely flexible dual-mode design not found on the other picks in this comparison. Its IP67 waterproof rating with included waterproof caps for both input and output needs no additional outdoor protection.\n\nCompared to the VIMIN and NICGIGA picks above, this one's higher IP67 rating and dual-distance toggle switch give installers real flexibility to trade bandwidth for reach depending on the specific device being powered.\n\nBest for buyers who want the flexibility to trade bandwidth for extended reach depending on the specific device.",
     specs: ["1 in 2 out, toggle switch for 100m/250m modes", "IP67 waterproof, includes waterproof caps", "15W max per port, IEEE 802.3af/at compliant"],
-    pros: ["Lowest price in this comparison at $20.09", "Toggle switch lets you choose bandwidth or reach as needed", "IP67 rating is the highest waterproof rating in this comparison"],
+    pros: ["Lowest price in this comparison at under $25", "Toggle switch lets you choose bandwidth or reach as needed", "IP67 rating is the highest waterproof rating in this comparison"],
     cons: ["Extended 250m mode drops bandwidth to just 10Mbps", "Lower per-port wattage (15W max) than some competing extenders"],
     bestFor: "buyers who want the flexibility to trade bandwidth for extended reach depending on the device",
   },
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "This extender's listing specifically states a two-level cascade deployment reaching a total of 1000ft, the longest documented total distance among the picks in this comparison, achieved by connecting a second unit's PoE input to the first unit's out port. Its compact 3.1-inch by 2-inch by 1-inch size fits into many junction boxes or outdoor waterproof enclosures.\n\nCompared to the VIMIN, NICGIGA, and REVODATA picks above, this one's specifically documented per-port wattage limits, 8W on the camera port and 15W on the out port, give installers precise power budgeting information the other picks don't disclose in the same detail.\n\nBest for buyers who need the longest total cascade distance with precise per-port wattage documentation.",
     specs: ["1 in 2 out, up to 1000ft via 2-level cascade", "8W camera port, 15W out port, 100Mbps max", "IEEE 802.3af/at compliant, compact 3.1\"x2\"x1\" size"],
     pros: ["Longest total cascade distance in this comparison at up to 1000ft", "Precise per-port wattage documentation aids power budgeting", "Compact size fits into many junction boxes and enclosures"],
-    cons: ["Highest price in this comparison at $32.99", "Does not support 24V PoE devices, only standard 802.3af/at"],
+    cons: ["Highest price in this comparison at under $35", "Does not support 24V PoE devices, only standard 802.3af/at"],
     bestFor: "buyers who need the longest total cascade distance with precise wattage documentation",
   }
 ];
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Full Gigabit speed with outdoor waterproofing", "VIMIN 2-Port Outdoor PoE Gigabit Extender"],
         ["The strongest warranty and support at the lowest price", "NICGIGA 1 in 2 Out Gigabit PoE Extender"],
         ["Flexibility to trade bandwidth for extended reach", "REVODATA IP67 Waterproof 2 Port PoE Extender"],
-        ["The longest total cascade distance", "LINOVISION Mini 2 Port PoE Extender"],
+        ["The longest total cascade distance", "LINOVISION Mini 2 Port PoE Extender"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $21", "REVODATA IP67 Waterproof 2 Port ($20.09)"],
-        ["Under $22", "NICGIGA 1 in 2 Out Gigabit ($21.99)"],
-        ["Under $23", "VIMIN 2-Port Outdoor Gigabit ($22.49)"],
-        ["Under $33", "LINOVISION Mini 2 Port ($32.99)"],
+        ["Under $21", "REVODATA IP67 Waterproof 2 Port (under $25)"],
+        ["Under $22", "NICGIGA 1 in 2 Out Gigabit (under $25)"],
+        ["Under $23", "VIMIN 2-Port Outdoor Gigabit (under $25)"],
+        ["Under $33", "LINOVISION Mini 2 Port (under $35)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Full Gigabit Speed vs Extended Distance Toggle",
     cards: [
       { label: "Full Gigabit speed (VIMIN, NICGIGA)", text: "Both maintain 1000Mbps across their fixed 100m range, better suited to devices that need consistent high bandwidth like modern 4K cameras or fast access points." },
-      { label: "Extended distance toggle (REVODATA)", text: "A physical switch lets you choose 100m at 100Mbps or 250m at a reduced 10Mbps, useful when you need extra reach for a lower-bandwidth device like a basic surveillance camera." },
+      { label: "Extended distance toggle (REVODATA)", text: "A physical switch lets you choose 100m at 100Mbps or 250m at a reduced 10Mbps, useful when you need extra reach for a lower-bandwidth device like a basic surveillance camera." }
     ],
     note: "If your devices need full bandwidth and your distance need is modest, the VIMIN or NICGIGA picks are the better fit. If you need extra reach for a device that doesn't require high bandwidth, the REVODATA's toggle gives you that flexibility.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["Standard 100m (328ft) extension", "VIMIN, NICGIGA, or REVODATA in standard mode"],
         ["Extended 250m for a lower-bandwidth device", "REVODATA IP67 Waterproof (250m toggle mode)"],
-        ["Maximum 1000ft via 2-level cascade", "LINOVISION Mini 2 Port PoE Extender"],
+        ["Maximum 1000ft via 2-level cascade", "LINOVISION Mini 2 Port PoE Extender"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For a Two-Camera Corner Installation Specifically",
     cards: [
       { label: "Look for", text: "An extender with outdoor waterproofing and enough per-port wattage to support your specific camera models, since two cameras mounted near each other but far from the switch is a very common installation scenario." },
-      { label: "In this comparison", text: "The VIMIN pick's IP65 rating and full Gigabit speed make it a strong fit for a typical two-camera outdoor corner installation." },
+      { label: "In this comparison", text: "The VIMIN pick's IP65 rating and full Gigabit speed make it a strong fit for a typical two-camera outdoor corner installation." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You need the longest possible total cascade distance with precise per-port wattage documentation, where the LINOVISION pick's $32.99 price is justified by that combination." },
-      { label: "Save if", text: "You want full Gigabit speed with outdoor waterproofing, where the VIMIN or NICGIGA picks deliver that around $22, among the lowest prices in this comparison." },
+      { label: "Spend more if", text: "You need the longest possible total cascade distance with precise per-port wattage documentation, where the LINOVISION pick's under $35 price is justified by that combination." },
+      { label: "Save if", text: "You want full Gigabit speed with outdoor waterproofing, where the VIMIN or NICGIGA picks deliver that around $22, among the lowest prices in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

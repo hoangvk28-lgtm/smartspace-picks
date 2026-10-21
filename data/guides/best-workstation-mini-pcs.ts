@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "workstation mini pc";
 export const introParagraphs = [
   "A high core count alone doesn't make a mini PC workstation-grade, genuine ISV certification for CAD or professional software, ECC memory support, and sustained thermal performance under continuous full-load work matter more, worth checking these specifically rather than assuming any powerful mini PC handles professional workstation tasks well.",
-  "Sustained multi-core throughput under a long rendering or simulation job, not a short burst benchmark, is what actually matters for workstation use, worth checking reviews specifically for sustained performance reports rather than trusting a brief benchmark score.",
+  "Sustained multi-core throughput under a long rendering or simulation job, not a short burst benchmark, is what actually matters for workstation use, worth checking reviews specifically for sustained performance reports rather than trusting a brief benchmark score."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine workstation-grade features checked beyond core count alone", description: "Checked ISV certification, ECC memory support, and sustained thermal performance rather than assuming any powerful mini PC handles professional workstation tasks well." },
   { title: "Sustained multi-core throughput weighted over burst benchmarks", description: "Weighted sustained multi-core throughput under a long rendering or simulation job more heavily than a short burst benchmark score." },
   { title: "Purpose-built workstation branding distinguished from repurposed consumer chips", description: "Distinguished explicitly purpose-built workstation-class mini PCs from powerful consumer or gaming-branded mini PCs repurposed for professional work." },
-  { title: "RAM configuration and power envelope weighted for demanding continuous workloads", description: "Weighted RAM configuration and power envelope for buyers running demanding, continuous professional workloads rather than intermittent tasks." },
+  { title: "RAM configuration and power envelope weighted for demanding continuous workloads", description: "Weighted RAM configuration and power envelope for buyers running demanding, continuous professional workloads rather than intermittent tasks." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -226,11 +226,11 @@ export const faq: FaqItem[] = [
   { q: "Does a high core count make a mini PC workstation-grade?", a: "Not alone, genuine ISV certification, ECC memory support, and sustained thermal performance matter more than core count alone." },
   { q: "Do burst benchmarks reflect real workstation performance?", a: "No, sustained multi-core throughput under a long rendering or simulation job matters more than a short burst benchmark score." },
   { q: "Can I use a gaming-branded mini PC as a workstation?", a: "Sometimes, but verify sustained throughput and thermal performance specifically, since it isn't explicitly workstation-certified." },
-  { q: "How much RAM does a workstation mini PC need?", a: "32GB is a solid baseline for professional multitasking, more may be needed depending on your specific software's requirements." },
+  { q: "How much RAM does a workstation mini PC need?", a: "32GB is a solid baseline for professional multitasking, more may be needed depending on your specific software's requirements." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pcs-for-video-editing", title: "Best Mini PCs for Video Editing (2026)" },
   { href: "/guide/best-mini-pcs-for-ai-workloads", title: "Best Mini PCs for AI Workloads (2026)" },
-  { href: "/guide/best-high-performance-mini-pcs", title: "Best High-Performance Mini PCs (2026)" },
+  { href: "/guide/best-high-performance-mini-pcs", title: "Best High-Performance Mini PCs (2026)" }
 ];

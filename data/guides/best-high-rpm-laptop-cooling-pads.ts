@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "high-RPM laptop cooling pads";
 export const introParagraphs = [
   "'High-RPM' is a claim that needs a real number behind it. Several listings in this category use words like 'turbo' or 'powerful' without stating an actual RPM figure, while others publish a specific number, like the Razer pick's documented 3000 RPM or the llano V12's turbo fan. We ranked this guide by the actual documented RPM figure each listing provides, and flagged the two picks that use turbo branding without a published RPM number.",
-  "Higher RPM generally means more airflow, but it is also the single biggest driver of noise in this category, and sustained high-RPM operation puts more wear on fan bearings over time than a moderate speed does. This guide weighs documented speed against noise and gaming workload relevance rather than treating RPM as the only number that matters.",
+  "Higher RPM generally means more airflow, but it is also the single biggest driver of noise in this category, and sustained high-RPM operation puts more wear on fan bearings over time than a moderate speed does. This guide weighs documented speed against noise and gaming workload relevance rather than treating RPM as the only number that matters."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "10 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "RPM claim verification", description: "We only ranked pads by RPM where the listing published an actual number. Pads using 'turbo' or 'powerful' branding without a documented RPM figure are included honestly, but flagged and ranked separately from the documented tier." },
   { title: "Noise as the direct cost of speed", description: "Where a dB figure was published, we compared it directly against the documented RPM, since higher fan speed in this category consistently correlates with higher stated noise." },
   { title: "Bearing longevity considerations", description: "We noted design features aimed at sustained high-speed reliability, like brushless motor design or long manufacturer assurance periods, since sustained high RPM operation puts more wear on fan bearings over time." },
-  { title: "Gaming workload relevance", description: "We weighed whether each pad's speed range and design (bottom intake for rear-exhaust laptops, sealed pressure chambers) specifically targets the sustained heat loads gaming workloads produce." },
+  { title: "Gaming workload relevance", description: "We weighed whether each pad's speed range and design (bottom intake for rear-exhaust laptops, sealed pressure chambers) specifically targets the sustained heat loads gaming workloads produce." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -291,11 +291,11 @@ export const faq: FaqItem[] = [
   { q: "Does higher RPM always mean better cooling?", a: "Generally yes for raw airflow, but only if the fan placement aligns with your laptop's actual vents. High RPM also means more noise and faster bearing wear over sustained use." },
   { q: "How loud are high-RPM laptop cooling pads?", a: "The documented picks in this guide range from about 55dB to 70dB at maximum speed, compared to normal conversation at around 50dB. Most offer adjustable speed settings well below their maximum." },
   { q: "Do high-RPM fans wear out faster?", a: "Sustained operation at or near maximum RPM does put more wear on fan bearings than moderate speeds. Features like brushless motor design or a long manufacturer assurance period help offset that risk." },
-  { q: "Is a documented 3000 RPM pad worse than an undocumented 'turbo' pad?", a: "Not necessarily, but it is more verifiable. A published RPM number gives you a concrete spec to compare, while 'turbo' branding without a number requires trusting the manufacturer's temperature-drop or noise claims instead." },
+  { q: "Is a documented 3000 RPM pad worse than an undocumented 'turbo' pad?", a: "Not necessarily, but it is more verifiable. A published RPM number gives you a concrete spec to compare, while 'turbo' branding without a number requires trusting the manufacturer's temperature-drop or noise claims instead." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-powerful-laptop-cooling-pads", title: "Best Powerful Laptop Cooling Pads (2026)" },
   { href: "/guide/best-gaming-laptop-cooling-pads", title: "Best Gaming Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-sealed-laptop-cooling-pads", title: "Best Sealed Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-sealed-laptop-cooling-pads", title: "Best Sealed Laptop Cooling Pads (2026)" }
 ];

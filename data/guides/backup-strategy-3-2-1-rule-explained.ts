@@ -12,7 +12,7 @@ export const backupStrategy321RuleExplainedGuide: Guide = {
     "what is the 3-2-1 backup rule",
     "how many backup copies do i need",
     "offsite backup explained",
-    "external drive backup strategy",
+    "external drive backup strategy"
   ],
   heroImage: "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const backupStrategy321RuleExplainedGuide: Guide = {
     "external-ssd-vs-hdd",
     "external-drive-storage-size-chart",
     "usb4-nvme-enclosure-explained",
-    "thunderbolt-vs-usb-c-explained",
+    "thunderbolt-vs-usb-c-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const backupStrategy321RuleExplainedGuide: Guide = {
       question: "How often should I update my backups?",
       answer:
         "This depends on how frequently your data changes and how much data loss you could tolerate, daily automated backups are common for actively changing work files, while less frequently changing data can be backed up on a longer schedule.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const backupStrategy321RuleExplainedGuide: Guide = {
     {
       heading: "Why the Offsite Requirement Addresses a Different Risk Entirely",
       body: `Keeping all your backup copies in the same physical location, even on different drives, means a local disaster like a fire, flood, or theft could destroy every copy simultaneously regardless of how many backups you made. The offsite requirement, whether satisfied through cloud storage or a drive physically kept at a different location, protects specifically against this class of risk that no amount of local redundancy alone can address.`,
-    },
+    }
   ],
 };

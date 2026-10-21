@@ -5,7 +5,7 @@ export const metaDescription = "5 mini PCs with 32GB RAM we evaluated, a genuine
 export const mainKeyword = "mini pc with 32gb ram";
 export const introParagraphs = [
   "32GB RAM represents a genuine sweet spot for buyers doing heavy multitasking, running many browser tabs alongside multiple applications, or light creative work like photo editing, without paying the substantial premium for 64GB that most buyers genuinely don't need.",
-  "RAM speed (measured in MT/s) matters alongside capacity, two 32GB configurations at different speeds can feel meaningfully different in responsiveness, worth checking the specific RAM speed rather than assuming any 32GB configuration performs identically.",
+  "RAM speed (measured in MT/s) matters alongside capacity, two 32GB configurations at different speeds can feel meaningfully different in responsiveness, worth checking the specific RAM speed rather than assuming any 32GB configuration performs identically."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     badge: "Best Mini PC with 32GB RAM Overall",
     name: "GEEKOM A8 MAX Gaming Mini PC AMD Ryzen 9 8945HS 32GB DDR5 & 1TB SSD",
     price: "$999.00",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41dRSelt6aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G19ZF99R?tag=deskfinds0d-20",
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     badge: "Best Value Pick with Even More RAM",
     name: "BOSGAME P6 Ryzen 9 6900HX Mini PC, 24GB RAM 4800MT/s 1TB PCIe4.0 SSD",
     price: "$539.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51wdKUl+ERL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPC1J2L3?tag=deskfinds0d-20",
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     badge: "Best Gaming-Capable 32GB Pick",
     name: "GMKtec M6 Ultra Gaming Mini PC Ryzen 7640HS 32GB RAM DDR5 1TB SSD",
     price: "$599.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41ydc8fgeIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FLJQW1RD?tag=deskfinds0d-20",
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget 32GB RAM Pick",
     name: "GMKtec M5 Ultra Gaming Mini PC Ryzen 7 7730U (Upgraded 7430U/ 5825U), 32GB RAM 512GB SSD Dual NIC LA",
     price: "$499.98",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41mRy1hD2yL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FW43RV3D?tag=deskfinds0d-20",
@@ -89,7 +89,7 @@ export const products: GuideProduct[] = [
     badge: "Best 32GB RAM Pick for Business Use",
     name: "GEEKOM Business Bulk Orders Choise, AX8 Max Silent Mini PC, Ryzen 7 8745HS",
     price: "$619.00",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/418Qzuae+0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSPB26NK?tag=deskfinds0d-20",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "32GB confirmed as a genuine sweet spot over 64GB for most buyers", description: "Confirmed 32GB RAM as a genuine sweet spot for heavy multitasking and light creative work, without the substantial premium of 64GB most buyers don't need." },
   { title: "RAM speed considered alongside capacity", description: "Considered RAM speed (measured in MT/s) alongside capacity, since two 32GB configurations at different speeds can feel meaningfully different in responsiveness." },
   { title: "Processor pairing checked for matching the RAM tier's use case", description: "Checked that the paired processor genuinely matches the heavy-multitasking use case implied by 32GB RAM, avoiding underpowered chip pairings." },
-  { title: "Business and professional use cases distinguished from general power users", description: "Distinguished business-focused positioning from general power-user needs, since these buyers may value different features like silent operation." },
+  { title: "Business and professional use cases distinguished from general power users", description: "Distinguished business-focused positioning from general power-user needs, since these buyers may value different features like silent operation." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Should I choose 32GB or 64GB RAM?", a: "32GB suits most heavy multitasking and light creative work well, 64GB is only worth it for genuine virtualization or professional AI workloads." },
   { q: "Are 32GB mini PCs good for a business environment?", a: "Some are explicitly positioned for business use with silent operation, a genuine benefit for shared office spaces." },
   { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting strong all-around performance with 32GB RAM for heavy multitasking" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting genuine 32GB RAM without premium processor pricing At $499.98, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting genuine 32GB RAM without premium processor pricing At under $500, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pcs-with-64gb-ram", title: "Best Mini PCs with 64GB RAM (2026)" },
   { href: "/guide/best-mini-pcs-with-16gb-ram", title: "Best Mini PCs with 16GB RAM (2026)" },
-  { href: "/guide/best-high-performance-mini-pcs", title: "Best High-Performance Mini PCs (2026)" },
+  { href: "/guide/best-high-performance-mini-pcs", title: "Best High-Performance Mini PCs (2026)" }
 ];

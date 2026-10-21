@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Gigabit, industrial-grade protection priority", "Cudy 90W Gigabit PoE++ Injector"],
         ["10Gbps backbone", "Omada 10G PoE++ Injector"],
         ["Gigabit, NDAA compliance needed", "BV-Tech 90W PoE++ Injector"],
-        ["Gigabit, budget priority", "YuanLey Gigabit PoE Injector 90W"],
+        ["Gigabit, budget priority", "YuanLey Gigabit PoE Injector 90W"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $40", "YuanLey Gigabit PoE Injector 90W ($39.98)"],
-        ["Under $45", "BV-Tech 90W PoE++ Injector ($42.00)"],
-        ["Under $70", "Cudy 90W Gigabit PoE++ Injector ($69.99)"],
-        ["Under $85", "Omada 10G PoE++ Injector ($80.45)"],
+        ["Under $40", "YuanLey Gigabit PoE Injector 90W (under $40)"],
+        ["Under $45", "BV-Tech 90W PoE++ Injector (under $45)"],
+        ["Under $70", "Cudy 90W Gigabit PoE++ Injector (under $70)"],
+        ["Under $85", "Omada 10G PoE++ Injector (under $90)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Gigabit vs 10Gbps at the 90W Tier",
     cards: [
       { label: "Gigabit (Cudy, BV-Tech, YuanLey)", text: "Sufficient for the vast majority of 90W-class devices like PTZ cameras and digital signage, which don't generate enough data traffic to need multi-gigabit speed." },
-      { label: "10Gbps (Omada)", text: "Necessary only if the injector sits on a genuine 10Gbps network backbone; otherwise the extra speed capability goes unused." },
+      { label: "10Gbps (Omada)", text: "Necessary only if the injector sits on a genuine 10Gbps network backbone; otherwise the extra speed capability goes unused." }
     ],
     note: "Most buyers should default to a Gigabit 90W injector unless their specific network infrastructure is already built around 10Gbps switching.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["Documented surge/ESD kV ratings", "Cudy 90W Gigabit PoE++ Injector"],
         ["NDAA compliance", "BV-Tech 90W PoE++ Injector"],
-        ["UL certification with 10Gbps", "Omada 10G PoE++ Injector"],
+        ["UL certification with 10Gbps", "Omada 10G PoE++ Injector"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For a PTZ Camera With a Heater Specifically",
     cards: [
       { label: "Look for", text: "Full 802.3bt compliance rated at the true 90W tier, since a PTZ camera's heater element alone can draw significant power on top of the camera's base operation, and an underpowered injector will fail intermittently in cold weather." },
-      { label: "In this comparison", text: "The Cudy pick specifically names PTZ cameras with heaters in its stated use cases, backed by its documented sustained 90W load capability." },
+      { label: "In this comparison", text: "The Cudy pick specifically names PTZ cameras with heaters in its stated use cases, backed by its documented sustained 90W load capability." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "Your network runs on a 10Gbps backbone or you want documented industrial surge protection, where the Omada or Cudy picks justify their higher prices." },
-      { label: "Save if", text: "You need reliable 90W 802.3bt delivery for a Gigabit network without NDAA compliance, where the YuanLey pick delivers that at the lowest price in this comparison." },
+      { label: "Save if", text: "You need reliable 90W 802.3bt delivery for a Gigabit network without NDAA compliance, where the YuanLey pick delivers that at the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

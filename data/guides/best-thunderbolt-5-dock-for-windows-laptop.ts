@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This dock's dual Thunderbolt 5 ports deliver up to 300W of power to compatible Dell systems over a single USB-C cable, with the listing transparently disclosing 240W for non-Dell systems, a real and specifically stated difference in charging capability. Its two DisplayPort 2.1 ports plus one HDMI 2.1 port support up to four 4K monitors at 120Hz or a single 8K display at 60Hz.\n\nCompared to the other picks in this comparison, this one's smart design specifically allows IT teams to update firmware over Wi-Fi without a connected PC, alongside enterprise-grade WPA3 encryption and physical security lock slots. Its complete package includes a Zoomspeed DisplayPort cable, HDMI cable, Ethernet cable, and a cleaning cloth.\n\nBest for buyers who want the highest charging wattage for Dell systems with remote firmware management and a complete cable bundle.",
     specs: ["300W to Dell systems, 240W to non-Dell", "Up to four 4K@120Hz or single 8K@60Hz", "Wi-Fi firmware updates, WPA3 encryption"],
     pros: ["Highest disclosed charging wattage for Dell systems in this comparison", "Firmware updates over Wi-Fi without a connected PC", "Complete cable bundle included, no separate purchases needed"],
-    cons: ["Non-Dell systems capped at 240W, well below the Dell-specific 300W", "Highest price in this comparison at $459.96"],
+    cons: ["Non-Dell systems capped at 240W, well below the Dell-specific 300W", "Highest price in this comparison at under $500"],
     bestFor: "buyers who want the highest Dell-specific charging wattage with remote firmware management",
   },
   {
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The highest Dell-specific charging wattage with a complete bundle", "Dell Pro Thunderbolt 5 Smart Dock SD25TB5"],
         ["Cloud-based fleet management for organizational deployment", "Lenovo ThinkPad Thunderbolt 5 Smart Dock 7500"],
         ["Thunderbolt Share PC-to-PC sharing for creative collaboration", "ASUS Master Thunderbolt 5 Dock DC510"],
-        ["The same core Dell dock capability at a lower price", "Dell SD25TB5 Pro 300W 12-Port"],
+        ["The same core Dell dock capability at a lower price", "Dell SD25TB5 Pro 300W 12-Port"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $370", "Lenovo ThinkPad Thunderbolt 5 Smart Dock ($368.00)"],
-        ["Under $390", "Dell SD25TB5 Pro 12-Port ($389.89)"],
-        ["Under $460", "Dell Pro SD25TB5 Bundle ($459.96)"],
-        ["Under $635", "ASUS Master Thunderbolt 5 Dock DC510 ($632.45)"],
+        ["Under $370", "Lenovo ThinkPad Thunderbolt 5 Smart Dock (under $400)"],
+        ["Under $390", "Dell SD25TB5 Pro 12-Port (under $400)"],
+        ["Under $460", "Dell Pro SD25TB5 Bundle (under $500)"],
+        ["Under $635", "ASUS Master Thunderbolt 5 Dock DC510 (under $650)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Dell-Optimized Charging vs Cross-Brand Fleet Management",
     cards: [
       { label: "Dell-optimized charging (both Dell picks)", text: "Delivers the highest stated 300W charging specifically to Dell systems, with a real drop to 240W for non-Dell laptops." },
-      { label: "Cross-brand fleet management (Lenovo)", text: "Offers cloud-based AWS management specifically designed for organizations managing docks across potentially mixed laptop fleets." },
+      { label: "Cross-brand fleet management (Lenovo)", text: "Offers cloud-based AWS management specifically designed for organizations managing docks across potentially mixed laptop fleets." }
     ],
     note: "If you're standardized on Dell hardware and want maximum charging wattage, either Dell pick delivers that. If you're managing a broader organizational fleet, Lenovo's cloud management platform is worth considering.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your display setup", "Recommended pick"],
       rows: [
         ["Up to four 4K@120Hz or single 8K@60Hz", "Either Dell SD25TB5 pick"],
-        ["Up to three 8K@60Hz or mixed high-refresh configurations", "Lenovo ThinkPad Thunderbolt 5 Smart Dock 7500"],
+        ["Up to three 8K@60Hz or mixed high-refresh configurations", "Lenovo ThinkPad Thunderbolt 5 Smart Dock 7500"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Creative Professionals Sharing Files Between Computers Specifically",
     cards: [
       { label: "Look for", text: "A dock with dedicated PC-to-PC sharing software that operates at Thunderbolt speeds, so transferring large project files or sharing a workstation between two machines doesn't require a separate network transfer." },
-      { label: "In this comparison", text: "The ASUS Master Thunderbolt 5 Dock DC510 specifically includes Thunderbolt Share software for secure, fast PC-to-PC screen, keyboard, mouse, and storage sharing." },
+      { label: "In this comparison", text: "The ASUS Master Thunderbolt 5 Dock DC510 specifically includes Thunderbolt Share software for secure, fast PC-to-PC screen, keyboard, mouse, and storage sharing." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You specifically want Thunderbolt Share's PC-to-PC sharing for creative collaboration, where the ASUS DC510 justifies its $632.45 price." },
-      { label: "Save if", text: "You want the same core Dell TB5 dock capability without a cable bundle, where the Dell SD25TB5 Pro 12-Port delivers that for $389.89." },
+      { label: "Spend more if", text: "You specifically want Thunderbolt Share's PC-to-PC sharing for creative collaboration, where the ASUS DC510 justifies its under $650 price." },
+      { label: "Save if", text: "You want the same core Dell TB5 dock capability without a cable bundle, where the Dell SD25TB5 Pro 12-Port delivers that for under $400." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

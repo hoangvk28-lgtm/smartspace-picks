@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable file boxes";
 export const introParagraphs = [
   "A portable file box's core functional promise is carrying documents securely between locations, so we tested handle comfort with a realistically fully loaded box in mind, not an empty demonstration, since paper files are genuinely heavy. We also verified hanging file rail compatibility explicitly, since not every 'file box' includes genuine rails versus simply being an open storage bin.",
-  "Lid seal and latch security matters just as much: a box that pops open when tilted or set down firmly fails the core portable promise this category exists to deliver.",
+  "Lid seal and latch security matters just as much: a box that pops open when tilted or set down firmly fails the core portable promise this category exists to deliver."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "9 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Loaded-weight handle comfort", description: "We considered handle design and material against the realistic weight of a fully loaded box of paper documents, not an empty demonstration." },
   { title: "Genuine hanging file rail verification", description: "We confirmed each pick actually includes hanging file rails rather than simply being an open storage bin marketed as a 'file box.'" },
   { title: "Lid seal and latch security", description: "We favored double-latch and hinged designs for genuine transport security, since the core promise of a portable box is that its lid won't pop open when tilted or set down firmly." },
-  { title: "Letter vs. legal size disclosure", description: "We clearly noted which picks accommodate legal size documents alongside letter size, since this varies meaningfully across the category." },
+  { title: "Letter vs. legal size disclosure", description: "We clearly noted which picks accommodate legal size documents alongside letter size, since this varies meaningfully across the category." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -287,11 +287,11 @@ export const faq: FaqItem[] = [
   { q: "Can I fit legal size documents in a portable file box?", a: "Only in boxes that explicitly support legal size, like the Storex Letter/Legal Filebox or the IRIS USA 35 Qt box. Many picks are letter size only, so check before ordering." },
   { q: "Will the lid stay closed if I tilt the box during transport?", a: "This depends on the latch design. A double-latch or hinged design, like the Pendaflex Hinged Lid pick, resists popping open far better than a simple friction-fit lid." },
   { q: "Is it worth buying a multi-pack of file boxes?", a: "If you need multiple boxes, a multi-pack like the Sterilite 4-pack generally offers a better per-unit price than buying individually, though it's unnecessary if you only need one box." },
-  { q: "Are clear file boxes better than opaque ones?", a: "Clear boxes let you identify contents without opening, a genuine convenience, though the tradeoff is potential UV yellowing over years of exposure near a window and less privacy for sensitive documents." },
+  { q: "Are clear file boxes better than opaque ones?", a: "Clear boxes let you identify contents without opening, a genuine convenience, though the tradeoff is potential UV yellowing over years of exposure near a window and less privacy for sensitive documents." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-file-boxes-with-handles", title: "Best Portable File Boxes with Handles (2026)" },
   { href: "/guide/best-lockable-portable-file-boxes", title: "Best Lockable Portable File Boxes (2026)" },
-  { href: "/guide/best-metal-portable-file-boxes", title: "Best Metal Portable File Boxes (2026)" },
+  { href: "/guide/best-metal-portable-file-boxes", title: "Best Metal Portable File Boxes (2026)" }
 ];

@@ -12,7 +12,7 @@ export const palmRestLaptopTypingExplainedGuide: Guide = {
     "laptop palm rest worth it",
     "laptop keyboard wrist comfort",
     "palm rest vs wrist rest laptop",
-    "typing on laptop ergonomics",
+    "typing on laptop ergonomics"
   ],
   heroImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const palmRestLaptopTypingExplainedGuide: Guide = {
     "wrist-rest-explained",
     "laptop-stand-height-chart",
     "external-keyboard-mouse-with-laptop-stand",
-    "how-to-measure-office-chair-fit",
+    "how-to-measure-office-chair-fit"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const palmRestLaptopTypingExplainedGuide: Guide = {
       question: "Is investing in a palm rest a reasonable first ergonomic improvement for laptop users?",
       answer:
         "It's a low-cost, easy first step, but for anyone regularly using a laptop as their primary desk computer for extended periods, investing in a proper laptop stand and external keyboard addresses more of the underlying ergonomic issues than a palm rest alone can.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const palmRestLaptopTypingExplainedGuide: Guide = {
     {
       heading: "Why a Complete Solution Provides More Comprehensive Benefit for Regular Laptop Users",
       body: `For someone using a laptop as their primary desk computer for extended periods daily, rather than occasionally, investing in a laptop stand to correct screen height, paired with an external keyboard and mouse positioned at proper desk height, addresses the full ergonomic picture in a way a palm rest alone simply cannot, this more complete setup is worth the modest additional cost and desk space for anyone experiencing genuine discomfort from regular extended laptop use, reserving the simpler palm rest as a reasonable minimal step for more occasional or lighter laptop use.`,
-    },
+    }
   ],
 };

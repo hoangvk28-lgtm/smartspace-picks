@@ -95,7 +95,7 @@ export default async function BestBudgetUsbChargingStationUnder30Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Budget USB Charging Station Under $30", item: `${SITE_URL}/guide/best-budget-usb-charging-station-under-30` },
+      { "@type": "ListItem", position: 3, name: "Best Budget USB Charging Station Under $30", item: `${SITE_URL}/guide/best-budget-usb-charging-station-under-30` }
     ],
   };
   const itemListSchema = {
@@ -211,7 +211,7 @@ export default async function BestBudgetUsbChargingStationUnder30Page() {
                   {[
                     { ports: "5–6 ports", total: "60W", perPort: "10–12W", bestFor: "Phones + earbuds at full speed" },
                     { ports: "10 ports", total: "60W", perPort: "6W", bestFor: "Phones only (tablets slow)" },
-                    { ports: "6 ports", total: "68W", perPort: "11–14W", bestFor: "Mix of phones + one tablet" },
+                    { ports: "6 ports", total: "68W", perPort: "11–14W", bestFor: "Mix of phones + one tablet" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink">{row.ports}</td>
@@ -285,7 +285,7 @@ export default async function BestBudgetUsbChargingStationUnder30Page() {
             {[
               { context: "For most setups", product: "Anker PowerPort 6", href: "#anker-powerport-6", verdict: ", 60W, 6 ports, PowerIQ smart charging, surge protection, detachable cord. Reliable Anker warranty." },
               { context: "Under $18", product: "Hercules Tuff 6-Port", href: "#hercules-tuff", verdict: ", Aluminum build for heat dissipation, 60W/2.4A per port, low-profile." },
-              { context: "With USB-C PD + cables included", product: "SooPii 6-Port", href: "#soopii-with-cables", verdict: ", PD 20W, 6 cables included, organizer slots for dorm setups." },
+              { context: "With USB-C PD + cables included", product: "SooPii 6-Port", href: "#soopii-with-cables", verdict: ", PD 20W, 6 cables included, organizer slots for dorm setups." }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
@@ -313,7 +313,7 @@ export default async function BestBudgetUsbChargingStationUnder30Page() {
               { href: "/guide/best-budget-multi-device-charging-station-under-50", title: "Best Multi-Device Charging Stations Under $50", desc: "GaN, USB-C PD, and Apple Watch arms, the upgrade picks" },
               { href: "/guide/best-budget-apple-3-in-1-charging-station-under-40", title: "Best Apple 3-in-1 Charging Stations Under $40", desc: "iPhone + Watch + AirPods on one stand, under $40" },
               { href: "/guide/dorm-room-power-essentials", title: "Dorm Room Power Essentials", desc: "Power strips, surge protectors, and USB hubs for dorm setups" },
-              { href: "/guide/desk-setup-essentials", title: "Desk Setup Essentials", desc: "15 must-have items for any desk setup" },
+              { href: "/guide/desk-setup-essentials", title: "Desk Setup Essentials", desc: "15 must-have items for any desk setup" }
             ].map((g) => (
               <Link prefetch={false} key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
                 <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">

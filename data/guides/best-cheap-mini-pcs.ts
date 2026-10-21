@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "cheap mini pc";
 export const introParagraphs = [
   "Going below a certain price threshold usually means giving up either RAM, storage capacity, or processor tier, worth knowing specifically which trade-off a cheap mini PC makes rather than assuming the lowest price wins on every spec simultaneously.",
-  "A genuinely cheap mini PC can still be a good value if it matches your actual use case, like basic web browsing, streaming, or a simple home server, worth being honest about matching the cheapest option to a genuinely light workload rather than an inappropriately demanding one.",
+  "A genuinely cheap mini PC can still be a good value if it matches your actual use case, like basic web browsing, streaming, or a simple home server, worth being honest about matching the cheapest option to a genuinely light workload rather than an inappropriately demanding one."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -26,7 +26,7 @@ export const products: GuideProduct[] = [
     badge: "Cheapest Mini PC Overall",
     name: "GMKtec Mini PC Intel Core i3-10110U Processor 8GB DDR4 256GB SSD",
     price: "$246.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41sKXJEffSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CQ4C9ZY1?tag=deskfinds0d-20",
@@ -42,7 +42,7 @@ export const products: GuideProduct[] = [
     badge: "Best Cheap Pick for Basic Everyday Use",
     name: "GMKtec Mini PC Computers Intel N95 Processor (Turbo 3.4GHz)",
     price: "$249.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41C8DZtap0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GFCMGHJT?tag=deskfinds0d-20",
@@ -58,7 +58,7 @@ export const products: GuideProduct[] = [
     badge: "Best Cheap Pick with Included OS License",
     name: "ACEMAGIC Mini PC Windows 11 Pro, AMD Ryzen R2544 16GB DDR4 RAM 256 SSD 28W",
     price: "$339.00",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41C5eN3lttL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DMCRSBNT?tag=deskfinds0d-20",
@@ -74,7 +74,7 @@ export const products: GuideProduct[] = [
     badge: "Best Cheap Pick for More Processing Power",
     name: "Beelink SER5 Pro Mini PC, AMD Ryzen 5 5625U(Up to 4.3GHz) 6C/12T",
     price: "$319.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41NGsh2eXOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C7437S8H?tag=deskfinds0d-20",
@@ -90,7 +90,7 @@ export const products: GuideProduct[] = [
     badge: "Best Cheap Pick with More Storage",
     name: "QAZIPO Mini PC, 13th Twin Lake N150 (up to 3.6GHz), 16GB RAM 512GB SSD",
     price: "$309.00",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41WgxeHNYYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT68M444?tag=deskfinds0d-20",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Specific trade-off identified for each cheap pick", description: "Identified specifically which spec each cheap mini PC trades off, whether RAM, storage, or processor tier, rather than assuming any cheap option wins on everything." },
   { title: "Use case matched honestly to the cheapest processor tiers", description: "Matched the cheapest processor tiers honestly to genuinely light use cases like browsing, streaming, or a home server, rather than assuming they suit any workload." },
   { title: "Total cost of ownership considered including OS licensing", description: "Considered total cost of ownership including whether a Windows license is included, which affects genuine cheapness beyond just the sticker price." },
-  { title: "Value assessed relative to the absolute lowest price in the category", description: "Assessed each pick's value specifically relative to the absolute lowest price options in this guide, not against the broader mini PC market." },
+  { title: "Value assessed relative to the absolute lowest price in the category", description: "Assessed each pick's value specifically relative to the absolute lowest price options in this guide, not against the broader mini PC market." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "What do you give up with the cheapest mini PCs?", a: "Usually RAM, storage, or processor tier, know specifically which trade-off a cheap option makes rather than assuming it wins on every spec." },
   { q: "Is a cheap mini PC good enough for basic tasks?", a: "Yes, for genuinely light use cases like web browsing, streaming, or a simple home server, a cheap entry-level mini PC works well." },
   { q: "Does an included Windows license make a mini PC cheaper overall?", a: "It can, factor in total cost of ownership, since buying a separate Windows license adds real cost to an otherwise cheaper bare-bones option." },
-  { q: "Should I buy the absolute cheapest mini PC available?", a: "Only if it matches your actual light use case, otherwise a slightly pricier option with better specs may serve you better long-term." },
+  { q: "Should I buy the absolute cheapest mini PC available?", a: "Only if it matches your actual light use case, otherwise a slightly pricier option with better specs may serve you better long-term." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-budget-mini-pcs", title: "Best Budget Mini PCs (2026)" },
   { href: "/guide/best-n100-mini-pcs", title: "Best N100 Mini PCs (2026)" },
-  { href: "/guide/best-n150-mini-pcs", title: "Best N150 Mini PCs (2026)" },
+  { href: "/guide/best-n150-mini-pcs", title: "Best N150 Mini PCs (2026)" }
 ];

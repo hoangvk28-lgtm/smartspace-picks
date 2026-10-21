@@ -139,7 +139,7 @@ export default async function BestVerticalLaptopStandsDeskSetupPage() {
     about: [
       { "@type": "Thing", name: "Vertical Laptop Stand" },
       { "@type": "Thing", name: "Desk Setup" },
-      { "@type": "Thing", name: "Clamshell Mode" },
+      { "@type": "Thing", name: "Clamshell Mode" }
     ],
   };
 
@@ -149,7 +149,7 @@ export default async function BestVerticalLaptopStandsDeskSetupPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Vertical Laptop Stands for Desk Setup", item: `${SITE_URL}/guide/best-vertical-laptop-stands-for-desk-setup` },
+      { "@type": "ListItem", position: 3, name: "Best Vertical Laptop Stands for Desk Setup", item: `${SITE_URL}/guide/best-vertical-laptop-stands-for-desk-setup` }
     ],
   };
 
@@ -316,7 +316,7 @@ export default async function BestVerticalLaptopStandsDeskSetupPage() {
               <p className="text-sm text-ink-secondary">
                 <strong className="text-ink">best desk setup pick:</strong>{" "}
                 <a href="#omoton-single" className="font-bold text-ink hover:text-brand transition-colors">OMOTON Aluminum Vertical Laptop Stand</a>
-                 - 4.8 stars, lifetime warranty and the cleanest aluminum profile for minimal desk setups.
+                 - Lifetime warranty and the cleanest aluminum profile for minimal desk setups.
               </p>
             </div>
             <p className="text-sm text-ink-secondary pl-5">See the full rankings above for all eight picks with pros, cons, and best-for summaries.</p>

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook for meetings";
 export const introParagraphs = [
   "Meeting notes have a specific set of needs: capturing action items quickly, referencing them right after the meeting ends, and ideally sharing them without retyping everything. That points toward real-time sync or a structured planner layout more than raw writing quality alone.",
-  "We prioritized picks here with either genuine real-time sync or a stated planner or agenda-friendly format, across all three product types.",
+  "We prioritized picks here with either genuine real-time sync or a stated planner or agenda-friendly format, across all three product types."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Meeting-specific workflow needs weighed first", description: "Prioritized real-time sync, structured planner layouts, and battery life across a meeting-heavy day over general note-taking specs alone." },
   { title: "Sharing speed after a meeting ends considered", description: "Distinguished products that make notes available almost instantly from those requiring a scan step before notes can be shared." },
   { title: "Structured formats credited where explicitly offered", description: "Noted planner or agenda-style page layouts as a genuine advantage for buyers with recurring structured meetings." },
-  { title: "Cross-platform compatibility checked for team use", description: "Verified whether a listing specifically states Android and iOS support, relevant for teams sharing notes across different devices." },
+  { title: "Cross-platform compatibility checked for team use", description: "Verified whether a listing specifically states Android and iOS support, relevant for teams sharing notes across different devices." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -258,11 +258,11 @@ export const faq: FaqItem[] = [
   { q: "What's the best digital notebook for taking meeting notes?", a: "It depends on your need for speed: a real-time smart pen or e-ink device shares notes almost instantly, while a Rocketbook is cheaper but requires scanning a page before sharing." },
   { q: "Is there a digital notebook with a built-in planner layout?", a: "Yes, the Rocketbook Fusion Hybrid Reusable Planner Notebook combines planner-style pages with regular notebook pages for structured agendas." },
   { q: "Do digital notebooks work for sharing notes across a team?", a: "Some smart pen sets and e-ink devices explicitly state Android and iOS compatibility, verify this on the specific listing if your team uses mixed devices." },
-  { q: "Can a digital notebook last through a full day of meetings?", a: "E-ink devices like the reMarkable 2 have battery life measured in weeks, easily lasting through a meeting-heavy day without charging." },
+  { q: "Can a digital notebook last through a full day of meetings?", a: "E-ink devices like the reMarkable 2 have battery life measured in weeks, easily lasting through a meeting-heavy day without charging." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks-for-work", title: "Best Digital Notebooks for Work (2026)" },
   { href: "/guide/best-digital-notebooks-for-professionals", title: "Best Digital Notebooks for Professionals (2026)" },
-  { href: "/guide/best-digital-notebooks-with-cloud-sync", title: "Best Digital Notebooks with Cloud Sync (2026)" },
+  { href: "/guide/best-digital-notebooks-with-cloud-sync", title: "Best Digital Notebooks with Cloud Sync (2026)" }
 ];

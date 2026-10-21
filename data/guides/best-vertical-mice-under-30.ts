@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The longest battery life and warranty", "Lekvey Ergonomic Rechargeable Vertical Mouse"],
         ["A precise fit for small to medium hands", "ProtoArc EM11 NL Wireless Ergonomic Vertical Mouse"],
         ["A precise fit for medium-large hands with a palm rest", "J-Tech Digital Wireless Vertical Mouse"],
-        ["The lowest price for genuine Bluetooth connectivity", "TECKNET Ergonomic Mouse, Bluetooth 5.0/3.0"],
+        ["The lowest price for genuine Bluetooth connectivity", "TECKNET Ergonomic Mouse, Bluetooth 5.0/3.0"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $25", "TECKNET ($24.99)"],
-        ["Under $26", "ProtoArc EM11 NL ($25.99)"],
-        ["Under $30", "J-Tech Digital ($29.95) or Lekvey ($29.99)"],
+        ["Under $25", "TECKNET (under $25)"],
+        ["Under $26", "ProtoArc EM11 NL (under $30)"],
+        ["Under $30", "J-Tech Digital (under $30) or Lekvey (under $30)"]
       ],
     },
   },
@@ -129,7 +129,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your hand size", "Recommended pick"],
       rows: [
         ["Small to medium (under 7.5 in)", "ProtoArc EM11 NL or TECKNET"],
-        ["Medium to large", "J-Tech Digital or Lekvey"],
+        ["Medium to large", "J-Tech Digital or Lekvey"]
       ],
     },
   },
@@ -137,7 +137,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "2.4G-Only vs Genuine Bluetooth Connectivity",
     cards: [
       { label: "2.4G-only (Lekvey)", text: "Simple, reliable connection via USB receiver, no pairing process, but limited to devices with a free USB port." },
-      { label: "Bluetooth (ProtoArc, J-Tech Digital, TECKNET)", text: "Connects to tablets or laptops without a spare USB port, and often supports switching between multiple paired devices." },
+      { label: "Bluetooth (ProtoArc, J-Tech Digital, TECKNET)", text: "Connects to tablets or laptops without a spare USB port, and often supports switching between multiple paired devices." }
     ],
     note: "If you need to connect to a tablet or a laptop without a free USB port, or want to switch between multiple devices, a Bluetooth-capable pick is worth prioritizing over a 2.4G-only design.",
   },
@@ -145,16 +145,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Buyers Who Switch Between Multiple Devices Throughout the Day Specifically",
     cards: [
       { label: "Look for", text: "Genuine multi-device Bluetooth switching, not just Bluetooth pairing to a single device at a time." },
-      { label: "In this comparison", text: "The ProtoArc EM11 NL specifically supports connecting up to 3 devices simultaneously via Bluetooth and 2.4G." },
+      { label: "In this comparison", text: "The ProtoArc EM11 NL specifically supports connecting up to 3 devices simultaneously via Bluetooth and 2.4G." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the longest battery life and warranty coverage, where the Lekvey pick's 150+ hour runtime and 36-month warranty lead this comparison." },
-      { label: "Save if", text: "You want genuine Bluetooth connectivity at the lowest price, where the TECKNET pick delivers that for under $25." },
+      { label: "Save if", text: "You want genuine Bluetooth connectivity at the lowest price, where the TECKNET pick delivers that for under $25." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

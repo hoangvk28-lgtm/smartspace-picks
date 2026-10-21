@@ -193,28 +193,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $28.79",
+          "Under $30",
           "ENGPOW Fireproof File Box with Zipper & Pockets"
         ],
         [
-          "Around $42.98",
+          "Under $45",
           "DocSafe Hard-Shell Fireproof File Organizer with Accordion Folder"
         ],
         [
-          "Around $67.99",
+          "Under $70",
           "SentrySafe Fireproof & Waterproof Document Box"
         ],
         [
-          "Around $72.79",
+          "Under $80",
           "SentrySafe 0.28 Cu Ft Fireproof & Waterproof Chest"
         ],
         [
-          "Around $88.48",
+          "Under $90",
           "First Alert 2037F Water and Fire Protector File Chest"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -262,7 +262,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "SentrySafe 0.61 Cu Ft Fireproof Document Box is aimed at buyers prioritizing 0.61 cu ft, fits letter-size hanging files." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "SentrySafe 0.61 Cu Ft Fireproof Document Box is aimed at buyers prioritizing 0.61 cu ft, fits letter-size hanging files." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-fireproof-safes-for-documents","title":"Best Fireproof Safes for Documents in 2026"},{"href":"/guide/best-fireproof-safes-for-important-documents","title":"Best Fireproof Safes for Important Documents in 2026"},{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"}];

@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Maximum complete mesh coverage in a very large home", "NETGEAR Orbi 770 Series WiFi 7 Mesh System (3-Pack)"],
         ["The single fastest router available, especially for gaming", "ASUS ROG Rapture GT-BE98 Pro Quad-Band WiFi 7 Router"],
-        ["A quad-band foundation to expand gradually", "ASUS ZenWiFi BQ16 Pro Quad-Band WiFi 7 Router (1-Pack)"],
+        ["A quad-band foundation to expand gradually", "ASUS ZenWiFi BQ16 Pro Quad-Band WiFi 7 Router (1-Pack)"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $400", "TP-Link Deco 7 Pro 3-Pack ($399.98)"],
-        ["$599-$685", "NETGEAR Orbi 770 3-Pack ($599.99), ASUS ZenWiFi BQ16 Pro ($663.47), or ASUS ROG Rapture GT-BE98 Pro ($684.99)"],
+        ["Under $400", "TP-Link Deco 7 Pro 3-Pack (under $400)"],
+        ["$599-$685", "NETGEAR Orbi 770 3-Pack (under $600), ASUS ZenWiFi BQ16 Pro (under $700), or ASUS ROG Rapture GT-BE98 Pro (under $700)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Tri-Band Mesh vs Quad-Band Router",
     cards: [
       { label: "Tri-Band Mesh (Orbi 770, Deco 7 Pro)", text: "Uses three radio bands shared across device connections and backhaul traffic, delivering strong whole-home coverage across multiple units at a lower price than quad-band hardware." },
-      { label: "Quad-Band (ASUS ROG Rapture, ZenWiFi BQ16 Pro)", text: "Adds a fourth dedicated radio band, often reserved specifically for backhaul or high-priority traffic, reducing the chance that mesh communication competes with your devices for bandwidth." },
+      { label: "Quad-Band (ASUS ROG Rapture, ZenWiFi BQ16 Pro)", text: "Adds a fourth dedicated radio band, often reserved specifically for backhaul or high-priority traffic, reducing the chance that mesh communication competes with your devices for bandwidth." }
     ],
     note: "Quad-band architecture matters most in demanding, many-device households or larger multi-unit mesh setups where backhaul contention would otherwise be noticeable.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your expansion approach", "Recommended pick"],
       rows: [
         ["Buy a complete fixed-size system upfront", "NETGEAR Orbi 770 Series (3-Pack) or TP-Link Deco 7 Pro (3-Pack)"],
-        ["Start with one unit and expand gradually", "ASUS ZenWiFi BQ16 Pro Quad-Band WiFi 7 Router (1-Pack)"],
+        ["Start with one unit and expand gradually", "ASUS ZenWiFi BQ16 Pro Quad-Band WiFi 7 Router (1-Pack)"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Serious Gaming Households Specifically",
     cards: [
       { label: "Look for", text: "Dedicated multi-hop gaming traffic optimization technology, not just a fast combined speed figure, since gaming latency depends on more than raw bandwidth." },
-      { label: "In this comparison", text: "The ASUS ROG Rapture GT-BE98 Pro's Triple-Level Game Acceleration specifically optimizes traffic at every step from your PC to the game server." },
+      { label: "In this comparison", text: "The ASUS ROG Rapture GT-BE98 Pro's Triple-Level Game Acceleration specifically optimizes traffic at every step from your PC to the game server." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You need genuine quad-band architecture or the single fastest router available, where the ASUS ROG Rapture GT-BE98 Pro delivers the highest combined speed in this comparison." },
-      { label: "Save if", text: "Strong tri-band mesh coverage and high device capacity are enough, where the TP-Link Deco 7 Pro 3-Pack saves $200-285 versus the pricier quad-band picks here." },
+      { label: "Save if", text: "Strong tri-band mesh coverage and high device capacity are enough, where the TP-Link Deco 7 Pro 3-Pack saves $200-285 versus the pricier quad-band picks here." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -174,7 +174,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "At This Price Point, Confirm You Actually Need the Coverage or Speed Before Buying the Most Expensive Option",
-    "explanation": "Every router in this comparison delivers substantially more speed and coverage than a typical household needs, so before choosing the priciest quad-band pick simply because it has the highest numbers, honestly assess your home's actual size, your household's device count, and whether you have an internet plan or use case that could genuinely use speeds in the 11-30 Gbps range. For many buyers, the tri-band Deco 7 Pro 3-pack at $399.98 already exceeds what their home and internet plan can practically use."
+    "explanation": "Every router in this comparison delivers substantially more speed and coverage than a typical household needs, so before choosing the priciest quad-band pick simply because it has the highest numbers, honestly assess your home's actual size, your household's device count, and whether you have an internet plan or use case that could genuinely use speeds in the 11-30 Gbps range. For many buyers, the tri-band Deco 7 Pro 3-pack at under $400 already exceeds what their home and internet plan can practically use."
   }
 ];
 

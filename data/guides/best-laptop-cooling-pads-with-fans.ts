@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop cooling pads with fans";
 export const introParagraphs = [
   "Almost every laptop cooling pad on the market has a fan, fans are the standard mechanism in this whole product category, not a special feature that sets one pad apart from another. So the real question when a listing advertises 'with fans' isn't whether fans exist, it's how many, how large, where they're positioned, whether speed is adjustable, and whether the pad backs its cooling claim with anything more specific than marketing language.",
-  "This guide picks apart fan count, fan size, speed control, noise, and documented temperature evidence across six pads. It overlaps in scope with our broad laptop cooling pad guide, so if you haven't read that one yet, start there for the full category picture, then come back here to compare fan specs side by side.",
+  "This guide picks apart fan count, fan size, speed control, noise, and documented temperature evidence across six pads. It overlaps in scope with our broad laptop cooling pad guide, so if you haven't read that one yet, start there for the full category picture, then come back here to compare fan specs side by side."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "9 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Fan count and size, not just presence", description: "We compared actual fan count, size, and layout since nearly every pad in this category includes a fan, presence alone is not a meaningful differentiator." },
   { title: "Speed control granularity", description: "We noted whether each pad offers staged modes, independent zones, a stepless dial, or a single fixed speed, since control flexibility affects real-world usefulness." },
   { title: "Noise evidence", description: "We prioritized pads with a specific stated dBA figure over vague 'quiet' marketing language." },
-  { title: "Documented cooling benefit where available", description: "We flagged which pads back their fan specs with an actual before/after temperature figure and treated the rest as unverified claims." },
+  { title: "Documented cooling benefit where available", description: "We flagged which pads back their fan specs with an actual before/after temperature figure and treated the rest as unverified claims." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -259,11 +259,11 @@ export const faq: FaqItem[] = [
   { q: "Is a higher fan count always better?", a: "Not necessarily. More fans spread airflow across a wider area but each fan moves less air individually than fewer, larger fans. A single large fan with documented cooling evidence can outperform a higher fan count with no supporting data." },
   { q: "What's the difference between staged and stepless fan control?", a: "Staged control switches between fixed modes, like 1, 4, or 5 fans active. Stepless control uses a dial or scroll wheel for continuous fine adjustment. Both are more useful than a single fixed speed, but stepless gives finer control." },
   { q: "How do I know if a 'quiet' cooling pad is actually quiet?", a: "Look for a specific stated dBA figure rather than a vague quiet claim. A documented sub-40dB rating is directly comparable across products in a way that marketing language is not." },
-  { q: "Does this guide cover the same ground as the main laptop cooling pad guide?", a: "There's overlap since fans are the standard mechanism across this whole category. This guide focuses specifically on comparing fan count, size, and control type, while our broad guide covers the full range of buying criteria." },
+  { q: "Does this guide cover the same ground as the main laptop cooling pad guide?", a: "There's overlap since fans are the standard mechanism across this whole category. This guide focuses specifically on comparing fan count, size, and control type, while our broad guide covers the full range of buying criteria." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" },
   { href: "/guide/best-laptop-cooling-pads-with-two-fans", title: "Best Laptop Cooling Pads with Two Fans (2026)" },
-  { href: "/guide/best-silent-laptop-cooling-pads", title: "Best Silent Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-silent-laptop-cooling-pads", title: "Best Silent Laptop Cooling Pads (2026)" }
 ];

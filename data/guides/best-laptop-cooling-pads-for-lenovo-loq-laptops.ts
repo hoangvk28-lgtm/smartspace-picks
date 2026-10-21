@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop cooling pads for Lenovo LOQ laptops";
 export const introParagraphs = [
   "LOQ is Lenovo's newer, more budget-friendly gaming line, distinct from the premium Legion series covered in our best-laptop-cooling-pads-for-lenovo-legion-laptops guide. LOQ chassis are typically compact gaming designs that still produce real heat output under sustained load, so this guide is written around LOQ's own thermal profile rather than assuming it needs less cooling attention than a pricier line.",
-  "It's worth being precise about what 'budget' actually means here: LOQ's lower price generally reflects its component and build tier, not necessarily a worse thermal design. A cheaper laptop is not automatically a hotter-running laptop, and it would be lazy to assume LOQ needs more external cooling than Legion simply because it costs less. This guide evaluates each pad against LOQ's real chassis size and heat output rather than that assumption.",
+  "It's worth being precise about what 'budget' actually means here: LOQ's lower price generally reflects its component and build tier, not necessarily a worse thermal design. A cheaper laptop is not automatically a hotter-running laptop, and it would be lazy to assume LOQ needs more external cooling than Legion simply because it costs less. This guide evaluates each pad against LOQ's real chassis size and heat output rather than that assumption."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -144,10 +144,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51+142vwVRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00NNMB3KS?tag=deskfinds0d-20",
-    description: "This slim, portable pad runs three quiet fans and a metal mesh surface, priced in line with LOQ's own budget-conscious positioning. Two adjustable height settings let it double as an ergonomic stand for general use beyond gaming.\n\nOne spot below llano V12 Ultra Laptop Cooling Pad with Smart Software Control in this ranking, it's priced lower than llano V12 Ultra Laptop Cooling Pad with Smart Software Control. The compromise here is straightforward: Not built for LOQ's heaviest sustained gaming loads. What you gain in return: Price matches LOQ's own budget-friendly tier. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Metal mesh gives a stable surface. On the other side, 3.7-star average on the broader listing history, worth reading reviews before buying. That's the main tradeoff to weigh against everything above.",
+    description: "This slim, portable pad runs three quiet fans and a metal mesh surface, priced in line with LOQ's own budget-conscious positioning. Two adjustable height settings let it double as an ergonomic stand for general use beyond gaming.\n\nOne spot below llano V12 Ultra Laptop Cooling Pad with Smart Software Control in this ranking, it's priced lower than llano V12 Ultra Laptop Cooling Pad with Smart Software Control. The compromise here is straightforward: Not built for LOQ's heaviest sustained gaming loads. What you gain in return: Price matches LOQ's own budget-friendly tier. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Metal mesh gives a stable surface. That's the main tradeoff to weigh against everything above.",
     specs: ["Slim portable design","3 quiet fans","Metal mesh surface","2 height settings","Extra USB port"],
     pros: ["Price matches LOQ's own budget-friendly tier","Metal mesh gives a stable surface","Extra USB port avoids losing connectivity","Quiet operation for everyday use"],
-    cons: ["Not built for LOQ's heaviest sustained gaming loads","Lower fan count than the gaming-oriented picks","3.7-star average on the broader listing history, worth reading reviews before buying"],
+    cons: ["Not built for LOQ's heaviest sustained gaming loads","Lower fan count than the gaming-oriented picks"],
     bestFor: "LOQ owners who want a low-cost, everyday pad and mostly play lighter or shorter gaming sessions.",
   }
 ];
@@ -156,7 +156,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "LOQ's real heat output despite its budget tier", description: "We evaluated each pad against LOQ's actual compact gaming chassis and sustained heat output, deliberately avoiding the lazy assumption that a lower laptop price means it runs hotter or needs stronger external cooling." },
   { title: "Price-tier fit versus cooling capability", description: "We distinguished between pads priced to match LOQ's own budget-conscious positioning and premium pads that offer more capability at a price disproportionate to LOQ's cost tier, so readers can weigh both honestly." },
   { title: "Documented sustained-load cooling evidence", description: "We prioritized pads with a specific stated temperature drop under CPU and GPU load over vague cooling claims, since LOQ can run demanding modern games." },
-  { title: "Chassis size match to LOQ's compact gaming footprint", description: "We checked each pad's stated size range against LOQ's typical 15-16 inch compact gaming chassis rather than assuming a generic gaming-laptop size range applies." },
+  { title: "Chassis size match to LOQ's compact gaming footprint", description: "We checked each pad's stated size range against LOQ's typical 15-16 inch compact gaming chassis rather than assuming a generic gaming-laptop size range applies." }
 ];
 
 export const howToChoose: HowToChooseSection[] = [
@@ -291,11 +291,11 @@ export const faq: FaqItem[] = [
   { q: "How is this guide different from the Legion cooling pad guide?", a: "This guide is written around LOQ's own compact gaming chassis and component tier. See our best-laptop-cooling-pads-for-lenovo-legion-laptops guide for Legion-specific picks, since the two lines have different profiles worth evaluating separately." },
   { q: "Does LOQ actually get hot under gaming load?", a: "Yes, LOQ is a genuine gaming laptop line and its compact chassis can build up real heat under sustained load, so cooling is a legitimate consideration regardless of its more budget-friendly price positioning." },
   { q: "Is a budget cooling pad good enough for LOQ?", a: "Often yes, for regular gaming sessions. A pad priced in line with LOQ's own budget-conscious positioning, like a capable multi-fan pick, can provide genuinely useful cooling without needing the most expensive turbo-fan or AI-controlled options." },
-  { q: "When should a LOQ owner consider a premium cooling pad?", a: "Mainly for the most demanding games and the longest sustained sessions, where a documented higher airflow figure or automatic fan adjustment provides a real benefit over a standard multi-fan pad." },
+  { q: "When should a LOQ owner consider a premium cooling pad?", a: "Mainly for the most demanding games and the longest sustained sessions, where a documented higher airflow figure or automatic fan adjustment provides a real benefit over a standard multi-fan pad." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-cooling-pads-for-lenovo-legion-laptops", title: "Best Laptop Cooling Pads for Lenovo Legion Laptops (2026)" },
   { href: "/guide/best-laptop-cooling-pads-for-lenovo-laptops", title: "Best Laptop Cooling Pads for Lenovo Laptops (2026)" },
-  { href: "/guide/best-budget-laptop-cooling-pads", title: "Best Budget Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-budget-laptop-cooling-pads", title: "Best Budget Laptop Cooling Pads (2026)" }
 ];

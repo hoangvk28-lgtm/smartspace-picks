@@ -12,7 +12,7 @@ export const singleMotorVsDualMotorStandingDeskGuide: Guide = {
     "dual motor standing desk worth it",
     "single motor desk stability",
     "standing desk motor comparison",
-    "standing desk raising speed",
+    "standing desk raising speed"
   ],
   heroImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const singleMotorVsDualMotorStandingDeskGuide: Guide = {
     "standing-desk-weight-capacity-explained",
     "standing-desk-height-chart",
     "standing-desk-converter-vs-full-standing-desk",
-    "anti-fatigue-mat-explained",
+    "anti-fatigue-mat-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const singleMotorVsDualMotorStandingDeskGuide: Guide = {
       question: "Does a single-motor desk make sense for a lighter setup?",
       answer:
         "Yes, if your desk load is light, a laptop, small monitor, basic accessories, a single-motor desk's lower weight capacity is still more than sufficient, and the cost savings can be a reasonable tradeoff for that lighter use case.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const singleMotorVsDualMotorStandingDeskGuide: Guide = {
     {
       heading: "When Single-Motor Remains a Reasonable Choice",
       body: `If your desk setup is genuinely light, a laptop, a single small monitor, basic keyboard and mouse, a single-motor desk's lower weight capacity is still comfortably sufficient, and the cost savings represent a legitimate value tradeoff rather than a compromise you'll regret. Reserve the dual-motor investment for setups with genuine heavier or less evenly distributed loads where the stability difference will actually be noticeable in daily use.`,
-    },
+    }
   ],
 };

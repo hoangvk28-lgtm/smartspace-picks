@@ -315,14 +315,14 @@ export const hacks: SpaceHack[] = [
     theHack: "Contains your power strip, surge protector, and all brick adapters in one enclosure. What was a cord pile on the floor becomes a clean black rectangle. Every video call background improves immediately. Large version fits strips up to 14\" (most small versions don't).",
     bestFor: "Anyone with a visible power strip or cord tangle on the floor. Highest visual-impact-per-dollar on this list.",
     specs: ["Fits strips up to 14\"", "2 cable entry/exit points", "12.75\"x5\"x4.5\"", "Black or white", "Child and pet-safe"],
-  },
+  }
 ];
 
 export const zones = [
   { id: "dead-space", label: "Zone 1 -- Dead Space Recovery", items: "Hacks 1-5", color: { bg: "#eff6ff", text: "#1d4ed8", border: "#bfdbfe" }, emoji: "🎯", desc: "Space you own but aren't using. No reorganizing required -- just claim the zone." },
   { id: "compression", label: "Zone 2 -- Compression Hacks", items: "Hacks 6-10 + 19", color: { bg: "#f0fdf4", text: "#15803d", border: "#bbf7d0" }, emoji: "🗜️", desc: "Reduce what you own to 20-30% of its original size. No new furniture needed." },
   { id: "capacity", label: "Zone 3 -- Capacity Multiplication", items: "Hacks 11-15", color: { bg: "#fff7ed", text: "#c2410c", border: "#fed7aa" }, emoji: "✖️", desc: "Make existing storage work harder -- double the rod, halve the hanger width." },
-  { id: "mobile", label: "Zone 4 -- Mobile Storage", items: "Hacks 16-18", color: { bg: "#fdf4ff", text: "#7e22ce", border: "#e9d5ff" }, emoji: "🔄", desc: "Storage that moves wherever you need it. No permanent floor commitment." },
+  { id: "mobile", label: "Zone 4 -- Mobile Storage", items: "Hacks 16-18", color: { bg: "#fdf4ff", text: "#7e22ce", border: "#e9d5ff" }, emoji: "🔄", desc: "Storage that moves wherever you need it. No permanent floor commitment." }
 ];
 
 export const spaceRecoveryTable = [
@@ -332,7 +332,7 @@ export const spaceRecoveryTable = [
   { hackType: "Slim velvet hangers", avgRecovered: "30-40% more rod space", where: "Closet" },
   { hackType: "Floating shelves (3-pack)", avgRecovered: "6-9 sq ft of surface", where: "Wall" },
   { hackType: "Rolling drawer cabinet", avgRecovered: "3-5 drawers, no floor claim", where: "Flexible" },
-  { hackType: "Under-desk storage", avgRecovered: "1-3 cubic feet", where: "Desk zone" },
+  { hackType: "Under-desk storage", avgRecovered: "1-3 cubic feet", where: "Desk zone" }
 ];
 
 export const roiTable = [
@@ -343,7 +343,7 @@ export const roiTable = [
   { hack: "Floating shelves 3-pack (#4)", cost: "~$20", impact: "6-9 sq ft new surface area", stars: 4 },
   { hack: "Rolling drawer cabinet (#16)", cost: "~$45", impact: "2 full drawers, fully mobile", stars: 4 },
   { hack: "Under-desk drawer (#5)", cost: "~$35", impact: "Removes 10-15 items from desk", stars: 4 },
-  { hack: "Full vacuum kit 20-pack (#10)", cost: "~$20", impact: "Full wardrobe overhaul", stars: 4 },
+  { hack: "Full vacuum kit 20-pack (#10)", cost: "~$20", impact: "Full wardrobe overhaul", stars: 4 }
 ];
 
 export const faq: Array<{ q: string; a: string }> = [
@@ -374,5 +374,5 @@ export const faq: Array<{ q: string; a: string }> = [
   {
     q: "Are vacuum bags reusable?",
     a: "Yes. Hefty Shrink-Pak bags are reusable -- re-seal and re-vacuum each season. The triple-seal mechanism maintains its integrity through multiple cycles. Expect 3-5 years of use per bag under normal seasonal rotation.",
-  },
+  }
 ];

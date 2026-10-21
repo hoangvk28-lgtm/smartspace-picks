@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41JtGDJkvmL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GXCG7ZTF?tag=deskfinds0d-20",
-    "description": "What stands out on LG 34U60ZB-B 34-inch UltraWide WQHD 120Hz HDR10 1800R Curved Monitor is curved 21:9 ultrawide wqhd display, alongside up to 99% srgb color, which is the main reason it earns a spot in this ultrawide monitors comparison.\n\nAt $299.53, it's the most expensive pick in this comparison, and that premium needs to be justified by genuinely using the extra features it carries over the cheaper options here.\n\nThis pick best suits buyers who want genuine side-by-side multitasking space without running two separate monitors. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "What stands out on LG 34U60ZB-B 34-inch UltraWide WQHD 120Hz HDR10 1800R Curved Monitor is curved 21:9 ultrawide wqhd display, alongside up to 99% srgb color, which is the main reason it earns a spot in this ultrawide monitors comparison.\n\nAt under $300, it's the most expensive pick in this comparison, and that premium needs to be justified by genuinely using the extra features it carries over the cheaper options here.\n\nThis pick best suits buyers who want genuine side-by-side multitasking space without running two separate monitors. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Curved 21:9 UltraWide WQHD Display",
       "Up to 99% sRGB Color",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41GSPGk-NQL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0G22NLF79?tag=deskfinds0d-20",
-    "description": "AOC 34\" Curved Gaming Monitor UWQHD 240Hz VA AMD FreeSync Premium is built around 34\" curved ultrawide display: immerse, paired with ultrafast 240hz refresh rate, positioning it as a monitor built for multitasking screen space rather than raw pixel density.\n\nIt lands between Sceptre 34-Inch Curved Ultrawide WQHD Monitor's $199.97 price floor and LG 34U60ZB-B 34-inch UltraWide WQHD 120Hz HDR10 1800R Curved Monitor's $299.53 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nAOC 34\" Curved Gaming Monitor UWQHD 240Hz VA AMD FreeSync Premium is the right call for buyers who want genuine side-by-side multitasking space without running two separate monitors. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "AOC 34\" Curved Gaming Monitor UWQHD 240Hz VA AMD FreeSync Premium is built around 34\" curved ultrawide display: immerse, paired with ultrafast 240hz refresh rate, positioning it as a monitor built for multitasking screen space rather than raw pixel density.\n\nIt lands between Sceptre 34-Inch Curved Ultrawide WQHD Monitor's under $200 price floor and LG 34U60ZB-B 34-inch UltraWide WQHD 120Hz HDR10 1800R Curved Monitor's under $300 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nAOC 34\" Curved Gaming Monitor UWQHD 240Hz VA AMD FreeSync Premium is the right call for buyers who want genuine side-by-side multitasking space without running two separate monitors. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "34\" CURVED ULTRAWIDE DISPLAY: Immerse",
       "Ultrafast 240hz Refresh Rate",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41eN81Y5UqL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FLLSJ5PC?tag=deskfinds0d-20",
-    "description": "LG 34U530A-W 34-inch UltraWide WFHD (2560 x 1080) IPS Wide Computer Monitor is built around effortless 21:9 widescreen workflows -, paired with 21:9 widescreen for maximum multitasking, positioning it as a monitor built for multitasking screen space rather than raw pixel density.\n\nIt lands between Sceptre 34-Inch Curved Ultrawide WQHD Monitor's $199.97 price floor and LG 34U60ZB-B 34-inch UltraWide WQHD 120Hz HDR10 1800R Curved Monitor's $299.53 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nLG 34U530A-W 34-inch UltraWide WFHD (2560 x 1080) IPS Wide Computer Monitor is the right call for buyers who want genuine side-by-side multitasking space without running two separate monitors. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "LG 34U530A-W 34-inch UltraWide WFHD (2560 x 1080) IPS Wide Computer Monitor is built around effortless 21:9 widescreen workflows -, paired with 21:9 widescreen for maximum multitasking, positioning it as a monitor built for multitasking screen space rather than raw pixel density.\n\nIt lands between Sceptre 34-Inch Curved Ultrawide WQHD Monitor's under $200 price floor and LG 34U60ZB-B 34-inch UltraWide WQHD 120Hz HDR10 1800R Curved Monitor's under $300 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nLG 34U530A-W 34-inch UltraWide WFHD (2560 x 1080) IPS Wide Computer Monitor is the right call for buyers who want genuine side-by-side multitasking space without running two separate monitors. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Effortless 21:9 Widescreen Workflows -",
       "21:9 Widescreen for Maximum Multitasking",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41c6qd+2aaL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0G76LVQ1G?tag=deskfinds0d-20",
-    "description": "LG UltraWide 34 Inch WQHD HDR 10 Curved Monitor is built around immersive ultrawide display, paired with high performance, positioning it as a monitor built for multitasking screen space rather than raw pixel density.\n\nIt lands between Sceptre 34-Inch Curved Ultrawide WQHD Monitor's $199.97 price floor and LG 34U60ZB-B 34-inch UltraWide WQHD 120Hz HDR10 1800R Curved Monitor's $299.53 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nLG UltraWide 34 Inch WQHD HDR 10 Curved Monitor is the right call for buyers who want genuine side-by-side multitasking space without running two separate monitors. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "LG UltraWide 34 Inch WQHD HDR 10 Curved Monitor is built around immersive ultrawide display, paired with high performance, positioning it as a monitor built for multitasking screen space rather than raw pixel density.\n\nIt lands between Sceptre 34-Inch Curved Ultrawide WQHD Monitor's under $200 price floor and LG 34U60ZB-B 34-inch UltraWide WQHD 120Hz HDR10 1800R Curved Monitor's under $300 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nLG UltraWide 34 Inch WQHD HDR 10 Curved Monitor is the right call for buyers who want genuine side-by-side multitasking space without running two separate monitors. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Immersive Ultrawide Display",
       "High Performance",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/414Qgm29+QL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0G6CW2MM6?tag=deskfinds0d-20",
-    "description": "What stands out on INNOCN 34\" Ultrawide Monitor WQHD 3440 x 1440P 180Hz IPS PC Adaptive-Sync G-SYNC Compatible is the 21:9 aspect ratio gives, alongside engineered for fps, racing, and, which is the main reason it earns a spot in this ultrawide monitors comparison.\n\nIt lands between Sceptre 34-Inch Curved Ultrawide WQHD Monitor's $199.97 price floor and LG 34U60ZB-B 34-inch UltraWide WQHD 120Hz HDR10 1800R Curved Monitor's $299.53 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nINNOCN 34\" Ultrawide Monitor WQHD 3440 x 1440P 180Hz IPS PC Adaptive-Sync G-SYNC Compatible is the right call for buyers who want genuine side-by-side multitasking space without running two separate monitors. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on INNOCN 34\" Ultrawide Monitor WQHD 3440 x 1440P 180Hz IPS PC Adaptive-Sync G-SYNC Compatible is the 21:9 aspect ratio gives, alongside engineered for fps, racing, and, which is the main reason it earns a spot in this ultrawide monitors comparison.\n\nIt lands between Sceptre 34-Inch Curved Ultrawide WQHD Monitor's under $200 price floor and LG 34U60ZB-B 34-inch UltraWide WQHD 120Hz HDR10 1800R Curved Monitor's under $300 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nINNOCN 34\" Ultrawide Monitor WQHD 3440 x 1440P 180Hz IPS PC Adaptive-Sync G-SYNC Compatible is the right call for buyers who want genuine side-by-side multitasking space without running two separate monitors. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "The 21:9 aspect ratio gives",
       "Engineered for FPS, racing, and",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51kd4e3qHmL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GVDYTL58?tag=deskfinds0d-20",
-    "description": "What stands out on 34'' Ultrawide Curved Monitor-WQHD 3440x1440 Resolution is immersive curved display, alongside smooth gaming performance, which is the main reason it earns a spot in this ultrawide monitors comparison.\n\nIt lands between Sceptre 34-Inch Curved Ultrawide WQHD Monitor's $199.97 price floor and LG 34U60ZB-B 34-inch UltraWide WQHD 120Hz HDR10 1800R Curved Monitor's $299.53 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\n34'' Ultrawide Curved Monitor-WQHD 3440x1440 Resolution is the right call for buyers who want genuine side-by-side multitasking space without running two separate monitors. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on 34'' Ultrawide Curved Monitor-WQHD 3440x1440 Resolution is immersive curved display, alongside smooth gaming performance, which is the main reason it earns a spot in this ultrawide monitors comparison.\n\nIt lands between Sceptre 34-Inch Curved Ultrawide WQHD Monitor's under $200 price floor and LG 34U60ZB-B 34-inch UltraWide WQHD 120Hz HDR10 1800R Curved Monitor's under $300 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\n34'' Ultrawide Curved Monitor-WQHD 3440x1440 Resolution is the right call for buyers who want genuine side-by-side multitasking space without running two separate monitors. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Immersive Curved Display",
       "Smooth Gaming Performance",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/517C0VzH2oL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FDVNJ8ST?tag=deskfinds0d-20",
-    "description": "Sceptre 34-Inch Curved Ultrawide WQHD Monitor is built around wqhd resolution, paired with 1ms mprt, positioning it as a monitor built for multitasking screen space rather than raw pixel density.\n\nPriced at $199.97, the lowest in this lineup, it trades some of the extras found on pricier picks here for a lower upfront cost, a reasonable tradeoff if your needs are basic.\n\nSceptre 34-Inch Curved Ultrawide WQHD Monitor is the right call for buyers who want genuine side-by-side multitasking space without running two separate monitors. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "Sceptre 34-Inch Curved Ultrawide WQHD Monitor is built around wqhd resolution, paired with 1ms mprt, positioning it as a monitor built for multitasking screen space rather than raw pixel density.\n\nPriced at under $200, the lowest in this lineup, it trades some of the extras found on pricier picks here for a lower upfront cost, a reasonable tradeoff if your needs are basic.\n\nSceptre 34-Inch Curved Ultrawide WQHD Monitor is the right call for buyers who want genuine side-by-side multitasking space without running two separate monitors. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "WQHD Resolution",
       "1ms MPRT",
@@ -297,31 +297,31 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $199.97",
+          "Under $200",
           "Sceptre 34-Inch Curved Ultrawide WQHD Monitor"
         ],
         [
-          "Around $199.99",
+          "Under $200",
           "34'' Ultrawide Curved Monitor-WQHD 3440x1440 Resolution"
         ],
         [
-          "Around $229.74",
+          "Under $250",
           "INNOCN 34\" Ultrawide Monitor WQHD 3440 x 1440P 180Hz IPS PC Adaptive-Sync G-SYNC Compatible"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "LG UltraWide 34 Inch WQHD HDR 10 Curved Monitor"
         ],
         [
-          "Around $269.99",
+          "Under $300",
           "LG 34U530A-W 34-inch UltraWide WFHD (2560 x 1080) IPS Wide Computer Monitor"
         ],
         [
-          "Around $279.99",
+          "Under $300",
           "AOC 34\" Curved Gaming Monitor UWQHD 240Hz VA AMD FreeSync Premium"
         ],
         [
-          "Around $299.53",
+          "Under $300",
           "LG 34U60ZB-B 34-inch UltraWide WQHD 120Hz HDR10 1800R Curved Monitor"
         ]
       ]
@@ -332,11 +332,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Sceptre 34-Inch Curved Ultrawide WQHD Monitor",
-        "text": "The lowest-priced pick in this comparison at $199.97, a solid choice if you don't need the extras the pricier picks carry."
+        "text": "The lowest-priced pick in this comparison at under $200, a solid choice if you don't need the extras the pricier picks carry."
       },
       {
         "label": "LG 34U60ZB-B 34-inch UltraWide WQHD 120Hz HDR10 1800R Curved Monitor",
-        "text": "The highest-priced pick at $299.53, worth it only if you'll actually use what that premium buys."
+        "text": "The highest-priced pick at under $300, worth it only if you'll actually use what that premium buys."
       }
     ],
     "note": "Default to Sceptre 34-Inch Curved Ultrawide WQHD Monitor unless the pricier pick's specific advantage genuinely applies to your situation."
@@ -396,7 +396,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "What's the real difference between the cheapest and most expensive pick here?",
-    "a": "Sceptre 34-Inch Curved Ultrawide WQHD Monitor at $199.97 covers the basics, while LG 34U60ZB-B 34-inch UltraWide WQHD 120Hz HDR10 1800R Curved Monitor at $299.53 adds a larger 49-inch screen and higher combined resolution. Whether that's worth the difference depends on how much desk space you have and whether you need maximum screen real estate or a more modest multitasking upgrade."
+    "a": "Sceptre 34-Inch Curved Ultrawide WQHD Monitor at under $200 covers the basics, while LG 34U60ZB-B 34-inch UltraWide WQHD 120Hz HDR10 1800R Curved Monitor at under $300 adds a larger 49-inch screen and higher combined resolution. Whether that's worth the difference depends on how much desk space you have and whether you need maximum screen real estate or a more modest multitasking upgrade."
   },
   {
     "q": "Will my GPU handle an ultrawide monitor at high refresh rate?",
@@ -408,7 +408,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "Is there a solid middle-ground pick in this price range?",
-    "a": "LG UltraWide 34 Inch WQHD HDR 10 Curved Monitor at $229.99 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
+    "a": "LG UltraWide 34 Inch WQHD HDR 10 Curved Monitor at under $250 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
   },
   {
     "q": "What's the most common mistake buyers make shopping ultrawide monitors under $300?",

@@ -12,7 +12,7 @@ export const usbCDockingStationPortsChartGuide: Guide = {
     "how many ports docking station",
     "docking station port guide",
     "usb-c dock ports for dual monitor",
-    "what ports do i need in a dock",
+    "what ports do i need in a dock"
   ],
   heroImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const usbCDockingStationPortsChartGuide: Guide = {
     "docking-station-vs-usb-hub",
     "kvm-switch-explained",
     "usb-c-power-delivery-explained",
-    "thunderbolt-vs-usb-c-explained",
+    "thunderbolt-vs-usb-c-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const usbCDockingStationPortsChartGuide: Guide = {
       question: "Do I need an SD card slot on a docking station?",
       answer:
         "Only if you regularly transfer photos or files from a camera or other SD card device, this is a convenience feature rather than a core need for most office setups, skip it if you never use SD cards directly.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const usbCDockingStationPortsChartGuide: Guide = {
     {
       heading: "Checking Dual Monitor Support Before You Buy",
       body: `Not every laptop and dock combination supports two external displays simultaneously, this depends on your laptop's graphics capability and whether the dock uses native video output or a DisplayLink chip to add displays. Check your specific laptop model's supported external display count and the dock's stated display capability together before assuming a dual monitor setup will work out of the box.`,
-    },
+    }
   ],
 };

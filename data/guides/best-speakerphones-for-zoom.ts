@@ -5,7 +5,7 @@ export const metaDescription = "5 speakerphones we evaluated for Zoom, with the 
 export const mainKeyword = "speakerphone for Zoom";
 export const introParagraphs = [
   "Zoom certification means a device has gone through Zoom's own hardware testing program, confirming its audio driver and echo/noise handling work correctly with Zoom's specific audio pipeline, general USB or Bluetooth plug-and-play compatibility works too, but isn't the same tested guarantee.",
-  "Zoom Rooms certification (for dedicated conference room hardware) is a distinct, stricter tier from basic Zoom-certified peripheral compatibility, don't assume the two labels mean the same level of testing.",
+  "Zoom Rooms certification (for dedicated conference room hardware) is a distinct, stricter tier from basic Zoom-certified peripheral compatibility, don't assume the two labels mean the same level of testing."
 ];
 export const lastUpdated = "2026-07-30";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Zoom-Certified Speakerphone",
     name: "Anker PowerConf Speakerphone, Zoom Certified Conference Speaker with 6 Mics",
     price: "$149.99",
-    rating: "4.4 stars from 5,801 Amazon ratings",
-    reviews: "5,801 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41x468UYHLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08CV6MGJH?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Certified Zoom and Google Meet Pick",
     name: "Jabra Speak2 40 Portable Speakerphone - 4 Noise-Cancelling Mics, Full-Range 50mm Portable Speaker, Wideband Audio and USB-A and USB-C Connections - Certified for Zoom and Google Meet - Dark Grey",
     price: "$146.99",
-    rating: "4.3 stars from 68 Amazon ratings",
-    reviews: "68 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31oHJerSTwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BWKTR73Y?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Established Zoom-Certified Pick",
     name: "Jabra Speak 510 UC Wireless Bluetooth Speakerphone, Outstanding Sound Quality, Portable Conference Speaker for Holding Meetings Anywhere - Certified for Zoom & Google Meet",
     price: "$119.49",
-    rating: "4.7 stars from 5,905 Amazon ratings",
-    reviews: "5,905 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Hwa9J+9XL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00AQUO5RI?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Zoom-Compatible Pick",
     name: "Yealink SP92 Conference Speaker and Microphone with AI Noise Cancellation, 20H Call Time, 13ft Pick-up, 360 Omni Mic 50mm Full-Duplex Speaker, Bluetooth 5.3 USB Speakerphone for Teams",
     price: "$60.20",
-    rating: "4.2 stars from 127 Amazon ratings",
-    reviews: "127 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31E89kCEPNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F28HTJP3?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget USB Speakerphone",
     name: "EMEET M1A USB Speakerphone, Built-in Mics, 360 degrees Voice Pickup, Plug&Play",
     price: "$63.99",
-    rating: "4.4 stars from 435 Amazon ratings",
-    reviews: "435 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51Iv2SVmQfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09WWYKP42?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Simple USB plug-and-play setup", "Solid rating base for the price", "Compact, easy to store", "Works with Zoom over standard USB audio"],
     cons: ["No specific Zoom certification", "Fewer premium features than the certified picks", "360 degrees pickup less directional for narrow tables"],
     bestFor: "Buyers who want a simple, affordable USB speakerphone for basic Zoom calls",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine Zoom certification vs. general USB/Bluetooth compatibility", description: "Distinguished picks that have passed Zoom's own hardware testing program from those offering general plug-and-play compatibility, since these represent different levels of tested confidence." },
   { title: "Review base as evidence of real-world Zoom call reliability", description: "Weighed larger, more established review bases more heavily, since consistent performance across years of real Zoom meetings matters more than a spec-sheet claim." },
-  { title: "Mic count and pickup radius for real conference-table performance", description: "Compared physical mic count and pickup radius across picks, since these drive real voice isolation on a Zoom call more than certification alone." },
+  { title: "Mic count and pickup radius for real conference-table performance", description: "Compared physical mic count and pickup radius across picks, since these drive real voice isolation on a Zoom call more than certification alone." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -239,11 +239,11 @@ export const faq: FaqItem[] = [
   { q: "Can I use a non-Zoom-certified speakerphone with Zoom?", a: "Yes, most speakerphones work with Zoom over standard USB or Bluetooth audio without formal certification. It's fine for casual or occasional use, but a certified device offers more tested reliability for daily calls." },
   { q: "How many microphones do I need for Zoom calls with multiple people?", a: "More physical microphones with a wider pickup radius genuinely improve voice isolation. A 6-mic design like the Anker PowerConf handles a larger table better than a single-mic speakerphone." },
   { q: "Does Zoom certification matter if I mostly use the speakerphone for phone calls too?", a: "Zoom certification specifically verifies compatibility with Zoom's software, a certified device still functions as a standard Bluetooth or USB speakerphone for regular calls outside of Zoom." },
-  { q: "Can I use a Zoom-certified speakerphone with Zoom Rooms hardware setups?", a: "Check the specific listing, standard USB or Bluetooth speakerphones generally work with a basic Zoom account on a laptop, but a dedicated Zoom Rooms deployment may require separately certified conference room hardware." },
+  { q: "Can I use a Zoom-certified speakerphone with Zoom Rooms hardware setups?", a: "Check the specific listing, standard USB or Bluetooth speakerphones generally work with a basic Zoom account on a laptop, but a dedicated Zoom Rooms deployment may require separately certified conference room hardware." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-speakerphones-for-google-meet", title: "Best Speakerphones for Google Meet (2026)" },
   { href: "/guide/best-noise-canceling-speakerphones", title: "Best Noise-Canceling Speakerphones (2026)" },
-  { href: "/guide/best-speakerphones-for-small-meeting-rooms", title: "Best Speakerphones for Small Meeting Rooms (2026)" },
+  { href: "/guide/best-speakerphones-for-small-meeting-rooms", title: "Best Speakerphones for Small Meeting Rooms (2026)" }
 ];

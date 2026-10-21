@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51EesStXPVL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FFHF6BH4?tag=deskfinds0d-20",
-    "description": "Tizee is a resin pen and pencil holder shaped like a V8 engine, with multiple compartments for stationery and a detailed design.\n\nIt costs about $19.50, about half the Stirling engines, and holds things. Against Nuenen below, it suits mechanical engineers.\n\nBest for a mechanical or automotive engineer. The caveat is that it is resin, not metal.",
+    "description": "Tizee is a resin pen and pencil holder shaped like a V8 engine, with multiple compartments for stationery and a detailed design.\n\nIt costs under $20, about half the Stirling engines, and holds things. Against Nuenen below, it suits mechanical engineers.\n\nBest for a mechanical or automotive engineer. The caveat is that it is resin, not metal.",
     "specs": [
       "V8 engine shape",
       "Resin construction",

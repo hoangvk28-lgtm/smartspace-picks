@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "room divider with storage";
 export const introParagraphs = [
   "A room divider with storage needs to split a shared space and hold real weight at the same time, which rules out plain folding screens and points toward freestanding bookcases, S-shaped racks, cube shelving with bins, or a hybrid screen with a built-in shelf. Since these pieces stand in the open rather than against a wall, stability and per-shelf capacity matter just as much as looks.",
-  "Below are 7 room dividers with storage we evaluated on freestanding stability, total weight capacity, and how well each one actually functions as a divider rather than a bookshelf that happens to sit in the middle of a room, ranging from a $59 particleboard bookshelf to a 748 lb-capacity bamboo tower.",
+  "Below are 7 room dividers with storage we evaluated on freestanding stability, total weight capacity, and how well each one actually functions as a divider rather than a bookshelf that happens to sit in the middle of a room, ranging from a $59 particleboard bookshelf to a 748 lb-capacity bamboo tower."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -51,24 +51,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/416nixYaeVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07PNFY7Q1?tag=deskfinds0d-20",
     description:
-      "The VASAGLE CUSTOS is the most proven freestanding storage divider in this list, with over 7,500 ratings backing its five-tier open frame. Each shelf holds 33 lbs for a 165 lb total, and hidden screw caps give it a cleaner finish than most particleboard bookcases at this price.\n\nIt ships with an anti-tip kit, a genuinely necessary feature on a piece meant to stand freely rather than lean against a wall. The open design lets light pass through while still creating a real visual break between two zones.\n\nHidden screw caps for a polished look. That's a real strength, but weigh it against the flip side: particleboard shelves, not solid wood.",
+      "Each shelf holds 33 lbs for a 165 lb total, and hidden screw caps give it a cleaner finish than most particleboard bookcases at this price.\n\nIt ships with an anti-tip kit, a genuinely necessary feature on a piece meant to stand freely rather than lean against a wall. The open design lets light pass through while still creating a real visual break between two zones.\n\nHidden screw caps for a polished look. That's a real strength, but weigh it against the flip side: particleboard shelves, not solid wood.",
     specs: [
       "27.6\"W x 9.4\"D x 62.6\"H",
       "Particleboard construction, 5 tiers",
       "33 lb/shelf (165 lb total)",
       "Anti-tip kit included",
-      "Hidden screw caps for a clean finish",
+      "Hidden screw caps for a clean finish"
     ],
     pros: [
-      "Best-selling pick with 7,547 ratings",
       "Hidden screw caps for a polished look",
       "Solid 165 lb total capacity",
-      "Includes anti-tip hardware",
+      "Includes anti-tip hardware"
     ],
     cons: [
       "Particleboard shelves, not solid wood",
       "Mid-size footprint may not fully divide a large room",
-      "Finished mainly for front-facing viewing",
+      "Finished mainly for front-facing viewing"
     ],
     bestFor: "Buyers who want the most proven, best-reviewed storage divider",
   },
@@ -89,18 +88,18 @@ export const products: GuideProduct[] = [
       "P2 MDF + metal",
       "3 placement options: divider, wine rack, or TV stand",
       "30 lb/shelf (180 lb total)",
-      "Waterproof finish",
+      "Waterproof finish"
     ],
     pros: [
       "3 different placement options in one piece",
       "Distinctive S-shaped silhouette doubles as decor",
       "Solid 180 lb total capacity",
-      "Waterproof, so it tolerates humidity or spills",
+      "Waterproof, so it tolerates humidity or spills"
     ],
     cons: [
       "Narrower 14.96\" width limits shelf surface per section",
       "Unconventional shape may not suit every room",
-      "Smaller review sample than the best-selling pick",
+      "Smaller review sample than the best-selling pick"
     ],
     bestFor: "A divider that might later become a wine rack or TV stand",
   },
@@ -121,18 +120,17 @@ export const products: GuideProduct[] = [
       "Engineered wood + metal",
       "44 lb/shelf (highest among S-shaped picks)",
       "Freestanding",
-      "1-year warranty",
+      "1-year warranty"
     ],
     pros: [
       "Highest per-shelf capacity among S-shaped picks at 44 lbs",
       "Cleanest white finish in this list",
-      "1-year warranty included",
-      "Strong 4.6-star rating across 1,431 ratings",
+      "1-year warranty included"
     ],
     cons: [
       "Pricier than the other S-shaped picks",
       "Deeper 11.8\" footprint than the slimmer options",
-      "White finish shows scuffs more visibly",
+      "White finish shows scuffs more visibly"
     ],
     bestFor: "Buyers who want the S-shaped look in white with more per-shelf capacity",
   },
@@ -153,18 +151,17 @@ export const products: GuideProduct[] = [
       "Wood frame + metal hinges",
       "2 removable, handmade solid shelves",
       "Foldable and portable",
-      "No assembly required",
+      "No assembly required"
     ],
     pros: [
       "Only pick combining a folding screen with built-in shelves",
       "Removable shelves add flexibility",
-      "Foldable and portable, easy to reposition",
-      "Strong review base at 2,675 ratings",
+      "Foldable and portable, easy to reposition"
     ],
     cons: [
       "Only 2 shelves, far less capacity than a full bookcase",
       "Folding hinges can wobble more than a rigid frame",
-      "Narrower overall footprint than bookcase-style dividers",
+      "Narrower overall footprint than bookcase-style dividers"
     ],
     bestFor: "Buyers who want a traditional folding screen with a bit of built-in shelf storage",
   },
@@ -185,18 +182,18 @@ export const products: GuideProduct[] = [
       "Particleboard + melamine",
       "Water-resistant finish",
       "Can lay flat as a wine rack",
-      "5 staggered S-shaped shelves",
+      "5 staggered S-shaped shelves"
     ],
     pros: [
       "Cheapest S-shaped pick in this list",
       "Water-resistant finish",
       "Doubles as a wine rack when laid flat",
-      "Staggered shelves add visual interest",
+      "Staggered shelves add visual interest"
     ],
     cons: [
       "Lower per-shelf capacity than the Gadroad pick",
       "Smaller review sample than the top picks",
-      "Melamine surface is less durable than solid wood",
+      "Melamine surface is less durable than solid wood"
     ],
     bestFor: "Budget-conscious buyers who still want the S-shaped divider look",
   },
@@ -217,18 +214,17 @@ export const products: GuideProduct[] = [
       "Solid pine wood + fabric bins",
       "4 fabric storage bins included",
       "2 removable back panels",
-      "Works vertically or horizontally",
+      "Works vertically or horizontally"
     ],
     pros: [
       "Genuinely solid pine wood construction",
       "Includes 4 matching fabric storage bins for closed storage",
-      "Highest rating in this list at 4.7 stars",
-      "Works in 2 different orientations",
+      "Works in 2 different orientations"
     ],
     cons: [
       "Lower and wider than most other picks, less privacy per square foot",
       "Smaller review sample than the best-sellers",
-      "Bins add cost compared to open-shelf-only designs",
+      "Bins add cost compared to open-shelf-only designs"
     ],
     bestFor: "Buyers who want closed bin storage alongside open shelving in solid wood",
   },
@@ -249,21 +245,21 @@ export const products: GuideProduct[] = [
       "100% bamboo construction",
       "17 open shelves (most in this list)",
       "748 lb total capacity (highest in this list)",
-      "2 anti-tilt straps included",
+      "2 anti-tilt straps included"
     ],
     pros: [
       "Tallest and highest-capacity pick in this list at 748 lbs",
       "Most individual shelves of any pick at 17",
       "Genuine bamboo, not engineered wood",
-      "Triple-wide footprint suits large open-concept rooms",
+      "Triple-wide footprint suits large open-concept rooms"
     ],
     cons: [
       "Most expensive pick in this list",
       "Large footprint needs a genuinely spacious room",
-      "Its height and width need extra clearance to check before buying",
+      "Its height and width need extra clearance to check before buying"
     ],
     bestFor: "Large rooms with a real book or plant collection that need maximum shelf capacity",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -291,7 +287,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed capacity, material, and included hardware against price, the VASAGLE CUSTOS and Homykic bamboo tower sit at opposite ends of that budget-to-capacity trade-off.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -430,11 +426,11 @@ export const faq: FaqItem[] = [
   {
     q: "Is open shelving or bin storage better for a room divider?",
     a: "Open shelving, like the VASAGLE CUSTOS or Homykic, keeps everything visible and easy to reach but shows dust and clutter more. Bin storage, like the EXPERLAM's 4 fabric bins, hides loose items out of sight while still leaving some open cube shelves for display. Choose based on whether you want the divider to double as a display piece or mainly hide clutter.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-room-divider-with-shelves", title: "Best Room Dividers with Shelves (2026)" },
   { href: "/guide/best-room-divider-screens", title: "Best Room Divider Screens (2026)" },
-  { href: "/guide/best-room-divider-bookcase", title: "Best Room Divider Bookcases (2026)" },
+  { href: "/guide/best-room-divider-bookcase", title: "Best Room Divider Bookcases (2026)" }
 ];

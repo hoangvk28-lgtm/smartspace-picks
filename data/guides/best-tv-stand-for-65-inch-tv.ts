@@ -139,9 +139,9 @@ export const products: GuideProduct[] = [
     description: "The PUKAMI pairs a 63.3 by 15.8 by 28.3 inch TV console with a 60 inch wide glass electric fireplace insert, sized to support TVs up to 75 inches so a 65 inch screen sits comfortably within its rated range. The fireplace offers 12 flame colors, 5 dimmer levels, and 5 flame speed settings, plus 750W and 1500W heat modes controlled by remote or touchscreen with a 1 to 8 hour timer. Three open storage shelves and a wide tabletop hold media equipment, and cable holes in the back keep wiring organized around both the TV and the fireplace unit. PUKAMI explicitly notes the stand and fireplace insert ship in two separate packages with two tracking numbers that can arrive on different days, so plan installation around both deliveries rather than a single box. A genuine advantage here is that 1 to 8 hour timer with remote and touchscreen control. The tradeoff is most expensive pick in this roundup.",
     specs: ["63.3\" x 15.8\" x 28.3\"", "60\" glass electric fireplace insert", "Fits TVs up to 75\"", "750W / 1500W heat modes", "12 flame colors, 5 dimmer + 5 speed levels", "Ships in 2 separate packages"],
     pros: ["60\" fireplace insert with 12 flame colors and adjustable heat", "1 to 8 hour timer with remote and touchscreen control", "Rated for TVs up to 75\", ample margin over a 65\" screen", "Three open shelves for AV equipment"],
-    cons: ["Most expensive pick in this roundup at $319.99", "Ships in two separate packages that may arrive on different days", "Heater adds ongoing electrical draw and needs 3 feet of clearance from combustibles"],
+    cons: ["Most expensive pick in this roundup at under $350", "Ships in two separate packages that may arrive on different days", "Heater adds ongoing electrical draw and needs 3 feet of clearance from combustibles"],
     bestFor: "Living rooms that want a supplemental heat source built into a stand sized for a 65 inch TV.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -173,10 +173,10 @@ export const faq: { q: string; a: string }[] = [
   { q: "Can enclosed cabinet or barn doors block my remote from reaching a streaming box?", a: "Yes. Solid barn doors and sliding cabinet panels, used on several picks in this guide, can attenuate infrared remote signals to devices stored behind them. If your equipment relies on IR control rather than Bluetooth or app control, keep it on an open shelf or leave the doors cracked open instead of fully closed." },
   { q: "Does a fireplace TV stand ship as one box?", a: "Not usually. The PUKAMI pick in this guide explicitly ships the console and the electric fireplace insert as two separate packages with two tracking numbers, which can arrive on different days. Plan your installation around both deliveries rather than assuming everything arrives together." },
   { q: "How much weight can a TV stand for a 65 inch TV actually hold?", a: "It varies by model. The picks in this guide range from roughly 100 lbs of top capacity on lighter builds up to 300 lbs on the highest-capacity pick. If you plan to stack a TV, soundbar, and streaming devices all on the same top shelf, look toward the higher end of that range rather than the minimum, since combined weight adds up quickly." },
-  { q: "What's the difference between a farmhouse barn door stand and a dresser-style TV stand?", a: "A farmhouse barn door stand, like several picks in this guide, uses sliding wood-look doors to conceal cabinet storage behind an open center shelf. A dresser-style stand, like the Furologee pick here, instead uses pull-out fabric or wood drawers similar to a bedroom dresser, which some buyers find easier to access than a sliding door for frequently used items." },
+  { q: "What's the difference between a farmhouse barn door stand and a dresser-style TV stand?", a: "A farmhouse barn door stand, like several picks in this guide, uses sliding wood-look doors to conceal cabinet storage behind an open center shelf. A dresser-style stand, like the Furologee pick here, instead uses pull-out fabric or wood drawers similar to a bedroom dresser, which some buyers find easier to access than a sliding door for frequently used items." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-tv-stand-for-55-inch-tv", title: "Best TV Stands for 55 Inch TVs (2026)" },
-  { href: "/guide/best-tv-stand-for-75-inch-tv", title: "Best TV Stands for 75 Inch TVs (2026)" },
+  { href: "/guide/best-tv-stand-for-75-inch-tv", title: "Best TV Stands for 75 Inch TVs (2026)" }
 ];

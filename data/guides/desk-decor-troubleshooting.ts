@@ -12,7 +12,7 @@ export const deskDecorTroubleshootingGuide: Guide = {
     "picture frame keeps tilting fix",
     "artwork fading sunlight fix",
     "desk plant dying signs",
-    "decor item losing adhesive fix",
+    "decor item losing adhesive fix"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskDecorTroubleshootingGuide: Guide = {
     "wall-art-hanging-height-explained",
     "desk-plant-pot-drainage-explained",
     "desk-plant-types-for-beginners",
-    "framed-vs-frameless-desk-art",
+    "framed-vs-frameless-desk-art"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskDecorTroubleshootingGuide: Guide = {
       question: "How do I fix a desk plant that's leaning toward the light source?",
       answer:
         "Rotating the plant's pot periodically, roughly every week or two, encourages more even growth in all directions rather than a permanent lean toward one light source, a simple habit that prevents this common cosmetic issue.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const deskDecorTroubleshootingGuide: Guide = {
     {
       heading: "Why Catching Plant Decline Signs Early Makes Recovery Much More Likely",
       body: `Plants typically show gradual warning signs, subtle yellowing, slightly drooped leaves, slowed visible growth, well before reaching a point of severe, potentially irreversible decline, the challenge is that these early signs are easy to overlook amid a busy workday, making it worth periodically taking a genuine look at your desk plant's condition rather than only noticing a problem once it's become severe and much harder to reverse, early intervention, adjusting watering frequency or repositioning for better light, resolves most issues far more reliably than addressing a plant already in serious decline.`,
-    },
+    }
   ],
 };

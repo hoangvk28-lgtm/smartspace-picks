@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $143.00",
+          "Under $150",
           "RATTMMOTOR Upgrade 3018-PRO CNC Wood Router Machine Kit"
         ],
         [
-          "Around $153.90",
+          "Under $160",
           "Genmitsu CNC 3018-PRO Router Kit"
         ],
         [
-          "Around $242.10",
+          "Under $250",
           "SainSmart Genmitsu 3018-PROVer V2 CNC Router Machine for Beginners"
         ],
         [
-          "Around $269.00",
+          "Under $300",
           "Genmitsu 3018-PROVer V2 CNC Milling Machine for Beginners"
         ],
         [
-          "Around $341.05",
+          "Under $350",
           "WolfPawn CNC Router Machine 4040-PRO for Metal Acrylic Cutting Milling"
         ],
         [
-          "Around $549.00",
+          "Under $550",
           "FoxAlien Masuter Pro 3-Axis CNC Router Machine"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "SainSmart Genmitsu 3018-PROVer V2 CNC Router Machine for Beginners is aimed at buyers prioritizing pre-assembled gantry + spoilboard, sub-1hr setup." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "SainSmart Genmitsu 3018-PROVer V2 CNC Router Machine for Beginners is aimed at buyers prioritizing pre-assembled gantry + spoilboard, sub-1hr setup." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-3020-desktop-cnc-machines","title":"Best 3020 Desktop CNC Machines in 2026"},{"href":"/guide/best-3020-pro-ultra-desktop-cnc-machines","title":"Best 3020 Pro Ultra Desktop CNC Machines in 2026"},{"href":"/guide/best-3018-desktop-cnc-machines","title":"Best 3018 Desktop CNC Machines in 2026"}];

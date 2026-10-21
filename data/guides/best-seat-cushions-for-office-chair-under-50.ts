@@ -123,7 +123,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A named, verifiable medical endorsement", "5 STARS UNITED Seat Cushion, ACA Endorsed"],
         ["A cooling gel layer for hot climates", "ComfiLife Doctor Recommended Seat Cushion"],
         ["TushGuard's proven design in black", "TushGuard Seat Cushion, Black Large"],
-        ["A large size for extended workdays", "Everlasting Comfort Doctor Recommended Seat Cushion"],
+        ["A large size for extended workdays", "Everlasting Comfort Doctor Recommended Seat Cushion"]
       ],
     },
   },
@@ -132,8 +132,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $34", "5 STARS UNITED ($27.95) or TushGuard Black ($33.99)"],
-        ["$41 to $50", "ComfiLife ($41.36) or Everlasting Comfort ($47.99)"],
+        ["Under $34", "5 STARS UNITED (under $30) or TushGuard Black (under $35)"],
+        ["$41 to $50", "ComfiLife (under $45) or Everlasting Comfort (under $50)"]
       ],
     },
   },
@@ -147,7 +147,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "Generic \"doctor recommended\" (ComfiLife, Everlasting Comfort)",
         text: "Uses similar language without naming a specific endorsing body, making the claim harder to independently verify even if the product itself performs well.",
-      },
+      }
     ],
     note: "If a verifiable, named credential matters to your purchase decision, 5 STARS UNITED is the only pick here that provides one directly.",
   },
@@ -157,7 +157,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Priority", "Recommended pick"],
       rows: [
         ["Standard memory foam is fine", "5 STARS UNITED, TushGuard, or Everlasting Comfort"],
-        ["Want a gel cooling layer for hot sitting conditions", "ComfiLife Doctor Recommended Seat Cushion"],
+        ["Want a gel cooling layer for hot sitting conditions", "ComfiLife Doctor Recommended Seat Cushion"]
       ],
     },
   },
@@ -171,7 +171,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "Everlasting Comfort's large size is specifically positioned around extended workday sitting, alongside 5 STARS UNITED's stated medium-firm feel.",
-      },
+      }
     ],
   },
   {
@@ -179,14 +179,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You want a genuine cooling gel layer for hot sitting conditions: ComfiLife ($41.36) is the only pick here with that specific feature.",
+        text: "You want a genuine cooling gel layer for hot sitting conditions: ComfiLife (under $45) is the only pick here with that specific feature.",
       },
       {
         label: "Save if",
-        text: "A verifiable medical endorsement matters more to you than a gel layer: 5 STARS UNITED ($27.95) provides that at the lowest price in this comparison.",
-      },
+        text: "A verifiable medical endorsement matters more to you than a gel layer: 5 STARS UNITED (under $30) provides that at the lowest price in this comparison.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -241,5 +241,5 @@ export const faq = [
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-seat-cushions-for-office-chair-under-25", title: "Best Seat Cushions for Office Chairs Under $25" },
-  { href: "/guide/best-office-chair-under-100", title: "Best Office Chairs Under $100" },
+  { href: "/guide/best-office-chair-under-100", title: "Best Office Chairs Under $100" }
 ];

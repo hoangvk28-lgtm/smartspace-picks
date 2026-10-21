@@ -12,7 +12,7 @@ export const standingDeskWeightCapacityExplainedGuide: Guide = {
     "standing desk weight limit",
     "how much weight can a standing desk hold",
     "standing desk stability at max weight",
-    "calculating desk load monitors equipment",
+    "calculating desk load monitors equipment"
   ],
   heroImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const standingDeskWeightCapacityExplainedGuide: Guide = {
     "standing-desk-converter-vs-full-standing-desk",
     "monitor-arm-weight-capacity-chart",
     "standing-desk-height-chart",
-    "how-to-measure-desk-for-monitor-arm",
+    "how-to-measure-desk-for-monitor-arm"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const standingDeskWeightCapacityExplainedGuide: Guide = {
       question: "What happens if I exceed a standing desk's weight capacity?",
       answer:
         "Exceeding rated capacity can cause the motor to strain or fail prematurely, uneven raising/lowering, or in severe cases structural stress on the frame, staying within and ideally below the rated capacity protects both desk longevity and safety.",
-    },
+    }
   ],
   sections: [
     {
@@ -76,6 +76,6 @@ Add these figures for your actual setup and compare against the desk's stated ca
     {
       heading: "Why Dual-Motor Desks Handle Load More Reliably",
       body: `A dual-motor standing desk has independent lifting mechanisms on each side working in tandem, which generally provides higher overall weight capacity and more consistent, level raising and lowering under load compared to a single-motor desk relying on one central mechanism to lift the entire width of the desk. If your setup involves multiple monitors, monitor arms, or heavier equipment, a dual-motor desk's higher typical capacity and more even lift reduces the risk of an uneven or strained raising motion.`,
-    },
+    }
   ],
 };

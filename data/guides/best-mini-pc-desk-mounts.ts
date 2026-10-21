@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini PC desk mount";
 export const introParagraphs = [
   "Our original candidate list for this article turned out to reference ASINs that are no longer valid or accessible through Amazon's product API, so we researched the current real product pool from scratch. Every pick below is a genuine, currently listed VESA-compatible mounting bracket.",
-  "These mounts use the standard VESA 75x75mm and 100x100mm hole patterns, which is what makes them compatible across brands rather than needing an OEM-specific bracket for each mini PC model.",
+  "These mounts use the standard VESA 75x75mm and 100x100mm hole patterns, which is what makes them compatible across brands rather than needing an OEM-specific bracket for each mini PC model."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41nWvL8pqlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KY3LHVG?tag=deskfinds0d-20",
     description: "Fits devices 0.65 to 2.55 inches deep, supports both 75x75 and 100x100mm VESA patterns, and can mount under a desk, to a pole, or on a flat surface, the most flexible mounting options in this comparison with a solid review base.\n\nIt earns the top spot in this comparison over Yimaut Adjustable Mini PC Vesa Mount Bracket Behind Monitor for one main reason. Widest device depth range in this comparison. On price, it's actually priced above Yimaut Adjustable Mini PC Vesa Mount Bracket Behind Monitor, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Multiple mounting location options. On the other side, Higher price than the budget options. That's the main tradeoff to weigh against everything above.",
-    specs: ["Fits 0.65-2.55 in device depth","75x75 and 100x100mm VESA","Under-desk, pole, or surface mount","702 reviews at 4.4 stars"],
+    specs: ["Fits 0.65-2.55 in device depth","75x75 and 100x100mm VESA","Under-desk, pole, or surface mount"],
     pros: ["Widest device depth range in this comparison","Multiple mounting location options"],
     cons: ["Higher price than the budget options"],
     bestFor: "Buyers who want the most flexible mounting location options.",
@@ -63,7 +63,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DB5RQH7V?tag=deskfinds0d-20",
     description: "Supports under-desk, wall, and monitor-arm mounting in one bracket, at a lower price than the HumanCentric pick, with a solid rating despite a smaller review base.\n\nSitting just under Yimaut Adjustable Mini PC Vesa Mount Bracket Behind Monitor, it's priced lower than Yimaut Adjustable Mini PC Vesa Mount Bracket Behind Monitor. Here's the honest tradeoff: Smaller review base than the HumanCentric option. And here's what it gets you instead: Multiple mounting locations in one bracket. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Lower price than the top pick. On the other side, Smaller review base than the HumanCentric option. That's the main tradeoff to weigh against everything above.",
-    specs: ["Under-desk, wall, or monitor-arm mount","40 reviews at 4.4 stars"],
+    specs: ["Under-desk, wall, or monitor-arm mount"],
     pros: ["Multiple mounting locations in one bracket","Lower price than the top pick"],
     cons: ["Smaller review base than the HumanCentric option"],
     bestFor: "Buyers who want mounting flexibility at a lower price point.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Re-verified the actual current product pool", description: "Our original candidate ASINs were no longer accessible, so we researched and confirmed real, currently listed products before ranking anything." },
   { title: "Device depth/width compatibility range", description: "We compared each mount's stated compatible device dimensions, since mini PCs vary meaningfully in thickness across brands." },
   { title: "VESA pattern support confirmed", description: "We verified 75x75mm and/or 100x100mm VESA compatibility for each pick, the standard that makes cross-brand mounting possible." },
-  { title: "Mounting location flexibility", description: "We noted whether each bracket supports under-desk, behind-monitor, wall, pole, or freestanding placement." },
+  { title: "Mounting location flexibility", description: "We noted whether each bracket supports under-desk, behind-monitor, wall, pole, or freestanding placement." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -225,14 +225,15 @@ export const buyingCriteria: BuyingCriterion[] = [
 
 export const faq: FaqItem[] = [
   { q: "Are these compatible with any mini PC brand?", a: "Generally yes, via the standard VESA 75x75mm or 100x100mm mounting pattern, though verify your specific device's depth and VESA compatibility before ordering." },
-  { q: "Which has the most reviews?", a: "The HumanCentric Thin Client Mount Bracket, with 702 reviews at 4.4 stars." },
-  { q: "What's the cheapest option?", a: "The VIVO Multifunctional Adjustable Thin Client Mini PC Mount Bracket at $14.99." },
+  
+  { q: "What's the cheapest option?", a: "The VIVO Multifunctional Adjustable Thin Client Mini PC Mount Bracket at under $15." },
   { q: "Can I mount my mini PC as a freestanding desk unit rather than attached to something?", a: "Yes, the VIVO pick specifically supports freestanding desk placement in addition to mounted options." },
   { q: "Is there an option from an established computer-hardware brand?", a: "Yes, the StarTech Thin Client Mount, from a well-known computer-accessory manufacturer." },
+  { q: "How much weight can an under-desk mini PC mount hold?", a: "The Yimaut bracket lists a 12 lb capacity, which is the one confirmed figure among these picks. Mini PCs are light, but add the weight of a power brick and any attached drive before you decide. For the other brackets, read the listing for a stated limit and keep your total comfortably under it." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pc-mounts-for-tvs", title: "Best Mini PC Mounts for TVs (2026)" },
   { href: "/guide/best-mini-pc-mounts-behind-monitors", title: "Best Mini PC Mounts Behind Monitors (2026)" },
-  { href: "/guide/best-mini-pc-mounts", title: "Best Mini PC Mounts (2026)" },
+  { href: "/guide/best-mini-pc-mounts", title: "Best Mini PC Mounts (2026)" }
 ];

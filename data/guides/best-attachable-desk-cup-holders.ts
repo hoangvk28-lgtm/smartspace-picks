@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "attachable desk cup holders";
 export const introParagraphs = [
   "\"Attachable\" is a broad umbrella term in this category, mostly overlapping with the clamp-on and clip-on mechanisms covered in our other cup holder guides rather than describing a distinct attachment method like adhesive. We use this guide to round up the strongest attachable options across mechanism types.",
-  "All five picks attach without drilling and cover a range from budget clips to feature-dense hybrid designs.",
+  "All five picks attach without drilling and cover a range from budget clips to feature-dense hybrid designs."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Attachment mechanism clarity", description: "We identified the actual attachment type (clamp or clip) behind the 'attachable' umbrella term for each pick, rather than treating the label as a distinct mechanism." },
   { title: "Weight capacity for the attached cavity", description: "We checked disclosed capacity ratings, like a 40oz limit, against the attachment's actual holding strength." },
   { title: "Tip and spill resistance", description: "We favored deep, covered cavity designs regardless of the specific attachment mechanism used." },
-  { title: "Desk-edge compatibility across mechanisms", description: "We compared clamp and clip opening ranges to confirm genuine desk-edge fit before recommending any pick." },
+  { title: "Desk-edge compatibility across mechanisms", description: "We compared clamp and clip opening ranges to confirm genuine desk-edge fit before recommending any pick." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -244,11 +244,11 @@ export const faq: FaqItem[] = [
   { q: "Which pick holds the largest cup?", a: "The 4 in 1 Metal Clip On Cup Holder explicitly discloses a 40oz capacity, the largest rating in this comparison." },
   { q: "Is metal or plastic attachment better?", a: "Metal generally holds its grip strength longer under repeated attaching and detaching. Reinforced plastic, like the Universal pick, is a solid lighter-weight alternative if you rarely reposition the holder." },
   { q: "Will these holders fit a thick standing-desk edge?", a: "Check the specific clamp or clip opening range for each product before ordering, since ranges vary meaningfully across this comparison." },
-  { q: "Do any of these come with extra features besides the cup holder?", a: "Yes, the 4 in 1 Metal Clip On pick combines the cup holder with additional headphone and accessory hanging points on the same base." },
+  { q: "Do any of these come with extra features besides the cup holder?", a: "Yes, the 4 in 1 Metal Clip On pick combines the cup holder with additional headphone and accessory hanging points on the same base." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-cup-holders", title: "Best Desk Cup Holders (2026)" },
   { href: "/guide/best-clamp-on-desk-cup-holders", title: "Best Clamp-On Desk Cup Holders (2026)" },
-  { href: "/guide/best-clip-on-desk-cup-holders", title: "Best Clip-On Desk Cup Holders (2026)" },
+  { href: "/guide/best-clip-on-desk-cup-holders", title: "Best Clip-On Desk Cup Holders (2026)" }
 ];

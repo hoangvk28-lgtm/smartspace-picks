@@ -2,11 +2,11 @@ export const guideSlug = "best-color-lcd-writing-tablets";
 export const guideTitle = "5 Best Color LCD Writing Tablets in 2026";
 export const metaTitle = "Best Color LCD Writing Tablets (2026)";
 export const metaDescription =
-  "5 LCD writing tablets confirmed with multi-color drawing lines, ranked from a $5.99 doodle board to a $24.17 protected design.";
+  "5 LCD writing tablets confirmed with multi-color drawing lines, ranked from an under-$6 doodle board to an under-$25 protected design.";
 export const mainKeyword = "color LCD writing tablet";
 export const introParagraphs = [
   "\"Color\" LCD writing tablets display multi-color drawing lines rather than the single-color line of basic models, we confirmed this feature directly in each listing rather than assuming any LCD tablet qualifies.",
-  "We verified actual product data (price, features, confirmed color variants) via the Amazon product catalog rather than relying on marketing descriptions alone.",
+  "We verified actual product data (price, features, confirmed color variants) via the Amazon product catalog rather than relying on marketing descriptions alone."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed multi-color drawing lines directly in the listing", description: "We required \"colorful\" or explicit multi-color drawing to be stated in the product name or description, rather than assuming any LCD tablet has this feature." },
   { title: "Verified confirmed color variants where stated", description: "Where a specific housing color (pink, blue) was confirmed in our product data, we noted it directly rather than guessing." },
   { title: "Compared across the full available price range", description: "This category spans across a range of price points, we compared value across that full range rather than assuming higher price means better fit for every buyer." },
-  { title: "Noted where review history is not yet established", description: "None of these specific listings had accumulated review history in our data pull, we disclosed this rather than fabricating ratings." },
+  { title: "Noted where review history is not yet established", description: "None of these specific listings had accumulated review history in our data pull, we disclosed this rather than fabricating ratings." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -239,15 +239,15 @@ export const buyingCriteria: BuyingCriterion[] = [
 ];
 
 export const faq: FaqItem[] = [
-  { q: "What's the cheapest color LCD writing tablet?", a: "The LCD Writing Tablet Colorful 10 Inch at $5.99, confirmed available in blue and pink." },
-  { q: "Is there a more durable option?", a: "Yes, the 10 inch LCD Writing Tablet with PU Protective Cover, at $24.17, includes a protective cover for better durability." },
+  { q: "What's the cheapest color LCD writing tablet?", a: "The LCD Writing Tablet Colorful 10 Inch at under $6, confirmed available in blue and pink." },
+  { q: "Is there a more durable option?", a: "Yes, the 10 inch LCD Writing Tablet with PU Protective Cover, at under $25, includes a protective cover for better durability." },
   { q: "Do these all draw in multiple colors?", a: "We confirmed \"colorful\" multi-color drawing directly in each listing here, rather than assuming any LCD tablet has this feature." },
   { q: "What does the memory lock feature do?", a: "It prevents accidental erasure of your drawing when the tablet is bumped or handled, useful for preserving work temporarily." },
-  { q: "Is there a travel-specific option?", a: "Yes, the TEKFUN LCD Writing Tablet is explicitly marketed as travel-friendly and mess-free." },
+  { q: "Is there a travel-specific option?", a: "Yes, the TEKFUN LCD Writing Tablet is explicitly marketed as travel-friendly and mess-free." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-red-lcd-writing-tablets", title: "Best Red LCD Writing Tablets (2026)" },
   { href: "/guide/best-lcd-writing-tablets-for-seniors", title: "Best LCD Writing Tablets for Seniors (2026)" },
-  { href: "/guide/best-lcd-writing-tablets-for-office-desks", title: "Best LCD Writing Tablets for Office Desks (2026)" },
+  { href: "/guide/best-lcd-writing-tablets-for-office-desks", title: "Best LCD Writing Tablets for Office Desks (2026)" }
 ];

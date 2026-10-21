@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41hhCPwKRpL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0C2HJHF8L?tag=deskfinds0d-20",
-    "description": "What stands out on GAMEPOWER 49 inch Curved Ultrawide Gaming Monitor is 49\" super ultrawide dqhd display, alongside 120hz refresh rate & 1ms, which is the main reason it earns a spot in this ultrawide monitors comparison.\n\nSitting at $529.99, the top of this comparison's price range, it asks buyers to confirm the added capability is actually worth it over the more affordable picks here before paying the premium.\n\nGAMEPOWER 49 inch Curved Ultrawide Gaming Monitor is the right call for buyers who want genuine side-by-side multitasking space without running two separate monitors. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on GAMEPOWER 49 inch Curved Ultrawide Gaming Monitor is 49\" super ultrawide dqhd display, alongside 120hz refresh rate & 1ms, which is the main reason it earns a spot in this ultrawide monitors comparison.\n\nSitting at under $550, the top of this comparison's price range, it asks buyers to confirm the added capability is actually worth it over the more affordable picks here before paying the premium.\n\nGAMEPOWER 49 inch Curved Ultrawide Gaming Monitor is the right call for buyers who want genuine side-by-side multitasking space without running two separate monitors. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "49\" SUPER ULTRAWIDE DQHD DISPLAY",
       "120HZ REFRESH RATE & 1MS",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41MxiGJg9fL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0G8X1K1BL?tag=deskfinds0d-20",
-    "description": "What stands out on ZZA Ultrawide 49 Inch Curved Monitor 5120x1440P 165Hz Large Computer Monitor 5K Dual Quad High Definition 1500R Curved AMD FreeSync 120% sRGB Height Adjustable is immersive 49-inch ultra-wide curved display, alongside smooth 144hz / up to, which is the main reason it earns a spot in this ultrawide monitors comparison.\n\nCompared to LG 34\" Curved UltraWide WQHD(3440x1440) Smart Monitor with HDR10 99% sRGB at $315.99, it costs more for real added capability, while sitting well below GAMEPOWER 49 inch Curved Ultrawide Gaming Monitor at $529.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want genuine side-by-side multitasking space without running two separate monitors. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "What stands out on ZZA Ultrawide 49 Inch Curved Monitor 5120x1440P 165Hz Large Computer Monitor 5K Dual Quad High Definition 1500R Curved AMD FreeSync 120% sRGB Height Adjustable is immersive 49-inch ultra-wide curved display, alongside smooth 144hz / up to, which is the main reason it earns a spot in this ultrawide monitors comparison.\n\nCompared to LG 34\" Curved UltraWide WQHD(3440x1440) Smart Monitor with HDR10 99% sRGB at under $350, it costs more for real added capability, while sitting well below GAMEPOWER 49 inch Curved Ultrawide Gaming Monitor at under $550 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want genuine side-by-side multitasking space without running two separate monitors. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Immersive 49-Inch Ultra-Wide Curved Display",
       "Smooth 144Hz / Up to",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/4163lBlv0TL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GCHBQJDH?tag=deskfinds0d-20",
-    "description": "Deco Gear 49\" Curved Super Ultrawide Monitor leads with unify your world with immersive, backed by 165hz speed for silky-smooth action, a combination aimed at as a monitor built for multitasking screen space rather than raw pixel density.\n\nIt lands between LG 34\" Curved UltraWide WQHD(3440x1440) Smart Monitor with HDR10 99% sRGB's $315.99 price floor and GAMEPOWER 49 inch Curved Ultrawide Gaming Monitor's $529.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nDeco Gear 49\" Curved Super Ultrawide Monitor is the right call for buyers who want genuine side-by-side multitasking space without running two separate monitors. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "Deco Gear 49\" Curved Super Ultrawide Monitor leads with unify your world with immersive, backed by 165hz speed for silky-smooth action, a combination aimed at as a monitor built for multitasking screen space rather than raw pixel density.\n\nIt lands between LG 34\" Curved UltraWide WQHD(3440x1440) Smart Monitor with HDR10 99% sRGB's under $350 price floor and GAMEPOWER 49 inch Curved Ultrawide Gaming Monitor's under $550 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nDeco Gear 49\" Curved Super Ultrawide Monitor is the right call for buyers who want genuine side-by-side multitasking space without running two separate monitors. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "UNIFY YOUR WORLD WITH IMMERSIVE",
       "165HZ SPEED FOR SILKY-SMOOTH ACTION",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/415MtPEymlL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09N3G9T16?tag=deskfinds0d-20",
-    "description": "INNOCN 40C1R Ultrawide Monitor 40\" WQHD 3440 x 1440p 144Hz FreeSync Premium HDR400 21:9 Computer Display 95% DCI-P3 500Nits IPS USB Type-C HDMI Tilt/Height Adjustable is built around 21:9 ultrawide computer gaming monitor - 40\", paired with amd freesync premium & hdr 400 & & 500nits, positioning it as a monitor built for multitasking screen space rather than raw pixel density.\n\nIt lands between LG 34\" Curved UltraWide WQHD(3440x1440) Smart Monitor with HDR10 99% sRGB's $315.99 price floor and GAMEPOWER 49 inch Curved Ultrawide Gaming Monitor's $529.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nINNOCN 40C1R Ultrawide Monitor 40\" WQHD 3440 x 1440p 144Hz FreeSync Premium HDR400 21:9 Computer Display 95% DCI-P3 500Nits IPS USB Type-C HDMI Tilt/Height Adjustable is the right call for buyers who want genuine side-by-side multitasking space without running two separate monitors. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "INNOCN 40C1R Ultrawide Monitor 40\" WQHD 3440 x 1440p 144Hz FreeSync Premium HDR400 21:9 Computer Display 95% DCI-P3 500Nits IPS USB Type-C HDMI Tilt/Height Adjustable is built around 21:9 ultrawide computer gaming monitor - 40\", paired with amd freesync premium & hdr 400 & & 500nits, positioning it as a monitor built for multitasking screen space rather than raw pixel density.\n\nIt lands between LG 34\" Curved UltraWide WQHD(3440x1440) Smart Monitor with HDR10 99% sRGB's under $350 price floor and GAMEPOWER 49 inch Curved Ultrawide Gaming Monitor's under $550 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nINNOCN 40C1R Ultrawide Monitor 40\" WQHD 3440 x 1440p 144Hz FreeSync Premium HDR400 21:9 Computer Display 95% DCI-P3 500Nits IPS USB Type-C HDMI Tilt/Height Adjustable is the right call for buyers who want genuine side-by-side multitasking space without running two separate monitors. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "21:9 Ultrawide Computer Gaming Monitor - 40\"",
       "AMD FreeSync Premium & HDR 400 & & 500Nits",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41sfv1rQDDL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GR7QW7MM?tag=deskfinds0d-20",
-    "description": "What stands out on LG 34U640B-B 34-inch UltraWide WQHD 144Hz FreeSync Premium Curved Monitor is widescreen workflows made effortless, alongside curved 21:9 ultrawide wqhd display, which is the main reason it earns a spot in this ultrawide monitors comparison.\n\nIt lands between LG 34\" Curved UltraWide WQHD(3440x1440) Smart Monitor with HDR10 99% sRGB's $315.99 price floor and GAMEPOWER 49 inch Curved Ultrawide Gaming Monitor's $529.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nLG 34U640B-B 34-inch UltraWide WQHD 144Hz FreeSync Premium Curved Monitor is the right call for buyers who want genuine side-by-side multitasking space without running two separate monitors. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on LG 34U640B-B 34-inch UltraWide WQHD 144Hz FreeSync Premium Curved Monitor is widescreen workflows made effortless, alongside curved 21:9 ultrawide wqhd display, which is the main reason it earns a spot in this ultrawide monitors comparison.\n\nIt lands between LG 34\" Curved UltraWide WQHD(3440x1440) Smart Monitor with HDR10 99% sRGB's under $350 price floor and GAMEPOWER 49 inch Curved Ultrawide Gaming Monitor's under $550 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nLG 34U640B-B 34-inch UltraWide WQHD 144Hz FreeSync Premium Curved Monitor is the right call for buyers who want genuine side-by-side multitasking space without running two separate monitors. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Widescreen Workflows Made Effortless",
       "Curved 21:9 UltraWide WQHD Display",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41ldN3ykzcL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DG119HM7?tag=deskfinds0d-20",
-    "description": "LG 34SR60QC-W 34-inch QHD (3440x1440) Curved Smart Monitor with Streaming is built around handpicked by amazon, paired with work smart, play smart on, positioning it as a monitor built for multitasking screen space rather than raw pixel density.\n\nCompared to LG 34\" Curved UltraWide WQHD(3440x1440) Smart Monitor with HDR10 99% sRGB at $315.99, it costs more for real added capability, while sitting well below GAMEPOWER 49 inch Curved Ultrawide Gaming Monitor at $529.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want genuine side-by-side multitasking space without running two separate monitors. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "LG 34SR60QC-W 34-inch QHD (3440x1440) Curved Smart Monitor with Streaming is built around handpicked by amazon, paired with work smart, play smart on, positioning it as a monitor built for multitasking screen space rather than raw pixel density.\n\nCompared to LG 34\" Curved UltraWide WQHD(3440x1440) Smart Monitor with HDR10 99% sRGB at under $350, it costs more for real added capability, while sitting well below GAMEPOWER 49 inch Curved Ultrawide Gaming Monitor at under $550 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want genuine side-by-side multitasking space without running two separate monitors. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Handpicked by Amazon",
       "Work Smart, Play Smart on",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41tY9tbORHL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H85H25TW?tag=deskfinds0d-20",
-    "description": "What stands out on Samsung 34\" ViewFinity S5 (S55GH) Ultrawide QHD 120Hz Curved Monitor is samsung's 34\" viewfinity s5 (s55gh), alongside the 34\" 1800r curved display, which is the main reason it earns a spot in this ultrawide monitors comparison.\n\nIt lands between LG 34\" Curved UltraWide WQHD(3440x1440) Smart Monitor with HDR10 99% sRGB's $315.99 price floor and GAMEPOWER 49 inch Curved Ultrawide Gaming Monitor's $529.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nSamsung 34\" ViewFinity S5 (S55GH) Ultrawide QHD 120Hz Curved Monitor is the right call for buyers who want genuine side-by-side multitasking space without running two separate monitors. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on Samsung 34\" ViewFinity S5 (S55GH) Ultrawide QHD 120Hz Curved Monitor is samsung's 34\" viewfinity s5 (s55gh), alongside the 34\" 1800r curved display, which is the main reason it earns a spot in this ultrawide monitors comparison.\n\nIt lands between LG 34\" Curved UltraWide WQHD(3440x1440) Smart Monitor with HDR10 99% sRGB's under $350 price floor and GAMEPOWER 49 inch Curved Ultrawide Gaming Monitor's under $550 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nSamsung 34\" ViewFinity S5 (S55GH) Ultrawide QHD 120Hz Curved Monitor is the right call for buyers who want genuine side-by-side multitasking space without running two separate monitors. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Samsung's 34\" ViewFinity S5 (S55GH)",
       "The 34\" 1800R curved display",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41ZPpYdd4lL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FL88XH8V?tag=deskfinds0d-20",
-    "description": "LG 34\" Curved UltraWide WQHD(3440x1440) Smart Monitor with HDR10 99% sRGB is built around work smart, play smart on, paired with your favorite streaming services, positioning it as a monitor built for multitasking screen space rather than raw pixel density.\n\nAt $315.99, it's the most affordable pick in this comparison, so expect fewer extras than the pricier options here, but the core function holds up for buyers who don't need the added features those carry.\n\nThis pick best suits buyers who want genuine side-by-side multitasking space without running two separate monitors. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "LG 34\" Curved UltraWide WQHD(3440x1440) Smart Monitor with HDR10 99% sRGB is built around work smart, play smart on, paired with your favorite streaming services, positioning it as a monitor built for multitasking screen space rather than raw pixel density.\n\nAt under $350, it's the most affordable pick in this comparison, so expect fewer extras than the pricier options here, but the core function holds up for buyers who don't need the added features those carry.\n\nThis pick best suits buyers who want genuine side-by-side multitasking space without running two separate monitors. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Work Smart, Play Smart on",
       "Your Favorite Streaming Services",
@@ -325,35 +325,35 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $315.99",
+          "Under $350",
           "LG 34\" Curved UltraWide WQHD(3440x1440) Smart Monitor with HDR10 99% sRGB"
         ],
         [
-          "Around $326.45",
+          "Under $350",
           "Samsung 34\" ViewFinity S5 (S55GH) Ultrawide QHD 120Hz Curved Monitor"
         ],
         [
-          "Around $329.99",
+          "Under $350",
           "LG 34SR60QC-W 34-inch QHD (3440x1440) Curved Smart Monitor with Streaming"
         ],
         [
-          "Around $349.99",
+          "Under $350",
           "LG 34U640B-B 34-inch UltraWide WQHD 144Hz FreeSync Premium Curved Monitor"
         ],
         [
-          "Around $399.99",
+          "Under $400",
           "INNOCN 40C1R Ultrawide Monitor 40\" WQHD 3440 x 1440p 144Hz FreeSync Premium HDR400 21:9 Computer Display 95% DCI-P3 500Nits IPS USB Type-C HDMI Tilt/Height Adjustable"
         ],
         [
-          "Around $464.99",
+          "Under $500",
           "Deco Gear 49\" Curved Super Ultrawide Monitor"
         ],
         [
-          "Around $476.99",
+          "Under $500",
           "ZZA Ultrawide 49 Inch Curved Monitor 5120x1440P 165Hz Large Computer Monitor 5K Dual Quad High Definition 1500R Curved AMD FreeSync 120% sRGB Height Adjustable"
         ],
         [
-          "Around $529.99",
+          "Under $550",
           "GAMEPOWER 49 inch Curved Ultrawide Gaming Monitor"
         ]
       ]
@@ -364,11 +364,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "LG 34\" Curved UltraWide WQHD(3440x1440) Smart Monitor with HDR10 99% sRGB",
-        "text": "The lowest-priced pick in this comparison at $315.99, a solid choice if you don't need the extras the pricier picks carry."
+        "text": "The lowest-priced pick in this comparison at under $350, a solid choice if you don't need the extras the pricier picks carry."
       },
       {
         "label": "GAMEPOWER 49 inch Curved Ultrawide Gaming Monitor",
-        "text": "The highest-priced pick at $529.99, worth it only if you'll actually use what that premium buys."
+        "text": "The highest-priced pick at under $550, worth it only if you'll actually use what that premium buys."
       }
     ],
     "note": "Default to LG 34\" Curved UltraWide WQHD(3440x1440) Smart Monitor with HDR10 99% sRGB unless the pricier pick's specific advantage genuinely applies to your situation."
@@ -428,7 +428,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "What's the real difference between the cheapest and most expensive pick here?",
-    "a": "LG 34\" Curved UltraWide WQHD(3440x1440) Smart Monitor with HDR10 99% sRGB at $315.99 covers the basics, while GAMEPOWER 49 inch Curved Ultrawide Gaming Monitor at $529.99 adds a larger 49-inch screen and higher combined resolution. Whether that's worth the difference depends on how much desk space you have and whether you need maximum screen real estate or a more modest multitasking upgrade."
+    "a": "LG 34\" Curved UltraWide WQHD(3440x1440) Smart Monitor with HDR10 99% sRGB at under $350 covers the basics, while GAMEPOWER 49 inch Curved Ultrawide Gaming Monitor at under $550 adds a larger 49-inch screen and higher combined resolution. Whether that's worth the difference depends on how much desk space you have and whether you need maximum screen real estate or a more modest multitasking upgrade."
   },
   {
     "q": "Will my GPU handle an ultrawide monitor at high refresh rate?",
@@ -440,7 +440,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "Is there a solid middle-ground pick in this price range?",
-    "a": "INNOCN 40C1R Ultrawide Monitor 40\" WQHD 3440 x 1440p 144Hz FreeSync Premium HDR400 21:9 Computer Display 95% DCI-P3 500Nits IPS USB Type-C HDMI Tilt/Height Adjustable at $399.99 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
+    "a": "INNOCN 40C1R Ultrawide Monitor 40\" WQHD 3440 x 1440p 144Hz FreeSync Premium HDR400 21:9 Computer Display 95% DCI-P3 500Nits IPS USB Type-C HDMI Tilt/Height Adjustable at under $400 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
   },
   {
     "q": "What's the most common mistake buyers make shopping ultrawide monitors under $800?",

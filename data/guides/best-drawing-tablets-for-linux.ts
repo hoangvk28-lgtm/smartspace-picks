@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $27.99",
+          "Under $30",
           "HUION Inspiroy H640P 6x4 inch Drawing Tablet 8192 Pen Pressure"
         ],
         [
-          "Around $28.99",
+          "Under $30",
           "XPPen StarG640 Digital Graphic Tablet 6x4 Inch Art Tablet with Battery-Free Stylus"
         ],
         [
-          "Around $41.79",
+          "Under $45",
           "HUION Inspiroy H1060P Graphics Drawing Tablet"
         ],
         [
-          "Around $43.62",
+          "Under $45",
           "VEIKK A30 Drawing Tablet 10x6 Graphic Tablet"
         ],
         [
-          "Around $44.99",
+          "Under $45",
           "XPPen Deco 01 V3 10x6 Drawing Tablet"
         ],
         [
-          "Around $79.99",
+          "Under $80",
           "XPPen Deco LW Wireless Drawing Tablet"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "VEIKK A30 Drawing Tablet 10x6 Graphic Tablet is aimed at buyers prioritizing 10x6in area, touch pad + 4 touch keys." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "VEIKK A30 Drawing Tablet 10x6 Graphic Tablet is aimed at buyers prioritizing 10x6in area, touch pad + 4 touch keys." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets-for-computer","title":"Best Drawing Tablets for Computer in 2026"},{"href":"/guide/best-drawing-tablets-for-pc","title":"Best Drawing Tablets for PC in 2026"},{"href":"/guide/best-drawing-tablets-for-laptop","title":"Best Drawing Tablets for Laptop in 2026"}];

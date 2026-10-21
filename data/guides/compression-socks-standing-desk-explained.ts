@@ -12,7 +12,7 @@ export const compressionSocksStandingDeskExplainedGuide: Guide = {
     "do compression socks help standing desk",
     "circulation standing all day",
     "compression sock benefits office",
-    "leg fatigue standing desk fix",
+    "leg fatigue standing desk fix"
   ],
   heroImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const compressionSocksStandingDeskExplainedGuide: Guide = {
     "sit-stand-ratio-explained",
     "standing-desk-shoes-explained",
     "standing-desk-footrest-explained",
-    "balance-board-vs-anti-fatigue-mat",
+    "balance-board-vs-anti-fatigue-mat"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const compressionSocksStandingDeskExplainedGuide: Guide = {
       question: "Can compression socks replace the need for an anti-fatigue mat or standing breaks?",
       answer:
         "No, they address a different aspect of standing fatigue, circulation support, rather than the postural and pressure-point fatigue an anti-fatigue mat addresses, using both together, along with regular position changes, provides more comprehensive standing comfort than any single approach alone.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const compressionSocksStandingDeskExplainedGuide: Guide = {
     {
       heading: "Why This Tool Complements Rather Than Replaces Other Standing Desk Aids",
       body: `Compression socks address circulation specifically, a genuinely different mechanism than what an anti-fatigue mat (postural micro-movement encouragement) or a footrest (weight distribution variation) address, this means using compression socks doesn't reduce the value of also using these other tools, and someone experiencing significant standing fatigue is likely to benefit more from combining multiple approaches, socks for circulation, a mat for postural comfort, regular position changes for overall variation, than from relying on any single solution to address what is genuinely a multi-faceted fatigue challenge.`,
-    },
+    }
   ],
 };

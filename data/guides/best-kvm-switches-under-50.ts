@@ -123,7 +123,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["HDMI on both computers", "Hearvo USB 3.0 HDMI KVM Switch or 4K KVM Switch HDMI 2 Port Box"],
         ["DisplayPort on both computers", "DisplayPort KVM Switch, 4 USB 3.0 Ports"],
-        ["VGA or an older monitor", "MT-VIKI 2 Port VGA KVM Switch"],
+        ["VGA or an older monitor", "MT-VIKI 2 Port VGA KVM Switch"]
       ],
     },
   },
@@ -134,7 +134,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Under $20", "MT-VIKI 2 Port VGA KVM Switch or HDMI KVM Switch with Wired Extend Controller"],
         ["$20-$30", "4K KVM Switch HDMI 2 Port Box or DisplayPort KVM Switch"],
-        ["$30-$50", "Hearvo USB 3.0 HDMI KVM Switch"],
+        ["$30-$50", "Hearvo USB 3.0 HDMI KVM Switch"]
       ],
     },
   },
@@ -142,7 +142,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "HDMI vs DisplayPort",
     cards: [
       { label: "HDMI (Hearvo, 4K KVM Switch, Wired Extend)", text: "More universally supported across laptops and desktops, including most Macs, and generally cheaper at this tier. Best default unless you specifically need DisplayPort's extra bandwidth headroom." },
-      { label: "DisplayPort (DisplayPort KVM Switch)", text: "Carries more native bandwidth for 4K@60Hz without relying on compression tricks, but many Mac computers don't have a DisplayPort output at all, and it won't work through a USB-C dock or adapter." },
+      { label: "DisplayPort (DisplayPort KVM Switch)", text: "Carries more native bandwidth for 4K@60Hz without relying on compression tricks, but many Mac computers don't have a DisplayPort output at all, and it won't work through a USB-C dock or adapter." }
     ],
     note: "Most buyers should default to an HDMI switch like the Hearvo pick unless both computers specifically have native DisplayPort outputs.",
   },
@@ -152,7 +152,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["What you're sharing besides a monitor", "Recommended pick"],
       rows: [
         ["Just a keyboard and mouse", "4K KVM Switch HDMI 2 Port Box or HDMI KVM Switch with Wired Extend Controller"],
-        ["A webcam, external drive, or scanner too", "Hearvo USB 3.0 HDMI KVM Switch or DisplayPort KVM Switch"],
+        ["A webcam, external drive, or scanner too", "Hearvo USB 3.0 HDMI KVM Switch or DisplayPort KVM Switch"]
       ],
     },
   },
@@ -160,16 +160,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Mixed PC and Console Setup Specifically",
     cards: [
       { label: "Look for", text: "A listing that explicitly names game consoles like PS4, PS3, Xbox One, or Nintendo Switch as supported inputs, not just generic PC compatibility." },
-      { label: "In this comparison", text: "The 4K KVM Switch HDMI 2 Port Box specifically lists console compatibility, making it the clearer fit for sharing one monitor between a computer and a console." },
+      { label: "In this comparison", text: "The 4K KVM Switch HDMI 2 Port Box specifically lists console compatibility, making it the clearer fit for sharing one monitor between a computer and a console." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You're sharing high-bandwidth peripherals like an external drive or webcam between two computers, where the Hearvo pick's full USB 3.0 ports avoid the bottleneck a USB 2.0 switch would create." },
-      { label: "Save if", text: "You only need to share a monitor, keyboard, and mouse between two computers or a computer and a console, where the 4K KVM Switch HDMI 2 Port Box or HDMI KVM Switch with Wired Extend Controller already cover the need for half the price." },
+      { label: "Save if", text: "You only need to share a monitor, keyboard, and mouse between two computers or a computer and a console, where the 4K KVM Switch HDMI 2 Port Box or HDMI KVM Switch with Wired Extend Controller already cover the need for half the price." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

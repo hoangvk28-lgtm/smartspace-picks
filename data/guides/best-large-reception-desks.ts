@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $349.99",
+          "Under $350",
           "LayBurst 86.8\" Large Reception Desk"
         ],
         [
-          "Around $459.00",
+          "Under $500",
           "L-Shaped Wooden Commercial Reception Desk"
         ],
         [
-          "Around $479.00",
+          "Under $500",
           "L-Shaped Wooden Commercial Reception Desk"
         ],
         [
-          "Around $679.99",
+          "Under $700",
           "Laxodor 86.6\" L-Shaped Reception Desk with Combination Lock"
         ],
         [
-          "Around $859.00",
+          "Under $900",
           "Hulvami Modern Large Commercial Reception Desk"
         ],
         [
-          "Around $1,469.00",
+          "Under $1,500",
           "Fully Assembled Curved Reception Desk"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "L-Shaped Wooden Commercial Reception Desk is aimed at buyers prioritizing 71\"l x 34\"w left-hand l-shape (87\" version also available)." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "L-Shaped Wooden Commercial Reception Desk is aimed at buyers prioritizing 71\"l x 34\"w left-hand l-shape (87\" version also available)." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks-for-commercial","title":"5 Best Reception Desks for Commercial Use in 2026"},{"href":"/guide/best-2-person-reception-desks","title":"best-2-person-reception-desks"},{"href":"/guide/best-modular-reception-desks","title":"5 Best Modular Reception Desks in 2026"}];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "coffee cup holders for desks";
 export const introParagraphs = [
   "\"Coffee cup holder\" mostly overlaps with our general desk cup holder research, since none of these products use different engineering specifically for coffee versus other drinks. What matters here is actual mug and tumbler diameter compatibility, since popular coffee tumbler brands like Yeti and Stanley have their own non-standard dimensions.",
-  "We also note the elevated staining risk of a coffee spill onto carpet or a desk, distinct from a clear water spill, as a reason to prioritize genuine tip resistance in this specific use case.",
+  "We also note the elevated staining risk of a coffee spill onto carpet or a desk, distinct from a clear water spill, as a reason to prioritize genuine tip resistance in this specific use case."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Real mug and tumbler diameter compatibility", description: "We checked cavity diameter against standard ceramic mugs and popular oversized coffee tumbler brands like Yeti and Stanley." },
   { title: "Elevated staining-risk stakes", description: "We weighted tip and spill resistance with coffee's higher staining risk to desk and carpet surfaces in mind, distinct from a clear water spill." },
   { title: "Genuine overlap with our general cup holder guide", description: "We confirmed which picks are genuinely relevant to coffee-specific sizing versus reused general-purpose research." },
-  { title: "Tall tumbler height accommodation", description: "We noted cavity depth against the taller height of many popular coffee tumbler designs compared to a standard mug." },
+  { title: "Tall tumbler height accommodation", description: "We noted cavity depth against the taller height of many popular coffee tumbler designs compared to a standard mug." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -244,11 +244,11 @@ export const faq: FaqItem[] = [
   { q: "Will these holders fit a Yeti or Stanley tumbler?", a: "The OOKUU picks are explicitly sized for oversized tumblers and comfortably fit most popular coffee tumbler brands. Check the specific diameter if your tumbler is unusually wide." },
   { q: "Do these holders keep my coffee warm?", a: "No, none of these picks have thermal insulation features. Temperature retention depends on your tumbler's own insulation, not the desk holder." },
   { q: "Why does spill resistance matter more for coffee than water?", a: "A coffee spill carries a real staining risk to your desk or carpet, distinct from a clear water spill that typically dries without a lasting mark. We weighted tip resistance accordingly." },
-  { q: "Which pick is best for a tall coffee tumbler?", a: "The OOKUU Deeper Desk Cup Holder has the deepest cavity in this comparison, providing the best containment for taller coffee tumbler designs." },
+  { q: "Which pick is best for a tall coffee tumbler?", a: "The OOKUU Deeper Desk Cup Holder has the deepest cavity in this comparison, providing the best containment for taller coffee tumbler designs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-cup-holders", title: "Best Desk Cup Holders (2026)" },
   { href: "/guide/best-anti-spill-desk-cup-holders", title: "Best Anti-Spill Desk Cup Holders (2026)" },
-  { href: "/guide/best-desk-organizers-with-cup-holders", title: "Best Desk Organizers with Cup Holders (2026)" },
+  { href: "/guide/best-desk-organizers-with-cup-holders", title: "Best Desk Organizers with Cup Holders (2026)" }
 ];

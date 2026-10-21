@@ -12,7 +12,7 @@ export const mouseGripStylesExplainedGuide: Guide = {
     "palm grip vs claw grip mouse",
     "fingertip grip mouse shape",
     "what mouse grip do i use",
-    "best mouse shape for my grip",
+    "best mouse shape for my grip"
   ],
   heroImage: "https://images.unsplash.com/photo-1598662779094-110c2bad80b5?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1598662779094-110c2bad80b5?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const mouseGripStylesExplainedGuide: Guide = {
     "mouse-dpi-explained",
     "wired-vs-wireless-mouse",
     "mechanical-switch-types-explained",
-    "how-to-measure-office-chair-fit",
+    "how-to-measure-office-chair-fit"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const mouseGripStylesExplainedGuide: Guide = {
       question: "Can I switch grip styles if I'm uncomfortable with my current one?",
       answer:
         "Yes, grip style can be adjusted with practice, though it often takes time to feel natural, if your current mouse and grip combination causes hand fatigue, trying a different mouse shape suited to a different grip style is worth experimenting with.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const mouseGripStylesExplainedGuide: Guide = {
     {
       heading: "Identifying Your Grip Without Overthinking It",
       body: `Rather than forcing a particular grip style because it's popular among gamers or reviewers, pay attention to how your hand naturally rests on a mouse without conscious effort, this natural position is generally your most comfortable and sustainable grip for extended use. Shop for a mouse shape that complements this natural grip rather than trying to adopt an unfamiliar grip style to match a mouse you already own.`,
-    },
+    }
   ],
 };

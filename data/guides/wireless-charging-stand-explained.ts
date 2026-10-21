@@ -12,7 +12,7 @@ export const wirelessChargingStandExplainedGuide: Guide = {
     "wireless charging stand vs pad",
     "phone case compatibility wireless charging",
     "wireless charging speed explained",
-    "why wont my phone charge on stand",
+    "why wont my phone charge on stand"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const wirelessChargingStandExplainedGuide: Guide = {
     "tablet-stand-vs-phone-stand",
     "usb-c-power-delivery-explained",
     "wired-vs-wireless-mouse",
-    "cable-management-types-explained",
+    "cable-management-types-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const wirelessChargingStandExplainedGuide: Guide = {
       question: "Do all phones support wireless charging on a stand?",
       answer:
         "No, wireless charging requires the phone itself to have compatible wireless charging hardware built in, check your specific phone model's specifications, older or budget phone models may not support this feature at all.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const wirelessChargingStandExplainedGuide: Guide = {
     {
       heading: "Why Phone Case Compatibility Deserves a Direct Check",
       body: `Not all phone cases are wireless-charging friendly, particularly thicker protective cases, ones with built-in kickstands containing metal components, or magnetic mounting cases, all of which can interfere with the electromagnetic transfer needed for wireless charging. If you're experiencing unreliable charging on an otherwise properly aligned stand, removing the case as a test quickly identifies whether the case itself is the actual culprit before assuming a defective stand.`,
-    },
+    }
   ],
 };

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "best printer for iphone and ipad";
 export const introParagraphs = [
   "AirPrint gets treated as a given on every printer box, but it is not universal, and buyers who assume every wireless printer supports it sometimes find out otherwise after unboxing. Apple's AirPrint standard lets an iPhone or iPad print directly over the same Wi-Fi network without installing any driver, but a printer that only advertises general wireless printing may require a manufacturer app like HP Smart, Canon PRINT, or Epson Smart Panel instead, and those apps vary in how reliably they connect and how many settings they expose compared to AirPrint's simple share-sheet flow.",
-  "Below are 7 wireless all-in-one printers we evaluated for iOS compatibility, covering standard AirPrint-class wireless printing, manufacturer app support, and how well each handles printing from iCloud Photos, the Files app, and cloud drives like Google Drive, ranging from a compact $69 inkjet to a $199.99 cartridge-free tank printer.",
+  "Below are 7 wireless all-in-one printers we evaluated for iOS compatibility, covering standard AirPrint-class wireless printing, manufacturer app support, and how well each handles printing from iCloud Photos, the Files app, and cloud drives like Google Drive, ranging from a compact $69 inkjet to an under-$200 cartridge-free tank printer."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Wireless network printing",
       "Canon PRINT app for iOS",
       "Built-in fax",
-      "Compact footprint",
+      "Compact footprint"
     ],
     pros: [
-      "Lowest price in this list at $69.00",
+      "Lowest price in this list at under $70",
       "Auto document feeder is rare at this price",
       "Canon PRINT app supports scan-to-cloud",
-      "Compact enough for a small desk",
+      "Compact enough for a small desk"
     ],
     cons: [
       "Cartridge-based ink costs more per page over time",
       "No dedicated color display",
-      "Fax feature is unnecessary for most buyers",
+      "Fax feature is unnecessary for most buyers"
     ],
     bestFor: "Buyers who want an inexpensive AirPrint-class printer with a document feeder for scanning",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "5-color individual ink tanks",
       "Alexa compatible",
       "Flatbed scanner, no ADF",
-      "Compact all-in-one body",
+      "Compact all-in-one body"
     ],
     pros: [
       "AirPrint support stated on the listing",
       "Individual ink tanks reduce waste",
       "Alexa voice print commands",
-      "Compact all-in-one design",
+      "Compact all-in-one design"
     ],
     cons: [
       "No auto document feeder for multi-page scans",
       "Higher price than the entry TR4720",
-      "Flatbed-only scanning is slower for bulk jobs",
+      "Flatbed-only scanning is slower for bulk jobs"
     ],
     bestFor: "Buyers who want stated AirPrint support and don't need a document feeder",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "5-color individual ink tanks",
       "Alexa compatible",
       "White finish",
-      "Flatbed scanner, no ADF",
+      "Flatbed scanner, no ADF"
     ],
     pros: [
       "AirPrint support stated on the listing",
       "White finish suits light desk setups",
       "Individual ink tanks reduce waste",
-      "Alexa voice print commands",
+      "Alexa voice print commands"
     ],
     cons: [
       "No auto document feeder",
       "Similar price to the black TS5320 with no functional upgrade",
-      "Flatbed-only scanning",
+      "Flatbed-only scanning"
     ],
     bestFor: "Buyers who want the TS5320's AirPrint support in a white finish",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Wireless network printing",
       "Epson Smart Panel app for iOS",
       "Flatbed scanner, no ADF",
-      "Included startup ink bottles",
+      "Included startup ink bottles"
     ],
     pros: [
       "Lowest long-run cost per page in this list",
       "No cartridges to replace or run out of",
       "Epson Smart Panel adds cloud scan and print monitoring",
-      "Reliable for high print volume",
+      "Reliable for high print volume"
     ],
     cons: [
       "Higher upfront price than cartridge models",
       "No auto document feeder",
-      "Tank refills require occasional manual top-off",
+      "Tank refills require occasional manual top-off"
     ],
     bestFor: "iPhone and iPad users who print frequently and want to minimize ongoing ink cost",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "HP Smart app for iOS",
       "3-month Instant Ink trial included",
       "Flatbed scanner, no ADF",
-      "AI-capable HP Smart features",
+      "AI-capable HP Smart features"
     ],
     pros: [
       "Lowest price alongside the Canon TR4720",
       "HP Smart app handles setup and scanning",
       "Compact for tight desk space",
-      "Instant Ink trial included",
+      "Instant Ink trial included"
     ],
     cons: [
       "Instant Ink trial auto-converts to paid unless canceled",
       "HP has more reported macOS/iOS offline connectivity issues than Canon or Epson",
-      "No auto document feeder",
+      "No auto document feeder"
     ],
     bestFor: "Budget shoppers who want a cheap entry point and will remember to cancel the ink trial",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "1.8 inch color display",
       "Wireless network printing",
       "Refresh Subscription ink trial included",
-      "Flatbed scanner, no ADF",
+      "Flatbed scanner, no ADF"
     ],
     pros: [
       "Automatic duplex printing saves paper",
       "Color display for easy status checks",
       "Mid-range price with solid feature set",
-      "Reliable wireless printing from iOS",
+      "Reliable wireless printing from iOS"
     ],
     cons: [
       "Refresh Subscription trial auto-converts unless canceled",
       "No auto document feeder",
-      "Larger footprint than the compact Canon picks",
+      "Larger footprint than the compact Canon picks"
     ],
     bestFor: "Buyers who print longer documents and want automatic duplex without manual flipping",
   },
@@ -249,21 +249,21 @@ export const products: GuideProduct[] = [
       "Cartridge-free refillable ink tanks",
       "Ethernet and wireless connectivity",
       "Epson Smart Panel app for iOS",
-      "Built-in fax",
+      "Built-in fax"
     ],
     pros: [
       "Auto document feeder for multi-page scans",
       "Low cost per page from refillable tanks",
       "Ethernet option for shared office use",
-      "Epson Smart Panel adds cloud workflow support",
+      "Epson Smart Panel adds cloud workflow support"
     ],
     cons: [
       "Highest price in this list alongside the ET-2800",
       "Larger footprint than compact single-purpose picks",
-      "Fax feature is unnecessary for most home buyers",
+      "Fax feature is unnecessary for most home buyers"
     ],
     bestFor: "Home office buyers who need a document feeder and steady print volume from iOS devices",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -296,7 +296,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Value for price",
     description:
       "Weighed AirPrint reliability, app quality, and included features like duplex printing or a document feeder against price across the range of price points in this comparison in this list.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -450,11 +450,11 @@ export const faq: FaqItem[] = [
   {
     q: "Does an auto document feeder matter for iPhone and iPad printing?",
     a: "It matters more for scanning than for printing. If you plan to scan multi-page documents into your iPhone or iPad regularly, a feeder saves significant time over lifting the scanner lid and repositioning each page manually on a flatbed-only model.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-windows-11", title: "Best Printers for Windows 11 (2026)" },
   { href: "/guide/best-portable-printers", title: "Best Portable Printers (2026)" },
-  { href: "/guide/best-mini-printers-for-small-spaces", title: "Best Mini Printers for Small Spaces (2026)" },
+  { href: "/guide/best-mini-printers-for-small-spaces", title: "Best Mini Printers for Small Spaces (2026)" }
 ];

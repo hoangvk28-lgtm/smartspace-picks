@@ -12,7 +12,7 @@ export const mechanicalSwitchTypesExplainedGuide: Guide = {
     "linear vs tactile vs clicky switches",
     "best switch type for typing",
     "quiet mechanical keyboard switches",
-    "gaming keyboard switch type",
+    "gaming keyboard switch type"
   ],
   heroImage: "https://images.unsplash.com/photo-1598662779094-110c2bad80b5?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1598662779094-110c2bad80b5?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const mechanicalSwitchTypesExplainedGuide: Guide = {
     "tkl-vs-full-size-keyboard",
     "keyboard-size-chart",
     "wired-vs-wireless-mouse",
-    "mouse-dpi-explained",
+    "mouse-dpi-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const mechanicalSwitchTypesExplainedGuide: Guide = {
       question: "Can I try different switch types before committing to a keyboard?",
       answer:
         "Yes, switch testers with small sample switches mounted on a compact board let you feel and hear different switch types without buying a full keyboard, a worthwhile inexpensive way to find your preference before a larger purchase.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const mechanicalSwitchTypesExplainedGuide: Guide = {
     {
       heading: "Testing Before Committing to a Full Keyboard",
       body: `Since switch preference is genuinely personal and hard to judge from written descriptions or online videos alone, an inexpensive switch tester, a small board holding one or two samples of several switch types, lets you physically feel and hear the difference before investing in a full keyboard. This is a much lower-cost way to identify your preference than buying and returning multiple full keyboards to compare.`,
-    },
+    }
   ],
 };

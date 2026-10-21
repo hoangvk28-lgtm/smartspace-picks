@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $149.99",
+          "Under $150",
           "DecoFurn Lateral File Cabinet with 2 Drawers"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "44\" File Cabinet"
         ],
         [
-          "Around $174.99",
+          "Under $180",
           "Lateral File Cabinet with Charging Station"
         ],
         [
-          "Around $174.99",
+          "Under $180",
           "GlowVitaHome Farmhouse File Cabinet for Home Office"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "6 Drawers File Cabinet with Power Strip fits Legal/Letter/A4 Size"
         ],
         [
-          "Around $219.99",
+          "Under $250",
           "71\" Tall Triple Wide Bookshelf with Storage Drawers & Doors"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "Perledesign 3 Drawer File Cabinet"
         ],
         [
-          "Around $239.99",
+          "Under $250",
           "47.2\" Executive Office Desk with Hutch and 3 Drawers"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Lateral File Cabinet with Charging Station is aimed at buyers prioritizing 46.4in desktop, 2 adjustable-layout drawers." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Lateral File Cabinet with Charging Station is aimed at buyers prioritizing 46.4in desktop, 2 adjustable-layout drawers." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-black-office-credenzas","title":"Best Black Office Credenzas in 2026"},{"href":"/guide/best-gray-office-credenzas","title":"Best Gray Office Credenzas in 2026"},{"href":"/guide/best-black-office-credenzas-with-drawers","title":"Best Black Office Credenzas With Drawers in 2026"}];

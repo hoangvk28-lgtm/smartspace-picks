@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "chair mats";
 export const introParagraphs = [
   "The right chair mat depends almost entirely on 2 things most buyers skip past: what floor is underneath it and, if it's carpet, how thick the pile actually is. A mat built for hard floor has a smooth flat underside meant to protect the floor finish, while a mat built for carpet needs cleats or spikes to grip the fibers and a pile-height rating to match, and mixing the two up is the most common reason a chair mat underperforms.",
-  "Below are 8 chair mats we evaluated across carpet, hard floor, and dual-use categories, spanning PVC, polycarbonate, and tempered glass, from a $32 clear hard-floor mat to a 46x55 glass mat rated for over 1,000 lbs.",
+  "Below are 8 chair mats we evaluated across carpet, hard floor, and dual-use categories, spanning PVC, polycarbonate, and tempered glass, from a $32 clear hard-floor mat to a 46x55 glass mat rated for over 1,000 lbs."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Rated for low pile carpet up to 1/4\"",
       "Extended lip with ramped edges",
       "Molded cleats + anchor bars underside",
-      "5-year warranty",
+      "5-year warranty"
     ],
     pros: [
       "Longest warranty in this guide at 5 years",
       "Ramped lip smooths the transition",
       "Anti-skid top surface",
-      "Strong grip on low pile carpet",
+      "Strong grip on low pile carpet"
     ],
     cons: [
       "Carpet only, not usable on hard floor",
       "Only rated for low pile carpet",
-      "Ships rolled and needs settling time",
+      "Ships rolled and needs settling time"
     ],
     bestFor: "Low pile carpet setups where warranty length matters most",
   },
@@ -88,18 +88,18 @@ export const products: GuideProduct[] = [
       "54\"W x 32\"D, special rigid material, 5mm thick",
       "Rated 1,400 lbs, highest in this guide",
       "Rigid, flat, dual-use on carpet or hard floor",
-      "12-month warranty",
+      "12-month warranty"
     ],
     pros: [
       "Highest weight capacity in this guide",
       "Works on both carpet and hard floor",
       "Stays flat, doesn't curl or sink",
-      "Crystal clear finish blends into most rooms",
+      "Crystal clear finish blends into most rooms"
     ],
     cons: [
       "Shorter warranty than the top carpet pick",
       "Heavier to move or store",
-      "Pricier than basic PVC mats",
+      "Pricier than basic PVC mats"
     ],
     bestFor: "Buyers who need one mat that works on carpet or hard floor with high capacity",
   },
@@ -119,18 +119,17 @@ export const products: GuideProduct[] = [
       "36\"W x 48\"D, PVC, 2mm thick",
       "Anti-slide coating underside (hard floor only)",
       "Dull polish top finish",
-      "Odorless, BPA-free, no lead or cadmium",
+      "Odorless, BPA-free, no lead or cadmium"
     ],
     pros: [
       "Cheapest clear hard-floor pick in this guide",
       "Dull polish finish hides minor scratches",
-      "Odorless, BPA-free construction",
-      "Strong review base at over 10,000 ratings",
+      "Odorless, BPA-free construction"
     ],
     cons: [
       "Hard floor only, will not grip carpet",
       "Thinner 2mm material than the rigid picks",
-      "No lip for tucking under a desk",
+      "No lip for tucking under a desk"
     ],
     bestFor: "Budget hard-floor setups that just need basic floor protection",
   },
@@ -151,18 +150,18 @@ export const products: GuideProduct[] = [
       "Gripper back",
       "Rated for carpet up to 1/2\" (low-medium pile)",
       "Fire-resistant, GREENGUARD certified",
-      "5-year warranty",
+      "5-year warranty"
     ],
     pros: [
       "Largest polycarbonate carpet mat in this guide",
       "Rated for a wider pile range than most PVC picks",
       "Fire-resistant and GREENGUARD certified",
-      "5-year warranty",
+      "5-year warranty"
     ],
     cons: [
       "Most expensive polycarbonate pick in this guide",
       "Not rated for high pile carpet",
-      "Large footprint needs a spacious desk area",
+      "Large footprint needs a spacious desk area"
     ],
     bestFor: "Larger desk setups on low-to-medium pile carpet needing a fire-resistant mat",
   },
@@ -183,18 +182,18 @@ export const products: GuideProduct[] = [
       "Rated for carpet up to 3/4\" (medium-high pile)",
       "Studded underside, rigid construction",
       "Lightly textured top",
-      "50% renewable energy manufacturing, 100% recyclable",
+      "50% renewable energy manufacturing, 100% recyclable"
     ],
     pros: [
       "Only polycarbonate pick in this guide rated for high pile",
       "Rigid enough to avoid sinking into thick carpet",
       "Made with renewable energy, fully recyclable",
-      "Large 48x60 footprint",
+      "Large 48x60 footprint"
     ],
     cons: [
       "Most expensive pick in this guide",
       "Smaller review sample than most other picks",
-      "Large footprint may be more than smaller desks need",
+      "Large footprint may be more than smaller desks need"
     ],
     bestFor: "Medium to high pile carpet where no other polycarbonate mat is rated to work",
   },
@@ -215,18 +214,17 @@ export const products: GuideProduct[] = [
       "Rated 1,200 lbs",
       "4 anti-slip pads",
       "Polished rounded corners",
-      "Dual-use on carpet or hard floor",
+      "Dual-use on carpet or hard floor"
     ],
     pros: [
       "Cheapest tempered glass pick in this guide",
       "Most durable material category, won't scratch or yellow",
-      "Works on carpet or hard floor",
-      "Strong 4.6-star rating",
+      "Works on carpet or hard floor"
     ],
     cons: [
       "Heaviest material to move or reposition",
       "Smaller footprint than the largest glass pick",
-      "Anti-slip pads, not full cleats, so grip is lighter than a cleated mat",
+      "Anti-slip pads, not full cleats, so grip is lighter than a cleated mat"
     ],
     bestFor: "Buyers who want glass's durability at the lowest glass price point",
   },
@@ -241,24 +239,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41UO1C7z6QL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CXSFBQLH?tag=deskfinds0d-20",
     description:
-      "Koonmi's tempered glass mat is 0.2 inches thick in a 46x55 footprint, the largest glass mat in this guide, and rated for over 1,000 lbs. A detachable anti-slip pad underneath lets you position grip exactly where the chair rolls most.\n\nLike the other glass pick in this guide, it's dual-use on carpet or hard floor and has polished rounded corners. Its larger footprint suits bigger desks or setups where the chair covers more ground, at a price that reflects the extra glass and size.\n\nHighest-rated pick in this guide at 4.7 stars. That's a real strength, but weigh it against the flip side: most expensive glass pick in this guide.",
+      "Koonmi's tempered glass mat is 0.2 inches thick in a 46x55 footprint, the largest glass mat in this guide, and rated for over 1,000 lbs. A detachable anti-slip pad underneath lets you position grip exactly where the chair rolls most.\n\nLike the other glass pick in this guide, it's dual-use on carpet or hard floor and has polished rounded corners. Its larger footprint suits bigger desks or setups where the chair covers more ground, at a price that reflects the extra glass and size.\n\nThat's a real strength, but weigh it against the flip side: most expensive glass pick in this guide.",
     specs: [
       "46\"W x 55\"D, tempered glass, 0.2\" thick",
       "Rated over 1,000 lbs",
       "Detachable anti-slip pad",
       "Polished rounded corners",
-      "Dual-use on carpet or hard floor",
+      "Dual-use on carpet or hard floor"
     ],
     pros: [
       "Largest tempered glass mat in this guide",
-      "Highest-rated pick in this guide at 4.7 stars",
       "Detachable, repositionable anti-slip pad",
-      "Dual-use on carpet or hard floor",
+      "Dual-use on carpet or hard floor"
     ],
     cons: [
       "Most expensive glass pick in this guide",
       "Heavy and harder to reposition given its size",
-      "Fewer total reviews than the GLSLAND glass pick",
+      "Fewer total reviews than the GLSLAND glass pick"
     ],
     bestFor: "Larger desk setups that want glass durability in a bigger footprint",
   },
@@ -273,26 +270,26 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21V7PYvl22L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07K95V7X2?tag=deskfinds0d-20",
     description:
-      "Lorell's tempered glass mat is 0.25 inches thick, the thickest glass in this guide, in a 46x36 footprint rated for 1,000 lbs and for any floor type, including carpet, hard floor, or even marble. Its scratch-resistant surface and 5-year warranty make it the strongest all-around glass pick in this list.\n\nAvailability on this listing can fluctuate, so confirm current stock and pricing before buying rather than assuming a fixed price. It's the most-reviewed and highest-rated pick in this entire guide, with nearly 10,700 ratings at 4.8 stars.\n\nWorth calling out specifically: thickest glass in this guide. The catch is listing availability can be limited, check price before buying.",
+      "Lorell's tempered glass mat is 0.25 inches thick, the thickest glass in this guide, in a 46x36 footprint rated for 1,000 lbs and for any floor type, including carpet, hard floor, or even marble. Its scratch-resistant surface and 5-year warranty make it the strongest all-around glass pick in this list.\n\nAvailability on this listing can fluctuate, so confirm current stock and pricing before buying rather than assuming a fixed price.\n\nWorth calling out specifically: thickest glass in this guide. The catch is listing availability can be limited, check price before buying.",
     specs: [
       "46\"W x 36\"D, tempered glass, 0.25\" thick (thickest in this guide)",
       "Rated 1,000 lbs",
       "Rated for any floor type: carpet, hard floor, marble",
-      "5-year warranty, scratch-resistant",
+      "5-year warranty, scratch-resistant"
     ],
     pros: [
       "Most-reviewed and highest-rated pick in this guide",
       "Thickest glass in this guide",
       "Rated for essentially any floor type",
-      "5-year warranty",
+      "5-year warranty"
     ],
     cons: [
       "Listing availability can be limited, check price before buying",
       "Smaller footprint than the largest glass pick",
-      "Glass weight makes repositioning harder than plastic mats",
+      "Glass weight makes repositioning harder than plastic mats"
     ],
     bestFor: "Buyers who want the single most proven, highest-rated glass mat in this guide",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -320,7 +317,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed thickness, floor compatibility, and warranty against price, since a hard-floor mat and a glass mat serve very different buyer situations.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -474,11 +471,11 @@ export const faq: FaqItem[] = [
   {
     q: "Which mat in this guide is rated for the thickest carpet?",
     a: "The Marvelux Heavy Duty Polycarbonate Mat is the only pick in this guide's polycarbonate lineup rated for carpet up to 3/4 inch, covering medium and high pile. Most other carpet-rated picks here top out at low pile, under 1/4 inch.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-chair-mat-for-carpet", title: "Best Chair Mat for Carpet (2026)" },
   { href: "/guide/best-chair-mats-for-carpet", title: "Best Chair Mats for Carpet, Commercial-Grade Picks (2026)" },
-  { href: "/guide/best-office-chair-under-100", title: "Best Office Chairs Under $100 (2026)" },
+  { href: "/guide/best-office-chair-under-100", title: "Best Office Chairs Under $100 (2026)" }
 ];

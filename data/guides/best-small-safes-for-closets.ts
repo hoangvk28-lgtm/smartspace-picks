@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small safes for closets";
 export const introParagraphs = [
   "A closet installation has constraints most safe listings don't address directly: shelf load limits, whether floor or wall anchoring is actually accessible behind baseboards or shelving, and whether you can see the keypad or dial in a dim space. We compared confirmed weight, mounting hardware, and access-lighting features with closet placement specifically in mind.",
-  "We also checked which picks include an interior light or illuminated keypad, since a closet is one of the dimmer common placement spots for a small safe.",
+  "We also checked which picks include an interior light or illuminated keypad, since a closet is one of the dimmer common placement spots for a small safe."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     pros: ["Zero battery dependency, ideal for a rarely-checked closet safe"],
     cons: ["Key-only, no digital backup access method"],
     bestFor: "Buyers wanting a closet safe with no battery to ever die unnoticed.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Checked for interior lighting given closet placement is typically dim", description: "Only two picks here confirm an interior light or auto-illumination on keypad entry. We flagged this as a genuine usability factor specific to closet installation." },
   { title: "Verified mounting hardware works for shelf, wall, or floor closet installation", description: "We checked which picks confirm pre-drilled holes and included hardware suited to typical closet mounting surfaces (wood shelving, drywall, or floor)." },
   { title: "Weighed dead-battery risk higher given closets are often checked infrequently", description: "A closet safe may go unopened for weeks. We prioritized picks with a documented backup access method (key, USB-C power) or no battery dependency at all (key-only lock)." },
-  { title: "Noted concealment-specific design features", description: "One pick specifically confirms a peg-mounting system for closet concealment, a genuinely different approach from generic pre-drilled mounting holes." },
+  { title: "Noted concealment-specific design features", description: "One pick specifically confirms a peg-mounting system for closet concealment, a genuinely different approach from generic pre-drilled mounting holes." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -282,7 +282,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review count and rating together, not rating alone",
-    "explanation": "A 4.8-star rating from 12 reviews carries far less evaluation confidence than a 4.5-star rating from several thousand, since a small sample can be skewed by a handful of early, enthusiastic buyers before any long-term reliability issues would show up in later reviews.\n\nThis matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
+    "explanation": "This matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
   }
 ];
 
@@ -291,11 +291,11 @@ export const faq: FaqItem[] = [
   { q: "Is there an option with an interior light for a dim closet?", a: "Yes, the SentrySafe Shelf Safe confirms an interior light, and the Voncabay pick auto-illuminates on keypad entry." },
   { q: "What if I don't check my closet safe often and the battery dies?", a: "Choose a key-only design like the Bonsaii Security Safe Box with Key Lock for zero battery dependency, or a pick confirming USB-C emergency power backup." },
   { q: "Is there a design specifically for hiding the safe behind closet shelving?", a: "Yes, the Digital Electronic Money Safe uses a peg-mounting system explicitly designed for concealment." },
-  { q: "How heavy is the heaviest closet-appropriate pick here?", a: "The SentrySafe Shelf Safe weighs 17 pounds; verify your shelf can support that weight before mounting." },
+  { q: "How heavy is the heaviest closet-appropriate pick here?", a: "The SentrySafe Shelf Safe weighs 17 pounds; verify your shelf can support that weight before mounting." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-safes-for-home", title: "Best Small Safes for Home (2026)" },
   { href: "/guide/best-small-safes-that-bolt-to-the-floor", title: "Best Small Safes That Bolt to the Floor (2026)" },
-  { href: "/guide/best-hidden-small-safes", title: "Best Hidden Small Safes (2026)" },
+  { href: "/guide/best-hidden-small-safes", title: "Best Hidden Small Safes (2026)" }
 ];

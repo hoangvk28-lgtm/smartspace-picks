@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $229.99",
+          "Under $250",
           "ECACAD 7FT Conference Table"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "Tribesigns 8FT Boat-Shaped Conference Table"
         ],
         [
-          "Around $349.99",
+          "Under $350",
           "Tribesigns 8ft Conference Table for 10"
         ],
         [
-          "Around $350.00",
+          "Under $400",
           "Tribesigns 8FT Conference Table for 10"
         ],
         [
-          "Around $369.99",
+          "Under $400",
           "Tribesigns 10.5FT Conference Table"
         ],
         [
-          "Around $379.99",
+          "Under $400",
           "Tribesigns 8FT Conference Table for 10"
         ],
         [
-          "Around $389.99",
+          "Under $400",
           "Tribesigns 8ft Conference Table for 8-10"
         ],
         [
-          "Around $469.00",
+          "Under $500",
           "Steelcase Amia Ergonomic Office Chair"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Steelcase Amia Ergonomic Office Chair is aimed at buyers prioritizing adjustable seat depth, arms, and lumbar." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Steelcase Amia Ergonomic Office Chair is aimed at buyers prioritizing adjustable seat depth, arms, and lumbar." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-herman-miller-conference-tables","title":"Best Herman Miller Conference Tables in 2026"},{"href":"/guide/best-hon-conference-tables","title":"Best HON Conference Tables in 2026"},{"href":"/guide/best-enwork-conference-tables","title":"Best Enwork Conference Tables in 2026"}];

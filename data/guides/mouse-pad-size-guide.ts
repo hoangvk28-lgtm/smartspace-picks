@@ -12,7 +12,7 @@ export const mousePadSizeGuideGuide: Guide = {
     "standard vs extended mouse pad",
     "full desk mouse pad worth it",
     "mouse pad size for low dpi",
-    "best mouse pad size for desk",
+    "best mouse pad size for desk"
   ],
   heroImage: "https://images.unsplash.com/photo-1598662779094-110c2bad80b5?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1598662779094-110c2bad80b5?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const mousePadSizeGuideGuide: Guide = {
     "mouse-dpi-explained",
     "wired-vs-wireless-mouse",
     "desk-mat-vs-desk-pad",
-    "mouse-grip-styles-explained",
+    "mouse-grip-styles-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const mousePadSizeGuideGuide: Guide = {
       question: "Is a bigger mouse pad always better?",
       answer:
         "Not necessarily, an oversized pad on a small desk can feel impractical and may not fit alongside other peripherals, match the pad size to your actual desk space and mouse movement needs rather than defaulting to the largest available option.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const mousePadSizeGuideGuide: Guide = {
     {
       heading: "Considering the Full-Desk-Coverage Use Case Separately",
       body: `Beyond pure mouse movement needs, many people choose an extended pad simply for the combined benefit of a consistent surface across both keyboard and mouse areas, plus general desk protection from spills, scratches, and wear. This is a legitimate reason to choose extended sizing even for a high-DPI user who doesn't strictly need the extra mouse movement space.`,
-    },
+    }
   ],
 };

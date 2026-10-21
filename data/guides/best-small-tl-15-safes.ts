@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small TL-15 safes";
 export const introParagraphs = [
   "We need to be direct here: TL-15 is a formal UL 687 burglary-resistance classification, meaning a safe has been tested to resist a specific set of tools for at least 15 minutes under controlled conditions, not a marketing synonym for thick steel or a generic 15-minute claim. None of the candidate ASINs in our research pool carry a verified TL-15 classification.",
-  "Rather than label consumer security safes as TL-15 without evidence, we're disclosing this directly and presenting the strongest consumer-grade security safes from our broader research, alongside an explanation of where to actually find certified high-security safes if that formal rating is a genuine requirement.",
+  "Rather than label consumer security safes as TL-15 without evidence, we're disclosing this directly and presenting the strongest consumer-grade security safes from our broader research, alongside an explanation of where to actually find certified high-security safes if that formal rating is a genuine requirement."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -131,7 +131,7 @@ export const products: GuideProduct[] = [
     pros: ["Proven, budget-friendly consumer security safe"],
     cons: ["No evidence of UL 687 TL-15 burglary-resistance testing"],
     bestFor: "Budget-conscious buyers wanting proven consumer security, not certified burglary resistance.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified TL-15 classification claims against actual evidence, not marketing language", description: "TL-15 is a formal UL 687 classification requiring documented testing. None of our researched candidates provide evidence of this certification, so we disclosed the gap directly rather than labeling consumer safes as TL-15." },
   { title: "Distinguished genuine formal certifications from consumer-grade construction claims", description: "One pick here carries a genuine California DOJ gun safe certification, a real formal credential, which we noted as distinct from and not equivalent to TL-15 burglary resistance." },
   { title: "Explained the practical differences between consumer safes and genuinely certified high-security units", description: "TL-15 rated safes are typically heavy, professionally installed units very different in weight, construction, and price from the consumer safes in this comparison, which we noted directly." },
-  { title: "Directed buyers toward genuine high-security channels rather than substituting unrated products", description: "For buyers with an actual TL-15 requirement, we recommend a specialist high-security safe dealer with UL Product iQ-verifiable certification, not the consumer products in this comparison." },
+  { title: "Directed buyers toward genuine high-security channels rather than substituting unrated products", description: "For buyers with an actual TL-15 requirement, we recommend a specialist high-security safe dealer with UL Product iQ-verifiable certification, not the consumer products in this comparison." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -267,11 +267,11 @@ export const faq: FaqItem[] = [
   { q: "What does TL-15 actually mean?", a: "It's a formal UL 687 classification indicating a safe has been tested to resist common burglary tools for at least 15 minutes under controlled UL testing conditions." },
   { q: "Where can I find a genuinely TL-15 certified safe?", a: "Search for a specialist high-security safe dealer and verify the exact model's certification through UL Product iQ directly, rather than trusting a general marketplace listing's claim." },
   { q: "Is a heavy consumer safe basically the same as a TL-15 safe?", a: "No. Genuine TL-15 safes are a distinct, typically much heavier and more expensive product category with formal, verifiable UL testing behind them." },
-  { q: "What's the strongest consumer alternative in this comparison?", a: "The SentrySafe Shelf Safe with Digital Keypad Lock, which carries a genuine California DOJ gun safe certification, though this is a different credential from TL-15." },
+  { q: "What's the strongest consumer alternative in this comparison?", a: "The SentrySafe Shelf Safe with Digital Keypad Lock, which carries a genuine California DOJ gun safe certification, though this is a different credential from TL-15." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-tl-30-safes", title: "Best Small TL-30 Safes (2026)" },
   { href: "/guide/best-small-safes-that-bolt-to-the-floor", title: "Best Small Safes That Bolt to the Floor (2026)" },
-  { href: "/guide/best-small-safes-for-offices", title: "Best Small Safes for Offices (2026)" },
+  { href: "/guide/best-small-safes-for-offices", title: "Best Small Safes for Offices (2026)" }
 ];

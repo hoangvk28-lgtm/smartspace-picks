@@ -173,7 +173,7 @@ export default async function BestWoodFileCabinetsPage() {
     about: [
       { "@type": "Thing", name: "Wood File Cabinet" },
       { "@type": "Thing", name: "Home Office Storage" },
-      { "@type": "Thing", name: "Filing Cabinet" },
+      { "@type": "Thing", name: "Filing Cabinet" }
     ],
   };
 
@@ -193,7 +193,7 @@ export default async function BestWoodFileCabinetsPage() {
         position: 3,
         name: "Best Wood File Cabinets",
         item: `${SITE_URL}/guide/best-wood-file-cabinets`,
-      },
+      }
     ],
   };
 
@@ -460,7 +460,7 @@ export default async function BestWoodFileCabinetsPage() {
                         count: "4 Drawers",
                         best: "Power users, small business owners",
                         capacity: "High volume of accumulated records",
-                      },
+                      }
                     ].map((row, i) => (
                       <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                         <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -597,7 +597,7 @@ export default async function BestWoodFileCabinetsPage() {
                       finish: "Light Brown / Oak",
                       match: "Warm, versatile across traditional and modern",
                       pick: "GYIIYUO Extended Desktop (Pick 4)",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -657,7 +657,7 @@ export default async function BestWoodFileCabinetsPage() {
                     {
                       situation: "Durability over aesthetics, fully assembled",
                       pick: "Letaya Metal 3 Drawer (Metal Alternative)",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -720,21 +720,21 @@ export default async function BestWoodFileCabinetsPage() {
                 id: "devaise-rustic-brown",
                 name: "DEVAISE 3 Drawer Rustic Brown",
                 verdict:
-                  " - 5,342 reviews at 4.2 stars, three drawers, rolling casters.",
+                  " - Three drawers, rolling casters.",
               },
               {
                 context: "Best budget pick with white finish",
                 id: "vasagle-custos-snow-white",
                 name: "VASAGLE CUSTOS Snow White",
                 verdict:
-                  " - $62.99, 3,262 reviews, clean modern finish for minimalist setups.",
+                  " - Under $70, clean modern finish for minimalist setups.",
               },
               {
                 context: "Best white finish with three drawers",
                 id: "devaise-white-3drawer",
                 name: "DEVAISE 3-Drawer White",
                 verdict:
-                  " - 2,784 reviews at 4.1 stars, white finish plus extra storage over Pick 2.",
+                  " - White finish plus extra storage over Pick 2.",
               },
               {
                 context: "Best for printer stand use",
@@ -749,7 +749,7 @@ export default async function BestWoodFileCabinetsPage() {
                 name: "DEVAISE 4-Drawer with Lock",
                 verdict:
                   " - only pick in this guide with both four drawers and a cylinder lock.",
-              },
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

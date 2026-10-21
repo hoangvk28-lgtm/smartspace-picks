@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "Kneeling Chair with Backrest Ergonomic Adjustable Office Kneel Chair and is built around ergonomic design for healthy sitting, positioning it for under 150 buyers specifically.\n\nAdjustable Height & Dual Upholstery Options: Comes is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 150, though as with any ergonomic furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Ergonomic Design for Healthy Sitting","Adjustable Height & Dual Upholstery Options: Comes","Silent Lockable Caster Wheels"],
     pros: ["Ergonomic Design for Healthy Sitting, confirmed directly in the listing's own spec details","Adjustable Height & Dual Upholstery Options: Comes, confirmed directly in the listing's own spec details","Silent Lockable Caster Wheels, confirmed directly in the listing's own spec details"],
-    cons: ["At $119.99, worth comparing against similarly specced kneeling chairs before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $120, worth comparing against similarly specced kneeling chairs before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 150",
   }
 

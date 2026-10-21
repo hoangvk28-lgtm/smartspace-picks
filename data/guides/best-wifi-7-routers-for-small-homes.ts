@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "Wi-Fi 7 router for small home";
 export const introParagraphs = [
   "Small homes typically have a modest device count, reframing buying priorities toward budget or mid-tier routers rather than flagship high-capacity units this audience genuinely doesn't need for typical daily use.",
-  "Single-floor small homes reduce the 6GHz shorter-range concern significantly compared to multi-floor homes, meaning 6GHz's range limitation matters less here, a nuance worth understanding before overspending on range you may not need.",
+  "Single-floor small homes reduce the 6GHz shorter-range concern significantly compared to multi-floor homes, meaning 6GHz's range limitation matters less here, a nuance worth understanding before overspending on range you may not need."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wi-Fi 7 Router for Small Homes Overall",
     name: "TP-Link Dual-Band BE3600 Wi-Fi 7 Router Archer BE230 | 4-Stream | 2×2.5G + 3×1G Ports, USB 3.0, 2.0 GHz Quad Core, 4 Antennas | VPN, EasyMesh, HomeShield, MLO, Private IOT",
     price: "$79.99",
-    rating: "4.4 stars from 1,401 Amazon ratings",
-    reviews: "1,401 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41u8VJ6j2gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DC99N2T8?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best Mid-Tier Small Home Pick",
     name: "Cudy BE6500 WiFi 7 Router Dual Band Gigabit Gaming Router, 6500Mbps, VPN Client and Server, Cudy Mesh and APP Compatible, Broadcom 2 GHz Quad-Core CPU, WR6500",
     price: "$109.99",
-    rating: "4.2 stars from 124 Amazon ratings",
-    reviews: "124 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41+YB6u0MUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DR8TJSSY?tag=deskfinds0d-20",
     description:
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best Multi-Gig Port Small Home Pick",
     name: "TP-Link BE6500 Dual-Band WiFi 7 Router (BE400), Dual 2.5Gbps Ports, USB 3.0, Covers up to 2,400 sq. ft., 90 Devices, Quad-Core CPU, HomeShield, Private IoT",
     price: "$114.99",
-    rating: "4.4 stars from 1,325 Amazon ratings",
-    reviews: "1,325 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41kg9-1bsvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DVBP5L6Y?tag=deskfinds0d-20",
     description:
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Established Brand Small Home Pick",
     name: "NETGEAR Nighthawk Dual-Band WiFi 7 Router (RS90), Router Only, BE3600 Wireless Speed (up to 3.6 Gbps) - Covers up to 2,000 sq. ft., 50 Devices, 2.5 Gig Internet Port",
     price: "$129.00",
-    rating: "4.3 stars from 1,373 Amazon ratings",
-    reviews: "1,373 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21--ly92xtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DW27FNG3?tag=deskfinds0d-20",
     description:
@@ -94,8 +94,8 @@ export const products: GuideProduct[] = [
     badge: "Best Multi-Room Small Home Pick",
     name: "TP-Link Deco 7 BE23 Dual-Band BE3600 WiFi 7 Mesh Wi-Fi System | 4-Stream 3.6 Gbps, 160 Mhz | Covers up to 6,500 Sq.Ft | 2× 2.5G Ports Wired Backhaul | 3-Pack",
     price: "$152.99",
-    rating: "4.4 stars from 671 Amazon ratings",
-    reviews: "671 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41EClf31jxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQP4DNNJ?tag=deskfinds0d-20",
     description:
@@ -104,7 +104,7 @@ export const products: GuideProduct[] = [
     pros: ["Genuine multi-node coverage for homes with dead zones", "Wired backhaul option if homeowner can run Ethernet", "Solid review base for a mesh system", "Avoids single-router flagship overspending"],
     cons: ["Overkill for a genuinely single-floor small home", "Higher total cost than a single router", "No 6GHz radio despite the mesh design"],
     bestFor: "Small homes with unusual layouts, multiple floors, or dead zones",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Single-router-sufficiency framing distinct from general home use", description: "Differentiated from broader home-use framing by specifically addressing single-router-sufficiency for small square footage, avoiding oversized recommendations more appropriate for larger homes." },
   { title: "Buying priorities reframed toward budget/mid-tier routers", description: "Considered that small homes typically have a modest device count, reframing buying priorities toward budget/mid-tier routers rather than flagship high-capacity units this audience genuinely doesn't need." },
   { title: "6GHz range concern reduced for single-floor layouts noted", description: "Noted that single-floor small homes reduce the 6GHz shorter-range concern significantly compared to multi-floor homes, meaning this limitation matters less for this specific home size." },
-  { title: "Future-proofing versus present-need balance discussed", description: "Addressed realistic future-proofing versus present-need balance explicitly, since small-home buyers may want to avoid overspending on capacity headroom they'll likely never use." },
+  { title: "Future-proofing versus present-need balance discussed", description: "Addressed realistic future-proofing versus present-need balance explicitly, since small-home buyers may want to avoid overspending on capacity headroom they'll likely never use." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -239,11 +239,11 @@ export const faq: FaqItem[] = [
   { q: "Do I need a flagship Wi-Fi 7 router for a small home?", a: "Usually not. Small homes typically have a modest device count, reframing buying priorities toward budget or mid-tier routers rather than flagship high-capacity units this audience genuinely doesn't need." },
   { q: "Does 6GHz matter for a small, single-floor home?", a: "Less than for a multi-floor home. Single-floor small homes reduce the 6GHz shorter-range concern significantly, meaning this limitation matters less for this specific home size." },
   { q: "Should I buy extra Wi-Fi capacity for future-proofing in a small home?", a: "Balance this carefully, small-home buyers may want to avoid overspending on capacity headroom they'll likely never use for a genuinely small space." },
-  { q: "Is a mesh system necessary for a small home?", a: "Usually only if you have real dead zones, multiple floors, or an unusual layout, most genuinely small single-floor homes are well served by a single router." },
+  { q: "Is a mesh system necessary for a small home?", a: "Usually only if you have real dead zones, multiple floors, or an unusual layout, most genuinely small single-floor homes are well served by a single router." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-wifi-7-routers-for-apartments", title: "Best Wi-Fi 7 Routers for Apartments (2026)" },
   { href: "/guide/best-be3600-wifi-7-routers", title: "Best BE3600 Wi-Fi 7 Routers (2026)" },
-  { href: "/guide/best-be6500-wifi-7-routers", title: "Best BE6500 Wi-Fi 7 Routers (2026)" },
+  { href: "/guide/best-be6500-wifi-7-routers", title: "Best BE6500 Wi-Fi 7 Routers (2026)" }
 ];

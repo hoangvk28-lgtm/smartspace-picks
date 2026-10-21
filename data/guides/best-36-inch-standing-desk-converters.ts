@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "36 inch standing desk converter";
 export const introParagraphs = [
   "36 inches is a strong current size tier for standing desk converters, wide enough for dual-monitor or monitor-plus-laptop use without requiring the largest desk footprint.",
-  "We required confirmed 36 inch dimensions for every pick, distinguishing this tier from the more common 32 inch size and the larger 40-42 inch options.",
+  "We required confirmed 36 inch dimensions for every pick, distinguishing this tier from the more common 32 inch size and the larger 40-42 inch options."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required confirmed 36 inch platform width for every pick", description: "We verified this exact dimension rather than including nearby sizes rounded loosely in marketing copy." },
   { title: "Compared review volume across established and budget brands at this size", description: "We noted where VIVO and FITUEYES have much larger review bases than the budget SANODESK and FlexiSpot alternatives at this specific size." },
   { title: "Flagged duplicate listings sharing identical specs", description: "We noted where the same FITUEYES design appears across multiple listings, useful for buyers checking current stock." },
-  { title: "Weighed price against review history within this specific size tier", description: "36 inch converters here range across a range of price points, and we compared value across that range." },
+  { title: "Weighed price against review history within this specific size tier", description: "36 inch converters here range across a range of price points, and we compared value across that range." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -238,20 +238,20 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
 export const faq: FaqItem[] = [
   { q: "Which 36 inch converter has the most reviews?", a: "The VIVO Black 36 in Standing Desk Converter, sharing VIVO's massive K Series review pool of 15,583." },
-  { q: "What's the cheapest confirmed 36 inch converter?", a: "The SANODESK 36 inch Standing Desk Converter at $115.99." },
+  { q: "What's the cheapest confirmed 36 inch converter?", a: "The SANODESK 36 inch Standing Desk Converter at under $120." },
   { q: "Is 36 inches enough for dual monitors?", a: "Generally yes, this is a genuine sweet spot size that comfortably fits two standard monitors with keyboard and mouse space." },
   { q: "Is there a FlexiSpot option at 36 inches?", a: "Yes, the FLEXISPOT Standing Desk Converter 36 Inch Desk Riser at a budget-friendly price." },
-  { q: "Why do two FITUEYES listings look identical?", a: "The same product sometimes appears across multiple Amazon listings; check both for current stock and pricing before ordering." },
+  { q: "Why do two FITUEYES listings look identical?", a: "The same product sometimes appears across multiple Amazon listings; check both for current stock and pricing before ordering." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-32-inch-standing-desk-converters", title: "Best 32-Inch Standing Desk Converters (2026)" },
   { href: "/guide/best-40-inch-standing-desk-converters", title: "Best 40-Inch Standing Desk Converters (2026)" },
-  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
+  { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" }
 ];

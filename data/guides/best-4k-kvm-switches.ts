@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "4k kvm switch";
 export const introParagraphs = [
   "4K@30Hz and 4K@60Hz are very different day-to-day experiences, 30Hz can feel noticeably choppy for cursor movement and window dragging, worth verifying the switch's specific refresh rate at 4K rather than assuming any '4K' label automatically means smooth 60Hz performance.",
-  "A 4K KVM switch's cable quality matters as much as the switch's own rated bandwidth, a cheap or overly long HDMI or DisplayPort cable can prevent the switch from actually achieving its rated 4K performance even when the switch itself is fully capable.",
+  "A 4K KVM switch's cable quality matters as much as the switch's own rated bandwidth, a cheap or overly long HDMI or DisplayPort cable can prevent the switch from actually achieving its rated 4K performance even when the switch itself is fully capable."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -26,7 +26,7 @@ export const products: GuideProduct[] = [
     badge: "Best 4K KVM Switch Overall",
     name: "Displayport KVM Switch 2 Monitors 2 Computers 4K@144Hz USB3.0 KVM Switch for 2 Computers Share",
     price: "$69.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/316j7WYjfbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GYMRCQ7X?tag=deskfinds0d-20",
@@ -42,7 +42,7 @@ export const products: GuideProduct[] = [
     badge: "Best High-Ceiling 4K-and-Beyond Pick",
     name: "UGREEN HDMI KVM Switch 1 Monitor 2 Computers, 8K@60Hz, Aluminum",
     price: "$64.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41K5Wvne7oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFFCPL26?tag=deskfinds0d-20",
@@ -58,7 +58,7 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Monitor 4K@60Hz Pick",
     name: "UGREEN HDMI KVM Switch 2 Monitors 2 Computers 4K@60Hz, with 4 USB 3.0 Ports",
     price: "$69.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41ZrB2w7oOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXF66SWR?tag=deskfinds0d-20",
@@ -74,7 +74,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget 4K@60Hz Pick",
     name: "USB3.0 KVM Switch 2 Port HDMI, 4K@60Hz KVM Switch 1 Monitors 2 Computers with 3 USB3.0 Ports",
     price: "$32.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41uSOQO2ILL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFVBK4XQ?tag=deskfinds0d-20",
@@ -90,7 +90,7 @@ export const products: GuideProduct[] = [
     badge: "Best Ultra-Budget 4K@60Hz Pick",
     name: "Hearvo USB 3.0 HDMI KVM Switch for 2 Computers 1 Monitor, 4K@60Hz, S7232H",
     price: "$26.23",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41ll9M3dnWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5D4FK1H?tag=deskfinds0d-20",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "4K@30Hz versus 4K@60Hz distinguished explicitly", description: "Distinguished 4K@30Hz from 4K@60Hz explicitly for every pick, since 30Hz can feel noticeably choppy while 60Hz feels smooth, and the difference isn't always clear from a simple '4K' label." },
   { title: "Cable quality flagged as necessary to achieve rated performance", description: "Flagged that cable quality matters as much as the switch's own rated bandwidth, since a cheap or overly long cable can prevent a fully capable switch from achieving its rated 4K performance." },
   { title: "Bandwidth headroom valued for buyers wanting future-proofing beyond 4K", description: "Valued switches rated well above 4K (such as 8K-capable models) for buyers wanting genuine bandwidth headroom rather than a switch rated exactly at the 4K ceiling." },
-  { title: "Clear refresh rate documentation weighted as a trust signal", description: "Weighted clear, explicit refresh rate documentation as a positive trust signal, avoiding switches that leave achievable performance ambiguous." },
+  { title: "Clear refresh rate documentation weighted as a trust signal", description: "Weighted clear, explicit refresh rate documentation as a positive trust signal, avoiding switches that leave achievable performance ambiguous." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -226,11 +226,11 @@ export const faq: FaqItem[] = [
   { q: "Is 4K@30Hz good enough for everyday use?", a: "It can feel noticeably choppy for cursor movement and window dragging compared to 60Hz, verify the specific refresh rate before buying." },
   { q: "Why isn't my 4K KVM switch running at full resolution?", a: "This is often a cable quality issue rather than the switch itself, use a certified high-speed cable at a reasonable length to achieve rated performance." },
   { q: "Should I buy a switch rated higher than 4K?", a: "If you might upgrade your monitor later, a switch with headroom beyond 4K (like 8K-rated) gives genuine future-proofing." },
-  { q: "How do I know if a '4K' switch actually runs at 60Hz?", a: "Check the specific documented refresh rate rather than assuming from a generic '4K' label, look for explicit 4K@60Hz specs." },
+  { q: "How do I know if a '4K' switch actually runs at 60Hz?", a: "Check the specific documented refresh rate rather than assuming from a generic '4K' label, look for explicit 4K@60Hz specs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-hdmi-kvm-switches", title: "Best HDMI KVM Switches (2026)" },
   { href: "/guide/best-displayport-kvm-switches", title: "Best DisplayPort KVM Switches (2026)" },
-  { href: "/guide/best-kvm-switches-for-gaming", title: "Best KVM Switches for Gaming (2026)" },
+  { href: "/guide/best-kvm-switches-for-gaming", title: "Best KVM Switches for Gaming (2026)" }
 ];

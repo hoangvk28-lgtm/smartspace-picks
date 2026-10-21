@@ -175,7 +175,7 @@ export default async function BestSmallStandingDeskPage() {
     about: [
       { "@type": "Thing", name: "Small Standing Desk" },
       { "@type": "Thing", name: "Compact Electric Desk" },
-      { "@type": "Thing", name: "Height Adjustable Desk" },
+      { "@type": "Thing", name: "Height Adjustable Desk" }
     ],
   };
 
@@ -195,7 +195,7 @@ export default async function BestSmallStandingDeskPage() {
         position: 3,
         name: "Best Small Standing Desks",
         item: `${SITE_URL}/guide/best-small-standing-desk`,
-      },
+      }
     ],
   };
 
@@ -498,7 +498,7 @@ export default async function BestSmallStandingDeskPage() {
                       monitor: "Dual monitors possible without arm",
                       wall: "Approx. 56 to 60 inches clear",
                       use: "Standard minimum - fits most home office setups",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.width}</td>
@@ -564,7 +564,7 @@ export default async function BestSmallStandingDeskPage() {
                       height: "6'1\" and above",
                       needed: "47 inches or higher",
                       notes: "Most picks on this list fall short - verify before ordering",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.height}</td>
@@ -633,26 +633,26 @@ export default async function BestSmallStandingDeskPage() {
                 context: "Standard 48 inch with the most reviews",
                 id: "claiks-48x24",
                 name: "Claiks 48x24\"",
-                verdict: " - Amazon's Choice at 5,223 reviews, 176 lb max load for dual-monitor setups.",
+                verdict: " - 176 lb max load for dual-monitor setups.",
               },
               {
                 context: "Budget 48 inch at highest rating",
                 id: "agilestic-48x24",
                 name: "Agilestic 48x24\"",
-                verdict: " - 4.5 stars at 2,818 reviews, typically the lowest-priced option in the 48 inch tier.",
+                verdict: " - Typically the lowest-priced option in the 48 inch tier.",
               },
               {
                 context: "Cable management priority",
                 id: "siago-48x24",
                 name: "SIAGO 48x24\"",
-                verdict: " - 4.6 stars, built-in cable routing for the standing desk cable challenge.",
+                verdict: " - Built-in cable routing for the standing desk cable challenge.",
               },
               {
                 context: "Compact with documented motor spec",
                 id: "huanuo-40x24",
                 name: "HUANUO 40x24\"",
                 verdict: " - 50,000 full-load cycle motor claim, the most specific durability spec on this list.",
-              },
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

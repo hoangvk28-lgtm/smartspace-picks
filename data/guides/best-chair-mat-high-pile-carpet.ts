@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "chair mat for high pile carpet";
 export const introParagraphs = [
   "A standard chair mat rated for low pile carpet will sink into high pile carpet almost as soon as you sit down, leaving the chair's casters buried in fiber with nothing solid to roll against. High pile carpet, generally anything deeper than 3/4\", needs a mat specifically rated for that depth, with longer studs or cleats on the underside that actually reach through the pile to grip the backing, or a rigid material thick enough to bridge the pile without sinking.",
-  "Below are 8 chair mats we evaluated on pile-depth rating, underside cleat design, and rigidity on deep carpet, ranging from a $59.99 rigid dual-use mat to a $161.98 mat sized at 60\"x72\" for medium pile.",
+  "Below are 8 chair mats we evaluated on pile-depth rating, underside cleat design, and rigidity on deep carpet, ranging from an under-$60 rigid dual-use mat to an under-$170 mat sized at 60\"x72\" for medium pile."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Rated for extra-high pile over 1\" including padding",
       "AnchorBar cleats, beveled edge",
       "GREENGUARD Gold certified, phthalate and cadmium free",
-      "Made in USA, lifetime warranty",
+      "Made in USA, lifetime warranty"
     ],
     pros: [
       "Only standard-size pick in this guide rated for extra-high pile over 1\"",
       "AnchorBar cleats reach through deep pile to the backing",
       "GREENGUARD Gold certified",
-      "Lifetime warranty",
+      "Lifetime warranty"
     ],
     cons: [
       "Lower rating than the dual-use rigid picks in this guide",
       "Standard 36\"x48\" footprint may feel small for a large desk",
-      "Vinyl cleats need periodic checking for wear on very deep pile",
+      "Vinyl cleats need periodic checking for wear on very deep pile"
     ],
     bestFor: "Standard-size desks sitting on genuinely extra-high pile carpet, over 1\" including padding",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Rated for extra-high pile over 1\"",
       "AnchorBar cleats, beveled edge",
       "'No Crack' lifetime warranty, built for multi-shift use",
-      "Made in USA",
+      "Made in USA"
     ],
     pros: [
       "Largest footprint among the extra-high-pile-rated picks in this guide",
       "Same deep-pile AnchorBar cleat design as the standard-size ES Robbins pick",
       "Built for multi-shift heavy use",
-      "Lifetime 'No Crack' warranty",
+      "Lifetime 'No Crack' warranty"
     ],
     cons: [
       "Smaller review sample than most other picks in this guide",
       "Larger footprint needs more clearance around the desk",
-      "Pricier than the standard-size extra-high-pile pick",
+      "Pricier than the standard-size extra-high-pile pick"
     ],
     bestFor: "Larger desks on extra-high pile carpet that need more rolling room than a standard-size mat gives",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Rated for medium pile carpet up to 3/4\"",
       "AnchorBar cleats",
       "GREENGUARD certified, Made in USA",
-      "Lifetime 'No Crack' warranty",
+      "Lifetime 'No Crack' warranty"
     ],
     pros: [
       "Largest single mat in this guide at 60\"x72\"",
       "GREENGUARD certified and Made in USA",
       "Lifetime warranty against cracking",
-      "Ideal coverage for shared or multi-position desks",
+      "Ideal coverage for shared or multi-position desks"
     ],
     cons: [
       "Rated only up to 3/4\" pile, not for genuinely deep high pile",
       "Highest price in this guide",
-      "Large size requires substantial floor space",
+      "Large size requires substantial floor space"
     ],
     bestFor: "Large shared desks on medium pile carpet up to 3/4\" that need maximum coverage",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Rated 1,400 lbs (highest capacity in this guide)",
       "Rigid flat construction resists sinking into carpet",
       "Dual-use on carpet or hard floor",
-      "Crystal clear finish",
+      "Crystal clear finish"
     ],
     pros: [
       "Highest weight capacity in this guide at 1,400 lbs",
       "Rigid build resists sinking better than flexible vinyl",
       "Works on carpet or hard floor",
-      "Stays crystal clear over time",
+      "Stays crystal clear over time"
     ],
     cons: [
       "Not cleat-anchored, so it's less suited to genuinely deep high pile than the ES Robbins picks",
       "Smaller footprint than the largest vinyl mats in this guide",
-      "Rigid feel takes some adjusting to versus a flexible mat",
+      "Rigid feel takes some adjusting to versus a flexible mat"
     ],
     bestFor: "Medium to transitional pile depths where rigidity alone is enough to prevent sinking",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Hundreds of underside spikes",
       "Rated for medium or low pile carpet up to 3/4\"",
       "Ships completely flat",
-      "Semi-transparent finish",
+      "Semi-transparent finish"
     ],
     pros: [
       "Ships flat with no curling to deal with",
       "Spiked underside grips up to 3/4\" pile well",
       "Semi-transparent finish blends into most carpets",
-      "Easy to clean",
+      "Easy to clean"
     ],
     cons: [
       "Not rated for pile over 3/4\", so it's not a true high-pile solution",
       "Smaller footprint than the largest ES Robbins picks",
-      "Underside spikes can be felt if the mat shifts underfoot",
+      "Underside spikes can be felt if the mat shifts underfoot"
     ],
     bestFor: "Carpet at the upper edge of medium pile, just under the true high-pile threshold",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Rated for carpet up to 3/4\" (medium and high pile)",
       "Rigid construction, studded underside",
       "Lightly textured top",
-      "Made using 50% renewable energy, 100% recyclable",
+      "Made using 50% renewable energy, 100% recyclable"
     ],
     pros: [
       "Largest polycarbonate mat in this guide rated for high pile",
       "Rigid build resists sinking into thick carpet",
       "Studded underside adds extra grip",
-      "Made with 50% renewable energy, fully recyclable",
+      "Made with 50% renewable energy, fully recyclable"
     ],
     cons: [
       "Rated up to 3/4\", not for genuinely extra-high pile over 1\"",
       "Smaller review sample than the top vinyl picks",
-      "Large footprint needs significant floor clearance",
+      "Large footprint needs significant floor clearance"
     ],
     bestFor: "Buyers with carpet right at the medium-to-high pile boundary who want a large rigid mat",
   },
@@ -249,18 +249,17 @@ export const products: GuideProduct[] = [
       "Rated over 1,000 lbs",
       "Detachable anti-slip pad",
       "Polished rounded corners",
-      "Dual-use on carpet or hard floor",
+      "Dual-use on carpet or hard floor"
     ],
     pros: [
-      "Highest-rated and most-reviewed pick in this guide at 4.7 stars",
       "Largest glass mat in this guide",
       "Detachable anti-slip pad for easier cleaning",
-      "Works on carpet or hard floor",
+      "Works on carpet or hard floor"
     ],
     cons: [
       "Heavier than polycarbonate, can be harder to stabilize on very deep pile",
       "Not cleat-anchored, less suited to genuinely extra-high pile than the ES Robbins picks",
-      "Second most expensive pick in this guide",
+      "Second most expensive pick in this guide"
     ],
     bestFor: "Buyers who want the highest-rated dual-use glass mat for carpet up to medium-high depth",
   },
@@ -281,21 +280,21 @@ export const products: GuideProduct[] = [
       "Rated 1,200 lbs (highest capacity among this guide's glass picks)",
       "4 anti-slip pads",
       "BPA-free, phthalate-free, odorless",
-      "Dual-use on carpet or hard floor",
+      "Dual-use on carpet or hard floor"
     ],
     pros: [
       "Cheapest tempered glass pick in this guide",
       "Highest capacity rating among this guide's glass mats",
       "BPA-free, phthalate-free, and odorless",
-      "Works on carpet or hard floor",
+      "Works on carpet or hard floor"
     ],
     cons: [
       "Smaller footprint than the Koonmi glass pick",
       "Not cleat-anchored, so it's a middle-ground option rather than a true high-pile solution",
-      "Glass adds weight compared to vinyl or polycarbonate",
+      "Glass adds weight compared to vinyl or polycarbonate"
     ],
     bestFor: "Budget-conscious buyers with carpet on the deeper side of medium pile who want a glass surface",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -328,7 +327,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Value for price",
     description:
       "Weighed pile-depth rating, size, and certification against price, the extra-high-pile-rated ES Robbins picks command a premium specifically for their deep-pile cleat design.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -482,11 +481,11 @@ export const faq: FaqItem[] = [
   {
     q: "What size chair mat do I need for high pile carpet?",
     a: "Deep pile leaves less margin before a chair rolls off the mat's edge back into the carpet, so a larger footprint helps. The ES Robbins Everlife Extra High Pile at 45\"x53\" or the EverLife Medium Pile at 60\"x72\" in this guide both give more rolling room than a standard 36\"x48\" mat for larger or shared desks.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-rolling-chair-mat", title: "Best Rolling Chair Mats (2026)" },
   { href: "/guide/best-chair-mats-for-office", title: "Best Chair Mats for Office Use (2026)" },
-  { href: "/guide/best-office-chair-under-500", title: "Best Office Chairs Under $500 (2026)" },
+  { href: "/guide/best-office-chair-under-500", title: "Best Office Chairs Under $500 (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "bookshelf with doors";
 export const introParagraphs = [
   "A bookshelf with doors hides clutter and keeps dust off stored items while still leaving room for open display shelves above or beside the enclosed section. Styles range from simple cabinet doors on an industrial frame to sliding barn doors and more formal framed glass or wood panels.",
-  "Below are 8 bookshelves with doors we evaluated on weight capacity, door style, and how much of the unit stays open versus enclosed, useful for living rooms, home offices, or any space where you want a bookcase that can hide as much as it shows.",
+  "Below are 8 bookshelves with doors we evaluated on weight capacity, door style, and how much of the unit stays open versus enclosed, useful for living rooms, home offices, or any space where you want a bookcase that can hide as much as it shows."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "11 min";
@@ -58,18 +58,18 @@ export const products: GuideProduct[] = [
       "2 open tiers + 2-door bottom cabinet",
       "3 adjustable shelves, 5 height options",
       "374.8 lb total capacity (highest in this guide)",
-      "3.5\" robot-vacuum-friendly base",
+      "3.5\" robot-vacuum-friendly base"
     ],
     pros: [
       "Highest weight capacity in this guide at 374.8 lbs",
       "Robot-vacuum-friendly base for easy cleaning",
       "Attractive two-tone farmhouse finish",
-      "Adjustable shelves with 5 height options",
+      "Adjustable shelves with 5 height options"
     ],
     cons: [
       "Only 2 tiers stay open for display versus fully open bookcases",
       "Shallow 10\" depth limits larger book collections",
-      "Cabinet doors add assembly steps versus fully open shelving",
+      "Cabinet doors add assembly steps versus fully open shelving"
     ],
     bestFor: "Buyers who want the highest weight capacity plus a clean, easy-to-clean farmhouse design",
   },
@@ -91,18 +91,18 @@ export const products: GuideProduct[] = [
       "4 open shelves + 2 enclosed shelves with doors",
       "300 lb weight capacity",
       "Stability device included",
-      "Shallow 9.3\" footprint",
+      "Shallow 9.3\" footprint"
     ],
     pros: [
-      "Best value pick with doors, tied for lowest price at $79.99",
+      "Best value pick with doors, tied for lowest price at under $80",
       "4 open plus 2 enclosed shelves for balanced storage",
       "Shallowest footprint in this guide at 9.3 inches",
-      "Includes a stability device for the tall frame",
+      "Includes a stability device for the tall frame"
     ],
     cons: [
       "Lowest rating among the enclosed-cabinet picks",
       "Shallow depth limits how much fits on each shelf",
-      "Industrial black look may not suit every room",
+      "Industrial black look may not suit every room"
     ],
     bestFor: "Buyers who want an affordable bookshelf with doors that fits into a narrow or tight space",
   },
@@ -124,18 +124,18 @@ export const products: GuideProduct[] = [
       "3 open shelves + 1 cabinet door + 3 fabric drawers",
       "44 lb per shelf capacity",
       "Scratch-resistant finish",
-      "Anti-falling devices + load-bearing base",
+      "Anti-falling devices + load-bearing base"
     ],
     pros: [
       "Most complete storage mix: drawers, a cabinet door, and open shelves",
       "Doubles as a bookshelf, file cabinet, or display case",
       "Scratch-resistant MDF construction",
-      "Reinforced load-bearing base for stability",
+      "Reinforced load-bearing base for stability"
     ],
     cons: [
       "Only 1 door versus 2 on several other picks",
       "Smaller review sample than the top 2 picks",
-      "Mixing 3 storage types means less pure shelf space than dedicated open bookcases",
+      "Mixing 3 storage types means less pure shelf space than dedicated open bookcases"
     ],
     bestFor: "Buyers who want one unit that handles books, files, and display items with drawers and a door",
   },
@@ -157,18 +157,18 @@ export const products: GuideProduct[] = [
       "Framed double doors, fully enclosed",
       "5 compartments, 2 adjustable shelves",
       "Hidden cord access",
-      "5-year warranty",
+      "5-year warranty"
     ],
     pros: [
       "Most classic design with framed double doors",
       "Fully enclosed, hides all shelves from view",
       "Only pick in this guide with a 5-year warranty",
-      "Hidden cord access for electronics",
+      "Hidden cord access for electronics"
     ],
     cons: [
-      "Most expensive pick in this guide at $258.74",
+      "Most expensive pick in this guide at under $300",
       "Fully enclosed design leaves no open display space",
-      "Heavier and bulkier to assemble than the metal-frame picks",
+      "Heavier and bulkier to assemble than the metal-frame picks"
     ],
     bestFor: "Buyers who want a traditional, fully enclosed library bookcase backed by a long warranty",
   },
@@ -190,18 +190,18 @@ export const products: GuideProduct[] = [
       "6 tiers + cabinet doors + 1 drawer",
       "300 lb weight capacity",
       "Hand-crafted groove texture",
-      "Anti-tip kit included",
+      "Anti-tip kit included"
     ],
     pros: [
       "Elegant farmhouse white finish with groove texture detailing",
       "Combines 6 tiers, cabinet doors, and a drawer",
       "Solid 300 lb weight capacity",
-      "Includes an anti-tip kit for safety",
+      "Includes an anti-tip kit for safety"
     ],
     cons: [
       "Smaller review sample than most other picks",
       "White finish shows scuffs more than darker tones",
-      "Pricier than the industrial-style Shintenchi or VASAGLE",
+      "Pricier than the industrial-style Shintenchi or VASAGLE"
     ],
     bestFor: "Buyers who want an elegant farmhouse-style bookshelf combining doors, drawer, and open shelves",
   },
@@ -223,18 +223,18 @@ export const products: GuideProduct[] = [
       "Sliding barn doors + 5 adjustable shelves",
       "Unique grain pattern",
       "Metal edge decoration",
-      "Wider wooden base + anti-tip-over device",
+      "Wider wooden base + anti-tip-over device"
     ],
     pros: [
       "Distinctive sliding barn doors save floor clearance",
       "Unique grain pattern and metal edge accents",
       "Classic farmhouse barn shape stands out visually",
-      "Wider base adds extra stability",
+      "Wider base adds extra stability"
     ],
     cons: [
       "Higher price than most non-barn-door picks",
       "Sliding doors only cover part of the shelving",
-      "Distinctive style may not suit more minimalist decor",
+      "Distinctive style may not suit more minimalist decor"
     ],
     bestFor: "Buyers who want a standout farmhouse barn-door look with space-saving sliding doors",
   },
@@ -249,25 +249,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/515C0UkaFhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FZTSHJSM?tag=deskfinds0d-20",
     description:
-      "The ORRD is the highest-rated pick in this entire guide at 4.9 stars, sold as a matched pair of arched bookshelves designed to flank a doorway, sofa, or fireplace as a coordinated statement piece. Each unit combines an arched silhouette with scalloped cabinet doors and gold accent handles, a mid-century modern look that stands well apart from the farmhouse and industrial styles elsewhere in this guide. Each bookshelf in the pair offers 4 open display shelves plus 1 closed cabinet section, so you still get plenty of visible shelving alongside the enclosed storage. An anti-tip kit is included on each unit, and the set is available in Natural or Walnut finishes. Worth calling out specifically: striking arched silhouette with scalloped doors and gold handles. The catch is most expensive pick in this guide for the pair.",
+      "Each unit combines an arched silhouette with scalloped cabinet doors and gold accent handles, a mid-century modern look that stands well apart from the farmhouse and industrial styles elsewhere in this guide. Each bookshelf in the pair offers 4 open display shelves plus 1 closed cabinet section, so you still get plenty of visible shelving alongside the enclosed storage. An anti-tip kit is included on each unit, and the set is available in Natural or Walnut finishes. Worth calling out specifically: striking arched silhouette with scalloped doors and gold handles. The catch is most expensive pick in this guide for the pair.",
     specs: [
       "Set of 2, 31.49\"W x 11.81\"D x 70.86\"H each",
       "MDF construction",
       "Arched design + scalloped doors + gold accent handles",
       "4 open display shelves + 1 closed cabinet each",
       "Anti-tip kit included",
-      "Available in Natural or Walnut",
+      "Available in Natural or Walnut"
     ],
     pros: [
-      "Highest-rated pick in this entire guide at 4.9 stars",
       "Striking arched silhouette with scalloped doors and gold handles",
       "Sold as a matched pair for a coordinated statement look",
-      "Balances open display shelves with enclosed cabinet storage",
+      "Balances open display shelves with enclosed cabinet storage"
     ],
     cons: [
-      "Most expensive pick in this guide at $399.99 for the pair",
-      "Smallest review sample in this guide (26 ratings)",
-      "Distinctive arched design needs the right room to shine",
+      "Most expensive pick in this guide at under $400 for the pair",
+      "Distinctive arched design needs the right room to shine"
     ],
     bestFor: "Buyers who want a premium, design-forward statement pair to flank a doorway or fireplace",
   },
@@ -289,21 +287,21 @@ export const products: GuideProduct[] = [
       "18 shelves across 6 tiers + 6 barn doors with gold handles",
       "66 lb per shelf capacity",
       "24mm thickened shelves",
-      "Anti-tipping device included",
+      "Anti-tipping device included"
     ],
     pros: [
       "Widest single unit in this guide at 71 inches",
       "18 shelves and 6 barn doors, the most of any pick here",
       "Doubles as a home library or room divider",
-      "Thickened 24mm shelves rated for 66 lbs each",
+      "Thickened 24mm shelves rated for 66 lbs each"
     ],
     cons: [
       "Very large footprint needs a spacious room",
       "Smaller review sample than the top-selling picks",
-      "6 separate barn doors add more assembly and moving parts",
+      "6 separate barn doors add more assembly and moving parts"
     ],
     bestFor: "Buyers who want the widest, highest-capacity bookshelf with doors for a home library setup",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -336,12 +334,9 @@ export const faq: FaqItem[] = [
   },
   {
     q: "What is the most affordable bookshelf with doors?",
-    a: "The Shintenchi 6-Tier Industrial Bookshelf (Pick 2) and VASAGLE Liry Farmhouse Bookshelf (Pick 1) are tied for the lowest price in this guide at $79.99.",
+    a: "The Shintenchi 6-Tier Industrial Bookshelf (Pick 2) and VASAGLE Liry Farmhouse Bookshelf (Pick 1) are tied for the lowest price in this guide at under $80.",
   },
-  {
-    q: "Which bookshelf with doors is the highest rated?",
-    a: "The ORRD 70\" Arched Bookshelf Set of 2 (Pick 7) is the highest rated in this guide at 4.9 stars, though on a smaller review sample of 26 ratings.",
-  },
+  
   {
     q: "Is there a bookshelf with sliding barn doors?",
     a: "Yes, both the Joaxswe 5-Tier Barn Door Bookcase (Pick 6) and the FACBOTALL 75\" Triple Wide (Pick 8) use sliding barn doors instead of swinging cabinet doors.",
@@ -361,11 +356,11 @@ export const faq: FaqItem[] = [
   {
     q: "How much clearance do cabinet doors need to open?",
     a: "Swinging cabinet doors, used on most picks in this guide, typically need at least 24-30 inches of clearance in front of the unit to open fully, so measure your walking space before placing one against a wall in a tight room. Sliding barn doors, like on the Joaxswe and FACBOTALL, avoid this issue entirely since they slide sideways along the frame instead of swinging outward.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-bookshelf-with-drawers", title: "Best Bookshelves with Drawers in 2026" },
   { href: "/guide/best-bookshelf-with-storage", title: "Best Bookshelves with Storage in 2026" },
-  { href: "/guide/best-bookshelf-5-tier", title: "Best 5-Tier Bookshelves in 2026" },
+  { href: "/guide/best-bookshelf-5-tier", title: "Best 5-Tier Bookshelves in 2026" }
 ];

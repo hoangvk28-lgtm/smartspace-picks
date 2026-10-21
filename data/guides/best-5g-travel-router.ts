@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Fastest speed, global eSIM coverage", "NETGEAR Nighthawk M7 5G Mobile Hotspot"],
         ["VPN protection and customization", "GL.iNet GL-E750V2 MUDI"],
         ["Touchscreen, 32-device support at lower price", "NETGEAR Nighthawk M6"],
-        ["Lowest price, basic reliable connectivity", "SCHOK 4G LTE Portable WiFi"],
+        ["Lowest price, basic reliable connectivity", "SCHOK 4G LTE Portable WiFi"]
       ],
     },
   },
@@ -109,9 +109,9 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $50", "SCHOK 4G LTE Portable WiFi ($49.99)"],
-        ["Under $180", "GL.iNet MUDI ($169.99) or NETGEAR M6 ($179.99)"],
-        ["Under $500", "NETGEAR Nighthawk M7 5G ($499.88)"],
+        ["Under $50", "SCHOK 4G LTE Portable WiFi (under $50)"],
+        ["Under $180", "GL.iNet MUDI (under $170) or NETGEAR M6 (under $180)"],
+        ["Under $500", "NETGEAR Nighthawk M7 5G (under $500)"]
       ],
     },
   },
@@ -119,7 +119,7 @@ export const howToChoose = [
     subheading: "5G vs 4G LTE for Travel",
     cards: [
       { label: "5G (Nighthawk M7)", text: "Delivers significantly faster speeds where 5G coverage is strong, worth the premium for buyers regularly in well-covered urban and suburban areas." },
-      { label: "4G LTE (MUDI, Nighthawk M6, SCHOK)", text: "More consistently available across rural and international locations where 5G infrastructure remains limited, often a more reliable real-world choice." },
+      { label: "4G LTE (MUDI, Nighthawk M6, SCHOK)", text: "More consistently available across rural and international locations where 5G infrastructure remains limited, often a more reliable real-world choice." }
     ],
     note: "Check actual 5G coverage maps for your specific travel destinations before paying a premium for 5G capability that may not be available where you're actually traveling.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
         ["App-based global eSIM, no physical SIM", "NETGEAR Nighthawk M7"],
         ["Physical eSIM card, operator switching", "GL.iNet MUDI"],
         ["Standard Nano SIM, any compatible carrier", "NETGEAR Nighthawk M6"],
-        ["Included starter SIM card", "SCHOK 4G LTE Portable WiFi"],
+        ["Included starter SIM card", "SCHOK 4G LTE Portable WiFi"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For Frequent International Business Travel Specifically",
     cards: [
       { label: "Look for", text: "App-based eSIM data plan purchasing that works across many countries without needing to locate and purchase a local SIM card at each destination, plus built-in security features like a firewall and WPA3 encryption for protecting sensitive business data." },
-      { label: "In this comparison", text: "The Nighthawk M7 specifically offers eSIM coverage across 140+ countries purchasable directly through its app, removing the local SIM card hunt at each destination." },
+      { label: "In this comparison", text: "The Nighthawk M7 specifically offers eSIM coverage across 140+ countries purchasable directly through its app, removing the local SIM card hunt at each destination." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You travel internationally and want the fastest speed with app-based global eSIM purchasing, where the Nighthawk M7's $499.88 price delivers genuinely differentiated international travel convenience." },
-      { label: "Save if", text: "You need reliable 4G connectivity for a family or small group's basic needs, where the SCHOK pick covers that for a fraction of the flagship price." },
+      { label: "Spend more if", text: "You travel internationally and want the fastest speed with app-based global eSIM purchasing, where the Nighthawk M7's under $500 price delivers genuinely differentiated international travel convenience." },
+      { label: "Save if", text: "You need reliable 4G connectivity for a family or small group's basic needs, where the SCHOK pick covers that for a fraction of the flagship price." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

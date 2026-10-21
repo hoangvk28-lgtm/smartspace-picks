@@ -12,7 +12,7 @@ export const fireproofDocumentStorageExplainedGuide: Guide = {
     "fireproof file box rating meaning",
     "which documents need fireproof storage",
     "fire rating duration explained",
-    "fireproof safe vs regular storage",
+    "fireproof safe vs regular storage"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const fireproofDocumentStorageExplainedGuide: Guide = {
     "filing-cabinet-vs-file-box",
     "backup-strategy-3-2-1-rule-explained",
     "external-drive-care-maintenance",
-    "open-shelving-vs-closed-cabinet",
+    "open-shelving-vs-closed-cabinet"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const fireproofDocumentStorageExplainedGuide: Guide = {
       question: "Does digital backup reduce the need for fireproof physical document storage?",
       answer:
         "For documents that can be effectively digitized, yes, a digital backup stored offsite (per the 3-2-1 backup principle) provides strong protection against physical disasters, but certain original documents, like an original will or property deed, may need to remain in physical form regardless of digital backup.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const fireproofDocumentStorageExplainedGuide: Guide = {
     {
       heading: "Why Water Resistance Deserves Separate, Explicit Consideration",
       body: `A significant and often overlooked aspect of fire damage risk comes not from the fire itself but from the water used to extinguish it, a document storage container rated purely for fire resistance without any water resistance consideration could still see its contents damaged by firefighting water exposure even if the fire-resistant protection itself worked as intended, checking explicitly for combined fire and water resistance ratings, rather than assuming fire protection alone covers the complete realistic disaster scenario, provides more genuinely comprehensive protection for irreplaceable documents.`,
-    },
+    }
   ],
 };

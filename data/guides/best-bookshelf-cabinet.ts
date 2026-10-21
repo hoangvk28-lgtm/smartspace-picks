@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "bookshelf cabinet";
 export const introParagraphs = [
   "A bookshelf cabinet gives you the best of both worlds, open shelving for the books and decor you want on display, plus enclosed doors or drawers for everything you'd rather keep out of sight.",
-  "Below are 8 bookshelf cabinets we evaluated on capacity, construction, and standout features, ranging from farmhouse-style door combos under $100 to glass display cabinets with automatic LED lighting.",
+  "Below are 8 bookshelf cabinets we evaluated on capacity, construction, and standout features, ranging from farmhouse-style door combos under $100 to glass display cabinets with automatic LED lighting."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Engineered wood",
       "2 open tiers + 2-door cabinet, 3 adjustable shelves (5 height options)",
       "374.8 lb total capacity",
-      "Robot-vacuum-friendly 3.5\" base",
+      "Robot-vacuum-friendly 3.5\" base"
     ],
     pros: [
       "Highest total capacity in this list at 374.8 lbs",
       "Robot-vacuum-friendly base gap",
       "2-door cabinet hides clutter behind adjustable shelving",
-      "Attractive two-tone farmhouse finish",
+      "Attractive two-tone farmhouse finish"
     ],
     cons: [
       "No glass doors or LED lighting for display",
       "Engineered wood, not solid wood",
-      "Cabinet doors are opaque, so contents stay fully hidden",
+      "Cabinet doors are opaque, so contents stay fully hidden"
     ],
     bestFor: "Buyers who want the highest overall capacity plus real hidden storage behind cabinet doors",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Engineered wood + metal",
       "4 open shelves + 2 enclosed shelves with doors",
       "300 lb total capacity",
-      "Stability device included",
+      "Stability device included"
     ],
     pros: [
       "300 lb total capacity",
       "Most compact depth in this list at 9.3\"",
       "Dust-blocking enclosed shelves protect stored items",
-      "Modern black industrial styling",
+      "Modern black industrial styling"
     ],
     cons: [
       "Lower star rating than most other picks at 4.3",
       "Fewer total ratings than the top sellers",
-      "No LED lighting or glass display doors",
+      "No LED lighting or glass display doors"
     ],
     bestFor: "Space-constrained rooms that need a slim-depth cabinet with both open and enclosed storage",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "P2 board (recyclable)",
       "2 doors + 2 drawers + 1 adjustable shelf",
       "5 total storage zones",
-      "Metal cross-bar industrial accent",
+      "Metal cross-bar industrial accent"
     ],
     pros: [
       "Most versatile storage mix with 5 total zones",
       "Lightweight and easy to move",
       "Recyclable P2 material",
-      "Attractive farmhouse look with an industrial accent",
+      "Attractive farmhouse look with an industrial accent"
     ],
     cons: [
       "Shorter than most other picks in this list at 42.5\"",
       "Lower total capacity than the taller cabinet combos",
-      "No glass display or LED lighting",
+      "No glass display or LED lighting"
     ],
     bestFor: "Buyers who want the most storage zones in a compact, easy-to-move cabinet",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "FSC-certified wood + glass",
       "4 pop-up glass doors, 4 tiers",
       "3-color LED with human-body sensor",
-      "Anti-tipping device included",
+      "Anti-tipping device included"
     ],
     pros: [
       "Pop-up glass doors on all 4 tiers",
       "3-color LED with automatic motion sensor",
       "FSC-certified sustainable wood",
-      "Best-looking glass display cabinet in this list",
+      "Best-looking glass display cabinet in this list"
     ],
     cons: [
-      "Among the most expensive picks in this list at $179.99",
+      "Among the most expensive picks in this list at under $180",
       "Glass doors require more careful handling than solid wood doors",
-      "Lower star rating than the storage-focused cabinets",
+      "Lower star rating than the storage-focused cabinets"
     ],
     bestFor: "Buyers who want to display and light up a collectibles or book collection behind glass",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "FSC-certified wood + tempered glass",
       "Hexagonal corner design, 4 magnetic glass doors, 4 tiers",
       "3-color LED with human-body sensor",
-      "40 lb/shelf",
+      "40 lb/shelf"
     ],
     pros: [
       "Hexagonal corner design fits directly into a room corner",
       "360-degree visibility through 4-sided glass",
       "LED motion sensor lighting",
-      "Best-looking corner cabinet in this list",
+      "Best-looking corner cabinet in this list"
     ],
     cons: [
-      "Among the most expensive picks in this list at $179.99",
+      "Among the most expensive picks in this list at under $180",
       "Corner-specific shape limits placement flexibility elsewhere",
-      "Tempered glass doors need careful handling",
+      "Tempered glass doors need careful handling"
     ],
     bestFor: "Buyers with an unused room corner who want a lit glass display cabinet built for that exact space",
   },
@@ -218,18 +218,18 @@ export const products: GuideProduct[] = [
       "4 adjustable shelves",
       "120 lb/shelf",
       "Lockable 3-point door lock",
-      "Powder-coated anti-rust finish",
+      "Powder-coated anti-rust finish"
     ],
     pros: [
       "Highest per-shelf capacity in this list at 120 lbs",
       "Thickest steel frame at 8mm",
       "Lockable 3-point security",
-      "Powder-coated anti-rust finish",
+      "Powder-coated anti-rust finish"
     ],
     cons: [
       "No LED lighting or motion sensor",
       "Lower star rating than most other picks at 4.3",
-      "Heavier and harder to move than lighter cabinet combos",
+      "Heavier and harder to move than lighter cabinet combos"
     ],
     bestFor: "Home offices that need lockable, secure storage for documents or valuables alongside display shelving",
   },
@@ -250,18 +250,18 @@ export const products: GuideProduct[] = [
       "FSC-certified MDF + acrylic",
       "5 tiers, 2 adjustable + 2 fixed shelves",
       "3-color smart LED with sensor",
-      "Waterproof construction",
+      "Waterproof construction"
     ],
     pros: [
       "Most transparent acrylic doors in this list",
       "Smart LED motion sensor lighting",
       "Waterproof construction suits kitchens or bathrooms",
-      "FSC-certified sustainable wood",
+      "FSC-certified sustainable wood"
     ],
     cons: [
       "Acrylic doors can scratch more easily than glass over time",
       "Fewer total ratings than the top sellers",
-      "No lock, unlike the PEUKC",
+      "No lock, unlike the PEUKC"
     ],
     bestFor: "Kitchens, dining rooms, or bathrooms where a waterproof display cabinet is a must",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "46.6\"W x 11.2\"D x 39.8\"H",
       "FSC-certified MDF + solid oak legs (30mm) + beech door handles",
       "7 open cubes + 4 enclosed cubes",
-      "60 lb/cube (240 lb top panel)",
+      "60 lb/cube (240 lb top panel)"
     ],
     pros: [
       "Most premium construction with solid oak legs and beech handles",
       "11 total cubes split between open and enclosed storage",
       "Most refined minimalist design in this list",
-      "FSC-certified sustainable wood",
+      "FSC-certified sustainable wood"
     ],
     cons: [
       "Fewest total ratings in this list at 97",
       "Low, wide profile takes up more wall width than tall cabinets",
-      "No glass display or LED lighting",
+      "No glass display or LED lighting"
     ],
     bestFor: "Buyers who want the most premium materials and finish in a low, wide cube-storage cabinet",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -353,11 +353,11 @@ export const faq: FaqItem[] = [
   {
     q: "Are glass cabinet doors hard to keep clean?",
     a: "Glass doors, like those on the BROTTAR and Dystler, show fingerprints and dust more visibly than solid wood or acrylic panels, so expect to wipe them down more often. They're also more prone to breakage if knocked into by kids or pets, so a solid or acrylic-door pick is the safer choice in a busy household.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-bookshelf-with-doors", title: "Best Bookshelves with Doors in 2026" },
   { href: "/guide/best-bookshelf-with-storage", title: "Best Bookshelves with Storage in 2026" },
-  { href: "/guide/best-bookshelf-with-drawers", title: "Best Bookshelves with Drawers in 2026" },
+  { href: "/guide/best-bookshelf-with-drawers", title: "Best Bookshelves with Drawers in 2026" }
 ];

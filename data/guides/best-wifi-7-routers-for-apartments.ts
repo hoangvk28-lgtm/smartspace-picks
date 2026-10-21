@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "Wi-Fi 7 router for apartment";
 export const introParagraphs = [
   "Concrete and steel construction's impact on 6GHz penetration should be the central consideration for apartment buyers specifically, not a secondary footnote, since this directly affects the typical building materials most apartment units are built with.",
-  "Apartment buildings commonly have many overlapping neighbor Wi-Fi networks creating real 2.4GHz/5GHz congestion, a genuine interference factor that open-lab router testing doesn't reflect, worth weighing more heavily than raw speed specs for this specific living situation.",
+  "Apartment buildings commonly have many overlapping neighbor Wi-Fi networks creating real 2.4GHz/5GHz congestion, a genuine interference factor that open-lab router testing doesn't reflect, worth weighing more heavily than raw speed specs for this specific living situation."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wi-Fi 7 Router for Apartments Overall",
     name: "TP-Link Dual-Band BE3600 Wi-Fi 7 Router Archer BE230 | 4-Stream | 2×2.5G + 3×1G Ports, USB 3.0, 2.0 GHz Quad Core, 4 Antennas | VPN, EasyMesh, HomeShield, MLO, Private IOT",
     price: "$79.99",
-    rating: "4.4 stars from 1,401 Amazon ratings",
-    reviews: "1,401 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41u8VJ6j2gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DC99N2T8?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best Established Brand Apartment Pick",
     name: "NETGEAR Nighthawk Dual-Band WiFi 7 Router (RS90), Router Only, BE3600 Wireless Speed (up to 3.6 Gbps) - Covers up to 2,000 sq. ft., 50 Devices, 2.5 Gig Internet Port",
     price: "$129.00",
-    rating: "4.3 stars from 1,373 Amazon ratings",
-    reviews: "1,373 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21--ly92xtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DW27FNG3?tag=deskfinds0d-20",
     description:
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best Placement-Flexible Apartment Pick",
     name: "Roam 7 BE3600 Wi-Fi 7 Portable Travel Router Dual-Band, 2.5G Port, USB 3.0",
     price: "$89.99",
-    rating: "4.4 stars from 290 Amazon ratings",
-    reviews: "290 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31vfCX-04BL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHZGXZH7?tag=deskfinds0d-20",
     description:
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Multi-Room Apartment Pick",
     name: "TP-Link Deco 7 BE23 Dual-Band BE3600 WiFi 7 Mesh Wi-Fi System | 4-Stream 3.6 Gbps, 160 Mhz | Covers up to 6,500 Sq.Ft | 2× 2.5G Ports Wired Backhaul | 3-Pack",
     price: "$152.99",
-    rating: "4.4 stars from 671 Amazon ratings",
-    reviews: "671 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41EClf31jxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQP4DNNJ?tag=deskfinds0d-20",
     description:
@@ -94,8 +94,8 @@ export const products: GuideProduct[] = [
     badge: "Best Higher-Capacity Apartment Pick",
     name: "NETGEAR Nighthawk Dual-Band WiFi 7 Router (RS140) - Router Only, BE5000 Wireless Speed (up to 5.0 Gbps) - Covers up to 2,250 sq. ft., 80 Devices - 2.5 Gig Internet Port",
     price: "$158.00",
-    rating: "4.3 stars from 356 Amazon ratings",
-    reviews: "356 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21NuupEXJgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F114274T?tag=deskfinds0d-20",
     description:
@@ -104,7 +104,7 @@ export const products: GuideProduct[] = [
     pros: ["Higher device-count rating absorbs dense-neighbor-network congestion", "Established brand track record", "2.5 Gig WAN port for fast internet plans", "Single-router simplicity, no mesh needed"],
     cons: ["Higher price than the basic budget apartment pick", "Coverage headroom exceeds most single apartment units", "No 6GHz radio at this price tier"],
     bestFor: "Apartment households with many connected devices and remote workers",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Concrete/steel 6GHz penetration centered as the primary consideration", description: "Made concrete/steel construction's 6GHz-penetration impact the central consideration for this apartment-specific research, not a secondary footnote, given how directly relevant this is to typical apartment building materials." },
   { title: "Dense-neighbor interference weighed over open-lab testing", description: "Considered that apartment buildings commonly have many overlapping neighbor Wi-Fi networks creating real 2.4GHz/5GHz congestion, a factor open-lab testing doesn't reflect." },
   { title: "Apartment-specific placement constraints addressed", description: "Provided practical placement guidance given limited furniture arrangement flexibility and no attic/basement to centralize equipment in a typical apartment layout." },
-  { title: "Landlord restriction and single-router sufficiency guidance included", description: "Noted that renters often can't install wired Ethernet backhaul, and that smaller unit square footage may mean a single router is genuinely sufficient, avoiding unnecessary mesh overkill." },
+  { title: "Landlord restriction and single-router sufficiency guidance included", description: "Noted that renters often can't install wired Ethernet backhaul, and that smaller unit square footage may mean a single router is genuinely sufficient, avoiding unnecessary mesh overkill." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -239,11 +239,11 @@ export const faq: FaqItem[] = [
   { q: "Do I need a 6GHz router for my apartment?", a: "Not necessarily. Concrete/steel construction meaningfully limits 6GHz range, a factor central to apartment buying decisions, a dual-band router can be a genuinely reasonable choice instead." },
   { q: "Why does my apartment Wi-Fi feel congested even with a good router?", a: "Apartment buildings commonly have many overlapping neighbor Wi-Fi networks creating real 2.4GHz/5GHz congestion, a factor open-lab router testing doesn't reflect." },
   { q: "Can I run wired backhaul for a mesh system in my rental apartment?", a: "Often not. Landlord restrictions on wall mounting or running wired Ethernet backhaul are common for renters, choose a wireless mesh system that performs well without it instead." },
-  { q: "Do I need a multi-node mesh system for a small apartment?", a: "Usually not. Smaller unit square footage often means a single router is genuinely sufficient, avoid unnecessary mesh system overkill for a space that doesn't require it." },
+  { q: "Do I need a multi-node mesh system for a small apartment?", a: "Usually not. Smaller unit square footage often means a single router is genuinely sufficient, avoid unnecessary mesh system overkill for a space that doesn't require it." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-wifi-7-routers-for-small-homes", title: "Best Wi-Fi 7 Routers for Small Homes (2026)" },
   { href: "/guide/best-be3600-wifi-7-routers", title: "Best BE3600 Wi-Fi 7 Routers (2026)" },
-  { href: "/guide/best-be6500-wifi-7-routers", title: "Best BE6500 Wi-Fi 7 Routers (2026)" },
+  { href: "/guide/best-be6500-wifi-7-routers", title: "Best BE6500 Wi-Fi 7 Routers (2026)" }
 ];

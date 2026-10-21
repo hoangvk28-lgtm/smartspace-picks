@@ -193,35 +193,35 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $103.99",
+          "Under $110",
           "TerraMaster D2-320 2-Bay USB RAID Enclosure (Diskless)"
         ],
         [
-          "Around $119.99",
+          "Under $120",
           "CENMATE Aluminum 4-Bay Hard Drive Enclosure (5Gbps)"
         ],
         [
-          "Around $129.99",
+          "Under $130",
           "CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB)"
         ],
         [
-          "Around $151.99",
+          "Under $160",
           "TerraMaster D4-320 4-Bay USB DAS Enclosure (Diskless)"
         ],
         [
-          "Around $179.95",
+          "Under $180",
           "ORICO 4-Bay RAID Hard Drive Enclosure (88TB"
         ],
         [
-          "Around $219.00",
+          "Under $250",
           "QNAP TR-004 4-Bay USB-C DAS with Hardware RAID (Diskless)"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "Sabrent 4-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC4B)"
         ],
         [
-          "Around $239.99",
+          "Under $250",
           "TerraMaster D6-320 6-Bay USB DAS Enclosure (Diskless)"
         ]
       ]
@@ -276,10 +276,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "TerraMaster D2-320 2-Bay USB RAID Enclosure (Diskless) is aimed at buyers prioritizing 2-bay, hardware raid 0/1/jbod/single, at $103.99."
+        "text": "TerraMaster D2-320 2-Bay USB RAID Enclosure (Diskless) is aimed at buyers prioritizing 2-bay, hardware raid 0/1/jbod/single, at under $110."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -331,7 +331,7 @@ export const faq = [
     "a": "Only if the specific enclosure documents hot-swap support, which most tool-free tray designs in this category do. Always check your specific product's hot-swap capability before removing a drive live, since not every budget enclosure supports it, especially some fixed-RAID-mode units."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Sabrent 4-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC4B) is aimed at buyers prioritizing 4x 3.5in bays, 10gbps usb-c." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Sabrent 4-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC4B) is aimed at buyers prioritizing 4x 3.5in bays, 10gbps usb-c." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-hpe-das-storage","title":"Best HPE DAS Storage in 2026"},{"href":"/guide/best-dell-das-storage","title":"Best Dell DAS Storage in 2026"},{"href":"/guide/best-sas-das-storage","title":"6 Best SAS DAS Storage Solutions"}];

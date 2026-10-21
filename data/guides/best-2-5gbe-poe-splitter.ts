@@ -29,7 +29,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0CWNXZKFG?tag=deskfinds0d-20",
     description: "This splitter's listing specifically states a 5.5x2.5mm DC plug compatible with both 5.5x2.5mm and 5.5x2.1mm devices, delivering 12V/2A (24W) output at full 2.5Gbps speed, the most common voltage and connector combination for standard IP cameras. Its multiple protection features include isolation circuit, short-circuit, and overvoltage protection.\n\nCompared to the USB-based picks below, this one's standard DC barrel connector and 12V output cover the majority of typical non-PoE IP camera and access point conversion needs at the lowest price in this comparison.\n\nBest for buyers who want the most common 12V DC output at full 2.5Gbps speed for a standard IP camera.",
     specs: ["12V/2A (24W), dual DC plug compatibility", "2.5Gbps Ethernet speed", "Isolation, short-circuit, overvoltage protection"],
-    pros: ["Lowest price in this comparison at $13.89", "Dual DC plug compatibility covers more device connector sizes", "Full 2.5Gbps speed at a budget-friendly price"],
+    pros: ["Lowest price in this comparison at under $15", "Dual DC plug compatibility covers more device connector sizes", "Full 2.5Gbps speed at a budget-friendly price"],
     cons: ["24W ceiling may not suit higher-power devices", "DC port delivers power only, not combined with data on that connector"],
     bestFor: "buyers who want the most common 12V DC output at full 2.5Gbps speed",
   },
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0G4CBYJQY?tag=deskfinds0d-20",
     description: "This splitter's listing specifically states a 24V/1A (24W) output through a 5.5x2.1mm DC plug, targeting devices like wireless bridges and access points that specifically run on 24V rather than the more common 12V, while maintaining the same full 2.5Gbps speed as the 12V pick above. Its auto-detect function automatically delivers the right power for the connected terminal device.\n\nCompared to the 12V pick above, this one fills the 24V niche at the identical price and speed, useful specifically when your device's power specification calls for 24V rather than 12V.\n\nBest for buyers with a 24V wireless bridge or access point who want full 2.5Gbps speed.",
     specs: ["24V/1A (24W), 5.5x2.1mm DC plug", "2.5Gbps Ethernet speed", "Isolation, short-circuit, overvoltage protection"],
-    pros: ["Same low price as the 12V pick at $13.89", "Specifically fills the 24V niche most competitors don't address", "Full 2.5Gbps speed matches the 12V pick's performance"],
+    pros: ["Same low price as the 12V pick at under $15", "Specifically fills the 24V niche most competitors don't address", "Full 2.5Gbps speed matches the 12V pick's performance"],
     cons: ["Only suits 24V devices, not compatible with standard 12V equipment", "24W ceiling limits higher-power 24V device compatibility"],
     bestFor: "buyers with a 24V wireless bridge or access point who want full 2.5Gbps speed",
   },
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "This splitter's listing specifically states a tiered output depending on your PoE source: 12W on standard 802.3af, but up to 20W (5.2V/4A) on 802.3at or the manufacturer's non-standard 48-52V passive PoE, delivered through a USB Type-A female port suited to tablets and other standard USB-A devices. This transparent tiered disclosure helps set correct power expectations based on your exact PoE source.\n\nCompared to the USB-C pick above, this one's USB-A connector specifically fits tablets and other standard USB-A powered devices rather than the newer USB-C standard.\n\nBest for buyers with a USB-A powered tablet or device who want tiered power scaling with their PoE source.",
     specs: ["USB-A female, 12W (802.3af) or 20W (802.3at)", "2.5Gbps Ethernet speed", "Requires PoE switch, midspan, or 48-52V injector"],
     pros: ["Transparent tiered power disclosure based on your exact PoE source", "USB-A connector fits tablets and standard USB-A devices", "2.5Gbps speed matches the other picks in this comparison"],
-    cons: ["Highest price in this comparison at $16.99", "Full 20W output requires 802.3at or the manufacturer's specific passive PoE source"],
+    cons: ["Highest price in this comparison at under $20", "Full 20W output requires 802.3at or the manufacturer's specific passive PoE source"],
     bestFor: "buyers with a USB-A powered tablet who want tiered power scaling with their PoE source",
   }
 ];
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Standard 12V DC (most IP cameras)", "REVODATA 2.5G PoE Splitter 12V/2A"],
         ["24V DC (wireless bridges, access points)", "REVODATA 2.5G PoE Splitter 24V/1A"],
         ["USB-C 5V (Raspberry Pi 4B/4B+)", "REVODATA 2.5G Type C PoE Splitter 5V/4A"],
-        ["USB-A 5V (tablets, standard USB devices)", "DSLRKIT 2.5G Gigabit Active PoE Splitter, USB Type A"],
+        ["USB-A 5V (tablets, standard USB devices)", "DSLRKIT 2.5G Gigabit Active PoE Splitter, USB Type A"]
       ],
     },
   },
@@ -109,9 +109,9 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $14", "REVODATA 12V/2A or 24V/1A (both $13.89)"],
-        ["Under $16", "REVODATA 2.5G Type C 5V/4A ($15.29)"],
-        ["Under $17", "DSLRKIT USB Type A ($16.99)"],
+        ["Under $14", "REVODATA 12V/2A or 24V/1A (both under $15)"],
+        ["Under $16", "REVODATA 2.5G Type C 5V/4A (under $20)"],
+        ["Under $17", "DSLRKIT USB Type A (under $20)"]
       ],
     },
   },
@@ -119,7 +119,7 @@ export const howToChoose = [
     subheading: "DC Voltage Splitters vs USB Connector Splitters",
     cards: [
       { label: "DC voltage splitters (12V, 24V)", text: "Both use a standard DC barrel connector for cameras, bridges, and access points, the most common non-PoE device category." },
-      { label: "USB connector splitters (USB-C, USB-A)", text: "Both charge modern USB-powered devices like a Raspberry Pi or tablet, a genuinely different device category than DC-barrel cameras." },
+      { label: "USB connector splitters (USB-C, USB-A)", text: "Both charge modern USB-powered devices like a Raspberry Pi or tablet, a genuinely different device category than DC-barrel cameras." }
     ],
     note: "If you're converting a camera or access point, the DC voltage picks match that device category directly. If you're powering a Raspberry Pi or tablet, the USB-C or USB-A picks match those devices' actual charging ports.",
   },
@@ -130,7 +130,7 @@ export const howToChoose = [
       rows: [
         ["Standard 802.3af/at PoE switch", "Any pick in this comparison works with standard sources"],
         ["Non-standard 48-52V passive PoE", "DSLRKIT USB Type A (specifically supports this at full 20W)"],
-        ["Unsure of exact PoE standard", "REVODATA picks work at their rated output on either af or at"],
+        ["Unsure of exact PoE standard", "REVODATA picks work at their rated output on either af or at"]
       ],
     },
   },
@@ -138,16 +138,16 @@ export const howToChoose = [
     subheading: "For a Multi-Device Smart Home Setup Specifically",
     cards: [
       { label: "Look for", text: "The exact connector type and voltage matching each specific device you're converting, since a smart home setup often includes a genuine mix of DC-barrel cameras, USB-C smart devices, and USB-A gadgets that each need different splitters." },
-      { label: "In this comparison", text: "The four picks together cover the four most common non-PoE device connector types, letting you match each device to its correct splitter." },
+      { label: "In this comparison", text: "The four picks together cover the four most common non-PoE device connector types, letting you match each device to its correct splitter." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You're powering a Raspberry Pi 4B/4B+ and need both 2.5Gbps speed and higher 4A amperage, where the REVODATA Type C pick's $15.29 price is justified by that specific combination." },
-      { label: "Save if", text: "You just need standard 12V or 24V DC output for a camera or bridge, where the REVODATA DC picks deliver that for $13.89, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You're powering a Raspberry Pi 4B/4B+ and need both 2.5Gbps speed and higher 4A amperage, where the REVODATA Type C pick's under $20 price is justified by that specific combination." },
+      { label: "Save if", text: "You just need standard 12V or 24V DC output for a camera or bridge, where the REVODATA DC picks deliver that for under $15, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

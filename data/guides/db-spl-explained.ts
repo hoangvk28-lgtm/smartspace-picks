@@ -12,7 +12,7 @@ export const dbSplExplainedGuide: Guide = {
     "what is db spl",
     "sound pressure level headphones",
     "speaker db rating meaning",
-    "how loud is 100db spl",
+    "how loud is 100db spl"
   ],
   heroImage: "https://images.unsplash.com/photo-1702047135360-e549c2e1f7df?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1702047135360-e549c2e1f7df?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const dbSplExplainedGuide: Guide = {
     "headphone-impedance-chart",
     "studio-monitors-vs-regular-speakers",
     "open-back-vs-closed-back-headphones",
-    "latency-explained",
+    "latency-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const dbSplExplainedGuide: Guide = {
       question: "How is dB SPL different from decibels used for microphones?",
       answer:
         "The underlying decibel scale is the same logarithmic unit, but the context differs: SPL describes how loud output sound is, while a microphone's dB SPL rating (often listed as max SPL) describes the loudest input sound the mic can handle before distorting.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ export const dbSplExplainedGuide: Guide = {
     {
       heading: "Why This Matters When Buying Audio Gear",
       body: `If you're buying headphones to use directly from a phone or laptop without a dedicated amplifier, check the sensitivity spec, since low-sensitivity, high-impedance headphones designed for dedicated amp setups may sound noticeably quieter from a phone than the same volume setting on amplified gear. For general listening safety, most modern devices cap output well below dangerous SPL levels, but sustained listening near maximum volume on any device is worth moderating over long sessions.`,
-    },
+    }
   ],
 };

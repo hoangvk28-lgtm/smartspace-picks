@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "GIANTEX Ergonomic Kneeling Chair for Office, Knee Stool Chair w/Adjustable Height and Seat and is built around ergonomic seating option, positioning it for under 90 buyers specifically.\n\nFlexible Height Adjustment is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 90, though as with any ergonomic furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Ergonomic Seating Option","Flexible Height Adjustment","Comfortable Cushions"],
     pros: ["Ergonomic Seating Option, confirmed directly in the listing's own spec details","Flexible Height Adjustment, confirmed directly in the listing's own spec details","Comfortable Cushions, confirmed directly in the listing's own spec details"],
-    cons: ["At $79.99, worth comparing against similarly specced kneeling chairs before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $80, worth comparing against similarly specced kneeling chairs before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 90",
   },
   {
@@ -126,7 +126,7 @@ export const products: GuideProduct[] = [
     description: "Cross Legged Office Chair, Ergonomic Cloud Criss Cross Desk Chair, Meditation Chair and is built around transform your sitting experience, positioning it for under 90 buyers specifically.\n\nLeg-Friendly Design is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 90, though as with any ergonomic furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Transform Your Sitting Experience","Leg-Friendly Design","Cloud-Soft Comfort"],
     pros: ["Transform Your Sitting Experience, confirmed directly in the listing's own spec details","Leg-Friendly Design, confirmed directly in the listing's own spec details","Cloud-Soft Comfort, confirmed directly in the listing's own spec details"],
-    cons: ["At $68.39, worth comparing against similarly specced kneeling chairs before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $70, worth comparing against similarly specced kneeling chairs before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 90",
   }
 

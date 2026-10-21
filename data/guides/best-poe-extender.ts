@@ -77,7 +77,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0BVR3C92S?tag=deskfinds0d-20",
     description: "This extender's listing specifically states it powers up to three separate PoE devices from a single input, with VLAN isolation on all four ports to prevent data leakage between connected devices, a genuinely useful multi-device and security feature at this price point. Its 3-level cascade support reaches up to 1312ft total distance while requiring no local power supply.\n\nCompared to the Intellinet, TRENDnet, and WAVLINK picks above, this one's ability to power three devices from one unit, rather than just one, delivers meaningfully more value per dollar for a typical small installation with multiple nearby devices.\n\nBest for buyers who want to power multiple devices from one extender at the lowest price in this comparison.",
     specs: ["1 in 3 out, powers 3 separate devices", "VLAN isolation, 3-level cascade to 1312ft", "IEEE 802.3af/at, no local power required"],
-    pros: ["Lowest price in this comparison at $26.98", "Powers three separate devices from a single extender unit", "VLAN isolation on all ports improves network security"],
+    pros: ["Lowest price in this comparison at under $30", "Powers three separate devices from a single extender unit", "VLAN isolation on all ports improves network security"],
     cons: ["No outdoor waterproof rating unlike the WAVLINK pick", "Standard 1-year warranty, shorter than the TRENDnet pick's 3-year coverage"],
     bestFor: "buyers who want to power multiple devices from one extender at the lowest price",
   }
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["The most detailed power documentation and longest chain", "Intellinet Gigabit PoE+ Extender, 1-Port"],
         ["The longest warranty, or NDAA compliance", "TRENDnet Gigabit PoE+ Extender (TPE-E100)"],
         ["A genuinely outdoor or industrial installation", "WAVLINK IP67 Outdoor Gigabit PoE Extender"],
-        ["To power multiple devices at the lowest price", "YuanLey 4 Port PoE Extender Gigabit"],
+        ["To power multiple devices at the lowest price", "YuanLey 4 Port PoE Extender Gigabit"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $27", "YuanLey 4 Port PoE Extender ($26.98)"],
-        ["Under $39", "TRENDnet TPE-E100 ($38.01)"],
-        ["Under $40", "WAVLINK IP67 Outdoor Extender ($39.99)"],
-        ["Under $60", "Intellinet 1-Port Extender ($59.59)"],
+        ["Under $27", "YuanLey 4 Port PoE Extender (under $30)"],
+        ["Under $39", "TRENDnet TPE-E100 (under $40)"],
+        ["Under $40", "WAVLINK IP67 Outdoor Extender (under $40)"],
+        ["Under $60", "Intellinet 1-Port Extender (under $60)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Maximum Daisy-Chain Distance vs Outdoor Durability",
     cards: [
       { label: "Maximum distance (Intellinet)", text: "Supports up to five daisy-chained units for a total of 1968ft, the longest documented range in this comparison, but without an outdoor waterproof rating." },
-      { label: "Outdoor durability (WAVLINK)", text: "IP67-rated with fully enclosed, waterproof-capped ports, built for genuinely harsh outdoor and industrial environments, though its 2-unit chain covers less total distance." },
+      { label: "Outdoor durability (WAVLINK)", text: "IP67-rated with fully enclosed, waterproof-capped ports, built for genuinely harsh outdoor and industrial environments, though its 2-unit chain covers less total distance." }
     ],
     note: "If you need to reach the greatest possible distance indoors, the Intellinet's 5-unit chain support is the strongest option. If your installation is genuinely outdoors or in an industrial setting, the WAVLINK's IP67 rating is the more important factor.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["One device, maximum distance", "Intellinet Gigabit PoE+ Extender, 1-Port"],
         ["One device, outdoor installation", "WAVLINK IP67 Outdoor Gigabit PoE Extender"],
-        ["Two or three nearby devices", "YuanLey 4 Port PoE Extender Gigabit"],
+        ["Two or three nearby devices", "YuanLey 4 Port PoE Extender Gigabit"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For a Government or Institutional Deployment Specifically",
     cards: [
       { label: "Look for", text: "NDAA compliance if your organization is subject to federal procurement rules restricting networking hardware from certain manufacturers." },
-      { label: "In this comparison", text: "The TRENDnet TPE-E100 specifically states NDAA compliance for US and Canada deployments, making it the clear choice for institutional buyers with that requirement." },
+      { label: "In this comparison", text: "The TRENDnet TPE-E100 specifically states NDAA compliance for US and Canada deployments, making it the clear choice for institutional buyers with that requirement." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You need the most detailed power documentation and the longest possible daisy-chain distance, where the Intellinet's $59.59 price is justified by that level of disclosure and reach." },
-      { label: "Save if", text: "You want to power multiple nearby devices from one extender, where the YuanLey pick delivers that for $26.98, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You need the most detailed power documentation and the longest possible daisy-chain distance, where the Intellinet's under $60 price is justified by that level of disclosure and reach." },
+      { label: "Save if", text: "You want to power multiple nearby devices from one extender, where the YuanLey pick delivers that for under $30, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

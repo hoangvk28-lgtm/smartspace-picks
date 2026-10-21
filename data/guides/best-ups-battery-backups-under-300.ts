@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Genuine pure sine wave output for sensitive electronics", "APC UPS Pure Sine Wave, BR1500MS2"],
         ["The highest wattage rating and documented warranty", "CyberPower CP1500PFCLCD PFC Sinewave"],
         ["Near-top capacity and data line protection at a lower price", "APC UPS Battery Backup, BX1500M"],
-        ["The most outlets and USB charging at the lowest price", "CyberPower CP1500AVRLCD3 Intelligent LCD UPS"],
+        ["The most outlets and USB charging at the lowest price", "CyberPower CP1500AVRLCD3 Intelligent LCD UPS"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $190", "APC BX1500M ($189.99)"],
-        ["Under $200", "CyberPower CP1500AVRLCD3 ($199.95)"],
-        ["Under $240", "CyberPower CP1500PFCLCD ($239.95)"],
-        ["Under $300", "APC BR1500MS2 Pure Sine Wave ($299.99)"],
+        ["Under $190", "APC BX1500M (under $190)"],
+        ["Under $200", "CyberPower CP1500AVRLCD3 (under $200)"],
+        ["Under $240", "CyberPower CP1500PFCLCD (under $250)"],
+        ["Under $300", "APC BR1500MS2 Pure Sine Wave (under $300)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Pure Sine Wave vs PFC Sinewave vs Simulated Sine Wave",
     cards: [
       { label: "Pure sine wave (APC BR1500MS2)", text: "Delivers the cleanest possible waveform, ideal for protecting sensitive modern electronics from subtle long-term damage." },
-      { label: "PFC sinewave / simulated (CP1500PFCLCD, BX1500M, CP1500AVRLCD3)", text: "Works well for most standard and active-PFC-compatible devices, at a lower price than genuine pure sine wave." },
+      { label: "PFC sinewave / simulated (CP1500PFCLCD, BX1500M, CP1500AVRLCD3)", text: "Works well for most standard and active-PFC-compatible devices, at a lower price than genuine pure sine wave." }
     ],
     note: "If you're protecting genuinely sensitive or high-end electronics long-term, the pure sine wave APC pick offers real waveform quality assurance. For most standard setups, PFC sinewave or simulated output performs perfectly well at a lower price.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your connection type", "Recommended pick"],
       rows: [
         ["Coax and Ethernet connections to protect", "APC BR1500MS2 or APC BX1500M"],
-        ["No wired data lines needing protection", "CyberPower CP1500PFCLCD or CP1500AVRLCD3"],
+        ["No wired data lines needing protection", "CyberPower CP1500PFCLCD or CP1500AVRLCD3"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Protecting High-End, Sensitive Home Office Equipment Specifically",
     cards: [
       { label: "Look for", text: "Genuine pure sine wave output, not just PFC-compatible or simulated sine wave, for the cleanest possible power delivery." },
-      { label: "In this comparison", text: "The APC BR1500MS2 is the only pick here explicitly delivering pure sine wave output." },
+      { label: "In this comparison", text: "The APC BR1500MS2 is the only pick here explicitly delivering pure sine wave output." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want genuine pure sine wave output and built-in coax/Ethernet protection for sensitive modern electronics, where the APC BR1500MS2 leads this comparison on both fronts." },
-      { label: "Save if", text: "You want near-top capacity and data line protection without pure sine wave output, where the APC BX1500M delivers that for about $110 less." },
+      { label: "Save if", text: "You want near-top capacity and data line protection without pure sine wave output, where the APC BX1500M delivers that for about $110 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

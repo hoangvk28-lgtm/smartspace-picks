@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable A4 file boxes";
 export const introParagraphs = [
   "A4 is a common international paper size (210 x 297mm), distinct from US letter sizing (8.5 x 11 inches, or 216 x 279mm), a subtle but real dimensional difference. This guide is for international buyers or anyone using A4 as their standard document size, and we verified whether each pick is genuinely A4-dimensioned or simply a US letter-size box marketed loosely as 'A4 compatible' despite the minor size mismatch.",
-  "We also noted that A4-specific hanging folders may need to be sourced from different suppliers depending on your region, a practical consideration beyond the box itself.",
+  "We also noted that A4-specific hanging folders may need to be sourced from different suppliers depending on your region, a practical consideration beyond the box itself."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine A4 vs. US letter dimension verification", description: "We honestly disclosed that we found no purpose-built A4-specific file boxes in this research; every pick here is US letter-sized, marketed loosely or not at all as A4 compatible." },
   { title: "Realistic fit assessment for A4 documents", description: "We favored larger-capacity US boxes as having the best realistic chance of accommodating A4's slightly different dimensions, while being explicit this isn't a precise fit." },
   { title: "A4 hanging folder sourcing consideration", description: "We noted that A4-specific hanging folders may need to be sourced from different regional suppliers than US letter/legal folders." },
-  { title: "Regional availability honesty", description: "We addressed the practical reality that genuinely A4-dimensioned portable file boxes are not widely available through this research's product pool." },
+  { title: "Regional availability honesty", description: "We addressed the practical reality that genuinely A4-dimensioned portable file boxes are not widely available through this research's product pool." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -224,11 +224,11 @@ export const faq: FaqItem[] = [
   { q: "Will my A4 documents fit in a US letter-size box?", a: "Likely with some looseness given A4's slightly different dimensions (210 x 297mm vs. US letter's 216 x 279mm). A larger-capacity box, like the IRIS USA 35 Qt pick, offers the best realistic chance of a workable fit." },
   { q: "Where can I find genuinely A4-dimensioned file boxes?", a: "Consider sourcing from a local office supply retailer in an A4-standard region, since this US-focused research didn't identify a purpose-built A4 option." },
   { q: "Will A4 hanging folders fit these boxes?", a: "This depends on the specific folder and box dimensions. A4-specific hanging folders may need to be sourced from a different regional supplier than US letter/legal folders." },
-  { q: "Is a soft-sided tote better than a rigid box for A4 documents?", a: "It can be more forgiving of minor dimensional mismatches due to its semi-flexible frame, though it offers less structural protection overall than a rigid box." },
+  { q: "Is a soft-sided tote better than a rigid box for A4 documents?", a: "It can be more forgiving of minor dimensional mismatches due to its semi-flexible frame, though it offers less structural protection overall than a rigid box." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-letter-size-portable-file-boxes", title: "Best Letter-Size Portable File Boxes (2026)" },
   { href: "/guide/best-portable-file-boxes-for-legal-size-documents", title: "Best Portable File Boxes for Legal-Size Documents (2026)" },
-  { href: "/guide/best-large-portable-file-boxes", title: "Best Large Portable File Boxes (2026)" },
+  { href: "/guide/best-large-portable-file-boxes", title: "Best Large Portable File Boxes (2026)" }
 ];

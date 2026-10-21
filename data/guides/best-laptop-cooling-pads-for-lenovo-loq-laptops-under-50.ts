@@ -155,7 +155,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The lowest price with confirmed LOQ-size compatibility", "ICE COOREL Gaming Laptop Cooling Pad"],
         ["The highest fan count for maximum airflow", "Gaming Laptop Cooling Pad, 11 High Speed Turbo Fans"],
         ["A recognized brand with console compatibility", "KLIM Ultimate RGB Laptop Cooling Pad"],
-        ["A stated RPM spec and phone holder", "AICHESON RGB Laptop Cooling Pad, 140mm Fan"],
+        ["A stated RPM spec and phone holder", "AICHESON RGB Laptop Cooling Pad, 140mm Fan"]
       ],
     },
   },
@@ -164,8 +164,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $35", "ICE COOREL ($27.99), ChillCore ($31.98), or AFI ($34.98)"],
-        ["$39 to $50", "11-Fan pick ($38.99), KLIM ($44.97), or AICHESON ($49.99)"],
+        ["Under $35", "ICE COOREL (under $30), ChillCore (under $35), or AFI (under $35)"],
+        ["$39 to $50", "11-Fan pick (under $40), KLIM (under $45), or AICHESON (under $50)"]
       ],
     },
   },
@@ -179,7 +179,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "One large 140mm fan (AICHESON)",
         text: "Moves significant air per rotation from a single position, with a stated exact RPM range for direct comparison, but may not evenly reach vents spread across the laptop's underside.",
-      },
+      }
     ],
     note: "Check your specific LOQ model's vent placement (commonly along the rear and sides): if vents are spread widely, a multi-fan pad likely cools more evenly than a single large fan.",
   },
@@ -189,7 +189,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Priority", "Recommended pick"],
       rows: [
         ["Moderate fan count, lower price", "ICE COOREL (6 fans) or AFI (5 fans)"],
-        ["Higher fan count for maximum theoretical airflow", "ChillCore (9 fans) or the 11-fan pick"],
+        ["Higher fan count for maximum theoretical airflow", "ChillCore (9 fans) or the 11-fan pick"]
       ],
     },
   },
@@ -203,7 +203,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "KLIM is the only pick here that explicitly names PS5, PS4, and Xbox One compatibility alongside standard laptop use.",
-      },
+      }
     ],
   },
   {
@@ -211,14 +211,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You want the highest fan count or a stated RPM spec for direct comparison: the 11-fan pick ($38.99) or AICHESON ($49.99) both provide concrete, comparable numbers.",
+        text: "You want the highest fan count or a stated RPM spec for direct comparison: the 11-fan pick (under $40) or AICHESON (under $50) both provide concrete, comparable numbers.",
       },
       {
         label: "Save if",
-        text: "You just need confirmed size compatibility and basic cooling: ICE COOREL ($27.99) covers that core need at the lowest price here.",
-      },
+        text: "You just need confirmed size compatibility and basic cooling: ICE COOREL (under $30) covers that core need at the lowest price here.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -273,5 +273,5 @@ export const faq = [
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-cooling-pads-under-50", title: "Best Laptop Cooling Pads Under $50" },
-  { href: "/guide/best-budget-laptop-cooling-pads", title: "Best Budget Laptop Cooling Pads" },
+  { href: "/guide/best-budget-laptop-cooling-pads", title: "Best Budget Laptop Cooling Pads" }
 ];

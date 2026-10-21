@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41wIe7KK-mL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H4HKMBB4?tag=deskfinds0d-20",
-    description: "This is Sandisk's faster 500GB model in this comparison, rated at up to 1000MB/s read, close to the SSK pick's speed while carrying the same brand recognition as the cheaper Sandisk pick above. It states the same 2-meter drop protection figure and USB-C plug-and-play setup, positioning itself as the higher-speed step up within Sandisk's own lineup at this capacity.\n\nAt the same $99.99 price as the nusyn 1TB pick, the tradeoff here is capacity versus brand familiarity, this drive holds half the storage but comes from a more established name with a longer public track record. For buyers who've had reliability concerns with less familiar brands, that tradeoff can be worth it even at half the capacity.\n\nBest for buyers who specifically want Sandisk's faster 500GB model and are comfortable trading capacity for a more established brand name at the same price as the 1TB top pick.",
+    description: "This is Sandisk's faster 500GB model in this comparison, rated at up to 1000MB/s read, close to the SSK pick's speed while carrying the same brand recognition as the cheaper Sandisk pick above. It states the same 2-meter drop protection figure and USB-C plug-and-play setup, positioning itself as the higher-speed step up within Sandisk's own lineup at this capacity.\n\nAt the same under $100 price as the nusyn 1TB pick, the tradeoff here is capacity versus brand familiarity, this drive holds half the storage but comes from a more established name with a longer public track record. For buyers who've had reliability concerns with less familiar brands, that tradeoff can be worth it even at half the capacity.\n\nBest for buyers who specifically want Sandisk's faster 500GB model and are comfortable trading capacity for a more established brand name at the same price as the 1TB top pick.",
     specs: ["500GB capacity, up to 1000MB/s read", "2-meter drop protection, no moving parts", "USB-C ready, pocket-sized design"],
     pros: ["Faster than Sandisk's cheaper 500GB model in this comparison", "Established brand name at the same price as the 1TB pick", "Stated 2-meter drop protection figure"],
     cons: ["Half the capacity of the nusyn 1TB pick at the same price", "Not a meaningful speed advantage over the SSK 500GB pick"],
@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["A full 1TB at the lowest possible price", "nusyn NSU53 1TB External SSD"],
         ["Documented health monitoring and thermal specs", "SSK Portable SSD 500GB"],
-        ["An established brand name at the lowest price", "Sandisk 500GB Portable Drive"],
+        ["An established brand name at the lowest price", "Sandisk 500GB Portable Drive"]
       ],
     },
   },
@@ -116,9 +116,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $90", "Sandisk 500GB Portable Drive ($89.99)"],
-        ["$90-$95", "SSK Portable SSD 500GB ($92.99)"],
-        ["$95-$100", "nusyn NSU53 1TB External SSD or Sandisk 500GB Portable SSD, New Model ($99.99)"],
+        ["Under $90", "Sandisk 500GB Portable Drive (under $90)"],
+        ["$90-$95", "SSK Portable SSD 500GB (under $100)"],
+        ["$95-$100", "nusyn NSU53 1TB External SSD or Sandisk 500GB Portable SSD, New Model (under $100)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "500GB vs 1TB",
     cards: [
       { label: "500GB (SSK, both Sandisk picks)", text: "Comfortable for photos, documents, and moderate video, backed by established brands and documented specs in this comparison. Best if brand familiarity or documented health monitoring matters more than raw space." },
-      { label: "1TB (nusyn)", text: "Double the room at essentially the same price, the better default for anyone regularly working with 4K video or large game files. Best if capacity is the deciding factor over brand history." },
+      { label: "1TB (nusyn)", text: "Double the room at essentially the same price, the better default for anyone regularly working with 4K video or large game files. Best if capacity is the deciding factor over brand history." }
     ],
     note: "Most buyers should default to the nusyn 1TB pick for the capacity-per-dollar advantage unless brand track record specifically matters more to you.",
   },
@@ -136,7 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Priority", "Recommended pick"],
       rows: [
         ["Fastest rated speed in this comparison", "SSK Portable SSD 500GB or nusyn NSU53 1TB External SSD (both up to 1050MB/s)"],
-        ["Lowest price, speed less critical", "Sandisk 500GB Portable Drive (600MB/s)"],
+        ["Lowest price, speed less critical", "Sandisk 500GB Portable Drive (600MB/s)"]
       ],
     },
   },
@@ -144,16 +144,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For 4K Video Offloading Specifically",
     cards: [
       { label: "Look for", text: "A listing that explicitly names iPhone ProRes or 4K video support and a capacity that comfortably fits a full shoot, not just a fast MB/s number in isolation." },
-      { label: "In this comparison", text: "The nusyn NSU53 1TB External SSD combines the largest capacity with explicit iPhone 15+ and PS4/PS5 4K support, making it the clearest fit for video-heavy workflows." },
+      { label: "In this comparison", text: "The nusyn NSU53 1TB External SSD combines the largest capacity with explicit iPhone 15+ and PS4/PS5 4K support, making it the clearest fit for video-heavy workflows." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want documented S.M.A.R.T. and TRIM support alongside a full 1TB, which typically requires stepping up past $100 to something like a Samsung T7 or SSK 1TB model rather than staying at this exact price ceiling." },
-      { label: "Save if", text: "500GB is genuinely enough for your files, where the Sandisk 500GB Portable Drive covers the need for under $90 without paying for capacity you won't use." },
+      { label: "Save if", text: "500GB is genuinely enough for your files, where the Sandisk 500GB Portable Drive covers the need for under $90 without paying for capacity you won't use." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

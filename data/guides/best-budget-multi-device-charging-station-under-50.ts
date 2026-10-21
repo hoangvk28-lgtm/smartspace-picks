@@ -125,7 +125,7 @@ export const products: MultiCharger[] = [
     skipIf: "You only need to charge devices and don't need USB 3.0 data transfer. One of the first four picks gives more charging value.",
     pros: ["USB 3.0 data hub + charging in one unit", "Individual switches + LED per port", "Works with PC, Mac, Xbox, PS5", "60W adapter included", "Best if you need data expansion too"],
     cons: ["Only 3 dedicated charging ports", "Most expensive pick ($45–$50)", "Overkill for charging-only use"],
-  },
+  }
 ];
 
 export const faq = [
@@ -144,12 +144,12 @@ export const faq = [
   {
     q: "How many watts does an iPhone need to fast charge?",
     a: "iPhone 12 and later fast charges at 20W via USB-C PD. With a 20W adapter and USB-C cable, you go from 0–50% in about 30 minutes. Any station with a 20W+ USB-C PD port achieves this.",
-  },
+  }
 ];
 
 export const relatedGuides = [
   { title: "7 Best Budget USB Charging Stations Under $30", href: "/guide/best-budget-usb-charging-station-under-30" },
   { title: "5 Best Budget Apple 3-in-1 Charging Stations Under $40", href: "/guide/best-budget-apple-3-in-1-charging-station-under-40" },
   { title: "USB-C Hub vs Docking Station", href: "/compare/usb-c-hub-vs-docking-station" },
-  { title: "Desk Setup Essentials", href: "/guide/desk-setup-essentials" },
+  { title: "Desk Setup Essentials", href: "/guide/desk-setup-essentials" }
 ];

@@ -5,7 +5,7 @@ export const metaDescription = "5 KVM switches for Mac Mini we evaluated, with a
 export const mainKeyword = "kvm switch for mac mini";
 export const introParagraphs = [
   "Mac Mini's rear-facing ports make cable routing through a KVM switch more visible on a desk than a laptop's side or rear ports typically are, worth planning your desk layout so the switch and its cables don't create visual clutter behind an otherwise clean Mac Mini setup.",
-  "Mac Mini's external display support varies by chip generation just like MacBook, the base M-series Mac Mini has historically supported fewer simultaneous external displays than the Pro variant, worth confirming your specific Mac Mini model's display limit before buying a multi-monitor switch.",
+  "Mac Mini's external display support varies by chip generation just like MacBook, the base M-series Mac Mini has historically supported fewer simultaneous external displays than the Pro variant, worth confirming your specific Mac Mini model's display limit before buying a multi-monitor switch."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     badge: "Best KVM Switch for Mac Mini Overall",
     name: "UGREEN HDMI KVM Switch 1 Monitor 2 Computers, 8K@60Hz, Aluminum",
     price: "$64.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41K5Wvne7oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFFCPL26?tag=deskfinds0d-20",
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Monitor Pick for Mac Mini",
     name: "UGREEN HDMI KVM Switch 2 Monitors 2 Computers 4K@60Hz, with 4 USB 3.0 Ports",
     price: "$69.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41ZrB2w7oOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXF66SWR?tag=deskfinds0d-20",
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     badge: "Best Multi-Monitor Pick for Mac Mini",
     name: "UGREEN 8K@60Hz HDMI Displayport KVM Switch 3 Monitors 2 Computers, Aluminum",
     price: "$92.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41r-g4mzwpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G34NJ11Y?tag=deskfinds0d-20",
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick for Mac Mini",
     name: "USB3.0 KVM Switch 2 Port HDMI, 4K@60Hz KVM Switch 1 Monitors 2 Computers with 3 USB3.0 Ports",
     price: "$32.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41uSOQO2ILL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFVBK4XQ?tag=deskfinds0d-20",
@@ -89,7 +89,7 @@ export const products: GuideProduct[] = [
     badge: "Best Ultra-Budget Pick for Mac Mini",
     name: "Hearvo USB 3.0 HDMI KVM Switch for 2 Computers 1 Monitor, 4K@60Hz, S7232H",
     price: "$26.23",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41ll9M3dnWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5D4FK1H?tag=deskfinds0d-20",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Cable routing and desk visibility considered for Mac Mini's rear ports", description: "Considered that Mac Mini's rear-facing ports make cable routing through a KVM switch more visible on a desk than a laptop's side ports typically are." },
   { title: "Chip-generation external display limits flagged for Mac Mini specifically", description: "Flagged that Mac Mini's external display support varies by chip generation, with the base M-series model historically supporting fewer displays than the Pro variant." },
   { title: "Aesthetic and build quality weighed for a visible desk companion", description: "Weighed build quality and aesthetics more heavily given a Mac Mini KVM switch typically sits visibly on the desk alongside the compact Mini itself." },
-  { title: "EDID emulation checked for Mac Mini's specific display scaling behavior", description: "Checked whether EDID emulation is confirmed to work correctly on Mac Mini specifically, given macOS's distinct external display scaling system." },
+  { title: "EDID emulation checked for Mac Mini's specific display scaling behavior", description: "Checked whether EDID emulation is confirmed to work correctly on Mac Mini specifically, given macOS's distinct external display scaling system." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -227,11 +227,11 @@ export const faq: FaqItem[] = [
   { q: "Does EDID emulation work the same on Mac Mini as MacBook?", a: "It should behave similarly since both run macOS, but verify this is confirmed for your specific switch through current reviews." },
   { q: "Is a budget KVM switch good enough for a Mac Mini setup?", a: "For basic needs, yes, but verify EDID emulation and your Mac Mini's external display limit regardless of price." },
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "Mac Mini buyers wanting a high-resolution-ceiling switch with reliable, aesthetically matching build quality" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious Mac Mini buyers wanting the most affordable simple KVM switch At $26.23, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious Mac Mini buyers wanting the most affordable simple KVM switch At under $30, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-kvm-switches-for-mac", title: "Best KVM Switches for Mac (2026)" },
   { href: "/guide/best-kvm-switches-for-mac-and-pc", title: "Best KVM Switches for Mac and PC (2026)" },
-  { href: "/guide/best-hdmi-kvm-switches", title: "Best HDMI KVM Switches (2026)" },
+  { href: "/guide/best-hdmi-kvm-switches", title: "Best HDMI KVM Switches (2026)" }
 ];

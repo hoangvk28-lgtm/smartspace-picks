@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The highest stated weight capacity", "Mellow Naturalista Classic 12 Inch Solid Wood Platform Bed"],
         ["Built-in charging, storage, and LED lighting", "UHTN Queen Bed Frame with 2 Storage Drawers"],
         ["A sustainably sourced bamboo material", "Zinus 14 Inch Ellie Bamboo Platform Bed Frame"],
-        ["An industrial-style frame with maximum clearance", "SHA CERLIN 14 Inch Metal Platform Bed Frame"],
+        ["An industrial-style frame with maximum clearance", "SHA CERLIN 14 Inch Metal Platform Bed Frame"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $127", "SHA CERLIN ($126.01)"],
-        ["Under $130", "UHTN with Storage Drawers ($129.99)"],
-        ["Under $145", "Zinus Ellie Bamboo ($144.99)"],
-        ["Under $150", "Mellow Naturalista Classic ($149.99)"],
+        ["Under $127", "SHA CERLIN (under $130)"],
+        ["Under $130", "UHTN with Storage Drawers (under $130)"],
+        ["Under $145", "Zinus Ellie Bamboo (under $150)"],
+        ["Under $150", "Mellow Naturalista Classic (under $150)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Passive Storage Space vs Built-In Drawers",
     cards: [
       { label: "Passive under-bed clearance (Mellow Naturalista, Zinus Ellie, SHA CERLIN)", text: "Provides open storage space underneath for your own bins or boxes, at a lower cost since no drawer hardware is included." },
-      { label: "Built-in storage drawers (UHTN)", text: "Includes ready-to-use rolling drawers with no need to buy separate storage bins, at a moderate cost premium for the drawer mechanism." },
+      { label: "Built-in storage drawers (UHTN)", text: "Includes ready-to-use rolling drawers with no need to buy separate storage bins, at a moderate cost premium for the drawer mechanism." }
     ],
     note: "If you already own storage bins that fit your space, a passive-clearance frame is the better value. If you want ready-to-use organized storage without buying separate bins, the UHTN's built-in drawers solve that immediately.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Traditional solid pine wood", "Mellow Naturalista Classic"],
         ["Sustainable bamboo composite", "Zinus 14 Inch Ellie Bamboo"],
-        ["Metal frame with wood accents", "SHA CERLIN Metal Platform Bed Frame"],
+        ["Metal frame with wood accents", "SHA CERLIN Metal Platform Bed Frame"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Tech-Integrated Bedroom Setup Specifically",
     cards: [
       { label: "Look for", text: "A built-in charging station with both USB-A and USB-C ports directly in the headboard, so you're not relying on a separate power strip or extension cord running across the floor." },
-      { label: "In this comparison", text: "The UHTN pick specifically includes 2 AC outlets, 2 USB ports, and 1 USB-C port built into the headboard, along with app-controlled RGB LED lighting." },
+      { label: "In this comparison", text: "The UHTN pick specifically includes 2 AC outlets, 2 USB ports, and 1 USB-C port built into the headboard, along with app-controlled RGB LED lighting." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want the highest disclosed weight capacity from genuine solid wood, where the Mellow Naturalista Classic justifies its $149.99 price with a stated 1000 lb rating." },
-      { label: "Save if", text: "You want built-in storage and tech features at a lower price, where the UHTN pick delivers drawers, charging, and LED lighting for $129.99." },
+      { label: "Spend more if", text: "You want the highest disclosed weight capacity from genuine solid wood, where the Mellow Naturalista Classic justifies its under $150 price with a stated 1000 lb rating." },
+      { label: "Save if", text: "You want built-in storage and tech features at a lower price, where the UHTN pick delivers drawers, charging, and LED lighting for under $130." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

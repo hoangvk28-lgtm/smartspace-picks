@@ -211,7 +211,7 @@ export default async function BedsideChargingPage() {
               <div className="grid sm:grid-cols-2 gap-3">
                 {[
                   { label: "Back corner of nightstand", desc: "Behind the lamp, out of eye-line when lying down. LEDs face away from you." },
-                  { label: "Front edge nearest the bed", desc: "Maximum reach convenience, but LEDs may face directly at you." },
+                  { label: "Front edge nearest the bed", desc: "Maximum reach convenience, but LEDs may face directly at you." }
                 ].map((item, i) => (
                   <div key={i} className={`p-3 rounded-lg border ${i === 0 ? "border-cta/30 bg-cta-light/20" : "border-border bg-bg"}`}>
                     <p className="font-bold text-ink text-xs mb-1">{item.label}</p>
@@ -227,7 +227,7 @@ export default async function BedsideChargingPage() {
                 {[
                   { opt: "Option 1 -- Face the LED away", desc: "Position the charger so any indicator faces the wall or back of the nightstand, not toward you." },
                   { opt: "Option 2 -- Cover it", desc: "A small square of dark electrical tape over the LED completely eliminates the light. This does not affect charging." },
-                  { opt: "Option 3 -- Choose chargers with automatic LED shutoff", desc: "The Belkin BoostCharge Pro dims its indicator after the phone is confirmed charging. The Anker MagGo foldable has a single dim indicator that is less intrusive than most." },
+                  { opt: "Option 3 -- Choose chargers with automatic LED shutoff", desc: "The Belkin BoostCharge Pro dims its indicator after the phone is confirmed charging. The Anker MagGo foldable has a single dim indicator that is less intrusive than most." }
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-3 p-3 rounded-lg border border-border bg-bg">
                     <span className="font-bold text-brand text-xs shrink-0 mt-0.5">{item.opt}</span>
@@ -265,7 +265,7 @@ export default async function BedsideChargingPage() {
             {[
               { product: "Anker MagGo 3-in-1 Qi2 Foldable", context: "For most Apple bedside setups", verdict: "covers phone, watch, and AirPods in the most compact format at the best price. Adapter included, folds flat, charges everything.", href: "#best-overall" },
               { product: "Belkin BoostCharge Pro", context: "For bedrooms where the charger stays visible", verdict: "in Sand is the best-looking option in this category -- weighted, adjustable, and designed to blend into a bedroom rather than announce itself as a tech product.", href: "#best-premium" },
-              { product: "UGREEN Qi2 25W MagFlow", context: "For Android phones or mixed households", verdict: "is the safest Qi2 pick -- 25W covers every current Qi2 phone regardless of brand.", href: "#best-android" },
+              { product: "UGREEN Qi2 25W MagFlow", context: "For Android phones or mixed households", verdict: "is the safest Qi2 pick -- 25W covers every current Qi2 phone regardless of brand.", href: "#best-android" }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
@@ -293,7 +293,7 @@ export default async function BedsideChargingPage() {
               { href: "/guide/best-wireless-charging-stations-for-desk", title: "Best Wireless Charging Stations for Desk", desc: "Wireless chargers optimized for desk use" },
               { href: "/guide/best-charging-stations-for-desk", title: "Best Charging Stations for Desk", desc: "Full desk charging roundup" },
               { href: "/guide/best-charging-station-desk-organizers", title: "Best Charging Station Desk Organizers", desc: "Organizer + charger combos" },
-              { href: "/guide/minimalist-desk-setup", title: "Minimalist Desk Setup Ideas", desc: "Clean, clutter-free workspace inspiration" },
+              { href: "/guide/minimalist-desk-setup", title: "Minimalist Desk Setup Ideas", desc: "Clean, clutter-free workspace inspiration" }
             ].map((g) => (
               <Link prefetch={false} key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
                 <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">

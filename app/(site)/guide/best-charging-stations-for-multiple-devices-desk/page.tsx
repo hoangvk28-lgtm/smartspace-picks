@@ -248,7 +248,7 @@ export default async function BestMultipleDevicesChargingPage() {
             {[
               { step: "1", text: "List devices you charge simultaneously (not total devices owned)" },
               { step: "2", text: "Sum their typical fast-charge draw from the table above" },
-              { step: "3", text: "Add 20% buffer -- chargers run more efficiently with headroom" },
+              { step: "3", text: "Add 20% buffer -- chargers run more efficiently with headroom" }
             ].map((item) => (
               <div key={item.step} className="flex items-start gap-3 p-3 rounded-xl border border-border bg-white">
                 <span className="w-6 h-6 rounded-full bg-brand text-white flex items-center justify-center shrink-0 font-bold text-xs">{item.step}</span>
@@ -277,7 +277,7 @@ export default async function BestMultipleDevicesChargingPage() {
                 devices: ['MacBook Pro 16": 140W', "iPhone: 27W", "iPad Pro: 45W"],
                 total: "212W → ~255W minimum",
                 note: "Only the Baseus 245W covers this fully.",
-              },
+              }
             ].map((ex, i) => (
               <div key={i} className="p-4 rounded-xl border border-border bg-bg">
                 <p className="text-xs font-bold text-ink mb-2">{ex.label}</p>
@@ -310,7 +310,7 @@ export default async function BestMultipleDevicesChargingPage() {
               { href: "#best-budget", label: "Best Budget" },
               { href: "#best-laptop", label: "Laptop + Multi" },
               { href: "#how-to-choose", label: "How to choose" },
-              { href: "#faq", label: "FAQ" },
+              { href: "#faq", label: "FAQ" }
             ].map((item) => (
               <a key={item.href} href={item.href} className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors">{item.label}</a>
             ))}
@@ -362,7 +362,7 @@ export default async function BestMultipleDevicesChargingPage() {
               {[
                 { label: "USB-C cables", note: "need USB-C ports (obvious, but worth checking)" },
                 { label: "Lightning cables", note: "need USB-A or USB-C via Lightning-to-USB-C" },
-                { label: "Micro-USB cables", note: "need USB-A ports" },
+                { label: "Micro-USB cables", note: "need USB-A ports" }
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3 p-3 rounded-xl border border-border bg-white">
                   <span className="font-bold text-brand text-xs shrink-0 mt-0.5">{item.label}</span>
@@ -381,7 +381,7 @@ export default async function BestMultipleDevicesChargingPage() {
             <div className="grid sm:grid-cols-2 gap-4 mb-4">
               {[
                 { label: "Simultaneous", desc: "All devices plugged in and charging at the same time. Requires total wattage ≥ sum of all device draws. Best for home offices and family desks where everything charges during the day." },
-                { label: "Sequential", desc: "Charge 2--3 devices at a time, rotate. Works fine with lower-wattage chargers. Best for small desks where only a phone and earbuds actually need to charge at once, despite owning 6 devices." },
+                { label: "Sequential", desc: "Charge 2--3 devices at a time, rotate. Works fine with lower-wattage chargers. Best for small desks where only a phone and earbuds actually need to charge at once, despite owning 6 devices." }
               ].map((item, i) => (
                 <div key={i} className="p-4 rounded-xl border border-border bg-white">
                   <p className="font-bold text-ink text-sm mb-1">{item.label}</p>
@@ -434,7 +434,7 @@ export default async function BestMultipleDevicesChargingPage() {
               { label: "Total wattage vs device mix", note: "Does the charger's wattage budget actually cover the device combinations listed in the Quick Picks table?" },
               { label: "Smart power allocation", note: "Does the charger prioritize high-draw devices (laptops) automatically, or does it distribute equally regardless of need?" },
               { label: "Port mix practicality", note: "USB-C PD for modern devices, USB-A for accessories, AC outlets for desk accessories -- evaluated against real desk setups." },
-              { label: "Value per watt", note: "Cost-per-watt across price tiers, with specific attention to the GaN efficiency premium vs. non-GaN alternatives at similar prices." },
+              { label: "Value per watt", note: "Cost-per-watt across price tiers, with specific attention to the GaN efficiency premium vs. non-GaN alternatives at similar prices." }
             ].map((c, i) => (
               <div key={i} className="flex items-start gap-2">
                 <span className="w-5 h-5 rounded-full bg-brand-muted text-brand flex items-center justify-center shrink-0 font-bold text-[10px] mt-0.5">{i + 1}</span>
@@ -470,7 +470,7 @@ export default async function BestMultipleDevicesChargingPage() {
             {[
               { product: "Anker Prime 200W", context: "For most desks (3--5 devices)", verdict: "handles any combination of modern devices at full speed. Smart power routing keeps the laptop prioritized. It is the most flexible choice for a desk whose device mix changes day to day.", href: "#best-overall" },
               { product: "Baseus Nomos 245W", context: "For full-load power users (laptop + 5 devices)", verdict: "covers everything -- retractable cables, wireless pad, LCD display, 245W total. The price is high but the functionality is unmatched.", href: "#best-power-user" },
-              { product: "TESSAN 130W 8-in-1", context: "For families or shared desks", verdict: "delivers the best value for mixed households: GaN technology, three AC outlets, three fast USB-C ports, and under $38.", href: "#best-family" },
+              { product: "TESSAN 130W 8-in-1", context: "For families or shared desks", verdict: "delivers the best value for mixed households: GaN technology, three AC outlets, three fast USB-C ports, and under $38.", href: "#best-family" }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
@@ -504,7 +504,7 @@ export default async function BestMultipleDevicesChargingPage() {
               { href: "/guide/best-charging-stations-for-desk", title: "Best Charging Stations for Desk", desc: "Full roundup across all categories" },
               { href: "/guide/best-wireless-charging-stations-for-desk", title: "Best Wireless Charging Stations for Desk", desc: "If wireless matters for your setup" },
               { href: "/guide/best-docking-stations-for-desk-setup", title: "Best Docking Stations for Desk Setup", desc: "When you need monitor + network too" },
-              { href: "/guide/best-usb-hub-for-desk", title: "Best USB Hubs for Desk", desc: "If you only need more USB ports, not a full charging hub" },
+              { href: "/guide/best-usb-hub-for-desk", title: "Best USB Hubs for Desk", desc: "If you only need more USB ports, not a full charging hub" }
             ].map((g) => (
               <Link prefetch={false} key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
                 <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">

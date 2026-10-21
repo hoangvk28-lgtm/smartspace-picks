@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41d2vOL+ThL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DPSGSK7Q?tag=deskfinds0d-20",
-    description: "At 60W, this is by far the most powerful pick in this comparison, roughly triple the output of the 20W entry-level machines, delivering meaningfully deeper and faster engraving on metal without sacrificing the same 100,000-hour rated laser lifespan as Monport's lower-wattage models. Its 5.9 by 5.9 inch working area gives more room than the compact 20W units while staying LightBurn compatible with a red dot pointer for alignment.\n\nAt just under $2000, it represents the highest power-per-dollar value in this comparison, undercutting the similarly-powered Cloudray 60W option by a wide margin.\n\nBest for buyers who specifically need serious deep engraving power without stepping up to a $2500+ machine.",
+    description: "At 60W, this is by far the most powerful pick in this comparison, roughly triple the output of the 20W entry-level machines, delivering meaningfully deeper and faster engraving on metal without sacrificing the same 100,000-hour rated laser lifespan as Monport's lower-wattage models. Its 5.9 by 5.9 inch working area gives more room than the compact 20W units while staying LightBurn compatible with a red dot pointer for alignment.\n\nAt under $2000, it represents the highest power-per-dollar value in this comparison, undercutting the similarly-powered Cloudray 60W option by a wide margin.\n\nBest for buyers who specifically need serious deep engraving power without stepping up to a $2500+ machine.",
     specs: ["60W fiber laser, 100,000-hour lifespan", "5.9x5.9 in working area, red dot pointer", "LightBurn compatible, BSLcad software included"],
     pros: ["Highest wattage in this comparison at the lowest price for that power", "Same rated laser lifespan as Monport's lower-wattage models", "LightBurn compatible with a free included backup software"],
     cons: ["Higher power requires more careful ventilation and safety setup", "Larger unit than the compact 20W desktop machines"],
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Maximum deep-engraving power at the best price", "Monport 60W Fiber Laser Engraver"],
         ["3D and deep engraving without a 60W machine", "GWEIKE G2 Pro 30W Fiber Laser Engraver"],
         ["Fast surface marking on a tighter budget", "GWEIKE G2 20W Fiber Laser Engraver"],
-        ["Both desktop and handheld marking flexibility", "ComMarker B4 20W Fiber Laser Engraver"],
+        ["Both desktop and handheld marking flexibility", "ComMarker B4 20W Fiber Laser Engraver"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $1,300", "GWEIKE G2 20W ($1,299.00)"],
-        ["Under $1,400", "ComMarker B4 ($1,399.00)"],
-        ["Under $1,600", "GWEIKE G2 Pro 30W ($1,599.00)"],
-        ["Under $2,000", "Monport 60W ($1,999.99)"],
+        ["Under $1,300", "GWEIKE G2 20W (under $1,300)"],
+        ["Under $1,400", "ComMarker B4 (under $1,400)"],
+        ["Under $1,600", "GWEIKE G2 Pro 30W (under $1,600)"],
+        ["Under $2,000", "Monport 60W (under $2,000)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "20W vs 30W/60W Deep Engraving Power",
     cards: [
       { label: "20W (GWEIKE G2, ComMarker B4)", text: "Handles surface marking and moderate engraving well at a lower price, but lacks the depth capability of higher-wattage machines." },
-      { label: "30W/60W (GWEIKE G2 Pro, Monport)", text: "Unlocks genuine 3D and deep engraving effects, worth the price premium if your projects specifically call for pronounced depth or texture." },
+      { label: "30W/60W (GWEIKE G2 Pro, Monport)", text: "Unlocks genuine 3D and deep engraving effects, worth the price premium if your projects specifically call for pronounced depth or texture." }
     ],
     note: "If your work is mostly flat surface marking, a 20W machine is sufficient. If you need real depth or texture in your engravings, step up to at least the 30W GWEIKE G2 Pro.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Standard flat items at a fixed station", "Monport 60W or GWEIKE G2 Pro"],
         ["Mixed small and large items", "ComMarker B4 with its dual lenses"],
-        ["Small, detailed items on a budget", "GWEIKE G2 20W"],
+        ["Small, detailed items on a budget", "GWEIKE G2 20W"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Metal Art and Craft Businesses Specifically",
     cards: [
       { label: "Look for", text: "Higher wattage for consistent deep engraving results across a variety of metal thicknesses and hardness levels." },
-      { label: "In this comparison", text: "The Monport 60W's higher power output makes it the most versatile choice for a business handling varied metal engraving jobs." },
+      { label: "In this comparison", text: "The Monport 60W's higher power output makes it the most versatile choice for a business handling varied metal engraving jobs." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You regularly need deep or 3D engraving effects, where the Monport 60W or GWEIKE G2 Pro 30W deliver real depth capability the 20W picks lack." },
-      { label: "Save if", text: "Your work is mainly flat surface marking, where the GWEIKE G2 20W covers that need at nearly $700 less than the Monport 60W." },
+      { label: "Save if", text: "Your work is mainly flat surface marking, where the GWEIKE G2 20W covers that need at nearly $700 less than the Monport 60W." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -166,7 +166,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Price-Per-Watt Varies Significantly Even Within a Similar Price Bracket",
-    "explanation": "The Monport 60W at $1,999.99 delivers three times the wattage of the $1,299 GWEIKE G2 20W for roughly 54 percent more money, a genuinely better value per watt of power than either the 30W GWEIKE G2 Pro or the 20W entry machines. This kind of comparison matters because wattage doesn't scale price linearly across every brand and model, and calculating a rough price-per-watt figure across your shortlist can reveal genuinely better deals than comparing sticker prices alone. Don't assume the cheapest machine in a comparison is the best value if its wattage is proportionally much lower than a slightly pricier alternative."
+    "explanation": "The Monport 60W at under $2,000 delivers three times the wattage of the $1,299 GWEIKE G2 20W for roughly 54 percent more money, a genuinely better value per watt of power than either the 30W GWEIKE G2 Pro or the 20W entry machines. This kind of comparison matters because wattage doesn't scale price linearly across every brand and model, and calculating a rough price-per-watt figure across your shortlist can reveal genuinely better deals than comparing sticker prices alone. Don't assume the cheapest machine in a comparison is the best value if its wattage is proportionally much lower than a slightly pricier alternative."
   },
   {
     "criterion": "A Dual-Lens System Trades Some Peak Precision for Genuine Working-Area Flexibility",

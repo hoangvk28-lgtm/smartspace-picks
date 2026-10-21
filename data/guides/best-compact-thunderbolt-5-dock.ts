@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     description: "This dock's listing specifically states a built-in M.2 PCIe Gen 4 x4 and Gen 3 slot supports both high-capacity NVMe SSDs and compatible PCIe-based modules like AI accelerators, a genuinely more flexible expansion slot than a storage-only NVMe bay. Its Thunderbolt Share feature connects two PCs to share files, devices, and control with low latency and no network required, letting one keyboard and mouse run both computers.\n\nCompared to the Cable Matters pick above, this one packs Nano and Standard security lock slots directly into its compact chassis, a physical security feature aimed specifically at shared office or coworking environments where the dock might be left unattended.\n\nBest for professionals who want built-in NVMe and PCIe module expansion in a compact, security-lockable dock.",
     specs: ["Built-in M.2 PCIe Gen 4x4/Gen3 slot, AI module support", "Triple 4K@60Hz or single 8K@144Hz (Windows)", "Thunderbolt Share, Nano + Standard security lock slots"],
     pros: ["PCIe expansion slot supports both SSDs and AI accelerator modules", "Physical security lock slots suit shared or coworking environments", "Thunderbolt Share enables low-latency PC-to-PC connectivity"],
-    cons: ["macOS and Chrome OS are limited to two extended displays, fewer than Windows", "Highest price in this comparison at $319.99"],
+    cons: ["macOS and Chrome OS are limited to two extended displays, fewer than Windows", "Highest price in this comparison at under $350"],
     bestFor: "professionals who want built-in NVMe and PCIe module expansion in a compact, lockable dock",
   },
   {
@@ -77,7 +77,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0DPKL911T?tag=deskfinds0d-20",
     description: "This hub's fanless aluminum enclosure is specifically designed for quiet, cool operation without active cooling components, making it the smallest and most minimalist pick in this comparison at a genuinely small 3-inch by 6-inch by 1-inch footprint. Its listing specifically states it can create three separate daisy chains of devices, even bus-powered ones, removable from one chain without affecting the others.\n\nCompared to the Cable Matters, HyperDrive, and CalDigit picks above, this one is the lowest price in this comparison by a wide margin while still delivering genuine 140W laptop charging and up to three 8K displays through daisy-chained connections.\n\nBest for buyers who want the smallest physical footprint and lowest price while still getting genuine 140W charging.",
     specs: ["5 ports, fanless aluminum enclosure, 3\"x6\"x1\" footprint", "140W charging, three independent daisy chains supported", "Up to three 8K displays via daisy chain"],
-    pros: ["Smallest physical footprint of any pick in this comparison", "Lowest price in this comparison at $179.99", "Fanless design runs silently with no moving parts"],
+    pros: ["Smallest physical footprint of any pick in this comparison", "Lowest price in this comparison at under $180", "Fanless design runs silently with no moving parts"],
     cons: ["No Ethernet port included, unlike the other picks in this comparison", "Only 3 USB ports total, the most minimal connectivity here"],
     bestFor: "buyers who want the smallest physical footprint and lowest price with genuine 140W charging",
   }
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Detailed per-chip display support with Thunderbolt Share", "Cable Matters 11-in-1 Thunderbolt 5 Dock"],
         ["Built-in NVMe and PCIe module expansion", "HyperDrive Next Thunderbolt 5 Dock with SSD Enclosure"],
         ["Sustained power delivery with offline charging", "CalDigit E5 Thunderbolt 5 Element 5 Hub"],
-        ["The smallest footprint and lowest price", "OWC Thunderbolt 5 Hub 5-Port"],
+        ["The smallest footprint and lowest price", "OWC Thunderbolt 5 Hub 5-Port"]
       ],
     },
   },
@@ -109,9 +109,9 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $180", "OWC Thunderbolt 5 Hub 5-Port ($179.99)"],
-        ["Under $250", "Cable Matters 11-in-1 ($227.99) or CalDigit E5 ($249.99)"],
-        ["Under $320", "HyperDrive Next Thunderbolt 5 Dock ($319.99)"],
+        ["Under $180", "OWC Thunderbolt 5 Hub 5-Port (under $180)"],
+        ["Under $250", "Cable Matters 11-in-1 (under $250) or CalDigit E5 (under $250)"],
+        ["Under $320", "HyperDrive Next Thunderbolt 5 Dock (under $350)"]
       ],
     },
   },
@@ -119,7 +119,7 @@ export const howToChoose = [
     subheading: "Maximum Ports vs Minimalist Design",
     cards: [
       { label: "More ports in a compact shell (Cable Matters, HyperDrive)", text: "These docks pack 11 or more ports plus advanced features like Thunderbolt Share and PCIe expansion into a still-reasonably compact chassis." },
-      { label: "Truly minimalist (OWC Thunderbolt 5 Hub)", text: "This hub strips down to just 5 essential ports in the smallest physical footprint of this comparison, prioritizing size and price over feature count." },
+      { label: "Truly minimalist (OWC Thunderbolt 5 Hub)", text: "This hub strips down to just 5 essential ports in the smallest physical footprint of this comparison, prioritizing size and price over feature count." }
     ],
     note: "If you want to keep a fuller feature set while still saving desk space, the Cable Matters or HyperDrive picks deliver that. If minimizing physical footprint and cost is your top priority, the OWC hub is purpose-built for exactly that.",
   },
@@ -130,7 +130,7 @@ export const howToChoose = [
       rows: [
         ["Want PCIe module support beyond just storage", "HyperDrive Next Thunderbolt 5 Dock"],
         ["Don't need built-in storage expansion at all", "OWC Thunderbolt 5 Hub 5-Port"],
-        ["Want strong power delivery without storage expansion", "CalDigit E5 Thunderbolt 5 Element 5 Hub"],
+        ["Want strong power delivery without storage expansion", "CalDigit E5 Thunderbolt 5 Element 5 Hub"]
       ],
     },
   },
@@ -138,16 +138,16 @@ export const howToChoose = [
     subheading: "For a Small Desk or Shared Workspace Specifically",
     cards: [
       { label: "Look for", text: "A genuinely small physical footprint with mounting or placement flexibility, and if the workspace is shared or unattended, a physical security lock slot to deter theft." },
-      { label: "In this comparison", text: "The HyperDrive Next specifically includes Nano and Standard security lock slots, while the OWC hub's compact 3x6x1 inch size fits the tightest desk spaces." },
+      { label: "In this comparison", text: "The HyperDrive Next specifically includes Nano and Standard security lock slots, while the OWC hub's compact 3x6x1 inch size fits the tightest desk spaces." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You need built-in PCIe module expansion beyond simple storage, where the HyperDrive Next's $319.99 price is justified by its AI accelerator module support." },
-      { label: "Save if", text: "You want a genuinely compact dock with reliable 140W charging and minimal footprint, where the OWC hub delivers that for $179.99, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You need built-in PCIe module expansion beyond simple storage, where the HyperDrive Next's under $350 price is justified by its AI accelerator module support." },
+      { label: "Save if", text: "You want a genuinely compact dock with reliable 140W charging and minimal footprint, where the OWC hub delivers that for under $180, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

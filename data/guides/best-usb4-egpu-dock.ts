@@ -29,7 +29,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0FGJLL4L1?tag=deskfinds0d-20",
     description: "This dock's JHL6340 controller specifically delivers speeds around 22Gbps, a stated bandwidth figure lower than the JHL7440-based picks in this comparison but still enough for graphics work, video editing, AI art, and AAA gaming according to the listing. Its 4 flexible power input options (CPU 4+4-pin, Molex, PD 3.0, or DC5521) give you more ways to power the enclosure than most competing docks offer.\n\nCompared to the GOLDSOUN and GODLIY picks below, this one is the lowest-priced option in this comparison while still supporting the full range of NVIDIA GPUs from the RTX 5090 down to the older GTX 450, plus AMD cards, and explicitly states compatibility with the Lenovo Legion Go handheld. Its included Thunderbolt 4 cable and 24-pin power jumper cable come bundled in the box.\n\nBest for buyers who want the lowest price while still supporting a wide range of NVIDIA and AMD graphics cards.",
     specs: ["JHL6340 controller, ~22Gbps bandwidth", "4 power input options: CPU, Molex, PD 3.0, DC5521", "Supports NVIDIA GTX 450 through RTX 5090, AMD GPUs"],
-    pros: ["Lowest price in this comparison at $99.99", "4 flexible power input options for different setups", "Wide GPU compatibility from budget to flagship cards"],
+    pros: ["Lowest price in this comparison at under $100", "4 flexible power input options for different setups", "Wide GPU compatibility from budget to flagship cards"],
     cons: ["Lower stated bandwidth (22Gbps) than the JHL7440-based picks", "ATX power supply and graphics card not included"],
     bestFor: "buyers who want the lowest price while still supporting a wide range of graphics cards",
   },
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "This dock's dual-link USB4 V2 and OCuLink interfaces support transfer speeds up to 80Gbps over Thunderbolt 5 or 64Gbps over OCuLink, meaningfully higher bandwidth than the JHL7440-based picks in this comparison, with a dedicated hardware switch to instantly toggle between all-in-one docking mode and pure GPU performance mode. Its integrated M.2 2280 NVMe slot lets you store AI models and project files directly on the dock itself.\n\nCompared to the GOLDSOUN and GODLIY picks above, this one adds a built-in re-drive signal booster specifically designed to stabilize PCIe data transfer and minimize latency during high-bandwidth tasks like LLM inference or 8K rendering. Its single-cable workflow handles data, display, and laptop charging simultaneously with automatic power-on when synced to the host computer.\n\nBest for buyers who want the highest bandwidth with built-in NVMe storage for AI and rendering workflows.",
     specs: ["Up to 80Gbps (TB5) or 64Gbps (OCuLink)", "Integrated M.2 2280 NVMe slot", "Universal ATX/SFX power supply support"],
     pros: ["Highest stated bandwidth in this comparison at up to 80Gbps", "Integrated M.2 NVMe slot for direct AI model and project storage", "Built-in signal booster stabilizes high-bandwidth PCIe transfer"],
-    cons: ["Highest price in this comparison at $247.00", "Hardware mode switch adds complexity versus simpler always-on docks"],
+    cons: ["Highest price in this comparison at under $250", "Hardware mode switch adds complexity versus simpler always-on docks"],
     bestFor: "buyers who want the highest bandwidth with built-in NVMe storage for demanding workflows",
   },
   {
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The lowest price with wide GPU support", "PCIE 3.0 x16 22Gbps eGPU Dock"],
         ["A certified controller validated for AI workloads", "GOLDSOUN External eGPU Dock"],
         ["The highest bandwidth with built-in NVMe storage", "MINISFORUM DEG2 USB4 V2 eGPU Dock"],
-        ["A certified controller as an alternative brand", "GODLIY External eGPU Dock"],
+        ["A certified controller as an alternative brand", "GODLIY External eGPU Dock"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $100", "PCIE 3.0 x16 22Gbps eGPU Dock ($99.99)"],
-        ["Under $150", "GOLDSOUN External eGPU Dock ($149.99)"],
-        ["Under $160", "GODLIY External eGPU Dock ($159.99)"],
-        ["Under $250", "MINISFORUM DEG2 USB4 V2 ($247.00)"],
+        ["Under $100", "PCIE 3.0 x16 22Gbps eGPU Dock (under $100)"],
+        ["Under $150", "GOLDSOUN External eGPU Dock (under $150)"],
+        ["Under $160", "GODLIY External eGPU Dock (under $160)"],
+        ["Under $250", "MINISFORUM DEG2 USB4 V2 (under $250)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "JHL6340 vs JHL7440 Controller Chips",
     cards: [
       { label: "JHL6340 (PCIE 3.0 x16 pick)", text: "Delivers a stated 22Gbps, a lower but still capable bandwidth ceiling suited to most gaming and creative workloads at a lower price." },
-      { label: "Officially certified JHL7440 (GOLDSOUN, GODLIY)", text: "A more rigorously validated controller chip delivering 40Gbps, specifically recommended for AI training and demanding rendering workloads." },
+      { label: "Officially certified JHL7440 (GOLDSOUN, GODLIY)", text: "A more rigorously validated controller chip delivering 40Gbps, specifically recommended for AI training and demanding rendering workloads." }
     ],
     note: "If your workload is mainstream gaming or general creative work, the JHL6340-based pick's lower price is a reasonable tradeoff. If you're doing AI training or heavy rendering, the certified JHL7440 controller's validation matters more.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your power setup", "Recommended pick"],
       rows: [
         ["Need flexible power options (CPU, Molex, PD, DC)", "PCIE 3.0 x16 22Gbps eGPU Dock"],
-        ["Already have a standard ATX or SFX PSU", "MINISFORUM DEG2 USB4 V2"],
+        ["Already have a standard ATX or SFX PSU", "MINISFORUM DEG2 USB4 V2"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For AI Training and Local LLM Inference Specifically",
     cards: [
       { label: "Look for", text: "A dock specifically validated for AI workloads with a built-in re-drive signal booster to stabilize high-bandwidth PCIe transfer during sustained inference tasks." },
-      { label: "In this comparison", text: "The GOLDSOUN pick specifically states support for local Deepseek-R1 deployment, and the MINISFORUM pick specifically includes a re-drive signal booster for LLM inference stability." },
+      { label: "In this comparison", text: "The GOLDSOUN pick specifically states support for local Deepseek-R1 deployment, and the MINISFORUM pick specifically includes a re-drive signal booster for LLM inference stability." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want the highest bandwidth with built-in NVMe storage for AI and rendering work, where the MINISFORUM DEG2 justifies its $247.00 price." },
-      { label: "Save if", text: "You want broad GPU compatibility at the lowest price, where the PCIE 3.0 x16 pick delivers that for $99.99." },
+      { label: "Spend more if", text: "You want the highest bandwidth with built-in NVMe storage for AI and rendering work, where the MINISFORUM DEG2 justifies its under $250 price." },
+      { label: "Save if", text: "You want broad GPU compatibility at the lowest price, where the PCIE 3.0 x16 pick delivers that for under $100." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

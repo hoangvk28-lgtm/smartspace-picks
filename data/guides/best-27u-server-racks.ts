@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31vbfmcEwKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D99FX253?tag=deskfinds0d-20",
-    description: "GlobalRack's 27U model brings the same adjustable 22-35 inch depth and quick-lock assembly as their 42U rack, just in a mid-height footprint that suits smaller server rooms.\n\nAt 1200 lbs it's rated lower than the 42U model, consistent with the shorter, lighter structure, but still handles a substantial equipment load for its size.\n\nThis pick is best for buyers who value under-20-minute assembly claim, genuinely quick to set up along with 1200 lb capacity suits a real mid-size server load. The catch is that shorter than the 42U model if you outgrow it, so decide if that's worth it at $178.99.",
+    description: "GlobalRack's 27U model brings the same adjustable 22-35 inch depth and quick-lock assembly as their 42U rack, just in a mid-height footprint that suits smaller server rooms.\n\nAt 1200 lbs it's rated lower than the 42U model, consistent with the shorter, lighter structure, but still handles a substantial equipment load for its size.\n\nThis pick is best for buyers who value under-20-minute assembly claim, genuinely quick to set up along with 1200 lb capacity suits a real mid-size server load. The catch is that shorter than the 42U model if you outgrow it, so decide if that's worth it at under $180.",
     specs: ["27U, 43.5\"H, 22-35\" adjustable depth","1200 lb weight capacity","Pre-installed square holes, M6 hardware included"],
     pros: ["Under-20-minute assembly claim, genuinely quick to set up","1200 lb capacity suits a real mid-size server load","Depth adjustment covers a wide equipment range"],
     cons: ["Shorter than the 42U model if you outgrow it","Open frame offers no dust or security protection"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41teTs3CPsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B076VQ916B?tag=deskfinds0d-20",
-    description: "A tall, narrow 27U aluminum rack from Raising Electronics, reaching 60 inches with a 24-inch post-to-post depth, rated for 700 lbs across three pairs of steel rails.\n\nThe 1.5-inch depth adjustment increments and movable design match the rest of Raising Electronics' lineup, giving a consistent experience if you're mixing their rack sizes.\n\nWhat stands out here is 700 lb rating handles a substantial equipment stack, plus three steel rail pairs add real structural rigidity. The main tradeoff: 60\" height needs a genuinely tall room, so weigh that against the $214.97 price before buying.",
+    description: "A tall, narrow 27U aluminum rack from Raising Electronics, reaching 60 inches with a 24-inch post-to-post depth, rated for 700 lbs across three pairs of steel rails.\n\nThe 1.5-inch depth adjustment increments and movable design match the rest of Raising Electronics' lineup, giving a consistent experience if you're mixing their rack sizes.\n\nWhat stands out here is 700 lb rating handles a substantial equipment stack, plus three steel rail pairs add real structural rigidity. The main tradeoff: 60\" height needs a genuinely tall room, so weigh that against the under $250 price before buying.",
     specs: ["27U, 60\"H x 24\"W, 24\" depth","700 lb weight capacity","3 pairs of steel rails"],
     pros: ["700 lb rating handles a substantial equipment stack","Three steel rail pairs add real structural rigidity","Movable design makes positioning straightforward"],
     cons: ["60\" height needs a genuinely tall room","No casters included with this specific model"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41mBY8-KVdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08YDJ4X32?tag=deskfinds0d-20",
-    description: "The tallest wall-mount cabinet in this seller's lineup at 27U, still keeping the same 133 lb capacity and 24-inch overall / 20-inch usable depth spec found on their smaller models.\n\nA top-mounted fan and perforated glass door provide active and passive cooling together, and it ships with two fixed shelves and a PDU already included.\n\nThe strongest case for this pick comes down to 27U is the tallest wall-mount option in this product line as well as comes complete with fan, shelves, and PDU. The compromise here is that requires a genuinely solid wall to support 27U of gear, so factor that in alongside the $599.97 asking price.",
+    description: "The tallest wall-mount cabinet in this seller's lineup at 27U, still keeping the same 133 lb capacity and 24-inch overall / 20-inch usable depth spec found on their smaller models.\n\nA top-mounted fan and perforated glass door provide active and passive cooling together, and it ships with two fixed shelves and a PDU already included.\n\nThe strongest case for this pick comes down to 27U is the tallest wall-mount option in this product line as well as comes complete with fan, shelves, and PDU. The compromise here is that requires a genuinely solid wall to support 27U of gear, so factor that in alongside the under $600 asking price.",
     specs: ["27U, 24\" overall / 20\" usable depth","133 lb wall-mount capacity","Top fan, 2 shelves, PDU included"],
     pros: ["27U is the tallest wall-mount option in this product line","Comes complete with fan, shelves, and PDU","Perforated door pairs with the fan for better airflow"],
     cons: ["Requires a genuinely solid wall to support 27U of gear","20\" usable depth may not fit every device"],
@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $178.99",
+          "Under $180",
           "GlobalRack 27U Open Frame Server Rack"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "Raising Electronics 27U 4-Post Open Rack Frame"
         ],
         [
-          "Around $214.97",
+          "Under $250",
           "Raising Electronics Server Rack Open Frame Rack 4 Post"
         ],
         [
-          "Around $599.97",
+          "Under $600",
           "27U Wall Mount Server Rack Cabinet"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Raising Electronics 27U 4-Post Open Rack Frame is aimed at buyers prioritizing 27u, 52\"h x 21.3\"w, 24-35\" depth." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Raising Electronics 27U 4-Post Open Rack Frame is aimed at buyers prioritizing 27u, 52\"h x 21.3\"w, 24-35\" depth." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-42u-server-racks","title":"Best 42U Server Racks in 2026"},{"href":"/guide/best-2u-server-racks","title":"Best 2U Server Racks in 2026"},{"href":"/guide/best-1u-server-racks","title":"Best 1U Server Racks in 2026"}];

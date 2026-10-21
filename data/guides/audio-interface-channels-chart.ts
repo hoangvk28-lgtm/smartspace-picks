@@ -12,7 +12,7 @@ export const audioInterfaceChannelsChartGuide: Guide = {
     "how many channels audio interface",
     "audio interface input count guide",
     "2 channel vs 4 channel interface",
-    "8 channel audio interface uses",
+    "8 channel audio interface uses"
   ],
   heroImage: "https://images.unsplash.com/photo-1634041323797-b9fdef9d18f7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1634041323797-b9fdef9d18f7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const audioInterfaceChannelsChartGuide: Guide = {
     "best-8-channel-audio-interfaces",
     "best-multi-channel-audio-interfaces",
     "best-8-channel-usb-audio-interfaces",
-    "best-8-channel-usb-c-audio-interfaces",
+    "best-8-channel-usb-c-audio-interfaces"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const audioInterfaceChannelsChartGuide: Guide = {
       question: "Is it better to buy more channels than I currently need?",
       answer:
         "A small buffer above your current need (one extra channel) is reasonable for adding an occasional guest or instrument, but buying a large multi-channel interface for a permanently solo setup means paying for unused inputs and a bulkier unit than necessary.",
-    },
+    }
   ],
   sections: [
     {
@@ -80,6 +80,6 @@ Separate individual channels for each microphone also matters for post-productio
     {
       heading: "Planning for Growth Without Overbuying",
       body: `If you're starting solo but plan to add a co-host or guest within the next year, a 2-4 channel interface gives reasonable room to grow without the cost and desk footprint of an 8+ channel unit you won't fully use for a long time. If your setup is genuinely fixed at solo recording indefinitely, a 1-2 channel interface is the more cost-effective and compact choice.`,
-    },
+    }
   ],
 };

@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $114.97",
+          "Under $120",
           "ANGRYWIN Reception Desk with Counter"
         ],
         [
-          "Around $169.99",
+          "Under $170",
           "Tribesigns Reception Desk with Counter"
         ],
         [
-          "Around $369.99",
+          "Under $400",
           "63\" Reception Desk with Dual-Level Counter and LED"
         ],
         [
-          "Around $599.99",
+          "Under $600",
           "ALFA BUSINESS Modern Rectangle Reception Desk with Glass Counter"
         ],
         [
-          "Around $869.95",
+          "Under $900",
           "Offices To Go L-Shaped Reception Desk with Transaction Top"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Offices To Go L-Shaped Reception Desk with Transaction Top is aimed at buyers prioritizing 71\"w desk + 42\"w return, reversible left/right." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Offices To Go L-Shaped Reception Desk with Transaction Top is aimed at buyers prioritizing 71\"w desk + 42\"w return, reversible left/right." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks-with-counter","title":"best-reception-desks-with-counter"},{"href":"/guide/best-tall-reception-desks","title":"best-tall-reception-desks"},{"href":"/guide/best-l-shaped-reception-desks-with-counter","title":"best-l-shaped-reception-desks-with-counter"}];

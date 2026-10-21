@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41CBdZQyiUL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0D6VMQR37?tag=deskfinds0d-20",
-    "description": "Dueelala covers you from head to toe with sleeves, a hood and foot pockets, and spreads heating through every part except the sleeves. It gives 8 heat settings from 86 to 122F, a 1 to 10 hour timer, and overheat, overload and leakage protection.\n\nIt is the only pick with a hood and the widest heat span at 8 settings, but it costs $99.99, the most here. Against Sealy, it covers more of the body but has no stated certification mark.\n\nBest for someone who wants full coverage and finer heat steps. The caveat is the price and the lack of a named lab mark in the part of the listing we reviewed.",
+    "description": "Dueelala covers you from head to toe with sleeves, a hood and foot pockets, and spreads heating through every part except the sleeves. It gives 8 heat settings from 86 to 122F, a 1 to 10 hour timer, and overheat, overload and leakage protection.\n\nIt is the only pick with a hood and the widest heat span at 8 settings, but it costs under $100, the most here. Against Sealy, it covers more of the body but has no stated certification mark.\n\nBest for someone who wants full coverage and finer heat steps. The caveat is the price and the lack of a named lab mark in the part of the listing we reviewed.",
     "specs": [
       "8 settings, 86F to 122F",
       "1 to 10 hour timer",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/5107eHJL8fL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GH5JCPGT?tag=deskfinds0d-20",
-    "description": "MAXEVE offers 6 heat levels from 82 to 115F and a timer from 1 to 12 hours, in a 220 GSM flannel and 200 GSM sherpa build. A button design keeps it from falling off, and it has overheat protection.\n\nIt has the longest timer in the group and a lower floor at 82F than Sealy, which helps in mild rooms. It costs $66.59, below Westinghouse, but no certification mark is stated.\n\nGood for a robe with all-day timer reach. The caveat is the missing safety mark in the listing text, and you must unplug the controller before washing.",
+    "description": "MAXEVE offers 6 heat levels from 82 to 115F and a timer from 1 to 12 hours, in a 220 GSM flannel and 200 GSM sherpa build. A button design keeps it from falling off, and it has overheat protection.\n\nIt has the longest timer in the group and a lower floor at 82F than Sealy, which helps in mild rooms. It costs under $70, below Westinghouse, but no certification mark is stated.\n\nGood for a robe with all-day timer reach. The caveat is the missing safety mark in the listing text, and you must unplug the controller before washing.",
     "specs": [
       "6 levels, 82F to 115F",
       "1 to 12 hour timer",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41Yl+gVdjHL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FJ5VVQVM?tag=deskfinds0d-20",
-    "description": "JOLLYVOGUE has 7 heat settings from 90 to 108F and a 4 hour auto shut-off, with a flannel front and sherpa back. It converts between plugged-in blanket, wearable and throw, and the listing cites ETL and FCC marks on a 120V system.\n\nIts top temperature of 108F is the lowest of the robes, which is gentler than MAXEVE's 115F. It costs $59.99 and its auto-off cannot be changed, unlike Westinghouse's menu.\n\nBest for a gentle heat robe that shuts off on its own. The caveat is that 108F may feel weak on very cold floors, and the fixed 4 hour cutoff cannot be set shorter.",
+    "description": "JOLLYVOGUE has 7 heat settings from 90 to 108F and a 4 hour auto shut-off, with a flannel front and sherpa back. It converts between plugged-in blanket, wearable and throw, and the listing cites ETL and FCC marks on a 120V system.\n\nIts top temperature of 108F is the lowest of the robes, which is gentler than MAXEVE's 115F. It costs under $60 and its auto-off cannot be changed, unlike Westinghouse's menu.\n\nBest for a gentle heat robe that shuts off on its own. The caveat is that 108F may feel weak on very cold floors, and the fixed 4 hour cutoff cannot be set shorter.",
     "specs": [
       "7 levels, 90F to 108F",
       "4 hour auto shut-off",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31+jKIfLQ5L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DSVGYVMR?tag=deskfinds0d-20",
-    "description": "This Sealy is a 50 by 60 inch shawl wrap with buckles and pockets, reversing from flannel to sherpa, with 6 heat levels and a 2 to 10 hour timer. The listing says to disconnect the cable before washing and to avoid dry cleaning and bleach.\n\nIt is lighter than the robe styles and costs $49.99, but it lacks sleeves and foot pockets. Against the generic USB shawl below, it uses a wall plug and gives a longer timer menu.\n\nChoose it if you want a cape that stays on your shoulders. The caveat is that no temperature range is given, and it needs a wall outlet.",
+    "description": "This Sealy is a 50 by 60 inch shawl wrap with buckles and pockets, reversing from flannel to sherpa, with 6 heat levels and a 2 to 10 hour timer. The listing says to disconnect the cable before washing and to avoid dry cleaning and bleach.\n\nIt is lighter than the robe styles and costs under $50, but it lacks sleeves and foot pockets. Against the generic USB shawl below, it uses a wall plug and gives a longer timer menu.\n\nChoose it if you want a cape that stays on your shoulders. The caveat is that no temperature range is given, and it needs a wall outlet.",
     "specs": [
       "6 levels, 2 to 10 hour timer",
       "50 x 60 inch shawl with buckles",
@@ -263,7 +263,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     "title": "Value for price",
-    "description": "Prices from $36.99 to $99.99 were compared with documented features."
+    "description": "Prices from roughly $40 to $100 were compared with documented features."
   }
 ];
 

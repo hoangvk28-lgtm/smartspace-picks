@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "Wi-Fi 7 router for NAS";
 export const introParagraphs = [
   "NAS-to-multiple-client transfer speed depends on switch topology beyond just the router's own multi-gig port, an additional switch may be needed for genuinely fast transfers to more than one device simultaneously.",
-  "Link aggregation, combining two Ethernet ports for higher combined NAS throughput, is a genuine NAS-specific router feature worth verifying rather than assuming from a generic multi-gig port spec alone.",
+  "Link aggregation, combining two Ethernet ports for higher combined NAS throughput, is a genuine NAS-specific router feature worth verifying rather than assuming from a generic multi-gig port spec alone."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wi-Fi 7 Router for NAS Setups Overall",
     name: "GL.iNet GL-BE9300 Flint 3 Tri-Band Wi-Fi 7 Router 5 x 2.5G VPN Router",
     price: "$209.99",
-    rating: "4.4 stars from 977 Amazon ratings",
-    reviews: "977 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31aDV5B5NkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FB8X43KJ?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best 10G Port Pick for NAS",
     name: "TP-Link Tri-Band BE9700 WiFi 7 Router (Archer BE600), 10G Port, 2.5G Port, 3× 2.5G LAN, 320MHz Channel, Covers up to 2,600 sq. ft., 120 Devices, VPN, HomeShield Security",
     price: "$189.99",
-    rating: "4.3 stars from 472 Amazon ratings",
-    reviews: "472 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/415NxCTrJpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F76PQ2T8?tag=deskfinds0d-20",
     description:
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best Established Brand NAS Pick",
     name: "NETGEAR Nighthawk WiFi 7 Router (BE9300), Router Only, 9.3Gbps Wireless Speed, 2.5 Gigabit Internet Port, Tri-Band for Gaming, Covers 2,500 sq. ft., 100 Devices, VPN",
     price: "$249.00",
-    rating: "4.3 stars from 647 Amazon ratings",
-    reviews: "647 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21jixzpoeiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK7Q5SCN?tag=deskfinds0d-20",
     description:
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Dual 10G Port Pick for NAS",
     name: "TP-Link Tri-Band BE19000 WiFi 7 Router (Archer BE800) | 12-Stream 19 Gbps | 2×10G + 4×2.5G Ports | LED Screen, 8 High-Performance Antennas | VPN, Easy Mesh, HomeShield, Private IoT",
     price: "$329.99",
-    rating: "4.0 stars from 503 Amazon ratings",
-    reviews: "503 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/416sP+jL17L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C4VZWTM7?tag=deskfinds0d-20",
     description:
@@ -87,7 +87,7 @@ export const products: GuideProduct[] = [
     pros: ["Two full 10G ports for dedicated NAS and uplink connections", "Most NAS-infrastructure-capable pick in this guide", "8 antennas for strong overall Wi-Fi performance", "4×2.5G LAN ports for additional wired devices"],
     cons: ["Highest price in this guide", "Overkill for casual home NAS use", "Lower average rating suggests verifying current firmware reviews first"],
     bestFor: "Demanding NAS setups needing dedicated 10GbE connections and uplink capacity",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -95,7 +95,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Multi-gig port relevance to NAS use cross-referenced", description: "Cross-referenced this research directly with our multi-gig router findings, since NAS use is the primary real-world driver of needing those multi-gig wired ports." },
   { title: "Switch topology requirement clarified for multi-client transfers", description: "Clarified that NAS-to-multiple-client transfer speed depends on switch topology beyond just the router's own multi-gig port, noting when an additional switch is genuinely needed." },
   { title: "Link aggregation support verified as a NAS-specific feature", description: "Verified link aggregation (combining two Ethernet ports for higher combined NAS throughput) support as a genuine NAS-specific router feature not covered in generic router reviews." },
-  { title: "VLAN/network segmentation support checked for NAS security", description: "Verified VLAN/network segmentation support for isolating a NAS on its own subnet for security purposes, an advanced but genuinely relevant feature for this technical audience." },
+  { title: "VLAN/network segmentation support checked for NAS security", description: "Verified VLAN/network segmentation support for isolating a NAS on its own subnet for security purposes, an advanced but genuinely relevant feature for this technical audience." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -222,11 +222,11 @@ export const faq: FaqItem[] = [
   { q: "Does a router's multi-gig port guarantee fast transfers to my NAS from multiple devices?", a: "Not necessarily. NAS-to-multiple-client transfer speed depends on switch topology beyond just the router's own multi-gig port, an additional switch may be needed for genuinely fast multi-device transfers." },
   { q: "What is link aggregation and does it matter for a NAS router?", a: "It's combining two Ethernet ports for higher combined NAS throughput, a genuine NAS-specific feature worth verifying directly with the manufacturer rather than assuming from a generic multi-gig spec." },
   { q: "Should I prioritize peak speed or reliability for NAS backups?", a: "Reliability. NAS backup/sync workflows benefit from consistent low-latency connections more than peak bandwidth alone, an established router's routing stability matters more here." },
-  { q: "Is VLAN support important for a NAS setup?", a: "Yes, for security-conscious buyers. VLAN/network segmentation lets you isolate a NAS on its own subnet, a genuinely relevant advanced feature for this technical audience." },
+  { q: "Is VLAN support important for a NAS setup?", a: "Yes, for security-conscious buyers. VLAN/network segmentation lets you isolate a NAS on its own subnet, a genuinely relevant advanced feature for this technical audience." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-multi-gig-wifi-7-routers", title: "Best Multi-Gig Wi-Fi 7 Routers (2026)" },
   { href: "/guide/best-be9300-wifi-7-routers", title: "Best BE9300 Wi-Fi 7 Routers (2026)" },
-  { href: "/guide/best-be19000-wifi-7-routers", title: "Best BE19000 Wi-Fi 7 Routers (2026)" },
+  { href: "/guide/best-be19000-wifi-7-routers", title: "Best BE19000 Wi-Fi 7 Routers (2026)" }
 ];

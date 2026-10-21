@@ -5,7 +5,7 @@ export const metaDescription = "5 2-port KVM switches we evaluated, with a note 
 export const mainKeyword = "2 port kvm switch";
 export const introParagraphs = [
   "A 2-port switch is the simplest and most affordable KVM category, but don't assume lower price automatically means acceptable quality compromises, check EDID emulation and USB peripheral scope specifically rather than assuming a basic 2-port design cuts these corners.",
-  "Physical port placement on the back of a 2-port switch matters for desk cable management, a switch with awkwardly spaced or hard-to-reach ports can be more annoying to use daily than the port count itself would suggest.",
+  "Physical port placement on the back of a 2-port switch matters for desk cable management, a switch with awkwardly spaced or hard-to-reach ports can be more annoying to use daily than the port count itself would suggest."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     badge: "Best 2-Port KVM Switch Overall",
     name: "TIGKTING USB 3.0 HDMI KVM Switch 1 Monitors 2 Computers 4K60Hz KVM Switches 2 Ports for 2 PC 1 Monitor",
     price: "$29.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41EdJsfqo4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H2YVL93R?tag=deskfinds0d-20",
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     badge: "Best High-Resolution 2-Port Pick",
     name: "UGREEN HDMI KVM Switch 1 Monitor 2 Computers, 8K@60Hz, Aluminum",
     price: "$64.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41K5Wvne7oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFFCPL26?tag=deskfinds0d-20",
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     badge: "Best Value 2-Port Pick with USB 3.0",
     name: "USB3.0 KVM Switch 2 Port HDMI, 4K@60Hz KVM Switch 1 Monitors 2 Computers with 3 USB3.0 Ports",
     price: "$32.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41uSOQO2ILL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFVBK4XQ?tag=deskfinds0d-20",
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     badge: "Best Ultra-Budget 2-Port Pick",
     name: "Hearvo USB 3.0 HDMI KVM Switch for 2 Computers 1 Monitor, 4K@60Hz, S7232H",
     price: "$26.23",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41ll9M3dnWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5D4FK1H?tag=deskfinds0d-20",
@@ -89,7 +89,7 @@ export const products: GuideProduct[] = [
     badge: "Best 2-Port Pick with USB-C Connectivity",
     name: "KVM Switch 1 Monitors 2 Computers 4K@60Hz USB C HDMI KVM Switch 2 Port for 1 Laptop 1 Desktop",
     price: "$55.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41BxNjK7PrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GY4R958W?tag=deskfinds0d-20",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Quality corners not assumed cut simply due to lower price", description: "Checked EDID emulation and USB peripheral scope specifically rather than assuming a basic 2-port design automatically cuts these corners at a lower price." },
   { title: "Port placement considered for desk cable management", description: "Considered physical port placement on the back of each switch, since awkwardly spaced ports can be more annoying to use daily than port count alone suggests." },
   { title: "Connector type flexibility valued for mixed device pairings", description: "Valued switches offering USB-C alongside HDMI for buyers with a mixed laptop-desktop device pairing rather than two identical desktop sources." },
-  { title: "Value assessed for the simplest, most common KVM use case", description: "Assessed genuine value for the simplest and most common 2-port KVM use case, which doesn't need premium multi-monitor or expansion features." },
+  { title: "Value assessed for the simplest, most common KVM use case", description: "Assessed genuine value for the simplest and most common 2-port KVM use case, which doesn't need premium multi-monitor or expansion features." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Can a 2-port KVM switch handle a laptop and a desktop?", a: "Yes, some models specifically include USB-C connectivity alongside HDMI for this common mixed-device pairing." },
   { q: "Is a 2-port KVM switch enough for most home office setups?", a: "For the most common two-computer use case, yes, this is the simplest and most affordable KVM category and covers the need well." },
   { q: "Which pick in this comparison is the best overall choice?", a: "Buyers with exactly two computers wanting simplicity and value in a 2-port switch" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting the most affordable simple 2-port KVM switch At $26.23, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting the most affordable simple 2-port KVM switch At under $30, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-kvm-switches-for-two-computers", title: "Best KVM Switches for Two Computers (2026)" },
   { href: "/guide/best-usb-kvm-switches", title: "Best USB KVM Switches (2026)" },
-  { href: "/guide/best-kvm-switches-for-a-laptop-and-desktop", title: "Best KVM Switches for a Laptop and Desktop (2026)" },
+  { href: "/guide/best-kvm-switches-for-a-laptop-and-desktop", title: "Best KVM Switches for a Laptop and Desktop (2026)" }
 ];

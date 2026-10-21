@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "nightstand for dorm";
 export const introParagraphs = [
   "A dorm nightstand has to work around fixed floor space and, often, a bunk or loft bed frame rather than a normal bedroom layout, which is why this guide covers two different formats: clip-on shelves that clamp to a bed rail and use zero floor space, and small standing nightstands for dorms with room for one on the floor. Which format fits depends entirely on your room's actual bed setup, not personal preference alone.",
-  "Below are 7 nightstands for dorm rooms we evaluated on capacity, clamp fit, charging features, and value, ranging from a $19.99 standing 3-tier shelf to a $41.99 LED charging nightstand with 3 drawers.",
+  "Below are 7 nightstands for dorm rooms we evaluated on capacity, clamp fit, charging features, and value, ranging from an under-$20 standing 3-tier shelf to an under-$45 LED charging nightstand with 3 drawers."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -70,18 +70,18 @@ export const products: GuideProduct[] = [
       "Hard recyclable plastic",
       "Tool-free clip-on install",
       "T-shaped cable catch",
-      "35 lb capacity",
+      "35 lb capacity"
     ],
     pros: [
       "Best-selling clip-on pick in this guide",
       "Unique T-shaped cable catch for clean cable routing",
       "Zero floor footprint",
-      "Scratch-resistant matte black finish",
+      "Scratch-resistant matte black finish"
     ],
     cons: [
       "Clamp jaw range must match your specific bed rail thickness",
       "No drawers or enclosed storage",
-      "Some dorms restrict bed-clamped items, check RA policy first",
+      "Some dorms restrict bed-clamped items, check RA policy first"
     ],
     bestFor: "Bunk and loft beds where floor space isn't an option",
   },
@@ -102,18 +102,18 @@ export const products: GuideProduct[] = [
       "CARB composite wood + PVC tubes",
       "3-tier open shelving",
       "FSC-certified, rounded corners",
-      "30 lb capacity",
+      "30 lb capacity"
     ],
     pros: [
       "Cheapest pick in this guide",
       "FSC-certified and CARB-compliant, the safest certified pick here",
       "Quick assembly for move-in day",
-      "Rounded corners suit a tight dorm room",
+      "Rounded corners suit a tight dorm room"
     ],
     cons: [
       "Needs floor space, not usable on a bunk bed without a floor spot",
       "No charging features",
-      "Lowest capacity among the standing nightstands here",
+      "Lowest capacity among the standing nightstands here"
     ],
     bestFor: "Buyers with floor space who want the cheapest certified option",
   },
@@ -128,24 +128,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31e88e7lcdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8HB91DS?tag=deskfinds0d-20",
     description:
-      "The WLIVE carries by far the largest review base in this entire guide, with over 21,000 ratings backing its 2-drawer engineered wood and carbon steel build. A spill-proof wooden top is a genuinely useful detail in a dorm room where drinks and snacks share the same surface as electronics.\n\nFour self-leveling feet handle uneven dorm flooring, and assembly takes about 15 minutes. It has no built-in charging, so it's a straightforward standing nightstand rather than a tech-focused one.\n\nA genuine advantage here is that spill-proof top protects against dorm room accidents. The tradeoff is no charging outlets.",
+      "A spill-proof wooden top is a genuinely useful detail in a dorm room where drinks and snacks share the same surface as electronics.\n\nFour self-leveling feet handle uneven dorm flooring, and assembly takes about 15 minutes. It has no built-in charging, so it's a straightforward standing nightstand rather than a tech-focused one.\n\nA genuine advantage here is that spill-proof top protects against dorm room accidents. The tradeoff is no charging outlets.",
     specs: [
       "15.7\"W x 11.8\"D x 20.9\"H",
       "Engineered wood + carbon steel",
       "2 removable fabric drawers",
       "Spill-proof wooden top",
-      "4 self-leveling feet",
+      "4 self-leveling feet"
     ],
     pros: [
-      "Largest review base in this entire guide at 21,228 ratings",
       "Spill-proof top protects against dorm room accidents",
       "Self-leveling feet for uneven flooring",
-      "15-minute assembly",
+      "15-minute assembly"
     ],
     cons: [
       "No charging outlets",
       "Fabric drawers wear faster than solid wood",
-      "Needs floor space, not usable on a bunk without a floor spot",
+      "Needs floor space, not usable on a bunk without a floor spot"
     ],
     bestFor: "Buyers who want the most proven, widely-reviewed standing nightstand",
   },
@@ -166,18 +165,18 @@ export const products: GuideProduct[] = [
       "Alloy steel + water-resistant wood top",
       "2 removable fabric drawers",
       "Arch handles",
-      "15-minute assembly",
+      "15-minute assembly"
     ],
     pros: [
       "Cheapest 2-drawer standing pick in this guide",
       "Water-resistant top handles everyday dorm spills",
       "Arch handles look more finished than open-tier designs",
-      "Quick 15-minute assembly",
+      "Quick 15-minute assembly"
     ],
     cons: [
       "No charging features",
       "Widest footprint among the standing 2-drawer picks at 18\"",
-      "Fabric drawers wear faster than solid wood",
+      "Fabric drawers wear faster than solid wood"
     ],
     bestFor: "Buyers who want a drawer nightstand on the cheapest possible budget",
   },
@@ -198,18 +197,17 @@ export const products: GuideProduct[] = [
       "P2 particleboard + powder-coated steel",
       "2 AC + 1 USB-A + 1 USB-C outlets",
       "LED 60,000 colors, app control, music sync",
-      "2 fabric drawers",
+      "2 fabric drawers"
     ],
     pros: [
       "Most complete charging setup in this guide",
       "LED with app control and music sync is unique to this pick",
-      "2 closed fabric drawers",
-      "Strong 4.6-star rating",
+      "2 closed fabric drawers"
     ],
     cons: [
       "Pricier than the non-charging standing picks",
       "LED features add complexity some buyers won't use",
-      "Needs floor space, not usable on a bunk without a floor spot",
+      "Needs floor space, not usable on a bunk without a floor spot"
     ],
     bestFor: "Buyers who want the most feature-complete charging and LED nightstand",
   },
@@ -230,18 +228,18 @@ export const products: GuideProduct[] = [
       "Wood board + metal, X-bar support frame",
       "3 fabric drawers",
       "2 AC + 2 USB outlets",
-      "16 RGB colors, FCC & ETL certified",
+      "16 RGB colors, FCC & ETL certified"
     ],
     pros: [
       "FCC and ETL certified, the safest electrically certified pick here",
       "Most drawers among the charging picks in this guide",
       "X-bar frame adds stability at a taller height",
-      "16 RGB colors with 22 lighting modes",
+      "16 RGB colors with 22 lighting modes"
     ],
     cons: [
       "Most expensive pick in this guide",
       "Smallest review base among the standing nightstands",
-      "Needs floor space, not usable on a bunk without a floor spot",
+      "Needs floor space, not usable on a bunk without a floor spot"
     ],
     bestFor: "Buyers who want the most drawers and the safest electrical certification",
   },
@@ -256,27 +254,26 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51W89-RLpTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPGLXCBD?tag=deskfinds0d-20",
     description:
-      "The AUZONIMICS packs the most features of any pick in this guide onto a clip-on shelf, including a cup holder, USB cable slots, a phone or tablet holder, and a power strip holder, the only pick here with a dedicated spot for a power strip. Its 0 to 3 inch clamp opening range is the widest in this guide, so it fits a broader range of bed rail thicknesses.\n\nAt 50 lbs capacity it matches the highest clip-on rating in this guide. Note this pick has a genuinely small review count so far, just 3 reviews at the time of writing, so treat its 4.2-star average as an early signal rather than a proven track record the way the BedShelfie's nearly 4,000 reviews represent.\n\nWidest clamp opening range in this guide, fits more bed rail thicknesses. Set against that, very small review count so far, just 3 reviews. Both matter when comparing it to the other picks here.",
+      "The AUZONIMICS packs the most features of any pick in this guide onto a clip-on shelf, including a cup holder, USB cable slots, a phone or tablet holder, and a power strip holder, the only pick here with a dedicated spot for a power strip. Its 0 to 3 inch clamp opening range is the widest in this guide, so it fits a broader range of bed rail thicknesses.\n\nAt 50 lbs capacity it matches the highest clip-on rating in this guide.\n\nWidest clamp opening range in this guide, fits more bed rail thicknesses. Both matter when comparing it to the other picks here.",
     specs: [
       "15\"L x 10\"W x 3\"H",
       "Recycled plastic",
       "Clip-on/clamp, 0\"-3\" clamp opening range",
       "Cup holder, USB slots, phone/tablet holder, power strip holder",
-      "50 lb capacity",
+      "50 lb capacity"
     ],
     pros: [
       "Most features of any pick in this guide, including a power strip holder",
       "Widest clamp opening range in this guide, fits more bed rail thicknesses",
       "Highest clip-on capacity in this guide at 50 lbs",
-      "Cup holder and device holders built in",
+      "Cup holder and device holders built in"
     ],
     cons: [
-      "Very small review count so far, just 3 reviews",
       "Recycled plastic feels less premium than the BedShelfie's build",
-      "Some dorms restrict bed-clamped items, check RA policy first",
+      "Some dorms restrict bed-clamped items, check RA policy first"
     ],
     bestFor: "Buyers who want the most features on a clip-on shelf and a wide clamp fit",
-  },
+  }
 ];
 
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
@@ -299,7 +296,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed capacity, features, and review track record against price, from the Furinno to the Yoobure White 3-Drawer.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -438,18 +435,15 @@ export const faq: FaqItem[] = [
     q: "Which dorm nightstand has the most charging features?",
     a: "The Huuger Black LED 2-Drawer Nightstand combines 2 AC outlets, 1 USB-A, and 1 USB-C port with an LED strip that supports app control and music sync, the most complete charging and lighting setup in this guide.",
   },
-  {
-    q: "Why does the AUZONIMICS Bunk Bed Shelf have so few reviews?",
-    a: "It's a newer listing with only 3 reviews at the time of writing, so its 4.2-star average should be treated as an early signal rather than a proven track record. If you want a clip-on shelf with a much larger review base, the BedShelfie CableCatch has nearly 4,000 reviews behind its 4.6-star rating.",
-  },
+  
   {
     q: "What's the cheapest way to get a dorm nightstand with drawers?",
-    a: "The Sweetcrispy Black 2-Drawer Nightstand is the cheapest 2-drawer standing option in this guide at $20.97, giving you enclosed storage without paying for charging hardware you may not need.",
-  },
+    a: "The Sweetcrispy Black 2-Drawer Nightstand is the cheapest 2-drawer standing option in this guide at under $25, giving you enclosed storage without paying for charging hardware you may not need.",
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-nightstand-narrow", title: "Best Narrow Nightstands (2026)" },
   { href: "/guide/best-nightstand-organizer", title: "Best Nightstand Organizers (2026)" },
-  { href: "/guide/best-room-divider-with-storage", title: "Best Room Dividers with Storage (2026)" },
+  { href: "/guide/best-room-divider-with-storage", title: "Best Room Dividers with Storage (2026)" }
 ];

@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Studio-grade converters with built-in streaming loopback", "MOTU M4 4x4 USB-C Audio Interface"],
         ["ADAT expansion to grow beyond 4 channels later", "Audient iD14 MKII USB Audio Interface"],
         ["Vintage tube-style character across 2 mic channels", "Universal Audio Volt 276 USB Audio Interface"],
-        ["Auto Gain convenience with a clean signal path", "Focusrite Scarlett 4i4 4th Gen USB Audio Interface"],
+        ["Auto Gain convenience with a clean signal path", "Focusrite Scarlett 4i4 4th Gen USB Audio Interface"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $280", "MOTU M4 4x4 ($279.95)"],
-        ["Under $286", "Audient iD14 MKII ($285.00)"],
-        ["Under $300", "Universal Audio Volt 276 ($299.00) or Focusrite Scarlett 4i4 4th Gen ($299.99)"],
+        ["Under $280", "MOTU M4 4x4 (under $300)"],
+        ["Under $286", "Audient iD14 MKII (under $300)"],
+        ["Under $300", "Universal Audio Volt 276 (under $300) or Focusrite Scarlett 4i4 4th Gen (under $300)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Fixed Channel Count vs Expandable ADAT Design",
     cards: [
       { label: "Fixed 4-channel design (MOTU M4, Volt 276, Scarlett 4i4)", text: "Provides everything you need today in a simpler package with no future upgrade path if your channel needs grow beyond 4 inputs." },
-      { label: "ADAT-expandable design (Audient iD14 MKII)", text: "Starts at 2 built-in mic preamps but can grow to 12+ channels by adding a compatible ADAT preamp expander down the road." },
+      { label: "ADAT-expandable design (Audient iD14 MKII)", text: "Starts at 2 built-in mic preamps but can grow to 12+ channels by adding a compatible ADAT preamp expander down the road." }
     ],
     note: "If you're confident 4 channels will always be enough, the fixed-channel picks are simpler and don't require future expansion hardware. If you anticipate recording larger groups eventually, the Audient iD14 MKII's ADAT path avoids needing to replace the whole interface later.",
   },
@@ -137,7 +137,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your tonal preference", "Recommended pick"],
       rows: [
         ["Clean, transparent, unprocessed signal", "MOTU M4, Audient iD14 MKII, or Focusrite Scarlett 4i4"],
-        ["Warm, vintage tube-style coloration", "Universal Audio Volt 276"],
+        ["Warm, vintage tube-style coloration", "Universal Audio Volt 276"]
       ],
     },
   },
@@ -145,16 +145,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Live-Streamed Podcast With Computer Audio Mixed In Specifically",
     cards: [
       { label: "Look for", text: "A built-in loopback feature that combines live microphone input with computer playback audio into one output stream, without requiring separate virtual audio routing software." },
-      { label: "In this comparison", text: "Both the MOTU M4 and Focusrite Scarlett 4i4 specifically include built-in Loopback functionality, directly solving this streaming mixing need." },
+      { label: "In this comparison", text: "Both the MOTU M4 and Focusrite Scarlett 4i4 specifically include built-in Loopback functionality, directly solving this streaming mixing need." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want future ADAT expansion room to grow past 4 channels without replacing your interface, where the Audient iD14 MKII justifies its price with that upgrade path." },
-      { label: "Save if", text: "You're confident 4 fixed channels will always be enough and want the best converter specs at the lowest price, where the MOTU M4 delivers 120dB dynamic range for $279.95." },
+      { label: "Save if", text: "You're confident 4 fixed channels will always be enough and want the best converter specs at the lowest price, where the MOTU M4 delivers 120dB dynamic range for under $300." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Tested ruggedness with health monitoring software", "Samsung T7 Shield Portable SSD 2TB"],
         ["The most capacity without sacrificing durability", "Crucial X10 4TB Portable SSD"],
-        ["Faster speed within Samsung's own lineup", "Samsung T9 Portable SSD 2TB"],
+        ["Faster speed within Samsung's own lineup", "Samsung T9 Portable SSD 2TB"]
       ],
     },
   },
@@ -116,9 +116,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["$425-$430", "Samsung T7 Shield Portable SSD 2TB ($424.99) or Samsung T9 Portable SSD 2TB ($429.99)"],
-        ["$435-$440", "Crucial X10 4TB Portable SSD ($438.24)"],
-        ["$445-$450", "Sandisk 2TB Extreme Portable SSD ($449.78)"],
+        ["$425-$430", "Samsung T7 Shield Portable SSD 2TB (under $450) or Samsung T9 Portable SSD 2TB (under $450)"],
+        ["$435-$440", "Crucial X10 4TB Portable SSD (under $450)"],
+        ["$445-$450", "Sandisk 2TB Extreme Portable SSD (under $450)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "2TB vs 4TB at a Similar Price",
     cards: [
       { label: "2TB (Samsung T7 Shield, Sandisk Extreme, Samsung T9)", text: "Multiple brand and speed options at this capacity, letting you prioritize durability, brand, or raw speed independently. Best if 2TB genuinely covers your storage needs with room to spare." },
-      { label: "4TB (Crucial X10)", text: "Double the capacity for only a small price premium over the 2TB Samsung pick, without sacrificing IP65 durability. Best if you're unsure whether 2TB will be enough long-term." },
+      { label: "4TB (Crucial X10)", text: "Double the capacity for only a small price premium over the 2TB Samsung pick, without sacrificing IP65 durability. Best if you're unsure whether 2TB will be enough long-term." }
     ],
     note: "Most buyers unsure about future storage needs should default to the Crucial X10 4TB Portable SSD given how little capacity costs at this tier.",
   },
@@ -136,7 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Priority", "Recommended pick"],
       rows: [
         ["Tested IP65 rating and drop resistance", "Samsung T7 Shield Portable SSD 2TB"],
-        ["Faster Gen 2x2 speed at the same capacity", "Samsung T9 Portable SSD 2TB"],
+        ["Faster Gen 2x2 speed at the same capacity", "Samsung T9 Portable SSD 2TB"]
       ],
     },
   },
@@ -144,16 +144,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Fieldwork or Outdoor Use Specifically",
     cards: [
       { label: "Look for", text: "A stated IP rating number and a specific drop-height figure, not just general \"rugged\" marketing language, especially at this price tier where the expectation for documented testing is higher." },
-      { label: "In this comparison", text: "The Samsung T7 Shield Portable SSD 2TB and Crucial X10 4TB Portable SSD both state a matching IP65 rating and 9.8ft drop resistance, making either a solid fit for genuinely rugged conditions." },
+      { label: "In this comparison", text: "The Samsung T7 Shield Portable SSD 2TB and Crucial X10 4TB Portable SSD both state a matching IP65 rating and 9.8ft drop resistance, making either a solid fit for genuinely rugged conditions." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You need the Sandisk 2TB Extreme Portable SSD's higher speed with Sandisk's established brand name specifically, even without a stated IP rating to match the Samsung and Crucial picks." },
-      { label: "Save if", text: "The Samsung T7 Shield Portable SSD 2TB's documented durability and health software already cover your needs at the lowest price point in this comparison." },
+      { label: "Save if", text: "The Samsung T7 Shield Portable SSD 2TB's documented durability and health software already cover your needs at the lowest price point in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

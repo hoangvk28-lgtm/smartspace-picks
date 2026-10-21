@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Full 360-degree rear access without unmounting", "Mount-It! CPU Under Desk Mount Bracket, 360 Degree Swivel"],
         ["Two mounts at the best combined value", "suptek Thin Client Mount Bracket, 2 Pack"],
         ["Solid swivel and heavy-duty capacity at a lower price", "VIVO Black Under Desk and Wall Office PC Mount"],
-        ["A precisely matched fit for a genuine OptiPlex Micro", "HumanCentric Mount for Dell OptiPlex Micro"],
+        ["A precisely matched fit for a genuine OptiPlex Micro", "HumanCentric Mount for Dell OptiPlex Micro"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $35", "VIVO ($34.99) or HumanCentric Dell OptiPlex ($34.99)"],
-        ["Under $38", "suptek 2 Pack ($37.99)"],
-        ["Under $46", "Mount-It! 360 Swivel ($45.99)"],
+        ["Under $35", "VIVO (under $35) or HumanCentric Dell OptiPlex (under $35)"],
+        ["Under $38", "suptek 2 Pack (under $40)"],
+        ["Under $46", "Mount-It! 360 Swivel (under $50)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "360-Degree Swivel vs 135-Degree Swivel",
     cards: [
       { label: "360-degree swivel (Mount-It!)", text: "Full rotation reaches any angle for rear port access, worth the price premium if you frequently swap cables or peripherals." },
-      { label: "135-degree swivel (VIVO)", text: "Still provides genuinely easy backside access for most cable and port needs, at a lower price than the full-rotation pick." },
+      { label: "135-degree swivel (VIVO)", text: "Still provides genuinely easy backside access for most cable and port needs, at a lower price than the full-rotation pick." }
     ],
     note: "If you rarely need to reach rear ports after initial setup, the VIVO's 135-degree swivel and lower price make more sense than paying for full rotation you'll use infrequently.",
   },
@@ -137,7 +137,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your device size", "Recommended pick"],
       rows: [
         ["Genuinely tiny OptiPlex Micro or thin client", "HumanCentric Dell OptiPlex Mount or suptek 2 Pack"],
-        ["Larger small form factor PC case", "Mount-It! 360 Swivel or VIVO Black Mount"],
+        ["Larger small form factor PC case", "Mount-It! 360 Swivel or VIVO Black Mount"]
       ],
     },
   },
@@ -145,16 +145,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Frequently Reconfigured Workstation Specifically",
     cards: [
       { label: "Look for", text: "Full swivel range so you can access rear ports and cables repeatedly without unmounting the device each time." },
-      { label: "In this comparison", text: "The Mount-It! pick's full 360-degree swivel suits a workstation where cables or peripherals change often." },
+      { label: "In this comparison", text: "The Mount-It! pick's full 360-degree swivel suits a workstation where cables or peripherals change often." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You need full 360-degree rotation and the widest device size range, where the Mount-It! pick delivers both at the top of this tier's price range." },
-      { label: "Save if", text: "You have a genuinely compact OptiPlex Micro or just need two standard mounts, where the HumanCentric or suptek picks cover that need for about $11 less." },
+      { label: "Save if", text: "You have a genuinely compact OptiPlex Micro or just need two standard mounts, where the HumanCentric or suptek picks cover that need for about $11 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

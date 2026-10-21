@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31+FKQTX8DL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FNRDBGCZ?tag=deskfinds0d-20",
-    description: "A shallower version of AceOrbit's keyboard tray at 8 inches deep, useful in racks with less clearance behind the front rails than the 10-inch model needs.\n\nIt keeps the same reinforced crossbar and 6.89-inch pull-out extension as the deeper model, so functionality doesn't shrink along with the depth.\n\nThis pick is best for buyers who value shallower 8\" depth fits racks with less clearance along with same reinforced crossbar as the deeper 10\" model. The catch is that keyboard not included, sold separately, so decide if that's worth it at $45.99.",
+    description: "A shallower version of AceOrbit's keyboard tray at 8 inches deep, useful in racks with less clearance behind the front rails than the 10-inch model needs.\n\nIt keeps the same reinforced crossbar and 6.89-inch pull-out extension as the deeper model, so functionality doesn't shrink along with the depth.\n\nThis pick is best for buyers who value shallower 8\" depth fits racks with less clearance along with same reinforced crossbar as the deeper 10\" model. The catch is that keyboard not included, sold separately, so decide if that's worth it at under $50.",
     specs: ["1U, 19\"W x 9\"D external","6.89\" pull-out extension","Reinforced crossbar for stability"],
     pros: ["Shallower 8\" depth fits racks with less clearance","Same reinforced crossbar as the deeper 10\" model","6.89\" pull-out matches the larger version's reach"],
     cons: ["Keyboard not included, sold separately","Slightly less desktop area than the 10\" version"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41EwJ8Xbc8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H1BZR3G5?tag=deskfinds0d-20",
-    description: "A genuinely compact keyboard tray at just 9.25 inches deep, well suited to shallower cabinets and network closets where a standard-depth shelf wouldn't physically fit.\n\nReinforced support structure reduces movement during extension, and it's explicitly listed as suitable for data centers, network closets, and home labs alike.\n\nThe strongest case for this pick comes down to 9.25\" depth fits shallow cabinets deeper trays can't as well as reinforced structure reduces wobble during use. The compromise here is that shallower depth means less desktop surface area, so factor that in alongside the $44.98 asking price.",
+    description: "A genuinely compact keyboard tray at just 9.25 inches deep, well suited to shallower cabinets and network closets where a standard-depth shelf wouldn't physically fit.\n\nReinforced support structure reduces movement during extension, and it's explicitly listed as suitable for data centers, network closets, and home labs alike.\n\nThe strongest case for this pick comes down to 9.25\" depth fits shallow cabinets deeper trays can't as well as reinforced structure reduces wobble during use. The compromise here is that shallower depth means less desktop surface area, so factor that in alongside the under $45 asking price.",
     specs: ["1U, 9.25\" deep","Universal 19\" rack compatibility","Smooth slide rails"],
     pros: ["9.25\" depth fits shallow cabinets deeper trays can't","Reinforced structure reduces wobble during use","Only takes up 1U in compact or standard racks"],
     cons: ["Shallower depth means less desktop surface area","Basic slide rails, not the smoother ball-bearing type"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31MVNU6thuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DLWKZTML?tag=deskfinds0d-20",
-    description: "A budget-friendly keyboard tray with the same reinforced horizontal bar design found on the deeper AceOrbit models, keeping the shaking-prevention feature at a lower price point.\n\nIt pulls out 6.89 inches for 2-post rack installations, matching the extension distance of the pricier alternatives in this category.\n\nWhere this one earns its spot is reinforced bar matches pricier trays' stability at a lower cost, and 6.89\" pull-out gives real usable keyboard space. Worth noting before buying: keyboard not included in the purchase, which matters more at $47.99 than it would on a cheaper pick.",
+    description: "A budget-friendly keyboard tray with the same reinforced horizontal bar design found on the deeper AceOrbit models, keeping the shaking-prevention feature at a lower price point.\n\nIt pulls out 6.89 inches for 2-post rack installations, matching the extension distance of the pricier alternatives in this category.\n\nWhere this one earns its spot is reinforced bar matches pricier trays' stability at a lower cost, and 6.89\" pull-out gives real usable keyboard space. Worth noting before buying: keyboard not included in the purchase, which matters more at under $50 than it would on a cheaper pick.",
     specs: ["1U, 19\"W x 8\"D","6.89\" pull-out extension","Reinforced horizontal bar"],
     pros: ["Reinforced bar matches pricier trays' stability at a lower cost","6.89\" pull-out gives real usable keyboard space","Simple side-bracket install takes just minutes"],
     cons: ["Keyboard not included in the purchase","Basic build quality compared to steel 3-rail alternatives"],
@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $39.67",
+          "Under $40",
           "Electriduct 1U Keyboard Tray"
         ],
         [
-          "Around $44.98",
+          "Under $45",
           "1U Rack Mount Keyboard Tray"
         ],
         [
-          "Around $45.99",
+          "Under $50",
           "AceOrbit 1U Keyboard Tray"
         ],
         [
-          "Around $47.99",
+          "Under $50",
           "JINGCHENGMEI 1U Keyboard Tray"
         ],
         [
-          "Around $49.99",
+          "Under $50",
           "AceOrbit 1U Keyboard Tray"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "AceOrbit 1U Keyboard Tray is aimed at buyers prioritizing 1u, 19\"w x 10\"d external." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "AceOrbit 1U Keyboard Tray is aimed at buyers prioritizing 1u, 19\"w x 10\"d external." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

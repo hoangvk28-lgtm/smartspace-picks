@@ -12,7 +12,7 @@ export const airPurifierCadrExplainedGuide: Guide = {
     "what is cadr rating air purifier",
     "cadr rating for room size",
     "air purifier coverage area guide",
-    "best cadr for small office",
+    "best cadr for small office"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const airPurifierCadrExplainedGuide: Guide = {
     "humidifier-room-size-chart",
     "desk-fan-cfm-explained",
     "space-heater-room-size-chart",
-    "space-heater-safety-explained",
+    "space-heater-safety-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const airPurifierCadrExplainedGuide: Guide = {
       question: "How is CADR different from just the purifier's room size claim?",
       answer:
         "A manufacturer's stated room size coverage is often based on the same CADR data but can vary in how conservatively it's calculated, checking the actual CADR number lets you compare purifiers more directly across brands than relying on room size claims alone.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const airPurifierCadrExplainedGuide: Guide = {
     {
       heading: "Balancing CADR Against Noise and Running Cost",
       body: `A purifier with a very high CADR relative to your room size will clean air faster, but often at the cost of higher fan noise on its higher speed settings and a filter that needs replacing more frequently given the higher airflow through it. For most home office needs, choosing a CADR that comfortably matches your room size, rather than significantly exceeding it, balances effective air cleaning against unnecessary noise and filter replacement cost.`,
-    },
+    }
   ],
 };

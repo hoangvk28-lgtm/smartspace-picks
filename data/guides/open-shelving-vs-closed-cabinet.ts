@@ -12,7 +12,7 @@ export const openShelvingVsClosedCabinetGuide: Guide = {
     "open shelves vs cabinet doors office",
     "closed storage for office clutter",
     "open shelving dust accumulation",
-    "office storage visible vs hidden",
+    "office storage visible vs hidden"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const openShelvingVsClosedCabinetGuide: Guide = {
     "floating-shelf-vs-bookcase",
     "desk-organizer-types-explained",
     "desk-declutter-checklist",
-    "under-desk-storage-options-explained",
+    "under-desk-storage-options-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const openShelvingVsClosedCabinetGuide: Guide = {
       question: "Can I combine both open shelving and closed cabinets in one office?",
       answer:
         "Yes, many home offices use open shelving for frequently accessed and display-worthy items while reserving closed cabinets for less attractive but necessary supplies, files, or clutter-prone items, combining the benefits of both approaches.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const openShelvingVsClosedCabinetGuide: Guide = {
     {
       heading: "Why the Right Choice Often Depends on the Specific Item Category",
       body: `Rather than choosing exclusively one storage type for an entire office, consider each category of item separately, frequently used daily tools benefit from open shelving's immediate access, while less visually appealing but necessary items, files, cables, or supplies you don't want on display, are better suited to closed cabinet storage. This item-by-item approach often produces a more functional and visually comfortable office than committing entirely to either open or closed storage for everything.`,
-    },
+    }
   ],
 };

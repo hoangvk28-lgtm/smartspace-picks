@@ -12,7 +12,7 @@ export const waterBottleVsPitcherDeskGuide: Guide = {
     "large water bottle for desk hydration",
     "desk pitcher vs bottle refills",
     "staying hydrated at desk job",
-    "best water container for office",
+    "best water container for office"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const waterBottleVsPitcherDeskGuide: Guide = {
     "insulated-mug-vs-regular-mug-desk",
     "desk-coffee-maker-vs-electric-kettle",
     "what-size-desk-do-i-need",
-    "desk-fridge-worth-it-explained",
+    "desk-fridge-worth-it-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const waterBottleVsPitcherDeskGuide: Guide = {
       question: "Does desk space availability affect which option makes more sense?",
       answer:
         "Yes, a large pitcher requires more permanent desk space than a bottle, which can be moved aside or carried elsewhere when not immediately needed, on a smaller desk, this space consideration may favor a bottle over a bulkier pitcher.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const waterBottleVsPitcherDeskGuide: Guide = {
     {
       heading: "Why Portability Matters More Than It Might Initially Seem",
       body: `Beyond simple capacity comparison, a water bottle's ability to travel with you, to a meeting, another room, or outside for a walk, means your hydration habit doesn't reset every time you leave your primary desk, while a pitcher's water supply and its accompanying reminder effect stay fixed at the desk location, if your workday involves moving between spaces regularly, a portable bottle maintains the same visible-reminder benefit wherever you go, an advantage a stationary pitcher simply can't replicate.`,
-    },
+    }
   ],
 };

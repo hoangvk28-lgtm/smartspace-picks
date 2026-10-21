@@ -12,7 +12,7 @@ export const standingDeskMonitorArmPairingGuide: Guide = {
     "monitor arm for standing desk",
     "eye level sitting vs standing monitor",
     "standing desk without monitor arm problem",
-    "adjust monitor height sit stand",
+    "adjust monitor height sit stand"
   ],
   heroImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const standingDeskMonitorArmPairingGuide: Guide = {
     "standing-desk-height-chart",
     "monitor-arm-vs-monitor-stand",
     "monitor-distance-and-height-for-eye-comfort",
-    "sit-stand-ratio-explained",
+    "sit-stand-ratio-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const standingDeskMonitorArmPairingGuide: Guide = {
       question: "Does skipping a monitor arm undermine the ergonomic benefit of a standing desk?",
       answer:
         "Significantly, yes, without adjustable monitor height, switching to standing forces either an uncomfortable downward neck angle or accepting a monitor position that's wrong for one of the two postures, undermining much of the ergonomic benefit a standing desk is meant to provide.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const standingDeskMonitorArmPairingGuide: Guide = {
     {
       heading: "Why Accepting a Compromise Height Is a Reasonable Alternative for Some Users",
       body: `While readjusting monitor height for perfect optimization at every single sit-stand transition provides the best ergonomic outcome, some users reasonably find this repeated adjustment throughout the day inconvenient enough that they prefer to set a compromise height, slightly imperfect for both positions but acceptable for each, rather than optimal for one, this is a legitimate personal tradeoff between ergonomic perfection and practical convenience, worth considering based on how frequently you actually switch positions and how much the imperfect compromise genuinely affects your comfort.`,
-    },
+    }
   ],
 };

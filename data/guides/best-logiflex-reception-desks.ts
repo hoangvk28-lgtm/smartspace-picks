@@ -129,20 +129,20 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $436.99",
+          "Under $450",
           "L-Shaped Reception Desk with Keyboard Tray"
         ],
         [
-          "Around $436.99",
+          "Under $450",
           "L-Shaped Reception Desk with Keyboard Tray"
         ],
         [
-          "Around $869.95",
+          "Under $900",
           "Offices To Go L-Shaped Reception Desk with Transaction Top"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -190,7 +190,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Offices To Go L-Shaped Reception Desk with Transaction Top is aimed at buyers prioritizing 71\"w desk + 42\"w return, reversible left/right." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Offices To Go L-Shaped Reception Desk with Transaction Top is aimed at buyers prioritizing 71\"w desk + 42\"w return, reversible left/right." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-ofs-reception-desks","title":"best-ofs-reception-desks"},{"href":"/guide/best-hon-reception-desks","title":"best-hon-reception-desks"},{"href":"/guide/best-teknion-reception-desks","title":"2 Best Teknion Reception Desks in 2026"}];

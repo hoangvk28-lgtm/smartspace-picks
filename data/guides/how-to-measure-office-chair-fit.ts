@@ -12,7 +12,7 @@ export const howToMeasureOfficeChairFitGuide: Guide = {
     "office chair fit measurements",
     "how to measure for office chair",
     "seat height for desk",
-    "armrest height office chair",
+    "armrest height office chair"
   ],
   heroImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const howToMeasureOfficeChairFitGuide: Guide = {
     "office-chair-size-chart",
     "office-chair-weight-capacity-explained",
     "mesh-vs-fabric-office-chair",
-    "standard-desk-height",
+    "standard-desk-height"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const howToMeasureOfficeChairFitGuide: Guide = {
       question: "What if my desk height and correct chair height don't match?",
       answer:
         "If raising your chair to the correct height leaves your feet dangling, use a footrest to restore proper foot support rather than lowering the chair below the correct height for your desk, since foot support matters more than avoiding a footrest purchase.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const howToMeasureOfficeChairFitGuide: Guide = {
     {
       heading: "Getting Armrests Right Matters More Than Most Buyers Expect",
       body: `Armrests set too high force your shoulders into a raised, tense position for hours at a time, a common and underappreciated cause of shoulder and neck discomfort. Armrests set too low or removed entirely offer no support during typing, encouraging you to lean forward instead. Adjust them so your elbows rest near 90 degrees with your shoulders in a natural, relaxed position, checking this after you've already set your correct seat height.`,
-    },
+    }
   ],
 };

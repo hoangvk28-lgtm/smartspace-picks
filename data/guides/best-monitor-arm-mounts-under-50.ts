@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "monitor arm mount";
 export const introParagraphs = [
   "Under $50 usually means a workable monitor arm, not a flawless one. Expect a bit more friction in the gas spring's adjustment feel, more noticeable wobble once you're on a 27-inch-plus monitor, and faster sag over a few years than an $80-100 arm delivers. Some of the very cheapest options in this price band can fail within 6-12 months, so it's worth being upfront about that rather than pretending every budget arm performs the same.",
-  "Below are 8 monitor arm mounts we evaluated at or near the $50 mark, using each product's real verified price rather than assuming everything in this category clears the bar. One pick came in at $59.99 once verified, and we say so plainly rather than mislabeling it as under $50, since accurate pricing matters more than a clean headline.",
+  "Below are 8 monitor arm mounts we evaluated at or near the $50 mark, using each product's real verified price rather than assuming everything in this category clears the bar. One pick came in at under $60 once verified, and we say so plainly rather than mislabeling it as under $50, since accurate pricing matters more than a clean headline."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Holds up to 19.8 lbs total",
       "Max VESA 100x100mm",
       "Tool-free installation",
-      "Built-in cable management channel",
+      "Built-in cable management channel"
     ],
     pros: [
       "Lowest verified price in this list",
       "Tool-free VESA mounting",
       "Built-in cable management channel",
-      "Fits a wide 13-34 inch monitor range",
+      "Fits a wide 13-34 inch monitor range"
     ],
     cons: [
       "More adjustment friction than pricier arms",
       "Plastic thumbscrew clamp risks denting thin desktops if overtightened",
-      "Minimal cable management, 1-2 small clips",
+      "Minimal cable management, 1-2 small clips"
     ],
     bestFor: "The tightest budget where price matters more than smooth adjustment",
   },
@@ -88,18 +88,18 @@ export const products: GuideProduct[] = [
       "13-34 inch monitor compatibility",
       "Regular screens up to 32 inches supported",
       "26.4 lb total capacity",
-      "VESA 75/100mm",
+      "VESA 75/100mm"
     ],
     pros: [
       "26.4 lb capacity, the highest among the true sub-$50 picks",
       "Wide 13-34 inch monitor compatibility",
       "Matches the ErGear's low price",
-      "Standard VESA 75/100mm fits most monitors",
+      "Standard VESA 75/100mm fits most monitors"
     ],
     cons: [
       "Cable management is minimal",
       "Basic clamp, no C-clamp and grommet choice",
-      "Not rated for curved or ultrawide panels",
+      "Not rated for curved or ultrawide panels"
     ],
     bestFor: "Buyers who want the most capacity for the least money",
   },
@@ -120,18 +120,18 @@ export const products: GuideProduct[] = [
       "MechaSpring mechanism for smoother adjustment",
       "Max load 19.8 lbs",
       "Tool-free VESA mount",
-      "C-clamp or grommet base",
+      "C-clamp or grommet base"
     ],
     pros: [
       "Smoother adjustment feel than the cheapest picks",
       "Still comfortably under $50",
       "Tool-free VESA head",
-      "Flexible clamp or grommet base mounting",
+      "Flexible clamp or grommet base mounting"
     ],
     cons: [
       "19.8 lb ceiling, same as the cheaper FlowLift",
       "Not rated for curved or ultrawide monitors",
-      "Minimum 4.4 lb load can under-tension the lightest monitors",
+      "Minimum 4.4 lb load can under-tension the lightest monitors"
     ],
     bestFor: "Buyers who want smoother adjustment while staying well under $50",
   },
@@ -151,18 +151,18 @@ export const products: GuideProduct[] = [
       "Fits monitors up to 32 inches",
       "VESA 75/100mm mount",
       "Mechanical spring mount",
-      "Compact base footprint",
+      "Compact base footprint"
     ],
     pros: [
       "Compact footprint suits small desks",
       "Standard VESA 75/100mm fits most monitors",
       "Steady mechanical spring resistance",
-      "Comfortably under $50",
+      "Comfortably under $50"
     ],
     cons: [
       "Cable management limited to basic clips",
       "Weight rating not as clearly stated as the WALI pick",
-      "Not built for curved or ultrawide monitors",
+      "Not built for curved or ultrawide monitors"
     ],
     bestFor: "Buyers with a small desk who want a compact sub-$50 arm",
   },
@@ -182,18 +182,18 @@ export const products: GuideProduct[] = [
       "13-32 inch monitor compatibility",
       "Holds 4.4 to 19.8 lbs",
       "VESA mount with clamp and grommet base",
-      "Full-motion tilt, swivel, rotation",
+      "Full-motion tilt, swivel, rotation"
     ],
     pros: [
       "Works with both clamp and grommet desk mounting",
       "Fits a broad 13-32 inch monitor range",
       "Full-motion adjustability",
-      "Still comfortably under $50",
+      "Still comfortably under $50"
     ],
     cons: [
       "4.4 lb minimum load can under-tension very light monitors",
       "Not rated for curved or ultrawide panels",
-      "Standard gas spring feel, less smooth than the FlowLift Pro",
+      "Standard gas spring feel, less smooth than the FlowLift Pro"
     ],
     bestFor: "Buyers who want mounting flexibility for a 32-inch monitor under $50",
   },
@@ -213,18 +213,18 @@ export const products: GuideProduct[] = [
       "Holds 2 monitors up to 30 inches each",
       "22 lbs per monitor capacity",
       "Heavy-duty steel construction",
-      "C-clamp and grommet base included",
+      "C-clamp and grommet base included"
     ],
     pros: [
       "Genuinely budget way to mount two monitors at once",
       "22 lbs per-monitor capacity, strong for the price",
       "Steel frame adds rigidity",
-      "Both C-clamp and grommet base included",
+      "Both C-clamp and grommet base included"
     ],
     cons: [
       "Not a single monitor arm, requires desk space for two screens",
       "Firmer adjustment resistance than premium arms",
-      "Cable management is basic",
+      "Cable management is basic"
     ],
     bestFor: "Buyers who want a genuine two-monitor mount without paying premium prices",
   },
@@ -244,25 +244,25 @@ export const products: GuideProduct[] = [
       "Fits 2 monitors, 13-32 inches each",
       "MechaSpring mechanism per arm",
       "Max load 19.8 lbs per arm",
-      "Tool-free VESA mount",
+      "Tool-free VESA mount"
     ],
     pros: [
       "Smoother MechaSpring adjustment on a dual mount",
       "Still under $50 even with two arms included",
       "Tool-free VESA mounting on both arms",
-      "Independent tilt, swivel, rotation per monitor",
+      "Independent tilt, swivel, rotation per monitor"
     ],
     cons: [
       "Highest price among the genuinely sub-$50 picks",
       "19.8 lbs per arm is modest for larger dual-monitor setups",
-      "Two arms sharing one clamp base needs a sturdy desk edge",
+      "Two arms sharing one clamp base needs a sturdy desk edge"
     ],
     bestFor: "Buyers who want a smoother dual-monitor mount while staying under $50",
   },
   {
     id: "huanuo-flowlift-dual-monitor-stand-over50",
     rank: 8,
-    badge: "Best for Dual 32\" Monitors (Verified at $59.99)",
+    badge: "Best for Dual 32\" Monitors (Verified at under $60)",
     name: "HUANUO FlowLift Dual Monitor Stand",
     price: "$59.99",
     rating: "New listing",
@@ -275,21 +275,21 @@ export const products: GuideProduct[] = [
       "Fits 2 monitors, 13-32 inches each",
       "4.4 to 19.8 lbs per arm",
       "Full motion VESA 75x75/100x100",
-      "C-clamp and grommet base",
+      "C-clamp and grommet base"
     ],
     pros: [
       "Full-motion adjustability across both independent arms",
       "Wide VESA compatibility, 75x75mm or 100x100mm",
       "C-clamp and grommet base both included",
-      "Natural upgrade path from the cheaper dual mounts here",
+      "Natural upgrade path from the cheaper dual mounts here"
     ],
     cons: [
-      "Verified price is $59.99, above this guide's $50 target",
+      "Verified price is under $60, above this guide's $50 target",
       "19.8 lbs per arm ceiling, same as the cheaper dual mounts",
-      "No premium tension-adjustment screw for long-term sag",
+      "No premium tension-adjustment screw for long-term sag"
     ],
     bestFor: "Buyers whose budget can flex slightly above $50 for a dual-monitor stand",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -317,7 +317,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value versus the next price tier",
     description: "Weighed each pick against a competitive price-100 premium tier to identify when the extra spend is actually worth it versus when a budget arm is genuinely good enough.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -470,7 +470,7 @@ export const faq: FaqItem[] = [
   },
   {
     q: "Are all the picks in this guide actually under $50?",
-    a: "Seven of the eight verified under $50 at the time of writing. One pick, the HUANUO FlowLift Dual Monitor Stand, verified at $59.99, above the $50 mark, and we've labeled it accordingly rather than mislabeling its real price.",
+    a: "Seven of the eight verified under $50 at the time of writing. One pick, the HUANUO FlowLift Dual Monitor Stand, verified at under $60, above the $50 mark, and we've labeled it accordingly rather than mislabeling its real price.",
   },
   {
     q: "When is it worth spending more than $50 on a monitor arm?",
@@ -478,13 +478,13 @@ export const faq: FaqItem[] = [
   },
   {
     q: "What's the cheapest genuinely reliable option in this list?",
-    a: "The ErGear at $19.98 and the WALI at $19.99 are the two lowest-priced picks that still cover a reasonable monitor size and weight range. The WALI edges ahead on capacity at 26.4 lbs versus the ErGear's 19.8 lbs for essentially the same price.",
-  },
+    a: "The ErGear at under $20 and the WALI at under $20 are the two lowest-priced picks that still cover a reasonable monitor size and weight range. The WALI edges ahead on capacity at 26.4 lbs versus the ErGear's 19.8 lbs for essentially the same price.",
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-single-monitor-arms", title: "8 Best Single Monitor Arms in 2026" },
   { href: "/guide/best-monitor-arms-for-laptop", title: "8 Best Monitor Arms for Laptop in 2026" },
   { href: "/guide/best-dual-monitor-arms", title: "Best Dual Monitor Arms" },
-  { href: "/guide/best-monitor-arm-under-100", title: "Best Monitor Arm Under $100" },
+  { href: "/guide/best-monitor-arm-under-100", title: "Best Monitor Arm Under $100" }
 ];

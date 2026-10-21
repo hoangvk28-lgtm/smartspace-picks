@@ -12,7 +12,7 @@ export const xlrVsUsbMicrophoneGuide: Guide = {
     "xlr microphone vs usb microphone",
     "usb mic vs xlr mic quality",
     "do i need an xlr microphone",
-    "usb microphone setup",
+    "usb microphone setup"
   ],
   heroImage: "https://images.unsplash.com/photo-1634041323797-b9fdef9d18f7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1634041323797-b9fdef9d18f7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const xlrVsUsbMicrophoneGuide: Guide = {
     "best-usb-microphones",
     "best-usb-condenser-microphones",
     "best-usb-microphones-with-mute-button",
-    "best-usb-microphone-kits",
+    "best-usb-microphone-kits"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const xlrVsUsbMicrophoneGuide: Guide = {
       question: "Can I switch from USB to XLR later if I outgrow my USB mic?",
       answer:
         "Yes, this is a common upgrade path: start with a USB microphone for simplicity, then move to an XLR microphone and audio interface once you need more control, multiple simultaneous inputs, or higher-end preamp quality than a USB mic provides.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ export const xlrVsUsbMicrophoneGuide: Guide = {
     {
       heading: "When an XLR Setup Makes More Sense",
       body: `An XLR microphone paired with an audio interface is the better choice once you need more than one microphone recording simultaneously, since a multi-channel interface lets you add mics without buying additional USB devices for each one. XLR setups also generally give more granular control over gain staging (the process of setting input levels correctly before any digital processing), which matters more as your recording needs get more involved. The tradeoff is real added cost and setup complexity, since you're buying and configuring two separate pieces of hardware instead of one plug-and-play device.`,
-    },
+    }
   ],
 };

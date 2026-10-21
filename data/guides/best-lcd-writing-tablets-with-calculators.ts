@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "lcd writing tablet with calculator";
 export const introParagraphs = [
   "Combining a calculator with an LCD writing tablet is a genuine but small niche within this category, useful for students or basic office tasks where you want to jot a quick note and run a calculation without switching devices.",
-  "Current research found three products explicitly combining these two functions, ranging from a basic calculator to a full scientific calculator, this guide covers all three honestly as the complete available selection rather than padding it with unrelated products.",
+  "Current research found three products explicitly combining these two functions, ranging from a basic calculator to a full scientific calculator, this guide covers all three honestly as the complete available selection rather than padding it with unrelated products."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "6 min";
@@ -75,7 +75,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Calculator function count verified for each pick", description: "Confirmed the specific function count (240, 349, or basic 12-digit) for each listing to help buyers match calculation needs to the right pick." },
   { title: "Full researched pool checked for other calculator combos", description: "Reviewed all researched product titles for calculator combination language before finalizing this as the complete three-product selection." },
   { title: "Battery type distinguished between the calculator and writing screen", description: "Noted where solar or rechargeable power applies specifically to the calculator function versus the writing screen, since these can differ within one device." },
-  { title: "Use case fit assessed across student and office scenarios", description: "Differentiated scientific-function picks suited to students from the basic-arithmetic pick suited to everyday office tasks." },
+  { title: "Use case fit assessed across student and office scenarios", description: "Differentiated scientific-function picks suited to students from the basic-arithmetic pick suited to everyday office tasks." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -178,11 +178,11 @@ export const faq: FaqItem[] = [
   { q: "Are LCD writing tablets with calculators common?", a: "No, this is a small niche. Current research found three products genuinely combining both a calculator and an LCD writing tablet." },
   { q: "Do these combo devices save my written notes?", a: "No, the writing tablet portion still erases permanently like standard LCD writing tablets, the calculator function does not change this." },
   { q: "Which calculator function count do I need?", a: "A basic 12-digit calculator suits everyday arithmetic, while 240 or 349-function scientific calculators suit math, physics, or engineering coursework." },
-  { q: "Is the writing tablet on these combo devices rechargeable?", a: "It varies by model, one confirmed option has a rechargeable writing tablet while others may rely on solar power just for the calculator, check the specific listing." },
+  { q: "Is the writing tablet on these combo devices rechargeable?", a: "It varies by model, one confirmed option has a rechargeable writing tablet while others may rely on solar power just for the calculator, check the specific listing." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-rechargeable-lcd-writing-tablets", title: "Best Rechargeable LCD Writing Tablets (2026)" },
   { href: "/guide/best-mini-lcd-writing-tablets", title: "Best Mini LCD Writing Tablets (2026)" },
-  { href: "/guide/best-lcd-writing-tablets-for-work", title: "Best LCD Writing Tablets for Work (2026)" },
+  { href: "/guide/best-lcd-writing-tablets-for-work", title: "Best LCD Writing Tablets for Work (2026)" }
 ];

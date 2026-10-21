@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "printer cabinet";
 export const introParagraphs = [
   "A true printer cabinet hides the printer behind doors, but ventilation is the detail most buying guides skip entirely. Laser printers generate heat and trace amounts of ozone during operation, and inkjets still need air circulation to avoid trapping moisture, so a fully sealed cabinet without any vent path can shorten a printer's working life even though it looks tidier on the outside.",
-  "Below are 8 printer cabinets for home offices we evaluated on enclosure type, ventilation, interior height for scanner lids, and honest labeling, since several of the picks in this category are actually mobile file cabinets with an open top rather than fully enclosed cabinets with doors, and we describe each one exactly as it is.",
+  "Below are 8 printer cabinets for home offices we evaluated on enclosure type, ventilation, interior height for scanner lids, and honest labeling, since several of the picks in this category are actually mobile file cabinets with an open top rather than fully enclosed cabinets with doors, and we describe each one exactly as it is."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "11 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Rolling caster base",
       "Rustic brown finish",
       "Flat, open top surface for a printer",
-      "No enclosure, fully open-top design",
+      "No enclosure, fully open-top design"
     ],
     pros: [
       "No ventilation concerns since it's open-top",
       "3 full drawers of genuine file storage",
       "Wide, stable top surface for a printer",
-      "Furniture-style finish",
+      "Furniture-style finish"
     ],
     cons: [
       "Not an enclosed cabinet, printer stays visible",
       "No doors to hide the printer from view",
-      "Larger footprint than a slim printer cabinet",
+      "Larger footprint than a slim printer cabinet"
     ],
     bestFor: "Buyers who want an open-top flat surface with real file drawer storage, not a hidden printer",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Metal construction",
       "Fully assembled",
       "Open flat top surface",
-      "Fits letter/legal/A4 documents",
+      "Fits letter/legal/A4 documents"
     ],
     pros: [
       "Locking drawers for document security",
       "Fully assembled out of the box",
       "Open top means zero ventilation concerns",
-      "Sturdy metal construction",
+      "Sturdy metal construction"
     ],
     cons: [
       "Not an enclosed cabinet, no doors",
       "Printer remains visible on top",
-      "Higher price for an open-top design",
+      "Higher price for an open-top design"
     ],
     bestFor: "Buyers who need locking document storage under an open printer surface",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Metal construction",
       "H27.95 x W28.35 x D15.74 inches",
       "Open flat top surface",
-      "Hanging letter/legal/A4 support",
+      "Hanging letter/legal/A4 support"
     ],
     pros: [
       "Compact 2-drawer footprint",
       "Locking drawers for security",
       "Open top allows unrestricted airflow",
-      "Sturdy metal build",
+      "Sturdy metal build"
     ],
     cons: [
       "Not an enclosed cabinet, no doors",
       "Less document capacity than the 3-drawer version",
-      "Printer stays visible on the open top",
+      "Printer stays visible on the open top"
     ],
     bestFor: "Smaller home offices that want compact locking file storage under a printer",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "15.7 x 16.5 x 27.6 inches",
       "Rolling casters",
       "Matte black finish",
-      "Explicitly marketed as printer stand + file cabinet",
+      "Explicitly marketed as printer stand + file cabinet"
     ],
     pros: [
       "Openly marketed as a printer stand, not a mislabeled product",
       "Rolling casters for easy repositioning",
       "Clean matte black finish",
-      "Good value at under $55",
+      "Good value at under $55"
     ],
     cons: [
       "Open-top design, not an enclosed cabinet",
       "Only 2 drawers limit total document storage",
-      "Printer remains visible rather than hidden",
+      "Printer remains visible rather than hidden"
     ],
     bestFor: "Buyers who want an honestly-marketed rolling printer stand and file cabinet combo",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Wood construction",
       "Under-desk sizing",
       "Open flat top surface",
-      "Marketed as a printer stand",
+      "Marketed as a printer stand"
     ],
     pros: [
       "Wood finish suits a home office aesthetic",
       "3 drawers of storage below an open top",
       "Sized to fit under a desk",
-      "Openly marketed for printer use",
+      "Openly marketed for printer use"
     ],
     cons: [
       "Open-top design, not enclosed with doors",
       "Wood drawers may hold less weight than metal",
-      "Printer stays visible on top",
+      "Printer stays visible on top"
     ],
     bestFor: "Buyers who want a wood-finish under-desk printer stand with drawer storage",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "24\" extended desktop surface",
       "Rolling casters",
       "Fabric drawer fronts",
-      "Side storage bag included",
+      "Side storage bag included"
     ],
     pros: [
       "Extended top gives more surface than standard cabinets",
       "Rolls easily on caster base",
       "Side bag adds extra storage",
-      "Good surface area for larger printers",
+      "Good surface area for larger printers"
     ],
     cons: [
       "Open-top design, not an enclosed cabinet",
       "Fabric drawers hold less weight than metal",
-      "Printer remains visible on the open top",
+      "Printer remains visible on the open top"
     ],
     bestFor: "Buyers who want the largest open-top surface among the file cabinet picks",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Rolling caster wheels",
       "Open flat top surface",
       "Marketed as a printer stand",
-      "Most drawers of any pick in this list",
+      "Most drawers of any pick in this list"
     ],
     pros: [
       "Most individual drawers of any pick here",
       "Great for organizing small supplies separately",
       "Rolling wheels for easy repositioning",
-      "Openly marketed for printer use",
+      "Openly marketed for printer use"
     ],
     cons: [
       "Open-top design, not an enclosed cabinet",
       "Many small drawers add assembly complexity",
-      "Printer remains visible on top",
+      "Printer remains visible on top"
     ],
     bestFor: "Buyers who want maximum small-drawer organization alongside their printer",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Narrow vertical footprint",
       "Metal construction",
       "Open flat top surface",
-      "Easy assembly",
+      "Easy assembly"
     ],
     pros: [
       "Most budget-friendly locking option",
       "Narrow footprint fits tight spaces",
       "Easy assembly",
-      "Fits letter/A4/legal documents",
+      "Fits letter/A4/legal documents"
     ],
     cons: [
       "Open-top design, not an enclosed cabinet",
       "Narrower top surface fits smaller printers best",
-      "Printer remains visible on top",
+      "Printer remains visible on top"
     ],
     bestFor: "Tight spaces that need a budget locking file cabinet with a printer-ready top",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Mobility and footprint",
     description: "Checked caster quality and overall footprint against typical home office space constraints, favoring picks that roll easily without needing a large clearance radius.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,11 +477,11 @@ export const faq: FaqItem[] = [
   {
     q: "What's the difference between a file cabinet and a true printer cabinet?",
     a: "A file cabinet, like most picks in this list, has an open top with drawers underneath, so the printer sits visible on top while documents stay stored below. A true printer cabinet encloses the printer behind doors. Both give you a stable, printer-ready surface, but only the enclosed version actually hides the printer from view.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-rolling-printer-stands", title: "Best Rolling Printer Stands (2026)" },
   { href: "/guide/best-desktop-printer-stands", title: "Best Desktop Printer Stands (2026)" },
-  { href: "/guide/best-printer-stands-with-file-drawers", title: "Best Printer Stands with File Drawers (2026)" },
+  { href: "/guide/best-printer-stands-with-file-drawers", title: "Best Printer Stands with File Drawers (2026)" }
 ];

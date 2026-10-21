@@ -187,7 +187,7 @@ export const faq = [
   },
   { "q": "What's the difference between magnetic and wire-free 2230 enclosures?", "a": "A magnetic design uses a detachable magnetic connector for quick SSD swaps, while a wire-free design like the JEYI plugs directly into your USB-C port with no cable at all, each trading off slightly different convenience for your specific use case." },
   { "q": "Can a 2230 enclosure also fit a 2242 or longer M.2 SSD?", "a": "Only if explicitly stated, the MAIWO pick in this comparison specifically supports both 2230 and 2242 sizes, while a 2230-only enclosure like the JEYI won't physically accommodate a longer SSD." },
-  { "q": "Is a magnetic connector as reliable as a standard cable connection over time?", "a": "A well-made magnetic connector should maintain reliable contact through normal use, but check reviews for any reported connection drops under movement or vibration if portability and frequent handling matter to your use case." },
+  { "q": "Is a magnetic connector as reliable as a standard cable connection over time?", "a": "A well-made magnetic connector should maintain reliable contact through normal use, but check reviews for any reported connection drops under movement or vibration if portability and frequent handling matter to your use case." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-2230-nvme-enclosures","title":"6 Best 2230 NVMe Enclosures in 2026"},{"href":"/guide/best-nvme-enclosures","title":"Best NVMe Enclosures in 2026"},{"href":"/guide/best-usb-nvme-enclosures","title":"8 Best USB NVMe Enclosures in 2026"}];

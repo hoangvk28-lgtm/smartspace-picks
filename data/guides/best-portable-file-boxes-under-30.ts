@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31xiANpUwWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTWYT23D?tag=deskfinds0d-20",
-    description: "This listing includes two complete file totes rather than one, a genuine value proposition for anyone needing to outfit two separate work areas or wanting a spare box on hand, at roughly $14.50 per unit when split across the pair. Each box features a hinged lid, built-in rails for hanging file folders, and an organizer tray in the lid for small supplies.\n\nIts easy-grip handle makes carrying each box comfortable, and at 13.8 by 10.1 by 11.7 inches per unit, the sizing matches the single-unit Staples Portable Storage Tote from the lower price tier, just doubled in quantity.\n\nBest for buyers who need two file boxes, whether for two workstations or as a backup, at a lower combined cost than buying two separately.",
+    description: "This listing includes two complete file totes rather than one, a genuine value proposition for anyone needing to outfit two separate work areas or wanting a spare box on hand, at under $15 per unit when split across the pair. Each box features a hinged lid, built-in rails for hanging file folders, and an organizer tray in the lid for small supplies.\n\nIts easy-grip handle makes carrying each box comfortable, and at 13.8 by 10.1 by 11.7 inches per unit, the sizing matches the single-unit Staples Portable Storage Tote from the lower price tier, just doubled in quantity.\n\nBest for buyers who need two file boxes, whether for two workstations or as a backup, at a lower combined cost than buying two separately.",
     specs: ["2 complete totes included, hinged lid each", "13.8x10.1x11.7 in per unit, organizer tray in lid", "Built-in rails for hanging file folders"],
     pros: ["Two complete file totes for less than buying two separately", "Hinged lid on each unit can't be misplaced", "Organizer tray in each lid adds small-supply storage"],
     cons: ["Only useful if you actually need two boxes", "No lockable lid like the Small File Cabinet pick above"],
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A family-safe lockable lid with rounded corners", "Small File Cabinet, Plastic File Box with Lockable Lid"],
         ["Two boxes for separate workstations", "STAPLES File Box Portable Tote, 2-Pack"],
         ["Reinforced corners from a recognized brand", "Bankers Box Heavy-Duty Portable Plastic File Box"],
-        ["The lowest price with basic padlock compatibility", "Storex Economy Portable File Box"],
+        ["The lowest price with basic padlock compatibility", "Storex Economy Portable File Box"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $24", "Storex Economy ($23.01)"],
-        ["Under $25", "Bankers Box Heavy-Duty ($24.97)"],
-        ["Under $27", "Small File Cabinet ($26.99)"],
-        ["Under $30", "STAPLES 2-Pack ($29.03)"],
+        ["Under $24", "Storex Economy (under $25)"],
+        ["Under $25", "Bankers Box Heavy-Duty (under $25)"],
+        ["Under $27", "Small File Cabinet (under $30)"],
+        ["Under $30", "STAPLES 2-Pack (under $30)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Genuine Lockable Lid vs Padlock-Compatible Latch",
     cards: [
       { label: "Genuine lockable lid (Small File Cabinet)", text: "Purpose-engineered locking mechanism specifically designed with family safety in mind, keeping kids and pets out." },
-      { label: "Padlock-compatible latch (Storex Economy)", text: "A simpler latch that accepts a separately purchased padlock, offering similar functional security at a lower price." },
+      { label: "Padlock-compatible latch (Storex Economy)", text: "A simpler latch that accepts a separately purchased padlock, offering similar functional security at a lower price." }
     ],
     note: "If genuine built-in locking hardware matters to you, the Small File Cabinet pick delivers that directly. If you're comfortable adding your own padlock, the Storex Economy pick achieves similar security for less.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Frequent stacking and heavy daily handling", "Bankers Box Heavy-Duty (reinforced corners)"],
         ["Household use around kids and pets", "Small File Cabinet (rounded corners, lockable)"],
-        ["Basic occasional use", "Storex Economy"],
+        ["Basic occasional use", "Storex Economy"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Household with Young Children Specifically",
     cards: [
       { label: "Look for", text: "A genuinely lockable lid and rounded corners that reduce bump and scrape risk, not just a basic latch." },
-      { label: "In this comparison", text: "The Small File Cabinet pick is specifically designed with families in mind, combining both a lockable lid and rounded corners." },
+      { label: "In this comparison", text: "The Small File Cabinet pick is specifically designed with families in mind, combining both a lockable lid and rounded corners." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a genuinely lockable, family-safe design or need two boxes for separate workstations, where the Small File Cabinet or STAPLES 2-Pack each deliver a distinct advantage." },
-      { label: "Save if", text: "You just need basic padlock compatibility and a supply compartment, where the Storex Economy pick covers that for the lowest price in this comparison." },
+      { label: "Save if", text: "You just need basic padlock compatibility and a supply compartment, where the Storex Economy pick covers that for the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

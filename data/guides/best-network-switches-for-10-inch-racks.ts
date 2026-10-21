@@ -177,31 +177,31 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $19.79",
+          "Under $20",
           "TP-Link TL-SG108 8-Port Gigabit Unmanaged Switch"
         ],
         [
-          "Around $31.99",
+          "Under $35",
           "10-Inch Metal Rack Mount for TP-Link TL-SG108 Family"
         ],
         [
-          "Around $34.99",
+          "Under $35",
           "1U Rack Mount for TP-Link TL-SG108 Switch"
         ],
         [
-          "Around $59.99",
+          "Under $60",
           "TP-Link TL-SG116 16-Port Gigabit Unmanaged Switch"
         ],
         [
-          "Around $69.90",
+          "Under $70",
           "Tecmojo 6U 10-Inch Mini Server Rack"
         ],
         [
-          "Around $69.99",
+          "Under $70",
           "NETGEAR GS324 24-Port Gigabit Unmanaged Switch"
         ],
         [
-          "Around $79.99",
+          "Under $80",
           "TP-Link TL-SG1024S 24-Port Gigabit Switch"
         ]
       ]
@@ -256,10 +256,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "TP-Link TL-SG108 8-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 8 gigabit ports, shielded metal housing, at $19.79."
+        "text": "TP-Link TL-SG108 8-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 8 gigabit ports, shielded metal housing, at under $20."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -296,10 +296,10 @@ export const faq = [
   }
 ,
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "NETGEAR GS324 24-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 24 gigabit ports, fanless." },
-  { q: "Which pick offers the best value for a tight budget?", a: "TP-Link TL-SG108 8-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 8 gigabit ports, shielded metal housing, and at $19.79 it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $19.79 to $79.99, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Which pick offers the best value for a tight budget?", a: "TP-Link TL-SG108 8-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 8 gigabit ports, shielded metal housing, and at under $20 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $20 to $80, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
   { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "TP-Link TL-SG1024S 24-Port Gigabit Switch is aimed at buyers prioritizing 24 gigabit ports, 1u rackmount. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
-  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "TP-Link TL-SG116 16-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 16 gigabit ports, qos + igmp snooping." },
+  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "TP-Link TL-SG116 16-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 16 gigabit ports, qos + igmp snooping." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-rackmount-network-switches","title":"8 Best Rackmount Network Switches in 2026"},{"href":"/guide/best-network-switches-for-homelabs","title":"8 Best Network Switches for Homelabs"},{"href":"/guide/best-mini-network-switches","title":"8 Best Mini Network Switches in 2026"}];

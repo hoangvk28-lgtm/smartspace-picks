@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     description: "Voncabay Money Safe Box for Home with Digital Keypad, 0.23 Cu. Ft., Black and is built around security safe box with intelligent sensor light, positioning it for under 1500 buyers specifically.\n\n[Cash Safe Box & Fireproof Bag is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 1500, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Security Safe Box with Intelligent Sensor Light","[Cash Safe Box & Fireproof Bag","Easy to Set Up"],
     pros: ["Security Safe Box with Intelligent Sensor Light, confirmed directly in the listing's own spec details","[Cash Safe Box & Fireproof Bag, confirmed directly in the listing's own spec details","Easy to Set Up, confirmed directly in the listing's own spec details"],
-    cons: ["At $31.99, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $35, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 1500",
   },
   {
@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "SentrySafe Charcoal Gray Waterproof and Fireproof Safe, Lock Box with Keypad for Documents and measures 14.1 x 16.6 x 13.8 and is built around heavy duty fireproof safe box, positioning it for under 1500 buyers specifically.\n\nDIGITAL MEDIA PROTECTION is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 1500, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["14.1 x 16.6 x 13.8 dimensions","HEAVY DUTY FIREPROOF SAFE BOX","DIGITAL MEDIA PROTECTION"],
     pros: ["HEAVY DUTY FIREPROOF SAFE BOX, confirmed directly in the listing's own spec details","DIGITAL MEDIA PROTECTION, confirmed directly in the listing's own spec details","WATER AND FLOOD PROTECTION, confirmed directly in the listing's own spec details"],
-    cons: ["At $105.32, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $110, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 1500",
   },
   {
@@ -126,7 +126,7 @@ export const products: GuideProduct[] = [
     description: "2.0 Cub Large Fireproof Safes for Home Use, Digital Security Safe Box Fireproof Waterproof and is built around fire safe box for home, positioning it for under 1500 buyers specifically.\n\nALL STEEL STRUCTURE & THICKENED DOOR is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 1500, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["FIRE SAFE BOX FOR HOME","ALL STEEL STRUCTURE & THICKENED DOOR","ALARM SYSTEM & ANCHORING DESIGN"],
     pros: ["FIRE SAFE BOX FOR HOME, confirmed directly in the listing's own spec details","ALL STEEL STRUCTURE & THICKENED DOOR, confirmed directly in the listing's own spec details","ALARM SYSTEM & ANCHORING DESIGN, confirmed directly in the listing's own spec details"],
-    cons: ["At $99.99, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $100, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 1500",
   },
   {
@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     description: "Dalmbox Fire Resistant Document Lock Box Safe Digital Keypad, Black and is built around high security, positioning it for under 1500 buyers specifically.\n\nCONVENIENT TO USE is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 1500, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["HIGH SECURITY","CONVENIENT TO USE","ENOUGH CAPACITY"],
     pros: ["HIGH SECURITY, confirmed directly in the listing's own spec details","CONVENIENT TO USE, confirmed directly in the listing's own spec details","ENOUGH CAPACITY, confirmed directly in the listing's own spec details"],
-    cons: ["At $52.99, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $60, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for under 1500",
   }
 

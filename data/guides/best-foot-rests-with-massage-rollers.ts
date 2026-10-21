@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41Kypty8spL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07BDP3YV6?tag=deskfinds0d-20",
-    "description": "Mount-It has a 17 x 13 inch platform that tilts up to 30 degrees in either direction, three heights of 4.25, 5.5 and 6.75 inches set by a foot pedal and rollers that move under your feet. The listing also states a lifetime manufacturer warranty with US-based support, and the top is textured to keep feet from slipping.\n\nIt costs $37.99, about $4 more than Natheeph and $9 more than HUANUO, and it is the only pick here you can raise or lower without bending down. Compared with HUANUO it adds the pedal and the warranty, but both rock without locking.\n\nBest for people who want an adjustable rocker that is backed for the long term. The caveat is the price and a hardened plastic body, which is less warm to look at than Natheeph's wood.",
+    "description": "Mount-It has a 17 x 13 inch platform that tilts up to 30 degrees in either direction, three heights of 4.25, 5.5 and 6.75 inches set by a foot pedal and rollers that move under your feet. The listing also states a lifetime manufacturer warranty with US-based support, and the top is textured to keep feet from slipping.\n\nIt costs under $40, about $4 more than Natheeph and $9 more than HUANUO, and it is the only pick here you can raise or lower without bending down. Compared with HUANUO it adds the pedal and the warranty, but both rock without locking.\n\nBest for people who want an adjustable rocker that is backed for the long term. The caveat is the price and a hardened plastic body, which is less warm to look at than Natheeph's wood.",
     "specs": [
       "17 x 13 inch tilting platform",
       "3 heights via foot pedal",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41AYw6B8cQL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HGLZHPFW?tag=deskfinds0d-20",
-    "description": "Natheeph combines a natural wood body and non-slip base with a padded foam top section and built-in rollers. The listing gives three heights of 3.14, 5.11 and 6.88 inches, which makes it the lowest-starting option here, and mentions a video assembly guide.\n\nIt costs $33.99, $5 more than HUANUO and $4 less than Mount-It. The trade-off versus HUANUO is that it needs assembling and has no stated tilt range, while the soft foam top gives you a gentler rest area.\n\nBest for shorter users and anyone who prefers wood and a soft resting zone. The caveat is that the title and bullets disagree on the number of heights, so confirm it on the product page.",
+    "description": "Natheeph combines a natural wood body and non-slip base with a padded foam top section and built-in rollers. The listing gives three heights of 3.14, 5.11 and 6.88 inches, which makes it the lowest-starting option here, and mentions a video assembly guide.\n\nIt costs under $35, $5 more than HUANUO and $4 less than Mount-It. The trade-off versus HUANUO is that it needs assembling and has no stated tilt range, while the soft foam top gives you a gentler rest area.\n\nBest for shorter users and anyone who prefers wood and a soft resting zone. The caveat is that the title and bullets disagree on the number of heights, so confirm it on the product page.",
     "specs": [
       "Wood build, foam top",
       "3 heights, 3.14 to 6.88 inches",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/417dScf1f0L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07LG52H5N?tag=deskfinds0d-20",
-    "description": "HUANUO arrives pre-assembled with a massage-texture center, rollers, three heights of 3.9, 5.3 and 6.5 inches and a 0 to 30 degree tilt. Non-slip feet add stability, and the surface is textured for grip.\n\nAt $28.99 it is $5 cheaper than Natheeph and a little more than Mind Reader, with a clearer tilt range. Compared with Mount-It it has no pedal and no stated warranty, so heights are changed by hand.\n\nBest for people who do not want to assemble anything and want a clear tilt spec. The caveat is manual height changes and a plastic build.",
+    "description": "HUANUO arrives pre-assembled with a massage-texture center, rollers, three heights of 3.9, 5.3 and 6.5 inches and a 0 to 30 degree tilt. Non-slip feet add stability, and the surface is textured for grip.\n\nAt under $30 it is $5 cheaper than Natheeph and a little more than Mind Reader, with a clearer tilt range. Compared with Mount-It it has no pedal and no stated warranty, so heights are changed by hand.\n\nBest for people who do not want to assemble anything and want a clear tilt spec. The caveat is manual height changes and a plastic build.",
     "specs": [
       "3 heights, 3.9 to 6.5 inches",
       "0 to 30 degree tilt",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41zreEgYizL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B071DVNTXZ?tag=deskfinds0d-20",
-    "description": "Mind Reader adjusts from 3.5 to 6.75 inches, has center rollers, a tilt function and a textured non-slip surface. It measures 18 x 13 inches and weighs just 4.4 lbs, which makes it the lightest of the group.\n\nIt costs $28.49, about the same as HUANUO, and is $4 cheaper than Natheeph. Against TUOBITUO it offers height adjustment and a wider platform, though it does not rock a full 360 degrees.\n\nBest for people who move their footrest between rooms or desks. The caveat is that the highlights give no tilt range and the body is plastic.",
+    "description": "Mind Reader adjusts from 3.5 to 6.75 inches, has center rollers, a tilt function and a textured non-slip surface. It measures 18 x 13 inches and weighs just 4.4 lbs, which makes it the lightest of the group.\n\nIt costs under $30, about the same as HUANUO, and is $4 cheaper than Natheeph. Against TUOBITUO it offers height adjustment and a wider platform, though it does not rock a full 360 degrees.\n\nBest for people who move their footrest between rooms or desks. The caveat is that the highlights give no tilt range and the body is plastic.",
     "specs": [
       "3.5 to 6.75 inch height",
       "18 x 13 inch platform",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/417dqhZntwL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HGQV71HJ?tag=deskfinds0d-20",
-    "description": "TUOBITUO has a 360 degree active rocking design, built-in massage rollers and a non-slip textured platform measuring 11.4 x 7.9 inches at a height of 6.3 inches. It is meant to let your ankles move in every direction while you sit.\n\nAt $24.98 it is $4 cheaper than Mind Reader, but it has a fixed height and a smaller platform. Versus WAVYEASE it rocks rather than staying still, which feels different underfoot.\n\nBest for people with fidgety feet who sit at a standard height. The caveat is the small, 7.9 inch deep platform and fixed 6.3 inch height.",
+    "description": "TUOBITUO has a 360 degree active rocking design, built-in massage rollers and a non-slip textured platform measuring 11.4 x 7.9 inches at a height of 6.3 inches. It is meant to let your ankles move in every direction while you sit.\n\nAt under $25 it is $4 cheaper than Mind Reader, but it has a fixed height and a smaller platform. Versus WAVYEASE it rocks rather than staying still, which feels different underfoot.\n\nBest for people with fidgety feet who sit at a standard height. The caveat is the small, 7.9 inch deep platform and fixed 6.3 inch height.",
     "specs": [
       "360 degree rocking",
       "11.4 x 7.9 inch platform",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41ID985m6BL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H1QM7PKB?tag=deskfinds0d-20",
-    "description": "WAVYEASE has a fixed raised massage roller, five lockable heights and an extra-wide textured platform with fine massage grains. It uses a reinforced PP frame with non-slip pads and a smooth waterproof surface.\n\nAt $19.99 it is about $5 cheaper than TUOBITUO and has five heights where TUOBITUO has one. Compared with CasaZenith it is a similar price but uses one fixed roller rather than four.\n\nBest for people who want adjustable height and a wide platform at a low price. The caveat is that the roller does not spin and the frame is plastic.",
+    "description": "WAVYEASE has a fixed raised massage roller, five lockable heights and an extra-wide textured platform with fine massage grains. It uses a reinforced PP frame with non-slip pads and a smooth waterproof surface.\n\nAt under $20 it is about $5 cheaper than TUOBITUO and has five heights where TUOBITUO has one. Compared with CasaZenith it is a similar price but uses one fixed roller rather than four.\n\nBest for people who want adjustable height and a wide platform at a low price. The caveat is that the roller does not spin and the frame is plastic.",
     "specs": [
       "5 lockable heights",
       "Fixed raised massage roller",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41fu9ZSkDSL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GXBZX26S?tag=deskfinds0d-20",
-    "description": "CasaZenith has six height settings, a small-particle massage surface and four massage rollers on an ABS body that detaches for carrying. The listing describes it as detachable, which makes it easy to pack.\n\nAt $19.99 it matches WAVYEASE on price and offers one more height. Compared with Natheeph it has no foam and is plastic rather than wood.\n\nBest for tuning height cheaply while getting some roller action. The caveat is plastic construction and a busy surface underfoot.",
+    "description": "CasaZenith has six height settings, a small-particle massage surface and four massage rollers on an ABS body that detaches for carrying. The listing describes it as detachable, which makes it easy to pack.\n\nAt under $20 it matches WAVYEASE on price and offers one more height. Compared with Natheeph it has no foam and is plastic rather than wood.\n\nBest for tuning height cheaply while getting some roller action. The caveat is plastic construction and a busy surface underfoot.",
     "specs": [
       "Six height settings",
       "Four rollers plus particles",

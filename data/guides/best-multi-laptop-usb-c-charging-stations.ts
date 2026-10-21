@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "multi-laptop USB-C charging stations";
 export const introParagraphs = [
   "A USB-C connector alone doesn't prove adequate laptop-level charging power; we compared confirmed total wattage and port count directly rather than assuming any multi-port USB-C station charges a laptop at full speed. One original candidate ASIN was not accessible through the product catalog at research time, so we're presenting the 7 we could verify.",
-  "None of these listings had an independently verified per-port wattage breakdown under simultaneous multi-laptop load, so we're flagging total system wattage as a ceiling, not a per-device guarantee.",
+  "None of these listings had an independently verified per-port wattage breakdown under simultaneous multi-laptop load, so we're flagging total system wattage as a ceiling, not a per-device guarantee."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
@@ -30,9 +30,9 @@ export const products: GuideProduct[] = [
     reviews: "3337",
     imageUrl: "https://m.media-amazon.com/images/I/31ol4e40VQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CT2NQ7WG?tag=deskfinds0d-20",
-    description: "When two USB-C ports are used simultaneously, each independently delivers up to 100W, Anker specifically claims two 14-inch MacBook Pros reach 50% charge in just 28 minutes on this station, a genuine multi-laptop benchmark most competitors don't provide. A proprietary protection system continuously monitors temperature across all 6 ports during sustained use.\n\nAt 4.4 x 3.0 x 1.4 inches and 1.24 lbs, roughly the width of an iPhone 17, it stays compact on a desk (not designed for travel), backed by a 24-month warranty and a 5 ft AC cord included. At 3,337 reviews, this has the largest confirmed review base of any USB-C station in this comparison.\n\nDocumented 2-MacBook simultaneous charging benchmark (50% in 28 min). That's a real strength, but weigh it against the flip side: per-port wattage under full 6-device simultaneous load not independently verified.",
+    description: "When two USB-C ports are used simultaneously, each independently delivers up to 100W, Anker specifically claims two 14-inch MacBook Pros reach 50% charge in just 28 minutes on this station, a genuine multi-laptop benchmark most competitors don't provide. A proprietary protection system continuously monitors temperature across all 6 ports during sustained use.\n\nAt 4.4 x 3.0 x 1.4 inches and 1.24 lbs, roughly the width of an iPhone 17, it stays compact on a desk (not designed for travel), backed by a 24-month warranty and a 5 ft AC cord included.\n\nDocumented 2-MacBook simultaneous charging benchmark (50% in 28 min). That's a real strength, but weigh it against the flip side: per-port wattage under full 6-device simultaneous load not independently verified.",
     specs: ["200W total, 6-port GaN, up to 100W per USB-C port simultaneously", "4.4×3.0×1.4 in desk-stable design, 1.24 lbs", "24-month warranty"],
-    pros: ["Largest confirmed review base in this comparison at 3,337 reviews", "Documented 2-MacBook simultaneous charging benchmark (50% in 28 min)"],
+    pros: [ "Documented 2-MacBook simultaneous charging benchmark (50% in 28 min)"],
     cons: ["Per-port wattage under full 6-device simultaneous load not independently verified"],
     bestFor: "Buyers wanting the most proven multi-laptop USB-C station.",
   },
@@ -131,7 +131,7 @@ export const products: GuideProduct[] = [
     pros: ["Mobility, unlike the fixed desktop USB-C stations"],
     cons: ["Lowest rating in this comparison", "Not confirmed as USB-C specifically"],
     bestFor: "Buyers wanting mobility alongside multi-device charging, not a fixed desktop station.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed per-port wattage tier where documented", description: "The B0CZD8724H pick specifically confirms dual 100W ports, generally the threshold for genuine laptop-level USB-C PD charging, which we flagged as a real differentiator over lower, unspecified per-port wattage." },
   { title: "Total wattage compared against port count directly", description: "We compared the 380W/12-port, 750W/10-port, and 510W/10-port options side by side, since more ports at lower total wattage means less power available per device under simultaneous load." },
   { title: "Excluded the inaccessible ASIN rather than fabricating its data", description: "One original candidate ASIN returned ItemNotAccessible from the product catalog API at research time. We excluded it and disclosed the gap rather than guessing." },
-  { title: "Distinguished all-USB-C designs from mixed AC/USB options", description: "The Plugsharge pick mixes AC and USB ports rather than an all-USB-C design, which we noted as a genuine differentiator for households with AC-powered devices." },
+  { title: "Distinguished all-USB-C designs from mixed AC/USB options", description: "The Plugsharge pick mixes AC and USB ports rather than an all-USB-C design, which we noted as a genuine differentiator for households with AC-powered devices." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -267,12 +267,12 @@ export const faq: FaqItem[] = [
   { q: "Which station confirms the highest per-port wattage?", a: "The 380W USB C Charger Block with dual 100W ports confirms the highest specific per-port wattage in this comparison, generally sufficient for full laptop PD charging speed." },
   { q: "What's the highest total wattage option?", a: "The Zobirez 750W 10-Port Fast Charger." },
   { q: "Is there an option for laptops that still use AC power bricks?", a: "Yes, the Plugsharge 10-Device Charging Station mixes 6 AC outlets with 4 USB ports." },
-  { q: "Why does this list have 7 products instead of 8?", a: "One original candidate ASIN was not accessible through the Amazon catalog API at research time, so we excluded it rather than fabricating its data." },
+  { q: "Why does this list have 7 products instead of 8?", a: "One original candidate ASIN was not accessible through the Amazon catalog API at research time, so we excluded it rather than fabricating its data." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-usb-c-laptop-charging-carts", title: "Best USB-C Laptop Charging Carts (2026)" },
   { href: "/guide/best-laptop-charging-stations-for-multiple-devices", title: "Best Laptop Charging Stations for Multiple Devices (2026)" },
   { href: "/guide/best-laptop-charging-stations-for-home", title: "Best Laptop Charging Stations for Home (2026)" },
-  { href: "https://www.hardcastlesrv.com/power-electrical/best-rv-inverter-for-boondocking", title: "Best RV Inverter for Boondocking (Hardcastle's RV)" },
+  { href: "https://www.hardcastlesrv.com/power-electrical/best-rv-inverter-for-boondocking", title: "Best RV Inverter for Boondocking (Hardcastle's RV)" }
 ];

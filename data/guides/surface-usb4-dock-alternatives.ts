@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This dock is specifically certified by Microsoft under their Designed for Surface certification process, meaning Kensington worked directly with Microsoft to validate professional-level connectivity for Surface Pro and Surface Laptop models, a genuine assurance level that uncertified alternatives can't claim. Its 180W power supply delivers 90W directly to charge your Surface while still powering connected peripherals like external drives.\n\nCompared to the official Microsoft dock, this one adds a daisy chain option supporting up to five Thunderbolt devices total through its three downstream Thunderbolt 4 ports, along with a built-in SD card reader the official Microsoft dock doesn't include. Its 3-year warranty with lifetime Kensington technical support exceeds typical dock coverage.\n\nBest for buyers who want Microsoft-certified compatibility with Thunderbolt daisy-chain expansion and a long warranty.",
     specs: ["Microsoft Designed for Surface certified", "3x Thunderbolt 4 downstream ports, daisy chain support", "3-year warranty, lifetime technical support"],
     pros: ["Genuine Microsoft Designed for Surface certification", "Daisy chain support for up to 5 Thunderbolt devices", "3-year warranty with lifetime Kensington support"],
-    cons: ["Highest price in this comparison at $318.43", "180W power supply adds bulk versus more compact alternatives"],
+    cons: ["Highest price in this comparison at under $350", "180W power supply adds bulk versus more compact alternatives"],
     bestFor: "buyers who want Microsoft-certified compatibility with expansion and long-term warranty coverage",
   },
   {
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "This dock's 18 total ports is the highest count in this comparison, including 3 Thunderbolt 4 ports, 8 USB ports all rated at full 10Gb/s, SD and microSD card readers, and 2.5GbE networking, genuinely more raw connectivity than either Kensington pick offers. Its stated 98W charging works across any Thunderbolt or properly configured USB-C host device, including larger-screen laptops that draw more power.\n\nCompared to the Kensington picks above, this one isn't Surface-specific or Microsoft-certified, but its universal compatibility across Thunderbolt 4, Thunderbolt 3, USB4, and USB-C devices makes it a genuine cross-platform alternative if you also use non-Surface devices. Windows users can connect a single 8K display or dual 4K 60Hz monitors, while Mac support varies by chip generation.\n\nBest for buyers who want the maximum port count and genuinely universal cross-platform compatibility.",
     specs: ["18 total ports, 8x USB at full 10Gb/s", "98W charging, 2.5GbE Ethernet", "Single 8K or dual 6K 60Hz displays (platform-dependent)"],
     pros: ["Highest port count in this comparison at 18 total ports", "98W charging suits larger, power-hungry laptops", "Genuinely universal cross-platform compatibility"],
-    cons: ["Highest price in this comparison at $379.99", "Not Microsoft-certified or Surface-specific like the Kensington picks"],
+    cons: ["Highest price in this comparison at under $400", "Not Microsoft-certified or Surface-specific like the Kensington picks"],
     bestFor: "buyers who want the maximum port count and universal cross-platform compatibility",
   },
   {
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Microsoft-certified compatibility with expansion", "Kensington SD5750T Thunderbolt 4 Docking Station"],
         ["Fast card readers for creative workflows", "Kensington SD5760T Thunderbolt 4 Dual 4K Docking Station"],
         ["The maximum port count and universal compatibility", "CalDigit TS4 18 Port Thunderbolt 4 Dock"],
-        ["A genuinely portable, budget-friendly hub", "Kensington MD120U4 USB4 Hub"],
+        ["A genuinely portable, budget-friendly hub", "Kensington MD120U4 USB4 Hub"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $95", "Kensington MD120U4 USB4 Hub ($92.57)"],
-        ["Under $240", "Kensington SD5760T ($237.99)"],
-        ["Under $320", "Kensington SD5750T ($318.43)"],
-        ["Under $380", "CalDigit TS4 ($379.99)"],
+        ["Under $95", "Kensington MD120U4 USB4 Hub (under $100)"],
+        ["Under $240", "Kensington SD5760T (under $250)"],
+        ["Under $320", "Kensington SD5750T (under $350)"],
+        ["Under $380", "CalDigit TS4 (under $400)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Microsoft-Certified vs Universally Compatible",
     cards: [
       { label: "Microsoft-certified (both Kensington SD57 series picks)", text: "Carries genuine Designed for Surface validation, giving direct assurance of compatibility with specific Surface Pro and Laptop models." },
-      { label: "Universally compatible, uncertified (CalDigit TS4, Kensington MD120U4)", text: "Works broadly across Thunderbolt and USB-C devices including Surface, without a formal Microsoft certification badge." },
+      { label: "Universally compatible, uncertified (CalDigit TS4, Kensington MD120U4)", text: "Works broadly across Thunderbolt and USB-C devices including Surface, without a formal Microsoft certification badge." }
     ],
     note: "If you exclusively use Surface hardware and want the strongest compatibility assurance, either certified Kensington pick is the safer choice. If you also use non-Surface laptops, the CalDigit or Kensington hub's universal compatibility serves both.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your usage pattern", "Recommended pick"],
       rows: [
         ["Permanent desk setup needing maximum ports", "CalDigit TS4 or Kensington SD5750T"],
-        ["Hybrid work moving between locations", "Kensington MD120U4 USB4 Hub"],
+        ["Hybrid work moving between locations", "Kensington MD120U4 USB4 Hub"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Video Editors and Photographers Specifically",
     cards: [
       { label: "Look for", text: "Fast built-in UHS-II SD and microSD card readers, so offloading footage and photos doesn't require a separate card reader accessory." },
-      { label: "In this comparison", text: "The Kensington SD5760T specifically markets its UHS-II card readers toward graphic designers, video editors, and animators." },
+      { label: "In this comparison", text: "The Kensington SD5760T specifically markets its UHS-II card readers toward graphic designers, video editors, and animators." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want the maximum port count with genuinely universal cross-platform compatibility, where the CalDigit TS4's 18 ports justify its $379.99 price." },
-      { label: "Save if", text: "You want a genuinely portable USB4 hub for hybrid work, where the Kensington MD120U4 delivers that for $92.57, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You want the maximum port count with genuinely universal cross-platform compatibility, where the CalDigit TS4's 18 ports justify its under $400 price." },
+      { label: "Save if", text: "You want a genuinely portable USB4 hub for hybrid work, where the Kensington MD120U4 delivers that for under $100, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

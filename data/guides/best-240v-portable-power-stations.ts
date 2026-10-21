@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $669.00",
+          "Under $700",
           "AFERIY P210 Solar Generator"
         ],
         [
-          "Around $699.98",
+          "Under $700",
           "AFERIY P280 Portable Power Station"
         ],
         [
-          "Around $1,169.00",
+          "Under $1,200",
           "AFERIY 3840Wh Portable Power Station"
         ],
         [
-          "Around $1,299.00",
+          "Under $1,300",
           "PECRON E3800LFP Portable Power Station"
         ],
         [
-          "Around $1,498.99",
+          "Under $1,500",
           "BLUETTI Apex 300 Portable Power Station"
         ],
         [
-          "Around $1,799.99",
+          "Under $1,800",
           "OUPES Guardian 6000 V2 Portable Power Station"
         ],
         [
-          "Around $1,899.00",
+          "Under $1,900",
           "Jackery HomePower 3600 Plus Portable Power Station"
         ],
         [
-          "Around $2,097.00",
+          "Under $2,100",
           "PECRON Two E3600LFP Power Stations with 240V Double Voltage Hub"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "AFERIY P280 Portable Power Station is aimed at buyers prioritizing 2048wh (expandable to 10.24kwh), 2800w." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "AFERIY P280 Portable Power Station is aimed at buyers prioritizing 2048wh (expandable to 10.24kwh), 2800w." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

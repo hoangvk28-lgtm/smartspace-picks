@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "office pods for remote work";
 export const introParagraphs = [
   "A remote worker sitting inside a pod for a full workday cares less about a headline soundproof rating and more about sustained ventilation, sightlines and lighting for video calls, and ergonomic comfort over many hours, criteria that overlap with, but go beyond, our home office booth guides.",
-  "Ventilation is the most consistently undisclosed spec across office pod listings on Amazon, most titles emphasize soundproofing and say nothing about airflow, even though CO2 buildup and stuffiness matter more than acoustic rating for anyone sitting inside for a full workday. Ask the seller directly for an airflow rate or fan CFM figure before buying.",
+  "Ventilation is the most consistently undisclosed spec across office pod listings on Amazon, most titles emphasize soundproofing and say nothing about airflow, even though CO2 buildup and stuffiness matter more than acoustic rating for anyone sitting inside for a full workday. Ask the seller directly for an airflow rate or fan CFM figure before buying."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "10 min";
@@ -87,7 +87,7 @@ export const products: GuideProduct[] = [
     pros: ["Explicit 1-2 person occupancy range disclosed in the title", "Exact exterior dimensions disclosed (W55 x D48 x H92in)", "Mid-range price relative to the rest of this pool", "No star rating or review count to independently verify against the marketing copy"],
     cons: ["No star rating or review count available from Amazon", "No formal STC/NRC sound-isolation data disclosed", "No ventilation specs disclosed for two-occupant use"],
     bestFor: "Remote workers with limited space wanting a smaller footprint for daily use.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -95,7 +95,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Full-workday ventilation weighted over acoustic marketing", description: "Weighted the ventilation disclosure gap heavily for this guide specifically, since sustained daily occupancy makes airflow more consequential than a headline soundproof claim." },
   { title: "Video call lighting and background considered", description: "Considered interior dimensions and enclosed design as a proxy for consistent video call background and lighting control, though no listing specifies interior lighting fixtures." },
   { title: "Sustained-use ergonomics flagged as a listing gap", description: "Flagged that no listing in this niche details ergonomic seating or desk height adjustability, a real gap for anyone using a pod for full workdays." },
-  { title: "Cross-referenced home office booth guides rather than duplicating", description: "Confirmed overlap with our home office booth and soundproof home office booth guides and cross-linked rather than treating remote-work fit as an entirely separate research question." },
+  { title: "Cross-referenced home office booth guides rather than duplicating", description: "Confirmed overlap with our home office booth and soundproof home office booth guides and cross-linked rather than treating remote-work fit as an entirely separate research question." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -211,11 +211,11 @@ export const faq: FaqItem[] = [
   { q: "Is ventilation a bigger concern than soundproofing for remote work?", a: "For full-workday use, yes, CO2 buildup and stuffiness affect comfort more directly than acoustic rating, yet no listing in this niche discloses airflow specs." },
   { q: "Will video calls look professional from inside one of these pods?", a: "Plan to add your own lighting, no listing specifies interior lighting fixtures or camera-oriented background treatment." },
   { q: "Is an office pod worth it compared to a co-working membership?", a: "It depends on your usage pattern, at $4,000-$8,000, a pod makes more sense if you need dedicated, immediately available space at home rather than as a replacement for occasional co-working use." },
-  { q: "Should I read the home office booth guides too?", a: "Yes, this guide overlaps with our home office booths and soundproof home office booths guides, reviewing all three gives a fuller comparison." },
+  { q: "Should I read the home office booth guides too?", a: "Yes, this guide overlaps with our home office booths and soundproof home office booths guides, reviewing all three gives a fuller comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-home-office-booths", title: "Best Home Office Booths (2026)" },
   { href: "/guide/best-soundproof-home-office-booths", title: "Best Soundproof Home Office Booths (2026)" },
-  { href: "/guide/best-office-pods-for-small-apartments", title: "Best Office Pods for Small Apartments (2026)" },
+  { href: "/guide/best-office-pods-for-small-apartments", title: "Best Office Pods for Small Apartments (2026)" }
 ];

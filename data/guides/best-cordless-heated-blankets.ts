@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/415bSAVx5JL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H6P6M5XB?tag=deskfinds0d-20",
-    "description": "TZOSDOBO includes a 7.4V 20000 mAh pack that the listing says is FCC and ETL certified, with up to 10 hours of runtime across three heat modes and 8 heating zones. The pack sits in a zipper pocket, and the double-sided flannel is machine washable.\n\nThe certification wording covers the battery pack specifically, which is rarer than a generic safe claim. Against CYCYHEAT below, it costs about the same but states runtime and zone count.\n\nBest for a full-body cordless throw with documented numbers. The caveat is that the 10 hour figure is a best case, and it costs $89.99.",
+    "description": "TZOSDOBO includes a 7.4V 20000 mAh pack that the listing says is FCC and ETL certified, with up to 10 hours of runtime across three heat modes and 8 heating zones. The pack sits in a zipper pocket, and the double-sided flannel is machine washable.\n\nThe certification wording covers the battery pack specifically, which is rarer than a generic safe claim. Against CYCYHEAT below, it costs about the same but states runtime and zone count.\n\nBest for a full-body cordless throw with documented numbers. The caveat is that the 10 hour figure is a best case, and it costs under $90.",
     "specs": [
       "7.4V 20000 mAh, up to 10 hours",
       "8 heating zones, 3 modes",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41sCuf6P6fL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H7437R9S?tag=deskfinds0d-20",
-    "description": "MIMYTH is a hooded flannel wearable with three heat levels, a one-button control and a battery pocket. The listing claims warmth for up to 16 hours and heating in about 3 seconds.\n\nIt costs $62.99, below Moteoza, and adds a hood that others lack. Compared with GUOAN, it is battery-built instead of power bank powered.\n\nChoose it for a hooded wearable on a mid budget. The caveat is that battery capacity is not clear in the part of the listing we reviewed, and the 16 hour figure is likely on the lowest setting.",
+    "description": "MIMYTH is a hooded flannel wearable with three heat levels, a one-button control and a battery pocket. The listing claims warmth for up to 16 hours and heating in about 3 seconds.\n\nIt costs under $70, below Moteoza, and adds a hood that others lack. Compared with GUOAN, it is battery-built instead of power bank powered.\n\nChoose it for a hooded wearable on a mid budget. The caveat is that battery capacity is not clear in the part of the listing we reviewed, and the 16 hour figure is likely on the lowest setting.",
     "specs": [
       "Hooded flannel wearable",
       "3 heat levels, 1 button",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/51wsN71fdIL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0GVFG68T5?tag=deskfinds0d-20",
-    "description": "VOFUOTI MAX has a 12V 15000 mAh battery that is car outlet compatible, three heat settings, and windproof, waterproof fabric. A zipper converts it into an emergency sleeping bag shape, according to the listing.\n\nIt costs $129.99, the most of any pick, and is aimed at camping as much as desks. Against TZOSDOBO, you gain weather resistance but lose washing details.\n\nBest for someone who splits time between a cold office and the outdoors. The caveat is the price, and the listing's camping focus means extra bulk at a desk.",
+    "description": "VOFUOTI MAX has a 12V 15000 mAh battery that is car outlet compatible, three heat settings, and windproof, waterproof fabric. A zipper converts it into an emergency sleeping bag shape, according to the listing.\n\nIt costs under $130, the most of any pick, and is aimed at camping as much as desks. Against TZOSDOBO, you gain weather resistance but lose washing details.\n\nBest for someone who splits time between a cold office and the outdoors. The caveat is the price, and the listing's camping focus means extra bulk at a desk.",
     "specs": [
       "12V 15000 mAh battery",
       "Windproof, waterproof outer",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41-Lyd9jiwL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0HHMDCPLC?tag=deskfinds0d-20",
-    "description": "GUOAN is a throw with 8 heaters evenly spread, three heat sets with timing, and a 59 inch extension cable. It runs from a 12V 1.5A USB output power bank or from a wall charger, and the switch and heaters are waterproof for machine washing in a laundry bag.\n\nIt costs $57 but does not include a battery, as the listing refers to a power bank, whereas TZOSDOBO bundles one. Compared with MAXEVE, it covers the whole throw rather than a shawl.\n\nBest for someone who already owns a compatible power bank. The caveat is that you must supply a bank that outputs the required 12V, since a standard 5V USB bank will not do.",
+    "description": "GUOAN is a throw with 8 heaters evenly spread, three heat sets with timing, and a 59 inch extension cable. It runs from a 12V 1.5A USB output power bank or from a wall charger, and the switch and heaters are waterproof for machine washing in a laundry bag.\n\nIt costs under $60 but does not include a battery, as the listing refers to a power bank, whereas TZOSDOBO bundles one. Compared with MAXEVE, it covers the whole throw rather than a shawl.\n\nBest for someone who already owns a compatible power bank. The caveat is that you must supply a bank that outputs the required 12V, since a standard 5V USB bank will not do.",
     "specs": [
       "8 heaters, 3 heat sets",
       "12V 1.5A USB power bank input",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41QrI9FGd0L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H7S5FW4B?tag=deskfinds0d-20",
-    "description": "MAXEVE has a built-in USB cable for a power bank or phone charger, 4 heating zones on the shoulders, neck and back and three settings. The fabric is a 350 GSM faux rabbit fur with 220 GSM flannel lining, and a snap closure makes it wearable for typing.\n\nIt costs $45.99, much less than the battery-included blankets, but it needs your own source. Against Moteoza, it has fewer zones and no stated temperatures.\n\nBest for a plush shawl at a desk with a power bank. The caveat is that it is not self-contained, and its output depends on the power source you attach.",
+    "description": "MAXEVE has a built-in USB cable for a power bank or phone charger, 4 heating zones on the shoulders, neck and back and three settings. The fabric is a 350 GSM faux rabbit fur with 220 GSM flannel lining, and a snap closure makes it wearable for typing.\n\nIt costs under $50, much less than the battery-included blankets, but it needs your own source. Against Moteoza, it has fewer zones and no stated temperatures.\n\nBest for a plush shawl at a desk with a power bank. The caveat is that it is not self-contained, and its output depends on the power source you attach.",
     "specs": [
       "4 heating zones, 3 settings",
       "Built-in USB cable",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41Gk5ufQpML._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0G4VVQ7HL?tag=deskfinds0d-20",
-    "description": "ZonLi has a built-in 2 hour auto shut-off, overheat protection, 6 heating zones, 3 temperature levels and a 10000 mAh battery that the listing says gives 25 hours of warmth. The listing cites UL, FCC and GCC marks, and the nylon and sherpa fabric is windproof.\n\nAt $32.99 it is the cheapest blanket here and has the shortest auto-off. Against Moteoza, it has a smaller battery but a larger 50 by 60 inch body.\n\nBest for a budget buyer who wants a certified, short-cutoff blanket. The caveat is that the 25 hour runtime is likely a lowest-setting claim, and a 2 hour shut-off means restarting.",
+    "description": "ZonLi has a built-in 2 hour auto shut-off, overheat protection, 6 heating zones, 3 temperature levels and a 10000 mAh battery that the listing says gives 25 hours of warmth. The listing cites UL, FCC and GCC marks, and the nylon and sherpa fabric is windproof.\n\nAt under $35 it is the cheapest blanket here and has the shortest auto-off. Against Moteoza, it has a smaller battery but a larger 50 by 60 inch body.\n\nBest for a budget buyer who wants a certified, short-cutoff blanket. The caveat is that the 25 hour runtime is likely a lowest-setting claim, and a 2 hour shut-off means restarting.",
     "specs": [
       "10000 mAh, 6 heating zones",
       "2 hour auto shut-off",
@@ -291,7 +291,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     "title": "Value for price",
-    "description": "Prices from $32.99 to $129.99 were compared with what each listing documents."
+    "description": "Prices from roughly $35 to $130 were compared with what each listing documents."
   }
 ];
 

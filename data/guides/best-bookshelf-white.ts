@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "bookshelf white";
 export const introParagraphs = [
   "White bookshelves brighten a room and blend into almost any color scheme, which makes them one of the most requested finishes for living rooms, home offices, and bedrooms alike.",
-  "Below are 7 white bookshelves we evaluated on weight capacity, footprint, and standout features, ranging from a narrow stackable unit that doubles as end tables to a wide 5-tier shelf built to hold oversized books.",
+  "Below are 7 white bookshelves we evaluated on weight capacity, footprint, and standout features, ranging from a narrow stackable unit that doubles as end tables to a wide 5-tier shelf built to hold oversized books."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -57,18 +57,17 @@ export const products: GuideProduct[] = [
       "Engineered wood, 6 tiers",
       "Stackable/detachable, splits into 2 end tables",
       "4 adjustable feet",
-      "Anti-tilt wall mount kit",
+      "Anti-tilt wall mount kit"
     ],
     pros: [
-      "Highest rating in this list at 4.7 stars",
       "Unique stackable design splits into 2 end tables or one tall bookcase",
       "Narrow 14.5\" footprint fits tight spaces",
-      "Cheapest pick in this list at $39.99",
+      "Cheapest pick in this list at under $40"
     ],
     cons: [
       "Narrower shelves hold fewer books per tier than wider units",
       "No enclosed storage",
-      "Engineered wood, not solid wood",
+      "Engineered wood, not solid wood"
     ],
     bestFor: "Renters or small-space buyers who want a stackable bookshelf that can split into end tables",
   },
@@ -88,18 +87,17 @@ export const products: GuideProduct[] = [
       "23.6\"W x 9.3\"D x 70.9\"H",
       "Engineered particleboard, 6 open tiers",
       "Anti-collapse stability device",
-      "22 lb/shelf",
+      "22 lb/shelf"
     ],
     pros: [
       "Slimmest depth among full-size white bookshelves at 9.3\"",
       "Anti-collapse stability device built in",
-      "Full 6-tier height for a large collection",
-      "Strong 4.6-star rating across 1,757 ratings",
+      "Full 6-tier height for a large collection"
     ],
     cons: [
       "No enclosed storage",
       "Taller units like this can feel top-heavy without wall anchoring",
-      "Pricier than the narrower TUTOTAK",
+      "Pricier than the narrower TUTOTAK"
     ],
     bestFor: "Buyers who want full-size 6-tier capacity in the slimmest depth available",
   },
@@ -120,18 +118,18 @@ export const products: GuideProduct[] = [
       "MDF, tree-shaped design",
       "6 tiers + 2 joinable storage cabinets",
       "2-year warranty + lifetime support",
-      "Anti-tip kit included",
+      "Anti-tip kit included"
     ],
     pros: [
       "Most attractive tree-shaped design in this list",
       "2-year warranty with lifetime support",
       "Combines open shelving with 2 storage cabinets",
-      "Tiny footprint at 14.6\" x 7.9\"",
+      "Tiny footprint at 14.6\" x 7.9\""
     ],
     cons: [
       "Shorter than the tallest picks at 47.4\"",
       "Vintage white tone runs slightly warmer than pure white",
-      "Cabinets are compact, not full-size storage",
+      "Cabinets are compact, not full-size storage"
     ],
     bestFor: "Buyers who want the most eye-catching design plus real warranty backing",
   },
@@ -152,18 +150,18 @@ export const products: GuideProduct[] = [
       "Particleboard + MDF",
       "4 adjustable shelves, 3 height positions",
       "22 lb/shelf (154 lb total)",
-      "H-shaped footless structure, slot-in back panel",
+      "H-shaped footless structure, slot-in back panel"
     ],
     pros: [
       "Highest total capacity among open-shelving picks at 154 lbs",
       "4 fully adjustable shelves with 3 height positions",
       "Modern footless H-frame design",
-      "Slot-in back panel adds rigidity without extra tools",
+      "Slot-in back panel adds rigidity without extra tools"
     ],
     cons: [
       "Lower star rating than most other picks in this list at 4.3",
       "No enclosed storage",
-      "Footless design needs level flooring to sit flush",
+      "Footless design needs level flooring to sit flush"
     ],
     bestFor: "Buyers who want the highest capacity and the most shelf adjustability in an open design",
   },
@@ -184,18 +182,17 @@ export const products: GuideProduct[] = [
       "Engineered particleboard",
       "3 open shelves + 3 drawers with aluminum handles",
       "Anti-collapse iron plate",
-      "~100 gallons of combined storage",
+      "~100 gallons of combined storage"
     ],
     pros: [
       "Smooth-glide drawers with aluminum handles",
       "Anti-collapse iron plate reinforcement",
-      "Best-looking white pick with concealed storage",
-      "Highest rating among drawer-equipped picks at 4.7 stars",
+      "Best-looking white pick with concealed storage"
     ],
     cons: [
-      "Most expensive pick in this list at $112.99",
+      "Most expensive pick in this list at under $120",
       "Deeper footprint than the slimmer open-shelf picks",
-      "Fewer total ratings than the top sellers",
+      "Fewer total ratings than the top sellers"
     ],
     bestFor: "Buyers who want the best mix of open display shelving and hidden drawer storage",
   },
@@ -216,18 +213,18 @@ export const products: GuideProduct[] = [
       "P2 MDF + solid beech wood legs (30mm)",
       "80 lb/shelf (400 lb total)",
       "3 side panels per shelf",
-      "Rounded corners",
+      "Rounded corners"
     ],
     pros: [
       "Highest total capacity in this list at 400 lbs",
       "Genuine solid beech wood legs, not composite or metal",
       "Most premium minimalist design",
-      "Side panels on each shelf prevent items sliding off",
+      "Side panels on each shelf prevent items sliding off"
     ],
     cons: [
       "Shorter than the tallest picks at 53.94\"",
       "Fewer total ratings than the top sellers",
-      "Premium materials come at a premium price",
+      "Premium materials come at a premium price"
     ],
     bestFor: "Buyers who want the highest weight capacity plus genuine solid wood legs",
   },
@@ -248,21 +245,21 @@ export const products: GuideProduct[] = [
       "FSC-certified MDF, 5 open tiers",
       "60 lb/shelf (highest among 5-tier picks)",
       "11.8\" shelf height",
-      "Anti-tipping device included",
+      "Anti-tipping device included"
     ],
     pros: [
       "Highest per-shelf capacity among 5-tier white bookshelves at 60 lbs",
       "Widest pick in this list at 33\"",
       "FSC-certified sustainable wood",
-      "11.8\" shelf height fits oversized books and binders",
+      "11.8\" shelf height fits oversized books and binders"
     ],
     cons: [
-      "Most expensive pick in this list at $179.99",
+      "Most expensive pick in this list at under $180",
       "Lower star rating than most other picks at 4.5",
-      "Wide footprint needs more wall space than narrower picks",
+      "Wide footprint needs more wall space than narrower picks"
     ],
     bestFor: "Buyers with encyclopedias, binders, or oversized books that need extra shelf height and depth",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -289,10 +286,7 @@ export const buyingCriteria: BuyingCriterion[] = [
 ];
 
 export const faq: FaqItem[] = [
-  {
-    q: "What is the best white bookshelf overall?",
-    a: "The TUTOTAK 6-Tier Tall Bookshelf White (Pick 1) is the best overall choice, with the highest rating in this list at 4.7 stars and a unique stackable design that splits into 2 end tables or combines into one tall bookcase.",
-  },
+  
   {
     q: "Which white bookshelf saves the most floor space?",
     a: "The TUTOTAK (Pick 1) and SUNMORY (Pick 3) have the narrowest footprints in this list, at 14.5 inches and 14.6 x 7.9 inches respectively.",
@@ -311,16 +305,16 @@ export const faq: FaqItem[] = [
   },
   {
     q: "What is the most affordable white bookshelf in this list?",
-    a: "The TUTOTAK 6-Tier Tall Bookshelf White (Pick 1) is the cheapest at $39.99, while also carrying the highest rating in this list.",
+    a: "The TUTOTAK 6-Tier Tall Bookshelf White (Pick 1) is the cheapest at under $40, while also carrying the highest rating in this list.",
   },
   {
     q: "Does shelf spacing matter if I only own paperbacks?",
     a: "Yes, but you have more flexibility. Paperbacks only need about 8-9 inches of clearance, so a narrower-spaced white bookshelf works fine. If your collection includes hardcovers, oversized art books, or binders, look for a pick with taller clearance like the Bevfint at 11.8 inches, since a shelf built for paperback spacing won't fit them.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-bookshelf-5-tier", title: "Best 5-Tier Bookshelves in 2026" },
   { href: "/guide/best-bookshelf-with-drawers", title: "Best Bookshelves with Drawers in 2026" },
-  { href: "/guide/best-bookshelf-3-tier", title: "Best 3-Tier Bookshelves in 2026" },
+  { href: "/guide/best-bookshelf-3-tier", title: "Best 3-Tier Bookshelves in 2026" }
 ];

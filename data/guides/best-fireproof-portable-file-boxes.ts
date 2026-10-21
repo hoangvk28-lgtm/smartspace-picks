@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "fireproof portable file boxes";
 export const introParagraphs = [
   "Important honesty note: \"fireproof\" is often an overstated marketing term, while \"fire-resistant\" more accurately describes protection for a specific, limited duration and temperature. We could not independently verify specific UL fire-rating certification numbers for the products below from their Amazon listings alone, so treat any fireproof marketing claim as a starting point, not a guarantee, and check the manufacturer's own certification documentation directly before trusting truly irreplaceable documents to any of these boxes.",
-  "We also address water resistance, since fire suppression (sprinklers, firefighting water) often accompanies fire exposure, and a box protecting against flame but not water can still result in document loss. Weight is disclosed explicitly too, since fire-resistant materials typically add substantial weight, a real tradeoff against this category's 'portable' promise.",
+  "We also address water resistance, since fire suppression (sprinklers, firefighting water) often accompanies fire exposure, and a box protecting against flame but not water can still result in document loss. Weight is disclosed explicitly too, since fire-resistant materials typically add substantial weight, a real tradeoff against this category's 'portable' promise."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "9 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "\"Fireproof\" vs. \"fire-resistant\" accuracy", description: "We flagged that 'fireproof' often overstates actual protection, while 'fire-resistant' more honestly describes limited-duration, limited-temperature protection, and noted we could not independently verify specific certification numbers from Amazon listings alone." },
   { title: "Water resistance alongside fire protection", description: "We noted whether each pick addresses water resistance, since fire suppression often accompanies fire exposure and can cause document loss even if flames are blocked." },
   { title: "Weight disclosed as a portable-category tradeoff", description: "We explicitly weighed fire-resistant materials' added weight against this category's core 'portable' promise." },
-  { title: "Dedicated safety brand vs. general storage brand marketing", description: "We distinguished SentrySafe's established, dedicated fire-safety product line from general storage brands that add fireproof marketing to a standard box design." },
+  { title: "Dedicated safety brand vs. general storage brand marketing", description: "We distinguished SentrySafe's established, dedicated fire-safety product line from general storage brands that add fireproof marketing to a standard box design." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -224,11 +224,11 @@ export const faq: FaqItem[] = [
   { q: "What's the difference between 'fireproof' and 'fire-resistant'?", a: "'Fireproof' often overstates protection, implying complete, indefinite safety. 'Fire-resistant' more accurately describes protection for a specific, limited duration and temperature, the more honest framing for most consumer products in this category." },
   { q: "Will my documents survive water damage during a fire?", a: "Only if the specific box explicitly addresses water resistance, since fire suppression efforts often involve water. The SentrySafe pick explicitly claims both fireproof and waterproof protection." },
   { q: "Why do fireproof file boxes weigh more than regular ones?", a: "Fire-resistant materials typically add substantial weight to provide their protective properties, a real tradeoff against this category's core portable promise that we disclosed explicitly for each pick." },
-  { q: "Which pick has the most established track record for fire safety specifically?", a: "SentrySafe is a dedicated safe manufacturer, not a general storage brand adding fireproof marketing to a standard box, and carries the highest review count in this entire comparison." },
+  { q: "Which pick has the most established track record for fire safety specifically?", a: "SentrySafe is a dedicated safe manufacturer, not a general storage brand adding fireproof marketing to a standard box, and carries the highest review count in this entire comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-lockable-portable-file-boxes", title: "Best Lockable Portable File Boxes (2026)" },
   { href: "/guide/best-portable-file-boxes-for-legal-size-documents", title: "Best Portable File Boxes for Legal-Size Documents (2026)" },
-  { href: "/guide/best-weathertight-portable-file-boxes", title: "Best Weathertight Portable File Boxes (2026)" },
+  { href: "/guide/best-weathertight-portable-file-boxes", title: "Best Weathertight Portable File Boxes (2026)" }
 ];

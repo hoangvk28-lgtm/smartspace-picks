@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "in-wall small safes";
 export const introParagraphs = [
   "We need to be direct here: none of the 8 listings in our research pool document rough-opening dimensions, stud-bay depth, or framing-anchor instructions, the specifications a genuine in-wall safe needs for installation between wall studs. These are general mountable security safes, not purpose-built in-wall units.",
-  "Rather than imply in-wall installation compatibility these listings don't confirm, we're presenting the strongest general mountable safes from our research and explaining what to actually verify before attempting to install any safe inside a wall cavity.",
+  "Rather than imply in-wall installation compatibility these listings don't confirm, we're presenting the strongest general mountable safes from our research and explaining what to actually verify before attempting to install any safe inside a wall cavity."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     pros: ["Most flexible password length in this comparison for a stronger custom code"],
     cons: ["No documented stud-bay or rough-opening specifications for true in-wall use"],
     bestFor: "Buyers wanting a compact surface-mounted safe with a flexible custom password.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required rough-opening or stud-bay documentation before treating a pick as genuinely in-wall", description: "None of our 8 candidates document these specifications. We disclosed this directly rather than presenting general mountable safes as true in-wall units." },
   { title: "Checked physical depth against standard wall cavity dimensions", description: "A standard 2x4 stud wall cavity is roughly 3.5 inches deep. We flagged where a pick's body depth exceeds this, a genuine physical constraint for true in-wall installation regardless of marketing." },
   { title: "Distinguished surface mounting from cavity recessing", description: "Every confirmed-mountable pick here attaches to a wall, floor, or cabinet surface rather than being recessed flush within a wall cavity, a meaningfully different installation than a true in-wall safe." },
-  { title: "Recommended a genuine in-wall specialist product if that's truly required", description: "For buyers who specifically need a flush in-wall installation, we recommend seeking a purpose-built in-wall safe product line with documented rough-opening dimensions, which none of our research candidates provide." },
+  { title: "Recommended a genuine in-wall specialist product if that's truly required", description: "For buyers who specifically need a flush in-wall installation, we recommend seeking a purpose-built in-wall safe product line with documented rough-opening dimensions, which none of our research candidates provide." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -282,7 +282,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review count and rating together, not rating alone",
-    "explanation": "A 4.8-star rating from 12 reviews carries far less evaluation confidence than a 4.5-star rating from several thousand, since a small sample can be skewed by a handful of early, enthusiastic buyers before any long-term reliability issues would show up in later reviews.\n\nThis matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
+    "explanation": "This matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
   }
 ];
 
@@ -291,11 +291,11 @@ export const faq: FaqItem[] = [
   { q: "What's the strongest general mountable alternative?", a: "The SentrySafe Shelf Safe with Digital Keypad Lock, though its body depth exceeds a standard stud wall cavity." },
   { q: "Is there a concealed option that doesn't require cutting into a wall?", a: "Yes, several picks confirm wall-cabinet or peg-mounting for surface concealment without requiring wall cavity installation." },
   { q: "Where should I look for a genuine in-wall safe?", a: "Search specifically for a purpose-built in-wall safe product line and verify the manufacturer documents rough-opening and stud-bay dimensions before ordering." },
-  { q: "Should I consult a professional before installing a safe in a wall?", a: "Yes, cutting into a wall risks hitting wiring, plumbing, or structural framing. A professional can verify what's actually inside your specific wall first." },
+  { q: "Should I consult a professional before installing a safe in a wall?", a: "Yes, cutting into a wall risks hitting wiring, plumbing, or structural framing. A professional can verify what's actually inside your specific wall first." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-hidden-small-safes", title: "Best Hidden Small Safes (2026)" },
   { href: "/guide/best-small-safes-that-bolt-to-the-floor", title: "Best Small Safes That Bolt to the Floor (2026)" },
-  { href: "/guide/best-small-safes-for-closets", title: "Best Small Safes for Closets (2026)" },
+  { href: "/guide/best-small-safes-for-closets", title: "Best Small Safes for Closets (2026)" }
 ];

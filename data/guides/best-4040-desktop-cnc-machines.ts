@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $341.05",
+          "Under $350",
           "WolfPawn CNC Router Machine 4040-PRO for Metal Acrylic Cutting Milling"
         ],
         [
-          "Around $517.65",
+          "Under $550",
           "Genmitsu 4040-PRO CNC Router Machine for Metal Acrylic Cutting Milling"
         ],
         [
-          "Around $559.99",
+          "Under $600",
           "WolfPawn 4040-PreciseaMAX All-Metal CNC Router Machine with NEMA 57 Stepper Motor"
         ],
         [
-          "Around $890.00",
+          "Under $900",
           "HoLivoCrt 4040 5C Plus CNC Router Machine"
         ],
         [
-          "Around $911.05",
+          "Under $950",
           "SainSmart Genmitsu 4040-PRO MAX CNC Router with 710W Trimmer"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "Genmitsu 4040-PRO CNC Router Machine for Metal Acrylic Cutting Milling is aimed at buyers prioritizing 435 x 400 x 80mm work area." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Genmitsu 4040-PRO CNC Router Machine for Metal Acrylic Cutting Milling is aimed at buyers prioritizing 435 x 400 x 80mm work area." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-3020-desktop-cnc-machines","title":"Best 3020 Desktop CNC Machines in 2026"},{"href":"/guide/best-3020-pro-ultra-desktop-cnc-machines","title":"Best 3020 Pro Ultra Desktop CNC Machines in 2026"},{"href":"/guide/best-3018-desktop-cnc-machines","title":"Best 3018 Desktop CNC Machines in 2026"}];

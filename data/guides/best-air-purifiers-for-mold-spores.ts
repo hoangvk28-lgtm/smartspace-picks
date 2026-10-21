@@ -5,7 +5,7 @@ export const metaDescription = "5 air purifiers we evaluated for mold spores, wi
 export const mainKeyword = "air purifier for mold spores";
 export const introParagraphs = [
   "An air purifier captures airborne mold spores as they circulate, it doesn't remediate an active mold source on a wall or in ductwork, which needs moisture control and physical remediation first, a scope limit rarely stated clearly.",
-  "HEPA filtration is genuinely effective at capturing mold spores by size (typically 2-10 microns, well within HEPA's 0.3-micron capture efficiency), but a spore captured on the filter can still be viable, meaning filter handling and disposal matters more than with inert dust.",
+  "HEPA filtration is genuinely effective at capturing mold spores by size (typically 2-10 microns, well within HEPA's 0.3-micron capture efficiency), but a spore captured on the filter can still be viable, meaning filter handling and disposal matters more than with inert dust."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Air Purifier for Mold Spores Overall",
     name: "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom, H13 True HEPA Filter, 24db Filtration System Cleaner Odor Eliminators, Remove 99.97% Dust Smoke Mold Pollen, Core 300, White",
     price: "$89.99",
-    rating: "4.7 stars from 108,251 Amazon ratings",
-    reviews: "108,251 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Established Brand Mold Pick",
     name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
-    rating: "4.6 stars from 28,866 Amazon ratings",
-    reviews: "28,866 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419pAe7T0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTKAPUU?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity Mold Pick",
     name: "Nuwave OxyPure Smart Air Purifier",
     price: "$799.99",
-    rating: "4.6 stars from 616 Amazon ratings",
-    reviews: "616 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31CulL9tCOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08K3R8QPF?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Mold Pick",
     name: "Membrane Solutions MSA3 Air Purifier for Home",
     price: "$99.39",
-    rating: "4.5 stars from 10,110 Amazon ratings",
-    reviews: "10,110 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31CcBFzC6wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08ND7C7P4?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Coverage Mold Pick",
     name: "LEVOIT Smart Air Purifier for Home Large Room up to 1875 ft Vital 200S-P",
     price: "$174.99",
-    rating: "4.7 stars from 14,571 Amazon ratings",
-    reviews: "14,571 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Large rated coverage for a larger mold-affected room", "Smart app control for monitoring", "Large, well-established review base", "Genuine headroom for a higher ongoing spore count"],
     cons: ["Higher price than budget alternatives", "Larger footprint than compact picks", "Doesn't replace moisture control and physical remediation"],
     bestFor: "Larger rooms with an active mold source needing coverage headroom alongside remediation",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Air purification versus source remediation scope", description: "Considered that an air purifier captures airborne mold spores as they circulate, it doesn't remediate an active mold source, which needs moisture control and physical remediation first." },
   { title: "HEPA capture efficiency for spore size", description: "Confirmed HEPA filtration is genuinely effective at capturing mold spores by size, typically 2-10 microns, well within HEPA's 0.3-micron capture efficiency range." },
-  { title: "Viable-spore filter handling consideration", description: "Noted that a spore captured on the filter can still be viable, meaning filter handling and disposal matters more than with inert dust." },
+  { title: "Viable-spore filter handling consideration", description: "Noted that a spore captured on the filter can still be viable, meaning filter handling and disposal matters more than with inert dust." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Do I need to be careful when changing a filter from a mold-affected room?", a: "Yes. A spore captured on the filter can still be viable, so filter handling and disposal matters more than with inert dust, wear gloves and seal the old filter." },
   { q: "Should I get a dehumidifier along with an air purifier for a damp basement?", a: "It's a good idea. A higher-capacity air purifier manages the airborne spore load, but pairing it with a dehumidifier addresses the actual moisture source generating new spores." },
   { q: "Can an air purifier remove visible mold growth from a wall or ceiling?", a: "No, it only filters airborne spores, visible mold growth on a surface needs direct remediation and addressing the underlying moisture source, a purifier doesn't replace that cleanup step." },
-  { q: "Does a true HEPA filter actually capture mold spores effectively?", a: "Yes, mold spores typically range from 2 to 10 microns, well within true HEPA's tested 99.97% capture rate at 0.3 microns, making it genuinely effective filtration for this specific particle type." },
+  { q: "Does a true HEPA filter actually capture mold spores effectively?", a: "Yes, mold spores typically range from 2 to 10 microns, well within true HEPA's tested 99.97% capture rate at 0.3 microns, making it genuinely effective filtration for this specific particle type." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-hepa-air-purifiers", title: "Best HEPA Air Purifiers (2026)" },
   { href: "/guide/best-air-purifiers-for-allergies", title: "Best Air Purifiers for Allergies (2026)" },
-  { href: "/guide/best-air-purifiers-for-dust", title: "Best Air Purifiers for Dust (2026)" },
+  { href: "/guide/best-air-purifiers-for-dust", title: "Best Air Purifiers for Dust (2026)" }
 ];

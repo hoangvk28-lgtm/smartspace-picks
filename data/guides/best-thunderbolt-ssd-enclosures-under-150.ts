@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The highest stated speed with active cooling", "UGREEN 80Gbps M.2 NVMe SSD Enclosure with Cooling Fan"],
         ["Genuine 80Gbps speed with completely silent operation", "Qwiizlab Fanless 80Gbps NVMe Enclosure, Aluminum Chassis"],
         ["Real-time visual status monitoring during transfers", "MOKiN 80Gbps M.2 NVMe SSD Enclosure with LCD Display"],
-        ["Genuine 80Gbps speed at the lowest price", "ACASIS 80Gbps M.2 NVMe SSD Enclosure, Thunderbolt 5 & USB4 V2.0"],
+        ["Genuine 80Gbps speed at the lowest price", "ACASIS 80Gbps M.2 NVMe SSD Enclosure, Thunderbolt 5 & USB4 V2.0"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $150", "ACASIS ($149.61)"],
-        ["Under $152", "MOKiN ($151.99)"],
-        ["Under $160", "Qwiizlab ($159.99)"],
-        ["Under $170", "UGREEN ($169.99)"],
+        ["Under $150", "ACASIS (under $150)"],
+        ["Under $152", "MOKiN (under $160)"],
+        ["Under $160", "Qwiizlab (under $160)"],
+        ["Under $170", "UGREEN (under $170)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Active Fan Cooling vs Completely Fanless Design",
     cards: [
       { label: "Active fan cooling (UGREEN, MOKiN, ACASIS)", text: "Actively manages heat during sustained high-speed transfers, with varying activation thresholds and speed levels." },
-      { label: "Completely fanless (Qwiizlab)", text: "Relies entirely on a copper plate and aluminum chassis for passive cooling, delivering genuinely silent operation." },
+      { label: "Completely fanless (Qwiizlab)", text: "Relies entirely on a copper plate and aluminum chassis for passive cooling, delivering genuinely silent operation." }
     ],
     note: "If you regularly perform extended high-speed transfers where thermal management matters most, an active-cooling pick like the UGREEN or MOKiN gives you more assurance. If silent operation is a priority and your workloads are more moderate, the Qwiizlab's fanless design delivers that without sacrificing genuine 80Gbps capability.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Thunderbolt 5 host, want maximum speed", "UGREEN or MOKiN"],
         ["Thunderbolt 4/3 host, need backward compatibility", "Qwiizlab or MOKiN"],
-        ["USB4 V2.0 host, no Thunderbolt 3 needed", "ACASIS"],
+        ["USB4 V2.0 host, no Thunderbolt 3 needed", "ACASIS"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Content Creator Monitoring Transfer Health During Long Sessions Specifically",
     cards: [
       { label: "Look for", text: "A built-in status display showing real-time temperature and fan activity, rather than relying on guesswork about whether thermal throttling might be affecting your transfer speeds." },
-      { label: "In this comparison", text: "The MOKiN pick's LCD display specifically provides real-time temperature and fan speed monitoring during intensive, extended transfer sessions." },
+      { label: "In this comparison", text: "The MOKiN pick's LCD display specifically provides real-time temperature and fan speed monitoring during intensive, extended transfer sessions." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the highest stated theoretical speed with active cooling and a travel case, where the UGREEN pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You want genuine 80Gbps speed without needing Thunderbolt 3 backward compatibility, where the ACASIS pick covers that for about $20 less." },
+      { label: "Save if", text: "You want genuine 80Gbps speed without needing Thunderbolt 3 backward compatibility, where the ACASIS pick covers that for about $20 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -195,7 +195,7 @@ export default async function BestHeadphonesUnder50Page() {
     about: [
       { "@type": "Thing", name: "Headphones Under $50" },
       { "@type": "Thing", name: "Budget Wireless Headphones" },
-      { "@type": "Thing", name: "ANC Headphones Under $50" },
+      { "@type": "Thing", name: "ANC Headphones Under $50" }
     ],
   };
 
@@ -215,7 +215,7 @@ export default async function BestHeadphonesUnder50Page() {
         position: 3,
         name: "Best Headphones Under $50",
         item: `${SITE_URL}/guide/best-headphones-under-50`,
-      },
+      }
     ],
   };
 
@@ -464,7 +464,7 @@ export default async function BestHeadphonesUnder50Page() {
                     {
                       feature: "Professional studio audio",
                       under30: "No",
-                      under50: "Yes (ATH-M20x at $49)",
+                      under50: "Yes (ATH-M20x at under $50)",
                     },
                     {
                       feature: "Hi-Res Audio certification",
@@ -475,7 +475,7 @@ export default async function BestHeadphonesUnder50Page() {
                       feature: "Speed Charge",
                       under30: "No",
                       under50: "Yes (JBL Tune 520BT)",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -553,7 +553,7 @@ export default async function BestHeadphonesUnder50Page() {
             <div className="p-3 rounded-xl bg-brand/5 border border-brand/20 text-sm text-ink-secondary">
               <strong className="text-ink">Decision guide:</strong> Mobile use
               or shared spaces? Go wireless. Fixed desk for audio work? The
-              ATH-M20x wired at $49 wins on sound quality.
+              ATH-M20x wired at under $50 wins on sound quality.
             </div>
           </div>
         </section>
@@ -643,7 +643,7 @@ export default async function BestHeadphonesUnder50Page() {
                 name: "Soundcore Life Q10",
                 verdict:
                   ": 60h wireless over-ear with AUX cable fallback at ~$35 to $40.",
-              },
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

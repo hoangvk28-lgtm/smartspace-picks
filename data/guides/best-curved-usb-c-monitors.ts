@@ -5,7 +5,7 @@ export const metaDescription = "5 curved USB-C monitors we evaluated, with a not
 export const mainKeyword = "curved usb-c monitor";
 export const introParagraphs = [
   "Curve radius, expressed as an R number like 1500R or 1000R, matters more than most buyers realize, a tighter curve (lower R number) suits closer viewing distances while a gentler curve works better if your desk setup puts you farther from the screen.",
-  "A curved panel's benefit is most noticeable at wider screen sizes, on a smaller curved monitor the curvature can feel more like a gimmick than a genuine immersion or eye-strain benefit.",
+  "A curved panel's benefit is most noticeable at wider screen sizes, on a smaller curved monitor the curvature can feel more like a gimmick than a genuine immersion or eye-strain benefit."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     badge: "Best Curved USB-C Monitor Overall",
     name: "Pixio PXC348C Neo 34 inch 180Hz Refresh Rate UWQHD 1440p Ultrawide Resolution 1000R Curve",
     price: "$249.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41TB04lWCrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DR3YBSL4?tag=deskfinds0d-20",
@@ -42,7 +42,7 @@ export const products: GuideProduct[] = [
     badge: "Best Ultrawide Curved Productivity Pick",
     name: "Dell 34 Monitor S3425DW, WQHD VA, 120Hz, FreeSync Premium, Eye Comfort",
     price: "$379.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41oTaXgx2fL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1H325FN?tag=deskfinds0d-20",
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     badge: "Best Value Curved USB-C Pick",
     name: "SANSUI Curved Monitor 27 inch 120Hz USB Type-C Computer Monitor",
     price: "$109.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/518zREWknqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DB8HLNPN?tag=deskfinds0d-20",
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     badge: "Best Premium Curved Ultrawide Pick",
     name: "SAMSUNG Viewfinity S65UA Series 34-Inch Ultrawide QHD Curved Monitor, 100Hz, USB-C, HDR10",
     price: "$414.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51jbyzHVvdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BLT79X2G?tag=deskfinds0d-20",
@@ -93,7 +93,7 @@ export const products: GuideProduct[] = [
     badge: "Best Super-Ultrawide Curved Pick",
     name: "Deco Gear 49 Inch Curved Ultrawide Monitor, 5120x1440 Dual QHD 32:9 1500R VA Display, HDR400",
     price: "$449.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41hpKXhqKnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H1VFKC84?tag=deskfinds0d-20",
@@ -103,7 +103,7 @@ export const products: GuideProduct[] = [
     pros: ["Massive 49-inch super-ultrawide effectively replaces a dual-monitor setup", "1500R curve appropriately gentler for the greater viewing distance", "HDR400 support for richer contrast", "32:9 aspect ratio for extreme multitasking workspace"],
     cons: ["Highest price in this guide alongside the Samsung option", "Requires substantial desk depth and width", "Verify USB-C power delivery wattage against your laptop"],
     bestFor: "Buyers wanting to replace a dual-monitor setup with one massive curved super-ultrawide panel",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -111,7 +111,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Curve radius matched to typical viewing distance", description: "Considered curve radius (expressed as an R number) against typical viewing distances, since a tighter curve suits closer setups and a gentler curve suits farther ones." },
   { title: "Curve benefit weighed against panel size", description: "Weighed whether a curved panel's immersion or eye-strain benefit is genuinely noticeable at its size, since the benefit is more pronounced on wider ultrawide panels." },
   { title: "Refresh rate and resolution matched to stated use case", description: "Matched refresh rate and resolution combinations against whether a monitor suits productivity, gaming, or a hybrid use case." },
-  { title: "USB-C power delivery flagged for verification against laptops", description: "Flagged that USB-C power delivery wattage should be verified against a buyer's specific laptop charging requirement." },
+  { title: "USB-C power delivery flagged for verification against laptops", description: "Flagged that USB-C power delivery wattage should be verified against a buyer's specific laptop charging requirement." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -244,11 +244,11 @@ export const faq: FaqItem[] = [
   { q: "Can a curved monitor replace a dual-monitor setup?", a: "A large enough super-ultrawide curved monitor, like a 49-inch panel, can genuinely replace a dual-monitor setup for many workflows." },
   { q: "Does a curved USB-C monitor charge my laptop the same as a flat one?", a: "It depends on the specific model's power delivery wattage, verify this against your laptop's charging requirement regardless of curve." },
   { q: "Which pick in this comparison is the best overall choice?", a: "Buyers with a closer desk setup wanting a genuinely immersive tight curve and high refresh rate" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting to try a curved monitor at a reasonable size and price At $109.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting to try a curved monitor at a reasonable size and price At under $110, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-ultrawide-usb-c-monitors", title: "Best Ultrawide USB-C Monitors (2026)" },
   { href: "/guide/best-34-inch-usb-c-monitors", title: "Best 34-Inch USB-C Monitors (2026)" },
-  { href: "/guide/best-usb-c-monitors-with-power-delivery", title: "Best USB-C Monitors with Power Delivery (2026)" },
+  { href: "/guide/best-usb-c-monitors-with-power-delivery", title: "Best USB-C Monitors with Power Delivery (2026)" }
 ];

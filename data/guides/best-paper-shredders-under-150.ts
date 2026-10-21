@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41814cs7oRL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0C7H1BV5W?tag=deskfinds0d-20",
-    "description": "Bonsaii 12-Sheet Micro Cut Heavy Duty Paper Shredder for Home Office is built around 20 minutes & 12 sheets shredder, paired with p-4 high security, positioning it as a shredder built for a specific security level and sheet volume rather than general use.\n\nSitting at $119.99, the top of this comparison's price range, it asks buyers to confirm the added capability is actually worth it over the more affordable picks here before paying the premium.\n\nBonsaii 12-Sheet Micro Cut Heavy Duty Paper Shredder for Home Office is the right call for buyers who want genuinely secure document destruction without stepping up to a commercial-grade machine. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "Bonsaii 12-Sheet Micro Cut Heavy Duty Paper Shredder for Home Office is built around 20 minutes & 12 sheets shredder, paired with p-4 high security, positioning it as a shredder built for a specific security level and sheet volume rather than general use.\n\nSitting at under $120, the top of this comparison's price range, it asks buyers to confirm the added capability is actually worth it over the more affordable picks here before paying the premium.\n\nBonsaii 12-Sheet Micro Cut Heavy Duty Paper Shredder for Home Office is the right call for buyers who want genuinely secure document destruction without stepping up to a commercial-grade machine. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "20 Minutes & 12 Sheets Shredder",
       "P-4 High Security",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41fZUncEm4L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B08NTZ4VWN?tag=deskfinds0d-20",
-    "description": "What stands out on Fellowes Powershred 12 Sheet Cross-Cut Paper Home Office Paper Shredder is high security, alongside versatile shredding, which is the main reason it earns a spot in this paper shredders comparison.\n\nIt lands between Amazon Basics 12 Sheet High Security Micro Cut Paper's $93.31 price floor and Bonsaii 12-Sheet Micro Cut Heavy Duty Paper Shredder for Home Office's $119.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nFellowes Powershred 12 Sheet Cross-Cut Paper Home Office Paper Shredder is the right call for buyers who want genuinely secure document destruction without stepping up to a commercial-grade machine. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on Fellowes Powershred 12 Sheet Cross-Cut Paper Home Office Paper Shredder is high security, alongside versatile shredding, which is the main reason it earns a spot in this paper shredders comparison.\n\nIt lands between Amazon Basics 12 Sheet High Security Micro Cut Paper's under $100 price floor and Bonsaii 12-Sheet Micro Cut Heavy Duty Paper Shredder for Home Office's under $120 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nFellowes Powershred 12 Sheet Cross-Cut Paper Home Office Paper Shredder is the right call for buyers who want genuinely secure document destruction without stepping up to a commercial-grade machine. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "High Security",
       "Versatile Shredding",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41VXWfmdBaL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0CL7PJFNN?tag=deskfinds0d-20",
-    "description": "Aurora AU1225MA High-Security 12-Sheet Micro-Cut Paper and CD/Credit Card Shredder/ 5-Gallon Pullout Basket/40 Minutes Run Time leads with high-security micro-cut with 12 sheet, backed by shreds paper, cds, dvds, credit, a combination aimed at as a shredder built for a specific security level and sheet volume rather than general use.\n\nCompared to Amazon Basics 12 Sheet High Security Micro Cut Paper at $93.31, it costs more for real added capability, while sitting well below Bonsaii 12-Sheet Micro Cut Heavy Duty Paper Shredder for Home Office at $119.99 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want genuinely secure document destruction without stepping up to a commercial-grade machine. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "Aurora AU1225MA High-Security 12-Sheet Micro-Cut Paper and CD/Credit Card Shredder/ 5-Gallon Pullout Basket/40 Minutes Run Time leads with high-security micro-cut with 12 sheet, backed by shreds paper, cds, dvds, credit, a combination aimed at as a shredder built for a specific security level and sheet volume rather than general use.\n\nCompared to Amazon Basics 12 Sheet High Security Micro Cut Paper at under $100, it costs more for real added capability, while sitting well below Bonsaii 12-Sheet Micro Cut Heavy Duty Paper Shredder for Home Office at under $120 for buyers who don't need that top-tier spec.\n\nThis pick best suits buyers who want genuinely secure document destruction without stepping up to a commercial-grade machine. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "High-Security Micro-Cut with 12 sheet",
       "Shreds paper, CDs, DVDs, credit",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41ty6yGFgNL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B08RK3C2NF?tag=deskfinds0d-20",
-    "description": "What stands out on Aurora AU1260XA Anti-Jam 12-Sheet Crosscut Paper and CD/Credit Card Shredder is crosscut with 12 sheet capacities, alongside shreds paper, cds, dvds, credit, which is the main reason it earns a spot in this paper shredders comparison.\n\nIt lands between Amazon Basics 12 Sheet High Security Micro Cut Paper's $93.31 price floor and Bonsaii 12-Sheet Micro Cut Heavy Duty Paper Shredder for Home Office's $119.99 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nAurora AU1260XA Anti-Jam 12-Sheet Crosscut Paper and CD/Credit Card Shredder is the right call for buyers who want genuinely secure document destruction without stepping up to a commercial-grade machine. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
+    "description": "What stands out on Aurora AU1260XA Anti-Jam 12-Sheet Crosscut Paper and CD/Credit Card Shredder is crosscut with 12 sheet capacities, alongside shreds paper, cds, dvds, credit, which is the main reason it earns a spot in this paper shredders comparison.\n\nIt lands between Amazon Basics 12 Sheet High Security Micro Cut Paper's under $100 price floor and Bonsaii 12-Sheet Micro Cut Heavy Duty Paper Shredder for Home Office's under $120 ceiling in this comparison, a middle-ground pick for buyers who want more than the basics without paying top dollar.\n\nAurora AU1260XA Anti-Jam 12-Sheet Crosscut Paper and CD/Credit Card Shredder is the right call for buyers who want genuinely secure document destruction without stepping up to a commercial-grade machine. Double-check the current listing's price and specs before buying, since both can shift for third-party sellers in this category.",
     "specs": [
       "Crosscut with 12 sheet capacities",
       "Shreds paper, CDs, DVDs, credit",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/310OG1rHfVL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B08NYC9YFX?tag=deskfinds0d-20",
-    "description": "What stands out on Amazon Basics 12 Sheet High Security Micro Cut Paper is micro cut shredder turns paper, alongside shreds up to 12 sheets, which is the main reason it earns a spot in this paper shredders comparison.\n\nAt $93.31, it's the most affordable pick in this comparison, so expect fewer extras than the pricier options here, but the core function holds up for buyers who don't need the added features those carry.\n\nThis pick best suits buyers who want genuinely secure document destruction without stepping up to a commercial-grade machine. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
+    "description": "What stands out on Amazon Basics 12 Sheet High Security Micro Cut Paper is micro cut shredder turns paper, alongside shreds up to 12 sheets, which is the main reason it earns a spot in this paper shredders comparison.\n\nAt under $100, it's the most affordable pick in this comparison, so expect fewer extras than the pricier options here, but the core function holds up for buyers who don't need the added features those carry.\n\nThis pick best suits buyers who want genuinely secure document destruction without stepping up to a commercial-grade machine. Confirm the exact current listing matches the spec sheet above before buying, since minor product revisions are common in this category.",
     "specs": [
       "Micro cut shredder turns paper",
       "Shreds up to 12 sheets",
@@ -241,23 +241,23 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $93.31",
+          "Under $100",
           "Amazon Basics 12 Sheet High Security Micro Cut Paper"
         ],
         [
-          "Around $99.35",
+          "Under $100",
           "Aurora AU1260XA Anti-Jam 12-Sheet Crosscut Paper and CD/Credit Card Shredder"
         ],
         [
-          "Around $108.57",
+          "Under $110",
           "Aurora AU1225MA High-Security 12-Sheet Micro-Cut Paper and CD/Credit Card Shredder/ 5-Gallon Pullout Basket/40 Minutes Run Time"
         ],
         [
-          "Around $109.99",
+          "Under $110",
           "Fellowes Powershred 12 Sheet Cross-Cut Paper Home Office Paper Shredder"
         ],
         [
-          "Around $119.99",
+          "Under $120",
           "Bonsaii 12-Sheet Micro Cut Heavy Duty Paper Shredder for Home Office"
         ]
       ]
@@ -268,11 +268,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Amazon Basics 12 Sheet High Security Micro Cut Paper",
-        "text": "The lowest-priced pick in this comparison at $93.31, a solid choice if you don't need the extras the pricier picks carry."
+        "text": "The lowest-priced pick in this comparison at under $100, a solid choice if you don't need the extras the pricier picks carry."
       },
       {
         "label": "Bonsaii 12-Sheet Micro Cut Heavy Duty Paper Shredder for Home Office",
-        "text": "The highest-priced pick at $119.99, worth it only if you'll actually use what that premium buys."
+        "text": "The highest-priced pick at under $120, worth it only if you'll actually use what that premium buys."
       }
     ],
     "note": "Default to Amazon Basics 12 Sheet High Security Micro Cut Paper unless the pricier pick's specific advantage genuinely applies to your situation."
@@ -332,7 +332,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "What's the real difference between the cheapest and most expensive pick here?",
-    "a": "Amazon Basics 12 Sheet High Security Micro Cut Paper at $93.31 covers the basics, while Bonsaii 12-Sheet Micro Cut Heavy Duty Paper Shredder for Home Office at $119.99 adds a higher security rating and longer continuous run time. Whether that's worth the difference depends on how sensitive your documents are and how large your typical shredding batches tend to be."
+    "a": "Amazon Basics 12 Sheet High Security Micro Cut Paper at under $100 covers the basics, while Bonsaii 12-Sheet Micro Cut Heavy Duty Paper Shredder for Home Office at under $120 adds a higher security rating and longer continuous run time. Whether that's worth the difference depends on how sensitive your documents are and how large your typical shredding batches tend to be."
   },
   {
     "q": "What security level do I actually need?",
@@ -344,7 +344,7 @@ export const faq: FaqItem[] = [
   },
   {
     "q": "Is there a solid middle-ground pick in this price range?",
-    "a": "Aurora AU1225MA High-Security 12-Sheet Micro-Cut Paper and CD/Credit Card Shredder/ 5-Gallon Pullout Basket/40 Minutes Run Time at $108.57 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
+    "a": "Aurora AU1225MA High-Security 12-Sheet Micro-Cut Paper and CD/Credit Card Shredder/ 5-Gallon Pullout Basket/40 Minutes Run Time at under $110 sits between the cheapest and priciest picks here, balancing cost against the extras the top pick offers."
   },
   {
     "q": "What's the most common mistake buyers make shopping paper shredders under $150?",

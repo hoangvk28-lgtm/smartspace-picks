@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "31.5''H Large Fireproof Waterproof Safe for Home Office and is built around 35 minutes at 1800 f, positioning it for 4 cu ft buyers specifically.\n\n85 LB Heavy-Duty Security Safe is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 4 cu ft, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["35 Minutes at 1800 F","85 LB Heavy-Duty Security Safe","Fast Biometric Access in Under 1 Second"],
     pros: ["35 Minutes at 1800 F, confirmed directly in the listing's own spec details","85 LB Heavy-Duty Security Safe, confirmed directly in the listing's own spec details","Fast Biometric Access in Under 1 Second, confirmed directly in the listing's own spec details"],
-    cons: ["At $314.48, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $350, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 4 cu ft",
   },
   {
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     description: "2.0 Cuft Fireproof Safe Box for Home,Digital Keypad,35-Min Fire Protection and is built around 35min fire protection, positioning it for 4 cu ft buyers specifically.\n\nLarge Capacity & Adjustable Interior is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 4 cu ft, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["35Min Fire Protection","Large Capacity & Adjustable Interior","Heavy Duty Safe"],
     pros: ["35Min Fire Protection, confirmed directly in the listing's own spec details","Large Capacity & Adjustable Interior, confirmed directly in the listing's own spec details","Heavy Duty Safe, confirmed directly in the listing's own spec details"],
-    cons: ["At $159.99, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $160, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 4 cu ft",
   },
   {
@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $112.99",
+          "Under $120",
           "3.3 Cu Ft Home Safe Fireproof & Waterproof with Programmable Keypad"
         ],
         [
-          "Around $112.99",
+          "Under $120",
           "3.4 Cu Ft Large Home Safe with Key and Combination Lock"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "2.0 Cuft Fireproof Safe Box for Home"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "WASJOYE 4.0 Cu Ft Large Cabinet Safe with Type-C Port"
         ],
         [
-          "Around $186.98",
+          "Under $190",
           "DAYI 3.0 Cu Ft Home Safe with Fireproof/Waterproof Bag"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "DAYI Biometric Fingerprint Safe Box"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "DAYI Biometric Fingerprint Safe Box"
         ],
         [
-          "Around $314.48",
+          "Under $350",
           "31.5''H Large Fireproof Waterproof Safe for Home Office"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", "a": "WASJOYE 4.0 Cu Ft Large Cabinet Safe with Type-C Port is aimed at buyers prioritizing 4.0 cu ft, 56.11 lbs, 2 fireproof drawers" },
+  { "q": "What's the single best pick to come out of this comparison?", "a": "WASJOYE 4.0 Cu Ft Large Cabinet Safe with Type-C Port is aimed at buyers prioritizing 4.0 cu ft, 56.11 lbs, 2 fireproof drawers" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-2-cu-ft-fireproof-safes","title":"Best 2 Cu ft Fireproof Safes in 2026"},{"href":"/guide/best-2-cubic-feet-fireproof-safes","title":"Best 2 Cubic Feet Fireproof Safes in 2026"},{"href":"/guide/best-3-cu-ft-fireproof-safes","title":"Best 3 Cu ft Fireproof Safes in 2026"}];

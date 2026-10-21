@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "office pods for small apartments";
 export const introParagraphs = [
   "Floor loading is the central feasibility question for an apartment installation, these structures weigh far more than typical furniture and concentrate that weight in a small footprint, which can exceed what a residential floor, especially on an upper floor, was designed to support without verification.",
-  "Beyond weight, doorway and elevator or stairwell clearance, and your lease's restrictions on semi-permanent structures, all need direct confirmation before you commit to a purchase this size, none of which an Amazon listing addresses on its own.",
+  "Beyond weight, doorway and elevator or stairwell clearance, and your lease's restrictions on semi-permanent structures, all need direct confirmation before you commit to a purchase this size, none of which an Amazon listing addresses on its own."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "10 min";
@@ -70,7 +70,7 @@ export const products: GuideProduct[] = [
     pros: ["Large L-size interior offers more headroom than compact one-person pods", "Straightforward, single-purpose enclosed privacy design", "No occupancy-count ambiguity in sizing tier (marketed as L/large)", "No star rating or review count to independently verify against the marketing copy"],
     cons: ["No star rating or review count available from Amazon", "Price not returned by the listing data, check current Amazon price directly", "No ventilation or STC/NRC specs disclosed"],
     bestFor: "Apartment dwellers with more square footage and confirmed floor-load capacity for a larger single-occupant pod.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -78,7 +78,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Floor loading centered as the primary feasibility question", description: "Weighted floor-load verification above all other criteria for this guide specifically, given how much these structures weigh relative to standard apartment furniture." },
   { title: "Doorway, elevator, and stairwell logistics flagged", description: "Flagged that delivery to an apartment unit involves doorway, elevator, or stairwell clearance planning that a ground-floor or house delivery wouldn't require." },
   { title: "Lease and landlord restrictions raised as a real consideration", description: "Raised lease terms and landlord or property management approval as a genuine pre-purchase step, since a semi-permanent structure this size may violate standard lease language." },
-  { title: "Neighbor sound transmission noted as a courtesy consideration", description: "Noted that even a soundproof-marketed pod concentrates vibration and impact noise on a shared apartment floor, worth considering for neighbor relations even though it's not a formal spec any listing addresses." },
+  { title: "Neighbor sound transmission noted as a courtesy consideration", description: "Noted that even a soundproof-marketed pod concentrates vibration and impact noise on a shared apartment floor, worth considering for neighbor relations even though it's not a formal spec any listing addresses." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -194,11 +194,11 @@ export const faq: FaqItem[] = [
   { q: "Can my apartment floor support an office pod?", a: "Check with your building or a structural professional before ordering, these structures are heavy and concentrate that weight in a small footprint, which can exceed typical residential floor-load assumptions, especially on upper floors." },
   { q: "Do I need landlord approval to install an office pod?", a: "Likely yes for a structure this size, check your lease and get approval in writing before ordering rather than after a large freight delivery." },
   { q: "How does delivery work for an apartment building?", a: "Coordinate with building management for elevator reservations, stairwell clearance, or freight-crew access well ahead of your delivery date, this differs meaningfully from a ground-floor house delivery." },
-  { q: "Will my neighbors hear noise even with a \"soundproof\" pod?", a: "Possibly, vibration and impact noise can transmit through a shared floor regardless of acoustic panel marketing, consider placement relative to shared walls and floors." },
+  { q: "Will my neighbors hear noise even with a \"soundproof\" pod?", a: "Possibly, vibration and impact noise can transmit through a shared floor regardless of acoustic panel marketing, consider placement relative to shared walls and floors." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-office-pods", title: "Best Small Office Pods (2026)" },
   { href: "/guide/best-mini-portable-offices", title: "Best Mini Portable Offices (2026)" },
-  { href: "/guide/best-home-office-booths", title: "Best Home Office Booths (2026)" },
+  { href: "/guide/best-home-office-booths", title: "Best Home Office Booths (2026)" }
 ];

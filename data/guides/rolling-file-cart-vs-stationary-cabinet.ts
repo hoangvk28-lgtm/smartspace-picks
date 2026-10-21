@@ -12,7 +12,7 @@ export const rollingFileCartVsStationaryCabinetGuide: Guide = {
     "mobile file cart worth it",
     "rolling cabinet vs fixed filing",
     "flexible document storage home office",
-    "under desk rolling file cart",
+    "under desk rolling file cart"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const rollingFileCartVsStationaryCabinetGuide: Guide = {
     "filing-cabinet-vs-file-box",
     "under-desk-storage-options-explained",
     "office-chair-caster-types-explained",
-    "open-shelving-vs-closed-cabinet",
+    "open-shelving-vs-closed-cabinet"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const rollingFileCartVsStationaryCabinetGuide: Guide = {
       question: "Which is better for a home office that also needs to convert for other uses?",
       answer:
         "A rolling cart's mobility makes it better suited to a multi-purpose room needing to change configuration for different activities, since it can be wheeled aside or into another room entirely, unlike a stationary cabinet committed to one fixed floor position.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const rollingFileCartVsStationaryCabinetGuide: Guide = {
     {
       heading: "Why Stability and Capacity Considerations Should Weigh Against Pure Flexibility",
       body: `The flexibility a rolling cart provides comes with some tradeoff in maximum capacity and absolute stability compared to a stationary cabinet's more substantial, immovable construction, for genuinely large-volume document storage needs, or in a dedicated office space where mobility offers no practical benefit since the space serves only one consistent function, a stationary cabinet's greater capacity and rock-solid stability may better serve the actual storage need without needing to trade away capacity for a flexibility benefit that goes unused in a fixed-purpose room.`,
-    },
+    }
   ],
 };

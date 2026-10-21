@@ -10,7 +10,7 @@ export const heroImage = `https://m.media-amazon.com/images/I/41GxiO7g3pL._SL500
 export const mainKeyword = "tv stand rustic";
 export const introParagraphs = [
   "Rustic and farmhouse TV stands lean on a specific look: whitewashed or honey brown finishes, sliding barn doors, and visible wood grain texture. Most of that texture comes from engineered wood or MDF with a printed wood-grain laminate wrap, not solid reclaimed lumber, and that is fine for durability but worth knowing before you shop by photos alone.",
-  "Sliding barn door designs need clear wall space beside the stand for the door to travel, while hinged cabinet doors need floor clearance in front instead. Measure your entertainment wall both ways before ordering, since the two styles fail differently in a tight room.",
+  "Sliding barn door designs need clear wall space beside the stand for the door to travel, while hinged cabinet doors need floor clearance in front instead. Measure your entertainment wall both ways before ordering, since the two styles fail differently in a tight room."
 ];
 
 export interface GuideProduct {
@@ -47,8 +47,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall",
     name: "JUMMICO Farmhouse TV Stand (Bright White, 58\")",
     price: "$119.99",
-    rating: "4.6 stars",
-    reviews: "4,214 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41GxiO7g3pL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09SHDW2KT?tag=deskfinds0d-20",
     description: "The JUMMICO Farmhouse TV Stand pairs a bright white finish with high-quality steel sliding barn doors, giving it a farmhouse-modern look that fits both traditional and contemporary living rooms. Behind the doors sit 4 storage compartments plus 3 adjustable shelves, so cable boxes, gaming consoles, and media accessories all have a place off the floor.\n\nAt 58 inches wide it fits TVs up to 65 inches and holds up to 175 lbs, enough for most flat-panel setups plus a soundbar. The steel door hardware feels sturdier than the plastic tracks found on cheaper barn door stands, and the compartment layout keeps the front looking tidy even with gear stored inside.\n\n4 compartments plus adjustable shelves. Set against that, barn doors need side clearance to slide fully open. Both matter when comparing it to the other picks here.",
@@ -63,8 +63,8 @@ export const products: GuideProduct[] = [
     badge: "Best Two-Tone Finish",
     name: "VASAGLE Farmhouse TV Stand (Rustic White & Honey Brown, 58\")",
     price: "$119.99",
-    rating: "4.6 stars",
-    reviews: "1,799 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41juGQmpQaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DS26WK98?tag=deskfinds0d-20",
     description: "The VASAGLE Farmhouse TV Stand combines a rustic white cabinet body with honey brown sliding barn doors, giving it more visual texture than a single-tone white or brown stand. The 58 inch width fits TVs up to 65 inches, and the frame is rated to hold 170 lbs.\n\nInside, 4 storage compartments handle streaming devices and remotes, while an adjustable side shelf gives an open display spot for decor or a speaker. VASAGLE lists easy assembly as a selling point, and the two-tone finish tends to hide dust and light scuffs better than an all-white stand.\n\nA genuine advantage here is that adjustable open side shelf. The tradeoff is 5 lbs less capacity than the JUMMICO.",
@@ -79,8 +79,8 @@ export const products: GuideProduct[] = [
     badge: "Best Cable Management",
     name: "YESHOMY Farmhouse TV Stand (Milk White, 58\")",
     price: "$129.99",
-    rating: "4.5 stars",
-    reviews: "1,679 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/515o-kBBPOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D2R4RPBS?tag=deskfinds0d-20",
     description: "The YESHOMY Farmhouse TV Stand uses steel sliding track doors in a milk white finish and includes large storage compartments for consoles, cable boxes, and media accessories. At 58 inches it fits TVs up to 65 inches, matching the width and TV size range of the top two picks. What sets it apart is a set of round cable management holes built into the back panel, which route power and HDMI cables cleanly instead of leaving them to bunch behind the stand. It costs a bit more than the JUMMICO and VASAGLE, but the cleaner cable routing is a genuine convenience for anyone with a multi-device media setup. Steel sliding door track. On the other hand, a bit more than similar-sized competitors. Neither should be a surprise once you know to look for it.",
@@ -95,8 +95,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick",
     name: "SUPERJARE Rustic TV Stand (Rustic Brown, 54\")",
     price: "$79.99",
-    rating: "4.4 stars",
-    reviews: "1,298 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ke1EohD-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYZ3HBF8?tag=deskfinds0d-20",
     description: "The SUPERJARE Rustic TV Stand skips barn doors entirely, using a vintage rustic brown printed finish with solid wood legs instead. It undercuts every barn door option in this roundup while still fitting TVs up to 65 inches on a 54 inch wide frame. Storage comes from 2 large cabinets plus 3-level adjustable shelving, and 4 cable management holes route cords without a full back panel cutout. Because the doors are hinged rather than sliding, this stand only needs front clearance to open, which makes it a better fit for tight side walls than the barn door picks above it. Hinged doors need only front clearance. That's a real strength, but weigh it against the flip side: rustic brown is a printed finish, not real wood grain.",
@@ -111,8 +111,8 @@ export const products: GuideProduct[] = [
     badge: "Best Lightweight Pick",
     name: "Furologee Open Shelf TV Stand",
     price: "$45.99",
-    rating: "4.4 stars",
-    reviews: "2,428 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51udeT9Ii8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CHDKQFJ8?tag=deskfinds0d-20",
     description: "The Furologee Open Shelf TV Stand takes an industrial rustic approach instead of a farmhouse cabinet look, with 2 open mesh shelves and 4 hooks for hanging headphones, remotes, or cables. There are no doors at all, which means no clearance planning and the lowest price of any pick here at a competitive price. A dedicated soundbar shelf sits below the main platform, keeping audio gear separated from consoles and streaming boxes. The frame is lightweight and easy to move, which suits renters or anyone who rearranges furniture often, though it fits TVs only up to 55 inches, smaller than the other picks in this guide. Worth calling out specifically: no doors, no clearance planning needed. The catch is fits TVs only up to 55\", smaller than other picks.",
@@ -127,14 +127,14 @@ export const products: GuideProduct[] = [
     badge: "Best for Fireplaces & High Mounts",
     name: "BON AUGURE Tall TV Stand",
     price: "$219.99",
-    rating: "4.7 stars",
-    reviews: "237 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51IelOfjGBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BZ77VCH9?tag=deskfinds0d-20",
     description: "The BON AUGURE Tall TV Stand stands 32 inches tall, built for rooms where the TV sits above a fireplace or on a mounted bracket and a low console would leave media gear out of reach. A wood and X-shaped steel frame gives it an industrial-farmhouse hybrid look rather than a pure barn door style. Storage is the most extensive in this roundup: 8 shelves, 2 drawers, and 2 cabinets spread across the frame, backed by a 300 lb capacity. The wood components are FSC-certified, meaning the lumber is sourced from responsibly managed forests, and it fits TVs up to 65 inches. 300 lbs capacity, highest here. Set against that, a competitive price, the second-highest price here. Both matter when comparing it to the other picks here.",
     specs: ["32\" tall, eye-level storage", "Wood + X-shaped steel frame", "8 shelves + 2 drawers + 2 cabinets", "300 lbs weight capacity", "FSC-certified wood", "Fits TVs up to 65\""],
     pros: ["Tallest stand in the roundup for eye-level access", "300 lbs capacity, highest here", "FSC-certified wood sourcing", "Most storage compartments of any pick"],
-    cons: ["$219.99, the second-highest price here", "Only 237 ratings, less review history than top picks", "Taller footprint needs more vertical wall space"],
+    cons: ["under $250, the second-highest price here", "Taller footprint needs more vertical wall space"],
     bestFor: "Rooms with a wall-mounted or above-fireplace TV that need media storage at a reachable height.",
   },
   {
@@ -143,14 +143,14 @@ export const products: GuideProduct[] = [
     badge: "Best with Fireplace",
     name: "AMERLIFE Fireplace TV Stand (Reclaimed Barnwood, 63\")",
     price: "$279.99",
-    rating: "4.6 stars",
-    reviews: "3,074 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51g6Yii9s7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJM6ZD7C?tag=deskfinds0d-20",
     description: "The AMERLIFE Fireplace TV Stand includes a built-in 26 inch electric fireplace with a realistic LED flame effect, making it the only pick in this roundup that adds heat and ambiance alongside storage. The reclaimed barnwood finish is a genuine standout among rustic TV stands, since most competitors in this category use printed wood-grain laminate rather than an actual reclaimed-look material. A single sliding barn door and 4 open shelves round out the storage, and at 63 inches wide it fits TVs up to 73 inches, the largest TV support in this guide. It is the most expensive pick here, but the fireplace insert and larger TV capacity justify the price for buyers who want both features in one piece. A genuine advantage here is that built-in electric fireplace with realistic flame. The tradeoff is competitively priced, the highest price in the roundup.",
     specs: ["63\" wide, fits TVs up to 73\"", "26\" electric fireplace with LED flame", "Sliding barn door", "4 open shelves", "Reclaimed barnwood finish"],
-    pros: ["Genuine reclaimed barnwood finish, not printed laminate", "Built-in electric fireplace with realistic flame", "Fits TVs up to 73\", largest in roundup", "3,074 ratings, strong review history"],
-    cons: ["$279.99, the highest price in the roundup", "Single barn door still needs side clearance", "Fireplace insert adds an extra power outlet requirement"],
+    pros: ["Genuine reclaimed barnwood finish, not printed laminate", "Built-in electric fireplace with realistic flame", "Fits TVs up to 73\", largest in roundup"],
+    cons: ["under $300, the highest price in the roundup", "Single barn door still needs side clearance", "Fireplace insert adds an extra power outlet requirement"],
     bestFor: "Buyers who want a real reclaimed-wood look and a built-in electric fireplace in one stand.",
   },
   {
@@ -159,8 +159,8 @@ export const products: GuideProduct[] = [
     badge: "Best Glass Door Storage",
     name: "LINSY HOME TV Stand (Brown Rustic Oak, 66\", Glass Doors)",
     price: "$169.98",
-    rating: "4.6 stars",
-    reviews: "1,010 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41oTXS3s+zL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FP1GGW2T?tag=deskfinds0d-20",
     description: "The LINSY HOME TV Stand swaps barn doors for glass cabinet doors in a rustic oak finish, letting infrared remotes reach devices stored inside without opening the cabinet. At 66 inches wide it is the widest stand in this roundup and fits TVs up to 75 inches, edging out even the AMERLIFE fireplace stand.\n\nThe frame carries a 360 lb weight capacity, the highest listed here, with adjustable shelving behind the glass doors and cable management holes at the back. Because the doors are hinged rather than sliding, buyers need front floor clearance rather than side wall clearance, similar to the SUPERJARE pick.\n\nFits TVs up to 75\", widest support here. On the other hand, glass doors show fingerprints and dust. Neither should be a surprise once you know to look for it.",
@@ -168,7 +168,7 @@ export const products: GuideProduct[] = [
     pros: ["Highest weight capacity in the roundup at 360 lbs", "Fits TVs up to 75\", widest support here", "Glass doors let remote signals through", "Hinged doors need only front clearance"],
     cons: ["Glass doors show fingerprints and dust", "Widest footprint may not fit smaller rooms", "Rustic oak is a printed finish, not solid wood"],
     bestFor: "Large-room buyers with big-screen TVs who want maximum weight capacity and remote-friendly glass storage.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -218,9 +218,9 @@ export const faq: FaqItem[] = [
   {
     q: "How long does assembly take for a barn door TV stand?",
     a: "Plan for 45 to 75 minutes with a second person to help align the door track and hang the sliding doors evenly. Hinged-door or open-shelf stands assemble faster, typically 20 to 40 minutes, since there is no track hardware to level. Check that the box includes the necessary Allen key and screws, as some budget listings omit tools.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
-  { href: "/guide/best-tv-stand-with-fireplace", title: "Best TV Stands with Fireplace (2026)" },
+  { href: "/guide/best-tv-stand-with-fireplace", title: "Best TV Stands with Fireplace (2026)" }
 ];

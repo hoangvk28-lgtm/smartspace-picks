@@ -12,7 +12,7 @@ export const meshWifiVsSingleRouterGuide: Guide = {
     "do i need mesh wifi",
     "single router wifi dead zone",
     "mesh wifi worth it home office",
-    "mesh network vs wifi extender",
+    "mesh network vs wifi extender"
   ],
   heroImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const meshWifiVsSingleRouterGuide: Guide = {
     "wifi-6-vs-wifi-5-explained",
     "ethernet-vs-wifi-for-desk-setup",
     "vpn-for-remote-work-explained",
-    "kvm-switch-explained",
+    "kvm-switch-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const meshWifiVsSingleRouterGuide: Guide = {
       question: "Can I add mesh nodes gradually rather than buying the whole system at once?",
       answer:
         "Many mesh systems support adding additional nodes over time as needed, letting you start with a base setup and expand coverage incrementally if you discover specific areas still need improvement, rather than committing to a full system immediately.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const meshWifiVsSingleRouterGuide: Guide = {
     {
       heading: "Why Mesh Isn't a Universal Upgrade Recommendation",
       body: `For a smaller home, apartment, or single-floor office where a single quality router already provides adequate coverage without dead zones, upgrading to a mesh system adds cost without solving an actual problem, the coverage improvement mesh provides only matters if you're genuinely experiencing weak signal or dead zones in specific areas. Evaluate your actual current coverage honestly before assuming a mesh upgrade is necessary just because it's a newer or more feature-rich category of product.`,
-    },
+    }
   ],
 };

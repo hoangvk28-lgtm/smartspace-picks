@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $199.99",
+          "Under $200",
           "Kikihouse 51\" Reception Desk with LED and Hidden Power Outlet"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "WOODTIME Reception Desk with LED and Glass Display Shelves"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "Kikihouse 63\" Fluted Reception Desk with LED"
         ],
         [
-          "Around $799.00",
+          "Under $800",
           "Mares 87\" Wood Office Reception Desk with Counter and Drawers"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Kikihouse 63\" Fluted Reception Desk with LED is aimed at buyers prioritizing 63\"w x 22\"d x 42\"h fluted-front desk, maple." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Kikihouse 63\" Fluted Reception Desk with LED is aimed at buyers prioritizing 63\"w x 22\"d x 42\"h fluted-front desk, maple." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks-for-salon","title":"best-reception-desks-for-salon"},{"href":"/guide/best-reception-desks-for-beauty-salon","title":"best-reception-desks-for-beauty-salon"},{"href":"/guide/best-fluted-reception-desks","title":"best-fluted-reception-desks"}];

@@ -262,7 +262,7 @@ export default async function BestWirelessChargingStationsPage() {
             {[
               { user: "iPhone users", rule: "Get a Qi2 or MagSafe charger. Both deliver 15W. Qi2 is slightly cheaper and works on future non-Apple Qi2 devices too." },
               { user: "Android users", rule: "Check if your phone is Qi2-certified (Samsung Galaxy S25+, Pixel 9 series, and others). If yes, Qi2 pads deliver full speed. If not, any Qi pad charges -- but at the phone manufacturer's standard (typically 5--15W depending on brand)." },
-              { user: "Mixed household", rule: "A Qi2 pad covers everyone. It works on Qi2 phones at 15W and on standard Qi phones at whatever speed the phone supports." },
+              { user: "Mixed household", rule: "A Qi2 pad covers everyone. It works on Qi2 phones at 15W and on standard Qi phones at whatever speed the phone supports." }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3 p-3 rounded-xl border border-border bg-white">
                 <span className="text-xs font-bold text-brand px-2 py-1 rounded-lg bg-brand-muted shrink-0">{item.user}</span>
@@ -291,7 +291,7 @@ export default async function BestWirelessChargingStationsPage() {
               { href: "#best-desk-mat", label: "Best Desk Mat" },
               { href: "#best-budget", label: "Best Budget" },
               { href: "#practical-tips", label: "Practical tips" },
-              { href: "#faq", label: "FAQ" },
+              { href: "#faq", label: "FAQ" }
             ].map((item) => (
               <a key={item.href} href={item.href} className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors">{item.label}</a>
             ))}
@@ -332,7 +332,7 @@ export default async function BestWirelessChargingStationsPage() {
                     "Left of keyboard (natural drop zone, left-handed phone pickup)",
                     "Right of keyboard (same logic, right-handed)",
                     "Back-center beside monitor (passive charging, phone out of work zone)",
-                    "Corner of desk (charging area separate from working area)",
+                    "Corner of desk (charging area separate from working area)"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-1.5 text-xs text-ink">
                       <span className="w-1.5 h-1.5 rounded-full bg-cta mt-1.5 shrink-0" />
@@ -347,7 +347,7 @@ export default async function BestWirelessChargingStationsPage() {
                   {[
                     "In front of keyboard (forces you to reach over phone constantly)",
                     "On top of a stack of papers (wireless charging does not work through thick materials)",
-                    "Near a metal desk lamp base (some interference possible)",
+                    "Near a metal desk lamp base (some interference possible)"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-1.5 text-xs text-ink">
                       <span className="w-1.5 h-1.5 rounded-full bg-red-500 mt-1.5 shrink-0" />
@@ -398,7 +398,7 @@ export default async function BestWirelessChargingStationsPage() {
             <div className="space-y-3 mb-4">
               {[
                 { label: "Phone heat", body: "Wireless charging is less efficient than wired (typically 80--85% efficiency vs. 95%+ wired). The lost energy becomes heat. A phone charging wirelessly at 15W may feel warmer than one charging at the same rate via USB-C. Most modern phones manage this via thermal throttling -- they slow the charge rate automatically if temperature rises above safe levels." },
-                { label: "Desk heat", body: "Qi2 and MagSafe pads generate minimal surface heat. The pad itself may be warm to the touch under load, but not hot enough to damage desk surfaces including lacquered wood, glass, or standard desk mats." },
+                { label: "Desk heat", body: "Qi2 and MagSafe pads generate minimal surface heat. The pad itself may be warm to the touch under load, but not hot enough to damage desk surfaces including lacquered wood, glass, or standard desk mats." }
               ].map((item, i) => (
                 <div key={i} className="p-4 rounded-xl border border-border bg-white">
                   <p className="font-bold text-ink text-sm mb-1">{item.label}</p>
@@ -451,7 +451,7 @@ export default async function BestWirelessChargingStationsPage() {
               { label: "Charging standard and speed", note: "Qi2 vs MagSafe vs standard Qi -- actual delivered wattage on a desk, not just listed specs." },
               { label: "Desk footprint", note: "Stand dimensions and how the unit fits on typical small-to-medium desk setups with keyboard and monitor." },
               { label: "Build quality and stability", note: "Does the charger stay in place when you pick up the phone one-handed? Weighted bases tested against lightweight alternatives." },
-              { label: "Value at price point", note: "What the unit delivers vs. what it costs -- with specific attention to adapter inclusion, which significantly affects effective price." },
+              { label: "Value at price point", note: "What the unit delivers vs. what it costs -- with specific attention to adapter inclusion, which significantly affects effective price." }
             ].map((c, i) => (
               <div key={i} className="flex items-start gap-2">
                 <span className="w-5 h-5 rounded-full bg-brand-muted text-brand flex items-center justify-center shrink-0 font-bold text-[10px] mt-0.5">{i + 1}</span>
@@ -487,7 +487,7 @@ export default async function BestWirelessChargingStationsPage() {
             {[
               { product: "Anker MagSafe 3-in-1 Qi2", context: "For Apple households", verdict: "is the starting point -- it covers phone, watch, and AirPods from a compact stand, frequently discounts to $35, and includes the adapter. Start here.", href: "#best-3in1-value" },
               { product: "Belkin BoostCharge Pro", context: "If the desk is visible (home office, client-facing workspace)", verdict: "-- the weighted base and adjustable tilt justify the premium for a charger that stays put and looks deliberate.", href: "#best-3in1-premium" },
-              { product: "Journey ALTI Qi2 desk mat", context: "For the purest, most minimal desk setup where no hardware should be visible at all", verdict: "embeds the charger in the surface itself and disappears.", href: "#best-desk-mat" },
+              { product: "Journey ALTI Qi2 desk mat", context: "For the purest, most minimal desk setup where no hardware should be visible at all", verdict: "embeds the charger in the surface itself and disappears.", href: "#best-desk-mat" }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
@@ -526,7 +526,7 @@ export default async function BestWirelessChargingStationsPage() {
               { href: "/guide/best-charging-stations-for-desk", title: "Best Charging Stations for Desk", desc: "Full roundup including wired options" },
               { href: "/guide/best-small-desk-charging-stations", title: "Best Small Desk Charging Stations", desc: "Compact picks for tight spaces" },
               { href: "/guide/desk-setup-essentials", title: "Desk Setup Essentials", desc: "15 must-have items for any desk setup" },
-              { href: "/guide/best-desk-mat-for-small-desk", title: "Best Desk Mats for Small Desks", desc: "Top desk mats reviewed for compact workspaces" },
+              { href: "/guide/best-desk-mat-for-small-desk", title: "Best Desk Mats for Small Desks", desc: "Top desk mats reviewed for compact workspaces" }
             ].map((g) => (
               <Link prefetch={false} key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
                 <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">

@@ -241,7 +241,7 @@ export default async function ErgonomicDeskSetupPage() {
               { href: "#lighting", label: "Lighting" },
               { href: "#situations", label: "By situation" },
               { href: "#comparison", label: "All products" },
-              { href: "#faq", label: "FAQ" },
+              { href: "#faq", label: "FAQ" }
             ].map((item) => (
               <a
                 key={item.href}
@@ -349,7 +349,7 @@ export default async function ErgonomicDeskSetupPage() {
               { step: "1", text: "Adjust seat height first -- elbows should be at 90° when resting on the desk with shoulders relaxed. This is the anchor for everything else." },
               { step: "2", text: "Position lumbar support into the curve of your lower back. If your chair does not have adjustable lumbar, a lumbar cushion ($20--30) fills the gap." },
               { step: "3", text: "Set armrests so shoulders are relaxed and elbows are lightly supported -- not hunched up or dangling down." },
-              { step: "4", text: "If feet do not rest flat on the floor after setting chair height for elbows, add a footrest. Do not lower the chair to reach the floor -- that breaks the elbow angle." },
+              { step: "4", text: "If feet do not rest flat on the floor after setting chair height for elbows, add a footrest. Do not lower the chair to reach the floor -- that breaks the elbow angle." }
             ].map((item) => (
               <div key={item.step} className="flex items-start gap-3 p-3 rounded-xl border border-border bg-white">
                 <span className="w-6 h-6 rounded-full bg-brand text-white flex items-center justify-center shrink-0 font-bold text-xs mt-0.5">
@@ -389,7 +389,7 @@ export default async function ErgonomicDeskSetupPage() {
               { mistake: "Wrists bent upward while typing", cause: "Keyboard on a desk that is too high", fix: "Lower chair height or use a keyboard tray" },
               { mistake: "Mouse too far from the body", cause: "Reaching forward to the mouse pad", fix: "Keep mouse directly beside the keyboard, close to the body" },
               { mistake: "Shoulders raised while typing", cause: "Desk too high for the chair height", fix: "Adjust chair up or use a lower keyboard surface" },
-              { mistake: "Leaning forward toward the screen", cause: "Monitor too far or too low", fix: "Move monitor closer or raise it to eye level" },
+              { mistake: "Leaning forward toward the screen", cause: "Monitor too far or too low", fix: "Move monitor closer or raise it to eye level" }
             ].map((item, i) => (
               <div key={i} className="p-4 rounded-xl border border-border bg-white">
                 <p className="text-sm font-bold text-ink mb-1">{item.mistake}</p>
@@ -414,7 +414,7 @@ export default async function ErgonomicDeskSetupPage() {
             {[
               { icon: "✗", label: "Monitor facing a window", note: "Direct sunlight causes glare on the screen" },
               { icon: "✗", label: "Window directly behind you", note: "Backlight creates severe contrast against the screen" },
-              { icon: "✓", label: "Window to your side (90°)", note: "Natural light without glare or backlight contrast" },
+              { icon: "✓", label: "Window to your side (90°)", note: "Natural light without glare or backlight contrast" }
             ].map((item, i) => (
               <div key={i} className={`p-3 rounded-xl border text-center ${i === 2 ? "border-cta bg-cta-light/30" : "border-border bg-white"}`}>
                 <p className={`text-lg font-bold mb-1 ${i === 2 ? "text-cta" : "text-red-500"}`}>{item.icon}</p>
@@ -544,7 +544,7 @@ export default async function ErgonomicDeskSetupPage() {
               { label: "Ergonomic impact", note: "Does the product directly address a measurable ergonomic position -- monitor height, wrist angle, foot position?" },
               { label: "Setup simplicity", note: "Can a non-technical person set it up correctly without tools or instructions in under 10 minutes?" },
               { label: "Desk compatibility", note: "Does it work on standard home office desks including thin desktop panels and narrow surfaces?" },
-              { label: "Value at price point", note: "Does the ergonomic improvement justify the cost relative to alternatives at the same price?" },
+              { label: "Value at price point", note: "Does the ergonomic improvement justify the cost relative to alternatives at the same price?" }
             ].map((c, i) => (
               <div key={i} className="flex items-start gap-2">
                 <span className="w-5 h-5 rounded-full bg-brand-muted text-brand flex items-center justify-center shrink-0 font-bold text-[10px] mt-0.5">
@@ -620,7 +620,7 @@ export default async function ErgonomicDeskSetupPage() {
               { href: "/guide/desk-setup-essentials", title: "Desk Setup Essentials", desc: "15 must-have items for any desk setup" },
               { href: "/guide/small-desk-setup", title: "Small Desk Setup Ideas", desc: "15 smart ways to build a better small workspace" },
               { href: "/guide/best-desk-mat-for-small-desk", title: "Best Desk Mats for Small Desks", desc: "Top desk mats reviewed and ranked" },
-              { href: "/guide/best-under-desk-cable-trays", title: "Best Under-Desk Cable Trays", desc: "Hide cables and reclaim your desk surface" },
+              { href: "/guide/best-under-desk-cable-trays", title: "Best Under-Desk Cable Trays", desc: "Hide cables and reclaim your desk surface" }
             ].map((g) => (
               <Link prefetch={false}
                 key={g.href}

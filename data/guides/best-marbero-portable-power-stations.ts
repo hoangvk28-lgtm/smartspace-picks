@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $94.99",
+          "Under $100",
           "MARBERO M365 Portable Power Station"
         ],
         [
-          "Around $99.99",
+          "Under $100",
           "MARBERO M822 Portable Power Station"
         ],
         [
-          "Around $129.99",
+          "Under $130",
           "MARBERO M823 Portable Power Station 300W"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "MARBERO 237Wh Solar Generator with 60W Solar Panel Included"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "LiFePO4 (LFP) cells are generally considered more thermally stable than standard lithium-ion or lithium-polymer cells, with a lower risk of thermal runaway, and most current portable power stations have shifted to LFP for this reason. Still, verify UL or UL2743 safety certification directly rather than assuming chemistry alone guarantees safety."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "MARBERO M822 Portable Power Station is aimed at buyers prioritizing 148wh, 200w (270w max), 3.3 lbs." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "MARBERO M822 Portable Power Station is aimed at buyers prioritizing 148wh, 200w (270w max), 3.3 lbs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "GOF 10 Ft. Artisan Gray Racetrack Conference Table measures 10 Ft and is built around this 10 ft. conference table in artisan, positioning it for racetrack buyers specifically.\n\nIt is designed for easy assembly is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for racetrack, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["10 Ft table dimensions","This 10 ft. conference table in Artisan","It is designed for easy assembly"],
     pros: ["This 10 ft. conference table in Artisan, confirmed directly in the listing's own spec details","It is designed for easy assembly, confirmed directly in the listing's own spec details","Overall dimensions are 48\" D x 120\", confirmed directly in the listing's own spec details"],
-    cons: ["At $749.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $750, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for racetrack",
   },
   {
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     description: "Flash Furniture Jones 6 Foot (72 inch) Oval Conference Table in Mahogany measures 72 inch and is built around collaborate with your team weekly or bi-weekly, positioning it for racetrack buyers specifically.\n\nMeeting table - sized for conference rooms is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for racetrack, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["72 inch table dimensions","Collaborate with your team weekly or bi-weekly","Meeting table - sized for conference rooms"],
     pros: ["Collaborate with your team weekly or bi-weekly, confirmed directly in the listing's own spec details","Meeting table - sized for conference rooms, confirmed directly in the listing's own spec details","Stain-resistant mahogany melamine laminate top, confirmed directly in the listing's own spec details"],
-    cons: ["At $336.94, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $350, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for racetrack",
   },
   {
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "Lorell 72\" Oval Conference Table and is built around perfect for your conference room, positioning it for racetrack buyers specifically.\n\nHigh-quality laminate construction is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for racetrack, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Perfect for your conference room","High-quality laminate construction","Part of the Essentials Series"],
     pros: ["Perfect for your conference room, confirmed directly in the listing's own spec details","High-quality laminate construction, confirmed directly in the listing's own spec details","Part of the Essentials Series, confirmed directly in the listing's own spec details"],
-    cons: ["At $368.87, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $400, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for racetrack",
   },
   {
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "Regency Legacy 10 ft Racetrack Laminate Conference Table with 1 Charging Port measures 10 ft and is built around make presentations memorable with legacy's conference collection!, positioning it for racetrack buyers specifically.\n\nSeats 8 to 10 people is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for racetrack, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["10 ft table dimensions","Make presentations memorable with Legacy's Conference collection!","Seats 8 to 10 people"],
     pros: ["Make presentations memorable with Legacy's Conference collection!, confirmed directly in the listing's own spec details","Seats 8 to 10 people, confirmed directly in the listing's own spec details","Power and Data port makes tabletop connectivity, confirmed directly in the listing's own spec details"],
-    cons: ["At $1,158.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $1,200, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for racetrack",
   },
   {
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     description: "Boss Office Products N135-M Conference Table and is built around six foot racetrack style mahogany laminate conference, positioning it for racetrack buyers specifically.\n\nAffords six people adequate workspace for meetings is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for racetrack, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Six foot racetrack style Mahogany laminate conference","Affords six people adequate workspace for meetings","Delivering a superior customer experience for our"],
     pros: ["Six foot racetrack style Mahogany laminate conference, confirmed directly in the listing's own spec details","Affords six people adequate workspace for meetings, confirmed directly in the listing's own spec details","Delivering a superior customer experience for our, confirmed directly in the listing's own spec details"],
-    cons: ["At $349.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $350, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for racetrack",
   },
   {
@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     description: "Offices To Go 10 Ft Conference Room Table Dimensions: 120\" W X 48\" D X 29 1/2\" H Slab Base measures 10 Ft and is built around spacious conference design, positioning it for racetrack buyers specifically.\n\nDurable Construction Quality is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for racetrack, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["10 Ft table dimensions","Spacious Conference Design","Durable Construction Quality"],
     pros: ["Spacious Conference Design, confirmed directly in the listing's own spec details","Durable Construction Quality, confirmed directly in the listing's own spec details","American Mahogany Finish, confirmed directly in the listing's own spec details"],
-    cons: ["At $649.95, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $650, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for racetrack",
   }
 
@@ -210,40 +210,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $229.98",
+          "Under $250",
           "43.3-59in Extendable Round Conference Table for 4-8"
         ],
         [
-          "Around $244.99",
+          "Under $250",
           "Jluomei Extendable Round Table"
         ],
         [
-          "Around $336.94",
+          "Under $350",
           "Flash Furniture Jones 6 Foot (72 inch) Oval Conference Table in Mahogany"
         ],
         [
-          "Around $349.99",
+          "Under $350",
           "Boss Office Products N135-M Conference Table"
         ],
         [
-          "Around $368.87",
+          "Under $400",
           "Lorell 72\" Oval Conference Table"
         ],
         [
-          "Around $649.95",
+          "Under $650",
           "Offices To Go 10 Ft Conference Room Table Dimensions: 120\" W X 48\" D X 29 1/2\" H Slab Base"
         ],
         [
-          "Around $749.99",
+          "Under $750",
           "GOF 10 Ft. Artisan Gray Racetrack Conference Table"
         ],
         [
-          "Around $1,158.99",
+          "Under $1,200",
           "Regency Legacy 10 ft Racetrack Laminate Conference Table with 1 Charging Port"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -291,7 +291,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "GOF 10 Ft. Artisan Gray Racetrack Conference Table is aimed at buyers looking for racetrack." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "GOF 10 Ft. Artisan Gray Racetrack Conference Table is aimed at buyers looking for racetrack." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-rectangular-conference-tables","title":"Best Rectangular Conference Tables in 2026"},{"href":"/guide/best-oval-conference-tables","title":"Best Oval Conference Tables in 2026"},{"href":"/guide/best-boat-shaped-conference-tables","title":"Best Boat Shaped Conference Tables in 2026"}];

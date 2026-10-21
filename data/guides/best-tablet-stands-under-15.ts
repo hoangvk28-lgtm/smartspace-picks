@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This stand's extended 4.7 to 16.9 inch compatibility range covers everything from a small tablet to a portable monitor, the widest range in this comparison. Its innovative locking mechanism holds position securely at any height and angle, from a low profile for typing to a higher position for video conferencing.\n\nCompared to the Minthouz pick below, this one uses a robust all-metal alloy base specifically weighted to prevent tipping or wobbling even during vigorous use, a stability detail worth noting if you'll be tapping or drawing on the tablet while mounted. Anti-slip silicone pads on both the base and device holder add security against accidental slips.\n\nBest for buyers who want the widest device compatibility with a genuinely secure locking mechanism.",
     specs: ["4.7-16.9in device range", "All-metal alloy weighted base", "Secure locking mechanism, anti-slip pads"],
     pros: ["Widest device compatibility range in this comparison at 16.9 inches", "Secure locking mechanism holds position under active use", "All-metal weighted base resists tipping during vigorous use"],
-    cons: ["Slightly over this tier's stated ceiling at $17.99", "Not designed for laptops, tablets and monitors only"],
+    cons: ["Slightly over this tier's stated ceiling at under $20", "Not designed for laptops, tablets and monitors only"],
     bestFor: "buyers who want the widest device compatibility with a secure lock",
   },
   {
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The widest device compatibility with a secure lock", "tounee Tablet Holder Stand, Dual Rod Adjustable Aluminum Desktop Stand"],
         ["An engineered damping mechanism with charging access", "Minthouz Tablet Stand, Multi-Angle Adjustable Aluminum"],
         ["A named premium alloy material with stability guidance", "Lamicall iPad Stand Adjustable Tablet Holder, Sturdy Aluminum"],
-        ["A stylish, well-finished aluminum stand", "Nulaxy Dual Adjustable Foldable iPad Stand, Full Aluminum"],
+        ["A stylish, well-finished aluminum stand", "Nulaxy Dual Adjustable Foldable iPad Stand, Full Aluminum"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $13", "Lamicall ($12.99) or Nulaxy ($12.99)"],
-        ["Under $16", "Minthouz ($15.99)"],
-        ["Under $18", "tounee ($17.99)"],
+        ["Under $13", "Lamicall (under $15) or Nulaxy (under $15)"],
+        ["Under $16", "Minthouz (under $20)"],
+        ["Under $18", "tounee (under $20)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Damped Hinges vs Basic Adjustable Shafts",
     cards: [
       { label: "Damped hinges (Minthouz)", text: "Uses an engineered dual-axis damping mechanism specifically designed to prevent wobble during active screen interaction like tapping or scrolling." },
-      { label: "Basic adjustable shafts (tounee, Lamicall, Nulaxy)", text: "Provides height and angle adjustment through simpler hinge mechanisms, generally sufficient for passive viewing." },
+      { label: "Basic adjustable shafts (tounee, Lamicall, Nulaxy)", text: "Provides height and angle adjustment through simpler hinge mechanisms, generally sufficient for passive viewing." }
     ],
     note: "If you'll actively tap, draw, or scroll on your tablet while it's mounted, the Minthouz pick's damping mechanism is worth prioritizing for stability. If you mostly watch content passively, the simpler adjustable shaft designs work fine.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Standard tablet or phone, 4-11in", "Nulaxy"],
         ["Standard tablet up to 13in", "Lamicall"],
         ["Larger tablet up to 12.9in with charging access", "Minthouz"],
-        ["Tablet through portable monitor, up to 16.9in", "tounee"],
+        ["Tablet through portable monitor, up to 16.9in", "tounee"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Buyer Who Actively Interacts With Their Mounted Tablet Specifically",
     cards: [
       { label: "Look for", text: "A specifically engineered damping mechanism described in the listing, not just a general 'adjustable hinge' claim, since active tapping or drawing requires genuine wobble resistance." },
-      { label: "In this comparison", text: "The Minthouz pick's dual-axis damping mechanism is specifically engineered to prevent wobble during active screen interactions like gaming or video calls." },
+      { label: "In this comparison", text: "The Minthouz pick's dual-axis damping mechanism is specifically engineered to prevent wobble during active screen interactions like gaming or video calls." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the widest device compatibility reaching up to a portable monitor size, where the tounee pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You just want a stylish, well-built aluminum stand for standard tablet sizes, where the Lamicall or Nulaxy picks cover that for about $5 less." },
+      { label: "Save if", text: "You just want a stylish, well-built aluminum stand for standard tablet sizes, where the Lamicall or Nulaxy picks cover that for about $5 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

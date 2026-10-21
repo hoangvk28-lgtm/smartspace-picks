@@ -157,7 +157,7 @@ export const products: GuideProduct[] = [
     pros: ["Lowest price in this roundup", "Compact footprint fits small rooms and apartments", "Solid wood legs ease under-stand cleaning", "2 drawers for small-item storage"],
     cons: ["Rated for TVs up to 55\" only", "Only 2 drawers, minimal storage capacity", "Fabric drawer fronts less durable than solid wood"],
     bestFor: "Budget shoppers with a smaller TV and limited room who still want some enclosed drawer storage.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -189,11 +189,11 @@ export const faq: { q: string; a: string }[] = [
   { q: "Does a wider TV stand mean a heavier weight capacity?", a: "Not always. Width and weight capacity depend on the frame reinforcement, not just the footprint. The 70.8 inch wide pick in this guide reaches 250 lbs because of a reinforced center support leg, while some narrower stands top out around 70 lbs. Check the stated top and overall capacity separately rather than assuming a bigger stand automatically holds more." },
   { q: "Can I fit a soundbar inside a TV stand's storage compartment?", a: "It depends on the soundbar's height and the shelf opening. Many fixed-shelf openings run 6 to 10 inches tall, which fits most compact soundbars but not larger home theater bases. Stands with adjustable shelf height, rather than fixed compartments, give you more flexibility to fit a taller soundbar or swap it later for a different model." },
   { q: "Do I need anti-tip hardware on a TV stand with storage?", a: "If you have young children or pets in the home, yes. A TV stand with pull-out drawers or open shelves can become a climbing hazard, and a top-heavy TV increases tip-over risk. Look for a stand that includes an anti-tip wall-anchor kit, like several picks in this guide, and always secure the stand to a wall stud even if the TV itself is also strapped or mounted separately." },
-  { q: "What's the difference between a TV console and a full entertainment center?", a: "A TV console is typically a single, lower unit focused mainly on holding the TV with light storage. An entertainment center adds more enclosed cabinet space, multiple drawers, and sometimes taller vertical storage, as seen in the SUNLIFER and Garvee picks in this guide. Entertainment centers cost more and take up more floor space in exchange for significantly more storage capacity." },
+  { q: "What's the difference between a TV console and a full entertainment center?", a: "A TV console is typically a single, lower unit focused mainly on holding the TV with light storage. An entertainment center adds more enclosed cabinet space, multiple drawers, and sometimes taller vertical storage, as seen in the SUNLIFER and Garvee picks in this guide. Entertainment centers cost more and take up more floor space in exchange for significantly more storage capacity." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-tv-stand-for-75-inch-tv", title: "Best TV Stands for 75 Inch TVs (2026)" },
   { href: "/guide/best-tv-stand-with-mount", title: "Best TV Stands with Mount (2026)" },
-  { href: "/guide/best-tv-stand-for-bedroom", title: "Best TV Stands for Bedroom (2026)" },
+  { href: "/guide/best-tv-stand-for-bedroom", title: "Best TV Stands for Bedroom (2026)" }
 ];

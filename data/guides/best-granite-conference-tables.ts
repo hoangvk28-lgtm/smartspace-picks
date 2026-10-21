@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 8ft Conference Table measures 8ft and is built around spacious 8-10 person capacity, positioning it for granite buyers specifically.\n\nElegant Walnut & Black Aesthetic is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for granite, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["8ft table dimensions","Spacious 8-10 Person Capacity","Elegant Walnut & Black Aesthetic"],
     pros: ["Spacious 8-10 Person Capacity, confirmed directly in the listing's own spec details","Elegant Walnut & Black Aesthetic, confirmed directly in the listing's own spec details","Integrated Cable Management, confirmed directly in the listing's own spec details"],
-    cons: ["At $389.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $400, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for granite",
   },
   {
@@ -126,7 +126,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 8FT Conference Table measures 94.49 L x 47.24 W x 29.53 H and is built around 10 people conference table, positioning it for granite buyers specifically.\n\nSUPER STURDY CONSTRUCTION is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for granite, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["94.49 L x 47.24 W x 29.53 H table dimensions","10 PEOPLE CONFERENCE TABLE","SUPER STURDY CONSTRUCTION"],
     pros: ["10 PEOPLE CONFERENCE TABLE, confirmed directly in the listing's own spec details","SUPER STURDY CONSTRUCTION, confirmed directly in the listing's own spec details","GROMMET HOLES & ADJUSTABLE FOOT PADS, confirmed directly in the listing's own spec details"],
-    cons: ["At $379.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $400, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for granite",
   },
   {
@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     description: "Flash Furniture 36\" Round Conference Table and is built around having a dedicated meeting space in your, positioning it for granite buyers specifically.\n\nMeeting table for four people is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for granite, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Having a dedicated meeting space in your","Meeting table for four people","Smooth stain-resistant cherry laminate top, cast iron"],
     pros: ["Having a dedicated meeting space in your, confirmed directly in the listing's own spec details","Meeting table for four people, confirmed directly in the listing's own spec details","Smooth stain-resistant cherry laminate top, cast iron, confirmed directly in the listing's own spec details"],
-    cons: ["At $189.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $190, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for granite",
   }
 
@@ -210,40 +210,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $169.99",
+          "Under $170",
           "Tribesigns 63\" Executive Desk"
         ],
         [
-          "Around $189.99",
+          "Under $190",
           "Flash Furniture 36\" Round Conference Table"
         ],
         [
-          "Around $214.99",
+          "Under $250",
           "71-87 Inch Extendable Faux Marble Table"
         ],
         [
-          "Around $379.99",
+          "Under $400",
           "Tribesigns 8FT Conference Table"
         ],
         [
-          "Around $389.99",
+          "Under $400",
           "Tribesigns 8ft Conference Table"
         ],
         [
-          "Around $399.99",
+          "Under $400",
           "Tribesigns 10.5FT Conference Table"
         ],
         [
-          "Around $599.99",
+          "Under $600",
           "Roundhill Cavira Faux Marble Table"
         ],
         [
-          "Around $1,399.00",
+          "Under $1,400",
           "ahliss Conference Table with Cable Grommets"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -291,7 +291,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "ahliss Conference Table with Cable Grommets is aimed at buyers prioritizing 8ft table (also 10ft/12ft), seats 8-10." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "ahliss Conference Table with Cable Grommets is aimed at buyers prioritizing 8ft table (also 10ft/12ft), seats 8-10." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-glass-conference-tables","title":"Best Glass Conference Tables in 2026"},{"href":"/guide/best-epoxy-conference-tables","title":"Best Epoxy Conference Tables in 2026"},{"href":"/guide/best-marble-conference-tables","title":"Best Marble Conference Tables in 2026"}];

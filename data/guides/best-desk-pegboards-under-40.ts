@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A clamp-on desk mount with steel construction", "PEGZONE Clamp on Desk Pegboard, 16.5\" x 12.6\""],
         ["The most comprehensive gaming setup accessory set", "Skwelom Pegboard Wall Organizer Set"],
         ["A natural wood, eco-friendly aesthetic", "XAOMLP Wooden Pegboard Modular Display"],
-        ["A ready-to-use kit with flexible mounting", "AKTOP Plastic Peg Board Wall Organizer, 4-Pack"],
+        ["A ready-to-use kit with flexible mounting", "AKTOP Plastic Peg Board Wall Organizer, 4-Pack"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $36", "XAOMLP Wooden ($35.99)"],
-        ["Under $37", "AKTOP 4-Pack ($36.59)"],
-        ["Under $38", "Skwelom ($37.99)"],
-        ["Under $40", "PEGZONE Clamp On ($39.99)"],
+        ["Under $36", "XAOMLP Wooden (under $40)"],
+        ["Under $37", "AKTOP 4-Pack (under $40)"],
+        ["Under $38", "Skwelom (under $40)"],
+        ["Under $40", "PEGZONE Clamp On (under $40)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Clamp-On Desk Mount vs Wall-Mounted Panel Kit",
     cards: [
       { label: "Clamp-on desk mount (PEGZONE)", text: "Attaches to the desk edge itself, avoiding the wall entirely, ideal for renters or shared spaces without wall access." },
-      { label: "Wall-mounted panels (Skwelom, XAOMLP, AKTOP)", text: "Frees up desk space entirely by using wall real estate, better when desk surface area is more limited than wall space." },
+      { label: "Wall-mounted panels (Skwelom, XAOMLP, AKTOP)", text: "Frees up desk space entirely by using wall real estate, better when desk surface area is more limited than wall space." }
     ],
     note: "If you can't or won't drill or adhere anything to a wall, the PEGZONE's clamp-on desk mount sidesteps that restriction. If desk space is more precious than wall space, a wall-mounted kit is the better fit.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Steel for maximum durability", "PEGZONE Clamp On"],
         ["Natural, eco-friendly wood", "XAOMLP Wooden"],
-        ["Standard plastic for lightweight items", "Skwelom or AKTOP"],
+        ["Standard plastic for lightweight items", "Skwelom or AKTOP"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Dedicated Gaming Desk Setup Specifically",
     cards: [
       { label: "Look for", text: "An accessory set specifically designed to hold headsets, controllers, and gaming peripherals, not just generic office hooks." },
-      { label: "In this comparison", text: "The Skwelom pick's comprehensive accessory set with multiple hook types and bins is specifically marketed toward gaming room organization." },
+      { label: "In this comparison", text: "The Skwelom pick's comprehensive accessory set with multiple hook types and bins is specifically marketed toward gaming room organization." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a clamp-on desk mount with steel construction that avoids the wall entirely, where the PEGZONE pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You want a natural wood aesthetic without paying for clamp mounting or gaming-specific accessories, where the XAOMLP pick covers that for the lowest price here." },
+      { label: "Save if", text: "You want a natural wood aesthetic without paying for clamp mounting or gaming-specific accessories, where the XAOMLP pick covers that for the lowest price here." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

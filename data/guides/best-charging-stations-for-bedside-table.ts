@@ -46,23 +46,23 @@ export const products: BedsideProduct[] = [
     whyItWins: "This is a different kind of bedside pick than the magnetic Qi2 chargers above the line here -- based on its specs, the Unitek is a 120W hub with 10 USB-C ports designed to charge a stack of tablets or phones at once from a single outlet. For a bedroom nightstand that doubles as the household's overnight charging spot for multiple people's phones and tablets, it solves a genuinely different problem than a single-phone magnetic stand.",
     bodyParagraphs: [
       "It is bulkier than the compact 2-in-1 and 3-in-1 stands elsewhere in this guide, so it suits a nightstand with more surface area or a shared family charging drawer rather than a tight single nightstand.",
-      "There is no magnetic alignment here, so in a dark room you are plugging in a cable rather than dropping a phone onto a pad -- a real tradeoff for the convenience-in-the-dark use case this guide otherwise prioritizes.",
+      "There is no magnetic alignment here, so in a dark room you are plugging in a cable rather than dropping a phone onto a pad -- a real tradeoff for the convenience-in-the-dark use case this guide otherwise prioritizes."
     ],
     specs: [
       { label: "Ports", value: "10x USB-C" },
       { label: "Total power", value: "120W" },
       { label: "Alignment", value: "Cable-based, not magnetic" },
-      { label: "Best fit", value: "Shared/family charging station rather than single nightstand" },
+      { label: "Best fit", value: "Shared/family charging station rather than single nightstand" }
     ],
     pros: [
       "Charges up to 10 devices from one outlet",
       "120W total output covers phones and tablets simultaneously",
-      "Useful for a shared household charging station near the bed",
+      "Useful for a shared household charging station near the bed"
     ],
     cons: [
       "No magnetic alignment -- requires plugging in cables in the dark",
       "Bulkier footprint than the compact bedside stands in this guide",
-      "Overkill for a single nightstand charging just one phone",
+      "Overkill for a single nightstand charging just one phone"
     ],
     bestFor: "Households charging multiple phones and tablets overnight from one nightstand or charging station rather than a single-device setup.",
   },
@@ -81,23 +81,23 @@ export const products: BedsideProduct[] = [
     whyItWins: "Based on its listed specs, the Rocoren undercuts the Unitek above on price while offering a similar 10-port layout and included cables, making it the pick for a bedside charging setup covering multiple family members' devices without the higher cost of the Unitek.",
     bodyParagraphs: [
       "Like the Unitek, this is a cable-based station rather than a magnetic pad, so it is better suited to a nightstand where someone is comfortable plugging in a cable rather than reaching for a phone in total darkness.",
-      "The included cables are a genuine convenience if you are setting up a shared charging spot from scratch and do not want to gather six mismatched cables yourself.",
+      "The included cables are a genuine convenience if you are setting up a shared charging spot from scratch and do not want to gather six mismatched cables yourself."
     ],
     specs: [
       { label: "Ports", value: "10 total (USB-C PD 100W + USB-A)" },
       { label: "Total power", value: "400W across all ports (shared)" },
       { label: "Cables included", value: "6 cables included" },
-      { label: "Alignment", value: "Cable-based, not magnetic" },
+      { label: "Alignment", value: "Cable-based, not magnetic" }
     ],
     pros: [
       "Lower price than the Unitek for a similar 10-port layout",
       "Six cables included, reducing setup cost and hassle",
-      "Handles a mix of MacBooks, iPads, phones, and tablets",
+      "Handles a mix of MacBooks, iPads, phones, and tablets"
     ],
     cons: [
       "No magnetic alignment for in-the-dark use",
       "Shared 400W across 10 ports means individual port speed drops under full load",
-      "Larger footprint than compact single-phone bedside stands",
+      "Larger footprint than compact single-phone bedside stands"
     ],
     bestFor: "Budget-conscious households that want one overnight charging hub near the bed for several devices at once.",
   },
@@ -116,23 +116,23 @@ export const products: BedsideProduct[] = [
     whyItWins: "Of the three new multi-device stations added here, the Meifigno is the closest fit to this guide's bedside criteria -- based on its specs, it folds flat like the compact Qi2 stands above and includes a wireless MagSafe-style charging spot alongside 30W wired charging for an iPad or tablet, which is a genuinely useful nightstand combination for anyone who reads on a tablet before sleeping.",
     bodyParagraphs: [
       "The foldable design means it collapses down for travel or storage the same way the Anker and UGREEN picks above do, and the wireless charging spot works well for setting a phone down without fumbling for a cable in the dark.",
-      "The wired 30W tablet charging port is the standout addition here versus the pure-phone stands elsewhere in this guide, since a nightstand tablet or e-reader is common bedtime reading equipment that other picks in this guide don't address.",
+      "The wired 30W tablet charging port is the standout addition here versus the pure-phone stands elsewhere in this guide, since a nightstand tablet or e-reader is common bedtime reading equipment that other picks in this guide don't address."
     ],
     specs: [
       { label: "Wireless pad", value: "Qi/MagSafe-style, foldable" },
       { label: "Wired port", value: "30W USB-C (for iPad/tablet)" },
       { label: "Devices supported", value: "Phone, iPad/tablet, Watch, AirPods (5-in-1)" },
-      { label: "Form", value: "Foldable" },
+      { label: "Form", value: "Foldable" }
     ],
     pros: [
       "Foldable design matches the compact form factor this guide favors",
       "Wired 30W tablet charging covers bedtime e-reader/tablet use, unlike phone-only stands",
-      "Wireless pad avoids cable fumbling in the dark",
+      "Wireless pad avoids cable fumbling in the dark"
     ],
     cons: [
       "Not Qi2 magnetic-certified in the same way as the Anker/Belkin/UGREEN picks above",
       "More ports to manage than the simpler 2-in-1 and 3-in-1 stands",
-      "Apple-device-focused despite the generic \"multiple devices\" name",
+      "Apple-device-focused despite the generic \"multiple devices\" name"
     ],
     bestFor: "Readers who charge a phone and a tablet or e-reader together on the nightstand and want one foldable station for both.",
   },
@@ -151,7 +151,7 @@ export const products: BedsideProduct[] = [
     whyItWins: "The Anker MagGo 3-in-1 Qi2 Foldable is the most practical bedside charging station for an Apple household. It folds completely flat when not in use -- easy to move, easy to travel with, takes up minimal nightstand real estate. Open it and your iPhone snaps magnetically to the MagSafe pad (15W Qi2), your Apple Watch charges on the built-in puck, and your AirPods rest on the Qi base. All three charged overnight from one USB-C cable.",
     bodyParagraphs: [
       "The Qi2 magnetic alignment is the bedside-critical feature: in the dark, you drop the phone toward the pad and the magnets center it automatically. No fumbling, no 'is it charging?' uncertainty.",
-      "The 40W USB-C adapter is included -- a detail budget-conscious competitors often skip.",
+      "The 40W USB-C adapter is included -- a detail budget-conscious competitors often skip."
     ],
     specs: [
       { label: "iPhone", value: "15W Qi2 (MagSafe-compatible, iPhone 12+)" },
@@ -159,19 +159,19 @@ export const products: BedsideProduct[] = [
       { label: "AirPods", value: "5W Qi" },
       { label: "Form", value: "Foldable, flat when closed" },
       { label: "Adapter", value: "40W USB-C (included)" },
-      { label: "LED", value: "Single dim status indicator" },
+      { label: "LED", value: "Single dim status indicator" }
     ],
     pros: [
       "Folds flat -- minimal nightstand footprint, travel-ready",
       "Magnetic Qi2 alignment -- charges correctly in darkness",
       "All three Apple devices from one USB-C cable",
       "40W adapter included",
-      "Silent, fanless",
+      "Silent, fanless"
     ],
     cons: [
       "Apple ecosystem only",
       "Watch charger position fixed (some variants)",
-      "No USB-C/USB-A wired ports for non-wireless devices",
+      "No USB-C/USB-A wired ports for non-wireless devices"
     ],
     bestFor: "Apple iPhone + Watch + AirPods households wanting one compact overnight charger on the nightstand.",
   },
@@ -190,7 +190,7 @@ export const products: BedsideProduct[] = [
     whyItWins: "The Belkin BoostCharge Pro is the pick for bedrooms where aesthetics matter as much as function. The Sand colorway (warm beige) blends into bedroom environments far better than the matte black tech aesthetic of most chargers. The weighted base is the bedside-critical detail: you can grab your phone in the dark without the charger sliding off the nightstand -- it stays put.",
     bodyParagraphs: [
       "The adjustable tilt on the iPhone pad supports Apple's StandBy mode properly: set the angle so the phone faces you from the nightstand, and iOS displays the time, weather, or alarm in a large bedside clock format while charging. This is the most polished nightstand charging experience in this roundup.",
-      "The 36W adapter is not included at this price point -- budget accordingly.",
+      "The 36W adapter is not included at this price point -- budget accordingly."
     ],
     specs: [
       { label: "iPhone", value: "15W Qi2 (MagSafe-compatible, iPhone 12+)" },
@@ -199,19 +199,19 @@ export const products: BedsideProduct[] = [
       { label: "Stand", value: "Adjustable tilt (supports StandBy mode)" },
       { label: "Base", value: "Weighted, non-slip" },
       { label: "Colors", value: "Black, White, Sand" },
-      { label: "Adapter", value: "36W USB-C (not included)" },
+      { label: "Adapter", value: "36W USB-C (not included)" }
     ],
     pros: [
       "Weighted base -- does not slide when grabbing phone in dark",
       "Sand color blends into bedroom aesthetic",
       "Adjustable tilt for Apple StandBy clock mode",
       "Premium build quality -- looks like a bedroom accessory, not a tech product",
-      "Apple Watch fast charge (Series 4+)",
+      "Apple Watch fast charge (Series 4+)"
     ],
     cons: [
       "Adapter not included -- adds to actual cost",
       "Apple ecosystem only",
-      "Most expensive pick in this guide",
+      "Most expensive pick in this guide"
     ],
     bestFor: "Bedrooms where the charger is always visible and should complement the room's aesthetic, not interrupt it.",
   },
@@ -229,7 +229,7 @@ export const products: BedsideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0CPF66RTD?tag=deskfinds0d-20",
     whyItWins: "If you only need to charge a phone and AirPods overnight -- no Apple Watch -- the UGREEN MagFlow 2-in-1 is the most compact option in this guide. Folds to a flat pad smaller than a phone. Opens into a phone stand (Qi2 15W) with an AirPods charging zone at the base. On a narrow nightstand where space is genuinely scarce, the UGREEN MagFlow takes the least room of any functional charger here.",
     bodyParagraphs: [
-      "N48x16 magnets ensure secure phone alignment. The aluminum ball-joint lets you adjust the viewing angle -- useful for StandBy or for checking the time without picking up the phone.",
+      "N48x16 magnets ensure secure phone alignment. The aluminum ball-joint lets you adjust the viewing angle -- useful for StandBy or for checking the time without picking up the phone."
     ],
     specs: [
       { label: "iPhone", value: "15W Qi2 (iPhone 12+)" },
@@ -237,18 +237,18 @@ export const products: BedsideProduct[] = [
       { label: "Apple Watch", value: "Not included (2-in-1 only)" },
       { label: "Fold", value: "Flat when closed (phone-sized)" },
       { label: "Tilt", value: "Adjustable aluminum ball joint" },
-      { label: "Adapter", value: "Not included" },
+      { label: "Adapter", value: "Not included" }
     ],
     pros: [
       "Most compact pick -- folds phone-flat",
       "Adjustable viewing angle",
       "Strong N48 magnets for secure alignment",
-      "Affordable at $25--35",
+      "Affordable at $25--35"
     ],
     cons: [
       "No Apple Watch charging (2-in-1 only)",
       "No adapter included",
-      "Apple/Qi2 only",
+      "Apple/Qi2 only"
     ],
     bestFor: "Narrow nightstands, minimalist setups, or users who charge their Apple Watch on a separate puck elsewhere.",
   },
@@ -266,24 +266,24 @@ export const products: BedsideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0DZX7X8YB?tag=deskfinds0d-20",
     whyItWins: "Qi2 25W is the newest wireless charging standard (Qi2.2), delivering nearly double the speed of standard 15W Qi2. For bedside use where speed matters less, the wattage bump is not the primary reason to choose this -- the reason is Android Qi2 compatibility. Samsung Galaxy S25 series, Google Pixel 9 series, and other Qi2-certified Android phones get 25W wireless charging from this unit.",
     bodyParagraphs: [
-      "For households with mixed iPhone and Android phones, or for Android users who want proper magnetic wireless charging, this is the bedside pick.",
+      "For households with mixed iPhone and Android phones, or for Android users who want proper magnetic wireless charging, this is the bedside pick."
     ],
     specs: [
       { label: "Primary pad", value: "25W Qi2.2 (iPhone 15+, Samsung Galaxy S25, Pixel 9, all Qi2 devices)" },
       { label: "Secondary pad", value: "5W Qi (AirPods, standard Qi earbuds)" },
       { label: "Form", value: "Foldable 2-in-1 stand" },
-      { label: "Adapter", value: "Not included" },
+      { label: "Adapter", value: "Not included" }
     ],
     pros: [
       "25W Qi2.2 -- fastest wireless charging available, covers all Qi2 phones",
       "Works equally well with iPhone and Android Qi2 phones",
       "Compact foldable design",
-      "Future-proof: 25W standard covers next-gen devices",
+      "Future-proof: 25W standard covers next-gen devices"
     ],
     cons: [
       "No Apple Watch charging",
       "Adapter not included",
-      "25W benefit is minimal for overnight bedside charging",
+      "25W benefit is minimal for overnight bedside charging"
     ],
     bestFor: "Android Qi2 phone users, mixed iPhone/Android households, or anyone wanting the most future-proof wireless standard.",
   },
@@ -301,28 +301,28 @@ export const products: BedsideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B09TT8GZK9?tag=deskfinds0d-20",
     whyItWins: "The Anker 3-in-1 Cube is the most space-efficient 3-in-1 charger available. When closed, it is a cube slightly larger than an Apple Watch. Fully open, it charges iPhone (15W Qi2), Apple Watch (retractable puck that folds into the unit), and AirPods. The retractable Watch charger is the clever detail: when not in use, the puck disappears inside the cube body.",
     bodyParagraphs: [
-      "On a small nightstand, this is the cleanest possible 3-in-1 option. The Watch charger concealed when not in use means no dangling cable or exposed puck cluttering the nightstand surface.",
+      "On a small nightstand, this is the cleanest possible 3-in-1 option. The Watch charger concealed when not in use means no dangling cable or exposed puck cluttering the nightstand surface."
     ],
     specs: [
       { label: "iPhone", value: "15W Qi2 (MagSafe-compatible)" },
       { label: "Apple Watch", value: "5W (retractable puck, folds into cube)" },
       { label: "AirPods", value: "5W Qi" },
       { label: "Form", value: "Cube -- folds into ~50 x 50 x 50mm when closed" },
-      { label: "Adapter", value: "Included (varies by variant)" },
+      { label: "Adapter", value: "Included (varies by variant)" }
     ],
     pros: [
       "Smallest 3-in-1 footprint available",
       "Retractable Watch charger -- disappears when not needed",
       "Folds to cube for travel",
-      "Apple Watch puck concealed when not in use -- cleaner nightstand look",
+      "Apple Watch puck concealed when not in use -- cleaner nightstand look"
     ],
     cons: [
       "Apple ecosystem only",
       "Cube format less stable than weighted-base chargers",
-      "Small base can shift on smooth nightstand surfaces",
+      "Small base can shift on smooth nightstand surfaces"
     ],
     bestFor: "Very small nightstands, minimalist bedrooms, or travelers who want one product for both bedside and hotel room use.",
-  },
+  }
 ];
 
 export const atAGlanceItems = products.map((p) => ({
@@ -344,7 +344,7 @@ export const deskVsBedRows = [
   { feature: "Footprint", desk: "Medium OK", bedside: "Small preferred" },
   { feature: "Fan noise", desk: "Tolerable", bedside: "Unacceptable" },
   { feature: "Aesthetics", desk: "Functional", bedside: "Should blend with bedroom" },
-  { feature: "Best standard", desk: "Qi2 or USB-C PD", bedside: "Qi2 (magnetic = easy in dark)" },
+  { feature: "Best standard", desk: "Qi2 or USB-C PD", bedside: "Qi2 (magnetic = easy in dark)" }
 ];
 
 export const faq: { question: string; answer: string }[] = [
@@ -367,5 +367,5 @@ export const faq: { question: string; answer: string }[] = [
   {
     question: "Can a bedside charging station charge both iPhone and Android?",
     answer: "The UGREEN Qi2 25W MagFlow and UGREEN MagFlow 2-in-1 Qi2 both work with any Qi2-certified phone (iPhone 12+ and Android Qi2 phones) as well as standard Qi phones at lower wattage. No 3-in-1 Apple Watch charger works with Android smartwatches -- the Apple Watch puck is Apple-only.",
-  },
+  }
 ];

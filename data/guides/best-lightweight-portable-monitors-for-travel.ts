@@ -5,7 +5,7 @@ export const metaDescription = "8 portable monitors we evaluated on true travel-
 export const mainKeyword = "lightweight portable monitor";
 export const introParagraphs = [
   "Many listings advertise bare panel weight while the included folio case or stand adds another 150-300g, meaning the real travel weight is often 20-40% higher than the headline spec. We calculate the true kit weight, panel plus case plus cables, for each pick below rather than repeating the marketed number.",
-  "Good news for portability: none of the monitors in this guide have an internal battery, so there's no airline lithium battery restriction to worry about, they draw power entirely from your device or a wall adapter via USB-C or HDMI+power.",
+  "Good news for portability: none of the monitors in this guide have an internal battery, so there's no airline lithium battery restriction to worry about, they draw power entirely from your device or a wall adapter via USB-C or HDMI+power."
 ];
 export const lastUpdated = "2026-07-28";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Lightest True Kit Weight",
     name: "KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover",
     price: "$62.99",
-    rating: "4.4 stars from 13,090 Amazon ratings",
-    reviews: "13,090 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51T7K-COzIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B088D8JG3L?tag=deskfinds0d-20",
     description: "At 1.7 lb including its magnetic smart cover (not a bare panel weight quoted separately from the case), this is among the most honestly-weighed picks in this guide, the cover is part of the stated figure, not an add-on you discover later. No internal battery means no airline lithium restriction either.\n\nIt earns the top spot in this comparison over KYY Portable Monitor for Laptop for one main reason. Weight figure includes the case, not a bare-panel number. On price, it comes in below KYY Portable Monitor for Laptop, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: No battery means no airline lithium restriction. On the other side, Basic 1080p color accuracy. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Stand-Integrated Design, No Separate Case Needed",
     name: "KYY Portable Monitor for Laptop, Travel Monitor with Stand Support Two Mode",
     price: "$71.99",
-    rating: "4.7 stars from 82 Amazon ratings",
-    reviews: "82 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/414VyKmpPFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FXX3416Q?tag=deskfinds0d-20",
     description: "This newer KYY model builds the stand directly into the monitor itself, eliminating a separate case or folio you'd otherwise need to pack, genuinely reducing total kit weight versus a monitor-plus-separate-stand combination. At 1.65 lb and just 0.23 inches thick, it's slim enough to slide into most laptop sleeve pockets designed for a 13-14 inch laptop.\n\nOne spot below KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover in this ranking, it costs more than KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover. The compromise here is straightforward: Smaller review count, newer listing. What you gain in return: Built-in stand eliminates the need for a separate case. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Slim enough for standard 13-14\" laptop sleeve pockets. On the other side, Slightly pricier than the base KYY model. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Business Travel Reliability",
     name: "Plugable 15.6\" USB-C Portable Monitor with 100W Pass-Through Charging",
     price: "$239.95",
-    rating: "4.5 stars from 96 Amazon ratings",
-    reviews: "96 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Gi8axYgqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D9R8P9LL?tag=deskfinds0d-20",
     description: "At 1.85 lb this is a genuinely well-engineered travel monitor, Editor's Choice recognition from ZDNET, WIRED, and MacWorld reflects real build quality, and its included folding travel cover/stand is factored into the total kit from the start, not an add-on surprise. Dual 10Gbps USB-C hub ports let it double as a peripheral hub for business travel, one less device to pack.\n\nSitting just under KYY Portable Monitor for Laptop, it costs more than KYY Portable Monitor for Laptop. Here's the honest tradeoff: Highest price in this guide. And here's what it gets you instead: Recognized Editor's Choice build quality from major tech publications. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Doubles as a USB-C hub, reducing total travel gear. On the other side, 1080p, not the sharpest resolution here. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best VESA-Compatible Travel Pick",
     name: "cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB",
     price: "$109.99",
-    rating: "4.8 stars from 6,301 Amazon ratings",
-    reviews: "6,301 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31y1n0H2EtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZLY26FW?tag=deskfinds0d-20",
     description: "At 1.5 lb without the included cover (2.4 lb with it attached), this listing is unusually transparent about the weight difference the case itself makes, a real example of the case-adds-real-weight gap this guide flags. Traveling without the cover saves real weight if you're comfortable with less screen protection in transit.\n\nRanked just behind Plugable 15.6\" USB-C Portable Monitor with 100W Pass-Through Charging, it's priced lower than Plugable 15.6\" USB-C Portable Monitor with 100W Pass-Through Charging. The real tradeoff against that pick: Cover adds 0.9 lb, a real 60% weight increase over the bare panel. In exchange, it offers this instead: Explicitly discloses bare vs. cover weight, a rare transparency. That's the swap that decides whether this pick or the one above it is the better fit for your source device.\n\nWorth knowing before you decide: VESA holes let you skip packing the cover if a destination arm is available. On the other side, Choosing to skip the cover reduces screen protection in transit. That's the main tradeoff to weigh against everything above.",
@@ -89,8 +89,8 @@ export const products: GuideProduct[] = [
     badge: "Cheapest Lightweight Pick",
     name: "MNN 15.6\" FHD 60Hz Portable Monitor USB-C HDMI IPS HDR",
     price: "$49.99",
-    rating: "4.3 stars from 11,984 Amazon ratings",
-    reviews: "11,984 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/5130Dsp2DML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9NNWXVP?tag=deskfinds0d-20",
     description: "The cheapest pick in this guide, with a genuinely slim, ultra-slim profile description, though exact weight with cover isn't as precisely disclosed as the cocopar pick above. No battery here either, so no airline restriction applies.\n\nOne spot below cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB in this ranking, it's priced lower than cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB. The compromise here is straightforward: Exact bare vs. cover weight not as precisely disclosed. What you gain in return: Lowest price in this guide. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Large review base. On the other side, 60Hz only. That's the main tradeoff to weigh against everything above.",
@@ -105,8 +105,8 @@ export const products: GuideProduct[] = [
     badge: "Best Sharp Panel Worth the Extra Weight",
     name: "cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C, 120Hz HDMI",
     price: "$164.98",
-    rating: "4.8 stars from 6,301 Amazon ratings",
-    reviews: "6,301 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41taGyfYchL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR8D6BQ3?tag=deskfinds0d-20",
     description: "At 1.5 lb this is genuinely light for a sharp 2.5K metal-bodied panel, worth the modest weight tradeoff over the cheapest 1080p picks if resolution matters to your travel workflow. Full-size HDMI plus a sleeve case round out the kit.\n\nSitting just under MNN 15.6\" FHD 60Hz Portable Monitor USB-C HDMI IPS HDR, it costs more than MNN 15.6\" FHD 60Hz Portable Monitor USB-C HDMI IPS HDR. Here's the honest tradeoff: Pricier than the 1080p budget picks. And here's what it gets you instead: Sharp 2.5K resolution at a genuinely light weight. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Metal build adds travel durability. On the other side, 144Hz needs USB-C for full rate. That's the main tradeoff to weigh against everything above.",
@@ -121,8 +121,8 @@ export const products: GuideProduct[] = [
     badge: "Best If You Need the HDMI Cable Included",
     name: "KYY Portable Monitor 15.6'' FHD 1080P USB C HDMI Gaming Monitor",
     price: "$62.99",
-    rating: "4.5 stars from 5,126 Amazon ratings",
-    reviews: "5,126 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51zvuRNUGoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B088TLQR3K?tag=deskfinds0d-20",
     description: "At 1.7 lb, similar weight to the base KYY pick, but this one ships with a mini-HDMI-to-HDMI cable and a screen protector in the box, saving you from packing or buying those separately for console use on the road. That's a genuine reduction in total kit items to track, even if the base monitor weight is the same.\n\nRanked just behind cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C, it's priced lower than cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C. The real tradeoff against that pick: Same mini-HDMI limitation as the base model. In exchange, it offers this instead: Includes the HDMI adapter cable, one less item to pack separately. That's the swap that decides whether this pick or the one above it is the better fit for your source device.\n\nWorth knowing before you decide: Same weight as the cheaper base KYY model. On the other side, Basic 1080p color accuracy. That's the main tradeoff to weigh against everything above.",
@@ -137,8 +137,8 @@ export const products: GuideProduct[] = [
     badge: "Heaviest Pick, Included for Color Work on the Road",
     name: "VisionOwl Portable Monitor 15.6 Inch 4K UHD 145% sRGB",
     price: "$229.99",
-    rating: "4.8 stars from 2,044 Amazon ratings",
-    reviews: "2,044 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Vtb2coigL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVMC4BYJ?tag=deskfinds0d-20",
     description: "Included as the honest heavyweight in this guide, its full metal chassis and 4K panel add real weight over the lighter picks here, a genuine tradeoff for color-sensitive work while traveling. If lightweight is your only priority, this isn't your pick.\n\nOne spot below KYY Portable Monitor 15.6'' FHD 1080P USB C HDMI Gaming Monitor in this ranking, it costs more than KYY Portable Monitor 15.6'' FHD 1080P USB C HDMI Gaming Monitor. The compromise here is straightforward: Heaviest and priciest pick in this guide. What you gain in return: Highest color gamut in this guide for color-sensitive travel work. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: 4K resolution. On the other side, Overkill if lightweight is your only priority. That's the main tradeoff to weigh against everything above.",
@@ -153,7 +153,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "True kit weight, not marketed panel-only weight", description: "Calculated panel plus case plus cables where the listing disclosed it, since marketed 'panel weight' alone often understates the real travel weight by 20-40% once the case is added." },
   { title: "Battery status and airline implications", description: "Confirmed none of these monitors have an internal battery, so no airline lithium battery restriction applies to any pick in this guide, they draw power via USB-C or HDMI+power only." },
-  { title: "Case rigidity versus weight tradeoff", description: "Noted where a lighter fold-out cover trades protection for weight versus a bulkier, more protective design, relevant to whether you're checking luggage or carrying a padded bag." },
+  { title: "Case rigidity versus weight tradeoff", description: "Noted where a lighter fold-out cover trades protection for weight versus a bulkier, more protective design, relevant to whether you're checking luggage or carrying a padded bag." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -290,11 +290,11 @@ export const faq: FaqItem[] = [
   { q: "Which pick avoids packing a separate case entirely?", a: "The KYY 2026 model (rank 2) has a stand built directly into the monitor, eliminating the need for a separate folio case and reducing your total kit weight and packing complexity." },
   { q: "Should I bring the included cover, or leave it home to save weight?", a: "Depends on your travel style. The cocopar 15.6\" pick's cover adds a real 0.9 lb (60% more than the bare panel), if you're carrying it in a padded bag close to your body, skipping the cover is a reasonable weight-saving choice; if it's going in checked luggage, keep the protection." },
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "Budget-focused travelers who want the lightest true kit weight" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Travelers on a tight budget who want the cheapest reasonable option At $49.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Travelers on a tight budget who want the cheapest reasonable option At under $50, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-hdmi-portable-monitors", title: "Best HDMI Portable Monitors (2026)" },
   { href: "/guide/best-portable-monitors-with-vesa-mounts", title: "Best Portable Monitors with VESA Mounts (2026)" },
-  { href: "/guide/best-portable-monitors-for-macbook-air", title: "Best Portable Monitors for MacBook Air (2026)" },
+  { href: "/guide/best-portable-monitors-for-macbook-air", title: "Best Portable Monitors for MacBook Air (2026)" }
 ];

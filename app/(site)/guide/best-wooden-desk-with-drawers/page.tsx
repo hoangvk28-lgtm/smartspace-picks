@@ -124,7 +124,7 @@ export default async function BestWoodenDeskWithDrawersPage() {
     about: [
       { "@type": "Thing", name: "Wooden Desk with Drawers" },
       { "@type": "Thing", name: "Solid Wood Desk" },
-      { "@type": "Thing", name: "Home Office Desk" },
+      { "@type": "Thing", name: "Home Office Desk" }
     ],
   };
 
@@ -134,7 +134,7 @@ export default async function BestWoodenDeskWithDrawersPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Wooden Desks with Drawers", item: `${SITE_URL}/guide/best-wooden-desk-with-drawers` },
+      { "@type": "ListItem", position: 3, name: "Best Wooden Desks with Drawers", item: `${SITE_URL}/guide/best-wooden-desk-with-drawers` }
     ],
   };
 

@@ -12,7 +12,7 @@ export const phantomPowerExplainedGuide: Guide = {
     "do i need 48v phantom power",
     "phantom power microphone",
     "what is phantom power",
-    "audio interface phantom power",
+    "audio interface phantom power"
   ],
   heroImage: "https://images.unsplash.com/photo-1634041323797-b9fdef9d18f7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1634041323797-b9fdef9d18f7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const phantomPowerExplainedGuide: Guide = {
     "best-audio-interfaces-for-microphones",
     "xlr-vs-usb-microphone",
     "dynamic-vs-condenser-microphone",
-    "audio-interface-channels-chart",
+    "audio-interface-channels-chart"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const phantomPowerExplainedGuide: Guide = {
       question: "Why don't USB microphones need phantom power?",
       answer:
         "A USB condenser microphone has its own internal circuitry that converts power from the USB connection into what the capsule needs, essentially building phantom power supply into the microphone itself rather than requiring a separate external source.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ export const phantomPowerExplainedGuide: Guide = {
     {
       heading: "Checking Compatibility Before You Buy",
       body: `If you're buying an XLR condenser microphone, confirm your audio interface has a 48V phantom power switch, since not every budget interface includes it, particularly some very basic 1-2 channel units built primarily for instrument or dynamic-mic recording. If you're buying a USB microphone instead, phantom power isn't a consideration at all, since the microphone handles its own power needs through the USB connection.`,
-    },
+    }
   ],
 };

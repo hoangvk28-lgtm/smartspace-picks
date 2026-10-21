@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "wireless printer for home office";
 export const introParagraphs = [
   "Wireless is not one setting, it's WiFi Direct, network WiFi, and sometimes Bluetooth, and printers commonly drop off the network after sleep mode and need to be woken up again, a well-known frustration with several brands. Most buying guides list \"wireless\" as a spec and move on, without explaining what actually happens when the printer goes idle for a few hours.",
-  "Below are 8 wireless printers we evaluated for setup method, real-world connection stability, and brand-level offline complaint patterns, ranging from a $64 basic inkjet to a $209 compact laser printer.",
+  "Below are 8 wireless printers we evaluated for setup method, real-world connection stability, and brand-level offline complaint patterns, ranging from a $64 basic inkjet to a $209 compact laser printer."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "3-month Instant Ink trial included",
       "AI-capable printing features",
       "Compact home office design",
-      "No WPS-button dependency",
+      "No WPS-button dependency"
     ],
     pros: [
       "Guided app-based setup, no WPS button needed",
       "Low upfront price",
       "Simple daily wireless printing",
-      "Instant Ink trial included",
+      "Instant Ink trial included"
     ],
     cons: [
       "HP printers have a known pattern of dropping offline after sleep mode",
       "No automatic document feeder",
-      "Not built for high daily volume",
+      "Not built for high daily volume"
     ],
     bestFor: "Home offices without a WPS button on their router, using app-guided setup",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Duplex printing",
       "Compact single-tray design",
       "1-year limited warranty",
-      "Mobile app setup",
+      "Mobile app setup"
     ],
     pros: [
       "Straightforward guided app setup",
       "Duplex printing without manual flipping",
       "Compact footprint",
-      "Affordable price",
+      "Affordable price"
     ],
     cons: [
       "5GHz range is limited if the printer isn't near the router",
       "No automatic document feeder",
-      "Limited to Letter/A4 paper size",
+      "Limited to Letter/A4 paper size"
     ],
     bestFor: "Small home offices where the printer sits close to the router",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "1.42-inch OLED display shows connection status",
       "Duplex printing",
       "Intuitive control panel",
-      "Compact design",
+      "Compact design"
     ],
     pros: [
       "OLED display clarifies wireless connection issues",
       "No WPS-button dependency for setup",
       "Duplex printing built in",
-      "Compact footprint",
+      "Compact footprint"
     ],
     cons: [
       "Cartridge ink costs more at high volume",
       "No automatic document feeder",
-      "Ink can dry out with infrequent use",
+      "Ink can dry out with infrequent use"
     ],
     bestFor: "Buyers who want clear on-screen feedback when wireless connection issues happen",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "ADF and duplex printing",
       "3-month Instant Ink trial included",
       "AI-capable printing features",
-      "Home-office oriented design",
+      "Home-office oriented design"
     ],
     pros: [
       "Handles multiple connected devices well",
       "ADF and duplex printing included",
       "Instant Ink trial reduces early ink cost",
-      "Built for home-office volume",
+      "Built for home-office volume"
     ],
     cons: [
       "HP printers have a known pattern of dropping offline after idle periods",
       "Higher upfront price than basic picks",
-      "Cartridge costs return to normal after the trial",
+      "Cartridge costs return to normal after the trial"
     ],
     bestFor: "Home offices with several devices printing wirelessly to one printer",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Mobile printing support",
       "Built-in fax (legacy feature)",
       "Wireless connectivity",
-      "Compact home printer design",
+      "Compact home printer design"
     ],
     pros: [
       "Automatic document feeder at a budget price",
       "Reasonable macOS wireless stability by brand reputation",
       "Guided mobile printing setup",
-      "Affordable price",
+      "Affordable price"
     ],
     cons: [
       "Fax feature adds a menu option most won't use",
       "Not built for sustained high-volume printing",
-      "Cartridge-based ink costs more at high volume",
+      "Cartridge-based ink costs more at high volume"
     ],
     bestFor: "Budget-conscious home offices that also need multi-page scanning",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Duplex printing",
       "Copy and scan built in",
       "Refresh Subscription toner trial included",
-      "Works with Alexa",
+      "Works with Alexa"
     ],
     pros: [
       "Brother brand trends toward fewer wireless offline complaints",
       "Laser reliability for high text volume",
       "Duplex printing included",
-      "Compact footprint for a laser printer",
+      "Compact footprint for a laser printer"
     ],
     cons: [
       "Higher upfront price than inkjet picks",
       "Monochrome only, no color printing",
-      "No automatic document feeder",
+      "No automatic document feeder"
     ],
     bestFor: "Text-heavy home offices prioritizing wireless reliability over color printing",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "ADF and duplex printing",
       "3-month Instant Ink trial included",
       "AI-capable printing features",
-      "Home-office oriented design",
+      "Home-office oriented design"
     ],
     pros: [
       "Handles multiple connected devices well",
       "ADF and duplex printing included",
       "Instant Ink trial reduces early ink cost",
-      "Comparable capability to the 8125e",
+      "Comparable capability to the 8125e"
     ],
     cons: [
       "HP printers have a known pattern of dropping offline after idle periods",
       "Higher upfront price than basic picks",
-      "Cartridge costs return to normal after the trial",
+      "Cartridge costs return to normal after the trial"
     ],
     bestFor: "Home offices wanting ADF and duplex printing at a competitive price",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Scan and copy built in",
       "No WPS-button dependency for setup",
       "Compact all-in-one design",
-      "Long-lasting ink supply",
+      "Long-lasting ink supply"
     ],
     pros: [
       "Epson trends toward fewer wireless offline complaints than HP",
       "Cartridge-free ink reduces long-term interruptions",
       "App-guided setup without needing WPS",
-      "Good fit for mesh router households",
+      "Good fit for mesh router households"
     ],
     cons: [
       "Higher upfront price than basic inkjet picks",
       "No automatic document feeder",
-      "Larger footprint due to the ink tank system",
+      "Larger footprint due to the ink tank system"
     ],
     bestFor: "Home offices on a mesh router wanting stable wireless and low-interruption ink",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "macOS-specific stability reputation",
     description: "Factored in brand-level Mac compatibility reputation, since printer-goes-offline complaints on macOS specifically skew toward HP more than Brother or Canon based on widely reported patterns.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -466,12 +466,12 @@ export const faq: FaqItem[] = [
   {
     q: "My printer shows as connected but still won't print, why?",
     a: "A common cause is an IPv4 versus IPv6 mismatch, if your router defaults to IPv6 and the printer only fully supports IPv4, it can appear connected but not actually reachable. Check your router's settings for an option to prioritize IPv4 for local devices, and also confirm the printer and your device are on the same network rather than a guest WiFi network.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-all-in-one-printers-for-home-use", title: "Best All-in-One Printers for Home Use (2026)" },
   { href: "/guide/best-printers-for-home-offices", title: "Best Printers for Home Offices (2026)" },
   { href: "/guide/best-printers-with-automatic-document-feeders", title: "Best Printers with Automatic Document Feeders (2026)" },
-  { href: "/guide/best-duplex-printers-for-home-offices", title: "Best Duplex Printers for Home Offices (2026)" },
+  { href: "/guide/best-duplex-printers-for-home-offices", title: "Best Duplex Printers for Home Offices (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small portable file boxes";
 export const introParagraphs = [
   "\"Small\" is a relative term, so we favored picks with concrete disclosed dimensions rather than a vague descriptor. We also disclosed realistic reduced folder capacity, since a smaller box holds meaningfully fewer hanging folders than buyers might assume from general 'file box' framing alone.",
-  "The genuine best-fit use case for this size tier is a modest personal document collection, like a single year's tax records, rather than an active larger filing system.",
+  "The genuine best-fit use case for this size tier is a modest personal document collection, like a single year's tax records, rather than an active larger filing system."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Concrete dimension quantification", description: "We favored picks with disclosed specific dimensions rather than a vague 'small' relative descriptor." },
   { title: "Realistic reduced-capacity disclosure", description: "We noted that a smaller box holds meaningfully fewer hanging folders than buyers might assume, and disclosed this honestly for each pick." },
   { title: "Genuine best-fit use case framing", description: "We identified the realistic best-fit use case for this size tier as a modest personal document collection, not an active larger filing system." },
-  { title: "Price-per-capacity value comparison", description: "We compared value against a standard-size box, since a small box isn't automatically cheaper per document stored." },
+  { title: "Price-per-capacity value comparison", description: "We compared value against a standard-size box, since a small box isn't automatically cheaper per document stored." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -224,11 +224,11 @@ export const faq: FaqItem[] = [
   { q: "How many folders can a small file box actually hold?", a: "Meaningfully fewer than a standard-size box. Plan for a modest personal document collection rather than an active, larger filing system's full folder count." },
   { q: "Is a small file box a good value?", a: "It depends on your realistic needs. A small box isn't automatically cheaper per document stored than a standard-size box, so compare based on your actual capacity requirements." },
   { q: "Is cardboard durable enough for a small file box?", a: "For lighter-use, archived documents, yes. For frequently accessed or long-term storage, a plastic box like the Pendaflex pick offers more durability worth the price premium." },
-  { q: "What's the best use case for a small file box?", a: "A modest personal document collection, like a single year's tax records or a small project's files, rather than an active larger filing system with many ongoing categories." },
+  { q: "What's the best use case for a small file box?", a: "A modest personal document collection, like a single year's tax records or a small project's files, rather than an active larger filing system with many ongoing categories." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-slim-portable-file-boxes", title: "Best Slim Portable File Boxes (2026)" },
   { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" },
-  { href: "/guide/best-large-portable-file-boxes", title: "Best Large Portable File Boxes (2026)" },
+  { href: "/guide/best-large-portable-file-boxes", title: "Best Large Portable File Boxes (2026)" }
 ];

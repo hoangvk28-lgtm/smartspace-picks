@@ -12,7 +12,7 @@ export const deskFanCfmExplainedGuide: Guide = {
     "what is cfm fan rating",
     "how much cfm for desk fan",
     "desk fan airflow guide",
-    "usb fan cfm comparison",
+    "usb fan cfm comparison"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskFanCfmExplainedGuide: Guide = {
     "space-heater-room-size-chart",
     "ceramic-vs-infrared-space-heater",
     "desk-lamp-lumens-guide",
-    "space-heater-safety-explained",
+    "space-heater-safety-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskFanCfmExplainedGuide: Guide = {
       question: "Do USB desk fans have meaningfully lower CFM than plug-in fans?",
       answer:
         "Generally yes, USB-powered desk fans are limited by the lower power draw available from a USB port, resulting in lower maximum CFM compared to a similarly sized plug-in fan with access to more power.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const deskFanCfmExplainedGuide: Guide = {
     {
       heading: "Balancing Airflow Against Noise in a Shared Space",
       body: `If you work in a shared office or take frequent calls, a fan's noise level matters as much as its CFM rating, since a genuinely strong airflow fan running constantly in the background can become a real distraction during calls. Check the decibel rating alongside CFM when comparing options, and consider a moderate-CFM fan with quieter blade design over a maximum-CFM model if noise is a concern in your specific workspace.`,
-    },
+    }
   ],
 };

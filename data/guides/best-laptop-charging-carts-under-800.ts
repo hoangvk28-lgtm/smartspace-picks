@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["An established brand with reconfigurable, multi-purpose design", "Bretford Cortex Cart (TCOREX36)"],
         ["Fast setup with keyless electronic lock security", "POCHAR Fully Assembled 30-Unit Storage and Charging Cart"],
         ["A fully assembled cart with a user-changeable passcode", "Meteteel Fully Assembled 30 Device Charging Cart"],
-        ["Key card access matching an existing facility system", "Pearington 30 Device Charging Cart with Electric Key Card Lock"],
+        ["Key card access matching an existing facility system", "Pearington 30 Device Charging Cart with Electric Key Card Lock"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $567", "Pearington Key Card ($566.43)"],
-        ["Under $600", "POCHAR or Meteteel Fully Assembled (both $599.99)"],
-        ["Under $900", "Bretford Cortex Cart ($899.99)"],
+        ["Under $567", "Pearington Key Card (under $600)"],
+        ["Under $600", "POCHAR or Meteteel Fully Assembled (both under $600)"],
+        ["Under $900", "Bretford Cortex Cart (under $900)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Keypad Passcode vs Key Card Access Control",
     cards: [
       { label: "Keypad passcode (Meteteel)", text: "Lets you set and change a 4-digit code yourself without managing physical cards, simpler for a single standalone cart." },
-      { label: "Key card (Pearington)", text: "Integrates with an existing facility-wide key card access system, more convenient if your organization already issues cards for building or room access." },
+      { label: "Key card (Pearington)", text: "Integrates with an existing facility-wide key card access system, more convenient if your organization already issues cards for building or room access." }
     ],
     note: "If your facility already uses key cards for other access points, the Pearington pick's key card lock fits that existing system. If you'd rather avoid managing physical cards for a single cart, the Meteteel pick's keypad passcode is simpler.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Minimal assembly, just attach wheels", "POCHAR or Meteteel Fully Assembled"],
         ["Reconfigurable layout worth some assembly effort", "Bretford Cortex Cart"],
-        ["Standard assembly required", "Pearington Key Card"],
+        ["Standard assembly required", "Pearington Key Card"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For an Organization Standardizing on Commercial-Grade Furniture Specifically",
     cards: [
       { label: "Look for", text: "An established commercial furniture brand with a documented track record in institutional device charging, rather than a newer market entrant without that history." },
-      { label: "In this comparison", text: "The Bretford Cortex Cart's manufacturer specifically specializes in institutional charging and storage furniture, a track record the other three picks don't share." },
+      { label: "In this comparison", text: "The Bretford Cortex Cart's manufacturer specifically specializes in institutional charging and storage furniture, a track record the other three picks don't share." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want an established commercial brand with reconfigurable slots and a functional top work surface, where the Bretford Cortex Cart delivers all three at the top of this tier." },
-      { label: "Save if", text: "You want fast fully assembled setup with keyless lock security, where the POCHAR or Meteteel picks cover that for about $300 less." },
+      { label: "Save if", text: "You want fast fully assembled setup with keyless lock security, where the POCHAR or Meteteel picks cover that for about $300 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

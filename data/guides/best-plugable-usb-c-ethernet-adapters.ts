@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41tsdq8yCLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B011DDXGVC?tag=deskfinds0d-20",
-    description: "A plug-and-play Gigabit adapter for Thunderbolt, USB4, or USB-C ports, explicitly listing compatibility with the Nintendo Switch handheld alongside Windows 10+, macOS 10.15+, and Linux Kernel 3.9+.\n\nPositioned by Plugable as faster and more stable than most Wi-Fi networks, with straightforward setup requiring no downloads or installations.\n\nThe strongest case for this pick comes down to explicitly compatible with Nintendo Switch handheld as well as no downloads or driver installation required. The compromise here is that 1Gbps ceiling only, no multi-gig option in this specific model, so factor that in alongside the $18.95 asking price.",
+    description: "A plug-and-play Gigabit adapter for Thunderbolt, USB4, or USB-C ports, explicitly listing compatibility with the Nintendo Switch handheld alongside Windows 10+, macOS 10.15+, and Linux Kernel 3.9+.\n\nPositioned by Plugable as faster and more stable than most Wi-Fi networks, with straightforward setup requiring no downloads or installations.\n\nThe strongest case for this pick comes down to explicitly compatible with Nintendo Switch handheld as well as no downloads or driver installation required. The compromise here is that 1Gbps ceiling only, no multi-gig option in this specific model, so factor that in alongside the under $20 asking price.",
     specs: ["Gigabit Ethernet, plug-and-play","Nintendo Switch compatible","Windows 10+/macOS 10.15+/Linux 3.9+"],
     pros: ["Explicitly compatible with Nintendo Switch handheld","No downloads or driver installation required","Broad OS support including older Linux kernels","Plugable's standard 2-year coverage with lifetime support"],
     cons: ["1Gbps ceiling only, no multi-gig option in this specific model","Basic single-purpose design with no extra ports"],
@@ -157,19 +157,19 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $17.99",
+          "Under $20",
           "Plugable 2.5Gbps USB-A/USB-C Adapter"
         ],
         [
-          "Around $18.95",
+          "Under $20",
           "Plugable USB-C to Ethernet Adapter"
         ],
         [
-          "Around $24.95",
+          "Under $25",
           "Plugable 2.5G Dual-Connector USB-C/USB-A Adapter"
         ],
         [
-          "Around $29.95",
+          "Under $30",
           "Plugable USB-C to 2.5Gb Ethernet with 100W PD"
         ]
       ]
@@ -224,10 +224,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "Plugable 2.5Gbps USB-A/USB-C Adapter is aimed at buyers prioritizing 2.5gbps via rtl8156bg chip, at $17.99."
+        "text": "Plugable 2.5Gbps USB-A/USB-C Adapter is aimed at buyers prioritizing 2.5gbps via rtl8156bg chip, at under $20."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -268,9 +268,9 @@ export const faq = [
   }
 ,
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Plugable USB-C to Ethernet Adapter is aimed at buyers prioritizing gigabit ethernet, plug-and-play." },
-  { q: "Which pick offers the best value for a tight budget?", a: "Plugable 2.5Gbps USB-A/USB-C Adapter is aimed at buyers prioritizing 2.5gbps via rtl8156bg chip, and at $17.99 it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $17.99 to $29.95, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
-  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Plugable USB-C to 2.5Gb Ethernet with 100W PD is aimed at buyers prioritizing 2.5gbps + 100w pd passthrough. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Plugable 2.5Gbps USB-A/USB-C Adapter is aimed at buyers prioritizing 2.5gbps via rtl8156bg chip, and at under $20 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $20 to $30, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Plugable USB-C to 2.5Gb Ethernet with 100W PD is aimed at buyers prioritizing 2.5gbps + 100w pd passthrough. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-5gbe-usb-c-ethernet-adapters","title":"5 Best 5GbE USB-C Ethernet Adapters"},{"href":"/guide/best-usb-c-to-2-5gbe-ethernet-adapters","title":"8 Best USB-C to 2.5GbE Ethernet Adapters"},{"href":"/guide/best-usb-c-ethernet-adapters-with-power-delivery","title":"7 Best USB-C Ethernet Adapters With Power Delivery"}];

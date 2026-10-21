@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "printer for homeschool";
 export const introParagraphs = [
   "A homeschooling household prints far more than the average home office, worksheets, answer keys, art projects, and reading materials can add up to hundreds of pages a month across even one or two kids, and that volume changes which printer actually makes sense. A printer built around occasional home use quickly turns into a cartridge-replacement treadmill once real homeschool volume hits it.",
-  "Below are 8 printers for homeschooling we evaluated on cost per page at realistic homeschool volume, durability around kids, and wireless setup ease, ranging from a $59 basic inkjet to a $189.99 ink-tank model built for sustained daily printing.",
+  "Below are 8 printers for homeschooling we evaluated on cost per page at realistic homeschool volume, durability around kids, and wireless setup ease, ranging from a $59 basic inkjet to an under-$190 ink-tank model built for sustained daily printing."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Built-in copier and scanner",
       "1.42-inch OLED display",
       "Compact design",
-      "Cartridge-based ink system",
+      "Cartridge-based ink system"
     ],
     pros: [
       "Clear OLED display simplifies daily use",
       "Compact footprint fits a small homeschool desk",
       "Duplex printing built in",
-      "Lower upfront price than ink-tank options",
+      "Lower upfront price than ink-tank options"
     ],
     cons: [
       "Cartridge ink costs more per page at high volume",
       "No automatic document feeder for multi-page scanning",
-      "Ink can dry out during light summer-break use",
+      "Ink can dry out during light summer-break use"
     ],
     bestFor: "Homeschools with moderate print volume who want a simple, low-cost starting printer",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Color print, scan, and copy",
       "Wireless printing",
       "Bottled ink refills included",
-      "Built for everyday, high-volume printing",
+      "Built for everyday, high-volume printing"
     ],
     pros: [
       "Lowest cost per page of any pick in this list at real homeschool volume",
       "Handles hundreds of worksheet pages a month without cartridge swaps",
       "Scan and copy included",
-      "No mid-print cartridge failures",
+      "No mid-print cartridge failures"
     ],
     cons: [
       "Higher upfront price than a basic cartridge inkjet",
       "Larger footprint due to the ink tanks",
-      "No automatic document feeder",
+      "No automatic document feeder"
     ],
     bestFor: "Homeschools with 1-3 kids generating high monthly worksheet and color volume",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "3-month Instant Ink trial included",
       "Wireless printing",
       "AI-capable printing features",
-      "Compact, budget-friendly design",
+      "Compact, budget-friendly design"
     ],
     pros: [
       "Very low upfront price",
       "Instant Ink trial softens early ink costs",
       "Scan and copy included",
-      "Simple setup for a first-time homeschool printer",
+      "Simple setup for a first-time homeschool printer"
     ],
     cons: [
       "Standard cartridge costs return after the trial period",
       "Not built for sustained high-volume printing",
-      "No automatic document feeder",
+      "No automatic document feeder"
     ],
     bestFor: "Budget-conscious homeschools just starting out and testing their real print volume",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Mobile printing support",
       "Built-in fax (legacy feature)",
       "Wireless connectivity",
-      "Compact home printer design",
+      "Compact home printer design"
     ],
     pros: [
       "Auto document feeder speeds up scanning multi-page work",
       "Low price for the included feature set",
       "Mobile printing from phone or tablet",
-      "Simple setup",
+      "Simple setup"
     ],
     cons: [
       "Cartridge-based ink costs more at high volume",
       "Fax feature is unnecessary for most households",
-      "Not built for sustained daily high-volume printing",
+      "Not built for sustained daily high-volume printing"
     ],
     bestFor: "Parents who regularly scan stacks of completed worksheets or grading records",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Automatic document feeder",
       "Automatic 2-sided printing",
       "1.4-inch color display",
-      "Cartridge-based ink system",
+      "Cartridge-based ink system"
     ],
     pros: [
       "Full feature set for the price: ADF, fax, duplex",
       "Duplex printing saves paper on long assignments",
       "Simple color display for status checks",
-      "Compact enough for a shared homeschool desk",
+      "Compact enough for a shared homeschool desk"
     ],
     cons: [
       "Cartridge ink costs more per page at high volume",
       "Not ideal for a homeschool with heavy daily printing",
-      "Ink can dry out over slow weeks like summer break",
+      "Ink can dry out over slow weeks like summer break"
     ],
     bestFor: "Homeschools that need fax and multi-page scanning alongside moderate daily printing",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Mobile and tablet printing emphasis",
       "Wireless connectivity",
       "No automatic document feeder",
-      "Cartridge-based ink system",
+      "Cartridge-based ink system"
     ],
     pros: [
       "Strong tablet and mobile printing support",
       "Simple print, scan, copy feature set",
       "Reliable wireless setup",
-      "Works well with iPad-based curricula",
+      "Works well with iPad-based curricula"
     ],
     cons: [
       "No automatic document feeder for multi-page scans",
       "No fax",
-      "Cartridge ink costs more at high volume than an ink tank",
+      "Cartridge ink costs more at high volume than an ink tank"
     ],
     bestFor: "Homeschools running curricula primarily through a tablet or iPad",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Automatic duplex (2-sided) printing",
       "Copy and scan built in",
       "Wireless and mobile printing",
-      "Compact footprint for a homeschool desk",
+      "Compact footprint for a homeschool desk"
     ],
     pros: [
       "Lowest cost per page for high-volume black-and-white worksheets",
       "Toner survives summer break without drying out",
       "Duplex printing saves paper automatically",
-      "Built to last multiple school years",
+      "Built to last multiple school years"
     ],
     cons: [
       "No color output at all",
       "Highest upfront cost in this list",
-      "Overkill for a homeschool with light or mostly color printing needs",
+      "Overkill for a homeschool with light or mostly color printing needs"
     ],
     bestFor: "Math-heavy or reading-heavy curricula with high-volume black-and-white daily worksheets",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Print, scan, and copy",
       "Wireless printing (2.4GHz only)",
       "Compact footprint versus larger ink-tank models",
-      "No automatic document feeder",
+      "No automatic document feeder"
     ],
     pros: [
       "2 years of ink included offsets a full homeschool budget cycle",
       "Ink-tank economics for high-volume printing",
       "More compact than some other ink-tank models",
-      "Lower upfront price than the EcoTank ET-2400",
+      "Lower upfront price than the EcoTank ET-2400"
     ],
     cons: [
       "2.4GHz-only wireless can complicate setup on some routers",
       "No automatic document feeder",
-      "No automatic duplex printing listed",
+      "No automatic duplex printing listed"
     ],
     bestFor: "Homeschools wanting ink-tank savings on a tighter upfront budget",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value across a full school year",
     description: "Weighed upfront price against ink cost projected across a 9 to 10 month school year rather than a single month, which changes which pick is actually cheaper.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,12 +477,12 @@ export const faq: FaqItem[] = [
   {
     q: "Do I need a printer with fax for homeschooling?",
     a: "Almost never. Fax is a legacy feature that shows up on a few all-in-ones in this list, including the PIXMA TR4720 and Workforce WF-2930, but it rarely gets used in a homeschool context. Don't let fax sway your decision, focus on cost per page, automatic document feeder support, and color needs instead.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-teachers", title: "Best Printers for Teachers (2026)" },
   { href: "/guide/best-printers-for-small-businesses", title: "Best Printers for Small Businesses (2026)" },
   { href: "/guide/best-easy-to-use-printers", title: "Best Easy-to-Use Printers (2026)" },
-  { href: "/guide/best-small-printer-stands", title: "Best Small Printer Stands (2026)" },
+  { href: "/guide/best-small-printer-stands", title: "Best Small Printer Stands (2026)" }
 ];

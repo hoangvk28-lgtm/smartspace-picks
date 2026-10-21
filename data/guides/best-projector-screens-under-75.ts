@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This screen's four aluminum tubes with spring tension at the ends maintain a genuinely flat surface, and the listing specifically states its fabric carries a high gain factor for a superior picture compared to standard budget fabric. At just 8.6 lbs, it's the lightest stand-equipped screen in this comparison, easy for one person to carry anywhere.\n\nCompared to the fiberglass pick below, this one prioritizes lightweight portability and quick 2-minute setup over the larger diagonal sizes found elsewhere in this tier. The sturdy tripod stand stretches, folds, and adjusts with the same spring-tensioned aluminum tubes providing stability especially for outdoor use.\n\nBest for buyers who want the lightest, most portable stand-equipped screen with a high gain rating.",
     specs: ["60in, aluminum frame, high gain fabric", "8.6 lbs, 2-minute setup", "Adjustable, foldable tripod stand"],
     pros: ["Lightest stand-equipped screen in this comparison at 8.6 lbs", "High gain fabric factor for a genuinely superior picture", "2-minute setup is among the fastest in this tier"],
-    cons: ["Slightly over this tier's stated ceiling at $77.86", "Smallest diagonal size in this comparison at 60 inches"],
+    cons: ["Slightly over this tier's stated ceiling at under $80", "Smallest diagonal size in this comparison at 60 inches"],
     bestFor: "buyers who want the lightest, most portable screen with a high gain rating",
   },
   {
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The lightest, most portable screen with a high gain rating", "Projector Screen with Stand, 60 Inch, Aluminium Frame"],
         ["Genuine fiberglass construction with a stated gain rating", "Projector Screen with Stand, 80 Inch, 1.2 Gain Fiberglass"],
         ["The largest viewing area at this price point", "Wootfairy 100inch Projector Screen with Stand"],
-        ["An established brand with precise alignment features", "Pyle 40-Inch Portable Projector Screen with Tripod Stand"],
+        ["An established brand with precise alignment features", "Pyle 40-Inch Portable Projector Screen with Tripod Stand"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $65", "Pyle 40-Inch ($64.99)"],
-        ["Under $70", "Fiberglass 80in ($69.99) or Wootfairy 100in ($69.99)"],
-        ["Under $80", "Aluminium Frame 60in ($77.86)"],
+        ["Under $65", "Pyle 40-Inch (under $70)"],
+        ["Under $70", "Fiberglass 80in (under $70) or Wootfairy 100in (under $70)"],
+        ["Under $80", "Aluminium Frame 60in (under $80)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Larger Size vs Higher Gain Rating",
     cards: [
       { label: "Larger size (Wootfairy 100in)", text: "Prioritizes maximum viewing area at a competitive price, without a specifically stated gain rating." },
-      { label: "Higher gain rating (Fiberglass 80in, Aluminium Frame 60in)", text: "Prioritizes a stated, checkable gain figure for brightness and color reproduction, in smaller sizes." },
+      { label: "Higher gain rating (Fiberglass 80in, Aluminium Frame 60in)", text: "Prioritizes a stated, checkable gain figure for brightness and color reproduction, in smaller sizes." }
     ],
     note: "If maximum screen size for your room is the priority, the Wootfairy pick delivers that. If you want a specific, verified gain rating for image quality confidence, the fiberglass or aluminum-framed picks provide that at smaller sizes.",
   },
@@ -137,7 +137,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your primary use", "Recommended pick"],
       rows: [
         ["Movies and widescreen content", "Fiberglass 80in, Wootfairy 100in, or Aluminium Frame 60in (16:9)"],
-        ["Presentations and classroom use", "Pyle 40-Inch (4:3)"],
+        ["Presentations and classroom use", "Pyle 40-Inch (4:3)"]
       ],
     },
   },
@@ -145,16 +145,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Buyer Specifically Comparing Gain Ratings Across Screens Specifically",
     cards: [
       { label: "Look for", text: "A specific numeric gain rating (like 1.2 gain) stated in the listing, since gain directly affects brightness and viewing angle tradeoffs in a checkable way that generic quality claims don't." },
-      { label: "In this comparison", text: "The Fiberglass 80in pick's stated 1.2 gain rating gives you a specific, comparable figure that the Wootfairy and Pyle picks don't provide in their listings." },
+      { label: "In this comparison", text: "The Fiberglass 80in pick's stated 1.2 gain rating gives you a specific, comparable figure that the Wootfairy and Pyle picks don't provide in their listings." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the lightest, most portable screen with a stated high gain rating, where the Aluminium Frame pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You want an established brand with precise alignment features without needing a large diagonal size, where the Pyle 40-Inch pick covers that for about $13 less." },
+      { label: "Save if", text: "You want an established brand with precise alignment features without needing a large diagonal size, where the Pyle 40-Inch pick covers that for about $13 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -183,7 +183,7 @@ export const buyingCriteria = [
 export const faq = [
   { "q": "Does a higher gain rating always mean a better picture regardless of room setup?", "a": "No, a higher gain screen reflects more light back but typically has a narrower optimal viewing angle, so it's better for a room with seating positioned relatively centrally, while a wider seating arrangement benefits more from a standard or lower gain rating for even brightness across the room." },
   { "q": "What's the most common mistake buyers make when comparing screen sizes across different aspect ratios in this tier?", "a": "Comparing the diagonal size numbers directly between a 4:3 screen like the Pyle pick and a 16:9 screen like the others, when the actual viewing area shape differs significantly, so the same diagonal measurement doesn't represent the same width or height between the two ratios." },
-  { "q": "Is the Fiberglass 80in pick worth it over the cheaper Wootfairy 100in option?", "a": "If you specifically want a stated 1.2 gain rating with fiberglass construction for 4K reproduction, yes, but if maximum viewing area at the same price matters more, the Wootfairy pick delivers 100 inches for the same $69.99." },
+  { "q": "Is the Fiberglass 80in pick worth it over the cheaper Wootfairy 100in option?", "a": "If you specifically want a stated 1.2 gain rating with fiberglass construction for 4K reproduction, yes, but if maximum viewing area at the same price matters more, the Wootfairy pick delivers 100 inches for the same under $70." },
   { "q": "How do I know if the Aluminium Frame pick's 60 inch size is large enough for my room?", "a": "Measure your intended viewing distance and compare it against general projector screen sizing guidelines, since a 60 inch screen suits closer viewing distances typical of smaller rooms, while larger rooms with more distance between viewer and screen benefit from the bigger sizes in this tier." },
   { "q": "Can the Pyle 40-Inch screen's 4:3 ratio still display widescreen movies, just with black bars?", "a": "Yes, widescreen 16:9 content will display with black bars on a 4:3 screen, which works fine functionally but doesn't maximize the screen's usable area for that specific content type, so a 16:9 pick is the better match if movies are your primary use." },
   { "q": "Do any of these screens require specific projector brightness levels to look good?", "a": "Higher gain screens like the Fiberglass 80in pick can work well with lower-lumen projectors since they reflect more light, while standard gain screens generally benefit from a brighter projector, so checking your specific projector's stated lumen output against the screen's gain rating helps ensure a good match." }

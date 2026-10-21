@@ -123,7 +123,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A foldable station for travel", "Foldable 3-in-1 Charging Station for MagSafe"],
         ["Maximum port count, including laptop charging", "320W Charging Station, 10 Ports"],
         ["A complete kit with everything included, black", "Pezin & Hulin Bamboo Charging Station, Black"],
-        ["The same complete kit in natural bamboo", "Pezin & Hulin Bamboo Charging Station, Natural"],
+        ["The same complete kit in natural bamboo", "Pezin & Hulin Bamboo Charging Station, Natural"]
       ],
     },
   },
@@ -132,8 +132,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $40", "Foldable MagSafe station ($38.99) or 320W 10-port station ($39.59)"],
-        ["$48 to $50", "Pezin & Hulin Black ($48.44) or Natural ($49.49)"],
+        ["Under $40", "Foldable MagSafe station (under $40) or 320W 10-port station (under $40)"],
+        ["$48 to $50", "Pezin & Hulin Black (under $50) or Natural (under $50)"]
       ],
     },
   },
@@ -147,7 +147,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "Standalone unit (Foldable MagSafe, 320W station)",
         text: "The charging station itself provides the power directly through its own build, so no separate adapter is needed either, though the 320W pick does include 8 cables.",
-      },
+      }
     ],
     note: "At this price tier, most picks include what you need out of the box; the main difference is whether cables cover your specific device connector types.",
   },
@@ -158,7 +158,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Only Apple devices (iPhone, Watch, AirPods)", "Foldable 3-in-1 Charging Station for MagSafe"],
         ["A laptop plus multiple phones/tablets", "320W Charging Station, 10 Ports"],
-        ["A mix of devices with a smartwatch", "Either Pezin & Hulin bamboo station"],
+        ["A mix of devices with a smartwatch", "Either Pezin & Hulin bamboo station"]
       ],
     },
   },
@@ -172,7 +172,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "The 320W 10-port station is specifically built and marketed for family multi-device charging with 8 varied cables included.",
-      },
+      }
     ],
   },
   {
@@ -180,14 +180,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You want a complete kit with power adapter, cables, and a dedicated watch dock all included: either Pezin & Hulin pick ($48.44-$49.49) delivers a ready-to-use system.",
+        text: "You want a complete kit with power adapter, cables, and a dedicated watch dock all included: either Pezin & Hulin pick (under $50-under $50) delivers a ready-to-use system.",
       },
       {
         label: "Save if",
-        text: "You just need Apple wireless charging that packs away for travel: the foldable MagSafe station ($38.99) is the cheapest pick here.",
-      },
+        text: "You just need Apple wireless charging that packs away for travel: the foldable MagSafe station (under $40) is the cheapest pick here.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -242,5 +242,5 @@ export const faq = [
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-charging-stations-for-multiple-devices-desk-under-30", title: "Best Multi-Device Charging Stations Under $30" },
-  { href: "/guide/best-desk-setup-accessories", title: "Best Desk Setup Accessories" },
+  { href: "/guide/best-desk-setup-accessories", title: "Best Desk Setup Accessories" }
 ];

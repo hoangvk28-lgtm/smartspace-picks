@@ -5,7 +5,7 @@ export const metaDescription = "5 clamp-on power strips we evaluated, with the c
 export const mainKeyword = "desk clamp power strip";
 export const introParagraphs = [
   "Clamp compatibility range is rarely tested against real desk edge variety, glass, thin folding tables, and thick industrial desks all have different edge thicknesses, and a clamp-on power strip rated for one range may not fit securely on another.",
-  "Clamp-mounted power strips compete for the same desk-edge space as monitor arms, keyboard trays, and desk lamps, a desk already using clamp-mounted accessories at the rear edge may not have room for an additional clamped power strip at the same location.",
+  "Clamp-mounted power strips compete for the same desk-edge space as monitor arms, keyboard trays, and desk lamps, a desk already using clamp-mounted accessories at the rear edge may not have room for an additional clamped power strip at the same location."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Clamp-On Power Strip Overall",
     name: "Jgstkcity Desk Clamp Power Strip USB C, 40W Total Fast Charging Station, 4 PD 20W USB C Ports, Desk Edge Mount Surge Protector, 5 Outlets, Fit 1.96\" Tabletop Edge, ETL Listed",
     price: "$32.99",
-    rating: "4.6 stars from 4,340 Amazon ratings",
-    reviews: "4,340 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31g5Q1uDYCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXP2ZTWB?tag=deskfinds0d-20",
     description: "Explicitly rated to fit up to a 1.96 inch tabletop edge, genuinely useful for verifying your specific desk's thickness before ordering rather than guessing. 5 outlets plus 4 USB-C PD ports for a well-rounded desk clamp setup.\n\nIt earns the top spot in this comparison over Jgstkcity Desk Clamp Power Strip for one main reason. Explicit desk edge thickness rating stated upfront. On price, it comes in below Jgstkcity Desk Clamp Power Strip, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: 5 outlets plus 4 USB-C PD ports. On the other side, Clamp torque needed may mark softer desk finishes. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Wattage USB-C Clamp Pick",
     name: "Jgstkcity Desk Clamp Power Strip, 45W Fast Charging Station, 4 USB-C, 4 USB-A, Desk Mount Surge Protector, 1875W Extension Cord with Multiple Outlets, ETL Listed, for Home Office Dorm Room",
     price: "$39.99",
-    rating: "4.4 stars from 551 Amazon ratings",
-    reviews: "551 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31WV5ahbGyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBSTDM5D?tag=deskfinds0d-20",
     description: "45W across 4 USB-C and 4 USB-A ports, genuine headroom for charging multiple devices at once from a clamp-mounted position. ETL listed for safety verification.\n\nOne spot below Jgstkcity Desk Clamp Power Strip USB C in this ranking, it costs more than Jgstkcity Desk Clamp Power Strip USB C. The compromise here is straightforward: Smaller review base than the top pick. What you gain in return: Highest combined USB wattage in this guide. Whether that trade is worth it depends on which side matters more for your needs.\n\nWorth knowing before you decide: 8 total USB ports for multi-device charging. On the other side, Verify desk edge thickness compatibility separately. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Clamp-On Pick",
     name: "Mifaso PD30W Desk Clamp Power Strip, Surge Protector, Fast Charging Station",
     price: "$23.99",
-    rating: "4.7 stars from 769 Amazon ratings",
-    reviews: "769 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31vu7nVrV6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCZFXDDS?tag=deskfinds0d-20",
     description: "A genuinely more affordable clamp-on option with 30W PD charging, appropriate if you don't need the higher-wattage multi-port capacity of the premium picks. Surge protector included for real electrical safety.\n\nSitting just under Jgstkcity Desk Clamp Power Strip, it's priced lower than Jgstkcity Desk Clamp Power Strip. Here's the honest tradeoff: Smaller review base. And here's what it gets you instead: More affordable than the premium clamp picks. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Surge protector included. On the other side, Verify desk edge compatibility before ordering. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Simple Clamp Alternative",
     name: "One Beat Power Strip with USB C, 3 Outlets 4 USB Ports (22.5W/4.5A), 6ft",
     price: "$12.99",
-    rating: "4.8 stars from 28,893 Amazon ratings",
-    reviews: "28,893 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41KswK3B2OL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07V32PJ59?tag=deskfinds0d-20",
     description: "A large, well-established review base at a genuinely low price, a simpler option if you don't need a heavy-duty desk-edge clamp mechanism. 3 outlets and 4 USB ports cover basic desk needs.\n\nRanked just behind Mifaso PD30W Desk Clamp Power Strip, it's priced lower than Mifaso PD30W Desk Clamp Power Strip. The real tradeoff against that pick: Fewer outlets than dedicated clamp picks. In exchange, it offers this instead: Largest review base in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Very affordable. On the other side, Verify mount mechanism fits your desk edge. That's the main tradeoff to weigh against everything above.",
@@ -89,8 +89,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity Alternative",
     name: "Belkin 12-Outlet Surge Protector Power Strip w/ 12 AC Outlets & 8ft Flat Plug, UL-Listed Heavy-Duty Extension Cord for Home, Office, Travel, Computer, Laptop, Charger - 3,780 Joules of Protection",
     price: "$28.95",
-    rating: "4.8 stars from 3,281 Amazon ratings",
-    reviews: "3,281 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/415tn9cXV7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6S6TPRH?tag=deskfinds0d-20",
     description: "Not a true clamp-mount design, but genuinely worth considering if you need 12 outlets and a heavy-duty 3,780 joule rating more than a desk-edge clamp specifically. UL listed from an established brand.\n\nOne spot below One Beat Power Strip with USB C in this ranking, it costs more than One Beat Power Strip with USB C. The compromise here is straightforward: Not a true desk-edge clamp mount. What you gain in return: Highest joule rating and outlet count in this guide. Whether that trade is worth it depends on which side matters more for your needs.\n\nWorth knowing before you decide: Established Belkin brand reliability. On the other side, Higher price than basic clamp picks. That's the main tradeoff to weigh against everything above.",
@@ -105,7 +105,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Desk edge thickness compatibility explicitly disclosed", description: "Prioritized picks that state their exact desk edge thickness range upfront, since clamp mounts are rated for a specific range that doesn't universally fit every desk type." },
   { title: "Combined USB wattage and port count for real charging needs", description: "Compared total USB wattage and port count across picks, since a clamp-on strip's value often comes from charging multiple devices from a single mounted position." },
-  { title: "Clamp mounting conflict awareness with other desk accessories", description: "Noted that clamp-mounted power strips compete for the same desk-edge space as monitor arms and keyboard trays, a real installation consideration for buyers with existing clamped accessories." },
+  { title: "Clamp mounting conflict awareness with other desk accessories", description: "Noted that clamp-mounted power strips compete for the same desk-edge space as monitor arms and keyboard trays, a real installation consideration for buyers with existing clamped accessories." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -241,11 +241,11 @@ export const faq: FaqItem[] = [
   { q: "Does a clamp-on power strip damage the desk?", a: "The clamp torque needed for secure mounting can mark or dent softer desk surfaces like laminate or painted wood, check reviews for damage reports on your specific desk material." },
   { q: "How much USB charging wattage do I need from a clamp-on strip?", a: "It depends on how many devices you charge simultaneously. For multiple laptops or tablets, look for combined wattage of 40W or more, like the top two picks in this guide." },
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers who want to verify exact desk-edge compatibility before ordering" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want a simple, affordable, well-proven desk power strip At $12.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want a simple, affordable, well-proven desk power strip At under $15, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-power-strips-for-desks", title: "Best Power Strips for Desks (2026)" },
   { href: "/guide/best-desk-mounted-power-strips", title: "Best Desk-Mounted Power Strips (2026)" },
-  { href: "/guide/best-under-desk-power-strips", title: "Best Under-Desk Power Strips (2026)" },
+  { href: "/guide/best-under-desk-power-strips", title: "Best Under-Desk Power Strips (2026)" }
 ];

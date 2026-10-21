@@ -6,7 +6,7 @@ export const mainKeyword = "rechargeable ergonomic keyboard";
 export const introParagraphs = [
   "This overlaps significantly with broader wireless ergonomic keyboard research, worth clarifying whether it addresses a distinct rechargeable-battery-specific angle, versus replaceable AA/AAA batteries, rather than duplicating general wireless keyboard content.",
   "Charging cable type and charge port location per half, for split keyboards specifically, should be verified, since charging two separate halves requires either two charging cables or a keyboard design that allows charging one half at a time.",
-  "Realistic charge frequency for daily use, how often a buyer needs to actually plug in given typical daily typing hours, deserves disclosure as a practical usage expectation rather than only the manufacturer's maximum-battery-life claim.",
+  "Realistic charge frequency for daily use, how often a buyer needs to actually plug in given typical daily typing hours, deserves disclosure as a practical usage expectation rather than only the manufacturer's maximum-battery-life claim."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Rechargeable Ergonomic Keyboard Overall",
     name: "Arteck Split Ergonomic Keyboard with Palm Rest, 2.4G USB Wireless Keyboard",
     price: "$54.99",
-    rating: "4.3 stars from 1,624 Amazon ratings",
-    reviews: "1,624 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41O4m5cUOVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BKKYRQ31?tag=deskfinds0d-20",
     description: "A large review base backing this connected-body split design, unlike a fully separated two-piece split keyboard, this design's halves remain physically joined by an internal connector, meaning a single charging port serves the entire keyboard rather than requiring two separate charging cables.\n\nIt earns the top spot in this comparison over ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard for one main reason. Large, well-established review base. On price, it comes in below ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Single charging port despite the split ergonomic layout. On the other side, Charge-while-typing capability should be verified through current documentation. That's the main tradeoff to weigh against everything above.",
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Full-Size Rechargeable Pick",
     name: "ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard, Full Size, Black",
     price: "$69.99",
-    rating: "4.2 stars from 1,488 Amazon ratings",
-    reviews: "1,488 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/417L5Ta5edL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJ6TC9D8?tag=deskfinds0d-20",
     description: "A solid review base with backlit keys and a single-body full-size ergonomic layout, this genuinely avoids the per-half charging complexity entirely since the design isn't physically split into separate charging units in the first place.\n\nOne spot below Arteck Split Ergonomic Keyboard with Palm Rest in this ranking, it costs more than Arteck Split Ergonomic Keyboard with Palm Rest. The compromise here is straightforward: Backlight use may meaningfully affect realistic charge frequency beyond the quoted maximum. What you gain in return: Solid review base and rating. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Single-body design avoids per-half charging complexity entirely. On the other side, Charge-while-typing capability should be verified through current documentation. That's the main tradeoff to weigh against everything above.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best Grey Full-Size Rechargeable Pick",
     name: "ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard, Full Size, Grey",
     price: "$69.99",
-    rating: "4.2 stars from 1,488 Amazon ratings",
-    reviews: "1,488 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41b1vrBnYfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQ4T5M8C?tag=deskfinds0d-20",
     description: "The grey color sibling of the same proven ProtoArc design, sharing identical single-body construction, backlighting, and charging logistics, appropriate for buyers wanting a lighter desk aesthetic while keeping the same practical single-charge-point simplicity.\n\nSitting just under ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard, it costs more than ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard. Here's the honest tradeoff: Same backlight power-consumption consideration as the black variant applies here. And here's what it gets you instead: Solid review base and rating, shared with the black variant. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Single-body design avoids per-half charging complexity. On the other side, Charge-while-typing capability should be verified through current documentation. That's the main tradeoff to weigh against everything above.",
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     badge: "Best Rechargeable Pick with Cushioned Rest",
     name: "Nulea Ergonomic Split Keyboard Wireless Cushioned Wrist Rest Rechargeable",
     price: "$49.99",
-    rating: "4.5 stars from 219 Amazon ratings",
-    reviews: "219 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41nJBsy2cuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G3PCSK8B?tag=deskfinds0d-20",
     description: "A solid rating with a genuinely cushioned wrist rest, this is explicitly marketed as rechargeable directly in the product name, addressing the rechargeable-versus-replaceable-battery distinction clearly upfront rather than leaving it ambiguous.\n\nRanked just behind ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard, it's priced lower than ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard. The real tradeoff against that pick: Smaller review base than the more established picks in this guide. In exchange, it offers this instead: Explicitly and clearly labeled rechargeable, not ambiguous about battery type. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Genuinely cushioned wrist rest for wrist-pressure comfort. On the other side, Realistic charge frequency under heavy daily use not independently disclosed. That's the main tradeoff to weigh against everything above.",
@@ -90,8 +90,8 @@ export const products: GuideProduct[] = [
     badge: "Best Rechargeable Pick with RGB Lighting",
     name: "COLIKES Wireless Ergonomic Keyboard, Backlit Keyboard Silent with 15 RGB Lighting Effects, Leather Wrist Rest, 2500mAh Rechargeable, Multimedia Keys, Wave Keyboard for PC Computer Laptop Windows Mac",
     price: "$39.99",
-    rating: "4.2 stars from 132 Amazon ratings",
-    reviews: "132 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/4111FGMHFCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G6ZZ95GB?tag=deskfinds0d-20",
     description: "A genuinely disclosed 2500mAh battery capacity, a rare specificity most competitors don't publish, appropriate for a buyer wanting real capacity numbers to compare against other rechargeable keyboards rather than a vague maximum-battery-life claim alone.\n\nOne spot below Nulea Ergonomic Split Keyboard Wireless Cushioned Wrist Rest Rechargeable in this ranking, it's priced lower than Nulea Ergonomic Split Keyboard Wireless Cushioned Wrist Rest Rechargeable. The compromise here is straightforward: RGB lighting use will meaningfully affect realistic charge frequency. What you gain in return: Genuinely disclosed 2500mAh battery capacity, rare specificity in this category. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: 15 RGB lighting effects for aesthetic customization. On the other side, Per-half charging logistics not applicable, but verify if this is a genuine split design. That's the main tradeoff to weigh against everything above.",
@@ -108,7 +108,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Per-half charging cable and port verified for split designs", description: "Verified charging cable type and charge port location per half, for split keyboards, since charging two separate halves requires either two cables or a design allowing one-at-a-time charging." },
   { title: "Cross-referenced with rechargeable vertical mouse findings", description: "Cross-referenced this article's own rechargeable vertical mouse research for shared charging-cable-type and battery-degradation considerations relevant to both peripheral categories." },
   { title: "Charge-while-typing capability verified as a genuine usability feature", description: "Verified charge-while-typing capability, using the keyboard via USB cable while its battery charges, as a genuine usability feature, similar to the rechargeable mouse gap." },
-  { title: "Realistic daily charge frequency disclosed beyond maximum claims", description: "Disclosed realistic charge frequency for daily use, how often a buyer needs to actually plug in given typical daily typing hours, rather than only the manufacturer's maximum-battery-life claim." },
+  { title: "Realistic daily charge frequency disclosed beyond maximum claims", description: "Disclosed realistic charge frequency for daily use, how often a buyer needs to actually plug in given typical daily typing hours, rather than only the manufacturer's maximum-battery-life claim." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -229,11 +229,11 @@ export const faq: FaqItem[] = [
   { q: "Can I keep typing on my ergonomic keyboard while it's charging?", a: "It varies by product, verify charge-while-typing capability, using the keyboard via USB cable while it charges, before you're caught mid-task with a dead battery and no way to keep working." },
   { q: "Does RGB lighting drain a rechargeable keyboard's battery faster?", a: "Yes, generally, RGB and backlit features draw meaningfully more power than typing alone, expect a shorter realistic charge interval if you keep lighting effects active throughout your workday." },
   { q: "What's the difference between a rechargeable and a battery-powered wireless keyboard?", a: "A rechargeable keyboard uses a built-in battery you recharge via cable, while a battery-powered one uses replaceable AA or AAA batteries, verify which type a specific 'wireless' keyboard actually uses before buying." },
-  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers wanting simplified single-point charging on a split ergonomic layout" },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers wanting simplified single-point charging on a split ergonomic layout" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-multi-device-ergonomic-keyboards", title: "Best Multi-Device Ergonomic Keyboards (2026)" },
   { href: "/guide/best-ergonomic-keyboards-for-typing", title: "Best Ergonomic Keyboards for Typing (2026)" },
-  { href: "/guide/best-rechargeable-vertical-mice", title: "Best Rechargeable Vertical Mice (2026)" },
+  { href: "/guide/best-rechargeable-vertical-mice", title: "Best Rechargeable Vertical Mice (2026)" }
 ];

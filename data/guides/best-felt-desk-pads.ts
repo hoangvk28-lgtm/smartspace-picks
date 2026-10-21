@@ -134,7 +134,7 @@ export const howWeEvaluated = [
   },
   {
     "title": "Cost Difference Between Cloth, Leather, and Premium Materials",
-    "description": "Budget expectations vary meaningfully by material: cloth desk pads generally cost $15 to $30, leather starts around $30 to $60 and climbs from there for larger or premium versions."
+    "description": "Budget expectations vary meaningfully by material: cloth desk pads generally cost under $35, leather starts around $30 to $60 and climbs from there for larger or premium versions."
   }
 ];
 
@@ -273,7 +273,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Cost Difference Between Cloth, Leather, and Premium Materials",
-    "explanation": "Budget expectations vary meaningfully by material: cloth desk pads generally cost $15 to $30, leather starts around $30 to $60 and climbs from there for larger or premium versions. The extra cost of leather buys durability and a more polished appearance rather than better mouse tracking, so a cloth pad is the more practical choice if appearance isn't the priority."
+    "explanation": "Budget expectations vary meaningfully by material: cloth desk pads generally cost under $35, leather starts around $30 to $60 and climbs from there for larger or premium versions. The extra cost of leather buys durability and a more polished appearance rather than better mouse tracking, so a cloth pad is the more practical choice if appearance isn't the priority."
   }
 ];
 

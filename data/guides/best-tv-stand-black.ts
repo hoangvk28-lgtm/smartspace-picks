@@ -12,7 +12,7 @@ export const heroImage = "https://m.media-amazon.com/images/I/51L8gLgCUUL._SL500
 export const mainKeyword = "tv stand black";
 export const introParagraphs = [
   "Black is the most versatile TV stand color on the market. It pairs with almost any wall color, flooring, or sofa fabric, and it visually anchors a TV setup better than lighter wood tones that can look busy against a patterned rug or textured wall.",
-  "The finish matters more than the color itself. A high-gloss black surface photographs well online but shows dust, fingerprints, and pet hair within days of daily use, while a matte or textured black finish hides the same marks and needs far less upkeep. Buyers furnishing a small living room or bedroom should also weigh how a solid black stand affects the room visually, since a large dark block of furniture can make a compact space feel smaller than the same stand in a lighter finish.",
+  "The finish matters more than the color itself. A high-gloss black surface photographs well online but shows dust, fingerprints, and pet hair within days of daily use, while a matte or textured black finish hides the same marks and needs far less upkeep. Buyers furnishing a small living room or bedroom should also weigh how a solid black stand affects the room visually, since a large dark block of furniture can make a compact space feel smaller than the same stand in a lighter finish."
 ];
 
 export interface GuideProduct {
@@ -49,8 +49,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall",
     name: "WLIVE 58\" Mid Century Modern TV Stand",
     price: "$89.99",
-    rating: "4.3 stars",
-    reviews: "783 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51L8gLgCUUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CF5DW6FW?tag=deskfinds0d-20",
     description: "The WLIVE 58 inch stand takes a mid-century design approach with two lockable enclosed cabinets and one open compartment, giving buyers a place to hide a cable box or router while keeping a streaming stick or soundbar accessible. Adjustable metal legs let the stand sit level on uneven flooring, and the frame fits TVs up to 65 inches.\n\nAt 110 lbs of weight capacity it handles a TV plus a soundbar without strain. The black finish is matte rather than glossy, which keeps fingerprints and dust less visible than the LED-lit options in this roundup. This is a solid fit for a living room that wants a clean black stand without the gamer-console look.\n\nWorth calling out specifically: lockable cabinets for cable box or valuables. The catch is no LED lighting or built-in outlets.",
@@ -65,8 +65,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick",
     name: "VASAGLE Modern TV Stand 3-Tier (Black & Wood Grain)",
     price: "$69.99",
-    rating: "4.6 stars",
-    reviews: "540 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51dN49EFKvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYJW5GBR?tag=deskfinds0d-20",
     description: "The VASAGLE 3-tier stand pairs a black steel frame with wood-grain shelf panels, which softens the all-black look while keeping the industrial frame's durability. Three fully open tiers provide airflow around a cable box, gaming console, or receiver, so overheating is less of a concern than with enclosed cabinet designs. It is the least expensive stand in this roundup and still carries a 132 lb capacity, the highest listed weight rating here. Assembly is straightforward with a steel frame that bolts together quickly. The open-shelf design does mean cables and devices stay visible, so buyers who want a fully hidden look should consider a cabinet-style stand instead. 132 lb capacity, highest here. Set against that, no enclosed storage for cable clutter. Both matter when comparing it to the other picks here.",
@@ -81,14 +81,14 @@ export const products: GuideProduct[] = [
     badge: "Best for Gaming Setups",
     name: "WLIVE 63\" LED TV Stand (Drawers + Glass Shelves)",
     price: "$109.99",
-    rating: "4.1 stars",
-    reviews: "2,141 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41hUl8IWz+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B083ZQG5KG?tag=deskfinds0d-20",
-    description: "The WLIVE 63 inch LED stand fits TVs up to 75 inches and combines 20-color LED lighting with 7 tempered glass shelves, giving it a layered display look suited to gaming consoles, speakers, and collectibles. Two deep drawers are sized to hold vinyl records or larger media cases, which is uncommon at this price.\n\nThe glossy glass shelving looks striking when the LED is on but will show fingerprints and dust more readily than a matte cabinet finish, so a microfiber wipe becomes a regular habit rather than an occasional one. With 2,141 ratings this is the most reviewed product in this roundup, giving buyers a large sample of real-world feedback to weigh against the 4.1 star average.\n\nA genuine advantage here is that deep drawers fit vinyl records. The tradeoff is glass shelves show fingerprints and dust readily.",
+    description: "The WLIVE 63 inch LED stand fits TVs up to 75 inches and combines 20-color LED lighting with 7 tempered glass shelves, giving it a layered display look suited to gaming consoles, speakers, and collectibles. Two deep drawers are sized to hold vinyl records or larger media cases, which is uncommon at this price.\n\nThe glossy glass shelving looks striking when the LED is on but will show fingerprints and dust more readily than a matte cabinet finish, so a microfiber wipe becomes a regular habit rather than an occasional one.\n\nA genuine advantage here is that deep drawers fit vinyl records. The tradeoff is glass shelves show fingerprints and dust readily.",
     specs: ["63\" width", "Fits TV up to 75\"", "20-color LED", "7 tempered glass shelves", "2 deep drawers (record-sized)", "110 lb capacity"],
     pros: ["20-color LED for gaming and ambiance", "Deep drawers fit vinyl records", "7 glass shelves for display", "Fits large TVs up to 75\""],
-    cons: ["Glass shelves show fingerprints and dust readily", "4.1 stars, lowest rating in this roundup", "Glossy surfaces need frequent wiping"],
+    cons: ["Glass shelves show fingerprints and dust readily", "Glossy surfaces need frequent wiping"],
     bestFor: "Gamers and media collectors who want LED ambiance and open display shelving for consoles and speakers.",
   },
   {
@@ -97,13 +97,13 @@ export const products: GuideProduct[] = [
     badge: "Best Value with LED",
     name: "SONGMICS BELLAH TV Stand (70\", LED + Outlets)",
     price: "$64.99",
-    rating: "4.3 stars",
-    reviews: "611 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51QsasQEjqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GV375RCD?tag=deskfinds0d-20",
     description: "The SONGMICS BELLAH stand fits TVs up to 70 inches and includes app-controlled LED lighting with 60,000 color options, which is a wider range than most competitors offer at this price. Built-in power delivery covers 2 AC outlets plus USB and USB-C ports, so a router, streaming stick, and phone charger can all plug in without an extension cord running across the floor. At a competitive price, this is the second least expensive stand here and includes one drawer plus a tempered glass shelf for a modern, uncluttered profile. The modern design keeps the black finish mostly matte on the body panels, with only the glass shelf catching fingerprints, which is a reasonable middle ground between the fully glossy and fully matte options in this roundup. App-controlled 60,000-color LED. On the other hand, only 1 drawer for enclosed storage. Neither should be a surprise once you know to look for it.",
     specs: ["Fits TV up to 70\"", "App-controlled 60,000-color LED", "2 AC + USB + USB-C outlets", "1 drawer + tempered glass shelf", "Modern black design"],
-    pros: ["Built-in AC, USB, and USB-C outlets", "App-controlled 60,000-color LED", "Low $64.99 price", "Mostly matte body panels"],
+    pros: ["Built-in AC, USB, and USB-C outlets", "App-controlled 60,000-color LED", "Low under $70 price", "Mostly matte body panels"],
     cons: ["Only 1 drawer for enclosed storage", "Glass shelf still shows fingerprints", "App control adds a setup step"],
     bestFor: "Buyers who want built-in charging ports and customizable LED without paying a premium price.",
   },
@@ -113,14 +113,14 @@ export const products: GuideProduct[] = [
     badge: "Best Storage Capacity",
     name: "VASAGLE TV Stand with LED Lights (63\", Glass Shelves)",
     price: "$180.99",
-    rating: "4.4 stars",
-    reviews: "213 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41rQUIZt5CL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BTD15BZN?tag=deskfinds0d-20",
     description: "The VASAGLE 63 inch LED stand carries a 200 lb total weight capacity, the highest in this roundup, split across a 3-tier adjustable tempered glass shelving section and two fully enclosed cabinets with doors. The doors give this stand more hidden storage than any other pick here, which matters for living rooms that need to tuck away game consoles, remotes, and cable boxes out of sight.",
     specs: ["63\" width", "Fits TV up to 70\"", "6-color LED", "3-tier adjustable glass shelving", "2 enclosed cabinets with doors", "200 lb total capacity"],
-    pros: ["200 lb capacity, highest in roundup", "2 enclosed cabinets with doors", "Adjustable glass shelf heights", "Sturdy build at 4.4 stars"],
-    cons: ["$180.99 is the most expensive pick here", "Only 6-color LED, fewer options than SONGMICS or Furologee", "Glass shelves need regular dusting"],
+    pros: ["200 lb capacity, highest in roundup", "2 enclosed cabinets with doors", "Adjustable glass shelf heights"],
+    cons: ["under $190 is the most expensive pick here", "Only 6-color LED, fewer options than SONGMICS or Furologee", "Glass shelves need regular dusting"],
     bestFor: "Buyers who want maximum hidden storage and weight capacity and are willing to pay more for it.",
   },
   {
@@ -129,14 +129,14 @@ export const products: GuideProduct[] = [
     badge: "Best for Hidden Storage",
     name: "Furologee 63\" LED TV Stand (6 Drawers + Power Outlets)",
     price: "$80.99",
-    rating: "4.6 stars",
-    reviews: "183 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51etHqXwqpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FN3QRCH7?tag=deskfinds0d-20",
-    description: "The Furologee stand packs six PU-leather-fronted drawers into a 63 inch frame, more enclosed storage than any other pick in this roundup outside the VASAGLE cabinet model. The leather drawer fronts add a soft-touch texture that breaks up the black finish and reduces the fingerprint visibility that plain glossy panels show. Built-in power delivery includes 3 AC outlets and 2 USB ports alongside 60,000-color LED lighting, and four ventilated open shelves above the drawers keep a console or receiver from overheating. At a competitive price with a 4.6 star average across 183 ratings, this is one of the better-reviewed picks here for buyers who prioritize drawer storage over open display shelving. Leather drawer fronts hide fingerprints better than glossy panels. That's a real strength, but weigh it against the flip side: six drawers means more assembly steps.",
+    description: "The Furologee stand packs six PU-leather-fronted drawers into a 63 inch frame, more enclosed storage than any other pick in this roundup outside the VASAGLE cabinet model. The leather drawer fronts add a soft-touch texture that breaks up the black finish and reduces the fingerprint visibility that plain glossy panels show. Built-in power delivery includes 3 AC outlets and 2 USB ports alongside 60,000-color LED lighting, and four ventilated open shelves above the drawers keep a console or receiver from overheating. Leather drawer fronts hide fingerprints better than glossy panels. That's a real strength, but weigh it against the flip side: six drawers means more assembly steps.",
     specs: ["63\" width", "Fits TV up to 70\"", "6 PU-leather drawers", "60,000-color LED", "3 AC + 2 USB outlets", "4 ventilated open shelves"],
-    pros: ["6 drawers, most enclosed storage in roundup after VASAGLE cabinets", "Leather drawer fronts hide fingerprints better than glossy panels", "3 AC + 2 USB built-in outlets", "4.6 stars, tied for highest rating"],
-    cons: ["Six drawers means more assembly steps", "183 ratings is a smaller sample size", "Ventilated shelves leave some cables visible"],
+    pros: ["6 drawers, most enclosed storage in roundup after VASAGLE cabinets", "Leather drawer fronts hide fingerprints better than glossy panels", "3 AC + 2 USB built-in outlets"],
+    cons: ["Six drawers means more assembly steps", "Ventilated shelves leave some cables visible"],
     bestFor: "Buyers who want maximum drawer storage for remotes, games, and cables in a single stand.",
   },
   {
@@ -145,14 +145,14 @@ export const products: GuideProduct[] = [
     badge: "Best Weight Capacity Value",
     name: "YITAHOME 63\" TV Stand (LED + 4 Power Outlets)",
     price: "$113.39",
-    rating: "4.7 stars",
-    reviews: "67 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51VhV4GueVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FBG7HMM7?tag=deskfinds0d-20",
-    description: "The YITAHOME stand pairs a metal frame with a 2.3 inch thick wood top, giving it a sturdier feel than the thinner particleboard tops common on similarly priced stands. That combination supports a 360 lb capacity, the highest listed in this roundup, well beyond what most single TVs and accessories require.\n\nFour built-in AC outlets plus 2 USB ports cover a full home theater setup without extension cords, and 16-color RGB lighting adds ambiance without the complexity of app-based controls on some competitors. At 4.7 stars this has the highest rating of any pick here, though with only 67 ratings the sample size is the smallest in this roundup, so treat the rating as directionally strong rather than statistically definitive.\n\nWorth calling out specifically: 4.7 stars, highest rating here. The catch is only 67 ratings, smallest sample size here.",
+    description: "The YITAHOME stand pairs a metal frame with a 2.3 inch thick wood top, giving it a sturdier feel than the thinner particleboard tops common on similarly priced stands. That combination supports a 360 lb capacity, the highest listed in this roundup, well beyond what most single TVs and accessories require.\n\nFour built-in AC outlets plus 2 USB ports cover a full home theater setup without extension cords, and 16-color RGB lighting adds ambiance without the complexity of app-based controls on some competitors.",
     specs: ["63\" width", "Fits TV up to 70\"", "16-color RGB LED", "4 AC + 2 USB outlets", "360 lb capacity", "Metal frame + 2.3\" wood top"],
-    pros: ["360 lb capacity, highest in roundup", "4.7 stars, highest rating here", "4 AC + 2 USB built-in outlets", "Thick wood top feels sturdier than thin particleboard"],
-    cons: ["Only 67 ratings, smallest sample size here", "$113.39 is on the pricier side", "RGB is simple 16-color, not app controlled"],
+    pros: ["360 lb capacity, highest in roundup", "4 AC + 2 USB built-in outlets", "Thick wood top feels sturdier than thin particleboard"],
+    cons: [ "under $120 is on the pricier side", "RGB is simple 16-color, not app controlled"],
     bestFor: "Buyers who want maximum weight capacity and outlet count for a fully loaded entertainment setup.",
   },
   {
@@ -161,8 +161,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Gloss Look",
     name: "HOMMPA Modern LED TV Stand (64\", High Gloss)",
     price: "$109.99",
-    rating: "4.5 stars",
-    reviews: "154 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Vt3Qx3nFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLRQB7BX?tag=deskfinds0d-20",
     description: "The HOMMPA stand uses a premium high-gloss finish that gives it a showroom look photos capture well, paired with 6 million color LED lighting and 7 storage compartments spread across drawers and open cubbies. It fits TVs up to 75 inches and carries a 300 lb capacity, making it a strong option for larger televisions with soundbars mounted below.\n\nThe tradeoff with any high-gloss black surface is maintenance. Fingerprints, dust, and pet hair show up far more visibly on gloss than on the matte finishes used by the WLIVE mid-century pick or VASAGLE 3-tier stand, so buyers should plan on wiping the surface down more often to keep the showroom look intact.\n\n300 lb capacity supports large TVs. Set against that, high-gloss surface shows fingerprints and dust quickly. Both matter when comparing it to the other picks here.",
@@ -170,7 +170,7 @@ export const products: GuideProduct[] = [
     pros: ["High-gloss finish looks premium", "300 lb capacity supports large TVs", "7 storage compartments", "Fits TVs up to 75\""],
     cons: ["High-gloss surface shows fingerprints and dust quickly", "Needs frequent wiping to keep its showroom look", "Glossy surface can show minor scratches over time"],
     bestFor: "Buyers who want a premium showroom look and are willing to wipe the surface down regularly.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -220,9 +220,9 @@ export const faq: FaqItem[] = [
   {
     q: "Should I choose open shelves or enclosed cabinets for a TV stand?",
     a: "It depends on your equipment and how much you want visible. Open shelves keep cable boxes, routers, and consoles ventilated, which matters for devices that run warm continuously. Enclosed cabinets and drawers hide clutter and cables from view but can trap heat if the compartment isn't vented. If your setup includes an always-on modem or router, favor a stand with at least some open or ventilated shelving.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
-  { href: "/guide/best-tv-stand-white", title: "Best White TV Stands (2026)" },
+  { href: "/guide/best-tv-stand-white", title: "Best White TV Stands (2026)" }
 ];

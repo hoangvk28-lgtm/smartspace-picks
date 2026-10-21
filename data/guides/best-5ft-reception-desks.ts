@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $159.99",
+          "Under $160",
           "55\" L-Shaped Reception Desk with LED Lights & Power Outlets"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "55-Inch L-Shaped Reception Desk with LED"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "WOODTIME 55-Inch Reception Desk with Door and Shelves"
         ],
         [
-          "Around $249.99",
+          "Under $250",
           "AHB Reception Desk with Counter and LED Light Strips"
         ],
         [
-          "Around $261.90",
+          "Under $300",
           "VEVOR Reception Desk"
         ],
         [
-          "Around $620.88",
+          "Under $650",
           "LSZMXI Reception Desk with Counter"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "55\" L-Shaped Reception Desk with LED Lights & Power Outlets is aimed at buyers prioritizing 55.1\"w x 19.7\"d l-shaped desk, 44.7\"h." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "55\" L-Shaped Reception Desk with LED Lights & Power Outlets is aimed at buyers prioritizing 55.1\"w x 19.7\"d l-shaped desk, 44.7\"h." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-60-inch-reception-desks","title":"5 Best 60-Inch Reception Desks in 2026"},{"href":"/guide/best-6ft-reception-desks","title":"6 Best 6ft Reception Desks in 2026"},{"href":"/guide/best-50-inch-reception-desks","title":"5 Best 50-Inch Reception Desks in 2026"}];

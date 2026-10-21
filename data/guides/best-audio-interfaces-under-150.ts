@@ -237,7 +237,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Define the entry-brand crossover capability floor",
-    "explanation": "Define the entry-brand crossover capability floor: This remains below current Scarlett Solo $169.99 new retail, so exact new-vs-refurb status must be policed. This matters directly when comparing the picks in this guide, since two products near the same price point often differ meaningfully on this exact point once you look past the headline spec. Check the specific listing for this detail rather than assuming parity across similarly priced options, and weigh it against your actual use case before deciding between two close picks in this price tier."
+    "explanation": "Define the entry-brand crossover capability floor: This remains below current Scarlett Solo under $170 new retail, so exact new-vs-refurb status must be policed. This matters directly when comparing the picks in this guide, since two products near the same price point often differ meaningfully on this exact point once you look past the headline spec. Check the specific listing for this detail rather than assuming parity across similarly priced options, and weigh it against your actual use case before deciding between two close picks in this price tier."
   },
   {
     "criterion": "Make simultaneous analog I/O + preamp gain/EIN the primary",

@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Highest documented ESD protection", "StarTech 2-Port PoE+ Injector"],
         ["Best value Gigabit performance", "iCreatin 2-Port Gigabit PoE+ Injector"],
         ["DC cabinet power source", "Centopto Hardened Gigabit 2-Port PoE+ Injector"],
-        ["Lowest price for basic devices", "PLUSPOE 48 Volt PoE Injector"],
+        ["Lowest price for basic devices", "PLUSPOE 48 Volt PoE Injector"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $20", "PLUSPOE 48 Volt PoE Injector ($19.99)"],
-        ["Under $26", "iCreatin 2-Port Gigabit PoE+ Injector ($25.99)"],
-        ["Under $67", "StarTech 2-Port PoE+ Injector ($66.99)"],
-        ["Under $145", "Centopto Hardened Gigabit 2-Port PoE+ Injector ($145.00)"],
+        ["Under $20", "PLUSPOE 48 Volt PoE Injector (under $20)"],
+        ["Under $26", "iCreatin 2-Port Gigabit PoE+ Injector (under $30)"],
+        ["Under $67", "StarTech 2-Port PoE+ Injector (under $70)"],
+        ["Under $145", "Centopto Hardened Gigabit 2-Port PoE+ Injector (under $150)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Enterprise-Grade vs Standard Value 2-Port Injectors",
     cards: [
       { label: "Enterprise-grade (StarTech)", text: "Justified for business installations powering enterprise-grade Wi-Fi 6/6E/7 access points where documented ESD protection and jumbo frame support have real value." },
-      { label: "Standard value (iCreatin)", text: "Delivers comparable core Gigabit PoE+ performance for two standard devices at a fraction of the enterprise-grade price." },
+      { label: "Standard value (iCreatin)", text: "Delivers comparable core Gigabit PoE+ performance for two standard devices at a fraction of the enterprise-grade price." }
     ],
     note: "Most home and small business buyers should default to the standard value pick unless a specific enterprise access point or documented protection requirement justifies the premium.",
   },
@@ -130,7 +130,7 @@ export const howToChoose = [
       headers: ["Your available power", "Recommended pick"],
       rows: [
         ["Standard AC outlet", "StarTech, iCreatin, or PLUSPOE picks"],
-        ["Existing 12V or 24V DC cabinet supply", "Centopto Hardened Gigabit 2-Port PoE+ Injector"],
+        ["Existing 12V or 24V DC cabinet supply", "Centopto Hardened Gigabit 2-Port PoE+ Injector"]
       ],
     },
   },
@@ -138,16 +138,16 @@ export const howToChoose = [
     subheading: "For Two Devices Installed Near Each Other Specifically",
     cards: [
       { label: "Look for", text: "A design specifically built for two-device power delivery from one compact unit, rather than buying two separate single-port injectors that take up more installation space and cost more combined." },
-      { label: "In this comparison", text: "All four picks are purpose-built 2-port units, letting you power two nearby devices from one unit rather than two separate single-port injectors." },
+      { label: "In this comparison", text: "All four picks are purpose-built 2-port units, letting you power two nearby devices from one unit rather than two separate single-port injectors." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You're powering enterprise Wi-Fi access points and want documented ESD protection, or need DC cabinet power for an industrial installation, where the StarTech or Centopto picks justify their price." },
-      { label: "Save if", text: "You have two basic devices needing standard PoE power, where the iCreatin or PLUSPOE picks deliver reliable performance at a fraction of the cost." },
+      { label: "Save if", text: "You have two basic devices needing standard PoE power, where the iCreatin or PLUSPOE picks deliver reliable performance at a fraction of the cost." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "Honeywell small safes";
 export const introParagraphs = [
   "Honeywell's current small-safe lineup spans basic security boxes, fire-resistant chests, and fire-and-water dual-rated models, so we mapped this list by protection category rather than ranking every Honeywell listing on one scale. Three picks in our confirmed data had no product image or price available at research time; we're disclosing that directly rather than guessing.",
-  "One listing (B0GV4YY7BG) actually names four distinct Honeywell models together rather than one product, we're flagging that mismatch honestly since it isn't a single purchasable item the way the other seven are.",
+  "One listing (B0GV4YY7BG) actually names four distinct Honeywell models together rather than one product, we're flagging that mismatch honestly since it isn't a single purchasable item the way the other seven are."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -81,7 +81,7 @@ export const products: GuideProduct[] = [
     description: "Honeywell Safes & Door Locks LHLP1103G 30 Minute Fire Safe Waterproof Safe Box Chest with and is built around durable & portable, positioning it for honeywell small buyers specifically.\n\nTOP-NOTCH FIRE SAFETY is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for honeywell small, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["DURABLE & PORTABLE","TOP-NOTCH FIRE SAFETY","ULTIMATE WATERPROOF SEAL"],
     pros: ["DURABLE & PORTABLE, confirmed directly in the listing's own spec details","TOP-NOTCH FIRE SAFETY, confirmed directly in the listing's own spec details","ULTIMATE WATERPROOF SEAL, confirmed directly in the listing's own spec details"],
-    cons: ["At $96.59, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $100, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for honeywell small",
   },
   {
@@ -97,7 +97,7 @@ export const products: GuideProduct[] = [
     description: "Honeywell Safes & Door Locks - Small Safe Box for Home - Fire Resistant Documents Lock Box and is built around maximum security with honeywell, positioning it for honeywell small buyers specifically.\n\nReliable Fire Protection is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for honeywell small, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Maximum Security with Honeywell","Reliable Fire Protection","Portable and Spacious"],
     pros: ["Maximum Security with Honeywell, confirmed directly in the listing's own spec details","Reliable Fire Protection, confirmed directly in the listing's own spec details","Portable and Spacious, confirmed directly in the listing's own spec details"],
-    cons: ["At $31.43, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $35, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for honeywell small",
   },
   {
@@ -113,7 +113,7 @@ export const products: GuideProduct[] = [
     description: "Honeywell Safes & Door Locks LHLP1103G 30 Minute Fire Safe Waterproof Safe Box Chest with and is built around durable & portable, positioning it for honeywell small buyers specifically.\n\nTOP-NOTCH FIRE SAFETY is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for honeywell small, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["DURABLE & PORTABLE","TOP-NOTCH FIRE SAFETY","ULTIMATE WATERPROOF SEAL"],
     pros: ["DURABLE & PORTABLE, confirmed directly in the listing's own spec details","TOP-NOTCH FIRE SAFETY, confirmed directly in the listing's own spec details","ULTIMATE WATERPROOF SEAL, confirmed directly in the listing's own spec details"],
-    cons: ["At $96.59, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $100, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for honeywell small",
   },
   {
@@ -129,7 +129,7 @@ export const products: GuideProduct[] = [
     description: "Honeywell Safes & Door Locks LHLP1103G 30 Minute Fire Safe Waterproof Safe Box Chest with and is built around durable & portable, positioning it for honeywell small buyers specifically.\n\nTOP-NOTCH FIRE SAFETY is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for honeywell small, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["DURABLE & PORTABLE","TOP-NOTCH FIRE SAFETY","ULTIMATE WATERPROOF SEAL"],
     pros: ["DURABLE & PORTABLE, confirmed directly in the listing's own spec details","TOP-NOTCH FIRE SAFETY, confirmed directly in the listing's own spec details","ULTIMATE WATERPROOF SEAL, confirmed directly in the listing's own spec details"],
-    cons: ["At $96.59, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $100, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for honeywell small",
   },
   {
@@ -145,9 +145,9 @@ export const products: GuideProduct[] = [
     description: "Honeywell Safes & Door Locks LHLP1103G 30 Minute Fire Safe Waterproof Safe Box Chest with and is built around durable & portable, positioning it for honeywell small buyers specifically.\n\nTOP-NOTCH FIRE SAFETY is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for honeywell small, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["DURABLE & PORTABLE","TOP-NOTCH FIRE SAFETY","ULTIMATE WATERPROOF SEAL"],
     pros: ["DURABLE & PORTABLE, confirmed directly in the listing's own spec details","TOP-NOTCH FIRE SAFETY, confirmed directly in the listing's own spec details","ULTIMATE WATERPROOF SEAL, confirmed directly in the listing's own spec details"],
-    cons: ["At $96.59, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $100, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for honeywell small",
-  },
+  }
 
 ];
 
@@ -156,7 +156,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Mapped by protection category rather than one undifferentiated ranking", description: "Honeywell's current small-safe lineup spans basic security, fire-resistant, and fire-and-water dual-rated models. We grouped picks by category rather than ranking a security box against a fire-and-water chest on one scale." },
   { title: "Disclosed missing image and price data directly rather than fabricating it", description: "Five of the eight listings here had no product image or confirmed price in our data pull. We flagged this explicitly rather than guessing at current availability or cost." },
   { title: "Flagged a listing that names multiple models rather than one product", description: "One ASIN in our research pool actually lists four distinct Honeywell model numbers together. We disclosed this rather than treating it as a single purchasable item like the other seven." },
-  { title: "Verified fire and water resistance as separate claims within the Honeywell lineup", description: "We checked each Honeywell listing individually for documented fire duration/temperature and separate water-resistance claims, rather than assuming brand consistency across every model." },
+  { title: "Verified fire and water resistance as separate claims within the Honeywell lineup", description: "We checked each Honeywell listing individually for documented fire duration/temperature and separate water-resistance claims, rather than assuming brand consistency across every model." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -279,7 +279,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review count and rating together, not rating alone",
-    "explanation": "A 4.8-star rating from 12 reviews carries far less evaluation confidence than a 4.5-star rating from several thousand, since a small sample can be skewed by a handful of early, enthusiastic buyers before any long-term reliability issues would show up in later reviews.\n\nThis matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
+    "explanation": "This matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
   }
 ];
 
@@ -288,11 +288,11 @@ export const faq: FaqItem[] = [
   { q: "Is there a Honeywell model built for anti-removal security specifically?", a: "Yes, the Honeywell Bolt Down Small Safe Box is the only confirmed model here with included bolt-down mounting hardware." },
   { q: "Does Honeywell have a Bluetooth or smart safe option?", a: "Yes, the 5403 model is Honeywell's Bluetooth smart security safe, though it appears bundled in a multi-model listing in our data, search for it by model number directly." },
   { q: "Why do some of these listings show no price or image?", a: "Five listings had no confirmed product image or price at research time in our data pull. We disclosed this directly rather than guessing, and recommend verifying current availability on the live Amazon listing." },
-  { q: "What's the largest fire-and-water rated Honeywell model here?", a: "The Digital Lock Waterproof Fire Safe at 0.74 cubic feet, rated for full submersion up to 8 hours." },
+  { q: "What's the largest fire-and-water rated Honeywell model here?", a: "The Digital Lock Waterproof Fire Safe at 0.74 cubic feet, rated for full submersion up to 8 hours." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-sentrysafe-small-safes", title: "Best SentrySafe Small Safes (2026)" },
   { href: "/guide/best-small-fireproof-and-waterproof-safes", title: "Best Small Fireproof and Waterproof Safes (2026)" },
-  { href: "/guide/best-small-safes-that-bolt-to-the-floor", title: "Best Small Safes That Bolt to the Floor (2026)" },
+  { href: "/guide/best-small-safes-that-bolt-to-the-floor", title: "Best Small Safes That Bolt to the Floor (2026)" }
 ];

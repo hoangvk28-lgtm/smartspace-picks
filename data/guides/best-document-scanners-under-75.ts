@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A proper flatbed scan for documents and photos", "Canon Canoscan Lide 300 Scanner"],
         ["The cheapest portable handheld option", "Hczrc Portable Handheld Scanner"],
         ["A wand that handles bound book pages", "AOZBZ Portable Handheld Document Scanner"],
-        ["The smallest possible footprint", "MUNBYN Portable Handheld Wand Scanner"],
+        ["The smallest possible footprint", "MUNBYN Portable Handheld Wand Scanner"]
       ],
     },
   },
@@ -117,8 +117,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $57", "Hczrc ($53.99), AOZBZ ($56.99), or MUNBYN ($56.89)"],
-        ["Under $70", "Canon Canoscan Lide 300 ($69.99)"],
+        ["Under $57", "Hczrc (under $60), AOZBZ (under $60), or MUNBYN (under $60)"],
+        ["Under $70", "Canon Canoscan Lide 300 (under $70)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Flatbed vs Handheld Wand",
     cards: [
       { label: "Flatbed (Canon Canoscan Lide 300)", text: "Lays the page flat under a lid for a consistent, evenly lit scan without any hand-steadying skill required, but it isn't portable." },
-      { label: "Handheld wand (Hczrc, AOZBZ, MUNBYN)", text: "Fits in a bag and runs on batteries, but scan quality depends on dragging it at a steady, even pace across the page." },
+      { label: "Handheld wand (Hczrc, AOZBZ, MUNBYN)", text: "Fits in a bag and runs on batteries, but scan quality depends on dragging it at a steady, even pace across the page." }
     ],
     note: "If you'll only ever scan at a desk, the flatbed's consistency wins. If you need to scan on the go or digitize a book, a wand is the only option here that can do it.",
   },
@@ -137,7 +137,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Archiving receipts or quick reference copies", "Any handheld pick at 300 DPI mode"],
         ["Documents you'll need to read clearly later", "Hczrc or AOZBZ at 900 DPI mode"],
-        ["General document and photo scanning at a desk", "Canon Canoscan Lide 300 Scanner"],
+        ["General document and photo scanning at a desk", "Canon Canoscan Lide 300 Scanner"]
       ],
     },
   },
@@ -145,16 +145,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Digitizing Old Family Photos Specifically",
     cards: [
       { label: "Look for", text: "A scan method that won't feed or fold a fragile, aging print through rollers." },
-      { label: "In this comparison", text: "The MUNBYN wand scanner is specifically noted by its maker as safe for old photos since nothing pulls the page through a feed mechanism." },
+      { label: "In this comparison", text: "The MUNBYN wand scanner is specifically noted by its maker as safe for old photos since nothing pulls the page through a feed mechanism." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a consistent, hands-off scan every time, where the Canon Canoscan Lide 300's flatbed design removes the hand-steadying variable entirely." },
-      { label: "Save if", text: "You mainly need occasional, portable scans and can handle a wand's manual technique, where the Hczrc pick delivers the lowest price in this comparison." },
+      { label: "Save if", text: "You mainly need occasional, portable scans and can handle a wand's manual technique, where the Hczrc pick delivers the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

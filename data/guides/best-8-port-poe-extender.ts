@@ -77,7 +77,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0CY55L6FT?tag=deskfinds0d-20",
     description: "This switch's listing specifically states a built-in AI watchdog that automatically detects offline devices and restarts the corresponding port, reducing on-site troubleshooting for 24/7 monitoring systems without requiring a technician visit. Its Extend Mode reaches up to 250m (820ft), specifically described as 2.5 times longer than ordinary switches.\n\nCompared to the TP-Link, outdoor, and STEAMEMO picks above, this one's lowest price in this comparison combined with a full 120W PoE budget and AI-driven automatic port recovery delivers genuine value for a straightforward camera deployment.\n\nBest for buyers who want automatic device recovery and long extend-mode range at the lowest price in this comparison.",
     specs: ["120W total PoE budget, 30W max per port", "AI watchdog auto-reboot for offline devices", "250m (820ft) Extend Mode, fanless metal housing"],
-    pros: ["Lowest price in this comparison at $26.98", "AI watchdog automatically restarts unresponsive device ports", "250m Extend Mode range without requiring manual troubleshooting"],
+    pros: ["Lowest price in this comparison at under $30", "AI watchdog automatically restarts unresponsive device ports", "250m Extend Mode range without requiring manual troubleshooting"],
     cons: ["Unmanaged design lacks the remote management of the STEAMEMO pick", "No outdoor waterproof rating unlike the dedicated outdoor pick"],
     bestFor: "buyers who want automatic device recovery and long extend-mode range at the lowest price",
   }
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Full Gigabit speed with an extend mode option", "TP-Link LS108GP 8 Port PoE Gigabit Switch"],
         ["Genuine IP65 outdoor durability with lightning protection", "Outdoor Waterproof 8-Port PoE Switch"],
         ["Remote management via web, app, or desktop software", "STEAMEMO 8 Port Managed PoE+ Switch"],
-        ["The lowest price with automatic device recovery", "SICSOLINK 8-Port PoE+ Switch"],
+        ["The lowest price with automatic device recovery", "SICSOLINK 8-Port PoE+ Switch"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $27", "SICSOLINK 8-Port PoE+ Switch ($26.98)"],
-        ["Under $33", "STEAMEMO 8 Port Managed Switch ($32.99)"],
-        ["Under $54", "Outdoor Waterproof 8-Port Switch ($53.99)"],
-        ["Under $58", "TP-Link LS108GP ($57.49)"],
+        ["Under $27", "SICSOLINK 8-Port PoE+ Switch (under $30)"],
+        ["Under $33", "STEAMEMO 8 Port Managed Switch (under $35)"],
+        ["Under $54", "Outdoor Waterproof 8-Port Switch (under $60)"],
+        ["Under $58", "TP-Link LS108GP (under $60)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Full Gigabit Speed vs Extended Range Mode",
     cards: [
       { label: "Full Gigabit speed (TP-Link)", text: "Maintains Gigabit ports when Extend Mode is off, better suited to devices needing full bandwidth within the standard 328ft range." },
-      { label: "Extended range with reduced speed (Outdoor pick, SICSOLINK)", text: "Both specifically trade speed down to 10Mbps or a lower ceiling when their extend mode is enabled, in exchange for reaching 250m or more." },
+      { label: "Extended range with reduced speed (Outdoor pick, SICSOLINK)", text: "Both specifically trade speed down to 10Mbps or a lower ceiling when their extend mode is enabled, in exchange for reaching 250m or more." }
     ],
     note: "If your cameras or devices sit within standard cable range and need full bandwidth, the TP-Link's Gigabit ports are the better fit. If you need to reach genuinely far-flung devices and can accept reduced speed for those specific ports, the extend-mode switches deliver that reach.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["A managed, growing network needing remote visibility", "STEAMEMO 8 Port Managed PoE+ Switch"],
         ["A simple plug-and-play outdoor camera system", "Outdoor Waterproof 8-Port PoE Switch"],
-        ["A straightforward indoor multi-camera setup on a budget", "SICSOLINK 8-Port PoE+ Switch"],
+        ["A straightforward indoor multi-camera setup on a budget", "SICSOLINK 8-Port PoE+ Switch"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For an Unattended 24/7 Surveillance System Specifically",
     cards: [
       { label: "Look for", text: "An automatic device recovery feature that detects and restarts an offline PoE port without requiring a technician to visit the site, reducing downtime and maintenance costs for unattended systems." },
-      { label: "In this comparison", text: "The SICSOLINK pick's AI watchdog and the TP-Link's PoE Auto Recovery both specifically address this need for unattended 24/7 monitoring deployments." },
+      { label: "In this comparison", text: "The SICSOLINK pick's AI watchdog and the TP-Link's PoE Auto Recovery both specifically address this need for unattended 24/7 monitoring deployments." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want full Gigabit speed alongside an extend mode option and automatic device recovery, where the TP-Link's $57.49 price is justified by that combination." },
-      { label: "Save if", text: "You want a straightforward 8-port switch with automatic recovery and long extend-mode range, where the SICSOLINK delivers that for $26.98, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You want full Gigabit speed alongside an extend mode option and automatic device recovery, where the TP-Link's under $60 price is justified by that combination." },
+      { label: "Save if", text: "You want a straightforward 8-port switch with automatic recovery and long extend-mode range, where the SICSOLINK delivers that for under $30, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

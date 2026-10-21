@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $65.99",
+          "Under $70",
           "ATGIH Portable Power Station 198.4Wh"
         ],
         [
-          "Around $69.98",
+          "Under $70",
           "Daran Portable Power Station 89.6Wh"
         ],
         [
-          "Around $73.52",
+          "Under $80",
           "Portable Power Station 192Wh"
         ],
         [
-          "Around $74.98",
+          "Under $80",
           "R101 Lite Portable Power Station"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Daran Portable Power Station 89.6Wh is aimed at buyers prioritizing 89.6wh, 100w (200w peak), 2.54 lbs." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Daran Portable Power Station 89.6Wh is aimed at buyers prioritizing 89.6wh, 100w (200w peak), 2.54 lbs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-1000w-portable-power-stations","title":"Best 1000W Portable Power Stations in 2026"},{"href":"/guide/best-2000w-portable-power-stations","title":"Best 2000W Portable Power Stations in 2026"},{"href":"/guide/best-3000w-portable-power-stations","title":"Best 3000W Portable Power Stations in 2026"}];

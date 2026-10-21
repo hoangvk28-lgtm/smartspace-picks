@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This mini dock's Multi-Stream Transport technology specifically enables two independent 4K displays at 60Hz on compatible systems, while the listing transparently discloses that MST is not currently supported by macOS or Chrome OS, meaning connected monitors will mirror identical content on those platforms rather than extend. Its flexible refresh rate options also include Full HD at 144Hz or QHD at 120Hz for gaming-oriented setups.\n\nCompared to the Anker and UGREEN picks below, this one includes 3 high-speed USB 5Gbps ports for external SSDs, webcams, and keyboards alongside 100W PD pass-through charging. Its genuinely compact design fits easily in a bag for on-the-go productivity in the office, at home, or while traveling.\n\nBest for buyers who want independent dual 4K@60Hz displays via MST on Windows, with clear macOS limitation disclosure.",
     specs: ["Dual 4K@60Hz via MST (Windows only for independent screens)", "3x USB 5Gbps ports", "100W PD pass-through charging"],
     pros: ["Transparently discloses macOS/Chrome OS MST limitation upfront", "Flexible refresh rate options up to QHD 120Hz for gaming", "3 high-speed USB 5Gbps ports for peripherals"],
-    cons: ["macOS and Chrome OS users get mirrored, not extended, displays", "Highest price in this comparison at $89.99"],
+    cons: ["macOS and Chrome OS users get mirrored, not extended, displays", "Highest price in this comparison at under $90"],
     bestFor: "buyers who want independent dual 4K displays via MST on Windows",
   },
   {
@@ -77,7 +77,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0D3WVCW3P?tag=deskfinds0d-20",
     description: "This hub is the lowest-priced pick in this comparison, still delivering dual-screen extension at 1080p@60Hz resolution alongside a blazing-fast 10Gbps data transfer port for large file transfers. Its 100W input with 85W output charging keeps high-demand laptops powered, though the listing specifically notes the wall charger itself is not included.\n\nCompared to the UGREEN pick above, this one caps display resolution at 1080p rather than 4K, a genuine tradeoff for its lower price and simpler 7-in-1 design with no Ethernet port included. Its 18-month warranty and Anker's established customer service back the compact build.\n\nBest for buyers who want the lowest possible price for basic dual-screen extension without needing 4K resolution.",
     specs: ["Dual-screen extension at 1080p@60Hz", "10Gbps data transfer port", "100W input / 85W output charging (charger not included)"],
-    pros: ["Lowest price in this comparison at $31.99", "10Gbps data transfer speed despite the budget price", "18-month warranty backs the compact build"],
+    pros: ["Lowest price in this comparison at under $35", "10Gbps data transfer speed despite the budget price", "18-month warranty backs the compact build"],
     cons: ["1080p resolution cap versus the 4K support of pricier picks", "Wall charger not included despite 100W charging capability stated"],
     bestFor: "buyers who want the lowest price for basic dual-screen extension without needing 4K",
   }
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Independent dual 4K@60Hz via MST on Windows", "j5create USB-C Hub 4K@60Hz Dual HDMI"],
         ["Native uncompressed dual 4K with enterprise IT features", "StarTech Driverless Thunderbolt 3 Mini Dock"],
         ["Dual HDMI with more total ports at a low price", "UGREEN 10-in-1 Docking Station"],
-        ["The lowest possible price for basic dual-screen extension", "Anker 7-in-1 USB-C Hub"],
+        ["The lowest possible price for basic dual-screen extension", "Anker 7-in-1 USB-C Hub"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $32", "Anker 7-in-1 ($31.99)"],
-        ["Under $38", "UGREEN 10-in-1 ($37.98)"],
-        ["Under $77", "StarTech Driverless Mini Dock ($76.99)"],
-        ["Under $90", "j5create Dual HDMI Hub ($89.99)"],
+        ["Under $32", "Anker 7-in-1 (under $35)"],
+        ["Under $38", "UGREEN 10-in-1 (under $40)"],
+        ["Under $77", "StarTech Driverless Mini Dock (under $80)"],
+        ["Under $90", "j5create Dual HDMI Hub (under $90)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "MST-Based vs Native GPU Video Output",
     cards: [
       { label: "MST-based (j5create)", text: "Uses Multi-Stream Transport to split one video output into two independent displays on Windows, but mirrors content on macOS and Chrome OS." },
-      { label: "Native GPU output (StarTech)", text: "Uses direct GPU performance with no compression or MST dependency, delivering more consistent cross-platform dual-display behavior." },
+      { label: "Native GPU output (StarTech)", text: "Uses direct GPU performance with no compression or MST dependency, delivering more consistent cross-platform dual-display behavior." }
     ],
     note: "If you're exclusively on Windows, the j5create's MST-based approach works well and costs slightly more. If you need reliable dual-display behavior across Mac and Windows, the StarTech's native GPU output is the safer choice.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your display resolution need", "Recommended pick"],
       rows: [
         ["Standard 1080p dual-screen extension", "Anker 7-in-1 USB-C Hub"],
-        ["Full 4K dual-display support", "j5create, StarTech, or UGREEN picks"],
+        ["Full 4K dual-display support", "j5create, StarTech, or UGREEN picks"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Mac Users Specifically",
     cards: [
       { label: "Look for", text: "A dock using native GPU video output rather than MST, since MST-based dual-display splitting explicitly does not work independently on macOS." },
-      { label: "In this comparison", text: "The StarTech pick specifically documents genuine dual-display support by exact Mac chip generation using native GPU output, not MST." },
+      { label: "In this comparison", text: "The StarTech pick specifically documents genuine dual-display support by exact Mac chip generation using native GPU output, not MST." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want native uncompressed dual 4K video with enterprise IT deployment features, where the StarTech pick justifies its $76.99 price." },
-      { label: "Save if", text: "You just need basic 1080p dual-screen extension at the lowest cost, where the Anker pick delivers that for $31.99." },
+      { label: "Spend more if", text: "You want native uncompressed dual 4K video with enterprise IT deployment features, where the StarTech pick justifies its under $80 price." },
+      { label: "Save if", text: "You just need basic 1080p dual-screen extension at the lowest cost, where the Anker pick delivers that for under $35." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

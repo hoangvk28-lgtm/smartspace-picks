@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $476.99",
+          "Under $500",
           "87\" 2-Person Reception Desk with Patented Double Top"
         ],
         [
-          "Around $998.88",
+          "Under $1,000",
           "79\" 2-Person Reception Desk with Counter"
         ],
         [
-          "Around $1,259.99",
+          "Under $1,300",
           "78.7\" 2-Person Reception Desk with Counter"
         ],
         [
-          "Around $1,259.99",
+          "Under $1,300",
           "78.7\" 2-Person Reception Desk with Counter"
         ],
         [
-          "Around $1,373.91",
+          "Under $1,400",
           "Redfire 240cm 2-Person Reception Desk with LED"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "No. ADA accessibility depends on the installed counter height, approach type (forward or parallel), and surrounding clear floor space meeting current DOJ standards, not just the presence of a lower shelf. A desk marketed as having an accessible section should still be verified against the installed layout."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "79\" 2-Person Reception Desk with Counter is aimed at buyers prioritizing 79\" desk, ~2-meter counter for 2 staff." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "79\" 2-Person Reception Desk with Counter is aimed at buyers prioritizing 79\" desk, ~2-meter counter for 2 staff." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-2-person-reception-desks","title":"5 Best 2-Person Reception Desks in 2026"},{"href":"/guide/best-2-person-l-shaped-reception-desks","title":"best-2-person-l-shaped-reception-desks"},{"href":"/guide/best-3-person-reception-desks","title":"best-3-person-reception-desks"}];

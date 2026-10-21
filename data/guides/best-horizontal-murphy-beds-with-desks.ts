@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "horizontal murphy bed with desk";
 export const introParagraphs = [
   "A horizontal murphy bed folds sideways along the wall instead of standing up vertically, and it solves a specific problem: rooms with ceilings under 88 inches (7 feet 4 inches), ceiling fans, sloped ceilings, or ductwork that a vertical cabinet cannot clear. The tradeoff is that horizontal orientation trades ceiling clearance for clear wall width, typically needing 84-92 inches of unbroken wall space, which can actually be harder to find in a small room than vertical ceiling height.",
-  "This guide focuses specifically on horizontal orientation: the wall-width requirement, the ceiling height threshold where horizontal becomes the right call, how the lower stowed cabinet profile of 65-70 inches changes desk height, and room layout clearance for adjacent furniture. Below are the 8 picks we evaluated based on product specs and buyer feedback, and we flag honestly which listings actually confirm horizontal orientation versus those that do not state it at all.",
+  "This guide focuses specifically on horizontal orientation: the wall-width requirement, the ceiling height threshold where horizontal becomes the right call, how the lower stowed cabinet profile of 65-70 inches changes desk height, and room layout clearance for adjacent furniture. Below are the 8 picks we evaluated based on product specs and buyer feedback, and we flag honestly which listings actually confirm horizontal orientation versus those that do not state it at all."
 ];
 export const lastUpdated = "2026-07-26";
 export const readTime = "11 min";
@@ -46,27 +46,27 @@ export const products: GuideProduct[] = [
     badge: "Best Confirmed Horizontal Kit",
     name: "Create-A-Bed Queen Size Deluxe Murphy Bed Kit, Horizontal",
     price: "$299.00",
-    rating: "4.6 stars from 2,138 Amazon ratings",
-    reviews: "2,138 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51+rNYpilUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00CYQ5PPI?tag=deskfinds0d-20",
     description:
-      "This is the only pick in this guide whose listing title explicitly confirms horizontal orientation on a queen-size mechanism, making it the clearest choice if you have already confirmed your room needs horizontal rather than vertical. Like its vertical counterpart, it is a bare hardware kit, not a finished cabinet, so any desk surface is your own build.\n\nFor horizontal orientation, plan for 84-92 inches of clear wall width rather than the ceiling clearance a vertical unit needs. With 2,138 ratings at 4.6 stars, it shares the same strong review base as the vertical Create-A-Bed kit, since they are the same core mechanism in a different orientation.\n\nLargest review base in this guide at 2,138 ratings. That's a real strength, but weigh it against the flip side: no desk surface included, bed-only mechanism.",
+      "This is the only pick in this guide whose listing title explicitly confirms horizontal orientation on a queen-size mechanism, making it the clearest choice if you have already confirmed your room needs horizontal rather than vertical. Like its vertical counterpart, it is a bare hardware kit, not a finished cabinet, so any desk surface is your own build.\n\nFor horizontal orientation, plan for 84-92 inches of clear wall width rather than the ceiling clearance a vertical unit needs.\n\nThat's a real strength, but weigh it against the flip side: no desk surface included, bed-only mechanism.",
     specs: [
       "Horizontal queen size mechanism",
       "Gas piston operation",
       "Hardware kit, cabinet not included",
-      "Made in North America",
+      "Made in North America"
     ],
     pros: [
       "Only pick here with confirmed horizontal orientation in the listing title",
-      "Largest review base in this guide at 2,138 ratings",
       "Smooth, controlled piston operation",
+      "Hardware-only kit pairs with your own cabinet",
     ],
     cons: [
       "No desk surface included, bed-only mechanism",
       "Requires 84-92 inches of clear wall width, which some rooms lack",
-      "Full cabinet and desk build is on you",
+      "Full cabinet and desk build is on you"
     ],
     bestFor: "Buyers who have confirmed their room has enough clear wall width and want a proven horizontal mechanism to build a cabinet around",
   },
@@ -76,27 +76,26 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Horizontal Cabinet",
     name: "SOFTSEA Twin Size Horizontal Murphy Bed, Wood Hideaway Cabinet with Metal Legs",
     price: "$419.99",
-    rating: "4.7 stars from 7 Amazon ratings",
-    reviews: "7 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51SDkKKPuhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK3KNV8X?tag=deskfinds0d-20",
     description:
-      "SOFTSEA's listing confirms horizontal orientation on a twin size cabinet, the smallest footprint in this guide, which requires the least wall width of any pick here. Metal legs support the folded cabinet, and it is explicitly marketed for home office small spaces. It is a mid-range price for an assembled twin cabinet. With 7 ratings at 4.7 stars, feedback is limited but positive, so this is a reasonable choice for a small room where minimizing wall width demand matters more than sleeping capacity. Worth calling out specifically: smallest footprint requires the least wall width. The catch is no desk surface, bed-only cabinet.",
+      "SOFTSEA's listing confirms horizontal orientation on a twin size cabinet, the smallest footprint in this guide, which requires the least wall width of any pick here. Metal legs support the folded cabinet, and it is explicitly marketed for home office small spaces. It is a mid-range price for an assembled twin cabinet. Worth calling out specifically: smallest footprint requires the least wall width. The catch is no desk surface, bed-only cabinet.",
     specs: [
       "Horizontal twin size cabinet",
       "Wood construction with metal legs",
       "Foldable wall bed frame",
-      "White finish",
+      "White finish"
     ],
     pros: [
       "Confirmed horizontal orientation",
       "Smallest footprint requires the least wall width",
-      "Positive early rating at 4.7 stars",
+      "Foldable wall bed frame with metal legs",
     ],
     cons: [
       "No desk surface, bed-only cabinet",
-      "Very small review base at 7 ratings",
-      "Twin size limits sleeping capacity",
+      "Twin size limits sleeping capacity"
     ],
     bestFor: "Small rooms with limited wall width where a twin horizontal cabinet is the best fit",
   },
@@ -106,27 +105,25 @@ export const products: GuideProduct[] = [
     badge: "Best Horizontal Twin with Drawers",
     name: "SOFTSEA Twin Size Horizontal Murphy Bed with Drawers, Walnut Top",
     price: "$369.99",
-    rating: "3.7 stars from 11 Amazon ratings",
-    reviews: "11 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/511m-YvEUjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FK9WL95D?tag=deskfinds0d-20",
     description:
-      "This is SOFTSEA's twin horizontal cabinet with added drawers and a walnut top, which can double as a small surface for a laptop or lamp when the bed is stowed, though it is not a true fold-down desk. Horizontal orientation is confirmed directly in the listing title. It is the lowest price confirmed-horizontal pick in this guide. With 11 ratings at 3.7 stars, the rating is lower than its drawer-less sibling above, so weigh the added storage against the slightly weaker feedback. Drawers add storage the drawer-less SOFTSEA sibling lacks. Set against that, no true fold-down desk, walnut top is a surface accent, not a work desk. Both matter when comparing it to the other picks here.",
+      "This is SOFTSEA's twin horizontal cabinet with added drawers and a walnut top, which can double as a small surface for a laptop or lamp when the bed is stowed, though it is not a true fold-down desk. Horizontal orientation is confirmed directly in the listing title. It is the lowest price confirmed-horizontal pick in this guide. Drawers add storage the drawer-less SOFTSEA sibling lacks. Set against that, no true fold-down desk, walnut top is a surface accent, not a work desk. Both matter when comparing it to the other picks here.",
     specs: [
       "Horizontal twin size cabinet",
       "Built-in drawers",
       "Walnut top surface",
-      "Foldable wall bed frame",
+      "Foldable wall bed frame"
     ],
     pros: [
       "Confirmed horizontal orientation",
       "Drawers add storage the drawer-less SOFTSEA sibling lacks",
-      "Lowest price among confirmed-horizontal cabinets here",
+      "Lowest price among confirmed-horizontal cabinets here"
     ],
     cons: [
-      "No true fold-down desk, walnut top is a surface accent, not a work desk",
-      "Lower rating (3.7 stars) than the drawer-less SOFTSEA twin",
-      "Small review base at 11 ratings",
+      "No true fold-down desk, walnut top is a surface accent, not a work desk"
     ],
     bestFor: "Small rooms wanting a twin horizontal cabinet with added drawer storage on a tight budget",
   },
@@ -136,8 +133,8 @@ export const products: GuideProduct[] = [
     badge: "Orientation Not Confirmed, Verify Before Ordering",
     name: "Hlivelood Queen Size Murphy Bed with 2 LED Lights, Brown",
     price: "$699.98",
-    rating: "4.0 stars from 141 Amazon ratings",
-    reviews: "141 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51XE-SiCWBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FFSTT5LQ?tag=deskfinds0d-20",
     description:
@@ -146,17 +143,17 @@ export const products: GuideProduct[] = [
       "Queen size murphy bed (orientation not stated)",
       "2 built-in LED lights",
       "Gas strut mechanism",
-      "Brown finish",
+      "Brown finish"
     ],
     pros: [
-      "Solid review base at 141 ratings",
       "Built-in LED lighting",
       "Gas strut mechanism for controlled fold",
+      "Brown finish with two built-in LED lights",
     ],
     cons: [
       "Orientation not confirmed in the listing, appears vertical based on photos, not horizontal",
       "No desk surface, bed-only unit",
-      "Risk of ordering the wrong orientation for a low-ceiling room",
+      "Risk of ordering the wrong orientation for a low-ceiling room"
     ],
     bestFor: "Buyers who have confirmed vertical orientation actually works for their ceiling height, despite finding this in horizontal searches",
   },
@@ -166,8 +163,8 @@ export const products: GuideProduct[] = [
     badge: "Orientation Not Confirmed, Verify Before Ordering",
     name: "Hlivelood Queen Size Murphy Bed with 2 LED Lights, Rustic White",
     price: "$639.99",
-    rating: "4.0 stars from 141 Amazon ratings",
-    reviews: "141 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/515sMh7j30L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXZVVHCG?tag=deskfinds0d-20",
     description:
@@ -176,17 +173,17 @@ export const products: GuideProduct[] = [
       "Queen size murphy bed (orientation not stated)",
       "2 built-in LED lights",
       "Gas strut mechanism",
-      "Rustic white finish",
+      "Rustic white finish"
     ],
     pros: [
-      "Solid review base at 141 ratings",
       "Built-in LED lighting",
       "Gas strut mechanism for controlled fold",
+      "Rustic white finish suits lighter rooms",
     ],
     cons: [
       "Orientation not confirmed in the listing, appears vertical based on photos, not horizontal",
       "No desk surface, bed-only unit",
-      "Risk of ordering the wrong orientation for a low-ceiling room",
+      "Risk of ordering the wrong orientation for a low-ceiling room"
     ],
     bestFor: "Buyers who have confirmed vertical orientation actually works for their ceiling height and prefer a white finish",
   },
@@ -196,27 +193,26 @@ export const products: GuideProduct[] = [
     badge: "Orientation Not Confirmed, Verify Before Ordering",
     name: "Yoobure Queen Murphy Bed with Charging Station, Rattan Cabinet Bed with Storage Drawers",
     price: "$459.99",
-    rating: "4.5 stars from 19 Amazon ratings",
-    reviews: "19 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51JtI3bjGFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GQM56Y2N?tag=deskfinds0d-20",
     description:
-      "This listing does not state orientation either, and no desk feature is mentioned. Treat this as an unconfirmed-orientation storage cabinet with a charging station, not a verified horizontal pick, and confirm directly with the seller if your room specifically requires horizontal clearance.\n\nWith only 19 ratings, buyer feedback is thin. If your ceiling height genuinely requires horizontal orientation, prioritize the confirmed-horizontal SOFTSEA or Create-A-Bed picks above over this one.\n\nWorth calling out specifically: storage drawers add functional space. The catch is orientation not confirmed, do not assume horizontal fit.",
+      "This listing does not state orientation either, and no desk feature is mentioned. Treat this as an unconfirmed-orientation storage cabinet with a charging station, not a verified horizontal pick, and confirm directly with the seller if your room specifically requires horizontal clearance.\n\nIf your ceiling height genuinely requires horizontal orientation, prioritize the confirmed-horizontal SOFTSEA or Create-A-Bed picks above over this one.\n\nWorth calling out specifically: storage drawers add functional space. The catch is orientation not confirmed, do not assume horizontal fit.",
     specs: [
       "Queen size foldable platform (orientation not stated)",
       "Built-in charging station",
       "Storage drawers included",
-      "Rattan cabinet finish",
+      "Rattan cabinet finish"
     ],
     pros: [
       "Built-in charging station",
       "Storage drawers add functional space",
-      "Fully assembled cabinet",
+      "Fully assembled cabinet"
     ],
     cons: [
       "Orientation not confirmed, do not assume horizontal fit",
-      "No desk surface despite home office marketing",
-      "Very small review base at 19 ratings",
+      "No desk surface despite home office marketing"
     ],
     bestFor: "Buyers who have already confirmed vertical orientation works and want charging convenience over a confirmed horizontal design",
   },
@@ -226,27 +222,27 @@ export const products: GuideProduct[] = [
     badge: "Orientation Not Confirmed, Verify Before Ordering",
     name: "AMERLIFE Queen Murphy Bed with Storage and Charging Station",
     price: "$499.99",
-    rating: "4.2 stars from 396 Amazon ratings",
-    reviews: "396 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51Og-FctXuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGL5B76J?tag=deskfinds0d-20",
     description:
-      "Another unconfirmed-orientation pick: AMERLIFE's listing does not specify horizontal or vertical, and it should not be assumed to fit a low-ceiling horizontal-only room without direct confirmation. No desk surface is included either.\n\nWith 396 ratings at 4.2 stars, it has a solid review base among the picks in this guide, second only to the Create-A-Bed kit. Confirm orientation with the seller before ordering if you specifically need horizontal clearance.\n\nCharging station and storage built in. Set against that, orientation not confirmed, do not assume horizontal fit. Both matter when comparing it to the other picks here.",
+      "Another unconfirmed-orientation pick: AMERLIFE's listing does not specify horizontal or vertical, and it should not be assumed to fit a low-ceiling horizontal-only room without direct confirmation. No desk surface is included either.\n\nConfirm orientation with the seller before ordering if you specifically need horizontal clearance.\n\nCharging station and storage built in. Set against that, orientation not confirmed, do not assume horizontal fit. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size murphy bed (orientation not stated)",
       "Built-in storage compartments",
       "Charging station included",
-      "Assembled cabinet design",
+      "Assembled cabinet design"
     ],
     pros: [
-      "Solid review base at 396 ratings",
       "Charging station and storage built in",
       "Fully assembled cabinet",
+      "Storage compartments built into the cabinet",
     ],
     cons: [
       "Orientation not confirmed, do not assume horizontal fit",
       "No desk surface, bed-only unit",
-      "Requires a separate desk purchase for actual desk work",
+      "Requires a separate desk purchase for actual desk work"
     ],
     bestFor: "Buyers who have already confirmed vertical orientation works and want a solid review base over a confirmed horizontal design",
   },
@@ -256,8 +252,8 @@ export const products: GuideProduct[] = [
     badge: "Orientation Mismatch: This Is Vertical, Not Horizontal",
     name: "Queen Size Murphy Bed Hardware Kit, Vertical Wall Bed Frame with Gas Pistons",
     price: "$197.00",
-    rating: "4.6 stars from 1,610 Amazon ratings",
-    reviews: "1,610 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51h1vyv6ZdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B017701FUE?tag=deskfinds0d-20",
     description:
@@ -266,20 +262,20 @@ export const products: GuideProduct[] = [
       "Vertical queen size mechanism (not horizontal)",
       "Gas piston operation",
       "Hardware kit, cabinet not included",
-      "Made in North America",
+      "Made in North America"
     ],
     pros: [
-      "Very large review base at 1,610 ratings if vertical actually fits your room",
       "Lowest price in this guide",
       "Well-regarded piston mechanism",
+      "Gas pistons assist the lift",
     ],
     cons: [
       "Orientation mismatch: this is vertical, not horizontal, and will not solve a low-ceiling problem",
       "No desk surface included",
-      "Not a genuine fit for this guide's horizontal focus",
+      "Not a genuine fit for this guide's horizontal focus"
     ],
     bestFor: "Buyers who realize their ceiling is actually tall enough for vertical and do not need horizontal after all",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -312,7 +308,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Room layout and adjacent furniture clearance",
     description:
       "Factored in the roughly 80 inches of clear floor space needed perpendicular to the wall when a horizontal bed is open, since this affects where adjacent furniture like a desk or dresser can be placed.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -455,12 +451,12 @@ export const faq: FaqItem[] = [
   {
     q: "What should I do if a listing doesn't say whether it's horizontal or vertical?",
     a: "Contact the seller directly or check for updated listing specs before ordering. Several picks in this guide's underlying data, including the Hlivelood, Yoobure, and AMERLIFE cabinets, do not state orientation in their titles, and product photos alone are not a reliable way to confirm this if your room genuinely requires horizontal due to ceiling constraints.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-murphy-beds-for-small-spaces", title: "Best Murphy Beds for Small Spaces (2026)" },
   { href: "/guide/best-freestanding-murphy-beds", title: "Best Freestanding Murphy Beds (2026)" },
   { href: "/guide/best-murphy-beds-with-desks", title: "Best Murphy Beds with Desks (2026)" },
-  { href: "/guide/best-murphy-beds-for-home-offices", title: "Best Murphy Beds for Home Offices (2026)" },
+  { href: "/guide/best-murphy-beds-for-home-offices", title: "Best Murphy Beds for Home Offices (2026)" }
 ];

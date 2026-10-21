@@ -5,7 +5,7 @@ export const metaDescription = "5 air purifiers we evaluated for printer and off
 export const mainKeyword = "air purifier for printer odor";
 export const introParagraphs = [
   "Laser printers genuinely emit trace ozone during operation as a byproduct of the printing process itself, a detail worth knowing if you're specifically choosing an ozone-free purifier for an office, since the room already has a small ozone source unrelated to the purifier.",
-  "Toner particulate and VOCs from ink and adhesives are the other real office-odor sources beyond the printer itself, a combined carbon-and-HEPA design addresses both the particulate and gas-phase compounds rather than one alone.",
+  "Toner particulate and VOCs from ink and adhesives are the other real office-odor sources beyond the printer itself, a combined carbon-and-HEPA design addresses both the particulate and gas-phase compounds rather than one alone."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Air Purifier for Printer and Office Odors Overall",
     name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
-    rating: "4.6 stars from 28,866 Amazon ratings",
-    reviews: "28,866 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419pAe7T0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTKAPUU?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Pick for VOC-Heavy Office Odor",
     name: "WINIX 5520 Air Purifier with PlasmaWave Technology",
     price: "$179.99",
-    rating: "4.6 stars from 31,954 Amazon ratings",
-    reviews: "31,954 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Wb8TGSnPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT4F8T4L?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Office Odor Pick",
     name: "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom, H13 True HEPA Filter, 24db Filtration System Cleaner Odor Eliminators, Remove 99.97% Dust Smoke Mold Pollen, Core 300, White",
     price: "$89.99",
-    rating: "4.7 stars from 108,251 Amazon ratings",
-    reviews: "108,251 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Desk-Adjacent Pick",
     name: "Germ Guardian True HEPA Filter Air Purifier for Home",
     price: "$80.74",
-    rating: "4.6 stars from 63,485 Amazon ratings",
-    reviews: "63,485 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/316AtkHoSdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004VGIGVY?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Coverage Shared Print Room Pick",
     name: "LEVOIT Smart Air Purifier for Home Large Room up to 1875 ft Vital 200S-P",
     price: "$174.99",
-    rating: "4.7 stars from 14,571 Amazon ratings",
-    reviews: "14,571 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Large rated coverage for a shared print room", "Smart app control for monitoring", "Large, well-established review base", "Genuine headroom for multiple printers running together"],
     cons: ["Higher price than budget alternatives", "Larger footprint than compact picks", "Doesn't address individual printer's ozone emission at the source"],
     bestFor: "Shared print rooms or larger offices with multiple printers",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Trace ozone from laser printers disclosed", description: "Considered that laser printers genuinely emit trace ozone during operation as a byproduct of the printing process itself, relevant context for offices specifically choosing an ozone-free purifier." },
   { title: "Toner particulate and VOC sources both addressed", description: "Weighed that toner particulate and VOCs from ink and adhesives are both real office-odor sources, favoring picks with combined HEPA and carbon filtration over either alone." },
-  { title: "Single-printer versus shared print room scale matched", description: "Distinguished a single desk-adjacent printer from a shared print room with multiple printers running together, matching coverage and carbon depth to the real scenario." },
+  { title: "Single-printer versus shared print room scale matched", description: "Distinguished a single desk-adjacent printer from a shared print room with multiple printers running together, matching coverage and carbon depth to the real scenario." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -247,11 +247,11 @@ export const faq: FaqItem[] = [
   { q: "Where should I place an air purifier relative to my office printer?", a: "As close to the printer as reasonably possible. Placement near the printer itself genuinely helps capture toner particulate and trace ozone before it disperses through the whole room." },
   { q: "Do I need a bigger air purifier for a shared print room?", a: "Likely yes. Multiple printers running together compound both toner particulate and trace ozone beyond what a single-printer setup produces, size up coverage for a shared print room." },
   { q: "Does an activated carbon filter specifically help with toner smell?", a: "Yes, activated carbon is genuinely effective against the volatile organic compounds that cause toner and printer odor, a HEPA-only purifier without a carbon stage captures particulates but does little for smell specifically." },
-  { q: "Should I place the air purifier right next to the printer?", a: "Close placement captures particulate and odor at the source more effectively, but check the printer's own ventilation requirements first, since blocking its vents with a nearby appliance can cause overheating." },
+  { q: "Should I place the air purifier right next to the printer?", a: "Close placement captures particulate and odor at the source more effectively, but check the printer's own ventilation requirements first, since blocking its vents with a nearby appliance can cause overheating." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-air-purifiers-for-vocs", title: "Best Air Purifiers for VOCs (2026)" },
   { href: "/guide/best-hepa-and-carbon-air-purifiers", title: "Best HEPA and Carbon Air Purifiers (2026)" },
-  { href: "/guide/best-ozone-free-air-purifiers", title: "Best Ozone-Free Air Purifiers (2026)" },
+  { href: "/guide/best-ozone-free-air-purifiers", title: "Best Ozone-Free Air Purifiers (2026)" }
 ];

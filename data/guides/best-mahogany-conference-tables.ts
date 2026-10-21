@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 8FT Conference Table measures 94.49 L x 47.24 W x 29.53 H and is built around 10 people conference table, positioning it for mahogany buyers specifically.\n\nSUPER STURDY CONSTRUCTION is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for mahogany, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["94.49 L x 47.24 W x 29.53 H table dimensions","10 PEOPLE CONFERENCE TABLE","SUPER STURDY CONSTRUCTION"],
     pros: ["10 PEOPLE CONFERENCE TABLE, confirmed directly in the listing's own spec details","SUPER STURDY CONSTRUCTION, confirmed directly in the listing's own spec details","GROMMET HOLES & ADJUSTABLE FOOT PADS, confirmed directly in the listing's own spec details"],
-    cons: ["At $379.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $400, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for mahogany",
   },
   {
@@ -126,7 +126,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 70.86\" Rectangular Conference Table for 6-8 (Oak and Black) and is built around spacious workspace, positioning it for mahogany buyers specifically.\n\nSturdy Construction is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for mahogany, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Spacious Workspace","Sturdy Construction","Rustic Meets Modern Function"],
     pros: ["Spacious Workspace, confirmed directly in the listing's own spec details","Sturdy Construction, confirmed directly in the listing's own spec details","Rustic Meets Modern Function, confirmed directly in the listing's own spec details"],
-    cons: ["At $239.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $250, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for mahogany",
   },
   {
@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     description: "UPOSOJA 55.9 in Executive Desk with Power Outlets and is built around modern executive desk, positioning it for mahogany buyers specifically.\n\nUseful Power Outlets is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for mahogany, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Modern Executive Desk","Useful Power Outlets","Ample & Organized Storage"],
     pros: ["Modern Executive Desk, confirmed directly in the listing's own spec details","Useful Power Outlets, confirmed directly in the listing's own spec details","Ample & Organized Storage, confirmed directly in the listing's own spec details"],
-    cons: ["At $149.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $150, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for mahogany",
   }
 
@@ -210,40 +210,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $149.99",
+          "Under $150",
           "UPOSOJA 55.9 in Executive Desk with Power Outlets"
         ],
         [
-          "Around $225.56",
+          "Under $250",
           "Boss Office Products 47\" Round Table"
         ],
         [
-          "Around $239.99",
+          "Under $250",
           "Tribesigns 70.86\" Rectangular Conference Table for 6-8 (Oak and Black)"
         ],
         [
-          "Around $284.02",
+          "Under $300",
           "Lorell Essentials Series Oval Conference Table"
         ],
         [
-          "Around $336.94",
+          "Under $350",
           "Flash Furniture Jones 6-Foot Oval Conference Table"
         ],
         [
-          "Around $379.99",
+          "Under $400",
           "Tribesigns 8FT Conference Table"
         ],
         [
-          "Around $459.00",
+          "Under $500",
           "Offices To Go 6FT Contemporary Rectangular Table"
         ],
         [
-          "Around $607.16",
+          "Under $650",
           "Flash Furniture 5-Piece Mahogany Oval Conference Table Set"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -291,7 +291,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Flash Furniture 5-Piece Mahogany Oval Conference Table Set is aimed at buyers prioritizing 72\"d x 35\"w oval table with modesty panel." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Flash Furniture 5-Piece Mahogany Oval Conference Table Set is aimed at buyers prioritizing 72\"d x 35\"w oval table with modesty panel." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-wood-conference-tables","title":"Best Wood Conference Tables in 2026"},{"href":"/guide/best-solid-wood-conference-tables","title":"Best Solid Wood Conference Tables in 2026"},{"href":"/guide/best-live-edge-conference-tables","title":"Best Live-Edge Conference Tables in 2026"}];

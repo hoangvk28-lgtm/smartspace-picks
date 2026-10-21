@@ -12,7 +12,7 @@ export const greenScreenVsVirtualBackgroundGuide: Guide = {
     "physical green screen worth it",
     "software background blur vs green screen",
     "zoom virtual background quality",
-    "streaming background options",
+    "streaming background options"
   ],
   heroImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const greenScreenVsVirtualBackgroundGuide: Guide = {
     "webcam-lighting-explained",
     "ring-light-vs-key-light",
     "webcam-resolution-explained",
-    "webcam-fov-explained",
+    "webcam-fov-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const greenScreenVsVirtualBackgroundGuide: Guide = {
       question: "Does a green screen take up significant space behind my desk?",
       answer:
         "Yes, a proper green screen setup needs adequate space behind you, free of shadows and wrinkles, which can be a real space constraint in a small room, collapsible or retractable screens help manage this when not in active use.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const greenScreenVsVirtualBackgroundGuide: Guide = {
     {
       heading: "Why Convenience Often Wins Out for Occasional Use",
       body: `If video calls with background replacement happen only occasionally, the setup effort, dedicated space, and lighting requirements of a proper green screen represent real overhead relative to the benefit, software virtual backgrounds without a physical screen have become good enough for most casual professional call needs. Reserve the physical green screen investment for situations where background quality genuinely matters consistently, frequent content creation, streaming, or professional video production, where the improved edge quality justifies the added setup complexity.`,
-    },
+    }
   ],
 };

@@ -12,7 +12,7 @@ export const boomArmVsDeskStandMicrophoneGuide: Guide = {
     "microphone boom arm vs stand",
     "desk stand microphone space",
     "microphone stand desk clutter",
-    "boom arm desk clamp",
+    "boom arm desk clamp"
   ],
   heroImage: "https://images.unsplash.com/photo-1634041323797-b9fdef9d18f7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1634041323797-b9fdef9d18f7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const boomArmVsDeskStandMicrophoneGuide: Guide = {
     "best-microphone-arms-for-desks",
     "best-long-reach-microphone-arms",
     "best-microphone-arms",
-    "best-usb-microphone-kits",
+    "best-usb-microphone-kits"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const boomArmVsDeskStandMicrophoneGuide: Guide = {
       question: "Which is better for a small desk?",
       answer:
         "A boom arm is usually better for a small desk since it can swing out of the way entirely when not recording, freeing up surface area a fixed desk stand would permanently occupy.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ export const boomArmVsDeskStandMicrophoneGuide: Guide = {
     {
       heading: "When a Desk Stand Is the More Practical Choice",
       body: `A desk stand makes sense if you record occasionally, don't type while recording, or need to move the microphone between locations regularly, since it requires no clamping or permanent desk modification. It's also the simpler choice on a desk where clamp-style mounting isn't possible, such as a very thin desktop or one with a raised edge that a boom arm's clamp can't grip securely.`,
-    },
+    }
   ],
 };

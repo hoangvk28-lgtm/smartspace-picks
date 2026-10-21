@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $38.99",
+          "Under $40",
           "UGEE M708 Drawing Tablet"
         ],
         [
-          "Around $41.79",
+          "Under $45",
           "HUION Inspiroy H1060P Graphics Drawing Tablet"
         ],
         [
-          "Around $44.99",
+          "Under $45",
           "XPPen Deco 01 V3 10x6 Drawing Tablet"
         ],
         [
-          "Around $319.99",
+          "Under $350",
           "GAOMON PD2200 Drawing Tablet with Screen"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "GAOMON PD2200 Drawing Tablet with Screen is aimed at buyers prioritizing 21.5in full-laminated, 130% srgb." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "GAOMON PD2200 Drawing Tablet with Screen is aimed at buyers prioritizing 21.5in full-laminated, 130% srgb." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets-for-animation","title":"Best Drawing Tablets for Animation in 2026"},{"href":"/guide/best-drawing-tablets-for-blender","title":"Best Drawing Tablets for Blender in 2026"},{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"}];

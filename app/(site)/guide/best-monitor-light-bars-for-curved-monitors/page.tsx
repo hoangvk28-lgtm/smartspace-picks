@@ -108,7 +108,7 @@ export default async function BestMonitorLightBarsCurvedPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Monitor Light Bars for Curved Monitors", item: `${SITE_URL}/guide/best-monitor-light-bars-for-curved-monitors` },
+      { "@type": "ListItem", position: 3, name: "Best Monitor Light Bars for Curved Monitors", item: `${SITE_URL}/guide/best-monitor-light-bars-for-curved-monitors` }
     ],
   };
 
@@ -297,7 +297,7 @@ export default async function BestMonitorLightBarsCurvedPage() {
                     { bar: "BenQ ScreenBar Halo", curved: "1500R and tighter", notes: "Explicit curved compatibility, weighted clip" },
                     { bar: "BenQ ScreenBar Plus Curved", curved: "1500R, ultrawide", notes: "Curved edition, wider bar length" },
                     { bar: "Quntis with Backlight + Remote", curved: "1500R compatible", notes: "Backlight and remote" },
-                    { bar: "Baseus Monitor Light", curved: "1800R and above", notes: "Budget curved option" },
+                    { bar: "Baseus Monitor Light", curved: "1800R and above", notes: "Budget curved option" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.bar}</td>
@@ -327,14 +327,14 @@ export default async function BestMonitorLightBarsCurvedPage() {
           <h2 className="text-xl font-bold text-ink mb-5 tracking-tight">Bottom Line</h2>
           <div className="space-y-4">
             {[
-              { context: "Best overall curved", id: "benq-screenbar-halo", name: "BenQ ScreenBar Halo", verdict: " - 4,108 reviews at 4.5 stars, $219.99, best validated option for curved compatibility." },
+              { context: "Best overall curved", id: "benq-screenbar-halo", name: "BenQ ScreenBar Halo", verdict: " - Under $250, best validated option for curved compatibility." },
               { context: "Best curved ultrawide", id: "benq-screenbar-plus-curved", name: "BenQ ScreenBar Plus Curved Edition", verdict: " - most comprehensive curved ultrawide coverage." },
-              { context: "Best budget curved", id: "quntis-curved-backlight", name: "Quntis with Backlight for Curved", verdict: " - 971 reviews at 4.7 stars, $49.99, most affordable curved-compatible option." },
-              { context: "Best mid-range curved", id: "baseus-monitor-curved", name: "Baseus Curved Monitor Light Bar", verdict: " - 1,432 reviews at 4.5 stars, $45.99, strong review count at mid-range price." },
+              { context: "Best budget curved", id: "quntis-curved-backlight", name: "Quntis with Backlight for Curved", verdict: " - Under $50, most affordable curved-compatible option." },
+              { context: "Best mid-range curved", id: "baseus-monitor-curved", name: "Baseus Curved Monitor Light Bar", verdict: " - Under $50, strong review count at mid-range price." },
               { context: "Best wireless curved", id: "yeelight-curved-remote", name: "Yeelight Monitor Light Bar Pro", verdict: " - wireless touch dial, works with curved panels." },
-              { context: "Best budget curved", id: "quntis-budget-curved", name: "Quntis 15.7-inch Curved Compatible", verdict: " - 13,623 reviews at 4.6 stars, $39.95, works on 1500R and wider curves." },
+              { context: "Best budget curved", id: "quntis-budget-curved", name: "Quntis 15.7-inch Curved Compatible", verdict: " - Under $40, works on 1500R and wider curves." },
               { context: "Best with auto-dimming", id: "lymax-curved-auto", name: "LYMAX Curved Monitor Light Bar", verdict: " - gravity damper clip for curved bezels, USB-C powered." },
-              { context: "Best LED density", id: "momax-curved-premium", name: "Momax Premium Curved Light Bar", verdict: " - high LED density for even coverage across curved panels." },
+              { context: "Best LED density", id: "momax-curved-premium", name: "Momax Premium Curved Light Bar", verdict: " - high LED density for even coverage across curved panels." }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

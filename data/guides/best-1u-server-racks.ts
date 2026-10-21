@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41vyzPjra9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKSR9C2J?tag=deskfinds0d-20",
-    description: "This shelf stands out for its weight rating: 242 lbs, well above the 44-110 lb range typical of cantilever shelves, because it's a full 4-post design rather than a 2-point cantilever.\n\nAdjustable depth from 13.5 to 31.8 inches lets it fit racks of different sizes, and the vented design still supports airflow despite the much sturdier build.\n\nWhat stands out here is 242 lb rating far exceeds typical cantilever shelves, plus adjustable depth fits a wide range of rack sizes. The main tradeoff: 4-post mount needs support on all sides, so weigh that against the $69.90 price before buying.",
+    description: "This shelf stands out for its weight rating: 242 lbs, well above the 44-110 lb range typical of cantilever shelves, because it's a full 4-post design rather than a 2-point cantilever.\n\nAdjustable depth from 13.5 to 31.8 inches lets it fit racks of different sizes, and the vented design still supports airflow despite the much sturdier build.\n\nWhat stands out here is 242 lb rating far exceeds typical cantilever shelves, plus adjustable depth fits a wide range of rack sizes. The main tradeoff: 4-post mount needs support on all sides, so weigh that against the under $70 price before buying.",
     specs: ["1U, adjustable 13.5-31.8\" depth","242 lb weight capacity","SPCC cold rolled steel, 4-post mount"],
     pros: ["242 lb rating far exceeds typical cantilever shelves","Adjustable depth fits a wide range of rack sizes","Can flip to save space when not fully loaded"],
     cons: ["4-post mount needs support on all sides","Heavier duty build costs more than basic shelves"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/413EFaYNtqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B084CZCGFP?tag=deskfinds0d-20",
-    description: "Pyle's cantilever shelf pack rounds out this category with a 110 lb rating, notably higher than many 1U cantilever shelves, while still fitting standard 19-inch racks.\n\nThe punch-out bottom design is specifically built for airflow rather than just weight support, aimed at stage and studio gear as much as network equipment.\n\nWhere this one earns its spot is 110 lb rating is high for a 1U cantilever shelf, and punch-out design specifically targets better airflow. Worth noting before buying: two-piece pack costs more than single shelves, which matters more at $29.99 than it would on a cheaper pick.",
+    description: "Pyle's cantilever shelf pack rounds out this category with a 110 lb rating, notably higher than many 1U cantilever shelves, while still fitting standard 19-inch racks.\n\nThe punch-out bottom design is specifically built for airflow rather than just weight support, aimed at stage and studio gear as much as network equipment.\n\nWhere this one earns its spot is 110 lb rating is high for a 1U cantilever shelf, and punch-out design specifically targets better airflow. Worth noting before buying: two-piece pack costs more than single shelves, which matters more at under $30 than it would on a cheaper pick.",
     specs: ["1U, 17.6\"L x 10\"W, 2-pack","110 lb weight capacity","Punch-out vented bottom"],
     pros: ["110 lb rating is high for a 1U cantilever shelf","Punch-out design specifically targets better airflow","Fits universally across standard 19\" racks"],
     cons: ["Two-piece pack costs more than single shelves","Still shallower than some 4-post shelf alternatives"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41fs6LB1qoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DD6DX745?tag=deskfinds0d-20",
-    description: "A 2-pack of vented cantilever shelves built from Q235 carbon steel, sized for stacking routers, switches, and other non-rack-mountable gear inside a standard 4-post rack.\n\nThe perforated bottom is specifically meant to reduce equipment temperature rather than just being decorative venting, which matters if you're stacking anything that runs warm.\n\nThis pick is best for buyers who value perforated bottom actively helps cool stacked gear along with two shelves in one purchase for less per-unit cost. The catch is that 10\" depth is shallow for larger equipment, so decide if that's worth it at $25.90.",
+    description: "A 2-pack of vented cantilever shelves built from Q235 carbon steel, sized for stacking routers, switches, and other non-rack-mountable gear inside a standard 4-post rack.\n\nThe perforated bottom is specifically meant to reduce equipment temperature rather than just being decorative venting, which matters if you're stacking anything that runs warm.\n\nThis pick is best for buyers who value perforated bottom actively helps cool stacked gear along with two shelves in one purchase for less per-unit cost. The catch is that 10\" depth is shallow for larger equipment, so decide if that's worth it at under $30.",
     specs: ["1U, 10\" deep, 2-pack","Q235 carbon steel, 1.5mm thick","50 lb capacity per shelf"],
     pros: ["Perforated bottom actively helps cool stacked gear","Two shelves in one purchase for less per-unit cost","50 lb rating handles routers and small switches easily"],
     cons: ["10\" depth is shallow for larger equipment","Cantilever design isn't rated for very heavy loads"],
@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $25.90",
+          "Under $30",
           "VEVOR 2-Pack 1U Server Rack Shelf"
         ],
         [
-          "Around $29.99",
+          "Under $30",
           "Pyle 2-Pc 1U Server Rack Shelf"
         ],
         [
-          "Around $59.90",
+          "Under $60",
           "Tecmojo 2-Pack 1U Universal Rack Mount Rails"
         ],
         [
-          "Around $69.90",
+          "Under $70",
           "Tecmojo 1U 4-Post Vented Server Rack Mount Shelf"
         ],
         [
-          "Around $70.71",
+          "Under $80",
           "StarTech 1U 4-Post Vented Rack Shelf"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Tecmojo 1U 4-Post Vented Server Rack Mount Shelf is aimed at buyers prioritizing 1u, adjustable 13.5-31.8\" depth." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tecmojo 1U 4-Post Vented Server Rack Mount Shelf is aimed at buyers prioritizing 1u, adjustable 13.5-31.8\" depth." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-42u-server-racks","title":"Best 42U Server Racks in 2026"},{"href":"/guide/best-2u-server-racks","title":"Best 2U Server Racks in 2026"},{"href":"/guide/best-12u-server-racks","title":"Best 12U Server Racks in 2026"}];

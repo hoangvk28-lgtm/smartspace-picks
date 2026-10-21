@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Transparent real PD wattage with a future upgrade path", "Dell Performance Dock WD19DCS"],
         ["A complete cable bundle with dual USB-C flexibility", "Dell WD19DC Performance Docking Station"],
         ["Maximum video connector variety at the lowest price", "Dell Precision TB18DC Thunderbolt Dock"],
-        ["Triple-display support with a broad legacy port mix", "Dell TB16 Thunderbolt 3 Dock"],
+        ["Triple-display support with a broad legacy port mix", "Dell TB16 Thunderbolt 3 Dock"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $90", "Dell Precision TB18DC ($89.00)"],
-        ["Under $110", "Dell TB16 Thunderbolt 3 Dock ($109.99)"],
-        ["Under $165", "Dell WD19DC ($164.99)"],
-        ["Under $180", "Dell WD19DCS ($179.00)"],
+        ["Under $90", "Dell Precision TB18DC (under $90)"],
+        ["Under $110", "Dell TB16 Thunderbolt 3 Dock (under $110)"],
+        ["Under $165", "Dell WD19DC (under $170)"],
+        ["Under $180", "Dell WD19DCS (under $180)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Modular Upgradeable Dock vs Fixed-Configuration Dock",
     cards: [
       { label: "Modular, upgradeable (WD19DCS)", text: "Lets you upgrade power and connectivity components over time as your needs change, at a modest price premium for that future flexibility." },
-      { label: "Fixed-configuration (WD19DC, TB18DC, TB16)", text: "Delivers a complete, ready-to-use dock at purchase with no upgrade path, typically at a similar or lower price point." },
+      { label: "Fixed-configuration (WD19DC, TB18DC, TB16)", text: "Delivers a complete, ready-to-use dock at purchase with no upgrade path, typically at a similar or lower price point." }
     ],
     note: "If you expect your power or connectivity needs to grow significantly over the dock's lifetime, the WD19DCS's modular design is worth the investment. If you just need a complete, working solution now, the fixed-configuration picks deliver that reliably.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Precision Mobile Workstation 7530 or 7730", "Dell Precision TB18DC Thunderbolt Dock"],
         ["An older Windows laptop needing triple-display legacy ports", "Dell TB16 Thunderbolt 3 Dock"],
-        ["Precision 7000 series or general Dell laptop", "Dell WD19DC or WD19DCS"],
+        ["Precision 7000 series or general Dell laptop", "Dell WD19DC or WD19DCS"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Non-Dell Laptop Owners Specifically",
     cards: [
       { label: "Look for", text: "A dock that specifically discloses its actual Power Delivery wattage to non-Dell systems, not just the adapter's total headline rating, since Dell-branded docks often reserve their highest PD figures for Dell-specific hardware." },
-      { label: "In this comparison", text: "The Dell WD19DCS specifically states 90W PD to non-Dell systems versus 210W for Dell systems, a real and disclosed difference worth knowing before purchase." },
+      { label: "In this comparison", text: "The Dell WD19DCS specifically states 90W PD to non-Dell systems versus 210W for Dell systems, a real and disclosed difference worth knowing before purchase." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want a transparent real PD wattage figure with future upgrade flexibility, where the WD19DCS's modular design justifies its $179.00 price." },
-      { label: "Save if", text: "You specifically own a compatible Precision 7530 or 7730 workstation, where the TB18DC delivers 240W charging with broad video connector support for $89.00." },
+      { label: "Spend more if", text: "You want a transparent real PD wattage figure with future upgrade flexibility, where the WD19DCS's modular design justifies its under $180 price." },
+      { label: "Save if", text: "You specifically own a compatible Precision 7530 or 7730 workstation, where the TB18DC delivers 240W charging with broad video connector support for under $90." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

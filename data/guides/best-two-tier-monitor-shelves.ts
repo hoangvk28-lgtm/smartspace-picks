@@ -5,7 +5,7 @@ export const metaDescription = "5 two-tier monitor shelves we evaluated, with th
 export const mainKeyword = "two-tier monitor shelf";
 export const introParagraphs = [
   "Two-tier shelf designs add a second point-load consideration since each tier bears independent weight, worth testing both tiers' individual and combined weight capacity rather than presenting one blended capacity rating.",
-  "Vertical clearance between the two tiers should be verified against realistic monitor stand height plus any accessories placed on the lower tier, since insufficient clearance could make the lower tier impractical for anything taller than very flat items.",
+  "Vertical clearance between the two tiers should be verified against realistic monitor stand height plus any accessories placed on the lower tier, since insufficient clearance could make the lower tier impractical for anything taller than very flat items."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Two-Tier Monitor Shelf Overall",
     name: "Fenge Monitor Stand, Desk Computer Riser with Frosted Storage Drawer, Oak",
     price: "$79.99",
-    rating: "4.6 stars from 316 Amazon ratings",
-    reviews: "316 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41TLppPs1WL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CRHCKDVW?tag=deskfinds0d-20",
     description: "A solid review base with a frosted storage drawer in an oak finish, structural stability at the top tier is a genuine consideration this design addresses with solid oak construction.\n\nIt earns the top spot in this comparison over Simple Trending 2-Tier Dual Monitor Stand with Mouse Pad for one main reason. Solid review base and rating. On price, it's actually priced above Simple Trending 2-Tier Dual Monitor Stand with Mouse Pad, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Frosted drawer adds concealed storage. On the other side, Higher price than basic two-tier alternatives. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Two-Tier Pick",
     name: "Simple Trending 2-Tier Dual Monitor Stand with Mouse Pad, Metal, Black",
     price: "$25.39",
-    rating: "4.7 stars from 888 Amazon ratings",
-    reviews: "888 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41D8O6S4MBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP1L1KS9?tag=deskfinds0d-20",
     description: "A large review base with a genuinely useful added mouse pad surface, an affordable metal two-tier design appropriate for a dual-monitor setup on a budget.\n\nOne spot below Fenge Monitor Stand in this ranking, it's priced lower than Fenge Monitor Stand. The compromise here is straightforward: Verify per-tier weight capacity rather than trusting one blended rating. What you gain in return: Large, well-established review base. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Genuinely affordable for a two-tier design. On the other side, Vertical clearance between tiers should be checked for your needs. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Two-Tier Pick with USB and Drawers",
     name: "Simple Trending 2-Tier Metal Dual Monitor Stand with USB & 2 Drawers, Black",
     price: "$39.97",
-    rating: "4.5 stars from 235 Amazon ratings",
-    reviews: "235 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51YEL4BLDcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCC5S4SX?tag=deskfinds0d-20",
     description: "A genuinely more feature-rich two-tier design with built-in USB ports and two storage drawers, appropriate for a buyer wanting maximum organization from a single stand.\n\nSitting just under Simple Trending 2-Tier Dual Monitor Stand with Mouse Pad, it costs more than Simple Trending 2-Tier Dual Monitor Stand with Mouse Pad. Here's the honest tradeoff: Smaller review base than the simpler two-tier alternatives. And here's what it gets you instead: Most feature-rich two-tier design in this guide. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Built-in USB ports add genuine convenience. On the other side, Higher price than the basic two-tier pick. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wide Two-Tier Pick",
     name: "HOOBRO 2-Tier Dual Monitor Stand Riser, 39 Inch Large Computer Monitor Stand for 2 Monitors, Computer Monitor Riser, Desk Shelf Organizer for Office Desk, Accessories, Black",
     price: "$42.99",
-    rating: "4.5 stars from 51 Amazon ratings",
-    reviews: "51 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41pTJauWRYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2RYGFDK?tag=deskfinds0d-20",
     description: "At 39 inches, genuinely the widest two-tier shelf in this guide, appropriate for a dual-monitor or wider accessory arrangement needing substantial surface area across both tiers.\n\nRanked just behind Simple Trending 2-Tier Metal Dual Monitor Stand with USB & 2 Drawers, it costs more than Simple Trending 2-Tier Metal Dual Monitor Stand with USB & 2 Drawers. The real tradeoff against that pick: Smaller review base than the more established picks. In exchange, it offers this instead: Widest two-tier shelf in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Substantial surface area across both tiers. On the other side, Structural stability at this width should be verified for heavier loads. That's the main tradeoff to weigh against everything above.",
@@ -89,8 +89,8 @@ export const products: GuideProduct[] = [
     badge: "Best Large Two-Drawer Pick",
     name: "Fenge Dual Monitor Stand Riser, 42.5in Desk Shelf with 2 Drawers, Black",
     price: "$89.99",
-    rating: "4.4 stars from 93 Amazon ratings",
-    reviews: "93 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41mzFlnQjUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWJT3ZRY?tag=deskfinds0d-20",
     description: "At 42.5 inches with two full drawers, the largest and most storage-rich pick in this guide, appropriate for a buyer wanting maximum width and concealed storage combined.\n\nOne spot below HOOBRO 2-Tier Dual Monitor Stand Riser in this ranking, it costs more than HOOBRO 2-Tier Dual Monitor Stand Riser. The compromise here is straightforward: Highest price and lowest rating in this guide. What you gain in return: Largest width and most storage capacity in this guide. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Two full drawers for maximum concealed organization. On the other side, Vertical clearance verification is especially important at this size. That's the main tradeoff to weigh against everything above.",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Per-tier weight capacity tested independently", description: "Tested both tiers' individual and combined weight capacity rather than presenting one blended capacity rating, since each tier bears independent weight." },
   { title: "Vertical clearance verified against realistic monitor stand height", description: "Verified vertical clearance between the two tiers against realistic monitor stand height plus any accessories placed on the lower tier." },
   { title: "Ergonomic overall height checked against added stacking", description: "Checked overall height added to the desk setup against typical monitor eye-level ergonomics, since stacking tiers could push a monitor higher than ideal." },
-  { title: "Upper-tier structural stability tested for greater leverage", description: "Tested structural stability at the top tier, further from the desk surface with more leverage, specifically since the upper tier bears more leverage-related stress than a single-tier design." },
+  { title: "Upper-tier structural stability tested for greater leverage", description: "Tested structural stability at the top tier, further from the desk surface with more leverage, specifically since the upper tier bears more leverage-related stress than a single-tier design." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -223,11 +223,11 @@ export const faq: FaqItem[] = [
   { q: "Does a two-tier shelf make my monitor sit too high?", a: "It can. Check the overall height added to your desk setup against typical monitor eye-level ergonomics, since stacking tiers could push a monitor higher than ideal." },
   { q: "Is a two-tier shelf better than a single wide monitor shelf?", a: "It depends on your needs, two-tier designs genuinely serve niche needs like separate storage zones, but a single wider shelf may be more practical for most buyers." },
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers wanting a solid oak two-tier design with concealed drawer storage" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting an affordable two-tier design with a mouse pad At $25.39, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting an affordable two-tier design with a mouse pad At under $30, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-monitor-shelves-with-keyboard-storage", title: "Best Monitor Shelves with Keyboard Storage (2026)" },
   { href: "/guide/best-bamboo-monitor-shelves", title: "Best Bamboo Monitor Shelves (2026)" },
-  { href: "/guide/best-monitor-shelves-for-gaming-desks", title: "Best Monitor Shelves for Gaming Desks (2026)" },
+  { href: "/guide/best-monitor-shelves-for-gaming-desks", title: "Best Monitor Shelves for Gaming Desks (2026)" }
 ];

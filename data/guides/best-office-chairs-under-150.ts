@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The most complete 5-point support with FSC-certified wood", "FelixKing Office Chair with Adjustable Lumbar Support"],
         ["Precisely adjustable 3D armrests and lumbar support", "Marsail Ergonomic Office Chair with 3D Armrests"],
         ["The same precision at a lower price", "HUANUO Ergonomic Office Chair with 3D Armrests"],
-        ["330 lb capacity and flip-up armrests on a budget", "Office Chair, Ergonomic Desk Chairs 330LBS Capacity"],
+        ["330 lb capacity and flip-up armrests on a budget", "Office Chair, Ergonomic Desk Chairs 330LBS Capacity"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $99", "330LBS Capacity Chair ($98.16)"],
-        ["Under $110", "HUANUO 3D Armrests ($109.98)"],
-        ["Under $120", "Marsail ($118.94) or FelixKing ($119.99)"],
+        ["Under $99", "330LBS Capacity Chair (under $100)"],
+        ["Under $110", "HUANUO 3D Armrests (under $110)"],
+        ["Under $120", "Marsail (under $120) or FelixKing (under $120)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "3D Armrests vs Flip-Up-Only Armrests",
     cards: [
       { label: "3D armrests (Marsail, HUANUO)", text: "Move forward, backward, and swivel independently for precise arm positioning during typing or reading." },
-      { label: "Flip-up armrests (FelixKing, 330LBS chair)", text: "Fold up to save space under a desk, but don't offer the same independent depth and swivel adjustment." },
+      { label: "Flip-up armrests (FelixKing, 330LBS chair)", text: "Fold up to save space under a desk, but don't offer the same independent depth and swivel adjustment." }
     ],
     note: "If precise arm positioning matters more than space-saving, the Marsail or HUANUO's 3D armrests are worth prioritizing over a simpler flip-up design.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Precise, continuous forward/back and up/down range", "Marsail or HUANUO (1.18 in and 2.16 in range)"],
         ["Discrete height-level adjustment", "330LBS Capacity Chair (3 height levels)"],
-        ["Widened headrest support without directional lumbar tuning", "FelixKing Office Chair"],
+        ["Widened headrest support without directional lumbar tuning", "FelixKing Office Chair"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Users With Recurring Lower Back Discomfort Specifically",
     cards: [
       { label: "Look for", text: "Lumbar support that adjusts in both forward-backward depth and up-down height, not just a fixed backrest curve." },
-      { label: "In this comparison", text: "The Marsail and HUANUO picks both offer this precise two-directional lumbar adjustment at 1.18 and 2.16 inches respectively." },
+      { label: "In this comparison", text: "The Marsail and HUANUO picks both offer this precise two-directional lumbar adjustment at 1.18 and 2.16 inches respectively." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the most complete 5-point support with an FSC-certified frame, where the FelixKing pick offers a distinct sourcing and support advantage over the budget option." },
-      { label: "Save if", text: "You want the same precise 3D armrest and lumbar adjustment as the pricier Marsail pick, where the HUANUO delivers nearly identical specs for about $9 less." },
+      { label: "Save if", text: "You want the same precise 3D armrest and lumbar adjustment as the pricier Marsail pick, where the HUANUO delivers nearly identical specs for about $9 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

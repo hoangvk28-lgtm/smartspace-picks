@@ -187,7 +187,7 @@ export default async function BestMechanicalKeyboardUnder100Page() {
     about: [
       { "@type": "Thing", name: "Mechanical Keyboards Under $100" },
       { "@type": "Thing", name: "Home Office Keyboards" },
-      { "@type": "Thing", name: "Gaming Keyboards" },
+      { "@type": "Thing", name: "Gaming Keyboards" }
     ],
   };
 
@@ -207,7 +207,7 @@ export default async function BestMechanicalKeyboardUnder100Page() {
         position: 3,
         name: "Best Mechanical Keyboard Under $100",
         item: `${SITE_URL}/guide/best-mechanical-keyboard-under-100`,
-      },
+      }
     ],
   };
 
@@ -487,7 +487,7 @@ export default async function BestMechanicalKeyboardUnder100Page() {
                       width: '~11"',
                       missing: "Numpad, F-row",
                       desk: '36"+',
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -554,7 +554,7 @@ export default async function BestMechanicalKeyboardUnder100Page() {
                       feel: "Bump + audible click",
                       sound: "Loud",
                       best: "Typing satisfaction - NOT for calls",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">
@@ -743,7 +743,7 @@ export default async function BestMechanicalKeyboardUnder100Page() {
                     desk: '48"+',
                     layout: "Any",
                     pick: "Personal preference",
-                  },
+                  }
                 ].map((row, i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                     <td className="px-4 py-3 font-medium text-ink text-xs">

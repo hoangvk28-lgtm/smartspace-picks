@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This cart's front-and-back access locking cabinet secures 32 devices while its built-in surge protection guards the entire charging circuit against power fluctuations, a combination that positions it as the most complete safety package in this comparison. Slot dimensions accommodate up to 13-inch screen devices with dedicated cable management slots built into each divider.\n\nCompared to the ALT Technology pick below, this one holds 2 more devices while adding front-and-back door access, letting staff load and unload from either side rather than a single access point. The charger basket keeps cords organized and prevents the tangled mess common in high-traffic device carts.\n\nBest for buyers who want the highest capacity with front-and-back locking access and surge protection.",
     specs: ["32 devices, front and back locking access", "Built-in surge protection", "Cable management slots, charger baskets"],
     pros: ["Highest device capacity in this comparison at 32 units", "Front and back access speeds up loading and unloading", "Built-in surge protection guards the full charging circuit"],
-    cons: ["Slightly over this tier's ceiling at $547.28", "Limited to 13-inch screens, smaller than some picks in this tier"],
+    cons: ["Slightly over this tier's ceiling at under $550", "Limited to 13-inch screens, smaller than some picks in this tier"],
     bestFor: "buyers who want the highest capacity with dual-access locking security",
   },
   {
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The highest capacity with dual-access locking", "Pearington 32 Device Mobile Charging and Storage Cart"],
         ["The highest device count at a lower price", "OFLILAK 36-Device Mobile Charging Cart"],
         ["Precise slot dimensions and certified UL safety", "ALT Technology 30-Bay Mobile School Charging Cart"],
-        ["The lowest price for 36-device capacity with larger laptops", "36 Device Charging Cart with 4-Position Power Strip"],
+        ["The lowest price for 36-device capacity with larger laptops", "36 Device Charging Cart with 4-Position Power Strip"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $350", "4-Position Power Strip Cart ($349.99)"],
-        ["Under $360", "OFLILAK ($359.99)"],
-        ["Under $380", "ALT Technology ($379.90)"],
-        ["Around $547", "Pearington ($547.28)"],
+        ["Under $350", "4-Position Power Strip Cart (under $350)"],
+        ["Under $360", "OFLILAK (under $400)"],
+        ["Under $380", "ALT Technology (under $400)"],
+        ["Around $547", "Pearington (under $550)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "UL-Certified Power Strips vs General Surge Protection",
     cards: [
       { label: "UL-approved power strips (ALT Technology)", text: "Provides a specific, independently tested electrical safety certification, valuable where purchasing policies require certified equipment." },
-      { label: "General surge protection (Pearington, OFLILAK)", text: "Guards against voltage spikes without a specifically named third-party certification on the power strip component itself." },
+      { label: "General surge protection (Pearington, OFLILAK)", text: "Guards against voltage spikes without a specifically named third-party certification on the power strip component itself." }
     ],
     note: "If your organization's procurement policy specifically requires UL-certified electrical equipment, the ALT Technology pick's explicit UL approval satisfies that requirement directly. If general surge protection is sufficient, the Pearington or OFLILAK picks cover that need.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Up to 13 inches", "Pearington"],
         ["Up to 14 inches", "ALT Technology"],
-        ["Up to 16.3 inches", "4-Position Power Strip Cart"],
+        ["Up to 16.3 inches", "4-Position Power Strip Cart"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a School District Standardizing Cart Purchases Specifically",
     cards: [
       { label: "Look for", text: "Precise, documented slot dimensions in the listing, so procurement staff can confirm fit against the district's specific device model before bulk ordering." },
-      { label: "In this comparison", text: "The ALT Technology pick's specific slot dimension figures (1in width x 14in depth x 10.5in height) specifically support confident bulk procurement decisions." },
+      { label: "In this comparison", text: "The ALT Technology pick's specific slot dimension figures (1in width x 14in depth x 10.5in height) specifically support confident bulk procurement decisions." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the highest device capacity with front-and-back locking access and surge protection, where the Pearington pick delivers all three at the top of this tier." },
-      { label: "Save if", text: "You need 36-device capacity for larger laptops without surge protection, where the 4-Position Power Strip cart covers that for about $197 less." },
+      { label: "Save if", text: "You need 36-device capacity for larger laptops without surge protection, where the 4-Position Power Strip cart covers that for about $197 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -178,7 +178,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "A Cart's Stated Price Slightly Over a Round-Number Ceiling Still Deserves Consideration if the Feature Set Justifies It",
-    "explanation": "The Pearington pick's $547.28 price sits somewhat above a round $500 ceiling, but its combination of the highest device capacity plus front-and-back locking access plus surge protection may still represent the best overall value if those three features specifically matter for your use case, rather than dismissing it purely for exceeding a round number. This matters when comparing real products against a budget planning figure, since the best-fit product for your actual needs doesn't always land at a convenient round price point. Compare the actual feature set against your specific requirements first, and treat a stated budget ceiling as a helpful guide rather than a strict cutoff that excludes a genuinely better-fitting option."
+    "explanation": "The Pearington pick's under $550 price sits somewhat above a round $500 ceiling, but its combination of the highest device capacity plus front-and-back locking access plus surge protection may still represent the best overall value if those three features specifically matter for your use case, rather than dismissing it purely for exceeding a round number. This matters when comparing real products against a budget planning figure, since the best-fit product for your actual needs doesn't always land at a convenient round price point. Compare the actual feature set against your specific requirements first, and treat a stated budget ceiling as a helpful guide rather than a strict cutoff that excludes a genuinely better-fitting option."
   }
 ];
 

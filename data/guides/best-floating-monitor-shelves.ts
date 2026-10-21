@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "floating monitor shelf";
 export const introParagraphs = [
   "\"Floating\" is genuinely ambiguous in this category, it can describe a clamp-on shelf that gives the visual illusion of floating above the desk while still being desk-attached, or it can describe a genuinely wall-mounted shelf with zero desk contact at all. These are fundamentally different installation types, and it's worth clarifying which one a specific listing means before comparing features.",
-  "A clamp-on 'floating' shelf carries the same desk-edge thickness and leverage-related capacity caveats as any clamp-mounted shelf, while a true wall-mounted floating shelf carries an entirely different set of considerations tied to wall material and anchoring rather than desk compatibility at all.",
+  "A clamp-on 'floating' shelf carries the same desk-edge thickness and leverage-related capacity caveats as any clamp-mounted shelf, while a true wall-mounted floating shelf carries an entirely different set of considerations tied to wall material and anchoring rather than desk compatibility at all."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,13 +26,13 @@ export const products: GuideProduct[] = [
     badge: "Best Clamp-On \"Floating\" Illusion Shelf",
     name: "VIVO Black Clamp-on Large 40 inch Ergonomic Desk Shelf, Dual Monitor Riser",
     price: "$69.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "474 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41YgGiEdSPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07S868SFX?tag=deskfinds0d-20",
-    description: "For buyers wanting the floating look without permanent wall installation Built with a clamp-mount metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nIt earns the top spot in this comparison over Gaxomo 30-Inch Desktop Clamp-on Shelf & Monitor Riser for one main reason. Solid 4.6-star rating with 474 ratings. On price, it's actually priced above Gaxomo 30-Inch Desktop Clamp-on Shelf & Monitor Riser, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Clamp-mount metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["44 lbs rated capacity (evenly distributed)","clamp-mount metal construction","Priced at $69.99","474 ratings on Amazon"],
-    pros: ["Solid 4.6-star rating with 474 ratings","Clamp-mount metal build appropriate for this use case","Reasonable price at $69.99","A large 40 inch clamp-on shelf that visually floats above the desk while remaining desk-attached via its clamp."],
+    description: "For buyers wanting the floating look without permanent wall installation Built with a clamp-mount metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nIt earns the top spot in this comparison over Gaxomo 30-Inch Desktop Clamp-on Shelf & Monitor Riser for one main reason. On price, it's actually priced above Gaxomo 30-Inch Desktop Clamp-on Shelf & Monitor Riser, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Clamp-mount metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","clamp-mount metal construction","Priced under $70"],
+    pros: ["Clamp-mount metal build appropriate for this use case","Reasonable price at under $70","A large 40 inch clamp-on shelf that visually floats above the desk while remaining desk-attached via its clamp."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A large 40 inch clamp-on shelf that visually floats above the desk while remaining desk-attached via its clamp.",
   },
@@ -42,13 +42,13 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Clamp-On Floating-Style Shelf",
     name: "Gaxomo 30-Inch Desktop Clamp-on Shelf & Monitor Riser, Holds 44 lbs",
     price: "$49.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "42 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31azforOz-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GD7SNZDD?tag=deskfinds0d-20",
-    description: "For buyers wanting a smaller floating-look shelf that still attaches to the desk edge Built with a clamp-mount metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nOne spot below VIVO Black Clamp-on Large 40 inch Ergonomic Desk Shelf in this ranking, it's priced lower than VIVO Black Clamp-on Large 40 inch Ergonomic Desk Shelf. The compromise here is straightforward: Rated capacity assumes evenly distributed weight, not a single point load. What you gain in return: Solid 4.3-star rating with 42 ratings. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Clamp-mount metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["44 lbs rated capacity (evenly distributed)","clamp-mount metal construction","Priced at $49.99","42 ratings on Amazon"],
-    pros: ["Solid 4.3-star rating with 42 ratings","Clamp-mount metal build appropriate for this use case","Reasonable price at $49.99","A 30 inch reversible clamp shelf giving a similar floating illusion at a smaller size."],
+    description: "For buyers wanting a smaller floating-look shelf that still attaches to the desk edge Built with a clamp-mount metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nOne spot below VIVO Black Clamp-on Large 40 inch Ergonomic Desk Shelf in this ranking, it's priced lower than VIVO Black Clamp-on Large 40 inch Ergonomic Desk Shelf. The compromise here is straightforward: Rated capacity assumes evenly distributed weight, not a single point load. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Clamp-mount metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","clamp-mount metal construction","Priced under $50"],
+    pros: ["Clamp-mount metal build appropriate for this use case","Reasonable price at under $50","A 30 inch reversible clamp shelf giving a similar floating illusion at a smaller size."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A 30 inch reversible clamp shelf giving a similar floating illusion at a smaller size.",
   },
@@ -58,13 +58,13 @@ export const products: GuideProduct[] = [
     badge: "Best Wood-Finish Clamp-On Floating Shelf",
     name: "Gaxomo Extra-Large 45-Inch Wood Clamp-On Desk Monitor Shelf, Max Load 44 lbs",
     price: "$69.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "42 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41TIYUMrQ7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BP2TS5Q5?tag=deskfinds0d-20",
-    description: "For buyers wanting the floating illusion with a wood-look finish rather than bare metal Built with a clamp-mount wood platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nSitting just under Gaxomo 30-Inch Desktop Clamp-on Shelf & Monitor Riser, it costs more than Gaxomo 30-Inch Desktop Clamp-on Shelf & Monitor Riser. Here's the honest tradeoff: Rated capacity assumes evenly distributed weight, not a single point load. And here's what it gets you instead: Solid 4.3-star rating with 42 ratings. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Clamp-mount wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["44 lbs rated capacity (evenly distributed)","clamp-mount wood construction","Priced at $69.99","42 ratings on Amazon"],
-    pros: ["Solid 4.3-star rating with 42 ratings","Clamp-mount wood build appropriate for this use case","Reasonable price at $69.99","A 45 inch wood-finish clamp shelf, giving the floating look a warmer material aesthetic."],
+    description: "For buyers wanting the floating illusion with a wood-look finish rather than bare metal Built with a clamp-mount wood platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nSitting just under Gaxomo 30-Inch Desktop Clamp-on Shelf & Monitor Riser, it costs more than Gaxomo 30-Inch Desktop Clamp-on Shelf & Monitor Riser. Here's the honest tradeoff: Rated capacity assumes evenly distributed weight, not a single point load. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Clamp-mount wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","clamp-mount wood construction","Priced under $70"],
+    pros: ["Clamp-mount wood build appropriate for this use case","Reasonable price at under $70","A 45 inch wood-finish clamp shelf, giving the floating look a warmer material aesthetic."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A 45 inch wood-finish clamp shelf, giving the floating look a warmer material aesthetic.",
   },
@@ -74,13 +74,13 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Clamp-On Shelf for a Minimal Floating Look",
     name: "Gaxomo 15-Inch Desktop Clamp-on Shelf & Monitor Riser, Holds 44 lbs",
     price: "$29.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "42 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31S0U8qAB0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GD7X2T74?tag=deskfinds0d-20",
-    description: "For buyers wanting the smallest floating-look accessory shelf Built with a clamp-mount metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nRanked just behind Gaxomo Extra-Large 45-Inch Wood Clamp-On Desk Monitor Shelf, it's priced lower than Gaxomo Extra-Large 45-Inch Wood Clamp-On Desk Monitor Shelf. The real tradeoff against that pick: Rated capacity assumes evenly distributed weight, not a single point load. In exchange, it offers this instead: Solid 4.3-star rating with 42 ratings. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Clamp-mount metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["44 lbs rated capacity (evenly distributed)","clamp-mount metal construction","Priced at $29.99","42 ratings on Amazon"],
-    pros: ["Solid 4.3-star rating with 42 ratings","Clamp-mount metal build appropriate for this use case","Reasonable price at $29.99","A smaller 15 inch clamp shelf for a minimal floating accent on one lighter item."],
+    description: "For buyers wanting the smallest floating-look accessory shelf Built with a clamp-mount metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nRanked just behind Gaxomo Extra-Large 45-Inch Wood Clamp-On Desk Monitor Shelf, it's priced lower than Gaxomo Extra-Large 45-Inch Wood Clamp-On Desk Monitor Shelf. The real tradeoff against that pick: Rated capacity assumes evenly distributed weight, not a single point load. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Clamp-mount metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","clamp-mount metal construction","Priced under $30"],
+    pros: ["Clamp-mount metal build appropriate for this use case","Reasonable price at under $30","A smaller 15 inch clamp shelf for a minimal floating accent on one lighter item."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A smaller 15 inch clamp shelf for a minimal floating accent on one lighter item.",
   }
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Floating terminology disambiguated upfront", description: "Clarified whether each 'floating' listing means a clamp-on illusion design or a genuinely wall-mounted zero-desk-contact shelf." },
   { title: "Installation type consistency checked", description: "Verified that all picks in this specific guide use the clamp-on floating-illusion approach rather than mixing in true wall mounts without disclosure." },
   { title: "Desk-edge and leverage caveats carried forward", description: "Applied the same clamp-mount desk-edge thickness and leverage-related capacity considerations used in the clamp-on shelf guide." },
-  { title: "Visual floating effect assessed from buyer photos and feedback", description: "Weighted buyer-submitted photos and reviews describing how convincingly the shelf achieves the floating look in practice." },
+  { title: "Visual floating effect assessed from buyer photos and feedback", description: "Weighted buyer-submitted photos and reviews describing how convincingly the shelf achieves the floating look in practice." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -172,23 +172,19 @@ export const howToChoose: HowToChooseSection[] = [
       {
         "label": "Look for",
         "text": "A stated weight capacity with real margin above your monitor's actual weight, a rigid material like metal or thick wood, and a wide enough platform to support the monitor's full base without overhang."
-      },
-      {
-        "label": "In this comparison",
-        "text": "Gaxomo Extra-Large 45-Inch Wood Clamp-On Desk Monitor Shelf fits this specifically: Solid 4.3-star rating with 42 ratings."
       }
-    ]
+      ]
   },
   {
     "subheading": "When to Spend More",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want what Gaxomo Extra-Large 45-Inch Wood Clamp-On Desk Monitor Shelf offers: Solid 4.3-star rating with 42 ratings. That's a real functional upgrade over the budget picks here, not just a brand markup."
+        "text": "That's a real functional upgrade over the budget picks here, not just a brand markup."
       },
       {
         "label": "Save if",
-        "text": "Gaxomo 15-Inch Desktop Clamp-on Shelf & Monitor Riser already covers the essentials: Solid 4.3-star rating with 42 ratings. The main thing you'd be paying extra for elsewhere in this list is capacity or storage you may not need."
+        "text": "The main thing you'd be paying extra for elsewhere in this list is capacity or storage you may not need."
       }
     ]
   }
@@ -221,11 +217,11 @@ export const faq: FaqItem[] = [
   { q: "Does a floating monitor shelf actually have no contact with the desk?", a: "It depends on the type, a clamp-on 'floating' shelf still attaches to the desk edge to create the illusion, while a genuinely wall-mounted shelf has zero desk contact." },
   { q: "Is a clamp-on floating shelf as strong as a regular clamp shelf?", a: "It should carry similar caveats, the same desk-edge thickness and leverage-related capacity considerations apply to clamp-on floating designs." },
   { q: "How do I get a true wall-mounted floating shelf instead?", a: "Look specifically for a wall-mount product rather than a clamp-on one, see our wall-mounted monitor shelf guide for that category." },
-  { q: "Do floating shelves look as convincing in person as in photos?", a: "It varies, listing photos can be styled to exaggerate the effect, check buyer-submitted photos for a more honest impression." },
+  { q: "Do floating shelves look as convincing in person as in photos?", a: "It varies, listing photos can be styled to exaggerate the effect, check buyer-submitted photos for a more honest impression." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-wall-mounted-monitor-shelves", title: "Best Wall-Mounted Monitor Shelves (2026)" },
   { href: "/guide/best-clamp-on-monitor-shelves", title: "Best Clamp-On Monitor Shelves (2026)" },
-  { href: "/guide/best-acrylic-monitor-shelves", title: "Best Acrylic Monitor Shelves (2026)" },
+  { href: "/guide/best-acrylic-monitor-shelves", title: "Best Acrylic Monitor Shelves (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "metal filing cabinet";
 export const introParagraphs = [
   "A metal filing cabinet is usually chosen for durability over the particleboard alternatives, but steel construction quality still varies a lot between listings that all just say metal in the title. Drawer count, lock presence, hanging file compatibility, and overall size differ enough between these picks that the right choice depends heavily on how much you need to store and whether the cabinet needs to fit under a desk or stand freestanding.",
-  "Below are 8 metal filing cabinets we evaluated on drawer configuration, locking hardware, letter and legal file compatibility, and overall footprint, ranging from a compact $44.99 two-drawer unit to a $144.99 tall garage storage cabinet. One pick has no rating data yet since it's a newer listing, and we call that out directly rather than presenting it with invented review numbers.",
+  "Below are 8 metal filing cabinets we evaluated on drawer configuration, locking hardware, letter and legal file compatibility, and overall footprint, ranging from a compact under $45 two-drawer unit to an under-$150 tall garage storage cabinet. One pick has no rating data yet since it's a newer listing, and we call that out directly rather than presenting it with invented review numbers."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -46,8 +46,8 @@ export const products: GuideProduct[] = [
     badge: "Best Under-Desk 3-Drawer",
     name: "Letaya 3 Drawer Mobile File Cabinet with Lock, Under Desk Metal Filing Cabinet for Home Office",
     price: "$99.99",
-    rating: "4.5 stars from 1,373 Amazon ratings",
-    reviews: "1,373 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Nz-Myx-1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09YVJN8R7?tag=deskfinds0d-20",
     description:
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Locking drawers",
       "Letter, legal, and A4 hanging file compatible",
       "Under-desk sizing",
-      "Metal construction",
+      "Metal construction"
     ],
     pros: [
       "Ships fully assembled, no setup required",
       "Fits under a standard desk",
       "Locking drawers included",
-      "Supports three common file sizes",
+      "Supports three common file sizes"
     ],
     cons: [
       "Higher price than the basic 2-drawer picks",
       "Under-desk sizing limits total drawer depth",
-      "Mobile casters not specified as locking",
+      "Mobile casters not specified as locking"
     ],
     bestFor: "Buyers who want a fully assembled, locking cabinet that fits under a desk",
   },
@@ -78,8 +78,8 @@ export const products: GuideProduct[] = [
     badge: "Best Tall Storage Cabinet",
     name: "Yizosh Metal Garage Storage Cabinet with 2 Doors and 5 Adjustable Shelves, 71 Inch Steel Lockable Cabinet",
     price: "$144.99",
-    rating: "4.4 stars from 5,174 Amazon ratings",
-    reviews: "5,174 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31VGu0v5vDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B3MB5F56?tag=deskfinds0d-20",
     description:
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "2 lockable doors",
       "5 adjustable steel shelves",
       "All-steel construction",
-      "Not a drawer-style file cabinet",
+      "Not a drawer-style file cabinet"
     ],
     pros: [
       "Largest total storage volume in this list",
       "Adjustable shelves configure to your needs",
       "Lockable doors",
-      "All-steel build throughout",
+      "All-steel build throughout"
     ],
     cons: [
       "Not designed for hanging letter or legal files like the drawer cabinets in this list",
       "Largest footprint, needs floor space rather than under-desk fit",
-      "Highest price in this list",
+      "Highest price in this list"
     ],
     bestFor: "Buyers who need general steel storage capacity rather than dedicated hanging file drawers",
   },
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best Lateral 2-Drawer",
     name: "Letaya 2 Drawer File Cabinet with Lock, Metal Lateral Filing Cabinet for Home Office",
     price: "$99.99",
-    rating: "4.2 stars from 1,671 Amazon ratings",
-    reviews: "1,671 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31ukHwAN+yL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTNJY2HB?tag=deskfinds0d-20",
     description:
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Locking drawers",
       "Letter, legal, and A4 hanging file compatible",
       "Metal construction",
-      "H27.95 x W28.35 x D15.74 inches",
+      "H27.95 x W28.35 x D15.74 inches"
     ],
     pros: [
       "Lateral layout needs less front-to-back depth",
       "Locking drawers",
       "Supports three common file sizes",
-      "Shallower depth than vertical cabinets, fits tighter rooms front-to-back",
+      "Shallower depth than vertical cabinets, fits tighter rooms front-to-back"
     ],
     cons: [
       "Wider footprint needs more side clearance",
       "Lower rating than the top under-desk pick",
-      "Fewer drawers than the 3-drawer Letaya pick",
+      "Fewer drawers than the 3-drawer Letaya pick"
     ],
     bestFor: "Buyers with limited front-to-back depth but available side wall space",
   },
@@ -142,8 +142,8 @@ export const products: GuideProduct[] = [
     badge: "Best with Printer Stand Top",
     name: "GYIIYUO 2 Drawer File Cabinet with 24 Inch Extended Desktop, Mobile Filing Cabinet with Side Bag",
     price: "$56.99",
-    rating: "4.2 stars from 1,425 Amazon ratings",
-    reviews: "1,425 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Aix6uWuJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBZ98D94?tag=deskfinds0d-20",
     description:
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "24 inch extended desktop top",
       "Side hanging bag included",
       "Rolling casters",
-      "A4 and letter size compatible",
+      "A4 and letter size compatible"
     ],
     pros: [
       "Extended top doubles as a printer stand or work surface",
       "Includes a side hanging bag for extra storage",
       "Rolls on casters for easy repositioning",
-      "Lower price than most other picks",
+      "Lower price than most other picks"
     ],
     cons: [
       "Fabric drawer fronts, not full metal construction",
       "No lock mentioned in the listing",
-      "Smaller drawer capacity than the dedicated file cabinets",
+      "Smaller drawer capacity than the dedicated file cabinets"
     ],
     bestFor: "Buyers who want a combined filing cabinet and printer stand surface",
   },
@@ -174,8 +174,8 @@ export const products: GuideProduct[] = [
     badge: "Best Narrow Under-Desk",
     name: "SISESOL 2 Drawer File Cabinet with Lock, Narrow Vertical Filing Cabinet, Under Desk",
     price: "$44.99",
-    rating: "4.2 stars from 616 Amazon ratings",
-    reviews: "616 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31cXnfFFSML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQL795FX?tag=deskfinds0d-20",
     description:
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Locking drawers",
       "Letter, A4, and legal size compatible",
       "Black metal finish",
-      "Easy assembly",
+      "Easy assembly"
     ],
     pros: [
       "Narrowest footprint in this list, fits tight under-desk gaps",
       "Locking drawers",
       "Supports three file sizes despite the narrow build",
-      "Low price",
+      "Low price"
     ],
     cons: [
       "Smallest drawer capacity given the narrow width",
       "Lower review count than the top picks",
-      "Requires assembly",
+      "Requires assembly"
     ],
     bestFor: "Buyers with a very tight under-desk gap who still want a lock and multi-size file support",
   },
@@ -206,8 +206,8 @@ export const products: GuideProduct[] = [
     badge: "Best Basic Budget Pick",
     name: "SteeLoong 2 Drawer File Cabinets, Metal Office File Cabinet with Lock",
     price: "$64.99",
-    rating: "4.0 stars from 382 Amazon ratings",
-    reviews: "382 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31IIIyTZ29L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D2QSQZ1X?tag=deskfinds0d-20",
     description:
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Locking mechanism",
       "Metal construction",
       "Standard vertical layout",
-      "Black finish",
+      "Black finish"
     ],
     pros: [
       "Simple, no-frills locking file cabinet",
       "Standard metal construction",
       "Reasonable price",
-      "Straightforward vertical layout",
+      "Straightforward vertical layout"
     ],
     cons: [
       "Lowest rating average in this list",
       "Smaller review count than most other picks",
-      "No standout features versus competitors at a similar price",
+      "No standout features versus competitors at a similar price"
     ],
     bestFor: "Buyers who want a simple, no-frills locking cabinet without extra features",
   },
@@ -238,29 +238,29 @@ export const products: GuideProduct[] = [
     badge: "Best with Anti-Tip Design Noted",
     name: "BYNSOE 2 Drawer File Cabinet with Lock, Vertical Filing Storage Cabinet, Steel",
     price: "$64.99",
-    rating: "4.0 stars from 1,303 Amazon ratings",
-    reviews: "1,303 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31VM3xK++PL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D9XYD75W?tag=deskfinds0d-20",
     description:
-      "The BYNSOE is a standard 2-drawer vertical steel cabinet with a lock, letter size file support, and an assembly-required setup, similar in spec to the SteeLoong pick above but with a considerably higher review count backing its identical 4.0-star rating. That larger sample size gives its rating slightly more confidence than a cabinet with only a few hundred reviews.\n\nIt's a reasonable middle-of-the-list pick if you want a locked, all-steel cabinet with more buyer feedback behind it than the SteeLoong without paying extra for the assembled or under-desk-specific picks.\n\nLocking drawers. On the other hand, assembly required. Both are worth keeping in mind before deciding.",
+      "That larger sample size gives its rating slightly more confidence than a cabinet with only a few hundred reviews.\n\nIt's a reasonable middle-of-the-list pick if you want a locked, all-steel cabinet with more buyer feedback behind it than the SteeLoong without paying extra for the assembled or under-desk-specific picks.\n\nLocking drawers. On the other hand, assembly required. Both are worth keeping in mind before deciding.",
     specs: [
       "2 drawers, vertical layout",
       "Locking drawers",
       "Letter size file compatible",
       "Steel construction",
-      "Assembly required",
+      "Assembly required"
     ],
     pros: [
       "Higher review count than the similarly priced SteeLoong pick",
       "Locking drawers",
       "Standard steel vertical construction",
-      "Reasonable price",
+      "Reasonable price"
     ],
     cons: [
       "Assembly required",
       "Tied for the lowest rating average in this list",
-      "No standout extra features",
+      "No standout extra features"
     ],
     bestFor: "Buyers who want a standard locked steel cabinet with a larger review sample size",
   },
@@ -270,32 +270,32 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity, New Listing",
     name: "Livofloral Vertical File Cabinet with 4 Drawers and 1 Door, Metal, 2 Locks, Anti-Tip",
     price: "Check Amazon for current price",
-    rating: "4.7 stars from 4 Amazon ratings",
-    reviews: "4 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31SplwEKN2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCG99Y8Y?tag=deskfinds0d-20",
     description:
-      "Honest note upfront: this listing has only 4 ratings so far, meaning its early 4.7-star average has essentially no statistical weight yet. It's included here for its spec sheet, 4 drawers plus a separate door compartment, 2 separate locks, and anti-tip design, all features none of the other picks in this list combine in one cabinet.\n\nIf you want the largest drawer count in this list and the anti-tip interlock, this is worth watching for more reviews to accumulate before treating the rating as reliable, or you can weigh the spec sheet on its own merits in the meantime.\n\nA genuine advantage here is that anti-tip design, a safety feature many budget cabinets skip. The tradeoff is that very few ratings so far, early data only.",
+      "It's included here for its spec sheet, 4 drawers plus a separate door compartment, 2 separate locks, and anti-tip design, all features none of the other picks in this list combine in one cabinet.\n\nIf you want the largest drawer count in this list and the anti-tip interlock, this is worth watching for more reviews to accumulate before treating the rating as reliable, or you can weigh the spec sheet on its own merits in the meantime.\n\nA genuine advantage here is that anti-tip design, a safety feature many budget cabinets skip. The tradeoff is that very few ratings so far, early data only.",
     specs: [
       "4 drawers plus 1 door compartment",
       "2 separate locks",
       "Anti-tip design",
       "Letter, legal, and A4 compatible",
-      "White finish, assembly required",
+      "White finish, assembly required"
     ],
     pros: [
       "Highest drawer count in this list",
       "Anti-tip design, a safety feature many budget cabinets skip",
       "Two separate locks",
-      "Supports three file sizes",
+      "Supports three file sizes"
     ],
     cons: [
       "Very few ratings so far, early data only",
       "Assembly required for the largest configuration in this list",
-      "Price not consistently listed, check current Amazon pricing",
+      "Price not consistently listed, check current Amazon pricing"
     ],
     bestFor: "Buyers who want maximum drawer capacity and anti-tip safety, and are comfortable being an early buyer",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -328,7 +328,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Construction and assembly",
     description:
       "Noted all-metal versus mixed metal-and-fabric construction, along with whether a cabinet ships fully assembled or requires setup.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -465,17 +465,17 @@ export const faq: FaqItem[] = [
     a: "Treat a standard cabinet lock as a privacy feature that deters casual access, not as security-grade protection. If you're storing something that genuinely needs to be secure, a dedicated locking safe is a better fit than relying on a file cabinet's built-in lock.",
   },
   {
-    q: "Should I trust a 4.7-star rating on a listing with only 4 reviews?",
+    q: "",
     a: "Treat it cautiously. A handful of reviews, even at a high average, hasn't accumulated enough data points to be statistically reliable, and the rating can shift meaningfully as more buyers weigh in. Weigh the stated spec sheet more heavily than the early star rating on a very new listing like the Livofloral pick in this list.",
   },
   {
     q: "Do compact under-desk cabinets support legal-size hanging files?",
     a: "Most do, but not universally, check the specific listing. Several under-desk picks in this list, including the Letaya 3 Drawer and SISESOL Narrow, explicitly support letter, legal, and A4 sizes despite their compact footprint, but the GYIIYUO desktop-top pick only lists letter and A4 support.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-room-dividers-for-home-offices", title: "8 Best Room Dividers for Home Offices (2026)" },
   { href: "/guide/best-reclining-office-chairs-with-footrests", title: "8 Best Reclining Office Chairs with Footrests (2026)" },
-  { href: "/guide/best-dual-motor-standing-desks", title: "8 Best Dual-Motor Standing Desks (2026)" },
+  { href: "/guide/best-dual-motor-standing-desks", title: "8 Best Dual-Motor Standing Desks (2026)" }
 ];

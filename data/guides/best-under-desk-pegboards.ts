@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "under desk pegboard";
 export const introParagraphs = [
   "An under-desk pegboard serves a genuinely narrower purpose than a desk-back panel, it's really about cable and small-accessory organization rather than general desk-surface decluttering, worth keeping that distinction in mind since the products in this space are shaped by cable management first. It's also worth checking realistic knee clearance before installing one, a board or hung accessories that protrude too far into legroom can make a desk genuinely less comfortable to sit at, even if the mounting itself is solid.",
-  "Mounting hardware needs to be checked against your specific desk's underside construction, cross-bracing, support beams, or built-in drawers can block a clamp or bracket from fitting where you'd expect. And because it's tucked under the desk, low light makes finding and accessing hung items genuinely harder than on a visible desk-back panel, worth considering placement relative to any ambient light source.",
+  "Mounting hardware needs to be checked against your specific desk's underside construction, cross-bracing, support beams, or built-in drawers can block a clamp or bracket from fitting where you'd expect. And because it's tucked under the desk, low light makes finding and accessing hung items genuinely harder than on a visible desk-back panel, worth considering placement relative to any ambient light source."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Under-Desk Tray",
     name: "PEGZONE Under Desk Cable Management Tray, 30.2\" No-Drill C-Clamp Pegboard",
     price: "$25.99",
-    rating: "4.9 stars from Amazon ratings",
-    reviews: "66 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31h2QOu6ArL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQJ21TD4?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Small Accessories, White",
     name: "PEGZONE Desk Side Storage Organizer, Fits Flat Edge 0.4\" to 2.2\", White",
     price: "$24.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "428 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41tGKIBolqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CTQND9BL?tag=deskfinds0d-20",
     description:
@@ -60,14 +60,14 @@ export const products: GuideProduct[] = [
     badge: "Best for Wider Desks",
     name: "Univivi No Drill Under Desk Cable Management Tray, 36 inch",
     price: "$37.98",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "744 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41XfsAb0YwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK13ZHNJ?tag=deskfinds0d-20",
     description:
       "A larger 36-inch cable tray with by far the largest review base in this list, appropriate for buyers with a wide desk who want a single tray covering the full cable run underneath.\n\nThe extra length means more of the tray sits within potential knee clearance depending on exactly where you position it, worth test-fitting mounting position before finalizing placement.\n\n36 inch length covers wider desks in one tray. On the other hand, longer tray means more potential overlap with knee clearance depending on placement. Both are worth keeping in mind before deciding.",
     specs: ["36 inch tray length", "No-drill mount", "Cable management focus", "Very large review base"],
-    pros: ["Largest, most reliable review base in this list at over 700 ratings", "36 inch length covers wider desks in one tray", "No-drill mount avoids permanent modification", "Strong 4.7-star rating"],
+    pros: [ "36 inch length covers wider desks in one tray", "No-drill mount avoids permanent modification", "Cable management tray for tidy wiring"],
     cons: ["Longer tray means more potential overlap with knee clearance depending on placement", "Mounting hardware must be checked against desk underside construction", "Narrower focus on cables over general accessory storage"],
     bestFor: "Buyers with a wide desk wanting one long, well-reviewed tray to cover the full cable run.",
   },
@@ -77,17 +77,17 @@ export const products: GuideProduct[] = [
     badge: "Best Combined Shelf and Pegboard",
     name: "Metal Clamp On Desk Shelf, Storage Shelves with Pegboard and Pencil Holder",
     price: "$37.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "54 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41oUaLqsLtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G4R17HMV?tag=deskfinds0d-20",
     description:
       "A clamp-on metal shelf with a small pegboard section, positioned at the desk edge rather than deep underneath, which keeps it clear of most seating positions while still adding hanging and shelf storage.\n\nThe compact design means this trades some capacity for reduced knee-clearance impact compared to a full-length under-desk tray, appropriate for buyers prioritizing legroom over maximum storage.\n\nA genuine advantage here is that metal build holds up better than a plastic tray. The tradeoff is that smaller capacity than a dedicated cable management tray.",
     specs: ["Metal clamp-on shelf", "Small pegboard section", "Pencil holder included", "Compact, edge-mounted footprint"],
     pros: ["Compact edge-mounted design minimizes knee clearance impact", "Metal build holds up better than a plastic tray", "Combines shelf and hanging pegboard storage", "Reasonable price for the combination of features"],
-    cons: ["Smaller capacity than a dedicated cable management tray", "Moderate 4.3-star rating relative to others in this list", "Not designed for routing longer cable runs"],
+    cons: ["Smaller capacity than a dedicated cable management tray", "Not designed for routing longer cable runs"],
     bestFor: "Buyers prioritizing legroom who want compact combined shelf and pegboard storage near the desk edge.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -95,7 +95,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Knee clearance impact assessed realistically", description: "Weighed how far each product's placement and length could realistically intrude into legroom rather than assuming all under-desk placement is equally unobtrusive." },
   { title: "Cable and small-accessory focus over general decluttering", description: "Evaluated each pick against its narrower under-desk use case of cable and small-item organization rather than general desk-surface storage capacity." },
   { title: "Mounting compatibility with desk underside construction", description: "Considered whether each product's clamp or bracket would realistically clear cross-bracing, support beams, or drawers common on many desk undersides." },
-  { title: "Visibility and access in low light", description: "Weighed how easily hung or stored items could be located and reached in the dimmer conditions typical under a desk." },
+  { title: "Visibility and access in low light", description: "Weighed how easily hung or stored items could be located and reached in the dimmer conditions typical under a desk." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -226,11 +226,11 @@ export const faq: FaqItem[] = [
   { q: "Will an under-desk pegboard reduce my legroom?", a: "It can, a board or hung accessories that protrude too far into legroom make the desk less comfortable, measure realistic knee clearance before installing, especially with a full-length tray placed deep underneath." },
   { q: "Can I mount any under-desk tray to my specific desk?", a: "Not necessarily, cross-bracing, support beams, or drawers on your desk's underside can block a clamp or bracket from fitting, check your desk's construction before ordering." },
   { q: "Is an under-desk pegboard good for general desk decluttering?", a: "Not really, this category is shaped around cable and small-accessory organization specifically, a desk-back pegboard is a better fit for general surface decluttering." },
-  { q: "Are items hard to find on an under-desk pegboard?", a: "It can be, low light under the desk makes locating and reaching hung items genuinely harder than on a visible desk-back panel, consider placement near ambient light." },
+  { q: "Are items hard to find on an under-desk pegboard?", a: "It can be, low light under the desk makes locating and reaching hung items genuinely harder than on a visible desk-back panel, consider placement near ambient light." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-pegboards-with-shelves", title: "Best Desk Pegboards with Shelves (2026)" },
   { href: "/guide/best-clamp-on-desk-pegboards", title: "Best Clamp-On Desk Pegboards (2026)" },
-  { href: "/guide/best-desk-pegboard-organizers", title: "Best Desk Pegboard Organizers (2026)" },
+  { href: "/guide/best-desk-pegboard-organizers", title: "Best Desk Pegboard Organizers (2026)" }
 ];

@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41kJmHhPEUL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DK1N529F?tag=deskfinds0d-20",
-    "description": "This pad is powered by a 5V USB cable, which the listing says can come from a power bank, laptop or adapter. It has a nano heating element, 3 heating levels with an indicator light, timer choices of 1 or 2 hours, a lumbar support section, and non-slip rubber on the bottom. It also lists wheelchair fit.\n\nIt is the only true USB pad in the group apart from WOOLALA, which is longer and cheaper. The USB power means weaker heat than 12V pads, and at $59.99 it costs as much as COMFIER without a massage function.\n\nBest for someone who wants to run the pad from a power bank or laptop. The caveat is the price for a USB-level heater, and the listing does not name a brand.",
+    "description": "This pad is powered by a 5V USB cable, which the listing says can come from a power bank, laptop or adapter. It has a nano heating element, 3 heating levels with an indicator light, timer choices of 1 or 2 hours, a lumbar support section, and non-slip rubber on the bottom. It also lists wheelchair fit.\n\nIt is the only true USB pad in the group apart from WOOLALA, which is longer and cheaper. The USB power means weaker heat than 12V pads, and at under $60 it costs as much as COMFIER without a massage function.\n\nBest for someone who wants to run the pad from a power bank or laptop. The caveat is the price for a USB-level heater, and the listing does not name a brand.",
     "specs": [
       "5V USB, nano heating element",
       "3 levels, 1 or 2 hour timer",
@@ -289,15 +289,15 @@ export const howToChoose: HowToChooseSection[] = [
           "CILI Heated Lumbar Support Pillow with Vibration"
         ],
         [
-          "$59.99, massage focus",
+          "Under $60, massage focus",
           "comrelax Massage Seat Cushion with Heat"
         ],
         [
-          "$59.99, lumbar plus kneading",
+          "Under $60, lumbar plus kneading",
           "COMFIER Heated Lumbar Support Cushion with Kneading"
         ],
         [
-          "$59.99, USB powered",
+          "Under $60, USB powered",
           "Generic USB Heated Seat Pad with Lumbar Support"
         ]
       ]

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desktop printer stand";
 export const introParagraphs = [
   "A desktop printer stand's job is simple on paper: lift the printer off the desk surface and free up room underneath or beside it. In practice, the category overlaps heavily with CPU tower stands and monitor risers, since a low, stable platform rated for tens of pounds works just as well under a compact printer as it does under a computer tower or monitor, even when it was never marketed that way.",
-  "Below are 8 desktop printer stands and risers we evaluated on real weight capacity versus printer weight, vibration stability, ventilation, and honest labeling, ranging from purpose-marketed printer shelves to CPU stands and monitor risers that happen to make excellent low-profile printer platforms.",
+  "Below are 8 desktop printer stands and risers we evaluated on real weight capacity versus printer weight, vibration stability, ventilation, and honest labeling, ranging from purpose-marketed printer shelves to CPU stands and monitor risers that happen to make excellent low-profile printer platforms."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Locking caster wheels",
       "Built-in storage drawer",
       "Cable management cutouts",
-      "Purpose-built for printers",
+      "Purpose-built for printers"
     ],
     pros: [
       "Purpose-built printer stand, not a repurposed riser",
       "Cable cutouts keep cords tidy",
       "Storage drawer for paper or ink",
-      "Locking wheels for stable positioning",
+      "Locking wheels for stable positioning"
     ],
     cons: [
       "Taller footprint than a flat low riser",
       "Not as compact as a bare CPU stand",
-      "Drawer adds width some tight desks may not have",
+      "Drawer adds width some tight desks may not have"
     ],
     bestFor: "Buyers who want a dedicated printer stand rather than a repurposed riser",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Built-in charging station",
       "Rustic brown and black finish",
       "Sized for small home offices",
-      "Under-desk or on-desk placement",
+      "Under-desk or on-desk placement"
     ],
     pros: [
       "Built-in charging station is a genuine convenience",
       "2 tiers separate printer and supply storage",
       "Furniture-style finish blends into a room",
-      "Budget-friendly for a purpose-built stand",
+      "Budget-friendly for a purpose-built stand"
     ],
     cons: [
       "Smaller top shelf than dedicated printer carts",
       "Charging station adds one more cable to manage",
-      "Not rated for the heaviest all-in-one printers",
+      "Not rated for the heaviest all-in-one printers"
     ],
     bestFor: "Buyers who want a compact printer stand with a built-in charging port",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Underneath storage area",
       "Marketed as a monitor/laptop riser",
       "Compact flat platform",
-      "Lowest price in this list",
+      "Lowest price in this list"
     ],
     pros: [
       "Very low price for a stable flat platform",
       "Underneath storage adds a supply spot",
       "Low height suits a compact printer well",
-      "Simple, sturdy flat-panel design",
+      "Simple, sturdy flat-panel design"
     ],
     cons: [
       "Not marketed or rated specifically for printers",
       "Lower weight capacity than a dedicated printer stand",
-      "Small platform will not fit a large all-in-one",
+      "Small platform will not fit a large all-in-one"
     ],
     bestFor: "Buyers with a light, compact printer who want the lowest-cost riser option",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Rolling casters",
       "Low, flat platform",
       "Marketed as a CPU tower stand",
-      "Compact footprint",
+      "Compact footprint"
     ],
     pros: [
       "Very affordable low-profile platform",
       "Rolling casters for easy repositioning",
       "Adjustable width fits different footprints",
-      "Low height keeps a printer within easy reach",
+      "Low height keeps a printer within easy reach"
     ],
     cons: [
       "Not designed with printer dimensions in mind",
       "Narrower platform may not fit a wide all-in-one",
-      "No cable management features",
+      "No cable management features"
     ],
     bestFor: "Buyers who want the cheapest rolling low-profile platform for a compact printer",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "4 caster wheels",
       "Adjustable width",
       "Marketed as a CPU tower stand",
-      "Black finish",
+      "Black finish"
     ],
     pros: [
       "Ventilated design helps with heat dissipation",
       "4 casters make repositioning simple",
       "Adjustable width for different footprints",
-      "Low, stable platform",
+      "Low, stable platform"
     ],
     cons: [
       "Not marketed or dimensioned for printers specifically",
       "Open ventilated design is less enclosed than a solid shelf",
-      "May not suit heavier all-in-one printers",
+      "May not suit heavier all-in-one printers"
     ],
     bestFor: "Buyers who want a ventilated, low-profile riser for better heat dissipation under a printer",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "4 caster wheels",
       "Adjustable width",
       "Marketed as a CPU tower stand",
-      "White finish",
+      "White finish"
     ],
     pros: [
       "Ventilated design helps with heat dissipation",
       "White finish suits lighter desk setups",
       "4 casters make repositioning simple",
-      "Adjustable width for different footprints",
+      "Adjustable width for different footprints"
     ],
     cons: [
       "Not marketed or dimensioned for printers specifically",
       "Open ventilated design is less enclosed than a solid shelf",
-      "May not suit heavier all-in-one printers",
+      "May not suit heavier all-in-one printers"
     ],
     bestFor: "Buyers who want the ventilated CPU-stand riser in a white finish",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Built-in push handle",
       "Slim footprint",
       "4 rolling wheels",
-      "White finish",
+      "White finish"
     ],
     pros: [
       "3 full tiers for printer plus supplies",
       "Rolls easily to reclaim floor space",
       "Slim footprint fits tight rooms",
-      "More vertical storage than a flat riser",
+      "More vertical storage than a flat riser"
     ],
     cons: [
       "Taller than a low desktop riser, not always desirable",
       "Not printer-specific, open shelving only",
-      "No drawer for hiding small items",
+      "No drawer for hiding small items"
     ],
     bestFor: "Buyers who want more height and multi-tier storage instead of a flat low riser",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Heavy duty steel frame",
       "4 caster wheels",
       "White finish",
-      "Highest weight capacity in this list",
+      "Highest weight capacity in this list"
     ],
     pros: [
       "Highest real weight capacity in this list",
       "Open shelving allows good airflow around the printer",
       "3 tiers for printer plus supplies",
-      "Sturdy steel construction",
+      "Sturdy steel construction"
     ],
     cons: [
       "Not marketed or designed specifically for printers",
       "Taller than a flat low riser",
-      "No drawer or cable cutouts",
+      "No drawer or cable cutouts"
     ],
     bestFor: "Buyers with a heavier laser all-in-one printer who need real weight capacity",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Lift height for realistic tray access",
     description: "Considered how much a stand raises the printer relative to seated or standing reach, since too much lift makes the paper tray uncomfortably high while too little defeats the purpose of a riser.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -462,11 +462,11 @@ export const faq: FaqItem[] = [
   {
     q: "Do open-shelf utility carts work as well as dedicated printer stands?",
     a: "Functionally, yes. Open metal utility carts like the Simple Houseware and Pipishell were not designed with printers in mind, but their sturdy frames, decent weight capacity, and open airflow make them a solid substitute for a purpose-built printer stand, often at a similar or lower price.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-rolling-printer-stands", title: "Best Rolling Printer Stands (2026)" },
   { href: "/guide/best-printer-cabinets-for-home-offices", title: "Best Printer Cabinets for Home Offices (2026)" },
-  { href: "/guide/best-small-printer-stands", title: "Best Small Printer Stands for Home Offices (2026)" },
+  { href: "/guide/best-small-printer-stands", title: "Best Small Printer Stands for Home Offices (2026)" }
 ];

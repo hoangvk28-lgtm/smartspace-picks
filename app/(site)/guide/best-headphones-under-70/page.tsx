@@ -199,7 +199,7 @@ export default async function BestHeadphonesUnder70Page() {
     about: [
       { "@type": "Thing", name: "Headphones Under $70" },
       { "@type": "Thing", name: "Wireless Headphones" },
-      { "@type": "Thing", name: "ANC Headphones" },
+      { "@type": "Thing", name: "ANC Headphones" }
     ],
   };
 
@@ -219,7 +219,7 @@ export default async function BestHeadphonesUnder70Page() {
         position: 3,
         name: "Best Headphones Under $70",
         item: `${SITE_URL}/guide/best-headphones-under-70`,
-      },
+      }
     ],
   };
 
@@ -503,7 +503,7 @@ export default async function BestHeadphonesUnder70Page() {
                       feature: "Earbuds with ANC",
                       under50: "Basic TWS ANC",
                       under70: "Samsung Galaxy Buds FE ecosystem integration",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr
                       key={i}
@@ -669,7 +669,7 @@ export default async function BestHeadphonesUnder70Page() {
                 name: "HyperX Cloud Stinger 2",
                 verdict:
                   ": DTS spatial audio, 50mm drivers, swivel-to-mute mic, universal 3.5mm compatibility across PC, console, and mobile.",
-              },
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

@@ -109,8 +109,8 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0H86C8ZH3?tag=deskfinds0d-20",
     description: "LITTLE TREE 47 Inches Round Conference Table for 4-6 measures 47 Inch and is built around premium e1 grade mdf construction, positioning it for small with chairs buyers specifically.\n\nBeyond that core spec, the listing describes construction suited to daily conference-room use, without unusual assembly or maintenance requirements.\n\nBest for buyers specifically looking for small with chairs, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["47 Inch table dimensions","Premium E1 Grade MDF Construction","Assembly hardware and instructions included per the listing"],
-    pros: ["Premium E1 Grade MDF Construction, confirmed directly in the listing's own spec details","Priced at $152.99, positioned for small with chairs shoppers specifically","Sized at 47 Inch, matching the space this guide is built around"],
-    cons: ["At $152.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    pros: ["Premium E1 Grade MDF Construction, confirmed directly in the listing's own spec details","Priced under $160, positioned for small with chairs shoppers specifically","Sized at 47 Inch, matching the space this guide is built around"],
+    cons: ["At under $160, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for small with chairs",
   },
   {
@@ -126,7 +126,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 47-Inch Round Conference Table for 4-6 People and is built around spacious 47-inch round design, positioning it for small with chairs buyers specifically.\n\nDurable Commercial-Grade Build is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for small with chairs, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Spacious 47-Inch Round Design","Durable Commercial-Grade Build","Sturdy & Stable Foundation"],
     pros: ["Spacious 47-Inch Round Design, confirmed directly in the listing's own spec details","Durable Commercial-Grade Build, confirmed directly in the listing's own spec details","Sturdy & Stable Foundation, confirmed directly in the listing's own spec details"],
-    cons: ["At $189.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $190, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for small with chairs",
   },
   {
@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     description: "Tribesigns 47-Inch Round Conference Table for 4-6 People and is built around spacious 47-inch round design, positioning it for small with chairs buyers specifically.\n\nDurable Commercial-Grade Build is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for small with chairs, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Spacious 47-Inch Round Design","Durable Commercial-Grade Build","Sturdy & Stable Foundation"],
     pros: ["Spacious 47-Inch Round Design, confirmed directly in the listing's own spec details","Durable Commercial-Grade Build, confirmed directly in the listing's own spec details","Sturdy & Stable Foundation, confirmed directly in the listing's own spec details"],
-    cons: ["At $189.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $190, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for small with chairs",
   }
 
@@ -210,40 +210,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $152.99",
+          "Under $160",
           "LITTLE TREE 47 Inches Round Conference Table for 4-6"
         ],
         [
-          "Around $189.99",
+          "Under $190",
           "Tribesigns 47-Inch Round Conference Table for 4-6 People"
         ],
         [
-          "Around $189.99",
+          "Under $190",
           "Tribesigns 47-Inch Round Conference Table for 4-6 People"
         ],
         [
-          "Around $399.68",
+          "Under $400",
           "GAZOGJ 31.5\" Round Table & 4 Chair Set for Small Office"
         ],
         [
-          "Around $581.97",
+          "Under $600",
           "Flash Furniture 5-Piece Oval Conference Table & Chair Set"
         ],
         [
-          "Around $1,899.99",
+          "Under $1,900",
           "Bonzy Home 14FT Conference Table & 16-Chair Set"
         ],
         [
-          "Around $1,935.99",
+          "Under $2,000",
           "GOF 10FT Conference Table & 8 Chairs Set"
         ],
         [
-          "Around $1,947.00",
+          "Under $2,000",
           "GOF 10FT Conference Table & 8 Chairs Set"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -291,7 +291,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "GOF 10FT Conference Table & 8 Chairs Set is aimed at buyers prioritizing 120\"w x 48\"d table, 2-piece top on slab legs." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "GOF 10FT Conference Table & 8 Chairs Set is aimed at buyers prioritizing 120\"w x 48\"d table, 2-piece top on slab legs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-conference-tables-with-chairs","title":"Best Conference Tables With Chairs in 2026"},{"href":"/guide/best-conference-tables","title":"Best Conference Tables in 2026"},{"href":"/guide/best-rectangular-conference-tables","title":"Best Rectangular Conference Tables in 2026"}];

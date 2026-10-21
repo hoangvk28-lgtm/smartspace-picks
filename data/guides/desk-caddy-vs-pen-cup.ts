@@ -12,7 +12,7 @@ export const deskCaddyVsPenCupGuide: Guide = {
     "multi compartment desk caddy vs cup",
     "simple pen holder vs organizer",
     "how much desk organization do i need",
-    "minimal desk supply storage",
+    "minimal desk supply storage"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskCaddyVsPenCupGuide: Guide = {
     "desk-organizer-types-explained",
     "desk-declutter-checklist",
     "desk-drawer-organizer-vs-tray",
-    "what-size-desk-do-i-need",
+    "what-size-desk-do-i-need"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskCaddyVsPenCupGuide: Guide = {
       question: "Can I combine a simple cup with other organizers instead of one big caddy?",
       answer:
         "Yes, some people prefer a simple pen cup for writing tools plus a separate small tray or dish for other items, rather than one larger multi-compartment caddy, this modular approach can also take up less total space depending on your specific items.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const deskCaddyVsPenCupGuide: Guide = {
     {
       heading: "Recognizing When You've Actually Outgrown a Simple Cup",
       body: `The signal to upgrade from a simple cup to a more structured caddy isn't a fixed rule but rather noticing that your cup has become a jumbled mix of unrelated items, pens tangled with paperclips, sticky notes wedged in with scissors, making it harder to find what you need quickly. Once you notice this friction regularly, it's a practical sign that separated compartments would genuinely improve your daily desk experience rather than just adding unnecessary structure.`,
-    },
+    }
   ],
 };

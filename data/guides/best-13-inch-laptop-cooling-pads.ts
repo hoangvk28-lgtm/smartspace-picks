@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "13-inch laptop cooling pads";
 export const introParagraphs = [
   "A 13-inch label describes screen diagonal, not the laptop's base footprint that actually sits on a cooling pad. Width, depth, and vent location vary across laptops with the same nominal screen size, so fit should be checked against the pad's stated minimum compatible size rather than the 13-inch number alone.",
-  "This guide compares six pads whose stated compatible-size ranges genuinely cover the smaller end near 13 inches, cross-referencing our MacBook Air guide since 13-inch laptops overlap heavily with ultrabook-class devices.",
+  "This guide compares six pads whose stated compatible-size ranges genuinely cover the smaller end near 13 inches, cross-referencing our MacBook Air guide since 13-inch laptops overlap heavily with ultrabook-class devices."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine size-range verification", description: "We compared each product's stated compatible size range against 13 inches specifically, rather than assuming any pad marked up to 17 inches is equally suited to a 13-inch laptop." },
   { title: "Fan-to-vent alignment for compact chassis", description: "We considered whether the fan spread and pad footprint are proportional to a smaller laptop's narrower base, not just technically large enough." },
   { title: "MacBook Air overlap", description: "We cross-referenced our MacBook Air cooling pad research, since many 13-inch laptops are ultrabook-class devices with similar vent-placement considerations." },
-  { title: "Ergonomic range and extras", description: "We compared height adjustment levels and USB port counts as secondary differentiators once size fit was established." },
+  { title: "Ergonomic range and extras", description: "We compared height adjustment levels and USB port counts as secondary differentiators once size fit was established." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -259,11 +259,11 @@ export const faq: FaqItem[] = [
   { q: "Is my MacBook Air 13-inch covered by this guide?", a: "MacBook Air has unique fanless-chassis considerations, see our dedicated Best Laptop Cooling Pads for MacBook Air guide for that specific honesty caveat before buying any of these picks for an Air." },
   { q: "Will a pad rated for 15.6-17 inches still cool a 13-inch laptop?", a: "It can, but the fan placement is optimized for a wider chassis, so a 13-inch laptop may not align as well with the airflow as it would on a more size-appropriate pad." },
   { q: "What's the smallest laptop size these pads support?", a: "The Coolertek pick supports down to 11 inches, the smallest range in this guide, useful if your laptop is on the more compact end." },
-  { q: "Should I size up if I might upgrade to a bigger laptop later?", a: "If you expect to upgrade soon, a pad with a wider stated range like the Kootek or LIANGSTAR picks gives more flexibility, at the cost of some size-fit precision today." },
+  { q: "Should I size up if I might upgrade to a bigger laptop later?", a: "If you expect to upgrade soon, a pad with a wider stated range like the Kootek or LIANGSTAR picks gives more flexibility, at the cost of some size-fit precision today." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-14-inch-laptop-cooling-pads", title: "Best 14-Inch Laptop Cooling Pads (2026)" },
   { href: "/guide/best-laptop-cooling-pads-for-macbook-air", title: "Best Laptop Cooling Pads for MacBook Air (2026)" },
-  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" }
 ];

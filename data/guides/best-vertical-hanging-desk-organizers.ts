@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "vertical hanging desk organizers";
 export const introParagraphs = [
   "\"Vertical\" here refers to a genuine multi-tier stacked design rather than a single horizontal pocket or basket. A taller vertical organizer creates more leverage stress on its mounting point than a compact single-tier design, and we checked per-tier weight capacity independently since a multi-tier structure distributes load differently than a single pocket.",
-  "We also considered whether the topmost and bottommost tiers stay comfortably reachable, since a very tall vertical design can create genuine reach difficulty for the tiers at either extreme.",
+  "We also considered whether the topmost and bottommost tiers stay comfortably reachable, since a very tall vertical design can create genuine reach difficulty for the tiers at either extreme."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine multi-tier vertical design verification", description: "We confirmed each pick uses an actual stacked multi-tier structure rather than a single horizontal pocket marketed loosely as 'vertical.'" },
   { title: "Per-tier weight capacity", description: "We considered each tier's independent load capacity, since a vertical multi-tier design distributes weight differently than a single-pocket organizer." },
   { title: "Mounting-point leverage stress", description: "We noted that taller vertical organizers create more leverage on their attachment point, and favored lighter mesh construction or desk-edge/freestanding designs that reduce this concern." },
-  { title: "Cross-tier reach accessibility", description: "We checked whether the topmost and bottommost tiers stay comfortably reachable, a real usability factor for taller vertical designs." },
+  { title: "Cross-tier reach accessibility", description: "We checked whether the topmost and bottommost tiers stay comfortably reachable, a real usability factor for taller vertical designs." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -229,11 +229,11 @@ export const faq: FaqItem[] = [
   { q: "Can I reach all the tiers on a 7-tier organizer comfortably?", a: "The topmost and bottommost tiers require more reach on a tall design like this. If reach is a concern, a more compact 3-4 tier design keeps everything within easy access." },
   { q: "Does each tier hold the same amount of weight?", a: "Not necessarily. A vertical organizer's total weight rating doesn't always mean each tier independently supports that same weight. Check for per-tier capacity disclosure if you plan uneven loading." },
   { q: "Is there a vertical organizer that doesn't require wall mounting?", a: "Yes, the Safco Onyx hangs from a desk edge and the Mind Reader pick is freestanding, both avoiding the wall-mounting leverage concern entirely." },
-  { q: "Which pick lets me customize the spacing between tiers?", a: "The Jakyitvi Adjustable 5 Tiers pick offers independently adjustable tier spacing, letting you customize each level's height for different document or folder sizes." },
+  { q: "Which pick lets me customize the spacing between tiers?", a: "The Jakyitvi Adjustable 5 Tiers pick offers independently adjustable tier spacing, letting you customize each level's height for different document or folder sizes." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-hanging-desk-organizers", title: "Best Hanging Desk Organizers (2026)" },
   { href: "/guide/best-wall-hanging-desk-organizers", title: "Best Wall-Hanging Desk Organizers (2026)" },
-  { href: "/guide/best-desktop-hanging-file-organizers", title: "Best Desktop Hanging File Organizers (2026)" },
+  { href: "/guide/best-desktop-hanging-file-organizers", title: "Best Desktop Hanging File Organizers (2026)" }
 ];

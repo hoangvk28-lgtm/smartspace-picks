@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "printer for home use";
 export const introParagraphs = [
   "The right printer for home use depends more on how often you print than on the sticker price. A cheap inkjet that sits idle for weeks between print jobs can end up costing more over a few years than a pricier ink-tank model, once dried-out cartridges and wasted cleaning cycles are factored in.",
-  "Below are 8 printers we evaluated on upfront price, print technology, and realistic home print volume, plus one Bluetooth label maker that solves a narrower but genuinely useful home task. We call out honestly which pick is a full general-purpose home printer and which is a specialty labeling tool, since they're not interchangeable.",
+  "Below are 8 printers we evaluated on upfront price, print technology, and realistic home print volume, plus one Bluetooth label maker that solves a narrower but genuinely useful home task. We call out honestly which pick is a full general-purpose home printer and which is a specialty labeling tool, since they're not interchangeable."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "3-month Instant Ink trial included",
       "Standard cartridge inkjet",
       "AI-capable setup features",
-      "Lowest upfront price in this list",
+      "Lowest upfront price in this list"
     ],
     pros: [
       "Lowest upfront cost in this list",
       "Instant Ink trial reduces initial cartridge spend",
       "Compact wireless all-in-one",
-      "Straightforward setup",
+      "Straightforward setup"
     ],
     cons: [
       "Standard cartridges can dry out with infrequent use",
       "Higher long-term ink cost than an ink-tank printer at high volume",
-      "Fewer scan/copy features than pricier all-in-ones",
+      "Fewer scan/copy features than pricier all-in-ones"
     ],
     bestFor: "Light, occasional home printing on the smallest possible budget",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Built-in fax",
       "Mobile printing support",
       "Wireless all-in-one",
-      "Standard cartridge inkjet",
+      "Standard cartridge inkjet"
     ],
     pros: [
       "Auto document feeder for multi-page scanning",
       "Built-in fax, useful for households that still need it",
       "Competitive budget price",
-      "Mobile printing support",
+      "Mobile printing support"
     ],
     cons: [
       "Fax is a feature most households in 2026 won't use",
       "Same idle-ink drying risk as any cartridge inkjet",
-      "No ink-tank option for high-volume households",
+      "No ink-tank option for high-volume households"
     ],
     bestFor: "Households that occasionally scan or fax multi-page paperwork",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Duplex (double-sided) printing",
       "Copier/scanner built in",
       "1-year limited warranty",
-      "Easy setup",
+      "Easy setup"
     ],
     pros: [
       "Compact footprint fits small spaces",
       "Duplex printing saves paper and time",
       "1-year warranty included",
-      "Simple, quick setup",
+      "Simple, quick setup"
     ],
     cons: [
       "Best suited to lighter print volumes",
       "Standard cartridges, same idle-ink risk as other inkjets",
-      "Fewer connectivity options than pricier models",
+      "Fewer connectivity options than pricier models"
     ],
     bestFor: "Small spaces and light, occasional home printing needs",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Duplex printing",
       "Intuitive control panel",
       "Compact design",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     pros: [
       "Clear OLED display simplifies multi-user households",
       "Duplex printing built in",
       "Compact footprint",
-      "Reasonable price for the added display",
+      "Reasonable price for the added display"
     ],
     cons: [
       "Standard cartridges, not an ink-tank system",
       "Best value at lower monthly print volumes",
-      "No fax, unlike the TR4720",
+      "No fax, unlike the TR4720"
     ],
     bestFor: "Households where multiple people share the printer and want a clear display",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Duplex printing",
       "Wireless + mobile printing",
       "Refresh Subscription toner trial",
-      "No idle-ink drying risk",
+      "No idle-ink drying risk"
     ],
     pros: [
       "No idle-ink drying risk, unlike every inkjet in this list",
       "Lower cost per page at higher print volumes",
       "Fast, sharp text output",
-      "Works with Alexa",
+      "Works with Alexa"
     ],
     cons: [
       "Highest upfront price in this list",
       "Monochrome only, no color printing",
-      "Overkill for households printing under 20 pages a month",
+      "Overkill for households printing under 20 pages a month"
     ],
     bestFor: "Households with genuinely high-volume, text-heavy printing needs",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Duplex printing",
       "3-month Instant Ink trial",
       "AI-enabled setup",
-      "Best-for-Home Office rated",
+      "Best-for-Home Office rated"
     ],
     pros: [
       "Built for more frequent home printing than budget picks",
       "Auto document feeder for multi-page jobs",
       "Instant Ink trial reduces early cartridge costs",
-      "Duplex printing standard",
+      "Duplex printing standard"
     ],
     cons: [
       "Pricier than the basic PIXMA and DeskJet picks",
       "Instant Ink subscription cost after the trial needs to be budgeted",
-      "Larger footprint than the compact inkjets",
+      "Larger footprint than the compact inkjets"
     ],
     bestFor: "Households that print regularly, not just occasionally",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Duplex printing",
       "3-month Instant Ink trial included",
       "AI-capable setup",
-      "Best-for-Home Office rated",
+      "Best-for-Home Office rated"
     ],
     pros: [
       "Same capable hardware as the 8125e",
       "Auto document feeder and duplex printing",
       "Good print quality for the price tier",
-      "AI-capable setup tools",
+      "AI-capable setup tools"
     ],
     cons: [
       "Highest price among the general-purpose inkjets here",
       "Overkill for very light occasional printing",
-      "Larger than the compact PIXMA picks",
+      "Larger than the compact PIXMA picks"
     ],
     bestFor: "Regular home printing with a bit more control over ink subscription choices",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Mobile app with multiple templates",
       "Compact, portable design",
       "Includes starter label tape",
-      "Not a substitute for a document printer",
+      "Not a substitute for a document printer"
     ],
     pros: [
       "Very low price for genuinely useful home labeling",
       "Compact and portable, no desk space required",
       "Multiple templates via mobile app",
-      "Simple, quick setup",
+      "Simple, quick setup"
     ],
     cons: [
       "Cannot print documents, photos, or full pages",
       "Not a general home printer despite showing up in printer searches",
-      "Ongoing tape refill cost for heavy labeling use",
+      "Ongoing tape refill cost for heavy labeling use"
     ],
     bestFor: "Households that want a dedicated labeling tool alongside their actual printer",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for stated print volume",
     description: "Compared price against the household print volume each pick is realistically built for, from light occasional use to frequent daily printing.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -466,11 +466,11 @@ export const faq: FaqItem[] = [
   {
     q: "How much faster is a laser printer for a quick one-page job?",
     a: "Laser printers typically warm up from a cold start in about 10-15 seconds, while inkjets often run a 30-60 second nozzle check before printing the first page. If you frequently print a single page and need it fast, that difference is noticeable over dozens of quick jobs a month.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-home-offices", title: "Best Printers for Home Offices (2026)" },
   { href: "/guide/best-printer-stands-for-two-printers", title: "Best Printer Stands for Two Printers (2026)" },
-  { href: "/guide/best-printer-stands-with-storage", title: "Best Printer Stands with Storage (2026)" },
+  { href: "/guide/best-printer-stands-with-storage", title: "Best Printer Stands with Storage (2026)" }
 ];

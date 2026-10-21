@@ -145,23 +145,23 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $37.97",
+          "Under $40",
           "UGREEN 10-Port PoE Switch (8x PoE+ @60W)"
         ],
         [
-          "Around $39.99",
+          "Under $40",
           "POE-Powered 3-Port Switch & Midspan Extender"
         ],
         [
-          "Around $59.99",
+          "Under $60",
           "TP-Link LS108GP 8-Port PoE Gigabit Switch"
         ],
         [
-          "Around $69.99",
+          "Under $70",
           "NETGEAR GS308PP 8-Port PoE+ Unmanaged Switch (83W)"
         ],
         [
-          "Around $79.99",
+          "Under $80",
           "NETGEAR GS308EP 8-Port PoE+ Smart Managed Switch"
         ]
       ]
@@ -216,10 +216,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "UGREEN 10-Port PoE Switch (8x PoE+ @60W) is aimed at buyers prioritizing 8x poe+ @60w + 2 uplinks, at $37.97."
+        "text": "UGREEN 10-Port PoE Switch (8x PoE+ @60W) is aimed at buyers prioritizing 8x poe+ @60w + 2 uplinks, at under $40."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -256,10 +256,10 @@ export const faq = [
   }
 ,
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "POE-Powered 3-Port Switch & Midspan Extender is aimed at buyers prioritizing 3 poe-powered outputs, no wall power needed." },
-  { q: "Which pick offers the best value for a tight budget?", a: "UGREEN 10-Port PoE Switch (8x PoE+ @60W) is aimed at buyers prioritizing 8x poe+ @60w + 2 uplinks, and at $37.97 it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $37.97 to $79.99, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Which pick offers the best value for a tight budget?", a: "UGREEN 10-Port PoE Switch (8x PoE+ @60W) is aimed at buyers prioritizing 8x poe+ @60w + 2 uplinks, and at under $40 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $40 to $80, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
   { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "NETGEAR GS308EP 8-Port PoE+ Smart Managed Switch is aimed at buyers prioritizing 8x poe+ ports @62w, easy smart managed. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
-  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "TP-Link LS108GP 8-Port PoE Gigabit Switch is aimed at buyers prioritizing 8x poe+ ports @65w total." },
+  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "TP-Link LS108GP 8-Port PoE Gigabit Switch is aimed at buyers prioritizing 8x poe+ ports @65w total." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-poe-network-switches","title":"7 Best PoE Network Switches in 2026"},{"href":"/guide/best-outdoor-network-switches","title":"8 Best Outdoor Network Switches in 2026"},{"href":"/guide/best-din-rail-network-switches","title":"8 Best DIN-Rail Network Switches in 2026"}];

@@ -12,7 +12,7 @@ export const officeChairCasterTypesExplainedGuide: Guide = {
     "office chair wheels for hardwood floors",
     "office chair casters for carpet",
     "hard vs soft caster wheels",
-    "office chair mat vs caster type",
+    "office chair mat vs caster type"
   ],
   heroImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const officeChairCasterTypesExplainedGuide: Guide = {
     "office-chair-size-chart",
     "chair-tilt-mechanisms-explained",
     "desk-mat-vs-desk-pad",
-    "office-chair-weight-capacity-explained",
+    "office-chair-weight-capacity-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const officeChairCasterTypesExplainedGuide: Guide = {
       question: "Are locking casters available for office chairs?",
       answer:
         "Yes, some office chairs offer locking casters that stay stationary until weight is applied to the seat, useful for standing desks or situations where you don't want the chair rolling away when unoccupied.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const officeChairCasterTypesExplainedGuide: Guide = {
     {
       heading: "Checking Compatibility Before Buying Replacement Casters",
       body: `Office chair casters attach via a standard stem, most commonly 10mm or 11mm in diameter, so measure your existing caster's stem before ordering a replacement set to ensure a proper fit. Replacement caster sets are widely available and inexpensive relative to buying a new chair, making this a straightforward fix if you've moved a chair to different flooring than it was originally set up for.`,
-    },
+    }
   ],
 };

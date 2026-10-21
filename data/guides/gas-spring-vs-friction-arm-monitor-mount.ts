@@ -11,7 +11,7 @@ export const gasSpringVsFrictionArmMonitorMountGuide: Guide = {
   subKeywords: [
     "gas spring monitor arm explained",
     "friction arm monitor mount",
-    "monitor arm sagging fix",
+    "monitor arm sagging fix"
   ],
   heroImage: "https://images.unsplash.com/photo-1632064824547-e77c36851495?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1632064824547-e77c36851495?q=80&w=800&auto=format&fit=crop",
@@ -23,7 +23,7 @@ export const gasSpringVsFrictionArmMonitorMountGuide: Guide = {
     "best-monitor-arm-desk-mounts",
     "best-monitor-arm-mounts-under-50",
     "best-desk-pegboards-with-monitor-mounts",
-    "best-gas-spring-standing-desk-converters",
+    "best-gas-spring-standing-desk-converters"
   ],
   faq: [
     {
@@ -50,7 +50,7 @@ export const gasSpringVsFrictionArmMonitorMountGuide: Guide = {
       question: "Can I use a friction arm for a heavy 4K or ultrawide monitor?",
       answer:
         "Only if the friction arm is specifically rated for that weight, since heavier monitors need proportionally more tension to hold position, which increases wear on the friction mechanism faster. Gas spring arms are generally the safer choice for monitors over roughly 15-17 lbs.",
-    },
+    }
   ],
   sections: [
     {
@@ -78,6 +78,6 @@ export const gasSpringVsFrictionArmMonitorMountGuide: Guide = {
       body: `If your monitor is on the heavier side (roughly 15 lbs or more, common for 27-32 inch and ultrawide displays) or you adjust its position frequently throughout the day, a gas spring arm is the more reliable long-term choice, since it's built to handle sustained adjustment without the mechanism wearing down.
 
 If your monitor is lighter (under 15 lbs, typical for 19-24 inch displays) and you rarely reposition it after initial setup, a friction arm is a reasonable, more affordable choice, as long as you're willing to occasionally retighten the tension screw if it starts to droop after months of use.`,
-    },
+    }
   ],
 };

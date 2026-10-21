@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook and planner";
 export const introParagraphs = [
   "This overlaps with our digital notebooks with calendars guide, since the same Rocketbook Fusion lineup is the real product match for both searches. The distinction we're drawing here is a true notebook-planner combo: handwriting note pages plus dated or undated planning pages in the same reusable notebook, not just a calendar grid.",
-  "We excluded plain Core-line notebooks entirely from this list, since they don't include any planning structure, those belong in our plain reusable notebooks guide instead.",
+  "We excluded plain Core-line notebooks entirely from this list, since they don't include any planning structure, those belong in our plain reusable notebooks guide instead."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41DUQEUXetL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHZ82DK?tag=deskfinds0d-20",
     description: "Combines free dot-grid note pages with undated planning templates in the same reusable notebook, backed by the largest and highest-rated review base of any product in this comparison.\n\nIt earns the top spot in this comparison over Rocketbook Fusion Hybrid Reusable Planner Notebook for one main reason. Most proven product in this entire category. On price, it's actually priced above Rocketbook Fusion Hybrid Reusable Planner Notebook, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Genuinely combines free-write pages and planning structure. On the other side, Full letter size, not compact. That's the main tradeoff to weigh against everything above.",
-    specs: ["Letter size","Mix of note pages and undated planning templates","26,593 reviews at 4.6 stars"],
+    specs: ["Letter size","Mix of note pages and undated planning templates"],
     pros: ["Most proven product in this entire category","Genuinely combines free-write pages and planning structure"],
     cons: ["Full letter size, not compact"],
     bestFor: "Buyers who want the most proven notebook-planner combo available.",
@@ -47,7 +47,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41VG6OVaZCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHYZ32M?tag=deskfinds0d-20",
     description: "Same note-page-plus-planner-template combo in a smaller, bag-friendly footprint, with nearly the same scale of review evidence.\n\nOne spot below Rocketbook Fusion Reusable Undated Productivity Planner in this ranking, it's priced lower than Rocketbook Fusion Reusable Undated Productivity Planner. The compromise here is straightforward: Smaller page reduces room per planning template. What you gain in return: Massive proven review base for a compact combo notebook. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: More portable than the letter-size Fusion. On the other side, Smaller page reduces room per planning template. That's the main tradeoff to weigh against everything above.",
-    specs: ["6 x 8.8 in","Mix of note pages and planning templates","23,751 reviews at 4.4 stars"],
+    specs: ["6 x 8.8 in","Mix of note pages and planning templates"],
     pros: ["Massive proven review base for a compact combo notebook","More portable than the letter-size Fusion"],
     cons: ["Smaller page reduces room per planning template"],
     bestFor: "Buyers who want the same combo concept in a more portable size.",
@@ -63,7 +63,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/416XcHl7ssL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLPPZZJL?tag=deskfinds0d-20",
     description: "An updated combo of note pages and planning templates at the same Executive size, with a smaller review base since it's the newer revision.\n\nSitting just under Rocketbook Fusion Hybrid Reusable Planner Notebook, it costs more than Rocketbook Fusion Hybrid Reusable Planner Notebook. Here's the honest tradeoff: Meaningfully smaller review base than the standard Fusion Hybrid. And here's what it gets you instead: Newest template revision. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Newest template revision. On the other side, Meaningfully smaller review base than the standard Fusion Hybrid. That's the main tradeoff to weigh against everything above.",
-    specs: ["6 x 8.8 in","Updated note-and-planner template mix","3,200 reviews at 4.4 stars"],
+    specs: ["6 x 8.8 in","Updated note-and-planner template mix"],
     pros: ["Newest template revision"],
     cons: ["Meaningfully smaller review base than the standard Fusion Hybrid"],
     bestFor: "Buyers who want the newest template layout in the combo format.",
@@ -75,7 +75,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine note-plus-planner mix required", description: "We only included products with both free-write note pages and structured planning templates in the same notebook, not plain notebooks or calendar-only products." },
   { title: "Overlap disclosure", description: "We flagged the substantial product overlap with our digital notebooks with calendars guide, since both draw from the same Rocketbook Fusion lineup." },
   { title: "Review volume as reliability evidence", description: "We weighted the very large review bases of the standard Fusion products as strong evidence the combo format holds up over time." },
-  { title: "Size against portability", description: "We compared letter-size against the more compact Executive size for how much room each gives the planning templates." },
+  { title: "Size against portability", description: "We compared letter-size against the more compact Executive size for how much room each gives the planning templates." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -208,14 +208,15 @@ export const buyingCriteria: BuyingCriterion[] = [
 
 export const faq: FaqItem[] = [
   { q: "What makes this different from your digital notebooks with calendars guide?", a: "The product pool overlaps substantially, but this guide requires both free-write note pages and planning templates together, not just a calendar grid." },
-  { q: "Which is the most proven combo notebook?", a: "The letter-size Rocketbook Fusion, with 26,593 reviews at 4.6 stars." },
+  
   { q: "Do I need a special pen?", a: "Yes, Pilot FriXion pens, required for the pages to erase and reuse correctly." },
   { q: "Is there a more compact combo option?", a: "Yes, the Rocketbook Fusion Hybrid at Executive size (6x8.8 in), with nearly the same scale of proven reviews as the letter-size version." },
   { q: "Should I get the newer Fusion Plus instead?", a: "It has an updated template set but a much smaller review base at time of writing. Worth checking current buyer feedback before choosing it over the more established standard Fusion." },
+  { q: "How do I keep a combo notebook organized across months?", a: "Use the planner pages for dates and tasks and the notebook pages for loose notes, then label each page with a short title. Export or scan completed sections so the space frees up. A simple weekly review helps you move unfinished items forward." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks-with-calendars", title: "Best Digital Notebooks with Calendars (2026)" },
   { href: "/guide/best-reusable-digital-notebooks", title: "Best Reusable Digital Notebooks (2026)" },
-  { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" },
+  { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" }
 ];

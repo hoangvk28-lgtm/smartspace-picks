@@ -125,7 +125,7 @@ export default async function BestWoodenGamingDeskPage() {
     about: [
       { "@type": "Thing", name: "Wooden Gaming Desk" },
       { "@type": "Thing", name: "L-Shaped Gaming Desk" },
-      { "@type": "Thing", name: "Gaming Desk" },
+      { "@type": "Thing", name: "Gaming Desk" }
     ],
   };
 
@@ -135,7 +135,7 @@ export default async function BestWoodenGamingDeskPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Wooden Gaming Desks", item: `${SITE_URL}/guide/best-wooden-gaming-desk` },
+      { "@type": "ListItem", position: 3, name: "Best Wooden Gaming Desks", item: `${SITE_URL}/guide/best-wooden-gaming-desk` }
     ],
   };
 

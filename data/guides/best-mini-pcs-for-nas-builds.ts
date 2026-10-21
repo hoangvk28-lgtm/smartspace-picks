@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini pc for nas build";
 export const introParagraphs = [
   "A mini PC's storage topology matters more for NAS use than its processor speed, worth checking exactly how many M.2 or SATA drives a specific chassis actually supports and whether they share bandwidth, rather than assuming any mini PC with 'storage expansion' handles a genuine multi-drive NAS array well.",
-  "Sustained file-transfer throughput under real network load, not a short burst benchmark, is what actually matters for NAS use, worth checking reviews specifically for sustained transfer speed reports across a full large-file copy rather than trusting a brief speed test.",
+  "Sustained file-transfer throughput under real network load, not a short burst benchmark, is what actually matters for NAS use, worth checking reviews specifically for sustained transfer speed reports across a full large-file copy rather than trusting a brief speed test."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value NAS-Capable Pick",
     name: "GMKtec G11 Mini PC Ryzen Embedded R2514 16GB DDR4 RAM 256GB PCIe M.2 SSD",
     price: "$309.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "435 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41y2SJA4I2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CXSRR796?tag=deskfinds0d-20",
     description: "A genuinely low-power embedded chip appropriate for buyers wanting to build a lighter NAS setup using external USB or network-attached drives rather than internal bays.\n\nOne spot below MINISFORUM N5 Air 5-Bay Desktop NAS with up to 174TB Storage in this ranking, it's priced lower than MINISFORUM N5 Air 5-Bay Desktop NAS with up to 174TB Storage. The compromise here is straightforward: Verify internal storage expansion options for a true multi-drive array. What you gain in return: Genuinely low-power embedded chip suited to always-on NAS operation. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Budget-friendly price for a NAS-adjacent build. On the other side, 256GB internal SSD is modest for the OS and cache alone. That's the main tradeoff to weigh against everything above.",
@@ -58,13 +58,13 @@ export const products: GuideProduct[] = [
     badge: "Best General-Purpose Pick for NAS Use",
     name: "BOSGAME P4 Ultra Mini PC Gaming, Ryzen 7 7730U, 16GB RAM 1TB PCIe3.0 SSD",
     price: "$418.98",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "199 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51I+6dQFNyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GCH917SW?tag=deskfinds0d-20",
-    description: "A genuinely well-reviewed general-purpose mini PC appropriate for buyers building a software-defined NAS using external drive enclosures rather than internal bays.\n\nSitting just under GMKtec G11 Mini PC Ryzen Embedded R2514 16GB DDR4 RAM 256GB PCIe M.2 SSD, it costs more than GMKtec G11 Mini PC Ryzen Embedded R2514 16GB DDR4 RAM 256GB PCIe M.2 SSD. Here's the honest tradeoff: No internal multi-drive bays, requires external enclosures for a true NAS array. And here's what it gets you instead: High 4.7-star rating with a solid review base. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: 1TB internal SSD gives real headroom for OS and cache. On the other side, Not purpose-built for NAS use specifically. That's the main tradeoff to weigh against everything above.",
+    description: "A genuinely well-reviewed general-purpose mini PC appropriate for buyers building a software-defined NAS using external drive enclosures rather than internal bays.\n\nSitting just under GMKtec G11 Mini PC Ryzen Embedded R2514 16GB DDR4 RAM 256GB PCIe M.2 SSD, it costs more than GMKtec G11 Mini PC Ryzen Embedded R2514 16GB DDR4 RAM 256GB PCIe M.2 SSD. Here's the honest tradeoff: No internal multi-drive bays, requires external enclosures for a true NAS array. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: 1TB internal SSD gives real headroom for OS and cache. On the other side, Not purpose-built for NAS use specifically. That's the main tradeoff to weigh against everything above.",
     specs: ["AMD Ryzen 7 7730U","16GB RAM","1TB PCIe SSD","High review rating"],
-    pros: ["High 4.7-star rating with a solid review base","1TB internal SSD gives real headroom for OS and cache","Efficient U-class chip appropriate for always-on operation","Good value for a software-defined NAS build"],
+    pros: ["1TB internal SSD gives real headroom for OS and cache","Efficient U-class chip appropriate for always-on operation","Good value for a software-defined NAS build"],
     cons: ["No internal multi-drive bays, requires external enclosures for a true NAS array","Verify sustained file-transfer throughput through current reviews","Not purpose-built for NAS use specifically"],
     bestFor: "Buyers building a software-defined NAS using external drive enclosures",
   },
@@ -74,14 +74,14 @@ export const products: GuideProduct[] = [
     badge: "Best Budget General-Purpose Pick for NAS",
     name: "BOSGAME P4 Ultra Mini PC Ryzen 7 7730U 16GB DDR4 1TB PCIe SSD",
     price: "$429.00",
-    rating: "4.0 stars from Amazon ratings",
-    reviews: "608 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41vyA6W1KWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBYB71GJ?tag=deskfinds0d-20",
     description: "The same efficient Ryzen 7 7730U with a large review base, appropriate for buyers wanting a proven general-purpose base for a software-defined NAS setup.\n\nRanked just behind BOSGAME P4 Ultra Mini PC Gaming, it costs more than BOSGAME P4 Ultra Mini PC Gaming. The real tradeoff against that pick: No internal multi-drive bays, requires external enclosures. In exchange, it offers this instead: Large review base for real-world reliability data. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Efficient U-class chip for always-on operation. On the other side, Not purpose-built for NAS use specifically. That's the main tradeoff to weigh against everything above.",
     specs: ["AMD Ryzen 7 7730U","16GB DDR4 RAM","1TB PCIe SSD","Large review base"],
     pros: ["Large review base for real-world reliability data","Efficient U-class chip for always-on operation","1TB internal SSD for OS, cache, and metadata","Reasonable price for the spec combination"],
-    cons: ["No internal multi-drive bays, requires external enclosures","More moderate 4.0-star rating, verify current reviews","Not purpose-built for NAS use specifically"],
+    cons: ["No internal multi-drive bays, requires external enclosures","Not purpose-built for NAS use specifically"],
     bestFor: "Budget-conscious buyers wanting a proven general-purpose base for a software-defined NAS",
   },
   {
@@ -90,8 +90,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Throughput Pick for NAS Use",
     name: "GMKtec Gaming Mini PC Ryzen 7640HS (Beats 6800H/6800U) 16GB DDR5 512GB NVMe SSD Dual NIC",
     price: "$459.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "485 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ydc8fgeIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FLDC98GC?tag=deskfinds0d-20",
     description: "Dual NIC networking is a genuine advantage for NAS use, appropriate for buyers wanting network bonding or link aggregation for faster sustained file-transfer throughput.\n\nOne spot below BOSGAME P4 Ultra Mini PC Ryzen 7 7730U 16GB DDR4 1TB PCIe SSD in this ranking, it costs more than BOSGAME P4 Ultra Mini PC Ryzen 7 7730U 16GB DDR4 1TB PCIe SSD. The compromise here is straightforward: No internal multi-drive bays, requires external enclosures for a true NAS array. What you gain in return: Dual NIC networking genuinely useful for bonding and faster sustained throughput. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Fast DDR5 RAM and NVMe storage for responsive NAS software. On the other side, Higher price than the most budget-focused picks. That's the main tradeoff to weigh against everything above.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Storage topology verified over processor speed alone", description: "Verified exactly how many drives a specific chassis supports and whether they share bandwidth, rather than assuming any mini PC with expansion handles a genuine multi-drive NAS well." },
   { title: "Sustained file-transfer throughput weighted over burst benchmarks", description: "Weighted sustained file-transfer throughput under real network load more heavily than a short burst speed test." },
   { title: "Purpose-built NAS chassis distinguished from repurposed general mini PCs", description: "Distinguished genuinely purpose-built multi-bay NAS chassis from general-purpose mini PCs repurposed for software-defined NAS with external enclosures." },
-  { title: "Dual NIC networking valued for bonding and link aggregation", description: "Valued genuine dual NIC networking for buyers wanting bonding or link aggregation for faster sustained NAS throughput." },
+  { title: "Dual NIC networking valued for bonding and link aggregation", description: "Valued genuine dual NIC networking for buyers wanting bonding or link aggregation for faster sustained NAS throughput." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Does a mini PC need internal drive bays for NAS use?", a: "Not necessarily, a purpose-built NAS chassis has internal bays, but a general-purpose mini PC can also work as a NAS using external drive enclosures." },
   { q: "Does burst speed reflect real NAS transfer performance?", a: "No, sustained file-transfer throughput under real network load during a full large-file copy matters more than a short burst benchmark." },
   { q: "Is dual NIC networking worth it for a NAS build?", a: "Yes, if you want bonding or link aggregation for faster sustained throughput beyond what a single network connection supports." },
-  { q: "Do I need a purpose-built NAS chassis or can I use a general mini PC?", a: "It depends on your scale, a purpose-built multi-bay chassis suits a true drive array, a general mini PC with external enclosures suits a lighter setup." },
+  { q: "Do I need a purpose-built NAS chassis or can I use a general mini PC?", a: "It depends on your scale, a purpose-built multi-bay chassis suits a true drive array, a general mini PC with external enclosures suits a lighter setup." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pcs-for-home-servers", title: "Best Mini PCs for Home Servers (2026)" },
   { href: "/guide/best-mini-pcs-with-dual-ethernet-ports", title: "Best Mini PCs with Dual Ethernet Ports (2026)" },
-  { href: "/guide/best-mini-pcs-for-plex-servers", title: "Best Mini PCs for Plex Servers (2026)" },
+  { href: "/guide/best-mini-pcs-for-plex-servers", title: "Best Mini PCs for Plex Servers (2026)" }
 ];

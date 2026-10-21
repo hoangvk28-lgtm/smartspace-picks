@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "best vertical mice for mac";
 export const introParagraphs = [
   "Not every vertical mouse offers seamless macOS software support out of the box. Many require manually mapping side buttons through System Settings rather than a dedicated Mac app handling it automatically, and natural scrolling direction sometimes needs adjusting separately from the mouse's own settings. We checked what each pick's macOS support actually looks like rather than assuming universal, effortless compatibility just because a mouse connects over standard Bluetooth or USB.",
-  "It's also worth setting realistic expectations if you're switching from Apple's own trackpad or Magic Mouse: you lose certain gesture-based workflows like swipe-to-switch-desktops or pinch-to-zoom that Apple's own input devices support natively. A vertical mouse trades those gestures for a different wrist angle, which is a reasonable trade for many buyers but not a strict upgrade in every dimension. Also confirm driver compatibility against your current macOS version rather than relying on older compatibility claims in a listing that may not reflect the latest OS.",
+  "It's also worth setting realistic expectations if you're switching from Apple's own trackpad or Magic Mouse: you lose certain gesture-based workflows like swipe-to-switch-desktops or pinch-to-zoom that Apple's own input devices support natively. A vertical mouse trades those gestures for a different wrist angle, which is a reasonable trade for many buyers but not a strict upgrade in every dimension. Also confirm driver compatibility against your current macOS version rather than relying on older compatibility claims in a listing that may not reflect the latest OS."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Mac Compatibility",
     name: "Logitech MX Vertical Wireless Mouse Ergonomic Design",
     price: "Check current price on Amazon",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "14,970 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31Ig2YzI5iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07FNJB8TT?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Mac Pick",
     name: "Logitech Lift Vertical Ergonomic Wireless Mouse",
     price: "$57.40",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "13,635 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31nb5ALnDvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09J1TB35S?tag=deskfinds0d-20",
     description:
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Mac-Compatible Pick",
     name: "ProtoArc EM11 NL Wireless Ergonomic Vertical Mouse, Rechargeable",
     price: "$22.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "5,670 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31PGrLfkUxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CX18LHWS?tag=deskfinds0d-20",
     description:
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Mac Pick",
     name: "Lekvey Ergonomic Mouse, Rechargeable Vertical Wireless Mouse",
     price: "$24.98",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "15,431 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31rCoH07kzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07BFCVJZC?tag=deskfinds0d-20",
     description:
@@ -94,8 +94,8 @@ export const products: GuideProduct[] = [
     badge: "Best Ultra-Budget Mac Pick",
     name: "Anker 2.4G Wireless Ergonomic Mouse, Right Hand Vertical Mouse",
     price: "$19.98",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "53,313 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31z5JT0yL+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BIFNTMC?tag=deskfinds0d-20",
     description:
@@ -111,15 +111,15 @@ export const products: GuideProduct[] = [
     badge: "Best Pick for Extra Buttons on Mac",
     name: "Razer Pro Click V2 Vertical Wireless Mouse, 6 Button Ergonomic Design",
     price: "$99.99",
-    rating: "4.0 stars from Amazon ratings",
-    reviews: "461 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41DVlxxe4WL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DVD5RTZ5?tag=deskfinds0d-20",
     description:
-      "A 6-button layout gives more Mac shortcut remapping options than most picks in this guide, from a brand with cross-platform software support, though macOS-specific driver behavior should be verified on the current listing.\n\nIts smaller review base and more moderate 4.0-star rating are worth weighing against the premium price and extra button count.\n\nRechargeable battery. On the other hand, smaller review base and more moderate 4.0-star rating. Both are worth keeping in mind before deciding.",
+      "A 6-button layout gives more Mac shortcut remapping options than most picks in this guide, from a brand with cross-platform software support, though macOS-specific driver behavior should be verified on the current listing.\n\nRechargeable battery. Both are worth keeping in mind before deciding.",
     specs: ["6 programmable buttons", "Wireless connectivity", "Rechargeable battery", "Premium price point"],
     pros: ["More programmable buttons for Mac shortcuts", "Rechargeable battery", "Cross-platform software support", "Ergonomic vertical body"],
-    cons: ["Smaller review base and more moderate 4.0-star rating", "Premium price relative to its rating", "macOS-specific driver behavior not independently confirmed"],
+    cons: [ "Premium price relative to its rating", "macOS-specific driver behavior not independently confirmed"],
     bestFor: "Mac users who want more programmable buttons and are comfortable with a smaller review sample.",
   },
   {
@@ -128,8 +128,8 @@ export const products: GuideProduct[] = [
     badge: "Best Small-Hand Mac Pick",
     name: "Luhaso Ergonomic Vertical Wireless Mouse, 57 degree, Small/Medium Hands",
     price: "$19.99",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "57 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31ttLEqu0hL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GNMPGM7G?tag=deskfinds0d-20",
     description:
@@ -145,8 +145,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wired Mac Pick",
     name: "TECKNET Wired Mouse, Comfortable Ergonomic Mouse with 6400 DPI",
     price: "$19.19",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "3,694 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31vAjZuq+pL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CMC1F5WB?tag=deskfinds0d-20",
     description:
@@ -155,7 +155,7 @@ export const products: GuideProduct[] = [
     pros: ["No pairing steps, plugs directly into a Mac's USB port", "Adjustable DPI sensor", "Avoids Bluetooth reconnection quirks entirely", "Strong review rating for the price"],
     cons: ["No dedicated macOS software for advanced customization", "No wireless option", "Manual scroll and button configuration needed"],
     bestFor: "Mac users who want a simple wired connection without any Bluetooth pairing steps.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -163,7 +163,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Actual macOS software and driver support verified per product", description: "We checked whether each pick has dedicated macOS companion software versus requiring manual button mapping through System Settings." },
   { title: "Natural scrolling configuration checked, not assumed automatic", description: "We noted where natural scrolling likely needs manual adjustment after pairing rather than assuming it's configured automatically." },
   { title: "Realistic comparison to Magic Mouse gestures included", description: "We set honest expectations that switching from a Mac trackpad or Magic Mouse means losing certain gesture-based workflows." },
-  { title: "Current macOS version compatibility flagged as something to verify", description: "We recommended confirming driver compatibility against your current macOS version rather than trusting an older compatibility claim in the listing." },
+  { title: "Current macOS version compatibility flagged as something to verify", description: "We recommended confirming driver compatibility against your current macOS version rather than trusting an older compatibility claim in the listing." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -290,11 +290,11 @@ export const faq: FaqItem[] = [
   { q: "Do vertical mice work seamlessly with a Mac out of the box?", a: "Basic pointing and clicking generally work, but advanced button mapping and natural scrolling sometimes require manual configuration or a companion app, not automatic setup." },
   { q: "Will I lose Magic Mouse gestures by switching to a vertical mouse?", a: "Yes, gestures like swipe-to-switch-desktops and pinch-to-zoom are specific to Apple's own input devices and aren't replicated by third-party vertical mice." },
   { q: "Do I need special software to remap buttons on a Mac?", a: "Some vertical mice include a companion macOS app for this, while others require manually mapping buttons through System Settings instead." },
-  { q: "Should I check macOS version compatibility before buying?", a: "Yes, confirm the listing's compatibility claim reflects your current macOS version, since driver support can lag behind the very latest OS release." },
+  { q: "Should I check macOS version compatibility before buying?", a: "Yes, confirm the listing's compatibility claim reflects your current macOS version, since driver support can lag behind the very latest OS release." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-bluetooth-vertical-mice", title: "Best Bluetooth Vertical Mice in 2026" },
   { href: "/guide/best-multi-device-vertical-mice", title: "Best Multi-Device Vertical Mice in 2026" },
-  { href: "/guide/best-vertical-mice", title: "Best Vertical Mice in 2026" },
+  { href: "/guide/best-vertical-mice", title: "Best Vertical Mice in 2026" }
 ];

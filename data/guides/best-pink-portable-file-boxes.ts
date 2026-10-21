@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "pink portable file box";
 export const introParagraphs = [
   "We verified pink is actually confirmed in the product name or description for each pick here, rather than assuming any general file box comes in this color. This is a genuine, if narrower, product category with real options currently available.",
-  "Because color inventory can shift over time on Amazon, verify the current listing still offers pink before ordering, even for the picks confirmed at research time.",
+  "Because color inventory can shift over time on Amazon, verify the current listing still offers pink before ordering, even for the picks confirmed at research time."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -49,7 +49,7 @@ export const products: GuideProduct[] = [
     description: "DocSafe Fireproof Document Box with Lock,File Storage Organizer with Zipper and is built around fireproof and water-resistant, positioning it for a general-purpose desk accessory buyers specifically.\n\nLarge Capacity is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for a general-purpose desk accessory, though as with any purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Fireproof and Water-resistant","Large Capacity","High quality, Innovative design"],
     pros: ["Fireproof and Water-resistant, confirmed directly in the listing's own spec details","Large Capacity, confirmed directly in the listing's own spec details","High quality, Innovative design, confirmed directly in the listing's own spec details"],
-    cons: ["At $26.99, worth comparing against similarly specced desk accessories before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $30, worth comparing against similarly specced desk accessories before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for a general-purpose desk accessory",
   },
   {
@@ -63,7 +63,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41CNUmxe5pL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08XJPHGGP?tag=deskfinds0d-20",
     description: "A real review base for this product, the largest of any pink-confirmed or pink-adjacent option in this comparison, though verify pink specifically remains a current color option since this listing serves multiple colors.\n\nSitting just under Pink Portable Hanging File Storage Box with Lid, pricing between it and Pink Portable Hanging File Storage Box with Lid isn't directly comparable here. Here's the honest tradeoff: Verify pink is currently available, since this listing may serve multiple color options. And here's what it gets you instead: Largest review base in this comparison. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: High rating. On the other side, Verify pink is currently available, since this listing may serve multiple color options. That's the main tradeoff to weigh against everything above.",
-    specs: ["Letter file storage","3,073 reviews at 4.5 stars"],
+    specs: ["Letter file storage"],
     pros: ["Largest review base in this comparison","High rating"],
     cons: ["Verify pink is currently available, since this listing may serve multiple color options"],
     bestFor: "Buyers who want the most proven general file organizer and will confirm pink availability on the current listing.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51m3PHmzj0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B2PQ59SK?tag=deskfinds0d-20",
     description: "The largest review base and highest rating in this entire comparison, with zipper pockets and a lock, though verify pink availability and any fireproof certification directly on the current listing.\n\nRanked just behind Oterri File Organizer, it costs more than Oterri File Organizer. The real tradeoff against that pick: Verify pink is currently available and confirm any fire-rating certification on the listing. In exchange, it offers this instead: Largest review base and highest rating in this comparison. That's the swap that decides whether this pick or the one above it is the better fit for your documents.\n\nWorth knowing before you decide: Zipper pockets add extra small-item storage. On the other side, Verify pink is currently available and confirm any fire-rating certification on the listing. That's the main tradeoff to weigh against everything above.",
-    specs: ["Lock, zipper pockets, collapsible","6,123 reviews at 4.6 stars"],
+    specs: ["Lock, zipper pockets, collapsible"],
     pros: ["Largest review base and highest rating in this comparison","Zipper pockets add extra small-item storage"],
     cons: ["Verify pink is currently available and confirm any fire-rating certification on the listing"],
     bestFor: "Buyers who want the most proven option overall and will verify pink availability and any fire-rating claims.",
@@ -95,7 +95,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GQ8rqDXhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FVJZD3L?tag=deskfinds0d-20",
     description: "A well-reviewed general file organizer from IRIS USA that may offer color variants, verify pink availability on the current listing before ordering, since our confirmed data shows black.\n\nOne spot below ENGPOW File Box with Lock in this ranking, it's priced lower than ENGPOW File Box with Lock. The compromise here is straightforward: Confirmed data shows black, verify pink is available as a color option on the current listing. What you gain in return: Large, established review base. Whether that trade is worth it depends on which side matters more for your storage needs.\n\nWorth knowing before you decide: From an established storage brand. On the other side, Confirmed data shows black, verify pink is available as a color option on the current listing. That's the main tradeoff to weigh against everything above.",
-    specs: ["Letter file organizer, portable handle","3,139 reviews at 4.3 stars"],
+    specs: ["Letter file organizer, portable handle"],
     pros: ["Large, established review base","From an established storage brand"],
     cons: ["Confirmed data shows black, verify pink is available as a color option on the current listing"],
     bestFor: "Buyers who want IRIS USA's proven construction and will check for a pink color variant.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified pink confirmed in product name where possible", description: "We prioritized products with \"pink\" explicitly stated in the listing title, rather than assuming any general file box comes in this color." },
   { title: "Disclosed where color availability needs live verification", description: "For strong general products where pink wasn't confirmed in our specific data pull, we noted this directly rather than guessing." },
   { title: "Did not accept fireproof marketing at face value", description: "We flagged that fireproof claims on several picks should be verified against a specific certification before relying on them for irreplaceable documents." },
-  { title: "Review volume and rating weighted heavily", description: "We prioritized established review history, especially for the general organizer picks included as color-variant possibilities." },
+  { title: "Review volume and rating weighted heavily", description: "We prioritized established review history, especially for the general organizer picks included as color-variant possibilities." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -221,14 +221,15 @@ export const buyingCriteria: BuyingCriterion[] = [
 
 export const faq: FaqItem[] = [
   { q: "Which is confirmed pink directly in the listing name?", a: "The ZOOPIP Fireproof File Box and the Pink Portable Hanging File Storage Box both confirm pink directly in their product titles." },
-  { q: "Which has the most reviews?", a: "The ENGPOW File Box with Lock, with 6,123 reviews at 4.6 stars, though verify pink availability on the current listing." },
+  
   { q: "Are the fireproof claims certified?", a: "We found no independently cited certification standard for the fireproof-marketed products here, verify this directly before relying on it." },
   { q: "What if pink isn't available when I check?", a: "Color inventory shifts over time on Amazon, check the current listing or consider our general portable file box guides for proven alternatives in other colors." },
   { q: "Is there a hanging-file-specific pink option?", a: "Yes, the Pink Portable Hanging File Storage Box is specifically designed with an easy-slide organizer for hanging folders." },
+  { q: "Can I carry these pink file boxes as a work bag?", a: "Most of them are better thought of as portable storage than as a bag. The ZOOPIP and ENGPOW boxes have collapsible designs with a lock, which makes them easy to move between home and a desk. Keep the load modest, since a box packed with letter-size folders gets heavy quickly." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-plastic-file-boxes-with-handles", title: "Best Portable Plastic File Boxes with Handles (2026)" },
   { href: "/guide/best-portable-metal-file-boxes-with-handles", title: "Best Portable Metal File Boxes with Handles (2026)" },
-  { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" },
+  { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" }
 ];

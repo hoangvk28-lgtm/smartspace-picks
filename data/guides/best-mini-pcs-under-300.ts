@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini pc under 300";
 export const introParagraphs = [
   "At this price tier, RAM and storage configuration genuinely matters more for real-world usability than processor branding, worth checking that 8GB or more RAM is included rather than assuming a low sticker price automatically means an underpowered machine.",
-  "Entry-level chips at this budget genuinely suit lighter tasks like browsing, email, and document editing well, worth setting realistic expectations rather than expecting demanding multitasking or content creation performance under $300.",
+  "Entry-level chips at this budget genuinely suit lighter tasks like browsing, email, and document editing well, worth setting realistic expectations rather than expecting demanding multitasking or content creation performance under $300."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "RAM and storage inclusion checked over processor branding alone", description: "Checked whether 8GB or more RAM is genuinely included rather than assuming a low sticker price automatically means an underpowered machine." },
   { title: "Realistic performance expectations set for entry-level chips", description: "Set realistic expectations that entry-level chips at this budget suit lighter tasks well, rather than expecting demanding multitasking performance." },
   { title: "Barebone versus complete-build listings distinguished clearly", description: "Distinguished barebone listings requiring separate RAM and storage purchase from complete, ready-to-use builds at this price tier." },
-  { title: "Intel versus AMD driver maturity considered for budget chips", description: "Considered driver maturity differences between entry-level Intel and AMD chips for everyday budget-tier use." },
+  { title: "Intel versus AMD driver maturity considered for budget chips", description: "Considered driver maturity differences between entry-level Intel and AMD chips for everyday budget-tier use." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Do mini PCs under $300 come with RAM included?", a: "Not always, some are barebone listings requiring separate RAM and storage purchase, verify this before comparing prices." },
   { q: "Can a mini PC under $300 handle real work?", a: "For lighter tasks like browsing, email, and document editing, yes, but set realistic expectations for demanding multitasking or content creation." },
   { q: "What's the difference between barebone and complete mini PC listings?", a: "Barebone listings exclude RAM and storage, requiring separate purchase and self-installation, complete builds are ready to use out of the box." },
-  { q: "Is 8GB RAM enough for a budget mini PC?", a: "For lighter everyday tasks, yes, but it may feel tight for heavier multitasking, consider more RAM if your workflow demands it." },
+  { q: "Is 8GB RAM enough for a budget mini PC?", a: "For lighter everyday tasks, yes, but it may feel tight for heavier multitasking, consider more RAM if your workflow demands it." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pcs-under-500", title: "Best Mini PCs Under $500 (2026)" },
   { href: "/guide/best-budget-mini-pcs", title: "Best Budget Mini PCs (2026)" },
-  { href: "/guide/best-barebones-mini-pcs", title: "Best Barebones Mini PCs (2026)" },
+  { href: "/guide/best-barebones-mini-pcs", title: "Best Barebones Mini PCs (2026)" }
 ];

@@ -5,7 +5,7 @@ export const metaDescription = "5 desk hutches with integrated pegboards we eval
 export const mainKeyword = "desk hutch with pegboard";
 export const introParagraphs = [
   "A desk hutch, a shelving unit sitting on top of or behind a desk, with an integrated pegboard is a distinct furniture category from a simple pegboard accessory, worth clarifying this product type explicitly rather than conflating it with standalone pegboards.",
-  "Desk surface weight rating should be verified against the combined hutch-plus-pegboard-plus-loaded-accessories weight, since the desk itself, not just the hutch/pegboard structure, must support this compounded load.",
+  "Desk surface weight rating should be verified against the combined hutch-plus-pegboard-plus-loaded-accessories weight, since the desk itself, not just the hutch/pegboard structure, must support this compounded load."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Desk Hutch with Pegboard Overall",
     name: "Snughome Desk Shelf, 38.6\" Desktop Organizer Shelf, Desk Hutch for Computer Monitor, 4 Tier Desk Display Rack with Pegboard Hooks Set, Wood Desktop Bookshelf for Home Office Dorm, Black",
     price: "$65.99",
-    rating: "4.5 stars from 330 Amazon ratings",
-    reviews: "330 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51y3uAmYlhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D9882DJK?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Two-Tier Hutch Pick",
     name: "Brakki 2-Tier Desk Shelf, Desk Hutch Bookshelf with Pegboard and Hook Dorm",
     price: "$69.99",
-    rating: "4.4 stars from 25 Amazon ratings",
-    reviews: "25 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51RvjSX0CeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GWM5GS53?tag=deskfinds0d-20",
     description:
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     badge: "Best Heavy-Duty Metal Hutch Pick",
     name: "Lefedrasticity Desktop Hutch Bookshelf with Pegboard 3 Tier Desk Organizer Shelf for Top of Desk Metal Open Shelf Bookcase Countertop Storage Organizer Rack for Dorm Office (Black, 45.3\" L)",
     price: "$139.99",
-    rating: "5.0 stars from 1 Amazon rating",
+    rating: "",
     reviews: "1 rating",
     imageUrl: "https://m.media-amazon.com/images/I/512nPAd1GYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTLWCMVB?tag=deskfinds0d-20",
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Hutch with Drawer Pick",
     name: "knoworld Desktop Bookshelf for 27\" Monitor, Space-Saving Engineered Wood Desk Hutch Organizer with Adjustable Shelves & Drawer, Clutter-Free Tabletop Bookcase for Dorm & Home Office, Black",
     price: "$74.99",
-    rating: "5.0 stars from 5 Amazon ratings",
-    reviews: "5 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51OfCUt1ffL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H44STD1G?tag=deskfinds0d-20",
     description:
@@ -93,7 +93,7 @@ export const products: GuideProduct[] = [
     badge: "Best White Desk Hutch Pick",
     name: "Lefedrasticity Desktop Hutch Bookshelf with Pegboard 3 Tier Desk Organizer Shelf for Top of Desk Metal Open Shelf Bookcase Countertop Storage Organizer Rack for Dorm Office (White, 37.4\" L)",
     price: "$129.99",
-    rating: "5.0 stars from 1 Amazon rating",
+    rating: "",
     reviews: "1 rating",
     imageUrl: "https://m.media-amazon.com/images/I/51E62mHj2yL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTLV3HDV?tag=deskfinds0d-20",
@@ -103,7 +103,7 @@ export const products: GuideProduct[] = [
     pros: ["Same genuine metal structural stability as the black variant", "White finish for a lighter desk aesthetic", "Substantial 3-tier storage capacity", "Heavy-duty countertop design"],
     cons: ["Extremely limited review base, only a single rating", "White finish shows dust more visibly than the black variant", "High price for a hutch with minimal review evidence"],
     bestFor: "Buyers wanting a lighter-colored metal hutch with the same structural design",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -111,7 +111,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Product category clarified as distinct from standalone pegboards", description: "Clarified that a desk hutch with an integrated pegboard is a distinct furniture category from a simple pegboard accessory, rather than conflating it with standalone pegboards." },
   { title: "Combined hutch-plus-pegboard structural stability tested", description: "Tested hutch weight and stability, sitting atop a desk surface with a pegboard adding further hung-item weight, for combined structural stability given this compounds multiple load types onto the desk itself." },
   { title: "Hutch shelving capacity evaluated separately from pegboard hook capacity", description: "Evaluated hutch shelving capacity separately from the pegboard's hook capacity, since these are two distinct storage mechanisms within one combined product." },
-  { title: "Desk surface weight rating verified against compounded load", description: "Verified desk surface weight rating against the combined hutch-plus-pegboard-plus-loaded-accessories weight, since the desk itself must support this compounded load." },
+  { title: "Desk surface weight rating verified against compounded load", description: "Verified desk surface weight rating against the combined hutch-plus-pegboard-plus-loaded-accessories weight, since the desk itself must support this compounded load." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -229,11 +229,11 @@ export const faq: FaqItem[] = [
   { q: "Does a hutch's shelving capacity include the pegboard's hook capacity?", a: "No, evaluate these separately, hutch shelving capacity and pegboard hook capacity are two distinct storage mechanisms within one combined product." },
   { q: "Will a desk hutch make my workspace feel cramped?", a: "It can, a taller or larger hutch blocks more natural light and can create a boxed-in feeling, a real workspace-feel consideration distinct from pure storage capacity." },
   { q: "How much weight does a fully loaded desk hutch actually add to my desk?", a: "Often 20-40 lbs once loaded with books, accessories, and pegboard items, well beyond the hutch's own empty weight, check this against your desk's stated maximum load capacity." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the most-proven hutch with genuine dual storage mechanisms" },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the most-proven hutch with genuine dual storage mechanisms" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-computer-desks-with-pegboards", title: "Best Computer Desks with Pegboards (2026)" },
   { href: "/guide/best-gaming-desk-pegboards", title: "Best Gaming Desk Pegboards (2026)" },
-  { href: "/guide/best-black-monitor-shelves", title: "Best Black Monitor Shelves (2026)" },
+  { href: "/guide/best-black-monitor-shelves", title: "Best Black Monitor Shelves (2026)" }
 ];

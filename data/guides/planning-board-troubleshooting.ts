@@ -12,7 +12,7 @@ export const planningBoardTroubleshootingGuide: Guide = {
     "whiteboard ghosting fix",
     "whiteboard marker won't erase",
     "corkboard pin holes visible",
-    "whiteboard surface damage fix",
+    "whiteboard surface damage fix"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const planningBoardTroubleshootingGuide: Guide = {
     "glass-whiteboard-vs-melamine-whiteboard",
     "whiteboard-vs-corkboard",
     "whiteboard-size-guide",
-    "magnetic-vs-non-magnetic-whiteboard",
+    "magnetic-vs-non-magnetic-whiteboard"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const planningBoardTroubleshootingGuide: Guide = {
       question: "How do I prevent ghosting from happening in the first place?",
       answer:
         "Erase content regularly rather than leaving it on the board for extended periods, and avoid using permanent markers by mistake, these preventative habits significantly reduce ghosting buildup compared to infrequent erasing of long-standing content.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const planningBoardTroubleshootingGuide: Guide = {
     {
       heading: "Why Prevention Is More Effective Than Fixing Ghosting After It Happens",
       body: `Ghosting becomes progressively harder to fully remove the longer content sits on a whiteboard before being erased, developing the habit of erasing regularly, rather than letting notes accumulate for weeks, meaningfully reduces how much ghosting builds up over the board's lifetime. This preventative habit, combined with using only genuine dry erase markers rather than accidentally reaching for a permanent marker, addresses the root causes of most whiteboard surface complaints before they become difficult to fix.`,
-    },
+    }
   ],
 };

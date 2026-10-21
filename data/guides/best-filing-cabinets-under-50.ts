@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Genuine lock security and the highest weight capacity", "SISESOL 2 Drawer File Cabinet on Wheels"],
         ["A cabinet that doubles as a printer stand", "DUMOS 2 Drawer Storage Cabinet, Rolling Under Desk"],
         ["A compact, under-desk cabinet with coordinated aesthetic", "DUMOS 2 Drawer Rolling File Cabinet, Small Wood"],
-        ["Lock security at the lowest price", "Yoonkool 2 Drawer File Cabinet with Lock"],
+        ["Lock security at the lowest price", "Yoonkool 2 Drawer File Cabinet with Lock"]
       ],
     },
   },
@@ -117,8 +117,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $43", "Yoonkool ($42.99)"],
-        ["Under $50", "DUMOS Rolling Storage ($49.97), DUMOS Small Wood ($49.99), or SISESOL ($49.99)"],
+        ["Under $43", "Yoonkool (under $45)"],
+        ["Under $50", "DUMOS Rolling Storage (under $50), DUMOS Small Wood (under $50), or SISESOL (under $50)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Locked Metal vs Unlocked Wood Rolling Cabinets",
     cards: [
       { label: "Locked metal (SISESOL, Yoonkool)", text: "Provides genuine document security with a keyed lock, better for sensitive files, tax documents, or shared spaces." },
-      { label: "Unlocked wood rolling (DUMOS picks)", text: "Trades lock security for a coordinated aesthetic and printer-stand functionality, better for general organization without security needs." },
+      { label: "Unlocked wood rolling (DUMOS picks)", text: "Trades lock security for a coordinated aesthetic and printer-stand functionality, better for general organization without security needs." }
     ],
     note: "If document security genuinely matters, the SISESOL or Yoonkool's lock is worth prioritizing. If you just need organized storage and a matching desk aesthetic, the DUMOS picks deliver that without the lock feature.",
   },
@@ -137,7 +137,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Rolling between locations with tip resistance", "SISESOL (center caster prevents tipping)"],
         ["Fixed under-desk placement with wheels", "Either DUMOS pick"],
-        ["Fixed, stationary placement", "Yoonkool (no wheels)"],
+        ["Fixed, stationary placement", "Yoonkool (no wheels)"]
       ],
     },
   },
@@ -145,16 +145,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Small Home Office Needing Extra Surface Space Specifically",
     cards: [
       { label: "Look for", text: "A filing cabinet with a flat, sturdy top surface specifically designed to double as a printer stand or additional workspace." },
-      { label: "In this comparison", text: "The DUMOS Storage Cabinet's flat top surface is specifically designed to hold a printer or other office equipment." },
+      { label: "In this comparison", text: "The DUMOS Storage Cabinet's flat top surface is specifically designed to hold a printer or other office equipment." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want genuine lock security combined with the highest weight capacity and tip-resistant wheels, where the SISESOL pick delivers all three at the top of this tier." },
-      { label: "Save if", text: "You want basic lock security without needing wheels, where the Yoonkool pick covers that for about $7 less." },
+      { label: "Save if", text: "You want basic lock security without needing wheels, where the Yoonkool pick covers that for about $7 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "bookshelf for office";
 export const introParagraphs = [
   "An office bookshelf needs to do more than hold novels. It has to support binders, reference books, and files without sagging, and often needs at least some space to hide paperwork you don't want on display during a video call.",
-  "Below are 8 office bookshelves we evaluated on weight capacity, build stability, and how much of their storage is open versus concealed, ranging from a 374-lb farmhouse cabinet to a compact desktop hutch that sits right on your desk.",
+  "Below are 8 office bookshelves we evaluated on weight capacity, build stability, and how much of their storage is open versus concealed, ranging from a 374-lb farmhouse cabinet to a compact desktop hutch that sits right on your desk."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Particleboard + MDF",
       "374.8 lb total capacity (highest in this list)",
       "3 adjustable shelves + 2-door cabinet",
-      "3.5\" robot-vacuum-friendly base",
+      "3.5\" robot-vacuum-friendly base"
     ],
     pros: [
       "Highest total capacity in this list at 374.8 lbs",
       "2-door cabinet conceals clutter and paperwork",
       "Robot-vacuum-friendly base clears easily",
-      "Farmhouse styling looks great in a home office",
+      "Farmhouse styling looks great in a home office"
     ],
     cons: [
       "Larger footprint than the narrower VASAGLE picks",
       "Higher price point than most on this list",
-      "Adjustable shelves are limited to the top section only",
+      "Adjustable shelves are limited to the top section only"
     ],
     bestFor: "A home office that needs maximum capacity and a mix of open and hidden storage",
   },
@@ -83,24 +83,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41zgzmQKuwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08FR5SMRW?tag=deskfinds0d-20",
     description:
-      "With nearly 6,800 ratings and a 4.7-star average, this is the best-selling pick in this entire list. An X-brace reinforcement keeps the wide 26-inch frame from racking under load, and a 22 lb per-shelf rating adds up to 132 lbs total across the alloy steel and particleboard build.\n\nIts industrial rustic brown and steel look suits a home office or a shared workspace equally well, and adjustable feet plus an anti-tip kit round out a build that's proven itself over thousands of reviews.\n\nX-brace reinforcement adds real rigidity. That's a real strength, but weigh it against the flip side: open-shelf design offers no concealed storage.",
+      "An X-brace reinforcement keeps the wide 26-inch frame from racking under load, and a 22 lb per-shelf rating adds up to 132 lbs total across the alloy steel and particleboard build.\n\nIts industrial rustic brown and steel look suits a home office or a shared workspace equally well, and adjustable feet plus an anti-tip kit round out a build that's proven itself over thousands of reviews.\n\nX-brace reinforcement adds real rigidity. That's a real strength, but weigh it against the flip side: open-shelf design offers no concealed storage.",
     specs: [
       "11.8\"D x 26\"W x 73.2\"H",
       "Particleboard + alloy steel",
       "X-brace reinforcement",
       "22 lb/shelf (132 lb total)",
-      "Adjustable feet, anti-tip kit",
+      "Adjustable feet, anti-tip kit"
     ],
     pros: [
-      "Best-selling pick with nearly 6,800 ratings",
       "X-brace reinforcement adds real rigidity",
       "Widest VASAGLE option at 26 inches",
-      "Most industrial styling of the group",
+      "Most industrial styling of the group"
     ],
     cons: [
       "Open-shelf design offers no concealed storage",
       "Wide footprint needs more wall space than the narrow VASAGLE",
-      "Particleboard shelves, not solid wood",
+      "Particleboard shelves, not solid wood"
     ],
     bestFor: "Buyers who want the most proven, best-reviewed office bookshelf",
   },
@@ -115,24 +114,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41dxHGUL7hL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08NDZ1119?tag=deskfinds0d-20",
     description:
-      "This is the compact sibling of VASAGLE's wide bookcase, shrinking the footprint down to just 15.7 inches while keeping the same X-brace reinforcement and alloy steel frame. It's the pick to reach for in a small home office or a corner where the 26-inch version simply won't fit.\n\nDespite the smaller footprint, it holds up to the same 4.7-star rating as its wider counterpart, and adjustable feet plus an anti-tip kit make it just as stable.\n\nWorth calling out specifically: same trusted X-brace reinforcement as the wider model. The catch is narrower shelves hold fewer items per tier.",
+      "This is the compact sibling of VASAGLE's wide bookcase, shrinking the footprint down to just 15.7 inches while keeping the same X-brace reinforcement and alloy steel frame. It's the pick to reach for in a small home office or a corner where the 26-inch version simply won't fit.\n\nWorth calling out specifically: same trusted X-brace reinforcement as the wider model. The catch is narrower shelves hold fewer items per tier.",
     specs: [
       "11.8\"D x 15.7\"W x 73.2\"H",
       "Particleboard + alloy steel",
       "X-brace reinforcement",
       "Compact 15.7\" width",
-      "Adjustable feet, anti-tip kit",
+      "Adjustable feet, anti-tip kit"
     ],
     pros: [
       "Smallest footprint among VASAGLE picks at 15.7 inches wide",
       "Same trusted X-brace reinforcement as the wider model",
-      "Ideal for a compact home office",
-      "Strong 4.7-star rating",
+      "Ideal for a compact home office"
     ],
     cons: [
       "Narrower shelves hold fewer items per tier",
       "No enclosed storage",
-      "Tall and narrow profile needs anchoring",
+      "Tall and narrow profile needs anchoring"
     ],
     bestFor: "A compact home office where floor space is limited",
   },
@@ -153,18 +151,18 @@ export const products: GuideProduct[] = [
       "MDF construction",
       "4 open shelves + 2 concealing doors",
       "132 lb total capacity",
-      "Tipover-resistance device, industrial vintage styling",
+      "Tipover-resistance device, industrial vintage styling"
     ],
     pros: [
       "2 concealing doors hide office documents",
       "Industrial vintage styling suits a work office",
       "Combines open display and closed storage in one unit",
-      "Tipover-resistance device included",
+      "Tipover-resistance device included"
     ],
     cons: [
       "Highest price point in this list",
       "9.3-inch depth limits shelf capacity per tier",
-      "Doors add assembly steps compared to open-shelf options",
+      "Doors add assembly steps compared to open-shelf options"
     ],
     bestFor: "An office that needs part of its storage locked away from view",
   },
@@ -179,24 +177,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31zcIjQrqVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09LM3FMXH?tag=deskfinds0d-20",
     description:
-      "The open version of IRONCK's bookshelf is the brand's best-selling office option, with over 4,400 ratings and a 4.6-star average. It shares the same 132 lb total capacity and strengthened screw construction as the doored version but skips the cabinet for a cleaner, more open industrial look.\n\nA tipover-resistance device is included as standard, and the vintage black finish and clean lines make it an easy match for most office decor.\n\nA genuine advantage here is that clean industrial lines suit most office styles. The tradeoff is no concealed storage, unlike the doored version.",
+      "It shares the same 132 lb total capacity and strengthened screw construction as the doored version but skips the cabinet for a cleaner, more open industrial look.\n\nA tipover-resistance device is included as standard, and the vintage black finish and clean lines make it an easy match for most office decor.\n\nA genuine advantage here is that clean industrial lines suit most office styles. The tradeoff is no concealed storage, unlike the doored version.",
     specs: [
       "23.8\"W x 9.3\"D x 70.8\"H",
       "MDF particleboard",
       "22 lb/shelf (132 lb total)",
       "Strengthened screws",
-      "Tipover-resistance device included",
+      "Tipover-resistance device included"
     ],
     pros: [
-      "Best-selling IRONCK option with 4,474 ratings",
       "Clean industrial lines suit most office styles",
       "Strengthened screw construction for consistent load support",
-      "Tipover-resistance device included",
+      "Tipover-resistance device included"
     ],
     cons: [
       "No concealed storage, unlike the doored version",
       "9.3-inch depth limits larger book or binder storage",
-      "Tall, narrow profile needs wall anchoring",
+      "Tall, narrow profile needs wall anchoring"
     ],
     bestFor: "Buyers who want IRONCK's proven build without paying for doors",
   },
@@ -211,24 +208,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41p8nGWmCmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08DR542S9?tag=deskfinds0d-20",
     description:
-      "The NUMENN is the best-selling vintage-toned pick in this list, equally suited to an office or a study room, and its 4.7-star average across more than 4,000 ratings makes it one of the most trusted picks here. An X-shaped back rod removes the wobble that plagues cheaper metal-frame shelves.\n\nWaterproof and anti-scratch coatings help it survive the daily wear of an office environment, and its 150 lb total capacity across premium metal and teak particle board handles a real reference library.\n\nWaterproof and scratch-resistant finish. On the other hand, no concealed storage. Neither should be a surprise once you know to look for it.",
+      "An X-shaped back rod removes the wobble that plagues cheaper metal-frame shelves.\n\nWaterproof and anti-scratch coatings help it survive the daily wear of an office environment, and its 150 lb total capacity across premium metal and teak particle board handles a real reference library.\n\nWaterproof and scratch-resistant finish. On the other hand, no concealed storage. Neither should be a surprise once you know to look for it.",
     specs: [
       "23.6\"L x 11.8\"W x 62.2\"H",
       "Premium metal + teak particle board",
       "X-shaped back rod",
       "30 lb/shelf (150 lb total)",
-      "Waterproof + anti-scratch",
+      "Waterproof + anti-scratch"
     ],
     pros: [
       "Best-selling vintage-tone pick for offices and study rooms",
       "Waterproof and scratch-resistant finish",
-      "X-back rod eliminates wobble",
-      "Strong 4.7-star rating",
+      "X-back rod eliminates wobble"
     ],
     cons: [
       "No concealed storage",
       "Mid-range capacity compared to the wider units on this list",
-      "Vintage tone won't match every office aesthetic",
+      "Vintage tone won't match every office aesthetic"
     ],
     bestFor: "A well-rounded, trusted bookshelf for an office or study",
   },
@@ -249,18 +245,18 @@ export const products: GuideProduct[] = [
       "FSC-certified wood + metal",
       "40 lb/shelf (highest among standard 5-tier picks, 200 lb total)",
       "X-shaped back rod",
-      "Waterproof + anti-scratch",
+      "Waterproof + anti-scratch"
     ],
     pros: [
       "Highest per-shelf capacity among standard office bookshelves at 40 lbs",
       "FSC-certified eco wood",
       "X-back rod reinforcement",
-      "Budget-friendly under $45",
+      "Budget-friendly under $45"
     ],
     cons: [
       "No concealed storage",
       "Fewer reviews than the top-selling picks in this list",
-      "Industrial look may not suit every office",
+      "Industrial look may not suit every office"
     ],
     bestFor: "An office that needs maximum per-shelf load capacity on a budget",
   },
@@ -281,21 +277,21 @@ export const products: GuideProduct[] = [
       "Engineered wood",
       "5 shelves, fits over a 27\" monitor",
       "Anti-falling baffles",
-      "2 anti-tip wall anchors, rounded corners",
+      "2 anti-tip wall anchors, rounded corners"
     ],
     pros: [
       "Only desktop/countertop pick in this list",
       "Fits directly over a 27-inch monitor",
       "Integrates storage onto the desk surface itself",
-      "Rounded corners for safety",
+      "Rounded corners for safety"
     ],
     cons: [
       "Limited to desktop use, not a floor-standing bookshelf",
       "Smaller total capacity than the floor units on this list",
-      "Fewer reviews than the established brands here",
+      "Fewer reviews than the established brands here"
     ],
     bestFor: "A desk that has no floor space left for a standalone bookcase",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -338,10 +334,7 @@ export const faq: FaqItem[] = [
     q: "Which bookshelf has the highest per-shelf weight capacity?",
     a: "The Shintenchi 5-Tier Bookshelf has the highest per-shelf capacity among standard 5-tier picks at 40 lbs per shelf, ideal for heavy binders and reference books.",
   },
-  {
-    q: "What's the most reviewed office bookshelf on this list?",
-    a: "The VASAGLE 6-Tier Wide Bookcase is the best-selling pick with nearly 6,800 ratings and a 4.7-star average.",
-  },
+  
   {
     q: "Is a narrow or wide bookshelf better for a small office?",
     a: "If floor space is limited, the VASAGLE 6-Tier Narrow Bookcase at 15.7 inches wide offers the same build quality as the wider version in a much smaller footprint.",
@@ -349,11 +342,11 @@ export const faq: FaqItem[] = [
   {
     q: "How much weight can an office bookshelf actually hold per shelf?",
     a: "It depends on the material more than the shelf count. Particleboard typically manages 30-50 lbs per shelf, plywood around 50-80 lbs, and metal-reinforced frames like the VASAGLE Liry and Shintenchi can handle 70-80+ lbs per shelf, which matters if you're storing binders or file boxes instead of paperbacks.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-bookshelf-desk", title: "Best Bookshelf Desks (2026)" },
   { href: "/guide/best-bookshelf-with-doors", title: "Best Bookshelves with Doors (2026)" },
-  { href: "/guide/best-bookshelf-for-bedroom", title: "Best Bookshelves for Bedroom (2026)" },
+  { href: "/guide/best-bookshelf-for-bedroom", title: "Best Bookshelves for Bedroom (2026)" }
 ];

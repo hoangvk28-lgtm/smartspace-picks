@@ -29,7 +29,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0DFW4QR4Y?tag=deskfinds0d-20",
     description: "This extender's listing specifically states support for both standard IEEE 802.3af/at and DC48V-57V passive PoE switches and injectors, a genuinely broader compatibility range than the other budget picks in this comparison that support only standard active PoE. Its passthrough design requires no local power, drawing everything from the PoE input.\n\nCompared to the Revotech and CENTROPOWER picks below, this one's dual compatibility with both active and passive PoE sources gives it real flexibility for buyers unsure which type of PoE source they're working with.\n\nBest for buyers who want broad compatibility with both active and passive PoE sources at the lowest price in this comparison.",
     specs: ["2-port, supports active and passive PoE sources", "IEEE 802.3af/at plus DC48V-57V passive compatible", "100m (Cat5e/Cat6) distance, no local power required"],
-    pros: ["Lowest price in this comparison at $13.99", "Compatible with both active IEEE PoE and passive DC PoE sources", "No local power adapter required, draws entirely from PoE input"],
+    pros: ["Lowest price in this comparison at under $15", "Compatible with both active IEEE PoE and passive DC PoE sources", "No local power adapter required, draws entirely from PoE input"],
     cons: ["No stated cascade or daisy-chain distance beyond the standard 100m", "Only 2 ports, fewer devices than the CENTROPOWER pick's cascade options"],
     bestFor: "buyers who want broad compatibility with both active and passive PoE sources at the lowest price",
   },
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Broad compatibility with active and passive PoE sources", "DSLRKIT 2-Port Outdoor Gigabit PoE Passthrough Switch"],
         ["The longest cascade distance from a budget extender", "Revotech 2 Port POE Extender (POE5003)"],
         ["A simple single-device extender", "CENTROPOWER PoE Extender Ethernet Repeater, 1 Port"],
-        ["To power three devices at the lowest cost per device", "MokerLink 4 Port PoE Extender"],
+        ["To power three devices at the lowest cost per device", "MokerLink 4 Port PoE Extender"]
       ],
     },
   },
@@ -109,9 +109,9 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $14", "DSLRKIT 2-Port ($13.99)"],
-        ["Under $15", "CENTROPOWER 1-Port ($14.59)"],
-        ["Under $17", "Revotech 2 Port ($16.79) or MokerLink 4 Port ($16.98)"],
+        ["Under $14", "DSLRKIT 2-Port (under $15)"],
+        ["Under $15", "CENTROPOWER 1-Port (under $15)"],
+        ["Under $17", "Revotech 2 Port (under $20) or MokerLink 4 Port (under $20)"]
       ],
     },
   },
@@ -119,7 +119,7 @@ export const howToChoose = [
     subheading: "Single-Device Simplicity vs Multi-Device Value",
     cards: [
       { label: "Single-device simplicity (DSLRKIT, CENTROPOWER)", text: "Both keep installation straightforward with 1-2 ports, ideal if you only need to extend one or two nearby devices." },
-      { label: "Multi-device value (MokerLink)", text: "Powers three separate devices from one unit at a similar price to the single-port picks, delivering better per-device value for multi-camera setups." },
+      { label: "Multi-device value (MokerLink)", text: "Powers three separate devices from one unit at a similar price to the single-port picks, delivering better per-device value for multi-camera setups." }
     ],
     note: "If you only have one or two devices to extend, the simpler single or dual-port picks keep things straightforward. If you have three or more nearby devices, the MokerLink pick's per-device cost is meaningfully lower.",
   },
@@ -130,7 +130,7 @@ export const howToChoose = [
       rows: [
         ["Standard 100m single-hop distance", "DSLRKIT 2-Port Outdoor Gigabit PoE Passthrough Switch"],
         ["Extended distance via daisy-chain (400m)", "CENTROPOWER PoE Extender Ethernet Repeater"],
-        ["Maximum distance via daisy-chain (2296ft/700m)", "Revotech 2 Port POE Extender"],
+        ["Maximum distance via daisy-chain (2296ft/700m)", "Revotech 2 Port POE Extender"]
       ],
     },
   },
@@ -138,22 +138,22 @@ export const howToChoose = [
     subheading: "For a First-Time PoE Extender Buyer Specifically",
     cards: [
       { label: "Look for", text: "Automatic device detection and installation protection features, which prevent damage from incorrect wiring or an unsupported device type, especially valuable if you're new to PoE installations." },
-      { label: "In this comparison", text: "The Revotech and CENTROPOWER picks both specifically state automatic detection and protection features that guard against installation mistakes." },
+      { label: "In this comparison", text: "The Revotech and CENTROPOWER picks both specifically state automatic detection and protection features that guard against installation mistakes." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You need to power three separate devices from one extender, where the MokerLink pick's $16.98 price delivers better per-device value than buying multiple single-port units." },
-      { label: "Save if", text: "You only need to extend one or two devices with broad PoE source compatibility, where the DSLRKIT pick delivers that for $13.99, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You need to power three separate devices from one extender, where the MokerLink pick's under $20 price delivers better per-device value than buying multiple single-port units." },
+      { label: "Save if", text: "You only need to extend one or two devices with broad PoE source compatibility, where the DSLRKIT pick delivers that for under $15, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "A Budget Extender's Real Value Depends on Price Per Device Powered, Not Just the Sticker Price Alone",
-    "explanation": "The MokerLink pick's $16.98 price powers three separate devices from one unit, working out to a lower true cost per device than the DSLRKIT pick's $13.99 price for just two ports, even though the DSLRKIT has the lower headline price. This matters significantly if you need to extend multiple devices, since comparing extenders by device count divided by price reveals which option actually delivers better value for your specific need. Calculate the effective price per device powered, not just the sticker price, before assuming the cheapest-priced extender is automatically the best value for a multi-device installation."
+    "explanation": "The MokerLink pick's under $20 price powers three separate devices from one unit, working out to a lower true cost per device than the DSLRKIT pick's under $15 price for just two ports, even though the DSLRKIT has the lower headline price. This matters significantly if you need to extend multiple devices, since comparing extenders by device count divided by price reveals which option actually delivers better value for your specific need. Calculate the effective price per device powered, not just the sticker price, before assuming the cheapest-priced extender is automatically the best value for a multi-device installation."
   },
   {
     "criterion": "Support for Both Active and Passive PoE Sources Provides Real Flexibility if You're Unsure of Your Existing Equipment",

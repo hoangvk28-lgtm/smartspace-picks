@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $189.00",
+          "Under $190",
           "Maskedfish eGPU Enclosure Thunderbolt 3/4 USB4 40Gbps PD 85W Charging (MK-L18)"
         ],
         [
-          "Around $329.99",
+          "Under $350",
           "OWC Mercury Helios 5S Thunderbolt 5 80Gb/s PCIe Expansion"
         ],
         [
-          "Around $399.99",
+          "Under $400",
           "Sonnet eGPU Breakaway Box 750"
         ],
         [
-          "Around $399.99",
+          "Under $400",
           "Sonnet eGPU Breakaway Box 750ex"
         ],
         [
-          "Around $599.99",
+          "Under $600",
           "Sonnet Breakaway Box 850 T5 eGPU Enclosure"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "Thunderbolt and USB4 tunnel PCIe over a general-purpose port shared with other data, while OCuLink provides a more direct PCIe connection with typically lower overhead, but neither hot-plugs as easily and OCuLink support is far less common on laptops. Match the choice to what your specific host actually exposes."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Sonnet Breakaway Box 850 T5 eGPU Enclosure is aimed at buyers prioritizing 850w psu, triple-wide card support." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Sonnet Breakaway Box 850 T5 eGPU Enclosure is aimed at buyers prioritizing 850w psu, triple-wide card support." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-razer-egpu-enclosures","title":"Best Razer eGPU Enclosures in 2026"},{"href":"/guide/best-trebleet-egpu-enclosures","title":"Best TREBLEET eGPU Enclosures in 2026"},{"href":"/guide/best-akitio-egpu-enclosures","title":"Best AKiTiO eGPU Enclosures in 2026"}];

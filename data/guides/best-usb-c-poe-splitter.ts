@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This splitter's listing specifically states 5V/4A output, higher than the official Raspberry Pi PoE HAT's 2.5A maximum, positioning it as an enhanced alternative for power-hungry Raspberry Pi 4 applications running multiple demanding tasks simultaneously. Its listing specifically recommends an 802.3at PoE switch or injector for the larger power budget needed to reach the full 4A.\n\nCompared to the other picks in this comparison, this one's specific framing around running multiple Pi units without individual wall chargers cluttering a power strip addresses a genuinely common multi-device pain point.\n\nBest for buyers running a power-hungry Raspberry Pi 4 setup that exceeds the official PoE HAT's 2.5A limit.",
     specs: ["5V/4A output, exceeds official PoE HAT's 2.5A", "Requires 802.3at PoE+ for full output", "Gigabit Ethernet, no QC/PD fast charging support"],
     pros: ["Highest amperage in this comparison at 4A", "Specifically exceeds the official Raspberry Pi PoE HAT's power ceiling", "Reduces power strip clutter for multi-Pi deployments"],
-    cons: ["Highest price in this comparison at $24.99", "Requires an 802.3at PoE+ source to reach the full 4A rating"],
+    cons: ["Highest price in this comparison at under $25", "Requires an 802.3at PoE+ source to reach the full 4A rating"],
     bestFor: "buyers running a power-hungry Raspberry Pi 4 setup that exceeds the official PoE HAT's limit",
   },
   {
@@ -77,7 +77,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B08HS6NDM2?tag=deskfinds0d-20",
     description: "This splitter's listing specifically states auto-detection that provides appropriate power output to connected devices, up to a max 12W (5V/2.4A), while maintaining full Gigabit 1000Mbps speed at the lowest price in this comparison. Its multiple protection features include isolation circuit, short-circuit, and overvoltage protection.\n\nCompared to the UCTRONICS 2.4A pick above, this one delivers the same amperage ceiling for a lower price while still supporting Gigabit speed, a straightforward budget choice for standard USB-C 5V devices like iPads, Dropcam, and Raspberry Pi.\n\nBest for buyers who want the lowest price for a standard 2.4A Gigabit USB-C splitter.",
     specs: ["5V/2.4A, 12W max, Gigabit 1000Mbps", "Auto-detect appropriate power output", "Isolation, short-circuit, overvoltage protection"],
-    pros: ["Lowest price in this comparison at $11.69", "Maintains Gigabit speed despite the low price", "Multiple protection features safeguard connected equipment"],
+    pros: ["Lowest price in this comparison at under $15", "Maintains Gigabit speed despite the low price", "Multiple protection features safeguard connected equipment"],
     cons: ["2.4A ceiling matches but doesn't exceed the UCTRONICS standard pick", "No stated extended range beyond the standard 100m limit"],
     bestFor: "buyers who want the lowest price for a standard 2.4A Gigabit USB-C splitter",
   }
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Maximum amperage exceeding the official Pi PoE HAT", "UCTRONICS USB-C PoE Splitter Gigabit, 5V/4A"],
         ["High amperage at a lower price", "Gigabit PoE Splitter USB C 5V 3.5A"],
         ["Standard 2.4A on existing 802.3af infrastructure", "UCTRONICS PoE Splitter USB-C 5V"],
-        ["The lowest price for standard 2.4A output", "Gigabit Type C PoE Splitter 5V 2.4A"],
+        ["The lowest price for standard 2.4A output", "Gigabit Type C PoE Splitter 5V 2.4A"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $12", "Gigabit Type C PoE Splitter ($11.69)"],
-        ["Under $14", "Gigabit PoE Splitter USB C 3.5A ($13.99)"],
-        ["Under $15", "UCTRONICS PoE Splitter USB-C 5V ($14.99)"],
-        ["Under $25", "UCTRONICS USB-C PoE Splitter Gigabit 4A ($24.99)"],
+        ["Under $12", "Gigabit Type C PoE Splitter (under $15)"],
+        ["Under $14", "Gigabit PoE Splitter USB C 3.5A (under $15)"],
+        ["Under $15", "UCTRONICS PoE Splitter USB-C 5V (under $15)"],
+        ["Under $25", "UCTRONICS USB-C PoE Splitter Gigabit 4A (under $25)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Maximum Amperage vs Standard 802.3af Compatibility",
     cards: [
       { label: "Maximum amperage (UCTRONICS 4A, Gigabit 3.5A)", text: "Both require an 802.3at PoE+ source to unlock their full amperage, delivering more power for demanding Raspberry Pi 4/5 or Jetson Nano applications." },
-      { label: "Standard 802.3af compatibility (UCTRONICS 2.4A, Gigabit 2.4A)", text: "Both work fully on standard, more common 802.3af PoE infrastructure without needing an upgrade to PoE+." },
+      { label: "Standard 802.3af compatibility (UCTRONICS 2.4A, Gigabit 2.4A)", text: "Both work fully on standard, more common 802.3af PoE infrastructure without needing an upgrade to PoE+." }
     ],
     note: "If you already have or plan to install an 802.3at PoE+ switch and run power-hungry devices, the higher-amperage picks are worth it. If your PoE infrastructure is standard 802.3af, the 2.4A picks deliver their full rated performance without any upgrade.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["802.3at PoE+ (higher power budget)", "UCTRONICS 4A or Gigabit 3.5A pick"],
         ["Standard 802.3af PoE", "UCTRONICS 2.4A or Gigabit 2.4A pick"],
-        ["Unsure of PoE standard", "Either 2.4A pick works safely on both standards"],
+        ["Unsure of PoE standard", "Either 2.4A pick works safely on both standards"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For a Multi-Raspberry Pi Deployment Specifically",
     cards: [
       { label: "Look for", text: "A USB-C splitter with amperage that meets or exceeds your Pi model's actual power draw under full load, especially if running attached peripherals like drives or HATs that increase total power consumption." },
-      { label: "In this comparison", text: "The UCTRONICS 4A pick specifically markets itself around eliminating wall-charger clutter for multiple simultaneously running Pi units." },
+      { label: "In this comparison", text: "The UCTRONICS 4A pick specifically markets itself around eliminating wall-charger clutter for multiple simultaneously running Pi units." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You're running a power-hungry Raspberry Pi 4 setup that needs more than the official PoE HAT's 2.5A, where the UCTRONICS 4A pick's $24.99 price is justified by that higher ceiling." },
-      { label: "Save if", text: "Your device works fine within the standard 2.4A ceiling, where the Gigabit Type C pick delivers that for $11.69, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You're running a power-hungry Raspberry Pi 4 setup that needs more than the official PoE HAT's 2.5A, where the UCTRONICS 4A pick's under $25 price is justified by that higher ceiling." },
+      { label: "Save if", text: "Your device works fine within the standard 2.4A ceiling, where the Gigabit Type C pick delivers that for under $15, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

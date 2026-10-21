@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This screen's upgraded tripod stand features thicker steel tubes, a reinforced triangle bracket, a wider support base, a water bag, and ground stakes, delivering more stability hardware than the fabric-only picks in the lower tier. Its quick-set sliding snap clips replace traditional sliding clips, letting you pull the screen taut and lock it instantly without tedious balancing.\n\nCompared to the STWUI pick below, this one adds a self-supporting tripod with genuine outdoor stability features, a meaningful step up from a fabric-only hanging screen. Premium washable polyester fabric is fully ironable, so minor creases from folding disappear quickly.\n\nBest for buyers who want a genuinely stable self-supporting tripod stand for outdoor use.",
     specs: ["100in, tripod stand with water bag", "Washable, ironable polyester fabric", "Quick-set sliding snap clips"],
     pros: ["Reinforced tripod stand with water bag adds genuine outdoor stability", "Quick-set snap clips eliminate tedious manual balancing", "Fabric is both washable and ironable for easy maintenance"],
-    cons: ["Slightly over this tier's stated ceiling at $59.99", "No black backing layer for contrast improvement"],
+    cons: ["Slightly over this tier's stated ceiling at under $60", "No black backing layer for contrast improvement"],
     bestFor: "buyers who want a genuinely stable self-supporting tripod stand",
   },
   {
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A genuinely stable self-supporting tripod stand", "Portable Projector Screen with Tripod Stand, 100in Washable"],
         ["An engineered fix for common stand stability issues", "STWUI Outdoor Projector Screen with Stand, 120 Inch"],
         ["Black-backing contrast benefits at the largest size", "IOLIEO 120 Inch Projector Screen with Black Backing"],
-        ["Black-backing contrast benefits at the lowest price", "IOLIEO 100 Inch Projector Screen with Black Backing"],
+        ["Black-backing contrast benefits at the lowest price", "IOLIEO 100 Inch Projector Screen with Black Backing"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $35", "IOLIEO 100in ($34.99)"],
-        ["Under $37", "IOLIEO 120in ($36.99)"],
-        ["Under $50", "STWUI ($49.99)"],
-        ["Under $60", "Tripod Stand Washable ($59.99)"],
+        ["Under $35", "IOLIEO 100in (under $35)"],
+        ["Under $37", "IOLIEO 120in (under $40)"],
+        ["Under $50", "STWUI (under $50)"],
+        ["Under $60", "Tripod Stand Washable (under $60)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Black Backing vs Self-Supporting Stand",
     cards: [
       { label: "Black backing (IOLIEO 100in, IOLIEO 120in)", text: "Improves image contrast and color accuracy by eliminating light bleed, but requires a wall or frame for mounting." },
-      { label: "Self-supporting stand (Tripod Stand Washable, STWUI)", text: "Lets you set up anywhere with flat ground, no wall required, but doesn't include the black backing contrast improvement." },
+      { label: "Self-supporting stand (Tripod Stand Washable, STWUI)", text: "Lets you set up anywhere with flat ground, no wall required, but doesn't include the black backing contrast improvement." }
     ],
     note: "If image quality and contrast matter most and you have a suitable wall or frame, the IOLIEO black-backed picks are worth prioritizing. If you need to set up in open outdoor spaces without a wall, the stand-equipped picks solve that problem instead.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your setup location", "Recommended pick"],
       rows: [
         ["Wall or fence available for mounting", "IOLIEO 100in or IOLIEO 120in"],
-        ["Open outdoor space, no wall available", "Tripod Stand Washable or STWUI"],
+        ["Open outdoor space, no wall available", "Tripod Stand Washable or STWUI"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Daytime or Bright-Room Viewing Specifically",
     cards: [
       { label: "Look for", text: "A black backing layer specifically designed to eliminate light bleed through the fabric, since ambient light in a bright room can wash out projected images on a standard screen." },
-      { label: "In this comparison", text: "Both IOLIEO picks' black backing layers specifically address light bleed, a genuine benefit for viewing in rooms that aren't fully darkened." },
+      { label: "In this comparison", text: "Both IOLIEO picks' black backing layers specifically address light bleed, a genuine benefit for viewing in rooms that aren't fully darkened." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want a genuinely reinforced, stable tripod stand for outdoor use, where the Tripod Stand Washable pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You want black-backing contrast benefits without needing a stand, where the IOLIEO 100 inch pick covers that for about $25 less." },
+      { label: "Save if", text: "You want black-backing contrast benefits without needing a stand, where the IOLIEO 100 inch pick covers that for about $25 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

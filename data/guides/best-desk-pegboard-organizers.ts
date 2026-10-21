@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desk pegboard organizer";
 export const introParagraphs = [
   "A pegboard organizer kit bought separately from the board it's meant to hang on carries a real compatibility risk, some brands use proprietary hole or peg shapes rather than the standard 1-inch spacing, so an organizer kit that looks universal in photos may not actually fit a specific board. Worth confirming both the organizer's and the board's hole pattern before assuming they'll work together.",
-  "Weight capacity claims on an organizer kit are often given as one uniform number for the whole set, when in practice individual hooks and accessories can hold meaningfully different loads depending on their material and shape. It's also worth checking whether a kit gives you enough pieces for a realistic setup or is really just a minimal starter pack that leaves you buying more separately.",
+  "Weight capacity claims on an organizer kit are often given as one uniform number for the whole set, when in practice individual hooks and accessories can hold meaningfully different loads depending on their material and shape. It's also worth checking whether a kit gives you enough pieces for a realistic setup or is really just a minimal starter pack that leaves you buying more separately."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Desk-Side Organizer, White",
     name: "PEGZONE Desk Side Storage Organizer, Fits Flat Edge 0.4\" to 2.2\", White",
     price: "$24.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "428 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41tGKIBolqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CTQND9BL?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best Desk-Side Organizer, Black",
     name: "PEGZONE Desk Side Storage Organizer, Fits Flat Edge 0.4\" to 2.2\", Black",
     price: "$24.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "428 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ZCA5+OPYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CTQ8NWTQ?tag=deskfinds0d-20",
     description:
@@ -60,15 +60,15 @@ export const products: GuideProduct[] = [
     badge: "Best with Pencil Holder",
     name: "Metal Clamp On Desk Shelf, Storage Shelves with Pegboard and Pencil Holder",
     price: "$37.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "54 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41oUaLqsLtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G4R17HMV?tag=deskfinds0d-20",
     description:
       "A clamp-on metal shelf that includes a small pegboard section and dedicated pencil holder, useful for buyers wanting a compact organizer with a genuine mix of open shelf and hanging storage.\n\nThe metal build should hold up better under repeated hook use than a plastic accessory kit, though the pegboard section here is small enough that hole-spacing compatibility with third-party hooks is worth double-checking before adding extras.\n\nCombines shelf, pegboard, and pencil holder in one accessory. That's a real strength, but weigh it against the flip side: small pegboard section limits hanging capacity.",
     specs: ["Metal clamp-on shelf", "Small pegboard section", "Dedicated pencil holder", "Compact footprint"],
     pros: ["Metal build holds up better than plastic organizer kits", "Combines shelf, pegboard, and pencil holder in one accessory", "Compact footprint suits desks with limited edge space", "Reasonable price for the combination of features"],
-    cons: ["Small pegboard section limits hanging capacity", "Moderate 4.3-star rating relative to others in this list", "Worth confirming hole spacing before adding third-party hooks"],
+    cons: ["Small pegboard section limits hanging capacity", "Worth confirming hole spacing before adding third-party hooks"],
     bestFor: "Buyers wanting a compact metal organizer that combines shelf and pegboard storage.",
   },
   {
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Monitor Mount Add-On",
     name: "VIVO Articulating Single Monitor Pegboard Mount, Fits Pegboards up to 0.25 Inches Thick, Black",
     price: "$27.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "134 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41KnBv2BIKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLWM7K88?tag=deskfinds0d-20",
     description:
@@ -87,7 +87,7 @@ export const products: GuideProduct[] = [
     pros: ["Adds a genuine articulating monitor arm to an existing pegboard", "Fits a wide range of screen sizes up to 32 inches", "Large, well-established review base", "No drilling into the desk required"],
     cons: ["Only compatible with boards using standard 1-inch hole spacing", "Requires an existing compatible pegboard, sold separately", "Adds forward leverage weight to whatever board it's mounted on"],
     bestFor: "Buyers who already own a standard-spacing pegboard and want to add a monitor arm accessory.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -95,7 +95,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Hole-spacing compatibility disclosed clearly", description: "Checked whether each accessory depends on a specific host board's hole pattern versus being a self-contained system with no compatibility risk." },
   { title: "Per-accessory weight capacity, not a uniform kit claim", description: "Weighed individual hook and accessory weight capacity separately rather than accepting one blanket rating for an entire kit." },
   { title: "Universal versus brand-specific system disclosure", description: "Distinguished accessories built for a specific brand's proprietary pattern from those compatible with standard 1-inch spacing." },
-  { title: "Kit completeness for a realistic setup", description: "Considered whether each product gives enough pieces for genuine desk organization versus a minimal starter pack." },
+  { title: "Kit completeness for a realistic setup", description: "Considered whether each product gives enough pieces for genuine desk organization versus a minimal starter pack." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -226,11 +226,11 @@ export const faq: FaqItem[] = [
   { q: "Will any pegboard organizer kit fit my existing pegboard?", a: "Not necessarily, some organizer kits are built for a specific brand's proprietary hole pattern rather than the standard 1-inch spacing, confirm compatibility before buying separately." },
   { q: "Does a pegboard organizer kit's weight rating apply to every hook equally?", a: "Not always, individual hooks and accessories in a kit can hold different loads depending on material and shape, check per-accessory capacity rather than trusting one blanket number." },
   { q: "Should I buy a self-contained organizer or a kit for an existing pegboard?", a: "A self-contained organizer avoids compatibility questions entirely, a kit for an existing pegboard requires confirming the hole spacing matches first." },
-  { q: "Is a pegboard organizer starter kit usually enough for a full setup?", a: "It varies, some starter kits are genuinely complete while others are minimal and leave you buying more hooks separately, count what's included before assuming it covers your needs." },
+  { q: "Is a pegboard organizer starter kit usually enough for a full setup?", a: "It varies, some starter kits are genuinely complete while others are minimal and leave you buying more hooks separately, count what's included before assuming it covers your needs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desk-pegboards-with-monitor-mounts", title: "Best Desk Pegboards with Monitor Mounts (2026)" },
   { href: "/guide/best-under-desk-pegboards", title: "Best Under-Desk Pegboards (2026)" },
-  { href: "/guide/best-desk-pegboards-with-shelves", title: "Best Desk Pegboards with Shelves (2026)" },
+  { href: "/guide/best-desk-pegboards-with-shelves", title: "Best Desk Pegboards with Shelves (2026)" }
 ];

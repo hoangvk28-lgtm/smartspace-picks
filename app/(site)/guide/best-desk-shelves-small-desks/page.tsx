@@ -161,7 +161,7 @@ export default async function BestDeskShelvesSmallDesksPage() {
     about: [
       { "@type": "Thing", name: "Monitor Riser" },
       { "@type": "Thing", name: "Desk Shelf" },
-      { "@type": "Thing", name: "Desktop Organizer" },
+      { "@type": "Thing", name: "Desktop Organizer" }
     ],
   };
 
@@ -181,7 +181,7 @@ export default async function BestDeskShelvesSmallDesksPage() {
         position: 3,
         name: "Best Desk Shelves for Small Desks",
         item: `${SITE_URL}/guide/best-desk-shelves-small-desks`,
-      },
+      }
     ],
   };
 
@@ -509,7 +509,7 @@ export default async function BestDeskShelvesSmallDesksPage() {
                       type: "Desktop bookshelf",
                       bestFor: "Vertical storage for books and binders",
                       notes: "Nromant anti-tip, ChooChoo with drawer",
-                    },
+                    }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.type}</td>
@@ -551,50 +551,50 @@ export default async function BestDeskShelvesSmallDesksPage() {
                 context: "Best monitor riser by review count",
                 id: "wali-adjustable-riser",
                 name: "WALI Adjustable",
-                verdict: " - 15,617 reviews at 4.7 stars, adjustable 3.9 to 5.5 inch, 10-year warranty, $12.99.",
+                verdict: " - Adjustable 3.9 to 5.5 inch, 10-year warranty, under $15.",
               },
               {
                 context: "Highest rated monitor riser",
                 id: "huanuo-monitor-riser",
                 name: "HUANUO Monitor Riser",
-                verdict: " - 15,362 reviews at 4.8 stars, 14.57 x 9.25 inches, vented top.",
+                verdict: " - 14.57 x 9.25 inches, vented top.",
               },
               {
                 context: "Best dual riser with wood surface",
                 id: "bontec-dual-monitor-wood",
                 name: "BONTEC Dual Wood",
-                verdict: " - 7,846 reviews at 4.6 stars, adjustable 31.5 to 42.5 inches.",
+                verdict: " - Adjustable 31.5 to 42.5 inches.",
               },
               {
                 context: "Best with built-in drawer",
                 id: "opnice-riser-with-drawer",
                 name: "OPNICE Riser with Drawer",
-                verdict: " - 4,900 reviews at 4.7 stars, pull-out drawer, 2 pen holders, under $20.",
+                verdict: " - Pull-out drawer, 2 pen holders, under $20.",
               },
               {
                 context: "Best dual riser with magnetic holders",
                 id: "gianotter-dual-magnetic",
                 name: "gianotter Magnetic",
-                verdict: " - 2,908 reviews at 4.6 stars, USPTO-patented magnetic pen holders.",
+                verdict: " - USPTO-patented magnetic pen holders.",
               },
               {
                 context: "Best adjustable-width organizer",
                 id: "nutikas-adjustable-organizer",
                 name: "NUTIKAS Adjustable",
-                verdict: " - 544 reviews at 4.3 stars, adjustable 16.2 to 27.8 inches.",
+                verdict: " - Adjustable 16.2 to 27.8 inches.",
               },
               {
                 context: "Best with anti-tip anchors",
                 id: "nromant-desktop-bookshelf",
                 name: "Nromant 6-Shelf",
-                verdict: " - 204 reviews at 4.5 stars, anti-tip anchors, 70-lb capacity.",
+                verdict: " - Anti-tip anchors, 70-lb capacity.",
               },
               {
                 context: "Tallest bookshelf with drawer",
                 id: "choochoo-bookshelf-drawer",
                 name: "ChooChoo Tallest",
-                verdict: " - 114 reviews at 4.6 stars, 36.4-inch tall, 1 drawer included.",
-              },
+                verdict: " - 36.4-inch tall, 1 drawer included.",
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

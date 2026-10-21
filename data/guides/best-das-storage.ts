@@ -216,35 +216,35 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $103.99",
+          "Under $110",
           "TerraMaster D2-320 2-Bay USB RAID Enclosure (Diskless)"
         ],
         [
-          "Around $109.99",
+          "Under $110",
           "ORICO 5-Bay Hard Drive Enclosure (5Gbps USB 3.0)"
         ],
         [
-          "Around $119.99",
+          "Under $120",
           "CENMATE Aluminum 4-Bay Hard Drive Enclosure (5Gbps)"
         ],
         [
-          "Around $151.99",
+          "Under $160",
           "TerraMaster D4-320 4-Bay USB DAS Enclosure (Diskless)"
         ],
         [
-          "Around $219.00",
+          "Under $250",
           "QNAP TR-004 4-Bay USB-C DAS with Hardware RAID (Diskless)"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "Sabrent 4-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC4B)"
         ],
         [
-          "Around $239.99",
+          "Under $250",
           "TerraMaster D6-320 6-Bay USB DAS Enclosure (Diskless)"
         ],
         [
-          "Around $279.95",
+          "Under $300",
           "Sabrent 5-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC5B)"
         ]
       ]
@@ -289,7 +289,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "Sabrent 4-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC4B) is aimed at buyers prioritizing 4x 3.5in bays, 10gbps usb-c; TerraMaster D4-320 4-Bay USB DAS Enclosure (Diskless) is aimed at buyers prioritizing 4-bay, up to 1,016mb/s combined."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -341,7 +341,7 @@ export const faq = [
     "a": "No. Cable quality and rated bandwidth matter as much as the port. A basic charging-only USB-C cable can bottleneck a 10Gbps or faster enclosure well below its rated speed. Use the cable included with the enclosure, or one explicitly rated for the matching USB or Thunderbolt generation."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Sabrent 4-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC4B) is aimed at buyers prioritizing 4x 3.5in bays, 10gbps usb-c." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Sabrent 4-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC4B) is aimed at buyers prioritizing 4x 3.5in bays, 10gbps usb-c." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-usb-das-storage","title":"8 Best USB DAS Storage Options"},{"href":"/guide/best-raid-direct-attached-storage","title":"8 Best RAID Direct-Attached Storage"},{"href":"/guide/best-4-bay-das-storage","title":"8 Best 4-Bay DAS Storage Options"}];

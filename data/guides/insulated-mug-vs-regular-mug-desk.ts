@@ -12,7 +12,7 @@ export const insulatedMugVsRegularMugDeskGuide: Guide = {
     "insulated mug worth it for desk",
     "keeps coffee hot at desk",
     "spill proof mug for laptop desk",
-    "temperature retention mug comparison",
+    "temperature retention mug comparison"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const insulatedMugVsRegularMugDeskGuide: Guide = {
     "desk-coffee-maker-vs-electric-kettle",
     "desk-mat-vs-desk-pad",
     "cable-management-types-explained",
-    "what-size-desk-do-i-need",
+    "what-size-desk-do-i-need"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const insulatedMugVsRegularMugDeskGuide: Guide = {
       question: "Is a regular mug ever the better choice for desk use?",
       answer:
         "If you tend to drink beverages quickly after preparing them rather than letting them sit for extended periods, a regular mug's temperature retention limitation matters less, and its typically lower cost and simpler cleaning make it a perfectly reasonable choice.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const insulatedMugVsRegularMugDeskGuide: Guide = {
     {
       heading: "Why Spill Protection Deserves Consideration Independent of Insulation Choice",
       body: `The proximity of a drink to a laptop, keyboard, or other expensive electronics on a typical desk creates real spill risk that has nothing to do with whether the mug is insulated, a sealed or spill-resistant lid addresses this separate concern directly, and many insulated mugs happen to include this feature as a natural pairing with their sealed double-wall construction, but the spill protection benefit itself is worth seeking out and prioritizing on its own merits for desk use specifically, regardless of your temperature retention preference.`,
-    },
+    }
   ],
 };

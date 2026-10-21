@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $129.98",
+          "Under $130",
           "Mitlvge 23.62\" Tall 5.0 Cu Ft Extra Large Home Safe"
         ],
         [
-          "Around $142.99",
+          "Under $150",
           "Omethey 5.0 Cu Ft Extra Large Safe with Deposit Slot"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "6.2 Cu Ft Large Home Safe with 3 Removable Shelves"
         ],
         [
-          "Around $239.99",
+          "Under $250",
           "Mitlvge 35-Min Real Fireproof Safe"
         ],
         [
-          "Around $254.99",
+          "Under $300",
           "BUTISOW 8.6 Cu Ft Heavy Duty Safe with Bundled Fireproof Bag"
         ],
         [
-          "Around $289.99",
+          "Under $300",
           "Omethey 8.0 Cu Ft Extra Large Safe with Triple Door"
         ],
         [
-          "Around $369.99",
+          "Under $400",
           "31.5\" Large Fireproof Waterproof Safe with Biometric Access"
         ],
         [
-          "Around $699.99",
+          "Under $700",
           "9.8 Cu Ft Extra Large Biometric Fireproof Waterproof Safe"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", "a": "Omethey 8.0 Cu Ft Extra Large Safe with Triple Door is aimed at buyers prioritizing 8.0 cu ft, triple-door independent design" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", "a": "Omethey 8.0 Cu Ft Extra Large Safe with Triple Door is aimed at buyers prioritizing 8.0 cu ft, triple-door independent design" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-2-cu-ft-fireproof-safes","title":"Best 2 Cu ft Fireproof Safes in 2026"},{"href":"/guide/best-2-cubic-feet-fireproof-safes","title":"Best 2 Cubic Feet Fireproof Safes in 2026"},{"href":"/guide/best-4-cu-ft-fireproof-safes","title":"Best 4 Cu ft Fireproof Safes in 2026"}];

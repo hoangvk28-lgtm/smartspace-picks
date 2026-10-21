@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/517WeovYvrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSJR2RZB?tag=deskfinds0d-20",
-    description: "Tecmojo's 12U open frame rack ships with two vented 1U shelves already in the box, which is a nice touch since most competitors sell shelves separately.\n\nIt's rated for 260 lbs floor-mounted but drops to 130 lbs if you wall-mount it instead, so plan your equipment load around which install method you're using.\n\nWhere this one earns its spot is two vented shelves included instead of sold separately, and anti-slip shelf stops keep gear from sliding. Worth noting before buying: wall-mount capacity is half of floor-standing capacity, which matters more at $89.90 than it would on a cheaper pick.",
+    description: "Tecmojo's 12U open frame rack ships with two vented 1U shelves already in the box, which is a nice touch since most competitors sell shelves separately.\n\nIt's rated for 260 lbs floor-mounted but drops to 130 lbs if you wall-mount it instead, so plan your equipment load around which install method you're using.\n\nWhere this one earns its spot is two vented shelves included instead of sold separately, and anti-slip shelf stops keep gear from sliding. Worth noting before buying: wall-mount capacity is half of floor-standing capacity, which matters more at under $90 than it would on a cheaper pick.",
     specs: ["12U, cold rolled steel frame","260 lb floor / 130 lb wall capacity","2 vented 1U shelves included"],
     pros: ["Two vented shelves included instead of sold separately","Anti-slip shelf stops keep gear from sliding","Stackable design lets you expand later"],
     cons: ["Wall-mount capacity is half of floor-standing capacity","Open frame offers no dust or theft protection"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41KuU2tlXhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C64X8J8R?tag=deskfinds0d-20",
-    description: "VEVOR's 12U open frame rack supports 500 lbs ground-mounted, dropping to 150 lbs if wall-mounted, and comes with a genuinely complete hardware kit down to a grounding wire.\n\nThe adjustable 23-40 inch depth range and roller casters mean it can flex to fit different equipment and rooms without buying a different SKU for each configuration.\n\nThis pick is best for buyers who value 500 lb ground-mounted rating handles heavier gear along with grounding wire included, a detail many racks skip. The catch is that wall-mount capacity drops sharply to 150 lbs, so decide if that's worth it at $89.90.",
+    description: "VEVOR's 12U open frame rack supports 500 lbs ground-mounted, dropping to 150 lbs if wall-mounted, and comes with a genuinely complete hardware kit down to a grounding wire.\n\nThe adjustable 23-40 inch depth range and roller casters mean it can flex to fit different equipment and rooms without buying a different SKU for each configuration.\n\nThis pick is best for buyers who value 500 lb ground-mounted rating handles heavier gear along with grounding wire included, a detail many racks skip. The catch is that wall-mount capacity drops sharply to 150 lbs, so decide if that's worth it at under $90.",
     specs: ["12U, 23-40\" adjustable depth","500 lb ground / 150 lb wall capacity","Casters and grounding wire included"],
     pros: ["500 lb ground-mounted rating handles heavier gear","Grounding wire included, a detail many racks skip","Top panel adds extra storage space"],
     cons: ["Wall-mount capacity drops sharply to 150 lbs","Open frame leaves cables and gear exposed"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51KJIKGXIZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BSRL6XD3?tag=deskfinds0d-20",
-    description: "This is a studio-first take on the rack cabinet, with a flat oak-colored top specifically designed as usable desk space for a laptop or mixer above the equipment stack.\n\nEVA pads attach to the bottom feet to reduce vibration and protect wood floors, a thoughtful touch for a rack meant to live in a home studio rather than a server closet.\n\nWhat stands out here is oak top doubles as real desk space above the rack, plus EVA pads protect wood floors and cut vibration. The main tradeoff: studio-focused design, less suited to dense IT gear, so weigh that against the $188.24 price before buying.",
+    description: "This is a studio-first take on the rack cabinet, with a flat oak-colored top specifically designed as usable desk space for a laptop or mixer above the equipment stack.\n\nEVA pads attach to the bottom feet to reduce vibration and protect wood floors, a thoughtful touch for a rack meant to live in a home studio rather than a server closet.\n\nWhat stands out here is oak top doubles as real desk space above the rack, plus EVA pads protect wood floors and cut vibration. The main tradeoff: studio-focused design, less suited to dense IT gear, so weigh that against the under $190 price before buying.",
     specs: ["12U, black steel frame","Flat oak top workstation surface","EVA vibration-reducing floor pads included"],
     pros: ["Oak top doubles as real desk space above the rack","EVA pads protect wood floors and cut vibration","Steel frame with reinforced joints feels sturdy"],
     cons: ["Studio-focused design, less suited to dense IT gear","No weight rating listed for the rack itself"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41frGl7Xo3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C8T7WHX2?tag=deskfinds0d-20",
-    description: "A wall-mount cabinet from VEVOR with heat-sink venting across the top, bottom, and rear panels, matching the same design language as their smaller 6U and 9U wall cabinets.\n\nGround-mounted capacity again doubles wall-mounted capacity here, so if 200 lbs is more than the wall rating covers, a floor-standing install stretches your options.\n\nThe strongest case for this pick comes down to ground-mounting doubles usable weight capacity as well as heat-sink venting on three panels aids cooling. The compromise here is that 100 lb wall rating is modest for 12U of equipment, so factor that in alongside the $128.90 asking price.",
+    description: "A wall-mount cabinet from VEVOR with heat-sink venting across the top, bottom, and rear panels, matching the same design language as their smaller 6U and 9U wall cabinets.\n\nGround-mounted capacity again doubles wall-mounted capacity here, so if 200 lbs is more than the wall rating covers, a floor-standing install stretches your options.\n\nThe strongest case for this pick comes down to ground-mounting doubles usable weight capacity as well as heat-sink venting on three panels aids cooling. The compromise here is that 100 lb wall rating is modest for 12U of equipment, so factor that in alongside the under $130 asking price.",
     specs: ["12U, 15.5\" deep","200 lb ground / 100 lb wall capacity","Locking glass door and side panels"],
     pros: ["Ground-mounting doubles usable weight capacity","Heat-sink venting on three panels aids cooling","Locking glass door keeps gear visible and secure"],
     cons: ["100 lb wall rating is modest for 12U of equipment","14.8\" usable depth still limits larger servers"],
@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41wJHsNlcIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GV4N6TTT?tag=deskfinds0d-20",
-    description: "Very similar in spec and construction to NavePoint's 12U cabinet, this Pearington model offers a 17.7-inch deep, 110 lb-rated wall enclosure with a lockable tempered glass door.\n\nRemovable, lockable side panels let you adapt the install for different cable routing needs without redesigning the whole cabinet's layout.\n\nWhere this one earns its spot is heat-treated glass door protects gear while staying visible, and lockable side panels adapt to different cable routing. Worth noting before buying: 110 lb rating limits it to lighter networking gear, which matters more at $199.30 than it would on a cheaper pick.",
+    description: "Very similar in spec and construction to NavePoint's 12U cabinet, this Pearington model offers a 17.7-inch deep, 110 lb-rated wall enclosure with a lockable tempered glass door.\n\nRemovable, lockable side panels let you adapt the install for different cable routing needs without redesigning the whole cabinet's layout.\n\nWhere this one earns its spot is heat-treated glass door protects gear while staying visible, and lockable side panels adapt to different cable routing. Worth noting before buying: 110 lb rating limits it to lighter networking gear, which matters more at under $200 than it would on a cheaper pick.",
     specs: ["12U, 17.7\" depth","110 lb weight capacity","Lockable tempered glass door"],
     pros: ["Heat-treated glass door protects gear while staying visible","Lockable side panels adapt to different cable routing","Built-in fan promotes flow-through ventilation"],
     cons: ["110 lb rating limits it to lighter networking gear","Cold-rolled steel is lighter duty than galvanized options"],
@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $89.90",
+          "Under $90",
           "Tecmojo 12U Open Frame Network Rack"
         ],
         [
-          "Around $89.90",
+          "Under $90",
           "VEVOR 12U Open Frame Server Rack"
         ],
         [
-          "Around $128.90",
+          "Under $130",
           "VEVOR 12U Wall Mount Network Cabinet"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "AxcessAbles 12U Network Rack with Wheels"
         ],
         [
-          "Around $188.24",
+          "Under $190",
           "GEARit 12U Audio Rack with Flat Oak Top"
         ],
         [
-          "Around $199.30",
+          "Under $200",
           "Pearington 12U Server Rack Enclosure with Glass Door"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "AxcessAbles 12U Network Rack with Wheels is aimed at buyers prioritizing 18\" usable depth, 1.5mm steel frame." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "AxcessAbles 12U Network Rack with Wheels is aimed at buyers prioritizing 18\" usable depth, 1.5mm steel frame." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks-for-home","title":"Best Server Racks for Home in 2026"},{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"}];

@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The most cushioned belt and largest walking area", "Walking Pad Treadmill with Remote, 2.5HP"],
         ["Built-in incline for more intense workouts", "Walking Pad Treadmill, 8% Incline Under Desk Treadmill"],
         ["A removable handle bar for walking and jogging", "Walking Pad Treadmill with Handle Bar, Foldable"],
-        ["The simplest, lowest-cost option", "Walking Pad Treadmill, Mini Portable with Adjustable Speed"],
+        ["The simplest, lowest-cost option", "Walking Pad Treadmill, Mini Portable with Adjustable Speed"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $80", "Mini Portable ($79.99)"],
-        ["Under $90", "Handle Bar Foldable ($89.98)"],
-        ["Under $100", "8% Incline ($99.99)"],
-        ["Under $110", "2.5HP with Remote ($109.99)"],
+        ["Under $80", "Mini Portable (under $80)"],
+        ["Under $90", "Handle Bar Foldable (under $90)"],
+        ["Under $100", "8% Incline (under $100)"],
+        ["Under $110", "2.5HP with Remote (under $110)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Flat Belt vs Built-In Incline",
     cards: [
       { label: "Flat belt (2.5HP with Remote, Handle Bar Foldable, Mini Portable)", text: "Provides a simple, stable walking surface without added workout intensity, better for casual walking during desk work." },
-      { label: "Built-in incline (8% Incline)", text: "Increases calorie burn and muscle engagement over flat walking, better for buyers specifically prioritizing workout intensity in a compact frame." },
+      { label: "Built-in incline (8% Incline)", text: "Increases calorie burn and muscle engagement over flat walking, better for buyers specifically prioritizing workout intensity in a compact frame." }
     ],
     note: "If you're mainly walking casually while working, a flat belt keeps things simple. If you want a more intense workout without upgrading to a pricier incline treadmill, the 8% Incline pick delivers that at a similar price to the flat options.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your support needs", "Recommended pick"],
       rows: [
         ["Removable handle bar for jogging support", "Handle Bar Foldable"],
-        ["No handle bar, purely flat under-desk use", "2.5HP with Remote, 8% Incline, or Mini Portable"],
+        ["No handle bar, purely flat under-desk use", "2.5HP with Remote, 8% Incline, or Mini Portable"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Small Apartment With Limited Storage Specifically",
     cards: [
       { label: "Look for", text: "A compact folded profile with built-in transport wheels, so the pad slides easily under furniture without requiring a dedicated storage closet." },
-      { label: "In this comparison", text: "The Mini Portable pick's lightweight structure and transport wheels specifically support easy storage under a bed, sofa, or desk in tight apartment layouts." },
+      { label: "In this comparison", text: "The Mini Portable pick's lightweight structure and transport wheels specifically support easy storage under a bed, sofa, or desk in tight apartment layouts." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the most cushioned belt and largest walking surface, where the 2.5HP with Remote pick delivers both at the top of this tier." },
-      { label: "Save if", text: "You just want a simple, no-assembly walking pad for casual desk use, where the Mini Portable pick covers that for about $30 less." },
+      { label: "Save if", text: "You just want a simple, no-assembly walking pad for casual desk use, where the Mini Portable pick covers that for about $30 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

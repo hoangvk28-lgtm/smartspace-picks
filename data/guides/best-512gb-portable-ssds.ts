@@ -5,7 +5,7 @@ export const metaDescription = "The genuinely verified 512GB pick, plus two near
 export const mainKeyword = "best 512gb portable ssd";
 export const introParagraphs = [
   "Only one drive in our verified research pool is a genuine 512GB model, so this guide leads with that pick and rounds out the list with two closely priced compact and budget options whose actual capacities, mostly 1TB, are clearly noted rather than implied to be 512GB.",
-  "If you specifically need 512GB and not more, our lead pick is the only genuinely verified match, the other two are included as fair comparison points for buyers deciding whether the extra capacity of 1TB is worth a similar price.",
+  "If you specifically need 512GB and not more, our lead pick is the only genuinely verified match, the other two are included as fair comparison points for buyers deciding whether the extra capacity of 1TB is worth a similar price."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Only Genuine 512GB Pick",
     name: "KingSpec Z5 512GB External SSD - 2100MB/s, Portable Solid State Hard Drives with RGB Light, Zinc Alloy Case, USB 3.2 Gen2x2 Interface",
     price: "$88.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "436 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31a33qlUGuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLV9GG54?tag=deskfinds0d-20",
     description: "The KingSpec Z5 is the one drive in our verified research pool that is genuinely 512GB, rated up to 2100MB/s over USB 3.2 Gen2x2, a fast rating for a compact budget drive.\n\nIt earns the top spot in this comparison over SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s for one main reason. The only genuinely verified 512GB drive in our research pool. On price, it comes in below SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: High rated speed for a compact budget drive. On the other side, 512GB may feel tight for larger media libraries. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Nearby 1TB Comparison Pick",
     name: "SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s",
     price: "$143.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "3,542 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31PngdJb7FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGL4SHY8?tag=deskfinds0d-20",
     description: "SSK's Portable SSD is actually 1TB rather than 512GB, included here as a direct price comparison point, rated up to 1050MB/s over USB-C.\n\nOne spot below KingSpec Z5 512GB External SSD in this ranking, it costs more than KingSpec Z5 512GB External SSD. The compromise here is straightforward: Not a 512GB drive, confirm your actual capacity need. What you gain in return: Shows the real price gap between 512GB and double the capacity. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Solid USB 3.2 Gen 2 speed rating. On the other side, No official IP rating. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Nearby 1TB Pick with Established Reliability",
     name: "SANDISK 1TB Portable SSD - Up to 800MB/s, USB-C, USB 3.2 Gen 2, Updated Firmware - SDSSDE30-1T00-G26",
     price: "$164.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "10,968 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41-T4nAAufL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5JQ68FY?tag=deskfinds0d-20",
     description: "SanDisk's standard Portable SSD is also genuinely 1TB, not 512GB, but its established brand reputation and larger review base add reliability confidence at a similarly accessible price.\n\nSitting just under SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s, it costs more than SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s. Here's the honest tradeoff: Not a 512GB drive, confirm your actual capacity need. And here's what it gets you instead: Larger, more established review base than niche 512GB brands. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Doubles the capacity of 512GB at a comparable price. On the other side, No official IP rating. That's the main tradeoff to weigh against everything above.",

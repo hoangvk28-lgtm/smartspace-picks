@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $143.99",
+          "Under $150",
           "43\" Wood File Cabinet with Power Outlet"
         ],
         [
-          "Around $149.99",
+          "Under $150",
           "SEDETA Fluted 2 Drawer Filing Cabinet with 2 Sliding Doors for Home Office"
         ],
         [
-          "Around $149.99",
+          "Under $150",
           "DecoFurn Lateral File Cabinet with 2 Drawers"
         ],
         [
-          "Around $174.99",
+          "Under $180",
           "Lateral File Cabinet with Charging Station"
         ],
         [
-          "Around $174.99",
+          "Under $180",
           "Lateral File Cabinet with Charging Station"
         ],
         [
-          "Around $269.99",
+          "Under $300",
           "ModernMate 4 Drawer File Cabinet with Lock"
         ],
         [
-          "Around $287.99",
+          "Under $300",
           "ModernMate 60\" File Cabinet with Drawers & Door"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "ModernMate 60\" Lateral File Cabinet with 3 Drawers"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "43\" Wood File Cabinet with Power Outlet is aimed at buyers prioritizing 43.3in wide desktop, 2 file drawers." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "43\" Wood File Cabinet with Power Outlet is aimed at buyers prioritizing 43.3in wide desktop, 2 file drawers." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"},{"href":"/guide/best-office-credenzas-with-storage","title":"Best Office Credenzas With Storage in 2026"}];

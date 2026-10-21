@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "vesa mounted monitor shelf";
 export const introParagraphs = [
   "A VESA-mounted shelf attaches via a specific screw pattern, usually 75x75mm or 100x100mm, that has to match your monitor's mounting holes exactly, checking this before buying matters more than for a flat-platform shelf that just supports the monitor's own base. Using a VESA shelf on the same mounting point as a monitor arm creates a genuine conflict, since both want that same set of screw holes.",
-  "The combined weight of a shelf plus whatever you place on it must stay under the supporting arm or stand's own rated capacity, not just the shelf's own weight rating considered in isolation. Exceeding the arm's total rated capacity is a real risk even if the shelf itself claims to handle more weight on its own.",
+  "The combined weight of a shelf plus whatever you place on it must stay under the supporting arm or stand's own rated capacity, not just the shelf's own weight rating considered in isolation. Exceeding the arm's total rated capacity is a real risk even if the shelf itself claims to handle more weight on its own."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,13 +26,13 @@ export const products: GuideProduct[] = [
     badge: "Best Overall VESA-Adjacent Clamp Shelf for a Monitor Setup",
     name: "VIVO Black Clamp-on Large 40 inch Ergonomic Desk Shelf, Dual Monitor Riser",
     price: "$69.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "474 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41YgGiEdSPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07S868SFX?tag=deskfinds0d-20",
-    description: "For buyers running a separate VESA monitor arm who want additional shelf space nearby, not on the same mounting point Built with a clamp-mount metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nIt earns the top spot in this comparison over Gaxomo 30-Inch Desktop Clamp-on Shelf & Monitor Riser for one main reason. Solid 4.6-star rating with 474 ratings. On price, it's actually priced above Gaxomo 30-Inch Desktop Clamp-on Shelf & Monitor Riser, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Clamp-mount metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["44 lbs rated capacity (evenly distributed)","clamp-mount metal construction","Priced at $69.99","474 ratings on Amazon"],
-    pros: ["Solid 4.6-star rating with 474 ratings","Clamp-mount metal build appropriate for this use case","Reasonable price at $69.99","A large clamp-on shelf that pairs with a VESA-mounted monitor arm setup rather than replacing it."],
+    description: "For buyers running a separate VESA monitor arm who want additional shelf space nearby, not on the same mounting point Built with a clamp-mount metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nIt earns the top spot in this comparison over Gaxomo 30-Inch Desktop Clamp-on Shelf & Monitor Riser for one main reason. On price, it's actually priced above Gaxomo 30-Inch Desktop Clamp-on Shelf & Monitor Riser, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Clamp-mount metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","clamp-mount metal construction","Priced under $70"],
+    pros: ["Clamp-mount metal build appropriate for this use case","Reasonable price at under $70","A large clamp-on shelf that pairs with a VESA-mounted monitor arm setup rather than replacing it."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A large clamp-on shelf that pairs with a VESA-mounted monitor arm setup rather than replacing it.",
   },
@@ -42,13 +42,13 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Clamp Shelf for VESA Arm Setups",
     name: "Gaxomo 30-Inch Desktop Clamp-on Shelf & Monitor Riser, Holds 44 lbs",
     price: "$49.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "42 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31azforOz-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GD7SNZDD?tag=deskfinds0d-20",
-    description: "For buyers wanting extra platform space alongside, not instead of, their VESA arm mount Built with a clamp-mount metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nOne spot below VIVO Black Clamp-on Large 40 inch Ergonomic Desk Shelf in this ranking, it's priced lower than VIVO Black Clamp-on Large 40 inch Ergonomic Desk Shelf. The compromise here is straightforward: Rated capacity assumes evenly distributed weight, not a single point load. What you gain in return: Solid 4.3-star rating with 42 ratings. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Clamp-mount metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["44 lbs rated capacity (evenly distributed)","clamp-mount metal construction","Priced at $49.99","42 ratings on Amazon"],
-    pros: ["Solid 4.3-star rating with 42 ratings","Clamp-mount metal build appropriate for this use case","Reasonable price at $49.99","A 30 inch reversible clamp shelf sized to complement a VESA arm-mounted monitor without occupying the same mount point."],
+    description: "For buyers wanting extra platform space alongside, not instead of, their VESA arm mount Built with a clamp-mount metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nOne spot below VIVO Black Clamp-on Large 40 inch Ergonomic Desk Shelf in this ranking, it's priced lower than VIVO Black Clamp-on Large 40 inch Ergonomic Desk Shelf. The compromise here is straightforward: Rated capacity assumes evenly distributed weight, not a single point load. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Clamp-mount metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","clamp-mount metal construction","Priced under $50"],
+    pros: ["Clamp-mount metal build appropriate for this use case","Reasonable price at under $50","A 30 inch reversible clamp shelf sized to complement a VESA arm-mounted monitor without occupying the same mount point."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A 30 inch reversible clamp shelf sized to complement a VESA arm-mounted monitor without occupying the same mount point.",
   },
@@ -58,13 +58,13 @@ export const products: GuideProduct[] = [
     badge: "Best Large Wood Clamp Shelf for a VESA Arm Desk",
     name: "Gaxomo Extra-Large 45-Inch Wood Clamp-On Desk Monitor Shelf, Max Load 44 lbs",
     price: "$69.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "42 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41TIYUMrQ7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BP2TS5Q5?tag=deskfinds0d-20",
-    description: "For buyers wanting a wide surface for peripherals alongside a separately VESA-mounted monitor Built with a clamp-mount wood platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nSitting just under Gaxomo 30-Inch Desktop Clamp-on Shelf & Monitor Riser, it costs more than Gaxomo 30-Inch Desktop Clamp-on Shelf & Monitor Riser. Here's the honest tradeoff: Rated capacity assumes evenly distributed weight, not a single point load. And here's what it gets you instead: Solid 4.3-star rating with 42 ratings. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Clamp-mount wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["44 lbs rated capacity (evenly distributed)","clamp-mount wood construction","Priced at $69.99","42 ratings on Amazon"],
-    pros: ["Solid 4.3-star rating with 42 ratings","Clamp-mount wood build appropriate for this use case","Reasonable price at $69.99","A 45 inch wood clamp shelf offering substantial extra surface area on a desk that also runs a VESA-mounted monitor arm."],
+    description: "For buyers wanting a wide surface for peripherals alongside a separately VESA-mounted monitor Built with a clamp-mount wood platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nSitting just under Gaxomo 30-Inch Desktop Clamp-on Shelf & Monitor Riser, it costs more than Gaxomo 30-Inch Desktop Clamp-on Shelf & Monitor Riser. Here's the honest tradeoff: Rated capacity assumes evenly distributed weight, not a single point load. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Clamp-mount wood build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","clamp-mount wood construction","Priced under $70"],
+    pros: ["Clamp-mount wood build appropriate for this use case","Reasonable price at under $70","A 45 inch wood clamp shelf offering substantial extra surface area on a desk that also runs a VESA-mounted monitor arm."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A 45 inch wood clamp shelf offering substantial extra surface area on a desk that also runs a VESA-mounted monitor arm.",
   },
@@ -74,13 +74,13 @@ export const products: GuideProduct[] = [
     badge: "Best True VESA Freestanding Mount for 13-32 Inch Screens",
     name: "WALI Freestanding VESA Monitor Stand for 13-32 inch Screens, up to 22 lbs",
     price: "$27.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "13,522 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/315H76K0UiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B072QDMRS8?tag=deskfinds0d-20",
-    description: "For buyers wanting an actual VESA-mount stand rather than a shelf that merely sits near a separately mounted monitor Built with a metal platform rated to 22 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nRanked just behind Gaxomo Extra-Large 45-Inch Wood Clamp-On Desk Monitor Shelf, it's priced lower than Gaxomo Extra-Large 45-Inch Wood Clamp-On Desk Monitor Shelf. The real tradeoff against that pick: Rated capacity assumes evenly distributed weight, not a single point load. In exchange, it offers this instead: Solid 4.5-star rating with 13,522 ratings. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["22 lbs rated capacity (evenly distributed)","metal construction","Priced at $27.99","13,522 ratings on Amazon"],
-    pros: ["Solid 4.5-star rating with 13,522 ratings","Metal build appropriate for this use case","Reasonable price at $27.99","A freestanding VESA stand rated up to 22 lbs, a genuine direct VESA attachment rather than a shelf placed nearby."],
+    description: "For buyers wanting an actual VESA-mount stand rather than a shelf that merely sits near a separately mounted monitor Built with a metal platform rated to 22 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nRanked just behind Gaxomo Extra-Large 45-Inch Wood Clamp-On Desk Monitor Shelf, it's priced lower than Gaxomo Extra-Large 45-Inch Wood Clamp-On Desk Monitor Shelf. The real tradeoff against that pick: Rated capacity assumes evenly distributed weight, not a single point load. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["22 lbs rated capacity (evenly distributed)","metal construction","Priced under $30"],
+    pros: ["Metal build appropriate for this use case","Reasonable price at under $30","A freestanding VESA stand rated up to 22 lbs, a genuine direct VESA attachment rather than a shelf placed nearby."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A freestanding VESA stand rated up to 22 lbs, a genuine direct VESA attachment rather than a shelf placed nearby.",
   }
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "VESA screw pattern matching checked", description: "Verified that a genuine VESA mount's screw pattern, 75x75mm or 100x100mm, needs to match the specific monitor rather than being universal." },
   { title: "Conflict with monitor arms on the same mount point flagged", description: "Distinguished shelves that occupy the same VESA mounting point as a monitor arm, a genuine conflict, from shelves that sit nearby without competing for those screw holes." },
   { title: "Combined weight checked against the supporting arm's own rating", description: "Emphasized that combined shelf-plus-monitor weight must stay under the arm or stand's own rated capacity, not just the shelf's isolated rating." },
-  { title: "True VESA attachment distinguished from VESA-adjacent shelving", description: "Separated genuine direct VESA-mount stands from clamp-on shelves that simply complement a separately mounted VESA arm." },
+  { title: "True VESA attachment distinguished from VESA-adjacent shelving", description: "Separated genuine direct VESA-mount stands from clamp-on shelves that simply complement a separately mounted VESA arm." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -172,23 +172,19 @@ export const howToChoose: HowToChooseSection[] = [
       {
         "label": "Look for",
         "text": "A stated weight capacity with real margin above your monitor's actual weight, a rigid material like metal or thick wood, and a wide enough platform to support the monitor's full base without overhang."
-      },
-      {
-        "label": "In this comparison",
-        "text": "Gaxomo Extra-Large 45-Inch Wood Clamp-On Desk Monitor Shelf fits this specifically: Solid 4.3-star rating with 42 ratings."
       }
-    ]
+      ]
   },
   {
     "subheading": "When to Spend More",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want what Gaxomo Extra-Large 45-Inch Wood Clamp-On Desk Monitor Shelf offers: Solid 4.3-star rating with 42 ratings. That's a real functional upgrade over the budget picks here, not just a brand markup."
+        "text": "That's a real functional upgrade over the budget picks here, not just a brand markup."
       },
       {
         "label": "Save if",
-        "text": "WALI Freestanding VESA Monitor Stand for 13-32 inch Screens already covers the essentials: Solid 4.5-star rating with 13,522 ratings. The main thing you'd be paying extra for elsewhere in this list is capacity or storage you may not need."
+        "text": "The main thing you'd be paying extra for elsewhere in this list is capacity or storage you may not need."
       }
     ]
   }
@@ -221,11 +217,11 @@ export const faq: FaqItem[] = [
   { q: "Can I use a VESA shelf and a monitor arm on the same monitor at once?", a: "Not on the same mounting point, both want the same screw holes, which is a genuine conflict unless you use a specific compatible adapter." },
   { q: "Does every monitor use the same VESA screw pattern?", a: "No, common patterns are 75x75mm and 100x100mm, check your specific monitor's pattern against the shelf or stand before buying." },
   { q: "Does the shelf's weight rating account for my monitor arm's capacity too?", a: "No, check the combined weight of the shelf plus its contents against your arm's own total rated capacity separately." },
-  { q: "What's the difference between a VESA-mount stand and a VESA-adjacent shelf?", a: "A true VESA-mount stand attaches directly to the monitor's screw holes, while a VESA-adjacent shelf simply sits nearby on the desk without occupying that mounting point." },
+  { q: "What's the difference between a VESA-mount stand and a VESA-adjacent shelf?", a: "A true VESA-mount stand attaches directly to the monitor's screw holes, while a VESA-adjacent shelf simply sits nearby on the desk without occupying that mounting point." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-height-adjustable-monitor-stands", title: "Best Height-Adjustable Monitor Stands (2026)" },
   { href: "/compare/monitor-stand-vs-monitor-arm", title: "Monitor Stand vs Monitor Arm" },
-  { href: "/guide/best-clamp-on-monitor-shelves", title: "Best Clamp-On Monitor Shelves (2026)" },
+  { href: "/guide/best-clamp-on-monitor-shelves", title: "Best Clamp-On Monitor Shelves (2026)" }
 ];

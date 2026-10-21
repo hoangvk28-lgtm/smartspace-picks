@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $205.99",
+          "Under $250",
           "LITTLE TREE 57-Inch Boho Reception Counter"
         ],
         [
-          "Around $242.99",
+          "Under $250",
           "LITTLE TREE 63-Inch Reception Desk with LED Light"
         ],
         [
-          "Around $329.99",
+          "Under $350",
           "Modern Reception Desk with Drawer & Open Shelves"
         ],
         [
-          "Around $417.99",
+          "Under $450",
           "Zethvax L-Shaped Reception Desk"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "LITTLE TREE 63-Inch Reception Desk with LED Light is aimed at buyers prioritizing 63\" wide desktop, black & brown color scheme." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "LITTLE TREE 63-Inch Reception Desk with LED Light is aimed at buyers prioritizing 63\" wide desktop, black & brown color scheme." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-metal-reception-desks","title":"4 Best Metal Reception Desks in 2026"},{"href":"/guide/best-rustic-reception-desks","title":"4 Best Rustic Reception Desks in 2026"},{"href":"/guide/best-modern-reception-desks","title":"best-modern-reception-desks"}];

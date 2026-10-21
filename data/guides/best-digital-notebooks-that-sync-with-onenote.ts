@@ -5,7 +5,7 @@ export const metaDescription = "Honest finding: none of these devices sync nativ
 export const mainKeyword = "digital notebook that syncs with OneNote";
 export const introParagraphs = [
   "We need to correct a common assumption up front: none of the major E Ink notebooks (Kindle Scribe, reMarkable, XPPen) have a native, automatic OneNote sync integration. What actually exists is indirect: you export your notes as a PDF or image from the device's own app, then manually bring that file into OneNote yourself.",
-  "Because there's no true sync, we ranked these by how clean and usable that manual export path is, PDF fidelity, whether handwriting is preserved as editable ink or flattened to an image, and how much friction is involved in getting a page from the device into OneNote.",
+  "Because there's no true sync, we ranked these by how clean and usable that manual export path is, PDF fidelity, whether handwriting is preserved as editable ink or flattened to an image, and how much friction is involved in getting a page from the device into OneNote."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41StVO0JWOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DX234NWP?tag=deskfinds0d-20",
     description: "Cheapest option here with a manual PDF/image export path, and a more open Android-adjacent app environment that may make transferring files to OneNote's app more direct than the closed Kindle or reMarkable ecosystems.\n\nRanked just behind reMarkable 2 with Marker Plus, it's priced lower than reMarkable 2 with Marker Plus. The real tradeoff against that pick: Smaller review base than Kindle Scribe or reMarkable options. In exchange, it offers this instead: Lowest price in this comparison. That's the swap that decides whether this pick or the one above it is the better fit for your note-taking needs.\n\nWorth knowing before you decide: More open app environment for file transfer. On the other side, Smaller review base than Kindle Scribe or reMarkable options. That's the main tradeoff to weigh against everything above.",
-    specs: ["10.95 inch color display","PDF/image export for manual import","329 reviews at 4.3 stars"],
+    specs: ["10.95 inch color display","PDF/image export for manual import"],
     pros: ["Lowest price in this comparison","More open app environment for file transfer"],
     cons: ["Smaller review base than Kindle Scribe or reMarkable options"],
     bestFor: "Budget-focused buyers who want the manual export workflow at the lowest cost.",
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41DUQEUXetL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHZ82DK?tag=deskfinds0d-20",
     description: "A real-paper alternative: the Rocketbook app can export scanned pages to cloud services, from which they can be manually brought into OneNote, and it's the highest-rated, most-reviewed product in this entire comparison.\n\nOne spot below XPPen 3 in 1 Color Digital Notebook 10.95\" in this ranking, it's priced lower than XPPen 3 in 1 Color Digital Notebook 10.95\". The compromise here is straightforward: Real paper, not a digital screen, different workflow entirely from the E Ink devices above. What you gain in return: Massive proven review base. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Much cheaper than the E Ink tablet options. On the other side, Real paper, not a digital screen, different workflow entirely from the E Ink devices above. That's the main tradeoff to weigh against everything above.",
-    specs: ["Real paper pages, scanned via Rocketbook app","Export to cloud services for manual OneNote import","26,593 reviews at 4.6 stars"],
+    specs: ["Real paper pages, scanned via Rocketbook app","Export to cloud services for manual OneNote import"],
     pros: ["Massive proven review base","Much cheaper than the E Ink tablet options"],
     cons: ["Real paper, not a digital screen, different workflow entirely from the E Ink devices above"],
     bestFor: "Buyers who prefer real paper capture and are fine with a manual scan-then-import workflow.",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "No native sync claim taken at face value", description: "We verified there is no automatic, live OneNote sync on any current device and said so directly, rather than repeating a \"syncs with OneNote\" marketing claim." },
   { title: "Export fidelity", description: "We compared whether exported PDFs preserve color, page structure, and handwriting quality, since that determines how usable the file actually is once it lands in OneNote." },
   { title: "Friction in the manual transfer process", description: "We noted whether a device's app ecosystem makes exporting and transferring files more or less direct." },
-  { title: "Review volume for overall device reliability", description: "Since the sync workflow is manual either way, we still weighted established review history for general device quality." },
+  { title: "Review volume for overall device reliability", description: "Since the sync workflow is manual either way, we still weighted established review history for general device quality." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Is there a cheaper way to get notes into OneNote?", a: "The Rocketbook Fusion, a real-paper reusable notebook, scans pages to cloud services for a manual OneNote import at a much lower price than the E Ink tablets." },
   { q: "Do I need a subscription for this to work?", a: "Basic PDF export works without a subscription on most devices. reMarkable's full cloud feature set requires the paid Connect plan." },
   { q: "Why include a real-paper Rocketbook in an E Ink comparison?", a: "Because it's a legitimate, much cheaper alternative path to the same end goal, getting notes into OneNote, and it's the most proven product in this entire comparison." },
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers who want the cleanest manual export path and don't mind the extra step into OneNote." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers who want the cleanest manual export path and don't mind the extra step into OneNote." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks-for-windows", title: "Best Digital Notebooks for Windows (2026)" },
   { href: "/guide/best-digital-notebooks-for-pdfs", title: "Best Digital Notebooks for PDFs (2026)" },
-  { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" },
+  { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" }
 ];

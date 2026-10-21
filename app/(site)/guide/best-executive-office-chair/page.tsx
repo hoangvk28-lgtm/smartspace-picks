@@ -140,7 +140,7 @@ export default async function Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Executive Office Chairs", item: `${SITE_URL}/guide/best-executive-office-chair` },
+      { "@type": "ListItem", position: 3, name: "Best Executive Office Chairs", item: `${SITE_URL}/guide/best-executive-office-chair` }
     ],
   };
 
@@ -245,7 +245,7 @@ export default async function Page() {
 
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>An executive office chair balances professional visual profile with ergonomic support - the best options deliver both a high-back leather aesthetic that reads as authoritative and adjustability sufficient for 6 to 8-hour workdays.</p>
-          <p>This guide covers eight executive office chairs ranked by leather type, ergonomic adjustability, headrest, and price - from the classic BOSS tufted leather under $350 to the Steelcase Gesture leather at $1,299.</p>
+          <p>This guide covers eight executive office chairs ranked by leather type, ergonomic adjustability, headrest, and price - from the classic BOSS tufted leather under $350 to the Steelcase Gesture leather at under $2,299.</p>
           <p>If you prioritize ergonomic performance over executive aesthetics, see our <a href='/guide/best-office-chair-for-back-pain' className='text-brand hover:underline'>best office chairs for back pain</a> guide instead.</p>
         </section>
 

@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Rolling Pick",
     name: "Letaya 3 Drawer Mobile File Cabinet with Lock",
     price: "$99.99",
-    rating: "4.5 stars from 1,373 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/letaya-3-drawer-mobile.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B09YVJN8R7?tag=deskfinds0d-20",
@@ -67,7 +67,7 @@ export const products: GuideProduct[] = [
     badge: "Best Stationary Alternative",
     name: "DEVAISE 2 Drawer Metal File Cabinet, Under Desk",
     price: "$129.99",
-    rating: "4.5 stars from 1,681 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/devaise-2-drawer-metal.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B08G53L8B5?tag=deskfinds0d-20",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     badge: "Best with Printer Stand Top",
     name: "GYIIYUO 2 Drawer File Cabinet with 24-inch Extended Desktop",
     price: "$56.99",
-    rating: "4.2 stars from 1,425 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/gyiiyuo-2-drawer-desktop.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0DBZ98D94?tag=deskfinds0d-20",
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     badge: "Best Stationary Lateral Alternative",
     name: "Letaya 2 Drawer Lateral File Cabinet with Lock",
     price: "$99.99",
-    rating: "4.2 stars from 1,671 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/letaya-2-drawer-lateral.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0GTNJY2HB?tag=deskfinds0d-20",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     badge: "Best Rolling Capacity",
     name: "DEVAISE 3-Drawer Mobile Lateral File Cabinet",
     price: "$94.99",
-    rating: "4.2 stars from 2,444 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/devaise-3-drawer-mobile-lateral.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0989HLF81?tag=deskfinds0d-20",
@@ -131,7 +131,7 @@ export const products: GuideProduct[] = [
     badge: "Best Caster Stability",
     name: "VASAGLE CUSTOS Small Rolling Filing Cabinet",
     price: "$52.99",
-    rating: "4.1 stars from 7,901 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/vasagle-custos-small-rolling.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0BQJ5WL24?tag=deskfinds0d-20",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     badge: "Best Stationary Budget Alternative",
     name: "BYNSOE 2 Drawer Vertical File Cabinet with Lock",
     price: "$64.99",
-    rating: "4.0 stars from 1,303 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/bynsoe-2-drawer-vertical.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0D9XYD75W?tag=deskfinds0d-20",
@@ -163,7 +163,7 @@ export const products: GuideProduct[] = [
     badge: "Best Wood-Finish Rolling Pick",
     name: "3 Drawers Fluted Mobile File Cabinet with Lock, Oak Finish",
     price: "$109.99",
-    rating: "4.1 stars from 66 Amazon ratings",
+    rating: "",
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/fluted-mobile-oak.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0GJZPVMG8?tag=deskfinds0d-20",
@@ -172,7 +172,7 @@ export const products: GuideProduct[] = [
     pros: ["Genuinely mobile design", "Distinct oak wood finish", "Locking drawers", "Doubles as printer stand"],
     cons: ["Smaller review count than other picks", "Wood finish may show wear differently than metal", "Higher price than similar metal options"],
     bestFor: "Buyers who want a rolling cabinet that matches wood office furniture instead of metal.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -203,7 +203,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Caster material and floor compatibility", description: "Where stated, caster material was weighed against hardwood, tile, and carpet compatibility." },
   { title: "Loaded weight vs. caster durability", description: "We factored typical loaded cabinet weight (60-100+ lbs for a full 2-3 drawer cabinet) against the practicality of rolling it once loaded." },
   { title: "Build and lock quality", description: "Metal vs. fabric drawer construction and lock presence were compared across verified buyer feedback." },
-  { title: "Value for confirmed rolling capability", description: "Price was weighed specifically against confirmed mobility rather than against filing capacity alone." },
+  { title: "Value for confirmed rolling capability", description: "Price was weighed specifically against confirmed mobility rather than against filing capacity alone." }
 ];
 
 export const howToChoose: HowToChooseSection[] = [
@@ -307,11 +307,11 @@ export const faq: { q: string; a: string }[] = [
   { q: "What caster material is best for hardwood floors?", a: "Rubber or polyurethane casters are generally safer for hardwood since they roll quietly and are less likely to scratch the finish. Hard nylon casters can mark hardwood and tend to be noisier on hard flooring, though they hold up well under load on carpet or tile." },
   { q: "Is a 5-caster base actually more stable than 4 casters?", a: "Generally yes. A 5-caster layout, with one wheel centered underneath the cabinet, resists tipping better on uneven floors or rug edges than a standard 4-caster arrangement. Most budget rolling cabinets use 4 casters, so a 5-caster design is worth prioritizing if the cabinet will be moved often." },
   { q: "Can a filing cabinet's casters fail before the cabinet itself wears out?", a: "Yes. A cabinet's stated overall weight capacity doesn't guarantee each individual caster is rated to match. Casters bear only a fraction of the total load each, and on a heavily loaded cabinet they're often the first component to fail, especially under-rated budget hardware." },
-  { q: "Does a lock on a rolling filing cabinet make it more secure than a stationary one?", a: "No. Lock security is unrelated to whether a cabinet has casters. A basic cam lock included on either a rolling or stationary cabinet functions the same way and mainly deters casual access rather than providing real security. Don't factor rolling ability into your security expectations." },
+  { q: "Does a lock on a rolling filing cabinet make it more secure than a stationary one?", a: "No. Lock security is unrelated to whether a cabinet has casters. A basic cam lock included on either a rolling or stationary cabinet functions the same way and mainly deters casual access rather than providing real security. Don't factor rolling ability into your security expectations." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-filing-cabinets-for-small-spaces", title: "Best Filing Cabinets for Small Spaces (2026)" },
   { href: "/guide/best-filing-cabinets-for-home-offices", title: "Best Filing Cabinets for Home Offices (2026)" },
-  { href: "/guide/best-lateral-filing-cabinets", title: "Best Lateral Filing Cabinets (2026)" },
+  { href: "/guide/best-lateral-filing-cabinets", title: "Best Lateral Filing Cabinets (2026)" }
 ];

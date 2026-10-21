@@ -12,7 +12,7 @@ export const studioMonitorsVsRegularSpeakersGuide: Guide = {
     "studio monitors for desk setup",
     "do i need studio monitors",
     "powered speakers vs studio monitors",
-    "studio monitors for music production",
+    "studio monitors for music production"
   ],
   heroImage: "https://images.unsplash.com/photo-1702047135360-e549c2e1f7df?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1702047135360-e549c2e1f7df?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const studioMonitorsVsRegularSpeakersGuide: Guide = {
     "db-spl-explained",
     "headphone-impedance-chart",
     "audio-interface-channels-chart",
-    "latency-explained",
+    "latency-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const studioMonitorsVsRegularSpeakersGuide: Guide = {
       question: "Can I use studio monitors as regular desk speakers?",
       answer:
         "Yes, studio monitors work fine as everyday desk speakers, you'll just get a flatter, less bass-heavy sound than typical consumer speakers unless you specifically enjoy or need that accuracy.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const studioMonitorsVsRegularSpeakersGuide: Guide = {
     {
       heading: "Choosing Based on What You Actually Do at Your Desk",
       body: `If you record podcasts, mix music, or edit audio/video regularly, studio monitors give you an honest reference for how your work will actually sound elsewhere. If your desk setup is mainly for casual music, video calls, and gaming, regular powered speakers tuned for an enjoyable sound will likely satisfy you more day to day than the intentionally neutral character of studio monitors.`,
-    },
+    }
   ],
 };

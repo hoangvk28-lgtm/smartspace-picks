@@ -193,36 +193,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $129.98",
+          "Under $130",
           "Mitlvge 23.62\" Tall 5.0 Cu Ft Extra Large Home Safe"
         ],
         [
-          "Around $142.99",
+          "Under $150",
           "Omethey 5.0 Cu Ft Extra Large Safe with Deposit Slot"
         ],
         [
-          "Around $179.99",
+          "Under $180",
           "WASJOYE 4.0 Cu Ft Large Cabinet Safe with Type-C Port"
         ],
         [
-          "Around $239.99",
+          "Under $250",
           "Mitlvge 35-Min Real Fireproof Safe"
         ],
         [
-          "Around $242.99",
+          "Under $250",
           "7.5 Cu Ft Fireproof Safe Box"
         ],
         [
-          "Around $259.99",
+          "Under $300",
           "Mitlvge 7.5 Cu Ft Fireproof Safe"
         ],
         [
-          "Around $269.99",
+          "Under $300",
           "7.0 Cu Ft Fireproof Safe Box"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -270,7 +270,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", "a": "Mitlvge 7.5 Cu Ft Fireproof Safe is aimed at buyers prioritizing 7.5 cu ft, 64 lbs, ul standard, sgs-certified" },
+  { q: "Which pick in this comparison is the best overall choice?", "a": "Mitlvge 7.5 Cu Ft Fireproof Safe is aimed at buyers prioritizing 7.5 cu ft, 64 lbs, ul standard, sgs-certified" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-2-cu-ft-fireproof-safes","title":"Best 2 Cu ft Fireproof Safes in 2026"},{"href":"/guide/best-2-cubic-feet-fireproof-safes","title":"Best 2 Cubic Feet Fireproof Safes in 2026"},{"href":"/guide/best-4-cu-ft-fireproof-safes","title":"Best 4 Cu ft Fireproof Safes in 2026"}];

@@ -12,7 +12,7 @@ export const ipsVsVaVsTnPanelGuide: Guide = {
     "ips vs va monitor panel",
     "tn panel vs ips for gaming",
     "best panel type for color work",
-    "va panel contrast ratio",
+    "va panel contrast ratio"
   ],
   heroImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const ipsVsVaVsTnPanelGuide: Guide = {
     "monitor-resolution-explained",
     "refresh-rate-explained",
     "monitor-size-chart",
-    "ultrawide-vs-dual-monitor",
+    "ultrawide-vs-dual-monitor"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const ipsVsVaVsTnPanelGuide: Guide = {
       question: "Does panel type affect viewing angles?",
       answer:
         "Yes significantly, IPS offers the widest and most consistent viewing angles, VA is moderate but can show some color shift at extreme angles, and TN has the narrowest viewing angles with noticeable color and contrast shift even at modest angles.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ export const ipsVsVaVsTnPanelGuide: Guide = {
     {
       heading: "The Narrowing Gap Between Panel Types",
       body: `Modern IPS panels have significantly closed the response time gap with TN panels that once made TN the default competitive gaming choice, while offering meaningfully better color and viewing angles. This means for most buyers today, IPS represents the more broadly capable choice, with TN remaining relevant mainly for the most budget-constrained competitive gaming builds where every fraction of a millisecond of response time is prioritized above all else.`,
-    },
+    }
   ],
 };

@@ -10,7 +10,7 @@ export const heroImage = "https://m.media-amazon.com/images/I/41qtQPlE-1L._SL500
 export const mainKeyword = "tv stand swivel";
 export const introParagraphs = [
   "Swivel TV stands fall into two very different categories that product photos rarely make clear. Tabletop swivel bases replace the factory legs on your TV and need an existing dresser, console, or media unit underneath them, while full floor stands are standalone furniture with built-in shelving that need no other surface at all.",
-  "Swivel range is another spot where listings get confusing. A stand advertised as a 30 degree swivel usually means 30 degrees to each side for 60 degrees total, while a listing that says 60 degree swivel may already be describing the full range, so the same physical motion can read as either number depending on how the seller phrases it.",
+  "Swivel range is another spot where listings get confusing. A stand advertised as a 30 degree swivel usually means 30 degrees to each side for 60 degrees total, while a listing that says 60 degree swivel may already be describing the full range, so the same physical motion can read as either number depending on how the seller phrases it."
 ];
 
 export interface GuideProduct {
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall",
     name: "PERLESMITH Universal Swivel Tabletop Stand (PSTVS13)",
     price: "$46.99",
-    rating: "4.7 stars",
-    reviews: "28,336 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41qtQPlE-1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07T72QG3K?tag=deskfinds0d-20",
     description: "The PERLESMITH PSTVS13 is a tabletop swivel base built for TVs from 37 to 75 inches, meaning it sits on top of a dresser, credenza, or media console rather than standing on the floor by itself. The 30 degree swivel lets you angle the screen toward a couch or kitchen counter without moving the furniture it rests on, and 9 height levels give you room to clear a soundbar.\n\nThe tempered glass base supports up to 99 lbs and the whole unit assembles in about 15 minutes with included tools. PERLESMITH backs it with a 10-year warranty, which is unusually long for a TV mount at this price and reflects the maturity of this specific model line.\n\nWorth calling out specifically: 9 height levels for soundbar clearance. The catch is requires existing furniture underneath, not a standalone stand.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick",
     name: "PERLESMITH Universal Tabletop Stand (PSTVS04)",
     price: "$39.99",
-    rating: "4.6 stars",
-    reviews: "66,480 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31V5aESh6yL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B077MJZ6ZG?tag=deskfinds0d-20",
     description: "The PERLESMITH PSTVS04 is a tabletop stand for TVs between 32 and 70 inches with 6 height levels and a tempered glass base rated for 99 lbs. Like the PSTVS13 above, this is a replacement base for an existing surface, not a standalone floor unit, so measure the furniture you plan to set it on before ordering. It undercuts most swivel-specific stands while still using the same glass base and steel upright construction as PERLESMITH's pricier models. PERLESMITH covers this model with a lifetime warranty, which adds confidence for a stand that will likely stay in place for years. Lifetime warranty. Set against that, no stated swivel degree spec in the listing. Both matter when comparing it to the other picks here.",
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Small TVs",
     name: "Rfiver Universal Swivel Tabletop Stand",
     price: "$31.99",
-    rating: "4.6 stars",
-    reviews: "14,260 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51LIQI2TicL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06WLKBZJV?tag=deskfinds0d-20",
     description: "The Rfiver stand fits smaller TVs from 27 to 60 inches, filling a gap the larger tabletop bases in this roundup don't cover well. Its 30 degree swivel and 6 height levels ranging from 18.5 to 24.4 inches make it easy to fit into a bedroom dresser setup where clearance is tighter than a living room console.\n\nThe 8mm tempered glass base holds up to 88 lbs, slightly less than the PERLESMITH models, which fits the smaller TV sizes this stand targets. Rfiver includes a 5-year warranty and this remains a tabletop unit that sits on furniture rather than the floor.\n\nA genuine advantage here is that compact 18.5-24.4 inch height range. The tradeoff is 88 lb capacity is lower than PERLESMITH options.",
@@ -90,8 +90,8 @@ export const products: GuideProduct[] = [
     badge: "Best Swivel Range",
     name: "Perlegear Universal Swivel Stand Base (PGTVS26)",
     price: "$36.98",
-    rating: "4.6 stars",
-    reviews: "11,248 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31YTTVNF+9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVDT8MY9?tag=deskfinds0d-20",
     description: "The Perlegear PGTVS26 offers 60 degrees of total swivel, 30 degrees to each side, which is a wider range than the single-direction 30 degree specs on several other tabletop stands in this list even though the numbers look similar at first glance. It also adds 8 degrees of tilt, useful for TVs mounted slightly above eye level.\n\nBuilt for 32 to 70 inch TVs with 9 height levels and a tempered glass base rated for 88 lbs, the PGTVS26 sets up in about 10 minutes. Like the other tabletop bases here, it needs a dresser or console underneath rather than standing on the floor on its own.\n\nAdded tilt function. On the other hand, 88 lb capacity limits heavier TVs. Neither should be a surprise once you know to look for it.",
@@ -106,14 +106,14 @@ export const products: GuideProduct[] = [
     badge: "Best Floor Stand for Large TVs",
     name: "FITUEYES Floor TV Stand with Swivel",
     price: "$89.99",
-    rating: "4.7 stars",
-    reviews: "4,883 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41e5LkAgIrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01CORQRX0?tag=deskfinds0d-20",
     description: "The FITUEYES is a standalone floor stand, not a tabletop base, so it needs no existing furniture underneath it and works in a room with bare wall space. It fits TVs from 50 to 85 inches and carries the highest weight capacity in this roundup at 143 lbs, which matters for the largest and heaviest screens. A 40 degree swivel and VESA 800x600mm compatibility cover most large-format TVs on the market, and the 10mm tempered glass shelf is noticeably thicker than the glass used on the smaller tabletop bases above. This is the pick for anyone setting up a large TV in a room without existing console furniture. 143 lb capacity, highest here. That's a real strength, but weigh it against the flip side: a competitive price, pricier than tabletop bases.",
     specs: ["Fits 50-85 inch TVs", "40 degree swivel floor stand", "10mm tempered glass shelf", "143 lbs capacity", "VESA 800x600mm", "Standalone, no furniture needed"],
     pros: ["Standalone floor stand, no furniture required", "143 lb capacity, highest here", "Fits large 50-85 inch TVs", "Thick 10mm glass shelf"],
-    cons: ["$89.99, pricier than tabletop bases", "Floor footprint takes up room space", "40 degree swivel is narrower than some floor competitors"],
+    cons: ["under $90, pricier than tabletop bases", "Floor footprint takes up room space", "40 degree swivel is narrower than some floor competitors"],
     bestFor: "Living rooms with a large TV and no dresser or console to mount a tabletop base on.",
   },
   {
@@ -122,8 +122,8 @@ export const products: GuideProduct[] = [
     badge: "Best with Built-in Outlets",
     name: "WALI Floor TV Stand with Power Outlet",
     price: "$69.99",
-    rating: "4.6 stars",
-    reviews: "979 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41S3lf9NH5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CRKMDSJV?tag=deskfinds0d-20",
     description: "The WALI is a standalone floor stand for TVs from 32 to 75 inches with a built-in outlet panel of 3 AC plugs and 2 USB ports, which removes the need to run an extension cord to a nearby wall outlet for a streaming box or console. Its 60 degree swivel is a total-range spec, matching the widest tabletop stands above while standing on the floor unassisted.\n\nThree height levels and a 110 lb capacity cover most mid-size to large TVs. WALI includes a 10-year warranty, and the built-in power strip is the clearest differentiator against the other floor stands in this roundup.\n\nWorth calling out specifically: 60 degree total swivel. The catch is only 3 height levels, fewer adjustment points than tabletop bases.",
@@ -138,14 +138,14 @@ export const products: GuideProduct[] = [
     badge: "Most Feature-Complete",
     name: "Rolanstar TV Stand with Swivel Mount and LED",
     price: "$179.99",
-    rating: "4.6 stars",
-    reviews: "1,424 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41zYaNaTdaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CBPW73PF?tag=deskfinds0d-20",
     description: "The Rolanstar is a full 59.1 inch media console with an integrated 34 degree swivel mount built into the top, combining storage shelving and swivel functionality in one standalone piece of furniture. It fits TVs from 32 to 70 inches and includes 4 AC outlets plus USB charging built into the console body. A 7-color, 21-mode LED strip runs along the shelving for ambient lighting, and the console height adjusts between 53 and 56 inches. It costs several times more than a simple tabletop base or basic floor stand, but it replaces both the TV stand and the console furniture in one purchase. Built-in LED lighting with 21 modes. Set against that, a competitive price, most expensive pick here. Both matter when comparing it to the other picks here.",
     specs: ["59.1 inch media console", "34 degree integrated swivel mount", "Fits 32-70 inch TVs", "4 AC outlets + USB", "7-color 21-mode LED", "53-56 inch height adjustable"],
     pros: ["Combines console furniture and swivel mount in one unit", "Built-in LED lighting with 21 modes", "4 AC outlets plus USB", "Storage shelving included"],
-    cons: ["$179.99, most expensive pick here", "34 degree swivel is narrower than several other options", "Larger footprint to plan for in the room"],
+    cons: ["under $180, most expensive pick here", "34 degree swivel is narrower than several other options", "Larger footprint to plan for in the room"],
     bestFor: "Buyers who want to replace both their console furniture and TV mount with a single feature-rich unit.",
   },
   {
@@ -154,8 +154,8 @@ export const products: GuideProduct[] = [
     badge: "Best Value Tabletop",
     name: "HOLMAXD Universal Swivel Stand",
     price: "$28.99",
-    rating: "4.7 stars",
-    reviews: "592 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419its613tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKDTWZ1H?tag=deskfinds0d-20",
     description: "The HOLMAXD is the least expensive stand in this roundup and still delivers 60 degrees of total swivel, 30 degrees each direction, matching the range of pricier tabletop bases above. It fits TVs from 27 to 60 inches and includes a dual safety lock to keep the TV secured once positioned. Nine height levels and a thick tempered glass base rated for 88 lbs round out the spec sheet. This is a tabletop stand that needs an existing dresser or console underneath it, and the tradeoff for the low price is a smaller review count than the more established PERLESMITH and Rfiver models above. A genuine advantage here is that 60 degree total swivel range. The tradeoff is smaller review count than established competitors.",
@@ -163,7 +163,7 @@ export const products: GuideProduct[] = [
     pros: ["Lowest price in this roundup", "60 degree total swivel range", "9 height levels", "Dual safety lock"],
     cons: ["Smaller review count than established competitors", "88 lb capacity limits larger TVs", "Requires existing furniture underneath"],
     bestFor: "Budget buyers with existing furniture who still want a wide swivel range and safety lock.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -213,9 +213,9 @@ export const faq: { q: string; a: string }[] = [
   {
     q: "Is a floor swivel stand better than a tabletop base?",
     a: "Neither is universally better, it depends on your room. A floor stand is the right choice if you have no existing furniture to place a TV on and want built-in shelving or storage. A tabletop base is the better choice if you already own a dresser or console you want to keep using and just need the TV itself to swivel and adjust in height.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
-  { href: "/guide/best-tv-stand-glass", title: "Best Glass TV Stands (2026)" },
+  { href: "/guide/best-tv-stand-glass", title: "Best Glass TV Stands (2026)" }
 ];

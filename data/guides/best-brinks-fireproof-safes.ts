@@ -177,28 +177,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $67.99",
+          "Under $70",
           "SentrySafe Fireproof & Waterproof Document Box"
         ],
         [
-          "Around $72.79",
+          "Under $80",
           "SentrySafe 0.28 Cu Ft Fireproof & Waterproof Chest"
         ],
         [
-          "Around $224.99",
+          "Under $250",
           "SentrySafe Fireproof & Waterproof Dial Combination Safe"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "SentrySafe 0.81 Cu Ft Fireproof & Waterproof Shelf Safe"
         ],
         [
-          "Around $489.99",
+          "Under $500",
           "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -246,7 +246,7 @@ export const faq = [
     "a": "Not exactly. Fire insulation, shelving, and door hardware all take up interior volume, so the nominal cubic-foot figure is always somewhat larger than what you can actually pack inside. Check interior dimensions and shelf layout, not just the headline capacity number."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", "a": "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe is aimed at buyers prioritizing 2.05 cu ft, ul 1hr at 1700 degreesf" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", "a": "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe is aimed at buyers prioritizing 2.05 cu ft, ul 1hr at 1700 degreesf" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-first-alert-fireproof-safes","title":"Best First Alert Fireproof Safes in 2026"},{"href":"/guide/best-honeywell-fireproof-safes","title":"Best Honeywell Fireproof Safes in 2026"},{"href":"/guide/best-sentrysafe-fireproof-safes","title":"Best SentrySafe Fireproof Safes in 2026"}];

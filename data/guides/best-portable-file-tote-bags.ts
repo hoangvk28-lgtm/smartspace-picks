@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable file tote bags";
 export const introParagraphs = [
   "A soft-sided tote bag is a genuinely different form factor from a rigid file box, and provides meaningfully less protection for papers and folders against bending, crushing, or moisture. We disclose this tradeoff directly rather than implying a tote offers equivalent protection to a rigid box.",
-  "We checked hanging file rail presence explicitly, since this feature may not be structurally feasible in every non-rigid bag design, and considered shoulder-strap or handle comfort as a genuine differentiator within this soft-sided category.",
+  "We checked hanging file rail presence explicitly, since this feature may not be structurally feasible in every non-rigid bag design, and considered shoulder-strap or handle comfort as a genuine differentiator within this soft-sided category."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -104,7 +104,7 @@ export const products: GuideProduct[] = [
     pros: ["Genuine hanging file support", "Similar feature set to higher-rated UNICITII picks", "Portable, lightweight design", "Reasonable price"],
     cons: ["Lower rating than the top UNICITII picks", "Small review count", "Less structural protection than a rigid box"],
     bestFor: "Buyers considering the UNICITII lineup who want to compare this specific variant.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Structural rigidity vs. rigid box tradeoff", description: "We disclosed directly that a soft-sided tote provides meaningfully less protection against bending, crushing, or moisture than a rigid box, a real tradeoff for this form factor." },
   { title: "Genuine hanging file rail presence", description: "We verified which totes include a real structural frame supporting standard hanging folders versus those without this feature." },
   { title: "Handle and carrying comfort", description: "We considered handle or strap comfort specific to this soft-sided category, distinct from the rigid box handles covered in our other file box guides." },
-  { title: "Weather and spill resistance", description: "We noted that a soft fabric tote is likely more vulnerable to water damage than a sealed rigid plastic or metal box." },
+  { title: "Weather and spill resistance", description: "We noted that a soft fabric tote is likely more vulnerable to water damage than a sealed rigid plastic or metal box." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -240,11 +240,11 @@ export const faq: FaqItem[] = [
   { q: "Do file tote bags support standard hanging folders?", a: "Some do, using a semi-rigid internal frame, like the UNICITII lineup. Others are general utility totes without this structure. Verify this specifically if you need hanging-file compatibility." },
   { q: "Will my documents get wet if it rains during transport?", a: "Likely yes to some degree, since a soft fabric tote is more vulnerable to water than a sealed rigid box. Consider our weathertight portable file box guide if weather protection is a real concern." },
   { q: "Is a tote bag lighter than a rigid file box?", a: "Generally yes, a genuine benefit of the soft-sided form factor, at the tradeoff of reduced structural protection for your documents." },
-  { q: "Can I use a general utility tote instead of a file-specific one?", a: "Yes, if you don't need dedicated hanging-file rails, a general utility tote like the BALEINE pick works well for loose documents and supplies with the added benefit of multiple organizational pockets." },
+  { q: "Can I use a general utility tote instead of a file-specific one?", a: "Yes, if you don't need dedicated hanging-file rails, a general utility tote like the BALEINE pick works well for loose documents and supplies with the added benefit of multiple organizational pockets." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-file-storage-bags", title: "Best Portable File Storage Bags (2026)" },
   { href: "/guide/best-portable-file-organizer-totes", title: "Best Portable File Organizer Totes (2026)" },
-  { href: "/guide/best-weathertight-portable-file-boxes", title: "Best Weathertight Portable File Boxes (2026)" },
+  { href: "/guide/best-weathertight-portable-file-boxes", title: "Best Weathertight Portable File Boxes (2026)" }
 ];

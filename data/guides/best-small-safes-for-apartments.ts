@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small safes for apartments";
 export const introParagraphs = [
   "Renting changes the anchoring calculus: drilling into walls or floors may violate your lease, and any installation damage could come out of a security deposit. We compared confirmed mounting methods for reversibility and closet-fit dimensions with rental constraints specifically in mind. One original candidate ASIN was not accessible through the product catalog at research time.",
-  "We also weighed carry-away resistance for the genuinely portable picks here, since an apartment safe left unanchored is a real target if it's visible or light enough to grab quickly.",
+  "We also weighed carry-away resistance for the genuinely portable picks here, since an apartment safe left unanchored is a real target if it's visible or light enough to grab quickly."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -131,7 +131,7 @@ export const products: GuideProduct[] = [
     pros: ["USB-C emergency power backup uses equipment already on hand", "Compact mounting footprint, easy to patch at move-out"],
     cons: ["No confirmed usage history for this specific listing yet"],
     bestFor: "Renters wanting dead-battery protection with minimal move-out patching.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Prioritized mounting reversibility for rental restoration requirements", description: "We weighted smaller mounting footprints and tether-based (no-drilling) options higher, since renters often need to restore walls or floors to original condition at move-out." },
   { title: "Weighed weight-based carry-away resistance for unmounted picks", description: "One heavier pick (20 lbs) resists casual removal through sheer weight even without confirmed mounting hardware, a genuine alternative security factor for a no-drilling apartment." },
   { title: "Matched deterrent features to close-quarters apartment living", description: "Lockout cooldowns and alarm deterrents matter more in an apartment with thin walls or shared access than in a detached home, which we factored into our evaluation." },
-  { title: "Excluded the inaccessible ASIN rather than fabricating its data", description: "One original candidate ASIN returned ItemNotAccessible from the product catalog API at research time. We excluded it and disclosed the gap rather than guessing." },
+  { title: "Excluded the inaccessible ASIN rather than fabricating its data", description: "One original candidate ASIN returned ItemNotAccessible from the product catalog API at research time. We excluded it and disclosed the gap rather than guessing." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -266,7 +266,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review count and rating together, not rating alone",
-    "explanation": "A 4.8-star rating from 12 reviews carries far less evaluation confidence than a 4.5-star rating from several thousand, since a small sample can be skewed by a handful of early, enthusiastic buyers before any long-term reliability issues would show up in later reviews.\n\nThis matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
+    "explanation": "This matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
   }
 ];
 
@@ -275,11 +275,11 @@ export const faq: FaqItem[] = [
   { q: "Is there a heavy safe that doesn't need mounting?", a: "Yes, the KornerBatl 20 lb Biometric Safe weighs enough to resist casual carry-away without confirmed mounting hardware." },
   { q: "What's the best option for a shared or sublet apartment?", a: "The Small Safe for Home, explicitly framed by the manufacturer for roommate and landlord access deterrence, with an alarm and mute mode." },
   { q: "Which pick has the smallest mounting footprint to patch at move-out?", a: "The Yuanshikj Small Steel Security Safe Box, at a compact 9.05 x 6.69 x 6.69 inches." },
-  { q: "Why does this list have 7 products instead of 8?", a: "One original candidate ASIN was not accessible through the Amazon catalog API at research time, so we excluded it rather than fabricating its data." },
+  { q: "Why does this list have 7 products instead of 8?", a: "One original candidate ASIN was not accessible through the Amazon catalog API at research time, so we excluded it rather than fabricating its data." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-safes-for-dorm-rooms", title: "Best Small Safes for Dorm Rooms (2026)" },
   { href: "/guide/best-small-safes-for-closets", title: "Best Small Safes for Closets (2026)" },
-  { href: "/guide/best-hidden-small-safes", title: "Best Hidden Small Safes (2026)" },
+  { href: "/guide/best-hidden-small-safes", title: "Best Hidden Small Safes (2026)" }
 ];

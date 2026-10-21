@@ -191,11 +191,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "YuanLey 5-Port Gigabit PoE Switch",
-        "text": "YuanLey 5-Port Gigabit PoE Switch is aimed at buyers prioritizing 4x poe ports @78w total At $29.98, it's the lowest-cost pick in this comparison."
+        "text": "YuanLey 5-Port Gigabit PoE Switch is aimed at buyers prioritizing 4x poe ports @78w total At under $30, it's the lowest-cost pick in this comparison."
       },
       {
         "label": "5-Port Industrial PoE DIN-Rail Switch",
-        "text": "5-Port Industrial PoE DIN-Rail Switch is aimed at buyers prioritizing 5x poe ports @30w/port, industrial At $81.75, it sits at the higher end of this comparison's price range."
+        "text": "5-Port Industrial PoE DIN-Rail Switch is aimed at buyers prioritizing 5x poe ports @30w/port, industrial At under $90, it sits at the higher end of this comparison's price range."
       }
     ],
     "note": "Most buyers should default to YuanLey 5-Port Gigabit PoE Switch unless best industrial din-rail specifically applies to your situation."
@@ -248,7 +248,7 @@ export const howToChoose: HowToChooseSection[] = [
         "text": "YuanLey 5-Port Gigabit PoE Switch is aimed at buyers prioritizing 4x poe ports @78w total"
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -288,7 +288,7 @@ export const faq = [
   { q: "Which pick in this comparison is best for the highest power or feature needs?", "a": "5-Port Industrial PoE DIN-Rail Switch is aimed at buyers prioritizing 5x poe ports @30w/port, industrial" },
   { q: "Do I need a managed switch instead of one of these picks?", a: "Only if you need VLAN segmentation, port mirroring, or other configurable network management features, an unmanaged switch is simpler and sufficient for most small network setups." },
   { q: "Can I mix PoE and non-PoE devices on the same switch?", a: "Yes, PoE-capable switches auto-detect PoE devices and apply power accordingly, a non-PoE device connected to the same switch simply uses the port for data only." },
-  { q: "How do I know if a switch has enough ports for future expansion?", a: "Count your current devices plus any realistic near-term additions, then choose a switch with a small buffer rather than exactly matching your current device count." },
+  { q: "How do I know if a switch has enough ports for future expansion?", a: "Count your current devices plus any realistic near-term additions, then choose a switch with a small buffer rather than exactly matching your current device count." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-4-port-poe-network-switches","title":"5 Best 4-Port PoE Network Switches in 2026"},{"href":"/guide/best-8-port-poe-network-switches","title":"5 Best 8-Port PoE Network Switches in 2026"},{"href":"/guide/best-poe-powered-network-switches","title":"5 Best PoE-Powered Network Switches in 2026"}];

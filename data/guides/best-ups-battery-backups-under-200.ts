@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Maximum capacity and the strongest warranty", "CyberPower CP1500AVRLCD3 Intelligent LCD UPS"],
         ["Coax and Ethernet protection with Energy Star efficiency", "APC Pro UPS Battery Backup, 1000VA/600W"],
         ["PFC sine wave compatibility for a modern PC", "CyberPower CP1000PFCLCD PFC Sine Wave"],
-        ["Solid capacity at the lowest price", "CyberPower AVRG900LCD Intelligent LCD UPS"],
+        ["Solid capacity at the lowest price", "CyberPower AVRG900LCD Intelligent LCD UPS"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $140", "CyberPower AVRG900LCD ($139.95)"],
-        ["Under $180", "CyberPower CP1000PFCLCD ($179.95)"],
-        ["Under $184", "APC BX1000M ($183.99)"],
-        ["Under $200", "CyberPower CP1500AVRLCD3 ($199.95)"],
+        ["Under $140", "CyberPower AVRG900LCD (under $140)"],
+        ["Under $180", "CyberPower CP1000PFCLCD (under $180)"],
+        ["Under $184", "APC BX1000M (under $190)"],
+        ["Under $200", "CyberPower CP1500AVRLCD3 (under $200)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "PFC Sine Wave vs Simulated Sine Wave",
     cards: [
       { label: "PFC sine wave (CP1000PFCLCD, APC BX1000M)", text: "Specifically supports active PFC power supplies common in modern gaming PCs, avoiding compatibility issues some simulated sine wave UPS units have." },
-      { label: "Simulated sine wave (CP1500AVRLCD3, AVRG900LCD)", text: "Works fine for most standard electronics but may not pair as cleanly with certain modern PC power supplies using active PFC." },
+      { label: "Simulated sine wave (CP1500AVRLCD3, AVRG900LCD)", text: "Works fine for most standard electronics but may not pair as cleanly with certain modern PC power supplies using active PFC." }
     ],
     note: "If you have a modern gaming PC or workstation with an active PFC power supply, prioritize a PFC-compatible pick to avoid potential compatibility issues during a power event.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Coax and Ethernet connections to protect", "APC BX1000M (built-in coax/Ethernet protection)"],
         ["Telephone line only", "CyberPower CP1500AVRLCD3 or AVRG900LCD"],
-        ["No wired data lines to protect", "CyberPower CP1000PFCLCD"],
+        ["No wired data lines to protect", "CyberPower CP1000PFCLCD"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Modern Gaming PC or High-End Workstation Specifically",
     cards: [
       { label: "Look for", text: "PFC sine wave compatibility explicitly stated for active PFC power supplies, common in modern gaming PC builds." },
-      { label: "In this comparison", text: "Both the CyberPower CP1000PFCLCD and APC BX1000M specifically support active PFC power supplies." },
+      { label: "In this comparison", text: "Both the CyberPower CP1000PFCLCD and APC BX1000M specifically support active PFC power supplies." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the highest capacity and strongest documented warranty, where the CP1500AVRLCD3's $500,000 guarantee and 1500VA capacity lead this comparison." },
-      { label: "Save if", text: "You want solid 900VA capacity and telephone protection without PFC or coax/Ethernet features, where the AVRG900LCD covers that for $60 less." },
+      { label: "Save if", text: "You want solid 900VA capacity and telephone protection without PFC or coax/Ethernet features, where the AVRG900LCD covers that for $60 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

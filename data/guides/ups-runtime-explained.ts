@@ -12,7 +12,7 @@ export const upsRuntimeExplainedGuide: Guide = {
     "how long does ups battery last",
     "ups runtime calculator",
     "ups sizing for computer",
-    "battery backup runtime desk setup",
+    "battery backup runtime desk setup"
   ],
   heroImage: "https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const upsRuntimeExplainedGuide: Guide = {
     "surge-protector-joule-rating-explained",
     "power-strip-vs-surge-protector",
     "usb-c-power-delivery-explained",
-    "cable-management-types-explained",
+    "cable-management-types-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const upsRuntimeExplainedGuide: Guide = {
       question: "Should I buy a UPS with more capacity than I currently need?",
       answer:
         "A reasonable buffer above your current device load is sensible, since it extends runtime and provides room for adding devices later, but a dramatically oversized UPS costs more than necessary for most typical desk setup needs.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const upsRuntimeExplainedGuide: Guide = {
     {
       heading: "Extending Runtime by Being Selective About What You Connect",
       body: `Not every device at your desk needs to be connected to the UPS's battery-backed outlets, non-critical peripherals like printers or secondary monitors can often be connected to the UPS's surge-only outlets (protected from spikes but not battery-backed) instead, reserving battery capacity for the essential devices, typically the computer itself and perhaps one monitor, that you actually need powered during an outage to save work and shut down safely.`,
-    },
+    }
   ],
 };

@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31jJGGfSvxL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B01N6ILZ4I?tag=deskfinds0d-20",
-    "description": "Mount-It has a 17.5 x 13.5 inch platform with a 20 degree tilt in either direction, a textured surface with raised ridges and a rubber grip base. It ships assembled and the tilt does not lock.\n\nAt $33.99 it is the cheapest and offers a lifetime manufacturer warranty. Versus 3M it is narrower at 17.5 inches versus 22 but costs less than half as much.\n\nBest for most large-footed users who want tilt and a warranty. The caveat is that the platform is not as wide as the 3M and the tilt is free.",
+    "description": "Mount-It has a 17.5 x 13.5 inch platform with a 20 degree tilt in either direction, a textured surface with raised ridges and a rubber grip base. It ships assembled and the tilt does not lock.\n\nAt under $35 it is the cheapest and offers a lifetime manufacturer warranty. Versus 3M it is narrower at 17.5 inches versus 22 but costs less than half as much.\n\nBest for most large-footed users who want tilt and a warranty. The caveat is that the platform is not as wide as the 3M and the tilt is free.",
     "specs": [
       "17.5 x 13.5 inch platform",
       "Tilt 20 degrees each way",
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41qYpA3Tc1L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0G51LF3L3?tag=deskfinds0d-20",
-    "description": "XYRONICA is a widened, curved footrest with a chenille washable cover, a massage texture and a side handle. The listing describes a high-density sponge core and says it arrives vacuum-sealed.\n\nIt costs $37.99, about $4 more than Mount-It, and is softer where Mount-It is ridged plastic. Versus YEASHEIN it offers a washable cover and handle.\n\nBest for people who want a roomy soft rest that can be washed. The caveat is no stated dimensions in the highlights.",
+    "description": "XYRONICA is a widened, curved footrest with a chenille washable cover, a massage texture and a side handle. The listing describes a high-density sponge core and says it arrives vacuum-sealed.\n\nIt costs under $40, about $4 more than Mount-It, and is softer where Mount-It is ridged plastic. Versus YEASHEIN it offers a washable cover and handle.\n\nBest for people who want a roomy soft rest that can be washed. The caveat is no stated dimensions in the highlights.",
     "specs": [
       "Widened curved design",
       "Washable chenille cover",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41L10RZyp2L._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DF7ZFW35?tag=deskfinds0d-20",
-    "description": "YEASHEIN has 4 heights and 2 angle positions, high-density memory foam and a heavy-duty carbon steel frame. The listing says it supports weight and can be used for relaxation and as a step.\n\nAt $37.97 it costs the same as XYRONICA and adds height and angle options. Versus Mount-It it is cushioned rather than ridged.\n\nBest for people who want adjustability and soft foam. The caveat is that the highlights do not list platform dimensions.",
+    "description": "YEASHEIN has 4 heights and 2 angle positions, high-density memory foam and a heavy-duty carbon steel frame. The listing says it supports weight and can be used for relaxation and as a step.\n\nAt under $40 it costs the same as XYRONICA and adds height and angle options. Versus Mount-It it is cushioned rather than ridged.\n\nBest for people who want adjustability and soft foam. The caveat is that the highlights do not list platform dimensions.",
     "specs": [
       "4 heights, 2 angles",
       "High-density memory foam",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41wINJqKAVL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0DKSQZ9MW?tag=deskfinds0d-20",
-    "description": "VECELO is a PU and iron padded footrest with gas spring height adjustment, 3.9 inch thick sponge padding and a large cushion. It is built like a rolling ottoman.\n\nAt $67.04 it costs about twice Mount-It and offers soft thick padding. Versus 3M it is cushioned rather than a hard platform.\n\nBest for people who want a tall, big cushion. The caveat is that it is much taller than an under-desk platform.",
+    "description": "VECELO is a PU and iron padded footrest with gas spring height adjustment, 3.9 inch thick sponge padding and a large cushion. It is built like a rolling ottoman.\n\nAt under $70 it costs about twice Mount-It and offers soft thick padding. Versus 3M it is cushioned rather than a hard platform.\n\nBest for people who want a tall, big cushion. The caveat is that it is much taller than an under-desk platform.",
     "specs": [
       "Gas spring height adjustment",
       "3.9 inch thick sponge padding",
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31SvfBM60jL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0000AI45T?tag=deskfinds0d-20",
-    "description": "3M has an extra-wide 22 inch platform with a slip resistant surface, a heavy-duty steel base and foot-controlled tilt. The height and angle adjust independently and the listing states an American Physical Therapy Association endorsement.\n\nAt $73.36 it is the priciest and the widest by a clear margin. Versus Mount-It it is 4.5 inches wider but costs more than double.\n\nBest for large feet and shared workspaces where durability matters. The caveat is price, and the endorsement is a claim from the listing.",
+    "description": "3M has an extra-wide 22 inch platform with a slip resistant surface, a heavy-duty steel base and foot-controlled tilt. The height and angle adjust independently and the listing states an American Physical Therapy Association endorsement.\n\nAt under $80 it is the priciest and the widest by a clear margin. Versus Mount-It it is 4.5 inches wider but costs more than double.\n\nBest for large feet and shared workspaces where durability matters. The caveat is price, and the endorsement is a claim from the listing.",
     "specs": [
       "22 inch extra-wide platform",
       "Foot-controlled tilt",
@@ -264,7 +264,7 @@ export const howToChoose: HowToChooseSection[] = [
         ]
       ]
     },
-    "note": "YEASHEIN costs $37.97 as well."
+    "note": "YEASHEIN costs under $40 as well."
   },
   {
     "subheading": "Hard Platform vs Padded",

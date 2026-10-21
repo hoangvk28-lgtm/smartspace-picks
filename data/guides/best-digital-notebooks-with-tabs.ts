@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook with tabs";
 export const introParagraphs = [
   "We checked the actual products behind this search directly, and the honest finding is that \"digital notebook with tabs\" currently resolves almost entirely to physical hardcover spiral notebooks with removable paper divider tabs, not digital hardware or E Ink devices at all.",
-  "Rather than force a misleading hardware roundup, we're covering what actually matches this search: physical notebooks with genuine tab-based organization. If you specifically want an E Ink or app-based digital notebook with section navigation, our digital notebooks guide covers that different product category.",
+  "Rather than force a misleading hardware roundup, we're covering what actually matches this search: physical notebooks with genuine tab-based organization. If you specifically want an E Ink or app-based digital notebook with section navigation, our digital notebooks guide covers that different product category."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "6 min";
@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41mQqnKMytL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09GP3H4SM?tag=deskfinds0d-20",
     description: "Ten repositionable physical dividers with genuine tab organization, the highest-rated product in this comparison. This is a real paper notebook, not a digital device.\n\nIt earns the top spot in this comparison over Five Star Advance Spiral Notebook + Study App for one main reason. Highest rating in this comparison. On price, it's actually priced above Five Star Advance Spiral Notebook + Study App, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Repositionable dividers give real flexibility for reorganizing sections. On the other side, Physical paper notebook, not a digital device, no scan/export function. That's the main tradeoff to weigh against everything above.",
-    specs: ["B5 size, physical paper notebook","10 repositionable dividers","1,563 reviews at 4.7 stars"],
+    specs: ["B5 size, physical paper notebook","10 repositionable dividers"],
     pros: ["Highest rating in this comparison","Repositionable dividers give real flexibility for reorganizing sections"],
     cons: ["Physical paper notebook, not a digital device, no scan/export function"],
     bestFor: "Buyers who searched for tab organization and are fine with a physical notebook, not a digital one.",
@@ -47,7 +47,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51qkkJ8SPkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00X7X2KDM?tag=deskfinds0d-20",
     description: "Highest rating and largest review base in this comparison, with physical subject dividers and a companion study app, though the app is a separate study tool, not a scan-and-sync note capture system.\n\nOne spot below Pukka Pad B5 Subject Notebook with 10 Repositionable Dividers in this ranking, it's priced lower than Pukka Pad B5 Subject Notebook with 10 Repositionable Dividers. The compromise here is straightforward: Physical dividers, not digital tabs. What you gain in return: Highest rating and largest review base here. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Includes a companion study app, though separate from the physical notebook. On the other side, The \"app\" is a study tool, not a note-capture/sync system. That's the main tradeoff to weigh against everything above.",
-    specs: ["3-subject, college ruled","Physical dividers","3,341 reviews at 4.8 stars"],
+    specs: ["3-subject, college ruled","Physical dividers"],
     pros: ["Highest rating and largest review base here","Includes a companion study app, though separate from the physical notebook"],
     cons: ["Physical dividers, not digital tabs","The \"app\" is a study tool, not a note-capture/sync system"],
     bestFor: "Students who want a proven physical multi-subject notebook with a companion study app.",
@@ -63,7 +63,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41mij-vhczL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHR17YZP?tag=deskfinds0d-20",
     description: "A leather-bound hardcover journal with organizational tabs, tied for the highest rating in this comparison though with a smaller review base than the top picks.\n\nSitting just under Five Star Advance Spiral Notebook + Study App, it costs more than Five Star Advance Spiral Notebook + Study App. Here's the honest tradeoff: Smaller review base than the top-selling picks. And here's what it gets you instead: Matches the highest rating in this comparison. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Leather hardcover for a more premium feel. On the other side, Smaller review base than the top-selling picks. That's the main tradeoff to weigh against everything above.",
-    specs: ["8x10 in, leather hardcover","College ruled with tabs","177 reviews at 4.8 stars"],
+    specs: ["8x10 in, leather hardcover","College ruled with tabs"],
     pros: ["Matches the highest rating in this comparison","Leather hardcover for a more premium feel"],
     cons: ["Smaller review base than the top-selling picks"],
     bestFor: "Buyers who want a more premium-feeling physical tabbed notebook.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51nZ2zi-zqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F6BJWY8N?tag=deskfinds0d-20",
     description: "Full letter-size pages with removable dividers, giving more writing area per section than the smaller options in this comparison.\n\nRanked just behind Hardcover Spiral Notebook College Ruled, it's priced lower than Hardcover Spiral Notebook College Ruled. The real tradeoff against that pick: Physical notebook, no digital capture function. In exchange, it offers this instead: Largest page size in this comparison. That's the swap that decides whether this pick or the one above it is the better fit for your note-taking needs.\n\nWorth knowing before you decide: Removable dividers for reorganizing sections. On the other side, Physical notebook, no digital capture function. That's the main tradeoff to weigh against everything above.",
-    specs: ["8.5 x 11 in","Removable dividers","503 reviews at 4.7 stars"],
+    specs: ["8.5 x 11 in","Removable dividers"],
     pros: ["Largest page size in this comparison","Removable dividers for reorganizing sections"],
     cons: ["Physical notebook, no digital capture function"],
     bestFor: "Buyers who want maximum page size with genuine tab-based section dividers.",
@@ -95,7 +95,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41eaK401yuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FGCHJHTR?tag=deskfinds0d-20",
     description: "The cheapest leather-bound option with removable dividers in this comparison, at a rating in line with the pricier picks.\n\nOne spot below Hardcover Large Spiral Notebook 8.5\" x 11\" with Removable Dividers in this ranking, it's priced lower than Hardcover Large Spiral Notebook 8.5\" x 11\" with Removable Dividers. The compromise here is straightforward: Smaller review base than the top two picks. What you gain in return: Lowest price of the leather-bound options here. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Rating on par with the more expensive picks. On the other side, Smaller review base than the top two picks. That's the main tradeoff to weigh against everything above.",
-    specs: ["Leather-bound hardcover, lined pages","Removable dividers","316 reviews at 4.7 stars"],
+    specs: ["Leather-bound hardcover, lined pages","Removable dividers"],
     pros: ["Lowest price of the leather-bound options here","Rating on par with the more expensive picks"],
     cons: ["Smaller review base than the top two picks"],
     bestFor: "Budget-conscious buyers who still want a leather-bound tabbed notebook.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified actual search results before ranking anything", description: "We checked what products genuinely surface for this exact search and found it's dominated by physical notebooks, not digital devices, so we're covering that honestly rather than forcing a misleading hardware list." },
   { title: "Real, physical tab functionality", description: "We required genuine removable or repositionable dividers, not just a marketing claim of \"organization\" or \"sections.\"" },
   { title: "Review volume and rating as the primary differentiator", description: "Since the products are functionally similar (spiral or hardcover notebooks with dividers), we leaned on review count and rating to separate the proven options from less-tested ones." },
-  { title: "Format and size differences", description: "We compared page size, binding style (spiral vs. hardcover), and material (leather vs. standard) since those are the real differentiators within this product category." },
+  { title: "Format and size differences", description: "We compared page size, binding style (spiral vs. hardcover), and material (leather vs. standard) since those are the real differentiators within this product category." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -241,13 +241,14 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "Are these actually digital notebooks?", a: "No. We verified this search currently returns physical paper notebooks with tabs, and are covering that honestly rather than forcing a misleading digital-hardware list." },
   { q: "Where can I find a real digital notebook with section navigation?", a: "See our main digital notebooks guide, which covers E Ink devices like the reMarkable and Kindle Scribe, a genuinely different product category from what's listed here." },
-  { q: "Which has the most reviews backing it up?", a: "The Five Star Advance Spiral Notebook, with 3,341 reviews at 4.8 stars." },
+  
   { q: "Are the dividers removable or fixed?", a: "The Pukka Pad B5 and the large hardcover option both have removable/repositionable dividers, giving more flexibility than fixed tabs." },
-  { q: "What's the cheapest option?", a: "The budget hardcover leather-bound notebook at $14.98, with a rating comparable to the pricier picks." },
+  { q: "What's the cheapest option?", a: "The budget hardcover leather-bound notebook at under $15, with a rating comparable to the pricier picks." },
+  { q: "Can I add my own tabs later?", a: "For physical notebooks with repositionable dividers, you can move them around as your sections change. For adhesive tabs, apply them to clean, dry pages. If you want searchable sections, a digital device with a table of contents is a better fit." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" },
   { href: "/guide/best-reusable-digital-notebooks", title: "Best Reusable Digital Notebooks (2026)" },
-  { href: "/guide/best-digital-notebook-and-planner-combos", title: "Best Digital Notebook and Planner Combos (2026)" },
+  { href: "/guide/best-digital-notebook-and-planner-combos", title: "Best Digital Notebook and Planner Combos (2026)" }
 ];

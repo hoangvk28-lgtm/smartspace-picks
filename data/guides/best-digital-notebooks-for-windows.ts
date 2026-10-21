@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook for Windows";
 export const introParagraphs = [
   "This search mostly returns Windows software (OneNote, note-taking apps), but we retargeted it to actual hardware: physical writing devices with a real Windows connection, whether that's a desktop companion app, USB file transfer, or cloud sync accessible from a Windows browser.",
-  "We checked whether each device offers a genuine desktop app for Windows specifically, versus only a web portal or mobile-only companion, since that changes how usable the device is at an actual Windows workstation.",
+  "We checked whether each device offers a genuine desktop app for Windows specifically, versus only a web portal or mobile-only companion, since that changes how usable the device is at an actual Windows workstation."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -95,7 +95,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41StVO0JWOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DX234NWP?tag=deskfinds0d-20",
     description: "As a more open, Android-adjacent device, this is realistically the most straightforward option for basic USB file transfer to a Windows PC, at the lowest price in this comparison, though it lacks a purpose-built Windows notebook app.\n\nOne spot below Amazon Kindle Scribe Colorsoft 64GB in this ranking, it's priced lower than Amazon Kindle Scribe Colorsoft 64GB. The compromise here is straightforward: No dedicated Windows desktop app. What you gain in return: Lowest price in this comparison. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Straightforward file-transfer path to Windows. On the other side, Smaller review base than reMarkable or Kindle options. That's the main tradeoff to weigh against everything above.",
-    specs: ["10.95 inch color display","USB file transfer to Windows","329 reviews at 4.3 stars"],
+    specs: ["10.95 inch color display","USB file transfer to Windows"],
     pros: ["Lowest price in this comparison","Straightforward file-transfer path to Windows"],
     cons: ["No dedicated Windows desktop app","Smaller review base than reMarkable or Kindle options"],
     bestFor: "Budget-focused buyers who are comfortable with basic file transfer instead of a dedicated Windows app.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine Windows desktop app vs. web or mobile only", description: "We specifically checked whether each brand offers a real Windows desktop application, since that's meaningfully different from a browser portal or phone-only companion app." },
   { title: "Retargeted from software to hardware", description: "Since this search mostly surfaces Windows note-taking software, we limited results to actual writing devices with hardware and a stylus." },
   { title: "Subscription dependence for full sync", description: "We flagged where full sync to the Windows app requires a paid subscription versus basic functionality that works without one." },
-  { title: "Review volume as evidence of reliability", description: "We weighted established review history for overall device quality across the Windows-connection comparison." },
+  { title: "Review volume as evidence of reliability", description: "We weighted established review history for overall device quality across the Windows-connection comparison." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,12 +242,12 @@ export const faq: FaqItem[] = [
   { q: "Which device has an actual Windows desktop app?", a: "reMarkable (both the 2 and Paper Pure) offers a genuine Windows desktop application. Kindle Scribe and XPPen rely on cloud tools or basic file transfer instead." },
   { q: "Do I need a subscription for the Windows app to work?", a: "Basic use may work without one, but reMarkable's full sync feature set requires the paid Connect subscription." },
   { q: "Can Kindle Scribe connect to a Windows PC?", a: "Yes, through Amazon's send-to-Kindle and cloud content tools, though not via a dedicated notebook desktop application." },
-  { q: "What's the cheapest option with Windows connectivity?", a: "The XPPen 3 in 1 Color Digital Notebook at $299.98, which supports basic USB file transfer to Windows." },
-  { q: "Is this guide about software instead of hardware?", a: "No, we specifically retargeted this from Windows note-taking software to actual writing hardware with a real Windows connection method." },
+  { q: "What's the cheapest option with Windows connectivity?", a: "The XPPen 3 in 1 Color Digital Notebook at under $300, which supports basic USB file transfer to Windows." },
+  { q: "Is this guide about software instead of hardware?", a: "No, we specifically retargeted this from Windows note-taking software to actual writing hardware with a real Windows connection method." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks-that-sync-with-onenote", title: "Best Digital Notebooks That Sync with OneNote (2026)" },
   { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" },
-  { href: "/guide/best-digital-notebooks-for-pdfs", title: "Best Digital Notebooks for PDFs (2026)" },
+  { href: "/guide/best-digital-notebooks-for-pdfs", title: "Best Digital Notebooks for PDFs (2026)" }
 ];

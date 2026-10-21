@@ -145,24 +145,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $143.99",
+          "Under $150",
           "SAMERY Tempered Glass Computer Desk"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "AIEGLE Modern Reception Desk"
         ],
         [
-          "Around $599.99",
+          "Under $600",
           "ALFA BUSINESS Modern Rectangle Reception Desk with Glass Counter"
         ],
         [
-          "Around $1,324.40",
+          "Under $1,400",
           "NBF Reception Desk with Glass Top Front Counter"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -210,7 +210,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "ALFA BUSINESS Modern Rectangle Reception Desk with Glass Counter is aimed at buyers prioritizing 63\"w x 23.7\"d desktop with tempered glass transaction top." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "ALFA BUSINESS Modern Rectangle Reception Desk with Glass Counter is aimed at buyers prioritizing 63\"w x 23.7\"d desktop with tempered glass transaction top." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-modern-reception-desks","title":"best-modern-reception-desks"},{"href":"/guide/best-quartz-reception-desks","title":"5 Best Quartz Reception Desks in 2026"},{"href":"/guide/best-marble-reception-desks","title":"best-marble-reception-desks"}];

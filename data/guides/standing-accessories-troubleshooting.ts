@@ -12,7 +12,7 @@ export const standingAccessoriesTroubleshootingGuide: Guide = {
     "feet still hurt with anti fatigue mat",
     "balance board too unstable fix",
     "standing mat sliding fix",
-    "footrest not helping fatigue",
+    "footrest not helping fatigue"
   ],
   heroImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const standingAccessoriesTroubleshootingGuide: Guide = {
     "balance-board-vs-anti-fatigue-mat",
     "standing-desk-footrest-explained",
     "standing-desk-shoes-explained",
-    "sit-stand-ratio-explained",
+    "sit-stand-ratio-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const standingAccessoriesTroubleshootingGuide: Guide = {
       question: "Why do I feel more fatigued using multiple standing accessories together than expected?",
       answer:
         "Introducing several new elements simultaneously, a mat, a footrest, a balance board, can be a lot of postural adjustment at once, consider introducing new standing accessories one at a time, giving your body time to adjust to each before adding the next.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const standingAccessoriesTroubleshootingGuide: Guide = {
     {
       heading: "Why Gradual Introduction of New Standing Accessories Prevents Overwhelming Adjustment",
       body: `Each new standing accessory, particularly something requiring active engagement like a balance board, asks your body to adapt to a genuinely new physical demand, introducing several unfamiliar elements simultaneously, a new mat, a new footrest, a new balance board all at once, can create a compounded adjustment burden that feels like excessive fatigue or discomfort, when this might actually resolve naturally if each element were introduced separately with time to adjust before adding the next, a more gradual, sequential approach to building out a standing desk accessory setup generally leads to a smoother adaptation process.`,
-    },
+    }
   ],
 };

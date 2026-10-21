@@ -173,7 +173,7 @@ export default async function Best2DrawerWoodFileCabinetsUnder150Page() {
     about: [
       { "@type": "Thing", name: "2-Drawer File Cabinet" },
       { "@type": "Thing", name: "Wood File Cabinet" },
-      { "@type": "Thing", name: "Home Office Storage" },
+      { "@type": "Thing", name: "Home Office Storage" }
     ],
   };
 
@@ -193,7 +193,7 @@ export default async function Best2DrawerWoodFileCabinetsUnder150Page() {
         position: 3,
         name: "Best 2-Drawer Wood File Cabinets Under $150",
         item: `${SITE_URL}/guide/best-2-drawer-wood-file-cabinets-under-150`,
-      },
+      }
     ],
   };
 
@@ -463,7 +463,7 @@ export default async function Best2DrawerWoodFileCabinetsUnder150Page() {
                   <tbody>
                     {[
                       { size: "Letter size", width: "8.5 x 11 inches", notes: "Most common - all picks on this list accommodate letter-size hanging folders" },
-                      { size: "Legal size", width: "8.5 x 14 inches", notes: "Confirm interior drawer depth on the specific listing before ordering" },
+                      { size: "Legal size", width: "8.5 x 14 inches", notes: "Confirm interior drawer depth on the specific listing before ordering" }
                     ].map((row, i) => (
                       <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                         <td className="px-4 py-3 font-medium text-ink text-xs">{row.size}</td>
@@ -563,7 +563,7 @@ export default async function Best2DrawerWoodFileCabinetsUnder150Page() {
                     { situation: "Need a lock, best value", pick: "VINGLI Rustic Gray (Pick 3)" },
                     { situation: "Farmhouse or warm-toned office", pick: "VASAGLE Honey Brown (Pick 4)" },
                     { situation: "Highest rating, can accept fewer reviews", pick: "DEVAISE Gray Oak (Pick 5)" },
-                    { situation: "Open to metal for best ratings and no assembly", pick: "DEVAISE Metal White (Metal Alternative)" },
+                    { situation: "Open to metal for best ratings and no assembly", pick: "DEVAISE Metal White (Metal Alternative)" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.situation}</td>
@@ -594,7 +594,7 @@ export default async function Best2DrawerWoodFileCabinetsUnder150Page() {
                     { finish: "White with lock", style: "Clean home office, secure document storage", pick: "VASAGLE CUSTOS Locking White" },
                     { finish: "Rustic Gray", style: "Industrial, farmhouse-adjacent, eclectic", pick: "VINGLI Rustic Gray" },
                     { finish: "Honey Brown", style: "Warm farmhouse, earthy, boho", pick: "VASAGLE Honey Brown" },
-                    { finish: "Gray Oak", style: "Contemporary, bridging modern and rustic", pick: "DEVAISE Gray Oak" },
+                    { finish: "Gray Oak", style: "Contemporary, bridging modern and rustic", pick: "DEVAISE Gray Oak" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.finish}</td>
@@ -651,7 +651,7 @@ export default async function Best2DrawerWoodFileCabinetsUnder150Page() {
                 context: "Best overall by review count and price",
                 id: "vasagle-custos-snow-white",
                 name: "VASAGLE CUSTOS Snow White",
-                verdict: " - 3,262 reviews at 4.0 stars, most affordable at ~$62.99, no lock.",
+                verdict: " - Most affordable at ~under $70, no lock.",
               },
               {
                 context: "Best with lock in white finish",
@@ -663,13 +663,13 @@ export default async function Best2DrawerWoodFileCabinetsUnder150Page() {
                 context: "Best value pick with a lock",
                 id: "vingli-rustic-gray",
                 name: "VINGLI Rustic Gray",
-                verdict: " - lock included at a competitive price, 4.1-star rating across 1,333 reviews.",
+                verdict: " - Lock included at a competitive price",
               },
               {
                 context: "Best for farmhouse and warm-toned offices",
                 id: "vasagle-honey-brown",
                 name: "VASAGLE Honey Brown",
-                verdict: " - rare warm honey brown finish, 1,310 reviews at 4.0 stars.",
+                verdict: " - Rare warm honey brown finish",
               },
               {
                 context: "Best gray oak finish with lock",
@@ -682,7 +682,7 @@ export default async function Best2DrawerWoodFileCabinetsUnder150Page() {
                 id: "fatigos-2drawer",
                 name: "FATIGOS 2-Drawer",
                 verdict: " - least validated on the list, consider only when other options are out of stock.",
-              },
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

@@ -193,24 +193,24 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $67.99",
+          "Under $70",
           "SentrySafe Fireproof & Waterproof Document Box"
         ],
         [
-          "Around $72.79",
+          "Under $80",
           "SentrySafe 0.28 Cu Ft Fireproof & Waterproof Chest"
         ],
         [
-          "Around $99.99",
+          "Under $100",
           "Honeywell 0.24 Cu Ft Fireproof & Waterproof Chest with Carry Handle"
         ],
         [
-          "Around $787.00",
+          "Under $800",
           "Hollon Safe HS-610E 2-Hour Fireproof Office Safe"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -258,7 +258,7 @@ export const faq = [
     "a": "Not exactly. Fire insulation, shelving, and door hardware all take up interior volume, so the nominal cubic-foot figure is always somewhat larger than what you can actually pack inside. Check interior dimensions and shelf layout, not just the headline capacity number."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "Honeywell 0.24 Cu Ft Fireproof & Waterproof Chest with Carry Handle is aimed at buyers prioritizing 0.24 cu ft, fits flat letter/a4 documents." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Honeywell 0.24 Cu Ft Fireproof & Waterproof Chest with Carry Handle is aimed at buyers prioritizing 0.24 cu ft, fits flat letter/a4 documents." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-brinks-fireproof-safes","title":"Best Brinks Fireproof Safes in 2026"},{"href":"/guide/best-first-alert-fireproof-safes","title":"Best First Alert Fireproof Safes in 2026"},{"href":"/guide/best-sentrysafe-fireproof-safes","title":"Best SentrySafe Fireproof Safes in 2026"}];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "vertical docking station";
 export const introParagraphs = [
   "A vertical docking station frees up desk surface by standing your laptop and its ports upright instead of flat, but the format brings its own tradeoffs, port accessibility gets harder when connectors sit up top or on the side, cable routing needs more planning to actually look clean, and running a MacBook in clamshell mode on a vertical stand raises a genuine thermal question worth understanding before you buy.",
-  "Below are 8 docking stations we evaluated for vertical or space-saving desk setups, from a purpose-built vertical laptop dock to compact hubs that pair well with a separate vertical stand, weighed on stability, port placement, and how each handles a clamshell-mode laptop running under load.",
+  "Below are 8 docking stations we evaluated for vertical or space-saving desk setups, from a purpose-built vertical laptop dock to compact hubs that pair well with a separate vertical stand, weighed on stability, port placement, and how each handles a clamshell-mode laptop running under load."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "2x HDMI 4K 60Hz",
       "3x USB A/C 10Gbps, 2x USB A 5Gbps",
       "USB A 2.0, Ethernet",
-      "PD3.0 charging passthrough",
+      "PD3.0 charging passthrough"
     ],
     pros: [
       "Only pick in this list combining a vertical stand and dock in one unit",
       "Strong 10Gbps data port speed",
       "Frees up the most desk surface of any pick here",
-      "Reasonable price for a dedicated vertical form factor",
+      "Reasonable price for a dedicated vertical form factor"
     ],
     cons: [
       "Fit depends on your specific laptop's thickness and vent placement",
       "Vertical port placement means reaching up or over to plug in USB drives",
-      "New listing with no review history yet",
+      "New listing with no review history yet"
     ],
     bestFor: "Buyers who want a true all-in-one vertical stand and dock rather than 2 separate pieces",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "2 HDMI, dual monitor 4K@60Hz",
       "100W power adapter included",
       "USB 3.0, SD and microSD",
-      "Ethernet, audio",
+      "Ethernet, audio"
     ],
     pros: [
       "Vertical stand shape matched specifically to MacBook dimensions",
       "Enables clamshell dual-display use cases naturally",
       "Includes SD and microSD card slots",
-      "100W adapter included in the price",
+      "100W adapter included in the price"
     ],
     cons: [
       "Mac-specific design, less useful for Windows laptops",
       "Clamshell mode raises real thermal risk under sustained heavy tasks",
-      "Fewer USB-A ports than some flat dock alternatives",
+      "Fewer USB-A ports than some flat dock alternatives"
     ],
     bestFor: "MacBook owners who want a permanent clamshell dual-display vertical setup",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Dual monitor 4K@60Hz",
       "150W power adapter included",
       "Wide peripheral port range",
-      "Designed for MacBook use",
+      "Designed for MacBook use"
     ],
     pros: [
       "Highest total port count in this list",
       "150W adapter is the strongest included charging in this list",
       "Dual 4K monitor support",
-      "Good consolidation point for a heavily peripheral-loaded desk",
+      "Good consolidation point for a heavily peripheral-loaded desk"
     ],
     cons: [
       "Higher price than most other picks",
       "Not paired with its own vertical stand, buy one separately",
-      "Larger dock body takes more desk space than the slimmer picks",
+      "Larger dock body takes more desk space than the slimmer picks"
     ],
     bestFor: "MacBook users who want maximum port consolidation alongside a separate vertical stand",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Triple display, 4K HDMI + DP",
       "10Gbps USB-C and USB-A",
       "100W PD charging",
-      "Adapter included",
+      "Adapter included"
     ],
     pros: [
       "Compact footprint pairs well with a separate vertical laptop stand",
       "Triple display support",
       "10Gbps data ports",
-      "Power adapter included in the price",
+      "Power adapter included in the price"
     ],
     cons: [
       "No vertical stand included, needs a separate one",
       "Port reach can require an extension cable in a vertical setup",
-      "Windows-focused, less optimized for Mac clamshell use",
+      "Windows-focused, less optimized for Mac clamshell use"
     ],
     bestFor: "Windows laptop owners who want a compact hub next to their own vertical stand",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Dual 5K/4K@60Hz DisplayLink",
       "130W PD charging",
       "2x HDMI, 2x DP",
-      "5x USB ports, Gigabit Ethernet",
+      "5x USB ports, Gigabit Ethernet"
     ],
     pros: [
       "Dual 5K display support, higher than most picks in this list",
       "Broad Mac and Windows compatibility",
       "130W PD is among the highest in this list",
-      "5 USB ports plus Ethernet",
+      "5 USB ports plus Ethernet"
     ],
     cons: [
       "DisplayLink requires driver installation and updates",
       "No included vertical stand",
-      "Larger body than the more compact hub picks",
+      "Larger body than the more compact hub picks"
     ],
     bestFor: "Buyers who want dual 5K displays and cross-platform compatibility in a clean desk setup",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "100W Power Delivery",
       "6x USB 5Gbps ports",
       "Windows, macOS, ChromeOS compatible",
-      "Compact rectangular body",
+      "Compact rectangular body"
     ],
     pros: [
       "Established brand with broad OS compatibility",
       "Triple display support",
       "6 USB ports for peripheral-heavy desks",
-      "Compact body suits a vertical, minimal-clutter layout",
+      "Compact body suits a vertical, minimal-clutter layout"
     ],
     cons: [
       "No vertical stand included",
       "1 of 3 HDMI outputs is limited to 30Hz at 4K",
-      "Mid-range price without the highest-end display specs",
+      "Mid-range price without the highest-end display specs"
     ],
     bestFor: "Buyers who want a reliable, broadly compatible dock next to a vertical stand",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "3 displays, 2 HDMI + 1 DP",
       "10 Gbps USB-C, 3x USB-A",
       "SD/TF card slots, Ethernet",
-      "100W Max PD",
+      "100W Max PD"
     ],
     pros: [
       "Detachable hub solves the vertical-setup port reach problem directly",
       "Triple display support",
       "10Gbps USB-C data port",
-      "Reasonable mid-range price",
+      "Reasonable mid-range price"
     ],
     cons: [
       "Detachable design adds one more cable to manage",
       "No vertical stand included",
-      "New listing with no review history yet",
+      "New listing with no review history yet"
     ],
     bestFor: "Buyers who want dock ports split between a fixed unit and a portable, closer-to-hand hub",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Triple 4K 60Hz via DisplayLink",
       "140W Max charging",
       "Built-in cooling fan, smart display",
-      "Latest DisplayLink driver required",
+      "Latest DisplayLink driver required"
     ],
     pros: [
       "Highest port count and charging wattage among compact picks in this list",
       "Active cooling fan manages heat under sustained load",
       "Triple 4K 60Hz display support",
-      "Smart display adds at-a-glance status info",
+      "Smart display adds at-a-glance status info"
     ],
     cons: [
       "Highest price in this list",
       "Requires the latest DisplayLink driver installed",
-      "No included vertical stand",
+      "No included vertical stand"
     ],
     bestFor: "Buyers running sustained heavy workloads who want a dock with its own active cooling",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Display and charging capability",
     description: "Compared display count and resolution, charging wattage, and total port count against price to judge value within the vertical or space-saving category.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -481,11 +481,11 @@ export const faq: FaqItem[] = [
   {
     q: "Is a heavier laptop stable on a vertical dock stand?",
     a: "It depends on the stand's weight rating and base design. A vertical stand or dock holding a heavier laptop needs enough base width and weight capacity to resist tipping under vibration or an accidental bump. Look for a weighted base or cable-management clip attachment points if you're mounting a larger, heavier laptop vertically.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-docking-stations-for-macbook-air", title: "Best Docking Stations for MacBook Air (2026)" },
   { href: "/guide/best-docking-stations-for-small-desks", title: "Best Docking Stations for Small Desks (2026)" },
-  { href: "/guide/best-displaylink-docking-stations", title: "Best DisplayLink Docking Stations (2026)" },
+  { href: "/guide/best-displaylink-docking-stations", title: "Best DisplayLink Docking Stations (2026)" }
 ];

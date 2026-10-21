@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "budget digital notebook";
 export const introParagraphs = [
   "Every pick in this guide is priced under $30, which in practice means the reusable paper notebook category, since standalone e-ink hardware and most smart pen sets start well above this range. If you have a strict budget, a Rocketbook-style notebook is genuinely the entry point into digitizing handwritten notes.",
-  "We checked each listed price against the verified product data before including it here, rather than assuming a product is budget-friendly based on its category alone.",
+  "We checked each listed price against the verified product data before including it here, rather than assuming a product is budget-friendly based on its category alone."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Every price verified against current listing data before inclusion", description: "Checked each product's actual listed price against our verified data and excluded anything not genuinely at a budget-friendly price, rather than assuming a category is budget-friendly." },
   { title: "Reusability weighed as a real budget factor", description: "Credited wipe-clean, reusable pages as extending value over a single-use paper notebook, relevant for a tight budget used across multiple semesters or projects." },
   { title: "Pen inclusion checked as part of total cost", description: "Noted where a compatible pen is included versus needing a separate purchase, since that materially changes the real total cost for a budget buyer." },
-  { title: "Writing space compared across the whole budget tier", description: "Compared mini, executive, and letter-size formats within this price range so budget buyers can weigh space against price directly." },
+  { title: "Writing space compared across the whole budget tier", description: "Compared mini, executive, and letter-size formats within this price range so budget buyers can weigh space against price directly." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -274,11 +274,11 @@ export const faq: FaqItem[] = [
   { q: "What's the cheapest digital notebook available?", a: "Reusable paper notebooks like the Rocketbook Mini are generally the cheapest way to digitize handwritten notes, typically under $15 to $30 depending on size and format." },
   { q: "Can I get an e-ink digital notebook under $30?", a: "Not realistically, standalone e-ink hardware devices start well above $30, budget picks in this category are reusable paper notebooks instead." },
   { q: "Do budget digital notebooks come with a pen?", a: "Some do and some don't, check the specific listing, since Rocketbook-style notebooks generally require a specific erasable pen to work correctly." },
-  { q: "Are budget reusable notebooks worth it?", a: "Yes, they let you digitize handwritten notes at a low cost and can be reused across multiple semesters or projects since the pages wipe clean." },
+  { q: "Are budget reusable notebooks worth it?", a: "Yes, they let you digitize handwritten notes at a low cost and can be reused across multiple semesters or projects since the pages wipe clean." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks-for-students", title: "Best Digital Notebooks for Students (2026)" },
   { href: "/guide/best-portable-digital-notebooks", title: "Best Portable Digital Notebooks (2026)" },
-  { href: "/guide/best-digital-notebooks-under-300", title: "Best Digital Notebooks Under $300 (2026)" },
+  { href: "/guide/best-digital-notebooks-under-300", title: "Best Digital Notebooks Under $300 (2026)" }
 ];

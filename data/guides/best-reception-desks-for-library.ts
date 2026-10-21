@@ -129,20 +129,20 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $459.00",
+          "Under $500",
           "L-Shaped Wooden Commercial Reception Desk"
         ],
         [
-          "Around $869.95",
+          "Under $900",
           "Offices To Go L-Shaped Reception Desk with Transaction Top"
         ],
         [
-          "Around $949.99",
+          "Under $950",
           "Romig Marque Curved ADA-Compliant Reception Station"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -190,7 +190,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "Offices To Go L-Shaped Reception Desk with Transaction Top is aimed at buyers prioritizing 71\"w desk + 42\"w return, reversible left/right." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Offices To Go L-Shaped Reception Desk with Transaction Top is aimed at buyers prioritizing 71\"w desk + 42\"w return, reversible left/right." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-ada-compliant-reception-desks","title":"best-ada-compliant-reception-desks"},{"href":"/guide/best-reception-desks-for-retail","title":"best-reception-desks-for-retail"},{"href":"/guide/best-large-reception-desks","title":"best-large-reception-desks"}];

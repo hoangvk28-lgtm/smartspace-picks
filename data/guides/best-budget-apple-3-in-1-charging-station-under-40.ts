@@ -125,7 +125,7 @@ export const products: Apple3in1[] = [
     skipIf: "You plan daily desk use for 2+ years. Step up to ESR. For occasional travel or a guest room, this is good enough.",
     pros: ["Under $22, lowest price 3-in-1 in this guide", "LED confirms active charging", "15W MagSafe despite budget price", "Adapter included", "Best entry point for first-time 3-in-1 buyers"],
     cons: ["Lighter build quality than branded alternatives", "No brand recognition", "Fixed Watch arm angle"],
-  },
+  }
 ];
 
 export const faq = [
@@ -148,12 +148,12 @@ export const faq = [
   {
     q: "What AirPods support wireless charging?",
     a: "AirPods Pro (1st and 2nd gen), AirPods 3, and AirPods 4 support Qi wireless charging. AirPods 2nd gen (non-Pro) requires the Wireless Charging Case (sold separately). Original AirPods do not support wireless charging.",
-  },
+  }
 ];
 
 export const relatedGuides = [
   { title: "7 Best Budget USB Charging Stations Under $30", href: "/guide/best-budget-usb-charging-station-under-30" },
   { title: "5 Best Budget Multi-Device Charging Stations Under $50", href: "/guide/best-budget-multi-device-charging-station-under-50" },
   { title: "USB-C Hub vs Docking Station", href: "/compare/usb-c-hub-vs-docking-station" },
-  { title: "Desk Setup Essentials", href: "/guide/desk-setup-essentials" },
+  { title: "Desk Setup Essentials", href: "/guide/desk-setup-essentials" }
 ];

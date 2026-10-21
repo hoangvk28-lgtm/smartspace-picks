@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31rbqK+-O9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BSB242CM?tag=deskfinds0d-20",
-    description: "The smallest wall cabinet in Tecmojo's lineup, this 6U model is meant for a handful of switches and a small NAS rather than anything server-sized.\n\nIt shares the same reversible door and lockable side panel design as the larger 12U and 18U versions, so the security features don't shrink along with the unit.\n\nWhere this one earns its spot is small footprint fits tight home office closets, and reversible door swing matches either wall layout. Worth noting before buying: 6U ceiling limits you to a handful of devices, which matters more at $99.90 than it would on a cheaper pick.",
+    description: "The smallest wall cabinet in Tecmojo's lineup, this 6U model is meant for a handful of switches and a small NAS rather than anything server-sized.\n\nIt shares the same reversible door and lockable side panel design as the larger 12U and 18U versions, so the security features don't shrink along with the unit.\n\nWhere this one earns its spot is small footprint fits tight home office closets, and reversible door swing matches either wall layout. Worth noting before buying: 6U ceiling limits you to a handful of devices, which matters more at under $100 than it would on a cheaper pick.",
     specs: ["6U, 13.78\"H x 21.65\"W x 17.72\"D","110 lb capacity","Lockable glass door, cooling fan"],
     pros: ["Small footprint fits tight home office closets","Reversible door swing matches either wall layout","Cooling fan included despite the compact size"],
     cons: ["6U ceiling limits you to a handful of devices","Not deep enough for full-size server chassis"],
@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41DLo22JuRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B072MKP6M4?tag=deskfinds0d-20",
-    description: "A 4-post 42U open frame rack rated for 881 lbs, with preset depth options at 600mm, 800mm, or 1000mm rather than a fully continuous adjustment range.\n\nTwo of the four included casters have brakes, letting you lock the rack in place once positioned without needing separate floor anchors.\n\nThis pick is best for buyers who value preset depth options simplify matching your server length along with two braked casters lock the rack in place once positioned. The catch is that preset depths are less flexible than fully continuous adjustment, so decide if that's worth it at $443.99.",
+    description: "A 4-post 42U open frame rack rated for 881 lbs, with preset depth options at 600mm, 800mm, or 1000mm rather than a fully continuous adjustment range.\n\nTwo of the four included casters have brakes, letting you lock the rack in place once positioned without needing separate floor anchors.\n\nThis pick is best for buyers who value preset depth options simplify matching your server length along with two braked casters lock the rack in place once positioned. The catch is that preset depths are less flexible than fully continuous adjustment, so decide if that's worth it at under $450.",
     specs: ["42U, 31.5\"L x 23.31\"W x 79.06\"H","881 lb weight capacity","Preset 600/800/1000mm depth options"],
     pros: ["Preset depth options simplify matching your server length","Two braked casters lock the rack in place once positioned","4-post frame adds stability over a 2-post design"],
     cons: ["Preset depths are less flexible than fully continuous adjustment","79\" height needs a genuinely tall installation space"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41UbZyPLlCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZX57Z5G?tag=deskfinds0d-20",
-    description: "A compact 6U open-frame rack built on a robust 4-post construction, small enough to tuck into a corner while still handling AV systems, NAS devices, and small servers.\n\nUniversal wheels with brakes add stability once positioned, and the listing notes 9U and 12U versions are also available if you outgrow this size later.\n\nWhat stands out here is compact size tucks easily into a corner setup, plus brake-equipped wheels add stability once positioned. The main tradeoff: 6U ceiling limits it to a small device count, so weigh that against the $89.99 price before buying.",
+    description: "A compact 6U open-frame rack built on a robust 4-post construction, small enough to tuck into a corner while still handling AV systems, NAS devices, and small servers.\n\nUniversal wheels with brakes add stability once positioned, and the listing notes 9U and 12U versions are also available if you outgrow this size later.\n\nWhat stands out here is compact size tucks easily into a corner setup, plus brake-equipped wheels add stability once positioned. The main tradeoff: 6U ceiling limits it to a small device count, so weigh that against the under $90 price before buying.",
     specs: ["6U, 15.75\"W x 19.49\"D x 15.31\"H","4-post construction","Universal wheels with brakes"],
     pros: ["Compact size tucks easily into a corner setup","Brake-equipped wheels add stability once positioned","Same series scales up to 9U or 12U if needed"],
     cons: ["6U ceiling limits it to a small device count","No weight rating listed, worth confirming before heavy use"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31qzq6Th7LL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01A2JE1EE?tag=deskfinds0d-20",
-    description: "An enclosed 15U cabinet from NavePoint's Performance Series, built to the same 130 lb capacity and dual-fan cooling design as their smaller 12U model.\n\nAt 31 inches tall with casters attached, it's a genuinely tall wall cabinet that some buyers may prefer to install on the floor instead given the size.\n\nThe strongest case for this pick comes down to same dual-fan cooling as NavePoint's smaller enclosed cabinets as well as reversible door design fits either side of a room. The compromise here is that 31\" height makes wall mounting genuinely challenging, so factor that in alongside the $349.99 asking price.",
+    description: "An enclosed 15U cabinet from NavePoint's Performance Series, built to the same 130 lb capacity and dual-fan cooling design as their smaller 12U model.\n\nAt 31 inches tall with casters attached, it's a genuinely tall wall cabinet that some buyers may prefer to install on the floor instead given the size.\n\nThe strongest case for this pick comes down to same dual-fan cooling as NavePoint's smaller enclosed cabinets as well as reversible door design fits either side of a room. The compromise here is that 31\" height makes wall mounting genuinely challenging, so factor that in alongside the under $350 asking price.",
     specs: ["15U, 23.63\"L x 23.63\"W x 31\"H","130 lb weight capacity","2 fans, lockable glass door"],
     pros: ["Same dual-fan cooling as NavePoint's smaller enclosed cabinets","Reversible door design fits either side of a room","Casters included despite being a wall-rated design"],
     cons: ["31\" height makes wall mounting genuinely challenging","130 lb capacity may feel tight for 15U of gear"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41W4G8uuRiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08VDM82Z8?tag=deskfinds0d-20",
-    description: "RIVECO's 6U open frame handles up to 600 lbs with leveling feet, a genuinely strong rating for such a small rack, dropping to 500 lbs when using casters instead.\n\nThe base is pre-drilled for floor fastening if you want extra stability beyond the leveling feet, a nice option for a rack that might see frequent equipment swaps.\n\nWhere this one earns its spot is 600 lb rating is exceptional for a 6U rack, and base can bolt to the floor for extra stability. Worth noting before buying: capacity drops when running on casters instead of feet, which matters more at $148.56 than it would on a cheaper pick.",
+    description: "RIVECO's 6U open frame handles up to 600 lbs with leveling feet, a genuinely strong rating for such a small rack, dropping to 500 lbs when using casters instead.\n\nThe base is pre-drilled for floor fastening if you want extra stability beyond the leveling feet, a nice option for a rack that might see frequent equipment swaps.\n\nWhere this one earns its spot is 600 lb rating is exceptional for a 6U rack, and base can bolt to the floor for extra stability. Worth noting before buying: capacity drops when running on casters instead of feet, which matters more at under $150 than it would on a cheaper pick.",
     specs: ["6U, 19.7\"W x 21.7\"D x 17.45\"H","600 lb (feet) / 500 lb (casters) capacity","Pre-drilled base for floor fastening"],
     pros: ["600 lb rating is exceptional for a 6U rack","Base can bolt to the floor for extra stability","RAL9005 powder coat resists scratches and rust"],
     cons: ["Capacity drops when running on casters instead of feet","6U height still limits total device count"],
@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41Y55OsyeHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BM6FV43S?tag=deskfinds0d-20",
-    description: "A hybrid design RIVECO calls half cabinet, half rack, with reinforced top and bottom vented plates strong enough to hold a laptop or small monitor on top of the equipment stack.\n\nIt comes with an 8-outlet PDU already included, and offers both round and square mounting holes so it works for pro audio gear as well as standard network equipment.\n\nThis pick is best for buyers who value reinforced top plate doubles as usable desk space along with PDU included, no separate power strip purchase needed. The catch is that capacity drops when using casters over leveling feet, so decide if that's worth it at $179.66.",
+    description: "A hybrid design RIVECO calls half cabinet, half rack, with reinforced top and bottom vented plates strong enough to hold a laptop or small monitor on top of the equipment stack.\n\nIt comes with an 8-outlet PDU already included, and offers both round and square mounting holes so it works for pro audio gear as well as standard network equipment.\n\nThis pick is best for buyers who value reinforced top plate doubles as usable desk space along with PDU included, no separate power strip purchase needed. The catch is that capacity drops when using casters over leveling feet, so decide if that's worth it at under $180.",
     specs: ["6U, 19.7\"W x 21.7\"D x 17.4\"H","500 lb (feet) / 400 lb (casters) capacity","8-outlet PDU included"],
     pros: ["Reinforced top plate doubles as usable desk space","PDU included, no separate power strip purchase needed","Round and square holes fit both audio and network gear"],
     cons: ["Capacity drops when using casters over leveling feet","Half-cabinet design has less airflow than fully open racks"],
@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $89.99",
+          "Under $90",
           "6U Open Frame Server Rack with Wheels"
         ],
         [
-          "Around $99.90",
+          "Under $100",
           "Tecmojo 6U Wall Mount Server Cabinet"
         ],
         [
-          "Around $148.56",
+          "Under $150",
           "RIVECO 6U Open Frame Server Rack with Wheels"
         ],
         [
-          "Around $179.66",
+          "Under $180",
           "RIVECO 6U Network Rack with Reinforced Vented Plates"
         ],
         [
-          "Around $349.99",
+          "Under $350",
           "NavePoint 15U Server Cabinet Wall Mount Rack Enclosure"
         ],
         [
-          "Around $443.99",
+          "Under $450",
           "NavePoint 42U 4 Post Server Rack"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Tecmojo 6U Wall Mount Server Cabinet is aimed at buyers prioritizing 6u, 13.78\"h x 21.65\"w x 17.72\"d." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tecmojo 6U Wall Mount Server Cabinet is aimed at buyers prioritizing 6u, 13.78\"h x 21.65\"w x 17.72\"d." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-wall-mount-server-racks","title":"Best Wall-Mount Server Racks in 2026"},{"href":"/guide/best-9u-wall-mount-server-racks","title":"Best 9U Wall Mount Server Racks in 2026"},{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"}];

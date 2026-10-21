@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "docking station 100w power delivery";
 export const introParagraphs = [
   "A dock advertised as \"100W power delivery\" doesn't actually put 100W into your laptop. The dock's own chipset, USB controllers, and display outputs draw 10-15W from that budget before any of it reaches the laptop's charging port, so the real number lands closer to 82-90W. That gap matters a lot if you're deciding between a 100W dock and a laptop that ships with a 140W or 180W stock charger.",
-  "Below are 8 docking stations with 100W power delivery we evaluated on effective charging wattage, display output, port selection, and price, ranging from a $26.96 compact hub to a $199.95 Thunderbolt-certified dock built for modern MacBooks.",
+  "Below are 8 docking stations with 100W power delivery we evaluated on effective charging wattage, display output, port selection, and price, ranging from an under-$30 compact hub to an under-$200 Thunderbolt-certified dock built for modern MacBooks."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "4K HDMI dual monitor or single 6K support",
       "6x USB ports, SD card slot, Ethernet",
       "Driverless setup for Mac and Windows",
-      "Built for M4/M5 MacBook Air & Pro",
+      "Built for M4/M5 MacBook Air & Pro"
     ],
     pros: [
       "Thunderbolt Certified, not just USB4 compatible",
       "Guaranteed daisy-chain and display bandwidth",
       "Wide port selection including SD and Ethernet",
-      "Driverless setup on both Mac and Windows",
+      "Driverless setup on both Mac and Windows"
     ],
     cons: [
       "Most expensive pick in this list",
       "100W rating still falls short of a MacBook Pro 16's 140W stock adapter under load",
-      "Overkill for a 45W MacBook Air on PD alone",
+      "Overkill for a 45W MacBook Air on PD alone"
     ],
     bestFor: "Buyers who want guaranteed certified performance, not just a USB4 label",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "10Gbps fast data transfer",
       "Dual 4K display support",
       "Ethernet and audio ports included",
-      "Compatible with Dell, HP, Lenovo, and more",
+      "Compatible with Dell, HP, Lenovo, and more"
     ],
     pros: [
       "160W total budget leaves more headroom for downstream charging",
       "14 ports cover displays, data, audio, and Ethernet in one dock",
       "10Gbps data transfer speed",
-      "Broad laptop brand compatibility",
+      "Broad laptop brand compatibility"
     ],
     cons: [
       "A single laptop still can't exceed 100W over standard USB PD regardless of the dock's total rating",
       "Large port count adds size and cost",
-      "Downstream device charging still competes with laptop charging",
+      "Downstream device charging still competes with laptop charging"
     ],
     bestFor: "Buyers who want to charge a laptop plus multiple hungry USB peripherals at once",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Dual 5K/4K@60Hz via DisplayLink",
       "2x HDMI, 2x DP, Gigabit Ethernet, 5x USB, audio",
       "Compatible with M1/M2/M3/M4 Mac and Windows",
-      "13-in-1 port configuration",
+      "13-in-1 port configuration"
     ],
     pros: [
       "130W rating gives more headroom than a strict 100W dock",
       "Wide Mac chip compatibility from M1 through M4",
       "Dense 13-in-1 port selection",
-      "Dual high-resolution display support",
+      "Dual high-resolution display support"
     ],
     cons: [
       "DisplayLink adds CPU overhead and isn't ideal for color-critical work",
       "Not Thunderbolt certified",
-      "More expensive than several 100W-class alternatives here",
+      "More expensive than several 100W-class alternatives here"
     ],
     bestFor: "Mac users across multiple chip generations who want dual high-res displays on one dock",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "3x HDMI: 1x 4K@30Hz, 2x 1080p@60Hz",
       "6x USB 5Gbps ports",
       "Windows, macOS, ChromeOS compatible",
-      "Triple display support",
+      "Triple display support"
     ],
     pros: [
       "True 100W PD rating with triple display support",
       "Broad OS compatibility including ChromeOS",
       "6 USB 5Gbps ports for peripherals",
-      "Reasonable price for triple-display capability",
+      "Reasonable price for triple-display capability"
     ],
     cons: [
       "Only 1 of 3 displays reaches 4K, and only at 30Hz",
       "4K@30Hz shows visible motion blur versus 60Hz",
-      "Effective ~82-90W to laptop after dock overhead",
+      "Effective ~82-90W to laptop after dock overhead"
     ],
     bestFor: "Buyers who need three displays and can accept mixed resolution and refresh rate",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Dual HDMI 4K@60Hz or single 8K@30Hz",
       "5Gbps USB C&A data ports",
       "Gigabit Ethernet, SD/TF 3.0 card reader",
-      "10-in-1 port configuration",
+      "10-in-1 port configuration"
     ],
     pros: [
       "Genuine 100W PD rating at a budget price",
       "Dual 4K@60Hz display support",
       "Includes SD/TF card reader and Gigabit Ethernet",
-      "Compact and affordable",
+      "Compact and affordable"
     ],
     cons: [
       "Not Thunderbolt certified",
       "Effective charging wattage is lower than the 100W rating suggests once overhead is factored in",
-      "Fewer USB ports than pricier multi-port docks",
+      "Fewer USB ports than pricier multi-port docks"
     ],
     bestFor: "Budget buyers who still want a genuine 100W PD rating and a card reader",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "3 displays: 2x HDMI + 1x DP",
       "10Gbps USB-C, 3x USB-A",
       "Detachable 6-in-1 hub design",
-      "SD/TF card reader, Ethernet, audio",
+      "SD/TF card reader, Ethernet, audio"
     ],
     pros: [
       "Detachable hub design adds everyday flexibility",
       "Triple display support in a compact footprint",
       "10Gbps USB-C data port",
-      "Reasonable mid-range price",
+      "Reasonable mid-range price"
     ],
     cons: [
       "Effective laptop charging wattage below the 100W rating after dock overhead",
       "Detachable design adds a part that can be misplaced",
-      "Not Thunderbolt certified",
+      "Not Thunderbolt certified"
     ],
     bestFor: "Buyers who want a compact everyday hub with optional triple-display expansion",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "3-monitor support: 8K DP, 4K@60Hz HDMI",
       "10Gbps data, 1Gbps Ethernet",
       "SD/TF card reader",
-      "11-in-1 port configuration",
+      "11-in-1 port configuration"
     ],
     pros: [
       "Genuine 100W PD rating at a low price",
       "3-monitor support including an 8K DisplayPort output",
       "10Gbps data transfer plus Gigabit Ethernet",
-      "Includes SD/TF card reader",
+      "Includes SD/TF card reader"
     ],
     cons: [
       "Not Thunderbolt certified",
       "Effective charging wattage below the 100W rating after overhead",
-      "Budget build quality compared to Plugable or Anker Prime",
+      "Budget build quality compared to Plugable or Anker Prime"
     ],
     bestFor: "Budget buyers who want 3-monitor support without paying for premium certification",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Dual 4K@60Hz HDMI display support",
       "10Gbps USB-A/C data ports",
       "Aluminum compact build",
-      "7-in-1 port configuration",
+      "7-in-1 port configuration"
     ],
     pros: [
       "Lowest price in this list by a wide margin",
       "Dual 4K@60Hz display support at this price",
       "Compact aluminum build for small desks or travel",
-      "10Gbps data ports",
+      "10Gbps data ports"
     ],
     cons: [
       "Fewest total ports of any pick here",
       "Effective charging wattage below the 100W rating after overhead",
-      "No SD card reader or Ethernet",
+      "No SD card reader or Ethernet"
     ],
     bestFor: "Budget and travel-focused buyers who want dual 4K support in a compact hub",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value at each price tier",
     description: "Weighed spec sheets against price separately for premium, mid-range, and budget docks, since a hub and a certified dock serve different buyers.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -481,11 +481,11 @@ export const faq: FaqItem[] = [
   {
     q: "What's the difference between USB PD and USB PD 3.1 Extended Power Range (EPR)?",
     a: "Standard USB Power Delivery tops out at 100W to a single device, which is the ceiling every dock in this list operates under. USB PD 3.1 EPR extends that ceiling up to 240W, but only specialty docks support EPR; mainstream 100W-class docks, including every pick here, do not. Buyers with gaming laptops or mobile workstations needing more than 100W should look specifically for EPR-certified docks rather than a standard 100W-rated one.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-docking-stations-for-macbook-pro", title: "Best Docking Stations for MacBook Pro (2026)" },
   { href: "/guide/best-usb-c-docking-stations", title: "Best USB-C Docking Stations (2026)" },
-  { href: "/guide/best-docking-station-for-dual-monitor-multi-monitor-setups", title: "Best Docking Stations for Dual/Multi-Monitor Setups (2026)" },
+  { href: "/guide/best-docking-station-for-dual-monitor-multi-monitor-setups", title: "Best Docking Stations for Dual/Multi-Monitor Setups (2026)" }
 ];

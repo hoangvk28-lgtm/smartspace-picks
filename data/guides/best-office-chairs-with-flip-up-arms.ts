@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "best office chair with flip-up arms";
 export const introParagraphs = [
   "Flip-up arms let you swing an armrest up and out of the way, useful for tucking a chair fully under a small desk or sliding closer to a keyboard tray without the armrest getting in the way. The term gets used loosely in product listings, though, and some chairs marketed alongside flip-up models actually ship with fixed, 3D-adjustable, or simply unspecified armrests, so it's worth checking a listing's actual wording before assuming every arm in a flip-up roundup flips.",
-  "This guide covers 8 office chairs from a shared product set, most of which explicitly state flip-up or flip-up armrests in their listing titles. A few in this list describe a different arm style, and we call that out directly in each review rather than assuming flip-up capability that isn't stated. Prices range from $38.98 to $129.99.",
+  "This guide covers 8 office chairs from a shared product set, most of which explicitly state flip-up or flip-up armrests in their listing titles. A few in this list describe a different arm style, and we call that out directly in each review rather than assuming flip-up capability that isn't stated. Prices range from roughly $40 to $130."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -46,8 +46,8 @@ export const products: GuideProduct[] = [
     badge: "Confirmed Flip-Up Arms, Best Overall",
     name: "Ergonomic Desk Chair, PU Leather Home Office Chair, Swivel Mesh Back, Flip-Up Arms Executive Task Chair",
     price: "$129.99",
-    rating: "4.5 stars from 3,070 Amazon ratings",
-    reviews: "4.5 stars from 3,070 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41tzbvyly7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09D33BXHL?tag=deskfinds0d-20",
     description:
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "PU leather seat, mesh back",
       "Adjustable lumbar support",
       "Swivel base",
-      "Executive styling",
+      "Executive styling"
     ],
     pros: [
       "Listing explicitly confirms flip-up arms",
       "Largest review base in this list",
       "Mesh back improves breathability",
-      "Adjustable lumbar support",
+      "Adjustable lumbar support"
     ],
     cons: [
       "Highest price in this list",
       "PU leather runs warmer than an all-mesh seat",
-      "Executive styling takes up more visual space than a slim task chair",
+      "Executive styling takes up more visual space than a slim task chair"
     ],
     bestFor: "Buyers who want a confirmed flip-up arm chair with executive styling",
   },
@@ -78,8 +78,8 @@ export const products: GuideProduct[] = [
     badge: "Confirmed Flip-Up Arms, Best for Standing Desks",
     name: "Primy Drafting Chair Tall Office Chair with Flip-Up Armrests, Ergonomic Standing Desk Chair with Adjustable Footrest Ring",
     price: "$108.96",
-    rating: "4.3 stars from 3,572 Amazon ratings",
-    reviews: "4.3 stars from 3,572 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31qifS1PZSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B41X9SMT?tag=deskfinds0d-20",
     description:
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Tall drafting chair height range",
       "Adjustable footrest ring",
       "Lumbar support",
-      "Executive ergonomic styling",
+      "Executive ergonomic styling"
     ],
     pros: [
       "Listing explicitly confirms flip-up armrests",
       "Built for taller standing-desk height ranges",
       "Adjustable footrest ring included",
-      "Strong review base",
+      "Strong review base"
     ],
     cons: [
       "Tall design isn't suited to a standard-height desk",
       "Slightly lower rating than the top pick",
-      "Footrest ring adds footprint under the desk",
+      "Footrest ring adds footprint under the desk"
     ],
     bestFor: "Standing desk setups that need a tall chair with genuine flip-up arms",
   },
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "3D Armrests, Not Confirmed Flip-Up",
     name: "Marsail Ergonomic Office Chair, High Back Mesh with Adjustable Lumbar Support, Rolling Task Chair with 3D Armrests and Headrest",
     price: "$118.94",
-    rating: "4.3 stars from 1,783 Amazon ratings",
-    reviews: "4.3 stars from 1,783 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/411wlpMNg+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP22DQQS?tag=deskfinds0d-20",
     description:
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "High back mesh design",
       "Adjustable lumbar support",
       "Adjustable headrest",
-      "Rolling caster base",
+      "Rolling caster base"
     ],
     pros: [
       "Strong multi-directional armrest adjustment",
       "High back mesh with headrest",
       "Adjustable lumbar support",
-      "Solid review base",
+      "Solid review base"
     ],
     cons: [
       "Listing does not confirm the arms flip up flat",
       "3D adjustment is not the same feature as flip-up",
-      "Verify with the seller before assuming under-desk flip clearance",
+      "Verify with the seller before assuming under-desk flip clearance"
     ],
     bestFor: "Buyers who want strong 3D arm adjustability and can confirm flip capability directly with the seller",
   },
@@ -142,8 +142,8 @@ export const products: GuideProduct[] = [
     badge: "Confirmed Flip-Up Arms, Budget Pick",
     name: "NEO CHAIR Office Desk Gaming Ergonomic Computer Chair with Adjustable Height, Swivel Rolling Wheels, Flip-Up Arms Mesh Chair for Home",
     price: "$59.98",
-    rating: "4.3 stars from 1,871 Amazon ratings",
-    reviews: "4.3 stars from 1,871 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41DJb5724iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPLP3BND?tag=deskfinds0d-20",
     description:
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Mesh chair back",
       "Adjustable height",
       "Swivel rolling wheels",
-      "Lumbar support",
+      "Lumbar support"
     ],
     pros: [
       "Listing explicitly confirms flip-up arms",
       "Lowest price among confirmed flip-up picks",
       "Mesh back for breathability",
-      "Solid review base for the price",
+      "Solid review base for the price"
     ],
     cons: [
       "Budget pivot pin material may wear faster with frequent flipping",
       "Fewer premium ergonomic features than higher-priced picks",
-      "Mesh seat cushioning is thinner than the leather picks",
+      "Mesh seat cushioning is thinner than the leather picks"
     ],
     bestFor: "Buyers who want a confirmed flip-up chair at the lowest price in this list",
   },
@@ -174,8 +174,8 @@ export const products: GuideProduct[] = [
     badge: "Confirmed Flip-Up Armrests, Comfy Adjustable",
     name: "NEO CHAIR Office Desk Gaming Chair, Computer High Back Mesh with Rolling Wheels, Ergonomic Adjustable Comfy Flip-Up Armrests, Lumbar Support",
     price: "$58.46",
-    rating: "4.2 stars from 2,568 Amazon ratings",
-    reviews: "4.2 stars from 2,568 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41g7G7Hgo4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKNN49QP?tag=deskfinds0d-20",
     description:
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "High back mesh design",
       "Rolling caster wheels",
       "Adjustable height",
-      "Lumbar support",
+      "Lumbar support"
     ],
     pros: [
       "Listing explicitly confirms flip-up armrests",
       "High back design for more upper-back coverage",
       "Budget-friendly price",
-      "Decent review base",
+      "Decent review base"
     ],
     cons: [
       "Budget pivot pin may wear with frequent flipping",
       "Slightly lower rating than other confirmed flip-up picks",
-      "Basic lumbar support compared to premium models",
+      "Basic lumbar support compared to premium models"
     ],
     bestFor: "Buyers who want confirmed flip-up arms plus high-back coverage on a budget",
   },
@@ -206,8 +206,8 @@ export const products: GuideProduct[] = [
     badge: "Arm Style Not Specified",
     name: "NEO CHAIR Office Computer Chair, Mid Back Desk Ergonomic Mesh Gaming Seat, Rolling Wheels, Adjustable Height Swivel for Home Task",
     price: "$38.98",
-    rating: "4.3 stars from 3,442 Amazon ratings",
-    reviews: "4.3 stars from 3,442 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41vkBVigJkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GXX75JN5?tag=deskfinds0d-20",
     description:
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Mid back mesh design",
       "Rolling caster wheels",
       "Adjustable height",
-      "Swivel base",
+      "Swivel base"
     ],
     pros: [
       "Lowest price in this list",
       "Decent review base for the price",
       "Mesh back for basic breathability",
-      "Simple mid-back design fits smaller desks",
+      "Simple mid-back design fits smaller desks"
     ],
     cons: [
       "Listing does not confirm flip-up or any specific arm type",
       "Mid back offers less upper coverage than high-back picks",
-      "Confirm arm mechanism with the seller before assuming flip capability",
+      "Confirm arm mechanism with the seller before assuming flip capability"
     ],
     bestFor: "Budget buyers who don't specifically need confirmed flip-up arms",
   },
@@ -238,8 +238,8 @@ export const products: GuideProduct[] = [
     badge: "Arm Style Not Specified",
     name: "BestOffice Ergonomic Office Chair, Mid-Back Swivel Desk Chair with Breathable Backrest, Lumbar Support, Adjustable Height, Sponge Seat",
     price: "$38.99",
-    rating: "4.3 stars from 64,003 Amazon ratings",
-    reviews: "4.3 stars from 64,003 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41qkMtzBIdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQDM23S4?tag=deskfinds0d-20",
     description:
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Mid-back breathable backrest",
       "Lumbar support",
       "Adjustable height",
-      "Sponge seat cushion",
+      "Sponge seat cushion"
     ],
     pros: [
       "Largest review base by far in this list",
       "Very low price",
       "Breathable backrest",
-      "Lumbar support included",
+      "Lumbar support included"
     ],
     cons: [
       "Listing does not confirm flip-up or any specific arm type",
       "Sponge seat cushioning is more basic than the leather or high-density picks",
-      "Confirm arm mechanism with the seller before assuming flip capability",
+      "Confirm arm mechanism with the seller before assuming flip capability"
     ],
     bestFor: "Budget buyers who want the most-reviewed option and don't require confirmed flip-up arms",
   },
@@ -270,8 +270,8 @@ export const products: GuideProduct[] = [
     badge: "Arm Style Not Specified",
     name: "Furmax Office Executive Chair, High Back Adjustable Managerial Home Desk Chair, Swivel PU Leather Chair with Lumbar Support",
     price: "$89.99",
-    rating: "4.3 stars from 5,382 Amazon ratings",
-    reviews: "4.3 stars from 5,382 Amazon ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41b4JMojCoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07T291QPJ?tag=deskfinds0d-20",
     description:
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "High back PU leather design",
       "Lumbar support",
       "Adjustable height",
-      "Swivel base",
+      "Swivel base"
     ],
     pros: [
       "Executive PU leather styling",
       "High back for full upper body coverage",
       "Solid review base",
-      "Lumbar support included",
+      "Lumbar support included"
     ],
     cons: [
       "Listing does not confirm flip-up or any specific arm type",
       "PU leather runs warmer than mesh options",
-      "Best treated as a fixed-arm alternative, not a confirmed flip-up pick",
+      "Best treated as a fixed-arm alternative, not a confirmed flip-up pick"
     ],
     bestFor: "Buyers who want executive styling and are open to a fixed or unconfirmed armrest type",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -328,7 +328,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Value for price at each tier",
     description:
       "Weighed confirmed arm functionality, materials, and review base against price across the range of price points in this comparison in this list, not price or rating alone.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -482,11 +482,11 @@ export const faq: FaqItem[] = [
   {
     q: "What should I do if a chair's listing doesn't mention flip-up arms?",
     a: "Don't assume flip capability just because the chair appears alongside confirmed flip-up models or shares a brand name. Contact the seller directly to confirm the exact arm mechanism before ordering if flip-up is a requirement for your desk setup.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mesh-office-chair", title: "Best Mesh Office Chairs (2026)" },
   { href: "/guide/best-office-chair-for-back-pain", title: "Best Office Chairs for Back Pain (2026)" },
-  { href: "/guide/best-executive-office-chair", title: "Best Executive Office Chairs (2026)" },
+  { href: "/guide/best-executive-office-chair", title: "Best Executive Office Chairs (2026)" }
 ];

@@ -12,7 +12,7 @@ export const paperShredderSecurityLevelsExplainedGuide: Guide = {
     "shredder p level meaning",
     "cross cut vs strip cut shredder",
     "best shredder for sensitive documents",
-    "micro cut shredder worth it",
+    "micro cut shredder worth it"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const paperShredderSecurityLevelsExplainedGuide: Guide = {
     "gel-vs-ballpoint-pen-explained",
     "desk-organizer-types-explained",
     "backup-strategy-3-2-1-rule-explained",
-    "external-drive-care-maintenance",
+    "external-drive-care-maintenance"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const paperShredderSecurityLevelsExplainedGuide: Guide = {
       question: "Does a higher security level shred slower than a lower level?",
       answer:
         "Generally yes, finer cutting mechanisms required for higher P-levels tend to process paper more slowly and often handle fewer sheets at once per pass compared to a coarser strip-cut or lower cross-cut shredder.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const paperShredderSecurityLevelsExplainedGuide: Guide = {
     {
       heading: "Why Cut Type and Security Level Are Directly Related but Not Identical Concepts",
       body: `While cut type (strip, cross, micro) and P-level correlate closely, since finer particle sizes require finer cutting mechanisms, they're not perfectly interchangeable terms, two shredders both labeled cross-cut can still have somewhat different P-level ratings depending on exact particle size produced. When comparing specific shredder models, check the stated P-level number directly rather than relying solely on the general cut-type category name to compare security between similar products.`,
-    },
+    }
   ],
 };

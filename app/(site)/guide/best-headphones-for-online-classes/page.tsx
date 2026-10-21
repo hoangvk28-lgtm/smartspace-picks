@@ -193,7 +193,7 @@ export default async function BestHeadphonesOnlineClassesPage() {
           <div className="grid sm:grid-cols-2 gap-4 mb-4">
             {[
               { label: "Wired headphones for class", items: ["Never die mid-lecture", "Zero connection delay (no audio lag on Zoom)", "Plug in and use immediately -- no pairing", "Cheaper at same quality level", "Cable can tangle, restrict movement"] },
-              { label: "Wireless headphones for class", items: ["Freedom from desk during breaks", "Can step away briefly without unplugging", "Works with any device, no dongle needed", "Battery must be charged before long sessions", "Rare but real: Bluetooth dropout during a call is embarrassing"] },
+              { label: "Wireless headphones for class", items: ["Freedom from desk during breaks", "Can step away briefly without unplugging", "Works with any device, no dongle needed", "Battery must be charged before long sessions", "Rare but real: Bluetooth dropout during a call is embarrassing"] }
             ].map((col, i) => (
               <div key={i} className={`p-4 rounded-xl border ${i === 0 ? "border-cta/30 bg-cta-light/20" : "border-amber-200 bg-amber-50"}`}>
                 <p className="text-xs font-bold uppercase tracking-widest mb-2" style={{ color: i === 0 ? "#16a34a" : "#d97706" }}>{col.label}</p>
@@ -245,7 +245,7 @@ export default async function BestHeadphonesOnlineClassesPage() {
               <div className="grid sm:grid-cols-2 gap-3">
                 {[
                   { label: "ANC blocks well", items: ["Constant low-frequency noise (HVAC, fan, traffic hum)", "Steady mid-frequency noise (crowd murmur, office background)"] },
-                  { label: "ANC does not block", items: ["Intermittent noise (someone talking nearby)", "Sudden loud noise (door slam, alarm)", "Roommate at normal volume at close range"] },
+                  { label: "ANC does not block", items: ["Intermittent noise (someone talking nearby)", "Sudden loud noise (door slam, alarm)", "Roommate at normal volume at close range"] }
                 ].map((col, i) => (
                   <div key={i} className={`p-3 rounded-lg border ${i === 0 ? "border-cta/30 bg-cta-light/20" : "border-red-200 bg-red-50"}`}>
                     <p className="text-xs font-bold uppercase tracking-widest mb-2" style={{ color: i === 0 ? "#16a34a" : "#dc2626" }}>{col.label}</p>
@@ -261,7 +261,7 @@ export default async function BestHeadphonesOnlineClassesPage() {
               <div className="grid sm:grid-cols-2 gap-3">
                 {[
                   { label: "On-ear (Sony CH520, JLab Studio)", items: ["Lighter weight, more portable", "Less heat buildup", "Some users find them uncomfortable after 2+ hours (pressure on ear cartilage)"] },
-                  { label: "Over-ear (Q20i, JLab Studio Pro, ATH-M20x)", items: ["More comfortable for long sessions (no pressure on ear)", "Better passive noise isolation", "Heavier, bulkier"] },
+                  { label: "Over-ear (Q20i, JLab Studio Pro, ATH-M20x)", items: ["More comfortable for long sessions (no pressure on ear)", "Better passive noise isolation", "Heavier, bulkier"] }
                 ].map((col, i) => (
                   <div key={i} className="p-3 rounded-lg border border-border bg-bg">
                     <p className="font-bold text-ink text-xs mb-2">{col.label}</p>
@@ -319,7 +319,7 @@ export default async function BestHeadphonesOnlineClassesPage() {
             {[
               { product: "Sony WH-CH520", context: "For most students", verdict: "-- wireless, 50-hour battery, lightweight, fits in a bag, adequate for lectures and occasional participation.", href: "#best-overall" },
               { product: "Logitech H390", context: "For participation-heavy classes", verdict: "-- the boom mic makes a real, audible difference on calls. Under $35, wired, no charging.", href: "#best-wired-mic" },
-              { product: "Soundcore Q20i", context: "For noisy dorms", verdict: "-- ANC actually blocks dorm background noise that passive isolation cannot handle.", href: "#best-anc" },
+              { product: "Soundcore Q20i", context: "For noisy dorms", verdict: "-- ANC actually blocks dorm background noise that passive isolation cannot handle.", href: "#best-anc" }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
@@ -347,7 +347,7 @@ export default async function BestHeadphonesOnlineClassesPage() {
               { href: "/guide/best-dorm-items-under-25", title: "Best Dorm Items Under $25", desc: "25 high-impact dorm essentials on a student budget" },
               { href: "/guide/best-desk-lamp-under-30", title: "Best Desk Lamp Under $30", desc: "Dorm-friendly desk lamps for studying" },
               { href: "/guide/desk-setup-essentials", title: "Desk Setup Essentials", desc: "15 must-have items for any desk setup" },
-              { href: "/guide/ergonomic-desk-setup", title: "Ergonomic Desk Setup", desc: "The correct way to position everything at your desk" },
+              { href: "/guide/ergonomic-desk-setup", title: "Ergonomic Desk Setup", desc: "The correct way to position everything at your desk" }
             ].map((g) => (
               <Link prefetch={false} key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
                 <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">

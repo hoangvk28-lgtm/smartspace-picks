@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop cooling pads for lap use";
 export const introParagraphs = [
   "Lap use overlaps heavily with our companion bed-use guide, since both need a base that won't sink into a soft surface, but it extends further to couches, chairs, and anywhere you balance a laptop directly on your body rather than a mattress. That adds concerns bed use alone doesn't fully cover: whether the pad balances without sliding as you shift position, whether the base feels warm against your legs even with a fan running, and whether fan vibration is noticeable through direct body contact in a way it wouldn't be on a desk.",
-  "Most of the picks in this guide also appear in our bed-use guide, since the two categories share a lot of the same rigid-base requirement. Where a pick is meaningfully better or worse suited to lap-specific concerns like balance and warmth, we call that out directly here rather than repeating the bed-use framing verbatim.",
+  "Most of the picks in this guide also appear in our bed-use guide, since the two categories share a lot of the same rigid-base requirement. Where a pick is meaningfully better or worse suited to lap-specific concerns like balance and warmth, we call that out directly here rather than repeating the bed-use framing verbatim."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "10 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Balance directly on the body", description: "We weighed weight, thickness, and anti-slip grip specifically for stability while resting on legs, not just on a flat surface, since lap use adds movement and shifting that a desk doesn't." },
   { title: "Warmth against the body", description: "We checked whether each listing addresses heat isolation or a heat-shield function specifically for direct skin or clothing contact, beyond just general laptop cooling." },
   { title: "Vibration from active fans", description: "We noted where a fan-equipped pick's vibration would be felt directly through lap contact, and credited passive designs and adjustable-speed fans that reduce this concern." },
-  { title: "Honest exclusion of desk-only products", description: "We flagged one product in this research pool that is genuinely a rigid desk riser, not suited for lap use at all, rather than including it without qualification just to round out the list." },
+  { title: "Honest exclusion of desk-only products", description: "We flagged one product in this research pool that is genuinely a rigid desk riser, not suited for lap use at all, rather than including it without qualification just to round out the list." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -291,11 +291,11 @@ export const faq: FaqItem[] = [
   { q: "Is a passive or active cooling pad better for lap use?", a: "Passive heat-shield pads have no fan vibration and can feel more comfortable directly against the body, while active fan pads offer more cooling capacity. Adjustable-speed fans offer a middle ground by letting you reduce vibration when needed." },
   { q: "Can I use a desk riser or stand on my lap?", a: "Not recommended for most rigid metal risers, which are designed for a flat desk surface and lack the cushioning or stability lap use requires. Check the listing specifically for lap, couch, or sofa language before assuming it's suitable." },
   { q: "Will I feel the cooling fan's vibration on my lap?", a: "It depends on the design. A fixed-speed fan can be noticeable through direct leg contact, while adjustable-speed fans let you dial it back, and passive heat-shield pads eliminate fan vibration entirely." },
-  { q: "Does a raised-leg lap desk avoid body contact with the laptop entirely?", a: "Yes, a raised-leg design like a bed desk keeps the laptop and any fan elevated above your lap on a table-like surface, avoiding direct contact, unlike a flat pad that rests directly on your legs." },
+  { q: "Does a raised-leg lap desk avoid body contact with the laptop entirely?", a: "Yes, a raised-leg design like a bed desk keeps the laptop and any fan elevated above your lap on a table-like surface, avoiding direct contact, unlike a flat pad that rests directly on your legs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-cooling-pads-for-bed-use", title: "Best Laptop Cooling Pads for Bed Use (2026)" },
   { href: "/guide/best-laptop-cooling-pads-with-mouse-trays", title: "Best Laptop Cooling Pads with Mouse Trays (2026)" },
-  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" }
 ];

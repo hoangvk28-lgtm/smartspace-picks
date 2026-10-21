@@ -12,7 +12,7 @@ export const collapsibleVsFixedBackdropGuide: Guide = {
     "retractable green screen worth it",
     "fixed backdrop wrinkles",
     "collapsible backdrop for small room",
-    "pull up green screen stand",
+    "pull up green screen stand"
   ],
   heroImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const collapsibleVsFixedBackdropGuide: Guide = {
     "green-screen-vs-virtual-background",
     "streaming-backdrop-lighting-explained",
     "what-size-desk-do-i-need",
-    "under-desk-storage-options-explained",
+    "under-desk-storage-options-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const collapsibleVsFixedBackdropGuide: Guide = {
       question: "Can a collapsible backdrop still produce professional-quality results?",
       answer:
         "Yes, a quality collapsible backdrop, properly set up and lit, produces results comparable to a fixed backdrop, the tradeoff is convenience and setup effort rather than a fundamental quality difference between the two approaches.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const collapsibleVsFixedBackdropGuide: Guide = {
     {
       heading: "Why Wrinkle Management Is the Real Practical Tradeoff",
       body: `A collapsible backdrop's fabric, repeatedly rolled or folded for storage, naturally develops creases over time that can show up as visible imperfections in frame, particularly noticeable during background replacement where the software may register a crease's shadow as an unwanted edge or inconsistency. Managing this typically means allowing the backdrop to hang and relax before an important session, or occasionally steaming out stubborn creases, an ongoing minor maintenance task a fixed backdrop simply doesn't require.`,
-    },
+    }
   ],
 };

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook handwriting to text";
 export const introParagraphs = [
   "Handwriting-to-text conversion is a specific software feature, and it's not explicitly confirmed in most product titles in this category. We're being careful here: reMarkable and BOOX devices are generally known in the broader market for OCR and handwriting-conversion features as part of their software, and one smart pen set explicitly states real-time capture closer to OCR-style functionality on its listing.",
-  "Because handwriting recognition accuracy changes as manufacturers push software updates, we're explicitly advising you to verify current OCR performance on the specific listing or manufacturer's site rather than trusting older marketing claims, including ours.",
+  "Because handwriting recognition accuracy changes as manufacturers push software updates, we're explicitly advising you to verify current OCR performance on the specific listing or manufacturer's site rather than trusting older marketing claims, including ours."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "OCR and handwriting conversion claims checked against actual listings", description: "Distinguished between products that explicitly state OCR on the listing and products from brands generally known for handwriting conversion in their broader software ecosystem, rather than treating the two as equivalent." },
   { title: "Software feature volatility explicitly flagged", description: "Noted throughout that handwriting-to-text accuracy is a software feature that changes with updates, and advised readers to verify current performance rather than trusting this guide or original marketing claims indefinitely." },
   { title: "Real-time capture distinguished from scan-and-convert-later", description: "Weighted smart pen sets with real-time capture as functionally closer to live OCR than a paper notebook that requires scanning a completed page first." },
-  { title: "Android app flexibility credited for potential additional OCR tools", description: "Noted where Android-based devices could support additional third-party handwriting recognition apps beyond built-in software." },
+  { title: "Android app flexibility credited for potential additional OCR tools", description: "Noted where Android-based devices could support additional third-party handwriting recognition apps beyond built-in software." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Which digital notebook has the best handwriting-to-text conversion?", a: "reMarkable and BOOX are generally known in the market for this feature, and SyncPen explicitly states OCR on its listing, but verify current accuracy through recent reviews before relying on any of them." },
   { q: "Is handwriting conversion accuracy guaranteed?", a: "No, it's a software feature that varies by device, individual handwriting style, and manufacturer updates, always check current reviews rather than trusting a fixed marketing claim." },
   { q: "Does handwriting conversion happen in real time?", a: "Some smart pen sets capture and convert handwriting in real time as you write, while other devices convert text after the fact through their software." },
-  { q: "Do I need internet access for handwriting conversion to work?", a: "This varies by device and software version, verify current requirements directly with the manufacturer since this can change with updates." },
+  { q: "Do I need internet access for handwriting conversion to work?", a: "This varies by device and software version, verify current requirements directly with the manufacturer since this can change with updates." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks-for-note-taking", title: "Best Digital Notebooks for Note Taking (2026)" },
   { href: "/guide/best-digital-notebooks-with-pens", title: "Best Digital Notebooks with Pens (2026)" },
-  { href: "/guide/best-e-ink-digital-notebooks", title: "Best E-Ink Digital Notebooks (2026)" },
+  { href: "/guide/best-e-ink-digital-notebooks", title: "Best E-Ink Digital Notebooks (2026)" }
 ];

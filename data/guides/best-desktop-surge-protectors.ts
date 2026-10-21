@@ -5,7 +5,7 @@ export const metaDescription = "5 desktop-placed surge protectors we evaluated, 
 export const mainKeyword = "desktop surge protector";
 export const introParagraphs = [
   "A desk-sitting surge protector's own footprint competes for the same limited desk surface area the equipment it's protecting needs, a genuine space tradeoff worth weighing against protection specs as co-equal decision factors.",
-  "Indicator light visibility is actually a genuine advantage of desktop placement versus under-desk or wall-mounted alternatives, desktop placement is the one mounting context where the surge protection status indicator remains visible for regular at-a-glance monitoring.",
+  "Indicator light visibility is actually a genuine advantage of desktop placement versus under-desk or wall-mounted alternatives, desktop placement is the one mounting context where the surge protection status indicator remains visible for regular at-a-glance monitoring."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Desktop Surge Protector Overall",
     name: "Power Strip, ALESTOR Surge Protector with 12 Outlets and 4 USB Ports, 6 Feet Extension Cord, 2700 Joules, ETL Listed, Black",
     price: "$21.98",
-    rating: "4.8 stars from 50,501 Amazon ratings",
-    reviews: "50,501 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41PsJYHqW7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08P5LRY37?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Desktop Pick",
     name: "HANYCONY Surge Protector Power Strip, 1080J, 5 Ft Braided Extension Cord",
     price: "$11.99",
-    rating: "4.8 stars from 67,972 Amazon ratings",
-    reviews: "67,972 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41w1NL7yU4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B092J8LPWR?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Desktop Pick with USB Charging",
     name: "Surge Protector Power Strip - Nuetsa Flat Plug Extension Cord with 8 Outlets and 4 USB Ports, 6 Feet Power Cord, 2700 Joules, ETL Listed, Black",
     price: "$13.99",
-    rating: "4.7 stars from 44,144 Amazon ratings",
-    reviews: "44,144 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41J41Z-k38L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09F2XPJ47?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best UL-Listed Desktop Pick",
     name: "Belkin 12-Outlet Surge Protector Power Strip w/ 12 AC Outlets & 8ft Flat Plug, UL-Listed Heavy-Duty Extension Cord for Home, Office, Travel, Computer, Laptop, Charger - 3,780 Joules of Protection",
     price: "$28.95",
-    rating: "4.8 stars from 3,281 Amazon ratings",
-    reviews: "3,281 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/415tn9cXV7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6S6TPRH?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Joule Desktop Pick",
     name: "Surge Protector Power Strip 4800J, LeZone 10Ft Long Extension Cord Flat Plug, 12 Outlets 2 USB C 2 USB Ports, Wall Mountable, Desk Charging Station, Black",
     price: "$18.89",
-    rating: "4.7 stars from 2,666 Amazon ratings",
-    reviews: "2,666 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41eRaMa6u1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CN6V6M5F?tag=deskfinds0d-20",
     description:
@@ -110,7 +110,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Footprint vs. protection-spec tradeoff weighed as co-equal factors", description: "Treated desk footprint and protection specs as equally important decision factors for desktop placement, rather than footprint mentioned only as an aesthetic afterthought." },
   { title: "Indicator light visibility highlighted as a genuine desktop advantage", description: "Noted that desktop placement is the one mounting context where the surge protection status indicator remains genuinely visible for regular monitoring, a benefit worth stating explicitly." },
-  { title: "Spill-exposure risk weighed against the visibility benefit", description: "Considered that desk-surface placement puts the unit directly in the path of common desk spill accidents, a risk unique to this placement recommendation weighed against its visibility benefit." },
+  { title: "Spill-exposure risk weighed against the visibility benefit", description: "Considered that desk-surface placement puts the unit directly in the path of common desk spill accidents, a risk unique to this placement recommendation weighed against its visibility benefit." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -247,11 +247,11 @@ export const faq: FaqItem[] = [
   { q: "Is a desktop surge protector at risk from spills?", a: "Yes, more than under-desk or wall-mounted alternatives. Desk-surface placement puts the unit directly in the path of common desk spill accidents, a real location-specific risk worth weighing against the visibility benefit." },
   { q: "Does frequent handling wear out a desktop surge protector faster?", a: "It can. Desktop units are moved and repositioned more frequently than fixed-mount alternatives, introducing more physical wear on the cord and connector over time, a braided cord holds up better under this handling." },
   { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want maximum capacity with genuinely visible protection status" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want a compact, well-proven desktop protector minimizing space competition At $11.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want a compact, well-proven desktop protector minimizing space competition At under $15, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-under-desk-surge-protectors", title: "Best Under-Desk Surge Protectors (2026)" },
   { href: "/guide/best-desk-mounted-surge-protectors", title: "Best Desk-Mounted Surge Protectors (2026)" },
-  { href: "/guide/best-surge-protectors-for-computers", title: "Best Surge Protectors for Computers (2026)" },
+  { href: "/guide/best-surge-protectors-for-computers", title: "Best Surge Protectors for Computers (2026)" }
 ];

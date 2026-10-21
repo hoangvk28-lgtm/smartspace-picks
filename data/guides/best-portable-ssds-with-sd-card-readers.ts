@@ -5,7 +5,7 @@ export const metaDescription = "Verified SD card reader combo SSDs were limited 
 export const mainKeyword = "portable ssd with sd card reader";
 export const introParagraphs = [
   "We want to be upfront: our verified research pool did not include a genuine SD-card-reader-and-SSD combo drive, that specific product category had limited verified options at the time of writing, so we are not going to claim any of the drives below have a built-in card reader when they do not.",
-  "Instead, this guide features three well-reviewed standalone portable SSDs, and practical advice for pairing one with a separate dedicated card reader if you cannot find a genuine combo unit that meets your needs.",
+  "Instead, this guide features three well-reviewed standalone portable SSDs, and practical advice for pairing one with a separate dedicated card reader if you cannot find a genuine combo unit that meets your needs."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Standalone Pick to Pair with a Card Reader",
     name: "SANDISK 2TB Extreme Portable SSD (Old Model) - Up to 1050MB/s, USB-C, USB 3.2 Gen 2, IP65 Water and Dust Resistance, Updated Firmware - SDSSDE61-2T00-G25",
     price: "$299.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "91,365 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41eTFK7clfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HN37XC1?tag=deskfinds0d-20",
     description: "SanDisk's Extreme delivers reliable 1050MB/s speed with IP65 durability, a strong standalone destination drive for photos and video offloaded from a separate SD card reader.\n\nIt earns the top spot in this comparison over Samsung T7 Portable SSD 1TB Titan Gray for one main reason. Reliable destination drive for offloaded camera media. On price, it's actually priced above Samsung T7 Portable SSD 1TB Titan Gray, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: IP65 rating suits field use alongside a card reader. On the other side, Sustained speed can dip once cache fills. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Slim Standalone Pick",
     name: "Samsung T7 Portable SSD 1TB Titan Gray, USB 3.2 Gen 2, Up to 1,050MB/s",
     price: "$216.36",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "21,124 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31LdvAbumfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874XN4D8?tag=deskfinds0d-20",
     description: "Samsung's T7 offers a slim, lightweight standalone SSD well suited to a minimal field kit alongside a compact separate card reader.\n\nOne spot below SANDISK 2TB Extreme Portable SSD in this ranking, it's priced lower than SANDISK 2TB Extreme Portable SSD. The compromise here is straightforward: No built-in SD card reader, a separate reader is required. What you gain in return: Slim design pairs well with a compact separate card reader in a field kit. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Reliable, widely reviewed platform. On the other side, 1TB may be limiting for large video libraries. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Connector Standalone Pick",
     name: "Transcend ESD310 1TB External SSD, Up to 1,050MB/s, Dual USB Drive, 2-in-1 Type C & A, USB 3.2 Gen2 Portable SSD",
     price: "$239.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "2,340 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31HBU-HAxoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C3B32H9M?tag=deskfinds0d-20",
     description: "Transcend's ESD310 includes both USB-C and USB-A connectors, useful flexibility when your separate card reader and computer use different connector types.\n\nSitting just under Samsung T7 Portable SSD 1TB Titan Gray, it costs more than Samsung T7 Portable SSD 1TB Titan Gray. Here's the honest tradeoff: No built-in SD card reader, a separate reader is still required. And here's what it gets you instead: Dual connectors reduce adapter clutter in a field kit. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Solid everyday speed for offloaded camera media. On the other side, USB 3.2 Gen2 tier, not the fastest available. That's the main tradeoff to weigh against everything above.",

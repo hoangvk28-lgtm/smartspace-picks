@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "HP mini PC mount";
 export const introParagraphs = [
   "As with our Dell mount research, the current product pool here is universal VESA brackets, some explicitly claiming HP compatibility, rather than HP-branded accessories verified against exact Desktop Mini generations. Confirm your specific model's dimensions before ordering.",
-  "HP publishes its own mounting bracket specifications for the B300 and other Desktop Mini accessories directly, worth checking alongside these third-party options.",
+  "HP publishes its own mounting bracket specifications for the B300 and other Desktop Mini accessories directly, worth checking alongside these third-party options."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -47,7 +47,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41nWvL8pqlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KY3LHVG?tag=deskfinds0d-20",
     description: "The largest review base in this comparison, a general-purpose VESA bracket that should fit compact HP Desktop Mini models within its stated depth range.\n\nOne spot below Yimaut Adjustable Mini PC Vesa Mount Bracket Behind Monitor in this ranking, it costs more than Yimaut Adjustable Mini PC Vesa Mount Bracket Behind Monitor. The compromise here is straightforward: Not marketed specifically for HP, verify depth compatibility with your model. What you gain in return: Largest, most proven review base in this comparison. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Largest, most proven review base in this comparison. On the other side, Not marketed specifically for HP, verify depth compatibility with your model. That's the main tradeoff to weigh against everything above.",
-    specs: ["Fits 0.65-2.55 in device depth","75x75 and 100x100mm VESA","702 reviews at 4.4 stars"],
+    specs: ["Fits 0.65-2.55 in device depth","75x75 and 100x100mm VESA"],
     pros: ["Largest, most proven review base in this comparison"],
     cons: ["Not marketed specifically for HP, verify depth compatibility with your model"],
     bestFor: "Buyers who want the most proven general bracket and will verify HP-model fit themselves.",
@@ -63,7 +63,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31l-EL12D-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJ7BK9CM?tag=deskfinds0d-20",
     description: "The highest rating in this comparison, flexible wall or VESA mounting that should accommodate compact HP devices, at a lower price than the top pick.\n\nSitting just under HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm, it's priced lower than HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm. Here's the honest tradeoff: Not marketed specifically for HP devices. And here's what it gets you instead: Highest rating in this comparison. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Flexible wall or VESA mounting. On the other side, Not marketed specifically for HP devices. That's the main tradeoff to weigh against everything above.",
-    specs: ["Wall mount or VESA behind-monitor mount","190 reviews at 4.6 stars"],
+    specs: ["Wall mount or VESA behind-monitor mount"],
     pros: ["Highest rating in this comparison","Flexible wall or VESA mounting"],
     cons: ["Not marketed specifically for HP devices"],
     bestFor: "Buyers who want the highest-rated general bracket at a lower price.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DB5RQH7V?tag=deskfinds0d-20",
     description: "Supports under-desk, wall, and monitor-arm mounting, versatile for different HP workstation setups, at a lower price with a smaller review base.\n\nRanked just behind Monzlteck Adjustable Small Device Wall Mount Or VESA Mount Behind the Monitor, it costs more than Monzlteck Adjustable Small Device Wall Mount Or VESA Mount Behind the Monitor. The real tradeoff against that pick: Smaller review base than the top picks. In exchange, it offers this instead: Multiple mounting locations for different desk setups. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Multiple mounting locations for different desk setups. On the other side, Smaller review base than the top picks. That's the main tradeoff to weigh against everything above.",
-    specs: ["Under-desk, wall, or monitor-arm mount","40 reviews at 4.4 stars"],
+    specs: ["Under-desk, wall, or monitor-arm mount"],
     pros: ["Multiple mounting locations for different desk setups"],
     cons: ["Smaller review base than the top picks"],
     bestFor: "Buyers who want mounting-location flexibility for an HP workstation setup.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Honest disclosure: universal brackets, not HP-exclusive", description: "We verified none of these are official HP accessories with a confirmed Desktop Mini generation fit matrix, and disclosed this directly." },
   { title: "Explicit HP compatibility claims noted where present", description: "We flagged where a listing specifically mentions HP compatibility versus general VESA compatibility without brand-specific claims." },
   { title: "Device depth/width range against typical Desktop Mini dimensions", description: "We compared each bracket's stated compatible range, recommending buyers verify their specific HP model's exact dimensions." },
-  { title: "Review volume as general reliability evidence", description: "Since HP-specific fit data isn't independently verifiable from these listings, we weighted general review history for overall build quality." },
+  { title: "Review volume as general reliability evidence", description: "Since HP-specific fit data isn't independently verifiable from these listings, we weighted general review history for overall build quality." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -230,9 +230,10 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "Are any of these official HP accessories?", a: "No, these are universal VESA-compatible brackets, some with explicit HP compatibility claims in their listings, but none are HP-branded official accessories." },
   { q: "Which has an explicit HP compatibility claim?", a: "The Yimaut Adjustable Mini PC Vesa Mount Bracket specifically lists HP in its stated compatibility." },
-  { q: "Which has the most reviews?", a: "The HumanCentric Thin Client Mount Bracket, with 702 reviews at 4.4 stars." },
+  
   { q: "Should I check HP's own documentation too?", a: "Yes, HP publishes official B300 mounting bracket specifications directly, useful to cross-reference." },
-  { q: "What's the highest-rated option?", a: "The Monzlteck Adjustable Small Device Wall Mount, at 4.6 stars." },
+  { q: "Can I mount an HP Desktop Mini under the desk?", a: "Yes. The Yimaut bracket is named for behind-monitor and under-desk use, and the Adjustable Thin Client bracket lists under-desk, wall and monitor-arm positions. Measure the clearance between the desk underside and your chair or knees so the PC does not become a shin hazard." },
+  { q: "What should I do with the HP power adapter once the PC is mounted?", a: "Treat the adapter as part of the load, since it adds weight and one more cable to route. Clip it to the bracket or the monitor stand with a cable tie rather than leaving it dangling. The Monzlteck wall option is useful if you want the adapter and PC both off the desk entirely." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

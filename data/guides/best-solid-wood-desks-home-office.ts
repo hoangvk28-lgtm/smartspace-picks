@@ -47,7 +47,7 @@ export const products: SolidWoodDesk[] = [
       "Stock availability has varied - check the buy button before purchasing",
       "Butcher block aesthetic does not suit every office style",
       "Traditional proportions may feel dated in modern setups",
-      "~30 inch width is compact - tight for dual-monitor setups",
+      "~30 inch width is compact - tight for dual-monitor setups"
     ],
     skipIf:
       "You need a 47 inch or wider desk or a modern aesthetic. Consider the Pemberly Row 60 inch for a contemporary large-desk option.",
@@ -56,12 +56,12 @@ export const products: SolidWoodDesk[] = [
       "Butcher block surface confirms full solid wood top - no veneer",
       "Parawood is a sustainable hardwood (byproduct of rubber production)",
       "1 drawer included",
-      "IC brand built entirely around genuine solid wood furniture",
+      "IC brand built entirely around genuine solid wood furniture"
     ],
     cons: [
       "Stock availability has varied - verify before purchasing",
       "Compact ~30 inch width",
-      "Traditional style limits appeal in modern offices",
+      "Traditional style limits appeal in modern offices"
     ],
   },
   {
@@ -80,7 +80,7 @@ export const products: SolidWoodDesk[] = [
     tradeoffs: [
       "Newer brand with less established track record",
       "Fewer independent reviews than long-established models",
-      "Verify current stock before purchasing",
+      "Verify current stock before purchasing"
     ],
     skipIf:
       "You need a desk from a brand with a long track record. The Winsome Studio 42 inch has been in production since 1977 and is a safer choice for brand reliability.",
@@ -88,12 +88,12 @@ export const products: SolidWoodDesk[] = [
       "Solid wood construction at ~$120 price point",
       "Drawers included - storage without material compromise",
       "47 inches gives more surface area than compact alternatives",
-      "Fits most standard home office spaces",
+      "Fits most standard home office spaces"
     ],
     cons: [
       "Newer brand - fewer verified long-term reviews",
       "Verify stock availability before purchase",
-      "Material spec not as detailed as Winsome or Pemberly Row listings",
+      "Material spec not as detailed as Winsome or Pemberly Row listings"
     ],
   },
   {
@@ -112,7 +112,7 @@ export const products: SolidWoodDesk[] = [
     tradeoffs: [
       "No drawers",
       "42 inches limits dual-monitor setups",
-      "20.55 inch depth is shallow - deep monitors may feel close to the edge",
+      "20.55 inch depth is shallow - deep monitors may feel close to the edge"
     ],
     skipIf:
       "You need storage drawers or a 47 inch or wider surface. The ODCVKRT adds drawers at a similar price; the Pemberly Row 60 inch gives a full workstation width.",
@@ -121,12 +121,12 @@ export const products: SolidWoodDesk[] = [
       "Brand has manufactured solid wood furniture since 1977",
       "Warm honey finish is professional and versatile",
       "Fits small and medium home offices",
-      "Under $200",
+      "Under $200"
     ],
     cons: [
       "No drawers",
       "42 inch width is not ideal for dual monitors",
-      "Shallow 20.55 inch depth",
+      "Shallow 20.55 inch depth"
     ],
   },
   {
@@ -145,7 +145,7 @@ export const products: SolidWoodDesk[] = [
     tradeoffs: [
       "Verify current availability before purchasing - listing varies",
       "Lower review count than mass-market options - newer listing",
-      "Minimal finish may not suit every aesthetic preference",
+      "Minimal finish may not suit every aesthetic preference"
     ],
     skipIf:
       "You need a wide workstation surface. The Pemberly Row 60 inch gives more desk real estate without the storage.",
@@ -153,12 +153,12 @@ export const products: SolidWoodDesk[] = [
       "Solid wood from a brand built entirely on real hardwood",
       "Two drawers - practical storage without material compromise",
       "Simple design ages well",
-      "IC brand solid wood standard applies throughout",
+      "IC brand solid wood standard applies throughout"
     ],
     cons: [
       "Check current availability before purchasing",
       "Fewer verified reviews - newer listing",
-      "Minimal finish - less visual impact than stained alternatives",
+      "Minimal finish - less visual impact than stained alternatives"
     ],
   },
   {
@@ -177,7 +177,7 @@ export const products: SolidWoodDesk[] = [
     tradeoffs: [
       "Highest price on this list (~$581)",
       "No storage drawers",
-      "Fewer reviews than mass-market alternatives - newer listing",
+      "Fewer reviews than mass-market alternatives - newer listing"
     ],
     skipIf:
       "You need drawers or your budget is under $300. The IC Vista gives solid wood plus two drawers at a lower price.",
@@ -185,14 +185,14 @@ export const products: SolidWoodDesk[] = [
       "Confirmed solid wood throughout the listing",
       "60 inches gives a full workstation surface",
       "Contemporary style suits most home office aesthetics",
-      "Handcrafted build quality at furniture-grade level",
+      "Handcrafted build quality at furniture-grade level"
     ],
     cons: [
       "Highest price on this list (~$581)",
       "No drawers",
-      "Fewer reviews - newer listing",
+      "Fewer reviews - newer listing"
     ],
-  },
+  }
 ];
 
 export interface AtAGlanceRow {
@@ -233,7 +233,7 @@ export const faq: { q: string; a: string }[] = [
   {
     q: "What size solid wood desk do I need for a home office?",
     a: "42 to 48 inches for a single-monitor setup, 55 to 60 inches for dual monitors or ultrawide displays. Under 40 inches starts to feel cramped with a keyboard, mouse, and accessories in active use simultaneously.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
@@ -252,5 +252,5 @@ export const relatedGuides: { href: string; title: string }[] = [
   {
     href: "/guide/best-webcams-for-home-office",
     title: "7 Best Webcams for Home Office in 2026",
-  },
+  }
 ];

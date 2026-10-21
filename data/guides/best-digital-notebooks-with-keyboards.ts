@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook with keyboard";
 export const introParagraphs = [
   "We need to be upfront about what we found: none of the current leading E Ink notebooks, Kindle Scribe, reMarkable, XPPen, ship with a first-party keyboard or official keyboard folio at time of writing. \"Digital notebook with keyboard\" searches don't currently have a clean, purpose-built hardware match.",
-  "What we could honestly evaluate is whether each device's operating system supports pairing a separate Bluetooth keyboard at all, since that's the realistic path to typing on any of these. Closed ecosystems (Kindle Scribe, reMarkable) generally don't support this the way an open Android-based device does.",
+  "What we could honestly evaluate is whether each device's operating system supports pairing a separate Bluetooth keyboard at all, since that's the realistic path to typing on any of these. Closed ecosystems (Kindle Scribe, reMarkable) generally don't support this the way an open Android-based device does."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41StVO0JWOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DX234NWP?tag=deskfinds0d-20",
     description: "This is not sold with a keyboard, but XPPen's note-taking tablets are more likely to run an open enough OS to support a paired Bluetooth keyboard than the closed Kindle Scribe or reMarkable ecosystems, verify current OS/app support before assuming typing works as expected.\n\nIt earns the top spot in this comparison over XPPen 3 in 1 Color Digital Notebook 10.95\" for one main reason. Lowest price in this comparison. On price, it comes in below XPPen 3 in 1 Color Digital Notebook 10.95\", which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: More open software ecosystem than Kindle or reMarkable. On the other side, Bluetooth keyboard support should be verified on the current listing before buying for that purpose. That's the main tradeoff to weigh against everything above.",
-    specs: ["10.95 inch color display","16384 pressure levels","329 reviews at 4.3 stars"],
+    specs: ["10.95 inch color display","16384 pressure levels"],
     pros: ["Lowest price in this comparison","More open software ecosystem than Kindle or reMarkable"],
     cons: ["No official keyboard accessory currently bundled or sold","Bluetooth keyboard support should be verified on the current listing before buying for that purpose"],
     bestFor: "Buyers who want the best odds of pairing a keyboard, understanding it's not an official supported accessory.",
@@ -47,7 +47,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31dwpvU+C7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2SHL3DH?tag=deskfinds0d-20",
     description: "Same core hardware as the pick above at a slightly higher price. Neither XPPen listing includes a keyboard; check the current listing for exact accessory bundle differences.\n\nOne spot below XPPen 3 in 1 Color Digital Notebook 10.95\" in this ranking, it costs more than XPPen 3 in 1 Color Digital Notebook 10.95\". The compromise here is straightforward: Costs more with a lower rating than the other XPPen listing. What you gain in return: Same underlying hardware as the lower-priced XPPen option. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Same underlying hardware as the lower-priced XPPen option. On the other side, No official keyboard bundled. That's the main tradeoff to weigh against everything above.",
-    specs: ["10.95 inch color display","16384 pressure levels","180 reviews at 4.2 stars"],
+    specs: ["10.95 inch color display","16384 pressure levels"],
     pros: ["Same underlying hardware as the lower-priced XPPen option"],
     cons: ["Costs more with a lower rating than the other XPPen listing","No official keyboard bundled"],
     bestFor: "Buyers comparing XPPen bundle options, check current inclusions before paying more here.",
@@ -95,7 +95,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HDL3XJR?tag=deskfinds0d-20",
     description: "reMarkable's Type Folio keyboard accessory exists for other models in their lineup, but check the current listing to confirm compatibility with this specific reMarkable 2 configuration before assuming it will work.\n\nOne spot below Amazon Kindle Scribe in this ranking, it costs more than Amazon Kindle Scribe. The compromise here is straightforward: Keyboard folio compatibility varies by specific reMarkable model, confirm before buying. What you gain in return: ReMarkable does sell an official keyboard folio accessory for some models in its lineup. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Largest, highest-rated review base in this comparison. On the other side, Keyboard accessory sold separately, not bundled. That's the main tradeoff to weigh against everything above.",
-    specs: ["Marker Plus stylus included","reMarkable Type Folio may be compatible, verify current model support","1,354 reviews at 4.4 stars"],
+    specs: ["Marker Plus stylus included","reMarkable Type Folio may be compatible, verify current model support"],
     pros: ["reMarkable does sell an official keyboard folio accessory for some models in its lineup","Largest, highest-rated review base in this comparison"],
     cons: ["Keyboard folio compatibility varies by specific reMarkable model, confirm before buying","Keyboard accessory sold separately, not bundled"],
     bestFor: "Buyers considering the reMarkable ecosystem who should specifically verify Type Folio compatibility before assuming keyboard support.",
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Honest disclosure of missing keyboard hardware", description: "We did not find a current E Ink notebook that ships with a bundled first-party keyboard, and said so directly rather than forcing a false top-5 keyboard-notebook narrative." },
   { title: "OS openness to a paired keyboard", description: "We distinguished closed ecosystems (Kindle, reMarkable's core OS) from more open ones (XPPen), since that determines whether typing is realistically possible at all." },
   { title: "Official accessory availability, verified per model", description: "Where a brand (reMarkable) sells an official keyboard folio for some models, we flagged that compatibility needs confirming for the specific model rather than assuming it applies across the whole lineup." },
-  { title: "Review volume where relevant", description: "We still weighted established review history for overall device quality, even though it doesn't speak directly to keyboard support." },
+  { title: "Review volume where relevant", description: "We still weighted established review history for overall device quality, even though it doesn't speak directly to keyboard support." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Can I pair a Bluetooth keyboard with any of these?", a: "More realistic on open, Android-based devices like the XPPen. Closed ecosystems like Kindle Scribe don't support general Bluetooth keyboard pairing for notes." },
   { q: "Does reMarkable sell a keyboard accessory?", a: "reMarkable sells a Type Folio keyboard for some models in its lineup, but compatibility varies, confirm it works with the specific reMarkable model you're buying." },
   { q: "Should I buy one of these expecting to type on it regularly?", a: "Not recommended as your primary plan. If regular typing is essential, a standard tablet with a keyboard case is likely a better fit than an E Ink notebook." },
-  { q: "Why include Kindle Scribe if it has no keyboard support?", a: "To give an honest, complete picture, buyers should know explicitly that this device has no keyboard path, not just see it omitted without explanation." },
+  { q: "Why include Kindle Scribe if it has no keyboard support?", a: "To give an honest, complete picture, buyers should know explicitly that this device has no keyboard path, not just see it omitted without explanation." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" },
   { href: "/guide/best-digital-notebooks-that-feel-like-paper", title: "Best Digital Notebooks That Feel Like Paper (2026)" },
-  { href: "/guide/best-digital-notebooks-for-handwriting", title: "Best Digital Notebooks for Handwriting (2026)" },
+  { href: "/guide/best-digital-notebooks-for-handwriting", title: "Best Digital Notebooks for Handwriting (2026)" }
 ];

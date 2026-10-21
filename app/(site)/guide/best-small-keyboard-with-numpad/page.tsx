@@ -152,7 +152,7 @@ export default async function BestSmallKeyboardWithNumpadPage() {
     about: [
       { "@type": "Thing", name: "96% Keyboard" },
       { "@type": "Thing", name: "Compact Keyboard with Numpad" },
-      { "@type": "Thing", name: "Wireless Mechanical Keyboard" },
+      { "@type": "Thing", name: "Wireless Mechanical Keyboard" }
     ],
   };
 
@@ -162,7 +162,7 @@ export default async function BestSmallKeyboardWithNumpadPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Small Keyboards with Numpad", item: `${SITE_URL}/guide/best-small-keyboard-with-numpad` },
+      { "@type": "ListItem", position: 3, name: "Best Small Keyboards with Numpad", item: `${SITE_URL}/guide/best-small-keyboard-with-numpad` }
     ],
   };
 
@@ -349,7 +349,7 @@ export default async function BestSmallKeyboardWithNumpadPage() {
                   {[
                     { layout: "Full-size (100%)", width: "~44 cm", numpad: "Yes" },
                     { layout: "96%", width: "~38 to 40 cm", numpad: "Yes" },
-                    { layout: "TKL (tenkeyless)", width: "~36 cm", numpad: "No" },
+                    { layout: "TKL (tenkeyless)", width: "~36 cm", numpad: "No" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.layout}</td>
@@ -409,7 +409,7 @@ export default async function BestSmallKeyboardWithNumpadPage() {
                     { type: "Wired USB-C", latency: "Lowest (1 ms)", notes: "Reliable, no battery needed" },
                     { type: "2.4 GHz dongle", latency: "Very low (1-2 ms)", notes: "Stable, needs USB port" },
                     { type: "Bluetooth 5.x", latency: "Low (7-10 ms)", notes: "No dongle, multi-device" },
-                    { type: "Tri-mode (all three)", latency: "Depends on mode", notes: "Most flexible, best value" },
+                    { type: "Tri-mode (all three)", latency: "Depends on mode", notes: "Most flexible, best value" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.type}</td>
@@ -516,7 +516,7 @@ export default async function BestSmallKeyboardWithNumpadPage() {
                 name: "Perixx PERIBOARD-536B",
                 verdict:
                   ": ergonomic split layout with built-in numpad and detachable wrist rest.",
-              },
+              }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

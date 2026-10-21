@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "ink tank printer";
 export const introParagraphs = [
   "Ink tank printers trade a higher upfront price for refillable bottles instead of cartridges, and the payback math genuinely depends on how much you print each month, not a vague promise of savings. Below are 8 cartridge-free ink tank printers we evaluated for home office use, all from Epson's EcoTank line or HP's Smart Tank line, the two dominant ink tank systems on the market.",
-  "We also cover the costs competitors tend to skip: the maintenance box that eventually fills up, what happens if the printer sits idle for weeks, and how print quality actually compares to a cartridge printer for text, graphics, and photos.",
+  "We also cover the costs competitors tend to skip: the maintenance box that eventually fills up, what happens if the printer sits idle for weeks, and how print quality actually compares to a cartridge printer for text, graphics, and photos."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Wireless color all-in-one",
       "Scan and copy included",
       "Visible ink tank levels on front panel",
-      "Compact home office design",
+      "Compact home office design"
     ],
     pros: [
       "Lowest price among the EcoTank picks in this guide",
       "Cartridge-free, refillable ink system",
       "Visible ink levels without opening a panel",
-      "Wireless connectivity included",
+      "Wireless connectivity included"
     ],
     cons: [
       "No automatic document feeder",
       "No fax or Ethernet",
-      "Lower monthly volume needed to justify upfront cost vs. an ultra-basic cartridge printer",
+      "Lower monthly volume needed to justify upfront cost vs. an ultra-basic cartridge printer"
     ],
     bestFor: "Home offices with moderate monthly volume wanting the lowest-cost EcoTank entry point",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Wireless color all-in-one",
       "Scan and copy included",
       "Visible ink tank levels on front panel",
-      "White finish",
+      "White finish"
     ],
     pros: [
       "Same low price and features as the black ET-2800",
       "Cartridge-free, refillable ink system",
       "Visible ink levels without opening a panel",
-      "White finish option",
+      "White finish option"
     ],
     cons: [
       "No automatic document feeder",
       "No fax or Ethernet",
-      "Same lower-volume payback ceiling as the black version",
+      "Same lower-volume payback ceiling as the black version"
     ],
     bestFor: "Home offices that want the ET-2800's value in a white finish",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Wireless color all-in-one",
       "Scan and copy included",
       "Everyday home printing positioning",
-      "Compact design",
+      "Compact design"
     ],
     pros: [
       "Cheapest EcoTank pick in this guide",
       "Cartridge-free, refillable ink system",
       "Simple, straightforward feature set",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     cons: [
       "Payback period is longer at low print volumes",
       "No automatic document feeder",
-      "No fax or Ethernet",
+      "No fax or Ethernet"
     ],
     bestFor: "Very light home offices wanting the lowest-cost way into ink tank printing",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Automatic document feeder",
       "Fax and Ethernet included",
       "Wireless connectivity also available",
-      "Ideal-for-home-office positioning",
+      "Ideal-for-home-office positioning"
     ],
     pros: [
       "ADF, fax, and Ethernet at a similar price to basic EcoTank models",
       "Cartridge-free, refillable ink system",
       "Wired networking option via Ethernet",
-      "Solid mid-tier home office feature set",
+      "Solid mid-tier home office feature set"
     ],
     cons: [
       "Bulkier than the basic ET-2800 and ET-2400",
       "Fax feature goes unused by most buyers",
-      "Higher price than the entry-level EcoTank picks",
+      "Higher price than the entry-level EcoTank picks"
     ],
     bestFor: "Home offices that want ADF and a wired Ethernet option alongside cartridge-free ink",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Up to 3 years of ink included",
       "2.4-inch color touchscreen",
       "Automatic document feeder",
-      "18 PPM print speed",
+      "18 PPM print speed"
     ],
     pros: [
       "Longest stated ink runway in this guide",
       "Color touchscreen for easier navigation",
       "Faster print speed than entry-level EcoTank models",
-      "ADF included",
+      "ADF included"
     ],
     cons: [
       "Highest price among the standard EcoTank picks here",
       "Best value requires consistent, moderate-to-high print volume",
-      "Larger footprint than the basic models",
+      "Larger footprint than the basic models"
     ],
     bestFor: "Home offices with steady print volume who want the longest stretch between ink refills",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Ethernet and ADF included",
       "Mobile printing support",
       "Bonus black ink bottle and USB cable included",
-      "Scanner and copier built in",
+      "Scanner and copier built in"
     ],
     pros: [
       "Ethernet and ADF for a complete office setup",
       "Bonus ink bottle included in the box",
       "Mobile printing support",
-      "Cartridge-free, refillable ink system",
+      "Cartridge-free, refillable ink system"
     ],
     cons: [
       "High upfront price relative to entry-level EcoTank models",
       "Best value requires higher print volume to offset cost",
-      "Larger footprint",
+      "Larger footprint"
     ],
     bestFor: "Higher-volume home offices that want Ethernet and ADF alongside cartridge-free ink",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Scanner, copier, and fax built in",
       "Automatic document feeder",
       "Ethernet included",
-      "Office-first positioning",
+      "Office-first positioning"
     ],
     pros: [
       "Most complete feature set among the EcoTank picks here",
       "Ethernet, ADF, and fax all included",
       "Cartridge-free, refillable ink system",
-      "Built for consistent office use",
+      "Built for consistent office use"
     ],
     cons: [
       "High upfront price",
       "More features than a light home user will use",
-      "Larger footprint than the basic EcoTank models",
+      "Larger footprint than the basic EcoTank models"
     ],
     bestFor: "Home offices that want scanner, copier, fax, and Ethernet all in one cartridge-free printer",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "2 years of ink included",
       "Wireless (2.4GHz only)",
       "Scanner and copier built in",
-      "Home use positioning",
+      "Home use positioning"
     ],
     pros: [
       "Lowest price among all ink tank picks in this guide",
       "2 years of ink included in the box",
       "2.4GHz wifi offers better range through walls",
-      "Scanner and copier included",
+      "Scanner and copier included"
     ],
     cons: [
       "2.4GHz-only wifi has a lower ceiling than dual-band options",
       "No automatic document feeder",
-      "No fax or Ethernet",
+      "No fax or Ethernet"
     ],
     bestFor: "Home offices wanting the lowest-cost HP Smart Tank alternative to Epson's EcoTank line",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Brand and ecosystem fit",
     description: "Considered whether Epson's EcoTank or HP's Smart Tank ecosystem better matches a buyer's existing printer brand familiarity and refill bottle availability.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,12 +477,12 @@ export const faq: FaqItem[] = [
   {
     q: "Should I choose Epson EcoTank or HP Smart Tank?",
     a: "Both are legitimate refillable ink tank ecosystems. This guide includes 7 Epson EcoTank models across a range of feature tiers and 1 HP Smart Tank model as the lowest-priced overall pick with 2 years of ink included. If you don't have a brand preference, compare the specific feature set and price tier that matches your home office's actual print volume and needs.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-home-offices", title: "Best Printers for Home Offices (2026)" },
   { href: "/guide/best-printers-without-wifi", title: "Best Printers Without Wi-Fi (2026)" },
   { href: "/guide/best-printers-with-usb-ports", title: "Best Printers with USB Ports (2026)" },
-  { href: "/guide/best-airprint-printers", title: "Best AirPrint Printers (2026)" },
+  { href: "/guide/best-airprint-printers", title: "Best AirPrint Printers (2026)" }
 ];

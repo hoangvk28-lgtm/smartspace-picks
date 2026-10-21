@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desk acoustic panel";
 export const introParagraphs = [
   "None of the desk acoustic panels in this pool publish a formal NRC (Noise Reduction Coefficient) rating, that gap is worth flagging upfront because it means you're relying on material description and thickness rather than a verified absorption number, thinner decorative-looking panels absorb meaningfully less sound than thick, dense ones even when both are marketed as 'acoustic'.",
-  "A single desk panel addresses only a small fraction of the reflective surfaces in a room, so treat one panel as an incremental improvement to the space right around your head and mic, not a fix for a whole room's echo, buyers wanting a bigger difference typically need multiple panels or a combination with other absorptive furnishings.",
+  "A single desk panel addresses only a small fraction of the reflective surfaces in a room, so treat one panel as an incremental improvement to the space right around your head and mic, not a fix for a whole room's echo, buyers wanting a bigger difference typically need multiple panels or a combination with other absorptive furnishings."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "8 min";
@@ -70,7 +70,7 @@ export const products: GuideProduct[] = [
     pros: ["Larger coverage area than compact panel options", "Sized for typical student and office desk widths", "Simple color option that blends into most desk setups", "Reasonable option for classroom or shared-desk settings"],
     cons: ["No published NRC rating to verify absorption claims", "Material thickness not specified in the listing", "Height alone may not fully block sightlines depending on desk height"],
     bestFor: "Students and office workers wanting a larger single panel sized for a standard desk width.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -78,7 +78,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "NRC disclosure checked, not assumed", description: "Checked each listing for a published Noise Reduction Coefficient rating. None in this pool publish one, so we flag that gap rather than repeat unverified absorption claims." },
   { title: "Mounting method verified against desk compatibility", description: "Noted whether each panel is freestanding, clamp-on, or desk-mounted, since mounting hardware compatibility varies by desk edge thickness and this is easy to overlook until the panel arrives." },
   { title: "Coverage area weighed against single-panel limits", description: "Weighed panel dimensions against the reality that one panel addresses only a fraction of a room's reflective surfaces, not a whole-room acoustic fix." },
-  { title: "Absorption framed honestly versus blocking", description: "Framed these picks around reducing echo and reflection near the user's own desk, not blocking sound from reaching others, since that is the more accurate claim for this product type." },
+  { title: "Absorption framed honestly versus blocking", description: "Framed these picks around reducing echo and reflection near the user's own desk, not blocking sound from reaching others, since that is the more accurate claim for this product type." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -206,11 +206,11 @@ export const faq: FaqItem[] = [
   { q: "Will one desk panel stop a coworker's voice from reaching me?", a: "No, these panels absorb some reflected sound near your own desk, they don't block sound transmission the way a soundproof partition does." },
   { q: "How many panels do I actually need?", a: "For a noticeable difference, plan on more than one, a single panel only covers a small portion of the reflective surfaces around a typical desk." },
   { q: "Does panel thickness matter if the listing doesn't say?", a: "Yes, thickness and density drive real absorption performance, if a listing omits this detail treat the acoustic claim as unverified." },
-  { q: "What's the difference between an acoustic panel and a divider?", a: "Panels are typically flatter and mounted or freestanding for absorption near one desk, dividers tend to be taller and used to separate two workspaces, see our acoustic desk dividers guide for that use case." },
+  { q: "What's the difference between an acoustic panel and a divider?", a: "Panels are typically flatter and mounted or freestanding for absorption near one desk, dividers tend to be taller and used to separate two workspaces, see our acoustic desk dividers guide for that use case." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-acoustic-desk-dividers", title: "Best Acoustic Desk Dividers (2026)" },
   { href: "/guide/best-sound-absorbing-desk-privacy-panels", title: "Best Sound-Absorbing Desk Privacy Panels (2026)" },
-  { href: "/guide/best-desk-privacy-panels-clamp-on", title: "Best Clamp-On Desk Privacy Panels (2026)" },
+  { href: "/guide/best-desk-privacy-panels-clamp-on", title: "Best Clamp-On Desk Privacy Panels (2026)" }
 ];

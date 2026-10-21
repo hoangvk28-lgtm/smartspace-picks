@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "combination small safes";
 export const introParagraphs = [
   "We need to be direct here: combination safe searches surface a mix of true mechanical dial or button locks and digital electronic keypads, and they're not the same mechanism. Of our 8 confirmed picks, only 3 use a genuine mechanical combination lock, no batteries required. We're disclosing this split rather than presenting all 8 as mechanical.",
-  "For buyers who specifically want no-battery reliability, we're flagging the 3 true mechanical picks clearly, and for the 5 digital keypad picks, we're noting they function similarly but do require batteries.",
+  "For buyers who specifically want no-battery reliability, we're flagging the 3 true mechanical picks clearly, and for the 5 digital keypad picks, we're noting they function similarly but do require batteries."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     pros: ["Customizable 3-8 digit code length, more flexible than fixed-length competitors"],
     cons: ["Digital keypad requires batteries, not a true no-battery mechanical combination"],
     bestFor: "Buyers wanting flexible password length on a compact, mountable keypad safe.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Distinguished true mechanical combination locks from digital keypads honestly", description: "Only 3 of our 8 confirmed picks use a genuine mechanical dial or button combination with zero battery dependency. We labeled the other 5 clearly as digital keypad designs, even though both function via entering a numeric code." },
   { title: "Verified no-battery reliability specifically for the mechanical picks", description: "The Master Lock, Amazon Basics, and SentrySafe combination picks require no batteries at all, a genuine reliability advantage we confirmed directly from their described mechanism." },
   { title: "Noted electronic-specific advantages the digital keypad picks offer in exchange", description: "Several digital keypad picks offer features a mechanical lock can't, like multi-code support, low-battery warnings, or alarm deterrents, which we weighed as a real tradeoff, not just a downside." },
-  { title: "Checked dead-battery recovery paths specifically for the digital keypad picks", description: "Since 5 of 8 picks require batteries, we verified whether each confirms a key backup or external power option for when those batteries fail." },
+  { title: "Checked dead-battery recovery paths specifically for the digital keypad picks", description: "Since 5 of 8 picks require batteries, we verified whether each confirms a key backup or external power option for when those batteries fail." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -278,7 +278,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review count and rating together, not rating alone",
-    "explanation": "A 4.8-star rating from 12 reviews carries far less evaluation confidence than a 4.5-star rating from several thousand, since a small sample can be skewed by a handful of early, enthusiastic buyers before any long-term reliability issues would show up in later reviews.\n\nThis matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
+    "explanation": "This matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
   }
 ];
 
@@ -287,11 +287,11 @@ export const faq: FaqItem[] = [
   { q: "Are the rest of the picks not really combination locks?", a: "They use digital keypads, which function similarly by entering a numeric code, but require batteries rather than a mechanical dial. We labeled this distinction directly." },
   { q: "Is there a mechanical option with a tether cable for travel?", a: "Yes, the Master Lock Small Travel Safe with Cable." },
   { q: "Which digital keypad pick warns before the battery dies?", a: "The Voncabay Money Safe Box specifically includes a low-battery warning light." },
-  { q: "Is there a mechanical pick suitable for a full range of valuables including firearms?", a: "Yes, the Amazon Basics Portable Security Case explicitly rates for firearms alongside cash, jewelry, and documents, with a genuine mechanical combination lock." },
+  { q: "Is there a mechanical pick suitable for a full range of valuables including firearms?", a: "Yes, the Amazon Basics Portable Security Case explicitly rates for firearms alongside cash, jewelry, and documents, with a genuine mechanical combination lock." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-safes-with-keypads", title: "Best Small Safes With Keypads (2026)" },
   { href: "/guide/best-small-safes-with-keys", title: "Best Small Safes With Keys (2026)" },
-  { href: "/guide/best-portable-small-safes", title: "Best Portable Small Safes (2026)" },
+  { href: "/guide/best-portable-small-safes", title: "Best Portable Small Safes (2026)" }
 ];

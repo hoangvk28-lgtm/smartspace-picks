@@ -5,7 +5,7 @@ export const metaDescription = "Seven electric kettles priced at $30 or less, fr
 export const mainKeyword = "electric kettle under $30";
 export const introParagraphs = [
   "Thirty dollars is enough for a kettle that does the one job well, which is boiling water and switching itself off. Where cheap kettles go wrong is in the details: plastic inside the lid, no boil-dry protection, or a wattage claim that does not match the pot size.",
-  "Every pick below is priced at $29.99 or less, and the price sets the order within each tier of size. We compared listed specs: capacity, wattage, interior material, protective shutoffs and footprint, and we left out anything that looked too thin to evaluate honestly. Expect a plainer feature set than the $50 tier, with temperature control mostly out of reach."
+  "Every pick below is priced at $30 or less, and the price sets the order within each tier of size. We compared listed specs: capacity, wattage, interior material, protective shutoffs and footprint, and we left out anything that looked too thin to evaluate honestly. Expect a plainer feature set than the $50 tier, with temperature control mostly out of reach."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -247,7 +247,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     "title": "Price ceiling",
-    "description": "Every pick had to list at $29.99 or less at the time of our research, so no tier-stretching."
+    "description": "Every pick had to list at under $30 or less at the time of our research, so no tier-stretching."
   },
   {
     "title": "Materials and safety",

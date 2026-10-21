@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Daisy chain expandability and longest battery life", "EMEET M0 Plus Conference Speaker and Microphone"],
         ["Simple touch-based call management", "CofunKool Conference Speaker and Microphone"],
         ["Simultaneous Bluetooth and USB connectivity", "AIRHUG Conference Speaker and Microphone"],
-        ["The lowest price with reliable dual-mode connectivity", "Cyber Acoustics SP-2000 USB Bluetooth Speakerphone"],
+        ["The lowest price with reliable dual-mode connectivity", "Cyber Acoustics SP-2000 USB Bluetooth Speakerphone"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $35", "Cyber Acoustics ($34.99)"],
-        ["Under $44", "AIRHUG ($43.99)"],
-        ["Under $46", "CofunKool ($45.99)"],
-        ["Under $50", "EMEET M0 Plus ($49.99)"],
+        ["Under $35", "Cyber Acoustics (under $35)"],
+        ["Under $44", "AIRHUG (under $45)"],
+        ["Under $46", "CofunKool (under $50)"],
+        ["Under $50", "EMEET M0 Plus (under $50)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Daisy Chain Expandable vs Single-Unit Only",
     cards: [
       { label: "Daisy chain expandable (EMEET M0 Plus)", text: "Lets you connect a second unit later to scale from a small huddle room to a 16-person meeting without buying an entirely new system." },
-      { label: "Single-unit only (CofunKool, AIRHUG, Cyber Acoustics)", text: "Covers smaller, fixed-size meeting scenarios without a built-in growth path, generally at a lower price." },
+      { label: "Single-unit only (CofunKool, AIRHUG, Cyber Acoustics)", text: "Covers smaller, fixed-size meeting scenarios without a built-in growth path, generally at a lower price." }
     ],
     note: "If your meeting sizes might grow over time, the EMEET M0 Plus's daisy chain option is worth the premium. If you only ever host small 1-on-1 or small group calls, any of the other three picks work fine.",
   },
@@ -140,7 +140,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Simultaneous Bluetooth and USB", "AIRHUG (both active at once)"],
         ["Switch between PC and phone with one button", "Cyber Acoustics"],
         ["USB-C with Bluetooth 5.0 dual mode", "EMEET M0 Plus"],
-        ["Simple USB plug and play only", "CofunKool"],
+        ["Simple USB plug and play only", "CofunKool"]
       ],
     },
   },
@@ -148,16 +148,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Home Office With Occasional Phone Calls Specifically",
     cards: [
       { label: "Look for", text: "A speakerphone that keeps both a Bluetooth phone connection and a USB computer connection active without requiring you to switch modes mid-call." },
-      { label: "In this comparison", text: "The AIRHUG pick's simultaneous Bluetooth and USB-C connection specifically avoids the need to switch modes between a phone call and a computer call." },
+      { label: "In this comparison", text: "The AIRHUG pick's simultaneous Bluetooth and USB-C connection specifically avoids the need to switch modes between a phone call and a computer call." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want daisy chain expansion and the longest battery life for growing meeting needs, where the EMEET M0 Plus delivers both at the top of this tier." },
-      { label: "Save if", text: "You just need reliable dual-mode connectivity for small calls, where the Cyber Acoustics pick covers that for about $15 less." },
+      { label: "Save if", text: "You just need reliable dual-mode connectivity for small calls, where the Cyber Acoustics pick covers that for about $15 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

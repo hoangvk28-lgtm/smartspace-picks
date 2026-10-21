@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital lab notebook";
 export const introParagraphs = [
   "Worth being direct about this upfront: none of the products in our verified research pool are specifically marketed as \"lab notebooks.\" A true digital lab notebook, often called an ELN or electronic lab notebook, is a specialized institutional software category with its own compliance, audit-trail, and record-keeping conventions for scientific and research use, and that category is not well-represented in this consumer Amazon research pass.",
-  "What we've included here are general-purpose digital notebooks that could reasonably serve informal lab note-taking needs, quick observations, sketches, or personal reference notes, but these are absolutely not compliance-grade ELN systems and should not be used where regulatory or institutional record-keeping requirements apply.",
+  "What we've included here are general-purpose digital notebooks that could reasonably serve informal lab note-taking needs, quick observations, sketches, or personal reference notes, but these are absolutely not compliance-grade ELN systems and should not be used where regulatory or institutional record-keeping requirements apply."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -78,7 +78,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Honest category limitation identified before selecting any products", description: "Confirmed upfront that no product in our verified research pool is marketed as a specialized electronic lab notebook (ELN) system, and framed this entire guide around that limitation rather than overstating suitability for regulated research use." },
   { title: "General-purpose note-taking features assessed for informal lab use only", description: "Evaluated organization, backup, and writing feel specifically for casual observation logging, not against compliance or audit-trail standards a true ELN system would need to meet." },
   { title: "Compliance and audit-trail absence explicitly disclosed per product", description: "Every pick description states plainly that the product lacks institutional record-keeping, tamper-evident timestamps, or regulatory certification." },
-  { title: "Backup reliability weighed as the most relevant informal-use factor", description: "Prioritized products that reduce the risk of losing casual lab observations to a lost or damaged notebook, the most practically relevant benefit for non-compliance personal use." },
+  { title: "Backup reliability weighed as the most relevant informal-use factor", description: "Prioritized products that reduce the risk of losing casual lab observations to a lost or damaged notebook, the most practically relevant benefit for non-compliance personal use." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -205,11 +205,11 @@ export const faq: FaqItem[] = [
   { q: "Are any of these products actual electronic lab notebook (ELN) systems?", a: "No, none of the products in this guide are marketed as compliance-grade ELN systems, they are general-purpose digital notebooks that could serve informal note-taking needs only." },
   { q: "Can I use a Rocketbook or reMarkable for official research documentation?", a: "Not for anything requiring regulatory or institutional compliance, these consumer products lack audit trails and tamper-evident timestamps that a true ELN system provides." },
   { q: "What should I use instead for compliance-grade lab documentation?", a: "Look into dedicated electronic lab notebook (ELN) software built for institutional and regulatory research record-keeping, a specialized category outside the scope of this consumer-focused guide." },
-  { q: "Is it safe to use these for personal, non-regulated lab notes?", a: "Yes, for personal reference notes, informal observations, or casual logging where losing the data would be inconvenient but not a compliance issue, these products work reasonably well." },
+  { q: "Is it safe to use these for personal, non-regulated lab notes?", a: "Yes, for personal reference notes, informal observations, or casual logging where losing the data would be inconvenient but not a compliance issue, these products work reasonably well." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks-for-note-taking", title: "Best Digital Notebooks for Note Taking (2026)" },
   { href: "/guide/best-digital-notebooks-with-cloud-sync", title: "Best Digital Notebooks with Cloud Sync (2026)" },
-  { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" },
+  { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" }
 ];

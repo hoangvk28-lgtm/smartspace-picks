@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/419vECwVvFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DY15GFNG?tag=deskfinds0d-20",
-    description: "Turns one USB-C port into 9: 4K@60Hz HDMI, Gigabit Ethernet, 100W PD charging, SD/TF card reader, and both USB-A and USB-C data ports at up to 10Gbps.\n\nA genuine step up from UGREEN's 6-in-1 Revodok with faster data transfer (10Gbps vs 5Gbps) and 4K@60Hz instead of 30Hz HDMI, at a comparable price point.\n\nThis pick is best for buyers who value 4K@60Hz HDMI output versus 30Hz on UGREEN's smaller hub along with 10Gbps data transfer speed, double the 6-in-1 model. The catch is that uSB-C port for charging only, no data/video passthrough, so decide if that's worth it at $28.98.",
+    description: "Turns one USB-C port into 9: 4K@60Hz HDMI, Gigabit Ethernet, 100W PD charging, SD/TF card reader, and both USB-A and USB-C data ports at up to 10Gbps.\n\nA genuine step up from UGREEN's 6-in-1 Revodok with faster data transfer (10Gbps vs 5Gbps) and 4K@60Hz instead of 30Hz HDMI, at a comparable price point.\n\nThis pick is best for buyers who value 4K@60Hz HDMI output versus 30Hz on UGREEN's smaller hub along with 10Gbps data transfer speed, double the 6-in-1 model. The catch is that uSB-C port for charging only, no data/video passthrough, so decide if that's worth it at under $30.",
     specs: ["9-in-1: 4K@60Hz HDMI, Gigabit Ethernet, 100W PD, SD/TF, 10Gbps USB","85W passthrough to host","10Gbps data transfer"],
     pros: ["4K@60Hz HDMI output versus 30Hz on UGREEN's smaller hub","10Gbps data transfer speed, double the 6-in-1 model","SD/TF card reader included for content workflows","Comparable price to the lower-spec 6-in-1 Revodok"],
     cons: ["USB-C port for charging only, no data/video passthrough","15W of the 100W input reserved for hub operation"],
@@ -178,23 +178,23 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $12.99",
+          "Under $15",
           "UGREEN USB-C to Ethernet Adapter (1Gbps)"
         ],
         [
-          "Around $17.98",
+          "Under $20",
           "UGREEN Revodok 6-in-1 USB-C Hub"
         ],
         [
-          "Around $25.99",
+          "Under $30",
           "UGREEN USB-C to Ethernet Adapter 2.5G"
         ],
         [
-          "Around $28.98",
+          "Under $30",
           "UGREEN Revodok Pro 9-in-1 USB-C Hub"
         ],
         [
-          "Around $34.99",
+          "Under $35",
           "UGREEN USB-C to Ethernet Adapter 5Gb"
         ]
       ]
@@ -249,10 +249,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "UGREEN USB-C to Ethernet Adapter (1Gbps) is aimed at buyers prioritizing 1gbps, driver-free on most oses, at $12.99."
+        "text": "UGREEN USB-C to Ethernet Adapter (1Gbps) is aimed at buyers prioritizing 1gbps, driver-free on most oses, at under $15."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -293,9 +293,9 @@ export const faq = [
   }
 ,
   { "q": "Out of everything compared here, which one should most buyers pick?", a: "UGREEN USB-C to Ethernet Adapter (1Gbps) is aimed at buyers prioritizing 1gbps, driver-free on most oses." },
-  { q: "Which pick offers the best value for a tight budget?", a: "UGREEN USB-C to Ethernet Adapter (1Gbps) is aimed at buyers prioritizing 1gbps, driver-free on most oses, and at $12.99 it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $12.99 to $34.99, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
-  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "UGREEN USB-C to Ethernet Adapter 5Gb is aimed at buyers prioritizing 5gb via rtl8157 chip. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
+  { q: "Which pick offers the best value for a tight budget?", a: "UGREEN USB-C to Ethernet Adapter (1Gbps) is aimed at buyers prioritizing 1gbps, driver-free on most oses, and at under $15 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $15 to $35, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "UGREEN USB-C to Ethernet Adapter 5Gb is aimed at buyers prioritizing 5gb via rtl8157 chip. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-usb-c-to-2-5gbe-ethernet-adapters","title":"8 Best USB-C to 2.5GbE Ethernet Adapters"},{"href":"/guide/best-5gbe-usb-c-ethernet-adapters","title":"5 Best 5GbE USB-C Ethernet Adapters"},{"href":"/guide/best-usb-c-multiport-adapters-with-ethernet","title":"7 Best USB-C Multiport Adapters With Ethernet"}];

@@ -266,7 +266,7 @@ export default async function BestChargingStationsForDeskPage() {
               { href: "#best-organizer", label: "Best with Organizer" },
               { href: "#best-budget", label: "Best Budget" },
               { href: "#buying-guide", label: "Buying guide" },
-              { href: "#faq", label: "FAQ" },
+              { href: "#faq", label: "FAQ" }
             ].map((item) => (
               <a key={item.href} href={item.href} className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors">
                 {item.label}
@@ -353,7 +353,7 @@ export default async function BestChargingStationsForDeskPage() {
               {[
                 { label: "USB-A", desc: "The older rectangular port. Still everywhere -- on older phones, accessories, cables -- but maxes out at around 18--22.5W for fast charging. If your charging cables are the old-style plug, you have USB-A devices." },
                 { label: "USB-C", desc: "The current standard. Most new phones, tablets, laptops, and accessories use USB-C. It supports USB Power Delivery (PD), which enables fast charging up to 240W on a single cable. If your newest devices use USB-C, prioritize stations with USB-C ports." },
-                { label: "Wireless (Qi / Qi2 / MagSafe)", desc: "Eliminates cables entirely for compatible devices. Qi2 is the current open standard at 15W -- identical speed to Apple MagSafe but works on any Qi2-certified phone. If you have an iPhone 12 or newer (or any Qi2-compatible phone), a wireless pad makes desk charging noticeably cleaner." },
+                { label: "Wireless (Qi / Qi2 / MagSafe)", desc: "Eliminates cables entirely for compatible devices. Qi2 is the current open standard at 15W -- identical speed to Apple MagSafe but works on any Qi2-certified phone. If you have an iPhone 12 or newer (or any Qi2-compatible phone), a wireless pad makes desk charging noticeably cleaner." }
               ].map((item) => (
                 <div key={item.label} className="flex gap-3 p-4 rounded-xl border border-border bg-white">
                   <span className="font-bold text-brand shrink-0 text-sm">{item.label}</span>
@@ -408,7 +408,7 @@ export default async function BestChargingStationsForDeskPage() {
                 { label: "Built-in cable channels or clips", desc: "on the station itself" },
                 { label: "Retractable cables", desc: "(like the Baseus Nomos) that eliminate loose cables entirely" },
                 { label: "Short (0.3m) charging cables", desc: "-- sold separately -- that keep connections tidy and close" },
-                { label: "Under-desk routing", desc: "-- if you mount the station under the desk, all cables go downward and are invisible from above" },
+                { label: "Under-desk routing", desc: "-- if you mount the station under the desk, all cables go downward and are invisible from above" }
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-2 text-sm text-ink-secondary">
                   <span className="w-1.5 h-1.5 rounded-full bg-brand mt-2 shrink-0" />
@@ -432,7 +432,7 @@ export default async function BestChargingStationsForDeskPage() {
               {[
                 { label: "Minimalist desks", desc: "Look for matte black, white, or wooden-accented chargers. The Baseus Nomos, Anker Prime, and UGREEN Nexode all come in clean matte finishes." },
                 { label: "Visible desks (video calls, client visits)", desc: "Avoid chargers with bright LED indicators or industrial-looking designs. Fanless models also eliminate the slight hum some units produce." },
-                { label: "Small desk aesthetic", desc: "Vertical tower chargers are neater-looking than flat hubs with multiple cables radiating outward." },
+                { label: "Small desk aesthetic", desc: "Vertical tower chargers are neater-looking than flat hubs with multiple cables radiating outward." }
               ].map((item, i) => (
                 <div key={i} className="p-4 rounded-xl border border-border bg-white">
                   <p className="font-bold text-ink text-sm mb-2">{item.label}</p>
@@ -481,7 +481,7 @@ export default async function BestChargingStationsForDeskPage() {
           <div className="grid sm:grid-cols-2 gap-4">
             {[
               { label: "Charging station", desc: "Charges your devices&apos; batteries. That's it." },
-              { label: "Docking station", desc: "Connects your laptop to monitors, Ethernet, USB peripherals, and also charges. Think of it as a hub for your entire desk setup." },
+              { label: "Docking station", desc: "Connects your laptop to monitors, Ethernet, USB peripherals, and also charges. Think of it as a hub for your entire desk setup." }
             ].map((item, i) => (
               <div key={i} className="p-3 rounded-lg border border-border bg-white">
                 <p className="font-bold text-ink text-sm mb-1">{item.label}</p>
@@ -502,7 +502,7 @@ export default async function BestChargingStationsForDeskPage() {
               { label: "Total wattage vs device mix", note: "Does the station's output actually cover a realistic combination of laptop + phone + tablets?" },
               { label: "Desk footprint", note: "Is the base footprint appropriate for small desks (under 40 inches), not just large home offices?" },
               { label: "Port mix and future compatibility", note: "USB-C PD, Qi2 wireless, and USB-A coverage for both current and legacy accessories." },
-              { label: "Build and thermal performance", note: "GaN efficiency, fanless operation, and temperature management under sustained multi-device load." },
+              { label: "Build and thermal performance", note: "GaN efficiency, fanless operation, and temperature management under sustained multi-device load." }
             ].map((c, i) => (
               <div key={i} className="flex items-start gap-2">
                 <span className="w-5 h-5 rounded-full bg-brand-muted text-brand flex items-center justify-center shrink-0 font-bold text-[10px] mt-0.5">{i + 1}</span>
@@ -538,7 +538,7 @@ export default async function BestChargingStationsForDeskPage() {
             {[
               { product: "Anker Prime 200W", verdict: "the all-around best pick: enough power for a laptop alongside multiple devices, all USB-C and USB-A ports covered, GaN-quiet, and a footprint that fits beside a keyboard without crowding the space.", href: "#best-overall" },
               { product: "Anker MagSafe 3-in-1 Qi2", verdict: "eliminates phone/watch/AirPods cables completely -- and goes on deep discount regularly.", href: "#best-wireless" },
-              { product: "Anker Nano 6-in-1", verdict: "delivers the most capability in the smallest footprint available.", href: "#best-compact" },
+              { product: "Anker Nano 6-in-1", verdict: "delivers the most capability in the smallest footprint available.", href: "#best-compact" }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
@@ -580,7 +580,7 @@ export default async function BestChargingStationsForDeskPage() {
               { href: "/guide/best-usb-hub-for-desk", title: "Best USB Hubs for Desk", desc: "Powered and bus-powered hubs for consolidating desk connections" },
               { href: "/guide/best-under-desk-cable-trays", title: "Best Under-Desk Cable Trays", desc: "Hide power strips and cables completely out of sight" },
               { href: "/guide/desk-setup-essentials", title: "Desk Setup Essentials", desc: "15 must-have items for any desk setup" },
-              { href: "/guide/small-desk-setup", title: "Small Desk Setup Ideas", desc: "15 smart ways to build a better compact workspace" },
+              { href: "/guide/small-desk-setup", title: "Small Desk Setup Ideas", desc: "15 smart ways to build a better compact workspace" }
             ].map((g) => (
               <Link prefetch={false} key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
                 <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">

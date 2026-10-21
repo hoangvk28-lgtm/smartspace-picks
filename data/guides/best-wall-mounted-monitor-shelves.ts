@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "wall-mounted monitor shelf";
 export const introParagraphs = [
   "A wall-mounted shelf is a genuinely different installation category from any desk-attached option, its real weight rating is tied to the wall material and anchoring method, not the shelf's own construction. A drywall-anchor-only installation supports meaningfully less weight than one anchored into a stud, a critical safety distinction worth understanding before mounting anything heavy.",
-  "This mount type is also more permanent and less renter-friendly than any desk-attached shelf, since repositioning after installation means new holes, and removal can leave patching work behind. Anyone in a rental should weigh that tradeoff honestly against the convenience of a shelf that never touches the desk surface at all.",
+  "This mount type is also more permanent and less renter-friendly than any desk-attached shelf, since repositioning after installation means new holes, and removal can leave patching work behind. Anyone in a rental should weigh that tradeoff honestly against the convenience of a shelf that never touches the desk surface at all."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,13 +26,13 @@ export const products: GuideProduct[] = [
     badge: "Best Wall-Adjacent Glass Corner Shelf",
     name: "Hemudu Clear Glass Monitor Riser, Triangle Desktop Corner Stand",
     price: "$22.95",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "3,636 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31hCjmkrRXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07DDBJHPT?tag=deskfinds0d-20",
-    description: "For buyers building a wall-adjacent corner setup rather than a true in-wall mount Built with a glass platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nIt earns the top spot in this comparison over Hemudu Clear Glass Monitor Riser with Height Adjustable Desktop Stand for one main reason. Solid 4.8-star rating with 3,636 ratings. On price, it comes in below Hemudu Clear Glass Monitor Riser with Height Adjustable Desktop Stand, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Glass build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["44 lbs rated capacity (evenly distributed)","glass construction","Priced at $22.95","3,636 ratings on Amazon"],
-    pros: ["Solid 4.8-star rating with 3,636 ratings","Glass build appropriate for this use case","Reasonable price at $22.95","A clear glass triangle riser that pairs well with a wall-mounted setup at the corner of a desk against the wall."],
+    description: "For buyers building a wall-adjacent corner setup rather than a true in-wall mount Built with a glass platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nIt earns the top spot in this comparison over Hemudu Clear Glass Monitor Riser with Height Adjustable Desktop Stand for one main reason. On price, it comes in below Hemudu Clear Glass Monitor Riser with Height Adjustable Desktop Stand, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Glass build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","glass construction","Priced under $25"],
+    pros: ["Glass build appropriate for this use case","Reasonable price at under $25","A clear glass triangle riser that pairs well with a wall-mounted setup at the corner of a desk against the wall."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A clear glass triangle riser that pairs well with a wall-mounted setup at the corner of a desk against the wall.",
   },
@@ -42,13 +42,13 @@ export const products: GuideProduct[] = [
     badge: "Best Height-Adjustable Wall-Adjacent Shelf",
     name: "Hemudu Clear Glass Monitor Riser with Height Adjustable Desktop Stand",
     price: "$29.99",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "2,507 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21eXbRxogUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B071G5KX3X?tag=deskfinds0d-20",
-    description: "For buyers wanting height flexibility in a wall-adjacent desk arrangement Built with a glass platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nOne spot below Hemudu Clear Glass Monitor Riser in this ranking, it costs more than Hemudu Clear Glass Monitor Riser. The compromise here is straightforward: Rated capacity assumes evenly distributed weight, not a single point load. What you gain in return: Solid 4.8-star rating with 2,507 ratings. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Glass build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["44 lbs rated capacity (evenly distributed)","glass construction","Priced at $29.99","2,507 ratings on Amazon"],
-    pros: ["Solid 4.8-star rating with 2,507 ratings","Glass build appropriate for this use case","Reasonable price at $29.99","A clear glass height-adjustable riser suited to sitting against a wall-backed desk setup."],
+    description: "For buyers wanting height flexibility in a wall-adjacent desk arrangement Built with a glass platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nOne spot below Hemudu Clear Glass Monitor Riser in this ranking, it costs more than Hemudu Clear Glass Monitor Riser. The compromise here is straightforward: Rated capacity assumes evenly distributed weight, not a single point load. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Glass build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","glass construction","Priced under $30"],
+    pros: ["Glass build appropriate for this use case","Reasonable price at under $30","A clear glass height-adjustable riser suited to sitting against a wall-backed desk setup."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A clear glass height-adjustable riser suited to sitting against a wall-backed desk setup.",
   },
@@ -58,13 +58,13 @@ export const products: GuideProduct[] = [
     badge: "Best Lightweight Option for a Wall-Adjacent Setup",
     name: "AMT Premium Acrylic Clear Monitor Riser for Home Office",
     price: "$21.39",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "2,613 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31U1QumsMxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B083JYX48S?tag=deskfinds0d-20",
-    description: "For buyers wanting a light, unobtrusive option near a wall-backed desk Built with a acrylic platform rated to 20 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nSitting just under Hemudu Clear Glass Monitor Riser with Height Adjustable Desktop Stand, it's priced lower than Hemudu Clear Glass Monitor Riser with Height Adjustable Desktop Stand. Here's the honest tradeoff: Rated capacity assumes evenly distributed weight, not a single point load. And here's what it gets you instead: Solid 4.7-star rating with 2,613 ratings. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Acrylic build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["20 lbs rated capacity (evenly distributed)","acrylic construction","Priced at $21.39","2,613 ratings on Amazon"],
-    pros: ["Solid 4.7-star rating with 2,613 ratings","Acrylic build appropriate for this use case","Reasonable price at $21.39","A slim acrylic riser suited to a minimal wall-adjacent desk corner."],
+    description: "For buyers wanting a light, unobtrusive option near a wall-backed desk Built with a acrylic platform rated to 20 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nSitting just under Hemudu Clear Glass Monitor Riser with Height Adjustable Desktop Stand, it's priced lower than Hemudu Clear Glass Monitor Riser with Height Adjustable Desktop Stand. Here's the honest tradeoff: Rated capacity assumes evenly distributed weight, not a single point load. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Acrylic build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["20 lbs rated capacity (evenly distributed)","acrylic construction","Priced under $25"],
+    pros: ["Acrylic build appropriate for this use case","Reasonable price at under $25","A slim acrylic riser suited to a minimal wall-adjacent desk corner."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A slim acrylic riser suited to a minimal wall-adjacent desk corner.",
   },
@@ -74,13 +74,13 @@ export const products: GuideProduct[] = [
     badge: "Best Larger Option for a Wall-Adjacent Desk Corner",
     name: "GoldOrcle Acrylic Monitor Stand Riser, Clear Computer Monitor Stand (Big)",
     price: "$25.99",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "603 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41iqiC3V+BL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BHNVC7HN?tag=deskfinds0d-20",
-    description: "For buyers with a larger monitor near a wall-backed desk wanting extra platform size Built with a acrylic platform rated to 22 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nRanked just behind AMT Premium Acrylic Clear Monitor Riser for Home Office, it costs more than AMT Premium Acrylic Clear Monitor Riser for Home Office. The real tradeoff against that pick: Rated capacity assumes evenly distributed weight, not a single point load. In exchange, it offers this instead: Solid 4.8-star rating with 603 ratings. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Acrylic build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
-    specs: ["22 lbs rated capacity (evenly distributed)","acrylic construction","Priced at $25.99","603 ratings on Amazon"],
-    pros: ["Solid 4.8-star rating with 603 ratings","Acrylic build appropriate for this use case","Reasonable price at $25.99","A larger clear acrylic riser suited to a bigger monitor in a wall-adjacent desk arrangement."],
+    description: "For buyers with a larger monitor near a wall-backed desk wanting extra platform size Built with a acrylic platform rated to 22 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nRanked just behind AMT Premium Acrylic Clear Monitor Riser for Home Office, it costs more than AMT Premium Acrylic Clear Monitor Riser for Home Office. The real tradeoff against that pick: Rated capacity assumes evenly distributed weight, not a single point load. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Acrylic build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["22 lbs rated capacity (evenly distributed)","acrylic construction","Priced under $30"],
+    pros: ["Acrylic build appropriate for this use case","Reasonable price at under $30","A larger clear acrylic riser suited to a bigger monitor in a wall-adjacent desk arrangement."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A larger clear acrylic riser suited to a bigger monitor in a wall-adjacent desk arrangement.",
   }
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Wall material and anchoring weight rating clarified", description: "Emphasized that a true wall-mounted shelf's real safe weight is tied to wall material and anchoring method, not the shelf's own construction rating." },
   { title: "Stud versus drywall-anchor safety distinguished", description: "Flagged the critical safety difference between a drywall-anchor-only installation and one anchored into a stud." },
   { title: "Renter-friendliness and removal damage considered", description: "Weighted the more permanent nature of wall mounting, including new holes for repositioning and patching needed on removal." },
-  { title: "Desk-adjacent alternatives noted where relevant", description: "Distinguished true stud-anchored wall-mount brackets from desk-corner risers that simply sit near a wall-backed setup." },
+  { title: "Desk-adjacent alternatives noted where relevant", description: "Distinguished true stud-anchored wall-mount brackets from desk-corner risers that simply sit near a wall-backed setup." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -172,23 +172,19 @@ export const howToChoose: HowToChooseSection[] = [
       {
         "label": "Look for",
         "text": "A stated weight capacity with real margin above your monitor's actual weight, a rigid material like metal or thick wood, and a wide enough platform to support the monitor's full base without overhang."
-      },
-      {
-        "label": "In this comparison",
-        "text": "Hemudu Clear Glass Monitor Riser with Height Adjustable Desktop Stand fits this specifically: Solid 4.8-star rating with 2,507 ratings."
       }
-    ]
+      ]
   },
   {
     "subheading": "When to Spend More",
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want what Hemudu Clear Glass Monitor Riser with Height Adjustable Desktop Stand offers: Solid 4.8-star rating with 2,507 ratings. That's a real functional upgrade over the budget picks here, not just a brand markup."
+        "text": "That's a real functional upgrade over the budget picks here, not just a brand markup."
       },
       {
         "label": "Save if",
-        "text": "AMT Premium Acrylic Clear Monitor Riser for Home Office already covers the essentials: Solid 4.7-star rating with 2,613 ratings. The main thing you'd be paying extra for elsewhere in this list is capacity or storage you may not need."
+        "text": "The main thing you'd be paying extra for elsewhere in this list is capacity or storage you may not need."
       }
     ]
   }
@@ -221,11 +217,11 @@ export const faq: FaqItem[] = [
   { q: "Is a wall-mounted monitor shelf safe on drywall alone?", a: "It supports meaningfully less weight than a stud-anchored installation, locate studs before mounting anything with real weight on it." },
   { q: "Can I move a wall-mounted shelf after installing it?", a: "You can, but repositioning means new holes, and removal can leave patching work behind, a real consideration for renters." },
   { q: "Does the shelf's own weight rating matter for a wall mount?", a: "Less than you'd think, the wall material and anchoring method usually set the real safe capacity, not just the shelf's own construction." },
-  { q: "Is a wall-mounted shelf better than a clamp-on one?", a: "It depends on your situation, wall mounting is more permanent and not ideal for renters, while a clamp-on shelf avoids wall damage entirely." },
+  { q: "Is a wall-mounted shelf better than a clamp-on one?", a: "It depends on your situation, wall mounting is more permanent and not ideal for renters, while a clamp-on shelf avoids wall damage entirely." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-floating-monitor-shelves", title: "Best Floating Monitor Shelves (2026)" },
   { href: "/guide/best-clamp-on-monitor-shelves", title: "Best Clamp-On Monitor Shelves (2026)" },
-  { href: "/guide/best-corner-monitor-shelves", title: "Best Corner Monitor Shelves (2026)" },
+  { href: "/guide/best-corner-monitor-shelves", title: "Best Corner Monitor Shelves (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "best vertical mice for small hands";
 export const introParagraphs = [
   "Most vertical mice are sized for an average to large hand, and dedicated small-hand-specific variants are genuinely less common than standard-size options. It's a mistake to assume any mouse labeled 'ergonomic' automatically accommodates smaller hands, since body length, width, and height vary a lot between models marketed identically. We looked specifically for products with a genuinely smaller body or explicit small/medium hand sizing rather than assuming a standard-size mouse will simply feel fine.",
-  "Even on an otherwise size-reduced body, the scroll wheel's size and reach position can remain awkward for smaller hands, so we checked that component separately rather than assuming a smaller overall body automatically fixes scroll wheel reach too. If your hands are on the smaller end and you also want maximum portability, there's real overlap with our compact travel vertical mice guide, worth checking as well.",
+  "Even on an otherwise size-reduced body, the scroll wheel's size and reach position can remain awkward for smaller hands, so we checked that component separately rather than assuming a smaller overall body automatically fixes scroll wheel reach too. If your hands are on the smaller end and you also want maximum portability, there's real overlap with our compact travel vertical mice guide, worth checking as well."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,12 +26,12 @@ export const products: GuideProduct[] = [
     badge: "Explicitly Sized for Small to Medium Hands",
     name: "Luhaso Ergonomic Vertical Wireless Mouse, 57 degree, Small/Medium Hands",
     price: "$19.99",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "57 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31ttLEqu0hL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GNMPGM7G?tag=deskfinds0d-20",
     description:
-      "Explicitly marketed and sized for small to medium hands, which is a genuine differentiator in a category where most products are built around an average to large hand.\n\nThe review base is small, so weigh the very strong 4.7-star rating against the limited sample size and check current buyer feedback specifically on scroll wheel reach before buying.\n\nWorth calling out specifically: very strong review rating. The catch is small review sample size, verify current feedback.",
+      "Explicitly marketed and sized for small to medium hands, which is a genuine differentiator in a category where most products are built around an average to large hand.\n\nWorth calling out specifically: very strong review rating. The catch is small review sample size, verify current feedback.",
     specs: ["Explicit small/medium hand sizing", "57-degree tilt angle", "Wireless connectivity", "Budget price point"],
     pros: ["Genuinely marketed and sized for small to medium hands", "Very strong review rating", "Budget-friendly price", "Disclosed tilt angle"],
     cons: ["Small review sample size, verify current feedback", "Scroll wheel reach not independently confirmed", "Less established brand track record than premium picks"],
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Premium Pick",
     name: "Logitech Lift Vertical Ergonomic Wireless Mouse",
     price: "$57.40",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "13,635 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31nb5ALnDvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09J1TB35S?tag=deskfinds0d-20",
     description:
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Compact Pick",
     name: "ProtoArc EM11 NL Wireless Ergonomic Vertical Mouse, Rechargeable",
     price: "$22.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "5,670 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31PGrLfkUxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CX18LHWS?tag=deskfinds0d-20",
     description:
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Mid-Size Value Pick",
     name: "Lekvey Ergonomic Mouse, Rechargeable Vertical Wireless Mouse",
     price: "$24.98",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "15,431 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31rCoH07kzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07BFCVJZC?tag=deskfinds0d-20",
     description:
@@ -94,15 +94,15 @@ export const products: GuideProduct[] = [
     badge: "Best Ultra-Budget Compact Pick",
     name: "KUNSI Wired Ergonomic Mouse, USB Wired Vertical Mouse with adjustable DPI",
     price: "$9.99",
-    rating: "4.1 stars from Amazon ratings",
-    reviews: "181 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41VQ8m4r1iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F4JNS3PX?tag=deskfinds0d-20",
     description:
-      "The lowest price in this guide, with a compact wired body and adjustable DPI, a genuine option for buyers with smaller hands who want to try a vertical grip without much financial commitment.\n\nIts 4.1-star rating is more moderate than the other picks here, so weigh the very low price against a smaller review sample and less established brand track record.\n\nCompact body suits smaller hands. On the other hand, more moderate 4.1-star rating than other picks. Both are worth keeping in mind before deciding.",
+      "The lowest price in this guide, with a compact wired body and adjustable DPI, a genuine option for buyers with smaller hands who want to try a vertical grip without much financial commitment.\n\nCompact body suits smaller hands. Both are worth keeping in mind before deciding.",
     specs: ["Wired USB connection", "Adjustable DPI", "Compact ergonomic body", "Ultra-budget price point"],
     pros: ["Lowest price in this guide", "Compact body suits smaller hands", "Adjustable DPI even at this price tier", "No battery weight"],
-    cons: ["More moderate 4.1-star rating than other picks", "Smaller review sample size", "Less established brand track record"],
+    cons: [ "Smaller review sample size", "Less established brand track record"],
     bestFor: "Buyers with smaller hands who want the cheapest possible way to try a compact vertical mouse.",
   },
   {
@@ -111,8 +111,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wired Compact Value Pick",
     name: "Anker USB Wired Vertical Mouse, Ergonomic Mouse for Computer and Laptop",
     price: "$25.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "9,039 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41h3oxMYtPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00FPAVUHC?tag=deskfinds0d-20",
     description:
@@ -128,8 +128,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Wired Pick",
     name: "TECKNET Wired Mouse, Comfortable Ergonomic Mouse with 6400 DPI",
     price: "$19.19",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "3,694 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31vAjZuq+pL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CMC1F5WB?tag=deskfinds0d-20",
     description:
@@ -138,7 +138,7 @@ export const products: GuideProduct[] = [
     pros: ["Strong review rating at a low price", "Adjustable DPI sensor", "No battery weight", "Compact footprint"],
     cons: ["Not explicitly marketed as small-hand-specific", "Scroll wheel reach not independently confirmed", "No wireless option"],
     bestFor: "Budget-conscious buyers with smaller hands who want an adjustable-DPI wired mouse.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -146,7 +146,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine body size checked, not assumed from ergonomic labeling", description: "We verified which picks are explicitly marketed or sized for small to medium hands rather than assuming any ergonomic mouse fits smaller hands." },
   { title: "Actual reach to buttons and scroll wheel considered separately", description: "We treated scroll wheel and button reach as a separate consideration from overall body size, since a smaller body doesn't always fix scroll wheel position." },
   { title: "Availability of dedicated small-hand variants disclosed transparently", description: "We were transparent that dedicated small-hand-specific vertical mice are less common than standard-size options in this category." },
-  { title: "Overlap with compact travel mice noted where relevant", description: "We flagged the overlap between small-hand-friendly sizing and compact travel-focused mice for buyers prioritizing both." },
+  { title: "Overlap with compact travel mice noted where relevant", description: "We flagged the overlap between small-hand-friendly sizing and compact travel-focused mice for buyers prioritizing both." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -273,11 +273,11 @@ export const faq: FaqItem[] = [
   { q: "Do all vertical mice fit smaller hands comfortably?", a: "No, most are sized for average to large hands. Look for explicit small or medium hand sizing rather than assuming a general ergonomic label fits your hand size." },
   { q: "Is scroll wheel reach an issue for smaller hands even on a compact mouse?", a: "It can be. A smaller overall body doesn't guarantee comfortable scroll wheel placement, so check buyer feedback on that component specifically." },
   { q: "Are there many vertical mice designed specifically for small hands?", a: "Not many. Dedicated small-hand-specific variants are less common than standard-size options in this category." },
-  { q: "Should I look at compact travel mice too if I have small hands?", a: "Yes, there's meaningful overlap in body size between small-hand-friendly mice and compact travel-focused mice, worth checking both guides." },
+  { q: "Should I look at compact travel mice too if I have small hands?", a: "Yes, there's meaningful overlap in body size between small-hand-friendly mice and compact travel-focused mice, worth checking both guides." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-vertical-mice-for-large-hands", title: "Best Vertical Mice for Large Hands in 2026" },
   { href: "/guide/best-compact-vertical-mice-for-travel", title: "Best Compact Vertical Mice for Travel in 2026" },
-  { href: "/guide/best-ergonomic-vertical-mice", title: "Best Ergonomic Vertical Mice in 2026" },
+  { href: "/guide/best-ergonomic-vertical-mice", title: "Best Ergonomic Vertical Mice in 2026" }
 ];

@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41vtBGy11EL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0B8N7GD92?tag=deskfinds0d-20",
-    "description": "uncn runs on a 3.7V 3000 mAh battery and lists up to 3 hours of warmth, with two settings at 130F and 113F. The gloves weigh about 180 grams, have an elastic fabric, finger pull-tabs and an adjustable velcro wrist closure.\n\nCompared with Huaerle, it has a larger battery but fewer heat levels and a shorter stated runtime, which reflects hotter output. It costs $39.99 against Huaerle's $27.99.\n\nGood for people who want a roomier battery and a firm wrist fit. The caveat is that 130F is hot for hours of skin contact, and the listing's three hour runtime is only on a full charge.",
+    "description": "uncn runs on a 3.7V 3000 mAh battery and lists up to 3 hours of warmth, with two settings at 130F and 113F. The gloves weigh about 180 grams, have an elastic fabric, finger pull-tabs and an adjustable velcro wrist closure.\n\nCompared with Huaerle, it has a larger battery but fewer heat levels and a shorter stated runtime, which reflects hotter output. It costs under $40 against Huaerle's under $30.\n\nGood for people who want a roomier battery and a firm wrist fit. The caveat is that 130F is hot for hours of skin contact, and the listing's three hour runtime is only on a full charge.",
     "specs": [
       "3.7V 3000 mAh, up to 3 hours",
       "130F high, 113F low",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41nljZT0aCL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FL1NDL23?tag=deskfinds0d-20",
-    "description": "LipLopBest charges over Type-C and has a digital display with three levels at 45, 50 and 55 degrees C. The Lycra fabric is windproof and heats the palm evenly.\n\nIt is nearly the same price as Huaerle at $26.99, but its runtime text is garbled in the listing, so we cannot report a reliable figure. Against uncn, you get the display and Type-C but no stated battery capacity.\n\nChoose it if a digital readout and a modern charge port matter. The caveat is the unclear runtime and capacity, which makes planning a full workday harder.",
+    "description": "LipLopBest charges over Type-C and has a digital display with three levels at 45, 50 and 55 degrees C. The Lycra fabric is windproof and heats the palm evenly.\n\nIt is nearly the same price as Huaerle at under $30, but its runtime text is garbled in the listing, so we cannot report a reliable figure. Against uncn, you get the display and Type-C but no stated battery capacity.\n\nChoose it if a digital readout and a modern charge port matter. The caveat is the unclear runtime and capacity, which makes planning a full workday harder.",
     "specs": [
       "Type-C charging",
       "45, 50 or 55 degrees C",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41ajJ8uf9lL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H4GPC7SW?tag=deskfinds0d-20",
-    "description": "Sintege includes two pairs in black and light gray, powered by a standard 5V USB connection from a power bank, laptop port or wall adapter. The half-finger design leaves the fingertips free and a button lets you open the glove.\n\nIt costs $18.99 for two pairs, undercutting the battery models, but heat stops when you unplug it. Against SATINIOR below, it is similar but states less about temperature.\n\nBest for a desk where a USB port is always handy. The caveat is that the listing gives no temperature or wattage, and a laptop port may supply less current than a wall charger.",
+    "description": "Sintege includes two pairs in black and light gray, powered by a standard 5V USB connection from a power bank, laptop port or wall adapter. The half-finger design leaves the fingertips free and a button lets you open the glove.\n\nIt costs under $20 for two pairs, undercutting the battery models, but heat stops when you unplug it. Against SATINIOR below, it is similar but states less about temperature.\n\nBest for a desk where a USB port is always handy. The caveat is that the listing gives no temperature or wattage, and a laptop port may supply less current than a wall charger.",
     "specs": [
       "2 pairs, 5V USB",
       "Works with power bank or laptop",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41DNgBURhsL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B07KN8TTSM?tag=deskfinds0d-20",
-    "description": "HoFire is a wool knit USB glove with a removable heating pad and a 5 foot USB cable. It plugs into a laptop, wall adapter or power bank, and the pad comes out so the glove can be cleaned.\n\nAt $9.99 it is the cheapest heated pair, and the long cable gives more room than the shorter cords on rivals. Against Sintege, it offers one pair instead of two but a removable pad.\n\nBest for a trial purchase on a tight budget. The caveat is that the listing gives no temperature, power or timer data, so it is the least documented option.",
+    "description": "HoFire is a wool knit USB glove with a removable heating pad and a 5 foot USB cable. It plugs into a laptop, wall adapter or power bank, and the pad comes out so the glove can be cleaned.\n\nAt under $10 it is the cheapest heated pair, and the long cable gives more room than the shorter cords on rivals. Against Sintege, it offers one pair instead of two but a removable pad.\n\nBest for a trial purchase on a tight budget. The caveat is that the listing gives no temperature, power or timer data, so it is the least documented option.",
     "specs": [
       "USB powered, 5 foot cable",
       "Removable heating pad",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41+YOkvYWfL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0H82ZFB76?tag=deskfinds0d-20",
-    "description": "JS LifeStyle lists a 7.7V 2400 mAh battery in a thin fingerless design with a flip cover that traps heat around the hands. The listing recommends it for indoor use.\n\nIt costs $99.99, about $60 more than uncn, yet gives fewer stated features: no temperature levels or runtime. Against every other pick, the flip cover is its distinct trait.\n\nChoose it only if you want a premium build and a flip cover. The caveat is the price and the thin spec sheet, so confirm heat levels and battery life with the seller.",
+    "description": "JS LifeStyle lists a 7.7V 2400 mAh battery in a thin fingerless design with a flip cover that traps heat around the hands. The listing recommends it for indoor use.\n\nIt costs under $100, about $60 more than uncn, yet gives fewer stated features: no temperature levels or runtime. Against every other pick, the flip cover is its distinct trait.\n\nChoose it only if you want a premium build and a flip cover. The caveat is the price and the thin spec sheet, so confirm heat levels and battery life with the seller.",
     "specs": [
       "7.7V 2400 mAh battery",
       "Flip cover traps heat",
@@ -263,7 +263,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     "title": "Value for price",
-    "description": "Prices from $9.99 to $99.99 were compared against what each listing documents."
+    "description": "Prices from roughly $10 to $100 were compared against what each listing documents."
   }
 ];
 

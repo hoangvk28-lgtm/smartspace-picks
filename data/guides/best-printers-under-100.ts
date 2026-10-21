@@ -5,7 +5,7 @@ export const metaDescription = "5 best printers under $100 in 2026, all verified
 export const mainKeyword = "printers under $100";
 export const introParagraphs = [
   "A printer under $100 can absolutely handle everyday home or light office printing, but the price tag hides a real tradeoff most listings never explain: the sticker price is rarely the true first-year cost once ink is factored in, and features like duplex printing or an automatic document feeder are often cut entirely to hit this price point.",
-  "Below are 5 printers we evaluated that genuinely sell under $100, ranked on true running cost, honest feature disclosure, and realistic lifespan expectations rather than sticker price alone.",
+  "Below are 5 printers we evaluated that genuinely sell under $100, ranked on true running cost, honest feature disclosure, and realistic lifespan expectations rather than sticker price alone."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "8 min";
@@ -50,24 +50,24 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "The DeskJet 4355 covers print, scan, and copy in one compact unit at a budget-friendly price, with a 3-month Instant Ink trial included to soften the early cartridge cost that hits every budget inkjet eventually. Wireless setup connects it to a home network without extra cabling. At this price, expect a single combined color cartridge design common to entry printers, meaning printing any single color still draws down the whole cartridge. It's a solid fit for light home printing but plan for standard cartridge pricing once the trial ends. Instant Ink trial offsets early ink cost. Set against that, combined color cartridge raises cost once any single color runs low. Both matter when comparing it to the other picks here.\n\nThis pick is best for buyers who value lowest-priced all-in-one in this list with scan and copy along with instant Ink trial offsets early ink cost. The catch is that combined color cartridge raises cost once any single color runs low, so decide if that's worth it at $69.99.",
+      "The DeskJet 4355 covers print, scan, and copy in one compact unit at a budget-friendly price, with a 3-month Instant Ink trial included to soften the early cartridge cost that hits every budget inkjet eventually. Wireless setup connects it to a home network without extra cabling. At this price, expect a single combined color cartridge design common to entry printers, meaning printing any single color still draws down the whole cartridge. It's a solid fit for light home printing but plan for standard cartridge pricing once the trial ends. Instant Ink trial offsets early ink cost. Set against that, combined color cartridge raises cost once any single color runs low. Both matter when comparing it to the other picks here.\n\nThis pick is best for buyers who value lowest-priced all-in-one in this list with scan and copy along with instant Ink trial offsets early ink cost. The catch is that combined color cartridge raises cost once any single color runs low, so decide if that's worth it at under $70.",
     specs: [
       "Color inkjet all-in-one: print, scan, copy",
       "3-month Instant Ink trial included",
       "Wireless printing",
       "Compact home-office footprint",
-      "AI-capable printing features",
+      "AI-capable printing features"
     ],
     pros: [
       "Lowest-priced all-in-one in this list with scan and copy",
       "Instant Ink trial offsets early ink cost",
       "Simple wireless setup",
-      "Compact enough for a small desk",
+      "Compact enough for a small desk"
     ],
     cons: [
       "Combined color cartridge raises cost once any single color runs low",
       "No automatic duplex printing",
-      "Cartridge cost rises after the Instant Ink trial ends",
+      "Cartridge cost rises after the Instant Ink trial ends"
     ],
     bestFor: "Light home printing where budget matters more than advanced features",
   },
@@ -82,24 +82,24 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21igSrZPOwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBGXC2C?tag=deskfinds0d-20",
     description:
-      "The PIXMA TS4320 is the cheapest printer in this list that still includes automatic duplex printing, a feature many budget-tier printers cut entirely to hit their price point. That alone cuts paper use roughly in half for anyone regularly printing multi-page documents. Scan and copy round out the feature set in a compact design built for easy home setup. Expect the typical entry-tier lifespan of 2 to 3 years of steady use rather than the 5-plus years a mid-tier model can offer, a fair tradeoff at this price. A genuine advantage here is that full print, scan, copy function set. The tradeoff is entry-tier build quality, expect 2-3 years of steady use.\n\nWhat stands out here is automatic duplex printing at the lowest price in this list, plus full print, scan, copy function set. The main tradeoff: entry-tier build quality, expect 2-3 years of steady use, so weigh that against the $64.00 price before buying.",
+      "The PIXMA TS4320 is the cheapest printer in this list that still includes automatic duplex printing, a feature many budget-tier printers cut entirely to hit their price point. That alone cuts paper use roughly in half for anyone regularly printing multi-page documents. Scan and copy round out the feature set in a compact design built for easy home setup. Expect the typical entry-tier lifespan of 2 to 3 years of steady use rather than the 5-plus years a mid-tier model can offer, a fair tradeoff at this price. A genuine advantage here is that full print, scan, copy function set. The tradeoff is entry-tier build quality, expect 2-3 years of steady use.\n\nWhat stands out here is automatic duplex printing at the lowest price in this list, plus full print, scan, copy function set. The main tradeoff: entry-tier build quality, expect 2-3 years of steady use, so weigh that against the under $70 price before buying.",
     specs: [
       "Color inkjet all-in-one: print, scan, copy",
       "Automatic duplex (2-sided) printing",
       "Wireless printing",
       "Compact design",
-      "Easy setup process",
+      "Easy setup process"
     ],
     pros: [
       "Automatic duplex printing at the lowest price in this list",
       "Full print, scan, copy function set",
       "Simple setup for first-time buyers",
-      "1-year limited warranty included",
+      "1-year limited warranty included"
     ],
     cons: [
       "Entry-tier build quality, expect 2-3 years of steady use",
       "Combined color cartridge design",
-      "No automatic document feeder",
+      "No automatic document feeder"
     ],
     bestFor: "Home users who print double-sided documents regularly on a tight budget",
   },
@@ -114,24 +114,24 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415PuxvZ1wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXKNB9?tag=deskfinds0d-20",
     description:
-      "The PIXMA TR4720 is the rare budget-tier printer that keeps an automatic document feeder and built-in fax, two features most budget printers cut first. That makes it useful for anyone who still needs to scan or fax multi-page documents without paying for a mid-tier multifunction unit. Mobile printing rounds out a feature set that punches above its price, though as with any entry-tier printer, expect the tradeoffs common at this cost: a combined color cartridge and a shorter realistic lifespan than a competitive price-plus model. Full document workflow support for home offices. On the other hand, combined color cartridge design. Neither should be a surprise once you know to look for it.\n\nThe strongest case for this pick comes down to includes ADF and fax, rare at this price as well as full document workflow support for home offices. The compromise here is that combined color cartridge design, so factor that in alongside the $69.00 asking price.",
+      "The PIXMA TR4720 is the rare budget-tier printer that keeps an automatic document feeder and built-in fax, two features most budget printers cut first. That makes it useful for anyone who still needs to scan or fax multi-page documents without paying for a mid-tier multifunction unit. Mobile printing rounds out a feature set that punches above its price, though as with any entry-tier printer, expect the tradeoffs common at this cost: a combined color cartridge and a shorter realistic lifespan than a competitive price-plus model. Full document workflow support for home offices. On the other hand, combined color cartridge design. Neither should be a surprise once you know to look for it.\n\nThe strongest case for this pick comes down to includes ADF and fax, rare at this price as well as full document workflow support for home offices. The compromise here is that combined color cartridge design, so factor that in alongside the under $70 asking price.",
     specs: [
       "Color inkjet all-in-one: print, scan, copy, fax",
       "Automatic document feeder (ADF)",
       "Mobile printing support",
       "Wireless connectivity",
-      "Compact home-office design",
+      "Compact home-office design"
     ],
     pros: [
       "Includes ADF and fax, rare at this price",
       "Full document workflow support for home offices",
       "Wireless and mobile printing",
-      "Competitive price for the feature set",
+      "Competitive price for the feature set"
     ],
     cons: [
       "Combined color cartridge design",
       "No automatic duplex printing",
-      "Entry-tier build, expect 2-3 years of reliable use",
+      "Entry-tier build, expect 2-3 years of reliable use"
     ],
     bestFor: "Home offices that still need fax and document feeding on a budget",
   },
@@ -146,24 +146,24 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GFXE7NdOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00K5UZO0Q?tag=deskfinds0d-20",
     description:
-      "This is the only laser printer in this list, and it changes the true first-year cost math significantly since toner costs less per page than inkjet cartridges over time. It prints monochrome only, at up to 19 pages per minute, making it the fastest text printer here. It skips scan and copy entirely, print only, which is the tradeoff for staying at a budget-friendly price with laser toner economics. For anyone printing mostly text documents rather than color images, the higher upfront price relative to the inkjets here can still work out cheaper by the end of year one. Fastest print speed here for text documents. That's a real strength, but weigh it against the flip side: no scan or copy functions.\n\nWhere this one earns its spot is lowest true cost per page in this list thanks to toner, and fastest print speed here for text documents. Worth noting before buying: no scan or copy functions, which matters more at $87.99 than it would on a cheaper pick.",
+      "This is the only laser printer in this list, and it changes the true first-year cost math significantly since toner costs less per page than inkjet cartridges over time. It prints monochrome only, at up to 19 pages per minute, making it the fastest text printer here. It skips scan and copy entirely, print only, which is the tradeoff for staying at a budget-friendly price with laser toner economics. For anyone printing mostly text documents rather than color images, the higher upfront price relative to the inkjets here can still work out cheaper by the end of year one. Fastest print speed here for text documents. That's a real strength, but weigh it against the flip side: no scan or copy functions.\n\nWhere this one earns its spot is lowest true cost per page in this list thanks to toner, and fastest print speed here for text documents. Worth noting before buying: no scan or copy functions, which matters more at under $90 than it would on a cheaper pick.",
     specs: [
       "Monochrome laser engine, up to 19 PPM",
       "Print only, no scan or copy",
       "Wireless connectivity",
       "Compact footprint",
-      "1-year limited warranty",
+      "1-year limited warranty"
     ],
     pros: [
       "Lowest true cost per page in this list thanks to toner",
       "Fastest print speed here for text documents",
       "Compact for a laser printer",
-      "Toner doesn't dry out like idle inkjet cartridges",
+      "Toner doesn't dry out like idle inkjet cartridges"
     ],
     cons: [
       "No scan or copy functions",
       "No color output",
-      "Highest upfront price in this list, though often cheaper over a year of use",
+      "Highest upfront price in this list, though often cheaper over a year of use"
     ],
     bestFor: "Text-heavy home printing where first-year total cost matters most",
   },
@@ -178,27 +178,27 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21U5jLy1DeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBTJLX6?tag=deskfinds0d-20",
     description:
-      "The TS6520 adds a 1.42-inch OLED display and a more intuitive control panel than the other inkjets in this list, useful for anyone who finds tiny budget-printer screens frustrating to navigate. Duplex printing is included alongside scan and copy in a compact design. This is a well-rounded pick for home use that balances usability against the usual budget-tier tradeoffs, a combined color cartridge and a shorter expected lifespan than mid-tier models, but the clearer display genuinely improves day-to-day use. Worth calling out specifically: duplex printing included. The catch is combined color cartridge design.\n\nThis pick is best for buyers who value clearest, most intuitive display in this list along with duplex printing included. The catch is that combined color cartridge design, so decide if that's worth it at $74.00.",
+      "The TS6520 adds a 1.42-inch OLED display and a more intuitive control panel than the other inkjets in this list, useful for anyone who finds tiny budget-printer screens frustrating to navigate. Duplex printing is included alongside scan and copy in a compact design. This is a well-rounded pick for home use that balances usability against the usual budget-tier tradeoffs, a combined color cartridge and a shorter expected lifespan than mid-tier models, but the clearer display genuinely improves day-to-day use. Worth calling out specifically: duplex printing included. The catch is combined color cartridge design.\n\nThis pick is best for buyers who value clearest, most intuitive display in this list along with duplex printing included. The catch is that combined color cartridge design, so decide if that's worth it at under $80.",
     specs: [
       "Color inkjet all-in-one: print, scan, copy",
       "Automatic duplex printing",
       "1.42-inch OLED display",
       "Intuitive control panel",
-      "Compact design",
+      "Compact design"
     ],
     pros: [
       "Clearest, most intuitive display in this list",
       "Duplex printing included",
       "Full print, scan, copy function set",
-      "Compact footprint for a home desk",
+      "Compact footprint for a home desk"
     ],
     cons: [
       "Combined color cartridge design",
       "Entry-tier lifespan expectation, 2-3 years of steady use",
-      "No fax or document feeder",
+      "No fax or document feeder"
     ],
     bestFor: "Home users who want an easier-to-navigate control panel on a budget",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -226,7 +226,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Fit for light-to-moderate home use",
     description: "Assessed each pick against realistic home printing volume, occasional documents and photos, rather than sustained business-level output this price tier isn't built for.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -377,12 +377,12 @@ export const faq: FaqItem[] = [
     q: "Why do so many budget printers use one combined color cartridge?",
     a: "It's a common cost-cutting design at this price tier. A combined cartridge holds cyan, magenta, and yellow in one unit, so printing heavy amounts of a single color drains the whole cartridge faster than a separate-tank design would.",
   },
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Light home printing where budget matters more than advanced features" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Light home printing where budget matters more than advanced features" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-under-150", title: "Best Printers Under $150 (2026)" },
   { href: "/guide/best-printers-under-200", title: "Best Printers Under $200 (2026)" },
   { href: "/guide/best-budget-laser-printers", title: "Best Budget Laser Printers (2026)" },
-  { href: "/guide/best-printers-for-home-use", title: "Best Printers for Home Use (2026)" },
+  { href: "/guide/best-printers-for-home-use", title: "Best Printers for Home Use (2026)" }
 ];

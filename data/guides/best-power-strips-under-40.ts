@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Hub-free Alexa smart control over 6 outlets", "Amazon Basics Smart Plug Power Strip"],
         ["Genuine metal construction for a workshop", "CRST 8-Outlet Metal Power Strip with Individual Switches"],
         ["Smart control across Alexa and Google Home", "BN LINK Smart Plug Power Strip"],
-        ["The longest cord and most outlets at a lower price", "CRST 10-Outlet Heavy Duty Power Strip"],
+        ["The longest cord and most outlets at a lower price", "CRST 10-Outlet Heavy Duty Power Strip"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $29", "CRST 10-Outlet Heavy Duty ($28.99)"],
-        ["Under $38", "CRST 8-Outlet Metal ($37.99) or BN LINK Smart ($37.99)"],
-        ["Under $40", "Amazon Basics Smart Plug ($39.99)"],
+        ["Under $29", "CRST 10-Outlet Heavy Duty (under $30)"],
+        ["Under $38", "CRST 8-Outlet Metal (under $40) or BN LINK Smart (under $40)"],
+        ["Under $40", "Amazon Basics Smart Plug (under $40)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Smart WiFi Control vs Heavy-Duty Metal Construction",
     cards: [
       { label: "Smart WiFi (Amazon Basics, BN LINK)", text: "Lets you control outlets remotely through an app or voice assistant, ideal for home automation and scheduling." },
-      { label: "Heavy-duty metal (CRST picks)", text: "Prioritizes physical durability and individual switches over smart connectivity, built for workshops and garages." },
+      { label: "Heavy-duty metal (CRST picks)", text: "Prioritizes physical durability and individual switches over smart connectivity, built for workshops and garages." }
     ],
     note: "If home automation and remote control matter most, choose a smart pick. If physical durability in a harsh environment matters most, the CRST metal picks are purpose-built for that.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Alexa devices only", "Amazon Basics Smart Plug Power Strip"],
         ["Mixed Alexa and Google Home devices", "BN LINK Smart Plug Power Strip"],
-        ["No smart home ecosystem, just outlets", "Either CRST heavy-duty pick"],
+        ["No smart home ecosystem, just outlets", "Either CRST heavy-duty pick"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Garage or Workshop Setup Specifically",
     cards: [
       { label: "Look for", text: "A metal housing rated for impact and fire resistance, plus wide outlet spacing that accommodates bulky power tool chargers." },
-      { label: "In this comparison", text: "The CRST 8-Outlet Metal pick's aluminum alloy housing and 1.77 inch outlet spacing are specifically built for this kind of demanding environment." },
+      { label: "In this comparison", text: "The CRST 8-Outlet Metal pick's aluminum alloy housing and 1.77 inch outlet spacing are specifically built for this kind of demanding environment." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want individual switches on a genuine metal housing, where the CRST 8-Outlet pick offers real physical durability the cheaper 10-outlet CRST pick lacks." },
-      { label: "Save if", text: "You want a heavy-duty strip with the most outlets and longest cord without individual switches, where the CRST 10-Outlet pick covers that for about $9 less." },
+      { label: "Save if", text: "You want a heavy-duty strip with the most outlets and longest cord without individual switches, where the CRST 10-Outlet pick covers that for about $9 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -12,7 +12,7 @@ export const chairMatVsCasterUpgradeGuide: Guide = {
     "chair mat or new casters",
     "fix chair scratching floor",
     "chair rolling problem fix",
-    "caster replacement vs mat",
+    "caster replacement vs mat"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const chairMatVsCasterUpgradeGuide: Guide = {
     "chair-mat-types-explained",
     "office-chair-caster-types-explained",
     "carpet-vs-hardwood-desk-setup",
-    "chair-mat-size-guide",
+    "chair-mat-size-guide"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const chairMatVsCasterUpgradeGuide: Guide = {
       question: "Which fixes floor scratching more directly, a mat or casters?",
       answer:
         "A chair mat provides more direct, complete protection since it creates a physical barrier between any caster type and the floor, correct caster selection reduces scratching risk but doesn't eliminate it as completely as a mat's full physical barrier.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const chairMatVsCasterUpgradeGuide: Guide = {
     {
       heading: "Why Combining Both Often Produces the Best Result",
       body: `For a setup where both floor protection and rolling smoothness matter, using correctly matched casters on top of a quality chair mat addresses both concerns simultaneously, the mat protects the actual floor while the appropriate casters ensure smooth, comfortable movement across the mat's own surface. This combined approach costs more than either fix alone but produces a more complete solution than either the mat or the caster upgrade in isolation.`,
-    },
+    }
   ],
 };

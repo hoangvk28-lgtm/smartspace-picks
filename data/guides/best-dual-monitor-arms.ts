@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "monitor arm dual";
 export const introParagraphs = [
   "Most dual monitor arm buyers run two different-size monitors rather than a matched pair, which makes counterbalance the question nobody asks upfront. An arm rated for 22 lbs per side can still sag on the heavier of two mismatched panels if the pole and joint tension were tuned for even loads, and that gap between spec sheet and real-world balance is where most dual arm complaints come from.",
-  "Below are 8 dual monitor arms we evaluated on pole height, per-arm weight capacity, side-by-side versus vertical stacking configuration, and clamp footprint, ranging from a $34.99 VIVO desk mount to a $485 Ergotron LX Vertical Stacking arm, plus one heavy-duty single arm worth considering as a pair for buyers who decide two independent arms beat one dual bracket.",
+  "Below are 8 dual monitor arms we evaluated on pole height, per-arm weight capacity, side-by-side versus vertical stacking configuration, and clamp footprint, ranging from an under-$35 VIVO desk mount to a $485 Ergotron LX Vertical Stacking arm, plus one heavy-duty single arm worth considering as a pair for buyers who decide two independent arms beat one dual bracket."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -47,18 +47,18 @@ export const products: GuideProduct[] = [
       "7 to 20 lb capacity per arm",
       "Independent arm positioning",
       "VESA desk mount",
-      "Matte black finish",
+      "Matte black finish"
     ],
     pros: [
       "Independent arm movement per monitor",
       "Proven Ergotron gas spring reliability on both sides",
       "20 lb per-arm capacity handles most mid-size panels",
-      "Standard VESA desk mount",
+      "Standard VESA desk mount"
     ],
     cons: [
       "Most expensive standard-height pick in this list",
       "27\" per-side cap excludes larger ultrawide pairing",
-      "Two-arm gas spring setup costs more to retension over time than a single arm",
+      "Two-arm gas spring setup costs more to retension over time than a single arm"
     ],
     bestFor: "Buyers who want independent Ergotron-grade arms on both sides without buying two separate units",
   },
@@ -79,18 +79,18 @@ export const products: GuideProduct[] = [
       "7 to 22 lb capacity per monitor",
       "Vertical stacking configuration",
       "Tall pole design",
-      "Matte black finish",
+      "Matte black finish"
     ],
     pros: [
       "Only vertical stacking design in this list",
       "Saves horizontal desk space versus side-by-side",
       "22 lb per-monitor capacity handles larger panels",
-      "Tall pole supports up to 40\" monitors",
+      "Tall pole supports up to 40\" monitors"
     ],
     cons: [
-      "Highest price in this list at $485",
+      "Highest price in this list at under $500",
       "Tall pole needs real ceiling clearance",
-      "Not ideal for buyers who want side-by-side eye-level monitors",
+      "Not ideal for buyers who want side-by-side eye-level monitors"
     ],
     bestFor: "Narrow desks where stacking vertically saves more space than mounting side by side",
   },
@@ -111,18 +111,18 @@ export const products: GuideProduct[] = [
       "4.4 to 19.8 lb capacity per arm",
       "Full motion VESA 75x75/100x100",
       "C-clamp and grommet base included",
-      "Under $60",
+      "Under $60"
     ],
     pros: [
       "Strong value under $60",
       "Both clamp and grommet base included",
       "Full motion VESA compatibility",
-      "Fits a wide 13-32\" range",
+      "Fits a wide 13-32\" range"
     ],
     cons: [
       "19.8 lb per-arm cap is tight for a heavier monitor on one side",
       "Not rated for mismatched heavy-vs-light monitor pairs",
-      "Lighter-duty build than the Ergotron picks",
+      "Lighter-duty build than the Ergotron picks"
     ],
     bestFor: "Budget buyers running two similarly-sized standard monitors",
   },
@@ -143,18 +143,18 @@ export const products: GuideProduct[] = [
       "Max load 19.8 lbs per arm",
       "Tool-free MechaSpring mount",
       "Tilt, swivel, rotation",
-      "Under $45",
+      "Under $45"
     ],
     pros: [
       "Tool-free installation on both arms",
       "Full tilt, swivel, and rotation range",
       "Reasonable mid-budget price",
-      "Same proven FlowLift mounting hardware as the single-arm version",
+      "Same proven FlowLift mounting hardware as the single-arm version"
     ],
     cons: [
       "19.8 lb per-arm cap, same ceiling as the cheaper FlowLift Dual",
       "Not built for a mismatched heavy monitor pairing",
-      "MechaSpring tension may need more frequent checking than a gas spring arm",
+      "MechaSpring tension may need more frequent checking than a gas spring arm"
     ],
     bestFor: "Buyers who want tool-free setup on two standard 20-27\" monitors",
   },
@@ -175,18 +175,18 @@ export const products: GuideProduct[] = [
       "Max 22 lbs per arm",
       "Advanced counterbalance system",
       "Height, tilt, swivel, rotate",
-      "VESA 75mm or 100mm",
+      "VESA 75mm or 100mm"
     ],
     pros: [
       "22 lb per-arm capacity, higher than the FlowLift Dual picks",
       "Lower price than the FlowLift Pro Dual",
       "Advanced counterbalance for smoother adjustment",
-      "Standard VESA 75mm or 100mm",
+      "Standard VESA 75mm or 100mm"
     ],
     cons: [
       "Still not rated for a significantly mismatched heavy-vs-light pairing",
       "No clamp/grommet flexibility called out separately from the base",
-      "Mid-tier build, not in the same class as the Ergotron picks",
+      "Mid-tier build, not in the same class as the Ergotron picks"
     ],
     bestFor: "Buyers with two monitors that are close in size but not perfectly matched in weight",
   },
@@ -207,18 +207,18 @@ export const products: GuideProduct[] = [
       "Weight max 19.8 lbs",
       "Vertical stacking design",
       "Ergonomic tilt, swivel, rotate",
-      "VESA 75/100mm",
+      "VESA 75/100mm"
     ],
     pros: [
       "Budget vertical stacking option",
       "Under $60, far cheaper than the Ergotron vertical arm",
       "Ergonomic full adjustment range",
-      "Standard VESA 75/100mm",
+      "Standard VESA 75/100mm"
     ],
     cons: [
       "32\" max screen size versus 40\" on the Ergotron vertical arm",
       "19.8 lb capacity is lighter than the premium stacking pick",
-      "Tall pole still needs ceiling clearance to check before buying",
+      "Tall pole still needs ceiling clearance to check before buying"
     ],
     bestFor: "Buyers who want vertical stacking without paying Ergotron pricing",
   },
@@ -239,18 +239,18 @@ export const products: GuideProduct[] = [
       "Heavy duty fully adjustable steel stand",
       "C-clamp and grommet included",
       "VESA compatible",
-      "Under $35",
+      "Under $35"
     ],
     pros: [
-      "Lowest price in this list at $34.99",
+      "Lowest price in this list at under $35",
       "22 lb per-arm capacity matches pricier mid-tier picks",
       "Both clamp and grommet mounting included",
-      "Steel construction",
+      "Steel construction"
     ],
     cons: [
       "30\" screen cap versus 32\" on some HUANUO picks",
       "Basic finish compared to the Ergotron arms",
-      "Not built for a heavily mismatched monitor pairing",
+      "Not built for a heavily mismatched monitor pairing"
     ],
     bestFor: "Buyers who want the best price-to-capacity ratio in a true dual arm",
   },
@@ -271,21 +271,21 @@ export const products: GuideProduct[] = [
       "Holds up to 44 lbs per arm",
       "Aluminum construction",
       "Dual C-clamp base per arm",
-      "Sold as a single arm, buy two for a dual setup",
+      "Sold as a single arm, buy two for a dual setup"
     ],
     pros: [
       "44 lb-per-arm capacity handles a mismatched heavy-vs-light monitor pair",
       "Each monitor can be positioned and resold fully independently",
       "No shared-bracket counterbalance compromise",
-      "Works for a large 34-49\" ultrawide paired with a smaller second monitor",
+      "Works for a large 34-49\" ultrawide paired with a smaller second monitor"
     ],
     cons: [
       "Requires buying two units, doubling the cost versus a single dual bracket",
       "Needs two separate clamp footprints, roughly 15-20cm of clear desk-underside space each",
-      "Not a true dual arm, requires deciding upfront that two single arms fit your desk",
+      "Not a true dual arm, requires deciding upfront that two single arms fit your desk"
     ],
     bestFor: "Buyers running two very different-size or different-weight monitors who want independent, unshared support",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -313,7 +313,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed per-arm capacity, mounting hardware, and stacking versus side-by-side flexibility against price, from a VIVO mount to a Ergotron vertical stacking arm.",
-  },
+  }
 ];
 
 export interface BuyingCriterion {
@@ -481,11 +481,11 @@ export const faq: FaqItem[] = [
   {
     q: "How much desk clearance does a dual arm clamp need?",
     a: "Plan for at least 15-20cm of clear, flat desk-underside space for the clamp to bite properly, more than a single arm needs. Small desks or L-shaped desk corners often don't have that much clear space, so measure before ordering, especially if you're mounting in a corner.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-monitor-arms", title: "8 Best Monitor Arms in 2026" },
   { href: "/guide/best-monitor-arm-desk-mounts", title: "8 Best Monitor Arm Desk Mounts in 2026" },
-  { href: "/guide/best-ultrawide-monitor-arm", title: "6 Best Ultrawide Monitor Arms in 2026" },
+  { href: "/guide/best-ultrawide-monitor-arm", title: "6 Best Ultrawide Monitor Arms in 2026" }
 ];

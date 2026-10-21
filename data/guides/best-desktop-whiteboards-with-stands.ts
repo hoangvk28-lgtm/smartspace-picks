@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "desktop whiteboard with stand";
 export const introParagraphs = [
   "A stand turns a flat board into a freestanding one, but it also consumes real desk space beyond the board itself, something a straight-on product photo doesn't communicate well. Every pick below genuinely includes a stand per its own listing, and we note what the listing does and doesn't tell you about adjustability and footprint.",
-  "Most listings in this category don't detail whether the stand is adjustable for angle or height, so we're upfront where that information isn't available rather than assuming a feature that isn't stated. Stand stability under actual writing pressure, not just static display, is also something listing data can't confirm, so treat that as a buyer-advisory check worth verifying via current reviews.",
+  "Most listings in this category don't detail whether the stand is adjustable for angle or height, so we're upfront where that information isn't available rather than assuming a feature that isn't stated. Stand stability under actual writing pressure, not just static display, is also something listing data can't confirm, so treat that as a buyer-advisory check worth verifying via current reviews."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -138,7 +138,7 @@ export const products: GuideProduct[] = [
     pros: ["Smallest stand footprint among the picks here", "Double-sided for two writing surfaces", "Magnetic surface adds flexibility", "Good fit for very limited desk space"],
     cons: ["Exact dimensions not stated in listing", "Price not listed, check current Amazon pricing", "Smallest surface area limits writing capacity"],
     bestFor: "Buyers with very limited desk space who still want a genuine stand rather than a flat lean-to board.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -146,7 +146,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed genuine stand inclusion per listing", description: "Only included boards whose listing explicitly states a stand, rather than assuming any board can lean upright." },
   { title: "Noted where stand adjustability isn't detailed", description: "Most listings in this category don't specify angle or height adjustability, and we disclosed that gap rather than assuming a feature isn't stated." },
   { title: "Considered stand footprint alongside board size", description: "Weighed the fact that a freestanding stand consumes more desk space than a flat or wall-leaning board, not just the board's own dimensions." },
-  { title: "Flagged stability under writing pressure as a buyer-advisory check", description: "Noted that static product photos can't confirm stand stability while actually writing, and pointed buyers to reviews for that information." },
+  { title: "Flagged stability under writing pressure as a buyer-advisory check", description: "Noted that static product photos can't confirm stand stability while actually writing, and pointed buyers to reviews for that information." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -174,10 +174,10 @@ export const howToChoose: HowToChooseSection[] = [
         ["Stand that also elevates your keyboard", "TSJ OFFICE Glass Board with Drawer"],
         ["Built-in calendar feature", "14\"x10\" Whiteboard with Magnetic Calendar"],
         ["Lowest price with a stand", "MaxGear 16\"x12\" Double-Sided"],
-        ["Smallest possible stand footprint", "NC Magnetic Mini Double-Sided Board"],
+        ["Smallest possible stand footprint", "NC Magnetic Mini Double-Sided Board"]
       ],
     },
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -185,18 +185,18 @@ export const buyingCriteria: BuyingCriterion[] = [
   { criterion: "Factor in stand footprint, not just board size", explanation: "A freestanding stand extends the board's depth on your desk beyond its own dimensions. Measure your available space with the stand in mind." },
   { criterion: "Check for stated adjustability if it matters to you", explanation: "Most listings don't confirm angle or height adjustability. If you need that flexibility, verify via reviews or seller contact before buying." },
   { criterion: "Consider stability under actual writing pressure", explanation: "A stand that looks steady in a photo may wobble while you write. Check current reviews for stability reports, especially for glass boards." },
-  { criterion: "Look for tool-free assembly if quick setup matters", explanation: "This isn't always confirmed in listings. Check images or reviews if you want to avoid needing tools to set the stand up." },
+  { criterion: "Look for tool-free assembly if quick setup matters", explanation: "This isn't always confirmed in listings. Check images or reviews if you want to avoid needing tools to set the stand up." }
 ];
 
 export const faq: FaqItem[] = [
   { q: "Do all desktop whiteboards come with a stand?", a: "No, only buy expecting a stand if the listing explicitly states one, as every pick in this guide does." },
   { q: "Are whiteboard stands adjustable for angle or height?", a: "Most listings in this category don't specify. Check current reviews or the seller directly if adjustability is important to you." },
   { q: "Do whiteboard stands take up much extra desk space?", a: "Yes, a freestanding stand extends the board's footprint beyond its own dimensions, unlike a board that leans flat against a wall." },
-  { q: "Are whiteboard stands stable enough to write on?", a: "Stability under actual writing pressure isn't confirmable from listing photos alone. Check current buyer reviews for stability reports before buying." },
+  { q: "Are whiteboard stands stable enough to write on?", a: "Stability under actual writing pressure isn't confirmable from listing photos alone. Check current buyer reviews for stability reports before buying." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-double-sided-desktop-whiteboards", title: "Best Double-Sided Desktop Whiteboards (2026)" },
   { href: "/guide/best-mini-desktop-whiteboards", title: "Best Mini Desktop Whiteboards (2026)" },
-  { href: "/guide/best-desktop-whiteboards", title: "Best Desktop Whiteboards (2026)" },
+  { href: "/guide/best-desktop-whiteboards", title: "Best Desktop Whiteboards (2026)" }
 ];

@@ -12,7 +12,7 @@ export const fontSizeAndScalingForEyeComfortGuide: Guide = {
     "display scaling eye strain",
     "text too small monitor fix",
     "4k monitor scaling settings",
-    "font size eye strain computer",
+    "font size eye strain computer"
   ],
   heroImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const fontSizeAndScalingForEyeComfortGuide: Guide = {
     "monitor-resolution-explained",
     "monitor-distance-and-height-for-eye-comfort",
     "20-20-20-rule-explained",
-    "monitor-size-chart",
+    "monitor-size-chart"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const fontSizeAndScalingForEyeComfortGuide: Guide = {
       question: "Can incorrect scaling cause other display problems besides eye strain?",
       answer:
         "Yes, poorly configured scaling can sometimes cause blurry text or inconsistent UI element sizing across different applications, if you notice this after adjusting scaling, check for application-specific compatibility settings or try a different scaling percentage.",
-    },
+    }
   ],
   sections: [
     {
@@ -76,6 +76,6 @@ Adjust from these starting points based on personal eyesight and preference.`,
     {
       heading: "Finding Your Own Comfortable Scaling Setting",
       body: `Rather than relying solely on generic scaling recommendations, spend a few minutes testing different scaling percentages on your specific monitor and noting which feels comfortable to read without squinting or needing to lean forward, individual eyesight and viewing distance preferences vary enough that a setting comfortable for one person may not be ideal for another, even on identical hardware.`,
-    },
+    }
   ],
 };

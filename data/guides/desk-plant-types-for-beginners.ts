@@ -12,7 +12,7 @@ export const deskPlantTypesForBeginnersGuide: Guide = {
     "low maintenance desk plants",
     "hard to kill office plants",
     "best beginner plant for desk",
-    "desk plants that need little water",
+    "desk plants that need little water"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskPlantTypesForBeginnersGuide: Guide = {
     "desk-plant-lighting-requirements",
     "humidifier-room-size-chart",
     "wall-art-hanging-height-explained",
-    "desk-organizer-types-explained",
+    "desk-organizer-types-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskPlantTypesForBeginnersGuide: Guide = {
       question: "Is a fake plant a reasonable alternative for a beginner worried about killing a real one?",
       answer:
         "Yes, a quality artificial plant provides the visual and psychological benefit of greenery at a desk without any care requirements, a completely reasonable choice for someone who has repeatedly struggled to keep real plants alive or simply prefers zero maintenance.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const deskPlantTypesForBeginnersGuide: Guide = {
     {
       heading: "Why a Realistic Assessment of Your Actual Office Light Matters",
       body: `It's easy to overestimate how much usable light a windowless office with standard fluorescent or LED ceiling lighting actually provides to a plant, human eyes perceive this lighting as reasonably bright, but it's often far less intense than what plants evolved to photosynthesize with, being honest about your actual light conditions, rather than assuming any well-lit-looking office space is adequate, helps you choose a genuinely appropriate plant or decide that supplemental grow lighting, or an artificial alternative, better fits your specific situation.`,
-    },
+    }
   ],
 };

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "wall-hanging desk organizers";
 export const introParagraphs = [
   "This guide narrows specifically to genuinely wall-mounted organizers, requiring drywall anchors or stud mounting rather than a desk-edge clamp. We checked weight ratings tied to the actual mounting hardware and anchor type, since a heavily loaded organizer needs a secure connection to the wall material, not just the organizer's own build quality.",
-  "All five picks below mount to a wall near your desk, distinct from the desk-edge and under-desk options covered in our other hanging organizer guides.",
+  "All five picks below mount to a wall near your desk, distinct from the desk-edge and under-desk options covered in our other hanging organizer guides."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -112,7 +112,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Anchor and mounting hardware weight rating", description: "We checked whether each organizer's weight rating is tied to stud mounting, drywall anchors, or both, and disclosed the difference." },
   { title: "Renter-friendliness tradeoff", description: "We were explicit that every pick in this guide requires drilling, distinct from the no-drill desk-edge alternatives covered in our other hanging organizer guides." },
   { title: "Desk-to-wall proximity and reach", description: "We considered how convenient it is to reach a wall-mounted organizer from a nearby desk compared to a desk-edge-hung alternative." },
-  { title: "Weight capacity for realistic file loads", description: "We verified capacity claims against a realistically loaded set of hanging file folders." },
+  { title: "Weight capacity for realistic file loads", description: "We verified capacity claims against a realistically loaded set of hanging file folders." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -229,11 +229,11 @@ export const faq: FaqItem[] = [
   { q: "Is this different from a desk-edge hanging organizer?", a: "Yes, every pick in this guide mounts to a wall and requires drilling, distinct from the no-drill desk-edge and under-desk alternatives covered in our other hanging organizer guides." },
   { q: "How far from my desk should I mount the organizer?", a: "Position it within comfortable arm's reach of your desk chair to preserve quick document access, ideally on an adjacent wall rather than across the room." },
   { q: "Can renters use a wall-mounted organizer?", a: "Yes, but be aware it requires drilling and later wall patching when you move out, a real tradeoff compared to a no-drill desk-edge alternative." },
-  { q: "How many tiers do I actually need?", a: "Count your distinct document categories first. 4-5 tiers suit most home offices, while 7 tiers make sense only if you're separating many distinct categories and can mount securely to a stud." },
+  { q: "How many tiers do I actually need?", a: "Count your distinct document categories first. 4-5 tiers suit most home offices, while 7 tiers make sense only if you're separating many distinct categories and can mount securely to a stud." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-hanging-desk-organizers", title: "Best Hanging Desk Organizers (2026)" },
   { href: "/guide/best-desktop-hanging-file-organizers", title: "Best Desktop Hanging File Organizers (2026)" },
-  { href: "/guide/best-under-desk-hanging-organizers", title: "Best Under-Desk Hanging Organizers (2026)" },
+  { href: "/guide/best-under-desk-hanging-organizers", title: "Best Under-Desk Hanging Organizers (2026)" }
 ];

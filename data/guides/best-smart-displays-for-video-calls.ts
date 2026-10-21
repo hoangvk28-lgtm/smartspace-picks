@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "smart display for video calls";
 export const introParagraphs = [
   "Only displays with a genuine built-in camera belong in a video call guide, so we deliberately excluded the Google Nest Hub 7 inch here. Despite appearing in our other smart display guides, the Nest Hub's 2nd generation model has no camera at all, an important and easy-to-miss distinction from other Nest Hub generations that do include one.",
-  "The four Echo Show models below all include a working camera confirmed for video calling, ranging from a basic 2 megapixel camera on the compact Echo Show 5 up to a 13 megapixel auto-framing camera on the newest Echo Show 15.",
+  "The four Echo Show models below all include a working camera confirmed for video calling, ranging from a basic 2 megapixel camera on the compact Echo Show 5 up to a 13 megapixel auto-framing camera on the newest Echo Show 15."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "7 min";

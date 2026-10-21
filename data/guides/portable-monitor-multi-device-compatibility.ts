@@ -12,7 +12,7 @@ export const portableMonitorMultiDeviceCompatibilityGuide: Guide = {
     "portable monitor with phone",
     "portable monitor gaming console",
     "portable monitor laptop compatibility check",
-    "usb c vs hdmi portable monitor",
+    "usb c vs hdmi portable monitor"
   ],
   heroImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const portableMonitorMultiDeviceCompatibilityGuide: Guide = {
     "portable-monitor-power-requirements",
     "portable-monitor-vs-laptop-screen-extender",
     "usb-c-power-delivery-explained",
-    "thunderbolt-vs-usb-c-explained",
+    "thunderbolt-vs-usb-c-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const portableMonitorMultiDeviceCompatibilityGuide: Guide = {
       question: "Should I check device compatibility before buying a portable monitor for multi-device use?",
       answer:
         "Yes, definitely, if you plan to use one portable monitor across several different devices, phone, laptop, gaming console, checking each device's actual available ports and video output capability against the monitor's available inputs prevents a frustrating incompatibility discovery after purchase.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const portableMonitorMultiDeviceCompatibilityGuide: Guide = {
     {
       heading: "Why HDMI Remains the Safer Default for Broad Multi-Device Compatibility",
       body: `Despite USB-C's growing prevalence and single-cable convenience where fully supported, HDMI remains a more consistently reliable connection standard across a wider range of device types, particularly older laptops, gaming consoles, and many other electronics, a portable monitor including an HDMI input alongside USB-C provides a reliable fallback connection method that works predictably across nearly any device with an HDMI output, this is why choosing a monitor with both connection types offers meaningfully more practical flexibility than one offering only USB-C, especially for anyone planning genuinely varied multi-device use.`,
-    },
+    }
   ],
 };

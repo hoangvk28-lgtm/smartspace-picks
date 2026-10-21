@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "fast printer for home office";
 export const introParagraphs = [
   "A printer's rated pages-per-minute figure is measured on a simplified test document, not the graphics-heavy reports, spreadsheets, or image-included files most home offices actually print, and real-world speed on those documents is meaningfully slower than the number on the box. For most home office printing, which tends to happen in short bursts rather than long continuous runs, first-page-out time, how long it takes to get a single page including any warm-up, matters more than sustained PPM.",
-  "Below are 8 printers we researched with both figures in mind, from budget inkjets suited to quick single-page jobs to a higher-volume color laser rated at 35 PPM, so you can match speed to how your home office actually prints rather than to the number that looks best on a spec sheet.",
+  "Below are 8 printers we researched with both figures in mind, from budget inkjets suited to quick single-page jobs to a higher-volume color laser rated at 35 PPM, so you can match speed to how your home office actually prints rather than to the number that looks best on a spec sheet."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Automatic duplex, scan, copy, fax",
       "Automatic document feeder",
       "3-year limited warranty",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     pros: [
       "Fastest rated sustained output in this list",
       "Full multi-function feature set with ADF",
       "Long 3-year warranty",
-      "Built for high page-count home office volume",
+      "Built for high page-count home office volume"
     ],
     cons: [
       "Most expensive pick in this list by a wide margin",
       "Real-world speed on complex documents runs below the rated 35 PPM",
-      "Larger footprint than the compact inkjet picks",
+      "Larger footprint than the compact inkjet picks"
     ],
     bestFor: "A home office that regularly prints high volumes and needs the fastest sustained speed here",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Automatic duplex printing",
       "250-sheet paper tray",
       "Wireless and mobile printing",
-      "Mobile device compatible",
+      "Mobile device compatible"
     ],
     pros: [
       "Meaningfully faster than any inkjet pick here",
       "Large paper tray reduces mid-job reloading",
       "Automatic duplex printing",
-      "Lower price than the fastest laser pick",
+      "Lower price than the fastest laser pick"
     ],
     cons: [
       "No scan or copy functions",
       "Real-world speed on complex documents runs below the rated 19 PPM",
-      "Higher upfront price than the inkjet picks in this list",
+      "Higher upfront price than the inkjet picks in this list"
     ],
     bestFor: "A home office that wants faster laser speed without the highest-tier laser price",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Wireless and mobile printing",
       "Compact multi-function design",
       "Works with Alexa voice commands",
-      "Fast warm-up for intermittent printing",
+      "Fast warm-up for intermittent printing"
     ],
     pros: [
       "Fast readiness for occasional, bursty print jobs",
       "Full copy, scan, and duplex feature set",
       "Compact footprint",
-      "Lower cost per page for text documents",
+      "Lower cost per page for text documents"
     ],
     cons: [
       "No color printing",
       "Rated speed applies to simple text, not complex documents",
-      "Higher upfront price than the inkjet picks in this list",
+      "Higher upfront price than the inkjet picks in this list"
     ],
     bestFor: "A home office that prints a page or two at a time throughout the day rather than long runs",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "2.7-inch color touchscreen",
       "Automatic 2-sided copy and scan",
       "Wireless connectivity",
-      "INKvestment ink tank cartridge system",
+      "INKvestment ink tank cartridge system"
     ],
     pros: [
       "Automatic duplex scan and copy speeds up multi-page jobs",
       "Color touchscreen for direct job monitoring",
       "Higher-capacity INKvestment ink cartridges",
-      "Full print, scan, copy feature set",
+      "Full print, scan, copy feature set"
     ],
     cons: [
       "Slower sustained speed than any laser pick in this list",
       "Higher price than the basic inkjet picks",
-      "Real-world speed on graphics-heavy pages runs well below simple text speed",
+      "Real-world speed on graphics-heavy pages runs well below simple text speed"
     ],
     bestFor: "A home office that wants faster duplex scanning and copying alongside color inkjet quality",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Automatic document feeder",
       "Ethernet and wireless connectivity",
       "Scan, copy, and fax built in",
-      "Refillable ink bottles instead of cartridges",
+      "Refillable ink bottles instead of cartridges"
     ],
     pros: [
       "Automatic document feeder speeds up multi-page jobs",
       "Ethernet option for consistent wired speed",
       "No mid-job cartridge swap interruptions",
-      "Full print, scan, copy, fax feature set",
+      "Full print, scan, copy, fax feature set"
     ],
     cons: [
       "Slower sustained per-page speed than any laser pick in this list",
       "Higher upfront price than the basic inkjet picks",
-      "Ink refills take longer than a cartridge swap when they are needed",
+      "Ink refills take longer than a cartridge swap when they are needed"
     ],
     bestFor: "A home office doing regular multi-page document jobs that wants fewer mid-run interruptions",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "1.8-inch color display",
       "Multiple print quality modes",
       "Includes Refresh Subscription trial",
-      "Wireless connectivity",
+      "Wireless connectivity"
     ],
     pros: [
       "Automatic duplex saves time on two-sided jobs",
       "Multiple quality modes let you trade speed for sharpness as needed",
       "Reasonable mid-range price",
-      "Full print, scan, copy feature set",
+      "Full print, scan, copy feature set"
     ],
     cons: [
       "Best-quality mode is considerably slower than draft mode",
       "Slower sustained speed than any laser pick in this list",
-      "Cartridge-based ink costs more at higher volume",
+      "Cartridge-based ink costs more at higher volume"
     ],
     bestFor: "A home office that wants faster duplex jobs and the flexibility to trade speed for quality when needed",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Mobile printing support",
       "Built-in fax (legacy feature)",
       "Wireless connectivity",
-      "Compact home printer design",
+      "Compact home printer design"
     ],
     pros: [
       "Quick readiness for occasional single-page jobs",
       "Automatic document feeder for faster multi-page scanning",
       "Affordable price",
-      "Simple daily operation",
+      "Simple daily operation"
     ],
     cons: [
       "Not built for sustained high-volume printing",
       "Slower sustained speed than any laser pick in this list",
-      "Cartridge-based ink costs more at higher volume",
+      "Cartridge-based ink costs more at higher volume"
     ],
     bestFor: "A home office that mostly prints single pages throughout the day rather than large batches",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "3-month Instant Ink trial included",
       "Simple wireless setup flow",
       "AI-capable printing features (optional)",
-      "Compact, budget-friendly design",
+      "Compact, budget-friendly design"
     ],
     pros: [
       "Fast enough readiness for occasional small jobs",
       "Lowest price in this list",
       "Simple setup and daily operation",
-      "Full print, scan, copy feature set",
+      "Full print, scan, copy feature set"
     ],
     cons: [
       "Not built for high-volume sustained printing",
       "Slower sustained speed than any laser pick in this list",
-      "No automatic document feeder",
+      "No automatic document feeder"
     ],
     bestFor: "A home office with light, occasional printing needs on a tight budget",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Speed relative to price and feature set",
     description: "Balanced sustained speed against price, since the fastest pick here costs far more than the others, and matched that trade-off to realistic home office volume needs.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -465,13 +465,13 @@ export const faq: FaqItem[] = [
   },
   {
     q: "Is the fastest, most expensive printer worth it for a typical home office?",
-    a: "Usually not. The Canon MF753Cdw II at $491 is the fastest sustained pick in this list, but it's overkill for occasional or bursty printing. A mid-tier pick like the Brother HL-L3220CDW or Brother DCP-L2640DW will feel just as responsive for typical home office volume at a meaningfully lower price.",
-  },
+    a: "Usually not. The Canon MF753Cdw II at under $500 is the fastest sustained pick in this list, but it's overkill for occasional or bursty printing. A mid-tier pick like the Brother HL-L3220CDW or Brother DCP-L2640DW will feel just as responsive for typical home office volume at a meaningfully lower price.",
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printers-for-home-offices", title: "Best Printers for Home Offices (2026)" },
   { href: "/guide/best-printers-for-small-businesses", title: "Best Printers for Small Businesses (2026)" },
   { href: "/guide/best-budget-laser-printers", title: "Best Budget Laser Printers (2026)" },
-  { href: "/guide/best-printers-for-remote-workers", title: "Best Printers for Remote Workers (2026)" },
+  { href: "/guide/best-printers-for-remote-workers", title: "Best Printers for Remote Workers (2026)" }
 ];

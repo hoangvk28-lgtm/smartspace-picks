@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $107.99",
+          "Under $110",
           "3.4 Cu Ft Digital Home Safe with Programmable Keypad"
         ],
         [
-          "Around $229.99",
+          "Under $250",
           "SentrySafe 0.81 Cu Ft Fireproof & Waterproof Shelf Safe"
         ],
         [
-          "Around $350.25",
+          "Under $400",
           "Master Lock 1.2 Cu Ft Premium 2-Hour Fireproof Safe"
         ],
         [
-          "Around $489.99",
+          "Under $500",
           "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe"
         ],
         [
-          "Around $562.22",
+          "Under $600",
           "Master Lock 2.0 Cu Ft Fireproof & Waterproof Safe"
         ],
         [
-          "Around $574.99",
+          "Under $600",
           "SentrySafe XX-Large 2.2 Cu Ft Floor Safe"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", "a": "Master Lock 2.0 Cu Ft Fireproof & Waterproof Safe is aimed at buyers prioritizing 2.0 cu ft, ul 2hr at 1850 degreesf" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", "a": "Master Lock 2.0 Cu Ft Fireproof & Waterproof Safe is aimed at buyers prioritizing 2.0 cu ft, ul 2hr at 1850 degreesf" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-1-hour-fireproof-safes","title":"Best 1 Hour Fireproof Safes in 2026"},{"href":"/guide/best-2-hour-fireproof-safes","title":"Best 2 Hour Fireproof Safes in 2026"},{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"}];

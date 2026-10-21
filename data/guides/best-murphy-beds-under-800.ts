@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The most comprehensive integrated storage wall", "Merax Twin Murphy Bed with 5-Tier Shelves and Overhead Cabinets"],
         ["Integrated dimmable LED lighting at queen size", "Squireewo Queen Size Murphy Bed with LED Light"],
         ["A no-wall-mount option for a rental", "Mjkone Queen Size Wall Murphy Bed with Storage Shelf"],
-        ["Headboard comfort at the lowest price", "LIVAUVEAD Murphy Bed Full with Headboard"],
+        ["Headboard comfort at the lowest price", "LIVAUVEAD Murphy Bed Full with Headboard"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $530", "LIVAUVEAD ($529.99)"],
-        ["Under $580", "Mjkone ($579.99)"],
-        ["Under $650", "Squireewo ($649.99)"],
-        ["Under $800", "Merax ($779.71)"],
+        ["Under $530", "LIVAUVEAD (under $550)"],
+        ["Under $580", "Mjkone (under $600)"],
+        ["Under $650", "Squireewo (under $650)"],
+        ["Under $800", "Merax (under $800)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Wall-Mounted vs Freestanding Rotating Design",
     cards: [
       { label: "Wall-mounted (LIVAUVEAD, Squireewo, Merax)", text: "Requires anchoring into a load-bearing or stud wall, typically offering higher weight capacity and more integrated features in exchange for a permanent installation." },
-      { label: "Freestanding rotating (Mjkone)", text: "Skips wall mounting entirely via a 180-degree rotation mechanism, ideal for renters or anyone who can't or doesn't want to drill into walls." },
+      { label: "Freestanding rotating (Mjkone)", text: "Skips wall mounting entirely via a 180-degree rotation mechanism, ideal for renters or anyone who can't or doesn't want to drill into walls." }
     ],
     note: "If you're renting or want the flexibility to relocate the bed later without wall damage, the Mjkone's freestanding design is the clear choice. If you own your home and want maximum integrated features, the wall-mounted picks offer more storage and lighting options.",
   },
@@ -140,7 +140,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Hanging clothing storage plus shelving", "Merax"],
         ["Simple integrated shelf without wall mounting", "Mjkone"],
         ["Ambient LED lighting over storage", "Squireewo"],
-        ["No storage, just headboard comfort", "LIVAUVEAD"],
+        ["No storage, just headboard comfort", "LIVAUVEAD"]
       ],
     },
   },
@@ -148,16 +148,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Rented Apartment Without Drilling Permission Specifically",
     cards: [
       { label: "Look for", text: "A freestanding rotation mechanism that doesn't require anchoring into wall studs, since most rental agreements restrict permanent wall modifications." },
-      { label: "In this comparison", text: "The Mjkone pick's 180-degree rotating system specifically eliminates the need for wall mounting, making it the only pick in this tier genuinely suitable for a strict no-drilling rental." },
+      { label: "In this comparison", text: "The Mjkone pick's 180-degree rotating system specifically eliminates the need for wall mounting, making it the only pick in this tier genuinely suitable for a strict no-drilling rental." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the most comprehensive integrated storage wall with hanging space and shelving, where the Merax pick delivers that at the top of this tier." },
-      { label: "Save if", text: "You just want headboard comfort for reading without extra storage or lighting features, where the LIVAUVEAD pick covers that for about $250 less." },
+      { label: "Save if", text: "You just want headboard comfort for reading without extra storage or lighting features, where the LIVAUVEAD pick covers that for about $250 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

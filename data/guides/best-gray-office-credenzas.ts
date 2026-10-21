@@ -209,40 +209,40 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $143.99",
+          "Under $150",
           "43\" Wood File Cabinet with Power Outlet"
         ],
         [
-          "Around $149.99",
+          "Under $150",
           "DecoFurn Lateral File Cabinet with 2 Drawers"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "44\" File Cabinet with 2 Drawers"
         ],
         [
-          "Around $169.99",
+          "Under $170",
           "Modern File Cabinet with Drawers for Letter-Sized File and Door"
         ],
         [
-          "Around $169.99",
+          "Under $170",
           "47.2\" File Cabinet"
         ],
         [
-          "Around $189.99",
+          "Under $190",
           "44\" File Cabinet with Lock"
         ],
         [
-          "Around $227.99",
+          "Under $250",
           "60\" W Sideboard Buffet Cabinet with Storage"
         ],
         [
-          "Around $341.13",
+          "Under $350",
           "63\" Executive Computer Desk and Lateral File Cabinet"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "44\" File Cabinet with Lock is aimed at buyers prioritizing 4 industrial casters, 350 lb rated load." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "44\" File Cabinet with Lock is aimed at buyers prioritizing 4 industrial casters, 350 lb rated load." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-black-office-credenzas","title":"Best Black Office Credenzas in 2026"},{"href":"/guide/best-white-office-credenzas","title":"Best White Office Credenzas in 2026"},{"href":"/guide/best-black-office-credenzas-with-drawers","title":"Best Black Office Credenzas With Drawers in 2026"}];

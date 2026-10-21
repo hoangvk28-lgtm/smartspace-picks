@@ -32,20 +32,18 @@ export const products: GuideProduct[] = [
     badge: "Best Overall by Trust Signal",
     name: "DEVAISE 3-Drawer Mobile File Cabinet, Wood Lateral Filing Cabinet, Printer Stand, Rustic Brown",
     price: "~$94.99",
-    rating: "4.2 stars",
-    reviews: "5,343 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/devaise-3-drawer-rustic.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0989HLF81?tag=deskfinds0d-20",
     description: "The DEVAISE Rustic Brown is a mobile printer stand built on a lateral filing cabinet base, meaning the drawers run side to side across the full width of the unit rather than front to back, which gives each drawer more usable width for holding hanging folders flat. Open side shelves on the cabinet body keep paper reams, binders, and small organizers visible without needing to open a drawer, which is helpful for items you reach for frequently throughout the day.\n\nFour rolling casters allow the entire unit to be moved across smooth flooring to reposition beside a desk, pull it away from the wall for cleaning, or roll it between rooms if a portable printer setup is needed. The rustic brown wood-look finish uses warm brown tones and a slightly distressed texture that pairs with farmhouse furniture, honey oak desks, or natural wood office pieces, but may contrast with white or gray modern office setups. The drawers do not include a lock, so documents stored inside are not secured against access by others in a shared space.",
     specs: ["Lateral filing", "Open shelves", "Rolling casters", "3 drawers"],
     pros: [
-      "5,343 reviews highest review count in roundup",
       "Mobile on casters for easy repositioning",
       "Lateral file capability for active documents",
       "Open shelves keep items visible"
     ],
     cons: [
-      "4.2 stars lowest rating in roundup",
       "Rustic brown aesthetic is style-specific",
       "No lock on drawers"
     ],
@@ -57,20 +55,18 @@ export const products: GuideProduct[] = [
     badge: "Best Mid-Range with Confirmed File Hanging",
     name: "VASAGLE CUSTOS 2-Drawer Rolling Filing Cabinet, Printer Stand, A4/Letter-Size, Snow White",
     price: "~$56.70",
-    rating: "4.0 stars",
-    reviews: "3,264 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/vasagle-2-drawer-snow-white.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0BRXQ1DKF?tag=deskfinds0d-20",
     description: "The VASAGLE CUSTOS in snow white is a two-drawer rolling filing cabinet that doubles as a printer stand, with each drawer confirmed to support A4 and US Letter-size hanging file folders so standard office folders fit without an adapter or workaround. The two drawers sit one above the other in a compact footprint that fits under most desk overhangs or beside a desk in a narrow gap, making it practical for small home offices where floor space is limited. Rolling casters allow the unit to be moved without lifting, so it can be tucked under the desk when the printer is not in use and pulled out when needed.\n\nThe snow white finish has a clean, minimal appearance that suits Scandinavian, modern, and light-colored office setups, though white surfaces can show marks, fingerprints, and ink smudges more visibly than darker finishes over time. There is no lock on the drawers, so stored documents are not protected in shared living spaces.",
     specs: ["A4/Letter file hanging", "Rolling casters", "2 drawers", "Snow white"],
     pros: [
       "Confirmed A4/Letter-size hanging file capability",
-      "3,264 reviews strong validation",
       "Under $60",
       "Clean white finish"
     ],
     cons: [
-      "4.0 stars adequate but not exceptional",
       "White finish shows marks more than dark finishes",
       "No lock"
     ],
@@ -82,18 +78,15 @@ export const products: GuideProduct[] = [
     badge: "Best Fabric Lateral Option",
     name: "DEVAISE 3-Drawer Mobile File Cabinet, Fabric Lateral, Rolling Printer Stand",
     price: "~$58.49",
-    rating: "4.4 stars",
-    reviews: "2,940 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/devaise-3-drawer-fabric.webp`,
     amazonUrl: "https://www.amazon.com/dp/B09ZY1SJS3?tag=deskfinds0d-20",
     description: "This DEVAISE model uses fabric-faced drawers rather than wood panels, which reduces the overall weight of the cabinet and produces a softer, quieter sound when opening and closing drawers compared to wood or metal alternatives. Three drawers in a lateral format provide wide storage compartments that span the full width of the cabinet, giving each drawer more interior width than a vertical narrow-format drawer of the same depth. The rolling casters underneath the base allow the cabinet to be repositioned smoothly across hardwood or tile floors, making it easy to move the printer closer to a desk when printing and slide it aside when done.\n\nFabric construction is generally lighter than engineered wood panels and produces less noise during daily use, which is useful in shared apartments or bedrooms where a quieter office setup matters. Buyers should verify whether the current listing confirms hanging file rail support before purchasing, as fabric drawer cabinet specifications can vary between product versions.",
     specs: ["Fabric drawers", "3 drawers", "Rolling casters", "Lateral format"],
     pros: [
-      "4.4 stars second highest rating in roundup",
-      "2,940 reviews strong validation",
       "Fabric drawers lighter and quieter",
-      "Under $60"
-    ],
+      "Under $60", "Rolling casters for easy repositioning"],
     cons: [
       "Fabric less durable than wood construction",
       "Hanging rails need verification on listing",
@@ -107,8 +100,8 @@ export const products: GuideProduct[] = [
     badge: "Best Vertical Format with Locking Drawers",
     name: "VASAGLE CUSTOS 4-Drawer Vertical File Cabinet, Printer Stand, Lockable, Ink Black",
     price: "~$129.99",
-    rating: "4.0 stars",
-    reviews: "2,475 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/vasagle-4-drawer-vertical.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0FMDMN6YJ?tag=deskfinds0d-20",
     description: "The VASAGLE CUSTOS 4-Drawer Vertical is a tall narrow filing cabinet with four stacked drawers oriented vertically, which means each drawer is narrower than a lateral format but the cabinet occupies less horizontal floor space, making it practical for tight corners or rooms where wall width is limited. All four drawers include a key-operated locking mechanism that secures the contents against access, which matters for home offices used by multiple household members or anyone storing sensitive documents like tax records, contracts, or personal files. The tall vertical format places the printer at a higher surface height than most lateral cabinets, which suits users who prefer not to bend down to retrieve printed pages. Four drawers give this model the highest total file storage capacity in this roundup.\n\nThe ink black finish suits industrial loft offices, modern minimal setups, and workspaces with dark metal furniture accents. The narrower top surface compared to lateral cabinets may not accommodate very wide all-in-one inkjet printers with extended paper trays.",
@@ -120,7 +113,7 @@ export const products: GuideProduct[] = [
       "Ink black versatile finish"
     ],
     cons: [
-      "$129.99 highest price in roundup",
+      "Under $130 highest price in roundup",
       "Vertical format raises printer height",
       "Narrower top surface for wider printers"
     ],
@@ -132,8 +125,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Maximum Storage Compartments",
     name: "DEVAISE 5-Drawer Wood Storage Cabinet, Adjustable Shelf and Wheels, Printer Stand, White",
     price: "~$99.99",
-    rating: "4.4 stars",
-    reviews: "2,049 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/devaise-5-drawer-white.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0832D9S62?tag=deskfinds0d-20",
     description: "The DEVAISE 5-Drawer in white gives the printer a flat top surface while providing five separate enclosed drawers below for dividing supplies and documents into distinct categories rather than mixing everything in one or two large compartments. An adjustable internal shelf inside the cabinet body can be repositioned to different heights, allowing taller items like stacked paper boxes or binder boxes to fit within a single compartment without wasting vertical space. The white engineered wood finish blends with light-colored desks, white bookshelves, and modern or minimal office setups where warm brown tones would be out of place. Rolling wheels on the base allow the full cabinet to be moved without lifting, which is practical for repositioning beside a desk or pulling away from the wall for cleaning.\n\nThe drawers on this model are not confirmed to include hanging file rails, so it functions primarily as a supply and document storage cabinet rather than an active lateral filing unit. Buyers who need folder hanging should check the current listing or choose a model with confirmed file rail support.",
@@ -141,9 +134,7 @@ export const products: GuideProduct[] = [
     pros: [
       "Five drawers most storage density in roundup",
       "White finish broadly compatible",
-      "Adjustable shelf adds flexibility",
-      "4.4 stars 2,049 reviews"
-    ],
+      "Adjustable shelf adds flexibility"],
     cons: [
       "No hanging file rails confirmed",
       "Engineered wood construction",
@@ -157,8 +148,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Extra Workspace Beside the Printer",
     name: "GYIIYUO 2-Drawer File Cabinet with 24-Inch Extended Desktop, Mobile Rolling Printer Stand",
     price: "~$56.98",
-    rating: "4.2 stars",
-    reviews: "1,400 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/gyiiyuo-extended-desktop.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0DBZ98D94?tag=deskfinds0d-20",
     description: "The GYIIYUO adds a 24-inch desktop extension panel that projects outward alongside the main cabinet body, creating a secondary surface next to the printer where you can stage printed documents, collate multi-page jobs, or set down items temporarily without using your main desk. This extension panel is fixed to the cabinet structure rather than being a separate add-on, so it moves with the cabinet when you roll it on the four casters underneath.\n\nTwo drawers in the main cabinet body provide enclosed storage for files and supplies, keeping the cabinet compact in its footprint while still offering usable interior space. The light brown finish uses neutral wood tones that work alongside most home office furniture without requiring a specific color palette. The total storage depth of two drawers is the lowest file capacity among the options in this roundup, which means this cabinet is best suited for users with a smaller volume of active files rather than anyone managing a large document archive.",
@@ -182,20 +173,18 @@ export const products: GuideProduct[] = [
     badge: "Best Metal Construction with Confirmed Lock",
     name: "Letaya 3-Drawer Mobile File Cabinet with Lock, Under Desk Metal Filing Cabinet, Printer Stand, White",
     price: "~$99.99",
-    rating: "4.5 stars",
-    reviews: "1,329 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/letaya-metal-locking.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0BTXZ9D94?tag=deskfinds0d-20",
     description: "The Letaya is built from steel rather than engineered wood, which gives the cabinet frame and drawer bodies a higher resistance to dents, scratches, and moisture compared to particleboard or MDF construction commonly found at similar price points. Three drawers in a vertical mobile format provide enclosed file storage on a compact footprint that fits under most standard desk heights when the casters allow it to roll beneath. A key-operated lock secures all three drawers simultaneously, protecting stored documents and supplies against access by others without requiring a separate lock on each individual drawer.\n\nThe white powder-coated finish resists chipping better than painted wood surfaces and can be wiped clean without absorbing moisture. Hanging file rail support should be verified on the current listing before purchasing, as metal cabinet drawer configurations can vary. The commercial-grade metal aesthetic may feel more utilitarian than furniture-style wood cabinets in home office environments.",
     specs: ["Metal construction", "Locking drawers", "3 drawers", "White finish"],
     pros: [
-      "4.5 stars highest rating in roundup",
       "Metal construction more durable than engineered wood",
       "Locking drawers confirmed",
       "Clean white finish"
     ],
     cons: [
-      "1,329 reviews smaller than top picks",
       "Metal aesthetic may feel commercial",
       "Hanging rails need verification"
     ],
@@ -207,8 +196,8 @@ export const products: GuideProduct[] = [
     badge: "Best Farmhouse Style with Confirmed File Hanging",
     name: "VASAGLE 2-Drawer File Cabinet, Farmhouse Style, Printer Stand, A4/Letter, Honey Brown",
     price: "~$85.49",
-    rating: "4.0 stars",
-    reviews: "1,311 reviews",
+    rating: "",
+    reviews: "",
     imageUrl: `${BASE}/vasagle-honey-brown-farm.webp`,
     amazonUrl: "https://www.amazon.com/dp/B09XF4Z5GP?tag=deskfinds0d-20",
     description: "The VASAGLE Honey Brown is a two-drawer filing cabinet designed to hold A4 and US Letter-size hanging folders in each drawer, with the file hanging capability confirmed directly in the product title rather than requiring buyers to check specifications separately. The honey brown wood-look panels are combined with black metal hardware and frame accents, creating a two-tone farmhouse aesthetic that pairs with natural wood desks, wicker baskets, and warm-toned home office setups. Rolling casters let you move the cabinet between the desk and a storage wall or into another room without lifting the unit.\n\nThe two-drawer format keeps the cabinet height and footprint compact, making it practical for rooms with limited floor space or low-clearance desk overhangs. The cabinet does not include a lock, so files stored inside are accessible to anyone who opens the drawers, which matters in homes with shared workspaces. Legal-size folders are not supported, so buyers filing legal documents should verify folder dimensions match letter-size rails.",
@@ -220,8 +209,7 @@ export const products: GuideProduct[] = [
       "Pairs with light wood desks"
     ],
     cons: [
-      "4.0 stars in this roundup",
-      "$85.49 high for 2 drawers without a lock",
+      "Under $90 high for 2 drawers without a lock",
       "No legal-size support"
     ],
     bestFor: "farmhouse or warm-toned home offices needing a rolling printer stand with confirmed letter-size file hanging"
@@ -265,13 +253,13 @@ export const faq: { q: string; a: string }[] = [
   },
   {
     q: "Which option has a lock for document security?",
-    a: "The VASAGLE CUSTOS 4-Drawer Vertical at $129.99 and the Letaya metal cabinet at $99.99 are the two options with confirmed locking drawers. The Letaya also offers metal construction at a lower price.",
-  },
+    a: "The VASAGLE CUSTOS 4-Drawer Vertical at under $130 and the Letaya metal cabinet at under $100 are the two options with confirmed locking drawers. The Letaya also offers metal construction at a lower price.",
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printer-stands-with-storage", title: "Best Printer Stands with Storage (2026)" },
   { href: "/guide/best-small-printer-stands", title: "Best Small Printer Stands for Home Offices (2026)" },
   { href: "/guide/best-rolling-carts-with-drawers", title: "Best Rolling Carts with Drawers (2026)" },
-  { href: "/guide/best-rolling-carts-home-office", title: "Best Rolling Carts for Home Offices (2026)" },
+  { href: "/guide/best-rolling-carts-home-office", title: "Best Rolling Carts for Home Offices (2026)" }
 ];

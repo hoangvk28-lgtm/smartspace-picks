@@ -12,7 +12,7 @@ export const deskPlantLightingRequirementsGuide: Guide = {
     "low light desk plants",
     "best plants for office no windows",
     "grow light for desk plant",
-    "desk plant sunlight needs",
+    "desk plant sunlight needs"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskPlantLightingRequirementsGuide: Guide = {
     "desk-lamp-lumens-guide",
     "desk-lamp-kelvin-color-temperature",
     "humidifier-room-size-chart",
-    "air-purifier-cadr-explained",
+    "air-purifier-cadr-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskPlantLightingRequirementsGuide: Guide = {
       question: "Will a regular desk lamp work as a substitute for a grow light?",
       answer:
         "A standard desk lamp provides some benefit over no light at all, but most aren't bright enough or in the right spectrum to meaningfully support plant growth compared to a light specifically designed or rated for plant use.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const deskPlantLightingRequirementsGuide: Guide = {
     {
       heading: "Setting Up a Simple Grow Light for a Desk Plant",
       body: `A small clip-on or desk-mounted grow light positioned a foot or so above the plant, running on a timer for 8-12 hours daily, meaningfully improves survival odds for most common desk plants in a windowless space. Look for a full-spectrum bulb or one in the 5000-6500K cooler range, since this more closely matches natural daylight than the warmer color temperatures typically chosen for human comfort lighting.`,
-    },
+    }
   ],
 };

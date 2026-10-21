@@ -49,7 +49,7 @@ export const products: BudgetLamp[] = [
       { label: "Brightness levels", value: "5 per color mode (25 combinations)" },
       { label: "Panel", value: "Diffused LED (no glare)" },
       { label: "Power", value: "USB-A powered" },
-      { label: "Controls", value: "Touch" },
+      { label: "Controls", value: "Touch" }
     ],
     pros: ["25 light combinations -- covers every study scenario", "800lm strong output for the price", "Diffused panel eliminates hotspots and glare", "Forbes vetted, widely recommended", "USB-powered -- no outlet needed"],
     cons: ["Freestanding base (~12 cm footprint)", "No USB charging port on lamp", "No timer function"],
@@ -75,7 +75,7 @@ export const products: BudgetLamp[] = [
       { label: "Blue light", value: "Blocks 99.95% harmful blue light" },
       { label: "Clamp range", value: "Up to 6 cm desk thickness" },
       { label: "Gooseneck", value: "360° adjustable" },
-      { label: "Power", value: "USB-A powered" },
+      { label: "Power", value: "USB-A powered" }
     ],
     pros: ["Zero desk footprint -- clips to edge", "360° flexible arm for precise positioning", "30 light combinations", "Clip pads protect desk finish", "USB-powered"],
     cons: ["Arm can drift slightly on very flexible goosenecks", "Smaller light panel than freestanding options"],
@@ -100,7 +100,7 @@ export const products: BudgetLamp[] = [
       { label: "USB ports", value: "1x USB-A (5V/2.1A) + 1x USB-C" },
       { label: "Nightlight", value: "Built-in base glow" },
       { label: "Controls", value: "Touch panel" },
-      { label: "Power", value: "Wall plug (outlet required)" },
+      { label: "Power", value: "Wall plug (outlet required)" }
     ],
     pros: ["Charges phone + powers lamp from one outlet", "USB-C port charges modern devices", "5 color modes", "Nightlight function", "Consolidates lamp + charger"],
     cons: ["Requires wall outlet (not purely USB-powered)", "Base footprint ~12 cm"],
@@ -124,7 +124,7 @@ export const products: BudgetLamp[] = [
       { label: "Style", value: "Monitor bar / gooseneck clamp" },
       { label: "Focus", value: "Directional downward beam" },
       { label: "Power", value: "USB-A powered" },
-      { label: "Clamp", value: "Desk edge or monitor top compatible" },
+      { label: "Clamp", value: "Desk edge or monitor top compatible" }
     ],
     pros: ["27 modes including very warm/dim settings", "Directional beam -- does not spill upward into room", "Zero desk footprint", "Clamp mount, USB-powered", "Best for roommate-considerate lighting"],
     cons: ["Lower total lumens than Lepro -- not ideal as sole lamp in dark room", "Fewer brightness levels per color mode"],
@@ -147,12 +147,12 @@ export const products: BudgetLamp[] = [
       { label: "Color", value: "Daylight white (5000K, one temperature)" },
       { label: "Brightness levels", value: "7" },
       { label: "Controls", value: "Touch sensitive dimmer" },
-      { label: "Power", value: "USB-A powered" },
+      { label: "Power", value: "USB-A powered" }
     ],
     pros: ["Lowest price in roundup (~$12--18)", "Simple to use -- 7 brightness levels", "Smooth touch dimmer", "USB-powered"],
     cons: ["Single color temperature only (no warm option)", "No USB charging pass-through"],
     bestForDetail: "Budget-first buyers who need reliable study lighting without extra features.",
-  },
+  }
 ];
 
 export const atAGlanceItems = products.map((p) => ({
@@ -171,13 +171,13 @@ export const atAGlanceItems = products.map((p) => ({
 export const clampVsStandingRows = [
   { type: "Freestanding (Lepro, LE)", footprint: "12--15 cm base", bestFor: "Desks 100 cm+ with space to spare" },
   { type: "Clamp/clip (iVict)", footprint: "0 cm on desk surface", bestFor: "Small desks under 80 cm" },
-  { type: "Monitor bar", footprint: "0 cm on desk, mounts on monitor", bestFor: "Only if you have an external monitor" },
+  { type: "Monitor bar", footprint: "0 cm on desk, mounts on monitor", bestFor: "Only if you have an external monitor" }
 ];
 
 export const colorTempGuide = [
   { range: "Warm (2700--3000K)", description: "Amber/orange tone. Relaxing -- lower alertness, easier on eyes at night. Good for reading novels, winding down, or late-night study sessions when you do not want to disrupt your sleep cycle." },
   { range: "Neutral/natural (4000--4500K)", description: "Closest to daylight. Good for general desk work -- writing, reading, online classes. Not harsh, not sleepy." },
-  { range: "Cool/daylight (5500--6500K)", description: "Bright white-blue tone. Maximum alertness and focus. Good for active problem-solving and early-morning study sessions. Can cause eye strain if used all evening." },
+  { range: "Cool/daylight (5500--6500K)", description: "Bright white-blue tone. Maximum alertness and focus. Good for active problem-solving and early-morning study sessions. Can cause eye strain if used all evening." }
 ];
 
 export const studySituationRows = [
@@ -186,7 +186,7 @@ export const studySituationRows = [
   { situation: "Need to charge phone too", need: "USB charging + lamp", pick: "B08923SXXP", id: "best-usb-charging" },
   { situation: "General study, best value", need: "Most light modes", pick: "Lepro B08LMPCX3D", id: "best-overall" },
   { situation: "Tight budget (< $18)", need: "Reliable basics", pick: "LE Dimmable B00MHLIGCY", id: "best-budget" },
-  { situation: "Online classes on camera", need: "Cool white available", pick: "Any pick with 5000K+ mode", id: "best-overall" },
+  { situation: "Online classes on camera", need: "Cool white available", pick: "Any pick with 5000K+ mode", id: "best-overall" }
 ];
 
 export const brightnessGuideRows = [
@@ -194,7 +194,7 @@ export const brightnessGuideRows = [
   { task: "Laptop / screen work", brightness: "200--400 lux (supplement monitor)", colorTemp: "4000--5000K" },
   { task: "Handwriting notes", brightness: "400--600 lux", colorTemp: "4000--5500K" },
   { task: "Late-night reading", brightness: "150--300 lux (eyes adjusted)", colorTemp: "2700--3000K" },
-  { task: "Video call (camera)", brightness: "300+ lux on your face", colorTemp: "5000--6500K" },
+  { task: "Video call (camera)", brightness: "300+ lux on your face", colorTemp: "5000--6500K" }
 ];
 
 export const faq: { question: string; answer: string }[] = [
@@ -217,5 +217,5 @@ export const faq: { question: string; answer: string }[] = [
   {
     question: "Which desk lamp is best for video calls?",
     answer: "Any lamp with a 5000K--6500K cool/daylight setting placed at eye level or slightly above. The cool-white light makes faces appear cleaner on camera. Warm light (2700K) can make you look orange-toned in video. The Lepro and B08923SXXP both have 5000K+ modes.",
-  },
+  }
 ];

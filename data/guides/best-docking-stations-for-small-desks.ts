@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "docking station for small desk";
 export const introParagraphs = [
   "A dock that works fine on a large L-shaped desk can feel oversized on a 90cm dorm desk or a compact home office table, so footprint dimensions and cable length matter as much as port count when a desk is small. A dock advertised as compact can still range from a slim USB hub the size of a phone to a full-size dock with a separate power brick that eats up the same real estate it was supposed to save.",
-  "Below are 8 docking stations for small desks we evaluated on physical footprint, attached cable length, port placement, and whether AC power (needed for laptop charging) undermines the compact form factor, ranging from a $26.96 slim hub to a $149.99 Mac-focused dock with a 150W adapter.",
+  "Below are 8 docking stations for small desks we evaluated on physical footprint, attached cable length, port placement, and whether AC power (needed for laptop charging) undermines the compact form factor, ranging from an under-$30 slim hub to an under-$150 Mac-focused dock with a 150W adapter."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Dual HDMI 4K@60Hz",
       "100W PD passthrough",
       "5Gbps USB-C/A data",
-      "Gigabit Ethernet + SD/TF reader",
+      "Gigabit Ethernet + SD/TF reader"
     ],
     pros: [
       "No separate power brick to place on the desk",
       "100W PD is enough for most ultrabooks",
       "Dual HDMI covers a 2-monitor setup",
-      "Compact body sits flush next to a laptop",
+      "Compact body sits flush next to a laptop"
     ],
     cons: [
       "Bus-powered, so total port power draw is shared with the laptop's own budget",
       "Attached cable length limits how far the dock can sit from the laptop",
-      "No 2.5GbE for buyers who need faster wired networking",
+      "No 2.5GbE for buyers who need faster wired networking"
     ],
     bestFor: "Buyers who want the smallest footprint with dual monitor support at a low price",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Dual 4K@60Hz HDMI",
       "10Gbps USB-A/C data ports",
       "100W PD",
-      "Aluminum housing",
+      "Aluminum housing"
     ],
     pros: [
       "Lowest price in this list",
       "Aluminum body helps with heat dissipation in tight placements",
       "10Gbps data ports outpace many compact docks",
-      "Slim enough to tuck under a monitor arm base",
+      "Slim enough to tuck under a monitor arm base"
     ],
     cons: [
       "Fewer total ports than the 10-in-1 UGREEN model",
       "No Ethernet port included",
-      "Bus-powered, no AC adapter for standalone charging",
+      "Bus-powered, no AC adapter for standalone charging"
     ],
     bestFor: "Buyers who want the thinnest possible dock and don't need Ethernet",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "3 displays (2 HDMI + 1 DP)",
       "10Gbps USB-C, 3x USB-A",
       "100W max PD",
-      "SD/TF card reader + Ethernet",
+      "SD/TF card reader + Ethernet"
     ],
     pros: [
       "Detachable hub lets you carry only what you need",
       "Supports 3 external displays from one dock",
       "10Gbps data speed on the primary USB-C port",
-      "Ethernet and card reader included",
+      "Ethernet and card reader included"
     ],
     cons: [
       "Priciest compact pick in this list",
       "Full 13-port configuration takes up more desk space than a single-piece dock",
-      "100W PD is still not enough for high-draw laptops under sustained load",
+      "100W PD is still not enough for high-draw laptops under sustained load"
     ],
     bestFor: "Buyers who want a modular dock that can shrink down when desk space is tight",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "Works with USB-C and Thunderbolt laptops",
       "Front-facing frequent-use ports",
       "Networking + data transfer support",
-      "Enterprise remote management features",
+      "Enterprise remote management features"
     ],
     pros: [
       "Compatible across USB-C and Thunderbolt laptops",
       "Front port placement keeps daily-use connections reachable",
       "Built with enterprise/managed-device use in mind",
-      "Solid mid-range price for the feature set",
+      "Solid mid-range price for the feature set"
     ],
     cons: [
       "Plain design compared to the more compact aluminum picks",
       "No included charger noted in some bundles",
-      "Not the smallest footprint if desk space is extremely limited",
+      "Not the smallest footprint if desk space is extremely limited"
     ],
     bestFor: "A small home office desk that also needs to satisfy IT compatibility requirements",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "10Gbps USB-A/C data",
       "PD, Ethernet, SD/TF reader",
       "Dedicated USB 2.0 port for peripherals",
-      "Tuned for MacBook Pro/Air M-series",
+      "Tuned for MacBook Pro/Air M-series"
     ],
     pros: [
       "Purpose-built for MacBook Pro/Air chip generations",
       "Keeps fast ports free by including a dedicated USB 2.0 port",
       "Dual 4K@60Hz output for real multi-monitor Mac setups",
-      "Compact enough for a small desk next to a laptop stand",
+      "Compact enough for a small desk next to a laptop stand"
     ],
     cons: [
       "Mac-tuned design is less useful if you switch to a Windows laptop later",
       "Mid-pack price for the port count offered",
-      "Not the fastest data speed compared to the Anker Nano's 10Gbps hub port",
+      "Not the fastest data speed compared to the Anker Nano's 10Gbps hub port"
     ],
     bestFor: "Mac users on a small desk who want a dock tuned to their specific chip generation",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Dual HDMI 4K output",
       "85W Power Delivery",
       "Gigabit Ethernet hub",
-      "SD card reader",
+      "SD card reader"
     ],
     pros: [
       "Straightforward dual-monitor support at a mid-low price",
       "Compact bar shape fits easily beside a laptop",
       "Gigabit Ethernet included",
-      "SD card reader useful for quick photo transfers",
+      "SD card reader useful for quick photo transfers"
     ],
     cons: [
       "Charger not included, adding to the real cost",
       "85W PD is lower than the 100W picks in this list",
-      "Fewer USB ports than the 10-in-1 and 13-in-1 options",
+      "Fewer USB ports than the 10-in-1 and 13-in-1 options"
     ],
     bestFor: "Buyers who want dual monitors and already own a compatible USB-C charger",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "3 monitors (8K DP + 4K@60Hz HDMI)",
       "10Gbps data",
       "100W Power Delivery",
-      "SD/TF reader + Gigabit Ethernet",
+      "SD/TF reader + Gigabit Ethernet"
     ],
     pros: [
       "Supports 3 monitors, more than most compact docks in this list",
       "100W PD and 10Gbps data in a small body",
       "Competitively priced for the display count",
-      "Includes both Ethernet and SD/TF reader",
+      "Includes both Ethernet and SD/TF reader"
     ],
     cons: [
       "3-display bandwidth is shared, so simultaneous heavy transfers can slow down",
       "Acer branding may feel less universal than Anker or UGREEN for non-Acer laptops",
-      "Bus-powered budget limits sustained peripheral charging",
+      "Bus-powered budget limits sustained peripheral charging"
     ],
     bestFor: "A small desk that needs 3 monitors more than maximum simultaneous data throughput",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Dual 4K@60Hz HDMI/USB-C",
       "150W power adapter included",
       "2.5G Ethernet",
-      "7 USB ports + SD 4.0 reader",
+      "7 USB ports + SD 4.0 reader"
     ],
     pros: [
       "Included 150W adapter, no separate charger purchase needed",
       "2.5G Ethernet, faster than the Gigabit ports on most compact docks here",
       "Highest total port count in this list",
-      "Full-size charging headroom for demanding MacBook Pro workloads",
+      "Full-size charging headroom for demanding MacBook Pro workloads"
     ],
     cons: [
       "Most expensive pick in this list",
       "150W brick takes up real desk or floor space, working against a small-desk goal",
-      "Overkill port count for a genuinely minimal small-desk setup",
+      "Overkill port count for a genuinely minimal small-desk setup"
     ],
     bestFor: "A small desk MacBook Pro user who needs full charging power and 2.5G Ethernet more than a minimal footprint",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for desk space",
     description: "Weighed port count and display support against how much desk and floor real estate each pick, including its power brick if AC-powered, actually occupies.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -481,11 +481,11 @@ export const faq: FaqItem[] = [
   {
     q: "Can I mount a compact dock under my desk to save surface space entirely?",
     a: "Yes, for models with a separate (not permanently attached) cable, you can mount the dock under the desk with adhesive strips or a small tray, keeping only the cable end accessible on the desktop. Attached-cable models with a short 20-30cm cable usually can't reach far enough under the desk to make this practical.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-docking-stations-for-desk-setup", title: "Best Docking Stations for a Desk Setup (2026)" },
   { href: "/guide/best-usb-c-docking-stations", title: "Best USB-C Docking Stations (2026)" },
-  { href: "/guide/best-docking-stations-for-laptop-and-desktop", title: "Best Docking Stations for Laptop and Desktop (2026)" },
+  { href: "/guide/best-docking-stations-for-laptop-and-desktop", title: "Best Docking Stations for Laptop and Desktop (2026)" }
 ];

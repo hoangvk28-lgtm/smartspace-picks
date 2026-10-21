@@ -12,7 +12,7 @@ export const drawingTabletPressureSensitivityExplainedGuide: Guide = {
     "pressure levels drawing tablet meaning",
     "how much pressure sensitivity needed",
     "8192 levels pressure worth it",
-    "tilt sensitivity drawing tablet",
+    "tilt sensitivity drawing tablet"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const drawingTabletPressureSensitivityExplainedGuide: Guide = {
     "drawing-tablet-vs-display-tablet",
     "drawing-tablet-size-guide",
     "monitor-resolution-explained",
-    "wrist-rest-explained",
+    "wrist-rest-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const drawingTabletPressureSensitivityExplainedGuide: Guide = {
       question: "Should a beginner prioritize pressure sensitivity specs when choosing a first tablet?",
       answer:
         "Not as the primary factor, most modern tablets, even budget-friendly ones, offer more than adequate pressure sensitivity for learning digital art, prioritize overall build quality, size, and software compatibility over chasing the highest pressure level number for a first tablet purchase.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const drawingTabletPressureSensitivityExplainedGuide: Guide = {
     {
       heading: "Why Other Factors Deserve More Attention Than the Pressure Number Alone",
       body: `Given that pressure sensitivity differences plateau well below the highest marketed numbers, factors like the tablet's overall build quality, the accuracy and responsiveness of its pen tip, active working area size matched to your actual desk space and drawing style, and software compatibility with the art programs you actually plan to use, deserve more weight in a purchasing decision than chasing the single highest pressure sensitivity number available, this reprioritization helps buyers, especially beginners, make a more genuinely informed choice rather than being drawn to a marketing-emphasized spec with diminishing real-world relevance.`,
-    },
+    }
   ],
 };

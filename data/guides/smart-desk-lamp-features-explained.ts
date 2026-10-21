@@ -12,7 +12,7 @@ export const smartDeskLampFeaturesExplainedGuide: Guide = {
     "smart desk lamp worth it",
     "app controlled desk lamp features",
     "voice control desk lamp",
-    "smart lamp scheduling",
+    "smart lamp scheduling"
   ],
   heroImage: "https://images.unsplash.com/photo-1560890264-4b92305ee66e?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1560890264-4b92305ee66e?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const smartDeskLampFeaturesExplainedGuide: Guide = {
     "dimmable-vs-fixed-brightness-desk-lamp",
     "desk-lamp-kelvin-color-temperature",
     "task-lighting-vs-ambient-lighting",
-    "desk-lamp-lumens-guide",
+    "desk-lamp-lumens-guide"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const smartDeskLampFeaturesExplainedGuide: Guide = {
       question: "Do smart lamps require a stable WiFi connection to function at all?",
       answer:
         "Basic on and off and manual brightness control typically still work via physical controls even without WiFi, but app control, scheduling, and voice integration require a working WiFi connection to function as intended.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const smartDeskLampFeaturesExplainedGuide: Guide = {
     {
       heading: "Deciding If the Smart Features Justify the Cost Premium",
       body: `If you find yourself frequently adjusting a basic lamp's brightness or wishing for different settings at different times of day, a smart lamp's features address a real, recurring friction point and likely justify their added cost. If your lighting needs are simple and rarely change, a basic dimmable lamp accomplishes most of the practical benefit without paying for connectivity features you're unlikely to use regularly.`,
-    },
+    }
   ],
 };

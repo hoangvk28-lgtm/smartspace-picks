@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41JN+JAnm2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8B95G8T?tag=deskfinds0d-20",
-    description: "Same GIANTEX round-tabletop platform in a brown-and-white finish: 1\" thickened tabletop, elevated corner shelf, and built-in-lock drawer with two keys. The 2-tier open shelf below handles bags or sundries with 3-position adjustability.\n\nWhat stands out here is brown & white finish suits warmer retail or boutique interiors, plus 3-position adjustable shelving. The main tradeoff: engineered wood, not solid material, so weigh that against the $69.99 price before buying.",
+    description: "Same GIANTEX round-tabletop platform in a brown-and-white finish: 1\" thickened tabletop, elevated corner shelf, and built-in-lock drawer with two keys. The 2-tier open shelf below handles bags or sundries with 3-position adjustability.\n\nWhat stands out here is brown & white finish suits warmer retail or boutique interiors, plus 3-position adjustable shelving. The main tradeoff: engineered wood, not solid material, so weigh that against the under $70 price before buying.",
     specs: ["Round tabletop, 1\" thickened panel, brown & white finish","Lockable drawer with 2 keys","3-position adjustable 2-tier open shelf"],
     pros: ["Brown & white finish suits warmer retail or boutique interiors","3-position adjustable shelving","Lowest-priced option in the GIANTEX round-desk lineup"],
     cons: ["Engineered wood, not solid material","No cable management feature listed"],
@@ -129,20 +129,20 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $69.99",
+          "Under $70",
           "GIANTEX Reception Desk"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "42.1\" Fluted Round-Corner Reception Desk"
         ],
         [
-          "Around $599.99",
+          "Under $600",
           "47\" Reception Desk with LED and Power Outlets"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -190,7 +190,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "GIANTEX Reception Desk is aimed at buyers prioritizing round tabletop, 1\" thickened panel, brown & white finish." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "GIANTEX Reception Desk is aimed at buyers prioritizing round tabletop, 1\" thickened panel, brown & white finish." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-round-reception-desks","title":"best-round-reception-desks"},{"href":"/guide/best-curved-reception-desks","title":"best-curved-reception-desks"},{"href":"/guide/best-compact-reception-desks","title":"best-compact-reception-desks"}];

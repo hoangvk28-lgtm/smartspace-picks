@@ -61,7 +61,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0F5W44TT9?tag=deskfinds0d-20",
     description: "This dock's listing specifically breaks display support into five tiers by exact MacBook chip: quad 6K@60Hz for M5 Max, triple 6K@60Hz for M5 Pro, dual 6K@60Hz for M4/M5 base and M1 through M4 Pro/Max chips, and single 8K@60Hz or 6K@60Hz for older base chips, an unusually granular per-chip breakdown for a dock at this price. Its Bandwidth Boost technology can theoretically transfer a 21GB movie in just 2 seconds, a concrete real-world benchmark.\n\nCompared to the Kensington and StarTech picks above, this one is the lowest price in this comparison while still delivering genuinely high per-chip display counts for newer MacBook Pro models with Pro or Max chips.\n\nBest for MacBook owners who want the most granular chip-specific display breakdown at the lowest price in this comparison.",
     specs: ["Quad 6K@60Hz (M5 Max) down to single display (base chips)", "80Gb/s data, up to 120Gb/s Bandwidth Boost", "180W power adapter, 140W laptop charging"],
-    pros: ["Lowest price in this comparison at $249.99", "Most granular five-tier chip-specific display breakdown", "Concrete 21GB-in-2-seconds transfer benchmark for context"],
+    pros: ["Lowest price in this comparison at under $250", "Most granular five-tier chip-specific display breakdown", "Concrete 21GB-in-2-seconds transfer benchmark for context"],
     cons: ["Quad display support is limited to the newest M5 Max chip only", "Requires a Type-C to DisplayPort or HDMI adapter for non-USB-C monitors"],
     bestFor: "MacBook owners who want the most granular chip-specific display breakdown at the lowest price",
   },
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "This dock's dual 8K@60Hz display support is delivered through 4 Thunderbolt 5 ports with Bandwidth Boost allocating up to 120Gb/s toward displays, backed by a 240W power supply that sustains full power across all 15 ports simultaneously. Its 140W host charging specifically covers demanding 16-inch M3/M4/M5 Pro and Max series MacBook Pro models.\n\nCompared to the Kensington, StarTech, and iVANKY picks above, this one trades a lower display count ceiling for the most comprehensive total connectivity in this comparison, with UHS-II SD and microSD card readers built directly into the aluminum heat sink chassis.\n\nBest for buyers who want the most comprehensive port count alongside solid dual 8K display support.",
     specs: ["Dual 8K@60Hz displays via 4x Thunderbolt 5 ports", "240W sustained power supply, 140W host charging", "15 total ports, UHS-II SD/microSD readers"],
     pros: ["Most comprehensive total port count in this comparison", "240W power supply sustains full power across all 15 ports", "140W charging covers demanding 16-inch MacBook Pro Max models"],
-    cons: ["Highest price in this comparison at $399.95", "Lower maximum display count than the StarTech or iVANKY picks on supported Mac chips"],
+    cons: ["Highest price in this comparison at under $400", "Lower maximum display count than the StarTech or iVANKY picks on supported Mac chips"],
     bestFor: "buyers who want the most comprehensive port count alongside solid dual 8K display support",
   }
 ];
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Windows, three 4K@144Hz or two 8K displays", "Kensington SD5010T5 Thunderbolt 5 Docking Station"],
         ["MacBook Pro with M5 Pro or M5 Max, triple or quad displays", "StarTech Thunderbolt 5 USB4 Dock"],
         ["MacBook with any chip, most granular per-chip breakdown", "iVANKY Thunderbolt 5 Dock Quad Display"],
-        ["Dual 8K displays with maximum total port count", "CalDigit TS5 Thunderbolt 5 Dock"],
+        ["Dual 8K displays with maximum total port count", "CalDigit TS5 Thunderbolt 5 Dock"]
       ],
     },
   },
@@ -109,9 +109,9 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $250", "iVANKY Thunderbolt 5 Dock Quad Display ($249.99)"],
-        ["Under $300", "StarTech Thunderbolt 5 USB4 Dock ($282.99) or Kensington SD5010T5 ($295.47)"],
-        ["Under $400", "CalDigit TS5 Thunderbolt 5 Dock ($399.95)"],
+        ["Under $250", "iVANKY Thunderbolt 5 Dock Quad Display (under $250)"],
+        ["Under $300", "StarTech Thunderbolt 5 USB4 Dock (under $300) or Kensington SD5010T5 (under $300)"],
+        ["Under $400", "CalDigit TS5 Thunderbolt 5 Dock (under $400)"]
       ],
     },
   },
@@ -119,7 +119,7 @@ export const howToChoose = [
     subheading: "Windows Triple 4K vs Mac Chip-Dependent Display Counts",
     cards: [
       { label: "Windows triple 4K (Kensington, StarTech)", text: "Both docks specifically support three 4K displays at high refresh rates on Windows Thunderbolt 5 hosts, a configuration that doesn't carry over identically to macOS on the same hardware." },
-      { label: "Mac chip-dependent (StarTech, iVANKY)", text: "On a Mac, your exact chip generation, not just the dock, determines your real display ceiling, with only M5 Pro and M5 Max chips unlocking triple or quad display support on these two picks." },
+      { label: "Mac chip-dependent (StarTech, iVANKY)", text: "On a Mac, your exact chip generation, not just the dock, determines your real display ceiling, with only M5 Pro and M5 Max chips unlocking triple or quad display support on these two picks." }
     ],
     note: "If you're on Windows, the Kensington or StarTech picks both deliver strong triple-display support out of the box. If you're on a Mac, check your exact chip against the StarTech or iVANKY listings before assuming you'll get their highest advertised display count.",
   },
@@ -130,7 +130,7 @@ export const howToChoose = [
       rows: [
         ["Monitors primarily using HDMI", "Kensington SD5010T5 Thunderbolt 5 Docking Station"],
         ["Mixed HDMI, DisplayPort, and USB-C monitors", "StarTech Thunderbolt 5 USB4 Dock"],
-        ["Monitors without a Type-C input on a Mac dock", "iVANKY Thunderbolt 5 Dock Quad Display (adapter required)"],
+        ["Monitors without a Type-C input on a Mac dock", "iVANKY Thunderbolt 5 Dock Quad Display (adapter required)"]
       ],
     },
   },
@@ -138,16 +138,16 @@ export const howToChoose = [
     subheading: "For a Shared Office Hot-Desking Setup Specifically",
     cards: [
       { label: "Look for", text: "A driverless, plug-and-play design that works consistently across both macOS and Windows without requiring per-user software installation, minimizing setup friction between different employees." },
-      { label: "In this comparison", text: "The StarTech pick specifically emphasizes driverless operation across Windows 11 and macOS 15/26, making it a strong fit for a shared, multi-user desk." },
+      { label: "In this comparison", text: "The StarTech pick specifically emphasizes driverless operation across Windows 11 and macOS 15/26, making it a strong fit for a shared, multi-user desk." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want the most comprehensive total port count alongside solid dual 8K display support, where the CalDigit TS5's $399.95 price is justified by its 15-port connectivity." },
-      { label: "Save if", text: "You're a MacBook owner who wants strong per-chip multi-display support without paying a premium, where the iVANKY pick delivers that for $249.99, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You want the most comprehensive total port count alongside solid dual 8K display support, where the CalDigit TS5's under $400 price is justified by its 15-port connectivity." },
+      { label: "Save if", text: "You're a MacBook owner who wants strong per-chip multi-display support without paying a premium, where the iVANKY pick delivers that for under $250, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

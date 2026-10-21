@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Built-in charging for multiple devices", "SEDETA 4 Drawers File Cabinet with Power Outlets"],
         ["A mechanical interlock safety system in steel", "Letaya Lateral 3 Drawer File Cabinet with Lock"],
         ["Farmhouse styling and drawer flexibility at a lower price", "SEDETA Farmhouse 3 Drawer File Cabinet"],
-        ["Mobile, tip-resistant storage at the lowest price", "DEVAISE 3-Drawer Mobile File Cabinet, Lateral"],
+        ["Mobile, tip-resistant storage at the lowest price", "DEVAISE 3-Drawer Mobile File Cabinet, Lateral"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $81", "DEVAISE ($80.74)"],
-        ["Under $140", "SEDETA Farmhouse 3-Drawer ($139.99)"],
-        ["Under $160", "SEDETA 4-Drawer w/Power Outlets ($159.99)"],
-        ["Under $180", "Letaya Lateral ($179.99)"],
+        ["Under $81", "DEVAISE (under $90)"],
+        ["Under $140", "SEDETA Farmhouse 3-Drawer (under $140)"],
+        ["Under $160", "SEDETA 4-Drawer w/Power Outlets (under $160)"],
+        ["Under $180", "Letaya Lateral (under $180)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Wood Farmhouse Styling vs All-Steel Interlock Safety",
     cards: [
       { label: "Wood farmhouse (both SEDETA picks)", text: "Prioritizes aesthetic appeal and multi-room versatility, better suited to a visible home office or living space." },
-      { label: "All-steel interlock (Letaya Lateral)", text: "Prioritizes mechanical tipping safety and long-term corrosion resistance, better for pure functional storage." },
+      { label: "All-steel interlock (Letaya Lateral)", text: "Prioritizes mechanical tipping safety and long-term corrosion resistance, better for pure functional storage." }
     ],
     note: "If your filing cabinet will be visible in a shared living space, the SEDETA wood picks offer genuine aesthetic value. If pure functional safety and durability matter more, the Letaya Lateral's steel interlock system is worth prioritizing.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your device charging needs", "Recommended pick"],
       rows: [
         ["Multiple devices charging simultaneously", "SEDETA 4-Drawer with Power Outlets"],
-        ["No charging needed, just storage", "Any of the other three picks"],
+        ["No charging needed, just storage", "Any of the other three picks"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For an L-Shaped Home Office Desk Setup Specifically",
     cards: [
       { label: "Look for", text: "A filing cabinet with a matching desktop height and finish specifically designed to combine with a computer desk." },
-      { label: "In this comparison", text: "The SEDETA 4-Drawer pick is specifically noted as combinable with a computer desk to form an L-shaped office area." },
+      { label: "In this comparison", text: "The SEDETA 4-Drawer pick is specifically noted as combinable with a computer desk to form an L-shaped office area." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want built-in charging for multiple devices alongside flexible file sizing, where the SEDETA 4-Drawer pick delivers a genuinely unique feature no other pick here offers." },
-      { label: "Save if", text: "You want mobile, tip-resistant storage without needing charging or farmhouse styling, where the DEVAISE pick covers that for a fraction of the price." },
+      { label: "Save if", text: "You want mobile, tip-resistant storage without needing charging or farmhouse styling, where the DEVAISE pick covers that for a fraction of the price." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

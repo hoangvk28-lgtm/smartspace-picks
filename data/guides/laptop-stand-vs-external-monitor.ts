@@ -12,7 +12,7 @@ export const laptopStandVsExternalMonitorGuide: Guide = {
     "do i need laptop stand or monitor",
     "laptop stand vs monitor ergonomics",
     "external monitor vs laptop riser",
-    "laptop stand only setup",
+    "laptop stand only setup"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const laptopStandVsExternalMonitorGuide: Guide = {
     "laptop-stand-height-chart",
     "external-keyboard-mouse-with-laptop-stand",
     "monitor-size-chart",
-    "ultrawide-vs-dual-monitor",
+    "ultrawide-vs-dual-monitor"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const laptopStandVsExternalMonitorGuide: Guide = {
       question: "Does a laptop stand improve laptop cooling too?",
       answer:
         "Many laptop stands improve airflow underneath the laptop compared to sitting flat on a desk, which can help with thermal performance during demanding tasks, though this varies by specific stand design and laptop model.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const laptopStandVsExternalMonitorGuide: Guide = {
     {
       heading: "Choosing Based on Budget and Actual Needs",
       body: `If your main concern is neck strain from looking down at a laptop and you don't need more screen space, a stand plus external keyboard and mouse solves this at meaningfully lower cost than adding a monitor. If you regularly work with multiple windows, spreadsheets, or documents side by side, the added screen space from an external monitor provides genuine productivity benefit beyond what a stand alone can offer.`,
-    },
+    }
   ],
 };

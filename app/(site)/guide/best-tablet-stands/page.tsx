@@ -119,7 +119,7 @@ export default async function BestTabletStandsPage() {
             { href: "#what-to-look-for", label: "What to look for" },
             { href: "#reviews", label: "Full reviews" },
             { href: "#comparison", label: "Comparison table" },
-            { href: "#faq", label: "FAQ" },
+            { href: "#faq", label: "FAQ" }
           ].map(({ href, label }) => (
             <a
               key={href}
@@ -144,7 +144,7 @@ export default async function BestTabletStandsPage() {
               {
                 icon: "🔩",
                 title: "Build material",
-                body: "ABS plastic works fine at $8–$10 but develops joint looseness over months. Al-Ti alloy stands (Lamicall, KABCON) cost a few dollars more and maintain their rigidity through years of daily use.",
+                body: "ABS plastic works fine at under $9–$10 but develops joint looseness over months. Al-Ti alloy stands (Lamicall, KABCON) cost a few dollars more and maintain their rigidity through years of daily use.",
               },
               {
                 icon: "📏",
@@ -155,7 +155,7 @@ export default async function BestTabletStandsPage() {
                 icon: "🎨",
                 title: "Use case: desk vs. bed vs. drawing",
                 body: "A desk stand should lock at eye level. A bed/floor stand needs height range (27\"–55\"). A drawing stand needs a locking mechanism that holds under stylus pressure. Each use case has a different best pick.",
-              },
+              }
             ].map((item) => (
               <div key={item.title} className="flex gap-3 p-4 rounded-xl border border-border bg-white">
                 <span className="text-2xl shrink-0 mt-0.5">{item.icon}</span>
@@ -254,7 +254,7 @@ export default async function BestTabletStandsPage() {
               ["Adjustability", "Range of angle and height adjustment, ease of repositioning, and whether the stand holds its position reliably after setting."],
               ["Build quality", "Material, joint tightness, and durability signals from both physical inspection and analysis of long-term buyer reviews (6+ months of use)."],
               ["Device compatibility", "Size range, case compatibility, and whether portrait and landscape modes are both supported without repositioning the base."],
-              ["Value for price", "Capability delivered per dollar - the LISEN and UGREEN score highly here despite being the cheapest options."],
+              ["Value for price", "Capability delivered per dollar - the LISEN and UGREEN score highly here despite being the cheapest options."]
             ].map(([label, desc]) => (
               <div key={label as string} className="p-4 rounded-xl bg-white border border-border">
                 <p className="text-sm font-semibold text-ink mb-1">{label}</p>
@@ -302,7 +302,7 @@ export default async function BestTabletStandsPage() {
             {[
               { href: "/guide/desk-lamps-small-desks", title: "Best Desk Lamps for Small Desks", label: "Desk Setup" },
               { href: "/guide/monitor-stands-small-desks", title: "Best Monitor Stands for Small Desks", label: "Desk Setup" },
-              { href: "/guide/laptop-stands-small-desks", title: "Best Laptop Stands for Small Desks", label: "Desk Setup" },
+              { href: "/guide/laptop-stands-small-desks", title: "Best Laptop Stands for Small Desks", label: "Desk Setup" }
             ].map((g) => (
               <Link prefetch={false}
                 key={g.href}

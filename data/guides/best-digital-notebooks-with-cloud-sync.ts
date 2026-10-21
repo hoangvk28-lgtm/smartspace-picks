@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook with cloud sync";
 export const introParagraphs = [
   "Cloud sync works differently depending on the product type: reusable paper notebooks sync via an app scan after you finish writing, e-ink devices sync files digitally in the background, and smart pen sets sync in real time as you write. We only included picks where cloud connectivity is explicitly stated on the listing.",
-  "Worth noting: cloud storage and full sync features on some premium e-ink devices have historically required a subscription, verify current requirements before budgeting for ongoing cloud access.",
+  "Worth noting: cloud storage and full sync features on some premium e-ink devices have historically required a subscription, verify current requirements before budgeting for ongoing cloud access."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Cloud sync method confirmed per product type", description: "Distinguished scan-triggered cloud sync (paper notebooks), background digital sync (e-ink devices), and real-time sync (smart pens) rather than treating them as identical." },
   { title: "Cloud connectivity only credited when explicitly stated", description: "Every pick's cloud sync claim was checked against the actual listing rather than assumed from the product category." },
   { title: "Subscription requirements flagged where relevant", description: "Noted that full cloud sync on some premium e-ink devices has historically required a subscription, a real total-cost-of-ownership factor." },
-  { title: "Sync speed weighed as a genuine differentiator", description: "Compared how quickly a note becomes available in the cloud, immediately for smart pens, in the background for e-ink devices, after a scan for paper notebooks." },
+  { title: "Sync speed weighed as a genuine differentiator", description: "Compared how quickly a note becomes available in the cloud, immediately for smart pens, in the background for e-ink devices, after a scan for paper notebooks." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -274,11 +274,11 @@ export const faq: FaqItem[] = [
   { q: "Do all digital notebooks sync to the cloud?", a: "No, only verify cloud sync on the specific listing you're considering, don't assume it based on the product category alone." },
   { q: "Does cloud sync happen in real time on every digital notebook?", a: "No, only smart pen sets typically sync in real time, e-ink devices sync in the background, and paper notebooks sync only when you scan a page." },
   { q: "Do I need a subscription for cloud sync?", a: "Some premium e-ink devices have historically required a subscription for full cloud features, verify current requirements on the manufacturer's page before buying." },
-  { q: "Which cloud services work with a Rocketbook?", a: "Rocketbook's app generally supports major services like Google Drive, Dropbox, and Evernote, verify the current list of supported services on the app." },
+  { q: "Which cloud services work with a Rocketbook?", a: "Rocketbook's app generally supports major services like Google Drive, Dropbox, and Evernote, verify the current list of supported services on the app." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-smart-digital-notebooks", title: "Best Smart Digital Notebooks (2026)" },
   { href: "/guide/best-digital-notebooks-for-mac-users", title: "Best Digital Notebooks for Mac Users (2026)" },
-  { href: "/guide/best-electronic-digital-notebooks", title: "Best Electronic Digital Notebooks (2026)" },
+  { href: "/guide/best-electronic-digital-notebooks", title: "Best Electronic Digital Notebooks (2026)" }
 ];

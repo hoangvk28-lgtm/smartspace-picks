@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $242.10",
+          "Under $250",
           "SainSmart Genmitsu 3018-PROVer V2 CNC Router Machine for Beginners"
         ],
         [
-          "Around $269.00",
+          "Under $300",
           "Genmitsu 3018-PROVer V2 CNC Milling Machine for Beginners"
         ],
         [
-          "Around $449.10",
+          "Under $450",
           "Genmitsu 3020-PRO MAX V2 CNC Router Machine"
         ],
         [
-          "Around $487.20",
+          "Under $500",
           "SainSmart Genmitsu 3020-PRO Ultra CNC Router Machine"
         ],
         [
-          "Around $911.05",
+          "Under $950",
           "SainSmart Genmitsu 4040-PRO MAX CNC Router with 710W Trimmer"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "SainSmart Genmitsu 3018-PROVer V2 CNC Router Machine for Beginners is aimed at buyers prioritizing pre-assembled gantry + spoilboard, sub-1hr setup." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "SainSmart Genmitsu 3018-PROVer V2 CNC Router Machine for Beginners is aimed at buyers prioritizing pre-assembled gantry + spoilboard, sub-1hr setup." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-carvera-desktop-cnc-machines","title":"Best Carvera Desktop CNC Machines in 2026"},{"href":"/guide/best-bantam-tools-desktop-cnc-machines","title":"Best Bantam Tools Desktop CNC Machines in 2026"},{"href":"/guide/best-makera-desktop-cnc-machines","title":"Best Makera Desktop CNC Machines in 2026"}];

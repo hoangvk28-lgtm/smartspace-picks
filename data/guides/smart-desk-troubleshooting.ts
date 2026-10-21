@@ -12,7 +12,7 @@ export const smartDeskTroubleshootingGuide: Guide = {
     "smart plug offline fix",
     "voice assistant not responding desk",
     "smart device app pairing fail",
-    "smart lamp not connecting wifi",
+    "smart lamp not connecting wifi"
   ],
   heroImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const smartDeskTroubleshootingGuide: Guide = {
     "smart-plug-desk-setup-explained",
     "voice-assistant-desk-integration",
     "smart-desk-height-memory-explained",
-    "home-network-troubleshooting",
+    "home-network-troubleshooting"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const smartDeskTroubleshootingGuide: Guide = {
       question: "Why does my smart lamp only work with the app but not with voice commands?",
       answer:
         "This suggests the lamp hasn't been properly linked to your voice assistant's specific ecosystem, even though it's connected to its own app, check your voice assistant app's device linking or skill/integration settings to ensure the lamp is specifically added there as well.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ export const smartDeskTroubleshootingGuide: Guide = {
     {
       heading: "Why App Connectivity and Voice Assistant Integration Are Separate Setup Steps",
       body: `It's a common point of confusion that a smart device working perfectly through its own dedicated app doesn't automatically mean it will respond to voice commands through a separate voice assistant ecosystem, these are genuinely two separate integration steps, the device connecting to its own app and network, and then that device being specifically added and linked within the voice assistant's own app or settings as a recognized, controllable device, skipping this second linking step is why a device can appear fully functional via its own app while remaining completely unresponsive to voice commands.`,
-    },
+    }
   ],
 };

@@ -54,7 +54,7 @@ export const products: StandingDesk500[] = [
     tradeoffs: [
       "28.9\" minimum height - not ideal for users under 5'2\"",
       "White/white colorway only in most listings",
-      "Larger footprint than 48x24 alternatives",
+      "Larger footprint than 48x24 alternatives"
     ],
     skipIf:
       "You are under 5'2\" (minimum 28.9\" may be too high for seated ergonomics) or your room is under 60\" wide.",
@@ -63,12 +63,12 @@ export const products: StandingDesk500[] = [
       "55x28\" seamless one-piece top - no center seam",
       "USB-A charging port in memory controller",
       "5-year FlexiSpot warranty",
-      "Under 45dB - among quietest at this price",
+      "Under 45dB - among quietest at this price"
     ],
     cons: [
       "28.9\" min height - not for users under 5'2\"",
       "White/white may not suit all aesthetics",
-      "Larger footprint",
+      "Larger footprint"
     ],
   },
   {
@@ -92,7 +92,7 @@ export const products: StandingDesk500[] = [
     tradeoffs: [
       "220 lb capacity - lower than EC3 despite higher price",
       "Black colorway only in this listing",
-      "Largest footprint - requires 60\" of wall space minimum",
+      "Largest footprint - requires 60\" of wall space minimum"
     ],
     skipIf:
       "You do not need 60\" of width. The FlexiSpot EC3 at $100-$150 less has better weight capacity and a USB port.",
@@ -101,12 +101,12 @@ export const products: StandingDesk500[] = [
       "50.5\" max / 25.5\" min - best height range here, suits 4'11\" to 6'4\"",
       "Commercial T-frame construction",
       "Tool-free assembly in 30 min",
-      "5-year warranty",
+      "5-year warranty"
     ],
     cons: [
       "220 lb capacity lower than EC3",
       "Black colorway only",
-      "Largest footprint requires 60\" wall space",
+      "Largest footprint requires 60\" wall space"
     ],
   },
   {
@@ -131,7 +131,7 @@ export const products: StandingDesk500[] = [
       "47.2\" max height - lowest in this guide, not for users 6'0\"+",
       "L-shape requires corner placement - no flexible positioning",
       "1-2 year warranty - shortest in this guide",
-      "Assembly typically 90-120 minutes",
+      "Assembly typically 90-120 minutes"
     ],
     skipIf:
       "You are 6'0\" or taller. The 47.2\" max height does not reach ergonomic standing position for taller users.",
@@ -140,13 +140,13 @@ export const products: StandingDesk500[] = [
       "Triple motor - most structural stability here",
       "330 lb - highest capacity in this guide",
       "3 built-in drawers",
-      "Corner config maximizes small room layouts",
+      "Corner config maximizes small room layouts"
     ],
     cons: [
       "47.2\" max height - not for 6'0\"+",
       "Corner placement required",
       "1-2 year warranty - shortest here",
-      "90-120 min assembly",
+      "90-120 min assembly"
     ],
   },
   {
@@ -166,25 +166,25 @@ export const products: StandingDesk500[] = [
     imageUrl: `${BASE}/standing-desk-best-standing-desk-under-500-vari-comfortedge-48x30-black.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CT8XYKCL?tag=deskfinds0d-20",
     whyItWorks:
-      "Sloped waterfall front edge reduces wrist and forearm pressure when resting arms on the desk during long typing sessions. 25\"-50.5\" height range matches the Vari Classic in a more compact 48x30\" footprint. Most affordable Vari option at $399 with the same T-frame and 5-year warranty.",
+      "Sloped waterfall front edge reduces wrist and forearm pressure when resting arms on the desk during long typing sessions. 25\"-50.5\" height range matches the Vari Classic in a more compact 48x30\" footprint. Most affordable Vari option at under $400 with the same T-frame and 5-year warranty.",
     tradeoffs: [
       "220 lb capacity - same as Classic, lower than EC3",
       "48\" width - not sufficient for ultrawide or true dual monitors",
-      "Black only in this listing",
+      "Black only in this listing"
     ],
     skipIf:
       "You need more than 48\" of width. The Vari Classic at $450-$499 provides 60\" at a similar price point.",
     pros: [
       "Sloped waterfall front edge - reduces wrist/forearm pressure",
       "25\"-50.5\" range in 48x30\" compact footprint",
-      "Most affordable Vari option at $399",
+      "Most affordable Vari option at under $400",
       "5-year warranty",
-      "Commercial T-frame quality",
+      "Commercial T-frame quality"
     ],
     cons: [
       "220 lb capacity",
       "48\" width - not for dual monitors",
-      "Black only",
+      "Black only"
     ],
   },
   {
@@ -209,7 +209,7 @@ export const products: StandingDesk500[] = [
       "46.9\" max height - lowest in this guide, restrictive for users 6'0\"+",
       "27.2\" min height - not ideal for users under 5'3\"",
       "Heaviest and most complex assembly",
-      "$499 - highest price",
+      "$499 - highest price"
     ],
     skipIf:
       "You are 6'0\" or taller. The 46.9\" max height does not clear ergonomic standing position for tall users.",
@@ -218,15 +218,15 @@ export const products: StandingDesk500[] = [
       "4-leg frame - maximum stability, no directional sway",
       "Built-in power outlets + USB in desktop",
       "Integrated cable management",
-      "5-year FlexiSpot warranty",
+      "5-year FlexiSpot warranty"
     ],
     cons: [
       "46.9\" max height - not for 6'0\"+",
       "27.2\" min - not for users under 5'3\"",
       "Heaviest assembly",
-      "$499 highest price",
+      "$499 highest price"
     ],
-  },
+  }
 ];
 
 export const atAGlanceRows = products.map((p) => ({
@@ -259,7 +259,7 @@ export const faq: { q: string; a: string }[] = [
   {
     q: "Can I put a monitor arm on a standing desk under $500?",
     a: "Yes - all five desks in this guide support standard monitor arms (VESA 75x75 or 100x100). The FlexiSpot EC3 (275 lb) and Fezibo Triple Motor (330 lb) provide the most overhead capacity for heavy dual-arm configurations.",
-  },
+  }
 ];
 
 export const relatedGuides = [
@@ -278,5 +278,5 @@ export const relatedGuides = [
   {
     href: "/guide/ergonomic-desk-setup",
     title: "Ergonomic Desk Setup Guide",
-  },
+  }
 ];

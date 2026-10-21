@@ -12,7 +12,7 @@ export const underDeskStorageOptionsExplainedGuide: Guide = {
     "rolling drawer unit under desk",
     "hanging under desk organizer",
     "under desk shelf storage",
-    "best under desk storage solution",
+    "best under desk storage solution"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const underDeskStorageOptionsExplainedGuide: Guide = {
     "desk-organizer-types-explained",
     "pegboard-desk-organization-explained",
     "standing-desk-weight-capacity-explained",
-    "what-size-desk-do-i-need",
+    "what-size-desk-do-i-need"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const underDeskStorageOptionsExplainedGuide: Guide = {
       question: "What items work best in under-desk storage?",
       answer:
         "Items you don't need constant immediate access to, extra supplies, less frequently used cables or accessories, or a small personal bag, work well, reserve your most frequently accessed items for desk surface or drawer storage that's easier to reach without bending down.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const underDeskStorageOptionsExplainedGuide: Guide = {
     {
       heading: "Why Hanging Storage Solves the Legroom Problem Entirely",
       body: `A hanging organizer attached to the underside of the desk surface itself avoids the legroom tradeoff completely, since it occupies space above where your legs sit rather than competing with it. This makes it a particularly good choice for anyone who's already found their under-desk floor space constrained, whether by a footrest, an anti-fatigue mat, or simply a smaller desk, without wanting to give up the storage benefit entirely.`,
-    },
+    }
   ],
 };

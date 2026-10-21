@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable file boxes with wheels";
 export const introParagraphs = [
   "Wheels genuinely help when moving a heavy, fully loaded file box between rooms or offices, but add unnecessary bulk and cost if you mostly carry a lighter box by handle over short distances. We tested rolling smoothness across both carpet and hard floor surfaces, since small caster wheels perform very differently depending on surface type.",
-  "We also checked for a wheel-locking mechanism to prevent unwanted rolling when the box is meant to stay stationary.",
+  "We also checked for a wheel-locking mechanism to prevent unwanted rolling when the box is meant to stay stationary."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Rolling smoothness across floor surfaces", description: "We considered how small caster wheels perform differently on carpet versus hard flooring, a real variable for this product category." },
   { title: "Honest genuine-benefit assessment", description: "We evaluated whether wheels genuinely aid portability for each box's typical use case, or add unnecessary bulk for a lighter product more commonly carried by handle." },
   { title: "Wheel locking mechanism", description: "We checked for a locking feature to prevent unwanted rolling when the box is meant to stay stationary." },
-  { title: "Weight capacity and wheel durability", description: "We considered whether the wheels are rated for the concentrated point-load stress of a fully loaded box, distinct from a simply carried box's weight distribution." },
+  { title: "Weight capacity and wheel durability", description: "We considered whether the wheels are rated for the concentrated point-load stress of a fully loaded box, distinct from a simply carried box's weight distribution." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -228,11 +228,11 @@ export const faq: FaqItem[] = [
   { q: "Do these wheels work well on carpet?", a: "Performance varies by flooring. Small caster wheels roll smoothly on hard floors but require more effort and can catch on thicker carpet pile." },
   { q: "Can I lock the wheels so the box doesn't roll away?", a: "The Sbanmao 3-drawer cabinet explicitly includes lockable wheels. Check the specific product for this feature if stability matters for your use case." },
   { q: "Is a rolling crate the same as a wheeled file box?", a: "Not exactly. A rolling crate like the dbest Products pick is more general-purpose and doesn't include dedicated hanging file rails, unlike a purpose-built file box." },
-  { q: "Should I get a single wheeled box or a multi-drawer rolling cabinet?", a: "If your storage needs exceed what one box holds, a rolling cabinet like the Sbanmao pick offers substantially more capacity, though it's a larger, different product category." },
+  { q: "Should I get a single wheeled box or a multi-drawer rolling cabinet?", a: "If your storage needs exceed what one box holds, a rolling cabinet like the Sbanmao pick offers substantially more capacity, though it's a larger, different product category." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-file-boxes", title: "Best Portable File Boxes (2026)" },
   { href: "/guide/best-portable-file-cabinets-on-wheels", title: "Best Portable File Cabinets on Wheels (2026)" },
-  { href: "/guide/best-rolling-portable-file-boxes", title: "Best Rolling Portable File Boxes (2026)" },
+  { href: "/guide/best-rolling-portable-file-boxes", title: "Best Rolling Portable File Boxes (2026)" }
 ];

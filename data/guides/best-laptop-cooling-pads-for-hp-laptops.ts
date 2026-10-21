@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop cooling pads for hp laptops";
 export const introParagraphs = [
   "Laptop cooling pads for HP laptops must be matched to the actual chassis rather than the brand name alone. HP's lineup spans thin Spectre and Envy ultrabooks, mainstream Pavilion laptops, business EliteBook and ProBook models, and the Omen gaming line, each with different weight and heat profiles.",
-  "None of the pads in this guide are HP-exclusive hardware, they are universal-fit cooling pads whose stated size and weight ranges genuinely cover HP's typical laptop dimensions, verified from their real specifications rather than assumed from the brand being listed.",
+  "None of the pads in this guide are HP-exclusive hardware, they are universal-fit cooling pads whose stated size and weight ranges genuinely cover HP's typical laptop dimensions, verified from their real specifications rather than assumed from the brand being listed."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Named HP compatibility verification", description: "We prioritized listings that explicitly name HP among their compatible brands, over ones with no stated brand list." },
   { title: "HP product-line scope", description: "We considered HP's diverse lineup, Spectre and Envy ultrabooks, Pavilion mainstream laptops, EliteBook and ProBook business models, and Omen gaming laptops, since these have very different weights and heat profiles." },
   { title: "Size range against typical HP laptop dimensions", description: "We compared stated compatible ranges against HP's typical chassis sizes across its different product lines." },
-  { title: "USB-C relevance for newer HP ultrabooks", description: "We noted which pads offer USB-C compatibility, relevant since several newer HP Spectre and Envy models rely primarily on that connector." },
+  { title: "USB-C relevance for newer HP ultrabooks", description: "We noted which pads offer USB-C compatibility, relevant since several newer HP Spectre and Envy models rely primarily on that connector." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -259,11 +259,11 @@ export const faq: FaqItem[] = [
   { q: "What's the best pad for HP Omen gaming laptops?", a: "The Trullypine 12-Fan Pad offers the strongest airflow in this guide, relevant for HP Omen's higher sustained heat output under gaming loads." },
   { q: "Does my HP Spectre need USB-C compatibility?", a: "If your Spectre or Envy model lacks USB-A ports, look for the TECKNET pick's dual USB-C and USB-A design to avoid needing a separate adapter." },
   { q: "Is a 3-fan pad enough for an HP Pavilion?", a: "For general productivity use, yes. If you run more demanding software on a Pavilion, consider a higher fan-count pick from this guide instead." },
-  { q: "How do I know if a pad will actually fit my HP laptop?", a: "Check the pad's stated compatible size range against your specific HP model's actual dimensions, rather than assuming any pad naming HP in its feature list guarantees a perfect fit." },
+  { q: "How do I know if a pad will actually fit my HP laptop?", a: "Check the pad's stated compatible size range against your specific HP model's actual dimensions, rather than assuming any pad naming HP in its feature list guarantees a perfect fit." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-cooling-pads-for-dell-laptops", title: "Best Laptop Cooling Pads for Dell Laptops (2026)" },
   { href: "/guide/best-gaming-laptop-cooling-pads", title: "Best Gaming Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" }
 ];

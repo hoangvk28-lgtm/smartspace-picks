@@ -123,7 +123,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Android/Samsung wireless charging", "Wireless Charger for Samsung, 3-in-1 Android Charging Station"],
         ["Apple wireless charging for phone, watch, earbuds", "3-in-1 Fast Wireless Charging Station for Multiple Apple Devices"],
         ["Universal cable-based charging for mixed devices", "Bamboo Charging Station for Multiple Devices"],
-        ["Dedicated holders for watch and earbuds case", "Pezin & Hulin Bamboo Phone Charging Stand"],
+        ["Dedicated holders for watch and earbuds case", "Pezin & Hulin Bamboo Phone Charging Stand"]
       ],
     },
   },
@@ -132,8 +132,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $23", "Android/Samsung wireless station ($21.97) or bamboo organizer ($22.99)"],
-        ["Up to $30", "Apple 3-in-1 wireless station ($25.68) or Pezin & Hulin with holders ($29.69)"],
+        ["Under $23", "Android/Samsung wireless station (under $25) or bamboo organizer (under $25)"],
+        ["Up to $30", "Apple 3-in-1 wireless station (under $30) or Pezin & Hulin with holders (under $30)"]
       ],
     },
   },
@@ -147,7 +147,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "Cable-based bamboo organizer",
         text: "Works with any device from any brand as long as you have the right cable, but requires cables and typically a separate power adapter.",
-      },
+      }
     ],
     note: "If everyone at your desk uses the same ecosystem (all Apple or all Android), a wireless station is more convenient; for mixed devices, a universal cable organizer is more practical.",
   },
@@ -158,7 +158,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["iPhone, Apple Watch, AirPods", "3-in-1 Fast Wireless Charging Station for Apple Devices"],
         ["Samsung phone and Android wireless earbuds/watch", "Wireless Charger for Samsung, 3-in-1 Android"],
-        ["Mixed brands or non-wireless-charging devices", "Bamboo Charging Station or Pezin & Hulin with holders"],
+        ["Mixed brands or non-wireless-charging devices", "Bamboo Charging Station or Pezin & Hulin with holders"]
       ],
     },
   },
@@ -172,7 +172,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "Pezin & Hulin's bamboo stand is the pick here specifically built with shaped holders for a watch and earbuds case.",
-      },
+      }
     ],
   },
   {
@@ -180,14 +180,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You want dedicated shaped holders for a watch and earbuds case alongside phone charging: Pezin & Hulin ($29.69) is the only pick here built specifically for that.",
+        text: "You want dedicated shaped holders for a watch and earbuds case alongside phone charging: Pezin & Hulin (under $30) is the only pick here built specifically for that.",
       },
       {
         label: "Save if",
-        text: "You just need basic wireless charging for one ecosystem: the Android/Samsung station ($21.97) covers that core need at the lowest price here.",
-      },
+        text: "You just need basic wireless charging for one ecosystem: the Android/Samsung station (under $25) covers that core need at the lowest price here.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -242,5 +242,5 @@ export const faq = [
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-charging-stations-for-multiple-devices-desk-under-50", title: "Best Multi-Device Charging Stations Under $50" },
-  { href: "/guide/best-desk-setup-accessories", title: "Best Desk Setup Accessories" },
+  { href: "/guide/best-desk-setup-accessories", title: "Best Desk Setup Accessories" }
 ];

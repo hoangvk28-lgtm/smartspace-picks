@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "mini desk clock";
 export const introParagraphs = [
   "Mini implies the smallest of the small, so this guide ranks the same compact analog clock pool covered in our small desk clocks guide, but strictly by physical footprint rather than a balance of size and decorative presence. If overall readability and material quality matter as much as size to you, that broader guide is the better starting point, this one is for buyers who have decided compactness is the priority, full stop.",
-  "All four picks are genuinely analog clocks, and one doubles as a travel alarm clock, useful if you want a mini clock that also earns its keep in a bag.",
+  "All four picks are genuinely analog clocks, and one doubles as a travel alarm clock, useful if you want a mini clock that also earns its keep in a bag."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "6 min";
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Ranked strictly by physical footprint, not overall balance", description: "Ordered picks by actual measured size first, a different ranking method than our small desk clocks guide, which balances size against readability and material." },
   { title: "Confirmed portability for the top pick specifically", description: "Verified the Peakeep clock's travel-clock design and silent movement genuinely support tossing it in a bag, not just sitting on a desk." },
   { title: "Flagged the largest included clock as a boundary case", description: "Included the QIYAODECO gold clock last with an explicit note that it stretches the definition of mini, rather than silently including it as equally compact." },
-  { title: "Checked material and finish quality separately from size", description: "Noted where a smaller clock trades decorative material for compactness, and where a slightly larger clock offers more visual character in return." },
+  { title: "Checked material and finish quality separately from size", description: "Noted where a smaller clock trades decorative material for compactness, and where a slightly larger clock offers more visual character in return." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -226,11 +226,11 @@ export const faq: FaqItem[] = [
   { q: "What's the smallest desk clock in this guide?", a: "The Peakeep Small Battery Operated Analog Travel Alarm Clock is the most compact and genuinely portable pick here." },
   { q: "How is this guide different from your small desk clocks guide?", a: "This guide ranks strictly by physical compactness, while the small desk clocks guide balances size against readability and decorative material, using an overlapping but differently ordered product pool." },
   { q: "Can I travel with a mini desk clock?", a: "Only the Peakeep pick in this guide is specifically designed as a travel clock with an alarm function, the other picks are meant for stationary desk or shelf use." },
-  { q: "Is the QIYAODECO gold clock really mini?", a: "It's the largest pick in this guide and stretches the definition of mini, we included it as a boundary reference but recommend the other three picks if compactness is your priority." },
+  { q: "Is the QIYAODECO gold clock really mini?", a: "It's the largest pick in this guide and stretches the definition of mini, we included it as a boundary reference but recommend the other three picks if compactness is your priority." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-desk-clocks", title: "Best Small Desk Clocks (2026)" },
   { href: "/guide/best-analog-desk-clocks", title: "Best Analog Desk Clocks (2026)" },
-  { href: "/guide/best-desk-clocks", title: "Best Desk Clocks (2026)" },
+  { href: "/guide/best-desk-clocks", title: "Best Desk Clocks (2026)" }
 ];

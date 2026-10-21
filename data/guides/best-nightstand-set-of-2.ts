@@ -5,8 +5,8 @@ export const metaDescription =
   "7 best nightstand sets of 2 in 2026, from a soft-close budget pair to matching LED charging sets. Compare drawers, USB-C, capacity, and price per set.";
 export const mainKeyword = "nightstands set of 2";
 export const introParagraphs = [
-  "Buying nightstands as a matching set of 2 keeps both sides of the bed visually consistent, but the pairs in this niche vary a lot in what's actually inside each table, from plain open shelves to soft-close drawers to full USB-C charging stations. Price is almost always listed per set, so a $39.98 pair and a $99.99 pair aren't necessarily 2.5x apart per table.",
-  "Below are 7 nightstand sets of 2 we evaluated on per-table storage, charging capability, and build quality, ranging from a $39.98 open-shelf pair to a $99.99 farmhouse-style set with the highest per-table load rating in this list.",
+  "Buying nightstands as a matching set of 2 keeps both sides of the bed visually consistent, but the pairs in this niche vary a lot in what's actually inside each table, from plain open shelves to soft-close drawers to full USB-C charging stations. Price is almost always listed per set, so an under-$40 pair and an under-$100 pair aren't necessarily 2.5x apart per table.",
+  "Below are 7 nightstand sets of 2 we evaluated on per-table storage, charging capability, and build quality, ranging from an under-$40 open-shelf pair to an under-$100 farmhouse-style set with the highest per-table load rating in this list."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -70,18 +70,18 @@ export const products: GuideProduct[] = [
       "Particleboard + metal, set of 2",
       "1 AC outlet + 1 USB-A + 1 USB-C per table",
       "2-layer open shelves per table",
-      "4.9ft cord, adjustable feet",
+      "4.9ft cord, adjustable feet"
     ],
     pros: [
       "Best-reviewed set of 2 in this list",
       "USB-C included on both tables",
       "4.9ft cord reaches farther outlets",
-      "Adjustable feet for uneven floors",
+      "Adjustable feet for uneven floors"
     ],
     cons: [
       "Open shelves only, no drawers",
       "Compact 21.7\" height suits lower beds",
-      "Only 1 AC outlet per table",
+      "Only 1 AC outlet per table"
     ],
     bestFor: "Buyers who want the best-reviewed charging set without drawers",
   },
@@ -102,18 +102,18 @@ export const products: GuideProduct[] = [
       "P2 MDF + wood, set of 2",
       "2 soft-close drawers per table with plastic stoppers",
       "Waterproof surface, curved legs",
-      "50 lb capacity per table, no charging ports",
+      "50 lb capacity per table, no charging ports"
     ],
     pros: [
       "Only soft-close drawer pick in this list",
       "Waterproof surface",
       "Curved legs for a softer look",
-      "Solid 50 lb per-table capacity",
+      "Solid 50 lb per-table capacity"
     ],
     cons: [
       "No charging ports at all",
       "Pricier than most sets in this list",
-      "White finish shows scuffs more visibly",
+      "White finish shows scuffs more visibly"
     ],
     bestFor: "Buyers who want quiet, soft-close drawers over charging ports",
   },
@@ -134,18 +134,18 @@ export const products: GuideProduct[] = [
       "Particleboard + metal, set of 2",
       "2 outlets + 2 USB per table",
       "App-controlled LED",
-      "2 fabric drawers per table, 2-tier open shelves, 4.9ft cord",
+      "2 fabric drawers per table, 2-tier open shelves, 4.9ft cord"
     ],
     pros: [
       "LED lighting on both matching tables",
       "2 outlets + 2 USB per table",
       "2 drawers plus open shelving per table",
-      "Reasonably priced for the feature set",
+      "Reasonably priced for the feature set"
     ],
     cons: [
       "No USB-C port confirmed",
       "Lower rating than the top picks in this list",
-      "Particleboard construction",
+      "Particleboard construction"
     ],
     bestFor: "Buyers who want matching LED lighting and charging on a budget",
   },
@@ -166,18 +166,18 @@ export const products: GuideProduct[] = [
       "FSC wood + metal, set of 2",
       "2 outlets + 1 USB-A + 1 USB-C per table",
       "RGB LED",
-      "2 fabric drawers per table, 4-tier, stain resistant, lifetime warranty",
+      "2 fabric drawers per table, 4-tier, stain resistant, lifetime warranty"
     ],
     pros: [
       "Only lifetime-warranty pick in this list",
       "USB-C included on both tables",
       "4-tier design with 2 drawers per table",
-      "FSC-certified wood",
+      "FSC-certified wood"
     ],
     cons: [
       "Smaller review sample than the top-ranked picks",
       "RGB LED adds a bit more cost than a non-LED equivalent",
-      "Black finish shows dust more than lighter woods",
+      "Black finish shows dust more than lighter woods"
     ],
     bestFor: "Buyers who want a lifetime warranty on their matching charging set",
   },
@@ -198,18 +198,18 @@ export const products: GuideProduct[] = [
       "FSC wood + metal, set of 2",
       "2 outlets + 1 USB-A + 1 USB-C per table",
       "3-tier layout",
-      "1 fabric drawer per table, stain resistant, lightweight, lifetime warranty",
+      "1 fabric drawer per table, stain resistant, lightweight, lifetime warranty"
     ],
     pros: [
       "Cheapest set with USB-C and charging in this list",
       "Lifetime warranty",
       "Lightweight and easy to move",
-      "Stain-resistant finish",
+      "Stain-resistant finish"
     ],
     cons: [
       "Only 1 drawer per table",
       "Smallest review sample in this list",
-      "Less storage than the brand's 2-drawer version",
+      "Less storage than the brand's 2-drawer version"
     ],
     bestFor: "Tight budgets that still want USB-C charging on both nightstands",
   },
@@ -230,18 +230,18 @@ export const products: GuideProduct[] = [
       "FSC wood + metal, set of 2",
       "2 outlets + 1 USB-A + 1 USB-C per table",
       "4-tier layout",
-      "2 fabric drawers per table, stain resistant, lifetime warranty",
+      "2 fabric drawers per table, stain resistant, lifetime warranty"
     ],
     pros: [
       "Most drawers per table among charging sets in this list",
       "USB-C included on both tables",
       "Lifetime warranty",
-      "Same stain-resistant finish as the rest of the LOAKEKEL lineup",
+      "Same stain-resistant finish as the rest of the LOAKEKEL lineup"
     ],
     cons: [
       "Costs more than the brand's 3-tier version",
       "Smaller review sample than the top picks",
-      "Still fewer tiers than the 4-tier LED variant",
+      "Still fewer tiers than the 4-tier LED variant"
     ],
     bestFor: "Buyers who want the most drawer storage within the LOAKEKEL lineup",
   },
@@ -262,21 +262,21 @@ export const products: GuideProduct[] = [
       "MDF, set of 2",
       "2 outlets + 1 USB-A + 1 USB-C per table",
       "1 drawer + 1 open shelf per table",
-      "132 lb total load rating per table, 2 colorways",
+      "132 lb total load rating per table, 2 colorways"
     ],
     pros: [
       "Highest per-table load rating in this list at 132 lbs",
       "Widest per-table footprint in this list",
       "USB-C included",
-      "Available in 2 colorways",
+      "Available in 2 colorways"
     ],
     cons: [
       "Most expensive set in this list",
       "Lowest rating among the picks here",
-      "Large footprint needs more bedside space",
+      "Large footprint needs more bedside space"
     ],
     bestFor: "Larger bedrooms that want the highest-capacity, widest matching set",
-  },
+  }
 ];
 
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
@@ -299,7 +299,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value per set",
     description: "Weighed total price against combined charging, storage, and warranty across both tables, from the HOOBRO set to the VASAGLE LIRY set.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -424,7 +424,7 @@ export const howToChoose: HowToChooseSection[] = [
 export const faq: FaqItem[] = [
   {
     q: "Is it cheaper to buy a matching set of 2 nightstands or 2 single ones?",
-    a: "It depends on the set. Divide the total set price by 2 and compare that per-table cost to single nightstands with similar features; a $39.98 set like the HOOBRO pair works out to under $20 per table, often cheaper than buying 2 single nightstands separately, while a $99.99 set like the VASAGLE LIRY is closer to standard single-nightstand pricing per table.",
+    a: "It depends on the set. Divide the total set price by 2 and compare that per-table cost to single nightstands with similar features; an under-$40 set like the HOOBRO pair works out to under $20 per table, often cheaper than buying 2 single nightstands separately, while an under-$100 set like the VASAGLE LIRY is closer to standard single-nightstand pricing per table.",
   },
   {
     q: "Do all the tables in a set-of-2 nightstand have matching charging ports?",
@@ -441,11 +441,11 @@ export const faq: FaqItem[] = [
   {
     q: "Should both nightstands in a set always be identical?",
     a: "For most buyers, yes, matching height keeps both sides of the bed level with the mattress top and looks intentional rather than mismatched. All 7 sets in this list ship as genuinely identical pairs, unlike buying 2 single nightstands from different product lines where small height or finish differences are more likely.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-nightstand-charging-station", title: "Best Nightstands with Charging Station (2026)" },
   { href: "/guide/best-nightstand-with-drawers", title: "Best Nightstands with Drawers (2026)" },
-  { href: "/guide/best-room-divider-with-storage", title: "Best Room Dividers with Storage (2026)" },
+  { href: "/guide/best-room-divider-with-storage", title: "Best Room Dividers with Storage (2026)" }
 ];

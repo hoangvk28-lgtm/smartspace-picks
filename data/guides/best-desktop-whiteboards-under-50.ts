@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["The sturdiest, most durable large glass board", "AMUSIGHT Tempered Glass Whiteboard 24\" x 18\""],
         ["The most stable adjustable stand with a long warranty", "ZHIDIAN Magnetic Glass Whiteboard Desktop Easel, 16x12"],
-        ["Genuine glass quality while saving significantly", "TSJ OFFICE Small Desktop Whiteboard with Drawer"],
+        ["Genuine glass quality while saving significantly", "TSJ OFFICE Small Desktop Whiteboard with Drawer"]
       ],
     },
   },
@@ -116,9 +116,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $25", "TSJ OFFICE with Drawer ($24.69)"],
-        ["$29-$34", "Quartet Compact ($29.76) or AMUSIGHT 24x18 ($33.34)"],
-        ["Just above $50", "ZHIDIAN Adjustable Easel ($53.99)"],
+        ["Under $25", "TSJ OFFICE with Drawer (under $25)"],
+        ["$29-$34", "Quartet Compact (under $30) or AMUSIGHT 24x18 (under $35)"],
+        ["Just above $50", "ZHIDIAN Adjustable Easel (under $60)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Larger Fixed Glass vs Adjustable Easel Stand",
     cards: [
       { label: "Larger Fixed Glass (AMUSIGHT)", text: "Maximum writing space and structural durability, mounted or standing in one fixed position rather than adjusting on the fly." },
-      { label: "Adjustable Easel Stand (ZHIDIAN)", text: "A stable, tightening stand mechanism lets you dial in your exact preferred writing angle, at a smaller overall size." },
+      { label: "Adjustable Easel Stand (ZHIDIAN)", text: "A stable, tightening stand mechanism lets you dial in your exact preferred writing angle, at a smaller overall size." }
     ],
     note: "If maximum writing space matters most, the AMUSIGHT pick delivers it. If a precisely adjustable angle matters more than raw size, the ZHIDIAN pick's stand mechanism is worth the smaller footprint.",
   },
@@ -136,7 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your priority", "Recommended pick"],
       rows: [
         ["Longest stated warranty coverage", "ZHIDIAN Magnetic Glass Whiteboard Desktop Easel (15-year warranty)"],
-        ["Standard coverage, prioritizing other features", "AMUSIGHT, TSJ OFFICE, or Quartet"],
+        ["Standard coverage, prioritizing other features", "AMUSIGHT, TSJ OFFICE, or Quartet"]
       ],
     },
   },
@@ -144,16 +144,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Air Quality Conscious Buyers Specifically",
     cards: [
       { label: "Look for", text: "A specific, named third-party certification for low emissions rather than a generic \"eco-friendly\" marketing claim." },
-      { label: "In this comparison", text: "The Quartet Glass Dry Erase White Board is the only pick specifically stating GREENGUARD Gold Certification." },
+      { label: "In this comparison", text: "The Quartet Glass Dry Erase White Board is the only pick specifically stating GREENGUARD Gold Certification." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the most stable adjustable stand and the longest warranty coverage, where the ZHIDIAN pick delivers both, just above this guide's ceiling." },
-      { label: "Save if", text: "Genuine glass quality with drawer storage covers your needs, where the TSJ OFFICE pick delivers this at meaningfully less than the pricier alternatives here." },
+      { label: "Save if", text: "Genuine glass quality with drawer storage covers your needs, where the TSJ OFFICE pick delivers this at meaningfully less than the pricier alternatives here." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

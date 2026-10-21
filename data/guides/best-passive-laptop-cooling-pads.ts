@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "passive laptop cooling pads";
 export const introParagraphs = [
   "Passive cooling pads rely on elevation, open airflow, and sometimes conductive material instead of a powered fan. Their advantage is genuinely zero fan noise, but almost every product marketed as a laptop cooling pad actually includes a fan, so a genuinely fanless option is a narrower category than the search term suggests.",
-  "This guide overlaps almost entirely with our fanless cooling pads guide, since passive and fanless describe the same no-fan mechanism. We checked the real feature lists of every laptop cooling pad in our research pool and only three genuinely confirm a fan-free design, rather than padding this list with fan-equipped products relabeled as passive.",
+  "This guide overlaps almost entirely with our fanless cooling pads guide, since passive and fanless describe the same no-fan mechanism. We checked the real feature lists of every laptop cooling pad in our research pool and only three genuinely confirm a fan-free design, rather than padding this list with fan-equipped products relabeled as passive."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "6 min";
@@ -43,7 +43,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine fan-free verification", description: "We checked each product's real feature list for any mention of a fan, and excluded anything with active airflow from this passive-specific guide." },
   { title: "Elevation and airflow mechanism", description: "We evaluated how the product's physical design, ventilation holes, riser height, opens airflow beneath the laptop without powered assistance." },
   { title: "Realistic cooling limits disclosure", description: "We compared passive designs honestly against active fan pads, since passive cooling typically provides a smaller, not equivalent, temperature improvement." },
-  { title: "Build quality and portability", description: "We considered weight capacity, foldability, and material for buyers who want a passive stand that also travels well." },
+  { title: "Build quality and portability", description: "We considered weight capacity, foldability, and material for buyers who want a passive stand that also travels well." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -61,7 +61,7 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $14.24",
+          "Under $15",
           "Gogoonike Adjustable Laptop Stand for Desk"
         ]
       ]
@@ -93,7 +93,7 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "Here's what you get for $14.24: Completely silent, genuinely no fan. If that's what you're after, the tradeoffs in its cons list probably won't bother you either."
+        "text": "Here's what you get for under $15: Completely silent, genuinely no fan. If that's what you're after, the tradeoffs in its cons list probably won't bother you either."
       },
       {
         "label": "Save if",
@@ -131,11 +131,11 @@ export const faq: FaqItem[] = [
   { q: "Can a passive pad really cool a laptop?", a: "It can provide a modest benefit through elevation and open airflow, but expect less improvement than an active fan pad, especially under sustained heavy workloads." },
   { q: "Is passive the same as fanless?", a: "Yes, the two terms describe the same no-fan mechanism. See our Best Fanless Laptop Cooling Pads guide, which covers this same narrow category." },
   { q: "Should I get a passive pad for gaming?", a: "Probably not as your primary cooling solution. Sustained gaming workloads generate more heat than passive elevation alone typically handles well, an active fan pad is usually the better choice." },
-  { q: "What's the main benefit of going passive?", a: "Completely silent operation. If fan noise is your biggest concern and your workload is light, a passive pad is a reasonable choice." },
+  { q: "What's the main benefit of going passive?", a: "Completely silent operation. If fan noise is your biggest concern and your workload is light, a passive pad is a reasonable choice." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-fanless-laptop-cooling-pads", title: "Best Fanless Laptop Cooling Pads (2026)" },
   { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-silent-laptop-cooling-pads", title: "Best Silent Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-silent-laptop-cooling-pads", title: "Best Silent Laptop Cooling Pads (2026)" }
 ];

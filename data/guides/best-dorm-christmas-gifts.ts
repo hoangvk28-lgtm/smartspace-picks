@@ -54,7 +54,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/41KWfXZEbbL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B0FLJ9PCC7?tag=deskfinds0d-20",
-    "description": "This tumbler is made of 18/8 food grade stainless steel and listed as BPA free, sweat proof and unbreakable. It is marketed as a trendy college student gift.\n\nAt $19.99, it sits below the blanket and equal to the candle lamp, and unlike the lamp it is something a student will use each morning. It is a more practical stocking filler than the coasters.\n\nPick it for a student who carries coffee or water between classes. The caveat is that the listing does not state its capacity in the features we reviewed, so check the size before ordering.",
+    "description": "This tumbler is made of 18/8 food grade stainless steel and listed as BPA free, sweat proof and unbreakable. It is marketed as a trendy college student gift.\n\nAt under $20, it sits below the blanket and equal to the candle lamp, and unlike the lamp it is something a student will use each morning. It is a more practical stocking filler than the coasters.\n\nPick it for a student who carries coffee or water between classes. The caveat is that the listing does not state its capacity in the features we reviewed, so check the size before ordering.",
     "specs": [
       "18/8 stainless steel",
       "BPA free, sweat proof"

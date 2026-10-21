@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "This frame's symmetrical geometric wing edge headboard uses premium velvet fabric over high-density foam, a genuinely more upscale material choice than the standard polyester fabric used on the Gizoon pick above. Its reinforced structure combines wooden slats, central support legs, metal support rods, and side metal strips, a more layered support system than a simple wood-slat-only design.\n\nCompared to the other three picks in this comparison, this one specifically states a 30-minute assembly time with all hardware included in one box, and recommends tightening screws with a ratchet wrench for electric screwdriver users, a level of assembly detail the other listings don't provide. Its 7-inch ground clearance is tight but specifically confirmed compatible with robotic vacuums.\n\nBest for buyers who want a velvet-upholstered headboard with a more layered metal-and-wood support structure.",
     specs: ["Velvet upholstered wing-edge headboard", "10 solid wood slats + metal support rods", "7 inch clearance, robot-vacuum compatible"],
     pros: ["Premium velvet fabric over high-density foam padding", "Layered wood-and-metal support structure adds stability", "Confirmed compatible with robotic vacuum clearance"],
-    cons: ["Highest price in this tier at $99.99", "7 inch clearance leaves less storage room than other picks"],
+    cons: ["Highest price in this tier at under $100", "7 inch clearance leaves less storage room than other picks"],
     bestFor: "buyers who want a premium velvet headboard with a layered support structure",
   }
 ];
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Solid wood construction without a headboard", "DUMOS Solid Wood Platform Queen Bed Frame"],
         ["The highest stated weight capacity", "Sweetcrispy Queen Size Wood Platform Bed Frame"],
         ["A comfortable upholstered wingback headboard", "Gizoon Queen Bed Frame with Wingback Headboard"],
-        ["A premium velvet headboard with layered support", "Inadpor Queen Size Platform Bed Frame with Velvet Headboard"],
+        ["A premium velvet headboard with layered support", "Inadpor Queen Size Platform Bed Frame with Velvet Headboard"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $90", "DUMOS or Sweetcrispy (both $89.99)"],
-        ["Under $94", "Gizoon Wingback Headboard ($93.99)"],
-        ["Under $100", "Inadpor Velvet Headboard ($99.99)"],
+        ["Under $90", "DUMOS or Sweetcrispy (both under $90)"],
+        ["Under $94", "Gizoon Wingback Headboard (under $100)"],
+        ["Under $100", "Inadpor Velvet Headboard (under $100)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "No Headboard vs Built-In Headboard",
     cards: [
       { label: "No headboard (DUMOS, Sweetcrispy)", text: "A cleaner, more minimalist platform design that keeps costs lower and suits buyers who already own a headboard or prefer a headboard-free look." },
-      { label: "Built-in upholstered headboard (Gizoon, Inadpor)", text: "Adds a comfortable leaning surface for reading in bed without needing to shop for and mount a separate headboard." },
+      { label: "Built-in upholstered headboard (Gizoon, Inadpor)", text: "Adds a comfortable leaning surface for reading in bed without needing to shop for and mount a separate headboard." }
     ],
     note: "If you already have a headboard or prefer a minimalist look, the DUMOS or Sweetcrispy frames save you the cost. If you want a comfortable, ready-to-use headboard included, the Gizoon or Inadpor picks deliver that for under $10 more.",
   },
@@ -137,7 +137,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your storage need", "Recommended pick"],
       rows: [
         ["Maximum flexible clearance (choose your height)", "Sweetcrispy (8.5 to 12.5 inch options)"],
-        ["Standard clearance with a headboard", "Gizoon (7.5 inch clearance)"],
+        ["Standard clearance with a headboard", "Gizoon (7.5 inch clearance)"]
       ],
     },
   },
@@ -145,16 +145,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Robot Vacuum Compatibility Specifically",
     cards: [
       { label: "Look for", text: "A specifically stated under-bed clearance of at least 7 inches, since most robot vacuums need that minimum height to pass underneath without getting stuck." },
-      { label: "In this comparison", text: "The Inadpor pick specifically confirms its 7-inch clearance is compatible with robotic vacuums, and the Sweetcrispy and Gizoon picks offer similar or greater clearance." },
+      { label: "In this comparison", text: "The Inadpor pick specifically confirms its 7-inch clearance is compatible with robotic vacuums, and the Sweetcrispy and Gizoon picks offer similar or greater clearance." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want a premium velvet headboard with a more layered wood-and-metal support structure, where the Inadpor pick justifies its $99.99 price with that added material quality." },
-      { label: "Save if", text: "You don't need a headboard and want the highest stated weight capacity, where the Sweetcrispy frame delivers 800 lbs of support for $89.99." },
+      { label: "Spend more if", text: "You want a premium velvet headboard with a more layered wood-and-metal support structure, where the Inadpor pick justifies its under $100 price with that added material quality." },
+      { label: "Save if", text: "You don't need a headboard and want the highest stated weight capacity, where the Sweetcrispy frame delivers 800 lbs of support for under $90." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

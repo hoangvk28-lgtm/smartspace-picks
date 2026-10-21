@@ -5,7 +5,7 @@ export const metaDescription = "4 portable SSDs we evaluated specifically for Ma
 export const mainKeyword = "best portable ssd for macbook pro";
 export const introParagraphs = [
   "MacBook Pro's Thunderbolt 4 and, on newer models, Thunderbolt 5 ports offer meaningfully more real bandwidth than the more limited USB-C implementation on a base MacBook Air, so a MacBook Pro owner can genuinely take advantage of drives that a MacBook Air would bottleneck.",
-  "This guide specifically prioritizes drives that make sense given MacBook Pro's stronger port capability, if you own a base MacBook Air instead, our general Mac and MacBook guide covers more budget-appropriate picks for that more limited implementation.",
+  "This guide specifically prioritizes drives that make sense given MacBook Pro's stronger port capability, if you own a base MacBook Air instead, our general Mac and MacBook guide covers more budget-appropriate picks for that more limited implementation."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Thunderbolt 5 Pick for MacBook Pro",
     name: "SABRENT Rocket XTRM 5 2TB Thunderbolt 5 Portable SSD, 80Gbps Connection, Up to 64Gbps Transfer, Compatible with TB4 TB3 USB4 USB 3.2, Rugged Aluminum and Silicone",
     price: "$399.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "30 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Kx15NoFzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F7NZJ1SK?tag=deskfinds0d-20",
     description: "SABRENT's Rocket XTRM 5 is genuinely certified for Thunderbolt 5, rated up to 64Gbps transfer, taking real advantage of the fastest Thunderbolt 5 ports found on the newest MacBook Pro models.\n\nIt earns the top spot in this comparison over Corsair EX400U 2TB USB4 Portable External Type-C SSD for one main reason. Genuinely takes advantage of MacBook Pro's fastest Thunderbolt 5 ports. On price, it comes in below Corsair EX400U 2TB USB4 Portable External Type-C SSD, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Backward compatible with older Thunderbolt MacBook Pro generations. On the other side, Premium price reflecting the top interface tier. That's the main tradeoff to weigh against everything above.",
@@ -41,14 +41,14 @@ export const products: GuideProduct[] = [
     badge: "Best Thunderbolt 4 Pick for MacBook Pro",
     name: "Corsair EX400U 2TB USB4 Portable External Type-C SSD - Up to 4,000MB/s Read, 3,600MB/s Write, Thunderbolt 4, MagSafe, Includes 40Gbps Cable - Gray",
     price: "$399.99",
-    rating: "4.1 stars from Amazon ratings",
-    reviews: "382 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21F-0rmbcOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DR381N86?tag=deskfinds0d-20",
-    description: "Corsair's EX400U 2TB is explicitly rated for Thunderbolt 4 compatibility, the standard port spec on most current MacBook Pro models, with speed up to 4000MB/s read.\n\nOne spot below SABRENT Rocket XTRM 5 2TB Thunderbolt 5 Portable SSD in this ranking, it costs more than SABRENT Rocket XTRM 5 2TB Thunderbolt 5 Portable SSD. The compromise here is straightforward: More moderate 4.1-star rating, worth checking current reviews. What you gain in return: Matches the standard Thunderbolt 4 spec on most current MacBook Pro models. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Includes a properly certified cable for reliable full-speed operation. On the other side, Premium price versus plain USB 3.2 Gen 2 drives. That's the main tradeoff to weigh against everything above.",
+    description: "Corsair's EX400U 2TB is explicitly rated for Thunderbolt 4 compatibility, the standard port spec on most current MacBook Pro models, with speed up to 4000MB/s read.\n\nOne spot below SABRENT Rocket XTRM 5 2TB Thunderbolt 5 Portable SSD in this ranking, it costs more than SABRENT Rocket XTRM 5 2TB Thunderbolt 5 Portable SSD. What you gain in return: Matches the standard Thunderbolt 4 spec on most current MacBook Pro models. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Includes a properly certified cable for reliable full-speed operation. On the other side, Premium price versus plain USB 3.2 Gen 2 drives. That's the main tradeoff to weigh against everything above.",
     specs: ["2TB capacity","Thunderbolt 4 compatible, USB4","Up to 4000MB/s read rated","Includes certified 40Gbps cable"],
     pros: ["Matches the standard Thunderbolt 4 spec on most current MacBook Pro models","Includes a properly certified cable for reliable full-speed operation","Strong ceiling for demanding creative transfers","Large 2TB capacity for extensive project libraries"],
-    cons: ["More moderate 4.1-star rating, worth checking current reviews","Base MacBook Air users will not see the same benefit from this drive","Premium price versus plain USB 3.2 Gen 2 drives"],
+    cons: ["Base MacBook Air users will not see the same benefit from this drive","Premium price versus plain USB 3.2 Gen 2 drives"],
     bestFor: "MacBook Pro owners with standard Thunderbolt 4 ports who want reliable full-speed performance",
   },
   {
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best USB4 Value Pick for MacBook Pro",
     name: "Corsair EX400U Survivor 1TB USB4 External SSD - Up to 4000 MB/s, IP55 Rugged Drive, Plug & Play for PC, Mac & iPad - Black",
     price: "$238.58",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "60 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21K3rg5MWlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVMGFPHT?tag=deskfinds0d-20",
     description: "Corsair's EX400U Survivor 1TB offers Thunderbolt-compatible USB4 speed up to 4000MB/s at a lower price than the certified Thunderbolt 4 drive above, a genuine value option for MacBook Pro users on a budget.\n\nSitting just under Corsair EX400U 2TB USB4 Portable External Type-C SSD, it's priced lower than Corsair EX400U 2TB USB4 Portable External Type-C SSD. Here's the honest tradeoff: Not formally Thunderbolt-certified, a real distinction worth understanding. And here's what it gets you instead: Thunderbolt-compatible speed at a lower price than certified drives. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: IP55 rating suits MacBook Pro users working in the field. On the other side, 1TB capacity may be limiting for large creative project libraries. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best NVMe Pick for MacBook Pro Photo and Document Work",
     name: "Samsung T7 Shield Portable SSD 1TB, USB 3.2 Gen 2, Up to 1,050 MB/s",
     price: "$286.88",
-    rating: "4.7 stars from Amazon ratings",
-    reviews: "16,380 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/21mARCvUWxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VLK9W3S?tag=deskfinds0d-20",
     description: "Samsung's T7 Shield offers reliable USB 3.2 Gen 2 speed up to 1050MB/s, a sensible choice for MacBook Pro users whose workload is mostly photos and documents rather than large video files needing full Thunderbolt bandwidth.\n\nRanked just behind Corsair EX400U Survivor 1TB USB4 External SSD, it costs more than Corsair EX400U Survivor 1TB USB4 External SSD. The real tradeoff against that pick: Does not take advantage of MacBook Pro's Thunderbolt bandwidth. In exchange, it offers this instead: Reliable, well-reviewed platform at a lower price than Thunderbolt drives. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Rugged shell suits a frequently traveled MacBook Pro. On the other side, Not ideal for large video project files. That's the main tradeoff to weigh against everything above.",

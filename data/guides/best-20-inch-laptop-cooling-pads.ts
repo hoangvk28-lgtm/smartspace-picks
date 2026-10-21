@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "20-inch laptop cooling pads";
 export const introParagraphs = [
   "Before comparing products, it's worth being direct: very few consumer laptops genuinely use a 20-inch class chassis, and none of the cooling pads in our research pool explicitly state compatibility up to a full 20 inches. The largest verified, explicitly stated range we found tops out at 18 to 19 inches.",
-  "If you're searching for a 20-inch laptop cooling pad, you're most likely either using \"20-inch\" loosely to mean the largest available desktop-replacement gaming laptop (typically 17 to 18 inches in practice), or you have a genuinely unusual, very large laptop that falls outside what mainstream cooling pads are built for. This guide covers the largest genuinely verified options as a practical fallback, with that gap stated plainly rather than implied.",
+  "If you're searching for a 20-inch laptop cooling pad, you're most likely either using \"20-inch\" loosely to mean the largest available desktop-replacement gaming laptop (typically 17 to 18 inches in practice), or you have a genuinely unusual, very large laptop that falls outside what mainstream cooling pads are built for. This guide covers the largest genuinely verified options as a practical fallback, with that gap stated plainly rather than implied."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "6 min";
@@ -59,7 +59,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Honest market availability check", description: "We searched our entire research pool for any product explicitly stating 20-inch compatibility and found none, so this guide reports that gap directly rather than forcing a false match." },
   { title: "Largest genuinely verified alternative", description: "We identified the two products with the largest explicitly stated size ranges as the closest practical fallback options." },
   { title: "Search-intent clarification", description: "We considered that most searches for a 20-inch cooling pad likely mean the largest available gaming laptop cooling solution, not a literal 20-inch device." },
-  { title: "Physical surface size beyond stated range", description: "We noted physical pad dimensions as a secondary signal, since a pad may physically support a laptop slightly beyond its officially stated compatible range." },
+  { title: "Physical surface size beyond stated range", description: "We noted physical pad dimensions as a secondary signal, since a pad may physically support a laptop slightly beyond its officially stated compatible range." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -191,11 +191,11 @@ export const faq: FaqItem[] = [
   { q: "Is my laptop really 20 inches, or is that the screen diagonal talking me into thinking it's bigger?", a: "Very few laptops genuinely have a 20-inch-class chassis. Check your laptop's actual base width and depth rather than assuming the screen size number reflects the physical footprint." },
   { q: "What's the closest thing to a 20-inch cooling pad?", a: "The llano V12 (15.6-19 inch stated range) and AICHESON 15-Fan Pad (up to 18 inch, 18.5 inch diagonal) are the largest genuinely verified options in our research." },
   { q: "Should I just buy the 18-inch guide's top pick instead?", a: "If your laptop's actual dimensions are closer to 17-18 inches, yes, check our Best 18-Inch Laptop Cooling Pads guide for a more precisely matched, verified selection." },
-  { q: "Why be honest about a category that doesn't have a good answer?", a: "We would rather tell you plainly that a genuine 20-inch product doesn't exist in our verified research than recommend something that might not physically fit your laptop." },
+  { q: "Why be honest about a category that doesn't have a good answer?", a: "We would rather tell you plainly that a genuine 20-inch product doesn't exist in our verified research than recommend something that might not physically fit your laptop." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-18-inch-laptop-cooling-pads", title: "Best 18-Inch Laptop Cooling Pads (2026)" },
   { href: "/guide/best-gaming-laptop-cooling-pads", title: "Best Gaming Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-17-inch-laptop-cooling-pads", title: "Best 17-Inch Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-17-inch-laptop-cooling-pads", title: "Best 17-Inch Laptop Cooling Pads (2026)" }
 ];

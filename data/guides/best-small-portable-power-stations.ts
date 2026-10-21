@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $69.98",
+          "Under $70",
           "Daran Portable Power Station 89.6Wh"
         ],
         [
-          "Around $74.98",
+          "Under $80",
           "R101 Lite Portable Power Station"
         ],
         [
-          "Around $99.99",
+          "Under $100",
           "MARBERO M822 Portable Power Station"
         ],
         [
-          "Around $119.99",
+          "Under $120",
           "Takki 111Wh Portable Solar Generator with 21W Foldable Solar Panel"
         ],
         [
-          "Around $259.00",
+          "Under $300",
           "Jackery Explorer 300 Portable Power Station"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "LiFePO4 (LFP) cells are generally considered more thermally stable than standard lithium-ion or lithium-polymer cells, with a lower risk of thermal runaway, and most current portable power stations have shifted to LFP for this reason. Still, verify UL or UL2743 safety certification directly rather than assuming chemistry alone guarantees safety."
   }
 ,
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Daran Portable Power Station 89.6Wh is aimed at buyers prioritizing 89.6wh, 100w (200w peak), 2.54 lbs." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Daran Portable Power Station 89.6Wh is aimed at buyers prioritizing 89.6wh, 100w (200w peak), 2.54 lbs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

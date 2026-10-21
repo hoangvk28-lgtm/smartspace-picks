@@ -141,7 +141,7 @@ export const products: GuideProduct[] = [
     pros: ["Removable fireplace insert works year-round or storage-only", "Cable management holes for both TV and fireplace", "Enclosed cabinets plus one open shelf", "Five-leg base adds stability"],
     cons: ["Ships in two boxes that may arrive separately", "Fireplace heater adds ongoing electrical draw", "Two-person assembly recommended"],
     bestFor: "Living rooms that want a supplemental heat source built into the TV console.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -173,10 +173,10 @@ export const faq: { q: string; a: string }[] = [
   { q: "Do fireplace TV stands come with the fireplace insert included?", a: "On the WLIVE Mid-Century pick in this guide, yes, the electric fireplace insert is included, though it ships in a separate box from the console and the two can arrive on different delivery days. Some other fireplace TV stand listings sell the console and insert separately, so check the listing description carefully before assuming a fireplace unit is bundled." },
   { q: "How much weight can a TV stand actually hold?", a: "It depends heavily on the model. Budget stands in this guide start around 50 lbs of top surface capacity, which comfortably covers most 55 inch TVs alone, while furniture-grade options like the Walker Edison and glass-top corner stands rate up to 150 lbs. If you plan to stack a soundbar and other equipment on the same top shelf as the TV, look toward the higher end of that range rather than the minimum." },
   { q: "What's the difference between an entertainment center and a simple TV console?", a: "A TV console, like the Furinno JAYA in this guide, is a single low unit meant mainly to hold the TV with some open or enclosed storage. An entertainment center, like the Walker Edison or WLIVE fireplace stand, typically adds more enclosed cabinet space, adjustable shelving, and sometimes additional features like a fireplace insert, at a higher price and larger footprint." },
-  { q: "How do I keep cables organized behind a 55 inch TV stand?", a: "Look for stands with multiple cable cutouts positioned near where your wall outlet and equipment actually sit, not just a single hole. Route power cables and HDMI cables through separate cutouts when possible to reduce tangling, and use hook-and-loop cable ties to bundle cords behind enclosed doors so equipment stays reachable without a full teardown." },
+  { q: "How do I keep cables organized behind a 55 inch TV stand?", a: "Look for stands with multiple cable cutouts positioned near where your wall outlet and equipment actually sit, not just a single hole. Route power cables and HDMI cables through separate cutouts when possible to reduce tangling, and use hook-and-loop cable ties to bundle cords behind enclosed doors so equipment stays reachable without a full teardown." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-cable-management-boxes-for-desks", title: "Best Cable Management Boxes for Desks (2026)" },
-  { href: "/guide/best-under-desk-storage-drawers", title: "Best Under Desk Storage Drawers (2026)" },
+  { href: "/guide/best-under-desk-storage-drawers", title: "Best Under Desk Storage Drawers (2026)" }
 ];

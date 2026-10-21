@@ -12,7 +12,7 @@ export const tabletStandVsPhoneStandGuide: Guide = {
     "universal stand for tablet and phone",
     "tablet stand weight capacity",
     "phone stand angle adjustment",
-    "do i need separate stands",
+    "do i need separate stands"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const tabletStandVsPhoneStandGuide: Guide = {
     "laptop-stand-height-chart",
     "monitor-stand-with-storage-explained",
     "wireless-charging-stand-explained",
-    "desk-organizer-types-explained",
+    "desk-organizer-types-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const tabletStandVsPhoneStandGuide: Guide = {
       question: "Can a phone stand accidentally damage a tablet if used interchangeably?",
       answer:
         "Not damage exactly, but an undersized or understrength phone stand may not properly support a tablet's weight, risking the tablet tipping over or the stand's mechanism straining beyond its intended capacity over repeated use.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const tabletStandVsPhoneStandGuide: Guide = {
     {
       heading: "When Separate Stands Make More Sense Than One Universal Option",
       body: `If your tablet use is occasional and light, a well-rated universal stand handles both devices reasonably well and saves the cost and desk space of two separate stands. If your tablet serves a genuinely demanding role in your daily workflow, extended video calls, active drawing, or frequent touch interaction, a dedicated tablet stand purpose-built for that heavier, more actively used device provides meaningfully better stability and functionality than a universal compromise.`,
-    },
+    }
   ],
 };

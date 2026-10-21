@@ -155,7 +155,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The cheapest no-drill tray", "Cinati Under Desk Cable Management Tray, White"],
         ["To hide a power strip completely", "Naeety Cable Management Box, Large Cord Organizer"],
         ["Airflow around bundled power adapters", "Under Desk Cable Management Tray, Metal Mesh"],
-        ["Two mounting points or two desks", "Delamu 2-Pack Metal Under Desk Cable Management Tray"],
+        ["Two mounting points or two desks", "Delamu 2-Pack Metal Under Desk Cable Management Tray"]
       ],
     },
   },
@@ -164,8 +164,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $20", "Cinati White ($14.44), Mesh Tray ($16.99), or GZOKMOG ($18.99)"],
-        ["Up to $30", "Cinati Black ($21.99), Naeety ($24.69), or Delamu 2-Pack ($27.99)"],
+        ["Under $20", "Cinati White (under $15), Mesh Tray (under $20), or GZOKMOG (under $20)"],
+        ["Up to $30", "Cinati Black (under $25), Naeety (under $25), or Delamu 2-Pack (under $30)"]
       ],
     },
   },
@@ -179,7 +179,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "Open under-desk tray (Cinati, GZOKMOG, mesh, Delamu)",
         text: "Routes cables along the desk's underside using a no-drill clamp mount, keeping them off the floor but still visible from certain angles.",
-      },
+      }
     ],
     note: "Match the product to where your actual clutter lives: a floor-level power strip tangle calls for an enclosed box, while cables hanging visibly under the desktop call for a clamp-on tray.",
   },
@@ -189,7 +189,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your desk is", "Recommended pick"],
       rows: [
         ["A smaller or compact desk", "GZOKMOG Under Desk Cable Management Tray (15.75\")"],
-        ["A wide desk needing two mounting points", "Delamu 2-Pack Metal Under Desk Cable Management Tray"],
+        ["A wide desk needing two mounting points", "Delamu 2-Pack Metal Under Desk Cable Management Tray"]
       ],
     },
   },
@@ -203,7 +203,7 @@ export const howToChoose: HowToChooseSection[] = [
       {
         label: "In this comparison",
         text: "The metal mesh tray with 2-hole clamp mount is specifically built with this airflow consideration in mind.",
-      },
+      }
     ],
   },
   {
@@ -211,14 +211,14 @@ export const howToChoose: HowToChooseSection[] = [
     cards: [
       {
         label: "Spend more if",
-        text: "You have a wide desk or manage two workstations: the Delamu 2-Pack ($27.99) covers two mounting points for less than buying two single trays separately.",
+        text: "You have a wide desk or manage two workstations: the Delamu 2-Pack (under $30) covers two mounting points for less than buying two single trays separately.",
       },
       {
         label: "Save if",
-        text: "You just need basic under-desk cable routing without drilling: the Cinati White tray ($14.44) covers that core need at the lowest price here.",
-      },
+        text: "You just need basic under-desk cable routing without drilling: the Cinati White tray (under $15) covers that core need at the lowest price here.",
+      }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -273,5 +273,5 @@ export const faq = [
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-under-desk-cable-trays", title: "Best Under-Desk Cable Trays" },
-  { href: "/guide/best-clamp-on-desk-drawers-under-50", title: "Best Clamp-On Desk Drawers Under $50" },
+  { href: "/guide/best-clamp-on-desk-drawers-under-50", title: "Best Clamp-On Desk Drawers Under $50" }
 ];

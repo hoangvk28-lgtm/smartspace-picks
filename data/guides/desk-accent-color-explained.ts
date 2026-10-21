@@ -12,7 +12,7 @@ export const deskAccentColorExplainedGuide: Guide = {
     "how to choose desk accent color",
     "cohesive desk setup color scheme",
     "too much color desk setup",
-    "matching desk accessories color",
+    "matching desk accessories color"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskAccentColorExplainedGuide: Guide = {
     "desk-decor-clutter-balance",
     "wall-art-hanging-height-explained",
     "rgb-lighting-desk-setup-explained",
-    "desk-organizer-types-explained",
+    "desk-organizer-types-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskAccentColorExplainedGuide: Guide = {
       question: "Can I introduce an accent color and later change it without much cost?",
       answer:
         "If you concentrated the accent color in smaller, less expensive accessories rather than large furniture pieces, updating your accent color choice later mainly involves swapping a few inexpensive items, a practical reason to favor smaller items as accent color carriers.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const deskAccentColorExplainedGuide: Guide = {
     {
       heading: "Why Concentrating Color in Smaller Items Is a Practical Long-Term Strategy",
       body: `Personal color preferences and trends shift over time, and committing an accent color choice to expensive, hard-to-replace items like a desk or chair creates a costly situation if you later want to change direction, concentrating your chosen accent color instead in smaller, less expensive accessories, a mouse pad, a small organizer, a plant pot, means updating your desk's color scheme later becomes a simple, low-cost swap of a few items rather than a significant re-investment in major furniture pieces.`,
-    },
+    }
   ],
 };

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "monitor arm laptop stand";
 export const introParagraphs = [
   "None of the arms in this guide ship with a built-in laptop tray, and it is worth saying that plainly before you buy. What every arm here does offer is a standard VESA mounting head, which is what actually determines whether you can attach a separate VESA laptop tray adapter later and turn a single monitor arm into a combined monitor-and-laptop setup. That distinction, integrated tray versus VESA adapter approach, is the difference between a mount that already does the job and one that needs one more part.",
-  "Below are 8 VESA-compatible monitor arms we evaluated on weight rating, reach, and cable routing capacity, since a laptop tray adapter adds real weight and at least one extra thick charging cable to whatever the arm already has to support. A 27-inch monitor alone runs about 5kg, but add a 17-inch laptop at roughly 3kg and the arm needs real headroom in its rated capacity, not just enough to hold the monitor by itself.",
+  "Below are 8 VESA-compatible monitor arms we evaluated on weight rating, reach, and cable routing capacity, since a laptop tray adapter adds real weight and at least one extra thick charging cable to whatever the arm already has to support. A 27-inch monitor alone runs about 5kg, but add a 17-inch laptop at roughly 3kg and the arm needs real headroom in its rated capacity, not just enough to hold the monitor by itself."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Holds up to 19.8 lbs total",
       "Max VESA 100x100mm",
       "Tool-free installation",
-      "Built-in cable management channel",
+      "Built-in cable management channel"
     ],
     pros: [
       "Lowest price in this list",
       "Tool-free VESA mounting for a quick tray-adapter swap",
       "Built-in cable channel helps route a laptop power cable",
-      "Fits a wide 13-34 inch monitor range",
+      "Fits a wide 13-34 inch monitor range"
     ],
     cons: [
       "No built-in laptop tray, requires a separate VESA adapter purchase",
       "19.8 lb rating leaves little headroom for a heavy laptop plus tray",
-      "Basic single-arm design without gas spring tension adjustment",
+      "Basic single-arm design without gas spring tension adjustment"
     ],
     bestFor: "Buyers adding a VESA laptop tray adapter on the tightest budget",
   },
@@ -88,18 +88,18 @@ export const products: GuideProduct[] = [
       "13-32 inch monitor compatibility",
       "Holds 4.4 to 19.8 lbs",
       "VESA mount with clamp and grommet base",
-      "Full-motion adjustability",
+      "Full-motion adjustability"
     ],
     pros: [
       "Works with both clamp and grommet desk mounting",
       "Fits a broad 13-32 inch monitor range",
       "Full-motion tilt, swivel, and rotation",
-      "Reasonable weight ceiling for a light laptop plus tray",
+      "Reasonable weight ceiling for a light laptop plus tray"
     ],
     cons: [
       "No built-in laptop tray, VESA adapter sold separately",
       "4.4 lb minimum load can under-tension with very light monitors",
-      "Not rated for a heavier 16-inch laptop plus a large monitor combined",
+      "Not rated for a heavier 16-inch laptop plus a large monitor combined"
     ],
     bestFor: "Buyers pairing a light 13-14 inch laptop with a mid-size monitor",
   },
@@ -120,18 +120,18 @@ export const products: GuideProduct[] = [
       "MechaSpring mechanism for smoother adjustment",
       "Max load 19.8 lbs",
       "Tool-free VESA mount",
-      "C-clamp or grommet base",
+      "C-clamp or grommet base"
     ],
     pros: [
       "Smoother tension adjustment than a basic gas spring",
       "Tool-free VESA head for quick tray-adapter changes",
       "Full tilt, swivel, and rotation range",
-      "Flexible clamp or grommet base mounting",
+      "Flexible clamp or grommet base mounting"
     ],
     cons: [
       "No integrated laptop tray, still needs a separate VESA adapter",
       "Same 19.8 lb ceiling as the cheaper FlowLift model",
-      "Premium mechanism adds cost over the base ErGear pick",
+      "Premium mechanism adds cost over the base ErGear pick"
     ],
     bestFor: "Buyers who want smoother repositioning once a laptop tray is attached",
   },
@@ -151,18 +151,18 @@ export const products: GuideProduct[] = [
       "13-34 inch monitor compatibility",
       "Regular screens up to 32 inches supported",
       "26.4 lb total capacity",
-      "VESA 75/100mm",
+      "VESA 75/100mm"
     ],
     pros: [
       "26.4 lb capacity, higher than most budget arms in this list",
       "Wide 13-34 inch monitor compatibility",
       "Low price relative to its weight rating",
-      "Standard VESA 75/100mm fits most tray adapters",
+      "Standard VESA 75/100mm fits most tray adapters"
     ],
     cons: [
       "No built-in laptop tray, adapter purchased separately",
       "Basic clamp hardware, no C-clamp and grommet choice",
-      "Cable management is minimal compared to pricier arms",
+      "Cable management is minimal compared to pricier arms"
     ],
     bestFor: "Buyers wanting extra weight headroom for a heavier laptop plus tray",
   },
@@ -182,18 +182,18 @@ export const products: GuideProduct[] = [
       "Fits monitors up to 32 inches",
       "VESA 75/100mm mount",
       "Mechanical spring mount",
-      "Compact base footprint",
+      "Compact base footprint"
     ],
     pros: [
       "Compact footprint suits small desks",
       "Standard VESA 75/100mm fits most tray adapters",
       "Steady mechanical spring resistance",
-      "Mid-range price for its feature set",
+      "Mid-range price for its feature set"
     ],
     cons: [
       "No integrated laptop tray",
       "Weight rating not as high as the WALI or TitanLift picks",
-      "Fewer bundled accessories than the Ergotron picks",
+      "Fewer bundled accessories than the Ergotron picks"
     ],
     bestFor: "Buyers with a small desk who still want a monitor-plus-laptop arm setup",
   },
@@ -214,18 +214,18 @@ export const products: GuideProduct[] = [
       "Holds up to 44 lbs",
       "Aluminum construction",
       "Dual C-clamp base",
-      "Max VESA 100x100mm",
+      "Max VESA 100x100mm"
     ],
     pros: [
       "44 lb rating, the highest in this list",
       "Aluminum build adds stability under a heavier combined load",
       "Dual C-clamp base resists tipping under weight",
-      "Room to add a laptop tray adapter without maxing out capacity",
+      "Room to add a laptop tray adapter without maxing out capacity"
     ],
     cons: [
       "Priced well above the budget picks in this list",
       "Larger arm footprint needs more desk clearance",
-      "Still no integrated laptop tray, VESA adapter required",
+      "Still no integrated laptop tray, VESA adapter required"
     ],
     bestFor: "Buyers combining a large monitor with a heavier 16-inch laptop and tray",
   },
@@ -245,18 +245,18 @@ export const products: GuideProduct[] = [
       "Fits flat, curved, and ultrawide monitors up to 34 inches",
       "7 to 25 lb capacity",
       "VESA 75x75mm or 100x100mm",
-      "Matte black finish",
+      "Matte black finish"
     ],
     pros: [
       "Premium gas spring built for years of daily use",
       "Wide monitor compatibility including curved and ultrawide",
       "Dual VESA pattern support for more tray-adapter options",
-      "Reputable brand with long-term reliability",
+      "Reputable brand with long-term reliability"
     ],
     cons: [
       "Significantly more expensive than the budget arms here",
       "25 lb ceiling still requires checking laptop tray weight separately",
-      "No built-in laptop tray, adapter sold separately",
+      "No built-in laptop tray, adapter sold separately"
     ],
     bestFor: "Buyers who want a premium arm foundation before adding a laptop tray",
   },
@@ -276,21 +276,21 @@ export const products: GuideProduct[] = [
       "Fits flat, curved, and ultrawide monitors up to 34 inches",
       "4 to 22 lb capacity",
       "VESA 75x75mm or 100x100mm",
-      "White finish",
+      "White finish"
     ],
     pros: [
       "Longer warranty coverage than budget brands",
       "Refined joint design for smoother long-term adjustment",
       "Wide monitor compatibility including curved and ultrawide",
-      "Dual VESA pattern support for tray-adapter flexibility",
+      "Dual VESA pattern support for tray-adapter flexibility"
     ],
     cons: [
       "Highest price in this list",
       "22 lb ceiling is slightly lower than the standard LX",
-      "Warranty does not cover normal gas spring wear, only defects",
+      "Warranty does not cover normal gas spring wear, only defects"
     ],
     bestFor: "Buyers who want the longest-term reliability before adding a laptop tray",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -318,7 +318,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for the intended use",
     description: "Weighed price against weight rating and build quality, since a heavier combined load justifies paying more for a sturdier arm like the TitanLift or Ergotron picks.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -476,7 +476,7 @@ export const faq: FaqItem[] = [
   {
     q: "What size laptop tray do I need for a 16-inch MacBook Pro?",
     a: "A 16-inch MacBook Pro has roughly a 14 by 9.7 inch footprint, so look for a tray sized at least that large so the laptop doesn't overhang the edge. Pair it with a higher-capacity arm like the WALI, TitanLift, or an Ergotron pick to have enough combined weight headroom.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
@@ -484,5 +484,5 @@ export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-monitor-arm-mounts-under-50", title: "8 Best Monitor Arm Mounts Under $50 in 2026" },
   { href: "/guide/best-monitor-arm-desk-mounts", title: "Best Monitor Arm Desk Mounts" },
   { href: "/guide/best-dual-monitor-arms", title: "Best Dual Monitor Arms" },
-  { href: "https://www.workcocoon.com/desk-setup/best-monitor-arms", title: "Best Monitor Arms for a Calmer Home Office Setup (WorkCocoon)" },
+  { href: "https://www.workcocoon.com/desk-setup/best-monitor-arms", title: "Best Monitor Arms for a Calmer Home Office Setup (WorkCocoon)" }
 ];

@@ -12,7 +12,7 @@ export const deskExerciseEquipmentDeskMatProtectionGuide: Guide = {
     "mat under desk bike floor protection",
     "vibration damping exercise equipment",
     "prevent floor scratches exercise bike",
-    "carpet protection under desk pedaler",
+    "carpet protection under desk pedaler"
   ],
   heroImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskExerciseEquipmentDeskMatProtectionGuide: Guide = {
     "under-desk-bike-vs-elliptical",
     "chair-mat-types-explained",
     "desk-exercise-equipment-noise-explained",
-    "carpet-vs-hardwood-desk-setup",
+    "carpet-vs-hardwood-desk-setup"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskExerciseEquipmentDeskMatProtectionGuide: Guide = {
       question: "Is floor protection more important for a bike, elliptical, or treadmill specifically?",
       answer:
         "All benefit from floor protection, but a treadmill's larger motor and moving parts generally produce more vibration and noise than a simpler bike or elliptical, making floor protection particularly worthwhile for a treadmill desk setup specifically.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const deskExerciseEquipmentDeskMatProtectionGuide: Guide = {
     {
       heading: "Why Equipment-Specific Mats Outperform General-Purpose Alternatives",
       body: `A mat designed specifically for exercise equipment typically uses a denser, more vibration-absorbing material construction compared to a general-purpose mat like a standard chair mat, which is engineered primarily for smooth rolling rather than vibration damping, using a mat designed for the actual purpose you need, sustained mechanical vibration absorption rather than smooth chair rolling, provides meaningfully better performance for this specific application than repurposing a mat designed for an entirely different use case.`,
-    },
+    }
   ],
 };

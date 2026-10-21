@@ -5,7 +5,7 @@ export const metaDescription = "5 portable air purifiers we evaluated, with the 
 export const mainKeyword = "portable air purifier";
 export const introParagraphs = [
   "Portable purifiers used in a car, hotel room, or small enclosed travel space have a genuinely different, usually much smaller, effective air volume to clean than home use, meaning even a modest-CADR portable unit may perform adequately in these enclosed travel contexts despite being underpowered for home-room use.",
-  "True portability weight often excludes the charging cable, adapter, and any carrying case, understating real travel-kit weight, factor in the complete kit, not just the unit's own listed weight.",
+  "True portability weight often excludes the charging cable, adapter, and any carrying case, understating real travel-kit weight, factor in the complete kit, not just the unit's own listed weight."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Portable Air Purifier Overall",
     name: "Levoit Air Purifiers for Bedroom Home Pets Dorm Room, Small Air Purifiers",
     price: "$49.99",
-    rating: "4.6 stars from 44,671 Amazon ratings",
-    reviews: "44,671 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ODC2Uu41L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09GTRVJQM?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Portable Pick with Night Light",
     name: "Air Purifiers for Bedroom, FULMINARE H13 True HEPA Air Filter, Quiet Air Cleaner With Night Light, Portable Small Air Purifier for Home, Office, Living Room",
     price: "$24.99",
-    rating: "4.4 stars from 5,517 Amazon ratings",
-    reviews: "5,517 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/414NIpA+xLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B4ZSKPNL?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Portable Pick",
     name: "VOOPNU Air Purifiers for Home, High Efficiency Filter Up to 1076 Ft2, White",
     price: "$26.99",
-    rating: "4.5 stars from 4,026 Amazon ratings",
-    reviews: "4,026 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41BE3lVftQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DY4S3HP2?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Alternative Portable Pick",
     name: "Purivortex Air Purifiers for Bedroom, Covers Up to 880 Sq Ft, PX500 Black",
     price: "$32.99",
-    rating: "4.5 stars from 2,997 Amazon ratings",
-    reviews: "2,997 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41Apo3YcVHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9SL7894?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Quiet Portable Pick",
     name: "Levoit Air Purifiers for Home Bedroom Dorm Room, Small Quiet Air Purifiers",
     price: "$44.99",
-    rating: "4.6 stars from 44,671 Amazon ratings",
-    reviews: "44,671 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31e6d46ZnyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09LMF648R?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Large, well-established review base", "Quiet-focused design for travel settings", "Very affordable", "Compact, genuinely portable"],
     cons: ["Total kit weight not confirmed including accessories", "Filter replacement availability for travel, verify compatibility", "No smart features"],
     bestFor: "Buyers who want quiet operation in a hotel room or other enclosed travel space",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Context-dependent effectiveness for enclosed travel spaces vs. home rooms", description: "Considered that portable purifiers used in a car, hotel room, or small enclosed travel space have a genuinely smaller effective air volume than home use, meaning even modest-CADR units can perform adequately in these contexts." },
   { title: "True kit weight including cable, adapter, and carrying case", description: "Flagged that portability weight often excludes the charging cable, adapter, and any carrying case, understating real travel-kit weight, the same gap found in portable monitor research." },
-  { title: "Filter replacement availability for compact, proprietary filters", description: "Noted that filter access and replacement on ultra-compact portable units can be more difficult than room-sized purifiers, proprietary small filters are less commonly stocked at retail." },
+  { title: "Filter replacement availability for compact, proprietary filters", description: "Noted that filter access and replacement on ultra-compact portable units can be more difficult than room-sized purifiers, proprietary small filters are less commonly stocked at retail." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Can I easily find replacement filters for a portable air purifier while traveling?", a: "Verify this before relying on regular use. Ultra-compact portable units sometimes use proprietary small filters that are less commonly stocked at retail than standard room-sized purifier filters." },
   { q: "How long does a battery-powered portable air purifier actually run?", a: "Check the runtime at the speed you'll actually use, not the marketed 'up to X hours' figure, which is typically quoted at the lowest, least-effective speed, running at a meaningful cleaning speed drains the battery much faster." },
   { q: "Is a portable air purifier powerful enough for a whole small room?", a: "Many are sized for personal or close-range coverage rather than whole-room filtration, check the specific listed room-size rating before assuming it covers more than a desk or bedside area." },
-  { q: "Can I bring a portable air purifier on a flight?", a: "Most battery-powered units fall within standard airline carry-on battery limits, but check your specific unit's battery capacity in watt-hours against your airline's policy before traveling with it." },
+  { q: "Can I bring a portable air purifier on a flight?", a: "Most battery-powered units fall within standard airline carry-on battery limits, but check your specific unit's battery capacity in watt-hours against your airline's policy before traveling with it." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-desktop-air-purifiers", title: "Best Desktop Air Purifiers (2026)" },
   { href: "/guide/best-small-air-purifiers", title: "Best Small Air Purifiers (2026)" },
-  { href: "/guide/best-air-purifiers-for-dorm-rooms", title: "Best Air Purifiers for Dorm Rooms (2026)" },
+  { href: "/guide/best-air-purifiers-for-dorm-rooms", title: "Best Air Purifiers for Dorm Rooms (2026)" }
 ];

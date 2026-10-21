@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "quiet mini pc for home office";
 export const introParagraphs = [
   "A genuinely fanless, passively cooled design guarantees silence in a way that a 'quiet' fan-based system never fully can, worth checking whether a mini PC is truly fanless versus simply using a low-noise fan before assuming silent operation under sustained video-call load.",
-  "Fan noise under sustained load, not idle noise, is what actually matters during a long video call or heavy multitasking session, worth checking reviews specifically for reported noise under load rather than trusting an idle-only dB rating.",
+  "Fan noise under sustained load, not idle noise, is what actually matters during a long video call or heavy multitasking session, worth checking reviews specifically for reported noise under load rather than trusting an idle-only dB rating."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Quiet Mini PC for Home Offices Overall",
     name: "MeLE Quieter DL Fanless Mini PC N150 8GB 256GB Dual Intel I226-V 2.5GbE LAN",
     price: "$413.99",
-    rating: "5.0 stars from Amazon ratings",
-    reviews: "3 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51F4SpyR+4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H1V7B63Z?tag=deskfinds0d-20",
     description: "A genuinely fanless, passively cooled design named explicitly in the product's branding, appropriate for buyers wanting guaranteed silence for video calls and focused work.\n\nIt earns the top spot in this comparison over MeLE Quieter4C N150 Fanless Mini PC with Win-11-Pro 16GB RAM for one main reason. Genuinely fanless design guarantees silent operation under any load. On price, it comes in below MeLE Quieter4C N150 Fanless Mini PC with Win-11-Pro 16GB RAM, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Explicit 'Quieter' branding backed by passive cooling architecture. On the other side, Passive cooling means less sustained performance headroom under heavy load. That's the main tradeoff to weigh against everything above.",
@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuinely fanless designs distinguished from generic 'quiet' fan-based claims", description: "Distinguished truly passively cooled, fanless architecture from mini PCs simply using a low-noise fan under a 'quiet' marketing label." },
   { title: "Noise under sustained load weighted over idle-only ratings", description: "Weighted noise behavior under sustained load, like a long video call, more heavily than an idle-only dB rating." },
   { title: "RAM and storage headroom balanced against passive cooling limits", description: "Balanced RAM and storage configuration against the sustained performance ceiling inherent to passive-only cooling designs." },
-  { title: "Explicit silence-focused branding treated as a genuine signal, not just marketing", description: "Treated explicit fanless or '0dB' branding as a genuine signal worth weighting, since it typically reflects an intentional passive cooling design choice." },
+  { title: "Explicit silence-focused branding treated as a genuine signal, not just marketing", description: "Treated explicit fanless or '0dB' branding as a genuine signal worth weighting, since it typically reflects an intentional passive cooling design choice." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -226,11 +226,11 @@ export const faq: FaqItem[] = [
   { q: "Is a 'quiet' mini PC the same as a fanless one?", a: "Not necessarily, a genuinely fanless, passively cooled design guarantees silence in a way a low-noise fan-based 'quiet' system never fully can." },
   { q: "Does idle noise reflect real-world quiet operation?", a: "No, noise under sustained load during a video call or heavy multitasking matters more than an idle-only dB rating." },
   { q: "Do fanless mini PCs perform worse than fan-cooled ones?", a: "They generally have less sustained performance headroom under heavy load due to passive-only cooling, match your configuration to lighter or moderate workflows." },
-  { q: "Is 0dB branding a meaningful signal?", a: "Yes, it typically reflects an intentional, genuinely passive cooling design choice worth weighting when comparing otherwise similar listings." },
+  { q: "Is 0dB branding a meaningful signal?", a: "Yes, it typically reflects an intentional, genuinely passive cooling design choice worth weighting when comparing otherwise similar listings." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-fanless-mini-pcs", title: "Best Fanless Mini PCs (2026)" },
   { href: "/guide/best-mini-pcs-for-home-offices", title: "Best Mini PCs for Home Offices (2026)" },
-  { href: "/guide/best-mini-pcs-for-small-desks", title: "Best Mini PCs for Small Desks (2026)" },
+  { href: "/guide/best-mini-pcs-for-small-desks", title: "Best Mini PCs for Small Desks (2026)" }
 ];

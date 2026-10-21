@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["The brightest 1080P triple-screen panels", "P7 Triple Laptop Screen Extender 15.6\" (300 Nits)"],
         ["Maximum vertical workspace for coding or spreadsheets", "S12 Triple Portable Monitor 16\" 1200P"],
-        ["Triple-screen productivity at the lowest price", "ZUMWALT P7 Triple Portable Monitor 15.6\""],
+        ["Triple-screen productivity at the lowest price", "ZUMWALT P7 Triple Portable Monitor 15.6\""]
       ],
     },
   },
@@ -116,9 +116,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $115", "Laptop Screen Extender 15.6\" Detachable ($110.48)"],
-        ["$185-$195", "ZUMWALT P7 Triple Portable Monitor 15.6\" ($189.99)"],
-        ["$245-$260", "S12 Triple Portable Monitor 16\" 1200P ($249.98) or P7 300 Nits ($259.99)"],
+        ["Under $115", "Laptop Screen Extender 15.6\" Detachable (under $120)"],
+        ["$185-$195", "ZUMWALT P7 Triple Portable Monitor 15.6\" (under $190)"],
+        ["$245-$260", "S12 Triple Portable Monitor 16\" 1200P (under $250) or P7 300 Nits (under $300)"]
       ],
     },
   },
@@ -126,7 +126,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "300 Nits 1080P vs 350 Nits 1200P",
     cards: [
       { label: "P7 Triple Screen 300 Nits (1080P)", text: "Brightest standard-resolution panel in this comparison, lighter total weight at 3.9 lbs, best if brightness in well-lit rooms matters most to you." },
-      { label: "S12 Triple Screen 1200P (350 Nits)", text: "Actually brighter at 350 nits and adds a taller 16:10 aspect ratio for more vertical content, at a slightly lower price than the P7 pick." },
+      { label: "S12 Triple Screen 1200P (350 Nits)", text: "Actually brighter at 350 nits and adds a taller 16:10 aspect ratio for more vertical content, at a slightly lower price than the P7 pick." }
     ],
     note: "The S12 pick wins on both resolution and brightness, so it's the stronger choice unless the P7's lighter weight specifically matters more for how you'll use the setup.",
   },
@@ -136,7 +136,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Weight priority", "Recommended pick"],
       rows: [
         ["Lightest triple-screen setup", "P7 Triple Laptop Screen Extender 15.6\" (300 Nits) at 3.9 lbs"],
-        ["Lightest overall (single panel)", "Laptop Screen Extender 15.6\" Detachable at a fraction of triple-screen weight"],
+        ["Lightest overall (single panel)", "Laptop Screen Extender 15.6\" Detachable at a fraction of triple-screen weight"]
       ],
     },
   },
@@ -144,22 +144,22 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Home Office Multi-Monitor Setups Specifically",
     cards: [
       { label: "Look for", text: "The highest resolution and largest usable screen area, since a fixed home office desk doesn't need to prioritize portability the way a travel setup would." },
-      { label: "In this comparison", text: "The S12 Triple Portable Monitor 16\" 1200P is the strongest fit, offering both higher resolution and larger 16 inch panels for a stationary desk setup." },
+      { label: "In this comparison", text: "The S12 Triple Portable Monitor 16\" 1200P is the strongest fit, offering both higher resolution and larger 16 inch panels for a stationary desk setup." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the sharpest, brightest triple-screen setup available, where the S12 Triple Portable Monitor 16\" 1200P delivers both higher resolution and higher brightness than the standard 1080P alternatives." },
-      { label: "Save if", text: "A single detachable screen actually fits your workflow, where the Laptop Screen Extender 15.6\" Detachable at $110.48 covers the same core need for well under half the price." },
+      { label: "Save if", text: "A single detachable screen actually fits your workflow, where the Laptop Screen Extender 15.6\" Detachable at under $120 covers the same core need for well under half the price." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Don't Assume the Priciest Pick Automatically Has the Best Specs",
-    "explanation": "In this comparison, the S12 Triple Portable Monitor at $249.98 actually has higher stated brightness (350 nits) than the pricier $259.99 P7 pick (300 nits), because the S12's premium comes from its 1200P resolution and CNC aluminum build, not from brightness. Before assuming a higher price means better specs across the board, compare each individual figure, brightness, resolution, weight, separately rather than treating price as a single ranking signal."
+    "explanation": "In this comparison, the S12 Triple Portable Monitor at under $250 actually has higher stated brightness (350 nits) than the pricier under $300 P7 pick (300 nits), because the S12's premium comes from its 1200P resolution and CNC aluminum build, not from brightness. Before assuming a higher price means better specs across the board, compare each individual figure, brightness, resolution, weight, separately rather than treating price as a single ranking signal."
   },
   {
     "criterion": "A Slightly Heavier Triple-Screen Setup Isn't Always the More Feature-Rich One",
@@ -180,7 +180,7 @@ export const buyingCriteria = [
 ];
 
 export const faq = [
-  { "q": "Which triple-screen pick in this guide has the best overall specs?", "a": "The S12 Triple Portable Monitor 16\" 1200P at $249.98 has the edge, combining higher resolution, a taller 16:10 aspect ratio, and higher stated brightness (350 nits) than the pricier P7 pick, making it the strongest all-around choice in this comparison." },
+  { "q": "Which triple-screen pick in this guide has the best overall specs?", "a": "The S12 Triple Portable Monitor 16\" 1200P at under $250 has the edge, combining higher resolution, a taller 16:10 aspect ratio, and higher stated brightness (350 nits) than the pricier P7 pick, making it the strongest all-around choice in this comparison." },
   { "q": "Is it worth paying $70 more for the P7's 300 nit brightness over the ZUMWALT's 280 nits?", "a": "For most buyers, no, since a 20 nit difference is a modest, often barely noticeable improvement. The larger, more relevant differences in this guide are between 1080P and 1200P resolution or between triple-screen and single-panel setups, not small brightness increments within the same resolution tier." },
   { "q": "Do all the triple-screen extenders in this guide need the same MacBook M-series workaround?", "a": "Yes, every triple-screen pick in this comparison that requires two full-featured USB-C ports for its simplest setup will need the additional H5-T cable, HDMI, and USB-A workaround for MacBook M1/M2/M3 models lacking that port configuration, since this is a hardware limitation shared across this product category, not specific to one brand." },
   { "q": "How do I decide between the 1200P S12 and the 300 nit P7 if I do both coding and video work?", "a": "If you had to choose one factor, resolution and aspect ratio generally matter more for coding specifically, since more vertical lines visible at once directly speeds up reading and navigating code, while the brightness difference between these two picks is small enough to matter less across both use cases." },

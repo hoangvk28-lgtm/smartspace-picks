@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     description: "This dock's listing specifically states Windows Thunderbolt 5 hosts can reach up to Dual 8K@60Hz, while Thunderbolt 4 Windows hosts are limited to dual 6K@60Hz, a clear generational distinction that helps set correct expectations before buying. On macOS, it supports dual 6K@60Hz or dual 8K@60Hz specifically on Macs that support those resolutions.\n\nCompared to the Plugable pick above, this one's 20 total ports and dual USB controller architecture, giving front and rear ports independent 10Gb/s controllers, deliver more comprehensive connectivity for a workstation that also needs extensive peripheral support alongside its 8K displays.\n\nBest for Windows buyers who want dual 8K display support with the most comprehensive total port count.",
     specs: ["Dual 8K@60Hz (Windows TB5), dual 6K@60Hz (TB4)", "20 total ports, dual USB controllers", "140W host charging, 330W power supply"],
     pros: ["Dual 8K@60Hz support specifically on Windows Thunderbolt 5 hosts", "Most comprehensive total port count in this comparison", "Clear generational distinction between Thunderbolt 5 and 4 display limits"],
-    cons: ["Highest price in this comparison at $499.99", "Dual 8K on Mac requires a Mac that specifically supports that resolution"],
+    cons: ["Highest price in this comparison at under $500", "Dual 8K on Mac requires a Mac that specifically supports that resolution"],
     bestFor: "Windows buyers who want dual 8K display support with the most comprehensive port count",
   },
   {
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Native adapter-free 8K HDMI output", "Plugable Thunderbolt 5 Dock (TBT-UDH2)"],
         ["Dual 8K on Windows with maximum port count", "CalDigit TS5 Plus Thunderbolt 5 Docking Station"],
         ["Built-in NVMe storage alongside 8K display support", "Sonnet Echo 21 Thunderbolt 5 SuperDock"],
-        ["Dual 8K support specifically for MacBook Pro", "Brydge ProDock Trio TB5 MacBook Docking Station"],
+        ["Dual 8K support specifically for MacBook Pro", "Brydge ProDock Trio TB5 MacBook Docking Station"]
       ],
     },
   },
@@ -109,9 +109,9 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $350", "Plugable Thunderbolt 5 Dock ($349.95)"],
-        ["Under $400", "Brydge ProDock Trio ($399.00)"],
-        ["Under $500", "CalDigit TS5 Plus or Sonnet Echo 21 (both $499.99)"],
+        ["Under $350", "Plugable Thunderbolt 5 Dock (under $350)"],
+        ["Under $400", "Brydge ProDock Trio (under $400)"],
+        ["Under $500", "CalDigit TS5 Plus or Sonnet Echo 21 (both under $500)"]
       ],
     },
   },
@@ -119,7 +119,7 @@ export const howToChoose = [
     subheading: "Native HDMI 8K vs Thunderbolt-Routed 8K",
     cards: [
       { label: "Native HDMI 2.1 (Plugable)", text: "8K output goes directly through native HDMI 2.1 ports with no adapter needed, a cleaner signal path for buyers whose monitor already has an HDMI 2.1 input." },
-      { label: "Thunderbolt-routed (CalDigit, Sonnet, Brydge)", text: "8K output is achieved through the dock's Thunderbolt connection and depends more heavily on the specific host chip and operating system supporting that resolution." },
+      { label: "Thunderbolt-routed (CalDigit, Sonnet, Brydge)", text: "8K output is achieved through the dock's Thunderbolt connection and depends more heavily on the specific host chip and operating system supporting that resolution." }
     ],
     note: "If your 8K monitor has a native HDMI 2.1 input, the Plugable pick's adapter-free path is the most straightforward. If you need 8K through Thunderbolt-based connections tied to your exact Mac chip or Windows host, check the CalDigit, Sonnet, or Brydge picks' specific documented requirements first.",
   },
@@ -130,7 +130,7 @@ export const howToChoose = [
       rows: [
         ["Windows Thunderbolt 5 desktop or laptop", "CalDigit TS5 Plus Thunderbolt 5 Docking Station"],
         ["MacBook Pro 16-inch with Max-tier chip", "Brydge ProDock Trio TB5 MacBook Docking Station"],
-        ["Mixed Mac, Windows, Chromebook, and iPad Pro household", "Sonnet Echo 21 Thunderbolt 5 SuperDock"],
+        ["Mixed Mac, Windows, Chromebook, and iPad Pro household", "Sonnet Echo 21 Thunderbolt 5 SuperDock"]
       ],
     },
   },
@@ -138,16 +138,16 @@ export const howToChoose = [
     subheading: "For a Video Editing or Color-Critical Workstation Specifically",
     cards: [
       { label: "Look for", text: "A dock with native, adapter-free high-refresh 8K output and enough additional ports to support fast external storage alongside the display, since color-critical work often runs both simultaneously." },
-      { label: "In this comparison", text: "The Sonnet Echo 21's built-in NVMe slot alongside its 8K HDMI output specifically supports this combined workflow without extra external boxes." },
+      { label: "In this comparison", text: "The Sonnet Echo 21's built-in NVMe slot alongside its 8K HDMI output specifically supports this combined workflow without extra external boxes." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You need dual 8K on Windows with the most comprehensive port count, where the CalDigit TS5 Plus's $499.99 price is justified by its 20-port design." },
-      { label: "Save if", text: "You want native adapter-free 8K HDMI output without needing extensive extra ports, where the Plugable pick delivers that for $349.95, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You need dual 8K on Windows with the most comprehensive port count, where the CalDigit TS5 Plus's under $500 price is justified by its 20-port design." },
+      { label: "Save if", text: "You want native adapter-free 8K HDMI output without needing extensive extra ports, where the Plugable pick delivers that for under $350, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

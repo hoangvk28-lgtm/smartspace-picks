@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "metal portable file boxes";
 export const introParagraphs = [
   "Metal construction is genuinely more durable than plastic against dents and cracking, but this benefit depends on actual gauge, thin metal can still dent under handling despite being technically 'metal.' We also disclosed the real weight tradeoff directly, since metal's substantially greater heft compared to plastic works against this category's core 'portable' value proposition.",
-  "We checked rust and corrosion resistance for any moisture exposure during storage or transport, a genuine metal-specific durability concern.",
+  "We checked rust and corrosion resistance for any moisture exposure during storage or transport, a genuine metal-specific durability concern."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Steel gauge and dent resistance", description: "We considered actual metal thickness where disclosed, since thin metal can still dent under handling despite being technically 'metal' construction." },
   { title: "Weight disclosed as a real portability tradeoff", description: "We explicitly weighed metal's substantially greater heft against plastic alternatives, a genuine tradeoff for this category's core portable value proposition." },
   { title: "Rust and corrosion resistance", description: "We considered moisture exposure risk during transport or storage, a genuine metal-specific durability concern distinct from plastic construction." },
-  { title: "Security-vs-weight tradeoff honesty", description: "We assessed whether metal construction genuinely improves security and durability enough to justify the added weight versus a quality plastic alternative." },
+  { title: "Security-vs-weight tradeoff honesty", description: "We assessed whether metal construction genuinely improves security and durability enough to justify the added weight versus a quality plastic alternative." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -239,11 +239,11 @@ export const faq: FaqItem[] = [
   { q: "How much heavier is a metal file box than plastic?", a: "Meaningfully heavier, a real tradeoff against this category's portable promise. If you'll carry the box any real distance regularly, weigh this against metal's durability benefit." },
   { q: "Do metal file boxes rust?", a: "They can if exposed to moisture without adequate rust resistance. If storing in a garage, basement, or transporting outdoors, verify corrosion resistance before buying." },
   { q: "Is metal or quality plastic better overall?", a: "It depends on your priority. Metal resists denting better, but a reinforced plastic box offers real durability at meaningfully less weight and cost. Choose metal when dent resistance or a genuine lock matters most." },
-  { q: "Can I get metal durability without the full weight?", a: "Yes, a mesh wire metal design like the samstar pick offers lighter weight and content visibility, though without a lid enclosure or lock." },
+  { q: "Can I get metal durability without the full weight?", a: "Yes, a mesh wire metal design like the samstar pick offers lighter weight and content visibility, though without a lid enclosure or lock." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-plastic-portable-file-boxes", title: "Best Plastic Portable File Boxes (2026)" },
   { href: "/guide/best-heavy-duty-portable-file-boxes", title: "Best Heavy-Duty Portable File Boxes (2026)" },
-  { href: "/guide/best-lockable-portable-file-boxes", title: "Best Lockable Portable File Boxes (2026)" },
+  { href: "/guide/best-lockable-portable-file-boxes", title: "Best Lockable Portable File Boxes (2026)" }
 ];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "acoustic desk divider";
 export const introParagraphs = [
   "This guide overlaps in category with our sound-absorbing desk privacy panel research, so if you've already read that guide, treat this one as focused specifically on divider-style products meant to separate two workspaces or shield one desk, rather than duplicate ground already covered there.",
-  "A divider's height relative to your own seated eye level matters more than its listed 'privacy panel' label, a divider too short for your chair and desk combination leaves an open sound and sightline path above it, worth checking the listed dimensions against your own seated height before ordering rather than assuming any 'privacy' product covers you fully.",
+  "A divider's height relative to your own seated eye level matters more than its listed 'privacy panel' label, a divider too short for your chair and desk combination leaves an open sound and sightline path above it, worth checking the listed dimensions against your own seated height before ordering rather than assuming any 'privacy' product covers you fully."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -121,7 +121,7 @@ export const products: GuideProduct[] = [
     pros: ["Same reliable ReFocus clamp-on build as our cool gray pick", "Ash gray tone may match more office color schemes", "Secure clamp mount", "Balanced square coverage for single-desk use"],
     cons: ["Same height limitation as the cool gray version", "No published NRC rating", "Requires compatible desk edge for clamping"],
     bestFor: "Buyers who prefer an ash gray finish on the same ReFocus square divider.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -129,7 +129,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Mounting method checked against desk compatibility", description: "Verified whether each divider is clamp-on or freestanding, since clamp mounts need a compatible desk edge thickness while freestanding units rely on their own footing." },
   { title: "Height weighed against seated eye level", description: "Weighed each divider's listed height against typical seated eye level, flagging shorter dividers as leaving an open sound and sightline path above them, since this can't be confirmed without checking your own setup." },
   { title: "Single-desk versus shared-office use distinguished", description: "Distinguished dividers sized for separating two coworkers across a shared surface from smaller units meant for single-desk privacy." },
-  { title: "NRC disclosure checked, not assumed", description: "Checked each listing for a published Noise Reduction Coefficient rating. None in this pool publish one, so absorption claims are treated as directional, not verified." },
+  { title: "NRC disclosure checked, not assumed", description: "Checked each listing for a published Noise Reduction Coefficient rating. None in this pool publish one, so absorption claims are treated as directional, not verified." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -257,11 +257,11 @@ export const faq: FaqItem[] = [
   { q: "Is a clamp-on divider better than a freestanding one?", a: "Clamp-on dividers mount more securely but need a compatible desk edge thickness, freestanding dividers work on any flat surface but rely on their own footing for stability." },
   { q: "Do acoustic desk dividers work between two coworkers?", a: "Wider, taller dividers like the 47.25 inch ReFocus panel are better suited to shared-desk separation than compact accent dividers meant for a single desk." },
   { q: "How is this guide different from the sound-absorbing desk privacy panel guide?", a: "This guide focuses specifically on divider-style products meant to separate workspaces or shield a desk edge, while our sound-absorbing privacy panel guide covers the broader panel category, check both if you're weighing panel versus divider styles." },
-  { q: "Do these dividers come with a published NRC rating?", a: "No, none of the dividers in this guide publish a formal Noise Reduction Coefficient, treat absorption claims as directional rather than a verified spec." },
+  { q: "Do these dividers come with a published NRC rating?", a: "No, none of the dividers in this guide publish a formal Noise Reduction Coefficient, treat absorption claims as directional rather than a verified spec." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-sound-absorbing-desk-privacy-panels", title: "Best Sound-Absorbing Desk Privacy Panels (2026)" },
   { href: "/guide/best-desk-acoustic-panels", title: "Best Desk Acoustic Panels (2026)" },
-  { href: "/guide/best-desk-privacy-panels-clamp-on", title: "Best Clamp-On Desk Privacy Panels (2026)" },
+  { href: "/guide/best-desk-privacy-panels-clamp-on", title: "Best Clamp-On Desk Privacy Panels (2026)" }
 ];

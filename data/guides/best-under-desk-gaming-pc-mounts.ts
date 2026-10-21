@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "under desk gaming pc mount";
 export const introParagraphs = [
   "Gaming PCs frequently feature RGB lighting and tempered-glass side panels specifically meant to be visible, and mounting one under the desk puts it out of sight, worth addressing this tension honestly rather than presenting under-desk mounting as a universal positive if showing off your build's aesthetic was part of the purchase motivation.",
-  "Gaming towers are disproportionately likely to be genuinely heavy given multi-GPU setups, large cooling hardware, and extra drives, worth verifying mount capacity against realistic high-end gaming tower weights rather than a generic mid-tower assumption, and gaming PCs generate substantial heat under sustained load, worth considering that enclosed under-desk placement traps warm air near the floor with more limited airflow, the heaviest realistic thermal load of any PC type in this cluster.",
+  "Gaming towers are disproportionately likely to be genuinely heavy given multi-GPU setups, large cooling hardware, and extra drives, worth verifying mount capacity against realistic high-end gaming tower weights rather than a generic mid-tower assumption, and gaming PCs generate substantial heat under sustained load, worth considering that enclosed under-desk placement traps warm air near the floor with more limited airflow, the heaviest realistic thermal load of any PC type in this cluster."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Gaming PC Mount Overall",
     name: "VIVO Heavy Duty Adjustable Under-Desk PC Mount, Supports up to 66 lbs, MOUNT-PC04B",
     price: "$59.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "222 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31t8nBX+HEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBB2W47P?tag=deskfinds0d-20",
     description:
@@ -43,14 +43,14 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity Gaming Pick",
     name: "Heavy Duty Under Desk PC Holder, Up to 77 lbs Load Capacity, Adjustable Computer Tower Holder",
     price: "$49.90",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "433 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31DzC4Wn1JL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGQR4DNJ?tag=deskfinds0d-20",
     description:
-      "The highest disclosed capacity in this guide at 77 pounds, appropriate for the heaviest realistic high-end gaming towers with multi-GPU setups or large custom cooling loops, backed by a sizable review base and strong rating.\\n\\nGaming PCs under sustained load generate the heaviest realistic thermal output of any PC type in this cluster, worth checking your case's specific cooling design tolerates the more limited airflow of an enclosed under-desk location during long gaming sessions.\n\nSet against the VIVO Heavy Duty Adjustable Under, the tradeoff here comes down to price versus disclosed weight capacity, not a straightforward upgrade or downgrade either way.\n\nWorth knowing before you decide: Strong 4.6-star rating across a sizable review base. On the other side, Enclosed under-desk placement adds real thermal risk under sustained gaming load. That's the main tradeoff to weigh against your specific case and desk setup.",
+      "The highest disclosed capacity in this guide at 77 pounds, appropriate for the heaviest realistic high-end gaming towers with multi-GPU setups or large custom cooling loops, backed by a sizable review base and strong rating.\\n\\nGaming PCs under sustained load generate the heaviest realistic thermal output of any PC type in this cluster, worth checking your case's specific cooling design tolerates the more limited airflow of an enclosed under-desk location during long gaming sessions.\n\nSet against the VIVO Heavy Duty Adjustable Under, the tradeoff here comes down to price versus disclosed weight capacity, not a straightforward upgrade or downgrade either way.\n\nOn the other side, Enclosed under-desk placement adds real thermal risk under sustained gaming load. That's the main tradeoff to weigh against your specific case and desk setup.",
     specs: ["Up to 77 lbs capacity","Adjustable width design","Sizable review base","Strong rating"],
-    pros: ["Highest disclosed capacity for the heaviest multi-GPU gaming towers","Strong 4.6-star rating across a sizable review base","Adjustable fit for varied case widths","Reasonable price for the stated capacity"],
+    pros: ["Highest disclosed capacity for the heaviest multi-GPU gaming towers","Adjustable fit for varied case widths","Reasonable price for the stated capacity"],
     cons: ["Enclosed under-desk placement adds real thermal risk under sustained gaming load","Hides RGB and tempered-glass aesthetics out of sight","Wireless peripheral dongles sit farther from your desk surface, verify signal reliability"],
     bestFor: "Buyers with a high-end multi-GPU gaming tower needing maximum disclosed capacity",
   },
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best Orientation-Flexible Gaming Pick",
     name: "PUTORSEN Under Desk PC Mount for Full/Mid-Tower Cases, Vertical/Horizontal CPU Holder up to 77 lbs",
     price: "$37.49",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "44 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41H5F8LUWzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GWGZCWWX?tag=deskfinds0d-20",
     description:
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Highest-Rated Gaming Pick",
     name: "Heavy Duty Under Desk PC Mount, Height Adjustable, Max Load 66 lbs, Black",
     price: "$45.58",
-    rating: "4.8 stars from Amazon ratings",
-    reviews: "49 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41uzdCGRrbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G6YWLKQH?tag=deskfinds0d-20",
     description:
@@ -95,7 +95,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "RGB and glass-panel visibility tension addressed honestly", description: "Addressed honestly that under-desk mounting hides RGB lighting and tempered-glass panels specifically meant to be visible, rather than presenting under-desk mounting as a universal positive for gaming PC owners." },
   { title: "Capacity checked against realistic high-end gaming tower weights", description: "Checked mount capacity against realistic high-end gaming tower weights, multi-GPU setups, large cooling hardware, and extra drives, beyond the generic mid-tower assumption." },
   { title: "Sustained gaming-load thermal impact weighted heavily", description: "Weighted the thermal impact of enclosed under-desk placement under sustained gaming load, the heaviest realistic thermal load of any PC type in this cluster, more heavily than for lighter-use PCs." },
-  { title: "Wireless peripheral signal distance and cable complexity noted", description: "Noted that under-desk placement increases distance between the mounted PC's wireless dongles and desk-surface peripherals, and that additional RGB and lighting cables add real cable-management complexity." },
+  { title: "Wireless peripheral signal distance and cable complexity noted", description: "Noted that under-desk placement increases distance between the mounted PC's wireless dongles and desk-surface peripherals, and that additional RGB and lighting cables add real cable-management complexity." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -230,11 +230,11 @@ export const faq: FaqItem[] = [
   { q: "Does mounting my gaming PC under the desk hide the RGB lighting?", a: "Yes, this directly conflicts with the visibility purpose of RGB and tempered-glass builds, worth weighing honestly if showing off your build mattered when you bought it." },
   { q: "Can an under-desk mount actually hold a heavy multi-GPU gaming tower?", a: "Check the disclosed capacity against your build's realistic weight, gaming towers with multi-GPU setups and large cooling hardware are disproportionately heavier than a generic mid-tower assumption." },
   { q: "Does under-desk mounting affect gaming PC temperatures?", a: "It can, enclosed under-desk placement traps warm air with more limited airflow than open desk-side placement, and gaming PCs generate substantial heat under sustained load." },
-  { q: "Will my wireless mouse and keyboard still work well with the PC mounted under the desk?", a: "Usually, but the increased distance to the mounted PC's dongles can affect Bluetooth or 2.4GHz signal reliability in some setups, worth testing after installation." },
+  { q: "Will my wireless mouse and keyboard still work well with the PC mounted under the desk?", a: "Usually, but the increased distance to the mounted PC's dongles can affect Bluetooth or 2.4GHz signal reliability in some setups, worth testing after installation." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-heavy-duty-under-desk-pc-mounts", title: "Best Heavy-Duty Under-Desk PC Mounts (2026)" },
   { href: "/guide/best-horizontal-under-desk-pc-mounts", title: "Best Horizontal Under-Desk PC Mounts (2026)" },
-  { href: "/guide/best-under-desk-pc-mounts", title: "Best Under-Desk PC Mounts (2026)" },
+  { href: "/guide/best-under-desk-pc-mounts", title: "Best Under-Desk PC Mounts (2026)" }
 ];

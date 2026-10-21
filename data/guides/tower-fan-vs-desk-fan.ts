@@ -12,7 +12,7 @@ export const towerFanVsDeskFanGuide: Guide = {
     "tower fan for office cooling",
     "desk fan vs floor fan",
     "best fan for small room office",
-    "tower fan noise level",
+    "tower fan noise level"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const towerFanVsDeskFanGuide: Guide = {
     "desk-fan-cfm-explained",
     "space-heater-room-size-chart",
     "ceramic-vs-infrared-space-heater",
-    "air-purifier-cadr-explained",
+    "air-purifier-cadr-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const towerFanVsDeskFanGuide: Guide = {
       question: "Is a tower fan a good choice for a small home office?",
       answer:
         "Yes, particularly since it doesn't occupy desk surface space, a tower fan positioned on the floor in a corner or beside the desk can provide effective room-wide air circulation in a small office without competing for the limited desk surface a desk fan would occupy.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const towerFanVsDeskFanGuide: Guide = {
     {
       heading: "Why Desk Space Consideration Often Tips the Decision for Smaller Desks",
       body: `On a small desk where every inch of surface area is already competing for keyboard, mouse, monitor, and other essential items, adding a desk fan to that same limited surface represents a real space tradeoff that a floor-positioned tower fan simply avoids entirely, for anyone working with meaningfully constrained desk surface space, this practical space consideration alone can be enough to favor a tower fan even if a desk fan's more direct airflow would otherwise be preferred for personal cooling specifically.`,
-    },
+    }
   ],
 };

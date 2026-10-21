@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "rolling desk with cup holder";
 export const introParagraphs = [
   "We need to be upfront: in our research, no rolling or mobile standing desk actually ships with a built-in cup holder as a factory feature. This isn't a real standalone product category the way \"rolling desk\" or \"cup holder\" are individually.",
-  "What does exist, and works just as well in practice, is pairing a well-reviewed rolling desk with a genuine clip-on cup holder accessory. We ranked the strongest rolling desks from our research and included a real add-on cup holder that attaches to most desk edges.",
+  "What does exist, and works just as well in practice, is pairing a well-reviewed rolling desk with a genuine clip-on cup holder accessory. We ranked the strongest rolling desks from our research and included a real add-on cup holder that attaches to most desk edges."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     pros: ["Actually includes a cup holder, unlike any rolling desk in this comparison", "Clamps onto most desk edges regardless of brand"],
     cons: ["Sold separately from the desk, requires clamping to an existing edge"],
     bestFor: "Buyers who want to add genuine cup holder functionality to any rolling desk they already own or are buying.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Disclosed that no rolling desk ships with a built-in cup holder", description: "We verified this directly rather than force-fitting unrelated rolling desks into a category that doesn't genuinely exist as a single integrated product." },
   { title: "Ranked rolling desks on mobility and adjustability", description: "We compared rolling casters, height adjustment range, and drawer or storage features across the genuine mobile desk options." },
   { title: "Included a real clip-on cup holder as the honest solution", description: "Rather than recommending a nonexistent integrated product, we identified a genuine accessory that solves the actual need." },
-  { title: "Distinguished full desks from lighter-duty rolling carts", description: "We flagged where a product is a rolling laptop cart rather than a full standing desk, since the weight capacity and work surface differ." },
+  { title: "Distinguished full desks from lighter-duty rolling carts", description: "We flagged where a product is a rolling laptop cart rather than a full standing desk, since the weight capacity and work surface differ." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -233,13 +233,13 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "Does any rolling desk actually come with a built-in cup holder?", a: "No, we found none in our research. The genuine solution is pairing a rolling desk with a separate clip-on cup holder accessory, like the KDD pick in this comparison." },
   { q: "What's the best full rolling desk?", a: "The JYLH JOYSEEKER 28 inch Mobile Standing Desk, with rolling casters and a built-in storage drawer." },
-  { q: "What's the cheapest rolling option?", a: "The ErGear Mobile Standing Desk with Wheels at $52.99, though it's a lighter-duty cart rather than a full desk." },
+  { q: "What's the cheapest rolling option?", a: "The ErGear Mobile Standing Desk with Wheels at under $60, though it's a lighter-duty cart rather than a full desk." },
   { q: "Will a clip-on cup holder work with any desk?", a: "Most clamp-on cup holders fit a range of desk edge thicknesses, but check the specific product's maximum clamp thickness against your desk before ordering." },
-  { q: "Is there an option specifically for bedside use?", a: "Yes, the BIZUM Adjustable Bedside Table uses a pneumatic lift and hidden swivel wheels for that specific use case." },
+  { q: "Is there an option specifically for bedside use?", a: "Yes, the BIZUM Adjustable Bedside Table uses a pneumatic lift and hidden swivel wheels for that specific use case." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-student-desks-with-cup-holders", title: "Best Student Desks with Cup Holders (2026)" },
   { href: "/guide/best-mini-pc-desk-mounts", title: "Best Mini PC Desk Mounts (2026)" },
-  { href: "/guide/best-laptop-cooling-pads-for-desk-use", title: "Best Laptop Cooling Pads for Desk Use (2026)" },
+  { href: "/guide/best-laptop-cooling-pads-for-desk-use", title: "Best Laptop Cooling Pads for Desk Use (2026)" }
 ];

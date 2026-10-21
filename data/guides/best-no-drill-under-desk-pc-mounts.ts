@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "no drill under desk pc mount";
 export const introParagraphs = [
   "This keyword overlaps closely with our separate guide on under-desk PC mounts without screws, worth clarifying up front that most 'no-drill' products in this category use the same clamp-based mechanism as the 'without screws' guide rather than a genuinely different method like adhesive or a weighted base, so read this guide for the clamp-mechanism angle and see our mounts-without-screws guide for the fuller renter-friendliness deep dive.",
-  "No-drill methods generally carry a lower weight capacity than drilled or bolted alternatives, a tradeoff worth disclosing plainly rather than assuming any no-drill product matches a screwed-in mount's holding power, and long-term holding reliability under sustained weight over months is more consequential here than for lighter accessories, worth checking reviews specifically for mentions of the clamp loosening over time and genuine residue-free removal for renters.",
+  "No-drill methods generally carry a lower weight capacity than drilled or bolted alternatives, a tradeoff worth disclosing plainly rather than assuming any no-drill product matches a screwed-in mount's holding power, and long-term holding reliability under sustained weight over months is more consequential here than for lighter accessories, worth checking reviews specifically for mentions of the clamp loosening over time and genuine residue-free removal for renters."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best No-Drill Pick Overall",
     name: "Under Desk PC Mount & CPU Holder, Fully Wrapped Adjustable Height and Width",
     price: "$29.99",
-    rating: "3.7 stars from Amazon ratings",
-    reviews: "6 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41WbZodJeTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H24RR3F2?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best Proven No-Drill Pick",
     name: "VIVO Adjustable Clamp-on Desk Leg PC Mount, Under Desk PC Mount, MOUNT-PC01C",
     price: "$39.99",
-    rating: "4.1 stars from Amazon ratings",
-    reviews: "396 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31eCcCtZEoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BHF5W87B?tag=deskfinds0d-20",
     description:
@@ -60,14 +60,14 @@ export const products: GuideProduct[] = [
     badge: "Best Standing-Desk No-Drill Pick",
     name: "JOY worker Under Desk PC Mount for Standing Desk, Clamp-On Leg CPU Holder",
     price: "$43.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "54 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/416Qk72eERL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCY4Q147?tag=deskfinds0d-20",
     description:
-      "A strong 4.5-star rating on this no-drill leg-clamp design, explicitly marketed for standing desk use where repeated height cycling puts extra long-term stress on a screw-free connection compared to a fixed-height desk.\\n\\nThe moderate review count is worth weighing against the strong rating, and as a renter-friendly option, genuine damage-free removal deserves verification through current reviews before assuming any no-drill claim guarantees it.\n\nRelative to the VIVO Adjustable Clamp, this pick leans toward a different priority, whether that's a higher capacity rating, a lower price, or a mounting method suited to a different install situation.\n\nWorth knowing before you decide: Explicitly designed for standing desk height-change durability. On the other side, Moderate review count relative to the largest-volume pick. That's the main tradeoff to weigh against your specific case and desk setup.",
+      "Relative to the VIVO Adjustable Clamp, this pick leans toward a different priority, whether that's a higher capacity rating, a lower price, or a mounting method suited to a different install situation.\n\nWorth knowing before you decide: Explicitly designed for standing desk height-change durability. On the other side, Moderate review count relative to the largest-volume pick. That's the main tradeoff to weigh against your specific case and desk setup.",
     specs: ["No-drill leg-clamp","Standing desk compatible","Strong rating","Mid-range price"],
-    pros: ["Strong 4.5-star rating","Explicitly designed for standing desk height-change durability","No-drill, fully reversible installation","Reasonable price for the rating quality"],
+    pros: ["Explicitly designed for standing desk height-change durability","No-drill, fully reversible installation","Reasonable price for the rating quality"],
     cons: ["Moderate review count relative to the largest-volume pick","Verify genuine damage-free removal through current reviews","Weight capacity likely lower than a drilled equivalent"],
     bestFor: "Standing desk owners wanting a no-drill mount rated for repeated height cycling",
   },
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact No-Drill Pick",
     name: "ZUAVIALA Under Desk PC Mount, No-Drill PC Holder for Standing Desk",
     price: "$35.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "28 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41n5BLsmv7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLYK9NPM?tag=deskfinds0d-20",
     description:
@@ -95,7 +95,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Mechanism cross-referenced against our mounts-without-screws guide", description: "Clarified that most no-drill products here use the same clamp mechanism covered in our separate mounts-without-screws guide, rather than a genuinely different method, to avoid duplicating that research." },
   { title: "Renter-friendliness weight-capacity tradeoff disclosed", description: "Disclosed plainly that no-drill methods generally carry lower weight capacity than drilled alternatives, rather than assuming any no-drill product matches a screwed-in mount's holding power." },
   { title: "Long-term holding reliability over months weighted heavily", description: "Weighted long-term holding reliability under sustained weight over months more heavily here than for lighter no-drill accessories, checking reviews for mentions of loosening over time." },
-  { title: "Genuine damage-free removal verified for renters", description: "Verified genuine residue and marking-free removal through current reviews, rather than assuming any 'no-drill' claim guarantees renter-friendly reversibility." },
+  { title: "Genuine damage-free removal verified for renters", description: "Verified genuine residue and marking-free removal through current reviews, rather than assuming any 'no-drill' claim guarantees renter-friendly reversibility." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -222,11 +222,11 @@ export const faq: FaqItem[] = [
   { q: "Is a no-drill PC mount the same as a mount without screws?", a: "Largely yes, most no-drill mounts use the same clamp-based mechanism, see our dedicated mounts-without-screws guide for the fuller mechanism-by-mechanism breakdown." },
   { q: "Do no-drill PC mounts hold less weight than screwed-in mounts?", a: "Generally yes, this is the core tradeoff for reversible installation, always verify your case's actual weight against the mount's disclosed capacity." },
   { q: "Will a no-drill mount loosen over time?", a: "It can, long-term holding reliability under sustained weight over months is a genuine concern here, check current reviews specifically for mentions of loosening after extended use." },
-  { q: "Will a no-drill PC mount actually leave my desk undamaged?", a: "Usually, but verify through current reviews rather than assuming any 'no-drill' claim guarantees fully residue and marking-free removal." },
+  { q: "Will a no-drill PC mount actually leave my desk undamaged?", a: "Usually, but verify through current reviews rather than assuming any 'no-drill' claim guarantees fully residue and marking-free removal." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-under-desk-pc-mounts-without-screws", title: "Best Under-Desk PC Mounts Without Screws (2026)" },
   { href: "/guide/best-clamp-on-under-desk-pc-mounts", title: "Best Clamp-On Under-Desk PC Mounts (2026)" },
-  { href: "/guide/best-under-desk-pc-mounts-for-standing-desks", title: "Best Under-Desk PC Mounts for Standing Desks (2026)" },
+  { href: "/guide/best-under-desk-pc-mounts-for-standing-desks", title: "Best Under-Desk PC Mounts for Standing Desks (2026)" }
 ];

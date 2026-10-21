@@ -10,7 +10,7 @@ export const heroImage = "https://m.media-amazon.com/images/I/51kICHhbM-L._SL500
 export const mainKeyword = "tv stand modern";
 export const introParagraphs = [
   "\"Modern\" TV stand is really an umbrella term that covers several distinct looks, from mid-century fluted and tambour doors to farmhouse-style sliding barn doors to minimalist black consoles with built-in LED lighting. Before you buy, it helps to know which sub-style actually matches your existing decor rather than assuming any stand labeled \"modern\" will blend in.",
-  "Below we cover eight modern TV stands across these sub-styles, with real specs on size, door type, storage, and weight capacity so you can match one to your room and your TV size without guessing.",
+  "Below we cover eight modern TV stands across these sub-styles, with real specs on size, door type, storage, and weight capacity so you can match one to your room and your TV size without guessing."
 ];
 
 export interface GuideProduct {
@@ -47,11 +47,11 @@ export const products: GuideProduct[] = [
     badge: "Best Overall",
     name: 'VASAGLE 70" Mid Century Modern TV Stand (Chestnut Walnut)',
     price: "$169.99",
-    rating: "4.7 stars",
-    reviews: "2,961 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51kICHhbM-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H459MKS6?tag=deskfinds0d-20",
-    description: "The VASAGLE 70 inch stand pairs curved fluted sliding doors with natural oak wood legs for a mid-century modern look that reads warm rather than stark. The 70 inch width fits TVs up to 80 inches and leaves an open center shelf for a soundbar or streaming box that stays within easy remote reach.\n\nThe frame is rated for 300 lbs, among the highest capacities in this roundup, so a large TV plus a media console setup will not strain the shelves. At 2,961 ratings and a 4.7 star average, this is the most proven pick here for buyers who want mid-century style without a high price.",
+    description: "The VASAGLE 70 inch stand pairs curved fluted sliding doors with natural oak wood legs for a mid-century modern look that reads warm rather than stark. The 70 inch width fits TVs up to 80 inches and leaves an open center shelf for a soundbar or streaming box that stays within easy remote reach.\n\nThe frame is rated for 300 lbs, among the highest capacities in this roundup, so a large TV plus a media console setup will not strain the shelves.",
     specs: ['70" wide', "Curved fluted sliding doors", "Natural oak wood legs", 'Fits TV up to 80"', "300 lb capacity", "Open center shelf"],
     pros: ["Widest stand in the roundup at 70 inches", "300 lb weight capacity", "Highest rating count for proven reliability", "Open center shelf keeps streaming devices accessible"],
     cons: ["Fluted sliding doors can weaken IR remote signal to gear stored behind them", "70 inch width needs a fairly large wall", "Assembly involves multiple panels and legs"],
@@ -63,8 +63,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Storage",
     name: 'OKD Modern 70" TV Stand (Antique White)',
     price: "$229.99",
-    rating: "4.7 stars",
-    reviews: "396 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41KExjmt83L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FDGHM391?tag=deskfinds0d-20",
     description: "The OKD 70 inch stand takes a lighter antique white finish and pairs it with a thick wood top plus two hidden cabinets and two-tier open shelving. That combination gives it more enclosed storage than most stands in this roundup, useful for hiding cable boxes, game consoles, or remotes out of sight.\n\nFour cable management holes route power and HDMI cables cleanly to the back instead of leaving them draped across the shelves. It fits TVs up to 80 inches and carries a 300 lb capacity, matching the top of this roundup for weight support.",
@@ -79,13 +79,13 @@ export const products: GuideProduct[] = [
     badge: "Best Farmhouse-Modern",
     name: "VASAGLE Farmhouse TV Stand",
     price: "$116.99",
-    rating: "4.6 stars",
-    reviews: "1,799 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41KtWnXqOCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H4ZFQTQQ?tag=deskfinds0d-20",
     description: "The VASAGLE Farmhouse stand blends modern farmhouse sliding barn doors with a simple 58 inch frame, a style that leans more rustic than the fluted mid-century options in this roundup. Four separate storage compartments plus one adjustable shelf give you flexibility to organize game consoles, media boxes, and remotes by size. It is one of the more affordable picks here while still fitting TVs up to 65 inches. The 170 lb capacity is lower than the 70 inch stands, so it suits lighter TVs and smaller media setups rather than a large mounted display resting directly on top. 4 separate storage compartments. That's a real strength, but weigh it against the flip side: 170 lb capacity, lower than the 70 inch models.",
     specs: ['58" wide', "Modern farmhouse sliding barn doors", "4 storage compartments", "1 adjustable shelf", 'Fits TV up to 65"', "170 lb capacity"],
-    pros: ["Budget-friendly price for a farmhouse-modern look", "4 separate storage compartments", "1,799 ratings for proven track record", "58 inch size fits smaller rooms"],
+    pros: ["Budget-friendly price for a farmhouse-modern look", "4 separate storage compartments", "58 inch size fits smaller rooms"],
     cons: ["170 lb capacity, lower than the 70 inch models", "Barn doors block IR signal like solid doors do", "Only fits TVs up to 65 inches"],
     bestFor: "Buyers who want a farmhouse-modern look at a lower price for a smaller room.",
   },
@@ -95,11 +95,11 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Pick",
     name: 'JUMMICO Modern White TV Stand (58", Sliding Barn Doors)',
     price: "$119.99",
-    rating: "4.6 stars",
-    reviews: "4,214 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41GxiO7g3pL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09SHDW2KT?tag=deskfinds0d-20",
-    description: "The JUMMICO stand uses steel sliding barn doors instead of wood, giving it a cleaner farmhouse-modern look that holds up better to daily use than laminate panel doors. Three adjustable shelves inside let you configure the interior around taller components like a soundbar or a stack of game consoles.\n\nWith 4,214 ratings, this is the most reviewed product in this roundup, a strong signal of real-world reliability at its price point. The 175 lb capacity and fit for TVs up to 65 inches make it a solid match for bedrooms or secondary living spaces rather than a large primary TV wall.",
+    description: "The JUMMICO stand uses steel sliding barn doors instead of wood, giving it a cleaner farmhouse-modern look that holds up better to daily use than laminate panel doors. Three adjustable shelves inside let you configure the interior around taller components like a soundbar or a stack of game consoles.\n\nThe 175 lb capacity and fit for TVs up to 65 inches make it a solid match for bedrooms or secondary living spaces rather than a large primary TV wall.",
     specs: ["Steel sliding barn doors", "3 adjustable shelves", "175 lb capacity", "Clean farmhouse-modern look", 'Fits TV up to 65"'],
     pros: ["Most reviewed product in this roundup", "Steel doors more durable than wood laminate", "3 adjustable shelves for flexible storage", "Affordable price under $120"],
     cons: ["175 lb capacity limits larger TV setups", "Steel sliding doors still block IR line of sight when closed", "Fits TVs only up to 65 inches"],
@@ -111,8 +111,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Mid-Century",
     name: "ChooChoo Mid-Century Modern TV Stand (Walnut, Tambour Doors)",
     price: "$137.98",
-    rating: "4.5 stars",
-    reviews: "56 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41g+ERQLHEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G92FJW4T?tag=deskfinds0d-20",
     description: "The ChooChoo stand uses fluted tambour sliding doors in a walnut finish, giving it a genuine mid-century look at a smaller 54 inch width than most other picks here. The low-profile, minimalist design suits apartments and smaller living rooms where a 70 inch stand would overwhelm the space.\n\nShelving inside is adjustable, so you can fit taller components without removing a fixed divider. It fits TVs up to 60 inches, and the company notes easy assembly as a selling point, useful if you are setting this up alone rather than with a second person.\n\nWorth calling out specifically: genuine mid-century tambour door styling. The catch is lower rating count than other picks here.",
@@ -127,8 +127,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wave-Fluted Design",
     name: "LCRBOL Fluted Door TV Stand (Walnut, Mid-Century)",
     price: "$139.99",
-    rating: "4.4 stars",
-    reviews: "379 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41WH1pkWGVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCGBBB1S?tag=deskfinds0d-20",
     description: "The LCRBOL stand stands out with a wave-shaped fluted door pattern rather than the straight vertical flutes found on most mid-century picks, giving it a more distinctive texture in walnut. Six natural wood legs raise the cabinet off the floor, which helps the piece look lighter in a room and makes floor cleaning underneath easier.\n\nTwo large storage cabinets hide media gear, and two cable management holes at the back keep power cords from draping down the front. At 110 lbs capacity it is on the lower end of this roundup, so it fits lighter TVs up to 65 inches best.\n\n6-leg design looks lighter and eases cleaning underneath. Set against that, 110 lb capacity is the lowest in this roundup. Both matter when comparing it to the other picks here.",
@@ -143,8 +143,8 @@ export const products: GuideProduct[] = [
     badge: "Best with LED and Power",
     name: "SONGMICS BELLAH Modern TV Stand (Ink Black, LED + Power)",
     price: "$64.99",
-    rating: "4.3 stars",
-    reviews: "611 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51QsasQEjqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GV375RCD?tag=deskfinds0d-20",
     description: "The SONGMICS BELLAH takes a completely different approach to modern than the mid-century and farmhouse stands in this roundup, using an ink black steel frame with app-controlled LED lighting in over 60,000 colors. Built-in power includes 2 AC outlets plus USB and USB-C ports directly on the stand, so consoles and streaming devices can charge without a separate power strip. At 61.8 inches wide it fits TVs up to 70 inches, and the mix of a drawer with open shelving keeps some items hidden while others stay in reach. The steel frame keeps the price low at a competitive price, though the 88 lb capacity is meant for lighter TVs and accessories rather than a heavy console setup. A genuine advantage here is that app-controlled RGB LED lighting. The tradeoff is 88 lb capacity, lowest among the wider stands.",
@@ -159,8 +159,8 @@ export const products: GuideProduct[] = [
     badge: "Best Space-Saving Floating Stand",
     name: "HOOBRO Floating Modern TV Stand (Wall Mounted, Black, LED)",
     price: "$74.99",
-    rating: "4.6 stars",
-    reviews: "264 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31VPKCNdHxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DB8GGC3L?tag=deskfinds0d-20",
     description: "The HOOBRO floating stand mounts to the wall instead of resting on the floor, which frees up floor space entirely and suits small living rooms or apartments where every square foot of walking room matters. App or remote controlled LED lighting adds ambient glow, and a center glass-door cutout doubles as an artistic display area rather than pure storage.\n\nThree AC outlets plus two USB ports are built into the unit, so nearby devices can plug in directly without running a cord back to a wall outlet. It fits TVs up to 65 inches, and because there are no floor legs, the black finish reads more minimalist modern than mid-century or farmhouse.\n\n3 AC outlets plus 2 USB ports built in. On the other hand, requires secure wall mounting into studs. Neither should be a surprise once you know to look for it.",
@@ -168,7 +168,7 @@ export const products: GuideProduct[] = [
     pros: ["Floating design saves floor space entirely", "3 AC outlets plus 2 USB ports built in", "Glass-door cutout works as a display feature", "Ideal for small apartments and rentals"],
     cons: ["Requires secure wall mounting into studs", "Glass door cutout offers less enclosed storage than floor cabinets", "Not suited for very heavy TVs given wall mount limits"],
     bestFor: "Small apartments or rentals where floor space is limited and a wall-mounted stand makes more sense than a floor console.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -218,11 +218,11 @@ export const faq: FaqItem[] = [
   {
     q: "Are steel-frame modern stands as sturdy as solid wood ones?",
     a: "They serve a different purpose rather than being strictly worse. Steel-frame stands, like the LED options in this roundup, tend to have lower weight capacity but a lighter, more minimalist look and often include built-in power outlets that wood stands do not. Solid wood mid-century and farmhouse stands generally offer higher weight capacity and a warmer aesthetic.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-tv-stand-with-storage", title: "Best TV Stands with Storage" },
   { href: "/guide/best-tv-stand-black", title: "Best Black TV Stands" },
-  { href: "/guide/best-tv-stand-for-65-inch-tv", title: "Best TV Stands for a 65 Inch TV" },
+  { href: "/guide/best-tv-stand-for-65-inch-tv", title: "Best TV Stands for a 65 Inch TV" }
 ];

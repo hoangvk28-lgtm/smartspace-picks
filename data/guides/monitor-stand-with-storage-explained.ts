@@ -12,7 +12,7 @@ export const monitorStandWithStorageExplainedGuide: Guide = {
     "monitor stand with drawers worth it",
     "monitor riser with storage",
     "monitor stand vs monitor arm storage",
-    "desk storage under monitor",
+    "desk storage under monitor"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const monitorStandWithStorageExplainedGuide: Guide = {
     "monitor-arm-vs-monitor-stand",
     "desk-organizer-types-explained",
     "desk-drawer-organizer-vs-tray",
-    "monitor-size-chart",
+    "monitor-size-chart"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const monitorStandWithStorageExplainedGuide: Guide = {
       question: "Is a monitor stand with storage a good fit for a small desk?",
       answer:
         "It can be, since it consolidates monitor elevation and storage into one footprint rather than needing separate elevation and organization solutions, though a monitor arm plus separate small storage may free up more overall desk space on a very tight desk.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const monitorStandWithStorageExplainedGuide: Guide = {
     {
       heading: "Checking Height Adjustability Before Assuming It's Included",
       body: `Not every monitor stand with storage offers the same height adjustability as a dedicated monitor arm or even a simple adjustable riser, some storage stands are fixed at one height determined by their drawer or shelf design. If achieving a precise ergonomic eye level is important to you, verify the specific product's height adjustability rather than assuming a storage-equipped stand automatically offers the same flexibility as other elevation solutions.`,
-    },
+    }
   ],
 };

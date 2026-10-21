@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook with pen";
 export const introParagraphs = [
   "Not every digital notebook listing that mentions a pen actually includes one in the box, and the pen itself means something different depending on the product type: an e-ink device bundles a stylus, a smart pen set includes the sensor pen that makes the whole product work, and some Rocketbook-style notebooks bundle a Pilot Frixion pen while others sell it separately.",
-  "We only included picks here where the listing explicitly states a pen, marker, or stylus is included, so you are not caught buying a notebook and discovering you need to order a compatible pen separately.",
+  "We only included picks here where the listing explicitly states a pen, marker, or stylus is included, so you are not caught buying a notebook and discovering you need to order a compatible pen separately."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Pen inclusion confirmed from the listing", description: "Only included products where the listing explicitly states a pen, marker, or stylus ships in the box, not products where a compatible pen must be purchased separately." },
   { title: "Pen's role in the product understood per type", description: "Distinguished between an e-ink stylus (an accessory to a screen device), a smart pen (the core mechanism of the product), and a bundled Rocketbook pen (a nice-to-have paired with an erasable notebook)." },
   { title: "Total kit value assessed, not just the base price", description: "Weighed whether the included pen adds meaningful value versus a listing that bundles a low-cost accessory to justify a higher price." },
-  { title: "Sync method verified against the pen type", description: "Confirmed whether the pen enables real-time sync (smart pen sets) or is simply a writing instrument for a screen (e-ink devices)." },
+  { title: "Sync method verified against the pen type", description: "Confirmed whether the pen enables real-time sync (smart pen sets) or is simply a writing instrument for a screen (e-ink devices)." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -274,11 +274,11 @@ export const faq: FaqItem[] = [
   { q: "Does every digital notebook come with a pen?", a: "No, some reusable paper notebooks sell the notebook and pen separately, always check the included-items section of the specific listing." },
   { q: "Do I need to charge the pen?", a: "Smart pens used in real-time digitizing sets typically need charging, while plain styluses for e-ink screens usually do not." },
   { q: "What pen works with a Rocketbook notebook?", a: "Rocketbook-style notebooks generally require a specific erasable pen, most commonly a Pilot Frixion, a regular ballpoint can permanently mark the page." },
-  { q: "Is the pen included with the reMarkable?", a: "The reMarkable 2 and reMarkable Paper Pro listings referenced here include the Marker Plus stylus as part of the bundle." },
+  { q: "Is the pen included with the reMarkable?", a: "The reMarkable 2 and reMarkable Paper Pro listings referenced here include the Marker Plus stylus as part of the bundle." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" },
   { href: "/guide/best-digital-notebook-tablets", title: "Best Digital Notebook Tablets (2026)" },
-  { href: "/guide/best-digital-notebooks-with-handwriting-conversion", title: "Best Digital Notebooks with Handwriting Conversion (2026)" },
+  { href: "/guide/best-digital-notebooks-with-handwriting-conversion", title: "Best Digital Notebooks with Handwriting Conversion (2026)" }
 ];

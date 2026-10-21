@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     description: "BlazeX M3 10W Laser Engraver Machine, 0.01mm Ultra-precision Laser Cutter and Engraver Machine and is built around ultra-precision engraving, positioning it for 20w fiber buyers specifically.\n\nVersatile 2-in-1 Laser Cutter & Engraver is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 20w fiber, though as with any equipment purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["Ultra-Precision Engraving","Versatile 2-in-1 Laser Cutter & Engraver","All-in-One Starter Kit"],
     pros: ["Ultra-Precision Engraving, confirmed directly in the listing's own spec details","Versatile 2-in-1 Laser Cutter & Engraver, confirmed directly in the listing's own spec details","All-in-One Starter Kit, confirmed directly in the listing's own spec details"],
-    cons: ["At $339.00, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $350, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for 20w fiber",
   }
 

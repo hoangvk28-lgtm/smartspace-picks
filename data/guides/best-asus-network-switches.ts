@@ -110,7 +110,7 @@ export const faq = [
   { "q": "Is the ASUS QG-U1050 unmanaged or managed?", "a": "Check the specific listing, verify whether it offers VLAN or other management features if that's a requirement, since unmanaged switches handle basic plug-and-play connectivity without configurable settings." },
   { "q": "Does the ASUS switch support PoE?", "a": "Check the specific listing's power specifications, PoE support varies by model and isn't guaranteed on every unmanaged switch regardless of brand." },
   { "q": "Should I consider TP-Link or NETGEAR instead of ASUS for a 2.5G switch?", "a": "If deeper product selection and dedicated networking support history matter to you, yes, check our broader 2.5GbE Network Switches guide for more options across brands." },
-  { "q": "Is ASUS's networking warranty comparable to dedicated switch brands?", "a": "Check the specific listing's stated warranty length, ASUS's general product warranty terms may differ from switch-specialist brands' standard offerings." },
+  { "q": "Is ASUS's networking warranty comparable to dedicated switch brands?", "a": "Check the specific listing's stated warranty length, ASUS's general product warranty terms may differ from switch-specialist brands' standard offerings." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-usb-c-to-2-5gbe-ethernet-adapters","title":"best-usb-c-to-2-5gbe-ethernet-adapters"},{"href":"/guide/best-tp-link-network-switches","title":"8 Best TP-Link Network Switches in 2026"},{"href":"/guide/best-netgear-network-switches","title":"8 Best NETGEAR Network Switches in 2026"}];

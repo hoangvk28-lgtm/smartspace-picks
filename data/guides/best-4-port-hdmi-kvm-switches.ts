@@ -5,7 +5,7 @@ export const metaDescription = "5 4-port HDMI KVM switches we evaluated, with a 
 export const mainKeyword = "4 port hdmi kvm switch";
 export const introParagraphs = [
   "HDMI cable length and quality matter more when running four separate cables to one switch, since more connections in the chain increase the statistical chance of a weak link somewhere, worth using certified high-speed cables at reasonable lengths across all four sources rather than mixing in whatever cables you have lying around.",
-  "A 4-port HDMI switch typically cycles through sources sequentially via button or hotkey, worth checking the actual switching UX through reviews before assuming instant direct access to any of the four connected computers.",
+  "A 4-port HDMI switch typically cycles through sources sequentially via button or hotkey, worth checking the actual switching UX through reviews before assuming instant direct access to any of the four connected computers."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     badge: "Best 4-Port HDMI KVM Switch Overall",
     name: "USB3.0 KVM Switch HDMI 4K@60Hz for 4 Computers Share 1 Monitor, KVM Switch 4 Port with 3 USB",
     price: "$64.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51+oSuyEu7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BWNDX4VL?tag=deskfinds0d-20",
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     badge: "Best High-Resolution HDMI Reference Pick",
     name: "UGREEN HDMI KVM Switch 1 Monitor 2 Computers, 8K@60Hz, Aluminum",
     price: "$64.99",
-    rating: "4.5 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41K5Wvne7oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFFCPL26?tag=deskfinds0d-20",
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     badge: "Best Dual-Monitor Pick for Four HDMI Sources",
     name: "2 Monitors 4 Computers KVM Switch Laptop and Desktop 4 Port Hybrid USB-C Docking & Dual Display",
     price: "$139.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/5157r3C3OmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GSZCW9NF?tag=deskfinds0d-20",
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Two-Source HDMI Alternative",
     name: "TIGKTING USB 3.0 HDMI KVM Switch 1 Monitors 2 Computers 4K60Hz KVM Switches 2 Ports for 2 PC 1 Monitor",
     price: "$29.99",
-    rating: "4.4 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41EdJsfqo4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H2YVL93R?tag=deskfinds0d-20",
@@ -89,7 +89,7 @@ export const products: GuideProduct[] = [
     badge: "Best Value Two-Source HDMI Alternative with More USB",
     name: "USB3.0 KVM Switch 2 Port HDMI, 4K@60Hz KVM Switch 1 Monitors 2 Computers with 3 USB3.0 Ports",
     price: "$32.99",
-    rating: "4.3 stars from Amazon ratings",
+    rating: "",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41uSOQO2ILL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFVBK4XQ?tag=deskfinds0d-20",
@@ -106,7 +106,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Cable quality risk across four HDMI connections flagged", description: "Flagged that more HDMI cables running to one switch increases the statistical chance of a weak link, recommending certified high-speed cables across all connections." },
   { title: "Switching UX (cycling vs direct access) checked for four-source usability", description: "Checked the actual switching method through reviews, since cycling through four HDMI sources sequentially is a different daily experience than direct access." },
   { title: "Genuine four-source need questioned against simpler two-port alternatives", description: "Questioned whether a buyer genuinely needs four HDMI ports or whether their actual daily workflow only requires two, referencing simpler alternatives where relevant." },
-  { title: "Monitor count support weighed for buyers wanting dual-display four-source switching", description: "Weighed single-monitor versus dual-monitor four-port HDMI switches against buyers' actual workspace needs." },
+  { title: "Monitor count support weighed for buyers wanting dual-display four-source switching", description: "Weighed single-monitor versus dual-monitor four-port HDMI switches against buyers' actual workspace needs." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Do I really need a 4-port HDMI KVM switch?", a: "Only if you genuinely switch between four active HDMI computers regularly, a simpler two-port switch may better fit your actual daily workflow." },
   { q: "Can a 4-port HDMI switch handle two monitors too?", a: "Some models do, verify this specific capability if you want a full dual-monitor workspace across your four computers." },
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers with exactly four HDMI-connected computers wanting straightforward shared-monitor switching" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers who realize two HDMI ports actually meets their daily needs At $29.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers who realize two HDMI ports actually meets their daily needs At under $30, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-hdmi-kvm-switches", title: "Best HDMI KVM Switches (2026)" },
   { href: "/guide/best-4-port-kvm-switches", title: "Best 4-Port KVM Switches (2026)" },
-  { href: "/guide/best-8-port-kvm-switches", title: "Best 8-Port KVM Switches (2026)" },
+  { href: "/guide/best-8-port-kvm-switches", title: "Best 8-Port KVM Switches (2026)" }
 ];

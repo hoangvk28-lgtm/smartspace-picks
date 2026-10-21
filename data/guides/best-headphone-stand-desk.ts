@@ -48,12 +48,12 @@ export const stands: HeadphoneStand[] = [
       "Cable tray at the base stores a dongle, earbuds, or wrapped cable",
       "Silicone padding on the hook protects headbands from dents",
       "Aluminum weight resists tipping when grabbing headphones one-handed",
-      "Supports headphones up to 500g -- covers most gaming headsets",
+      "Supports headphones up to 500g -- covers most gaming headsets"
     ],
     tradeoffs: [
       "Cable tray is shallow -- not for large items",
       "No USB ports or wireless charging",
-      "4.5-inch base footprint",
+      "4.5-inch base footprint"
     ],
     bestFor:
       "The default recommendation for most people -- solid build, useful cable tray, reasonable price.",
@@ -74,12 +74,12 @@ export const stands: HeadphoneStand[] = [
       "Under $15 -- cheapest functional stand available",
       "No assembly required (one solid piece)",
       "Rubber top grips headphones and prevents slipping",
-      "Smallest base footprint on this list (3.5 inches)",
+      "Smallest base footprint on this list (3.5 inches)"
     ],
     tradeoffs: [
       "No cable storage, USB ports, or extra features",
       "Lighter than the Avantree -- can tip with heavy headsets if bumped",
-      "Basic aesthetics",
+      "Basic aesthetics"
     ],
     bestFor:
       "Users who just want headphones off the desk at the lowest possible cost. At $12, there is no risk.",
@@ -102,12 +102,12 @@ export const stands: HeadphoneStand[] = [
       "3 USB charging ports + 2 AC outlets built into the base",
       "Replaces both a headphone stand and a small desk charger in one footprint",
       "Charges phone, earbuds, and smartwatch while holding headphones",
-      "Slim profile -- doesn't look like a power strip",
+      "Slim profile -- doesn't look like a power strip"
     ],
     tradeoffs: [
       "Bulkier base than pure stands (5-inch footprint)",
       "Plastic construction -- not as premium as aluminum",
-      "Power cord adds another cable to manage",
+      "Power cord adds another cable to manage"
     ],
     bestFor:
       "Users who charge devices at their desk. If you have a headphone stand AND a USB hub, this replaces both. Highest footprint efficiency on this list.",
@@ -128,13 +128,13 @@ export const stands: HeadphoneStand[] = [
       "Best aesthetics under $40 -- walnut finish looks premium on any desk",
       "Bridge design doubles as a cable storage shelf",
       "Wider base distributes weight well -- very stable",
-      "Wood finish pairs naturally with bamboo and natural material desk setups",
+      "Wood finish pairs naturally with bamboo and natural material desk setups"
     ],
     tradeoffs: [
       "Larger footprint than minimalist stands (5x5 inches)",
       "Heavier than aluminum options",
       "Wood veneer can chip if dropped",
-      "No USB ports or wireless charging",
+      "No USB ports or wireless charging"
     ],
     bestFor:
       "Aesthetic-focused setups, audiophile users who want to display premium headphones, desks with a warm natural material palette.",
@@ -155,13 +155,13 @@ export const stands: HeadphoneStand[] = [
       "10W Qi wireless charging pad built into the base",
       "Compatible with iPhone 8+ and most Android Qi phones",
       "9 RGB lighting modes controlled by touch switch",
-      "Budget price -- cheapest wireless-charging stand option",
+      "Budget price -- cheapest wireless-charging stand option"
     ],
     tradeoffs: [
       "Plastic construction -- not as durable as aluminum or wood",
       "RGB is polarizing -- great for gaming setups, distracting in office setups",
       "Requires QC2.0/3.0 adapter for fast charging (not included)",
-      "Wireless charging only works on Qi-enabled phones -- not for all devices",
+      "Wireless charging only works on Qi-enabled phones -- not for all devices"
     ],
     bestFor:
       "Gaming and RGB setups where wireless phone charging is useful and the stand budget is under $15.",
@@ -183,13 +183,13 @@ export const stands: HeadphoneStand[] = [
       "Holds two pairs of headphones simultaneously",
       "$12 -- among the cheapest options on this list",
       "Silicone + steel construction -- durable, won't scratch headbands",
-      "3M adhesive holds firmly on wood, laminate, and metal desk surfaces",
+      "3M adhesive holds firmly on wood, laminate, and metal desk surfaces"
     ],
     tradeoffs: [
       "Headphones are not visible (no display or aesthetic value)",
       "Adhesive may fail on textured or painted surfaces after 12+ months",
       "Cannot hold extremely heavy headphones (over 500g per pair)",
-      "Fixed position once mounted",
+      "Fixed position once mounted"
     ],
     bestFor:
       "Small desks under 40 inches where every inch of surface matters. This is the answer when you want headphones accessible but invisible.",
@@ -213,13 +213,13 @@ export const stands: HeadphoneStand[] = [
       "Adjustable clamp fits desk edges 0.5–2 inches thick",
       "Padded hook protects headbands",
       "Cable wrap slot built into the hook",
-      "Metal construction -- sturdier than adhesive alternatives",
+      "Metal construction -- sturdier than adhesive alternatives"
     ],
     tradeoffs: [
       "Only holds one pair of headphones",
       "Clamp can leave marks on soft desk edges",
       "Not compatible with glass desks",
-      "Headphones visible from the front (hang at desk edge)",
+      "Headphones visible from the front (hang at desk edge)"
     ],
     bestFor:
       "Users who want headphones at arm's reach without losing any surface area. Best on the side of the desk you naturally reach to.",
@@ -240,17 +240,17 @@ export const stands: HeadphoneStand[] = [
       "RGB lighting syncs with Razer Chroma ecosystem via Synapse software",
       "2 USB-A ports for peripherals",
       "Built-in headphone jack with DAC (better audio than motherboard output)",
-      "Aluminum frame supports heavy gaming headsets without wobble",
+      "Aluminum frame supports heavy gaming headsets without wobble"
     ],
     tradeoffs: [
       "$60–$75 is expensive for a headphone stand",
       "Requires Razer Synapse software for RGB customization",
       "Overkill if you don't use Razer peripherals",
-      "Wider base (5+ inches) -- takes more desk space than most options",
+      "Wider base (5+ inches) -- takes more desk space than most options"
     ],
     bestFor:
       "Razer ecosystem users, gamers who want RGB consistency across peripherals, and users who need a USB hub and headphone DAC in one device.",
-  },
+  }
 ];
 
 export const quickPicks = [
@@ -261,7 +261,7 @@ export const quickPicks = [
   { emoji: "📐", label: "Best for Small Desks", name: "Elevation Lab The Anchor", score: 9.2, price: "$10–$15", id: "elevation-lab-anchor" },
   { emoji: "🎮", label: "Best for Gaming", name: "Razer Base Station V2 Chroma", score: 8.6, price: "$60–$75", id: "razer-base-station-v2" },
   { emoji: "🪵", label: "Best Looking", name: "SAMDI Wood Stand", score: 8.9, price: "$28–$38", id: "samdi-wood-stand" },
-  { emoji: "🔩", label: "Best Clamp-On", name: "Brainwavz Hengja Clamp", score: 8.8, price: "$12–$18", id: "brainwavz-hengja" },
+  { emoji: "🔩", label: "Best Clamp-On", name: "Brainwavz Hengja Clamp", score: 8.8, price: "$12–$18", id: "brainwavz-hengja" }
 ];
 
 export const scoringCriteria = [
@@ -269,7 +269,7 @@ export const scoringCriteria = [
   { label: "Stability", weight: "20%", desc: "Does it stay put when you grab headphones one-handed?" },
   { label: "Build quality", weight: "20%", desc: "Materials, finish, and durability over 12+ months." },
   { label: "Bonus features", weight: "20%", desc: "USB ports, wireless charging, cable storage -- anything that earns extra footprint." },
-  { label: "Headphone compatibility", weight: "15%", desc: "Does it hold lightweight earphones and heavy gaming headsets equally well?" },
+  { label: "Headphone compatibility", weight: "15%", desc: "Does it hold lightweight earphones and heavy gaming headsets equally well?" }
 ];
 
 export const byDeskSize = [
@@ -278,7 +278,7 @@ export const byDeskSize = [
     priority: "Zero footprint -- under-desk or clamp",
     picks: [
       { name: "Elevation Lab The Anchor", price: "$12", id: "elevation-lab-anchor", why: "Headphones disappear under the desk" },
-      { name: "Brainwavz Hengja", price: "$15", id: "brainwavz-hengja", why: "Headphones at arm's reach, off surface" },
+      { name: "Brainwavz Hengja", price: "$15", id: "brainwavz-hengja", why: "Headphones at arm's reach, off surface" }
     ],
     note: "Don't buy a desktop stand if your desk is under 40 inches -- the 4–5 inch base costs more surface area than it's worth.",
   },
@@ -287,7 +287,7 @@ export const byDeskSize = [
     priority: "Dual-function stands that earn their footprint",
     picks: [
       { name: "Cozoo USB Stand", price: "$30", id: "cozoo-usb-stand", why: "Replaces headphone stand + USB hub" },
-      { name: "Avantree Aluminum", price: "$25", id: "avantree-aluminum", why: "Clean stand with cable storage" },
+      { name: "Avantree Aluminum", price: "$25", id: "avantree-aluminum", why: "Clean stand with cable storage" }
     ],
     note: "At this desk size, a stand is fine -- but it should do more than just hold headphones.",
   },
@@ -296,7 +296,7 @@ export const byDeskSize = [
     priority: "Aesthetics and premium features",
     picks: [
       { name: "SAMDI Wood", price: "$35", id: "samdi-wood-stand", why: "Display piece, matches premium setups" },
-      { name: "KAFRI RGB + Wireless Charger", price: "$12", id: "kafri-rgb-wireless", why: "Budget wireless charging option with RGB" },
+      { name: "KAFRI RGB + Wireless Charger", price: "$12", id: "kafri-rgb-wireless", why: "Budget wireless charging option with RGB" }
     ],
     note: "Space isn't the constraint -- appearance and features are.",
   },
@@ -305,9 +305,9 @@ export const byDeskSize = [
     priority: "Ecosystem integration + USB hub",
     picks: [
       { name: "Razer Base Station V2", price: "$65", id: "razer-base-station-v2", why: "RGB + USB + DAC in one" },
-      { name: "Cozoo USB Stand", price: "$30", id: "cozoo-usb-stand", why: "Budget alternative with USB ports" },
+      { name: "Cozoo USB Stand", price: "$30", id: "cozoo-usb-stand", why: "Budget alternative with USB ports" }
     ],
-  },
+  }
 ];
 
 export const faq: Array<{ q: string; a: string }> = [
@@ -338,5 +338,5 @@ export const faq: Array<{ q: string; a: string }> = [
   {
     q: "What is the best headphone stand for a small desk?",
     a: "The Elevation Lab The Anchor ($10–$15). It mounts under the desk with 3M adhesive, takes zero surface space, and holds two pairs of headphones. For desks under 40 inches, this is the only recommendation that makes sense -- desktop stands consume too much surface area.",
-  },
+  }
 ];

@@ -5,7 +5,7 @@ export const metaDescription = "5 air purifiers we evaluated for shared small of
 export const mainKeyword = "air purifier for small office";
 export const introParagraphs = [
   "Small offices with multiple occupants generate more particulates, skin cells, dust from foot traffic, shared equipment, than a single-person room the same size, meaning CADR sized for room square footage alone under-serves actual occupancy-driven air quality needs.",
-  "Shared office noise tolerance differs from home-office tolerance, multiple coworkers' collective sensitivity to fan noise during calls or meetings raises the bar for genuinely quiet operation at effective speeds beyond what a single-person review captures.",
+  "Shared office noise tolerance differs from home-office tolerance, multiple coworkers' collective sensitivity to fan noise during calls or meetings raises the bar for genuinely quiet operation at effective speeds beyond what a single-person review captures."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Air Purifier for Small Offices Overall",
     name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
-    rating: "4.6 stars from 28,866 Amazon ratings",
-    reviews: "28,866 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419pAe7T0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTKAPUU?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Proven Small Office Pick",
     name: "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom, H13 True HEPA Filter, 24db Filtration System Cleaner Odor Eliminators, Remove 99.97% Dust Smoke Mold Pollen, Core 300, White",
     price: "$89.99",
-    rating: "4.7 stars from 108,251 Amazon ratings",
-    reviews: "108,251 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Small Office Pick",
     name: "Membrane Solutions MSA3 Air Purifier for Home",
     price: "$99.39",
-    rating: "4.5 stars from 10,110 Amazon ratings",
-    reviews: "10,110 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31CcBFzC6wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08ND7C7P4?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Occupancy Small Office Pick",
     name: "LEVOIT Smart Air Purifier for Home Large Room up to 1875 ft Vital 200S-P",
     price: "$174.99",
-    rating: "4.7 stars from 14,571 Amazon ratings",
-    reviews: "14,571 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Capacity Alternative",
     name: "Honeywell HEPA Air Purifier for Home and Large 1700 ft2 Rooms, Black",
     price: "$219.07",
-    rating: "4.6 stars from 1,911 Amazon ratings",
-    reviews: "1,911 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41JtWEcZKjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09SKXDKF1?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Established Honeywell brand reputation", "Large rated coverage for a shared office", "Solid rating base", "Genuine headroom for occupancy-driven needs"],
     cons: ["Smaller review base than mass-market Levoit picks", "Higher price", "Noise at effective speed not independently verified for multi-occupant tolerance"],
     bestFor: "Buyers who want an established brand's high-capacity pick for a busier shared office",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Occupancy-adjusted CADR sizing, not room-size-only", description: "Prioritized picks with genuine headroom above simple room-square-footage sizing, since multiple occupants generate more particulates, skin cells, dust, than a single-person room the same size." },
   { title: "Multi-occupant noise tolerance considered beyond single-person reviews", description: "Weighed that shared office noise tolerance differs from home-office tolerance, multiple coworkers' collective sensitivity raises the bar for genuinely quiet operation at effective speeds." },
-  { title: "Practical filter-replacement ownership addressed for shared spaces", description: "Considered the real-world facilities-management question of who monitors and replaces filters in a shared workspace, a practical adoption barrier competitors don't address." },
+  { title: "Practical filter-replacement ownership addressed for shared spaces", description: "Considered the real-world facilities-management question of who monitors and replaces filters in a shared workspace, a practical adoption barrier competitors don't address." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "Who should be responsible for replacing the filter in a shared office purifier?", a: "Assign this explicitly upfront, shared small offices frequently lack a clear owner for this task, a real adoption barrier that leads to overdue filters if not addressed directly." },
   { q: "How do I handle different coworkers' sensitivities to a shared air purifier?", a: "Consider allergy sensitivity, fragrance preference, and comfort near the exhaust vent as competing factors, a single placement or setting may not satisfy everyone, some compromise or a centrally neutral placement is often necessary." },
   { q: "Should a shared small office purifier run continuously or only during work hours?", a: "Continuous low-speed operation generally keeps air quality more stable than cycling on and off, though an auto mode tied to an air quality sensor balances energy use against consistent filtration reasonably well." },
-  { q: "Who's responsible for filter replacement costs in a shared office purifier?", a: "This is a practical, not technical, question worth settling upfront among coworkers or with a facilities budget, since filter costs recur on a schedule and shared-use purifiers see more cumulative load than a single-person unit." },
+  { q: "Who's responsible for filter replacement costs in a shared office purifier?", a: "This is a practical, not technical, question worth settling upfront among coworkers or with a facilities budget, since filter costs recur on a schedule and shared-use purifiers see more cumulative load than a single-person unit." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-air-purifiers-for-home-offices", title: "Best Air Purifiers for Home Offices (2026)" },
   { href: "/guide/best-quiet-air-purifiers-for-home-offices", title: "Best Quiet Air Purifiers for Home Offices (2026)" },
-  { href: "/guide/best-air-purifiers-for-large-home-offices", title: "Best Air Purifiers for Large Home Offices (2026)" },
+  { href: "/guide/best-air-purifiers-for-large-home-offices", title: "Best Air Purifiers for Large Home Offices (2026)" }
 ];

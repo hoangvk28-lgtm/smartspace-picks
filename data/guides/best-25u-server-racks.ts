@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41ZQKDsvT1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BM6GFS5T?tag=deskfinds0d-20",
-    description: "RIVECO's 25U hybrid rack shares the same reinforced top-and-bottom vented plate design as their 6U model, scaled up to a much taller 50.5-inch height.\n\nA PDU and two 1U shelves come included in the box, rounding out a genuinely complete package for the price rather than requiring separate accessory purchases.\n\nWhat stands out here is PDU and two shelves included, avoiding extra purchases, plus reinforced top plate supports extra items above the stack. The main tradeoff: capacity drops when running on casters over leveling feet, so weigh that against the $372.48 price before buying.",
+    description: "RIVECO's 25U hybrid rack shares the same reinforced top-and-bottom vented plate design as their 6U model, scaled up to a much taller 50.5-inch height.\n\nA PDU and two 1U shelves come included in the box, rounding out a genuinely complete package for the price rather than requiring separate accessory purchases.\n\nWhat stands out here is PDU and two shelves included, avoiding extra purchases, plus reinforced top plate supports extra items above the stack. The main tradeoff: capacity drops when running on casters over leveling feet, so weigh that against the under $400 price before buying.",
     specs: ["25U, 19.7\"W x 21.7\"D x 50.5\"H","500 lb (feet) / 400 lb (casters) capacity","PDU and 2x 1U shelves included"],
     pros: ["PDU and two shelves included, avoiding extra purchases","Reinforced top plate supports extra items above the stack","Round and square holes fit both audio and network gear"],
     cons: ["Capacity drops when running on casters over leveling feet","50.5\" height needs real ceiling clearance"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41+goJVNtmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00O6GNLQE?tag=deskfinds0d-20",
-    description: "The 25U version of StarTech's 4-post open frame family carries the same EIA/ECA-310-E compliance and 2-year warranty as its 42U sibling, just in a shorter footprint that fits smaller server rooms.\n\nAt 1200 lbs stationary capacity it's rated slightly lower than the 42U model, which tracks since it's a shorter, lighter structure overall.\n\nWhere this one earns its spot is shorter 25U height fits rooms with limited ceiling space, and same 2-year warranty and lifetime support as larger models. Worth noting before buying: 1200 lb rating is lower than the taller 42U version, which matters more at $334.99 than it would on a cheaper pick.",
+    description: "The 25U version of StarTech's 4-post open frame family carries the same EIA/ECA-310-E compliance and 2-year warranty as its 42U sibling, just in a shorter footprint that fits smaller server rooms.\n\nAt 1200 lbs stationary capacity it's rated slightly lower than the 42U model, which tracks since it's a shorter, lighter structure overall.\n\nWhere this one earns its spot is shorter 25U height fits rooms with limited ceiling space, and same 2-year warranty and lifetime support as larger models. Worth noting before buying: 1200 lb rating is lower than the taller 42U version, which matters more at under $350 than it would on a cheaper pick.",
     specs: ["25U, 22-40\" adjustable depth, 48-51\" tall","1200 lb stationary weight capacity","Casters, levelers, and cable hooks included"],
     pros: ["Shorter 25U height fits rooms with limited ceiling space","Same 2-year warranty and lifetime support as larger models","Cage nuts and cable hooks included in the kit"],
     cons: ["1200 lb rating is lower than the taller 42U version","Still needs flat-pack assembly on arrival"],
@@ -161,28 +161,28 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $271.93",
+          "Under $300",
           "RIVECO 25U Open Frame Server Rack with Wheels"
         ],
         [
-          "Around $278.16",
+          "Under $300",
           "RIVECO 25U Server Rack Adjustable Depth"
         ],
         [
-          "Around $334.99",
+          "Under $350",
           "StarTech.com 25U Open Frame Server Rack"
         ],
         [
-          "Around $372.48",
+          "Under $400",
           "RIVECO 25U Network Rack with Reinforced Top Cover"
         ],
         [
-          "Around $1,229.99",
+          "Under $1,300",
           "StarTech 25U Enterprise-Grade Server Rack Cabinet"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -230,7 +230,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "RIVECO 25U Network Rack with Reinforced Top Cover is aimed at buyers prioritizing 25u, 19.7\"w x 21.7\"d x 50.5\"h." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "RIVECO 25U Network Rack with Reinforced Top Cover is aimed at buyers prioritizing 25u, 19.7\"w x 21.7\"d x 50.5\"h." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-42u-server-racks","title":"Best 42U Server Racks in 2026"},{"href":"/guide/best-2u-server-racks","title":"Best 2U Server Racks in 2026"},{"href":"/guide/best-1u-server-racks","title":"Best 1U Server Racks in 2026"}];

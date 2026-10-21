@@ -43,7 +43,7 @@ export const products: LShapedDesk[] = [
     tradeoffs: [
       "Engineered wood top, not solid hardwood",
       "Full electric L-standing desks require clearance behind and beside the frame for height transitions",
-      "Motor capacity should be checked against your intended monitor and equipment load before ordering",
+      "Motor capacity should be checked against your intended monitor and equipment load before ordering"
     ],
     skipIf:
       "Skip if you want a solid hardwood surface - the EUREKA ERGONOMIC elsewhere in this guide has a confirmed solid wood top. Skip if you mostly sit and don't need electric height adjustment - the Bush Home picks below cost less.",
@@ -51,12 +51,12 @@ export const products: LShapedDesk[] = [
       "63\" main surface - more primary desk space than the other standing option in this guide",
       "Full electric lift across the L-shaped frame",
       "Black finish suits a range of home office styles",
-      "Steel frame construction for stability at height",
+      "Steel frame construction for stability at height"
     ],
     cons: [
       "Engineered wood top, not solid hardwood",
       "Requires floor clearance for height-adjustment travel",
-      "Heavier than fixed-height L-desks in this guide",
+      "Heavier than fixed-height L-desks in this guide"
     ],
   },
   {
@@ -74,7 +74,7 @@ export const products: LShapedDesk[] = [
     tradeoffs: [
       "Engineered wood, not solid hardwood, despite the walnut finish",
       "The locking file cabinet adds bulk versus simpler open-shelf L-desks in this guide",
-      "More assembly steps than a basic L-desk given the built-in outlet, monitor stand, and CPU stand",
+      "More assembly steps than a basic L-desk given the built-in outlet, monitor stand, and CPU stand"
     ],
     skipIf:
       "Skip if you don't need a locking cabinet - the SEDETA 4-drawer desk below has more open storage without the lock. Skip if you want electric standing - the Casaottima above or the EUREKA ERGONOMIC are the standing options in this guide.",
@@ -82,12 +82,12 @@ export const products: LShapedDesk[] = [
       "Locking file cabinet - the only lockable storage in this guide",
       "Built-in power outlet keeps chargers off the floor",
       "Integrated monitor stand and CPU stand included",
-      "Walnut finish gives a more executive look than most engineered-wood competitors",
+      "Walnut finish gives a more executive look than most engineered-wood competitors"
     ],
     cons: [
       "Engineered wood, not solid hardwood",
       "Locking cabinet adds bulk versus open-shelf alternatives",
-      "More assembly complexity due to the built-in outlet and stands",
+      "More assembly complexity due to the built-in outlet and stands"
     ],
   },
   {
@@ -105,7 +105,7 @@ export const products: LShapedDesk[] = [
     tradeoffs: [
       "Engineered wood, not solid hardwood",
       "LED lighting and a display cabinet add assembly steps versus a simpler L-desk",
-      "Display cabinet trades some enclosed storage for visible shelf space, unlike fully closed cabinet designs",
+      "Display cabinet trades some enclosed storage for visible shelf space, unlike fully closed cabinet designs"
     ],
     skipIf:
       "Skip if you want enclosed file storage rather than an open display cabinet - the AODK with locking file cabinet above is the better fit. Skip if you prefer a plainer farmhouse look without LED lighting - the Bush Home Key West below is simpler.",
@@ -113,12 +113,12 @@ export const products: LShapedDesk[] = [
       "61\" surface with drawers, shelves, and a display cabinet in one desk",
       "Built-in power outlet and LED lighting - features the other farmhouse pick in this guide lacks",
       "Farmhouse light brown finish works in shared living or bedroom office spaces",
-      "More total storage variety (drawers plus open shelves plus display cabinet) than most single desks here",
+      "More total storage variety (drawers plus open shelves plus display cabinet) than most single desks here"
     ],
     cons: [
       "Engineered wood, not solid hardwood",
       "More assembly complexity due to LED lighting and cabinet hardware",
-      "Open display cabinet is not enclosed storage - not a substitute for a locking file drawer",
+      "Open display cabinet is not enclosed storage - not a substitute for a locking file drawer"
     ],
   },
   {
@@ -136,7 +136,7 @@ export const products: LShapedDesk[] = [
     tradeoffs: [
       "Laminated engineered wood, not solid hardwood",
       "Hutch adds to total desk height - confirm ceiling clearance in rooms with low ceilings",
-      "Assembly is substantial - hutch plus desk is a multi-hour project",
+      "Assembly is substantial - hutch plus desk is a multi-hour project"
     ],
     skipIf:
       "Skip if you don't need overhead storage - the Bush Home Somerset (Rank 3) gives integrated side shelves without the full hutch. Skip if you want a standing desk - the EUREKA ERGONOMIC (Rank 4) is the solid wood standing option.",
@@ -144,13 +144,13 @@ export const products: LShapedDesk[] = [
       "Hutch adds significant vertical storage without additional furniture",
       "Bush Home quality - durable laminate, complete hardware, good assembly documentation",
       "Reversible return - configure left or right at assembly",
-      "Well-established product with substantial review history",
+      "Well-established product with substantial review history"
     ],
     cons: [
       "Laminated engineered wood, not solid hardwood",
       "Hutch creates shadow zone on desk surface - add a light bar",
       "Assembly is a multi-hour project",
-      "Heavier than solid wood due to MDF core",
+      "Heavier than solid wood due to MDF core"
     ],
   },
   {
@@ -168,7 +168,7 @@ export const products: LShapedDesk[] = [
     tradeoffs: [
       "Laminated engineered wood",
       "Farmhouse style is trend-dependent - may feel dated over a 10-year ownership horizon",
-      "Reversible return means choose orientation at assembly, not after",
+      "Reversible return means choose orientation at assembly, not after"
     ],
     skipIf:
       "Skip if you need storage or a hutch - the Cabot with hutch (Rank 1) gives overhead storage. Skip if you want a clean contemporary look - the Somerset (Rank 3) has a more neutral finish.",
@@ -176,12 +176,12 @@ export const products: LShapedDesk[] = [
       "Farmhouse aesthetic suits shared office and living spaces",
       "Bush Home build quality - consistent hardware and durable finish",
       "Warm wood tone softens the utilitarian desk look",
-      "60W main surface is adequate for most single-monitor setups",
+      "60W main surface is adequate for most single-monitor setups"
     ],
     cons: [
       "Laminated engineered wood",
       "Farmhouse style may feel dated over time",
-      "Verify return orientation (left vs right) before ordering",
+      "Verify return orientation (left vs right) before ordering"
     ],
   },
   {
@@ -199,7 +199,7 @@ export const products: LShapedDesk[] = [
     tradeoffs: [
       "Laminated engineered wood",
       "Side shelves in the return leg reduce usable surface area on that leg",
-      "Verify configuration (left or right return) before ordering",
+      "Verify configuration (left or right return) before ordering"
     ],
     skipIf:
       "Skip if you need overhead storage - the Cabot with hutch (Rank 1) is the right choice. Skip if you want a warmer aesthetic - the Key West farmhouse (Rank 2) has a more decorative finish.",
@@ -207,12 +207,12 @@ export const products: LShapedDesk[] = [
       "Storage shelves without a hutch - room stays visually open",
       "Contemporary style ages well",
       "Bush Home build quality",
-      "Lower visual profile than hutch models",
+      "Lower visual profile than hutch models"
     ],
     cons: [
       "Laminated engineered wood",
       "Side shelves reduce usable surface area on the return leg",
-      "Verify left or right return before ordering",
+      "Verify left or right return before ordering"
     ],
   },
   {
@@ -231,7 +231,7 @@ export const products: LShapedDesk[] = [
       "Premium price point - highest on this list",
       "Full electric L-standing desks require substantial clearance for height transitions",
       "Heavier than non-standing equivalents",
-      "Verify frame motor capacity for your intended monitor and equipment load",
+      "Verify frame motor capacity for your intended monitor and equipment load"
     ],
     skipIf:
       "Skip if you will mostly sit - a standard L-desk at a lower price makes more sense. Skip if you need only occasional standing - the Bestier lift-top (Rank 5) gives a standing option at significantly lower cost.",
@@ -239,13 +239,13 @@ export const products: LShapedDesk[] = [
       "Only solid wood tabletop on this list - real hardwood, not laminate",
       "Full electric - entire L-surface changes height together",
       "61\" gives full workstation coverage on the primary leg",
-      "True sit-stand experience for users who alternate position daily",
+      "True sit-stand experience for users who alternate position daily"
     ],
     cons: [
       "Premium price - highest on this list",
       "Requires substantial floor clearance for height adjustment",
       "Heavier than non-adjustable equivalents",
-      "Motor capacity should be verified for your equipment load",
+      "Motor capacity should be verified for your equipment load"
     ],
   },
   {
@@ -263,7 +263,7 @@ export const products: LShapedDesk[] = [
     tradeoffs: [
       "Lift top covers only a portion of the surface - not a full standing experience",
       "If you need to stand at both legs of the L, this does not support that",
-      "Engineered wood construction",
+      "Engineered wood construction"
     ],
     skipIf:
       "Skip if you need to stand across the full L-surface daily - the EUREKA ERGONOMIC full electric (Rank 4) is the right choice. Skip if you will never stand - a standard L-desk without the lift mechanism saves money.",
@@ -271,13 +271,13 @@ export const products: LShapedDesk[] = [
       "Symmetric 55x55\" - no left or right return decision required",
       "Standing option at a significantly lower price than full electric",
       "Bestier brand has substantial Amazon review presence",
-      "Good for occasional standing without committing to a full electric frame",
+      "Good for occasional standing without committing to a full electric frame"
     ],
     cons: [
       "Lift top covers only part of the surface - not full standing",
       "Cannot stand at both legs simultaneously",
       "Engineered wood construction",
-      "Manual or pneumatic lift is less convenient than electric",
+      "Manual or pneumatic lift is less convenient than electric"
     ],
   },
   {
@@ -295,7 +295,7 @@ export const products: LShapedDesk[] = [
     tradeoffs: [
       "More visual weight than minimal desk designs",
       "4 drawers add to the desk's total footprint",
-      "Newer listing - verify current review count",
+      "Newer listing - verify current review count"
     ],
     skipIf:
       "Skip if you prefer a minimal look - the Somerset (Rank 3) has cleaner proportions. Skip if storage is not a priority - the Key West farmhouse (Rank 2) gives a better aesthetic at lower storage density.",
@@ -303,12 +303,12 @@ export const products: LShapedDesk[] = [
       "4 drawers - the most storage capacity on this list",
       "Shelves plus drawers give comprehensive built-in storage",
       "Reduces need for separate filing or shelving furniture",
-      "Good for home offices that double as administrative workspaces",
+      "Good for home offices that double as administrative workspaces"
     ],
     cons: [
       "More visual weight than minimal desk designs",
       "4 drawers add to total footprint",
-      "Newer listing - verify review count",
+      "Newer listing - verify review count"
     ],
   },
   {
@@ -326,7 +326,7 @@ export const products: LShapedDesk[] = [
     tradeoffs: [
       "File drawer occupies space that could otherwise be standard drawer storage",
       "Engineered wood construction",
-      "Newer listing - verify review count and current stock",
+      "Newer listing - verify review count and current stock"
     ],
     skipIf:
       "Skip if you don't manage physical documents - the Bestier lift-top (Rank 5) gives the standing option at a similar footprint. Skip if you need more total drawer count - the SEDETA 4-drawer (Rank 6) has more overall storage.",
@@ -334,14 +334,14 @@ export const products: LShapedDesk[] = [
       "Genuine file drawer accommodates hanging folders",
       "Eliminates need for a separate filing cabinet",
       "55.7x55\" footprint fits most corner placements",
-      "Specific, practical feature not common in L-desks at this price",
+      "Specific, practical feature not common in L-desks at this price"
     ],
     cons: [
       "File drawer takes space that could be standard drawer storage",
       "Engineered wood construction",
-      "Newer listing - verify availability and rating",
+      "Newer listing - verify availability and rating"
     ],
-  },
+  }
 ];
 
 export interface AtAGlanceRow {
@@ -380,7 +380,7 @@ export const faq: { q: string; a: string }[] = [
   {
     q: "What is the corner of an L-shaped desk good for?",
     a: "The 8-12\" corner triangle is awkward to use as a primary work surface. Good uses: a monitor riser or arm-mounted secondary display, a speaker, a webcam, a phone charging stand, or a cable routing box. Do not plan to use the corner triangle for your keyboard or primary monitor - the angle creates neck and wrist strain.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
@@ -399,5 +399,5 @@ export const relatedGuides: { href: string; title: string }[] = [
   {
     href: "/guide/best-wood-executive-desk",
     title: "Best Wood Executive Desks in 2026",
-  },
+  }
 ];

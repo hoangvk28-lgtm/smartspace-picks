@@ -193,36 +193,36 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $139.99",
+          "Under $140",
           "VTOMAN FlashSpeed 300 Portable Power Station"
         ],
         [
-          "Around $199.99",
+          "Under $200",
           "VTOMAN FlashSpeed 600 Portable Power Station"
         ],
         [
-          "Around $234.99",
+          "Under $250",
           "LIBRIDS Portable Power Station 640Wh"
         ],
         [
-          "Around $258.96",
+          "Under $300",
           "BLUETTI AC50B Portable Power Station"
         ],
         [
-          "Around $284.98",
+          "Under $300",
           "GRECELL 999Wh Solar Generator 1000W Portable Power Station"
         ],
         [
-          "Around $289.99",
+          "Under $300",
           "GRECELL 999Wh Portable Power Station 1000W for Outdoor & Home"
         ],
         [
-          "Around $499.99",
+          "Under $500",
           "VTOMAN FlashSpeed 1500 Solar Generator"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -270,7 +270,7 @@ export const faq = [
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "VTOMAN FlashSpeed 300 Portable Power Station is aimed at buyers prioritizing 230wh, 300w, 7.4 lbs." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "VTOMAN FlashSpeed 300 Portable Power Station is aimed at buyers prioritizing 230wh, 300w, 7.4 lbs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-1000w-portable-power-stations","title":"Best 1000W Portable Power Stations in 2026"},{"href":"/guide/best-2000w-portable-power-stations","title":"Best 2000W Portable Power Stations in 2026"},{"href":"/guide/best-3000w-portable-power-stations","title":"Best 3000W Portable Power Stations in 2026"}];

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "VESA mini PC mounts";
 export const introParagraphs = [
   "Our broader Best Mini PC Mounts guide covers behind-monitor, under-desk, and wall mounting as three separate use cases. This guide narrows to one of those three: aftermarket hardware that attaches a Mini PC specifically to a VESA mounting point, whether that is a monitor's own VESA holes or a VESA-compatible monitor arm.",
-  "VESA hardware brings its own compatibility questions that a generic mount comparison glosses over. The 75x75mm and 100x100mm patterns are not interchangeable unless a bracket's holes accommodate both, and a Mini PC piggybacking on a monitor's VESA point adds its weight to whatever that monitor arm or stand is already rated to carry, not just the Mini PC's own weight in isolation.",
+  "VESA hardware brings its own compatibility questions that a generic mount comparison glosses over. The 75x75mm and 100x100mm patterns are not interchangeable unless a bracket's holes accommodate both, and a Mini PC piggybacking on a monitor's VESA point adds its weight to whatever that monitor arm or stand is already rated to carry, not just the Mini PC's own weight in isolation."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "9 min";
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "VESA pattern compatibility", description: "We checked whether each bracket supports 75x75mm, 100x100mm, or both, since the two patterns are not interchangeable unless the hardware explicitly accommodates both hole spacings." },
   { title: "Combined load honesty", description: "We looked at whether a listing published a combined weight rating that accounts for a Mini PC piggybacking on a monitor's own VESA point, not just a device-only figure that ignores the monitor already using that same mount." },
   { title: "Device-specific vs universal fit", description: "We separated brackets built for one named chassis, like Dell OptiPlex Micro or Lenovo ThinkCentre Tiny, from universal adjustable brackets, since the tradeoffs between rigid fit and broad compatibility are genuinely different." },
-  { title: "Cable and port access behind the monitor", description: "We evaluated whether the mounted position still leaves ports and cable routing reachable, since a VESA mount that looks clean from the front but traps cabling behind the monitor creates a real hassle later." },
+  { title: "Cable and port access behind the monitor", description: "We evaluated whether the mounted position still leaves ports and cable routing reachable, since a VESA mount that looks clean from the front but traps cabling behind the monitor creates a real hassle later." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -280,11 +280,11 @@ export const faq: FaqItem[] = [
   { q: "Can I use a VESA Mini PC mount and a monitor arm on the same monitor?", a: "Usually not on the same VESA point at the same time, since most monitors have one set of VESA holes. If you need both, plan for the Mini PC to mount elsewhere, like under the desk, using our broader mounts guide." },
   { q: "Does a higher weight rating on the Mini PC bracket cover my whole VESA setup?", a: "Not by itself. Check your monitor arm or stand's own rated capacity too, since the Mini PC and its mount add weight to whatever the arm already carries." },
   { q: "Is a device-specific VESA mount worth it over a universal one?", a: "If your exact model is on the compatibility list, yes, it typically holds more rigidly. If your model is not listed, a universal adjustable bracket is the safer, still solid choice." },
-  { q: "What if my monitor doesn't have VESA holes at all?", a: "VESA hardware will not work without them. In that case an under-desk or wall mount from our broader Best Mini PC Mounts guide is the better route." },
+  { q: "What if my monitor doesn't have VESA holes at all?", a: "VESA hardware will not work without them. In that case an under-desk or wall mount from our broader Best Mini PC Mounts guide is the better route." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mini-pc-mounts", title: "Best Mini PC Mounts (2026)" },
   { href: "/guide/best-mini-pc-monitor-mounts", title: "Best Mini PC Monitor Mounts (2026)" },
-  { href: "/guide/best-universal-mini-pc-mounts", title: "Best Universal Mini PC Mounts (2026)" },
+  { href: "/guide/best-universal-mini-pc-mounts", title: "Best Universal Mini PC Mounts (2026)" }
 ];

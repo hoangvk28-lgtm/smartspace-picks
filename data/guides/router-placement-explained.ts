@@ -12,7 +12,7 @@ export const routerPlacementExplainedGuide: Guide = {
     "best place to put wifi router",
     "router height for signal",
     "wifi signal blocked by walls",
-    "router placement home office",
+    "router placement home office"
   ],
   heroImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const routerPlacementExplainedGuide: Guide = {
     "mesh-wifi-vs-single-router",
     "wifi-6-vs-wifi-5-explained",
     "ethernet-vs-wifi-for-desk-setup",
-    "vpn-for-remote-work-explained",
+    "vpn-for-remote-work-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const routerPlacementExplainedGuide: Guide = {
       question: "Does router antenna orientation matter?",
       answer:
         "Yes for routers with external antennas, positioning some antennas vertically and others horizontally can improve coverage in multi-story homes, since it radiates signal in multiple planes rather than just one, check your router's manual for specific antenna orientation guidance.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const routerPlacementExplainedGuide: Guide = {
     {
       heading: "Why Some Obstructions Matter Far More Than Others",
       body: `Not all household materials affect WiFi signal equally, standard drywall interior walls cause relatively modest signal loss, while dense materials like concrete, brick, or large metal objects (appliances, mirrors, filing cabinets) cause much more significant attenuation, and water is a particularly strong signal absorber, meaning a router positioned near a large fish tank or even oriented toward a bathroom with significant plumbing can see meaningfully reduced signal strength in that direction specifically.`,
-    },
+    }
   ],
 };

@@ -125,7 +125,7 @@ export const products: GuideProduct[] = [
     pros: ["Built-in power outlet avoids extension cords", "80\" width sized directly for 85\" TVs", "Mix of enclosed and open storage zones", "RGB LED lighting with color control"],
     cons: ["25.6\" height is taller than most picks, raises screen center", "No stated top weight capacity figure", "Enclosed cabinet doors can block some IR signals"],
     bestFor: "Buyers who want a built-in power outlet on the stand itself to avoid extension cords for AV gear.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -157,10 +157,10 @@ export const faq: { q: string; a: string }[] = [
   { q: "Do I need a center support leg for a stand this wide?", a: "It helps significantly. A top surface running 75 inches or wider without a center support can flex or sag over years of sustained heavy weight, which matters more with an 85 inch TV's higher weight versus smaller screens. If a wide stand's listing does not mention reinforced center support, treat the stated capacity as a maximum rather than a comfortable everyday load." },
   { q: "Will an enclosed cabinet TV stand block my streaming box remote?", a: "It can. Solid cabinet doors can attenuate infrared remote signals to devices stored behind them. Several picks in this guide, like the Aquzee, use fully open shelving to avoid the issue, while the Bestier and 80 inch power-outlet picks mix enclosed cabinets with open shelves so you can place IR-dependent gear on the visible side." },
   { q: "Do these stands also wall-mount the TV?", a: "No. Every stand in this guide supports the TV resting on its top surface rather than mounting it to the wall. If you want the TV wall-mounted with a console underneath for media storage, you need a separate wall mount rated for the TV's VESA pattern and weight, installed into wall studs, in addition to the stand." },
-  { q: "Is a multi-piece extra-wide console like the 118 inch WAMPAT worth it over a standard 80 inch stand?", a: "It depends on your wall space and storage needs. The extra-wide WAMPAT pick in this guide gives an 85 inch TV substantial width margin, the highest top capacity tier in this roundup, and the most storage cubbies, but it needs a genuinely long, clear wall run and takes longer to assemble across three boxes. For a typical living room, an 80 to 95 inch console sized directly for 85 inch TVs, like the other picks in this guide, is usually the simpler fit." },
+  { q: "Is a multi-piece extra-wide console like the 118 inch WAMPAT worth it over a standard 80 inch stand?", a: "It depends on your wall space and storage needs. The extra-wide WAMPAT pick in this guide gives an 85 inch TV substantial width margin, the highest top capacity tier in this roundup, and the most storage cubbies, but it needs a genuinely long, clear wall run and takes longer to assemble across three boxes. For a typical living room, an 80 to 95 inch console sized directly for 85 inch TVs, like the other picks in this guide, is usually the simpler fit." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-tv-stand-for-75-inch-tv", title: "Best TV Stands for 75 Inch TVs (2026)" },
-  { href: "/guide/best-tv-stand-for-55-inch-tv", title: "Best TV Stands for 55 Inch TVs (2026)" },
+  { href: "/guide/best-tv-stand-for-55-inch-tv", title: "Best TV Stands for 55 Inch TVs (2026)" }
 ];

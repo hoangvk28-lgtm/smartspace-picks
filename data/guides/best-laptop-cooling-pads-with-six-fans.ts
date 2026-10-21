@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop cooling pad six fans";
 export const introParagraphs = [
   "Six fans is one of the higher counts commonly marketed in this category, and it is also one of the counts most often claimed loosely. We checked the actual feature text of every candidate pad against its title and only kept pads that genuinely confirm six fans in their own listed specs, excluding several that market a similar-sounding count but actually ship with five or nine fans instead.",
-  "Three pads in our research pool genuinely confirm exactly six fans based on their own feature text. This guide compares those three on RGB and LCD extras, height adjustment, and price, and also addresses a fair question directly: does a sixth fan meaningfully add cooling, or is it mostly a way to stand out in a crowded listing page.",
+  "Three pads in our research pool genuinely confirm exactly six fans based on their own feature text. This guide compares those three on RGB and LCD extras, height adjustment, and price, and also addresses a fair question directly: does a sixth fan meaningfully add cooling, or is it mostly a way to stand out in a crowded listing page."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -75,7 +75,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Fan-count verification against the full candidate pool", description: "We checked the actual feature text of every candidate pad marketed near a six-fan configuration and excluded any where the real stated count was five or nine instead." },
   { title: "RGB and LCD extras versus core cooling function", description: "We separated genuine cooling upgrades, like grouped fan control or dual-vent placement, from cosmetic extras like RGB lighting, so buyers can weigh what they are actually paying for." },
   { title: "Height adjustment and laptop size range", description: "We compared the number of height settings and stated laptop compatibility, since these three picks range from 4 to 7 height settings and from 12 up to 17.3 inches." },
-  { title: "Whether the sixth fan meaningfully adds airflow", description: "We looked at how each listing describes fan placement and grouping, since a sixth fan integrated into a genuine dual-vent or grouped-control design contributes more than one simply added for a higher number." },
+  { title: "Whether the sixth fan meaningfully adds airflow", description: "We looked at how each listing describes fan placement and grouping, since a sixth fan integrated into a genuine dual-vent or grouped-control design contributes more than one simply added for a higher number." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -209,13 +209,13 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "Do six-fan laptop cooling pads actually cool better than three or five-fan pads?", a: "It depends on the design, not just the count. A six-fan pad with a genuine dual-vent or grouped-control design, like the picks in this guide, provides real additional airflow. A sixth fan added without a stated purpose contributes less per fan than the first several." },
   { q: "Are all pads marketed near 'six fans' genuinely six fans?", a: "No. We checked the feature text of every candidate pad and excluded several marketed near a six-fan count that actually stated five or nine fans once we read the full specs." },
-  { q: "What is the cheapest confirmed six-fan pad?", a: "The Laptop Cooling Pad with 6 Fans and a 4-Level Stand is the lowest priced of the three confirmed six-fan picks in this guide at $19.99, though it skips the RGB and LCD extras found on the pricier picks." },
+  { q: "What is the cheapest confirmed six-fan pad?", a: "The Laptop Cooling Pad with 6 Fans and a 4-Level Stand is the lowest priced of the three confirmed six-fan picks in this guide at under $20, though it skips the RGB and LCD extras found on the pricier picks." },
   { q: "Is RGB lighting worth paying extra for on a cooling pad?", a: "That is a personal preference rather than a cooling performance question. The ICE COOREL pick's RGB and LCD extras add cost without changing the underlying six-fan cooling hardware compared to the simpler picks here." },
-  { q: "Will a six-fan pad fit a 13-inch ultrabook?", a: "The picks in this guide are generally sized for 12 inches and up, but six-fan designs are most commonly built for 15.6 inch and larger gaming laptops. Check the specific compatibility range on each listing before buying for a smaller laptop." },
+  { q: "Will a six-fan pad fit a 13-inch ultrabook?", a: "The picks in this guide are generally sized for 12 inches and up, but six-fan designs are most commonly built for 15.6 inch and larger gaming laptops. Check the specific compatibility range on each listing before buying for a smaller laptop." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-cooling-pads-with-five-fans", title: "Best Laptop Cooling Pads with Five Fans (2026)" },
   { href: "/guide/best-laptop-cooling-pads-with-three-fans", title: "Best Laptop Cooling Pads with Three Fans (2026)" },
-  { href: "/guide/best-gaming-laptop-cooling-pads", title: "Best Gaming Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-gaming-laptop-cooling-pads", title: "Best Gaming Laptop Cooling Pads (2026)" }
 ];

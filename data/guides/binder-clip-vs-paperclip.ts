@@ -12,7 +12,7 @@ export const binderClipVsPaperclipGuide: Guide = {
     "binder clip holding capacity",
     "paperclip vs binder clip thick documents",
     "when to use binder clips",
-    "office fastener comparison",
+    "office fastener comparison"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const binderClipVsPaperclipGuide: Guide = {
     "stapler-types-explained",
     "gel-vs-ballpoint-pen-explained",
     "desk-organizer-types-explained",
-    "desk-drawer-organizer-vs-tray",
+    "desk-drawer-organizer-vs-tray"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const binderClipVsPaperclipGuide: Guide = {
       question: "Which is better for organizing loose papers temporarily on a desk?",
       answer:
         "A binder clip's folding handles let it stand up somewhat on its own or hang from a hook, useful for temporarily organizing a stack upright, a paperclip lies flat and is better suited to keeping already-organized pages together without needing to stand upright.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const binderClipVsPaperclipGuide: Guide = {
     {
       heading: "Why Binder Clips' Folding Handles Add Genuine Functional Versatility",
       body: `Beyond simply holding papers together, a binder clip's folding wire handles allow it to stand upright on a flat surface or hook onto something else entirely, like hanging a document stack from a nail or clip strip, this versatility goes beyond a paperclip's single function of flat fastening, making binder clips useful for light organizational and display purposes that a paperclip simply can't accommodate due to its flat, low-profile design.`,
-    },
+    }
   ],
 };

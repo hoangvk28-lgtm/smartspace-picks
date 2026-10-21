@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "printer table";
 export const introParagraphs = [
   "A printer table for a home office needs to do more than hold a printer at a fixed height. The tabletop has to be large enough for your actual printer model, the output tray needs to sit around 28 to 32 inches off the floor so you are not bending or reaching to grab paper, and there has to be room behind the unit to route a power cord and a USB or ethernet cable without jamming the table against the wall. A lot of listings labeled printer table are really a compact printer stand or a mobile printer cart wearing a different name, and the difference matters once you try to fit a full-size all-in-one on top.",
-  "Below are 8 printer tables we evaluated on tabletop footprint, per-shelf weight capacity, cable clearance, and how honestly each one is built for the printer table role versus a general storage cart pressed into service. Prices range from $9.99 for a compact laptop riser style stand up to $99.99 for a full mobile file cabinet with an extended desktop.",
+  "Below are 8 printer tables we evaluated on tabletop footprint, per-shelf weight capacity, cable clearance, and how honestly each one is built for the printer table role versus a general storage cart pressed into service. Prices range from under $10 for a compact laptop riser style stand up to under $100 for a full mobile file cabinet with an extended desktop."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Dedicated rear cable management channel",
       "Locking caster wheels",
       "Storage drawer under the top shelf",
-      "Suited to compact and mid-size printers",
+      "Suited to compact and mid-size printers"
     ],
     pros: [
       "Purpose-built cable management, not an afterthought",
       "Locking wheels for stability once positioned",
       "Compact enough to slide fully under most desks",
-      "Storage drawer for ink or small paper supplies",
+      "Storage drawer for ink or small paper supplies"
     ],
     cons: [
       "Tabletop is not sized for large business all-in-ones",
       "Single storage drawer limits total capacity",
-      "Lower height means kneeling to load paper if placed on the floor",
+      "Lower height means kneeling to load paper if placed on the floor"
     ],
     bestFor: "Buyers who want a purpose-built printer table with real cable routing",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "2-tier rolling table cart",
       "Built-in storage drawer",
       "Fits business-class all-in-one printers",
-      "Casters for repositioning",
+      "Casters for repositioning"
     ],
     pros: [
       "Largest tabletop of any pick, fits bigger AIO printers",
       "2-tier design adds a full lower shelf",
       "Rolling casters for easy repositioning",
-      "Drawer keeps ink and cables contained",
+      "Drawer keeps ink and cables contained"
     ],
     cons: [
       "Larger footprint needs more floor space",
       "Heavier to move than the compact picks",
-      "Lower shelf sits close to the floor for loading",
+      "Lower shelf sits close to the floor for loading"
     ],
     bestFor: "Buyers with a full-size business all-in-one printer that needs real tabletop room",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Built-in charging station shelf",
       "Under-desk compatible height",
       "Rustic brown and black finish",
-      "Open lower shelf storage",
+      "Open lower shelf storage"
     ],
     pros: [
       "Charging station shelf is a genuinely rare feature",
       "Attractive furniture-style finish, not utility-cart look",
       "Affordable at under $30",
-      "Slides under most desks",
+      "Slides under most desks"
     ],
     cons: [
       "Open shelves collect more dust than a drawer",
       "Smaller tabletop than the YAOHUOO",
-      "No lockable wheels",
+      "No lockable wheels"
     ],
     bestFor: "Buyers who want a device charging shelf built into their printer table",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "2 fabric-front drawers",
       "Fits A4/Letter size files",
       "Side storage bag included",
-      "Rolling mobile base",
+      "Rolling mobile base"
     ],
     pros: [
       "Combines file storage with a printer platform",
       "Extended desktop fits most compact and mid-size printers",
       "Rolling base for repositioning near a desk",
-      "Side bag adds bonus storage",
+      "Side bag adds bonus storage"
     ],
     cons: [
       "Narrower desktop depth than furniture built as a printer table",
       "Fabric drawer fronts are less durable than solid wood",
-      "Not intended as its primary marketed use",
+      "Not intended as its primary marketed use"
     ],
     bestFor: "Buyers who want document storage and a printer surface combined",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Rustic brown finish",
       "Wide, stable flat top surface",
       "Rolling casters",
-      "Lateral filing cabinet construction",
+      "Lateral filing cabinet construction"
     ],
     pros: [
       "Highest document storage capacity in this list",
       "Wide, stable top surface for a printer",
       "Rolling casters for repositioning",
-      "Solid lateral-cabinet construction",
+      "Solid lateral-cabinet construction"
     ],
     cons: [
       "Most expensive pick in this list",
       "Functions primarily as a file cabinet, not a table",
-      "Larger footprint needs more floor space",
+      "Larger footprint needs more floor space"
     ],
     bestFor: "Buyers who need heavy document storage alongside a printer surface",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "2 drawers for A4/Letter documents",
       "Matte black finish",
       "Marketed specifically as a printer stand",
-      "Rolling base",
+      "Rolling base"
     ],
     pros: [
       "Small footprint fits tight corners",
       "Marketed and sized specifically for printer use",
       "Clean matte black finish",
-      "Two drawers for document storage",
+      "Two drawers for document storage"
     ],
     cons: [
       "27.6-inch height runs taller than some desks",
       "Smaller tabletop than the YAOHUOO or GYIIYUO",
-      "Two drawers offer less capacity than the 3-drawer picks",
+      "Two drawers offer less capacity than the 3-drawer picks"
     ],
     bestFor: "Small home offices that need a compact, purpose-labeled printer stand",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Under-desk storage sizing",
       "Flat top rated for printer use",
       "Wood exterior construction",
-      "$59.90",
+      "Under $60"
     ],
     pros: [
       "Warm wood finish suits home office decor",
       "3 drawers for solid document capacity",
       "Under-desk sizing keeps it out of the way",
-      "Resists visible scuffing better than metal carts",
+      "Resists visible scuffing better than metal carts"
     ],
     cons: [
       "Tabletop is narrower than dedicated printer table furniture",
       "Heavier than the metal-frame picks",
-      "Assembly involves more hardware than simpler stands",
+      "Assembly involves more hardware than simpler stands"
     ],
     bestFor: "Buyers who want a wood-finish file cabinet that doubles as a printer table",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Fully assembled on arrival",
       "Metal construction",
       "Fits Letter, Legal, and A4 documents",
-      "Under-desk mobile design",
+      "Under-desk mobile design"
     ],
     pros: [
       "Only pick with a genuine locking mechanism",
       "Ships fully assembled, no build time",
       "Durable metal construction",
-      "Fits multiple document sizes",
+      "Fits multiple document sizes"
     ],
     cons: [
       "Most expensive pick in this list",
       "Tabletop is sized for compact printers, not large AIOs",
-      "Metal exterior is less warm looking than wood-finish picks",
+      "Metal exterior is less warm looking than wood-finish picks"
     ],
     bestFor: "Buyers who need locked document storage alongside their printer table",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -328,7 +328,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
     title: "Output tray height for comfortable reach",
     description:
       "Compared each stand's height against the 28 to 32 inch range where an output tray can be reached without excessive bending, factoring in whether the unit sits on the floor or slides under a desk.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -482,11 +482,11 @@ export const faq: FaqItem[] = [
   {
     q: "How much weight can a printer table actually hold?",
     a: "Check the per-shelf rating, not just the total capacity figure. A printer alone can weigh 15 to 25 lbs, and adding a paper ream plus spare ink can push a single shelf close to 30 to 35 lbs. The DEVAISE and Letaya offer the sturdiest overall construction in this list for buyers stacking supplies alongside the printer.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-printer-stands-for-small-spaces", title: "Best Printer Stands for Small Spaces (2026)" },
   { href: "/guide/best-under-desk-printer-stands", title: "Best Under-Desk Printer Stands (2026)" },
-  { href: "/guide/best-printer-stands-with-storage", title: "Best Printer Stands with Storage (2026)" },
+  { href: "/guide/best-printer-stands-with-storage", title: "Best Printer Stands with Storage (2026)" }
 ];

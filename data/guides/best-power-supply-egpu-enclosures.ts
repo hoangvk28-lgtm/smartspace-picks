@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $279.99",
+          "Under $300",
           "External eGPU Enclosure with 240W PSU"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "ORARA eGPU Enclosure Thunderbolt 3/4/USB4 40Gbps with 750W PSU"
         ],
         [
-          "Around $399.99",
+          "Under $400",
           "Sonnet eGPU Breakaway Box 750"
         ],
         [
-          "Around $399.99",
+          "Under $400",
           "Sonnet eGPU Breakaway Box 750ex"
         ],
         [
-          "Around $599.99",
+          "Under $600",
           "Sonnet Breakaway Box 850 T5 eGPU Enclosure"
         ],
         [
-          "Around $629.99",
+          "Under $650",
           "Plugable Thunderbolt 5 AI eGPU Enclosure & Dock"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "Thunderbolt and USB4 tunnel PCIe over a general-purpose port shared with other data, while OCuLink provides a more direct PCIe connection with typically lower overhead, but neither hot-plugs as easily and OCuLink support is far less common on laptops. Match the choice to what your specific host actually exposes."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "ORARA eGPU Enclosure Thunderbolt 3/4/USB4 40Gbps with 750W PSU is aimed at buyers prioritizing 750w psu included." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "ORARA eGPU Enclosure Thunderbolt 3/4/USB4 40Gbps with 750W PSU is aimed at buyers prioritizing 750w psu included." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-egpu-enclosures-with-power-supply","title":"Best eGPU Enclosures With Power Supply in 2026"},{"href":"/guide/best-egpu-enclosures","title":"Best eGPU Enclosures in 2026"},{"href":"/guide/best-thunderbolt-3-egpu-enclosures","title":"Best Thunderbolt 3 eGPU Enclosures in 2026"}];

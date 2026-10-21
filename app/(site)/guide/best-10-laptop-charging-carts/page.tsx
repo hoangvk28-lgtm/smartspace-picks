@@ -143,7 +143,7 @@ export default async function Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best 10-Laptop Charging Carts", item: `${SITE_URL}/guide/best-10-laptop-charging-carts` },
+      { "@type": "ListItem", position: 3, name: "Best 10-Laptop Charging Carts", item: `${SITE_URL}/guide/best-10-laptop-charging-carts` }
     ],
   };
 
@@ -251,7 +251,7 @@ export default async function Page() {
 
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>Ten-device search results often mix true 10-bay carts with slightly larger 12- and 16-device units at a similar price point. We're separating the confirmed true 10-device carts from the near-10 alternatives directly, since buying more capacity than needed at this small scale still means paying for and storing unused bays.</p>
-          <p>Rating and review data at this small-fleet tier is thin across the board; several picks here have fewer than 5 reviews, which we're weighing honestly rather than treating a single 5.0 rating on 2 reviews as equivalent to a proven track record.</p>
+          <p>Buyer feedback at this small-fleet tier is thin across the board, so we leaned on listed specs, build materials, and warranty terms rather than treating a handful of early impressions as a proven track record.</p>
         </section>
 
         {buyingCriteria.length > 0 && (

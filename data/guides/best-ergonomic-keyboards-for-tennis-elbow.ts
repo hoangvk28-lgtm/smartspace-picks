@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "ergonomic keyboard for tennis elbow";
 export const introParagraphs = [
   "Tennis elbow, medically known as lateral epicondylitis, is more commonly associated with mouse and grip-related strain than with keyboard typing specifically, so it's important to be direct that an ergonomic keyboard is a secondary contributor to comfort at most here, not a primary intervention. If you have elbow pain, especially pain that doesn't improve or gets worse, please see a doctor for a proper diagnosis and treatment plan rather than expecting a keyboard purchase to resolve it.",
-  "Where a keyboard can plausibly help is through reduced forearm pronation on split or tented designs, which changes the angle your forearm holds during typing, and through lighter actuation force reducing repetitive strain on the forearm extensor tendons if a specific model uses it, though exact actuation force often isn't published, treat that as buyer-advisory rather than an assumed spec. Negative keyboard tilt, angling the far edge downward to reduce wrist extension, is a distinct mechanism from split design alone, and typing technique and posture matter here just as much as hardware.",
+  "Where a keyboard can plausibly help is through reduced forearm pronation on split or tented designs, which changes the angle your forearm holds during typing, and through lighter actuation force reducing repetitive strain on the forearm extensor tendons if a specific model uses it, though exact actuation force often isn't published, treat that as buyer-advisory rather than an assumed spec. Negative keyboard tilt, angling the far edge downward to reduce wrist extension, is a distinct mechanism from split design alone, and typing technique and posture matter here just as much as hardware."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "10 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Pick for Forearm Positioning",
     name: "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest",
     price: "$129.99",
-    rating: "4.5 stars from Amazon ratings",
-    reviews: "7,992 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41EsewSK2nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZWK2TQT?tag=deskfinds0d-20",
     description: "A curved split keyboard with negative tilt, a design that can reduce forearm pronation and wrist extension during typing, two mechanisms plausibly relevant to tennis elbow comfort as a secondary factor. This is not a treatment for tennis elbow, and persistent elbow pain warrants a doctor's evaluation, since the condition is more commonly linked to mouse and grip strain than keyboard use.\n\nIt earns the top spot in this comparison over Perixx PERIBOARD-512B Wired Ergonomic Keyboard for one main reason. Negative tilt reduces wrist extension during typing. On price, it's actually priced above Perixx PERIBOARD-512B Wired Ergonomic Keyboard, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Split design reduces forearm pronation. On the other side, Highest price in this guide. That's the main tradeoff to weigh against everything above.",
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Split Pick",
     name: "Perixx PERIBOARD-512B Wired Ergonomic Keyboard - Split Keyboard with Wrist Rest",
     price: "$44.99",
-    rating: "4.4 stars from Amazon ratings",
-    reviews: "9,553 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41MgdS5CMFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075GZVD4T?tag=deskfinds0d-20",
     description: "A wired, fixed-angle split keyboard with a padded wrist rest, a lower-cost way to test whether reduced forearm pronation from a split layout offers any secondary comfort benefit. As with every pick here, this is not a treatment for tennis elbow, please see a doctor for persistent elbow pain rather than relying on hardware alone.\n\nOne spot below Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest in this ranking, it's priced lower than Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest. The compromise here is straightforward: Fixed split angle, not tenting-adjustable. What you gain in return: Lowest price of any true split keyboard here. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Largest verified review base in this guide. On the other side, Exact actuation force not published. That's the main tradeoff to weigh against everything above.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     badge: "Best Low-Commitment Pick",
     name: "Logitech Wave Keys Wireless Ergonomic Keyboard - Graphite",
     price: "$59.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "2,972 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/4114VdW9JcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BTNY72VD?tag=deskfinds0d-20",
     description: "A one-piece wave-shaped keyboard with a gentle curve and reduced tilt, offering a lower-effort introduction to reduced wrist extension than a fully split design. Its one-piece frame delivers less forearm pronation reduction than a true split, since it cannot be positioned at shoulder width.\n\nSitting just under Perixx PERIBOARD-512B Wired Ergonomic Keyboard, it costs more than Perixx PERIBOARD-512B Wired Ergonomic Keyboard. Here's the honest tradeoff: Less forearm pronation reduction than a true split. And here's what it gets you instead: Low-commitment entry point into reduced-tilt typing. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Minimal adjustment period versus a true split. On the other side, Cannot be positioned shoulder-width apart. That's the main tradeoff to weigh against everything above.",
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     badge: "Best Adjustable-Feel Split Pick",
     name: "Arteck Split Ergonomic Keyboard with Palm Rest, 2.4G USB Wireless",
     price: "$54.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "1,624 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41O4m5cUOVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BKKYRQ31?tag=deskfinds0d-20",
     description: "A split, angled keyboard with a built-in cushioned wrist and palm rest, connecting over a 2.4G receiver for a consistent connection during long sessions. Its split design reduces forearm pronation similarly to the other split picks in this guide, a secondary comfort factor for tennis elbow at most, not a treatment.\n\nRanked just behind Logitech Wave Keys Wireless Ergonomic Keyboard, it's priced lower than Logitech Wave Keys Wireless Ergonomic Keyboard. The real tradeoff against that pick: Fixed split angle, not tenting-adjustable. In exchange, it offers this instead: 2.4G connection stable for long sessions. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Built-in cushioned rest, no extra purchase. On the other side, Windows-focused compatibility. That's the main tradeoff to weigh against everything above.",
@@ -90,8 +90,8 @@ export const products: GuideProduct[] = [
     badge: "Best Cushioned Wrist Rest Pick",
     name: "Nulea Wireless Ergonomic Keyboard, Split Keyboard with Cushioned Wrist Rest",
     price: "$49.99",
-    rating: "4.2 stars from Amazon ratings",
-    reviews: "541 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41M-dFoGk+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1TLPDWT?tag=deskfinds0d-20",
     description: "A split wireless keyboard with a cushioned wrist rest, reducing forearm pronation similarly to the other split picks in this guide at a lower price than the premium Logitech option. As with every pick here, this is a secondary comfort factor at most for tennis elbow, not a treatment, and the condition is more commonly linked to mouse and grip strain than keyboard typing.\n\nOne spot below Arteck Split Ergonomic Keyboard with Palm Rest in this ranking, it's priced lower than Arteck Split Ergonomic Keyboard with Palm Rest. The compromise here is straightforward: Smaller verified review base than the top picks here. What you gain in return: True split layout reduces forearm pronation. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Dedicated cushioned wrist rest. On the other side, Exact actuation force not published. That's the main tradeoff to weigh against everything above.",
@@ -106,8 +106,8 @@ export const products: GuideProduct[] = [
     badge: "Best Multi-Device Cushioned Pick",
     name: "Arteck Ergonomic Keyboard with Cushioned Wrist Palm Rest, Multi-Device",
     price: "$56.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "69 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ersIiDGuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPR2GR6F?tag=deskfinds0d-20",
     description: "A cushioned-palm-rest keyboard supporting multi-device pairing, appropriate for buyers who switch between a laptop and desktop and want consistent forearm support on both. This is a secondary comfort factor at most for tennis elbow, not a treatment, and the condition is more commonly linked to mouse and grip strain than keyboard use.\n\nSitting just under Nulea Wireless Ergonomic Keyboard, it costs more than Nulea Wireless Ergonomic Keyboard. Here's the honest tradeoff: Not a true split layout, less forearm pronation reduction. And here's what it gets you instead: Cushioned palm rest included. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Multi-device pairing for switching between computers. On the other side, Smaller verified review base than the top picks here. That's the main tradeoff to weigh against everything above.",
@@ -122,8 +122,8 @@ export const products: GuideProduct[] = [
     badge: "Best Backlit Split Pick",
     name: "Arteck Split Ergonomic Keyboard with Palm Rest, USB Wired Backlit Keyboard",
     price: "$53.99",
-    rating: "4.3 stars from Amazon ratings",
-    reviews: "1,166 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51mIgAEAexL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CGL8X4H6?tag=deskfinds0d-20",
     description: "A split, backlit keyboard connecting over wired USB, reducing forearm pronation the same way as the other Arteck split pick in this guide with the added convenience of illuminated keys. This remains a secondary comfort factor at most for tennis elbow, not a treatment, and persistent elbow pain warrants a doctor's evaluation.\n\nRanked just behind Arteck Ergonomic Keyboard with Cushioned Wrist Palm Rest, it's priced lower than Arteck Ergonomic Keyboard with Cushioned Wrist Palm Rest. The real tradeoff against that pick: Fixed split angle, not tenting-adjustable. In exchange, it offers this instead: True split layout reduces forearm pronation. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Backlit keys for low-light typing. On the other side, Limited backlighting value for touch typists. That's the main tradeoff to weigh against everything above.",
@@ -138,8 +138,8 @@ export const products: GuideProduct[] = [
     badge: "Best Combo Pick Addressing Mouse Grip Too",
     name: "MEETION Ergonomic Keyboard and Mouse Combo, Split Design, Vertical Mouse",
     price: "$65.99",
-    rating: "4.1 stars from Amazon ratings",
-    reviews: "1,552 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41aKiMqHXoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BZCCXJJ4?tag=deskfinds0d-20",
     description: "A split keyboard paired with a vertical mouse, directly addressing both sides of the comfort equation this guide's intro emphasizes, since mouse grip and forearm rotation are more commonly implicated in tennis elbow than keyboard typing alone. The included vertical mouse changes forearm rotation during mouse use specifically, a mechanism the keyboard alone can't address.\n\nOne spot below Arteck Split Ergonomic Keyboard with Palm Rest in this ranking, it costs more than Arteck Split Ergonomic Keyboard with Palm Rest. The compromise here is straightforward: Not a treatment for tennis elbow. What you gain in return: Addresses both keyboard and mouse grip factors together. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Vertical mouse changes forearm rotation during mouse use. On the other side, Higher price than a keyboard-only pick. That's the main tradeoff to weigh against everything above.",
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Keyboard's role as secondary, not primary, factor", description: "Framed each keyboard's relevance to tennis elbow honestly as a secondary comfort contributor, since the condition is more commonly linked to mouse and grip strain." },
   { title: "Forearm pronation reduction via split design", description: "Compared how each split or tented design reduces forearm pronation during typing, a plausible but secondary mechanism relevant to tennis elbow comfort." },
   { title: "Actuation force as buyer-advisory, not invented specs", description: "Where exact actuation force wasn't published, flagged it as something to verify on the current listing rather than assuming a lighter, strain-reducing feel." },
-  { title: "Negative tilt as a distinct mechanism from split alone", description: "Distinguished negative tilt, angling the far edge downward to reduce wrist extension, from split design itself, noting where a reviewed product supports it." },
+  { title: "Negative tilt as a distinct mechanism from split alone", description: "Distinguished negative tilt, angling the far edge downward to reduce wrist extension, from split design itself, noting where a reviewed product supports it." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -289,11 +289,11 @@ export const faq: FaqItem[] = [
   { q: "Can an ergonomic keyboard help with tennis elbow?", a: "Possibly as a secondary factor through reduced forearm pronation, but tennis elbow is more commonly linked to mouse and grip strain than keyboard typing. See a doctor for a proper diagnosis and treatment plan." },
   { q: "Does keyboard tilt matter for tennis elbow specifically?", a: "Negative tilt, angling the far edge downward, reduces wrist extension as a distinct mechanism from split design's forearm pronation reduction, verify a specific product supports it rather than assuming." },
   { q: "Should I also change my mouse if I have tennis elbow?", a: "Given tennis elbow is more commonly associated with mouse and grip-related strain, addressing your mouse setup alongside any keyboard change is worth considering, and a doctor's evaluation matters most." },
-  { q: "Does lighter keyboard actuation reduce tennis elbow strain?", a: "Plausibly, lighter actuation force could reduce repetitive strain on forearm extensor tendons, but exact force specs are rarely published, treat this as buyer-advisory rather than a confirmed benefit." },
+  { q: "Does lighter keyboard actuation reduce tennis elbow strain?", a: "Plausibly, lighter actuation force could reduce repetitive strain on forearm extensor tendons, but exact force specs are rarely published, treat this as buyer-advisory rather than a confirmed benefit." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-ergonomic-keyboards-for-wrist-pain", title: "Best Ergonomic Keyboards for Wrist Pain (2026)" },
   { href: "/guide/best-ergonomic-keyboards-for-carpal-tunnel", title: "Best Ergonomic Keyboards for Carpal Tunnel (2026)" },
-  { href: "/guide/best-split-ergonomic-keyboards", title: "Best Split Ergonomic Keyboards (2026)" },
+  { href: "/guide/best-split-ergonomic-keyboards", title: "Best Split Ergonomic Keyboards (2026)" }
 ];

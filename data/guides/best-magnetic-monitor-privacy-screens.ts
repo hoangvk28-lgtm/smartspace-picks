@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "magnetic monitor privacy screen";
 export const introParagraphs = [
   "Magnetic privacy filters vary more than the label suggests: some hang from a magnetic strip along the top bezel, others use a hidden design specifically built for frameless monitors. We compared the actual mounting mechanism for each pick, not just the \"magnetic\" label.",
-  "Magnetic mounts genuinely remove faster and stay better aligned across repeated use than an adhesive strip, but they typically need a metal frame or an included magnetic strip to attach, worth checking against your specific monitor's bezel material.",
+  "Magnetic mounts genuinely remove faster and stay better aligned across repeated use than an adhesive strip, but they typically need a metal frame or an included magnetic strip to attach, worth checking against your specific monitor's bezel material."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Distinguished magnetic mount subtypes directly", description: "We noted where a magnetic design is a standard hanging strip versus a hidden design specifically built for frameless monitors, since these serve different needs." },
   { title: "Flagged frameless compatibility explicitly", description: "Only one pick in this comparison is specifically designed for frameless monitors, and we called this out directly rather than assuming all magnetic filters work the same way." },
   { title: "Compared single-unit and matched 2-pack pricing for the same design", description: "Where a brand sells both formats, we noted the per-unit price difference to help buyers choose the right format for their setup." },
-  { title: "Weighed rating against review volume across smaller sample sizes", description: "Several magnetic picks have review counts under 200; we compared both rating and sample size rather than the star rating alone." },
+  { title: "Weighed rating against review volume across smaller sample sizes", description: "Several magnetic picks have review counts under 200; we compared both rating and sample size rather than the star rating alone." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -249,7 +249,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
-    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nThis matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
   }
 ];
 
@@ -257,12 +257,12 @@ export const faq: FaqItem[] = [
   { q: "Do magnetic privacy filters work on any monitor?", a: "Most need a metal bezel or an included magnetic strip to attach; verify your monitor's bezel material before assuming compatibility." },
   { q: "Which magnetic filter has the highest rating?", a: "The JEAPKA 2 Pack Magnetic 24 Inch Computer Privacy Screen Filter at 4.6." },
   { q: "Is there a magnetic option for frameless monitors?", a: "Yes, the JEAPKA 2 Pack Hidden Design Magnetic Computer Privacy Screen is specifically built for frameless monitors." },
-  { q: "What's the cheapest magnetic option?", a: "The JEAPKA 2 Pack Hidden Design Magnetic Computer Privacy Screen at $36.79, also the frameless-specific pick." },
-  { q: "Is there a magnetic option for 27 inch monitors?", a: "Yes, the JEEETINTX Magnetic Computer Privacy Screen Filter 27 Inch, with the largest review base at this size tier." },
+  { q: "What's the cheapest magnetic option?", a: "The JEAPKA 2 Pack Hidden Design Magnetic Computer Privacy Screen at under $40, also the frameless-specific pick." },
+  { q: "Is there a magnetic option for 27 inch monitors?", a: "Yes, the JEEETINTX Magnetic Computer Privacy Screen Filter 27 Inch, with the largest review base at this size tier." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-clip-on-monitor-privacy-screens", title: "Best Clip-On Monitor Privacy Screens (2026)" },
   { href: "/guide/best-removable-monitor-privacy-screens", title: "Best Removable Monitor Privacy Screens (2026)" },
-  { href: "/guide/best-monitor-privacy-screens", title: "Best Monitor Privacy Screens (2026)" },
+  { href: "/guide/best-monitor-privacy-screens", title: "Best Monitor Privacy Screens (2026)" }
 ];

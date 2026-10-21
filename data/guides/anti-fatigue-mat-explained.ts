@@ -12,7 +12,7 @@ export const antiFatigueMatExplainedGuide: Guide = {
     "do i need anti fatigue mat",
     "best anti fatigue mat thickness",
     "standing desk mat worth it",
-    "anti fatigue mat material comparison",
+    "anti fatigue mat material comparison"
   ],
   heroImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const antiFatigueMatExplainedGuide: Guide = {
     "standing-desk-height-chart",
     "standing-desk-converter-vs-full-standing-desk",
     "standing-desk-weight-capacity-explained",
-    "how-to-measure-office-chair-fit",
+    "how-to-measure-office-chair-fit"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const antiFatigueMatExplainedGuide: Guide = {
       question: "Do I need an anti-fatigue mat if I only stand occasionally?",
       answer:
         "The benefit scales with how much time you actually spend standing, occasional short standing sessions see less cumulative benefit than someone standing for several hours daily, for infrequent standing use, a mat is a nice-to-have rather than a necessity.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const antiFatigueMatExplainedGuide: Guide = {
     {
       heading: "Matching Mat Investment to Actual Standing Time",
       body: `If you use your standing desk for brief periods throughout the day, the cumulative fatigue benefit of a dedicated mat is smaller, and a basic or no mat may be perfectly adequate. If you stand for several hours at a stretch regularly, investing in a quality anti-fatigue mat addresses a real, cumulative source of discomfort that would otherwise make sustained standing desk use less sustainable long term.`,
-    },
+    }
   ],
 };

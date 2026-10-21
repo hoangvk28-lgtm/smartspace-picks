@@ -12,7 +12,7 @@ export const compactDeskAccessoryChecklistGuide: Guide = {
     "space saving desk accessories",
     "small desk setup essentials",
     "compact office accessories checklist",
-    "what desk accessories to skip small space",
+    "what desk accessories to skip small space"
   ],
   heroImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const compactDeskAccessoryChecklistGuide: Guide = {
     "dorm-desk-size-restrictions-explained",
     "desk-organizer-types-explained",
     "cable-management-types-explained",
-    "monitor-arm-vs-monitor-stand",
+    "monitor-arm-vs-monitor-stand"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const compactDeskAccessoryChecklistGuide: Guide = {
       question: "What common office accessories are safe to skip entirely on a small desk?",
       answer:
         "A large desk pad covering the full surface, a bulky desktop file organizer, and oversized decorative items all tend to consume valuable surface space without proportional functional benefit, these are reasonable to skip or replace with more compact alternatives on a small desk.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const compactDeskAccessoryChecklistGuide: Guide = {
     {
       heading: "Why Reclaiming Space Should Take Priority Over Adding Organization",
       body: `On a small desk specifically, accessories that reclaim desk footprint entirely, a monitor arm lifting the monitor off the surface, a compact keyboard reducing width, generally provide more meaningful benefit than accessories that merely organize items still sitting on that same limited surface. When choosing between competing accessory options for a small desk, favor the ones that genuinely free up space over ones that simply rearrange how the existing limited space is used.`,
-    },
+    }
   ],
 };

@@ -29,7 +29,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0H8254RZ2?tag=deskfinds0d-20",
     description: "This extender's listing specifically states true Gigabit 1000Mbps speed combined with 30W of IEEE 802.3af/at power output, delivered through an IP66-rated waterproof and dustproof housing rated from -20C to 60C for genuinely harsh outdoor placement. Its multi-level cascade support reaches a maximum of 1640ft for outdoor IP cameras and high-bandwidth devices.\n\nCompared to the Revotech and Intellinet picks below, this one's specifically stated 2KV lightning and surge protection, combined with broad compatibility claims covering Reolink, Hikvision, Dahua, and UniFi camera brands, gives it a genuinely comprehensive feature set at the lowest price in this comparison.\n\nBest for buyers who want full Gigabit speed with 30W power and IP66 outdoor durability at the lowest price in this comparison.",
     specs: ["Gigabit 1000Mbps, 30W IEEE 802.3af/at output", "IP66 waterproof, -20C to 60C operating range", "2KV surge protection, cascade to 1640ft"],
-    pros: ["Lowest price in this comparison at $18.99", "Full Gigabit speed maintained alongside 30W power output", "2KV surge protection with broad camera brand compatibility"],
+    pros: ["Lowest price in this comparison at under $20", "Full Gigabit speed maintained alongside 30W power output", "2KV surge protection with broad camera brand compatibility"],
     cons: ["Does not support 24V passive PoE, only standard 48V-57V", "Output port must connect only to a PoE-powered device, not non-PoE equipment"],
     bestFor: "buyers who want full Gigabit speed with 30W power and IP66 outdoor durability at the lowest price",
   },
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B09XK6YFKC?tag=deskfinds0d-20",
     description: "This extender's listing specifically states support for up to 6-piece cascading to reach 700m total distance, a genuinely long multi-unit chain for a single-port extender at this price point. Its automatic detection and protection feature safeguards connected PoE equipment from damage due to incorrect installation.\n\nCompared to the Gigabit pick above, this one delivers standard IEEE 802.3af power up to 15.4W at 10/100Mbps speeds rather than Gigabit, a real tradeoff that keeps its price the lowest in this comparison for buyers whose single device doesn't need Gigabit throughput.\n\nBest for buyers who want the lowest price and don't need Gigabit speed for their single connected device.",
     specs: ["1 port, up to 15.4W IEEE 802.3af power", "10/100Mbps, cascade up to 6 units for 700m", "Automatic detection and installation protection"],
-    pros: ["Lowest price in this comparison at $15.69", "Supports up to 6-unit cascading for 700m total distance", "Automatic protection against incorrect installation damage"],
+    pros: ["Lowest price in this comparison at under $20", "Supports up to 6-unit cascading for 700m total distance", "Automatic protection against incorrect installation damage"],
     cons: ["10/100Mbps speed only, not Gigabit like the other picks", "15.4W power ceiling is lower than the 25-30W picks in this comparison"],
     bestFor: "buyers who want the lowest price and don't need Gigabit speed for their single device",
   },
@@ -100,7 +100,7 @@ export const howToChoose = [
         ["Full Gigabit speed with 30W power at the lowest price", "Gigabit PoE Extender Outdoor Waterproof, 1-Port"],
         ["The absolute lowest price without needing Gigabit", "Revotech 1 Port POE Extender (POE5002)"],
         ["A switchable speed-versus-distance mode", "Cudy Gigabit PoE+ Extender (POE10)"],
-        ["A metal housing for electrically noisy environments", "Intellinet Outdoor Gigabit PoE+ Extender, IP65"],
+        ["A metal housing for electrically noisy environments", "Intellinet Outdoor Gigabit PoE+ Extender, IP65"]
       ],
     },
   },
@@ -109,10 +109,10 @@ export const howToChoose = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $16", "Revotech 1 Port POE Extender ($15.69)"],
-        ["Under $19", "Gigabit PoE Extender Outdoor Waterproof ($18.99)"],
-        ["Under $40", "Cudy Gigabit PoE+ Extender ($39.99)"],
-        ["Under $93", "Intellinet Outdoor Gigabit PoE+ Extender ($92.99)"],
+        ["Under $16", "Revotech 1 Port POE Extender (under $20)"],
+        ["Under $19", "Gigabit PoE Extender Outdoor Waterproof (under $20)"],
+        ["Under $40", "Cudy Gigabit PoE+ Extender (under $40)"],
+        ["Under $93", "Intellinet Outdoor Gigabit PoE+ Extender (under $100)"]
       ],
     },
   },
@@ -120,7 +120,7 @@ export const howToChoose = [
     subheading: "Gigabit Speed vs Fast Ethernet Value",
     cards: [
       { label: "Gigabit speed (Gigabit pick, Cudy, Intellinet)", text: "These three maintain full 1000Mbps throughput, better suited to bandwidth-hungry devices like modern 4K cameras that benefit from more than 100Mbps." },
-      { label: "Fast Ethernet value (Revotech)", text: "Delivers 10/100Mbps at the lowest price in this comparison, a reasonable tradeoff if your single connected device doesn't need Gigabit bandwidth." },
+      { label: "Fast Ethernet value (Revotech)", text: "Delivers 10/100Mbps at the lowest price in this comparison, a reasonable tradeoff if your single connected device doesn't need Gigabit bandwidth." }
     ],
     note: "If your device is a modern high-resolution camera or access point, the Gigabit-rated picks are worth the modest price difference. If you're powering a basic IP phone or older camera, the Revotech's lower price delivers adequate performance.",
   },
@@ -131,7 +131,7 @@ export const howToChoose = [
       rows: [
         ["Genuinely outdoor, wall or pole mounted", "Gigabit PoE Extender Outdoor Waterproof or Intellinet"],
         ["Indoor wall mount, compact space", "Cudy Gigabit PoE+ Extender (POE10)"],
-        ["Electrically noisy industrial or commercial setting", "Intellinet Outdoor Gigabit PoE+ Extender, IP65"],
+        ["Electrically noisy industrial or commercial setting", "Intellinet Outdoor Gigabit PoE+ Extender, IP65"]
       ],
     },
   },
@@ -139,16 +139,16 @@ export const howToChoose = [
     subheading: "For a Long-Distance Single-Camera Run Specifically",
     cards: [
       { label: "Look for", text: "A cascade configuration that reaches your specific required distance, checking whether the maximum distance requires multiple units or is achievable from a single extender alone." },
-      { label: "In this comparison", text: "The Revotech pick's 6-unit cascade reaching 700m and the Cudy pick's 750m Long-Range mode both offer genuinely long-distance options for a single remote camera." },
+      { label: "In this comparison", text: "The Revotech pick's 6-unit cascade reaching 700m and the Cudy pick's 750m Long-Range mode both offer genuinely long-distance options for a single remote camera." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You're installing in an electrically noisy industrial setting and want a metal housing with shielded connectors, where the Intellinet's $92.99 price is justified by that build quality." },
-      { label: "Save if", text: "You want full Gigabit speed with solid outdoor durability, where the Gigabit PoE Extender Outdoor Waterproof delivers that for $18.99, the lowest price in this comparison." },
+      { label: "Spend more if", text: "You're installing in an electrically noisy industrial setting and want a metal housing with shielded connectors, where the Intellinet's under $100 price is justified by that build quality." },
+      { label: "Save if", text: "You want full Gigabit speed with solid outdoor durability, where the Gigabit PoE Extender Outdoor Waterproof delivers that for under $20, the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

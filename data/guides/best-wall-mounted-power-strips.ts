@@ -5,7 +5,7 @@ export const metaDescription = "5 wall-mounted power strips we evaluated, with t
 export const mainKeyword = "wall mount power strip";
 export const introParagraphs = [
   "Wall-mounting a power strip changes its outlet orientation from the manufacturer's intended horizontal-desktop use, which can affect plug retention and gravity-assisted disconnection for heavier plugs like laptop power bricks.",
-  "Mounting hardware quality, screws into drywall versus stud-anchored, affects load-bearing capacity for the strip plus all connected cables' weight and pull, a real installation consideration rarely detailed beyond a generic 'includes mounting screws' claim.",
+  "Mounting hardware quality, screws into drywall versus stud-anchored, affects load-bearing capacity for the strip plus all connected cables' weight and pull, a real installation consideration rarely detailed beyond a generic 'includes mounting screws' claim."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wall-Mountable Power Strip Overall",
     name: "Surge Protector Power Strip 4800J, LeZone 10Ft Long Extension Cord Flat Plug, 12 Outlets 2 USB C 2 USB Ports, Wall Mountable, Desk Charging Station, Black",
     price: "$18.89",
-    rating: "4.7 stars from 2,666 Amazon ratings",
-    reviews: "2,666 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41eRaMa6u1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CN6V6M5F?tag=deskfinds0d-20",
     description: "Explicitly designed with wall-mountable hardware, 12 outlets, and a genuinely high 4800 joule rating, real capacity for a permanently mounted setup. 2 USB-C ports for modern charging.\n\nIt earns the top spot in this comparison over IPX6 Outdoor Power Strip Weatherproof for one main reason. Explicitly designed for wall mounting. On price, it comes in below IPX6 Outdoor Power Strip Weatherproof, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Highest joule rating in this guide. On the other side, Mounting hardware load capacity not explicitly detailed. That's the main tradeoff to weigh against everything above.",
@@ -41,8 +41,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wall-Mounted Outdoor-Rated Pick",
     name: "IPX6 Outdoor Power Strip Weatherproof, Waterproof Overload Protector with 6 Wide Outlet 3 USB Ports, 6FT Long Extension Cord, Wall Mountable for Outside Decorations and More UL Listed, Black",
     price: "$26.99",
-    rating: "4.6 stars from 2,224 Amazon ratings",
-    reviews: "2,224 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41by4E3zbML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09YYDSGLK?tag=deskfinds0d-20",
     description: "Genuinely UL listed and wall mountable, with IPX6 weatherproofing if you need a mount that can handle exterior or garage conditions as well as indoor use. 6 wide outlets and 3 USB ports.\n\nOne spot below Surge Protector Power Strip 4800J in this ranking, it costs more than Surge Protector Power Strip 4800J. The compromise here is straightforward: Fewer outlets than the top pick. What you gain in return: UL listed for verified safety in a mounted installation. Whether that trade is worth it depends on which side matters more for your needs.\n\nWorth knowing before you decide: IPX6 weatherproofing for versatile mounting locations. On the other side, Mounting hardware load capacity not explicitly detailed. That's the main tradeoff to weigh against everything above.",
@@ -57,8 +57,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Outlet Wall Mount Pick",
     name: "Power Strip, ALESTOR Surge Protector with 12 Outlets and 4 USB Ports, 6 Feet Extension Cord, 2700 Joules, ETL Listed, Black",
     price: "$21.98",
-    rating: "4.8 stars from 50,501 Amazon ratings",
-    reviews: "50,501 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41PsJYHqW7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08P5LRY37?tag=deskfinds0d-20",
     description: "12 outlets and 2700 joules with a large, well-established review base, appropriate for permanent wall mounting if you have many devices needing power near a fixed installation point.\n\nSitting just under IPX6 Outdoor Power Strip Weatherproof, it's priced lower than IPX6 Outdoor Power Strip Weatherproof. Here's the honest tradeoff: Not explicitly designed for wall mounting. And here's what it gets you instead: Large, well-established review base. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: 12 outlets for a demanding mounted installation. On the other side, 6ft cord may need extra planning for mount location. That's the main tradeoff to weigh against everything above.",
@@ -73,8 +73,8 @@ export const products: GuideProduct[] = [
     badge: "Best High-Joule Wall Mount Alternative",
     name: "Amazon Basics 12-Outlet Surge Protector Power Strip, 4000 Joules, 8ft Extension Cord, Rectangle, for Home, Office, Gaming Room, Black",
     price: "$19.83",
-    rating: "4.8 stars from 535 Amazon ratings",
-    reviews: "535 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/3148JhvbR6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1XH8NJP?tag=deskfinds0d-20",
     description: "4000 joules and 12 outlets, real capacity for a permanent wall-mounted installation in a garage or workshop. 8ft cord for placement flexibility.\n\nRanked just behind Power Strip, it's priced lower than Power Strip. The real tradeoff against that pick: Not explicitly designed for wall mounting. In exchange, it offers this instead: Highest joule rating among these alternatives. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: 8ft cord for placement flexibility. On the other side, Verify your own mounting hardware compatibility. That's the main tradeoff to weigh against everything above.",
@@ -89,8 +89,8 @@ export const products: GuideProduct[] = [
     badge: "Best Long-Cord Wall Mount Pick",
     name: "Surge Protector Power Strip 15 Ft Cord, Ultra Thin Flat Extension Cord with 8 Outlets 4 USB Ports(2 USB C), Flat Plug Power Strip, 15 Ft Long Braided Power Cord for Home, Office, Dorm Room Essentials",
     price: "$19.99",
-    rating: "4.8 stars from 6,431 Amazon ratings",
-    reviews: "6,431 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41J0Gowt80L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CHMG5XHM?tag=deskfinds0d-20",
     description: "A 15ft cord useful for a wall-mounted position far from the nearest outlet, with 8 outlets and 2 USB-C ports. Strong rating base.\n\nOne spot below Amazon Basics 12-Outlet Surge Protector Power Strip in this ranking, it costs more than Amazon Basics 12-Outlet Surge Protector Power Strip. The compromise here is straightforward: Not explicitly designed for wall mounting. What you gain in return: Longest cord in this guide for distant wall-mount installations. Whether that trade is worth it depends on which side matters more for your needs.\n\nWorth knowing before you decide: Braided cord for durability. On the other side, Verify your own mounting hardware compatibility. That's the main tradeoff to weigh against everything above.",
@@ -105,7 +105,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Explicit wall-mount design vs. DIY mounting", description: "Distinguished picks explicitly marketed and hardware-equipped for wall mounting from those designed primarily for horizontal desktop use that buyers would need to mount themselves." },
   { title: "Plug retention for heavier adapters once vertically oriented", description: "Considered that wall-mounting changes outlet orientation from the manufacturer's intended horizontal use, which can affect plug retention for heavier plug adapters like laptop chargers." },
-  { title: "UL/ETL listing relevance for permanent installations", description: "Noted that wall-mounted strips can function as longer-term fixtures than temporary desktop strips, making verified safety certification more relevant for permanent installation contexts." },
+  { title: "UL/ETL listing relevance for permanent installations", description: "Noted that wall-mounted strips can function as longer-term fixtures than temporary desktop strips, making verified safety certification more relevant for permanent installation contexts." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -241,11 +241,11 @@ export const faq: FaqItem[] = [
   { q: "Is a wall-mounted power strip a more permanent installation than a desktop strip?", a: "Functionally, yes, it's typically inspected less frequently and expected to stay in place longer. Prioritize verified safety certification like UL or ETL listing for this kind of longer-term fixture." },
   { q: "Can any power strip be wall-mounted, or do I need one specifically designed for it?", a: "Some strips are explicitly designed and hardware-equipped for wall mounting, others are primarily desktop-use designs you'd mount yourself, verify plug retention and your own mounting hardware if choosing the latter." },
   { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want a genuinely wall-mountable high-capacity strip" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want a genuinely wall-mountable high-capacity strip At $18.89, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want a genuinely wall-mountable high-capacity strip At under $20, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-outdoor-power-strips", title: "Best Outdoor Power Strips (2026)" },
   { href: "/guide/best-tower-power-strips", title: "Best High-Outlet Power Strips for Tower-Style Needs (2026)" },
-  { href: "/guide/best-desk-mounted-power-strips", title: "Best Desk-Mounted Power Strips (2026)" },
+  { href: "/guide/best-desk-mounted-power-strips", title: "Best Desk-Mounted Power Strips (2026)" }
 ];

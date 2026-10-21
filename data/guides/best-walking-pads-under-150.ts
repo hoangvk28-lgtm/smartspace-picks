@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     description: "This pad's app connectivity synchronizes motion data in real time, letting you run competitions with friends and access more scientific exercise tracking than the non-app picks in this comparison. Its 10% manual incline simulates real hill climbing to boost fat-burning, and a 2.5HP motor delivers a 0.6-6.2 MPH speed range, the widest range in this tier.\n\nCompared to the LONTEK pick, this one supports slightly less weight at 300 lbs but adds 7 layers of anti-slip belt cushioning plus 6 silicone shock absorbers and 2 rubber pads, more cushioning components than any other pick here. It includes 24/7 customer service with a 2-year protection plan.\n\nBest for buyers who want app-based workout tracking with the widest speed range.",
     specs: ["10% manual incline, 40in x 16in belt", "2.5HP motor, 0.6-6.2 MPH", "300 lb capacity, app connectivity"],
     pros: ["App connectivity enables real-time tracking and friend competitions", "Widest speed range in this tier at up to 6.2 MPH", "7-layer belt with 6 silicone shock absorbers, most cushioning in this tier"],
-    cons: ["Slightly over this tier's stated ceiling at $169.98", "Lower weight capacity than the LONTEK pick's 350 lbs"],
+    cons: ["Slightly over this tier's stated ceiling at under $170", "Lower weight capacity than the LONTEK pick's 350 lbs"],
     bestFor: "buyers who want app-based tracking with the widest speed range",
   },
   {
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["A quiet, effective incline system in a compact frame", "Walking Pad with QuietClimb 8% Incline, 2.5HP"],
         ["Manual multi-level incline with the highest weight capacity", "LONTEK 15% Incline Walking Pad Treadmill with Handles"],
         ["App-based tracking with the widest speed range", "Acezoe Walking Pad Treadmill with Incline and Handle Bar"],
-        ["The lowest price with flexible side-rail support", "Superun 6% Incline Walking Pad"],
+        ["The lowest price with flexible side-rail support", "Superun 6% Incline Walking Pad"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $112", "Superun ($111.10)"],
-        ["Under $130", "LONTEK ($129.99)"],
-        ["Under $150", "QuietClimb ($149.95)"],
-        ["Under $170", "Acezoe ($169.98)"],
+        ["Under $112", "Superun (under $120)"],
+        ["Under $130", "LONTEK (under $130)"],
+        ["Under $150", "QuietClimb (under $150)"],
+        ["Under $170", "Acezoe (under $170)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Fixed Incline vs Manual Multi-Level Incline",
     cards: [
       { label: "Fixed incline (QuietClimb)", text: "Provides a simple, always-on incline boost without needing to physically adjust anything, but offers less flexibility." },
-      { label: "Manual multi-level incline (LONTEK)", text: "Requires physically flipping out legs or placing pads to change incline, but gives you genuine choice between flat, moderate, and steep settings." },
+      { label: "Manual multi-level incline (LONTEK)", text: "Requires physically flipping out legs or placing pads to change incline, but gives you genuine choice between flat, moderate, and steep settings." }
     ],
     note: "If you want a consistent, no-fuss incline workout every time, the QuietClimb's fixed system is simpler. If you want to vary intensity across sessions or over time as fitness improves, the LONTEK's multi-level system is worth the extra manual step.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Standard capacity, up to 265 lbs", "QuietClimb"],
         ["Higher capacity, up to 300 lbs", "Acezoe or Superun"],
-        ["Highest capacity in this tier, up to 350 lbs", "LONTEK"],
+        ["Highest capacity in this tier, up to 350 lbs", "LONTEK"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Buyer Who Wants Social Fitness Motivation Specifically",
     cards: [
       { label: "Look for", text: "App connectivity that supports real-time data sync and social features like friend competitions, not just basic step tracking on an LED display." },
-      { label: "In this comparison", text: "The Acezoe pick's app connectivity specifically enables synchronized real-time data and friend competitions that the non-app picks in this tier don't offer." },
+      { label: "In this comparison", text: "The Acezoe pick's app connectivity specifically enables synchronized real-time data and friend competitions that the non-app picks in this tier don't offer." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want app-based tracking with the widest speed range and most belt cushioning, where the Acezoe pick delivers all three at the top of this tier." },
-      { label: "Save if", text: "You want flexible side-rail support without incline levels, where the Superun pick covers that for about $39 less." },
+      { label: "Save if", text: "You want flexible side-rail support without incline levels, where the Superun pick covers that for about $39 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

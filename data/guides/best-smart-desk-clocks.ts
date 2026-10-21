@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "smart desk clock";
 export const introParagraphs = [
   "\"Smart desk clock\" is a genuinely ambiguous search term. Most people using it are actually looking for a smart display, a device like an Echo Show or Nest Hub style screen that happens to show a clock face alongside weather, calendar, and voice assistant features. That's a different, broader product category than a dedicated desk clock, and we cover it separately in our best smart displays for desks guide.",
-  "In our verified desk-clock-specific inventory, we did not find standalone clocks with app control, WiFi connectivity, or voice assistant integration, the features that would genuinely earn the word \"smart\" on a dedicated clock. What we found instead are feature-rich digital clocks with auto date-and-time adjustment and multiple sensors, which we're covering here as the closest practical non-app-connected alternative, explicit that they are not WiFi or app connected.",
+  "In our verified desk-clock-specific inventory, we did not find standalone clocks with app control, WiFi connectivity, or voice assistant integration, the features that would genuinely earn the word \"smart\" on a dedicated clock. What we found instead are feature-rich digital clocks with auto date-and-time adjustment and multiple sensors, which we're covering here as the closest practical non-app-connected alternative, explicit that they are not WiFi or app connected."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "6 min";
@@ -59,7 +59,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Clarified the naming ambiguity before selecting products", description: "Determined that most \"smart desk clock\" searches are actually looking for a smart display with a clock face, a different product category we cover separately." },
   { title: "Confirmed no genuine app-connected desk clocks exist in our research pool", description: "Verified that none of the desk-clock-specific listings we researched involve WiFi, an app, or voice assistant integration, avoiding any implied claim of that functionality." },
   { title: "Selected picks based on the closest practical automated features", description: "Prioritized clocks with genuine auto-adjustment and sensor features as the closest non-connected alternative to a truly \"smart\" clock." },
-  { title: "Explicitly labeled every pick as not app or WiFi connected", description: "Called out in every product description that these are standalone electronic clocks with no connectivity, avoiding any misleading implication." },
+  { title: "Explicitly labeled every pick as not app or WiFi connected", description: "Called out in every product description that these are standalone electronic clocks with no connectivity, avoiding any misleading implication." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -193,11 +193,11 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "Are these clocks actually WiFi or app connected?", a: "No, neither pick in this guide has WiFi, an app, or voice assistant integration. They're standalone electronic clocks with automated features like auto DST adjustment." },
   { q: "What is a smart display versus a smart desk clock?", a: "A smart display is a screen device with a clock face plus weather, calendar, and voice assistant features. A dedicated smart desk clock with genuine app connectivity is a rare, more specialized category by comparison." },
-  { q: "Where can I find a genuine app-connected smart clock?", a: "Search specifically for \"smart display\" rather than \"smart desk clock\" for the closest widely available category with genuine app and voice assistant features." },
+  { q: "Where can I find a genuine app-connected smart clock?", a: "Search specifically for \"smart display\" rather than \"smart desk clock\" for the closest widely available category with genuine app and voice assistant features." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-smart-displays-for-desks", title: "Best Smart Displays for Desks (2026)" },
   { href: "/guide/best-wifi-desk-clocks", title: "Best WiFi Desk Clocks (2026)" },
-  { href: "/guide/best-led-desk-clocks", title: "Best LED Desk Clocks (2026)" },
+  { href: "/guide/best-led-desk-clocks", title: "Best LED Desk Clocks (2026)" }
 ];

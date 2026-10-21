@@ -12,7 +12,7 @@ export const documentStorageTroubleshootingGuide: Guide = {
     "filing cabinet drawer stuck fix",
     "lost filing cabinet key fix",
     "mold on stored documents fix",
-    "humidity damage paper files",
+    "humidity damage paper files"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const documentStorageTroubleshootingGuide: Guide = {
     "filing-cabinet-vs-file-box",
     "fireproof-document-storage-explained",
     "document-scanning-vs-physical-storage",
-    "humidifier-room-size-chart",
+    "humidifier-room-size-chart"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const documentStorageTroubleshootingGuide: Guide = {
       question: "How do I prevent humidity damage to stored paper documents going forward?",
       answer:
         "Store documents in a room with reasonably controlled humidity, avoid basements or areas prone to dampness, and consider a small dehumidifier for a storage area with persistent humidity issues, proper airflow around stored files also helps prevent moisture accumulation.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const documentStorageTroubleshootingGuide: Guide = {
     {
       heading: "Why Addressing the Root Environmental Cause Matters More Than Treating Individual Documents",
       body: `When documents show signs of humidity or mold damage, it's tempting to focus entirely on treating or salvaging the affected documents themselves, but without addressing the underlying environmental cause, elevated humidity in the storage location, any newly stored or replacement documents will eventually face the same degradation risk, treating the room's humidity control as the actual root problem to solve, rather than only reactively addressing already-damaged documents, provides a more durable long-term solution for protecting your document storage going forward.`,
-    },
+    }
   ],
 };

@@ -5,7 +5,7 @@ export const metaDescription = "5 dual-use air purifiers we evaluated, with the 
 export const mainKeyword = "air purifier for bedroom";
 export const introParagraphs = [
   "Bedroom use prioritizes nighttime noise, sleep-compatible dB at effective speed, while home-office use prioritizes daytime call-compatible noise, these are genuinely different noise-tolerance contexts a single quiet-enough-for-both claim glosses over.",
-  "A combined bedroom-and-office space, common in small apartments or studios, has continuous, longer-duration occupancy than either use case alone, meaning filter loading and maintenance schedules should be calculated against near-24/7 operation.",
+  "A combined bedroom-and-office space, common in small apartments or studios, has continuous, longer-duration occupancy than either use case alone, meaning filter loading and maintenance schedules should be calculated against near-24/7 operation."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Bedroom and Home Office Pick Overall",
     name: "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom, H13 True HEPA Filter, 24db Filtration System Cleaner Odor Eliminators, Remove 99.97% Dust Smoke Mold Pollen, Core 300, White",
     price: "$89.99",
-    rating: "4.7 stars from 108,251 Amazon ratings",
-    reviews: "108,251 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Smart Pick for Combined Spaces",
     name: "LEVOIT Smart Air Purifier for Home Large Room up to 1875 ft Vital 200S-P",
     price: "$174.99",
-    rating: "4.7 stars from 14,571 Amazon ratings",
-    reviews: "14,571 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Quiet Pick for Sleep and Calls",
     name: "Levoit Air Purifiers for Home Bedroom Dorm Room, Small Quiet Air Purifiers",
     price: "$44.99",
-    rating: "4.6 stars from 44,671 Amazon ratings",
-    reviews: "44,671 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31e6d46ZnyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09LMF648R?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Combined-Space Pick",
     name: "Membrane Solutions MSA3 Air Purifier for Home",
     price: "$99.39",
-    rating: "4.5 stars from 10,110 Amazon ratings",
-    reviews: "10,110 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31CcBFzC6wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08ND7C7P4?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Voice-Control Pick",
     name: "Levoit Air Purifier for Home Pets Bedroom Dorm Room, Smart & Voice Control",
     price: "$74.99",
-    rating: "4.7 stars from 105,576 Amazon ratings",
-    reviews: "105,576 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ezUHfn5wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08FJ678YK?tag=deskfinds0d-20",
     description:
@@ -103,14 +103,14 @@ export const products: GuideProduct[] = [
     pros: ["Very large review base", "Smart and voice control for hands-free adjustment day or night", "Affordable price", "Compact for a combined bedroom-office space"],
     cons: ["Smaller rated coverage than premium picks", "No confirmed dedicated night mode", "Verify certified True HEPA specifics"],
     bestFor: "Buyers who want hands-free voice control for both sleep and work in one space",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Separate noise-context testing for nighttime sleep vs. daytime calls", description: "Distinguished nighttime sleep-compatible noise tolerance from daytime call-compatible noise tolerance, genuinely different contexts a single 'quiet enough for both' claim glosses over." },
   { title: "Night-mode feature tradeoff clarified explicitly", description: "Noted that a night mode dimming lights and reducing fan speed for sleep is irrelevant, and potentially counterproductive, reducing effective CADR, if left engaged during daytime home-office operation." },
-  { title: "Near-24/7 combined-space filter loading calculated", description: "Calculated filter loading and maintenance schedules against near-24/7 operation for a combined bedroom-office space, rather than the daytime-only or nighttime-only assumptions in single-purpose articles." },
+  { title: "Near-24/7 combined-space filter loading calculated", description: "Calculated filter loading and maintenance schedules against near-24/7 operation for a combined bedroom-office space, rather than the daytime-only or nighttime-only assumptions in single-purpose articles." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -243,11 +243,11 @@ export const faq: FaqItem[] = [
   { q: "How often should I replace filters in a combined bedroom-office space?", a: "More often than a single-purpose room. A combined space has continuous, near-24/7 occupancy, calculate filter loading against this heavier real-world usage rather than daytime-only or nighttime-only assumptions." },
   { q: "Does moving a purifier between a bedroom and office cause wear?", a: "Yes, potentially. A unit moved between rooms experiences more handling wear and potential filter or seal loosening over time than a stationary single-room unit, a durability consideration for dual-use framing." },
   { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers who want the most-proven purifier for a combined bedroom-office space" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want quiet operation for both sleep and daytime calls in one space At $44.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want quiet operation for both sleep and daytime calls in one space At under $45, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-air-purifiers-for-home-offices", title: "Best Air Purifiers for Home Offices (2026)" },
   { href: "/guide/best-quiet-air-purifiers-for-home-offices", title: "Best Quiet Air Purifiers for Home Offices (2026)" },
-  { href: "/guide/best-air-purifiers-for-dorm-rooms", title: "Best Air Purifiers for Dorm Rooms (2026)" },
+  { href: "/guide/best-air-purifiers-for-dorm-rooms", title: "Best Air Purifiers for Dorm Rooms (2026)" }
 ];

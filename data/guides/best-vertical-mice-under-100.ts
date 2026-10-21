@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Documented ergonomic benefits and advanced precision tracking", "Logitech MX Vertical Wireless Mouse"],
         ["The original vertical mouse brand's heritage and deep customization", "Evoluent Wired Vertical Mouse, Medium to Large"],
         ["Evoluent's heritage with wireless flexibility", "Evoluent VMC Classic Wireless USB/Bluetooth Mouse"],
-        ["Ergonomic certification and long battery life at the lowest price", "Logitech Lift Vertical Ergonomic Wireless Mouse"],
+        ["Ergonomic certification and long battery life at the lowest price", "Logitech Lift Vertical Ergonomic Wireless Mouse"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $65", "Logitech Lift ($64.99)"],
-        ["Under $77", "Logitech MX Vertical ($76.99)"],
-        ["Under $80", "Evoluent VMC Classic Wireless ($79.95)"],
-        ["Under $90", "Evoluent Wired Medium-Large ($89.95)"],
+        ["Under $65", "Logitech Lift (under $70)"],
+        ["Under $77", "Logitech MX Vertical (under $80)"],
+        ["Under $80", "Evoluent VMC Classic Wireless (under $80)"],
+        ["Under $90", "Evoluent Wired Medium-Large (under $90)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Original Brand Pedigree vs Advanced Precision Engineering",
     cards: [
       { label: "Original brand pedigree (Evoluent picks)", text: "Comes from the company that invented the vertical mouse category in 2002, with decades of refinement and workplace wellness program adoption." },
-      { label: "Advanced precision engineering (Logitech MX Vertical)", text: "Offers a documented 10% reduction in muscular activity and a high-precision 4000 DPI sensor for measurably reduced hand movement." },
+      { label: "Advanced precision engineering (Logitech MX Vertical)", text: "Offers a documented 10% reduction in muscular activity and a high-precision 4000 DPI sensor for measurably reduced hand movement." }
     ],
     note: "If brand heritage and proven long-term workplace adoption matter most, the Evoluent picks offer that pedigree. If documented, measured ergonomic performance and precision tracking matter more, the Logitech MX Vertical delivers that.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Deep software-driven button remapping", "Evoluent Wired (Mouse Manager software)"],
         ["Built-in copy/paste without setup", "Evoluent VMC Classic Wireless"],
-        ["Simple, reliable operation without deep customization", "Logitech MX Vertical or Logitech Lift"],
+        ["Simple, reliable operation without deep customization", "Logitech MX Vertical or Logitech Lift"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Buyers With a Documented Carpal Tunnel or RSI Concern Specifically",
     cards: [
       { label: "Look for", text: "A brand with a documented history of workplace wellness program adoption and specific carpal tunnel-focused design language." },
-      { label: "In this comparison", text: "The Evoluent Wired pick specifically states it helps with carpal tunnel and has been selected by many global companies for workplace wellness programs." },
+      { label: "In this comparison", text: "The Evoluent Wired pick specifically states it helps with carpal tunnel and has been selected by many global companies for workplace wellness programs." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the original vertical mouse brand's heritage and deep software customization, where the Evoluent Wired pick offers a pedigree and customization depth the other picks don't match." },
-      { label: "Save if", text: "You want documented ergonomic certification and long battery life without needing original-brand heritage, where the Logitech Lift covers that at the lowest price in this comparison." },
+      { label: "Save if", text: "You want documented ergonomic certification and long battery life without needing original-brand heritage, where the Logitech Lift covers that at the lowest price in this comparison." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

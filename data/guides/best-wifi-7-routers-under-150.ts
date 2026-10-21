@@ -107,7 +107,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Maximum bandwidth and wired port flexibility", "TP-Link Archer BE400 Dual-Band WiFi 7 Router"],
         ["The lowest price with solid wired ports", "TP-Link Archer BE230 Dual-Band WiFi 7 Router"],
-        ["Dual-WAN failover and IoT network segmentation", "ASUS RT-BE58U Dual-WAN WiFi 7 Router"],
+        ["Dual-WAN failover and IoT network segmentation", "ASUS RT-BE58U Dual-WAN WiFi 7 Router"]
       ],
     },
   },
@@ -116,8 +116,8 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $100", "TP-Link Archer BE230 ($98.00) or NETGEAR Nighthawk RS90 ($99.99)"],
-        ["$140-$150", "ASUS RT-BE58U ($142.99) or TP-Link Archer BE400 ($149.99)"],
+        ["Under $100", "TP-Link Archer BE230 (under $100) or NETGEAR Nighthawk RS90 (under $100)"],
+        ["$140-$150", "ASUS RT-BE58U (under $150) or TP-Link Archer BE400 (under $150)"]
       ],
     },
   },
@@ -125,7 +125,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Dual 2.5G Ports vs Single 2.5G Port",
     cards: [
       { label: "Dual 2.5G Ports (TP-Link BE400, BE230)", text: "Lets you assign a second high-speed port as either WAN or LAN, useful if you have a multi-gig internet plan and also want a fast wired connection to a NAS or gaming PC." },
-      { label: "Single 2.5G Port (NETGEAR RS90)", text: "Covers a standard multi-gig internet connection but limits your fastest wired device to sharing bandwidth over the remaining 1 Gig LAN ports." },
+      { label: "Single 2.5G Port (NETGEAR RS90)", text: "Covers a standard multi-gig internet connection but limits your fastest wired device to sharing bandwidth over the remaining 1 Gig LAN ports." }
     ],
     note: "If you have both a multi-gig internet plan and a device that benefits from a dedicated fast wired connection, prioritize a router with two 2.5G ports.",
   },
@@ -135,7 +135,7 @@ export const howToChoose: HowToChooseSection[] = [
       headers: ["Your expansion plan", "Recommended pick"],
       rows: [
         ["Add any EasyMesh-compatible extender later", "TP-Link Archer BE400 or Archer BE230"],
-        ["Add ASUS AiMesh-compatible routers later", "ASUS RT-BE58U Dual-WAN WiFi 7 Router"],
+        ["Add ASUS AiMesh-compatible routers later", "ASUS RT-BE58U Dual-WAN WiFi 7 Router"]
       ],
     },
   },
@@ -143,16 +143,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Unreliable Internet Service Specifically",
     cards: [
       { label: "Look for", text: "Dual-WAN support with mobile tethering, so your network can fail over to a cellular connection if your primary ISP goes down." },
-      { label: "In this comparison", text: "The ASUS RT-BE58U is the only pick here with stated dual-WAN and 4G LTE/5G mobile tethering support." },
+      { label: "In this comparison", text: "The ASUS RT-BE58U is the only pick here with stated dual-WAN and 4G LTE/5G mobile tethering support." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want the highest combined bandwidth and two 2.5G ports, where the TP-Link Archer BE400 delivers the strongest spec sheet in this comparison." },
-      { label: "Save if", text: "A solid dual-band router with good wired ports covers your needs, where the TP-Link Archer BE230 delivers similar port flexibility for roughly $50 less." },
+      { label: "Save if", text: "A solid dual-band router with good wired ports covers your needs, where the TP-Link Archer BE230 delivers similar port flexibility for roughly $50 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

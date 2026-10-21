@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "14-inch laptop cooling pads";
 export const introParagraphs = [
   "A 14-inch label describes screen diagonal, not the laptop's base footprint that actually sits on a cooling pad. This size has become increasingly common as many ultrabooks shift to 14 inches from the older 13-inch standard, so genuine compatible-range verification matters more here than it used to.",
-  "This guide compares six pads based on their stated compatible-size ranges and fan spread relative to a 14-inch laptop's typical footprint, cross-referencing our 13-inch and 15.6-inch guides for adjacent-tier comparison.",
+  "This guide compares six pads based on their stated compatible-size ranges and fan spread relative to a 14-inch laptop's typical footprint, cross-referencing our 13-inch and 15.6-inch guides for adjacent-tier comparison."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine size-range verification", description: "We checked whether 14 inches sits comfortably within each product's stated range, or at its edge, rather than assuming any listed range that technically includes 14 is an equally good fit." },
   { title: "Market relevance of 14-inch", description: "We recognized 14-inch as an increasingly common size as many modern ultrabooks shift to it from the older 13-inch standard." },
   { title: "Adjacent-tier value comparison", description: "We compared this guide against our 13-inch and 15.6-inch guides to help buyers choose the right tier rather than defaulting to the broadest range available." },
-  { title: "Fan-to-vent alignment", description: "We considered fan spread and pad footprint proportionality relative to a 14-inch laptop's typical base dimensions." },
+  { title: "Fan-to-vent alignment", description: "We considered fan spread and pad footprint proportionality relative to a 14-inch laptop's typical base dimensions." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -259,11 +259,11 @@ export const faq: FaqItem[] = [
   { q: "Does it matter if 14 inches is at the edge of a pad's range?", a: "It can. A pad whose stated range centers around 14 inches generally offers better fan-to-vent alignment than one where 14 inches sits at the very edge of a wider range." },
   { q: "Should I compare this to the 13-inch or 15.6-inch guide?", a: "If your laptop's actual base footprint feels closer to one of those classes, check the corresponding guide, since screen size labels don't always predict base dimensions precisely." },
   { q: "How many fans do I need for a 14-inch laptop?", a: "2-3 fans is typically sufficient for the lighter workloads common on 14-inch ultrabooks. Higher fan counts help more with sustained heavy workloads on larger, hotter-running laptops." },
-  { q: "Will a pad rated up to 17 inches still work well for my 14-inch laptop?", a: "Yes, it will physically fit and generally cool adequately, though the fan spread is designed for a wider range of sizes than your laptop specifically needs." },
+  { q: "Will a pad rated up to 17 inches still work well for my 14-inch laptop?", a: "Yes, it will physically fit and generally cool adequately, though the fan spread is designed for a wider range of sizes than your laptop specifically needs." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-13-inch-laptop-cooling-pads", title: "Best 13-Inch Laptop Cooling Pads (2026)" },
   { href: "/guide/best-15-6-inch-laptop-cooling-pads", title: "Best 15.6-Inch Laptop Cooling Pads (2026)" },
-  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" },
+  { href: "/guide/best-laptop-cooling-pads", title: "Best Laptop Cooling Pads (2026)" }
 ];

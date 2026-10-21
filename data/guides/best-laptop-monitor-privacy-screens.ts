@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop monitor privacy screen";
 export const introParagraphs = [
   "Laptop privacy filters face different demands than desktop filters: the lid needs to close normally, the filter needs to survive being carried daily, and exact-model fit matters more since laptop bezels are thinner and more varied.",
-  "We prioritized picks with confirmed screen size and aspect ratio, and noted where a magnetic mount removes faster for daily commuting versus an adhesive strip meant to stay in place longer term.",
+  "We prioritized picks with confirmed screen size and aspect ratio, and noted where a magnetic mount removes faster for daily commuting versus an adhesive strip meant to stay in place longer term."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -139,7 +139,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed laptop-specific sizing separately from desktop filters", description: "We verified which picks are actually sized for a laptop's built-in display versus a desktop monitor, and included docked-monitor options only with a clear distinction." },
   { title: "Weighed magnetic versus adhesive mounting for daily carry", description: "We compared removal speed and lid-closure clearance between magnetic and standard tab-mounted filters, relevant for anyone who closes their laptop lid daily." },
   { title: "Checked for 16:9 versus 16:10 aspect ratio confusion", description: "We flagged that newer 14 inch business ultrabooks often use 16:10, a common source of a bad fit if buyers assume 16:9 across all 14 inch laptops." },
-  { title: "Noted brand-compatibility lists as general sizing, not certification", description: "Where a listing names specific laptop brands or models, we treated this as general aspect-ratio and size guidance rather than manufacturer partnership." },
+  { title: "Noted brand-compatibility lists as general sizing, not certification", description: "Where a listing names specific laptop brands or models, we treated this as general aspect-ratio and size guidance rather than manufacturer partnership." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -265,7 +265,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
-    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nThis matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
   }
 ];
 
@@ -274,11 +274,11 @@ export const faq: FaqItem[] = [
   { q: "Are all 14 inch laptop filters the same aspect ratio?", a: "No. Standard 14 inch laptops are often 16:9, but many newer business ultrabooks use 16:10. Confirm your exact model before ordering." },
   { q: "Will the lid still close with a filter attached?", a: "It depends on the specific filter and laptop; verify the manufacturer's claim, since not every filter is thin enough for normal lid closure on every model." },
   { q: "Do I need a separate filter if I dock my laptop to an external monitor?", a: "Yes, laptop-sized filters don't fit external monitors; you'll need a desktop-sized filter matched to your docked monitor's size and aspect ratio." },
-  { q: "What's the cheapest laptop privacy filter?", a: "The 15.6 Inch Privacy Screen Filter for 16:9 Monitor at $8.99, matched to 1920x1080 resolution." },
+  { q: "What's the cheapest laptop privacy filter?", a: "The 15.6 Inch Privacy Screen Filter for 16:9 Monitor at under $9, matched to 1920x1080 resolution." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-monitor-privacy-screens", title: "Best Monitor Privacy Screens (2026)" },
   { href: "/guide/best-touchscreen-monitor-privacy-screens", title: "Best Touchscreen Monitor Privacy Screens (2026)" },
-  { href: "/guide/best-magnetic-monitor-privacy-screens", title: "Best Magnetic Monitor Privacy Screens (2026)" },
+  { href: "/guide/best-magnetic-monitor-privacy-screens", title: "Best Magnetic Monitor Privacy Screens (2026)" }
 ];

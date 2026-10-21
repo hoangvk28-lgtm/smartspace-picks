@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "shoe rack cabinet";
 export const introParagraphs = [
   "A shoe rack cabinet is meant to look like real entryway furniture, not a bare-bones organizer, so finish, hardware, and cabinetry details matter as much as pair capacity. But a cabinet is also a fully enclosed box, and closing damp shoes into one with no airflow feature is a common way to end up with lingering odor, so ventilation deserves the same attention as the finish.",
-  "Below are 8 shoe rack cabinets we evaluated on finish quality, design, ventilation, and capacity, ranging from a $32.99 ventilated plastic cabinet to a $119.99 flip-drawer wood cabinet available in matching white and black finishes.",
+  "Below are 8 shoe rack cabinets we evaluated on finish quality, design, ventilation, and capacity, ranging from an under-$35 ventilated plastic cabinet to an under-$120 flip-drawer wood cabinet available in matching white and black finishes."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -64,24 +64,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41a7DzzlTVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08N4C97TS?tag=deskfinds0d-20",
     description:
-      "The HOMIDEC is the cheapest cabinet in this list and also the only one built with dedicated air circulation holes, which matters because a fully enclosed cabinet with zero airflow is a common way to end up with lingering shoe odor. PP plastic and metal wire construction keep the price down without giving up the closed-cabinet look most buyers searching for a shoe rack cabinet actually want.\n\nSix tiers with removable partitions let you reconfigure the interior for boots or sneakers, and anti-toppling hardware is included at 37.2\" tall. It's also the most-reviewed cabinet in this entire list, with a review count well beyond every other pick here.\n\nMost-reviewed pick in this list at 11,653 ratings. That's a real strength, but weigh it against the flip side: plastic finish looks less like furniture than the wood cabinets.",
+      "The HOMIDEC is the cheapest cabinet in this list and also the only one built with dedicated air circulation holes, which matters because a fully enclosed cabinet with zero airflow is a common way to end up with lingering shoe odor. PP plastic and metal wire construction keep the price down without giving up the closed-cabinet look most buyers searching for a shoe rack cabinet actually want.\n\nSix tiers with removable partitions let you reconfigure the interior for boots or sneakers, and anti-toppling hardware is included at 37.2\" tall. It's also the most-reviewed cabinet in this entire list, with a review count well beyond every other pick here.\n\nThat's a real strength, but weigh it against the flip side: plastic finish looks less like furniture than the wood cabinets.",
     specs: [
       "33.07\"L x 12.4\"W x 37.2\"H",
       "PP plastic + metal wire + ABS connectors",
       "6 tiers, holds 24 pairs",
       "Air circulation holes for odor control",
-      "Removable partitions, anti-toppling hardware",
+      "Removable partitions, anti-toppling hardware"
     ],
     pros: [
       "Only pick in this list with dedicated odor-control ventilation",
-      "Most-reviewed pick in this list at 11,653 ratings",
       "Cheapest cabinet in this list",
-      "Removable partitions and anti-toppling hardware",
+      "Removable partitions and anti-toppling hardware"
     ],
     cons: [
       "Plastic finish looks less like furniture than the wood cabinets",
       "No color options beyond the standard finish",
-      "37.2\" height needs a stable surface",
+      "37.2\" height needs a stable surface"
     ],
     bestFor: "Buyers who want proven, well-ventilated cabinet storage at the lowest price",
   },
@@ -102,18 +101,17 @@ export const products: GuideProduct[] = [
       "FSC-certified engineered wood",
       "3 flip drawers + 6 shelves",
       "Holds 18-24 pairs",
-      "Adjustable panels, anti-tipping hardware",
+      "Adjustable panels, anti-tipping hardware"
     ],
     pros: [
-      "Highest-rated cabinet in this list at 4.7 stars",
       "Most eco-certified material (FSC-certified wood)",
       "Clean white finish suits bright entryways",
-      "Adjustable panels and anti-tipping hardware",
+      "Adjustable panels and anti-tipping hardware"
     ],
     cons: [
       "Most expensive cabinet in this list",
       "White finish shows scuffs more visibly over time",
-      "No dedicated ventilation feature",
+      "No dedicated ventilation feature"
     ],
     bestFor: "Buyers who want the highest-rated white cabinet regardless of price",
   },
@@ -128,24 +126,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51vsts0s5KL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DDHFQP13?tag=deskfinds0d-20",
     description:
-      "This is the same BORNOON cabinet build as the white version above, in a black finish with a scratch-resistant coating that hides daily wear better than a light finish. Three flip drawers and 6 compartments hold the same 18-24 pairs, and the engineered wood construction carries over unchanged.\n\nIt's the highest-rated black cabinet in this list, matching the white version's 4.7-star rating, and anti-tipping hardware is included at the same 47.24\" height. Choose this over the white version if your entryway leans toward a darker, more modern palette or if you'd rather not worry about visible scuffs.\n\nScratch-resistant finish hides daily wear. Set against that, most expensive cabinet in this list, tied with the white version. Both matter when comparing it to the other picks here.",
+      "This is the same BORNOON cabinet build as the white version above, in a black finish with a scratch-resistant coating that hides daily wear better than a light finish. Three flip drawers and 6 compartments hold the same 18-24 pairs, and the engineered wood construction carries over unchanged.\n\nChoose this over the white version if your entryway leans toward a darker, more modern palette or if you'd rather not worry about visible scuffs.\n\nScratch-resistant finish hides daily wear. Set against that, most expensive cabinet in this list, tied with the white version. Both matter when comparing it to the other picks here.",
     specs: [
       "9.45\"D x 31.5\"W x 47.24\"H",
       "Engineered wood",
       "3 flip drawers + 6 compartments",
       "Scratch-resistant finish",
-      "Anti-tipping hardware, holds 18-24 pairs",
+      "Anti-tipping hardware, holds 18-24 pairs"
     ],
     pros: [
-      "Highest-rated black cabinet in this list at 4.7 stars",
       "Scratch-resistant finish hides daily wear",
       "Same proven build as the white BORNOON",
-      "Anti-tipping hardware included",
+      "Anti-tipping hardware included"
     ],
     cons: [
       "Most expensive cabinet in this list, tied with the white version",
       "No dedicated ventilation feature",
-      "Tall 47.24\" frame needs a stable, anchored placement",
+      "Tall 47.24\" frame needs a stable, anchored placement"
     ],
     bestFor: "Buyers who want the same top-rated cabinet in a darker, more modern finish",
   },
@@ -166,18 +163,18 @@ export const products: GuideProduct[] = [
       "Engineered wood",
       "2 flip drawers, arc-shaped rose-gold handles",
       "80 lb top load, holds 14-20 pairs",
-      "Removable divider, anti-tipping hardware",
+      "Removable divider, anti-tipping hardware"
     ],
     pros: [
       "Most distinctive hardware detail in this list",
       "80 lb top load doubles as a console surface",
       "Removable center divider adds flexibility",
-      "Anti-tipping hardware included",
+      "Anti-tipping hardware included"
     ],
     cons: [
       "Lower capacity than the taller cabinets in this list",
       "No dedicated ventilation feature",
-      "Rose-gold handles may not suit every entryway palette",
+      "Rose-gold handles may not suit every entryway palette"
     ],
     bestFor: "Buyers who want a cabinet with a genuine design statement, not just storage",
   },
@@ -198,18 +195,18 @@ export const products: GuideProduct[] = [
       "Engineered wood",
       "2 barn doors, 5-tier",
       "3 adjustable shelves",
-      "Anti-tipping hardware, wood legs, holds 15+ pairs",
+      "Anti-tipping hardware, wood legs, holds 15+ pairs"
     ],
     pros: [
       "Most distinctive farmhouse styling in this list",
       "Compact 31.5\" height suits smaller entryways",
       "3 adjustable shelves for flexible storage",
-      "Anti-tipping hardware included",
+      "Anti-tipping hardware included"
     ],
     cons: [
       "Lower capacity than the taller flip-drawer cabinets",
       "No dedicated ventilation feature",
-      "Sliding barn doors need clear wall space to slide across",
+      "Sliding barn doors need clear wall space to slide across"
     ],
     bestFor: "Buyers who want farmhouse barn-door styling in a bright white finish",
   },
@@ -230,18 +227,18 @@ export const products: GuideProduct[] = [
       "Engineered wood",
       "2 flip drawers, barn-door styling",
       "4 adjustable shelves (most among the farmhouse picks in this list)",
-      "Tapered legs, fence top, anti-tipping hardware",
+      "Tapered legs, fence top, anti-tipping hardware"
     ],
     pros: [
       "Most adjustable shelves among the farmhouse-style cabinets in this list",
       "Taller than the white farmhouse pick for more storage",
       "Black finish hides daily scuffs",
-      "Anti-tipping hardware included",
+      "Anti-tipping hardware included"
     ],
     cons: [
       "No dedicated ventilation feature",
       "38.6\" height needs a stable, anchored placement",
-      "Flip-drawer front loses some of the sliding barn-door look",
+      "Flip-drawer front loses some of the sliding barn-door look"
     ],
     bestFor: "Buyers who want farmhouse styling with more shelves and a darker finish",
   },
@@ -262,18 +259,18 @@ export const products: GuideProduct[] = [
       "P2-grade engineered wood",
       "3 flip drawers + 6 compartments",
       "Ventilation feature to reduce odor",
-      "Adjustable dividers, anti-tip hardware, 20-minute assembly",
+      "Adjustable dividers, anti-tip hardware, 20-minute assembly"
     ],
     pros: [
       "Fastest assembly among the multi-drawer cabinets in this list",
       "Highest-grade board among the flip-drawer cabinets in this list",
       "Includes a ventilation feature to reduce odor",
-      "Adjustable dividers and anti-tip hardware",
+      "Adjustable dividers and anti-tip hardware"
     ],
     cons: [
       "Priced above the BORNOON cabinets despite fewer ratings",
       "White finish shows scuffs more visibly over time",
-      "Only available in white, not a matching black option",
+      "Only available in white, not a matching black option"
     ],
     bestFor: "Buyers who want fast assembly and a ventilated cabinet interior",
   },
@@ -294,21 +291,21 @@ export const products: GuideProduct[] = [
       "Engineered wood",
       "2 flip drawers, built-in deodorizer with 4 modes",
       "Side hooks, fence top",
-      "Anti-tipping hardware, holds 16 pairs",
+      "Anti-tipping hardware, holds 16 pairs"
     ],
     pros: [
       "Only pick in this entire list with active odor control",
       "4 deodorizer modes for different needs",
       "Side hooks add extra hanging storage",
-      "Anti-tipping hardware included",
+      "Anti-tipping hardware included"
     ],
     cons: [
       "Lower pair capacity than the BORNOON or Boonatu cabinets",
       "Active deodorizer likely needs periodic power or replacement parts",
-      "Only available in one finish",
+      "Only available in one finish"
     ],
     bestFor: "Buyers whose top priority is active odor control, not just capacity",
-  },
+  }
 ];
 
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
@@ -331,7 +328,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed finish, capacity, and included hardware against price, from the HOMIDEC to the BORNOON cabinets.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -460,7 +457,7 @@ export const faq: FaqItem[] = [
   },
   {
     q: "Which shoe rack cabinet has the highest rating?",
-    a: "The BORNOON cabinets, in both white and black, are the highest-rated picks in this list at 4.7 stars across nearly 2,000 ratings each. Both use the same FSC-certified engineered wood build and differ only in finish.",
+    a: "Both use the same FSC-certified engineered wood build and differ only in finish.",
   },
   {
     q: "Do these cabinets come in matching white and black options?",
@@ -477,11 +474,11 @@ export const faq: FaqItem[] = [
   {
     q: "Do tall shoe cabinets need to be anchored?",
     a: "Every cabinet in this list at roughly 38 inches or taller ships with anti-tipping hardware, and it should be installed rather than skipped, especially in a household with kids or pets. Confirm the hardware is actually included in the box before assembling any cabinet in that height range.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-shoe-rack-with-doors", title: "Best Shoe Racks with Doors (2026)" },
   { href: "/guide/best-rolling-carts-with-drawers", title: "Best Rolling Carts with Drawers (2026)" },
-  { href: "/guide/best-printer-stands-with-storage", title: "Best Printer Stands with Storage (2026)" },
+  { href: "/guide/best-printer-stands-with-storage", title: "Best Printer Stands with Storage (2026)" }
 ];

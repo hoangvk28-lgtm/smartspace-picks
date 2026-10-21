@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "portable digital notebook";
 export const introParagraphs = [
   "Portability means something different across the three digital notebook types: a paper-based notepad can be genuinely pocket-sized, an e-ink tablet's portability depends on screen size and weight, and a smart pen set's bulk usually comes down to the companion notebook rather than the pen itself.",
-  "We prioritized the most compact, lightweight option within each type here rather than assuming bigger names are automatically more portable.",
+  "We prioritized the most compact, lightweight option within each type here rather than assuming bigger names are automatically more portable."
 ];
 export const lastUpdated = "2026-08-05";
 export const readTime = "9 min";
@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Actual size and weight compared within each type", description: "Compared stated dimensions and weight against other products in the same category rather than assuming brand reputation implies portability." },
   { title: "Battery weight and charging dependence considered", description: "Weighed how battery life affects real-world portability, e-ink's long battery life reduces the need to carry a charger while traveling." },
   { title: "Writing area tradeoff against compactness noted", description: "Flagged where a more portable format, like the Rocketbook Mini, sacrifices writing space compared to a full letter-size option." },
-  { title: "Pen and notebook bulk assessed together for smart pen sets", description: "Considered the companion notebook size alongside the pen itself, since a compact pen paired with a bulky notebook is not genuinely portable overall." },
+  { title: "Pen and notebook bulk assessed together for smart pen sets", description: "Considered the companion notebook size alongside the pen itself, since a compact pen paired with a bulky notebook is not genuinely portable overall." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -258,11 +258,11 @@ export const faq: FaqItem[] = [
   { q: "What is the most portable type of digital notebook?", a: "A mini reusable paper notepad is generally the lightest and most pocket-friendly since it has no battery or screen, though it offers the least writing space." },
   { q: "Are e-ink tablets portable for travel?", a: "Yes, especially models like the reMarkable 2 which are thinner and lighter than premium color alternatives, and their long battery life reduces the need to pack a charger." },
   { q: "Are smart pen sets bulky to carry?", a: "The pen itself is usually slim, but check the companion notebook size too, since a bulky notebook offsets a compact pen's portability." },
-  { q: "Do I sacrifice writing space with a portable notebook?", a: "Generally yes, mini formats trade writing area for compactness, a full letter-size notebook offers more space but is bulkier to carry." },
+  { q: "Do I sacrifice writing space with a portable notebook?", a: "Generally yes, mini formats trade writing area for compactness, a full letter-size notebook offers more space but is bulkier to carry." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-digital-notebooks-for-students", title: "Best Digital Notebooks for Students (2026)" },
   { href: "/guide/best-budget-digital-notebooks", title: "Best Budget Digital Notebooks (2026)" },
-  { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" },
+  { href: "/guide/best-digital-notebooks", title: "Best Digital Notebooks (2026)" }
 ];

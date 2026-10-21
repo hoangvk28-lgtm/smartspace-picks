@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "ikea standing desk converter";
 export const introParagraphs = [
   "We need to be direct here: IKEA currently emphasizes full sit-stand desks and laptop tables in its catalog rather than a dedicated standing desk converter product line. We could not confirm a genuine current IKEA converter product to build a real comparison around.",
-  "Rather than force a page around products that aren't actually IKEA converters, we're disclosing this honestly and presenting the strongest well-reviewed converter alternatives from other brands instead.",
+  "Rather than force a page around products that aren't actually IKEA converters, we're disclosing this honestly and presenting the strongest well-reviewed converter alternatives from other brands instead."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "6 min";
@@ -75,7 +75,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Disclosed the lack of a current IKEA converter product line honestly", description: "We confirmed IKEA's current catalog emphasizes full sit-stand desks and laptop tables, not a dedicated converter line, and said so directly rather than mislabeling other brands as IKEA products." },
   { title: "Selected strong alternatives rather than padding a nonexistent product pool", description: "We chose well-reviewed converters from other brands and were transparent that none of them are actually IKEA products." },
   { title: "Prioritized products in a similar spirit to IKEA's minimal, budget-conscious design", description: "Where relevant, we noted which alternative leans toward IKEA's typical simple, functional aesthetic and price point." },
-  { title: "Weighed review volume and rating for each honest alternative", description: "We applied the same evaluation standard to these alternatives as we would to any converter comparison." },
+  { title: "Weighed review volume and rating for each honest alternative", description: "We applied the same evaluation standard to these alternatives as we would to any converter comparison." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -206,7 +206,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating together, not separately",
-    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews.\n\nThis is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+    "explanation": "This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time.\n\nWhen comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
   }
 ];
 
@@ -214,12 +214,12 @@ export const faq: FaqItem[] = [
   { q: "Does IKEA make a standing desk converter?", a: "We found no clear current IKEA standing desk converter product line. IKEA's catalog currently emphasizes full sit-stand desks and laptop tables instead." },
   { q: "What's the best alternative to an IKEA converter?", a: "The VIVO 32 inch Desk Converter, K Series, the most proven converter in our broader research." },
   { q: "Does IKEA sell any sit-stand furniture?", a: "Yes, full standing desks like the BEKANT and TROTTEN lines, though these are complete desks rather than converters for an existing desk." },
-  { q: "What's the cheapest alternative option?", a: "The Standing Desk Converter Adjustable Height Keyboard Riser at $59.99." },
-  { q: "Should I check IKEA's site directly?", a: "Yes, product lineups change; verify directly with IKEA whether a converter has been introduced since this research was conducted." },
+  { q: "What's the cheapest alternative option?", a: "The Standing Desk Converter Adjustable Height Keyboard Riser at under $60." },
+  { q: "Should I check IKEA's site directly?", a: "Yes, product lineups change; verify directly with IKEA whether a converter has been introduced since this research was conducted." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-standing-desk-converters", title: "Best Standing Desk Converters (2026)" },
   { href: "/guide/best-budget-standing-desk-converters", title: "Best Budget Standing Desk Converters (2026)" },
-  { href: "/guide/best-vivo-standing-desk-converters", title: "Best VIVO Standing Desk Converters (2026)" },
+  { href: "/guide/best-vivo-standing-desk-converters", title: "Best VIVO Standing Desk Converters (2026)" }
 ];

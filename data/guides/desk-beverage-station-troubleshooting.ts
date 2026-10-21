@@ -12,7 +12,7 @@ export const deskBeverageStationTroubleshootingGuide: Guide = {
     "electric kettle scale buildup fix",
     "travel mug lid leaking fix",
     "mini fridge condensation problem",
-    "desk coffee setup problems",
+    "desk coffee setup problems"
   ],
   heroImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const deskBeverageStationTroubleshootingGuide: Guide = {
     "coffee-machine-descaling-explained",
     "insulated-mug-vs-regular-mug-desk",
     "desk-fridge-worth-it-explained",
-    "desk-beverage-spill-prevention",
+    "desk-beverage-spill-prevention"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const deskBeverageStationTroubleshootingGuide: Guide = {
       question: "Why does my insulated mug not keep drinks as hot as it used to?",
       answer:
         "If the mug has any dents or damage to its outer or inner wall, this can compromise the vacuum seal between the walls that provides insulation, a damaged double-wall vacuum insulated mug generally can't be repaired and may need replacement.",
-    },
+    }
   ],
   sections: [
     {
@@ -75,6 +75,6 @@ export const deskBeverageStationTroubleshootingGuide: Guide = {
     {
       heading: "Why a Damaged Vacuum Seal Can't Be Meaningfully Repaired",
       body: `An insulated mug's temperature retention relies on a vacuum maintained between its inner and outer walls, a sealed gap with no air to conduct heat, once this vacuum seal is compromised by a dent or structural damage to either wall, air enters the gap and the insulation effect is largely lost permanently, unlike a leaking lid gasket which can often be cleaned, repositioned, or replaced, a compromised vacuum seal generally represents an unfixable structural failure, making replacement the practical path forward rather than attempting a repair that isn't realistically achievable.`,
-    },
+    }
   ],
 };

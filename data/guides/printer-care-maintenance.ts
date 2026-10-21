@@ -12,7 +12,7 @@ export const printerCareMaintenanceGuide: Guide = {
     "how to maintain a printer",
     "printer cleaning tips",
     "how to store ink cartridges",
-    "extend printer lifespan",
+    "extend printer lifespan"
   ],
   heroImage: "https://images.unsplash.com/photo-1613395450289-e560907d9308?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1613395450289-e560907d9308?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const printerCareMaintenanceGuide: Guide = {
     "printer-troubleshooting",
     "inkjet-vs-laser-printer",
     "printer-page-yield-explained",
-    "toner-vs-ink-cost-explained",
+    "toner-vs-ink-cost-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const printerCareMaintenanceGuide: Guide = {
       question: "Does using cheap third-party ink or toner damage a printer?",
       answer:
         "Generally not immediately, but quality varies significantly between third-party brands, some can cause print quality issues or in rare cases print head problems, if you use third-party cartridges, choose a reputable brand with good reviews for your specific printer model.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const printerCareMaintenanceGuide: Guide = {
     {
       heading: "Keeping an Infrequently Used Printer Healthy",
       body: `Inkjet printers specifically are prone to dried or clogged print heads when left unused for extended periods, since the liquid ink can dry within the tiny nozzle openings. If your printer sits idle for weeks at a time, printing an occasional test page keeps ink flowing through the nozzles and reduces the chance of needing a more involved cleaning cycle (or a stuck head that cleaning can't fully resolve) later on.`,
-    },
+    }
   ],
 };

@@ -77,7 +77,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0FRM8Q873?tag=deskfinds0d-20",
     description: "This dock's built-in NVMe PCIe Gen4x4 M.2 slot supports SSDs up to 8TB for fast external storage, but its listing specifically discloses a real physical constraint: SSDs with a heatsink must be no wider than 24mm, explicitly excluding several popular SSD models like the Seagate FireCuda 530 with Heatsink and Samsung 9100 PRO with Heatsink. Its AI smart cooling with a 60mm ultra-thin fan keeps performance stable under heavy load.\n\nCompared to the CalDigit pick above, this one is the lowest price in this comparison while still delivering 120Gbps Intel-certified Thunderbolt 5 bandwidth and dual or single 8K@60Hz display support on capable systems. Its listing transparently notes the DP port doesn't support DP++, requiring an active DP-to-HDMI adapter specifically, since passive adapters won't work.\n\nBest for buyers who want built-in NVMe storage at the lowest price, provided their SSD's heatsink fits the disclosed width limit.",
     specs: ["Built-in M.2 NVMe slot, up to 8TB (heatsink width 24mm max)", "120Gbps Intel-certified Thunderbolt 5", "AI smart cooling, 60mm fan, under 30dB"],
-    pros: ["Lowest price in this comparison at $369.99", "Built-in NVMe storage slot alongside genuine Thunderbolt 5 bandwidth", "Transparently discloses specific SSD heatsink width limits and DP adapter requirements"],
+    pros: ["Lowest price in this comparison at under $400", "Built-in NVMe storage slot alongside genuine Thunderbolt 5 bandwidth", "Transparently discloses specific SSD heatsink width limits and DP adapter requirements"],
     cons: ["Explicitly incompatible with several named wide-heatsink SSD models", "DP port requires an active, not passive, adapter for HDMI monitors"],
     bestFor: "buyers who want built-in NVMe storage at the lowest price, provided their SSD fits the disclosed size limit",
   }
@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["The highest port count with genuine 10GbE networking", "CalDigit TS5 Plus Thunderbolt 5 Docking Station"],
         ["Genuinely silent fanless cooling with detailed chip documentation", "iVANKY FusionDock Max 2, 23-in-1"],
         ["Cross-platform Mac and Windows compatibility", "Anker Prime TB5 Docking Station, 14-in-1"],
-        ["Built-in NVMe storage at the lowest price", "UGREEN Maxidok Thunderbolt 5 Docking Station"],
+        ["Built-in NVMe storage at the lowest price", "UGREEN Maxidok Thunderbolt 5 Docking Station"]
       ],
     },
   },
@@ -117,9 +117,9 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $370", "UGREEN Maxidok ($369.99)"],
-        ["Under $400", "iVANKY FusionDock Max 2 or Anker Prime TB5 (both $399.99)"],
-        ["Under $500", "CalDigit TS5 Plus ($499.99)"],
+        ["Under $370", "UGREEN Maxidok (under $400)"],
+        ["Under $400", "iVANKY FusionDock Max 2 or Anker Prime TB5 (both under $400)"],
+        ["Under $500", "CalDigit TS5 Plus (under $500)"]
       ],
     },
   },
@@ -127,7 +127,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Silent Fanless Cooling vs Active Fan Cooling",
     cards: [
       { label: "Silent fanless cooling (iVANKY)", text: "Uses aerospace-grade thermal materials and an aluminum chassis with no internal fan at all, disclosed to stay well below UL touch-temperature limits during sustained load." },
-      { label: "Active fan cooling (CalDigit, Anker, UGREEN)", text: "Uses internal fans to actively manage heat, generally supporting higher sustained power delivery across more total ports." },
+      { label: "Active fan cooling (CalDigit, Anker, UGREEN)", text: "Uses internal fans to actively manage heat, generally supporting higher sustained power delivery across more total ports." }
     ],
     note: "If a completely silent desk environment matters most, the iVANKY's fanless design is genuinely unique in this comparison. If you need the highest total port count and power delivery, the fan-cooled picks handle that more robustly.",
   },
@@ -138,7 +138,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["M1/M2/M3/M4 Max (triple display capable)", "iVANKY FusionDock Max 2"],
         ["M4/M5 base or Pro chips (dual display)", "iVANKY FusionDock Max 2 or CalDigit TS5 Plus"],
-        ["M1/M2/M3 base chips (single display)", "Any pick works, but expect only one external display"],
+        ["M1/M2/M3 base chips (single display)", "Any pick works, but expect only one external display"]
       ],
     },
   },
@@ -146,16 +146,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For Buyers Who Switch Between Multiple Macs Specifically",
     cards: [
       { label: "Look for", text: "A dock that doesn't explicitly restrict itself to a single paired Mac, since some Mac-exclusive docks are specifically locked and don't support switching between different Macs." },
-      { label: "In this comparison", text: "The iVANKY FusionDock Max 2 specifically states it is restricted to only one Mac and does not support switching between other Macs, a real limitation to check before purchase." },
+      { label: "In this comparison", text: "The iVANKY FusionDock Max 2 specifically states it is restricted to only one Mac and does not support switching between other Macs, a real limitation to check before purchase." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
-      { label: "Spend more if", text: "You want the highest port count with dual USB controllers and genuine 10GbE networking, where the CalDigit TS5 Plus justifies its $499.99 price." },
-      { label: "Save if", text: "You want built-in NVMe storage at the lowest price and your SSD's heatsink fits the disclosed width limit, where the UGREEN Maxidok delivers that for $369.99." },
+      { label: "Spend more if", text: "You want the highest port count with dual USB controllers and genuine 10GbE networking, where the CalDigit TS5 Plus justifies its under $500 price." },
+      { label: "Save if", text: "You want built-in NVMe storage at the lowest price and your SSD's heatsink fits the disclosed width limit, where the UGREEN Maxidok delivers that for under $400." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41DQZgg+g2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07XTGKP5M?tag=deskfinds0d-20",
-    description: "A 1Gbps Thunderbolt 3/4 compatible adapter with braided nylon cable and aluminum casing for heat insulation, backed by BENFEI's 18-month unconditional warranty.\n\nLike the uni adapter, BENFEI is explicit that this does NOT work with Nintendo Switch, despite otherwise broad compatibility with recent iPhones, MacBooks, and Samsung devices.\n\nWhere this one earns its spot is 18-month unconditional warranty with responsive customer service, and braided cable and aluminum casing for durability. Worth noting before buying: explicitly not compatible with Nintendo Switch, which matters more at $9.99 than it would on a cheaper pick.",
+    description: "A 1Gbps Thunderbolt 3/4 compatible adapter with braided nylon cable and aluminum casing for heat insulation, backed by BENFEI's 18-month unconditional warranty.\n\nLike the uni adapter, BENFEI is explicit that this does NOT work with Nintendo Switch, despite otherwise broad compatibility with recent iPhones, MacBooks, and Samsung devices.\n\nWhere this one earns its spot is 18-month unconditional warranty with responsive customer service, and braided cable and aluminum casing for durability. Worth noting before buying: explicitly not compatible with Nintendo Switch, which matters more at under $10 than it would on a cheaper pick.",
     specs: ["1Gbps, Thunderbolt 3/4 compatible","Braided nylon cable, aluminum casing","18-month unconditional warranty"],
     pros: ["18-month unconditional warranty with responsive customer service","Braided cable and aluminum casing for durability","Broad compatibility across iPhone, MacBook, and Samsung devices","Snug USB-C connector fit for stable signal transfer"],
     cons: ["Explicitly not compatible with Nintendo Switch","Requires CAT6+ cable for full 1Gbps"],
@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31Y738kbOWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08989MYQ2?tag=deskfinds0d-20",
-    description: "A straightforward 10/100/1000M adapter with reversible USB-C plugging and a slim aluminum housing, ready to use out of the box with no external power needed.\n\nAmazon Basics explicitly lists Nintendo Switch compatibility, a real differentiator against the several competitors in this cluster that exclude it.\n\nThis pick is best for buyers who value explicitly compatible with Nintendo Switch along with no external power adapter required, works right out of the box. The catch is that no extended warranty details published beyond standard Amazon coverage, so decide if that's worth it at $16.56.",
+    description: "A straightforward 10/100/1000M adapter with reversible USB-C plugging and a slim aluminum housing, ready to use out of the box with no external power needed.\n\nAmazon Basics explicitly lists Nintendo Switch compatibility, a real differentiator against the several competitors in this cluster that exclude it.\n\nThis pick is best for buyers who value explicitly compatible with Nintendo Switch along with no external power adapter required, works right out of the box. The catch is that no extended warranty details published beyond standard Amazon coverage, so decide if that's worth it at under $20.",
     specs: ["10/100/1000M Ethernet","Reversible USB-C, no external power","Nintendo Switch compatible"],
     pros: ["Explicitly compatible with Nintendo Switch","No external power adapter required, works right out of the box","Slim, lightweight aluminum housing","Simple reversible USB-C plug design"],
     cons: ["No extended warranty details published beyond standard Amazon coverage","No PD charging or extra ports"],
@@ -213,35 +213,35 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $9.99",
+          "Under $10",
           "BENFEI USB-C to Ethernet Adapter"
         ],
         [
-          "Around $10.93",
+          "Under $15",
           "TP-Link UE300C USB-C to Ethernet Adapter"
         ],
         [
-          "Around $12.99",
+          "Under $15",
           "UGREEN USB-C to Ethernet Adapter (1Gbps)"
         ],
         [
-          "Around $15.53",
+          "Under $20",
           "Anker USB-C to Ethernet Adapter"
         ],
         [
-          "Around $15.99",
+          "Under $20",
           "uni USB-C to Ethernet Adapter 1Gbps"
         ],
         [
-          "Around $16.56",
+          "Under $20",
           "Amazon Basics USB-C to RJ45 Ethernet Adapter"
         ],
         [
-          "Around $17.09",
+          "Under $20",
           "uni USB-C Hub Ethernet 1Gbps 4-in-1"
         ],
         [
-          "Around $21.09",
+          "Under $25",
           "Belkin USB-C to Ethernet Adapter"
         ]
       ]
@@ -296,10 +296,10 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "BENFEI USB-C to Ethernet Adapter is aimed at buyers prioritizing 1gbps, thunderbolt 3/4 compatible, at $9.99."
+        "text": "BENFEI USB-C to Ethernet Adapter is aimed at buyers prioritizing 1gbps, thunderbolt 3/4 compatible, at under $10."
       }
     ]
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -340,9 +340,9 @@ export const faq = [
   }
 ,
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Anker USB-C to Ethernet Adapter is aimed at buyers prioritizing 1gbps, usb-c 3.0." },
-  { q: "Which pick offers the best value for a tight budget?", a: "BENFEI USB-C to Ethernet Adapter is aimed at buyers prioritizing 1gbps, thunderbolt 3/4 compatible, and at $9.99 it's the lowest-cost pick in this comparison." },
-  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $9.99 to $21.09, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
-  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Belkin USB-C to Ethernet Adapter is aimed at buyers prioritizing up to 1000mbps gigabit ethernet. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
+  { q: "Which pick offers the best value for a tight budget?", a: "BENFEI USB-C to Ethernet Adapter is aimed at buyers prioritizing 1gbps, thunderbolt 3/4 compatible, and at under $10 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from roughly $10 to $25, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Belkin USB-C to Ethernet Adapter is aimed at buyers prioritizing up to 1000mbps gigabit ethernet. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-usb-c-to-ethernet-adapters","title":"8 Best USB-C to Ethernet Adapters in 2026"},{"href":"/guide/best-usb-c-to-2-5gbe-ethernet-adapters","title":"8 Best USB-C to 2.5GbE Ethernet Adapters"},{"href":"/guide/best-compact-usb-c-ethernet-adapters","title":"6 Best Compact USB-C Ethernet Adapters"}];

@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     description: "A1 Pro 12W Mini Laser Engraver with Camera, App Control, Portable Laser Engraver and Cutter and is built around hd camera, 4k precision, memory & offline, positioning it for mini buyers specifically.\n\nSmart Software, AI-Powered & Free Carverall is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for mini, though as with any equipment purchase, confirm current price and stock directly on the Amazon listing before ordering.",
     specs: ["HD Camera, 4K Precision, Memory & Offline","Smart Software, AI-Powered & Free Carverall","Trusted by 500,000+ Creators Carverall A1 Pro"],
     pros: ["HD Camera, 4K Precision, Memory & Offline, confirmed directly in the listing's own spec details","Smart Software, AI-Powered & Free Carverall, confirmed directly in the listing's own spec details","Trusted by 500,000+ Creators Carverall A1 Pro, confirmed directly in the listing's own spec details"],
-    cons: ["At $329.99, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    cons: ["At under $350, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
     bestFor: "buyers looking for mini",
   },
   {

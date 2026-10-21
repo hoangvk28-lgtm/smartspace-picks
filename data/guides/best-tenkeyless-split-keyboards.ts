@@ -6,7 +6,7 @@ export const mainKeyword = "tenkeyless split keyboard";
 export const introParagraphs = [
   "This combines two distinct form-factor concepts, tenkeyless and split, into one specific product intersection, worth verifying actual product availability at this combined intersection rather than assuming the same broad selection found in either category individually.",
   "This intersection genuinely has a smaller product pool than either individual category alone, worth being transparent about more limited selection at this specific combined-feature intersection rather than implying abundant choice that doesn't actually exist.",
-  "Removing both the number pad and splitting the keyboard compounds the desk-footprint-reduction benefit, worth quantifying this combined space savings explicitly for buyers specifically seeking maximum desk-space efficiency alongside genuine ergonomic benefit.",
+  "Removing both the number pad and splitting the keyboard compounds the desk-footprint-reduction benefit, worth quantifying this combined space savings explicitly for buyers specifically seeking maximum desk-space efficiency alongside genuine ergonomic benefit."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -26,8 +26,8 @@ export const products: GuideProduct[] = [
     badge: "Best Tenkeyless Split Keyboard Overall",
     name: "Perixx PERIBOARD-512B Wired Ergonomic Keyboard - Split Keyboard, Wrist Rest, Natural Typing - Wired USB Connectivity - US English - Black",
     price: "$44.99",
-    rating: "4.4 stars from 9,553 Amazon ratings",
-    reviews: "9,553 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41MgdS5CMFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075GZVD4T?tag=deskfinds0d-20",
     description:
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     badge: "Best Premium Tenting Pick at This Intersection",
     name: "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest",
     price: "$129.99",
-    rating: "4.5 stars from 7,992 Amazon ratings",
-    reviews: "7,992 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41EsewSK2nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZWK2TQT?tag=deskfinds0d-20",
     description:
@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     badge: "Best Mechanical Compact Pick",
     name: "Perixx PERIBOARD-335RD Wired Ergonomic Mechanical Compact Keyboard - Low-Profile Red Linear Switches - Programmable Feature with Macro Keys - Compatible with Windows and Mac OS X - US English",
     price: "$49.99",
-    rating: "4.0 stars from 60 Amazon ratings",
-    reviews: "60 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51yI4NqNkGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BLZPLWX4?tag=deskfinds0d-20",
     description:
@@ -77,8 +77,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact Non-Split TKL Comparison Pick",
     name: "SteelSeries Apex 3 TKL RGB Gaming Keyboard, Tenkeyless Compact Form Factor - 8-Zone RGB Illumination, IP32 Water & Dust Resistant, Whisper Quiet Gaming Switch, Gaming Grade Anti-Ghosting, Black",
     price: "$49.97",
-    rating: "4.6 stars from 2,585 Amazon ratings",
-    reviews: "2,585 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41tJtjMmKCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FTNMT84?tag=deskfinds0d-20",
     description:
@@ -94,8 +94,8 @@ export const products: GuideProduct[] = [
     badge: "Best Mechanical TKL Comparison Pick",
     name: "Logitech G413 TKL SE Mechanical Gaming Keyboard - Black",
     price: "$69.99",
-    rating: "4.6 stars from 1,047 Amazon ratings",
-    reviews: "1,047 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31hUfgJWI9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08Z7J4KV3?tag=deskfinds0d-20",
     description:
@@ -104,7 +104,7 @@ export const products: GuideProduct[] = [
     pros: ["Highest average rating of any pick in this guide, tied with the SteelSeries option", "Genuine mechanical switch feedback", "Genuine TKL desk-space savings", "Established Logitech reliability"],
     cons: ["Not a split keyboard, verify this fits your actual ergonomic need", "No ergonomic split or tenting benefit at all", "Included primarily as a comparison point for the limited combined-intersection product pool"],
     bestFor: "Buyers wanting mechanical TKL desk savings, prioritizing switch feel over a split ergonomic layout",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -113,7 +113,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Direct cross-reference to both split-keyboard and TKL findings applied", description: "Applied the relevant findings from both split-keyboard research (gap-distance, tenting adjustability) and TKL research (number-pad-removal functionality tradeoff) rather than treating this as an unrelated combined category." },
   { title: "Combined desk-footprint-reduction quantified explicitly", description: "Quantified this combined space savings explicitly, removing both the number pad and splitting the keyboard compounds the desk-footprint-reduction benefit, for buyers specifically seeking maximum efficiency alongside ergonomic benefit." },
   { title: "Smaller product pool at this niche intersection transparently disclosed", description: "Transparently disclosed the smaller product pool at this specific combined-feature intersection compared to either individual category alone." },
-  { title: "Core ergonomic quality versus compact footprint tradeoff verified", description: "Verified that products at this intersection don't compromise on core split/tenting ergonomic quality in the process of achieving the more compact TKL footprint, for this dual-priority buyer segment." },
+  { title: "Core ergonomic quality versus compact footprint tradeoff verified", description: "Verified that products at this intersection don't compromise on core split/tenting ergonomic quality in the process of achieving the more compact TKL footprint, for this dual-priority buyer segment." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -231,11 +231,11 @@ export const faq: FaqItem[] = [
   { q: "Does combining tenkeyless and split features save more desk space than either alone?", a: "Yes, removing both the number pad and splitting the keyboard compounds the desk-footprint-reduction benefit beyond what either individual change achieves." },
   { q: "Do tenkeyless split keyboards sacrifice ergonomic quality for their compact size?", a: "Not necessarily, but verify this specifically, a well-designed combination shouldn't compromise on core split/tenting ergonomic quality just to achieve the more compact TKL footprint." },
   { q: "What if I can't find a keyboard that's both genuinely tenkeyless and split?", a: "Given the smaller product pool at this intersection, you may need to prioritize one feature, this guide includes genuine TKL-only and split-only comparison picks to help you decide which matters more for your needs." },
-  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers wanting the most-proven pick at the genuine TKL-plus-split intersection" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers wanting the most-proven pick at the genuine TKL-plus-split intersection" }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-tkl-ergonomic-keyboards", title: "Best TKL Ergonomic Keyboards (2026)" },
   { href: "/guide/best-low-profile-ergonomic-keyboards", title: "Best Low-Profile Ergonomic Keyboards (2026)" },
-  { href: "/guide/best-ergonomic-keyboards-for-typing", title: "Best Ergonomic Keyboards for Typing (2026)" },
+  { href: "/guide/best-ergonomic-keyboards-for-typing", title: "Best Ergonomic Keyboards for Typing (2026)" }
 ];

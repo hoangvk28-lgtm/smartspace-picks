@@ -129,20 +129,20 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $729.00",
+          "Under $750",
           "AnoleX CNC Router Machine 3060-Evo Max"
         ],
         [
-          "Around $944.19",
+          "Under $950",
           "AnoleX CNC Router Machine 4030-Evo Ultra 2"
         ],
         [
-          "Around $1,063.18",
+          "Under $1,100",
           "Genmitsu 3030-PROVer Ultra CNC Router Machine for Metal + 1.5KW Water-Cooled Spindle"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -190,7 +190,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { "q": "What's the single best pick to come out of this comparison?", a: "AnoleX CNC Router Machine 4030-Evo Ultra 2 is aimed at buyers prioritizing +/-0.005mm repeatability, +/-0.02mm on 6061 aluminum." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "AnoleX CNC Router Machine 4030-Evo Ultra 2 is aimed at buyers prioritizing +/-0.005mm repeatability, +/-0.02mm on 6061 aluminum." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-carvera-desktop-cnc-machines","title":"Best Carvera Desktop CNC Machines in 2026"},{"href":"/guide/best-bantam-tools-desktop-cnc-machines","title":"Best Bantam Tools Desktop CNC Machines in 2026"},{"href":"/guide/best-makera-desktop-cnc-machines","title":"Best Makera Desktop CNC Machines in 2026"}];

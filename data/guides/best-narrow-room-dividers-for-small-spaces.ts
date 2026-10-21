@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "narrow room divider for small spaces";
 export const introParagraphs = [
   "In a small bedroom, studio, or shared home office, floor space is the scarcest resource, and most shoppers assume a \"narrow\" room divider means a shorter overall span. It usually does not. In this product category, narrow almost always refers to the folded panel depth, the footprint the divider occupies when closed or pushed against a wall, not how wide it stretches once opened. A single-panel screen that folds down to 2 inches thick can still open to 6 or 7 feet wide.",
-  "That distinction matters more in small spaces than in large rooms, because a divider that eats 12 to 18 inches of floor depth when open, versus one that eats 2 to 4 inches, changes whether a small bedroom or dorm room still has usable walking space. Below are 8 room dividers we evaluated for folded depth, freestanding stability near vents and drafts, and how well they actually cover an 8-foot ceiling, not just listed dimensions.",
+  "That distinction matters more in small spaces than in large rooms, because a divider that eats 12 to 18 inches of floor depth when open, versus one that eats 2 to 4 inches, changes whether a small bedroom or dorm room still has usable walking space. Below are 8 room dividers we evaluated for folded depth, freestanding stability near vents and drafts, and how well they actually cover an 8-foot ceiling, not just listed dimensions."
 ];
 export const lastUpdated = "2026-07-26";
 export const readTime = "9 min";
@@ -46,14 +46,14 @@ export const products: GuideProduct[] = [
     badge: "Best Overall Narrow Footprint",
     name: "SUNALLY No-Drilling Tension Curtain Rod Room Divider (28-114 inch W)",
     price: "$39.99",
-    rating: "4.6 stars",
-    reviews: "1,499 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41uULXHLL1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DFH8C526?tag=deskfinds0d-20",
     description:
-      "A tension-rod curtain divider is close to the narrowest option available for a small room, since the rod itself is under 2 inches deep and the curtain fabric folds flat for storage. This SUNALLY model extends 4 to 10 feet in height and 28 to 114 inches in width, which is enough range to reach an 8 to 9-foot ceiling and close most of the vertical gap that a standard 65 to 72-inch folding screen leaves open.\n\nBecause the fabric hangs from a spring-tensioned rod rather than a rigid frame, it moves slightly in a draft near an HVAC vent or a drafty window, which is worth knowing if the divider will sit near an air return. At 4.6 stars across nearly 1,500 ratings, it holds up well for a no-drill option in this narrow-footprint category.\n\nHeight adjusts to close the ceiling gap on 8 ft+ ceilings. That's a real strength, but weigh it against the flip side: fabric sways in HVAC drafts more than a rigid panel.",
+      "A tension-rod curtain divider is close to the narrowest option available for a small room, since the rod itself is under 2 inches deep and the curtain fabric folds flat for storage. This SUNALLY model extends 4 to 10 feet in height and 28 to 114 inches in width, which is enough range to reach an 8 to 9-foot ceiling and close most of the vertical gap that a standard 65 to 72-inch folding screen leaves open.\n\nBecause the fabric hangs from a spring-tensioned rod rather than a rigid frame, it moves slightly in a draft near an HVAC vent or a drafty window, which is worth knowing if the divider will sit near an air return.\n\nHeight adjusts to close the ceiling gap on 8 ft+ ceilings. That's a real strength, but weigh it against the flip side: fabric sways in HVAC drafts more than a rigid panel.",
     specs: ["Folded/rod depth under 2 inches", "4-10 ft adjustable height", "28-114 inch adjustable width", "No-drill tension mount", "Fabric curtain panel"],
-    pros: ["Among the narrowest folded/mounted depth in this list", "Height adjusts to close the ceiling gap on 8 ft+ ceilings", "No drilling required", "4.6 stars, 1,499 ratings"],
+    pros: ["Among the narrowest folded/mounted depth in this list", "Height adjusts to close the ceiling gap on 8 ft+ ceilings", "No drilling required"],
     cons: ["Fabric sways in HVAC drafts more than a rigid panel", "No true acoustic blocking, visual privacy only"],
     bestFor: "Small bedrooms or studios that need the shallowest possible floor footprint and a close-to-ceiling fit.",
   },
@@ -63,14 +63,14 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Narrow Pick",
     name: "Goovilla No-Drilling Tension Curtain Rod Divider (28-70 inch W)",
     price: "$28.47",
-    rating: "4.6 stars",
-    reviews: "1,030 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51-x8nHCvhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZGN4B8V?tag=deskfinds0d-20",
     description:
-      "At a competitive price, this is the lowest-priced narrow-footprint divider in this roundup, using the same tension-rod design as the SUNALLY above, a rod under 2 inches deep and a fabric panel that folds flat. It covers a smaller 28 to 70-inch width range, which suits a narrow closet nook, a dorm bed alcove, or a corner partition rather than a full room split. Because it is lightweight, it needs a stable, level floor and a snug fit between the ceiling and floor to stay put; in a drafty room it will shift more than a weighted or heavier panel divider. It holds a strong 4.6-star rating across just over 1,000 ratings. Worth calling out specifically: rod depth under 2 inches. The catch is 70 inch max width limits it to narrower openings.",
+      "At a competitive price, this is the lowest-priced narrow-footprint divider in this roundup, using the same tension-rod design as the SUNALLY above, a rod under 2 inches deep and a fabric panel that folds flat. It covers a smaller 28 to 70-inch width range, which suits a narrow closet nook, a dorm bed alcove, or a corner partition rather than a full room split. Because it is lightweight, it needs a stable, level floor and a snug fit between the ceiling and floor to stay put; in a drafty room it will shift more than a weighted or heavier panel divider. Worth calling out specifically: rod depth under 2 inches. The catch is 70 inch max width limits it to narrower openings.",
     specs: ["Folded/rod depth under 2 inches", "4-10 ft adjustable height", "28-70 inch adjustable width", "No-drill tension mount", "Fabric curtain panel"],
-    pros: ["Lowest price in this narrow-divider roundup", "Rod depth under 2 inches", "Reaches close to the ceiling on tall walls", "4.6 stars, 1,030 ratings"],
+    pros: ["Lowest price in this narrow-divider roundup", "Rod depth under 2 inches", "Reaches close to the ceiling on tall walls"],
     cons: ["70 inch max width limits it to narrower openings", "Lightweight fabric needs a stable, draft-free spot"],
     bestFor: "A narrow closet nook, alcove, or corner where a full-width divider is not needed.",
   },
@@ -80,14 +80,14 @@ export const products: GuideProduct[] = [
     badge: "Best Heavy-Duty Tension Rod",
     name: "Bonpally No-Drilling Tension Curtain Rod Divider (28-114 inch W)",
     price: "$39.99",
-    rating: "4.5 stars",
-    reviews: "987 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41EGUD6DJML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DFH4ZR71?tag=deskfinds0d-20",
     description:
-      "The Bonpally is marketed as heavy duty, referring to the tension mechanism's holding force rather than the panel's floor footprint, which stays under 2 inches like the other tension-rod options here. It reaches 4 to 10 feet floor to ceiling and 28 to 114 inches wide, matching the SUNALLY's range for closing the gap on an 8-foot or taller ceiling.\n\nA firmer tension spring reduces the wobble that lighter tension rods can develop over time, which matters if the divider will stay installed for months rather than a temporary use. At 4.5 stars across 987 ratings it is a close second to the top picks in this category.\n\nReaches ceiling height on 8-9 ft rooms. Set against that, stiffer tension can be harder to install solo. Both matter when comparing it to the other picks here.",
+      "The Bonpally is marketed as heavy duty, referring to the tension mechanism's holding force rather than the panel's floor footprint, which stays under 2 inches like the other tension-rod options here. It reaches 4 to 10 feet floor to ceiling and 28 to 114 inches wide, matching the SUNALLY's range for closing the gap on an 8-foot or taller ceiling.\n\nA firmer tension spring reduces the wobble that lighter tension rods can develop over time, which matters if the divider will stay installed for months rather than a temporary use.\n\nReaches ceiling height on 8-9 ft rooms. Set against that, stiffer tension can be harder to install solo. Both matter when comparing it to the other picks here.",
     specs: ["Folded/rod depth under 2 inches", "4-10 ft adjustable height", "28-114 inch adjustable width", "No-drill tension mount, heavier-duty spring", "Fabric curtain panel"],
-    pros: ["Firmer tension spring than budget alternatives", "Reaches ceiling height on 8-9 ft rooms", "Narrow footprint under 2 inches", "4.5 stars, 987 ratings"],
+    pros: ["Firmer tension spring than budget alternatives", "Reaches ceiling height on 8-9 ft rooms", "Narrow footprint under 2 inches"],
     cons: ["Stiffer tension can be harder to install solo", "Fabric only, no rigid panel option"],
     bestFor: "Renters who want a tension-rod divider installed long-term without the spring loosening over months.",
   },
@@ -97,12 +97,12 @@ export const products: GuideProduct[] = [
     badge: "Best for Wide Rooms, Narrow Storage",
     name: "SUNALLY No-Drilling Tension Curtain Rod Divider (28-171 inch W)",
     price: "$56.99",
-    rating: "4.5 stars",
-    reviews: "271 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41oONJmhtcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FH3TC367?tag=deskfinds0d-20",
     description:
-      "This SUNALLY variant extends up to 171 inches wide, close to 14 feet, while keeping the same under-2-inch rod depth and 4 to 10-foot height range as the narrower models. It is the option to reach for when the room itself is wide but the buyer still wants the narrowest possible mounted profile rather than a bulky folding screen taking up floor depth.\n\nAt this width, expect more fabric to manage and store when not in use; the tradeoff for spanning a wide room with a shallow-depth divider is a larger folded fabric bundle for renters with limited closet space. It carries a 4.5-star rating, though with a smaller 271-rating sample than the other tension rods here.\n\nA genuine advantage here is that still under 2 inches deep when mounted. The tradeoff is smaller 271-rating sample than other picks.",
+      "This SUNALLY variant extends up to 171 inches wide, close to 14 feet, while keeping the same under-2-inch rod depth and 4 to 10-foot height range as the narrower models. It is the option to reach for when the room itself is wide but the buyer still wants the narrowest possible mounted profile rather than a bulky folding screen taking up floor depth.\n\nAt this width, expect more fabric to manage and store when not in use; the tradeoff for spanning a wide room with a shallow-depth divider is a larger folded fabric bundle for renters with limited closet space.\n\nA genuine advantage here is that still under 2 inches deep when mounted. The tradeoff is smaller 271-rating sample than other picks.",
     specs: ["Folded/rod depth under 2 inches", "4-10 ft adjustable height", "28-171 inch adjustable width", "No-drill tension mount", "Fabric curtain panel"],
     pros: ["Spans up to 171 inches, widest in this list", "Still under 2 inches deep when mounted", "Reaches 8-10 ft ceilings", "No drilling required"],
     cons: ["Smaller 271-rating sample than other picks", "Larger folded fabric bundle to store"],
@@ -114,14 +114,14 @@ export const products: GuideProduct[] = [
     badge: "Best Rigid Narrow-Depth Panel",
     name: "Svimi 4-Panel Wood Folding Screen (67 in H x 64 in W)",
     price: "$119.99",
-    rating: "4.6 stars",
-    reviews: "1,499 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51lroJMQPAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQNP28CD?tag=deskfinds0d-20",
     description:
       "Unlike the tension-rod curtains above, this is a rigid 4-panel folding screen, and here narrow genuinely means the folded stack depth, roughly the thickness of four hinged wood panels, not the 64-inch open width. The solid wood frame gives it more resistance to shifting near an HVAC vent or an open window draft than a lightweight fabric curtain.\n\nAt 67 inches tall, it falls short of an 8-foot ceiling by more than a foot, which leaves a visible gap above the panel and limits both privacy and any sound-dampening value. It is a better fit for visual separation in a room with a standard 8-foot ceiling than for a floor-to-ceiling divide, and it folds to a genuinely narrow stack for closet storage.\n\nFolds to a narrow stack for storage. That's a real strength, but weigh it against the flip side: 67 inch height leaves a real gap on 8 ft+ ceilings.",
     specs: ["Folded stack depth roughly panel-thickness only", "67 inch height, 64 inch width", "4-panel solid wood hinge construction", "Freestanding, no drilling"],
-    pros: ["Rigid wood frame resists drafts better than fabric", "Folds to a narrow stack for storage", "4.6 stars, 1,499 ratings", "Decorative wood-panel look"],
+    pros: ["Rigid wood frame resists drafts better than fabric", "Folds to a narrow stack for storage", "Decorative wood-panel look"],
     cons: ["67 inch height leaves a real gap on 8 ft+ ceilings", "Heavier and pricier than tension-rod curtains"],
     bestFor: "Buyers who want a rigid, narrow-folding divider with a decorative look rather than a plain curtain.",
   },
@@ -131,15 +131,15 @@ export const products: GuideProduct[] = [
     badge: "Best Single-Panel Freestanding",
     name: "RANTILA Single Large Panel Room Divider (71 in W x 69.5 in H)",
     price: "$30.99",
-    rating: "4.3 stars",
-    reviews: "1,593 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/414lHGwu+qL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BMTBSB7R?tag=deskfinds0d-20",
     description:
-      "A single-panel fabric screen has a real advantage in floor depth over a multi-panel folding screen, since there is only one panel to fold flat rather than a zig-zag stack, making it one of the narrower profiles in this list when stored. At 71 by 69.5 inches, it covers a fairly wide span for a single unbroken panel.\n\nAt 69.5 inches tall it, like the Svimi screen, falls well short of a full 8-foot ceiling and provides visual privacy only, not real acoustic separation. It has the largest review base in this specific roundup at 1,593 ratings, though its 4.3-star average is the lowest among the picks here.\n\nWorth calling out specifically: largest review base in this list, 1,593 ratings. The catch is 4.3 stars, lowest average in this roundup.",
+      "A single-panel fabric screen has a real advantage in floor depth over a multi-panel folding screen, since there is only one panel to fold flat rather than a zig-zag stack, making it one of the narrower profiles in this list when stored. At 71 by 69.5 inches, it covers a fairly wide span for a single unbroken panel.\n\nAt 69.5 inches tall it, like the Svimi screen, falls well short of a full 8-foot ceiling and provides visual privacy only, not real acoustic separation.",
     specs: ["Single panel, narrow flat-fold storage", "71 inch width, 69.5 inch height", "Freestanding fabric panel", "No drilling required"],
-    pros: ["Single-panel design folds narrower than multi-panel screens", "Largest review base in this list, 1,593 ratings", "Affordable at $30.99", "Freestanding, no drilling"],
-    cons: ["4.3 stars, lowest average in this roundup", "69.5 inch height leaves an 8 ft+ ceiling gap"],
+    pros: ["Single-panel design folds narrower than multi-panel screens", "Affordable at under $35", "Freestanding, no drilling"],
+    cons: [ "69.5 inch height leaves an 8 ft+ ceiling gap"],
     bestFor: "Buyers who want a single wide fabric panel with a narrower fold-flat storage profile than a multi-panel screen.",
   },
   {
@@ -148,15 +148,15 @@ export const products: GuideProduct[] = [
     badge: "Best Narrow-Depth with Mobility",
     name: "SUNALLY 6FT Folding Privacy Screen with Lockable Wheels (88 in W, 4 Panel)",
     price: "$59.99",
-    rating: "4.2 stars",
-    reviews: "555 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/412nDJFwHPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMDTGYK2?tag=deskfinds0d-20",
     description:
       "This is a 4-panel folding fabric screen with lockable wheels attached to the base, which adds floor footprint at each caster point compared to a plain folding screen without wheels. It still folds to a narrow stack panel-to-panel, and the casters let a small-space renter reposition it without lifting the whole unit.\n\nAt 6 feet tall it comes closer to an 8-foot ceiling than the 67 to 69.5-inch screens above, though a real gap still remains. The locking casters keep it from rolling unexpectedly once positioned, worth engaging every time it is moved into place.\n\nLockable wheels for easy repositioning. Set against that, casters add a small amount of base footprint. Both matter when comparing it to the other picks here.",
     specs: ["Folded panel stack, narrow when closed", "6 ft (72 in) height, 88 in width", "4-panel with lockable wheels", "Freestanding, no drilling"],
     pros: ["6 ft height closer to ceiling than shorter screens", "Lockable wheels for easy repositioning", "Folds to a narrow stack", "Freestanding, no drilling"],
-    cons: ["Casters add a small amount of base footprint", "4.2 stars, lower than top picks here"],
+    cons: ["Casters add a small amount of base footprint"],
     bestFor: "Small-space renters who want a narrow-folding screen they can roll into place without lifting it.",
   },
   {
@@ -165,17 +165,17 @@ export const products: GuideProduct[] = [
     badge: "Best Height-Adjustable Single Panel",
     name: "Single Panel Room Divider, Height Adjustable (71 in W x 71 in H)",
     price: "$39.89",
-    rating: "3.9 stars",
-    reviews: "170 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/416huFrUlIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DST8SCHS?tag=deskfinds0d-20",
     description:
-      "This single-panel screen adjusts in height and folds flat in the same narrow single-panel profile as the RANTILA above. At 71 inches tall its maximum adjusted height is still short of most 8-foot ceilings, so treat the height adjustment as a fit-to-space feature rather than a ceiling-to-floor solution.\n\nWith a 3.9-star average across a smaller 170-rating sample, it is the lowest-rated option in this narrow-divider roundup, and buyers should weigh that against its otherwise similar narrow-fold profile to the RANTILA and other single-panel picks.\n\nA genuine advantage here is that narrow single-panel fold profile. The tradeoff is 3.9 stars, lowest rating in this list.",
+      "This single-panel screen adjusts in height and folds flat in the same narrow single-panel profile as the RANTILA above. At 71 inches tall its maximum adjusted height is still short of most 8-foot ceilings, so treat the height adjustment as a fit-to-space feature rather than a ceiling-to-floor solution.\n\nA genuine advantage here is that narrow single-panel fold profile.",
     specs: ["Single panel, narrow flat-fold storage", "71 inch width, up to 71 inch adjustable height", "Freestanding fabric panel", "No drilling required"],
-    pros: ["Height adjustable within its range", "Narrow single-panel fold profile", "Affordable at $39.89"],
-    cons: ["3.9 stars, lowest rating in this list", "Smaller 170-rating sample", "71 in max height still leaves a ceiling gap on 8 ft+ rooms"],
+    pros: ["Height adjustable within its range", "Narrow single-panel fold profile", "Affordable at under $40"],
+    cons: [ "Smaller 170-rating sample", "71 in max height still leaves a ceiling gap on 8 ft+ rooms"],
     bestFor: "Buyers who want a single narrow-folding panel with slight height adjustment and are comfortable with its lower rating.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -203,7 +203,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Buyer feedback and rating volume",
     description: "Weighed star rating alongside the number of ratings to avoid over-crediting a high average built on a small sample size.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -357,12 +357,12 @@ export const faq: FaqItem[] = [
   {
     q: "Will a room divider reach my ceiling?",
     a: "Only the adjustable tension-rod curtain dividers in this guide, which extend 4 to 10 feet, come close to a full floor-to-ceiling fit on a standard 8 to 9-foot ceiling. Rigid folding screens in this category typically run 65 to 72 inches tall and will leave a visible gap on an 8-foot (96 inch) ceiling.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-room-dividers-on-wheels", title: "Best Room Dividers on Wheels (2026)" },
   { href: "/guide/best-tall-room-dividers-for-high-ceilings", title: "Best Tall Room Dividers for High Ceilings (2026)" },
   { href: "/guide/best-no-drill-room-dividers-for-renters", title: "Best No-Drill Room Dividers for Renters (2026)" },
-  { href: "/guide/best-room-dividers-for-home-offices", title: "Best Room Dividers for Home Offices (2026)" },
+  { href: "/guide/best-room-dividers-for-home-offices", title: "Best Room Dividers for Home Offices (2026)" }
 ];

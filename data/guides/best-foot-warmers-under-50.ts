@@ -5,7 +5,7 @@ export const metaDescription = "Six heated foot warmers priced at $50 or less, c
 export const mainKeyword = "foot warmer under $50";
 export const introParagraphs = [
   "Fifty dollars opens up a wider shape range than a cheaper budget does. You can reach a heated footrest with a posture benefit, a double-sided sherpa pad, a roll-up mat with a rated wattage, or even a pair of rechargeable slippers just under the cap.",
-  "Every pick below costs $49.99 or less. We compared them on listed specs, paying special attention to what each one actually states: temperature range in degrees, timer or auto shut-off hours, size, cord length and washing instructions. Several listings pile on health promises, which we ignored. These are comfort products, so if you have reduced feeling in your feet, check with a doctor before using any heat."
+  "Every pick below costs under $50 or less. We compared them on listed specs, paying special attention to what each one actually states: temperature range in degrees, timer or auto shut-off hours, size, cord length and washing instructions. Several listings pile on health promises, which we ignored. These are comfort products, so if you have reduced feeling in your feet, check with a doctor before using any heat."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -235,7 +235,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     "title": "Value under $50",
-    "description": "Each pick costs $49.99 or less, and we weighed documented features against that price."
+    "description": "Each pick costs under $50 or less, and we weighed documented features against that price."
   }
 ];
 

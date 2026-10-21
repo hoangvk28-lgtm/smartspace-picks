@@ -2,11 +2,11 @@ export const guideSlug = "best-shoe-rack-with-doors";
 export const guideTitle = "8 Best Shoe Racks with Doors in 2026";
 export const metaTitle = "Best Shoe Racks with Doors in 2026 (Fabric, Plastic & Wood)";
 export const metaDescription =
-  "8 best shoe racks with doors in 2026, from a $24.99 fabric-door tower to a 32-pair wood cabinet. Compare capacity, ventilation, and price.";
+  "8 best shoe racks with doors in 2026, from an under-$25 fabric-door tower to a 32-pair wood cabinet. Compare capacity, ventilation, and price.";
 export const mainKeyword = "shoe rack with doors";
 export const introParagraphs = [
   "A shoe rack with doors keeps a messy entryway or closet floor out of sight, but a closed door alone isn't enough. Shoes come in damp more often than most buyers expect, and sealing them into a rack with zero airflow is a common way to end up with lingering odor or mold on the soles, so ventilation features matter just as much as door style or tier count.",
-  "Below are 8 shoe racks with doors we evaluated on enclosure quality, ventilation, per-pair capacity, and stability, ranging from a $24.99 fabric-door tower to a $119.99 flip-drawer wood cabinet that holds up to 24 pairs.",
+  "Below are 8 shoe racks with doors we evaluated on enclosure quality, ventilation, per-pair capacity, and stability, ranging from an under-$25 fabric-door tower to an under-$120 flip-drawer wood cabinet that holds up to 24 pairs."
 ];
 export const lastUpdated = "2026-07-18";
 export const readTime = "9 min";
@@ -69,18 +69,18 @@ export const products: GuideProduct[] = [
       "27.76\"L x 11.82\"W x 25.2\"H",
       "Non-woven fabric + metal frame",
       "5 tiers, holds 20 pairs",
-      "Dustproof, waterproof, pet-proof door",
+      "Dustproof, waterproof, pet-proof door"
     ],
     pros: [
       "Cheapest enclosed pick in this list",
       "Dustproof, waterproof, and pet-proof fabric door",
       "Compact footprint suits tight entryways",
-      "Simple metal-frame assembly",
+      "Simple metal-frame assembly"
     ],
     cons: [
       "No dedicated ventilation feature besides the fabric itself",
       "Fabric door less durable long-term than plastic or wood",
-      "Lowest capacity among the enclosed picks in this list",
+      "Lowest capacity among the enclosed picks in this list"
     ],
     bestFor: "Buyers who want the cheapest fully enclosed shoe rack in this list",
   },
@@ -95,24 +95,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41a7DzzlTVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08N4C97TS?tag=deskfinds0d-20",
     description:
-      "The HOMIDEC pairs a PP plastic and metal-wire cabinet body with a set of dedicated air circulation holes, giving it the best ventilation of any enclosed pick in this list. That airflow matters because sealing damp shoes into a fully closed box with no vents is one of the most common ways an entryway rack starts to smell.\n\nSix tiers and removable partitions let you customize the layout for boots or sneakers, and anti-toppling hardware is included on a rack tall enough (37.2\") to warrant it. It's also the most-reviewed pick in this entire list by a wide margin.\n\nA genuine advantage here is that most-reviewed pick in this list at 11,653 ratings. The tradeoff is plastic build feels less premium than the wood picks.",
+      "The HOMIDEC pairs a PP plastic and metal-wire cabinet body with a set of dedicated air circulation holes, giving it the best ventilation of any enclosed pick in this list. That airflow matters because sealing damp shoes into a fully closed box with no vents is one of the most common ways an entryway rack starts to smell.\n\nSix tiers and removable partitions let you customize the layout for boots or sneakers, and anti-toppling hardware is included on a rack tall enough (37.2\") to warrant it. It's also the most-reviewed pick in this entire list by a wide margin.\n\nThe tradeoff is plastic build feels less premium than the wood picks.",
     specs: [
       "33.07\"L x 12.4\"W x 37.2\"H",
       "PP plastic + metal wire + ABS connectors",
       "6 tiers, holds 24 pairs",
       "Air circulation holes for ventilation",
-      "Removable partitions, anti-toppling hardware",
+      "Removable partitions, anti-toppling hardware"
     ],
     pros: [
       "Best ventilation among the enclosed picks in this list",
-      "Most-reviewed pick in this list at 11,653 ratings",
       "Removable partitions adapt to boots or sneakers",
-      "Anti-toppling hardware included",
+      "Anti-toppling hardware included"
     ],
     cons: [
       "Plastic build feels less premium than the wood picks",
       "37.2\" height needs a stable, level surface",
-      "Assembly involves more individual plastic connectors",
+      "Assembly involves more individual plastic connectors"
     ],
     bestFor: "Buyers who want proven, well-ventilated enclosed storage at a low price",
   },
@@ -133,18 +132,18 @@ export const products: GuideProduct[] = [
       "Non-woven fabric + metal frame",
       "7 tiers, holds 28 pairs",
       "Dustproof, waterproof, pet-proof door",
-      "Quick assembly",
+      "Quick assembly"
     ],
     pros: [
       "Most tiers among the fabric-door picks in this list",
       "28-pair listed capacity at a low price",
       "Same dustproof, waterproof, pet-proof door as the 5-tier version",
-      "Narrow footprint fits tight spaces",
+      "Narrow footprint fits tight spaces"
     ],
     cons: [
       "No dedicated ventilation holes beyond the fabric door",
       "Taller frame needs a stable wall or corner placement",
-      "Fabric shelves sag more under heavy boots than rigid plastic",
+      "Fabric shelves sag more under heavy boots than rigid plastic"
     ],
     bestFor: "Buyers who want the most fabric-door tiers and capacity in this list",
   },
@@ -165,18 +164,18 @@ export const products: GuideProduct[] = [
       "Engineered wood",
       "2 flip drawers, arc-shaped handles",
       "80 lb top load, holds 14-20 pairs",
-      "Removable center divider, anti-tipping hardware",
+      "Removable center divider, anti-tipping hardware"
     ],
     pros: [
       "Most distinctive handle design in this list",
       "80 lb top load doubles as a console surface",
       "Removable center divider adds flexibility",
-      "Anti-tipping hardware included",
+      "Anti-tipping hardware included"
     ],
     cons: [
       "Lower capacity than the taller fabric and wood picks",
       "Flip drawers hold fewer pairs per tier than open shelving",
-      "No dedicated ventilation feature",
+      "No dedicated ventilation feature"
     ],
     bestFor: "Buyers who want a wood cabinet with a distinctive design detail",
   },
@@ -191,24 +190,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51L2YK92tGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CBRBVL61?tag=deskfinds0d-20",
     description:
-      "The BORNOON is the highest-rated pick in this entire list at 4.7 stars across nearly 2,000 ratings, built from FSC-certified engineered wood with 3 flip drawers plus 6 open shelves. That combination gives it 18-24 pairs of listed capacity, the most among the flip-drawer wood cabinets in this list.\n\nAt 47.24\" tall, it's one of the taller enclosed picks here, so the included anti-tipping hardware isn't optional, especially in a household with kids or pets. Adjustable panels let you reconfigure shelf height as your shoe collection changes.\n\nWorth calling out specifically: most capacity among the flip-drawer wood cabinets in this list. The catch is most expensive pick in this list.",
+      "That combination gives it 18-24 pairs of listed capacity, the most among the flip-drawer wood cabinets in this list.\n\nAt 47.24\" tall, it's one of the taller enclosed picks here, so the included anti-tipping hardware isn't optional, especially in a household with kids or pets. Adjustable panels let you reconfigure shelf height as your shoe collection changes.\n\nWorth calling out specifically: most capacity among the flip-drawer wood cabinets in this list. The catch is most expensive pick in this list.",
     specs: [
       "47.24\"H x 31.5\"W x 9.45\"D",
       "FSC-certified engineered wood",
       "3 flip drawers + 6 shelves",
       "Holds 18-24 pairs",
-      "Adjustable panels, anti-tipping hardware",
+      "Adjustable panels, anti-tipping hardware"
     ],
     pros: [
-      "Highest-rated pick in this list at 4.7 stars",
       "Most capacity among the flip-drawer wood cabinets in this list",
       "FSC-certified sustainable wood",
-      "Adjustable panels and anti-tipping hardware",
+      "Adjustable panels and anti-tipping hardware"
     ],
     cons: [
       "Most expensive pick in this list",
       "47.24\" height requires anti-tip hardware to be installed, not skipped",
-      "No dedicated ventilation feature",
+      "No dedicated ventilation feature"
     ],
     bestFor: "Buyers who want the highest-rated, best-reviewed enclosed cabinet regardless of price",
   },
@@ -229,18 +227,18 @@ export const products: GuideProduct[] = [
       "Engineered wood",
       "2 flip drawers, barn-door styling",
       "4 adjustable shelves, tapered legs, fence top",
-      "Anti-tipping hardware",
+      "Anti-tipping hardware"
     ],
     pros: [
       "Most distinctive farmhouse styling in this list",
       "4 adjustable shelves inside a compact cabinet",
       "Tapered legs and fence top look like real furniture",
-      "Anti-tipping hardware included",
+      "Anti-tipping hardware included"
     ],
     cons: [
       "Barn-door front doesn't open as wide as a standard flip drawer",
       "No dedicated ventilation feature",
-      "Higher price than the fabric and plastic picks in this list",
+      "Higher price than the fabric and plastic picks in this list"
     ],
     bestFor: "Buyers who want their shoe rack to double as farmhouse-style entryway furniture",
   },
@@ -261,18 +259,18 @@ export const products: GuideProduct[] = [
       "Particleboard + PVC rattan + solid wood",
       "2 flip drawers, PVC rattan door design",
       "Aluminum alloy handles, 15mm thickened panels",
-      "80 lb top load",
+      "80 lb top load"
     ],
     pros: [
       "Most distinctive natural-look door design in this list",
       "Aluminum alloy handles and thickened panels",
       "80 lb top load surface",
-      "Narrow footprint fits tight entryways",
+      "Narrow footprint fits tight entryways"
     ],
     cons: [
       "Lower pair capacity than the taller fabric or plastic picks",
       "No dedicated ventilation feature",
-      "Rattan-style door needs gentler cleaning than solid wood",
+      "Rattan-style door needs gentler cleaning than solid wood"
     ],
     bestFor: "Buyers who want a natural woven look without committing to real wicker",
   },
@@ -293,21 +291,21 @@ export const products: GuideProduct[] = [
       "Wood + metal legs",
       "2 flip drawers, 4 compartments",
       "Holds 24-32 pairs (highest in this list)",
-      "Removable center panel, anti-tip hardware",
+      "Removable center panel, anti-tip hardware"
     ],
     pros: [
       "Highest listed capacity in this entire list",
       "Mid-range price for the pair count it offers",
       "Removable center panel adds flexibility",
-      "Anti-tip hardware included",
+      "Anti-tip hardware included"
     ],
     cons: [
       "Advertised pair count assumes smaller shoes stacked closely",
       "No dedicated ventilation feature",
-      "40\" height needs a stable, anchored placement",
+      "40\" height needs a stable, anchored placement"
     ],
     bestFor: "Buyers who need the most pairs of shoes hidden behind doors, period",
-  },
+  }
 ];
 
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
@@ -330,7 +328,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description: "Weighed material, capacity, and included hardware against price, from the UNITSTAGE fabric tower to the BORNOON wood cabinet.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -467,7 +465,7 @@ export const faq: FaqItem[] = [
   },
   {
     q: "Which shoe rack with doors has the most capacity?",
-    a: "The LEYAOYAO Natural Flip Drawer Shoe Cabinet has the highest listed capacity in this list at 24-32 pairs, at a mid-range $79.99 price. Keep in mind that number still assumes a mix of shoe sizes, so a household with larger shoes should expect somewhat fewer pairs in practice.",
+    a: "The LEYAOYAO Natural Flip Drawer Shoe Cabinet has the highest listed capacity in this list at 24-32 pairs, at a mid-range under $80 price. Keep in mind that number still assumes a mix of shoe sizes, so a household with larger shoes should expect somewhat fewer pairs in practice.",
   },
   {
     q: "Is a fabric door or a wood cabinet door better?",
@@ -476,11 +474,11 @@ export const faq: FaqItem[] = [
   {
     q: "Which pick has the best ventilation for odor control?",
     a: "The HOMIDEC 6-Tier Plastic Cabinet has the best ventilation among the enclosed picks in this list, with dedicated air circulation holes built into the cabinet body. The UNITSTAGE fabric-door picks also breathe better than a solid wood or rattan door since the fabric itself is not fully airtight.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-shoe-rack-cabinet", title: "Best Shoe Rack Cabinets (2026)" },
   { href: "/guide/best-rolling-carts-with-drawers", title: "Best Rolling Carts with Drawers (2026)" },
-  { href: "/guide/best-cable-management-boxes", title: "Best Cable Management Boxes (2026)" },
+  { href: "/guide/best-cable-management-boxes", title: "Best Cable Management Boxes (2026)" }
 ];

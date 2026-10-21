@@ -177,32 +177,32 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Around $114.97",
+          "Under $120",
           "ANGRYWIN Reception Desk with Counter"
         ],
         [
-          "Around $159.99",
+          "Under $160",
           "42.1\" Fluted Round-Corner Reception Desk"
         ],
         [
-          "Around $199.99",
+          "Under $200",
           "Kikihouse 51\" Reception Desk with LED and Hidden Power Outlet"
         ],
         [
-          "Around $259.99",
+          "Under $300",
           "Kikihouse 63\" Fluted Reception Desk with LED"
         ],
         [
-          "Around $299.99",
+          "Under $300",
           "Kikihouse 63\" Fluted Reception Desk with LED"
         ],
         [
-          "Around $1,538.00",
+          "Under $1,600",
           "M2 Retail Upgraded Reeded Reception Desk"
         ]
       ]
     }
-  },
+  }
 ];
 
 export const buyingCriteria = [
@@ -250,7 +250,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Kikihouse 63\" Fluted Reception Desk with LED is aimed at buyers prioritizing 63\"w x 22\"d x 42\"h fluted-front desk, maple." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Kikihouse 63\" Fluted Reception Desk with LED is aimed at buyers prioritizing 63\"w x 22\"d x 42\"h fluted-front desk, maple." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-modern-reception-desks","title":"7 Best Modern Reception Desks in 2026"},{"href":"/guide/best-round-reception-desks","title":"6 Best Round Reception Desks in 2026"},{"href":"/guide/best-reception-desks-for-nail-salon","title":"best-reception-desks-for-nail-salon"}];

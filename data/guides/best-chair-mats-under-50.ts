@@ -108,7 +108,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Independently verified weight capacity", "GORILLA GRIP Office Chair Mat for Carpet Floors, 29x47"],
         ["Large hardwood coverage at a lower price", "Kuyal Clear Chair Mat for Hardwood Floor, 46x60"],
         ["Maximum low pile carpet coverage with a warranty", "Office Chair Mat for Low Pile Carpet, 48x60 with Lip"],
-        ["A gaming-styled mat at the lowest price", "AiBOB Office Chair Mat for Carpet, 3D Diamond Design"],
+        ["A gaming-styled mat at the lowest price", "AiBOB Office Chair Mat for Carpet, 3D Diamond Design"]
       ],
     },
   },
@@ -117,10 +117,10 @@ export const howToChoose: HowToChooseSection[] = [
     table: {
       headers: ["Price range", "Recommended pick"],
       rows: [
-        ["Under $37", "AiBOB ($36.99)"],
-        ["Under $46", "Kuyal 46x60 ($45.95)"],
-        ["Under $45", "Low Pile Carpet with Lip ($44.99)"],
-        ["Under $53", "GORILLA GRIP ($52.99)"],
+        ["Under $37", "AiBOB (under $40)"],
+        ["Under $46", "Kuyal 46x60 (under $50)"],
+        ["Under $45", "Low Pile Carpet with Lip (under $45)"],
+        ["Under $53", "GORILLA GRIP (under $60)"]
       ],
     },
   },
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Tested Weight Capacity vs No Stated Rating",
     cards: [
       { label: "Tested rating (GORILLA GRIP)", text: "Backs its 400 lb capacity claim with third-party testing, giving you a concrete number to compare against your own weight and chair combination." },
-      { label: "No stated rating (Kuyal, Low Pile with Lip, AiBOB)", text: "Relies on general thickness and material claims without an independently verified capacity figure, which is fine for typical use but offers less certainty for heavier buyers." },
+      { label: "No stated rating (Kuyal, Low Pile with Lip, AiBOB)", text: "Relies on general thickness and material claims without an independently verified capacity figure, which is fine for typical use but offers less certainty for heavier buyers." }
     ],
     note: "If you or your chair setup is on the heavier side, the GORILLA GRIP pick's tested rating gives you actual assurance rather than an assumption based on thickness alone.",
   },
@@ -139,7 +139,7 @@ export const howToChoose: HowToChooseSection[] = [
       rows: [
         ["Compact, budget-conscious coverage", "AiBOB (36in x 48in)"],
         ["Standard coverage with tested capacity", "GORILLA GRIP (29in x 47in)"],
-        ["Large coverage for a full desk setup", "Kuyal 46x60 or Low Pile Carpet with Lip (both 48-60in range)"],
+        ["Large coverage for a full desk setup", "Kuyal 46x60 or Low Pile Carpet with Lip (both 48-60in range)"]
       ],
     },
   },
@@ -147,16 +147,16 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Heavier User or Larger Chair Setup Specifically",
     cards: [
       { label: "Look for", text: "An explicit, independently tested weight capacity rather than general thickness or durability claims alone." },
-      { label: "In this comparison", text: "The GORILLA GRIP pick's third-party tested 400 lb rating specifically gives heavier users or larger chair setups a verified capacity figure to rely on." },
+      { label: "In this comparison", text: "The GORILLA GRIP pick's third-party tested 400 lb rating specifically gives heavier users or larger chair setups a verified capacity figure to rely on." }
     ],
   },
   {
     subheading: "When to Spend More",
     cards: [
       { label: "Spend more if", text: "You want an independently tested weight rating and long-term divot resistance, where the GORILLA GRIP pick delivers both at the top of this tier." },
-      { label: "Save if", text: "You just want a gaming-styled mat with basic carpet protection, where the AiBOB pick covers that for about $16 less." },
+      { label: "Save if", text: "You just want a gaming-styled mat with basic carpet protection, where the AiBOB pick covers that for about $16 less." }
     ],
-  },
+  }
 ];
 
 export const buyingCriteria = [

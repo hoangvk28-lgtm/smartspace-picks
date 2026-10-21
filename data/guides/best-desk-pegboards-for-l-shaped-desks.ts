@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "pegboard for l shaped desk";
 export const introParagraphs = [
   "Worth being upfront about what this search term actually represents, most people looking for a 'pegboard for an L-shaped desk' aren't shopping for a standalone accessory to add to a desk they already own, they're looking for an integrated desk product that already includes a pegboard as a built-in feature. That's a genuinely different intent than the accessory-focused guides elsewhere on this site, and the three picks below reflect that, they're complete L-shaped desks with a pegboard panel built into the design, not separate boards you'd clamp onto an existing desk.",
-  "An L-shaped desk has two distinct working zones, the main desk run and the corner return, and it's worth thinking about which zone a built-in pegboard actually sits behind before assuming it covers your whole setup. The corner transition area in particular often has a different depth and sometimes a different height than the main desk run, so hung items or a monitor arm mounted there may sit at an angle relative to where you'd expect them if you're used to a straight desk.",
+  "An L-shaped desk has two distinct working zones, the main desk run and the corner return, and it's worth thinking about which zone a built-in pegboard actually sits behind before assuming it covers your whole setup. The corner transition area in particular often has a different depth and sometimes a different height than the main desk run, so hung items or a monitor arm mounted there may sit at an angle relative to where you'd expect them if you're used to a straight desk."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -26,14 +26,14 @@ export const products: GuideProduct[] = [
     badge: "Best Standing L-Shaped Desk with Pegboard",
     name: "SEDETA 67\" Standing L Shaped Gaming Desk, Office Computer Desk with Storage Hutch, Stand Up Corner Desk with Pegboard & Led Lights, Black",
     price: "$239.99",
-    rating: "4.9 stars from Amazon ratings",
-    reviews: "11 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/512lnyLr+VL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H6B73JS1?tag=deskfinds0d-20",
     description:
       "A genuine 67-inch L-shaped desk with height adjustment, a storage hutch, and a pegboard panel built directly into the design, appropriate for buyers wanting an integrated setup rather than shopping for a separate accessory.\n\nBecause this is a desk-level product, the pegboard's position is fixed relative to the desk's own layout, worth confirming where it sits relative to the main run and corner return before assuming it matches your intended monitor and accessory placement.\n\nA genuine advantage here is that storage hutch adds real capacity beyond the pegboard. The tradeoff is that very small review count so far, worth watching as more buyers weigh in.",
     specs: ["67 inch L-shaped footprint", "Height adjustable, standing desk", "Built-in pegboard and LED lights", "Storage hutch included"],
-    pros: ["Height adjustment combined with an integrated pegboard is a genuinely uncommon combination", "Storage hutch adds real capacity beyond the pegboard", "Very high 4.9-star rating", "LED lights built into the pegboard panel"],
+    pros: ["Height adjustment combined with an integrated pegboard is a genuinely uncommon combination", "Storage hutch adds real capacity beyond the pegboard", "LED lights built into the pegboard panel"],
     cons: ["Very small review count so far, worth watching as more buyers weigh in", "Pegboard position is fixed by the desk design, not repositionable", "Premium price relative to a standalone desk without these features"],
     bestFor: "Buyers wanting a height-adjustable L-shaped desk with an integrated pegboard rather than a separate accessory.",
   },
@@ -43,14 +43,14 @@ export const products: GuideProduct[] = [
     badge: "Best Value L-Shaped Desk with Pegboard Feature",
     name: "SEDETA L Shaped Gaming Corner Desk with Drawers, Hutch and Storage Shelves",
     price: "$179.99",
-    rating: "4.6 stars from Amazon ratings",
-    reviews: "623 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51m+qsLwPEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CY29ZZ3V?tag=deskfinds0d-20",
     description:
-      "A well-reviewed L-shaped corner desk with drawers, a hutch, and storage shelves, appropriate for buyers wanting a complete integrated desk setup at a lower price point than the standing version above.\n\nThe large review base with over 600 ratings gives real confidence in build quality and reliability, though as with any integrated design, it's worth checking the desk's own dimensions against your room before assuming the corner return fits your space.\n\nComplete integrated desk with drawers, hutch, and shelves. That said, fixed height, no standing desk adjustment. Neither should be a surprise once you know to look for it.",
+      "A well-reviewed L-shaped corner desk with drawers, a hutch, and storage shelves, appropriate for buyers wanting a complete integrated desk setup at a lower price point than the standing version above.\n\nComplete integrated desk with drawers, hutch, and shelves. That said, fixed height, no standing desk adjustment. Neither should be a surprise once you know to look for it.",
     specs: ["L-shaped corner footprint", "Drawers and hutch included", "Storage shelves built in", "Fixed-height desk"],
-    pros: ["Very large, well-established review base for reliability confidence", "Complete integrated desk with drawers, hutch, and shelves", "Lower price point than a height-adjustable version", "Strong 4.6-star rating across a substantial review count"],
+    pros: ["Very large, well-established review base for reliability confidence", "Complete integrated desk with drawers, hutch, and shelves", "Lower price point than a height-adjustable version"],
     cons: ["Fixed height, no standing desk adjustment", "Corner return depth and height may differ from the main desk run", "Desk-level product, not a standalone accessory for an existing desk"],
     bestFor: "Buyers wanting a complete, budget-friendly integrated L-shaped desk with strong review confidence.",
   },
@@ -60,17 +60,17 @@ export const products: GuideProduct[] = [
     badge: "Best for Bookshelf Storage",
     name: "SEDETA L Shaped Computer Office Desk with 3 Wood Drawer and Large Bookshelf",
     price: "$269.99",
-    rating: "3.9 stars from Amazon ratings",
-    reviews: "42 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/51Une2rF7sL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G41Y1HV9?tag=deskfinds0d-20",
     description:
-      "An L-shaped desk with a large bookshelf and three wood drawers, appropriate for buyers prioritizing bookshelf and drawer storage capacity over a dedicated pegboard panel.\n\nThe rating here is more moderate than the other two picks, worth reading current reviews closely before ordering to understand whether reported issues match your specific concerns.\n\nWorth calling out specifically: three wood drawers for organized storage. The catch is more moderate 3.9-star rating than the other two picks, worth reading reviews closely.",
+      "An L-shaped desk with a large bookshelf and three wood drawers, appropriate for buyers prioritizing bookshelf and drawer storage capacity over a dedicated pegboard panel.\n\nThe rating here is more moderate than the other two picks, worth reading current reviews closely before ordering to understand whether reported issues match your specific concerns.\n\nWorth calling out specifically: three wood drawers for organized storage.",
     specs: ["L-shaped footprint", "3 wood drawers", "Large bookshelf included", "Fixed-height desk"],
     pros: ["Large bookshelf adds substantial storage beyond typical desk shelving", "Three wood drawers for organized storage", "Complete integrated desk-and-storage solution", "Reasonable price for the storage capacity included"],
-    cons: ["More moderate 3.9-star rating than the other two picks, worth reading reviews closely", "Fixed height, no standing desk adjustment", "Smaller review base than the value pick above"],
+    cons: [ "Fixed height, no standing desk adjustment", "Smaller review base than the value pick above"],
     bestFor: "Buyers prioritizing bookshelf and drawer storage in an integrated L-shaped desk setup.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -78,7 +78,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Search intent assessed honestly", description: "Recognized this search term mostly represents buyers wanting an integrated desk with a built-in pegboard feature, not a standalone add-on accessory, and selected products accordingly." },
   { title: "Two-zone desk layout considered", description: "Weighed how each desk's pegboard or storage feature sits relative to the main desk run versus the corner return, since the two zones often differ in depth and height." },
   { title: "Build quality via review volume", description: "Weighted review count alongside star rating, since a high rating on very few reviews carries less confidence than a strong rating across hundreds of buyers." },
-  { title: "Storage feature completeness", description: "Compared drawers, hutches, shelves, and pegboard panels across picks to reflect the genuinely different storage priorities L-shaped desk buyers bring." },
+  { title: "Storage feature completeness", description: "Compared drawers, hutches, shelves, and pegboard panels across picks to reflect the genuinely different storage priorities L-shaped desk buyers bring." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -208,12 +208,11 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "Can I buy just a pegboard to add to my existing L-shaped desk?", a: "Yes, but that's a different product category, check a general clamp-on desk pegboard guide instead, these three picks are complete integrated desks with a built-in pegboard feature." },
   { q: "Does an L-shaped desk's pegboard cover both the main run and the corner?", a: "It depends on the specific desk, the two zones often have different depth and height, check the product listing for where the pegboard panel is actually positioned." },
-  { q: "Are these desks height adjustable?", a: "Only one of the three picks here offers standing height adjustment, the other two are fixed-height desks that trade that feature for more drawer and shelf storage." },
-  { q: "Why is one of these picks rated lower than the others?", a: "Review patterns vary by product, the bookshelf-focused pick has a more moderate 3.9-star rating on a smaller review base, worth reading current reviews before ordering." },
-];
+  { q: "Are these desks height adjustable?", a: "Only one of the three picks here offers standing height adjustment, the other two are fixed-height desks that trade that feature for more drawer and shelf storage." }
+  ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-computer-desks-with-pegboards", title: "Best Computer Desks with Pegboards (2026)" },
   { href: "/guide/best-desk-hutches-with-pegboards", title: "Best Desk Hutches with Pegboards (2026)" },
-  { href: "/guide/best-desk-pegboards", title: "Best Desk Pegboards (2026)" },
+  { href: "/guide/best-desk-pegboards", title: "Best Desk Pegboards (2026)" }
 ];

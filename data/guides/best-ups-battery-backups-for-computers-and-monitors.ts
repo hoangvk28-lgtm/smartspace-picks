@@ -5,7 +5,7 @@ export const metaDescription = "6 UPS units we evaluated for protecting a PC and
 export const mainKeyword = "UPS battery backup for computer and monitor";
 export const introParagraphs = [
   "A UPS's VA (volt-amps) rating is not the same as its real usable wattage, the power factor of typical UPS designs means actual watts available is roughly 0.6 times the VA number, a 1000VA unit is usually rated for about 600W, not 1000W, a distinction that matters when sizing for a PC plus monitor.",
-  "Add up the actual wattage of your PC (not its power supply's maximum rating, its typical draw) and monitor, then choose a UPS with real watt capacity comfortably above that total, not just a VA number that looks big.",
+  "Add up the actual wattage of your PC (not its power supply's maximum rating, its typical draw) and monitor, then choose a UPS with real watt capacity comfortably above that total, not just a VA number that looks big."
 ];
 export const lastUpdated = "2026-07-30";
 export const readTime = "9 min";
@@ -25,8 +25,8 @@ export const products: GuideProduct[] = [
     badge: "Best Pure Sine Wave Pick for PC and Monitor",
     name: "APC UPS 1500VA/900W Pure Sine Wave UPS for Computer, Electronics, BR1500MS2",
     price: "$299.99",
-    rating: "4.5 stars from 3,467 Amazon ratings",
-    reviews: "3,467 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31rIE-toOYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08GRY1W93?tag=deskfinds0d-20",
     description:
@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     badge: "Best Mid-Capacity Pick for a Standard Desktop",
     name: "APC 1000VA/600W Pro UPS Battery Backup for Office Electronics, AVR, BX1000M",
     price: "$183.99",
-    rating: "4.5 stars from 2,697 Amazon ratings",
-    reviews: "2,697 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31VPmugfqML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06VY12HW4?tag=deskfinds0d-20",
     description:
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact PC and Monitor Pick",
     name: "APC 850VA/510W Pro UPS Battery Backup for Office Electronics, AVR, BX850M",
     price: "$161.99",
-    rating: "4.6 stars from 796 Amazon ratings",
-    reviews: "796 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31xnh5VoQ4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06WP9Q8ZN?tag=deskfinds0d-20",
     description:
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     badge: "Best Lithium Battery Pick",
     name: "GOLDENMATE 1000VA/800W Lithium UPS Battery Backup & Surge Protector, Gray",
     price: "$199.99",
-    rating: "4.4 stars from 1,399 Amazon ratings",
-    reviews: "1,399 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41axhgC1IXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5QNMS8N?tag=deskfinds0d-20",
     description:
@@ -93,8 +93,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget PC and Monitor Pick",
     name: "APC UPS 650VA/390W Battery Backup & Surge Protector for PC, NAS | BE650G1",
     price: "$109.99",
-    rating: "4.6 stars from 4,110 Amazon ratings",
-    reviews: "4,110 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31pgnLVo0dL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B005GZRUZW?tag=deskfinds0d-20",
     description:
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best PFC Sinewave Alternative",
     name: "CyberPower CP1000PFCLCD PFC Sinewave UPS Battery Backup and Surge Protector",
     price: "$179.95",
-    rating: "4.2 stars from 2,382 Amazon ratings",
-    reviews: "2,382 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31nDi+6Lz+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00429N192?tag=deskfinds0d-20",
     description:
@@ -120,14 +120,14 @@ export const products: GuideProduct[] = [
     pros: ["PFC sinewave, APFC compatible", "AVR included", "LCD for load/runtime visibility", "Reasonable price for the capability"],
     cons: ["Lower rating than other picks in this guide", "Smaller headroom than the top APC pick", "Verify exact watt rating before buying, not just VA"],
     bestFor: "Buyers with an APFC-equipped PC who want pure sine wave without paying for maximum headroom",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Real watts, not VA, as the sizing metric", description: "Prioritized checking each pick's actual watt rating against a realistic PC-plus-monitor combined draw, since a UPS's VA rating overstates real usable capacity by roughly 40% for most designs." },
   { title: "APFC power supply compatibility for modern PCs", description: "Noted which picks are pure sine wave and APFC compatible, relevant for most desktop PCs built in the last decade, versus modified sine wave models better suited to simpler loads." },
-  { title: "Capacity tiers matched to different PC performance levels", description: "Ranked picks from budget/low-power setups through high-performance gaming or workstation builds, so buyers size to their actual equipment rather than a generic recommendation." },
+  { title: "Capacity tiers matched to different PC performance levels", description: "Ranked picks from budget/low-power setups through high-performance gaming or workstation builds, so buyers size to their actual equipment rather than a generic recommendation." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -264,11 +264,11 @@ export const faq: FaqItem[] = [
   { q: "Should I use my power supply's maximum wattage to size a UPS?", a: "No, use your PC's typical actual power draw instead. A power supply's maximum rating is far higher than what a PC actually consumes during normal use, sizing to the maximum rating will lead you to overspend on capacity you don't need." },
   { q: "Do I need pure sine wave for my PC and monitor?", a: "If your PC has an active power factor correction (APFC) power supply, which is standard on most desktops built in the last decade, yes. Modified sine wave can cause buzzing, overheating, or unexpected shutdown on that hardware." },
   { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers with a gaming or high-performance PC plus monitor who want real wattage headroom" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with a low-power PC and monitor setup At $109.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with a low-power PC and monitor setup At under $110, it's the lowest-cost pick in this comparison." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-pure-sine-wave-ups", title: "Best Pure Sine Wave UPS Battery Backups (2026)" },
   { href: "/guide/best-ups-battery-backups-for-multiple-monitors", title: "Best UPS Battery Backups for Multiple Monitors (2026)" },
-  { href: "/guide/best-ups-battery-backups-for-workstations", title: "Best UPS Battery Backups for Workstations (2026)" },
+  { href: "/guide/best-ups-battery-backups-for-workstations", title: "Best UPS Battery Backups for Workstations (2026)" }
 ];

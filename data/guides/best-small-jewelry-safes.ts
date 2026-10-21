@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "small jewelry safes";
 export const introParagraphs = [
   "Jewelry storage needs genuine organization, dedicated compartments for rings, watches, and necklaces without tangling, but a lined tray shouldn't be mistaken for real security. We compared confirmed interior organization against mounting or anchoring capability, since a beautifully organized jewelry safe that isn't anchored can still be carried away.",
-  "Two picks here are explicitly built for jewelry with dedicated tiered storage; the rest are general steel security boxes we're including honestly as jewelry-capable alternatives at a lower price without dedicated organization.",
+  "Two picks here are explicitly built for jewelry with dedicated tiered storage; the rest are general steel security boxes we're including honestly as jewelry-capable alternatives at a lower price without dedicated organization."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     pros: ["USB-C emergency power backup ensures access to jewelry when needed urgently"],
     cons: ["No dedicated jewelry organization or anti-tangle features"],
     bestFor: "Buyers wanting guaranteed access to jewelry over dedicated organizational features.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Separated dedicated jewelry organization from general valuables storage honestly", description: "Only two picks here offer genuine tiered jewelry compartments with anti-tangle hooks. We labeled the other six as general storage rather than implying jewelry-specific organization they don't have." },
   { title: "Weighed anchoring as important as organization", description: "A beautifully organized jewelry safe that isn't mounted can still be carried away. We checked mounting hardware inclusion alongside interior organization for every pick." },
   { title: "Compared biometric access speed and capacity for jewelry-relevant daily use", description: "Where fingerprint access is confirmed, we noted recognition speed and stored-fingerprint capacity, relevant for a jewelry safe accessed multiple times daily while getting dressed." },
-  { title: "Checked soft-contact or felt-lined interiors that protect jewelry from scratching", description: "Even general steel boxes without dedicated tiers can offer basic jewelry protection via a felt or foam-lined interior, which we flagged where confirmed." },
+  { title: "Checked soft-contact or felt-lined interiors that protect jewelry from scratching", description: "Even general steel boxes without dedicated tiers can offer basic jewelry protection via a felt or foam-lined interior, which we flagged where confirmed." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -283,11 +283,11 @@ export const faq: FaqItem[] = [
   { q: "Is there an option dual-rated for jewelry and a firearm?", a: "Yes, the Jewelry Safe for Home with Drawers is explicitly rated as both a jewelry safe and a gun safe for pistols." },
   { q: "Do I need a jewelry-specific safe, or will a general steel box work?", a: "For a modest collection, a general steel box with a felt-lined interior and mounting hardware, like the Bonsaii or Yuanshikj picks, offers comparable security at a lower price. Dedicated organization pays off more with a larger collection." },
   { q: "What's the fastest fingerprint access among these picks?", a: "The Grimtron 20LB Biometric Safe, with confirmed 0.3-second recognition." },
-  { q: "Is there a budget option for basic jewelry sorting?", a: "The KYODOLED Small Metal Lock Box has a removable 5-compartment tray that works reasonably well for small jewelry, though it's a portable lockbox, not a mounted safe." },
+  { q: "Is there a budget option for basic jewelry sorting?", a: "The KYODOLED Small Metal Lock Box has a removable 5-compartment tray that works reasonably well for small jewelry, though it's a portable lockbox, not a mounted safe." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-biometric-small-safes", title: "Best Biometric Small Safes (2026)" },
   { href: "/guide/best-small-jewelry-safes-with-drawers", title: "Best Small Jewelry Safes With Drawers (2026)" },
-  { href: "/guide/best-fingerprint-small-safes", title: "Best Fingerprint Small Safes (2026)" },
+  { href: "/guide/best-fingerprint-small-safes", title: "Best Fingerprint Small Safes (2026)" }
 ];

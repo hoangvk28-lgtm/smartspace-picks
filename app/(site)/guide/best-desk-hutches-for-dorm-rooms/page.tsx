@@ -138,7 +138,7 @@ export default async function BestDeskHutchesDormRoomsPage() {
     about: [
       { "@type": "Thing", name: "Desk Hutch" },
       { "@type": "Thing", name: "Dorm Room Organization" },
-      { "@type": "Thing", name: "Desktop Storage" },
+      { "@type": "Thing", name: "Desktop Storage" }
     ],
   };
 
@@ -148,7 +148,7 @@ export default async function BestDeskHutchesDormRoomsPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Desk Hutches for Dorm Rooms", item: `${SITE_URL}/guide/best-desk-hutches-for-dorm-rooms` },
+      { "@type": "ListItem", position: 3, name: "Best Desk Hutches for Dorm Rooms", item: `${SITE_URL}/guide/best-desk-hutches-for-dorm-rooms` }
     ],
   };
 
@@ -361,7 +361,7 @@ export default async function BestDeskHutchesDormRoomsPage() {
                     { type: "Open shelf hutch", bestFor: "Maximum vertical storage, easy access", notes: "Furinno Classic, Snughome models" },
                     { type: "Hutch with drawer", bestFor: "Concealed supply storage", notes: "ChooChoo drawer model, Marbrasse" },
                     { type: "LED + outlet hutch", bestFor: "Charging and ambient lighting in one", notes: "HOOBRO bookcase with LED and USB ports" },
-                    { type: "Tall 7-shelf hutch", bestFor: "Maximum book and binder storage", notes: "ChooChoo 7-shelf model" },
+                    { type: "Tall 7-shelf hutch", bestFor: "Maximum book and binder storage", notes: "ChooChoo 7-shelf model" }
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.type}</td>
@@ -391,14 +391,14 @@ export default async function BestDeskHutchesDormRoomsPage() {
           <h2 className="text-xl font-bold text-ink mb-5 tracking-tight">Bottom Line</h2>
           <div className="space-y-4">
             {[
-              { context: "Best overall", id: "furinno-classic-dorm", name: "Furinno Classic 5-Shelf 37-inch", verdict: " - 39,764 reviews at 4.2 stars, widest selection, fits most dorm desk widths." },
-              { context: "Best with drawer", id: "choochoo-drawer-dorm", name: "ChooChoo Desktop Bookshelf with Drawer", verdict: " - 564 reviews at 4.6 stars, $59.99, 5 shelves plus 1 drawer." },
-              { context: "Best premium", id: "tangkula-white-dorm", name: "Tangkula Desktop Bookshelf White", verdict: " - 564 reviews at 4.5 stars, $79.99, anti-tip kit included." },
-              { context: "Best LED plus outlets", id: "hoobro-led-dorm", name: "HOOBRO Desktop Bookcase with LED", verdict: " - 193 reviews at 4.6 stars, $49.99, 2 outlets and 2 USB ports built in." },
-              { context: "Best compact 31-inch", id: "snughome-31-rustic", name: "Snughome 31.9-inch Rustic Brown", verdict: " - 122 reviews at 4.7 stars, $42.99, smallest footprint in roundup." },
-              { context: "Best 38-inch rustic", id: "snughome-38-rustic", name: "Snughome 38.6-inch Rustic Brown", verdict: " - 454 reviews at 4.7 stars, $46.99, highest-rated in dorm roundup." },
-              { context: "Best tall 7-shelf", id: "choochoo-7shelf", name: "ChooChoo 7-Shelf 37W White", verdict: " - 129 reviews at 4.4 stars, $56.99, tallest storage option." },
-              { context: "Best black option", id: "marbrasse-drawer-dorm", name: "Marbrasse 4-Tier with Drawer Black", verdict: " - 134 reviews at 4.3 stars, $41.98, black finish for dark dorm setups." },
+              { context: "Best overall", id: "furinno-classic-dorm", name: "Furinno Classic 5-Shelf 37-inch", verdict: " - Widest selection, fits most dorm desk widths." },
+              { context: "Best with drawer", id: "choochoo-drawer-dorm", name: "ChooChoo Desktop Bookshelf with Drawer", verdict: " - Under $60, 5 shelves plus 1 drawer." },
+              { context: "Best premium", id: "tangkula-white-dorm", name: "Tangkula Desktop Bookshelf White", verdict: " - Under $80, anti-tip kit included." },
+              { context: "Best LED plus outlets", id: "hoobro-led-dorm", name: "HOOBRO Desktop Bookcase with LED", verdict: " - Under $50, 2 outlets and 2 USB ports built in." },
+              { context: "Best compact 31-inch", id: "snughome-31-rustic", name: "Snughome 31.9-inch Rustic Brown", verdict: " - Under $45, smallest footprint in roundup." },
+              { context: "Best 38-inch rustic", id: "snughome-38-rustic", name: "Snughome 38.6-inch Rustic Brown", verdict: " - Under $50, highest-rated in dorm roundup." },
+              { context: "Best tall 7-shelf", id: "choochoo-7shelf", name: "ChooChoo 7-Shelf 37W White", verdict: " - Under $60, tallest storage option." },
+              { context: "Best black option", id: "marbrasse-drawer-dorm", name: "Marbrasse 4-Tier with Drawer Black", verdict: " - Under $45, black finish for dark dorm setups." }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />

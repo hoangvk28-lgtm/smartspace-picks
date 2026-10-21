@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "22 inch monitor privacy screen";
 export const introParagraphs = [
   "22 inch is one of the sizes where aspect ratio genuinely varies: some 22 inch monitors are 16:9, others are 16:10, and the two are not interchangeable for filter fit. We confirmed the exact ratio for every pick here.",
-  "This size tier has a smaller confirmed product pool than the more common 24 and 27 inch sizes in our research, so we're including both dedicated 22 inch picks and confirmed-compatible nearby options.",
+  "This size tier has a smaller confirmed product pool than the more common 24 and 27 inch sizes in our research, so we're including both dedicated 22 inch picks and confirmed-compatible nearby options."
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Separated 16:9 and 16:10 pools explicitly", description: "22 inch monitors genuinely split between both aspect ratios, and we did not treat them as interchangeable." },
   { title: "Disclosed the smaller confirmed product pool at this size", description: "22 inch has fewer confirmed dedicated filter options in our research than 24 or 27 inch, and we said so rather than padding the list." },
   { title: "Included nearby-size context transparently, labeled as non-fitting", description: "Where we referenced a 24 inch filter for context, we clearly marked it as not a genuine 22 inch fit rather than implying interchangeability." },
-  { title: "Weighed review volume within each aspect-ratio pool separately", description: "We compared 16:10 picks against each other and 16:9 picks against each other, since mixing the two isn't a meaningful comparison." },
+  { title: "Weighed review volume within each aspect-ratio pool separately", description: "We compared 16:10 picks against each other and 16:9 picks against each other, since mixing the two isn't a meaningful comparison." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -233,7 +233,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
   {
     "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
-    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nThis matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size.\n\nWhen comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
   }
 ];
 
@@ -242,11 +242,11 @@ export const faq: FaqItem[] = [
   { q: "Which 22 inch filter has the highest rating?", a: "The Vxaop [2-Pack] 22 Inch Computer Privacy Screen Filter, at 4.6, specifically sized for 16:10." },
   { q: "Is there an option for 16:9 22 inch monitors?", a: "Yes, the 2 Pack Computer Privacy Screen Shield Compatible for 21.5/22 Inch, though it's the highest priced and lowest rated pick in this comparison." },
   { q: "Why is the selection smaller than for 24 inch monitors?", a: "22 inch has fewer confirmed dedicated filter listings in current inventory than the more common 24 and 27 inch sizes." },
-  { q: "Will a 24 inch filter fit my 22 inch monitor?", a: "No. Do not substitute a 24 inch filter for a 22 inch monitor; the dimensions will not match properly." },
+  { q: "Will a 24 inch filter fit my 22 inch monitor?", a: "No. Do not substitute a 24 inch filter for a 22 inch monitor; the dimensions will not match properly." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-21-5-inch-monitor-privacy-screens", title: "Best 21.5-Inch Monitor Privacy Screens (2026)" },
   { href: "/guide/best-24-inch-monitor-privacy-screens", title: "Best 24-Inch Monitor Privacy Screens (2026)" },
-  { href: "/guide/best-monitor-privacy-screens", title: "Best Monitor Privacy Screens (2026)" },
+  { href: "/guide/best-monitor-privacy-screens", title: "Best Monitor Privacy Screens (2026)" }
 ];

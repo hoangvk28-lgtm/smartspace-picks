@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "tv stand oak";
 export const introParagraphs = [
   "Oak-finish TV stands have become one of the most popular looks in living room furniture for 2026, with fluted panel detailing and curved profiles showing up across nearly every price tier.",
-  "Below are 7 oak TV stands we evaluated on storage layout, TV size fit, and finish quality, ranging from budget-friendly consoles under $100 to taller cabinet designs with soft-close hardware.",
+  "Below are 7 oak TV stands we evaluated on storage layout, TV size fit, and finish quality, ranging from budget-friendly consoles under $100 to taller cabinet designs with soft-close hardware."
 ];
 export const lastUpdated = "2026-07-16";
 export const readTime = "10 min";
@@ -51,25 +51,24 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41rnAJOsBYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQV27LCS?tag=deskfinds0d-20",
     description:
-      "The OKD 70 inch Mid Century Modern Fluted TV Stand pairs a curved mid-century profile with fluted panel detail on a natural oak finish, fitting TVs up to 75 inches. Two soft-close doors hide storage on either side, and adjustable shelves inside let you configure the space for media boxes, gaming consoles, or decor.\n\nIt carries the highest rating in this list at 4.7 stars across 157 ratings, and the wide top surface gives room to display decor alongside the TV. The fluted detailing is one of the more on-trend looks for 2026 living rooms. Between the design, the soft-close hardware, and the top rating here, this is the strongest overall pick for most buyers.\n\nSoft-close doors prevent slamming. Set against that, fewer total reviews than some other picks, smaller sample size. Both matter when comparing it to the other picks here.",
+      "The OKD 70 inch Mid Century Modern Fluted TV Stand pairs a curved mid-century profile with fluted panel detail on a natural oak finish, fitting TVs up to 75 inches. Two soft-close doors hide storage on either side, and adjustable shelves inside let you configure the space for media boxes, gaming consoles, or decor.\n\nThe fluted detailing is one of the more on-trend looks for 2026 living rooms. Between the design, the soft-close hardware, and the top rating here, this is the strongest overall pick for most buyers.\n\nSoft-close doors prevent slamming. Set against that, fewer total reviews than some other picks, smaller sample size. Both matter when comparing it to the other picks here.",
     specs: [
       "Fits TV up to 75 inches",
       "70 inch width",
       "2 soft-close doors",
       "Adjustable interior shelves",
       "Natural oak finish",
-      "Fluted panel detailing",
+      "Fluted panel detailing"
     ],
     pros: [
-      "Highest rating in this list at 4.7 stars",
       "Soft-close doors prevent slamming",
       "Wide top surface for decor display",
-      "On-trend fluted mid-century design",
+      "On-trend fluted mid-century design"
     ],
     cons: [
       "Fewer total reviews than some other picks, smaller sample size",
       "Adjustable shelves are behind closed doors, not open display",
-      "Premium price relative to the budget picks in this list",
+      "Premium price relative to the budget picks in this list"
     ],
     bestFor: "Buyers who want the highest-rated fluted oak stand with hidden, soft-close storage",
   },
@@ -84,25 +83,24 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41pDgQnVzsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GJL3VF4M?tag=deskfinds0d-20",
     description:
-      "The T4TREAM 70 inch Modern Fluted TV Stand fits TVs up to 80 inches, the widest fit among the fluted designs in this list. It combines a natural oak finish with gold-toned handles for a more upscale look than the plainer hardware found on some competitors, and rounded corners reduce sharp edges around the piece.\n\nStorage is split between 2 enclosed cabinets and an open shelf section. The frame uses premium MDF with reinforced construction, and spare parts are included in the box. At 4.4 stars across 35 ratings, it has a smaller review sample than Pick 1, but the gold hardware and rounded-corner design make it a standout for buyers who want a dressier finish.\n\nA genuine advantage here is that gold-toned handles for an upscale look. The tradeoff is smaller review sample (35 ratings) than most other picks.",
+      "The T4TREAM 70 inch Modern Fluted TV Stand fits TVs up to 80 inches, the widest fit among the fluted designs in this list. It combines a natural oak finish with gold-toned handles for a more upscale look than the plainer hardware found on some competitors, and rounded corners reduce sharp edges around the piece.\n\nStorage is split between 2 enclosed cabinets and an open shelf section. The frame uses premium MDF with reinforced construction, and spare parts are included in the box.\n\nA genuine advantage here is that gold-toned handles for an upscale look.",
     specs: [
       "Fits TV up to 80 inches",
       "70 inch width",
       "2 enclosed cabinets + 1 open shelf",
       "Gold-toned handles",
       "Rounded corners",
-      "Reinforced MDF frame",
+      "Reinforced MDF frame"
     ],
     pros: [
       "Fits TVs up to 80 inches",
       "Gold-toned handles for an upscale look",
       "Rounded corners improve child safety",
-      "Includes spare parts",
+      "Includes spare parts"
     ],
     cons: [
-      "Smaller review sample (35 ratings) than most other picks",
       "Slightly lower rating than Pick 1",
-      "Open shelf section offers less concealed storage than fully enclosed designs",
+      "Open shelf section offers less concealed storage than fully enclosed designs"
     ],
     bestFor: "Buyers who want a dressier, gold-accented finish on a large-capacity oak stand",
   },
@@ -117,25 +115,25 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51qjaJxmqhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2MT2FYR?tag=deskfinds0d-20",
     description:
-      "The AMADA HOMEFURNISHING 59 inch Fluted TV Stand is sized for TVs up to 65 inches, the smallest fit among the fluted designs in this list, and holds up to 220 pounds. It includes 3 smooth-glide drawers alongside 3 open shelves, giving a balance of concealed and display storage in a compact footprint. Wide metal handles add a modern contrast against the fluted oak finish.\n\nIntegrated rear cable routing keeps wiring out of view, and the surface is treated to resist water and general wear. At 4.5 stars across 123 ratings, it holds a solid middle-of-the-pack rating. For living rooms or bedrooms with a smaller TV that still want the fluted look, this is the sized-right option.\n\n3 smooth-glide drawers for concealed storage. On the other hand, max TV size of 65 inches is the smallest fit in this list. Neither should be a surprise once you know to look for it.",
+      "The AMADA HOMEFURNISHING 59 inch Fluted TV Stand is sized for TVs up to 65 inches, the smallest fit among the fluted designs in this list, and holds up to 220 pounds. It includes 3 smooth-glide drawers alongside 3 open shelves, giving a balance of concealed and display storage in a compact footprint. Wide metal handles add a modern contrast against the fluted oak finish.\n\nIntegrated rear cable routing keeps wiring out of view, and the surface is treated to resist water and general wear. For living rooms or bedrooms with a smaller TV that still want the fluted look, this is the sized-right option.\n\n3 smooth-glide drawers for concealed storage. On the other hand, max TV size of 65 inches is the smallest fit in this list. Neither should be a surprise once you know to look for it.",
     specs: [
       "Fits TV up to 65 inches",
       "59 inch width",
       "220 lb weight capacity",
       "3 drawers + 3 open shelves",
       "Wide metal handles",
-      "Integrated rear cable routing",
+      "Integrated rear cable routing"
     ],
     pros: [
       "Compact 59 inch width suits smaller rooms",
       "3 smooth-glide drawers for concealed storage",
       "220 lb capacity",
-      "Integrated cable routing",
+      "Integrated cable routing"
     ],
     cons: [
       "Max TV size of 65 inches is the smallest fit in this list",
       "Fewer total reviews than the top picks",
-      "Open shelves offer less concealed storage than fully enclosed cabinet designs",
+      "Open shelves offer less concealed storage than fully enclosed cabinet designs"
     ],
     bestFor: "Buyers with a TV up to 65 inches who want a compact fluted stand with drawer storage",
   },
@@ -150,25 +148,24 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41EYulSSMtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FWD7QH7C?tag=deskfinds0d-20",
     description:
-      "The IFGET 70 inch Curved TV Stand fits TVs up to 80 inches and stands 30 inches tall, noticeably taller than every other stand in this list. That extra height puts the screen closer to a more comfortable eye line when viewed from a sofa, rather than sitting low to the floor. The unit includes 4 door cabinets alongside 2 adjustable interior shelves, with a 100 lb weight capacity.\n\nThe surface is easy to clean, and the curved profile softens the edges of the piece. At 4.6 stars across 102 ratings, it holds one of the stronger ratings in this list. For anyone whose sofa sits unusually high or who simply prefers a taller stand, this is the tallest option evaluated here.\n\nMore comfortable eye-level viewing height from a sofa. That's a real strength, but weigh it against the flip side: most expensive pick in this list.",
+      "The IFGET 70 inch Curved TV Stand fits TVs up to 80 inches and stands 30 inches tall, noticeably taller than every other stand in this list. That extra height puts the screen closer to a more comfortable eye line when viewed from a sofa, rather than sitting low to the floor. The unit includes 4 door cabinets alongside 2 adjustable interior shelves, with a 100 lb weight capacity.\n\nThe surface is easy to clean, and the curved profile softens the edges of the piece. For anyone whose sofa sits unusually high or who simply prefers a taller stand, this is the tallest option evaluated here.\n\nMore comfortable eye-level viewing height from a sofa. That's a real strength, but weigh it against the flip side: most expensive pick in this list.",
     specs: [
       "Fits TV up to 80 inches",
       "70 inch width, 30 inch height",
       "100 lb weight capacity",
       "4 door cabinets + 2 adjustable shelves",
       "Curved profile design",
-      "Easy-to-clean surface",
+      "Easy-to-clean surface"
     ],
     pros: [
       "Tallest stand in this list at 30 inches",
       "More comfortable eye-level viewing height from a sofa",
-      "4 cabinet doors plus adjustable shelving",
-      "Strong 4.6 star rating",
+      "4 cabinet doors plus adjustable shelving"
     ],
     cons: [
       "Most expensive pick in this list",
       "Lower weight capacity than the AMADA drawer unit (Pick 4)",
-      "Extra height takes up more vertical wall space",
+      "Extra height takes up more vertical wall space"
     ],
     bestFor: "Buyers with high seating or who prefer a taller stand for a more comfortable eye line",
   },
@@ -183,25 +180,24 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/5145xFEr1jL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXPQT1ZF?tag=deskfinds0d-20",
     description:
-      "The VASAGLE 58 inch Honey Brown TV Stand fits TVs up to 65 inches and pairs 2 enclosed cabinets with 2 open compartments for a mix of hidden and display storage. Tapered legs raise the unit 5.9 inches off the floor, enough clearance for a robot vacuum to pass underneath, and the tabletop surface supports up to 137 pounds. With over 3,300 ratings at 4.5 stars, it is by far the most reviewed stand in this list. Six cable management holes route wiring, and adjustable feet compensate for uneven flooring. at a budget-friendly price, it is the most affordable oak-toned option here and the pick with the largest track record of buyer feedback. Worth calling out specifically: tapered legs allow robot vacuum clearance underneath. The catch is max TV size of 65 inches, smaller than the 70-80 inch picks.",
+      "The VASAGLE 58 inch Honey Brown TV Stand fits TVs up to 65 inches and pairs 2 enclosed cabinets with 2 open compartments for a mix of hidden and display storage. Tapered legs raise the unit 5.9 inches off the floor, enough clearance for a robot vacuum to pass underneath, and the tabletop surface supports up to 137 pounds. Six cable management holes route wiring, and adjustable feet compensate for uneven flooring. at a budget-friendly price, it is the most affordable oak-toned option here and the pick with the largest track record of buyer feedback. Worth calling out specifically: tapered legs allow robot vacuum clearance underneath. The catch is max TV size of 65 inches, smaller than the 70-80 inch picks.",
     specs: [
       "Fits TV up to 65 inches",
       "58 inch width",
       "137 lb tabletop capacity",
       "2 cabinets + 2 open compartments",
       "Tapered legs, 5.9 inch clearance",
-      "6 cable management holes",
+      "6 cable management holes"
     ],
     pros: [
-      "Most-reviewed stand in this list by a wide margin (3,358 ratings)",
       "Tapered legs allow robot vacuum clearance underneath",
       "Adjustable feet for uneven floors",
-      "Most affordable pick in this list",
+      "Most affordable pick in this list"
     ],
     cons: [
       "Max TV size of 65 inches, smaller than the 70-80 inch picks",
       "Honey brown tone reads slightly different from the natural oak finishes above",
-      "137 lb tabletop capacity is lower than the AMADA drawer unit's 220 lb rating",
+      "137 lb tabletop capacity is lower than the AMADA drawer unit's 220 lb rating"
     ],
     bestFor: "Budget-focused buyers who want the most-reviewed, proven oak-toned stand with robot vacuum clearance",
   },
@@ -216,25 +212,23 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51q8o2JPVKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H1R5JBHD?tag=deskfinds0d-20",
     description:
-      "The Hizyrina 70 inch Fluted Sliding Door TV Stand fits TVs up to 75 inches and uses whisper-quiet fluted sliding doors instead of swing-open cabinet doors, which saves floor and furniture clearance space in tighter room layouts. Behind the doors sit 6 hidden compartments, plus 2 open center shelves for items you want visible, like a streaming box.\n\nFour cable management holes keep wiring organized, and reinforced pine cross-brace legs are built in to prevent the frame from sagging over time. At 4.6 stars, the rating is strong, though it is based on only 5 ratings so far, a much smaller sample than most other picks in this list. For anyone tight on clearance in front of the stand, the sliding door format is the differentiator here.\n\n6 hidden compartments plus open display shelves. Set against that, very small review sample (5 ratings) limits confidence in the rating. Both matter when comparing it to the other picks here.",
+      "The Hizyrina 70 inch Fluted Sliding Door TV Stand fits TVs up to 75 inches and uses whisper-quiet fluted sliding doors instead of swing-open cabinet doors, which saves floor and furniture clearance space in tighter room layouts. Behind the doors sit 6 hidden compartments, plus 2 open center shelves for items you want visible, like a streaming box.\n\nFour cable management holes keep wiring organized, and reinforced pine cross-brace legs are built in to prevent the frame from sagging over time. For anyone tight on clearance in front of the stand, the sliding door format is the differentiator here.\n\n6 hidden compartments plus open display shelves. Both matter when comparing it to the other picks here.",
     specs: [
       "Fits TV up to 75 inches",
       "70 inch width",
       "6 hidden compartments + 2 open shelves",
       "Fluted sliding cabinet doors",
       "4 cable management holes",
-      "Reinforced pine cross-brace legs",
+      "Reinforced pine cross-brace legs"
     ],
     pros: [
       "Sliding doors save clearance space versus swing-open doors",
       "6 hidden compartments plus open display shelves",
-      "Reinforced cross-brace legs resist sagging",
-      "Strong 4.6 star rating",
+      "Reinforced cross-brace legs resist sagging"
     ],
     cons: [
-      "Very small review sample (5 ratings) limits confidence in the rating",
       "Sliding doors only allow access to one cabinet side at a time",
-      "Fewer total shelves than some of the larger enclosed cabinet designs in this list",
+      "Fewer total shelves than some of the larger enclosed cabinet designs in this list"
     ],
     bestFor: "Buyers with limited clearance in front of the stand who want a sliding-door cabinet design",
   },
@@ -249,28 +243,27 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Wc4UcBmZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FP16T67B?tag=deskfinds0d-20",
     description:
-      "The LINSY HOME 66 inch Farmhouse TV Stand fits TVs up to 75 inches and carries a 360 pound weight capacity, the highest of any stand in this list. Two glass cabinet doors reveal what's stored inside while still concealing it behind a barrier, blending farmhouse styling with an oak wood grain finish.\n\nThree height-adjustable shelves let you reconfigure the interior layout, and 2-tier cable management routes wiring at multiple points along the back. The surface is water resistant. With over 1,000 ratings at 4.6 stars, it has a solid, well-established review base. For anyone who wants to stack heavier equipment, a large TV, and additional media gear on top, the 360 lb rating gives the most margin in this list.\n\nA genuine advantage here is that glass cabinet doors show contents while staying enclosed. The tradeoff is farmhouse styling may not suit more minimalist or mid-century rooms.",
+      "The LINSY HOME 66 inch Farmhouse TV Stand fits TVs up to 75 inches and carries a 360 pound weight capacity, the highest of any stand in this list. Two glass cabinet doors reveal what's stored inside while still concealing it behind a barrier, blending farmhouse styling with an oak wood grain finish.\n\nThree height-adjustable shelves let you reconfigure the interior layout, and 2-tier cable management routes wiring at multiple points along the back. The surface is water resistant. For anyone who wants to stack heavier equipment, a large TV, and additional media gear on top, the 360 lb rating gives the most margin in this list.\n\nA genuine advantage here is that glass cabinet doors show contents while staying enclosed. The tradeoff is farmhouse styling may not suit more minimalist or mid-century rooms.",
     specs: [
       "Fits TV up to 75 inches",
       "66 inch width",
       "360 lb weight capacity",
       "2 glass cabinet doors",
       "3 height-adjustable shelves",
-      "2-tier cable management",
+      "2-tier cable management"
     ],
     pros: [
       "Highest weight capacity in this list at 360 lbs",
       "Glass cabinet doors show contents while staying enclosed",
-      "3 height-adjustable shelves",
-      "Well-established review base (1,010 ratings)",
+      "3 height-adjustable shelves"
     ],
     cons: [
       "Farmhouse styling may not suit more minimalist or mid-century rooms",
       "Glass doors require more care to keep free of fingerprints and smudges",
-      "Higher price relative to the VASAGLE budget pick (Pick 6)",
+      "Higher price relative to the VASAGLE budget pick (Pick 6)"
     ],
     bestFor: "Buyers who want maximum weight capacity for heavier TVs and stacked media equipment",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -299,16 +292,13 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   {
     q: "What is the best oak TV stand overall?",
-    a: "The OKD 70 inch Mid Century Modern Fluted TV Stand (Pick 1) has the highest rating in this list at 4.7 stars, with soft-close doors, adjustable shelving, and a wide top surface for decor. For a larger TV up to 80 inches, the T4TREAM Fluted TV Stand (Pick 2) is also a strong pick with gold-toned handles.",
+    a: "For a larger TV up to 80 inches, the T4TREAM Fluted TV Stand (Pick 2) is also a strong pick with gold-toned handles.",
   },
   {
     q: "Which oak TV stand fits the largest TVs?",
     a: "The T4TREAM (Pick 2) and IFGET (Pick 4) both fit TVs up to 80 inches, the widest range in this list. If your TV is 65 inches or smaller, the AMADA HOMEFURNISHING (Pick 3) and VASAGLE Honey Brown (Pick 5) are sized more appropriately.",
   },
-  {
-    q: "What is the most affordable oak TV stand in this list?",
-    a: "The VASAGLE 58 inch Honey Brown TV Stand (Pick 5) is the most affordable at $99.99, and it also has by far the largest review base in this list at over 3,300 ratings, giving it a strong track record despite the lower price.",
-  },
+  
   {
     q: "Is fluted paneling on an oak TV stand a passing trend?",
     a: "Fluted paneling has held steady as a popular furniture design element for several years now, appearing across TV stands, dressers, and cabinetry. Several of the picks in this list use fluted detailing, suggesting it remains a mainstream choice for 2026 rather than a fading trend.",
@@ -320,10 +310,10 @@ export const faq: FaqItem[] = [
   {
     q: "Do oak TV stands come with cable management?",
     a: "Yes, all picks in this list include some form of cable routing, ranging from a few holes in the back panel to multi-tier systems like the LINSY HOME's 2-tier cable management. Check the number and placement of holes if your router or outlet sits at an unusual height.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-tv-stand-universal", title: "Best Universal TV Stands in 2026" },
-  { href: "/guide/best-tv-stand-heavy-duty", title: "Best Heavy Duty TV Stands in 2026" },
+  { href: "/guide/best-tv-stand-heavy-duty", title: "Best Heavy Duty TV Stands in 2026" }
 ];

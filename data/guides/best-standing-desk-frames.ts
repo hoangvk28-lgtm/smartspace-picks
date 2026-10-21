@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "standing desk frame";
 export const introParagraphs = [
   "A standing desk frame is only as good as the desktop it ends up supporting, and most Amazon listings bury the compatibility details that actually matter. Crossbar width range, minimum desktop thickness for secure mounting, and grommet hole clearance rarely show up in the title, yet all three determine whether a frame will actually fit the top you already own or plan to buy. We looked past the marketing language on all 8 picks below to focus on what desktop sizes and thicknesses each one genuinely supports.",
-  "Several of these picks ship as complete desks with a top included, which sidesteps compatibility questions entirely, while others are frame-only kits that require matching your own desktop to a stated width range. One pick in this list is a standing desk converter rather than a frame, and we flag that clearly rather than lumping it in with true floor-standing frames. Below we cover 8 options with an honest read on desktop fit, assembly effort, and where a crossbar range can leave your top unsupported at the edges.",
+  "Several of these picks ship as complete desks with a top included, which sidesteps compatibility questions entirely, while others are frame-only kits that require matching your own desktop to a stated width range. One pick in this list is a standing desk converter rather than a frame, and we flag that clearly rather than lumping it in with true floor-standing frames. Below we cover 8 options with an honest read on desktop fit, assembly effort, and where a crossbar range can leave your top unsupported at the edges."
 ];
 export const lastUpdated = "2026-07-26";
 export const readTime = "11 min";
@@ -46,8 +46,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Small Desktops",
     name: "HUANUO 32-inch Small Electric Standing Desk Adjustable Height, 4 Memory Height Settings",
     price: "$75.99",
-    rating: "4.6 stars from 2,226 Amazon ratings",
-    reviews: "2,226 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41ikoMgen5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9X3FDYY?tag=deskfinds0d-20",
     description:
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "4 memory height presets",
       "Fixed top, not swappable",
       "LightWalnut finish",
-      "Compact footprint",
+      "Compact footprint"
     ],
     pros: [
       "No compatibility guesswork, top and frame are matched",
       "Fits small rooms and dorm spaces",
       "Simple 4-preset memory control",
-      "Affordable entry price",
+      "Affordable entry price"
     ],
     cons: [
       "Top is fixed and cannot be swapped for a larger desktop later",
       "Not suited for dual-monitor setups",
-      "Limited desktop depth for accessories",
+      "Limited desktop depth for accessories"
     ],
     bestFor: "Small rooms where a fixed 32-inch desktop is enough and swappable tops are not a priority",
   },
@@ -78,8 +78,8 @@ export const products: GuideProduct[] = [
     badge: "Best Wide Complete Desk",
     name: "Veken 55 Inch Large Electric Standing Desk, Gaming Table, White",
     price: "$109.99",
-    rating: "4.6 stars from 1,747 Amazon ratings",
-    reviews: "1,747 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41k4VBjAQzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWMNPW7D?tag=deskfinds0d-20",
     description:
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "White finish",
       "Fixed top, matched to frame",
       "Electric height adjustment",
-      "Wide surface for dual monitors",
+      "Wide surface for dual monitors"
     ],
     pros: [
       "Top and frame ship pre-matched, zero compatibility risk",
       "Wide 55-inch surface fits dual-monitor setups",
       "Strong review volume and rating",
-      "Competitive price for the size",
+      "Competitive price for the size"
     ],
     cons: [
       "Top cannot be swapped for a different material later",
       "Larger footprint needs more floor space",
-      "White finish shows scuffs more than darker tops",
+      "White finish shows scuffs more than darker tops"
     ],
     bestFor: "Buyers who want a wide, pre-matched desk without sourcing a separate desktop",
   },
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget Frame-Desktop Combo",
     name: "ErGear 48 x 24 Inch Height Adjustable Electric Standing Desk, Black",
     price: "$94.98",
-    rating: "4.5 stars from 11,572 Amazon ratings",
-    reviews: "11,572 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/415He+cLvaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B41YH9B6?tag=deskfinds0d-20",
     description:
@@ -121,18 +121,17 @@ export const products: GuideProduct[] = [
       "Black finish",
       "Fixed top matched to frame",
       "Electric height adjustment",
-      "Largest review base in this guide",
+      "Largest review base in this guide"
     ],
     pros: [
-      "Massive review volume backing a 4.5 star average",
       "No compatibility guesswork with a pre-matched top",
       "Solid mid-size footprint for most home offices",
-      "Affordable price point",
+      "Affordable price point"
     ],
     cons: [
       "24-inch depth is shallow for accessory-heavy setups",
       "Fixed top, no swapping for a different desktop",
-      "Not the widest option if you need more surface area",
+      "Not the widest option if you need more surface area"
     ],
     bestFor: "Buyers who want a proven, high-volume pick at a standard 48x24 footprint",
   },
@@ -142,8 +141,8 @@ export const products: GuideProduct[] = [
     badge: "Best Desktop Material Upgrade",
     name: "FEZIBO Standing Desk, 48 x 24 Inches Electric Height Adjustable, with Splice Board, White Frame/Maple Top",
     price: "$99.99",
-    rating: "4.5 stars from 8,463 Amazon ratings",
-    reviews: "8,463 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/418JjdqdnpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8MHPVPH?tag=deskfinds0d-20",
     description:
@@ -153,18 +152,18 @@ export const products: GuideProduct[] = [
       "White frame, maple top finish",
       "Fixed top matched to frame",
       "Electric height adjustment",
-      "Strong review base",
+      "Strong review base"
     ],
     pros: [
       "Two-tone maple top adds visual interest over plain laminate",
       "Thicker top better supports grommet-mounted accessories",
       "High review volume with solid rating",
-      "No compatibility guesswork",
+      "No compatibility guesswork"
     ],
     cons: [
       "Fixed top, cannot be swapped for a different size later",
       "24-inch depth limits accessory placement",
-      "White frame may show marks over time",
+      "White frame may show marks over time"
     ],
     bestFor: "Buyers who want a thicker desktop for mounting a monitor arm or other grommet accessories",
   },
@@ -174,8 +173,8 @@ export const products: GuideProduct[] = [
     badge: "Best for a Rustic Look",
     name: "Claiks Electric Standing Desk, 24x48 Inches, Black Frame/Rustic Brown Top",
     price: "$99.99",
-    rating: "4.4 stars from 5,316 Amazon ratings",
-    reviews: "5,316 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41oErF+y4gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BZ7GXM4M?tag=deskfinds0d-20",
     description:
@@ -185,18 +184,18 @@ export const products: GuideProduct[] = [
       "Black frame, rustic brown top",
       "Fixed top matched to frame",
       "Electric height adjustment",
-      "Splice board top design",
+      "Splice board top design"
     ],
     pros: [
       "Rustic brown finish suits a warmer home office look",
       "No compatibility guesswork with a matched top",
       "Solid review base for the price",
-      "Comparable footprint to other budget picks",
+      "Comparable footprint to other budget picks"
     ],
     cons: [
       "Slightly lower rating than similarly priced picks",
       "Fixed top, no swapping later",
-      "24-inch depth limits larger accessory setups",
+      "24-inch depth limits larger accessory setups"
     ],
     bestFor: "Buyers who want a rustic wood-look top without paying for solid wood",
   },
@@ -206,8 +205,8 @@ export const products: GuideProduct[] = [
     badge: "Best for Cable and Accessory Routing",
     name: "Huuger Electric Standing Desk with Power Outlets and USB-C Port, 47 x 24 Inch",
     price: "$104.99",
-    rating: "4.6 stars from 155 Amazon ratings",
-    reviews: "155 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41rUtvN6YIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GS9B1X5X?tag=deskfinds0d-20",
     description:
@@ -217,18 +216,18 @@ export const products: GuideProduct[] = [
       "Built-in power outlets and USB-C port",
       "Fixed top matched to frame",
       "Stable steel frame",
-      "4 height presets",
+      "4 height presets"
     ],
     pros: [
       "Built-in outlets simplify cable and accessory routing",
       "USB-C port adds device charging without extra cables",
       "Reasonable price for the added features",
-      "Solid steel frame construction",
+      "Solid steel frame construction"
     ],
     cons: [
       "Lowest review count in this guide, smaller confidence sample",
       "24-inch depth limits accessory setups",
-      "Fixed top, no swapping later",
+      "Fixed top, no swapping later"
     ],
     bestFor: "Buyers who want built-in power routing without a separate power strip",
   },
@@ -238,8 +237,8 @@ export const products: GuideProduct[] = [
     badge: "Best Deep Desktop",
     name: "Huuger 55 x 28 Large Electric Standing Desk, 27.6-inch Deep Desktop, Rustic Brown",
     price: "$139.99",
-    rating: "4.4 stars from 555 Amazon ratings",
-    reviews: "555 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41oHg37v77L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT3Y1X96?tag=deskfinds0d-20",
     description:
@@ -249,18 +248,18 @@ export const products: GuideProduct[] = [
       "Rustic Brown finish",
       "2 hooks included",
       "3 preset heights",
-      "Fixed top matched to frame",
+      "Fixed top matched to frame"
     ],
     pros: [
       "Deepest desktop in this guide at 27.6 inches",
       "Extra surface room for accessories and monitor arms",
       "Included hooks for headphones or bags",
-      "No compatibility guesswork with a matched top",
+      "No compatibility guesswork with a matched top"
     ],
     cons: [
       "Only 3 height presets versus 4 on other picks",
       "Larger footprint needs more floor space",
-      "Higher price than the compact options",
+      "Higher price than the compact options"
     ],
     bestFor: "Buyers who need extra desktop depth for a monitor arm base or multiple accessories",
   },
@@ -270,8 +269,8 @@ export const products: GuideProduct[] = [
     badge: "Best Converter Alternative (Not a Frame)",
     name: "VIVO Height Adjustable 42 Inch Standing Desk Converter with Dual Monitor Stand",
     price: "$219.99",
-    rating: "4.5 stars from 598 Amazon ratings",
-    reviews: "598 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41daFWT9JPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CNH9SQT7?tag=deskfinds0d-20",
     description:
@@ -281,21 +280,21 @@ export const products: GuideProduct[] = [
       "42-inch width",
       "Dual 13 to 30 inch monitor stand built in",
       "Sits on top of an existing desk",
-      "No floor assembly required",
+      "No floor assembly required"
     ],
     pros: [
       "No floor assembly, sits directly on an existing desk",
       "Built-in dual monitor stand saves a separate purchase",
       "Good option for renters who cannot install a fixed frame",
-      "Solid rating for the category",
+      "Solid rating for the category"
     ],
     cons: [
       "Not a floor-standing frame, a different product category entirely",
       "Requires an existing desk underneath it",
-      "Reduces usable desktop depth once installed",
+      "Reduces usable desktop depth once installed"
     ],
     bestFor: "Renters or buyers who want sit-stand adjustment without installing a fixed frame",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +322,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value relative to desktop size and features",
     description: "Weighed price against desktop dimensions, included accessories like outlets or hooks, and review volume to judge which picks offer the strongest value per square inch.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -477,12 +476,12 @@ export const faq: FaqItem[] = [
   {
     q: "Which pick has the deepest desktop for a monitor arm base?",
     a: "The Huuger 55x28 has a 27.6-inch deep desktop, the deepest in this guide, giving extra clearance for a monitor arm base or multiple accessories without crowding the front edge.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-standing-desks-with-built-in-power-outlets", title: "Best Standing Desks with Built-In Power Outlets (2026)" },
   { href: "/guide/best-standing-desks-under-1000", title: "Best Standing Desks Under $1,000 (2026)" },
   { href: "/guide/best-4-leg-standing-desks", title: "Best Standing Desk Frames for Small Home Offices (2026)" },
-  { href: "/guide/best-dual-motor-standing-desks", title: "Best Dual-Motor Standing Desks (2026)" },
+  { href: "/guide/best-dual-motor-standing-desks", title: "Best Dual-Motor Standing Desks (2026)" }
 ];

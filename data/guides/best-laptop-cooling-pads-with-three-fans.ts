@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop cooling pad three fans";
 export const introParagraphs = [
   "Three fans is a common middle-ground fan count in this category, often marketed as a balance between the airflow of a higher fan-count pad and the lower noise and price of a two-fan pad. We checked the actual feature text of each candidate pad against its title, since several listings in this space use fan-count language loosely that does not match the real specs underneath.",
-  "Of the candidates we reviewed for this specific claim, three genuinely ship with exactly three fans based on their own listed feature text. This guide compares those three on stated RPM, noise level, height adjustment, and USB port design so you can pick the three-fan pad that matches your desk setup and laptop size.",
+  "Of the candidates we reviewed for this specific claim, three genuinely ship with exactly three fans based on their own listed feature text. This guide compares those three on stated RPM, noise level, height adjustment, and USB port design so you can pick the three-fan pad that matches your desk setup and laptop size."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -75,7 +75,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Fan-count verification", description: "We read the actual feature text of each candidate pad and excluded any that used 'three fan' style marketing language without the specs underneath genuinely confirming that count." },
   { title: "Stated RPM and noise evidence", description: "We compared stated fan speed and any dBA figures provided, weighting a specific noise number more heavily than a general 'quiet' claim with no evidence behind it." },
   { title: "Laptop size compatibility range", description: "We compared the stated inch range for each pad, since three-fan pads in this pool ranged from 12 inches up to 17 inches." },
-  { title: "Height adjustment and USB design", description: "We compared the number of height settings and whether a free USB passthrough port was included in addition to the port needed to power the pad itself." },
+  { title: "Height adjustment and USB design", description: "We compared the number of height settings and whether a free USB passthrough port was included in addition to the port needed to power the pad itself." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -211,11 +211,11 @@ export const faq: FaqItem[] = [
   { q: "Are all pads marketed with 'three fans' actually three fans?", a: "No. We checked the actual feature text of every candidate pad in this pool and excluded any where the listed specs did not genuinely confirm three fans." },
   { q: "Why does laptop size compatibility vary between these picks?", a: "Different pads are built for different chassis dimensions. The picks here range from 12 to 17 inch compatibility, so check your laptop's actual size against the listing before buying." },
   { q: "Is a documented dBA figure trustworthy?", a: "It is more useful than a vague quiet claim since it gives you a real number to compare against other pads, though it is still a manufacturer-stated figure until verified by independent buyer feedback." },
-  { q: "Should I buy a three-fan pad for gaming?", a: "It depends on your laptop and workload. For moderate gaming sessions three well-specced fans can be enough, but sustained heavy loads on larger gaming laptops may benefit from a higher fan-count pad instead." },
+  { q: "Should I buy a three-fan pad for gaming?", a: "It depends on your laptop and workload. For moderate gaming sessions three well-specced fans can be enough, but sustained heavy loads on larger gaming laptops may benefit from a higher fan-count pad instead." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-cooling-pads-with-two-fans", title: "Best Laptop Cooling Pads with Two Fans (2026)" },
   { href: "/guide/best-laptop-cooling-pads-with-five-fans", title: "Best Laptop Cooling Pads with Five Fans (2026)" },
-  { href: "/guide/best-laptop-cooling-pads-with-six-fans", title: "Best Laptop Cooling Pads with Six Fans (2026)" },
+  { href: "/guide/best-laptop-cooling-pads-with-six-fans", title: "Best Laptop Cooling Pads with Six Fans (2026)" }
 ];

@@ -269,7 +269,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Define the all-in-one 360 room system capability floor",
-    "explanation": "Define the all-in-one 360 room system capability floor: Current Meeting Owl 3 at $1,099 fits. Camera + mic + speaker + 360° speaker framing becomes a real capability floor. Do not expand the list with products that fail the core category definition just to reach a target number of picks. This matters directly when comparing the picks in this guide, since two products near the same price point often differ meaningfully on this exact point once you look past the headline spec. Check the specific listing for this detail rather than assuming parity across similarly priced options, and weigh it against your actual use case before deciding between two close picks in this price tier."
+    "explanation": "Define the all-in-one 360 room system capability floor: Current Meeting Owl 3 at under $1,100 fits. Camera + mic + speaker + 360° speaker framing becomes a real capability floor. Do not expand the list with products that fail the core category definition just to reach a target number of picks. This matters directly when comparing the picks in this guide, since two products near the same price point often differ meaningfully on this exact point once you look past the headline spec. Check the specific listing for this detail rather than assuming parity across similarly priced options, and weigh it against your actual use case before deciding between two close picks in this price tier."
   },
   {
     "criterion": "Make camera architecture/FOV + room-distance image quality",

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "ergonomic keyboard for wrist pain";
 export const introParagraphs = [
   "An ergonomic keyboard can help reduce the wrist strain that builds up from hours of typing on a flat, positive-tilt layout, but it is worth being direct about what it can and cannot do. A keyboard is not medical treatment. If you already have symptoms of carpal tunnel syndrome, such as pain, numbness, tingling, or weakness in your hand or wrist, the right next step is seeing a doctor, not buying a new keyboard and hoping it resolves on its own. What a well-designed ergonomic keyboard can realistically offer is prevention for people who are symptom-free but spend long hours typing, or mild relief as one part of a broader routine that also includes posture, break frequency, and mouse choice.",
-  "Below are 8 ergonomic keyboards we evaluated on split or wave layout, tenting and tilt options, wrist support design, and build quality, ranging from a $44.99 wired split keyboard to a $221.23 keyboard and vertical mouse bundle. Each pick is matched to a specific buyer situation rather than ranked as a single universal best, since wrist comfort depends heavily on your hand size, typing style, and how long you sit at a desk each day.",
+  "Below are 8 ergonomic keyboards we evaluated on split or wave layout, tenting and tilt options, wrist support design, and build quality, ranging from an under-$45 wired split keyboard to an under-$250 keyboard and vertical mouse bundle. Each pick is matched to a specific buyer situation rather than ranked as a single universal best, since wrist comfort depends heavily on your hand size, typing style, and how long you sit at a desk each day."
 ];
 export const lastUpdated = "2026-07-23";
 export const readTime = "10 min";
@@ -195,7 +195,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Connection reliability and setup",
     description: "Compared wired, Bluetooth, and 2.4G receiver connections for consistency, since a dropped connection during typing can lead to compensatory hand movements that add strain.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -356,11 +356,11 @@ export const faq: FaqItem[] = [
   {
     q: "How long does it take to adjust to a split or wave ergonomic keyboard?",
     a: "Most people notice a temporary dip in typing speed for the first one to two weeks as their hands relearn key positions and hand placement on a new layout. This is normal. Give a new keyboard a fair trial period of a couple of weeks before deciding whether it's working for you.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mechanical-keyboards", title: "8 Best Mechanical Keyboards (2026)" },
   { href: "/guide/best-wireless-mechanical-keyboards", title: "8 Best Wireless Mechanical Keyboards (2026)" },
-  { href: "/guide/best-ergonomic-keyboards", title: "7 Best Ergonomic Keyboards (2026)" },
+  { href: "/guide/best-ergonomic-keyboards", title: "7 Best Ergonomic Keyboards (2026)" }
 ];

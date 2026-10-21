@@ -12,7 +12,7 @@ export const smallSpaceTroubleshootingGuide: Guide = {
     "small desk feels cluttered fix",
     "cramped legroom desk fix",
     "small desk area overheating fix",
-    "tight desk space problems",
+    "tight desk space problems"
   ],
   heroImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const smallSpaceTroubleshootingGuide: Guide = {
     "compact-desk-accessory-checklist",
     "loft-bed-desk-setup-explained",
     "desk-declutter-checklist",
-    "cable-management-types-explained",
+    "cable-management-types-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const smallSpaceTroubleshootingGuide: Guide = {
       question: "Is it worth buying multi-function furniture for a small desk area?",
       answer:
         "Yes generally, furniture serving double duty, a desk with built-in storage, a chair that also serves as extra seating elsewhere, reduces the total furniture footprint needed in a small space compared to separate single-purpose pieces.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const smallSpaceTroubleshootingGuide: Guide = {
     {
       heading: "Why Small Enclosed Spaces Need Deliberate Air Circulation Consideration",
       body: `A desk tucked into a tight nook, under a loft bed, in a converted closet, or in a room corner with limited airflow, doesn't benefit from the same natural air circulation an open room desk area receives, this can make the space feel noticeably warmer and less comfortable during extended work sessions, particularly in warmer months. Addressing this directly with a small fan, or checking that nearby doors, vents, or windows aren't inadvertently blocked by furniture placement, resolves a comfort issue that's easy to attribute incorrectly to general room temperature rather than the specific enclosed nature of the desk nook itself.`,
-    },
+    }
   ],
 };

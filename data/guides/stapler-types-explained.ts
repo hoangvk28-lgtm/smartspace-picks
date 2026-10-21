@@ -12,7 +12,7 @@ export const staplerTypesExplainedGuide: Guide = {
     "heavy duty stapler worth it",
     "electric stapler vs manual",
     "standard stapler sheet capacity",
-    "best stapler for thick documents",
+    "best stapler for thick documents"
   ],
   heroImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const staplerTypesExplainedGuide: Guide = {
     "gel-vs-ballpoint-pen-explained",
     "paper-shredder-security-levels-explained",
     "desk-organizer-types-explained",
-    "desk-drawer-organizer-vs-tray",
+    "desk-drawer-organizer-vs-tray"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const staplerTypesExplainedGuide: Guide = {
       question: "Does stapler type affect how flat the finished staple sits?",
       answer:
         "Some staplers include a flat-clinch feature that folds the staple legs completely flat rather than the standard slightly raised finish, useful for documents that will be stacked or filed where a raised staple back could catch or create bulk.",
-    },
+    }
   ],
   sections: [
     {
@@ -73,6 +73,6 @@ export const staplerTypesExplainedGuide: Guide = {
     {
       heading: "Why Electric Staplers Solve a Repetitive Strain Problem, Not Just a Speed Problem",
       body: `While electric staplers do complete each staple faster than manual pressing, their more significant practical benefit for high-volume use is reducing the physical repetitive strain on your hand and wrist from pressing a manual stapler dozens or hundreds of times in a row, a real consideration for anyone regularly processing large batches of documents. For occasional, low-volume stapling, this repetitive strain concern doesn't apply meaningfully, making the simpler, cheaper manual stapler the more practical choice.`,
-    },
+    }
   ],
 };

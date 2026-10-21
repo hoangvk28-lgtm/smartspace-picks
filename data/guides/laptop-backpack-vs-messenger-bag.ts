@@ -12,7 +12,7 @@ export const laptopBackpackVsMessengerBagGuide: Guide = {
     "messenger bag vs backpack for laptop",
     "best bag for commuting with laptop",
     "backpack weight distribution laptop",
-    "messenger bag shoulder strain",
+    "messenger bag shoulder strain"
   ],
   heroImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=1200&auto=format&fit=crop",
   thumbnailImage: "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?q=80&w=800&auto=format&fit=crop",
@@ -24,7 +24,7 @@ export const laptopBackpackVsMessengerBagGuide: Guide = {
     "laptop-sleeve-vs-hard-case",
     "laptop-stand-vs-laptop-riser",
     "cable-sleeve-size-chart",
-    "laptop-cooling-pad-effectiveness-explained",
+    "laptop-cooling-pad-effectiveness-explained"
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const laptopBackpackVsMessengerBagGuide: Guide = {
       question: "Does one-shoulder carrying actually cause meaningful physical strain over time?",
       answer:
         "Yes, consistently carrying weight on one shoulder, as a messenger bag does, can contribute to postural imbalance and shoulder or back discomfort over time, particularly with heavier loads or longer carrying durations, switching shoulders periodically helps but doesn't fully eliminate this asymmetric loading.",
-    },
+    }
   ],
   sections: [
     {
@@ -74,6 +74,6 @@ export const laptopBackpackVsMessengerBagGuide: Guide = {
     {
       heading: "Why Access Convenience Is a Legitimate Competing Priority",
       body: `For someone who frequently needs to grab items from their bag throughout the day, transit passes, a phone, documents for a quick reference, without fully removing and setting down the bag each time, a messenger bag's design genuinely serves this need better than a backpack, which typically requires taking it off to access its main compartment comfortably. This convenience tradeoff against the physical strain difference is a legitimate factor in choosing bag style based on your actual daily usage pattern, not simply defaulting to whichever style is generally recommended as more ergonomic.`,
-    },
+    }
   ],
 };

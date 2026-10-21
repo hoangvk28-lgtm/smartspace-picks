@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "laptop cooling pad five fans";
 export const introParagraphs = [
   "Five fans sits between the common three and six fan tiers in this category, and it is a fan count that gets claimed loosely in a lot of marketing copy. We checked the actual feature text of every candidate pad against its title and searched the wider product pool for any pad genuinely confirming five fans in its own specs, not just a title that implies it.",
-  "After checking the full candidate pool, we found only two cooling pads that genuinely ship with exactly five fans based on their own listed feature text. That is fewer than the typical roundup size, and we are shipping this guide with two picks rather than padding the list with pads whose real fan count does not match this guide's title. Both compared here on fan configuration, height range, and USB design.",
+  "After checking the full candidate pool, we found only two cooling pads that genuinely ship with exactly five fans based on their own listed feature text. That is fewer than the typical roundup size, and we are shipping this guide with two picks rather than padding the list with pads whose real fan count does not match this guide's title. Both compared here on fan configuration, height range, and USB design."
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "6 min";
@@ -59,7 +59,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Fan-count verification against the full candidate pool", description: "We checked the actual feature text of every candidate pad, and beyond these two, searched the wider product pool for any pad genuinely confirming five fans. Only these two verified out." },
   { title: "Fan configuration, not just total count", description: "We compared how the five fans are arranged, one big plus four small versus one small plus four big, since fan placement affects where cooling is concentrated under the laptop." },
   { title: "Height adjustment and laptop size range", description: "We compared the number of height settings and the stated laptop compatibility range, since one pick covers up to 17 inches and the other tops out at 15.6 inches." },
-  { title: "USB and control scheme", description: "We compared staged fan-count switching versus a simple on/off wheel, and whether a free USB passthrough port was included." },
+  { title: "USB and control scheme", description: "We compared staged fan-count switching versus a simple on/off wheel, and whether a free USB passthrough port was included." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -191,11 +191,11 @@ export const faq: FaqItem[] = [
   { q: "Is five fans better than three or six fans?", a: "Not automatically. Fan size, arrangement, and vent alignment with your laptop matter more than raw fan count. Five fans sits between the more common three and six fan tiers in this category." },
   { q: "What does a staged fan switch actually do?", a: "On the Kootek pick, two switches let you choose between running just the big fan, the four small fans, or all five together, so you can scale airflow and noise to your workload instead of an all-or-nothing setting." },
   { q: "Will a five-fan pad fit a 17-inch laptop?", a: "The Kootek pick is rated up to 17 inches. The AIMIUZI pick tops out at 15.6 inches, so check your laptop's actual size against each listing before buying." },
-  { q: "Are the noise levels of these pads documented?", a: "Neither of the two genuine five-fan pads we found states a specific dBA figure. Both use general quiet claims, so treat those as a starting point rather than verified proof." },
+  { q: "Are the noise levels of these pads documented?", a: "Neither of the two genuine five-fan pads we found states a specific dBA figure. Both use general quiet claims, so treat those as a starting point rather than verified proof." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-cooling-pads-with-three-fans", title: "Best Laptop Cooling Pads with Three Fans (2026)" },
   { href: "/guide/best-laptop-cooling-pads-with-six-fans", title: "Best Laptop Cooling Pads with Six Fans (2026)" },
-  { href: "/guide/best-laptop-cooling-pads-with-two-fans", title: "Best Laptop Cooling Pads with Two Fans (2026)" },
+  { href: "/guide/best-laptop-cooling-pads-with-two-fans", title: "Best Laptop Cooling Pads with Two Fans (2026)" }
 ];

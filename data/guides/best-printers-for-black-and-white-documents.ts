@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "printer for black and white documents";
 export const introParagraphs = [
   "Printing in black and white sounds like a simple, single category of need, but it actually spans two different jobs: crisp text documents and grayscale photos or graphics. The printer that wins one doesn't automatically win the other, and most buying guides don't separate the two clearly.",
-  "Below are 8 printers we evaluated for black-and-white output, including both dedicated laser engines and color printers used in B&W mode, since most households already own or are considering a color-capable printer rather than a mono-only machine. We break down text versus grayscale photo quality, when a color printer in B&W mode is genuinely fine versus when a dedicated mono laser pays off, and the toner-save mode most people never turn on.",
+  "Below are 8 printers we evaluated for black-and-white output, including both dedicated laser engines and color printers used in B&W mode, since most households already own or are considering a color-capable printer rather than a mono-only machine. We break down text versus grayscale photo quality, when a color printer in B&W mode is genuinely fine versus when a dedicated mono laser pays off, and the toner-save mode most people never turn on."
 ];
 export const lastUpdated = "2026-07-25";
 export const readTime = "10 min";
@@ -57,18 +57,18 @@ export const products: GuideProduct[] = [
       "Duplex printing",
       "Wireless + mobile printing",
       "No idle-toner drying risk",
-      "Toner-save mode available",
+      "Toner-save mode available"
     ],
     pros: [
       "Sharpest text output in this list",
       "No idle-ink drying risk between print jobs",
       "Lower cost per page at higher text volume",
-      "Fast, consistent duplex printing",
+      "Fast, consistent duplex printing"
     ],
     cons: [
       "Grayscale photos and gradients can show banding",
       "Monochrome only, no color option",
-      "Highest upfront price in this list",
+      "Highest upfront price in this list"
     ],
     bestFor: "Households where 90%+ of printing is black-and-white text",
   },
@@ -89,18 +89,18 @@ export const products: GuideProduct[] = [
       "Automatic duplex printing",
       "Wired USB connection only",
       "No idle-toner drying risk",
-      "Compact home office design",
+      "Compact home office design"
     ],
     pros: [
       "Lowest price for a true laser printer in this list",
       "No wireless dropout issues since it's wired only",
       "Automatic duplex printing",
-      "No idle-ink drying risk",
+      "No idle-ink drying risk"
     ],
     cons: [
       "No wireless connectivity",
       "Grayscale photos can show banding",
-      "Monochrome only",
+      "Monochrome only"
     ],
     bestFor: "Budget-friendly, wired text document printing without wireless hassle",
   },
@@ -121,18 +121,18 @@ export const products: GuideProduct[] = [
       "Auto document feeder",
       "35 ppm print speed",
       "Duplex printing",
-      "3-year limited warranty",
+      "3-year limited warranty"
     ],
     pros: [
       "Text as sharp as a dedicated mono laser in B&W mode",
       "Color capability available when needed",
       "Fast 35ppm output",
-      "Auto document feeder for multi-page scanning",
+      "Auto document feeder for multi-page scanning"
     ],
     cons: [
       "Much higher price than a dedicated mono laser",
       "Color toner set costs more to maintain even if rarely used",
-      "Large footprint compared to mono-only lasers",
+      "Large footprint compared to mono-only lasers"
     ],
     bestFor: "Households that want laser-sharp B&W text but also need color sometimes",
   },
@@ -153,18 +153,18 @@ export const products: GuideProduct[] = [
       "19 ppm print speed",
       "250-sheet paper tray",
       "Duplex printing",
-      "Mobile device compatible",
+      "Mobile device compatible"
     ],
     pros: [
       "Laser-sharp text in B&W mode at a lower price than the Canon",
       "Large 250-sheet tray reduces refill frequency",
       "Color available when occasionally needed",
-      "Duplex printing standard",
+      "Duplex printing standard"
     ],
     cons: [
       "No built-in scanner",
       "Costs more to maintain than a mono-only laser if used mostly in B&W",
-      "Slower than the higher-end Canon",
+      "Slower than the higher-end Canon"
     ],
     bestFor: "Mostly-B&W printing with occasional color needs at a lower laser price",
   },
@@ -185,18 +185,18 @@ export const products: GuideProduct[] = [
       "Auto document feeder",
       "Duplex print and scan",
       "3-month Instant Ink trial",
-      "Best-for-Office rated",
+      "Best-for-Office rated"
     ],
     pros: [
       "Smoother grayscale gradients than any laser pick here",
       "Auto document feeder and duplex scanning",
       "Handles both text and grayscale photo work",
-      "Color available when needed",
+      "Color available when needed"
     ],
     cons: [
       "Text edges softer than any laser pick",
       "Standard idle-ink drying risk of any cartridge inkjet",
-      "Higher price than the budget laser picks",
+      "Higher price than the budget laser picks"
     ],
     bestFor: "Mixed text and grayscale photo or graphic printing",
   },
@@ -217,18 +217,18 @@ export const products: GuideProduct[] = [
       "Scan, copy, fax built in",
       "Grayscale-friendly gradient output",
       "Wireless connectivity",
-      "Mid-range price point",
+      "Mid-range price point"
     ],
     pros: [
       "Smoother grayscale gradients than laser",
       "Full scan, copy, fax feature set",
       "Lower price than the color laser picks",
-      "Good all-around fit for mixed text and photo needs",
+      "Good all-around fit for mixed text and photo needs"
     ],
     cons: [
       "Text edges softer than any laser pick",
       "Idle-ink drying risk between uses",
-      "No true toner-save draft mode",
+      "No true toner-save draft mode"
     ],
     bestFor: "Budget-conscious households mixing text and grayscale photo printing",
   },
@@ -249,18 +249,18 @@ export const products: GuideProduct[] = [
       "Automatic 2-sided copy and scan",
       "2.7-inch color touchscreen",
       "Wireless color inkjet, not laser",
-      "Reduced cartridge replacement frequency",
+      "Reduced cartridge replacement frequency"
     ],
     pros: [
       "High-capacity cartridges for higher volume",
       "Automatic duplex copy and scan",
       "Better grayscale gradients than laser",
-      "Color touchscreen simplifies multi-user households",
+      "Color touchscreen simplifies multi-user households"
     ],
     cons: [
       "Text softer than any laser pick here",
       "Higher price than the budget laser picks",
-      "Not a laser, despite higher-volume capability",
+      "Not a laser, despite higher-volume capability"
     ],
     bestFor: "Higher-volume mixed text and grayscale printing without a laser",
   },
@@ -281,21 +281,21 @@ export const products: GuideProduct[] = [
       "Duplex printing",
       "Compact design",
       "Strong grayscale gradient handling",
-      "USB and wireless connectivity",
+      "USB and wireless connectivity"
     ],
     pros: [
       "Best grayscale photo quality in this list",
       "Duplex printing included",
       "Compact footprint",
-      "Handles both text and photo printing reasonably",
+      "Handles both text and photo printing reasonably"
     ],
     cons: [
       "Text softer than any laser pick here",
       "Not suited to high-volume text printing",
-      "Idle-ink drying risk between uses",
+      "Idle-ink drying risk between uses"
     ],
     bestFor: "Grayscale photo and design printing alongside occasional text",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Long-term quality consistency",
     description: "Considered drum contamination and ghost-imaging risk on laser picks as a long-term quality factor beyond the first few thousand pages.",
-  },
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -473,11 +473,11 @@ export const faq: FaqItem[] = [
   {
     q: "Which pick in this list is best for grayscale photos specifically?",
     a: "The Epson XP-7100, a photo-focused color inkjet, produces the smoothest grayscale gradients in this list. Any of the laser picks will beat it on plain text sharpness but can show banding on photo-style grayscale content.",
-  },
+  }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-monochrome-laser-printers-for-home-offices", title: "Best Monochrome Laser Printers for Home Offices (2026)" },
   { href: "/guide/best-printers-for-documents", title: "Best Printers for Documents (2026)" },
-  { href: "/guide/best-printers-for-low-volume-printing", title: "Best Printers for Low-Volume Printing (2026)" },
+  { href: "/guide/best-printers-for-low-volume-printing", title: "Best Printers for Low-Volume Printing (2026)" }
 ];

@@ -5,7 +5,7 @@ export const metaDescription = "Five heated foot warmers all priced at $30 or le
 export const mainKeyword = "foot warmer under $30";
 export const introParagraphs = [
   "Thirty dollars is enough for a real heated foot warmer, but it forces a choice: you get either a generous desk-sized pad that doubles as a mouse mat, a small soft USB pad, or a single-purpose pair of spa booties. What you rarely get at this price is a long cord, a big battery or a big list of certifications.",
-  "All five picks below cost $23.99 or less at the time of the data we reviewed, so none stretch the budget. We compared them on listed specs: temperature steps, auto shut-off, size, power type and whether the surface can be wiped or washed. A few of these are marketed first as heated desk pads, which works for feet but changes how you place them. These are comfort items, not medical devices."
+  "All five picks below cost under $25 or less at the time of the data we reviewed, so none stretch the budget. We compared them on listed specs: temperature steps, auto shut-off, size, power type and whether the surface can be wiped or washed. A few of these are marketed first as heated desk pads, which works for feet but changes how you place them. These are comfort items, not medical devices."
 ];
 export const lastUpdated = "2026-10-21";
 export const readTime = "9 min";
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     "reviews": null,
     "imageUrl": "https://m.media-amazon.com/images/I/31-teaYTxfL._SL500_.jpg",
     "amazonUrl": "https://www.amazon.com/dp/B09B9TJL8V?tag=deskfinds0d-20",
-    "description": "This USB powered pad is made of velvet and flannel and measures about 11.8 by 11.4 inches. It is washable by hand and the listing says it can also warm a shoulder or lap.\n\nIt is the cheapest pick at $17.59 and the softest, but it draws power from a USB source, so it will not heat like the wall-powered pads above. Against ForPro below, it is a pad you rest feet on rather than a bootie you wear.\n\nIt suits sock feet at a desk with a free USB port. The caveat is that the listing names no heat levels or timer duration and makes loose health claims we did not rely on.",
+    "description": "This USB powered pad is made of velvet and flannel and measures about 11.8 by 11.4 inches. It is washable by hand and the listing says it can also warm a shoulder or lap.\n\nIt is the cheapest pick at under $20 and the softest, but it draws power from a USB source, so it will not heat like the wall-powered pads above. Against ForPro below, it is a pad you rest feet on rather than a bootie you wear.\n\nIt suits sock feet at a desk with a free USB port. The caveat is that the listing names no heat levels or timer duration and makes loose health claims we did not rely on.",
     "specs": [
       "USB powered",
       "About 11.8 x 11.4 inches",

@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "smart display under monitor";
 export const introParagraphs = [
   "Fitting a smart display under or directly beside a monitor without blocking your view requires genuine shortness, not just a small screen diagonal. Out of our verified research pool, only the compact Echo Show 5 and the 7 inch Nest Hub are short enough to sit low beside a monitor without competing for eye-level space.",
-  "The 10 and 15 inch models we cover in other guides are simply too tall and wide for this specific placement, they belong beside your desk setup or on an adjacent surface, not tucked directly under a monitor. We excluded them here rather than pretend they fit this narrow use case.",
+  "The 10 and 15 inch models we cover in other guides are simply too tall and wide for this specific placement, they belong beside your desk setup or on an adjacent surface, not tucked directly under a monitor. We excluded them here rather than pretend they fit this narrow use case."
 ];
 export const lastUpdated = "2026-08-06";
 export const readTime = "6 min";

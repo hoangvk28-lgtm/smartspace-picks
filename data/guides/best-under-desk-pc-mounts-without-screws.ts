@@ -7,7 +7,7 @@ export const mainKeyword = "under-desk PC mount no screws";
 export const introParagraphs = [
   "This keyword overlaps significantly with the broader no-drill PC mount research already covering renter-friendly mounting generally, worth clarifying whether 'without screws' represents that same no-drill category or a genuinely distinct mounting approach before assuming these are unrelated product searches.",
   "Where a product is genuinely distinct from clamp-based no-drill designs, the specific alternative mechanism, adhesive, friction-fit, or a weighted base, carries its own particular weight-capacity implications worth understanding before trusting a single tower's full weight to it.",
-  "Long-term holding reliability under a PC's sustained weight without screws deserves real scrutiny, since a heavier-than-typical accessory like a full PC tower puts more sustained stress on a screw-free mechanism than lighter items a clamp might normally hold.",
+  "Long-term holding reliability under a PC's sustained weight without screws deserves real scrutiny, since a heavier-than-typical accessory like a full PC tower puts more sustained stress on a screw-free mechanism than lighter items a clamp might normally hold."
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
@@ -27,8 +27,8 @@ export const products: GuideProduct[] = [
     badge: "Best Under-Desk PC Mount Without Screws Overall",
     name: "VIVO Adjustable Under Desk and Wall Mount for PC 3.5-7.8 inches Wide, Computer Case CPU Holder with Swivel and Secure Locking, White, MOUNT-PC01W",
     price: "$39.99",
-    rating: "4.3 stars from 2,617 Amazon ratings",
-    reviews: "2,617 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31uhG0Am6qL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B082FNNX49?tag=deskfinds0d-20",
     description:
@@ -44,8 +44,8 @@ export const products: GuideProduct[] = [
     badge: "Best Strap-and-Bracket Alternative Mechanism",
     name: "VIVO Under-Desk and Wall Mount PC Adjustable Strap and Steel Bracket Holder, Computer Case Carrier, Black, MOUNT-PC02S",
     price: "$19.99",
-    rating: "4.3 stars from 551 Amazon ratings",
-    reviews: "551 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/418wmGky6tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B078JXC9X8?tag=deskfinds0d-20",
     description:
@@ -61,8 +61,8 @@ export const products: GuideProduct[] = [
     badge: "Best Heavy-Capacity No-Drill Pick",
     name: "monTEK Under Desk PC Mount, Fits 16.1-25.6\" PC Cases, Max 66lbs, White",
     price: "$71.99",
-    rating: "4.2 stars from 46 Amazon ratings",
-    reviews: "46 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/31+gGe7234L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHVD4QZ6?tag=deskfinds0d-20",
     description:
@@ -78,8 +78,8 @@ export const products: GuideProduct[] = [
     badge: "Best Budget No-Drill Pick",
     name: "TOPSKY Under Desk PC Mount No Drill CPU Holder 50 lb Capacity",
     price: "$49.99",
-    rating: "4.0 stars from 80 Amazon ratings",
-    reviews: "80 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/415erSK8FIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FWCHJBFN?tag=deskfinds0d-20",
     description:
@@ -95,8 +95,8 @@ export const products: GuideProduct[] = [
     badge: "Best Compact No-Drill Pick",
     name: "ZUAVIALA Under Desk PC Mount，No-Drill PC Holder for Standing Desk",
     price: "$35.99",
-    rating: "4.6 stars from 28 Amazon ratings",
-    reviews: "28 ratings",
+    rating: "",
+    reviews: "",
     imageUrl: "https://m.media-amazon.com/images/I/41n5BLsmv7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLYK9NPM?tag=deskfinds0d-20",
     description:
@@ -114,7 +114,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Specific alternative mechanism identified per product", description: "Identified the specific alternative mechanism, clamp, strap-and-bracket, or weighted base, for products genuinely distinct from simple side-clamp designs, and its particular weight-capacity implications." },
   { title: "Weight-capacity tradeoff for screw-free mounting carried forward", description: "Carried forward the general weight-capacity tradeoff for screw-free mounting, since forgoing screws often means a lower or more carefully managed maximum weight than a drilled installation." },
   { title: "Long-term holding reliability tested under sustained PC weight", description: "Tested long-term holding reliability under a PC's sustained weight without screws, since this heavier-than-typical accessory puts more sustained stress on a screw-free mechanism than lighter items." },
-  { title: "Genuine renter-friendliness verified, not assumed from 'no screws' alone", description: "Verified genuine renter-friendliness, the primary reason to avoid screws, is actually realized, rather than assuming any 'no screws' claim guarantees fully damage-free, reversible installation." },
+  { title: "Genuine renter-friendliness verified, not assumed from 'no screws' alone", description: "Verified genuine renter-friendliness, the primary reason to avoid screws, is actually realized, rather than assuming any 'no screws' claim guarantees fully damage-free, reversible installation." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -247,11 +247,11 @@ export const faq: FaqItem[] = [
   { q: "Will a screw-free PC mount actually hold my tower long-term without loosening?", a: "This varies by mechanism and product, check current reviews specifically for long-term holding reliability under sustained PC weight, since this heavier-than-typical accessory stresses a screw-free mechanism more than lighter items." },
   { q: "Does 'no screws' guarantee my desk won't get damaged?", a: "Not automatically, verify genuine renter-friendliness through current reviews rather than assuming any 'no screws' claim guarantees fully damage-free, reversible installation." },
   { q: "Do I need a special mount if I have a standing desk?", a: "It helps to choose one explicitly tested for standing desk use, since repeated height changes add movement-related strain a fixed-height desk mount doesn't experience." },
-  { q: "What's the difference between a clamp mount and a strap-and-bracket mount?", a: "A clamp grips the case sides and locks in place, while a strap-and-bracket design cradles the case from below, a genuinely different weight-distribution approach worth considering for irregularly shaped cases." },
+  { q: "What's the difference between a clamp mount and a strap-and-bracket mount?", a: "A clamp grips the case sides and locks in place, while a strap-and-bracket design cradles the case from below, a genuinely different weight-distribution approach worth considering for irregularly shaped cases." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-under-desk-pc-mount-brackets", title: "Best Under-Desk PC Mount Brackets (2026)" },
   { href: "/guide/best-white-under-desk-pc-mounts", title: "Best White Under-Desk PC Mounts (2026)" },
-  { href: "/guide/best-monitor-shelves-for-gaming-desks", title: "Best Monitor Shelves for Gaming Desks (2026)" },
+  { href: "/guide/best-monitor-shelves-for-gaming-desks", title: "Best Monitor Shelves for Gaming Desks (2026)" }
 ];

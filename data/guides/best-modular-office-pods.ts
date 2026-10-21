@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "modular office pods";
 export const introParagraphs = [
   "Genuinely modular office pods, meaning expandable, reconfigurable systems built from connectable units, were not found as verified Amazon listings in this research pass. No product in this niche describes module connection points, expansion kits, or reconfiguration options.",
-  "Rather than apply a modular label to products that don't support it, we're featuring the two largest group-capacity pods in this pool as the closest available concept, structures sized to accommodate a group, while being explicit that \"modular\" isn't a confirmed feature of either.",
+  "Rather than apply a modular label to products that don't support it, we're featuring the two largest group-capacity pods in this pool as the closest available concept, structures sized to accommodate a group, while being explicit that \"modular\" isn't a confirmed feature of either."
 ];
 export const lastUpdated = "2026-08-02";
 export const readTime = "8 min";
@@ -34,7 +34,7 @@ export const products: GuideProduct[] = [
       "The largest and most expensive pod in this research pool, sized for 4 to 6 people at H92in W91in D70in exterior dimensions and shipping with a desk included. Amazon's listing does not include a star rating or review count, so group-size claims and build quality are unverified beyond the manufacturer's own description.\n\nA structure this large means real freight delivery logistics, multi-person assembly, and floor-loading verification are not optional, budget for professional installation and confirm ceiling height and doorway clearance well before delivery. Ventilation for a 4-6 person enclosed space over a multi-hour meeting is not addressed in the listing, worth asking the seller about directly.\n\nShips with a desk included. That said, no star rating or review count available from Amazon. Neither should be a surprise once you know to look for it.",
     specs: ["4 to 6 person capacity", "Exterior dimensions H92in W91in D70in", "Ships with a desk", "Largest and highest-priced pod in this pool"],
     pros: ["Largest stated capacity in this pool at 4 to 6 people", "Ships with a desk included", "Exact exterior dimensions disclosed (H92 x W91 x D70in)", "No star rating or review count to independently verify against the marketing copy"],
-    cons: ["No star rating or review count available from Amazon", "Highest price in this pool at $7,999", "No ventilation data disclosed for a multi-person enclosed space"],
+    cons: ["No star rating or review count available from Amazon", "Highest price in this pool at under $8,000", "No ventilation data disclosed for a multi-person enclosed space"],
     bestFor: "Teams needing a fixed 4-6 person structure, understanding it is not a modular or reconfigurable system.",
   },
   {
@@ -53,7 +53,7 @@ export const products: GuideProduct[] = [
     pros: ["Largest stated occupancy in this pool at 5 to 7 people", "Positioned for group meeting and focus-room use cases", "No star rating or review count to independently verify against the marketing copy"],
     cons: ["No star rating or review count available from Amazon", "No exterior dimensions disclosed in the listing title", "Price not returned by the listing data, check current Amazon price directly"],
     bestFor: "Larger teams needing a fixed 5-7 person structure, understanding it is not a modular or reconfigurable system.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -61,7 +61,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Checked for modular/expandable language and found none", description: "Reviewed all nine verified listings in this niche for module connection points, expansion kits, or reconfiguration language and found none, this guide discloses that gap explicitly." },
   { title: "Group-capacity size used as the closest available proxy", description: "Selected the two largest stated-occupancy pods as the closest concept to a configurable group space, while being explicit this is a size proxy, not a confirmed modular feature." },
   { title: "Structural/acoustic integrity of any connection points flagged as unverifiable", description: "Noted that since no product confirms modular connection points, questions about their structural or acoustic integrity don't apply, this is itself a disclosure gap worth flagging." },
-  { title: "Verified listing data only", description: "Used only prices, dimensions, and features actually printed in each Amazon listing, no invented ratings or review counts." },
+  { title: "Verified listing data only", description: "Used only prices, dimensions, and features actually printed in each Amazon listing, no invented ratings or review counts." }
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
@@ -177,11 +177,11 @@ export const faq: FaqItem[] = [
   { q: "Are there genuinely modular, expandable office pods on Amazon?", a: "We did not find any in this research pass, no verified listing in this niche describes module connection points or expansion options." },
   { q: "What's the closest alternative to a modular pod system?", a: "The largest fixed-capacity pods in this pool, sized for 4-6 or 5-7 people, are the closest available concept, though they are single, non-expandable structures." },
   { q: "Can I expand a pod later if my team grows?", a: "Not based on any current listing in this niche, ask the seller directly if this matters, since no expansion path is currently disclosed." },
-  { q: "Should I just buy the largest capacity pod to plan ahead?", a: "That's a reasonable approach given the lack of confirmed modularity, budget for your likely future footprint now rather than expecting to add capacity incrementally." },
+  { q: "Should I just buy the largest capacity pod to plan ahead?", a: "That's a reasonable approach given the lack of confirmed modularity, budget for your likely future footprint now rather than expecting to add capacity incrementally." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-portable-office-pods", title: "Best Portable Office Pods (2026)" },
   { href: "/guide/best-foldable-office-pods", title: "Best Foldable Office Pods (2026)" },
-  { href: "/guide/best-portable-office-booths", title: "Best Portable Office Booths (2026)" },
+  { href: "/guide/best-portable-office-booths", title: "Best Portable Office Booths (2026)" }
 ];
